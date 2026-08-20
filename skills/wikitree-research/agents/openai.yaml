@@ -1,0 +1,4 @@
+interface:
+  display_name: "WikiTree Research"
+  short_description: "Evidence-led WikiTree genealogy research"
+  default_prompt: "Use $wikitree-research to investigate this person and prepare sourced WikiTree updates."

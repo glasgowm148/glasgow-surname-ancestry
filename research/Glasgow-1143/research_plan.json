@@ -1,0 +1,43 @@
+{
+  "case_id": "Glasgow-1143",
+  "findings": [
+    {
+      "claim": "Glasgow-1143 was husband of Wilson-78088 and father of Glasgow-1144, Glasgow-1500 and Glasgow-1501.",
+      "confidence": "Strongly supported by derivative register and deed/court transcriptions",
+      "reasoning": "The congregation-register chronology names Robert and Rachel as parents of all three children. Memorial 74015 names Rachel as Robert's wife, and the equity case independently identifies James and Ann as Rachel's surviving children.",
+      "sources": [
+        "https://www.irishdeedsindex.net/mem.php?memorial=74015",
+        "https://web.archive.org/web/20101124184247id_/http://www.lifesweaving.com/Glasgow/Paper_Complaint.html",
+        "https://web.archive.org/web/20101124184247id_/http://www.lifesweaving.com/Glasgow/Paper_Reply.html",
+        "https://web.archive.org/web/20101124184247id_/http://lifesweaving.com/Glasgow/Kilwaughter/Timeline.html"
+      ]
+    }
+  ],
+  "objective": "Identify Robert Glasgow's proved family and test his unproved placement beneath Glasgow-1502.",
+  "questions": [
+    {
+      "answer": "No inspected record identifies Robert's father; the Glasgow-1502 edge remains tree-only.",
+      "id": "parents",
+      "question": "Who were Robert Glasgow-1143's parents?",
+      "status": "open"
+    },
+    {
+      "answer": "Rachel is strongly supported as spouse. The derivative register directly names Robert and Rachel as parents of James, Ann and the younger Rachel; PRONI MIC/1B/6 still needs inspection.",
+      "id": "family",
+      "question": "Which spouse and children are directly supported?",
+      "status": "open"
+    }
+  ],
+  "schema_version": 1,
+  "targets": [
+    {
+      "generation": 0,
+      "id": "Agnew Kilwaughter estate succession",
+      "kind": "archive",
+      "note": "Search Agnew/Kilwaughter leases, rentals and settlements before 1738 for Robert Glasgow's predecessor, father or marriage settlement.",
+      "reason": "This is the most likely source of the missing bridge to the older Kilwaughter household.",
+      "status": "open"
+    }
+  ],
+  "web_searches": []
+}

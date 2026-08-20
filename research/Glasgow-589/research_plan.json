@@ -1,0 +1,44 @@
+{
+  "case_id": "Glasgow-589",
+  "findings": [],
+  "objective": "Establish the identity and documented family of Glasgow-589, separating sourced facts from tree assertions.",
+  "questions": [
+    {
+      "answer": "",
+      "id": "identity",
+      "question": "Which records prove the subject's identity across events?",
+      "status": "open"
+    },
+    {
+      "answer": "",
+      "id": "parents",
+      "question": "Which original or indexed records identify the parents?",
+      "status": "open"
+    },
+    {
+      "answer": "",
+      "id": "family",
+      "question": "Which spouses and children are directly supported by records?",
+      "status": "open"
+    },
+    {
+      "answer": "",
+      "id": "conflicts",
+      "question": "What conflicts or same-name conflations must be resolved?",
+      "status": "open"
+    }
+  ],
+  "schema_version": 1,
+  "targets": [
+    {
+      "generation": 0,
+      "id": "Glasgow-589",
+      "kind": "wikitree",
+      "note": "WikiTree API request failed: HTTPSConnectionPool(host='api.wikitree.com', port=443): Max retries exceeded with url: /api.php (Caused by NameResolutionError(\"HTTPSConnection(host='api.wikitree.com', port=443): Failed to resolve 'api.wikitree.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "reason": "Initial subject and immediate family capture.",
+      "status": "error",
+      "updated_at": "2026-07-20T22:48:44Z"
+    }
+  ],
+  "web_searches": []
+}

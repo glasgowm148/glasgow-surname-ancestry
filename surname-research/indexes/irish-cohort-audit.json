@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "description": "Manual evidence overrides for the generated pre-1800 Irish cohort. These do not modify WikiTree or the workbook snapshot.",
+  "assessments": {
+    "Glasgow-1502": {
+      "action": "retain",
+      "working_birth_date": "before 1678",
+      "working_band": "17th century (1600-1699)",
+      "basis": "Robert was an adult congregational actor in 1699-1700; the profile's 1690 birth and 1772 death conflate him with Glasgow-1143."
+    },
+    "Glasgow-2249": {
+      "action": "exclude",
+      "basis": "No cited source proves Janet's Irish birth, dates, or attachment to John Glasgow of Cavers."
+    },
+    "Glasgow-3001": {
+      "action": "reclassify",
+      "working_birth_date": "1728",
+      "working_band": "18th century (1700-1799)",
+      "basis": "The source proves a Killybegs collector-account occurrence in 1728; it does not prove birth about 1650 or death in 1728."
+    },
+    "Glasgow-3171": {
+      "action": "retain",
+      "working_birth_date": "",
+      "working_band": "17th century (1600-1699)",
+      "basis": "A Dublin church event dated 22 December 1676 is cited, but the stale item link must be recovered; birth about 1600 is unsupported."
+    },
+    "Glasgow-3172": {
+      "action": "retain",
+      "working_display_name": "Captain James Glasgow",
+      "working_birth_date": "before 1646",
+      "working_band": "17th century (1600-1699)",
+      "basis": "PRONI maritime records and a 1686 Belfast will extract support an adult active by 1667; birth about 1600 is unsupported."
+    },
+    "Glasgow-3556": {
+      "action": "retain",
+      "working_birth_date": "before 1671",
+      "working_band": "17th century (1600-1699)",
+      "basis": "Donegal deeds prove Thomas was an adult in 1692-1695; County Donegal birth about 1670 is not proved."
+    },
+    "Glasgow-635": {
+      "action": "exclude",
+      "working_display_name": "Reverend Patrick Glasgow",
+      "basis": "Records support Maryland ministry from 1736 and death in 1753, not an Irish birth about 1680; a major biography calls him Scottish."
+    }
+  }
+}

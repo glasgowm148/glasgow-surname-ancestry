@@ -1,0 +1,44 @@
+{
+  "case_id": "Glasgow-2462",
+  "findings": [{"claim":"The Polwarth indexes for Elizabeth and William name only an unidentified father William and do not connect him to this Inveresk profile.","confidence":"high","reasoning":"No reviewed residence, marriage or relational record links Glasgow-2462 to Polwarth.","sources":["https://www.familysearch.org/ark:/61903/1:1:XYL3-24Q","https://www.familysearch.org/ark:/61903/1:1:XTBH-RJS"]}],
+  "objective": "Establish the identity and documented family of Glasgow-2462, separating sourced facts from tree assertions.",
+  "questions": [
+    {
+      "answer": "",
+      "id": "identity",
+      "question": "Which records prove the subject's identity across events?",
+      "status": "open"
+    },
+    {
+      "answer": "",
+      "id": "parents",
+      "question": "Which original or indexed records identify the parents?",
+      "status": "open"
+    },
+    {
+      "answer": "",
+      "id": "family",
+      "question": "Which spouses and children are directly supported by records?",
+      "status": "open"
+    },
+    {
+      "answer": "",
+      "id": "conflicts",
+      "question": "What conflicts or same-name conflations must be resolved?",
+      "status": "open"
+    }
+  ],
+  "schema_version": 1,
+  "targets": [
+    {
+      "generation": 0,
+      "id": "Glasgow-2462",
+      "kind": "wikitree",
+      "note": "WikiTree subject and immediate family captured.",
+      "reason": "Initial subject and immediate family capture.",
+      "status": "complete",
+      "updated_at": "2026-07-17T08:32:26Z"
+    }
+  ],
+  "web_searches": []
+}

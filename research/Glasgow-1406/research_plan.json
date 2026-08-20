@@ -1,0 +1,169 @@
+{
+  "case_id": "Glasgow-1406",
+  "findings": [
+    {
+      "claim": "No reviewed source identifies either parent of Michael Glasgow, and Robert Glasgow (Glasgow-1512) must not be attached as his father.",
+      "confidence": "high",
+      "reasoning": "Michael's profile proposes Robert only from repeated names and compatible estimated dates. Robert's capture documents sons Robert and Ralph in Ayr but contains no record linking him to Michael. FamilySearch records were not accessible and remain unreviewed.",
+      "sources": [
+        "captures/20260716T204652Z_Glasgow-1406.json",
+        "captures/20260716T205030Z_Glasgow-1512.json"
+      ]
+    },
+    {
+      "claim": "An Irvine councillor named Michael Glasgow was in office by 16 April 1686 and served as a trades councillor in September 1702.",
+      "confidence": "high",
+      "reasoning": "The printed burgh muniments directly name him on those dates. Identity with the subject is strong but indirect because the entries do not call him a saddler. The profile says 'before 1680,' which is compatible with the civic record; no exact birth year can be inferred.",
+      "sources": [
+        "sources/muniments_royal_burgh_irvine_vol2.pdf",
+        "https://electricscotland.com/history/gazetteer/MunimentsoftheroyalburghofIrvine02.pdf"
+      ]
+    },
+    {
+      "claim": "Surviving Irvine civic and trades records are the best remaining route to a parent-identifying record.",
+      "confidence": "high",
+      "reasoning": "The burgh catalogue lists council indexes and minutes, a Dean of Guild register, and an Incorporated Trades minute book spanning Michael's career. Burgess, apprentice, or craft admissions sometimes state a father or master, but these records have not been inspected.",
+      "sources": [
+        "sources/irvine_burgh_catalogue_2017_wayback_recovered.pdf"
+      ]
+    }
+  ],
+  "objective": "Establish the identity and documented family of Glasgow-1406, separating sourced facts from tree assertions.",
+  "questions": [
+    {
+      "answer": "The uncommon-name, same-place sequence links the councillor recorded in 1686 and 1702 strongly but indirectly to Michael the Irvine saddler. The civic entries do not state his occupation until the broad 'for Trades' classification in 1702, so the council and Dean of Guild originals should be checked before treating the identity as proved.",
+      "id": "identity",
+      "question": "Which records prove the subject's identity across events?",
+      "status": "answered"
+    },
+    {
+      "answer": "No discovered source identifies either parent. Robert Glasgow (Glasgow-1512) is an unsupported tree hypothesis based on naming and estimated chronology; no reviewed record links the men. Do not attach him. The best next sources are Gr1/7/1, Gr1/5/1, Gr1/1/5-6 (NRS B37/12/4-5), and Gr1/23/3.",
+      "id": "parents",
+      "question": "Which original or indexed records identify the parents?",
+      "status": "answered"
+    },
+    {
+      "answer": "The WikiTree profile cites indexed marriage and baptism records for wives Elizabeth Garven and Catharine Baird and children, but this pass focused on parentage and did not independently inspect the inaccessible FamilySearch record images.",
+      "id": "family",
+      "question": "Which spouses and children are directly supported by records?",
+      "status": "answered"
+    },
+    {
+      "answer": "The profile's 'before 1680' date is compatible with a same-name Irvine councillor already in office in 1686; the unresolved issue is whether that councillor was the saddler. A separate Michael Glasgow found in a 1559-60 Stevenston teind list is more than a century too early and is excluded.",
+      "id": "conflicts",
+      "question": "What conflicts or same-name conflations must be resolved?",
+      "status": "answered"
+    }
+  ],
+  "schema_version": 1,
+  "targets": [
+    {
+      "generation": 0,
+      "id": "Glasgow-1406",
+      "kind": "wikitree",
+      "note": "WikiTree subject and immediate family captured; optional FamilySearch CDP attempt failed and produced no FamilySearch evidence.",
+      "reason": "Initial subject and immediate family capture.",
+      "status": "complete",
+      "updated_at": "2026-07-16T20:50:00Z"
+    },
+    {
+      "generation": 1,
+      "id": "Glasgow-1418",
+      "kind": "wikitree",
+      "note": "WikiTree subject and immediate family captured.",
+      "reason": "Automatic generation 1 descendant capture; hydrates the following generation.",
+      "status": "complete",
+      "updated_at": "2026-07-16T20:46:53Z"
+    },
+    {
+      "generation": 1,
+      "id": "Glasgow-1408",
+      "kind": "wikitree",
+      "note": "WikiTree subject and immediate family captured.",
+      "reason": "Automatic generation 1 descendant capture; hydrates the following generation.",
+      "status": "complete",
+      "updated_at": "2026-07-16T20:46:54Z"
+    },
+    {
+      "generation": 1,
+      "id": "Glasgow-1409",
+      "kind": "wikitree",
+      "note": "WikiTree subject and immediate family captured.",
+      "reason": "Automatic generation 1 descendant capture; hydrates the following generation.",
+      "status": "complete",
+      "updated_at": "2026-07-16T20:46:55Z"
+    },
+    {
+      "generation": 1,
+      "id": "Glasgow-1410",
+      "kind": "wikitree",
+      "note": "WikiTree subject and immediate family captured.",
+      "reason": "Automatic generation 1 descendant capture; hydrates the following generation.",
+      "status": "complete",
+      "updated_at": "2026-07-16T20:46:57Z"
+    },
+    {
+      "generation": 1,
+      "id": "Glasgow-1407",
+      "kind": "wikitree",
+      "note": "WikiTree subject and immediate family captured.",
+      "reason": "Automatic generation 1 descendant capture; hydrates the following generation.",
+      "status": "complete",
+      "updated_at": "2026-07-16T20:46:58Z"
+    },
+    {
+      "id": "Glasgow-1512",
+      "kind": "wikitree",
+      "note": "WikiTree subject and immediate family captured.",
+      "reason": "Test the profile's proposed Robert Glasgow father against his dates, family, and sources.",
+      "status": "complete",
+      "updated_at": "2026-07-16T20:50:30Z"
+    },
+    {
+      "id": "MPMY-CHV",
+      "kind": "familysearch",
+      "profile_id": "Glasgow-1406",
+      "reason": "Inspect Michael Glasgow's attached records for a baptism, burgess admission, probate, or other parent-identifying source.",
+      "status": "pending"
+    },
+    {
+      "id": "MLNW-58S",
+      "kind": "familysearch",
+      "profile_id": "Glasgow-1406",
+      "reason": "Inspect the second PID cited on Michael's WikiTree profile and determine whether it is Michael, his spouse, or a conflation.",
+      "status": "pending"
+    }
+  ],
+  "web_searches": [
+    {
+      "id": "irvine-muniments-michael",
+      "purpose": "Find contemporary or transcribed Irvine records that establish Michael's age, occupation, or family before 1700.",
+      "query": "Michael Glasgow Irvine councillor saddler 1686 1702",
+      "result_summary": "The published Irvine muniments name Michael Glasgow as a councillor on 16 April 1686 and again in September 1702, when he was selected among the trades councillors. They name no relative.",
+      "source_urls": [
+        "https://electricscotland.com/history/gazetteer/MunimentsoftheroyalburghofIrvine02.pdf"
+      ],
+      "status": "complete"
+    },
+    {
+      "id": "irvine-archive-catalogue",
+      "purpose": "Identify surviving original Irvine records most likely to contain a burgess, apprentice, or craft relationship.",
+      "query": "Irvine Burgh catalogue Dean of Guild Incorporated Trades council minutes 1680 1700",
+      "result_summary": "A Wayback capture of the North Ayrshire catalogue identifies Gr1/7/1, Gr1/5/1, Gr1/1/5-6, and Gr1/23/3. They are not publicly digitised in the reviewed catalogue.",
+      "source_urls": [
+        "https://web.archive.org/web/20190919232657/https://ayrshirearchives.files.wordpress.com/2019/04/irvine-burgh-catalogue-2017-watermarked.pdf"
+      ],
+      "status": "complete"
+    },
+    {
+      "id": "michael-name-exclusions",
+      "purpose": "Separate earlier same-name Scots from the Irvine saddler.",
+      "query": "\"Michael Glasgow\" Scotland Irvine Ayrshire before 1700",
+      "result_summary": "A Michael Glasgow in a Stevenston teind list belongs to 1559-60 and is excluded as the subject or a plausible father. No parent-identifying probate or relational record was found online.",
+      "source_urls": [
+        "https://aanhs.org/people-of-ayrshire-1559-1600/"
+      ],
+      "status": "complete"
+    }
+  ]
+}

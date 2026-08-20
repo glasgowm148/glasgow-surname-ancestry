@@ -1,0 +1,53 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+.venv/
+.cache/
+__pycache__/
+*.py[cod]
+test-results/
+
+# Local agent and editor state
+.agents/
+.codex/
+.idea/
+.vscode/
+
+# Temporary and generated output
+tmp/
+artifacts/
+www/
+*.log
+*.sqlite*
+
+# Raw or generated genealogy datasets may include living people
+data/exports/
+data/reference/
+data/wikitree/
+*.ged
+*.gedcom
+
+# Downloaded/captured third-party records are large and may be licensed
+research/**/captures/
+research/**/sources/
+research/.tmp-*/
+research/**/*.html
+research/**/research_brief.md
+research/**/research_state.json
+research/**/evidence_index.json
+surname-research/**/sources/
+surname-research/**/page-extracts/
+assets/source-images/
+*.pdf
+*.tif
+*.tiff
+*.jp2
+
+# Raw genetic test data is sensitive
+ydna/
+*.vcf
+*.bcf
+
+# Local handoff notes
+handover.md

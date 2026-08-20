@@ -1,0 +1,164 @@
+{
+  "case_id": "Glasgow-1538",
+  "findings": [
+    {
+      "claim": "Ralph Glasgow's structured WikiTree father is Glasgow-1538, but his biography text incorrectly links Glasgow-1530.",
+      "confidence": "high",
+      "reasoning": "Ralph's direct capture gives father person ID 29040096 and returns Glasgow-1538 with that ID in Parents; the prose biography separately links Glasgow-1530. This establishes an internal profile conflict, not biological parentage.",
+      "sources": [
+        "captures/20260716T102149Z_Glasgow-1538.json",
+        "captures/20260716T102553Z_Glasgow-1537.json",
+        "https://www.wikitree.com/wiki/Glasgow-1537"
+      ]
+    },
+    {
+      "claim": "Focused public-web searches found no independent record naming Ralph Glasgow as a son of Robert Glasgow and Margaret Brash.",
+      "confidence": "medium",
+      "reasoning": "Exact-name, event-date, FamilySearch identifier, FreeCEN, FreeREG and Scottish Indexes searches returned either no relevant result or pages repeating tree material. This is a limited negative search, not proof that no record exists.",
+      "sources": [
+        "https://plus.wikitree.com/SpacePages/Others_2.htm"
+      ]
+    },
+    {
+      "claim": "Glasgow-1530 and Glasgow-1538 both claim the same 6 November 1803 Barony marriage to Margaret Brash, using duplicate Margaret profiles Brash-295 and Brash-171.",
+      "confidence": "high",
+      "reasoning": "Both captured WikiTree biographies cite the identical parish number and register reference. This proves a duplicate tree claim, not the groom's identity.",
+      "sources": [
+        "captures/20260716T102149Z_Glasgow-1538.json",
+        "captures/20260716T102354Z_Glasgow-1530.json",
+        "https://www.scotlandspeople.gov.uk/"
+      ]
+    },
+    {
+      "claim": "Glasgow-1530 is presently the stronger candidate for Margaret Brash's husband than the unlinked 1784 child represented by Glasgow-1538.",
+      "confidence": "medium",
+      "reasoning": "The older profile has a coherent same-parish sequence: marriage to Elizabeth Jack in 1789, children through 1801, Elizabeth's death in 1802, the Brash marriage in 1803, and a 1839 burial for a 79-year-old weaver. Ralph was also a weaver. These facts remain circumstantial until original images connect residence or occupation across events.",
+      "sources": [
+        "captures/20260716T102354Z_Glasgow-1530.json",
+        "https://www.ancestry.com/genealogy/records/william-glasgow-24-1m5s27"
+      ]
+    },
+    {
+      "claim": "Ralph's wife is unresolved between Ann McLean and Agnes: the 1828 marriage and Alexander's 1837 baptism name Ann McLean, while the 1851-derived household text and two daughter profiles use Agnes.",
+      "confidence": "high",
+      "reasoning": "The captured profiles contain incompatible names. Ann and Agnes must not be assumed equivalent without an original record, later civil certificate, or evidence of remarriage.",
+      "sources": [
+        "captures/20260716T102553Z_Glasgow-1537.json",
+        "https://familysearch.org/ark:/61903/1:1:XTT2-44Y",
+        "https://www.familysearch.org/ark:/61903/1:1:XTG4-H5W"
+      ]
+    }
+  ],
+  "objective": "Establish the identity and documented family of Glasgow-1538, separating sourced facts from tree assertions.",
+  "questions": [
+    {
+      "answer": "Two WikiTree profiles claim the same 1803 marriage. Glasgow-1530 currently has the stronger chronology, but original register images and identifying details are still required.",
+      "id": "identity",
+      "question": "Which records prove the subject's identity across events?",
+      "status": "open"
+    },
+    {
+      "answer": "",
+      "id": "parents",
+      "question": "Which original or indexed records identify the parents?",
+      "status": "open"
+    },
+    {
+      "answer": "Alexander's 1837 baptism names Ralph Glasgow and Ann McLean. The other current child links derive from tree or census assertions and need direct records; Ralph's own parents remain unproved.",
+      "id": "family",
+      "question": "Which spouses and children are directly supported by records?",
+      "status": "open"
+    },
+    {
+      "answer": "Glasgow-1530 and Glasgow-1538 compete for Margaret Brash's husband; Brash-171 and Brash-295 duplicate the bride. Ralph's structured father is Glasgow-1538 despite stale biography text naming Glasgow-1530. Ann versus Agnes is also unresolved.",
+      "id": "conflicts",
+      "question": "What conflicts or same-name conflations must be resolved?",
+      "status": "open"
+    }
+  ],
+  "schema_version": 1,
+  "targets": [
+    {
+      "id": "Glasgow-1538",
+      "kind": "wikitree",
+      "note": "Imported from existing AI export.",
+      "reason": "Initial subject and immediate family capture.",
+      "status": "complete",
+      "updated_at": "2026-07-16T10:21:49Z"
+    },
+    {
+      "id": "Glasgow-1530",
+      "kind": "wikitree",
+      "note": "WikiTree subject and immediate family captured.",
+      "reason": "Ralph Glasgow's captured biography names this different Robert Glasgow as his father; inspect the profile and immediate family for a duplicate or erroneous link.",
+      "status": "complete",
+      "updated_at": "2026-07-16T10:23:54Z"
+    },
+    {
+      "id": "Glasgow-1537",
+      "kind": "wikitree",
+      "note": "WikiTree subject and immediate family captured.",
+      "reason": "Capture Ralph as the subject so WikiTree returns his current parents, spouse and children rather than the partial relative stub in the root export.",
+      "status": "complete",
+      "updated_at": "2026-07-16T10:25:53Z"
+    },
+    {
+      "id": "G3SR-8S4",
+      "kind": "familysearch",
+      "profile_id": "Glasgow-2702",
+      "reason": "Inspect Alexander's attached records for original parent names, dates and household evidence relevant to Ann versus Agnes.",
+      "status": "pending"
+    },
+    {
+      "id": "G3S5-18T",
+      "kind": "familysearch",
+      "profile_id": "Glasgow-2704",
+      "reason": "Inspect Janet's attached records for a civil certificate or census entry identifying her mother.",
+      "status": "pending"
+    }
+  ],
+  "web_searches": [
+    {
+      "id": "web-robert-brash",
+      "purpose": "Find independent evidence linking the 1784 Robert to the 1803 marriage and later children.",
+      "query": "\"Robert Glasgow\" \"Margaret Brash\" Barony Scotland",
+      "result_summary": "No independent record page found; results were irrelevant or repeated WikiTree-derived content.",
+      "status": "complete"
+    },
+    {
+      "id": "web-ralph-parents",
+      "purpose": "Find a record explicitly naming Ralph's parents.",
+      "query": "\"Ralph Glasgow\" \"Ann McLean\" Barony Scotland parents",
+      "result_summary": "No parent-naming record found. The relevant hit repeats the 1837 record in which Ralph is the father, not a child.",
+      "status": "complete"
+    },
+    {
+      "id": "web-familysearch-records",
+      "purpose": "Check whether captured FamilySearch record identifiers are indexed elsewhere with more detail.",
+      "query": "\"XTT2-44B\" OR \"XTG4-H5W\" OR \"X1WW-D8B\" Glasgow",
+      "result_summary": "No useful independently indexed copies found.",
+      "status": "complete"
+    },
+    {
+      "id": "web-free-indexes",
+      "purpose": "Look for Ralph in freely searchable census and parish indexes.",
+      "query": "site:freecen.org.uk OR site:freereg.org.uk OR site:scottishindexes.com \"Ralph Glasgow\"",
+      "result_summary": "No indexed search-engine results found.",
+      "status": "complete"
+    },
+    {
+      "id": "web-older-robert",
+      "purpose": "Test the distinctive first marriage and burial asserted for Glasgow-1530.",
+      "query": "\"Robert Glasgow\" \"Elizabeth Jack\" Barony Lanarkshire OR \"Robert Glasgow\" weaver \"9 September 1839\"",
+      "result_summary": "A public Ancestry tree page repeats son William's 1795 birth to Robert Glasgow and Elizabeth Jack, but no independent image or archive transcript surfaced. Treat it as a clue only.",
+      "status": "complete"
+    },
+    {
+      "id": "web-ann-agnes",
+      "purpose": "Determine whether Ralph had one wife recorded under two names or two wives.",
+      "query": "\"30 Old Dalmarnock Road\" \"Ralph Glasgow\" OR \"Ralph Glasgow\" \"Agnes Glasgow\" Calton 1851 OR \"Ann McLean\" \"Ralph Glasgow\" 1828",
+      "result_summary": "No relevant independently indexed page surfaced. FamilySearch source pages for two children are queued for authenticated capture.",
+      "status": "complete"
+    }
+  ]
+}

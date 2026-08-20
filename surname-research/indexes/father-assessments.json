@@ -1,0 +1,458 @@
+{
+  "schema_version": 1,
+  "description": "Manual evidence assessments for fathers shown in early-profiles.md. The generator never upgrades a WikiTree attachment automatically.",
+  "statuses": {
+    "confirmed": "A relational record names the father and the identity chain resolves the named man to the linked profile.",
+    "plausible": "A conflict-free indirect case supports the relationship, but no record directly proves the exact edge.",
+    "uncertain": "The relationship is attached or proposed but the saved evidence is insufficient to establish it.",
+    "contradicted": "Reviewed evidence conflicts with, or specifically fails to support, the attachment."
+  },
+  "assessments": {
+    "Glasgow-3913": {
+      "father_id": "Glasgow-1078",
+      "status": "plausible",
+      "basis": "The 1669 roll places John immediately beside James at Kilwaughter. If James is the 1645 Scottish child, Robert-1078 is the best father for both men; the roll itself states no relationship, so uncle or cousin remain possible.",
+      "evidence": [{"label": "case findings", "path": "../../research/Glasgow-3913/findings.md"}]
+    },
+    "Glasgow-1078": {
+      "father_id": "Glasgow-1027",
+      "status": "confirmed",
+      "basis": "The 17 November 1618 Glasgow High Kirk entry names the child Robert's parents as Robert Glasgow and Jonet Conynghame. The proposed later Larne identity remains separate from this Scottish parentage proof.",
+      "evidence": [{"label": "case findings", "path": "../../research/Glasgow-1078/findings.md"}]
+    },
+    "Glasgow-1073": {
+      "father_id": "Glasgow-1604",
+      "status": "uncertain",
+      "basis": "No record names the minister's father, but John-1604 is the best existing-profile candidate by generation and the Kilwinning-Kilbirnie locality. His own vital facts and family are tree-derived, and John-3375 must first be tested as a possible duplicate of the minister.",
+      "evidence": [{"label": "case findings", "path": "../../research/Glasgow-1073/findings.md"}]
+    },
+    "Glasgow-1603": {
+      "father_id": "Glasgow-3193",
+      "status": "uncertain",
+      "basis": "The current Midlothian father Glasgow-991 is tree-derived and conflicts with Hugh's asserted Ayrshire role. John-3193 is a record-proved son in the Corsankell family and a better branch candidate, but the age gap may conceal another generation and no record names Hugh.",
+      "evidence": [{"label": "case findings", "path": "../../research/Glasgow-1603/findings.md"}]
+    },
+    "Glasgow-1604": {
+      "father_id": "Glasgow-1603",
+      "status": "uncertain",
+      "basis": "The proposed father-son ages and Ayrshire placement work, but both profiles' vital facts and this relationship cite only an Ancestry tree.",
+      "evidence": [{"label": "case findings", "path": "../../research/Glasgow-1604/findings.md"}]
+    },
+    "Glasgow-3145": {
+      "father_id": "Glasgow-991",
+      "status": "uncertain",
+      "basis": "The profile is empty and unsourced and exactly repeats Glasgow-1604's estimated 1626 birth. It is probably a duplicate or imported-tree artifact; neither its direct Midlothian father nor Glasgow-1604's Ayrshire route is proved.",
+      "evidence": [{"label": "case findings", "path": "../../research/Glasgow-3145/findings.md"}]
+    },
+    "Glasgow-3375": {
+      "father_id": "Glasgow-1604",
+      "status": "uncertain",
+      "basis": "Kilwinning OPR indexes establish John-3375's later household but do not name his father. He may instead duplicate Rev. John-1073, which must be resolved before retaining two same-generation sons named John.",
+      "evidence": [{"label": "case findings", "path": "../../research/Glasgow-3375/findings.md"}]
+    },
+    "Glasgow-3971": {
+      "father_id": "Glasgow-1078",
+      "status": "confirmed",
+      "basis": "The November 1645 Scottish index names the child's father Robert. James-3971 preserves that Scottish identity separately from Irish householder James-1081.",
+      "evidence": [{"label": "case findings", "path": "../../research/Glasgow-3971/findings.md"}]
+    },
+    "Glasgow-1027": {
+      "father_id": "Glasgow-3188",
+      "status": "confirmed",
+      "basis": "Jonet Meik's 1607 testament calls Robert her son, and Ninian Glasgow's 1613 testament independently calls Robert his son; the two records resolve the parents to this family.",
+      "evidence": [{"label": "case findings", "path": "../../research/Glasgow-1027/findings.md"}]
+    },
+  "Glasgow-1028": {
+    "father_id": "Glasgow-3163",
+    "status": "uncertain",
+    "basis": "Andrew's 1598 testament expressly identifies Marioune, James, Andrew and William as his four children and omits David. This makes the direct-son placement doubtful, but David still fits the Calder cluster and no better father has been identified; retain the edge only as uncertain topology.",
+      "evidence": [{"label": "case findings", "path": "../../research/Glasgow-1028/findings.md"}]
+    },
+    "Glasgow-1029": {
+      "father_id": "Glasgow-1093",
+      "status": "confirmed",
+      "basis": "A 1575 Glasgow protocol describes Stephen as son of the late John Glasgow and names Jonet Spreull as his mother.",
+      "evidence": [{"label": "case findings", "path": "../../research/Glasgow-1029/findings.md"}]
+    },
+    "Glasgow-1030": {
+      "father_id": "Glasgow-3522",
+      "status": "uncertain",
+      "basis": "The 1619 witnesses do not establish brothers: George is directly proved William's son, but Robert is directly proved Ninian's son. Ninian's testament-named brother John, another son of Robert the fisher, is now the leading identity candidate for this John, but no occupation or property bridge proves the identity.",
+      "evidence": [{"label": "case findings", "path": "../../research/Glasgow-1030/findings.md"}]
+    },
+    "Glasgow-1093": {
+      "father_id": "Glasgow-1098",
+      "status": "confirmed",
+      "basis": "The 31 December 1534 property transaction records William Glasgow and Esbell Brade resigning property to their son John Glasgow and his wife Janet Spreull. Independently, protocol 805 records John being served heir of William, explicitly his father, on 28 October 1564.",
+      "evidence": [{"label": "case findings", "path": "../../research/Glasgow-1093/findings.md"}]
+    },
+    "Glasgow-1096": {
+      "father_id": "Glasgow-1098",
+      "status": "plausible",
+      "basis": "Chronology, adjacent burgh property and Robert's association with Archibald support placement in William's generation, but no saved relational record identifies William as Robert's father.",
+      "evidence": [{"label": "case findings", "path": "../../research/Glasgow-1096/findings.md"}]
+    },
+    "Glasgow-1097": {
+      "father_id": "Glasgow-1098",
+      "status": "plausible",
+      "basis": "Protocol 84 directly places married Archibald in the Glasgow burgh in 1551 with Robert Glasgow as a witness. This supports the proposed burgh cluster, but the complete published protocol search found no record naming Archibald's father or calling Robert his brother.",
+      "evidence": [{"label": "case findings", "path": "../../research/Glasgow-1097/findings.md"}]
+    },
+  "Glasgow-1098": {
+    "father_id": "Glasgow-1095",
+    "status": "plausible",
+    "basis": "The relationship is unproved, but the same Glasgow locality and workable estimated generation make John the leading known candidate for William's father. Both birth years are reconstructed, so the attachment must remain explicitly uncertain.",
+      "evidence": [{"label": "case findings", "path": "../../research/Glasgow-1098/findings.md"}]
+    },
+    "Glasgow-1099": {
+      "father_id": "Glasgow-3522",
+      "status": "confirmed",
+      "basis": "The 15 July 1586 sasine names George as heir of his father William, and the 1 September transaction names his mother Margaret Herbesoun, resolving the attached parental couple.",
+      "evidence": [{"label": "case findings", "path": "../../research/Glasgow-1099/findings.md"}]
+    },
+  "Glasgow-1156": {
+    "father_id": "Glasgow-1097",
+    "status": "plausible",
+    "basis": "Archibald was alive after 1560, not dead in 1560. His estimated 1533 birth, Robert's estimated 1582 birth and their shared Glasgow locality make the relationship chronologically and geographically plausible, though no record names Robert as his son.",
+      "evidence": [{"label": "case findings", "path": "../../research/Glasgow-1156/findings.md"}]
+    },
+  "Glasgow-1150": {
+    "father_id": "Glasgow-1148",
+    "status": "confirmed",
+    "basis": "The 19 March 1626 Inveresk baptism directly names Alexander Glasgow as James's father. The adult Edinburgh weaver is now excluded because his 1641 apprenticeship names a different father, Robert of Wester Duddingston.",
+      "evidence": [{"label": "case findings", "path": "../../research/Glasgow-1150/findings.md"}]
+    },
+  "Glasgow-3098": {
+    "father_id": "",
+    "father_label": "Robert Glasgow of Wester Duddingston; exact profile unresolved",
+    "status": "plausible",
+    "basis": "Glasgow-3098 now redirects to the wrongly conflated Glasgow-1150 and is retained here only as pre-merge evidence. The 1641 apprentice register directly names James's father as Robert Glasgow, servant to William Crichtoun in Wester Duddingston. Robert-1156 is the leading profile match but is not uniquely proved.",
+      "evidence": [{"label": "case findings", "path": "../../research/Glasgow-3098/findings.md"}]
+    },
+  "Glasgow-1374": {
+    "father_id": "",
+    "father_label": "James Glasgow, Edinburgh weaver; replacement profile pending",
+    "status": "confirmed",
+    "basis": "Robert's 24 January 1672 apprenticeship explicitly calls him son of James Glasgow, weaver. His 5 May 1655 Edinburgh baptism to James Glasgow and Agnes Duncan and age sixteen at apprenticeship resolve him to this household.",
+      "evidence": [{"label": "case findings", "path": "../../research/Glasgow-1374/findings.md"}]
+    },
+  "Glasgow-3143": {
+    "father_id": "",
+    "father_label": "James Glasgow, Edinburgh weaver; replacement profile pending",
+    "status": "confirmed",
+    "basis": "William Calder's 30 June 1686 burgess admission explicitly calls his wife Marion the daughter of James Glasgow, weaver and burgess; their marriage was recorded the previous day.",
+      "evidence": [{"label": "case findings", "path": "../../research/Glasgow-3143/findings.md"}]
+    },
+  "Glasgow-1168": {
+    "father_id": "Glasgow-1098",
+    "status": "plausible",
+    "basis": "William Glasgow is the current attached father and is chronologically possible, but no record joins his Glasgow-burgh family to James elder at Corsankell. Retain the edge as uncertain rather than treating the former John Glasgow attachment as the current relationship.",
+      "evidence": [{"label": "case findings", "path": "../../research/Glasgow-1168/findings.md"}]
+    },
+  "Glasgow-3921": {
+    "father_id": "Glasgow-1168",
+    "status": "confirmed",
+    "basis": "The 1559-60 teind material distinguishes James younger and James elder at Corsankell; GD39/5/59 then explicitly calls James and John the elder James's sons. The same holding and designations resolve the attached father-son profiles.",
+      "evidence": [{"label": "case findings", "path": "../../research/Glasgow-3921/findings.md"}]
+    },
+  "Glasgow-1495": {
+    "father_id": "Glasgow-3921",
+    "status": "plausible",
+    "basis": "The live candidate is James younger of the Corsankell/Stevenston cluster and the chronology permits the relationship, but Katherine's 1605 testament calendar names her husband and parish, not her father. Retain only as plausible.",
+      "evidence": [{"label": "case findings", "path": "../../research/Glasgow-1495/findings.md"}]
+    },
+    "Glasgow-1557": {
+      "father_id": "Glasgow-1168",
+      "status": "plausible",
+      "basis": "The proposed relationship is consistent with the Lothian chronology, locality and naming pattern, but the profile acknowledges that no direct birth or relational record survives.",
+      "evidence": [{"label": "case findings", "path": "../../research/Glasgow-1557/findings.md"}]
+    },
+  "Glasgow-1561": {
+    "father_id": "Glasgow-3163",
+    "status": "uncertain",
+    "basis": "Andrew's 1598 testament expressly identifies Marioune, James, Andrew and William as his four children and omits John. This makes the direct-son placement doubtful, but John still fits the Lothian cluster and no better father has been identified; retain the edge only as uncertain topology.",
+      "evidence": [{"label": "case findings", "path": "../../research/Glasgow-1561/findings.md"}]
+    },
+    "Glasgow-3023": {
+      "status": "uncertain",
+      "basis": "Alan's 1593 assythment record identifies his death and associates but no parents; the proposed Stewart naming theory does not identify a father.",
+      "evidence": [{"label": "case findings", "path": "../../research/Glasgow-3023/findings.md"}]
+    },
+  "Glasgow-3026": {
+    "father_id": "Glasgow-1096",
+    "status": "uncertain",
+    "basis": "Robert Glasgow twice appeared with David Howe in 1557 and 1560, including at a dyer-family property transaction in the South-Port-to-Clyde-bridge corridor; Isabella was married to John Howe, dyer, by 1600. This is the strongest current family-network lead, but neither Howe succession nor Isabella's parentage is stated.",
+      "evidence": [{"label": "case findings", "path": "../../research/Glasgow-3026/findings.md"}]
+    },
+    "Glasgow-3061": {
+      "father_id": "Glasgow-1099",
+      "status": "confirmed",
+      "basis": "John Stewart's 25 November 1624 burgess admission directly calls his wife Jonat the lawful daughter of George Glasgow, merchant, burgess and guild brother. The exact husband, Glasgow household, first child in 1625 and George-1099's matching civic identity resolve the record to this profile.",
+      "evidence": [{"label": "case findings", "path": "../../research/Glasgow-3061/findings.md"}]
+    },
+    "Glasgow-3062": {
+      "father_id": "Glasgow-3188",
+      "status": "plausible",
+      "basis": "Jonet Meik's testament names a Marion Glasgow as a legatee within Ninian's household network, but does not call her a daughter; the biography also retains a conflicting placement note.",
+      "evidence": [{"label": "case findings", "path": "../../research/Glasgow-3062/findings.md"}]
+    },
+    "Glasgow-3075": {
+      "father_id": "Glasgow-3188",
+      "status": "plausible",
+      "basis": "Ninian Glasgow's 1613 testament explicitly provides for a son William, but it gives no occupation or residence proving that son was William the Leith mealmaker. The attachment is plausible, not record-confirmed.",
+      "evidence": [{"label": "case findings", "path": "../../research/Glasgow-3075/findings.md"}]
+    },
+    "Glasgow-3078": {
+      "father_id": "Glasgow-3075",
+      "status": "confirmed",
+      "basis": "Archibald's 1639 apprenticeship calls him the son of William Glasgow, mealmaker in Leith, and his 1647 retour again calls him heir of William Glasgow, mealmaker there, his father. Name, place and occupation uniquely match the attached father.",
+      "evidence": [{"label": "case findings", "path": "../../research/Glasgow-3078/findings.md"}]
+    },
+  "Glasgow-3163": {
+    "father_id": "Glasgow-1093",
+    "status": "uncertain",
+    "basis": "John is chronologically possible, but Andrew's testament and searches of the Glasgow protocols, Great Seal and Privy Council provide no burgh-to-Calder relationship. Andrew is documented instead in the rural Caldercleir estate context, where the Morton papers and rentals remain unsearched at item level.",
+      "evidence": [{"label": "case findings", "path": "../../research/Glasgow-3163/findings.md"}]
+    },
+  "Glasgow-3613": {
+    "father_id": "Glasgow-1096",
+    "status": "uncertain",
+    "basis": "Margaret's 1578 testament directly names her husband and son but no parent. Robert Glasgow and Margaret Rolland remain attached only as an unproved working placement.",
+      "evidence": [{"label": "case findings", "path": "../../research/Glasgow-3613/findings.md"}]
+    },
+    "Glasgow-3179": {
+      "father_id": "Glasgow-3921",
+      "status": "plausible",
+      "basis": "The live candidate is James younger of Corsankell. Geillis lived in the same Ayrshire cluster and her 1603 testament names a James Glasgow in financial dealings, but states no relationship and names no father.",
+      "evidence": [{"label": "case findings", "path": "../../research/Glasgow-3179/findings.md"}]
+    },
+  "Glasgow-3181": {
+    "father_id": "Glasgow-1096",
+    "status": "contradicted",
+    "basis": "The live profile misapplies Ninian's 1613 bequest to brother John: Glasgow-3181 died in November 1576 and cannot be that man. Robert-1096 must not remain his father on that evidence. John-1093 is the better uncertain father candidate because protocols 748 and 1722 prove he had a son John of the correct generation, although no record bridges that burgh son to Hirdmanscheillis.",
+      "evidence": [{"label": "case findings", "path": "../../research/Glasgow-3181/findings.md"}]
+    },
+    "Glasgow-3182": {
+      "status": "uncertain",
+      "basis": "The profile supplies no parentage record and distinguishes several contemporary Barbara Glasgows without assigning this woman to a parental family.",
+      "evidence": [{"label": "case findings", "path": "../../research/Glasgow-3182/findings.md"}]
+    },
+    "Glasgow-3188": {
+      "father_id": "Glasgow-1096",
+      "status": "confirmed",
+      "basis": "The 23 October 1596 burgess roll directly admits Ninian as the second son of Robert Glasgow, fisher and burgess, replacing the previously attached John.",
+      "evidence": [{"label": "case findings", "path": "../../research/Glasgow-3188/findings.md"}]
+    },
+  "Glasgow-3193": {
+    "father_id": "Glasgow-1168",
+    "status": "uncertain",
+    "basis": "A 1571 record directly names John as a son of James Glasgow elder at Corsankell. The live profile now uses that father, and nearby Kilwinning makes the identity plausible, but no record yet proves that the Corsankell son was the John at Burrowland and Dalgarven.",
+      "evidence": [{"label": "case findings", "path": "../../research/Glasgow-3193/findings.md"}]
+    },
+    "Glasgow-3262": {
+      "status": "uncertain",
+      "basis": "No father is attached and the captured profile supplies no cited relational record identifying one.",
+      "evidence": [{"label": "case findings", "path": "../../research/Glasgow-3262/findings.md"}]
+    },
+    "Glasgow-3296": {
+      "status": "uncertain",
+      "basis": "The 1650 Quodquen testament identifies John's sister but no parents, and no father is attached.",
+      "evidence": [{"label": "case findings", "path": "../../research/Glasgow-3296/findings.md"}]
+    },
+    "Glasgow-3302": {
+      "status": "uncertain",
+      "basis": "The captured marriage evidence identifies Barbara as a spouse but supplies no parents, and no father is attached.",
+      "evidence": [{"label": "case findings", "path": "../../research/Glasgow-3302/findings.md"}]
+    },
+    "Glasgow-3336": {
+      "status": "uncertain",
+      "basis": "The 1619 Edinburgh marriage and subsequent baptisms do not name Issobell's parents, and no father is attached.",
+      "evidence": [{"label": "case findings", "path": "../../research/Glasgow-3336/findings.md"}]
+    },
+    "Glasgow-3522": {
+      "father_id": "Glasgow-1093",
+      "status": "plausible",
+      "basis": "Protocol 847 directly calls William a son of John Glasgow senior and names Jonet Spreull as John's spouse. Place, generation and the burgess property sequence strongly match this profile, but the record-to-profile identity is not independently resolved.",
+      "evidence": [{"label": "case findings", "path": "../../research/Glasgow-3522/findings.md"}]
+    },
+    "Glasgow-3589": {
+      "father_id": "Glasgow-3181",
+      "status": "confirmed",
+      "basis": "John's 1577 testament calls Katherine and Marjorie Glasgow his and Margaret Hoghame's lawful children. The live profile is attached to that exact couple, uses Hirmanscheillis, and already gives Marjorie as its RealName, uniquely resolving the identity; FirstName Margaret is erroneous.",
+      "evidence": [{"label": "case findings", "path": "../../research/Glasgow-3589/findings.md"}]
+    },
+    "Glasgow-3590": {
+      "father_id": "Glasgow-3181",
+      "status": "confirmed",
+      "basis": "John Glasgow's 1577 Hirmansheils testament explicitly identifies Katherine as his lawful daughter and executor dative.",
+      "evidence": [{"label": "case findings", "path": "../../research/Glasgow-3590/findings.md"}]
+    },
+    "Glasgow-3598": {
+      "status": "uncertain",
+      "basis": "The captured marriage evidence identifies Margaret as William Hardie's spouse but does not name her parents, and no father is attached.",
+      "evidence": [{"label": "case findings", "path": "../../research/Glasgow-3598/findings.md"}]
+    },
+  "Glasgow-3608": {
+    "father_id": "Glasgow-1029",
+    "status": "contradicted",
+    "basis": "The Stephen attachment is unsupported. This unsourced Mid Calder profile may duplicate John Glasgow-1561, whose family is documented in nearby Linlithgow from 1613; resolve that identity before proposing a father.",
+      "evidence": [{"label": "case findings", "path": "../../research/Glasgow-3608/findings.md"}]
+    },
+  "Glasgow-567": {
+    "father_id": "Glasgow-3522",
+    "status": "uncertain",
+    "basis": "William and Margaret Herbesoun are a documented couple of the possible generation, but no record names Barbara as their daughter. The proposed supporting migration of George's household to Edinburgh is contradicted by the cited Glasgow High Kirk baptisms, so the attachment remains only a working hypothesis.",
+      "evidence": [{"label": "case findings", "path": "../../research/Glasgow-567/findings.md"}]
+    },
+    "Glasgow-1100": {
+      "father_id": "Glasgow-1099",
+      "status": "confirmed",
+      "basis": "Her 1610 Glasgow High Kirk baptism names George Glasgow as father, and James Stewart's 18 July 1633 burgess admission independently calls his wife Margaret the lawful daughter of George Glasgow, merchant, burgess and guild brother.",
+      "evidence": [{"label": "case findings", "path": "../../research/Glasgow-1100/findings.md"}]
+    },
+    "Glasgow-1102": {
+      "father_id": "Glasgow-1099",
+      "status": "confirmed",
+      "basis": "The cited 21 October 1617 Glasgow High Kirk baptism calls Barbara the lawful daughter of George Glasgow and Margaret Stewart. This infant is conclusively distinct from the adult Barbara who was a mother in 1611.",
+      "evidence": [{"label": "case findings", "path": "../../research/Glasgow-1102/findings.md"}]
+    },
+    "Glasgow-991": {
+      "father_id": "Glasgow-3163",
+      "status": "plausible",
+      "basis": "Andrew's 1598 testament directly names a son James, and Glasgow-991 fits the Lothian generation and has Mid Calder family records. No record identifies Andrew's son by residence, occupation, spouse or children. The Mid Calder and Inveresk baptism groups cannot alone resolve whether one or two same-named fathers were involved.",
+      "evidence": [{"label": "case findings", "path": "../../research/Glasgow-991/findings.md"}]
+    },
+    "Glasgow-2730": {
+      "father_id": "Glasgow-2731",
+      "status": "confirmed",
+      "basis": "The 7 February 1692 Hawick baptism directly names William Glasgo as Margaret's father; this profile represents the father named in that event.",
+      "evidence": [
+        {
+          "label": "father's case findings and citation",
+          "path": "../../research/Glasgow-2731/findings.md"
+        }
+      ]
+    },
+    "Glasgow-1498": {
+      "father_id": "Glasgow-3331",
+      "status": "contradicted",
+      "basis": "The Cavers prisoner list names no parents, while the proposed father's biography says no children are confirmed.",
+      "evidence": [
+        {
+          "label": "case findings",
+          "path": "../../research/Glasgow-1498/findings.md"
+        }
+      ]
+    },
+    "Glasgow-1502": {
+      "father_id": "Glasgow-1081",
+      "status": "contradicted",
+      "basis": "The 1669-1726 James identity is itself inferential, and no congregational or probate record reviewed names the older Robert as his son; Robert's current 1690-1772 dates also conflate him with Glasgow-1143.",
+      "evidence": [
+        {
+          "label": "case findings",
+          "path": "../../research/Glasgow-1502/findings.md"
+        }
+      ]
+    },
+    "Glasgow-2249": {
+      "father_id": "Glasgow-1498",
+      "status": "contradicted",
+      "basis": "No cited record names Janet as the Cavers prisoner's daughter or proves either Janet's Irish birth or John's migration to Ireland.",
+      "evidence": [
+        {
+          "label": "case findings",
+          "path": "../../research/Glasgow-2249/findings.md"
+        }
+      ]
+    },
+    "Glasgow-1605": {
+      "father_id": "Glasgow-2462",
+      "status": "uncertain",
+      "basis": "The baptism names the father only as William Glasgow; no reviewed record identifies that man as the attached Inveresk profile.",
+      "evidence": [
+        {
+          "label": "case findings",
+          "path": "../../research/Glasgow-1605/findings.md"
+        }
+      ]
+    },
+    "Glasgow-2731": {
+      "father_id": "Glasgow-3331",
+      "status": "contradicted",
+      "basis": "Margaret's baptism identifies this William as her father but does not name his parents; the proposed father's biography says no children are confirmed.",
+      "evidence": [
+        {
+          "label": "case findings",
+          "path": "../../research/Glasgow-2731/findings.md"
+        }
+      ]
+    },
+    "Glasgow-3019": {
+      "father_id": "Glasgow-3296",
+      "status": "contradicted",
+      "basis": "The original-record transcription for the proposed father identifies no child, and the attached son's profile is conflated across separate estates.",
+      "evidence": [
+        {
+          "label": "case findings",
+          "path": "../../research/Glasgow-3019/findings.md"
+        }
+      ]
+    },
+    "Glasgow-3331": {
+      "father_id": "Glasgow-3019",
+      "status": "uncertain",
+      "basis": "The asserted relationship depends on an original testament that must be re-read after conflation of the connected John profiles was established.",
+      "evidence": [
+        {
+          "label": "case findings",
+          "path": "../../research/Glasgow-3331/findings.md"
+        }
+      ]
+    },
+    "Glasgow-3332": {
+      "father_id": "Glasgow-3019",
+      "status": "uncertain",
+      "basis": "The profile's family depends on the conflated John profile and a 1662 original that has not been re-read.",
+      "evidence": [
+        {
+          "label": "case findings",
+          "path": "../../research/Glasgow-3332/findings.md"
+        }
+      ]
+    },
+    "Glasgow-3362": {
+      "father_id": "Glasgow-2462",
+      "status": "uncertain",
+      "basis": "The baptism confirms a father named William Glasgow but does not identify him as the attached Inveresk man.",
+      "evidence": [
+        {
+          "label": "case findings",
+          "path": "../../research/Glasgow-3362/findings.md"
+        }
+      ]
+    },
+    "Glasgow-3370": {
+      "father_id": "Glasgow-1605",
+      "status": "uncertain",
+      "basis": "The baptism names Isabell's father only as William Glasgow and the reviewed transcriptions conflict on the date; neither identifies him as the attached Polwarth child.",
+      "evidence": [
+        {
+          "label": "case findings",
+          "path": "../../research/Glasgow-3370/findings.md"
+        }
+      ]
+    },
+    "Glasgow-3587": {
+      "father_id": "Glasgow-1605",
+      "status": "uncertain",
+      "basis": "William's marriage states no parents or birthplace and supplies no link to the attached Polwarth child.",
+      "evidence": [
+        {
+          "label": "case findings",
+          "path": "../../research/Glasgow-3587/findings.md"
+        }
+      ]
+    }
+  }
+}

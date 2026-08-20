@@ -1,0 +1,687 @@
+{
+  "case_id": "Glasgow-3905",
+  "findings": [
+    {
+      "claim": "Samuel Glasgow of Lisnagaver is strongly excluded as Adam Glasgow's son.",
+      "confidence": "high",
+      "reasoning": "The 1851 census directly calls Samuel the brother of John Glasgow. John's uniquely matched 1846 civil marriage names his father as John Glasgow, farmer. On the ordinary meaning of brother, the two-record proof chain points to father John rather than Adam; only an unsupported paternal half-brother scenario prevents absolute exclusion.",
+      "sources": [
+        "https://www.census.nationalarchives.ie/pages/1851/Antrim/Kilconway/Rasharkin/Lisnagaver/34/",
+        "https://www.irishgenealogy.ie/view/?record_id=cima-3156063",
+        "../Glasgow-2908/findings.md"
+      ]
+    },
+    {
+      "claim": "Robert Glasgow of Glenleslie is unsupported and chronologically implausible as Adam and Rose's son.",
+      "confidence": "high",
+      "reasoning": "Robert's original 1851 census age implies birth about 1779 in County Antrim. Rose's gravestone age implies birth about 1766 or 1767, making her about twelve. No parent statement or evidence of an earlier wife for Adam has been found.",
+      "sources": [
+        "https://www.census.nationalarchives.ie/pages/1851/Antrim/Kilconway/Dunaghy/Glenleslie/23/",
+        "../Glasgow-1367/findings.md"
+      ]
+    },
+    {
+      "claim": "Alexander Glasgow is not confirmed as Adam's son, and the current Alexander-Daniel-Thomas topology conflicts with Daniel's will.",
+      "confidence": "high",
+      "reasoning": "No contemporary record names Alexander's parent. The 2007 account names Alexander and Rosanna as Thomas's parents, while Daniel's original will directly calls Thomas his brother. Because WikiTree attaches Alexander and Daniel as Adam's sons and Thomas as Alexander's son, the tree makes Daniel Thomas's uncle. Those claims cannot all be correct.",
+      "sources": [
+        "https://www.genesreunited.co.uk/boards/board/general_topics/thread/465937",
+        "../Glasgow-3904/findings.md",
+        "../Glasgow-3896/findings.md"
+      ]
+    },
+    {
+      "claim": "Daniel Glasgow is proved as Thomas Glasgow of Lisnagaver's brother but is not confirmed as Adam's son.",
+      "confidence": "high",
+      "reasoning": "Daniel's original 1871 will names late brother Thomas and nephew Daniel Neely Glasgow. Daniel Neely's 1888 marriage names his father as Thomas Glasgow, farmer, identifying the sibling with the Lisnagaver family. Neither record names the brothers' parent, and the will names no Adam, Rose, or Inishrush connection.",
+      "sources": [
+        "sources/daniel_glasgow_will_1871.png",
+        "../Glasgow-3896/findings.md",
+        "../Glasgow-987/findings.md"
+      ]
+    },
+    {
+      "claim": "Adam Glasgow is documented at Inishrush in Tamlaght O'Crilly parish by 1831, and his gravestone identifies Rose as his wife and James and Eliza as children.",
+      "confidence": "high",
+      "reasoning": "The 1831 census places Adam's eight-person Presbyterian household at Inishrush. The Tamlaght O'Crilly Lower grave inscription directly describes James as Adam and Rose's son and Eliza as their daughter. Nancy's 1842 marriage notice calls her Adam's sixth daughter, showing that WikiTree's linked family is incomplete.",
+      "sources": [
+        "https://www.wikitree.com/wiki/Glasgow-3902",
+        "https://www.oneirishrover.com/tamlaght-graveyard/"
+      ]
+    },
+    {
+      "claim": "The published Londonderry Sentinel marriage-notice run for 1829-1849 does not identify Adam's five missing older daughters.",
+      "confidence": "high",
+      "reasoning": "Exact GLASGOW and GLASCO searches across all seven period pages returned Nancy's 1842 marriage as the only target-family notice. The newspaper began in September 1829 and these are derivative selections rather than complete registers, so this is a bounded search result rather than evidence that the other daughters did not marry.",
+      "sources": [
+        "https://cotyrone.com/~inthenews/marriage-notices-1829-1831/",
+        "sources/londonderry_marriage_notices_glasgow_audit_2026-07-17.tsv"
+      ]
+    },
+    {
+      "claim": "No contemporary record identifies Robert Glasgow (Glasgow-550) as Adam's father or even documents the candidate's asserted life.",
+      "confidence": "high",
+      "reasoning": "William Melanchthon Glasgow's late family history names Robert as a son of Hugh but gives no birth year, residence, wife, child or death. WikiTree's about-1737 County Londonderry birth and about-1787 death are unsourced estimates. The 1831 Coltrim discussion concerns a later householder and supplies no relationship. Robert is chronologically possible but cannot be ranked as the leading candidate from the available evidence.",
+      "sources": [
+        "https://www.wikitree.com/wiki/Glasgow-550",
+        "captures/20260716T135417Z_Glasgow-550.json"
+      ]
+    },
+    {
+      "claim": "A documented Robert Glasgow of Loy, County Tyrone, made a will on 19 May 1823 and had an administration bond in 1825, but no evidence connects him to Adam.",
+      "confidence": "high",
+      "reasoning": "PRONI's Armagh diocesan will and administration-bond indexes identify Robert Glasgow, gentleman, of Loy. A Cookstown rent-roll transcription also names Robert there in 1786-1788, and an 1817 deed index names Robert Glasgow junior, gentleman, of Cookstown. Loy is about 29 km from Inishrush. If this was Glasgow-550, the profile death date is wrong; if another man, the records say nothing about Glasgow-550. The will contents were not found and the principal pre-1858 probate archive was destroyed in 1922.",
+      "sources": [
+        "https://apps.proni.gov.uk/ProniNames_IE/SearchPage.aspx",
+        "https://cotyrone.com/~inthenews/cookstown-history-hearth-and-rent/",
+        "https://www.proni.gov.uk/files/proni/2025-12/Your%20Family%20Tree%207%20-%20Frequently%20Asked%20Questions%20-%20Wills%20and%20Probate.pdf"
+      ]
+    },
+    {
+      "claim": "Two distinct adult Hugh Glasgow householders occur in the 1740 Tamlaght O'Crilly return; the second lies in an Inishrush-linked collector cluster but has no stated townland.",
+      "confidence": "high",
+      "reasoning": "The Macafee transcription of PRONI T808/15258 places Hugh Glasgow at separated record numbers 1195 and 1272, both with townland Not specified. Entry 1272 is immediately before Hugh Ellis and James McCullough and its wider sequence contains surnames independently anchored at Inishrush by the 1734 lease, but Henry Lennox in the same sequence aligns elsewhere and warns that collector order can cross localities. Both men were householders before younger Hugh Glasgow-540's approximate birth and belong to an earlier generation. The return does not identify either man with Glasgow-548 or name Adam's father.",
+      "sources": [
+        "https://adamsfamilydna.com/wp-content/uploads/2013/02/1740-Protestant-Returns-Londonderry-County-Ireland.pdf",
+        "https://genealogy.torrens.org/BannValley/books/Kilrea/Kilrea07.html",
+        "https://www.wikitree.com/wiki/Glasgow-548"
+      ]
+    },
+    {
+      "claim": "Robert Glasgow of Glenleslie (Glasgow-1367) cannot provide naming support for Robert Glasgow (Glasgow-550) as Adam's father.",
+      "confidence": "high",
+      "reasoning": "The 1851 census identifies Glasgow-1367 as an Antrim-born Glenleslie farmer born about 1779 and married to Catherine in 1803. No contemporary record identifies Adam or Rose as his parents, and Rose would have been about twelve at his estimated birth. His uncertain WikiTree attachment cannot be used as evidence for the preceding generation.",
+      "sources": [
+        "https://www.wikitree.com/wiki/Glasgow-3902",
+        "https://www.wikitree.com/wiki/Glasgow-1367"
+      ]
+    },
+    {
+      "claim": "The 1831 Robert Glasgow household at Coltrim is regional evidence, not evidence that Robert Glasgow (Glasgow-550) lived at Inishrush.",
+      "confidence": "high",
+      "reasoning": "Coltrim in Lissan parish is approximately 25 km in a straight line from Inishrush. The 1831 householder was likely born decades after the candidate Robert, whose profile says he died about 1787; no record currently links them.",
+      "sources": [
+        "https://www.townlands.ie/londonderry/loughinsholin/lissan-derry-portion/moneymore/coltrim/",
+        "https://www.wikitree.com/wiki/Glasgow-550"
+      ]
+    },
+    {
+      "claim": "An unidentified Hugh Glasgow was among Tamlaght O'Crilly parish inhabitants who surrendered arms to Henry Ellis of Inishrush in April 1772.",
+      "confidence": "high",
+      "reasoning": "A Belfast News-Letter notice names Hugh Glasgow among people described collectively as inhabitants of Tamlaght O'Crilly parish who surrendered their arms to Henry Ellis of Inishrush. It does not call Hugh an Inishrush resident or give age, occupation, or kin. It therefore cannot distinguish Robert's alleged father Hugh, alleged brother Hugh, or another namesake.",
+      "sources": [
+        "https://arborealis.ca/records/newspapers/kilrea-news/1770-1779/",
+        "https://www.wikitree.com/wiki/Glasgow-548",
+        "https://www.wikitree.com/wiki/Glasgow-540"
+      ]
+    },
+    {
+      "claim": "The surviving 1775 Dissenters' Petitions cannot be used to test the Tamlaght O'Crilly Glasgow households.",
+      "confidence": "high",
+      "reasoning": "The collection is based on Tenison Groves transcripts of selected petitions in PRONI T808/15307. Its published location inventory includes Coleraine/Killowen and Londonderry city but omits Tamlaght O'Crilly, Kilrea, and Drimbolg. A zero-name search therefore measures missing geographic coverage, not absence of the Glasgow family.",
+      "sources": [
+        "https://www.findmypast.ie/discover/census-land-and-surveys/census/ireland-1775-dissenters-petitions/",
+        "https://apps.proni.gov.uk/ProniNames_IE/SearchPage.aspx"
+      ]
+    },
+    {
+      "claim": "The 1799 declaration abstract does not prove that Adam Glasco lived at Inishrush.",
+      "confidence": "high",
+      "reasoning": "Kinsleuth's HTML is a derivative multi-column alphabetical name/place abstract, not the newspaper's signature sequence. The place term Innishrush occurs in another stream and is not attached to Adam. The abstract establishes only that an Adam Glasco was included among the County Londonderry subscribers; identity with Adam of Inishrush remains possible but unproved.",
+      "sources": [
+        "https://www.kinsleuth.com/belnews/1790-1800.htm",
+        "sources/kinsleuth_belfast_newsletter_1790_1800.html"
+      ]
+    },
+    {
+      "claim": "John Glasgow born 1767 belonged to the Inishrush Covenanter cluster and was not the John Glasgow enumerated in Richland Township, Ohio, in 1830.",
+      "confidence": "high",
+      "reasoning": "John's family Bible identifies eldest child Rose as born at Inishrush in 1799. The original 1830 NARA census page marks the Ohio John as aged 40-49, whereas John born 1767 was 63. The Bible's 1823 death entry for son James supplies no place. Removing both compiled-tree errors leaves John chronologically available to be the named 1809/1827 Covenanter participant and the other 1831 Inishrush householder.",
+      "sources": [
+        "https://www.wikitree.com/wiki/Glasgow-822",
+        "https://hiltner.com/mckeown/getperson.php?personID=I368&tree=tree1",
+        "https://archive.org/details/populationsc18300127unit/page/n484/mode/1up",
+        "https://www.oneirishrover.com/drimbolg-reformed-presbyterian-church/",
+        "captures/20260716T135847Z_Glasgow-822.json"
+      ]
+    },
+    {
+      "claim": "The child reported in 1847 as born to James Glasgow and an unnamed daughter of Henry Barkly has not been identified.",
+      "confidence": "high",
+      "reasoning": "The letter is near-contemporary but second-hand and names neither mother nor child. Adult Henry Glasgow at James's 1878 death is the strongest named working candidate, and Roseanne as Henry Barkly's daughter is a coherent companion reconstruction, but neither has an explicit parent or maiden-name record. First Portglenone has an exact 1847 baptism gap. Second Portglenone baptisms for 1845-49 survive under MIC1P/357 / Coleraine reel 179, but no public image, transcript, or name extract exists and its session minutes begin only in 1881. The February 1847 Tyanee baptism of Francis Gamble is a false lead because Barkly is the father's given name in the register structure.",
+      "sources": [
+        "sources/john_glasgow_letter_1847.pdf",
+        "sources/barkley_child_identity_audit_2026-07-16.tsv",
+        "sources/second_portglenone_register_access_audit_2026-07-16.tsv",
+        "https://www.billmacafee.com/churchrecords/churchrecordsnorthmidantrim.pdf"
+      ]
+    },
+    {
+      "claim": "The published Glasgow family history is useful late tradition, not contemporary proof of the 1733 marriage or the sons' identities.",
+      "confidence": "high",
+      "reasoning": "William Melanchthon Glasgow wrote after 1892, roughly 159 years after the stated 1733 marriage. He labels the early account authoritative tradition and names Hugh's sons John, Robert and Hugh, but gives no source or dates for John and Robert. The account also says younger Hugh died in 1824 although his surviving United States will was signed in 1827, demonstrating that its chronology can be wrong.",
+      "sources": [
+        "https://www.wikitree.com/photo.php/0/0a/Glasgow-590.pdf",
+        "https://www.wikitree.com/wiki/Glasgow-590"
+      ]
+    },
+    {
+      "claim": "No local church register, indexed pre-1858 probate entry, or indexed Registry of Deeds entry found online directly identifies Adam's father.",
+      "confidence": "high",
+      "reasoning": "The exact inventory shows that Drimbolg baptisms begin in 1895 and marriages in 1864; its surviving 1809-59 session/discipline book may provide adult collateral context but cannot record Adam's circa-1758 baptism. Boveedy and Churchtown registers likewise begin in the nineteenth century. PRONI Names has no Inishrush or Tamlaght O'Crilly Glasgow probate identifying Adam's father. Exact and spelling-variant townland searches found the known Inishrush deeds but no Glasgow as a principal party. These are coverage-qualified negative findings because register gaps, under-tenants, and omitted witnesses limit the searches.",
+      "sources": [
+        "https://www.billmacafee.com/churchrecords/churchrecordsderry.pdf",
+        "https://apps.proni.gov.uk/ProniNames_IE/SearchPage.aspx",
+        "https://irishdeedsindex.net/search/index.php"
+      ]
+    },
+    {
+      "claim": "The indexed Inishrush deed series establishes the estate setting but names no Glasgow principal party.",
+      "confidence": "high",
+      "reasoning": "Memorial 57951 records William Conolly's 1734 lease to Hercules Ellis and four other Inishrush gentlemen; the three named lives were Ellis, Wilson and McCleland youths. Variant-spelling searches found seven further eighteenth-century Inishrush memorials and later mill and estate transactions, none with a Glasgow principal party. A Glasgow subtenant could be omitted. Vintners' rentals for 1775-1801 survive in PRONI but are not digitized.",
+      "sources": [
+        "https://irishdeedsindex.net/townland/index.php",
+        "https://apps.proni.gov.uk/eCatNI_IE/SearchPage.aspx"
+      ]
+    },
+    {
+      "claim": "Older Adam and Maria are the leading candidate names for the shared parents of John and Adam, but must not be entered as proved.",
+      "confidence": "moderate",
+      "reasoning": "John's first three sons occur as Adam, James and John in the traditional paternal-grandfather, maternal-grandfather and father order; the exact third-position match to father John gives the pattern internal support. Maria is the second daughter, the traditional paternal-grandmother position. The two same-generation Presbyterian households in Inishrush, John's near-exact 1831 household reconstruction and his 1847 family intelligence make brotherhood with target Adam probable, although cousin remains possible.",
+      "sources": [
+        "https://hiltner.com/mckeown/getperson.php?personID=I368&tree=tree1",
+        "https://hiltner.com/mckeown/showmedia.php?mediaID=531&medialinkID=739",
+        "https://www.oneirishrover.com/drimbolg-reformed-presbyterian-church/",
+        "https://www.billmacafee.com/1831census/1831derrycensusnames.pdf"
+      ]
+    },
+    {
+      "claim": "The record-defined 1831 John is best placed as Adam Glasgow's uncertain brother; Glasgow-822 is a proposed identity match.",
+      "confidence": "moderate",
+      "reasoning": "Adam was only nine when the Glasgow-822 candidate was born, excluding fatherhood. After correcting the placeless 1823 Bible death and excluding the age-incompatible 1830 Ohio census, that profile is available as a match to the Drimbolg Covenanter and 1831 Inishrush householder. Create the record-defined man separately under the shared-father placeholder, then submit a merge proposal and leave it pending; cousin remains possible because no record names their father.",
+      "sources": [
+        "https://hiltner.com/mckeown/getperson.php?personID=I368&tree=tree1",
+        "https://archive.org/details/populationsc18300127unit/page/n484/mode/1up",
+        "https://www.oneirishrover.com/drimbolg-reformed-presbyterian-church/",
+        "https://genealogy.torrens.org/BannValley/church/Tamlaght/1831census_3.html"
+      ]
+    },
+    {
+      "claim": "A documented 1801 joint lease for part of Inishrush was held by Hills, Hastings, Neills and Brattans, but it was not a complete list of occupants.",
+      "confidence": "high",
+      "reasoning": "Desmond McCourt's 1950 Queen's University Belfast thesis records an Inishrush informant who had personally seen the 1801 lease. McCourt's broader analysis and the informant describe intermixed rundale or partnership occupation, while the lease covered only part of the townland. No Glasgow is named in the reported lease, but a family could occupy another holding or sit below the head-lease level. The thesis also traces now-unlocated Conolly/Bellaghy estate maps to Boyd, solicitor, Ballycastle.",
+      "sources": [
+        "https://pureadmin.qub.ac.uk/ws/portalfiles/portal/364690144/The_rundale_system_in_Ireland.pdf",
+        "sources/mccourt_rundale_system_ireland_1950.pdf"
+      ]
+    },
+    {
+      "claim": "The Robert Glasgow named in the Dublin Gazette of 13-15 December 1785 is an unlinked Army medical officer, not evidence for Glasgow-550.",
+      "confidence": "high",
+      "reasoning": "The original Gazette page calls him a former hospital mate in the West Indies appointed surgeon to the forces on St Vincent. The Army medical-officer roll records his 1791 exchange to half-pay and says he was alive through at least 1825. A recorded 1787 letter from St Vincent went to his brother James at Beith, Scotland. This officer therefore cannot support the profile's asserted 1787 death and supplies no Irish or Inishrush connection.",
+      "sources": [
+        "https://virtualtreasury.ie/item/DGZ-1785-4695",
+        "sources/dublin_gazette_1785_robert_glasgow_army_crop.jpg",
+        "sources/virtual_treasury_dgz_1785_robert_search.json",
+        "sources/roll_commissioned_officers_army_medical_service_1727_1898.pdf",
+        "sources/bwisc_bulletin_128_st_vincent_robert_glasgow_letter.pdf"
+      ]
+    },
+    {
+      "claim": "Younger Hugh Glasgow's 1827 will materially weakens, but does not conclusively exclude, him as Adam's father.",
+      "confidence": "high",
+      "reasoning": "Allegheny Will Book 3, no. 252, pp. 492-493 names Hugh's sons John, Hugh, Alexander and Robert, daughter Nancy, granddaughter Sarah, and an unnamed wife. Adam was alive in 1827 and 1831 but was omitted while every named son received property. The will does not say it names all children and also omits Clatworthy and Mary from the late seven-child account, so omission is adverse rather than conclusive evidence. The will was signed 29 March 1827, not 26 March.",
+      "sources": [
+        "https://www.ancestry.com/search/collections/8802/records/1733435",
+        "sources/hugh_glasgow_will_1827_transcription.md",
+        "sources/hugh_glasgow_will_book3_pp492-493_ancestry_005537856_00276.jpg"
+      ]
+    },
+    {
+      "claim": "PRONI T877/216 is an 1800 Inishrush mill lease to Joseph Courtney, not a Glasgow tenancy or the reported 1801 four-family lease.",
+      "confidence": "high",
+      "reasoning": "The catalogue describes Thomas Conolly's renewable-for-ever lease of the Inishrush mill and seven plantation acres to Joseph Courtney. No Glasgow is named in the description, although the undigitized deed may contain unnamed lives or witnesses.",
+      "sources": [
+        "sources/proni_ecat_T877_216.html"
+      ]
+    },
+    {
+      "claim": "Daniel Glasgow of Kilrea's original 1871 will proves a separate documented family cluster but not his attachment as Adam Glasgow's son.",
+      "confidence": "high",
+      "reasoning": "The original registered will calls David Glasgow of the City of London the testator's son, Thomas Glasgow his late brother, and Daniel Neely Glasgow his nephew. It names no Adam, Rose, James of Inishrush, or Inishrush property. The will directly resolves David's father and supplies a sibling clue, but it provides no evidence that Daniel belonged to Adam's family.",
+      "sources": [
+        "sources/daniel_glasgow_will_1871.png",
+        "../Glasgow-3896/findings.md",
+        "../Glasgow-3899/findings.md"
+      ]
+    },
+    {
+      "claim": "The surviving 1766 Religious Census cannot test the Tamlaght O'Crilly Glasgow households.",
+      "confidence": "high",
+      "reasoning": "The published County Londonderry coverage inventory names ten surviving parishes but omits Tamlaght O'Crilly, Kilrea, Lissan, and Maghera. A search therefore cannot determine which 1740 Hugh household continued, identify an adult Robert or Adam, or establish surname absence in the target parish.",
+      "sources": [
+        "https://www.findmypast.co.uk/discover/census-land-and-surveys/census/ireland-1766-religious-census",
+        "https://www.rootsireland.ie/derry-genealogy/derry-census-substitutes/",
+        "https://nationalarchives.ie/help-with-research/research-guides/religious-census-1766/"
+      ]
+    },
+    {
+      "claim": "The catalogue-level Rebellion Papers item 620/42/15 cannot be used as evidence for Adam's family.",
+      "confidence": "high",
+      "reasoning": "The accessible entry supplies only the surname Glasco, a 1764-1798 date span, and bills/accounts/financial material. A fuller Virtual Record Treasury snippet says it includes Mary Lynch's assignment of Trinity Lane premises to Abraham Taylor, strengthening Dublin context, but gives no Glasco forename, residence, occupation, or relationship. A Dublin Glasco commercial cluster is a better contextual match, but even that is not an owner identification.",
+      "sources": [
+        "agent_deed_originals.md",
+        "sources/deed_originals_access_audit_2026-07-17.tsv",
+        "sources/virtual_treasury_target_audit_2026-07-17.tsv"
+      ]
+    },
+    {
+      "claim": "The Virtual Record Treasury full-text corpus contains no indexed statement of Adam Glasgow's parentage.",
+      "confidence": "high",
+      "reasoning": "Exact target-name, spelling-variant, and Inishrush-place searches returned the already-known 1831 Adam page, both known 1740 Hugh householders, unrelated namesakes, and local estate/probate context. No result names Adam's father or links candidate Robert to Inishrush. This is high confidence for the recorded queries and low coverage outside the Treasury corpus.",
+      "sources": [
+        "sources/virtual_treasury_target_audit_2026-07-17.tsv",
+        "sources/virtual_treasury_exact_adam_glasco_2026-07-17.json",
+        "sources/virtual_treasury_inishrush_2026-07-17.json"
+      ]
+    },
+    {
+      "claim": "PRONI T1762 is an inspected Oritor, County Tyrone lead, not an Adam/Inishrush family dossier.",
+      "confidence": "high",
+      "reasoning": "The official 1795-1899 hierarchy exposes six unrelated-looking items. Only T1762/5 concerns the surname: William Glasgow, farmer of Oritor, County Tyrone, and a solicitor's copy of his will and codicil concerning Oritor lands. No item description names Adam, Inishrush, Tamlaght O'Crilly, candidate Robert, or a relationship to them.",
+      "sources": [
+        "agent_published_manuscripts.md",
+        "sources/published_manuscript_audit_2026-07-17.tsv",
+        "sources/proni_ecat_T1762_hierarchy_2026-07-17.html",
+        "sources/proni_ecat_T1762_5_details_2026-07-17.html"
+      ]
+    },
+    {
+      "claim": "Nancy Glasgow's 1842 marriage opens an untraced proved daughter line, but the surviving First Portglenone register cannot identify its children.",
+      "confidence": "high",
+      "reasoning": "The newspaper directly names John Kyle of Tyanee, Nancy as Adam's sixth daughter, and 14 January 1842. Their WikiTree births are guesses and no child is attached. Officiant William Kennedy McKay was First Portglenone's minister, but its surviving marriages begin in 1845. No later Nancy Kyle can be merged without an age, husband, or relational record.",
+      "sources": [
+        "research/Glasgow-3907/findings.md",
+        "research/Kyle-3461/findings.md"
+      ]
+    },
+    {
+      "claim": "The two 1740 Hugh households support a collateral older-Adam/Maria topology more cleanly than a forced descent through John-549 or Robert-550.",
+      "confidence": "moderate",
+      "reasoning": "Entry 1272 is the stronger Hugh-548 identity candidate because it immediately precedes Ellis and McCullough, matching the late account's move to County Londonderry and McCullough marriage. Entry 1195 proves a separate local Hugh and can tentatively root the older Adam/Maria naming model without contradicting the same account's explicit three-son family for Hugh-548. Neither return names children or relates the two Hughs.",
+      "sources": [
+        "findings.md",
+        "research/Glasgow-548/findings.md",
+        "sources/vt_1740_tamlaght_ocrilly_page108.jpg",
+        "sources/vt_1740_tamlaght_ocrilly_page109.jpg",
+        "sources/william_melanchthon_glasgow_family_history.pdf"
+      ]
+    }
+  ],
+  "objective": "Identify the father of Adam Glasgow (about 1758-1844) of Inishrush, Tamlaght O'Crilly, County Londonderry, using his documented descendants, local records, and comparison with contemporary Irish Glasgow families.",
+  "questions": [
+    {
+      "answer": "Adam's identity is fixed by his gravestone (died 30 June 1844 aged 86), the 1831 Inishrush Presbyterian household, and Nancy's 1842 marriage notice naming her as his sixth daughter. John Glasgow born 1767 is separately fixed by his contemporary family Bible, his daughter Rose's 1799 Inishrush birth, and his 1850 Ohio household. Exact locality, denomination and chronology strongly identify him with the 1809/1827 local Covenanter elder and the other 1831 Inishrush householder, although no single Irish record supplies his age or wife.",
+      "id": "identity",
+      "question": "Which records prove the subject's identity across events?",
+      "status": "answered"
+    },
+    {
+      "answer": "No discovered record names Adam's parents. Older Adam and Maria are the best internally consistent candidate names because John's sons Adam, James and John fit the traditional grandfathers/father sequence, with father John correctly repeated third, and Maria is the second daughter. The probable John-Adam brotherhood is independently supported by their same-generation Presbyterian households at Inishrush, John's near-exact 1831 household reconstruction and his 1847 family intelligence. Of the two 1740 Hugh households, entry 1272 is the stronger Hugh-548 candidate, leaving entry 1195 as the cleanest tentative root for an older-Adam/Maria collateral line. John-549 and Robert-550 remain possible direct fathers but no evidence distinguishes them. This remains indirect, so the father is structurally unidentified.",
+      "id": "parents",
+      "question": "Which original or indexed records identify the parents?",
+      "status": "answered"
+    },
+    {
+      "answer": "The gravestone directly supports wife Rose, children James and Eliza, and an unidentified grandson William. Nancy's marriage notice directly supports Nancy and proves at least six daughters. Attached Robert, John, Samuel, Alexander, and Daniel lack a contemporary record naming Adam as father and must not be used as proved children.",
+      "id": "family",
+      "question": "Which spouses and children are directly supported by records?",
+      "status": "answered"
+    },
+    {
+      "answer": "Two major conflations were resolved from originals. The John Glasgow on the attached 1830 Belmont County census page was aged 40-49, not 60-69, and cannot be John born 1767. The family Bible records James's 1823 death but no place; Ohio was added by a compiled website. Robert Glasgow born about 1779 was an Antrim-born Glenleslie farmer whose attachment as Adam's son is unsupported.",
+      "id": "conflicts",
+      "question": "What conflicts or same-name conflations must be resolved?",
+      "status": "answered"
+    },
+    {
+      "answer": "Robert is chronologically possible but unproved. His 1737 Londonderry birth and 1787 death are unsourced, the late family history supplies only his name, and no record identifies a residence, wife, child, or relationship to Adam. A documented Robert of Loy, County Tyrone, had a will dated 1823 and administration in 1825, but cannot be equated with the candidate. Robert and John-549 can remain uncertain direct-father alternatives, but neither should be presented as preferred or proved.",
+      "id": "candidate-robert-1737",
+      "question": "Could Glasgow-550, Robert Glasgow born about 1737 in County Londonderry, be Adam's father?",
+      "status": "answered"
+    },
+    {
+      "answer": "It supplies meaningful indirect evidence, not proof. John's sons occur as Adam, James and John, matching the traditional paternal-grandfather, maternal-grandfather and father order; father John is correctly repeated third. Maria occupies the paternal-grandmother daughter position. Combined with the probable brotherhood of the two Inishrush householders, older Adam and Maria are the leading candidate names for their shared parents, but must not be entered as proved.",
+      "id": "candidate-adam-maria",
+      "question": "Does the family of John Glasgow born 1767 identify the parents of Adam Glasgow born about 1758?",
+      "status": "answered"
+    },
+    {
+      "answer": "The two 1740 entries are separated in the transcription order and represent distinct household positions. Record 1272 immediately precedes Hugh Ellis and James McCullough in a sequence containing several surnames independently anchored at Inishrush, making it the better geographic lead. Both Hugh entries lack townlands and the collector sequence can cross localities, so neither is proved to live at Inishrush or to be Adam's father. The 1772 notice proves only that a Hugh remained somewhere in the parish.",
+      "id": "hugh-1740",
+      "question": "Who were the two Hugh Glasgow householders returned in Tamlaght O'Crilly parish in 1740, and was either the father of Robert Glasgow (Glasgow-550)?",
+      "status": "answered"
+    },
+    {
+      "answer": "The 1825 Kilrea entry directly proves Margaret Glasgow was John Patton's wife and Mary Patton's mother at Tyanee. An NAI census-search index, later Patton/Gordon records, cemetery and newspaper searches name no Glasgow kin or parents for Margaret. First Portglenone's surviving baptisms begin in 1826 and marriages in 1845, too late for her likely baptism and marriage. No evidence connects her to Adam or strengthens Robert-550.",
+      "id": "margaret-tyanee",
+      "question": "Was Margaret Glasgow, wife of John Patton of adjoining Tyanee by 1825, Adam's daughter, sister, or another relative, and do records of her descendants preserve the relationship?",
+      "status": "answered"
+    }
+  ],
+  "schema_version": 1,
+  "targets": [
+    {
+      "generation": 0,
+      "id": "Glasgow-3905",
+      "kind": "wikitree",
+      "note": "Public profile biography and sources captured through browser.",
+      "reason": "Initial subject and immediate family capture.",
+      "status": "complete",
+      "updated_at": "2026-08-05T12:30:10Z"
+    },
+    {
+      "generation": 1,
+      "id": "Glasgow-3902",
+      "kind": "wikitree",
+      "note": "WikiTree subject and immediate family captured.",
+      "reason": "Automatic generation 1 descendant capture; hydrates the following generation.",
+      "status": "complete",
+      "updated_at": "2026-07-16T13:52:02Z"
+    },
+    {
+      "id": "Glasgow-550",
+      "kind": "wikitree",
+      "note": "WikiTree subject and immediate family captured.",
+      "reason": "Tested parent hypothesis. The asserted 1737 Londonderry birth and 1787 death are unsourced; the late family history gives only a name, and no contemporary relationship to Adam was found. Robert remains possible but unproved and is not a record-based leading candidate.",
+      "status": "complete",
+      "updated_at": "2026-07-16T13:54:17Z"
+    },
+    {
+      "id": "Glasgow-822",
+      "kind": "wikitree",
+      "note": "WikiTree subject and immediate family captured.",
+      "reason": "Test whether John Glasgow's separate 1831 Inishrush household identifies him as Adam's brother or preserves parents, children, or local sources.",
+      "status": "complete",
+      "updated_at": "2026-07-16T13:58:47Z"
+    },
+    {
+      "id": "Glasgow-540",
+      "kind": "wikitree",
+      "note": "WikiTree subject and immediate family captured.",
+      "reason": "Capture the documented emigrating branch of Robert's brother Hugh to identify exact Irish locations, inherited records, and chronology.",
+      "status": "complete",
+      "updated_at": "2026-07-16T14:10:38Z"
+    },
+    {
+      "id": "Glasgow-590",
+      "kind": "wikitree",
+      "note": "WikiTree subject and immediate family captured.",
+      "reason": "Establish the date and provenance of William Melanchthon Glasgow's family history and his generational distance from the Irish events.",
+      "status": "complete",
+      "updated_at": "2026-07-16T14:10:39Z"
+    }
+  ],
+  "web_searches": [
+    {
+      "id": "1740-hugh-tamlaght",
+      "purpose": "Look for a Glasgow household in Adam's parish before his birth and test the reported Hugh-to-Robert family migration.",
+      "query": "1740 Protestant Householders Returns Glasgow Tamlaght O'Crilly Londonderry",
+      "result_summary": "Found two Hugh Glasgow entries in Tamlaght O'Crilly parish, record numbers 1195 and 1272, in a transcription of PRONI T/808/15258. No townlands or relationships are supplied.",
+      "source_urls": [
+        "https://adamsfamilydna.com/wp-content/uploads/2013/02/1740-Protestant-Returns-Londonderry-County-Ireland.pdf"
+      ],
+      "status": "complete"
+    },
+    {
+      "id": "coltrim-inishrush-distance",
+      "purpose": "Determine whether the Robert of Coltrim discussed on Glasgow-550 was actually in the same locality as Adam.",
+      "query": "Coltrim Lissan Inishrush Tamlaght O'Crilly distance",
+      "result_summary": "Coltrim and Inishrush are in the same broader County Londonderry region but are about 25 km apart; the 1831 Coltrim household cannot be identified with the candidate Robert.",
+      "source_urls": [
+        "https://www.townlands.ie/londonderry/loughinsholin/lissan-derry-portion/moneymore/coltrim/",
+        "https://www.townlands.ie/londonderry/loughinsholin/tamlaght-ocrilly-upper/tamlaght-ocrilly/inishrush/"
+      ],
+      "status": "complete"
+    },
+    {
+      "id": "1772-hugh-inishrush",
+      "purpose": "Test whether the Hugh Glasgow family remained near Adam's later home after 1740.",
+      "query": "Hugh Glasgow Tamlaght O'Crilly Inishrush 1772",
+      "result_summary": "A Belfast News-Letter notice dated 14 April 1772 names Hugh Glasgow among Tamlaght O'Crilly inhabitants surrendering arms to Henry Ellis of Inishrush. It supplies no age or family relationship.",
+      "source_urls": [
+        "https://arborealis.ca/records/newspapers/kilrea-news/1770-1779/"
+      ],
+      "status": "complete"
+    },
+    {
+      "id": "john-1767-inishrush",
+      "purpose": "Assess the separate John Glasgow household and its potential relationship to Adam.",
+      "query": "John Glasgow 1767 Inisrush Mary Arthur family Bible Ohio 1830",
+      "result_summary": "The family Bible-derived reconstruction places daughter Rosanna's 1799 birth at Inisrush and names first son Adam. A separate Belmont County query identifies a similarly aged John Glasgow with wife Elizabeth Blocker, making the 1830 Richland census attached to Glasgow-822 a possible conflation requiring image-level comparison.",
+      "source_urls": [
+        "https://hiltner.com/mckeown/getperson.php?personID=I368&tree=tree1",
+        "https://belmont.ohgenweb.org/queries/query007.htm"
+      ],
+      "status": "complete"
+    },
+    {
+      "id": "1796-flax-tamlaght",
+      "purpose": "Look for Adam, Robert or Hugh Glasgow in the 1796 flax bounty list for Tamlaght O'Crilly.",
+      "query": "1796 flax growers Tamlaght O'Crilly Glasgow",
+      "result_summary": "No Glasgow was listed in Tamlaght O'Crilly. The only Glasgow in Macafee's County Londonderry transcription was John Glasgow of Desertoghill. This is negative evidence only because the bounty list was not a complete census.",
+      "source_urls": [
+        "https://www.billmacafee.com/1796flaxgrowerslist/1796flaxgrowersderry.pdf"
+      ],
+      "status": "complete"
+    },
+    {
+      "id": "1740-hugh-sequence",
+      "purpose": "Determine whether Macafee records 1195 and 1272 are two men or a duplicated transcription, and infer their locations from neighbouring names.",
+      "query": "PRONI T/808/15258 Tamlaght O'Crilly records 1195 1272 Hugh Glasgow original order",
+      "result_summary": "The entries at 1195 and 1272 are separated and therefore are not a simple duplicated row. The collector's geographical sequence around 1272 matches Inishrush much more strongly than any other parish townland and includes Hugh Ellis and James McCullough; the sequence around 1195 matches other townlands.",
+      "source_urls": [
+        "https://www.billmacafee.com/1740returns/1740protestantreturnsderry.xls",
+        "https://www.billmacafee.com/1831census/1831derrycensus.xlsx"
+      ],
+      "status": "complete"
+    },
+    {
+      "id": "john-1830-1831-identity",
+      "purpose": "Compare household composition and land records to decide whether Glasgow-822 was still at Inishrush in 1831 or has been conflated with the Belmont County schoolteacher.",
+      "query": "John Glasgow Inishrush 1831 census Guernsey deed H 457 Richland Belmont 1830",
+      "result_summary": "The original NARA 1830 census page, not just the index, records the Richland Township John Glasgow as aged 40-49. John born 10 April 1767 was 63, so the attachment is a same-name conflation. The family Bible's 1823 death entry for son James supplies no location, removing the other claimed evidence of early Ohio residence. John could therefore be the 1827 Drimbolg elder and 1831 Inishrush householder before emigration in the 1830s.",
+      "source_urls": [
+        "https://archive.org/details/populationsc18300127unit/page/n484/mode/1up",
+        "https://hiltner.com/mckeown/getperson.php?personID=I368&tree=tree1",
+        "https://hiltner.com/mckeown/getperson.php?personID=I375&tree=tree1"
+      ],
+      "status": "complete"
+    },
+    {
+      "id": "john-bible-naming",
+      "purpose": "Use the complete contemporary Bible child sequence to test paternal-grandparent names and the relationship between the two Inishrush householders.",
+      "query": "Glasgow family Bible John Glasgow Mary Arthur Inishrush children Adam Maria",
+      "result_summary": "The Bible records children Rose, Maria, Jane, Adam, Lavina, James, Margaret, John and Arthur. By sex, the sons are Adam, James, John and Arthur. The first three positions match the traditional paternal-grandfather, maternal-grandfather and father order, with father John correctly repeated third; Maria is the second daughter, the paternal-grandmother position. This makes older Adam and Maria leading candidate names, not proved parents.",
+      "source_urls": [
+        "https://hiltner.com/mckeown/getperson.php?personID=I368&tree=tree1",
+        "https://hiltner.com/mckeown/showmedia.php?mediaID=531&medialinkID=739",
+        "https://www.oneirishrover.com/drimbolg-reformed-presbyterian-church/"
+      ],
+      "status": "complete"
+    },
+    {
+      "id": "tamlaght-presbyterian-estate",
+      "purpose": "Find baptismal, session, lease, rent-roll, will or administration evidence naming Adam or his father between 1750 and 1800.",
+      "query": "Tamlaght O'Crilly Presbyterian Inishrush Glasgow leases rent rolls baptisms wills 1750 1800",
+      "result_summary": "The exact inventory shows no Drimbolg baptism register before 1895, but PRONI MIC1C/15 includes a session/discipline book for 1809-59 that may name adult relationships. PRONI catalogue research identified Hercules Ellis's 1750 will (T597/3), the 1853 Ellis estate rental for Inishrush (D1201/53), the 1734 Inishrush lease (LPC/270; Registry memorial 57951), and the Drimbolg volume. The full official D1201/53 description was verified: it includes the 14 April 1853 rental of Hercules and Eliza Ellis's estate at Inishrush, Shilling Hill and Drumane, but PRONI provides no digital record. These physical originals are bounded collateral targets; the 1775-93 estate rentals remain the stronger tenancy-succession route.",
+      "source_urls": [
+        "https://apps.proni.gov.uk/eCatNI_IE/SearchPage.aspx",
+        "https://sources.nli.ie/Record/MS_UR_027542",
+        "https://www.billmacafee.com/churchrecords/churchrecordsderry.pdf",
+        "https://irishdeedsindex.net/townland/index.php"
+      ],
+      "status": "complete"
+    },
+    {
+      "id": "probate-deed-indexes",
+      "purpose": "Look for a direct probate or deed relationship among Adam, Robert, John and Hugh Glasgow in County Londonderry before 1858.",
+      "query": "PRONI Glasgow will Inishrush Tamlaght O'Crilly Registry of Deeds Glasgow 1700 1844",
+      "result_summary": "No matching Inishrush/Tamlaght Glasgow probate entry was found. PRONI instead identifies Robert Glasgow, gentleman, of Loy, County Tyrone, with an Armagh diocesan will dated 19 May 1823 and administration bond in 1825. Exact and variant Inishrush deed searches found the estate transactions but no Glasgow principal party. Index coverage is incomplete and this is not proof of absence.",
+      "source_urls": [
+        "https://apps.proni.gov.uk/ProniNames_IE/SearchPage.aspx",
+        "https://irishdeedsindex.net/search/index.php",
+        "https://jamesonnetwork.com/smj/data/derrywills.pdf"
+      ],
+      "status": "complete"
+    },
+    {
+      "id": "ellis-originals-online",
+      "purpose": "Determine whether the 1750 Ellis will or 1853 Inishrush rental can be inspected online before requesting archive copies.",
+      "query": "T597/3 Hercules Ellis will D1201/53 Inishrush rental online",
+      "result_summary": "The official catalogue marks both records open, but does not attach a digital record. Exact-reference, party-name and townland searches found catalogue descriptions only, not images or transcripts. An archive visit or PRONI copy/search request is required.",
+      "source_urls": [
+        "https://apps.proni.gov.uk/eCatNI_IE/SearchPage.aspx",
+        "https://sources.nli.ie/Record/MS_UR_027542",
+        "https://www.proni.gov.uk/proni-search-service"
+      ],
+      "status": "complete"
+    },
+    {
+      "id": "adam-name-variant-sweep",
+      "purpose": "Search for a contemporary older Adam under common surname spellings before accepting the Bible naming inference as the online evidence limit.",
+      "query": "Adam Glasgow OR Glasco OR Glasgo Inishrush Tamlaght Londonderry Ulster 1700 1800",
+      "result_summary": "Exact and broad searches across indexed web records and historical-book results found no eighteenth-century Irish Adam Glasgow, Glasco or Glasgo matching Inishrush or Tamlaght O'Crilly. Results for the name concerned unrelated Scottish or later people. This is coverage-qualified negative evidence and does not prove that the inferred older Adam did not exist.",
+      "source_urls": [
+        "https://nationalarchives.ie/collections/search-the-census/religious-census-1766/",
+        "https://www.billmacafee.com/",
+        "https://apps.proni.gov.uk/eCatNI_IE/SearchPage.aspx"
+      ],
+      "status": "complete"
+    },
+    {
+      "id": "robert-loy-probate",
+      "purpose": "Determine whether a contemporary Robert in the Tyrone/Londonderry district left probate evidence naming Adam or other relatives.",
+      "query": "PRONI Robert Glasgow Loy will administration",
+      "result_summary": "PRONI's Armagh diocesan indexes identify Robert Glasgow, gentleman, of Loy: will dated 19 May 1823 and administration bond dated 1825. A rent-roll transcription places a Robert at Loy in 1786-1788. No will copy or abstract was found; the principal pre-1858 probate records were destroyed in 1922. No source connects him to Adam, and Loy is about 29 km from Inishrush.",
+      "source_urls": [
+        "https://apps.proni.gov.uk/ProniNames_IE/SearchPage.aspx",
+        "https://cotyrone.com/~inthenews/cookstown-history-hearth-and-rent/",
+        "https://www.proni.gov.uk/files/proni/2025-12/Your%20Family%20Tree%207%20-%20Frequently%20Asked%20Questions%20-%20Wills%20and%20Probate.pdf",
+        "https://www.townlands.ie/tyrone/dungannon-upper/derryloran-upper-dungannon-portion/cookstown-urban/loy/"
+      ],
+      "status": "complete"
+    },
+    {
+      "id": "inishrush-deed-variants",
+      "purpose": "Find every indexed deed for Inishrush under spelling variants and test whether Robert, Hugh, John, or Adam appears as a party.",
+      "query": "Registry of Deeds townland Inishrush Innisrush Inish Rush",
+      "result_summary": "The variant sweep found the 1734 head lease, seven further eighteenth-century Inishrush memorials, three mill/toll memorials from 1811-1820, and six transactions from 1821-1825. Named principal parties include Conolly, Ellis, Dobbyn, Murphy, Huey, Orr, Wilson, Casement, Hume, Courtenay and Gilmore; none is Glasgow. Under-tenants and some witnesses can be omitted from the townland index, so this is qualified negative evidence.",
+      "source_urls": [
+        "https://www.irishdeedsindex.net/townland/index.php",
+        "https://www.irishdeedsindex.net/mem.php?memorial=57951"
+      ],
+      "status": "complete"
+    },
+    {
+      "id": "inishrush-newspaper-list-audit",
+      "purpose": "Test whether pre-1800 Inishrush and Tamlaght O'Crilly newspaper notices contain tenants, Volunteer rosters, meeting subscribers, or associates of Adam and the local Hugh cluster.",
+      "query": "Belfast News-Letter Inishrush Tamlaght O'Crilly tenants Volunteers meeting 1750 1800",
+      "result_summary": "Full 1750s, 1760s, 1780s, and 1790s Arborealis transcript pages were audited. The 1758, 1764, and 1792 Inishrush lettings name agents but no tenants. The 1780 Inishrush Volunteers and 1783 Protestant-meeting reports name only an order-signatory, donor, or chairman and are not rosters. No Glasgow variant occurs in the searchable pages, but the source character makes that absence non-probative for ordinary residents.",
+      "source_urls": [
+        "https://arborealis.ca/records/newspapers/kilrea-news/subject-index-1800/",
+        "https://arborealis.ca/records/newspapers/kilrea-news/1750-1759/",
+        "https://arborealis.ca/records/newspapers/kilrea-news/1760-1769/",
+        "https://arborealis.ca/records/newspapers/kilrea-news/1780-1789/",
+        "https://arborealis.ca/records/newspapers/kilrea-news/1790-1800/"
+      ],
+      "status": "complete"
+    },
+    {
+      "id": "kilrea-register-sweep",
+      "purpose": "Identify Adam's missing daughters and local collateral Glasgows in early surviving marriage registers that name both parents and residences.",
+      "query": "Kilrea Presbyterian marriage register Glasgow Glasco 1825 1845",
+      "result_summary": "A bounded sweep of the public 1825-1845 Kilrea First Presbyterian transcriptions found no proved additional daughter of Adam. The 1825 register identifies Mary Patton as daughter of John Patton and his wife Margaret Glasgow of Tyanee in the Portglenone congregation. John remained a Tyanee householder in 1831 and tithe occupier in 1833. Margaret's relationship to Adam is unstated and remains an open collateral question.",
+      "source_urls": [
+        "https://genealogy.torrens.org/BannValley/church/KilreaP1/Marriages/1825.html",
+        "https://www.billmacafee.com/1831census/1831derrycensusnames.pdf",
+        "https://www.irishgenealogyhub.com/derry/tithe-applotments/tamlaght-o-crilly-parish.php"
+      ],
+      "status": "complete"
+    },
+    {
+      "id": "inishrush-rundale-1801-lease",
+      "purpose": "Determine whether overlooked estate-map scholarship identifies the tenants or layout of Inishrush around Adam's first documented adult years.",
+      "query": "Inishrush joint lease 1801 Bellaghy estate maps Conolly Boyd Ballycastle",
+      "result_summary": "McCourt's 1950 thesis reports an 1801 joint lease for part of Inishrush held by Hills, Hastings, Neills and Brattans. It also establishes intermixed rundale occupancy, so those head lessees are not a complete townland census. The cited Bellaghy/Conolly maps were privately held by Boyd in Ballycastle in 1950; their current repository is under active investigation.",
+      "source_urls": [
+        "https://pureadmin.qub.ac.uk/ws/portalfiles/portal/364690144/The_rundale_system_in_Ireland.pdf"
+      ],
+      "status": "complete"
+    },
+    {
+      "id": "virtual-treasury-robert-1785",
+      "purpose": "Resolve an exact-name Robert Glasgow hit in an original 1785 record before treating it as evidence for the candidate father.",
+      "query": "Virtual Record Treasury exact Robert Glasgow 1785 Dublin Gazette",
+      "result_summary": "The original page identifies this Robert as a former West Indies hospital mate appointed Army surgeon on St Vincent. The Army medical-officer roll traces him to half-pay in 1791 and survival through at least 1825; a surviving-letter report places his brother James at Beith, Scotland in 1787. This is an excluded/unlinked military namesake and cannot support Glasgow-550.",
+      "source_urls": [
+        "https://virtualtreasury.ie/item/DGZ-1785-4695"
+      ],
+      "status": "complete"
+    },
+    {
+      "id": "rpci-synod-1831-drimbolg",
+      "purpose": "Test whether public Reformed Presbyterian synod material names Adam, John, or a relationship in the Inishrush congregation.",
+      "query": "Internet Archive RPCI synod minutes Drimbolg Glasgow 1831",
+      "result_summary": "The original 1831 printed roll names James Smyth as Drimbolg's minister and Samuel McEwen as its delegate elder. No Glasgow appears in the roll or searchable text. Because this is a synod delegate roll rather than a complete session or membership list, the negative neither contradicts John's earlier local eldership nor supplies evidence about Adam's father.",
+      "source_urls": [
+        "https://archive.org/details/rpci-minutes-of-synod-1831"
+      ],
+      "status": "complete"
+    },
+    {
+      "id": "religious-census-1766-coverage",
+      "purpose": "Test whether the 1766 return can distinguish the two 1740 Hugh Glasgow householders or identify Adam's adult family cluster.",
+      "query": "1766 religious census Tamlaght O'Crilly Londonderry Glasgow",
+      "result_summary": "Tamlaght O'Crilly is absent from the surviving County Londonderry parish set; Kilrea, Lissan, and Maghera are also absent. The collection cannot test the local Glasgow households, and a missing surname result is archival non-coverage rather than evidence of absence.",
+      "source_urls": [
+        "https://www.findmypast.co.uk/discover/census-land-and-surveys/census/ireland-1766-religious-census",
+        "https://www.rootsireland.ie/derry-genealogy/derry-census-substitutes/",
+        "https://nationalarchives.ie/help-with-research/research-guides/religious-census-1766/"
+      ],
+      "status": "complete"
+    },
+    {
+      "id": "proni-freeholders-glasgow-variants",
+      "purpose": "Test whether a pre-1840 freeholder record names Adam, a local candidate father, or a lease qualification relationship.",
+      "query": "PRONI Freeholders exact Glasgow and Glas* surname variants; Inish* address coverage",
+      "result_summary": "Twelve exact Glasgow rows were returned, but none names Adam or Inishrush. The only County Londonderry row is John Glasgow of Drumcon in D/834/1; its detail and original page expose no date, parish, landlord, relative, or lease life. The Glas* sweep found no Glasco, Glasgo, or Glascow, while a separate Inish* address search returned no Inishrush. This is a coverage-qualified negative, not evidence that Adam held no freehold.",
+      "source_urls": [
+        "https://apps.proni.gov.uk/freeholders/default.aspx"
+      ],
+      "status": "complete"
+    },
+    {
+      "id": "virtual-treasury-target-corpus-sweep",
+      "purpose": "Search the reconstructed full-text corpus for an explicit parent, local candidate, or overlooked early Inishrush Glasgow record.",
+      "query": "EXACT Adam/Hugh/Robert/James/John/Rose Glasgow or Glasco; Glasco and Glasgo variants; Inishrush and Innisrush",
+      "result_summary": "The only target Adam hit was the known 1831 Inishrush census page plus a continuation-page spillover. Hugh returned the known 1740 record with both local householders. Other exact-name and variant results were unrelated namesakes or already-known Tyrone and Dublin clusters. Early Inishrush will-index hits named John Clark, James Dobbin, William Bay, and Henry Ellis, but no Glasgow or relationship to Adam. The result is bounded to the Treasury corpus and does not search undigitized estate or church records.",
+      "source_urls": [
+        "https://virtualtreasury.ie/",
+        "sources/virtual_treasury_target_audit_2026-07-17.tsv"
+      ],
+      "status": "complete"
+    },
+    {
+      "id": "macafee-vintners-inishrush-public-extract",
+      "purpose": "Determine whether a public townland extract exposes the Inishrush rows of PRONI D1062/1/5 without an onsite archive visit.",
+      "query": "site:billmacafee.com/estates/bellaghy Inishrush Innishrush Innisrush D1062/1/5",
+      "result_summary": "Macafee publishes detailed D1062/1/5 extracts for selected Bellaghy Estate townlands, demonstrating that the lease book can name lessees, ages, children and replacement lives. No indexed Inishrush extract was found. His 1740-return guide confirms that the Loughinsholin collector omitted townlands and that surname order can sometimes be geographic, but it does not assign either Tamlaght O'Crilly Hugh to a townland. The actual Inishrush lease-book rows therefore remain archive-only.",
+      "source_urls": [
+        "https://www.billmacafee.com/estates/bellaghy/ballynacross.htm",
+        "https://www.billmacafee.com/1740returns/readmore1740protestantreturns.htm"
+      ],
+      "status": "complete"
+    }
+  ]
+}

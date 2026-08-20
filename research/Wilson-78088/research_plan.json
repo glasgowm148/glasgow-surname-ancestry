@@ -1,0 +1,71 @@
+{
+  "case_id": "Wilson-78088",
+  "findings": [
+    {
+      "claim": "Wilson-78088 was wife of Glasgow-1143 and mother of Glasgow-1144 and Glasgow-1500.",
+      "confidence": "Strongly supported; deed and sworn-record transcriptions",
+      "reasoning": "Memorial 74015 names Rachel formerly Wilson as Robert's wife; the equity complaint and Robert Glasgow's answer identify James and Ann as her children.",
+      "sources": [
+        "https://www.irishdeedsindex.net/mem.php?memorial=74015",
+        "https://web.archive.org/web/20101124184247id_/http://www.lifesweaving.com/Glasgow/Paper_Complaint.html",
+        "https://web.archive.org/web/20101124184247id_/http://www.lifesweaving.com/Glasgow/Paper_Reply.html"
+      ]
+    }
+  ],
+  "objective": "Establish the identity and documented family of Wilson-78088, separating sourced facts from tree assertions.",
+  "questions": [
+    {
+      "answer": "The 1738 memorial, 1817 complaint and sworn answer identify one Rachel Wilson/Glasgow; her current birth estimate remains unsupported.",
+      "id": "identity",
+      "question": "Which records prove the subject's identity across events?",
+      "status": "open"
+    },
+    {
+      "answer": "The equity case identifies Archibald Wilson as her brother; her parents remain unknown.",
+      "id": "parents",
+      "question": "Which original or indexed records identify the parents?",
+      "status": "open"
+    },
+    {
+      "answer": "Robert Glasgow is strongly supported as spouse; James and Ann are strongly supported as children.",
+      "id": "family",
+      "question": "Which spouses and children are directly supported by records?",
+      "status": "complete"
+    },
+    {
+      "answer": "The equity statement that Rachel left two children conflicts with later children currently attached to her.",
+      "id": "conflicts",
+      "question": "What conflicts or same-name conflations must be resolved?",
+      "status": "open"
+    }
+  ],
+  "schema_version": 1,
+  "targets": [
+    {
+      "generation": 0,
+      "id": "Registry of Deeds 105/301 memorial 74015",
+      "kind": "archive",
+      "note": "Inspect the original 13 February 1738 memorial naming Rachel formerly Wilson as Robert Glasgow's wife.",
+      "reason": "Replace the volunteer deed transcription with an original-image citation.",
+      "status": "open"
+    },
+    {
+      "generation": 0,
+      "id": "Newberry equity file 1817-1819",
+      "kind": "archive",
+      "note": "Obtain the original equity file identifying Rachel's siblings and children.",
+      "reason": "Verify her family and the statement that she left two children in 1742.",
+      "status": "open"
+    },
+    {
+      "generation": 0,
+      "id": "Wilson-78088",
+      "kind": "wikitree",
+      "note": "Public profile, biography, sources and immediate relationships captured through the WikiTree API.",
+      "reason": "Initial subject and immediate family capture.",
+      "status": "complete",
+      "updated_at": "2026-08-07T09:43:10Z"
+    }
+  ],
+  "web_searches": []
+}

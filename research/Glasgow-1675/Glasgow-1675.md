@@ -1,0 +1,14 @@
+# WikiTree update notes: [William Glasgow (Glasgow-1675), born 1799-03-28, Killycurragh, Derryloran, Cookstown, County Tyrone, Ireland](https://www.wikitree.com/wiki/Glasgow-1675)
+
+Record only sourced facts and corrections missing from the current WikiTree
+profile. Keep same-name identities and inferred relationships explicitly
+unproved.
+
+## Suggested additions
+
+| Fact missing from profile | Source | Confidence |
+| --- | --- | --- |
+
+## Suggested corrections
+
+## Do not add as fact

@@ -1,0 +1,118 @@
+{
+  "case_id": "Glasgow-951",
+  "findings": [
+    {
+      "claim": "James Glasgow-1702 cannot be Alexander's father.",
+      "confidence": "high",
+      "reasoning": "James was born in 1799, only about twelve years before Alexander, and his 1851 marriage names his own father as William.",
+      "sources": [
+        "../Glasgow-1702/findings.md",
+        "https://civilrecords.irishgenealogy.ie/churchrecords/details-civil/178e293212496"
+      ]
+    },
+    {
+      "claim": "Robert Glasgow-1367 is chronologically possible as Alexander's father but is not proved.",
+      "confidence": "low",
+      "reasoning": "His 1803 marriage and large 1831 Coltrim household allow a son born in 1811, but no record proves that the unidentifiable 1834 Lisnagaver Robert was the Robert recorded at Glenleslie in 1851 or names Alexander as his son.",
+      "sources": [
+        "../Glasgow-1367/findings.md",
+        "http://www.census.nationalarchives.ie/pages/1851/Antrim/Kilconway/Dunaghy/Glenleslie/23/"
+      ]
+    },
+    {
+      "claim": "Alexander remained the named occupier of Lisnagaver lot 25 through the 1865-78 valuation volume and was struck out during the 1879-88 volume; the holding passed outside the Glasgow surname.",
+      "confidence": "high for the tenancy sequence",
+      "reasoning": "The PRONI revision books preserve the continuous lot number and acreage. The later volume annotates changes in 1881, 1882 and 1886, and Robert Elder is the occupier by 1889. This does not identify a parent or precise death date.",
+      "sources": [
+        "sources/proni_VAL-12-B-4-16B_lisnagaver_lot25.jpg",
+        "sources/proni_VAL-12-B-4-16C_lisnagaver_lot25.jpg",
+        "sources/proni_VAL-12-B-4-16D_lisnagaver_lot25.jpg"
+      ]
+    }
+  ],
+  "objective": "Establish the identity and documented family of Glasgow-951, separating sourced facts from tree assertions.",
+  "questions": [
+    {
+      "answer": "Baptisms at Gortereagh and Lisnagaver, the 1851 Lisnagaver census, son Robert's 1866 marriage, and PRONI lot 25 revision books form the documented identity sequence.",
+      "id": "identity",
+      "question": "Which records prove the subject's identity across events?",
+      "status": "answered"
+    },
+    {
+      "answer": "No inspected contemporary record identifies either parent. James-1702 is excluded; Robert-1367 remains only a possible older relative. An unidentified James is a weak naming-pattern lead, while older Alexander and Rosanna rest on late testimony.",
+      "id": "parents",
+      "question": "Which original or indexed records identify the parents?",
+      "status": "open"
+    },
+    {
+      "answer": "Mary McCaughan and children James, Robert and Ann are supported by baptisms, the 1851 household and Robert's 1866 marriage. Thomas is a probable brother; Daniel and Thomas are proved brothers, but Alexander's link to them is indirect.",
+      "id": "family",
+      "question": "Which spouses and children are directly supported by records?",
+      "status": "answered"
+    },
+    {
+      "answer": "James-1702 is too young; the 1834 Lisnagaver Robert is not identified as Robert-1367; and the 1888 Ballymoney death aged 84 belongs to the separate Gortahar labourer represented by Glasgow-2717.",
+      "id": "conflicts",
+      "question": "What conflicts or same-name conflations must be resolved?",
+      "status": "answered"
+    }
+  ],
+  "schema_version": 1,
+  "targets": [
+    {
+      "generation": 0,
+      "id": "Glasgow-951",
+      "kind": "wikitree",
+      "note": "Public profile biography and sources captured through browser.",
+      "reason": "Initial subject and immediate family capture.",
+      "status": "complete",
+      "updated_at": "2026-08-05T10:36:52Z"
+    },
+    {
+      "generation": 1,
+      "id": "Glasgow-1367",
+      "kind": "wikitree",
+      "note": "Candidate profile refreshed; possible but unproved older relative.",
+      "reason": "Test proposed father Robert.",
+      "status": "complete",
+      "updated_at": "2026-08-05T10:36:39Z"
+    },
+    {
+      "generation": 1,
+      "id": "Glasgow-1702",
+      "kind": "wikitree",
+      "note": "Candidate profile refreshed and excluded by chronology.",
+      "reason": "Test proposed father James.",
+      "status": "complete",
+      "updated_at": "2026-08-05T10:36:42Z"
+    },
+    {
+      "generation": 0,
+      "id": "VAL/12/B/4/16A-D",
+      "kind": "archive",
+      "note": "Lisnagaver lot 25 succession traced through 1898 and relevant images saved.",
+      "reason": "Identify Alexander's removal and successor.",
+      "status": "complete",
+      "updated_at": "2026-08-05"
+    },
+    {
+      "generation": 1,
+      "id": "T/1459",
+      "kind": "archive",
+      "note": "Harvey family title deeds, 1770-1846, indexed for adjoining Moneyleck; inspect for Lisnagaver leases, named lives and prior tenants.",
+      "reason": "Robert Harvey was immediate lessor of Glasgow lots 24-26 and estate papers could name family relationships.",
+      "status": "pending",
+      "updated_at": "2026-08-05"
+    },
+    {
+      "generation": 0,
+      "id": "MIC/1P/357",
+      "kind": "archive",
+      "note": "Second Portglenone Presbyterian marriage register from 1822; requires PRONI access or commissioned lookup.",
+      "reason": "Search for Alexander Glasgow and Mary McCaughan circa 1836 and record witnesses/residences.",
+      "status": "pending",
+      "updated_at": "2026-08-05"
+    }
+  ],
+  "web_searches": []
+}

@@ -1,0 +1,88 @@
+{
+  "case_id": "Glasgow-1982",
+  "findings": [
+    {
+      "claim": "Glasgow-1982 was husband of McCracken-3711, and their documented children include Ruth, Mariah and Hiram.",
+      "confidence": "Strongly supported; will and gravestone transcriptions",
+      "reasoning": "Reciprocal grave inscriptions identify the spouses; Mary's 1837 will names Ruth and Mariah, names Hiram as trustee, and divides the estate into seven child-shares.",
+      "sources": [
+        "https://web.archive.org/web/20101124184247id_/http://www.lifesweaving.com/Glasgow/Paper_WilsonGlasgowWife.html",
+        "https://genealogytrails.com/scar/newberry/gilders_creek_cem.htm"
+      ]
+    },
+    {
+      "claim": "Glasgow-2298 was probably a son of Glasgow-1982 and McCracken-3711.",
+      "confidence": "Probable; estate-party reconstruction",
+      "reasoning": "The Wilson Glasgow real-estate index lists widow Mary and seven associated people including Robert; Mary's will says she had seven children but does not name Robert.",
+      "sources": [
+        "https://www.genealogytrails.com/scar/newberry/realestate.html"
+      ]
+    },
+    {
+      "claim": "Glasgow-2738 was not a son of Glasgow-1982 and McCracken-3711.",
+      "confidence": "Contradicted; exclusion from matching seven-child estate group",
+      "reasoning": "Mary's will establishes seven children and Wilson's real-estate index supplies seven apparent child names. James is absent. The FamilySearch list also assigns Wilson a child born six years after Wilson died.",
+      "sources": [
+        "https://web.archive.org/web/20101124184247id_/http://www.lifesweaving.com/Glasgow/Paper_WilsonGlasgowWife.html",
+        "https://genealogytrails.com/scar/newberry/realestate.html",
+        "https://genealogytrails.com/scar/newberry/gilders_creek_cem.htm"
+      ]
+    }
+  ],
+  "objective": "Establish the identity and documented family of Glasgow-1982, separating sourced facts from tree assertions.",
+  "questions": [
+    {
+      "answer": "The will, equity case, reciprocal gravestones and estate indexes form a coherent Newberry identity.",
+      "id": "identity",
+      "question": "Which records prove the subject's identity across events?",
+      "status": "open"
+    },
+    {
+      "answer": "James and Mary are strongly supported by the will and equity case.",
+      "id": "parents",
+      "question": "Which original or indexed records identify the parents?",
+      "status": "complete"
+    },
+    {
+      "answer": "Mary McCracken is strongly supported as spouse; Ruth and Mariah are named as daughters and Hiram as a son. The seven-child count matches the seven apparent children in the estate index; the packet is needed for explicit kin terms for the remaining names.",
+      "id": "family",
+      "question": "Which spouses and children are directly supported by records?",
+      "status": "open"
+    },
+    {
+      "answer": "The will transcription gives an impossible recorded date before execution, and two same-generation Naomis must not be merged without the estate packet.",
+      "id": "conflicts",
+      "question": "What conflicts or same-name conflations must be resolved?",
+      "status": "open"
+    }
+  ],
+  "schema_version": 1,
+  "targets": [
+    {
+      "generation": 0,
+      "id": "Newberry real-estate packet 1-13",
+      "kind": "archive",
+      "note": "Inspect Wilson Glasgow real-estate packet 1-13 for kin terms linking Mary, Robert, Ruth, Naomi, Matilda, Hiram, Almina and Maria.",
+      "reason": "Determine which listed parties were Wilson and Mary's seven children and resolve the duplicate Naomi problem.",
+      "status": "open"
+    },
+    {
+      "generation": 0,
+      "id": "Newberry estate 651 box 28 package 58",
+      "kind": "archive",
+      "note": "Inspect Wilson Glasgow's 1817 estate file administered by John Glasgow.",
+      "reason": "Identify Wilson's heirs and administrator relationship from the original packet.",
+      "status": "open"
+    },
+    {
+      "generation": 0,
+      "id": "Glasgow-1982",
+      "kind": "wikitree",
+      "note": "Public profile biography and sources captured through browser.",
+      "reason": "Initial subject and immediate family capture.",
+      "status": "complete",
+      "updated_at": "2026-07-22T12:31:30Z"
+    }
+  ],
+  "web_searches": []
+}

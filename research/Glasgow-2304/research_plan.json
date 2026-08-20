@@ -1,0 +1,51 @@
+{
+  "case_id": "Glasgow-2304",
+  "findings": [
+    {
+      "claim": "Glasgow-2304 and a Mary Glasgow had children James (1806-1824), Neomi (1797-1831), and Rachel Glasgow Keller (1801-1855).",
+      "confidence": "Strongly supported; photographed gravestone transcriptions",
+      "reasoning": "Three Gilders Creek inscriptions independently name Archibald and Mary as parents; Rachel's also names husband Isaac Keller.",
+      "sources": [
+        "https://genealogytrails.com/scar/newberry/gilders_creek_cem.htm",
+        "https://genealogytrails.com/scar/newberry/estates1785-1949/22.htm"
+      ]
+    },
+    {
+      "claim": "The present Glasgow-3042 daughter relationship to Glasgow-2304 is unproved.",
+      "confidence": "Open; tree-only",
+      "reasoning": "Sarah's cemetery inscription identifies husband James but no parent; the estate packet has not been inspected.",
+      "sources": [
+        "https://genealogytrails.com/scar/newberry/gilders_creek_cem.htm"
+      ]
+    }
+  ],
+  "objective": "Identify Archibald Glasgow's spouse and children from original probate and cemetery evidence.",
+  "questions": [
+    {
+      "answer": "Three children are strongly supported by stones; Sarah Glasgow-3042 remains tree-only.",
+      "id": "family",
+      "question": "Which children of Archibald and Mary are directly supported?",
+      "status": "open"
+    }
+  ],
+  "schema_version": 1,
+  "targets": [
+    {
+      "generation": 0,
+      "id": "Newberry estate 647 box 27 package 57",
+      "kind": "archive",
+      "note": "Inspect Archibald Glasgow's 1818 estate file administered by Mary Glasgow.",
+      "reason": "Prove Mary's capacity and name all heirs, including or excluding Sarah Glasgow-3042.",
+      "status": "open"
+    },
+    {
+      "generation": 0,
+      "id": "Newberry guardianship 646 box 27 package 57",
+      "kind": "archive",
+      "note": "Inspect the 1820 Ruth Glasgow and others guardianship with Mary Glasgow as guardian.",
+      "reason": "Determine which deceased Glasgow parent and children the guardianship concerns.",
+      "status": "open"
+    }
+  ],
+  "web_searches": []
+}

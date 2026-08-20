@@ -1,0 +1,75 @@
+{
+  "case_id": "Glasgow-3538",
+  "findings": [
+    {
+      "claim": "The testament-index entry for Jonet Cowan places her spouse Mathew Glasgow at Pyperheugh, Stevenston parish, on an entry dated 24 April 1665.",
+      "confidence": "high",
+      "reasoning": "The published Scottish Record Society index gives the name, spousal relationship, locality, and date directly. It does not establish Matthew's birth, marriage date, or death.",
+      "sources": [
+        "https://electricscotland.com/history/records/scottishrecordso07scotuoft.pdf",
+        "../../surname-research/pre-1700/sources/grant_commissariot_of_glasgow_testaments_1547_1800_1901.pdf"
+      ]
+    },
+    {
+      "claim": "Matthew Glasgow at Ardeer Nether in the 1559-60 Cunninghame teind list is not Glasgow-3538.",
+      "confidence": "high",
+      "reasoning": "The earlier Matthew was already a tenant/head of household about 106 years before the 1665 entry. The shared uncommon name and Stevenston parish support possible family continuity, but no source states a relationship.",
+      "sources": [
+        "https://aanhs.org/wp-content/uploads/2018/05/people-of-ayrshire.pdf",
+        "../../surname-research/pre-1700/sources/sanderson_people_of_sixteenth_century_ayrshire_1987.pdf"
+      ]
+    }
+  ],
+  "objective": "Establish the identity and documented family of Glasgow-3538, separating sourced facts from tree assertions.",
+  "questions": [
+    {
+      "answer": "The 24 April 1665 testament-index entry for Jonet Cowan directly names her spouse Mathew Glasgow in Pyperheugh, parish of Stevinstoune. No second record has yet been found to extend his identity across events.",
+      "id": "identity",
+      "question": "Which records prove the subject's identity across events?",
+      "status": "answered"
+    },
+    {
+      "answer": "No reviewed record identifies either parent. The 1559-60 Matthew at Ardeer Nether is a possible earlier relative but cannot be attached without a relational chain.",
+      "id": "parents",
+      "question": "Which original or indexed records identify the parents?",
+      "status": "answered"
+    },
+    {
+      "answer": "The testament index directly identifies Jonet Cowan as Mathew Glasgow's spouse. No child is established by the reviewed sources.",
+      "id": "family",
+      "question": "Which spouses and children are directly supported by records?",
+      "status": "answered"
+    },
+    {
+      "answer": "The profile says 24 April 1664, but the index says 24 April 1665. The workbook's 1650 value omits the live profile's 'before' status. 'Stevenson' should be normalised to Stevenston. The 1559-60 Ardeer Matthew is a separate earlier namesake unless a relationship is proved.",
+      "id": "conflicts",
+      "question": "What conflicts or same-name conflations must be resolved?",
+      "status": "answered"
+    }
+  ],
+  "schema_version": 1,
+  "targets": [
+    {
+      "generation": 0,
+      "id": "Glasgow-3538",
+      "kind": "wikitree",
+      "note": "WikiTree subject and immediate family captured.",
+      "reason": "Initial subject and immediate family capture.",
+      "status": "complete",
+      "updated_at": "2026-07-16T21:23:45Z"
+    }
+  ],
+  "web_searches": [
+    {
+      "id": "matthew-stevenston-1559-1665",
+      "purpose": "Compare the early Stevenston tenant with Glasgow-3538 and verify the latter's cited date.",
+      "query": "Matthew Glasgow Pyperheugh Ardeer Nether Stevenston 1559 1665",
+      "result_summary": "The teind transcription places an earlier Matthew at Ardeer Nether in 1559-60. The testament index places Glasgow-3538's spouse and Mathew at Pyperheugh on an entry dated 24 April 1665. The interval excludes a safe same-person identification and no relationship is stated.",
+      "source_urls": [
+        "https://aanhs.org/wp-content/uploads/2018/05/people-of-ayrshire.pdf",
+        "https://electricscotland.com/history/records/scottishrecordso07scotuoft.pdf"
+      ],
+      "status": "complete"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "case_id": "Glasgow-1022",
+  "findings": [
+    {
+      "claim": "John Glasgow-867 and Samuel Glasgow-2908 were brothers whose likely shared father was named John Glasgow and was a farmer; Glasgow-1022 is the best current identity candidate but is not proved.",
+      "confidence": "moderate",
+      "reasoning": "The 1851 census explicitly calls Samuel John's brother and John's original 1846 marriage names his father. The older John matches name, occupation, generation and county, but no record connects him directly to Lisnagaver.",
+      "sources": [
+        "../Glasgow-867/sources/john_glasgow_margaret_garvin_marriage_1846.pdf",
+        "https://www.census.nationalarchives.ie/pages/1851/Antrim/Kilconway/Rasharkin/Lisnagaver/34/"
+      ]
+    },
+    {
+      "claim": "Robert Glasgow-1367 belongs to the Glenleslie cluster and may be an uncertain son of Glasgow-1022 by an unknown pre-1791 partner, but the census does not prove it.",
+      "confidence": "low-to-moderate",
+      "reasoning": "The two Antrim-born farmers were 27 years apart in Glenleslie houses 21 and 23. Robert was born about twelve years before John and Rose's reported 1791 marriage, and an unrelated household intervened.",
+      "sources": [
+        "../Glasgow-1367/sources/1851_census_glenleslie_house_23_page_1.pdf",
+        "https://durrushistory.com/wp-content/uploads/2012/10/1851irishcensusreturnscommadelimitedtextfilejul24_071.pdf"
+      ]
+    },
+    {
+      "claim": "The Griffith Gortereghy Robert was probably Glasgow-938, son of younger Alexander Glasgow-951, not the elderly Glenleslie Robert Glasgow-1367.",
+      "confidence": "moderate-high",
+      "reasoning": "The younger Robert was proved at Lisnagaver in 1851 and his 1866 marriage calls him a Lisnagaver farmer, son of Alexander, while his bride resided at Gortereghy. PRONI revision books VAL/12/B/4/17A and 17B record Robert at Gortereghy house 18c from 1864. The older Robert was at Glenleslie in 1851 and would have been about 85 in 1864.",
+      "sources": [
+        "https://www.census.nationalarchives.ie/pages/1851/Antrim/Kilconway/Rasharkin/Lisnagaver/35/",
+        "https://civilrecords.irishgenealogy.ie/churchrecords/images/marriage_returns/marriages_1866/11531/8240963.pdf",
+        "https://www.failteromhat.com/griffiths/antrim/rasharkin.htm",
+        "sources/proni_VAL-12-B-4-17A_gortereghy_folio21.jpg",
+        "sources/proni_VAL-12-B-4-17B_gortereghy_folio22.jpg"
+      ]
+    },
+    {
+      "claim": "Daniel Glasgow-3896 and Thomas Glasgow-987 were brothers; younger Alexander Glasgow-951 was their probable brother, making Glasgow-938 the probable nephew of the Gortereghy Daniel.",
+      "confidence": "high for Daniel-Thomas; moderate-low for Alexander",
+      "reasoning": "Daniel's original will and Daniel Neely's marriage form a direct two-record sibling chain. Alexander's place, age and family tradition support but do not state the additional sibling link.",
+      "sources": [
+        "../Glasgow-3896/sources/daniel_glasgow_1871_will_manifest.md",
+        "../Glasgow-987/sources/daniel_neely_glasgow_mary_boyd_marriage_1888.pdf",
+        "https://genealogy.torrens.org/BannValley/church/RasharkinP/Baptisms_1834.html"
+      ]
+    }
+  ],
+  "objective": "Reconstruct how the Glenleslie, Lisnagaver and Gortereghy Glasgow households fit together without conflating the two Roberts.",
+  "questions": [
+    {
+      "answer": "Glasgow-1022 is directly identified in Glenleslie house 21 in 1851 as a 99-year-old Antrim-born farmer married to Rose since 1791.",
+      "id": "identity",
+      "question": "Which records prove the subject's identity across events?",
+      "status": "answered"
+    },
+    {
+      "answer": "No inspected record identifies Glasgow-1022's own parents. The current upward attachment remains a hypothesis and was outside this placement pass.",
+      "id": "parents",
+      "question": "Which original or indexed records identify the parents?",
+      "status": "answered"
+    },
+    {
+      "answer": "John-867 and Samuel-2908 can remain uncertain sons; Robert-1367 is an optional low-to-moderate-confidence uncertain son. All three mothers should remain blank. The older-Alexander branch is probably collateral but its exact link to John is unknown.",
+      "id": "family",
+      "question": "Which spouses and children are directly supported by records?",
+      "status": "answered"
+    },
+    {
+      "answer": "The 1839 marriage year belongs to John's nephew, not John and Rose, whose return says 1791. The Gortereghy Robert is probably Glasgow-938, not Glasgow-1367. Enumeration order does not prove cousinship or physical next-door residence.",
+      "id": "conflicts",
+      "question": "What conflicts or same-name conflations must be resolved?",
+      "status": "answered"
+    }
+  ],
+  "schema_version": 1,
+  "targets": [
+    {
+      "generation": 0,
+      "id": "Glasgow-1022",
+      "kind": "wikitree",
+      "note": "Public profile biography and sources captured through browser.",
+      "reason": "Root placement case.",
+      "status": "complete",
+      "updated_at": "2026-08-05T12:30:00Z"
+    },
+    {
+      "id": "VAL/12/B/4/17A-B",
+      "kind": "archive",
+      "note": "Inspected VAL/12/B/4/17A and 17B. Gortereghy folio 21 in the 1864 book records Robert Glasgow at separate house 18c, and the next book carries him forward. Adjoining 18b was Daniel McCochrane's; Daniel Glasgow's 1862 map reference remains unverified. Both folios saved locally.",
+      "reason": "Test occupier and plot succession between Daniel, Alexander and younger Robert.",
+      "status": "complete",
+      "updated_at": "2026-07-17T10:57:52Z"
+    }
+  ],
+  "web_searches": [
+    {
+      "id": "gortereghy-identity",
+      "purpose": "Distinguish the two Robert Glasgow candidates in Griffith's Valuation.",
+      "query": "Robert Glasgow Gortereghy Lisnagaver Griffith marriage 1866",
+      "result_summary": "The 1866 original marriage identifies younger Robert as a Lisnagaver farmer and son of Alexander; his bride was from Gortereghy. He is the strongest Griffith candidate.",
+      "source_urls": [
+        "https://civilrecords.irishgenealogy.ie/churchrecords/images/marriage_returns/marriages_1866/11531/8240963.pdf",
+        "https://www.failteromhat.com/griffiths/antrim/rasharkin.htm"
+      ],
+      "status": "complete"
+    }
+  ]
+}

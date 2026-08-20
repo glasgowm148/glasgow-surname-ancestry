@@ -1,0 +1,79 @@
+{
+  "case_id": "Glasgow-1144",
+  "findings": [
+    {
+      "claim": "Glasgow-1144 was a son of Wilson-78088.",
+      "confidence": "Strongly supported; direct sworn-record transcriptions",
+      "reasoning": "The equity complaint names James as Rachel's son; Robert Glasgow's sworn answer calls James his father and Rachel his paternal grandmother.",
+      "sources": [
+        "https://web.archive.org/web/20101124184247id_/http://www.lifesweaving.com/Glasgow/Paper_Complaint.html",
+        "https://web.archive.org/web/20101124184247id_/http://www.lifesweaving.com/Glasgow/Paper_Reply.html"
+      ]
+    },
+    {
+      "claim": "Glasgow-1144 and Crosier-512 were spouses and had six named children.",
+      "confidence": "Strongly supported; concordant record transcriptions",
+      "reasoning": "James's 1775 will and the 1817 equity case identify Mary and children Robert, John, Archibald, Wilson, Margaret and Rachel.",
+      "sources": [
+        "https://web.archive.org/web/20101124184247id_/http://www.lifesweaving.com/Glasgow/Paper_JGlasgowWill.html",
+        "https://web.archive.org/web/20101124184247id_/http://www.lifesweaving.com/Glasgow/Paper_Complaint.html"
+      ]
+    }
+  ],
+  "objective": "Establish the identity and documented family of Glasgow-1144, separating sourced facts from tree assertions.",
+  "questions": [
+    {
+      "answer": "The will and equity case prove the South Carolina identity; the 1768 Larne soapmaker identification remains provisional.",
+      "id": "identity",
+      "question": "Which records prove the subject's identity across events?",
+      "status": "open"
+    },
+    {
+      "answer": "Rachel Wilson is strongly supported as mother; Robert Glasgow-1143 is only the probable father by combined evidence.",
+      "id": "parents",
+      "question": "Which original or indexed records identify the parents?",
+      "status": "open"
+    },
+    {
+      "answer": "Mary and six children are strongly supported by the will and equity case; the two daughters lack catalogue profiles.",
+      "id": "family",
+      "question": "Which spouses and children are directly supported by records?",
+      "status": "complete"
+    },
+    {
+      "answer": "The sworn answer calls Robert the oldest son, conflicting with current cemetery-derived birth years.",
+      "id": "conflicts",
+      "question": "What conflicts or same-name conflations must be resolved?",
+      "status": "open"
+    }
+  ],
+  "schema_version": 1,
+  "targets": [
+    {
+      "generation": 0,
+      "id": "Newberry equity file 1817-1819",
+      "kind": "archive",
+      "note": "Obtain the original Washington District/Newberry equity complaint, Robert Glasgow answers and Mary Glasgow declarations, 1817-1819.",
+      "reason": "Verify the direct relationship wording and obtain a stable archival citation.",
+      "status": "open"
+    },
+    {
+      "generation": 0,
+      "id": "Newberry Will Book A p194",
+      "kind": "archive",
+      "note": "Inspect James Glasgow's original will or record copy, dated 17 October 1775 and proved 13 July 1793.",
+      "reason": "Verify the six children and wife Mary from the original image.",
+      "status": "open"
+    },
+    {
+      "generation": 0,
+      "id": "Glasgow-1144",
+      "kind": "wikitree",
+      "note": "Public profile biography and sources captured through browser.",
+      "reason": "Initial subject and immediate family capture.",
+      "status": "complete",
+      "updated_at": "2026-07-22T12:30:47Z"
+    }
+  ],
+  "web_searches": []
+}

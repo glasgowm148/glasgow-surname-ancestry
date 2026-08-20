@@ -1,0 +1,319 @@
+{
+  "case_id": "Glasgow-591",
+  "findings": [
+    {
+      "claim": "No reviewed record identifies the father of Glasgow-591, and the profile's identity as a particular Scottish William is itself unproved.",
+      "confidence": "high",
+      "reasoning": "The late family history expressly calls the early ancestry obscure and supplies no birth, father, unit, or contemporary record. Neither the Polwarth baptism nor the Cavers records connect their William to the Irish ancestor.",
+      "sources": [
+        "sources/william_melanchthon_glasgow_family_history.pdf",
+        "captures/20260716T204200Z_Glasgow-591.json",
+        "captures/20260716T205843Z_Glasgow-1605.json"
+      ]
+    },
+    {
+      "claim": "The 1684 Privy Council record places a William Glasgow as William Leeden's servant at Ormiston in Cavers parish, Roxburghshire; it does not record a birth or parents.",
+      "confidence": "high",
+      "reasoning": "The printed volume's three indexed occurrences place William in a Cavers-area group, while the Roxburghshire name book identifies Ormiston within Cavers. Identity with the 1679 Cavers prisoner is strong but indirect; identity with Glasgow-591 is unproved.",
+      "sources": [
+        "sources/privy_council_search_william_glasgow.json",
+        "sources/privy_council_1684_p483_snippet.png",
+        "sources/privy_council_1684_p673_snippet.png",
+        "https://books.google.com/books/about/The_Register_of_the_Privy_Council_of_Sco.html?id=zDyZs3nDbR0C"
+      ]
+    },
+    {
+      "claim": "Glasgow-1605's attachment to Glasgow-2462 is unsupported by the cited Polwarth baptism index.",
+      "confidence": "high",
+      "reasoning": "The index identifies the child's father only as William Glasgow. The selected father is profiled from an Inveresk 1639 baptism but has no cited wife, Polwarth residence, or relationship record. Glasgow-1497 is not the live attached father and is irrelevant.",
+      "sources": [
+        "captures/20260716T205843Z_Glasgow-1605.json",
+        "captures/20260716T205939Z_Glasgow-2462.json",
+        "captures/20260716T205845Z_Glasgow-1497.json"
+      ]
+    },
+    {
+      "claim": "The Lanark Commissariot index records a testament for William Glasgow in Quothquan on 9 April 1673, but the index does not identify his relatives.",
+      "confidence": "high",
+      "reasoning": "The original testament is the best new candidate-parent lead because it may name children or other kin. Until it is read, this William cannot be identified as Glasgow-591's father or attached to a profile.",
+      "sources": [
+        "sources/commissariot_of_lanark_testament_index_1595-1800.pdf",
+        "https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/the_commissariot_record_of_lanark__register_of_testaments__1595-1800_~_1903.pdf"
+      ]
+    },
+    {
+      "claim": "A complete FreeREG sweep of Cavers baptisms and marriages for 1694-1750 found GLASGOW and GLASGON as the only relevant surname forms but no record naming a father of any William.",
+      "confidence": "high",
+      "reasoning": "The register surname list was checked, both spellings were searched, and the six returned entries were preserved. FreeREG has no Cavers burials in the period. The 1694 duplicate transcriptions also conflict on date and on whether an abode was given.",
+      "sources": [
+        "sources/freereg_cavers_parish_register_metadata.html",
+        "sources/freereg_cavers_parish_register_unique_names.html",
+        "sources/freereg_search_glasgow_roxburghshire_1684-1750_full.html",
+        "sources/freereg_search_glasgon_cavers_1694-1750_full.html"
+      ]
+    },
+    {
+      "claim": "Glasgow-3331's attachments as father of Glasgow-1498 and Glasgow-2731 are unsupported by the profiles' cited evidence.",
+      "confidence": "high",
+      "reasoning": "Glasgow-3331 says no spouse or children are confirmed; Glasgow-1498 says no reliable father was found; Glasgow-2731 says his parentage is unknown. No profile cites a relational record for either attachment.",
+      "sources": [
+        "captures/20260716T214155Z_Glasgow-3331.json",
+        "captures/20260716T213718Z_Glasgow-1498.json",
+        "captures/20260716T213717Z_Glasgow-2731.json"
+      ]
+    }
+  ],
+  "objective": "Identify the father of Glasgow-591 while first establishing which Scottish William, if any, was the Irish ancestor.",
+  "questions": [
+    {
+      "answer": "No record joins the late family tradition's Irish ancestor to the 1679 Cavers prisoner, the 1684 Ormiston servant, the 1694 Cavers father, or the 1658 Polwarth child. The 1684 man is strongly linked to Cavers but only indirectly to the 1679 prisoner.",
+      "id": "identity",
+      "question": "Which records prove the subject's identity across events?",
+      "status": "answered"
+    },
+    {
+      "answer": "No reviewed source identifies either parent of Glasgow-591. The 1673 index entry for William Glasgow in Quothquan is a candidate-parent lead only; its original testament must be read for relationships. The Polwarth baptism does not identify Glasgow-591 or its father as Glasgow-2462.",
+      "id": "parents",
+      "question": "Which original or indexed records identify the parents?",
+      "status": "answered"
+    },
+    {
+      "answer": "The family history calls John the son of William, but it is a late tradition and no contemporary relational record was found. A 1694 Cavers baptism directly names a father William for Isabell, but that William's identity is unresolved.",
+      "id": "family",
+      "question": "Which spouses and children are directly supported by records?",
+      "status": "answered"
+    },
+    {
+      "answer": "The principal conflation risk is treating the Irish ancestor, 1679 prisoner, 1684 Cavers servant, 1694 Cavers father, and 1658 Polwarth child as one man. 'Ormistone' belongs to Cavers, not East Lothian. Glasgow-2462 is attached to Glasgow-1605 without proof, while Glasgow-3331 is attached to Glasgow-1498 and Glasgow-2731 despite all three biographies acknowledging no confirmed relationship.",
+      "id": "conflicts",
+      "question": "What conflicts or same-name conflations must be resolved?",
+      "status": "answered"
+    }
+  ],
+  "schema_version": 1,
+  "targets": [
+    {
+      "generation": 0,
+      "id": "Glasgow-591",
+      "kind": "wikitree",
+      "note": "Public profile, biography, sources and immediate relationships captured through the WikiTree API.",
+      "reason": "Initial subject and immediate family capture.",
+      "status": "complete",
+      "updated_at": "2026-08-07T09:43:10Z"
+    },
+    {
+      "generation": 1,
+      "id": "Glasgow-551",
+      "kind": "wikitree",
+      "note": "WikiTree subject and immediate family captured.",
+      "reason": "Automatic generation 1 descendant capture; hydrates the following generation.",
+      "status": "complete",
+      "updated_at": "2026-07-16T20:42:01Z"
+    },
+    {
+      "generation": 0,
+      "id": "Glasgow-1605",
+      "kind": "wikitree",
+      "note": "WikiTree subject and immediate family captured.",
+      "reason": "Capture the Polwarth 1658 candidate and its current parent attachment for comparison with the Cavers man.",
+      "status": "complete",
+      "updated_at": "2026-07-16T20:58:43Z"
+    },
+    {
+      "generation": 0,
+      "id": "Glasgow-1497",
+      "kind": "wikitree",
+      "note": "WikiTree subject and immediate family captured.",
+      "reason": "Capture and exclude the previously discussed Glasgow child; he is not the live father attached to the Polwarth candidate.",
+      "status": "complete",
+      "updated_at": "2026-07-16T20:58:45Z"
+    },
+    {
+      "generation": 0,
+      "id": "Glasgow-2462",
+      "kind": "wikitree",
+      "note": "WikiTree subject and immediate family captured.",
+      "reason": "Capture the father currently attached to Glasgow-1605; the Polwarth baptism index names a father William but does not identify this particular Inveresk man.",
+      "status": "complete",
+      "updated_at": "2026-07-16T20:59:39Z"
+    },
+    {
+      "generation": 1,
+      "id": "Glasgow-3587",
+      "kind": "wikitree",
+      "note": "WikiTree subject and immediate family captured.",
+      "reason": "Automatic generation 1 descendant capture; hydrates the following generation.",
+      "status": "complete",
+      "updated_at": "2026-07-16T20:58:46Z"
+    },
+    {
+      "generation": 1,
+      "id": "Glasgow-3370",
+      "kind": "wikitree",
+      "note": "WikiTree subject and immediate family captured.",
+      "reason": "Automatic generation 1 descendant capture; hydrates the following generation.",
+      "status": "complete",
+      "updated_at": "2026-07-16T20:58:47Z"
+    },
+    {
+      "generation": 1,
+      "id": "Glasgow-3362",
+      "kind": "wikitree",
+      "note": "WikiTree subject and immediate family captured.",
+      "reason": "Automatic generation 1 descendant capture; hydrates the following generation.",
+      "status": "complete",
+      "updated_at": "2026-07-16T20:59:40Z"
+    },
+    {
+      "id": "Polwarth-OPR-1658-04-04",
+      "kind": "archive",
+      "reason": "Inspect the original baptism image for abode, occupation, witnesses, marginal notes, or nearby entries omitted from the index.",
+      "status": "pending"
+    },
+    {
+      "id": "CH2/721/1",
+      "kind": "archive",
+      "reason": "Search Polwarth kirk-session minutes, 1652-1668, for the Glasgow household and identifying context around the 1656 and 1658 baptisms.",
+      "status": "pending"
+    },
+    {
+      "id": "GD158/779-808",
+      "kind": "archive",
+      "reason": "Search Hume of Polwarth tacks and rentals for a William Glasgow household, occupation, or movement during the relevant period.",
+      "status": "pending"
+    },
+    {
+      "id": "E69/21/1/31",
+      "kind": "archive",
+      "reason": "Inspect the missing 1694 Cavers hearth-tax page for Ormiston, Hummelknows, and Glasgow householders; absence would remain limited because servants may not be listed.",
+      "status": "pending"
+    },
+    {
+      "id": "GD1/461",
+      "kind": "archive",
+      "reason": "Search Kerr family of Cavers rentals, accounts, and tenant papers for the Glasgow and Leeden households.",
+      "status": "pending"
+    },
+    {
+      "id": "Glasgow-1521",
+      "kind": "wikitree",
+      "note": "WikiTree subject and immediate family captured.",
+      "reason": "Test the Glasgow High Kirk 1648 child proposed as another identity candidate for Glasgow-591 and look for a conflicting later life.",
+      "status": "complete",
+      "updated_at": "2026-07-16T21:37:16Z"
+    },
+    {
+      "id": "Glasgow-2731",
+      "kind": "wikitree",
+      "note": "WikiTree subject and immediate family captured.",
+      "reason": "Capture the Hawick William proposed on Glasgow-1605 as a possible match and separate the later Cavers/Hawick family from the 1679 man.",
+      "status": "complete",
+      "updated_at": "2026-07-16T21:37:17Z"
+    },
+    {
+      "id": "Glasgow-1498",
+      "kind": "wikitree",
+      "note": "WikiTree subject and immediate family captured.",
+      "reason": "Capture John Glasgow of Cavers, the other 1679 survivor, for any sourced household or kinship evidence relevant to William's origin.",
+      "status": "complete",
+      "updated_at": "2026-07-16T21:37:18Z"
+    },
+    {
+      "id": "Glasgow-3331",
+      "kind": "wikitree",
+      "note": "WikiTree subject and immediate family captured.",
+      "reason": "Audit the John of Quothquan profile attached as father to both Glasgow-1498 and Glasgow-2731, because neither child's biography supplies a relational source.",
+      "status": "complete",
+      "updated_at": "2026-07-16T21:41:55Z"
+    },
+    {
+      "id": "CC14/5/9-William-Glasgow-1673",
+      "kind": "archive",
+      "reason": "Inspect the original 9 April 1673 testament of William Glasgow in Quothquan, CC14/5/9, for spouse, children, executor, debts, occupation, and kin.",
+      "status": "pending"
+    },
+    {
+      "id": "Scott-69166",
+      "kind": "wikitree",
+      "note": "WikiTree subject and immediate family captured.",
+      "reason": "Refresh the spouse profile before drafting the exact Hummelknows marriage addition.",
+      "status": "complete",
+      "updated_at": "2026-07-16T21:53:02Z"
+    }
+  ],
+  "web_searches": [
+    {
+      "id": "rpc-1684-ormiston",
+      "purpose": "Resolve the Scottish Covenanters Index entry and determine whether Ormistone means the East Lothian parish or a Cavers locality.",
+      "query": "William Glasgow Ormistone Register Privy Council Scotland 1684 pages 473 483 673",
+      "result_summary": "The cited Privy Council volume names William Glasgow as a servant at Ormiston within a Cavers-parish group. Ormiston is a Cavers locality in Roxburghshire, not evidence of birth at Ormiston, East Lothian.",
+      "source_urls": [
+        "https://books.google.com/books/about/The_Register_of_the_Privy_Council_of_Sco.html?id=zDyZs3nDbR0C",
+        "https://scotlandsplaces.gov.uk/digital-volumes/ordnance-survey-name-books/roxburghshire-os-name-books-1858-1860/roxburghshire-volume-08?display=transcription"
+      ],
+      "status": "complete"
+    },
+    {
+      "id": "cavers-registers",
+      "purpose": "Find parent or family evidence for William in surviving Cavers parish records.",
+      "query": "FreeREG Glasgow Cavers Roxburghshire 1684 1750",
+      "result_summary": "No pre-1694 baptism can survive in the Cavers OPR. FreeREG has two discrepant transcriptions of an Isabell Glasgow baptism in December 1694 naming father William Glasgow; the original image is needed. This is the earliest located Glasgow family event at Cavers but does not identify William's parents.",
+      "source_urls": [
+        "https://www.freereg.org.uk/search_records/68618e1f865574707dcba4ca/isabell-glasgow-baptism-roxburghshire-cavers-1694-12-02",
+        "https://www.freereg.org.uk/search_records/68618e8b865574707dcbe3e5/isabell-glasgow-baptism-roxburghshire-cavers-1694-12-08",
+        "https://www.nrscotland.gov.uk/learning-and-events/research-guides/coverage-of-the-old-parish-registers/"
+      ],
+      "status": "complete"
+    },
+    {
+      "id": "polwarth-record-survival",
+      "purpose": "Identify original records capable of testing the Polwarth baptismal family and attached father.",
+      "query": "NRS Polwarth kirk session minutes rentals Hume of Polwarth 1652 1668",
+      "result_summary": "Polwarth minutes survive as CH2/721/1 for 1652-1668, and Hume of Polwarth papers GD158 include long-running tacks and rentals. The online catalogues do not identify a Glasgow entry; originals remain unreviewed.",
+      "source_urls": [
+        "https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/browseDetails.aspx?reference=CH2%2F721",
+        "https://www.scotlandspeople.gov.uk/place-page/Polwarth/GAZ00924/REX00785/REX00785",
+        "https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD158"
+      ],
+      "status": "complete"
+    },
+    {
+      "id": "cavers-hearth-tax-1694",
+      "purpose": "Test whether a Glasgow householder or the Leeden network appears in the 1694 Cavers tax roll.",
+      "query": "Roxburghshire hearth tax 1694 Cavers Ormiston William Glasgow E69/21/1",
+      "result_summary": "Available archived Cavers transcriptions name several Leeden householders but no Glasgow. Page E69/21/1/31 was unavailable and servants or non-householders could be absent, so this is only a partial negative search.",
+      "source_urls": [
+        "https://www.nrscotland.gov.uk/learning-and-events/research-guides/taxation-records/?section=hearth-tax-1691-1695",
+        "https://www.familysearch.org/en/search/catalog/212753",
+        "https://web.archive.org/web/20160826181307id_/http://www.scotlandsplaces.gov.uk/digital-volumes/historical-tax-rolls/hearth-tax-records-1691-1695/hearth-tax-records-roxburghshire/14",
+        "https://web.archive.org/web/20160827041939id_/http://www.scotlandsplaces.gov.uk/digital-volumes/historical-tax-rolls/hearth-tax-records-1691-1695/hearth-tax-records-roxburghshire/15",
+        "https://web.archive.org/web/20160822075126id_/http://www.scotlandsplaces.gov.uk/digital-volumes/historical-tax-rolls/hearth-tax-records-1691-1695/hearth-tax-records-roxburghshire/17"
+      ],
+      "status": "complete"
+    },
+    {
+      "id": "cavers-freereg-bounded-sweep",
+      "purpose": "Audit every relevant Cavers baptism and marriage transcription and surname spelling from the first surviving register year through 1750.",
+      "query": "FreeREG Cavers 1694 1750 exact GLASGOW GLASGON",
+      "result_summary": "The Cavers register's surname list contains only GLASGOW and GLASGON as relevant forms. Six entries were preserved. None names a father of William; the 1694 Isabell duplicates conflict on day and abode metadata. FreeREG has no Cavers burials in this period.",
+      "source_urls": [
+        "https://www.freereg.org.uk/freereg_contents/61d0dfbef493fd2b55c76ccc/register",
+        "https://www.freereg.org.uk/search_records/68618e1f865574707dcba4ca/isabell-glasgow-baptism-roxburghshire-cavers-1694-12-02",
+        "https://www.freereg.org.uk/search_records/68618e8b865574707dcbe3e5/isabell-glasgow-baptism-roxburghshire-cavers-1694-12-08",
+        "https://www.freereg.org.uk/search_records/68618e91865574707dcbe5ff/william-glasgon-margaret-scott-marriage-roxburghshire-cavers-1709-03-04",
+        "https://www.freereg.org.uk/search_records/68618e34865574707dcbad78/isabel-glasgon-baptism-roxburghshire-cavers-1710-08-27"
+      ],
+      "status": "complete"
+    },
+    {
+      "id": "lanark-testament-1673",
+      "purpose": "Identify candidate parent records for the Cavers-era Williams and find an original capable of naming children.",
+      "query": "Lanark Commissariot testament William Glasgow Quothquan 1673",
+      "result_summary": "The published index records William Glasgow in Quothquan on 9 April 1673 in register CC14/5/9. No original image or transcript was found online, and no matching WikiTree profile was located. The original is now the highest-yield lead, but the index alone proves no relationship.",
+      "source_urls": [
+        "https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/the_commissariot_record_of_lanark__register_of_testaments__1595-1800_~_1903.pdf"
+      ],
+      "status": "complete"
+    }
+  ]
+}

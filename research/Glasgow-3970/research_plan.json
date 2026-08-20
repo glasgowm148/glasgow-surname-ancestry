@@ -1,0 +1,71 @@
+{
+  "case_id": "Glasgow-3970",
+  "findings": [
+    {
+      "claim": "The descendant chain from Glasgow-3970 to Glasgow-1143 remains unproved, while the downstream Glasgow-1143 and Wilson-78088 family is strongly supported.",
+      "confidence": "Mixed: upstream unknown; downstream strongly supported",
+      "reasoning": "No inspected record names a child of Robert Glaskow of Larne. Deed, will and equity transcriptions create a separate well-supported family island beginning at Kilwaughter in 1738.",
+      "sources": [
+        "https://1641dep.abdn.ac.uk/items/show/42821.html",
+        "https://www.irishdeedsindex.net/mem.php?memorial=74015",
+        "https://web.archive.org/web/20101124184247id_/http://www.lifesweaving.com/Glasgow/Paper_JGlasgowWill.html",
+        "https://web.archive.org/web/20101124184247id_/http://www.lifesweaving.com/Glasgow/Paper_Reply.html"
+      ]
+    }
+  ],
+  "objective": "Prove descendants of Robert Glaskow of Larne without converting tree topology into evidence.",
+  "excluded_profile_lead_references": [
+    "MIC/331",
+    "MIC331"
+  ],
+  "questions": [
+    {
+      "answer": "No wife or child is named in the inspected 1653 deposition.",
+      "id": "family",
+      "question": "Can any child of Robert Glaskow of Larne be directly identified?",
+      "status": "open"
+    },
+    {
+      "answer": "The current chain through Glasgow-1081 and Glasgow-1502 is not proved.",
+      "id": "descendant_bridge",
+      "question": "What record bridges Glasgow-3970 to the proved Kilwaughter-to-Newberry family?",
+      "status": "open"
+    }
+  ],
+  "schema_version": 1,
+  "targets": [
+    {
+      "generation": 0,
+      "id": "NRS GD154/505-534",
+      "kind": "archive",
+      "note": "Inspect the Agnew Irish estate rentals, leases, surrenders and assignments for 1636-1712.",
+      "reason": "This is the best chance of connecting the 1669 Kilwaughter householders to later tenants.",
+      "status": "open"
+    },
+    {
+      "generation": 0,
+      "id": "PRONI D/282/2-160",
+      "kind": "archive",
+      "note": "Prioritise Kilwaughter leases, assignments, rentals and conveyances dated 1647-1742.",
+      "reason": "Former tenants, inherited holdings or named lives may supply the missing succession bridge.",
+      "status": "open"
+    },
+    {
+      "generation": 0,
+      "id": "PRONI T/808/14889",
+      "kind": "archive",
+      "note": "Inspect the complete Larne and Kilwaughter sections of the 1666 County Antrim subsidy roll.",
+      "reason": "The undigitised roll may identify Robert, James or John under Glasgow, Glascho, Glaskow or Glass variants.",
+      "status": "open"
+    },
+    {
+      "generation": 0,
+      "id": "PRONI MIC/1B/6",
+      "kind": "archive",
+      "note": "Extract every Glasgow entry from the Larne and Kilwaughter registers, session minutes, discipline records and poor accounts.",
+      "reason": "Witnesses, elders, townlands or stated relationships may identify the later household's parentage.",
+      "status": "open"
+    }
+  ],
+  "web_searches": []
+}

@@ -1,0 +1,61 @@
+{
+  "case_id": "Glasgow-1073",
+  "findings": [
+    {
+      "claim": "The University register places John in the third class in 1672 and among the M.A. graduates on 16 July 1674.",
+      "confidence": "high",
+      "reasoning": "The contemporary institutional register names Johannes Glasgua and Joannes Glasgouensis in the matching class and graduation cohort.",
+      "source_urls": [
+        "https://archive.org/details/munimentaalmeuni03mait"
+      ]
+    },
+    {
+      "claim": "John belongs most plausibly to the Corsankell-Stevenston-Kilwinning cluster below Glasgow-1098.",
+      "confidence": "moderate",
+      "reasoning": "His Scottish university record and Ayrshire career fit the local multigeneration surname corridor better than an immediate Kilwaughter parent; the exact father remains unproved.",
+      "source_urls": [
+        "https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD39%2F5%2F59"
+      ]
+    }
+  ],
+  "objective": "Establish the identity and documented family of Glasgow-1073, separating sourced facts from tree assertions.",
+  "questions": [
+    {
+      "answer": "The 1672 university class entry, 1674 graduation, 1688 ordination, two marriages and 1721 death form the documented identity sequence; the university and ministerial sources do not name a parent.",
+      "id": "identity",
+      "question": "Which records prove the subject's identity across events?",
+      "status": "answered"
+    },
+    {
+      "answer": "No reviewed source names either parent. John-1604 is the leading existing-profile candidate by generation and locality, but remains uncertain and tree-derived.",
+      "id": "parents",
+      "question": "Which original or indexed records identify the parents?",
+      "status": "open"
+    },
+    {
+      "answer": "Jean Cunningham, Margaret Scott and their fourteen children are supported by parish entries and the published Ayrshire pedigree. Barbara Alason's household may belong to the same John but is not yet resolved.",
+      "id": "family",
+      "question": "Which spouses and children are directly supported by records?",
+      "status": "answered"
+    },
+    {
+      "answer": "Resolve Glasgow-3375 as a possible duplicate of the minister and Glasgow-3145 as a probable duplicate of Glasgow-1604. The current Robert-1078 parent route is geographically inferior to the Ayrshire branch.",
+      "id": "conflicts",
+      "question": "What conflicts or same-name conflations must be resolved?",
+      "status": "open"
+    }
+  ],
+  "schema_version": 1,
+  "targets": [
+    {
+      "generation": 0,
+      "id": "Glasgow-1073",
+      "kind": "wikitree",
+      "note": "WikiTree subject and immediate family captured.",
+      "reason": "Initial subject and immediate family capture.",
+      "status": "complete",
+      "updated_at": "2026-07-19T12:07:22Z"
+    }
+  ],
+  "web_searches": []
+}

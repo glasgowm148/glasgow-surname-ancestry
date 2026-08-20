@@ -1,0 +1,62 @@
+{
+  "case_id": "Glasgow-1500",
+  "findings": [
+    {
+      "claim": "Glasgow-1500 was a daughter of Wilson-78088 and wife of Shannon-4518.",
+      "confidence": "Strongly supported; direct sworn-record transcriptions",
+      "reasoning": "The equity complaint and Robert Glasgow's sworn answer identify Ann as Rachel's daughter, James's sister and Hugh Shannon's wife.",
+      "sources": [
+        "https://web.archive.org/web/20101124184247id_/http://www.lifesweaving.com/Glasgow/Paper_Complaint.html",
+        "https://web.archive.org/web/20101124184247id_/http://www.lifesweaving.com/Glasgow/Paper_Reply.html"
+      ]
+    }
+  ],
+  "objective": "Establish the identity and documented family of Glasgow-1500, separating sourced facts from tree assertions.",
+  "questions": [
+    {
+      "answer": "The equity case identifies Ann through her mother, brother and husband; her exact birth date remains derivative.",
+      "id": "identity",
+      "question": "Which records prove the subject's identity across events?",
+      "status": "open"
+    },
+    {
+      "answer": "Rachel Wilson is strongly supported as mother; Robert Glasgow-1143 is only the probable father by combined evidence.",
+      "id": "parents",
+      "question": "Which original or indexed records identify the parents?",
+      "status": "open"
+    },
+    {
+      "answer": "The equity records strongly support Hugh Shannon as spouse; their children remain unverified.",
+      "id": "family",
+      "question": "Which spouses and children are directly supported by records?",
+      "status": "open"
+    },
+    {
+      "answer": "The complaint says Ann predeceased Archibald Wilson; Robert's sworn answer expressly says she survived him.",
+      "id": "conflicts",
+      "question": "What conflicts or same-name conflations must be resolved?",
+      "status": "open"
+    }
+  ],
+  "schema_version": 1,
+  "targets": [
+    {
+      "generation": 0,
+      "id": "Newberry equity file 1817-1819",
+      "kind": "archive",
+      "note": "Obtain the original equity file naming Ann Glasgow and Hugh Shannon and correcting Ann's death chronology.",
+      "reason": "Verify relationship wording and identify any named Shannon children or Irish residence.",
+      "status": "open"
+    },
+    {
+      "generation": 0,
+      "id": "Glasgow-1500",
+      "kind": "wikitree",
+      "note": "Public profile biography and sources captured through browser.",
+      "reason": "Initial subject and immediate family capture.",
+      "status": "complete",
+      "updated_at": "2026-07-22T12:30:57Z"
+    }
+  ],
+  "web_searches": []
+}

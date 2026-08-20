@@ -1,0 +1,55 @@
+{
+  "entries": [
+    {
+      "date": "2026-08-11",
+      "title": "Y-DNA root explorer",
+      "changes": [
+        "Added a Y-DNA Explorer covering every public FT25406/FT20271-cluster paternal root, with cautious WikiTree profile mappings, confirmed SNP levels and interactive pairwise STR genetic distances.",
+        "Separated STR steps, named SNP branches and unavailable private-variant distances so mutation counts are not misread as generations or documentary proof.",
+        "Grouped multiple kits under ten distinct reported paternal roots; added 478604, 959947 and 794462; corrected 1002232 to Robert Glasgow c.1780; and preserved supplied B580327-relative genetic distances.",
+        "Added a visual mutation tree inside R-FT20271, separating provisional shared STR patterns from the confirmed FTE32242 child SNP and showing each Big Y line's STR/private-variant distance from B580327.",
+        "Corrected the FT25406 line's displayed FTDNA root to Henry Glasgo 1774–1849 while retaining Jeremiah 1713–1777 only as a proposed deeper pedigree ancestor.",
+        "Added the complete 17-match B580327 Y-111 neighbourhood, ranked by genetic distance and filterable by confirmed FT20271/FTE32242 placement, other Big Y branches and marker-only tests; living tester names remain private."
+      ]
+    },
+    {
+      "date": "2026-08-09",
+      "title": "Public research workbench",
+      "changes": [
+        "Redesigned the people catalogue with relevance ranking, shareable filters and responsive mobile cards.",
+        "Added evidence-led person dossiers with family cards, chronological records, hypotheses, open questions and source-quality summaries.",
+        "Added searchable public record and place catalogues, person comparison, correction guidance and a catalogue status page.",
+        "Added conservative candidate-source matching and a downloadable source-review queue; candidate matches remain explicitly unproved.",
+        "Integrated substantive research case findings into their person dossiers, with WikiTree cross-links and local-artifact safeguards.",
+        "Added explainable same-name and possible-duplicate comparisons to every person dossier.",
+        "Added mutually exclusive location and family-branch grouping, with compact location breadcrumbs and birth details for each earliest exported ancestor.",
+        "Added a public statistics pane covering regions, localities, given names, family branches, birth centuries and migration patterns.",
+        "External WikiTree profiles and source URLs now open in a separate browser tab.",
+        "Family grouping now requires a shared exported ancestor; singleton and disconnected profiles are explicitly grouped as unconnected rather than presented as one-person branches.",
+        "Similar-person scoring now compares death years, parents and children's profiles and names, while distinguishing exact child matches from weaker naming-pattern overlap.",
+        "Similar-person tables now repeat the current subject's dates, places and immediate family directly above the candidates.",
+        "Added cautious potential-parentage tables that rank age-plausible candidates using locations, spouses and Scottish child-naming patterns, with every point explained.",
+        "Rebalanced parentage scoring so surname is only an eligibility filter: birthplace and country conflicts now dominate, while first/second son and daughter patterns, spouses and matching sibling sets provide the strongest naming evidence.",
+        "Combined parentage and duplicate leads into accessible profile tabs, replacing dense tables with responsive candidate cards, visual fit bars, prominent conflicts and expandable scoring detail; the subject summary remains visible above both tabs.",
+        "Expanded parentage scoring across three descendant generations and each candidate's siblings, nieces and nephews; repeated names now receive inverse-frequency points from the catalogue-wide public given-name statistics.",
+        "Redesigned person dossiers around a compact identity-and-family overview and the candidate workbench; timelines, findings, evidence, questions, sources and technical captures now stay collapsed until requested.",
+        "Rebuilt duplicate and parentage scoring around hard chronological eligibility gates and relationship certainty: impossible date separations are excluded, independently supported shared parents outweigh uncertain attachments, conflicting supported parents block duplicate classification, and WikiTree uncertain/confident/DNA/non-biological parent markers are preserved and displayed.",
+        "Expanded potential-parent scoring with time-specific locality evidence, mapped distance between differently named nearby places, bounded-date uncertainty, fit within known children's birth windows, a known wife's maternal-age plausibility, occupation and tenancy succession, visible factor breadth, and safeguards that stop one repeated name scoring repeatedly through overlapping family networks.",
+        "Rebuilt tree-clue scoring around sex-aware Scottish naming positions and known-position controls; it now tests parental couples, spouse-specific child groups, birth spacing, deliberate name reuse, independent sibling households, rare name bundles, lineage surnames used as middle names, recurring marriage surnames, migration paths, branch reconvergence and multigeneration echoes, while penalising tree paths that instead make a candidate an uncle, aunt or grandparent."
+        ,"Potential-parent leads now understand titles and ID-only display placeholders, interpret bounded subject dates in the age label, test the candidate-to-earliest-child grandparent interval, and distinguish a same-country locality mismatch from a country conflict.",
+        "Added a Strong candidate matches worklist beneath Explore the research, ranking each profile's best unresolved parent lead and every unique possible-duplicate pair with scores, strongest clues and cautions.",
+        "Potential-parent scoring now recognises direct same-sex parent-child name recurrence, canonical shared localities despite county-label differences, and candidates whose existing child profile resembles the subject—a clue that may expose a duplicate family reconstruction.",
+        "Childless subjects can now receive parentage leads when their name repeats in independent descendant branches of a candidate's known child, including conservative familiar-name matching such as Bessie and Elizabeth; approximate dates may admit a narrow viable age interval without treating it as a strong chronological match.",
+        "The Strong candidate matches worklist now has a bookmarkable maximum birth-year filter that applies to both people in parentage and duplicate comparisons while retaining profiles with unknown dates.",
+        "Potential-parent eligibility now uses birth surnames rather than married surnames, suppresses competing parents when an exact birth date already accompanies a non-uncertain parent attachment, limits missing-sibling descendant echoes to childless parentless subjects, and reserves the Strong candidate matches worklist for strong multi-factor leads scoring at least 80."
+      ]
+    },
+    {
+      "date": "2026-08-07",
+      "title": "Machine-readable dossiers",
+      "changes": [
+        "Published compact identity indexes, per-person claims and evidence dossiers, immediate-family networks and static name-resolution candidates."
+      ]
+    }
+  ]
+}

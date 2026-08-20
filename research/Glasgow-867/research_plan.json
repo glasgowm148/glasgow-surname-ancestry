@@ -1,0 +1,57 @@
+{
+  "case_id": "Glasgow-867",
+  "findings": [
+    {
+      "date": "2026-08-13",
+      "finding": "The Rasharkin Second Presbyterian memorial erected by James Garvin Glasgo names his father John, mother Margaret Garvin and infant son John Garvin; it gives John a death date of 20 June 1895 aged 78."
+    },
+    {
+      "date": "2026-08-13",
+      "finding": "James Garvin Glasgow's 1886 marriage names father John Glasgow, farmer; his 1918 death was registered by widow Eliza Ann."
+    },
+    {
+      "date": "2026-08-13",
+      "finding": "Alexander Glasgow-2385's 1847 marriage names father John Glasgow, labourer. Alexander was an adult contemporary of Glasgow-867 and must be detached as his son."
+    }
+  ],
+  "objective": "Establish the identity and documented family of Glasgow-867, separating sourced facts from tree assertions.",
+  "questions": [
+    {
+      "answer": "John's 1846 marriage, the 1851 Lisnagaver household and the family memorial form a continuous identity chain.",
+      "id": "identity",
+      "question": "Which records prove the subject's identity across events?",
+      "status": "complete"
+    },
+    {
+      "answer": "The father was John Glasgow, farmer. His WikiTree identity remains unresolved; Glasgow-1022 is only an uncertain candidate.",
+      "id": "parents",
+      "question": "Which original or indexed records identify the parents?",
+      "status": "open"
+    },
+    {
+      "answer": "Margaret Garvin is the proved wife. Ann and James Garvin are proved children; Samuel is a proved brother.",
+      "id": "family",
+      "question": "Which spouses and children are directly supported by records?",
+      "status": "complete"
+    },
+    {
+      "answer": "Glasgow-2385 is excluded as a son by chronology and his own 1847 marriage. John's 1851 age conflicts with the family gravestone age.",
+      "id": "conflicts",
+      "question": "What conflicts or same-name conflations must be resolved?",
+      "status": "complete"
+    }
+  ],
+  "schema_version": 1,
+  "targets": [
+    {
+      "generation": 0,
+      "id": "Glasgow-867",
+      "kind": "wikitree",
+      "note": "WikiTree subject and immediate family captured.",
+      "reason": "Initial subject and immediate family capture.",
+      "status": "complete",
+      "updated_at": "2026-07-17T10:19:32Z"
+    }
+  ],
+  "web_searches": []
+}
