@@ -12,6 +12,7 @@ No sourced conclusion recorded yet.
 | Source | Finding | Assessment |
 | --- | --- | --- |
 | _Add a URL, archive reference, or local artifact_ | _State exactly what the source establishes_ | _Direct, indirect, negative, or exclusionary evidence_ |
+| [Registry of Deeds memorial, deed dated 13 February 1786 and registered 22 December 1792](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJW-VDTD) | An older John Glasgow of Drumgreenagh, farmer, was married to Jane Murphy and acquired Lislea property in 1786. | Excludes identity with Glasgow-3439, who was born about 1794. The shared residence makes an older-family connection plausible, but the deed names no child and does not prove parentage. The older man is now Glasgow-4031. |
 
 ## Public profile scrape review (2026-07-22)
 

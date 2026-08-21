@@ -1,4 +1,4 @@
-# Findings: [James Glasgow (Glasgow-3921), born 1542, birthplace unknown](https://www.wikitree.com/wiki/Glasgow-3921)
+# Findings: [James Glasgow (Glasgow-3921), born about 1540, birthplace unknown](https://www.wikitree.com/wiki/Glasgow-3921)
 
 Record every useful result and negative search here as it is found.
 Do not treat an unsourced tree or naming pattern as proof.
@@ -33,9 +33,9 @@ does not itself prove that Margaret's husband was the younger Corsankell James.
 
 1. Retain [Glasgow-1168](https://www.wikitree.com/wiki/Glasgow-1168) as the
    confirmed father and set the relationship certainty accordingly.
-2. Treat the structured `1542` birth as an uncertain upper estimate. A safer
-   statement is **born before about 1542**, based on James younger already
-   being a separate tenant or teind debtor in 1559-60.
+2. Use **about 1540, uncertain** as the useful structured estimate. His adult
+   appearance in 1559-60 supplies a strict birth boundary before about 1542,
+   not a recorded birth year.
 3. Add **after 9 February 1571, place unknown** as the supported death
    boundary.
 4. Do not restore links to Glasgow-991 or Glasgow-2429. Glasgow-991 represents
@@ -47,17 +47,17 @@ does not itself prove that Margaret's husband was the younger Corsankell James.
 
 ## Relationship correction — validation-warning resolution
 
-WikiTree may flag [[Glasgow-1495|Katherine Glasgow]]'s estimated birth about
-1580 as occurring after James's death. This is not a chronological conflict:
-9 February 1571 is the last date on which James is documented alive, and his
-death field is marked **after**, not as an exact death date. Katherine's birth
-estimate and her identification as James's daughter are not established by the
-reviewed records; the father link remains uncertain.
+WikiTree formerly flagged [[Glasgow-1495|Katherine Glasgow]]'s unsupported
+birth estimate about 1580 as occurring after James's lower-bound death field.
+Katherine's estimate was corrected to about 1565. This resolves the warning
+without overriding it; her identification as James's daughter remains
+uncertain because the reviewed records name no parent.
 
 ## Recommended correction applied
 
-Applied live on 19 August 2026 after an independent warning audit. Birth is
-before 1542/uncertain; death is after 9 February 1571 with place blank; the
+Applied live on 19 August 2026 and refined on 21 August 2026 after an
+independent warning audit. Birth is about 1540/uncertain; death is after 9
+February 1571 with place blank; the
 complete biography explains the validation warning and qualifies the 1632
 Brekpleughe identity. Katherine-1495 is explicitly uncertain.
 

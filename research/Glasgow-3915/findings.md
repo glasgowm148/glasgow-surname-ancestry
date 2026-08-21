@@ -46,3 +46,7 @@ There are substantial cautions:
 - Search Robert Glasgow's burgh property transactions and testamentary material
   for daughters, heirs or payments involving the Kaine surname.
 - Do not attach Robert as Elizabeth's father solely from the naming pattern.
+
+## Birth-estimate audit - 21 August 2026
+
+The live structured birth was corrected to **about 1525, uncertain**. Elizabeth was already a widow in the 1552 record; the source supplies no birth year. The earlier `before` value remains only a strict chronological boundary, not the most useful estimated birth. No biography, relationship, source or other structured field was changed in this audit.

@@ -25,4 +25,15 @@ new separate profile correctly prevents that chronological conflation.
 Keep James-3991 under Hugh-1503 and Ann as supported by the monument. Do not
 merge him with James-1509 or assign Janet Shutter as his wife. Jane's maiden
 surname is unknown.
+## Larne tanner identification — 20 August 2026
+
+Three records form a coherent tanner sequence and distinguish this man from the older Larne ropemaker `Glasgow-1509`:
+
+- In the [28 March 1768 ropewalk assignment](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJW-DDXW), the principal James Glasgow is a ropemaker, but a second James Glasgow who witnessed the deed is explicitly described as a **tanner**. The witness later swore to its execution at Larne.
+- A [mortgage dated 22 June 1778](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJW-64YW) concerning houses and garden ground in Newtown of Larne was witnessed by James Glasgow of Larne, tanner, and John Weir, notary. James swore the affidavit at Larne on 29 June 1778.
+- The known 1786 Blackcave lease names James Glasgow, tanner of Larne.
+
+The chronology fits the monument-derived birth about 1747–1748: he was about twenty or twenty-one in 1768, about thirty in 1778 and about thirty-eight or thirty-nine in 1786. This is substantially stronger than assigning the tanner records to `Glasgow-1509`, whose separate ropemaker occupation is documented from 1760 through the 1799 Alexander Holmes will.
+
+The identification remains strong rather than fully proved because none of the deeds names James's wife, parents or child. The occupational sequence should be cited in the biography while that limitation is stated.
 

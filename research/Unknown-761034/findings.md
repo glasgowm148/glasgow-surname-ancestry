@@ -46,3 +46,7 @@ Unknown. The structured spouse and three sons are already attached.
 
 Edit summary: `Correct Rosanna's impossible birth year and document the three uncertain child IDs.`
 
+
+## Birth-estimate audit - 21 August 2026
+
+The live structured birth was corrected to **about 1770, uncertain**. The estimate is derived from the retained uncertain family chronology, especially Daniel's birth about 1795-96, rather than a birth record. The earlier `before` value remains only a strict chronological boundary, not the most useful estimated birth. No biography, relationship, source or other structured field was changed in this audit.

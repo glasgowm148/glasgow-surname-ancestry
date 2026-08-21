@@ -132,3 +132,8 @@ Profile prose and trees remain leads; inspect the cited record before treating a
 - [Glasgows from Kilwaughter Parrish and Larne, County Antrim, Northern Ireland to Newberry, South Carolina, 1669 – 1850](https://web.archive.org/web/20101124183914/http:/lifesweaving.com/Glasgow/Kilwaughter/TheirStory.html)
 - [Memorial #167317696](https://www.findagrave.com/memorial/167317696)
 - [https://www.virtualtreasury.ie/item/IMC-1954-RoD-3](https://www.virtualtreasury.ie/item/IMC-1954-RoD-3)
+## Correction: 1768 Larne assignment — 20 August 2026
+
+The 28 March 1768 assignment should be removed from this profile. Inspection of the [original memorial image](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJW-DDXW) shows that the assignor was **James Glasgow, ropemaker**, not soapmaker. He was assigning the plot, workhouse and remainder of the same ropewalk lease granted in 1760 to James Glasgow of Belfast, ropemaker. The occupational and property continuity, followed by a Larne “Roper” reference in Alexander Holmes's 1799 will, identifies the record with the local ropemaker represented by `Glasgow-1509`, not with the South Carolina settler.
+
+The same 1768 memorial separately names another James Glasgow, a tanner, as witness. That tanner sequence is treated under `Glasgow-3991`. The deed therefore documents two contemporary Larne men and cannot be used as evidence that this profile disposed of property before emigrating.

@@ -52,3 +52,7 @@ warnings without overriding them.
 Retain or restore **Kilwaughter, County Antrim** as the uncertain death location.
 It is not proved as John's place of death, but his repeated residence there makes
 it plausible and no reviewed evidence conflicts with it.
+
+## Birth-estimate audit - 21 August 2026
+
+The live structured birth was corrected to **about 1650, uncertain**. The 1669 Kilwaughter record identifies John as an adult but supplies no birth year. The earlier `before` value remains only a strict chronological boundary, not the most useful estimated birth. No biography, relationship, source or other structured field was changed in this audit.

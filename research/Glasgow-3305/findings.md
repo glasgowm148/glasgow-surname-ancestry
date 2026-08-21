@@ -2,6 +2,26 @@
 
 Last updated: 2026-07-21
 
+## Integrated update — 20 August 2026
+
+**No record currently identifies the profile subject. Keep `{{Unsourced}}`.** The 1775 Cookstown petition adds a same-name candidate, not a proved event in this person's life.
+
+| Claim or record | Assessment | Reason |
+|---|---|---|
+| Birth about 1740 at Moneymore | Unsupported | No record supplies a birth, age or Moneymore residence. |
+| Parents James Glasgow and Mary Harkness | Unsupported | No record names them as this James's parents. |
+| Brother of Robert, Arthur and Joseph | Unsupported for this James | The three emigrants form a documented collateral group, but no record adds a brother James. |
+| James Glasgow in 1775 Cookstown petition, PRONI T/808/15307 | Possible same-name candidate | The list supplies no age, townland, occupation or family. |
+| Two Jas. Glasgo householders at Drumearn in 1766 | Proven local ambiguity | The return demonstrates that multiple local men shared the name. |
+| Hawthorne nephew claim | Unverified | No complete abstract has been produced; Vicars indexes James Hawthorne of Downpatrick in 1762, not 1766. |
+| Link to Inishrush family | No bridge found | The 1878 death record gives no parents. |
+
+The 1775 signer may be one of the two Drumearn men, another Cookstown-area man, or the intended subject of `Glasgow-3305`. There is no principled way to choose among them. Cookstown congregation membership also does not establish Moneymore residence.
+
+The correct treatment is a held, unsourced profile with these records under Research Notes. Do not create a new person for the petition signer unless later evidence distinguishes him from existing candidates.
+
+Priority records are Faris pp. 14–19, the complete Betham abstract, the original PRONI T/808/15307 image and records differentiating the two Drumearn householders.
+
 ## Current conclusion
 
 The live profile supplies no record uniquely identifying this James. His 1740
@@ -30,3 +50,28 @@ County Down; County Londonderry and County Down are non-adjacent.
 Retain only as a speculative profile pending the full Betham abstract and the
 relevant pages and citations from Faris. Do not use James-3305's existing
 attachments as evidence for Arthur-649, Robert-12, John-822 or Adam-3902.
+
+## Additional local candidates
+
+The Armagh diocesan will index names James Glasgow of Drumcarn, County Tyrone,
+on 3 December 1807. It is chronologically compatible with this profile but
+contains no age or family, and a different James had a will at Drumcarn in 1759.
+Do not assign the 1807 estate without a relationship source.
+
+PRONI `T1959/1-8` contains Glasgow-Harkness-Rutherford genealogical statements;
+`D1413/3a-b` contains notes on the Glasgow family of Cookstown; and `T1762`
+contains Glasgow family papers and a copy will of William Glasgow of Oritor.
+These surviving collections have substantially greater identification value
+than the destroyed probate index and the 1775 petition.
+
+## Fourth-brother reassessment — 20 August 2026
+
+Faris's catalogue summary says Robert emigrated with three brothers and one sister. Robert, Arthur and Joseph account for three of the four brothers in that group.
+
+A 2024 Adams County family-history article explicitly identifies John Glasgow of Peters Township, Pennsylvania, who died in 1779, as their brother and says that the surviving brothers Joseph, Robert and Arthur then moved to Virginia. Joseph Glasgow was also a witness to John's 1779 will. This is not yet primary proof of brotherhood, but the sibling count, place and contemporary association make John a substantially stronger candidate for the fourth brother than this profile.
+
+- [Faris catalogue summary](https://search.worldcat.org/title/22731567)
+- [Adams County family-history account](https://www.peoplesdefender.com/2024/03/29/our-ancestors-of-adams-county-3/)
+- [Cumberland County will index](https://www.sampubco.com/wills/pa/pacumberland01.htm)
+
+No located record names an additional brother James who remained in Ireland. Glasgow-3305 should remain unsourced and should not be used as evidence for the emigrant family's parentage or sibling structure.

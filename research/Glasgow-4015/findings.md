@@ -17,3 +17,10 @@ unconnected rather than attached by inference.
 
 Map `record-margaret-glasgow-8cf9ef4bde` to Glasgow-4015. Keep unconnected
 until compatible profiles for the directly named Pattons are established.
+## Profile and relationship update — 20 August 2026
+
+The 1825 First Kilrea Presbyterian marriage entry now anchors a linked WikiTree family: Margaret's co-parent and probable husband is [[Patton-11260|John Patton]], and their daughter is [[Patton-11261|Mary (Patton) Gordon]]. The record directly names John and Margaret as Mary's parents; it does not supply their marriage date or place.
+
+The closest duplicate candidates were ruled out. [[Patton-10956|John Patton]] married Elsey Neel in Virginia, while [[Patton-1420|Mary Patton]] married James Calhoun. Neither belongs to the Tyanee household.
+
+Repeated Glasgow–Patton marriages in the American descendants of [[Glasgow-12|Robert Glasgow]] make an older social or kin network plausible, but no record currently connects that family to Margaret or John of Tyanee. Relevant profiles include [[Glasgow-6|Jane Glasgow]], [[Glasgow-7|Margaret Black Glasgow]], [[Glasgow-10|Rosannah Glasgow]], and [[Glasgow-9|Samuel Steele Glasgow]].

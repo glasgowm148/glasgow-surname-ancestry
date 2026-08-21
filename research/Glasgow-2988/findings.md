@@ -33,3 +33,38 @@ Profile prose and trees remain leads; inspect the cited record before treating a
 - [https://www.virtualtreasury.ie/item/NAI-IHP-1-667](https://www.virtualtreasury.ie/item/NAI-IHP-1-667)
 - [https://www.virtualtreasury.ie/item/PRONI-T808-15264](https://www.virtualtreasury.ie/item/PRONI-T808-15264)
 - [https://www.virtualtreasury.ie/item/RCBL-MS-23](https://www.virtualtreasury.ie/item/RCBL-MS-23)
+## Identity reassessment
+
+The 1766 Corvanaghan occurrence cannot uniquely identify this profile. The original Kildress return is National Archives of Ireland `IHP/1/667`, not the Derryloran return `IHP/1/665`. It names Protestant householder James Glasgow at Corvanaghan and supplies no age, wife, children or occupation. WikiTree already represents that record with [Glasgow-3137](https://www.wikitree.com/wiki/Glasgow-3137).
+
+Glasgow-2988 may be the same man as Glasgow-3137, but the profile's c.1720 birth, Derryloran/Cookstown placement and attached sons [Glasgow-2989](https://www.wikitree.com/wiki/Glasgow-2989) and [Glasgow-2990](https://www.wikitree.com/wiki/Glasgow-2990) are not established by the Kildress return.
+
+Glasgow-2988 is also a credible possible duplicate of [Glasgow-1024](https://www.wikitree.com/wiki/Glasgow-1024), the profile representing the reported father “James Glasgow of Moneymore.” Corvanaghan lies about nine miles west of Moneymore, the chronology is compatible, and no post-1766 Irish record has been identified for the Corvanaghan householder. These facts prevent exclusion but do not establish identity.
+
+The 1826 Kildress tithe list includes David and John Glasgow at Muntober, John at Whitehill and William at Oritor, but no Glasgow occupier at Corvanaghan. The gap of sixty years means this cannot distinguish migration from death, movement within Ireland or loss of a tenancy.
+
+**Current conclusion:** do not treat Glasgow-2988 as the proven Corvanaghan householder or as the proven father of James and John. Mark Glasgow-1024, Glasgow-3137 and Glasgow-1970 as possible duplicates requiring source-level resolution.
+
+## Duplicate resolution
+
+`Glasgow-3137` was merged into this profile on 20 August 2026. Both profiles
+represented the Protestant James Glasgow at Corvanaghan in the 1766 Kildress
+return. The merged biography preserves the original return and its direct
+archive links. The c.1720 birth, Derryloran origin and attached sons remain
+uncertain; they are not supplied by the census.
+
+## Comparison with the Cookstown Mitchell family — 20 August 2026
+
+The 1879 *History of Hillsdale County, Michigan* identifies another James Glasgow of the same broad generation. It says James and his Mitchell wife moved from Scotland to northern Ireland about 1750 and settled near Cookstown. Their son John later farmed there, and John's sons William and John migrated to Michigan.
+
+[Direct source, page 263](https://archive.org/details/bad0928.0001.001.umich.edu/page/263/mode/1up)
+
+This family is represented by Glasgow-1970 -> Glasgow-1968 -> Glasgow-1969 and Glasgow-1967.
+
+The 1766 Corvanaghan householder represented by Glasgow-2988 could be the Mitchell-family James, the father later called "of Moneymore", or another local man. The return does not name a wife or children. Glasgow-2988's attached sons Glasgow-2989 and Glasgow-2990 remain unsupported, so their estimated ages cannot be used to rule in or rule out identity with Glasgow-1970.
+
+No merger is justified yet. The Corvanaghan occurrence remains important because no later Irish record has been located for that man, so Glasgow-2988 also cannot be ruled out as the emigrant father represented by Glasgow-1024.
+
+## Birth-estimate audit - 21 August 2026
+
+The live structured birth was corrected to **about 1720, uncertain**. The 1740 Protestant return identifies James as a householder and defines this profile's identity but supplies no birth year. The earlier `before` value remains only a strict chronological boundary, not the most useful estimated birth. No biography, relationship, source or other structured field was changed in this audit.

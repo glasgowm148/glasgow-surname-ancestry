@@ -113,7 +113,21 @@ def apply_catalogue_profile_links(records: list[dict]) -> int:
             f"record-{_record_slug(supplement)}" if supplement else
             f"record-{_record_slug(rows[0].get('person', 'person'))}-{sha1(key.encode()).hexdigest()[:10]}"
         )
-        profile_id = str((entries.get(catalogue_id) or {}).get("profile_id") or "")
+        entry = entries.get(catalogue_id) or {}
+        record_profiles = entry.get("record_profiles") or {}
+        record_splits = entry.get("record_splits") or {}
+        if record_profiles or record_splits:
+            for row in rows:
+                source_title = str(row.get("source_title") or "")
+                profile_id = str(record_profiles.get(source_title) or "")
+                if WIKITREE_ID.fullmatch(profile_id):
+                    row["profile_id"] = profile_id
+                    applied += 1
+                split_id = str(record_splits.get(source_title) or "")
+                if split_id and not row.get("profile_id"):
+                    row["supplement_id"] = split_id
+            continue
+        profile_id = str(entry.get("profile_id") or "")
         if not WIKITREE_ID.fullmatch(profile_id):
             continue
         for row in rows:

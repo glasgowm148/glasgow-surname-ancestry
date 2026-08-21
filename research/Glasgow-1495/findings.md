@@ -1,4 +1,4 @@
-# Findings: [Katherine Glasgow (Glasgow-1495), born about 1580, Scotland](https://www.wikitree.com/wiki/Glasgow-1495)
+# Findings: [Katherine Glasgow (Glasgow-1495), born about 1565, Scotland](https://www.wikitree.com/wiki/Glasgow-1495)
 
 ## Current conclusion
 
@@ -51,16 +51,16 @@ Katherine Glasgow (Glasgow-1495), died before 9 May 1605
 
 ## Recommended correction applied
 
-Applied live on 19 August 2026. Birth about 1580 and the Glasgow-3921 father
-link are explicitly uncertain. Death is before 9 May 1605 at uncertain
+Applied live on 19 August 2026 and refined on 21 August 2026. Birth about 1565
+and the Glasgow-3921 father link are explicitly uncertain. Death is before 9 May 1605 at uncertain
 Stevenston. The false marriage date and Lanarkshire place were cleared, the
 record-proved marriage retained confident, and the speculative manuscript
 narrative was replaced while preserving the underlying CC9/7/4 source.
 
-The biography now explains why WikiTree's 1571/1580 validation warning is not
-a chronological contradiction: James was alive on 9 February 1571 and died
-after that date; the system displays the lower boundary as though it were his
-death date.
+The former 1580 estimate had no record basis. About 1565 is a more useful
+working estimate for a woman whose testament was confirmed in 1605 and whose
+possible father was an adult tenant in 1559-60. This resolves WikiTree's
+chronology warning without suppressing it; the father link remains uncertain.
 
 ## Paste-ready biography
 

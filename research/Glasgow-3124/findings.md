@@ -48,3 +48,11 @@ unnamed adjoining Glasgow occupier near Ballyshannon; that occurrence is only
 probably James because the record omits his forename. The close Leitrim/Donegal
 property network supports mapping both occurrences here, but the second does
 not independently prove another person or relationship.
+## Registry of Deeds additions — 20 August 2026
+
+Two primary memorial images strengthen and extend the Aghadonvane identification:
+
+- A [lease dated 15 August 1779 and registered 10 August 1780](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJ4-39B5-N) names **James Glasgow of Aghadonvane, County Leitrim, esquire** as lessee from Henry, Earl of Ely. The premises comprised the town and land transcribed as Aghteron, about 166 acres, with fishing and an eel weir on the River Bundrowse. The named lives were James and Robert and William Johnston, young sons of James Johnston of Kinlough.
+- [Marriage articles dated 2 October 1779](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJ4-W935-7) for Patrick Smith and Honora McSharry were witnessed by **James Glasgow of Aghadonvane, gentleman**, Edmond Connolly of Mullinaleck and Andrew McGowan of Moneen.
+
+The uncommon residence and status make both records secure matches to this profile. They show James active in the local landed and marriage-settlement network in 1779–1780; they do not identify his spouse or children.

@@ -43,3 +43,7 @@ Profile prose and trees remain leads; inspect the cited record before treating a
 
 - [https://genealogy.torrens.org/BannValley/books/Kilrea/Kilrea07.html](https://genealogy.torrens.org/BannValley/books/Kilrea/Kilrea07.html)
 - [https://www.billmacafee.com/1740returns/1740religiousreturnsulstername.pdf](https://www.billmacafee.com/1740returns/1740religiousreturnsulstername.pdf)
+
+## Birth-estimate audit - 21 August 2026
+
+The live structured birth was corrected to **about 1720, uncertain**. The 1740 Protestant return identifies Hugh as a householder but supplies no birth year. The earlier `before` value remains only a strict chronological boundary, not the most useful estimated birth. No biography, relationship, source or other structured field was changed in this audit.

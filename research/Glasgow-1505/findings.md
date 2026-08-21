@@ -107,3 +107,28 @@ Profile prose and trees remain leads; inspect the cited record before treating a
 
 - [https://www.virtualtreasury.ie/item/NAI-IHP-1-665](https://www.virtualtreasury.ie/item/NAI-IHP-1-665)
 - [https://www.virtualtreasury.ie/item/PRONI-T808-15258](https://www.virtualtreasury.ie/item/PRONI-T808-15258)
+## FamilySearch full-text deed pass - 20 August 2026
+
+Three primary Registry of Deeds images materially strengthen William's own
+chronology but do not identify his family:
+
+* A lease dated 10 March 1736 names William and Hugh Glasgow of Larne as joint
+  lessees of several Newtown of Larne tenements. Its measuring lives are George
+  II, Frederick Prince of Wales, and Prince William Duke of Cumberland; no
+  family member is named. [Primary memorial image](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSN1-FXR2).
+* A separate Earl of Antrim lease made in 1737 names William Glasgow of Larne
+  in an Old Town of Larne house/garden holding north of the street leading from
+  Newtown to the mill. The FamilySearch AI transcript obscures part of the
+  original date, so its wording should be checked against the image before a
+  verbatim transcription is published. [Primary memorial image](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSH3-S3FM-8).
+* A deed dated 19 April 1744 was witnessed by William Glasgow of Larne,
+  gentleman. William personally swore the execution affidavit at Larne on
+  6 January 1775. This directly carries the same adult William from 1744 to
+  1775 and strongly favours the older William represented by Glasgow-1505 over
+  a man reportedly born about 1730. [Primary memorial image](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJW-C674).
+
+The 1736 deed proves association and joint occupation with Hugh, not kinship.
+None of these records names William's father, wife, or children. Later William
+Glasgow occurrences in Larne in 1802-1805 and the 1810s belong to a younger
+namesake generation and cannot be assigned to this profile from name and place
+alone.

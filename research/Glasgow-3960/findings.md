@@ -27,3 +27,7 @@ proof that no other John existed.
   witness order and all spellings.
 - Reconstruct the Johnston, McGowan and Gilhuly FAN network before considering
   any link to John-551.
+
+## Birth-estimate audit - 21 August 2026
+
+The live structured birth was corrected to **about 1705, uncertain**. The 1728 record identifies an adult John at Gortaggle but supplies no birth year. The earlier `before` value remains only a strict chronological boundary, not the most useful estimated birth. No biography, relationship, source or other structured field was changed in this audit.

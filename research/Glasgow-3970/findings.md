@@ -147,3 +147,12 @@ proved Larne/Kilwaughter bridge.
 - [James Glasgow's 1775 will transcription](https://web.archive.org/web/20101124184247id_/http://www.lifesweaving.com/Glasgow/Paper_JGlasgowWill.html)
 - [NRS catalogue, Agnew family papers `GD154`](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?di=y&k=Agnew+Estate&ko=a&reference=GD154&ro=s&st=1&tc=y&tl=n&tn=n&tp=n)
 - [MacAfee 1669 County Antrim Hearth Money Roll transcription](https://www.billmacafee.com/1660shearthmoneyrolls/1669hearthmoneyrollsantrim.pdf)
+## Focused FamilySearch full-text result - 20 August 2026
+
+Exact-name searches restricted to Larne or Kilwaughter and the seventeenth
+century produced no matching full-text record for Robert Glaskow, James
+Glascho, or John Glascho. The useful results occur only in the later William
+Glasgow generation: Larne leases in 1736 and 1737, and a 1744 deed whose
+execution William personally proved in 1775. They do not bridge Robert to the
+proposed children or grandchildren. The relationships descending from
+Glasgow-3970 therefore remain uncertain.

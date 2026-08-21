@@ -1,4 +1,4 @@
-# Findings: [William Glasgow (Glasgow-1026), born before 1664](https://www.wikitree.com/wiki/Glasgow-1026)
+# Findings: [William Glasgow (Glasgow-1026), born about 1660](https://www.wikitree.com/wiki/Glasgow-1026)
 
 Checked against the live profile and all attached immediate-family profiles on
 **10 August 2026**.
@@ -7,9 +7,16 @@ Checked against the live profile and all attached immediate-family profiles on
 
 The profile has now been split from the William baptised in 1671. This William
 is the older Kirknewton householder who could chronologically have fathered
-Bessie in 1682 and Andrew about 1685. His exact birth and parentage remain
-unproved; [Walter Glasgow (Glasgow-1554)](https://www.wikitree.com/wiki/Glasgow-1554)
+Bessie in 1682 and the later children recorded through 1705. His birth is
+estimated as **about 1660**, uncertain, and his parentage remains unproved;
+[Walter Glasgow (Glasgow-1554)](https://www.wikitree.com/wiki/Glasgow-1554)
 is attached only uncertainly.
+
+The former structured death before 1784 had no supporting death record and
+produced an implausible 120-year lifespan. It is replaced by **after 1705,
+place unknown, uncertain**, reflecting the last baptismal household record
+currently assigned to this same-name Kirknewton father. The identity across
+the 1682-1705 entries remains a working reconstruction.
 
 [John Glasgow (Glasgow-3610)](https://www.wikitree.com/wiki/Glasgow-3610) is
 now the best automated alternative: John was born in Kirknewton in 1626 and

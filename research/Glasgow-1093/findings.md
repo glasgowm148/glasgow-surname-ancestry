@@ -38,3 +38,7 @@ Either retain John's uncertain `before 1516` boundary or use `about 1510` as a
 working estimate. Explain that it is inferred from his documented marriage and
 property settlement by 1534, not supplied by a birth record. Do not describe
 him as born exactly in 1516 or use that boundary to reject the son William.
+
+## Birth-estimate audit - 21 August 2026
+
+The live structured birth was corrected to **about 1510, uncertain**. John was an adult husband and property holder by 1534; the records supply no birth year. The earlier `before` value remains only a strict chronological boundary, not the most useful estimated birth. No biography, relationship, source or other structured field was changed in this audit.

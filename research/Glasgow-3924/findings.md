@@ -28,3 +28,7 @@ Profile prose and trees remain leads; inspect the cited record before treating a
 ### External source links present
 
 - None detected outside WikiTree and sponsored Ancestry links.
+
+## Birth-estimate audit - 21 August 2026
+
+The live structured birth was corrected to **about 1730, uncertain**. The 1754 Kilclone record identifies James as an adult but supplies no birth year. The earlier `before` value remains only a strict chronological boundary, not the most useful estimated birth. No biography, relationship, source or other structured field was changed in this audit.

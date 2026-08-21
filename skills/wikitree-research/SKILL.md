@@ -83,3 +83,21 @@ Verify each claimed identity, relationship, date, and place against the underlyi
 - As soon as a draft person receives or is matched to a confirmed WikiTree ID, move the draft out of `surname-research/new-people/` and into `research/<WikiTree-ID>/<year>_<country>_<precise-location>_<name>.md`.
 - Update every inbound repository link and move the person from the creation queue to the resolved-profile section of `surname-research/to-update.md` in the same turn.
 - Never keep ID-only placeholder files or completed profile drafts in `new-people`; that directory is only the unresolved Glasgow creation queue.
+## Source provenance and durable corrections
+
+- On live WikiTree profiles, cite the underlying primary record directly. Never cite `glasgow.phenotype.dev`, a generated catalogue page, a local findings file, or another project-owned research summary as evidence. The catalogue may be used to locate provenance only.
+- Prefer an original record image or an official archive record page. If no public image exists, cite the official archival catalogue or index and state that limitation. Use a named transcription only when the underlying image is unavailable, and identify it as a transcription.
+- When the user explicitly corrects a repeatable WikiTree research, citation, profile-editing, or catalogue workflow, treat that correction as skill feedback. During the same task, add a narrowly scoped durable instruction to this project-owned skill unless the user says the correction is one-off or the instruction conflicts with higher-priority rules.
+- For catalogue records split from a grouped documentary person, assign the exact source title in the parent entry's `record_profiles` map. A top-level link keyed by the generated split-page slug is ignored by the builder and does not close the unlinked entry.
+
+## Glasgow surname boundary
+
+For Glasgow surname research, treat Glasford, Glassford, Glasfurd, and Glasfuird as a distinct family unless a primary record explicitly proves a bridge. Do not search, merge, or cite those names as automatic spelling variants of Glasgow.
+
+## Identity-defining estimated dates
+
+When a profile represents an adult or householder in a dated record, retain a useful approximate birth estimate derived from that record and mark it estimated. Do not replace it with a later broad `before` date that obscures the profile's intended identity.
+
+## Resolve chronology warnings
+
+Never use WikiTree's `Save Anyway` control merely to suppress a chronology warning. Investigate the dates, places and relationships producing it, then correct the weakest unsupported claim. If an uncertain relationship is deliberately retained, any structured boundary inferred from it must be internally coherent and explicitly described as conditional; keep the direct record boundary separate in the biography and findings.

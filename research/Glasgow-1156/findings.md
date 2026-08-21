@@ -5,7 +5,7 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
-Father assessment: [Archibald Glasgow (1533)](https://www.wikitree.com/wiki/Glasgow-1097) is **plausible, not proved**. Archibald was recorded alive **after** 1560; that year is not his death year. His estimated age of about forty-nine at Robert's estimated 1582 birth and their shared Glasgow locality make the relationship workable, but no record names Robert as his son.
+Father assessment: [Archibald Glasgow (about 1525)](https://www.wikitree.com/wiki/Glasgow-1097) is **plausible, not proved**. Archibald was directly recorded alive in 1560. His live structured survival boundary is now after 1582 only to keep the retained uncertain relationship chronologically coherent; it is conditional evidence, not a death record. No record names Robert as his son.
 
 Robert is the leading identity candidate for the father of
 [James Glasgow (Glasgow-1150), born before 1641, Wester Duddingston and later

@@ -54,3 +54,15 @@ Profile prose and trees remain leads; inspect the cited record before treating a
 ### External source links present
 
 - [https://www.virtualtreasury.ie/item/NAI-IHP-1-665](https://www.virtualtreasury.ie/item/NAI-IHP-1-665)
+
+## Later probate candidates
+
+PRONI indexes a will for James Glasgow of Drumeen, County Londonderry, dated
+23 May 1820 and an Armagh diocesan administration bond for James Glasgow,
+farmer of Drumeen, in 1822. These probably concern one estate whose
+administration followed the will. Drumeen is in Lissan parish, not the Drumearn
+townland used in the 1766 Derryloran return.
+
+The dates and district are compatible with this profile's estimated generation,
+but no record bridges the 1766 householder to the 1820 estate. Keep both entries
+as one candidate estate rather than assigning them as proved events.

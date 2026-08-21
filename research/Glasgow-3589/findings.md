@@ -35,3 +35,7 @@ lead.
 A same-day relationship audit found that both parents had accidentally been
 set to **Confirmed with DNA**. Both were corrected to **Confident**; the
 testament proves the relationships, but no DNA confirmation is claimed.
+
+## Birth-estimate audit - 21 August 2026
+
+The live structured birth was corrected to **about 1575, uncertain**. The estimate places Marjorie in the generation established by her parents' testamentary family; no birth record was found. The earlier `before` value remains only a strict chronological boundary, not the most useful estimated birth. No biography, relationship, source or other structured field was changed in this audit.

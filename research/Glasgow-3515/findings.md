@@ -54,3 +54,7 @@ Glasgow-3515 as his son. No record makes Andrew-1319 a son of Glasgow-3515.
 - That Johne and Issobel were twins solely because they share a baptism date.
 - That `Kirknewton and East Calder` identifies one seventeenth-century parish.
 - `Glassgow` as William's own documented alias from Margreat's derivative entry.
+
+## Birth-estimate audit - 21 August 2026
+
+The live structured birth was corrected to **about 1620, uncertain**. William is represented as the adult father in the 1640s Kirknewton records; no birth record identifies him. The earlier `before` value remains only a strict chronological boundary, not the most useful estimated birth. No biography, relationship, source or other structured field was changed in this audit.

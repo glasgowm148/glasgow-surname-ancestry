@@ -41,3 +41,7 @@ rejected merges are explained in the biography.
 Leave the structured birthplace blank. The cited 1657 Edinburgh event belongs
 to Marion Glasgow; James is named as her father. Edinburgh therefore entered
 this profile through a concrete record-role error, not merely an uncertain claim.
+
+## Birth-estimate audit - 21 August 2026
+
+The live structured birth was corrected to **about 1650, uncertain**. The estimate is derived from James's documented adult family role rather than a birth record. The earlier `before` value remains only a strict chronological boundary, not the most useful estimated birth. No biography, relationship, source or other structured field was changed in this audit.

@@ -1,13 +1,14 @@
-# Findings: [James Glasgow (Glasgow-1025), about 1700–1759, Drumearn](https://www.wikitree.com/wiki/Glasgow-1025)
+# Findings: [James Glasgow (Glasgow-1025), about 1700–1759](https://www.wikitree.com/wiki/Glasgow-1025)
 
 Last updated: 2026-08-12
 
 ## Current conclusion
 
-The 1759 probate entry for **James Glasgow of Drumearn, County Tyrone** is a
-strong match to this profile: both the year and the unusually specific
-residence agree. It materially strengthens Drumearn as this man's documented
-residence and 1759 as his terminal year.
+The PRONI detail page identifies the 17 January 1759 will as James Glasgow of
+**Drumcarn**, County Tyrone, not Drumearn. The earlier assignment to this
+profile resulted from a place-name error. The index supplies no age or kin, so
+the testator cannot be distinguished between this profile, `Glasgow-1024`, or
+another local James.
 
 It does not prove that he was born in County Tyrone, lived at Moneymore, headed
 one of the two James Glasgow households in Derryloran in 1740, or fathered any
@@ -48,7 +49,7 @@ Kilwaughter pedigree.
 
 | Source | Finding | Assessment |
 | --- | --- | --- |
-| Irish probate index transcription supplied July 2026; represented in the [map data](../../map/glasgow_family_records_stable_slider.csv) | James Glasgow, probate year 1759, residence Drumearn, County Tyrone. | Strong profile match by name, exact residence and terminal year. The supplied index data do not identify wife, children, executors or beneficiaries. |
+| [PRONI Name Search](https://www.proni.gov.uk/name-search), Armagh diocesan wills index | James Glasgow, Drumcarn, County Tyrone, 17 January 1759. The original does not survive. | Same-name candidate only; the entry gives no age, family or identifier. |
 | 1740 Protestant householders return, Derryloran | Two James Glasgow and two William Glasgow households occur in the parish, without townlands or relationships. | Cluster context only; no entry can be assigned to this profile. |
 | 1766 Derryloran religious return | Two James Glasgow householders and John Glasgow occur at Drumearn. | Local continuity, but not this man if his estate entered probate in 1759. |
 | [FamilyTreeDNA Glasgow Project Y-DNA results](https://www.familytreedna.com/public/Glasgow?iframe=ydna-results-overview) | Kits `B580327` (Alexander `Glasgow-951` line) and `200475` (Robert Glasgow, 1749–1836, Scotland) are both R-FT20271. Kit `254947`, closely matching Robert `Glasgow-1143`, has only Y-111 results. | Proves a common direct-paternal ancestor for the two Big Y lines. It does not prove the WikiTree chain from `200475` to James-1025 or locate the common ancestor in Kilwaughter. |

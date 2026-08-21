@@ -60,3 +60,7 @@ cannot support both fathers. The Edinburgh parish and sibling context currently
 favour the Glassford household, despite the index spelling `Glasgow`.
 
 See [Glasgow-1167 findings](../Glasgow-1167/findings.md).
+
+## Birth-estimate audit - 21 August 2026
+
+The live structured birth was corrected to **about 1570, uncertain**. The estimate places the candidate John in Robert the fisher's documented generation without treating a boundary as a birth fact. The earlier `before` value remains only a strict chronological boundary, not the most useful estimated birth. No biography, relationship, source or other structured field was changed in this audit.

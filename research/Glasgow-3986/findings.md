@@ -1,5 +1,9 @@
 # Findings: [James Glasgow (Glasgow-3986), born about 1773, Larne](https://www.wikitree.com/wiki/Glasgow-3986)
 
+## Identity exclusion: the 1831 Cookstown burial
+
+This Larne man is not [James Glasgow (Glasgow-4024)](https://www.wikitree.com/wiki/Glasgow-4024) of Cookstown, buried at St Luran's on 13 March 1831 aged 40. The reported age implies birth about 1790–1791, and the locality and burial context also differ. The Cookstown man was created separately, unconnected. See the [burial transcript](https://www.cotyroneireland.com/churchrecord/saintluran1830-1849.html).
+
 Last updated: 2026-08-11
 
 ## Current conclusion
@@ -33,4 +37,11 @@ attachment should remain explicitly provisional.
   continuation or duplicate register.
 - Inspect the ropemaker's possible 1803 probate and property succession for a
   son James.
+## Merchant and junior records — 20 August 2026
 
+Two late Larne memorials provide the first useful occupational evidence for a younger James:
+
+- A [release dated 16 April 1795](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSH3-Q9B8-H) concerning garden ground on the south side of Newtown of Larne was witnessed by **James Glasgow of Larne, merchant**, and Charles McGarel, gentleman.
+- An [assignment recorded in 1797](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSH3-Q96R-C) concerning a Larne tenement near Charles Dawson Stewart's tanyard was witnessed by Alexander Kitchey and signed in the witness clause by **James Glasgow junior**.
+
+A man born about 1773 would have been about twenty-two in 1795 and twenty-four in 1797. The merchant and junior descriptions therefore fit this profile better than the older ropemaker `Glasgow-1509`. They do not prove his parentage: “junior” distinguishes him from an older same-name man but does not necessarily mean son. The current uncertain attachment to `Glasgow-1509` should remain provisional.

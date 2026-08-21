@@ -1,4 +1,4 @@
-# Findings: [Archibald Glasgow (Glasgow-1097), born 1533, Glasgow, Lanarkshire, Scotland](https://www.wikitree.com/wiki/Glasgow-1097)
+# Findings: [Archibald Glasgow (Glasgow-1097), born about 1525, Glasgow, Lanarkshire, Scotland](https://www.wikitree.com/wiki/Glasgow-1097)
 
 Record every useful result and negative search here as it is found.
 Do not treat an unsourced tree or naming pattern as proof.
@@ -26,14 +26,24 @@ testament or burgess-admission record supplies the missing relationship.
 ## Chronology and identity
 
 - Archibald was married and acquired burgage property by 21 May 1551. His
-  current birth estimate of 1533 makes him about eighteen. That is possible,
-  but not record-derived; a broader estimate of **before about 1530** is safer.
+  birth is therefore estimated as **about 1525**, uncertain. The record proves
+  adult status in 1551, not a birth year.
 - No reviewed record identifies children of Archibald and Isobell Newlands.
   The attached Isabella and Robert remain plausible only in the weak sense
   that their estimated dates do not make paternity impossible.
 - Robert Glasgow's presence in 1551 is consistent with the attached Robert
   Glasgow of the same burgh, but the protocol gives no occupation, spouse or
   patronymic that makes that identity certain.
+
+## Chronology-warning resolution
+
+The direct record proves Archibald alive in 1560. WikiTree treated the former
+`after 1560` lower boundary as an exact death and flagged the retained uncertain
+son [[Glasgow-1156|Robert Glasgow]], estimated born in 1582. Because that
+relationship remains attached as a working hypothesis, the live structured
+death boundary is now **after 1582, uncertain**. This later boundary is
+conditional on the relationship; the biography continues to identify 1560 as
+the last direct record. The unsupported Bridgegate death place was cleared.
 
 ## Negative searches
 

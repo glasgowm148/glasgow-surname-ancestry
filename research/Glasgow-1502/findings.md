@@ -129,3 +129,14 @@ also needs a prominent warning that the older 1699-1700 Robert and younger
 Robert-1143 are distinct evidence clusters.
 
 Status: **unresolved; archive-level proof target identified.**
+## Focused FamilySearch full-text result - 20 August 2026
+
+The new full-text deed material strengthens the chronology of William Glasgow
+(Glasgow-1505), but supplies no parent-child statement linking him to this
+Robert. The 1736 joint lease of William and Hugh Glasgow names only the two
+lessees and uses royal measuring lives, not relatives. Their placement as
+Robert's sons therefore remains an unproved tree reconstruction.
+
+## Birth-estimate audit - 21 August 2026
+
+The live structured birth was corrected to **about 1675, uncertain**. The 1699-1700 records identify Robert as an adult actor but supply no birth year. The earlier `before` value remains only a strict chronological boundary, not the most useful estimated birth. No biography, relationship, source or other structured field was changed in this audit.
