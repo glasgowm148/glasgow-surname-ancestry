@@ -1,9 +1,19 @@
+[[Category:Glasgow Name Study]]
+<small>'''Glasgow Name Study:''' [[Space:Glasgow Name Study|project home]] · [https://www.wikitree.com/wiki/Space:Bearers_of_the_%27%27de_Glasgu%27%27_Name_and_the_Emergence_of_the_Glasgow_Surname%2C_c.1175%E2%80%931500 chronological bearer register] · [[Space:Glasgow Research|research directory]] · [https://glasgow.phenotype.dev/catalogue research catalogue]</small>
+
+<small>'''Project status:''' individual pre-1500 documentary subject; architecture reviewed 29 August 2026. This is a free-space research page, not a WikiTree person profile.</small>
+
+
 {{One Name Study|name=Glasgow}}
 {{Estimated Date}}
 
 == Biography ==
 
 '''John, Official of Glasgow''' (fl. 1179–1208), identified in contemporary charters as '''Master John of Huntingdon''' (Latin: ''Magister Johannes de Huntedun''), was a high-ranking cleric and legal administrator in the [[Diocese of Glasgow]] during the late 12th and early 13th centuries.
+
+{| class="wikitable" style="width:100%; background-color:#E1F0B4;"
+| '''Possible son or younger kinsman:''' [[Space:John_de_Glasgu|John de Glasgu, Bishop Gamelin's chaplain (fl. 1259)]]. The cathedral connection and chronology make him the leading later candidate, but no record supplies a family relationship. No defensible candidate for the Official's own father has yet been identified.
+|}
 
 He is historically significant as the earliest known individual to hold the specific office of ''Official of Glasgow'' (the bishop's judicial deputy). He is widely considered the progenitor of the clerical dynasty that eventually adopted the hereditary surname '''de Glasgu''' (Glasgow).
 

@@ -1,5 +1,30 @@
 All Free space pages
 
+## Pre-1500 bearer workflow
+
+Pre-1500 documentary subjects are maintained as individual free-space pages,
+not WikiTree person profiles. Each distinct working identity must also be linked
+from `Bearers of the de Glasgu Name and the Emergence of the Glasgow Surname,
+c.1175–1500`.
+
+Local source copies of individual pages created and verified live on 29 August
+2026:
+
+- `Robert_de_Glasgu_Dublin_guild.md`
+- `Robert_de_Glascu_plea_roll_1200.md`
+- `Gilbert_de_Glascu.md`
+- `Alexander_son_of_Robert_de_Glascu.md`
+- `Robert_de_Glasgu_Dunkeld_clerk.md`
+- `Robert_de_Glascu_Durham_witness.md`
+- `Hugh_de_Glasgw.md`
+- `Master_Walter_de_Glasgu.md`
+- `John_of_Glasgow_Holyrood.md`
+- `Richard_of_Glasgow_Arbroath.md`
+- `John_de_Glasgu_royal_account_1343.md`
+- `John_de_Glasgu_father_of_Malcolm.md`
+- `Malcolm_son_of_John_de_Glasgu.md`
+- `William_physician_de_Glasgu.md`
+
 Local draft awaiting creation:
 
 - `Glasgow Families of County Londonderry` —

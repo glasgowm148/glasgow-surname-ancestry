@@ -12,6 +12,7 @@ import unittest
 from tools.catalogue_machine_data import _profile_assessment_flags, resolver_candidates
 from tools.audit_missing_wikitree_profiles import candidate_summary, new_draft_match, select_candidates
 from tools.build_research_catalog import (
+    _canonical_marriage_surname,
     _is_external_public_url,
     _potential_parentage,
     _profile_creation_vital,
@@ -20,8 +21,10 @@ from tools.build_research_catalog import (
     _source_for_record,
     _source_identity_keys,
     _load_profile_updates,
+    _marriage_surname_values,
     _merge_profile_summary_with_captured,
     _normalise_ref_opening_tags,
+    _relation_birth_surnames,
 )
 
 
@@ -30,6 +33,21 @@ WEB = ROOT / "www"
 
 
 class ResearchCatalogueTest(unittest.TestCase):
+    def test_marriage_surname_variants_use_birth_surname(self):
+        linked = {"cunynghame-1": {"last_names_at_birth": ["Cunynghame"]}}
+        self.assertEqual(_canonical_marriage_surname("Cunninghame"), "Cunningham")
+        self.assertEqual(
+            _relation_birth_surnames({"id": "Cunynghame-1", "name": "Jean Glasgow"}, linked),
+            {"Cunningham"},
+        )
+        self.assertEqual(
+            _relation_birth_surnames({"id": "Cunningham-2", "name": "Henry Cunningham Glasgow"}, {}),
+            {"Cunningham"},
+        )
+        people = json.loads((WEB / "data" / "people.json").read_text(encoding="utf-8"))["people"]
+        counts = {surname: count for surname, count, _ in _marriage_surname_values(people)}
+        self.assertEqual(counts["Cunningham"], 9)
+
     def test_ref_opening_tags_are_kept_on_one_line(self):
         text = 'Claim.<ref\n name="SourceA">Citation.</ref> Reuse.<ref\n name="SourceA" />'
         normalised = _normalise_ref_opening_tags(text)
@@ -164,7 +182,7 @@ Corrected assessment.
         }
         self.assertIn("Glasgow-1026", fathers)
         william = fathers["Glasgow-1026"]
-        self.assertEqual(william["age_gap_label"], "at least 24 years")
+        self.assertEqual(william["age_gap_label"], "28 years")
         self.assertIn("local same-spouse child window", william["factors"])
         self.assertTrue(any("Glasgow-1025" in conflict for conflict in william["conflicts"]))
 
@@ -232,6 +250,10 @@ Corrected assessment.
             for group in alexander["location_groups"]
         ))
         self.assertTrue(alexander["family_root"])
+        self.assertTrue(all(
+            {"marriage_date", "marriage_location"} <= spouse.keys()
+            for spouse in alexander["spouses"]
+        ))
         self.assertTrue({"id", "name", "birth", "birth_location", "distance", "catalogue_id"} <= alexander["family_root"].keys())
         branch_counts = Counter(person["family_root"]["id"] for person in index if person["family_root"])
         self.assertTrue(branch_counts)
@@ -254,9 +276,16 @@ Corrected assessment.
         search_start = catalogue_html.index('<section class="catalogue-search-panel"')
         statistics_html = catalogue_html[statistics_start:search_start]
         self.assertIn('<p class="catalogue-refresh">Updated ', statistics_html)
+        self.assertIn('catalogue.html?marriageSurname=Smith#catalogue-results', statistics_html)
+        self.assertRegex(
+            statistics_html,
+            r'marriageSurname=Cunningham#catalogue-results">Cunningham</a>.*?<strong>9</strong>',
+        )
         self.assertNotIn("mapped record associations</p>", catalogue_html)
         self.assertIn('id="catalogue-date-type"', catalogue_html)
         self.assertIn('id="catalogue-location-type"', catalogue_html)
+        self.assertIn('id="catalogue-glasgow-at-birth"', catalogue_html)
+        self.assertIn("Glasgow at birth", catalogue_html)
         self.assertIn('<legend>Dates</legend>', catalogue_html)
         self.assertIn('<legend>Places</legend>', catalogue_html)
         self.assertNotIn('<legend>Dates &amp; places</legend>', catalogue_html)
@@ -292,7 +321,8 @@ Corrected assessment.
             "catalogue-region", "catalogue-record-type", "catalogue-source-quality",
             "catalogue-missing-profile", "catalogue-exact-name", "Exact name spelling",
             "About this catalogue, privacy and data downloads",
-            "Catalogue statistics", "Most frequent given names", "Largest exported family branches",
+            "Catalogue statistics", "Open detailed statistics pane", "Most frequent given names",
+            "Surnames joined by marriage to Glasgow", "Largest exported family branches",
         ):
             self.assertIn(text, catalogue_html)
         self.assertLess(
@@ -310,16 +340,25 @@ Corrected assessment.
         self.assertIn("const normaliseLiteral=", search_js)
         self.assertIn("exact:'exact'", search_js)
         self.assertIn("person._identityExactTokens", search_js)
+        self.assertIn("person._birthLastNames", search_js)
+        self.assertIn("params.get('birthSurname')", search_js)
+        self.assertIn("params.get('marriageSurname')", search_js)
+        self.assertIn("person._marriageSurnames.includes(filters.marriageSurname)", search_js)
+        self.assertIn("glasgowBirth:'glasgowBirth'", search_js)
+        self.assertIn("controls.glasgowBirth.checked&&!person._birthLastNames.includes('glasgow')", search_js)
         self.assertIn("if(filters.exact)", search_js)
         self.assertIn("history.replaceState", search_js)
         self.assertIn("catalogue-result-cards", search_js)
         self.assertIn("catalogue-wikitree-id", search_js)
         self.assertIn("catalogue-group-locations", search_js)
         self.assertIn("catalogue-group-families", search_js)
+        self.assertIn("catalogue-group-tree", search_js)
         self.assertIn("function locationBuckets(source)", search_js)
         self.assertIn("groupLocation", search_js)
         self.assertIn("groupFamily", search_js)
+        self.assertIn("groupTree", search_js)
         self.assertIn("function groupedFamilyResults(source)", search_js)
+        self.assertIn("function oneTreeResults(matches,allPeople,filters,pathIds=null)", search_js)
         self.assertIn("function compareFamilyGroups(a,b)", search_js)
         self.assertIn("const shown=groupedMode?found:found.slice(0,500)", search_js)
         self.assertNotIn("const shown=found.slice(0,500)", search_js)
@@ -335,6 +374,26 @@ Corrected assessment.
         self.assertIn("catalogue-family-root-vitals", search_js)
         self.assertIn('target="_blank" rel="noopener noreferrer">${esc(root.id)}</a>', search_js)
         self.assertIn("catalogue-family-unconnected", search_js)
+        self.assertIn("catalogue-one-tree", search_js)
+        self.assertIn("data-tree-toggle", search_js)
+        self.assertIn("data-folded-spouses", search_js)
+        self.assertIn("catalogue-tree-folded-spouse", search_js)
+        for marker in (
+            "catalogue-tree-ancestors", "catalogue-tree-descendants", "catalogue-tree-evidence",
+            "catalogue-tree-expand-depth", "catalogue-tree-compact", "catalogue-tree-breadcrumb",
+            "catalogue-tree-direct-match", "catalogue-tree-union", "data-tree-focus",
+            "catalogue-tree-couple-node", "catalogue-tree-paths", "connectedTreePathIds",
+            "catalogue-tree-parent", "catalogue-tree-overlay", "catalogue-tree-timeline",
+            "catalogue-tree-minimap", "catalogue-tree-pins", "catalogue-tree-history",
+            "data-tree-export", "treeGedcom", "treeRenderLimit", "aria-posinset",
+            "catalogue-tree-spouse-inline", "catalogue-tree-more", "catalogue-tree-navigation",
+        ):
+            self.assertIn(marker, search_js)
+        self.assertIn("Hide details", search_js)
+        self.assertNotIn('class="catalogue-tree-partner catalogue-tree-spouse"', search_js)
+        catalogue_css = (WEB / "people" / "catalogue.css").read_text(encoding="utf-8")
+        self.assertIn(".catalogue-tree-spouse-inline", catalogue_css)
+        self.assertIn(".catalogue-tree-person-copy", catalogue_css)
         self.assertIn("glascow|glasgo|glascoe", search_js)
         self.assertIn("not a family branch", search_js)
         self.assertIn("catalogue-location-path-group", search_js)
@@ -498,20 +557,13 @@ Corrected assessment.
         untouched = json.loads((WEB / "people" / "glasgow-1057.json").read_text(encoding="utf-8"))
         self.assertFalse(untouched["research_findings"])
 
-        mapped = json.loads((WEB / "people" / "record-john-glasgow-c83933de0f.json").read_text(encoding="utf-8"))
+        mapped = json.loads((WEB / "people" / "glasgow-3990.json").read_text(encoding="utf-8"))
         self.assertTrue(mapped["research_findings"])
-        self.assertEqual(mapped["research_findings"][0]["profile_id"], "record-john-glasgow-c83933de0f")
-        mapped_html = (WEB / "people" / "record-john-glasgow-c83933de0f.html").read_text(encoding="utf-8")
+        self.assertEqual(mapped["research_findings"][0]["profile_id"], "Glasgow-3990")
+        mapped_html = (WEB / "people" / "glasgow-3990.html").read_text(encoding="utf-8")
         self.assertIn("Case-file source findings", mapped_html)
-        for marker in (
-            "WikiTree profile workbench", "Paste-ready WikiTree biography", "No submission is needed",
-            "profile-creation.js", "https://apps.proni.gov.uk/ProniNames_IE/SearchPage.aspx",
-        ):
-            self.assertIn(marker, mapped_html)
-        self.assertIn('id="profile-draft"', mapped_html)
-        self.assertNotIn("Profile draft withheld", mapped_html)
+        self.assertIn("https://apps.proni.gov.uk/ProniNames_IE/SearchPage.aspx", mapped_html)
         self.assertNotIn('id="profile-link-form"', mapped_html)
-        self.assertTrue((WEB / "people" / "profile-creation.js").exists())
         self.assertNotIn("WikiTree profile workbench", html)
 
         profile_script = (WEB / "people" / "profile-creation.js").read_text(encoding="utf-8")
@@ -519,25 +571,7 @@ Corrected assessment.
         self.assertNotIn("Download link update", profile_script)
 
         audit_payload = json.loads((ROOT / "data" / "wikitree" / "catalogue-profile-audit.json").read_text(encoding="utf-8"))
-        audit_entries = audit_payload["entries"].values() if isinstance(audit_payload["entries"], dict) else audit_payload["entries"]
-        candidate_audit = next(entry for entry in audit_entries if entry.get("candidates"))
-        candidate = candidate_audit["candidates"][0]
-        candidate_html = (WEB / "people" / f'{candidate_audit["catalogue_id"]}.html').read_text(encoding="utf-8")
-        profile_url = candidate.get("url") or f'https://www.wikitree.com/wiki/{candidate["profile_id"]}'
-        self.assertIn(
-            f'<strong><a href="{profile_url}" target="_blank" rel="noopener noreferrer">{candidate["profile_id"]}</a></strong>',
-            candidate_html,
-        )
-        self.assertIn(
-            f'../compare.html?a={candidate_audit["catalogue_id"]}&amp;b={candidate["profile_id"]}',
-            candidate_html,
-        )
-        self.assertIn('target="_blank" rel="noopener">Compare with record</a>', candidate_html)
-
-        collective = (WEB / "people" / "record-children-of-mr-glasgow-3008dc2933.html").read_text(encoding="utf-8")
-        self.assertIn("WikiTree profile workbench", collective)
-        self.assertNotIn('id="profile-draft"', collective)
-        self.assertNotIn('id="profile-link-form"', collective)
+        self.assertFalse(audit_payload["entries"])
 
     def test_profile_creation_vital_always_uses_a_defensible_date(self):
         estimated = _profile_creation_vital({
@@ -1444,8 +1478,8 @@ Corrected assessment.
         self.assertIn("OAI-SearchBot", robots)
         self.assertIn("Sitemap: https://glasgow.phenotype.dev/sitemap.xml", robots)
         sitemap = (WEB / "sitemap.xml").read_text(encoding="utf-8")
-        self.assertIn("/catalogue.html", sitemap)
-        self.assertIn("/candidate-matches.html", sitemap)
+        self.assertIn("/catalogue", sitemap)
+        self.assertIn("/candidate-matches", sitemap)
         self.assertIn("/people/glasgow-3903.html", sitemap)
         self.assertNotIn("/people/glasgow-933.html", sitemap)
         self.assertGreater(len(re.findall(r"<url>", sitemap)), 4_000)
@@ -1607,7 +1641,7 @@ Corrected assessment.
                 "record-example",
             )
 
-        james_html = (WEB / "people" / "record-james-glasgow-c44615c88f.html").read_text(encoding="utf-8")
+        james_html = (WEB / "people" / "record-james-glasgow-oritor-gentleman-1826-probate-occurrence.html").read_text(encoding="utf-8")
         draft = james_html.split('id="profile-draft"', 1)[1].split("</textarea>", 1)[0]
         self.assertNotIn("glasgow.phenotype.dev", draft)
         self.assertIn("apps.proni.gov.uk/ProniNames_IE/SearchPage.aspx", draft)

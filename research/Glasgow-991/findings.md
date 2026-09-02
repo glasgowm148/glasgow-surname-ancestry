@@ -45,3 +45,18 @@ merge without an identifying record.
   those details could distinguish one father from two.
 
 No concrete structural WikiTree change follows from the present evidence.
+
+## Possible older daughter - 31 August 2026
+
+[Jonet Glasgow, wife of Martin Ramsy (Glasgow-3183)](https://www.wikitree.com/wiki/Glasgow-3183)
+is James's leading possible older daughter. James is the only identified
+same-generation Glasgow repeatedly recorded as father of children at Mid
+Calder (1605, 1610 and 1616); Jonet married there in 1624. Her name also fits
+James's proposed mother Jonet Anderson if James is Andrew of Corstoun's
+testament-named son.
+
+Assessment: **moderate-to-strong working placement**, not direct proof. This is
+a positive replacement for Jonet's incompatible former attachment to Andrew of
+Corstoun, whose testament names exactly four children and excludes her. On 31
+August 2026 James was attached as Jonet's explicitly uncertain working father;
+her mother remains unidentified.

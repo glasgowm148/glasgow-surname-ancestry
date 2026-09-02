@@ -1,12 +1,108 @@
 # WikiTree work queue
 
+## Deep free-space evidence audit — 29 August 2026
+
+The manual review covered all 71 saved pages and 219 machine-ranked passages.
+The [full conclusions](../research/free-space-pages/deep-missing-evidence-analysis.md)
+separate bio-ready facts from same-name, AI/OCR and relationship speculation.
+
+### Second-pass corrections — 29 August 2026
+
+The independent contradiction and markup pass found that the two John-1022
+research pages were materially stale. Their saved master copies now use
+Glenleslie, County Antrim, withdraw the unsupported Robert-1143 parentage and
+James-1144 half-brother claims, rule out the Killycurragh framework, and assess
+Glasgow-3474 as the strongest but still unproved nephew candidate. Five other
+saved pages received markup-only repairs; no people, locations or source links
+were removed.
+
+| Target | Status | Handoff |
+| --- | --- | --- |
+| `Space:Hypothesis:_Parentage_of_John_Glasgow-1022` | **DONE — VERIFIED LIVE 29 AUGUST 2026** — unsupported parentage withdrawn; evidence-led conclusion published | [Second-pass report](../research/free-space-pages/second-pass-deep-scan.md) |
+| `Space:Identifying_the_Nephew_of_John_Glasgow_(b._~1750)` | **DONE — VERIFIED LIVE 29 AUGUST 2026** — Glenleslie locality and cautious candidate audit published | [Second-pass report](../research/free-space-pages/second-pass-deep-scan.md) |
+| [Glasgow-3474](https://www.wikitree.com/wiki/Glasgow-3474), John of Lisnagaver | **ALREADY LIVE — VERIFIED 29 AUGUST 2026:** exact 24 June 1885 death, occupation, status, son/informant, Lisnagaver death location and cautious nephew assessment are present; no profile save needed | [Findings](../research/Glasgow-3474/findings.md) · [Profile capture](../research/Glasgow-3474/Glasgow-3474.md) |
+
+### Third-pass additional free-space batch — staged, not live
+
+The 29 August live rendering and contradiction audit found a second, distinct
+batch. Evidence-led replacements are staged for `Space:John de Glasgu`,
+`Space:Master John de Glasgow (~1340 – 1419)`, `Space:John, Official of
+Glasgow`, `Space:Glasgow Surname Origins`, `Space:Roger de Duffeld` and
+`Space:R-FT32941`. Caution/cross-page corrections are staged on pages 004,
+012, 019, 025, 026, 036, 050, 062 and 071, with verified alternatives for the
+broken links on pages 004/005, 012, 014/015, 021, 036, 043, 056, 058 and 071.
+The missing pre-1500 `Space:Alan Glasgw` has a sourced free-space draft; the
+existing Matthew page needs a controlled 1394→1384 page rename rather than a
+duplicate page. See the [third-pass audit](../research/free-space-pages/third-pass-live-and-contradiction-audit.md).
+
+### Existing profiles to improve
+
+| Profile | Evidence-backed addition | Handoff |
+| --- | --- | --- |
+| [Alexander-16967](https://www.wikitree.com/wiki/Alexander-16967), Rose Alexander | **DONE — VERIFIED LIVE 29 AUGUST 2026:** added complete 1851 status, age, County Antrim birthplace, literacy and 1791 first-marriage year; maternity remains uncertain. | [Findings](../research/Alexander-16967/findings.md) |
+| [Glasgow-1022](https://www.wikitree.com/wiki/Glasgow-1022), John Glasgow | **DONE — VERIFIED LIVE 29 AUGUST 2026:** replaced the unsupported Sarah/William relationships with the exact `visitor` and John's `brother-in-law` wording; retained both people and all census details. | [Findings](../research/Glasgow-1022/findings.md) |
+| [Glasgow-1369](https://www.wikitree.com/wiki/Glasgow-1369), Nancy Glasgow | **DONE — VERIFIED LIVE 29 AUGUST 2026:** added mortality-schedule proof of John as father, age 36 and the 1847 dysentery death; retained the birthplace and Rose as uncertain. | [Findings](../research/Glasgow-1369/findings.md) |
+| [Glasgow-1127](https://www.wikitree.com/wiki/Glasgow-1127), Isobel Glasgow Rankine | Verify the exact 1766 heir-general index entry naming uncle James Glasgow, shipmaster, before adding it as proved. | [Findings](../research/Glasgow-1127/findings.md) |
+| [Alexander-22578](https://www.wikitree.com/wiki/Alexander-22578), Massachusetts | **NO PROFILE EDIT:** remove the false free-space identification with the 1846 Irish William; retain the Irish man unlinked pending a completed duplicate audit. | [Findings](../research/Alexander-22578/findings.md) |
+| [Alexander-22579](https://www.wikitree.com/wiki/Alexander-22579), Sarah Alexander | **NO PROFILE EDIT:** she is George Glasgow's wife in household 20, not the separate visitor in household 21. Preserve her spouse and children; the visitor remains unlinked pending a duplicate audit. | [Findings](../research/Alexander-22579/findings.md) |
+
+### Record-defined early people
+
+Pre-1500 bearers are maintained as individual free-space pages, not profile
+creation tasks. The consolidated saved page now links every individual page
+listed below.
+
+| Person | Status | Free-space page |
+| --- | --- | --- |
+| Roger de Glasgu, 1175–1199 | FREE-SPACE ONLY | `[[Space:Roger of Glasgow]]` |
+| Richard de Glasgu, late 12th century | FREE-SPACE ONLY | `[[Space:Richard de Glasgu]]` |
+| Alexander de Glasgow, royal escheator, 1289/90 | FREE-SPACE ONLY; title still says Andrew but content corrects it | `[[Space:Andrew de Glasgu]]` |
+| Adam de Glasgeu, Berwick burgess | FREE-SPACE ONLY | `[[Space:Adam de Glasgu]]` |
+| William de Glasgow, vicar of Corbridge, 1315–1322 | FREE-SPACE ONLY | `[[Space:William de Glasgow (fl. 1315–1322, Durham)]]` |
+| Master John de Glasgow, cleric, 1377–1419 | FREE-SPACE ONLY | `[[Space:Master John de Glasgow (~1340 – 1419)]]` |
+| Matthew de Glasgu, papal petitioner, 1384 | FREE-SPACE ONLY | `[[Space:Matthew de Glasgu (fl. 1394)]]` |
+| William de Glasgu, priest, 1394 | FREE-SPACE ONLY | `[[Space:William de Glasgu (fl. 1394)]]` |
+| John de Glasgu, Glasgow burgess, 1447–1455 | FREE-SPACE ONLY | `[[Space:John de Glasgu I']]` |
+| John Glasgw of Stirling, 1475–1479/80 | FREE-SPACE ONLY | `[[Space:John Glasgw of Stirling]]` |
+| John Glasgow, Saltmarket owner, c.1480–1553 | **FREE-SPACE ONLY** — canonical biography maintained live; do not create or repurpose a pre-1500 person profile | [Handoff](free-space-pages/John_Glasgow_of_Saltmarket.md) |
+| John Glasgw, Glasgow burgess, died 1637 | **HOLD** — `Glasgow-1030` is a viable existing-profile candidate | [Draft](new-people/1637_Scotland_Glasgow_John_Glasgw.md) |
+| Robert Glasgow, master of the *John of Portrush*, 1666 | **HOLD** — `Glasgow-1078` and `Glasgow-3970` are leading candidates, but the catalogue gives no identifier | [Draft](new-people/1666_Scotland_location_unknown_Robert_Glasgow.md) |
+| Robert Glasgow, servant in Alexander Ainslie's North Leith household, 1694 | **HOLD** — several adult Robert profiles are chronologically possible; the original tax page gives no age or kin | [Draft](new-people/1694_Scotland_North_Leith_Robert_Glasgow.md) |
+| Isobell Glasgow, daughter of Robert Glasgow and Margaret Davidson, Glencorse, 1714 | **READY TO CREATE** — indexed baptism; no compatible profile found | [Draft](new-people/1714_Scotland_Glencorse_Isobell_Glasgow.md) |
+
+The following additional distinct pre-1500 subjects were embedded only in the
+consolidated page or an ambiguous group page. Their individual free-space pages
+were **created and verified live on 29 August 2026**, and the consolidated page
+was saved with working links to all of them:
+
+- [Robert de Glasgu, Dublin guild entrant](https://www.wikitree.com/wiki/Space:Robert_de_Glasgu_%28Dublin_guild%29)
+- [Robert de Glascu, plea-roll occurrence, 1200](https://www.wikitree.com/wiki/Space:Robert_de_Glascu_%28plea_roll_1200%29)
+- [Gilbert de Glascu, Dublin guild entrant](https://www.wikitree.com/wiki/Space:Gilbert_de_Glascu)
+- [Alexander, son of Robert de Glascu](https://www.wikitree.com/wiki/Space:Alexander_son_of_Robert_de_Glascu)
+- [Robert de Glasgu, Dunkeld clerk](https://www.wikitree.com/wiki/Space:Robert_de_Glasgu_%28Dunkeld_clerk%29)
+- [Robert de Glascu, Durham witness](https://www.wikitree.com/wiki/Space:Robert_de_Glascu_%28Durham_witness%29)
+- [Hugh de Glasgw](https://www.wikitree.com/wiki/Space:Hugh_de_Glasgw)
+- [Master Walter de Glasgu](https://www.wikitree.com/wiki/Space:Master_Walter_de_Glasgu)
+- [John of Glasgow, Holyrood religious](https://www.wikitree.com/wiki/Space:John_of_Glasgow_%28Holyrood%29)
+- [Richard of Glasgow, Arbroath monk](https://www.wikitree.com/wiki/Space:Richard_of_Glasgow_%28Arbroath%29)
+- [John de Glasgu, royal-account payee, 1343](https://www.wikitree.com/wiki/Space:John_de_Glasgu_%28royal_account_1343%29)
+- [John de Glasgu, father of Malcolm](https://www.wikitree.com/wiki/Space:John_de_Glasgu_%28father_of_Malcolm%29)
+- [Malcolm, son of John de Glasgu](https://www.wikitree.com/wiki/Space:Malcolm_son_of_John_de_Glasgu)
+- [William, physician de Glasgu](https://www.wikitree.com/wiki/Space:William_physician_de_Glasgu)
+
+## Inishrush civil-death addition — 29 August 2026
+
+| Person | Status | Draft |
+|---|---|---|
+| Lindsey Glasgow of Inishrush, proved brother of [[Glasgow-4022|William Glasgow]] | READY TO CREATE — live duplicate searches for Lindsey/Lindsay returned no match | [Sourced draft](new-people/1882_Ireland_Inishrush_Lindsey_Glasgow.md) |
+
 ## Moneymore draft work — 20 August 2026
 
 | Profile | Status | Draft |
 |---|---|---|
-| [Glasgow-1024](https://www.wikitree.com/wiki/Glasgow-1024) | **DRAFT ONLY — DO NOT APPLY** while Glasgow-3305 research is active | `research/Glasgow-1024/Glasgow-1024.md` |
-| [Glasgow-3305](https://www.wikitree.com/wiki/Glasgow-3305) | **DRAFT ONLY — DO NOT APPLY**; identity remains unproved | `research/Glasgow-3305/Glasgow-3305.md` |
-| [Glasgow-1543](https://www.wikitree.com/wiki/Glasgow-1543), Joseph of Wythe County | **DRAFT ONLY — DO NOT APPLY**; census, probate and relationship corrections added | `research/Glasgow-1543/Glasgow-1543.md` |
+| [Glasgow-1024](https://www.wikitree.com/wiki/Glasgow-1024) | **DONE — VERIFIED LIVE 21 AUGUST 2026** | `research/Glasgow-1024/Glasgow-1024.md` |
+| [Glasgow-3305](https://www.wikitree.com/wiki/Glasgow-3305) | **DONE — VERIFIED LIVE 21 AUGUST 2026**; identity remains unproved | `research/Glasgow-3305/Glasgow-3305.md` |
+| [Glasgow-1543](https://www.wikitree.com/wiki/Glasgow-1543), Joseph of Wythe County | **DONE — VERIFIED LIVE 21 AUGUST 2026** | `research/Glasgow-1543/Glasgow-1543.md` |
 | [Glasgow-4024](https://www.wikitree.com/wiki/Glasgow-4024), James of Cookstown, buried 1831 aged 40 | **CREATED UNCONNECTED — 20 AUG 2026** | `research/Glasgow-4024/Glasgow-4024.md` |
 
 ## Live WikiTree reconciliation — 18 August 2026
@@ -191,7 +287,7 @@ better placement exists. Lack of direct proof alone is not a detachment task.
 | 12 | [Rosanna Unknown (before about 1780), Unknown-761034, Bann Valley](https://www.wikitree.com/wiki/Unknown-761034) | [Replace impossible certain 1790 birth and document exact uncertain spouse/son IDs](../research/Unknown-761034/findings.md) |
 | 13 | [Daniel Glasgow (about 1795/96), Glasgow-3896, Kilrea](https://www.wikitree.com/wiki/Glasgow-3896) | [Correct the 1807 birth and replace obsolete Adam-parent text with the exact Bann Valley topology](../research/Glasgow-3896/findings.md) |
 | 14 | [Alexander Glasgow (about 1811), Glasgow-951, Lisnagaver, County Antrim](https://www.wikitree.com/wiki/Glasgow-951) | [Record Mary's original marriage age as 28; reject the Maryan identity and John-1022 parent theory; keep older Alexander/Rosanna uncertain; remove false death](../research/Glasgow-951/findings.md) |
-| 15 | [Robert Glasgow (about 1779), Glasgow-1367, Glenleslie, County Antrim](https://www.wikitree.com/wiki/Glasgow-1367) | [Correct Tyrone birthplace and leave parents blank; detach both Adam/Rose and the adjacency-only John-1022 placement](../research/Glasgow-1367/findings.md) |
+| 15 | [Robert Glasgow (about 1779), Glasgow-1367, Glenleslie, County Antrim](https://www.wikitree.com/wiki/Glasgow-1367) | [DONE 25 August 2026: corrected birthplace, added surviving will, death about 1852, and proved Margaret/Young relationships](../research/Glasgow-1367/findings.md) |
 | 16 | [Barbara Glasgow (flourished 1611), Glasgow-567, Edinburgh](https://www.wikitree.com/wiki/Glasgow-567) | [Detach William-3522 and Herbison-439; retain direct maternity, keep Johne Little only as proved co-parent/uncertain spouse, remove unsupported death, and keep same-name women unmerged](../research/Glasgow-567/findings.md) |
 | 17 | [James Glasgow (1799), Glasgow-1702, County Tyrone; later Ballynasollus](https://www.wikitree.com/wiki/Glasgow-1702) | [Use the baptism's William-and-Mary parent evidence and make the current structured candidates uncertain](../research/Glasgow-1702/findings.md) |
 | 18 | [John Glasgow (about 1751), Glasgow-1022, Glenleslie, County Antrim](https://www.wikitree.com/wiki/Glasgow-1022) | [Retain Glasgow-867/2908 uncertain; do not add Glasgow-951 because Mary's age excludes the Maryan link; detach Glasgow-1367; keep George-1400 uncertain](../research/Glasgow-1022/findings.md) |
@@ -337,11 +433,12 @@ the audit sections below and are not repeated here.
 | --- | --- | --- | --- |
 | [William Glasgow (Glasgow-992), Glasgow](https://www.wikitree.com/wiki/Glasgow-992) | OPEN — SOURCE VERIFICATION | Retrieve High Kirk entry 1/754; if its omitted child name is William, attach Stewart-65226 as directly proved mother and add the complete baptism citation. | [Findings](../research/Glasgow-992/findings.md) |
 | [Hew Glasgow (Glasgow-1067), Kilwinning/Ayrshire](https://www.wikitree.com/wiki/Glasgow-1067) | DONE — VERIFIED LIVE 19 AUGUST 2026 | The duplicate assessment is live. Mark Mary Dean and the later child group uncertain. | [Findings](../research/Glasgow-1067/findings.md) |
+| [Samuel Glasgow (Glasgow-1134), Cecil County/Millersburg](https://www.wikitree.com/wiki/Glasgow-1134) | DONE — MERGED AND VERIFIED LIVE 26 AUGUST 2026 | Glasgow-2869 merged into the older profile; sources, spouse, child, parents and siblings were consolidated, with vital fields and parent links uncertain. WT+ 585 and related 578 are Corrected. | [Findings](../research/Glasgow-1134/findings.md) |
 | [Euphame Glasgow/Glasfoord (Glasgow-1167), Edinburgh](https://www.wikitree.com/wiki/Glasgow-1167) | DONE — VERIFIED LIVE 19 AUGUST 2026 | The conflation warning is live, but the obsolete Mathie-159 and unrelated 1850 prose still need removal. | [Findings](../research/Glasgow-1167/findings.md) |
 | [Philip Glasgow (Glasgow-1241), Uphall/Dublin candidate](https://www.wikitree.com/wiki/Glasgow-1241) | DONE — VERIFIED LIVE 19 AUGUST 2026 | The Scottish baptism remains the sourced identity with birthplace uncertain; elder and junior Dublin Philips are distinguished, and Glasgow-3932 remains an uncertain son without proving the Scottish/Dublin bridge. | [Findings](../research/Glasgow-1241/findings.md) |
 | [Alexander Glasgow (Glasgow-1314), Kirknewton](https://www.wikitree.com/wiki/Glasgow-1314) | DONE — VERIFIED LIVE 18 AUGUST 2026 | The sourced event and merge hold are live. | [Findings](../research/Glasgow-1314/findings.md) |
 | [Andrew Glasgow (Glasgow-1319), Kirknewton](https://www.wikitree.com/wiki/Glasgow-1319) | DONE — VERIFIED LIVE 19 AUGUST 2026 | The research note is live, but the estimated birth place and Glasgow-3515 parent relationship still need correction. | [Findings](../research/Glasgow-1319/findings.md) |
-| [Robert Glasgow (Glasgow-1367), Glenleslie](https://www.wikitree.com/wiki/Glasgow-1367) | DONE — VERIFIED LIVE 19 AUGUST 2026 | Change birthplace to County Antrim; replace obsolete Adam/Rose prose with the uncertain Glasgow-1022 hypothesis and leave mother blank. | [Findings](../research/Glasgow-1367/findings.md) |
+| [Robert Glasgow (Glasgow-1367), Glenleslie](https://www.wikitree.com/wiki/Glasgow-1367) | DONE — VERIFIED LIVE 25 AUGUST 2026 | County Antrim birthplace, copied 1851 will, about-1852 death, daughter Margaret and Young grandchildren are live; parents remain unproved. | [Findings](../research/Glasgow-1367/findings.md) |
 | [James Glasgow (Glasgow-1376), Edinburgh assertion](https://www.wikitree.com/wiki/Glasgow-1376) | DONE — VERIFIED LIVE 19 AUGUST 2026 | False 1657 event removed; documented-adult estimate substituted; uncertain parents and identity limits explicit. | [Findings](../research/Glasgow-1376/findings.md) |
 | [Samuel Glasgow (Glasgow-1492), Moneymore-labelled](https://www.wikitree.com/wiki/Glasgow-1492) | DONE — VERIFIED LIVE 19 AUGUST 2026 | The Gorteen and Whitehill 1766 occurrences are separately cited and not conflated; both retained parent relationships are explicitly uncertain. | [Findings](../research/Glasgow-1492/findings.md) |
 | [Katherine Glasgow (Glasgow-1495), Stevenston](https://www.wikitree.com/wiki/Glasgow-1495) | DONE — VERIFIED LIVE 19 AUGUST 2026 | Death is before 9 May 1605; birth and Glasgow-3921 father are uncertain; Weir-4172 is the confident husband; the false marriage date/place and speculative narrative were removed with all sources preserved. | [Findings](../research/Glasgow-1495/findings.md) |
@@ -381,7 +478,7 @@ the audit sections below and are not repeated here.
 | [Andrew Glasgow (Glasgow-3163), Corstoun](https://www.wikitree.com/wiki/Glasgow-3163) | DONE — VERIFIED LIVE 19 AUGUST 2026 | Testament-proved sons Andrew-4006 and William-4007 were created and attached Confident (not DNA), with mothers blank; Marioune/James and the existing topology remain cautious uncertain candidates. | [Findings](../research/Glasgow-3163/findings.md) |
 | [George Glasgow (Glasgow-3171), Dublin occurrence](https://www.wikitree.com/wiki/Glasgow-3171) | DONE — VERIFIED LIVE 19 AUGUST 2026 | Unsupported 1600 birth removed; birth/death bounded from the recovered 22 December 1676 St John burial, with places unknown. | [Findings](../research/Glasgow-3171/findings.md) |
 | [Captain James Glasgow (Glasgow-3172), Belfast](https://www.wikitree.com/wiki/Glasgow-3172) | OPEN | Replace unsupported 1600 Belfast birth with adult-status estimate; treat 1686 as will/estate reference unless original proves death, and add no parents/Kilwaughter identity. | [Findings](../research/Glasgow-3172/findings.md) |
-| [Geillis Glasgow (Glasgow-3179), Ayrshire](https://www.wikitree.com/wiki/Glasgow-3179) | OPEN | Keep Glasgow-1168 only plausible/uncertain; testament financial dealings with James do not prove kinship. | [Findings](../research/Glasgow-3179/findings.md) |
+| [Geillis Glasgow (Glasgow-3179), Ayrshire](https://www.wikitree.com/wiki/Glasgow-3179) | DONE — VERIFIED LIVE 30 AUGUST 2026 | Original testament images confirm January 1603 death and prove [[Wilson-142005|James Wilson]] as her lawful son and executor dative; James was created with both parents attached. Existing parents remain uncertain, and unclear Glasgow debt-name readings remain research leads. | [Findings](../research/Glasgow-3179/findings.md) |
 | [John Glasgow (Glasgow-3181), Hirmanscheillis](https://www.wikitree.com/wiki/Glasgow-3181) | DONE — VERIFIED LIVE 19 AUGUST 2026 | John-1093 is retained only as an uncertain father; the impossible Robert/Ninian identity claim is corrected, while the historical location, spouse and proved daughters are preserved. | [Findings](../research/Glasgow-3181/findings.md) |
 | [Barbara Glasgow (Glasgow-3182), South Leith](https://www.wikitree.com/wiki/Glasgow-3182) | DONE — VERIFIED LIVE 19 AUGUST 2026 | Spouse retained; both 1611 dates documented as unresolved; death place removed; identity candidates remain unmerged. | [Findings](../research/Glasgow-3182/findings.md) |
 | [John Glasgow (Glasgow-3193), Kilwinning/Dalgarven](https://www.wikitree.com/wiki/Glasgow-3193) | DONE — VERIFIED LIVE 19 AUGUST 2026 | Glasgow-1168 remains an uncertain father, Glasgow-3921 a conditional probable brother and Agnes Wilson an uncertain spouse; both structured places are preserved uncertain and contradictory identity prose is corrected. | [Findings](../research/Glasgow-3193/findings.md) |
@@ -434,7 +531,7 @@ the audit sections below and are not repeated here.
 | [Arthur Glasgow (Glasgow-649), born about 1750, claimed Moneymore; later Rockbridge](https://www.wikitree.com/wiki/Glasgow-649) | DONE — VERIFIED LIVE 19 AUGUST 2026 | Conflicting origin accounts and the unproved collateral hypothesis are live; both attached parents are explicitly uncertain. | [Findings](../research/Glasgow-649/findings.md) |
 | [John Glasgow (Glasgow-822), born 1767, Ireland; later Ohio](https://www.wikitree.com/wiki/Glasgow-822) | BLOCKED — NOT MANAGED BY GLASGOW-933 (manager Weir-2957) | Remove the misidentified 1830 Richland household and correct the placeless 1823 Bible death. Add the near-exact 1831 household reconstruction, `Adam-James-John` naming sequence, and second McKeown Bible: John's grandson was born at Inishrush in 1821 and baptised by Rev. Joseph Orr, independently tying this family to the Drimbolg/Inishrush John. Add the 1847 network and Hugh-548 cluster assessment, but state that no record yet names Adam and John as brothers. Glasgow-3927 now exists; review the proposed identity without completing a merge automatically. | [Findings](../research/Glasgow-822/findings.md) |
 | [Alexander Glasgow (Glasgow-951), Lisnagaver](https://www.wikitree.com/wiki/Glasgow-951) | DONE — VERIFIED LIVE 19 AUGUST 2026 | Change death to after 1851/place unknown; correct Daniel and Thomas's generation, use Rosanna Unknown, retain parents/brothers uncertain, and describe the Bann Valley/Killoquin cluster. | [Findings](../research/Glasgow-951/findings.md) |
-| [Margaret Glasgow (Glasgow-1053), Glenleslie](https://www.wikitree.com/wiki/Glasgow-1053) | DONE — VERIFIED LIVE 19 AUGUST 2026 | The census identity warning is live, but Samuel Winters and the incompatible Canadian child group remain attached. | [Findings](../research/Glasgow-1053/findings.md) |
+| [Margaret (Glasgow) Winters (Glasgow-1053)](https://www.wikitree.com/wiki/Glasgow-1053) | DONE — VERIFIED LIVE 25 AUGUST 2026 | Preserved as a separate uncertain Winters-family identity; false Glenleslie parents detached without removing spouse or children. | [Findings](../research/Glasgow-1053/findings.md) |
 | [John Glasgow (Glasgow-1022), Glenleslie](https://www.wikitree.com/wiki/Glasgow-1022) | DONE — VERIFIED LIVE 19 AUGUST 2026 | Change marriage year from 1839 to uncertain 1791; retain Glasgow-867/2908 as uncertain sons and detach Glasgow-1367. Record Glasgow-2056 only as a nephew candidate: his 1850 marriage names father Henry Glasgow. | [Findings](../research/Glasgow-1022/findings.md) |
 | [William Glasgow (Glasgow-1387), Cloughgaldenagh](https://www.wikitree.com/wiki/Glasgow-1387) | DONE — VERIFIED LIVE 19 AUGUST 2026 | The sourced 1851 household, wife Ellin and eight linked children are live; marriage year and birthplace remain explicitly uncertain, and father Glasgow-1367 remains uncertain. | [Findings](../research/Glasgow-1387/findings.md) |
 | [James Glasgow (Glasgow-1024), Moneymore](https://www.wikitree.com/wiki/Glasgow-1024) | DONE — VERIFIED LIVE 19 AUGUST 2026 | Identity contradiction and wardship warning are live; Joseph-1543, James-3305, Robert-12 and Arthur-649 have uncertain father links. | [Findings](../research/Glasgow-1024/findings.md) |

@@ -1,8 +1,32 @@
 # Findings: Glasgow-1367
 
-Last updated: 2026-08-13
+Last updated: 2026-08-25
 
-## Current answer
+## Current conclusion
+
+The National Archives of Ireland copy of Robert Glasgow's will resolves the
+Young grandchildren and supplies a defensible death estimate. Robert made the
+will at Glenleslie on 3 February 1851. He directly named **his daughter
+Margaret Glasgow** and left her his farm and effects for life; after her death,
+the property was to pass equally to **James Young and Mary Young, the son and
+daughter of Margaret Glasgow**. The copy says Robert died in or about 1852 and
+that the will was proved on 13 February 1854.
+
+This proves the chain
+`Glasgow-1367` -> `Glasgow-3955` -> `Young-78755` and the same maternal link
+for James Young. The will does not name James and Mary's father. The similar
+`Young-23682`, born about 1837 in Ireland, remains a possible later identity for
+James, but no record links him to Glenleslie, so no separate profile or
+relationship has been added.
+
+[Primary source: Robert Glasgow of Glenleslie, will dated 3 February 1851,
+proved 13 February 1854, National Archives of Ireland copy, FamilySearch image
+229.](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJ8-MQQJ?view=fullText)
+
+The live profile now gives Robert's documented County Antrim birthplace and an
+estimated death about 1852. His parents remain unproved.
+
+## Prior research context
 
 ### Grandchildren identity audit, 13 August 2026
 
@@ -11,13 +35,12 @@ The extended family in Glenleslie house 23 is only partly reconstructed.
 | Census person | Present status |
 | --- | --- |
 | Mary Glasgow, 34, niece | [[Glasgow-3957]] is the strongest located identity. Her 1862 marriage names Hugh Glasgow, weaver, as father, which would make Hugh Robert's probable brother if the identity is correct. It is not yet certain. |
-| Mary and James Young, both 15, grandchildren | No individual profiles or proved parents. [[Glasgow-3955]] represents their inferred Glasgow mother only. A Mary Young who [married James Rush in 1859](https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1859/09563/5467107.pdf) at Roadsedermot and a James Young who [married Eliza Lowry in 1872](https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1872/11304/8147332.pdf) at Gortaheran both named a father William Young, farmer. The shared father and nearby places make a testable sibling hypothesis, but the age estimates differ, [Griffith's Valuation](https://www.billmacafee.com/1860griffiths/northmidantrimgriffiths.pdf) lists no William Young at either residence, no matching Ballymena Rush births were found in 1864-85, and neither candidate was securely recovered in 1901. Do not attach them yet. Saved [Mary's register page](sources/mary_young_james_rush_marriage_1859.pdf) and [James's register page](sources/james_young_eliza_lowry_marriage_1872.pdf). |
+| Mary and James Young, both 15, grandchildren | Robert's will proves both as children of his daughter Margaret `Glasgow-3955`. Mary is now `Young-78755`. James remains without a confirmed profile because `Young-23682` is compatible but unproved. The Roadsedermot and Gortaheran candidates remain later-life leads only. |
 | Catherine Hume, three-month-old deceased granddaughter | No profile or proved parents. [Samuel and Sarah Ann Hume](https://durrushistory.com/wp-content/uploads/2012/10/1851irishcensusreturnscommadelimitedtextfilejul24_071.pdf), married in 1844 with son James and deceased daughter Mary Jane, lived elsewhere in Glenleslie in 1851 and remain the best local parent candidates. Their reported marriage predates civil non-Catholic registration; the public Rasharkin Presbyterian baptism transcription contains no Hume entry, and no suitable later Samuel/Sarah Ann household or death was identified. An 1880 Ballymena James Hume marriage names father John, excluding that groom as Samuel's son. Nothing yet calls Sarah Ann a Glasgow. |
 
-The Young pair is the most promising free-record lead: trace both candidate
-couples through civil births, deaths, later censuses, grave inscriptions and
-newspapers, looking for the same William Young, a Glenleslie/Roadsedermot
-address, or a Glasgow relative as witness or informant. For Catherine Hume, the
+The Young pair's mother is now proved. Trace James and Mary through civil
+marriages, deaths, later censuses, grave inscriptions and newspapers before
+equating them with later namesakes. For Catherine Hume, the
 critical target is a church transcription or family notice for Samuel Hume's
 reported 1844 marriage; civil registration began too late.
 
@@ -291,3 +314,77 @@ Profile prose and trees remain leads; inspect the cited record before treating a
 - ["Flax Growers of Ireland, 1796 — County Tyrone"](https://www.failteromhat.com/flax/tyrone.htm)
 - ["Blair Extracts from the Belfast Newsletter, 1770–1779"](https://www.kinsleuth.com/belnews/1770-1779.htm)
 - ["Tamlaght O'Crilly Lower Graveyard"](https://www.oneirishrover.com/tamlaght-graveyard/)
+
+## Family reconstruction update - 24 August 2026
+
+The full 1851 transcription corrects and expands Robert's immediate family. Household 23 explicitly includes **Margaret Glasgow, aged 50, unmarried daughter**. Earlier extraction that rendered her as a servant or a different surname was wrong.
+
+The proved household children are Margaret, John and Samuel. John and Samuel were both in America. Mary and James Young prove at least one additional child or child-in-law, while Catherine Hume proves another Hume connection.
+
+The current relationship set needs evidential separation:
+
+* [[Glasgow-1053]] cannot be Robert's census daughter: the Canadian woman was married with children before 1851, while the Glenleslie Margaret was unmarried at home.
+* [[Glasgow-3956]] belongs as Robert's **probable brother**, not son, if [[Glasgow-3957]] is the census niece.
+* [[Glasgow-1387]] is only a possible son; his Cloughgaldenagh census gives no father.
+* [[Glasgow-1049]] is a probable Doonbought succession candidate but no record calls him Robert's son.
+* the census directly proves sons John and Samuel, but the spouse-and-child families attached to [[Glasgow-3140]] and [[Glasgow-1052]] remain unproved identity extensions.
+* Sarah Ann, wife of Samuel Hume in Glenleslie household 12, is the strongest candidate mother of granddaughter Catherine Hume and therefore a possible missing daughter. Her maiden surname is unproved.
+
+Catherine Hume's census entry says she died of **scarlatina** in spring 1850; it does not place her death in Scotland.
+
+The claim that Catherine Glasgow was born Anderson derives from an unrelated Virginia Robert-and-Catherine couple and must not be imported into this family.
+
+Robert's coherent sequence remains Doonbought-Glenleslie, not Lisnagaver. This makes him only a weak, locality-discordant father candidate for [[Glasgow-951|Alexander Glasgow]]. The complete relationship matrix and source assessment are in [sources/family_audit_2026-08-24.md](sources/family_audit_2026-08-24.md).
+
+## Lisnagaver land-sequence correction - 24 August 2026
+
+This profile is retained as the working profile for the **Robert Glasgow who
+held 35 acres at Lisnagaver in 1834**. The Doonbought, Glenleslie and 1854
+will-index records are possible later appearances of that man, not a separately
+proved identity.
+
+The original Griffith map, sheet 26, confirms that the later Glasgow holdings
+24, 25 and 26 were contiguous. The 1861 valuation identifies them as John
+Glasgow (24), Alexander Glasgow (25) and Thomas Glasgow (26), all under Robert
+Harvey. Together they measured 63 statute acres, 0 roods and 10 perches.
+
+The apparent numerical match with the 64 acres held by Alexander and Robert in
+the 1834 tithe is invalid. Tithe Applotment acreage was generally recorded in
+Irish or Plantation measure, while Griffith used statute measure. Sixty-four
+Plantation acres would be about 103.7 statute acres. The tithe also normally
+measured tithable productive land rather than necessarily reproducing the later
+valuation boundaries.
+
+It is not proof of succession. The tithe gives no parcel numbers or map, and no
+located lease, rental or assignment names the people who replaced the 1834
+occupiers. The map proves only that the later three Glasgow holdings formed one
+contiguous block. It does not strengthen the identification of the 1834
+Lisnagaver Robert with the later Doonbought-Glenleslie Robert. No split should
+be made unless an overlapping record or incompatible family event is found.
+
+Full land assessment: [sources/lisnagaver_land_sequence_2026-08-24.md](sources/lisnagaver_land_sequence_2026-08-24.md).
+
+## 24 August 2026: likely fate of the 1834 Lisnagaver holding
+
+The 35 acres attributed to Robert in the tithe book were Plantation acres,
+equivalent to approximately 56.7 statute acres. None of the later valuation
+lots is a direct acreage match. John and Thomas's lots together total 54.5
+statute acres, making them the best geographical candidates for land derived
+from Robert's former holding, but no record calls either man Robert's heir.
+
+The later succession records instead prove separate family continuities: John
+to son James Garvin on lot 24, Alexander to son-in-law Robert Elder on lot 25,
+and Thomas to widow Mary Ann and probable son Daniel on lot 26. These were
+Harvey estate tenancies, not demonstrated freehold inheritances. Robert's 1834
+holding was most likely subdivided, reduced or partly re-let outside the
+surname before Griffith's Valuation. See
+[the full succession assessment](sources/lisnagaver_succession_assessment_2026-08-24.md).
+## 2026-08-24: likely origins of the later Lisnagaver plots
+
+The 1836 valuation field book names Robert Glasgow as the only Glasgow with a dwelling at Lisnagaver. Its land section does not name parcel occupiers. After converting the 1834 Plantation-acre tithe figures to statute acres, Robert's approximately 56.70 statute acres correspond closely to John Glasgow's later lot 24 plus Thomas Glasgow's lot 26, which total 54.50 statute acres. The strongest current land-continuity hypothesis is therefore that John and Thomas's farms were chiefly carved from Robert's earlier tenancy.
+
+Alexander's later lot 25 probably represents a reduced continuation of the earlier Alexander holding, although the 1834 Alexander may have been an older namesake. Thomas deriving from that Alexander holding remains a competing hypothesis because of the later Alexander-and-Rosanna family tradition.
+
+No record yet proves inheritance or identifies the relationships. The likely legal mechanism was subdivision and regrant by the Harvey estate. See `sources/lisnagaver_field_book_1836.md`.
+\n+## 2026-08-24: Harvey estate provenance\n+\n+Robert Harvey is not merely a valuation-era name. Lisnagaver formed part of the Killoquin estate, derived from the 1760 fee-farm grant by the Earl of Antrim to Richard Bateson. Registry of Deeds memorial 506246 (book 743, p. 511), dated 13 January and registered 12 August 1819, records Sir Robert Bateson Harvey of Langley Park and Killoquin settling his Irish lands through trustees in anticipation of the marriage of his son Robert Harvey to Jemima Jane Collins. This explains the later appearance of Robert Harvey as immediate lessor of Lisnagaver lots 24-26.\n+\n+A Killoquin archive sold as Mullocks lot 238 on 18 March 2014 included rent books for 1772-1774 and, critically, a rent book recording tenants and rents from 1835, plus tenant correspondence and a tenant petition/list. The 1835 rent book is the best known source for determining whether John, Alexander and Thomas Glasgow received subdivisions or regrants of the earlier Robert and Alexander Glasgow holdings. Its present owner is unknown.\n+\n+Current inference: John and Thomas's later holdings (about 54.5 statute acres combined) most likely derive from the 1834 Robert Glasgow holding (35 plantation acres, about 56.7 statute acres). Alexander's later lot 25 most likely represents a reduced continuation or regrant from the earlier Alexander holding. These were Killoquin estate tenancies, so succession need not have been inheritance in the legal sense.\n+
+\n+## 2026-08-24: Lisnagaver's 1768 lease structure\n+\n+The Belfast News-Letter of 29 July 1768 advertised Lisnagaver for a 21-year term beginning 1 November 1768. The townland was then arranged as three principal Cunningham-measure farms:\n+\n+* Archibald McNeill and partners: 70 acres, 1 rood, 34 perches.\n+* James McNeill and partners: 106 acres, 0 roods, 12 perches, plus 2 acres, 2 roods of bog.\n+* John Taylor and partners: 107 acres, 0 roods, 20 perches, plus 21 acres, 1 rood, 35 perches of bog.\n+\n+Proposals were directed to Thomas Thompson of Greenmount, who had authority to let the lands. Source: Belfast News-Letter, 29 July 1768, p. 1, transcription in Blair Extracts from the Belfast Newsletter, https://www.kinsleuth.com/belnews/1760-1769.htm.\n+\n+No Glasgow was named as a principal tenant. The word "partners" leaves open the possibility of unnamed subtenants, but no evidence currently identifies any partner as a Glasgow. The 21-year term expired around November 1789. PRONI D3209/1, the Killoquin rent roll and arrears account for 1788-1789, therefore falls exactly at the renewal point and is now the highest-value public source for identifying when the Glasgow tenancy began.\n+\n+One Cunningham acre was about 1.29 statute acres. The 1768 figures describe almost the whole 420-statute-acre townland, whereas the 1834 tithe listed only particular taxable holdings. Direct acreage matching between those records is therefore unsafe without maps or a complete rent roll.\n+

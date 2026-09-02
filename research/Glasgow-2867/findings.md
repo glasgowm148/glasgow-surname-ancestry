@@ -97,6 +97,16 @@ associates.
 - **Unsupported:** marriage to Margaret Davidson and parent links to Christian/John/
   James as direct children of the master.
 
+## Glencorse family now proved, shipmaster equation still unproved
+
+Scotland's People indexes Robert Glasgow and Margaret Davidson's marriage at
+Glencorse on 8 June 1704 (`687`, `20/53`) and children John (1710, `10/93`),
+Isobell (1714, `10/106`) and James (1720, `10/121`). FamilySearch also indexes
+Christian in 1708. These records prove the Glencorse family but give no
+occupation, age or parentage for its Robert. They do not connect him to the
+1754 master of the *John and Archibald*. The unsupported Irvine birthplace has
+now been cleared from the live shipmaster profile.
+
 ## Corrected Ireland/US priorities
 
 - Maintain the **Virginia clearance** target in CO 5/1444, CO 5/1445 and CO 5/1446

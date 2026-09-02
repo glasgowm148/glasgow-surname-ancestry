@@ -6,7 +6,7 @@
 
 '''William James Glasgow''' was born about 1836 in County Antrim, Ireland. On 3 June 1847 an eleven-year-old William James Glasgow of Glenleslie entered Ballymena Workhouse with Mary, Boyd, Mary Jane and Margaret Glasgow.<ref name="Workhouse1847">[https://www.billmacafee.com/otherrecords/ballymenaworkhouse.pdf William Macafee, "Admissions to Ballymena Workhouse: 13th May to 8th July 1847"], registrations 4406–4410 (accessed 13 August 2026).</ref>
 
-The 1851 Ballycregagh return calls William James the fourteen-year-old son of [[Glasgow-2981|James Glasgow]]. He was attending school and was temporarily absent elsewhere in County Antrim.<ref name="Census1851">[https://durrushistory.com/wp-content/uploads/2012/10/1851irishcensusreturnscommadelimitedtextfilejul24_071.pdf "1851 Irish Census Returns: comma-delimited transcription"], Dunaghy, Ballycregagh, household 29 (accessed 13 August 2026).</ref>
+The 1851 Ballycraigargh return calls William James the fourteen-year-old son of [[Glasgow-2981|James Glasgow]]. He was attending school and was temporarily absent elsewhere in County Antrim.<ref name="Census1851">1851 Census of Ireland, County Antrim, Dunaghy parish, Ballycraigargh, household 29, James Glasgow household: [https://www.familysearch.org/ark:/61903/3:1:3QSQ-G94X-YD22 living household, image 251] and [https://www.familysearch.org/ark:/61903/3:1:3QS7-L94X-Y621 continuation, image 252].</ref>
 
 == Research Notes ==
 

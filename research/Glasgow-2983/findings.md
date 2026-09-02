@@ -29,3 +29,9 @@ birth about 1836 and retain County Antrim as an uncertain birthplace.
 
 Applied live on 19 August 2026 with the corrected estimated birth, full
 workhouse/census evidence, James confident and Peggy uncertain.
+
+## Error 966 link migration — 29 August 2026
+
+The retired NAI Ballycregagh household URL was replaced on WikiTree with the
+migrated William James Glasgow census record, NAI record ID 27847. The existing
+household evidence and source identity were retained.

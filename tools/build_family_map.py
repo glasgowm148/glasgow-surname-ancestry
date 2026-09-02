@@ -465,6 +465,11 @@ def profile_metadata(records: list[dict]) -> dict[str, dict]:
         raw_spouses = profile.get("Spouses") or []
         if isinstance(raw_spouses, dict):
             raw_spouses = raw_spouses.values()
+        evidence_spouses = {
+            (spouse.get("id") or spouse.get("name") or "").casefold(): spouse
+            for spouse in ((live_evidence.get(profile_id, {}).get("relations") or {}).get("spouses") or [])
+            if isinstance(spouse, dict) and (spouse.get("id") or spouse.get("name"))
+        }
         spouses = []
         seen_spouses = set()
         for spouse in raw_spouses:
@@ -476,7 +481,13 @@ def profile_metadata(records: list[dict]) -> dict[str, dict]:
             if not key or key in seen_spouses:
                 continue
             seen_spouses.add(key)
-            spouses.append({"id": spouse_id, "name": spouse_name})
+            evidence_spouse = evidence_spouses.get(spouse_id.casefold()) or evidence_spouses.get(spouse_name.casefold()) or {}
+            spouses.append({
+                "id": spouse_id,
+                "name": spouse_name,
+                "marriage_date": spouse.get("MarriageDate") or spouse.get("marriage_date") or evidence_spouse.get("marriage_date") or "",
+                "marriage_location": spouse.get("MarriageLocation") or spouse.get("marriage_location") or evidence_spouse.get("marriage_location") or "",
+            })
         result[profile_id] = {
             "first_name": profile.get("FirstName") or profile.get("RealName") or "",
             "middle_name": profile.get("MiddleName") or "",

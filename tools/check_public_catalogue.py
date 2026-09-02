@@ -75,7 +75,7 @@ def deployed_checks(base_url: str) -> list[str]:
         "compare.html": "Compare two people",
         "data/compare-index.js": "window.glasgowCompareDossiers=",
         "people/compare.js": "bundled comparison data",
-        "people/glasgow-951.html": "What the evidence currently supports",
+        "people/glasgow-951.html": "Latest case research",
     }
     for path, marker in expected.items():
         url = urljoin(base_url.rstrip("/") + "/", path)

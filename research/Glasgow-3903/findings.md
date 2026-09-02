@@ -108,3 +108,9 @@ aid only, not a WikiTree source.
 
 Verified live **19 August 2026**: the structured death is now the record-proved
 **11 December 1878**, marked certain.
+
+## Error 966 link migration — 29 August 2026
+
+The retired NAI tithe microsite guide was replaced with the stable official NAI
+Family History Sources guide. The original PRONI FIN/5/A/254B manuscript
+citation and acreage evidence were retained.

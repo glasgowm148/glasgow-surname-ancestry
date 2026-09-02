@@ -45,8 +45,8 @@ class OneTreeMapCoverageTests(unittest.TestCase):
             redirects.get(profile_id, profile_id)
             for profile_id in source["already_mapped_profile_ids"]
         }
-        self.assertEqual(24, len(expected))
-        self.assertEqual(46, len(source["already_mapped_profile_ids"]))
+        self.assertEqual(23, len(expected))
+        self.assertEqual(47, len(source["already_mapped_profile_ids"]))
         self.assertFalse(expected - mapped)
         self.assertFalse(already_mapped - mapped_profile_ids)
         self.assertEqual(66, len(expected) + len(source["already_mapped_profile_ids"]) - 4)
@@ -95,11 +95,12 @@ class OneTreeMapCoverageTests(unittest.TestCase):
             and sync.year(profile.get("BirthDate"))
             and sync.year(profile.get("BirthDate")) <= 1650
         }
-        # Glasgow-3374 was merged into Glasgow-3332, reducing the distinct
-        # pre-1651 James profiles by one without reducing map coverage.
-        self.assertEqual(14, len(early_james))
+        # Glasgow-3374 was merged into Glasgow-3332. Glasgow-3971 was then
+        # added for the separately documented 1645 Scottish baptism.
+        self.assertEqual(15, len(early_james))
         self.assertNotIn("Glasgow-3374", early_james)
         self.assertIn("Glasgow-3332", early_james)
+        self.assertIn("Glasgow-3971", early_james)
         self.assertTrue({"Glasgow-3910", "Glasgow-3921", "Glasgow-3923"} <= early_james)
 
     def test_available_kin_locations_replace_unlocated_holding_points(self):

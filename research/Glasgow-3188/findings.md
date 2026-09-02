@@ -29,3 +29,21 @@ if Robert's approximate 1520 estimate is substantially too late.
 Live profile checked **18 July 2026**. Robert Glasgow-1096 is now the certain
 father and the 23 October 1596 second-son, fisher and burgess evidence is in the
 biography. No substantive update remains.
+
+## Possible daughters and Edinburgh/Leith cluster - 31 August 2026
+
+Four disconnected women now have a coherent branch placement in Ninian's
+household or immediate collateral circle. [Jonat Glasgow
+(Glasgow-3262)](https://www.wikitree.com/wiki/Glasgow-3262), mother of a child
+baptised at Mid Calder in 1609, repeats the name of Ninian's wife Jonet Meik.
+[Barbara-3182](https://www.wikitree.com/wiki/Glasgow-3182) had a South Leith
+entry in 1611; [Margaret-3598](https://www.wikitree.com/wiki/Glasgow-3598),
+[Barbara-3302](https://www.wikitree.com/wiki/Glasgow-3302) and
+[Isobel-3336](https://www.wikitree.com/wiki/Glasgow-3336) married two
+cordiners and a tailor at Edinburgh in 1611-19.
+
+This is family-specific evidence: Ninian's proved son Robert was a cordiner;
+his probable son William moved into Leith; and William's son was apprenticed
+to a cordiner. The repeated trade/locality make the women possible
+daughters/nieces, with Jonat-3262 the strongest individual daughter placement.
+Neither testament names them as daughters, so no exact edge is confident.

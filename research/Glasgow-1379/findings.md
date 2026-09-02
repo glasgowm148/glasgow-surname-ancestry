@@ -25,3 +25,9 @@ probable mother.
 Applied live on 19 August 2026. Birth is now about 1850, County Antrim is
 uncertain, James-2981 is the confident father, Peggy is the uncertain probable
 mother, and the complete sourced biography is live.
+
+## Error 966 link migration — 29 August 2026
+
+The retired Ballycregagh household URL was replaced with the current NAI
+household search. The exact FamilySearch images and detailed transcription
+remain the accessible evidence for household members omitted from the new index.

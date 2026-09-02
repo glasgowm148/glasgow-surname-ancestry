@@ -98,3 +98,10 @@ unread, and the 1800 adult-female age is awkward.
 - Archibald-2304 should not yet be attached as a certain father. Record him in
   the research notes as the leading candidate created by the 1800 household, and
   test the hypothesis against Archibald's estate 647 and original 1810 schedule.
+
+## Error 966 link migration — 29 August 2026
+
+The inaccessible archive.ph family page was replaced with the current
+FamilySearch reconstruction for Robert Glasgow, KNQV-6LF. It is described as a
+derivative research lead; the original census, militia and land records remain
+the documentary basis.

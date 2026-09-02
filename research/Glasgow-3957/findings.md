@@ -39,3 +39,8 @@ record has yet connected a John Montgomery to parents Thomas Montgomery and
 Mary Glasgow. He may have been born before civil birth registration began in
 1864. The inspected 1893 Ballymena death of a Thomas Montgomery describes a
 widower and therefore cannot be Mary's husband, because Mary lived until 1898.
+
+## Error 966 link migration — 29 August 2026
+
+The retired Glenleslie household URL was replaced with the migrated 1851 Mary
+Glasgow census record, current NAI record ID 31235.

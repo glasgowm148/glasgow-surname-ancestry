@@ -7,6 +7,12 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 Father assessment: [William Glasgow (estimated about 1540)](https://www.wikitree.com/wiki/Glasgow-3522) is **confirmed by record**.
 
+Parent-status audit, **31 August 2026**: William is already marked confident,
+but Margaret Herbesoun's mother status is unset on the live edit form. Protocol
+2916 directly calls her George's mother and liferenter, while companion protocol
+2903 directly calls William his father. Set Margaret's relationship to
+**confident**; no DNA-confirmed status is warranted.
+
 Daughter assessment: [Jonet Glasgow (estimated about 1607), later Stewart
 (Glasgow-3061)](https://www.wikitree.com/wiki/Glasgow-3061) is **confirmed by
 record**. Her husband John Stewart's 1624 burgess admission calls her George's

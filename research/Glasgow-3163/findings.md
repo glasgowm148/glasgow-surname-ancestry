@@ -14,6 +14,15 @@ Jonet Anderson and the four testament-named children. The missing sons now have
 profiles [[Glasgow-4006|Andrew]] and [[Glasgow-4007|William]] and are attached
 as Confident (not DNA); their mother fields remain blank.
 
+[Jonet Glasgow, wife of Martin Ramsy (Glasgow-3183)](https://www.wikitree.com/wiki/Glasgow-3183)
+was formerly attached as Andrew and Jonet Anderson's daughter. That edge is
+incompatible with the testament: the operative clause expressly calls
+Marioune, James, Andro and Williame Andrew's four children, while `Jonet` is
+cancelled before the list. On 31 August 2026 the contradicted parent pair was
+removed and James-991 was attached as Jonet's uncertain working father; her
+mother remains unidentified. Public readback was verified without a chronology
+warning.
+
 ## Source findings
 
 | Source | Finding | Assessment |

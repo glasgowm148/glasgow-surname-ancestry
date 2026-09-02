@@ -1,5 +1,9 @@
 {
   "case_id": "Glasgow-3970",
+  "excluded_profile_lead_references": [
+    "MIC/331",
+    "MIC331"
+  ],
   "findings": [
     {
       "claim": "The descendant chain from Glasgow-3970 to Glasgow-1143 remains unproved, while the downstream Glasgow-1143 and Wilson-78088 family is strongly supported.",
@@ -14,10 +18,6 @@
     }
   ],
   "objective": "Prove descendants of Robert Glaskow of Larne without converting tree topology into evidence.",
-  "excluded_profile_lead_references": [
-    "MIC/331",
-    "MIC331"
-  ],
   "questions": [
     {
       "answer": "No wife or child is named in the inspected 1653 deposition.",

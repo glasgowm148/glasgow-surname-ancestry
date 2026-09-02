@@ -12,13 +12,15 @@ unproved.
 
 ## Suggested corrections
 
-- Mark the attached father uncertain. Robert Glasgow's repeated 1557/1560
-  association with David Howe is a better family lead than general proximity
-  to Archibald, but it does not prove Isabella's father.
+- Keep the attached father uncertain. Neither Archibald nor Robert Glasgow is
+  now a leading candidate: protocol 2448 identifies the Glasgow dyer John Howe
+  as the probable son of Peter Howie and Isobella Maxwell, so Robert's links to
+  David Howe do not bridge to Isabella's husband.
 - Remove the claim that witness Robert Herbertson proves a relationship to
   Margaret Herbesoun.
 
 ## Do not add as fact
 
 - Robert Glasgow as Isabella's father.
-- David Howe as John Howe's father.
+- David Howe as John Howe's father. Peter Howie and Isobella Maxwell are the
+  strongly supported parents, but the same-person match remains circumstantial.

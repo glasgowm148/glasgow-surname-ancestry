@@ -5,14 +5,23 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
-Father assessment: [William Glasgow (1500)](https://www.wikitree.com/wiki/Glasgow-1098) is **plausible**, not proved.
+Father assessment: [William Glasgow (1500)](https://www.wikitree.com/wiki/Glasgow-1098) is **probable on strong circumstantial evidence**, not proved by an explicit kinship formula.
 
 Archibald belongs to the mid-sixteenth-century Glasgow burgh network, but the
 reviewed records do not prove that he was a son of William and Esbell Brade.
-The strongest family clue is Robert Glasgow witnessing Archibald's 1551
-property purchase. That supports a close association, not a stated
-brotherhood. Keep William as an uncertain father unless a later inheritance,
-testament or burgess-admission record supplies the missing relationship.
+The strongest family clue is no longer Robert's witness role alone. Robert
+Glasgow witnessed Archibald's 1551 purchase of the parcel immediately east of
+Thomas Bargill. By 1554/55 that exact east boundary belonged to John Glasgow,
+and it remained John's in 1556-57. John is independently proved to be William's
+son. The most economical genealogy is that Archibald belonged to the same
+household group and the parcel passed to his elder brother John by sale,
+settlement or succession. Robert's presence at Archibald's acquisition and his
+own repeated property/craft association with John reinforce that model.
+
+A sale to an unrelated John or a close-cousin relationship remains possible,
+and the transfer instrument is missing. Keep William as Archibald's uncertain
+father in structured data, but the relationship can now be described as
+**probable/strong circumstantial**, rather than merely possible.
 
 ## Source findings
 
@@ -57,6 +66,32 @@ the last direct record. The unsupported Bridgegate death place was cleared.
 - Exact-name web and National Records of Scotland catalogue searches produced
   no additional indexed record. The NRS catalogue does not expose a searchable
   transcription of the underlying burgh protocol volume.
+
+## New property-network lead - 30 August 2026
+
+Protocol 84 places Archibald's 1551 fore-and-back tenement immediately east of
+Thomas Bargill. Protocol 205 (31 January 1554/55) places the living John
+Glasgow immediately east of Thomas Bargill's back tenement, and protocols 307
+and 402 preserve John on the same eastern boundary in 1556-57. This is strong
+evidence that at least the rear title beside Bargill passed from Archibald's
+holding into John's hands between 1551 and 1554/55. Together with Robert
+Glasgow witnessing Archibald's purchase, it materially strengthens the case
+that Archibald belonged to John and Robert's close family/property network.
+
+It does not state the mechanism of transfer. John was directly William
+Glasgow's son, so the sequence strongly supports Archibald being John's brother
+and another son of William; sale to a cousin or unrelated namesake remains a
+competing explanation. Retain the WikiTree relationship as uncertain pending
+the missing conveyance or an heir formula, while grading the genealogy
+**probable**.
+
+Protocol 2241, 23 December 1575, carries the same rear boundary to the death of
+John: a house in the back close lay immediately west of the lands of the late
+John Glasgu. This extends the sequence from Archibald (1551), to living John
+(1554/55-1557), to late John (1575), but still does not state how John acquired
+Archibald's parcel. Source: Robert Renwick, ed., *Abstracts of Protocols of the
+Town Clerks of Glasgow*, vol. 7, protocol 2241,
+[23 December 1575](https://archive.org/details/abstractsprotoc00robegoog/page/n145/mode/2up).
 
 ## Best next archival target
 

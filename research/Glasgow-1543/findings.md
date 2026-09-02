@@ -55,7 +55,7 @@ Arthur, using explicit brother language for Arthur and Robert. Joseph's own
 Add the proved sibling evidence to Joseph's profile. Keep Glasgow-1024 and
 Harkness-1149 uncertain because neither record names Joseph's parents.
 
-The prior sibling evidence was verified live on 19 August 2026. The new birth range, probate-date correction, parent assessment, John candidate, Betty analysis, William relationship wording and 1802 Brooke County disambiguation remain held in the local draft and require a new WikiTree update.
+Live verification on 21 August 2026 confirmed that the birth range, probate-date correction, parent assessment, John candidate, Betty analysis, William relationship wording and 1802 Brooke County disambiguation are all present on WikiTree. No further profile update from the local draft remains outstanding.
 
 ## John of Peters Township as the fourth brother — 20 August 2026
 

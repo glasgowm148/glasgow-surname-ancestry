@@ -1,6 +1,13 @@
 # Findings: Glasgow-1022
 
-Last updated: 2026-08-13
+Last updated: 2026-08-30
+
+## Live profile correction — 30 August 2026
+
+Saved and verified the Glenleslie wording: Sarah Alexander is recorded only as
+a visitor, and William Alexander as John's brother-in-law. The biography no
+longer promotes either entry into a specific relationship with Rose. Both
+people and every census detail were retained.
 
 ## Current conclusion
 
@@ -20,8 +27,9 @@ parentage.
   bachelor. John-1022 is a possible father, but John `Glasgow-1657` of Cross is
   a geographically stronger competing candidate. Leave John-2407 parentless.
 
-These results distinguish the married nephew, the Lisnagaver John/Samuel
-brother pair, and the Cross farmer as separate research lines.
+These results distinguish the married nephew, Robert's son John in America, the
+Lisnagaver John/Samuel brother pair, and the Cross farmer as separate research
+lines.
 
 The newly reviewed Kilwaughter material supplies no evidence that this John was
 a son of Robert Glasgow-1143. The 17 May 1747 discipline entry names no woman or
@@ -65,8 +73,11 @@ His original 1850 marriage names his father as **Henry Glasgow, farmer**. He can
 be the census nephew only if Henry is independently shown to be John-1022's
 brother or equivalent relative.
 
-The adjacent George household and the recurring Alexander relatives make this
-a Glasgow-Alexander local network. The earlier Ballyboggy records extend that
+The adjacent George household contains George's wife Sarah Alexander, while
+John's household contains his wife Rose Alexander, an unrelated-status visitor
+also named Sarah Alexander and John's brother-in-law William Alexander. This is
+a Glasgow-Alexander local network, but the record does not state how either
+additional Alexander was related to Rose. The earlier Ballyboggy records extend that
 network geographically and chronologically, but do not yet prove John-1022's
 parentage: John Glasgow co-leased Ballyboggy with James Wier in 1740, and James
 Glasgow plus James Glasgow junior occur there among Alexander and Wier occupiers
@@ -92,8 +103,22 @@ index. They have **not all been identified**.
 | Ann Glasgow, 18, granddaughter | Represented by [[Glasgow-3168]], but her parents, later life and descendants remain unknown. |
 | Maryan Glasgow, 17, granddaughter | No defensible profile. [[Glasgow-3167]] is a different Mary Glasgow, born about 1843 and daughter of Alexander `Glasgow-951`. |
 | Jane Grimes, 5, and James Grimes, nine months, grandchildren | Neither child nor their parents has been identified. They are the only Grimes entries in the [surviving Dunaghy returns](https://durrushistory.com/wp-content/uploads/2012/10/1851irishcensusreturnscommadelimitedtextfilejul24_071.pdf). No exact local marriage or matching Antrim-born 1901 household was found. A James Grimes who died in Ballycastle in 1870 aged 22 is a close but unproved candidate; the index gives no relative or original image. A Jane Grimes who died at Armagh in 1897 was Patrick Grimes's wife and is unlikely to be the child born with that surname. Live duplicate searching found `Grimes-1800`, born about 1850, but that profile belongs to a County Sligo family. Migration, childhood death, an earlier marriage, or a spelling variant remain possible. |
-| John Glasgow, 40, nephew, married in 1839 | Not identified. The complete surviving 1851 Glasgow census set distinguishes him from Robert's same-aged son John, then in America, and from [[Glasgow-867]], who simultaneously headed Lisnagaver house 34. [[Glasgow-2056]] named Henry as father and married in 1850; [[Glasgow-2407]] was a bachelor in 1865. All conflict with the census nephew. His 1839 marriage predates civil registration and no residence or spouse is supplied. |
+| John Glasgow, 40, nephew, married in 1839 | Not identified. He was resident with [[Glasgow-1022|John Glasgow]], while [[Glasgow-1367|Robert Glasgow]]'s same-aged son was explicitly absent in America. [[Glasgow-3474]], the married Lisnagaver farmer who died in 1885, is the best later-life candidate. [[Glasgow-2407]] was a bachelor in 1865 and is ruled out. |
+| Sarah Alexander, 34, visitor | Not identified. She is not [[Alexander-22579]], the 40-year-old wife of George Glasgow in adjacent household 20. `Visitor` states no kinship or marriage. |
 | William Alexander, deceased brother-in-law | Not identified. The label supports an Alexander connection to John or Rose, but does not prove Rose's birth surname because `brother-in-law` could describe more than one relationship. |
+
+## Recommended public-bio correction
+
+The captured live biography currently calls Sarah “likely a relative of Rose”
+and William “Rose's brother.” Replace those statements with:
+
+```wikitext
+* '''Sarah Alexander''', aged 34, was recorded as a visitor. She was born in County Antrim and could read. The return states no relationship to Rose; she was not [[Alexander-22579]], George Glasgow's wife in adjacent household 20.
+* '''William Alexander''', aged 60, was recorded as John's brother-in-law and a labourer who died of rheumatism in 1846. The precise route of the in-law relationship is not stated. He was not [[Alexander-22578]], the Massachusetts man who died in 1821.
+```
+
+Retain both people and their census details; correct only the unsupported
+identity and relationship claims.
 
 The best no-fee continuation is to search the Grimes children under spelling
 variants and migration records, and to reconstruct every age-compatible John
@@ -292,3 +317,37 @@ Profile prose and trees remain leads; inspect the cited record before treating a
 - [link title](http://www.example.com/)
 - [https://familysearch.org/ark:/61903/1:1:X1BL-JFM](https://familysearch.org/ark:/61903/1:1:X1BL-JFM)
 - [FamilySearch Record for John Glasgow (possible mother-in-law Jeane Cunninghame)](https://www.familysearch.org/tree/person/details/MM3D-24G)
+
+## Identity of the resident nephew John Glasgow
+
+The 1851 census of John Glasgow's Glenleslie household includes a married nephew, John Glasgow, aged 40, born about 1810–11, married in 1839 and working as a weaver. Robert Glasgow's nearby household separately records a forty-year-old son John as absent in '''America'''. The census therefore distinguishes the resident nephew from Robert's son. He also remains distinct from John Glasgow of Lisnagaver ([[Glasgow-867]]), who headed his own household in 1851 and died in 1895.
+
+### Candidate assessment
+
+| Profile | Assessment | Reason |
+| --- | --- | --- |
+| Glasgow-3474 | **Strongest current candidate** | The original civil register identifies him as a married farmer of **Lisnagaver**, aged 78, who died on 24 June 1885; his son James Glasgow of Lisnagaver reported the death. The age is reasonably compatible with the 1851 census and the immediate locality fits. He was not [[Glasgow-867]], whose family gravestone records death in 1895. No record yet directly calls the 1885 man Robert's son, so this remains probable rather than proved. |
+| Glasgow-3140 | **Not the nephew; probably conflated** | Its parent attachment to Robert and Catherine corresponds to the son recorded in America in 1851, not the resident nephew. Its Elizabeth Fee and Samuel family belongs to an Armagh reconstruction: Samuel's published biography places his origin in County Armagh. A widowed farmer John Glasgow died at Killyreavy, County Armagh, on 27 December 1882, aged 66; his son-in-law James Campbell reported the death. Campbell had married Martha Jane Glasgow, daughter of John Glasgow, farmer of Killyreavy, in 1873. The Armagh family may therefore represent another John improperly combined with Robert's emigrant son. |
+| Glasgow-2407 | **Ruled out** | His original 1865 marriage to Rachel Grey describes him as a bachelor. He therefore cannot be the John who reported that he had married in 1839. |
+
+The resident nephew remains unidentified. Glasgow-3474 is the strongest of the
+three proposed candidates because he was a married, age-compatible Lisnagaver
+farmer, but no record yet explicitly connects him to John-1022 or Glenleslie.
+Glasgow-2407 is ruled out, and Glasgow-3140 cannot be the nephew if its attachment
+to Robert reflects the man explicitly recorded in America in 1851.
+
+### Sources
+
+* Ireland, Census, 1851, Dunaghy, County Antrim, household 21, John Glasgow, nephew, aged 40, married in 1839; FamilySearch record [QV9Y-WNGN](https://www.familysearch.org/ark:/61903/1:1:QV9Y-WNGN).
+* General Register Office of Ireland, civil death register, Dervock registrar's district, John Glasgow, died 24 June 1885 at Lisnagaver, aged 78, married farmer; informant James Glasgow, son, Lisnagaver; [register image](https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1885/06280/4799372.pdf), group registration ID 6910472.
+* General Register Office of Ireland, civil death register, Keady registrar's district, John Glasgow, died 27 December 1882 at Killyreavy, aged 66, widowed farmer; informant James Campbell, son-in-law; [register image](https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1883/06378/4830400.pdf), group registration ID 6285520.
+* General Register Office of Ireland, civil marriage register, James Campbell and Martha Jane Glasgow, daughter of John Glasgow, farmer of Killyreavy, 20 February 1873; [register image](https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1873/11258/8128996.pdf), group registration ID 2807931.
+* [Biographical Dictionary of the Australian Senate](https://biography.senate.gov.au/glasgow-thomas-william/), Thomas William Glasgow, identifying Samuel Glasgow's County Armagh origin.
+* [Rasharkin Presbyterian graveyard transcription](https://genealogy.torrens.org/BannValley/church/RasharkinP/graveyard.html), memorial recording [[Glasgow-867|John Glasgow]]'s death in 1895.
+
+## Error 966 link migration — 29 August 2026
+
+All obsolete NAI census links on the profile were migrated: the 1831 John and
+Robert search now uses the current Lissane results; Lisnagaver John uses record
+ID 43289; Glenleslie Robert uses ID 31234. Existing transcriptions and original
+civil records remain cited.

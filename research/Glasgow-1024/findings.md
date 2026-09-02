@@ -31,6 +31,8 @@ This profile conflates an unproved **James Glasgow of Moneymore** with several s
 
 The 1831 death should be removed. St Luran's register records a different [James Glasgow of Cookstown (Glasgow-4024)](https://www.wikitree.com/wiki/Glasgow-4024), buried 13 March 1831 aged 40. He was created as an unconnected profile on 20 August 2026.
 
+Live verification on 21 August 2026 confirmed that the revised WikiTree biography is now in place. It removes the suffix II and structured 1831 death, preserves and qualifies the complete 1770 immigration and 1804 naturalisation references, includes the candidate matrix, and treats the proposed family links as uncertain. No further profile update from the local draft remains outstanding.
+
 ## Evidence assessment
 
 | Claim | Assessment | Reason |

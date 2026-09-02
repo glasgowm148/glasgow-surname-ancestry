@@ -1,8 +1,17 @@
 # Findings: Glasgow-2981
 
-Last updated: 2026-08-19
+Last updated: 2026-08-25
 
 ## Current conclusion
+
+The Glenleslie evidence now establishes a further family chain. In 1851,
+[[Glasgow-3168|Ann Glasgow]], aged eighteen, was explicitly recorded as a
+granddaughter of [[Glasgow-1022|John Glasgow]]. Her 1869 marriage names her
+father as James Glasgow, weaver. Of the documented local candidates,
+[[Glasgow-2981|James Glasgow]] is the James already tied to Glenleslie through
+his family's 1847 Ballymena workhouse entries and to the adjoining Dunaghy
+cluster in 1851. The combined records support James as John's son and Ann as
+James's daughter. James's mother and Ann's mother remain unidentified.
 
 [[Glasgow-2981|James Glasgow]] is directly identified as the fifty-year-old
 Antrim-born head of household 29 at Ballycregagh in the surviving 1851 Dunaghy
@@ -42,11 +51,11 @@ is probably Peggy's son.
 
 ## Parentage and cluster placement
 
-James's own parents remain unidentified. His Ballycregagh residence borders
-Ballybogy and Glenleslie and makes him a useful Dunaghy collateral candidate,
-but it does not prove that he was a son of [[Glasgow-1022|John Glasgow]],
-[[Glasgow-1367|Robert Glasgow]], either James Glasgow in the 1825 Ballybogy
-tithe return, or [[Glasgow-3904|Alexander Glasgow]]. Leave both parents blank.
+James is now identified as a son of [[Glasgow-1022|John Glasgow]]. The decisive
+relationship chain is John's granddaughter Ann in the 1851 Glenleslie census,
+Ann's father James in her 1869 marriage, and James's independently documented
+Glenleslie/Dunaghy household network. No source identifies James's mother, so
+he is not attached to [[Alexander-16967|Rose Alexander]].
 
 The two existing similar-person leads, [[Glasgow-1702]] and [[Glasgow-1573]],
 remain separate profiles. No record inspected in this pass establishes a
@@ -65,7 +74,19 @@ duplicate identity.
 
 ## WikiTree changes
 
+On 25 August 2026, James was attached as a confident son of
+[[Glasgow-1022|John Glasgow]], and [[Glasgow-3168|Ann Jane Glasgow]] was
+attached as his confident daughter. The live biographies were updated inline
+with the census, marriage and identity analysis; Ann's and James's mothers
+remain unknown.
+
 On 19 August 2026, the complete 1851 household and 1847 workhouse evidence were
 added to the live profile. James's estimated 1801 County Antrim birth was
 retained and marked uncertain. The biography now states that Peggy's earlier
 maternity is unproved but not impossible; no parent was detached.
+
+## Error 966 link migration — 29 August 2026
+
+Retired NAI links were replaced with the current Ballycregagh household search
+and the migrated Glenleslie record for John Glasgow, NAI ID 31214. The exact
+FamilySearch images and public detailed transcription remain cited.

@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en"><head>
+  <script data-clean-index-redirect>if(location.protocol!=="file:"&&location.pathname.endsWith("/index.html"))location.replace("/feedback"+location.search+location.hash);</script>
+  <base href="/feedback"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Report a correction · Glasgow Surname Project</title>
+<meta name="description" content="How to report corrections and evidence to the Glasgow Surname Project."><link rel="canonical" href="https://glasgow.phenotype.dev/feedback">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="people/catalogue.css?v=20260811-40"></head>
+<body><header><a class="brand" href="/catalogue">Glasgow Surname Project</a><nav><a href="map/">Map</a><a href="/catalogue">People</a><a href="records/">Records</a><a href="places/">Places</a><a href="/compare">Compare</a><a href="data/index.html">Data</a></nav></header>
+<main><p class="kicker">Corrections and additional evidence</p><h1>Report a correction</h1><p class="lede">Catalogue entry: <strong id="feedback-person">No person selected</strong></p><section><h2>Profile correction</h2><p>If the person has a WikiTree profile, add the sourced correction there or contact the profile managers. That keeps the public tree and this catalogue aligned.</p><div class="actions"><a id="feedback-wikitree" class="button" href="#" hidden>Open WikiTree profile</a><a class="button secondary" href="https://www.wikitree.com/wiki/Space:Glasgow_Name_Study">Contact the Glasgow Name Study</a></div></section><section><h2>Prepare a precise report</h2><p>Include the affected claim, the correction, and an exact source reference or image location. Do not submit living-person details.</p><textarea id="feedback-template" class="feedback-template" rows="10"></textarea><p><button id="feedback-copy" class="button" type="button">Copy correction template</button></p></section></main><footer><p>Generated from the same records as the family map. Profile fields and inferred placements are research leads unless supported by cited records.</p><p><a href="/changes">Change log</a> · <a href="/feedback">Report a correction</a> · <a href="/status">Catalogue status</a></p></footer><script src="people/external-links.js?v=20260811-40"></script><script>(()=>{const p=new URLSearchParams(location.search).get('person')||'';const label=document.querySelector('#feedback-person');const link=document.querySelector('#feedback-wikitree');const text=document.querySelector('#feedback-template');label.textContent=p||'No person selected';if(/^[A-Za-z][A-Za-z_'’-]*-\d+$/.test(p)){link.href='https://www.wikitree.com/wiki/'+encodeURIComponent(p);link.hidden=false}text.value=`Catalogue person: ${p||'[person or page]'}
+Catalogue URL: ${location.href}
+Correction requested:
+
+Source and exact reference:
+
+Reason:`;document.querySelector('#feedback-copy').addEventListener('click',async()=>{await navigator.clipboard.writeText(text.value);document.querySelector('#feedback-copy').textContent='Copied'});})();</script></body></html>

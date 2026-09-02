@@ -33,3 +33,16 @@ sisterhood are inferred.
 Retain or restore **Edinburgh, Scotland** as the uncertain birthplace. Margaret's
 marriage directly places her there; birth there is plausible and no reviewed
 evidence concretely conflicts with it.
+
+## Branch placement - 31 August 2026
+
+Margaret is best placed as a possible daughter or niece of
+[Ninian Glasgow (Glasgow-3188)](https://www.wikitree.com/wiki/Glasgow-3188).
+Her husband William Hardie was a cordiner. Ninian's proved son
+[Robert (Glasgow-1027)](https://www.wikitree.com/wiki/Glasgow-1027) was also a
+cordiner, and Ninian's probable son William moved into Leith, where William's
+son was later apprenticed to a cordiner. This direct family trade/geography
+pattern materially strengthens the Edinburgh marriage cluster.
+
+Assessment: **possible daughter/niece, moderate**. No testament or marriage
+entry names her father, so do not mark an exact parent confident.

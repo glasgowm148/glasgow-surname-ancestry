@@ -115,6 +115,25 @@ and Decreets images have not yet been reviewed.
 | Stevenston | Brakpleuch Over and Nether | **Michael Glasgow**, John Sparling, John Wilson, Robert Wilson | 331 | Michael held or was assessed on these lands. He may or may not be the Michael also listed at Dubbs. |
 | Stevenston | Dubbs | Finlay Brown, **Michael Glasgow**, James Morton | 331 | A second Michael occurrence. The source's own warning about multi-holding prevents treating it automatically as a second man. |
 | Stevenston | Corsankell | Katherine Campbell, **James Glasgow, younger**, **James Glasgow, elder** | 331 | Two distinct same-name men are explicitly distinguished. “Elder/younger” does not by itself prove their relationship. |
+
+### Mathie–Glasgow network follow-up, 30 August 2026
+
+The Ardeer pairing is part of a broader record trail. David Mathy and Robert
+Glasgow were fellow burgesses and co-witnesses in Glasgow on 10 May 1554.
+David's documented son John is a plausible match for a later writer who entered
+the Glasgow burgess roll with the Earl of Glencairn's group in 1583. John
+Mathie senior and junior were together at a Clerkland daughter's marriage in
+1600; an older Glencairn servant John was killed in July 1606 and a second John
+wrote an estate bond that September. Tutory retours entered in January 1607
+directly name the deceased John Mathie of Ibert's brother Matthew, a Glasgow
+burgess, and John's lawful children James, David, Agnes and Margaret. The date,
+Kilmaronock location and Glencairn lordship make John of Ibert a strong
+candidate for the servant killed in July. This creates a credible Mathie
+corridor between Robert Glasgow's city circle and the Stevenston/Corsankell
+estate cluster. Jonet Mathie's 1618 marriage to John Glasgow may continue that
+association, but she is not among the four children named in the tutory
+retours and her father remains unknown. See the
+[focused analysis](../../research/Glasgow-3908/mathie-glencairn-bridge-1554-1618.md).
 | Kilwinning | Burrowland | John and William Bryden, **John Glasgow**, John Young | 333 | One John occurrence. He may or may not be the Dalgarven man. |
 | Kilwinning | Dalgarven | ... **John Glasgow and Agnes Wilson** ... | 333 | Joint holding; this wording is not proof that Agnes was John's wife. |
 
@@ -234,7 +253,7 @@ WikiTree searches were checked before treating these occurrences as new people.
 | Person | Record and source | Evidence and duplicate decision |
 | --- | --- | --- |
 | Elizabeth Glasgow, widow of Alexander Kaine | Great Seal confirmation, 19 Dec 1552; *Registrum Magni Sigilli*, IV, no. 739, [p. 164](https://archive.org/details/registrummagnisi04scot/page/164/mode/1up). Local copy: `sources/registrum_magni_sigilli_vol_4_1546_1580.pdf`. | Created as [[Glasgow-3915]] on 17 July 2026. Draft retained at `../../research/Glasgow-3915/1552_Scotland_Easter_Corswood_Elizabeth_Glasgow.md`. |
-| Isobella Glesgw, wife of Archibald Herbisoune | Glasgow protocol 719, 27 Jan 1562/3; Renwick, vol. 3, [p. 29](https://archive.org/details/abstractsprotoc06scogoog/page/n41/mode/2up). Local copy: `sources/glasgow_protocols_vol_3_1561_1568.pdf`. | Created as [[Glasgow-3916]] on 17 July 2026. Unsupported parents added at creation are queued for removal. |
+| Isobella Glesgw, wife of Archibald Herbisoune | Glasgow protocol 719, 27 Jan 1562/3; Renwick, vol. 3, [p. 29](https://archive.org/details/abstractsprotoc06scogoog/page/n41/mode/2up). Protocol 810 places Archibald at John Glasgow's inherited-paternal parcel; protocol 2002, [19 Dec 1573](https://archive.org/details/abstractsprotoc00robegoog/page/n52/mode/2up), names Robert Glasgow, Archibald and John Glasgow together as fishers. | Created as [[Glasgow-3916]] on 17 July 2026. William Glasgow and Esbell Brade are now probable parents on strong circumstantial craft/property/in-law evidence, but both structured edges must remain uncertain because no record states kinship. |
 | Jonet Glasgw, wife of William Pady | Protocol 2478, 19 Mar 1582/3, [vol. 8 p. 78](https://archive.org/details/abstractsofproto08glas/page/78/mode/1up); protocol 3459, 20 Jun 1598, [vol. 11 pp. 74-75](https://archive.org/details/abstractsprotoc04renwgoog/page/74/mode/1up). | Created as [[Glasgow-3917]] on 17 July 2026. Draft retained at `../../research/Glasgow-3917/1583_Scotland_Glasgow_Jonet_Glasgow.md`. |
 | [Andrew Glasgw (Glasgow-4006)](https://www.wikitree.com/wiki/Glasgow-4006), son of Andrew of Corstoun | NRS CC8/8/32, Andrew's testament, made 6 Feb 1597 as written and indexed 10 Jul 1598; printed index [p. 108](https://archive.org/details/scottishrecordso01scotuoft/page/n117/mode/1up). | Direct family clause names Andrew among four bairns; profile created 19 August 2026. |
 | [William Glasgw (Glasgow-4007)](https://www.wikitree.com/wiki/Glasgow-4007), son of Andrew of Corstoun | Same testament and family clause. | Directly named and necessarily distinct from Glasgow-3075; profile created 19 August 2026. |
@@ -251,6 +270,11 @@ WikiTree searches were checked before treating these occurrences as new people.
 - Protocols 748 and 847 directly name sons John and William of John Glasgow
   senior and Jonet Spreull in 1563 and 1565. The William is a strong match to
   Glasgow-3522; see `../../research/Glasgow-3522/findings.md`.
+- Geillis Glasgow's original 1603 testament, NRS CC9/7/3, names
+  [[Wilson-142005|James Wilson]] as the lawful son of Geillis and
+  [[Wilson-127012|Thomas Wilson]]. Thomas gave up the inventory on James's
+  behalf and James was executor dative. The child profile was created and
+  attached on 30 August 2026.
 - NRS GD39/5/59 directly calls James and John sons of James Glasgow elder at
   Corsankell in 1571. This proves the younger James's father but does not yet
   resolve whether the son John was Glasgow-3193.
@@ -259,16 +283,39 @@ WikiTree searches were checked before treating these occurrences as new people.
   Glasgow, fisher and burgess. This replaces Ninian's current attached father;
   see `../../research/Glasgow-3188/findings.md`.
 
+### Additional pre-1550 Brady relationships
+
+- Stirling protocol abstracts now prove that Richard Brady, clerk, was a son
+  of John Brady in 1471, while Gilbert Brady was the same John's grandson and
+  heir in 1477–82. Gilbert and Isabella were expressly spouses in 1478. These
+  are certain pre-1500 relationships, although Gilbert's intervening parent is
+  unnamed and no suitable WikiTree profiles were found.
+- Gilbert Brady's Berkhous Croft (1523) was held by John Brady of Easter
+  Kennet in 1531; both men also held Easter Kennet property on either side of
+  Gilbert's death before April 1527. This makes John a strong probable son or
+  close heir, not a proved child. Esbell Brade's membership in this family is
+  a useful but unproved network hypothesis.
+- *Liber Collegii Nostre Domine*, pp. 124–128, proves a four-generation
+  Rutherglen chain in 1538/39–1543: James Hamilton; his daughter and heir
+  Mariota, widow of John Brady; their son John Brady, weaver and burgess,
+  with wife Isabella Oswald; and John and Isabella's son and heir Malcolm.
+  The same South Street holding passed through the family. This is the
+  strongest documented Brady household near Esbell Brade, but no record yet
+  makes her part of it.
+
 ### Occurrences not counted as new people
 
-- Thomas Glasgow in the Saltmarket is named in the saved working transcription
-  of Geillis Glasgow's 1603 testament, NRS CC9/7/3, and no contemporary Thomas
-  profile exists. The printed calendar independently confirms Geillis's
-  testament but not this internal debt entry. Keep Thomas as a high-priority
-  creation lead until the manuscript wording is rechecked; do not turn a
-  tentative palaeographic reading into a profile solely to reach a quota.
+- A saved working transcription proposed Thomas Glasgow in the Saltmarket and
+  James Glasgow in the Gorbals among the debts in Geillis Glasgow's 1603
+  testament, NRS CC9/7/3. Reinspection of images 113-114 did not make either
+  reading secure enough to create or identify a person. Keep both as
+  palaeographic leads rather than record facts.
 - A deceased John bounding property in 1553 could be the root Glasgow-1095.
 - Margaret Glasgow, widow of John Edstoun, already has profile Glasgow-3164.
 - Isabella Glasgow, wife of John Howe in 1600, already has profile Glasgow-3026.
-- Eufame Craige was called the widow of an unnamed Glasgow in 1564; the record
-  does not supply a forename from which to create the husband safely.
+- Eufame Craige was called the widow of an unnamed Glasgow in 1564. Her
+  surviving liferent in the rear of the older John's 1527 property makes her
+  his likely widow: the interest could have been reserved before the fee
+  passed to William by February 1528/29. The marriage remains a property-based
+  reconstruction because the printed protocol leaves her husband's forename
+  blank.

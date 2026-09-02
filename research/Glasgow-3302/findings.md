@@ -44,3 +44,20 @@ register citation and unresolved adult-Barbara identities are live.
 Retain or restore **Edinburgh, Scotland** as the uncertain birthplace. The
 marriage record directly places Barbara at Edinburgh, making the birthplace
 plausible, while no reviewed evidence concretely conflicts with it.
+
+## Branch and identity placement - 31 August 2026
+
+Barbara is best placed in the household or immediate collateral circle of
+[Ninian Glasgow (Glasgow-3188)](https://www.wikitree.com/wiki/Glasgow-3188).
+Her husband George Johnstoun was a cordiner, the same trade as Ninian's proved
+son [Robert (Glasgow-1027)](https://www.wikitree.com/wiki/Glasgow-1027).
+Ninian's probable son William later lived in Leith and William's son entered a
+cordiner apprenticeship. The trade and Edinburgh/Leith geography are concrete
+family-network evidence, though not parentage wording.
+
+Barbara-3302 may be a later appearance of [[Glasgow-3182|Barbara Wilson]] and
+[[Glasgow-567|Barbara, mother of Catharine Little]]. The 1611 Little birth,
+disputed September/November Wilson entry, and 1616 Johnstoun marriage form a
+possible successive life course; the Little record does not itself prove a
+marriage. Assessment: **moderate identity hypothesis**. Do not merge until the
+original 1611 entries and John Wilson's death or disappearance are resolved.

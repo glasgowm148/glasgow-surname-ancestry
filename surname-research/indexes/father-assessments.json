@@ -89,14 +89,26 @@
     "Glasgow-1096": {
       "father_id": "Glasgow-1098",
       "status": "plausible",
-      "basis": "Chronology, adjacent burgh property and Robert's association with Archibald support placement in William's generation, but no saved relational record identifies William as Robert's father.",
+      "basis": "Probable on strong circumstantial evidence: Robert repeatedly shared the compact south-burgh property and fisher network of William's proved son John and witnessed Archibald's parcel before it appeared in John's hands. No record explicitly names Robert's father, so the edge remains uncertain.",
       "evidence": [{"label": "case findings", "path": "../../research/Glasgow-1096/findings.md"}]
     },
     "Glasgow-1097": {
       "father_id": "Glasgow-1098",
       "status": "plausible",
-      "basis": "Protocol 84 directly places married Archibald in the Glasgow burgh in 1551 with Robert Glasgow as a witness. This supports the proposed burgh cluster, but the complete published protocol search found no record naming Archibald's father or calling Robert his brother.",
+      "basis": "Probable on strong circumstantial evidence: Robert witnessed Archibald's 1551 purchase, and its exact east-of-Bargill parcel was held by William's proved son John by 1554/55 and remained his in 1556-57. A cousin or unrelated transfer remains possible, so the edge remains uncertain.",
       "evidence": [{"label": "case findings", "path": "../../research/Glasgow-1097/findings.md"}]
+    },
+    "Glasgow-3915": {
+      "father_id": "Glasgow-1098",
+      "status": "uncertain",
+      "basis": "Strong close-kin hypothesis, exact degree unresolved: William Glasgow and probable husband Alexander Kano/Kaine occur consecutively in the 1526 Sandilands remission, and Alexander's widow Elizabeth later occupied Easter Corswood in the same Calder estate. Daughter, sister and niece remain viable.",
+      "evidence": [{"label": "case findings", "path": "../../research/Glasgow-3915/findings.md"}]
+    },
+    "Glasgow-3916": {
+      "father_id": "Glasgow-1098",
+      "status": "plausible",
+      "basis": "Probable on strong circumstantial evidence: Isobella's husband Archibald Herbisoune witnessed William's proved son John sell the exact fore tenement John had just inherited as heir of William; Isobella also repeats proposed mother Isobel Brade's forename. The witness act does not state kinship, so both parent edges remain uncertain.",
+      "evidence": [{"label": "case findings", "path": "../../research/Glasgow-3916/findings.md"}]
     },
   "Glasgow-1098": {
     "father_id": "Glasgow-1095",
@@ -179,9 +191,9 @@
       "evidence": [{"label": "case findings", "path": "../../research/Glasgow-3023/findings.md"}]
     },
   "Glasgow-3026": {
-    "father_id": "Glasgow-1096",
+    "father_id": "Glasgow-1097",
     "status": "uncertain",
-    "basis": "Robert Glasgow twice appeared with David Howe in 1557 and 1560, including at a dyer-family property transaction in the South-Port-to-Clyde-bridge corridor; Isabella was married to John Howe, dyer, by 1600. This is the strongest current family-network lead, but neither Howe succession nor Isabella's parentage is stated.",
+    "basis": "No leading father candidate remains. Isabella's dyer husband was probably the 1582 record-proved son of Peter Howie and Isobella Maxwell, so Robert Glasgow's links to David Howe concern another Howe household and do not support her parentage.",
       "evidence": [{"label": "case findings", "path": "../../research/Glasgow-3026/findings.md"}]
     },
     "Glasgow-3061": {
@@ -246,7 +258,7 @@
   "Glasgow-3193": {
     "father_id": "Glasgow-1168",
     "status": "uncertain",
-    "basis": "A 1571 record directly names John as a son of James Glasgow elder at Corsankell. The live profile now uses that father, and nearby Kilwinning makes the identity plausible, but no record yet proves that the Corsankell son was the John at Burrowland and Dalgarven.",
+    "basis": "Probable identity, uncertain edge: the 1559-60 list places John at one or two Kilwinning holdings and the two Jameses at neighbouring Corsankell; in 1571 James elder's son John is a Corsankell co-occupier. No competing regional John is known, but no record carries a residence or spouse between the holdings.",
       "evidence": [{"label": "case findings", "path": "../../research/Glasgow-3193/findings.md"}]
     },
     "Glasgow-3262": {

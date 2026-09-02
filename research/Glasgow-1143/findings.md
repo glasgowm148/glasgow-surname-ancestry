@@ -1,6 +1,14 @@
 # Findings: Robert Glasgow of Kilwaughter (Glasgow-1143)
 
-Last updated: 2026-08-09
+Last updated: 2026-08-30
+
+## Live profile update — 30 August 2026
+
+Saved and verified the deed and equity evidence for Rachel Wilson, James and
+Ann. The 1772 petition discussion now places John Glasgow under Larne rather
+than in Robert's Kilwaughter group and states that the petition proves no
+kinship. Robert's father remains explicitly unproved; no relationship was
+detached.
 
 ## Current conclusion
 

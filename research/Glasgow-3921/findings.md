@@ -15,11 +15,23 @@ Glasgow-1168 and explicitly represents the younger James at Corsankell. The
 same holding; the 1571 record then expressly calls James and John the elder
 James's sons. No new profile, split or merge is required.
 
+Sibling update, **30 August 2026**: [[Glasgow-4061]] now represents the
+record-defined John named as the other son in GD39/5/59. He is James younger's
+directly proved brother. [[Glasgow-3193]] remains only an uncertain identity
+candidate for that brother and should not carry the direct wording in this
+biography.
+
 The 1632 testament-calendar entry for Margaret Smith, spouse of James Glasgow
 in Brekpleughe, has now been assigned to this existing profile as a later
 working occurrence. The Stevenston locality is coherent with the wider
 Corsankell cluster, but the entry gives no age, parent or earlier residence and
 does not itself prove that Margaret's husband was the younger Corsankell James.
+
+The same entry does not name [Agnes (Glasgow) Logan
+(Glasgow-3178)](https://www.wikitree.com/wiki/Glasgow-3178) or prove that she was
+the couple's daughter. Agnes's separate 1628 testament-calendar entry names her
+husband John Logan but no parent. Do not attach Agnes to this couple without a
+parent-identifying record.
 
 ## Source findings
 
@@ -28,6 +40,18 @@ does not itself prove that Margaret's husband was the younger Corsankell James.
 | Margaret H. B. Sanderson, *The People of Sixteenth Century Ayrshire*, appendix “The Cunninghame Teind Lists of 1559-60,” [p. 331](https://aanhs.org/wp-content/uploads/2018/05/people-of-ayrshire.pdf#page=36), citing Register of Acts and Decreets, vol. 22, fols. 102v-167v | Corsankell was occupied by Katherine Campbell, James Glasgow younger and James Glasgow elder in 1559-60. | Direct contemporary distinction between two men named James at the same holding; relationship supplied by the later record. |
 | National Records of Scotland, Glencairn papers, [GD39/5/59, 9 February 1571](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD39%2F5%2F59) | The archival description names the Corsinkell occupiers as James Glasgow elder and “James Glasgow and John Glasgow, his sons.” | Direct father-son evidence. The place and elder/younger sequence resolve the named son James to Glasgow-3921 and the father to Glasgow-1168. |
 | Francis J. Grant, ed., *Commissariot Record of Glasgow*, [p. 460](https://archive.org/details/scottishrecordso07scotuoft/page/460/mode/1up), 21 February 1632 | Margaret Smith was spouse of James Glasgow in Brekpleughe, Stevenston parish. | Direct spouse/locality evidence for the 1632 man; the equation with Glasgow-3921 is a working identity, not directly stated. |
+
+## Wider Mathie–Glencairn network
+
+The 1559–60 list also places three Mathies and at least four Glasgow men across
+the Stevenston holdings. This is now connected to Glasgow burgh evidence:
+David Mathy and Robert Glasgow were co-burgess witnesses in 1554, and David's
+probable family line later appears within the Earl of Glencairn's patronage and
+household. The pattern gives the Corsankell branch a plausible route into the
+city Glasgow network. That route is strengthened by January 1607 tutory
+retours naming John Mathie of Ibert's full brother Matthew as a Glasgow
+burgess, together with four of John's lawful children. It still supplies no
+direct relationship to Robert or William. See the [focused analysis](../Glasgow-3908/mathie-glencairn-bridge-1554-1618.md).
 
 ## WikiTree update instructions
 

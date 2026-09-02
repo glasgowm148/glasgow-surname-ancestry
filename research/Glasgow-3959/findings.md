@@ -19,7 +19,8 @@ Wier` closely matches the separate same-day lease group. In 1825 James Glasgow
 and James Glasgow junior occur in Ballyboggy among Alexander and Wier occupiers,
 while Robert Glasco occurs separately at Doonbought in the same Dunaghy parish.
 In 1851 adjacent Glenleslie households contain John Glasgow and Rose Alexander,
-George Glasgow and Sarah Alexander, and Rose's brother William Alexander. A
+George Glasgow and Sarah Alexander, and John's brother-in-law William Alexander
+by an unspecified route. A
 further Dunaghy household at Cloughgaldenagh is already represented by William
 `Glasgow-1387`, wife Ellin and their eight children; it is not an unprofiled
 branch.
@@ -37,7 +38,7 @@ therefore remain open.
 | PRONI `D2223/15/56`, counterpart lease, 1 November 1740 | William Hamilton granted James Wier and John Glasgow of Ballyboggy a three-life lease for one-third of Ballyboggy. | Direct identity and residence; original lives and relationships not yet transcribed. |
 | [Virtual Record Treasury, PRONI `T808/15258`](https://www.virtualtreasury.ie/item/PRONI-T808-15258), 1740 Protestant Householders' Return | `Joh Glask` appears between Thomas Alexander and John Wier in the sequence matching the Ballyboggy lease groups. | Strong independent identity and tenant-network match, not kinship evidence. |
 | [North Antrim tithe transcription](https://www.billmacafee.com/182030stithe/tithenorthantrim.pdf), Dunaghy parish, 1825 | Ballyboggy records James Glasgow and James Glasgow junior among Alexander and Wier occupiers; Robert Glasco is at Doonbought. | A three-man Dunaghy parish cluster, not three men in Ballyboggy. `Junior` distinguishes the Ballyboggy namesakes but does not guarantee father and son. |
-| [Bill MacAfee, 1851 Kilconway census transcription](https://www.billmacafee.com/census/1851censuskilconway.pdf), Glenleslie houses 20-21 | George Glasgow lived with wife Sarah Alexander immediately before John Glasgow and wife Rose Alexander; Rose's deceased brother William Alexander was recorded in John's household. | Strong adjoining Glasgow-Alexander household context in the neighbouring townland; no descent from John-3959 is stated. |
+| [Bill MacAfee, 1851 Kilconway census transcription](https://www.billmacafee.com/census/1851censuskilconway.pdf), Glenleslie houses 20-21 | George Glasgow lived with wife Sarah Alexander immediately before John Glasgow and wife Rose Alexander; John's deceased brother-in-law William Alexander was recorded in John's household. | Strong adjoining Glasgow-Alexander household context in the neighbouring townland; the route of William's in-law relationship and descent from John-3959 are not stated. |
 | [Detailed 1851 census transcription](https://durrushistory.com/wp-content/uploads/2012/10/1851irishcensusreturnscommadelimitedtextfilejul24_071.pdf), Cloughgaldenagh house 1 | William `Glasgow-1387`, 40, and wife Ellin, 40, lived with Jane, Ellin, William, Margaret, James, Betty, Robert and Adam. | Direct household evidence for an existing WikiTree family. The return does not name William's father or connect him to the 1825 men. |
 | [Griffith's Valuation index, Dunaghy](https://www.billmacafee.com/1860griffiths/northmidantrimgriffiths.pdf) | The later index lists Margaret Glasgow at Glenleslie and Robert Glasgow at Doonbought, but no William at Cloughgaldenagh and no Glasgow occupier at Ballyboggy. | Bounded index-level negative only; it does not prove death or migration. |
 

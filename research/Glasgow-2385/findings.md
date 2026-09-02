@@ -59,3 +59,8 @@ Profile prose and trees remain leads; inspect the cited record before treating a
 
 - [https://www.census.nationalarchives.ie/pages/1851/Antrim/Kilconway/Dunaghy/Glenleslie/35](https://www.census.nationalarchives.ie/pages/1851/Antrim/Kilconway/Dunaghy/Glenleslie/35)
 - [https://www.familysearch.org/ark:/61903/1:1:QGVD-P9CS](https://www.familysearch.org/ark:/61903/1:1:QGVD-P9CS)
+
+## Error 966 link migration — 29 August 2026
+
+The retired Glenleslie household URL was replaced on WikiTree with the migrated
+1851 Alexander Glasgow census record, current NAI record ID 32216.

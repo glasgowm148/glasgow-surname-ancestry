@@ -36,3 +36,8 @@ relationship audit reversed Peggy Hamilton's removal: she was reattached as an
 uncertain mother because the later marriage suggests stepmotherhood but does
 not concretely exclude premarital maternity. The 1847/1851 death-status
 conflict remains preserved.
+
+## Error 966 link migration — 29 August 2026
+
+The retired Ballycregagh household URL was replaced with the current NAI
+household search. The exact FamilySearch household image remains cited.

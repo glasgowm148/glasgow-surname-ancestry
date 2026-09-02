@@ -182,3 +182,9 @@ nephew is the best current interpretation and must remain qualified.
 
 David's 1911 death and 1912 probate details are queued under
 [`Glasgow-3899`](../Glasgow-3899/Glasgow-3899.md), where they should be added.
+
+## Error 966 link migration — 29 August 2026
+
+NAI confirms that the legacy will-calendar microsite was retired. The dead PDF
+was replaced with the current official will guide while preserving Daniel's
+calendar abstract, reel 005014889 and image 00435 identifiers.

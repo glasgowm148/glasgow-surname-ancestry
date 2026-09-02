@@ -10,7 +10,7 @@
 
 The birth estimate of 1820 and death year 1846 are not supported by the census. An age of five in 1851 implies birth about 1845/46; the blank death-year field proves only that Andy died before the census.
 
-[[Hamilton-25516|Peggy Hamilton]] married James in 1848, after Andy's probable birth, and cannot safely be identified as his mother. Mary Glasgow of the 1847 Glenleslie workhouse family is the leading candidate, but Andy is not named in that admission group.
+[[Hamilton-25516|Peggy Hamilton]] married James in 1848, after Andy's probable birth, and cannot safely be identified as his mother. [[Unknown-764460|Mary Glasgow]] of the 1847 Glenleslie workhouse family is the leading candidate, but Andy is not named in that admission group.
 
 The derivative [https://www.familysearch.org/ark:/61903/4:1:MQ57-197 FamilySearch family-tree entry for Andrew Glasgow] is retained as a research lead. Its [https://beta.familysearch.org/ark:/61903/4:1:MQ57-197 earlier beta link] and the [http://familysearch.org FamilySearch database home page] were also cited. The [http://www.census.nationalarchives.ie/pages/1851/Antrim/Kilconway/Dunaghy/Ballycregagh/29/ National Archives of Ireland household link] cited on the profile is preserved.
 

@@ -1,0 +1,180 @@
+[[Category:Glasgow Name Study]]
+
+<small>'''Glasgow Name Study:''' [[Space:Glasgow Name Study|project home]] · [[Space:Glasgow Research|research directory]] · [https://glasgow.phenotype.dev/ digital workbench]</small>
+
+
+{| class="wikitable" style="background:#fff8e8; width:100%;"
+| '''Methods guide''' || AI output is a lead or draft, never evidence. Verify every name, date, place, quotation, relationship and URL against the underlying record before changing a profile. Do not clear an attached person or location unless evidence supports a specific replacement, and do not create pre-1500 person profiles for this study.
+|}
+
+== Using AI and LLMs for Genealogy Research: A Comprehensive Tutorial ==
+
+=== Introduction to AI in Genealogy ===
+
+;Artificial Intelligence (AI): Computer systems designed to perform tasks that typically require human intelligence (e.g., recognizing patterns, understanding language, making predictions). In genealogy, AI ranges from simple algorithms (like hint systems) to advanced large language models.
+;Large Language Models (LLMs): A type of AI trained on vast amounts of text, enabling it to generate human-like language. Tools like GPT-4 and GPT-5 are LLMs that can assist genealogists by drafting narratives, translating documents, and analyzing data.
+
+Genealogy has always been about sifting through records, piecing together clues, and telling family stories. AI is not here to replace the researcher, but to act as a supercharged assistant.<ref>https://www.knowwhowearsthegenesinyourfamily.com/blog/ai-and-family-history-creating-a-perfect-ancestor-biography-using-chatgpt</ref> In fact, many genealogists already use AI without realizing it - for example, FamilySearch uses AI to analyze family tree data and suggest research hints. One such feature looks at birth dates of children in a couple and flags unusually long gaps, hinting that a missing child might belong in between.<ref>https://www.wikitree.com/g2g/1847919/using-chatgpt-create-standard-profiles-for-one-place-study</ref> What's new today is the rise of generative AI like ChatGPT, which anyone can use to transform genealogical data into readable narratives, translate foreign records, or brainstorm research ideas.
+
+'''Global applications:''' AI's ability to handle multiple languages and contexts makes it invaluable worldwide. For instance, a researcher struggling with old German church records used AI to transcribe and translate them – something that was once a major roadblock became "shockingly" easy to overcome.<ref>https://www.amyjohnsoncrow.com/using-chatgpt-for-genealogy-accurately/</ref> The AI translated archaic German text and even historic newspapers, unlocking details like ship arrival notices and obituaries that filled gaps in the family story.<ref>https://www.reddit.com/r/Genealogy/comments/1gsghru/one_of_the_many_ways_i_use_have_been_using_ai_to/</ref> Moreover, AI can put family history into a broader historical context. Simply by inputting names, dates, and locations, one user asked, "What was life like for this family during that time?" The AI responded with rich context describing political events, economic conditions, and social factors that likely influenced the family's decisions.<ref>https://www.reddit.com/r/Genealogy/comments/1j18nfk/ai_has_become_my_best_friend_in_genealogy_research/</ref><ref>https://www.reddit.com/r/Genealogy/comments/1gsghru/one_of_the_many_ways_i_use_have_been_using_ai_to/</ref> This kind of insight breathes life into our ancestors' stories, turning dry facts into a compelling narrative.
+
+It's important to approach AI as a partner in research: you still provide the data and direction, and the AI provides speed and creativity. As one genealogist put it, "AI doesn't do the research for you... But AI is like the best research assistant you could ask for", accelerating tasks like finding resources, translating text, analyzing patterns, and putting information into context.<ref>https://www.knowwhowearsthegenesinyourfamily.com/blog/ai-and-family-history-creating-a-perfect-ancestor-biography-using-chatgpt</ref> From writing a great-grandparent's biography to deciphering a 1700s will, AI tools (especially LLMs like GPT-4/5) are proving to be transformative in genealogy. In this tutorial, we will explore how to harness these tools effectively across a variety of genealogical use cases – always with an eye on accuracy, ethics, and maintaining WikiTree's standards.
+
+(In the sections below, you'll learn how to prepare your data for AI, use GPT to clean up WikiTree biographies, cross-check FamilySearch sources, detect mistaken identity merges, build timelines, enrich stories with history, break through brick walls, scale up surname studies, decode old handwriting with Transkribus + GPT-5, and more. We'll also cover the limitations of AI and how to mitigate them. Each section includes examples and even real ChatGPT prompts from genealogists' experiences.)
+
+=== Preparing Research Materials for AI Input ===
+
+Successful use of AI in genealogy starts with good preparation. Before you ask an AI to analyze or write anything, you need to gather and organize the relevant research materials:
+
+* '''Compile Key Facts:''' Assemble the vital data about the person or family in question – names (with variant spellings), dates, places, relationships. This could be in note form, a family group sheet, or an export from your genealogy software. Ensure the data is as accurate as possible. If you're writing a biography, list out the birth, marriage, death details, and any significant life events. If you have it, include context like occupations, migration dates, military service, etc.
+
+* '''Gather Source Excerpts:''' Identify the records or sources you'll be referencing (census entries, birth certificates, wills, FamilySearch sources, etc.). Transcribe or copy the key info from these sources into text. For example, if you have a census record on FamilySearch, you might copy the text details (names, ages, locations) into your notes. Similarly, for a handwritten will, consider transcribing it (or using an OCR tool) so you can feed that text to the AI. The AI can only work with what you give it - it does not have magical access to FamilySearch or Ancestry databases in a chat session.
+
+* '''Provide Contextual Notes:''' If relevant, write a short summary of the research scenario for the AI. For instance, "John Doe was born in Scotland in 1790 and later moved to Canada; we suspect he had a second marriage we haven't documented." This sets the stage for the AI so it won't misinterpret the task. The more context you supply, the better the AI can tailor its output. As genealogy educator Amy Johnson Crow demonstrated, prompting ChatGPT with no context ("Write a biography of John Peter Kingery") resulted in a completely fictional biography because the AI had no real facts to go on.<ref>https://www.amyjohnsoncrow.com/using-chatgpt-for-genealogy-accurately/</ref><ref>https://www.reddit.com/r/Genealogy/comments/11sgete/why_you_shouldnt_use_chatgpt_for_genealogical/</ref> But when she provided a list of real facts about her ancestor and then asked for a biography, ChatGPT produced a mostly accurate first draft using those facts.<ref>https://www.amyjohnsoncrow.com/using-chatgpt-for-genealogy-accurately/</ref><ref>https://www.amyjohnsoncrow.com/using-chatgpt-for-genealogy-accurately/</ref> '''Lesson: Always feed the AI the facts you want it to use.'''
+
+* '''Format Data Clearly:''' When preparing text for AI input, clarity helps. Use consistent date formats (e.g., DD MON YYYY), use full place names, and delineate different items with line breaks or bullet points. If you have a rough timeline, you can list each event on a new line. If you have source texts, clearly separate them. For example, you might label excerpts like "1880 US Census: John Doe, 40, farmer, living in Springfield...". Well-structured input reduces the chance of the AI mixing things up.
+
+* '''Identify Goals:''' Decide what you want the AI to do with the material. Do you want a cleaned-up narrative of a biography? A list of discrepancies between two sources? A translation? Being specific in your own mind (and in your prompt) will lead to better outputs. For instance, "Summarize the following baptism record and extract the names and dates" is a clear instruction. We will cover crafting prompts in context throughout this tutorial.
+
+By preparing and organizing your research materials beforehand, you're setting the AI up for success. You'll be effectively handing it the pieces of the puzzle - and in the next sections, we'll see how to prompt the AI to assemble those pieces into useful genealogical outputs. Remember, '''garbage in, garbage out:''' if your input is disorganized or contains errors, the AI's output will suffer. But with a well-prepared dataset, AI can truly shine as a time-saving helper in your genealogy workflow.<ref>https://www.amyjohnsoncrow.com/using-chatgpt-for-genealogy-accurately/</ref>
+
+=== Cleaning and Formatting Biographies for WikiTree ===
+
+One of the most common ways genealogists are using AI is to write or improve narrative biographies for ancestor profiles. WikiTree profiles have style guidelines – they should be written in a neutral, third-person tone, with proper wiki markup (like bolded dates and inline citations). Many existing biographies need cleanup: they might be auto-generated, overly terse or overly flowery, full of bullet points, or just hard to read. AI can help transform these into polished narratives quickly, as long as you guide it correctly.
+
+'''Tips for AI-Assisted Biography Writing:'''
+
+* '''Provide the Facts and Structure:''' As noted earlier, give the AI the vital statistics and events for the person. It often helps to list them chronologically. For example, you might feed in: "John Doe (1800-1880) – born 1 Jan 1800 in London; emigrated to Australia in 1830; married Jane Smith in 1832; died 5 May 1880 in Sydney." You can then ask the AI to turn this into a narrative paragraph. Because you've provided the facts (with dates and places), the AI is less likely to hallucinate new ones and will focus on weaving a story around what you gave.
+
+* '''Specify WikiTree Style Requirements:''' WikiTree has some specific formatting rules. Remind the AI of these in your prompt. For example: "Write the biography in WikiTree style. Use third person, past tense. Bold the dates (DD MONTH YYYY). Do not include information about living people. Include a == Biography == heading and a == Research Notes == section if needed." By stating this, you help ensure the output won't require as much manual editing. One WikiTree user even includes a style checklist in the prompt, such as noting that all dates except in the research notes must be in the '''DD Month YYYY''' format.<ref>https://www.wikitree.com/g2g/1847919/using-chatgpt-create-standard-profiles-for-one-place-study</ref><ref>https://www.wikitree.com/wiki/Space:ChatGPT_Profile_Writing_Workflow_Instructions</ref>
+
+* '''Tone and Language:''' Early experiments with AI sometimes produced biographies that were too flowery or editorializing (e.g., "John was an amazing farmer who loved his land..."). The latest models have improved at being factual and neutral.<ref>https://www.knowwhowearsthegenesinyourfamily.com/blog/ai-and-family-history-creating-a-perfect-ancestor-biography-using-chatgpt</ref> Still, it's wise to instruct the AI to avoid subjective language unless you want a certain style. For a WikiTree profile, you might say: "Keep the tone factual and genealogical, similar to an encyclopedia entry. No exaggerated adjectives or emotional language." Genealogist Diane Henriks reported that a recent ChatGPT update "delivered a straightforward, factual biography" without the excessive adjectives older versions had used.<ref>https://www.knowwhowearsthegenesinyourfamily.com/blog/ai-and-family-history-creating-a-perfect-ancestor-biography-using-chatgpt</ref><ref>https://www.knowwhowearsthegenesinyourfamily.com/blog/ai-and-family-history-creating-a-perfect-ancestor-biography-using-chatgpt</ref>
+
+* '''Incorporate Historical Context (Moderately):''' A bit of context can enrich a profile. For instance, if the person was a soldier in 1918, the AI can mention World War I. You can prompt: "Include one sentence about the historical context (e.g., what was happening in that region at the time)." Be specific: "Mary lived in London during the Victorian era – mention the industrial growth in one sentence." The key is to keep it relevant and brief, so it enhances rather than overshadows the personal facts.<ref>https://www.knowwhowearsthegenesinyourfamily.com/blog/ai-and-family-history-creating-a-perfect-ancestor-biography-using-chatgpt</ref> In one success story, the AI-generated bio "incorporated a touch of historical context, just as I had requested," giving the narrative extra depth without going off on tangents.<ref>https://www.knowwhowearsthegenesinyourfamily.com/blog/ai-and-family-history-creating-a-perfect-ancestor-biography-using-chatgpt</ref><ref>https://www.knowwhowearsthegenesinyourfamily.com/blog/ai-and-family-history-creating-a-perfect-ancestor-biography-using-chatgpt</ref>
+
+* '''Address Name Variations and Errors:''' WikiTree biographies often need to note alternate names or discrepancies (for example, a census spelling vs. the correct name). AI can automatically include these notes if you give it the info. For example: "In the 1900 census her name was recorded as Eava HUGGINGS (with a G), which was likely a transcription error." In an AI-assisted workflow, a user pasted a census record and got a nicely written paragraph: "In the 1900 census, Eva Huggins, recorded as 'Eava Huggings,' lived with her parents in New Prospect, Alabama... The census provides early insight into Eva's life..."<ref>https://www.wikitree.com/wiki/Space:ChatGPT_Profile_Writing_Workflow_Instructions</ref> followed by a Research Notes entry: "The recording of her name as 'Eava Huggings' in the census is likely a transcription or enumerator error..."<ref>https://www.wikitree.com/wiki/Space:ChatGPT_Profile_Writing_Workflow_Instructions</ref>. The AI had automatically added that explanation, demonstrating how it can catch and document such variations.
+
+* '''Iterate and Review:''' After the AI produces a draft biography, review every word before saving it to WikiTree. The AI might occasionally misinterpret something (e.g., mix up two people with the same name, or assume a relationship that isn't explicitly stated). One effective approach is feeding the biography back to the AI or using a new prompt to ask, “Check the above for any factual inconsistencies or anything that might violate WikiTree style.” However, do not rely solely on AI to self-verify. Use your own eyes and, if possible, a diff checker to compare the AI's text against your original notes to ensure nothing got altered incorrectly (more on verification in the Mitigation section).
+
+By following these steps, you can turn a stub or messy biography into a polished narrative quickly. The AI excels at taking disjointed facts and writing them in a cohesive story format.<ref>https://www.knowwhowearsthegenesinyourfamily.com/blog/ai-and-family-history-creating-a-perfect-ancestor-biography-using-chatgpt</ref><ref>https://www.knowwhowearsthegenesinyourfamily.com/blog/ai-and-family-history-creating-a-perfect-ancestor-biography-using-chatgpt</ref> Many genealogists find that this saves tremendous time, allowing them to focus on research instead of struggling with prose.<ref>https://www.knowwhowearsthegenesinyourfamily.com/blog/ai-and-family-history-creating-a-perfect-ancestor-biography-using-chatgpt</ref> Just remember to keep the biography accurate and sourced – WikiTree profiles still require citations for facts, so you should add reference tags for the information (AI won't automatically know your source citations unless you include them in the prompt or add them afterward).
+
+'''Example (Before & After):''' A WikiTree profile draft reads: "John Doe born 1800 in England. Came to New York 1830 per ship manifest. 1850 census farmer in Ohio, 5 children. Died 1875." With a prompt like "Turn these notes into a narrative WikiTree biography (third person, past tense, with dates in bold)", AI might produce: "John Doe was born '''1 Jan 1800''' in England. In '''1830''', he emigrated to the United States, arriving in New York. By '''1850''', John had settled in Ohio, where he worked as a farmer. The 1850 U.S. census shows him living in Springfield Township with his wife and five children. John Doe died in '''1875''' at the age of 75, leaving a legacy as one of the early settlers of his community." You would then double-check the details (adding sources like <ref> tags for the census and immigration record) and save. The result is a well-structured biography that is easy to read and WikiTree-compliant – all achieved with minimal editing on your part.
+
+=== Cross-Referencing and Validating Sources (Using FamilySearch Data) ===
+
+AI can also act as a second set of eyes when you are comparing sources or trying to verify information. A very powerful use case is cross-referencing details from FamilySearch - a free, global genealogical database - against the information in your family tree. Since FamilySearch offers a vast array of records, you might find multiple sources about an ancestor that need reconciliation. Here's how AI can help:
+
+'''Comparing Different Records:''' If you have two records that you think pertain to the same person (say a baptism record from FamilySearch and a census entry), you can ask the AI to compare them. Provide the details of each source clearly, and then query something like: "Do these two records likely refer to the same individual? Identify any conflicting details.” The AI will line up the names, dates, locations, and relatives mentioned, and highlight matches or discrepancies. One researcher described how, when encountering a person with the same name in another town, they pasted in the details and the AI "compared everything – dates, locations, relationships – and told me if it's likely the same person or if I'm way off"<ref>https://www.reddit.com/r/Genealogy/comments/1gsghru/one_of_the_many_ways_i_use_have_been_using_ai_to/</ref>. This saved them from chasing false leads by quickly spotting mismatches in ages or family members.
+
+'''Validating FamilySearch Hints:''' FamilySearch often provides hint links (possible matches from their records). You can copy the text from a FamilySearch record (like an indexed birth entry or marriage record details) and ask the AI to integrate it with your person's profile info. For example: "Here is what I know about Mary Smith (from my tree)... [list facts]. Here is a FamilySearch record hint for Mary Smith... [paste record info]. Evaluate if this record is for the same Mary Smith and explain why or why not." The AI can articulate, for instance, that the parents' names match (or don't), or that the location is plausible given other facts. It essentially does a quick reasoning step that you would do manually, pointing out supporting or conflicting evidence. Always double-check its conclusion, but it gives a nice starting analysis.
+
+'''Spotting Data Inconsistencies:''' If something doesn't add up (say, one source implies a different birth year than another), you can explicitly ask: “What discrepancies exist between Source A and Source B for John Doe?" The AI might respond, "Source A (tombstone) shows birth year 1850, Source B (census) implies birth year ~1847 based on age 3 in 1850 census. There is a 3-year difference." It might further suggest reasons (perhaps age rounding in census, etc.) and advise additional checks. This is similar to having a research assistant write up your comparison notes for you.
+
+'''Using FamilySearch for Verification:''' FamilySearch's international coverage is extremely useful for global genealogy. If the AI writes a piece of narrative, you can use FamilySearch to verify facts, and even let the AI know if something is uncertain. For example, if the AI-written biography says "John emigrated in 1830," you might verify on FamilySearch that the passenger list indeed shows 1830. If you discover it was actually 1832, you can correct your input and even tell the AI: "Actually, the passenger list shows 1832, not 1830. Update the biography accordingly.” The AI will then adjust the narrative. This iterative loop ensures the final output aligns with source data.
+
+'''Example Workflow:''' Let's say your ancestor's WikiTree profile lists a death date but you're not 100% sure of the source, and FamilySearch has a couple of possible death records. You could do the following:
+1. Paste the summary from WikiTree: “James Miller, b. 1855, said to have died 1899 in Melbourne, Australia.”
+2. Paste the details from FamilySearch Record 1: "Death registration: James Miller, age 44, died 2 March 1899, Melbourne. Parents John Miller and Sarah."
+3. Paste details from Record 2: "Death registration: James Miller, age 46, died 1901, Sydney. Parents unknown."
+4. Ask AI: “Which of these records is more likely for my James Miller, and why?"
+
+The AI might output an analysis: "Record 1 is more likely to be your James Miller because the death date (2 March 1899) and age (44) align closely with a birth in 1855 (would be 43 or 44 in early 1899). The location (Melbourne) matches the profile's info. Additionally, parents John and Sarah match the names in James's WikiTree profile (if those were recorded). Record 2 shows a James Miller dying in 1901 at age 46 (born ~1855 as well), but in Sydney and with no parents listed to confirm identity. Without more info, record 1 is a stronger match." You would then know to cite the Melbourne 1899 death record on the profile as likely correct, noting how it matches.
+
+Always remember that AI's suggestions are only as good as the data provided. It cannot access FamilySearch on its own in real time, so you must supply the content. And while it can greatly speed up cross-referencing (imagine it like quickly summarizing two documents and comparing them), '''final verification is on you.''' Check the actual images on FamilySearch if available, confirm the conclusions, and cite accordingly. Use AI's cross-referencing as a shortcut to spot things, but not as absolute proof.
+
+(A side note: FamilySearch itself is leveraging AI to index handwritten records at unprecedented speeds.<ref>http://www.legacytree.com/blog/using-ai-for-genealogy-research</ref> As these projects progress, genealogists will have even more data at their fingertips to feed into LLMs for analysis. For now, make the most of FamilySearch's free resources by letting AI help you interpret and cross-check them.)
+
+=== Detecting Conflated Identities ===
+
+Genealogists often encounter situations where one profile or record actually contains information about two different individuals merged into one – this is known as a conflated identity. For example, you might see a single WikiTree profile that has a person marrying two different spouses in different countries, or children born just a few months apart in places 500 miles apart. These are red flags that two people's details have been mixed up. AI can assist in spotting and untangling these conflations by analyzing the timeline and details critically.
+
+'''How AI Helps Identify Conflation:'''
+
+* '''Timeline Analysis:''' Input the person's life events as currently recorded (birth, marriages, children, death, etc.) and ask the AI to check for chronological or geographical anomalies. For instance: "Here are all the events for John X as listed. Do they seem realistic for one person, or do they indicate multiple individuals?” The AI will notice if John X supposedly fathered children in England in the 1680s and another set of children in Virginia in the 1690s – a scenario that could be possible (if he emigrated) but might also be two different men named John X. The AI might respond: "There is a potential issue: John X is recorded having children in two distant locations with overlapping timeframes. This could suggest the records pertain to two different John X's. Specifically, having a child in England in 1685 and another in Virginia in 1686 would be impossible unless he traveled extremely fast in that era." This surfaces the problem clearly.
+
+* '''Data Consistency Checks:''' Ask the AI to compare attributes within the profile. For example: "The profile has two wives listed: one marriage in 1700 in Massachusetts and another in 1705 in England, with no mention of a divorce or second migration. Does this make sense?" The AI can articulate the inconsistency: "It is unlikely the same man married in Massachusetts in 1700 and then in England in 1705 unless the first wife died and he returned to England, which is not documented. This discrepancy suggests two individuals might be mixed.” It essentially does a sanity check on the data provided.
+
+* '''Splitting Personal Details:''' If you suspect conflation, you can prompt the AI to help separate the identities. Provide all facts and say: "Separate these facts into two groups that represent two distinct individuals if possible." The result might be something like: "Person A: John X born 1660 in England, married Mary in London 1684, children born in England 1685-1690, died in England 1695. Person B: John X (possibly a younger cousin/relative), born around 1665 (or same name but different family), married Elizabeth in Massachusetts 1700, children in Massachusetts 1701-1710, died 1720 in Massachusetts." This kind of breakdown can give you a hypothesis of how to split the profiles.
+
+* '''Comparing Candidate Profiles:''' On collaborative trees like WikiTree or FamilySearch's shared tree, there might be two profiles that need merging or unmerging. If you have two profiles' data, you can ask AI: “Are these profiles likely the same person? If not, what differences indicate they are separate?" This overlaps with cross-referencing skills. The AI will call out differences in parents, birth dates, etc. For example: "Profile A has parents William and Jane, Profile B lists parents unknown; Profile A born 1820 in Kent, Profile B born 1818 in Devon – these are different enough that they might be separate people unless further evidence shows otherwise."
+
+'''Real-World Example:''' A genealogist on Reddit described how AI saved them from chasing a wrong person.<ref>https://www.reddit.com/r/Genealogy/comments/1gsghru/one_of_the_many_ways_i_use_have_been_using_ai_to/</ref> They had found a man with the same name in a neighboring town and weren't sure if it was their ancestor or someone else. By inputting the details of their ancestor and the other man, the AI pointed out subtle differences – the other man's wife's name and one of the children's ages didn't match the known family – concluding it was likely not the same person. This quick check prevented a conflation error (and the wasted time of researching the wrong family).
+
+While AI can highlight these issues, '''human judgment is crucial''' in resolving them. The AI might not know, for example, that two towns are actually adjacent (and thus travel was plausible), or it might not access that a middle name differentiates them. Use it as a guide: it will list the pros and cons of a match, or the weirdness in a combined profile, but you must decide the next steps - whether to split a profile, mark something as uncertain, or dig for additional records to clarify.
+
+When you do identify conflated identities, make sure to document it in WikiTree's Research Notes. You can even use AI to help draft a note like: "The profile of John X originally contained information from two different individuals: (1) John X of England, and (2) John X of Massachusetts. These have been separated based on conflicting marriage and migration data.<ref>https://www.reddit.com/r/Genealogy/comments/1gsghru/one_of_the_many_ways_i_use_have_been_using_ai_to/</ref> Further research and sources are needed to fully confirm each identity." A clear explanation will help others following your work.
+
+In summary, AI can act as a detective, pointing out "this doesn't fit" signals in a profile. Especially in one-name studies or colonial trees where many people share similar names, this assistance is valuable. Just double-check its logic and back it up with sources before making major changes. Our own reasoning combined with AI's pattern-spotting is a powerful duo for cleaning up conflated genealogies.
+
+=== Building Structured Outputs: Tables, Research Logs, and Timelines ===
+
+Genealogical data isn't just narrative - often, we need structured formats like tables or timelines to organize information. AI is excellent at transforming unstructured notes into well-organized formats. Whether you need a timeline of an ancestor's life, a table comparing records, or a research log of what you've checked, AI can help produce these quickly.
+
+'''Creating Timelines:''' If you provide a list of life events (even if in random order), AI can sort and format them chronologically. For example, feed it bullet points like:
+* Born 14 Feb 1850 in Paris, France
+* Occupation: Carpenter (per 1880 census)
+* Married on 10 Jun 1875 to Jane Doe in London
+* Died 1 Sep 1901 in London, England
+* Immigrated to England in 1867
+
+And prompt: "Convert these notes into a chronological timeline of John Doe's life." The AI might output:
+
+**Timeline for John Doe (1850-1901):**
+* '''14 Feb 1850''' Born in Paris, France.
+* '''1867''' Emigrated from France to England.
+* '''10 Jun 1875''' Married Jane Doe in London, England.
+* '''1880''' Working as a carpenter in London (as recorded in the 1880 census).
+* '''1 Sep 1901''' Died in London, England.
+
+This is easy to read and spot if any key event is missing. You can then integrate this timeline into a profile or keep it in your notes. The AI will generally put the events in order automatically (as long as it can parse the dates - using full year helps).
+
+'''Extracting Information into Tables:''' AI can pull specific details out of a block of text and align them in columns. A great example from Amy Johnson Crow's experiment: she took an OCR text of a newspaper article about a mine explosion and asked ChatGPT to make a table of victims with their status, occupation, family, etc.<ref>https://www.amyjohnsoncrow.com/using-chatgpt-for-genealogy-accurately/</ref> The AI produced a neat table with rows of names and columns for each detail, saving her the effort of manually scanning and copying each piece of information.<ref>https://www.amyjohnsoncrow.com/using-chatgpt-for-genealogy-accurately/</ref> For genealogists, this means you could, say, copy a parish register page's text and ask AI to tabulate the baptisms: Child's name, baptism date, parents' names, abode, etc. If the text is reasonably clear, the AI will put it into a structured list or table. Always double-check the table against the source, but it's a huge time saver for data entry tasks.
+
+On WikiTree free-space pages (and in WikiTree profiles), you can use wikitext tables. AI can be instructed to output in wiki table format if you include an example or ask explicitly. For instance: "Create a table in Wiki markup with columns for Name, Birth Date, Death Date from the following list of people." However, be cautious: complicated wiki templates might confuse the AI. Simpler tables or Markdown tables can be converted to wiki format later if needed.
+
+'''Research Logs:''' Maintaining a research log is a best practice – noting where you searched and what you found (or didn't find). You can have AI generate a draft log based on your notes. Suppose you input:
+* "Searched FamilySearch for John Doe's baptism (1849-1851) – not found."
+* "Checked 1870 US Census in New York for John Doe – found John Doe, age 20, living in Albany (need to verify if same person)."
+* "Examined city directories 1890-1900 for John Doe in Albany – found entries in 1895, 1898."
+
+Ask: "Format these into a research log table with columns: Date/Period Searched, Source or Repository, Result/Notes." The AI could return:
+
+{| class="wikitable"
+|-
+! Search Scope
+! Source/Repository
+! Result & Notes
+|-
+| 1849-1851 (Birth/Baptism)
+| FamilySearch (Baptism records)
+| Not found - No baptism for John Doe in index. May need to check church records manually.
+|-
+| 1870 (Census)
+| 1870 U.S. Census, New York
+| Found a John Doe (age ~20) in Albany. Possibly the right person; further verification needed (matches age).
+|-
+| 1890-1900 (Residency)
+| Albany City Directories
+| Found entries in 1895 and 1898 for John Doe in Albany (address listed as ...). Confirms presence in city during 1890s.
+|}
+
+This structured log helps you keep track and is easier to update as you continue research. You might still adjust wording, but the AI has done the heavy lifting of alignment and formatting.
+
+'''Ancestor Comparison Charts:''' For surname studies, you might list multiple individuals named "William Smith" with birth/death dates to differentiate them. AI can format that into a comparison table so you can visually separate who's who. Or if you want a table of siblings with their spouses and children counts, AI can do that if given the raw info.
+
+'''Graphical Family Trees:''' While text-based, AI can even produce an indented list that resembles a family tree outline:
+
+John Doe (1800-1870)
+:-- Mary Doe (1830-1900) – married William Smith
+::-- Alice Smith (1850-?)
+::-- Robert Smith (1853-1920)
+:-- James Doe (1835-1890)
+::-- (etc.)
+
+You could prompt: “Present the descendants of John Doe in an indented list (each generation indented) based on the following data: ...” and the AI will try to do so. This can be handy for visualizing the family structure in text form, although it might require a bit of nudging to get the format just right. Some have even experimented with having ChatGPT output GraphViz or Mermaid code for family trees, but that's advanced and beyond our scope here.
+
+In summary, whenever you find yourself needing to organize genealogical information systematically, consider giving the task to AI. It's adept at sorting, classifying, and formatting text. By using tables, lists, and timelines produced by AI, you can more easily spot gaps or patterns in your research. Just remember that if the AI is summarizing or extracting from a source (like a newspaper or record), you must verify that it didn't mis-read a detail. Think of these structured outputs as rough drafts or tools - they organize the info for you, and then you refine and cite the details as needed.
+
+=== Writing Contextual Narratives with Historical Background ===
+
+One of the most exciting applications of AI for family historians is the ability to weave historical context into our

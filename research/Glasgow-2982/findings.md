@@ -27,3 +27,9 @@ better replacement. Retain the census-reported County Antrim birthplace.
 
 Applied live on 19 August 2026 with the full census evidence, James confident,
 Peggy uncertain, the estimated birth date uncertain, and County Antrim retained.
+
+## Error 966 link migration — 29 August 2026
+
+The retired NAI Ballycregagh household URL was replaced on WikiTree with the
+migrated John Glasgow census record, NAI record ID 27846. The citation and
+household context were retained.

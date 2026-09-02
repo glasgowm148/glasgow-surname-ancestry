@@ -284,3 +284,9 @@ Profile prose and trees remain leads; inspect the cited record before treating a
 - [Legacy Tree Genealogists, public Glasgow Y-DNA report, 2016](https://www.legacytree.com/wp-content/uploads/T1508095.CLIENTGlasgow1508.report.public.pdf)
 - ["Tamlaght O'Crilly Lower Graveyard"](https://www.oneirishrover.com/tamlaght-graveyard/)
 - [Roots Ireland, County Derry census-substitute coverage](https://www.rootsireland.ie/derry-genealogy/derry-census-substitutes/)
+
+## Error 966 link migration — 29 August 2026
+
+Both retired NAI tithe microsite links were replaced with the stable official
+NAI Family History Sources guide. The inspected PRONI manuscript images,
+folios, holding size and Irish-to-statute acreage calculation were retained.

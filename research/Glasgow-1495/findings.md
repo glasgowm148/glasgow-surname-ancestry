@@ -18,6 +18,14 @@ The attached uncertain father,
 is chronologically and geographically plausible but remains unproved. The
 testament calendar names no parent.
 
+The family naming pattern does not strengthen that attachment. Katherine's
+lawful children were William, Thomas and Jonet Weir. None repeats James, and no
+known child repeats Margaret, the name of the wife currently associated with
+the proposed father. Scottish naming patterns were never mandatory and the
+children's order is not fully known, so this is not disproof. It is negative
+weight against upgrading James younger from possible to probable on locality
+alone.
+
 ## Source findings
 
 | Source | Finding | Assessment |

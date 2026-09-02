@@ -10,7 +10,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 class YdnaExplorerTests(unittest.TestCase):
     def test_explorer_has_root_and_distance_data(self) -> None:
-        page = (ROOT / "www" / "ydna.html").read_text(encoding="utf-8")
+        page = (ROOT / "www" / "ydna" / "index.html").read_text(encoding="utf-8")
         for kit in ("325862", "B835762", "254947", "N18544", "333002", "959947", "B696189", "1002232", "B580327", "200475", "999763", "478604", "794462"):
             self.assertIn(kit, page)
         self.assertIn("'200475|B580327':[6,111]", page)
@@ -79,6 +79,16 @@ class YdnaExplorerTests(unittest.TestCase):
         self.assertIn("43290879-Nebraska-204066-0005.jpg", page)
         self.assertIn("Glasgow-1877", page)
         self.assertIn('id="snp-splits"', page)
+        self.assertIn('href="#yfull-check"', page)
+        self.assertIn('id="yfull-check"', page)
+        self.assertIn("What does YFull add?", page)
+        self.assertIn("FGC5690 positive", page)
+        self.assertIn("14 best-quality, 7 acceptable, 0 low-quality", page)
+        self.assertIn("FTD25732", page)
+        self.assertIn("FTD26239", page)
+        self.assertIn("completed shared-variant comparison", page)
+        self.assertNotIn("match scan remains in progress", page)
+        self.assertNotIn("YF148809", page)
         self.assertIn("15/15 covered", page)
         self.assertIn("variantSplitFromB580327", page)
         self.assertIn("FT25406, FT16394, FT18145 and FT26594", page)
@@ -142,12 +152,25 @@ class YdnaExplorerTests(unittest.TestCase):
             self.assertNotIn(living_name, page)
 
     def test_home_and_discovery_links_exist(self) -> None:
-        self.assertIn('href="ydna.html"', (ROOT / "www" / "index.html").read_text(encoding="utf-8"))
-        self.assertIn("/ydna.html", (ROOT / "www" / "sitemap.xml").read_text(encoding="utf-8"))
-        self.assertIn("/ydna.html", (ROOT / "www" / "llms.txt").read_text(encoding="utf-8"))
+        home = (ROOT / "www" / "index.html").read_text(encoding="utf-8")
+        self.assertIn('href="ydna.html"', home)
+        self.assertIn('href="catalogue.html"', home)
+        self.assertIn('location.protocol!=="file:"', home)
+        ydna_legacy = (ROOT / "www" / "ydna.html").read_text(encoding="utf-8")
+        self.assertIn("location.protocol==='file:'?'ydna/index.html':'/ydna'", ydna_legacy)
+        self.assertNotIn('http-equiv="refresh"', ydna_legacy)
+        ydna_clean = (ROOT / "www" / "ydna" / "index.html").read_text(encoding="utf-8")
+        catalogue_clean = (ROOT / "www" / "catalogue" / "index.html").read_text(encoding="utf-8")
+        self.assertIn('<base href="../">', ydna_clean)
+        self.assertIn('location.protocol!=="file:"', ydna_clean)
+        self.assertIn('data-local-file-links', ydna_clean)
+        self.assertIn('<base href="../">', catalogue_clean)
+        self.assertIn('data-local-file-links', catalogue_clean)
+        self.assertIn("/ydna", (ROOT / "www" / "sitemap.xml").read_text(encoding="utf-8"))
+        self.assertIn("/ydna", (ROOT / "www" / "llms.txt").read_text(encoding="utf-8"))
 
     def test_deep_timeline_preserves_unplaced_match_boundary(self) -> None:
-        timeline = (ROOT / "www" / "timeline.html").read_text(encoding="utf-8")
+        timeline = (ROOT / "www" / "timeline" / "index.html").read_text(encoding="utf-8")
         self.assertIn("three Farrier/Ferrier Y-111 lines at GD 4, 4 and 5", timeline)
         self.assertIn("not drawn inside FT20271", timeline)
         self.assertIn("R-FTA30932, a different named branch", timeline)

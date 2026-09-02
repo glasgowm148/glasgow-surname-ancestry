@@ -54,3 +54,20 @@ does not give his residence, wife or age. The records now require a man capable
 of fathering both Samuel, born about 1791, and John, whose sources disagree
 between about 1801 and about 1817. The Killoquin estate tenant books for 1772-74
 and 1835 are the most promising source for separating the local John households.
+
+## Original 1851 image and age conflict (24 August 2026)
+
+The original house 34 manuscript confirms the reported ages as **John 50**,
+**Margaret 30**, daughter Ann 3 and brother **Samuel 60**. Samuel's age was
+misread as `6` in one electronic transcription. John and Margaret both reported
+marriage in 1846, matching the civil marriage and making this the Margaret
+Garvin household.
+
+The Rasharkin Presbyterian gravestone transcription nevertheless says that
+Margaret Garvin's husband John died on 20 June 1895 aged 78, implying birth
+about 1816/17 rather than about 1800/01. The two ages remain irreconcilable on
+present evidence. John's birth should not be narrowed from either source alone.
+The reverse of the census return names no household deaths in 1841-51 and
+therefore supplies no parent.
+
+Source: [National Archives of Ireland, 1851 census, Lisnagaver house 34](https://www.census.nationalarchives.ie/pages/1851/Antrim/Kilconway/Rasharkin/Lisnagaver/34/).

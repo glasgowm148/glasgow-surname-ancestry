@@ -1,0 +1,2152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script data-clean-index-redirect>if(location.protocol!=="file:"&&location.pathname.endsWith("/index.html"))location.replace("/timeline"+location.search+location.hash);</script>
+  <base href="../"><script data-local-file-links>if(location.protocol==="file:")addEventListener("DOMContentLoaded",()=>document.querySelectorAll('a[href^="/"]').forEach(a=>{const h=a.getAttribute("href"),m=h.match(/^([^?#]*)(.*)$/),p=m[1];a.href=(p==="/"?"index.html":p.endsWith("/")?p.slice(1)+"index.html":/\.[^/]+$/.test(p)?p.slice(1):p.slice(1)+"/index.html")+m[2]}));</script>
+    <meta charset="UTF-8">
+    <title>Y-DNA Timeline | The Glasgow Surname Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Follow the Glasgow project paternal line from deep ancestry through Scotland, Ulster and the Atlantic world.">
+    <link rel="canonical" href="https://glasgow.phenotype.dev/timeline">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <meta property="og:type" content="website"><meta property="og:title" content="Glasgow Y-DNA Timeline"><meta property="og:description" content="A visual paternal timeline for the Glasgow surname project."><meta property="og:url" content="https://glasgow.phenotype.dev/timeline"><meta property="og:image" content="https://glasgow.phenotype.dev/assets/share-card.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700;900&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* --- DESIGN SYSTEM: OBSIDIAN & LIGHT --- */
+        :root {
+            --bg-void: #000000;
+            --bg-panel: #0a0c10;
+            
+            --text-primary: #e6edf3;
+            --text-secondary: #b7c0ca;
+            --text-tertiary: #8b949e;
+
+            /* Refined Metallic Accents */
+            --gold: #d4af37;
+            --gold-dim: rgba(212, 175, 55, 0.1);
+            --gold-glow: rgba(212, 175, 55, 0.4);
+
+            --blue: #3b82f6;
+            --blue-dim: rgba(59, 130, 246, 0.1);
+            --blue-glow: rgba(59, 130, 246, 0.4);
+
+            --danger: #ef4444;
+            --danger-dim: rgba(239, 68, 68, 0.1);
+            --danger-glow: rgba(239, 68, 68, 0.4);
+
+            --purple: #a855f7;
+            --purple-dim: rgba(168, 85, 247, 0.1);
+            --purple-glow: rgba(168, 85, 247, 0.4);
+
+            --green: #4ac26b;
+            --green-dim: rgba(46, 160, 67, 0.15);
+
+            --border-base: #30363d;
+            --card-radius: 12px;
+            
+            --font-display: 'Cinzel', serif;
+            --font-body: 'Inter', sans-serif;
+            --font-data: 'JetBrains Mono', monospace;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+
+        body {
+            background-color: var(--bg-void);
+            background-image: 
+                linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px);
+            background-size: 60px 60px;
+            color: var(--text-primary);
+            font-family: var(--font-body);
+            line-height: 1.8;
+            padding-bottom: 200px;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* --- SCROLL PROGRESS --- */
+        .scroll-progress {
+            position: fixed; top: 0; left: 0; height: 3px;
+            background: linear-gradient(90deg, var(--purple), var(--gold));
+            z-index: 2000; width: 0%;
+            box-shadow: 0 0 15px var(--gold);
+        }
+
+        /* --- NAVIGATION BAR --- */
+        .nav-bar {
+            position: fixed; top: 0; left: 0; right: 0;
+            background: rgba(0, 0, 0, 0.9);
+            backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border-base);
+            padding: 1rem; z-index: 1000;
+            display: flex; justify-content: center; gap: 0.5rem;
+            overflow-x: auto; white-space: nowrap;
+        }
+        .nav-bar::-webkit-scrollbar { display: none; }
+        
+        .nav-btn {
+            background: rgba(255,255,255,0.03);
+            border: 1px solid var(--border-base);
+            color: var(--text-secondary);
+            padding: 0.6rem 1.2rem;
+            border-radius: 4px;
+            font-family: var(--font-data); font-size: 0.8rem; font-weight: 700;
+            text-transform: uppercase; cursor: pointer; transition: 0.3s;
+            letter-spacing: 0.05em;
+            text-decoration: none;
+        }
+        .nav-btn:hover {
+            background: var(--text-primary); color: var(--bg-void);
+            border-color: var(--text-primary); box-shadow: 0 0 20px rgba(255,255,255,0.2);
+        }
+        @media (max-width: 700px) { .nav-bar { justify-content: flex-start; } }
+
+        /* --- HEADER SECTION --- */
+        header {
+            margin-top: 80px; padding: 6rem 1.5rem 3rem; text-align: center;
+            position: relative; overflow: hidden;
+        }
+        header::before {
+            content: ''; position: absolute; top: 40%; left: 50%;
+            transform: translate(-50%, -50%); width: 60vw; height: 400px;
+            background: radial-gradient(circle, rgba(212, 175, 55, 0.08) 0%, transparent 70%);
+            pointer-events: none; z-index: -1;
+        }
+
+        h1 {
+            font-family: var(--font-display);
+            font-size: clamp(2.5rem, 7vw, 5.5rem); font-weight: 700;
+            color: var(--text-primary); text-transform: uppercase;
+            margin-bottom: 0.5rem; letter-spacing: -0.02em; line-height: 1;
+            text-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            background: linear-gradient(to bottom, #ffffff, #888888);
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+        }
+        .subtitle {
+            display: inline-block; color: var(--gold);
+            font-family: var(--font-data); letter-spacing: 0.3em;
+            font-size: 0.85rem; text-transform: uppercase;
+            margin-bottom: 3rem; opacity: 0.9;
+        }
+
+        /* --- INTRO & LEGEND --- */
+        .intro-container {
+            max-width: 700px; margin: 0 auto 5rem; padding: 0 20px;
+            border-left: 1px solid var(--border-base);
+            border-right: 1px solid var(--border-base);
+            background: linear-gradient(to bottom, transparent, rgba(255,255,255,0.01), transparent);
+        }
+        .intro-bio {
+            font-size: 1.1rem; color: var(--text-secondary); margin-bottom: 2rem;
+            line-height: 1.7; font-family: var(--font-body);
+        }
+        .intro-bio strong { color: var(--text-primary); font-weight: 600; }
+
+        .legend-bar {
+            display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5rem;
+            padding-top: 1.5rem; border-top: 1px solid var(--border-base);
+        }
+        .legend-item {
+            display: flex; align-items: center; gap: 0.6rem;
+            font-family: var(--font-data); font-size: 0.78rem;
+            color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em;
+        }
+        .dot { width: 6px; height: 6px; transform: rotate(45deg); }
+        .dot.purple { background: var(--purple); box-shadow: 0 0 10px var(--purple); }
+        .dot.red { background: var(--danger); box-shadow: 0 0 10px var(--danger); }
+        .dot.blue { background: var(--blue); box-shadow: 0 0 10px var(--blue); }
+        .dot.gold { background: var(--gold); box-shadow: 0 0 10px var(--gold); }
+
+        /* --- TIMELINE STRUCTURE --- */
+        .timeline-container {
+            max-width: 1400px; margin: 0 auto; padding: 0 20px; position: relative;
+        }
+
+        .spine {
+            position: absolute; left: 50%; top: 0; bottom: 0; width: 2px;
+            background: linear-gradient(180deg, var(--purple) 0%, var(--gold) 35%, var(--danger) 50%, var(--blue) 80%, var(--gold) 100%);
+            opacity: 0.3; z-index: 0; transform: translateX(-50%); display: none;
+        }
+        @media (min-width: 1200px) { .spine { display: block; } }
+
+        /* --- DEEP ANCESTRY LAYOUT --- */
+        #deepSection { display: block; }
+        .deep-controls {
+            display: flex;
+            justify-content: center;
+            margin: 1rem 0 0;
+        }
+        .deep-toggle-btn {
+            border-color: var(--purple);
+            color: var(--purple);
+        }
+        .deep-toggle-btn:hover {
+            background: var(--purple);
+            color: var(--bg-void);
+            box-shadow: 0 0 20px rgba(168, 85, 247, 0.35);
+        }
+        #deepSection .timeline-row.deep-hidden { display: none; }
+
+        /* --- TIMELINE ROW (THE MASTER CARD) --- */
+        .timeline-row {
+            display: flex; flex-direction: column;
+            margin-bottom: 4rem; position: relative; opacity: 0;
+            transform: translateY(40px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s;
+            background: var(--bg-panel); border: 1px solid var(--border-base);
+            box-shadow: inset 0 1px 0 rgba(255,255,255,0.05), 0 20px 40px -10px rgba(0,0,0,0.8);
+            border-radius: var(--card-radius); overflow: hidden;
+        }
+        .timeline-row.visible { opacity: 1; transform: translateY(0); }
+
+        /* Mobile Connector Line */
+        .timeline-row::after {
+            content: ''; position: absolute; bottom: -4rem; left: 50%;
+            width: 1px; height: 4rem; background: linear-gradient(to bottom, var(--border-base), transparent);
+            z-index: -1;
+        }
+        .timeline-row:last-child::after { display: none; }
+
+        @media (min-width: 1200px) {
+            .timeline-row {
+                flex-direction: row; align-items: stretch; justify-content: center;
+                gap: 100px; background: transparent; border: none; box-shadow: none;
+                overflow: visible; margin-bottom: 8rem; flex-wrap: wrap;
+            }
+            .timeline-row::after { display: none; }
+        }
+
+        /* --- YEAR PILL (Desktop) --- */
+        .year-label {
+            position: absolute; top: -20px; left: 50%; transform: translateX(-50%); z-index: 30; display: none;
+        }
+        .year-pill {
+            background: var(--bg-void); border-radius: 4px; border: 1px solid var(--border-base);
+            padding: 0.4rem 1.2rem; font-family: var(--font-data); font-size: 0.85rem;
+            font-weight: 700; color: var(--text-primary); box-shadow: 0 0 15px rgba(0,0,0,0.8);
+        }
+        @media (min-width: 1200px) { .year-label { display: block; } }
+
+        /* --- MOBILE HEADER --- */
+        .mobile-header {
+            padding: 2rem 1.5rem; text-align: center;
+            background: radial-gradient(circle at top, rgba(255,255,255,0.03), transparent 70%);
+            border-bottom: 1px solid var(--border-base);
+        }
+        .mob-year-badge {
+            display: inline-block; font-family: var(--font-data); font-size: 0.75rem;
+            font-weight: 700; padding: 4px 12px; border-radius: 50px;
+            border: 1px solid var(--border-base); background: rgba(0,0,0,0.5);
+            color: var(--text-secondary); margin-bottom: 15px;
+        }
+        .mob-haplo-id {
+            display: block; font-family: var(--font-data); font-size: 2.8rem;
+            font-weight: 800; line-height: 1; letter-spacing: -0.04em; margin-bottom: 8px;
+            text-shadow: 0 0 40px currentColor;
+            background: linear-gradient(135deg, #fff 30%, currentColor 50%, #fff 70%);
+            -webkit-background-clip: text; background-size: 200% auto;
+            animation: shine 5s linear infinite;
+        }
+        @keyframes shine { to { background-position: 200% center; } }
+
+        .mob-title {
+            display: block; font-family: var(--font-display); font-size: 1.1rem;
+            color: var(--text-primary); text-transform: uppercase; letter-spacing: 0.05em;
+        }
+
+        .row-gold .mob-haplo-id { color: var(--gold); }
+        .row-blue .mob-haplo-id { color: var(--blue); }
+        .row-danger .mob-haplo-id { color: var(--danger); }
+        .row-purple .mob-haplo-id { color: var(--purple); }
+
+        /* --- MOBILE TABS --- */
+        .mobile-tabs {
+            display: flex; background: rgba(0,0,0,0.3); border-bottom: 1px solid var(--border-base);
+        }
+        .tab-btn {
+            flex: 1; background: transparent; border: none; padding: 15px;
+            color: var(--text-secondary); font-family: var(--font-data); font-size: 0.75rem;
+            text-transform: uppercase; cursor: pointer; position: relative;
+            transition: 0.3s; font-weight: 600; letter-spacing: 0.1em;
+        }
+        .tab-btn.active { color: var(--text-primary); background: rgba(255,255,255,0.03); }
+        .tab-btn.active::after {
+            content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 2px;
+            background: currentColor; box-shadow: 0 -2px 10px currentColor;
+        }
+        /* Pulse animation for inactive tab */
+        .tab-btn:not(.active) { animation: pulse-opacity 3s infinite; }
+        @keyframes pulse-opacity { 0%, 100% { opacity: 0.6; } 50% { opacity: 1; } }
+
+        .row-gold .tab-btn.active { color: var(--gold); }
+        .row-blue .tab-btn.active { color: var(--blue); }
+        .row-danger .tab-btn.active { color: var(--danger); }
+        .row-purple .tab-btn.active { color: var(--purple); }
+
+        @media (min-width: 1200px) { .mobile-header, .mobile-tabs { display: none !important; } }
+
+        /* --- COLUMNS --- */
+        .col-left, .col-right {
+            position: relative; z-index: 2; display: none; animation: softFade 0.4s ease-out;
+        }
+        .col-left.active-tab, .col-right.active-tab { display: block; }
+
+        /* Keep the evidence readable even if mobile tab enhancement is delayed
+           or unavailable. Once enhancement is ready, only the active tab shows. */
+        @media (max-width: 1199px) {
+            .col-left { display: block; }
+            .col-right { display: none; }
+            .timeline-row.mobile-tabs-ready .col-left,
+            .timeline-row.mobile-tabs-ready .col-right { display: none; }
+            .timeline-row.mobile-tabs-ready .active-tab { display: block; }
+        }
+
+        @keyframes softFade { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+
+        @media (min-width: 1200px) {
+            .col-left, .col-right { display: block !important; flex: 1; margin: 0; animation: none; }
+            .col-left { text-align: right; } .col-right { text-align: left; }
+        }
+
+        /* --- DESKTOP CARDS --- */
+        .card { height: 100%; display: flex; flex-direction: column; }
+        
+        @media (min-width: 1200px) {
+            .card {
+                background: rgba(10, 12, 16, 0.7);
+                backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+                border: 1px solid var(--border-base); border-radius: var(--card-radius);
+                transition: 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+            }
+            .card:hover {
+                border-color: var(--text-secondary); transform: translateY(-5px);
+                box-shadow: 0 20px 50px -10px rgba(0,0,0,0.7);
+            }
+            .card-dna { border-left: none; } .card-hist { border-left: none; }
+            
+            .col-left .card-dna { border-right: 3px solid var(--border-base); }
+            .col-right .card-hist { border-left: 3px solid rgba(255,255,255,0.1); }
+            
+            .row-gold .col-left .card-dna { border-right-color: var(--gold); }
+            .row-blue .col-left .card-dna { border-right-color: var(--blue); }
+            .row-danger .col-left .card-dna { border-right-color: var(--danger); }
+            .row-purple .col-left .card-dna { border-right-color: var(--purple); }
+        }
+
+        /* --- INNER CARD HEADER (Desktop Only) --- */
+        .card-header-inner {
+            padding: 1.5rem 2rem; border-bottom: 1px solid var(--border-base);
+            background: linear-gradient(to right, rgba(255,255,255,0.02), transparent);
+        }
+        @media (max-width: 1199px) { .card-header-inner { display: none; } }
+
+        .context-label {
+            display: block; font-size: 0.75rem; text-transform: uppercase;
+            color: var(--text-tertiary); letter-spacing: 0.15em; margin-bottom: 10px; font-weight: 700;
+        }
+
+        .snp-id {
+            font-family: var(--font-data); font-size: 2rem; font-weight: 800;
+            line-height: 1; display: block; margin-bottom: 5px;
+        }
+        .row-gold .snp-id { color: var(--gold); text-shadow: 0 0 25px var(--gold-dim); }
+        .row-blue .snp-id { color: var(--blue); text-shadow: 0 0 25px var(--blue-dim); }
+        .row-danger .snp-id { color: var(--danger); text-shadow: 0 0 25px var(--danger-dim); }
+        .row-purple .snp-id { color: var(--purple); text-shadow: 0 0 25px var(--purple-dim); }
+
+        .snp-name { font-size: 0.88rem; text-transform: uppercase; color: var(--text-secondary); letter-spacing: 0.05em; }
+        .hist-title { font-family: var(--font-display); font-size: 1.5rem; color: var(--text-primary); line-height: 1.3; }
+
+        /* --- CARD BODY --- */
+        .card-body { padding: 2rem; color: var(--text-secondary); font-size: 1.05rem; line-height: 1.8; }
+        @media (max-width: 600px) { .card-body { padding: 1.5rem; } }
+        
+        .card-body strong { color: var(--text-primary); font-weight: 600; }
+        .card-body p { margin-bottom: 1.5rem; }
+        .card-body p:last-child { margin-bottom: 0; }
+
+        .profile-link {
+            color: inherit; text-decoration: underline; text-decoration-color: rgba(212,175,55,0.55);
+            text-decoration-thickness: 1px; text-underline-offset: 3px;
+        }
+        .profile-link:hover { color: var(--gold); text-decoration-color: var(--gold); }
+        .evidence-note {
+            margin-top: 1.25rem; padding: 0.9rem 1rem; border: 1px solid var(--border-base);
+            border-radius: 6px; background: rgba(255,255,255,0.04); color: var(--text-secondary);
+            font-size: 0.95rem; line-height: 1.65;
+        }
+        .evidence-note strong { color: var(--text-secondary); }
+
+        /* --- INFO BOXES --- */
+        .info-box {
+            padding: 1.5rem; border-radius: 8px; margin-bottom: 1.5rem;
+            border-left: 2px solid; background: rgba(255,255,255,0.02); position: relative;
+        }
+        .info-box::before {
+            content: ''; position: absolute; top: 0; left: 0; bottom: 0; width: 100%; 
+            background: linear-gradient(90deg, rgba(255,255,255,0.02) 0%, transparent 100%); pointer-events: none;
+        }
+        .box-header {
+            display: flex; justify-content: space-between; align-items: center;
+            margin-bottom: 0.8rem; flex-wrap: wrap; gap: 0.5rem;
+        }
+        .box-title { font-family: var(--font-display); font-weight: 700; color: var(--text-primary); font-size: 1rem; }
+        .box-tag {
+            font-family: var(--font-data); font-size: 0.75rem; padding: 4px 8px;
+            border-radius: 4px; border: 1px solid; font-weight: 700; text-transform: uppercase;
+        }
+        .box-content { font-size: 0.95rem; color: #d0d7de; line-height: 1.6; margin: 0; }
+        .box-sub { display: block; margin-top: 10px; font-size: 0.9rem; color: var(--text-secondary); font-style: italic; }
+
+        .ib-blue { border-color: var(--blue); background: rgba(59, 130, 246, 0.03); }
+        .ib-blue .box-tag { color: var(--blue); border-color: var(--blue); }
+        .ib-gold { border-color: var(--gold); background: rgba(212, 175, 55, 0.03); }
+        .ib-gold .box-tag { color: var(--gold); border-color: var(--gold); }
+        .ib-red { border-color: var(--danger); background: rgba(239, 68, 68, 0.03); }
+        .ib-red .box-tag { color: var(--danger); border-color: var(--danger); }
+        .ib-purple { border-color: var(--purple); background: rgba(168, 85, 247, 0.03); }
+        .ib-purple .box-tag { color: var(--purple); border-color: var(--purple); }
+        .ib-dark { border-color: var(--border-highlight); background: rgba(0,0,0,0.3); border-width: 1px; }
+        .ib-dark .box-title { font-size: 0.85rem; color: var(--gold); text-transform: uppercase; letter-spacing: 0.1em; font-family: var(--font-data);}
+
+        /* --- DATA & STATS --- */
+        .sci-data {
+            background: rgba(0,0,0,0.2); border: 1px solid var(--border-base);
+            padding: 1.5rem; margin-top: 2rem; border-radius: 8px;
+        }
+        .sci-row {
+            display: flex; justify-content: space-between; align-items: flex-start;
+            margin-bottom: 0.8rem; border-bottom: 1px solid rgba(255,255,255,0.03); padding-bottom: 6px;
+        }
+        .sci-row:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+        .sci-label { font-size: 0.9rem; color: var(--text-secondary); font-weight: 500; }
+        .sci-val { font-family: var(--font-data); font-size: 0.9rem; color: var(--text-primary); text-align: right; font-weight: 600;}
+
+        .stats-grid {
+            display: grid; grid-template-columns: 1fr 1fr; gap: 1px;
+            background: var(--border-base); border-bottom: 1px solid var(--border-base);
+        }
+        .stat-item { background: var(--bg-panel); padding: 1.2rem 1.5rem; }
+        .stat-lbl { font-size: 0.8rem; text-transform: uppercase; color: var(--text-secondary); display: block; font-weight: 700; letter-spacing: 0.05em; margin-bottom: 4px;}
+        .stat-val { font-family: var(--font-data); font-size: 1.1rem; color: var(--text-primary); font-weight: 700; }
+
+        /* --- SISTERS SECTION --- */
+        .sisters-section { padding: 2rem; background: rgba(0,0,0,0.2); border-top: 1px solid var(--border-base); }
+        .sis-row { margin-bottom: 1.5rem; border-left: 2px solid var(--border-base); padding-left: 15px; position: relative; }
+        .sis-row::before {
+            content: ''; position: absolute; left: -5px; top: 6px; width: 8px; height: 8px;
+            background: var(--bg-panel); border: 2px solid var(--text-tertiary); border-radius: 50%;
+        }
+        .sis-year { color: var(--gold); font-family: var(--font-data); font-size: 0.85rem; display: block; font-weight: 700; margin-bottom: 4px;}
+        .sis-name { color: var(--text-primary); font-family: var(--font-display); text-transform: uppercase; display: block; margin-bottom: 6px; font-size: 1rem;}
+        .sis-desc { font-size: 1rem; color: var(--text-secondary); line-height: 1.65; }
+        @media (min-width: 1200px) {
+            .col-left .sis-row { border-left: none; border-right: 2px solid var(--border-base); padding-left: 0; padding-right: 15px; }
+            .col-left .sis-row::before { left: auto; right: -5px; }
+        }
+
+        /* --- TREE EXPANSION (Subgroup Map) --- */
+        #branch-map {
+            display: block; /* Expanded by default */
+            margin-top: 20px;
+            background: rgba(0,0,0,0.4);
+            border: 1px solid var(--gold-dim);
+            border-radius: 8px;
+            padding: 20px;
+        }
+
+        .tree-node {
+            margin-left: 15px; padding-left: 15px; border-left: 1px solid var(--border-base);
+            position: relative; margin-bottom: 10px;
+        }
+        .tree-node::before {
+            content: ''; position: absolute; top: 12px; left: 0; width: 10px; height: 1px; background: var(--border-base);
+        }
+        .tree-header { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+        .node-pill {
+            font-family: var(--font-data); font-size: 0.72rem; padding: 3px 7px; border-radius: 3px;
+            text-transform: uppercase; font-weight: 700; border: 1px solid;
+        }
+        .node-str { color: var(--blue); border-color: var(--blue-dim); background: rgba(59, 130, 246, 0.05); }
+        .node-bigy { color: var(--green); border-color: var(--green-dim); background: rgba(46, 160, 67, 0.05); }
+        .node-snp { color: var(--gold); border-color: var(--gold-dim); background: rgba(212, 175, 55, 0.05); }
+        
+        .node-title { font-size: 0.95rem; color: var(--text-primary); font-weight: 600; }
+        .node-mut { font-family: var(--font-data); font-size: 0.8rem; color: var(--text-secondary); margin-left: auto; }
+
+        /* --- UNIFIED ACTION BAR --- */
+        .action-bar {
+            width: 100%; padding: 1.5rem; border-top: 1px solid var(--border-base);
+            display: flex; gap: 1rem; background: linear-gradient(to bottom, rgba(10,12,16,0.9), rgba(0,0,0,1));
+            justify-content: space-between; z-index: 5;
+        }
+        @media (min-width: 1200px) {
+            .action-bar {
+                position: absolute; bottom: 0; left: 0; right: 0;
+                border-radius: 0 0 var(--card-radius) var(--card-radius);
+                background: rgba(13, 17, 23, 0.95);
+            }
+            .timeline-row { padding-bottom: 80px; }
+        }
+
+        .action-btn {
+            flex: 1; text-align: center; padding: 1rem; border: 1px solid;
+            border-radius: 6px; text-transform: uppercase; font-size: 0.85rem;
+            text-decoration: none; font-weight: 800; transition: 0.3s;
+            font-family: var(--font-data); letter-spacing: 0.1em;
+            display: flex; align-items: center; justify-content: center; gap: 10px;
+        }
+
+        .row-gold .action-btn { border-color: var(--gold-dim); color: var(--gold); background: rgba(212, 175, 55, 0.05); }
+        .row-gold .action-btn:hover { background: var(--gold); color: #000; box-shadow: 0 0 30px var(--gold-dim); }
+
+        .row-blue .action-btn { border-color: var(--blue-dim); color: var(--blue); background: rgba(59, 130, 246, 0.05); }
+        .row-blue .action-btn:hover { background: var(--blue); color: #000; box-shadow: 0 0 30px var(--blue-dim); }
+
+        .row-danger .action-btn { border-color: var(--danger-dim); color: var(--danger); background: rgba(239, 68, 68, 0.05); }
+        .row-danger .action-btn:hover { background: var(--danger); color: #000; box-shadow: 0 0 30px var(--danger-dim); }
+
+        .row-purple .action-btn { border-color: var(--purple-dim); color: var(--purple); background: rgba(168, 85, 247, 0.05); }
+        .row-purple .action-btn:hover { background: var(--purple); color: #000; box-shadow: 0 0 30px var(--purple-dim); }
+
+        /* --- MARKER --- */
+        .marker {
+            position: absolute; left: 50%; top: 50px; transform: translateX(-50%);
+            width: 20px; height: 20px; border-radius: 50%; background: var(--bg-void);
+            border: 4px solid var(--text-secondary); z-index: 20; display: none;
+        }
+        @media (min-width: 1200px) { .marker { display: block; } }
+        
+        .row-gold .marker { border-color: var(--gold); background: var(--gold); box-shadow: 0 0 25px var(--gold-glow); }
+        .row-blue .marker { border-color: var(--blue); background: var(--bg-void); box-shadow: 0 0 25px var(--blue-glow); }
+        .row-danger .marker { border-color: var(--danger); animation: pulse 2s infinite; box-shadow: 0 0 25px var(--danger-glow); }
+        .row-purple .marker { border-color: var(--purple); background: var(--bg-void); box-shadow: 0 0 25px var(--purple-glow); }
+
+        @keyframes pulse { 0% { box-shadow: 0 0 0 0 var(--danger-glow); } 70% { box-shadow: 0 0 0 15px transparent; } 100% { box-shadow: 0 0 0 0 transparent; } }
+
+    </style>
+</head>
+<body>
+
+<div class="scroll-progress" id="progressBar"></div>
+
+<nav class="nav-bar">
+    <a class="nav-btn" href="index.html">Project Home</a>
+    <a class="nav-btn" href="map/">Family Map</a>
+</nav>
+
+<header>
+    <h1>The Glasgow Lineage</h1>
+    <span class="subtitle">Monumental Phylogeny and Historical Narrative</span>
+    
+    <div class="intro-container">
+        <p class="intro-bio">
+            Tracing the Y-Chromosome path from the Bronze Age Baltic to the Scottish Borders. This timeline reconstructs the unwritten history of the <strong>Glasgow surname</strong> using advanced DNA testing - revealing a story of survival, migration, and adaptation spanning 4,000 years.
+        </p>
+        <p class="evidence-note">
+            <strong>How to read this timeline:</strong> haplogroup branching and date estimates come from modern Y-DNA results. Linked WikiTree profiles identify documentary research targets; they do not, by themselves, prove that a historical person carried a particular SNP. Medieval migration routes and named progenitors remain hypotheses unless explicitly described as documented.
+            Explore the <a class="profile-link" href="https://www.wikitree.com/wiki/Space:Glasgow_Name_Study" target="_blank" rel="noopener">Glasgow Name Study</a>,
+            <a class="profile-link" href="https://www.familytreedna.com/groups/glasgow/about" target="_blank" rel="noopener">FamilyTreeDNA project</a>, or
+            <a class="profile-link" href="https://groups.io/g/glasgowdnaproject/" target="_blank" rel="noopener">project discussion group</a>.
+        </p>
+        
+        <div class="legend-bar">
+            <div class="legend-item"><span class="dot purple"></span> Deep Ancestry</div>
+            <div class="legend-item"><span class="dot blue"></span> Migration Era</div>
+            <div class="legend-item"><span class="dot red"></span> Survival Bottleneck</div>
+            <div class="legend-item"><span class="dot gold"></span> Recorded History</div>
+        </div>
+        <div class="deep-controls">
+            <button id="deepToggle" class="nav-btn deep-toggle-btn" aria-controls="deepSection" aria-expanded="false">Show Deep Ancestry</button>
+        </div>
+    </div>
+</header>
+
+<main class="timeline-container">
+    <div class="spine"></div>
+
+    <div id="deepSection">
+        <div class="timeline-row row-purple" data-year="232,000 BCE" data-title="The First Father">
+            <div class="year-label"><span class="year-pill">232,000 BCE</span></div>
+            <div class="col-left">
+                <div class="card card-dna">
+                    <div class="card-header-inner">
+                        <span class="context-label">Genetic Evidence</span>
+                        <div class="text-box"><span class="snp-id">A-PR2921</span><span class="snp-name">Y-Chromosomal Adam</span></div>
+                    </div>
+                    <div class="stats-grid">
+                        <div class="stat-item"><span class="stat-lbl">Modern Reach</span><span class="stat-val">All Living Men</span></div>
+                        <div class="stat-item"><span class="stat-lbl">Best geographic anchor</span><span class="stat-val">Northwest Cameroon</span></div>
+                    </div>
+                    <div class="card-body">
+                        <p><strong>Single surviving trunk of the male tree.</strong> Geneticists use the label Y-Chromosomal Adam for the man whose Y chromosome sits at the root of every living male line. He did not live alone or stand as the first human male. He lived in a population with many other men, but only his direct male line survived into the present.</p>
+                        <p>Every later haplogroup on this timeline passes through a continuous chain of fathers and sons that links back to A-PR2921. The Viking era smiths, Norman retainers in Derbyshire, Burgesses in Stirling and tenant farmers in Ulster can all be traced back through this ancient African ancestor.</p>
+                        <div class="sci-data">
+                            <div class="sci-row"><span class="sci-label">Date Estimate</span><span class="sci-val">~232,000 BCE</span></div>
+                            <div class="sci-row"><span class="sci-label">Mapped Anchor</span><span class="sci-val">Shum Laka, Cameroon</span></div>
+                            <div class="sci-row"><span class="sci-label">Location Confidence</span><span class="sci-val">Possible region; exact birthplace unknown</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-right">
+                <div class="card card-hist">
+                    <div class="card-header-inner">
+                        <span class="context-label">Historical Narrative</span>
+                        <span class="hist-title">Palaeolithic Africa</span>
+                    </div>
+                    <div class="card-body">
+                        <p>FamilyTreeDNA places this common ancestor somewhere in Africa, possibly near present-day Cameroon. The map uses Shum Laka because a roughly 3,000-year-old male buried there carried A00, the deepest surviving branch below A-PR2921. That makes Shum Laka a rare physical anchor for the lineage, not the proved birthplace of Y-Chromosomal Adam.</p>
+                        <p>Over many generations one branch of this African population moved toward the northeast and formed the base of the out of Africa expansion. The Glasgow line sits down one twig of that branch and still depends on this first successful trunk of the male tree.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="action-bar">
+                <a class="action-btn" href="https://discover.familytreedna.com/y-dna/A-PR2921/story" target="_blank">FTDNA Story</a>
+            </div>
+            <div class="marker"></div>
+        </div>
+
+        <div class="timeline-row row-purple" data-year="68,000 BCE" data-title="Eurasian Founder">
+            <div class="year-label"><span class="year-pill">68,000 BCE</span></div>
+            <div class="col-left">
+                <div class="card card-dna">
+                    <div class="card-header-inner">
+                        <span class="context-label">Genetic Evidence</span>
+                        <div class="text-box"><span class="snp-id">CT-M168</span><span class="snp-name">Eurasian Founder</span></div>
+                    </div>
+                    <div class="card-body">
+                        <p><strong>Common ancestor of all non African Y lines.</strong> CT-M168 represents a branch that appears to have left Africa through the Horn or Sinai region and then expanded along the coasts of the Arabian Peninsula and the eastern Mediterranean.</p>
+                        <p>Later haplogroups on this page from F through K, P and R descend from this ancestor. Men who carried his Y chromosome hunted, gathered and fished across semi arid landscapes that bordered the Red Sea and the Persian Gulf. Archaeology in Arabia and the Levant shows early modern human remains and tool traditions that match this expansion.</p>
+                        <p>The branch that leads to the Glasgow line moved north into the Levant and then into western Asia rather than into South or Southeast Asia. That choice set up later movements into the Eurasian steppe and the eventual arrival of the line in Scandinavia and the North Sea world.</p>
+                        <div class="sci-data">
+                            <div class="sci-row"><span class="sci-label">Date Estimate</span><span class="sci-val">~68,000 BCE</span></div>
+                            <div class="sci-row"><span class="sci-label">Significance</span><span class="sci-val">Out of Africa Event</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-right">
+                <div class="card card-hist">
+                    <div class="card-header-inner">
+                        <span class="context-label">Historical Narrative</span>
+                        <span class="hist-title">Out Of Africa</span>
+                    </div>
+                    <div class="card-body">
+                        <p>Environmental windows in northeast Africa and Arabia allowed small coastal groups to leave the African continent. Sea levels were lower, and a chain of lagoons and inlets gave access to food rich shorelines. These groups used simple boats or rafts and coastal foraging strategies.</p>
+                        <p>As the population grew it spread inland and along the coasts. Later expansions into Europe, India, Southeast Asia and Australia all draw on this original Eurasian founder group represented by CT-M168.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="action-bar">
+                <a class="action-btn" href="https://discover.familytreedna.com/y-dna/CT-M168/story" target="_blank">FTDNA Story</a>
+            </div>
+            <div class="marker"></div>
+        </div>
+
+        <div class="timeline-row row-purple" data-year="45,000 BCE" data-title="Eurasian Hub">
+            <div class="year-label"><span class="year-pill">45,000 BCE</span></div>
+            <div class="col-left">
+                <div class="card card-dna">
+                    <div class="card-header-inner">
+                        <span class="context-label">Genetic Evidence</span>
+                        <div class="text-box"><span class="snp-id">F-M89</span><span class="snp-name">Eurasian Hub</span></div>
+                    </div>
+                    <div class="card-body">
+                        <p><strong>Origin of most Eurasian male lines.</strong> F-M89 gave rise to a set of branches that dominate much of the modern world. Haplogroups G, H, I, J, K and R all descend from this node, so this ancestor sits close to the point where human populations occupied most regions of the Old World.</p>
+                        <p>Groups that carried F-M89 lived in the Near East and adjacent parts of western or central Asia. They adapted to colder winters and a wider range of habitats than earlier tropical ancestors. The archaeological record shows new stone toolkits and symbolic behavior that match the Upper Palaeolithic period.</p>
+                        <p>The line that became the Glasgow cluster followed the K and P branches that moved toward the Eurasian steppe and Siberia. Other F lines remained in Europe and the Near East or moved into southern Asia. Genetic comparisons with ancient samples continue to refine the exact geography and still support this broad picture.</p>
+                        <div class="sci-data">
+                            <div class="sci-row"><span class="sci-label">Date Estimate</span><span class="sci-val">~45,000 BCE</span></div>
+                            <div class="sci-row"><span class="sci-label">Distribution</span><span class="sci-val">Global</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-right">
+                <div class="card card-hist">
+                    <div class="card-header-inner">
+                        <span class="context-label">Historical Narrative</span>
+                        <span class="hist-title">Upper Palaeolithic Eurasia</span>
+                    </div>
+                    <div class="card-body">
+                        <p>Cave art, personal ornaments, carved figurines and long distance trade in exotic materials all appear during this phase. Bands moved across large territories, used seasonal camps and developed richer social networks.</p>
+                        <p>These patterns set the stage for later steppe cultures and for the high mobility that defines the Yamnaya and related groups that sit above R-M269. The spread of F-M89 into many regions created the genetic and cultural diversity that later branches inherit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="action-bar">
+                <a class="action-btn" href="https://discover.familytreedna.com/y-dna/F-M89/story" target="_blank">FTDNA Story</a>
+            </div>
+            <div class="marker"></div>
+        </div>
+
+        <div class="timeline-row row-purple" data-year="40,000 BCE" data-title="Pan-Eurasian Clan">
+            <div class="year-label"><span class="year-pill">40,000 BCE</span></div>
+            <div class="col-left">
+                <div class="card card-dna">
+                    <div class="card-header-inner">
+                        <span class="context-label">Genetic Evidence</span>
+                        <div class="text-box"><span class="snp-id">K-M9</span><span class="snp-name">Pan-Eurasian Clan</span></div>
+                    </div>
+                    <div class="card-body">
+                        <p><strong>Key branching point for worldwide dispersals.</strong> K-M9 produced sons who carried Y chromosomes into Europe, Siberia, Oceania and the Americas. Haplogroups Q and R descend from K, so Native American and many European male lines share this ancestor.</p>
+                        <p>Evidence points to a homeland in central or south Asia. Climate and resource patterns in that zone supported hunter bands that could move both north and south along river valleys and steppe corridors.</p>
+                        <p>The line that leads to Glasgow moved into the colder north and became part of the population that produced P-M45. This choice pulled the ancestors toward the mammoth steppe and the later culture area that produced the Yamnaya horizon.</p>
+                        <div class="sci-data">
+                            <div class="sci-row"><span class="sci-label">Date Estimate</span><span class="sci-val">~40,000 BCE</span></div>
+                            <div class="sci-row"><span class="sci-label">Descendants</span><span class="sci-val">Major Eurasian Branches</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-right">
+                <div class="card card-hist">
+                    <div class="card-header-inner">
+                        <span class="context-label">Historical Narrative</span>
+                        <span class="hist-title">Toward The Mammoth Steppe</span>
+                    </div>
+                    <div class="card-body">
+                        <p>As groups with K-M9 pushed north they entered a zone of open grassland and scattered woodland that stretched from eastern Europe to Siberia. Herds of mammoth, bison and reindeer moved across this landscape. Human groups followed and built detailed ecological knowledge.</p>
+                        <p>Later cultures in Siberia and the first north Eurasian groups that contributed ancestry to both Europeans and Native Americans trace back to this broad movement. The Glasgow line carries a trace of that story in its connection to P and R.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="action-bar">
+                <a class="action-btn" href="https://discover.familytreedna.com/y-dna/K-M9/story" target="_blank">FTDNA Story</a>
+            </div>
+            <div class="marker"></div>
+        </div>
+
+        <div class="timeline-row row-purple" data-year="30,000 BCE" data-title="Steppe And Siberia">
+            <div class="year-label"><span class="year-pill">30,000 BCE</span></div>
+            <div class="col-left">
+                <div class="card card-dna">
+                    <div class="card-header-inner">
+                        <span class="context-label">Genetic Evidence</span>
+                        <div class="text-box"><span class="snp-id">P-M45</span><span class="snp-name">Steppe And Siberia</span></div>
+                    </div>
+                    <div class="card-body">
+                        <p><strong>Ancestor of Q and R.</strong> P-M45 formed in the far north of Eurasia. Its descendants split into Q and R. Q became dominant in Native American populations and some Siberian groups. R later became dominant across much of Europe and parts of central and south Asia.</p>
+                        <p>The ancestor who carried P-M45 probably lived in a group that used seasonal migrations of game. Successful adaptation to severe winters, limited daylight and long travel distances allowed this lineage to persist and then expand when climates became slightly milder.</p>
+                        <p>Ancient DNA finds with early R and Q samples in the Baikal and Altai regions support a northern homeland for P. The Glasgow line descends on the R side and does not carry the Q mutations that define most Native American male lines.</p>
+                        <div class="sci-data">
+                            <div class="sci-row"><span class="sci-label">Date Estimate</span><span class="sci-val">~30,000 BCE</span></div>
+                            <div class="sci-row"><span class="sci-label">Descendants</span><span class="sci-val">Native American (Q) & European (R)</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-right">
+                <div class="card card-hist">
+                    <div class="card-header-inner">
+                        <span class="context-label">Historical Narrative</span>
+                        <span class="hist-title">Last Glacial Cycle</span>
+                    </div>
+                    <div class="card-body">
+                        <p>Glacial ice sheets pushed south, and habitable corridors narrowed. Human groups in Siberia survived in refuges with access to fresh water, wood and game. Repeated local extinctions and recolonisations created sharp bottlenecks in some lineages and rapid expansions in others.</p>
+                        <p>Many older Eurasian lines disappear from the record. P-M45 represents one that persisted through this unstable phase and later supplied key branches that define much of the male variation in Europe and the Americas.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="action-bar">
+                <a class="action-btn" href="https://discover.familytreedna.com/y-dna/P-M45/story" target="_blank">FTDNA Story</a>
+            </div>
+            <div class="marker"></div>
+        </div>
+
+        <div class="timeline-row row-purple" data-year="27,000 BCE" data-title="Root Of R1 And R2">
+            <div class="year-label"><span class="year-pill">27,000 BCE</span></div>
+            <div class="col-left">
+                <div class="card card-dna">
+                    <div class="card-header-inner">
+                        <span class="context-label">Genetic Evidence</span>
+                        <div class="text-box"><span class="snp-id">R-M207</span><span class="snp-name">Root Of R1 And R2</span></div>
+                    </div>
+                    <div class="card-body">
+                        <p><strong>Source of later European and south Asian branches.</strong> R-M207 sits above both R1 and R2. Ancient samples link it to regions around the Altai and western Siberia. Over time its descendants moved both west into Europe and south into the Iranian plateau and south Asia.</p>
+                        <p>R1 produced the R1a and R1b lines. They now dominate in eastern and western Europe respectively. The Glasgow line falls in R1b and then in the U106 sub branch that is most common along the North Sea.</p>
+                        <p>R2, a different descendant of R-M207, became more common in south Asia. That branch does not concern this project directly and still shows how one Ice Age ancestor contributed to very different later cultural zones.</p>
+                        <div class="sci-data">
+                            <div class="sci-row"><span class="sci-label">Date Estimate</span><span class="sci-val">~27,000 BCE</span></div>
+                            <div class="sci-row"><span class="sci-label">Location</span><span class="sci-val">Altai / Western Siberia</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-right">
+                <div class="card card-hist">
+                    <div class="card-header-inner">
+                        <span class="context-label">Historical Narrative</span>
+                        <span class="hist-title">Toward The Indo European World</span>
+                    </div>
+                    <div class="card-body">
+                        <p>The genetic ancestors who carried R-M207 lived long before recognisable Indo European cultures. Later expansions of steppe pastoralists with R1a and R1b lineages built on the geographic position and mobility created during this phase.</p>
+                        <p>When linguistic and archaeological evidence for Proto Indo European speakers appears, R1b already appears in the population. The Glasgow line links into that story through the later M269 and U106 nodes that sit between Palaeolithic Siberia and the medieval North Sea world.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="action-bar">
+                <a class="action-btn" href="https://discover.familytreedna.com/y-dna/R-M207/story" target="_blank">FTDNA Story</a>
+            </div>
+            <div class="marker"></div>
+        </div>
+
+        <div class="timeline-row row-gold" id="R-M269" data-year="4450 BCE" data-title="Yamnaya Era Ancestor">
+            <div class="year-label"><span class="year-pill">4450 BCE</span></div>
+            <div class="col-left">
+                <div class="card card-dna">
+                    <div class="card-header-inner">
+                        <span class="context-label">Genetic Evidence</span>
+                        <div class="text-box"><span class="snp-id">R-M269</span><span class="snp-name">Yamnaya Era Ancestor</span></div>
+                    </div>
+                    <div class="stats-grid">
+                        <div class="stat-item"><span class="stat-lbl">Modern Samples</span><span class="stat-val">288,504</span></div>
+                        <div class="stat-item"><span class="stat-lbl">Ancient Samples</span><span class="stat-val">1,938</span></div>
+                    </div>
+                    <div class="card-body">
+                        <p><strong>Dominant western European Y lineage.</strong> R-M269 reaches its highest frequencies in western Europe and especially in regions influenced by steppe migrations and later Celtic and Germanic cultures.</p>
+                        <p>Ancient DNA links early R-M269 carriers to groups on the Pontic Caspian steppe such as Yamnaya and closely related cultures. These groups used wagons, herded large cattle and sheep flocks and made early use of horseback riding. Their mobility and social organisation allowed rapid expansion into the Danube basin and western Europe.</p>
+                        <p>The Glasgow line follows the branch that runs through R-U106 rather than the P312 branch that dominates in much of Iberia and parts of France. That position ties it more closely to the Rhine and North Sea corridor and to the origins of Germanic speaking communities.</p>
+                        <div class="sci-data">
+                            <div class="sci-row"><span class="sci-label">Date Estimate</span><span class="sci-val">4450 BCE</span></div>
+                            <div class="sci-row"><span class="sci-label">Origin</span><span class="sci-val">Pontic-Caspian Steppe</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-right">
+                <div class="card card-hist">
+                    <div class="card-header-inner">
+                        <span class="context-label">Historical Narrative</span>
+                        <span class="hist-title">Yamnaya And The Steppe Horizon</span>
+                    </div>
+                    <div class="card-body">
+                        <p>Burials in kurgan mounds, sacrificed animals, copper and early bronze items and four wheeled wagons define this cultural horizon. Genetic evidence shows large contributions from these groups into later European populations, particularly in central and northern regions.</p>
+                        <p>The branch that became R-U106 reached areas along the upper Rhine and north German plain. That zone later became a cradle for early Germanic tribes, and the Y line that would eventually create the Glasgow surname project was present within that mix.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="action-bar">
+                <a class="action-btn" href="https://discover.familytreedna.com/y-dna/R-M269/story" target="_blank">FTDNA Story</a>
+                <a class="action-btn" href="https://www.wikitree.com/wiki/Space:R-M269" target="_blank">WikiTree</a>
+            </div>
+            <div class="marker"></div>
+        </div>
+
+        <div class="timeline-row row-blue" id="R-L23" data-year="4350 BCE" data-title="Stone Age Transition Network">
+            <div class="year-label"><span class="year-pill">4350 BCE</span></div>
+            <div class="col-left">
+                <div class="card card-dna">
+                    <div class="card-header-inner">
+                        <span class="context-label">Genetic Evidence</span>
+                        <div class="text-box"><span class="snp-id">R-L23</span><span class="snp-name">Northwest R-M269 Stem</span></div>
+                    </div>
+                    <div class="stats-grid">
+                        <div class="stat-item"><span class="stat-lbl">Immediate Descendants</span><span class="stat-val">2</span></div>
+                        <div class="stat-item"><span class="stat-lbl">Tested Modern Descendants</span><span class="stat-val">287,209</span></div>
+                        <div class="stat-item"><span class="stat-lbl">Time Passed</span><span class="stat-val">100 Years</span></div>
+                        <div class="stat-item"><span class="stat-lbl">Ancient Connections</span><span class="stat-val">4,078</span></div>
+                    </div>
+                    <div class="card-body">
+                        <p><strong>Early diversification in the steppe-descended R-M269 line.</strong> R-L23 sits in the long prehistory before the classical Bronze transition. Its descendants remain influential in western Eurasia and set up many of the later western branch structures still traced in modern surname projects.</p>
+                        <p>The node is useful as a structural bridge: it helps explain why later U106 and S20045 variants remain concentrated in western Eurasian populations rather than dispersing as widely as sibling branches.</p>
+                        <div class="sci-data">
+                            <div class="sci-row"><span class="sci-label">Date Estimate</span><span class="sci-val">~4350 BCE</span></div>
+                            <div class="sci-row"><span class="sci-label">Geographic Model</span><span class="sci-val">Northwest Eurasian west-flow corridor</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-right">
+                <div class="card card-hist">
+                    <div class="card-header-inner">
+                        <span class="context-label">Historical Narrative</span>
+                        <span class="hist-title">Post-Yamnaya Continental Mixing</span>
+                    </div>
+                    <div class="card-body">
+                        <p>This phase captures the period when steppe-derived western European groups moved into wider interaction zones with local forager and early farming communities across central and northern Europe. The resulting mixtures fed the long lineage from which later U106 and Z17 variants emerge.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="action-bar">
+                <a class="action-btn" href="https://discover.familytreedna.com/y-dna/R-L23/story" target="_blank">FTDNA Story</a>
+                <a class="action-btn" href="https://www.wikitree.com/wiki/Space:R-L23" target="_blank">WikiTree</a>
+            </div>
+            <div class="marker"></div>
+        </div>
+
+        <div class="timeline-row row-blue" id="R-L51" data-year="4100 BCE" data-title="Bronze Age Baseline">
+            <div class="year-label"><span class="year-pill">4100 BCE</span></div>
+            <div class="col-left">
+                <div class="card card-dna">
+                    <div class="card-header-inner">
+                        <span class="context-label">Genetic Evidence</span>
+                        <div class="text-box"><span class="snp-id">R-L51</span><span class="snp-name">L51 Branch Consolidation</span></div>
+                    </div>
+                    <div class="stats-grid">
+                        <div class="stat-item"><span class="stat-lbl">Immediate Descendants</span><span class="stat-val">2</span></div>
+                        <div class="stat-item"><span class="stat-lbl">Tested Modern Descendants</span><span class="stat-val">278,143</span></div>
+                        <div class="stat-item"><span class="stat-lbl">Time Passed</span><span class="stat-val">250 Years</span></div>
+                        <div class="stat-item"><span class="stat-lbl">Ancient Connections</span><span class="stat-val">3,472</span></div>
+                    </div>
+                    <div class="card-body">
+                        <p><strong>A major branch in the late Neolithic-to-Bronze Age.</strong> R-L51 is part of the late demographic realignment where lineages were sorting into regionally differentiated male lines in Europe.</p>
+                        <p>It is one of the deeper nodes that helps explain why specific North Sea branches remain genetically linked while appearing in distinct cultural zones in later periods.</p>
+                        <div class="sci-data">
+                            <div class="sci-row"><span class="sci-label">Date Estimate</span><span class="sci-val">~4100 BCE</span></div>
+                            <div class="sci-row"><span class="sci-label">Narrative Role</span><span class="sci-val">Precursor branch before major U106-family growth</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-right">
+                <div class="card card-hist">
+                    <div class="card-header-inner">
+                        <span class="context-label">Historical Narrative</span>
+                        <span class="hist-title">Late Stone Age Structuring</span>
+                    </div>
+                    <div class="card-body">
+                        <p>In the late fourth millennium BCE, these branches appear in an increasingly stable network across western Eurasia. The archaeological record shows stronger seasonal aggregation, metallurgy experiments, and social differentiation that tracks with this genetic expansion.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="marker"></div>
+        </div>
+
+        <div class="timeline-row row-blue" id="R-P310" data-year="3400 BCE" data-title="Early Bronze Reorientation">
+            <div class="year-label"><span class="year-pill">3400 BCE</span></div>
+            <div class="col-left">
+                <div class="card card-dna">
+                    <div class="card-header-inner">
+                        <span class="context-label">Genetic Evidence</span>
+                        <div class="text-box"><span class="snp-id">R-P310</span><span class="snp-name">R-M269 Internal Structuring</span></div>
+                    </div>
+                    <div class="stats-grid">
+                        <div class="stat-item"><span class="stat-lbl">Immediate Descendants</span><span class="stat-val">2</span></div>
+                        <div class="stat-item"><span class="stat-lbl">Tested Modern Descendants</span><span class="stat-val">275,672</span></div>
+                        <div class="stat-item"><span class="stat-lbl">Time Passed</span><span class="stat-val">700 Years</span></div>
+                        <div class="stat-item"><span class="stat-lbl">Ancient Connections</span><span class="stat-val">3,379</span></div>
+                    </div>
+                    <div class="card-body">
+                        <p><strong>Foundational branching of western R-M269 lineages.</strong> R-P310 supports the later U106-family emergence and gives structure to later North Sea-dominant lines.</p>
+                        <div class="sci-data">
+                            <div class="sci-row"><span class="sci-label">Date Estimate</span><span class="sci-val">~3400 BCE</span></div>
+                            <div class="sci-row"><span class="sci-label">Role</span><span class="sci-val">Foundational node toward U106</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-right">
+                <div class="card card-hist">
+                    <div class="card-header-inner">
+                        <span class="context-label">Historical Narrative</span>
+                        <span class="hist-title">Early Bronze Age Restructuring</span>
+                    </div>
+                    <div class="card-body">
+                        <p>Exchange systems and early metallurgical networks intensified around this period. This set up the preconditions for later dense U106-related concentrations and coastal exchange patterns.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="marker"></div>
+        </div>
+
+        <div class="timeline-row row-blue" id="R-L151" data-year="3050 BCE" data-title="North Sea Proto-Anchoring">
+            <div class="year-label"><span class="year-pill">3050 BCE</span></div>
+            <div class="col-left">
+                <div class="card card-dna">
+                    <div class="card-header-inner">
+                        <span class="context-label">Genetic Evidence</span>
+                        <div class="text-box"><span class="snp-id">R-L151</span><span class="snp-name">L151 Deep Branch</span></div>
+                    </div>
+                    <div class="stats-grid">
+                        <div class="stat-item"><span class="stat-lbl">Immediate Descendants</span><span class="stat-val">5</span></div>
+                        <div class="stat-item"><span class="stat-lbl">Tested Modern Descendants</span><span class="stat-val">275,316</span></div>
+                        <div class="stat-item"><span class="stat-lbl">Time Passed</span><span class="stat-val">350 Years</span></div>
+                        <div class="stat-item"><span class="stat-lbl">Ancient Connections</span><span class="stat-val">3,288</span></div>
+                    </div>
+                    <div class="card-body">
+                        <p><strong>Immediate precursor to the later U106 branch family.</strong> R-L151 is a principal older branch feeding later Atlantic and North Sea concentrations.</p>
+                        <div class="sci-data">
+                            <div class="sci-row"><span class="sci-label">Date Estimate</span><span class="sci-val">~3050 BCE</span></div>
+                            <div class="sci-row"><span class="sci-label">Confidence Context</span><span class="sci-val">Strong overall support with local order uncertainty</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-right">
+                <div class="card card-hist">
+                    <div class="card-header-inner">
+                        <span class="context-label">Historical Narrative</span>
+                        <span class="hist-title">Late Neolithic-to-Bronze Transition</span>
+                    </div>
+                    <div class="card-body">
+                        <p>As metallurgy spreads, settlements and exchange systems become more durable. The branch lineage framework broadens, preparing the regional patterns that later became visible in U106-associated clusters.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="marker"></div>
+        </div>
+
+        <div class="timeline-row row-blue" id="R-U106" data-year="3000 BCE" data-title="North Sea Founder Expansion">
+            <div class="year-label"><span class="year-pill">3000 BCE</span></div>
+            <div class="col-left">
+                <div class="card card-dna">
+                    <div class="card-header-inner">
+                        <span class="context-label">Genetic Evidence</span>
+                        <div class="text-box"><span class="snp-id">R-U106</span><span class="snp-name">Northwest Atlantic Expansion Core</span></div>
+                    </div>
+                <div class="stats-grid">
+                        <div class="stat-item"><span class="stat-lbl">Immediate Descendants</span><span class="stat-val">2</span></div>
+                        <div class="stat-item"><span class="stat-lbl">Tested Modern Descendants</span><span class="stat-val">73,287</span></div>
+                        <div class="stat-item"><span class="stat-lbl">Time Passed</span><span class="stat-val">&lt; 100 Years</span></div>
+                        <div class="stat-item"><span class="stat-lbl">Ancient Connections</span><span class="stat-val">608</span></div>
+                    </div>
+                    <div class="card-body">
+                    <p><strong>High-impact R-M269 branch.</strong> The Glasgow line resolves through R-U106, a major downstream branch of R1b-L11. Most phylogenies place its rise in the late Neolithic to early Bronze Age as steppe-derived western Europeans were consolidating in western Europe.</p>
+                    <p>R-U106 is repeatedly associated with the Atlantic/North Sea corridor through both contemporary frequency patterns and historical migration models in early Germanic zones. In practical terms, this is the branch where the broad R-M269 signal narrows into a lineage that later became common along the Rhine lowlands and North Sea fringe.</p>
+                    <div class="sci-data">
+                            <div class="sci-row"><span class="sci-label">Date Estimate</span><span class="sci-val">~3000 BCE</span></div>
+                            <div class="sci-row"><span class="sci-label">Core Geography</span><span class="sci-val">Northwest Europe</span></div>
+                            <div class="sci-row"><span class="sci-label">Phylogenetic Role</span><span class="sci-val">Major downstream branch on which Glasgow resolves</span></div>
+                        </div>
+                        <p><strong>Research sources:</strong> <a href="https://www.familytreedna.com/groups/u106/about" target="_blank">FTDNA Project</a> · <a href="https://www.jb.man.ac.uk/~mcdonald/genetics/phylogeography.pdf" target="_blank">phylogeography paper</a> · <a href="https://www.wikitree.com/wiki/Space:R-U106" target="_blank">WikiTree</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-right">
+                <div class="card card-hist">
+                    <div class="card-header-inner">
+                        <span class="context-label">Historical Narrative</span>
+                        <span class="hist-title">Proto-Atlantic Convergence</span>
+                    </div>
+                    <div class="card-body">
+                        <p>Archaeogenetic reconstructions place this stage as the moment when U106 descendants were becoming concentrated in early societies along the upper Rhine, north German plain, and adjacent Atlantic coastal zones. That demographic shift sets up later North Sea social formations, even though this node predates written cultures.</p>
+                        <p>For the Glasgow lineage this is an important bridge node: it anchors a broad U106 population layer that is historically older than the later Nordic Bronze Age refinements but older still than surnames and clan-level identities.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="marker"></div>
+        </div>
+
+        <div class="timeline-row row-blue" id="R-Z2265" data-year="2950 BCE" data-title="Stone-Metal Continuity">
+            <div class="year-label"><span class="year-pill">2950 BCE</span></div>
+            <div class="col-left">
+                <div class="card card-dna">
+                    <div class="card-header-inner">
+                        <span class="context-label">Genetic Evidence</span>
+                        <div class="text-box"><span class="snp-id">R-Z2265</span><span class="snp-name">R-Z2265 Cluster Seed</span></div>
+                    </div>
+                    <div class="stats-grid">
+                        <div class="stat-item"><span class="stat-lbl">Immediate Descendants</span><span class="stat-val">4</span></div>
+                        <div class="stat-item"><span class="stat-lbl">Tested Modern Descendants</span><span class="stat-val">64,546</span></div>
+                        <div class="stat-item"><span class="stat-lbl">Time Passed</span><span class="stat-val">&lt; 100 Years</span></div>
+                        <div class="stat-item"><span class="stat-lbl">Ancient Connections</span><span class="stat-val">582</span></div>
+                    </div>
+                    <div class="card-body">
+                        <p><strong>Deep branch diversification before stronger late-bronze concentration.</strong> R-Z2265 sits near the point where stone-metal transitions become increasingly evident in the wider U106-associated tree.</p>
+                        <div class="sci-data">
+                            <div class="sci-row"><span class="sci-label">Date Estimate</span><span class="sci-val">~2950 BCE</span></div>
+                            <div class="sci-row"><span class="sci-label">Narrative Role</span><span class="sci-val">Refinement of the broader North Sea branch framework</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-right">
+                <div class="card card-hist">
+                    <div class="card-header-inner">
+                        <span class="context-label">Historical Narrative</span>
+                        <span class="hist-title">Stone-Metal Interface</span>
+                    </div>
+                    <div class="card-body">
+                        <p>Before fully developed regional Bronze Age polities, lineages like Z2265 occupy a transitional zone where settlement, metallurgy and exchange are increasing but still uneven across western Eurasia.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="action-bar">
+                <a class="action-btn" href="https://www.wikitree.com/wiki/Space:R-Z2265" target="_blank">WikiTree</a>
+            </div>
+            <div class="marker"></div>
+        </div>
+
+        <div class="timeline-row row-blue" id="R-BY30097" data-year="2900 BCE" data-title="Late Stone to Metal Continuum">
+            <div class="year-label"><span class="year-pill">2900 BCE</span></div>
+            <div class="col-left">
+                <div class="card card-dna">
+                    <div class="card-header-inner">
+                        <span class="context-label">Genetic Evidence</span>
+                        <div class="text-box"><span class="snp-id">R-BY30097</span><span class="snp-name">BY30097 Branch Seed</span></div>
+                    </div>
+                    <div class="stats-grid">
+                        <div class="stat-item"><span class="stat-lbl">Immediate Descendants</span><span class="stat-val">6</span></div>
+                        <div class="stat-item"><span class="stat-lbl">Tested Modern Descendants</span><span class="stat-val">64,383</span></div>
+                        <div class="stat-item"><span class="stat-lbl">Time Passed</span><span class="stat-val">&lt; 100 Years</span></div>
+                        <div class="stat-item"><span class="stat-lbl">Ancient Connections</span><span class="stat-val">579</span></div>
+                    </div>
+                    <div class="card-body">
+                        <p><strong>Adjacent branch in the deep U106 landscape.</strong> R-BY30097 shows a strong modern footprint and contributes to the broad stone-metal age spread before the mature Nordic Bronze Age branches emerge.</p>
+                        <div class="sci-data">
+                            <div class="sci-row"><span class="sci-label">Date Estimate</span><span class="sci-val">~2900 BCE</span></div>
+                            <div class="sci-row"><span class="sci-label">Position</span><span class="sci-val">Precursor to later deep refinements</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-right">
+                <div class="card card-hist">
+                    <div class="card-header-inner">
+                        <span class="context-label">Historical Narrative</span>
+                        <span class="hist-title">Metal Age Emergence</span>
+                    </div>
+                    <div class="card-body">
+                        <p>This period marks the increasing spread of early metal influence, when coastal and inland communities were more closely connected through exchange networks that later supported concentrated U106 sub-branches.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="action-bar">
+                <a class="action-btn" href="https://www.wikitree.com/wiki/Space:R-BY30097" target="_blank">WikiTree</a>
+            </div>
+            <div class="marker"></div>
+        </div>
+
+        <div class="timeline-row row-blue" id="R-Z18" data-year="2250 BCE" data-title="Pre-Bronze Transition">
+            <div class="year-label"><span class="year-pill">2250 BCE</span></div>
+            <div class="col-left">
+                <div class="card card-dna">
+                    <div class="card-header-inner">
+                        <span class="context-label">Genetic Evidence</span>
+                        <div class="text-box"><span class="snp-id">R-Z18</span><span class="snp-name">Intermediate U106 Refinement</span></div>
+                    </div>
+                <div class="stats-grid">
+                        <div class="stat-item"><span class="stat-lbl">Immediate Descendants</span><span class="stat-val">13</span></div>
+                        <div class="stat-item"><span class="stat-lbl">Time Passed</span><span class="stat-val">650 Years</span></div>
+                        <div class="stat-item"><span class="stat-lbl">Tested Modern Descendants</span><span class="stat-val">8,413</span></div>
+                    </div>
+                    <div class="card-body">
+                        <p><strong>Branch bridge before Z17.</strong> R-Z18 is a downstream U106 refinement linking the earlier Rhine/North Sea phase to the later Nordic Bronze Age cluster. In many phylogenies it is a minority but important sub-branch that appears between U106 and Z17-level expansions.</p>
+                        <p>Published date ranges for Z18 commonly sit in the 3200–2850 BCE interval, with many reconstructions showing early spread through western and central Europe before stronger southern Scandinavian concentration in later bronze-age contexts.</p>
+                        <p><strong>Research sources:</strong> <a href="https://en.wikipedia.org/wiki/Haplogroup_R-Z18" target="_blank">Wikipedia summary</a> · <a href="https://www.jb.man.ac.uk/~mcdonald/genetics/phylogeography.pdf" target="_blank">phylogeography paper</a> · <a href="https://www.wikitree.com/wiki/Space:R-Z18" target="_blank">WikiTree</a></p>
+                        <div class="sci-data">
+                            <div class="sci-row"><span class="sci-label">Date Estimate</span><span class="sci-val">~2250 BCE</span></div>
+                            <div class="sci-row"><span class="sci-label">Ancient Connections</span><span class="sci-val">121</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-right">
+                <div class="card card-hist">
+                    <div class="card-header-inner">
+                        <span class="context-label">Historical Narrative</span>
+                        <span class="hist-title">Transition to Nordic Expansion</span>
+                    </div>
+                    <div class="card-body">
+                        <p>Z18 is best read as a transition-stage lineage: late Neolithic populations were still regionally mixed, but exchange between Atlantic, Baltic, and continental routes was becoming denser. That network intensity is what later supports the Nordic Bronze Age horizon seen directly under R-Z17.</p>
+                        <p>For a family-history narrative, this node represents refinement before the historical North Sea “maritime world” fully appears; it preserves older diversity while still pointing toward the Scandinavian-Baltic branch that your documented surname group follows.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="marker"></div>
+        </div>
+
+        <div class="timeline-row row-blue" id="R-FGC79182" data-year="2200 BCE" data-title="Bronze Horizon Refinement">
+            <div class="year-label"><span class="year-pill">2200 BCE</span></div>
+            <div class="col-left">
+                <div class="card card-dna">
+                    <div class="card-header-inner">
+                        <span class="context-label">Genetic Evidence</span>
+                        <div class="text-box"><span class="snp-id">R-FGC79182</span><span class="snp-name">FGC79182 Transition Branch</span></div>
+                    </div>
+                    <div class="stats-grid">
+                        <div class="stat-item"><span class="stat-lbl">Immediate Descendants</span><span class="stat-val">4</span></div>
+                        <div class="stat-item"><span class="stat-lbl">Tested Modern Descendants</span><span class="stat-val">4,009</span></div>
+                        <div class="stat-item"><span class="stat-lbl">Time Passed</span><span class="stat-val">&lt; 100 Years</span></div>
+                        <div class="stat-item"><span class="stat-lbl">Ancient Connections</span><span class="stat-val">81</span></div>
+                    </div>
+                    <div class="card-body">
+                        <p><strong>A refinement branch immediately preceding the major Z17 emergence.</strong> R-FGC79182 helps separate deep U106-derived variants into the later Nordic Bronze Age corridor.</p>
+                        <div class="sci-data">
+                            <div class="sci-row"><span class="sci-label">Date Estimate</span><span class="sci-val">~2200 BCE</span></div>
+                            <div class="sci-row"><span class="sci-label">Narrative Role</span><span class="sci-val">Close precursor within same deep branch</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-right">
+                <div class="card card-hist">
+                    <div class="card-header-inner">
+                        <span class="context-label">Historical Narrative</span>
+                        <span class="hist-title">Bronze Age Early Expansion</span>
+                    </div>
+                    <div class="card-body">
+                        <p>Early Bronze systems became more structured with more stable networks and specialist production. This deep branch captures part of that transition before later Z17-specific expansion becomes dominant in the historic record.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="action-bar">
+                <a class="action-btn" href="https://www.wikitree.com/wiki/Space:R-FGC79182" target="_blank">WikiTree</a>
+            </div>
+            <div class="marker"></div>
+        </div>
+
+    </div>
+
+    <div id="mainSection">
+
+        <div class="timeline-row row-blue" id="R-Z17" data-year="2000 BCE" data-title="Nordic Bronze Age">
+        <div class="year-label"><span class="year-pill">2000 BCE</span></div>
+        
+        <div class="col-left">
+            <div class="card card-dna">
+                <div class="card-header-inner">
+                    <span class="context-label">Genetic Evidence</span>
+                    <div class="text-box"><span class="snp-id">R-Z17</span><span class="snp-name">North Sea Germanic Root</span></div>
+                </div>
+                <div class="stats-grid">
+                        <div class="stat-item"><span class="stat-lbl">Immediate Descendants</span><span class="stat-val">9</span></div>
+                        <div class="stat-item"><span class="stat-lbl">Time Passed</span><span class="stat-val">200 Years</span></div>
+                        <div class="stat-item"><span class="stat-lbl">Tested Modern Descendants</span><span class="stat-val">3,963</span></div>
+                        <div class="stat-item"><span class="stat-lbl">Ancient Connections</span><span class="stat-val">79</span></div>
+                    </div>
+                <div class="card-body">
+                    <p><strong>Key ancestor for many North Sea families.</strong> R-Z17 sits under U106 as a major branch. Ancient DNA places early Z17 carriers in southern Scandinavia and the western Baltic during the Nordic Bronze Age. This node appears in men buried with swords, elaborate bronzes and evidence of long distance trade.</p>
+                    <div class="sci-data">
+                        <div class="sci-row"><span class="sci-label">TMRCA (Most Likely)</span><span class="sci-val">2050 BCE</span></div>
+                        <div class="sci-row"><span class="sci-label">95% Confidence</span><span class="sci-val">2658 BCE - 1502 BCE</span></div>
+                        <div class="sci-row"><span class="sci-label">Phylogenetic Role</span><span class="sci-val">Anchor for North Sea U106 cluster</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-right">
+            <div class="card card-hist">
+                <div class="card-header-inner">
+                    <span class="context-label">Historical Narrative</span>
+                    <span class="hist-title">The Golden Age: Nordic Bronze Age & Amber Routes (c. 1700–500 BCE)</span>
+                </div>
+                <div class="card-body">
+                    <p>
+                        <strong>The "Sun Age":</strong> Rock carvings (petroglyphs), weapon-rich burials, and massive bronze hoards define this era. It was the first great flowering of Germanic culture. Communities along the Danish straits and Swedish coasts controlled the export of <strong>Amber</strong> ("Nordic Gold") to the Mediterranean.
+                    </p>
+                    <p>
+                        In return, they imported copper and tin from Central Europe to forge the finest bronze weapons in the world. This trade network was so vast that Baltic amber from this period has been found in the <strong>Royal Tombs of Mycenae</strong> and the breastplate of <strong>Tutankhamun</strong>.
+                    </p>
+                    
+                    <p>The wider Z17 cluster includes lines that now concentrate in Denmark, Sweden, Norway, northern Germany, the Netherlands and parts of eastern England. That distribution fits a story where Z17 marks a coastal and riverine population that used the sea as a highway and created dense trading networks around the North Sea basin.</p>
+                    <p>The Glasgow surname project regards R-Z17 as the deep North Sea ancestor that supports the whole tree. Duffield, Glasgow, Churnside, Brown, Wright and Kelty or Lawrence testers all sit on an inner twig of this branch. Many distant cousins along the North Sea share this root and bear different surnames unrelated to the later Norman retainer story.</p>
+
+                    <hr style="border: 0; border-top: 1px solid rgba(255,255,255,0.1); margin: 1.5rem 0;">
+
+                    <div class="info-box ib-blue">
+                        <div class="box-header">
+                            <strong class="box-title">The First Vikings</strong>
+                            <span class="box-tag">Maritime Culture</span>
+                        </div>
+                        <p class="box-content">
+                            Ships with "high prows" appear everywhere in the rock art of <strong>Tanum</strong> (Sweden). These images confirm a deep maritime orientation. This culture saw status and power in the control of sea routes - a tradition that <strong>R-Z17</strong> lines would carry forward for 2,000 years to launch the Viking Age.
+                        </p>
+                    </div>
+
+                    <div class="info-box ib-gold">
+                        <div class="box-header">
+                            <strong class="box-title">Center vs. Periphery</strong>
+                            <span class="box-tag">R-Z17 vs R-S20045</span>
+                        </div>
+                        <p class="box-content">
+                            <strong>R-Z17</strong> (the "Grandfather" clade) grew explosively within this rich world. However, the specific branch that leads to (<strong>R-S20045</strong>) probably sat on the geographic edge of these richest zones - perhaps in the poorer soils of Northern Jutland.
+                        </p>
+                    </div>
+
+                    <p>
+                        <strong>The Setup for Disaster:</strong> That marginal position helps explain the future. When the climate downturn of the <strong>Fimbulwinter</strong> struck, the wealthy centers in the south had reserves; the marginal communities on the edge faced immediate extinction. 
+                    </p>
+                    <p>
+                        This "edge" position explains the severe bottleneck in this line: The ancestor of the Glasgow line was the ones fighting for survival on the periphery while their cousins prospered in the south.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="action-bar">
+            <a class="action-btn" href="https://discover.familytreedna.com/y-dna/R-Z17/story" target="_blank">FTDNA Story</a>
+            <a class="action-btn" href="https://www.wikitree.com/wiki/Space:R-Z17" target="_blank">WikiTree</a>
+        </div>
+        <div class="marker"></div>
+    </div>
+        <div class="timeline-row row-danger" id="R-S20045" data-year="150 BCE" data-title="Late Pre-Roman Iron Age">
+            <div class="year-label"><span class="year-pill">150 BCE</span></div>
+        <div class="col-left">
+            <div class="card card-dna">
+                <div class="card-header-inner">
+                    <span class="context-label">Genetic Evidence</span>
+                    <div class="text-box"><span class="snp-id">R-S20045</span><span class="snp-name">The Bottleneck Survivor</span></div>
+                </div>
+                <div class="stats-grid">
+                        <div class="stat-item"><span class="stat-lbl">Immediate Descendants</span><span class="stat-val">2</span></div>
+                        <div class="stat-item"><span class="stat-lbl">Tested Modern Descendants</span><span class="stat-val">24</span></div>
+                        <div class="stat-item"><span class="stat-lbl">Time Passed</span><span class="stat-val">1,850 Years</span></div>
+                    </div>
+                <div class="card-body">
+                    <p><strong>Genetic evidence for a narrow survival event.</strong> <strong>R-S20045</strong> sits deep under <strong>Z17</strong> and carries very few known modern branches. FTDNA Discover shows a long gap between <strong>S20045</strong> and the medieval descendants. This pattern points toward a strong <strong>bottleneck</strong> where only one or two male lines carried the mutation forward for more than a thousand years.</p>
+                    <div class="sci-data">
+                        <div class="sci-row"><span class="sci-label">Most Likely TMRCA</span><span class="sci-val">250 BCE</span></div>
+                        <div class="sci-row"><span class="sci-label">95% Confidence</span><span class="sci-val">821 BCE - 235 CE</span></div>
+                        <div class="sci-row"><span class="sci-label">Tree Shape</span><span class="sci-val">Long thin trunk</span></div>
+                        <div class="sci-row"><span class="sci-label">Ancient DNA</span><span class="sci-val">None found below this level</span></div>
+                    </div>
+                    <p>Note: This is the first node in the lineage where ancient DNA evidence ceases; the tree below relies on modern forensics.</p>
+                </div>
+                <div class="sisters-section">
+                    <span class="sis-head">Known Surviving Branches</span>
+                    <div class="sis-row">
+                        <div class="sis-meta"><span class="sis-year">1850 CE</span><span class="sis-id">R-FTE70376</span></div>
+                        <div class="sis-info"><span class="sis-name">KELTY / LAWRENCE LINE</span><span class="sis-desc">Represents a separate surviving <strong>S20045</strong> branch with a terminal mutation in the 1800s. This cluster confirms that <strong>S20045</strong> did not funnel exclusively into the Duffield or Glasgow story.</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-right">
+            <div class="card card-hist">
+                <div class="card-header-inner">
+                    <span class="context-label">Historical Narrative</span>
+                    <span class="hist-title">Fimbulwinter & The Iron Age Crisis (c. 1 AD – 400 AD)</span>
+                </div>
+                <div class="card-body">
+                    <p>
+                        <strong>The Archaeological Collapse:</strong> Archaeologists see a sharp contraction of settlement in <strong>Jutland</strong> around the start of the Common Era. The climate turned violently cold and wet. Many farmsteads that had stood for centuries fell out of use and were reclaimed by the peat.
+                    </p>
+                    <p>Climatic and archaeological evidence from Jutland and the broader Nordic region shows a harsh downturn in this period. Pollen records indicate farm abandonment and re wilding of fields. Bogs and lakes received large ritual deposits of weapons and animals. Later Norse myth preserves a memory of a terrible long winter, the Fimbulwinter, that nearly ended human life. The <strong>S20045</strong> bottleneck fits naturally into that context.</p>
+                    <p>The ancestor who first carried <strong>S20045</strong> probably lived in a marginal community close to poor soils, peat bogs or rough coastal ground. Generations of descendants likely combined subsistence farming, fishing and small scale iron working. Each generation produced at least one surviving son and overall numbers stayed low. Other related branches across the <strong>Z17</strong> cluster disappeared completely, while <strong>S20045</strong> held on and later produced the Norman era lines.</p>
+                    <p>
+                        <strong>The Ritual Response:</strong> This social stress triggered intense ritual responses to hardship. Wetland deposits of smashed weapons and human remains (<strong>Bog Bodies</strong>) increase dramatically in number during this period - evidence of a society desperate to appease the gods amidst chaos and war.
+                    </p>
+
+                    <hr style="border: 0; border-top: 1px solid rgba(255,255,255,0.1); margin: 1.5rem 0;">
+
+                    <div class="info-box ib-blue">
+                        <div class="box-header">
+                            <strong class="box-title">The Memory of Trauma</strong>
+                            <span class="box-tag">Fimbulvetr</span>
+                        </div>
+                        <p class="box-content">
+                            Later Icelandic sagas describe <strong>Fimbulwinter</strong> as a three-year winter without a summer that ends in war. While the sagas exaggerate the details, they capture the remembered trauma of this climatic disaster.
+                        </p>
+                    </div>
+
+                    <div class="info-box ib-gold">
+                        <div class="box-header">
+                            <strong class="box-title">The "Long Thin Trunk"</strong>
+                            <span class="box-tag">R-S20045 Bottleneck</span>
+                        </div>
+                        <p class="box-content">
+                            The <strong>S20045</strong> bottleneck offers a genetic echo of that crisis. The tree appears as a <strong>"long thin trunk"</strong> that leads down to medieval Britain, with very few surviving side branches for centuries.
+                        </p>
+                    </div>
+
+                    <p>
+                        <strong>The Survival Model:</strong> The survival of just a few <strong>S20045</strong> branches does not fit a picture of calm, long-term "single son" families. It fits a model of <strong>mass extinction</strong>, where many collateral branches died out in famine or war.
+                    </p>
+                    <p>
+                        Only a single small community - likely the <strong>"Iron Guild"</strong> specialists who mastered the bog iron - survived the catastrophe. This small nucleus later supplied the recruits to the <strong>Migration Period</strong> and <strong>Norman era</strong> movements that finally carried this Y-line into Britain.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="action-bar">
+            <a class="action-btn" href="https://discover.familytreedna.com/y-dna/R-S20045/story" target="_blank">FTDNA Story</a>
+            <a class="action-btn" href="https://www.wikitree.com/wiki/Space:R-S20045" target="_blank">WikiTree</a>
+        </div>
+        <div class="marker"></div>
+    </div>
+
+        <div class="timeline-row row-blue" id="R-BY139800" data-year="1 BCE" data-title="Recovery Phase">
+            <div class="year-label"><span class="year-pill">1 BCE</span></div>
+        <div class="col-left">
+            <div class="card card-dna">
+                <div class="card-header-inner">
+                    <span class="context-label">Genetic Evidence</span>
+                    <div class="text-box"><span class="snp-id">R-BY139800</span><span class="snp-name">Post-Bottleneck Expansion</span></div>
+                </div>
+                <div class="stats-grid">
+                        <div class="stat-item"><span class="stat-lbl">Immediate Descendants</span><span class="stat-val">2</span></div>
+                        <div class="stat-item"><span class="stat-lbl">Tested Modern Descendants</span><span class="stat-val">21</span></div>
+                        <div class="stat-item"><span class="stat-lbl">Time Passed</span><span class="stat-val">150 Years</span></div>
+                    </div>
+                <div class="card-body">
+                    <p><strong>Hidden node between crisis and migration.</strong> <strong>BY139800</strong> currently appears as an internal node with no direct modern testers that sit exactly on it. It links <strong>S20045</strong> to downstream branches such as <strong>S14827</strong> and <strong>FT115605</strong>. This structure usually means that several son lines formed and only some have living representatives with Big Y tests.</p>
+                    <p>FTDNA places the common ancestor close to the turn of the millennium. In this period settlements in <strong>Jutland</strong> grew again and long distance contact with the Roman world increased.</p>
+                    <p>Additional Big Y tests will place new sub branches between <strong>S20045</strong> and <strong>S14827</strong> and fill this gap. That process will refine the picture of how a single Iron Age survivor lineage turned into several family clusters that took part in the <strong>Anglo Saxon</strong> and <strong>Norse</strong> expansions.</p>
+                    <div class="sci-data">
+                        <div class="sci-row"><span class="sci-label">Most Likely TMRCA</span><span class="sci-val">1 BCE</span></div>
+                        <div class="sci-row"><span class="sci-label">95% Confidence</span><span class="sci-val">Est. 400 BCE - 200 CE</span></div>
+                        <div class="sci-row"><span class="sci-label">Status</span><span class="sci-val">Internal node without named surname cluster</span></div>
+                    </div>
+                    <p>No ancient DNA connections are found below this level.</p>
+                </div>
+                <div class="sisters-section">
+                    <span class="sis-head">Documented Sister Branch</span>
+                    <div class="sis-row">
+                        <div class="sis-meta"><span class="sis-year">700 CE</span><span class="sis-id">R-FT115605</span></div>
+                        <div class="sis-info"><span class="sis-name">NORTHERN LINE</span><span class="sis-desc">Includes ancient sample IN21748 and links to northern continental Europe. This branch shows that not all <strong>BY139800</strong> descendants entered the British Isles and that some remained on the continent or in Scandinavia and have not yet been tied to an identified surname group.</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-right">
+            <div class="card card-hist">
+                <div class="card-header-inner">
+                    <span class="context-label">Historical Narrative</span>
+                    <span class="hist-title">The Iron Crucible: The Cimbrian Frontier (c. 300 BCE – 50 CE)</span>
+                </div>
+                <div class="card-body">
+                    <p>
+                        <strong>The Jastorf Culture:</strong> The ancestors (Haplogroup <strong>R-S20045/BY139800</strong>) lived in the mist-shrouded wetlands of <strong>Jutland</strong> and the Elbe. Archaeologists call this the <strong>Jastorf Culture</strong>. It was a hard world defined by a deteriorating climate - the <strong>"Subatlantic Oscillation"</strong> - which turned farmable land into peat bogs.
+                    </p>
+                    <p>
+                        But the bog was a gift. This is the exact time and place where Germanic tribes mastered <strong>Bog Iron extraction</strong>. The family's 2,000-year association with metalworking begins here, pulling ore from the peat to forge the weapons that would soon terrify Rome.
+                    </p>
+                    <p>The male line that carried <strong>BY139800</strong> probably expanded from a small base into a slightly larger kin group with multiple households.</p>
+
+                    <hr style="border: 0; border-top: 1px solid rgba(255,255,255,0.1); margin: 1.5rem 0;">
+
+                    <div class="info-box ib-red">
+                        <div class="box-header">
+                            <strong class="box-title">The Cimbrian Storm</strong>
+                            <span class="box-tag">113-101 BCE</span>
+                        </div>
+                        <p class="box-content">
+                            Driven by "great tides" (storm surges) that flooded their lands, the <strong>Cimbri</strong> and <strong>Teutones</strong> marched south from <strong>Jutland</strong>. They annihilated Roman armies at Arausio before being destroyed themselves.
+                            <span class="box-sub">⚔️ <strong>The Bottleneck Event:</strong> This explains the <strong>"Genetic Bottleneck"</strong> of <strong>R-S20045</strong>. Most of the clan likely left with the Cimbrian migration and died in Italy. The ancestor of the Glasgow branch was one of the few "Stayers" who remained in the boglands.</span>
+                        </p>
+                    </div>
+
+                    <div class="info-box ib-gold">
+                        <div class="box-header">
+                            <strong class="box-title">Diplomacy & The Bog</strong>
+                            <span class="box-tag">Ritual Exchange</span>
+                        </div>
+                        <p class="box-content">
+                            The famous <strong>Hjortspring Boat</strong> (c. 350 BC) reveals a culture of ritual sacrifice. The discovery of Roman <em>gladii</em> in these bogs proves the family was already trading with the frontier - exchanging amber, furs, and iron for the <strong>"civilized"</strong> luxury goods of the south.
+                        </p>
+                    </div>
+
+                    <p>
+                        <strong>The Frontier Opportunity:</strong> The ancestors lived within this <strong>"volatile frontier zone."</strong> They were not isolated barbarians; they were connected intermediaries. This proximity to Roman wealth and military tech created the <strong>pull factor</strong> for later migrations, teaching them that military service was a path to riches - a lesson they would apply centuries later as the <strong>"Saxon Shore"</strong> garrisons.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="action-bar">
+            <a class="action-btn" href="https://discover.familytreedna.com/y-dna/R-BY139800/story" target="_blank">FTDNA Story</a>
+            <a class="action-btn" href="https://www.wikitree.com/wiki/Space:R-BY139800" target="_blank">WikiTree</a>
+        </div>
+        <div class="marker"></div>
+    </div>
+
+    <div class="timeline-row row-blue" id="R-S14827" data-year="350 CE" data-title="Migration Period">
+        <div class="year-label"><span class="year-pill">350 CE</span></div>
+        <div class="col-left">
+            <div class="card card-dna">
+                <div class="card-header-inner">
+                    <span class="context-label">Genetic Evidence</span>
+                    <div class="text-box"><span class="snp-id">R-S14827</span><span class="snp-name">Scandinavian Split</span></div>
+                </div>
+                <div class="stats-grid">
+                        <div class="stat-item"><span class="stat-lbl">Immediate Descendants</span><span class="stat-val">3</span></div>
+                        <div class="stat-item"><span class="stat-lbl">Tested Modern Descendants</span><span class="stat-val">19</span></div>
+                        <div class="stat-item"><span class="stat-lbl">Ancient Connections</span><span class="stat-val">24</span></div>
+                        <div class="stat-item"><span class="stat-lbl">Time Passed</span><span class="stat-val">350 Years</span></div>
+                    </div>
+                <div class="card-body">
+                    <p><strong>Key fork between British Isles and Nordic branches.</strong> <strong>S14827</strong> marks a split where one set of descendants remained in <strong>Scandinavia</strong> and another set eventually reached Britain. Scandinavian testers in branches like <strong>BY61198</strong> and <strong>BY136156</strong> confirm that part of the <strong>S14827</strong> family remained rooted in Sweden, Denmark and Norway.</p>
+                    <p>Genetically, <strong>S14827</strong> stands at the turning point where a single Bronze and Iron Age Scandinavian kindred diversified into several daughter lines. Some lines still live near the Baltic. Others sailed across the North Sea and later appear as <strong>Norman</strong> retainers and <strong>Scottish</strong> lairds in the medieval record.</p>
+                    <div class="sci-data">
+                        <div class="sci-row"><span class="sci-label">Most Likely TMRCA</span><span class="sci-val">379 CE</span></div>
+                        <div class="sci-row"><span class="sci-label">95% Confidence</span><span class="sci-val">72 BCE - 741 CE</span></div>
+                        <div class="sci-row"><span class="sci-label">Role For Project</span><span class="sci-val">Gateway to British branches</span></div>
+                    </div>
+                    <p>While ancient DNA exists for the parent branches, this specific node appears only in modern testers.</p>
+                </div>
+                <div class="sisters-section">
+                    <span class="sis-head">Scandinavian Sister Lines</span>
+                    <div class="sis-row">
+                        <div class="sis-meta"><span class="sis-year">500 CE</span><span class="sis-id">R-BY61198</span></div>
+                        <div class="sis-info"><span class="sis-name">SWEDISH LINE</span><span class="sis-desc">Associated with Anders Hansson Lång and other Swedish testers, including the research profile for <a class="profile-link" href="https://www.wikitree.com/wiki/Andersson-4118" target="_blank" rel="noopener">Lars Andersson (c.1700)</a>. This branch confirms that part of <strong>S14827</strong> stayed in the Scandinavian core and did not participate in the later British branches.</span></div>
+                    </div>
+                    <div class="sis-row">
+                        <div class="sis-meta"><span class="sis-year">1900 CE</span><span class="sis-id">R-BY136156</span></div>
+                        <div class="sis-info"><span class="sis-name">JØRGENSEN CLUSTER</span><span class="sis-desc">Modern Danish and Norwegian testers in this branch help anchor the <strong>S14827</strong> tree in the northern homeland. Relevant research profiles include <a class="profile-link" href="https://www.wikitree.com/wiki/J%C3%B8rgensen-1846" target="_blank" rel="noopener">Julius Christian Jørgensen (1816–1884)</a> and <a class="profile-link" href="https://www.wikitree.com/wiki/Carlsen-157" target="_blank" rel="noopener">Carl Frederik Wilhelm Carlsen (c.1812–1842)</a>.</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-right">
+            <div class="card card-hist">
+                <div class="card-header-inner">
+                    <span class="context-label">Historical Narrative</span>
+                    <span class="hist-title">Age of Migrations: The Great Divide (c. 350–550 CE)</span>
+                </div>
+                <div class="card-body">
+                    <p>
+                        <strong>The Collapse of the Frontier:</strong> Roman power in western Europe weakened during the fourth and fifth centuries. As the frontier crumbled, Germanic groups moved into Gaul, Iberia, and Britain. <strong>Angles, Saxons, and Jutes</strong> crossed the North Sea, settled in eastern Britain, and set up new kingdoms.
+                    </p>
+                    <p>
+                        The ancestor <strong>R-S14827</strong> lived during these transitions. Some of his descendants likely sailed with these migration streams or provided warriors and ship crews. Others remained in Scandinavian farming communities and still supplied men in later raids and colonization waves.
+                    </p>
+                    <p>The line that produced <strong>FT4811</strong> must have belonged to coastal communities that supplied warriors and settlers to the <strong>Anglo Saxon</strong> and later <strong>Norse</strong> movements into Britain. The timing of <strong>S14827</strong> fits that pattern, because it sits early in the <strong>Migration Period</strong> when Germanic groups began to push into the crumbling Roman frontier.</p>
+
+                    <hr style="border: 0; border-top: 1px solid rgba(255,255,255,0.1); margin: 1.5rem 0;">
+
+                    <p>
+                        <strong>The Genetic Framework:</strong> This mix of movement and retention created the framework that defined the family's future. While the patriarch lived in <strong>Scandinavia</strong>, his sons chose two violently different destinies:
+                    </p>
+
+                    <div class="info-box ib-blue">
+                        <div class="box-header">
+                            <strong class="box-title">The Northern Anchor</strong>
+                            <span class="box-tag">R-BY136156</span>
+                        </div>
+                        <p class="box-content">
+                            One branch continued as Scandinavian peasants and fishermen in the homeland. They never left the Baltic sphere.
+                            <span class="box-sub">🧬 <strong>Legacy:</strong> This explains matches with modern Swedes (e.g., <em>Andersson, Carlsen</em>) who share no history with Scotland.</span>
+                        </p>
+                    </div>
+
+                    <div class="info-box ib-gold">
+                        <div class="box-header">
+                            <strong class="box-title">The "Saxon Shore" Garrison (Continental Saxons)</strong>
+                            <span class="box-tag">Proto-FT4811</span>
+                        </div>
+                        <p class="box-content">
+                            The other branch became the Norman-era line. They took to the ships - but instead of becoming <strong>Anglo-Saxons</strong> in Britain (<strong>like the Jutes and Angles</strong>), they likely joined the <strong><em>Litus Saxonicum</em></strong> (<strong>"Saxon Shore"</strong>) in <strong>Normandy</strong>, serving as Germanic <strong><em>foederati</em></strong> settled by Rome to guard the coast. <strong>Though genetically Scandinavian, their historical role became that of Continental Saxons.</strong>
+                        </p>
+                    </div>
+
+                    <p>
+                        <strong>The "Otlinga Saxonia" Solution:</strong> Why do we believe they settled in Normandy and not England? Historical records confirm that the Bessin region of Normandy (around Bayeux) was known as <strong>Otlinga Saxonia</strong> (<strong>"The Saxon District"</strong>) centuries before the Vikings arrived. Gregory of Tours explicitly refers to the <strong><em>Saxones Bajocassini</em></strong> - a Germanic warrior society entrenched on the Norman coast.
+                    </p>
+
+                    <div class="info-box ib-dark">
+                        <span class="box-title" style="color: var(--gold); display:block; margin-bottom:5px;">Forensic Insight: The Rollo Math</span>
+                        <p class="box-content" style="color: var(--text-primary);">
+                            The genetic split (TMRCA) is dated to roughly <strong>350–500 CE</strong>. This is too old for a Viking arrival with <strong>Rollo</strong> (911 CE). This proves the family was part of the pre-existing <strong>Continental Saxon aristocracy</strong> in Normandy - the <strong>"Native Normans"</strong> - who merged with <strong>Rollo's Vikings</strong> later to form the martial class that conquered England.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="action-bar">
+            <a class="action-btn" href="https://discover.familytreedna.com/y-dna/R-S14827/story" target="_blank">FTDNA Story</a>
+            <a class="action-btn" href="https://www.wikitree.com/wiki/Space:R-S14827" target="_blank">WikiTree</a>
+        </div>
+        <div class="marker"></div>
+    </div>
+
+        <div class="timeline-row row-gold" id="R-FT4811" data-year="1000 CE" data-title="High Medieval">
+            <div class="year-label"><span class="year-pill">1000 CE</span></div>
+        <div class="col-left">
+            <div class="card card-dna">
+                <div class="card-header-inner">
+                    <span class="context-label">Genetic Evidence</span>
+                    <div class="text-box"><span class="snp-id">R-FT4811</span><span class="snp-name">Lowland Scots Progenitor</span></div>
+                </div>
+                <div class="stats-grid">
+                        <div class="stat-item"><span class="stat-lbl">Immediate Descendants</span><span class="stat-val">3</span></div>
+                        <div class="stat-item"><span class="stat-lbl">Tested Modern Descendants</span><span class="stat-val">12</span></div>
+                        <div class="stat-item"><span class="stat-lbl">Time Passed</span><span class="stat-val">500 Years</span></div>
+                    </div>
+                <div class="card-body">
+                    <p><strong>Common ancestor for several Scottish and English surname groups.</strong> <strong>FT4811</strong> marks the arrival of this Y line in the documented medieval world. This node includes modern testers with surnames <strong>Glasgow, Duffield, Churnside, Brown</strong> and <strong>Wright</strong>. They share this mutation and therefore descend from a single man who lived in the high medieval period.</p>
+                    <p>Within the surname project <strong>FT4811</strong> acts as the hub that links <strong>Border</strong> families around <strong>Berwickshire</strong>, <strong>Norman</strong> retainers in <strong>Derbyshire</strong> and merchants and craftsmen in <strong>Glasgow</strong> and <strong>Stirling</strong>. Later branches such as <strong>FTA30932</strong> and <strong>FT32941</strong> represent different sons of this medieval ancestor who allied with different lords and regions.</p>
+                    <div class="sci-data">
+                        <div class="sci-row"><span class="sci-label">Most Likely TMRCA</span><span class="sci-val">1044 CE</span></div>
+                        <div class="sci-row"><span class="sci-label">95% Confidence</span><span class="sci-val">697 CE - 1313 CE</span></div>
+                        <div class="sci-row"><span class="sci-label">Project Role</span><span class="sci-val">Shared root for Duffield, Glasgow, Churnside, Brown, Wright</span></div>
+                        <div class="sci-row"><span class="sci-label">Ancient DNA Status</span><span class="sci-val">None found below this level</span></div>
+                    </div>
+                </div>
+                <div class="sisters-section">
+                    <span class="sis-head">Identified FT4811 Branches</span>
+                    <div class="sis-row">
+                        <div class="sis-meta"><span class="sis-year">1100s</span><span class="sis-id">R-FT4811*</span></div>
+                        <div class="sis-info"><span class="sis-name">LONDON WRIGHT LINE</span><span class="sis-desc">An English urban line represented in the project by the paternal ancestry of <a class="profile-link" href="https://www.wikitree.com/wiki/Wright-60206" target="_blank" rel="noopener">William Thomas Wright (1844–1919)</a>. It retains the ancestral <strong>FT4811</strong> state without the downstream Duffield or Churnside mutations.</span></div>
+                    </div>
+                    <div class="sis-row">
+                        <div class="sis-meta"><span class="sis-year">1120 CE</span><span class="sis-id">R-FTA30932</span></div>
+                        <div class="sis-info"><span class="sis-name">CHURNSIDE / BROWN</span><span class="sis-desc">A branch with a tester-reported Berwickshire line represented by <a class="profile-link" href="https://www.wikitree.com/wiki/Churnside-15" target="_blank" rel="noopener">Alexander Churnside (1838–1873)</a>. The genetic branch is established; the proposed Vipont retinue and medieval route remain historical interpretations.</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-right">
+            <div class="card card-hist">
+                <div class="card-header-inner">
+                    <span class="context-label">Historical Narrative</span>
+                    <span class="hist-title">The Norman Divergence (c. 1066–1150)</span>
+                </div>
+                <div class="card-body">
+                    <p>
+                        <strong>The Invaders Arrive:</strong> The haplogroup <strong>R-FT4811</strong> marks the arrival of the lineage in Britain. These men were likely descendants of the <strong>Continental Saxon aristocracy</strong> in Normandy who merged with the <strong>Vikings</strong>, only to cross the channel again in <strong>1066</strong> as <strong>Normans</strong>. They were not peasant farmers, but professional soldiers recruited by the great Continental magnates - the <strong>de Ferrers</strong> and the <strong>de Viponts</strong> (Vieuxponts) - to secure the new frontiers.
+                    </p>
+                    <p>The gap between <strong>S14827</strong> and <strong>FT4811</strong> indicates a long period during which the line probably belonged to a single extended kin group that moved from <strong>Scandinavia</strong> into the <strong>Saxon Shore of Normandy</strong> and then into <strong>Norman</strong> and <strong>Scottish</strong> service. That history does not yet appear in written sources and still fits the wider pattern of <strong>Norse</strong> and <strong>Norman</strong> expansion.</p>
+                    <p>
+                        As the <strong>Normans</strong> pushed north and west to subdue England, the single genetic family fractured into three distinct geographical branches based on their feudal allegiance:
+                    </p>
+
+                    <hr style="border: 0; border-top: 1px solid rgba(255,255,255,0.1); margin: 1.5rem 0;">
+
+                    <div class="info-box ib-dark" style="border-left-color: #94a3b8;">
+                        <div class="box-header">
+                            <span class="box-tag" style="border-color: #94a3b8; color: #94a3b8;">The Urban Branch</span>
+                            <strong class="box-title">The Wright Line</strong>
+                        </div>
+                        <p class="box-content" style="text-align: right;">
+                            Remained in the south, likely <strong>London</strong>. <br><em>(Basal <strong>R-FT4811*</strong>)</em>
+                        </p>
+                    </div>
+
+                    <div class="info-box ib-red">
+                        <div class="box-header">
+                            <span class="box-tag">The Eastern March</span>
+                            <strong class="box-title">The Churnside Line</strong>
+                        </div>
+                        <p class="box-content" style="text-align: right;">
+                            Served the <strong>Viponts</strong> in <strong>Berwickshire</strong>.<br><em>(Haplogroup <strong>R-FTA30932</strong>)</em>
+                        </p>
+                    </div>
+
+                    <div class="info-box ib-gold">
+                        <div class="box-header">
+                            <span class="box-tag">The Western March</span>
+                            <strong class="box-title">The Duffield Line</strong>
+                        </div>
+                        <p class="box-content" style="text-align: right;">
+                            Served the <strong>Ferrers</strong> in <strong>Derbyshire</strong>.<br><em>(Haplogroup <strong>R-FT32941</strong>)</em>
+                        </p>
+                    </div>
+
+                    <p>
+                        <strong>The Vipont Connection:</strong> The split between the Churnside and Duffield branches is best explained by the alliance between their overlords. The <strong>Viponts</strong> (Lords of Westmorland) were close kin to the <strong>Ferrers</strong>. When the <strong>Viponts</strong> moved north to secure the <strong>Scottish borderlands</strong> at <strong>Langton</strong>, they took a branch of the family with them.
+                    </p>
+                    <p>
+                        These men settled in the village of <strong>Chirnside</strong> (adjacent to Langton), adopting the local name. Another kinsman in this retinue likely adopted the descriptive name "Le Brun," founding the <strong>Dixon Brown</strong> line.
+                    </p>
+
+                    <div class="info-box ib-dark">
+                        <span class="box-title" style="color: var(--text-secondary); display:block; margin-bottom:5px;">Historical Insight</span>
+                        <p class="box-content" style="color: var(--text-primary);">
+                            By the time surnames stabilized (c. 1300), these cousins were strangers. One was a "<strong>Wright</strong>" in London, one a "<strong>Churnside</strong>" in Scotland, and one a "<strong>Duffield</strong>" in Derbyshire. Only deep <strong>Y-DNA</strong> testing reveals that they are all sons of the same <strong>Norman invader</strong>.
+                        </p>
+                    </div>
+                    <p class="evidence-note"><strong>Evidence boundary:</strong> FT4811 proves shared paternal ancestry among the tested branches. It does not identify that ancestor as a Norman soldier, a Ferrers retainer, or a Vipont follower; those details are working explanations for the later geographic pattern.</p>
+                </div>
+            </div>
+        </div>
+        <div class="action-bar">
+            <a class="action-btn" href="https://discover.familytreedna.com/y-dna/R-FT4811/story" target="_blank">FTDNA Story</a>
+            <a class="action-btn" href="https://www.wikitree.com/wiki/Space:R-FT4811" target="_blank">WikiTree</a>
+        </div>
+        <div class="marker"></div>
+    </div>
+    <div class="timeline-row row-gold" id="R-FTC49014" data-year="500 CE" data-title="Imperial-Medieval Bridge">
+        <div class="year-label"><span class="year-pill">500 CE</span></div>
+        <div class="col-left">
+            <div class="card card-dna">
+                <div class="card-header-inner">
+                    <span class="context-label">Genetic Evidence</span>
+                    <div class="text-box"><span class="snp-id">R-FTC49014</span><span class="snp-name">Imperial-Medieval Bridge</span></div>
+                </div>
+                <div class="stats-grid">
+                    <div class="stat-item"><span class="stat-lbl">Immediate Descendants</span><span class="stat-val">2</span></div>
+                    <div class="stat-item"><span class="stat-lbl">Tested Modern Descendants</span><span class="stat-val">13</span></div>
+                    <div class="stat-item"><span class="stat-lbl">Time Passed</span><span class="stat-val">150 Years</span></div>
+                </div>
+                <div class="card-body">
+                    <p><strong>Bridge node between imperial and medieval expansion contexts.</strong> R-FTC49014 connects the older Iron Age and migration-era branches with the later Norman-medieval layers on this project timeline.</p>
+                    <p>Coverage is thinner than for other nodes, so this should be treated as a statistical bridge until deeper Big Y resolution refines exact branch positions.</p>
+                    <div class="sci-data">
+                        <div class="sci-row"><span class="sci-label">Date Estimate</span><span class="sci-val">~500 CE</span></div>
+                        <div class="sci-row"><span class="sci-label">Role</span><span class="sci-val">Downstream of R-S14827; upstream of post-Norman medieval nodes</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-right">
+            <div class="card card-hist">
+                <div class="card-header-inner">
+                    <span class="context-label">Historical Narrative</span>
+                    <span class="hist-title">Imperial-Medieval Transition</span>
+                </div>
+                <div class="card-body">
+                    <p>This period aligns with a broad reorganization from late antique polities to early medieval regional kingdoms and migration networks in Europe. Many deep lineages survived by becoming part of larger social confederations before later branching into surname-era identities.</p>
+                </div>
+            </div>
+        </div>
+        <div class="action-bar">
+            <a class="action-btn" href="https://www.wikitree.com/wiki/Space:R-FTC49014" target="_blank">WikiTree</a>
+        </div>
+        <div class="marker"></div>
+    </div>
+    <div class="timeline-row row-gold" id="R-FT32941" data-year="1050 CE" data-title="Post-Conquest">
+        <div class="year-label"><span class="year-pill">1050 CE</span></div>
+        <div class="col-left">
+            <div class="card card-dna">
+                <div class="card-header-inner">
+                    <span class="context-label">Genetic Evidence</span>
+                    <div class="text-box"><span class="snp-id">R-FT32941</span><span class="snp-name">Duffield Castle Lineage</span></div>
+                </div>
+                <div class="stats-grid">
+                        <div class="stat-item"><span class="stat-lbl">Immediate Descendants</span><span class="stat-val">2</span></div>
+                        <div class="stat-item"><span class="stat-lbl">Tested Modern Descendants</span><span class="stat-val">9</span></div>
+                        <div class="stat-item"><span class="stat-lbl">Time Passed</span><span class="stat-val">&lt; 100 Years</span></div>
+                    </div>
+                <div class="card-body">
+                    <p><strong>Norman retainers at Duffield Castle.</strong> R-FT32941 defines the haplogroup that appears in modern Duffield testers and in Glasgow lines that trace back to medieval clerics and burgesses. This node sits in Derbyshire and represents a cadet branch of the FT4811 family that entered service under the de Ferrers earls.</p>
+                    <p>For the surname study this haplogroup functions as the Duffield root rather than a Glasgow root. Every Glasgow tester in the project currently falls downstream at R-FT25406 or below. That pattern points toward a scenario where Duffield males at this stage still used a locational identity tied to Duffield Castle, while the later adoption of Glasgow as a surname happened after further branching.</p>
+                    <div class="sci-data">
+                        <div class="sci-row"><span class="sci-label">Most Likely TMRCA</span><span class="sci-val">1044 CE</span></div>
+                        <div class="sci-row"><span class="sci-label">95% Confidence</span><span class="sci-val">697 CE - 1313 CE</span></div>
+                        <div class="sci-row"><span class="sci-label">Status For Glasgow</span><span class="sci-val">Upstream Duffield node</span></div>
+                        <div class="sci-row"><span class="sci-label">Surname Transition</span><span class="sci-val">Duffield to Glasgow shift downstream</span></div>
+                        <div class="sci-row"><span class="sci-label">Years Without Ancient DNA</span><span class="sci-val">~840 Years</span></div>
+                    </div>
+                </div>
+                <div class="sisters-section">
+                    <span class="sis-head">Duffield Branches</span>
+                    <div class="sis-row">
+                        <div class="sis-meta"><span class="sis-year">1100 CE</span><span class="sis-id">R-FT32941*</span></div>
+                        <div class="sis-info"><span class="sis-name">ROGER DE DUFFELD LINE</span><span class="sis-desc">Represents descendants who remained in Derbyshire and kept a locational identity tied directly to Duffield. This branch anchors the haplogroup in a known castle site and supports the interpretation of FT32941 as a Duffield centred lineage.</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-right">
+            <div class="card card-hist">
+                <div class="card-header-inner">
+                    <span class="context-label">Historical Narrative</span>
+                    <span class="hist-title">Duffield Castle: The Norman Cradle (c. 1066–1200)</span>
+                </div>
+                <div class="card-body">
+                    <p>
+                        <strong>The Fortress of the Iron Lords:</strong> Before the surname "Glasgow" existed, the ancestors were Norman retainers stationed at <strong>Duffield Castle</strong> in Derbyshire. This was no minor outpost; archeological surveys reveal it boasted a massive stone keep <strong>98 feet wide</strong> - making it one of the largest in England, second only to the White Tower of London. 
+                    </p>
+                    <p>
+                        As the <em>Caput</em> (administrative capital) of the <strong>De Ferrers</strong> earldom, the castle controlled the vast "Duffield Frith" hunting forests and the region's iron mines. Men from the R-FT4811 lineage who entered this orbit became part of a military and administrative class - foresters, stewards, and castellans - that tied them closely to this specific geography.
+                    </p>
+                    <p>Evidence from charters and local history places de Ferrers power at Duffield and Tutbury. The FT32941 ancestor and his sons likely served in roles such as mounted serjeants, bailiffs, stewards or foresters who managed the Ferrers estates along the Derwent valley. These roles created the social base from which later Duffield and Glasgow lines emerged.</p>
+
+                    <hr style="border: 0; border-top: 1px solid rgba(255,255,255,0.1); margin: 1.5rem 0;">
+
+                    <div style="display: flex; gap: 1rem; margin-bottom: 1rem;">
+                        <div class="info-box ib-purple" style="flex:1; margin-bottom:0;">
+                            <span class="box-tag">The Stayers</span>
+                            <strong class="box-title" style="margin-top:5px;">The Duffield Line</strong>
+                            <p class="box-content" style="font-size:0.85rem;">
+                                The elder branch remained in Derbyshire, managing the estates. A relevant documentary target is <a class="profile-link" href="https://www.wikitree.com/wiki/Space:Roger_de_Duffeld" target="_blank" rel="noopener">Roger de Duffeld (fl. 1190)</a>; no record yet proves that he carried FT32941.
+                                <br><br>
+                                <span style="color: var(--text-secondary);">🧬 <strong>Proof:</strong> Modern tester Jonathan Duffield (b. 1799 line) shares the exact R-FT32941 mutation with the Glasgows.</span>
+                            </p>
+                        </div>
+                        <div class="info-box ib-gold" style="flex:1; margin-bottom:0;">
+                            <span class="box-tag">The Migrants</span>
+                            <strong class="box-title" style="margin-top:5px;">The Glasgow Line</strong>
+                            <p class="box-content" style="font-size:0.85rem;">
+                                A younger son entered the church. Finding no inheritance in Derbyshire, he migrated north to Scotland, eventually adopting the name <strong>de Glasgu</strong> to reflect his clerical territory.
+                            </p>
+                        </div>
+                    </div>
+
+                    <p>
+                        <strong>The Mechanism: The Honour of Huntingdon.</strong> Why did a Derbyshire family move to Scotland? The key is the "Davidian Revolution." <strong>Prince David of Scotland</strong> (Earl of Huntingdon) held vast lands in the English Midlands, bordering the Ferrers estates. He actively recruited younger sons of Norman families to modernize Scotland.
+                    </p>
+                    <p>
+                        The proposed "immigrant ancestor" is <a class="profile-link" href="https://www.wikitree.com/wiki/Space:John%2C_Official_of_Glasgow" target="_blank" rel="noopener"><strong>Master John of Huntingdon, Official of Glasgow</strong></a> (fl. 1180–1208). His clerical career is documentary; his placement as a Duffield descendant and genetic ancestor of later Glasgows is a project hypothesis.
+                    </p>
+
+                    <div class="info-box ib-blue">
+                        <div class="box-header">
+                            <strong class="box-title">Documentary people in the proposed bridge</strong>
+                            <span class="box-tag">Records, not a proved pedigree</span>
+                        </div>
+                        <p class="box-content">
+                            The medieval record also contains <a class="profile-link" href="https://www.wikitree.com/wiki/Space:John_de_Glasgu" target="_blank" rel="noopener">Master John de Glasgu</a>,
+                            <a class="profile-link" href="https://www.wikitree.com/wiki/Space:Adam_de_Glasgu" target="_blank" rel="noopener">Adam de Glasgu</a>, and
+                            <a class="profile-link" href="https://www.wikitree.com/wiki/Space:Andrew_de_Glasgu" target="_blank" rel="noopener">Andrew de Glasgow</a>.
+                            These pages preserve real occurrences, but the exact relationships between them—and to John of Huntingdon—remain unproved.
+                        </p>
+                    </div>
+                    
+                    <div class="info-box ib-dark">
+                        <span class="box-title" style="color: var(--gold); display:block; margin-bottom:5px;">The Forensic Conclusion</span>
+                        <p class="box-content" style="color: var(--text-primary);">
+                            Modern Duffield and Glasgow testers share R-FT32941, establishing a medieval paternal connection. Duffield Castle is a plausible setting for that connection; the specific brother-to-brother reconstruction and John of Huntingdon identification remain hypotheses awaiting documentary or ancient-DNA support.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="action-bar">
+            <a class="action-btn" href="https://discover.familytreedna.com/y-dna/R-FT32941/story" target="_blank">FTDNA Story</a>
+            <a class="action-btn" href="https://www.wikitree.com/wiki/Space:R-FT32941" target="_blank">WikiTree</a>
+        </div>
+        <div class="marker"></div>
+    </div>
+
+    <div class="timeline-row row-gold" id="R-FT25406" data-year="1450 CE" data-title="Late Medieval">
+        <div class="year-label"><span class="year-pill">1450 CE</span></div>
+        <div class="col-left">
+            <div class="card card-dna">
+                <div class="card-header-inner">
+                    <span class="context-label">Genetic Evidence</span>
+                    <div class="text-box"><span class="snp-id">R-FT25406</span><span class="snp-name">Glasgow Burgess Cluster</span></div>
+                </div>
+                <div class="stats-grid">
+                        <div class="stat-item"><span class="stat-lbl">Immediate Descendants</span><span class="stat-val">2</span></div>
+                        <div class="stat-item"><span class="stat-lbl">Tested Modern Descendants</span><span class="stat-val">8</span></div>
+                        <div class="stat-item"><span class="stat-lbl">Time Passed</span><span class="stat-val">400 Years</span></div>
+                    </div>
+                <div class="card-body">
+                    <p><strong>Earliest project node currently dominated by Glasgow/Glasgo lines.</strong> FT25406 gathers several branches using the hereditary surname or close variants. This makes it the strongest genetic candidate for the surname-era founder, although it cannot identify a particular fifteenth-century man by itself.</p>
+                    <p>One Big Y branch is reported by FTDNA against Henry Glasgo (1774–1849) and carries FT25406 without the later FT20271 mutation. A proposed deeper pedigree may extend that line to <a class="profile-link" href="https://www.wikitree.com/wiki/Glasgo-23" target="_blank" rel="noopener">Jeremiah Glasgo (c.1713–1777)</a>, but that extension is not the test's displayed earliest-known-ancestor label. Another branch produces the Scottish and Ulster lines carrying FT20271. Their shared paternal ancestor predates both branches; the DNA does not prove the intervening paper pedigrees.</p>
+                    <p>Within the project FT25406 functions as the shared Glasgow patriarch level. It sits above the more tightly focused American and Ulster clusters and below the Duffield era FT32941 ancestor. That position fits the documentary trail that shows Glasgow burgesses and craftsmen in Stirling, Renfrewshire and Lanarkshire during the late medieval and early modern period.</p>
+                    <div class="sci-data">
+                        <div class="sci-row"><span class="sci-label">Most Likely TMRCA</span><span class="sci-val">1431 CE</span></div>
+                        <div class="sci-row"><span class="sci-label">95% Confidence</span><span class="sci-val">1199 CE - 1608 CE</span></div>
+                        <div class="sci-row"><span class="sci-label">Surname Status</span><span class="sci-val">Earliest node with surname</span></div>
+                        <div class="sci-row"><span class="sci-label">Geographic Focus</span><span class="sci-val">Stirling - Renfrewshire - Glasgow corridor</span></div>
+                        <div class="sci-row"><span class="sci-label">Years Without Ancient DNA</span><span class="sci-val">~570 Years</span></div>
+                    </div>
+                </div>
+                <div class="sisters-section">
+                    <span class="sis-head">Cadet Lines Under FT25406</span>
+                    <div class="sis-row">
+                        <div class="sis-meta"><span class="sis-year">1713</span><span class="sis-id">R-FT25406*</span></div>
+                        <div class="sis-info"><span class="sis-name"><a class="profile-link" href="https://www.wikitree.com/wiki/Glasgo-23" target="_blank" rel="noopener">JEREMIAH GLASGO OF MARYLAND</a></span><span class="sis-desc">Represents a colonial offshoot at FT25406 rather than FT20271. His documented genealogy should be evaluated separately from the genetic inference about where the two branches divided.</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-right">
+            <div class="card card-hist">
+                <div class="card-header-inner">
+                    <span class="context-label">Historical Narrative</span>
+                    <span class="hist-title">The Iron Guild: A 3,000-Year Legacy</span>
+                </div>
+                <div class="card-body">
+                    <p>
+                        <strong>The Hereditary Technocrats:</strong> The resilience of the Glasgow lineage suggests more than simple luck; it points to a specialized, hereditary caste. The family's migration aligns perfectly with the major metallurgical revolutions of Northern Europe, implying they survived genetic bottlenecks not as farmers, but as masters of the "sinews of war" - iron.
+                    </p>
+
+                    <hr style="border: 0; border-top: 1px solid rgba(255,255,255,0.1); margin: 1.5rem 0;">
+
+                    <div style="margin-left: 15px; border-left: 3px solid var(--gold); padding-left: 25px;">
+                        <p style="margin-bottom: 1.2rem;">
+                            <strong style="color: var(--gold); font-size: 1.1rem;">I. The Bog Iron Survivors (c. 250 BCE)</strong><br>
+                            <span style="color: #94a3b8; font-size: 0.9rem;">The Jastorf Culture | Jutland</span><br>
+                            The "Bottleneck" ancestor (R-S20045) survived the "Fimbulwinter" climate collapse in the exact region where Germanic tribes first mastered <strong>Bog Iron</strong> extraction. While the general population declined, this small kin-group - likely specialized smelters - endured by controlling the new strategic resource.
+                        </p>
+
+                        <p style="margin-bottom: 1.2rem;">
+                            <strong style="color: var(--purple); font-size: 1.1rem;">II. Stewards of the Ironworks (c. 1066 CE)</strong><br>
+                            <span style="color: #94a3b8; font-size: 0.9rem;">The De Ferrers Retinue | Derbyshire</span><br>
+                            The family arrived in Britain as retainers to the <strong>De Ferrers</strong> (Latin for <em>"Of the Ironworks"</em>). They were granted lands in <strong>Derbyshire</strong>, the mining capital of medieval England. Here, the ancestors (Duffield/Glasgow) likely served as military stewards, managing the mines and armouries for the Earls of Derby at Duffield Castle.
+                        </p>
+                    </div>
+
+                    <hr style="border: 0; border-top: 1px solid rgba(255,255,255,0.1); margin: 1.5rem 0;">
+
+                    <p>
+                        <strong>The "Lost Century" (1300–1450):</strong> Scattered records identify clerics and royal servants named de Glasgow, including William, Vicar of Corbridge, and <a class="profile-link" href="https://www.wikitree.com/wiki/Space:Master_John_de_Glasgow_%28~1340_%E2%80%93_1419%29" target="_blank" rel="noopener">Master John de Glasgow (c.1340–1419)</a>. They supply chronological waypoints, not a proved father-to-son bridge.
+                    </p>
+
+                    <p>
+                        <strong>The Stirling Resurgence (c.1475):</strong> Records place <a class="profile-link" href="https://www.wikitree.com/wiki/Space:John_Glasgow-1" target="_blank" rel="noopener"><strong>John Glasgow alias Smith</strong></a> in the Stirling/Glasgow burgh world. He is a strong documentary candidate near the FT25406 period, but no ancient or descendant DNA identifies him as its carrier.
+                    </p>
+                    
+                    <p>
+                        The alias <em>Smith</em> may indicate metalworking, while his property activity demonstrates burgh status. The more specific royal-armourer explanation remains an attractive occupational theory rather than a recorded office.
+                    </p>
+
+                    <div class="info-box ib-dark">
+                        <span class="box-title" style="color: var(--text-secondary); display:block;">The Result</span>
+                        <span style="font-family: 'Cinzel', serif; color: var(--text-primary); font-size: 1.4rem; font-weight: 700; display:block;">The Merchant Transition</span>
+                        <p class="box-content" style="margin-top: 10px;">
+                            By 1550, the "Iron Guild" had successfully transformed into a "Merchant Guild." This accumulated capital fueled the next great migration: the expansion of the <strong>R-FT20271</strong> line into Ulster and the Americas.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="action-bar">
+            <a class="action-btn" href="https://discover.familytreedna.com/y-dna/R-FT25406/story" target="_blank">FTDNA Story</a>
+            <a class="action-btn" href="https://www.wikitree.com/wiki/Space:R-FT25406" target="_blank">WikiTree</a>
+        </div>
+        <div class="marker"></div>
+    </div>
+
+    <div class="timeline-row row-gold" id="R-FT20271" data-year="1600 CE" data-title="Early Modern">
+        <div class="year-label"><span class="year-pill">1600 CE</span></div>
+        <div class="col-left">
+            <div class="card card-dna">
+                <div class="card-header-inner">
+                    <span class="context-label">Genetic Evidence</span>
+                    <div class="text-box"><span class="snp-id">R-FT20271</span><span class="snp-name">Ulster And Atlantic Branch</span></div>
+                </div>
+                <div class="stats-grid">
+                        <div class="stat-item"><span class="stat-lbl">Immediate Descendants</span><span class="stat-val">6</span></div>
+                        <div class="stat-item"><span class="stat-lbl">Tested Modern Descendants</span><span class="stat-val">7</span></div>
+                        <div class="stat-item"><span class="stat-lbl">Time Passed</span><span class="stat-val">150 Years</span></div>
+                    </div>
+                <div class="card-body">
+                    <p><strong>A surname-era branch spanning Scotland, Ulster and the Atlantic diaspora.</strong> Modern ancestral locations at FT20271 include Scotland, Ireland and Northern Ireland. Those results fit an Ulster-Scots history, but the mutation alone does not date or prove a particular Plantation migration.</p>
+                    
+                    <div id="branch-map">
+                        <div class="tree-node">
+                            <div class="tree-header">
+                                <span class="node-pill node-snp">Root</span> <span class="node-title">FT20271 (~1600 CE)</span>
+                            </div>
+                            
+                            <div class="tree-node">
+                                <div class="tree-header"><span class="node-pill node-str">A1 · likely STR pairing</span> <span class="node-title">shared DYS714=27</span></div>
+                                <div class="tree-node"><div class="tree-header"><span class="node-pill node-bigy">Big Y</span> <span class="node-title"><a class="profile-link" href="https://www.wikitree.com/wiki/Glasgow-951" target="_blank" rel="noopener">Alexander Glasgow (c.1811), County Antrim</a></span> <span class="node-mut">B580327 · five current private variants</span></div></div>
+                                <div class="tree-node"><div class="tree-header"><span class="node-pill node-bigy">Big Y</span> <span class="node-title"><a class="profile-link" href="https://www.wikitree.com/wiki/Glasgow-2769" target="_blank" rel="noopener">Robert Glasgow (c.1780), South Carolina</a></span> <span class="node-mut">1002232 · Big Y STR 4/662 · GD 3 at Y-111</span></div></div>
+                                <div class="tree-node"><div class="tree-header"><span class="node-pill node-str">Pair differences</span> <span class="node-title">DYS458 18↔17.1 · DYS576 18↔16 · DYS561 16↔17</span></div></div>
+                            </div>
+
+                            <div class="tree-node">
+                                <div class="tree-header"><span class="node-pill node-str">Adjacent singleton</span> <span class="node-title"><a class="profile-link" href="https://www.wikitree.com/wiki/Glasgow-591" target="_blank" rel="noopener">William Glasgow (c.1656), Scotland</a></span> <span class="node-mut">B696189 · Big Y STR 3/650 · GD 5 at Y-111</span></div>
+                                <div class="tree-node"><div class="tree-header"><span class="node-pill node-str">Compared with Alexander</span> <span class="node-title">DYS389ii=30 · DYS576=17 · DYS511=11 · DYS557=17 · DYS714=26</span></div></div>
+                            </div>
+
+                            <div class="tree-node">
+                                <div class="tree-header"><span class="node-pill node-str">B · likely STR pattern</span> <span class="node-title">DYS19=15 · DYS456=16 · DYS712=19</span></div>
+                                <div class="tree-node"><div class="tree-header"><span class="node-pill node-bigy">Big Y</span> <span class="node-title"><a class="profile-link" href="https://www.wikitree.com/wiki/Glasgow-563" target="_blank" rel="noopener">Probable William Glasgow (Glasgow-563) branch</a></span> <span class="node-mut">959947 · Big Y STR 5/660 · DYS650=20 · likely Glasgow-12 descendant; final private link unexposed</span></div></div>
+                                <div class="tree-node"><div class="tree-header"><span class="node-pill node-bigy">Big Y</span> <span class="node-title">Robert Glasgow 1749–1836 / John M line</span> <span class="node-mut">200475 · Big Y STR 7/622 · Y-111 identical to 999763</span></div></div>
+                                <div class="tree-node">
+                                    <div class="tree-header"><span class="node-pill node-snp">Confirmed child SNP</span> <span class="node-title">FTE32242</span></div>
+                                    <div class="tree-node"><div class="tree-header"><span class="node-pill node-bigy">Big Y</span> <span class="node-title"><a class="profile-link" href="https://www.wikitree.com/wiki/Glasgow-12" target="_blank" rel="noopener">Robert Glasgow 1749–1839 Derry line</a></span> <span class="node-mut">999763 · Big Y STR 4/666 · CDY 35-37</span></div></div>
+                                    <div class="tree-node"><div class="tree-header"><span class="node-pill node-bigy">Big Y</span> <span class="node-title">Same reported root</span> <span class="node-mut">478604 · Big Y STR 4/659 · CDY 36-37</span></div></div>
+                                </div>
+                            </div>
+
+                            <div class="tree-node">
+                                <div class="tree-header"><span class="node-pill node-str">Upgrade candidates</span> <span class="node-title">Related STR cluster; terminal SNP unproved</span></div>
+                                <div class="tree-node"><div class="tree-header"><span class="node-pill node-str">Y-111</span> <span class="node-title"><a class="profile-link" href="https://www.wikitree.com/wiki/Glasgow-1143" target="_blank" rel="noopener">Robert Glasgow (c.1710), County Antrim</a></span></div></div>
+                                <div class="tree-node"><div class="tree-header"><span class="node-pill node-str">Y-67</span> <span class="node-title"><a class="profile-link" href="https://www.wikitree.com/wiki/Glasgow-822" target="_blank" rel="noopener">John Glasgow (1767–1851), Northern Ireland</a></span></div></div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <p>The marker patterns split the otherwise flat FT20271 node into two provisional STR clusters. Alexander and kit 1002232 share DYS714=27 and are reported at GD 3. Kits 959947, 200475, 999763 and 478604 share DYS19=15, DYS456=16 and DYS712=19. Pedigree review now places 959947 probably in Robert Glasgow-12's William branch, while 200475 belongs to Robert's John M. branch and the two FTE32242 tests belong to his James M. branch. The common STR motif therefore crosses a proved SNP split and is not itself a descent branch. Only FTE32242 is a confirmed internal child SNP.</p>
+                    <p><strong>Unplaced close matches:</strong> the complete B580327 match screen contains three Farrier/Ferrier Y-111 lines at GD 4, 4 and 5, including reported roots in Kent and Philadelphia. They are not drawn inside FT20271 because all three currently carry only broad R-M269 labels. Two Big Y matches at GD 8 and 10 instead belong to R-FTA30932, a different named branch. These results are valuable surname-change or deeper-kinship leads, but only a Farrier/Ferrier Big Y upgrade can determine whether that close STR cluster actually reaches FT20271.</p>
+                    <div class="sci-data">
+                        <div class="sci-row"><span class="sci-label">Most Likely TMRCA</span><span class="sci-val">1583 CE</span></div>
+                        <div class="sci-row"><span class="sci-label">95% Confidence</span><span class="sci-val">1387 CE - 1728 CE</span></div>
+                        <div class="sci-row"><span class="sci-label">Main Branches</span><span class="sci-val">Ulster based line and New World line R-FTE32242</span></div>
+                        <div class="sci-row"><span class="sci-label">Historical Layer</span><span class="sci-val">Covenanter era through early United States period</span></div>
+                        <div class="sci-row"><span class="sci-label">Years Without Ancient DNA</span><span class="sci-val">~370 Years</span></div>
+                    </div>
+                    <p class="evidence-note"><strong>Linked modern research profiles:</strong> The project page also associates this wider branch with <a class="profile-link" href="https://www.wikitree.com/wiki/Glasgow-591" target="_blank" rel="noopener">William Glasgow (c.1656)</a>, <a class="profile-link" href="https://www.wikitree.com/wiki/Glasgow-1144" target="_blank" rel="noopener">James Glasgow (1731–c.1793)</a>, <a class="profile-link" href="https://www.wikitree.com/wiki/Glasgow-12" target="_blank" rel="noopener">Robert Glasgow (1749–1839)</a>, <a class="profile-link" href="https://www.wikitree.com/wiki/Glasgow-2769" target="_blank" rel="noopener">Robert Glasgow (c.1780–c.1860)</a>, and <a class="profile-link" href="https://www.wikitree.com/wiki/Glasgow-951" target="_blank" rel="noopener">Alexander Glasgow (c.1811)</a>. These are research anchors, not a claim that the profiles form one documented father-to-son chain.</p>
+                </div>
+                <div class="sisters-section">
+                    <span class="sis-head">Key Terminal Branch</span>
+                    <div class="sis-row">
+                        <div class="sis-meta"><span class="sis-year">1850 CE</span><span class="sis-id">R-FTE32242</span></div>
+                        <div class="sis-info"><span class="sis-name">MIDWESTERN GLASGOW RESEARCH LINE</span><span class="sis-desc">The project associates this child branch with descendants of <a class="profile-link" href="https://www.wikitree.com/wiki/Glasgow-193" target="_blank" rel="noopener">James M. Glasgow</a>. Samuel's line continues through <a class="profile-link" href="https://www.wikitree.com/wiki/Glasgow-192" target="_blank" rel="noopener">Samuel Lyle</a>, <a class="profile-link" href="https://www.wikitree.com/wiki/Glasgow-191" target="_blank" rel="noopener">Edwin Lyle</a>, and <a class="profile-link" href="https://www.wikitree.com/wiki/Glasgow-2173" target="_blank" rel="noopener">Merle Willard Glasgow</a>; William's through <a class="profile-link" href="https://www.wikitree.com/wiki/Glasgow-2182" target="_blank" rel="noopener">William Allen</a>, <a class="profile-link" href="https://www.wikitree.com/wiki/Glasgow-2189" target="_blank" rel="noopener">John Kerr</a>, <a class="profile-link" href="https://www.wikitree.com/wiki/Glasgow-2191" target="_blank" rel="noopener">William Edward</a>, and <a class="profile-link" href="https://www.wikitree.com/wiki/Glasgow-2194" target="_blank" rel="noopener">William Rodney Glasgow Jr.</a> The project labels and paper pedigrees still require reconciliation with the public FT20271/FTE32242 kit assignments.</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-right">
+            <div class="card card-hist">
+                <div class="card-header-inner">
+                    <span class="context-label">Historical Narrative</span>
+                    <span class="hist-title">The Atlantic Exodus: Covenants & Colonies (c. 1600–1800)</span>
+                </div>
+                <div class="card-body">
+                    <p>
+                        <strong>The Covenanter Fracture:</strong> The stability of the Glasgow merchant line was shattered in the 17th century. Religious persecution under the Stuart monarchs - known as the <strong>"Killing Times"</strong> (1679–1688) - targeted Presbyterian Covenanters who refused to accept the King as head of the Church.
+                    </p>
+                    <p>
+                        The family faced a stark choice: conform, die, or flee. This trauma was the engine of their migration. It transformed them from settled city burgesses into religious refugees.
+                    </p>
+                    <p>Within this node the project recognises at least two patterns. One group of testers has ancestors who remained in Ulster or moved between Scotland and Ulster over several generations. The project associates the younger FTE32242 branch with the proposed line of <a class="profile-link" href="https://www.wikitree.com/wiki/Glasgow-12" target="_blank" rel="noopener">Robert Glasgow (1749–1839)</a> and <a class="profile-link" href="https://www.wikitree.com/wiki/Glasgow-193" target="_blank" rel="noopener">James M. Glasgow (1799–1875)</a>. Public project labels currently need reconciliation before that placement is treated as settled.</p>
+                    
+                    <hr style="border: 0; border-top: 1px solid rgba(255,255,255,0.1); margin: 1.5rem 0;">
+
+                    <div class="info-box ib-blue">
+                        <div class="box-header">
+                            <strong class="box-title">The Ulster Refuge</strong>
+                            <span class="box-tag">1600–1718</span>
+                        </div>
+                        <p class="box-content">
+                            Scottish Presbyterian settlement in Ulster provides a plausible setting for the Scottish, Irish and Northern Irish ancestral locations reported by testers. The Y-DNA node itself does not show when—or by which route—any particular Glasgow family entered Ulster.
+                        </p>
+                    </div>
+
+                    <div class="info-box ib-gold">
+                        <div class="box-header">
+                            <strong class="box-title">The Great Wagon Road</strong>
+                            <span class="box-tag">1718–1775</span>
+                        </div>
+                        <p class="box-content">
+                            The Great Wagon Road was an important route for Ulster-Scots migration from Pennsylvania into the Shenandoah Valley and Carolinas. It is relevant context for several American Glasgow branches, but each route should be supported by the records attached to profiles such as <a class="profile-link" href="https://www.wikitree.com/wiki/Glasgow-12" target="_blank" rel="noopener">Robert Glasgow (1749–1839)</a>.
+                        </p>
+                    </div>
+
+                    <p>
+                        <strong>The Genetic Marker (R-FT20271):</strong> This mutation connects the tested paternal lines to a shared male ancestor, probably in the early modern period. It supports comparison among the Scottish, Ulster and American branches; it does not by itself prove their documentary links to medieval Glasgow.
+                    </p>
+                    <p>
+                        By the late eighteenth century, documented Glasgow families were established on both sides of the Atlantic. The individual WikiTree profiles provide the testable bridge between that history and the genetic tree.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="action-bar">
+            <a class="action-btn" href="/ydna">Compare Tester Roots</a>
+            <a class="action-btn" href="https://discover.familytreedna.com/y-dna/R-FT20271/story" target="_blank">FTDNA Story</a>
+            <a class="action-btn" href="https://www.wikitree.com/wiki/Space:R-FT20271" target="_blank">WikiTree</a>
+        </div>
+        <div class="marker"></div>
+    </div>
+
+</div>
+
+</main>
+
+<script>
+    const observer = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+            if (entry.isIntersecting) { entry.target.classList.add('visible'); }
+        });
+    }, { threshold: 0.1 });
+
+    function checkScroll() {
+        const rows = document.querySelectorAll('.timeline-row');
+        rows.forEach(function (row) { observer.observe(row); });
+    }
+
+    window.addEventListener('scroll', () => {
+        const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+        const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        const scrolled = (scrollTop / scrollHeight) * 100;
+        document.getElementById('progressBar').style.width = scrolled + "%";
+    });
+
+    checkScroll();
+
+    const BCE_CUTOFF = 3000;
+    let deepAncestryExpanded = false;
+
+    function parseYearToInt(yearText) {
+        const yearMatch = (yearText || '').match(/(\d[\d,]*)/);
+        if (!yearMatch) return null;
+        return parseInt(yearMatch[0].replace(/,/g, ''), 10);
+    }
+
+    function shouldHideDeepRow(row) {
+        const yearText = row.getAttribute('data-year') || '';
+        const isBCE = /BCE/i.test(yearText);
+        const yearVal = parseYearToInt(yearText);
+        return isBCE && yearVal !== null && yearVal > BCE_CUTOFF;
+    }
+
+    function applyDeepAncestryVisibility() {
+        const deepRows = document.querySelectorAll('#deepSection .timeline-row');
+        deepRows.forEach(function (row) {
+            row.classList.toggle('deep-hidden', shouldHideDeepRow(row) && !deepAncestryExpanded);
+        });
+
+        // Collapsing or expanding changes every later row's position. Re-run the
+        // entrance animation check after the browser has applied the new layout.
+        requestAnimationFrame(checkScroll);
+
+        const deepToggle = document.getElementById('deepToggle');
+        if (!deepToggle) return;
+        deepToggle.textContent = deepAncestryExpanded ? 'Hide Deep Ancestry' : 'Show Deep Ancestry';
+        deepToggle.setAttribute('aria-expanded', String(deepAncestryExpanded));
+    }
+
+    function initDeepAncestryToggle() {
+        const deepToggle = document.getElementById('deepToggle');
+        if (!deepToggle) return;
+        applyDeepAncestryVisibility();
+        deepToggle.addEventListener('click', () => {
+            deepAncestryExpanded = !deepAncestryExpanded;
+            applyDeepAncestryVisibility();
+        });
+    }
+
+    // MOBILE TAB LOGIC
+    function initMobileTabs() {
+        if (window.innerWidth >= 1200) return;
+        const rows = document.querySelectorAll('.timeline-row');
+        rows.forEach(function (row) {
+                if (row.classList.contains('mobile-tabs-ready')) return;
+                const year = row.getAttribute('data-year');
+                const title = row.getAttribute('data-title');
+                const haploElem = row.querySelector('.snp-id');
+                const haploID = haploElem ? haploElem.innerText : '';
+                const leftCol = row.querySelector('.col-left');
+                const rightCol = row.querySelector('.col-right');
+
+                const headerDiv = document.createElement('div');
+                headerDiv.className = 'mobile-header';
+                headerDiv.innerHTML = `<span class="mob-year-badge">${year}</span><span class="mob-haplo-id">${haploID}</span><span class="mob-title">${title}</span>`;
+                
+                const tabsDiv = document.createElement('div');
+                tabsDiv.className = 'mobile-tabs';
+                
+                // Default to Evidence on Mobile
+                const btnDNA = document.createElement('button');
+                btnDNA.className = 'tab-btn active';
+                btnDNA.innerText = '🧬 Evidence';
+
+                const btnNarrative = document.createElement('button');
+                btnNarrative.className = 'tab-btn';
+                btnNarrative.innerText = '📜 Narrative';
+                
+                tabsDiv.appendChild(btnDNA);
+                tabsDiv.appendChild(btnNarrative);
+
+                row.prepend(tabsDiv);
+                row.prepend(headerDiv);
+
+                leftCol.classList.add('active-tab'); // Show DNA first
+                row.classList.add('mobile-tabs-ready');
+                
+                btnNarrative.addEventListener('click', () => {
+                    btnNarrative.classList.add('active');
+                    btnDNA.classList.remove('active');
+                    rightCol.classList.add('active-tab');
+                    leftCol.classList.remove('active-tab');
+                });
+
+                btnDNA.addEventListener('click', () => {
+                    btnDNA.classList.add('active');
+                    btnNarrative.classList.remove('active');
+                    leftCol.classList.add('active-tab');
+                    rightCol.classList.remove('active-tab');
+                });
+            });
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', function () {
+            initMobileTabs();
+            initDeepAncestryToggle();
+            applyDeepAncestryVisibility();
+        }, { once: true });
+    } else {
+        initMobileTabs();
+        initDeepAncestryToggle();
+    }
+    window.addEventListener('resize', initMobileTabs);
+</script>
+</body>
+</html>

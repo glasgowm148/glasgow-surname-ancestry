@@ -29,3 +29,19 @@ him with the Kilwaughter James or supplies parents or children.
    James; the records provide no bridge.
 
 Suggested edit summary: `Correct Captain James to an adult Belfast shipmaster active by 1667 and add the 1686 will reference.`
+
+## Branch placement - 31 August 2026
+
+James falls outside the user's pre-1600 birth filter, but his supplied island
+was also reviewed. His best current placement is as a **possible son or younger
+relative** of [Robert Glaskow of Larne (Glasgow-3970)](https://www.wikitree.com/wiki/Glasgow-3970)
+and a close collateral of the adjacent Kilwaughter householders
+[John (Glasgow-3913)](https://www.wikitree.com/wiki/Glasgow-3913) and
+[James (Glasgow-1081)](https://www.wikitree.com/wiki/Glasgow-1081).
+
+Belfast, Larne and Kilwaughter form a credible north-east Antrim maritime and
+estate corridor, and a shipmaster active by 1667 fits the next generation after
+Robert's 1653 occurrence. This is geographical/chronological evidence only.
+Captain James is **not** the Kilwaughter James: that man remained active and was
+apparently deceased only about 1726, forty years after Captain James's 1686
+will/estate reference.

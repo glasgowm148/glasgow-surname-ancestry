@@ -43,3 +43,21 @@ remain explicit no-merge candidates.
 Retain or restore **South Leith, Midlothian, Scotland** as the uncertain death
 location. It remains unproved because of the unresolved Barbara identities, but
 no reviewed evidence concretely conflicts with it.
+
+## Branch placement - 31 August 2026
+
+The leading family placement is as a possible daughter or niece of
+[Ninian Glasgow (Glasgow-3188)](https://www.wikitree.com/wiki/Glasgow-3188).
+Ninian's probable son [William (Glasgow-3075)](https://www.wikitree.com/wiki/Glasgow-3075)
+later lived in Leith, while Ninian's proved son Robert was a cordiner. Barbara's
+South Leith entry and the adjoining Edinburgh cluster of Glasgow women marrying
+cordiners and a tailor fit that household's geography and trade network.
+
+Barbara-3182 may also be the same woman as
+[[Glasgow-567|Barbara, mother of Catharine Little]] and
+[[Glasgow-3302|Barbara, wife of George Johnstoun]]. The sequence is possible:
+Catharine was born 9 September 1611; the Wilson entry is dated either 20
+September (possibly proclamation) or 26 November; and the Johnstoun marriage
+was in 1616. The Little baptism proves parenthood, not a marriage. Treat this
+as a **moderate identity hypothesis**, not a merge, until the original 1611
+entries and John Wilson's fate are checked.

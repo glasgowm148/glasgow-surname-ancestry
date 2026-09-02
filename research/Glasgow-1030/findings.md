@@ -31,6 +31,7 @@ merge the men on this evidence alone.
 | NRS, Glasgow Commissary Court, CC9/7/9, testament of Ninian Glasgow, made 10 January 1613 | Ninian left a new gown to `Johne glasgw his brother`. Ninian's 1596 burgess admission calls him the second son of Robert Glasgow, fisher and burgess. | Direct proof of a separate John, son of Robert the fisher, alive in 1613. Chronology and Robert's presence at the 1619 baptism make this man the leading identity candidate for John-1030, but do not prove the identity. |
 | Renwick, *Abstracts of Protocols*, vol. 6, protocols 1903-1904 (12 February 1572/73), and vol. 7, protocol 2002 (19 December 1573) | A John Glasgow, fisher, held land adjoining Robert Glasgow and witnessed Robert's property transaction; later Robert and John were witnesses together and both were described as fishers. | Proves a close namesake association but does not identify this John as Robert's son. Multiple adult Johns were active, and nothing carries the 1573 fisher into John-1030's marriage or child's baptism. |
 | J. D. Marwick, ed., *Extracts from the Records of the Burgh of Glasgow*, vol. 1, 1573-1642 | Complete surname-variant search found no entry identifying John by occupation, property, father or brother. | Negative search. The published extracts do not supply the missing identity bridge. |
+| Renwick, *Abstracts of Protocols*, vol. 1, protocols 183–184, [10 May 1554](https://archive.org/details/abstractsprotoc07robegoog/page/n90/mode/2up), with the later Mathie evidence summarized [here](../Glasgow-3908/mathie-glencairn-bridge-1554-1618.md) | David Mathy and Robert Glasgow were fellow burgesses and witnesses to the same sasine. David's son John is a plausible precursor of the Glencairn-associated Mathie household; Jonet Mathie married John-1030 in 1618. | If John-1030 was Robert's son, the marriage may continue an association between the descendants of the 1554 co-witnesses. This supports the identity model socially but does not name John's father or Jonet's father. |
 
 ## Exact relationship reconstruction
 
@@ -64,3 +65,36 @@ See [Glasgow-1167 findings](../Glasgow-1167/findings.md).
 ## Birth-estimate audit - 21 August 2026
 
 The live structured birth was corrected to **about 1570, uncertain**. The estimate places the candidate John in Robert the fisher's documented generation without treating a boundary as a birth fact. The earlier `before` value remains only a strict chronological boundary, not the most useful estimated birth. No biography, relationship, source or other structured field was changed in this audit.
+
+## Possible 1637 testament identity — 29 August 2026
+
+NRS Glasgow Commissary Court testament CC9/7/27 records a John Glasgw,
+burgess of Glasgow, who made his will and died on 7 April 1637. It names his
+children collectively, executor Robert Stewart, witnesses John Bell elder and
+Robert Stewart, and surgeon James Anderson, who was owed £10 for curing John's
+hurt leg.
+
+Glasgow-1030 is the leading existing-profile candidate because he was an adult
+in Glasgow by 1618/19 and has no proved death. The testament does not name
+Jonet Mathie, John's children individually, his father, occupation beyond
+burgess status or a property shared with Glasgow-1030. Treat identity as open
+and do not create a duplicate while this candidate remains viable.
+
+The complete local handoff is the
+[1637 HOLD evidence draft](../../surname-research/new-people/1637_Scotland_Glasgow_John_Glasgw.md).
+
+## Mathie marriage-network lead — 30 August 2026
+
+Jonet may belong to a Clerkland–Glencairn Mathie household documented through
+John Mathie senior and junior in 1600 and two successive Glencairn servitors of
+that name in 1606. The younger writer is the leading candidate for her father
+or close older kinsman. January 1607 tutory retours name the deceased John
+Mathie of Ibert's full brother Matthew, a Glasgow burgess, and John's lawful
+children James, David, Agnes and Margaret. Jonet is not named, so she should
+not be attached as his daughter; she could have been older than the children
+requiring tutory or belonged to the younger writer's household. This would
+place John's marriage within the same
+Glencairn network as the Stevenston/Corsankell Glasgows, while Robert's direct
+1554 association with David Mathy provides an independent link from John's
+probable paternal family. Treat this as a coherent working reconstruction, not
+as permission to attach Jonet to an unproved father.

@@ -1,8 +1,75 @@
 # Findings: Glasgow-951
 
-Last updated: 2026-08-19
+Last updated: 2026-08-26
 
 ## Current conclusion
+
+### Parent-record search pause and exhaustion audit, 26 August 2026
+
+No concrete record identifying Alexander's father or mother was found. The
+current attachment to Robert remains uncertain, and the Alexander/Rosanna
+tradition still applies directly only to Thomas; no record yet proves that
+Alexander and Thomas were brothers.
+
+The following searches were completed without a parentage result:
+
+- FamilySearch historical-record searches for Alexander and surname variants,
+  including Antrim births/baptisms, marriages, census material and attached
+  sources. The only target records were the already-known 1851 census and 1834
+  tithe entries; neither names a parent.
+- FamilySearch full-text searches for Alexander Glasgow, Glasgow with
+  Rasharkin, Lisnagaver and nearby place variants. Results were unrelated deeds
+  or later records. The County Antrim religious-image browse did not contain a
+  Kilraughts Reformed Presbyterian group. Image group 007732596, item 3, proved
+  to be a Ballymoney parish marriage index; all 66 images were checked without
+  a relevant Glasgow entry.
+- The original 1851 Lisnagaver census household and neighbouring returns. They
+  establish Alexander's household and nearby Glasgow clusters but do not state
+  his parents.
+- The 1834 tithe image, Griffith's Valuation, valuation-revision books, relevant
+  Registry of Deeds material, pre-1858 will indexes, the 1870 Thomas Glasgow
+  administration and Daniel Glasgow's 1871 will. These establish places and
+  some collateral relationships, but none calls Alexander anyone's son or
+  brother.
+- The Gortahar civil death record of 16 May 1888, civil marriages of the known
+  children and the available Irish census-search forms. The death informant and
+  later child records do not name Alexander's parents; no useful pension
+  census-search form was found.
+- Scottish statutory death searches for plausible Glasgow collaterals of the
+  right age and Irish origin. No candidate both identified the proposed parents
+  and could be connected to Alexander by a record.
+- Newspaper and exact-name/place searches, including the Belfast press and an
+  1888 volume of the ''Reformed Presbyterian and Covenanter''. No target
+  obituary, birth notice or kinship statement was found.
+- Search Inside of S. Alexander Blair's ''Kilraughts: A Kirk and Its People''.
+  Its Glasgow OCR hits refer to Glasgow University or the city; it contains no
+  searchable Lisnagaver, Rosanna or target-family entry.
+- Public web, gravestone and family-history searches. The 2007 Genes Reunited
+  post remains the earliest located Alexander/Rosanna claim, but it is later
+  descendant testimony about Thomas, not a historical record for Alexander.
+  MyHeritage and FamilySearch trees repeat incompatible Robert/Catherine,
+  John/Rosanna and Alexander/Rosanna constructions without a source proving
+  this profile's parents.
+
+RootsIreland's live County Antrim source inventory lists **Kilraughts (RP),
+1780-1934** under its **Gravestone Inscriptions** table, not under baptismal or
+congregational records. It therefore does not establish that RootsIreland has
+indexed the early Kilraughts membership and family lists in PRONI
+`CR5/32/1/1/1-2`. On 26 August an authenticated County Antrim search for
+Alexander Glasgow in 1811 (±5 years) returned no baptism/birth result. A
+surname-only Glasgow search over the same date range returned two
+baptism/birth results and one census-substitute result, but RootsIreland
+requires a paid subscription to display them. Those entries have not been
+inspected; they may be useful collateral records, but neither is indexed as
+Alexander. A subscription is therefore a low-probability route to Alexander's
+parents. PRONI has so far sent only automated acknowledgements to the 19 August
+targeted request, with no transcript or quotation. The original congregational
+register remains the clearest unresolved route to a concrete parent record.
+
+FamilySearch's catalogue also identifies three Kilraughts histories/booklets,
+but no remotely accessible copy of the early register. The restricted digital
+copy of Blair's book was searched through Internet Archive's legitimate Search
+Inside service; no access restriction was bypassed.
 
 ### New gap audit and searches, 18 August 2026
 
@@ -902,3 +969,457 @@ Profile prose and trees remain leads; inspect the cited record before treating a
 - [John Grenham, "Church records for Rasharkin"](https://www.johngrenham.com/records/church.php?civilparish=Rasharkin&civilparishid=347&search_type=full)
 - [John Grenham, "Historic Presbyterian church records for County Antrim"](https://www.johngrenham.com/records/county_church_full.php?county=Antrim&denomination=Presbyterian&location=Public+Record+Office+of+Northern+Ireland&search_type=full)
 - ["Lisnagaver Townland, Co. Antrim"](https://www.townlands.ie/antrim/kilconway/rasharkin/killoquin/lisnagaver/)
+## 24 August 2026: Lisnagaver collateral and land-succession evidence
+
+The 1846 civil marriage of John Glasgow of Lisnagaver supplies a new indirect
+route to Alexander's parentage. John was a full-age bachelor and farmer of
+Lisnagaver, and his father was explicitly recorded as **John Glasgow,
+farmer**. He married Margaret Garvin on 16 November 1846. The certificate is
+saved as `sources/john_glasgow_margaret_garvin_marriage_1846.pdf`.
+
+The surviving 1851 census then places three Glasgow households together at
+Lisnagaver:
+
+* house 34: John Glasgow, farmer, with Samuel Glasgow explicitly described as
+  his brother;
+* house 35: Alexander Glasgow, farmer, with Mary and their children;
+* house 37: Thomas Glasgow, farmer.
+
+John and Samuel are therefore proved brothers and their father was named John
+on the ordinary reading of the marriage record. The census does **not** call
+Alexander or Thomas their brothers, so proximity alone cannot extend that
+parentage to them.
+
+The land evidence nevertheless makes a relationship worth testing. In the
+1834 tithe book Alexander Glasgow held 29 acres and Robert Glasgow held 35
+acres at Lisnagaver. In the first valuation, John Glasgow's lot 24 contained
+21 acres 2 roods 25 perches and Alexander Glasgow's adjoining lot 25 contained
+8 acres 2 roods 10 perches. Together those holdings closely reconstruct the
+earlier 29-acre Alexander holding. Thomas Glasgow's lot 26a contained 32 acres
+3 roods 15 perches, closely matching Robert's earlier 35-acre holding.
+
+A Registry of Deeds mortgage dated 8 May 1886 confirms that the Thomas branch's
+farm remained a distinct block. Mary Ann Glasgow, widow, and Daniel Glasgow,
+farmer, both of Lisnagaver, mortgaged a farm of 33 acres 3 roods 36 perches;
+Mary Ann was stated to hold it as tenant from year to year. The deed does not
+state their relationship, but its acreage materially strengthens the proposed
+Robert-to-Thomas farm continuity. An 1881 judgment memorial separately says
+that Thomas Glasgow of Lisnagaver, farmer, was then deceased; it supplies no
+parentage.
+
+### Parentage implications
+
+| Model | Present assessment |
+| --- | --- |
+| Older Alexander Glasgow and Rosanna were parents of Alexander, Thomas and Daniel | Still plausible from the descendant account, but not proved by a contemporary record. |
+| John Glasgow, farmer, was father of John, Samuel and Alexander | Newly plausible if the adjacent John and Alexander holdings represent a family division; the evidence does not yet prove that John and Alexander were brothers. |
+| John Glasgow `Glasgow-1022` was that father | Possible only as a candidate. His reported age and Glenleslie household create chronology and identification problems, and no record connects him to Alexander. |
+| The 1834 Alexander tenant was Alexander born about 1811 | Chronologically possible; he was about 23 and married by about 1836. If so, the later acreage division need not represent inheritance from an older Alexander. |
+
+The father name **John** must therefore be retained as a competing hypothesis,
+not substituted for the current uncertain Alexander/Rosanna attachment.
+
+### Negative searches and remaining tests
+
+* FamilySearch full-text searches for exact `Rosanna Glasgow` and `Rose
+  Glasgow` in County Antrim returned no result.
+* PRONI's pre-1858 Name Search returned no Alexander Glasgow in Antrim and no
+  Glasgow result at Rasharkin in the indexed wills, 1740 householders, 1766
+  census or 1775 petitions.
+* PRONI's freeholder database returned no Alexander Glasgow and no Glasgow
+  freeholder at Lisnagaver or Rasharkin. These are limited negative findings:
+  tenant farmers need not have qualified as freeholders and the Name Search
+  covers only selected surviving records.
+
+The decisive targets remain `CR5/32/1/1/1-2`, the Second Portglenone marriage
+register, and Killoquin estate rentals or tenant books that can name the
+predecessor and successor for the 29-acre holding. The 1818 Kilraughts
+Presbyterian subscription list at the Presbyterian Historical Society of
+Ireland is an additional locality check, but a subscriber name alone would not
+prove parentage.
+
+### Primary records used in this update
+
+* Irish civil marriage register, Coleraine district, John Glasgow and Margaret
+  Garvin, 16 November 1846: https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1846/09306/5369439.pdf
+* Registry of Deeds memorial, judgment concerning Thomas Glasgow of
+  Lisnagaver, 1881: https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSK3-S9HM-Y
+* Registry of Deeds memorial, mortgage by Mary Ann and Daniel Glasgow of
+  Lisnagaver, 1886: https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJ4-3PC5
+## 24 August 2026: census sequence, probate and archive-reference audit
+
+### Complete 1851 Lisnagaver household sequence
+
+The surviving 1851 census pages clarify the physical ordering of the Glasgow households:
+
+* house 34: John Glasgow, aged 50, born County Antrim, with wife Margaret, daughter Ann, and his unmarried brother Samuel Glasgow, aged 60, linen weaver, born County Londonderry;
+* house 35: Alexander Glasgow, aged 40, with Mary and children Robert, James and Ann;
+* house 36: John Watters, blacksmith, and family;
+* house 37: Thomas Glasgow, aged 35, with Mary Ann and daughters.
+
+John and Alexander were therefore adjacent householders. Thomas was nearby but not immediately adjacent, being separated from Alexander by the Watters household. No death reported for 1841-1851 in houses 34, 35 or 37 identifies an older Glasgow relative.
+
+John and Samuel are expressly recorded as brothers. Their different reported birth counties suggest movement from County Londonderry to County Antrim between Samuel's approximate 1791 birth and John's approximate 1801 birth. Alexander's County Antrim birth about 1811 is compatible with membership in that family, but the census does not call him their brother.
+
+Source: County Antrim 1851 census, Lisnagaver household returns, reproduced in the surviving census transcription and FamilySearch images.
+
+### Thomas Glasgow's administration
+
+The PRONI Will Calendars record that Thomas Glasgow, farmer of Lisnagaver, died there on 21 June 1870. Letters of administration were granted at Belfast on 7 September 1870 to his widow Mary Anne Glasgow. His effects were under GBP200. Thomas died intestate, and no will image or testamentary statement names parents or siblings.
+
+This record confirms Thomas's residence, occupation, wife and death date but does not advance Alexander's parentage.
+
+Source: [PRONI Will Calendars search](https://apps.proni.gov.uk/WillsCalendar_IE/WillsSearch.aspx), Thomas Glasgow, Lisnagaver, died 21 June 1870, administration 7 September 1870.
+
+### Archive-reference correction
+
+The PRONI eCatalogue shows the D3209 collection as correspondence of Sir Robert Bateson Harvey dating only from 1790 to 1792. D3209/1, dated 19 April 1790, is the sole indexed item in that collection mentioning Lisnagaver. No indexed 1835 Lisnagaver rental was found, so an alleged D3209 1835 tenant book must not be cited or treated as an existing lead without a corrected archival reference.
+
+The older PRONI church-record guide describes the crucial early Kilraughts Reformed Presbyterian material as `CR5/32A/1`, including society lists, baptisms, marriages, deaths and removals from about 1804 to about 1831. The current lookup request uses the modern reference `CR5/32/1/1/1-2`; the older reference should be supplied as an alias in any follow-up.
+
+### Descendant-post reassessment
+
+The 2020 replies to the 2007 Genes Reunited post add Griffith's Valuation observations but no source for the claimed parents Alexander and Rosanna or Rosanna's reported death on 23 October 1822. The post remains a useful descendant tradition, not evidence establishing the parents.
+
+### Current parentage assessment
+
+Two competing models remain:
+
+1. **Older Alexander and Rosanna:** supported only by the unsourced descendant tradition concerning Thomas; compatible with the name Alexander and the 1834 Alexander Glasgow tenancy, but not independently proved.
+2. **A father named John:** John Glasgow's 1846 marriage directly names his father as John Glasgow, farmer. John and Samuel are proved brothers, and John was Alexander's immediate neighbour. This model applies to Alexander only if an unproved sibling relationship between Alexander and John can be established.
+
+The land pattern remains suggestive rather than dispositive. John and Alexander's later holdings together approximate the earlier Alexander Glasgow holding, while Thomas's holding approximates Robert Glasgow's earlier block. Tenancy subdivision or transfer can explain this without biological inheritance.
+
+The decisive outstanding source remains the early Kilraughts Reformed Presbyterian register and society lists. No new record located in this pass names Alexander's parents.
+## 24 August 2026: early marriage, baptisms and Gortereagh residence
+
+### Marriage year established by the 1851 census
+
+Alexander and Mary each reported that they married in **1836**. This is not merely a later tree estimate: it appears in the marriage-year field of their 1851 Lisnagaver census household.
+
+Rasharkin Presbyterian's surviving marriage register begins in 1845, so it cannot supply their 1836 marriage. The reported year nevertheless narrows any search in another congregation or presbytery record.
+
+### Rasharkin Presbyterian baptisms
+
+The published transcription of the original Rasharkin Presbyterian register, PRONI `MIC1P/292`, identifies the family before the 1851 census:
+
+* entry 75: **James Glascaw**, born 17 January 1837 and baptised 9 February 1837, son of Alex and Mary McAughin, residence Gortereagh;
+* entry 106, in the 1838 sequence: an unnamed or illegible **Glascow** child of Alex and Molly McAughern, residence Gortereagh; the baptism date, birth date and child's forename were not transcribed;
+* the register transcription has no entries for 1840 or 1841, the probable period of son Robert's birth;
+* entry 203: **James Glascow**, born 9 October 1843 and baptised 7 January 1844, son of Alex and Molly McAughern, residence Lisnagaver.
+
+The 1837 James must have died before the name was reused for the child born in 1843. No burial or death record for the first James has been located. The illegible 1838 entry is potentially important because its child's forename might preserve a grandparent's name; the original image should be inspected rather than guessed from the transcription.
+
+Source: Richard John Torrens, [Rasharkin Presbyterian Church baptisms from 1834](https://genealogy.torrens.org/BannValley/church/RasharkinP/Baptisms_1834.html), transcription from PRONI `MIC1P/292`.
+
+### Residence sequence and the 1834 Alexander
+
+The evidence now supports this sequence:
+
+* 1834: an Alexander Glasgow held 29 acres at Lisnagaver in the tithe applotment;
+* 1836: Alexander and Mary married;
+* 1837-1838: their children were baptised from Gortereagh;
+* by 1843: they were again at Lisnagaver;
+* 1851 and Griffith's Valuation: Alexander was a Lisnagaver farmer.
+
+Alexander-951 was about 23 in 1834 and was old enough to be the tithe occupier before his marriage. There is therefore no need to posit an older same-named father to explain the 1834 entry. In the absence of a distinguishing designation, the tithe entry is at least as plausibly Alexander-951 as `Glasgow-3904`.
+
+This materially weakens the current older-Alexander parent hypothesis. Apart from the unsourced descendant post, no independent record yet establishes that a separate older Alexander existed in this family.
+
+### Gortereagh and the McCaheran family
+
+No Glasgow occupier appears in the 1834 Gortereagh tithe list. It does include **William and James McCaheran**, a local spelling compatible with McAughin/McAughern/McCaughan. Alexander and Mary's residence there immediately after marriage may therefore reflect Mary's family or a subtenancy rather than a Glasgow holding.
+
+The first known son was named James, and a James McCaheran was at Gortereagh in 1834. This is a useful maternal-family hypothesis, not proof that James was Mary's father. The name could commemorate either side of the family, and the illegible 1838 child's name remains unknown.
+
+The 1851 Lisnagaver census also contains a substantial McCaheren cluster, including widow Sarah McCaghrin, aged 70, and several younger households. None is expressly related to Mary Glasgow, so no parent should be assigned from proximity alone.
+
+### Grave-inscription search
+
+The Ulster Historical Foundation gravestone index returned no Glasgow inscription for Kilraughts. A county-wide Antrim search returned only a Glasgow/Shuter inscription at Inver Church of Ireland. This is limited negative evidence because the index does not cover every grave or graveyard and many families had no surviving stone.
+
+### Revised parentage assessment
+
+* **Older Alexander and Rosanna:** now weaker. The descendant tradition remains the only evidence, and the 1834 tithe Alexander may be Alexander-951 himself.
+* **Father John:** still possible only through the unproved proposition that Alexander was brother of John and Samuel. John's 1846 marriage directly names his own father as John, but no source extends that statement to Alexander.
+* **Another father, possibly James:** the first son's name and the lack of a proved older Alexander make this possible, but naming custom is not adequate evidence.
+
+No parent can yet be assigned confidently. The highest-value unresolved records are the original 1838 baptism entry, the early Kilraughts membership/death material (especially the reported Rosanna death), and the 1790 Lisnagaver rental.
+## Original 1851 household-image audit (24 August 2026)
+
+The original Lisnagaver return for house 34 records **John Glasgow, 50**,
+farmer and head; **Margaret Glasgow, 30**, wife; Ann Glasgow, 3, daughter;
+and **Samuel Glasgow, 60, brother**, unmarried linen weaver. The manuscript
+therefore confirms that Samuel's age was 60, not the `6` found in one
+electronic transcription. John and Margaret both reported that they had
+married in 1846, independently matching their civil marriage.
+
+John's census age conflicts directly with the Rasharkin Presbyterian
+gravestone transcription, which identifies Margaret Garvin and gives her
+husband John an age of 78 at death on 20 June 1895 (implying birth about
+1816/17). Because the wife and marriage chronology identify the same couple,
+the conflict cannot be resolved by assuming that the records concern two
+unrelated John Glasgows. John's age is therefore unsafe as evidence that he
+belonged to an older generation than Alexander. The 1846 marriage remains the
+direct evidence that John's father was another **John Glasgow, farmer**.
+
+The reverse/death tables were also inspected for Lisnagaver houses 34, 35 and
+37. John's and Alexander's returns list no household member who died between
+1841 and 1851. Thomas's return lists only his infant daughter Eliza. No parent
+or older Glasgow relative appears. This closes a useful census route but does
+not distinguish the father-John hypothesis from the descendant tradition naming
+older Alexander and Rosanna.
+
+Primary census pages: [house 34](https://www.census.nationalarchives.ie/pages/1851/Antrim/Kilconway/Rasharkin/Lisnagaver/34/),
+[house 35](https://www.census.nationalarchives.ie/pages/1851/Antrim/Kilconway/Rasharkin/Lisnagaver/35/) and
+[house 37](https://www.census.nationalarchives.ie/pages/1851/Antrim/Kilconway/Rasharkin/Lisnagaver/37/).
+## Additional archive findings, 24 August 2026
+
+The surviving **1803 County Antrim agricultural census cannot test this family**.
+Its extant returns cover Kilraughts and several neighbouring north-Antrim
+parishes, but not Rasharkin parish or Lisnagaver. Absence from published 1803
+indexes is therefore not evidence that the Glasgows were absent from Lisnagaver.
+
+An 1768 letting notice quoted in Francis Joseph Bigger's *The Ulster Land War
+of 1770* advertised **three farms at Lisnagaver** for 21-year terms. This is useful
+estate context, not a Glasgow record. By 1834 the tithe book names Alexander and
+Robert Glasgow as separate Lisnagaver occupiers; Griffith's Valuation later names
+Alexander, John and Thomas Glasgow there under Robert Harvey. Because John's
+1846 marriage independently identifies his father as another John Glasgow, the
+three later tenancies cannot safely be interpreted as three sons dividing one
+father's farm. The earlier lease and rent succession nevertheless offers a route
+to kinship evidence if the named lives or previous tenants survive.
+
+The relevant landlord material is now more precisely identified:
+
+* PRONI `D3209` is an Antrim Harvey-estate rent roll dated April 1790. The pending
+  lookup for `D3209/1` should search Lisnagaver/Killoquin for Glasgow, Glasgo,
+  Glassgow and Glasgon, and transcribe tenant, holding, rent, arrears, associated
+  lives, predecessor and successor.
+* PRONI `D2972` includes c.1869 maps of Sir Robert Bateson Harvey's Killoquin
+  estate in Finvoy and Rasharkin. These maps may align the later lots but are
+  unlikely by themselves to name Alexander's parents.
+* Ballymoney Museum's Local History Resource Area holds an **1818 Kilraughts
+  Presbyterian Church subscription list**. The Presbyterian Historical Society
+  of Ireland also indexes that list. A Glasgow entry would establish presence and
+  congregational association, but not parentage unless the manuscript groups a
+  household or supplies a residence.
+* The museum's Alex Blair Collection contains copies and complete proofs of
+  S. Alexander Blair's *Kilraughts: A Kirk and Its People*, plus a folder titled
+  `Kilraughts - People`. These unpublished working materials are a separate
+  lookup target because they may preserve household identifications or source
+  notes omitted from catalogue descriptions.
+
+No indexed contemporary source located in this pass confirms the reported death
+of Rosanna Glasgow on 23 October 1822. That exact claim still traces only to the
+2007 Genes Reunited descendant post. The early Kilraughts Reformed Presbyterian
+register `CR5/32/1/1/1-2`, the 1790 rent roll, and the Blair papers remain the
+three best identified routes to Alexander's parental household.
+
+Sources for this archive assessment include [Bigger, *The Ulster Land War of
+1770*](https://archive.org/details/ulsterlandwarof00biggiala), pp. 125-126;
+[PRONI Deputy Keeper reference index](https://donegalgenealogy.com/dkr5.htm);
+[Alex Blair Collection inventory](https://niarchive.org/wp-content/uploads/2019/04/Alex-Blair-printable-version.pdf);
+[Ballymoney Local History Resource Area inventory](https://niarchive.org/wp-content/uploads/2018/09/Ballymoney-History-Resource-Area-Inventory.pdf);
+and the [Presbyterian Historical Society record indexes](https://presbyterianhistoryireland.com/web-resources/indexes-to-records/).
+
+## Continued parentage search — 24 August 2026
+
+### First Kilraughts marriage register remains the decisive local target
+
+An independently published family reconstruction cites a marriage at Kilraughts Presbyterian on 8 November 1839 and names two witnesses. This confirms that the surviving First Kilraughts register contains marriages and witness details in the period immediately after Alexander Glasgow and Mary McCaughan's reported 1836 marriage. Their entry should be sought under Glasgow/Glasgo/Glassgow and McCaughan/McAughin/McAughern/McCaughren variants. Witnesses could connect Alexander to the proposed sibling or parental households. This is a record-finding lead, not evidence of Alexander's parents.
+
+Source: https://ulsterlees.azurewebsites.net/families/co-antrim/ballymoney-area/
+
+### Kilraughts burial indexes
+
+The published surname index for Kilraughts Old Churchyard does not list Glasgow, although it does list Glass and McCaughan. This is weak negative evidence only: the family could lack a surviving inscribed stone, use another burial ground, or appear under an unindexed spelling. NIFHS separately lists inscription collections for Kilraughts Old Church Graveyard and First Kilraughts Presbyterian/Kilraughts Reformed Presbyterian.
+
+Source: https://ballymoneygraveyard.com/grave-indices/
+
+### Alexander Glasgow, Ireland — Glasgow weavers roll, 1816-17
+
+Appendix VII of *Old Glasgow Weavers* lists **Alexander Glasgow, Ireland** among members entering in 1816-17. The appendix states that addresses generally reflect the address at admission. This is chronologically compatible with the proposed older Alexander, but the entry gives no county, age, wife, children, father, or occupation. The roll also contains overseas merchants and other non-resident members, so membership does not by itself prove that Alexander worked as a weaver.
+
+No corresponding entry was found under Alexander Glasgow in the published *Burgesses and Guild Brethren of Glasgow, 1751-1846*. The original Incorporation of Weavers admission or minute entry is required to learn whether he entered by apprenticeship, patrimony, purchase, nomination, or honorary admission and whether a father or master was named. A draft lookup request is saved at `research/Glasgow-951/sources/glasgow_weavers_lookup_request_2026-08-24.md`.
+
+Sources:
+
+- https://www.tradeshousemuseum.org/uploads/4/7/7/2/47723681/old_glasgow_weavers_2nd_ed.pdf
+- https://archive.org/details/scottishrecord51scotuoft
+- https://www.tradeshouse.org.uk/crafts-weavers/
+
+### FamilySearch full-text search — bounded negative results
+
+Targeted full-text searches produced no parentage record:
+
+- `"Rosanna Glasgow"`, Antrim, 1750-1830: no results.
+- `"Alexander Glasgo"`, Antrim, 1750-1850: no results.
+- `"Alexander Glasgow"`, Rasharkin, 1750-1850: one false-positive landed-gentry page concerning the Old Court, County Cork family.
+- `Lisnagaver Glasgow`, Ireland, 1750-1855: no results.
+- `Killoquin Glasgow`, Ireland, 1750-1855: no results.
+
+A broader Killoquin search found estate and deed references, but the inspected 1789 memorial concerned Sir Robert Bateson Harvey and Elizabeth Moore and named no Glasgow. These are bounded index negatives, not proof that the family was absent; congregation censuses and estate rent rolls are not necessarily included or accurately OCRed.
+
+### Current conclusion
+
+No new evidence identifies Alexander Glasgow (born about 1811)'s parents. Older Alexander Glasgow and Rosanna remain an unsourced working hypothesis. The strongest unresolved sources are, in order: the c.1836 First Kilraughts marriage entry; the early Kilraughts congregation census/register; the 1790 Killoquin/Lisnagaver rent roll; and the original 1816-17 Glasgow Weavers admission entry.
+## Gortahar identification and daughter Mary — 24 August 2026
+
+The 14 June 1871 civil marriage of Robert Elder and Mary Glasgow directly names Mary's father as **Alexr. Glasgow, farmer**, and gives Mary's residence as Lisnagaver. Mary was aged 28. This proves an additional daughter of Alexander Glasgow of Lisnagaver and supplies the bridge to the later Gortahar death records.
+
+Alexander Glasgow died at Gortahar on 16 May 1888, reportedly aged 84; his daughter Mary Glasgow was present. The widow Mary Glasgow died there on 27 February 1892, reportedly aged 89; her daughter Mary Elder was present. Because Mary Elder's marriage identifies her father as Alexander of Lisnagaver, this death pair is now a strong match for [[Glasgow-951|Alexander Glasgow]] and Mary McCaughan. The death age suggests about 1804, while the 1851 census suggests about 1811, so the birth date remains estimated.
+
+PRONI revision books VAL/12/B/4/16A-C place John, Alexander and Thomas Glasgow on consecutive Lisnagaver holdings 24-26. In the 1879-1888 book Alexander is crossed out at holding 25, with subsequent change annotations from the 1880s. This fits a move away from Lisnagaver before the Gortahar death, but it does not prove kinship among the three occupiers.
+
+Robert Glasgow of Prescott's 1849 will names brothers Daniel, Samuel, John and Thomas, the children of deceased brother James, and sister Mary. Alexander is omitted. That weighs against making Alexander another proved sibling of Daniel and Thomas; he could instead belong to deceased James's child-group, but no direct record yet establishes that placement.
+
+Full transcription and primary links: [sources/gortahar_deaths_and_lisnagaver_revisions_2026-08-24.md](sources/gortahar_deaths_and_lisnagaver_revisions_2026-08-24.md).
+
+## Source findings - Gortahar Elder continuation, 24 August 2026
+
+The 1901 census index identifies **Mary Elder**, aged 60, widowed, Presbyterian and a farmer, as head of household 7 at Gortahar, Killoquin Lower, County Antrim. Her household included Mary Elder, aged 28, Robert Elder, aged 26, and Jane Elder, aged 22.<ref>[https://www.familysearch.org/ark:/61903/1:1:QPB2-KNM2 FamilySearch, 1901 Ireland census index], Mary Elder household, Gortahar.</ref>
+
+The same family continued at Gortahar in 1911. Household 9 contained Robert J. Elder, aged 36, his widowed mother Mary Elder, aged 72, Jane M. Elder, aged 26, and a two-year-old nephew indexed as “Samuel Glasgow”.<ref>[https://www.familysearch.org/ark:/61903/1:1:QYHR-52T2 FamilySearch, 1911 Ireland census index], Robert J. Elder household, Gortahar; individual entry for [https://www.familysearch.org/ark:/61903/1:1:QYHG-YHMM Mary Elder].</ref>
+
+The nephew was almost certainly **Samuel Glasgow Elder**, whose birth was registered in Ballymoney district in the third quarter of 1908.<ref>[https://www.familysearch.org/ark:/61903/1:1:FBP3-95M FamilySearch, Ireland civil registration birth index], Samuel Glasgow Elder, Ballymoney, July-September 1908, vol. 1, p. 111.</ref> No corresponding Ballymoney birth was found for a child surnamed Glasgow. The census display appears to have mistaken Samuel's middle name for his surname.
+
+This evidence materially strengthens the identification of the Gortahar Elder household with [[Glasgow-3167|Mary Glasgow]], daughter of Alexander, who married [[Elder-7251|Robert Elder]] in 1871. The continued use of **Glasgow** in Samuel's full name is particularly significant. Combined with Mary Elder reporting her mother Mary Glasgow's death at Gortahar in 1892, the evidence now makes the Lisnagaver-to-Gortahar identification high confidence rather than merely a geographic possibility.
+
+The civil death index also records a Robert Elder, aged 64, whose death was registered at Ballymoney in the fourth quarter of 1894.<ref>[https://www.familysearch.org/ark:/61903/1:1:FTZP-9M6 FamilySearch, Ireland civil registration death index], Robert Elder, Ballymoney, October-December 1894, vol. 1, p. 100.</ref> His age fits the forty-year-old Robert who married Mary Glasgow in 1871, and the date explains Mary's widowed status in 1901. This remains a strong candidate pending inspection of the original death entry.
+
+The Gortahar evidence also changes the assessment of the 1888 informant **Nancy Glasgow**. [[Glasgow-438|Ann Glasgow]] had married Robert McCracken in 1876 and would ordinarily have been recorded under her married surname. Nancy should therefore not presently be identified with Ann without another record. A separate daughter, perhaps born after 1851 or absent from Alexander's census household, is at least equally plausible.
+
+No new record directly names Alexander's parents. [[Glasgow-1367|Robert Glasgow]] remains the leading uncertain, place-based father candidate rather than a proved relationship.
+
+## Parentage and identity refinement - 24 August 2026
+
+The original 1876 marriage of [[Glasgow-438|Ann Glasgow]] materially strengthens the 1888 Gortahar identification. Ann was a full-age spinster of Lisnagaver and named her father as **Alexander Glasgow, labourer**.<ref>General Register Office of Ireland, civil marriage register, Robert McCracken and Ann Glasgow, 13 October 1876; [https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1876/11181/8097170.pdf digital image].</ref> Alexander's description as a labourer in 1888 therefore does not distinguish the deceased from the former Lisnagaver farmer; the occupational change was already documented twelve years earlier.
+
+The original 1846 marriage of [[Glasgow-867|John Glasgow]] names John's father as **John Glasgow, farmer**.<ref>General Register Office of Ireland, civil marriage register, John Glasgow and Margaret Garvin, 16 November 1846; [https://www.irishgenealogy.ie/view/?record_id=cima-3156063 original entry].</ref> Because the 1851 census proves [[Glasgow-2908|Samuel Glasgow]] was John's brother, John and Samuel belong to a father-John branch. Their later lot 24 tenancy must not be used to infer descent from either the 1834 Lisnagaver Robert or the reconstructed older Alexander merely because the holdings were adjacent.
+
+The 1834 Robert remains unidentified. [[Glasgow-1367|Robert Glasgow of Glenleslie]] is chronologically capable of fathering Alexander and remains attached as the user's preferred uncertain working candidate, but his documented Doonbought-Glenleslie sequence does not identify him with the Lisnagaver tithe occupier. No direct parent record has been found.
+
+## Elder-McCaheren network refinement - 24 August 2026
+
+Civil registration now separates three Nathaniel Elder generations at Gortahar. Nathaniel Elder, born about 1835-36, married Hannah Wilson in 1869, naming his father as Nathan Elder, farmer. Their son Nathan was born at Gortahar on 8 July 1872 and married Henrietta Alexander in 1899. The elder Nathaniel died there on 31 March 1909, aged 73, with his son Joseph present.
+
+The middle Nathaniel is a probable additional son of [[Elder-7300]] and probable brother of [[Elder-7251|Robert Elder]] and [[Elder-7301|William Elder]]: all three were sons of a Nathaniel Elder, farmer, in the same Rasharkin micro-area. No record yet expressly calls them brothers, so the relationship remains probable rather than proved.
+
+The 1834 tithe lists Robert Elder senior, Robert and Joe Elder, and Nathaniel and John Elder as separate or grouped occupiers at Gortereghy. This supports an established Elder kin-and-land network but states no relationships. [[Elder-5352]] may be one of the Robert entries and may have been closely related to [[Elder-7300]]; neither identity nor relationship is yet unique.
+
+The 1851 Lisnagaver census fragment materially changes the assessment of [[McAughin-1]]. Mary McCaheren, aged 22, lived in household 31 with farmer Archibald McCaheren, aged 60, and his wife Elizabeth. She is the strongest located candidate for the 1855 bride who named her father as Archy. The younger Archibald and Elizabeth household previously attached to her contains no Mary of marriageable age. Her original marriage record must still be compared for residence and witnesses before changing parents.
+
+The same census groups widowed Sarah McCaghrin and her grandchildren with widowed Margaret Elder and her children in household 5. This is useful FAN evidence for Elder-McCaughan association, but the return does not state kinship.
+
+Detailed transcriptions, assessments and primary civil-record links are preserved in [sources/elder_mcaheren_network_2026-08-24.md](sources/elder_mcaheren_network_2026-08-24.md).
+
+## Reassessment of Robert Glasgow-1367 as father - 24 August 2026
+
+A focused reconstruction of [[Glasgow-1367|Robert Glasgow]]'s family strengthens his Dunaghy identity but weakens his placement as Alexander's father. Robert's coherent record trail is the probable 1825 Doonbought tithe, the 1851 Glenleslie household and the 1854 Glenleslie will index. His known and candidate children belong to the same Dunaghy network. No record places him at Lisnagaver or names Alexander.
+
+The 1834 Lisnagaver Robert remains unidentified. Robert-1367 is still chronologically capable of being Alexander's father, so the uncertain attachment is not disproved, but he should no longer be described as the leading candidate merely because a Robert held land beside Alexander. That premise depends on an unproved identity between the Lisnagaver occupier and the Glenleslie man.
+
+### Land-map correction
+
+The preceding caution remains necessary, but the profile scope and map evidence
+change its weight. [[Glasgow-1367]] is being used as the working profile for the
+1834 Lisnagaver Robert; the Glenleslie records are candidate continuations, not
+the controlling reason for the profile's existence.
+
+Ask About Ireland's original Griffith map, sheet 26, shows lots 24, 25 and 26 as
+contiguous parcels. The valuation assigns those lots to John, Alexander and
+Thomas Glasgow respectively, all under Robert Harvey.
+
+Their combined 63 statute acres, 0 roods and 10 perches must not be compared
+directly with the 64 acres held by Alexander and Robert in the 1834 tithe.
+Tithe acreage was generally Irish or Plantation measure; 64 Plantation acres
+would be about 103.7 statute acres. The apparent near match was therefore an
+error and supplies no evidence that the later three holdings were a subdivision
+of the earlier two.
+
+Because the tithe has no parcel map or lot references, it does not prove
+that the 1834 Robert was Alexander's father, or that he was the Robert later at
+Doonbought and Glenleslie. Robert remains a **place-based uncertain father
+candidate**, not a proved parent. See
+[`Glasgow-1367` land assessment](../Glasgow-1367/sources/lisnagaver_land_sequence_2026-08-24.md).
+
+## 24 August 2026: corrected land-succession assessment
+
+The 1834 tithe acreages use Plantation measure. Alexander's 29 acres therefore
+equal about 47 statute acres, not 29, while the three later Glasgow valuation
+lots total about 63.1 statute acres. The former apparent 64-to-63-acre match was
+spurious.
+
+Alexander's lot 25 nevertheless has a strong later succession: his daughter
+Mary married Robert Elder, who replaced Alexander on that exact lot. Lot 24
+passed from John Glasgow to his proved son James Garvin, while Thomas's lot 26
+continued to widow Mary Ann and probable son Daniel. The 1834 Robert holding
+did not pass intact to a demonstrable heir. On acreage alone, John and Thomas's
+later lots together are the best candidates for much of it, but this remains a
+land-continuity hypothesis rather than proof of kinship. See
+[the full assessment](../Glasgow-1367/sources/lisnagaver_succession_assessment_2026-08-24.md).
+## 2026-08-24: predecessor of lot 25
+
+The 1836 Lisnagaver valuation field book names Robert Glasgow and Archibald McCaughan junior in its house section but not Alexander. Because its land section does not name occupiers, Alexander's absence is not proof that he held no land. It may fit a young Alexander holding land while residing elsewhere or within a McCaughan household around the time of his marriage, but that is only a hypothesis.
+
+Alexander's later 8a 2r 10p lot 25 is most plausibly a reduced continuation of the 1834 Alexander Glasgow tenancy. It cannot yet be called an inheritance because the 1834 Alexander's identity and the intervening lease history are unknown. Acreage evidence also permits Thomas's lot 26 to have formed part of the earlier Alexander holding. See `../Glasgow-1367/sources/lisnagaver_field_book_1836.md`.
+## 2026-08-24: Killoquin estate succession
+
+Robert Harvey's position as immediate lessor provides the route for
+reconstructing the Lisnagaver holdings. Registry of Deeds memorial 506246
+(book 743, p. 511) documents the Harvey family settlement in 1819. A privately
+dispersed Killoquin archive sold in 2014 included a tenant rent book beginning
+in 1835. Until that book or equivalent estate material is located, the
+strongest acreage inference is that John and Thomas Glasgow's later lots 24
+and 26 were subdivisions or regrants of the earlier Robert Glasgow tenancy,
+while Alexander's lot 25 likely continued part of the earlier Alexander
+tenancy.
+
+## 2026-08-24: Earlier Lisnagaver tenants
+
+The Belfast News-Letter advertised Lisnagaver as three farms in July 1768 for
+a 21-year lease from 1 November. The named principal occupiers were Archibald
+McNeill and partners, James McNeill and partners, and John Taylor and partners;
+no Glasgow was named. The term ended around November 1789, making PRONI
+`D3209/1` (Killoquin rent roll and arrears, 1788-1789) the best surviving
+record for testing whether the Glasgow tenancy began at that renewal. The
+unnamed "partners" prevent the advertisement from proving that no Glasgow was
+already present as a subtenant.
+
+## Direct parentage search - 25 August 2026
+
+No concrete record found online identifies the parents of
+[[Glasgow-951|Alexander Glasgow]]. The live profile currently has
+[[Glasgow-1367|Robert Glasgow]] attached as father, but the examined land,
+census, church, civil and newspaper records never call Alexander Robert's son.
+Robert remains an uncertain, place-based candidate only; no mother is proved.
+
+The strongest surviving record group is PRONI `CR5/32/1/1/1-2`, the
+Ballymoney/Dervock/Kilraughts Reformed Presbyterian material for about
+1804-1844. Its catalogue description and the Ulster Historical Foundation's
+account say it includes baptisms and almost annual congregation censuses or
+society lists. A baptism or an entry placing young Alexander in a named family
+household could directly identify a parent. The material is not digitised and
+is available only through PRONI; the targeted lookup request sent on 19 August
+has received acknowledgements but no substantive answer yet.
+
+An online audit produced no substitute record:
+
+* FamilySearch's partial *Ireland Marriages, 1619-1898* index returned three
+  Alexander Glasgow entries as a father in other marriages, but no circa-1836
+  marriage of Alexander and Mary McCaughan.
+* First Kilraughts Presbyterian Church's surviving register is listed on
+  Coleraine Family History Society film 197, with marriages beginning in 1831.
+  It is a concrete target for the couple's marriage entry, although a
+  pre-civil Presbyterian marriage entry may give witnesses rather than parents.
+* Targeted British Newspaper Archive searches for Alexander at Lisnagaver and
+  Gortahar found no obituary, death notice or family announcement naming his
+  parents.
+* RootsIreland confirms County Antrim church coverage but exposes no relevant
+  result without a subscription.
+
+Therefore no parent should be treated as proved or added from this search. The
+next decisive action is inspection of every Glasgow/Glasco/Glascow entry and
+its household context in `CR5/32/1/1/1-2`; the First Kilraughts 1836 marriage
+entry is the secondary target.

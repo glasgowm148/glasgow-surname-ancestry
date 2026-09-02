@@ -99,8 +99,29 @@ def main() -> None:
         assert page.locator('#catalogue-result-sort option[value="family:asc"]').count() == 0
         assert "groupFamily=1" in page.url and "groupLocation" not in page.url
         page.screenshot(path=str(ROOT / "artifacts" / "catalogue-family-group-desktop.png"), full_page=False)
+        page.locator("#catalogue-group-tree").check()
+        assert not page.locator("#catalogue-group-locations").is_checked()
+        assert not page.locator("#catalogue-group-families").is_checked()
+        assert page.locator(".catalogue-one-tree").is_visible()
+        assert page.locator(".catalogue-tree-person > ol .catalogue-tree-person").count() > 0
+        tree_toggle = page.locator(".catalogue-tree-toggle").first
+        assert tree_toggle.get_attribute("aria-expanded") == "true"
+        tree_toggle.click()
+        assert tree_toggle.get_attribute("aria-expanded") == "false"
+        assert "groupTree=1" in page.url and "groupFamily" not in page.url
+        page.screenshot(path=str(ROOT / "artifacts" / "catalogue-one-tree-desktop.png"), full_page=False)
         page.locator("#statistics-detail > summary").click()
-        assert page.locator(".statistics-panel").count() == 6
+        assert page.locator(".statistics-panel").count() == 7
+        spouse_surnames = page.locator(".statistics-panel", has_text="Surnames joined by marriage to Glasgow")
+        assert spouse_surnames.is_visible()
+        smith_link = spouse_surnames.get_by_role("link", name="Smith", exact=True)
+        expected_smith_count = int(smith_link.locator("xpath=ancestor::li/strong").inner_text().replace(",", ""))
+        smith_link.click()
+        page.locator(".catalogue-results-table").wait_for(state="visible")
+        assert "marriageSurname=Smith" in page.url and "#catalogue-results" in page.url
+        assert page.locator("#catalogue-spouse-name").input_value() == "Smith"
+        assert not page.locator("#catalogue-women-married-glasgow").is_checked()
+        assert page.locator(".catalogue-results-table tbody tr").count() == expected_smith_count
         page.locator("#statistics").screenshot(path=str(ROOT / "artifacts" / "catalogue-statistics-desktop.png"))
 
         page.goto(f"{BASE}/catalogue.html?q=Glasgow-951&from=1851&to=1851", wait_until="networkidle")

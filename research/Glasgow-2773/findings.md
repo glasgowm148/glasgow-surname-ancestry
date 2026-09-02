@@ -21,3 +21,9 @@ Giles County marriage compilation contains no Priscilla Glasgow/Glasco entry.
 
 Retain Robert as probable father. Keep Nancy Unknown as an uncertain mother
 because neither census names Priscilla's mother.
+
+## Error 966 link migration — 29 August 2026
+
+The inaccessible archive.ph snapshot was replaced with the current FamilySearch
+profile for Priscilla Glasgow, L6PM-HL7. It remains explicitly identified as a
+derivative tree; the original 1840 and 1850 census evidence remains primary.

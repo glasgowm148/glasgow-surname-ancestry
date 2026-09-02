@@ -42,3 +42,19 @@ births, the original census forms and Samuel's birth.
 - Civil births for Mary, Robert J. and Jane Elder, beginning in Ballymoney district.
 - Samuel Glasgow's birth and any guardianship or school record naming his parents.
 - Death or probate evidence distinguishing the Gortahar Mary from Mary Jane Elder who died in 1897.
+
+## Corrected Gortahar household identification - 24 August 2026
+
+Primary-index evidence substantially strengthens Mary's identification after her 1871 marriage. The 1901 census index records widowed farmer **Mary Elder**, aged 60, at Gortahar with children Mary, Robert and Jane.<ref>[https://www.familysearch.org/ark:/61903/1:1:QPB2-KNM2 FamilySearch, 1901 Ireland census index], Mary Elder household, Gortahar.</ref> In 1911, Robert J. Elder headed the continuing Gortahar household with his widowed mother Mary, sister Jane and a nephew displayed as “Samuel Glasgow”.<ref>[https://www.familysearch.org/ark:/61903/1:1:QYHR-52T2 FamilySearch, 1911 Ireland census index], Robert J. Elder household; [https://www.familysearch.org/ark:/61903/1:1:QYHG-YHMM Mary Elder individual entry].</ref>
+
+The nephew's civil birth index gives his full name as **Samuel Glasgow Elder**, registered at Ballymoney in July-September 1908.<ref>[https://www.familysearch.org/ark:/61903/1:1:FBP3-95M FamilySearch, Ireland civil registration birth index], Samuel Glasgow Elder, Ballymoney, vol. 1, p. 111.</ref> “Glasgow” was his middle name, not his surname. This correction supplies meaningful evidence that the Gortahar Elder family preserved Mary's Glasgow surname.
+
+Together with Mary's 1871 marriage naming Alexander Glasgow, farmer, as her father and Mary Elder's presence at her mother Mary Glasgow's 1892 Gortahar death, the 1901-1911 household continuity makes the identification of the Gortahar widow with Alexander's daughter **high confidence**. It does not resolve whether she was the seventeen-year-old Maryan Glasgow in John Glasgow's Glenleslie household in 1851; that proposed identity remains separate and unproved.
+
+A Robert Elder aged 64 whose death was registered at Ballymoney in the fourth quarter of 1894 is a strong candidate for Mary's husband.<ref>[https://www.familysearch.org/ark:/61903/1:1:FTZP-9M6 FamilySearch, Ireland civil registration death index], Robert Elder, Ballymoney, October-December 1894, vol. 1, p. 100.</ref> The original death registration is still needed before treating the identification as proved.
+
+## Samuel Glasgow Elder and Jane Elder - 24 August 2026
+
+The 1911 individual census entry identifies **Jane M. Elder** as Robert J. Elder's unmarried sister, aged 26, in the Gortahar household.<ref>[https://www.familysearch.org/ark:/61903/1:1:QYC1-8WPZ FamilySearch, 1911 Ireland census index], Jane M. Elder, Gortahar.</ref> Samuel Glasgow Elder, aged two and described as Robert's nephew, lived in the same household. Jane is consequently a plausible mother, but co-residence and unmarried status do not prove maternity; Samuel could have been the child of another absent sister. His original 1908 birth registration remains the decisive record.
+
+FamilySearch incorrectly normalises Samuel's Ballymoney registration place to County Wicklow, while preserving the original place only as “Ballymoney, Ireland.” The Gortahar household and Ballymoney registration district place this record in the County Antrim context; public citations should not repeat the automated County Wicklow normalisation.

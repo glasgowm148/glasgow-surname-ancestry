@@ -36,6 +36,8 @@ identify the exact testator residence reliably, or show how that nephew is
 distinguished from other contemporary James Glasgows. Moneymore does not border
 County Down; County Londonderry and County Down are non-adjacent.
 
+Live verification on 21 August 2026 confirmed that WikiTree now presents the 1740 Moneymore identity and attached family as unproved, preserves the Unsourced status, treats the 1775 Cookstown signer as a same-name candidate, and explains the Hawthorne theory without presenting it as established. No further profile update from the local draft remains outstanding.
+
 ## Source findings
 
 | Source | Finding | Assessment |

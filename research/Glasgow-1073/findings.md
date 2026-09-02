@@ -1,5 +1,29 @@
 # Findings: [Rev. John Glasgow M.A. (Glasgow-1073), about 1653-1721, Kilbirnie, Ayrshire](https://www.wikitree.com/wiki/Glasgow-1073)
 
+## Live profile update — 30 August 2026
+
+Saved and verified the exact 16 July 1674 M.A. date and 16 August 1688
+ordination from *Fasti Ecclesiae Scoticanae*. The biography now describes John
+as a Presbyterian minister of the Revolution settlement and records that the
+source does not identify him as a field preacher, prisoner or active
+Covenanter. No relationships or structured locations were changed.
+
+## Live profile update — 31 August 2026
+
+Both attached parents are now marked **uncertain**, because no reviewed record
+names John's father or mother. The live note describes the links to
+Glasgow-1078 and Cunningham-22604 as hypotheses, removes the misassigned
+Antigua chaplain and later Irvine-provost occurrences, and adds NRS
+`RH15/120/178`: the 22 November 1722 letter from Robert Glasgow at Paddockholm
+to his brother James Glasgow, student of divinity at Glasgow. The letter
+confirms the sibling relationship within John's child group but does not
+identify John's parents.
+
+The relationship controls were rechecked after publication and corrected from
+the unintended `non-biological` setting to WikiTree's explicit `uncertain`
+status (value 10) for both father and mother. Public save acknowledgement and
+the checked controls were verified on 31 August 2026.
+
 ## Current conclusion
 
 John should be placed in the wider [William Glasgow (Glasgow-1098)](https://www.wikitree.com/wiki/Glasgow-1098)
@@ -39,6 +63,7 @@ residence before merging.
 | James Paterson, *History of the County of Ayr*, vol. 2, [pp. 252-253](https://archive.org/details/historyofcountyo02pateuoft/page/252/mode/2up) | The Mountgreenan pedigree begins with Rev. John and describes Jean as daughter of John Cunningham in Wattieston, chamberlain and of the Robertland family. | Supports the wife's Cunningham connection. Silence before John is not evidence that he had no local Glasgow ancestry. |
 | NRS, [GD39/5/59](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD39%2F5%2F59), 9 February 1571 | James Glasgow elder at Corsankell had sons James and John. | Direct anchor for the Ayrshire branch. Glasgow-3193 is the strongest current identity match for the named John. |
 | Kilwinning OPR indexes cited on [Barbara Allison (Allison-6866)](https://www.wikitree.com/wiki/Allison-6866) | John Glasgow and Barbara Alason/Allason have indexed marriage or baptism events in 1679 and a daughter Jannet in January 1689. | Direct evidence for a contemporary local John household; insufficient to distinguish or merge him with the minister without the full entries. |
+| [NRS `RH15/120/178`](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=RH15%2F120%2F178), 22 November 1722 | Letter from Robert Glasgow at Paddockholm to his brother James Glasgow, student of divinity at Glasgow. | Independent evidence for two of the minister's attached sons as brothers; gives no parentage for the minister. |
 | WikiTree profiles [Glasgow-1603](https://www.wikitree.com/wiki/Glasgow-1603) and [Glasgow-1604](https://www.wikitree.com/wiki/Glasgow-1604), live checked 19 July 2026 | The profiles fill the expected 1600 and 1625 generations but cite only an Ancestry tree for their vital facts and relationship. Hugh is attached to a Midlothian James despite being described as an Ayrshire progenitor. | Topology scaffold only, not genealogical evidence. |
 
 ## Complete WikiTree handoff

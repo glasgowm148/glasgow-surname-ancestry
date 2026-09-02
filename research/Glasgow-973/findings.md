@@ -144,3 +144,12 @@ Use the complete [paste-ready WikiTree biography](Glasgow-973.md). In the
 structured fields, correct the birthplace from `Lisnagarvey, Lisburn` to
 `Lisnagaver, County Antrim, Ireland`. Leave the death and Michigan relationships
 unset unless a parent-bearing or exact-birth record proves the candidate.
+
+## WT+ hint 581 audit, 29 August 2026
+
+WT+ proposes Tecumseh, Michigan, as this profile's death location from Find a
+Grave memorial 127743880. Do not apply it: that memorial belongs to the
+unproved Michigan candidate, and its 29 August 1896 date conflicts with the
+30 July date independently established by Michigan GENDIS and the contemporary
+newspaper report. WT+ hint 581 was marked **False suggestion** on **29 August
+2026** with that explanation; no WikiTree profile edit was made.

@@ -282,3 +282,17 @@ Profile prose and trees remain leads; inspect the cited record before treating a
 ## Birth-estimate audit - 21 August 2026
 
 The live structured birth was corrected to **about 1770, uncertain**. The estimate is derived from the retained uncertain family chronology, especially Daniel's birth about 1795-96, rather than a birth record. The earlier `before` value remains only a strict chronological boundary, not the most useful estimated birth. No biography, relationship, source or other structured field was changed in this audit.
+
+## Correction concerning the 1888 Gortahar death - 24 August 2026
+
+The Alexander Glasgow who died at Gortahar in 1888 should not be assigned to this older Alexander. Later evidence now strongly identifies the deceased with [[Glasgow-951|Alexander Glasgow of Lisnagaver]], rather than as an otherwise separate namesake.
+
+Alexander's widow Mary died at Gortahar in 1892 with daughter [[Glasgow-3167|Mary Elder]] as informant. Mary Elder then appears as a widowed farmer at Gortahar in 1901, and the same household continued there in 1911.<ref>[https://www.familysearch.org/ark:/61903/1:1:QPB2-KNM2 FamilySearch, 1901 Ireland census index], Mary Elder household; [https://www.familysearch.org/ark:/61903/1:1:QYHR-52T2 FamilySearch, 1911 Ireland census index], Robert J. Elder household.</ref> The 1911 nephew displayed as “Samuel Glasgow” was registered as **Samuel Glasgow Elder**, preserving the maternal surname.<ref>[https://www.familysearch.org/ark:/61903/1:1:FBP3-95M FamilySearch, Ireland civil registration birth index], Samuel Glasgow Elder, Ballymoney, July-September 1908.</ref>
+
+This supersedes the earlier assessment that the 1888 deceased was merely a separate Gortahar labourer represented by the former duplicate Glasgow-2717. It does not provide any new evidence that [[Glasgow-3904|the older Alexander]] was the father of Alexander of Lisnagaver.
+
+## Error 966 link migration — 29 August 2026
+
+All four retired NAI tithe microsite links were replaced with the stable
+official NAI Family History Sources guide. The PRONI manuscript references and
+29 Irish-acre calculation were retained.

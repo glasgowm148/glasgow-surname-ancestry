@@ -26,3 +26,15 @@ connecting her to Margaret-3598 or either adult Barbara.
 Verified live **19 August 2026**: the 10 June 1619 marriage, William Symountoun's
 tailor occupation and the published-register citation are live. The birth
 estimate is uncertain and no parents are inferred from the craft cluster.
+
+## Branch placement - 31 August 2026
+
+Isobel is best placed as a possible daughter or niece of
+[Ninian Glasgow (Glasgow-3188)](https://www.wikitree.com/wiki/Glasgow-3188).
+Her tailor husband belongs to the same Edinburgh craft-marriage cluster as two
+Glasgow women who married cordiners. Ninian's son Robert was a cordiner; his
+probable son William moved into Leith and William's son was apprenticed to a
+cordiner. This makes Ninian's household or immediate collateral circle the
+leading branch, although no source names Isobel's father.
+
+Assessment: **possible daughter/niece, moderate**.

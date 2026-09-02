@@ -17,7 +17,22 @@ test-results/
 # Temporary and generated output
 tmp/
 artifacts/
-www/
+www/*
+!www/_redirects
+!www/assets/
+www/assets/*
+!www/assets/ydna-share-card-20260821.jpg
+!www/candidate-matches/
+!www/catalogue/
+!www/changes/
+!www/compare/
+!www/feedback/
+!www/status/
+!www/timeline/
+!www/ydna/
+!www/people/
+www/people/*
+!www/people/early-bearers/
 *.log
 *.sqlite*
 
@@ -45,7 +60,7 @@ assets/source-images/
 *.jp2
 
 # Raw genetic test data is sensitive
-ydna/
+/ydna/
 *.vcf
 *.bcf
 

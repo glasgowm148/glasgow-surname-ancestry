@@ -15,3 +15,9 @@ On 19 August 2026, the live profile was corrected from Jessie/female to
 Jesse/male, the exact 12 May 1818 and 17 December 1886 dates were added from the
 TSHA biography, and the 1820/1840 census qualifications were cited. Robert and
 Nancy remain attached as uncertain parents because no better placement is known.
+
+## Error 966 link migration — 29 August 2026
+
+The inaccessible archive.ph snapshot was replaced with the current FamilySearch
+profile for Jesse Martin Glasco, KJ6W-8NZ. Its derivative parentage claim remains
+qualified; the TSHA biography and original census schedules remain cited.
