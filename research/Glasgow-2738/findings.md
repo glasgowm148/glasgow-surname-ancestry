@@ -1,8 +1,27 @@
 # Findings: [James J Glasgow (Glasgow-2738)](https://www.wikitree.com/wiki/Glasgow-2738)
 
-Last updated: 2026-08-12
+Last updated: 2026-09-06
 
 ## Current conclusion
+
+### Master reassessment, 5 September 2026
+
+James J's parents remain unidentified. Robert `Glasgow-2769` is one compatible
+Giles County father hypothesis, not an established or uniquely leading father.
+Archibald `Glasgow-2304`'s 1800 household supplies a narrower two-generation
+test—an unidentified boy born in the 1790s could have fathered James J about
+1809/10—but the census names neither the boy nor James. The adult estate
+distributions and receipts in Archibald's estate 647 are the decisive target.
+The boy cannot be Archibald's monument-named son James, who died in 1824 aged
+eighteen and was therefore born about 1806. If the unidentified 1800 boy was
+James J's father, a feasible birth window is about 1790–1794; that range is a
+chronology test, not a probability estimate.
+
+The Robert–John trail in Giles County and James J's separate district 6 land
+trail remain unjoined. Y-DNA strongly supports shared paternal ancestry between
+James J's and Alexander `Glasgow-951`'s lines, but cannot identify either man's
+father. If Robert remains attached to James J, the relationship must remain
+uncertain.
 
 The FamilySearch attachment to Wilson Crossier Glasgow and Mary McCracken is
 contradicted by Wilson's estate records. Mary's 1837 will divides her property
@@ -21,12 +40,12 @@ places his paternal line under R-FT20271, but it cannot identify his father
 without a documented comparison line.
 
 A new paper-tree hypothesis can now be stated without treating it as proved.
-Robert's leading named father candidate is Archibald `Glasgow-2304`, whose 1800
-Newberry household contained one otherwise-unidentified boy under ten. If both
-uncertain links are correct, James's line would run through Archibald to James
+One testable two-generation candidate runs through Archibald `Glasgow-2304`,
+whose 1800 Newberry household contained one otherwise-unidentified boy under
+ten. If that boy was James's father, the line would run through Archibald to James
 `Glasgow-1144` and the older Kilwaughter family. That would give a coherent place
 for the close Y-DNA relationship to Alexander `Glasgow-951`'s Antrim line, but no
-record yet proves either James-to-Robert or Robert-to-Archibald.
+record yet identifies the boy or proves James-to-Robert or Robert-to-Archibald.
 
 ## Source findings
 
@@ -41,6 +60,10 @@ record yet proves either James-to-Robert or Robert-to-Archibald.
 | [1850 Giles deed](https://tngenweb.org/giles/deed-james-j-glasgow-to-john-tornerlin-1850/), Deed Book U, p. 144 | James sold the same 100 acres to John Tornerlin. | Direct identity and residence evidence; no relative named. |
 | [1860 United States census](https://www.familysearch.org/ark:/61903/1:1:M6GF-RXZ), FamilySearch record M6GF-RXZ | Jas J Glasgow and Mary J Glasgow were enumerated together. | Direct household evidence supporting the attached marriage; no parents are named. |
 | [1800 Newberry census transcription](https://genealogytrails.com/scar/newberry/1800nbycensusG.htm) | Archibald Glasgow's household included one male under 10. | Compatible with Robert-2769 as a missing son, but two uncertain generations separate this household from James J. |
+| [Gilders Creek Cemetery](https://genealogytrails.com/scar/newberry/gilders_creek_cem.htm) | Archibald and Mary's named son James died 27 November 1824 aged eighteen, implying birth about 1806. | He cannot be the boy already present in Archibald's 1800 household. The older boy remains unnamed. |
+| [Newberry estate index](https://genealogytrails.com/scar/newberry/estates1785-1949/22.htm) | Exact targets: Archibald/Mary, 1818, estate 647, box 27, package 57; Ruth and others/Mary guardian, 1820, estate 646, box 27, package 57; Rachel/John guardian, 1818, estate 1019, box 42, package 93; Wilson/John administrator, 1817, estate 651, box 28, package 58; Robert/Zacheus Wright administrator, 1835, estate 1055, box 43, package 98; James/Williams Welch and Isaac Keller executors, 1831, estate 1643, box 63, package 158. | Index entries only; packets unread. They define six specific households/proceedings and do not themselves state the missing relationships. Archibald's adult distributions matter more than a guardianship list if the 1800 boy was already adult in 1818. |
+| [Giles County deed, 28 December 1818](https://tngenweb.org/giles/deed-josiah-stoval-to-robert-glasco-glasgow/) | Robert Glasco bought 59 acres at the headwaters of Bradshaw Creek from Josiah Stovall of Cotaco County, Alabama Territory; witnesses were Pleasant New and James Smith. | Defines a separate District 10 associate/property trail; it does not name James J. |
+| Giles County 1836 tax list and 1840 census transcription, District 10 | John Glasgow appears with New/Smith associates in 1836; in 1840 John Glassgo is followed by David New, with adult male categories 20–29 and 30–39. | John is a useful peer-generation brother/cousin candidate. No relationship to Robert or James J is stated. |
 
 ## WikiTree changes
 

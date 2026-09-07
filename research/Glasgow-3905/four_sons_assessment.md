@@ -1,5 +1,9 @@
 # Four disputed sons of Adam Glasgow
 
+> **Superseded relationship ranking (5 September 2026):** Adam's 1831
+> household does not identify Alexander, and Alexander-951 is only a possible
+> brother or cousin of Thomas/Daniel. No father-child link to Adam is proved.
+
 Last updated: 2026-07-17
 
 ## Result

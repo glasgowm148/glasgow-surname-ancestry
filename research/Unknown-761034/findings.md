@@ -30,7 +30,7 @@ Unknown. The structured spouse and three sons are already attached.
 | --- | --- | --- |
 | Spouse | [[Glasgow-3904|Alexander Glasgow (born before about 1778), Bann Valley]] | Retain uncertain; based on descendant testimony. |
 | Working son | [[Glasgow-3896|Daniel Glasgow (about 1795/96), Kilrea]] | Retain uncertain. His will proves Thomas was his brother, not their parents. |
-| Working son | [[Glasgow-951|Alexander Glasgow (about 1811), Lisnagaver]] | Retain uncertain; probable brother of Daniel and Thomas. |
+| Possible son | [[Glasgow-951|Alexander Glasgow (about 1804–1811), Lisnagaver]] | Retain uncertain only if already attached; he is a possible brother or cousin of Daniel and Thomas, and no record names his parents. |
 | Working son | [[Glasgow-987|Thomas Glasgow (about 1815), Lisnagaver]] | Retain uncertain as Rosanna's son; the descendant account names the parents but is not contemporary. |
 
 ### Outstanding changes

@@ -11,7 +11,9 @@ The marriage disproves the former about-1700 birth estimate: if Margaret was at
 least sixteen, she was born before 1689. Her birthplace and death remain
 unknown; the live profile has been corrected to born before 1689 and died after
 the last indexed baptism in 1720. The Scottish husband is not thereby proved to
-be the 1754 shipmaster currently attached as Glasgow-2867.
+be the 1754 shipmaster represented by Glasgow-2867. On 2 September 2026 the
+unsupported marriage to Glasgow-2867 was removed after Glasgow-3011 had been
+attached as the uncertain, evidence-based candidate for the Glencorse husband.
 
 ## Source findings
 
@@ -30,3 +32,15 @@ records.
   687: marriage `20/53`; births `10/93`, `10/106`, `10/121`.
 - FamilySearch, Christian Glasgow, 15 February 1708,
   `https://www.familysearch.org/ark:/61903/1:1:VQ4J-CB3`.
+
+## Relationship update, 2 September 2026
+
+[Isobell Glasgow (Glasgow-4062)](https://www.wikitree.com/wiki/Glasgow-4062), baptised at Glencorse on 26 December 1714 to Robert Glasgow and Margaret Davidson, was created and attached to this profile as an uncertain daughter. The parents' 8 June 1704 Glencorse marriage was also connected with its exact date and place.
+
+The live profile was then found to have two husbands named Robert Glasgow.
+[Captain Robert Glasgow (Glasgow-2867)](https://www.wikitree.com/wiki/Glasgow-2867)
+is documented only as a shipmaster in 1754 and has no record connecting him to
+Margaret. That marriage was removed and publicly verified at 13:49 on 2
+September 2026. [Robert Glasgow (Glasgow-3011)](https://www.wikitree.com/wiki/Glasgow-3011)
+remains the sole husband, with the relationship uncertain because the 1704
+marriage names no age, parents or occupation.

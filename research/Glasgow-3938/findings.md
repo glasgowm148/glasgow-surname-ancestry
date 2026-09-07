@@ -55,3 +55,19 @@ Leith OPR searches found no Glasgow/Glasgo/Glascow/Glaskow/Glassgow baptism in
 - Burial or testament material for Jonet Thomsone and the two Robert candidates.
 - North Leith glasshouse, poll-tax, kirk-session or burial records identifying
   the 1694 servant's age, family or occupation.
+
+<!-- BEGIN FMP-GLASGOW-fmp-glasgow-937fb03a9d56 -->
+## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-937fb03a9d56
+
+The transcript-validated burgess admission record for **Robert Glasgow**, 4 Jul 1666, Edinburgh, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
+
+## Source findings
+
+- [SCOT/BURGESS/1009525 Findmypast transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FBURGESS%2F1009525&tab=this): Additional information: B., cordiner, by right of wife Euphame, daughter to late Andrew Lorimer, beltmaker, burgess; Category: Education & work; Collection: Edinburgh Burgesses 1406-1700; Collections from: Great Britain, Scotland; Country: Scotland; County: Midlothian; Date: 4 Jul 1666; First name(s): Robert; Last name: Glasgow; Place: Edinburgh; Record set: Scotland, Burgess & Guild Brethren Index; Subcategory: Guild & Trade Associations; Year: 1666 (captured 2026-09-03T21:36:00.396Z).
+- Findmypast record IDs: `SCOT/BURGESS/1009525`.
+- Stable research/source ID: `fmp-glasgow-937fb03a9d56`.
+
+## Recommended action — fmp-glasgow-937fb03a9d56
+
+Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
+<!-- END FMP-GLASGOW-fmp-glasgow-937fb03a9d56 -->

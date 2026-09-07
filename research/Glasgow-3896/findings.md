@@ -1,6 +1,23 @@
 # Findings: Glasgow-3896
 
-Last updated: 2026-08-13
+Last updated: 2026-09-06
+
+## Current conclusion
+
+Daniel's 1871 will proves that Thomas `Glasgow-987` was his late brother, names
+David as his son and Daniel Neely as his nephew. Daniel Neely's 1888 marriage
+independently names Thomas as his father. These relationships are proved.
+
+Daniel's parents are not established. The Alexander-and-Rosanna tradition is
+late descendant testimony about Thomas and can be extended to Daniel only as a
+working hypothesis through their proved brotherhood. Alexander `Glasgow-951`
+is a possible brother or cousin, not a probable or proved brother.
+
+Robert's 1827 baptism belongs to **First Kilrea Presbyterian**, not Rasharkin.
+James's 1853 notice calls him Daniel's third son. David is will-proved. The
+younger artist Daniel discussed by the Met remains an unresolved same-name
+candidate; the surviving catalogue/article does not establish his parentage.
+Kate Glasgow informed Daniel's 1871 death, but the return gives no relationship.
 
 ## Current answer
 
@@ -11,11 +28,11 @@ Rose, James, or Inishrush relative and does not support Daniel's current
 attachment as a child of Adam Glasgow of Inishrush.
 
 Daniel's original death registration now fixes his death at Kilrea on 16 October
-1871, aged 75, and records him as a widowed watchmaker. It names Peter Glasgow as
-the person present at death, but does not state Peter's relationship.
+1871, aged 75, and records him as a widowed watchmaker. It names Kate Glasgow as
+the person present at death, but does not state Kate's relationship.
 
 Daniel belongs in the **Bann Valley-Killoquin / Kilrea-Rasharkin cluster** with
-his proved brother Thomas `Glasgow-987` and probable brother Alexander
+his proved brother Thomas `Glasgow-987` and possible brother or cousin Alexander
 `Glasgow-951`.
 
 Follow-up on Thomas's son Daniel Neely has opened a potentially direct parent
@@ -37,13 +54,15 @@ uncertain working parents, not proved parents.
 | --- | --- | --- |
 | Original will of Daniel Glasgow of Kilrea, proved 1871 | Daniel calls David Glasgow of the City of London `my son`, leaves him the residue of his property, names `my late brother Thomas Glasgow`, and leaves a legacy to nephew Daniel Neely Glasgow. | Direct evidence for David's father and for Daniel's brother and nephew. It supersedes the profile's statement that no record names Daniel as David's father. Saved image and retrieval details are in [the source manifest](sources/daniel_glasgow_1871_will_manifest.md). |
 | Same original will | Daniel names no Adam Glasgow, Rose, James of Inishrush, Alexander of Lisnagaver, or Inishrush property. | The document does not prove that Daniel was Adam's son or Alexander's brother. Omission is adverse evidence, not proof that no relationship existed. |
-| [Civil death of Daniel Glasgow, 16 October 1871](https://www.irishgenealogy.ie/view/?record_id=cide-7256058), original register image | Daniel died at Kilrea aged 75; he was a widower and watchmaker. Peter Glasgow of Kilrea was present at death. | Direct evidence for death, age, marital status and occupation. It implies birth about 1795/96, correcting the profile's broad estimate. The record does not state Peter's relationship. Saved as [the original register PDF](sources/daniel_glasgow_death_1871_ballymoney.pdf). |
+| [Civil death of Daniel Glasgow, 16 October 1871](https://www.irishgenealogy.ie/view/?record_id=cide-7256058), original register image | Daniel died at Kilrea aged 75; he was a widower and watchmaker. Kate Glasgow of Kilrea was present at death. | Direct evidence for death, age, marital status and occupation. It implies birth about 1795/96, correcting the profile's broad estimate. The record does not state Kate's relationship. Saved as [the original register PDF](sources/daniel_glasgow_death_1871_ballymoney.pdf). |
 | Civil marriage of Daniel Neely Glasgow and Mary Jane Boyd, 28 June 1888, Boveedy First Presbyterian Church | Daniel Neely Glasgow, farmer of Lisnagaver, named his father as Thomas Glasgow, farmer. | Combined with Daniel's will, this identifies the will-proved nephew as a son of Daniel's late brother Thomas and strongly identifies that brother with Thomas of the Lisnagaver family. Saved as [the original register PDF](sources/daniel_neely_glasgow_mary_boyd_marriage_1888.pdf). |
 | [Civil death index for Thomas Glasgow, 1870](https://www.irishgenealogy.ie/view/?record_id=cidenc-772683) | The Ballymoney return index records a Thomas Glasgow aged 55 in the second quarter of 1870. The official site says the register image is unavailable. | The age and district fit Thomas of Lisnagaver, aged 35 in 1851 and called Daniel's `late brother` in 1871. Without an image, exact date, residence or informant, this remains a strong candidate rather than conclusive identity evidence and says nothing about their father. |
 | [*The Crayon*, April 1858, p. 118](https://msa.maryland.gov/megafile/msa/speccol/sc3500/sc3520/016800/016836/images/crayon_apr1858_1.pdf) | Reports that Daniel Glasgow, Jr., a talented water-colour artist, died at Kilrea on 29 January 1858 of consumption, in the twenty-fourth year of his age. | Contemporary published evidence for the younger Daniel's identity, occupation, death, and implied namesake elder. The current profiles already contain this fact. `Jr.` plus place is strong but is not an explicit father statement. |
 | [First Kilrea Presbyterian baptism transcription, 1827](https://genealogy.torrens.org/BannValley/church/KilreaP1/Baptisms/1827.html) | Robert, son of Daniel Glasgow and Margaret Irwin of Kilrea, was born 1 September and baptised 30 September 1827. | Direct contemporary parent statement for Robert and confirmation of Daniel's Kilrea household. This fact is already on the current WikiTree profile and does not identify Daniel's parents. |
 | [First Kilrea Presbyterian register coverage and transcription](https://genealogy.torrens.org/BannValley/church/KilreaP1/Baptisms/index.html) | The surviving baptism register begins on 17 April 1825, about twenty-nine years after Daniel's death-age-implied birth. A page-by-page `Glasg*` search for 1825-1859 found only the known 1827 baptism of Robert, son of Daniel and Margaret. The complete transcribed 1825-45 marriage pages contain no Daniel Glasgow marriage. | The register cannot contain Daniel's own baptism; his likely marriage also predates its start. The later search is a bounded transcription negative and cannot exclude spelling or transcription errors, another congregation, or an unrecorded event. |
 | [Londonderry Sentinel death notice, 18 February 1853](https://www.cotyrone.com/colondonderry/burial/CoLondonderry-DeathsSentinel-G-1829-1869.html) | James Glasgow, artist, died in Brooklyn, New York, and was called the third son of Mr Daniel Glasgow of Kilrea. | Direct published father statement for James; already reflected on the current profile. It does not name Daniel's parents. |
+| Metropolitan Museum of Art, Watson Library, Samuel P. Avery Papers, `p15324coll13 / 9368` | A letter from D. J. Glasgow to Samuel P. Avery is dated 8 October 1857. The item and curator's description were located, but the manuscript text was not read. | Exact archival target for distinguishing the artists and their network. It supplies no parentage until the manuscript is inspected. |
+| Smithsonian Archives of American Art, Society of Painters in Water Colors records, 1850–1855, reel 801 | The collection description names James Glasgow in the society records. The underlying minutes were not read. | Exact association source and access-status note; not yet evidence of a relationship or migration chain. |
 | [England and Wales National Probate Calendar, 1912](https://probatesearch.service.gov.uk/) | David Glasgow of 20 Myddelton Square, Clerkenwell, died 7 December 1911. Probate was granted in London on 2 February to Cecilia Glasgow and Madeline Glasgow, spinsters; effects were GBP1,331 14s. 10d. | Direct evidence for David's death, address and executors. The calendar does not state either executor's relationship and names no father, sibling, Adam, Inishrush or Irish relative. Saved as [the official calendar page](sources/david_glasgow_probate_calendar_1912.pdf). |
 | [Clockmakers Company complete apprentice-register description](https://www.clockmakers.org/museum-archive/library-archive) and digitised register | The official published apprentice register for 1631-1931 produced no `Glasgow` text hit. | No support was found for a Clockmakers Company apprenticeship by Daniel. This is a bounded catalogue/OCR negative, not proof that Daniel lacked training or membership through another route. |
 
@@ -85,7 +104,7 @@ which parent the brothers shared, so this parentage remains provisional.
   Thomas as Thomas Glasgow of the Lisnagaver family; retain the two-record proof
   chain rather than citing either record alone.
 - Do not infer Thomas and Daniel's parents from their sibling relationship.
-- Do not identify Peter Glasgow as Daniel's son; the death register only says he
+- Do not identify Kate Glasgow as Daniel's daughter; the death register only says she
   was present at death.
 - The will proves David's father, not his mother. Margaret Irwin remains uncertain
   as David's mother.
@@ -131,18 +150,19 @@ working relationships. Rosanna's current `Shaw` LNAB remains unsupported.
 | Father | [Alexander Glasgow (Glasgow-3904)](https://www.wikitree.com/wiki/Glasgow-3904) | Keep uncertain; derived from Thomas's descendant account plus proved Daniel-Thomas brotherhood. |
 | Mother | [Rosanna Unknown (Unknown-761034)](https://www.wikitree.com/wiki/Unknown-761034) | Keep uncertain; same derivative chain. Her birth must move before about 1780. |
 | Brother | [Thomas Glasgow (Glasgow-987)](https://www.wikitree.com/wiki/Glasgow-987) | Confirmed by Daniel's original will and Daniel Neely's marriage identity chain. |
-| Probable brother | [Alexander Glasgow (Glasgow-951)](https://www.wikitree.com/wiki/Glasgow-951) | Retain as uncertain; locality and Thomas connection, not a direct sibling statement. |
+| Possible brother or cousin | [Alexander Glasgow (Glasgow-951)](https://www.wikitree.com/wiki/Glasgow-951) | Retain as uncertain; locality and Thomas connection do not establish the immediate relationship. |
 | Son | [David Glasgow (Glasgow-3899)](https://www.wikitree.com/wiki/Glasgow-3899) | Confirmed by Daniel's will; mother unknown. |
 | Son | [Robert Glasgow (Glasgow-3897)](https://www.wikitree.com/wiki/Glasgow-3897) | Confirmed son of Daniel and Margaret Irwin by 1827 baptism. |
 | Son | [James Glasgow (Glasgow-3898)](https://www.wikitree.com/wiki/Glasgow-3898) | Confirmed by 1853 death notice. |
-| Probable son | [Daniel Glasgow Jr (Glasgow-3900)](https://www.wikitree.com/wiki/Glasgow-3900) | Keep uncertain; `Jr.` and Kilrea identify a likely son but no explicit parent statement. |
+| Possible relative | [Daniel Glasgow Jr (Glasgow-3900)](https://www.wikitree.com/wiki/Glasgow-3900) | If already attached, keep uncertain; `Jr.` and Kilrea do not supply an explicit parent statement. |
 
 ### Structured-data correction
 
 - Change birth from about `1807` to about `1795` or `1796`. Daniel's original
   death registration records age 75 on 16 October 1871.
 - Use **Bann Valley-Killoquin / Kilrea-Rasharkin** as the working family cluster.
-  Daniel and Thomas are proved brothers; younger Alexander is probable.
+  Daniel and Thomas are proved brothers; younger Alexander is only a possible
+  brother or cousin.
 - Do not connect the cluster upward to Adam and Rose. Rose is chronologically
   excluded as older Alexander's mother, and Adam is unsupported.
 

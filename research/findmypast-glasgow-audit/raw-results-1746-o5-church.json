@@ -1,0 +1,73 @@
+{
+  "query": {
+    "surname": "Glasgow",
+    "surname_variants": false,
+    "place": null,
+    "covered_years": [
+      1741,
+      1751
+    ],
+    "requested_in_scope_years": [
+      1741,
+      1750
+    ],
+    "url": "https://www.findmypast.co.uk/search/results?eventyear=1746&eventyear_offset=5&lastname=glasgow&sourcecategory=churches%20%26%20religion&sid=999",
+    "eventyear": 1746,
+    "eventyear_offset": 5,
+    "partition_type": "sourcecategory",
+    "partition_group": "1746-o5",
+    "sourcecategory": "churches & religion",
+    "partition_group_id": "1746-o5-church"
+  },
+  "started_at": "2026-09-03T20:26:56.776Z",
+  "completed_at": "2026-09-03T20:26:56.776Z",
+  "displayed_total": 2,
+  "expected_pages": 1,
+  "captured_pages": 1,
+  "captured_rows": 2,
+  "reconciled": true,
+  "pages": [
+    {
+      "page": 1,
+      "url": "https://www.findmypast.co.uk/search/results?eventyear=1746&eventyear_offset=5&lastname=glasgow&sourcecategory=churches%20%26%20religion&sid=999",
+      "captured_at": "2026-09-03T20:26:56.776Z",
+      "rows": [
+        {
+          "event_year": "1749",
+          "first_name": "Robert",
+          "last_name": "Glasgow",
+          "links": [
+            {
+              "label": "View transcript",
+              "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FANTENUPTIAL%2F007123%2F1"
+            }
+          ],
+          "location": "Dundonald, Ayrshire, Scotland",
+          "record_id": "SCOT/ANTENUPTIAL/007123/1",
+          "record_set": "Scotland, Antenuptial Relationship Index 1661-1780",
+          "subscription_locked": false,
+          "year_of_birth": "—",
+          "year_of_death": "—"
+        },
+        {
+          "event_year": "—",
+          "first_name": "—",
+          "last_name": "Emoved To 45 Cathkin Road, Langside, Glasgow\"",
+          "links": [
+            {
+              "label": "View transcript",
+              "url": "https://www.findmypast.co.uk/transcript?id=IRE%2FQUAKER%2FPOUR1%2FCONG%2F014181"
+            }
+          ],
+          "location": "Ireland",
+          "record_id": "IRE/QUAKER/POUR1/CONG/014181",
+          "record_set": "Ireland, Society Of Friends (Quaker) Congregational Records",
+          "subscription_locked": false,
+          "year_of_birth": "—",
+          "year_of_death": "—"
+        }
+      ]
+    }
+  ]
+}
+

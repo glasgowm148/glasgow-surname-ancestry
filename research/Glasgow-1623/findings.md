@@ -5,6 +5,16 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
+### Identity-fork caution, 5 September 2026
+
+The 1851 marriage directly proves the groom's father-name as Adam, but it does
+not prove that the record-defined Adam `Glasgow-1622` was a son of elder Adam
+`Glasgow-3902`. Nor does the age-38 groom automatically establish a second man
+distinct from the 84-year-old James who died in 1878: one-person and two-person
+models both retain unresolved conflicts. Keep this profile distinct pending a
+record that differentiates the two James identities; do not use it to attach
+Alexander `Glasgow-951` to an Adam parent.
+
 The original civil register proves that James was a 38-year-old bachelor and
 farmer living at Inishrush in March 1851, son of farmer Adam Glasgow. It also
 identifies his wife as Rosanna Barkley of Tyanee, daughter of Henry Barkley.

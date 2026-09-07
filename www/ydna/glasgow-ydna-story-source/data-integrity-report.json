@@ -1,0 +1,37 @@
+{
+  "comparison": "Against the supplied previous origins source archive",
+  "unchanged": {
+    "roots": true,
+    "kits": true,
+    "pairs": true,
+    "extended": true,
+    "variantSplits": true,
+    "matches": true,
+    "markers": true,
+    "variants": true,
+    "audit": true,
+    "originalTables": true,
+    "historicalModel.preferredArrival": true,
+    "historicalModel.parentByBranch": true,
+    "historicalModel.aliases": true,
+    "historicalModel.ages": true
+  },
+  "changed": [
+    "metadata.revision",
+    "source register annotation",
+    "historical stage explanatory prose",
+    "documentary bridge narrative and named-person ledger",
+    "Duffield placement and Anglo-Norman route are now explicitly verification-dependent",
+    "origins research actions now distinguish identity, property and genetic-placement tests",
+    "all retained workbench tables are now rendered in their relevant family, STR, SNP, SAPP, matches or priorities view"
+  ],
+  "rendered_evidence_coverage": {
+    "retained_table_groups": 11,
+    "rendered_tables": 13,
+    "rendered_body_rows": 78,
+    "all_retained_tables_contextually_mapped": true,
+    "standalone_evidence_dossier": false,
+    "previous_page_snapshot_preserved": true
+  },
+  "all_measurement_checks_pass": true
+}

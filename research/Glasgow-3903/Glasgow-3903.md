@@ -9,7 +9,7 @@ register target.
 
 | Outstanding change | Source | Confidence |
 | --- | --- | --- |
-| Change the structured death date from `1878` to **11 December 1878**. The structured death place is already Inishrush. | [Original civil death return](https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1878/020497/7192875.pdf) | High |
+| Change the structured death date to **12 December 1878**. The structured death place is already Inishrush. Preserve the stone's 11 December transcription as a one-day conflict. | [Original civil death return](https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1878/020497/7192875.pdf) | High |
 | Add the Tyanee context for Henry Barkly's 1831 Presbyterian household and the unread First Kilrea `MIC1P/87` and Drimbolg `MIC1C/15` discipline targets. | [First Kilrea marriages](https://genealogy.torrens.org/BannValley/church/KilreaP1/Marriages/1828.html), [1831 census](https://genealogy.torrens.org/BannValley/church/Tamlaght/1831census_3.html), and [church-record guide](https://www.billmacafee.com/churchrecords/churchrecordsderry.pdf) | High for the records; no finding from the unread books |
 
 ## Suggested research note

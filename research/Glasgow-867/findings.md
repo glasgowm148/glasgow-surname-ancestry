@@ -1,8 +1,14 @@
 # Findings: Glasgow-867
 
-Last updated: 2026-08-13
+Last updated: 2026-09-05
 
 ## Current conclusion
+
+The 5 September master review confirms the direct John–Samuel brotherhood and
+John's named father, but it does not identify that older John as
+`Glasgow-1022`. Retain the profile attachment only as uncertain. Adjacent
+Lisnagaver households and consecutive holdings do not extend the proved
+brotherhood to Alexander or Thomas.
 
 John Glasgow of Lisnagaver directly identified his father as **John Glasgow,
 farmer**, in his 1846 marriage. His brother Samuel is proved by the 1851 census.

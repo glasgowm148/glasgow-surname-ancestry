@@ -4,6 +4,10 @@ Last updated: 2026-08-13
 
 ## Current conclusion
 
+The earlier suggestion that the armorial-stone entry read “Henry Glads” is
+withdrawn. The inspected printed page supports Hugh Glasgow, wife Ann and the
+later Larne family.
+
 Hugh died **8 July 1767 aged 62**, placing his birth between 9 July 1704 and
 8 July 1705. His wife was **Ann**, who died 8 June 1786 aged 75. The Larne
 memorial does not support Jane as a second wife: one Jane was a deceased child,
@@ -61,7 +65,7 @@ do not identify her husband, so that link is not yet proved.
 | PRONI, *Guide to Church Records*, `MIC/1B/6` | The Non-Subscribing Presbyterian collection includes baptisms 1720-1769, marriages 1721-1769, session minutes 1720-1748 and related accounts. | Official provenance and finite source target. |
 | Hugh's current WikiTree biography, citing an image held by the manager | Reports a 12 March 1736 joint lease to William and Hugh Glasgow, both of Larne, for Newtown tenements; gives memorial `63221`. | Strong association/residence lead, but the memorial number is not found in the online deeds index and must be checked against the image. |
 | PRONI `D300/2/1/100/3A` and `3B`, 10 March 1736 | Earl of Antrim lease of New Town of Larne tenements to William and Hugh Glasgow, both of Larne, for lives renewable for ever. | Official catalogue description confirms the joint lease and corrects the uncertain profile reference; it states association, not kinship. |
-| PRONI `D2977/3A/4/81/72A`, 10 March 1757, with 1751 and 1767 endorsements | William and Hugh Glasgow held two Larne tenements; new lives were inserted at their request. | High-value original target because the named lives may identify the next generation, but their names are omitted from the catalogue. |
+| PRONI `D2977/3A/4/81/72A`, underlying lease 10 March 1736, with 1751 and 1767 endorsements | William and Hugh Glasgow held two Larne tenements; new lives were inserted at their request. | High-value original target because the named lives may identify the next generation, but their names are omitted from the catalogue. |
 | PRONI `D300/2/1/100/69` and `D2977/3A/4/81/72B`, 9 August 1824 | Renewal of the lease dated 10 March 1736 to Elizabeth Glasgow, widow, of Larne. | A real cross-generational title chain; the abstract does not identify Elizabeth's husband or state descent. |
 | Classon Porter, *Congregational Memoirs* | Lists Hugh as an elder and records him dead by 8 July 1767. | Direct published congregational transcription; not a kinship record. |
 | [Bigger and Hughes, Larne Parish Churchyard inscriptions](https://archive.org/stream/ulsterjournalofa06ulstiala/ulsterjournalofa06ulstiala_djvu.txt), published 1899 | Hugh died 8 July 1767 aged 62; wife Ann died 8 June 1786 aged 75; eleven children were commemorated, including first-named Jane and last-named Hugh; James, `their son`, died 14 April 1812 aged 64, and his wife Jane died 21 July 1820 aged 79. | Near-primary published transcription of the monument. Exact death dates, relationships and age-derived ranges; worn-stone transcription risk remains. |

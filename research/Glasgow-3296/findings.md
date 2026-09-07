@@ -95,3 +95,19 @@ Profile prose and trees remain leads; inspect the cited record before treating a
 - [digital copy](https://archive.org/details/scottishrecordso07scotuoft/page/426/mode/2up)
 - [p. 426](https://archive.org/details/scottishrecordso07scotuoft/page/n435/mode/1up)
 - [digital copy](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/the_commissariot_record_of_lanark__register_of_testaments__1595-1800_~_1903.pdf#page=50)
+
+<!-- BEGIN FMP-GLASGOW-fmp-glasgow-be5487ea2b80 -->
+## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-be5487ea2b80
+
+The transcript-validated testament/probate record for **John Glasgow**, 17 Aug 1610, , is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
+
+## Source findings
+
+- [SCOT/WILLS/057449 Findmypast transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FWILLS%2F057449&tab=this): Additional information: in Montfoid. See Robertson, Bessie.; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Commissariot: Glasgow; Country: Scotland; Date: 17 Aug 1610; First name(s): John; Last name: Glasgow; Publication: Commissariot Record Of Glasgow Register Of Testaments 1547-1800; Record set: Scotland, Will And Testament Index 1481-1807; Subcategory: Wills & Probate; Year: 1610 (captured 2026-09-03T21:33:05.479Z).
+- Findmypast record IDs: `SCOT/WILLS/057449`.
+- Stable research/source ID: `fmp-glasgow-be5487ea2b80`.
+
+## Recommended action — fmp-glasgow-be5487ea2b80
+
+Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
+<!-- END FMP-GLASGOW-fmp-glasgow-be5487ea2b80 -->

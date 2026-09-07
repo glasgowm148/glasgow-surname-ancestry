@@ -1,6 +1,6 @@
 # Findings: Glasgow-987
 
-Last updated: 2026-08-18
+Last updated: 2026-09-06
 
 ## Current conclusion
 
@@ -30,7 +30,7 @@ same-person candidate. The Troy death certificate or obituary may name Thomas
 and Mary Ann, but no original US record has yet proved the identity.
 
 Thomas belongs in the standalone **Bann Valley-Killoquin / Kilrea-Rasharkin
-cluster** with proved brother Daniel and probable brother Alexander
+cluster** with proved brother Daniel and possible brother or cousin Alexander
 `Glasgow-951`. This groups the documented family without claiming descent from
 the Kilwaughter, Derry Main, Moneymore or Inishrush founders.
 
@@ -46,6 +46,12 @@ That word conflicts with Sarah's direct marriage record and the chronology:
 Thomas was born about 1815 and Mary Ann about 1820. It is therefore retained as
 an unresolved relationship error or same-place namesake problem, not used to
 recast Sarah as Thomas's granddaughter.
+
+The 5 September master review confirms that Alexander must not be described as
+Thomas's probable brother. Their common locality, congregation, neighbouring
+holdings and paternal DNA network support close kinship but do not distinguish
+brother from cousin. Daniel and Thomas's brotherhood remains proved; their
+parents remain unidentified.
 
 ## Source findings
 
@@ -63,6 +69,7 @@ recast Sarah as Thomas's granddaughter.
 | [Mary Ann Glasgow death index](https://www.irishgenealogy.ie/view?record_id=cide-3485826) and [original return](https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1914/05313/4478270.pdf), 3 January 1914 | Mary Ann Glasgow, widow of a farmer, died at Lisnagaver aged 94. Informant Sarah Taylor of Lisnagaver was described as `Grand-daughter`. | Original same-place evidence, but the relationship word conflicts with Sarah's marriage and the ages. Preserve as unresolved; do not override the direct father statement. |
 | [New Zealand Times, 1 March 1916](https://paperspast.natlib.govt.nz/newspapers/NZTIM19160301.2.60) | John Glasgow Taylor, carpenter and soldier, was identified as a son of Charles Taylor of Lisnagaver, Rasharkin. | Contemporary evidence for a further child and strong surname-preservation support for the same household. |
 | [Genes Reunited descendant account](https://www.genesreunited.co.uk/boards/board/general_topics/thread/465937) | Names Sarah, wife of Charles Taylor, as a daughter of Thomas Glasgow. | Now corroborated as to Sarah's married identity, but still derivative as to parentage. |
+| Felicity Gabbrielli emails, 10–11 February 2020, recovered in the supplied correspondence audit | Identifies her great-grandmother Catherine Glasgow as Thomas and Mary Ann McCracken's sixth daughter, repeats the Alexander-and-Rosanna parent tradition, mentions three children omitted from the online family, and offers further material about Daniel the Kilrea clockmaker. | Valuable descendant correspondence and a concrete follow-up lead, not an independent parentage source. No checked autosomal segment evidence or underlying family papers were recovered, and the account may derive from the same tradition as the 2007 posting. |
 | [Twin birth returns, September 1889](https://civilrecords.irishgenealogy.ie/churchrecords/images/birth_returns/births_1889/02466/1915876.pdf) | Thomas's son Daniel Neely was a labourer residing in New York when Sarah Taylor and Elizabeth Boyd Glasgow were born at Tamlaght. | Direct evidence creating a strong US research route to Thomas's identity and parents. |
 | [New York State Death Index, Daniel Glascow](https://www.newyorkdeathindex.com/people/daniel-glascow-1931-25437) | An Irish-born cemetery-labourer candidate died at Troy on 12 February 1931, certificate 9941. | Strong candidate for Daniel Neely, not yet same-person proof. |
 
@@ -95,14 +102,17 @@ therefore a useful migration/network hypothesis, not parentage proof.
 - Do not describe Daniel as Thomas's uncle; Daniel's original will explicitly calls
   Thomas his brother. The older family tradition apparently misstated the degree.
 - Do not use the sibling proof to attach either man to Adam.
+- Do not treat the 2020 correspondence as a second independent source for
+  Alexander and Rosanna until Felicity's underlying family material and any
+  claimed DNA segment evidence are obtained.
 
 ## Local-cluster update
 
-Younger Alexander `Glasgow-951` is Thomas's probable brother, based on their
+Younger Alexander `Glasgow-951` is Thomas's possible brother or cousin, based on their
 similar ages, farming status, tightly grouped Lisnagaver households, movements
 between adjoining Gortereghy and Lisnagaver, and the late family account. His son
 Robert `Glasgow-938` is the best candidate for the Griffith Gortereghy Robert.
-If both inferences are correct, Daniel and Thomas were uncles of that Robert.
+If the brother inference is correct, Daniel and Thomas were uncles of that Robert.
 Neither relationship should be stated as proved.
 
 Thomas's wife Maryann McCracken now supplies a more specific local affinal lead.

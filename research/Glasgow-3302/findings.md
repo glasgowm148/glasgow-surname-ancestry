@@ -51,7 +51,7 @@ Barbara is best placed in the household or immediate collateral circle of
 [Ninian Glasgow (Glasgow-3188)](https://www.wikitree.com/wiki/Glasgow-3188).
 Her husband George Johnstoun was a cordiner, the same trade as Ninian's proved
 son [Robert (Glasgow-1027)](https://www.wikitree.com/wiki/Glasgow-1027).
-Ninian's probable son William later lived in Leith and William's son entered a
+Ninian's possible son William later lived in Leith and William's son entered a
 cordiner apprenticeship. The trade and Edinburgh/Leith geography are concrete
 family-network evidence, though not parentage wording.
 
@@ -61,3 +61,19 @@ disputed September/November Wilson entry, and 1616 Johnstoun marriage form a
 possible successive life course; the Little record does not itself prove a
 marriage. Assessment: **moderate identity hypothesis**. Do not merge until the
 original 1611 entries and John Wilson's death or disappearance are resolved.
+
+<!-- BEGIN FMP-GLASGOW-fmp-glasgow-ef230e20e0e0 -->
+## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-ef230e20e0e0
+
+The transcript-validated marriage record for **Barbara Glasgow**, 21 Nov 1616, Edinburgh, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
+
+## Source findings
+
+- [R_695875833/2 Findmypast transcript](https://www.findmypast.co.uk/transcript?id=R_695875833%2F2&tab=this): Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Midlothian; First name(s): Barbara; Last name: Glasgow; Marriage date: 21 Nov 1616; Marriage year: 1616; Place: Edinburgh; Record set: Scotland, Parish Marriages & Banns 1561-1893; Spouse's first name(s): George; Spouse's last name: Johnstoun; Subcategory: Parish Marriages (captured 2026-09-03T21:30:09.770Z).
+- Findmypast record IDs: `R_695875833/2`.
+- Stable research/source ID: `fmp-glasgow-ef230e20e0e0`.
+
+## Recommended action — fmp-glasgow-ef230e20e0e0
+
+Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
+<!-- END FMP-GLASGOW-fmp-glasgow-ef230e20e0e0 -->

@@ -68,3 +68,20 @@ Leith OPR searches found no Glasgow/Glasgo/Glascow/Glaskow/Glassgow baptism in
 - A marriage, testament or sasine joining the 1627 child to Euphame's husband.
 - North Leith glasshouse, poll-tax, kirk-session or burial records identifying
   the 1694 servant's age, family or occupation.
+
+<!-- BEGIN FMP-GLASGOW-fmp-glasgow-cd4d475c488d -->
+## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-cd4d475c488d
+
+The transcript-validated baptism record for **Robert Glasgow**, 1627, Inveresk with Musselburgh, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
+
+## Source findings
+
+- [R_686174386 Findmypast transcript](https://www.findmypast.co.uk/transcript?id=R_686174386&tab=this): Baptism place: INVERESK WITH MUSSELBURGH, MIDLOTHIAN, SCOTLAND; Baptism year: -; Birth place: Inveresk with Musselburgh, Midlothian, Scotland; Birth year: 1627; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Midlothian; Father's first name(s): Allexander; Father's last name: Glasgow; First name(s): Robert; Last name: Glasgow; Mother's first name(s): -; Place: Inveresk with Musselburgh; Record set: Scotland, Parish Births & Baptisms 1564-1929; Residence: Inveresk, Midlothian, Scotland; Sex: Male; Subcategory: Parish Baptisms (captured 2026-09-03T21:34:41.050Z).
+- [R_693576269 Findmypast transcript](https://www.findmypast.co.uk/transcript?id=R_693576269&tab=this): Baptism year: -; Birth place: Inveresk with Musselburgh, Midlothian, Scotland; Birth year: 1627; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Midlothian; Father's first name(s): Allexander; Father's last name: Glasgow; First name(s): Robert; Last name: Glasgow; Mother's first name(s): -; Place: Inveresk with Musselburgh; Record set: Scotland, Parish Births & Baptisms 1564-1929; Sex: Male; Subcategory: Parish Baptisms (captured 2026-09-03T21:34:42.412Z).
+- Findmypast record IDs: `R_686174386`, `R_693576269`.
+- Stable research/source ID: `fmp-glasgow-cd4d475c488d`.
+
+## Recommended action — fmp-glasgow-cd4d475c488d
+
+Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
+<!-- END FMP-GLASGOW-fmp-glasgow-cd4d475c488d -->

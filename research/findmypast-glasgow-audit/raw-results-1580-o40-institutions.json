@@ -1,0 +1,118 @@
+{
+  "query": {
+    "surname": "Glasgow",
+    "surname_variants": false,
+    "place": null,
+    "covered_years": [
+      1540,
+      1620
+    ],
+    "url": "https://www.findmypast.co.uk/search/results?eventyear=1580&eventyear_offset=40&lastname=glasgow&sourcecategory=institutions%20%26%20organisations",
+    "eventyear": 1580,
+    "eventyear_offset": 40,
+    "partition_type": "sourcecategory",
+    "partition_group": "1580-o40",
+    "sourcecategory": "institutions & organisations"
+  },
+  "started_at": "2026-09-03T19:34:33.999Z",
+  "completed_at": "2026-09-03T19:34:33.999Z",
+  "displayed_total": 5,
+  "expected_pages": 1,
+  "captured_pages": 1,
+  "captured_rows": 5,
+  "reconciled": true,
+  "pages": [
+    {
+      "page": 1,
+      "url": "https://www.findmypast.co.uk/search/results?eventyear=1580&eventyear_offset=40&lastname=glasgow&sourcecategory=institutions%20%26%20organisations",
+      "captured_at": "2026-09-03T19:34:33.999Z",
+      "rows": [
+        {
+          "event_year": "1220-1912",
+          "first_name": "—",
+          "last_name": "—",
+          "links": [
+            {
+              "label": "View PDF",
+              "url": "https://search.findmypast.co.uk/record?id=S2%2FGBOR%2FPDFS%2FLONDONALDER%2FVOL1%2F0327&parentid=S2%2FGBOR%2FPDFS%2FLONDONALDER%2FVOL1%2F0327"
+            }
+          ],
+          "location": "London, England",
+          "record_id": "S2/GBOR/PDFS/LONDONALDER/VOL1/0327",
+          "record_set": "City Of London, Aldermen 1220-1912",
+          "subscription_locked": false,
+          "year_of_birth": "—",
+          "year_of_death": "—"
+        },
+        {
+          "event_year": "1220-1912",
+          "first_name": "—",
+          "last_name": "—",
+          "links": [
+            {
+              "label": "View PDF",
+              "url": "https://search.findmypast.co.uk/record?id=S2%2FGBOR%2FPDFS%2FLONDONALDER%2FVOL2%2F0302&parentid=S2%2FGBOR%2FPDFS%2FLONDONALDER%2FVOL2%2F0302"
+            }
+          ],
+          "location": "London, England",
+          "record_id": "S2/GBOR/PDFS/LONDONALDER/VOL2/0302",
+          "record_set": "City Of London, Aldermen 1220-1912",
+          "subscription_locked": false,
+          "year_of_birth": "—",
+          "year_of_death": "—"
+        },
+        {
+          "event_year": "1220-1912",
+          "first_name": "—",
+          "last_name": "—",
+          "links": [
+            {
+              "label": "View PDF",
+              "url": "https://search.findmypast.co.uk/record?id=S2%2FGBOR%2FPDFS%2FLONDONALDER%2FVOL1%2F0346&parentid=S2%2FGBOR%2FPDFS%2FLONDONALDER%2FVOL1%2F0346"
+            }
+          ],
+          "location": "London, England",
+          "record_id": "S2/GBOR/PDFS/LONDONALDER/VOL1/0346",
+          "record_set": "City Of London, Aldermen 1220-1912",
+          "subscription_locked": false,
+          "year_of_birth": "—",
+          "year_of_death": "—"
+        },
+        {
+          "event_year": "1220-1912",
+          "first_name": "—",
+          "last_name": "—",
+          "links": [
+            {
+              "label": "View PDF",
+              "url": "https://search.findmypast.co.uk/record?id=S2%2FGBOR%2FPDFS%2FLONDONALDER%2FVOL1%2F0324&parentid=S2%2FGBOR%2FPDFS%2FLONDONALDER%2FVOL1%2F0324"
+            }
+          ],
+          "location": "London, England",
+          "record_id": "S2/GBOR/PDFS/LONDONALDER/VOL1/0324",
+          "record_set": "City Of London, Aldermen 1220-1912",
+          "subscription_locked": false,
+          "year_of_birth": "—",
+          "year_of_death": "—"
+        },
+        {
+          "event_year": "1220-1912",
+          "first_name": "—",
+          "last_name": "—",
+          "links": [
+            {
+              "label": "View PDF",
+              "url": "https://search.findmypast.co.uk/record?id=S2%2FGBOR%2FPDFS%2FLONDONALDER%2FVOL1%2F0322&parentid=S2%2FGBOR%2FPDFS%2FLONDONALDER%2FVOL1%2F0322"
+            }
+          ],
+          "location": "London, England",
+          "record_id": "S2/GBOR/PDFS/LONDONALDER/VOL1/0322",
+          "record_set": "City Of London, Aldermen 1220-1912",
+          "subscription_locked": false,
+          "year_of_birth": "—",
+          "year_of_death": "—"
+        }
+      ]
+    }
+  ]
+}

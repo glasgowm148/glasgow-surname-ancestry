@@ -1,5 +1,9 @@
 # Male candidate audit for Alexander Glasgow `Glasgow-951`
 
+> **Superseded relationship ranking (5 September 2026):** Alexander is only a
+> possible brother or cousin of Thomas and Daniel. Use `findings.md` and the
+> master integration ledger for current recommendations.
+
 Date: 2026-08-05
 
 ## Result

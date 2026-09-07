@@ -40,9 +40,25 @@ Margaret is best placed as a possible daughter or niece of
 [Ninian Glasgow (Glasgow-3188)](https://www.wikitree.com/wiki/Glasgow-3188).
 Her husband William Hardie was a cordiner. Ninian's proved son
 [Robert (Glasgow-1027)](https://www.wikitree.com/wiki/Glasgow-1027) was also a
-cordiner, and Ninian's probable son William moved into Leith, where William's
+cordiner, and Ninian's possible son William moved into Leith, where William's
 son was later apprenticed to a cordiner. This direct family trade/geography
 pattern materially strengthens the Edinburgh marriage cluster.
 
 Assessment: **possible daughter/niece, moderate**. No testament or marriage
 entry names her father, so do not mark an exact parent confident.
+
+<!-- BEGIN FMP-GLASGOW-fmp-glasgow-65f4901d3c5c -->
+## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-65f4901d3c5c
+
+The transcript-validated marriage record for **Margaret Glasgow**, 16 Jul 1611, Edinburgh, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
+
+## Source findings
+
+- [R_695883544/2 Findmypast transcript](https://www.findmypast.co.uk/transcript?id=R_695883544%2F2&tab=this): Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Midlothian; First name(s): Margaret; Last name: Glasgow; Marriage date: 16 Jul 1611; Marriage year: 1611; Place: Edinburgh; Record set: Scotland, Parish Marriages & Banns 1561-1893; Spouse's first name(s): William; Spouse's last name: Hardie; Subcategory: Parish Marriages (captured 2026-09-03T21:33:43.630Z).
+- Findmypast record IDs: `R_695883544/2`.
+- Stable research/source ID: `fmp-glasgow-65f4901d3c5c`.
+
+## Recommended action — fmp-glasgow-65f4901d3c5c
+
+Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
+<!-- END FMP-GLASGOW-fmp-glasgow-65f4901d3c5c -->

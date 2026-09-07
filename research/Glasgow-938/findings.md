@@ -1,8 +1,13 @@
 # Findings: Glasgow-938
 
-Last updated: 2026-07-17
+Last updated: 2026-09-05
 
 ## Current conclusion
+
+The 5 September master review confirms Robert as Alexander's son from the 1851
+household and his 1866 marriage, which names Alexander Glasgow, farmer. The
+often-repeated exact birth date 6 November 1840 remains unsupported; retain an
+estimated birth from the census and marriage ages.
 
 Robert `Glasgow-938`, not older Robert `Glasgow-1367`, is the materially best
 candidate for the Robert Glasgow listed at Gortereghy in Griffith's Valuation.

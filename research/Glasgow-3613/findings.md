@@ -31,6 +31,14 @@ are not named by the testament. They remain uncertain topology only.
 | NRS Edinburgh Commissary Court, CC8/8/8, image 355, testament dative of Margaret Glasgow; diplomatic transcription preserved on the [live profile](https://www.wikitree.com/wiki/Glasgow-3613) | Margaret was spouse to John Edstoun in Croftmalloch; she died intestate in November 1578; the inventory was given up by `Cuthbert ... hir sone executour dative`. | Direct spouse, son and death-month evidence. Cuthbert's surname is unread. |
 | *Commissariot of Edinburgh: Register of Testaments, 1514-1600*, [p. 108](https://archive.org/details/scottishrecordso01scotuoft/page/n117/mode/1up) | Index entry: Margaret Glasgow, sometime spouse to John Edstoun in Croftmalloch, 8 November 1580. | Independently confirms Margaret's identity, spouse and residence; 1580 is the court/index date, not death. |
 
+## Findmypast surname-only audit — 3 September 2026
+
+[Findmypast transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FWILLS%2F057454)
+identifies **Margaret Glasgow**, sometime spouse to John Edstoun in Croftmalloch,
+with date **8 November 1580**. This is a derivative transcription of the
+Edinburgh testament index and matches `Glasgow-3613`; it is the court/index date,
+not the November 1578 death date established by the original testament.
+
 ## Exact reconstruction
 
 ```text
@@ -64,3 +72,19 @@ Margaret's record-proved husband, is the natural father candidate but is not
 explicitly identified as Cuthbert's father in the transcribed clause. Cuthbert
 is therefore attached to Margaret alone pending a secure reading or another
 record.
+
+<!-- BEGIN FMP-GLASGOW-fmp-glasgow-faa9cffab9d5 -->
+## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-faa9cffab9d5
+
+The transcript-validated testament/probate record for **Margaret Glasgow**, 8 Nov 1580, , is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
+
+## Source findings
+
+- [SCOT/WILLS/057454 Findmypast transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FWILLS%2F057454&tab=this): Additional information: sometime spouse to John Edstoun, in Croftmalloch; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Commissariot: Edinburgh; Country: Scotland; Date: 8 Nov 1580; First name(s): Margaret; Last name: Glasgow; Publication: Commissariot Record Of Edinburgh Register Of Testaments Part I (1514-1600); Record set: Scotland, Will And Testament Index 1481-1807; Subcategory: Wills & Probate; Year: 1580 (captured 2026-09-03T21:33:40.319Z).
+- Findmypast record IDs: `SCOT/WILLS/057454`.
+- Stable research/source ID: `fmp-glasgow-faa9cffab9d5`.
+
+## Recommended action — fmp-glasgow-faa9cffab9d5
+
+Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
+<!-- END FMP-GLASGOW-fmp-glasgow-faa9cffab9d5 -->

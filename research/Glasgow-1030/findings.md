@@ -12,8 +12,10 @@ witnessed John's son's 1619 baptism were not brothers. George was the proved
 son of William, while Robert was the proved son of Ninian.
 
 The strongest alternative is that John was the otherwise unidentified brother
-named in Ninian Glasgow's 1613 testament, and therefore another son of
-[Robert Glasgow, fisher (about 1520)](https://www.wikitree.com/wiki/Glasgow-1096).
+named in Ninian Glasgow's 1613 testament. Ninian's proved father,
+[Robert Glasgow, fisher (about 1520)](https://www.wikitree.com/wiki/Glasgow-1096),
+is a strong father candidate for John, but the testament does not distinguish
+a full from a half-brother.
 That would make the 1619 witness [Robert Glasgow (about 1583)](https://www.wikitree.com/wiki/Glasgow-1027)
 John's nephew. This fits the records better than calling both witnesses John's
 brothers, but no source yet identifies the 1618 husband by occupation, father
@@ -28,7 +30,7 @@ merge the men on this evidence alone.
 | Glasgow High Kirk OPR 644/1, baptism of John, 13 May 1619, transcribed in the [captured profile](https://www.wikitree.com/wiki/Glasgow-1030) | John and Jonet Mathie's son John was baptised with George Glasgow, Mathew Will and Robert Glasgow as witnesses. The entry does **not** call George or Robert uncles or brothers. | Direct evidence that the three adult Glasgows belonged to the same social or kin network; it does not state their exact relationships. |
 | Robert Renwick, ed., *Abstracts of Protocols of the Town Clerks of Glasgow*, vol. 9, protocols 2903 and 2916, [15 July and 1 September 1586](https://archive.org/details/abstractsprotoc01scogoog/page/n113/mode/2up) | George was expressly William Glasgow's son and heir; Margaret Herbesoun was George's mother. | Direct evidence placing George in William's household. |
 | NRS, Glasgow Commissary Court, CC9/7/5 (1607) and CC9/7/9 (1613), transcribed in the captured [Robert profile](https://www.wikitree.com/wiki/Glasgow-1027) | Jonet Meik and Ninian Glasgow each expressly called Robert their son. | Direct evidence placing the other 1619 witness Robert in a different household. George and Robert therefore cannot both have been John's brothers as the live biography claims. |
-| NRS, Glasgow Commissary Court, CC9/7/9, testament of Ninian Glasgow, made 10 January 1613 | Ninian left a new gown to `Johne glasgw his brother`. Ninian's 1596 burgess admission calls him the second son of Robert Glasgow, fisher and burgess. | Direct proof of a separate John, son of Robert the fisher, alive in 1613. Chronology and Robert's presence at the 1619 baptism make this man the leading identity candidate for John-1030, but do not prove the identity. |
+| NRS, Glasgow Commissary Court, CC9/7/9, testament of Ninian Glasgow, made 10 January 1613 | Ninian expressly names `Johne glasgw his brother`; the exact clothing description that follows is insecure. Ninian's 1596 burgess admission calls him the second son of Robert Glasgow, fisher and burgess. | Direct proof of a separate brother John alive in 1613. Robert is only a possible father because full versus half-brother is unstated; `second son` does not identify John's birth order. Chronology and Robert's presence at the 1619 baptism make this man the leading identity candidate for John-1030, but do not prove the identity. |
 | Renwick, *Abstracts of Protocols*, vol. 6, protocols 1903-1904 (12 February 1572/73), and vol. 7, protocol 2002 (19 December 1573) | A John Glasgow, fisher, held land adjoining Robert Glasgow and witnessed Robert's property transaction; later Robert and John were witnesses together and both were described as fishers. | Proves a close namesake association but does not identify this John as Robert's son. Multiple adult Johns were active, and nothing carries the 1573 fisher into John-1030's marriage or child's baptism. |
 | J. D. Marwick, ed., *Extracts from the Records of the Burgh of Glasgow*, vol. 1, 1573-1642 | Complete surname-variant search found no entry identifying John by occupation, property, father or brother. | Negative search. The published extracts do not supply the missing identity bridge. |
 | Renwick, *Abstracts of Protocols*, vol. 1, protocols 183–184, [10 May 1554](https://archive.org/details/abstractsprotoc07robegoog/page/n90/mode/2up), with the later Mathie evidence summarized [here](../Glasgow-3908/mathie-glencairn-bridge-1554-1618.md) | David Mathy and Robert Glasgow were fellow burgesses and witnesses to the same sasine. David's son John is a plausible precursor of the Glencairn-associated Mathie household; Jonet Mathie married John-1030 in 1618. | If John-1030 was Robert's son, the marriage may continue an association between the descendants of the 1554 co-witnesses. This supports the identity model socially but does not name John's father or Jonet's father. |
@@ -41,7 +43,7 @@ merge the men on this evidence alone.
 | [Margaret Herbesoun, Herbison-439](https://www.wikitree.com/wiki/Herbison-439) | Current mother; mark uncertain because her maternity follows only from the unproved William placement. |
 | [George Glasgow (about 1569), Glasgow-1099](https://www.wikitree.com/wiki/Glasgow-1099) | 1619 baptismal witness and possible collateral; not proved as John's brother. |
 | [Robert Glasgow (about 1583), Glasgow-1027](https://www.wikitree.com/wiki/Glasgow-1027) | 1619 baptismal witness and possible nephew if John was Ninian's brother; not John's proved brother. |
-| John, son of [Robert Glasgow, fisher (about 1520), Glasgow-1096](https://www.wikitree.com/wiki/Glasgow-1096) | Record-defined man alive in 1613; **Glasgow-1030 is the best existing-profile identity match**, although the equation remains uncertain. Do not create a duplicate or merge another John unless further evidence disproves this match or directly proves the identity. |
+| John, brother of Ninian Glasgow; possible son of [Robert Glasgow, fisher (about 1520), Glasgow-1096](https://www.wikitree.com/wiki/Glasgow-1096) | Record-defined man alive in 1613; **Glasgow-1030 is the best existing-profile identity match**, although both the identity and Robert father link remain uncertain. Do not create a duplicate or merge another John unless further evidence disproves this match or directly proves the identity. |
 
 ## WikiTree update instructions
 
@@ -68,20 +70,23 @@ The live structured birth was corrected to **about 1570, uncertain**. The estima
 
 ## Possible 1637 testament identity — 29 August 2026
 
-NRS Glasgow Commissary Court testament CC9/7/27 records a John Glasgw,
-burgess of Glasgow, who made his will and died on 7 April 1637. It names his
-children collectively, executor Robert Stewart, witnesses John Bell elder and
-Robert Stewart, and surgeon James Anderson, who was owed £10 for curing John's
-hurt leg.
+Reinspection of NRS CC9/7/27, images 478–480, supersedes the earlier reading.
+The estate is the testament dative of **John Glasgow, sailor in Saltcoats**,
+whose widow was Isobel Young. It directly calls Katherine and Marie Glasgow
+their lawful children. John died in December, provisionally 1636, and the
+testament was confirmed 11 April 1637. The former description of a Glasgow
+burgess dying 7 April, with Robert Stewart and a surgeon, must not be carried
+forward from these images.
 
-Glasgow-1030 is the leading existing-profile candidate because he was an adult
-in Glasgow by 1618/19 and has no proved death. The testament does not name
-Jonet Mathie, John's children individually, his father, occupation beyond
-burgess status or a property shared with Glasgow-1030. Treat identity as open
-and do not create a duplicate while this candidate remains viable.
+Glasgow-1030 remains a possible identity because he was an adult by 1618/19
+and no proved death excludes a later marriage or move to Saltcoats. The record
+does not connect his wife Jonet Mathie or Glasgow child to Isobel Young, the
+sailor occupation, Saltcoats or the two daughters. Keep the identities
+separate on **HOLD** and do not create another John while this candidate
+remains viable.
 
-The complete local handoff is the
-[1637 HOLD evidence draft](../../surname-research/new-people/1637_Scotland_Glasgow_John_Glasgw.md).
+The corrected consolidated handoff is the [Saltcoats HOLD evidence
+draft](../../surname-research/new-people/1637_Scotland_Saltcoats_John_Glasgow.md).
 
 ## Mathie marriage-network lead — 30 August 2026
 
@@ -98,3 +103,19 @@ Glencairn network as the Stevenston/Corsankell Glasgows, while Robert's direct
 1554 association with David Mathy provides an independent link from John's
 probable paternal family. Treat this as a coherent working reconstruction, not
 as permission to attach Jonet to an unproved father.
+
+<!-- BEGIN FMP-GLASGOW-fmp-glasgow-e63d7cbe8e87 -->
+## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-e63d7cbe8e87
+
+The transcript-validated marriage record for **John Glasgow**, 25 Jan 1618, Glasgow, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
+
+## Source findings
+
+- [R_694496543/1 Findmypast transcript](https://www.findmypast.co.uk/transcript?id=R_694496543%2F1&tab=this): Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Lanarkshire; First name(s): John; Last name: Glasgow; Marriage date: 25 Jan 1618; Marriage year: 1618; Place: Glasgow; Record set: Scotland, Parish Marriages & Banns 1561-1893; Spouse's first name(s): Jonat; Spouse's last name: Mathen; Subcategory: Parish Marriages (captured 2026-09-03T21:33:14.338Z).
+- Findmypast record IDs: `R_694496543/1`.
+- Stable research/source ID: `fmp-glasgow-e63d7cbe8e87`.
+
+## Recommended action — fmp-glasgow-e63d7cbe8e87
+
+Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
+<!-- END FMP-GLASGOW-fmp-glasgow-e63d7cbe8e87 -->

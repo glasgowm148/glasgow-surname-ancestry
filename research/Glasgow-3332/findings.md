@@ -4,8 +4,9 @@
 
 Glasgow-3332 cannot be the James whose testament was recorded in 1624. He is a
 chronological candidate for the 1680 Back of Lindsaylands weaver, but no reviewed
-record joins the identities. His asserted family also depends on a 1662 original
-that must be re-read because the connected John profiles are conflated.
+record joins the identities. His asserted family depends on the separate 1662
+original. The 1685 Quothquan testament names no child and does not prove James
+as a son of [[Glasgow-1086]].
 
 ## Source findings
 

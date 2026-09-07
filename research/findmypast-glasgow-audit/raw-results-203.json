@@ -1,0 +1,81 @@
+{
+  "query": {
+    "surname": "Glasgow",
+    "surname_variants": false,
+    "place": null,
+    "eventyear": 203,
+    "eventyear_offset": 40,
+    "covered_years": [
+      163,
+      243
+    ],
+    "url": "https://www.findmypast.co.uk/search/results?eventyear=203&eventyear_offset=40&lastname=glasgow"
+  },
+  "started_at": "2026-09-03T18:02:44.289Z",
+  "completed_at": "2026-09-03T18:02:45.862Z",
+  "displayed_total": 3,
+  "expected_pages": 1,
+  "captured_pages": 1,
+  "captured_rows": 3,
+  "reconciled": true,
+  "pages": [
+    {
+      "page": 1,
+      "url": "https://www.findmypast.co.uk/search/results?eventyear=203&eventyear_offset=40&lastname=glasgow",
+      "captured_at": "2026-09-03T18:02:45.797Z",
+      "rows": [
+        {
+          "event_year": "190",
+          "first_name": "—",
+          "last_name": "—",
+          "links": [
+            {
+              "label": "View PDF",
+              "url": "https://search.findmypast.co.uk/record?id=US%2FQUINTIN%2FMCCONNELL-M12%2F0398&parentid=US%2FQUINTIN%2FMCCONNELL-M12%2F0398"
+            }
+          ],
+          "location": "Scotland, Ireland, United States",
+          "record_id": "US/QUINTIN/MCCONNELL-M12/0398",
+          "record_set": "United States, Family Histories",
+          "subscription_locked": false,
+          "year_of_birth": "—",
+          "year_of_death": "—"
+        },
+        {
+          "event_year": "190",
+          "first_name": "—",
+          "last_name": "—",
+          "links": [
+            {
+              "label": "View PDF",
+              "url": "https://search.findmypast.co.uk/record?id=US%2FQUINTIN%2FMCCONNELL-M12%2F0405&parentid=US%2FQUINTIN%2FMCCONNELL-M12%2F0405"
+            }
+          ],
+          "location": "Scotland, Ireland, United States",
+          "record_id": "US/QUINTIN/MCCONNELL-M12/0405",
+          "record_set": "United States, Family Histories",
+          "subscription_locked": false,
+          "year_of_birth": "—",
+          "year_of_death": "—"
+        },
+        {
+          "event_year": "190",
+          "first_name": "—",
+          "last_name": "—",
+          "links": [
+            {
+              "label": "View PDF",
+              "url": "https://search.findmypast.co.uk/record?id=US%2FQUINTIN%2FMCCONNELL-M12%2F0256&parentid=US%2FQUINTIN%2FMCCONNELL-M12%2F0256"
+            }
+          ],
+          "location": "Scotland, Ireland, United States",
+          "record_id": "US/QUINTIN/MCCONNELL-M12/0256",
+          "record_set": "United States, Family Histories",
+          "subscription_locked": false,
+          "year_of_birth": "—",
+          "year_of_death": "—"
+        }
+      ]
+    }
+  ]
+}

@@ -32,3 +32,19 @@ became a captain.
 The profile statement that the financial transaction showed James Glasgow was
 well established in Ireland should therefore be removed, not merely marked
 uncertain.
+
+<!-- BEGIN FMP-GLASGOW-fmp-glasgow-25be316e47cf -->
+## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-25be316e47cf
+
+The transcript-validated baptism record for **James Glasgow**, 17 Mar 1700, Kilbirnie, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
+
+## Source findings
+
+- [SCOT/OPR/BAP/3585861 Findmypast transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3585861&tab=this): Archive reference: OPR 596/1; Baptism date: 17 Mar 1700; Baptism year: 1700; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Ayrshire; Father's first name(s): John; Father's last name: Glasgow; Father's occupation: Minister; First name(s): James; Item: 1; Last name: Glasgow; Mother's first name(s): Margaret; Mother's last name: Scot; Page: 26; Place: Kilbirnie; Record set: Scotland, Parish Births & Baptisms 1564-1929; Register year range: 1688-1819; Residence: Kilbirny; Subcategory: Parish Baptisms (captured 2026-09-03T23:41:41.758Z).
+- Findmypast record IDs: `SCOT/OPR/BAP/3585861`.
+- Stable research/source ID: `fmp-glasgow-25be316e47cf`.
+
+## Recommended action — fmp-glasgow-25be316e47cf
+
+Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
+<!-- END FMP-GLASGOW-fmp-glasgow-25be316e47cf -->

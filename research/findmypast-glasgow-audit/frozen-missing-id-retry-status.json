@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "manifest": "research/findmypast-glasgow-audit/frozen-missing-id-manifest.json",
+  "manifest_sha256": "c8b8e4dd21654fb52291f6171ee4f830130de29815a142c42eeef7322eeb8e66",
+  "index_base": 0,
+  "coverage_sources": [
+    "research/findmypast-glasgow-audit/record-details-remaining-a.json",
+    "research/findmypast-glasgow-audit/record-details-remaining-b.json"
+  ],
+  "state_definitions": {
+    "accessible": "A transcript table was captured from the record page.",
+    "record_specific_inaccessible": "The individual record redirected to a record-specific access or upgrade page; this is not the daily fair-use limit.",
+    "daily_limit_temporary": "The request redirected to steady-sherlock?limit=dailyLimit; no record-level access conclusion may be drawn.",
+    "never_attempted": "No saved capture exists for this frozen index."
+  },
+  "counts": {
+    "accessible": 162,
+    "daily_limit_temporary": 127,
+    "never_attempted": 815,
+    "record_specific_inaccessible": 12
+  },
+  "ranges_by_state": {
+    "accessible": [
+      [
+        0,
+        0
+      ],
+      [
+        558,
+        567
+      ],
+      [
+        580,
+        730
+      ]
+    ],
+    "record_specific_inaccessible": [
+      [
+        568,
+        579
+      ]
+    ],
+    "daily_limit_temporary": [
+      [
+        731,
+        857
+      ]
+    ],
+    "never_attempted": [
+      [
+        1,
+        557
+      ],
+      [
+        858,
+        1115
+      ]
+    ]
+  },
+  "daily_limit": {
+    "first_index": 731,
+    "first_record_id": "SCOT/OPR/BAP/4166390",
+    "last_saved_affected_index": 857,
+    "retry_only_after_daily_allowance_resets": true
+  },
+  "retry_workstreams": [
+    {
+      "name": "tranche_a",
+      "assigned_range": [
+        0,
+        557
+      ],
+      "resume_index": 1,
+      "retry_ranges": [
+        {
+          "range": [
+            1,
+            557
+          ],
+          "state": "never_attempted"
+        }
+      ],
+      "note": "Index 0 is already accessible; the 0-557 work window remains the tranche boundary."
+    },
+    {
+      "name": "tranche_b_after_daily_reset",
+      "assigned_range": [
+        731,
+        1115
+      ],
+      "resume_index": 731,
+      "retry_ranges": [
+        {
+          "range": [
+            731,
+            857
+          ],
+          "state": "daily_limit_temporary"
+        },
+        {
+          "range": [
+            858,
+            1115
+          ],
+          "state": "never_attempted"
+        }
+      ],
+      "note": "Stop immediately if the daily-limit redirect recurs; do not open later IDs in the same limited session."
+    },
+    {
+      "name": "record_specific_access",
+      "assigned_range": [
+        568,
+        579
+      ],
+      "resume_index": 568,
+      "retry_ranges": [
+        {
+          "range": [
+            568,
+            579
+          ],
+          "state": "record_specific_inaccessible"
+        }
+      ],
+      "note": "Retry only when record-level entitlement or access has materially changed."
+    }
+  ],
+  "broad_retry_windows": [
+    [
+      0,
+      557
+    ],
+    [
+      731,
+      1115
+    ]
+  ],
+  "next_never_attempted_index": 1,
+  "other_open_work": {
+    "retryable_control_or_rendering_error_ids": [
+      "GBPRS/HRH/90006936/1",
+      "GBPRS/HRH/90007099/1",
+      "SCOT/OPR/BAP/0438207",
+      "SCOT/OPR/BAP/0846608",
+      "SCOT/OPR/BAP/3578549",
+      "SCOT/OPR/BAP/4099918",
+      "SCOT/OPR/BAP/4176716",
+      "SCOT/OPR/BAP/4478159",
+      "SCOT/OPR/BAP/4478206",
+      "SCOT/OPR/BAP/4695025"
+    ],
+    "retryable_control_or_rendering_error_count": 10,
+    "capped_travel_leaf_queries": 3,
+    "capped_result_rows_not_enumerated": 3879,
+    "note": "The ten errors are not evidence of inaccessible records. The three Travel & Migration leaf queries remain blocked by Findmypast's 75-page cap; the master audit stays INCOMPLETE until their tails are partitioned and enumerated or explicitly reported inaccessible."
+  }
+}

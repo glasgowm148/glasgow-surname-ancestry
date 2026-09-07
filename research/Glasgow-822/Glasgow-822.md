@@ -26,8 +26,8 @@ created for the 1831 Inishrush John and made the subject of a merge proposal.
   Adam's proved son James at Inishrush and the adjoining Tyanee network, where
   Adam's proved daughter Nancy had married John Kyle.
 
-These points make identity with the 1831 John strong and make Adam's brother the
-best probable placement. They justify submitting a merge proposal and leaving it
-pending for review. Older Adam and Maria should remain candidate parent names in
-Research Notes, not structured parents.
+These points make identity with the 1831 John strong, but do not distinguish
+brotherhood from cousinship with Adam. They justify submitting a merge proposal
+and leaving it pending for review. Older Adam and Maria should remain candidate
+parent names in Research Notes, not structured parents.
 See [full findings](findings.md) and the [record-defined profile evidence](../Glasgow-3927/1831_Ireland_Inishrush_John_Glasco.md).

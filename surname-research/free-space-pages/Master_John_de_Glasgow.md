@@ -94,6 +94,16 @@ Master John de Glasgow’s life was a testament to his dedication to the church 
 * '''1413''': John Lang petitions the Pope regarding the exchange made with John.
 * '''Before 1419''': Death of Master John de Glasgow (exact date uncertain; vacancy noted in 1419).
 
+=== Unverified pedigree claim ===
+
+FamilySearch person [https://ancestors.familysearch.org/en/GWZP-L6B
+GWZP-L6B] presents William de Glasgu (1370–1430) as a son of Master John, but
+shows `Sources (0)` and no attached historical documents. It also displays a
+son, Master John Glasgow, born in 1360—ten years before William's displayed
+birth. This chronologically impossible, unsourced tree is not corroboration
+for the relationship. It is retained only as a source-recovery and
+contamination-watch lead.
+
 == Sources ==
 
 * '''Calendar of Scottish Supplications to Rome 1418–1422''', edited by E.R. Lindsay and A.I. Cameron, Scottish History Society, Edinburgh, 1934.

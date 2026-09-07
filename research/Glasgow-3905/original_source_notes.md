@@ -3,7 +3,7 @@
 ## What is proved about Adam
 
 - Gravestone: Adam died 30 June 1844 aged 86; wife Rose died 31 July 1833 aged 66; the inscription names daughter Eliza, son James, and grandson William.
-- 1831 census: Adam Glasco headed house 91 at Inishrush, containing three males and five females, all Presbyterian. No names or ages were recorded for the other seven people.
+- 1831 census: Adam Glasco headed house 91 at Inishrush, containing three males and five females. No names or ages were recorded for the other seven people. MacAfee transcribes the denomination as Presbyterian while Torrens places the figures under Roman Catholic; inspect the original before assigning it.
 - 1842 marriage notice: Nancy was the sixth daughter of Adam Glasgow of Inishrush. The notice supplies no age or mother.
 - 1833 tithe transcription: Adam was the only Glasgow occupier transcribed in Tamlaght O'Crilly.
 

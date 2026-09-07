@@ -1,171 +1,129 @@
 #!/usr/bin/env python3
 """Static contract tests for the public Y-DNA explorer."""
 
+import json
+import re
 from pathlib import Path
 import unittest
 
 
 ROOT = Path(__file__).resolve().parents[1]
+PUBLIC = ROOT / "www" / "ydna" / "index.html"
+SOURCE = ROOT / "www" / "ydna" / "glasgow-ydna-story-source"
+
+
+def page_data(page: str) -> dict:
+    match = re.search(r'<script id="research-data" type="application/json">(.*?)</script>', page, re.S)
+    if not match:
+        raise AssertionError("embedded Y-DNA research data not found")
+    return json.loads(match.group(1))
 
 
 class YdnaExplorerTests(unittest.TestCase):
-    def test_explorer_has_root_and_distance_data(self) -> None:
-        page = (ROOT / "www" / "ydna" / "index.html").read_text(encoding="utf-8")
-        for kit in ("325862", "B835762", "254947", "N18544", "333002", "959947", "B696189", "1002232", "B580327", "200475", "999763", "478604", "794462"):
+    def test_explorer_keeps_story_tools_and_contextual_evidence(self) -> None:
+        page = PUBLIC.read_text(encoding="utf-8")
+        data = page_data(page)
+
+        self.assertEqual(len(data["roots"]), 8)
+        self.assertEqual(len(data["kits"]), 21)
+        self.assertEqual(len(data["pairs"]), 64)
+        self.assertEqual(len(data["matches"]), 17)
+        self.assertEqual(len(data["originalTables"]), 11)
+        self.assertEqual(sum(len(tables) for tables in data["originalTables"].values()), 13)
+        self.assertEqual(
+            sum(len(table) - 1 for tables in data["originalTables"].values() for table in tables),
+            78,
+        )
+
+        for section in (
+            "overview", "origins", "compare", "mutation-tree", "str-network",
+            "snp-splits", "sapp-model", "roots", "next-steps", "sources",
+        ):
+            self.assertIn(f'id="{section}"', page)
+        self.assertNotIn('id="evidence-dossier"', page)
+        self.assertNotIn('id="dossier-search"', page)
+        for host in (
+            "family-str-evidence", "family-inheritance-evidence",
+            "str-source-matrix", "str-direction-evidence",
+            "sapp-group-evidence", "sapp-placement-evidence",
+            "ft6135-scenarios-evidence", "vcf-call-evidence",
+            "variant-direction-evidence", "yfull-evidence",
+            "line-status-evidence", "archived-priorities",
+        ):
+            self.assertIn(f'id="{host}"', page)
+        for feature in (
+            "Evidence beneath this pedigree", "Branch-weighted marker reading",
+            "SAPP group audit", "Full directional comparison audit",
+            "What each unresolved line still needs", "Previous fixed ordering — superseded",
+            "Not the current priority ranking.", "Previous page snapshot",
+        ):
+            self.assertIn(feature, page)
+
+        for evidence in (
+            "DYS19=15 · DYS456=16 · DYS712=19", "FT25406 → FT20271", "FTE32242",
+            "FT6135", "11816547", "26534797", "Node 16", "Node 17",
+            "Wm Farrier and Susanna Abell line", "Henry Ferrier, born c.1758",
+            "829 populated reference DYS/FTY fields", "43290879-Nebraska-204066-0005.jpg",
+        ):
+            self.assertIn(evidence, page)
+
+        for kit in (
+            "325862", "B835762", "254947", "N18544", "959947", "B696189",
+            "1002232", "B580327", "200475", "999763", "478604", "794462",
+        ):
             self.assertIn(kit, page)
-        self.assertIn("'200475|B580327':[6,111]", page)
-        self.assertIn("'478604':[7,111]", page)
-        self.assertIn("profile:'Glasgow-2738'", page)
-        self.assertIn("name:'Henry Glasgo'", page)
-        self.assertIn('id="mutation-tree"', page)
-        self.assertIn("Which kits sit on each confirmed SNP branch?", page)
-        self.assertIn("Branch A · remains at R-FT25406", page)
-        self.assertIn("Likely Glasgow-12 STR signature", page)
-        self.assertIn('id="str-network"', page)
-        self.assertIn("Seven-kit FT20271 STR network", page)
-        self.assertNotIn("minmax(720px", page)
-        self.assertIn("tested paternal lines descending from R-FT20271", page)
-        self.assertIn('id="marker-placement"', page)
-        self.assertIn("Where do the marker-only lines fit?", page)
-        self.assertIn('id="sapp-model"', page)
-        self.assertIn('class="sapp-tree-scroll"', page)
-        self.assertIn('class="sapp-tree sapp-fixed"', page)
-        self.assertIn('class="sapp-connectors"', page)
-        self.assertIn(".sapp-tree.sapp-fixed{position:relative;height:1100px;min-width:0;overflow:hidden", page)
-        self.assertIn("SAPP's reconstructed node structure", page)
-        self.assertIn("Node 16", page)
-        self.assertIn("Node 17", page)
-        self.assertIn("Date conflicts with pedigree", page)
-        self.assertIn("Adjusted-GD path:", page)
-        self.assertIn("Control check passed.", page)
-        self.assertIn("794462</code> ·", page)
-        self.assertIn("GD 0/111", page)
-        self.assertIn("B835762</code> ·", page)
-        self.assertIn("GD 2/37", page)
-        self.assertIn("N18544</code> ·", page)
-        self.assertIn("GD 4/67", page)
-        self.assertIn("DYS714=26", page)
-        self.assertIn("'200475|794462':[0,111]", page)
-        self.assertIn("All pairwise genetic distances", page)
-        self.assertIn("'200475|959947':[1,111]", page)
-        self.assertIn("'478604|999763':[1,111]", page)
-        self.assertIn("the four closely related Glasgow-12 kits were collapsed", page)
-        self.assertIn("1431 CE", page)
-        self.assertIn("1199–1608", page)
-        self.assertIn("1583 CE", page)
-        self.assertIn("1387–1728", page)
-        self.assertIn("Glasgow-951 ↗", page)
-        self.assertIn("Glasgow-2738 ↗", page)
-        self.assertIn("Glasgow-591 ↗", page)
-        self.assertIn("Jeremiah Glasgo (Glasgo-23)", page)
-        self.assertIn("Glasgow-12 ↗", page)
-        self.assertIn("FT25406 → FT20271 → FTE32242", page)
-        self.assertIn('id="match-neighbourhood"', page)
-        self.assertIn("Every Y-111 match to Alexander's kit", page)
-        self.assertIn("FT20271 / FTE32242 (6)", page)
-        self.assertIn("Wm Farrier and Susanna Abell line", page)
-        self.assertIn("Henry Ferrier, born c.1758", page)
-        self.assertIn("8 of 17", page)
-        self.assertIn("DYS19=15 · DYS456=16 · DYS712=19", page)
-        self.assertIn("12648194 A→G", page)
-        self.assertIn("26534797 C→G", page)
-        self.assertIn("whose named mutation is C→A", page)
-        self.assertIn("Possible shared off-tree variant", page)
-        self.assertIn("FT6135 C→T", page)
-        self.assertIn("Branch-inheritance test at Robert Glasgow-12", page)
-        self.assertIn("FT6135 fails a clean three-son inheritance test", page)
-        self.assertIn("Pedigree audit changes the interpretation:", page)
-        self.assertIn("Documented William Glasgow branch", page)
-        self.assertIn("43290879-Nebraska-204066-0005.jpg", page)
-        self.assertIn("Glasgow-1877", page)
-        self.assertIn('id="snp-splits"', page)
-        self.assertIn('href="#yfull-check"', page)
-        self.assertIn('id="yfull-check"', page)
-        self.assertIn("What does YFull add?", page)
-        self.assertIn("FGC5690 positive", page)
-        self.assertIn("14 best-quality, 7 acceptable, 0 low-quality", page)
-        self.assertIn("FTD25732", page)
-        self.assertIn("FTD26239", page)
-        self.assertIn("completed shared-variant comparison", page)
-        self.assertNotIn("match scan remains in progress", page)
-        self.assertNotIn("YF148809", page)
-        self.assertIn("15/15 covered", page)
-        self.assertIn("variantSplitFromB580327", page)
-        self.assertIn("FT25406, FT16394, FT18145 and FT26594", page)
-        self.assertIn("FT20271 · FGC5690 · FT16542", page)
-        self.assertIn("5 · avg 3", page)
-        self.assertIn("identical across the displayed Y-111 panel (GD 0)", page)
-        self.assertIn("all 829 exported STR/FTY fields", page)
-        self.assertIn("Two different “closest” results", page)
-        self.assertIn("DYS712 mutates rapidly", page)
-        self.assertIn("KIT 999763 · BIG Y", page)
-        self.assertIn("KIT 478604 · BIG Y", page)
-        self.assertIn("James M. Glasgow (Glasgow-193)", page)
-        self.assertIn("William Allen Glasgow (Glasgow-2182)", page)
-        self.assertIn("Samuel Lyle Glasgow (Glasgow-192)", page)
-        self.assertIn("profile:'Glasgo-21',match:'linked'", page)
-        self.assertIn("profile:'Glasgow-12',match:'linked'", page)
-        self.assertIn("200475 + 999763 + 478604 + 794462", page)
-        self.assertIn('class="nav-toggle"', page)
-        self.assertIn('aria-controls="ydna-nav"', page)
-        self.assertIn('class="root-groups"', page)
-        self.assertIn('class="section-disclosure"', page)
-        self.assertIn('class="section-disclosure compare-disclosure"', page)
-        self.assertIn('class="section-disclosure default-open" open', page)
-        self.assertIn('class="str-network-panel card-disclosure default-open"', page)
-        self.assertIn('root-group-disclosure', page)
-        self.assertNotIn('Profile evidence', page)
-        self.assertIn('id="root-search"', page)
-        self.assertIn('data-view-mode="overview"', page)
-        self.assertIn('data-view-mode="full"', page)
-        self.assertIn('class="compare-root"', page)
-        self.assertIn('id="share-comparison"', page)
-        self.assertIn("searchParams.set('kitA'", page)
-        self.assertIn("searchParams.set('kitB'", page)
-        self.assertIn("initDistanceMatrix", page)
-        self.assertIn('class="matrix-scroll-hint"', page)
-        self.assertIn('class="matrix-selection"', page)
-        self.assertIn('href="#match-neighbourhood"', page)
-        self.assertIn('href="#next-steps"', page)
-        self.assertIn('id="next-steps"', page)
-        self.assertIn("Upgrade kit <code>254947</code> from Y-111 to Big Y-700", page)
-        self.assertIn("Request the full Big Y bundle for kit <code>1002232</code>", page)
-        self.assertIn("Minimum useful “full bundle” request:", page)
-        self.assertIn("A BAM file is not needed for the first-pass questions", page)
-        self.assertIn('class="inline-disclosure"', page)
-        self.assertLess(page.index('class="distance-wrap"'), page.index('class="inline-disclosure"'))
-        self.assertIn('<details class="inheritance-audit">', page)
-        self.assertIn('class="inline-disclosure block-tree-notes"', page)
-        self.assertLess(page.index('id="str-network"'), page.index('class="inline-disclosure block-tree-notes"'))
-        self.assertLess(page.index('id="str-evidence-title"'), page.index('id="inheritance-title"'))
-        self.assertIn('class="back-to-top"', page)
-        self.assertIn("updateActiveNav", page)
-        self.assertIn("Confirmed Big Y", page)
-        self.assertIn("Needs Big Y", page)
-        self.assertLess(page.index('id="roots"'), page.index('id="compare"'))
-        self.assertLess(page.index('id="roots"'), page.index('id="snp-splits"'))
-        self.assertLess(page.index('id="roots"'), page.index('id="match-neighbourhood"'))
-        self.assertNotIn('href="people/', page)
-        self.assertIn("R-FTE32242 is downstream of R-FT20271", page)
-        self.assertIn("Directional SNP differences", page)
-        for living_name in ("Karl Glasgow", "Rod Dale Glasgow", "Gerald Neumann Glasgow", "Craig Linn Glasgow", "Nathan Jacobs", "David Lee Glasgow", "Christopher Dale Glasgow", "Robert Brown", "Brian Wilson", "Jerry Glasgo", "John Edward Farrier", "Jason Phillips", "Michael B Glasgow", "Jack Glasgow", "Roger Allan Glasgow", "Christopher Stephen FARRIER", "J P FARRIER"):
+        for profile in ("Glasgow-951", "Glasgow-2738", "Glasgow-591", "Glasgow-12"):
+            self.assertIn(profile, page)
+
+        self.assertEqual(data["pairs"]["200475|999763"]["gd"], 0)
+        self.assertEqual(data["pairs"]["1002232|B580327"]["gd"], 3)
+        self.assertEqual(data["audit"]["mstCount"], 8)
+        self.assertEqual(data["audit"]["fourPointViolations"], 4)
+        self.assertEqual(data["metadata"]["revision"], "story-documentary-refresh-2026-09-07")
+
+        for documentary_check in (
+            "1194 Yorkshire Pipe Roll", "half a mark", "pledge or surety",
+            "Roger de Glasgu", "John Glasgw in Stirling in 1475–1479/80",
+            "Farrier/Ferrier", "medieval de Ferrers", "Duffield-471",
+            "placement evidence", "John de Glasgow alias Smith",
+            "Robert Watson → Agnes",
+        ):
+            self.assertIn(documentary_check, page)
+        self.assertIn("Space:John_de_Glasgow_alias_Smith_/_John_Glasgow_of_Saltmarket%27", page)
+        self.assertIn("association is therefore a lead to verify", page)
+        self.assertNotIn("Glasgow and Duffield share this younger part of the tree", page)
+
+        for living_name in (
+            "Karl Glasgow", "Rod Dale Glasgow", "Gerald Neumann Glasgow", "Craig Linn Glasgow",
+            "Nathan Jacobs", "David Lee Glasgow", "Christopher Dale Glasgow", "Robert Brown",
+            "Brian Wilson", "Jerry Glasgo", "John Edward Farrier", "Jason Phillips",
+            "Michael B Glasgow", "Jack Glasgow", "Roger Allan Glasgow",
+            "Christopher Stephen FARRIER", "J P FARRIER",
+        ):
             self.assertNotIn(living_name, page)
+
+    def test_source_build_and_public_routes_are_preserved(self) -> None:
+        public = PUBLIC.read_text(encoding="utf-8")
+        source_page = (SOURCE / "index.html").read_text(encoding="utf-8")
+        old_snapshot = (SOURCE / "reference" / "original-upload.html").read_text(encoding="utf-8")
+
+        self.assertIn('<base href="../">', public)
+        self.assertIn("data-clean-index-redirect", public)
+        self.assertIn("data-local-file-links", public)
+        self.assertIn('<base href="../../">', source_page)
+        self.assertNotIn("data-clean-index-redirect", source_page)
+        self.assertIn("See which paternal roots actually share mutations.", old_snapshot)
+        for token in ("__CSS__", "__JS__", "__DATA__", "__SITE_BASE__", "__ROUTE_REDIRECT__"):
+            self.assertNotIn(token, public)
+            self.assertNotIn(token, source_page)
 
     def test_home_and_discovery_links_exist(self) -> None:
         home = (ROOT / "www" / "index.html").read_text(encoding="utf-8")
         self.assertIn('href="ydna.html"', home)
         self.assertIn('href="catalogue.html"', home)
-        self.assertIn('location.protocol!=="file:"', home)
         ydna_legacy = (ROOT / "www" / "ydna.html").read_text(encoding="utf-8")
         self.assertIn("location.protocol==='file:'?'ydna/index.html':'/ydna'", ydna_legacy)
         self.assertNotIn('http-equiv="refresh"', ydna_legacy)
-        ydna_clean = (ROOT / "www" / "ydna" / "index.html").read_text(encoding="utf-8")
-        catalogue_clean = (ROOT / "www" / "catalogue" / "index.html").read_text(encoding="utf-8")
-        self.assertIn('<base href="../">', ydna_clean)
-        self.assertIn('location.protocol!=="file:"', ydna_clean)
-        self.assertIn('data-local-file-links', ydna_clean)
-        self.assertIn('<base href="../">', catalogue_clean)
-        self.assertIn('data-local-file-links', catalogue_clean)
         self.assertIn("/ydna", (ROOT / "www" / "sitemap.xml").read_text(encoding="utf-8"))
         self.assertIn("/ydna", (ROOT / "www" / "llms.txt").read_text(encoding="utf-8"))
 

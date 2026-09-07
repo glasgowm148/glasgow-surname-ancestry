@@ -1,5 +1,9 @@
 # Gortereghy and Lisnagaver Glasgow cluster audit
 
+> **Superseded relationship ranking (5 September 2026):** the cluster supports
+> possible close kinship, not probable brotherhood between Alexander and
+> Thomas. See the maintained profile findings.
+
 Last updated: 2026-07-17
 
 ## Answer

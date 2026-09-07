@@ -16,19 +16,26 @@ Verify each claimed identity, relationship, date, and place against the underlyi
 
 ## Identify and link every person
 
+- Treat documentary rows as evidence about people, not as profile identities. Before creating or queueing anything, cluster compatible records into the fewest defensible people and search whether each cluster fits an existing WikiTree profile.
+- Prefer adding a compatible fact to an existing profile. Create a new profile only when the evidence defines a distinct person and a completed duplicate audit finds no compatible profile; if identity is ambiguous or candidate profiles remain, keep one consolidated evidence handoff on **HOLD**. Never create one profile or draft per fact.
+- In a batch duplicate audit, compare exact dates, places, named relatives, occupations and residences before counting proposed people. Consolidate compatible repeated records into one person/HOLD, and document any index-date or spelling conflict instead of creating parallel identities from it.
 - Search WikiTree before reporting on each named historical person, using name variants, dates, places, relatives, the local One Tree export when relevant, and the live WikiTree API.
 - Never create, queue, or prepare a WikiTree person-profile draft for a pre-1500 person. Give each distinct pre-1500 record bearer an individual WikiTree free-space page instead, and link that page from the consolidated early-bearers free-space page. If the individual page does not yet exist, prepare a free-space-page draft outside `surname-research/new-people/`; if it exists, improve and cross-link it. Pre-1500 people remain documentary subjects, not profile-creation tasks.
+- A verified canonical individual free-space page is a confirmed WikiTree destination. Catalogue filters labelled “No confirmed WikiTree link” must exclude subjects linked to one even when they correctly have no person-profile ID; store and display the Space-page destination separately rather than pretending it is a person profile.
 - When an existing pre-1500 WikiTree person profile is stale or cannot be edited by the requesting manager, do not treat it as the project's main research destination. Keep the attachment intact, maintain the sourced biography on the canonical individual free-space page, and link that page prominently from managed relatives and project pages so readers reach the current account first.
 - If a matching profile is established, make the person's name clickable every time the person is introduced: use `[Display Name (WikiTree-ID)](https://www.wikitree.com/wiki/WikiTree-ID)` in ordinary responses and `[[WikiTree-ID|Display Name]]` in paste-ready WikiTree markup.
-- If no profile is found after a duplicate check, state **No WikiTree profile found—create a new profile** and recommend or supply a sourced draft, except for pre-1500 people, who must use the free-space-page workflow above. Never leave a named person unlinked without the applicable recommendation.
+- If no profile is found after a duplicate check and the evidence distinguishes a person, state **No WikiTree profile found—create a new profile** and recommend or supply a sourced draft, except for pre-1500 people, who must use the free-space-page workflow above. Never leave a named person unlinked without the applicable recommendation or HOLD reason.
 - If a possible profile match is not proved, link it explicitly as a possible candidate, explain the conflict or missing evidence, and do not treat it as that person.
 - When several record subjects lack profiles, list each one and recommend a separate profile only where the evidence distinguishes separate people.
 
 ## Describe groups precisely
 
+- When reviewing or rewriting a Name Study or other surname overview, audit the whole page against the project's maintained research corpus, not only the supplied draft, its predecessor, or examples raised by the user. Carry every material current conclusion into the overview at proportionate length, preserve useful visual signposting, and route record-level detail to supporting free-space pages.
+- A whole-page corpus audit is not complete when it merely transfers person-level conclusions. Explain the chronology and record-survival pattern, the social and institutional setting, what each record class can and cannot prove, and why the findings change the wider historical interpretation. Connect the major sections into one coherent surname history while leaving record-level dossiers on supporting pages.
 - Never imply that a record-based cluster is a WikiTree family or profile group.
 - Name the exact record, date, place, reference, and people forming the cluster.
 - State whether the grouping reflects co-tenancy, document order, household membership, proven kinship, or only a research hypothesis.
+- In surname and family overviews, do not make strongly supported probable relatives sound like unrelated families merely because no explicit kin term survives. State the leading relationship plainly, label it probable once, summarise the concrete property, occupation and associate evidence, and reserve “separate family” language for genuinely competing or weakly connected groups.
 - In an identity comparison, state the exact person-to-person hypothesis first.
   Keep FAN, military, tenancy, church, migration and textual-variant research
   explicitly subordinate as supporting network evidence. Say what the network
@@ -55,13 +62,22 @@ Verify each claimed identity, relationship, date, and place against the underlyi
 - After research materially affects a person, update `research/<WikiTree-ID>/findings.md`; do not leave the substantive result only in chat, an agent note, or another file.
 - Use headings consumed by the catalogue: `## Current conclusion` or `## Conclusion`; `## Source findings`; assessment headings containing `candidate`, `relationship`, `identity`, `duplicate`, `parentage`, `father`, or `cluster placement`; and action headings containing `unresolved`, `priority`, `recommended`, `suggested`, `correction`, `do not add`, or `next records`.
 - Keep the handoff self-contained and source every transferable claim. Put an external record or catalogue URL first when one exists. Treat relative `sources/` links as local research artifacts, not published evidence.
+- When integrating a historical-record batch into the research catalogue, list every unresolved new person in the catalogue's new-profile section and every sourced amendment to a matched existing person in the existing-profile update section. Do not treat record rows alone as catalogue integration, and do not mix the two action classes.
+- Create a complete paste-ready replacement-profile draft for every substantive amendment to an existing profile, including a newly proved relationship, an evidence-supported relationship-confidence change, an identity correction, or correction of a material factual error. A newly found source that only confirms facts already represented on the profile is not a substantive amendment and must not by itself create an amendment draft or update-queue item; retain it as supporting evidence in `findings.md` and the evidence register.
+- Before listing an amendment or new person as catalogue-ready, inspect the draft content rather than testing only that its file exists. Verify that it identifies the documentary person, contains meaningful paste-ready WikiTree markup and citations, records the proposed change or unresolved identity test, and is exposed in the corresponding generated catalogue page/JSON. An empty, generic, unrelated, or legacy draft does not satisfy catalogue integration.
 - Never rebuild the public research catalogue unless the user explicitly asks for a catalogue rebuild. Findings, profile edits, free-space-page work and ordinary research synchronization do not imply permission to run `.venv/bin/python tools/build_family_map.py`, even at the end of a task.
+- If the user says more research is coming or asks to defer rebuilding, treat any earlier rebuild authorization as withdrawn. Continue integrating source batches without rebuilding, and wait for a new explicit rebuild request after the user says the batch is complete.
 - When the user explicitly requests a rebuild, batch all catalogue-affecting changes into that one run. Afterwards verify the affected `www/people/<catalogue-slug>.html` and `.json`, ensure the expected sections appear and the JSON includes `research_findings`, and run `.venv/bin/python -m unittest tests.test_research_catalog -q`.
 - Preserve direct local use of generated catalogue pages. Clean-route publishing must not replace `www/catalogue.html` or other legacy `.html` entry points with redirects, or rewrite their relative links; gate every browser redirect so it never runs under `file://`. A clean-route page opened locally must use a relative site-root `<base>` rather than `<base href="/...">`. After route or catalogue build changes, verify under `file://` that `www/catalogue.html` loads its assets and data, its Glasgow Surname Project brand reaches the sibling `www/index.html` from both legacy and clean catalogue pages, and `www/ydna.html` and `www/timeline.html` reach their sibling local pages without resolving to `file:///ydna`, `file:///timeline`, or a directory listing.
+- When replacing an evidence-rich public research page with a state/data-driven rebuild, do not count material as preserved merely because it remains in JSON, an archive, or a catch-all evidence page. Inventory the previous page's visible tables, qualifications, links and interactions; integrate each retained evidence unit into the relevant narrative or research-tool section so the site reads as one cohesive account. A standalone full-evidence dossier alone is not sufficient. Keep superseded rankings visibly archival, preserve an unchanged prior-page snapshot, and add tests for contextual rendered coverage as well as data parity.
 - For every catalogue statistics link intended to filter people, verify the click-through from both `www/catalogue.html` and the clean `/catalogue` route: it must land at the results table, visibly restore the selected filters, and restrict results by the exact intended field. In particular, a spouse birth-surname statistic must not reuse a combined birth/current-surname match.
 - Catalogue marriage-surname statistics must include Glasgow-at-birth people marrying into the named surname as well as people of that birth surname marrying a Glasgow. Derive the associated surname from the structured birth surname or WikiTree ID, group recognised spelling variants under the canonical label, deduplicate the Glasgow-side people or relationships being counted, and exclude middle-name text matches. The statistic's click-through result count must agree with the displayed total.
 - In the catalogue One Tree view, show a married-in non-Glasgow spouse inline with the Glasgow-line partner rather than repeating that person as a standalone tree node. Keep the spouse's catalogue link and fold any children below the couple's displayed line so no person or descendant branch is lost.
+- In catalogue or standalone One Tree views, make recorded family branch or pedigree structure the primary organisation. Present geography only as a secondary visual cue such as colour, badges, labels, or filters; never partition the main tree primarily by location. Keep large-tree rendering progressive and culling-based so branch navigation remains responsive.
+- For large One Tree overviews, collapse descendants into size-scaled branch aggregates at low zoom and progressively reveal recorded generations as the user zooms. When geography must be legible at a glance, prefer branch-local location blooms or petals (area by country count, ordered by the evidenced route) over a single composition ring; let these split into smaller real-pedigree aggregates as zoom increases. Never merge unrelated pedigrees into global country clusters. Show colour transitions along revealed parent lines so migration offshoots remain traceable. Keep the branch landing view selective and readable rather than rendering every anchor and lineage card at once.
+- When subdivisions of one large pedigree become navigation anchors, never present those descendant anchors as independent peer roots: keep their shared recorded ancestor structurally above every child offshoot at every level of detail. Represent multi-stage migration with compact ordered country trails on the existing aggregates and parent lines (for example Scotland → Ireland → United States), not with geography-based layout partitions or extra pseudo-ancestor nodes.
 - Treat the generated `similar_people` table as a research lead, never as proof. Inspect both subjects and their sources, relatives, locations, and witnesses before proposing a merge or relationship.
+- When a branch audit says the tree continues, recursively follow every attached father and mother until the first profile(s) with no attached ancestry; do not label the requested branch subject parentless merely because its own parents are unresolved. Research and report those true endpoints separately.
 - When evidence confirms or rules out a possible duplicate or relationship, record the conclusion in each affected existing profile's `findings.md` and update the relevant project register.
 - Remember that rebuilding changes local `www/`; it does not publish production until that directory is deployed.
 
@@ -93,6 +109,15 @@ Verify each claimed identity, relationship, date, and place against the underlyi
 
 ## Create new-person drafts immediately
 
+- When creating or completing a managed historical profile, do not leave a
+  birth or death location blank if the evidence supplies a usable location for
+  the person's own marriage, child's birth or baptism, spouse, or immediate
+  family context. Use the most specific supported location and mark the
+  inferred birth/death location uncertain. Explain which event or relative
+  supplied the location; do not present it as the actual place of birth or
+  death. Leave a location blank only when neither the biography nor the
+  documented immediate-family context supplies any usable place.
+
 - The project's `surname-research/new-people/` directory is for **Glasgow-surname people only**. Do not create drafts there for landlords, witnesses, spouses, co-tenants, or other associates with different surnames unless the user explicitly requests an exception.
 - Do not place pre-1500 people in `surname-research/new-people/`. Maintain one individual free-space page per distinct bearer and cross-link it from the consolidated early-bearers page instead.
 - When the evidence distinguishes a Glasgow-surname person and no compatible WikiTree profile is found, create a complete draft during the same turn at `surname-research/new-people/<year>_<country>_<precise-location>_<name>.md`; do not merely recommend that the user create one. Use underscores between every component, the year of the defining record or event, the documented country, the smallest documented location, and the record subject's name.
@@ -121,6 +146,31 @@ Verify each claimed identity, relationship, date, and place against the underlyi
 ## Glasgow surname boundary
 
 For Glasgow surname research, treat Glasford, Glassford, Glasfurd, and Glasfuird as a distinct family unless a primary record explicitly proves a bridge. Do not search, merge, or cite those names as automatic spelling variants of Glasgow.
+
+For Findmypast surname research, search the surname field alone unless the user
+explicitly requests a place restriction. Preserve the exact surname-only query
+URL and inspect the displayed event, birth and death fields before calling a
+result pre-1600; Findmypast's broad date filter can return later records and
+generic or unnamed hits. Keep those raw hits in the export, but map or create
+people only after the underlying transcript and duplicate audit support them.
+Never treat a displayed “Last name Glasgow” value as surname proof when the
+transcript or title shows that Glasgow is an office, place, see, or other
+descriptor. Inspect the full transcript/title and distinguish an actual
+surname from “of Glasgow,” “Archdeacon/Bishop/Deacon of Glasgow,” and similar
+phrasing before adding the result to the surname catalogue.
+A Findmypast result scrape is not complete until every pagination page in
+every date window has been enumerated, the site's displayed result total has
+been recorded, and saved rows reconcile to that total after explicitly
+reported record-ID deduplication. Check that adjacent date windows cover the
+entire requested period without gaps. A final-page sample or partial window
+must be labelled **INCOMPLETE** and must never be reported as “all records.”
+If a transcript request redirects to `steady-sherlock?limit=dailyLimit`, record
+it as a temporary daily fair-use block with `block_reason=daily_limit`; do not
+count it as a record-specific subscription lock or a captured transcript. Stop
+opening further record IDs in that limited session, preserve the frozen ID
+order and first affected index, and retry from that index only after the
+allowance resets. Keep the audit **INCOMPLETE** until those retries succeed or
+produce a separately evidenced record-specific restriction.
 
 ## Identity-defining estimated dates
 
@@ -165,4 +215,7 @@ Before changing a WikiTree relationship status, inspect the visible labels and t
 - Keep browser-backed WT+ batches bounded: reuse one edit/status tab sequentially where practical, and do not enumerate or proliferate tabs merely to recover agent-side bindings. A browser-control timeout or reset is not evidence that the Chrome plugin is faulty when its diagnostics pass; reconnect with small, separately verified operations before attributing the failure externally.
 - A successful `browser.user.openTabs()` call proves that the Chrome session is reachable. If `claimTab()` or managed-tab creation then times out, describe that narrowly as a control-path timeout; do not blame Chrome, declare the extension broken, or recommend reinstalling it from that timeout alone. When live editing remains authorized and the Computer Use skill is available, preserve the existing edit tab and switch to direct UI control after reading that skill.
 - When Chrome is running and the extension and native-host diagnostics all pass, a browser-client `Browser is not available` result is not evidence that installation is damaged. Never recommend reinstalling the Browser plugin from that result. Retry only small supported connection operations; if the binding remains unavailable, describe it as an agent-side session/binding failure and use the already-authorized Computer Use fallback when available.
+- If Chrome is absent from browser discovery even though those diagnostics pass, keep the existing browser runtime, wait briefly, and retry the exact Chrome selector once instead of resetting the runtime. When that bounded retry restores Chrome, read its browser documentation, inspect the existing tabs, and continue with the stale-tab recovery below when needed.
+- If the prescribed new-window retry also fails while those diagnostics still pass, do not ask the user to reinstall the plugin. Continue with bounded agent-side binding recovery or the authorized fallback, and report the internal control failure accurately if neither path attaches.
 - After a browser-control reset, recover a tab returned by `browser.user.openTabs()` with `browser.user.claimTab(tabInfo)`; do not pass that user-tab ID to `browser.tabs.get()`, which is a different control path and may hang. Claim one relevant WT+ tab and continue sequentially from it.
+- If `browser.user.openTabs()` succeeds but claiming the relevant Findmypast tab reports that it is already held by another automation session while `browser.tabs.list()` is empty, preserve the exact Findmypast URL and open it in a fresh managed tab with `browser.tabs.new()`. Navigate that tab to the preserved URL, wait for `DOMContentLoaded` and about three additional seconds, then verify its title, URL, and `domSnapshot`; successful checks restore the existing signed-in DOM-controlled session. Do not recommend reinstalling or reconnecting the browser plugin for this stale-tab condition.

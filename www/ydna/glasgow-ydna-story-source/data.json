@@ -1,0 +1,2628 @@
+{
+  "metadata": {
+    "title": "Glasgow Y-DNA Explorer",
+    "revision": "story-documentary-refresh-2026-09-07",
+    "sourceSnapshot": "August 2026",
+    "rawReferenceDate": "2022-10-27",
+    "matchExportDate": "2026-08-11",
+    "blockTreeDate": "2026-08-12",
+    "yfullReviewDate": "2026-08-31",
+    "referenceKit": "B580327",
+    "genomeAssembly": null,
+    "scope": "Reanalysis of supplied Y-DNA page and additional project timeline; historical synthesis and matrix audit, without fresh raw-read, live-clade or pedigree verification.",
+    "edition": "05 · Documentary bridge refresh"
+  },
+  "roots": [
+    {
+      "kits": "325862 + unnumbered Big Y",
+      "name": "Henry Glasgo",
+      "years": "1774–1849",
+      "country": "United States",
+      "route": "Grandson of Jeremiah Glasgo 1713–1777",
+      "haplo": "R-FT25406",
+      "test": "mixed tests",
+      "tier": "bigy",
+      "profile": "Glasgo-21",
+      "match": "linked",
+      "note": "Two separate tests are associated with this reported root. Only the unnumbered Big Y is assigned to FT25406; 325862 remains SNP-unresolved.",
+      "id": "root-0",
+      "kitIds": [
+        "325862",
+        "henry-bigy"
+      ]
+    },
+    {
+      "kits": "B835762",
+      "name": "James William Glasgow",
+      "years": "1731–1775",
+      "country": "Ireland",
+      "route": "Kilwaughter / Larne line",
+      "haplo": "R-U106",
+      "test": "Y-DNA37",
+      "tier": "upgrade",
+      "profile": "Glasgow-1144",
+      "match": "candidate",
+      "note": "Candidate mapping to the Kilwaughter/Larne James William. Its Y-37 pairing with 325862 is a testable lead, not an SNP placement.",
+      "id": "root-1",
+      "kitIds": [
+        "B835762"
+      ]
+    },
+    {
+      "kits": "254947",
+      "name": "Robert Glasgow",
+      "years": "c.1710–after 1772",
+      "country": "Northern Ireland",
+      "route": "Kilwaughter / Larne; spouse Rachel Wilson",
+      "haplo": "R-U106",
+      "test": "Y-DNA111",
+      "tier": "upgrade",
+      "profile": "Glasgow-1143",
+      "match": "candidate",
+      "note": "Candidate mapping to Robert c.1710, spouse Rachel Wilson. An especially useful East Antrim line for testing against the SNP tree.",
+      "id": "root-2",
+      "kitIds": [
+        "254947"
+      ]
+    },
+    {
+      "kits": "N18544",
+      "name": "John Glasgow",
+      "years": "1767–1851",
+      "country": "Northern Ireland",
+      "route": "Ireland → Ohio; spouse Mary Arthur",
+      "haplo": "R-U106",
+      "test": "Y-DNA67",
+      "tier": "upgrade",
+      "profile": "Glasgow-822",
+      "match": "candidate",
+      "note": "Candidate mapping to John, spouse Mary Arthur. The Y-67 panel does not include DYS712 or DYS714.",
+      "id": "root-3",
+      "kitIds": [
+        "N18544"
+      ]
+    },
+    {
+      "kits": "B696189 + unnumbered Y111",
+      "name": "Reported William line",
+      "years": "reported born c.1655",
+      "country": "Scotland",
+      "route": "Reported Scotland → Ireland → Pennsylvania",
+      "haplo": "R-FT20271",
+      "test": "Big Y-700",
+      "tier": "bigy",
+      "profile": "Glasgow-591",
+      "match": "candidate",
+      "note": "B696189 is assigned to FT20271. The claimed descent from William c.1655 has not been independently validated here. The source mentions an additional unnumbered Y-111 test whose identity is not reconciled.",
+      "id": "root-4",
+      "kitIds": [
+        "B696189"
+      ]
+    },
+    {
+      "kits": "1002232",
+      "name": "James J Glasgow line",
+      "years": "born c.1809/10",
+      "country": "South Carolina",
+      "route": "South Carolina → Giles County, Tennessee → Pontotoc County, Mississippi",
+      "haplo": "R-FT20271",
+      "test": "Big Y-700",
+      "tier": "bigy",
+      "profile": "Glasgow-2738",
+      "match": "linked",
+      "note": "The supplied audit traces the tester to James J, not to a proved father for James. Its Wilson exclusion and proposed Robert-2769 attachment remain source-reported conclusions, not new findings of this revision.",
+      "id": "root-5",
+      "kitIds": [
+        "1002232"
+      ]
+    },
+    {
+      "kits": "B580327",
+      "name": "Alexander Glasgow",
+      "years": "born c.1811",
+      "country": "Ireland",
+      "route": "County Antrim / Killoquin–Lisnagaver → Scotland; spouse reported as Mary McCaughen",
+      "haplo": "R-FT20271",
+      "test": "Big Y-700",
+      "tier": "bigy",
+      "profile": "Glasgow-951",
+      "match": "linked",
+      "note": "The Killoquin/Lisnagaver reference line. A second documented son-line could separate variants inherited by Alexander from mutations in later generations. Birth, route and spouse details are retained as reported.",
+      "id": "root-6",
+      "kitIds": [
+        "B580327"
+      ]
+    },
+    {
+      "kits": "200475 + 999763 + 478604 + 794462 + 959947 + 333002",
+      "name": "Robert Glasgow",
+      "years": "1749–1839",
+      "country": "Northern Ireland / Derry",
+      "route": "Glasgow-12 descendant lines → Pennsylvania, Ohio and Nebraska",
+      "haplo": "R-FT20271 + R-FTE32242",
+      "test": "4 Big Y + STR",
+      "tier": "bigy",
+      "profile": "Glasgow-12",
+      "match": "linked",
+      "note": "Four Big Y and two marker tests are grouped under the reported Robert-1749 family. The source calls 959947 documented, 200475 probable, and the two FTE32242 tests separate son-lines of James M.",
+      "id": "root-7",
+      "kitIds": [
+        "200475",
+        "999763",
+        "478604",
+        "794462",
+        "959947",
+        "333002"
+      ]
+    }
+  ],
+  "kits": [
+    {
+      "id": "325862",
+      "name": "Henry Glasgo",
+      "years": "1774–1849",
+      "profile": "Glasgo-21",
+      "label": "Henry line",
+      "pedigree": "Reported pedigree",
+      "haplo": "R-U106",
+      "bigy": false,
+      "panel": 111,
+      "test": "Y-111",
+      "anonymous": false
+    },
+    {
+      "id": "B835762",
+      "name": "James William Glasgow",
+      "years": "1731–1775",
+      "profile": "Glasgow-1144",
+      "label": "Kilwaughter · James William",
+      "pedigree": "Candidate root mapping",
+      "haplo": "R-U106",
+      "bigy": false,
+      "panel": 37,
+      "test": "Y-37",
+      "anonymous": false
+    },
+    {
+      "id": "254947",
+      "name": "Robert Glasgow",
+      "years": "c.1710–after 1772",
+      "profile": "Glasgow-1143",
+      "label": "Kilwaughter · Robert c.1710",
+      "pedigree": "Candidate root mapping",
+      "haplo": "R-U106",
+      "bigy": false,
+      "panel": 111,
+      "test": "Y-111",
+      "anonymous": false
+    },
+    {
+      "id": "N18544",
+      "name": "John Glasgow",
+      "years": "1767–1851",
+      "profile": "Glasgow-822",
+      "label": "John 1767 · Ireland → Ohio",
+      "pedigree": "Candidate root mapping",
+      "haplo": "R-U106",
+      "bigy": false,
+      "panel": 67,
+      "test": "Y-67",
+      "anonymous": false
+    },
+    {
+      "id": "333002",
+      "name": "Robert Glasgow",
+      "years": "1749–1839",
+      "profile": "Glasgow-12",
+      "label": "Robert 1749 family · Y-37",
+      "pedigree": "Reported pedigree",
+      "haplo": "R-U106",
+      "bigy": false,
+      "panel": 37,
+      "test": "Y-37",
+      "anonymous": false
+    },
+    {
+      "id": "959947",
+      "name": "William Glasgow",
+      "years": "1778–1853",
+      "profile": "Glasgow-563",
+      "label": "Robert 1749 → William",
+      "pedigree": "Documented in supplied audit",
+      "haplo": "R-FT20271",
+      "bigy": true,
+      "panel": 111,
+      "test": "Big Y",
+      "anonymous": false
+    },
+    {
+      "id": "B696189",
+      "name": "Reported William Glasgow",
+      "years": "c.1655",
+      "profile": "Glasgow-591",
+      "label": "Reported William c.1655",
+      "pedigree": "Historical root unverified",
+      "haplo": "R-FT20271",
+      "bigy": true,
+      "panel": 111,
+      "test": "Big Y",
+      "anonymous": false
+    },
+    {
+      "id": "1002232",
+      "name": "James J Glasgow",
+      "years": "c.1809/10",
+      "profile": "Glasgow-2738",
+      "label": "James J c.1809/10",
+      "pedigree": "Line reported documented; father unresolved",
+      "haplo": "R-FT20271",
+      "bigy": true,
+      "panel": 111,
+      "test": "Big Y",
+      "anonymous": false
+    },
+    {
+      "id": "B580327",
+      "name": "Alexander Glasgow",
+      "years": "c.1811",
+      "profile": "Glasgow-951",
+      "label": "Alexander c.1811",
+      "pedigree": "Tested descendant line reported linked",
+      "haplo": "R-FT20271",
+      "bigy": true,
+      "panel": 111,
+      "test": "Big Y",
+      "anonymous": false
+    },
+    {
+      "id": "200475",
+      "name": "John M. Glasgow",
+      "years": "Robert 1749 family",
+      "profile": "Glasgow-1965",
+      "label": "Robert 1749 → John M.",
+      "pedigree": "Probable private continuation",
+      "haplo": "R-FT20271",
+      "bigy": true,
+      "panel": 111,
+      "test": "Big Y",
+      "anonymous": false
+    },
+    {
+      "id": "999763",
+      "name": "James M. Glasgow",
+      "years": "1799–1875",
+      "profile": "Glasgow-193",
+      "label": "James M. → William Allen",
+      "pedigree": "Separate son-line reported in audit",
+      "haplo": "R-FTE32242",
+      "bigy": true,
+      "panel": 111,
+      "test": "Big Y",
+      "anonymous": false
+    },
+    {
+      "id": "478604",
+      "name": "James M. Glasgow",
+      "years": "1799–1875",
+      "profile": "Glasgow-193",
+      "label": "James M. → Samuel Lyle",
+      "pedigree": "Separate son-line reported in audit",
+      "haplo": "R-FTE32242",
+      "bigy": true,
+      "panel": 111,
+      "test": "Big Y",
+      "anonymous": false
+    },
+    {
+      "id": "794462",
+      "name": "Robert Glasgow",
+      "years": "1749–1839",
+      "profile": "Glasgow-12",
+      "label": "Robert 1749 family · Y-111",
+      "pedigree": "Reported pedigree",
+      "haplo": "R-Z18",
+      "bigy": false,
+      "panel": 111,
+      "test": "Y-111",
+      "anonymous": false
+    },
+    {
+      "id": "henry-bigy",
+      "name": "Henry Glasgo",
+      "years": "1774–1849",
+      "profile": "Glasgo-21",
+      "label": "Henry line · unnumbered Big Y",
+      "haplo": "R-FT25406",
+      "bigy": true,
+      "panel": 111,
+      "test": "Big Y",
+      "anonymous": true,
+      "pedigree": "Reported pedigree"
+    },
+    {
+      "id": "farrier-a",
+      "name": "William Farrier–Susanna Abell",
+      "years": "Marriage reported 1796",
+      "profile": null,
+      "label": "Farrier–Abell · match A",
+      "haplo": "R-M269",
+      "bigy": false,
+      "panel": 111,
+      "test": "Y-111",
+      "anonymous": true,
+      "pedigree": "Reported pedigree; independence not re-audited"
+    },
+    {
+      "id": "farrier-b",
+      "name": "William Farrier–Susanna Abell",
+      "years": "Marriage reported 1796",
+      "profile": null,
+      "label": "Farrier–Abell · match B",
+      "haplo": "R-M269",
+      "bigy": false,
+      "panel": 111,
+      "test": "Y-111",
+      "anonymous": true,
+      "pedigree": "Reported pedigree; independence not re-audited"
+    },
+    {
+      "id": "ferrier",
+      "name": "Henry Ferrier",
+      "years": "c.1758",
+      "profile": null,
+      "label": "Henry Ferrier · Kent",
+      "haplo": "R-M269",
+      "bigy": false,
+      "panel": 111,
+      "test": "Y-111",
+      "anonymous": true,
+      "pedigree": "Reported pedigree"
+    },
+    {
+      "id": "glasgow-unanchored",
+      "name": "Glasgow line",
+      "years": "No reported root",
+      "profile": null,
+      "label": "Glasgow · no root supplied",
+      "haplo": "R-M269",
+      "bigy": false,
+      "panel": 111,
+      "test": "Y-111",
+      "anonymous": true,
+      "pedigree": "No genealogical anchor supplied"
+    },
+    {
+      "id": "phillips",
+      "name": "Phillips line",
+      "years": "No reported root",
+      "profile": null,
+      "label": "Phillips · unplaced",
+      "haplo": "R-M269",
+      "bigy": false,
+      "panel": 111,
+      "test": "Y-111",
+      "anonymous": true,
+      "pedigree": "No genealogical anchor supplied"
+    },
+    {
+      "id": "churnside",
+      "name": "Alexander Churnside",
+      "years": "1838–1873",
+      "profile": "Churnside-15",
+      "label": "Churnside · Jamaica",
+      "haplo": "R-FTA30932",
+      "bigy": true,
+      "panel": 111,
+      "test": "Big Y",
+      "anonymous": true,
+      "pedigree": "Tester-reported Churnside line: Jamaica in the match screen; Berwickshire ancestry and profile mapping supplied by the project timeline. Collateral R-FTA30932 branch below R-FT4811."
+    },
+    {
+      "id": "brown",
+      "name": "Dixon Brown",
+      "years": "1758–1828",
+      "profile": null,
+      "label": "Dixon Brown · Virginia → Kentucky",
+      "haplo": "R-FTA30932",
+      "bigy": true,
+      "panel": 111,
+      "test": "Big Y",
+      "anonymous": true,
+      "pedigree": "Reported Virginia → Kentucky pedigree. R-FTA30932 is collateral to the Glasgow/Duffield path below R-FT4811; a Berwickshire origin for Brown is not established by the supplied root."
+    }
+  ],
+  "pairs": {
+    "1002232|200475": {
+      "gd": 5,
+      "panel": 111,
+      "source": "supplied-distance-table",
+      "method": "Supplied allele-step table"
+    },
+    "1002232|254947": {
+      "gd": 9,
+      "panel": 111,
+      "source": "supplied-distance-table",
+      "method": "Supplied allele-step table"
+    },
+    "1002232|333002": {
+      "gd": 3,
+      "panel": 37,
+      "source": "supplied-distance-table",
+      "method": "Supplied allele-step table"
+    },
+    "1002232|478604": {
+      "gd": 6,
+      "panel": 111,
+      "source": "supplied-distance-table",
+      "method": "Supplied allele-step table"
+    },
+    "1002232|959947": {
+      "gd": 6,
+      "panel": 111,
+      "source": "supplied-distance-table",
+      "method": "Supplied allele-step table"
+    },
+    "1002232|999763": {
+      "gd": 5,
+      "panel": 111,
+      "source": "supplied-distance-table",
+      "method": "Supplied allele-step table"
+    },
+    "1002232|B580327": {
+      "gd": 3,
+      "panel": 111,
+      "source": "supplied-reference-comparison",
+      "method": "Supplied B580327 comparison"
+    },
+    "1002232|B696189": {
+      "gd": 6,
+      "panel": 111,
+      "source": "supplied-distance-table",
+      "method": "Supplied allele-step table"
+    },
+    "1002232|B835762": {
+      "gd": 2,
+      "panel": 37,
+      "source": "supplied-distance-table",
+      "method": "Supplied allele-step table"
+    },
+    "1002232|N18544": {
+      "gd": 4,
+      "panel": 67,
+      "source": "supplied-distance-table",
+      "method": "Supplied allele-step table"
+    },
+    "200475|254947": {
+      "gd": 10,
+      "panel": 111,
+      "source": "supplied-distance-table",
+      "method": "Supplied allele-step table"
+    },
+    "200475|333002": {
+      "gd": 1,
+      "panel": 37,
+      "source": "supplied-distance-table",
+      "method": "Supplied allele-step table"
+    },
+    "200475|478604": {
+      "gd": 1,
+      "panel": 111,
+      "source": "supplied-distance-table",
+      "method": "Supplied allele-step table"
+    },
+    "200475|959947": {
+      "gd": 1,
+      "panel": 111,
+      "source": "supplied-distance-table",
+      "method": "Supplied allele-step table"
+    },
+    "200475|999763": {
+      "gd": 0,
+      "panel": 111,
+      "source": "supplied-distance-table",
+      "method": "Supplied allele-step table"
+    },
+    "200475|B580327": {
+      "gd": 6,
+      "panel": 111,
+      "source": "supplied-reference-comparison",
+      "method": "Supplied B580327 comparison"
+    },
+    "200475|B696189": {
+      "gd": 7,
+      "panel": 111,
+      "source": "supplied-distance-table",
+      "method": "Supplied allele-step table"
+    },
+    "200475|B835762": {
+      "gd": 4,
+      "panel": 37,
+      "source": "supplied-distance-table",
+      "method": "Supplied allele-step table"
+    },
+    "200475|N18544": {
+      "gd": 6,
+      "panel": 67,
+      "source": "supplied-distance-table",
+      "method": "Supplied allele-step table"
+    },
+    "254947|333002": {
+      "gd": 7,
+      "panel": 37,
+      "source": "supplied-distance-table",
+      "method": "Supplied allele-step table"
+    },
+    "254947|999763": {
+      "gd": 10,
+      "panel": 111,
+      "source": "supplied-distance-table",
+      "method": "Supplied allele-step table"
+    },
+    "254947|B580327": {
+      "gd": 10,
+      "panel": 111,
+      "source": "supplied-reference-comparison",
+      "method": "Supplied B580327 comparison"
+    },
+    "254947|B696189": {
+      "gd": 11,
+      "panel": 111,
+      "source": "supplied-distance-table",
+      "method": "Supplied allele-step table"
+    },
+    "254947|B835762": {
+      "gd": 2,
+      "panel": 37,
+      "source": "supplied-distance-table",
+      "method": "Supplied allele-step table"
+    },
+    "254947|N18544": {
+      "gd": 9,
+      "panel": 67,
+      "source": "supplied-distance-table",
+      "method": "Supplied allele-step table"
+    },
+    "333002|999763": {
+      "gd": 1,
+      "panel": 37,
+      "source": "supplied-distance-table",
+      "method": "Supplied allele-step table"
+    },
+    "333002|B580327": {
+      "gd": 3,
+      "panel": 37,
+      "source": "supplied-reference-comparison",
+      "method": "Supplied B580327 comparison"
+    },
+    "333002|B696189": {
+      "gd": 3,
+      "panel": 37,
+      "source": "supplied-distance-table",
+      "method": "Supplied allele-step table"
+    },
+    "333002|B835762": {
+      "gd": 5,
+      "panel": 37,
+      "source": "supplied-distance-table",
+      "method": "Supplied allele-step table"
+    },
+    "333002|N18544": {
+      "gd": 6,
+      "panel": 37,
+      "source": "supplied-distance-table",
+      "method": "Supplied allele-step table"
+    },
+    "478604|959947": {
+      "gd": 2,
+      "panel": 111,
+      "source": "supplied-distance-table",
+      "method": "Supplied allele-step table"
+    },
+    "478604|999763": {
+      "gd": 1,
+      "panel": 111,
+      "source": "supplied-distance-table",
+      "method": "Supplied allele-step table"
+    },
+    "478604|B696189": {
+      "gd": 8,
+      "panel": 111,
+      "source": "supplied-distance-table",
+      "method": "Supplied allele-step table"
+    },
+    "959947|999763": {
+      "gd": 1,
+      "panel": 111,
+      "source": "supplied-distance-table",
+      "method": "Supplied allele-step table"
+    },
+    "959947|B696189": {
+      "gd": 8,
+      "panel": 111,
+      "source": "supplied-distance-table",
+      "method": "Supplied allele-step table"
+    },
+    "999763|B580327": {
+      "gd": 6,
+      "panel": 111,
+      "source": "supplied-reference-comparison",
+      "method": "Supplied B580327 comparison"
+    },
+    "999763|B696189": {
+      "gd": 7,
+      "panel": 111,
+      "source": "supplied-distance-table",
+      "method": "Supplied allele-step table"
+    },
+    "999763|B835762": {
+      "gd": 4,
+      "panel": 37,
+      "source": "supplied-distance-table",
+      "method": "Supplied allele-step table"
+    },
+    "999763|N18544": {
+      "gd": 6,
+      "panel": 67,
+      "source": "supplied-distance-table",
+      "method": "Supplied allele-step table"
+    },
+    "1002232|794462": {
+      "gd": 5,
+      "panel": 111,
+      "source": "supplied-distance-table",
+      "method": "Supplied allele-step table"
+    },
+    "200475|794462": {
+      "gd": 0,
+      "panel": 111,
+      "source": "supplied-distance-table",
+      "method": "Supplied allele-step table"
+    },
+    "478604|794462": {
+      "gd": 1,
+      "panel": 111,
+      "source": "supplied-distance-table",
+      "method": "Supplied allele-step table"
+    },
+    "794462|959947": {
+      "gd": 1,
+      "panel": 111,
+      "source": "supplied-distance-table",
+      "method": "Supplied allele-step table"
+    },
+    "794462|999763": {
+      "gd": 0,
+      "panel": 111,
+      "source": "supplied-distance-table",
+      "method": "Supplied allele-step table"
+    },
+    "794462|B696189": {
+      "gd": 7,
+      "panel": 111,
+      "source": "supplied-distance-table",
+      "method": "Supplied allele-step table"
+    },
+    "B580327|B696189": {
+      "gd": 5,
+      "panel": 111,
+      "source": "supplied-reference-comparison",
+      "method": "Supplied B580327 comparison"
+    },
+    "B580327|B835762": {
+      "gd": 4,
+      "panel": 37,
+      "source": "supplied-reference-comparison",
+      "method": "Supplied B580327 comparison"
+    },
+    "B580327|N18544": {
+      "gd": 5,
+      "panel": 67,
+      "source": "supplied-reference-comparison",
+      "method": "Supplied B580327 comparison"
+    },
+    "B696189|B835762": {
+      "gd": 4,
+      "panel": 37,
+      "source": "supplied-distance-table",
+      "method": "Supplied allele-step table"
+    },
+    "B696189|N18544": {
+      "gd": 8,
+      "panel": 67,
+      "source": "supplied-distance-table",
+      "method": "Supplied allele-step table"
+    },
+    "B835762|N18544": {
+      "gd": 5,
+      "panel": 37,
+      "source": "supplied-distance-table",
+      "method": "Supplied allele-step table"
+    },
+    "325862|B580327": {
+      "gd": 9,
+      "panel": 111,
+      "source": "supplied-reference-comparison",
+      "method": "Supplied B580327 comparison"
+    },
+    "478604|B580327": {
+      "gd": 7,
+      "panel": 111,
+      "source": "supplied-reference-comparison",
+      "method": "Supplied B580327 comparison"
+    },
+    "794462|B580327": {
+      "gd": 6,
+      "panel": 111,
+      "source": "supplied-reference-comparison",
+      "method": "Supplied B580327 comparison"
+    },
+    "959947|B580327": {
+      "gd": 7,
+      "panel": 111,
+      "source": "supplied-reference-comparison",
+      "method": "Supplied B580327 comparison"
+    },
+    "B580327|farrier-a": {
+      "gd": 4,
+      "panel": 111,
+      "source": "supplied-match-screen",
+      "method": "Reported Y-111 match-screen distance"
+    },
+    "B580327|farrier-b": {
+      "gd": 4,
+      "panel": 111,
+      "source": "supplied-match-screen",
+      "method": "Reported Y-111 match-screen distance"
+    },
+    "B580327|ferrier": {
+      "gd": 5,
+      "panel": 111,
+      "source": "supplied-match-screen",
+      "method": "Reported Y-111 match-screen distance"
+    },
+    "B580327|glasgow-unanchored": {
+      "gd": 5,
+      "panel": 111,
+      "source": "supplied-match-screen",
+      "method": "Reported Y-111 match-screen distance"
+    },
+    "B580327|churnside": {
+      "gd": 8,
+      "panel": 111,
+      "source": "supplied-match-screen",
+      "method": "Reported Y-111 match-screen distance"
+    },
+    "B580327|henry-bigy": {
+      "gd": 9,
+      "panel": 111,
+      "source": "supplied-match-screen",
+      "method": "Reported Y-111 match-screen distance"
+    },
+    "B580327|phillips": {
+      "gd": 9,
+      "panel": 111,
+      "source": "supplied-match-screen",
+      "method": "Reported Y-111 match-screen distance"
+    },
+    "B580327|brown": {
+      "gd": 10,
+      "panel": 111,
+      "source": "supplied-match-screen",
+      "method": "Reported Y-111 match-screen distance"
+    },
+    "325862|B835762": {
+      "gd": 1,
+      "panel": 37,
+      "source": "supplied-placement-table",
+      "method": "Supplied placement-table comparison"
+    }
+  },
+  "extended": {
+    "1002232": [
+      4,
+      662
+    ],
+    "B696189": [
+      3,
+      650
+    ],
+    "999763": [
+      4,
+      666
+    ],
+    "200475": [
+      7,
+      622
+    ],
+    "478604": [
+      4,
+      659
+    ],
+    "959947": [
+      5,
+      660
+    ],
+    "churnside": [
+      11,
+      632
+    ],
+    "henry-bigy": [
+      4,
+      656
+    ],
+    "brown": [
+      11,
+      665
+    ]
+  },
+  "variantSplits": {
+    "200475": [
+      6,
+      2
+    ],
+    "478604": [
+      6,
+      3
+    ],
+    "959947": [
+      7,
+      5
+    ],
+    "999763": [
+      6,
+      2
+    ],
+    "1002232": [
+      7,
+      1
+    ],
+    "B696189": [
+      6,
+      5
+    ],
+    "henry-bigy": [
+      9,
+      5
+    ]
+  },
+  "matches": [
+    {
+      "index": 0,
+      "tier": "core",
+      "gd": 3,
+      "name": "James J Glasgow-2738 line",
+      "description": "Documented tester line; James's father unproved",
+      "profileUrl": "https://www.wikitree.com/wiki/Glasgow-2738",
+      "label": "Big Y · R-FT20271",
+      "extended": "4 of 662",
+      "interpretation": "Nearest supplied Y-111 match to B580327 (GD 3). DYS714=27 supports a pairing hypothesis; no shared named child SNP is exposed.",
+      "id": "1002232"
+    },
+    {
+      "index": 1,
+      "tier": "str-only",
+      "gd": 4,
+      "name": "Wm Farrier and Susanna Abell line",
+      "description": "Philadelphia marriage reported in 1796 · match A",
+      "profileUrl": null,
+      "label": "Y-111 · R-M269",
+      "extended": "Not available",
+      "interpretation": "Useful cross-surname lead. A broad R-M269 label does not establish FT20271 membership.",
+      "id": "farrier-a"
+    },
+    {
+      "index": 2,
+      "tier": "str-only",
+      "gd": 4,
+      "name": "Wm Farrier and Susanna Abell line",
+      "description": "Philadelphia marriage reported in 1796 · match B",
+      "profileUrl": null,
+      "label": "Y-111 · R-M269",
+      "extended": "Not available",
+      "interpretation": "Second test with the same reported Farrier–Abell root; do not count it as an independent old lineage without a pedigree audit.",
+      "id": "farrier-b"
+    },
+    {
+      "index": 3,
+      "tier": "core",
+      "gd": 5,
+      "name": "Reported William c.1655 line",
+      "description": "Scotland · historical root not independently proved",
+      "profileUrl": "https://www.wikitree.com/wiki/Glasgow-591",
+      "label": "Big Y · R-FT20271",
+      "extended": "3 of 650",
+      "interpretation": "GD 5 on Y-111; lowest reported extended-STR mismatch count, 3/650. These are different measurements.",
+      "id": "B696189"
+    },
+    {
+      "index": 4,
+      "tier": "str-only",
+      "gd": 5,
+      "name": "Henry Ferrier, born c.1758",
+      "description": "Woodnesborough, Kent",
+      "profileUrl": null,
+      "label": "Y-111 · R-M269",
+      "extended": "Not available",
+      "interpretation": "Another close Farrier/Ferrier lead; terminal SNP placement is unknown.",
+      "id": "ferrier"
+    },
+    {
+      "index": 5,
+      "tier": "str-only",
+      "gd": 5,
+      "name": "Glasgow line",
+      "description": "No earliest paternal ancestor reported",
+      "profileUrl": null,
+      "label": "Y-111 · R-M269",
+      "extended": "Not available",
+      "interpretation": "An STR match with no named historical anchor in the supplied screen.",
+      "id": "glasgow-unanchored"
+    },
+    {
+      "index": 6,
+      "tier": "core",
+      "gd": 6,
+      "name": "James M. Glasgow, 1799–1875",
+      "description": "through son Glasgow-2182 · confirmed FTE32242 test A",
+      "profileUrl": "https://www.wikitree.com/wiki/Glasgow-193",
+      "label": "Big Y · R-FTE32242",
+      "extended": "4 of 666",
+      "interpretation": "FTE32242-assigned descendant through William Allen. Its Y-111 state is identical to basal kit 200475.",
+      "id": "999763"
+    },
+    {
+      "index": 7,
+      "tier": "core",
+      "gd": 6,
+      "name": "Robert Glasgow, 1749–1839",
+      "description": "Glasgow-12 · basal descendant test 200475",
+      "profileUrl": "https://www.wikitree.com/wiki/Glasgow-12",
+      "label": "Big Y · R-FT20271",
+      "extended": "7 of 622",
+      "interpretation": "FT20271-assigned John M. line. The supplied audit labels the final private continuation probable.",
+      "id": "200475"
+    },
+    {
+      "index": 8,
+      "tier": "str-only",
+      "gd": 6,
+      "name": "Robert Glasgow, 1749–1839",
+      "description": "Northern Ireland · marker-only test",
+      "profileUrl": "https://www.wikitree.com/wiki/Glasgow-12",
+      "label": "Y-111 · R-Z18",
+      "extended": "Not available",
+      "interpretation": "Reported Glasgow-12 pedigree. R-Z18 does not resolve membership in a recent child branch.",
+      "id": "794462"
+    },
+    {
+      "index": 9,
+      "tier": "core",
+      "gd": 7,
+      "name": "James M. Glasgow, 1799–1875",
+      "description": "through son Glasgow-192 · confirmed FTE32242 test B",
+      "profileUrl": "https://www.wikitree.com/wiki/Glasgow-193",
+      "label": "Big Y · R-FTE32242",
+      "extended": "4 of 659",
+      "interpretation": "FTE32242-assigned descendant through Samuel Lyle; a second reported son-line of James M.",
+      "id": "478604"
+    },
+    {
+      "index": 10,
+      "tier": "core",
+      "gd": 7,
+      "name": "Documented William Glasgow branch",
+      "description": "Robert Glasgow-12 descendant · final link verified in the 1950 census",
+      "profileUrl": "https://www.wikitree.com/wiki/Glasgow-563",
+      "label": "Big Y · R-FT20271",
+      "extended": "5 of 660",
+      "interpretation": "William son-line described as documented in the supplied audit. FT6135 is displayed derived; other son-lines need direct calls.",
+      "id": "959947"
+    },
+    {
+      "index": 11,
+      "tier": "other-bigy",
+      "gd": 8,
+      "name": "Alexander Churnside, 1838–1873",
+      "description": "Jamaica",
+      "profileUrl": "https://www.wikitree.com/wiki/Churnside-15",
+      "label": "Big Y · R-FTA30932",
+      "extended": "11 of 632",
+      "interpretation": "Collateral paternal kin through R-FT4811: FTA30932 is the Churnside/Brown sister branch to the FT32941 → Glasgow path. The timeline’s Berwickshire lead adds medieval geographic context; Jamaica is the match-screen root location.",
+      "id": "churnside"
+    },
+    {
+      "index": 12,
+      "tier": "other-bigy",
+      "gd": 9,
+      "name": "Henry Glasgo, 1774–1849",
+      "description": "Glasgo-21 · Jeremiah's grandson",
+      "profileUrl": "https://www.wikitree.com/wiki/Glasgo-21",
+      "label": "Big Y · R-FT25406",
+      "extended": "4 of 656",
+      "interpretation": "Unnumbered Big Y assigned to FT25406. Do not transfer this assignment to kit 325862.",
+      "id": "henry-bigy"
+    },
+    {
+      "index": 13,
+      "tier": "str-only",
+      "gd": 9,
+      "name": "Henry Glasgo, 1774–1849",
+      "description": "Glasgo-21 · second reported descendant test",
+      "profileUrl": "https://www.wikitree.com/wiki/Glasgo-21",
+      "label": "Y-111 · R-M269",
+      "extended": "Not available",
+      "interpretation": "A separate Henry-root Y-111 kit; terminal SNP status remains unresolved.",
+      "id": "325862"
+    },
+    {
+      "index": 14,
+      "tier": "str-only",
+      "gd": 9,
+      "name": "Phillips line",
+      "description": "No earliest paternal ancestor reported",
+      "profileUrl": null,
+      "label": "Y-111 · R-M269",
+      "extended": "Not available",
+      "interpretation": "Unplaced cross-surname STR match without an earliest ancestor in this screen.",
+      "id": "phillips"
+    },
+    {
+      "index": 15,
+      "tier": "other-bigy",
+      "gd": 10,
+      "name": "Dixon Brown, 1758–1828",
+      "description": "Virginia to Kentucky",
+      "profileUrl": null,
+      "label": "Big Y · R-FTA30932",
+      "extended": "11 of 665",
+      "interpretation": "Shares R-FTA30932 with the Churnside line and joins the Glasgow/Duffield path at R-FT4811. Useful evidence for the wider medieval family, not a branch inside FT20271 or proof that Brown came from Berwickshire.",
+      "id": "brown"
+    },
+    {
+      "index": 16,
+      "tier": "str-only",
+      "gd": 10,
+      "name": "Robert Glasgow, c.1710–after 1772",
+      "description": "Northern Ireland · spouse Rachel Wilson",
+      "profileUrl": "https://www.wikitree.com/wiki/Glasgow-1143",
+      "label": "Y-111 · R-M269",
+      "extended": "Not available",
+      "interpretation": "High-value East Antrim testing candidate, but historical root mapping and terminal SNP placement remain distinct questions.",
+      "id": "254947"
+    }
+  ],
+  "markers": [
+    {
+      "name": "DYS714",
+      "values": {
+        "B696189": 26,
+        "B580327": 27,
+        "1002232": 27,
+        "200475": 26,
+        "959947": 26,
+        "999763": 26,
+        "478604": 26
+      },
+      "note": "Shared by Alexander and James J in this seven-kit set. This is the marker used by SAPP Node 17.",
+      "status": "Pairing clue"
+    },
+    {
+      "name": "DYS576",
+      "values": {
+        "B696189": 17,
+        "B580327": 18,
+        "1002232": 16,
+        "200475": 16,
+        "959947": 16,
+        "999763": 16,
+        "478604": 16
+      },
+      "note": "Observed endpoints. Ancestral 16 and the two separate changes are SAPP assumptions, not observed history.",
+      "status": "Model-sensitive"
+    },
+    {
+      "name": "DYS561",
+      "values": {
+        "B696189": 16,
+        "B580327": 16,
+        "1002232": 17,
+        "200475": 16,
+        "959947": 16,
+        "999763": 16,
+        "478604": 16
+      },
+      "note": "A reported James J-line departure within this set.",
+      "status": "Line-specific"
+    },
+    {
+      "name": "DYS19",
+      "values": {
+        "B696189": 14,
+        "B580327": 14,
+        "1002232": 14,
+        "200475": 15,
+        "959947": 15,
+        "999763": 15,
+        "478604": 15
+      },
+      "note": "Part of the three-state Glasgow-12 motif.",
+      "status": "Family signature"
+    },
+    {
+      "name": "DYS456",
+      "values": {
+        "B696189": 17,
+        "B580327": 17,
+        "1002232": 17,
+        "200475": 16,
+        "959947": 16,
+        "999763": 16,
+        "478604": 16
+      },
+      "note": "Part of the three-state Glasgow-12 motif.",
+      "status": "Family signature"
+    },
+    {
+      "name": "DYS712",
+      "values": {
+        "B696189": 20,
+        "B580327": 20,
+        "1002232": 20,
+        "200475": 19,
+        "959947": 19,
+        "999763": 19,
+        "478604": 19
+      },
+      "note": "Part of the three-state Glasgow-12 motif; still an STR state, not a named SNP.",
+      "status": "Family signature"
+    },
+    {
+      "name": "DYS389II",
+      "values": {
+        "B696189": 30,
+        "B580327": 31,
+        "1002232": 31,
+        "200475": 31,
+        "959947": 31,
+        "999763": 31,
+        "478604": 31
+      },
+      "note": "Reported composite DYS389II values. DYS389I must be accounted for before recomputing general distances.",
+      "status": "Reported values"
+    },
+    {
+      "name": "DYS557",
+      "values": {
+        "B696189": 17,
+        "B580327": 16,
+        "1002232": 16,
+        "200475": 16,
+        "959947": 16,
+        "999763": 16,
+        "478604": 16
+      },
+      "note": "Reported William-line departure.",
+      "status": "Line-specific"
+    },
+    {
+      "name": "DYS650",
+      "values": {
+        "B696189": null,
+        "B580327": null,
+        "1002232": null,
+        "200475": 19,
+        "959947": 20,
+        "999763": 19,
+        "478604": 19
+      },
+      "note": "The page explicitly compares the Glasgow-12 family here; unrelated values have not been filled in.",
+      "status": "Partial states"
+    },
+    {
+      "name": "CDY",
+      "values": {
+        "B696189": null,
+        "B580327": null,
+        "1002232": null,
+        "200475": "35–37",
+        "959947": "35–37",
+        "999763": "35–37",
+        "478604": "36–37"
+      },
+      "note": "A terminal difference inside the FTE32242 family. Other lines are not filled from assumption.",
+      "status": "Partial states"
+    }
+  ],
+  "variants": [
+    {
+      "position": 12648194,
+      "change": "A→G",
+      "alias": "FTD25732"
+    },
+    {
+      "position": 14337402,
+      "change": "T→C",
+      "alias": "FTD25962"
+    },
+    {
+      "position": 14339231,
+      "change": "G→C",
+      "alias": "FTD25964"
+    },
+    {
+      "position": 15066888,
+      "change": "A→T",
+      "alias": "FTD26091"
+    },
+    {
+      "position": 15973436,
+      "change": "A→C",
+      "alias": "FTD26239"
+    },
+    {
+      "position": 26534797,
+      "change": "C→G",
+      "alias": "Not FT124483 C→A"
+    }
+  ],
+  "audit": {
+    "ids": [
+      "B696189",
+      "B580327",
+      "1002232",
+      "200475",
+      "959947",
+      "999763",
+      "478604"
+    ],
+    "matrix": [
+      [
+        0,
+        5,
+        6,
+        7,
+        8,
+        7,
+        8
+      ],
+      [
+        5,
+        0,
+        3,
+        6,
+        7,
+        6,
+        7
+      ],
+      [
+        6,
+        3,
+        0,
+        5,
+        6,
+        5,
+        6
+      ],
+      [
+        7,
+        6,
+        5,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        8,
+        7,
+        6,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        7,
+        6,
+        5,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        8,
+        7,
+        6,
+        1,
+        2,
+        1,
+        0
+      ]
+    ],
+    "mstWeight": 15.0,
+    "mstCount": 8,
+    "fourPointViolations": 4,
+    "quartets": 35,
+    "witness": [
+      [
+        "B696189",
+        "B580327",
+        "1002232",
+        "200475"
+      ],
+      [
+        10,
+        12,
+        10
+      ]
+    ],
+    "trees": [
+      [
+        [
+          "B696189",
+          "B580327",
+          5
+        ],
+        [
+          "B580327",
+          "1002232",
+          3
+        ],
+        [
+          "1002232",
+          "200475",
+          5
+        ],
+        [
+          "200475",
+          "999763",
+          0
+        ],
+        [
+          "200475",
+          "959947",
+          1
+        ],
+        [
+          "200475",
+          "478604",
+          1
+        ]
+      ],
+      [
+        [
+          "B696189",
+          "B580327",
+          5
+        ],
+        [
+          "B580327",
+          "1002232",
+          3
+        ],
+        [
+          "1002232",
+          "999763",
+          5
+        ],
+        [
+          "200475",
+          "999763",
+          0
+        ],
+        [
+          "200475",
+          "959947",
+          1
+        ],
+        [
+          "200475",
+          "478604",
+          1
+        ]
+      ],
+      [
+        [
+          "B696189",
+          "B580327",
+          5
+        ],
+        [
+          "B580327",
+          "1002232",
+          3
+        ],
+        [
+          "1002232",
+          "200475",
+          5
+        ],
+        [
+          "200475",
+          "959947",
+          1
+        ],
+        [
+          "200475",
+          "999763",
+          0
+        ],
+        [
+          "999763",
+          "478604",
+          1
+        ]
+      ],
+      [
+        [
+          "B696189",
+          "B580327",
+          5
+        ],
+        [
+          "B580327",
+          "1002232",
+          3
+        ],
+        [
+          "1002232",
+          "200475",
+          5
+        ],
+        [
+          "200475",
+          "999763",
+          0
+        ],
+        [
+          "200475",
+          "478604",
+          1
+        ],
+        [
+          "959947",
+          "999763",
+          1
+        ]
+      ],
+      [
+        [
+          "B696189",
+          "B580327",
+          5
+        ],
+        [
+          "B580327",
+          "1002232",
+          3
+        ],
+        [
+          "1002232",
+          "999763",
+          5
+        ],
+        [
+          "200475",
+          "999763",
+          0
+        ],
+        [
+          "200475",
+          "478604",
+          1
+        ],
+        [
+          "959947",
+          "999763",
+          1
+        ]
+      ],
+      [
+        [
+          "B696189",
+          "B580327",
+          5
+        ],
+        [
+          "B580327",
+          "1002232",
+          3
+        ],
+        [
+          "1002232",
+          "999763",
+          5
+        ],
+        [
+          "200475",
+          "959947",
+          1
+        ],
+        [
+          "200475",
+          "999763",
+          0
+        ],
+        [
+          "999763",
+          "478604",
+          1
+        ]
+      ],
+      [
+        [
+          "B696189",
+          "B580327",
+          5
+        ],
+        [
+          "B580327",
+          "1002232",
+          3
+        ],
+        [
+          "1002232",
+          "200475",
+          5
+        ],
+        [
+          "200475",
+          "999763",
+          0
+        ],
+        [
+          "959947",
+          "999763",
+          1
+        ],
+        [
+          "999763",
+          "478604",
+          1
+        ]
+      ],
+      [
+        [
+          "B696189",
+          "B580327",
+          5
+        ],
+        [
+          "B580327",
+          "1002232",
+          3
+        ],
+        [
+          "1002232",
+          "999763",
+          5
+        ],
+        [
+          "200475",
+          "999763",
+          0
+        ],
+        [
+          "959947",
+          "999763",
+          1
+        ],
+        [
+          "999763",
+          "478604",
+          1
+        ]
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "id": "S0",
+      "type": "Supplied source",
+      "title": "Uploaded Y-DNA Explorer HTML",
+      "detail": "Supplied Y-DNA research page: kit assignments, measurements, raw-file audit claims and pedigree labels retained as an August 2026 snapshot. Underlying sequence files and documentary records were referenced, not attached. The separately supplied historical timeline is S9.",
+      "date": "Received 6 Sep 2026",
+      "url": null
+    },
+    {
+      "id": "S1",
+      "type": "Retained reference",
+      "title": "FamilyTreeDNA · Genetic-distance rules",
+      "detail": "Step-wise distances, nulls, multi-copy handling and the composite DYS389II value.",
+      "date": "Reference retained from earlier 6 Sep 2026 build",
+      "url": "https://help.familytreedna.com/hc/en-us/articles/6019925167631-Understanding-Y-DNA-Genetic-Distance"
+    },
+    {
+      "id": "S2",
+      "type": "Retained reference",
+      "title": "FamilyTreeDNA · Block Tree guide",
+      "detail": "Named branch display, extended STR mismatch counts and aggregated private/public variant averages.",
+      "date": "Reference retained from earlier 6 Sep 2026 build",
+      "url": "https://help.familytreedna.com/hc/en-us/articles/4402392809359-Big-Y-Block-Tree-Guide"
+    },
+    {
+      "id": "S3",
+      "type": "Retained reference",
+      "title": "FamilyTreeDNA · Big Y matching guide",
+      "detail": "Non-matching lists contain named and private variant differences; they are not a complete per-site genotype matrix.",
+      "date": "Reference retained from earlier 6 Sep 2026 build",
+      "url": "https://help.familytreedna.com/hc/en-us/articles/4402696079887-Big-Y-Matching-Matches-Guide"
+    },
+    {
+      "id": "S4",
+      "type": "Retained reference",
+      "title": "SAPP · Output definitions",
+      "detail": "Original versus adjusted GD; documented 67% date ranges, 28-year generation convention and 50-year rounding.",
+      "date": "Reference retained from earlier 6 Sep 2026 build",
+      "url": "https://www.jdvsite.com/outputs/"
+    },
+    {
+      "id": "S5",
+      "type": "Retained reference",
+      "title": "SAPP · Science and FAQ",
+      "detail": "STR model construction, treatment of DYS389II−I, constraints and the limitations of inferred dates.",
+      "date": "Reference retained from earlier 6 Sep 2026 build",
+      "url": "https://www.jdvsite.com/the-science/"
+    },
+    {
+      "id": "S6",
+      "type": "Retained reference",
+      "title": "UCSC · Coordinate conventions",
+      "detail": "BED uses zero-based coordinates. Raw-file rechecks must establish the reference assembly and coordinate system.",
+      "date": "Reference retained from earlier 6 Sep 2026 build",
+      "url": "https://genome.ucsc.edu/FAQ/FAQtracks.html"
+    },
+    {
+      "id": "S7",
+      "type": "Mathematical reference",
+      "title": "Azimi et al. · The maximum four point condition matrix of a tree",
+      "detail": "The two largest quartet sums must agree for distances to be additive on a tree. This is applied to the supplied matrix, not to DNA reads.",
+      "date": "2023 paper; checked 6 Sep 2026",
+      "url": "https://arxiv.org/abs/2308.08237"
+    },
+    {
+      "id": "S8",
+      "type": "New calculation",
+      "title": "Seven-kit matrix audit",
+      "detail": "All 21 distances retained; symmetry and triangle inequalities checked. Eight minimum spanning trees of weight 15; four of 35 quartet tests fail exact additivity. The matrix is not a direct mutation-history tree.",
+      "date": "Calculated 6 Sep 2026",
+      "url": null
+    },
+    {
+      "id": "S9",
+      "type": "Supplied source",
+      "title": "Glasgow project · supplied Y-DNA Timeline",
+      "detail": "Pasted text(20260906-210826).txt. Supplies S14827 → FTC49014 → FT4811 context, the FT4811 collateral branches, reported age estimates and the North Sea / Norman / Scottish / Ulster narrative. Source sections: S14827 (lines 1450–1546), FT4811 (1549–1653), FTC49014 (1655–1693), FT32941 (1694–1797), FT25406 (1799–1888), FT20271 (1891–2015). Project-specific genetic ages and medieval-person claims were not independently re-verified. An unchanged copy is retained in the source archive.",
+      "date": "Supplied 6 Sep 2026",
+      "url": "https://glasgow.phenotype.dev/timeline"
+    },
+    {
+      "id": "S10",
+      "type": "Retained reference",
+      "title": "FamilyTreeDNA · Understanding the Discover Time Tree",
+      "detail": "Time Tree ages concern common ancestors and branching. Country labels are self-reported paternal origins of testers; they are not direct medieval geolocation. The specific live FT4811, FTA30932 and FT32941 pages could not be retrieved in this revision, so their project-supplied values remain a snapshot.",
+      "date": "Reference retained from earlier 6 Sep 2026 build",
+      "url": "https://help.familytreedna.com/hc/en-us/articles/6463909777295-Understanding-the-Y-DNA-Discover-Time-Tree"
+    },
+    {
+      "id": "S11",
+      "type": "Retained reference",
+      "title": "Derbyshire Historic Environment Record · Duffield Castle (MDR4704)",
+      "detail": "The official monument record summarises excavation evidence for a de Ferrers earth-and-timber castle around 1080, followed by the later stone keep. This independently anchors the proposed medieval setting, not the genotype, ancestry or occupation of any Glasgow/Duffield man.",
+      "date": "Reference retained from earlier 6 Sep 2026 build",
+      "url": "https://her.derbyshire.gov.uk/Monument/MDR4704"
+    },
+    {
+      "id": "S12",
+      "type": "Retained reference",
+      "title": "City of Edinburgh Council · early royal burghs",
+      "detail": "The council describes David I’s twelfth-century burgh programme, including Berwick and Stirling, and cites a 1127 charter reference to Edinburgh. Useful context for movement into Scottish administrative and trading centres; not proof of the project’s Huntingdon or Glasgow pedigree.",
+      "date": "Reference retained from earlier 6 Sep 2026 build",
+      "url": "https://www.edinburgh.gov.uk/900"
+    },
+    {
+      "id": "S13",
+      "type": "Editorial synthesis",
+      "title": "Narrative edition · explanatory reconstruction",
+      "detail": "Reorganises the supplied evidence into five connected story chapters. Adds branch explanations, three-level family inheritance highlights and qualitative route comparisons. Source measurements, SNP calls, missing states and reported age ranges are retained. The c.1066–1150 arrival model is the project timeline’s historical scenario, not a newly calculated probability or date interval.",
+      "date": "6 Sep 2026",
+      "url": null
+    },
+    {
+      "id": "S14",
+      "type": "Published primary record",
+      "title": "Yorkshire Pipe Roll · Roger de Duffeld, Michaelmas 1194",
+      "detail": "The Great Roll of the Pipe for Richard I's sixth regnal year, Yorkshire, p. 150: Rogerus de Duffeld owed half a mark because he did not produce the person for whom he had acted as pledge. This is a fiscal/surety entry, not a 1190 poll tax, land grant, castle office or Scottish record.",
+      "date": "1194 record; documentary audit refreshed 7 Sep 2026",
+      "url": "https://archive.org/stream/publicationspip10britgoog/publicationspip10britgoog_djvu.txt"
+    },
+    {
+      "id": "S15",
+      "type": "Published charter text",
+      "title": "Registrum Episcopatus Glasguensis · Bishop Jocelin's charter no. 41",
+      "detail": "The act names Master John of Huntingdon in Bishop Jocelin's household and Roger de Glasgu among the witnesses to a grant involving a Glasgow burgh toft and Clyde fishing right. Their joint occurrence proves association in one episcopal-property network, not kinship or a change of surname.",
+      "date": "c.1175–1199 act; printed 1843; audit refreshed 7 Sep 2026",
+      "url": "https://archive.org/details/registrumepiscv175glasuoft"
+    },
+    {
+      "id": "S16",
+      "type": "Official archive catalogue",
+      "title": "Glasgow University Archives BL/204 · John de Glasgow alias Smith",
+      "detail": "Catalogue description of the 28 April 1506 instrument: Agnes, daughter and heir of Robert Watson, disposed a four-shilling High Street annual rent to Sir Allan Smith and John de Glasgow alias Smith. The complete instrument remains unread; no occupation or relationship between Allan and John is stated.",
+      "date": "1506 instrument; catalogue audit refreshed 7 Sep 2026",
+      "url": "https://yourscottisharchives.com/catalogues/565b7ef3-fc87-3f6f-aaac-149925faa39d?component-id=7cdbf375-dc6d-3de3-b53a-86376e2106da"
+    },
+    {
+      "id": "S17",
+      "type": "Published property register",
+      "title": "Liber Collegii Nostre Domine · Glasgow Saltmarket title trail",
+      "detail": "The printed register identifies a four-shilling annual on John Glasgow's Saltmarket tenement in 1527 and places William Glasgow in the same title position by 1528/29. Later boundaries and rentals preserve the parcel. The succession is strong property evidence but contains no father-son formula and has not been linked to the separate 1506 alias-Smith rent.",
+      "date": "1527–1548 records; audit refreshed 7 Sep 2026",
+      "url": "https://archive.org/details/libercollegiino00annegoog"
+    },
+    {
+      "id": "S18",
+      "type": "Published charter text and digital index",
+      "title": "Paisley register · the two Alexander sons of Richard, 1283",
+      "detail": "DEEDS 06190338 and 06190340 distinguish Alexander, son of the late Richard the messenger of Glasgow, from Alexander, son of Richard the former constable of Glasgow. The occupational/location phrases describe the fathers and do not by themselves establish an inherited Glasgow surname.",
+      "date": "1283 acts; audit integrated 7 Sep 2026",
+      "url": "https://deeds.utsc.utoronto.ca/charters/06190338/"
+    },
+    {
+      "id": "S19",
+      "type": "Published archival calendar",
+      "title": "Bain, Calendar of Documents Relating to Scotland II, no. 409",
+      "detail": "Calendars the mutilated 7 March 1289/90 receipt involving Alexander, escheator south of the Forth, with old locator Chapter House (Scots Documents), Box 94, no. 5. The original and current TNA reference remain unchecked.",
+      "date": "1289/90 record; audit integrated 7 Sep 2026",
+      "url": "https://archive.org/stream/calendarofdocume02edin/calendarofdocume02edin_djvu.txt"
+    }
+  ],
+  "originalTables": {
+    "str-table": [
+      [
+        [
+          "Kit",
+          "Reported root",
+          "Confirmed SNP placement"
+        ],
+        [
+          "959947",
+          "documented Robert Glasgow-12 line via William Glasgow-563",
+          "Basal R-FT20271"
+        ],
+        [
+          "200475",
+          "Robert Glasgow 1749–1839 · Glasgow-12",
+          "Basal R-FT20271"
+        ],
+        [
+          "999763",
+          "James M. Glasgow · Glasgow-193 , through Glasgow-2182",
+          "Child R-FTE32242"
+        ],
+        [
+          "478604",
+          "James M. Glasgow · Glasgow-193 , through Glasgow-192",
+          "Child R-FTE32242"
+        ]
+      ]
+    ],
+    "inheritance-table": [
+      [
+        [
+          "Robert's son",
+          "Tested line",
+          "Paper audit",
+          "FT20271",
+          "FT6135",
+          "FTE32242",
+          "Result"
+        ],
+        [
+          "William Glasgow-563",
+          "959947",
+          "Documented 1829 → 556 → 1851 → 1877 → 1950 household → private kit",
+          "Derived",
+          "Displayed derived",
+          "Ancestral/basal",
+          "Independent documented basal son-line."
+        ],
+        [
+          "John M. Glasgow-1965",
+          "200475",
+          "Probable 1958 → 1954 → private",
+          "Derived",
+          "Displayed derived",
+          "Ancestral/basal",
+          "Independent basal line; public censuses support the early chain."
+        ],
+        [
+          "James M. Glasgow-193",
+          "999763 + 478604",
+          "Two son-lines William Allen-2182 and Samuel Lyle-192",
+          "Derived",
+          "Not displayed",
+          "Derived in both",
+          "Places FTE32242 on the Robert → James M. edge."
+        ]
+      ]
+    ],
+    "FT6135 decision scenarios": [
+      [
+        [
+          "Direct result needed from both James M. kits",
+          "Consequence",
+          "Interpretation"
+        ],
+        [
+          "Derived T calls",
+          "Place FT6135 at or above Robert Glasgow-12.",
+          "The current omission was a display/export limitation."
+        ],
+        [
+          "Ancestral C calls",
+          "Do not place FT6135 on Robert's branch.",
+          "The William and John M. results would require recurrence, reversion, or a tester/pedigree mapping review."
+        ],
+        [
+          "No-call / inadequate coverage",
+          "Keep FT6135 unresolved.",
+          "The missing display would not contradict inheritance, but would not establish it either."
+        ]
+      ]
+    ],
+    "distance-matrix": [
+      [
+        [
+          "Kit / root",
+          "B696189 reported William c.1655 root",
+          "B580327 Alexander",
+          "1002232 James J line",
+          "200475 John M.",
+          "959947 Robert-1749 → William",
+          "999763 FTE",
+          "478604 FTE"
+        ],
+        [
+          "B696189 · reported William line",
+          "—",
+          "5",
+          "6",
+          "7",
+          "8",
+          "7",
+          "8"
+        ],
+        [
+          "B580327 · Alexander",
+          "5",
+          "—",
+          "3",
+          "6",
+          "7",
+          "6",
+          "7"
+        ],
+        [
+          "1002232 · James J line",
+          "6",
+          "3",
+          "—",
+          "5",
+          "6",
+          "5",
+          "6"
+        ],
+        [
+          "200475 · John M.",
+          "7",
+          "6",
+          "5",
+          "—",
+          "1",
+          "0",
+          "1"
+        ],
+        [
+          "959947 · Robert-1749 → William",
+          "8",
+          "7",
+          "6",
+          "1",
+          "—",
+          "1",
+          "2"
+        ],
+        [
+          "999763 · FTE line A",
+          "7",
+          "6",
+          "5",
+          "0",
+          "1",
+          "—",
+          "1"
+        ],
+        [
+          "478604 · FTE line B",
+          "8",
+          "7",
+          "6",
+          "1",
+          "2",
+          "1",
+          "—"
+        ]
+      ]
+    ],
+    "direction-table": [
+      [
+        [
+          "Marker state",
+          "Branch-weighted reading",
+          "Best placement"
+        ],
+        [
+          "DYS19=15 · DYS456=16 · DYS712=19",
+          "All four Glasgow-12 descendants; absent from B696189, B580327 and 1002232.",
+          "Likely on or above Robert Glasgow-12 ; strongest STR signature in the set."
+        ],
+        [
+          "DYS714=27",
+          "Only B580327 and 1002232; the other independent lines carry 26.",
+          "Supports the Alexander–James J tested-line pairing, but root direction is unresolved."
+        ],
+        [
+          "DYS389ii=30 · DYS511=11 · DYS557=17",
+          "Unique to B696189; all six other kits carry 31, 10 and 16.",
+          "Three likely departures on the reported William-line tip."
+        ],
+        [
+          "DYS576",
+          "16 in 1002232 and the reconstructed Glasgow-12 family; 17 in B696189; 18 in Alexander.",
+          "Alexander's 18 is likely derived; deeper root state remains uncertain between 16 and 17."
+        ],
+        [
+          "DYS561=17",
+          "Unique to 1002232; all six other kits carry 16.",
+          "Likely 1002232-line departure after the Alexander pairing split."
+        ],
+        [
+          "DYS650=20",
+          "Unique to 959947; the other Glasgow-12 son-lines carry 19.",
+          "Terminal William-branch change below Glasgow-563."
+        ],
+        [
+          "CDY=36-37",
+          "Unique to 478604; its FTE32242 cousin and both basal Glasgow-12 lines carry 35-37.",
+          "Terminal change within the Glasgow-192 descendant line."
+        ]
+      ]
+    ],
+    "placement-table": [
+      [
+        [
+          "SAPP result",
+          "Reconstructed changes",
+          "What it contributes",
+          "Limit"
+        ],
+        [
+          "Node 17 B580327 · 1002232",
+          "DYS714 26→27 before their split; then DYS576 16→18 on Alexander's line and DYS561 16→17 on the 1002232 line.",
+          "Independently recovers the strongest Alexander–James J tested-line pairing and supplies an approximate c.1750 research horizon for their unknown common paternal ancestor.",
+          "The connection is Grade B+ with other options possible. No shared child SNP or paper ancestor has been found."
+        ],
+        [
+          "Nodes 14–13 333002 · 794462 · 200475 · 999763",
+          "DYS19 14→15 and DYS456 17→16 ; the Y-111 descendants also carry DYS712 20→19 .",
+          "Independently reconstructs the three-marker Glasgow-12 family signature already supported across the audited son-lines.",
+          "The displayed c.1850 Node 14 date is about a century later than documented Robert Glasgow's 1749 birth. Zero-generation nodes among identical Y-111 kits make their internal order non-evidential."
+        ],
+        [
+          "Node 16 254947 · 325862 · B835762",
+          "DYS607 15→16 and CDYa 35→36 before their proposed split.",
+          "Creates a specific hypothesis that the Kilwaughter Robert and James William lines may join the Henry-root side of the project.",
+          "Its lower internal branches are partly low-confidence, CDY mutates rapidly and none of these numbered kits has a confirming terminal SNP. Big Y testing must decide it."
+        ],
+        [
+          "N18544",
+          "DYS389i 13→14 · DYS442 12→13 · DYF406S1 10→11",
+          "Records a distinct STR path for the reported John-1767 line.",
+          "SAPP places it directly from the group root with “No Grade: no matching found with other kits”; its small raw-distance lead toward 1002232 is not a recovered subclade."
+        ]
+      ],
+      [
+        [
+          "Rank",
+          "Kit and WikiTree root",
+          "Nearest reconstructed anchor",
+          "Next best",
+          "What the markers actually support"
+        ],
+        [
+          "Very strong",
+          "794462 · Glasgow-12 line · Y-111",
+          "Glasgow-12 · GD 0/111",
+          "1002232 · GD 5/111",
+          "Full recovery of the expected family placement, but R-Z18 is not a terminal Big Y result."
+        ],
+        [
+          "Strong control",
+          "333002 · Glasgow-12 line · Y-37",
+          "Glasgow-12 · GD 1/37",
+          "three anchors · GD 3/37",
+          "The partial panel independently recovers the known family; it cannot identify FTE32242."
+        ],
+        [
+          "Provisional",
+          "B835762 · Glasgow-1144 · Y-37",
+          "325862 · GD 1/37",
+          "1002232 / 254947 · GD 2/37",
+          "GroupingApp puts B835762 and 325862 in Tight Subgroup 1; SAPP includes both with 254947 in Node 16 through DYS607=16 · CDYa=36. Big Y is required to test whether that signature represents FT25406 kinship or convergence."
+        ],
+        [
+          "Open",
+          "N18544 · Glasgow-822 · Y-67",
+          "1002232 · GD 4/67",
+          "Alexander · GD 5/67",
+          "Raw distance makes 1002232 its nearest anchor, but SAPP finds no matching subcluster and places N18544 directly from the group root. DYS712 and DYS714 are not on this panel."
+        ],
+        [
+          "Provisional",
+          "254947 · Glasgow-1143 · Y-111",
+          "1002232 · GD 9/111",
+          "Alexander / Glasgow-12 · GD 10/111",
+          "The one-step nearest-anchor margin remains weak, but SAPP's Node 16 adds a distinct DYS607=16 · CDYa=36 hypothesis with 325862 and B835762. DYS714=26 and DYS19=14 · DYS456=17 · DYS712=20 still exclude both FT20271-side diagnostic patterns."
+        ]
+      ]
+    ],
+    "Direct B580327 VCF calls at key named SNP sites": [
+      [
+        [
+          "Named SNP",
+          "Defining allele",
+          "B580327 direct VCF call",
+          "Evidence status",
+          "What it proves"
+        ],
+        [
+          "FT20271 position 9,182,554",
+          "C→T",
+          "Derived T GT 1/1 · 57 alternate reads · DP 60 · PASS · covered by BED",
+          "VCF confirmed",
+          "Directly confirms B580327 on R-FT20271."
+        ],
+        [
+          "FT6135 position 19,389,846",
+          "C→T",
+          "Ancestral C GT 0/0 · 34 C, 1 T, 1 A reads · DP 40 · PASS · covered by BED",
+          "VCF confirmed",
+          "B580327 does not carry FT6135; the minor alternate reads did not change the high-confidence ancestral genotype."
+        ],
+        [
+          "FT124483 position 26,534,797",
+          "C→A",
+          "Not carried separate C→G call · GT 1/1 · 24 G reads · DP 25 · PASS · covered by BED",
+          "Multiallelic site",
+          "B580327 has a different mutation at the same coordinate; it is not FT124483 C→A."
+        ]
+      ]
+    ],
+    "Y-DNA evidence status and next tests": [
+      [
+        [
+          "Line / kit",
+          "Genetic evidence",
+          "Pedigree status",
+          "Best next evidence"
+        ],
+        [
+          "Alexander Glasgow-951 B580327",
+          "FT20271 and key calls directly checked in VCF/BED.",
+          "Tested descendant line linked; Alexander's own terminal private states cannot yet be separated from later generations.",
+          "Big Y from a second independently documented son-line of Alexander."
+        ],
+        [
+          "James J Glasgow-2738 line 1002232",
+          "Big Y terminal FT20271; closest Y-111 pairing with B580327.",
+          "The documented tester line reaches James; Wilson-1982 is excluded and Robert-2769 remains an uncertain father.",
+          "A record naming James's father or a second documented male-line test from a candidate father's family."
+        ],
+        [
+          "Reported William c.1655 line B696189",
+          "Big Y terminal FT20271; 3/650 Big Y STR differences from B580327.",
+          "Tested paternal lineage is real; assignment to Glasgow-591 remains a reported historical pedigree.",
+          "Audit the tester-to-root chain and inspect B696189's VCF/BED."
+        ],
+        [
+          "Robert Glasgow-12 family 959947 · 200475 · 999763 · 478604",
+          "FT20271 inherited across three son-lines; FTE32242 confirmed under James M.",
+          "959947 documented; 200475 probable; two James M. son-lines independently support FTE32242.",
+          "Direct FT6135 genotypes and coverage from all four kits."
+        ],
+        [
+          "Marker-only Glasgow candidates 254947 · B835762 · N18544 · 794462",
+          "Y-37 to Y-111 STR placement only; terminal SNP unknown.",
+          "Reported roots range from candidate to documented.",
+          "Big Y upgrade, prioritising 254947 or one close Farrier/Ferrier line."
+        ]
+      ]
+    ],
+    "variant-table": [
+      [
+        [
+          "Reported paternal root",
+          "Current branch",
+          "B580327 side",
+          "Match side",
+          "Best reading"
+        ],
+        [
+          "James J Glasgow-2738 line kit 1002232 · paper trail currently stops at James",
+          "R-FT20271",
+          "7 six lineage states + A19619",
+          "1 11816547 · one tree-counted tip variant",
+          "Closest STR match at GD 3, but no newly shared SNP below FT20271 is exposed."
+        ],
+        [
+          "Reported William c.1655 line kit B696189",
+          "R-FT20271",
+          "6",
+          "5 five covered, tree-counted tip variants",
+          "A fairly balanced pairwise SNP split; still insufficient by itself to order the line or prove the historical root."
+        ],
+        [
+          "Documented William Glasgow branch kit 959947 · Glasgow-12 descendant",
+          "R-FT20271",
+          "7 six lineage states + BY26910",
+          "5 four likely tip variants + off-tree FT6135",
+          "FT6135 is shared with the John M. branch, but is absent from the available James M. branch lists; it cannot yet be assigned to Robert."
+        ],
+        [
+          "Robert Glasgow, 1749–1839 kit 200475 · Glasgow-12 line",
+          "R-FT20271",
+          "6",
+          "2 one tip variant + off-tree FT6135",
+          "Basal descendant line of Glasgow-12; candidate FT6135 pairing with 959947."
+        ],
+        [
+          "James M. Glasgow, 1799–1875 kit 999763 · through son Glasgow-2182",
+          "R-FTE32242",
+          "6",
+          "2 shared FTE32242 + one tip variant",
+          "One of two son-lines confirming the branch under Glasgow-193; Z21723 appears later on this tester's line."
+        ],
+        [
+          "James M. Glasgow, 1799–1875 kit 478604 · through son Glasgow-192",
+          "R-FTE32242",
+          "6",
+          "3 shared FTE32242 + two tip variants",
+          "Second son-line independently confirms FTE32242 under Glasgow-193."
+        ],
+        [
+          "Henry Glasgo 1774 basal Big Y result · Glasgo-21",
+          "R-FT25406",
+          "9 includes the three-SNP FT20271 block",
+          "5 four tree-counted tip variants + one excluded call",
+          "A useful upstream control, not a competitor for placement inside FT20271."
+        ]
+      ],
+      [
+        [
+          "Order",
+          "Concrete request",
+          "What it could achieve",
+          "Decision boundary"
+        ],
+        [
+          "1",
+          "Upgrade kit 254947 from Y-111 to Big Y-700. Reported root: Robert Glasgow, c.1710–after 1772 , Kilwaughter/Larne.",
+          "This is the best identified old Northern Irish Glasgow line awaiting SNP placement. FT20271-positive would connect it to Alexander's child branch; FT25406-positive but FT20271-negative would place it on the collateral parent branch; a result outside FT25406 would overturn the older STR grouping.",
+          "Highest-value single upgrade. The genetic result places the tested paternal line; the tester-to-Robert pedigree still needs documentary support."
+        ],
+        [
+          "2",
+          "Request the full Big Y bundle for kit 1002232 . The documented line reaches James J Glasgow-2738 ; his father remains unknown.",
+          "Directly compare its private and named calls with B580327, verify coverage at the match-only position 11816547, and identify the exact extended STR differences behind Alexander's closest standard Y-111 match.",
+          "It may expose a candidate shared sub-branch below FT20271. It cannot by itself identify James's father or prove a paper-tree relationship."
+        ],
+        [
+          "3",
+          "Request the full Big Y bundle for kit B696189 , plus its tester-to-root pedigree. Reported line to William Glasgow, born c.1655 .",
+          "Check the five match-side variant positions directly, reproduce the 3-of-650 extended STR comparison, and test whether B696189 and B580327 share any unpromoted derived state below FT20271.",
+          "The files can refine branch proximity; only the requested pedigree evidence can validate the historical William label."
+        ],
+        [
+          "4",
+          "Request full bundles for kits 999763 , 478604 , 959947 and 200475 . Start with 999763 and 478604 if access is limited; they are the two independent James M. son-lines.",
+          "Resolve the off-tree FT6135 pattern by checking genotype and coverage in every branch. Derived calls in both James M. kits would place FT6135 at or above Robert Glasgow-12; ancestral calls in both would exclude it from Robert's ancestral state and force a narrower explanation.",
+          "A no-call at FT6135 remains unresolved. Direct VCF/BED evidence is needed; absence from a displayed private-variant list is not a negative genotype."
+        ],
+        [
+          "5",
+          "Upgrade kit B835762 from Y-37 to Big Y-700. Reported root: James William Glasgow, 1731–1775 , Kilwaughter/Larne.",
+          "Test whether its one-step Y-37 pairing and Tight Subgroup 1 assignment with Henry-root kit 325862 represent the same FT25406 branch, a new child branch, or STR convergence.",
+          "Neither B835762 nor 325862 has a terminal SNP result; the separate unnumbered Henry-root Big Y cannot safely be imputed to either marker kit. Ideally test both Kilwaughter kits rather than infer one result from the other."
+        ],
+        [
+          "6",
+          "Recruit a second Big Y-700 tester descended from Alexander Glasgow-951 through a different son from B580327's line.",
+          "Phase B580327's six private lineage states: variants shared by both descendants arose at or above Alexander; variants found in only one line arose later. That could create a named Alexander branch.",
+          "The tester must have a documented unbroken male line and branch from Alexander through a different son; a close relative on the same recent line adds little."
+        ],
+        [
+          "7",
+          "Upgrade one of the three close Farrier/Ferrier Y-111 matches to Big Y-700. Prefer one of the two independent William Farrier–Susanna Abell lines; kit numbers were not supplied in the current export.",
+          "Distinguish a surname change or shared paternal ancestor from STR convergence: FT20271-positive would join the cluster, FT25406-only would indicate deeper kinship, and a different branch would reject the apparent close connection.",
+          "Do not treat GD 4–5 at Y-111 as proof of Glasgow ancestry before this SNP test."
+        ],
+        [
+          "8",
+          "After the priority work, consider Big Y-700 for kit N18544 and the unnumbered Glasgow Y-111 match. N18544 reports John Glasgow, 1767–1851 , Ireland to Ohio.",
+          "Place two remaining surname lines that are currently supported only by STR similarity and may identify another collateral Northern Irish branch.",
+          "Useful breadth, but less likely than 254947 or B835762 to answer the immediate Kilwaughter/Killoquin relationship question."
+        ]
+      ]
+    ],
+    "YFull cross-check of the B580327 VCF": [
+      [
+        [
+          "YFull result",
+          "Observed evidence",
+          "Useful interpretation"
+        ],
+        [
+          "FT20271 block recovered",
+          "FGC5690 is a known positive call. FT20271 is Q100 but flagged multi-copy/homologous; FT16542 is Q91 and homologous.",
+          "Supports the three-SNP FTDNA block. FGC5690 is the cleanest independent cross-check while YFull leaves the block below R-FT3761 unpromoted."
+        ],
+        [
+          "Five tip variants named",
+          "FTD25732 · FTD25962 · FTD25964 · FTD26091 · FTD26239 ; each called Q100.",
+          "These are useful aliases for positions 12648194, 14337402, 14339231, 15066888 and 15973436. They do not yet form a shared or genealogically dated branch."
+        ],
+        [
+          "“21 private” needs context",
+          "The list also includes upstream markers such as FT4811, FTA35069, FT16394, FT18145, FT16542, FT20271 and FT26594.",
+          "Do not turn 21 into a lineage age. Several calls are private only relative to YFull's coarser current tree, not recent mutations unique to this tested line."
+        ],
+        [
+          "No close match yet",
+          "The completed SNP comparison presently reaches only R-ZP87, about 3,400 years before present.",
+          "Those broad European matches add no surname-era connection. Recheck after another close FT20271 tester uploads."
+        ],
+        [
+          "VCF-only limit",
+          "YFull reports no age estimate, and its STR-match list requires a BAM. The VCF-derived STR panel is partial.",
+          "Keep the verified FTDNA Y-111 comparisons as the STR evidence here; do not merge incomplete YFull STR values into the distance network."
+        ]
+      ]
+    ],
+    "match-table": [
+      [
+        [
+          "Y-111 GD",
+          "Reported earliest paternal ancestor",
+          "Test / terminal label",
+          "Big Y STR difference",
+          "Current interpretation"
+        ],
+        [
+          "3",
+          "James J Glasgow-2738 line Documented tester line; James's father unproved",
+          "Big Y · R-FT20271",
+          "4 of 662",
+          "Closest confirmed FT20271 match; likely STR pairing with Alexander, not a proved paper-tree branch."
+        ],
+        [
+          "4",
+          "Wm Farrier and Susanna Abell line Philadelphia marriage reported in 1796 · match A",
+          "Y-111 · R-M269",
+          "Not available",
+          "Very close STR lead, but no terminal SNP placement."
+        ],
+        [
+          "4",
+          "Wm Farrier and Susanna Abell line Philadelphia marriage reported in 1796 · match B",
+          "Y-111 · R-M269",
+          "Not available",
+          "Independent tester from the same reported Farrier pedigree; Big Y is needed."
+        ],
+        [
+          "5",
+          "Reported William c.1655 line Scotland · historical root not independently proved",
+          "Big Y · R-FT20271",
+          "3 of 650",
+          "Adjacent FT20271 singleton in the current STR topology."
+        ],
+        [
+          "5",
+          "Henry Ferrier, born c.1758 Woodnesborough, Kent",
+          "Y-111 · R-M269",
+          "Not available",
+          "Third close Farrier/Ferrier lead; terminal SNP is unknown."
+        ],
+        [
+          "5",
+          "Glasgow line No earliest paternal ancestor reported",
+          "Y-111 · R-M269",
+          "Not available",
+          "Useful surname match, but presently has no genealogical anchor."
+        ],
+        [
+          "6",
+          "James M. Glasgow, 1799–1875 through son Glasgow-2182 · confirmed FTE32242 test A",
+          "Big Y · R-FTE32242",
+          "4 of 666",
+          "First of two son-lines placing the SNP under Glasgow-193."
+        ],
+        [
+          "6",
+          "Robert Glasgow, 1749–1839 Glasgow-12 · basal descendant test 200475",
+          "Big Y · R-FT20271",
+          "7 of 622",
+          "Same reported root as the FTE32242 tests, but this descendant line remains basal FT20271."
+        ],
+        [
+          "6",
+          "Robert Glasgow, 1749–1839 Northern Ireland · marker-only test",
+          "Y-111 · R-Z18",
+          "Not available",
+          "Same reported pedigree as FTE32242 testers; terminal placement remains unconfirmed."
+        ],
+        [
+          "7",
+          "James M. Glasgow, 1799–1875 through son Glasgow-192 · confirmed FTE32242 test B",
+          "Big Y · R-FTE32242",
+          "4 of 659",
+          "Second son-line independently confirms the child SNP under Glasgow-193."
+        ],
+        [
+          "7",
+          "Documented William Glasgow branch Robert Glasgow-12 descendant · final link verified in the 1950 census",
+          "Big Y · R-FT20271",
+          "5 of 660",
+          "Shares FT6135 with Robert's John M. branch, but the call conflicts with its absence in the James M. lines."
+        ],
+        [
+          "8",
+          "Alexander Churnside, 1838–1873 Jamaica",
+          "Big Y · R-FTA30932",
+          "11 of 632",
+          "A different named Big Y branch: deeper paternal kin, not part of FT20271."
+        ],
+        [
+          "9",
+          "Henry Glasgo, 1774–1849 Glasgo-21 · Jeremiah's grandson",
+          "Big Y · R-FT25406",
+          "4 of 656",
+          "Confirmed upstream branch; not a terminal FT20271 result."
+        ],
+        [
+          "9",
+          "Henry Glasgo, 1774–1849 Glasgo-21 · second reported descendant test",
+          "Y-111 · R-M269",
+          "Not available",
+          "Second test associated with the Henry Glasgo pedigree; needs Big Y."
+        ],
+        [
+          "9",
+          "Phillips line No earliest paternal ancestor reported",
+          "Y-111 · R-M269",
+          "Not available",
+          "Unplaced non-surname STR match."
+        ],
+        [
+          "10",
+          "Dixon Brown, 1758–1828 Virginia to Kentucky",
+          "Big Y · R-FTA30932",
+          "11 of 665",
+          "Same non-FT20271 branch as the Churnside test."
+        ],
+        [
+          "10",
+          "Robert Glasgow, c.1710–after 1772 Northern Ireland · spouse Rachel Wilson",
+          "Y-111 · R-M269",
+          "Not available",
+          "Highest-value documented East Antrim line for a Big Y upgrade."
+        ]
+      ]
+    ]
+  },
+  "historicalModel": {
+    "source": "S9",
+    "status": "Project-led historical reconstruction, not a measured migration date",
+    "preferredArrival": {
+      "start": 1066,
+      "end": 1150,
+      "label": "Late 11th–early 12th century",
+      "basis": "Project preference combining reported medieval branch ages, later paternal-root geography and the proposed Anglo-Norman setting. No posterior probabilities or formal migration interval are calculated."
+    },
+    "parentByBranch": {
+      "R-FTC49014": "R-S14827",
+      "R-FT4811": "R-FTC49014",
+      "R-FTA30932": "R-FT4811",
+      "R-FT32941": "R-FT4811",
+      "R-FT25406": "R-FT32941",
+      "R-FT20271": "R-FT25406",
+      "R-FTE32242": "R-FT20271"
+    },
+    "aliases": {
+      "FTA35069": "R-FT32941"
+    },
+    "topologyNote": "The medieval fork is established in the supplied timeline. The FTC49014 connecting node is retained as timeline-reported; a fresh full-tree refresh was not available. Collateral lines are not inserted into the main Glasgow descent path.",
+    "ages": [
+      {
+        "id": "R-S14827",
+        "year": 379,
+        "low": -72,
+        "high": 741,
+        "kind": "TMRCA",
+        "label": "Northern sister-line split",
+        "detail": "379 CE · reported 95%: 72 BCE–741 CE",
+        "lines": "1464–1483"
+      },
+      {
+        "id": "R-FTC49014",
+        "year": 500,
+        "low": null,
+        "high": null,
+        "kind": "Timeline estimate",
+        "label": "Reported connecting node",
+        "detail": "c.500 CE · range not supplied",
+        "lines": "1668–1674"
+      },
+      {
+        "id": "R-FT4811",
+        "year": 1044,
+        "low": 697,
+        "high": 1313,
+        "kind": "TMRCA",
+        "label": "Shared medieval parent",
+        "detail": "1044 CE · reported 95%: 697–1313",
+        "lines": "1562–1580"
+      },
+      {
+        "id": "R-FT32941",
+        "year": 1044,
+        "low": 697,
+        "high": 1313,
+        "kind": "Repeated TMRCA estimate",
+        "label": "Duffield / Glasgow path",
+        "detail": "1044 CE · same reported range as parent",
+        "lines": "1707–1715"
+      },
+      {
+        "id": "R-FTA30932",
+        "year": 1120,
+        "low": null,
+        "high": null,
+        "kind": "Timeline branch label",
+        "label": "Churnside / Brown collateral",
+        "detail": "c.1120 CE · timeline label, no range",
+        "lines": "1578–1580"
+      },
+      {
+        "id": "R-FT25406",
+        "year": 1431,
+        "low": 1199,
+        "high": 1608,
+        "kind": "TMRCA",
+        "label": "Glasgow / Glasgo cluster",
+        "detail": "1431 CE · reported 95%: 1199–1608",
+        "lines": "1812–1821"
+      },
+      {
+        "id": "R-FT20271",
+        "year": 1583,
+        "low": 1387,
+        "high": 1728,
+        "kind": "TMRCA",
+        "label": "Scotland / Ulster / Atlantic",
+        "detail": "1583 CE · reported 95%: 1387–1728",
+        "lines": "1946–1951"
+      }
+    ],
+    "stages": [
+      {
+        "id": "north-sea",
+        "year": "c.2050 BCE–350 CE",
+        "short": "Northern family",
+        "title": "The older family belongs to the North Sea world.",
+        "summary": "The deep Z17–S20045 ancestry provides the long background. The more focused clue is S14827’s northern sister lines, which keep the Glasgow story connected to a wider Scandinavian and North Sea family.",
+        "genetic": "The source path runs Z17 → S20045 → BY139800 → S14827. Its long, sparsely branching stretch is the starting point for the timeline’s survival-and-expansion narrative.",
+        "geography": "The later BY61198 and BY136156 sister lines include Swedish, Danish and Norwegian paternal roots. These give the project specific cousin branches to compare with the path towards Britain.",
+        "reading": "Picture several related paternal lines developing within a sea-connected northern world. Some later family histories remain Scandinavian; another part of the tree eventually supplies the British-linked branches. That contrast matters more to the route question than any single broad haplogroup label.",
+        "next": "Earlier sourced paternal places and new, well-resolved basal cousins can refine where the branches were rooted.",
+        "anchor": "R-Z17",
+        "sources": [
+          "S9"
+        ]
+      },
+      {
+        "id": "early-medieval",
+        "year": "c.350–1000 CE",
+        "short": "The connecting generations",
+        "title": "The connecting branch is where the journey belongs.",
+        "summary": "S14827 and the timeline’s FTC49014 node connect the older northern family to FT4811. This is the genetic stretch across which the project explores direct North Sea movement and a longer route through Normandy.",
+        "genetic": "S14827 is estimated around 379 CE, with a reported range of 72 BCE–741 CE. FTC49014 is labelled around 500 CE. The tree gives these generations a place even when the family records have not survived.",
+        "geography": "A direct early British crossing, Norse-era movement and continental settlement before a Norman-era arrival all start within the broader northern geography described by the timeline.",
+        "reading": "A family split and a migration can be separated by many generations. The useful task is to reconstruct the geographic history of the descendant branch: which cousins stayed nearby, which developed elsewhere, and where later families first enter the record.",
+        "next": "Compare the earliest places associated with lines close to FTC49014 and FT4811, including continental as well as British roots.",
+        "anchor": "R-S14827",
+        "sources": [
+          "S9"
+        ]
+      },
+      {
+        "id": "britain",
+        "year": "c.1000–1150",
+        "short": "British branches",
+        "title": "The medieval fork produces several later surnames.",
+        "summary": "FT4811 brings together the tested ancestors of Churnside/Brown, Glasgow and the Wright line. A separate project page reports a Duffield line on FT32941, but its kit identity, placement evidence and pedigree are not present in this dataset.",
+        "genetic": "FT4811 is estimated around 1044 CE, with the source’s 95% range of 697–1313. FTA30932 and FT32941 are different child branches; Glasgow continues on the FT32941 side.",
+        "geography": "Duffield Castle supplies a genuine de Ferrers setting in Derbyshire, but Roger de Duffeld’s inspected record is a 1194 Yorkshire Pipe Roll entry and his locative could derive from North or South Duffield. Churnside’s Berwickshire lead, Brown’s American root and Wright’s later London anchor remain separate paper trails.",
+        "reading": "The genetic fork reconnects modern paternal lines; it does not identify their medieval surnames or households. The Norman/Ferrers route remains one mechanism to test alongside earlier British and Norse alternatives. The modern Farrier/Ferrier STR matches are a separate question from the medieval de Ferrers family.",
+        "next": "Verify the reported Duffield FT32941 result and pedigree, inspect collateral roots, and use a Big Y upgrade to place one of the three Farrier/Ferrier Y-111 matches.",
+        "anchor": "R-FT4811",
+        "sources": [
+          "S9",
+          "S11",
+          "S14"
+        ]
+      },
+      {
+        "id": "scotland",
+        "year": "c.1100–1500",
+        "short": "The Glasgow identity",
+        "title": "The paternal path narrows into the Scottish surname.",
+        "summary": "FT32941 is ancestral to FT25406, which gathers the tested Glasgow/Glasgo lines. The documentary audit asks whether English-associated church or burgh networks can explain the Scottish surname without treating the reported Duffield placement as already verified.",
+        "genetic": "FT25406 has an estimated common ancestor around 1431, with a reported range of 1199–1608. It gives the wider Glasgow family an older shared node above the FT20271 lines.",
+        "geography": "Master John of Huntingdon served in Bishop Jocelin’s Glasgow household, where Roger de Glasgu already used the locative in the same charter. Later records place separate Glasgow bearers in church, royal, burgh and property settings from 1259 to 1506.",
+        "reading": "John of Huntingdon demonstrates a real English-associated clerical route into Glasgow, but his contemporary Roger de Glasgu prevents a simple ‘John changed his name’ story. At the later end, the Glasgow burgess of 1447–1455, the Stirling witness of 1475–1479/80, John alias Smith in 1506 and the Saltmarket holder from 1527 remain separate identities until property or kinship connects them.",
+        "next": "Seek explicit kinship or title succession. Obtain BL/204 in full, keep the 1506 alias rent separate from the 1527 Saltmarket parcel, and test the reported Duffield DNA placement independently.",
+        "anchor": "R-FT25406",
+        "sources": [
+          "S9",
+          "S15",
+          "S16",
+          "S17"
+        ]
+      },
+      {
+        "id": "ulster",
+        "year": "c.1500–1750",
+        "short": "Across the North Channel",
+        "title": "The younger family connects Scotland and Ulster.",
+        "summary": "FT20271 gathers the tested lines behind several Scottish, Ulster and American family histories. Its early-modern age gives those later movements a common paternal context.",
+        "genetic": "FT20271, FGC5690 and FT16542 form the supplied block. The common-ancestor estimate is 1583, with a reported range of 1387–1728. Five tests remain at this level and two share the younger FTE32242 branch.",
+        "geography": "The reported roots include County Antrim, Derry and Scotland. Different families can remain, move between Scotland and Ulster, or cross the Atlantic in later generations.",
+        "reading": "Think of a family expanding through several households rather than one traveller following every later route. The genetic node brings their histories into the same frame; individual papers can explain how religion, land, work and relatives shaped each movement.",
+        "next": "Place the older Kilwaughter lines with SNP tests and compare them with the known Antrim and Derry branches.",
+        "anchor": "R-FT20271",
+        "sources": [
+          "S9",
+          "S0"
+        ]
+      },
+      {
+        "id": "atlantic",
+        "year": "c.1700–1900",
+        "short": "The tested families",
+        "title": "The large historical picture becomes a set of named family questions.",
+        "summary": "The American and Ulster descendants now give the project actual family structures to compare: the Alexander–James J pairing, the Robert-1749 family and the older Henry Glasgo split.",
+        "genetic": "Alexander and James J share the DYS714=27 pattern. Robert’s four tests share a three-marker signature, and FTE32242 resolves the James M. branch within his reported pedigree.",
+        "geography": "The source follows separate American roots through South Carolina, Pennsylvania, Ohio and other destinations, alongside the Antrim-to-Scotland reference line. Each location opens a different set of family records.",
+        "reading": "The Atlantic dispersal separates relatives geographically but gives the research more descendant branches to test. A shared variant recovered through two well-traced lines can bring a missing ancestor’s part of the family into focus.",
+        "next": "Compare the existing close-match bundles and recruit descendants who branch at useful earlier generations.",
+        "anchor": "R-FT20271",
+        "sources": [
+          "S9",
+          "S0"
+        ]
+      }
+    ]
+  }
+}

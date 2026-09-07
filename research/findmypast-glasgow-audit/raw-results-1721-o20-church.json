@@ -1,0 +1,51 @@
+{
+  "query": {
+    "surname": "Glasgow",
+    "surname_variants": false,
+    "place": null,
+    "covered_years": [
+      1701,
+      1741
+    ],
+    "eventyear": 1721,
+    "eventyear_offset": 20,
+    "url": "https://www.findmypast.co.uk/search/results?eventyear=1721&eventyear_offset=20&lastname=glasgow&sourcecategory=churches%20%26%20religion&sid=999",
+    "partition_type": "sourcecategory",
+    "partition_group": "1721-o20",
+    "sourcecategory": "churches & religion",
+    "partition_group_id": "1721-o20-church"
+  },
+  "started_at": "2026-09-03T20:06:35.990Z",
+  "completed_at": "2026-09-03T20:06:35.990Z",
+  "displayed_total": 1,
+  "expected_pages": 1,
+  "captured_pages": 1,
+  "captured_rows": 1,
+  "reconciled": true,
+  "pages": [
+    {
+      "page": 1,
+      "url": "https://www.findmypast.co.uk/search/results?eventyear=1721&eventyear_offset=20&lastname=glasgow&sourcecategory=churches+%26+religion&sid=999",
+      "captured_at": "2026-09-03T20:06:35.990Z",
+      "rows": [
+        {
+          "event_year": "—",
+          "first_name": "—",
+          "last_name": "Emoved To 45 Cathkin Road, Langside, Glasgow\"",
+          "links": [
+            {
+              "label": "View transcript",
+              "url": "https://www.findmypast.co.uk/transcript?id=IRE%2FQUAKER%2FPOUR1%2FCONG%2F014181"
+            }
+          ],
+          "location": "Ireland",
+          "record_id": "IRE/QUAKER/POUR1/CONG/014181",
+          "record_set": "Ireland, Society Of Friends (Quaker) Congregational Records",
+          "subscription_locked": false,
+          "year_of_birth": "—",
+          "year_of_death": "—"
+        }
+      ]
+    }
+  ]
+}

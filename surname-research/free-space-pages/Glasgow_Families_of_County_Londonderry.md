@@ -39,11 +39,11 @@ Older Adam Glasgow + Maria Unknown
 └── John Glasgow (1767–1851), probably the 1831 Inishrush John
 </pre>
 
-[[Glasgow-3902|Adam Glasgow]] and [[Glasgow-3927|John Glasco]], probably the same man as [[Glasgow-822|John Glasgow born in 1767]], are best treated as '''probable brothers or close cousins'''. No inspected record calls them brothers or names their shared parents. Adam cannot have been John's father because Adam was only about nine years older.
+[[Glasgow-3902|Adam Glasgow]] and [[Glasgow-3927|John Glasco]], probably the same man as [[Glasgow-822|John Glasgow born in 1767]], are best treated as '''possible brothers or cousins'''. No inspected record calls them brothers or names their shared parents. Adam cannot have been John's father because Adam was only about nine years older.
 
 An older Adam and Maria are the best working names for their parents because John's sons were Adam, James, John and Arthur, while Maria was his second daughter. The order fits the traditional Scottish pattern of paternal grandfather, maternal grandfather and father for the first three sons, with Maria in the paternal-grandmother position.<ref name="NamingPattern">[https://www.scotlandspeople.gov.uk/help-and-support/guides/forenames Scotland's People, "Forenames: traditional naming patterns"], accessed 20 July 2026.</ref> Naming patterns are clues, not proof.
 
-The wider evidence makes a connection with [[Glasgow-548|Hugh Glasgow's]] extended local family highly probable, but no source identifies the intervening father or exact degree of kinship.
+The wider evidence makes a connection with [[Glasgow-548|Hugh Glasgow's]] extended local family worth testing, but no source identifies the intervening father or exact degree of kinship.
 
 == Geographic focus ==
 
@@ -128,7 +128,7 @@ The wider evidence makes a connection with [[Glasgow-548|Hugh Glasgow's]] extend
 |-
 | 1831
 | '''John Glasco, Inishrush house 2'''
-| Headed a household of four males and four females, all Presbyterian. '''Adam Glasco, Inishrush house 91''', separately headed three males and five females, all Presbyterian.<ref name="Census1831">[https://genealogy.torrens.org/BannValley/church/Tamlaght/1831census_3.html Tamlaght O'Crilly 1831 census transcription], entry 1019; and W. Macafee, [https://www.billmacafee.com/1831census/1831derrycensusnames.pdf County Londonderry name index], accessed 20 July 2026.</ref>
+| Headed a household of four males and four females. '''Adam Glasco, Inishrush house 91''', separately headed three males and five females. MacAfee transcribes the households as Presbyterian while Torrens places the figures under Roman Catholic; the original return is required.<ref name="Census1831">[https://genealogy.torrens.org/BannValley/church/Tamlaght/1831census_3.html Tamlaght O'Crilly 1831 census transcription], entry 1019; and W. Macafee, [https://www.billmacafee.com/1831census/1831derrycensusnames.pdf County Londonderry name index], accessed 20 July 2026.</ref>
 | ✅ Two separate same-townland households. Census states no relationship and house numbers do not show immediate neighbours.
 |-
 | 1831

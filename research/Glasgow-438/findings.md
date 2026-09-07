@@ -1,6 +1,6 @@
 # Findings: [Ann (Glasgow) McCracken (Glasgow-438)](https://www.wikitree.com/wiki/Glasgow-438)
 
-Last updated: 2026-08-13
+Last updated: 2026-09-05
 
 ## Current conclusion
 
@@ -9,6 +9,10 @@ Glasgow in Lisnagaver in 1851. On 13 October 1876 she married Robert McCracken
 at Ballymoney. The register calls her a full-age spinster of Lisnagaver and
 names her father as **Alexander Glasgow, labourer**. This also corrects the
 profile's birthplace from Lisnagarvey/Lisburn to **Lisnagaver, County Antrim**.
+The occupational wording does not contradict Alexander's earlier description
+as a farmer; later records can describe the same man by changed work or status.
+The Nancy who informed Alexander's probable 1888 death may be Ann, but no record
+yet proves that identity.
 
 Their only presently identified child, William James McCracken, was born at
 Lisnagaver on 21 September 1877. He died there the next day from debility from
@@ -59,7 +63,7 @@ John McCrackine at Carnfinton, 1834          [possible earlier generation]
 James William–Elizabeth is directly reinforced by a cross-witness, while the
 Alexander Marks witness may connect James to Mary Ann's Mark in-laws. If
 William proves to have been Thomas's wife Mary Ann's brother, Ann Glasgow—whose
-father Alexander is Thomas's probable brother—married Mary Ann's nephew. That
+father Alexander is Thomas's possible brother or cousin—married Mary Ann's nephew. That
 would be unusually specific evidence of two Glasgow households marrying within
 one extended Carnfinton McCracken family. It would materially strengthen the
 Alexander–Thomas kin-network case, although it would not alone prove that the

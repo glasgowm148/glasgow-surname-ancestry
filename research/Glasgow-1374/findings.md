@@ -31,3 +31,35 @@ as mother.
 represents Robert's father, the Edinburgh weaver. The structured parents,
 baptism, apprenticeship and identity caution are present. No material item from
 this handoff remains to be transferred.
+
+<!-- BEGIN FMP-GLASGOW-fmp-glasgow-f4c8806b0c68 -->
+## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-f4c8806b0c68
+
+The transcript-validated apprenticeship record for **Robert Glasgow**, 24 Jan 1672, Edinburgh, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
+
+## Source findings
+
+- [SCOT/EDINBURGH/APPRENTICES/0005162/1 Findmypast transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FEDINBURGH%2FAPPRENTICES%2F0005162%2F1&tab=this): Apprentice first name: Robert; Apprentice last name: Glasgow; Category: Education & work; Collections from: Great Britain, Scotland; Country: Scotland; County: Midlothian; Event date: 24 Jan 1672; Father first name: James; Father last name: Glasgow; Father occupation: Weaver; First name(s): Robert; Last name: Glasgow; Master first name: Robert; Master last name: Meane; Place: Edinburgh; Record set: Scotland, Edinburgh Apprentices 1583-1800; Role: Apprentice; Subcategory: Apprentices; Trade: Merchant; Year: 1672 (captured 2026-09-03T21:36:01.802Z).
+- Findmypast record IDs: `SCOT/EDINBURGH/APPRENTICES/0005162/1`.
+- Stable research/source ID: `fmp-glasgow-f4c8806b0c68`.
+
+## Recommended action — fmp-glasgow-f4c8806b0c68
+
+Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
+<!-- END FMP-GLASGOW-fmp-glasgow-f4c8806b0c68 -->
+
+<!-- BEGIN FMP-GLASGOW-fmp-glasgow-a8aad7760cba -->
+## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-a8aad7760cba
+
+The transcript-validated burgess admission record for **Robert Glasgow**, 16 Jan 1684, Edinburgh, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
+
+## Source findings
+
+- [SCOT/BURGESS/1009526 Findmypast transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FBURGESS%2F1009526&tab=this): Additional information: Burgess and Guildbrother, merchant, and servant to the town thesaurer, as p. to Robert Mein, merchant, Burgess and Guildbrother, gratis, by act of Council. of date for good service rendered; Category: Education & work; Collection: Edinburgh Burgesses 1406-1700; Collections from: Great Britain, Scotland; Country: Scotland; County: Midlothian; Date: 16 Jan 1684; First name(s): Robert; Last name: Glasgow; Place: Edinburgh; Record set: Scotland, Burgess & Guild Brethren Index; Subcategory: Guild & Trade Associations; Year: 1684 (captured 2026-09-03T21:36:03.632Z).
+- Findmypast record IDs: `SCOT/BURGESS/1009526`.
+- Stable research/source ID: `fmp-glasgow-a8aad7760cba`.
+
+## Recommended action — fmp-glasgow-a8aad7760cba
+
+Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
+<!-- END FMP-GLASGOW-fmp-glasgow-a8aad7760cba -->

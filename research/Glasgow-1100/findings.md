@@ -30,6 +30,12 @@ do not merge those profiles without an independent identity audit.
 2. Replace the biography link `Steuart-563` with the attached mother [Stewart-65226](https://www.wikitree.com/wiki/Stewart-65226). This is a link correction, not a merge recommendation.
 3. The profile's structured marriage date is **7 April 1632**, while its cited biography gives **4 July 1632**. Recheck OPR 644/1 230/109 and then make the structured date agree with the original; do not silently choose between the transposed dates.
 
+This is a substantive legacy amendment independent of the source-only
+Findmypast addition below. A complete replacement preserving the cited baptism,
+marriage-register reference and burgess evidence is in
+`research/Glasgow-1100/Glasgow-1100.md`; it leaves the unresolved marriage date
+as a research note rather than choosing one value without the register image.
+
 ## Paste-ready WikiTree text
 
 ```wikitext
@@ -37,3 +43,19 @@ Margaret was baptised at Glasgow High Kirk on 6 May 1610 as the lawful daughter 
 
 Her father is independently identified in the burgess admission of her husband, [[Stewart-62608|James Stewart]]. On 18 July 1633 James, a merchant, was admitted burgess and guild brother by right of his marriage to Margaret, lawful daughter of George Glasgow, merchant, burgess and guild brother.<ref>James R. Anderson, ed., ''Burgesses & Guild Brethren of Glasgow, 1573-1750'' (Edinburgh: Scottish Record Society, 1925), p. 86, [https://archive.org/details/scottishrecordso43scotuoft/page/n100/mode/2up entry for James Stewart, 18 July 1633].</ref>
 ```
+
+<!-- BEGIN FMP-GLASGOW-fmp-glasgow-e1d691461260 -->
+## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-e1d691461260
+
+The transcript-validated baptism record for **Margaret Glasgow**, 06 May 1610, Glasgow, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
+
+## Source findings
+
+- [R_693716335 Findmypast transcript](https://www.findmypast.co.uk/transcript?id=R_693716335&tab=this): Baptism date: 06 May 1610; Baptism place: HIGH CHURCH,GLASGOW,LANARK,SCOTLAND; Baptism year: 1610; Birth year: 1610; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Lanarkshire; Father's first name(s): George; Father's last name: Glasgow; First name(s): Margaret; Last name: Glasgow; Mother's first name(s): Margrat; Mother's last name: Steuart; Place: Glasgow; Record set: Scotland, Parish Births & Baptisms 1564-1929; Sex: Female; Subcategory: Parish Baptisms (captured 2026-09-03T21:33:41.886Z).
+- Findmypast record IDs: `R_693716335`.
+- Stable research/source ID: `fmp-glasgow-e1d691461260`.
+
+## Recommended action — fmp-glasgow-e1d691461260
+
+Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
+<!-- END FMP-GLASGOW-fmp-glasgow-e1d691461260 -->

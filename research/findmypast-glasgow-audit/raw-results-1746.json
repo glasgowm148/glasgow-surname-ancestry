@@ -1,0 +1,444 @@
+{
+  "query": {
+    "surname": "Glasgow",
+    "surname_variants": false,
+    "place": null,
+    "covered_years": [
+      1741,
+      1751
+    ],
+    "requested_in_scope_years": [
+      1741,
+      1750
+    ],
+    "url": "https://www.findmypast.co.uk/search/results?eventyear=1746&eventyear_offset=5&lastname=glasgow",
+    "eventyear": 1746,
+    "eventyear_offset": 5,
+    "partition_group_id": "1746-o5",
+    "sourcecategory_facets": {
+      "life events (bmds)": 1102,
+      "census, land & surveys": 1,
+      "churches & religion": 2,
+      "newspapers, directories & social history": 1140,
+      "education & work": 852,
+      "institutions & organisations": 15,
+      "armed forces & conflict": 237,
+      "travel & migration": 2537
+    },
+    "facet_retrieval_notes": {
+      "travel & migration": "Parent pages 1–75 retained. Country narrowing leaves all 2,537 hits in United States; 1743±2 still returns 2,528, so no available date/country child falls below 1,500."
+    }
+  },
+  "started_at": "2026-09-03T21:20:18.520Z",
+  "completed_at": null,
+  "displayed_total": 5886,
+  "expected_pages": 295,
+  "captured_pages": 1,
+  "captured_rows": 20,
+  "reconciled": false,
+  "pages": [
+    {
+      "page": 1,
+      "url": "https://www.findmypast.co.uk/search/results?eventyear=1746&eventyear_offset=5&lastname=glasgow",
+      "captured_at": "2026-09-03T21:20:18.520Z",
+      "rows": [
+        {
+          "event_year": "—",
+          "first_name": "—",
+          "last_name": "Glasgow",
+          "links": [
+            {
+              "label": "View transcript",
+              "url": "https://www.findmypast.co.uk/transcript?id=US%2FGPC%2F00633657"
+            },
+            {
+              "label": "View image",
+              "url": "https://search.findmypast.co.uk/record?id=US%2FGPC%2FIMAGES%2F9780806313436%2F0367&parentid=US%2FGPC%2F00633657"
+            }
+          ],
+          "location": "Nova Scotia, Canada",
+          "record_id": "US/GPC/00633657",
+          "record_set": "United States, Transatlantic Migration Indexes",
+          "subscription_locked": false,
+          "year_of_birth": "—",
+          "year_of_death": "—"
+        },
+        {
+          "event_year": "—",
+          "first_name": "—",
+          "last_name": "Glasgow",
+          "links": [
+            {
+              "label": "View transcript",
+              "url": "https://www.findmypast.co.uk/transcript?id=IRE%2FNAI%2FGENABS%2F00400857%2F1"
+            },
+            {
+              "label": "View image",
+              "url": "https://search.findmypast.co.uk/record?id=S2%2FIRE%2FNAI%2F007634676%2F00572&parentid=IRE%2FNAI%2FGENABS%2F00400857%2F1"
+            }
+          ],
+          "location": "Ireland",
+          "record_id": "IRE/NAI/GENABS/00400857/1",
+          "record_set": "Betham Genealogical Abstracts",
+          "subscription_locked": false,
+          "year_of_birth": "—",
+          "year_of_death": "—"
+        },
+        {
+          "event_year": "—",
+          "first_name": "—",
+          "last_name": "Glasgow",
+          "links": [
+            {
+              "label": "View transcript",
+              "url": "https://www.findmypast.co.uk/transcript?id=IRE%2FNAI%2FGENABS%2F00612100%2F1"
+            },
+            {
+              "label": "View image",
+              "url": "https://search.findmypast.co.uk/record?id=S2%2FIRE%2FNAI%2F007634819%2F00363&parentid=IRE%2FNAI%2FGENABS%2F00612100%2F1"
+            }
+          ],
+          "location": "Ireland",
+          "record_id": "IRE/NAI/GENABS/00612100/1",
+          "record_set": "Crossle Genealogical Abstracts",
+          "subscription_locked": false,
+          "year_of_birth": "—",
+          "year_of_death": "—"
+        },
+        {
+          "event_year": "—",
+          "first_name": "—",
+          "last_name": "Glasgow",
+          "links": [
+            {
+              "label": "View transcript",
+              "url": "https://www.findmypast.co.uk/transcript?id=IRE%2FNAI%2FGENABS%2F00859808%2F1"
+            },
+            {
+              "label": "View image",
+              "url": "https://search.findmypast.co.uk/record?id=S2%2FIRE%2FNAI%2F007634839%2F00342&parentid=IRE%2FNAI%2FGENABS%2F00859808%2F1"
+            }
+          ],
+          "location": "Ireland",
+          "record_id": "IRE/NAI/GENABS/00859808/1",
+          "record_set": "Crossle Genealogical Abstracts",
+          "subscription_locked": false,
+          "year_of_birth": "—",
+          "year_of_death": "—"
+        },
+        {
+          "event_year": "—",
+          "first_name": "—",
+          "last_name": "Glasgow",
+          "links": [
+            {
+              "label": "View transcript",
+              "url": "https://www.findmypast.co.uk/transcript?id=IRE%2FNAI%2FGENABS%2F00325438%2F1"
+            },
+            {
+              "label": "View image",
+              "url": "https://search.findmypast.co.uk/record?id=S2%2FIRE%2FNAI%2F007634618%2F00726&parentid=IRE%2FNAI%2FGENABS%2F00325438%2F1"
+            }
+          ],
+          "location": "Ireland",
+          "record_id": "IRE/NAI/GENABS/00325438/1",
+          "record_set": "Betham Genealogical Abstracts",
+          "subscription_locked": false,
+          "year_of_birth": "—",
+          "year_of_death": "—"
+        },
+        {
+          "event_year": "—",
+          "first_name": "—",
+          "last_name": "Glasgow",
+          "links": [
+            {
+              "label": "View transcript",
+              "url": "https://www.findmypast.co.uk/transcript?id=US%2FFS%2FM%2F012884515%2F2"
+            },
+            {
+              "label": "View image",
+              "url": "https://search.findmypast.co.uk/record?id=https%3A%2F%2Ffamilysearch.org%2Fpal%3A%2FMM9.3.1%2FTH-1-159393-562115-15&parentid=US%2FFS%2FM%2F012884515%2F2"
+            }
+          ],
+          "location": "Alfalfa, Oklahoma, United States",
+          "record_id": "US/FS/M/012884515/2",
+          "record_set": "United States Marriages",
+          "subscription_locked": false,
+          "year_of_birth": "—",
+          "year_of_death": "—"
+        },
+        {
+          "event_year": "—",
+          "first_name": "—",
+          "last_name": "Glasgow",
+          "links": [
+            {
+              "label": "View transcript",
+              "url": "https://www.findmypast.co.uk/transcript?id=US%2FFS%2FM%2F012883651%2F1"
+            },
+            {
+              "label": "View image",
+              "url": "https://search.findmypast.co.uk/record?id=https%3A%2F%2Ffamilysearch.org%2Fpal%3A%2FMM9.3.1%2FTH-1-159393-562064-3&parentid=US%2FFS%2FM%2F012883651%2F1"
+            }
+          ],
+          "location": "Alfalfa, Oklahoma, United States",
+          "record_id": "US/FS/M/012883651/1",
+          "record_set": "United States Marriages",
+          "subscription_locked": false,
+          "year_of_birth": "—",
+          "year_of_death": "—"
+        },
+        {
+          "event_year": "—",
+          "first_name": "—",
+          "last_name": "Glasgow",
+          "links": [
+            {
+              "label": "View transcript",
+              "url": "https://www.findmypast.co.uk/transcript?id=US%2FFS%2FM%2F007641796%2F1"
+            },
+            {
+              "label": "View image",
+              "url": "https://search.findmypast.co.uk/record?id=https%3A%2F%2Ffamilysearch.org%2Fpal%3A%2FMM9.3.1%2FTH-1-9999-9767-50&parentid=US%2FFS%2FM%2F007641796%2F1"
+            }
+          ],
+          "location": "Bourbon, Kentucky, United States",
+          "record_id": "US/FS/M/007641796/1",
+          "record_set": "United States Marriages",
+          "subscription_locked": false,
+          "year_of_birth": "—",
+          "year_of_death": "—"
+        },
+        {
+          "event_year": "—",
+          "first_name": "—",
+          "last_name": "Glasgow",
+          "links": [
+            {
+              "label": "View transcript",
+              "url": "https://www.findmypast.co.uk/transcript?id=US%2FFS%2FM%2F025241258%2F2"
+            },
+            {
+              "label": "View image",
+              "url": "https://search.findmypast.co.uk/record?id=https%3A%2F%2Ffamilysearch.org%2Fpal%3A%2FMM9.3.1%2FTH-267-11827-121889-42&parentid=US%2FFS%2FM%2F025241258%2F2"
+            }
+          ],
+          "location": "Philadelphia, Pennsylvania, United States",
+          "record_id": "US/FS/M/025241258/2",
+          "record_set": "United States Marriages",
+          "subscription_locked": false,
+          "year_of_birth": "—",
+          "year_of_death": "—"
+        },
+        {
+          "event_year": "—",
+          "first_name": "—",
+          "last_name": "Glasgow",
+          "links": [
+            {
+              "label": "View transcript",
+              "url": "https://www.findmypast.co.uk/transcript?id=US%2FFS%2FM%2F025115812%2F2"
+            },
+            {
+              "label": "View image",
+              "url": "https://search.findmypast.co.uk/record?id=https%3A%2F%2Ffamilysearch.org%2Fpal%3A%2FMM9.3.1%2FTH-267-11046-78930-0&parentid=US%2FFS%2FM%2F025115812%2F2"
+            }
+          ],
+          "location": "Philadelphia, Pennsylvania, United States",
+          "record_id": "US/FS/M/025115812/2",
+          "record_set": "United States Marriages",
+          "subscription_locked": false,
+          "year_of_birth": "—",
+          "year_of_death": "—"
+        },
+        {
+          "event_year": "—",
+          "first_name": "—",
+          "last_name": "Glasgow",
+          "links": [
+            {
+              "label": "View transcript",
+              "url": "https://www.findmypast.co.uk/transcript?id=US%2FFS%2FM%2F025478296%2F1"
+            },
+            {
+              "label": "View image",
+              "url": "https://search.findmypast.co.uk/record?id=https%3A%2F%2Ffamilysearch.org%2Fpal%3A%2FMM9.3.1%2FTH-266-11762-148911-81&parentid=US%2FFS%2FM%2F025478296%2F1"
+            }
+          ],
+          "location": "Philadelphia, Pennsylvania, United States",
+          "record_id": "US/FS/M/025478296/1",
+          "record_set": "United States Marriages",
+          "subscription_locked": false,
+          "year_of_birth": "—",
+          "year_of_death": "—"
+        },
+        {
+          "event_year": "—",
+          "first_name": "—",
+          "last_name": "Glasgow",
+          "links": [
+            {
+              "label": "View transcript",
+              "url": "https://www.findmypast.co.uk/transcript?id=US%2FFS%2FM%2F085281688%2F1"
+            },
+            {
+              "label": "View image",
+              "url": "https://search.findmypast.co.uk/record?id=https%3A%2F%2Ffamilysearch.org%2Fpal%3A%2FMM9.3.1%2FTH-1942-22012-10464-12&parentid=US%2FFS%2FM%2F085281688%2F1"
+            }
+          ],
+          "location": "San Francisco, California, United States",
+          "record_id": "US/FS/M/085281688/1",
+          "record_set": "United States Marriages",
+          "subscription_locked": false,
+          "year_of_birth": "—",
+          "year_of_death": "—"
+        },
+        {
+          "event_year": "—",
+          "first_name": "—",
+          "last_name": "Glasgow",
+          "links": [
+            {
+              "label": "View transcript",
+              "url": "https://www.findmypast.co.uk/transcript?id=US%2FFS%2FM%2F085512065%2F1"
+            },
+            {
+              "label": "View image",
+              "url": "https://search.findmypast.co.uk/record?id=https%3A%2F%2Ffamilysearch.org%2Fpal%3A%2FMM9.3.1%2FTH-1951-22012-39509-27&parentid=US%2FFS%2FM%2F085512065%2F1"
+            }
+          ],
+          "location": "San Francisco, California, United States",
+          "record_id": "US/FS/M/085512065/1",
+          "record_set": "United States Marriages",
+          "subscription_locked": false,
+          "year_of_birth": "—",
+          "year_of_death": "—"
+        },
+        {
+          "event_year": "—",
+          "first_name": "—",
+          "last_name": "Glasgow",
+          "links": [
+            {
+              "label": "View transcript",
+              "url": "https://www.findmypast.co.uk/transcript?id=US%2FFS%2FM%2F085294276%2F1"
+            },
+            {
+              "label": "View image",
+              "url": "https://search.findmypast.co.uk/record?id=https%3A%2F%2Ffamilysearch.org%2Fpal%3A%2FMM9.3.1%2FTH-1942-22012-11259-13&parentid=US%2FFS%2FM%2F085294276%2F1"
+            }
+          ],
+          "location": "San Francisco, California, United States",
+          "record_id": "US/FS/M/085294276/1",
+          "record_set": "United States Marriages",
+          "subscription_locked": false,
+          "year_of_birth": "—",
+          "year_of_death": "—"
+        },
+        {
+          "event_year": "—",
+          "first_name": "—",
+          "last_name": "Glasgow",
+          "links": [
+            {
+              "label": "View transcript",
+              "url": "https://www.findmypast.co.uk/transcript?id=R_687013195"
+            }
+          ],
+          "location": "Ayrshire, Scotland",
+          "record_id": "R_687013195",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "subscription_locked": false,
+          "year_of_birth": "1792",
+          "year_of_death": "—"
+        },
+        {
+          "event_year": "—",
+          "first_name": "—",
+          "last_name": "Glasgow",
+          "links": [
+            {
+              "label": "View transcript",
+              "url": "https://www.findmypast.co.uk/transcript?id=R_687016331"
+            }
+          ],
+          "location": "Ayrshire, Scotland",
+          "record_id": "R_687016331",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "subscription_locked": false,
+          "year_of_birth": "1797",
+          "year_of_death": "—"
+        },
+        {
+          "event_year": "—",
+          "first_name": "—",
+          "last_name": "Glasgow",
+          "links": [
+            {
+              "label": "View transcript",
+              "url": "https://www.findmypast.co.uk/transcript?id=R_691882635"
+            }
+          ],
+          "location": "Linlithgowshire (West Lothian), Scotland",
+          "record_id": "R_691882635",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "subscription_locked": false,
+          "year_of_birth": "1797",
+          "year_of_death": "—"
+        },
+        {
+          "event_year": "—",
+          "first_name": "—",
+          "last_name": "Glasgow",
+          "links": [
+            {
+              "label": "View transcript",
+              "url": "https://www.findmypast.co.uk/transcript?id=R_686287158"
+            }
+          ],
+          "location": "Midlothian, Scotland",
+          "record_id": "R_686287158",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "subscription_locked": false,
+          "year_of_birth": "1829",
+          "year_of_death": "1829"
+        },
+        {
+          "event_year": "—",
+          "first_name": "—",
+          "last_name": "Glasgow",
+          "links": [
+            {
+              "label": "View transcript",
+              "url": "https://www.findmypast.co.uk/transcript?id=R_694082635"
+            }
+          ],
+          "location": "Midlothian, Scotland",
+          "record_id": "R_694082635",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "subscription_locked": false,
+          "year_of_birth": "1829",
+          "year_of_death": "1829"
+        },
+        {
+          "event_year": "—",
+          "first_name": "—",
+          "last_name": "Glasgow",
+          "links": [
+            {
+              "label": "View transcript",
+              "url": "https://www.findmypast.co.uk/transcript?id=R_694083942"
+            }
+          ],
+          "location": "Midlothian, Scotland",
+          "record_id": "R_694083942",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "subscription_locked": false,
+          "year_of_birth": "1829",
+          "year_of_death": "1829"
+        }
+      ]
+    }
+  ]
+}

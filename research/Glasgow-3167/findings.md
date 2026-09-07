@@ -1,8 +1,14 @@
 # Findings: Mary Glasgow (Glasgow-3167), probable wife of Robert Elder
 
-Last updated: 2026-08-18
+Last updated: 2026-09-05
 
 ## Current conclusion
+
+The 5 September master review confirms that Mary's original marriage was in the
+Ballymoney registration district, not Ballymena. It directly proves Alexander
+Glasgow, farmer, as her father. Her presence as informant at her mother Mary
+Glasgow's 1892 Gortahar death supplies the strongest bridge to the later Elder
+household.
 
 The original 1871 civil marriage directly identifies Mary Glasgow, aged **28**, of
 Lisnagaver as a daughter of **Alexander Glasgow, farmer**, and wife of Robert

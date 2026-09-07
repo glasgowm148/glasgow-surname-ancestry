@@ -13,9 +13,12 @@ No original record yet links this Robert to Margaret Davidson, to children Chris
 John and James, to William Glasgow and Ann McCook, or to any shipmaster’s
 family context.  
 
-Keep the currently attached possible family relations as **uncertain** and do not
-detach them while the identity remains unresolved. Treat the 1739 Irvine vessel
-trail as the strongest identity lead.
+The unsupported marriage to Margaret Davidson was removed on 2 September 2026
+only after Glasgow-3011 had been attached to her as the uncertain,
+evidence-based candidate for the Glencorse husband. The three older child links
+remain uncertain pending a controlled replacement rather than an unsupported
+detachment. Treat the 1739 Irvine vessel trail as the strongest shipmaster
+identity lead.
 
 Do not merge with [Glasgow-3407](https://www.wikitree.com/wiki/Glasgow-3407); no
 occupational, probate, or familial bridge has been documented.
@@ -23,7 +26,8 @@ occupational, probate, or familial bridge has been documented.
 ## Recommended update
 
 - Do not follow earlier guidance to make confident parent/spouse/child links.
-  Keep any currently present family links as uncertain only (do not detach anything).
+  The unsupported Davidson-20783 marriage has been removed; keep the remaining
+  child links uncertain until each can be replaced in the same correction.
 - Remove confident/assumed vital claims that are not source-backed:
   - “born about 1690”
   - “died 1759/lost at sea”
@@ -106,6 +110,15 @@ Christian in 1708. These records prove the Glencorse family but give no
 occupation, age or parentage for its Robert. They do not connect him to the
 1754 master of the *John and Archibald*. The unsupported Irvine birthplace has
 now been cleared from the live shipmaster profile.
+
+## Relationship correction verified, 2 September 2026
+
+The live profile now has no spouse. Public readback on both Glasgow-2867 and
+Davidson-20783 confirmed that the duplicate marriage was removed at 13:49.
+Davidson-20783 retains only Glasgow-3011 as her uncertain husband. Glasgow-2867
+still has uncertain father links to Christian Glasgow (Glasgow-3492), John
+Glasgow (Glasgow-3491) and James Glasgow (Glasgow-2868); these require a
+separate controlled reparenting rather than leaving any child without a father.
 
 ## Corrected Ireland/US priorities
 

@@ -1,5 +1,9 @@
 # Relationship audit: Glasgow-1022 and the Rasharkin cluster
 
+> **Superseded where inconsistent (5 September 2026):** Alexander-951's
+> parents remain unknown and his relationship to Thomas/Daniel is possible
+> brother or cousin, not probable brotherhood.
+
 Date: 2026-07-17
 
 ## Recommended tentative reconstruction
@@ -129,4 +133,3 @@ sibship, but no record calls him their brother.
 - Do not call the Lisnagaver men a minimum of first cousins as a proved fact.
   The records support **probable close kin**; the proposed cousin structure is
   the best current reconstruction.
-

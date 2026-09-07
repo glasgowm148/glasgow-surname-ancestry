@@ -1,8 +1,14 @@
 # Findings: [James Glasgow (Glasgow-973)](https://www.wikitree.com/wiki/Glasgow-973)
 
-Last updated: 2026-08-18
+Last updated: 2026-09-05
 
 ## Current conclusion
+
+The Rasharkin transcription identifies this second James as born 9 October
+1843 at Lisnagaver and baptised 7 January 1844, a child of Alexander and Mary.
+His presence aged seven in their 1851 household strongly confirms the
+relationship. An earlier James was born in 1837 and probably died before the
+name was reused; the incomplete 1838 baptism entry must not be assigned a name.
 
 The James Glasgow buried at Brookside Cemetery, Tecumseh, Michigan, is now a
 **strong but unproved identity candidate** for Alexander's son. He was born in

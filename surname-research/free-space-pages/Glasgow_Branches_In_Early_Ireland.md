@@ -60,7 +60,7 @@ The coloured symbols identify clusters only; they do not indicate evidence stren
 |-
 | 🟨 '''G. Bann Valley–Killoquin'''
 | [[Glasgow-3896|Daniel]] and [[Glasgow-987|Thomas]] proved brothers; linked Lisnagaver households
-| [[Glasgow-951|Alexander]] is a probable brother; the older parent generation is reconstructed
+| [[Glasgow-951|Alexander]] is a possible brother or cousin; the older parent generation is reconstructed
 | ✅ core relationship / ⚠️ wider topology
 |-
 | 🟧 '''H. Broughshane–Racavan–Clough'''
@@ -335,7 +335,7 @@ Adam and Rose of Inishrush are not placed above the older Alexander. No source i
 
 * ⚠️ '''Working parents:''' [[Glasgow-3904|Alexander Glasgow]], born before about 1778, and Rosanna Unknown, born before about 1780
 ** ✅ [[Glasgow-3896|Daniel Glasgow]], born about 1795/96 — proved brother of Thomas
-** ⚠️ [[Glasgow-951|Alexander Glasgow]], born about 1811 — probable brother of Daniel and Thomas
+** ⚠️ [[Glasgow-951|Alexander Glasgow]], born about 1804–1811 — possible brother or cousin of Daniel and Thomas
 *** ✅ [[Glasgow-938|Robert Glasgow]], born about 1840 — proved son; later migrated to Glasgow, Scotland
 ** ✅ [[Glasgow-987|Thomas Glasgow]], born about 1815 — proved brother of Daniel
 
@@ -465,7 +465,7 @@ Y-DNA evidence should be described at the level it actually supports.
 * The Tamlaght O'Crilly and Derryloran households in 1740 are firmer documentary roots than the traditional William, Cross and Moneymore founder trees.
 * [[Glasgow-2917|Charles]] and [[Glasgow-1026|William Walter]] have Scottish records, but their displayed Irish migrations and descendant chains remain reconstructed.
 * The Kilwaughter/South Carolina nuclear family is secure from [[Glasgow-1143|Robert]] downward; connection to the seventeenth-century East Antrim occurrences is unproved.
-* [[Glasgow-3896|Daniel]] and [[Glasgow-987|Thomas]] are proved brothers. [[Glasgow-951|Alexander]] is their probable brother, not a proved sibling.
+* [[Glasgow-3896|Daniel]] and [[Glasgow-987|Thomas]] are proved brothers. [[Glasgow-951|Alexander]] is a possible brother or cousin, not a proved sibling.
 * [[Glasgow-3904|Older Alexander]] and Rosanna Unknown are useful working parents based on late descendant testimony. Rosanna's surname is not established as Shaw.
 * [[Glasgow-938|Robert]], the proved son of [[Glasgow-951|Alexander]], was the generation that migrated from County Antrim to Glasgow, Scotland.
 * Adam and Rose of Inishrush are not proved parents of the older Alexander; Rose is chronologically excluded as his mother.
@@ -586,7 +586,7 @@ The original late-nineteenth-century family narrative supplies a more specific g
 
 That tradition now has substantial independent geographic corroboration. The 1740 Protestant-householders return contains two adult Hugh Glasgows in Tamlaght O'Crilly. One occurs immediately before Hugh Ellis and James McCullough in a collector sequence containing several surnames independently associated with Inishrush by its 1734 lease.<ref name="Tamlaght1740Order">PRONI T808/15258, Tamlaght O'Crilly Protestant householders, 1740; [https://genealogy.torrens.org/BannValley/books/Kilrea/Kilrea07.html collector-order transcription], entries 1195 and 1272, accessed 20 July 2026; Registry of Deeds memorial 57951, lease of Inishrush dated 29 March 1734, [https://www.irishdeedsindex.net/mem.php?memorial=57951 volunteer abstract].</ref> A Hugh Glasgow was still among the inhabitants of Tamlaght O'Crilly parish who surrendered arms to Henry Ellis of Inishrush in April 1772.<ref name="Tamlaght1772Hugh">''Belfast News-Letter'', 14 April 1772, declaration dated Innisrush, 6 April, [https://arborealis.ca/records/newspapers/kilrea-news/1770-1779/ transcript], accessed 20 July 2026.</ref>
 
-This sequence makes the Hugh-McCullough family a high-probability match to the extended Glasgow cluster later represented by [[Glasgow-3902|Adam Glasgow]] and [[Glasgow-3927|John Glasco]] at Inishrush. It does not prove the intervening father. The late account additionally says that Hugh's younger son's household left many kin in Ireland when it emigrated in August 1796.<ref name="MelanchthonGlasgow" /> The younger John's sons were Adam, James, John and Arthur, with his own name in the traditional third-son position; his second daughter was Maria.<ref name="JohnRegister" /> The cleanest naming reconstruction therefore gives the probable brothers parents called Adam and Maria.
+This sequence makes the Hugh-McCullough family a relevant possible match to the extended Glasgow cluster later represented by [[Glasgow-3902|Adam Glasgow]] and [[Glasgow-3927|John Glasco]] at Inishrush. It does not prove the intervening father or even the exact relationship. The late account additionally says that Hugh's younger son's household left many kin in Ireland when it emigrated in August 1796.<ref name="MelanchthonGlasgow" /> The younger John's sons were Adam, James, John and Arthur, with his own name in the traditional third-son position; his second daughter was Maria.<ref name="JohnRegister" /> Older Adam and Maria are therefore useful search names for the possible brothers-or-cousins' parents, not established people or attachable relationships.
 
 The two-Hugh return offers a structurally cleaner extension. Entry 1272, beside Ellis and McCullough, is the better candidate for [[Glasgow-548|Hugh Glasgow]]. The other Hugh, entry 1195, could head the collateral branch that produced older Adam and Maria. This respects the late account's statement that Hugh and Margaret had only three sons rather than adding an unreported fourth son. It remains a hypothesis because the return names no children and does not state that the two Hughs were related.
 

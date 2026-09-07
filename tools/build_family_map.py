@@ -16,7 +16,7 @@ try:
         SURNAME_RESEARCH_DIR, WIKITREE_PROFILE_EVIDENCE,
         WIKITREE_CATALOGUE_PROFILE_LINKS, merged_map_profiles,
     )
-    from build_research_catalog import build_research_catalog
+    from build_research_catalog import build_research_catalog, catalogue_profile_update_ids
 except ModuleNotFoundError:  # Imported as tools.build_family_map in tests.
     from tools.project_paths import (
         MAP_HTML as HTML_PATH, HUB_HTML, MAP_RECORDS as CSV_PATH,
@@ -24,7 +24,7 @@ except ModuleNotFoundError:  # Imported as tools.build_family_map in tests.
         SURNAME_RESEARCH_DIR, WIKITREE_PROFILE_EVIDENCE,
         WIKITREE_CATALOGUE_PROFILE_LINKS, merged_map_profiles,
     )
-    from tools.build_research_catalog import build_research_catalog
+    from tools.build_research_catalog import build_research_catalog, catalogue_profile_update_ids
 GLASGOW_ID = re.compile(
     r"(?:Glasgow|Glasco|Glassco|Glascoe|Glasgo|Glasow|Glascow|Glasoe|Glassgow|Glassgo|Glasko)-\d+",
     re.I,
@@ -54,6 +54,12 @@ KNOWN_DESCENDANT_COUNTS = {
 }
 PROFILE_METADATA_OVERRIDES = {
     # Updated on WikiTree after the latest local One-Tree export.
+    "Glasgow-4063": {
+        "first_name": "Robert", "last_name_at_birth": "Glasgow",
+        "last_name_current": "Glasgow", "gender": "Male",
+        "death_date": "1560-03-23", "death_location": "Holkham, Norfolk, England",
+        "death_status": "certain",
+    },
     "Glasgow-3941": {
         "first_name": "Robert", "last_name_at_birth": "Glasgow",
         "last_name_current": "Glasgow", "gender": "Male",
@@ -326,7 +332,7 @@ def root_metadata(records: list[dict], edges: list[list[str]]) -> tuple[list[str
     return patriarch_ids, descendant_counts, links
 
 
-def profile_metadata(records: list[dict]) -> dict[str, dict]:
+def profile_metadata(records: list[dict], include_profile_ids: set[str] | None = None) -> dict[str, dict]:
     try:
         profiles, _ = merged_map_profiles()
     except FileNotFoundError:
@@ -424,6 +430,7 @@ def profile_metadata(records: list[dict]) -> dict[str, dict]:
         for record in records
         for profile_id in WIKITREE_ID.findall(record["profile_id"])
     }
+    selected_ids = mapped_ids | {profile_id.casefold() for profile_id in (include_profile_ids or set())}
 
     research_ids = set()
     for base in (RESEARCH_DIR, SURNAME_RESEARCH_DIR):
@@ -459,7 +466,7 @@ def profile_metadata(records: list[dict]) -> dict[str, dict]:
     result = {}
     for profile in profiles.values():
         profile_id = profile.get("Name")
-        if not profile_id or profile_id.lower() not in mapped_ids:
+        if not profile_id or profile_id.lower() not in selected_ids:
             continue
         statuses = profile.get("DataStatus") or {}
         raw_spouses = profile.get("Spouses") or []
@@ -555,7 +562,7 @@ def profile_metadata(records: list[dict]) -> dict[str, dict]:
                     key=lambda relative: relative["name"].casefold(),
                 )
     for profile_id, override in PROFILE_METADATA_OVERRIDES.items():
-        if profile_id.lower() not in mapped_ids:
+        if profile_id.lower() not in selected_ids:
             continue
         result.setdefault(profile_id, {
             "first_name": "", "middle_name": "", "real_name": "", "full_name": "",
@@ -582,7 +589,7 @@ def main() -> None:
     early_bearers = json.loads(MAP_EARLY_BEARERS.read_text(encoding="utf-8"))
     edges = relationship_edges(records)
     patriarch_ids, descendant_counts, root_links = root_metadata(records, edges)
-    profiles = profile_metadata(records)
+    profiles = profile_metadata(records, catalogue_profile_update_ids())
     _, catalogue_export_paths = merged_map_profiles()
     location_index = location_search_index(records)
     html = HTML_PATH.read_text(encoding="utf-8")

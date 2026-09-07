@@ -9,9 +9,12 @@ The currently attached [James Fultoun (Fultoun-4), born 1590](https://www.wikitr
 is not the father named in the record and should be removed from this family.
 Do not merge the two men: create a distinct Robert Fultoun profile.
 
-Marion's own father remains uncertain. [Ninian Glasgow (Glasgow-3188), born
-about 1550, Glasgow](https://www.wikitree.com/wiki/Glasgow-3188) is plausible,
-not proved.
+NRS CC9/7/9 directly calls Marion the sister of [Ninian Glasgow
+(Glasgow-3188)](https://www.wikitree.com/wiki/Glasgow-3188). She is therefore
+not his daughter. Because *sister* does not distinguish full from half-sister,
+Ninian's proved father [Robert Glasgow
+(Glasgow-1096)](https://www.wikitree.com/wiki/Glasgow-1096) is a strong but
+still uncertain father candidate for Marion. Her mother is not identified.
 
 ## Source findings
 
@@ -19,6 +22,7 @@ not proved.
 | --- | --- | --- |
 | Glasgow & West of Scotland Family History Society, *Glasgow High Kirk Baptisms 1609-1777*, 7 August 1610, vol. 1/320; [public record index](https://www.gwsfhs.org.uk/records/james-fultoun/) | James Fultoun was the lawful son of **Robert Fultoun and Marion Glasgow**; John Howie and James Barr were witnesses. | Direct spouse and parent-child evidence. The public page confirms the record exists in the named dataset; its full transcription is preserved in both Fultoun WikiTree profiles. |
 | NRS Glasgow Commissary Court CC9/7/5, transcribed in [Ninian Glasgow's profile](https://www.wikitree.com/wiki/Glasgow-3188) | Jonet Meik's testament names a Marion Glasgow as a legatee but does not call her a daughter. | Household association only; insufficient to prove Marion's parents. |
+| NRS Glasgow Commissary Court CC9/7/9, images 142–145, testament of Ninian Glasgow, made 10 January 1613 and confirmed 8 May 1613 | The will gives ten merks to `Marioun glasgw his sist[er]`. | Direct sibling evidence. It excludes Marion as Ninian's daughter but does not establish whether they were full or half-siblings. Working transcription supplied 6 September 2026. |
 
 ## Exact relationship reconstruction
 
@@ -37,7 +41,10 @@ spouse: Marion Glasgow (Glasgow-3062)
 4. Correct Marion's biography: the child baptised on 7 August 1610 was **James**, not Robert; Robert was the father.
 5. Correct Fultoun-5's biography to identify Robert, not James Fultoun, as his father.
 6. Remove the misapplied 1610 baptism from Fultoun-4 unless independent evidence for that man is added. Do not merge Fultoun-4 with the new Robert.
-7. Keep Marion's attached parents marked uncertain. The 1607 testament does not state that Marion was Ninian and Jonet's daughter.
+7. Replace Ninian as Marion's father with Robert Glasgow-1096, marked
+   uncertain, because Ninian is directly proved to be her brother. Preserve
+   the currently attached mother as uncertain until an evidenced replacement
+   is identified; neither testament proves Marion's mother.
 
 ## Paste-ready biography addition
 
@@ -50,6 +57,11 @@ Barr, [https://www.gwsfhs.org.uk/records/james-fultoun/ public record index].</r
 
 == Research Notes ==
 
-Marion was named as a legatee in the 1607 testament of Jonet Meik, wife of
-Ninian Glasgow, but the testament does not describe Marion as their daughter.
-Her current parentage therefore remains uncertain.
+Ninian Glasgow's 1613 testament left ten merks to `Marioun glasgw his
+sist[er]`, directly establishing Marion as his sister rather than his
+daughter.<ref>National Records of Scotland, Glasgow Commissary Court, NRS
+CC9/7/9, images 142–145, testament of Ninian Glasgow, made 10 January 1613 and
+confirmed 8 May 1613; working transcription of the original images, family
+clause on image 144.</ref> The record does not say whether they were full or
+half-siblings. Ninian's proved father Robert Glasgow is therefore an uncertain
+father candidate for Marion; her mother remains unidentified.

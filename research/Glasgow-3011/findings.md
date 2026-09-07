@@ -29,3 +29,7 @@ kirk-session testimonial register, NRS `CH2/181/1`, found no Robert Glasgow or
 Margaret Davidson on the pages covering 1704, 1708, 1710 and 1720. These are
 limited negatives: the register is not a population list, and spelling or gaps
 may conceal relevant evidence.
+
+## Relationship update, 2 September 2026
+
+[Isobell Glasgow (Glasgow-4062)](https://www.wikitree.com/wiki/Glasgow-4062), baptised at Glencorse on 26 December 1714 to Robert Glasgow and Margaret Davidson, was created and attached to this profile as an uncertain daughter. [Margaret Davidson (Davidson-20783)](https://www.wikitree.com/wiki/Davidson-20783) was also attached as this profile's uncertain wife with the exact 8 June 1704 Glencorse marriage. Both relationships remain uncertain because the records name Robert but do not uniquely identify this profile. The unsupported duplicate marriage between Margaret and the 1754 shipmaster Glasgow-2867 was removed and publicly verified on 2 September 2026.

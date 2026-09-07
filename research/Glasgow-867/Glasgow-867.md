@@ -1,7 +1,4 @@
-# Controlling profile summary for Glasgow-867
-
-The catalogue builder merges this corrected summary into the complete captured
-WikiTree biography. This file is not a standalone replacement.
+# Paste-ready replacement profile: Glasgow-867
 
 ```wikitext
 [[Category:Glasgow Name Study]]

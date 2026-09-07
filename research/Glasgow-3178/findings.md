@@ -37,3 +37,19 @@ as Agnes's parents. Both parent fields are blank; Logan-12060 remains attached
 as her record-supported husband. This resolves the family structure underlying
 WT+ warning 420. The live family section was rechecked on **29 August 2026** and
 the WT+ warning was marked **Corrected** with an evidence summary.
+
+<!-- BEGIN FMP-GLASGOW-fmp-glasgow-5bd8a860759f -->
+## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-5bd8a860759f
+
+The transcript-validated testament/probate record for **Agnes Glasgow**, 4 Mar 1628, Stevenston, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
+
+## Source findings
+
+- [SCOT/WILLS/057424 Findmypast transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FWILLS%2F057424&tab=this): Additional information: spouse to John Logane, trumpmaker in Stevinstoune; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Commissariot: Glasgow; Country: Scotland; County: Ayrshire; Date: 4 Mar 1628; First name(s): Agnes; Last name: Glasgow; Place: Stevenston; Publication: Commissariot Record Of Glasgow Register Of Testaments 1547-1800; Record set: Scotland, Will And Testament Index 1481-1807; Subcategory: Wills & Probate; Year: 1628 (captured 2026-09-03T21:36:33.803Z).
+- Findmypast record IDs: `SCOT/WILLS/057424`.
+- Stable research/source ID: `fmp-glasgow-5bd8a860759f`.
+
+## Recommended action — fmp-glasgow-5bd8a860759f
+
+Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
+<!-- END FMP-GLASGOW-fmp-glasgow-5bd8a860759f -->

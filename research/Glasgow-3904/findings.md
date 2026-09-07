@@ -1,6 +1,6 @@
 # Findings: Glasgow-3904
 
-Last updated: 2026-08-19
+Last updated: 2026-09-05
 
 ## Current answer
 
@@ -19,8 +19,8 @@ Lisnagaver. Daniel's original will and Daniel Neely's marriage now resolve the
 former topology conflict by proving Daniel and Thomas were brothers. Daniel
 and Thomas may remain uncertain children because they are proved brothers
 and the descendant account names Thomas's parents. Younger Alexander
-`Glasgow-951` may remain a probable brother and uncertain working child, but no
-contemporary record proves the parent edge.
+`Glasgow-951` may remain only a possible brother or cousin and uncertain working
+child, but no contemporary record proves the parent edge.
 
 The three proposed children do not have equal support:
 
@@ -28,18 +28,17 @@ The three proposed children do not have equal support:
 | --- | --- | --- |
 | Daniel `Glasgow-3896` | His original will calls Thomas his late brother. | Uncertain son. The shared parent with Thomas is proved, but that parent is not named. |
 | Thomas `Glasgow-987` | Daniel's will proves the brotherhood; a 2007 descendant account names Alexander and Rosanna as Thomas's parents. | Uncertain son, supported by late family testimony rather than a contemporary parent record. |
-| Alexander `Glasgow-951` | Same Lisnagaver/Rasharkin cluster; close R-FT20271 pairing with the James J Glasgow line. | Probable brother and uncertain son. No record calls him Daniel or Thomas's brother or names his father. |
+| Alexander `Glasgow-951` | Same Lisnagaver/Rasharkin cluster; close R-FT20271 pairing with the James J Glasgow line. | Possible brother or cousin and uncertain son. No record calls him Daniel or Thomas's brother or names his father. |
 
 ## DNA-constrained upstream model
 
 Alexander `Glasgow-951` (kit B580327) and the James J Glasgow `Glasgow-2738`
 line (kit 1002232) are confirmed R-FT20271 Big Y lines. They are genetic
 distance 3 at Y-111, differ at four of 662 compared Big Y STRs, and share the
-derived DYS714=27 state. The local SAPP model displays their likely branching
-node at about 1750 with a 95% interval of 1700-1750. Because the model is
-uncalibrated and misdates a known control relationship, the interval is a
-documentary search window rather than proof that the common ancestor lived in a
-particular decade.
+derived DYS714=27 state. These comparisons are useful for choosing documentary
+test lines, but a local SAPP model misdates a known control and does not provide
+a reliable common-ancestor date or identify a particular eighteenth-century
+ancestor.
 
 If James J's present uncertain paper chain is substantially right—James J
 `Glasgow-2738` to Robert `Glasgow-2769`, Archibald `Glasgow-2304`, James
@@ -204,7 +203,8 @@ not to add duplicate relatives.
 - Change Rosanna's LNAB from `Shaw` to `Unknown` unless an independent family
   source is supplied. James Shaw's occupation does not establish a sibling edge.
 - Keep Daniel, Thomas and younger Alexander as uncertain working children. Daniel
-  and Thomas are proved brothers; younger Alexander is their probable brother.
+  and Thomas are proved brothers; younger Alexander is only their possible
+  brother or cousin.
 - Place the family under the Bann Valley-Killoquin / Kilrea-Rasharkin working
   cluster, not beneath any 17th-century progenitor.
 

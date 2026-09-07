@@ -5,6 +5,12 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
+The 5 September master review confirms that Daniel Neely's father link to
+Thomas `Glasgow-987` is proved by his original 1888 marriage. Daniel
+`Glasgow-3896`'s will independently makes him Thomas's son by calling Daniel
+Neely a nephew and Thomas the testator's late brother. This does not identify
+Thomas and Daniel's parents or make Alexander `Glasgow-951` their brother.
+
 The existing Glasgow-2413 profile represents Daniel Neely Glasgow. His original
 28 June 1888 marriage return names Thomas Glasgow, farmer, as his father and
 Lisnagaver as Daniel's residence. Daniel Glasgow's 1871 will independently

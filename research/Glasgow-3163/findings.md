@@ -33,6 +33,15 @@ warning.
 | National Records of Scotland, [GD150, Papers of the Earls of Morton](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD150) | The catalogue identifies the exact undigitised estate series for Andrew's residence: **GD150/696-757, Barony of Caldercleir, 1506-1824**, and **GD150/2027-2060, Midlothian rentals, 1554-1823**. General deeds for Andrew's adult period are GD150/320-493 (1551-1597). | Highest-value unresolved source set. A Corstoun rental, tack or occupier succession could name Andrew's predecessor, heir, son or surety. The records are open but held off site and are not digitised in the public catalogue. |
 | National Records of Scotland, [Croftmalloch place record](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/place.aspx?code=PL555) | Croftmalloch is in Whitburn parish, West Lothian. This establishes the location attached to Margaret Glasgow's 1580 testament. | Confirms Margaret was another rural West Lothian Glasgow. It does not prove she was Andrew's sister. |
 
+## Findmypast surname-only audit — 3 September 2026
+
+[Findmypast transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FWILLS%2F057425)
+identifies **Andrew Glasgow**, in Corstoun, parish of Calder-Cleir and sheriffdom
+of Edinburgh, with date **10 July 1598**. It is a derivative transcription of
+the Edinburgh testament index and matches the already established Andrew
+Glasgow of Corstoun, represented by `Glasgow-3163`. It supplies no parentage
+beyond the family evidence already assessed above.
+
 ## Search audit
 
 | Record set searched | Search and result | Limitation |
@@ -85,3 +94,19 @@ they are not already present. Do not replace John-1093 with another father until
 a better exact placement is found.
 
 Edit summary: `Align children with the four expressly named in Andrew's 1598 testament.`
+
+<!-- BEGIN FMP-GLASGOW-fmp-glasgow-2afd2a13c27a -->
+## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-2afd2a13c27a
+
+The transcript-validated testament/probate record for **Andrew Glasgow**, 10 Jul 1598, Calder, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
+
+## Source findings
+
+- [SCOT/WILLS/057425 Findmypast transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FWILLS%2F057425&tab=this): Additional information: in Corstoun, parish of Calder-Cleir, and sheriff of Edinburgh; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Commissariot: Edinburgh; Country: Scotland; County: Linlithgowshire (West Lothian); Date: 10 Jul 1598; First name(s): Andrew; Last name: Glasgow; Place: Calder; Publication: Commissariot Record Of Edinburgh Register Of Testaments Part I (1514-1600); Record set: Scotland, Will And Testament Index 1481-1807; Subcategory: Wills & Probate; Year: 1598 (captured 2026-09-03T21:29:56.089Z).
+- Findmypast record IDs: `SCOT/WILLS/057425`.
+- Stable research/source ID: `fmp-glasgow-2afd2a13c27a`.
+
+## Recommended action — fmp-glasgow-2afd2a13c27a
+
+Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
+<!-- END FMP-GLASGOW-fmp-glasgow-2afd2a13c27a -->

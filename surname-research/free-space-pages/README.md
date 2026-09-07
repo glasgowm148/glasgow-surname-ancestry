@@ -27,6 +27,11 @@ Local source copies of individual pages created and verified live on 29 August
 
 Local draft awaiting creation:
 
+- `Alexander_son_of_Richard_messenger_of_Glasgow.md` — distinct 1283
+  associated person; possible local candidate for the escheator, not counted as
+  a hereditary Glasgow bearer.
+- `Alexander_son_of_Richard_constable_of_Glasgow.md` — separate 1283 adjoining
+  landholder; do not merge with the messenger's son.
 - `Glasgow Families of County Londonderry` —
   `Glasgow_Families_of_County_Londonderry.md`; record-led page for the Hugh,
   Adam and John connection in Tamlaght O'Crilly and Inishrush.

@@ -1,0 +1,395 @@
+{
+  "all_observed_exact_display_unique_ids": 1461,
+  "analysis_displayed_total_sum": 17516,
+  "blocking_unreconciled_windows": 3,
+  "capped_inaccessible_result_rows": 3879,
+  "capped_queries": 12,
+  "captured_row_occurrences": 22016,
+  "classification_row_occurrences": {
+    "candidate_in_scope": 1079,
+    "date_anomaly_review": 536,
+    "non_exact_display_hit": 19635,
+    "out_of_scope": 754,
+    "rejected_surname": 12
+  },
+  "classification_unique_records": {
+    "candidate_in_scope": 1052,
+    "date_anomaly_review": 189,
+    "non_exact_display_hit": 5747,
+    "out_of_scope": 208,
+    "rejected_surname": 12
+  },
+  "complete_and_reconciled": false,
+  "control_queries": 1,
+  "coverage": {
+    "gap_free": true,
+    "gaps": [],
+    "intervals": [
+      [
+        1,
+        81
+      ],
+      [
+        82,
+        162
+      ],
+      [
+        163,
+        243
+      ],
+      [
+        244,
+        324
+      ],
+      [
+        325,
+        405
+      ],
+      [
+        406,
+        486
+      ],
+      [
+        487,
+        567
+      ],
+      [
+        568,
+        648
+      ],
+      [
+        649,
+        729
+      ],
+      [
+        730,
+        810
+      ],
+      [
+        811,
+        891
+      ],
+      [
+        892,
+        972
+      ],
+      [
+        973,
+        1053
+      ],
+      [
+        1054,
+        1134
+      ],
+      [
+        1135,
+        1215
+      ],
+      [
+        1216,
+        1296
+      ],
+      [
+        1297,
+        1377
+      ],
+      [
+        1378,
+        1458
+      ],
+      [
+        1459,
+        1539
+      ],
+      [
+        1540,
+        1620
+      ],
+      [
+        1621,
+        1701
+      ],
+      [
+        1701,
+        1741
+      ],
+      [
+        1741,
+        1750
+      ]
+    ],
+    "overlaps": [
+      [
+        1701,
+        1701
+      ],
+      [
+        1741,
+        1741
+      ]
+    ],
+    "target": [
+      1,
+      1750
+    ]
+  },
+  "derived_from_latest_capture_at": "2026-09-03T21:20:18.520Z",
+  "detail_overlay_access_statuses": {
+    "accessible": 478,
+    "error": 10,
+    "subscription_locked": 31
+  },
+  "detail_overlay_daily_limit_schema_access_status": "subscription_locked",
+  "detail_overlay_matched_record_ids": 646,
+  "detail_overlay_orphan_record_ids": 0,
+  "detail_overlay_record_ids": 646,
+  "detail_overlay_record_specific_access_statuses": {
+    "accessible": 478,
+    "error": 10,
+    "subscription_locked": 31
+  },
+  "detail_overlay_record_specific_subscription_locked_ids": 31,
+  "detail_overlay_temporary_daily_limit_ids": 127,
+  "displayed_total_sum": 58728,
+  "duplicate_ids_across_windows": 4498,
+  "duplicate_occurrences_beyond_first": 14808,
+  "duplicate_record_ids": 4965,
+  "excluded_raw_row_occurrences": 4920,
+  "facet_retrieval_mismatch_entries": 8,
+  "facet_retrieval_mismatch_queries": 2,
+  "facet_retrieval_mismatch_results": 18226,
+  "fully_reconciled_year_coverage": {
+    "gap_free": false,
+    "gaps": [
+      [
+        1621,
+        1750
+      ]
+    ],
+    "intervals": [
+      [
+        1,
+        81
+      ],
+      [
+        82,
+        162
+      ],
+      [
+        163,
+        243
+      ],
+      [
+        244,
+        324
+      ],
+      [
+        325,
+        405
+      ],
+      [
+        406,
+        486
+      ],
+      [
+        487,
+        567
+      ],
+      [
+        568,
+        648
+      ],
+      [
+        649,
+        729
+      ],
+      [
+        730,
+        810
+      ],
+      [
+        811,
+        891
+      ],
+      [
+        892,
+        972
+      ],
+      [
+        973,
+        1053
+      ],
+      [
+        1054,
+        1134
+      ],
+      [
+        1135,
+        1215
+      ],
+      [
+        1216,
+        1296
+      ],
+      [
+        1297,
+        1377
+      ],
+      [
+        1378,
+        1458
+      ],
+      [
+        1459,
+        1539
+      ],
+      [
+        1540,
+        1620
+      ]
+    ],
+    "overlaps": [],
+    "target": [
+      1,
+      1750
+    ]
+  },
+  "genuinely_limited_leaf_queries": 3,
+  "locked_row_occurrences": 146,
+  "locked_unique_record_ids": 20,
+  "pagination_redirect_row_occurrences": 1780,
+  "provisional_candidates_with_detail_overlay": 412,
+  "provisional_exact_display_unique_candidates": 1052,
+  "raw_captured_row_occurrences": 26936,
+  "raw_duplicate_record_ids": 5157,
+  "raw_unique_record_ids": 7227,
+  "reconciled_windows": 49,
+  "rows_with_image_action": 263,
+  "rows_with_record_id": 22016,
+  "rows_with_saved_accessible_detail": 1513,
+  "rows_with_transcript_action": 2393,
+  "rows_without_record_id": 0,
+  "same_event_duplicate_group_leads": 198,
+  "schema_version": 1,
+  "searched_year_coverage": {
+    "gap_free": true,
+    "gaps": [],
+    "intervals": [
+      [
+        1,
+        81
+      ],
+      [
+        82,
+        162
+      ],
+      [
+        163,
+        243
+      ],
+      [
+        244,
+        324
+      ],
+      [
+        325,
+        405
+      ],
+      [
+        406,
+        486
+      ],
+      [
+        487,
+        567
+      ],
+      [
+        568,
+        648
+      ],
+      [
+        649,
+        729
+      ],
+      [
+        730,
+        810
+      ],
+      [
+        811,
+        891
+      ],
+      [
+        892,
+        972
+      ],
+      [
+        973,
+        1053
+      ],
+      [
+        1054,
+        1134
+      ],
+      [
+        1135,
+        1215
+      ],
+      [
+        1216,
+        1296
+      ],
+      [
+        1297,
+        1377
+      ],
+      [
+        1378,
+        1458
+      ],
+      [
+        1459,
+        1539
+      ],
+      [
+        1540,
+        1620
+      ],
+      [
+        1621,
+        1701
+      ],
+      [
+        1701,
+        1741
+      ],
+      [
+        1741,
+        1750
+      ]
+    ],
+    "overlaps": [
+      [
+        1701,
+        1701
+      ],
+      [
+        1741,
+        1741
+      ]
+    ],
+    "target": [
+      1,
+      1750
+    ]
+  },
+  "superseded_capped_windows": 5,
+  "target_years": [
+    1,
+    1750
+  ],
+  "travel_tail_queries": 4,
+  "unique_record_ids": 7208,
+  "unreconciled_windows": 12,
+  "windows": 61
+}

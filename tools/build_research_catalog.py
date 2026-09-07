@@ -338,7 +338,7 @@ def sync_generated_marriage_statistics() -> None:
 
 def _catalogue_statistics(
     people: list[dict], family_memberships: dict[str, dict], location_to_slug: dict[str, str],
-    place_count: int, record_count: int, missing_profile_count: int, original_count: int,
+    place_count: int, record_count: int, profile_work_counts: Counter, original_count: int,
     refreshed: str,
 ) -> str:
     region_people: dict[str, set[str]] = defaultdict(set)
@@ -372,12 +372,23 @@ def _catalogue_statistics(
     }
     linked_people = sum(1 for membership in family_memberships.values() if membership["primary"])
     cross_region = sum(migrations.values())
+    creation_ready_count = profile_work_counts["creation_ready"]
+    candidate_hold_count = profile_work_counts["existing_profile_candidate"]
+    identity_hold_count = profile_work_counts["identity_hold"]
+    free_space_only_count = profile_work_counts["free_space_only"]
+    linked_free_space_count = profile_work_counts["linked_free_space"]
+    unreviewed_count = profile_work_counts["unreviewed"]
+    missing_profile_count = sum(
+        count for status, count in profile_work_counts.items()
+        if status != "linked_free_space"
+    )
     summary = "".join(
         f'<div><strong>{value:,}</strong><span>{escape(label)}</span></div>'
         for label, value in (
             ("Historical people", len(people)), ("Mapped records", record_count), ("Mapped places", place_count),
             ("Exported family roots", len(family_counts)), ("People linked to a root", linked_people),
-            ("Cross-region life courses", cross_region), ("Unlinked WikiTree entries", missing_profile_count),
+            ("Cross-region life courses", cross_region), ("Creation-ready profiles", creation_ready_count),
+            ("Linked pre-1500 Space pages", linked_free_space_count),
             ("People with original evidence", original_count),
         )
     )
@@ -411,7 +422,7 @@ def _catalogue_statistics(
         _stat_bars("Birth centuries", "People with a usable birth year; estimates remain estimates.", century_values, 20),
         _stat_bars("Most common recorded migrations", "Different broad birth and death regions on the same profile.", migration_values),
     ))
-    return f'''<section id="statistics" class="catalogue-statistics"><div class="catalogue-statistics-heading"><div><p class="kicker">Project overview</p><h2>Catalogue statistics</h2><p>Patterns across public historical people only; likely-living profiles remain withheld.</p><p class="catalogue-refresh">Updated {escape(refreshed)}</p></div></div><div class="statistics-summary">{summary}</div><details id="statistics-detail"><summary><span><strong>Open detailed statistics pane</strong><small>Names, spouse surnames, places, family branches and migration patterns</small></span><span class="statistics-open-label"><span class="statistics-closed-copy">View statistics</span><span class="statistics-open-copy">Hide statistics</span></span></summary><div class="statistics-grid">{panels}</div><p class="statistics-caution">Family branches follow exported WikiTree parent links and organise research; they do not independently prove descent. Location totals count mapped associations, so one person may appear in several places or regions.</p></details></section>'''
+    return f'''<section id="statistics" class="catalogue-statistics"><div class="catalogue-statistics-heading"><div><p class="kicker">Project overview</p><h2>Catalogue statistics</h2><p>Patterns across public historical people only; likely-living profiles remain withheld.</p><p class="catalogue-refresh">Updated {escape(refreshed)}</p></div></div><div class="statistics-summary">{summary}</div><details id="statistics-detail"><summary><span><strong>Open detailed statistics pane</strong><small>Names, spouse surnames, places, family branches and migration patterns</small></span><span class="statistics-open-label"><span class="statistics-closed-copy">View statistics</span><span class="statistics-open-copy">Hide statistics</span></span></summary><div class="statistics-grid">{panels}</div><p class="statistics-caution">Profile work is consolidation-first: {missing_profile_count:,} documentary identities lack a confirmed WikiTree destination, comprising {creation_ready_count:,} creation-ready after duplicate review, {candidate_hold_count:,} on HOLD with possible existing-profile matches, {identity_hold_count:,} on HOLD because the records do not yet define a safely distinct person, {free_space_only_count:,} pre-1500 subjects still lacking an individual Space page, and {unreviewed_count:,} awaiting identity review. {linked_free_space_count:,} pre-1500 subjects are already linked to their canonical individual Space pages and are excluded from that work queue. A record fact is not by itself a person to create. Family branches follow exported WikiTree parent links and organise research; they do not independently prove descent. Location totals count mapped associations, so one person may appear in several places or regions.</p></details></section>'''
 
 
 def _catalogue_record_types(person: dict) -> list[str]:
@@ -3102,7 +3113,7 @@ def _load_wikitree_evidence() -> dict:
     return payload
 
 
-def _build_people(records: list[dict], profiles: dict[str, dict], edges: list[list[str]], descendant_counts: dict[str, int], wikitree_evidence: dict | None = None) -> list[dict]:
+def _build_people(records: list[dict], profiles: dict[str, dict], edges: list[list[str]], descendant_counts: dict[str, int], wikitree_evidence: dict | None = None, profile_seed_ids: set[str] | None = None) -> list[dict]:
     evidence_profiles = (wikitree_evidence or {}).get("profiles", {})
     evidence_numeric_ids = {
         str(capture.get("profile_fields", {}).get("Id")): profile_id
@@ -3161,6 +3172,20 @@ def _build_people(records: list[dict], profiles: dict[str, dict], edges: list[li
     grouped = defaultdict(list)
     for record in records:
         grouped[_individual_key(record)].append(record)
+    mapped_profile_ids = {
+        profile_id for rows in grouped.values()
+        for row in rows for profile_id in _ids(row.get("profile_id", ""))
+    }
+    for profile_id in sorted(profile_seed_ids or set()):
+        if profile_id in mapped_profile_ids or profile_id not in profiles:
+            continue
+        grouped[profile_id].append({
+            "profile_id": profile_id,
+            "person": profiles[profile_id].get("full_name") or profile_id,
+            "family_group": "WikiTree profile update",
+            "filter_year": None,
+            "_profile_only": True,
+        })
     count_descendants = _descendant_counter(edges, descendant_counts)
     people = []
     for key, rows in grouped.items():
@@ -3197,7 +3222,8 @@ def _build_people(records: list[dict], profiles: dict[str, dict], edges: list[li
         if not death_locations:
             death_locations = _unique(row.get("death_location", "") for row in rows)
 
-        clusters = _unique(row.get("family_group", "") for row in rows)
+        mapped_rows = [row for row in rows if not row.get("_profile_only")]
+        clusters = _unique(row.get("family_group", "") for row in mapped_rows)
         cluster_counts = Counter(row.get("family_group", "") for row in rows)
         cluster = sorted(cluster_counts, key=lambda value: (-cluster_counts[value], value))[0]
         catalogue_id = _person_slug(key, rows)
@@ -3225,6 +3251,8 @@ def _build_people(records: list[dict], profiles: dict[str, dict], edges: list[li
             relationship_warnings.append(f"{outside_parent_refs} parent reference{'s' if outside_parent_refs != 1 else ''} point outside the current export.")
         enriched_records = []
         for index, row in enumerate(rows, start=1):
+            if row.get("_profile_only"):
+                continue
             record = {field: row.get(field) for field in (
                 "year", "filter_year", "region", "family_group", "subcluster", "evidence",
                 "association", "note", "location_id", "record_location", "record_precision",
@@ -3453,6 +3481,22 @@ def _load_catalogue_profile_audit() -> dict:
     return payload if isinstance(payload.get("entries"), dict) else {"audited_at": "", "entries": {}}
 
 
+def _profile_work_status(person: dict, audit: dict) -> str:
+    """Classify documentary identities without turning every record into a profile task."""
+    if person.get("profile_ids"):
+        return "linked_existing"
+    if person.get("wikitree_free_space_url"):
+        return "linked_free_space"
+    action = audit.get("recommended_action")
+    if action == "create_new_profile":
+        return "creation_ready"
+    if action == "hold":
+        return "existing_profile_candidate" if audit.get("candidates") else "identity_hold"
+    if action == "do_not_create" and audit.get("identity_status") == "free_space_only":
+        return "free_space_only"
+    return "unreviewed"
+
+
 def _extract_profile_draft(audit: dict) -> str:
     relative = audit.get("draft_path") or ""
     path = (PROJECT_ROOT / relative).resolve() if relative else None
@@ -3464,6 +3508,10 @@ def _extract_profile_draft(audit: dict) -> str:
         return fenced.group(1).strip()
     marker = re.search(r"^## Paste-ready biography\s*$", text, re.M | re.I)
     if not marker:
+        # Existing-profile replacements are often stored as native WikiTree
+        # text without a surrounding Markdown handoff heading.
+        if "== Biography ==" in text and "== Sources ==" in text:
+            return text.strip()
         return ""
     draft = text[marker.end():]
     end = re.search(r"^## (?:Duplicate audit|After creation)\s*$", draft, re.M | re.I)
@@ -3477,20 +3525,50 @@ def _extract_profile_draft(audit: dict) -> str:
     return draft
 
 
+def _is_complete_profile_draft(draft: str) -> bool:
+    required = (
+        "== Biography ==", "== Research Notes ==", "== Sources ==", "<references />",
+    )
+    return (
+        all(item in draft for item in required)
+        and "<ref" in draft
+        and bool(re.search(r"\[\[Category:[^\]]+\]\]", draft))
+    )
+
+
 def _profile_update_significance(status: str, summary: str) -> int:
+    """Rank genealogical impact, not the presence of generic action verbs."""
     text = f"{status} {summary}".casefold()
     if "urgent" in text:
         return 98
-    if "high impact" in text or "family removal" in text or "identity conflict" in text or "conflation" in text:
+    relationship = r"(?:father|mother|parents?|son|daughter|children|brother|sister|spouse|widow|relationship)"
+    if (
+        re.search(rf"\b(?:record-proved|directly proved|testament-proved)\s+{relationship}\b", text)
+        or re.search(rf"\b(?:directly|explicitly)\s+(?:calls|names|identifies|proves?)\b.*\b{relationship}\b", text)
+        or re.search(rf"\bproves?\s+(?:both\s+)?{relationship}\b", text)
+        or re.search(rf"\b(?:wrong|conflicting|incorrect|unrelated|misread)\b.{{0,40}}\b{relationship}\b", text)
+        or re.search(rf"\b(?:replace|detach|remove)\s+(?:the\s+)?(?:unsupported\s+|incorrect\s+|wrong\s+|attached\s+|current\s+)?{relationship}\b", text)
+        or re.search(rf"\bdirect\s+{relationship}\b", text)
+    ):
+        return 96
+    if any(term in text for term in (
+        "high impact", "family removal", "identity conflict", "conflation",
+        "parents remain unknown", "unsupported parent", "unproved parent",
+    )):
         return 92
-    if "chronology" in text or "merge review" in text or "duplicate review" in text:
+    if re.search(r"\b(?:chronology|merge review|duplicate review|identity unresolved|distinguish|separate)\b", text):
         return 86
-    if "profile correction" in text or "source expansion" in text or "archive targets" in text:
-        return 80
-    if re.search(r"\b(?:detach|remove|correct|change|replace|separate)\b", text):
-        return 74
-    if re.search(r"\b(?:proved|direct|add)\b", text):
-        return 68
+    if re.search(
+        r"\b(?:correct|replace|change)\b.*\b(?:birth|baptism|death|burial|marriage|date|place|occupation)\b",
+        text,
+    ):
+        return 82
+    if re.search(r"\b(?:mark|retain|keep)\b.*\buncertain\b", text):
+        return 78
+    if re.search(r"\b(?:birth|baptism|death|burial|marriage|residence|occupation)\b", text):
+        return 72
+    if "source expansion" in text or "archive targets" in text or "citation" in text:
+        return 64
     return 55
 
 
@@ -3885,7 +3963,7 @@ def _merge_profile_summary_with_captured(
         end = heading.end() + following.start() if following else len(text)
         return heading.start(), end, text[heading.end():end].strip()
 
-    _, _, summary_biography = level_two_section(summary, "Biography")
+    summary_biography_start, _, summary_biography = level_two_section(summary, "Biography")
     # A controlling summary is intentionally an introduction.  If it acquires
     # detailed Biography subsections it must be merged by hand so none vanish.
     if re.search(r"(?m)^=== [^=].*?===\s*$", summary_biography):
@@ -3911,9 +3989,16 @@ def _merge_profile_summary_with_captured(
     ):
         if sticker not in summary and sticker not in retained_stickers:
             retained_stickers.append(sticker)
+    summary_prefix_lines = [
+        line for line in summary[:summary_biography_start].splitlines()
+        if re.match(r"^\s*(?:\[\[Category:|\{\{)", line)
+        and line.strip() not in captured[:biography_heading.start()]
+    ]
     controlling_intro = "\n".join([*retained_stickers, summary_biography]).strip()
     merged = (
-        captured[:biography_heading.end()].rstrip()
+        captured[:biography_heading.start()].rstrip()
+        + ("\n" + "\n".join(summary_prefix_lines) if summary_prefix_lines else "")
+        + "\n\n== Biography =="
         + "\n\n"
         + controlling_intro
         + "\n\n"
@@ -3967,22 +4052,57 @@ def _source_identity_keys(text: str, extra_urls: list[str] | None = None) -> dic
 
 
 def _registered_profile_updates(wikitree_evidence: dict) -> dict[str, dict]:
-    """Turn the audited OPEN register into source-backed biography updates."""
+    """Turn audited OPEN and REOPEN register rows into source-backed updates."""
     if not PROFILE_UPDATE_REGISTER.exists():
         return {}
     captures = wikitree_evidence.get("profiles", {})
     entries = {}
     for line in PROFILE_UPDATE_REGISTER.read_text(encoding="utf-8").splitlines():
-        if not re.match(r"^\| .* \| OPEN", line):
+        if not line.startswith("|"):
+            continue
+        columns = [value.strip() for value in line.strip().strip("|").split("|")]
+        if len(columns) < 2:
+            continue
+        status_cell = columns[1].replace("**", "").strip()
+        status_match = re.match(r"^(?P<state>REOPEN(?:ED)?|OPEN)\b(?P<rest>.*)$", status_cell, re.I)
+        if not status_match:
+            continue
+        if (
+            status_match.group("state").casefold() == "open"
+            and status_match.group("rest").strip()
+            and not status_match.group("rest").strip().startswith(("—", "-", ":"))
+        ):
             continue
         profile_match = re.search(r"wikitree\.com/wiki/([A-Za-z][A-Za-z_'’-]*-\d+)", line)
         if not profile_match:
             continue
         profile_id = profile_match.group(1)
-        columns = [value.strip() for value in line.strip().strip("|").split("|")]
-        if len(columns) < 3:
-            continue
-        status, summary = columns[1], columns[2]
+        embedded_summary = ""
+        if ":" in status_cell:
+            status, embedded_summary = status_cell.split(":", 1)
+        else:
+            status = status_cell
+        summary = embedded_summary.strip() or (columns[2] if len(columns) >= 3 else "")
+        draft_path = ""
+        if len(columns) >= 2:
+            draft_match = re.search(
+                r"\[(?:Replacement draft|Complete draft)\]\(([^)]+)\)", " | ".join(columns[1:]), re.I
+            )
+            if draft_match:
+                candidate = (PROFILE_UPDATE_REGISTER.parent / draft_match.group(1)).resolve()
+                expected_dir = (RESEARCH_DIR / profile_id).resolve()
+                if (
+                    candidate.is_file()
+                    and candidate.parent == expected_dir
+                    and candidate.name == f"{profile_id}.md"
+                ):
+                    draft_path = str(candidate.relative_to(PROJECT_ROOT))
+                    if not _is_complete_profile_draft(
+                        _extract_profile_draft({"draft_path": draft_path})
+                    ):
+                        raise ValueError(
+                            f"Catalogue replacement draft is not complete paste-ready WikiTree text: {profile_id}"
+                        )
         findings_path = RESEARCH_DIR / profile_id / "findings.md"
         findings = findings_path.read_text(encoding="utf-8") if findings_path.exists() else ""
         source_links = []
@@ -4025,9 +4145,15 @@ def _registered_profile_updates(wikitree_evidence: dict) -> dict[str, dict]:
             "status": status,
             "findings_path": str(findings_path.relative_to(PROJECT_ROOT)) if findings_path.exists() else "",
             "insert_before": "== Sources ==",
-            "addition_wikitext": addition,
+            # A reviewed full replacement is the paste-ready source of truth.
+            # Do not silently append a second generated assessment to it.
+            "addition_wikitext": "" if draft_path else addition,
             "registered_update": True,
         }
+        if draft_path:
+            entries[profile_id]["draft_path"] = draft_path
+            entries[profile_id]["preserve_captured_detail"] = True
+            entries[profile_id]["reviewed_narrative_reduction"] = True
     return entries
 
 
@@ -4139,7 +4265,20 @@ def _load_profile_updates(wikitree_evidence: dict) -> dict[str, dict]:
             updates[profile_id]["summary"] = _completed_profile_summary(
                 updates[profile_id].get("summary") or ""
             )
+        ranking_text = (
+            updates[profile_id].get("work_queue_summary")
+            or updates[profile_id].get("summary")
+            or ""
+        )
+        updates[profile_id]["significance"] = _profile_update_significance(
+            updates[profile_id].get("status") or "", ranking_text
+        )
     return updates
+
+
+def catalogue_profile_update_ids() -> set[str]:
+    """Return update-queue profiles that need catalogue metadata even without map rows."""
+    return set(_load_profile_updates(_load_wikitree_evidence()))
 
 
 def _profile_update_html(update: dict | None) -> str:
@@ -4276,9 +4415,20 @@ def _generated_profile_draft(person: dict, audit: dict) -> str:
 def _profile_workbench_html(person: dict, audit: dict, audited_at: str) -> str:
     if person.get("profile_ids"):
         return ""
+    if person.get("wikitree_free_space_url"):
+        return (
+            '<section id="profile-workbench" class="profile-workbench">'
+            '<div class="candidate-section-heading"><div><p class="kicker">Pre-1500 documentary subject</p>'
+            '<h2>Canonical WikiTree Space page</h2></div>'
+            '<p>This subject is maintained as an individual free-space page, not a person profile.</p></div>'
+            f'<div class="actions"><a class="button" href="{escape(person["wikitree_free_space_url"], quote=True)}">Open WikiTree Space page</a></div>'
+            '</section>'
+        )
     action = audit.get("recommended_action") or "needs_sourced_draft"
-    identity_note = audit.get("identity_note") or "No confirmed WikiTree profile is linked."
     candidates = audit.get("candidates", [])
+    identity_note = audit.get("identity_note") or "No confirmed WikiTree profile is linked."
+    if action == "hold" and not candidates:
+        identity_note = "The record does not yet define a safely distinct person. Consolidate it with compatible records before considering profile creation."
     candidate_cards = "".join(
         f'<article class="profile-match-card"><div><h3><a href="{escape(item.get("url") or WIKITREE_URL + quote(item["profile_id"]), quote=True)}" target="_blank" rel="noopener noreferrer">{escape(item.get("name") or item["profile_id"])}</a></h3>'
         f'<p><strong><a href="{escape(item.get("url") or WIKITREE_URL + quote(item["profile_id"]), quote=True)}" target="_blank" rel="noopener noreferrer">{escape(item["profile_id"])}</a></strong> · {escape(item.get("birth_date") or "birth unknown")} · {escape(item.get("birth_location") or "place unknown")}</p>'
@@ -4298,12 +4448,20 @@ def _profile_workbench_html(person: dict, audit: dict, audited_at: str) -> str:
     draft = "" if missing_external_sources else (_extract_profile_draft(audit) or _generated_profile_draft(person, audit))
     creation_block = ""
     creation_allowed = action not in {"do_not_create", "hold", "duplicate_profiles"}
-    if missing_external_sources and creation_allowed:
+    if missing_external_sources and action != "do_not_create":
         creation_block = (
             '<p class="notice"><strong>Profile draft withheld:</strong> '
             f'{len(missing_external_sources)} mapped record source link'
             f'{"s are" if len(missing_external_sources) != 1 else " is"} missing. '
             'Recover and save the original external record URL before producing paste-ready WikiTree text.</p>'
+        )
+    elif action == "hold" and draft:
+        creation_block = (
+            '<section class="profile-draft-panel profile-draft-hold"><h3>Evidence draft — creation on HOLD</h3>'
+            f'<p class="notice"><strong>Do not create or merge yet.</strong> {escape(identity_note)} '
+            'This full draft identifies the documentary person and preserves the source while the candidate comparison above is resolved.</p>'
+            f'<textarea class="profile-draft" rows="22" readonly>{escape(draft)}</textarea>'
+            f'<p><small>Research handoff: {escape(audit.get("draft_path") or "path not recorded")}</small></p></section>'
         )
     elif creation_allowed and vital:
         warning = (
@@ -4342,8 +4500,13 @@ def _person_page(
     profile_update: dict | None = None,
 ) -> str:
     slug = person["catalogue_id"]
-    wiki_links = " / ".join(f'<a href="{WIKITREE_URL}{quote(profile_id)}">{escape(profile_id)}</a>' for profile_id in person["profile_ids"]) or "No linked WikiTree profile"
+    wiki_links = " / ".join(f'<a href="{WIKITREE_URL}{quote(profile_id)}">{escape(profile_id)}</a>' for profile_id in person["profile_ids"])
+    if not wiki_links and person.get("wikitree_free_space_url"):
+        wiki_links = f'<a href="{escape(person["wikitree_free_space_url"], quote=True)}">Individual WikiTree Space page</a>'
+    if not wiki_links:
+        wiki_links = "No confirmed WikiTree destination"
     map_query = quote(person["profile_ids"][0] if person["profile_ids"] else person["name"])
+    map_action = f'<a class="button" href="/map/?display=table&amp;q={map_query}">View on map</a>' if person["records"] else ""
     cluster_tags = " ".join(f'<span class="tag">{escape(cluster)}</span>' for cluster in person["clusters"])
     notes = "".join(f"<li>{escape(note)}</li>" for note in _unique((person["birth_note"], person["birth_location_note"], person["death_note"])))
     relationship_notes = "".join(f"<li>{escape(warning)}</li>" for warning in person["relationship_warnings"])
@@ -4666,7 +4829,10 @@ def _person_page(
         "Advanced",
     )
 
-    identity_label = escape(" · ".join(person["profile_ids"]) or "Unlinked documentary person")
+    identity_label = escape(
+        " · ".join(person["profile_ids"])
+        or ("Linked individual Space page" if person.get("wikitree_free_space_url") else "Unlinked documentary person")
+    )
     relation_total = sum(len(dossier["relationships"][group]) for group in ("parents", "spouses", "children"))
     candidate_total = len(parentage.get("candidates", [])) + len(dossier.get("similar_people", []))
     body = f"""<nav class="crumb"><a href="/catalogue.html">Catalogue</a> / {escape(person['name'])}</nav>
@@ -4674,7 +4840,7 @@ def _person_page(
 <p class="person-life">{escape(person['birth'] or '?')} – {escape(person['death'] or '?')}</p><p class="lede">{identity_label} · {len(person['records'])} mapped association{'s' if len(person['records']) != 1 else ''}</p></div>
 <div class="person-hero-summary"><span>{escape(person['birth_location'] or 'Birthplace unknown')}</span><span>→</span><span>{escape(person['death_location'] or 'Death place unknown')}</span></div></section>
 <nav class="person-section-nav" aria-label="On this page"><a href="#overview">Overview</a><a href="#candidate-analysis">Compare candidates</a>{'<a href="#wikitree-update">Update WikiTree</a>' if profile_update_panel else ''}{'<a href="#profile-workbench">WikiTree profile</a>' if profile_workbench else ''}<a href="#research-stack">Research &amp; records</a></nav>
-<div class="actions"><a class="button" href="/map/?display=table&amp;q={map_query}">View on map</a>{f'<a class="button secondary" href="{WIKITREE_URL}{quote(person["profile_ids"][0])}">Open WikiTree</a>' if person['profile_ids'] else ''}<a class="button secondary" href="/compare.html?a={quote(person['profile_ids'][0] if person['profile_ids'] else slug)}">Compare</a><a class="button secondary" href="/feedback.html?person={quote(person['profile_ids'][0] if person['profile_ids'] else slug)}">Report a correction</a></div>
+<div class="actions">{map_action}{f'<a class="button secondary" href="{WIKITREE_URL}{quote(person["profile_ids"][0])}">Open WikiTree</a>' if person['profile_ids'] else (f'<a class="button secondary" href="{escape(person["wikitree_free_space_url"], quote=True)}">Open WikiTree Space page</a>' if person.get('wikitree_free_space_url') else '')}<a class="button secondary" href="/compare.html?a={quote(person['profile_ids'][0] if person['profile_ids'] else slug)}">Compare</a><a class="button secondary" href="/feedback.html?person={quote(person['profile_ids'][0] if person['profile_ids'] else slug)}">Report a correction</a></div>
 <section id="overview" class="identity-shell"><div class="identity-heading"><div><p class="kicker">At a glance</p><h2>Identity &amp; family</h2></div><p>Tree links organise the family; documentary status still varies.</p></div>
 <div class="profile-stat-strip"><div><strong>{len(person['records'])}</strong><span>Mapped records</span></div><div><strong>{relation_total}</strong><span>Close relations</span></div><div><strong>{len(dossier['evidence'])}</strong><span>Evidence items</span></div><div><strong>{candidate_total}</strong><span>Candidate leads</span></div></div>
 <dl class="facts identity-facts"><dt>Birth</dt><dd>{escape(person['birth'] or 'Not recorded')} · {escape(person['birth_location'] or 'Place not recorded')}</dd><dt>Death</dt><dd>{escape(person['death'] or 'Not recorded')} · {escape(person['death_location'] or 'Place not recorded')}</dd><dt>Parents</dt><dd>{compact_relation_links('parents')}</dd><dt>Spouses</dt><dd>{compact_relation_links('spouses')}</dd><dt>Children</dt><dd>{compact_relation_links('children')}</dd><dt>Gender</dt><dd>{escape(person['gender'] or 'Not recorded')}</dd><dt>WikiTree</dt><dd>{wiki_links}</dd><dt>Research clusters</dt><dd>{cluster_tags or 'None assigned'}</dd><dt>Mapped descendants</dt><dd>{person['descendants'] if person['descendants'] is not None else 'Not calculated'}</dd></dl>
@@ -5262,8 +5428,49 @@ def build_research_catalog(records: list[dict], profiles: dict[str, dict], edges
     profile_audit_payload = _load_catalogue_profile_audit()
     profile_audit_entries = profile_audit_payload.get("entries", {})
     profile_audited_at = profile_audit_payload.get("audited_at", "")
-    people = _build_people(records, profiles, edges, descendant_counts, wikitree_evidence)
+    people = _build_people(
+        records, profiles, edges, descendant_counts, wikitree_evidence,
+        profile_seed_ids=set(profile_updates),
+    )
     public_people = [person for person in people if not person["likely_living"]]
+    pre1500_draft_paths = {
+        "record-medieval-1283-alexander-richard-constable": "surname-research/free-space-pages/Alexander_son_of_Richard_constable_of_Glasgow.md",
+        "record-medieval-1283-alexander-richard-messenger": "surname-research/free-space-pages/Alexander_son_of_Richard_messenger_of_Glasgow.md",
+        "record-medieval-1289-alexander-escheator": "research/free-space-pages/pages/004-andrew-de-glasgu.wiki",
+        "record-medieval-1506-john-alias-smith": "surname-research/free-space-pages/John_Glasgow_of_Saltmarket.md",
+    }
+    pre1500_space_urls = {
+        "record-medieval-1283-alexander-richard-constable": "https://www.wikitree.com/wiki/Space:Alexander_son_of_Richard_constable_of_Glasgow",
+        "record-medieval-1283-alexander-richard-messenger": "https://www.wikitree.com/wiki/Space:Alexander_son_of_Richard_messenger_of_Glasgow",
+        "record-medieval-1289-alexander-escheator": "https://www.wikitree.com/wiki/Space:Andrew_de_Glasgu",
+        "record-medieval-1506-john-alias-smith": "https://www.wikitree.com/wiki/Space:John_de_Glasgow_alias_Smith_/_John_Glasgow_of_Saltmarket%27",
+    }
+    profile_audits_by_catalogue = {}
+    for person in public_people:
+        person["wikitree_free_space_url"] = pre1500_space_urls.get(person["catalogue_id"], "")
+        person["has_wikitree_destination"] = bool(
+            person["profile_ids"] or person["wikitree_free_space_url"]
+        )
+        profile_audit = dict(profile_audit_entries.get(person["catalogue_id"], {}))
+        birth_match = re.search(r"\b(\d{3,4})\b", str(person.get("birth") or ""))
+        if (
+            not person["profile_ids"] and not profile_audit and birth_match
+            and int(birth_match.group(1)) < 1500
+        ):
+            profile_audit = {
+                "candidates": [],
+                "draft_path": pre1500_draft_paths.get(person["catalogue_id"], ""),
+                "identity_note": (
+                    "Pre-1500 documentary subject. Maintain an individual free-space research page; "
+                    "do not create or repurpose a WikiTree person profile."
+                ),
+                "identity_status": "free_space_only",
+                "recommended_action": "do_not_create",
+                "searched_profile_count": 0,
+            }
+        profile_audits_by_catalogue[person["catalogue_id"]] = profile_audit
+        person["profile_work_status"] = _profile_work_status(person, profile_audit)
+        person["profile_work_candidate_count"] = len(profile_audit.get("candidates") or [])
     dossiers, machine_people_index = build_machine_models(public_people)
     withheld_count = len(people) - len(public_people)
     generated = date.today().isoformat()
@@ -5333,6 +5540,7 @@ def build_research_catalog(records: list[dict], profiles: dict[str, dict], edges
             "summary": update.get("summary") or "",
             "remote_captured_at": update.get("remote_captured_at") or "",
             "remote_revision": update.get("remote_revision") or "",
+            "draft_wikitext": update.get("proposed_wikitext") or "",
         }
     candidate_worklist = _write_candidate_match_worklist(dossiers)
     location_to_slug = {
@@ -5340,8 +5548,20 @@ def build_research_catalog(records: list[dict], profiles: dict[str, dict], edges
         for person in public_people for record in person["records"] if record.get("location_id")
     }
     for person in public_people:
-        profile_audit = dict(profile_audit_entries.get(person["catalogue_id"], {}))
+        profile_audit = dict(profile_audits_by_catalogue.get(person["catalogue_id"], {}))
         profile_audit["_audited_at"] = profile_audited_at
+        if profile_audit and not person["profile_ids"]:
+            draft = _extract_profile_draft(profile_audit)
+            dossiers[person["catalogue_id"]]["profile_creation"] = {
+                "status": profile_audit.get("recommended_action") or "needs_sourced_draft",
+                "identity_note": profile_audit.get("identity_note") or "",
+                "draft_path": profile_audit.get("draft_path") or "",
+                "draft_wikitext": draft,
+                "creation_allowed": (
+                    profile_audit.get("recommended_action")
+                    not in {"do_not_create", "hold", "duplicate_profiles"}
+                ),
+            }
         (CATALOGUE_DIR / f"{person['catalogue_id']}.html").write_text(
             _person_page(
                 person, dossiers[person["catalogue_id"]], id_to_slug, location_to_slug,
@@ -5442,7 +5662,13 @@ def build_research_catalog(records: list[dict], profiles: dict[str, dict], edges
         or bool(re.match(r"^(?:before |c\. )?(?:1[0-6]\d{2}|\d{1,3})\b", person.get("birth", "")))
         for person in public_people
     )
-    missing_profile_count = sum(not person["profile_ids"] for person in public_people)
+    profile_work_counts = Counter(
+        person["profile_work_status"] for person in public_people if not person["profile_ids"]
+    )
+    missing_profile_count = sum(
+        count for status, count in profile_work_counts.items()
+        if status != "linked_free_space"
+    )
     missing_father_count = sum(not person["father"] for person in public_people)
     original_count = sum(
         any(item.get("source_quality") == "original" for item in dossiers[person["catalogue_id"]]["evidence"])
@@ -5466,7 +5692,7 @@ def build_research_catalog(records: list[dict], profiles: dict[str, dict], edges
 <p>{len(ranked_updates):,} source-backed corrections remain on WikiTree. The highest-significance updates are previewed here; the filter opens the complete queue. Each page provides either paste-ready text or the exact manual relationship, confidence or vital-field action.</p><div class="wikitree-update-grid">{update_preview_cards}</div></section>'''
     statistics_html = _catalogue_statistics(
         public_people, family_memberships, location_to_slug, len(place_index), len(public_records),
-        missing_profile_count, original_count, refreshed,
+        profile_work_counts, original_count, refreshed,
     )
     index_body = f"""<section class="catalogue-hero"><p class="kicker">Glasgow surname research</p><h1>Research catalogue</h1>
 <p class="lede">Search {len(public_people):,} historical people connected with the Glasgow surname.</p></section>{statistics_html}
@@ -5491,7 +5717,7 @@ def build_research_catalog(records: list[dict], profiles: dict[str, dict], edges
 <label><span>Location</span><input id="catalogue-location" type="search" placeholder="Place name" autocomplete="off"></label><label><span>Country or region</span><select id="catalogue-region"><option value="">Any region</option>{region_options}</select></label>
 <label><span>Exclude death location</span><input id="catalogue-death-exclude" type="search" placeholder="e.g. USA" autocomplete="off"></label>
 </div></fieldset></div></details>
-<div class="catalogue-search-footer"><div class="catalogue-filter-chips" role="group" aria-label="People and family filters"><label><input id="catalogue-glasgow-at-birth" type="checkbox"><span>Glasgow at birth</span></label><label><input id="catalogue-males-only" type="checkbox"><span>Males only</span></label><label><input id="catalogue-missing-father" type="checkbox"><span>Missing father</span></label><label><input id="catalogue-missing-mother" type="checkbox"><span>Missing mother</span></label><label><input id="catalogue-has-descendants" type="checkbox"><span>Has descendants</span></label><label><input id="catalogue-women-married-glasgow" type="checkbox"><span>Women who married a Glasgow</span></label><label><input id="catalogue-missing-profile" type="checkbox"><span>Unlinked to WikiTree</span></label><label><input id="catalogue-needs-wikitree-update" type="checkbox"><span>Needs updated on WikiTree</span></label><label><input id="catalogue-has-suffix" type="checkbox"><span>Has suffix</span></label></div><button id="catalogue-search-clear" class="catalogue-clear" type="button" disabled>Reset filters</button></div></form></section>
+<div class="catalogue-search-footer"><div class="catalogue-filter-chips" role="group" aria-label="People and family filters"><label><input id="catalogue-glasgow-at-birth" type="checkbox"><span>Glasgow at birth</span></label><label><input id="catalogue-males-only" type="checkbox"><span>Males only</span></label><label><input id="catalogue-missing-father" type="checkbox"><span>Missing father</span></label><label><input id="catalogue-missing-mother" type="checkbox"><span>Missing mother</span></label><label><input id="catalogue-has-descendants" type="checkbox"><span>Has descendants</span></label><label><input id="catalogue-women-married-glasgow" type="checkbox"><span>Women who married a Glasgow</span></label><label><input id="catalogue-missing-profile" type="checkbox"><span>No confirmed WikiTree link</span></label><label><input id="catalogue-needs-wikitree-update" type="checkbox"><span>Needs updated on WikiTree</span></label><label><input id="catalogue-has-suffix" type="checkbox"><span>Has suffix</span></label></div><button id="catalogue-search-clear" class="catalogue-clear" type="button" disabled>Reset filters</button></div></form></section>
 <div id="catalogue-results" class="catalogue-results search-results" aria-live="polite"></div>
 {update_preview_html}
 {candidate_worklist["preview_html"]}
@@ -5501,7 +5727,7 @@ def build_research_catalog(records: list[dict], profiles: dict[str, dict], edges
 <a class="browse-card" href="/compare.html"><strong>Compare two people</strong><span>Shared family, place and evidence context</span></a>
 <a class="browse-card" href="?region=Ireland"><strong>Irish Glasgows</strong><span>{irish_count:,} people with mapped Irish associations</span></a>
 <a class="browse-card" href="?to=1699"><strong>Before 1700</strong><span>{early_count:,} early people and documentary occurrences</span></a>
-<a class="browse-card" href="?missingProfile=1"><strong>WikiTree profile workbench</strong><span>{missing_profile_count:,} unlinked documentary entries; collective and insufficiently named records are flagged rather than treated as people to create</span></a>
+<a class="browse-card" href="?missingProfile=1"><strong>WikiTree identity workbench</strong><span>{missing_profile_count:,} documentary identities without confirmed destinations: {profile_work_counts['creation_ready']:,} creation-ready, {profile_work_counts['existing_profile_candidate']:,} possible existing-profile matches on HOLD, {profile_work_counts['identity_hold']:,} identity-insufficient HOLD, {profile_work_counts['free_space_only']:,} pre-1500 subjects missing an individual Space page, and {profile_work_counts['unreviewed']:,} awaiting review</span></a>
 <a class="browse-card" href="?needsUpdate=1"><strong>Needs updated on WikiTree</strong><span>{len(ranked_updates):,} profiles ranked by significance, with paste-ready or exact manual corrections</span></a>
 <a class="browse-card" href="?missingFather=1"><strong>Missing fathers</strong><span>{missing_father_count:,} people without a recorded father</span></a>
 <a class="browse-card" href="?original=1"><strong>Original-record evidence</strong><span>{original_count:,} people linked to original evidence</span></a>
@@ -5635,7 +5861,11 @@ def build_research_catalog(records: list[dict], profiles: dict[str, dict], edges
                 for record in person["records"]
             ),
             "has_profile": bool(person["profile_ids"]),
-            "missing_profile": not person["profile_ids"],
+            "wikitree_free_space_url": person["wikitree_free_space_url"],
+            "has_wikitree_destination": person["has_wikitree_destination"],
+            "missing_profile": not person["has_wikitree_destination"],
+            "profile_work_status": person["profile_work_status"],
+            "profile_work_candidate_count": person["profile_work_candidate_count"],
             "needs_wikitree_update": person["catalogue_id"] in profile_updates_by_catalogue,
             "wikitree_update_significance": int(profile_updates_by_catalogue.get(person["catalogue_id"], {}).get("significance") or 0),
             "wikitree_update_summary": profile_updates_by_catalogue.get(person["catalogue_id"], {}).get("summary") or "",
@@ -5692,7 +5922,7 @@ def build_research_catalog(records: list[dict], profiles: dict[str, dict], edges
         json.dumps(public_wikitree_evidence, ensure_ascii=False, separators=(",", ":")) + "\n",
         encoding="utf-8",
     )
-    csv_fields = ["catalogue_id", "name", "profile_ids", "first_names", "last_names_at_birth", "last_names_current", "suffixes", "has_suffix", "gender", "birth", "birth_note", "birth_location", "birth_location_note", "death", "death_location", "spouses", "father", "mother", "children", "cluster", "clusters", "descendants", "evidence", "recorded_in", "regions", "record_count", "derived_children_count", "outside_export_parent_references", "relationship_warnings", "profile_created", "profile_last_updated", "profile_connected", "reported_children_count", "dna_flags", "wikitree_evidence_profiles", "wikitree_evidence_captured", "wikitree_record_passage_count", "wikitree_source_count", "wikitree_external_url_count", "wikitree_location_claims", "export_version", "catalogue_generated", "catalogue_url", "wikitree_urls"]
+    csv_fields = ["catalogue_id", "name", "profile_ids", "wikitree_free_space_url", "has_wikitree_destination", "profile_work_status", "profile_work_candidate_count", "first_names", "last_names_at_birth", "last_names_current", "suffixes", "has_suffix", "gender", "birth", "birth_note", "birth_location", "birth_location_note", "death", "death_location", "spouses", "father", "mother", "children", "cluster", "clusters", "descendants", "evidence", "recorded_in", "regions", "record_count", "derived_children_count", "outside_export_parent_references", "relationship_warnings", "profile_created", "profile_last_updated", "profile_connected", "reported_children_count", "dna_flags", "wikitree_evidence_profiles", "wikitree_evidence_captured", "wikitree_record_passage_count", "wikitree_source_count", "wikitree_external_url_count", "wikitree_location_claims", "export_version", "catalogue_generated", "catalogue_url", "wikitree_urls"]
     with (DATA_DIR / "people.csv").open("w", encoding="utf-8-sig", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=csv_fields)
         writer.writeheader()
@@ -5718,7 +5948,10 @@ def build_research_catalog(records: list[dict], profiles: dict[str, dict], edges
             row["export_version"] = export_version
             row["catalogue_generated"] = generated
             row["catalogue_url"] = f"{SITE_URL}/people/{person['catalogue_id']}.html"
-            row["wikitree_urls"] = " | ".join(WIKITREE_URL + profile_id for profile_id in person["profile_ids"])
+            row["wikitree_urls"] = " | ".join(
+                [*(WIKITREE_URL + profile_id for profile_id in person["profile_ids"]),
+                 *([person["wikitree_free_space_url"]] if person.get("wikitree_free_space_url") else [])]
+            )
             writer.writerow(row)
 
     record_fields = [

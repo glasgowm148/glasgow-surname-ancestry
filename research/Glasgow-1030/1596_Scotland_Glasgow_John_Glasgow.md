@@ -1,26 +1,29 @@
-This is set as [[Glasgow-1030|John Glasgow]], however it may conflate two men: Robert the fisher's son and the John who married Jonet Mathie and is currently presented as George's son.
+This is set as [[Glasgow-1030|John Glasgow]], but it may conflate two men:
+Ninian's testament-named brother and the John who married Jonet Mathie and is
+currently presented as George's brother.
 
-# Evidence draft: John Glasgow, son of Robert the fisher
+# Evidence draft: John Glasgow, brother of Ninian Glasgow
 
 {{Estimated Date}}
-{{One Name Study|name=Glasgow}}
+[[Category:Glasgow Name Study]]
 
 == Biography ==
 
-John Glasgow was a son of [[Glasgow-1096|Robert Glasgow]], fisher and burgess of Glasgow, and a
-brother of [[Glasgow-3188|Ninian Glasgow]]. The relationship is established by
-two independent records. Ninian's burgess admission on 23 October 1596 calls
-him the "second son to Robert G., fisher, burgess." Ninian's testament, made at
-Glasgow on 10 January 1613, leaves "Johne glasgw his brother ane new gowne."
-The combined wording establishes that [[Glasgow-1096|Robert]] had another son John and strongly
-suggests that John was the elder or first son.<ref>James R. Anderson, ed.,
+John Glasgow was a brother of [[Glasgow-3188|Ninian Glasgow]]. Ninian's burgess
+admission on 23 October 1596 calls Ninian the "second son to Robert G., fisher,
+burgess." Ninian's testament, made at Glasgow on 10 January 1613, expressly
+names "Johne glasgw his brother." The following clothing description is not
+secure enough to quote. The combined wording proves the brother relationship,
+but does not say whether John was a full or half-brother. Ninian's father
+[[Glasgow-1096|Robert]] is therefore only a possible father of John, and the
+phrase *second son* does not show whether John was older or younger than
+Ninian.<ref>James R. Anderson, ed.,
 ''Burgesses & Guild Brethren of Glasgow, 1573-1750'' (Scottish Record Society,
 1925), [https://archive.org/details/scottishrecordso43scotuoft/page/24/mode/2up
 p. 24], entry dated 23 October 1596: "Glasgow, Ninian, B. and F., as second son
 to Robert G., fisher, burgess"; National Records of Scotland, Glasgow
 Commissary Court, CC9/7/9, images 142-145, testament testamentar and inventory
-of Ninian Glasgow, made 10 January 1613 and confirmed 8 May 1613: "Item to
-Johne glasgw his brother ane new gowne."</ref>
+of Ninian Glasgow, made 10 January 1613 and confirmed 8 May 1613.</ref>
 
 John was alive when Ninian made the testament on 10 January 1613. The source
 does not give John's age, occupation, residence, spouse or children.
@@ -44,7 +47,8 @@ candidate for the record-defined son.
 Suggested creation data:
 * Birth: before 1596, probably Glasgow, Scotland; date and place uncertain.
 * Death: after 10 January 1613; place unknown and date uncertain.
-* Father: [[Glasgow-1096|Robert Glasgow]], fisher and burgess.
+* Possible father: [[Glasgow-1096|Robert Glasgow]], fisher and burgess; not
+  directly proved because John may have been Ninian's half-brother.
 * Mother: unknown. Robert's documented spouse Margaret Rowand is a candidate,
   but no record found calls her John's mother.
 * Brother: [[Glasgow-3188|Ninian Glasgow]], certain.

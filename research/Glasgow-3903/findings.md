@@ -1,8 +1,16 @@
 # Findings: Glasgow-3903
 
-Last updated: 2026-08-19
+Last updated: 2026-09-05
 
 ## Current answer
+
+### Civil-date correction, 5 September 2026
+
+The original civil register records James's death at Inishrush on **12 December
+1878**, not 11 December. The published stone transcription gives 11 December.
+Treat this as a one-day source conflict, not as two deaths, and use the original
+civil-register date for the structured death. Henry Glasgow's presence at death
+does not state his relationship.
 
 James Glasgow is directly identified as Adam and Rose Glasgow's son by the family
 gravestone. He is no longer the best identity for the James in the 1847
@@ -15,10 +23,10 @@ in the report. Do not attach the unnamed child to this older James.
 
 | Source | Finding | Assessment |
 | --- | --- | --- |
-| [Tamlaght O'Crilly Lower gravestone](https://www.oneirishrover.com/tamlaght-graveyard/) | The stone calls James the son of Adam and Rose Glasgow and records his death on 11 December 1878 aged 84. | Direct evidence for his parents, approximate birth, and death. |
+| [Tamlaght O'Crilly Lower gravestone](https://www.oneirishrover.com/tamlaght-graveyard/) | The stone calls James the son of Adam and Rose Glasgow and transcribes his death as 11 December 1878 aged 84. | Direct relationship evidence for his parents and approximate birth; its date conflicts by one day with the civil register. |
 | [John Glasgow letter, 20 March 1847](https://www.hiltner.com/mckeown/documents/John%20Glasgow%20letter%20to%20Jane%20Glasgow%20Gray%203-20-1847.pdf) | John said that an Irish letter from R. Mulhollan reported a belief that James Glasgow had an illegitimate heir by his servant, an unnamed daughter of Henry Barkly. | Near-contemporary but second-hand. The original 1851 marriage below now identifies a much stronger James and Barkley-daughter couple. The report should not be assigned to this older James. |
 | [Original marriage of James Glasgow and Rosanna Barkley, 17 March 1851](../Glasgow-1622/sources/irishgenealogy_1851_james_glasgow_rosanna_barkley_marriage.pdf) | James `Glasgow-1623`, 38, bachelor, farmer of Inishrush and son of Adam Glasgow, married Rosanna Barkley, about 25, farm servant of Tyanee and daughter of Henry Barkley. | The exact name, father/daughter, servant status and locality match make this younger couple the compelling subjects of the 1847 report. It is exclusionary evidence against assigning the report to `Glasgow-3903`; the child remains unnamed. |
-| [IrishGenealogy indexed record](https://www.irishgenealogy.ie/view/?record_id=cide-5928386) and [original civil death return](https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1878/020497/7192875.pdf) | James Glasgow, married farmer of Inishrush, reported age 84, died 11 December 1878. Henry Glasgow of Inishrush was present at death. | Confirms the gravestone date and residence. The return does not state Henry's relationship; the younger James's marriage removes the former reason for treating Henry as the leading 1847 child candidate. |
+| [IrishGenealogy indexed record](https://www.irishgenealogy.ie/view/?record_id=cide-5928386) and [original civil death return](https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1878/020497/7192875.pdf) | James Glasgow, married farmer of Inishrush, reported age 84, died **12 December 1878**. Henry Glasgow of Inishrush was present at death. | Original-register date and residence. The return does not state Henry's relationship; the younger James's marriage removes the former reason for treating Henry as the leading 1847 child candidate. |
 | [PRONI valuation revision book `VAL/12/B/34/10D`](sources/val12b_34_10d_plot29_james_roseanne_adam.jpg) | James was struck out as occupier of Inishrush plot 29; Rose Anne was inserted with an 1884 annotation and later Adam with an 1893 annotation. | Direct occupancy succession, not stated kinship. |
 | [Irish civil death return for Roseanne Glasgow](sources/roseanne_glasgow_death_1888.pdf) | Roseanne, a farmer's widow aged 65, died at Inishrush on 22 April 1888; daughter Mary informed. | Her age and residence now fit Rosanna Barkley `Barkley-2097` and the valuation succession may belong to the younger couple, not this James. No inspected record explicitly names Roseanne's husband or maiden surname, so identity remains probable rather than proved. |
 | [PRONI Guide to Church Records](https://www.proni.gov.uk/files/proni/2026-01/PRONI%20Guide%20to%20Church%20Records.pdf), Second Portglenone `MIC1P/357`, and [access audit](sources/second_portglenone_register_access_manifest.md) | First Portglenone baptisms stop in 1846 and resume in 1852. Second Portglenone baptisms survive for 1821-67, including 1845-49. No public image, transcript, or name extract was found; access is onsite PRONI microfilm or Coleraine/CFHS reel 179. Its session minutes begin only in 1881. | The probable birth window is covered by a surviving but unread baptism register. RootsIreland and UHF online coverage cannot test it. No baptism or discipline-case negative can be claimed. |
@@ -61,7 +69,7 @@ again.
 
 | Outstanding change | Source | Confidence |
 | --- | --- | --- |
-| Change the structured death date from year-only `1878` to **11 December 1878**. The structured death place is already Inishrush. | [Original civil death return](https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1878/020497/7192875.pdf) | High |
+| Change the structured death date to **12 December 1878**. The structured death place is already Inishrush. Preserve the stone's 11 December transcription as a conflict note. | [Original civil death return](https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1878/020497/7192875.pdf) | High |
 | Remove the implication that the 1847 report concerned this James. The younger James `Glasgow-1623` and Rosanna Barkley are the exact record-backed match. | [Original 1851 marriage](../Glasgow-1622/sources/irishgenealogy_1851_james_glasgow_rosanna_barkley_marriage.pdf) | High for the couple; the child remains unknown |
 | Add First Kilrea session minutes `MIC1P/87` (1825-1852) and Drimbolg session/discipline book `MIC1C/15` (1809-1859) as unread targets for the reported 1846 event. | [County Londonderry church-record guide](https://www.billmacafee.com/churchrecords/churchrecordsderry.pdf) | High for record coverage; no result yet |
 
@@ -75,7 +83,7 @@ again.
 | Possible later successor | Adam Glasgow, no securely identified profile | Do not attach as son from valuation succession alone. |
 | Possible child/informant | Henry Glasgow, no securely identified profile | Do not attach as son merely because he informed the death. |
 
-Keep the existing parents and biography. Set the structured death date to **11
+Keep the existing parents and biography. Set the structured death date to **12
 December 1878** and mark it certain from the original civil return. Birth about
 1794 remains an age-derived estimate.
 
@@ -106,8 +114,9 @@ aid only, not a WikiTree source.
 
 ## Recommended correction applied
 
-Verified live **19 August 2026**: the structured death is now the record-proved
-**11 December 1878**, marked certain.
+The live structured date was set on 19 August 2026 to 11 December from the stone
+transcription. The original civil register instead says **12 December 1878**;
+the live value therefore requires correction.
 
 ## Error 966 link migration — 29 August 2026
 

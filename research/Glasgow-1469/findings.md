@@ -21,3 +21,19 @@ Inspect the original Old Parish Register image and establish the attached father
 The profile now documents the unrelated 1645 citation, the Glasgow/Kilwinning
 place conflict, the extracted 1736 baptism and the unproved parent identities.
 No attached parent or structured location was changed.
+
+<!-- BEGIN FMP-GLASGOW-fmp-glasgow-13b02996f4c1 -->
+## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-13b02996f4c1
+
+The transcript-validated baptism record for **James Glasgow**, 12 Dec 1736, Kilwinning, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
+
+## Source findings
+
+- [SCOT/OPR/BAP/3627666 Findmypast transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3627666&tab=this): Archive reference: OPR 599/2; Baptism date: 12 Dec 1736; Baptism year: 1736; Birth date: 30 Nov 1736; Birth year: 1736; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Ayrshire; Father's first name(s): James; Father's last name: Glasgow; First name(s): James; Item: 2; Last name: Glasgow; Mother's first name(s): Isabell; Mother's last name: Ross; Page: 58; Place: Kilwinning; Record set: Scotland, Parish Births & Baptisms 1564-1929; Register year range: 1789-1819; Subcategory: Parish Baptisms (captured 2026-09-03T23:44:20.453Z).
+- Findmypast record IDs: `SCOT/OPR/BAP/3627666`.
+- Stable research/source ID: `fmp-glasgow-13b02996f4c1`.
+
+## Recommended action — fmp-glasgow-13b02996f4c1
+
+Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
+<!-- END FMP-GLASGOW-fmp-glasgow-13b02996f4c1 -->

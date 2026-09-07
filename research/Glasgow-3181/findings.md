@@ -36,7 +36,17 @@ qualified as described below.
 | Renwick, *Protocols*, vol. 7, protocol 2002, 19 December 1573, printed p. 36 | “Robert Glasgw” and “John Glasgw,” both fishers, witnessed the same Bridgegate transaction. Earlier 1571-73 protocols also show a John Glasgow as a burgh landholder. | A likely later occurrence of the burgh son, but the record does not say whose son he was. It cannot be assigned to the Hirdmanscheillis testator as fact. |
 | Hardy Bertram McCall, *The History and Antiquities of the Parish of Mid-Calder* (1894), [barony-court extracts](https://www.electricscotland.com/history/westcalder/mid_calder.pdf) | The surviving Calder-Comitis court extracts call the place **Hirdmanscheillis/Hirdmanschiels** and show John Stevenson younger there as bailie in 1583 and at the 1586 wappenschaw. Later passages explicitly gloss Hirdmanschiels as **Hermand**. | Places John's farm in the rural Calder/West Calder network, not in Glasgow burgh. No transfer from Glasgow to Stevenson is preserved in the published extracts. |
 | *The Germanic Toponymicon of Southern Scotland*, University of Glasgow thesis, [place-name entry](https://theses.gla.ac.uk/1343/1/2003scott1phd.pdf) | The Hermand entry gives the historical forms “Hirdmanscheill(i)s” (1583) and “Hirdmans(c)hiel(l)s” (1585-86), in West Calder. | Scholarly confirmation of the modern place identification. |
-| James R. Anderson, ed., *Burgesses & Guild Brethren of Glasgow, 1573-1750*, [p. 24, 23 October 1596](https://archive.org/details/scottishrecordso43scotuoft/page/24/mode/2up); NRS Glasgow Commissary Court `CC9/7/9`, Ninian Glasgow's 1613 testament | The burgess roll calls Ninian the **second son of Robert Glasgow**, fisher and burgess. Ninian's testament leaves a new gown to “Johne Glasgw his brother,” who was necessarily alive in 1613. | Directly contradicts the present treatment of Ninian as this John's brother: Glasgow-3181 died in 1576, and Ninian's father was Robert, not John senior. |
+| James R. Anderson, ed., *Burgesses & Guild Brethren of Glasgow, 1573-1750*, [p. 24, 23 October 1596](https://archive.org/details/scottishrecordso43scotuoft/page/24/mode/2up); NRS Glasgow Commissary Court `CC9/7/9`, Ninian Glasgow's 1613 testament | The burgess roll calls Ninian the **second son of Robert Glasgow**, fisher and burgess. Ninian's testament expressly calls “Johne Glasgw” his brother, who was necessarily alive in 1613; the following clothing description is insecure. | Directly contradicts the present treatment of Ninian as this John's brother: Glasgow-3181 died in 1576, and Ninian's father was Robert, not John senior. |
+
+## Findmypast surname-only audit — 3 September 2026
+
+[Findmypast transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FWILLS%2F057444)
+identifies **John Glasgow**, with additional information **“in Hirmenschelis,”**
+and date **4 May 1577**. This is the court/index date rather than the death
+date: the underlying testament records John in Hirmanscheillis as dead in
+November 1576. The transcript is a derivative index and independently matches
+the record-defined man represented by `Glasgow-3181`; it does not resolve his
+parentage.
 
 ## Identity analysis
 
@@ -75,3 +85,19 @@ Edit summary: `Separate the Hirmanscheillis testator who died in 1576 from Ninia
 - The Edinburgh Commissary testament index for 1514-1600 contains John's Hirmanscheillis entry but no later Hoghame or daughter entry establishing parentage.
 - The published Calder barony-court extracts begin in 1583, seven years after John died. They show the Stevenson occupation of Hirdmanscheillis but preserve no Glasgow-to-Stevenson transfer or family relationship.
 - The NRS `GD119` Torphichen/Sandilands catalogue was searched for Hirdmanscheillis/Hermand and Glasgow variants. No 1570s transfer or parent/sibling record for John was exposed in the online catalogue.
+
+<!-- BEGIN FMP-GLASGOW-fmp-glasgow-f25b7384f2e9 -->
+## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-f25b7384f2e9
+
+The transcript-validated testament/probate record for **John Glasgow**, 4 May 1577, , is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
+
+## Source findings
+
+- [SCOT/WILLS/057444 Findmypast transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FWILLS%2F057444&tab=this): Additional information: in Hirmenschelis; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Commissariot: Edinburgh; Country: Scotland; Date: 4 May 1577; First name(s): John; Last name: Glasgow; Publication: Commissariot Record Of Edinburgh Register Of Testaments Part I (1514-1600); Record set: Scotland, Will And Testament Index 1481-1807; Subcategory: Wills & Probate; Year: 1577 (captured 2026-09-03T21:33:03.976Z).
+- Findmypast record IDs: `SCOT/WILLS/057444`.
+- Stable research/source ID: `fmp-glasgow-f25b7384f2e9`.
+
+## Recommended action — fmp-glasgow-f25b7384f2e9
+
+Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
+<!-- END FMP-GLASGOW-fmp-glasgow-f25b7384f2e9 -->

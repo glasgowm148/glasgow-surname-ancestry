@@ -33,8 +33,24 @@ Isobel is best placed as a possible daughter or niece of
 [Ninian Glasgow (Glasgow-3188)](https://www.wikitree.com/wiki/Glasgow-3188).
 Her tailor husband belongs to the same Edinburgh craft-marriage cluster as two
 Glasgow women who married cordiners. Ninian's son Robert was a cordiner; his
-probable son William moved into Leith and William's son was apprenticed to a
+possible son William moved into Leith and William's son was apprenticed to a
 cordiner. This makes Ninian's household or immediate collateral circle the
 leading branch, although no source names Isobel's father.
 
 Assessment: **possible daughter/niece, moderate**.
+
+<!-- BEGIN FMP-GLASGOW-fmp-glasgow-27ad044d0e56 -->
+## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-27ad044d0e56
+
+The transcript-validated marriage record for **Issobell Glasgow**, 10 Jun 1619, Edinburgh, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
+
+## Source findings
+
+- [R_695879939/2 Findmypast transcript](https://www.findmypast.co.uk/transcript?id=R_695879939%2F2&tab=this): Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Midlothian; First name(s): Issobell; Last name: Glasgow; Marriage date: 10 Jun 1619; Marriage year: 1619; Place: Edinburgh; Record set: Scotland, Parish Marriages & Banns 1561-1893; Spouse's first name(s): Williame; Spouse's last name: Symountoun; Subcategory: Parish Marriages (captured 2026-09-03T21:32:05.466Z).
+- Findmypast record IDs: `R_695879939/2`.
+- Stable research/source ID: `fmp-glasgow-27ad044d0e56`.
+
+## Recommended action — fmp-glasgow-27ad044d0e56
+
+Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
+<!-- END FMP-GLASGOW-fmp-glasgow-27ad044d0e56 -->

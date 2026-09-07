@@ -2,6 +2,15 @@
 
 Robert Glasgow is a distinct Prescott shipbuilder in official and local history, but the cited 1842 census frame does not contain a readable Glasgow entry and the estate index year 1849 conflicts with the reported 1856 death.
 
+A supplied will account says an 1849 will, registered in 1856, divided Robert's
+estate into six shares: brothers Daniel, Samuel, John and Thomas; the children
+of deceased brother James collectively; and sister Mary. Alexander is not
+named. The FamilySearch image `3Q9M-CSLG-LWY9-S` was not retrieved during the
+audit, so the clause remains an earlier-audit transcription rather than a newly
+inspected original. If accurate, it allows Alexander to be a child of deceased
+James, but does not establish that placement or identify this Canadian sibling
+group with the Kilrea/Lisnagaver men.
+
 ## Minimum creation fields if resolved
 
 - **Name:** Robert Glasgow
@@ -47,6 +56,11 @@ A derivative Leeds and Grenville estate index lists “Glasgow Robert 1849.” T
 
 The local One Tree export and public WikiTree indexing were searched again on 13 August 2026. No Prescott shipbuilder profile was found. [[Glasgow-1367|Robert Glasgow of Glenleslie]], [[Glasgow-1171|Robert Glasgow of New York]], and [[Glasgow-1983|Robert Glasgow of South Carolina]] are incompatible identities. His origin in Kilrea or Ireland must not be inferred from Samuel's later notice.
 
+The six-share account is a promising kinship source, not permission to attach
+the named brothers to the similarly named Kilrea/Lisnagaver profiles. Retrieve
+and inspect the original image and registration before using its relationships
+in structured data.
+
 == Sources ==
 
 <references />
@@ -61,4 +75,3 @@ The local One Tree export and public WikiTree indexing were searched again on 13
 ## Resolution test
 
 Create only after the correct 1842 census frame, the original 1849 estate file or the property deed chain distinguishes Robert and resolves the 1849/1856 conflict. Attach Samuel only if one of those records names the relationship.
-

@@ -1,14 +1,11 @@
-# Controlling profile summary for Glasgow-987
-
-The catalogue builder merges this corrected summary into the complete captured
-WikiTree biography. This file is not a standalone replacement.
+# Paste-ready replacement profile: Glasgow-987
 
 ```wikitext
 {{Estimated Date}}
+{{Ireland Native}}
+[[Category:Glasgow Name Study]]
 
 == Biography ==
-
-{{One Name Study|name=Glasgow}}
 
 '''Thomas Glasgow''' was born about 1815 in County Antrim, Ireland. He married
 Mary Ann McCracken about 1840. In 1851 Thomas was a farmer at Lisnagaver with
@@ -35,26 +32,26 @@ publicly available for this pre-1871 death.
 [[Glasgow-3896|Daniel Glasgow]] of Kilrea named his late brother Thomas and his
 nephew Daniel Neely Glasgow in his 1871 will.<ref name="DanielWill">[https://apps.proni.gov.uk/willscalendar_ie/willssearch.aspx Public Record Office of Northern Ireland, Will Calendars], registered will of Daniel Glasgow of Kilrea, proved 1871.</ref> Daniel Neely Glasgow's 1888 marriage names his father as Thomas Glasgow, farmer, and gives his residence as Lisnagaver.<ref name="DanielNeelyMarriage">[https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1888/10763/5925382.pdf General Register Office of Ireland, civil marriage register], Daniel Neely Glasgow and Mary Jane Boyd, 28 June 1888.</ref> The two records directly prove that this Thomas and Daniel were brothers.
 
-=== Parents and probable brother ===
+=== Parents and possible brother or cousin ===
 
 A descendant account names [[Glasgow-3904|Alexander Glasgow]] and Rosanna as
 Thomas's parents.<ref name="DescendantAccount">[https://www.genesreunited.co.uk/boards/board/general_topics/thread/465937 “Trying to find Glasgow,” ''Genes Reunited''], descendant account posted 25 January 2007.</ref> No contemporary record inspected names either parent, so both links remain uncertain. Rosanna's surname should remain Unknown.
 
-[[Glasgow-951|Alexander Glasgow of Lisnagaver]] is a probable brother based on
-age, locality, household clustering, the descendant tradition and Y-DNA from
-his male line. No document yet states that relationship.
+[[Glasgow-951|Alexander Glasgow of Lisnagaver]] is a possible brother or cousin
+based on age, locality, household clustering, the descendant tradition and
+Y-DNA from his male line. No document yet states the immediate relationship.
 
 === Other children ===
 
 The 1851 census directly supports Rose Ann, Eliza, Jane, Nancy and Margaret as
 Thomas's daughters. Daniel Neely's marriage directly proves him as Thomas's
-son. Catherine and Sarah remain plausible later daughters; the available
-records establish their married identities but do not independently name
-Thomas as father.
+son. Catherine remains a plausible later daughter. Sarah is directly proved as
+Thomas's daughter by her 1885 marriage, which names Thomas Glasgow, farmer, as
+her father and gives Sarah's residence as Lisnagaver.<ref name="SarahMarriage1885">[https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1885/10855/5963591.pdf General Register Office of Ireland, civil marriage register], Charles Taylor and Sarah Glasgow, 12 March 1885.</ref>
 
 Sarah Glasgow married Charles Taylor. Civil births at Lisnagaver name her as
 the mother of Ellen, Catherine, Charles and Alexander Taylor, and a contemporary
-notice identifies John Glasgow Taylor as another son of Charles.<ref name="TaylorBirths">[https://www.irishgenealogy.ie/files/civil/birth_returns/births_1897/02142/1813179.pdf General Register Office of Ireland, civil birth register], Ellen Taylor, 1897; see also the linked 1899, 1902 and 1905 returns.</ref><ref name="JohnTaylorNotice">[https://paperspast.natlib.govt.nz/newspapers/NZTIM19160301.2.60 ''New Zealand Times'', 1 March 1916], John Glasgow Taylor.</ref> Her attachment as Thomas's daughter still depends on the descendant account.
+notice identifies John Glasgow Taylor as another son of Charles.<ref name="TaylorBirths">[https://www.irishgenealogy.ie/files/civil/birth_returns/births_1897/02142/1813179.pdf General Register Office of Ireland, civil birth register], Ellen Taylor, 1897; see also the linked 1899, 1902 and 1905 returns.</ref><ref name="JohnTaylorNotice">[https://paperspast.natlib.govt.nz/newspapers/NZTIM19160301.2.60 ''New Zealand Times'', 1 March 1916], John Glasgow Taylor.</ref> Her attachment as Thomas's daughter is supported directly by her marriage.
 
 === Additional sources consulted ===
 

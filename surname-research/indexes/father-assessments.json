@@ -203,15 +203,15 @@
       "evidence": [{"label": "case findings", "path": "../../research/Glasgow-3061/findings.md"}]
     },
     "Glasgow-3062": {
-      "father_id": "Glasgow-3188",
-      "status": "plausible",
-      "basis": "Jonet Meik's testament names a Marion Glasgow as a legatee within Ninian's household network, but does not call her a daughter; the biography also retains a conflicting placement note.",
+      "father_id": "Glasgow-1096",
+      "status": "uncertain",
+      "basis": "Ninian's 1613 testament directly calls Marion his sister, excluding him as her father. Robert is Ninian's proved father and a strong candidate for Marion, but the record does not distinguish full from half-sister.",
       "evidence": [{"label": "case findings", "path": "../../research/Glasgow-3062/findings.md"}]
     },
     "Glasgow-3075": {
       "father_id": "Glasgow-3188",
-      "status": "plausible",
-      "basis": "Ninian Glasgow's 1613 testament explicitly provides for a son William, but it gives no occupation or residence proving that son was William the Leith mealmaker. The attachment is plausible, not record-confirmed.",
+      "status": "uncertain",
+      "basis": "A William occurs in Ninian's damaged 1613 testament material, but the previously asserted sonship clause cannot be securely recovered and no record identifies him as the Leith mealmaker.",
       "evidence": [{"label": "case findings", "path": "../../research/Glasgow-3075/findings.md"}]
     },
     "Glasgow-3078": {
@@ -292,6 +292,11 @@
       "status": "confirmed",
       "basis": "John's 1577 testament calls Katherine and Marjorie Glasgow his and Margaret Hoghame's lawful children. The live profile is attached to that exact couple, uses Hirmanscheillis, and already gives Marjorie as its RealName, uniquely resolving the identity; FirstName Margaret is erroneous.",
       "evidence": [{"label": "case findings", "path": "../../research/Glasgow-3589/findings.md"}]
+    },
+    "Glasgow-3539": {
+      "status": "confirmed",
+      "basis": "The 1637 Saltcoats testament directly calls Marie a lawful child of John Glasgow, sailor, and Isobel Young. Glasgow-3539 is the high-confidence existing-profile match, but John's exact WikiTree identity remains on HOLD.",
+      "evidence": [{"label": "case findings", "path": "../../research/Glasgow-3539/findings.md"}]
     },
     "Glasgow-3590": {
       "father_id": "Glasgow-3181",
@@ -400,21 +405,21 @@
         }
       ]
     },
-    "Glasgow-3019": {
+    "Glasgow-1086": {
       "father_id": "Glasgow-3296",
-      "status": "contradicted",
-      "basis": "The original-record transcription for the proposed father identifies no child, and the attached son's profile is conflated across separate estates.",
+      "status": "uncertain",
+      "basis": "Glasgow-3019 redirects here. The 1685 Quothquan testament names widow Jonet but no parent; the Mid Calder baptism-to-Quothquan identity and father remain unproved.",
       "evidence": [
         {
           "label": "case findings",
-          "path": "../../research/Glasgow-3019/findings.md"
+          "path": "../../research/Glasgow-1086/findings.md"
         }
       ]
     },
     "Glasgow-3331": {
-      "father_id": "Glasgow-3019",
+      "father_id": "Glasgow-1086",
       "status": "uncertain",
-      "basis": "The asserted relationship depends on an original testament that must be re-read after conflation of the connected John profiles was established.",
+      "basis": "The 1685 testament names no child; the father edge depends on a secure reading of the separate 1662 original.",
       "evidence": [
         {
           "label": "case findings",
@@ -423,9 +428,9 @@
       ]
     },
     "Glasgow-3332": {
-      "father_id": "Glasgow-3019",
+      "father_id": "Glasgow-1086",
       "status": "uncertain",
-      "basis": "The profile's family depends on the conflated John profile and a 1662 original that has not been re-read.",
+      "basis": "The 1685 testament names no child; this placement depends on a secure reading of the separate 1662 original.",
       "evidence": [
         {
           "label": "case findings",

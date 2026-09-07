@@ -1,0 +1,527 @@
+[[Category:Glasgow Name Study]]
+[[Category:One Name Studies]]
+[[Category:DNA Projects]]
+
+<small>'''Glasgow Name Study:''' [[Space:Glasgow Name Study|project home]] · [[Space:Glasgow Research|research directory]] · [https://glasgow.phenotype.dev/ digital workbench]</small>
+
+== Introduction ==
+
+The '''Glasgow Name Study''' traces the Glasgow surname and its historical forms through records, reconstructed families and Y-DNA. Its story begins with medieval people described as ''de Glasgu''—“of” or “from Glasgow”—and continues through the burghs and countryside of Lowland Scotland, established households in Ulster and families around the world.
+
+The records reach much further back than any proved pedigree. Medieval merchants, churchmen, royal officials and property witnesses can be identified, but their relationships are mostly unknown. Sixteenth-century deeds, burgess admissions and testaments begin to name spouses, children and heirs, allowing the first secure Glasgow families to be reconstructed.
+
+The historical search includes ''de Glasgu'', ''de Glascu'', ''de Glasgw'', Glasgow, Glasgw, Glaskow, Glascho and closely comparable forms when the underlying record uses them for a person. These are record spellings, not proof that every bearer shared one origin. A locative could be acquired independently by people associated with the city, and a scribe's spelling could change between records. '''Glassford, Glasford, Glasfurd and Glasfuird''' are treated as a distinct surname family unless a primary record proves a bridge; MacCluskey and Glasscock are likewise not automatic Glasgow variants. The documented change from [[Glasgow-1220|Glasgow to Glass]] in one man's life is evidence for that individual, not a rule for merging the surnames generally.
+
+{| class="wikitable" style="width:100%; background:#f4f8ff; border:2px solid #6f91bd;"
+! style="background-color:#D9EAF7;" | How the surviving evidence changes over time
+|-
+| '''Medieval charters and institutional rolls''' preserve people when they witnessed property, entered a guild, served a church or acted for the Crown. They are unusually good at showing activity and mobility, but usually poor at showing a household. A run of isolated names therefore reflects the kind of record that survived as well as the state of the surname.<br/><br/>'''Sixteenth-century protocols, sasines, rentals, burgess admissions and testaments''' record possession, succession, marriage, debt and legal responsibility. They begin to expose spouses, parents, children, siblings and in-laws. The first reconstructable pedigree appears partly because the records have changed—not because Glasgow families suddenly came into existence.<br/><br/>'''Hearth-money and religious returns''' enumerate liable householders or household heads. They can prove that several households existed in one district, but not that their occupants were brothers or that everyone in the home was listed. '''Parish registers, wills, deeds and litigation''' can supply the explicit relationships those lists lack. '''Y-DNA''' can prove biological paternal affinity between tested lines; it cannot name the historical common ancestor without a documented pedigree.
+|}
+
+<span id="current_conclusion"></span>
+{| class="wikitable" style="width:100%; background:#f8fff8; border:2px solid #8DB600;"
+! style="background-color:#E1F0B4;" | Current conclusion
+|-
+| '''Personal ''de Glasgu'' usage is documented from the late twelfth century, and recognisable surname forms occur before 1500. The earliest directly proved multi-generation Glasgow burgh family begins with [[Glasgow-1098|William Glasgow]] and [[Brade-232|Esbell Brade]], whose son [[Glasgow-1093|John Glasgow]] is explicitly named in 1534. Strong same-title succession makes the John who held the Saltmarket property in 1527 William's probable father; the 1506 [[Space:John de Glasgow alias Smith / John Glasgow of Saltmarket'|John de Glasgow alias Smith]] is only a possible earlier occurrence of that man. Repeated adjoining-property, fisher, witness and Herbesoun links make [[Glasgow-1096|Robert]] and [[Glasgow-1097|Archibald]] William's probable sons and John's probable brothers, and [[Glasgow-3916|Isobella]] William's probable daughter and John's probable sister; only John is expressly called William's son. John's son William is confidently identified with [[Glasgow-3522|William, husband of Margaret Herbesoun]], whose son [[Glasgow-1099|George]] and children carry the documented line into the seventeenth century. The Corsinkell group is probably part of the same wider west-coast family, though its bridge to the burgh pedigree remains unproved; the Calder connection is weaker. No record yet joins any of these families to a named medieval bearer.'''
+|}
+
+'''Evidence key:''' ✅ documented by the stated record · 🟡 probable reconstruction · ⚠️ possible or traditional · ❌ contradicted or unsupported.
+
+{| class="wikitable" style="width:100%;"
+! style="background-color:#E1F0B4;" | Start here
+! style="background-color:#E1F0B4;" | Direct route
+! style="background-color:#E1F0B4;" | What it contains
+|-
+| 🏰 '''Before 1500'''
+| [https://www.wikitree.com/wiki/Space:Bearers_of_the_%27%27de_Glasgu%27%27_Name_and_the_Emergence_of_the_Glasgow_Surname%2C_c.1175%E2%80%931500 Medieval bearer register]
+| One page for every distinct bearer, with readings, dates and identity cautions.
+|-
+| 🌿 '''Early Scotland'''
+| [[Space:Glasgow Branches in 15th and 16th Century Scotland|Scottish branches, c.1447–1650]]
+| The proved and probable burgh family, with the less securely connected Ayrshire, Lothian and Border groups.
+|-
+| 🍀 '''Ireland'''
+| [[Space:Glasgow Branches in Early Ireland|Early Irish branches]]
+| Documentary locality groups, reconstructed households and migration questions.
+|-
+| 🧬 '''DNA'''
+| [[Space:Glasgow DNA|Glasgow DNA]] · [[Space:R-FT25406|R-FT25406]]
+| Tested paternal branches, estimates and the documentary limits of genetic evidence.
+|-
+| 🔎 '''Find anything'''
+| [[Space:Glasgow Research|Complete research directory]] · [https://glasgow.phenotype.dev/catalogue.html catalogue]
+| Every specialist page and a searchable index of people, records and places.
+|}
+
+'''On this page:''' [[#timeline|timeline]] · [[#surname_story|medieval origins]] · [[#burgh_families|first families]] · [[#regional_scotland|regional Scotland]] · [[#ulster|Ulster]] · [[#worldwide|worldwide families]] · [[#dna_research|DNA]] · [[#research_status|open questions]]
+
+''Synthesis reviewed 7 September 2026. Genetic estimates are dated working results and may change as more men test.''
+
+<span id="timeline"></span>
+== The history at a glance ==
+
+{| class="wikitable sortable" style="width:100%;"
+! style="background-color:#E1F0B4;" | Period
+! style="background-color:#E1F0B4;" | What the records reveal
+! style="background-color:#E1F0B4;" | Evidence position
+|-
+| '''c.1175–1400'''
+| People using ''de Glasgu'' appear in Glasgow, Dublin, church institutions and royal administration.
+| Personal use is documented; a continuous pedigree is not.
+|-
+| '''1447–1506'''
+| Repeated surname forms occur in Glasgow and Stirling, with a Border occurrence and a Glasgow holder also known as Smith.
+| Repeated personal use and increasingly surname-like forms are visible; hereditary transmission and relationships remain unproved.
+|-
+| '''1527–1633'''
+| Deeds, burgess admissions and testaments identify spouses, children, heirs, occupations and property.
+| A probable preceding generation and a proved burgh family continuing into the seventeenth century can be reconstructed.
+|-
+| '''1559–early 1600s'''
+| Additional households are documented at Corsinkell, in the Calder district and elsewhere in Lowland Scotland.
+| Some may be collateral to the burgh family; their internal relationships can be clearer than the missing bridge to it.
+|-
+| '''1650–1800'''
+| Religious conflict, ministry, Ulster households, leases, church records and wills produce several distinct family stories.
+| Multiple Glasgow households are documented in Ulster; their Scottish origins and relationships remain unresolved.
+|-
+| '''1700 onward'''
+| Families spread across North America, the Caribbean, Australasia and elsewhere; movement between Ireland and Scotland also continued.
+| Each migration must be followed through its own records.
+|}
+
+{| class="wikitable" style="width:100%; background:#f8fff8; border:2px solid #8DB600;"
+! style="background-color:#E1F0B4;" | Family map at a glance
+|-
+| ✅ '''Documented burgh core:''' [[Glasgow-1098|William Glasgow]] and [[Brade-232|Esbell Brade]] → their son [[Glasgow-1093|John Glasgow]]. John is expressly recorded as father of sons John, William and [[Glasgow-1029|Stephen]]; [[Spreull-4|Jonet Spreull]] was John's wife and is explicitly named as Stephen's mother, but the records do not call her mother of the other two sons. The younger William is confidently identified with [[Glasgow-3522|William, husband of Margaret Herbesoun]]; their proved son [[Glasgow-1099|George]] carried the line into a documented seventeenth-century family.<br/><br/>🟡 '''Probable joins:''' the 1527 John of Saltmarket was probably William's father; Robert the fisher and Archibald were probably William's sons and John's brothers; Isobella was probably William's daughter and John's sister. Their profile edges remain uncertain because no kin term survives. The Corsinkell–Stevenston–Kilwinning group is probably part of the same wider west-coast family, although its missing bridge is not yet proved.<br/><br/>⚠️ '''Unresolved Irish structure:''' East Antrim, Tamlaght O'Crilly–Inishrush, Derryloran and the Bann Valley each contain real households and some proved families. No evidence yet makes them descendants of one Irish founder or joins any one of them securely to the Scottish pedigree.
+|}
+
+<span id="surname_story"></span>
+== 1. From a place-name to settled surname forms, c.1175–1506 ==
+
+=== The medieval name ===
+
+The earliest secure direct bearer presently identified is '''[[Space:Roger of Glasgow|Roger de Glasgu]]''', witness to a Glasgow burgh and Clyde-fishery charter assigned to Bishop Jocelin's episcopate, approximately '''1175–1199'''. Roger is untitled there and must not be silently identified with a “Brother Roger” elsewhere. The same act's “William Gley de Glasgu” shows why syntax matters: a Glasgow phrase could identify a person, qualify another name or describe an association with the place.<ref name="Roger">Cosmo Innes, ed., ''Registrum Episcopatus Glasguensis'', vol. I (Edinburgh, 1843), no. 41, pp. 37–38; [https://archive.org/details/registrumepiscv175glasuoft digitised volume].</ref>
+
+The surviving names cluster around institutions that generated durable records:
+
+{| class="wikitable" style="width:100%;"
+! style="background-color:#E1F0B4;" | Setting
+! style="background-color:#E1F0B4;" | Bearers and records
+! style="background-color:#E1F0B4;" | Genealogical meaning
+|-
+| '''Dublin commerce, c.1190–1239'''
+| '''[[Space:Richard de Glasgu|Richard]]''' and '''[[Space:Robert de Glasgu (Dublin guild)|Robert de Glasgu]]''' entered the guild roll consecutively at the same assessment; '''[[Space:Gilbert de Glascu|Gilbert]]''' appears later. In 1238/39, '''[[Space:Alexander son of Robert de Glascu|Alexander]]''' was admitted as Robert de Glascu's son.<ref name="DublinGuild">Philomena Connolly and Geoffrey Martin, eds., ''The Dublin Guild Merchant Roll, c.1190–1265'' (Dublin, 1992), membranes 2d/B, 11d/B and 27/B; Dublin City Library and Archive [https://www.johngrenham.com/dcla/dmgr/browse.php?image_order=8 digital transcript].</ref>
+| The entries prove an early mercantile presence and one father–son relationship. They do not call Alexander “Glasgow” independently or prove that his father was the earlier guild entrant. Other contemporary Roberts in England and Scotland cannot be collapsed into one traveller.<ref name="EarlyRoberts">C. T. Flower, ed., ''Curia Regis Rolls'', vol. I (London, 1922), p. 354; D. E. Easson and Angus Macdonald, eds., ''Charters of the Abbey of Inchcolm'' (Edinburgh, 1938), no. XIV; [https://deeds.utsc.utoronto.ca/charters/03320015 DEEDS 03320015].</ref>
+|-
+| '''Church networks, 1259–1399'''
+| '''[[Space:John de Glasgu|John de Glasgu]]''' was Bishop Gamelin's chaplain in 1259 and probably a later Dunipace-charter witness; a separate '''[[Space:John of Glasgow (Holyrood)|John of Glasgow]]''' belonged to Holyrood in 1299.<ref name="John1259">''Registrum Prioratus Sancti Andree'' (1841), p. 173.</ref><ref name="CambusJohn">''Registrum Monasterii S. Marie de Cambuskenneth'', no. 81; [https://deeds.utsc.utoronto.ca/charters/07280081 DEEDS 07280081].</ref><ref name="HolyroodJohn">Joseph Bain, ed., ''Calendar of Documents Relating to Scotland'', vol. II, no. 1052; [https://poms.ac.uk/record/person/14528/ People of Medieval Scotland].</ref>
+| Clerical careers explain long-distance appearances and repeated names. Office, date and institutional continuity are needed before two occurrences become one person.
+|-
+| '''Glasgow property and royal service, c.1283–90'''
+| '''[[Space:Hugh de Glasgw|Hugh de Glasgw]]''' witnessed a Rottenrow conveyance. Nearby acts distinguish '''[[Space:Alexander_son_of_Richard_messenger_of_Glasgow|the messenger's son Alexander]]''' from '''[[Space:Alexander_son_of_Richard_constable_of_Glasgow|the former constable's son Alexander]]'''.<ref name="Paisley">''Registrum Monasterii de Passelet'' (1832), pp. 383–385; [https://deeds.utsc.utoronto.ca/charters/06190339 DEEDS 06190339].</ref><ref name="PaisleyAssociated">Ibid.; [https://deeds.utsc.utoronto.ca/charters/06190338/ DEEDS 06190338] and [https://deeds.utsc.utoronto.ca/charters/06190340/ DEEDS 06190340].</ref> The messenger's son is a possible match for royal escheator '''[[Space:Andrew de Glasgu|Alexander de Glasgow]]''' in 1289/90.<ref name="AlexanderEscheator">John Stuart and George Burnett, eds., ''The Exchequer Rolls of Scotland'', vol. I (1878), p. 47; [https://archive.org/details/rotuliscaccariir01scot digitised volume].</ref>
+| Hugh's byname was identifying him inside Glasgow itself. The two Alexanders' fathers were defined by offices, not proved hereditary surnames, and the escheator identity remains only possible.
+|-
+| '''Repeated fourteenth-century careers'''
+| '''[[Space:William de Glasgow (fl. 1315–1322, Durham)|William de Glascou]]''' was vicar of Corbridge in 1315 and 1322; '''[[Space:Master John de Glasgow (~1340 – 1419)|Master John]]''' was chancellor of Dunkeld in 1377 and 1384.<ref name="WilliamCorbridge">''Registrum Palatinum Dunelmense'', vol. II, pp. 759–760; ''A History of Northumberland'', vol. X, 19 November 1322.</ref><ref name="MasterJohn">''Registrum Episcopatus Glasguensis'', vol. I, p. 292; ''Registrum Monasterii de Passelet'', p. 331.</ref> A priest William, '''[[Space:John de Glasgu (father of Malcolm)|John, father of Malcolm]]''' and '''[[Space:William physician de Glasgu|William the physician]]''' remain distinct.<ref name="LaterFourteenth">''Petitions to the Pope, 1342–1419'', entries for 1394; ''Exchequer Rolls of Scotland'', vol. III, pp. 342, 356, 427.</ref>
+| Repeated office and date can establish a person's career. Shared forenames and compatible lifespans cannot establish descent or identity.
+|}
+
+{| class="wikitable" style="width:100%; background:#f4f8ff; border:2px solid #6f91bd;"
+! style="background-color:#D9EAF7;" | What the medieval evidence actually proves
+|-
+| ✅ A direct personal Glasgow locative is recorded by the late twelfth century. ✅ Repeated use by the same person is demonstrated for William de Glascou in 1315–1322 and for the secure core of Master John de Glasgow's later-fourteenth-century career. ✅ The 1238/39 Alexander and 1394 Malcolm entries use a Glasgow-designated father to identify a son.<br/><br/>Those father–son formulas are '''family-identifying use''', not yet demonstrated hereditary transmission: neither son is independently called Glasgow in the same record. The first secure parent–child bridge in which the related generations themselves carry Glasgow is William and John in 1534. Neither the presence nor disappearance of ''de'' alone proves inheritance, and ''de Glasgu'' is not a mark of nobility.
+|}
+
+=== Settled forms by the fifteenth century ===
+
+{| class="wikitable" style="width:100%;"
+! style="background-color:#E1F0B4;" | Bearer
+! style="background-color:#E1F0B4;" | Record
+! style="background-color:#E1F0B4;" | Significance
+|-
+| '''[[Space:John Glasgow-1|John de Glasgu]]'''
+| Glasgow property acts, 1447 and 1455.
+| A repeatedly recorded Glasgow burgess and witness.<ref name="John1447">''Liber Collegii Nostre Domine: Munimenta Fratrum Predicatorum de Glasgu'' (Glasgow, 1846), acts dated 21 June 1447 and 10 April 1455; [https://archive.org/details/libercollegiino00annegoog digitised volume].</ref>
+|-
+| '''[[Space:John Glasgw of Stirling|John Glasgw]]'''
+| Stirling property and endowment acts, 1475 and 1479/80.
+| Repeated use of the unprefixed form in another royal burgh.<ref name="StirlingJohn">''Charters and Other Documents Relating to the Royal Burgh of Stirling, A.D. 1124–1705'' (Glasgow, 1884), acts dated 11 April 1475 and 2 March 1479/80; [https://archive.org/details/chartersandothe00edingoog digitised volume].</ref>
+|-
+| '''[[Space:Alan Glasgw|Alan Glasgw]]'''
+| Named as a homicide victim in a remission produced at the Jedburgh justice ayre in 1495.
+| A Border occurrence; not evidence that Alan was alive or resident at Jedburgh in 1495.<ref name="Alan1495">Robert Pitcairn, ed., ''Criminal Trials in Scotland'', vol. I, part I (Edinburgh, 1833), p. 19.</ref>
+|-
+| '''[[Space:John de Glasgow alias Smith / John Glasgow of Saltmarket'|John de Glasgow alias Smith]]'''
+| Joint acquisition of a four-shilling annual rent from Glasgow High Street property in 1506.
+| A Glasgow designation coexisting with an explicit alternative name.<ref name="AliasSmith">Glasgow University Archives, Blackhouse Charters, GUA BL/204, formerly GUA 16403, instrument dated 28 April 1506; [https://yourscottisharchives.com/catalogues/565b7ef3-fc87-3f6f-aaac-149925faa39d?component-id=7cdbf375-dc6d-3de3-b53a-86376e2106da catalogue description].</ref>
+|}
+
+The Glasgow burgess and the Stirling witness might have been one mobile man, successive generations, collateral relatives or members of different families. No shared property or explicit relationship presently decides between those possibilities. The documentary name continues; the connecting genealogy does not.
+
+Taken together, the medieval records describe a world of institutions and movement rather than a single “Glasgow clan”. Guild members in Dublin, clergy connected with St Andrews, Holyrood and Corbridge, Glasgow property witnesses and a royal officer all carried a Glasgow designation through commercial, ecclesiastical and administrative networks. That geographical spread shows that the name had become useful away from the city; it does not show that the bearers shared a father-line. Hugh's appearance in a deed already situated in Glasgow is especially important because “de Glasgw” distinguishes the person where it cannot simply be explaining the place of the transaction.
+
+The two Alexanders around 1283 show how easily an index can manufacture a false identity: both can be shortened to “Alexander son of Richard, Glasgow”, yet the complete acts distinguish a deceased messenger from a former constable and place their sons in different roles. At the other end of the period, “John de Glasgow alias Smith” shows two identifiers coexisting in 1506. These are signs of surname development and documentary compression, not a continuous pedigree. No named medieval bearer has yet been connected to the sixteenth-century burgh family, and no inspected record supports proposed descent through Bishop Gamelin, the Comyns, Duffield, FitzAlan or a Norman founder.
+
+'''Full evidence:''' [https://www.wikitree.com/wiki/Space:Bearers_of_the_%27%27de_Glasgu%27%27_Name_and_the_Emergence_of_the_Glasgow_Surname%2C_c.1175%E2%80%931500 medieval bearer register and individual pages].
+
+<span id="burgh_families"></span>
+== 2. The first reconstructable burgh family and its probable branches ==
+
+The Glasgow town-clerk protocols change the nature of the evidence. Instead of isolated names, they record property passing between parents, children and spouses. Burgess admissions and testaments add occupations, siblings, children and legal responsibilities.
+
+A '''sasine''' records possession of property; a '''liferent''' reserves its use or income during someone's lifetime; and a '''curator''' assisted someone, including a minor, who required legal support. Those details often reveal a relationship where a parish register does not survive.
+
+=== John of Saltmarket: William's probable father ===
+
+An older '''[[Space:John de Glasgow alias Smith / John Glasgow of Saltmarket'|John Glasgow]]''' held a west-side Cross-to-South-Port tenement on 2 May 1527. In 1528/29 William Glasgow lay immediately north of the adjoining Henryson–Houston parcel, later shown to be Rankin's holding. A linked boundary sequence and recurring four-shilling institutional burden identify William's tenement as John's 1527 parcel; its fore tenement passed to William's proved son John in 1564.<ref name="JohnWilliam">''Liber Collegii Nostre Domine'', pp. 85–86, act dated 2 May 1527, and pp. 90–91, act dated 20 February 1528/29; St Andrew prebend rental, p. 36, confirmed 3 June 1542 and transumed 8 January 1548/49; Renwick, ''Abstracts of Protocols'', vol. IV, protocols 1201 and 1233, 17 February 1534/35 and 16 March 1535/36; vol. III, protocols 805 and 809–810, 28 October and 16 November 1564.</ref>
+
+Two separate inferences must not be collapsed. First, the change in recorded holder from the '''1527 Saltmarket John''' to William occurred within about twenty-one and a half months. That rapid same-title succession, followed by another father-to-son inheritance, makes the 1527 holder '''William's probable father'''. An immediate non-parental predecessor remains possible because no surviving deed uses an explicit kin term. Second, the name, city and property interests make the '''1506 John de Glasgow alias Smith''' a possible earlier occurrence of the 1527 holder, but no record supplies the alias in both clusters. The 1506 man acquired an annual rent from Watson property; the 1527 man's own tenement was burdened by an annual transferred to Houston. The equal four-shilling amounts therefore do not join the titles. The complete 1506 BL/204 instrument remains unread. Failure of that identity would not weaken the independent Saltmarket evidence for William's probable father. Eufame Craig, widow of an unnamed Glasgow whose liferent survived in the rear of the block, is the leading candidate for the 1527 John's wife. The detailed title reconstruction is maintained on John's individual page.
+
+=== William Glasgow and Esbell Brade ===
+
+'''[[Glasgow-1098|William Glasgow]]''' held Glasgow property by 20 February 1528/29 and witnessed a transaction in 1530/31. A man of the same name appears in royal remission no. 3412 in 1526, but that record lacks the household, occupation or property needed to prove that he was the burgess.<ref name="WilliamEarly">M. Livingstone, ed., ''Registrum Secreti Sigilli Regum Scotorum'', vol. I (Edinburgh, 1908), no. 3412, 2 July 1526; ''Liber Collegii Nostre Domine'', pp. 90–91, act dated 20 February 1528/29; Renwick, ''Abstracts of Protocols'', vol. IV, protocol 1058, 28 February 1530/31.</ref>
+
+On '''31 December 1534''', William and his wife '''[[Brade-232|Esbell Brade]]''' transferred a back tenement to '''their son [[Glasgow-1093|John Glasgow]] and John's wife [[Spreull-4|Jonet Spreull]]''', reserving the profits during the older couple's lives. William was dead by 16 March 1535/36. John took sasine as heir to his father in 1564.<ref name="WilliamJohn">Robert Renwick, ed., ''Abstracts of Protocols of the Town Clerks of Glasgow'', vol. IV, protocol 1196, printed p. 72, 31 December 1534; protocol 1233, 16 March 1535/36; vol. III, protocol 805, printed p. 57, 28 October 1564.</ref>
+
+Three sons of John are directly named in later deeds: John junior in 1563, William in 1565 and '''[[Glasgow-1029|Stephen Glasgow]]''' in 1575. In particular, John resigned a burgage tenement to William and expressly called him his son. Stephen's record also identifies Jonet Spreull as his mother.<ref name="JohnSons">Renwick, ''Abstracts of Protocols'', vol. III, protocol 748, 13 May 1563; protocol 847, 24 August 1565; vol. VII, protocol 2189, printed p. 110, 17 June 1575.</ref>
+
+{| class="wikitable" style="width:100%; background:#f8fff8; border:2px solid #8DB600;"
+! style="background-color:#E1F0B4;" | How the inheritance evidence should be read
+|-
+| ✅ In 1534 William and Esbell transferred property to '''their son John'''; in 1564 John took sasine as heir to his father William. ✅ In 1565 that John transferred a burgage tenement to '''his son William'''. The second father–son relationship therefore rests on explicit wording as well as land transmission. ✅ In 1586 George's succession named the younger William as his father and Margaret Herbesoun as his mother, while Stephen—William's proved brother—served among George's curators.<br/><br/>Heirship answers who succeeded to the specified heritable property; it is not a complete list of the dead man's children. John being William's heir therefore does '''not''' imply that William had no other sons or daughters. Robert and Archibald remain William's probable sons and John's probable brothers; Isobella remains William's probable daughter and John's probable sister. Only John is expressly called William's son. By contrast, the older John-to-William step has no kin term: it is graded probable because the linked boundary sequence and four-shilling institutional burden track the title as its recorded holder changed within about twenty-one and a half months, after which the property passed in a proved father-to-son succession.
+|}
+
+{| class="wikitable" style="width:100%; background:#f8fff8; border:2px solid #8DB600;"
+! style="background-color:#E1F0B4;" | Proved and probable burgh-family reconstruction
+|-
+| 🟡 '''[[Space:John de Glasgow alias Smith / John Glasgow of Saltmarket'|John Glasgow of Saltmarket, documented in 1527]]''' — probable father of William through rapid succession to the same property title; possibly, but not proved to be, the 1506 alias-Smith bearer<br/>↳ ✅ '''[[Glasgow-1098|William Glasgow]]''' + '''[[Brade-232|Esbell Brade]]''' — documented spouses<br/>↳↳ ✅ '''[[Glasgow-1093|John Glasgow senior]]''' — expressly their son and later William's heir<br/>↳↳ 🟡 '''[[Glasgow-1096|Robert Glasgow]]''' — probable son and John's probable brother through the property, fisher and witness network<br/>↳↳ 🟡 '''[[Glasgow-1097|Archibald Glasgow]]''' — probable son and brother through property succession and Robert's witness role<br/>↳↳ 🟡 '''[[Glasgow-3916|Isobella Glasgow]]''' — probable daughter and sister through her husband's repeated property and fisher links<br/>↳↳ ⚠️ '''[[Glasgow-3915|Elizabeth Glasgow]]''' — possible daughter or close kinswoman through the Sandilands–Kaine Calder network<br/><br/>'''John senior's proved children:''' John junior (exact profile unresolved); William, confidently identified with [[Glasgow-3522|the husband of Margaret Herbesoun]]; and [[Glasgow-1029|Stephen Glasgow]].<br/>↳↳↳ ✅ '''[[Glasgow-3522|William]]''' + '''[[Herbison-439|Margaret Herbesoun]]''' → '''[[Glasgow-1099|George Glasgow]]'''<br/>↳↳↳↳ ✅ George's documented children include daughters '''[[Glasgow-3061|Jonet]]''', '''[[Glasgow-1100|Margaret]]''' and '''[[Glasgow-1102|Barbara]]''', and a son '''[[Glasgow-1101|Archibald]]'''.
+|}
+
+The younger '''[[Glasgow-3522|William Glasgow]]''' is confidently identified with John's son William. Mychael Lyndesay witnessed both William's first located legal appearance in 1564 and John's 1565 conveyance to his son William; no competing living adult William Glasgow appears in the complete published protocol sequence searched through 1586. When William's proved son '''[[Glasgow-1099|George Glasgow]]''' succeeded him in 1586, John's other son Stephen witnessed and then acted among George's curators while George's mother '''[[Herbison-439|Margaret Herbesoun]]''' held liferent. The 1586 protocols directly name George's father and mother.<ref name="WilliamIdentity">Renwick, ''Abstracts of Protocols'', vol. III, protocols 795 and 847, 9 June 1564 and 24 August 1565; vol. IX, protocol 2903, printed p. 103, 15 July 1586, and protocol 2916, printed p. 107, 1 September 1586.</ref>
+
+George's family extends the proved burgh pedigree into the seventeenth century. Protocol 3492 records his 1598 marriage contract with '''[[Stewart-65226|Margaret Stewart]]''', daughter of Alexander Stewart. Their daughter '''[[Glasgow-1100|Margaret Glasgow]]''' was baptised in 1610, son '''[[Glasgow-1101|Archibald Glasgow]]''' in 1614 and daughter '''[[Glasgow-1102|Barbara Glasgow]]''' in 1617. The 1624 admission of Jonet's husband John Stewart, mason, and the 1633 admission of Margaret's husband James Stewart, merchant, independently call the women George's lawful daughters; the 1624 entry does not name Jonet's mother. Archibald's proposed identification with a later Donegal clerk remains unproved, while Thomas and William candidates still require record-to-profile audit before inclusion as documented children.<ref name="GeorgeFamily">Renwick, ''Abstracts of Protocols'', vol. XI, protocol 3492, printed pp. 86–87, 13 November 1598; Glasgow High Kirk baptisms: Margaret Glasgow, 6 May 1610, ScotlandsPeople parish 644/1, volume 1/233; Archibald Glasgow, lawful son of George Glasgow and Margaret Stewart, 19 June 1614, parish 644/1, volume 1/1329; [https://www.findmypast.co.uk/transcript?id=R_693724617&tab=this Findmypast transcript, record R_693724617]; and Barbara Glasgow, 21 October 1617, parish 644/1, volume 1/2353; James R. Anderson, ed., ''Burgesses & Guild Brethren of Glasgow, 1573–1750'' (Scottish Record Society, 1925), [https://archive.org/details/scottishrecordso43scotuoft/page/n75/mode/2up p. 61], 25 November 1624, and [https://archive.org/details/scottishrecordso43scotuoft/page/n100/mode/2up p. 86], 18 July 1633.</ref>
+
+Stephen's wife is independently named as '''[[Graham-38221|Margaret Grahame]]''' in a property transaction of 1582.<ref name="StephenMarriage">Renwick, ''Abstracts of Protocols'', vol. VIII, protocol 2431, printed pp. 56–58, 25 June 1582; [https://archive.org/details/abstractsofproto08glas/page/56/mode/2up digitised edition].</ref>
+
+=== Robert's probable branch of the burgh family ===
+
+'''[[Glasgow-1096|Robert Glasgow]]''' was a fisher, burgess and property-holder whose wife is recorded as '''[[Rolland-239|Margaret Rowand]]'''. Strong circumstantial evidence makes Robert a '''probable son of William and probable brother of William's proved son John'''; a more distant close-collateral relationship remains the alternative. Robert's lands and those of a John Glasgow bounded the same compact south-burgh properties in 1557 and 1560; William's proved son is the leading identity for that property-holder, although the deeds do not uniquely identify him. A fisher named John also witnessed Robert's transaction in 1572/73, and Robert, John and Archibald Herbesoun—husband of probable sister [[Glasgow-3916|Isobella Glasgow]]—were named together as fishers in 1573. Robert had earlier witnessed [[Glasgow-1097|Archibald Glasgow]] acquire a fore-and-back holding in 1551; by 1554/55 John held at least the corresponding rear title beside Thomas Bargill. This repeated property, craft and in-law pattern is much stronger than surname and chronology alone. It does not supply an explicit kin term, so the proposed parentage remains probable rather than documented; John's succession to the specified property is compatible with Robert being another son.<ref name="RobertBurgh">Renwick, ''Abstracts of Protocols'', vol. I, protocol 84, 21 May 1551, and protocol 205, 31 January 1554/55; vol. II, protocols 307, 401–403 and 544–546, 1556–1560; vol. VI, protocols 1903–1904, 12 February 1572/73; vol. VII, protocol 2002, 19 December 1573, and protocol 2125, 7 February 1574/75.</ref>
+
+A burgess admission dated 23 October 1596 calls '''[[Glasgow-3188|Ninian Glasgow]]''' the '''second son of Robert Glasgow, fisher and burgess'''. It proves the father and son, but does not identify Ninian's mother or eldest brother.<ref name="RobertNinian">James R. Anderson, ed., ''Burgesses & Guild Brethren of Glasgow, 1573–1750'' (Scottish Record Society, 1925), [https://archive.org/details/scottishrecordso43scotuoft/page/24/mode/2up p. 24].</ref>
+
+Two testaments clarify Ninian's family without producing a complete child list. His first wife '''[[Meik-14|Jonet Meik]]''' was mother of their son '''[[Glasgow-1027|Robert]]'''; his later wife and executor '''[[Hutcheson-1774|Jonet Hutchesoun]]''' was not Robert's mother. '''[[Glasgow-3062|Marion]]''' is expressly called Ninian's sister, without saying whether she was a full or half-sister, and a brother John was living in 1613. That John cannot be [[Glasgow-3181|John of Hirmanscheillis]], who died in 1576; [[Glasgow-1030]] is the leading profile candidate but is not proved. William occurs in damaged and debt material, but the formerly quoted words “his son” cannot be read securely; [[Glasgow-3075|the later Leith mealmaker]] is only a possible identity. Ninian was a '''fisher''', not a flesher or butcher, and the damaged clothing description is not used.<ref name="NinianTestaments">National Records of Scotland, Glasgow Commissary Court, CC9/7/5, images 82–83, testament of Jonet Meik; CC9/7/9, images 142–145, testament of Niniane Glasgw, made 10 January 1613 and confirmed 8 May 1613. The family readings are from the maintained working transcription of those images; the uncertain damaged wording remains unquoted.</ref>
+
+'''[[Glasgow-1097|Archibald Glasgow]]''' and '''[[Newlands-647|Isobell Newlands]]''' form another documented property-holding couple. Their 1551 deed proves the spouses and their South Port property. It does not name Archibald's parents, but Robert's witness role and the appearance of at least the corresponding rear title beside Thomas Bargill in the hands of William's proved son John by 1554/55 make Archibald a '''probable son of William'''; a close-collateral relationship or sale to an unrelated namesake remains possible.<ref name="Archibald1551">Renwick, ''Abstracts of Protocols'', vol. I, protocol 84, printed p. 31, 21 May 1551, and protocol 205, 31 January 1554/55; [https://archive.org/details/abstractsprotoc07robegoog/page/n59/mode/2up digitised edition].</ref>
+
+This is not merely a list of men sharing an occupation. Robert was simultaneously a fisher, burgess and property-holder; Archibald and John participated in the same compact title history; and spouses and in-laws recur in the legal record. Spreull, Herbesoun, Rowand, Newlands, Grahame, Meik and Hutchesoun matter because property, marriage, witnessing, execution of testaments and curatorship repeatedly place the Glasgow household inside a civic kinship network. Each recurrence is limited evidence on its own, but their agreement across independent transactions explains why Robert, Archibald and Isobella are more likely close relatives of William's proved son than unrelated surname bearers.
+
+{| class="wikitable" style="width:100%; background:#f4f8ff; border:2px solid #6f91bd;"
+! style="background-color:#D9EAF7;" | Why women and property rights are central to the reconstruction
+|-
+| The pedigree is not recovered from male surname-bearers alone. '''Esbell Brade's''' consent to the 1534 settlement and the couple's reserved profits help prove both the marriage and their son John. '''Jonet Spreull''' appears in intergenerational grants and reserved liferents as John's wife, while Stephen's later record explicitly identifies her as his mother. '''Eufame Craig's''' widow's liferent preserves evidence of the preceding title even though her husband is not named. '''Margaret Herbesoun's''' liferent and George's succession together identify both of George's parents. '''Isobella Glasgow's''' personal ratification of a sale, followed by her husband's appearance in the inherited Glasgow property network, helps recover her probable place in the family.<ref name="WomenProperty">Renwick, ''Abstracts of Protocols'', vol. III, protocols 719, 748, 805, 809–810 and 847; vol. IV, protocol 1196; vol. VII, protocol 2189; vol. IX, protocols 2903 and 2916.</ref><br/><br/>The same discipline applies later: the testaments distinguish '''Jonet Meik''', mother of Ninian's son Robert, from Ninian's later wife and executor '''Jonet Hutchesoun''', while baptisms and burgess admissions preserve George's daughters. Wife, mother, widow, liferenter, grantee and heir are different legal identities. Treating them as interchangeable would both erase women from the evidence and create false parentage.
+|}
+
+The later generations show consolidation as well as continuity. The reconstructed family network encompassed property-holding and the fishing craft, while the documented John–William–George line reached the merchant and guild-brother status recorded for George; marriages and burgess admissions continued to identify his daughters in the civic record. The evidential chain is consequently both genealogical and social: named descent persists while the family's place in property, commerce, guild membership and allied households becomes more visible.<ref name="GeorgeFamily" />
+
+'''Detailed evidence:''' [[Space:Glasgow Branches in 15th and 16th Century Scotland|early Scottish branches]] · [[Space:Glasgow Surname Protocol Books|protocol books]] · [[Space:Glasgow Wills & Testaments|wills and testaments]] · [[Space:Glasgow Kinship Circle|kinship circle]].
+
+<span id="regional_scotland"></span>
+== 3. Scottish households beyond the burgh ==
+
+The surviving evidence reveals several local groups. They should not be forced into the proved burgh pedigree merely because their dates and surname are compatible, but neither should they be presumed unrelated. The western Ayrshire evidence in particular now supports a probable connected regional family, even though the precise bridge from the burgh pedigree has not survived.
+
+The useful geography is a corridor, not a set of sealed branches. Glasgow burgh property records, Glencairn/Cunningham estate instruments, the 1559–60 Cunninghame teind lists, Kilwinning evidence and Mathy-associated transactions reveal people circulating between a commercial city and the estates and coastal settlements of its western hinterland. The teind material identifies liable adult tenants or householders and some co-holdings; it does not record tenancy succession or kinship. Tenancy, fishing, witnessing and service to a landholding family could all carry the same kin network across modern county labels. This context cannot prove a parent, but it makes a tested burgh–Ayrshire identification historically plausible rather than a match based only on the surname.
+
+The corridor is documentary as well as geographical. Robert the burgh fisher and David Mathy were fellow burgesses and co-witnesses in 1554. In 1559–60 Matthew Glasgow shared Ardeer Nether with John Mathie, while other Mathies, Michael Glasgow and both Corsinkell Jameses appeared across the same estate landscape. A John Mathie later entered the Glasgow burgess roll with the Earl of Glencairn's group, and 1607 tutory retours identify the deceased Glencairn-associated John Mathie of Ibert's brother Matthew as a Glasgow burgess. This creates a credible civic-to-estate network supporting the Robert-of-Kilbride identity hypothesis; it does not prove a Glasgow parent or make every occurrence one family.<ref name="MathieCorridor">Renwick, ''Abstracts of Protocols'', vol. I, protocols 183–184, [https://archive.org/details/abstractsprotoc07robegoog/page/n90/mode/2up printed p. 63], 10 May 1554; Sanderson, “People of Sixteenth Century Ayrshire,” [https://aanhs.org/wp-content/uploads/2018/05/people-of-ayrshire.pdf#page=36 p. 331]; Anderson, [https://electricscotland.com/history/records/scottishrecordso43scotuoft.pdf ''Burgesses & Guild Brethren''], admission of John Mathie, 8 February 1582/83; [https://books.google.com/books?id=PiVDAAAAcAAJ ''Inquisitionum ad Capellam Domini Regis Retornatarum''], vol. II, tutory retours 100–101, 20 January 1607, underlying [https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/browsetreeview.aspx?reference=C22 NRS register C22/3].</ref>
+
+{| class="wikitable" style="width:100%; background:#fffdf2; border:2px solid #d6b656;"
+! style="background-color:#FFF2B2;" | Ayrshire continuity: the leading reconstruction
+|-
+| ✅ '''[[Glasgow-1168|James Glasgow elder of Corsinkell]]''' had sons '''[[Glasgow-3921|James]]''' and '''[[Glasgow-4061|John]]''', expressly named in 1571. 🟡 The John recorded earlier at Kilwinning, '''[[Glasgow-3193]]''', is probably the same son, but remains a separate profile until a record carries his residence between the holdings. 🟡 '''[[Glasgow-3911|Michael Glasgow]]''', a Glencairn witness in 1549 and probably the Brakpleuch man in the 1559–60 teind list, was probably James elder's brother or cousin. ⚠️ '''[[Glasgow-3908|Matthew Glasgow]]''' of Ardeer is a possible son or nephew. 🟡 '''[[Glasgow-3919|Robert Glasgow of Kilbride]]''' is probably the same man as [[Glasgow-1096|Robert the burgh fisher]]: only five years separate the records, and the Mathy/Glencairn and associate networks supply a credible city-to-Ayrshire route.<ref name="AyrshireContinuity">National Records of Scotland, [https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD39%2F5%2F59 GD39/5/59], 9 February 1571, and [https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD39%2F1%2F59 GD39/1/59], 28 January 1549; Margaret H. B. Sanderson, “The People of Sixteenth Century Ayrshire”, ''Ayrshire Collections'', vol. XIV, no. 8 (1987), appendix, pp. 331, 333; ''Registrum Magni Sigilli Regum Scotorum'', vol. V, no. 324, [https://archive.org/details/registrummagnisi05scot/page/104/mode/2up pp. 104–105], charter dated 9 February 1580.</ref>
+|}
+
+{| class="wikitable sortable" style="width:100%;"
+! style="background-color:#E1F0B4;" | 🌿 Local group
+! style="background-color:#E1F0B4;" | 👨‍👩‍👧 Documented family
+! style="background-color:#E1F0B4;" | 🔎 Present position
+|-
+| 🟠 '''Corsinkell, Stevenston'''
+| [[Glasgow-1168|James Glasgow elder]], with sons [[Glasgow-3921|James younger]] and [[Glasgow-4061|John]], explicitly named in a 1571 reversion.
+| The father–son and brother relationships are proved. [[Glasgow-3193|The Kilwinning John]] is the probable identity of the named son; no record yet names James elder's own parents or proves the bridge to William and Esbell.<ref name="Corsinkell">Margaret H. B. Sanderson, “The People of Sixteenth Century Ayrshire”, ''Ayrshire Collections'', vol. XIV, no. 8 (1987), appendix, pp. 331, 333; National Records of Scotland, [https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD39%2F5%2F59 GD39/5/59], 9 February 1571.</ref>
+|-
+| 🟧 '''Wider Glencairn estate network'''
+| [[Glasgow-3911|Michael]] at Stevenston/Brakpleuch; [[Glasgow-3908|Matthew]] at Ardeer; [[Glasgow-3919|Robert]] at Kilbride.
+| Michael is a probable brother or cousin of James elder; Matthew a possible son or nephew. The Kilbride Robert is probably the burgh fisher, but the two profiles remain separate pending an identifying deed.
+|-
+| 🔵 '''Hirmanscheillis / Calder'''
+| [[Glasgow-3181|John Glasgow]], widow Margaret Hoghame, and daughters [[Glasgow-3590|Katherine]] and [[Glasgow-3589|Marjorie]].
+| The household is proved by John's 1576 testament. John is a possible match for the burgh son recorded in 1563, but no bridge proves it.<ref name="Hirmanscheillis">National Records of Scotland, Edinburgh Commissary Court, CC8/8/5, images 276–277, testament of Johne Glasgw in Hirmanscheillis, 1576.</ref>
+|-
+| 🟣 '''Calder estate and district'''
+| [[Glasgow-3915|Elizabeth Glasgow]], widow of Alexander Kaine, occupied Easter Corswood in 1552. At Caldercleir, [[Glasgow-3163|Andrew Glasgow]] had wife [[Anderson-103463|Jonet Anderson]] and four named children; at Croftmalloch, [[Glasgow-3613|Margaret Glasgow]] was wife of [[Edstoun-3|John Edstoun]] and mother of a testament-named son.
+| A 1526 remission for James Sandilands of Calder's group places a William Glasgow immediately beside Alexander Kano, probably Elizabeth's later husband Kaine. This makes Elizabeth a possible daughter or close kinswoman of the burgh William, but neither man's cross-record identity nor the degree of kinship is explicit. Andrew and Margaret are possible later rural collaterals; their testaments prove their own households, not parents or a burgh bridge.<ref name="CalderFamilies">National Records of Scotland, Papers of Lord Torphichen, [https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/browseDetails.aspx?reference=GD119%2F193 GD119/193], 2 July 1526; ''Registrum Secreti Sigilli'', vol. I, no. 3412; ''Registrum Magni Sigilli'', vol. IV, no. 739, [https://archive.org/details/registrummagnisi04scot/page/164/mode/1up p. 164], 19 December 1552; National Records of Scotland, Edinburgh Commissary Court, CC8/8/32, testament of Andro Glasgw, 1598, and CC8/8/8, image 355, testament of Margaret Glasgow, died November 1578.</ref>
+|-
+| 🟨 '''Edinburgh and Leith crafts'''
+| [[Glasgow-3075|William Glasgow]], mealmaker in Leith, and [[Glasgow-3078|Archibald Glasgow]], shoemaker, are proved father and son. In Edinburgh, [[Glasgow-1150|James Glasgow]], son of Robert of Wester Duddingston, progressed from apprentice to weaver and burgess; James's son [[Glasgow-1374|Robert]] progressed from apprentice to merchant and burgess.
+| Apprenticeships, a retour and burgess admissions establish two strong urban craft pedigrees. No record yet joins either to the Glasgow-burgh core. They show apprenticeship and burgess admission carrying family identity across occupations and generations.<ref name="EdinburghLeithCrafts">Francis J. Grant, ed., ''Register of Apprentices of the City of Edinburgh, 1583–1666'', Scottish Record Society 28 (1906), [https://archive.org/details/scottishrecordso28scotuoft/page/71/mode/2up p. 71], entries for Archibald, 23 October 1639, and James, 16 June 1641; Great Britain Record Commission, ''Inquisitionum ad Capellam Domini Regis Retornatarum... Abbreviatio'', vol. II, Inquisitiones Generales, no. 3278, 1 May 1647, [https://archive.org/details/inquisitionumadc00grea_0 digitised volume]; Charles B. Boog Watson, ed., ''Roll of Edinburgh Burgesses and Guild-Brethren, 1406–1700'', [https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/roll_of_edinburgh_burgesses_1406_to_1700.pdf#page=218 p. 208], entry for James, 20 June 1649; Watson, ed., ''Register of Edinburgh Apprentices, 1666–1700'', [https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/edinburgh_apprentices_~_1666_to_1700_~_1929.pdf#page=47 p. 37], entry for Robert, 24 January 1672; Findmypast, [https://www.findmypast.co.uk/transcript?id=SCOT%2FBURGESS%2F1009526&tab=this ''Scotland, Burgess & Guild Brethren Index''], Robert Glasgow, merchant, burgess and guild brother, 16 January 1684.</ref>
+|-
+| 🟪 '''Quothquan, Libberton'''
+| [[Glasgow-3910|James Glasgow]], weaver, in 1624; three separate John estates—[[Glasgow-3296|John]] in 1650, an unprofiled John in 1662 and [[Glasgow-1086|John]] in 1685—and [[Glasgow-3912|William Glasgow]] in 1673. The 1650 John's testament names his lawful sister Bessie Glasgow as executrix; the 1685 testament names the later John's widow Jonet.
+| Six decades of records establish a continuing locality population, not one proved pedigree. The three Johns must not be merged or turned into a Cavers or Ulster founder without a record bridge.<ref name="Quothquan">Francis J. Grant, ed., ''The Commissariot Record of Lanark: Register of Testaments, 1595–1800'' (Edinburgh: Scottish Record Society, 1903), [https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/the_commissariot_record_of_lanark__register_of_testaments__1595-1800_~_1903.pdf#page=50 p. 38]; National Records of Scotland, CC14/5/5, testament of John Glasgow, confirmed 27 May 1650, and CC14/5/12, testament of John Glasgow, confirmed 25 March 1685.</ref>
+|-
+| 🟦 '''Saltcoats'''
+| John Glasgow, sailor, widow Isobel Young, and their lawful children Katherine and [[Glasgow-3539|Marie Glasgow]].
+| The family is directly proved by John's 1637 testament. Identity with [[Glasgow-1030|Jhone Glasgow, M.A.]] remains on HOLD; it is not a proved extension of either man's family.<ref name="Saltcoats">National Records of Scotland, Glasgow Commissary Court, CC9/7/27, images 478–480, testament dative of John Glasgow, sailor in Saltcoats, confirmed 11 April 1637.</ref>
+|-
+| 🟤 '''Borders and later Cavers'''
+| Alan Glasgow's homicide was raised at the Jedburgh justice ayre in 1495; John and William Glasgow were listed under Cavers parish in 1679.<ref name="Alan1495" /><ref name="Cavers" />
+| These are separate judicial and religious records almost two centuries apart. Neither proves Alan's residence at Jedburgh, a continuous Border pedigree or a relationship between the two Cavers prisoners.
+|}
+
+By the seventeenth century, people named Glasgow were established in the city and its hinterland, Ayrshire, the Calder district, Edinburgh and Leith, Stirling, Quothquan and the Borders. Some were probably connected. Property succession, testaments, rentals and marriage contracts—not geography alone—must establish the links.
+
+If the Kilbride Robert is the burgh fisher, he supplies the first person-level bridge across this corridor. Corsinkell is the strongest reconstructed rural branch; Calder and Quothquan remain documented locality populations until title, succession or kinship records connect them.
+
+That uneven confidence also reflects survival. Rentals and estate deeds preserve tenants and witnesses when land was administered; testaments expose a household only when an estate entered the commissary record. Neither record class guarantees a continuous generation-by-generation succession. The absence of a surviving bridge may therefore be a gap in estate and church records, but it cannot be filled by treating regional proximity as proof.
+
+'''Regional research:''' [[Space:The Ayrshire Crossroads|Ayrshire]] · [[Space:Glasgow Surname in the Scottish Borders|Scottish Borders]] · [[Space:Glasgow Branches in 15th and 16th Century Scotland|full Scottish branch study]].
+
+<span id="religion"></span>
+== 4. Religious and civic life ==
+
+The National Covenant of 1638 and the Restoration re-imposition of episcopal church government turned religious allegiance into fines, imprisonment and armed conflict. After the Covenanter defeat at Bothwell Bridge in 1679, prisoners were sentenced to transportation. Different Glasgow households entered that history in different ways. '''[[Glasgow-1498|John Glasgow of Cavers]]''' and another William Glasgow appear among the prisoners subjected to coerced transportation who survived the 1679 wreck of the ''Croune of London''. The list establishes both men as prisoners and survivors, but does not make them brothers, name their parents or give either man an Irish destination; the William has not been securely identified with [[Glasgow-1605|the existing William profile]].<ref name="Cavers">John H. Thomson, ed., ''A Cloud of Witnesses'', appendix, prisoner list under “Parish of Cavers”, [https://media.sabda.org/alkitab-8/LIBRARY/THO_CLWT.PDF PDF p. 646]. The appendix marks wreck survivors with an asterisk.</ref> A later Ulster-Scots Agency account places James Young, listed two places after William, among survivors who reached Ulster. That makes the route a concrete research lead; it does not show that William went there or became [[Glasgow-591|the traditional Irish founder]].<ref name="CaversUlster">Ulster-Scots Agency, [https://ulster-scots.com/wp-content/uploads/2023/11/USCN-Covenanters-in-Ulster-Tabloid.pdf ''The Covenanters in Ulster''], account of James Young.</ref>
+
+'''[[Glasgow-1073|Rev. John Glasgow, M.A.]]''' belongs to the transition into the re-established Presbyterian Kirk. He graduated at Glasgow in 1674 and was ordained minister of Kilbirnie on 16 August 1688, during the final months of the Restoration regime; his ministry continued through the Revolution and the 1690 re-establishment of Presbyterian church government. No reviewed evidence makes him a field preacher, prisoner or active Covenanter. He married his first wife, '''[[Cunningham-20924|Jean Cunningham]]''', on 14 January 1690; his second was '''[[Scott-40313|Margaret Scott]]'''.<ref name="MinisterMarriage">Kilbirnie Parish, Church of Scotland, Old Parish Register of banns and marriages, John Glasgow and Jeane Cunynghame, 14 January 1690, National Records of Scotland, parish 596, reference 10/9.</ref> Jean was the daughter of John Cunningham in Wattieston, chamberlain to the laird of Glengarnock and a member of the Robertland family. Her sons included '''[[Glasgow-1077|John Glasgow]]''', merchant, bailie and provost of Irvine, and '''[[Glasgow-1075|Dr Robert Glasgow]]''', surgeon and chamberlain to Viscount Garnock.<ref name="Kilbirnie">Hew Scott, ''Fasti Ecclesiae Scoticanae'', new ed., vol. III (Edinburgh: Oliver and Boyd, 1920), pp. 102–103, [https://archive.org/details/fastiecclesiaesc03scot digitised volume]; James Paterson, ''History of the County of Ayr'', vol. II, [https://archive.org/details/historyofcountyo02pateuoft/page/252/mode/2up pp. 252–253].</ref> A 1722 letter directly calls Robert at Paddockholm and '''[[Glasgow-1140|James Glasgow]]''', a divinity student at Glasgow, brothers; the matching Kilbirnie baptisms and Robert's established residence strongly identify them with these two profiles.<ref name="RobertJames1722">National Records of Scotland, [https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=RH15%2F120%2F178 RH15/120/178], letter from Robert Glasgow at Paddockholm to his brother James Glasgow, 22 November 1722.</ref>
+
+James's formerly claimed Irish career is a useful warning about migration stories built from defective evidence. The supposed settler was James Crawfurd, not James Glasgow, and the further account and receipt had been exposed as forgeries in the Crawfurd peerage case. The genuine 1722 letter instead places James at Glasgow as a divinity student. Document criticism here does not merely lower confidence; it removes a false Scotland-to-Ireland migration.<ref name="JamesCrawfurd">James Dobie, [https://deriv.nls.uk/dcn23/9537/95375734.23.pdf ''Examination of the Claim of John Lindsay Crawfurd'' (1831), pp. 102–106]; NRS RH15/120/178.</ref>
+
+Rev. John was probably part of the older Corsinkell–Stevenston–Kilwinning family rather than the root of an unrelated Ayrshire line, but no reviewed record names either parent. The intervening [[Glasgow-1603|Hugh]] and [[Glasgow-1604|John]] connections remain tree-derived scaffolding, and [[Glasgow-3375|the contemporary Kilwinning John]] is a serious duplicate candidate who must be resolved before extending the pedigree. Jhone Glasgow, M.A. ([[Glasgow-1030]]) is not documented as the minister of Kilbirnie.
+
+{{Image|file=Glasgow_Name_Study-1.jpg
+|align=r
+|size=m
+|caption=Glasgow family memorials at Kilwinning Abbey: evidence of the surname's later Ayrshire presence, not proof of descent from the sixteenth-century groups.
+}}
+
+These are different religious histories: Cavers documents Restoration coercion and survival after Bothwell Bridge; Kilbirnie documents education and ministry across the Revolution settlement. Neither supplies a genealogical bridge to the other.
+
+Rev. John's descendants reveal a longer Ayrshire social trajectory. Marriage into a chamberlain's family, Dr Robert's service to Viscount Garnock, and John's municipal career at Irvine show education, marriage and patronage embedding the family in local administration. The next generation's conversion of Caribbean plantation wealth into Montgreenan extended that history into the imperial economy; its unusual estate-and-surname succession is discussed below.<ref name="Kilbirnie" /><ref name="Montgreenan" />
+
+Later Glasgow–Cunningham marriages are retained on the [[Space:Repeated Glasgow Marriages|supporting marriage study]] as a test of whether these estate and alliance networks persisted. They are useful context, but repetition of a spouse surname cannot by itself bridge Rev. John to the sixteenth-century Corsinkell family.
+
+<span id="ulster"></span>
+== 5. Ulster: several households, not one founding story ==
+
+The medieval Dublin guild bearers belong to the early history of the name. Seventeenth- and eighteenth-century Ulster households belong to a later period of Scottish–Irish movement. The long gap cannot be crossed by surname similarity alone.
+
+{| class="wikitable" style="width:100%; background:#f4f8ff; border:2px solid #6f91bd;"
+! style="background-color:#D9EAF7;" | What the principal Irish records can—and cannot—show
+|-
+| '''Hearth-money rolls''' identify people liable for hearth tax and distinguish taxable households; they do not name every wife, child or lodger, and adjacent entries do not state kinship. '''Protestant-householder and religious returns''' likewise enumerate heads or qualifying adults, not pedigrees. '''Congregational minutes''' can reveal office-holding, repeated cooperation and continuity within one worshipping community, but “appears with” is not automatically “brother of”. '''Census returns''' reconstruct people living together at one date; unnamed or absent household members cannot be converted into attached children. '''Parish entries, deeds, wills and litigation''' are more likely to use explicit terms such as son, brother, aunt or grandmother. The strongest reconstruction is the one in which several independent record types converge.
+|}
+
+{| class="wikitable sortable" style="width:100%;"
+! style="background-color:#E1F0B4;" | 🍀 Research group
+! style="background-color:#E1F0B4;" | What the records show
+! style="background-color:#E1F0B4;" | Present reconstruction
+|-
+| 🟢 '''East Antrim, 1653–1727'''
+| [[Glasgow-3970|Robert Glaskow]] at Larne in 1653; Elizabeth at Glenarm and [[Glasgow-3913|Jo/John]] and [[Glasgow-1081|James]] consecutively at Kilwaughter in 1669. About thirty years later John senior represented Kilwaughter and James served as its district overseer. The James later recorded as a session member, deceased in 1726 and indexed as a Kilwater testator in 1727 was very probably the same congregational figure.
+| John and James were probably close relatives—brothers or another close collateral relationship are both possible—but the exact edge and their relationship to Robert or Elizabeth are not stated. A 1666 Robert Glasgow, master of the ''John of Portrush'', transported coal for the earl of Argyll: a concrete maritime mechanism and identity lead, not yet an identification with the Larne Robert or proof of the vessel's route.<ref name="EastAntrim">1641 Depositions Project, [https://1641dep.abdn.ac.uk/items/show/42821.html examination of Con O'Sheale], 21 April 1653, item 42821; Public Record Office of Northern Ireland, hearth-money rolls T/307/A, 1669, [https://www.billmacafee.com/1660shearthmoneyrolls/1669hearthmoneyrollsantrim.pdf transcription], entries 5347–5348 and 5730; Classon Porter, “Congregational Memoirs: Larne and Kilwaughter,” ''The Christian Unitarian'', vol. 2 (1863), [https://archive.org/details/christianunitari0002unse pp. 409–414], and vol. 3 (1864), [https://archive.org/details/christianunitari0003unse pp. 15–19, 196–198, 379–380]; PRONI Connor Diocesan Wills index, James Glasgow of Kilwater, 1727. Argyll Estates Archives, GB 3452 ARG-04-03-67-78, “Various accounts and receipts,” 1666–1678, [https://www.argyll-papers.com/downloads/campbell-family-dukes-of-argyll-papers.pdf catalogue p. 149].</ref>
+|-
+| 🔵 '''Kilwaughter–South Carolina'''
+| [[Glasgow-1143|Robert Glasgow]] and [[Wilson-78088|Rachel Wilson]]; their register-recorded children [[Glasgow-1144|James]], [[Glasgow-1500|Ann]] and a younger Rachel; James's later family in South Carolina. Grandson [[Glasgow-1983|Robert Glasgow]] used the explicit terms father, mother, paternal grandmother and aunt in a sworn answer.
+| This is a strongly documented family and migration, but Robert's own father is unknown. Later pleadings say the elder Rachel died leaving James and Ann, so the younger Rachel may have died early or have been irrelevant to that inheritance; omission remains possible. James's wife Mary was a daughter of one of Rachel's Wilson sisters—his cousin—but no reviewed record proves that Mary's birth surname was Crosier.<ref name="KilwaughterFamily">Registry of Deeds, Ireland, vol. 105, p. 301, memorial 74015, deed dated 13 February 1738, [https://www.irishdeedsindex.net/mem.php?memorial=74015 abstract]; PRONI MIC/1B/6, Kilwaughter congregation records, used through the [https://web.archive.org/web/20101124184247id_/http://lifesweaving.com/Glasgow/Kilwaughter/Timeline.html archived derivative chronology]; [https://web.archive.org/web/20101124184247id_/http://www.lifesweaving.com/Glasgow/Paper_Complaint.html 1817 equity complaint], [https://web.archive.org/web/20101124184247id_/http://www.lifesweaving.com/Glasgow/Paper_Reply.html sworn answer] and [https://web.archive.org/web/20101104165918id_/http://lifesweaving.com/Glasgow/Paper_Answer.html amended answer], derivative transcriptions of the South Carolina proceedings.</ref>
+|-
+| 🟠 '''Tamlaght O'Crilly–Inishrush'''
+| Two Hugh Glasgow households in 1740; one Hugh again among Tamlaght O'Crilly inhabitants in 1772. One 1740 Hugh stands immediately beside Ellis and McCullough in the collector sequence, surnames independently associated with Inishrush's 1734 lease. [[Glasgow-3902|Adam Glasgow]] and [[Glasgow-3927|the Inishrush John]] occur in the later family landscape.
+| The 1831 John is probably [[Glasgow-822|John born in 1767]]: his family register, an independent descendant Bible, Drimbolg appearances, personal Inishrush recollections and the near-exact household reconstruction converge. He and Adam were probably brothers or cousins, not father and son. “Older Adam and Maria” are naming-pattern search candidates only. [[Glasgow-591|William Glasgow]], said in 1888 to have remained after the 1689 campaign, is family tradition rather than a documentary founder.<ref name="Tamlaght">W. Macafee, [https://www.billmacafee.com/1740returns/1740religiousreturnsulstername.pdf 1740 Religious Returns for Ulster], entries 1195 and 1272, PDF p. 119; Registry of Deeds memorial 57951, Inishrush lease dated 29 March 1734, [https://www.irishdeedsindex.net/mem.php?memorial=57951 abstract]; ''Belfast News-Letter'', 14 April 1772, Inishrush declaration of 6 April, [https://arborealis.ca/records/newspapers/kilrea-news/1770-1779/ transcript]; [https://hiltner.com/mckeown/getperson.php?personID=I368&tree=tree1 John Glasgow family register], [https://www.hiltner.com/mckeown/getperson.php?personID=I1&tree=tree1 McKeown family-Bible transcription], [https://www.oneirishrover.com/drimbolg-reformed-presbyterian-church/ Drimbolg church history] and [https://www.hiltner.com/mckeown/documents/John%20Glasgow%20letter%20to%20Jane%20Glasgow%20Gray%203-20-1847.pdf 1847 family letter]; William Melanchthon Glasgow, ''History of the Glasgow Family'' (Baltimore, 1888).</ref>
+|-
+| 🟣 '''Derryloran'''
+| Two James and two William households in 1740; five households at Drumearn, Gortein and Killycurry in 1766. The first proved local nuclear family is William and Mary, whose son James was baptised in 1799.
+| [[Glasgow-1702|James Glasgow of Ballynasollus]] is the probable identity of that baptised son. The records support a substantial locality cluster, not descent from a “Moneymore founder”.<ref name="Derryloran">W. Macafee, [https://www.billmacafee.com/1740returns/1740religiousreturnsulstername.pdf 1740 Religious Returns for Ulster], entries 14391, 14393, 14466 and 14571, PDF p. 119; National Archives of Ireland, [https://virtualtreasury.ie/item/NAI-IHP-1-665 IHP/1/665], 1766 Derryloran religious return; Representative Church Body Library, [https://www.churchofireland.org/cmsfiles/pdf/AboutUs/library/AngRecord/DerryloranVol1.pdf#page=11 ''Derryloran Parish Register'', vol. 1, p. 3], baptism of James Glasgow, son of William and Mary, 21 August 1799.</ref>
+|-
+| 🟩 '''Bann Valley–Lisnagaver'''
+| [[Glasgow-3896|Daniel Glasgow]] and [[Glasgow-987|Thomas Glasgow]] are proved brothers. [[Glasgow-951|Alexander Glasgow]] and Mary McCaughan's son [[Glasgow-938|Robert]] is proved by the 1851 household and Robert's 1866 marriage.
+| Alexander was a possible brother or cousin of Daniel and Thomas, not a proved sibling; his parents remain unknown. Robert later moved to Scotland, a documented Ireland-to-Scotland direction often lost in simplified migration stories.<ref name="BannValley">Public Record Office of Northern Ireland, original registered will of Daniel Glasgow of Kilrea, proved 1871; [https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1888/10763/5925382.pdf marriage of Daniel Neely Glasgow], 28 June 1888; National Archives of Ireland, [https://www.census.nationalarchives.ie/pages/1851/Antrim/Kilconway/Rasharkin/Lisnagaver/35/ 1851 Lisnagaver household 35]; [https://civilrecords.irishgenealogy.ie/churchrecords/images/marriage_returns/marriages_1866/11531/8240963.pdf marriage of Robert Glasgow and Jane Graham], 5 April 1866; [https://www.familysearch.org/ark:/61903/1:1:QV9Y-71S6 1871 Scotland census index], Robert Glasgow household, Glasgow.</ref>
+|-
+| ⚪ '''Other Irish roots—inside and outside Ulster'''
+| Belfast shipmasters; Raphoe and Killybegs; Dublin watchmakers; Kilclone; Leitrim; Rathdowney and other locality groups.
+| These have their own source trails and should not be folded into one of the better-known Ulster trees without a bridge. Dublin urban trades and the separate Meath memorial family also show why the Irish story cannot be reduced to one Ulster-Presbyterian settlement. Reported Rathdowney Catholic baptisms remain index-level leads pending inspection of the underlying register.<ref name="RathdowneyIndexes">FamilySearch, Ireland Births and Baptisms, index entries for [https://www.familysearch.org/ark:/61903/1:1:X3WR-NMMX Margaret Glasgow] and [https://www.familysearch.org/ark:/61903/1:1:X3QK-WMQL Thomas Glasgow]; underlying register images not inspected.</ref> Their concise register belongs on the supporting early-Ireland page.
+|}
+
+East Antrim is therefore not best understood as four unrelated names. Robert at Larne, Elizabeth at Glenarm, the consecutive John and James entries at Kilwaughter, and the later district roles of John senior and James show a concentrated surname presence with institutional continuity. The association in two independent record groups makes close kinship between John and James probable, but brotherhood, father-and-son and another collateral relationship remain possible. The congregational transcript separately places an older Robert in the South Side rather than Kilwaughter; he must not be silently merged with Robert of Larne, [[Glasgow-1078|the Scottish Robert profile]] or the younger Robert who married Rachel Wilson. The probable James sequence is strong but source-limited: Porter used a transcription for early material whose original is now missing, and the indexed 1727 will and all fuller information are lost. It proves institutional continuity better than family composition.
+
+The Kilwaughter–South Carolina branch is stronger because different evidence converges: congregational chronology places the household, a lease fixes people and land, and later sworn litigation states relationships retrospectively but explicitly. Those records recover family identity on both sides of the Atlantic, but they do not identify James's ship, voyage date or route. Tamlaght O'Crilly points in the opposite methodological direction: two Hugh households in the same 1740 return undermine any account built around one automatically identified founder. Derryloran's two James and two William households in 1740, followed by several townland households in 1766, describe a local population complex; only the later baptism begins a proved nuclear family.
+
+Bann Valley evidence combines a will, civil relationships, census households, landholding and a genetically relevant tested line. Daniel and Thomas are proved brothers, and Robert is proved as Alexander's son, while Alexander remains their possible brother or cousin. The land pattern itself resists a simple three-brothers story: Alexander and Robert held substantial Lisnagaver properties in 1834; later John, Alexander and Thomas occupied a near-equivalent adjoining Glasgow block, but John's marriage names a different John as his father and the 1851 census proves Samuel as John's brother. The holdings therefore show continuing tenancy and a probable kin network, not a proved division among sons of one known father.<ref name="BannNetwork">W. Macafee, [https://www.billmacafee.com/182030stithe/tithenorthantrim.pdf ''North Antrim Tithe Applotment data''], Rasharkin entries for Alexander and Robert Glasgow at Lisnagaver, 1834; National Archives of Ireland, 1851 census, Lisnagaver [https://www.census.nationalarchives.ie/pages/1851/Antrim/Kilconway/Rasharkin/Lisnagaver/34/ house 34], [https://www.census.nationalarchives.ie/pages/1851/Antrim/Kilconway/Rasharkin/Lisnagaver/35/ house 35] and [https://www.census.nationalarchives.ie/pages/1851/Antrim/Kilconway/Rasharkin/Lisnagaver/37/ house 37]; [https://www.failteromhat.com/griffiths/antrim/rasharkin.htm Griffith's Valuation for Rasharkin]; General Register Office of Ireland, [https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1846/09306/5369439.pdf marriage of John Glasgow and Margaret Garvin], 16 November 1846; PRONI valuation-revision books VAL/12/B/4/16A–C.</ref> A tested direct-male line from Alexander belongs to R-FT20271 and is genetically related to the tested James J. and Robert-1749 lines. That does not prove Alexander's immediate relationship to Daniel or Thomas, neither of whom supplies the needed comparison line, or assign the Bann Valley family to Kilwaughter, Cross or Moneymore.
+
+The familiar “Cross” and “Moneymore” labels describe later reconstructed trees, not the strongest early documentary roots. [[Glasgow-2917|Charles Glasgow's]] 1686 Scottish baptism does not itself prove that he became the man associated with Cross. Likewise, [[Glasgow-1026|William sometimes styled “William Walter Glasgow”]] has a Scottish identity problem, not a record-proved migration to Moneymore. These labels remain useful ways to find descendant research, but they should not be mistaken for contemporary Irish founders.
+
+The wider result is not either “one Irish family” or “a collection of strangers”. It is a set of real locality populations at different stages of reconstruction inside a connected Scottish–Ulster world. Religion, access to land, maritime work, marriage and existing kin may each explain a particular movement; the mechanism need not be the same for every household. What matters is whether a record follows the same person—or names the relationship—across the gap.
+
+'''Irish research:''' [[Space:Glasgow Branches in Early Ireland|early branches]] · [[Space:Glasgow Families of County Londonderry|County Londonderry]] · [[Space:Chronology of the Glasgow Family in Northern Ireland in Historical Context|historical chronology]] · [[Space:The Glasgow's in Ireland-1|The Glasgows in Ireland]].
+
+<span id="worldwide"></span>
+== 6. Migration and worldwide families ==
+
+Glasgow families later appear in North America, the Caribbean, Australasia, the South Atlantic and elsewhere, but global distribution is not evidence of one universal Scotland → Ulster → America route. The records instead reveal different mechanisms: family resettlement, eastward rural-to-urban migration, military settlement, public office in settler societies, cultural life and the transfer of plantation capital. Those mechanisms have different source trails and different human consequences.
+
+{| class="wikitable sortable" style="width:100%;"
+! style="background-color:#E1F0B4;" | Person or line
+! style="background-color:#E1F0B4;" | Documented movement or setting
+! style="background-color:#E1F0B4;" | Why it matters
+|-
+| [[Glasgow-1144|'''James Glasgow and the Kilwaughter family''']]
+| Born into the documented Kilwaughter household in 1731; later in South Carolina, where he left a will in 1775.<ref name="KilwaughterFamily" />
+| Congregational evidence, an Irish lease and transatlantic family litigation allow the same family to be recovered on both sides of the Atlantic rather than inferred from matching names; they do not identify James's ship, voyage date or route.
+|-
+| [[Glasgow-938|'''Robert Glasgow and family''']]
+| From the Lisnagaver household in Ireland to Glasgow, Scotland, by 1871.<ref name="RobertMigration">[https://www.census.nationalarchives.ie/pages/1851/Antrim/Kilconway/Rasharkin/Lisnagaver/35/ 1851 census of Ireland, Lisnagaver household 35]; [https://civilrecords.irishgenealogy.ie/churchrecords/images/marriage_returns/marriages_1866/11531/8240963.pdf civil marriage of Robert Glasgow and Jane Graham], 5 April 1866; [https://www.familysearch.org/ark:/61903/1:1:QV9Y-71S6 1871 Scotland census index], Robert Glasgow household, Glasgow.</ref>
+| The move of an Antrim farmer's son into industrial Glasgow is both Ireland-to-Scotland and rural-to-urban. It corrects the assumption that movement across the North Channel always ran westward or had one economic pattern.
+|-
+| [[Glasgow-1220|'''William Glasgow, later Glass''']]
+| Military service carried him through South Africa before he helped establish the permanent Tristan da Cunha community in 1817.<ref name="WilliamGlass">Tristan da Cunha Government, [https://www.tristandc.com/history1817-1853.php “A Growing Community, 1817–1853”]; British Library, [https://searcharchives.bl.uk/catalog/032-002056989 Add MS 43846].</ref>
+| This is military and settlement history, and a documented individual surname change, not evidence that every Glass family belongs in the Glasgow study.
+|-
+| [[Glasgow-1076|'''Robert Glasgow of Montgreenan''']]
+| Owner of Mount Grenan and Sans Souci plantations on St Vincent; with Houstoun & Co finance he accumulated a West Indian fortune, bought Montgreenan in Ayrshire in 1802 and built the later house about 1810–17.<ref name="Montgreenan">Simon D. Smith, “Slavery's heritage footprint: links between British country houses and St Vincent plantations, 1814–1834”, in Madge Dresser and Andrew Hann, eds., ''Slavery and the British Country House'' (English Heritage, 2013), p. 62; [https://historicengland.org.uk/images-books/publications/slavery-and-british-country-house/slavery-british-country-house-web/ digitised volume]; James Paterson, ''History of the County of Ayr'', vol. II, [https://archive.org/details/historyofcountyo02pateuoft/page/252/mode/2up pp. 252–253].</ref>
+| The movement here is of wealth extracted from enslaved labour into a Scottish estate. Because Robert died without issue and the successor family was required to use Glasgow, it also separates continuity of name and estate from continuity of the paternal line.
+|-
+| [[Glasgow-634|'''James Glasgow''']]
+| North Carolina's first Secretary of State; the land-fraud scandal associated with him contributed to Glasgow County being renamed Greene County.<ref name="JamesNC">Charles R. Holloman, [https://www.ncpedia.org/biography/glasgow-james “Glasgow, James”], ''Dictionary of North Carolina Biography''; NCpedia, [https://www.ncpedia.org/geography/greene “Greene County”].</ref>
+| A diaspora history can be institutional and political as well as genealogical: office-holding and scandal altered a public map as well as one family's fortunes.
+|-
+| [[Glasgow-773|'''Sir Thomas William Glasgow''']]
+| Queensland-born soldier, politician and diplomat whose father came from northern Ireland.<ref name="ThomasAustralia">Ralph Harry, [https://adb.anu.edu.au/biography/glasgow-sir-thomas-william-6397 “Glasgow, Sir Thomas William (1876–1955)”], ''Australian Dictionary of Biography''.</ref>
+| His career shows how northern-Irish ancestry entered Australian public life; it does not by itself identify the earlier Irish root.
+|-
+| [[Glasgow-473|'''Ellen Glasgow''']]
+| American novelist who won the 1942 Pulitzer Prize for ''In This Our Life''.<ref name="Ellen">The Pulitzer Prizes, [https://www.pulitzer.org/winners/ellen-glasgow Ellen Glasgow], 1942 Novel winner.</ref>
+| Her place here is the cultural history of an established American branch, not a proposed bridge back to a particular medieval or Ulster founder.
+|}
+
+These examples prevent “migration” from becoming a single genealogical arrow. Passenger lists, the surname-frequency table, New Zealand arrivals, American settlers and additional notable bearers belong on the dedicated '''[[Space:Glasgow - Age of Discovery|migration and worldwide-families page]]''', where each entry can carry its own source and identity assessment without overwhelming this overview.
+
+<span id="dna_research"></span>
+== 7. Y-DNA: connecting paternal branches ==
+
+Y-DNA asks a different question from documentary genealogy. It can show that tested paternal lines share a male-line ancestor and help estimate when branches divided. It cannot name that ancestor or repair an unsupported paper pedigree by itself.
+
+{{Image|file=Glasgow_Ancient_YDNA-3.png
+|size=L
+|caption=Modelled deep paternal pathway for the principal Glasgow Y-DNA cluster. This is a genetic-geographical reconstruction, not a documented itinerary of named Glasgow ancestors.
+}}
+
+The principal tested surname cluster lies beneath '''R-M269 > R-U106 > R-Z18 > R-Z17''' and is defined at '''[[Space:R-FT25406|R-FT25406]]'''. '''R-FT20271 is downstream of R-FT25406''', not a parallel branch. Other Glasgow surname-project members may belong to different paternal lineages.
+
+{| class="wikitable" style="width:100%; background:#f8fff8; border:2px solid #8DB600;"
+! style="background-color:#E1F0B4;" | Tested topology: genetic containment, not a paper pedigree
+|-
+| '''[[Space:R-FT4811|R-FT4811]]''' — deeper ancestral fork<br/>↳ '''[[Space:R-FTA30932|R-FTA30932]]''' — collateral comparison branch, not on the principal Glasgow path<br/>↳ '''R-FT32941 / R-FTA35069'''<br/>　↳ '''[[Space:R-FT25406|R-FT25406]]''' — principal tested Glasgow/Glasgo cluster<br/>　　↳ basal FT25406 Big-Y line reported within the wider [[Glasgo-23|Jeremiah]]–[[Glasgo-21|Henry Glasgo]] research group; tester-to-pedigree mapping not fully reconciled<br/>　　↳ '''[[Space:R-FT20271|R-FT20271]]''' — genuine downstream child branch<br/>　　　↳ tested direct-male line from '''[[Glasgow-951|Alexander Glasgow]]'''<br/>　　　↳ tested direct-male line from '''[[Glasgow-2738|James J. Glasgow]]'''<br/>　　　↳ tested descendant lines from '''[[Glasgow-12|Robert Glasgow]]'''<br/>　　　　↳ '''R-FTE32242''' in two reported son-lines descending through [[Glasgow-193|James M. Glasgow]]<br/><br/>A separately displayed Y-111 result is reported under Henry Glasgo. It is not the unnumbered Big-Y test, so its STR association must not be used to assign Henry's documented line directly to FT25406. These indentations describe genetic containment, not named father–son relationships; reported roots and every connecting generation require documentary audit.<ref name="DNAProject">[https://www.familytreedna.com/public/Glasgow FamilyTreeDNA Glasgow Project], public Y-DNA results; ancestor labels are research starting points and do not themselves prove the submitted pedigrees.</ref>
+|}
+
+{| class="wikitable" style="width:100%;"
+! style="background-color:#E1F0B4;" | Branch
+! style="background-color:#E1F0B4;" | Most likely common-ancestor estimate
+! style="background-color:#E1F0B4;" | Displayed 95% interval
+|-
+| '''R-FT25406'''
+| '''1431 CE''' — best expressed as around the fifteenth century.
+| '''1199–1608 CE'''
+|-
+| '''R-FT20271'''
+| '''1583 CE''' — approximately the later sixteenth century.
+| '''1387–1728 CE'''
+|}
+
+These are estimates for common ancestors of tested lines, not birth dates for named people or dates when the surname was adopted. Because FT20271 is nested below FT25406, the estimates describe successive branching levels rather than competing founders. The central FT25406 estimate is historically suggestive because its interval overlaps the period in which recognisable surname forms become increasingly visible. FT20271's 1387–1728 interval spans surname consolidation in Scotland, the earliest East Antrim evidence and the Plantation era; its central 1583 estimate cannot date a migration or make the branch intrinsically “Ulster-Scots”. Neither estimate selects the 1447 burgess, the Stirling witness, William of the 1534 deed or any Irish householder as the genetic founder.<ref name="DNAEstimates">FamilyTreeDNA Discover, [https://discover.familytreedna.com/y-dna/R-FT25406 R-FT25406] and [https://discover.familytreedna.com/y-dna/R-FT20271 R-FT20271], estimates recorded 6 September 2026. Values may change with testing and platform revisions.</ref>
+
+The result changes one historical conclusion while leaving another open. The tested FT20271 lines are paternal genetic relatives, so Alexander's Bann Valley line, the James J. line and Robert's associated line should not be narrated as biologically unrelated roots. FT20271 is reported in lines through three sons of Robert, making him an inferred carrier if those pedigrees are correct. Two lines through James M. carry FTE32242, making James M. an inferred carrier on the same condition; placing the mutation on the exact Robert-to-James edge still requires verified pedigrees and reliable collateral non-carrier results. DNA does not identify the earlier common ancestor, the number of generations separating the principal lines or whether that man lived in Scotland, Ireland or elsewhere. Documentary gaps cannot be closed by assigning a SNP to the most convenient named founder.
+
+Glasgow-project men on other Y branches are equally informative. They may represent independent adoption of a locative surname, a non-paternal event somewhere in a documented genealogy, or an unrelated family that arrived at the same surname; they are evidence about the surname's history, not erroneous results to discard. The productive method is to extend each paternal pedigree independently and only then compare genetic branches. STR similarity screens possible relationships; placement on a named downstream SNP requires the relevant test.
+
+'''DNA research:''' [[Space:Glasgow DNA|surname DNA]] · [[Space:R-FT25406|R-FT25406]] · [[Space:Glasgow Ancient YDNA|ancient paternal ancestry]] · [https://glasgow.phenotype.dev/ydna/ interactive explorer] · [https://www.familytreedna.com/public/Glasgow FamilyTreeDNA project].
+
+{| class="wikitable" style="width:100%; background:#f8fff8; border:2px solid #8DB600;"
+! style="background-color:#E1F0B4;" | The wider history now visible
+|-
+| The study no longer supports a simple march from one medieval founder to one Scottish family and then one Irish branch. It shows a locative designation acquiring personal force in medieval commercial, ecclesiastical and administrative networks; a hereditary burgh family becoming visible when property records begin to state descent; and a probable wider west-coast kin network operating between city, estate and coastal communities. Seventeenth-century religion then produced distinct experiences—Restoration repression and coerced transportation on one side, ministry across the Revolution settlement on another—while land, worship, commerce and maritime traffic created several Ulster locality populations. Overseas expansion followed multiple mechanisms, including family resettlement, eastward rural-to-urban migration, military service, public office in settler societies and capital extracted from enslaved labour. Y-DNA confirms that some documentary roots belong to one paternal genetic network, while estate history demonstrates that a surname can also continue without the biological paternal line. The coherent history lies in those changing institutions and record systems, not in forcing every Glasgow into one pedigree.
+|}
+
+<span id="digital_workbench"></span>
+<span id="research_index"></span>
+<span id="record_collections"></span>
+== Research directory and workbench ==
+
+The specialist pages hold the detailed evidence which would otherwise clutter this overview:
+
+{| class="wikitable" style="width:100%;"
+! style="background-color:#E1F0B4;" | Subject
+! style="background-color:#E1F0B4;" | Main page
+|-
+| Medieval bearers and surname development
+| [https://www.wikitree.com/wiki/Space:Bearers_of_the_%27%27de_Glasgu%27%27_Name_and_the_Emergence_of_the_Glasgow_Surname%2C_c.1175%E2%80%931500 Bearers of the ''de Glasgu'' Name] · [[Space:Glasgow Surname Origins|surname origins]] · [[Space:Glasgow Origins Research (1170 - 1600)|origins research]] · [[Space:Gamelin|Bishop Gamelin]]
+|-
+| Early families, property, inheritance and associates
+| [[Space:Glasgow Branches in 15th and 16th Century Scotland|early Scotland]] · [[Space:Glasgow Surname Protocol Books|protocol books]] · [[Space:Glasgow Wills & Testaments|testaments]] · [[Space:Glasgow Kinship Circle|kinship circle]] · [[Space:Repeated Glasgow Marriages|repeated marriages]]
+|-
+| Ireland
+| [[Space:Glasgow Branches in Early Ireland|early Ireland]] · [[Space:Glasgow Families of County Londonderry|County Londonderry]]
+|-
+| Migration and DNA
+| [[Space:Glasgow - Age of Discovery|worldwide families]] · [[Space:Glasgow DNA|surname DNA]] · [[Space:Glasgow Ancient YDNA|ancient Y-DNA]]
+|-
+| Every page and current status
+| '''[[Space:Glasgow Research|complete categorized research directory]]'''
+|}
+
+The [https://glasgow.phenotype.dev/ digital workbench] provides a [https://glasgow.phenotype.dev/catalogue.html person catalogue], [https://glasgow.phenotype.dev/records/ record search], [https://glasgow.phenotype.dev/places/ place search], [https://glasgow.phenotype.dev/map/ family map] and [https://glasgow.phenotype.dev/ydna/ Y-DNA explorer]. These are finding aids. A map point, candidate score or exported parent field is not a source for a relationship.
+
+<span id="research_status"></span>
+== Open questions ==
+
+{| class="wikitable" style="width:100%; background:#fffdf2; border:2px solid #d6b656;"
+! style="background-color:#FFF2B2;" | Historical question
+! style="background-color:#FFF2B2;" | Decisive or highest-value evidence
+! style="background-color:#FFF2B2;" | What it would resolve
+|-
+| '''Was the 1506 alias-Smith bearer the 1527 Saltmarket holder, and does the pedigree continue farther back?'''
+| Inspect the full 1506 BL/204 instrument—especially its alias wording, witnesses, terms of joint acquisition and source of title—and trace the annual payable from the Watson property through later assignments. Separately trace the 1527 Saltmarket tenement backwards, seeking a repeated alias, associate, heirship or explicit kin term.
+| A repeated identifier or relationship could join the two Johns. The equal four-shilling sums cannot: one was an annual acquired from Watson property, the other a burden on John's separate Saltmarket tenement. Whether or not those identities join, the Saltmarket title sequence independently supports the 1527 John as William's probable father.
+|-
+| '''How did the burgh and Ayrshire groups connect?'''
+| Glencairn/Cunningham estate succession, the full 1610 Montfoid, 1632 Brekpleughe and 1634 Brigend testaments, or a marriage contract naming relatives on both sides.
+| It would test whether Corsinkell descends from William's immediate family and whether the probable Kilbride Robert is the surviving bridge. Calder requires its own title or associate link.
+|-
+| '''Who were Rev. John's parents?'''
+| Full Kilwinning entries for the 1679 marriage and 1689 baptism, plus Irvine Presbytery and Kilbirnie kirk-session records for his call, trials and ordination.
+| A title such as “Mr” or an incompatible trade could resolve the [[Glasgow-3375|Kilwinning John]] duplicate question; a testimonial or call may identify Rev. John's former parish or kin.
+|-
+| '''How were the first East Antrim households related?'''
+| Surviving Kilwaughter/Larne congregational records, estate leases, title succession and probate substitutes naming heirs, siblings or sureties.
+| It could turn probable institutional and locality continuity into an exact relationship between John, James, Robert, Elizabeth and the later Kilwaughter households.
+|-
+| '''Which Scottish–Irish migrations can be proved?'''
+| A lease, church certificate, military record, letter, deed or court paper identifying the same person in both countries.
+| It would replace general migration context with a person-level bridge and show whether land, religion, work, marriage or kin drove that movement.
+|-
+| '''Where does Kilwaughter sit in the tested paternal tree?'''
+| Big Y testing from a generation-by-generation documented Kilwaughter male line, compared with the FT25406 and FT20271 results.
+| It would distinguish a split above FT20271, membership within it, or a separate paternal origin; it would not by itself name the common ancestor.
+|}
+
+Naming patterns, repeated marriages and geographical proximity can make one hypothesis more promising than another. They become persuasive when an independently found record matches a specific prediction; they do not replace the record.
+
+<span id="latest_research"></span>
+== How to contribute ==
+
+The most useful contributions include the complete record image or transcript, archive reference, page or folio and an explanation of the identity or relationship it supports. A record which distinguishes two people with the same name can be as valuable as one which adds a generation.
+
+Researchers and descendants can join the [https://groups.io/g/glasgowdnaproject Glasgow DNA Project discussion group]. Documentary contributions are welcome from every branch, including families outside the principal Y-DNA cluster.
+
+The [https://glasgow.phenotype.dev/changes workbench change log] records research releases and corrections.
+
+== References ==
+<references />

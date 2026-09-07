@@ -1,5 +1,9 @@
 # Tentative Glasgow family reconstruction
 
+> **Superseded relationship ranking (5 September 2026):** Alexander-951 is a
+> possible brother or cousin of Thomas/Daniel; neither his parents nor a
+> sibling edge has been established.
+
 Last updated: 2026-07-17
 
 ## Recommended working tree

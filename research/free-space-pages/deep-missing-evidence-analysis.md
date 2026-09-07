@@ -20,6 +20,28 @@ The audit found no new evidence justifying removal of a populated relationship
 or location. Speculative parentage narratives, AI/OCR testament readings and
 same-name conflations were excluded.
 
+### Medieval update — 6 September 2026
+
+The 1283 Paisley register adds two distinct associated people: Alexander, son
+of the late Richard the messenger of Glasgow, and another Alexander, son of
+Richard the former constable of Glasgow. Separate [free-space drafts for the
+messenger's son](../../surname-research/free-space-pages/Alexander_son_of_Richard_messenger_of_Glasgow.md)
+and [the constable's son](../../surname-research/free-space-pages/Alexander_son_of_Richard_constable_of_Glasgow.md)
+preserve the distinction. Neither is counted as a hereditary Glasgow bearer.
+The messenger's son is now the leading local candidate for the 1289/90
+escheator, but the identification is only **possible** because no office,
+property or relationship bridge joins the records. The Dublin Alexander remains
+a weaker competing candidate.
+
+Bain II no. 409 supplies the escheator receipt's old locator, Chapter House
+(Scots Documents), Box 94, No. 5. GUA BL/204's catalogue description proves
+Robert Watson as father of seller Agnes but no relationship between Sir Allan
+Smith and John de Glasgow alias Smith. David de Glasgu is downgraded to an
+unverified report, and unsourced FamilySearch pedigree GWZP-L6B is quarantined
+for an impossible displayed father-child chronology. The [full integration
+matrix](medieval-glasgow-integration-2026-09-06.md) gives the ten findings and
+certainty grades.
+
 ## Existing profiles with bio-ready evidence
 
 | Profile | Concrete missing evidence | Evidential limit | Handoff |
@@ -80,7 +102,7 @@ until the free-space pages are created on WikiTree.
 | [John de Glasgu](https://www.wikitree.com/wiki/Space:John_de_Glasgu_I%27), Glasgow, 1447 and 1455 | Witness in two Glasgow property acts within the same burgh network. | No office or kinship stated. |
 | [John Glasgw](https://www.wikitree.com/wiki/Space:John_Glasgw_of_Stirling), Stirling, 1475 and 1479/80 | Witness in two Stirling burgh acts. | Keep as a free-space subject; `Glasgow-1095` remains only a possible intended identity. |
 | John Glasgow, Saltmarket, 1527–before 21 October 1553 | Same four-shilling annual and adjoining owners identify one tenement holder in 1527, 1548 and as deceased in 1553. | **HOLD:** `Glasgow-1095` is a compatible existing-profile candidate; the 1506 `alias Smith` man remains only a candidate component. |
-| John Glasgw, Glasgow burgess, died 7 April 1637 | NRS testament CC9/7/27 names his children collectively, executor, witnesses, debts and injured leg. | **HOLD:** `Glasgow-1030` is a viable existing-profile candidate; wife inferred as possibly predeceased, not named. |
+| John Glasgow, sailor in Saltcoats, died December 1636?; testament confirmed 11 April 1637 | NRS testament CC9/7/27 names widow Isobel Young and their lawful children Katherine and Marie. | **HOLD:** `Glasgow-1030` remains a viable candidate for John; Marie maps to `Glasgow-3539`; only Katherine requires creation. |
 
 ## Important exclusions
 
@@ -97,6 +119,11 @@ until the free-space pages are created on WikiTree.
 - The 1506 alias-Smith purchaser is not proved to be the 1527–1553 Saltmarket
   owner. The latter is independently profile-worthy; the alias remains a
   research note.
+- Sir Allan Smith is not proved to be John alias Smith's father or relative;
+  Robert Watson to Agnes is the transaction's only explicit descent.
+- FamilySearch GWZP-L6B has no attached historical sources and displays a
+  child born ten years before the stated father. Do not use it as independent
+  support for Master John to William.
 - A locative `de Glasgu` occurrence does not by itself prove a hereditary
   surname, descent from another bearer, residence at the event date, or family
   connection to later Glasgow lines.

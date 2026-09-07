@@ -1,8 +1,15 @@
 # Findings: Glasgow-2908
 
-Last updated: 2026-08-19
+Last updated: 2026-09-06
 
 ## Current answer
+
+The 5 September master review confirms the proof chain but refines its limits:
+the census directly proves Samuel's brotherhood to John `Glasgow-867`; John's
+marriage directly names his own father as John Glasgow, farmer. Samuel probably
+shared that father on the ordinary meaning of brother, but no record identifies
+the older man as `Glasgow-1022`. That profile link must remain uncertain, and no
+mother should be inferred.
 
 Samuel Glasgow of Lisnagaver was **not a son of Adam Glasgow** on the best
 available direct evidence. The 1851 census explicitly calls Samuel the brother
@@ -20,7 +27,8 @@ brother. No evidence of a half-brother relationship has been found.
 | --- | --- | --- |
 | [1851 census, Lisnagaver household 34](https://www.census.nationalarchives.ie/pages/1851/Antrim/Kilconway/Rasharkin/Lisnagaver/34/) | John Glasgow, 50, farmer, was head; wife Margaret was 30; daughter Ann was 3; **brother Samuel Glasgow** was 60, unmarried, a linen weaver, and born in County Londonderry. John was born in County Antrim and reported marrying in 1846. | Direct evidence that Samuel was John's brother and that John married Margaret in 1846. |
 | [Civil marriage of John Glasgow and Margaret Garvin, 16 November 1846](https://www.irishgenealogy.ie/view/?record_id=cima-3156063), original register image | John was a bachelor farmer of Lisnagaver, parish of Rasharkin. He married Margaret Garvin and named his father as **John Glasgow, farmer**. | Direct father statement for the same John found with Samuel in 1851. Saved as [the original register PDF](sources/john_glasgow_margaret_garvin_marriage_1846.pdf). |
-| [Civil death of Samuel Glasgow, 17 August 1875](https://www.irishgenealogy.ie/view/?record_id=cide-7225943), original register image | Samuel died at Lisnagaver aged 85; he was a bachelor and weaver. | Strong identity continuity with the unmarried Lisnagaver linen weaver in 1851. It implies birth about 1789/90 but names no parent. Saved as [the original register PDF](sources/samuel_glasgow_death_1875_ballymoney.pdf). |
+| [Civil death of Samuel Glasgow, 17 August 1875](https://www.irishgenealogy.ie/view/?record_id=cide-7225943), original register image | Samuel died at Lisnagaver aged 85; he was a bachelor and weaver. Elizabeth Ross, signing by mark, was present at death; the return gives no relationship. | Strong identity continuity with the unmarried Lisnagaver linen weaver in 1851. It implies birth about 1789/90 but names no parent. Saved as [the original register PDF](sources/samuel_glasgow_death_1875_ballymoney.pdf). |
+| Same original death-register page, immediately preceding entry | Robert Ross, aged eight, died at Lisnagaver on 8 August 1875; the same Elizabeth Ross informed. | A concrete local associate/household lead. The page does not identify Elizabeth's relationship to either Robert or Samuel and does not create a Glasgow–Ross kinship. |
 | [PRONI Will Calendars](https://apps.proni.gov.uk/willscalendar_ie/willssearch.aspx), forename/surname search | No probate-calendar entry matches Samuel of Lisnagaver, who died in 1875. The returned exact-name estates were Samuel Glasgow of Camagh, County Armagh, died 1896, and Samuel Glasgow of Belfast, died 1902. | Bounded negative for the Armagh, Belfast and Londonderry registries, 1858-1965. It excludes those probate entries from Samuel's identity but does not prove that he made no unproved will. |
 | [PRONI Guide to Church Records](https://www.proni.gov.uk/files/proni/2026-01/PRONI%20Guide%20to%20Church%20Records.pdf), Rasharkin Presbyterian `MIC1P/292` | The surviving Rasharkin Presbyterian baptism register begins in 1834, decades after Samuel's circa-1790 birth. | No baptism in that surviving register can name Samuel's father. The direct collateral census-marriage proof remains the strongest available parent evidence. |
 

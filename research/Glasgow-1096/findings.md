@@ -33,12 +33,13 @@ namesake. Because two generations of adult Johns overlapped, the evidence does
 not justify a `certain` WikiTree status. It does justify retaining William as
 Robert's uncertain father while describing the relationship as **probable**.
 
-Robert is now proved to have had **at least two sons**. The 1596 burgess
+Robert is directly proved to have had **Ninian as a son**. The 1596 burgess
 admission calls [Ninian Glasgow (Glasgow-3188)](https://www.wikitree.com/wiki/Glasgow-3188)
-Robert's **second son**. Ninian's 1613 testament independently leaves a gown to
-"Johne Glasgw his brother." Together these records establish another son of
-Robert named **John Glasgow**, alive on 10 January 1613 and probably the elder
-or first son. No existing John profile can yet be identified uniquely with him.
+Robert's **second son**. Ninian's 1613 testament independently names
+"Johne Glasgw his brother." That proves Ninian had a brother John alive on 10
+January 1613, but does not say whether John was a full or half-brother. Robert
+is therefore a strong father candidate for John, not a directly proved father;
+nor does *second son* establish whether John was older or younger than Ninian.
 
 [Margaret Rolland (Rolland-239), born about 1535, Glasgow](https://www.wikitree.com/wiki/Rolland-239)
 is Robert's **confirmed spouse**. Protocols 1903, 1904 and 2125 call the couple
@@ -69,7 +70,7 @@ Easter Corswood widow to Robert's Glasgow household.
 | Same work, vol. 2, protocols 525-526, [20 February 1559/60, printed p. 76](https://archive.org/details/abstractsprotoc08scogoog/page/n93/mode/2up) | Robert Glesgw witnessed a South Port-to-Clyde-bridge property sale to David Howe and Cristina Lyndesay and its immediate resale. | Direct witness occurrence continuing Robert's association with the district. |
 | Same work, vol. 2, protocols 544-546, [18 April 1560, printed pp. 80-81](https://archive.org/details/abstractsprotoc08scogoog/page/n98/mode/2up) | Three sasines used Robert Glesgw's lands as a boundary; protocol 544 also used John Glesgw's lands as the western boundary. | Direct property evidence. The compact sequence supports, but does not prove, the identification of the neighbouring John with Glasgow-1093. |
 | James R. Anderson, ed., ''Burgesses & Guild Brethren of Glasgow, 1573-1750'' (1925), [p. 24](https://archive.org/details/scottishrecordso43scotuoft/page/24/mode/2up), 23 October 1596 | Ninian Glasgow was admitted as "second son to Robert G., fisher, burgess." | Directly proves Robert was Ninian's father and confirms Robert's occupation and burgess status. |
-| NRS Glasgow Commissary Court, `CC9/7/9`, images 142-145, testament of Ninian Glasgow, made 10 January 1613 and confirmed 8 May 1613; [saved source extracts](sources/robert-sons-source-extracts.txt) | Ninian left "Johne glasgw his brother ane new gowne." | Directly proves Ninian had a brother John alive in 1613. Combined with the 1596 description of Ninian as Robert's second son, this establishes another son of Robert and strongly indicates John was the elder/first son. |
+| NRS Glasgow Commissary Court, `CC9/7/9`, images 142-145, testament of Ninian Glasgow, made 10 January 1613 and confirmed 8 May 1613; [saved source extracts](sources/robert-sons-source-extracts.txt) | Ninian directly names `Johne glasgw his brother` and `Marioun glasgw his sist[er]`. The exact clothing description for John is unclear. | Directly proves Ninian had siblings John and Marion alive in 1613. Because the will does not say whether either was a full sibling, Robert is a strong parent candidate rather than a directly proved parent for them; `second son` does not identify John's birth order. |
 | Robert Renwick, ed., *Abstracts of Protocols of the Town Clerks of Glasgow*, vol. 6, protocols 1903-1904, [12 February 1572/73](https://archive.org/details/abstractsprotoc01renwgoog/page/n121/mode/2up) | Robert Glasgow and Margaret Rowand dealt with a tenement adjoining land of John Glasgow; John Glasgow, fisher, witnessed the transaction. | Directly places Robert and a fisher John in the same immediate property network. It does not call John Robert's son. |
 | *Extracts from the Records of the Burgh of Glasgow*, accounts for 1573-74, printed p. 453, [FamilySearch image](https://www.familysearch.org/ark:/61903/3:1:3QHV-V3DN-P9VH-Q) | The burgh accountant was discharged for eight shillings described as outstanding and not in use of payment from "Robert Glasgow tenement." | New contemporary property occurrence. Its date and subject fit the same Robert who dealt with a Glasgow tenement in 1572/73 and 1574/75. The entry gives no occupation or relative, so identity with Glasgow-1096 is strong contextual attribution rather than a uniquely identifying statement. |
 | Robert Renwick, ed., *Abstracts of Protocols of the Town Clerks of Glasgow*, vol. 7, protocol 2002, [19 December 1573](https://archive.org/details/abstractsprotoc00robegoog/page/n52/mode/2up) | `Robert Glasgw, Archibald Herbertsone, John Glasgw, fishers` were named together as witnesses. Archibald is the proved husband of probable sister Isobella Glasgow. | Strong three-person occupational and association evidence for the proposed sibling/in-law cluster. The protocol states no kinship, and multiple adult Johns were present, so it cannot by itself resolve which John witnessed. |
@@ -98,7 +99,8 @@ The remaining changes are:
   identity candidate: multiple adult Johns were present and the protocols state
   no father-son relationship.
 - Remove Glasgow-3181 as Robert's son; his 1576 death excludes that identity.
-- Do not infer the identity of Robert's first son solely from Ninian being called the second son.
+- Do not infer the identity of Robert's first son, or assign brother John to
+  Robert, solely from Ninian being called the second son.
 
 ### Exact relationship reconstruction
 
@@ -107,7 +109,8 @@ The remaining changes are:
 | Probable father | [[Glasgow-1098|William Glasgow (about 1500), Glasgow burgh]] | Retain the structured relationship as uncertain, but describe it as probable: Robert repeatedly shared William's proved son's compact property/craft network and linked the same group to Archibald. No record explicitly names Robert's father. |
 | Spouse | [[Rolland-239|Margaret Rolland]] | Protocol 2125 directly names Robert's spouse as **Margaret Rowand**. Correct this existing profile's surname if it represents the same woman; the protocol does not prove she was mother of either son. |
 | Proved son | [[Glasgow-3188|Ninian Glasgow (about 1550), Glasgow]] | Already attached certain; the 1596 roll directly calls him Robert's second son. |
-| Proved son | **John Glasgow, alive 10 January 1613; unresolved identity within an existing profile** | Ninian's testament directly calls John his brother, while the 1596 roll calls Ninian Robert's second son. [John Glasgow (Glasgow-1030), born before about 1595, Glasgow](https://www.wikitree.com/wiki/Glasgow-1030) is now used for this man, but the profile may conflate him with the John who married Jonet Mathie. Retain the [evidence draft](../Glasgow-1030/1596_Scotland_Glasgow_John_Glasgow.md) and do not treat the conflicting identity claims as resolved. |
+| Strong candidate son | **John Glasgow, alive 10 January 1613; unresolved identity within an existing profile** | Ninian's testament directly calls John his brother. Robert is Ninian's proved father, but full versus half-brother is unstated. [John Glasgow (Glasgow-1030), born before about 1595, Glasgow](https://www.wikitree.com/wiki/Glasgow-1030) is the leading identity candidate; do not treat either the identity or Robert father edge as certain. |
+| Strong candidate daughter | [[Glasgow-3062|Marion Glasgow]] | Ninian's testament directly calls Marion his sister. Robert is Ninian's proved father, but the record does not establish whether Marion was a full or half-sister. Replace the impossible Ninian-as-father edge with Robert marked uncertain; do not infer Marion's mother. |
 | Other current child | [[Glasgow-3613|Margaret Glasgow]] | Existing attachment; the 1596 record does not address her. |
 | Possible daughter | [Elizabeth Glasgow, widow of Alexander Kaine](https://www.wikitree.com/wiki/Glasgow-3915) | Collateral descendant-name lead only. Do not attach without a Kaine, property or testamentary record linking her to Robert or Ninian. |
 

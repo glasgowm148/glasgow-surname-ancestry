@@ -45,7 +45,7 @@ Several additional medieval Glasgows are known before modern records begin:
 * '''[[Space:Master_John_de_Glasgow_(~1340_%E2%80%93_1419)|Master John de Glasgow]]''' (c. 1340 – < 1419)  
 ** Educated cleric: '''Vicar''' of St Mary’s and '''Canon''' of Moray who held multiple benefices via papal petitions.<ref>See linked profile for details.</ref>
 * [[Space:William de Glasgu (fl. 1394)|William de Glasgu (fl. 1394), Cleric]]
-The documents do not spell out their kinship, yet the chronology suggests Andrew was probably the chaplain’s son or nephew, the John paid in 1343 could have been Andrew’s son, and Master John of Moray his grandson or great-grandson. Descendants likely moved among Scotland’s major church and royal centres, helping explain their later appearance in other regions.
+The documents do not spell out their kinship. Compatible chronology alone does not make the escheator the chaplain's son or nephew, the 1343 John his son, or Master John a later descendant. The 1283 Paisley-register property dossier instead supplies two distinct contemporary men: Alexander, son of the late Richard the messenger of Glasgow, and Alexander, son of Richard the former constable of Glasgow. The messenger's son is a plausible local identity candidate for the 1289/90 escheator, but no record bridges them.
 
 For more on the surname’s emergence, see [[Space:Glasgow_Surname_Origins|Glasgow Surname Origins]]. A full chronological list of early references appears at [[Space:Glasgow_Origins_Research_(1170_-_1600)|Glasgow Origins Research]].  
 
@@ -58,8 +58,8 @@ From the mid-fifteenth century the surname begins to appear in burgh records. Th
 **Active as a respected '''burgess''' in '''Stirling'''.
 ** Witnessed charters in 1475 and 1479/80.<ref>Stirling Charters, 11 Apr 1475 & 2 Mar 1479/80. [[https://archive.org/stream/chartersandothe00edingoog/chartersandothe00edingoog_djvu.txt Full Text]]</ref>
 * '''Younger John Glasgow''' (b. c. 1470-1490)
-**Likely related to the Stirling John.
-** Appears in '''Glasgow''' by 1506 as "'''John of Glasgow alias Smith'''" acquiring property.<ref>Instrument of sasine, 28 Apr 1506, Glasgow. [[https://archiveshub.jisc.ac.uk/files/guas/gua-bl.xml Blackhouse Charter BL 32]]</ref> (Alias might indicate trade, maternal name, or transition to the city).
+**Possibly related to the Stirling John; no relationship is proved.
+** Appears in '''Glasgow''' by 1506 as "'''John of Glasgow alias Smith'''" jointly acquiring a four-shilling annual rent with Sir Allan Smith.<ref>Glasgow University Archives, Blackhouse Charters, BL/204, formerly GUA16403, instrument dated 28 Apr 1506; [[https://yourscottisharchives.com/catalogues/565b7ef3-fc87-3f6f-aaac-149925faa39d?component-id=7cdbf375-dc6d-3de3-b53a-86376e2106da catalogue description]].</ref> Agnes, daughter and heir of Robert Watson, was the seller and Allan's property was the northern boundary. The record proves Watson's relationship to Agnes, not Allan's relationship to John, and does not establish John's occupation.
 ** Possibly the same John Glasgow recorded as a diocesan '''notary''' and '''presbyter''' (1507–1513).<ref>Mentioned in [[Space:Glasgow_Origins_Research_(1170_-_1600)|Glasgow Origins Research]] citing diocesan act books.</ref>
 ** Witnessed a civic transaction in 1536.<ref>Protocol 1258, 11 Jul 1536, Glasgow. [[https://www.google.co.uk/books/edition/William_Hegait_s_protocols_1547_76/WB8NAAAAYAAJ?pg=PA96 Source page 96]]</ref> Seems to be the progenitor of the main Glasgow city merchant line.
 * '''[[Glasgow-1098|William Glasgow]]''' (fl. 1526–1531)

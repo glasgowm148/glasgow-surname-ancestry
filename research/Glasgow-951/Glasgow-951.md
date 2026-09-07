@@ -1,17 +1,16 @@
-# Controlling profile summary for Glasgow-951
-
-The catalogue builder merges this corrected summary into the complete captured
-WikiTree biography. This file is not a standalone replacement.
+# Paste-ready replacement profile: Glasgow-951
 
 ```wikitext
 {{Estimated Date}}
+{{Ireland Native}}
+[[Category:Glasgow Name Study]]
 
 == Biography ==
 
-{{One Name Study|name=Glasgow}}
-
-'''Alexander Glasgow''' was born about 1810 or 1811 in County Antrim, Ireland.
-The 1851 census recorded him as forty, County Antrim-born and a farmer.<ref name="Census1851">[https://www.census.nationalarchives.ie/pages/1851/Antrim/Kilconway/Rasharkin/Lisnagaver/35/ 1851 Census of Ireland], Lisnagaver household 35.</ref>
+'''Alexander Glasgow''' was born in County Antrim, Ireland, probably between
+about 1804 and 1811. The 1851 census recorded him as forty, County Antrim-born
+and a farmer, implying birth about 1810 or 1811.<ref name="Census1851">[https://www.census.nationalarchives.ie/pages/1851/Antrim/Kilconway/Rasharkin/Lisnagaver/35/ 1851 Census of Ireland], Lisnagaver household 35.</ref> The probable 1888 death
+return instead reports age eighty-four, implying about 1804.<ref name="Death1888">[https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1888/06179/4766466.pdf General Register Office of Ireland, civil death register], Alexander Glasgow, Gortahar, 16 May 1888.</ref>
 
 Alexander married Mary, also called Molly, McCaughan or McAughern about 1836.
 Rasharkin Presbyterian baptism transcriptions place the family at Gortereghy in
@@ -23,7 +22,9 @@ Their known or probable children include:
 * an incompletely transcribed child recorded in 1838;
 * [[Glasgow-938|Robert Glasgow]], born about 1840;
 * [[Glasgow-973|James Glasgow]], born about 1843; and
-* [[Glasgow-438|Anna or Ann Glasgow]], born about 1847.<ref name="RasharkinBaptisms" /><ref name="Census1851" />
+* [[Glasgow-438|Anna or Ann Glasgow]], born about 1847; and
+* [[Glasgow-3167|Mary Glasgow]], born about 1843, whose 1871 marriage names her
+  father as Alexander Glasgow, farmer.<ref name="RasharkinBaptisms" /><ref name="Census1851" /><ref name="MaryMarriage1871">[https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1871/11341/8162804.pdf General Register Office of Ireland, civil marriage register], Robert Elder and Mary Glasgow, 14 June 1871, Ballymoney registration district.</ref>
 
 In 1851 Alexander and Mary headed Lisnagaver household 35 with Robert, James and
 Ann. Nearby households were headed by [[Glasgow-867|John Glasgow]] and his
@@ -38,10 +39,15 @@ Lisnagaver lot 25. His name remained through the 1865–78 revision volume and w
 struck out in the 1879–88 volume; Robert Elder held the lot by 1889. This proves
 tenancy continuity, not a death date.
 
-Alexander was alive in 1851. His exact death date and place have not been found.
-The former claim that he died in Glasgow, Scotland in 1852 or 1861 belongs to a
-conflated identity. The documented migration to Scotland begins with his son
-Robert, not Alexander.
+Alexander probably died at Gortahar on 16 May 1888. The register describes him
+as a married labourer, aged eighty-four, and says that his daughter Nancy was
+present.<ref name="Death1888" /> The age conflicts with the 1851 census, and
+Nancy has not yet been proved identical to daughter Ann, but the name, locality,
+marital status and family network make this a high-confidence identification.
+Mary died at Gortahar on 27 February 1892, a widow reportedly aged eighty-nine;
+her daughter Mary Elder informed the death.<ref name="MaryDeath1892">[https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1892/06049/4723532.pdf General Register Office of Ireland, civil death register], Mary Glasgow, Gortahar, 27 February 1892.</ref> The former claims that Alexander died in Glasgow,
+Scotland in 1852 or 1861 belong to conflated identities. The documented
+migration to Scotland begins with his son Robert, not Alexander.
 
 == Research Notes ==
 
@@ -57,10 +63,10 @@ Glasgow]] of Kilrea called the late Thomas his brother in his 1871 will, and
 Daniel Neely Glasgow's 1888 marriage names Thomas Glasgow, farmer, as his
 father.<ref name="DanielWill">[https://apps.proni.gov.uk/willscalendar_ie/willssearch.aspx Public Record Office of Northern Ireland, Will Calendars], will of Daniel Glasgow of Kilrea, proved 1871.</ref><ref name="DanielNeelyMarriage">[https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1888/10763/5925382.pdf General Register Office of Ireland, civil marriage register], Daniel Neely Glasgow and Mary Jane Boyd, 28 June 1888.</ref> Daniel and Thomas are therefore proved brothers.
 
-Alexander is their probable brother because he belonged to the same small
-Lisnagaver/Kilrea cluster, was of a compatible age and is included in the later
+Alexander is a possible brother or cousin because he belonged to the same small
+Lisnagaver/Kilrea network, was of a compatible age and is included in the later
 family reconstruction. No contemporary record calls him their brother or names
-the older Alexander as his father, so both his parent links remain uncertain.
+the older Alexander as his father, so both parent links remain uncertain.
 
 [[Glasgow-1022|John Glasgow of Glenleslie]] has not been proved as Alexander's
 father. The Mary Glasgow once used to connect them was twenty-eight in 1871 and
@@ -78,12 +84,12 @@ B580327 is assigned to R-FT20271.<ref name="FTDNA">[https://www.familytreedna.co
 
 Kit 1002232, representing the [[Glasgow-2738|James J Glasgow]] line, is also
 R-FT20271. The two kits are genetic distance three at Y-111, differ at four of
-662 compared Big Y STRs and share DYS714=27. A local uncalibrated model places
-their likely branching node around 1750 with a displayed 95% interval of
-1700–1750. That interval is a research window, not proof of a particular
-ancestor: the same model misdates a known control relationship.
+662 compared Big Y STRs and share DYS714=27. Those marker comparisons are useful
+for selecting documentary test lines, but they are not calibrated ancestry
+probabilities and do not date a common ancestor reliably.
 
-The result proves a shared direct paternal Glasgow ancestor. It does not show
+The result strongly supports a shared direct paternal Glasgow ancestor within
+the tested comparison. It does not show
 whether Alexander's father was the older Alexander, John of Glenleslie, Robert
 of Glenleslie or another collateral man. It supports retaining plausible
 uncertain attachments while documentary evidence is sought.

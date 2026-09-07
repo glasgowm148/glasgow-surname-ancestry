@@ -173,3 +173,19 @@ negative result, not proof that the 1618 Robert stayed in Scotland.
   the two Ireland residents not recoverable from the printed roll footnotes.
 - NRS GD154/505-534 and early PRONI D282 Kilwaughter tenant succession.
 - PRONI T/808/14889, 1666 County Antrim subsidy roll.
+
+<!-- BEGIN FMP-GLASGOW-fmp-glasgow-7ed3915647bd -->
+## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-7ed3915647bd
+
+The transcript-validated baptism record for **Rot. Glasgow**, 17 Nov 1618, Glasgow, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
+
+## Source findings
+
+- [R_693723911 Findmypast transcript](https://www.findmypast.co.uk/transcript?id=R_693723911&tab=this): Baptism date: 17 Nov 1618; Baptism place: HIGH CHURCH,GLASGOW,LANARK,SCOTLAND; Baptism year: 1618; Birth year: 1618; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Lanarkshire; Father's first name(s): Rot.; Father's last name: Glasgow; First name(s): Rot.; Last name: Glasgow; Mother's first name(s): Jonat; Mother's last name: Conynghame; Place: Glasgow; Record set: Scotland, Parish Births & Baptisms 1564-1929; Sex: Male; Subcategory: Parish Baptisms (captured 2026-09-03T21:34:58.749Z).
+- Findmypast record IDs: `R_693723911`.
+- Stable research/source ID: `fmp-glasgow-7ed3915647bd`.
+
+## Recommended action — fmp-glasgow-7ed3915647bd
+
+Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
+<!-- END FMP-GLASGOW-fmp-glasgow-7ed3915647bd -->

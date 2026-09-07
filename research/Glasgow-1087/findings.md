@@ -58,3 +58,21 @@ because his age and locality fit.
    with Archibald's 1639 apprenticeship.
 4. Search Midcalder `CH2/266/1` and Kirknewton `CH2/412/1`, respecting the
    documented gaps.
+
+<!-- BEGIN FMP-GLASGOW-fmp-glasgow-74ff22efa93c -->
+## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-74ff22efa93c
+
+The transcript-validated baptism record for **William Glasgow**, 24 Dec 1609, Mid Calder, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
+
+## Source findings
+
+- [R_686309726 Findmypast transcript](https://www.findmypast.co.uk/transcript?id=R_686309726&tab=this): Baptism date: 24 Dec 1609; Baptism place: MID CALDER, MIDLOTHIAN, SCOTLAND; Baptism year: 1609; Birth year: 1609; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Midlothian; Father's first name(s): Jhone; Father's last name: Glasgow; First name(s): William; Last name: Glasgow; Mother's first name(s): -; Place: Mid Calder; Record set: Scotland, Parish Births & Baptisms 1564-1929; Residence: Mid Calder, Midlothian, Scotland; Sex: Male; Subcategory: Parish Baptisms (captured 2026-09-03T21:35:36.368Z).
+- [R_694111819 Findmypast transcript](https://www.findmypast.co.uk/transcript?id=R_694111819&tab=this): Baptism date: 24 Dec 1609; Baptism place: MID CALDER, MIDLOTHIAN, SCOTLAND; Baptism year: 1609; Birth year: 1609; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Midlothian; Father's first name(s): Jhone; Father's last name: Glasgow; First name(s): William; Last name: Glasgow; Mother's first name(s): -; Place: Mid Calder; Record set: Scotland, Parish Births & Baptisms 1564-1929; Sex: Male; Subcategory: Parish Baptisms (captured 2026-09-03T21:35:38.170Z).
+- [SCOT/OPR/BAP/4585702 Findmypast transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4585702&tab=this): Archive reference: OPR 694/1; Baptism date: 24 Dec 1609; Baptism year: 1609; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Midlothian; Father's first name(s): Jhone; Father's last name: Glasgow; First name(s): William; Item: 3; Last name: Glasgow; Place: Midcalder; Record set: Scotland, Parish Births & Baptisms 1564-1929; Register year range: 1604-1674; Subcategory: Parish Baptisms (captured 2026-09-03T21:35:34.959Z).
+- Findmypast record IDs: `R_686309726`, `R_694111819`, `SCOT/OPR/BAP/4585702`.
+- Stable research/source ID: `fmp-glasgow-74ff22efa93c`.
+
+## Recommended action — fmp-glasgow-74ff22efa93c
+
+Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
+<!-- END FMP-GLASGOW-fmp-glasgow-74ff22efa93c -->

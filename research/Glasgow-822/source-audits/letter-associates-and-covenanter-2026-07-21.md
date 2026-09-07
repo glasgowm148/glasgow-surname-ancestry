@@ -118,3 +118,11 @@ does not justify changing that assessment to confirmed brother.
 reported the James/Barkly news. The original manuscript instead attributes
 that report to McCaivey. Every occurrence of the former attribution should be
 corrected before the finding is used on WikiTree.
+# Supersession note — 5 September 2026
+
+The master parentage review supersedes this audit where it calls Adam and John
+probable brothers, treats the 1831 denomination as settled, or assigns the 1847
+Barkly report to elder James Glasgow-3903. Adam and John are possible brothers
+or cousins; MacAfee and Torrens conflict on denomination; and younger James
+Glasgow-1623's 1851 marriage to Rosanna Barkley is the strongest match to the
+reported couple. The underlying source extracts remain useful.

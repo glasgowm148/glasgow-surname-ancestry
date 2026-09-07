@@ -11,8 +11,9 @@
 The Latin is ''Alexander filius Roberti de Glascu''. It directly proves that Alexander was Robert's son and that Robert bore the Glasgow locative. It does not necessarily style Alexander himself `de Glascu` or prove that he inherited a surname.
 
 == Research Notes ==
-Alexander's father may have been the earlier Dublin guild entrant Robert de Glasgu, but no occupation, property or explicit cross-reference proves it. Alexander is not proved to be the royal escheator recorded in Scotland fifty years later.
+Alexander's father may have been the earlier Dublin guild entrant Robert de Glasgu, but no occupation, property or explicit cross-reference proves it. John T. Gilbert's printed ''Free Citizens of Dublin, A.D. 1225–1250'' is an accessible White Book-derived source distinct from the Guild Merchant Roll; a text search found no secure additional identifier for Alexander or his father, but damaged passages, OCR and uncertain completeness make that only a limited negative.<ref>John T. Gilbert, ''Historic and Municipal Documents of Ireland, A.D. 1172–1320'' (1870), pp. 112–123; [https://archive.org/stream/historicandmuni00dubgoog/historicandmuni00dubgoog_djvu.txt Internet Archive text].</ref>
+
+Alexander is not proved to be the royal escheator recorded in Scotland fifty years later. [[Space:Alexander_son_of_Richard_messenger_of_Glasgow|Alexander, son of Richard the messenger of Glasgow]], an active Glasgow property-holder in 1283, is a closer chronological and geographical candidate for that official. Neither hypothesis has an identifying bridge.
 
 == Sources ==
 <references />
-

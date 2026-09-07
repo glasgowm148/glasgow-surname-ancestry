@@ -1,6 +1,6 @@
 # Findings: Glasgow-1022
 
-Last updated: 2026-08-30
+Last updated: 2026-09-05
 
 ## Live profile correction — 30 August 2026
 
@@ -53,9 +53,9 @@ The records support two related-looking but not yet connected branches.
 - Robert `Glasgow-1367` is not the Robert at Gortereghy. Household adjacency at
   Glenleslie is insufficient to make him John's son; leave Robert parentless.
 - Daniel `Glasgow-3896` and Thomas `Glasgow-987` are proved brothers. Younger
-  Alexander `Glasgow-951` is their probable brother. The Gortereghy Robert was
-  most likely Alexander's proved son Robert `Glasgow-938`, making the two
-  Gortereghy men probable uncle and nephew.
+  Alexander `Glasgow-951` is a possible brother or cousin. The Gortereghy Robert
+  was most likely Alexander's proved son Robert `Glasgow-938`; without the
+  Alexander–Thomas brother link, an uncle-nephew relationship is not proved.
 - The exact relationship between the John and older-Alexander branches remains
   unknown. They may have been brothers, making the Lisnagaver heads cousins, but
   father-son and more distant collateral relationships remain possible.

@@ -54,3 +54,115 @@ remain:
 - Incorrect child to remove: [[Glasgow-1376|James]].
 - Separate Inveresk man: [[Glasgow-3923|James Glasgow]], son of
   [[Glasgow-1148|Alexander Glasgow]] and [[Clerk-296|Jannet Clerk]].
+
+<!-- BEGIN FMP-GLASGOW-fmp-glasgow-3f34f6d0bdd6 -->
+## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-3f34f6d0bdd6
+
+The transcript-validated apprenticeship record for **James Glasgow**, 16 Jun 1641, Edinburgh, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
+
+## Source findings
+
+- [SCOT/EDINBURGH/APPRENTICES/0005160/1 Findmypast transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FEDINBURGH%2FAPPRENTICES%2F0005160%2F1&tab=this): Apprentice first name: James; Apprentice last name: Glasgow; Category: Education & work; Collections from: Great Britain, Scotland; Country: Scotland; County: Midlothian; Event date: 16 Jun 1641; Father first name: Robert; Father last name: Glasgow; Father occupation: Servitor to William Crichtoun; Father residence: Wester Duddingston; First name(s): James; Last name: Glasgow; Master first name: William; Master last name: Slater; Place: Edinburgh; Record set: Scotland, Edinburgh Apprentices 1583-1800; Role: Apprentice; Subcategory: Apprentices; Trade: Weaver; Year: 1641 (captured 2026-09-03T20:38:01.191Z).
+- Findmypast record IDs: `SCOT/EDINBURGH/APPRENTICES/0005160/1`.
+- Stable research/source ID: `fmp-glasgow-3f34f6d0bdd6`.
+
+## Recommended action — fmp-glasgow-3f34f6d0bdd6
+
+Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
+<!-- END FMP-GLASGOW-fmp-glasgow-3f34f6d0bdd6 -->
+
+<!-- BEGIN FMP-GLASGOW-fmp-glasgow-7fc6bb781027 -->
+## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-7fc6bb781027
+
+The transcript-validated burgess admission record for **James Glasgow**, 20 Jun 1649, Edinburgh, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
+
+## Source findings
+
+- [SCOT/BURGESS/1009523 Findmypast transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FBURGESS%2F1009523&tab=this): Additional information: B., weaver, as p. to umq. William Sklaitter, weaver, burgess (16 June 1641); Category: Education & work; Collection: Edinburgh Burgesses 1406-1700; Collections from: Great Britain, Scotland; Country: Scotland; County: Midlothian; Date: 20 Jun 1649; First name(s): James; Last name: Glasgow; Place: Edinburgh; Record set: Scotland, Burgess & Guild Brethren Index; Subcategory: Guild & Trade Associations; Year: 1649 (captured 2026-09-03T20:38:44.363Z).
+- Findmypast record IDs: `SCOT/BURGESS/1009523`.
+- Stable research/source ID: `fmp-glasgow-7fc6bb781027`.
+
+## Recommended action — fmp-glasgow-7fc6bb781027
+
+Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
+<!-- END FMP-GLASGOW-fmp-glasgow-7fc6bb781027 -->
+
+<!-- BEGIN FMP-GLASGOW-fmp-glasgow-0df4776b5b6a -->
+## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-0df4776b5b6a
+
+The transcript-validated apprenticeship record for **James Glasgow**, 12 Nov 1656, Edinburgh, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
+
+## Source findings
+
+- [SCOT/EDINBURGH/APPRENTICES/0013015/2 Findmypast transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FEDINBURGH%2FAPPRENTICES%2F0013015%2F2&tab=this): Apprentice first name: Thomas; Apprentice last name: Symontoun; Category: Education & work; Collections from: Great Britain, Scotland; Country: Scotland; County: Midlothian; Event date: 12 Nov 1656; Father first name: William; Father last name: Symontoun; Father residence: Windilaws; First name(s): James; Last name: Glasgow; Master first name: James; Master last name: Glasgow; Place: Edinburgh; Record set: Scotland, Edinburgh Apprentices 1583-1800; Role: Master; Subcategory: Apprentices; Trade: Weaver; Year: 1656 (captured 2026-09-03T20:38:57.186Z).
+- Findmypast record IDs: `SCOT/EDINBURGH/APPRENTICES/0013015/2`.
+- Stable research/source ID: `fmp-glasgow-0df4776b5b6a`.
+
+## Recommended action — fmp-glasgow-0df4776b5b6a
+
+Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
+<!-- END FMP-GLASGOW-fmp-glasgow-0df4776b5b6a -->
+
+<!-- BEGIN FMP-GLASGOW-fmp-glasgow-bf1cc3d3601e -->
+## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-bf1cc3d3601e
+
+The transcript-validated apprenticeship record for **James Glasgow**, 16 Nov 1659, Edinburgh, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
+
+## Source findings
+
+- [SCOT/EDINBURGH/APPRENTICES/0013091/2 Findmypast transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FEDINBURGH%2FAPPRENTICES%2F0013091%2F2&tab=this): Apprentice first name: John; Apprentice last name: Taylor; Category: Education & work; Collections from: Great Britain, Scotland; Country: Scotland; County: Midlothian; Event date: 16 Nov 1659; Father first name: John; Father last name: Taylor; Father occupation: Workman; Father residence: Edinburgh; First name(s): James; Last name: Glasgow; Master first name: James; Master last name: Glasgow; Place: Edinburgh; Record set: Scotland, Edinburgh Apprentices 1583-1800; Role: Master; Subcategory: Apprentices; Trade: Weaver; Year: 1659 (captured 2026-09-03T20:39:06.606Z).
+- Findmypast record IDs: `SCOT/EDINBURGH/APPRENTICES/0013091/2`.
+- Stable research/source ID: `fmp-glasgow-bf1cc3d3601e`.
+
+## Recommended action — fmp-glasgow-bf1cc3d3601e
+
+Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
+<!-- END FMP-GLASGOW-fmp-glasgow-bf1cc3d3601e -->
+
+<!-- BEGIN FMP-GLASGOW-fmp-glasgow-a2f52dd2bc28 -->
+## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-a2f52dd2bc28
+
+The transcript-validated apprenticeship record for **James Glasgow**, 24 Feb 1669, Edinburgh, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
+
+## Source findings
+
+- [SCOT/EDINBURGH/APPRENTICES/0001079/2 Findmypast transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FEDINBURGH%2FAPPRENTICES%2F0001079%2F2&tab=this): Apprentice first name: Thomas; Apprentice last name: Binnie; Category: Education & work; Collections from: Great Britain, Scotland; Country: Scotland; County: Midlothian; Event date: 24 Feb 1669; Father first name: Moses; Father last name: Binnie; Father occupation: Weaver; Father residence: Water of Leith; First name(s): James; Last name: Glasgow; Master first name: James; Master last name: Glasgow; Place: Edinburgh; Record set: Scotland, Edinburgh Apprentices 1583-1800; Role: Master; Subcategory: Apprentices; Trade: Weaver; Year: 1669 (captured 2026-09-03T20:39:17.177Z).
+- Findmypast record IDs: `SCOT/EDINBURGH/APPRENTICES/0001079/2`.
+- Stable research/source ID: `fmp-glasgow-a2f52dd2bc28`.
+
+## Recommended action — fmp-glasgow-a2f52dd2bc28
+
+Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
+<!-- END FMP-GLASGOW-fmp-glasgow-a2f52dd2bc28 -->
+
+<!-- BEGIN FMP-GLASGOW-fmp-glasgow-de80d2a0451b -->
+## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-de80d2a0451b
+
+The transcript-validated apprenticeship record for **James Glasgow**, 30 May 1677, Edinburgh, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
+
+## Source findings
+
+- [SCOT/EDINBURGH/APPRENTICES/0002770/2 Findmypast transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FEDINBURGH%2FAPPRENTICES%2F0002770%2F2&tab=this): Apprentice first name: William; Apprentice last name: Cockburn; Category: Education & work; Collections from: Great Britain, Scotland; Country: Scotland; County: Midlothian; Event date: 30 May 1677; Father first name: Richard; Father last name: Cockburn; Father occupation: Workman; Father residence: Water of Leith; First name(s): James; Last name: Glasgow; Master first name: James; Master last name: Glasgow; Place: Edinburgh; Record set: Scotland, Edinburgh Apprentices 1583-1800; Role: Master; Subcategory: Apprentices; Trade: Weaver; Year: 1677 (captured 2026-09-03T20:39:22.957Z).
+- Findmypast record IDs: `SCOT/EDINBURGH/APPRENTICES/0002770/2`.
+- Stable research/source ID: `fmp-glasgow-de80d2a0451b`.
+
+## Recommended action — fmp-glasgow-de80d2a0451b
+
+Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
+<!-- END FMP-GLASGOW-fmp-glasgow-de80d2a0451b -->
+
+<!-- BEGIN FMP-GLASGOW-fmp-glasgow-ad30a52bccad -->
+## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-ad30a52bccad
+
+The transcript-validated apprenticeship record for **James Glasgow**, 18 Oct 1693, Edinburgh, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
+
+## Source findings
+
+- [SCOT/EDINBURGH/APPRENTICES/0010259/2 Findmypast transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FEDINBURGH%2FAPPRENTICES%2F0010259%2F2&tab=this): Apprentice first name: John; Apprentice last name: Paterson; Category: Education & work; Collections from: Great Britain, Scotland; Country: Scotland; County: Midlothian; Event date: 18 Oct 1693; Father first name: James; Father last name: Paterson; Father occupation: Workman; First name(s): James; Last name: Glasgow; Master first name: James; Master last name: Glasgow; Notes: James Glasgow is burgess; Place: Edinburgh; Record set: Scotland, Edinburgh Apprentices 1583-1800; Role: Master; Subcategory: Apprentices; Trade: Weaver; Year: 1693 (captured 2026-09-03T21:35:57.178Z).
+- Findmypast record IDs: `SCOT/EDINBURGH/APPRENTICES/0010259/2`.
+- Stable research/source ID: `fmp-glasgow-ad30a52bccad`.
+
+## Recommended action — fmp-glasgow-ad30a52bccad
+
+Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
+<!-- END FMP-GLASGOW-fmp-glasgow-ad30a52bccad -->

@@ -683,7 +683,10 @@ def build_machine_models(public_people: list[dict]) -> tuple[dict[str, dict], li
             "catalogue_id": slug, "name": person["name"],
             "canonical_url": f"{SITE_URL}/people/{slug}.html", "json_url": f"{SITE_URL}/people/{slug}.json",
             "network_url": f"{SITE_URL}/people/{slug}.network.json",
-            "wikitree_url": WIKITREE_URL + person_id if WT_ID.fullmatch(person_id) else None,
+            "wikitree_url": (
+                WIKITREE_URL + person_id if WT_ID.fullmatch(person_id)
+                else person.get("wikitree_free_space_url") or None
+            ),
             "vitals": {"birth": _vital(person.get("birth", ""), person.get("birth_location", ""), person.get("birth_note", "")),
                        "death": _vital(person.get("death", ""), person.get("death_location", ""), person.get("death_note", ""))},
             "identity": {"gender": person.get("gender") or None, "occupations": _occupation_terms(person),

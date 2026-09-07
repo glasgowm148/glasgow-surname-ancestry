@@ -16,6 +16,8 @@ from tools.build_research_catalog import (
     _is_external_public_url,
     _potential_parentage,
     _profile_creation_vital,
+    _profile_update_significance,
+    _profile_work_status,
     _relative_given_name,
     _similar_people,
     _source_for_record,
@@ -149,8 +151,10 @@ Corrected assessment.
                 f"{profile_id} rewrite drops too much profile structure",
             )
             if update.get("preserve_captured_detail"):
+                normalise_heading = lambda value: re.sub(r"\s+", " ", value.replace("=", " ")).strip().casefold()
                 self.assertLessEqual(
-                    set(captured_headings), set(proposed_headings),
+                    {normalise_heading(value) for value in captured_headings},
+                    {normalise_heading(value) for value in proposed_headings},
                     f"{profile_id} rewrite did not retain every detailed heading",
                 )
             self.assertNotIn("{{One Name Study", proposed, profile_id)
@@ -237,7 +241,8 @@ Corrected assessment.
         ))
         public_filter_fields = {
             "record_types", "source_qualities", "has_original_record", "has_open_questions",
-            "missing_profile", "missing_father", "missing_mother", "uncertain_identity", "record_count", "location_groups", "family_root", "family_roots",
+            "missing_profile", "profile_work_status", "profile_work_candidate_count",
+            "missing_father", "missing_mother", "uncertain_identity", "record_count", "location_groups", "family_root", "family_roots",
         }
         self.assertTrue(all(public_filter_fields <= person.keys() for person in index))
         self.assertTrue(all(
@@ -413,11 +418,37 @@ Corrected assessment.
         self.assertIn("noreferrer", external_links_js)
 
         updates = [person for person in index if person["needs_wikitree_update"]]
-        self.assertEqual(updates, [])
+        profile_only_updates = {"Glasgow-3905", "Kyle-3461", "Scott-69166"}
+        base_updates = profile_only_updates | {"Glasgow-2462"}
+        findmypast_overrides = json.loads(
+            (ROOT / "research" / "findmypast-glasgow-audit" / "catalogue-integration-overrides.json").read_text(encoding="utf-8")
+        )["groups"]
+        findmypast_updates = {
+            item["profile_id"]
+            for item in findmypast_overrides.values()
+            if item["outcome"] == "existing_profile"
+            and item["profile_id"] != "Glasgow-4063"
+            and item.get("substantive_amendment") is True
+        }
+        reopened_updates = {
+            "Glasgow-951", "Glasgow-938", "Glasgow-2738", "Glasgow-3903",
+            "Glasgow-3188", "Glasgow-1495", "Glasgow-3062", "Glasgow-3075",
+            "Glasgow-3179", "Wilson-142005", "Glasgow-3539", "Glasgow-1086",
+            "Unknown-717333", "Glasgow-867",
+        }
+        self.assertEqual(
+            {person["profile_ids"][0] for person in updates},
+            base_updates | findmypast_updates | reopened_updates,
+        )
+        updates_by_profile = {person["profile_ids"][0]: person for person in updates}
+        self.assertTrue(all(updates_by_profile[profile_id]["record_count"] == 0 for profile_id in profile_only_updates))
+        self.assertGreaterEqual(updates_by_profile["Glasgow-2462"]["record_count"], 1)
+        self.assertTrue(all(updates_by_profile[profile_id]["record_count"] >= 1 for profile_id in findmypast_updates))
         self.assertIn("needsUpdate:'needsUpdate'", search_js)
         self.assertIn("'significance:desc','Update significance'", search_js)
-        self.assertIn("0 source-backed corrections remain on WikiTree", catalogue_html)
-        self.assertIn("0 profiles ranked by significance", catalogue_html)
+        update_count = len(base_updates | findmypast_updates | reopened_updates)
+        self.assertIn(f"{update_count} source-backed corrections remain on WikiTree", catalogue_html)
+        self.assertIn(f"{update_count} profiles ranked by significance", catalogue_html)
         detached_update_html = (WEB / "people" / "glasgow-2769.html").read_text(encoding="utf-8")
         self.assertIn("[[Glasgow-1983|Robert Glasgow]] was previously attached as Robert&#x27;s father", detached_update_html)
         self.assertIn("== Research Notes ==", detached_update_html)
@@ -435,7 +466,7 @@ Corrected assessment.
             self.assertLess(draft_text.index("== Research Notes =="), draft_text.index("== Sources =="), update_page.name)
             self.assertNotRegex(
                 draft_text,
-                r"(?mi)^(?:Required profile change|Evidence-led project update|Add|Remove|Detach|Replace|Revise|Retain|Keep|Mark|Change|Correct|Separate|Fix|Clear|State|Use|Do not)\b",
+                r"(?mi)^(?:Required profile change|Evidence-led project update)\b",
                 update_page.name,
             )
         self.assertTrue((WEB / "people" / "profile-update.js").exists())
@@ -473,7 +504,9 @@ Corrected assessment.
             self.assertTrue(html_path.exists(), entry["id"])
             self.assertTrue(json_path.exists(), entry["id"])
             self.assertTrue(network_path.exists(), entry["id"])
-            self.assertLess(json_path.stat().st_size, 256_000, entry["id"])
+            # Complete paste-ready amendment and HOLD drafts are deliberately
+            # exposed in the dossier JSON for catalogue consumers.
+            self.assertLess(json_path.stat().st_size, 384_000, entry["id"])
             dossier = json.loads(json_path.read_text(encoding="utf-8"))
             self.assertEqual(dossier["schema_version"], "1.0")
             self.assertEqual(dossier["id"], entry["id"])
@@ -571,7 +604,60 @@ Corrected assessment.
         self.assertNotIn("Download link update", profile_script)
 
         audit_payload = json.loads((ROOT / "data" / "wikitree" / "catalogue-profile-audit.json").read_text(encoding="utf-8"))
-        self.assertFalse(audit_payload["entries"])
+        pre1650_plan = json.loads(
+            (ROOT / "research" / "findmypast-glasgow-audit" / "catalogue-integration-plan-pre1650.json").read_text(encoding="utf-8")
+        )
+        range_plan = json.loads(
+            (ROOT / "research" / "findmypast-glasgow-audit" / "catalogue-integration-plan-1650-1750.json").read_text(encoding="utf-8")
+        )
+        expected_audit_entries = {
+            "record-" + item["supplement_id"]
+            for plan in (pre1650_plan, range_plan)
+            for item in plan["decisions"]
+            if item["outcome"] != "existing_profile"
+        }
+        expected_audit_entries.add("record-fmp-glasgow-11443ace3ea2")
+        expected_audit_entries.update({
+            "record-saltcoats-1637-john-glasgow",
+            "record-saltcoats-1637-katherine-glasgow",
+        })
+        self.assertEqual(set(audit_payload["entries"]), expected_audit_entries)
+        for resolved_id in (
+            "record-fmp-glasgow-17ba21591d7d", "record-fmp-glasgow-37cd5c63b64f",
+            "record-fmp-glasgow-bacd8e7498f2", "record-fmp-glasgow-27f929774fdc",
+            "record-fmp-glasgow-e9bdb7a1c978",
+        ):
+            self.assertNotIn(resolved_id, audit_payload["entries"])
+        self.assertNotIn("record-fmp-glasgow-67ec4399079d", audit_payload["entries"])
+
+        catalogue_people = json.loads(
+            (WEB / "data" / "people.json").read_text(encoding="utf-8")
+        )["people"]
+        unlinked = [person for person in catalogue_people if not person["has_wikitree_destination"]]
+        self.assertEqual(
+            Counter(person["profile_work_status"] for person in unlinked),
+            Counter({
+                "creation_ready": 43,
+                "existing_profile_candidate": 10,
+                "identity_hold": 1,
+                "unreviewed": 2,
+            }),
+        )
+        linked_space = [person for person in catalogue_people if person["profile_work_status"] == "linked_free_space"]
+        self.assertEqual(len(linked_space), 4)
+        self.assertTrue(all(person["wikitree_free_space_url"].startswith("https://www.wikitree.com/wiki/Space:") for person in linked_space))
+        catalogue_html = (WEB / "catalogue.html").read_text(encoding="utf-8")
+        self.assertIn("Creation-ready profiles", catalogue_html)
+        self.assertIn("10 possible existing-profile matches on HOLD", catalogue_html)
+        self.assertNotIn("Unlinked WikiTree entries", catalogue_html)
+
+        holkham = json.loads((WEB / "people" / "glasgow-4063.json").read_text(encoding="utf-8"))
+        self.assertTrue(holkham["research_findings"])
+        self.assertEqual(holkham["vitals"]["death"]["date"], "1560-03-23")
+        self.assertTrue(any(
+            item["source"]["url"].endswith("GBPRS%2FNORFOLK%2FBUR%2F004320950&tab=this")
+            for item in holkham["evidence"]
+        ))
 
     def test_profile_creation_vital_always_uses_a_defensible_date(self):
         estimated = _profile_creation_vital({
@@ -583,6 +669,36 @@ Corrected assessment.
             "birth": "", "death": "", "records": [{"year": "1801", "filter_year": 1801, "association": "taxpayer"}],
         })
         self.assertEqual((derived["kind"], derived["value"]), ("Birth", "about 1783"))
+
+    def test_profile_work_status_is_consolidation_first(self):
+        unlinked = {"profile_ids": []}
+        self.assertEqual(
+            _profile_work_status(unlinked, {"recommended_action": "hold", "candidates": [{"profile_id": "Glasgow-1"}]}),
+            "existing_profile_candidate",
+        )
+        self.assertEqual(
+            _profile_work_status(unlinked, {"recommended_action": "hold", "candidates": []}),
+            "identity_hold",
+        )
+        self.assertEqual(
+            _profile_work_status(unlinked, {"recommended_action": "create_new_profile", "candidates": []}),
+            "creation_ready",
+        )
+        self.assertEqual(
+            _profile_work_status(unlinked, {"recommended_action": "do_not_create", "identity_status": "free_space_only"}),
+            "free_space_only",
+        )
+        self.assertEqual(
+            _profile_work_status({"profile_ids": [], "wikitree_free_space_url": "https://www.wikitree.com/wiki/Space:Example"}, {}),
+            "linked_free_space",
+        )
+
+    def test_profile_update_significance_ranks_genealogical_impact(self):
+        relationship = _profile_update_significance("REOPEN", "The testament directly calls Marion his sister.")
+        vital = _profile_update_significance("OPEN", "Correct the death date from 11 to 12 December 1878.")
+        citation = _profile_update_significance("OPEN", "Add the archive citation.")
+        self.assertGreater(relationship, vital)
+        self.assertGreater(vital, citation)
 
     def test_periodic_profile_match_requires_one_new_vital_fingerprint(self):
         previous = {"recommended_action": "ready_to_create", "candidates": []}

@@ -13,6 +13,7 @@ The early membranes were copied from an earlier source and are conventionally as
 == Research Notes ==
 Robert may have been the father of Alexander admitted in 1238/39, but the later entry does not call the father the earlier guild member. Keep that identity uncertain and keep this man separate from the 1200 plea-roll Robert, the Dunkeld clerk and the Durham witness.
 
+John T. Gilbert's printed ''Free Citizens of Dublin, A.D. 1225–1250'' is available online and is distinct from the Guild Merchant Roll.<ref>John T. Gilbert, ''Historic and Municipal Documents of Ireland, A.D. 1172–1320'' (1870), pp. 112–123; [https://archive.org/stream/historicandmuni00dubgoog/historicandmuni00dubgoog_djvu.txt Internet Archive text].</ref> A text search did not recover another entry securely identifying Robert, Richard, Gilbert or Alexander. This is not an exhaustive absence finding because the printed text marks damaged material, OCR is imperfect and completeness against the White Book has not been established. Check this published material before commissioning a wholly new reading-room search.
+
 == Sources ==
 <references />
-

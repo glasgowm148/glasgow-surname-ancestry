@@ -1,0 +1,401 @@
+{
+  "query": {
+    "surname": "Glasgow",
+    "surname_variants": false,
+    "place": null,
+    "covered_years": [
+      1621,
+      1701
+    ],
+    "url": "https://www.findmypast.co.uk/search/results?eventyear=1661&eventyear_offset=40&lastname=glasgow",
+    "eventyear": 1661,
+    "eventyear_offset": 40,
+    "partition_group_id": "1661-o40",
+    "sourcecategory_facets": {
+      "life events (bmds)": 938,
+      "census, land & surveys": 1,
+      "churches & religion": 2,
+      "newspapers, directories & social history": 1661,
+      "education & work": 252,
+      "institutions & organisations": 16,
+      "armed forces & conflict": 16,
+      "travel & migration": 2814
+    }
+  },
+  "started_at": "2026-09-03T19:57:55.767Z",
+  "completed_at": null,
+  "displayed_total": 5700,
+  "expected_pages": 285,
+  "captured_pages": 1,
+  "captured_rows": 20,
+  "reconciled": false,
+  "pages": [
+    {
+      "page": 1,
+      "url": "https://www.findmypast.co.uk/search/results?eventyear=1661&eventyear_offset=40&lastname=glasgow",
+      "captured_at": "2026-09-03T19:57:55.767Z",
+      "rows": [
+        {
+          "event_year": "—",
+          "first_name": "—",
+          "last_name": "Glasgow",
+          "links": [
+            {
+              "label": "View transcript",
+              "url": "https://www.findmypast.co.uk/transcript?id=US%2FGPC%2F00633657"
+            },
+            {
+              "label": "View image",
+              "url": "https://search.findmypast.co.uk/record?id=US%2FGPC%2FIMAGES%2F9780806313436%2F0367&parentid=US%2FGPC%2F00633657"
+            }
+          ],
+          "location": "Nova Scotia, Canada",
+          "record_id": "US/GPC/00633657",
+          "record_set": "United States, Transatlantic Migration Indexes",
+          "subscription_locked": false,
+          "year_of_birth": "—",
+          "year_of_death": "—"
+        },
+        {
+          "event_year": "—",
+          "first_name": "—",
+          "last_name": "Glasgow",
+          "links": [
+            {
+              "label": "View transcript",
+              "url": "https://www.findmypast.co.uk/transcript?id=IRE%2FNAI%2FGENABS%2F00400857%2F1"
+            },
+            {
+              "label": "View image",
+              "url": "https://search.findmypast.co.uk/record?id=S2%2FIRE%2FNAI%2F007634676%2F00572&parentid=IRE%2FNAI%2FGENABS%2F00400857%2F1"
+            }
+          ],
+          "location": "Ireland",
+          "record_id": "IRE/NAI/GENABS/00400857/1",
+          "record_set": "Betham Genealogical Abstracts",
+          "subscription_locked": false,
+          "year_of_birth": "—",
+          "year_of_death": "—"
+        },
+        {
+          "event_year": "—",
+          "first_name": "—",
+          "last_name": "Glasgow",
+          "links": [
+            {
+              "label": "View transcript",
+              "url": "https://www.findmypast.co.uk/transcript?id=IRE%2FNAI%2FGENABS%2F00612100%2F1"
+            },
+            {
+              "label": "View image",
+              "url": "https://search.findmypast.co.uk/record?id=S2%2FIRE%2FNAI%2F007634819%2F00363&parentid=IRE%2FNAI%2FGENABS%2F00612100%2F1"
+            }
+          ],
+          "location": "Ireland",
+          "record_id": "IRE/NAI/GENABS/00612100/1",
+          "record_set": "Crossle Genealogical Abstracts",
+          "subscription_locked": false,
+          "year_of_birth": "—",
+          "year_of_death": "—"
+        },
+        {
+          "event_year": "—",
+          "first_name": "—",
+          "last_name": "Glasgow",
+          "links": [
+            {
+              "label": "View transcript",
+              "url": "https://www.findmypast.co.uk/transcript?id=IRE%2FNAI%2FGENABS%2F00859808%2F1"
+            },
+            {
+              "label": "View image",
+              "url": "https://search.findmypast.co.uk/record?id=S2%2FIRE%2FNAI%2F007634839%2F00342&parentid=IRE%2FNAI%2FGENABS%2F00859808%2F1"
+            }
+          ],
+          "location": "Ireland",
+          "record_id": "IRE/NAI/GENABS/00859808/1",
+          "record_set": "Crossle Genealogical Abstracts",
+          "subscription_locked": false,
+          "year_of_birth": "—",
+          "year_of_death": "—"
+        },
+        {
+          "event_year": "—",
+          "first_name": "—",
+          "last_name": "Glasgow",
+          "links": [
+            {
+              "label": "View transcript",
+              "url": "https://www.findmypast.co.uk/transcript?id=IRE%2FNAI%2FGENABS%2F00325438%2F1"
+            },
+            {
+              "label": "View image",
+              "url": "https://search.findmypast.co.uk/record?id=S2%2FIRE%2FNAI%2F007634618%2F00726&parentid=IRE%2FNAI%2FGENABS%2F00325438%2F1"
+            }
+          ],
+          "location": "Ireland",
+          "record_id": "IRE/NAI/GENABS/00325438/1",
+          "record_set": "Betham Genealogical Abstracts",
+          "subscription_locked": false,
+          "year_of_birth": "—",
+          "year_of_death": "—"
+        },
+        {
+          "event_year": "—",
+          "first_name": "—",
+          "last_name": "Glasgow",
+          "links": [
+            {
+              "label": "View transcript",
+              "url": "https://www.findmypast.co.uk/transcript?id=GBPR%2FCOVENANT%2F028561"
+            }
+          ],
+          "location": "Ayrshire, Scotland",
+          "record_id": "GBPR/COVENANT/028561",
+          "record_set": "Scottish Covenanters 1679-1688",
+          "subscription_locked": false,
+          "year_of_birth": "—",
+          "year_of_death": "—"
+        },
+        {
+          "event_year": "—",
+          "first_name": "—",
+          "last_name": "Glasgow",
+          "links": [
+            {
+              "label": "View transcript",
+              "url": "https://www.findmypast.co.uk/transcript?id=GBPR%2FCOVENANT%2F028562"
+            }
+          ],
+          "location": "Ayrshire, Scotland",
+          "record_id": "GBPR/COVENANT/028562",
+          "record_set": "Scottish Covenanters 1679-1688",
+          "subscription_locked": false,
+          "year_of_birth": "—",
+          "year_of_death": "—"
+        },
+        {
+          "event_year": "—",
+          "first_name": "—",
+          "last_name": "Glasgow",
+          "links": [
+            {
+              "label": "View transcript",
+              "url": "https://www.findmypast.co.uk/transcript?id=GBPR%2FCOVENANT%2F028563"
+            }
+          ],
+          "location": "Kilbryde, Lanarkshire, Scotland",
+          "record_id": "GBPR/COVENANT/028563",
+          "record_set": "Scottish Covenanters 1679-1688",
+          "subscription_locked": false,
+          "year_of_birth": "—",
+          "year_of_death": "—"
+        },
+        {
+          "event_year": "—",
+          "first_name": "—",
+          "last_name": "Glasgow",
+          "links": [
+            {
+              "label": "View transcript",
+              "url": "https://www.findmypast.co.uk/transcript?id=R_687013195"
+            }
+          ],
+          "location": "Ayrshire, Scotland",
+          "record_id": "R_687013195",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "subscription_locked": false,
+          "year_of_birth": "1792",
+          "year_of_death": "—"
+        },
+        {
+          "event_year": "—",
+          "first_name": "—",
+          "last_name": "Glasgow",
+          "links": [
+            {
+              "label": "View transcript",
+              "url": "https://www.findmypast.co.uk/transcript?id=R_687016331"
+            }
+          ],
+          "location": "Ayrshire, Scotland",
+          "record_id": "R_687016331",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "subscription_locked": false,
+          "year_of_birth": "1797",
+          "year_of_death": "—"
+        },
+        {
+          "event_year": "—",
+          "first_name": "—",
+          "last_name": "Glasgow",
+          "links": [
+            {
+              "label": "View transcript",
+              "url": "https://www.findmypast.co.uk/transcript?id=R_691882635"
+            }
+          ],
+          "location": "Linlithgowshire (West Lothian), Scotland",
+          "record_id": "R_691882635",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "subscription_locked": false,
+          "year_of_birth": "1797",
+          "year_of_death": "—"
+        },
+        {
+          "event_year": "—",
+          "first_name": "—",
+          "last_name": "Glasgow",
+          "links": [
+            {
+              "label": "View transcript",
+              "url": "https://www.findmypast.co.uk/transcript?id=R_686287158"
+            }
+          ],
+          "location": "Midlothian, Scotland",
+          "record_id": "R_686287158",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "subscription_locked": false,
+          "year_of_birth": "1829",
+          "year_of_death": "1829"
+        },
+        {
+          "event_year": "—",
+          "first_name": "—",
+          "last_name": "Glasgow",
+          "links": [
+            {
+              "label": "View transcript",
+              "url": "https://www.findmypast.co.uk/transcript?id=R_694082635"
+            }
+          ],
+          "location": "Midlothian, Scotland",
+          "record_id": "R_694082635",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "subscription_locked": false,
+          "year_of_birth": "1829",
+          "year_of_death": "1829"
+        },
+        {
+          "event_year": "—",
+          "first_name": "—",
+          "last_name": "Glasgow",
+          "links": [
+            {
+              "label": "View transcript",
+              "url": "https://www.findmypast.co.uk/transcript?id=R_694083942"
+            }
+          ],
+          "location": "Midlothian, Scotland",
+          "record_id": "R_694083942",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "subscription_locked": false,
+          "year_of_birth": "1829",
+          "year_of_death": "1829"
+        },
+        {
+          "event_year": "—",
+          "first_name": "—",
+          "last_name": "Glasgow",
+          "links": [
+            {
+              "label": "View transcript",
+              "url": "https://www.findmypast.co.uk/transcript?id=R_692599336"
+            }
+          ],
+          "location": "Lanarkshire, Scotland",
+          "record_id": "R_692599336",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "subscription_locked": false,
+          "year_of_birth": "1839",
+          "year_of_death": "1839"
+        },
+        {
+          "event_year": "—",
+          "first_name": "—",
+          "last_name": "Glasgow",
+          "links": [
+            {
+              "label": "View transcript",
+              "url": "https://www.findmypast.co.uk/transcript?id=R_685308116"
+            }
+          ],
+          "location": "Ayrshire, Scotland",
+          "record_id": "R_685308116",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "subscription_locked": false,
+          "year_of_birth": "1841",
+          "year_of_death": "1841"
+        },
+        {
+          "event_year": "—",
+          "first_name": "—",
+          "last_name": "Glasgow",
+          "links": [
+            {
+              "label": "View transcript",
+              "url": "https://www.findmypast.co.uk/transcript?id=R_688617841"
+            }
+          ],
+          "location": "Ayrshire, Scotland",
+          "record_id": "R_688617841",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "subscription_locked": false,
+          "year_of_birth": "1841",
+          "year_of_death": "1841"
+        },
+        {
+          "event_year": "—",
+          "first_name": "—",
+          "last_name": "Glasgow",
+          "links": [
+            {
+              "label": "View transcript",
+              "url": "https://www.findmypast.co.uk/transcript?id=R_691844705"
+            }
+          ],
+          "location": "Linlithgowshire (West Lothian), Scotland",
+          "record_id": "R_691844705",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "subscription_locked": false,
+          "year_of_birth": "1847",
+          "year_of_death": "1847"
+        },
+        {
+          "event_year": "—",
+          "first_name": "—",
+          "last_name": "Glasgow",
+          "links": [
+            {
+              "label": "View transcript",
+              "url": "https://www.findmypast.co.uk/transcript?id=R_691845433"
+            }
+          ],
+          "location": "Linlithgowshire (West Lothian), Scotland",
+          "record_id": "R_691845433",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "subscription_locked": false,
+          "year_of_birth": "1847",
+          "year_of_death": "1847"
+        },
+        {
+          "event_year": "—",
+          "first_name": "—",
+          "last_name": "Glasgow",
+          "links": [
+            {
+              "label": "View transcript",
+              "url": "https://www.findmypast.co.uk/transcript?id=R_691844706"
+            }
+          ],
+          "location": "Linlithgowshire (West Lothian), Scotland",
+          "record_id": "R_691844706",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "subscription_locked": false,
+          "year_of_birth": "1847",
+          "year_of_death": "1847"
+        }
+      ]
+    }
+  ]
+}

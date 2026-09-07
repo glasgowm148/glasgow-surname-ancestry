@@ -22,6 +22,8 @@ unproved.
 
 ## Do not add as fact
 
-- The identity of Robert's elder son John. [John Glasgow (Glasgow-1030), born before about 1595, Glasgow](https://www.wikitree.com/wiki/Glasgow-1030) is a candidate, not a proved match.
+- Whether Ninian's brother John was also Robert's son, and whether he was
+  [[Glasgow-1030]]. The testament does not distinguish a full from a
+  half-brother, and `second son` does not establish John's birth order.
 - Do not create or merge a replacement profile until the existing John candidates and their families have been checked.
 - Do not call John the fisher Robert's brother, and do not infer Margaret Rowand's parents from the property transactions.

@@ -7,6 +7,13 @@ Glasgow-4010 is the Irish-born storekeeper aged next birthday 51 in Prescott's
 children are retained as uncertain household relationships because the census
 does not state kinship. Alba and Lycania remain uncreated identity holds.
 
+A supplied account of Robert Glasgow of Prescott's 1849 will, registered in
+1856, gives six shares for brothers Daniel, Samuel, John and Thomas, deceased
+brother James's children collectively, and sister Mary. The underlying
+FamilySearch image `3Q9M-CSLG-LWY9-S` was not retrieved. Do not identify this
+merchant Samuel as one of those brothers, or the testator as his father, until
+the original clause and the Canadian family identities are checked.
+
 ## Source findings
 
 | Source | Finding | Assessment |

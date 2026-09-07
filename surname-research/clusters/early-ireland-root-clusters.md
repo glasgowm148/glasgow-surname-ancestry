@@ -147,11 +147,11 @@ East Antrim 1653-1700
      -> proved Kilwaughter-to-South Carolina branch
 
 Tamlaght O'Crilly 1740: Hugh + Hugh
-  -> entry 1272: probable Hugh Glasgow-548 occurrence
+  -> entry 1272: possible Hugh Glasgow-548 occurrence
      -> reported sons John-549, Robert-550, Hugh-540
   -> entry 1195: separate Hugh; create record-defined profile
      -> ? older Adam + Maria
-        -> probable brothers Adam-3902 + John-3927/822
+        -> possible brothers or cousins Adam-3902 + John-3927/822
   -> William-591 remains earlier family tradition only
 
 Derryloran 1740: James + James + William + William

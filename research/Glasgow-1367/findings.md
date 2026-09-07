@@ -386,5 +386,31 @@ The 1836 valuation field book names Robert Glasgow as the only Glasgow with a dw
 Alexander's later lot 25 probably represents a reduced continuation of the earlier Alexander holding, although the 1834 Alexander may have been an older namesake. Thomas deriving from that Alexander holding remains a competing hypothesis because of the later Alexander-and-Rosanna family tradition.
 
 No record yet proves inheritance or identifies the relationships. The likely legal mechanism was subdivision and regrant by the Harvey estate. See `sources/lisnagaver_field_book_1836.md`.
-\n+## 2026-08-24: Harvey estate provenance\n+\n+Robert Harvey is not merely a valuation-era name. Lisnagaver formed part of the Killoquin estate, derived from the 1760 fee-farm grant by the Earl of Antrim to Richard Bateson. Registry of Deeds memorial 506246 (book 743, p. 511), dated 13 January and registered 12 August 1819, records Sir Robert Bateson Harvey of Langley Park and Killoquin settling his Irish lands through trustees in anticipation of the marriage of his son Robert Harvey to Jemima Jane Collins. This explains the later appearance of Robert Harvey as immediate lessor of Lisnagaver lots 24-26.\n+\n+A Killoquin archive sold as Mullocks lot 238 on 18 March 2014 included rent books for 1772-1774 and, critically, a rent book recording tenants and rents from 1835, plus tenant correspondence and a tenant petition/list. The 1835 rent book is the best known source for determining whether John, Alexander and Thomas Glasgow received subdivisions or regrants of the earlier Robert and Alexander Glasgow holdings. Its present owner is unknown.\n+\n+Current inference: John and Thomas's later holdings (about 54.5 statute acres combined) most likely derive from the 1834 Robert Glasgow holding (35 plantation acres, about 56.7 statute acres). Alexander's later lot 25 most likely represents a reduced continuation or regrant from the earlier Alexander holding. These were Killoquin estate tenancies, so succession need not have been inheritance in the legal sense.\n+
-\n+## 2026-08-24: Lisnagaver's 1768 lease structure\n+\n+The Belfast News-Letter of 29 July 1768 advertised Lisnagaver for a 21-year term beginning 1 November 1768. The townland was then arranged as three principal Cunningham-measure farms:\n+\n+* Archibald McNeill and partners: 70 acres, 1 rood, 34 perches.\n+* James McNeill and partners: 106 acres, 0 roods, 12 perches, plus 2 acres, 2 roods of bog.\n+* John Taylor and partners: 107 acres, 0 roods, 20 perches, plus 21 acres, 1 rood, 35 perches of bog.\n+\n+Proposals were directed to Thomas Thompson of Greenmount, who had authority to let the lands. Source: Belfast News-Letter, 29 July 1768, p. 1, transcription in Blair Extracts from the Belfast Newsletter, https://www.kinsleuth.com/belnews/1760-1769.htm.\n+\n+No Glasgow was named as a principal tenant. The word "partners" leaves open the possibility of unnamed subtenants, but no evidence currently identifies any partner as a Glasgow. The 21-year term expired around November 1789. PRONI D3209/1, the Killoquin rent roll and arrears account for 1788-1789, therefore falls exactly at the renewal point and is now the highest-value public source for identifying when the Glasgow tenancy began.\n+\n+One Cunningham acre was about 1.29 statute acres. The 1768 figures describe almost the whole 420-statute-acre townland, whereas the 1834 tithe listed only particular taxable holdings. Direct acreage matching between those records is therefore unsafe without maps or a complete rent roll.\n+
+## 2026-08-24: Harvey estate provenance
+
+Robert Harvey is not merely a valuation-era name. Lisnagaver formed part of the
+Killoquin estate, derived from the 1760 fee-farm grant by the Earl of Antrim to
+Richard Bateson. Registry of Deeds memorial 506246 (book 743, p. 511), dated 13
+January and registered 12 August 1819, records Sir Robert Bateson Harvey settling
+his Irish lands through trustees before his son Robert Harvey's marriage to
+Jemima Jane Collins. This explains the later immediate lessor.
+
+A Killoquin archive sold as Mullocks lot 238 on 18 March 2014 included rent
+books for 1772–1774 and 1835, tenant correspondence and a tenant petition/list.
+The 1835 rent book is a priority source for testing the later subdivisions; its
+present owner is unknown. The land comparison remains a tenancy prediction,
+not proof of inheritance or relationship.
+
+## 2026-08-24: Lisnagaver's 1768 lease structure
+
+The *Belfast News-Letter* of 29 July 1768 advertised Lisnagaver for a 21-year
+term beginning 1 November 1768. Three principal Cunningham-measure farms were
+held by Archibald McNeill and partners (70a 1r 34p), James McNeill and partners
+(106a 0r 12p plus 2a 2r bog), and John Taylor and partners (107a 0r 20p plus
+21a 1r 35p bog). No Glasgow was named as a principal tenant.
+
+The term expired about November 1789. PRONI `D3209/1`, the Killoquin rent roll
+and arrears account for 1788–1789, is therefore a priority source for when the
+Glasgow tenancy began. Direct acreage matching is unsafe without the rent roll
+and maps because Cunningham and statute measure differ and the 1834 tithe did
+not necessarily cover the whole townland.

@@ -69,8 +69,9 @@ County Tyrone collection item and is not an open Inishrush target.
 
 The complete Tamlaght O'Crilly 1831 transcription lists only two Glasgow/Glasco
 households in the parish: John Glasco at Inishrush house 2 (four males and four
-females, all Presbyterian) and Adam Glasco at Inishrush house 91 (three males
-and five females, all Presbyterian). They were not adjacent households, so this
+females) and Adam Glasco at Inishrush house 91 (three males and five females).
+MacAfee transcribes Presbyterian while Torrens places the figures under Roman
+Catholic, so the original return is required. They were not adjacent households, so this
 does not prove a sibling relationship; however, it shows that the two men were
 the only recorded Glasgow householders in the same townland/parish at that date.
 The narrow local cluster supports close collateral kinship more than an isolated

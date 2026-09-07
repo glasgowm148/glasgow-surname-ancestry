@@ -23,3 +23,19 @@ adult Barbara who mothered Catharine Little in 1611.
 Retain [George Glasgow (Glasgow-1099)](https://www.wikitree.com/wiki/Glasgow-1099) and [Margaret Stewart (Stewart-65226)](https://www.wikitree.com/wiki/Stewart-65226) as parents. Replace the biography's stale mother link `Steuart-563` with `Stewart-65226`; this is not a merge recommendation.
 
 Do not merge this infant with [Barbara Glasgow (Glasgow-567), adult in Edinburgh in 1611](https://www.wikitree.com/wiki/Glasgow-567), [Barbara Glasgow (Glasgow-3182), married at South Leith in 1611](https://www.wikitree.com/wiki/Glasgow-3182), or [Barbara Glasgow (Glasgow-3302), married at Edinburgh in 1616](https://www.wikitree.com/wiki/Glasgow-3302).
+
+<!-- BEGIN FMP-GLASGOW-fmp-glasgow-a75d38f2639c -->
+## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-a75d38f2639c
+
+The transcript-validated baptism record for **Barbara Glasgow**, 21 Oct 1617, Glasgow, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
+
+## Source findings
+
+- [R_693716837 Findmypast transcript](https://www.findmypast.co.uk/transcript?id=R_693716837&tab=this): Baptism date: 21 Oct 1617; Baptism place: HIGH CHURCH,GLASGOW,LANARK,SCOTLAND; Baptism year: 1617; Birth year: 1617; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Lanarkshire; Father's first name(s): Georg; Father's last name: Glasgow; First name(s): Barbara; Last name: Glasgow; Mother's first name(s): Margaret; Mother's last name: Stewart; Place: Glasgow; Record set: Scotland, Parish Births & Baptisms 1564-1929; Sex: Female; Subcategory: Parish Baptisms (captured 2026-09-03T21:30:11.586Z).
+- Findmypast record IDs: `R_693716837`.
+- Stable research/source ID: `fmp-glasgow-a75d38f2639c`.
+
+## Recommended action — fmp-glasgow-a75d38f2639c
+
+Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
+<!-- END FMP-GLASGOW-fmp-glasgow-a75d38f2639c -->

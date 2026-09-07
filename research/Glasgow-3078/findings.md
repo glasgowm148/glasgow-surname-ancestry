@@ -29,3 +29,19 @@ Archibald Glasgow was baptized at South Leith on 20 March 1618 as a son of Willi
 Checked 19 July 2026. The structured father is already [William Glasgow (Glasgow-3075), born about 1590, later a mealmaker in Leith](https://www.wikitree.com/wiki/Glasgow-3075), so it should be retained and marked certain. The biography still links the baptismal father to obsolete ID `Glasgow-3115`; replace that biography link with `[[Glasgow-3075|William Glasgow]]`. Do not create or merge a William profile.
 
 Add Archibald's 23 October 1639 apprenticeship to Thomas Park, cordiner, and his 1 May 1647 service as heir. These records also establish his occupation as shoemaker and securely bridge the 1618 child to the adult Leith man.
+
+<!-- BEGIN FMP-GLASGOW-fmp-glasgow-e68eb8704ba2 -->
+## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-e68eb8704ba2
+
+The transcript-validated apprenticeship record for **Archibald Glasgow**, 23 Oct 1639, Edinburgh, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
+
+## Source findings
+
+- [SCOT/EDINBURGH/APPRENTICES/0005158/1 Findmypast transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FEDINBURGH%2FAPPRENTICES%2F0005158%2F1&tab=this): Apprentice first name: Archibald; Apprentice last name: Glasgow; Category: Education & work; Collections from: Great Britain, Scotland; Country: Scotland; County: Midlothian; Event date: 23 Oct 1639; Father first name: William; Father last name: Glasgow; Father occupation: Mealmaker; Father residence: Leith; First name(s): Archibald; Last name: Glasgow; Master first name: Thomas; Master last name: Park; Place: Edinburgh; Record set: Scotland, Edinburgh Apprentices 1583-1800; Role: Apprentice; Subcategory: Apprentices; Trade: Cordiner; Year: 1639 (captured 2026-09-03T21:35:47.868Z).
+- Findmypast record IDs: `SCOT/EDINBURGH/APPRENTICES/0005158/1`.
+- Stable research/source ID: `fmp-glasgow-e68eb8704ba2`.
+
+## Recommended action — fmp-glasgow-e68eb8704ba2
+
+Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
+<!-- END FMP-GLASGOW-fmp-glasgow-e68eb8704ba2 -->

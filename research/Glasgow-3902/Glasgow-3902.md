@@ -16,7 +16,7 @@ with:
 
 A descendant family account identifies Alexander and [[Shaw-37533|Rosanna, surname unknown]] as the parents of Thomas Glasgow of Lisnagaver.<ref name="GenesReunitedGlasgow">Peter, “Trying to find Glasgow,” ''Genes Reunited'', Find Ancestors message board, posted 25 January 2007, with replies dated 9 April 2020, https://www.genesreunited.co.uk/boards/board/general_topics/thread/465937 (accessed 16 July 2026).</ref> Daniel Glasgow's original 1871 will explicitly calls Thomas his brother.<ref name="DanielWill1871">Public Record Office of Northern Ireland, [https://apps.proni.gov.uk/willscalendar_ie/willssearch.aspx Will Calendars], original registered will of Daniel Glasgow of Kilrea, proved 1871 (accessed 17 July 2026).</ref>
 
-Daniel and Thomas are therefore attached as plausible uncertain sons of Alexander and Rosanna. Younger [[Glasgow-951|Alexander Glasgow]] is their probable brother. This family is grouped in the Bann Valley-Killoquin / Kilrea-Rasharkin working cluster. The records do not connect that cluster structurally to Adam.
+Daniel and Thomas are therefore attached as plausible uncertain sons of Alexander and Rosanna. Younger [[Glasgow-951|Alexander Glasgow]] is their possible brother or cousin. This family is grouped in the Bann Valley-Killoquin / Kilrea-Rasharkin working cluster. The records do not connect that cluster structurally to Adam.
 ```
 
 No change is needed to Adam's sourced 1831 household, gravestone, wife Rose,
@@ -70,9 +70,10 @@ sequence, with father John correctly repeated third. Maria is the second daughte
 the traditional paternal-grandmother position. John's 1847 letter also relays
 intimate news concerning the younger [[Glasgow-1623|James Glasgow]] and Henry Barkly's
 Presbyterian family at adjoining Tyanee, where Adam's proved daughter Nancy had
-married John Kyle. Together these points make brotherhood the best probable
-placement. No record expressly names a shared parent, so cousin remains possible
-and the relationship must remain uncertain.
+married John Kyle. Together these points make brotherhood one useful hypothesis,
+with cousinship equally viable at present. No record expressly names a shared
+parent, and the published 1831 denomination transcriptions conflict, so the
+relationship must remain uncertain.
 
 Retain an older Adam and Maria as the leading candidate names for the brothers'
 shared parents in Research Notes only. Do not attach or describe them as proved.

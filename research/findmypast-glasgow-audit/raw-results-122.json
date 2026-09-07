@@ -1,0 +1,51 @@
+{
+  "query": {
+    "surname": "Glasgow",
+    "surname_variants": false,
+    "place": null,
+    "eventyear": 122,
+    "eventyear_offset": 40,
+    "covered_years": [
+      82,
+      162
+    ],
+    "url": "https://www.findmypast.co.uk/search/results?eventyear=122&eventyear_offset=40&lastname=glasgow"
+  },
+  "started_at": "2026-09-03T18:02:41.459Z",
+  "completed_at": "2026-09-03T18:02:44.288Z",
+  "displayed_total": 1,
+  "expected_pages": 1,
+  "captured_pages": 1,
+  "captured_rows": 1,
+  "reconciled": true,
+  "pages": [
+    {
+      "page": 1,
+      "url": "https://www.findmypast.co.uk/search/results?eventyear=122&eventyear_offset=40&lastname=glasgow",
+      "captured_at": "2026-09-03T18:02:44.151Z",
+      "rows": [
+        {
+          "event_year": "91",
+          "first_name": "Kamiah Colleen",
+          "last_name": "Glasgow",
+          "links": [
+            {
+              "label": "View transcript",
+              "url": "https://www.findmypast.co.uk/transcript?id=R_106139530318%2F2"
+            },
+            {
+              "label": "View image",
+              "url": "https://search.findmypast.co.uk/record?id=https%3A%2F%2Ffamilysearch.org%2Fark%3A%2F61903%2F3%3A1%3A33SQ-GTMQ-W2W%3Fcc%3D1534448&parentid=R_106139530318%2F2"
+            }
+          ],
+          "location": "Stevens, United States",
+          "record_id": "R_106139530318/2",
+          "record_set": "United States Marriages",
+          "subscription_locked": false,
+          "year_of_birth": "—",
+          "year_of_death": "—"
+        }
+      ]
+    }
+  ]
+}

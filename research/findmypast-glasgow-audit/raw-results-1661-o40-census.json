@@ -1,0 +1,50 @@
+{
+  "query": {
+    "surname": "Glasgow",
+    "surname_variants": false,
+    "place": null,
+    "covered_years": [
+      1621,
+      1701
+    ],
+    "url": "https://www.findmypast.co.uk/search/results?eventyear=1661&eventyear_offset=40&lastname=glasgow&sourcecategory=census%2c%20land%20%26%20surveys&sid=999",
+    "eventyear": 1661,
+    "eventyear_offset": 40,
+    "partition_type": "sourcecategory",
+    "partition_group": "1661-o40",
+    "sourcecategory": "census, land & surveys"
+  },
+  "started_at": "2026-09-03T21:16:46.952Z",
+  "completed_at": "2026-09-03T21:16:46.952Z",
+  "displayed_total": 1,
+  "expected_pages": 1,
+  "captured_pages": 1,
+  "captured_rows": 1,
+  "reconciled": true,
+  "pages": [
+    {
+      "page": 1,
+      "url": "https://www.findmypast.co.uk/search/results?eventyear=1661&eventyear_offset=40&lastname=glasgow&sourcecategory=census%2c%20land%20%26%20surveys&sid=999",
+      "captured_at": "2026-09-03T21:16:46.952Z",
+      "rows": [
+        {
+          "event_year": "1674",
+          "first_name": "Widd",
+          "last_name": "Glasgow",
+          "links": [
+            {
+              "label": "View transcript",
+              "url": "https://www.findmypast.co.uk/transcript?id=GBOR%2FWESTMINSTER_RATEBOO%2F9287384%2F2"
+            }
+          ],
+          "location": "London, England",
+          "record_id": "GBOR/WESTMINSTER_RATEBOO/9287384/2",
+          "record_set": "Westminster Rate Books 1634-1900",
+          "subscription_locked": false,
+          "year_of_birth": "—",
+          "year_of_death": "—"
+        }
+      ]
+    }
+  ]
+}

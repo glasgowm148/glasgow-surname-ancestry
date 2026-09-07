@@ -11,7 +11,7 @@ relationship is not directly stated.
 
 Ninian and Jonet are the correct generation; the daughter's forename `Jonat`
 repeats her proposed mother's name. Jonat and David Menzeis had daughter Agnes
-baptised at Mid Calder on 7 December 1609. Ninian's probable son William later
+baptised at Mid Calder on 7 December 1609. Ninian's possible son William later
 lived at Leith, supplying a credible family route east from Glasgow into the
 Lothians. Jonet Meik's 1607 testament directly names son Robert and a Marion
 Glasgow legatee, but does not call Jonat a daughter; that omission prevents a

@@ -1,0 +1,67 @@
+{
+  "query": {
+    "surname": "Glasgow",
+    "surname_variants": false,
+    "place": null,
+    "covered_years": [
+      1621,
+      1701
+    ],
+    "url": "https://www.findmypast.co.uk/search/results?eventyear=1661&eventyear_offset=40&lastname=glasgow&sourcecategory=churches%20%26%20religion",
+    "eventyear": 1661,
+    "eventyear_offset": 40,
+    "partition_type": "sourcecategory",
+    "partition_group": "1661-o40",
+    "sourcecategory": "churches & religion"
+  },
+  "started_at": "2026-09-03T19:42:40.457Z",
+  "completed_at": "2026-09-03T19:42:40.457Z",
+  "displayed_total": 2,
+  "expected_pages": 1,
+  "captured_pages": 1,
+  "captured_rows": 2,
+  "reconciled": true,
+  "pages": [
+    {
+      "page": 1,
+      "url": "https://www.findmypast.co.uk/search/results?eventyear=1661&eventyear_offset=40&lastname=glasgow&sourcecategory=churches%20%26%20religion",
+      "captured_at": "2026-09-03T19:42:40.457Z",
+      "rows": [
+        {
+          "event_year": "1661",
+          "first_name": "Alexander",
+          "last_name": "Glasgow",
+          "links": [
+            {
+              "label": "View transcript",
+              "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FANTENUPTIAL%2F000339%2F1"
+            }
+          ],
+          "location": "Edinburgh St Cuthberts, Midlothian, Scotland",
+          "record_id": "SCOT/ANTENUPTIAL/000339/1",
+          "record_set": "Scotland, Antenuptial Relationship Index 1661-1780",
+          "subscription_locked": true,
+          "year_of_birth": "—",
+          "year_of_death": "—"
+        },
+        {
+          "event_year": "—",
+          "first_name": "—",
+          "last_name": "Emoved To 45 Cathkin Road, Langside, Glasgow\"",
+          "links": [
+            {
+              "label": "View transcript",
+              "url": "https://www.findmypast.co.uk/transcript?id=IRE%2FQUAKER%2FPOUR1%2FCONG%2F014181"
+            }
+          ],
+          "location": "Ireland",
+          "record_id": "IRE/QUAKER/POUR1/CONG/014181",
+          "record_set": "Ireland, Society Of Friends (Quaker) Congregational Records",
+          "subscription_locked": true,
+          "year_of_birth": "—",
+          "year_of_death": "—"
+        }
+      ]
+    }
+  ]
+}

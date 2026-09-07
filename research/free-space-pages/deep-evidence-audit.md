@@ -774,7 +774,7 @@ Note: May be a connection to 1655, William Glasgow , who's great-great-great gra
 - Direct source URLs absent from captured live biography: 0
 - Years absent from captured live biography: 1791, 1852
 
-** Samuel Glasgow — Confirmed brother of John Glasgow (1751-abt.1852). born about 1791. Possible member of the wider unidentified family group, but evidence points away from Adam as his father.
+**Superseded captured wording:** Samuel was the census-proved brother of [[Glasgow-867|John Glasgow]], not of the older Glenleslie John born about 1751. The exact identity of their father John remains unresolved.
 
 ### Glasgow-1093 — score 15
 
@@ -883,7 +883,7 @@ The profiles Samuel Glasgow (c.1726), Robert Glasgow (c.1724) and William Glasgo
 - Direct source URLs absent from captured live biography: 0
 - Years absent from captured live biography: 1751, 1852
 
-** Samuel Glasgow — Confirmed brother of John Glasgow (1751-abt.1852). born about 1791. Possible member of the wider unidentified family group, but evidence points away from Adam as his father.
+**Superseded captured wording:** Samuel was the census-proved brother of [[Glasgow-867|John Glasgow]], not of the older Glenleslie John born about 1751. The exact identity of their father John remains unresolved.
 
 ### Glasgow-938 — score 15
 
