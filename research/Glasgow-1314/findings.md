@@ -2,22 +2,24 @@
 
 ## Conclusion
 
-FamilySearch VQ4K-X9V supports Alexander's 1673 Kirknewton event and names his
-father Alexander. His 7 November 1701 marriage to Margaret Aikman and their
-children are separately indexed.
+Glasgow-3119 now redirects to this canonical profile. FamilySearch VQ4K-X9V
+supports Alexander's 7 July 1673 birth and 20 July baptism at Kirknewton and
+names his father Alexander. His 7 November 1701 marriage to Margaret Aikman,
+their son Andrew, and his 16 November 1705 marriage to Janet Graham are now
+preserved together on the live profile.
 
-[Glasgow-3119](https://www.wikitree.com/wiki/Glasgow-3119) may duplicate him,
-but that profile supplies no birth source. Its structured 1673 date and
-same-father attachment conflict with its biography's 1685 estimate. Its 1705
-marriage to Janet Graham could be a second marriage or could identify another
-Alexander.
+The merge resolves the duplicate profile but not every relationship. The 1707
+James and 1711 Marion baptisms name only father Alexander, so Janet remains a
+plausible rather than proved mother. No source yet cited identifies
+[[Glasgow-1141]] as Alexander's child. The former 1685 birth estimate has no
+known source and must not be restored.
 
 ## Recommended update
 
-- Retain the 1673 event, father and Margaret Aikman family.
-- Do not merge Glasgow-3119 until the original entry determines whether 7 and
-  20 July were birth and baptism of one child.
-- If one man is proved, reconcile the 1705 marriage with Aikman children born
-  in 1707 and 1711 before merging relationships.
+- Retain the sourced 1673 event, attached father and Margaret Aikman family.
+- Retain the sourced 1705 Janet Graham marriage while keeping the maternity of
+  James and Marion uncertain.
+- Keep Glasgow-1141 uncertain unless a child-parent record is found.
+- Treat Glasgow-3119 only as a former redirected ID, not a separate person.
 
 See the [graph-claim audit](../../surname-research/pre-1700/graph-claim-audit-2026-07-27.md).

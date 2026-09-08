@@ -8,21 +8,23 @@ from datetime import date
 from hashlib import sha1
 import json
 import re
+import subprocess
+import sys
 from collections import defaultdict, deque
 try:
     from project_paths import (
-        MAP_HTML as HTML_PATH, HUB_HTML, MAP_RECORDS as CSV_PATH,
+        MAP_HTML as HTML_PATH, HUB_HTML, MAP_RECORDS as CSV_PATH, ROOT, WEB_DIR,
         MAP_EARLY_BEARERS, MAP_YDNA_TIMELINE, RESEARCH_DIR,
         SURNAME_RESEARCH_DIR, WIKITREE_PROFILE_EVIDENCE,
-        WIKITREE_CATALOGUE_PROFILE_LINKS, merged_map_profiles,
+        WIKITREE_CATALOGUE_PROFILE_LINKS, merged_map_profiles, relation_values,
     )
     from build_research_catalog import build_research_catalog, catalogue_profile_update_ids
 except ModuleNotFoundError:  # Imported as tools.build_family_map in tests.
     from tools.project_paths import (
-        MAP_HTML as HTML_PATH, HUB_HTML, MAP_RECORDS as CSV_PATH,
+        MAP_HTML as HTML_PATH, HUB_HTML, MAP_RECORDS as CSV_PATH, ROOT, WEB_DIR,
         MAP_EARLY_BEARERS, MAP_YDNA_TIMELINE, RESEARCH_DIR,
         SURNAME_RESEARCH_DIR, WIKITREE_PROFILE_EVIDENCE,
-        WIKITREE_CATALOGUE_PROFILE_LINKS, merged_map_profiles,
+        WIKITREE_CATALOGUE_PROFILE_LINKS, merged_map_profiles, relation_values,
     )
     from tools.build_research_catalog import build_research_catalog, catalogue_profile_update_ids
 GLASGOW_ID = re.compile(
@@ -95,6 +97,14 @@ PROFILE_METADATA_OVERRIDES = {
         "birth_location": "Ireland", "death_location": "Ontario, Canada", "gender": "Female",
     },
 }
+ONETREE_BUILD = WEB_DIR / "onetree" / "glasgow-one-tree-polished" / "build.py"
+
+
+def rebuild_standalone_onetree() -> None:
+    """Keep the standalone viewer aligned with the freshly built catalogue."""
+    if not ONETREE_BUILD.is_file():
+        raise FileNotFoundError(f"Standalone One Tree builder not found: {ONETREE_BUILD}")
+    subprocess.run([sys.executable, str(ONETREE_BUILD)], cwd=ROOT, check=True)
 
 
 def _record_slug(value: str) -> str:
@@ -469,9 +479,6 @@ def profile_metadata(records: list[dict], include_profile_ids: set[str] | None =
         if not profile_id or profile_id.lower() not in selected_ids:
             continue
         statuses = profile.get("DataStatus") or {}
-        raw_spouses = profile.get("Spouses") or []
-        if isinstance(raw_spouses, dict):
-            raw_spouses = raw_spouses.values()
         evidence_spouses = {
             (spouse.get("id") or spouse.get("name") or "").casefold(): spouse
             for spouse in ((live_evidence.get(profile_id, {}).get("relations") or {}).get("spouses") or [])
@@ -479,9 +486,7 @@ def profile_metadata(records: list[dict], include_profile_ids: set[str] | None =
         }
         spouses = []
         seen_spouses = set()
-        for spouse in raw_spouses:
-            if not isinstance(spouse, dict):
-                continue
+        for spouse in relation_values(profile, "Spouses"):
             spouse_id = spouse.get("Name") or ""
             spouse_name = profile_name(spouse)
             key = spouse_id or spouse_name
@@ -681,6 +686,7 @@ def main() -> None:
         records, profiles, edges, descendant_counts, early_bearers,
         ydna_timeline, catalogue_export_paths, location_index, root_links,
     )
+    rebuild_standalone_onetree()
     print(
         f"Embedded {len(records)} records, {location_count} locations, {len(edges)} relationship edges and {len(patriarch_ids)} roots"
         + (f"; applied {applied_profile_links} reviewed profile link(s)" if applied_profile_links else "")

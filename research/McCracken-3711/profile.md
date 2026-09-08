@@ -1,6 +1,7 @@
 # Paste-ready replacement for McCracken-3711
 
 ```wikitext
+[[Category:Glasgow Name Study]]
 {{Estimated Date}}
 == Biography ==
 

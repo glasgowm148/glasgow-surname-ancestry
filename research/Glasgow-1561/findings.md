@@ -1,25 +1,43 @@
-# Findings: [John Glasgow (Glasgow-1561), born 1579, Linlithgowshire, Scotland](https://www.wikitree.com/wiki/Glasgow-1561)
-
-Record every useful result and negative search here as it is found.
-Do not treat an unsourced tree or naming pattern as proof.
+# Findings: [John Glasgow of Linlithgow (Glasgow-1561)](https://www.wikitree.com/wiki/Glasgow-1561)
 
 ## Current conclusion
 
-Father assessment: [Andrew Glasgow (1540)](https://www.wikitree.com/wiki/Glasgow-3163) is **contradicted by Andrew's 1598 testament**. Andrew expressly names Marioune, James, Andrew and William as his four children. John was alive and parenting children in 1613-1622 but is absent from that list.
+John was the father named in Linlithgow baptisms for Jean in 1613, John in 1617
+and George in 1622. Those indexes do not identify his parents.
 
-John still fits the Lothian family geographically. He may instead be one generation lower, through one of Andrew elder's record-proved sons James, Andrew or William. He is also the strongest duplicate candidate for the otherwise unsourced Mid Calder profile Glasgow-3608.
+The corrected reading of Andrew Glasgow's 1597/8 testament does not support the
+current Andrew/Jonet parent pair. It names Elizat Stevinsoun as Andrew's wife,
+Robert as their son, and Marion, Janet and Isobel as Andrew's daughters. It does
+not name this John or Jonet Anderson. Because the cited dispositive clauses need
+not enumerate every child, John's omission is not by itself a direct
+contradiction; the relationship is instead an unproved Lothian-cluster
+hypothesis.
 
 ## Source findings
 
 | Source | Finding | Assessment |
 | --- | --- | --- |
-| Linlithgow parish evidence and research note in the [captured WikiTree profile](https://www.wikitree.com/wiki/Glasgow-1561) | John's location fits Andrew's Lothian corridor and cluster, but no cited record names his father. | Indirect locality evidence. |
-| NRS Edinburgh Commissary Court CC8/8/32, Andrew Glasgow's 1598 testament; printed index [p. 108](https://archive.org/details/scottishrecordso01scotuoft/page/n117/mode/1up) | Andrew's operative family clause names Marioune, James, Andrew and William as his four children. | Excludes the living John from direct-son placement. |
+| FamilySearch [X1RX-HPB](https://familysearch.org/ark:/61903/1:1:X1RX-HPB) | Jean Glasgow was christened 17 July 1613 at Linlithgow; father John Glasgow. | Direct father-name and locality evidence. |
+| FamilySearch [X1RV-T8R](https://familysearch.org/ark:/61903/1:1:X1RV-T8R) | John Glasgow was christened 14 September 1617 at Linlithgow; father John Glasgow. | Direct father-name and locality evidence. |
+| FamilySearch [X1RN-XV7](https://familysearch.org/ark:/61903/1:1:X1RN-XV7) | George Glasgow was christened 20 January 1622 at Linlithgow; father John Glasgow. | Direct father-name and locality evidence. |
+| NRS Edinburgh Commissary Court CC8/8/32, images 123–124 | Andrew names wife Elizat, their son Robert, and daughters Marion, Jonet and Isobel. | Supplies no relationship to John and contradicts Jonet Anderson as the testament-proved wife. |
 
-## WikiTree update instructions
+## Relationship assessment
 
-Live profile checked **18 July 2026**. Retain Andrew Glasgow and Jonet Anderson
-only as uncertain working parents. Andrew's operative testament calls Marioune,
-James, Andrew and William his four children and omits John, making a
-one-generation-lower or collateral Calder placement plausible; no exact better
-parent has yet been identified.
+- Andrew-3163 as father: **possible Lothian-cluster hypothesis, unsupported**.
+- Anderson-103463 as mother: **unsupported and based on a testament misreading**.
+- The profile's birth year and place are estimated from adult activity rather
+  than a birth record.
+- A proposed one-generation-lower placement through supposed sons James,
+  Andrew or William must be withdrawn; the corrected testament proves no such
+  sons.
+- The potential duplicate with Glasgow-3608 remains a separate identity review
+  and cannot be decided from Andrew's testament.
+
+## WikiTree handoff
+
+Use the complete replacement in `Glasgow-1561.md`. The historical stub
+`1579_Scotland_Linlithgowshire_John_Glasgow.md` now points to the same complete
+text rather than retaining the obsolete parent theory.
+
+Edit summary: `Correct Andrew/Jonet parent rationale after re-reading CC8/8/32.`

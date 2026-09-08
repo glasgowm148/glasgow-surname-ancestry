@@ -1,11 +1,10 @@
 # Paste-ready replacement for Glasgow-2407
 
 ```wikitext
+[[Category:Glasgow Name Study]]
 {{Estimated Date}}
 
 == Biography ==
-
-{{One Name Study|name=Glasgow}}
 
 '''John Glasgow''' was born about 1809 in County Antrim, Ireland. He was a farmer
 at Cross in Ballyclug parish.

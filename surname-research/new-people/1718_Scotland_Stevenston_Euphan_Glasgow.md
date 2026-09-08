@@ -18,6 +18,8 @@
 ## Paste-ready biography
 
 [[Category:Glasgow Name Study]]
+{{Estimated Date}}
+
 
 == Biography ==
 
@@ -39,7 +41,7 @@ The 1 result ID(s) above represent one conservative documentary group because: s
 
 == Sources ==
 
-<references />
-
 <ref name="FMP1">[https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0369064&tab=this Findmypast transcript], Archive reference: OPR 615/1; Baptism date: 10 Aug 1718; Baptism year: 1718; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Ayrshire; Father's first name(s): James; Father's last name: Glasgow; First name(s): Euphan; Item: 1; Last name: Glasgow; Mother's last name: Auld; Place: Stevenston; Record set: Scotland, Parish Births & Baptisms 1564-1929; Register year range: 1700-1819; Subcategory: Parish Baptisms (captured 2026-09-03T22:06:51.210Z).</ref>
+
+<references />
 <!-- END FMP-GLASGOW-fmp-glasgow-1acad1415f85 -->

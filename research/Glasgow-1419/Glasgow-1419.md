@@ -1,11 +1,10 @@
 # Paste-ready replacement for Glasgow-1419
 
 ```wikitext
+[[Category:Glasgow Name Study]]
 {{Estimated Date}}
 
 == Biography ==
-
-{{One Name Study|name=Glasgow}}
 
 '''Samuel John Glasgow''' was born before about 1845 in County Antrim, Ireland.
 

@@ -1,9 +1,9 @@
 # Full replacement WikiTree biography
 
 ```wikitext
-== Biography ==
+[[Category:Glasgow Name Study]]
 
-{{One Name Study|name=Glasgow}}
+== Biography ==
 
 '''John Glasgow''' was born about 1756. His exact birthplace has not been proved. The estimate comes from his Gilders Creek gravestone, which records that he died on 11 December 1826 aged 70.<ref name="Gilders">[https://genealogytrails.com/scar/newberry/gilders_creek_cem.htm "Gilders Creek Cemetery"], Newberry County, South Carolina, transcription for John Glasgow (accessed 12 August 2026).</ref>
 

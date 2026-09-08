@@ -1,6 +1,6 @@
 # Findings: [Glasgow-3931 (Glasgow-3931), birth unknown, birthplace unknown](https://www.wikitree.com/wiki/Glasgow-3931)
 
-Last updated: 2026-08-09
+Last updated: 2026-09-08
 
 Record every useful result and negative search here as it is found.
 Do not treat an unsourced tree or naming pattern as proof.
@@ -12,7 +12,14 @@ entry 1195 in 1740. The return proves a distinct adult Hugh but gives no
 townland, occupation or relationship. The return supplies no basis for
 attaching him as father of the unidentified placeholder Glasgow-3905. That
 tree-only relationship should be removed, and this man must stay separate from
-the second Hugh at entry 1272.
+the second Hugh at entry 1272. Entry 1272 is sufficiently record-defined for a
+separate unconnected profile; it must not be merged into this one merely
+because the return lacks a townland.
+
+The Hugh named in the 1772 parish declaration cannot be assigned to this
+profile, entry 1272, [[Glasgow-548]] or [[Glasgow-540]]. Preserve that later
+name only as an unassigned documentary-cluster occurrence unless a record with
+age, household, occupation or relatives supplies a bridge.
 
 ## Source findings
 
@@ -24,6 +31,8 @@ the second Hugh at entry 1272.
 
 - Remove Glasgow-3905 as this Hugh's child / remove Hugh-3931 as the placeholder's father.
 - Do not infer Inishrush residence or a precise birth from a parish-wide return whose townland is unspecified.
+- Keep entry 1272 as a separate, unconnected record-defined person.
+- Do not add the 1772 declaration to this profile without identifying evidence.
 
 ## Public profile scrape review (2026-07-22)
 

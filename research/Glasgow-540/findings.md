@@ -1,6 +1,6 @@
 # Findings: Glasgow-540
 
-Last updated: 2026-07-21
+Last updated: 2026-09-08
 
 ## Current answer
 
@@ -33,5 +33,8 @@ father-son or uncle-nephew link.
 ## Identity and migration clarification
 
 - Both 1740 Tamlaght O'Crilly householders are high-confidence earlier-generation namesakes, not credible matches for this profile's Hugh under the approximate 1739 birth and independently documented 1827 survival.
-- The 1772 parish subscriber cannot be distinguished from the older Hugh using the notice alone.
+- The 1772 parish subscriber is chronologically compatible with this profile,
+  but cannot be distinguished from either older Hugh using the notice alone.
+  Preserve it as an unassigned free-space occurrence; do not add it to this
+  profile or create another person from it.
 - The family history's August 1796 emigration passage concerns this Hugh's household. It should not be transferred to his father `Glasgow-548`.

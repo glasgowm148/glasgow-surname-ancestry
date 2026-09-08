@@ -1,20 +1,28 @@
-# WikiTree update notes: [Marjorie Glasgow (Glasgow-3589), born before 1576, Hirmanscheillis, Midlothian, Scotland](https://www.wikitree.com/wiki/Glasgow-3589)
+{{Uncertain Existence}}
+{{Estimated Date}}
+[[Category:Glasgow Name Study]]
 
-Record only sourced facts and corrections missing from the current WikiTree
-profile. Keep same-name identities and inferred relationships explicitly
-unproved.
+== Biography ==
 
-## Suggested additions
+No historical '''Marjorie Glasgow''' corresponding to this profile has been
+established. [[Glasgow-3181|John Glasgow]]'s testament names
+[[Glasgow-3590|Katherine]] and a second lawful child whose name is provisionally
+read Androw or Andrew; it does not name Marjorie.<ref name="JohnTestament">National Records of Scotland, Edinburgh Commissary Court, CC8/8/5, images 276–277, testament dative and inventory of Johne Glasgw; ''Commissariot of Edinburgh: Register of Testaments, 1514–1600'', [https://archive.org/details/commissariotreco16scot/page/n117/mode/2up?q=Glasgow p. 109], entry dated 4 May 1577.</ref>
 
-| Fact missing from profile | Source | Confidence |
-| --- | --- | --- |
-| John Glasgow and Margaret Hoghame/Hutcheson were Marjorie's parents. The testament calls Katherine and Marjorie their lawful children and executors-dative to John. | NRS, Edinburgh Commissary Court, CC8/8/5, images 276-277, testament dative of John Glasgow in Hirmanscheillis, processed 1577. | Confirmed by direct record and uniquely matched live profile. |
+== Research Notes ==
 
-## Suggested corrections
+The profile had been represented as John Glasgow and
+[[Hutcheson-1656|Margaret Hutcheson]]'s daughter, born about 1575 at
+Hirmanscheillis, because the testament was read as naming Katherine and
+Marjorie. The corrected reading does not prove Marjorie's existence or those
+relationships. The attached parents are retained because no evidenced
+replacement identity has been found, but both relationships should be marked
+uncertain. The record-defined Andrew should not be substituted into this female
+Marjorie profile. [[Glasgow-3163|Andrew Glasgow]] is a separate possible
+candidate for that child.
 
-- Change FirstName from `Margaret` to `Marjorie`; the original testament reads
-  Marjorie and the profile already has Marjorie as its RealName.
-- Remove the speculative 1588 Norwich burial of Margaret Glasko. The forename
-  differs and no evidence connects that English burial to this Scottish child.
+A Margaret Glasko was buried at Norwich, England, on 22 August 1588.<ref name="Norwich">“England, Deaths and Burials, 1538–1991,” FamilySearch, [https://www.familysearch.org/ark:/61903/1:1:J87G-3P8 entry for Margaret Glasko], 22 August 1588.</ref> That entry has a different forename and no known connection to the Hirmenschelis household. It is retained as an excluded same-name lead, not as Marjorie's death record.
 
-## Do not add as fact
+== Sources ==
+
+<references />

@@ -19,6 +19,13 @@ census. The return calls John, William James, Mary Jane, Robert, Margaret,
 Boyde and Andy his children. It records James and [[Hamilton-25516|Peggy
 Hamilton]] as married in 1848 and identifies Peggy's parents and sisters.
 
+James is also the strongest and probable identity for “James Glasgow junior”
+at Ballybogy in the 1825 Dunaghy tithe book. His about-1801 birth, the 1847
+Glenleslie family group and the 1851 Ballycregagh household form a parish-level
+continuity. Rev. James McClure Glasgow belongs to the separately documented
+Broughshane–Clough clerical family and has no Dunaghy record. The suffix does
+not make the unsuffixed Ballybogy James his father.
+
 The recorded 1848 marriage means Peggy should not be treated as the proved
 mother of the children born before it, but it does not make earlier biological
 maternity impossible. An 1847 Ballymena Workhouse admission group contains
@@ -36,6 +43,7 @@ is probably Peggy's son.
 - [1851 Irish census detailed transcription](https://durrushistory.com/wp-content/uploads/2012/10/1851irishcensusreturnscommadelimitedtextfilejul24_071.pdf), Dunaghy, Ballycregagh, household 29: James, Peggy, Hamilton in-laws, seven named children and deceased family members.
 - [Ballymena Workhouse admissions, 13 May–8 July 1847](https://www.billmacafee.com/otherrecords/ballymenaworkhouse.pdf), registrations 4406–4410: Mary, Boyd, William James, Mary Jane and Margaret Glasgow of Glenleslie.
 - [National Archives of Ireland 1851 census household URL](http://www.census.nationalarchives.ie/pages/1851/Antrim/Kilconway/Dunaghy/Ballycregagh/29/): the link already cited on the profile is preserved; the public detailed transcription above currently supplies the accessible household data.
+- PRONI FIN/5/A/128, Dunaghy tithe applotment, 1825, manuscript p. 25; [Macafee document-order transcription](https://www.billmacafee.com/182030stithe/tithenorthantrimrevisionorder.pdf), entries 6001–6002: separate Ballybogy entries for James Glasgow and James Glasgow junior.
 
 ## Relationship corrections
 

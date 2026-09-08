@@ -1,30 +1,58 @@
-> **Existing WikiTree profile identified and repurposed:** [[Weir-4172|Thomas Weir]]. Do not create a duplicate. This file is retained as the evidence draft.
+<!-- Existing WikiTree profile identified: [[Weir-4172|Thomas Weir]]. Do not create a duplicate. This is a complete replacement-profile evidence draft for that established profile. -->
+[[Category:Stevenston, Ayrshire]]
+{{Estimated Date}}
 
-# Thomas Weir of Stevenston, spouse of Katherine Glasgow
+== Biography ==
 
-## Profile data
+'''Thomas Weir''' lived in the parish of Stevenston, Ayrshire. The original
+testament of [[Glasgow-1495|Katherine Glasgow]] explicitly identifies her as
+his wife and states that she died in January 1603.<ref name="KatherineWill">National
+Records of Scotland, Glasgow Commissary Court, testament dative and inventory
+of Katherine Glasgow, CC9/7/4, images 6–7; original register inspected through
+[https://www.scotlandspeople.gov.uk/search-records/legal-records/wills Scotland's
+People] and working transcription supplied 8 September 2026.</ref>
 
-- First name: Thomas
-- Last name at birth/current: Weir
-- Birth: before about 1591, Scotland, uncertain estimate from being at least
-  fourteen while a husband by 1605
-- Death: unknown
-- Residence: parish of Stevenston, Ayrshire, Scotland, 1605
-- Spouse: [Katherine Glasgow (Glasgow-1495), born about 1580, Scotland](https://www.wikitree.com/wiki/Glasgow-1495)
+William, James and probably Jonet Weir were appointed as three minor executors, and
+Thomas acted in their names.<ref name="KatherineWill" /> Their surname,
+minority and Thomas's representation of them make them very probably the
+children of Thomas and Katherine, although the surviving passage does not
+explicitly call Thomas their father or Katherine their mother.
 
-## Biography
+The manuscript confirmation date appears to be '''[26?] May 1605'''. Grant's
+printed calendar and the Findmypast transcript instead give '''9 May
+1605'''.<ref name="KatherineWill" /><ref name="Grant">Francis J. Grant, ed.,
+''The Commissariot Record of Glasgow: Register of Testaments, 1547–1800''
+(Edinburgh, 1901), [https://archive.org/details/scottishrecordso07scotuoft/page/196/mode/1up
+p. 196], entry for Katherine Glasgow.</ref><ref name="FMP">Findmypast,
+[https://www.findmypast.co.uk/transcript?id=SCOT%2FWILLS%2F057453&tab=this
+Scotland, Will and Testament Index 1481–1807], Katherine Glasgow,
+SCOT/WILLS/057453, citing the Glasgow Commissary Court register.</ref> The
+confirmation occurred in May 1605, but its exact day remains unresolved.
 
-Thomas Weir lived in the parish of Stevenston, Ayrshire. The Glasgow
-Commissary testament calendar identifies Katherine Glasgow as his spouse. Her
-testament was confirmed on 9 May 1605.<ref>Francis J. Grant, ed., ''The
-Commissariot Record of Glasgow: Register of Testaments, 1547-1800'' (Edinburgh,
-1901), [https://archive.org/details/scottishrecordso07scotuoft/page/196/mode/1up
-p. 196], entry for Katherine Glasgow; underlying register NRS CC9/7/4.</ref>
+== Research Notes ==
 
-No reviewed source gives Thomas's parents, occupation, children or exact vital
-dates. [[Weir-4172]] now represents this record-defined Stevenston husband; its
-former 1590 Aberdeen birth has been removed. Retain only the evidence-supported
-birth boundary before 1580 and do not restore the unrelated Aberdeen identity.
+The record is a testament, not a marriage entry. Neither possible confirmation
+day is a marriage date, and Stevenston is the family's documented parish.
+
+A full working transcription, modern-English rendering and record-boundary
+analysis is maintained at [[Space:Kathereine Glasgow: Will and testament
+translation]].
+
+An older FamilySearch index entry is retained as a derivative lead, but it
+does not override the original testament.<ref>FamilySearch,
+[https://familysearch.org/ark:/61903/1:1:XY6J-CQS indexed record].</ref>
+
+Thomas's exact birth, parents and death are not established. His estimated
+birth boundary is derived only from his adult role in the testament.
+[[Weir-4172]] is the established profile for Katherine's Stevenston husband;
+its former, incompatible 1590 Aberdeen identity should not be restored.
+
+Complete local and fully paged live WikiTree duplicate audits on 8 September
+2026 found no compatible profile for William, James or Jonet Weir. Distinct
+profiles may therefore be created, with both parent links and the inferred
+Stevenston birthplaces marked uncertain. Jonet's forename must also remain
+uncertain.
 
 == Sources ==
+
 <references />

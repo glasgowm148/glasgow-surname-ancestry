@@ -1,6 +1,6 @@
 # Findings: Glasgow-548
 
-Last updated: 2026-07-21
+Last updated: 2026-09-08
 
 ## Current answer
 
@@ -14,6 +14,11 @@ parish seven years after the reported marriage, immediately beside an Ellis
 from the Inishrush head-tenant family and a James McCullough. Entry 1272 is the
 high-confidence candidate for this profile, while still short of a direct
 identity statement because two Hugh householders were returned.
+
+For project disposition, entry 1272 should receive its own unconnected,
+record-defined profile. This preserves the demonstrably separate 1740
+household without falsely assigning it to this profile. A later direct identity
+bridge may justify a merge; the McCullough adjacency alone does not.
 
 The late account also says this Hugh's grandson John was born in 1780 on the
 family farm in County Londonderry, `not far from` Portglenone. In combination
@@ -75,9 +80,12 @@ Therefore entry 1272 is best described as **in an Inishrush-linked collector clu
 - Neither 1740 householder is a credible match for the younger Hugh on WikiTree as `Glasgow-540` if his approximate 1739 birth is even broadly correct. Treating him as an adult householder in 1740 would also require exceptional longevity through his 1827 will and very late fatherhood for children born in the 1780s-1790s. This is a high-confidence generational exclusion, not an age statement in the 1740 return.
 - One of the 1740 householders could be this profile's older Hugh. No record found chooses between them or verifies the McCullough marriage.
 - Entry 1272 is the stronger identity candidate for this profile because of the
-  McCullough adjacency. Entry 1195 remains a distinct possible root for the
+  McCullough adjacency, but should be created separately and unconnected unless
+  a direct bridge is found. Entry 1195 remains a distinct possible root for the
   older Adam/Maria line; that placement is not proved.
-- The Hugh named in 1772 cannot be assigned to either generation from that notice.
+- The Hugh named in 1772 cannot be assigned to either generation from that
+  notice. Preserve it as an unassigned occurrence in the Tamlaght
+  O'Crilly/Inishrush documentary cluster rather than creating another person.
 
 ## Do not add as fact
 

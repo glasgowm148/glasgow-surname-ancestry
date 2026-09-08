@@ -1,90 +1,87 @@
-# Findings: [Margaret Glasgow Edstoun (Glasgow-3613), died November 1578, Croftmalloch](https://www.wikitree.com/wiki/Glasgow-3613)
+# Findings: [Margaret Glasgow (Glasgow-3613), Croftmalloch](https://www.wikitree.com/wiki/Glasgow-3613)
 
-`Glasgow-3164` redirects to this live profile. Use `Glasgow-3613` in all new
-links and relationship edits.
+`Glasgow-3164` redirects to this profile. Use `Glasgow-3613` in new links.
 
 ## Current conclusion
 
-Margaret's testament directly proves two relationships:
+[Margaret Glasgow (Glasgow-3613)](https://www.wikitree.com/wiki/Glasgow-3613)
+is the unique WikiTree match for the woman whose testament dative is NRS
+`CC8/8/8`, images 355–356. She was the spouse or sometime wife of
+[John Edstoun/Easton (Edstoun-3)](https://www.wikitree.com/wiki/Edstoun-3) in
+Croftmalloch, died intestate in **December 1578**, and was the mother of
+[Cuthbert Kaddell/Keddell (currently Edstoun-4)](https://www.wikitree.com/wiki/Edstoun-4),
+her executor-dative.
 
-- she was spouse of [John Edstoun (Edstoun-3), Croftmalloch](https://www.wikitree.com/wiki/Edstoun-3);
-- Cuthbert, surname unread, was her son and executor-dative.
-
-The son is described in the original manuscript but is absent from the
-structured family. Create him as **Cuthbert Unknown**, attach Margaret as his
-confirmed mother, and leave his father blank. John Edstoun is a likely father
-because he was Margaret's husband, but the clause does not call Cuthbert John's
-son and the surname after Cuthbert has not been read securely.
-
-The manuscript states that Margaret died intestate in **November 1578**. The
-profile's structured 8 November 1580 death is the testament-index date, not her
-death.
-
-The attached parents, [Robert Glasgow (Glasgow-1096), born about 1520, Glasgow](https://www.wikitree.com/wiki/Glasgow-1096)
-and [Margaret Rolland (Rolland-239)](https://www.wikitree.com/wiki/Rolland-239),
-are not named by the testament. They remain uncertain topology only.
+The manuscript does not identify Cuthbert's father. John remains a natural
+candidate because he was Margaret's husband, but should stay attached to
+Cuthbert only as uncertain. The testament does not name Margaret's own parents;
+her existing attachments to
+[Robert Glasgow (Glasgow-1096)](https://www.wikitree.com/wiki/Glasgow-1096)
+and [Margaret Rolland (Rolland-239)](https://www.wikitree.com/wiki/Rolland-239)
+remain uncertain.
 
 ## Source findings
 
 | Source | Finding | Assessment |
 | --- | --- | --- |
-| NRS Edinburgh Commissary Court, CC8/8/8, image 355, testament dative of Margaret Glasgow; diplomatic transcription preserved on the [live profile](https://www.wikitree.com/wiki/Glasgow-3613) | Margaret was spouse to John Edstoun in Croftmalloch; she died intestate in November 1578; the inventory was given up by `Cuthbert ... hir sone executour dative`. | Direct spouse, son and death-month evidence. Cuthbert's surname is unread. |
-| *Commissariot of Edinburgh: Register of Testaments, 1514-1600*, [p. 108](https://archive.org/details/scottishrecordso01scotuoft/page/n117/mode/1up) | Index entry: Margaret Glasgow, sometime spouse to John Edstoun in Croftmalloch, 8 November 1580. | Independently confirms Margaret's identity, spouse and residence; 1580 is the court/index date, not death. |
+| National Records of Scotland, Edinburgh Commissary Court, `CC8/8/8`, images 355–356, testament dative and inventory of Margaret Glasgow; [printed index, p. 108](https://archive.org/details/scottishrecordso01scotuoft/page/n117/mode/1up) | Margaret, spouse/sometime wife of John Estoun/Edstoun in Croftmalloch, died intestate in December 1578. Her son and executor is surnamed Kaddell in the opening and Keddell in the confirmation. The appointment decree appears dated 16 October 1580. James Estoun/Easton occurs only as a debtor. | Direct spouse, mother-son, executor, surname-variant and death evidence. No father is stated for Cuthbert, no parent for Margaret, and no kinship for James. |
+| [Findmypast transcript, `SCOT/WILLS/057454`](https://www.findmypast.co.uk/transcript?id=SCOT%2FWILLS%2F057454&tab=this) | Indexes Margaret Glasgow, sometime spouse to John Edstoun in Croftmalloch, on 8 November 1580. | Confirms the profile match and spouse/place wording. The date is an index/register date, not Margaret's death. |
 
-## Findmypast surname-only audit — 3 September 2026
+## Relationship and identity assessment
 
-[Findmypast transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FWILLS%2F057454)
-identifies **Margaret Glasgow**, sometime spouse to John Edstoun in Croftmalloch,
-with date **8 November 1580**. This is a derivative transcription of the
-Edinburgh testament index and matches `Glasgow-3613`; it is the court/index date,
-not the November 1578 death date established by the original testament.
+- John Edstoun-3 as Margaret's spouse: **proved**.
+- Cuthbert Kaddell/Keddell/Edstoun-4 as Margaret's son: **proved**.
+- John Edstoun-3 as Cuthbert's father: **unproved; retain uncertain**.
+- Robert Glasgow-1096 and Margaret Rolland-239 as Margaret's parents:
+  **unproved; retain uncertain**.
+- James Estoun/Easton: debtor only; **no relationship inferred**.
 
-## Exact reconstruction
+## Duplicate audit — 8 September 2026
 
-```text
-Robert Glasgow (Glasgow-1096) ? = Margaret Rolland (Rolland-239) ?
-|
-Margaret Glasgow (Glasgow-3613), died November 1578
-= John Edstoun (Edstoun-3), Croftmalloch
-|
-Cuthbert Unknown [new profile; confirmed son of Margaret]
-father not proved
-```
+- A complete Margaret Glasgow search returned 341 results; Glasgow-3613 was
+  the unique Croftmalloch match.
+- John Edstoun uniquely returned Edstoun-3; Estoun, Eastoun and Edston variants
+  returned no alternative compatible profile.
+- No compatible Cuthbert profile was found under Keddell, Kedell, Kaddell,
+  Caddell, Cadell or Keddle. Edstoun-4 uniquely represents Margaret's son and
+  should be corrected, not duplicated.
+- James Edstoun/Estoun/Eastoun variants returned no profile. The record does
+  not define him well enough for safe profile creation.
 
-## WikiTree update
+## Recommended WikiTree amendments
 
-1. Change death to **November 1578**, Croftmalloch, Whitburn parish,
-   Linlithgowshire, Scotland. The day is unknown.
-2. Create Cuthbert Unknown from the prepared draft and attach Margaret as his
-   mother with certain status.
-3. Leave Cuthbert's father blank. Mention John Edstoun only as the likely but
-   unproved father.
-4. Retain Robert Glasgow and Margaret Rolland only as uncertain parents; the
-   testament supplies no parentage.
-5. Replace any remaining links to `Glasgow-3164` with `Glasgow-3613`.
+1. Use the complete draft in `Glasgow-3613.md`.
+2. Change the structured death month from November to **December 1578**;
+   retain Croftmalloch as the death location.
+3. Keep Edstoun-3 as Margaret's proved spouse.
+4. Keep Edstoun-4 as her confident son and correct that profile's surname to
+   Keddell.
+5. Retain Margaret's attached parents as uncertain.
+6. Do not attach James Easton or infer that John fathered Cuthbert.
 
-## Paste-ready research note
+## Unresolved priorities
 
-Margaret's original testament directly calls Cuthbert her son and
-executor-dative. The writing following his forename has not been read securely,
-so neither an Edstoun nor a Glasgow surname should be supplied. John Edstoun,
-Margaret's record-proved husband, is the natural father candidate but is not
-explicitly identified as Cuthbert's father in the transcribed clause. Cuthbert
-is therefore attached to Margaret alone pending a secure reading or another
-record.
+- Find a marriage, baptism, property or court record that states Cuthbert's
+  father.
+- Identify James Easton independently before considering a profile.
+- Resolve Margaret's parentage from a source outside this testament.
 
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-faa9cffab9d5 -->
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-faa9cffab9d5
 
-The transcript-validated testament/probate record for **Margaret Glasgow**, 8 Nov 1580, , is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
+The transcript-validated testament index entry for **Margaret Glasgow**, dated
+8 November 1580, is assigned to this profile by the completed person-level
+WikiTree audit. It does not merge any other same-name event and is not her death
+date.
 
-## Source findings
+## Source findings — fmp-glasgow-faa9cffab9d5
 
-- [SCOT/WILLS/057454 Findmypast transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FWILLS%2F057454&tab=this): Additional information: sometime spouse to John Edstoun, in Croftmalloch; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Commissariot: Edinburgh; Country: Scotland; Date: 8 Nov 1580; First name(s): Margaret; Last name: Glasgow; Publication: Commissariot Record Of Edinburgh Register Of Testaments Part I (1514-1600); Record set: Scotland, Will And Testament Index 1481-1807; Subcategory: Wills & Probate; Year: 1580 (captured 2026-09-03T21:33:40.319Z).
-- Findmypast record IDs: `SCOT/WILLS/057454`.
+- [SCOT/WILLS/057454 Findmypast transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FWILLS%2F057454&tab=this): Margaret Glasgow; additional information “sometime spouse to John Edstoun, in Croftmalloch”; Commissariot of Edinburgh; date 8 November 1580; captured 3 September 2026.
+- Findmypast record ID: `SCOT/WILLS/057454`.
 - Stable research/source ID: `fmp-glasgow-faa9cffab9d5`.
 
 ## Recommended action — fmp-glasgow-faa9cffab9d5
 
-Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
+Retain as derivative identity support. Use the manuscript's December 1578
+death month and do not infer unstated parentage.
 <!-- END FMP-GLASGOW-fmp-glasgow-faa9cffab9d5 -->

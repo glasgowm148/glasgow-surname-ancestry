@@ -2,6 +2,9 @@
 
 Created as [[Glasgow-3917]] on 17 July 2026.
 
+[[Category:Glasgow Name Study]]
+{{Estimated Date}}
+
 == Biography ==
 
 Jonet Glasgow was married to William Pady. On 19 March 1582/3 the spouses acquired eight ells of land in Bridgegait, Glasgow.<ref>Robert Renwick, ed., ''Abstracts of Protocols of the Town Clerks of Glasgow'', vol. 8, 1581-1585 (Glasgow, 1899), protocol 2478, [https://archive.org/details/abstractsofproto08glas/page/78/mode/1up p. 78], 19 March 1582-3.</ref>
@@ -12,14 +15,37 @@ On 17 July 1599 William Padyne, carter, was admitted a burgess and freeman of Gl
 
 On 5 November 1600 William Pady conveyed property in favour of himself and Margaret Playfair, his future spouse.<ref>Robert Renwick, ed., ''Abstracts of Protocols of the Town Clerks of Glasgow'', vol. 11, protocol 3706, [https://archive.org/details/abstractsprotoc02scogoog/page/n207/mode/2up p. 170], 5 November 1600.</ref> Jonet's marriage to William had therefore ended by that date, but the record does not say whether Jonet had died or the marriage ended in another way.
 
-=== Research Notes ===
+== Research Notes ==
 
 Suggested creation data:
 * Birth: before 1565, Scotland, uncertain.
 * Death: after 20 June 1598, place unknown, uncertain. William's future marriage in November 1600 is not proof of Jonet's death.
 * Spouse: William Pady.
 
-The birth estimate assumes that Jonet was at least 18 at the 1583 purchase. The records do not identify her parents or children. She is not [[Glasgow-3183|Jonet Glasgow]], estimated born about 1600 at Mid Calder, who was not alive for the 1583 transaction. No Pady-linked Glasgow profile appears in the project snapshot, and the live WikiTree API search on 17 July 2026 returned only an unrelated Jonet Hutcheson whose married surname was Glasgow.
+The birth estimate assumes that Jonet was at least 18 at the 1583 purchase. The
+records do not identify her parents or children. Keep her distinct from
+[[Glasgow-3183|Jonet Glasgow]], the later Mid Calder bride, unless a record
+shows that William Pady's wife survived to marry Martin Ramsy; Glasgow-3183's
+circa-1600 birth is itself only an estimate. No Pady-linked Glasgow profile
+appears in the project snapshot, and the live WikiTree API search on 17 July
+2026 returned only an unrelated Jonet Hutcheson whose married surname was
+Glasgow.
+
+[[Glasgow-3163|Andrew Glasgow of uncertain Corsoun]] named a daughter Jonet in his
+1597/8 testament.<ref name="Andrew1598">National Records of Scotland, Edinburgh
+Commissary Court, CC8/8/32, images 123–124, testament testamentar and inventory
+of Andro Glasgw, made 6 February 1597/8 and confirmed 10 July 1598; corrected
+working transcription of the original register images.</ref> Jonet Pady was
+still alive on 20 June 1598, but shared name and chronology do not identify her
+as that daughter. Her records place her in Glasgow burgh rather than Corsoun,
+and nothing names Andrew, Elizat Stevinsoun or one of the other children. The
+Mid Calder bride [[Glasgow-3183]] likewise lacks an identity bridge. Neither
+profile is the present match for Andrew's daughter.
+
+[[Glasgow-3522|William Glasgow]] is presently attached as Jonet's uncertain
+father. William Pady's 1599 burgess admission says only that he was the husband
+of a burgess's daughter; the abstract names neither that wife nor her father.
+It therefore does not prove that William Glasgow was Jonet's father.
 
 == Sources ==
 <references />

@@ -23,4 +23,20 @@ Applied live on 19 August 2026. The two record-defined child-parent links and
 the co-parent relationship with Jean Service are confident; the identification
 with Glasgow-1067 remains uncertain.
 
+## Identity assessment — Irvine/London sailor
+
+The apparent 1733 sailor entry is malformed. The printed Edinburgh testament
+index places Hugh Glasgow, sometime sailor in Irvine and thereafter in London,
+on 12 March 1751; the next James Glasgow entry owns the 3 February 1733 date.
+Correct Findmypast mariner and testament rows corroborate 1751. See the
+[source-correction dossier](../hold-resolution/record-dossiers/fmp-glasgow-a0b809464cc9-hugh-glasgow-index-conflation.md).
+
+[[Glasgow-3109|Hugh Glasgow]] remains chronologically possible but would be an
+older candidate. The index supplies no age, parent, spouse, vessel, executor
+or address, and therefore does not establish this identity.
+
+## Recommended action — Irvine/London sailor
+
+Make no profile amendment without an independent sailor/London identifier.
+
 See the [graph-claim audit](../../surname-research/pre-1700/graph-claim-audit-2026-07-27.md).

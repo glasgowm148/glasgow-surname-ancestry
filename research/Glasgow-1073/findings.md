@@ -87,6 +87,25 @@ Live profile checked **19 July 2026**.
 7. Remove the Antigua chaplain and 1744-1753 Irvine provost material from this
    profile. Those events belong to later namesakes.
 
+## Antigua minister exclusion — 1707/08
+
+The exact source context confirms that the Antigua occurrence belongs to a
+different John Glasgow. Fothergill's *A List of Emigrant Ministers to America*
+places “Glasgow, John, Antegoa, March 10, 1707-1708” among Church of England
+ministers and schoolmasters who received a £20 royal passage bounty after the
+Bishop of London appointed them to a colonial cure. The introduction also says
+some recipients did not proceed. This establishes an Anglican appointment, not
+arrival in Antigua.
+
+`Glasgow-1073` was a Church of Scotland Presbyterian minister continuously at
+Kilbirnie from 1688 until death in 1721, and his son Samuel was baptised there
+on 9 March 1707, one day before the bounty date. No Anglican ordination or
+colonial link exists. The Antigua event must remain excluded from this profile.
+
+Source: Gerald Fothergill, [*A List of Emigrant Ministers to America,
+1690–1811*](https://archive.org/stream/listofemigrantmi00fothuoft/listofemigrantmi00fothuoft_djvu.txt),
+entry citing Money Book 19-200; Findmypast `US/EMIGRANTMINISTERS/0394`.
+
 ### Paste-ready research note
 
 ```wikitext

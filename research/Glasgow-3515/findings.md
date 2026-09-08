@@ -4,9 +4,11 @@ Last updated: 2026-08-09
 
 ## Current conclusion
 
-Glasgow-3515 is useful as a reconstructed father named **William Glasgow** in
-mid-seventeenth-century baptism indexes, but the current profile combines
-records whose exact historical parishes and adult identity remain unresolved.
+WikiTree now redirects Glasgow-3515 to [[Glasgow-2453]]. The canonical profile
+is useful as a reconstructed father named **William Glasgow** in
+mid-seventeenth-century baptism indexes, but it combines records whose exact
+historical parishes and adult identity remain unresolved. Do not maintain a
+second person under the former ID.
 
 Margreat (1643), Walter (1649), Hellein (1652) and Marion (1655) form a
 chronologically coherent possible household under the modern combined catalogue
@@ -19,7 +21,9 @@ William's wife.
 Nothing identifies this adult as William Glasgow-1087, the child christened at
 Mid Calder in 1609. The chronology and 1648 locality make Glasgow-1087 the
 strongest current candidate, but not a documented father. Disconnect
-Glasgow-3515 as his son. No record makes Andrew-1319 a son of Glasgow-3515.
+the canonical Glasgow-2453 profile from any alleged father only when an
+evidenced replacement is ready; until then the existing father relationship
+must remain uncertain. No record makes Andrew-1319 a son of Glasgow-2453.
 
 ## Child and source audit
 
@@ -36,16 +40,19 @@ Glasgow-3515 as his son. No record makes Andrew-1319 a son of Glasgow-3515.
 
 ## Recommended WikiTree changes
 
-1. Treat Glasgow-3515 as a record-defined adult father, born before about 1623,
+1. Treat canonical profile Glasgow-2453 as a record-defined adult father, born before about 1623,
    place unknown and uncertain.
-2. Detach Glasgow-1087 as father. Retain him in notes as the strongest current
-   candidate for the 1648 adult.
+2. Retain Glasgow-1087 in notes as the strongest current identity candidate
+   for the 1648 adult; do not merge without a record bridge.
 3. Retain Margreat, Walter, Hellein and Marion only as a possible one-father
    cluster pending exact-parish and original-entry comparison.
 4. Keep John-2452 with the 1648 record-defined father provisionally. Submit
    Isobel-3654 and Isobel-2454 for duplicate review.
 5. Mark Andrew-1319 uncertain or detach him.
 6. Leave spouse, mother, death date and death place blank.
+
+Use `../Glasgow-2453/Glasgow-2453.md` as the complete replacement draft for the
+canonical profile.
 
 ## Do not infer
 

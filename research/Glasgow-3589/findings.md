@@ -1,41 +1,51 @@
-# Findings: [Margaret Glasgow (Glasgow-3589), born 1575, Hirmanscheillis, Midlothian, Scotland](https://www.wikitree.com/wiki/Glasgow-3589)
-
-Record every useful result and negative search here as it is found.
-Do not treat an unsourced tree or naming pattern as proof.
+# Findings: [Marjorie Glasgow (Glasgow-3589)](https://www.wikitree.com/wiki/Glasgow-3589)
 
 ## Current conclusion
 
-Father assessment: [John Glasgow (1540), Hirmanscheillis](https://www.wikitree.com/wiki/Glasgow-3181) is **confirmed by record**.
+The higher-resolution reading of John Glasgow's `CC8/8/5` testament does **not**
+name Marjorie Glasgow. It names Katherine and a second lawful child whose name
+is provisionally read Androw/Andrew. The testament therefore no longer supports
+the existence, forename, sex, birthplace or parentage represented by
+[Glasgow-3589](https://www.wikitree.com/wiki/Glasgow-3589).
 
-The live profile was checked on 19 July 2026. It is already attached to John
-and Margaret Hoghame/Hutcheson, gives Hirmanscheillis as its birthplace, and
-uses **Marjorie** as its RealName. Those details uniquely resolve this profile
-to the lawful daughter named in John's testament. The remaining FirstName
-`Margaret` is an error, not a separate identity.
+Because no evidenced replacement parents are available, preserve the attached
+[John Glasgow (Glasgow-3181)](https://www.wikitree.com/wiki/Glasgow-3181) and
+[Margaret Hutcheson (Hutcheson-1656)](https://www.wikitree.com/wiki/Hutcheson-1656),
+but mark both relationships uncertain. Add `{{Uncertain Existence}}` and make
+clear that the profile arose from a superseded manuscript reading.
 
 ## Source findings
 
 | Source | Finding | Assessment |
 | --- | --- | --- |
-| NRS, Edinburgh Commissary Court, CC8/8/5, images 276-277, testament dative of John Glasgow in Hirmanscheillis, processed 1577 | Margaret Hoghame gave up the inventory on behalf of `Kathrine & Marjorie Glasgwis thair lauchfull bairnis`; the daughters were executors-dative to their late father. | Direct proof that John Glasgow and Margaret Hoghame were Marjorie's parents. The live profile's parent pair, place and RealName resolve the record to Glasgow-3589. |
+| National Records of Scotland, Edinburgh Commissary Court, `CC8/8/5`, images 276–277; [published index, p. 109](https://archive.org/details/commissariotreco16scot/page/n117/mode/2up?q=Glasgow) | The high-resolution manuscript reading names Katherine and provisionally Androw/Andrew as John's lawful children and executors-dative. | Excludes Marjorie as the second child supplied by this testament. It does not prove that no separate Marjorie existed. |
+| [FamilySearch, “England, Deaths and Burials, 1538–1991,” Margaret Glasko, Norwich, 22 August 1588](https://www.familysearch.org/ark:/61903/1:1:J87G-3P8) | A Margaret Glasko was buried in Norwich. | A real but excluded lead: different forename, no Scottish household bridge, and no evidence that this profile represents her. |
 
-## WikiTree update instructions
+## Relationship and identity assessment
 
-1. Retain [John Glasgow (Glasgow-3181), died 1576, Hirmanscheillis](https://www.wikitree.com/wiki/Glasgow-3181) and [Margaret Hutcheson (Hutcheson-1656), Scotland](https://www.wikitree.com/wiki/Hutcheson-1656) as confirmed parents.
-2. Change the profile's FirstName from `Margaret` to `Marjorie`, matching both the testament and its existing RealName.
-3. Remove the speculative Norwich burial. It concerns a `Margaret Glasko`, while this woman was Marjorie Glasgow; no record links the English burial to the Hirmanscheillis daughter.
+- John Glasgow-3181 and Margaret/Hutcheson-1656: retain as **uncertain
+  attachments**, not proved parents of this profile.
+- Katherine Glasgow-3590: not a proved sibling of this profile; she is a proved
+  child in the source household.
+- The record-defined Andrew is not a rename for this female Marjorie profile.
+  Hold Andrew against Glasgow-3163 rather than repurposing Glasgow-3589.
 
-## Recommended correction applied
+## Duplicate audit — 8 September 2026
 
-Verified live **19 August 2026**: the proper first name is now **Marjorie**,
-birth is before 1576 and uncertain, both record-proved parents are confident,
-and the Norwich burial is preserved only as an explicitly excluded same-name
-lead.
+The complete John-household search establishes Glasgow-3589 as the profile
+created for the former Marjorie reading. The corrected record does not define a
+duplicate to merge it into, and Andrew searches leave Glasgow-3163 as an
+unproved candidate. Do not merge or rename Glasgow-3589 to Andrew.
 
-A same-day relationship audit found that both parents had accidentally been
-set to **Confirmed with DNA**. Both were corrected to **Confident**; the
-testament proves the relationships, but no DNA confirmation is claimed.
+## Recommended amendments
 
-## Birth-estimate audit - 21 August 2026
+Use the complete citation-preserving replacement in `Glasgow-3589.md`. Add
+`{{Uncertain Existence}}`, mark both parent relationships uncertain, and keep
+the Norwich citation as an explicitly excluded lead. Do not delete attached
+parents unless a sourced replacement identity is established.
 
-The live structured birth was corrected to **about 1575, uncertain**. The estimate places Marjorie in the generation established by her parents' testamentary family; no birth record was found. The earlier `before` value remains only a strict chronological boundary, not the most useful estimated birth. No biography, relationship, source or other structured field was changed in this audit.
+## Unresolved priorities
+
+Search for an independent record of a Marjorie Glasgow in this household. In
+its absence, the profile should remain an uncertain-existence research shell,
+not evidence for John's family.

@@ -1,9 +1,10 @@
 # WikiTree update: [[Glasgow-3957|Mary (Glasgow) Montgomery]]
 
 ```wikitext
+[[Category:Glasgow Name Study]]
+
 == Biography ==
 
-{{One Name Study|name=Glasgow}}
 {{Ireland Native}}
 {{Estimated Date}}
 

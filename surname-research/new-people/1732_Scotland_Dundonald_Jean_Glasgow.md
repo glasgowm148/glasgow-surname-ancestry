@@ -18,6 +18,8 @@
 ## Paste-ready biography
 
 [[Category:Glasgow Name Study]]
+{{Estimated Date}}
+
 
 == Biography ==
 
@@ -29,7 +31,7 @@ Attach only relationships stated by the record after confirming the relative pro
 
 The completed live WikiTree audit retained no compatible profile candidate.
 
-'''Reviewed HOLD reason:''' The Dundonald baptism naming father William Glasgow, weaver, conflicts with all candidates.
+'''Reviewed integration decision:''' The Dundonald baptism naming father William Glasgow, weaver, conflicts with all candidates.
 
 * [[Glasgow-1344|Jean]] — no exact full event-date bridge; no exact locality bridge; named record relatives do not all resolve exactly on the profile
 * [[Glasgow-1506|Jean]] — no exact full event-date bridge; no exact locality bridge; named record relatives do not all resolve exactly on the profile
@@ -42,7 +44,7 @@ The 1 result ID(s) above represent one conservative documentary group because: s
 
 == Sources ==
 
-<references />
-
 <ref name="FMP1">[https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3536699&tab=this Findmypast transcript], Archive reference: OPR 590/1; Baptism date: 01 Oct 1732; Baptism year: 1732; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Ayrshire; Father's first name(s): William; Father's last name: Glasgow; Father's occupation: Weaver; First name(s): Jean; Item: 3; Last name: Glasgow; Page: 80; Place: Dundonald; Record set: Scotland, Parish Births & Baptisms 1564-1929; Register year range: 1699-1787; Residence: Achenyeards; Subcategory: Parish Baptisms (captured 2026-09-03T22:07:08.534Z).</ref>
+
+<references />
 <!-- END FMP-GLASGOW-fmp-glasgow-54571dfc429a -->

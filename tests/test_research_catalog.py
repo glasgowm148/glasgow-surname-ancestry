@@ -10,13 +10,22 @@ import re
 import unittest
 
 from tools.catalogue_machine_data import _profile_assessment_flags, resolver_candidates
-from tools.audit_missing_wikitree_profiles import candidate_summary, new_draft_match, select_candidates
+from tools.audit_missing_wikitree_profiles import (
+    candidate_summary, discover_drafts, new_draft_match, select_candidates,
+)
+from tools.materialize_findmypast_glasgow_catalogue import (
+    person_record, render_draft, reviewed_person,
+)
 from tools.build_research_catalog import (
     _canonical_marriage_surname,
+    _extract_profile_draft,
+    _estimated_birth_location,
     _is_external_public_url,
+    _is_complete_profile_draft,
     _potential_parentage,
     _profile_creation_vital,
     _profile_update_significance,
+    _supporting_source_link,
     _profile_work_status,
     _relative_given_name,
     _similar_people,
@@ -35,6 +44,359 @@ WEB = ROOT / "www"
 
 
 class ResearchCatalogueTest(unittest.TestCase):
+    def test_place_timeline_source_link_is_plain_and_escaped(self):
+        self.assertEqual(_supporting_source_link({}), "")
+        self.assertEqual(
+            _supporting_source_link({
+                "supporting_source_url": 'https://example.org/record?a=1&b="two"'
+            }),
+            '<p><a href="https://example.org/record?a=1&amp;b=&quot;two&quot;">'
+            'Supporting source</a></p>',
+        )
+
+    def test_every_active_creation_handoff_is_registered_and_copy_ready(self):
+        discovered = discover_drafts()
+        active = {
+            catalogue_id: relative
+            for catalogue_id, relative in discovered.items()
+            if relative.startswith("surname-research/new-people/")
+        }
+        registered = set(active.values())
+        maintained = {
+            str(path.relative_to(ROOT))
+            for path in (ROOT / "surname-research" / "new-people").glob("*.md")
+        }
+        self.assertEqual(
+            maintained,
+            registered,
+            "Every maintained creation draft must have a catalogue identity mapping",
+        )
+        search_index = {
+            person["id"]: person
+            for person in json.loads(
+                (WEB / "data" / "catalogue-search-index.json").read_text(encoding="utf-8")
+            )
+        }
+        for catalogue_id, relative in sorted(active.items()):
+            draft = _extract_profile_draft({"draft_path": relative})
+            self.assertTrue(draft, relative)
+            self.assertTrue(_is_complete_profile_draft(draft), relative)
+            self.assertNotRegex(draft, r"<ref\b[^>]*\n[^>]*>", relative)
+            self.assertNotRegex(draft, r"\[[^\]\n]+\]\(https?://", relative)
+            self.assertNotRegex(draft, r"\*\*[^*\n]+\*\*", relative)
+            self.assertNotRegex(draft, r"`[^`\n]+`", relative)
+            self.assertNotRegex(
+                draft,
+                r"(?mi)^#{1,6}\s+(?:HOLD|Minimum creation fields|Paste-ready biography|Duplicate(?: and identity)? audit|Resolution targets?|After creation)\b",
+                relative,
+            )
+            openings = list(re.finditer(r"<ref\b([^>]*)>", draft, re.I))
+            definitions = set()
+            usages = set()
+            for opening in openings:
+                name = re.search(
+                    r"\bname\s*=\s*([\"'])([^\"']+)\1", opening.group(1), re.I
+                )
+                if name:
+                    (usages if opening.group(1).rstrip().endswith("/") else definitions).add(
+                        name.group(2)
+                    )
+            self.assertEqual(
+                sum(not opening.group(1).rstrip().endswith("/") for opening in openings),
+                len(re.findall(r"</ref\s*>", draft, re.I)),
+                relative,
+            )
+            self.assertLessEqual(usages, definitions, relative)
+            handoff = (ROOT / relative).read_text(encoding="utf-8")
+            birth_location = re.search(
+                r"^- \*\*Birth(?: ?place| location):\*\* (.+)$", handoff, re.M | re.I
+            )
+            if birth_location and not re.match(
+                r"(?:unknown|place not stated|not determined)\b",
+                birth_location.group(1),
+                re.I,
+            ):
+                self.assertTrue(search_index[catalogue_id]["birth_location"], relative)
+
+    @staticmethod
+    def _findmypast_draft(
+        transcript_fields, *, event_type="baptism", event_date="2 Jan 1700", match=None,
+        creation_status="READY", notes="", place="Irvine", country="Scotland"
+    ):
+        person = {
+            "group_id": "fmp-test-person",
+            "supplement_id": "fmp-test-person",
+            "name": "Test Glasgow",
+            "event_type": event_type,
+            "event_date": event_date,
+            "event_year": 1700,
+            "event_year_start": 1700,
+            "event_year_end": 1700,
+            "place": place,
+            "country": country,
+            "record_ids": ["test-record"],
+            "record_sets": ["Test records"],
+            "source_urls": ["https://www.findmypast.example/test-record"],
+            "duplicate_group_reason": "one transcript describes one person",
+            "records": [{
+                "source_url": "https://www.findmypast.example/test-record",
+                "captured_at": "2026-09-07",
+                "transcript_fields": transcript_fields,
+            }],
+        }
+        decision = {
+            "outcome": "new_person",
+            "creation_status": creation_status,
+            "supplement_id": "fmp-test-person",
+            "notes": notes,
+        }
+        return render_draft(person, decision, match or {"candidates": []})
+
+    def test_findmypast_estimated_date_covers_qualified_key_vitals(self):
+        cases = (
+            ({"Baptism date": "2 Jan 1700"}, "baptism", "2 Jan 1700"),
+            ({"Spouse first name": "Jean"}, "marriage", "2 Jan 1700"),
+            ({"Birth date": "About 1670"}, "birth", "About 1670"),
+            ({"Birth date": "After 1670"}, "birth", "After 1670"),
+            ({"Birth date": "Approximately 1670"}, "birth", "Approximately 1670"),
+            ({"Birth date": "1 Jan 1670", "Burial date": "2 Jan 1700"}, "burial", "2 Jan 1700"),
+        )
+        for fields, event_type, event_date in cases:
+            with self.subTest(fields=fields, event_type=event_type):
+                draft = self._findmypast_draft(
+                    fields, event_type=event_type, event_date=event_date
+                )
+                self.assertEqual(draft.count("{{Estimated Date}}"), 1)
+
+        exact = self._findmypast_draft(
+            {"Birth date": "1 Jan 1700"}, event_type="birth", event_date="1 Jan 1700"
+        )
+        self.assertNotIn("{{Estimated Date}}", exact)
+
+    def test_findmypast_candidate_name_match_does_not_link_relative(self):
+        comparison = {
+            "role": "father",
+            "profile_id": "Glasgow-123",
+            "exact_match": True,
+        }
+        match = {"candidates": [{
+            "profile_id": "Glasgow-999",
+            "profile": {"LongName": "Possible Test Glasgow"},
+            "evidence": {"relatives": {"comparisons": [comparison]}},
+        }]}
+        fields = {"Father first name": "John", "Father last name": "Glasgow"}
+
+        draft = self._findmypast_draft(fields, match=match)
+        self.assertNotIn("[[Glasgow-123|John Glasgow]]", draft)
+        self.assertNotIn("Glasgow-123", draft)
+        self.assertIn("father John Glasgow", draft)
+        self.assertIn("[[Glasgow-999|Possible Test Glasgow]]", draft)
+
+        comparison["identity_proven"] = True
+        proved = self._findmypast_draft(fields, match=match)
+        self.assertIn("[[Glasgow-123|John Glasgow]]", proved)
+
+    def test_findmypast_migration_destination_is_not_a_birthplace(self):
+        draft = self._findmypast_draft(
+            {"Destination": "Antegoa"},
+            event_type="residence/migration",
+            event_date="10 Mar 1707",
+        )
+        self.assertIn("**Birth location:** unknown", draft)
+        self.assertIn("a migration destination or source grouping is not a birthplace", draft)
+        self.assertIn("destination states: “Antegoa”", draft)
+
+        residence = self._findmypast_draft(
+            {"Event type": "Residence", "Event place": "Ballykeel, County Antrim"},
+            event_type="residence/migration", event_date="1738",
+            place="Ballykeel, County Antrim", country="Ireland",
+        )
+        self.assertIn("**Birth location:** Ballykeel, County Antrim, Ireland", residence)
+
+        grouping = self._findmypast_draft(
+            {"Event type": "Residence", "Event place": "Scots-Irish",
+             "Title": "Scots-Irish Links, 1575-1725, Pts 1 & 2"},
+            event_type="residence/migration", event_date="1707",
+            place="Scots-Irish", country="United States",
+        )
+        self.assertIn("**Birth location:** unknown", grouping)
+
+        reviewed_grouping = self._findmypast_draft(
+            {"Event type": "Residence", "Event place": "Scots-Irish",
+             "Title": "Scots-Irish Links, 1575-1725, Pts 1 & 2"},
+            event_type="residence/migration", event_date="1707",
+            place="place unknown", country="Location unknown",
+        )
+        self.assertIn("**Birth location:** unknown", reviewed_grouping)
+        self.assertNotIn("**Birth location:** place unknown", reviewed_grouping)
+        self.assertIn("at an unspecified place", reviewed_grouping)
+        self.assertNotIn("at place unknown, Location unknown", reviewed_grouping)
+
+        row_person = {
+            "group_id": "fmp-source-group", "supplement_id": "fmp-source-group",
+            "name": "Nathaniel Glasgow", "event_type": "residence/migration",
+            "event_year": 1707, "event_year_start": 1707, "event_year_end": 1707,
+            "place": "place unknown", "country": "Location unknown",
+            "record_ids": ["test-record"], "record_sets": ["Test records"],
+            "source_urls": ["https://www.findmypast.example/test-record"],
+            "records": [{"transcript_fields": {
+                "Event type": "Residence", "Event place": "Scots-Irish",
+                "Title": "Scots-Irish Links, 1575-1725, Pts 1 & 2",
+            }}],
+        }
+        row = person_record(
+            row_person,
+            {"outcome": "new_person", "creation_status": "HOLD",
+             "supplement_id": "fmp-source-group", "profile_id": ""},
+            [],
+        )
+        self.assertNotIn("explicit event type Residence", row["location_basis"])
+
+        row_person["place"] = "Ballykeel, County Antrim"
+        row_person["country"] = "Ireland"
+        row_person["records"][0]["transcript_fields"]["Event place"] = "Ballykeel, County Antrim"
+        row_person["records"][0]["transcript_fields"]["Title"] = "New World Immigrants, volume 2"
+        residence_row = person_record(
+            row_person,
+            {"outcome": "new_person", "creation_status": "READY",
+             "supplement_id": "fmp-residence", "profile_id": ""},
+            [],
+        )
+        self.assertIn("explicit event type Residence", residence_row["location_basis"])
+        self.assertEqual(
+            residence_row["birth_location"],
+            "Ballykeel, County Antrim, Ireland",
+        )
+        self.assertIn("uncertain", residence_row["birth_status"])
+
+        row_person["birth_location"] = "Lindsayland, Biggar, Lanarkshire, Scotland"
+        reviewed_location_row = person_record(
+            row_person,
+            {"outcome": "new_person", "creation_status": "READY",
+             "supplement_id": "fmp-reviewed-location", "profile_id": ""},
+            [],
+        )
+        self.assertEqual(
+            reviewed_location_row["birth_location"],
+            "Lindsayland, Biggar, Lanarkshire, Scotland",
+        )
+        row_person.pop("birth_location")
+
+        row_person["records"][0]["transcript_fields"]["Destination"] = "Antegoa"
+        migration_row = person_record(
+            row_person,
+            {"outcome": "new_person", "creation_status": "READY",
+             "supplement_id": "fmp-migration", "profile_id": ""},
+            [],
+        )
+        self.assertEqual(migration_row.get("birth_location", ""), "")
+
+        self.assertEqual(
+            _estimated_birth_location([{
+                "filter_year": 1707, "year": "1707",
+                "subcluster": "residence/migration",
+                "association": "Residence/Migration 1707",
+                "record_location": "British West Indies",
+            }]),
+            ("", ""),
+        )
+        self.assertEqual(
+            _estimated_birth_location([{
+                "filter_year": 1738, "year": "1738",
+                "subcluster": "residence/migration",
+                "association": "Residence/Migration 1738",
+                "location_basis": "Findmypast transcript; explicit event type Residence; no narrower location inferred.",
+                "record_location": "Ballykeel, County Antrim, Ireland",
+            }]),
+            (
+                "Ballykeel, County Antrim, Ireland (estimated)",
+                "Estimated from the earliest mapped residence record (1738).",
+            ),
+        )
+        self.assertEqual(
+            _estimated_birth_location([{
+                "filter_year": 1712, "year": "1712", "subcluster": "baptism",
+                "association": "Baptism 1712", "record_location": "Walston, Scotland",
+            }]),
+            (
+                "Walston, Scotland (estimated)",
+                "Estimated from the mapped birth or baptism record (1712).",
+            ),
+        )
+        self.assertEqual(
+            _estimated_birth_location([{
+                "filter_year": 1887, "year": "1887", "association": "b. 1887",
+                "profile_id": "Glasgow-872",
+                "record_location": "Location not supplied — profile holding point",
+            }]),
+            ("", ""),
+        )
+        self.assertEqual(
+            _estimated_birth_location([{
+                "filter_year": 1700, "year": "1700", "subcluster": "marriage",
+                "association": "Marriage 1700", "record_location": "Irvine, Scotland",
+            }]),
+            (
+                "Irvine, Scotland (estimated)",
+                "Estimated from the earliest mapped non-migration life event (1700).",
+            ),
+        )
+        self.assertEqual(
+            _estimated_birth_location([{
+                "filter_year": 1700, "year": "1700", "subcluster": "marriage",
+                "association": "Marriage 1700", "profile_id": "Glasgow-9999",
+                "record_location": "Irvine, Scotland",
+            }]),
+            ("", ""),
+        )
+
+    def test_reviewed_findmypast_hold_does_not_claim_no_candidate(self):
+        draft = self._findmypast_draft(
+            {}, creation_status="HOLD",
+            notes="The live audit retained [[Glasgow-1143|Robert Glasgow]] as a possible match.",
+        )
+        self.assertIn("Reviewed HOLD reason", draft)
+        self.assertIn("[[Glasgow-1143|Robert Glasgow]]", draft)
+        self.assertNotIn("No compatible candidate was retained", draft)
+
+    def test_court_venue_is_not_inferred_as_birthplace(self):
+        self.assertEqual(
+            _estimated_birth_location([{
+                "filter_year": 1893, "year": "1893",
+                "subcluster": "Cape court candidates",
+                "association": "Court defendant",
+                "record_location": "Cape Supreme Court, Cape Town",
+                "record_precision": "Court-jurisdiction representative point",
+                "location_basis": "Alexander's residence is unproved.",
+                "source_type": "court file index",
+            }]),
+            ("", ""),
+        )
+        self.assertEqual(
+            _estimated_birth_location([{
+                "filter_year": 1692, "year": "1692",
+                "subcluster": "court record",
+                "association": "Court Record 02/03/1692",
+                "record_location": "Dublin, Ireland",
+                "source_title": "Court of Chancery Bill Books 1692-1696",
+            }]),
+            ("", ""),
+        )
+
+    def test_reviewed_catalogue_interpretation_preserves_raw_person(self):
+        raw = {
+            "group_id": "fmp-test", "country": "United States",
+            "place": "Ballykeel, Co Ant", "event_date": "",
+        }
+        decision = {
+            "catalogue_country": "Ireland",
+            "catalogue_place": "Ballykeel, County Antrim",
+        }
+        interpreted = reviewed_person(raw, decision)
+        self.assertEqual(interpreted["country"], "Ireland")
+        self.assertEqual(interpreted["place"], "Ballykeel, County Antrim")
+        self.assertEqual(raw["country"], "United States")
+
     def test_marriage_surname_variants_use_birth_surname(self):
         linked = {"cunynghame-1": {"last_names_at_birth": ["Cunynghame"]}}
         self.assertEqual(_canonical_marriage_surname("Cunninghame"), "Cunningham")
@@ -48,7 +410,7 @@ class ResearchCatalogueTest(unittest.TestCase):
         )
         people = json.loads((WEB / "data" / "people.json").read_text(encoding="utf-8"))["people"]
         counts = {surname: count for surname, count, _ in _marriage_surname_values(people)}
-        self.assertEqual(counts["Cunningham"], 9)
+        self.assertEqual(counts["Cunningham"], 10)
 
     def test_ref_opening_tags_are_kept_on_one_line(self):
         text = 'Claim.<ref\n name="SourceA">Citation.</ref> Reuse.<ref\n name="SourceA" />'
@@ -93,6 +455,21 @@ Corrected assessment.
             merged,
         )
         self.assertNotIn('<ref name="Census1851" />', merged)
+
+    def test_reviewed_full_replacements_bypass_captured_detail_merge(self):
+        evidence = json.loads(
+            (ROOT / "data" / "wikitree" / "profile-evidence.json").read_text(encoding="utf-8")
+        )
+        updates = _load_profile_updates(evidence)
+
+        for profile_id in ("Glasgow-1030", "Glasgow-3181"):
+            with self.subTest(profile_id=profile_id):
+                update = updates[profile_id]
+                self.assertFalse(update.get("preserve_captured_detail"))
+                self.assertIn(
+                    "<!-- REVIEWED FULL REPLACEMENT:", update["proposed_wikitext"]
+                )
+                self.assertRegex(update["proposed_wikitext"], r"(?m)^=== [^=].*?===$")
 
     def test_all_profile_updates_have_balanced_and_resolved_ref_tags(self):
         evidence = json.loads(
@@ -163,6 +540,9 @@ Corrected assessment.
                 r"(?i)(?:TODO|example\.com|glasgow\.phenotype\.dev|(?:^|\s)(?:research|sources)/)",
                 profile_id,
             )
+            self.assertNotRegex(proposed, r"\[[^\]\n]+\]\(https?://", profile_id)
+            self.assertNotRegex(proposed, r"\*\*[^*\n]+\*\*", profile_id)
+            self.assertNotRegex(proposed, r"`[^`\n]+`", profile_id)
             if profile_id.startswith(("Glasgow-", "Glasco-", "Glasgo-", "Glascow-")):
                 self.assertIn("[[Category:Glasgow Name Study]]", proposed, profile_id)
 
@@ -233,6 +613,13 @@ Corrected assessment.
             shared = index_by_key[person["map_key"]]
             for field in ("name", "profile_ids", "birth", "birth_location", "death", "death_location", "cluster", "suffixes"):
                 self.assertEqual(person[field], shared[field])
+        self.assertFalse(any(
+            person["birth_location_note"] and re.search(
+                r"not supplied|not stated|unknown|unspecified|holding point|source grouping",
+                person["birth_location"], re.I,
+            )
+            for person in index
+        ))
         self.assertTrue(any(person["has_suffix"] and "M.D." in person["suffixes"] for person in index))
         ignored_suffixes = {"jr", "sr", "i", "ii", "iii"}
         self.assertFalse(any(
@@ -418,8 +805,8 @@ Corrected assessment.
         self.assertIn("noreferrer", external_links_js)
 
         updates = [person for person in index if person["needs_wikitree_update"]]
-        profile_only_updates = {"Glasgow-3905", "Kyle-3461", "Scott-69166"}
-        base_updates = profile_only_updates | {"Glasgow-2462"}
+        profile_only_updates = {"Glasgow-3905", "Kyle-3461"}
+        base_updates = profile_only_updates | {"Scott-69166", "Glasgow-2462"}
         findmypast_overrides = json.loads(
             (ROOT / "research" / "findmypast-glasgow-audit" / "catalogue-integration-overrides.json").read_text(encoding="utf-8")
         )["groups"]
@@ -434,7 +821,10 @@ Corrected assessment.
             "Glasgow-951", "Glasgow-938", "Glasgow-2738", "Glasgow-3903",
             "Glasgow-3188", "Glasgow-1495", "Glasgow-3062", "Glasgow-3075",
             "Glasgow-3179", "Wilson-142005", "Glasgow-3539", "Glasgow-1086",
-            "Unknown-717333", "Glasgow-867",
+            "Unknown-717333", "Glasgow-867", "Glasgow-2453", "Glasgow-3296",
+            "Glasgow-1030", "Glasgow-3163", "Glasgow-3181", "Glasgow-3589",
+            "Glasgow-3613", "Glasgow-3942", "Weir-4172",
+            "Glasgow-3928",
         }
         self.assertEqual(
             {person["profile_ids"][0] for person in updates},
@@ -442,6 +832,7 @@ Corrected assessment.
         )
         updates_by_profile = {person["profile_ids"][0]: person for person in updates}
         self.assertTrue(all(updates_by_profile[profile_id]["record_count"] == 0 for profile_id in profile_only_updates))
+        self.assertGreaterEqual(updates_by_profile["Scott-69166"]["record_count"], 1)
         self.assertGreaterEqual(updates_by_profile["Glasgow-2462"]["record_count"], 1)
         self.assertTrue(all(updates_by_profile[profile_id]["record_count"] >= 1 for profile_id in findmypast_updates))
         self.assertIn("needsUpdate:'needsUpdate'", search_js)
@@ -455,11 +846,13 @@ Corrected assessment.
         self.assertIn("&lt;references /&gt;", detached_update_html)
         self.assertNotIn("Required profile change", detached_update_html)
         self.assertNotIn("Evidence-led project update", detached_update_html)
+        rendered_update_drafts = 0
         for update_page in (WEB / "people").glob("*.html"):
             page_text = update_page.read_text(encoding="utf-8")
             draft = re.search(r'<textarea id="profile-update-draft".*?>(.*?)</textarea>', page_text, re.S)
             if not draft:
                 continue
+            rendered_update_drafts += 1
             draft_text = unescape(draft.group(1))
             for heading in ("== Biography ==", "== Research Notes ==", "== Sources ==", "<references />"):
                 self.assertIn(heading, draft_text, update_page.name)
@@ -469,6 +862,7 @@ Corrected assessment.
                 r"(?mi)^(?:Required profile change|Evidence-led project update)\b",
                 update_page.name,
             )
+        self.assertEqual(rendered_update_drafts, update_count)
         self.assertTrue((WEB / "people" / "profile-update.js").exists())
 
         portable_person = (WEB / "people" / "glasgow-2072.html").read_text(encoding="utf-8")
@@ -604,24 +998,36 @@ Corrected assessment.
         self.assertNotIn("Download link update", profile_script)
 
         audit_payload = json.loads((ROOT / "data" / "wikitree" / "catalogue-profile-audit.json").read_text(encoding="utf-8"))
-        pre1650_plan = json.loads(
-            (ROOT / "research" / "findmypast-glasgow-audit" / "catalogue-integration-plan-pre1650.json").read_text(encoding="utf-8")
-        )
-        range_plan = json.loads(
-            (ROOT / "research" / "findmypast-glasgow-audit" / "catalogue-integration-plan-1650-1750.json").read_text(encoding="utf-8")
-        )
         expected_audit_entries = {
-            "record-" + item["supplement_id"]
-            for plan in (pre1650_plan, range_plan)
-            for item in plan["decisions"]
-            if item["outcome"] != "existing_profile"
+            catalogue_id
+            for catalogue_id, draft_path in discover_drafts().items()
+            if draft_path.startswith("surname-research/new-people/")
         }
-        expected_audit_entries.add("record-fmp-glasgow-11443ace3ea2")
         expected_audit_entries.update({
-            "record-saltcoats-1637-john-glasgow",
-            "record-saltcoats-1637-katherine-glasgow",
+            "record-medieval-1283-alexander-richard-constable",
+            "record-medieval-1283-alexander-richard-messenger",
+            "record-medieval-1289-alexander-escheator",
+            "record-medieval-1506-john-alias-smith",
+            "record-fmp-glasgow-11443ace3ea2",
+            "record-fmp-glasgow-7a66001e8cd6",
+            "record-fmp-glasgow-a0b809464cc9",
+            "record-hugh-glasgow-tamlaght-o-crilly-1772-declaration",
+            "record-thomas-glasco-76891c1835",
         })
         self.assertEqual(set(audit_payload["entries"]), expected_audit_entries)
+        bespoke_ids = {
+            "record-john-of-portrush-robert-glasgow-1666",
+            "record-north-leith-robert-glasgow-1694",
+            "record-hugh-glasgow-tamlaght-o-crilly-1740-entry-1272",
+            "record-thomas-glasco-76891c1835",
+            "record-ballybogy-1825-james-glasgow",
+            "record-drumragh-mary-glasgow-1828",
+            "record-robert-glasgow-45f84ce490",
+            "record-newberry-cleora-glasgow-speers",
+            "record-inishrush-lindsey-glasgow-1882",
+            "record-alexander-glasgow-94245e5bf7",
+        }
+        self.assertLessEqual(bespoke_ids, set(audit_payload["entries"]))
         for resolved_id in (
             "record-fmp-glasgow-17ba21591d7d", "record-fmp-glasgow-37cd5c63b64f",
             "record-fmp-glasgow-bacd8e7498f2", "record-fmp-glasgow-27f929774fdc",
@@ -634,21 +1040,33 @@ Corrected assessment.
             (WEB / "data" / "people.json").read_text(encoding="utf-8")
         )["people"]
         unlinked = [person for person in catalogue_people if not person["has_wikitree_destination"]]
-        self.assertEqual(
-            Counter(person["profile_work_status"] for person in unlinked),
-            Counter({
-                "creation_ready": 43,
-                "existing_profile_candidate": 10,
-                "identity_hold": 1,
-                "unreviewed": 2,
-            }),
+        audit_entries = audit_payload["entries"].values()
+        expected_work_statuses = Counter(
+            "creation_ready" if entry["recommended_action"] == "create_new_profile"
+            else "existing_profile_candidate" if entry["candidates"]
+            else "identity_hold"
+            for entry in audit_entries
+            if entry["recommended_action"] != "do_not_create"
         )
+        unreviewed_ids = {
+            person["catalogue_id"] for person in unlinked
+            if person["profile_work_status"] == "unreviewed"
+        }
+        self.assertEqual(unreviewed_ids, set())
+        expected_work_statuses["unreviewed"] = len(unreviewed_ids)
+        expected_work_statuses["free_space_only"] = sum(
+            1 for person in unlinked
+            if audit_payload["entries"].get(person["catalogue_id"], {}).get("recommended_action")
+            == "do_not_create"
+        )
+        self.assertEqual(Counter(person["profile_work_status"] for person in unlinked), expected_work_statuses)
         linked_space = [person for person in catalogue_people if person["profile_work_status"] == "linked_free_space"]
-        self.assertEqual(len(linked_space), 4)
+        self.assertEqual(len(linked_space), 6)
         self.assertTrue(all(person["wikitree_free_space_url"].startswith("https://www.wikitree.com/wiki/Space:") for person in linked_space))
         catalogue_html = (WEB / "catalogue.html").read_text(encoding="utf-8")
         self.assertIn("Creation-ready profiles", catalogue_html)
-        self.assertIn("10 possible existing-profile matches on HOLD", catalogue_html)
+        candidate_holds = expected_work_statuses["existing_profile_candidate"]
+        self.assertIn(f"{candidate_holds} possible existing-profile matches on HOLD", catalogue_html)
         self.assertNotIn("Unlinked WikiTree entries", catalogue_html)
 
         holkham = json.loads((WEB / "people" / "glasgow-4063.json").read_text(encoding="utf-8"))
@@ -701,13 +1119,19 @@ Corrected assessment.
         self.assertGreater(vital, citation)
 
     def test_periodic_profile_match_requires_one_new_vital_fingerprint(self):
-        previous = {"recommended_action": "ready_to_create", "candidates": []}
+        previous = {
+            "recommended_action": "ready_to_create", "candidates": [],
+            "allow_auto_match": True,
+        }
         candidate = {"profile_id": "Glasgow-9999", "score": 90, "birth_year_match": True}
         self.assertEqual(new_draft_match([candidate], previous), candidate)
         self.assertIsNone(new_draft_match([candidate, {**candidate, "profile_id": "Glasgow-9998"}], previous))
         self.assertIsNone(new_draft_match([{**candidate, "birth_year_match": False}], previous))
         weak = {"profile_id": "Glasgow-3970", "score": 60, "birth_year_match": False}
-        previous_with_fallback = {"recommended_action": "ready_to_create", "candidates": [weak]}
+        previous_with_fallback = {
+            "recommended_action": "ready_to_create", "candidates": [weak],
+            "allow_auto_match": True,
+        }
         self.assertEqual(new_draft_match([weak, candidate], previous_with_fallback), candidate)
 
     def test_low_scoring_profile_audit_retains_two_fallbacks(self):
@@ -1744,6 +2168,24 @@ Corrected assessment.
         self.assertTrue(all(_is_external_public_url(row["source_url"]) for row in unlinked))
         self.assertTrue(all("glasgow.phenotype.dev" not in row["source_url"] for row in unlinked))
 
+    def test_unlinked_record_ids_never_become_wikitree_urls(self):
+        people = json.loads((WEB / "data" / "people.json").read_text(encoding="utf-8"))["people"]
+        unlinked = [
+            person for person in people
+            if not person["profile_ids"] and not person.get("wikitree_free_space_url")
+        ]
+        self.assertTrue(unlinked)
+        for person in unlinked:
+            dossier = json.loads(
+                (WEB / "people" / f"{person['catalogue_id']}.json").read_text(encoding="utf-8")
+            )
+            self.assertIsNone(dossier["wikitree_url"], person["catalogue_id"])
+            page = (WEB / "people" / f"{person['catalogue_id']}.html").read_text(encoding="utf-8")
+            self.assertNotIn(
+                f"https://www.wikitree.com/wiki/{person['catalogue_id']}", page,
+                person["catalogue_id"],
+            )
+
     def test_public_profile_sources_never_fall_back_to_the_catalogue(self):
         unresolved = _source_for_record({}, "record-example")
         self.assertEqual(unresolved["source_type"], "unresolved")
@@ -1758,7 +2200,7 @@ Corrected assessment.
             )
 
         james_html = (WEB / "people" / "record-james-glasgow-oritor-gentleman-1826-probate-occurrence.html").read_text(encoding="utf-8")
-        draft = james_html.split('id="profile-draft"', 1)[1].split("</textarea>", 1)[0]
+        draft = james_html.split('<textarea id="profile-draft" class="profile-draft"', 1)[1].split(">", 1)[1].split("</textarea>", 1)[0]
         self.assertNotIn("glasgow.phenotype.dev", draft)
         self.assertIn("apps.proni.gov.uk/ProniNames_IE/SearchPage.aspx", draft)
 

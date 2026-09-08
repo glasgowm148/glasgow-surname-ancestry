@@ -18,6 +18,8 @@
 ## Paste-ready biography
 
 [[Category:Glasgow Name Study]]
+{{Estimated Date}}
+
 
 == Biography ==
 
@@ -29,7 +31,7 @@ Attach only relationships stated by the record after confirming the relative pro
 
 The completed live WikiTree audit retained no compatible profile candidate.
 
-'''Reviewed HOLD reason:''' The Stevenston baptism and James Glasgow/Mary Auld parents distinguish this Margaret from all candidates.
+'''Reviewed integration decision:''' The Stevenston baptism and James Glasgow/Mary Auld parents distinguish this Margaret from all candidates.
 
 * [[Glasgow-1236|Margaret]] — no exact full event-date bridge; no exact locality bridge; named record relatives do not all resolve exactly on the profile
 * [[McCullough-1964|Margaret]] — no exact full event-date bridge; no exact locality bridge; named record relatives do not all resolve exactly on the profile
@@ -40,7 +42,7 @@ The 1 result ID(s) above represent one conservative documentary group because: s
 
 == Sources ==
 
-<references />
-
 <ref name="FMP1">[https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0369031&tab=this Findmypast transcript], Archive reference: OPR 615/1; Baptism date: 17 Feb 1717; Baptism year: 1717; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Ayrshire; Father's first name(s): James; Father's last name: Glasgow; First name(s): Margaret; Item: 1; Last name: Glasgow; Mother's first name(s): Mary; Mother's last name: Auld; Place: Stevenston; Record set: Scotland, Parish Births & Baptisms 1564-1929; Register year range: 1700-1819; Subcategory: Parish Baptisms (captured 2026-09-03T22:06:50.004Z).</ref>
+
+<references />
 <!-- END FMP-GLASGOW-fmp-glasgow-5286617ad4ee -->

@@ -18,6 +18,8 @@
 ## Paste-ready biography
 
 [[Category:Glasgow Name Study]]
+{{Estimated Date}}
+
 
 == Biography ==
 
@@ -39,7 +41,7 @@ The 1 result ID(s) above represent one conservative documentary group because: s
 
 == Sources ==
 
-<references />
-
 <ref name="FMP1">[https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0368755&tab=this Findmypast transcript], Archive reference: OPR 615/1; Baptism date: 19 Jul 1702; Baptism year: 1702; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Ayrshire; Father's first name(s): George; Father's last name: Glasgow; First name(s): Joan; Item: 1; Last name: Glasgow; Mother's first name(s): Joan; Mother's last name: Smith; Page: 3; Place: Stevenston; Record set: Scotland, Parish Births & Baptisms 1564-1929; Register year range: 1700-1819; Subcategory: Parish Baptisms (captured 2026-09-03T22:06:48.698Z).</ref>
+
+<references />
 <!-- END FMP-GLASGOW-fmp-glasgow-12395e3a9d9b -->

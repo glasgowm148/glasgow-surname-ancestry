@@ -25,6 +25,7 @@ from project_paths import (
     ROOT,
     SRC_DIR,
     WIKITREE_PROFILE_EVIDENCE,
+    atomic_write_text,
     merged_map_profiles,
 )
 
@@ -378,9 +379,9 @@ def main() -> int:
             "captured_profile_ids": [target for target in targets if target in evidence_profiles],
             "failures": failures,
         })
-        WIKITREE_PROFILE_EVIDENCE.parent.mkdir(parents=True, exist_ok=True)
-        WIKITREE_PROFILE_EVIDENCE.write_text(
-            json.dumps(existing, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+        atomic_write_text(
+            WIKITREE_PROFILE_EVIDENCE,
+            json.dumps(existing, ensure_ascii=False, indent=2) + "\n",
         )
 
     batch_total = (len(pending) + options.batch_size - 1) // options.batch_size

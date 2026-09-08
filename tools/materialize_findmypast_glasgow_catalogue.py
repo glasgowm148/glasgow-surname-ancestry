@@ -22,9 +22,9 @@ from typing import Any
 from urllib.parse import parse_qs, quote, unquote, urlparse
 
 try:
-    from project_paths import ROOT
+    from project_paths import ROOT, atomic_write_csv, atomic_write_text
 except ModuleNotFoundError:
-    from tools.project_paths import ROOT
+    from tools.project_paths import ROOT, atomic_write_csv, atomic_write_text
 
 
 AUDIT_DIR = ROOT / "research" / "findmypast-glasgow-audit"
@@ -43,6 +43,10 @@ BLOCK_TAG = "FINDMYPAST-GLASGOW-AUDIT"
 WT_ID = re.compile(r"^[A-Za-z][A-Za-z0-9' .-]*-\d+$")
 VALID_OUTCOMES = {"existing_profile", "new_person", "free_space"}
 VALID_CREATION = {"READY", "HOLD"}
+ESTIMATED_VITAL = re.compile(
+    r"\b(?:estimated|inferred|uncertain|approx(?:imate(?:d|ly)?)?|before|after|about|circa)\b",
+    re.IGNORECASE,
+)
 CSV_EXPORT_COLUMNS = (
     "group_id", "supplement_id", "name", "event_type", "event_date",
     "event_year", "event_year_start", "event_year_end", "place", "country",
@@ -53,6 +57,19 @@ CSV_EXPORT_COLUMNS = (
 
 def clean(value: Any) -> str:
     return "" if value is None else str(value).strip()
+
+
+def location_is_placeholder(value: Any) -> bool:
+    """Return whether every supplied place component explicitly says it is unknown."""
+    parts = [part.strip() for part in clean(value).split(",") if part.strip()]
+    return bool(parts) and all(
+        re.fullmatch(
+            r"(?:unknown|unspecified|(?:place|location)\s+(?:unknown|not\s+(?:stated|supplied)))",
+            part,
+            re.IGNORECASE,
+        )
+        for part in parts
+    )
 
 
 def canonical(value: Any) -> str:
@@ -108,6 +125,11 @@ def complete_profile_draft(path: Path) -> bool:
         "== Research Notes ==", "== Sources ==", "<references />",
     )
     return all(item in text for item in required) and "<ref" in text
+
+
+def estimated_vital(*values: Any) -> bool:
+    """Return whether a rendered key vital is explicitly qualified."""
+    return any(ESTIMATED_VITAL.search(clean(value)) for value in values)
 
 
 def default_handoff(person: dict[str, Any], outcome: str) -> Path:
@@ -203,6 +225,19 @@ def scope_label(before_year: int | None = None, from_year: int | None = None,
     return "through 1750"
 
 
+def reviewed_person(person: dict[str, Any], decision: dict[str, Any]) -> dict[str, Any]:
+    """Apply narrowly reviewed catalogue interpretations without altering raw transcript data."""
+    rendered = dict(person)
+    for key in (
+        "country", "place", "event_date", "event_year", "event_year_start",
+        "event_year_end", "birth_location",
+    ):
+        override_key = f"catalogue_{key}"
+        if override_key in decision:
+            rendered[key] = decision[override_key]
+    return rendered
+
+
 def decide(person: dict[str, Any], match: dict[str, Any] | None,
            override: dict[str, Any] | None) -> dict[str, Any]:
     group_id = person["group_id"]
@@ -228,6 +263,13 @@ def decide(person: dict[str, Any], match: dict[str, Any] | None,
             "queue_work": clean(override.get("queue_work")),
             "substantive_amendment": override.get("substantive_amendment"),
         })
+        for key in (
+            "country", "place", "event_date", "event_year", "event_year_start",
+            "event_year_end", "birth_location",
+        ):
+            override_key = f"catalogue_{key}"
+            if override_key in override:
+                result[override_key] = override[override_key]
     elif match is None:
         result.update({"outcome": "blocked_missing_match_audit", "decision_source": "none"})
     elif len(confirmed) == 1:
@@ -239,7 +281,7 @@ def decide(person: dict[str, Any], match: dict[str, Any] | None,
         result.update({"outcome": "blocked_conflicting_matches", "decision_source": "match_audit"})
     elif pre1500:
         result.update({
-            "outcome": "free_space", "creation_status": "HOLD",
+            "outcome": "free_space", "creation_status": "READY",
             "decision_source": "pre1500_free_space_rule",
         })
     else:
@@ -331,9 +373,13 @@ def build_plan(people_doc: dict[str, Any], matches_doc: dict[str, Any],
     status_counts = Counter(
         f"{item['outcome']}:{item.get('creation_status') or 'n/a'}" for item in decisions
     )
-    duplicate_handoffs = sorted(path for path, count in Counter(
-        item["handoff_path"] for item in decisions if item.get("handoff_path")
-    ).items() if count > 1)
+    duplicate_handoffs = sorted(
+        path for path, grouped in handoff_groups.items()
+        if len(grouped) > 1 and not (
+            all(item["outcome"] == "free_space" for item in grouped)
+            and (ROOT / path).is_file()
+        )
+    )
     blockers = []
     source_audit_complete = people_doc.get("summary", {}).get("audit_complete_and_reconciled") is True
     if not source_audit_complete and not scoped:
@@ -504,6 +550,42 @@ def person_record(person: dict[str, Any], decision: dict[str, Any], header: list
     place = ", ".join(filter(None, (clean(person.get("place")), clean(person.get("country")))))
     ids = ", ".join(person.get("record_ids") or [])
     captured = ", ".join(person.get("detail_captured_at") or [])
+    event_role = next((
+        clean((record.get("transcript_fields") or {}).get("Event type"))
+        for record in person.get("records") or []
+        if clean((record.get("transcript_fields") or {}).get("Event type"))
+    ), "")
+    source_grouping = any(
+        clean(fields.get("Event place"))
+        and clean(fields.get("Title") or fields.get("Publication title") or fields.get("Collection"))
+        and clean(fields.get("Event place")).casefold()
+        in clean(fields.get("Title") or fields.get("Publication title") or fields.get("Collection")).casefold()
+        for record in person.get("records") or []
+        for fields in [record.get("transcript_fields") or {}]
+    )
+    has_destination = any(
+        clean((record.get("transcript_fields") or {}).get("Destination"))
+        for record in person.get("records") or []
+    )
+    explicit_event_role = (
+        event_role
+        if event_role and not location_is_placeholder(place) and not source_grouping and not has_destination
+        else ""
+    )
+    reviewed_birth_place = clean(person.get("birth_location"))
+    transcript_birth_place = next((
+        clean((record.get("transcript_fields") or {}).get(label))
+        for record in person.get("records") or []
+        for label in ("Birth place", "Place of birth")
+        if clean((record.get("transcript_fields") or {}).get(label))
+    ), "")
+    raw_place = clean(person.get("place"))
+    usable_event_place = bool(
+        raw_place
+        and not location_is_placeholder(raw_place)
+        and not source_grouping
+        and not ("migration" in event_type.casefold() and not explicit_event_role)
+    )
     row = {key: "" for key in header}
     row.update({
         "person": person["name"], "profile_id": decision.get("profile_id", ""),
@@ -515,7 +597,10 @@ def person_record(person: dict[str, Any], decision: dict[str, Any], header: list
         "association": f"{event_type.title()} {event_date}".strip(),
         "note": f"Transcript-validated Glasgow-surname record. IDs: {ids}. Separate events/people are not merged without evidence.",
         "record_location": place, "record_precision": "Record-stated place",
-        "location_basis": "Findmypast transcript; no narrower location inferred.",
+        "location_basis": (
+            f"Findmypast transcript; explicit event type {explicit_event_role}; no narrower location inferred."
+            if explicit_event_role else "Findmypast transcript; no narrower location inferred."
+        ),
         "supplement_id": decision["supplement_id"],
         "source_title": source_title(person), "source_url": (person.get("source_urls") or [""])[0],
         "source_type": MANAGED_SOURCE_TYPE,
@@ -527,6 +612,17 @@ def person_record(person: dict[str, Any], decision: dict[str, Any], header: list
     })
     if event_type in {"birth", "baptism"}:
         row["birth_date"], row["birth_status"] = event_date, "documented"
+    if decision.get("outcome") == "new_person":
+        if reviewed_birth_place and not location_is_placeholder(reviewed_birth_place):
+            row["birth_location"] = reviewed_birth_place
+            if event_type not in {"birth", "baptism"}:
+                row["birth_status"] = "uncertain; inferred from documented context"
+        elif transcript_birth_place and not location_is_placeholder(transcript_birth_place):
+            row["birth_location"] = transcript_birth_place
+        elif usable_event_place:
+            row["birth_location"] = place
+            if event_type not in {"birth", "baptism"}:
+                row["birth_status"] = "uncertain; inferred from documented event"
     if event_type in {"death", "burial"}:
         row["death_date"], row["death_status"] = event_date, "documented"
     return row
@@ -534,13 +630,25 @@ def person_record(person: dict[str, Any], decision: dict[str, Any], header: list
 
 def render_draft(person: dict[str, Any], decision: dict[str, Any], match: dict[str, Any]) -> str:
     free_space = decision["outcome"] == "free_space"
-    status = "PRE-1500 FREE-SPACE SUBJECT — DO NOT CREATE A PERSON PROFILE" if free_space else f"{decision['creation_status']} TO CREATE"
+    pre1500_free_space = free_space and int(person.get("event_year_start") or 9999) < 1500
+    status = (
+        "PRE-1500 FREE-SPACE SUBJECT — DO NOT CREATE A PERSON PROFILE"
+        if pre1500_free_space else
+        "DOCUMENTARY FREE-SPACE SUBJECT — DO NOT CREATE A PERSON PROFILE"
+        if free_space else f"{decision['creation_status']} TO CREATE"
+    )
     candidates = match.get("candidates") or []
     relative_profiles: dict[str, str] = {}
     for candidate in candidates:
         comparisons = (candidate.get("evidence") or {}).get("relatives", {}).get("comparisons", [])
         for comparison in comparisons:
-            if comparison.get("exact_match") and clean(comparison.get("profile_id")):
+            # An exact name comparison is only a clue.  Link a relative in the
+            # biography only when the audit explicitly proves that identity.
+            if (
+                comparison.get("exact_match")
+                and comparison.get("identity_proven") is True
+                and clean(comparison.get("profile_id"))
+            ):
                 relative_profiles.setdefault(clean(comparison.get("role")), clean(comparison.get("profile_id")))
     records = person.get("records") or []
 
@@ -571,10 +679,13 @@ def render_draft(person: dict[str, Any], decision: dict[str, Any], match: dict[s
     baptism_date = transcript_value("Baptism date", "Christening date")
     death_date = transcript_value("Death date", "Date of death")
     burial_date = transcript_value("Burial date")
+    event_type = clean(person.get("event_type"))
+    event_role = transcript_value("Event type")
     event_place = ", ".join(filter(None, (clean(person.get("place")), clean(person.get("country")))))
     if not event_place:
         event_place = transcript_value("Destination", "Residence", "Parish", "County", "Country") or "place not stated"
-    birth_place = transcript_value("Birth place", "Place of birth")
+    reviewed_birth_place = clean(person.get("birth_location"))
+    birth_place = reviewed_birth_place or transcript_value("Birth place", "Place of birth")
     gender = transcript_value("Sex", "Gender") or "unknown"
     if birth_date:
         creation_birth = f"{birth_date} (recorded)"
@@ -583,8 +694,36 @@ def render_draft(person: dict[str, Any], decision: dict[str, Any], match: dict[s
     else:
         creation_birth = f"before {display_date(person)} (uncertain; inferred from the person's documented event)"
     creation_death = death_date or (f"before {burial_date}" if burial_date else "unknown")
-    creation_location = birth_place or event_place
-    location_basis = "recorded birth place" if birth_place else "uncertain; inferred from the person's documented event"
+    source_heading = transcript_value("Title", "Publication title", "Collection")
+    raw_place = clean(person.get("place"))
+    transcript_event_place = transcript_value("Event place")
+    source_grouping = bool(
+        source_heading
+        and any(
+            place.casefold() in source_heading.casefold()
+            for place in (raw_place, transcript_event_place)
+            if place and not location_is_placeholder(place)
+        )
+    )
+    explicit_residence = bool(
+        event_role.casefold() == "residence"
+        and raw_place
+        and not location_is_placeholder(event_place)
+        and not source_grouping
+        and not transcript_value("Destination")
+    )
+    if reviewed_birth_place and not location_is_placeholder(reviewed_birth_place):
+        creation_location = reviewed_birth_place
+        location_basis = "uncertain; inferred from documented context"
+    elif birth_place and not location_is_placeholder(birth_place):
+        creation_location = birth_place
+        location_basis = "recorded birth place"
+    elif "migration" in event_type.casefold() and not explicit_residence:
+        creation_location = "unknown"
+        location_basis = "not stated; a migration destination or source grouping is not a birthplace"
+    else:
+        creation_location = event_place
+        location_basis = "uncertain; inferred from the person's documented event"
 
     father = " ".join(filter(None, (
         transcript_value("Father's first name(s)", "Father first name"),
@@ -610,7 +749,6 @@ def render_draft(person: dict[str, Any], decision: dict[str, Any], match: dict[s
         transcript_value("Master first name"),
         transcript_value("Master last name"),
     )))
-    event_type = clean(person.get("event_type"))
     role = transcript_value("Role")
     subject_is_master = event_type == "apprenticeship" and role.casefold() == "master"
     def linked_relative(role: str, name: str) -> str:
@@ -648,13 +786,14 @@ def render_draft(person: dict[str, Any], decision: dict[str, Any], match: dict[s
 
     record_label = event_type if event_type.casefold().endswith("record") else f"{event_type} record"
     article = "an" if record_label[:1].casefold() in "aeiou" else "a"
-    narrative = f"'''{person['name']}''' appears in {article} {record_label} dated {display_date(person)} at {event_place}."
+    narrative_place = "an unspecified place" if location_is_placeholder(event_place) else event_place
+    narrative = f"'''{person['name']}''' appears in {article} {record_label} dated {display_date(person)} at {narrative_place}."
     if birth_date and baptism_date:
-        narrative = f"'''{person['name']}''' was born on {birth_date} and baptized on {baptism_date} at {event_place}."
+        narrative = f"'''{person['name']}''' was born on {birth_date} and baptized on {baptism_date} at {narrative_place}."
     elif birth_date:
-        narrative = f"'''{person['name']}''' has a recorded birth date of {birth_date} in a {record_label} associated with {event_place}."
+        narrative = f"'''{person['name']}''' has a recorded birth date of {birth_date} in a {record_label} associated with {narrative_place}."
     elif baptism_date:
-        narrative = f"'''{person['name']}''' was baptized on {baptism_date} at {event_place}."
+        narrative = f"'''{person['name']}''' was baptized on {baptism_date} at {narrative_place}."
     if event_type == "apprenticeship" and subject_is_master:
         trade = transcript_value("Trade")
         narrative = (
@@ -671,6 +810,21 @@ def render_draft(person: dict[str, Any], decision: dict[str, Any], match: dict[s
             + (f" in the {trade} trade" if trade else "")
             + f" to {master}."
         )
+    if len(records) > 1:
+        dated_entries = []
+        for record in sorted(
+            records,
+            key=lambda item: (item.get("event_year") or 9999, clean(item.get("event_date"))),
+        ):
+            fields = record.get("transcript_fields") or {}
+            entry_date = clean(record.get("event_date") or fields.get("Date") or fields.get("Year"))
+            description = clean(fields.get("Occupation") or fields.get("Description"))
+            dated_entries.append(
+                entry_date + (f" ({description})" if description else "")
+            )
+        narrative += " The consolidated entries are dated " + ", ".join(dated_entries) + "."
+        if "comparison hold" in clean(person.get("duplicate_group_reason")).casefold():
+            narrative += " These same-name entries are grouped for comparison only; they may describe more than one person."
     if (father and not subject_is_master) or mother:
         named = " and ".join(filter(None, (father_text, mother_text)))
         narrative += f" The record names {named} as the parent{'s' if father and mother else ''}."
@@ -688,7 +842,7 @@ def render_draft(person: dict[str, Any], decision: dict[str, Any], match: dict[s
         narrative += f" The father was recorded at {father_residence}."
     if father_occupation and father:
         narrative += f" The father's occupation was {father_occupation}."
-    if occupation and event_type != "apprenticeship":
+    if occupation and event_type != "apprenticeship" and len(records) == 1:
         narrative += f" The recorded occupation or trade was {occupation}."
     if role and event_type != "apprenticeship":
         narrative += f" The stated role was {role}."
@@ -706,8 +860,12 @@ def render_draft(person: dict[str, Any], decision: dict[str, Any], match: dict[s
         detail = "; ".join(f"{key}: {value}" for key, value in fields.items() if clean(value))
         refs.append(f'<ref name="FMP{index}">[{url} Findmypast transcript], {detail} (captured {clean(record.get("captured_at"))}).</ref>')
     ref_names = "".join(f'<ref name="FMP{index}" />' for index in range(1, len(refs) + 1))
-    heading = "Free-space identity fields" if free_space else "Minimum creation fields"
-    caution = "This file is a free-space research-page draft only. Never convert it to a pre-1500 person-profile draft." if free_space else "Attach only relationships stated by the record after confirming the relative profile identities; leave all other relationships blank."
+    heading = "Free-space evidence fields" if free_space else "Minimum creation fields"
+    caution = (
+        "This file is a supporting free-space research-page draft only. Never convert it to a person-profile draft."
+        if free_space else
+        "Attach only relationships stated by the record after confirming the relative profile identities; leave all other relationships blank."
+    )
     candidate_lines = []
     for item in candidates:
         profile_id = clean(item.get("profile_id"))
@@ -718,8 +876,15 @@ def render_draft(person: dict[str, Any], decision: dict[str, Any], match: dict[s
             f"* [[{profile_id}|{display_name}]] — "
             + ("; ".join(reasons) if reasons else "possible duplicate; the audit did not establish an identity bridge")
         )
-    candidate_assessment = "\n".join(candidate_lines) or "No compatible candidate was retained by the completed live WikiTree audit."
+    candidate_assessment = "\n".join(candidate_lines)
+    if not candidate_assessment and decision.get("creation_status") != "HOLD":
+        candidate_assessment = "No compatible candidate was retained by the completed live WikiTree audit."
     reviewed_note = clean(decision.get("notes"))
+    reviewed_note_label = (
+        "Reviewed HOLD reason" if decision.get("creation_status") == "HOLD"
+        else "Reviewed integration decision"
+    )
+    estimated_template = "{{Estimated Date}}\n" if estimated_vital(creation_birth, creation_death) else ""
     if decision.get("creation_status") == "HOLD":
         hold_reason = (
             "This draft is on '''HOLD''' because the following possible duplicate profile identities remain unresolved:"
@@ -756,6 +921,7 @@ def render_draft(person: dict[str, Any], decision: dict[str, Any], match: dict[s
 ## Paste-ready biography
 
 [[Category:Glasgow Name Study]]
+{estimated_template}
 
 == Biography ==
 
@@ -767,7 +933,7 @@ def render_draft(person: dict[str, Any], decision: dict[str, Any], match: dict[s
 
 {hold_reason}
 
-{("'''Reviewed HOLD reason:''' " + reviewed_note) if reviewed_note else ""}
+{("'''" + reviewed_note_label + ":''' " + reviewed_note) if reviewed_note else ""}
 
 {candidate_assessment}
 
@@ -777,9 +943,9 @@ The {len(person.get('record_ids') or [])} result ID(s) above represent one conse
 
 == Sources ==
 
-<references />
-
 {chr(10).join(refs)}
+
+<references />
 <!-- END FMP-GLASGOW-{person['group_id']} -->
 """
 
@@ -817,7 +983,7 @@ def export_rows(cutoff: int, people: list[dict[str, Any]], decisions: dict[str, 
     )]
     selected.sort(key=lambda p: (p.get("event_year_start") or 9999, p["name"], p["group_id"]))
     buffer = io.StringIO(newline="")
-    writer = csv.DictWriter(buffer, fieldnames=CSV_EXPORT_COLUMNS)
+    writer = csv.DictWriter(buffer, fieldnames=CSV_EXPORT_COLUMNS, lineterminator="\n")
     writer.writeheader()
     for person in selected:
         decision = decisions[person["group_id"]]
@@ -850,7 +1016,7 @@ def export_range(from_year: int, through_year: int, people: list[dict[str, Any]]
     selected = select_people(people, from_year=from_year, through_year=through_year)
     selected.sort(key=lambda p: (p.get("event_year_start") or 9999, p["name"], p["group_id"]))
     buffer = io.StringIO(newline="")
-    writer = csv.DictWriter(buffer, fieldnames=CSV_EXPORT_COLUMNS)
+    writer = csv.DictWriter(buffer, fieldnames=CSV_EXPORT_COLUMNS, lineterminator="\n")
     writer.writeheader()
     for person in selected:
         decision = decisions[person["group_id"]]
@@ -902,7 +1068,7 @@ def catalogue_audit_entry(person: dict[str, Any], decision: dict[str, Any],
         })
     if decision["outcome"] == "free_space":
         action = "do_not_create"
-        identity_status = "pre1500_free_space_subject"
+        identity_status = "free_space_only"
     elif decision["creation_status"] == "HOLD":
         action = "hold"
         identity_status = "candidate_review"
@@ -912,7 +1078,7 @@ def catalogue_audit_entry(person: dict[str, Any], decision: dict[str, Any],
     return {
         "identity_status": identity_status,
         "identity_note": (
-            "Pre-1500 documentary subject: maintain the individual free-space research page; never create a person profile."
+            "This evidence belongs on a supporting free-space research page; do not create a person profile from it."
             if decision["outcome"] == "free_space" else
             "No profile is confirmed. Creation remains on hold while listed candidates are unresolved."
             if decision["creation_status"] == "HOLD" and candidates else
@@ -931,14 +1097,14 @@ def catalogue_audit_entry(person: dict[str, Any], decision: dict[str, Any],
 def write_generated_draft(path: Path, content: str, group_id: str) -> bool:
     """Update our own draft, but preserve a pre-existing hand-edited draft."""
     if not path.exists():
-        path.write_text(content, encoding="utf-8")
+        atomic_write_text(path, content)
         return True
     old = path.read_text(encoding="utf-8")
     begin, end = f"<!-- BEGIN FMP-GLASGOW-{group_id} -->", f"<!-- END FMP-GLASGOW-{group_id} -->"
     if begin not in old or end not in old:
         return False
     pattern = re.compile(re.escape(begin) + r".*?" + re.escape(end), re.S)
-    path.write_text(pattern.sub(content.rstrip(), old), encoding="utf-8")
+    atomic_write_text(path, pattern.sub(content.rstrip(), old))
     return True
 
 
@@ -956,7 +1122,9 @@ def retire_obsolete_generated_drafts(
         end = f"<!-- END FMP-GLASGOW-{group_id} -->"
         begin = f"<!-- BEGIN FMP-GLASGOW-{group_id} -->"
         managed = re.fullmatch(re.escape(begin) + r".*" + re.escape(end) + r"\s*", text, re.S)
-        mapped = decisions.get(group_id, {}).get("outcome") == "existing_profile"
+        mapped = decisions.get(group_id, {}).get("outcome") in {
+            "existing_profile", "free_space",
+        }
         stale = group_id not in valid_group_ids
         if managed and (mapped or stale):
             path.unlink()
@@ -974,6 +1142,8 @@ def apply(plan: dict[str, Any], people_doc: dict[str, Any], matches_doc: dict[st
     scoped = before_year is not None or from_year is not None or through_year is not None
     people_by_id = {item["group_id"]: item for item in people}
     decisions = {item["group_id"]: item for item in plan["decisions"]}
+    people = [reviewed_person(person, decisions[person["group_id"]]) for person in people]
+    people_by_id = {item["group_id"]: item for item in people}
     matches = {item["group_id"]: item for item in matches_doc["people"]}
     valid_all_supplements = {
         clean(person.get("supplement_id")) or person["group_id"]
@@ -1011,9 +1181,12 @@ def apply(plan: dict[str, Any], people_doc: dict[str, Any], matches_doc: dict[st
         from_year, through_year,
         bool(plan["source_audit_complete_and_reconciled"]),
     ) for person in people]
-    with RECORDS_PATH.open("w", encoding="utf-8-sig", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=header)
-        writer.writeheader(); writer.writerows(preserved + generated)
+    atomic_write_csv(
+        RECORDS_PATH,
+        header,
+        preserved + generated,
+        lineterminator="\n",
+    )
     changed.append(str(RECORDS_PATH.relative_to(ROOT)))
 
     for person in people:
@@ -1026,7 +1199,12 @@ def apply(plan: dict[str, Any], people_doc: dict[str, Any], matches_doc: dict[st
             begin, end = f"<!-- BEGIN {tag} -->", f"<!-- END {tag} -->"
             section = f"{begin}\n{render_finding(person, decision).rstrip()}\n{end}"
             pattern = re.compile(re.escape(begin) + r".*?" + re.escape(end), re.S)
-            path.write_text((pattern.sub(section, old) if pattern.search(old) else old.rstrip() + "\n\n" + section + "\n"), encoding="utf-8")
+            updated = (
+                pattern.sub(section, old)
+                if pattern.search(old)
+                else old.rstrip() + "\n\n" + section + "\n"
+            )
+            atomic_write_text(path, updated)
         else:
             path = ROOT / decision["handoff_path"]
             path.parent.mkdir(parents=True, exist_ok=True)
@@ -1057,13 +1235,16 @@ def apply(plan: dict[str, Any], people_doc: dict[str, Any], matches_doc: dict[st
     latest = clean(plan.get("latest_detail_capture_at"))[:10]
     if latest > clean(profile_audit.get("audited_at")):
         profile_audit["audited_at"] = latest
-    PROFILE_AUDIT_PATH.write_text(json.dumps(profile_audit, ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    atomic_write_text(
+        PROFILE_AUDIT_PATH,
+        json.dumps(profile_audit, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
+    )
     changed.append(str(PROFILE_AUDIT_PATH.relative_to(ROOT)))
 
     queue_groups = {
         "existing_profile": ["### Existing-profile amendments", "", "| Target | Status | Work | Handoff |", "| --- | --- | --- | --- |"],
-        "new_person": ["### Unresolved identity handoffs", "", "HOLD rows are consolidation or existing-profile comparison work, not profiles to create. Only READY rows have passed the distinct-person and no-compatible-profile checks.", "", "| Target | Status | Work | Handoff |", "| --- | --- | --- | --- |"],
-        "free_space": ["### Pre-1500 free-space research (never person profiles)", "", "| Target | Status | Work | Handoff |", "| --- | --- | --- | --- |"],
+        "new_person": ["### New-person handoffs", "", "READY rows have passed the distinct-person and no-compatible-profile checks; documentary records that cannot define a safe person are routed to supporting free-space research below.", "", "| Target | Status | Work | Handoff |", "| --- | --- | --- | --- |"],
+        "free_space": ["### Supporting free-space research (never person profiles)", "", "| Target | Status | Work | Handoff |", "| --- | --- | --- | --- |"],
     }
     scope_heading = scope_label(before_year, from_year, through_year)
     incomplete_note = " Source scrape/transcript audit remains **INCOMPLETE**; this section covers only currently validated records." if not plan["source_audit_complete_and_reconciled"] else ""
@@ -1101,15 +1282,15 @@ def apply(plan: dict[str, Any], people_doc: dict[str, Any], matches_doc: dict[st
         # Remove only selected managed rows from a prior broader block; retain all later groups.
         if scoped:
             old = strip_group_rows_from_block(old, selected_supplements)
-        path.write_text(replace_block(old, body, block_tag), encoding="utf-8")
+        atomic_write_text(path, replace_block(old, body, block_tag))
         changed.append(str(path.relative_to(ROOT)))
 
     if from_year is not None and through_year is not None:
         csv_text, md_text = export_range(from_year, through_year, people, decisions)
         csv_path = ROOT / "research" / f"findmypast-glasgow-surname-{from_year}-{through_year}.csv"
         md_path = ROOT / "research" / f"findmypast-glasgow-{from_year}-{through_year}.md"
-        csv_path.write_text(csv_text, encoding="utf-8")
-        md_path.write_text(md_text, encoding="utf-8")
+        atomic_write_text(csv_path, csv_text)
+        atomic_write_text(md_path, md_text)
         changed += [str(csv_path.relative_to(ROOT)), str(md_path.relative_to(ROOT))]
     else:
         cutoffs = (1600, before_year) if before_year is not None else (1600, 1700, 1750)
@@ -1120,8 +1301,8 @@ def apply(plan: dict[str, Any], people_doc: dict[str, Any], matches_doc: dict[st
             )
             csv_path = ROOT / "research" / f"findmypast-glasgow-surname-pre{cutoff}.csv"
             md_path = ROOT / "research" / f"findmypast-glasgow-pre{cutoff}.md"
-            csv_path.write_text(csv_text, encoding="utf-8")
-            md_path.write_text(md_text, encoding="utf-8")
+            atomic_write_text(csv_path, csv_text)
+            atomic_write_text(md_path, md_text)
             changed += [str(csv_path.relative_to(ROOT)), str(md_path.relative_to(ROOT))]
 
     provenance = [
@@ -1133,7 +1314,7 @@ def apply(plan: dict[str, Any], people_doc: dict[str, Any], matches_doc: dict[st
         "No same-name people or separate events were merged by this materializer. Human decisions are auditable in the override file.", "",
     ]
     provenance_path = scoped_path(PROVENANCE_PATH, before_year, from_year, through_year)
-    provenance_path.write_text("\n".join(provenance), encoding="utf-8")
+    atomic_write_text(provenance_path, "\n".join(provenance))
     changed.append(str(provenance_path.relative_to(ROOT)))
     return sorted(set(changed))
 
@@ -1163,8 +1344,11 @@ def main() -> int:
         PLAN_JSON, args.before_year, args.from_year, args.through_year)
     plan_md = scoped_path(
         PLAN_MD, args.before_year, args.from_year, args.through_year)
-    plan_json.write_text(json.dumps(plan, ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf-8")
-    plan_md.write_text(plan_markdown(plan, people_by_id), encoding="utf-8")
+    atomic_write_text(
+        plan_json,
+        json.dumps(plan, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
+    )
+    atomic_write_text(plan_md, plan_markdown(plan, people_by_id))
     if args.apply:
         changed = apply(plan, people_doc, matches_doc)
         print(canonical({"applied": True, "changed_files": changed, "counts": plan["counts"]}))

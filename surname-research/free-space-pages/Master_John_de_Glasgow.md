@@ -1,127 +1,73 @@
 [[Category:Glasgow Name Study]]
-<small>'''Glasgow Name Study:''' [[Space:Glasgow Name Study|project home]] · [https://www.wikitree.com/wiki/Space:Bearers_of_the_%27%27de_Glasgu%27%27_Name_and_the_Emergence_of_the_Glasgow_Surname%2C_c.1175%E2%80%931500 chronological bearer register] · [[Space:Glasgow Research|research directory]] · [https://glasgow.phenotype.dev/catalogue research catalogue]</small>
-
-<small>'''Project status:''' individual pre-1500 documentary subject; architecture reviewed 29 August 2026. This is a free-space research page, not a WikiTree person profile.</small>
+<small>'''Glasgow Name Study:''' [[Space:Glasgow Name Study|project home]] · [[Space:Glasgow Research|research directory]] · [https://glasgow.phenotype.dev/ digital workbench]</small>
 
 
 {{One Name Study|name=Glasgow}}
-== Biography ==
 
-'''Master John de Glasgow''' (c. 1340 – before 1419) was an influential cleric in the Scottish church during the late 14th and early 15th centuries. Renowned for his academic achievements and ecclesiastical roles, his career intersected with prominent religious and political figures. He held multiple church positions, often moving between them through petitions to the papacy. His lasting contributions to the religious landscape of Scotland marked him as a key figure in church history during this period.
+== Current conclusion ==
 
-=== Early Life and Education ===
+'''Master John de Glasgow''' was a senior Scottish cleric documented between 1377 and 1412 and dead by 2 May 1419. His secure core is the same name and office—chancellor of the church of Dunkeld—in records of 1377 and 1384. Later records allow a cautious reconstruction through an exchange of benefices, service in Cardinal Walter Wardlaw's household, a Moray canonry, a 1406 safe-conduct and legal or proctorial work in 1412.
 
-While John de Glasgow’s exact birth year is unknown, by 1379 he was already active in ecclesiastical roles. He is first mentioned in records of Scottish students who were given safe-conduct passes to travel to England for study between 1360 and 1410,<ref>Scotland's Historic Records: Safe Conducts for Scholars, 1360–1410.</ref> suggesting that he was involved in academic pursuits early in life. His designation as "Master" indicates that he attained a high level of education, most likely in canon law and theology. His association with scholars and clerics reflects an intellectually rigorous background.
+The records do not establish a birth year or parents. He must remain separate from [[Space:John de Glasgu (royal account 1343)|the John de Glasgu paid in a royal account in 1343]], because no repeated office, associate, benefice or patron bridges the thirty-four-year gap.
 
-=== Ecclesiastical Career ===
+== Secure career core ==
 
-==== Vicar of St. Mary’s, Canon of Moray, and Kinkell ====
+* On 24 January 1377, a Glasgow episcopal charter named ''Johanne de Glasgu cancellario ecclesie Dunkeldensis''—John de Glasgu, chancellor of the church of Dunkeld.<ref name="John1377">''Registrum Episcopatus Glasguensis'', vol. I, p. 292; [https://archive.org/details/registrumepiscv175glasuoft Internet Archive].</ref>
+* On 2 June 1384, a Paisley instrument made at Dumbarton repeated the same personal name and chancellorship.<ref name="JohnDumbarton1384">''Registrum Monasterii de Passelet'' (Edinburgh, 1832), p. 331, instrument dated 2 June 1384; [https://archive.org/details/registrummonaste00mait Internet Archive].</ref>
 
-Between 1384 and 1410, John de Glasgow served as the '''Vicar of St. Mary’s''', Edrom, in Berwickshire, and '''Kinkell''' in Aberdeenshire. In 1384, he petitioned the Pope for a benefice in the gift of the Bishop of St Andrews.<ref>Calendar of Papal Registers Relating to Great Britain and Ireland, Volume 4: 1362–1404.</ref> In 1394, he sent four petitions to the Pope, requesting:
+The identical office makes these a high-confidence seven-year identity. In both records, ''de Glasgu'' is separate from the office.
 
-* A canonry in Moray
-* A canonry in Aberdeen
-* A canonry in St Andrews
-* A benefice under the patronage of the Bishop of St Andrews
+== Working reconstruction ==
 
-These petitions show his ambition and desire for influential positions within the Scottish church. He was referred to as a priest, honorary papal chaplain, and scholar of canon law at Avignon,<ref>Calendar of Papal Registers Relating to Great Britain and Ireland, Volume 4: 1362–1404.</ref> reflecting his distinguished ecclesiastical education and standing.
+Two safe-conduct entries dated 18 February 1379/80 and 7 December 1380 include John de Glasgow and Master John de Glasgow. They fit the chancellor's chronology and academic standing, but the current locator is a modern thesis appendix derived from an earlier unpublished thesis; the underlying enrolments still need direct verification.<ref name="JohnSafeConducts1380">Robert Nicholson, ''A Reconsideration of the influence of John Wycliffe, Wycliffism, Lollardy and Hussitism, upon 15th Century Scotland'' (M.Res. thesis, University of the Highlands and Islands, 2024), appendix entries for 18 February 1379/80 and 7 December 1380; [https://pureadmin.uhi.ac.uk/ws/portalfiles/portal/54736571/Robert_Nicholson_thesis.pdf UHI Research Database].</ref>
 
-==== Support from Prince David (Duke of Rothesay) ====
+A Glasgow cathedral instrument dated 19 October 1388 names ''Johanne de Glasgw canonico Aberdonensi''.<ref name="JohnAberdeen1388">''Registrum Monasterii de Passelet'' (Edinburgh, 1832), p. 340, instrument dated 19 October 1388; [https://archive.org/details/registrummonaste00mait Internet Archive].</ref> The name, date, senior clerical status and Glasgow setting make identity with the former Dunkeld chancellor probable, but the record does not repeat the chancellorship.
 
-John's petitions were further supported by '''Prince David''', Duke of Rothesay, the eldest son of '''King Robert III''', who backed him in his bid for a canonry of Dunkeld.<ref>Petitions to the Pope, 1342–1419, p. 590.</ref> This royal connection was an important factor in his career, helping him gain ecclesiastical positions and demonstrating his integration into both religious and political circles.
+Later papal evidence reports that John exchanged the Dunkeld canonry, prebend and chancellorship with John Lang for the vicarage of Obney or Auchtergaven around 1387 and that John belonged to Cardinal Walter Wardlaw's household.<ref name="JohnLang1413">''Petitions to the Pope, 1342–1419'', petition of John Lang, granted 19 August 1413; [https://www.british-history.ac.uk/no-series/petitions-to-pope/1342-1419/pp594-612 British History Online].</ref><ref name="JohnRetro1405">''Petitions to the Pope, 1342–1419'', Petitions, vol. XCVIII, petition of John de Retro, granted at Genoa, 24 May 1405.</ref> These notices are retrospective but strengthen the reconstruction.
 
-==== Exchange of Church Positions ====
+John was styled canon of Moray in 1404, included in a safe-conduct in 1406 and named as a priest acting in a legal or proctorial case in 1412.<ref name="JohnMoray">''Charters of the Abbey of Coupar Angus'', vol. II, instrument of 14 November 1404, naming ''Johanne de Glasgw canonico Morauiensi''; [https://digital.nls.uk/scottish-history-society-publications/browse/archive/126771087?mode=transcription National Library of Scotland].</ref><ref name="JohnSafeConduct1406">Sir Thomas Duffus Hardy, ed., ''Syllabus (in English) of the Documents Relating to England and Other Kingdoms Contained in the Collection Known as “Rymer's Foedera”'', vol. II, 1377–1654 (London, 1873), p. 556, entry dated 5 July 1406; [https://archive.org/details/bub_gb_835JAAAAYAAJ Internet Archive].</ref><ref name="John1412">Papal record concerning Thomas Traill, 17 August 1412; [https://deriv.nls.uk/dcn23/1266/1368/126613685.23.pdf National Library of Scotland].</ref>
 
-In '''1387''', John exchanged the perpetual vicarage of '''Auchtergaven''' (referred to as '''Obny''') in the Diocese of Dunkeld for the canonry, prebend, and chancellorship of Dunkeld with '''John Lang'''.<ref>Calendar of Scottish Supplications to Rome 1418–1422, p. 600.</ref> At the time of this exchange, John was a member of the household of '''Walter Wardlaw''', the Cardinal of Scotland and Bishop of Glasgow, indicating his close connection to one of Scotland’s most powerful churchmen.
+Obney was described as vacant by John's death outside the Roman Curia on 2 May 1419; a 1425 petition again referred to his death.<ref name="JohnDeath1419">E. R. Lindsay and A. I. Cameron, eds., ''Calendar of Scottish Supplications to Rome, 1418–1422'' (Edinburgh, 1934), p. 39.</ref><ref name="John1425">''Calendar of Scottish Supplications to Rome'', petition of John Malcolmi, Rome, 8 Id. September, year 8, register 190, fol. 46.</ref>
 
-By '''1405''', John had formally exchanged the canonry and prebend of Dunkeld for another benefice.<ref>Charters of the Abbey of Coupar Angus, Volume 2, p. 281.</ref>
+== Evidence assessment ==
 
-=== Legal and Ecclesiastical Involvement ===
+{| class="wikitable"
+! Group
+! Assessment
+|-
+| 1377 and 1384 Dunkeld chancellor
+| '''Secure same man'''
+|-
+| 1379/80 and 1380 safe-conducts
+| '''Compatible; primary enrolments still to verify'''
+|-
+| 1388 Aberdeen canon
+| '''Probable same man'''
+|-
+| 1405 and 1413 retrospective exchange notices
+| '''Material supporting evidence'''
+|-
+| 1404, 1406 and 1412 later career records
+| '''Compatible working reconstruction'''
+|-
+| 1419 and 1425 death notices
+| '''Dead by 2 May 1419'''
+|}
 
-John was actively involved in legal and ecclesiastical matters. In '''1412''', he acted as a proctor in a case for '''Thomas Traill''', referring to himself as a priest during this dispute.<ref>Petitions to the Pope, 1342–1419, pp. 508–509.</ref> Traill was engaged in a complex legal battle over church property, and John's involvement demonstrates his familiarity with ecclesiastical law and his standing within the church as a trusted figure in resolving disputes.
+== Unresolved identity and career claims ==
 
-Additionally, records from '''1406''' show that John was granted safe conduct alongside Sir William de Graham of Kincardine, Sir Walter Stewart (Seneschal of Scotland), and William Lauder, Archdeacon of Lothian. At the time, he held the position of '''Canon of Moray''', demonstrating his continued prominence in the church hierarchy.<ref>Scoti-Monasticon: The Ancient Church of Scotland, p. 123.</ref>
+John's birth about 1340, the vicarages of St Mary's Edrom and Kinkell, four 1394 petitions, support from Prince David and an association with William de Glasgu are possible research leads, but the cited record set does not establish them. William's 1394 petitions concern a separately named priest and do not connect him to John.
 
-=== Final Years and Death ===
+FamilySearch person GWZP-L6B claims that William de Glasgu (1370–1430) was John's son, but displays no attached historical sources and gives William a child born in 1360, ten years before William's displayed birth.<ref>[https://ancestors.familysearch.org/en/GWZP-L6B/william-de-glasgu-1370-1430 FamilySearch GWZP-L6B], checked as a tree-contamination source.</ref> The page is chronologically impossible as displayed and cannot corroborate a John-to-William relationship. Keep it on the watch list until an underlying document is produced.
 
+PoMS person 14528 concerns the separate Holyrood John of 1299, not this Dunkeld chancellor.
 
+== Related research ==
 
-A 1413 petition to the Pope recounts a tale of ''John Lang'' despoiling ''John Glasgow'' (1379 x 1419) of his canonry at Dunkeld<ref>https://www.british-history.ac.uk/no-series/petitions-to-pope/1342-1419/pp594-612</ref>. 
-
-<blockquote>
-
-'''[No rubric]'''  
-
-John Malcolmi, clerk of the Diocese of Dunkeld, petitions that the Pope provide him with the '''subdeanery of the Church of Dunkeld''', to which the '''canonry and prebend of Obey [Obny]''' are annexed.  
-
-* '''Fruits of the position:'''  
-** To a resident who takes part in divine offices with daily distributions: '''£16'''  
-** To a non-resident without distributions: '''£7 (old sterling)'''  
-
-The subdeanery, along with the attached canonry and prebend, has been unlawfully detained for '''approximately ten years''' by a certain '''William Croyser''', alleged priest and M.A. The position is considered '''void''' due to:  
-
-1. The '''death of John de Glasgu''', the former possessor, outside the jurisdiction of the Roman Court.  
-2. The '''simple resignation of William Croyser''' in Curia, submitted into the hands of the Pope before a notary public and witnesses.  
-3. Any other means by which the position may be deemed vacant.  
-
-::'''Fiat ut petitur. O. Fiat.'''  
-
-::Rome, '''S. Apostoli''', '''8 Id. Sept., anno 8.'''  
-::'''(Register reference: 190, 46 [½ p])'''  
-
-</blockquote>
-
-
-The exact date of John's death is uncertain. The '''Calendar of Scottish Supplications to Rome''' records that on '''2 May 1419''', the canonry and prebend of '''Obney''' in Dunkeld were declared void due to his death, which occurred "outwith the Curia," meaning outside the papal court's jurisdiction.<ref>Calendar of Scottish Supplications to Rome 1418–1422, p. 39.</ref> However, given that John Lang petitioned the Pope in '''1413''' concerning the exchange made with John de Glasgow twenty-six years earlier and seeking to regularize his own position, it's possible that John de Glasgow had died before '''1413'''.
-
-* Additionally,  between 1384 and 1394, '''William de Glasgu''', a priest, was bestowed with ecclesiastical responsibilities over the abbot and convent of Kilwinning & Kelso in 1394<ref>https://www.british-history.ac.uk/no-series/petitions-to-pope/1342-1419/pp588-590</ref>. His alternative names, ''Wan, Wau, or Walteri'', and his association with St. Mary's chapel link him to John de Glasgow (1379 - 1419).
-
-Due to the delay in communication and administrative processes of the time, vacancies were sometimes recorded years after a cleric's death. Therefore, while the vacancy was noted in 1419, John may have passed away several years prior.
-
-=== Legacy ===
-
-Master John de Glasgow’s life was a testament to his dedication to the church and scholarly pursuits. His career as a vicar, canon, and legal representative made him a key figure in the Scottish ecclesiastical landscape. His involvement in church petitions, benefice exchanges, and legal disputes showcases his influence and versatility as a clergyman. His associations with '''Cardinal Walter Wardlaw''' and '''Prince David''' highlight his connections to both religious and royal authorities, marking him as a crucial player in the religious and political dynamics of medieval Scotland.
-
-=== Key Dates and Events ===
-
-* '''1379–1390''': Mentioned among Scottish scholars traveling to England for academic purposes.
-* '''1384''': Petitioned the Pope for a benefice in the Diocese of St Andrews.
-* '''1387''': Exchanged the vicarage of Auchtergaven (Obny) for the canonry and chancellorship of Dunkeld.
-* '''1394–1410''': Served as Vicar of St. Mary's, Edrom, and Kinkell; sent multiple petitions to the Pope.
-* '''1405''': Exchanged his canonry and prebend of Dunkeld for another benefice.
-* '''1406''': Granted safe conduct as Canon of Moray.
-* '''1412''': Acted as proctor in the case involving Thomas Traill.
-* '''1413''': John Lang petitions the Pope regarding the exchange made with John.
-* '''Before 1419''': Death of Master John de Glasgow (exact date uncertain; vacancy noted in 1419).
-
-=== Unverified pedigree claim ===
-
-FamilySearch person [https://ancestors.familysearch.org/en/GWZP-L6B
-GWZP-L6B] presents William de Glasgu (1370–1430) as a son of Master John, but
-shows `Sources (0)` and no attached historical documents. It also displays a
-son, Master John Glasgow, born in 1360—ten years before William's displayed
-birth. This chronologically impossible, unsourced tree is not corroboration
-for the relationship. It is retained only as a source-recovery and
-contamination-watch lead.
+* [[Space:John de Glasgu (royal account 1343)|John de Glasgu, royal-account payee, 1343]]
+* [[Space:William de Glasgu (fl. 1394)|William de Glasgu, priest, 1394]]
+* [https://www.wikitree.com/wiki/Space:Bearers_of_the_%27%27de_Glasgu%27%27_Name_and_the_Emergence_of_the_Glasgow_Surname%2C_c.1175%E2%80%931500 Consolidated early-bearers register]
 
 == Sources ==
 
-* '''Calendar of Scottish Supplications to Rome 1418–1422''', edited by E.R. Lindsay and A.I. Cameron, Scottish History Society, Edinburgh, 1934.
-* '''Calendar of Papal Registers Relating to Great Britain and Ireland''', Volume 4: 1362–1404.
-* '''Charters of the Abbey of Coupar Angus''', Volume 2.
-* '''Petitions to the Pope, 1342–1419'''.
-* '''Scoti-Monasticon: The Ancient Church of Scotland''', History of the Cathedrals and Conventual Foundations.
-* '''People of Medieval Scotland (PoMS)''': [Master John de Glasgow](https://www.poms.ac.uk/record/person/14528/)
-* '''British History Online''': Various ecclesiastical records.
-
-== Notes ==
-
 <references />
-
-== Acknowledgments ==
-
-{{One Name Study|name=Glasgow}}
-
----
-
-*Note: Due to the limited and sometimes fragmented nature of medieval records, some details about Master John de Glasgow's life are based on interpretations of historical documents. The exact date of his death is uncertain, with some records suggesting he died before 1419.*

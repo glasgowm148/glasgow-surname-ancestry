@@ -19,6 +19,7 @@
 
 [[Category:Glasgow Name Study]]
 
+
 == Biography ==
 
 '''Thomas Glasgow''' was born on 12 Jan 1749 and baptized on 09 Feb 1749 at Edinburgh, Scotland. The record names John Glasgow and Eliz Morison as the parents. The father's occupation was Journeyman Weaver.<ref name="FMP1" />
@@ -39,7 +40,7 @@ The 1 result ID(s) above represent one conservative documentary group because: s
 
 == Sources ==
 
-<references />
-
 <ref name="FMP1">[https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0625636&tab=this Findmypast transcript], Archive reference: OPR 685_1/26; Baptism date: 09 Feb 1749; Baptism year: 1749; Birth date: 12 Jan 1749; Birth year: 1749; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Midlothian; Father's first name(s): John; Father's last name: Glasgow; Father's occupation: Journeyman Weaver; First name(s): Thomas; Item: 2; Last name: Glasgow; Mother's first name(s): Eliz; Mother's last name: Morison; Page: 107; Place: Edinburgh; Record set: Scotland, Parish Births & Baptisms 1564-1929; Register year range: 1748-1750; Subcategory: Parish Baptisms (captured 2026-09-03T22:06:58.881Z).</ref>
+
+<references />
 <!-- END FMP-GLASGOW-fmp-glasgow-37b7f7e8fed2 -->

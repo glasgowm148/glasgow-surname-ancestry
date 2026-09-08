@@ -2,37 +2,60 @@
 
 ## Current conclusion
 
-Glasgow-3539 is the best and sufficiently distinctive existing-profile match
-for Marie Glasgow, lawful child of John Glasgow, sailor in Saltcoats, and his
-widow Isobel Young. The name, precise locality, generation and otherwise sparse
-profile align; no competing Saltcoats Mary profile was found. Reuse this
-profile rather than create another Marie.
+Glasgow-3539 represents Mary Glasgow, wife of
+[[Montgomerie-601|James Montgomerie]], a sailor in Saltcoats in Ardrossan
+parish. The printed Glasgow Commissary testament index lists her under 24
+October 1677. The exact-name spouse, occupation and place make this a coherent
+profile identity, but the index is only an abbreviated finding aid: it does
+not state Mary's birth date, parents or exact death date.
 
-The currently attached Edward Glasgow and Catherine Hamilton are not the
-parents named by the testament. Preserve those uncertain links until profiles
-for the directly evidenced John and Isobel are ready, then replace both in the
-same structured edit. John's possible identity with [[Glasgow-1030]] remains
-on HOLD.
+Mary is not the Agnes Glasgow named in the corrected 1636/37 testament of John
+Glasgow, sailor in Saltcoats. That record names daughters Katherine and Agnes,
+not Marie or Mary. The former proposed mapping of Glasgow-3539 into John's
+household is withdrawn.
+
+The live profile currently estimates Mary's birth as 1613 at Saltcoats and
+attaches [[Glasgow-1557|Edward Glasgow]] and [[Hamilton-31734|Catherine
+Hamilton]] as parents. The 1677 index does not support those details. Preserve
+the date, location and attached parents while marking them uncertain; no
+sourced replacement values or parents are ready.
 
 ## Source findings
 
 | Source | Finding | Assessment |
 | --- | --- | --- |
-| [Scotland's People wills search](https://www.scotlandspeople.gov.uk/search-records/legal-records/wills), NRS CC9/7/27, images 478–480 | Testament dative of John Glasgow, sailor in Saltcoats; Isobel Young his widow; Katherine and Marie Glasgow `thair lawfull bairnes`; confirmed 11 April 1637. | Direct parent-child evidence and high-confidence record-to-profile identity. Death year is provisionally 1636 in the working transcription. |
-| Grant, *Commissariot Record of Glasgow*, entry dated 24 October 1677 | Mary Glasgow, wife of James Montgomerie, sailor in Saltcoats. | Strong later identity candidate by name, locality and sailor network; not yet proved to be this Marie. |
+| Francis J. Grant, ed., [https://archive.org/details/scottishrecordso07scotuoft/page/196/mode/2up?q=Glasgow%2C ''The Commissariot Record of Glasgow: Register of Testaments, 1547–1800''] (Edinburgh: Scottish Record Society, 1901), p. 196 | `Mary, spouse to James Montgomerie, sailor in Saltcoats, par. of Ardrossan 24 Oct. 1677.` | Direct index evidence for Mary's spouse and his occupation/place; the date is the register/index date, not a stated death date. The full testament has not been inspected. |
+| National Records of Scotland, Glasgow Commissary Court, CC9/7/27, register pp. 478–480; [https://www.scotlandspeople.gov.uk/search-records/legal-records/wills Scotland's People wills search] | John Glasgow, sailor in Saltcoats, died in December 1636; his widow was Isobell Gray and his lawful children were Katherine and Agnes Glasgow. | Directly excludes the proposed identification of Mary as a daughter named in this record. It does not address Mary Montgomerie's parentage. |
 
-## Relationship and duplicate assessment
+## Relationship and identity assessment
 
-- Father: John Glasgow, sailor in Saltcoats — directly proved, exact WikiTree
-  identity unresolved; [[Glasgow-1030]] is a possible candidate.
-- Mother: Isobel Young — directly proved; no compatible profile identified.
-- Sister: Katherine Glasgow — directly proved; no compatible profile found,
-  creation draft at `../../surname-research/new-people/1637_Scotland_Saltcoats_Katherine_Glasgow.md`.
-- Possible spouse: James Montgomerie — do not attach until the 1677 original
-  names a relative or otherwise bridges the identity.
+- **Spouse:** [[Montgomerie-601|James Montgomerie]] is directly named and
+  should remain attached. The index describes him as a sailor in Saltcoats.
+- **Father:** [[Glasgow-1557|Edward Glasgow]] is presently attached, but no
+  inspected source in this file proves the relationship. Preserve it as
+  uncertain until positive evidence identifies Mary's parents.
+- **Mother:** [[Hamilton-31734|Catherine Hamilton]] is presently attached, but
+  no inspected source in this file proves the relationship. Preserve it as
+  uncertain until positive evidence identifies Mary's parents.
+- **Birth:** About 1613 is an unsupported estimate in the current live
+  biography. Saltcoats is relevant through James's 1677 description but is not
+  explicitly stated as Mary's birthplace. Preserve both as uncertain rather
+  than blanking populated fields.
+- **1637 Saltcoats family:** no relationship is established. Mary is neither a
+  named daughter nor a substitute spelling for Agnes in the corrected reading.
 
 ## Recommended profile correction
 
-Use the complete replacement draft in `Glasgow-3539.md`. Reuse Glasgow-3539;
-do not create a duplicate Mary/Marie. Replace the attached parents only when
-the John and Isobel profile identities are ready to enter in the same edit.
+Use the complete citation-preserving replacement draft in `Glasgow-3539.md`.
+Retain [[Montgomerie-601|James Montgomerie]] as spouse. Keep the existing birth
+details and parent attachments uncertain until the full 1677 testament or
+another record supplies a supported replacement. Do not attach Mary to the
+1636/37 household of John Glasgow and Isobell Gray.
+
+## Next records
+
+1. Inspect the full testament registered under 24 October 1677 for Mary's
+   estate, relatives, residence, debts and any indication of age.
+2. Search Ardrossan kirk-session and parish material for Mary and James.
+3. Test the attached Edward Glasgow and Catherine Hamilton against original
+   records; preserve both links unless a sourced replacement is established.

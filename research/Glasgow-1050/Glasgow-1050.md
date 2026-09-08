@@ -1,11 +1,10 @@
 # Paste-ready replacement for Glasgow-1050
 
 ```wikitext
+[[Category:Glasgow Name Study]]
 {{Estimated Date}}
 
 == Biography ==
-
-{{One Name Study|name=Glasgow}}
 
 '''Andrew Glasgow''' was born about 1818 in County Antrim, Ireland. The detailed
 1851 census return directly calls him a son of [[Glasgow-1022|John Glasgow]] and

@@ -19,6 +19,7 @@
 
 [[Category:Glasgow Name Study]]
 
+
 == Biography ==
 
 '''Magdalen Glasgow''' was born on 22 Mar 1743 and baptized on 29 Mar 1743 at Irvine, Scotland. The record names George Glasgow and Margt as the parents.<ref name="FMP1" />
@@ -39,7 +40,7 @@ The 1 result ID(s) above represent one conservative documentary group because: s
 
 == Sources ==
 
-<references />
-
 <ref name="FMP1">[https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3575189&tab=this Findmypast transcript], Archive reference: OPR 595/1; Baptism date: 29 Mar 1743; Baptism year: 1743; Birth date: 22 Mar 1743; Birth year: 1743; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Ayrshire; Father's first name(s): George; Father's last name: Glasgow; First name(s): Magdalen; Item: 1; Last name: Glasgow; Mother's first name(s): Margt; Page: 57; Place: Irvine; Record set: Scotland, Parish Births & Baptisms 1564-1929; Register year range: 1687-1788; Subcategory: Parish Baptisms (captured 2026-09-03T23:39:13.907Z).</ref>
+
+<references />
 <!-- END FMP-GLASGOW-fmp-glasgow-10ad472195e9 -->

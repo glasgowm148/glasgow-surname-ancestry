@@ -15,7 +15,10 @@ import urllib.request
 from dataclasses import asdict
 import sync_onetree_irish_to_1850 as ireland_sync
 import sync_onetree_scotland_to_1700 as scotland_sync
-from project_paths import MAP_AUDIT_DIR, MAP_CACHE_DIR, MAP_RECORDS as CSV_PATH, merged_map_profiles
+from project_paths import (
+    MAP_AUDIT_DIR, MAP_CACHE_DIR, MAP_RECORDS as CSV_PATH,
+    atomic_write_csv, atomic_write_text, merged_map_profiles, relation_values,
+)
 
 
 CACHE_PATH = MAP_CACHE_DIR / "ireland_uk_geocodes.json"
@@ -91,13 +94,9 @@ def display_birth_year(profile: dict) -> tuple[int, str, bool]:
     birth_year = year(profile.get("BirthDate"))
     if birth_year:
         return birth_year, f"b. {birth_year}", False
-    spouses = profile.get("Spouses") or []
-    if isinstance(spouses, dict):
-        spouses = spouses.values()
     marriage_years = [
         year(spouse.get("MarriageDate") or spouse.get("marriage_date"))
-        for spouse in spouses
-        if isinstance(spouse, dict)
+        for spouse in relation_values(profile, "Spouses")
     ]
     marriage_years = [value for value in marriage_years if value]
     if marriage_years:
@@ -127,7 +126,7 @@ def events(profile: dict) -> list[tuple[str, str]]:
             result.append((field, corrected))
     result.extend(
         ("MarriageLocation", spouse.get("MarriageLocation") or spouse.get("marriage_location") or "")
-        for spouse in profile.get("Spouses") or []
+        for spouse in relation_values(profile, "Spouses")
     )
     return [(field, value) for field, value in result if value]
 
@@ -137,12 +136,7 @@ def surname_variant(profile: dict) -> bool:
 
 
 def spouse_profiles(profile: dict, profiles: dict, by_numeric_id: dict[str, dict]):
-    spouses = profile.get("Spouses") or []
-    if isinstance(spouses, dict):
-        spouses = spouses.values()
-    for spouse in spouses:
-        if not isinstance(spouse, dict):
-            continue
+    for spouse in relation_values(profile, "Spouses"):
         yield (
             by_numeric_id.get(str(spouse.get("Id") or ""))
             or profiles.get(spouse.get("Name"))
@@ -416,8 +410,9 @@ class Geocoder:
         self.last_request = 0.0
 
     def save(self) -> None:
-        CACHE_PATH.parent.mkdir(parents=True, exist_ok=True)
-        CACHE_PATH.write_text(json.dumps(self.cache, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+        atomic_write_text(
+            CACHE_PATH, json.dumps(self.cache, indent=2, ensure_ascii=False) + "\n"
+        )
 
     def lookup(self, region: str, location: str) -> dict:
         key = region + "|" + normalized(location)
@@ -587,10 +582,7 @@ def main() -> None:
         if place.get("source") == "country-fallback":
             fallback_ids.append(f"{name}|{region}|{event_location}")
 
-    with CSV_PATH.open("w", encoding="utf-8-sig", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=fieldnames)
-        writer.writeheader()
-        writer.writerows(rows)
+    atomic_write_csv(CSV_PATH, fieldnames, rows)
 
     missing = [name for _, name, _, _, _, _, _, _ in qualifying if name.lower() not in mapped_ids]
     audit = {
@@ -606,8 +598,9 @@ def main() -> None:
         "country_fallbacks": fallback_ids,
         "remaining_missing": missing,
     }
-    AUDIT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    AUDIT_PATH.write_text(json.dumps(audit, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    atomic_write_text(
+        AUDIT_PATH, json.dumps(audit, indent=2, ensure_ascii=False) + "\n"
+    )
     if missing:
         raise SystemExit(f"Audit failed: {len(missing)} associations remain missing")
     print(f"{len(qualifying)} qualifying profiles; added {len(added)}; {len(kin_inferred)} kin-inferred; {len(fallback_ids)} country fallbacks; 0 missing")

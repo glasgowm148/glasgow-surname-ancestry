@@ -18,10 +18,12 @@
 ## Paste-ready biography
 
 [[Category:Glasgow Name Study]]
+{{Estimated Date}}
+
 
 == Biography ==
 
-'''Helen Glasgow''' was baptized on 22 Dec 1668 at Linlithgow, Scotland. The record names John Glasgow and Agnes Daston as the parents.<ref name="FMP1" /><ref name="FMP2" />
+'''Helen Glasgow''' was baptized on 22 Dec 1668 at Linlithgow, Scotland. The consolidated entries are dated , 22 Dec 1668. The record names John Glasgow and Agnes Daston as the parents.<ref name="FMP1" /><ref name="FMP2" />
 
 == Research Notes ==
 
@@ -39,8 +41,8 @@ The 2 result ID(s) above represent one conservative documentary group because: r
 
 == Sources ==
 
-<references />
-
 <ref name="FMP1">[https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0476082&tab=this Findmypast transcript], Archive reference: OPR 668/2; Baptism date: 22 Dec 1668; Baptism year: 1668; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Linlithgowshire (West Lothian); Father's first name(s): John; Father's last name: Glasgow; First name(s): Helen; Item: 2; Last name: Glasgow; Mother's first name(s): Agnes; Mother's last name: Daston; Page: 231; Place: Linlithgow; Record set: Scotland, Parish Births & Baptisms 1564-1929; Register year range: 1656-1688; Subcategory: Parish Baptisms (captured 2026-09-03T22:06:52.618Z).</ref>
 <ref name="FMP2">[https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0501646&tab=this Findmypast transcript], Archive reference: OPR 668/14; Baptism year: -; Birth year: 1668; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Linlithgowshire (West Lothian); Father's first name(s): John; Father's last name: Glasgow; First name(s): Helen; Item: 4; Last name: Glasgow; Mother's first name(s): Agnes; Mother's last name: Easton; Page: 231; Place: Linlithgow; Record set: Scotland, Parish Births & Baptisms 1564-1929; Register year range: 1656-1688; Subcategory: Parish Baptisms (captured 2026-09-03T20:41:40.436Z).</ref>
+
+<references />
 <!-- END FMP-GLASGOW-fmp-glasgow-8d4bf08c43ec -->

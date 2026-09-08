@@ -18,6 +18,7 @@ Verify each claimed identity, relationship, date, and place against the underlyi
 
 - Treat documentary rows as evidence about people, not as profile identities. Before creating or queueing anything, cluster compatible records into the fewest defensible people and search whether each cluster fits an existing WikiTree profile.
 - Prefer adding a compatible fact to an existing profile. Create a new profile only when the evidence defines a distinct person and a completed duplicate audit finds no compatible profile; if identity is ambiguous or candidate profiles remain, keep one consolidated evidence handoff on **HOLD**. Never create one profile or draft per fact.
+- Treat automated same-name candidate scores as leads, not as surviving compatible profiles. When a manual review has explicitly excluded every returned candidate, documented each exclusion, and produced a complete sourced draft for a distinct person, mark the draft **READY TO CREATE**; a later audit must not restore **HOLD** solely from the same unreviewed name/place score.
 - In a batch duplicate audit, compare exact dates, places, named relatives, occupations and residences before counting proposed people. Consolidate compatible repeated records into one person/HOLD, and document any index-date or spelling conflict instead of creating parallel identities from it.
 - Search WikiTree before reporting on each named historical person, using name variants, dates, places, relatives, the local One Tree export when relevant, and the live WikiTree API.
 - Never create, queue, or prepare a WikiTree person-profile draft for a pre-1500 person. Give each distinct pre-1500 record bearer an individual WikiTree free-space page instead, and link that page from the consolidated early-bearers free-space page. If the individual page does not yet exist, prepare a free-space-page draft outside `surname-research/new-people/`; if it exists, improve and cross-link it. Pre-1500 people remain documentary subjects, not profile-creation tasks.
@@ -117,6 +118,11 @@ Verify each claimed identity, relationship, date, and place against the underlyi
   supplied the location; do not present it as the actual place of birth or
   death. Leave a location blank only when neither the biography nor the
   documented immediate-family context supplies any usable place.
+- Keep creation drafts and catalogue search rows consistent. When a draft
+  supplies a usable uncertain birth location from a documented non-migration
+  life event, carry it into generated person data, the search index, and the
+  visible birth-location column. Continue to exclude migration destinations
+  and source-grouping places that are not evidence of the person's location.
 
 - The project's `surname-research/new-people/` directory is for **Glasgow-surname people only**. Do not create drafts there for landlords, witnesses, spouses, co-tenants, or other associates with different surnames unless the user explicitly requests an exception.
 - Do not place pre-1500 people in `surname-research/new-people/`. Maintain one individual free-space page per distinct bearer and cross-link it from the consolidated early-bearers page instead.

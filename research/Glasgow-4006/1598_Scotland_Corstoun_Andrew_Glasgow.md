@@ -1,51 +1,45 @@
-# Created profile: [Andrew Glasgow (Glasgow-4006)](https://www.wikitree.com/wiki/Glasgow-4006), son of Andrew of Corstoun
+# Correction draft: [[Glasgow-4006|Andrew Glasgow]]
 
-Created 19 August 2026 and attached to Glasgow-3163 as a Confident,
-testament-proved son. Mother left blank.
+The editorial action and identity warning are recorded in `findings.md`; the
+text from the category onward is the neutral, paste-ready profile replacement.
 
-{{Estimated Date}}
 [[Category:Glasgow Name Study]]
 
 == Biography ==
 
-'''Andrew Glasgow''' was one of the four children of [[Glasgow-3163|Andrew Glasgow of Corstoun]]. His father's testament names "Marioune James Andro and Williame his said four bairnis." The same testament separately identifies [[Anderson-103463|Jonet Andersone]] as the elder Andrew's spouse, but does not expressly call her the children's mother.<ref>National Records of Scotland, Commissary Court of Edinburgh, CC8/8/32, testament testamentar and inventory of Andro Glasgw in Corstoun, made 6 February 1597 as written and registered in 1598; family clause: "Marioune James Andro and Williame his said four bairnis." See also ''Commissariot of Edinburgh, Register of Testaments, 1514-1600'', [https://archive.org/details/scottishrecordso01scotuoft/page/n117/mode/1up p. 108], index entry dated 10 July 1598.</ref>
+No historical Andrew Glasgow corresponding to this profile has been identified.
+The cited testament of [[Glasgow-3163|Andrew Glasgow of uncertain Corsoun]] does
+not name a son Andrew. It instead identifies Elizat Stevinsoun as his wife,
+expressly calls Robert Glasgow their son, and names daughters Marion, Janet and
+Isobel.<ref name="Andrew1598">National Records of Scotland, Edinburgh
+Commissary Court, CC8/8/32, images 123–124, testament testamentar and inventory
+of Andro Glasgw, made 6 February 1597/8, death stated as 7 February, confirmed
+10 July 1598; corrected working transcription of the original register images.
+Printed index: Scottish Record Society, ''Commissariot of Edinburgh: Register
+of Testaments, 1514–1600'', [https://archive.org/details/scottishrecordso01scotuoft/page/n117/mode/1up
+p. 108].</ref>
 
 == Research Notes ==
 
-{| class="wikitable" style="padding:5px; width:100%;"
-|+ '''Suggested creation data'''
-|-
-! style="background-color:#E1F0B4;" | Field
-! style="background-color:#E1F0B4;" | Entry
-! style="background-color:#E1F0B4;" | Status
-|-
-| Birth
-| Before 6 February 1597; place unknown
-| Estimated and uncertain
-|-
-| Death
-| After 6 February 1597; place unknown
-| Estimated and uncertain
-|-
-| Father
-| [[Glasgow-3163|Andrew Glasgow of Corstoun]]
-| Certain from the testament
-|-
-| Mother
-| Unknown; leave blank
-| [[Anderson-103463|Jonet Andersone]] was the father's certain spouse, but maternity is not expressly stated
-|}
+This profile was created on 19 August 2026 because an earlier transcription
+read a group as “Marioune James Andro and Williame his said four bairnis.” That
+reading supplied the entire identity, estimated dates and relationship. The
+corrected family clauses are:
 
-The testament gives no age, birth order, spouse, later residence or children. Do not identify him with the Andrew Glasgow in Woodhead mentioned in a 1645 testament without another record bridging the names.
+<blockquote>“Robart Glasgw his sone begottin be him vpoun the said Elizat his
+wyff”</blockquote>
 
-The same clause also names Marioune, James and William. [[Glasgow-3062|Marion Glasgow]] and [[Glasgow-991|James Glasgow]] are only identity candidates for the first two names; do not attach those particular profiles as siblings without a separate bridge. The testament-named William is represented by a separate new-profile draft.
+and, in the later dispositive clause,
 
-Duplicate audit, 19 July 2026: the live WikiTree API returned 34 exact
-Andrew-Glasgow matches. The only pre-1600 result was the father
-[[Glasgow-3163|Andrew Glasgow of Corstoun]] himself; the next earliest distinct
-Andrew was [[Glasgow-1319|Andrew Glasgow]], born about 1645, too late to be a
-named child in the 1597 testament. The father's live children and each existing
-early Andrew profile were checked. No existing profile represents this son.
+<blockquote>“his said sone and his said [dochter… struck through] Marione,
+Jonet, Isobell”</blockquote>
+
+No independent record has been found for an Andrew matching the identity
+created here. The supposed parent relationship and estimated vital dates were
+derived entirely from the superseded reading. This profile is therefore an
+error record pending WikiTree team resolution. Reusing it as Robert or another
+child would obscure the origin of the profile and bypass the separate duplicate
+review for each proved child.
 
 == Sources ==
 

@@ -1,8 +1,14 @@
 # Findings: [Nathaniel Glasgow M.A. (Glasgow-1136), Presbyterian minister, died 1743](https://www.wikitree.com/wiki/Glasgow-1136)
 
-Last updated: 2026-08-19
+Last updated: 2026-09-08
 
 ## Current conclusion
+
+The Findmypast/Dobson record `US/GPC/02394306` is a high-confidence match to
+this profile. Its underlying entry is Nathaniel's 1707 M.A. graduation at the
+University of Glasgow and describes him as `Scoto-Hibernus`. “Scots-Irish” is
+the source title, not evidence of United States residence. The live biography
+already records the graduation; use this as confirming evidence only.
 
 The profile's present 1732 death is wrong. Contemporary Synod minutes report
 that Nathaniel Glasgow died in **April 1743**. Later Synod assistance to the
@@ -31,6 +37,7 @@ installation at Golan in 1732.
 
 | Source | Finding | Assessment |
 | --- | --- | --- |
+| David Dobson, *Scots-Irish Links, 1575–1725*, parts 1–2; [Findmypast record `US/GPC/02394306`](https://www.findmypast.co.uk/transcript?id=US%2FGPC%2F02394306&tab=this) | Nathaniel Glasgow graduated M.A. at the University of Glasgow in 1707 and was described as `Scoto-Hibernus`. | High-confidence match to `Glasgow-1136`; confirms an existing event. Neither the United States collection grouping nor the source title is a residence. |
 | [Records of the General Synod of Ulster](https://archive.org/stream/recordsofgeneral02pres/recordsofgeneral02pres_djvu.txt) | Nathaniel's death was reported in April 1743; a poor widow `Glasgow` later received assistance; in 1748 support was given to the `children of Mr Glasgow, deceased`. | Direct contemporary evidence for death month/year, widow and at least two children; no names or burial place. |
 | Irish probate index transcription supplied July 2026; represented in the [map data](../../map/glasgow_family_records_stable_slider.csv) | Nathaniel Glasgow, Clogher probate, 1746; residence `Cavan, Donaghcavey` (also indexed Cavan, County Tyrone). | Strong identity match to the minister formerly at Golen/Fintona; the index supplies no relatives. |
 | [Records of the General Synod of Ulster, vol. 1](https://archive.org/stream/recordsofgeneral01pres/recordsofgeneral01pres_djvu.txt) | Nathaniel was on first trials under Monaghan by 1715; on second trials under Augher in 1718, designed for America; and listed as ordained to go to America on 3 February 1718/19. | Contemporary published Synod record. Corrects the claim that Monaghan ordained him in 1719. |
@@ -114,3 +121,19 @@ the secondary claim, which says **Keady, County Donegal** and remains unverified
 Do not restore the former Glasgow birthplace. If the secondary claim is retained
 as a structured value, use **Keady, County Donegal, Ireland**, marked uncertain,
 and do not confuse it with Keady in County Armagh.
+
+<!-- BEGIN FMP-GLASGOW-fmp-glasgow-57e604589b8e -->
+## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-57e604589b8e
+
+The transcript-validated residence/migration record for **Nathaniel Glasgow**, 1707, University of Glasgow, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
+
+## Source findings
+
+- [US/GPC/02394306 Findmypast transcript](https://www.findmypast.co.uk/transcript?id=US%2FGPC%2F02394306&tab=this): Author: Dobson; Category: Travel & migration; Collection: United States, Transatlantic Migration; Collections from: Americas, United States; Country: United States; Event place: Scots-Irish; Event type: Residence; Event year: 1707; First name(s): Nathaniel; Last name: Glasgow; Principal's first name(s): Nathaniel; Principal's last name: Glasgow; Record set: United States, Transatlantic Migration Indexes; Relationship: Principal; Residence year: 1707; Sex: Male; State: -; Subcategory: Migration; Title: Scots-Irish Links, 1575-1725, Pts 1 & 2 (captured 2026-09-03T20:36:57.703Z).
+- Findmypast record IDs: `US/GPC/02394306`.
+- Stable research/source ID: `fmp-glasgow-57e604589b8e`.
+
+## Recommended action — fmp-glasgow-57e604589b8e
+
+Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
+<!-- END FMP-GLASGOW-fmp-glasgow-57e604589b8e -->

@@ -1,3 +1,5 @@
+> **READY TO CREATE.** No compatible WikiTree profile was found after duplicate review.
+
 # Lindsey Glasgow of Inishrush, 1882
 
 ## Minimum creation fields
@@ -5,7 +7,7 @@
 - **Proper first name:** Lindsey
 - **Last name at birth:** Glasgow
 - **Sex:** male
-- **Born:** before 21 November 1882, uncertain; place unknown
+- **Born:** before 21 November 1882, uncertain; Inishrush, Tamlaght O'Crilly, County Londonderry, Ireland, uncertain and inferred from his documented residence there
 - **Living:** 21 November 1882 at Inishrush, Tamlaght O'Crilly, County Londonderry, Ireland
 - **Died:** after 21 November 1882, uncertain; place unknown
 - **Parents, spouse and children:** unknown
@@ -25,6 +27,8 @@ No record yet found names Lindsey and William's parents. The Tamlaght O'Crilly L
 == Research Notes ==
 The civil return spells the name '''Lindsey'''. Searches should also use '''Lindsay'''. No birth, marriage, death, probate, census, church, newspaper or gravestone record has yet been found that identifies his parents, spouse, children or later whereabouts.
 
+Lindsey's actual birthplace is unknown. Inishrush is suitable only as an uncertain creation-field location inferred from the civil return that directly records him there in 1882.
+
 == Sources ==
 <references />
 
@@ -33,4 +37,3 @@ The civil return spells the name '''Lindsey'''. Searches should also use '''Lind
 Live WikiTree person searches for `Lindsey Glasgow` and `Lindsay Glasgow`, including first- and last-name variants and profiles without dates, returned no match on 29 August 2026. The local One Tree evidence capture and project research were also searched; the only unrelated hits were American people who used Lindsay as a given or middle name.
 
 The 1882 civil return distinguishes this man by exact residence, date and relationship. Create him as a separate unconnected profile and link [[Glasgow-4022|William Glasgow]] in the biography. Do not attach parents merely to create a structural sibling edge.
-

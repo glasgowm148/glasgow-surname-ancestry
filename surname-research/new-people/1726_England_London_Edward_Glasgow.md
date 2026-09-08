@@ -18,10 +18,12 @@
 ## Paste-ready biography
 
 [[Category:Glasgow Name Study]]
+{{Estimated Date}}
+
 
 == Biography ==
 
-'''Edwd Glasgow''' appears in a Rate Books record dated 1726 at London, England. The transcript's address states: “Palsgrave Place”. The transcript's parish states: “St Clement Danes”. The transcript's house number states: “6”. The transcript's folio number states: “3”. The transcript's notes states: “Overseers Accounts 1726 Poor Rates 1859-1860”.<ref name="FMP1" /><ref name="FMP2" /><ref name="FMP3" />
+'''Edwd Glasgow''' appears in a Rate Books record dated 1726 at London, England. The consolidated entries are dated 1726, 1726, 1726. The transcript's address states: “Palsgrave Place”. The transcript's parish states: “St Clement Danes”. The transcript's house number states: “6”. The transcript's folio number states: “3”. The transcript's notes states: “Overseers Accounts 1726 Poor Rates 1859-1860”.<ref name="FMP1" /><ref name="FMP2" /><ref name="FMP3" />
 
 == Research Notes ==
 
@@ -29,7 +31,7 @@ Attach only relationships stated by the record after confirming the relative pro
 
 The completed live WikiTree audit retained no compatible profile candidate.
 
-'''Reviewed HOLD reason:''' One reviewed documentary identity consolidating the duplicate house 6/folio 3 indexes and the adjacent house 7 assessment in St Clement Danes; no compatible WikiTree profile was found.
+'''Reviewed integration decision:''' One reviewed documentary identity consolidating the duplicate house 6/folio 3 indexes and the adjacent house 7 assessment in St Clement Danes; no compatible WikiTree profile was found.
 
 No compatible candidate was retained by the completed live WikiTree audit.
 
@@ -39,9 +41,9 @@ The 3 result ID(s) above represent one conservative documentary group because: r
 
 == Sources ==
 
-<references />
-
 <ref name="FMP1">[https://www.findmypast.co.uk/transcript?id=GBOR%2FWESTMINSTER_RATEBOO%2F9492920%2F3&tab=this Findmypast transcript], Address: Palsgrave Place; Category: Census, land & surveys; Collections from: England, Great Britain; Country: England; County: London; Date: 1726; First name(s): Edwd; Folio number: 3; House number: 6; Last name: Glasgow; Notes: Overseers Accounts 1726 Poor Rates 1859-1860; Occupier's first name(s): Edwd; Occupier's last name: Glasgow; Parish: St Clement Danes; Record set: Westminster Rate Books 1634-1900; Subcategory: Rate Books; Year: 1726 (captured 2026-09-03T21:36:30.475Z).</ref>
 <ref name="FMP2">[https://www.findmypast.co.uk/transcript?id=GBOR%2FWESTMINSTER_RATEBOO%2F9494667%2F3&tab=this Findmypast transcript], Category: Census, land & surveys; Collections from: England, Great Britain; Country: England; County: London; Date: 1726; First name(s): Edward; Folio number: 4; House number: 7; Last name: Glasgow; Notes: Overseers Accounts 1726 Poor Rates 1859-1860; Occupier's first name(s): Edward; Occupier's last name: Glasgow; Parish: St Clement Danes; Record set: Westminster Rate Books 1634-1900; Subcategory: Rate Books; Year: 1726 (captured 2026-09-03T21:36:20.616Z).</ref>
 <ref name="FMP3">[https://www.findmypast.co.uk/transcript?id=GBOR%2FWESTMINSTER_RATEBOO%2F9497118%2F3&tab=this Findmypast transcript], Category: Census, land & surveys; Collections from: England, Great Britain; Country: England; County: London; Date: 1726; First name(s): Edward; Folio number: 3; House number: 6; Last name: Glasgow; Notes: Overseers Accounts 1726 Poor Rates 1859-1860; Occupier's first name(s): Edward; Occupier's last name: Glasgow; Parish: St Clement Danes; Record set: Westminster Rate Books 1634-1900; Subcategory: Rate Books; Year: 1726 (captured 2026-09-03T21:36:12.323Z).</ref>
+
+<references />
 <!-- END FMP-GLASGOW-fmp-glasgow-e0a45e457988 -->

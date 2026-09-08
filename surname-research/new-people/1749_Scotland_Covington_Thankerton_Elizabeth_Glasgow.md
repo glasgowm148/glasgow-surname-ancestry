@@ -18,6 +18,8 @@
 ## Paste-ready biography
 
 [[Category:Glasgow Name Study]]
+{{Estimated Date}}
+
 
 == Biography ==
 
@@ -29,7 +31,7 @@ Attach only relationships stated by the record after confirming the relative pro
 
 The completed live WikiTree audit retained no compatible profile candidate.
 
-'''Reviewed HOLD reason:''' The 1749 Covington and Thankerton baptism naming mother Isobel Glasgow conflicts with all candidates.
+'''Reviewed integration decision:''' The 1749 Covington and Thankerton baptism naming mother Isobel Glasgow conflicts with all candidates.
 
 * [[Glasgow-1232|Elizabeth]] — no exact full event-date bridge; no exact locality bridge; named record relatives do not all resolve exactly on the profile
 * [[Glasgow-896|Elizabeth]] — no exact full event-date bridge; no exact locality bridge; named record relatives do not all resolve exactly on the profile
@@ -40,7 +42,7 @@ The 1 result ID(s) above represent one conservative documentary group because: s
 
 == Sources ==
 
-<references />
-
 <ref name="FMP1">[https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3881470&tab=this Findmypast transcript], Archive reference: OPR 634/3; Baptism date: 15 Jun 1749; Baptism year: 1749; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Lanarkshire; First name(s): Elizabeth; Item: 3; Last name: Glasgow; Mother's first name(s): Isobel; Mother's last name: Glasgow; Page: 266; Place: Covington & Thankerton; Record set: Scotland, Parish Births & Baptisms 1564-1929; Register year range: 1652-1767; Residence: ?; Subcategory: Parish Baptisms (captured 2026-09-03T23:46:58.051Z).</ref>
+
+<references />
 <!-- END FMP-GLASGOW-fmp-glasgow-d96763598f21 -->

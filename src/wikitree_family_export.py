@@ -251,22 +251,41 @@ def post_wikitree(payload: dict[str, str]) -> dict[str, Any]:
                 timeout=REQUEST_TIMEOUT_SECONDS,
                 headers=WIKITREE_REQUEST_HEADERS,
             )
-            if response.headers.get("x-amzn-waf-action", "").lower() == "challenge":
-                raise ExportError(
-                    "WikiTree's AWS WAF challenged the API request before it "
-                    "reached api.php (HTTP 202). Retry later or use the public "
-                    "profile-page capture fallback."
-                )
-            if response.status_code != 429:
-                response.raise_for_status()
-                break
-            retry_after = response.headers.get("Retry-After")
-            delay = float(retry_after) if retry_after else 2.0 ** (attempt + 1)
-            time.sleep(min(delay, 60.0))
         except requests.RequestException as exc:
-            raise ExportError(f"WikiTree API request failed: {exc}") from exc
-    else:
-        raise ExportError("WikiTree API rate limit persisted after five retries.")
+            if attempt == 4:
+                raise ExportError(
+                    f"WikiTree API request failed after five attempts: {exc}"
+                ) from exc
+            time.sleep(min(2.0 ** (attempt + 1), 60.0))
+            continue
+
+        if response.headers.get("x-amzn-waf-action", "").lower() == "challenge":
+            raise ExportError(
+                "WikiTree's AWS WAF challenged the API request before it "
+                "reached api.php (HTTP 202). Retry later or use the public "
+                "profile-page capture fallback."
+            )
+
+        retryable = response.status_code == 429 or response.status_code >= 500
+        if retryable and attempt < 4:
+            retry_after = response.headers.get("Retry-After")
+            try:
+                delay = (
+                    max(0.0, float(retry_after))
+                    if retry_after
+                    else 2.0 ** (attempt + 1)
+                )
+            except (TypeError, ValueError):
+                delay = 2.0 ** (attempt + 1)
+            time.sleep(min(delay, 60.0))
+            continue
+
+        try:
+            response.raise_for_status()
+        except requests.RequestException as exc:
+            qualifier = " after five attempts" if retryable else ""
+            raise ExportError(f"WikiTree API request failed{qualifier}: {exc}") from exc
+        break
 
     if response is None:
         raise ExportError("WikiTree API request produced no response.")

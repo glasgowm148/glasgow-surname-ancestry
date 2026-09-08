@@ -20,9 +20,9 @@ automatic instructions to create parent links or merge profiles.
 | [Jonat Glasgow (Glasgow-3262)](https://www.wikitree.com/wiki/Glasgow-3262) | Possible daughter of [Ninian Glasgow (Glasgow-3188)](https://www.wikitree.com/wiki/Glasgow-3188) and [Jonet Meik (Meik-14)](https://www.wikitree.com/wiki/Meik-14) | **Moderate working placement.** Ninian and Jonet are the correct generation; Jonat repeats her mother's name. Her daughter Agnes was baptised at Mid Calder in 1609. Ninian's possible son William later lived in Leith, supplying a tentative eastward Lothian connection. Neither parental testament calls Jonat a daughter. |
 | [Barbara Glasgow (Glasgow-3182)](https://www.wikitree.com/wiki/Glasgow-3182) | Possible daughter/niece of Ninian; possible same woman as Glasgow-567 and Glasgow-3302 | **Moderate branch placement; identity open.** Her 1611 South Leith entry fits the locality of Ninian's possible son William. The three adult Barbara records form a chronologically possible sequence: Catharine Little's birth on 9 September 1611, Wilson proclamation/marriage on 20 September or 26 November, and Johnstoun marriage in 1616. Original wording and Wilson's fate are needed before merge. |
 | [Margaret Glasgow (Glasgow-3598)](https://www.wikitree.com/wiki/Glasgow-3598) | Possible daughter/niece of Ninian | **Moderate cluster placement.** She married cordiner William Hardie in Edinburgh in 1611; Ninian's proved son Robert was himself a cordiner. |
-| [Isobel Glasgow (Glasgow-3336)](https://www.wikitree.com/wiki/Glasgow-3336) | Possible daughter/niece of Ninian | **Moderate cluster placement.** She married tailor William Symountoun in Edinburgh in 1619, within the same small craft-marriage group as Margaret and Barbara. |
+| [Isobel Glasgow (Glasgow-3336)](https://www.wikitree.com/wiki/Glasgow-3336) | Possible testament-named daughter of [Andrew Glasgow (Glasgow-3163)](https://www.wikitree.com/wiki/Glasgow-3163); alternatively daughter/niece of Ninian | **Open identity comparison.** Andrew's 1597/8 will names a daughter Isobel. This profile's 1619 Edinburgh marriage and compatible generation make her a candidate, but the will supplies no spouse or later residence and the Edinburgh craft network still permits another family. |
 | [Barbara Glasgow (Glasgow-3302)](https://www.wikitree.com/wiki/Glasgow-3302) | Possible daughter/niece of Ninian; possible later identity of Glasgow-3182/567 | **Moderate branch placement; identity open.** Her husband George Johnstoun was a cordiner, matching the trade of Ninian's son Robert. |
-| [Jonet Glasgow (Glasgow-3183)](https://www.wikitree.com/wiki/Glasgow-3183) | Probable older daughter of [James Glasgow (Glasgow-991)](https://www.wikitree.com/wiki/Glasgow-991) | **Moderate-to-strong working placement.** James is the only identified Glasgow father repeatedly recorded at Mid Calder (children there in 1605, 1610 and 1616); Jonet married there in 1624 and her name fits James's proposed mother Jonet Anderson. Andrew of Corstoun's testament expressly lists four children and excludes Jonet, so the current Andrew/Jonet parent link is incompatible. |
+| [Jonet Glasgow (Glasgow-3183)](https://www.wikitree.com/wiki/Glasgow-3183) | Possible testament-named daughter of [Andrew Glasgow (Glasgow-3163)](https://www.wikitree.com/wiki/Glasgow-3163) | **Moderate-to-strong identity candidate, not proved.** Andrew's 1597/8 will names a daughter Jonet/Janet. This profile married at Mid Calder in 1624, fitting the Calder district and generation, but the testament gives no spouse or later identifier. Her estimated 1600 birth must move before Andrew's death if the identity is accepted. James-991 remains an alternative father candidate, but the earlier claim that Andrew's will excluded Jonet was based on a misreading. |
 | [Captain James Glasgow (Glasgow-3172)](https://www.wikitree.com/wiki/Glasgow-3172) | Possible son or younger relative of [Robert Glaskow of Larne (Glasgow-3970)](https://www.wikitree.com/wiki/Glasgow-3970) and close collateral of the Kilwaughter pair | **Possible only.** Belfast maritime activity by 1667 fits the Larne-Kilwaughter port corridor and the next generation. He is not the Kilwaughter James-1081, who survived until about 1726. |
 
 ## The Ninian-Leith-Edinburgh craft model
@@ -37,10 +37,12 @@ to an Edinburgh cordiner in 1639. Against that documented family background:
 - Isobel Glasgow married a tailor there in 1619; and
 - another Barbara Glasgow had a South Leith marriage/proclamation entry in 1611.
 
-The repeated trade and Leith/Edinburgh geography make these women more likely
-to belong to Ninian's household or its immediate collateral circle than to the
-Andrew-of-Corstoun household. Ninian's and Jonet Meik's testaments do not
-identify them as daughters, so the exact parent edges remain hypotheses.
+The repeated trade and Leith/Edinburgh geography makes Ninian's household or
+its immediate collateral circle relevant. The corrected Andrew-of-Corsoun
+testament, however, independently names daughters Jonet and Isobel, so the Mid
+Calder Jonet and Edinburgh Isobel must also be compared against that household.
+None of the records carries a spouse or later residence from Andrew's will into
+these profiles, so the exact identities and parent edges remain hypotheses.
 
 ## Sources controlling the placements
 

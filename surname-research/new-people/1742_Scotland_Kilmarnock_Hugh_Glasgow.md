@@ -19,6 +19,7 @@
 
 [[Category:Glasgow Name Study]]
 
+
 == Biography ==
 
 '''Hugh Glasgow''' was born on 16 Aug 1742 and baptized on 29 Aug 1742 at Kilmarnock, Scotland. The record names Hugh Glasgow and Margaret McGechan as the parents. The recorded residence was Kilmk. The father's occupation was Glover.<ref name="FMP1" />
@@ -39,7 +40,7 @@ The 1 result ID(s) above represent one conservative documentary group because: s
 
 == Sources ==
 
-<references />
-
 <ref name="FMP1">[https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3600403&tab=this Findmypast transcript], Archive reference: OPR 597/2; Baptism date: 29 Aug 1742; Baptism year: 1742; Birth date: 16 Aug 1742; Birth year: 1742; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Ayrshire; Father's first name(s): Hugh; Father's last name: Glasgow; Father's occupation: Glover; First name(s): Hugh; Item: 2; Last name: Glasgow; Mother's first name(s): Margaret; Mother's last name: McGechan; Page: 20; Place: Kilmarnock; Record set: Scotland, Parish Births & Baptisms 1564-1929; Register year range: 1786-1819; Residence: Kilmk; Subcategory: Parish Baptisms (captured 2026-09-03T23:42:32.133Z).</ref>
+
+<references />
 <!-- END FMP-GLASGOW-fmp-glasgow-120b52e4bd76 -->

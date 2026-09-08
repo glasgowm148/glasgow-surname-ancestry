@@ -142,10 +142,12 @@ aged 79, is compatible with the niece's census age.
 If [[Glasgow-3957|Mary (Glasgow) Montgomery]] is the census niece—and the name,
 age, County Antrim origin, unmarried status, weaving occupation and Ballymena
 district make her the strongest located match—Hugh was probably Robert's
-brother. No compatible existing WikiTree profile was found for Hugh; a
-[creation draft](../../surname-research/new-people/1862_Ireland_Ballymena_Hugh_Glasgow.md)
-has been prepared. The attachment of [[Glasgow-3956|Joseph Glasgow]] as Mary's
-father arose from a misreading and must be removed.
+brother. [[Glasgow-3956|Hugh Glasgow]] now represents the weaver named as
+Mary's father; the [resolved evidence
+draft](../Glasgow-3956/1862_Ireland_Ballymena_Hugh_Glasgow.md) preserves the
+supporting marriage evidence. Hugh's possible relationship to Robert remains
+unproved and should not be converted into a sibling attachment without another
+record naming their parents or relationship.
 
 ### Best present identity chain
 

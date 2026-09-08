@@ -2,6 +2,26 @@
 
 Date: 6 September 2026
 
+> **Reading correction, 8 September 2026:** a higher-resolution re-reading of
+> CC9/7/27 replaces the Saltcoats names below. The widow is **Isobell Gray**
+> and John's lawful children are **Katherine and Agnes Glasgow**. John died in
+> December 1636; the April 1637 court day is probably the 21st but remains
+> tentative. Mary/Marie Glasgow-3539 is not established by this testament.
+>
+> **Further correction, 8 September 2026:** the improved reading of Katherine
+> Glasgow's CC9/7/4 entry expressly describes William, James and probably Jonet
+> Weir collectively as minor executors represented by Thomas Weir. They were
+> therefore very probably Katherine and Thomas's children, although the entry
+> does not use an explicit child term. The manuscript confirmation day appears
+> [26?] May 1605, conflicting with Findmypast and Grant's 9 May date. The latest
+> qualified creditor readings are Alexander Campbell, [Bryce?] Blair of
+> [Lochwood?], Archibald [Muir?], John Weir in Nether [place], servant John
+> [Wicht/Wight?] and [Jean Doun?].
+> Fully paged WikiTree duplicate searches completed on 8 September found no
+> compatible profile for William, James or Jonet/Janet. Three separate
+> creation-ready drafts retain the probable parentage, inferred Stevenston
+> birthplaces and Jonet's forename as uncertain.
+
 The manuscript readings below are working transcriptions of the supplied NRS
 images, not finished diplomatic editions. The evidence was consolidated into
 existing profiles wherever compatible.
@@ -15,19 +35,20 @@ existing profiles wherever compatible.
 4. **Uncertain:** William Glasgow-3075 is only a possible son of Ninian. The
    formerly quoted `his sone` wording cannot be securely read, and the Leith
    identity is not bridged.
-5. **Certain:** John Glasgow, sailor in Saltcoats, and widow Isobel Young had
-   lawful children Katherine and Marie Glasgow.
-6. **High-confidence identity:** Marie is best consolidated into existing
-   Glasgow-3539; the 1677 Mary Montgomerie testament remains an unproved later
-   identity candidate.
+5. **Certain:** John Glasgow, sailor in Saltcoats, was father of lawful
+   children Katherine and Agnes Glasgow; Isobell Gray was his widow. The
+   testament does not expressly call Isobell the girls' mother.
+6. **Identity correction:** the record does not name Marie or Mary.
+   Glasgow-3539 and the 1677 Mary Montgomerie testament must be researched
+   independently of this estate.
 7. **Certain facts, uncertain child edge:** Geillis Glasgow-3179 was Thomas
    Wilson's wife at Chaplehill and died in January 1603. James, Isobel and
    Bessie Wilson are named, but the alleged lawful-son wording for James is not
    secure.
-8. **Certain facts, uncertain child edges:** Katherine Glasgow-1495 was Thomas
+8. **Certain facts, probable child edges:** Katherine Glasgow-1495 was Thomas
    Weir's wife at Stevenston and died in January 1603, not 1605. William, James
-   and Jonet Weir are named in the executor appointment without a securely read
-   child formula.
+   and probably Jonet Weir were minor executors represented by Thomas and were
+   very probably their children, although no explicit child formula survives.
 9. **Moderate hypothesis:** Geillis and Katherine belong in one
    Ardrossan–Stevenston kin-network investigation; their shared death month and
    the debt to James Glasgow in Stevenston do not prove sisterhood.
@@ -49,17 +70,17 @@ existing profiles wherever compatible.
   surname is unresolved. Robert and that Bessie were servants owed wages; the
   servant Bessie is not thereby Bessie Wilson from the executor clause.
 - Katherine's entry starts at the bottom of CC9/7/4 image 6; most of that image
-  belongs to another estate. The debts name James, Earl of Glencairn, and
-  provisionally Mr Alexander Cunynghame, minister at Stevenston. Other readings
-  are Hew Blair; Archibald, surname unresolved (`Moir` only a candidate); John,
-  possibly Weir; John Wright; and Jonet, possibly Doun. John Wright and the
-  latter Jonet were servants. `Archibald Wood` and a territorial identity for
-  Hew Blair are not established.
+  belongs to another estate. The debts name James, Earl of Glencairn, and Mr
+  Alexander Campbell, minister at Stevenston. Other qualified readings are
+  [Bryce?] Blair of [Lochwood?], Archibald [Muir?], John Weir in a Nether
+  [place-name unresolved] locality, servant John [Wicht/Wight?], and [Jean
+  Doun?], another servant. The manuscript confirmation day appears [26?] May
+  1605, while Findmypast and Grant give 9 May; only the month and year are secure.
 - John Browne, sailor in Saltcoats, was cautioner and also appears in the debt
   material. The record does not call him the children's uncle or another
-  relative. Mary Glasgow, wife of James Montgomerie, sailor in Saltcoats, whose
-  testament was entered 24 October 1677, remains a specific but unproved
-  candidate for daughter Marie.
+  relative. A later Mary Glasgow, wife of James Montgomerie, sailor in
+  Saltcoats, remains a separate research subject rather than a candidate
+  daughter created by this testament.
 - In the Quothquan estate William Wilkie was procurator fiscal of Lanark and
   William Watsone was cautioner; neither is identified as kin. Widow Jonet's
   surname remains provisionally `Kinnie`, without forced normalisation.
@@ -74,10 +95,11 @@ existing profiles wherever compatible.
 | Robert Glasgow-1027 → Ninian Glasgow-3188 | Retain son edge | Certain |
 | Robert Glasgow-1027 → Jonet Meik | Retain mother edge | Certain from separate 1607 testament |
 | Robert Glasgow-1027 → Jonet Hutchesoun | Do not add mother edge | Excluded by direct Jonet Meik evidence |
-| Marie/Mary Glasgow-3539 → John Glasgow and Isobel Young | Replace existing parent claims when both sourced profiles are ready | Certain relationship; exact John profile on HOLD |
-| Katherine Glasgow → John Glasgow and Isobel Young | Create one new daughter profile | Certain relationship; no compatible profile found |
+| Mary Glasgow-3539 → the Saltcoats John | Remove this testament as parentage evidence; preserve Mary's own sources and attachments pending reassessment | The corrected reading names Agnes, not Marie/Mary |
+| Katherine and Agnes Glasgow → John Glasgow | Create or match each daughter only after duplicate review | Certain father–child relationships; exact John profile on HOLD |
+| Isobell Gray → John Glasgow | Record as his widow; do not infer maternity from this clause alone | Certain spouse relationship |
 | James Wilson-142005 → Geillis Glasgow/Thomas Wilson | Downgrade both parent edges | Uncertain pending re-reading |
-| William, James, Jonet Weir → Katherine Glasgow/Thomas Weir | Do not add as confident children | Possible only from executor context |
+| William, James, Jonet Weir → Katherine Glasgow/Thomas Weir | Create three distinct profiles with uncertain parent links; duplicate review found no compatible profiles | Strong inference from shared surname, three minor executors and Thomas's representation; no explicit child term |
 | John Glasgow-1086 → Jonet Kinnie? (Unknown-717333) | Rename/reuse attached spouse | Certain widow relationship; surname provisional |
 | Glasgow-3331 and Glasgow-3332 → Glasgow-1086 | Retain attached child edges as uncertain | CC14/5/12 names no child; CC14/5/6 still needed |
 
@@ -89,7 +111,9 @@ existing profiles wherever compatible.
   Glasgow-3331 and Glasgow-3332.
 - Existing spouse reused: Unknown-717333 for Jonet Kinnie?.
 - Redirect consolidated: Glasgow-3019 → Glasgow-1086.
-- One new Glasgow profile is creation-ready: Katherine, lawful Saltcoats child.
+- Katherine and Agnes are the two record-defined Saltcoats daughters. Agnes is
+  creation-ready after duplicate review; Katherine remains on an existing-
+  profile identity HOLD.
 - One consolidated HOLD remains: the Saltcoats sailor John against
   Glasgow-1030.
 - The existing free-space-page draft whose route still contains

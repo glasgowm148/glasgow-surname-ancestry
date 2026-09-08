@@ -68,24 +68,41 @@ See [Glasgow-1167 findings](../Glasgow-1167/findings.md).
 
 The live structured birth was corrected to **about 1570, uncertain**. The estimate places the candidate John in Robert the fisher's documented generation without treating a boundary as a birth fact. The earlier `before` value remains only a strict chronological boundary, not the most useful estimated birth. No biography, relationship, source or other structured field was changed in this audit.
 
-## Possible 1637 testament identity — 29 August 2026
+## Possible 1637 testament identity — corrected September 2026
 
-Reinspection of NRS CC9/7/27, images 478–480, supersedes the earlier reading.
-The estate is the testament dative of **John Glasgow, sailor in Saltcoats**,
-whose widow was Isobel Young. It directly calls Katherine and Marie Glasgow
-their lawful children. John died in December, provisionally 1636, and the
-testament was confirmed 11 April 1637. The former description of a Glasgow
-burgess dying 7 April, with Robert Stewart and a surgeon, must not be carried
-forward from these images.
+NRS CC9/7/27, register pages 478–480, is the testament dative and inventory of
+**John Glasgow, sailor in Saltcoats within Ardrossan parish**. He died in
+December 1636, and the Glasgow Commissary Court proceedings followed in April
+1637. The document names **Isobell Gray** as his widow and calls **Katherine
+and Agnes Glasgow** the lawful children of the deceased, their father. It
+therefore proves John as the girls' father, but does not expressly identify
+Isobell as their mother. Earlier alternative spouse, daughter and deceased-
+person readings are withdrawn.
 
-Glasgow-1030 remains a possible identity because he was an adult by 1618/19
-and no proved death excludes a later marriage or move to Saltcoats. The record
-does not connect his wife Jonet Mathie or Glasgow child to Isobel Young, the
-sailor occupation, Saltcoats or the two daughters. Keep the identities
-separate on **HOLD** and do not create another John while this candidate
-remains viable.
+The document is an intestate court administration, not a personal will. A John
+Brown or Browne appears in the financial and legal network, but no kinship is
+stated. An old fishing boat and equipment may appear in the inventory; that
+reading remains tentative and should not be quoted as secure transcription.
 
-The corrected consolidated handoff is the [Saltcoats HOLD evidence
+Glasgow-1030 was compared because his death is unknown and a later residence or
+marriage at Saltcoats is chronologically possible. No inspected record connects
+[[Mathie-159|Jonet Mathie]] or their Glasgow children to Isobell Gray,
+Saltcoats, the sailor occupation, Katherine or Agnes. Name and chronology do
+not override those different documented household identifiers. Glasgow-1030 is
+excluded as the present match, and a distinct creation draft now represents
+the Saltcoats sailor. Do not add the Saltcoats widow or daughters here unless a
+later occupation, property, residence or explicit family bridge justifies a
+merge.
+
+Primary source: National Records of Scotland, Glasgow Commissary Court,
+testament dative and inventory of John Glasgow, sailor in Saltcoats, NRS
+CC9/7/27, register pp. 478–480; original register re-read September 2026;
+[https://www.scotlandspeople.gov.uk/search-records/legal-records/wills
+Scotland's People wills search]. The published index places the entry under 11
+April 1637, but the current reading of the manuscript does not secure the day,
+so April 1637 is the supported court-date statement.
+
+The corrected consolidated handoff is the [Saltcoats creation
 draft](../../surname-research/new-people/1637_Scotland_Saltcoats_John_Glasgow.md).
 
 ## Mathie marriage-network lead — 30 August 2026

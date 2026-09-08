@@ -18,6 +18,8 @@
 ## Paste-ready biography
 
 [[Category:Glasgow Name Study]]
+{{Estimated Date}}
+
 
 == Biography ==
 
@@ -29,7 +31,7 @@ Attach only relationships stated by the record after confirming the relative pro
 
 The completed live WikiTree audit retained no compatible profile candidate.
 
-'''Reviewed HOLD reason:''' The Libberton baptism and Robert Glasgow/Katherine Watson parents conflict with Glasgow-3422.
+'''Reviewed integration decision:''' The Libberton baptism and Robert Glasgow/Katherine Watson parents conflict with Glasgow-3422.
 
 * [[Glasgow-3422|Elizabeth]] — no exact full event-date bridge; no exact locality bridge; named record relatives do not all resolve exactly on the profile
 
@@ -39,7 +41,7 @@ The 1 result ID(s) above represent one conservative documentary group because: s
 
 == Sources ==
 
-<references />
-
 <ref name="FMP1">[https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4033496&tab=this Findmypast transcript], Archive reference: OPR 650/1; Baptism date: 10 Jun 1726; Baptism year: 1726; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Lanarkshire; Father's first name(s): Robert; Father's last name: Glasgow; First name(s): Elizabeth; Item: 3; Last name: Glasgow; Mother's first name(s): Katherine; Mother's last name: Watson; Page: 26; Place: Libberton; Record set: Scotland, Parish Births & Baptisms 1564-1929; Register year range: 1717-1819; Residence: Whitrafles; Subcategory: Parish Baptisms (captured 2026-09-03T23:47:05.888Z).</ref>
+
+<references />
 <!-- END FMP-GLASGOW-fmp-glasgow-1f9a4ce7f9bb -->

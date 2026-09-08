@@ -21,13 +21,15 @@ try:
     from project_paths import (
         MAP_RECORDS, ROOT, SRC_DIR, SURNAME_PROFILE_INDEX, WIKITREE_CHANGE_SCAN,
         WIKITREE_LIVE_OVERRIDES, WIKITREE_PROFILE_EVIDENCE,
-        merged_map_profiles, normalized_profile_redirects,
+        atomic_write_text, merged_map_profiles, normalized_profile_redirects,
+        relation_values,
     )
 except ModuleNotFoundError:  # Imported as tools.sync_recent_wikitree_changes in tests.
     from tools.project_paths import (
         MAP_RECORDS, ROOT, SRC_DIR, SURNAME_PROFILE_INDEX, WIKITREE_CHANGE_SCAN,
         WIKITREE_LIVE_OVERRIDES, WIKITREE_PROFILE_EVIDENCE,
-        merged_map_profiles, normalized_profile_redirects,
+        atomic_write_text, merged_map_profiles, normalized_profile_redirects,
+        relation_values,
     )
 
 sys.path.insert(0, str(SRC_DIR))
@@ -36,6 +38,9 @@ from wikitree_family_export import ExportError, post_wikitree  # noqa: E402
 
 
 WIKITREE_ID = re.compile(r"[A-Za-z][A-Za-z_'’]*(?:-[A-Za-z][A-Za-z_'’]*)*-\d+")
+WIKITREE_ID_REFERENCE = re.compile(
+    r"(?<![A-Za-z0-9_'’-])" + WIKITREE_ID.pattern + r"(?![A-Za-z0-9_-])"
+)
 REDIRECT_STATUS = re.compile(r"Redirected to \d+/([^/\s]+)$")
 COMPACT_FIELDS = (
     "Id,PageId,Name,FirstName,MiddleName,MiddleInitial,LastNameAtBirth,"
@@ -124,12 +129,6 @@ def fetch_people(
             ):
                 failures.append({"profile_id": profile_id, "error": "No public profile returned"})
     return results, failures, redirects
-
-
-def relation_values(person: dict, field: str) -> list[dict]:
-    raw = person.get(field) or {}
-    values = raw.values() if isinstance(raw, dict) else raw if isinstance(raw, list) else []
-    return [value for value in values if isinstance(value, dict)]
 
 
 def fetch_relationships(profile_ids: set[str], batch_size: int) -> tuple[dict[str, dict], set[str], list[dict]]:
@@ -249,15 +248,20 @@ def canonicalise_local_records(redirects: dict[str, str]) -> None:
             for source in redirects:
                 profiles.pop(source, None)
         payload = remap(payload)
-        path.write_text(
-            json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+        if "profile_count" in payload and isinstance(payload.get("profiles"), dict):
+            payload["profile_count"] = len(payload["profiles"])
+        atomic_write_text(
+            path, json.dumps(payload, ensure_ascii=False, indent=2) + "\n"
         )
 
     if MAP_RECORDS.exists():
         text = MAP_RECORDS.read_text(encoding="utf-8-sig")
-        for source, target in redirects.items():
-            text = text.replace(source, target)
-        MAP_RECORDS.write_text(text, encoding="utf-8-sig")
+        # Replace complete WikiTree IDs only.  A raw string replacement would
+        # also turn e.g. Glasgow-10 into Glasgow-20 when Glasgow-1 redirects.
+        text = WIKITREE_ID_REFERENCE.sub(
+            lambda match: redirects.get(match.group(0), match.group(0)), text
+        )
+        atomic_write_text(MAP_RECORDS, text, encoding="utf-8-sig")
 
 
 def main() -> int:
@@ -358,11 +362,13 @@ def main() -> int:
             "last_scan": report,
         })
         WIKITREE_LIVE_OVERRIDES.parent.mkdir(parents=True, exist_ok=True)
-        WIKITREE_LIVE_OVERRIDES.write_text(
-            json.dumps(existing, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+        atomic_write_text(
+            WIKITREE_LIVE_OVERRIDES,
+            json.dumps(existing, ensure_ascii=False, indent=2) + "\n",
         )
-        WIKITREE_CHANGE_SCAN.write_text(
-            json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+        atomic_write_text(
+            WIKITREE_CHANGE_SCAN,
+            json.dumps(report, ensure_ascii=False, indent=2) + "\n",
         )
 
     refresh_ids = sorted(set(overrides))

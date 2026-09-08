@@ -9,7 +9,8 @@
 
 '''Alexander Glasgow''' was born in County Antrim, Ireland, probably between
 about 1804 and 1811. The 1851 census recorded him as forty, County Antrim-born
-and a farmer, implying birth about 1810 or 1811.<ref name="Census1851">[https://www.census.nationalarchives.ie/pages/1851/Antrim/Kilconway/Rasharkin/Lisnagaver/35/ 1851 Census of Ireland], Lisnagaver household 35.</ref> The probable 1888 death
+and a farmer, implying birth about 1810 or 1811.<ref name="Census1851">[https://www.census.nationalarchives.ie/pages/1851/Antrim/Kilconway/Rasharkin/Lisnagaver/35/ 1851 Census of Ireland], Lisnagaver household 35.</ref>
+The same return is preserved by the National Archives of Ireland as a [https://nationalarchives.ie/collections/search-the-census/view-pdf/?doc=007246523_00175&c19=true household image] with an associated [https://nationalarchives.ie/collections/search-the-census/census-record/#census_year=1851&surname__icontains=glasgow&firstname__icontains=alexander&county=Antrim&limit=30&id=43294 catalogue record].<ref name="Census1851NAI">''Census of Ireland, 1851'', Lisnagaver household 35, Alexander Glasgow, National Archives of Ireland (accessed 27 August 2026).</ref> The probable 1888 death
 return instead reports age eighty-four, implying about 1804.<ref name="Death1888">[https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1888/06179/4766466.pdf General Register Office of Ireland, civil death register], Alexander Glasgow, Gortahar, 16 May 1888.</ref>
 
 Alexander married Mary, also called Molly, McCaughan or McAughern about 1836.
@@ -37,13 +38,14 @@ acres.<ref name="Tithe1834">[https://www.billmacafee.com/182030stithe/tithenorth
 Griffith's Valuation and the later revision books continue Alexander on
 Lisnagaver lot 25. His name remained through the 1865–78 revision volume and was
 struck out in the 1879–88 volume; Robert Elder held the lot by 1889. This proves
-tenancy continuity, not a death date.
+tenancy continuity, not a death date.<ref name="ValuationLot25">General Valuation of Ireland, Lisnagaver, Rasharkin parish, lots 24–26; Public Record Office of Northern Ireland, Valuation Revision Books VAL/12/B/4/16B–D, lot 25; [https://apps.proni.gov.uk/Val12B/Search.aspx PRONI revision-book search].</ref>
 
 Alexander probably died at Gortahar on 16 May 1888. The register describes him
 as a married labourer, aged eighty-four, and says that his daughter Nancy was
 present.<ref name="Death1888" /> The age conflicts with the 1851 census, and
 Nancy has not yet been proved identical to daughter Ann, but the name, locality,
 marital status and family network make this a high-confidence identification.
+The description of Alexander as a labourer is compatible with [[Glasgow-438|Ann Glasgow]]'s 1876 marriage, which names her father as Alexander Glasgow, labourer, and places her at Lisnagaver.<ref name="AnnMarriage1876">[https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1876/11181/8097170.pdf General Register Office of Ireland, civil marriage register], Robert McCracken and Ann Glasgow, 13 October 1876.</ref> It does not prove that the death informant Nancy was Ann; after marriage Ann would ordinarily have used McCracken.
 Mary died at Gortahar on 27 February 1892, a widow reportedly aged eighty-nine;
 her daughter Mary Elder informed the death.<ref name="MaryDeath1892">[https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1892/06049/4723532.pdf General Register Office of Ireland, civil death register], Mary Glasgow, Gortahar, 27 February 1892.</ref> The former claims that Alexander died in Glasgow,
 Scotland in 1852 or 1861 belong to conflated identities. The documented
@@ -69,8 +71,13 @@ family reconstruction. No contemporary record calls him their brother or names
 the older Alexander as his father, so both parent links remain uncertain.
 
 [[Glasgow-1022|John Glasgow of Glenleslie]] has not been proved as Alexander's
-father. The Mary Glasgow once used to connect them was twenty-eight in 1871 and
-cannot be John's granddaughter Maryan, who was already seventeen in 1851.
+father. The Mary Glasgow aged twenty-eight in 1871 does not align neatly with
+John's granddaughter Maryan, who was already seventeen in 1851, but age error
+or a misreported marriage age means their identity is possible rather than
+excluded. No record yet proves that they were the same woman. The 1846 marriage
+of [[Glasgow-867|John Glasgow]] names his own father as another John Glasgow,
+farmer; through John's proved census brotherhood it probably also identifies
+the father of Samuel, but it supplies no parent for Alexander.<ref name="JohnGarvinMarriage1846">[https://www.irishgenealogy.ie/view/?record_id=cima-3156063 General Register Office of Ireland, civil marriage register], John Glasgow and Margaret Garvin, 16 November 1846.</ref>
 
 === Son Robert and Gortereghy ===
 
@@ -94,6 +101,8 @@ whether Alexander's father was the older Alexander, John of Glenleslie, Robert
 of Glenleslie or another collateral man. It supports retaining plausible
 uncertain attachments while documentary evidence is sought.
 
+Further comparison material is maintained on the [https://www.wikitree.com/index.php?title=Space:Alexander_Glasgow Alexander Glasgow Research Space] and [https://www.wikitree.com/wiki/Space:Glasgow_DNA Glasgow DNA research space]. These are research aids, not independent sources for a relationship.
+
 === Highest-priority surviving parentage source ===
 
 PRONI's Ballymoney Reformed Presbyterian register, references
@@ -107,11 +116,19 @@ A targeted request covering Glasgow, Glascow, Glasco, Glascoe and similar
 spellings was sent to PRONI on 19 August 2026. No result has yet been received,
 so the source is a pending evidence target rather than proof of either parent.
 
+Search Inside of S. Alexander Blair's [https://archive.org/details/kilraughtskirkit0000alex ''Kilraughts: A Kirk and Its People''] found only Glasgow city or university references, not this family. [https://rootsireland.ie/antrim/online-sources.php RootsIreland's County Antrim source list] describes “Kilraughts (RP), 1780–1934” under gravestone inscriptions rather than baptismal or congregational records. A subscription search produced uninspected collateral hits, but no indexed baptism for Alexander; this does not substitute for examining PRONI CR5/32/1/1/1–2 and is not negative proof.
+
 === Additional sources consulted ===
 
 The 1851 household can also be viewed through the National Archives' [http://www.census.nationalarchives.ie/pages/1851/Antrim/Kilconway/Rasharkin/Lisnagaver/35/ earlier census page] and the [https://durrushistory.com/wp-content/uploads/2012/10/1851irishcensusreturnscommadelimitedtextfilejul24_071.pdf detailed census transcription]. The land sequence was checked in [https://apps.proni.gov.uk/Val12B/Search.aspx PRONI's revision-book search], the [https://apps.proni.gov.uk/eCatNI_IE/SearchPage.aspx PRONI eCatalogue], [https://www.townlands.ie/antrim/kilconway/rasharkin/killoquin/lisnagaver/ Lisnagaver townland reference] and [https://www.failteromhat.com/slater/0192.pdf Slater's directory].
 
 Church and family searches included the [https://www.johngrenham.com/records/church.php?civilparish=Rasharkin&civilparishid=347&search_type=full Rasharkin church-register inventory], [https://www.johngrenham.com/records/county_church_full.php?county=Antrim&denomination=Presbyterian&location=Public+Record+Office+of+Northern+Ireland&search_type=full County Antrim Presbyterian register inventory], [https://genealogy.torrens.org/BannValley/church/RasharkinP/graveyard.html Rasharkin Presbyterian graveyard], [https://genealogy.torrens.org/BannValley/church/TamlaghtP/Baptisms.html Tamlaght baptisms] and [https://genealogy.torrens.org/BannValley/church/GarvaghP1/Marriages/1845-1889marr.html Garvagh marriages]. The later Elder family was checked through the [https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1871/11341/8162804.pdf 1871 Elder–Glasgow marriage], an [https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1897/05858/4660280.pdf 1897 civil death], the [https://www.irishgenealogy.ie/search/?church-or-civil=civil&event-birth=1&lastname=Elder&location=Ballymoney&per_page=100 Ballymoney civil search] and [https://downtheroad.dev/pt/census?county=Antrim&tab=browse&townland=Lisnagaver&year=1901 1901 Lisnagaver census browse]. None identifies Alexander's parents.
+
+The Elder line was also followed in derivative FamilySearch indexes: Mary Elder's [https://www.familysearch.org/ark:/61903/1:1:QPB2-KNM2 1901 Gortahar household], Robert J. Elder's [https://www.familysearch.org/ark:/61903/1:1:QYHR-52T2 1911 household], the [https://www.familysearch.org/ark:/61903/1:1:FBP3-95M 1908 birth index for Samuel Glasgow Elder] and a [https://www.familysearch.org/ark:/61903/1:1:FTZP-9M6 possible 1894 death index for Robert Elder]. They support continuity in Alexander's daughter Mary's family but do not identify Alexander's parents; the original records must control where an index is ambiguous.
+
+Two other searches exclude tempting conflations. Robert Glasgow of Prescott's 1849 will names six sibling shares but no Alexander; a place among deceased brother James's children is still unproved.<ref name="PrescottWill1849">Will of Robert Glasgow of Prescott, Canada West, dated October 1849 and registered in 1856; [https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWY9-S FamilySearch image].</ref> Cape Supreme Court indexes name an Alexander Glasgow in 1893 and 1898, after this man's probable 1888 death, without an age, birthplace or family bridge.<ref>[https://www.nationalarchives.gov.za/node/737 National Archives and Records Service of South Africa catalogue], Alexander Glasgow index results.</ref>
+
+An Inishrush Glasgow family-Bible transcription lists the children of [[Glasgow-822|John Glasgow]] and Mary Arthur from 1799 to 1815 without an Alexander. The original image and provenance remain incomplete, so the omission is weak negative evidence and cannot exclude a relationship.<ref>Inishrush Glasgow family-Bible transcription, children of John Glasgow and Mary Arthur, 1799–1815; original image and full provenance still required.</ref>
 
 The Y-DNA assessment uses both the [https://www.familytreedna.com/groups/glasgow/about Glasgow project page] and the [https://discover.familytreedna.com/y-dna/R-FT20271 R-FT20271 haplotree page].
 

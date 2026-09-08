@@ -9,7 +9,7 @@ Lanark Commissary Court on 25 March 1685.<ref name="Testament1685">National
 Records of Scotland, Lanark Commissary Court, testament dative of John Glasgow
 in Quothquan, Libberton parish, NRS CC14/5/12, images 67–68; proceeding dated
 25 March 1685. Working transcription of the original images supplied 6
-September 2026.</ref>
+September 2026; locate by reference through the [https://www.scotlandspeople.gov.uk/search-records/legal-records/wills Scotland's People wills search].</ref>
 
 The record names his widow and executrix as [[Unknown-717333|Jonet]], whose
 surname is provisionally read Kinnie.<ref name="Testament1685" /> William
@@ -21,13 +21,15 @@ called a relative.
 A derivative index records a Jhone Glasgow baptised at Mid Calder on 26 June
 1608, son of another Jhone Glasgow.<ref>Findmypast, Scotland Parish Births and
 Baptisms, OPR 694/1, p. 5, Jhone Glasgow, baptised 26 June 1608,
-[https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4585634 transcript].</ref>
+[https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4585634 transcript];
+“Scotland Births and Baptisms, 1564–1950,” FamilySearch
+([https://familysearch.org/ark:/61903/1:1:X1BL-X8B record X1BL-X8B]).</ref>
 That child is chronologically compatible with the 1685 deceased, but no record
 connects Mid Calder to Quothquan. The birth identity and attached father remain
 uncertain.
 
 The 1685 testament names no child. Existing child relationships must remain
-uncertain pending reinspection of the separate 1662 Quothquan testament. This
+uncertain pending reinspection of the separate 1662 Quothquan testament.<ref>National Records of Scotland, Lanark Commissary Court, NRS CC14/5/6, testament concerning John Glasgow in Quothquan, indexed in 1662; locate by reference through the [https://www.scotlandspeople.gov.uk/search-records/legal-records/wills Scotland's People wills search].</ref> This
 John is not the John Glasgow in Boog of Stevenston whose testament was indexed
 on 6 November 1685.
 

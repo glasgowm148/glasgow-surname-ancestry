@@ -8,7 +8,10 @@ import json
 import re
 from collections import deque
 from dataclasses import dataclass
-from project_paths import MAP_AUDIT_DIR, MAP_RECORDS as CSV_PATH, latest_onetree_export
+from project_paths import (
+    MAP_AUDIT_DIR, MAP_RECORDS as CSV_PATH, atomic_write_csv,
+    atomic_write_text, latest_onetree_export, relation_values,
+)
 
 
 AUDIT_PATH = MAP_AUDIT_DIR / "onetree_irish_through_1850.json"
@@ -93,7 +96,7 @@ def event_for(profile: dict) -> tuple[str, str] | None:
         return "BirthLocation", birth
     if death_is_irish:
         return "DeathLocation", death
-    for spouse in profile.get("Spouses") or []:
+    for spouse in relation_values(profile, "Spouses"):
         value = spouse.get("MarriageLocation") or spouse.get("marriage_location") or ""
         if IRISH_PLACE.search(value) and not FOREIGN_PLACE.search(value):
             return "MarriageLocation", value
@@ -254,10 +257,7 @@ def main() -> None:
         mapped_ids.add(name)
         mapped_clusters[name] = (family_group, subcluster)
 
-    with CSV_PATH.open("w", encoding="utf-8-sig", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=fieldnames)
-        writer.writeheader()
-        writer.writerows(rows)
+    atomic_write_csv(CSV_PATH, fieldnames, rows)
 
     remaining = [name for _, name, _, _ in qualifying if name not in mapped_ids]
     audit = {
@@ -272,8 +272,7 @@ def main() -> None:
         "remaining_missing": remaining,
         "not_classifiable_without_birth_year": sorted(undated_irish_profiles),
     }
-    AUDIT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    AUDIT_PATH.write_text(json.dumps(audit, indent=2) + "\n", encoding="utf-8")
+    atomic_write_text(AUDIT_PATH, json.dumps(audit, indent=2) + "\n")
     if remaining:
         raise SystemExit(f"Audit failed: {len(remaining)} qualifying profiles remain missing")
     print(f"{len(qualifying)} qualifying profiles; added {len(added)}; updated {len(set(updated))}; 0 missing")

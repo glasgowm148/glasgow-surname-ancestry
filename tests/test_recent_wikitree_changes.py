@@ -1,9 +1,12 @@
 """Offline tests for incremental WikiTree change scanning."""
 
 from pathlib import Path
+import json
 import tempfile
 import unittest
+from unittest.mock import patch
 
+import tools.sync_recent_wikitree_changes as recent_changes
 from tools.sync_recent_wikitree_changes import (
     ids_from_feed, is_fatal_failure, is_public_historical, profile_changes,
     redirects_from_envelope,
@@ -65,6 +68,42 @@ class RecentWikiTreeChangesTests(unittest.TestCase):
             }),
             {"Glasgow-3681": "Glasgow-559"},
         )
+
+    def test_canonicalising_redirects_updates_index_profile_count(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            evidence = root / "profile-evidence.json"
+            index = root / "profiles.json"
+            records = root / "records.csv"
+            evidence.write_text(json.dumps({
+                "profiles": {"Glasgow-1": {}, "Glasgow-2": {}},
+            }), encoding="utf-8")
+            index.write_text(json.dumps({
+                "profile_count": 2,
+                "profiles": {"Glasgow-1": {}, "Glasgow-2": {}},
+            }), encoding="utf-8")
+            records.write_text(
+                "profile_id,note\nGlasgow-1,redirect this ID\n"
+                "Glasgow-10,do not corrupt Glasgow-1-note or Glasgow-10\n",
+                encoding="utf-8",
+            )
+            with patch.multiple(
+                recent_changes,
+                WIKITREE_PROFILE_EVIDENCE=evidence,
+                SURNAME_PROFILE_INDEX=index,
+                MAP_RECORDS=records,
+            ):
+                recent_changes.canonicalise_local_records({"Glasgow-1": "Glasgow-2"})
+            payload = json.loads(index.read_text(encoding="utf-8"))
+            self.assertEqual(payload["profile_count"], 1)
+            self.assertEqual(set(payload["profiles"]), {"Glasgow-2"})
+            records_text = records.read_text(encoding="utf-8-sig")
+            self.assertIn("Glasgow-2,redirect this ID", records_text)
+            self.assertIn(
+                "Glasgow-10,do not corrupt Glasgow-1-note or Glasgow-10",
+                records_text,
+            )
+            self.assertNotIn("Glasgow-20", records_text)
 
 
 if __name__ == "__main__":

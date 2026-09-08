@@ -2,8 +2,13 @@
 
 from __future__ import annotations
 
+import csv
+import io
 import json
+import os
 from pathlib import Path
+import re
+import tempfile
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -34,6 +39,70 @@ MAP_AUDIT_DIR = MAP_DATA_DIR / "audits"
 RESEARCH_DIR = ROOT / "research"
 SURNAME_RESEARCH_DIR = ROOT / "surname-research"
 SURNAME_PROFILE_INDEX = SURNAME_RESEARCH_DIR / "indexes" / "profiles.json"
+
+
+def _onetree_export_order(path: Path) -> tuple[str, str]:
+    """Order timestamped exports by their filename, independent of copy mtime."""
+    match = re.match(r"^ONT_Glas[^_]*_(.+)\.json$", path.name, re.I)
+    return (match.group(1) if match else "", path.name)
+
+
+def atomic_write_text(path: Path, text: str, *, encoding: str = "utf-8") -> None:
+    """Replace a text file only after its complete contents reach disk."""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    mode = path.stat().st_mode & 0o777 if path.exists() else 0o644
+    descriptor, temporary_name = tempfile.mkstemp(
+        prefix=f".{path.name}.", dir=path.parent
+    )
+    try:
+        os.fchmod(descriptor, mode)
+        with os.fdopen(descriptor, "w", encoding=encoding, newline="") as handle:
+            handle.write(text)
+            handle.flush()
+            os.fsync(handle.fileno())
+        os.replace(temporary_name, path)
+    except BaseException:
+        try:
+            os.close(descriptor)
+        except OSError:
+            pass
+        try:
+            os.unlink(temporary_name)
+        except FileNotFoundError:
+            pass
+        raise
+
+
+def atomic_write_csv(
+    path: Path,
+    fieldnames: list[str],
+    rows: list[dict],
+    *,
+    encoding: str = "utf-8-sig",
+    lineterminator: str = "\r\n",
+) -> None:
+    """Serialize and atomically replace a CSV file."""
+    output = io.StringIO(newline="")
+    writer = csv.DictWriter(
+        output,
+        fieldnames=fieldnames,
+        lineterminator=lineterminator,
+    )
+    writer.writeheader()
+    writer.writerows(rows)
+    atomic_write_text(path, output.getvalue(), encoding=encoding)
+
+
+def relation_values(profile: dict, field: str) -> list[dict]:
+    """Normalize WikiTree relationship collections to a list of objects."""
+    raw = profile.get(field) or []
+    if isinstance(raw, dict):
+        values = raw.values()
+    elif isinstance(raw, list):
+        values = raw
+    else:
+        values = []
+    return [value for value in values if isinstance(value, dict)]
 
 
 def normalized_profile_redirects(redirects: dict[str, str]) -> dict[str, str]:
@@ -96,7 +165,7 @@ def latest_onetree_export() -> Path:
     """Return the newest One-Tree JSON export in the canonical export folder."""
     exports = sorted(
         ONETREE_EXPORT_DIR.glob("ONT_Glasgow_*.json"),
-        key=lambda path: path.stat().st_mtime,
+        key=_onetree_export_order,
     )
     if not exports:
         raise FileNotFoundError(f"No One-Tree export found in {ONETREE_EXPORT_DIR}")
@@ -107,7 +176,7 @@ def merged_onetree_profiles() -> tuple[dict[str, dict], list[Path]]:
     """Merge Glasgow-variant JSON exports by WikiTree ID, newest copy winning."""
     exports = sorted(
         ONETREE_EXPORT_DIR.glob("ONT_Glas*.json"),
-        key=lambda path: path.stat().st_mtime,
+        key=_onetree_export_order,
     )
     if not exports:
         raise FileNotFoundError(f"No One-Tree export found in {ONETREE_EXPORT_DIR}")

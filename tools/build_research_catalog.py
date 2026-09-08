@@ -16,7 +16,10 @@ import re
 from urllib.parse import quote, urlparse
 
 try:
-    from project_paths import RESEARCH_DIR, WEB_DIR, WIKITREE_PROFILE_EVIDENCE, WIKITREE_CATALOGUE_PROFILE_AUDIT
+    from project_paths import (
+        RESEARCH_DIR, WEB_DIR, WIKITREE_PROFILE_EVIDENCE,
+        WIKITREE_CATALOGUE_PROFILE_AUDIT, WIKITREE_CATALOGUE_PROFILE_LINKS,
+    )
     from catalogue_machine_data import (
         SCHEMA_VERSION,
         build_machine_models,
@@ -24,7 +27,10 @@ try:
         write_machine_outputs,
     )
 except ModuleNotFoundError:  # Imported as tools.build_research_catalog by tests.
-    from tools.project_paths import RESEARCH_DIR, WEB_DIR, WIKITREE_PROFILE_EVIDENCE, WIKITREE_CATALOGUE_PROFILE_AUDIT
+    from tools.project_paths import (
+        RESEARCH_DIR, WEB_DIR, WIKITREE_PROFILE_EVIDENCE,
+        WIKITREE_CATALOGUE_PROFILE_AUDIT, WIKITREE_CATALOGUE_PROFILE_LINKS,
+    )
     from tools.catalogue_machine_data import (
         SCHEMA_VERSION,
         build_machine_models,
@@ -2999,9 +3005,40 @@ def _estimated_birth(rows: list[dict]) -> tuple[str, str]:
 
 def _estimated_birth_location(rows: list[dict]) -> tuple[str, str]:
     residence = re.compile(r"\b(?:residen(?:ce|t)|household(?:er)?|occup(?:ier|ant|ied)|lease|rent|tithe|census|directory|tax|hearth|landholder|dwelling|address)\b", re.I)
+    placeholder = re.compile(
+        r"\b(?:location|place)\s+(?:not\s+(?:supplied|stated)|unknown)\b|"
+        r"\b(?:profile\s+holding\s+point|source\s+grouping)\b|"
+        r"^\s*(?:unknown|unspecified)\s*$",
+        re.I,
+    )
+    unresolved_person = not any(_ids(row.get("profile_id", "")) for row in rows)
     for row in sorted(rows, key=lambda item: item.get("filter_year") if isinstance(item.get("filter_year"), (int, float)) else 9999):
-        if row.get("record_location") and residence.search(f"{row.get('association', '')} {row.get('note', '')}"):
-            return f"{row['record_location']} (estimated)", f"Estimated from the earliest mapped residence record ({row.get('year')})."
+        context = f"{row.get('subcluster', '')} {row.get('association', '')} {row.get('note', '')} {row.get('location_basis', '')}"
+        source_context = f"{row.get('record_precision', '')} {row.get('source_type', '')} {row.get('source_title', '')} {context}"
+        location = (row.get("record_location") or "").strip()
+        if not location or placeholder.search(location) or re.search(r"\bsource\s+grouping\b", context, re.I):
+            continue
+        migration_context = re.search(
+            r"\b(?:migration|emigrat|immigrat|destination|arrival|passenger|voyage|transatlantic)",
+            context, re.I,
+        )
+        explicit_residence = re.search(r"\bexplicit\s+event\s+type\s+residence\b", context, re.I)
+        if migration_context and not explicit_residence:
+            continue
+        # A court's seat or jurisdiction locates the proceeding, not the
+        # litigant.  Only a separately captured, explicit residence event may
+        # override that distinction.
+        if re.search(r"\b(?:court|chancery|exchequer)\b|\bbill books?\b", source_context, re.I) and not explicit_residence:
+            continue
+        if re.search(r"\b(?:birth|born|bapti|christen)", context, re.I):
+            basis = f"Estimated from the mapped birth or baptism record ({row.get('year')})."
+        elif residence.search(context):
+            basis = f"Estimated from the earliest mapped residence record ({row.get('year')})."
+        elif not unresolved_person:
+            continue
+        else:
+            basis = f"Estimated from the earliest mapped non-migration life event ({row.get('year')})."
+        return f"{location} (estimated)", basis
     return "", ""
 
 
@@ -3481,6 +3518,14 @@ def _load_catalogue_profile_audit() -> dict:
     return payload if isinstance(payload.get("entries"), dict) else {"audited_at": "", "entries": {}}
 
 
+def _load_catalogue_profile_links() -> dict:
+    if not WIKITREE_CATALOGUE_PROFILE_LINKS.exists():
+        return {}
+    payload = json.loads(WIKITREE_CATALOGUE_PROFILE_LINKS.read_text(encoding="utf-8"))
+    entries = payload.get("entries")
+    return entries if isinstance(entries, dict) else {}
+
+
 def _profile_work_status(person: dict, audit: dict) -> str:
     """Classify documentary identities without turning every record into a profile task."""
     if person.get("profile_ids"):
@@ -3492,7 +3537,9 @@ def _profile_work_status(person: dict, audit: dict) -> str:
         return "creation_ready"
     if action == "hold":
         return "existing_profile_candidate" if audit.get("candidates") else "identity_hold"
-    if action == "do_not_create" and audit.get("identity_status") == "free_space_only":
+    if action == "do_not_create" and audit.get("identity_status") in {
+        "free_space_only", "pre1500_free_space_subject",
+    }:
         return "free_space_only"
     return "unreviewed"
 
@@ -3816,6 +3863,16 @@ def _normalise_complete_wikitree_profile(
 ) -> str:
     """Give every replacement draft a consistent, paste-ready WikiTree shape."""
     text = _normalise_ref_opening_tags(text).strip()
+    # Captured biographies occasionally contain Markdown syntax.  Convert the
+    # small supported forms after every merge so generated drafts remain
+    # paste-ready native WikiTree text without altering the evidence wording.
+    text = re.sub(
+        r"\[([^\]\n]+)\]\((https?://[^)\s]+)\)",
+        r"[\2 \1]",
+        text,
+    )
+    text = re.sub(r"\*\*([^*\n]+)\*\*", r"'''\1'''", text)
+    text = re.sub(r"`([^`\n]+)`", r"''\1''", text)
     text = re.sub(r"(?mi)^==+\s*Biography\s*==+\s*$", "== Biography ==", text)
     text = re.sub(r"(?mi)^==+\s*(?:Notes|Research notes)\s*==+\s*$", "== Research Notes ==", text)
     text = re.sub(r"(?mi)^==+\s*Sources\s*==+\s*$", "== Sources ==", text)
@@ -4084,6 +4141,7 @@ def _registered_profile_updates(wikitree_evidence: dict) -> dict[str, dict]:
             status = status_cell
         summary = embedded_summary.strip() or (columns[2] if len(columns) >= 3 else "")
         draft_path = ""
+        draft_wikitext = ""
         if len(columns) >= 2:
             draft_match = re.search(
                 r"\[(?:Replacement draft|Complete draft)\]\(([^)]+)\)", " | ".join(columns[1:]), re.I
@@ -4097,9 +4155,8 @@ def _registered_profile_updates(wikitree_evidence: dict) -> dict[str, dict]:
                     and candidate.name == f"{profile_id}.md"
                 ):
                     draft_path = str(candidate.relative_to(PROJECT_ROOT))
-                    if not _is_complete_profile_draft(
-                        _extract_profile_draft({"draft_path": draft_path})
-                    ):
+                    draft_wikitext = _extract_profile_draft({"draft_path": draft_path})
+                    if not _is_complete_profile_draft(draft_wikitext):
                         raise ValueError(
                             f"Catalogue replacement draft is not complete paste-ready WikiTree text: {profile_id}"
                         )
@@ -4152,8 +4209,12 @@ def _registered_profile_updates(wikitree_evidence: dict) -> dict[str, dict]:
         }
         if draft_path:
             entries[profile_id]["draft_path"] = draft_path
-            entries[profile_id]["preserve_captured_detail"] = True
             entries[profile_id]["reviewed_narrative_reduction"] = True
+            # Concise controlling drafts retain the detailed captured sections.
+            # A deliberately marked, fully reconciled replacement stands alone;
+            # source-identity preservation is still enforced by the loader.
+            if "<!-- REVIEWED FULL REPLACEMENT:" not in draft_wikitext:
+                entries[profile_id]["preserve_captured_detail"] = True
     return entries
 
 
@@ -4292,7 +4353,9 @@ def _profile_update_html(update: dict | None) -> str:
 <div class="candidate-section-heading"><div><p class="kicker">Needs updated on WikiTree</p><h2>Manual or structured correction</h2></div><p>Significance {int(update.get('significance') or 0)}/100</p></div>
 <p class="lede">{escape(update.get('summary') or '')}</p>
 <p class="workbench-audit">Compared with <a href="{escape(update['profile_url'], quote=True)}">{escape(profile_id)}</a>, captured {captured} · {revision}. The biography already contains the researched narrative; make the remaining relationship, confidence or vital-field correction directly in WikiTree.</p>
-<div class="actions"><a class="button" href="{escape(update['profile_url'], quote=True)}">Open WikiTree profile</a></div></section>"""
+<section class="profile-draft-panel"><h3>Complete WikiTree biography</h3><p>Copy this complete text if the biography needs replacing while making the structured correction. Relationship, confidence and vital-field changes must still be made separately in WikiTree's data fields.</p>
+<textarea id="profile-update-draft" class="profile-draft" rows="28" readonly>{escape(update['proposed_wikitext'])}</textarea>
+<div class="actions"><button id="copy-profile-update" class="button" type="button">Copy complete profile</button><a class="button secondary" href="{escape(update['profile_url'], quote=True)}">Open WikiTree profile</a></div><p id="profile-update-status" class="form-status" aria-live="polite"></p></section></section>"""
     diff_lines = []
     for line in ndiff(
         update["remote_wikitext"].splitlines(), update["proposed_wikitext"].splitlines()
@@ -4418,9 +4481,9 @@ def _profile_workbench_html(person: dict, audit: dict, audited_at: str) -> str:
     if person.get("wikitree_free_space_url"):
         return (
             '<section id="profile-workbench" class="profile-workbench">'
-            '<div class="candidate-section-heading"><div><p class="kicker">Pre-1500 documentary subject</p>'
+            '<div class="candidate-section-heading"><div><p class="kicker">Documentary subject</p>'
             '<h2>Canonical WikiTree Space page</h2></div>'
-            '<p>This subject is maintained as an individual free-space page, not a person profile.</p></div>'
+            '<p>This evidence is maintained on a supporting free-space page, not forced into a person profile.</p></div>'
             f'<div class="actions"><a class="button" href="{escape(person["wikitree_free_space_url"], quote=True)}">Open WikiTree Space page</a></div>'
             '</section>'
         )
@@ -4448,7 +4511,18 @@ def _profile_workbench_html(person: dict, audit: dict, audited_at: str) -> str:
     draft = "" if missing_external_sources else (_extract_profile_draft(audit) or _generated_profile_draft(person, audit))
     creation_block = ""
     creation_allowed = action not in {"do_not_create", "hold", "duplicate_profiles"}
-    if missing_external_sources and action != "do_not_create":
+    if action == "do_not_create" and audit.get("identity_status") in {
+        "free_space_only", "pre1500_free_space_subject",
+    }:
+        creation_block = (
+            '<p class="notice"><strong>No person profile should be created.</strong> '
+            f'{escape(identity_note)}</p>'
+            + (
+                f'<p><small>Supporting-page handoff: {escape(audit.get("draft_path"))}</small></p>'
+                if audit.get("draft_path") else ""
+            )
+        )
+    elif missing_external_sources and action != "do_not_create":
         creation_block = (
             '<p class="notice"><strong>Profile draft withheld:</strong> '
             f'{len(missing_external_sources)} mapped record source link'
@@ -4980,6 +5054,14 @@ def _write_assets() -> None:
     )
 
 
+def _supporting_source_link(record: dict) -> str:
+    """Render the optional source link used in place timelines."""
+    url = record.get("supporting_source_url") or ""
+    if not url:
+        return ""
+    return f'<p><a href="{escape(url, quote=True)}">Supporting source</a></p>'
+
+
 def _write_place_pages(
     public_records: list[dict],
     public_people: list[dict],
@@ -5015,7 +5097,7 @@ def _write_place_pages(
             f'<p>{escape(record.get("association") or "Recorded occurrence")}</p><div class="badge-row">'
             f'{_evidence_badge(record.get("evidence") or "unknown")}{_evidence_badge(record.get("supporting_source_quality") or "unknown")}</div>'
             f'<details><summary>Record and source detail</summary><p>{escape(record.get("note") or "No additional note.")}</p>'
-            f'{f"<p><a href={chr(34)}{escape(record.get(chr(115)+chr(117)+chr(112)+chr(112)+chr(111)+chr(114)+chr(116)+chr(105)+chr(110)+chr(103)+chr(95)+chr(115)+chr(111)+chr(117)+chr(114)+chr(99)+chr(101)+chr(95)+chr(117)+chr(114)+chr(108)), quote=True)}{chr(34)}>Supporting source</a></p>" if record.get("supporting_source_url") else ""}</details></div></article>'
+            f'{_supporting_source_link(record)}</details></div></article>'
             for record in sorted(records, key=lambda item: item.get("filter_year") if isinstance(item.get("filter_year"), (int, float)) else 99999)
         )
         people_links = "".join(
@@ -5427,6 +5509,7 @@ def build_research_catalog(records: list[dict], profiles: dict[str, dict], edges
     profile_updates = _load_profile_updates(wikitree_evidence)
     profile_audit_payload = _load_catalogue_profile_audit()
     profile_audit_entries = profile_audit_payload.get("entries", {})
+    catalogue_profile_links = _load_catalogue_profile_links()
     profile_audited_at = profile_audit_payload.get("audited_at", "")
     people = _build_people(
         records, profiles, edges, descendant_counts, wikitree_evidence,
@@ -5447,11 +5530,46 @@ def build_research_catalog(records: list[dict], profiles: dict[str, dict], edges
     }
     profile_audits_by_catalogue = {}
     for person in public_people:
-        person["wikitree_free_space_url"] = pre1500_space_urls.get(person["catalogue_id"], "")
+        destination = catalogue_profile_links.get(person["catalogue_id"], {})
+        configured_space_url = str(destination.get("free_space_url") or "")
+        if configured_space_url and not configured_space_url.startswith(
+            "https://www.wikitree.com/wiki/Space:"
+        ):
+            raise ValueError(
+                f"{person['catalogue_id']}: invalid WikiTree free-space destination"
+            )
+        person["wikitree_free_space_url"] = (
+            configured_space_url or pre1500_space_urls.get(person["catalogue_id"], "")
+        )
+        person["profile_disposition"] = str(
+            destination.get("profile_disposition") or (
+                "free_space_only" if person["wikitree_free_space_url"] else ""
+            )
+        )
+        person["free_space_draft_path"] = str(
+            destination.get("free_space_draft_path") or ""
+        )
         person["has_wikitree_destination"] = bool(
             person["profile_ids"] or person["wikitree_free_space_url"]
         )
         profile_audit = dict(profile_audit_entries.get(person["catalogue_id"], {}))
+        if (
+            destination.get("profile_disposition") == "free_space_only"
+            and not person["profile_ids"]
+        ):
+            profile_audit.update({
+                "candidates": [],
+                "draft_path": destination.get("free_space_draft_path", ""),
+                "identity_note": destination.get("evidence_note") or (
+                    "The evidence belongs on a supporting WikiTree free-space page and "
+                    "does not justify a separate person profile."
+                ),
+                "identity_status": "free_space_only",
+                "recommended_action": "do_not_create",
+                "searched_profile_count": int(
+                    profile_audit.get("searched_profile_count") or 0
+                ),
+            })
         birth_match = re.search(r"\b(\d{3,4})\b", str(person.get("birth") or ""))
         if (
             not person["profile_ids"] and not profile_audit and birth_match
@@ -5862,6 +5980,7 @@ def build_research_catalog(records: list[dict], profiles: dict[str, dict], edges
             ),
             "has_profile": bool(person["profile_ids"]),
             "wikitree_free_space_url": person["wikitree_free_space_url"],
+            "profile_disposition": person["profile_disposition"],
             "has_wikitree_destination": person["has_wikitree_destination"],
             "missing_profile": not person["has_wikitree_destination"],
             "profile_work_status": person["profile_work_status"],
@@ -5922,7 +6041,7 @@ def build_research_catalog(records: list[dict], profiles: dict[str, dict], edges
         json.dumps(public_wikitree_evidence, ensure_ascii=False, separators=(",", ":")) + "\n",
         encoding="utf-8",
     )
-    csv_fields = ["catalogue_id", "name", "profile_ids", "wikitree_free_space_url", "has_wikitree_destination", "profile_work_status", "profile_work_candidate_count", "first_names", "last_names_at_birth", "last_names_current", "suffixes", "has_suffix", "gender", "birth", "birth_note", "birth_location", "birth_location_note", "death", "death_location", "spouses", "father", "mother", "children", "cluster", "clusters", "descendants", "evidence", "recorded_in", "regions", "record_count", "derived_children_count", "outside_export_parent_references", "relationship_warnings", "profile_created", "profile_last_updated", "profile_connected", "reported_children_count", "dna_flags", "wikitree_evidence_profiles", "wikitree_evidence_captured", "wikitree_record_passage_count", "wikitree_source_count", "wikitree_external_url_count", "wikitree_location_claims", "export_version", "catalogue_generated", "catalogue_url", "wikitree_urls"]
+    csv_fields = ["catalogue_id", "name", "profile_ids", "wikitree_free_space_url", "profile_disposition", "has_wikitree_destination", "profile_work_status", "profile_work_candidate_count", "first_names", "last_names_at_birth", "last_names_current", "suffixes", "has_suffix", "gender", "birth", "birth_note", "birth_location", "birth_location_note", "death", "death_location", "spouses", "father", "mother", "children", "cluster", "clusters", "descendants", "evidence", "recorded_in", "regions", "record_count", "derived_children_count", "outside_export_parent_references", "relationship_warnings", "profile_created", "profile_last_updated", "profile_connected", "reported_children_count", "dna_flags", "wikitree_evidence_profiles", "wikitree_evidence_captured", "wikitree_record_passage_count", "wikitree_source_count", "wikitree_external_url_count", "wikitree_location_claims", "export_version", "catalogue_generated", "catalogue_url", "wikitree_urls"]
     with (DATA_DIR / "people.csv").open("w", encoding="utf-8-sig", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=csv_fields)
         writer.writeheader()

@@ -4,14 +4,21 @@
 
 Glasgow-3296 is the exact profile for the John Glasgow of Quodquen whose estate
 was confirmed on 27 May 1650. Its biography cites the original testament and
-says he died in April 1650, but its structured death fields still say 1649 and
-Carluke. The original identifies no child.
+its structured death now correctly says April 1650. The current Mid Calder
+death place is not supplied by the testament and must remain uncertain unless
+a sourced replacement is established. The original identifies no child.
 
 The project now also uses Glasgow-3296 for John Glasgow of Montfoid, husband of
 Bessie Robertson in 1610. This is a workable same-person identification by name
 and generation, but the record does not bridge Montfoid in Ayrshire to
 Quothquan in Lanarkshire. Present the 1610 occurrence as an uncertain earlier
 identity rather than a proved movement.
+
+Glasgow-3608 now also redirects to this profile. That former profile represented
+the father named in Mid Calder baptisms of Jhone in 1608 and William in 1609.
+The baptisms prove those local father-child pairs but do not identify the father
+with the Montfoid or Quodquen man. Preserve both children only as uncertain
+relationships and keep the three-place identity problem explicit.
 
 Father assessment: **father not identified; uncertain**. The 1650 testament
 identifies John's sister but names neither parent.
@@ -44,13 +51,17 @@ Confidence: high that this is the 1650 Quodquen estate.
 
 ### Suggested corrections
 
-- Change structured Death Date from `1649` to `April 1650`.
-- Remove `Carluke` as Death Location; the record states residence at Quodquen,
-  not place of death.
+- Retain the corrected structured Death Date of `April 1650`.
+- Treat Mid Calder as an uncertain Death Location pending a sourced replacement;
+  the testament states residence at Quodquen, not place of death.
 - Retain Glasgow-3019 only as an uncertain working son unless a separate
   relational record proves or replaces the relationship.
 - Add the 1610 Montfoid/Bessie Robertson occurrence as a qualified earlier
   identity and state that no record yet proves the move to Quothquan.
+- Add the 1608 and 1609 Mid Calder baptisms as a separate qualified earlier
+  identity and keep both child relationships uncertain.
+
+Use `Glasgow-3296.md` as the complete replacement draft.
 
 Edit summary: `Align data fields with the cited 1650 Quodquen testament and
 qualify the working son relationship.`

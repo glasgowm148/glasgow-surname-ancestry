@@ -18,6 +18,8 @@
 ## Paste-ready biography
 
 [[Category:Glasgow Name Study]]
+{{Estimated Date}}
+
 
 == Biography ==
 
@@ -39,7 +41,7 @@ The 1 result ID(s) above represent one conservative documentary group because: s
 
 == Sources ==
 
-<references />
-
 <ref name="FMP1">[https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4100126&tab=this Findmypast transcript], Archive reference: OPR 658/1; Baptism date: 17 Feb 1712; Baptism year: 1712; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Lanarkshire; Father's first name(s): James; Father's last name: Glasgow; First name(s): Agnes; Item: 5; Last name: Glasgow; Page: 13; Place: Walston; Record set: Scotland, Parish Births & Baptisms 1564-1929; Register year range: 1679-1819; Residence: Walston; Subcategory: Parish Baptisms (captured 2026-09-03T23:47:07.740Z).</ref>
+
+<references />
 <!-- END FMP-GLASGOW-fmp-glasgow-aedca3d838c1 -->

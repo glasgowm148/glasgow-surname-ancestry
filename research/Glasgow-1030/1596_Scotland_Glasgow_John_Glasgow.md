@@ -40,12 +40,14 @@ together and were described collectively as fishers.<ref>Robert Renwick, ed.,
 December 1573].</ref> This is strong evidence for a close occupational and
 property association, but neither protocol calls John Robert's son. Multiple
 adult Johns were active in the burgh, so the fisher is only one identity
-candidate for the record-defined son.
+candidate for the record-defined brother.
 
-=== Research Notes ===
+== Research Notes ==
 
 Suggested creation data:
-* Birth: before 1596, probably Glasgow, Scotland; date and place uncertain.
+* Birth: before 10 January 1613; exact date and place unknown. An earlier
+  estimate depends on identifying him with the adult fisher recorded in
+  1572–73 or with the later husband, neither of which is proved.
 * Death: after 10 January 1613; place unknown and date uncertain.
 * Possible father: [[Glasgow-1096|Robert Glasgow]], fisher and burgess; not
   directly proved because John may have been Ninian's half-brother.
@@ -69,8 +71,8 @@ the profile may conflate him with the John who married Jonet Mathie. Keep that
 identity problem explicit until an occupation, property, spouse or parentage
 record supplies the missing bridge. Do not merge [[Glasgow-1561|John Glasgow]]
 into this profile on chronology alone. [[Glasgow-3181|John Glasgow of
-Hirmanscheillis]] cannot be the brother in the 1613 testament because he died
-in November 1576.
+Hirmanscheillis]] cannot be the brother in the 1613 testament because his
+testament records a March death and he was certainly dead by 4 May 1577.
 
 == Sources ==
 <references />

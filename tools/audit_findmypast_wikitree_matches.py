@@ -9,7 +9,6 @@ given-name variants or newly plausible profile IDs.
 from __future__ import annotations
 
 import argparse
-import csv
 from datetime import datetime, timezone
 import hashlib
 import json
@@ -19,9 +18,23 @@ import sys
 from typing import Any
 
 try:
-    from project_paths import ROOT, SURNAME_PROFILE_INDEX, WORKBOOK_PATH, merged_onetree_profiles
+    from project_paths import (
+        ROOT,
+        SURNAME_PROFILE_INDEX,
+        WORKBOOK_PATH,
+        atomic_write_csv,
+        atomic_write_text,
+        merged_onetree_profiles,
+    )
 except ModuleNotFoundError:
-    from tools.project_paths import ROOT, SURNAME_PROFILE_INDEX, WORKBOOK_PATH, merged_onetree_profiles
+    from tools.project_paths import (
+        ROOT,
+        SURNAME_PROFILE_INDEX,
+        WORKBOOK_PATH,
+        atomic_write_csv,
+        atomic_write_text,
+        merged_onetree_profiles,
+    )
 
 sys.path.insert(0, str(ROOT / "src"))
 from wikitree_family_export import ExportError, post_wikitree  # noqa: E402
@@ -181,7 +194,10 @@ def read_json(path: Path, default: Any = None) -> Any:
 
 
 def write_json(path: Path, value: Any) -> None:
-    path.write_text(json.dumps(value, indent=2, ensure_ascii=False, sort_keys=True) + "\n", encoding="utf-8")
+    atomic_write_text(
+        path,
+        json.dumps(value, indent=2, ensure_ascii=False, sort_keys=True) + "\n",
+    )
 
 
 def clean(value: Any) -> str:
@@ -658,29 +674,31 @@ def main() -> int:
         "people": entries,
     }
     write_json(output_json, payload)
-    with output_csv.open("w", newline="", encoding="utf-8") as handle:
-        fieldnames = ["group_id", "name", "event_type", "event_date", "place", "status", "no_match_status",
-                      "profile_id", "candidate_decision", "exact_date", "exact_locality", "exact_relatives",
-                      "missing_for_confirmation", "profile_url"]
-        writer = csv.DictWriter(handle, fieldnames=fieldnames)
-        writer.writeheader()
-        for entry in entries:
-            rows = entry["candidates"] or [None]
-            for candidate in rows:
-                evidence = candidate["evidence"] if candidate else {}
-                writer.writerow({
-                    "group_id": entry["group_id"], "name": entry["person"]["name"],
-                    "event_type": entry["person"]["event_type"], "event_date": entry["person"]["event_date"],
-                    "place": entry["person"]["place"], "status": entry["status"],
-                    "no_match_status": entry["no_match_status"],
-                    "profile_id": candidate["profile_id"] if candidate else "",
-                    "candidate_decision": candidate["decision"] if candidate else "no_candidate",
-                    "exact_date": evidence.get("exact_full_date_bridge", ""),
-                    "exact_locality": evidence.get("place", {}).get("exact_locality_bridge", ""),
-                    "exact_relatives": evidence.get("relatives", {}).get("all_record_relatives_match", ""),
-                    "missing_for_confirmation": "; ".join(candidate["missing_for_confirmation"]) if candidate else "",
-                    "profile_url": candidate["url"] if candidate else "",
-                })
+    fieldnames = [
+        "group_id", "name", "event_type", "event_date", "place", "status",
+        "no_match_status", "profile_id", "candidate_decision", "exact_date",
+        "exact_locality", "exact_relatives", "missing_for_confirmation",
+        "profile_url",
+    ]
+    csv_rows = []
+    for entry in entries:
+        rows = entry["candidates"] or [None]
+        for candidate in rows:
+            evidence = candidate["evidence"] if candidate else {}
+            csv_rows.append({
+                "group_id": entry["group_id"], "name": entry["person"]["name"],
+                "event_type": entry["person"]["event_type"], "event_date": entry["person"]["event_date"],
+                "place": entry["person"]["place"], "status": entry["status"],
+                "no_match_status": entry["no_match_status"],
+                "profile_id": candidate["profile_id"] if candidate else "",
+                "candidate_decision": candidate["decision"] if candidate else "no_candidate",
+                "exact_date": evidence.get("exact_full_date_bridge", ""),
+                "exact_locality": evidence.get("place", {}).get("exact_locality_bridge", ""),
+                "exact_relatives": evidence.get("relatives", {}).get("all_record_relatives_match", ""),
+                "missing_for_confirmation": "; ".join(candidate["missing_for_confirmation"]) if candidate else "",
+                "profile_url": candidate["url"] if candidate else "",
+            })
+    atomic_write_csv(output_csv, fieldnames, csv_rows, encoding="utf-8")
     return 0 if complete else 2
 
 

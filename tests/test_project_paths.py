@@ -1,16 +1,92 @@
-"""Tests for canonicalising merged WikiTree profiles."""
+"""Tests for canonical project paths, exports and safe writes."""
 
+import csv
 import json
 from pathlib import Path
 import tempfile
 import unittest
 from unittest.mock import patch
 
+import tools.project_paths as project_paths
 from tools.project_paths import apply_profile_redirects
-from tools.build_family_map import apply_catalogue_profile_links
+from tools.build_family_map import apply_catalogue_profile_links, rebuild_standalone_onetree
 
 
 class ProjectPathTests(unittest.TestCase):
+    def test_relationship_collections_accept_list_and_dictionary_shapes(self):
+        parent = {"Name": "Glasgow-1"}
+        self.assertEqual(project_paths.relation_values({"Parents": [parent]}, "Parents"), [parent])
+        self.assertEqual(
+            project_paths.relation_values({"Parents": {"1": parent}}, "Parents"),
+            [parent],
+        )
+        self.assertEqual(
+            project_paths.relation_values({"Parents": "malformed"}, "Parents"),
+            [],
+        )
+
+    def test_catalogue_build_refreshes_standalone_one_tree(self):
+        with patch("tools.build_family_map.subprocess.run") as run:
+            rebuild_standalone_onetree()
+        run.assert_called_once()
+        self.assertTrue(run.call_args.kwargs["check"])
+
+    def test_atomic_text_writer_replaces_complete_content(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "state.json"
+            path.write_text("old", encoding="utf-8")
+            project_paths.atomic_write_text(path, "new\n")
+            self.assertEqual(path.read_text(encoding="utf-8"), "new\n")
+            self.assertEqual(list(path.parent.glob(f".{path.name}.*")), [])
+
+    def test_atomic_csv_writer_preserves_unicode_and_columns(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "records.csv"
+            project_paths.atomic_write_csv(
+                path, ["name", "place"], [{"name": "Élise", "place": "Ayr"}]
+            )
+            with path.open(encoding="utf-8-sig", newline="") as handle:
+                self.assertEqual(
+                    list(csv.DictReader(handle)),
+                    [{"name": "Élise", "place": "Ayr"}],
+                )
+
+    def test_atomic_csv_writer_accepts_unix_line_endings(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "records.csv"
+            project_paths.atomic_write_csv(
+                path,
+                ["name"],
+                [{"name": "Glasgow"}],
+                encoding="utf-8",
+                lineterminator="\n",
+            )
+            self.assertEqual(path.read_bytes(), b"name\nGlasgow\n")
+
+    def test_export_filename_timestamp_beats_filesystem_mtime(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            newer = root / "ONT_Glas_2026-02-01T00_00.json"
+            older = root / "ONT_Glas_2026-01-01T00_00.json"
+            for path, marker in ((newer, "newer"), (older, "older")):
+                path.write_text(json.dumps({"data": {
+                    "1": {"Name": "Glasgow-1", "marker": marker}
+                }}), encoding="utf-8")
+
+            # Return the files in the opposite order and make the older export
+            # the most recently copied file.  Neither should affect precedence.
+            older.touch()
+
+            class ReverseDirectory:
+                def glob(self, _pattern):
+                    return [newer, older]
+
+            with patch.object(project_paths, "ONETREE_EXPORT_DIR", ReverseDirectory()):
+                profiles, exports = project_paths.merged_onetree_profiles()
+
+        self.assertEqual([path.name for path in exports], [older.name, newer.name])
+        self.assertEqual(profiles["Glasgow-1"]["marker"], "newer")
+
     def test_redirected_profiles_and_family_references_are_canonicalised(self):
         profiles = {
             "Glasgow-1": {"Id": 1, "Name": "Glasgow-1"},

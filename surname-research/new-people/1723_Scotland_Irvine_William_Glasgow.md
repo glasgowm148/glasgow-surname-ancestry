@@ -18,6 +18,8 @@
 ## Paste-ready biography
 
 [[Category:Glasgow Name Study]]
+{{Estimated Date}}
+
 
 == Biography ==
 
@@ -29,7 +31,7 @@ Attach only relationships stated by the record after confirming the relative pro
 
 The completed live WikiTree audit retained no compatible profile candidate.
 
-'''Reviewed HOLD reason:''' The 1723 Irvine baptism and James Glasgow/Marion Rae parents distinguish this William from the County Tyrone candidate.
+'''Reviewed integration decision:''' The 1723 Irvine baptism and James Glasgow/Marion Rae parents distinguish this William from the County Tyrone candidate.
 
 * [[Glasgow-3962|William]] — no exact full event-date bridge; no exact locality bridge; named record relatives do not all resolve exactly on the profile
 
@@ -39,7 +41,7 @@ The 1 result ID(s) above represent one conservative documentary group because: s
 
 == Sources ==
 
-<references />
-
 <ref name="FMP1">[https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3573825&tab=this Findmypast transcript], Archive reference: OPR 595/1; Baptism date: 03 Feb 1723; Baptism year: 1723; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Ayrshire; Father's first name(s): James; Father's last name: Glasgow; First name(s): William; Item: 1; Last name: Glasgow; Mother's first name(s): Marion; Mother's last name: Rae; Page: 32; Place: Irvine; Record set: Scotland, Parish Births & Baptisms 1564-1929; Register year range: 1687-1788; Subcategory: Parish Baptisms (captured 2026-09-03T22:07:48.024Z).</ref>
+
+<references />
 <!-- END FMP-GLASGOW-fmp-glasgow-9bf49e7b9bd1 -->

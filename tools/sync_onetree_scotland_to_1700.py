@@ -7,7 +7,10 @@ import csv
 import json
 import re
 from dataclasses import dataclass
-from project_paths import MAP_AUDIT_DIR, MAP_RECORDS as CSV_PATH, latest_onetree_export
+from project_paths import (
+    MAP_AUDIT_DIR, MAP_RECORDS as CSV_PATH, atomic_write_csv,
+    atomic_write_text, latest_onetree_export, relation_values,
+)
 
 
 AUDIT_PATH = MAP_AUDIT_DIR / "onetree_scotland_through_1700.json"
@@ -94,7 +97,7 @@ def scottish_event(profile: dict) -> tuple[str, str] | None:
         return "BirthLocation", birth
     if death_is_scottish:
         return "DeathLocation", death
-    for spouse in profile.get("Spouses") or []:
+    for spouse in relation_values(profile, "Spouses"):
         value = spouse.get("MarriageLocation") or spouse.get("marriage_location") or ""
         if SCOTTISH_PLACE.search(value):
             return "MarriageLocation", value
@@ -230,14 +233,10 @@ def main() -> None:
         mapped_ids.add(name)
         added.append(name)
 
-    with CSV_PATH.open("w", encoding="utf-8-sig", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=fieldnames)
-        writer.writeheader()
-        writer.writerows(rows)
+    atomic_write_csv(CSV_PATH, fieldnames, rows)
 
     missing = [name for _, name, _, _ in qualifying if name not in mapped_ids]
-    AUDIT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    AUDIT_PATH.write_text(json.dumps({
+    atomic_write_text(AUDIT_PATH, json.dumps({
         "export": export_path.name,
         "cutoff_birth_year": 1700,
         "selection": "Glasgow surname variant, known birth year <= 1700, and a Scottish event or directly attached Scottish parent/child",
@@ -245,7 +244,7 @@ def main() -> None:
         "newly_added_this_run": len(added),
         "updated_to_more_specific_death_location": sorted(set(updated)),
         "remaining_missing": missing,
-    }, indent=2) + "\n", encoding="utf-8")
+    }, indent=2) + "\n")
     if missing:
         raise SystemExit(f"Audit failed: {len(missing)} profiles remain missing")
     print(f"{len(qualifying)} Scottish profiles through 1700; added {len(added)}; updated {len(set(updated))}; 0 missing")

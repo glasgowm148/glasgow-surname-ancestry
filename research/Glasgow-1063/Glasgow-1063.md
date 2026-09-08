@@ -11,5 +11,5 @@ The transcript distinguishes Margaret's birth on 14 March from her baptism on 17
 
 == Sources ==
 <references />
-* Glasgow, **Margaret** F C 17 Mar 1723 Ayr, Kilwinning.
+* Glasgow, '''Margaret''' F C 17 Mar 1723 Ayr, Kilwinning.
 * Baptism record for Margaret Glasgow, 17-Mar-1723, Kilwinning, ScotlandsPeople.gov.uk, church registers, parish number 599, Ref: 10/261.

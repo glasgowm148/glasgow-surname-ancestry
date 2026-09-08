@@ -5,7 +5,7 @@ below. Merge these sourced additions into the existing text; do not paste this f
 over the whole biography.
 
 ```wikitext
-{{One Name Study|name=Glasgow}}
+[[Category:Glasgow Name Study]]
 {{Estimated Date}}
 
 == Biography ==

@@ -247,6 +247,14 @@ proved Larne/Kilwaughter bridge.
 - [NRS `GD86/741`, Ayr sasine written by Robert Glasgow](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/browseDetails.aspx?reference=GD86%2F741), 6 August 1688.
 - [Scotland's People Virtual Volumes, E70/4/10, image 11](https://www.scotlandspeople.gov.uk/virtual-volumes/volume-images/volume_data-E70-4-10/REX01666?image_number=11), North Leith poll tax, 3 October 1694.
 - [NRS `GD112/15/59`](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD112%2F15%2F59), item 24, receipt by Robert Glasgow in Alexander Ainslie's name, 16 July 1694.
+
+## 1666 shipmaster disposition
+
+The Robert Glasgow who was master of the *John of Portrush* in 1666 should be
+created as a distinct, unconnected profile. Larne and the vessel's Portrush
+name supply relevant cross-channel context, but the vessel name is not a
+residence and no occupation, family, signature or exact-event bridge connects
+the 1653 Larne witness to the shipmaster.
 ## Focused FamilySearch full-text result - 20 August 2026
 
 Exact-name searches restricted to Larne or Kilwaughter and the seventeenth

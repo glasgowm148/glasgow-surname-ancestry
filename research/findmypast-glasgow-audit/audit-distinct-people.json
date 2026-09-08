@@ -33853,10 +33853,9 @@
     {
       "country": "Scotland",
       "detail_captured_at": [
-        "2026-09-03T20:39:28.093Z",
-        "2026-09-03T21:35:58.753Z"
+        "2026-09-03T20:39:28.093Z"
       ],
-      "duplicate_group_reason": "reviewed same-person cluster: Both Edinburgh apprenticeship entries name James Glasgow as apprentice and a father James Glasgow, weaver. The 1690 entry was scored out and calls the father deceased; a later 1696 apprenticeship is a coherent continuation, so keep one documentary person HOLD while the Lindsaylands father and same-name sons are distinguished.",
+      "duplicate_group_reason": "singleton; no strong same-event duplicate proof",
       "event_date": "7 May 1690",
       "event_type": "apprenticeship",
       "event_year": 1690,
@@ -34019,10 +34018,9 @@
       "match_status": "local candidates only; live WikiTree/API review still required",
       "name": "James Glasgow",
       "place": "Edinburgh",
-      "record_count": 2,
+      "record_count": 1,
       "record_ids": [
-        "SCOT/EDINBURGH/APPRENTICES/0005159/1",
-        "SCOT/EDINBURGH/APPRENTICES/0005161/1"
+        "SCOT/EDINBURGH/APPRENTICES/0005159/1"
       ],
       "record_sets": [
         "Scotland, Edinburgh Apprentices 1583-1800"
@@ -34128,115 +34126,14 @@
             "Year": "1690"
           },
           "transcript_text": "Back\nJames Glasgow in 1690\nScotland, Edinburgh Apprentices 1583-1800\nEdinburgh, Midlothian, Scotland\nSave to workspace\nCreate a tree\nPrint\nTranscript of James's record\nfile_copy\nCopy to clipboard\nFirst name(s) James\nMaster first name William\nLast name Glasgow\nMaster last name Brown\nEvent date 7 May 1690\nPlace Edinburgh\nYear 1690\nCounty Midlothian\nTrade Cordiner and tanner\nCountry Scotland\nApprentice first name James\nNotes (scored out). Father deceased. Wm. Brown, cordiner in Portsburgh and tanner, burgess\nApprentice last name Glasgow\nRecord set Scotland, Edinburgh Apprentices 1583-1800\nFather first name James\nRole Apprentice\nFather last name Glasgow\nCategory Education & work\nFather occupation Weaver\nSubcategory Apprentices\nFather residence Lindsayland\nCollections from Great Britain, Scotland\n\n© Findmypast\n\nDid your ancestors learn or practice their trade in the city of Edinburgh? Discover details of their work and training in this collection of records of apprentices and masters.\n\nAgreements between a master and apprentice (also known as an indentures) enable a less experienced person to gather the skills required for a career in a new trade or craft. Informal indentures (where someone trained with their father or a close family member) were common, which are rarely recorded. For those that exist on record, these documents are a great way to find the place of origin of those who move to the city and later set down roots.\n\nThe life of an apprentice was completely dependent on the master that took them on and what they were to be taught was not specified (some masters spent very little time with their new charges and gave them only menial tasks to complete, rather than developing their skills). Apprentices relied on their masters for food, shelter and clothing. During their years of training, they were forbidden to marry, gamble or visit public houses.\n\nUpon completion of their apprenticeship, the individual would be eligible for joining a guild of burgesses, of which other records may exist."
-        },
-        {
-          "captured_at": "2026-09-03T21:35:58.753Z",
-          "country": "Scotland",
-          "detail_source_file": "record-details-pre1701.json",
-          "event_date": "22 Apr 1696",
-          "event_date_label": "Event date",
-          "event_type": "apprenticeship",
-          "event_year": 1696,
-          "event_year_end": 1696,
-          "event_year_start": 1696,
-          "first_name": "James",
-          "heading": "",
-          "image_url": "",
-          "last_name": "Glasgow",
-          "name": "James Glasgow",
-          "place": "Edinburgh",
-          "record_id": "SCOT/EDINBURGH/APPRENTICES/0005161/1",
-          "record_set": "Scotland, Edinburgh Apprentices 1583-1800",
-          "references": {},
-          "relative_values": {
-            "Father first name": "James",
-            "Father last name": "Glasgow",
-            "Father occupation": "Weaver"
-          },
-          "result_row": {
-            "accessible_detail_json": "{\"detail_overlay\":{\"access_status\":\"accessible\",\"captured_at\":\"2026-09-03T21:35:58.753Z\",\"event_year\":\"1696\",\"final_url\":\"https://www.findmypast.co.uk/transcript?id=SCOT%2FEDINBURGH%2FAPPRENTICES%2F0005161%2F1&tab=this\",\"image_url\":\"\",\"requested_url\":\"https://www.findmypast.co.uk/transcript?id=SCOT%2FEDINBURGH%2FAPPRENTICES%2F0005161%2F1\",\"review_reason\":\"The full transcript gives Glasgow exactly in a surname/last-name field and does not identify it as an office or place descriptor.\",\"surname_status\":\"confirmed\",\"title\":\"James Glasgow in 1696\",\"transcript_fields\":{\"Apprentice first name\":\"James\",\"Apprentice last name\":\"Glasgow\",\"Category\":\"Education & work\",\"Collections from\":\"Great Britain, Scotland\",\"Country\":\"Scotland\",\"County\":\"Midlothian\",\"Event date\":\"22 Apr 1696\",\"Father first name\":\"James\",\"Father last name\":\"Glasgow\",\"Father occupation\":\"Weaver\",\"First name(s)\":\"James\",\"Last name\":\"Glasgow\",\"Master first name\":\"William\",\"Master last name\":\"Adamson\",\"Notes\":\"Father and master both burgesses\",\"Place\":\"Edinburgh\",\"Record set\":\"Scotland, Edinburgh Apprentices 1583-1800\",\"Role\":\"Apprentice\",\"Subcategory\":\"Apprentices\",\"Trade\":\"Apothecary\",\"Year\":\"1696\"},\"transcript_text\":\"Back\\nJames Glasgow in 1696\\nScotland, Edinburgh Apprentices 1583-1800\\nEdinburgh, Midlothian, Scotland\\nSave to workspace\\nCreate a tree\\nPrint\\nTranscript of James's record\\nfile_copy\\nCopy to clipboard\\nFirst name(s) James\\nMaster last name Adamson\\nLast name Glasgow\\nPlace Edinburgh\\nEvent date 22 Apr 1696\\nCounty Midlothian\\nYear 1696\\nCountry Scotland\\nTrade Apothecary\\nNotes Father and master both burgesses\\nApprentice first name James\\nRecord set Scotland, Edinburgh Apprentices 1583-1800\\nApprentice last name Glasgow\\nRole Apprentice\\nFather first name James\\nCategory Education & work\\nFather last name Glasgow\\nSubcategory Apprentices\\nFather occupation Weaver\\nCollections from Great Britain, Scotland\\nMaster first name William\\n \\n\\n© Findmypast\",\"url\":\"https://www.findmypast.co.uk/transcript?id=SCOT%2FEDINBURGH%2FAPPRENTICES%2F0005161%2F1&tab=this\"}}",
-            "captured_at": "2026-09-03T19:43:02.394Z",
-            "classification": "candidate_in_scope",
-            "classification_reasons": "",
-            "control_query": false,
-            "detail_access_status": "accessible",
-            "detail_block_reason": "",
-            "detail_captured_at": "2026-09-03T21:35:58.753Z",
-            "detail_source_file": "record-details-pre1701.json",
-            "detail_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FEDINBURGH%2FAPPRENTICES%2F0005161%2F1&tab=this",
-            "event_year": "1696",
-            "exclusion_reason": "",
-            "first_name": "James",
-            "image_url": "",
-            "included_in_analysis": true,
-            "last_name": "Glasgow",
-            "links_json": "[{\"label\":\"View transcript\",\"url\":\"https://www.findmypast.co.uk/transcript?id=SCOT%2FEDINBURGH%2FAPPRENTICES%2F0005161%2F1\"}]",
-            "location": "Edinburgh, Midlothian, Scotland",
-            "page": 1,
-            "page_url_matches_claim": true,
-            "page_url_number": 1,
-            "partition_group": "1661-o40",
-            "partition_group_id": "",
-            "partition_type": "sourcecategory",
-            "raw_row_json": "{\"event_year\":\"1696\",\"first_name\":\"James\",\"last_name\":\"Glasgow\",\"links\":[{\"label\":\"View transcript\",\"url\":\"https://www.findmypast.co.uk/transcript?id=SCOT%2FEDINBURGH%2FAPPRENTICES%2F0005161%2F1\"}],\"location\":\"Edinburgh, Midlothian, Scotland\",\"record_id\":\"SCOT/EDINBURGH/APPRENTICES/0005161/1\",\"record_set\":\"Scotland, Edinburgh Apprentices 1583-1800\",\"subscription_locked\":false,\"year_of_birth\":\"—\",\"year_of_death\":\"—\"}",
-            "record_id": "SCOT/EDINBURGH/APPRENTICES/0005161/1",
-            "record_occurrences": 1,
-            "record_set": "Scotland, Edinburgh Apprentices 1583-1800",
-            "result_page_url": "https://www.findmypast.co.uk/search/results?eventyear=1661&eventyear_offset=40&lastname=glasgow&sourcecategory=education%20%26%20work&sid=999",
-            "review_reason": "",
-            "review_source": "",
-            "review_status": "",
-            "row_on_page": 12,
-            "sort": "",
-            "source_file": "raw-results-1661-o40-education.json",
-            "sourcecategory": "education & work",
-            "sourcecountry": "",
-            "subscription_locked": false,
-            "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FEDINBURGH%2FAPPRENTICES%2F0005161%2F1",
-            "window_end": 1701,
-            "window_eventyear": 1661,
-            "window_start": 1621,
-            "year_of_birth": "",
-            "year_of_death": ""
-          },
-          "review_reason": "The full transcript gives Glasgow exactly in a surname/last-name field and does not identify it as an office or place descriptor.",
-          "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FEDINBURGH%2FAPPRENTICES%2F0005161%2F1&tab=this",
-          "temporal_basis": "transcript field Event date",
-          "title": "James Glasgow in 1696",
-          "transcript_fields": {
-            "Apprentice first name": "James",
-            "Apprentice last name": "Glasgow",
-            "Category": "Education & work",
-            "Collections from": "Great Britain, Scotland",
-            "Country": "Scotland",
-            "County": "Midlothian",
-            "Event date": "22 Apr 1696",
-            "Father first name": "James",
-            "Father last name": "Glasgow",
-            "Father occupation": "Weaver",
-            "First name(s)": "James",
-            "Last name": "Glasgow",
-            "Master first name": "William",
-            "Master last name": "Adamson",
-            "Notes": "Father and master both burgesses",
-            "Place": "Edinburgh",
-            "Record set": "Scotland, Edinburgh Apprentices 1583-1800",
-            "Role": "Apprentice",
-            "Subcategory": "Apprentices",
-            "Trade": "Apothecary",
-            "Year": "1696"
-          },
-          "transcript_text": "Back\nJames Glasgow in 1696\nScotland, Edinburgh Apprentices 1583-1800\nEdinburgh, Midlothian, Scotland\nSave to workspace\nCreate a tree\nPrint\nTranscript of James's record\nfile_copy\nCopy to clipboard\nFirst name(s) James\nMaster last name Adamson\nLast name Glasgow\nPlace Edinburgh\nEvent date 22 Apr 1696\nCounty Midlothian\nYear 1696\nCountry Scotland\nTrade Apothecary\nNotes Father and master both burgesses\nApprentice first name James\nRecord set Scotland, Edinburgh Apprentices 1583-1800\nApprentice last name Glasgow\nRole Apprentice\nFather first name James\nCategory Education & work\nFather last name Glasgow\nSubcategory Apprentices\nFather occupation Weaver\nCollections from Great Britain, Scotland\nMaster first name William\n \n\n© Findmypast"
         }
       ],
       "source_urls": [
-        "https://www.findmypast.co.uk/transcript?id=SCOT%2FEDINBURGH%2FAPPRENTICES%2F0005159%2F1&tab=this",
-        "https://www.findmypast.co.uk/transcript?id=SCOT%2FEDINBURGH%2FAPPRENTICES%2F0005161%2F1&tab=this"
+        "https://www.findmypast.co.uk/transcript?id=SCOT%2FEDINBURGH%2FAPPRENTICES%2F0005159%2F1&tab=this"
       ],
       "supplement_id": "fmp-glasgow-cc9a54fb3b86",
       "temporal_basis": "transcript field Event date",
       "transcript_titles": [
-        "James Glasgow in 1696",
         "Record Transcription: Scotland, Edinburgh Apprentices 1583-1800 | findmypast.co.uk"
       ]
     },
@@ -35634,6 +35531,291 @@
       "temporal_basis": "transcript field Baptism date",
       "transcript_titles": [
         "Alexander Glasgow in 1695"
+      ]
+    },
+    {
+      "country": "Scotland",
+      "detail_captured_at": [
+        "2026-09-03T21:35:58.753Z"
+      ],
+      "duplicate_group_reason": "singleton; no strong same-event duplicate proof",
+      "event_date": "22 Apr 1696",
+      "event_type": "apprenticeship",
+      "event_year": 1696,
+      "event_year_end": 1696,
+      "event_year_start": 1696,
+      "first_name": "James",
+      "group_id": "fmp-glasgow-59dea07d1fbb",
+      "image_urls": [],
+      "last_name": "Glasgow",
+      "local_wikitree_candidate_ids": [
+        "Glasgow-1376",
+        "Glasgow-3076",
+        "Glasgow-3077",
+        "Glasgow-3098",
+        "Glasgow-3103",
+        "Glasgow-3337",
+        "Glasgow-3368"
+      ],
+      "local_wikitree_candidates": [
+        {
+          "birth_date": "1657-01-29",
+          "birth_location": "Edinburgh, Midlothian, Scotland",
+          "chronology": "event falls within the local profile's possible lifespan",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "local_sources": [
+            "one_tree_export",
+            "surname_index"
+          ],
+          "name": "James Glasgow",
+          "place_overlap": [
+            "edinburgh"
+          ],
+          "profile_id": "Glasgow-1376",
+          "score": 75,
+          "status": "candidate lead only; identity not established",
+          "strength": "chronology + locality",
+          "url": "https://www.wikitree.com/wiki/Glasgow-1376"
+        },
+        {
+          "birth_date": "1661-03-03",
+          "birth_location": "Saint Cuthberts, Edinburgh, Midlothian, Scotland",
+          "chronology": "event falls within the local profile's possible lifespan",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "local_sources": [
+            "one_tree_export",
+            "surname_index"
+          ],
+          "name": "James Glasgow",
+          "place_overlap": [
+            "edinburgh"
+          ],
+          "profile_id": "Glasgow-3076",
+          "score": 75,
+          "status": "candidate lead only; identity not established",
+          "strength": "chronology + locality",
+          "url": "https://www.wikitree.com/wiki/Glasgow-3076"
+        },
+        {
+          "birth_date": "1640-00-00",
+          "birth_location": "Saint Cuthberts, Edinburgh, Midlothian, Scotland",
+          "chronology": "event falls within the local profile's possible lifespan",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "local_sources": [
+            "one_tree_export",
+            "surname_index"
+          ],
+          "name": "James Glasgow",
+          "place_overlap": [
+            "edinburgh"
+          ],
+          "profile_id": "Glasgow-3077",
+          "score": 75,
+          "status": "candidate lead only; identity not established",
+          "strength": "chronology + locality",
+          "url": "https://www.wikitree.com/wiki/Glasgow-3077"
+        },
+        {
+          "birth_date": "1631-00-00",
+          "birth_location": "Edinburgh, Midlothian, Scotland",
+          "chronology": "event falls within the local profile's possible lifespan",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "local_sources": [
+            "surname_index"
+          ],
+          "name": "James Glasgow",
+          "place_overlap": [
+            "edinburgh"
+          ],
+          "profile_id": "Glasgow-3098",
+          "score": 75,
+          "status": "candidate lead only; identity not established",
+          "strength": "chronology + locality",
+          "url": "https://www.wikitree.com/wiki/Glasgow-3098"
+        },
+        {
+          "birth_date": "1679-03-16",
+          "birth_location": "Edinburgh, Midlothian, Scotland",
+          "chronology": "event falls within the local profile's possible lifespan",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "local_sources": [
+            "one_tree_export",
+            "surname_index"
+          ],
+          "name": "James Glasgow",
+          "place_overlap": [
+            "edinburgh"
+          ],
+          "profile_id": "Glasgow-3103",
+          "score": 75,
+          "status": "candidate lead only; identity not established",
+          "strength": "chronology + locality",
+          "url": "https://www.wikitree.com/wiki/Glasgow-3103"
+        },
+        {
+          "birth_date": "1640-00-00",
+          "birth_location": "Edinburgh, Scotland",
+          "chronology": "event falls within the local profile's possible lifespan",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "local_sources": [
+            "one_tree_export",
+            "surname_index"
+          ],
+          "name": "James Glasgow",
+          "place_overlap": [
+            "edinburgh"
+          ],
+          "profile_id": "Glasgow-3337",
+          "score": 75,
+          "status": "candidate lead only; identity not established",
+          "strength": "chronology + locality",
+          "url": "https://www.wikitree.com/wiki/Glasgow-3337"
+        },
+        {
+          "birth_date": "1680-04-18",
+          "birth_location": "Edinburgh, Midlothian, Scotland",
+          "chronology": "event falls within the local profile's possible lifespan",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "local_sources": [
+            "one_tree_export",
+            "surname_index"
+          ],
+          "name": "James Glasgow",
+          "place_overlap": [
+            "edinburgh"
+          ],
+          "profile_id": "Glasgow-3368",
+          "score": 75,
+          "status": "candidate lead only; identity not established",
+          "strength": "chronology + locality",
+          "url": "https://www.wikitree.com/wiki/Glasgow-3368"
+        }
+      ],
+      "match_status": "local candidates only; live WikiTree/API review still required",
+      "name": "James Glasgow",
+      "place": "Edinburgh",
+      "record_count": 1,
+      "record_ids": [
+        "SCOT/EDINBURGH/APPRENTICES/0005161/1"
+      ],
+      "record_sets": [
+        "Scotland, Edinburgh Apprentices 1583-1800"
+      ],
+      "records": [
+        {
+          "captured_at": "2026-09-03T21:35:58.753Z",
+          "country": "Scotland",
+          "detail_source_file": "record-details-pre1701.json",
+          "event_date": "22 Apr 1696",
+          "event_date_label": "Event date",
+          "event_type": "apprenticeship",
+          "event_year": 1696,
+          "event_year_end": 1696,
+          "event_year_start": 1696,
+          "first_name": "James",
+          "heading": "",
+          "image_url": "",
+          "last_name": "Glasgow",
+          "name": "James Glasgow",
+          "place": "Edinburgh",
+          "record_id": "SCOT/EDINBURGH/APPRENTICES/0005161/1",
+          "record_set": "Scotland, Edinburgh Apprentices 1583-1800",
+          "references": {},
+          "relative_values": {
+            "Father first name": "James",
+            "Father last name": "Glasgow",
+            "Father occupation": "Weaver"
+          },
+          "result_row": {
+            "accessible_detail_json": "{\"detail_overlay\":{\"access_status\":\"accessible\",\"captured_at\":\"2026-09-03T21:35:58.753Z\",\"event_year\":\"1696\",\"final_url\":\"https://www.findmypast.co.uk/transcript?id=SCOT%2FEDINBURGH%2FAPPRENTICES%2F0005161%2F1&tab=this\",\"image_url\":\"\",\"requested_url\":\"https://www.findmypast.co.uk/transcript?id=SCOT%2FEDINBURGH%2FAPPRENTICES%2F0005161%2F1\",\"review_reason\":\"The full transcript gives Glasgow exactly in a surname/last-name field and does not identify it as an office or place descriptor.\",\"surname_status\":\"confirmed\",\"title\":\"James Glasgow in 1696\",\"transcript_fields\":{\"Apprentice first name\":\"James\",\"Apprentice last name\":\"Glasgow\",\"Category\":\"Education & work\",\"Collections from\":\"Great Britain, Scotland\",\"Country\":\"Scotland\",\"County\":\"Midlothian\",\"Event date\":\"22 Apr 1696\",\"Father first name\":\"James\",\"Father last name\":\"Glasgow\",\"Father occupation\":\"Weaver\",\"First name(s)\":\"James\",\"Last name\":\"Glasgow\",\"Master first name\":\"William\",\"Master last name\":\"Adamson\",\"Notes\":\"Father and master both burgesses\",\"Place\":\"Edinburgh\",\"Record set\":\"Scotland, Edinburgh Apprentices 1583-1800\",\"Role\":\"Apprentice\",\"Subcategory\":\"Apprentices\",\"Trade\":\"Apothecary\",\"Year\":\"1696\"},\"transcript_text\":\"Back\\nJames Glasgow in 1696\\nScotland, Edinburgh Apprentices 1583-1800\\nEdinburgh, Midlothian, Scotland\\nSave to workspace\\nCreate a tree\\nPrint\\nTranscript of James's record\\nfile_copy\\nCopy to clipboard\\nFirst name(s) James\\nMaster last name Adamson\\nLast name Glasgow\\nPlace Edinburgh\\nEvent date 22 Apr 1696\\nCounty Midlothian\\nYear 1696\\nCountry Scotland\\nTrade Apothecary\\nNotes Father and master both burgesses\\nApprentice first name James\\nRecord set Scotland, Edinburgh Apprentices 1583-1800\\nApprentice last name Glasgow\\nRole Apprentice\\nFather first name James\\nCategory Education & work\\nFather last name Glasgow\\nSubcategory Apprentices\\nFather occupation Weaver\\nCollections from Great Britain, Scotland\\nMaster first name William\\n \\n\\n© Findmypast\",\"url\":\"https://www.findmypast.co.uk/transcript?id=SCOT%2FEDINBURGH%2FAPPRENTICES%2F0005161%2F1&tab=this\"}}",
+            "captured_at": "2026-09-03T19:43:02.394Z",
+            "classification": "candidate_in_scope",
+            "classification_reasons": "",
+            "control_query": false,
+            "detail_access_status": "accessible",
+            "detail_block_reason": "",
+            "detail_captured_at": "2026-09-03T21:35:58.753Z",
+            "detail_source_file": "record-details-pre1701.json",
+            "detail_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FEDINBURGH%2FAPPRENTICES%2F0005161%2F1&tab=this",
+            "event_year": "1696",
+            "exclusion_reason": "",
+            "first_name": "James",
+            "image_url": "",
+            "included_in_analysis": true,
+            "last_name": "Glasgow",
+            "links_json": "[{\"label\":\"View transcript\",\"url\":\"https://www.findmypast.co.uk/transcript?id=SCOT%2FEDINBURGH%2FAPPRENTICES%2F0005161%2F1\"}]",
+            "location": "Edinburgh, Midlothian, Scotland",
+            "page": 1,
+            "page_url_matches_claim": true,
+            "page_url_number": 1,
+            "partition_group": "1661-o40",
+            "partition_group_id": "",
+            "partition_type": "sourcecategory",
+            "raw_row_json": "{\"event_year\":\"1696\",\"first_name\":\"James\",\"last_name\":\"Glasgow\",\"links\":[{\"label\":\"View transcript\",\"url\":\"https://www.findmypast.co.uk/transcript?id=SCOT%2FEDINBURGH%2FAPPRENTICES%2F0005161%2F1\"}],\"location\":\"Edinburgh, Midlothian, Scotland\",\"record_id\":\"SCOT/EDINBURGH/APPRENTICES/0005161/1\",\"record_set\":\"Scotland, Edinburgh Apprentices 1583-1800\",\"subscription_locked\":false,\"year_of_birth\":\"—\",\"year_of_death\":\"—\"}",
+            "record_id": "SCOT/EDINBURGH/APPRENTICES/0005161/1",
+            "record_occurrences": 1,
+            "record_set": "Scotland, Edinburgh Apprentices 1583-1800",
+            "result_page_url": "https://www.findmypast.co.uk/search/results?eventyear=1661&eventyear_offset=40&lastname=glasgow&sourcecategory=education%20%26%20work&sid=999",
+            "review_reason": "",
+            "review_source": "",
+            "review_status": "",
+            "row_on_page": 12,
+            "sort": "",
+            "source_file": "raw-results-1661-o40-education.json",
+            "sourcecategory": "education & work",
+            "sourcecountry": "",
+            "subscription_locked": false,
+            "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FEDINBURGH%2FAPPRENTICES%2F0005161%2F1",
+            "window_end": 1701,
+            "window_eventyear": 1661,
+            "window_start": 1621,
+            "year_of_birth": "",
+            "year_of_death": ""
+          },
+          "review_reason": "The full transcript gives Glasgow exactly in a surname/last-name field and does not identify it as an office or place descriptor.",
+          "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FEDINBURGH%2FAPPRENTICES%2F0005161%2F1&tab=this",
+          "temporal_basis": "transcript field Event date",
+          "title": "James Glasgow in 1696",
+          "transcript_fields": {
+            "Apprentice first name": "James",
+            "Apprentice last name": "Glasgow",
+            "Category": "Education & work",
+            "Collections from": "Great Britain, Scotland",
+            "Country": "Scotland",
+            "County": "Midlothian",
+            "Event date": "22 Apr 1696",
+            "Father first name": "James",
+            "Father last name": "Glasgow",
+            "Father occupation": "Weaver",
+            "First name(s)": "James",
+            "Last name": "Glasgow",
+            "Master first name": "William",
+            "Master last name": "Adamson",
+            "Notes": "Father and master both burgesses",
+            "Place": "Edinburgh",
+            "Record set": "Scotland, Edinburgh Apprentices 1583-1800",
+            "Role": "Apprentice",
+            "Subcategory": "Apprentices",
+            "Trade": "Apothecary",
+            "Year": "1696"
+          },
+          "transcript_text": "Back\nJames Glasgow in 1696\nScotland, Edinburgh Apprentices 1583-1800\nEdinburgh, Midlothian, Scotland\nSave to workspace\nCreate a tree\nPrint\nTranscript of James's record\nfile_copy\nCopy to clipboard\nFirst name(s) James\nMaster last name Adamson\nLast name Glasgow\nPlace Edinburgh\nEvent date 22 Apr 1696\nCounty Midlothian\nYear 1696\nCountry Scotland\nTrade Apothecary\nNotes Father and master both burgesses\nApprentice first name James\nRecord set Scotland, Edinburgh Apprentices 1583-1800\nApprentice last name Glasgow\nRole Apprentice\nFather first name James\nCategory Education & work\nFather last name Glasgow\nSubcategory Apprentices\nFather occupation Weaver\nCollections from Great Britain, Scotland\nMaster first name William\n \n\n© Findmypast"
+        }
+      ],
+      "source_urls": [
+        "https://www.findmypast.co.uk/transcript?id=SCOT%2FEDINBURGH%2FAPPRENTICES%2F0005161%2F1&tab=this"
+      ],
+      "supplement_id": "fmp-glasgow-59dea07d1fbb",
+      "temporal_basis": "transcript field Event date",
+      "transcript_titles": [
+        "James Glasgow in 1696"
       ]
     },
     {
@@ -68772,7 +68954,7 @@
       "display_event_year": "1696",
       "display_location": "Edinburgh, Midlothian, Scotland",
       "display_name": "James Glasgow",
-      "group_id": "fmp-glasgow-cc9a54fb3b86",
+      "group_id": "fmp-glasgow-59dea07d1fbb",
       "included_in_reconciled_analysis": true,
       "outcome": "validated_in_scope",
       "reason": "full transcript validates an exact Glasgow-surname person and an event no later than 1750",
@@ -78585,7 +78767,7 @@
       1,
       1750
     ],
-    "conservative_distinct_people": 224,
+    "conservative_distinct_people": 225,
     "daily_limit_schema_access_status": "subscription_locked",
     "detail_ids_without_observed_exact_display_row": 0,
     "detail_overlay_record_ids": 646,
@@ -78709,10 +78891,10 @@
       "unresolved_review": 871,
       "validated_in_scope": 252
     },
-    "people_with_local_wikitree_candidates": 124,
+    "people_with_local_wikitree_candidates": 125,
     "record_specific_subscription_locked_record_ids": 31,
-    "same_event_duplicate_groups": 22,
-    "same_event_duplicate_record_ids": 50,
+    "same_event_duplicate_groups": 21,
+    "same_event_duplicate_record_ids": 48,
     "temporary_daily_limit_record_ids": 127,
     "transcript_validated_in_scope_record_ids": 252
   },

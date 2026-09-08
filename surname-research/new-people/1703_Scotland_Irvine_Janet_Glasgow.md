@@ -18,6 +18,8 @@
 ## Paste-ready biography
 
 [[Category:Glasgow Name Study]]
+{{Estimated Date}}
+
 
 == Biography ==
 
@@ -39,7 +41,7 @@ The 1 result ID(s) above represent one conservative documentary group because: s
 
 == Sources ==
 
-<references />
-
 <ref name="FMP1">[https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3572579&tab=this Findmypast transcript], Archive reference: OPR 595/1; Baptism date: 14 Aug 1703; Baptism year: 1703; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Ayrshire; Father's first name(s): Jo; Father's last name: Glasgow; First name(s): Janet; Item: 1; Last name: Glasgow; Mother's first name(s): Isobell; Mother's last name: Kelle; Page: 10; Place: Irvine; Record set: Scotland, Parish Births & Baptisms 1564-1929; Register year range: 1687-1788; Subcategory: Parish Baptisms (captured 2026-09-03T22:07:13.356Z).</ref>
+
+<references />
 <!-- END FMP-GLASGOW-fmp-glasgow-5333ccc1e75f -->

@@ -27,3 +27,18 @@ The transcript-validated baptism record for **George Glasgow**, 20 Nov 1687, Kil
 
 Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
 <!-- END FMP-GLASGOW-fmp-glasgow-10c6b4b0ab3d -->
+
+## Identity assessment — 1724 Court of Session files
+
+Do not assign `CS143/24` or `CS228/G/1/105` to
+[[Glasgow-1058|George Glasgow]]. Their public NRS titles name an undesignated
+George Glasgow but give no residence, occupation, kin, property or associate
+found on this profile. The matching name and plausible age are insufficient.
+The two files have separate [title-deeds](../hold-resolution/record-dossiers/cs143-24-george-glasgow-robert-crawford.md)
+and [George v Stevenson](../hold-resolution/record-dossiers/cs228-g-1-105-george-glasgow-v-stevenson.md)
+dossiers.
+
+## Recommended action — 1724 Court of Session files
+
+Make no profile amendment unless an original process supplies an independent
+identifier linking its George to this Kilwinning family.

@@ -67,9 +67,22 @@ identity.
 | John Glasgow, Maghrebegg, 1685 | Exact record-defined match: [[Glasgow-3984|John Glasgow]]. | [Resolved evidence](Glasgow-3984/1685_Ireland_Maghrebegg_John_Glasgow.md); [[Glasgow-3913|the Kilwaughter John]] remains only a possible later identity. |
 | Robert Glascow, Belfast, 1685 | Created as [[Glasgow-4009|Robert Glascow]]. | [Created-profile record](Glasgow-4009/1685_Ireland_Belfast_Robert_Glascow.md); [[Glasgow-1078|the Larne/Kilwaughter Robert]] remains only a possible later identity. |
 
-The separate sixteenth-century evidence register was also reconciled against
-the export and all existing `research/Glasgow-*` folders. The only minimum
-people still lacking WikiTree IDs are the testament-proved sons Andrew and
-William of [[Glasgow-3163|Andrew Glasgow of Corstoun]]. Their complete creation
-drafts remain in `surname-research/new-people`; no additional pre-1600 Glasgow
-person cleared the duplicate threshold.
+The sixteenth-century testament conclusions were re-audited against the
+original images in September 2026. [[Glasgow-3163|Andrew Glasgow of
+[Corsoun?]]] did not name sons Andrew and William. He expressly named Robert
+as his son by Elizat Stevinsoun and named daughters Marion, Janet and Isobel;
+the possible unborn child was conditional only. Copy-ready HOLD drafts now
+cover those four proved children while plausible existing profiles are tested.
+The profiles created for the former Andrew and William readings,
+[[Glasgow-4006]] and [[Glasgow-4007]], require correction and must not be
+repurposed as the proved children. The 1577 Hirmenschelis testament separately
+names a second lawful child provisionally read [Androw?/Andrew], with
+[[Glasgow-3163]] only a possible later identity.
+
+The same reconciliation confirms that Katherine Glasgow's CC9/7/4 testament
+is already represented by [[Glasgow-1495]] and her proved husband
+[[Weir-4172|Thomas Weir]], so it creates no unlinked person. Katherine died in
+January 1603 and the testament was confirmed in May 1605; the exact day remains
+unresolved because the manuscript appears to read [26?], while Findmypast and
+Grant give 9 May. William, James and Jonet Weir are probable children from the
+executor context, but the securely read wording does not prove parentage.

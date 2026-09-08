@@ -58,6 +58,36 @@ class ResearchLoopTests(unittest.TestCase):
             with self.assertRaisesRegex(exporter.ExportError, "AWS WAF challenged"):
                 exporter.post_wikitree({"action": "getProfile", "key": "Example-1"})
 
+    def test_api_retries_transient_transport_and_server_failures(self) -> None:
+        unavailable = Mock()
+        unavailable.status_code = 503
+        unavailable.headers = {"Retry-After": "not-a-number"}
+        unavailable.raise_for_status.side_effect = exporter.requests.HTTPError("503")
+        success = Mock()
+        success.status_code = 200
+        success.headers = {"content-type": "application/json"}
+        success.json.return_value = [{"status": 0, "profile": {"Name": "Example-1"}}]
+
+        with (
+            patch.object(
+                exporter.requests,
+                "post",
+                side_effect=[
+                    exporter.requests.ConnectionError("temporary"),
+                    unavailable,
+                    success,
+                ],
+            ) as post,
+            patch.object(exporter.time, "sleep") as sleep,
+        ):
+            envelope = exporter.post_wikitree(
+                {"action": "getProfile", "key": "Example-1"}
+            )
+
+        self.assertEqual(envelope["profile"]["Name"], "Example-1")
+        self.assertEqual(post.call_count, 3)
+        self.assertEqual(sleep.call_count, 2)
+
     def test_extracts_embedded_export(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "export.md"

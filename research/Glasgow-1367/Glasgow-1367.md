@@ -4,11 +4,10 @@ The catalogue builder merges this corrected summary into the complete captured
 WikiTree biography. This file is not a standalone replacement.
 
 ```wikitext
+[[Category:Glasgow Name Study]]
 {{Estimated Date}}
 
 == Biography ==
-
-{{One Name Study|name=Glasgow}}
 
 '''Robert Glasgow''' was born about 1779 in County Antrim, Ireland. The detailed
 1851 census records him as seventy-two years old and County Antrim-born.<ref name="Robert1851Detailed">[https://durrushistory.com/wp-content/uploads/2012/10/1851irishcensusreturnscommadelimitedtextfilejul24_071.pdf ''1851 Irish Census Returns: detailed comma-delimited transcription''], Glenleslie household 23.</ref>

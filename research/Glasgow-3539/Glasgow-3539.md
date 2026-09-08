@@ -1,36 +1,53 @@
 [[Category:Glasgow Name Study]]
 {{Estimated Date}}
+<!-- REVIEWED FULL REPLACEMENT: the cited live-profile source and useful record detail have been reconciled below; do not append the superseded stub. -->
 
 == Biography ==
 
-'''Marie Glasgow''', also rendered Mary, was a lawful child of John Glasgow,
-a sailor in Saltcoats, and his widow Isobel Young. Marie and her sister
-Katherine were named in their father's testament dative, confirmed on 11 April
-1637.<ref name="JohnTestament">National Records of Scotland, Glasgow
-Commissary Court, testament dative and inventory of John Glasgow, sailor in
-Saltcoats, NRS CC9/7/27, images 478–480; confirmed 11 April 1637. Working
-transcription of the original images supplied 6 September 2026.</ref>
+'''Mary Glasgow''' was the wife of [[Montgomerie-601|James Montgomerie]], who
+was described as a sailor in Saltcoats in the parish of Ardrossan. The printed
+index to the Glasgow Commissary testament registers lists Mary in that capacity
+under 24 October 1677.<ref name="Mary1677">Francis J. Grant, ed.,
+[https://archive.org/details/scottishrecordso07scotuoft/page/196/mode/2up?q=Glasgow%2C
+''The Commissariot Record of Glasgow: Register of Testaments, 1547–1800'']
+(Edinburgh: Scottish Record Society, 1901), p. 196: “Mary, spouse to James
+Montgomerie, sailor in Saltcoats, par. of Ardrossan,” 24 October 1677.</ref>
+
+The index directly supports Mary's marriage to James and identifies his
+occupation and place. The date is the testament-register entry date; the index
+does not state Mary's exact date of death.<ref name="Mary1677" />
 
 == Research Notes ==
 
-The testament does not state Marie's age or birth date. Her existing 1613 date
-is an estimate; Saltcoats is supported as the parental household, not as an
-explicit birthplace.
+=== Birth and parentage ===
 
-The currently attached Edward Glasgow and Catherine Hamilton are not the
-parents named in the testament. Their uncertain links should be preserved until
-profiles for the directly evidenced John Glasgow and Isobel Young are ready to
-replace them in the same edit. [[Glasgow-1030]] is only a possible identity for
-John.
+Mary's existing birth year of about 1613 is an estimate for which no supporting
+record has yet been identified. Saltcoats is relevant because the 1677 index
+describes her husband there, but it does not expressly state that Mary was born
+there. The populated date and location should be retained as uncertain while
+better evidence is sought.
 
-The Glasgow testament index also lists a Mary Glasgow, wife of James
-Montgomerie, sailor in Saltcoats, on 24 October 1677. That matching name,
-locality and occupational network make her a useful candidate for Marie, but
-the original testament has not yet supplied an identifying bridge.<ref>Francis
-J. Grant, ed., ''The Commissariot Record of Glasgow: Register of Testaments,
-1547–1800'' (Edinburgh, 1901), entry for Mary Glasgow, wife of James
-Montgomerie, sailor in Saltcoats, 24 October 1677,
-[https://archive.org/stream/scottishrecordso07scotuoft/scottishrecordso07scotuoft_djvu.txt searchable text].</ref>
+[[Glasgow-1557|Edward Glasgow]] and [[Hamilton-31734|Catherine Hamilton]] are
+attached as Mary's parents. The 1677 index does not name either parent, and no
+inspected source presently proves those relationships. The links should remain
+uncertain unless a record establishes specific replacement parents; they
+should not simply be removed and left blank.
+
+=== Distinct 1637 household ===
+
+The testament dative and inventory of John Glasgow, sailor in Saltcoats, is a
+different record. It names Isobell Gray as John's widow and Katherine and
+Agnes Glasgow as his lawful children. It does not name Mary or Marie and gives
+no basis for attaching this profile to that household.<ref>National Records of
+Scotland, Glasgow Commissary Court, testament dative and inventory of John
+Glasgow, sailor in Saltcoats, NRS CC9/7/27, register pp. 478–480; death in
+December 1636 and court proceedings in April 1637; original register re-read
+September 2026; locate by reference through the
+[https://www.scotlandspeople.gov.uk/search-records/legal-records/wills
+Scotland's People wills search].</ref>
+
+The full 1677 testament should be inspected before inferring Mary's age,
+parentage, children, property or exact death date from the short printed index.
 
 == Sources ==
 

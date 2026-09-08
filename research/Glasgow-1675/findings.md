@@ -5,13 +5,18 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
-No sourced conclusion recorded yet.
+William was a ruling elder from Killycurragh who emigrated to the United States
+and died at Sandusky, Ohio, in 1855. He is not a defensible identity for the
+William in PRONI T1959/3 whom the letter writer describes as a physician who
+practised in London and Hull and died in England. Exact birthplace and forename
+are insufficient to merge those two life courses.
 
 ## Source findings
 
 | Source | Finding | Assessment |
 | --- | --- | --- |
-| _Add a URL, archive reference, or local artifact_ | _State exactly what the source establishes_ | _Direct, indirect, negative, or exclusionary evidence_ |
+| [Belfast Mercury death notice](https://www.britishnewspaperarchive.co.uk/viewer/bl/0000784/18550404/021/0002) | Reports his death at Sandusky on 21 January 1855, age 56, and describes him as formerly of Killycurragh and a ruling elder before emigration. | Strong identity and life-course evidence. |
+| [Public transcription of PRONI T1959/3](https://www.genealogy.com/forum/surnames/topics/rutherford/5445/) | Describes a Killycurragh William who studied medicine and practised in London and Hull until his death. | Excludes this Ohio emigrant as that same-named son; the letter remains derivative pending inspection of the PRONI photocopy. |
 
 ## Public profile scrape review (2026-07-22)
 

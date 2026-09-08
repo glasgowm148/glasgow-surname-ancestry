@@ -1,18 +1,24 @@
-> **POSSIBLE EXISTING PROFILE:** this is the second Hugh Glasgow household in
-> Tamlaght O'Crilly in 1740. [Hugh Glasgow
-> (Glasgow-548)](https://www.wikitree.com/wiki/Glasgow-548) is the leading
-> possible identity, but the evidence is not sufficient for attachment. If the
-> record is not added to that profile, create this man separately and unconnected.
+> **READY TO CREATE — RECORD-DEFINED DISTINCT PERSON:** this is the second Hugh
+> Glasgow household in Tamlaght O'Crilly in 1740. Create him separately and
+> unconnected. [[Glasgow-548]] remains a possible future merge candidate, not a
+> proved identity.
+
+**Verdict:** create one unconnected profile for entry 1272. The return proves
+that he was distinct from entry 1195, represented by [[Glasgow-3931]]. It does
+not prove that he was [[Glasgow-548]], despite substantive locality and
+McCullough-associate evidence favouring that hypothesis.
 
 # Hugh Glasgow, Tamlaght O'Crilly entry 1272, 1740
 
 ## Minimum profile
 
 - **Name:** Hugh Glasgow
-- **Born:** before about 1722, uncertain; place unknown
+- **Sex:** Male
+- **Born:** about 1720, uncertain; Tamlaght O'Crilly parish, County Londonderry, Ireland, uncertain and inferred from his documented household there
 - **Recorded:** Tamlaght O'Crilly parish, County Londonderry, Ireland, 1740
 - **Died:** after 1740, uncertain; place unknown
 - **Parents, spouse, children and occupation:** unknown
+- **Profile status:** READY TO CREATE; create unconnected
 
 ## Paste-ready biography
 
@@ -68,11 +74,17 @@ account.<ref name="FamilyHistory">[[Glasgow-590|William Melanchthon Glasgow]],
 [https://www.wikitree.com/photo.php/0/0a/Glasgow-590.pdf ''History of the Glasgow
 Family''], pp. 2-3.</ref>
 
-That is not proof of identity. The 1740 return gives no age, origin, occupation,
+That is not proof of identity. Create entry 1272 as an unconnected,
+record-defined person rather than assigning the event to [[Glasgow-548]]. The
+1740 return gives no age, origin, occupation,
 wife or child; collector order can cross localities; and the family account was
 written roughly 160 years later and contains demonstrated chronological errors.
-Do not merge or attach this record to [[Glasgow-548]] without a lease, rental,
+Do not merge the new profile into [[Glasgow-548]] or attach relatives without a lease, rental,
 church record, will or other source that supplies identifying family details.
+
+Hugh's actual birthplace is unknown. Tamlaght O'Crilly is suitable only as an
+uncertain creation-field location inferred from the parish household in which
+the 1740 return directly recorded him; the return does not name a townland.
 
 === Relationship to the Inishrush family ===
 
@@ -86,3 +98,17 @@ unknown-father placeholder]] beneath either Hugh.
 == Sources ==
 
 <references />
+
+## Duplicate audit
+
+- [[Glasgow-3931]] is excluded: the same return records him separately at
+  entry 1195.
+- [[Glasgow-540]] is excluded if his approximate 1739 birth is broadly correct;
+  he could not have been an adult householder in 1740.
+- [[Glasgow-548]] remains the leading possible match because entry 1272 is next
+  to James McCullough and the late family account associates him with a
+  McCullough family. The return supplies no age, wife, child, origin, occupation
+  or townland, so identity is not proved.
+
+Create entry 1272 unconnected. Preserve [[Glasgow-548]] as a documented future
+merge candidate, not as a relationship or present identity assignment.

@@ -4,6 +4,7 @@
 !.env.example
 .venv/
 .cache/
+.ruff_cache/
 __pycache__/
 *.py[cod]
 test-results/

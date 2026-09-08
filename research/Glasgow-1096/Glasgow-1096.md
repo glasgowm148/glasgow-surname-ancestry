@@ -18,7 +18,7 @@ unproved.
 - Attach [Ninian Glasgow (Glasgow-3188)](https://www.wikitree.com/wiki/Glasgow-3188) as confirmed son.
 - Retain [Margaret Rolland (Rolland-239), born about 1535, Glasgow](https://www.wikitree.com/wiki/Rolland-239) as confirmed spouse and cite the protocols above.
 - Change Robert's death boundary from after 1572 to **after 7 February 1575**, uncertain.
-- Remove [John Glasgow (Glasgow-3181), died November 1576, Hirmanscheillis](https://www.wikitree.com/wiki/Glasgow-3181) as a son. Ninian's 1613 testament proves that his brother John was then alive, so the brother cannot be Glasgow-3181.
+- Remove [John Glasgow (Glasgow-3181), whose testament records a March death and was entered by 4 May 1577, Hirmanscheillis](https://www.wikitree.com/wiki/Glasgow-3181) as a son. Ninian's 1613 testament proves that his brother John was then alive, so the brother cannot be Glasgow-3181.
 
 ## Do not add as fact
 

@@ -9,7 +9,6 @@ matches remain review leads rather than asserted identities.
 from __future__ import annotations
 
 import argparse
-import csv
 import hashlib
 import json
 import re
@@ -18,9 +17,21 @@ from pathlib import Path
 from typing import Any
 
 try:
-    from project_paths import ROOT, SURNAME_PROFILE_INDEX, merged_onetree_profiles
+    from project_paths import (
+        ROOT,
+        SURNAME_PROFILE_INDEX,
+        atomic_write_csv,
+        atomic_write_text,
+        merged_onetree_profiles,
+    )
 except ModuleNotFoundError:
-    from tools.project_paths import ROOT, SURNAME_PROFILE_INDEX, merged_onetree_profiles
+    from tools.project_paths import (
+        ROOT,
+        SURNAME_PROFILE_INDEX,
+        atomic_write_csv,
+        atomic_write_text,
+        merged_onetree_profiles,
+    )
 
 
 DEFAULT_DIR = ROOT / "research" / "findmypast-glasgow-audit"
@@ -808,22 +819,30 @@ def main() -> int:
     }
     json_path = output_dir / "audit-distinct-people.json"
     csv_path = output_dir / "audit-distinct-people.csv"
-    json_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf-8")
-    with csv_path.open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=CSV_COLUMNS)
-        writer.writeheader()
-        for person in people:
-            row = dict(person)
-            row["record_ids"] = " | ".join(person["record_ids"])
-            row["record_sets"] = " | ".join(person["record_sets"])
-            row["source_urls"] = " | ".join(person["source_urls"])
-            row["image_urls"] = " | ".join(person["image_urls"])
-            row["detail_captured_at"] = " | ".join(person["detail_captured_at"])
-            row["transcript_titles"] = " | ".join(person["transcript_titles"])
-            row["transcript_fields_json"] = canonical([item["transcript_fields"] for item in person["records"]])
-            row["local_wikitree_candidate_ids"] = " | ".join(person["local_wikitree_candidate_ids"])
-            row["local_wikitree_candidates_json"] = canonical(person["local_wikitree_candidates"])
-            writer.writerow({column: csv_value(row.get(column)) for column in CSV_COLUMNS})
+    atomic_write_text(
+        json_path,
+        json.dumps(payload, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
+    )
+    csv_rows = []
+    for person in people:
+        row = dict(person)
+        row["record_ids"] = " | ".join(person["record_ids"])
+        row["record_sets"] = " | ".join(person["record_sets"])
+        row["source_urls"] = " | ".join(person["source_urls"])
+        row["image_urls"] = " | ".join(person["image_urls"])
+        row["detail_captured_at"] = " | ".join(person["detail_captured_at"])
+        row["transcript_titles"] = " | ".join(person["transcript_titles"])
+        row["transcript_fields_json"] = canonical(
+            [item["transcript_fields"] for item in person["records"]]
+        )
+        row["local_wikitree_candidate_ids"] = " | ".join(
+            person["local_wikitree_candidate_ids"]
+        )
+        row["local_wikitree_candidates_json"] = canonical(
+            person["local_wikitree_candidates"]
+        )
+        csv_rows.append({column: csv_value(row.get(column)) for column in CSV_COLUMNS})
+    atomic_write_csv(csv_path, list(CSV_COLUMNS), csv_rows, encoding="utf-8")
     print(canonical(summary))
     return 0
 

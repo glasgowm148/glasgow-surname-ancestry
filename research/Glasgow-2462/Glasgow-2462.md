@@ -27,7 +27,7 @@ Registers, Inveresk and Musselburgh, Midlothian, Scotland, OPR 689/1, frame
 
 == Research Notes ==
 
-The cached biography linked William's father through `Glasgow-2459`; that ID
+The cached biography linked William's father through [[Glasgow-2459]]; that ID
 resolves to the currently attached [[Glasgow-1103|Thomas Glasgow]]. This draft
 uses the current profile ID and does not imply a second father.
 

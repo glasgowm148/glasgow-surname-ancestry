@@ -1,112 +1,134 @@
-# Findings: [Andrew Glasgow (Glasgow-3163), born 1540, Scotland](https://www.wikitree.com/wiki/Glasgow-3163)
-
-Record every useful result and negative search here as it is found.
-Do not treat an unsourced tree or naming pattern as proof.
+# Findings: [Andrew Glasgow of [Corsoun?] (Glasgow-3163)](https://www.wikitree.com/wiki/Glasgow-3163)
 
 ## Current conclusion
 
-Father assessment: [John Glasgow (1516), Glasgow-1093, burgess of Glasgow](https://www.wikitree.com/wiki/Glasgow-1093) is **possible but unsupported, not contradicted**. John is of the correct generation, but no record found calls Andrew his son, brother or other kinsman. The positive evidence for John's documented family is concentrated in Glasgow burgh property records, while Andrew is documented as a rural tenant at Corstoun in the barony/parish of Caldercleir.
+Andrew Glasgow's testament directly identifies his wife as **Elizat
+Stevinsoun** and their son as **Robert Glasgow**. It also names his daughters
+**Marion, Janet and Isobel**. A clause for a child with whom Elizat might then
+be pregnant is conditional only and does not prove that another child was
+born.
 
-The best new working hypothesis is that Andrew belonged to a **Calder/West Lothian rural cluster**, potentially including [John Glasgow (about 1540), Glasgow-3181, in Hirmenschelis](https://www.wikitree.com/wiki/Glasgow-3181) and [Margaret Glasgow, Glasgow-3164, of Croftmalloch](https://www.wikitree.com/wiki/Glasgow-3164). This is a research cluster, not a proved sibling group. John and Margaret's testaments do not state a relationship to Andrew.
+The testament was made on 6 February 1597 as written (1597/8), says Andrew died
+on 7 February, and was confirmed on 10 July 1598. The present WikiTree death
+date of 10 July 1598 is therefore the confirmation date, not the death date.
 
-Live update **19 August 2026**: the biography correctly transcribes spouse
-Jonet Anderson and the four testament-named children. The missing sons now have
-profiles [[Glasgow-4006|Andrew]] and [[Glasgow-4007|William]] and are attached
-as Confident (not DNA); their mother fields remain blank.
+This reading supersedes the former identification of [[Anderson-103463|Jonet
+Anderson]] as Andrew's wife and Marion, James, Andrew and William as his
+children. [[Glasgow-4006]] and [[Glasgow-4007]] were created solely from that
+misreading; the testament does not name either person. They must not be
+repurposed as Robert or as one of the daughters without an independently
+verified identity.
 
-[Jonet Glasgow, wife of Martin Ramsy (Glasgow-3183)](https://www.wikitree.com/wiki/Glasgow-3183)
-was formerly attached as Andrew and Jonet Anderson's daughter. That edge is
-incompatible with the testament: the operative clause expressly calls
-Marioune, James, Andro and Williame Andrew's four children, while `Jonet` is
-cancelled before the list. On 31 August 2026 the contradicted parent pair was
-removed and James-991 was attached as Jonet's uncertain working father; her
-mother remains unidentified. Public readback was verified without a chronology
-warning.
+Andrew's father remains unproved. [[Glasgow-1093|John Glasgow]], a burgess of
+Glasgow, is chronologically possible, but no record found calls Andrew his son
+or bridges the Glasgow-burgh family to Andrew's rural Calder household.
 
-## Source findings
+## Parentage candidate: John Glasgow-3181 — not matched
 
-| Source | Finding | Assessment |
+A higher-resolution re-reading of NRS Edinburgh Commissary Court `CC8/8/5`
+names a lawful child of [[Glasgow-3181|John Glasgow of Hirmenschelis]] whose
+forename is provisionally read **Androw/Andrew**. Glasgow-3163 was compared
+because his name, generation and broad rural Lothian setting fit. The evidence
+does not identify them as one man: John's record does not carry the child into
+Corsoun/Calder Cleir, and Andrew's 1597/8 testament does not name his father.
+Glasgow-3163 is therefore excluded as the present profile match, without
+claiming the men could never be joined by later property, rental, kirk or court
+evidence. A distinct, forename-uncertain creation draft now represents the
+1577 child.
+
+## Direct testament evidence
+
+| Point | Reading | Assessment |
 | --- | --- | --- |
-| NRS Edinburgh Commissary Court CC8/8/32, Andrew Glasgow's 1598 testament; printed index [p. 108](https://archive.org/details/scottishrecordso01scotuoft/page/n117/mode/1up) | The family clause names "Marioune James Andro and Williame his said four bairnis." It proves Andrew's spouse and four children but does not name either parent. | Direct evidence for the four children; negative for the attached father. |
-| Scottish Record Society, *Commissariot of Edinburgh: Register of Testaments, 1514-1600*, [p. 108](https://archive.org/details/scottishrecordso01scotuoft/page/n117/mode/1up) | The surname entries place three contemporary rural Glasgows together in the Edinburgh jurisdiction: Andrew in Corstoun, Caldercleir (1598); John in Hirmenschelis (1577); and Margaret, spouse of John Edstoun in Croftmalloch (1580). | A useful same-region cluster, but an index supplies no relationship. Each testament must be read independently before proposing sibling links. |
-| Norman Dixon, [*The Placenames of Midlothian*](https://spns.org.uk/wp-content/uploads/2017/11/The_Placenames_of_Midlothian_Norman_Dixon.pdf), entry for Corstoun | Corstoun is identified as a farm on the Calder, with the early form "Corstoun" recorded in the seventeenth-century Great Seal register. The surviving farm site is also independently located near Kirknewton in West Lothian. | Supports identifying Andrew's residence with Corston farm in the Calder district, rather than with Glasgow burgh. It does not identify his family. |
-| National Records of Scotland, [GD150, Papers of the Earls of Morton](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD150) | The catalogue identifies the exact undigitised estate series for Andrew's residence: **GD150/696-757, Barony of Caldercleir, 1506-1824**, and **GD150/2027-2060, Midlothian rentals, 1554-1823**. General deeds for Andrew's adult period are GD150/320-493 (1551-1597). | Highest-value unresolved source set. A Corstoun rental, tack or occupier succession could name Andrew's predecessor, heir, son or surety. The records are open but held off site and are not digitised in the public catalogue. |
-| National Records of Scotland, [Croftmalloch place record](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/place.aspx?code=PL555) | Croftmalloch is in Whitburn parish, West Lothian. This establishes the location attached to Margaret Glasgow's 1580 testament. | Confirms Margaret was another rural West Lothian Glasgow. It does not prove she was Andrew's sister. |
+| Identity and residence | Andro Glasgw in `[Corsoun?]`, parish `[Calder Clair/Cleir]`, sheriffdom of Edinburgh | Direct, with uncertain place readings retained in brackets. |
+| Will | 6 February 1597 as written (1597/8) | Direct. |
+| Death | 7 February 1597/8 | Direct; replaces 10 July 1598 as death date. |
+| Confirmation | 10 July 1598 | Direct; probate event only. |
+| Wife and son | `Robart Glasgw his sone begottin be him vpoun the said Elizat his wyff` | Direct proof of Robert as Andrew and Elizat's son. |
+| Daughters | If the conditional pregnancy failed, Andrew's third was to be divided among `his said sone and his said [dochter… struck through] Marione, Jonet, Isobell` | Direct proof of the three named daughters; the cancelled word should not be silently restored. |
+| Possible further child | `incais his said spous be with bairne to him` | Conditional only; do not create a profile. |
+| Land succession | Elizat was to `bruik his [word unclear] land quhill his said Robart cum to aige` | Direct evidence that she was to possess/use Andrew's land until Robert attained majority; strong internal succession evidence, but not proof of Andrew's own parentage or heritable title. |
+| Administration | If `Elizat his spous do not hir pairt to his said bairnis`, she was to be removed from administration | Direct evidence of protective conditions around the children's interests. |
 
-## Findmypast surname-only audit — 3 September 2026
+Source: National Records of Scotland, Edinburgh Commissary Court, CC8/8/32,
+images 123–124, testament testamentar and inventory of Andro Glasgw, made 6
+February 1597/8, death stated as 7 February, confirmed 10 July 1598; working
+transcription of the original register images. The printed index independently
+identifies Andrew, the locality and confirmation: Scottish Record Society,
+*Commissariot of Edinburgh: Register of Testaments, 1514–1600*, [p.
+108](https://archive.org/details/scottishrecordso01scotuoft/page/n117/mode/1up).
 
-[Findmypast transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FWILLS%2F057425)
-identifies **Andrew Glasgow**, in Corstoun, parish of Calder-Cleir and sheriffdom
-of Edinburgh, with date **10 July 1598**. It is a derivative transcription of
-the Edinburgh testament index and matches the already established Andrew
-Glasgow of Corstoun, represented by `Glasgow-3163`. It supplies no parentage
-beyond the family evidence already assessed above.
+## Family and identity assessment
+
+| Person | Status | Reason |
+| --- | --- | --- |
+| Elizat/Elizabeth Stevinsoun | Proved wife; exact WikiTree identity unresolved | [[Stevenson-7398]] is excluded as Robert Blaikstone's Yorkshire wife. [[Stevinsoune-1]] remains genuinely possible: the Dunfermline register names her husband George Lugtoun on 25 February 1606 and their children in 1607 and 1609, but gives no prior marital status, parents or residence. Andrew's 1597/8 death permits remarriage, while no record bridges Bessie to Corsoun, Andrew, Robert or the land. |
+| Robert Glasgow | Proved son of Andrew and Elizat; new profile ready | [[Glasgow-1156]] has only compatible chronology and Lothian geography; no estate, Stevenson, Corsoun or kin bridge identifies him as this son. [[Glasgow-1027]] is directly the son of Ninian Glasgow and Jonet Meik; [[Glasgow-1096]] died before this testament; [[Glasgow-3919]] was already an adult occupier in 1580. |
+| Marion Glasgow | Proved daughter; new profile ready | [[Glasgow-3062]] belongs to a proved Glasgow-burgh/Fultoun and Ninian-sibling context, with no Corsoun bridge. |
+| Janet/Jonet Glasgow | Proved daughter; new profile ready at moderate confidence | [[Glasgow-3917]] belongs to a Glasgow-burgh marriage; [[Glasgow-3183]] is geographically compatible at Mid Calder but has no parent, sibling, property or succession bridge. |
+| Isobel Glasgow | Proved daughter; new profile ready at moderate confidence | [[Glasgow-3336]], wife of Edinburgh tailor William Symountoun from 1619, is compatible by date and region only; no Corsoun, Stevenson, sibling or land bridge identifies her as this daughter. |
+| Possible unborn child | Not proved to have existed | The wording is expressly conditional. No profile should be created. |
+
+Do not detach the current spouse merely to leave Andrew without an evidenced
+replacement. Treat the Jonet Anderson attachment as contradicted and temporary
+until a verified Elizabeth profile is ready. The four directly documented
+children now have distinct creation drafts; do not substitute the rejected
+same-name candidates without a later direct identity bridge.
+
+## Wider rural context
+
+The testament places Andrew in a rural Calder estate setting, not in the
+Glasgow burgh household. The land-use clause is unusually valuable because it
+establishes succession **within Andrew's own household**: Elizat was to retain
+the land until Robert came of age. It does not establish who Andrew inherited
+from, whether the holding was heritable or tenanted, or a relationship to the
+burgh Glasgows.
+
+Contemporary rural surname-bearers include [[Glasgow-3181|John Glasgow of
+Hirmenschelis]] and [[Glasgow-3613|Margaret Glasgow of Croftmalloch]]. Their
+nearby testamentary appearances make them useful cluster candidates, not proved
+siblings.
+
+The best unresolved record series is the National Records of Scotland,
+**GD150/696–757**, Barony of Caldercleir, and **GD150/2027–2060**, Midlothian
+rentals, supplemented by **GD150/320–493**. A rental, tack or transfer naming
+Robert as Andrew's successor would both identify the land and potentially
+distinguish him from the live Robert candidates.
 
 ## Search audit
 
-| Record set searched | Search and result | Limitation |
+| Record set | Result | Limitation |
 | --- | --- | --- |
-| Robert Renwick, *Abstracts of Protocols of the Town Clerks of Glasgow*, vols. I-XI ([vol. I](https://archive.org/details/abstractsprotoc07robegoog), [vol. III](https://archive.org/details/abstractsprotoc02robegoog), [vol. VIII](https://fairfieldgenealogysociety.org/Members_Only/World%20Research/Scotland/Documents/Abstracts%20of%20protocols%20of%20the%20town%20clerks%20of%20Glasgow%20Volume%208%20%281899%29.pdf), [vol. X](https://archive.org/details/abstractsprotoc10robegoog), [vol. XI](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/abstracts_of_protocols_of_the_town_clerks_of_glasgow__1900.pdf)) | Locally searchable copies of vols. I-VII and IX-X were OCR-searched for Andrew/Andro/Andreas with Glasgw, Glasgow, Glesgw, Glesgow and Corstoun; targeted web-index searches covered VIII and XI. No Andrew Glasgow or Corstoun entry was found. The series does contain the already known direct father-son acts for John senior's sons John, William and Stephen, but none names Andrew. | Printed abstracts, OCR and web indexing are imperfect. This is evidence that no bridge has yet been found in the obvious burgh series, not proof Andrew never appeared in a lost or unabstracted act. |
-| *Registrum Magni Sigilli Regum Scotorum*, [vol. IV, 1546-1580](https://archive.org/details/registrummagnisi04scot), [vol. V, 1580-1593](https://archive.org/details/registrummagnisi05scot), and [vol. VI, 1593-1608](https://archive.org/details/registrummagnisi06scot) | Searched surname variants, Andrew/Andro/Andreas and Corstoun. No record naming Andrew Glasgow was found. | Great Seal grants principally concern heritable title, not ordinary farm tenancy; the negative is expected if Andrew was an estate tenant. |
-| *Register of the Privy Council of Scotland*, vols. I-V, 1545-1599 ([vol. I](https://archive.org/details/registerprivyco00coungoog), [vol. II](https://archive.org/details/registerprivyco03coungoog), [vol. III](https://archive.org/details/registerprivyco05coungoog), [vol. IV](https://archive.org/details/registerprivyco06coungoog), [vol. V](https://archive.org/details/registerprivyco07coungoog)) | OCR searches for Andrew/Andro Glasgow, surname variants and Corstoun found no identifiable entry for Andrew. | OCR is imperfect and Privy Council business is not a tenancy register. |
-| Google-indexed NRS catalogue and general web search | Exact-name and variant searches for Andrew/Andro Glasgw/Glasgow with Corstoun/Caldercleir found the testament and testament index, but no independent parentage or sibling record. | The NRS catalogue is incompletely indexed by external search engines; absence from a web search is not absence from the archive. |
-| Live WikiTree API and surname index, 19 July 2026 | Exact Andrew-Glasgow and William-Glasgow searches, the father's current children, and all early surname profiles were checked. No existing profile represents the testament-named sons Andrew or William. Existing early William profiles Glasgow-3075 and Glasgow-3522 have different record-defined family contexts. | This clears creation of the two missing minimum people; it does not identify their later lives. |
+| Glasgow town-clerk protocol abstracts, vols. I–XI | Searches for Andrew/Andro/Andreas with Glasgw/Glasgow/Glesgw/Glesgow and Corsoun/Corstoun found no secure Andrew entry. | Printed abstracts and OCR are imperfect; more importantly, Andrew may have been a rural estate tenant rather than a burgh proprietor. |
+| *Registrum Magni Sigilli*, vols. IV–VI, 1546–1608 | No Andrew Glasgow entry was found. | Ordinary tenancy need not appear in Great Seal grants. |
+| *Register of the Privy Council of Scotland*, vols. I–V, 1545–1599 | No identifiable Andrew entry was found. | Not a tenancy register; OCR is imperfect. |
+| NRS catalogue and general web indexes | The testament and index were found, but no independent parentage or child-identity bridge. | The relevant Morton estate material is undigitised and incompletely described at item level. |
+| Live WikiTree API, September 2026 | Exact-name searches and early surname profiles were reviewed for Elizat and all four proved children. | Chronology and locality rank candidates; they do not prove identity. |
+| Findmypast `R_695585805/2` and Henry Paton, ed., Scottish Record Society, [*Parish Registers of Dunfermline, 1561–1700*](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/parish_register_of_dunfermline_1561-1700.pdf) (1911), pp. 125, 129, 138 | Bessie Stevinsoun married George Lugtoun on 25 February 1606; their children John and Annas were baptised in 1607 and 1609. | Does not state whether Bessie had been married before. It neither proves nor excludes identity with Andrew's widow. |
 
-## Relationship assessment
+## WikiTree handoff
 
-- **Do not upgrade** [John Glasgow (1516), Glasgow-1093](https://www.wikitree.com/wiki/Glasgow-1093) as Andrew's father. The attachment is chronologically possible but presently has no positive record bridge.
-- Do not attach [John Glasgow (about 1540), Glasgow-3181](https://www.wikitree.com/wiki/Glasgow-3181) or [Margaret Glasgow, Glasgow-3164](https://www.wikitree.com/wiki/Glasgow-3164) as siblings. Treat them as priority associates in a Calder/West Lothian cluster.
-- The rural cluster is a better-directed search hypothesis than assuming every contemporary Glasgow surname holder descended from the documented Glasgow-burgh household.
+1. Replace Andrew's biography with the complete draft in `Glasgow-3163.md`.
+2. Correct death to **7 February 1597/8**; retain **10 July 1598** only as the
+   confirmation date.
+3. Prepare an evidenced Elizabeth Stevenson profile before replacing the
+   presently attached spouse; do not treat [[Anderson-103463]] as supported.
+4. Create the four directly documented children from their complete drafts.
+   Their same-name candidates were rejected for present matching because no
+   kin, property, residence or succession bridge identifies them.
+5. Correct [[Glasgow-4006]] and [[Glasgow-4007]] transparently as profiles
+   created from a misreading. Do not recycle either identity silently.
+6. Keep [[Glasgow-1093]] only as an uncertain working father.
 
-## Highest-value next record search
-
-1. Order or inspect NRS **GD150/696-757** and **GD150/2027-2060**, beginning with items and rentals covering about 1550-1605 and searching Corstoun/Corston plus Glasgw, Glasgow and Glesgw.
-2. Record every named predecessor, co-tenant, assignee, heir, cautioner and witness. Search especially for John Glasgow, Margaret Glasgow/Edstoun, Jonet Anderson, Hoghame and Edstoun.
-3. Check GD150/320-493 for any tack, discharge or transfer involving Corstoun. A tenant succession from a named Glasgow to Andrew or from Andrew to one of his four testament-proved children would be the first real parentage or sibling bridge.
-
-## WikiTree update instructions
-
-Live profile checked **19 July 2026**.
-
-### Current structured family
-
-| Role | Current profile | Treatment |
-| --- | --- | --- |
-| Father | [John Glasgow (Glasgow-1093)](https://www.wikitree.com/wiki/Glasgow-1093) | Keep uncertain; no burgh-to-Calder bridge. |
-| Spouse | [Jonet Anderson (Anderson-103463)](https://www.wikitree.com/wiki/Anderson-103463) | Testament-proved spouse; retain. |
-| Child | [James Glasgow (Glasgow-991)](https://www.wikitree.com/wiki/Glasgow-991) | James is proved by forename, but this profile identity is unproved; mark uncertain. The Mid Calder and Inveresk baptism groups do not by themselves establish whether one or two fathers named James were involved. |
-| Child | [John Glasgow (Glasgow-1561)](https://www.wikitree.com/wiki/Glasgow-1561) | Not one of the four children named in the testament; retain only as uncertain topology. |
-| Child | [David Glasgow (Glasgow-1028)](https://www.wikitree.com/wiki/Glasgow-1028) | Not one of the four children named in the testament; retain only as uncertain topology. |
-
-### Missing testament-proved children
-
-1. **Marioune/Marion Glasgow**: the testament proves a daughter of this name.
-   [Marion Glasgow (Glasgow-3062)](https://www.wikitree.com/wiki/Glasgow-3062)
-   is an identity candidate only; attach her uncertain unless a separate profile
-   is created for the Corstoun daughter.
-2. **[Andrew Glasgow (Glasgow-4006)](https://www.wikitree.com/wiki/Glasgow-4006)**:
-   created and attached as a testament-proved son on 19 August 2026.
-3. **[William Glasgow (Glasgow-4007)](https://www.wikitree.com/wiki/Glasgow-4007)**:
-   created and attached as a testament-proved son on 19 August 2026.
-
-Add the estate targets GD150/696-757 and GD150/2027-2060 to Research Notes if
-they are not already present. Do not replace John-1093 with another father until
-a better exact placement is found.
-
-Edit summary: `Align children with the four expressly named in Andrew's 1598 testament.`
+Edit summary: `Correct Andrew's family and death date from re-reading NRS CC8/8/32.`
 
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-2afd2a13c27a -->
-## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-2afd2a13c27a
+## Findmypast index support
 
-The transcript-validated testament/probate record for **Andrew Glasgow**, 10 Jul 1598, Calder, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
-
-## Source findings
-
-- [SCOT/WILLS/057425 Findmypast transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FWILLS%2F057425&tab=this): Additional information: in Corstoun, parish of Calder-Cleir, and sheriff of Edinburgh; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Commissariot: Edinburgh; Country: Scotland; County: Linlithgowshire (West Lothian); Date: 10 Jul 1598; First name(s): Andrew; Last name: Glasgow; Place: Calder; Publication: Commissariot Record Of Edinburgh Register Of Testaments Part I (1514-1600); Record set: Scotland, Will And Testament Index 1481-1807; Subcategory: Wills & Probate; Year: 1598 (captured 2026-09-03T21:29:56.089Z).
-- Findmypast record IDs: `SCOT/WILLS/057425`.
-- Stable research/source ID: `fmp-glasgow-2afd2a13c27a`.
-
-## Recommended action — fmp-glasgow-2afd2a13c27a
-
-Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
+The [Findmypast transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FWILLS%2F057425&tab=this)
+identifies Andrew Glasgow in Corsoun/Corstoun, parish of Calder-Cleir, with date
+10 July 1598. It is a derivative index to the same testament and supplies the
+confirmation date, not Andrew's death date or independent family evidence.
+Record ID: `SCOT/WILLS/057425`; stable research ID:
+`fmp-glasgow-2afd2a13c27a`.
 <!-- END FMP-GLASGOW-fmp-glasgow-2afd2a13c27a -->

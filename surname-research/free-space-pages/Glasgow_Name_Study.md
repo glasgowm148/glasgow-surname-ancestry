@@ -52,29 +52,29 @@ For more on the surname’s emergence, see [[Space:Glasgow_Surname_Origins|Glasg
 <!--See also [[Space:John_Glasgow|Space:John Glasgow]] for notes on the early individuals named John.-->
 
 === '''Establishment in Stirling & Glasgow (c. 1430–1550)''' ===
-From the mid-fifteenth century the surname begins to appear in burgh records. The earliest medieval John de Glasgu had witnessed a Cambuskenneth charter concerning land at Dunipace, just across the Forth from Stirling, so the surname’s first “modern” re-emergence in that burgh two centuries later may reflect a lingering family foothold in the region.
+From the mid-fifteenth century the surname begins to appear in burgh records. The earlier John de Glasgu witnessed a Cambuskenneth charter concerning land at Dunipace, across the Forth from Stirling. That is a useful geographic comparison, but no record yet establishes continuity between him and the fifteenth-century Stirling bearer.
 
 * '''[https://www.wikitree.com/wiki/Space:John_Glasgow-1 Elder John Glasgw]''' (b. c. 1430-1445)
-**Active as a respected '''burgess''' in '''Stirling'''.
-** Witnessed charters in 1475 and 1479/80.<ref>Stirling Charters, 11 Apr 1475 & 2 Mar 1479/80. [[https://archive.org/stream/chartersandothe00edingoog/chartersandothe00edingoog_djvu.txt Full Text]]</ref>
+**Active as a '''burgess''' in '''Stirling'''.
+** Witnessed charters in 1475 and 1479/80.<ref>Stirling Charters, 11 Apr 1475 & 2 Mar 1479/80. [https://archive.org/stream/chartersandothe00edingoog/chartersandothe00edingoog_djvu.txt Full text]</ref>
 * '''Younger John Glasgow''' (b. c. 1470-1490)
 **Possibly related to the Stirling John; no relationship is proved.
-** Appears in '''Glasgow''' by 1506 as "'''John of Glasgow alias Smith'''" jointly acquiring a four-shilling annual rent with Sir Allan Smith.<ref>Glasgow University Archives, Blackhouse Charters, BL/204, formerly GUA16403, instrument dated 28 Apr 1506; [[https://yourscottisharchives.com/catalogues/565b7ef3-fc87-3f6f-aaac-149925faa39d?component-id=7cdbf375-dc6d-3de3-b53a-86376e2106da catalogue description]].</ref> Agnes, daughter and heir of Robert Watson, was the seller and Allan's property was the northern boundary. The record proves Watson's relationship to Agnes, not Allan's relationship to John, and does not establish John's occupation.
+** Appears in '''Glasgow''' by 1506 as "'''John of Glasgow alias Smith'''" jointly acquiring a four-shilling annual rent with Sir Allan Smith.<ref>Glasgow University Archives, Blackhouse Charters, BL/204, formerly GUA16403, instrument dated 28 Apr 1506; [https://yourscottisharchives.com/catalogues/565b7ef3-fc87-3f6f-aaac-149925faa39d?component-id=7cdbf375-dc6d-3de3-b53a-86376e2106da catalogue description].</ref> Agnes, daughter and heir of Robert Watson, was the seller and Allan's property was the northern boundary. The record proves Watson's relationship to Agnes, not Allan's relationship to John, and does not establish John's occupation.
 ** Possibly the same John Glasgow recorded as a diocesan '''notary''' and '''presbyter''' (1507–1513).<ref>Mentioned in [[Space:Glasgow_Origins_Research_(1170_-_1600)|Glasgow Origins Research]] citing diocesan act books.</ref>
-** Witnessed a civic transaction in 1536.<ref>Protocol 1258, 11 Jul 1536, Glasgow. [[https://www.google.co.uk/books/edition/William_Hegait_s_protocols_1547_76/WB8NAAAAYAAJ?pg=PA96 Source page 96]]</ref> Seems to be the progenitor of the main Glasgow city merchant line.
+** Witnessed a civic transaction in 1536.<ref>Protocol 1258, 11 Jul 1536, Glasgow. [https://www.google.co.uk/books/edition/William_Hegait_s_protocols_1547_76/WB8NAAAAYAAJ?pg=PA96 Source page 96]</ref> He is the leading candidate for the preceding generation of the documented Glasgow burgh line, but the identification remains unproved.
 * '''[[Glasgow-1098|William Glasgow]]''' (fl. 1526–1531)
 **Active in Glasgow civic life, witnessing property transactions.
 
 === '''Consolidation, Reformation & Ayrshire Connections (c. 1550–1600)''' ===
-The family solidified its position in Glasgow during the pivotal '''[https://en.wikipedia.org/wiki/Scottish_Reformation Scottish Reformation]''' (1560). Following this event, which established Protestantism and eventually Presbyterianism as dominant, the Glasgows aligned with the new religious and political order.
+Glasgow surname bearers remained active in civic and property records across the '''[https://en.wikipedia.org/wiki/Scottish_Reformation Scottish Reformation]''' (1560), which established Protestantism and eventually Presbyterianism as dominant. Those records do not by themselves establish a shared Glasgow-family religious or political allegiance.
 
-* '''Key Figures in Post-Reformation Glasgow:''' Descendants of Younger John, active in civic roles, include:
+* '''Key figures in post-Reformation Glasgow:''' The evidence places these people in one documented and probable burgh network; it does not prove that every person listed was a descendant of the same John:
 ** '''[[Glasgow-1093|John Glasgow]]''' (fl. 1536–1575): Called 'younger son' (of Younger John) in 1570; Married [[Spreull-4|Jonet Spreull]], linking to civic administrators.
 ** '''[[Glasgow-1096|Robert Glasgow]]''' (fl. 1554–1568): Recorded as a '''fisher''' and involved in land transactions.
 ** '''[[Glasgow-1097|Archibald Glasgow (abt.1533-)]]''' (fl. 1551): Purchased property near the South Port.
 ** '''[[Glasgow-1029|Stephen Glasgow]]''' (fl. 1575): Son of the 'late John Glasgow'; Served as '''Water Bailie''' overseeing Clyde trade.
 ** '''[[Glasgow-3023|Alan Glasgow (1550-1594)]]''' (fl. 1575): Mentioned in protocols, likely related.
-* '''Ayrshire Interests & Alliances:''' Interests in Ayrshire (Kilwinning teinds, 1559-60<ref>Kilwinning Teind Lists 1559-60. [[https://www.kilwinningheritage.org.uk/office/resources/documents/a-short-history-of-kilwinning-parish-2nd-ed.pdf Source PDF, search 'Glasgow']</ref>) were reinforced by a crucial alliance with the influential '''Cunninghame''' family. Key branches of the Cunninghames, particularly those linked to the '''Earls of Glencairn''', were prominent supporters of the '''Protestant Reformation''' and the emerging '''Presbyterian''' structure. This alliance placed the Glasgows firmly within the post-Reformation establishment in both Ayrshire and Glasgow. See [[Space:The_Ayrshire_Crossroads|The Ayrshire Crossroads]] and [[Space:Glasgow_Branches_in_15th_and_16th_Century_Scotland|Glasgow Branches in 15th and 16th Century Scotland]].
+* '''Ayrshire Interests & Alliances:''' Kilwinning teind records place Glasgow surname bearers in Ayrshire in 1559-60.<ref>Kilwinning Teind Lists 1559-60. [https://www.kilwinningheritage.org.uk/office/resources/documents/a-short-history-of-kilwinning-parish-2nd-ed.pdf Source PDF, search 'Glasgow']</ref> Later documented connections with Cunninghame households belong in individual relationship studies; they do not establish a family-wide political alignment. See [[Space:The_Ayrshire_Crossroads|The Ayrshire Crossroads]] and [[Space:Glasgow_Branches_in_15th_and_16th_Century_Scotland|Glasgow Branches in 15th and 16th Century Scotland]].
 
 
 {{Image|file=Glasgow_Name_Study-1.jpg

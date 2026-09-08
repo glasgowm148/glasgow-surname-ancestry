@@ -18,6 +18,8 @@
 ## Paste-ready biography
 
 [[Category:Glasgow Name Study]]
+{{Estimated Date}}
+
 
 == Biography ==
 
@@ -39,7 +41,7 @@ The 1 result ID(s) above represent one conservative documentary group because: s
 
 == Sources ==
 
-<references />
-
 <ref name="FMP1">[https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F2975865&tab=this Findmypast transcript], Archive reference: OPR 498/1; Baptism date: 23 Oct 1685; Baptism year: 1685; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Dunbartonshire; Father's last name: Glasgow; First name(s): Jonnat; Item: 3; Last name: Glasgow; Mother's first name(s): Margrat; Mother's last name: Millar; Place: Kirkintillock; Record set: Scotland, Parish Births & Baptisms 1564-1929; Register year range: 1656-1760; Subcategory: Parish Baptisms (captured 2026-09-03T22:07:05.640Z).</ref>
+
+<references />
 <!-- END FMP-GLASGOW-fmp-glasgow-f9d3e4df7bbb -->

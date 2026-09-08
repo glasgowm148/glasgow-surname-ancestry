@@ -11,7 +11,7 @@ appointed executrix dative surrogate in the proceeding dated 25 March
 1685.<ref>National Records of Scotland, Lanark Commissary Court, testament
 dative of John Glasgow in Quothquan, Libberton parish, NRS CC14/5/12, images
 67–68; proceeding dated 25 March 1685. Working transcription of the original
-images supplied 6 September 2026.</ref>
+images supplied 6 September 2026; locate by reference through the [https://www.scotlandspeople.gov.uk/search-records/legal-records/wills Scotland's People wills search].</ref>
 
 == Research Notes ==
 

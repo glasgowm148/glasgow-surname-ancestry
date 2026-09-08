@@ -11,7 +11,9 @@ import re
 import subprocess
 import sys
 
-from project_paths import ROOT, WEB_DIR, WIKITREE_CATALOGUE_PROFILE_LINKS
+from project_paths import (
+    ROOT, WEB_DIR, WIKITREE_CATALOGUE_PROFILE_LINKS, atomic_write_text,
+)
 
 sys.path.insert(0, str(ROOT / "src"))
 from wikitree_family_export import resolve_wikitree_redirect  # noqa: E402
@@ -50,8 +52,9 @@ def main() -> int:
         "matched_at": date.today().isoformat(),
         "evidence_note": str(request.get("evidence_note") or "User-submitted catalogue match; identity reviewed before import."),
     }
-    WIKITREE_CATALOGUE_PROFILE_LINKS.write_text(
-        json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
+    atomic_write_text(
+        WIKITREE_CATALOGUE_PROFILE_LINKS,
+        json.dumps(payload, indent=2, ensure_ascii=False) + "\n",
     )
     print(f"Recorded {catalogue_id} -> {canonical_id}")
     if options.rebuild:

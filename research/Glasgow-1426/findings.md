@@ -15,3 +15,20 @@ The transcript-validated baptism record for **Hugh Glasgow**, 08 Dec 1713, Irvin
 
 Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
 <!-- END FMP-GLASGOW-fmp-glasgow-cdbfe8e4475a -->
+
+## Identity assessment — Irvine/London sailor
+
+Do not add a 3 February 1733 sailor event. Findmypast row
+`GBOR/DOBSON/013379` is misaligned: the printed Edinburgh testament index gives
+Hugh Glasgow, sometime sailor in Irvine and thereafter in London, the date
+**12 March 1751**; 3 February 1733 belongs to the following James Glasgow
+entry. Separate Findmypast mariner and testament records confirm the 1751
+date. See the [source-correction dossier](../hold-resolution/record-dossiers/fmp-glasgow-a0b809464cc9-hugh-glasgow-index-conflation.md).
+
+[[Glasgow-1426|Hugh Glasgow]] remains an exact-Irvine, viable-age candidate,
+but the testament names no age, parent, spouse, vessel, executor or address.
+Other viable Hugh profiles prevent a safe assignment.
+
+## Recommended action — Irvine/London sailor
+
+Make no profile amendment without an independent sailor/London identifier.

@@ -55,6 +55,54 @@ remain:
 - Separate Inveresk man: [[Glasgow-3923|James Glasgow]], son of
   [[Glasgow-1148|Alexander Glasgow]] and [[Clerk-296|Jannet Clerk]].
 
+## Possible Lindsaylands father — unresolved
+
+An Edinburgh apprenticeship entry dated 7 May 1690 names the apprentice James
+Glasgow's father as a deceased James Glasgow, weaver at Lindsayland.<ref>[https://www.findmypast.co.uk/transcript?id=SCOT%2FEDINBURGH%2FAPPRENTICES%2F0005159%2F1 Findmypast transcript `SCOT/EDINBURGH/APPRENTICES/0005159/1`], captured 3 September 2026.</ref>
+A Lanark Commissary index independently records the testament of James Glasgow,
+weaver at Back of Lindsaylands in Biggar parish, on 10 November 1680.<ref>Francis
+J. Grant, ed., [https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/the_commissariot_record_of_lanark__register_of_testaments_1595-1800_~_1903.pdf
+''The Commissariot Record of Lanark: Register of Testaments, 1595–1800'']
+(Edinburgh: Scottish Record Society, 1903), printed p. 38.</ref> The matching
+name, occupation, highly distinctive residence and deceased status make the
+1680 testament subject the leading documentary identity for the apprentice's
+father.
+
+That does not yet identify the father with this profile. Glasgow-1150 was an
+Edinburgh weaver and burgess and is chronologically possible, but no record
+bridges his Edinburgh household to Back of Lindsaylands. Moreover, the
+catalogue currently assigns a generic 1693 Edinburgh burgess/master entry to
+Glasgow-1150; if that placement is correct, he cannot have been the father
+called deceased in 1690. [[Glasgow-3332|James Glasgow]] is the other existing
+Biggar-area candidate, but his identification with the 1680 testament is also
+unproved. Keep the apprentice unconnected until the 1680 testament or another
+record supplies family or holding continuity.
+
+## Probable later sons in the Edinburgh apprentice register
+
+The published 1666–1700 register establishes that the apprentices of 1690 and
+1696 were not one person. The 1690 apprentice's father was deceased and lived
+at Lindsayland. By contrast, the 1696 apprentice was the son of James Glasgow,
+weaver and burgess; in 1699 Thomas, youngest son of James Glasgow, weaver and
+burgess, was apprenticed to James Affleck, baxter and burgess.<ref>Henry Paton,
+ed., [https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/edinburgh_apprentices_~_1666_to_1700_~_1929.pdf
+''Register of Apprentices of the City of Edinburgh, 1666–1700''] (Scottish
+Record Society, 1929), printed p. 37, entries dated 22 April 1696 and 11
+October 1699.</ref>
+
+Glasgow-1150 is the leading father-profile match for the 1696 James and 1699
+Thomas. The exact name, occupation, burgess status and city match, and the same
+man was recorded as a weaver, burgess and apprenticeship master in 1693. No
+second James Glasgow, weaver and burgess, appears in the published Edinburgh
+burgess roll. The fatherhood is therefore probable, but the late dates and lack
+of a named mother justify uncertain attachments until a baptism, testament or
+incorporation record corroborates them.
+
+The adjacent entry for Robert, son of James Glasgow, weaver, apprenticed on 24
+January 1672 is a strong lead for [[Glasgow-1374|Robert Glasgow]], baptised in
+1655 to James Glasgow and Agnes Duncan, but that record-to-profile assignment
+requires its own profile-level handoff.
+
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-3f34f6d0bdd6 -->
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-3f34f6d0bdd6
 

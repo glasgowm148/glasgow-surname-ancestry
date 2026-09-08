@@ -1,56 +1,55 @@
-# Findings: [Issobell Symington (Glasgow-3336), born 1597, Edinburgh, Scotland](https://www.wikitree.com/wiki/Glasgow-3336)
-
-Record every useful result and negative search here as it is found.
-Do not treat an unsourced tree or naming pattern as proof.
+# Findings: [Issobell Glasgow, wife of William Symountoun (Glasgow-3336)](https://www.wikitree.com/wiki/Glasgow-3336)
 
 ## Current conclusion
 
-Father assessment: **father not identified; uncertain**.
+Issobell married William Symountoun, an Edinburgh tailor, on 10 June 1619. A
+son William was baptised there on 2 May 1620. Neither record names her parents.
+
+She is not presently identified as the Isobel named as a daughter in
+[[Glasgow-3163|Andrew Glasgow of [Corsoun?]]]'s 1597/8 testament. The date,
+Edinburgh sheriffdom and generation are compatible, but no direct Corsoun,
+Stevenson, sibling or estate bridge has been found. She is excluded as the
+current match at moderate confidence; a distinct creation draft represents
+Andrew's daughter, subject to a later merge if direct evidence emerges.
+
+The separate Edinburgh craft-marriage cluster around Ninian Glasgow's family
+is a competing context, not a proved placement. Ninian's son Robert was a
+cordiner; other Glasgow women married cordiners; Issobell's husband was a
+tailor. That network can support targeted guild searches but cannot identify
+her father.
 
 ## Source findings
 
 | Source | Finding | Assessment |
 | --- | --- | --- |
-| Scotland OPR marriage and baptism entries cited in the [captured WikiTree profile](https://www.wikitree.com/wiki/Glasgow-3336) | The records establish Issobell's marriage and children but do not name her parents. | Direct family evidence, negative for parentage. |
-| Henry Paton, ed., *The Register of Marriages for the Parish of Edinburgh, 1595-1700*, printed p. 267, [10 June 1619](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/register_of_marriages_for_the_parish_of_edinburgh_1595-1700_~_1898.pdf#page=277); [local extract](../../surname-research/pre-1700/sources/edinburgh_marriage_register_glasgow_extract.txt) | Isobel Glasgow married William Symountoun, tailor. The same surname page records Margaret Glasgow marrying a cordiner in 1611 and Barbara Glasgow marrying a cordiner in 1616. | Direct spouse, date and husband's occupation evidence. The cluster is a useful kinship hypothesis but supplies no father. |
+| Edinburgh OPR marriage, parish 685/1, ref. 430/120, frame 721 | Issobell Glasgow married Williame Symountoun on or after 10 June 1619. | Direct marriage evidence; no parent. |
+| Henry Paton, ed., *Register of Marriages for the Parish of Edinburgh, 1595–1700*, [p. 267](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/register_of_marriages_for_the_parish_of_edinburgh_1595-1700_~_1898.pdf#page=277) | Calls William Symountoun a tailor. | Direct occupation and marriage evidence. |
+| Edinburgh OPR baptism, parish 685/1, ref. 20/284, frame 527 | William Symountoun, son of William and Issobell Glesgow, was baptised 2 May 1620. | Direct parent-child evidence. |
+| NRS CC8/8/32, images 123–124 | Andrew Glasgow names daughters Marion, Jonet and Isobel. | Direct existence of a record-defined Isobel daughter; no identifying link to this profile. |
 
-## Recommendation
+## Candidate assessment
 
-Add William Symountoun's occupation and the published-register citation. Keep
-Isobel's parentage unknown. Test the Tailors incorporation and Edinburgh
-proclamation records for father, cautioner or marriage-right evidence before
-connecting her to Margaret-3598 or either adult Barbara.
+- Daughter of Andrew Glasgow: **excluded as the current match** because only
+  name, generation and broad region align.
+- Daughter or niece within Ninian Glasgow's craft circle: **possible competing
+  cluster hypothesis**, not a relationship.
+- The exact 1597 birth currently shown on WikiTree is an estimate, not a
+  documented event.
 
-## Recommended correction applied
+Decisive evidence would name her father, identify her marriage portion or
+cautioner, or connect William Symountoun's household to Corsoun/Caldercleir.
+Search the Edinburgh Tailors incorporation, proclamation originals and Morton
+estate records.
 
-Verified live **19 August 2026**: the 10 June 1619 marriage, William Symountoun's
-tailor occupation and the published-register citation are live. The birth
-estimate is uncertain and no parents are inferred from the craft cluster.
+## WikiTree handoff
 
-## Branch placement - 31 August 2026
+Use the complete replacement in `Glasgow-3336.md`; retain the comparison as a
+rejected present match, without changing structured parents.
 
-Isobel is best placed as a possible daughter or niece of
-[Ninian Glasgow (Glasgow-3188)](https://www.wikitree.com/wiki/Glasgow-3188).
-Her tailor husband belongs to the same Edinburgh craft-marriage cluster as two
-Glasgow women who married cordiners. Ninian's son Robert was a cordiner; his
-possible son William moved into Leith and William's son was apprenticed to a
-cordiner. This makes Ninian's household or immediate collateral circle the
-leading branch, although no source names Isobel's father.
-
-Assessment: **possible daughter/niece, moderate**.
+Edit summary: `Add Andrew of Corsoun daughter candidate; preserve parentage as unproved.`
 
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-27ad044d0e56 -->
-## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-27ad044d0e56
-
-The transcript-validated marriage record for **Issobell Glasgow**, 10 Jun 1619, Edinburgh, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
-
-## Source findings
-
-- [R_695879939/2 Findmypast transcript](https://www.findmypast.co.uk/transcript?id=R_695879939%2F2&tab=this): Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Midlothian; First name(s): Issobell; Last name: Glasgow; Marriage date: 10 Jun 1619; Marriage year: 1619; Place: Edinburgh; Record set: Scotland, Parish Marriages & Banns 1561-1893; Spouse's first name(s): Williame; Spouse's last name: Symountoun; Subcategory: Parish Marriages (captured 2026-09-03T21:32:05.466Z).
-- Findmypast record IDs: `R_695879939/2`.
-- Stable research/source ID: `fmp-glasgow-27ad044d0e56`.
-
-## Recommended action — fmp-glasgow-27ad044d0e56
-
-Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
+The [Findmypast transcript](https://www.findmypast.co.uk/transcript?id=R_695879939%2F2&tab=this)
+independently indexes the 10 June 1619 Edinburgh marriage. Record ID
+`R_695879939/2`; stable research ID `fmp-glasgow-27ad044d0e56`.
 <!-- END FMP-GLASGOW-fmp-glasgow-27ad044d0e56 -->

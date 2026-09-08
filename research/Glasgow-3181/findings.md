@@ -1,103 +1,144 @@
-# Findings: [John Glasgow (Glasgow-3181), born about 1540, Hirdmanscheillis/Hermand](https://www.wikitree.com/wiki/Glasgow-3181)
+# Findings: [John Glasgow (Glasgow-3181), of Hirmenschelis](https://www.wikitree.com/wiki/Glasgow-3181)
 
 ## Current conclusion
 
-**The currently attached father is contradicted.** The live profile now makes
-[Robert Glasgow (Glasgow-1096), born about 1520,
-Glasgow](https://www.wikitree.com/wiki/Glasgow-1096) the father by combining
-Ninian's 1596 burgess admission with Ninian's 1613 testament. Those records do
-prove that Robert had a son John, but that John was alive on 10 January 1613.
-Glasgow-3181 died in November 1576 and cannot be that man.
+[John Glasgow (Glasgow-3181)](https://www.wikitree.com/wiki/Glasgow-3181)
+is the unique WikiTree match for the man indexed as John Glasgow in
+Hirmenschelis whose testament dative is in National Records of Scotland
+reference `CC8/8/5`. A higher-resolution reading changes the family
+reconstruction substantially:
 
-The better uncertain father is [John Glasgow (Glasgow-1093), born about 1510,
-Glasgow](https://www.wikitree.com/wiki/Glasgow-1093). Two Glasgow burgh
-protocols directly prove that he had a son John of the correct generation, but
-no record found identifies that burgh son as the John who died at
-Hirdmanscheillis. Replace Robert-1096 with John-1093 only as an uncertain
-father; do not describe the relationship as confirmed.
+- John died in **March**, not November. The following year is not secure in the
+  manuscript; he was certainly dead by the court/index date, 4 May 1577.
+- Margaret, his widow, has a Cochrane-like surname, probably **Cochrane**. It is
+  not securely Hoghame, Hochaine or Hutcheson.
+- his lawful children and executors-dative were **Katherine Glasgow** and a
+  second child provisionally read **Androw/Andrew Glasgow**, not Marjorie;
+- the record directly identifies John as the children's father. The pronoun
+  before “lawful bairns” is unresolved, so it does not independently prove
+  Margaret was their mother or identify her with the attached
+  [Margaret Hutcheson (Hutcheson-1656)](https://www.wikitree.com/wiki/Hutcheson-1656).
 
-The search produced several concrete profile corrections. The testament names John's widow as **Margaret Hoghame**, a historical shorthand/variant of **Margaret Hutchison**, and his lawful daughters as **Katherine and Marjorie Glasgow**, not Katherine and Margaret. Hirdmanscheillis is the historic **Hermand in West Calder**. The attached sibling relationship to [Ninian Glasgow (Glasgow-3188), born about 1550, Glasgow](https://www.wikitree.com/wiki/Glasgow-3188) is contradicted by direct records.
-
-Live-profile audit **19 July 2026, refreshed after the latest edit**: the new
-opening `Father` section is wrong because it assigns a record-defined man alive
-in 1613 to a profile that died in 1576. The structured father has also been
-changed from John-1093 to Robert-1096. Both changes must be reversed or
-qualified as described below.
+John's attached father,
+[John Glasgow (Glasgow-1093)](https://www.wikitree.com/wiki/Glasgow-1093),
+remains a possible father rather than a proved one. The former identification
+of this John as a son of
+[Robert Glasgow (Glasgow-1096)](https://www.wikitree.com/wiki/Glasgow-1096)
+and brother of
+[Ninian Glasgow (Glasgow-3188)](https://www.wikitree.com/wiki/Glasgow-3188)
+is chronologically impossible because Ninian named a living brother John in
+1613.
 
 ## Source findings
 
 | Source | Finding | Assessment |
 | --- | --- | --- |
-| National Records of Scotland, Edinburgh Commissary Court, `CC8/8/5`, image 276 and upper part of image 277; [local image 276](sources/CC8-8-5-image-276.png); published [testament index, p. 109](https://archive.org/details/commissariotreco16scot/page/n117/mode/2up?q=Glasgow) | The testament dative says **Johne Glasgw in Hirmanscheillis** died in November 1576. His relict **Margaret Hoghame** gave up the inventory for their lawful bairns and executors dative **Kathrine and Marjorie Glasgw**. It names no parent or sibling. | Direct identity, spouse, child and death evidence; negative for parentage. |
-| Robert Renwick, ed., *Abstracts of Protocols of the Town Clerks of Glasgow*, vol. 3, protocol 748, [13 May 1563](https://archive.org/details/abstractsprotoc06scogoog/page/n52/mode/2up) | John Glasgow senior resigned a Glasgow tenement to “John Glasgow junior, his son,” reserving annual payments to himself and Jonet Spreull, his spouse. | Direct proof that the proposed father had a son John; no Hirdmanscheillis identifier. |
-| Renwick, *Protocols*, vol. 6, protocol 1722, [8 January 1570/71, printed p. 44](https://archive.org/details/abstractsprotoc05scogoog/page/n58/mode/2up); [saved scan](sources/protocol-1722-1570-71-john-younger-son.jpg) | The witnesses include “John Glasgw, younger son of John Glasgw.” This independently confirms the same-named father-and-son pair in Glasgow eight years after protocol 748. | Direct relationship evidence; likely the same burgh son as in 1563, but still no bridge to Hirdmanscheillis. |
-| Renwick, *Protocols*, vol. 3, protocol 805, 28 October 1564, printed p. 57 | John Glasgow was served heir to his father William Glasgow in the same Glasgow property block bounded by Robert Young and the late John Rankin. Protocols 809-810 call this owner John Glasgow senior/elder. | Strong collateral reconstruction of John senior's burgh family and property; it does not identify the Hirdmanscheillis testator. |
-| Renwick, *Protocols*, vol. 7, protocol 2189, [17 June 1575, printed p. 110](https://archive.org/details/abstractsprotoc00robegoog/page/n126/mode/2up) | Stephen Glasgow, son of the late John Glasgow, acted with consent of his mother and liferentrix Jonet Spreull over the same property block bounded by Robert Young and the late John Rankin. | Directly proves [Stephen Glasgow (Glasgow-1029), born about 1550, Glasgow](https://www.wikitree.com/wiki/Glasgow-1029) was John senior and Jonet's son. It also proves John senior was dead by 17 June 1575, before the Hirdmanscheillis John died in November 1576. |
-| Renwick, *Protocols*, vol. 7, protocol 2002, 19 December 1573, printed p. 36 | “Robert Glasgw” and “John Glasgw,” both fishers, witnessed the same Bridgegate transaction. Earlier 1571-73 protocols also show a John Glasgow as a burgh landholder. | A likely later occurrence of the burgh son, but the record does not say whose son he was. It cannot be assigned to the Hirdmanscheillis testator as fact. |
-| Hardy Bertram McCall, *The History and Antiquities of the Parish of Mid-Calder* (1894), [barony-court extracts](https://www.electricscotland.com/history/westcalder/mid_calder.pdf) | The surviving Calder-Comitis court extracts call the place **Hirdmanscheillis/Hirdmanschiels** and show John Stevenson younger there as bailie in 1583 and at the 1586 wappenschaw. Later passages explicitly gloss Hirdmanschiels as **Hermand**. | Places John's farm in the rural Calder/West Calder network, not in Glasgow burgh. No transfer from Glasgow to Stevenson is preserved in the published extracts. |
-| *The Germanic Toponymicon of Southern Scotland*, University of Glasgow thesis, [place-name entry](https://theses.gla.ac.uk/1343/1/2003scott1phd.pdf) | The Hermand entry gives the historical forms “Hirdmanscheill(i)s” (1583) and “Hirdmans(c)hiel(l)s” (1585-86), in West Calder. | Scholarly confirmation of the modern place identification. |
-| James R. Anderson, ed., *Burgesses & Guild Brethren of Glasgow, 1573-1750*, [p. 24, 23 October 1596](https://archive.org/details/scottishrecordso43scotuoft/page/24/mode/2up); NRS Glasgow Commissary Court `CC9/7/9`, Ninian Glasgow's 1613 testament | The burgess roll calls Ninian the **second son of Robert Glasgow**, fisher and burgess. Ninian's testament expressly calls “Johne Glasgw” his brother, who was necessarily alive in 1613; the following clothing description is insecure. | Directly contradicts the present treatment of Ninian as this John's brother: Glasgow-3181 died in 1576, and Ninian's father was Robert, not John senior. |
+| National Records of Scotland, Edinburgh Commissary Court, `CC8/8/5`, images 276–277, testament dative and inventory of Johne Glasgw; [published testament index, p. 109](https://archive.org/details/commissariotreco16scot/page/n117/mode/2up?q=Glasgow) | The entry is for the late John Glasgow; its death clause reads March, with the year difficult. Margaret, whose surname is Cochrane-like, probably Cochrane, submitted the inventory for Katherine and Androw/Andrew Glasgow, lawful children and executors-dative to John, their father. The pronoun before “lawful bairns” is unresolved. The court/index date is 4 May 1577. | Direct evidence for John, his widow, the two children and the father-child relationships. It does not independently prove Margaret's maternity. The exact death year, Margaret's surname and Andrew's forename remain palaeographically qualified. |
+| [Findmypast transcript, `SCOT/WILLS/057444`](https://www.findmypast.co.uk/transcript?id=SCOT%2FWILLS%2F057444&tab=this) | Indexes John Glasgow “in Hirmenschelis” on 4 May 1577. | Derivative identity and place evidence. The date is the register/index date, not John's death date. |
+| Robert Renwick, ed., *Abstracts of Protocols of the Town Clerks of Glasgow*, vol. 3, protocol 748, [13 May 1563](https://archive.org/details/abstractsprotoc06scogoog/page/n52/mode/2up), and vol. 6, protocol 1722, [8 January 1570/71](https://archive.org/details/abstractsprotoc05scogoog/page/n58/mode/2up) | The first record calls John Glasgow junior a son of John Glasgow senior; the second names “John Glasgw, younger son of John Glasgw.” | Direct proof that Glasgow-1093 had a son John of the right generation, but neither record identifies him with the Hirmenschelis testator. |
+| Anderson, ed., *Burgesses & Guild Brethren of Glasgow, 1573–1750*, [p. 24](https://archive.org/details/scottishrecordso43scotuoft/page/24/mode/2up), 23 October 1596; NRS `CC9/7/9`, testament of Ninian Glasgow, 10 January 1613 | Ninian was the second son of Robert Glasgow, fisher and burgess. Ninian's testament names his brother John, then alive. | Excludes Glasgow-3181 as Ninian's brother and Robert-1096's son. |
+| Hardy Bertram McCall, *The History and Antiquities of the Parish of Mid-Calder* (1894), [Calder court extracts](https://www.electricscotland.com/history/westcalder/mid_calder.pdf); *The Germanic Toponymicon of Southern Scotland*, [University of Glasgow thesis](https://theses.gla.ac.uk/1343/1/2003scott1phd.pdf) | Historical Hirdmanschiels forms are associated with Hermand in West Calder. | Useful place-name context for the derivative Hirmenschelis form; it does not make the unclear manuscript place-name certain. |
+| NRS Edinburgh Commissary Court, `CC8/8/32`, testament of [Andrew Glasgow (Glasgow-3163)](https://www.wikitree.com/wiki/Glasgow-3163), 1597/8 | Andrew was an adult rural landholder in the Calder Cleir area, with wife and children, about twenty years after John's administration. | Makes Glasgow-3163 the leading possible match for John's son Andrew by name, generation and nearby Calder geography; no record yet joins the two identities. |
 
-## Findmypast surname-only audit — 3 September 2026
+The estate includes livestock, grain, household goods, rent and wage debts.
+One debt-by-the-deceased entry names **Katherin Glasgow, servant**, who was owed
+wages. She may be the testament daughter, but the debt entry does not identify
+her as such.
 
-[Findmypast transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FWILLS%2F057444)
-identifies **John Glasgow**, with additional information **“in Hirmenschelis,”**
-and date **4 May 1577**. This is the court/index date rather than the death
-date: the underlying testament records John in Hirmanscheillis as dead in
-November 1576. The transcript is a derivative index and independently matches
-the record-defined man represented by `Glasgow-3181`; it does not resolve his
-parentage.
+The wider burgh reconstruction remains relevant but not identity proof.
+Protocol 805 (28 October 1564) records John Glasgow senior as heir to his father
+William in a Glasgow property block. Protocols 809–810 call him elder/senior,
+and protocol 2189 (17 June 1575) identifies Stephen Glasgow as the son of the
+late John and Jonet Spreull. Protocol 2002 (19 December 1573) places two
+fishers, Robert and John Glasgow, at the same Bridgegate transaction. These
+entries define the burgh family and a likely later appearance of its son John,
+but none mentions Hirmenschelis, Margaret, Katherine or Andrew.
 
-## Identity analysis
+## Relationship and identity assessment
 
-The 1563 and 1571 records almost certainly concern one Glasgow-burgh son John: the name, father, generation and burgh setting coincide. They make [John Glasgow (Glasgow-1093)](https://www.wikitree.com/wiki/Glasgow-1093) a **plausible** father candidate for Glasgow-3181.
+- **Proved:** John was father of Katherine and the child provisionally read
+  Androw/Andrew.
+- **Not proved:** Margaret was the children's mother. Her presentation of the
+  inventory on their behalf is consistent with maternity but does not establish
+  it because the relevant pronoun is unresolved.
+- **Possible:** Glasgow-1093 was John's father. Keep the attachment uncertain.
+- **Excluded:** Robert-1096 was this John's father and Ninian-3188 was this
+  John's brother.
+- **Possible candidate only:** Glasgow-3163 was John's son Andrew. Do not attach
+  or merge without a record connecting the two Calder households.
+- **Not supported:** [Marjorie Glasgow (Glasgow-3589)](https://www.wikitree.com/wiki/Glasgow-3589)
+  was the second child named in this testament.
 
-They do **not** complete the identity chain. The last likely burgh occurrence is John the fisher in December 1573. The testament's John is documented three years later as a rural livestock tenant roughly 25 miles east in the Calder barony, with a differently documented household and no stated occupation. A move is possible, but no sasine, tack, court minute, testament, spouse record or sibling record connects the two settings. The father should therefore remain uncertain rather than being promoted to confirmed.
+## Duplicate audit — 8 September 2026
 
-## WikiTree update instructions
+- A complete live WikiTree search returned 428 John Glasgow results;
+  Glasgow-3181 was the unique Hirmenschelis match.
+- Katherine spelling variants returned Glasgow-3590 as the unique
+  Hirmenschelis match.
+- Andrew Glasgow returned 35 results. Only Glasgow-3163 was a plausible adult
+  early candidate; Glasgow-4006 was an unrelated infant. `Andro Glasgow`
+  returned no result.
+- Complete Margaret Cochrane variants returned no compatible widow. The only
+  early exact Margaret Cochrane profiles were born about 1575/76 and are too
+  young. Hoghame and Hochaine returned no results.
 
-Live profile checked **19 July 2026**. The testament transcription of Margaret
-Hoghame, Katherine and Marjorie is sound, but the new father section and
-structured father conflate this testator with a different John alive in 1613.
+The six relevant live profiles checked on 8 September 2026 had not changed
+since their cached captures.
 
-1. Remove the biography section claiming Glasgow-3181 was Robert-1096's son and
-   Ninian-3188's brother. It is chronologically impossible.
-2. Replace [Robert Glasgow (Glasgow-1096)](https://www.wikitree.com/wiki/Glasgow-1096)
-   as structured father with [John Glasgow (Glasgow-1093)](https://www.wikitree.com/wiki/Glasgow-1093)
-   only as an **uncertain** father. Protocols 748 and 1722 prove John-1093 had a
-   son John, but do not complete the identity bridge to Hirdmanscheillis.
-3. Retain [Margaret Hutcheson (Hutcheson-1656)](https://www.wikitree.com/wiki/Hutcheson-1656)
-   as the spouse. The apparent surname discrepancy is resolved: **Hoghame** is
-   the period shorthand/variant for Hutchison, independently verified in the
-   project research. No spouse replacement or second woman is warranted.
-4. [Katherine Glasgow (Glasgow-3590)](https://www.wikitree.com/wiki/Glasgow-3590)
-   correctly represents the testament-named daughter; retain her.
-5. [Margaret Glasgow (Glasgow-3589)](https://www.wikitree.com/wiki/Glasgow-3589)
-   is the other attached daughter. Rename/correct this profile to **Marjorie
-   Glasgow** if it represents the testament child; the record names Marjorie,
-   not Margaret.
-Edit summary: `Separate the Hirmanscheillis testator who died in 1576 from Ninian's brother John who was alive in 1613.`
+## Recommended WikiTree amendments
+
+1. Replace the present biography with the complete draft in `Glasgow-3181.md`.
+2. Change the structured death from November 1576 to **before 4 May 1577,
+   uncertain**. State in the biography that the month reads March but the year
+   is unresolved.
+3. Retain Glasgow-1093 only as an uncertain father.
+4. Retain Hutcheson-1656 as the attached wife only as an uncertain identity for
+   the record's Margaret; do not change her LNAB to Cochrane on this record
+   alone.
+5. Keep Glasgow-3590 as John's proved daughter. Treat her attached mother as
+   uncertain: neither maternity nor the Hutcheson-1656 identity is proved.
+6. Mark both parent links on Glasgow-3589 uncertain and add
+   `{{Uncertain Existence}}`; the profile is not supported by this testament.
+7. Hold Glasgow-3163 as the leading Andrew candidate; do not create a duplicate
+   Andrew or attach him to John yet.
+
+## Unresolved priorities
+
+- Obtain an independent reading of the death-year numerals, Margaret's
+  surname, and the second child's forename.
+- Search Calder property, rental, kirk and court material for a bridge between
+  Hirmenschelis, John, Katherine, Andrew and the later Glasgow-3163 household.
+- Determine whether the wage creditor Katherin Glasgow can be independently
+  identified as John's daughter.
 
 ## Negative searches
 
-- All eleven published volumes of Glasgow town-clerk protocols were searched for John/Glasgow spelling variants. They establish the burgh family and likely occurrences through 1573, but no entry associates John with Hirdmanscheillis, Hermand, Calder, Margaret Hoghame, Katherine or Marjorie.
-- The published Glasgow burgh minutes for 1574-76, accounts for 1573-85 and volume index were searched. They contain no personal entry that bridges John Glasgow to Calder.
-- The Edinburgh Commissary testament index for 1514-1600 contains John's Hirmanscheillis entry but no later Hoghame or daughter entry establishing parentage.
-- The published Calder barony-court extracts begin in 1583, seven years after John died. They show the Stevenson occupation of Hirdmanscheillis but preserve no Glasgow-to-Stevenson transfer or family relationship.
-- The NRS `GD119` Torphichen/Sandilands catalogue was searched for Hirdmanscheillis/Hermand and Glasgow variants. No 1570s transfer or parent/sibling record for John was exposed in the online catalogue.
+- All eleven published volumes of Glasgow town-clerk protocols were searched
+  for John/Glasgow variants. None bridges the burgh son to Hirmenschelis.
+- The published Glasgow burgh minutes for 1574–76 and accounts for 1573–85
+  produced no personal entry connecting John to Calder.
+- The Edinburgh Commissary testament index for 1514–1600 contains John's entry
+  but no separate widow or child entry resolving the family.
+- Published Calder barony-court extracts begin in 1583 and preserve no
+  Glasgow-to-Stevenson property transfer.
+- The NRS `GD119` Torphichen/Sandilands catalogue produced no 1570s transfer,
+  parent or sibling record for this John.
 
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-f25b7384f2e9 -->
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-f25b7384f2e9
 
-The transcript-validated testament/probate record for **John Glasgow**, 4 May 1577, , is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
+The transcript-validated testament index entry for **John Glasgow**, dated 4
+May 1577, is assigned to this profile by the completed person-level WikiTree
+audit. It does not merge any other same-name event or establish his death date.
 
-## Source findings
+## Source findings — fmp-glasgow-f25b7384f2e9
 
-- [SCOT/WILLS/057444 Findmypast transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FWILLS%2F057444&tab=this): Additional information: in Hirmenschelis; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Commissariot: Edinburgh; Country: Scotland; Date: 4 May 1577; First name(s): John; Last name: Glasgow; Publication: Commissariot Record Of Edinburgh Register Of Testaments Part I (1514-1600); Record set: Scotland, Will And Testament Index 1481-1807; Subcategory: Wills & Probate; Year: 1577 (captured 2026-09-03T21:33:03.976Z).
-- Findmypast record IDs: `SCOT/WILLS/057444`.
+- [SCOT/WILLS/057444 Findmypast transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FWILLS%2F057444&tab=this): John Glasgow; additional information “in Hirmenschelis”; Commissariot of Edinburgh; date 4 May 1577; captured 3 September 2026.
+- Findmypast record ID: `SCOT/WILLS/057444`.
 - Stable research/source ID: `fmp-glasgow-f25b7384f2e9`.
 
 ## Recommended action — fmp-glasgow-f25b7384f2e9
 
-Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
+Retain as derivative identity support. Do not infer an unstated parent or use
+the index date as John's death date.
 <!-- END FMP-GLASGOW-fmp-glasgow-f25b7384f2e9 -->

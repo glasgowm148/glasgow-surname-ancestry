@@ -1,5 +1,5 @@
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-32d4ff293591 -->
-> **HOLD TO CREATE**
+> **READY TO CREATE**
 
 # Mary Glasgow, 11 Apr 1744
 
@@ -19,6 +19,7 @@
 
 [[Category:Glasgow Name Study]]
 
+
 == Biography ==
 
 '''Mary Glasgow''' was born on 07 Apr 1744 and baptized on 11 Apr 1744 at Kilmarnock, Scotland. The record names Hugh Glasgow and Margaret Giffen as the parents. The recorded residence was Kilmk. The father's occupation was Glover.<ref name="FMP1" />
@@ -27,19 +28,19 @@
 
 Attach only relationships stated by the record after confirming the relative profile identities; leave all other relationships blank. Each named relative requires a duplicate search and a separately supported profile identity before attachment.
 
-This draft is on '''HOLD''' because the following possible duplicate profile identities remain unresolved:
+The completed live WikiTree audit retained no compatible profile candidate.
 
-
+'''Reviewed integration decision:''' The exact 7/11 April 1744 Kilmarnock birth/baptism and named parents define a distinct child; no compatible live profile remains.
 
 * [[Glasgow-369|Mary]] — no exact full event-date bridge; no exact locality bridge; named record relatives do not all resolve exactly on the profile
 
 The 1 result ID(s) above represent one conservative documentary group because: singleton; no strong same-event duplicate proof. Preserve uncertainty; a similarly named event is not automatically the same historical person.
 
-'''Next test:''' inspect the underlying record image and search the relevant local register for an exact date, place, occupation, or named-relative bridge that confirms or excludes each candidate before creation.
+'''Next test before creation:''' repeat the exact-name, date, place, occupation, and named-relative duplicate search, then inspect the underlying record image where available.
 
 == Sources ==
 
-<references />
-
 <ref name="FMP1">[https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3600620&tab=this Findmypast transcript], Archive reference: OPR 597/2; Baptism date: 11 Apr 1744; Baptism year: 1744; Birth date: 07 Apr 1744; Birth year: 1744; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Ayrshire; Father's first name(s): Hugh; Father's last name: Glasgow; Father's occupation: Glover; First name(s): Mary; Item: 2; Last name: Glasgow; Mother's first name(s): Margaret; Mother's last name: Giffen; Page: 40; Place: Kilmarnock; Record set: Scotland, Parish Births & Baptisms 1564-1929; Register year range: 1786-1819; Residence: Kilmk; Subcategory: Parish Baptisms (captured 2026-09-03T23:42:33.674Z).</ref>
+
+<references />
 <!-- END FMP-GLASGOW-fmp-glasgow-32d4ff293591 -->

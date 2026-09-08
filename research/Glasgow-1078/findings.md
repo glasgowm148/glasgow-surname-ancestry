@@ -174,6 +174,14 @@ negative result, not proof that the 1618 Robert stayed in Scotland.
 - NRS GD154/505-534 and early PRONI D282 Kilwaughter tenant succession.
 - PRONI T/808/14889, 1666 County Antrim subsidy roll.
 
+## 1666 shipmaster disposition
+
+The Robert Glasgow who was master of the *John of Portrush* in 1666 should be
+created as a distinct, unconnected profile. This profile's 1618 baptism makes
+him chronologically possible, but no vessel, occupation, family, residence,
+signature or exact-event bridge identifies him as the shipmaster. A name and
+broad chronology alone are insufficient to absorb the record here.
+
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-7ed3915647bd -->
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-7ed3915647bd
 

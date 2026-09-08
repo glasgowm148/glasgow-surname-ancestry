@@ -18,6 +18,8 @@
 ## Paste-ready biography
 
 [[Category:Glasgow Name Study]]
+{{Estimated Date}}
+
 
 == Biography ==
 
@@ -29,7 +31,7 @@ Attach only relationships stated by the record after confirming the relative pro
 
 The completed live WikiTree audit retained no compatible profile candidate.
 
-'''Reviewed HOLD reason:''' The Kilbirnie baptism explicitly names Janet Glasgow and parents William Davies and Janet Kerr; it conflicts with Hood-6028.
+'''Reviewed integration decision:''' The Kilbirnie baptism explicitly names Janet Glasgow and parents William Davies and Janet Kerr; it conflicts with Hood-6028.
 
 * [[Hood-6028|Janet]] — no exact full event-date bridge; no exact locality bridge; named record relatives do not all resolve exactly on the profile
 
@@ -39,7 +41,7 @@ The 1 result ID(s) above represent one conservative documentary group because: s
 
 == Sources ==
 
-<references />
-
 <ref name="FMP1">[https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3587035&tab=this Findmypast transcript], Archive reference: OPR 596/1; Baptism date: 17 Jul 1748; Baptism year: 1748; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Ayrshire; Father's first name(s): William; Father's last name: Davies; Father's occupation: Farmer; First name(s): Janet; Item: 1; Last name: Glasgow; Mother's first name(s): Janet; Mother's last name: Kerr; Page: 116; Place: Kilbirnie; Record set: Scotland, Parish Births & Baptisms 1564-1929; Register year range: 1688-1819; Residence: Bailieston; Subcategory: Parish Baptisms (captured 2026-09-03T23:42:27.024Z).</ref>
+
+<references />
 <!-- END FMP-GLASGOW-fmp-glasgow-e37cff91091d -->

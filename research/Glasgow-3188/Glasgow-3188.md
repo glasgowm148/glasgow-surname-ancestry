@@ -31,23 +31,25 @@ date is not his death date.<ref name="Ninian1613" />
 
 == Research Notes ==
 
-The manuscript calls Ninian a `fyscher`, not a flesher or butcher. The word
-`sister` does not establish whether Marion was his full or half-sister, so
+The manuscript calls Ninian a ''fyscher'', not a flesher or butcher. The word
+''sister'' does not establish whether Marion was his full or half-sister, so
 their common father should not be treated as certain solely from this clause.
 
 A William Glasgow occurs in debt material and near the damaged foot of the
-will's opening, but the previously asserted words `his sone` cannot be read
+will's opening, but the previously asserted words ''his sone'' cannot be read
 securely. [[Glasgow-3075|William Glasgow, mealmaker in Leith]], remains only a
 possible son and possible identity match. The debtor and damaged will
-occurrence may not be the same man.
+occurrence may not be the same man. William's son Archibald was apprenticed at Edinburgh in 1639,<ref>Francis J. Grant, ed., ''Register of Apprentices of the City of Edinburgh, 1583–1666'' (1906), [https://archive.org/details/scottishrecordso28scotuoft/page/71/mode/2up p. 71], 23 October 1639.</ref> which supplies a geographic and occupational lead but no father-to-son bridge back to Ninian.
 
 The exact clothing description in the legacy to brother John is also unclear;
-do not quote it as `a new gown` without a better image. [[Glasgow-1030]] is the
+do not quote it as ''a new gown'' without a better image. [[Glasgow-1030]] is the
 leading existing-profile candidate for John but is not yet identified by an
 occupation, property, spouse or child bridge.
 
 Jonet Hutchesoun was Ninian's spouse but was not Robert's mother. Robert's
 maternity is separately proved by Jonet Meik's testament.
+
+Several women recorded at South Leith or Edinburgh in 1611–19 form a possible collateral group, including [[Glasgow-3182|Barbara]], [[Glasgow-3598|Margaret]], [[Glasgow-3302|Barbara]] and [[Glasgow-3336|Isobel]]. Their locality and marriages to craftsmen make them reasonable network leads,<ref>Henry Paton, ed., ''The Register of Marriages for the Parish of Edinburgh, 1595–1700'', [https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/register_of_marriages_for_the_parish_of_edinburgh_1595-1700_~_1898.pdf#page=277 printed p. 267].</ref> but none is named as Ninian's daughter and no such relationship should be attached.
 
 Elizabeth Hutchesoun received £5, but no relationship is stated. George
 Glasgow, Ninian Hill, David Stevin and notary Mr Jeronimus Hutchesoun also

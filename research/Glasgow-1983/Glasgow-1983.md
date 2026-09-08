@@ -1,9 +1,9 @@
 # Full replacement WikiTree biography
 
 ```wikitext
-== Biography ==
+[[Category:Glasgow Name Study]]
 
-{{One Name Study|name=Glasgow}}
+== Biography ==
 
 '''Robert Glasgow''' was born about 1762 or 1763 in Ireland. His Gilders Creek gravestone records that he died on 17 January 1835 aged 72 years and three months.<ref name="Gilders">[https://genealogytrails.com/scar/newberry/gilders_creek_cem.htm "Gilders Creek Cemetery"], Newberry County, South Carolina, transcriptions for Robert, Elizabeth and their son Robert (accessed 12 August 2026).</ref>
 

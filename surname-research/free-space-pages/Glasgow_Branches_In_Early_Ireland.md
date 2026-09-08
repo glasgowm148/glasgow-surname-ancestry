@@ -183,6 +183,14 @@ Later Cross, Killycurragh and Ballynasollus families may represent genuine local
 
 The descendant tree associated with [[Glasgow-548|Hugh Glasgow]] may represent a substantial later family. The current evidence does not establish that Hugh was a son of [[Glasgow-591|William]], identify him securely with either Tamlaght O'Crilly householder, or reconcile the 1740 Irish return with any claimed earlier emigration date.
 
+==== The unassigned Hugh Glasgow occurrence of 1772 ====
+
+A declaration dated at Innisrush on 6 April 1772 names Hugh Glasgow among people who collectively described themselves as inhabitants of Tamlaght O'Crilly parish. They stated that they had surrendered their arms to Henry Ellis of Innisrush and would rely on the law's protection against threats intended to prevent their submission. The declaration was published in the ''Belfast News-Letter'' on 14 April 1772.<ref name="Tamlaght1772Hugh">''Belfast News-Letter'', 14 April 1772, "County of Londonderry", declaration dated Innisrush, 6 April 1772; [https://arborealis.ca/records/newspapers/kilrea-news/1770-1779/#17720414 Arborealis transcription], accessed 8 September 2026.</ref>
+
+The notice proves Hugh's presence in the parish, not residence at Innisrush. Innisrush is the dateline and the stated residence of Henry Ellis. The notice gives Hugh no age, occupation, household, relative or exact residence, so it cannot safely be assigned to one person. The candidates are [[Glasgow-3931|Hugh Glasgow, 1740 entry 1195]]; the distinct 1740 entry-1272 householder; [[Glasgow-548|the older Hugh of the late McCullough family tradition]]; and [[Glasgow-540|the younger Hugh who later emigrated to Pennsylvania]].<ref name="Tamlaght1740Hughs">PRONI T808/15258, ''Names of 14,400 Protestant householders'', Tamlaght O'Crilly, 1740, pp. 108-109; [https://genealogy.torrens.org/BannValley/books/Kilrea/Kilrea07.html collector-order transcription], entries 1195 and 1272; [https://www.billmacafee.com/1740returns/1740religiousreturnsulstername.pdf W. Macafee surname transcription], both townlands recorded as "Not specified".</ref><ref name="GlasgowFamilyHistory">[[Glasgow-590|William Melanchthon Glasgow]], [https://www.wikitree.com/photo.php/0/0a/Glasgow-590.pdf ''History of the Glasgow Family''], pp. 2-3. This is a late family account and does not identify the newspaper subscriber.</ref>
+
+Treat the 1772 name as an unassigned documentary occurrence. It neither proves survival of either 1740 householder nor establishes another Hugh. A lease, rental, church record, probate record or comparable source giving age, occupation, household or relatives would be needed to assign it.
+
 === 🟢 C. East Antrim documentary cluster ===
 
 {| class="wikitable"
@@ -357,6 +365,14 @@ The Bann Valley–Killoquin cluster is not assigned to the East Antrim/Kilwaught
 ! Assessment
 | ⚠️ Record-supported later Antrim family; connection to Kilwaughter, Glenleslie or Bann Valley remains unresolved.
 |}
+
+=== Dublin Glasco watchmakers ===
+
+A Dublin trade cluster is documented from 1750. Philip Glasco senior, an eminent watchmaker in Christchurch Lane, married the widow Mangan of County Kildare in 1750; his wife died in 1760.<ref name="PhilipSenior">''Dublin Courant'', 8 May 1750, marriage report, [https://eddiesextracts.com/extracts1700/dc1719_52.html transcription]; ''Faulkner's Dublin Journal'', 2 February 1760, death of Mrs Glasco, [https://eddiesextracts.com/extracts1700/fdj1725_98.html transcription], accessed 8 September 2026.</ref> Philip Glasco junior, also a watchmaker in Christchurch Yard or Lane, married Teresa Plunkett in 1768 and died in Christ Church Lane in 1770.<ref name="PhilipJunior">''Public Gazetteer'', 17 September 1768, marriage report, [https://eddiesextracts.com/extracts1700/pg1758_74.html transcription]; ''Dublin Mercury'', 22 December 1770, death report, [https://eddiesextracts.com/extracts1700/dm1723_73.html transcription], accessed 8 September 2026.</ref>
+
+Under its heading for 19 July 1779, a newspaper extract reported the marriage of “Mr. [Thomas] Glasco, of Christchurch-lane, Watchmaker, to Miss Hynes of Ormond-quay.”<ref name="ThomasMarriage1779">''Saunders's News-Letter'', marriage notice under 19 July 1779; [https://eddiesextracts.com/extracts1700/snl1773_99.html transcription], accessed 8 September 2026. The following dated heading belongs to Christopher Harvey's death and is not the date of the Glasco marriage.</ref> Watson's 1783 directory later listed “Glasco, Thomas, Watch maker, 20, Ormond quay, 40/1.”<ref name="ThomasDirectory1783">John Watson, ''The Gentleman's and Citizen's Almanack'' (Dublin, 1783), [https://www.swilson.info/wat1783tr.php?brw=sur&amp;brwkey=Glasco merchants and traders transcription], accessed 8 September 2026.</ref> The rare name, identical occupation and movement from the husband's Christchurch Lane address to the wife's Ormond Quay street make these near-certain occurrences of the same tradesman. Shared surname, trade and Christchurch location also make Thomas a likely member of the wider Glasco watchmaking circle, but no inspected source states his relationship to either Philip.
+
+Three live profiles remain possible, but none can safely absorb the records. [[Glasco-143|Thomas Glasco]] has a weakly sourced estimated birth and reported 1785 marriage to Mary King; [[Glasco-144|Thomas Glasco]] is documented marrying Margaret Duffy in 1773, but no death or burial bridges him to Miss Hynes; and [[Glasco-173|Thomas Glasco]] is documented with wife Catherine as Sarah's father in 1760, but no trade or address connects him to the watchmaker. The attached Glasco-173 → Glasco-144 → Glasco-143 chain is not established by those records. Preserve the 1779–1783 watchmaker as a documentary cluster rather than inventing serial marriages or creating a fourth Thomas profile.
 
 == 🧾 Seventeenth-Century Profile Index Cautions ==
 

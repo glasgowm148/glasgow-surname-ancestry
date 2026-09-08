@@ -102,7 +102,7 @@ until the free-space pages are created on WikiTree.
 | [John de Glasgu](https://www.wikitree.com/wiki/Space:John_de_Glasgu_I%27), Glasgow, 1447 and 1455 | Witness in two Glasgow property acts within the same burgh network. | No office or kinship stated. |
 | [John Glasgw](https://www.wikitree.com/wiki/Space:John_Glasgw_of_Stirling), Stirling, 1475 and 1479/80 | Witness in two Stirling burgh acts. | Keep as a free-space subject; `Glasgow-1095` remains only a possible intended identity. |
 | John Glasgow, Saltmarket, 1527–before 21 October 1553 | Same four-shilling annual and adjoining owners identify one tenement holder in 1527, 1548 and as deceased in 1553. | **HOLD:** `Glasgow-1095` is a compatible existing-profile candidate; the 1506 `alias Smith` man remains only a candidate component. |
-| John Glasgow, sailor in Saltcoats, died December 1636?; testament confirmed 11 April 1637 | NRS testament CC9/7/27 names widow Isobel Young and their lawful children Katherine and Marie. | **HOLD:** `Glasgow-1030` remains a viable candidate for John; Marie maps to `Glasgow-3539`; only Katherine requires creation. |
+| John Glasgow, sailor in Saltcoats, died December 1636; court proceedings in April 1637 | NRS testament CC9/7/27 pages 478–480 names widow Isobell Gray and expressly calls Katherine and Agnes Glasgow John's lawful children. The April day is tentatively 21. | **HOLD:** `Glasgow-1030` remains a viable candidate for John. Re-run duplicate checks for Katherine and Agnes; this record does not identify `Glasgow-3539`. |
 
 ## Important exclusions
 

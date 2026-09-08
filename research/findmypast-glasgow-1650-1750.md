@@ -7,7 +7,7 @@ This integration export contains **173** transcript-validated conservative perso
 | James Glasgow, 12 Nov 1656, Edinburgh | `SCOT/EDINBURGH/APPRENTICES/0013015/2` | existing_profile: Glasgow-1150 |
 | Alexander Glasgow, 13 Apr 1659, Campbeltown | `SCOT/OPR/BAP/3017984` | existing_profile: Glasgow-3101 |
 | James Glasgow, 16 Nov 1659, Edinburgh | `SCOT/EDINBURGH/APPRENTICES/0013091/2` | existing_profile: Glasgow-1150 |
-| Thomas Glasgow, 2 May 1660, Edinburgh | `SCOT/BURGESS/1009527` | new_person: surname-research/new-people/1660_Scotland_Edinburgh_Thomas_Glasgow.md |
+| Thomas Glasgow, 2 May 1660, Edinburgh | `SCOT/BURGESS/1009527` | existing_profile: Glasgow-3187 |
 | Robert Glasgow, 4 Jul 1666, Edinburgh | `SCOT/BURGESS/1009525` | existing_profile: Glasgow-3938 |
 | Helen Glasgow, 22 Dec 1668, Linlithgow | `SCOT/OPR/BAP/0476082`, `SCOT/OPR/BAP/0501646` | new_person: surname-research/new-people/1668_Scotland_Linlithgow_Helen_Glasgow.md |
 | James Glasgow, 24 Feb 1669, Edinburgh | `SCOT/EDINBURGH/APPRENTICES/0001079/2` | existing_profile: Glasgow-1150 |
@@ -22,7 +22,7 @@ This integration export contains **173** transcript-validated conservative perso
 | Agnes Glasgow, 24 Sep 1679, Kilwinning | `SCOT/OPR/BAP/3624503` | existing_profile: Glasgow-1064 |
 | John Glasgow, 1679-1688, Cavers | `GBPR/COVENANT/028556` | existing_profile: Glasgow-1498 |
 | Jon Glasgow, 06 Jul 1679, Kilwinning | `SCOT/OPR/BAP/3624491` | existing_profile: Glasgow-1434 |
-| Michael Glasgow, 1679-1688, The Tounes and Parochines of Irving and Kilwinning and baronies yrin | `GBPR/COVENANT/028557` | new_person: surname-research/new-people/1679_1688_Scotland_The_Tounes_and_Parochines_of_Irving_and_Kilwinning_and_baronies_yrin_Michael_Glasgow.md |
+| Michael Glasgow, Sep 1679, The Tounes and Parochines of Irving and Kilwinning and baronies yrin | `GBPR/COVENANT/028557` | new_person: surname-research/new-people/1679_1688_Scotland_The_Tounes_and_Parochines_of_Irving_and_Kilwinning_and_baronies_yrin_Michael_Glasgow.md |
 | William Glasgow, 1679, Cavers | `GBPR/COVENANT/028558`, `GBPR/COVENANT/028559`, `GBPR/COVENANT/028560` | new_person: surname-research/new-people/1679_Scotland_Cavers_William_Glasgow.md |
 | John Glasgow, 16 Sep 1683, Kilwinning | `SCOT/OPR/BAP/3624727` | existing_profile: Glasgow-1065 |
 | Jon Glasgow, 16 Sep 1683, Kilwinning | `SCOT/OPR/BAP/3624728` | existing_profile: Glasgow-1065 |
@@ -35,14 +35,15 @@ This integration export contains **173** transcript-validated conservative perso
 | James Glasgow, 14 Jul 1689, Kilwinning | `SCOT/OPR/BAP/3625064` | existing_profile: Glasgow-3104 |
 | Jannet Glasgow, 01 Feb 1689, Kilwinning | `SCOT/OPR/BAP/3625022` | existing_profile: Glasgow-1433 |
 | John Glasgow, 15 Oct 1689, Torryburn | `SCOT/OPR/BAP/2618062` | new_person: surname-research/new-people/1689_Scotland_Torryburn_John_Glasgow.md |
-| James Glasgow, 7 May 1690, Edinburgh | `SCOT/EDINBURGH/APPRENTICES/0005159/1`, `SCOT/EDINBURGH/APPRENTICES/0005161/1` | new_person: surname-research/new-people/1690_1696_Scotland_Edinburgh_James_Glasgow.md |
+| James Glasgow, 7 May 1690, Edinburgh | `SCOT/EDINBURGH/APPRENTICES/0005159/1` | new_person: surname-research/new-people/1690_Scotland_Edinburgh_James_Glasgow.md |
 | John Glasgow, 09 Dec 1690, Kilbirnie | `SCOT/OPR/BAP/3585655` | existing_profile: Glasgow-1077 |
 | Elizabeth Glasgow, 17 Apr 1691, Kilbirnie | `SCOT/OPR/BAP/3585699` | existing_profile: Glasgow-1153 |
 | Margaret Glasgow, 17 Apr 1691, Kilbirnie | `SCOT/OPR/BAP/3585700` | existing_profile: Glasgow-1154 |
-| Thomas Glasgow, 02/03/1692, Dublin | `IRE/COURT/CHANCERY/0000106395`, `IRE/COURT/EXCHEQUER/0001527519`, `IRE/COURT/EXCHEQUER/0001584141` | new_person: surname-research/new-people/1684_1701_Ireland_Dublin_Thomas_Glasgow.md |
+| Thomas Glasgow, 02/03/1692, Dublin | `IRE/COURT/CHANCERY/0000106395`, `IRE/COURT/EXCHEQUER/0001527519`, `IRE/COURT/EXCHEQUER/0001584141` | existing_profile: Glasgow-3556 |
 | James Glasgow, 18 Oct 1693, Edinburgh | `SCOT/EDINBURGH/APPRENTICES/0010259/2` | existing_profile: Glasgow-1150 |
 | Robert Glasgow, 17 Oct 1693, Kilbirnie | `SCOT/OPR/BAP/3585750` | existing_profile: Glasgow-1075 |
 | Alexander Glasgow, 15 Jul 1695, Kilbirnie | `SCOT/OPR/BAP/3585780` | existing_profile: Glasgow-3514 |
+| James Glasgow, 22 Apr 1696, Edinburgh | `SCOT/EDINBURGH/APPRENTICES/0005161/1` | new_person: surname-research/new-people/1696_Scotland_Edinburgh_James_Glasgow.md |
 | Jeane Glasgow, 16 Apr 1697, Kilbirnie | `SCOT/OPR/BAP/3585797` | existing_profile: Glasgow-1436 |
 | Peter Glasgow, 23 May 1699, Edinburgh | `SCOT/OPR/BAP/0595199` | existing_profile: Glasgow-3102 |
 | Thomas Glasgow, 11 Oct 1699, Edinburgh | `SCOT/EDINBURGH/APPRENTICES/0005163/1` | existing_profile: Glasgow-3285 |
@@ -60,8 +61,8 @@ This integration export contains **173** transcript-validated conservative perso
 | Agnes Glasgow, 13 Jan 1706, Irvine | `SCOT/OPR/BAP/3572687` | existing_profile: Glasgow-1408 |
 | Will Glasgow, 16 Apr 1706, Irvine | `SCOT/OPR/BAP/3572706` | existing_profile: Glasgow-3408 |
 | James Glasgow, 12 Mar 1707, Kilwinning | `SCOT/OPR/BAP/3625795` | existing_profile: Glasgow-1932 |
-| John Glasgow, 1707,  | `US/EMIGRANTMINISTERS/0394` | new_person: surname-research/new-people/1707_British_West_Indies_unknown_John_Glasgow.md |
-| Nathaniel Glasgow, 1707, Scots-Irish | `US/GPC/02394306` | new_person: surname-research/new-people/1707_United_States_Scots_Irish_Nathaniel_Glasgow.md |
+| John Glasgow, 1707, place unknown | `US/EMIGRANTMINISTERS/0394` | new_person: surname-research/new-people/1707_British_West_Indies_unknown_John_Glasgow.md |
+| Nathaniel Glasgow, 1707, University of Glasgow | `US/GPC/02394306` | existing_profile: Glasgow-1136 |
 | Samuel Glasgow, 03 Mar 1707, Kilbirnie | `SCOT/OPR/BAP/3586015` | existing_profile: Glasgow-3524 |
 | Margaret Glasgow, 04 Mar 1708, Irvine | `SCOT/OPR/BAP/3572795` | new_person: surname-research/new-people/1708_Scotland_Irvine_Margaret_Glasgow.md |
 | Alexander Glasgow, 29 Nov 1710, Kilwinning | `SCOT/OPR/BAP/3625950` | existing_profile: Glasgow-2712 |
@@ -107,7 +108,7 @@ This integration export contains **173** transcript-validated conservative perso
 | Margaret Glasgow, 13 Nov 1723, Kilwinning | `SCOT/OPR/BAP/3626748` | existing_profile: Glasgow-1928 |
 | Margaret Glasgow, 17 Mar 1723, Kilwinning | `SCOT/OPR/BAP/3626677` | existing_profile: Glasgow-1063 |
 | William Glasgow, 03 Feb 1723, Irvine | `SCOT/OPR/BAP/3573825` | new_person: surname-research/new-people/1723_Scotland_Irvine_William_Glasgow.md |
-| George Glasgow, 1724,  | `SCOT/CRIM/COURTSESSION/0245597`, `SCOT/CRIM/COURTSESSION/0376456` | new_person: surname-research/new-people/1724_unknown_unknown_George_Glasgow.md |
+| George Glasgow, 1724,  | `SCOT/CRIM/COURTSESSION/0245597`, `SCOT/CRIM/COURTSESSION/0376456` | free_space: surname-research/free-space-pages/Glasgow_Record_Index_Corrections_and_Unresolved_Files.md |
 | Grizell Glasgow, 09 Aug 1724, Irvine | `SCOT/OPR/BAP/3573951` | existing_profile: Glasgow-1245 |
 | Marion Glasgow, 10 Mar 1724, Irvine | `SCOT/OPR/BAP/3573918` | existing_profile: Glasgow-3425 |
 | Agnes Glasgow, 07 Dec 1725, Irvine | `SCOT/OPR/BAP/3574073` | existing_profile: Glasgow-87 |
@@ -128,23 +129,22 @@ This integration export contains **173** transcript-validated conservative perso
 | Jean Glasgow, 01 Oct 1732, Dundonald | `SCOT/OPR/BAP/3536699` | new_person: surname-research/new-people/1732_Scotland_Dundonald_Jean_Glasgow.md |
 | Mary Glasgow, 23 Jan 1732, Livingston | `SCOT/OPR/BAP/4151277` | existing_profile: Glasgow-1240 |
 | Mary Glasgow, 17 Dec 1732, Kilmarnock | `SCOT/OPR/BAP/3599128` | new_person: surname-research/new-people/1732_Scotland_Kilmarnock_Mary_Glasgow.md |
-| Hugh Glasgow, 03 Feb 1733,  | `GBOR/DOBSON/013379` | new_person: surname-research/new-people/1733_Scotland_unknown_Hugh_Glasgow.md |
-| James Glasgow, 1733,  | `GBOR/DOBSON/000380` | new_person: surname-research/new-people/1733_Scotland_unknown_James_Glasgow.md |
+| James Glasgow, 1733, Saltoun, Haddingtonshire | `GBOR/DOBSON/000380` | new_person: surname-research/new-people/1733_Scotland_unknown_James_Glasgow.md |
 | William Glasgow, 12 Jun 1733, Dundonald | `SCOT/OPR/BAP/3536725` | new_person: surname-research/new-people/1733_Scotland_Dundonald_William_Glasgow.md |
 | Jean Glasgow, 27 Mar 1735, Kilmarnock | `SCOT/OPR/BAP/3599478` | existing_profile: Glasgow-3469 |
 | Hugh Glasgow, 09 Mar 1736, Irvine | `SCOT/OPR/BAP/3574543` | existing_profile: Glasgow-3426 |
 | James Glasgow, 12 Dec 1736, Kilwinning | `SCOT/OPR/BAP/3627666` | existing_profile: Glasgow-1469 |
 | Jannet Glasgow, 11 Jan 1736, Kilbirnie | `SCOT/OPR/BAP/3586684` | existing_profile: Glasgow-3008 |
 | John Glasgow, 10 Oct 1736, Irvine | `SCOT/OPR/BAP/3574593` | new_person: surname-research/new-people/1736_Scotland_Irvine_John_Glasgow.md |
-| Elizabeth Glasgow, 24 Jul 1737, Irvine | `SCOT/OPR/BAP/3574665` | new_person: surname-research/new-people/1737_Scotland_Irvine_Elizabeth_Glasgow.md |
+| Elizabeth Glasgow, 24 Jul 1737, Irvine | `SCOT/OPR/BAP/3574665` | existing_profile: Glasgow-3316 |
 | Janet Glasgow, 11 Jul 1738, Irvine | `SCOT/OPR/BAP/3574750` | existing_profile: Glasgow-3423 |
 | John Glasgow, 1738, Edrom | `SCOT/OPR/BAP/4839748` | new_person: surname-research/new-people/1738_Scotland_Edrom_John_Glasgow.md |
 | John Glasgow, 05 Oct 1738, Irvine | `SCOT/OPR/BAP/3574782` | existing_profile: Glasgow-3478 |
 | Margaret Glasgow, 31 Aug 1738, Kilmarnock | `SCOT/OPR/BAP/3599918` | new_person: surname-research/new-people/1738_Scotland_Kilmarnock_Margaret_Glasgow.md |
-| Robt Glasgow, 1738, Ballykeel, Co Ant | `US/GPC/00345374` | new_person: surname-research/new-people/1738_United_States_Ballykeel_Co_Ant_Robt_Glasgow.md |
+| Robt Glasgow, 1738, Ballykeel, County Antrim | `US/GPC/00345374` | existing_profile: Glasgow-1143 |
 | Charles Glasgow, 28 Sep 1740, Kilbirnie | `SCOT/OPR/BAP/3586791` | existing_profile: Glasgow-1515 |
 | John Glasgow, 30 Apr 1740, Irvine | `SCOT/OPR/BAP/3574953` | existing_profile: Glasgow-3314 |
-| Margaret Glasgow, 1740, Edrom | `SCOT/OPR/BAP/4839749` | new_person: surname-research/new-people/1740_Scotland_Edrom_Margaret_Glasgow.md |
+| Margaret Glasgow, 1740, Edrom | `SCOT/OPR/BAP/4839749` | existing_profile: Glasgow-1607 |
 | Isabel Glasgow, 26 Apr 1741, Irvine | `SCOT/OPR/BAP/3575036` | new_person: surname-research/new-people/1741_Scotland_Irvine_Isabel_Glasgow.md |
 | John Glasgow, 06 Aug 1741, Irvine | `SCOT/OPR/BAP/3575071` | new_person: surname-research/new-people/1741_Scotland_Irvine_John_Glasgow.md |
 | Michael Glasgow, 22 Nov 1741, Irvine | `SCOT/OPR/BAP/3575088` | existing_profile: Glasgow-1416 |
@@ -171,7 +171,7 @@ This integration export contains **173** transcript-validated conservative perso
 | Ann Glasgow, 17 Jan 1748, Livingston | `SCOT/OPR/BAP/4151588` | existing_profile: Glasgow-1233 |
 | Janet Glasgow, 17 Jul 1748, Kilbirnie | `SCOT/OPR/BAP/3587035` | new_person: surname-research/new-people/1748_Scotland_Kilbirnie_Janet_Glasgow.md |
 | Elizabeth Glasgow, 15 Jun 1749, Covington & Thankerton | `SCOT/OPR/BAP/3881470` | new_person: surname-research/new-people/1749_Scotland_Covington_Thankerton_Elizabeth_Glasgow.md |
-| Katherine Glasgow, 03 Sep 1749, Irvine | `SCOT/OPR/BAP/3575702` | new_person: surname-research/new-people/1749_Scotland_Irvine_Katherine_Glasgow.md |
+| Katherine Glasgow, 03 Sep 1749, Irvine | `SCOT/OPR/BAP/3575702` | existing_profile: Glasgow-1417 |
 | Thomas Glasgow, 09 Feb 1749, Edinburgh | `SCOT/OPR/BAP/0625636` | new_person: surname-research/new-people/1749_Scotland_Edinburgh_Thomas_Glasgow.md |
 | William Glasgow, 01 Dec 1749, Kilbirnie | `SCOT/OPR/BAP/3586966` | new_person: surname-research/new-people/1749_Scotland_Kilbirnie_William_Glasgow.md |
 | Bessie Glasgow, 30 Jun 1750, Covington & Thankerton | `SCOT/OPR/BAP/3881487` | existing_profile: Glasgow-1125 |

@@ -305,9 +305,9 @@ birth and death fields were checked before inclusion in the early audit.
 | Person | Findmypast evidence | Integration |
 | --- | --- | --- |
 | Robert Glasgow | Holkham entry, 23 March 1559 Old Style; transcript `GBPRS/NORFOLK/BUR/004320950` | Exact record match to `Glasgow-4063`; [resolved evidence](../../research/Glasgow-4063/1559_England_Holkham_Robert_Glasgow.md) explains the 1560 modern-date field |
-| John Glasgow | Hirmenschelis, index date 4 May 1577; transcript `SCOT/WILLS/057444` | Matched to `Glasgow-3181`; underlying testament death is November 1576 |
-| Margaret Glasgow | Croftmalloch, index date 8 November 1580; transcript `SCOT/WILLS/057454` | Matched to `Glasgow-3613`; underlying testament death is November 1578 |
-| Andrew Glasgow | Corstoun/Calder-Cleir, 10 July 1598; transcript `SCOT/WILLS/057425` | Matched to `Glasgow-3163` |
+| John Glasgow | Hirmenschelis in the derivative index, dated 4 May 1577; transcript `SCOT/WILLS/057444`; original CC8/8/5 images 276–277 | Matched to `Glasgow-3181`; original names widow Margaret [Cochrane?], lawful child Katherine and second child [Androw?/Andrew]. Death month March; year unresolved. |
+| Margaret Glasgow | Croftmalloch, index date 8 November 1580; transcript `SCOT/WILLS/057454`; original CC8/8/8 images 355–356 | Matched to `Glasgow-3613`; apparent death December 1578; sometime husband John Easton; Cuthbert Kaddell/Keddell explicitly her son. |
+| Andrew Glasgow | [Corsoun?]/Calder-Cleir, 10 July 1598; transcript `SCOT/WILLS/057425`; original CC8/8/32 images 123–124 | Matched to `Glasgow-3163`; will 6 February 1597/8, death 7 February; wife Elizat Stevinsoun; Robert expressly their son; daughters Marion, Janet and Isobel. |
 | Ninian Glasgow | Glasgow, 23 October 1596; transcript `SCOT/BURGESS/0025945` | Matched to `Glasgow-3188` |
 | Unnamed Glasgow | Archbishop entry, 3 October 1581; transcript `SCOT/BURGESS/0025937` | Export only; no safe person assignment |
 
@@ -340,8 +340,8 @@ WikiTree searches were checked before treating these occurrences as new people.
 | Elizabeth Glasgow, widow of Alexander Kaine | Great Seal confirmation, 19 Dec 1552; *Registrum Magni Sigilli*, IV, no. 739, [p. 164](https://archive.org/details/registrummagnisi04scot/page/164/mode/1up). Local copy: `sources/registrum_magni_sigilli_vol_4_1546_1580.pdf`. | Created as [[Glasgow-3915]] on 17 July 2026. Draft retained at `../../research/Glasgow-3915/1552_Scotland_Easter_Corswood_Elizabeth_Glasgow.md`. |
 | Isobella Glesgw, wife of Archibald Herbisoune | Glasgow protocol 719, 27 Jan 1562/3; Renwick, vol. 3, [p. 29](https://archive.org/details/abstractsprotoc06scogoog/page/n41/mode/2up). Protocol 810 places Archibald at John Glasgow's inherited-paternal parcel; protocol 2002, [19 Dec 1573](https://archive.org/details/abstractsprotoc00robegoog/page/n52/mode/2up), names Robert Glasgow, Archibald and John Glasgow together as fishers. | Created as [[Glasgow-3916]] on 17 July 2026. William Glasgow and Esbell Brade are now probable parents on strong circumstantial craft/property/in-law evidence, but both structured edges must remain uncertain because no record states kinship. |
 | Jonet Glasgw, wife of William Pady | Protocol 2478, 19 Mar 1582/3, [vol. 8 p. 78](https://archive.org/details/abstractsofproto08glas/page/78/mode/1up); protocol 3459, 20 Jun 1598, [vol. 11 pp. 74-75](https://archive.org/details/abstractsprotoc04renwgoog/page/74/mode/1up). | Created as [[Glasgow-3917]] on 17 July 2026. Draft retained at `../../research/Glasgow-3917/1583_Scotland_Glasgow_Jonet_Glasgow.md`. |
-| [Andrew Glasgw (Glasgow-4006)](https://www.wikitree.com/wiki/Glasgow-4006), son of Andrew of Corstoun | NRS CC8/8/32, Andrew's testament, made 6 Feb 1597 as written and indexed 10 Jul 1598; printed index [p. 108](https://archive.org/details/scottishrecordso01scotuoft/page/n117/mode/1up). | Direct family clause names Andrew among four bairns; profile created 19 August 2026. |
-| [William Glasgw (Glasgow-4007)](https://www.wikitree.com/wiki/Glasgow-4007), son of Andrew of Corstoun | Same testament and family clause. | Directly named and necessarily distinct from Glasgow-3075; profile created 19 August 2026. |
+| [Andrew Glasgw (Glasgow-4006)](https://www.wikitree.com/wiki/Glasgow-4006), formerly represented as son of Andrew of Corstoun | NRS CC8/8/32, Andrew's testament, made 6 February 1597/8 and confirmed 10 July 1598; printed index [p. 108](https://archive.org/details/scottishrecordso01scotuoft/page/n117/mode/1up). | **Superseded reading:** the corrected family clauses do not name a son Andrew. Preserve the profile while its identity and attachment are reassessed; do not cite this testament as parentage proof. |
+| [William Glasgw (Glasgow-4007)](https://www.wikitree.com/wiki/Glasgow-4007), formerly represented as son of Andrew of Corstoun | Same testament. | **Superseded reading:** the corrected family clauses do not name a son William. Preserve the profile while its identity and attachment are reassessed; do not cite this testament as parentage proof. |
 | Robert Glasgw, Kilbride occupier | Great Seal register V, no. 324, charter dated 9 Feb 1580, confirmed 15 Feb 1581/82, [pp. 104-105](https://archive.org/details/registrummagnisi05scot/page/104/mode/2up). | Created as [[Glasgow-3919]] on 17 July 2026; Glasgow-1096 remains an unresolved identity candidate. |
 | [John Glasgow (Glasgow-3296)](https://www.wikitree.com/wiki/Glasgow-3296) in Montfoid, husband of Bessie Robertson | Glasgow Commissary testament index, 17 Aug 1610, [p. 426](https://archive.org/details/scottishrecordso07scotuoft/page/n435/mode/1up); cross-reference [p. 196](https://archive.org/details/scottishrecordso07scotuoft/page/196/mode/1up). | Named spouse and distinctive residence; probably Montfode in Ardrossan parish. Glasgow-3296 is the selected existing profile, but the bridge to its 1650 Quothquan record remains a working identity. Draft: `../../research/Glasgow-3296/1610_Scotland_Montfoid_John_Glasgow.md`. |
 | [James Glasgow (Glasgow-3921)](https://www.wikitree.com/wiki/Glasgow-3921) in Brekpleughe, husband of Margaret Smith | Glasgow Commissary testament index, 21 Feb 1632, [p. 460](https://archive.org/details/scottishrecordso07scotuoft/page/460/mode/1up). | Named spouse and rare Stevenston residence. Glasgow-3921 is the selected existing profile; the long bridge from the younger Corsankell actor remains an identity inference. Draft: `../../research/Glasgow-3921/1632_Scotland_Brekpleughe_James_Glasgow.md`. |
@@ -377,8 +377,8 @@ WikiTree searches were checked before treating these occurrences as new people.
 | --- | --- | --- |
 | Ninian Glasgow, CC9/7/9 images 142–145 | Fisher/burgess; spouse Jonet Hutchesoun; son Robert; brother John; sister Marion. William only possible. | Amend [[Glasgow-3188]], [[Glasgow-3062]], [[Glasgow-3075]], [[Glasgow-1027]] and [[Glasgow-1096]]; no new profile. |
 | Geillis Glasgow, CC9/7/3 images 113–114 | Wife of Thomas Wilson at Chaplehill; died January 1603; James, Isobel and Bessie Wilson named, exact relationships unresolved; debt to James Glasgow in Stevenston. | Amend [[Glasgow-3179]] and [[Wilson-142005]]; no new Glasgow profile. |
-| Katherine Glasgow, CC9/7/4 images 6–7 | Wife of Thomas Weir at Stevenston; died January 1603, confirmed 9 May 1605; William, James and Jonet Weir named without securely read child wording. | Amend [[Glasgow-1495]] and [[Weir-4172]]; no new profile. |
-| John Glasgow, CC9/7/27 images 478–480 | Sailor in Saltcoats; widow Isobel Young; lawful children Katherine and Marie; died December, provisionally 1636; confirmed 11 April 1637. | John stays on HOLD against [[Glasgow-1030]]; Marie reuses [[Glasgow-3539]]; only Katherine needs a new Glasgow profile. |
+| Katherine Glasgow, CC9/7/4 images 6–7 | Wife of Thomas Weir at Stevenston; died January 1603. Confirmation was in May 1605, day unresolved: manuscript [26?], Findmypast/Grant 9. William, James and Jonet Weir are probable children from the executor context, not proved children. | Amend [[Glasgow-1495]] and [[Weir-4172]]; paged duplicate audits found no compatible profiles, so create three distinct Weir profiles with uncertain parent links and inferred Stevenston birthplaces uncertain. |
+| John Glasgow, CC9/7/27 pages 478–480 | Sailor in Saltcoats within Ardrossan parish; widow Isobell Gray; lawful children Katherine and Agnes; died December 1636; April 1637 court day tentatively 21. | John stays on HOLD against [[Glasgow-1030]]. Reassess both daughters after duplicate searches. The corrected reading does not identify [[Glasgow-3539|Mary Glasgow]]. |
 | John Glasgow, CC14/5/12 images 67–68 | Quothquan resident; died February 1685; widow Jonet Kinnie?; no child or parent. | Reuse [[Glasgow-1086]] and attached [[Unknown-717333]]; no new profile. |
 
 ### Additional pre-1550 Brady relationships
@@ -409,7 +409,7 @@ WikiTree searches were checked before treating these occurrences as new people.
   reading secure enough to create or identify a person. Keep both as
   palaeographic leads rather than record facts.
 - A deceased John bounding property in 1553 could be the root Glasgow-1095.
-- Margaret Glasgow, widow of John Edstoun, already has profile Glasgow-3164.
+- Margaret Glasgow, sometime wife of John Easton, has canonical profile [[Glasgow-3613]]; `Glasgow-3164` redirects there. Her son is [[Edstoun-4|Cuthbert Kaddell/Keddell]], whose current profile surname requires correction.
 - Isabella Glasgow, wife of John Howe in 1600, already has profile Glasgow-3026.
 - Eufame Craige was called the widow of an unnamed Glasgow in 1564. Her
   surviving liferent in the rear of the older John's 1527 property makes her
@@ -432,7 +432,7 @@ Source scrape/transcript audit remains **INCOMPLETE**; this section covers only 
 | `fmp-glasgow-2afd2a13c27a` | Andrew Glasgow, 10 Jul 1598, Calder | `SCOT/WILLS/057425` | existing_profile: Glasgow-3163 |
 | `fmp-glasgow-5c2ca217f786` | Geillis Glasgow, 11 May 1603, Ardrossan | `SCOT/WILLS/057431` | existing_profile: Glasgow-3179 |
 | `fmp-glasgow-223c981b581f` | George Glasgow, 17 Feb 1605, Mid Calder | `R_686312170`, `R_694110723` | existing_profile: Glasgow-1082 |
-| `fmp-glasgow-26c2dd21572c` | Katherine Glasgow, 9 May 1605,  | `SCOT/WILLS/057453` | existing_profile: Glasgow-1495 |
+| `fmp-glasgow-26c2dd21572c` | Katherine Glasgow, May 1605 (Findmypast/Grant: 9 May; manuscript: [26?] May) | `SCOT/WILLS/057453` | existing_profile: Glasgow-1495 |
 | `fmp-glasgow-e282854aa0b5` | Elspeth Glasgow, 02 Mar 1606, Mid Calder | `R_686313316`, `R_694107799` | existing_profile: Glasgow-1054 |
 | `fmp-glasgow-cf1b4a398238` | Ninian Glasgow, 27 Aug 1607, Glasgow | `SCOT/WILLS/057458` | existing_profile: Glasgow-3188 |
 | `fmp-glasgow-6644ab3fa586` | Jhone Glasgow, 26 Jun 1608, Mid Calder | `R_686312587`, `R_694112773`, `SCOT/OPR/BAP/4585634` | existing_profile: Glasgow-1086 |
@@ -487,7 +487,7 @@ Source scrape/transcript audit remains **INCOMPLETE**; this section covers only 
 | `fmp-glasgow-0df4776b5b6a` | James Glasgow, 12 Nov 1656, Edinburgh | `SCOT/EDINBURGH/APPRENTICES/0013015/2` | existing_profile: Glasgow-1150 |
 | `fmp-glasgow-67ec4399079d` | Alexander Glasgow, 13 Apr 1659, Campbeltown | `SCOT/OPR/BAP/3017984` | existing_profile: Glasgow-3101 |
 | `fmp-glasgow-bf1cc3d3601e` | James Glasgow, 16 Nov 1659, Edinburgh | `SCOT/EDINBURGH/APPRENTICES/0013091/2` | existing_profile: Glasgow-1150 |
-| `fmp-glasgow-8b7fb215d258` | Thomas Glasgow, 2 May 1660, Edinburgh | `SCOT/BURGESS/1009527` | new_person: surname-research/new-people/1660_Scotland_Edinburgh_Thomas_Glasgow.md |
+| `fmp-glasgow-8b7fb215d258` | Thomas Glasgow, 2 May 1660, Edinburgh | `SCOT/BURGESS/1009527` | existing_profile: Glasgow-3187 |
 | `fmp-glasgow-937fb03a9d56` | Robert Glasgow, 4 Jul 1666, Edinburgh | `SCOT/BURGESS/1009525` | existing_profile: Glasgow-3938 |
 | `fmp-glasgow-8d4bf08c43ec` | Helen Glasgow, 22 Dec 1668, Linlithgow | `SCOT/OPR/BAP/0476082`, `SCOT/OPR/BAP/0501646` | new_person: surname-research/new-people/1668_Scotland_Linlithgow_Helen_Glasgow.md |
 | `fmp-glasgow-a2f52dd2bc28` | James Glasgow, 24 Feb 1669, Edinburgh | `SCOT/EDINBURGH/APPRENTICES/0001079/2` | existing_profile: Glasgow-1150 |
@@ -502,7 +502,7 @@ Source scrape/transcript audit remains **INCOMPLETE**; this section covers only 
 | `fmp-glasgow-f745560b0c7d` | Agnes Glasgow, 24 Sep 1679, Kilwinning | `SCOT/OPR/BAP/3624503` | existing_profile: Glasgow-1064 |
 | `fmp-glasgow-8a8a5ce31a19` | John Glasgow, 1679-1688, Cavers | `GBPR/COVENANT/028556` | existing_profile: Glasgow-1498 |
 | `fmp-glasgow-17ba21591d7d` | Jon Glasgow, 06 Jul 1679, Kilwinning | `SCOT/OPR/BAP/3624491` | existing_profile: Glasgow-1434 |
-| `fmp-glasgow-fb417c9f3803` | Michael Glasgow, 1679-1688, The Tounes and Parochines of Irving and Kilwinning and baronies yrin | `GBPR/COVENANT/028557` | new_person: surname-research/new-people/1679_1688_Scotland_The_Tounes_and_Parochines_of_Irving_and_Kilwinning_and_baronies_yrin_Michael_Glasgow.md |
+| `fmp-glasgow-fb417c9f3803` | Michael Glasgow, Sep 1679, The Tounes and Parochines of Irving and Kilwinning and baronies yrin | `GBPR/COVENANT/028557` | new_person: surname-research/new-people/1679_1688_Scotland_The_Tounes_and_Parochines_of_Irving_and_Kilwinning_and_baronies_yrin_Michael_Glasgow.md |
 | `fmp-glasgow-e47e0e47524a` | William Glasgow, 1679, Cavers | `GBPR/COVENANT/028558`, `GBPR/COVENANT/028559`, `GBPR/COVENANT/028560` | new_person: surname-research/new-people/1679_Scotland_Cavers_William_Glasgow.md |
 | `fmp-glasgow-f26e15d015c1` | John Glasgow, 16 Sep 1683, Kilwinning | `SCOT/OPR/BAP/3624727` | existing_profile: Glasgow-1065 |
 | `fmp-glasgow-37cd5c63b64f` | Jon Glasgow, 16 Sep 1683, Kilwinning | `SCOT/OPR/BAP/3624728` | existing_profile: Glasgow-1065 |
@@ -515,14 +515,15 @@ Source scrape/transcript audit remains **INCOMPLETE**; this section covers only 
 | `fmp-glasgow-49148041a172` | James Glasgow, 14 Jul 1689, Kilwinning | `SCOT/OPR/BAP/3625064` | existing_profile: Glasgow-3104 |
 | `fmp-glasgow-356a7e52dad2` | Jannet Glasgow, 01 Feb 1689, Kilwinning | `SCOT/OPR/BAP/3625022` | existing_profile: Glasgow-1433 |
 | `fmp-glasgow-b8c8c6842a85` | John Glasgow, 15 Oct 1689, Torryburn | `SCOT/OPR/BAP/2618062` | new_person: surname-research/new-people/1689_Scotland_Torryburn_John_Glasgow.md |
-| `fmp-glasgow-cc9a54fb3b86` | James Glasgow, 7 May 1690, Edinburgh | `SCOT/EDINBURGH/APPRENTICES/0005159/1`, `SCOT/EDINBURGH/APPRENTICES/0005161/1` | new_person: surname-research/new-people/1690_1696_Scotland_Edinburgh_James_Glasgow.md |
+| `fmp-glasgow-cc9a54fb3b86` | James Glasgow, 7 May 1690, Edinburgh | `SCOT/EDINBURGH/APPRENTICES/0005159/1` | new_person: surname-research/new-people/1690_Scotland_Edinburgh_James_Glasgow.md |
 | `fmp-glasgow-797144230166` | John Glasgow, 09 Dec 1690, Kilbirnie | `SCOT/OPR/BAP/3585655` | existing_profile: Glasgow-1077 |
 | `fmp-glasgow-ee7b6f8c8dbe` | Elizabeth Glasgow, 17 Apr 1691, Kilbirnie | `SCOT/OPR/BAP/3585699` | existing_profile: Glasgow-1153 |
 | `fmp-glasgow-bbae38da8bd2` | Margaret Glasgow, 17 Apr 1691, Kilbirnie | `SCOT/OPR/BAP/3585700` | existing_profile: Glasgow-1154 |
-| `fmp-glasgow-d086eba57157` | Thomas Glasgow, 02/03/1692, Dublin | `IRE/COURT/CHANCERY/0000106395`, `IRE/COURT/EXCHEQUER/0001527519`, `IRE/COURT/EXCHEQUER/0001584141` | new_person: surname-research/new-people/1684_1701_Ireland_Dublin_Thomas_Glasgow.md |
+| `fmp-glasgow-d086eba57157` | Thomas Glasgow, 02/03/1692, Dublin | `IRE/COURT/CHANCERY/0000106395`, `IRE/COURT/EXCHEQUER/0001527519`, `IRE/COURT/EXCHEQUER/0001584141` | existing_profile: Glasgow-3556 |
 | `fmp-glasgow-ad30a52bccad` | James Glasgow, 18 Oct 1693, Edinburgh | `SCOT/EDINBURGH/APPRENTICES/0010259/2` | existing_profile: Glasgow-1150 |
 | `fmp-glasgow-d33ed1d5cc49` | Robert Glasgow, 17 Oct 1693, Kilbirnie | `SCOT/OPR/BAP/3585750` | existing_profile: Glasgow-1075 |
 | `fmp-glasgow-6a0d2f01d70f` | Alexander Glasgow, 15 Jul 1695, Kilbirnie | `SCOT/OPR/BAP/3585780` | existing_profile: Glasgow-3514 |
+| `fmp-glasgow-59dea07d1fbb` | James Glasgow, 22 Apr 1696, Edinburgh | `SCOT/EDINBURGH/APPRENTICES/0005161/1` | new_person: surname-research/new-people/1696_Scotland_Edinburgh_James_Glasgow.md |
 | `fmp-glasgow-4f35a440ff3b` | Jeane Glasgow, 16 Apr 1697, Kilbirnie | `SCOT/OPR/BAP/3585797` | existing_profile: Glasgow-1436 |
 | `fmp-glasgow-acb584e39d2b` | Peter Glasgow, 23 May 1699, Edinburgh | `SCOT/OPR/BAP/0595199` | existing_profile: Glasgow-3102 |
 | `fmp-glasgow-1d1ee2ce10d6` | Thomas Glasgow, 11 Oct 1699, Edinburgh | `SCOT/EDINBURGH/APPRENTICES/0005163/1` | existing_profile: Glasgow-3285 |
@@ -540,8 +541,8 @@ Source scrape/transcript audit remains **INCOMPLETE**; this section covers only 
 | `fmp-glasgow-3c139b35f834` | Agnes Glasgow, 13 Jan 1706, Irvine | `SCOT/OPR/BAP/3572687` | existing_profile: Glasgow-1408 |
 | `fmp-glasgow-bacd8e7498f2` | Will Glasgow, 16 Apr 1706, Irvine | `SCOT/OPR/BAP/3572706` | existing_profile: Glasgow-3408 |
 | `fmp-glasgow-9e83d7bb1375` | James Glasgow, 12 Mar 1707, Kilwinning | `SCOT/OPR/BAP/3625795` | existing_profile: Glasgow-1932 |
-| `fmp-glasgow-baa0969903c8` | John Glasgow, 1707,  | `US/EMIGRANTMINISTERS/0394` | new_person: surname-research/new-people/1707_British_West_Indies_unknown_John_Glasgow.md |
-| `fmp-glasgow-57e604589b8e` | Nathaniel Glasgow, 1707, Scots-Irish | `US/GPC/02394306` | new_person: surname-research/new-people/1707_United_States_Scots_Irish_Nathaniel_Glasgow.md |
+| `fmp-glasgow-baa0969903c8` | John Glasgow, 1707, place unknown | `US/EMIGRANTMINISTERS/0394` | new_person: surname-research/new-people/1707_British_West_Indies_unknown_John_Glasgow.md |
+| `fmp-glasgow-57e604589b8e` | Nathaniel Glasgow, 1707, University of Glasgow | `US/GPC/02394306` | existing_profile: Glasgow-1136 |
 | `fmp-glasgow-4f46ec7b9d58` | Samuel Glasgow, 03 Mar 1707, Kilbirnie | `SCOT/OPR/BAP/3586015` | existing_profile: Glasgow-3524 |
 | `fmp-glasgow-984fa1db3c1a` | Margaret Glasgow, 04 Mar 1708, Irvine | `SCOT/OPR/BAP/3572795` | new_person: surname-research/new-people/1708_Scotland_Irvine_Margaret_Glasgow.md |
 | `fmp-glasgow-29ccc7ac49fa` | Alexander Glasgow, 29 Nov 1710, Kilwinning | `SCOT/OPR/BAP/3625950` | existing_profile: Glasgow-2712 |
@@ -587,7 +588,7 @@ Source scrape/transcript audit remains **INCOMPLETE**; this section covers only 
 | `fmp-glasgow-e832d5017926` | Margaret Glasgow, 13 Nov 1723, Kilwinning | `SCOT/OPR/BAP/3626748` | existing_profile: Glasgow-1928 |
 | `fmp-glasgow-e98494418156` | Margaret Glasgow, 17 Mar 1723, Kilwinning | `SCOT/OPR/BAP/3626677` | existing_profile: Glasgow-1063 |
 | `fmp-glasgow-9bf49e7b9bd1` | William Glasgow, 03 Feb 1723, Irvine | `SCOT/OPR/BAP/3573825` | new_person: surname-research/new-people/1723_Scotland_Irvine_William_Glasgow.md |
-| `fmp-glasgow-7a66001e8cd6` | George Glasgow, 1724,  | `SCOT/CRIM/COURTSESSION/0245597`, `SCOT/CRIM/COURTSESSION/0376456` | new_person: surname-research/new-people/1724_unknown_unknown_George_Glasgow.md |
+| `fmp-glasgow-7a66001e8cd6` | George Glasgow, 1724,  | `SCOT/CRIM/COURTSESSION/0245597`, `SCOT/CRIM/COURTSESSION/0376456` | free_space: surname-research/free-space-pages/Glasgow_Record_Index_Corrections_and_Unresolved_Files.md |
 | `fmp-glasgow-c3671369d3b0` | Grizell Glasgow, 09 Aug 1724, Irvine | `SCOT/OPR/BAP/3573951` | existing_profile: Glasgow-1245 |
 | `fmp-glasgow-3ee079c4b550` | Marion Glasgow, 10 Mar 1724, Irvine | `SCOT/OPR/BAP/3573918` | existing_profile: Glasgow-3425 |
 | `fmp-glasgow-4818db15decd` | Agnes Glasgow, 07 Dec 1725, Irvine | `SCOT/OPR/BAP/3574073` | existing_profile: Glasgow-87 |
@@ -608,23 +609,22 @@ Source scrape/transcript audit remains **INCOMPLETE**; this section covers only 
 | `fmp-glasgow-54571dfc429a` | Jean Glasgow, 01 Oct 1732, Dundonald | `SCOT/OPR/BAP/3536699` | new_person: surname-research/new-people/1732_Scotland_Dundonald_Jean_Glasgow.md |
 | `fmp-glasgow-085f2bfa8f46` | Mary Glasgow, 23 Jan 1732, Livingston | `SCOT/OPR/BAP/4151277` | existing_profile: Glasgow-1240 |
 | `fmp-glasgow-fba04c067c7c` | Mary Glasgow, 17 Dec 1732, Kilmarnock | `SCOT/OPR/BAP/3599128` | new_person: surname-research/new-people/1732_Scotland_Kilmarnock_Mary_Glasgow.md |
-| `fmp-glasgow-a0b809464cc9` | Hugh Glasgow, 03 Feb 1733,  | `GBOR/DOBSON/013379` | new_person: surname-research/new-people/1733_Scotland_unknown_Hugh_Glasgow.md |
-| `fmp-glasgow-b741e434199b` | James Glasgow, 1733,  | `GBOR/DOBSON/000380` | new_person: surname-research/new-people/1733_Scotland_unknown_James_Glasgow.md |
+| `fmp-glasgow-b741e434199b` | James Glasgow, 1733, Saltoun, Haddingtonshire | `GBOR/DOBSON/000380` | new_person: surname-research/new-people/1733_Scotland_unknown_James_Glasgow.md |
 | `fmp-glasgow-033cb073721c` | William Glasgow, 12 Jun 1733, Dundonald | `SCOT/OPR/BAP/3536725` | new_person: surname-research/new-people/1733_Scotland_Dundonald_William_Glasgow.md |
 | `fmp-glasgow-a8c6a341ce3a` | Jean Glasgow, 27 Mar 1735, Kilmarnock | `SCOT/OPR/BAP/3599478` | existing_profile: Glasgow-3469 |
 | `fmp-glasgow-d59837c3bc8f` | Hugh Glasgow, 09 Mar 1736, Irvine | `SCOT/OPR/BAP/3574543` | existing_profile: Glasgow-3426 |
 | `fmp-glasgow-13b02996f4c1` | James Glasgow, 12 Dec 1736, Kilwinning | `SCOT/OPR/BAP/3627666` | existing_profile: Glasgow-1469 |
 | `fmp-glasgow-b5d1097ac4ed` | Jannet Glasgow, 11 Jan 1736, Kilbirnie | `SCOT/OPR/BAP/3586684` | existing_profile: Glasgow-3008 |
 | `fmp-glasgow-96dde749c693` | John Glasgow, 10 Oct 1736, Irvine | `SCOT/OPR/BAP/3574593` | new_person: surname-research/new-people/1736_Scotland_Irvine_John_Glasgow.md |
-| `fmp-glasgow-11135d44133e` | Elizabeth Glasgow, 24 Jul 1737, Irvine | `SCOT/OPR/BAP/3574665` | new_person: surname-research/new-people/1737_Scotland_Irvine_Elizabeth_Glasgow.md |
+| `fmp-glasgow-11135d44133e` | Elizabeth Glasgow, 24 Jul 1737, Irvine | `SCOT/OPR/BAP/3574665` | existing_profile: Glasgow-3316 |
 | `fmp-glasgow-109802ee063b` | Janet Glasgow, 11 Jul 1738, Irvine | `SCOT/OPR/BAP/3574750` | existing_profile: Glasgow-3423 |
 | `fmp-glasgow-cd18f5e7916d` | John Glasgow, 1738, Edrom | `SCOT/OPR/BAP/4839748` | new_person: surname-research/new-people/1738_Scotland_Edrom_John_Glasgow.md |
 | `fmp-glasgow-ee0cb4e3aaad` | John Glasgow, 05 Oct 1738, Irvine | `SCOT/OPR/BAP/3574782` | existing_profile: Glasgow-3478 |
 | `fmp-glasgow-6cc997e45c40` | Margaret Glasgow, 31 Aug 1738, Kilmarnock | `SCOT/OPR/BAP/3599918` | new_person: surname-research/new-people/1738_Scotland_Kilmarnock_Margaret_Glasgow.md |
-| `fmp-glasgow-16f49c884ed2` | Robt Glasgow, 1738, Ballykeel, Co Ant | `US/GPC/00345374` | new_person: surname-research/new-people/1738_United_States_Ballykeel_Co_Ant_Robt_Glasgow.md |
+| `fmp-glasgow-16f49c884ed2` | Robt Glasgow, 1738, Ballykeel, County Antrim | `US/GPC/00345374` | existing_profile: Glasgow-1143 |
 | `fmp-glasgow-2242add57c8f` | Charles Glasgow, 28 Sep 1740, Kilbirnie | `SCOT/OPR/BAP/3586791` | existing_profile: Glasgow-1515 |
 | `fmp-glasgow-2b0297c00e35` | John Glasgow, 30 Apr 1740, Irvine | `SCOT/OPR/BAP/3574953` | existing_profile: Glasgow-3314 |
-| `fmp-glasgow-26372d160744` | Margaret Glasgow, 1740, Edrom | `SCOT/OPR/BAP/4839749` | new_person: surname-research/new-people/1740_Scotland_Edrom_Margaret_Glasgow.md |
+| `fmp-glasgow-26372d160744` | Margaret Glasgow, 1740, Edrom | `SCOT/OPR/BAP/4839749` | existing_profile: Glasgow-1607 |
 | `fmp-glasgow-a2dbbb6de106` | Isabel Glasgow, 26 Apr 1741, Irvine | `SCOT/OPR/BAP/3575036` | new_person: surname-research/new-people/1741_Scotland_Irvine_Isabel_Glasgow.md |
 | `fmp-glasgow-8534eaed42d0` | John Glasgow, 06 Aug 1741, Irvine | `SCOT/OPR/BAP/3575071` | new_person: surname-research/new-people/1741_Scotland_Irvine_John_Glasgow.md |
 | `fmp-glasgow-7a187aa7713d` | Michael Glasgow, 22 Nov 1741, Irvine | `SCOT/OPR/BAP/3575088` | existing_profile: Glasgow-1416 |
@@ -651,12 +651,13 @@ Source scrape/transcript audit remains **INCOMPLETE**; this section covers only 
 | `fmp-glasgow-f3bc016a0f1d` | Ann Glasgow, 17 Jan 1748, Livingston | `SCOT/OPR/BAP/4151588` | existing_profile: Glasgow-1233 |
 | `fmp-glasgow-e37cff91091d` | Janet Glasgow, 17 Jul 1748, Kilbirnie | `SCOT/OPR/BAP/3587035` | new_person: surname-research/new-people/1748_Scotland_Kilbirnie_Janet_Glasgow.md |
 | `fmp-glasgow-d96763598f21` | Elizabeth Glasgow, 15 Jun 1749, Covington & Thankerton | `SCOT/OPR/BAP/3881470` | new_person: surname-research/new-people/1749_Scotland_Covington_Thankerton_Elizabeth_Glasgow.md |
-| `fmp-glasgow-d3c5be859131` | Katherine Glasgow, 03 Sep 1749, Irvine | `SCOT/OPR/BAP/3575702` | new_person: surname-research/new-people/1749_Scotland_Irvine_Katherine_Glasgow.md |
+| `fmp-glasgow-d3c5be859131` | Katherine Glasgow, 03 Sep 1749, Irvine | `SCOT/OPR/BAP/3575702` | existing_profile: Glasgow-1417 |
 | `fmp-glasgow-37b7f7e8fed2` | Thomas Glasgow, 09 Feb 1749, Edinburgh | `SCOT/OPR/BAP/0625636` | new_person: surname-research/new-people/1749_Scotland_Edinburgh_Thomas_Glasgow.md |
 | `fmp-glasgow-f325c7334f8a` | William Glasgow, 01 Dec 1749, Kilbirnie | `SCOT/OPR/BAP/3586966` | new_person: surname-research/new-people/1749_Scotland_Kilbirnie_William_Glasgow.md |
 | `fmp-glasgow-c6811d02d484` | Bessie Glasgow, 30 Jun 1750, Covington & Thankerton | `SCOT/OPR/BAP/3881487` | existing_profile: Glasgow-1125 |
 | `fmp-glasgow-a2f150d669b0` | Elizabeth Glasgow, 10 Jun 1750, Livingston | `SCOT/OPR/BAP/4151638` | existing_profile: Glasgow-1232 |
 | `fmp-glasgow-87dec04eeb63` | James Glasgow, 19 Aug 1750, Kilwinning | `SCOT/OPR/BAP/3628676` | existing_profile: Glasgow-2469 |
+| `fmp-glasgow-a0b809464cc9` | Hugh Glasgow, 12 Mar 1751, Irvine and London | `GBOR/DOBSON/013379` | free_space: surname-research/free-space-pages/Glasgow_Record_Index_Corrections_and_Unresolved_Files.md |
 <!-- END FINDMYPAST-GLASGOW-AUDIT-1650-1750 -->
 
 <!-- BEGIN FINDMYPAST-GLASGOW-AUDIT-AMBIGUOUS-DATE -->

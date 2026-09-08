@@ -19,6 +19,7 @@
 
 [[Category:Glasgow Name Study]]
 
+
 == Biography ==
 
 '''Allan Glasgow''' was born on 15 May 1743 and baptized on 22 May 1743 at Irvine, Scotland. The record names James Glasgow and Helen Nasmith as the parents.<ref name="FMP1" />
@@ -39,7 +40,7 @@ The 1 result ID(s) above represent one conservative documentary group because: s
 
 == Sources ==
 
-<references />
-
 <ref name="FMP1">[https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3575202&tab=this Findmypast transcript], Archive reference: OPR 595/1; Baptism date: 22 May 1743; Baptism year: 1743; Birth date: 15 May 1743; Birth year: 1743; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Ayrshire; Father's first name(s): James; Father's last name: Glasgow; First name(s): Allan; Item: 1; Last name: Glasgow; Mother's first name(s): Helen; Mother's last name: Nasmith; Place: Irvine; Record set: Scotland, Parish Births & Baptisms 1564-1929; Register year range: 1687-1788; Subcategory: Parish Baptisms (captured 2026-09-03T23:39:15.338Z).</ref>
+
+<references />
 <!-- END FMP-GLASGOW-fmp-glasgow-38a943ed5dc4 -->

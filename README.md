@@ -126,6 +126,26 @@ Run the offline tests with:
 python -m unittest discover -s tests -v
 ```
 
+For the standard local quality gate, install the development tool once and run:
+
+```bash
+python -m pip install -r requirements/base.txt -r requirements/dev.txt -c requirements/constraints.txt
+make check
+```
+
+`make check` runs safe Ruff correctness checks, validates the public CSV/JSON
+contracts, and runs the offline test suite. `make build` is deliberately
+separate because it refreshes the One-Tree map and thousands of generated
+catalogue pages:
+
+```bash
+make build
+```
+
+Keep source code, research notes, generated output, and data refreshes in
+separate commits. Never reset or stash another contributor's in-progress
+working-tree changes just to make a generated build clean.
+
 Rebuild and test the interactive map with:
 
 ```bash
@@ -181,7 +201,9 @@ if WikiTree blocks the request before `api.php` processes it.
 The One-Tree sync includes every date in the merged exports; the legacy script name is retained for compatibility.
 The map build also regenerates the static catalogue under `www/people/`, the
 machine-readable person exports under `www/data/`, and `robots.txt`,
-`sitemap.xml`, and `llms.txt` for search and AI clients.
+`sitemap.xml`, `llms.txt`, and the standalone One Tree viewer under
+`www/onetree/glasgow-one-tree-polished/` so profile redirects cannot leave the
+viewer pointing at missing catalogue pages.
 The public catalogue omits likely-living people (no recorded death and a birth
 within the last 120 years), records export provenance, derives named children
 from reversed parent links, and produces a citation backlog wherever the map

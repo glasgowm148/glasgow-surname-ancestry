@@ -65,7 +65,7 @@
   "Glasgow-1028": {
     "father_id": "Glasgow-3163",
     "status": "uncertain",
-    "basis": "Andrew's 1598 testament expressly identifies Marioune, James, Andrew and William as his four children and omits David. This makes the direct-son placement doubtful, but David still fits the Calder cluster and no better father has been identified; retain the edge only as uncertain topology.",
+    "basis": "Andrew's corrected 1597/8 will names son Robert and daughters Marion, Janet and Isobel, but not David. The direct-son placement has no positive support; retain it only as uncertain topology until a sourced replacement family is established.",
       "evidence": [{"label": "case findings", "path": "../../research/Glasgow-1028/findings.md"}]
     },
     "Glasgow-1029": {
@@ -77,7 +77,7 @@
     "Glasgow-1030": {
       "father_id": "Glasgow-3522",
       "status": "uncertain",
-      "basis": "The 1619 witnesses do not establish brothers: George is directly proved William's son, but Robert is directly proved Ninian's son. Ninian's testament-named brother John, another son of Robert the fisher, is now the leading identity candidate for this John, but no occupation or property bridge proves the identity.",
+      "basis": "The 1619 witnesses do not establish brothers: George is directly proved William's son, but Robert is directly proved Ninian's son. Ninian's testament-named brother John is now the leading identity candidate for this profile. Robert the fisher is only the leading possible father because the testament does not exclude John being Ninian's maternal half-brother; no occupation or property bridge proves the profile identity.",
       "evidence": [{"label": "case findings", "path": "../../research/Glasgow-1030/findings.md"}]
     },
     "Glasgow-1093": {
@@ -124,8 +124,8 @@
     },
   "Glasgow-1156": {
     "father_id": "Glasgow-1097",
-    "status": "plausible",
-    "basis": "Archibald was alive after 1560, not dead in 1560. His estimated 1533 birth, Robert's estimated 1582 birth and their shared Glasgow locality make the relationship chronologically and geographically plausible, though no record names Robert as his son.",
+    "status": "uncertain",
+    "basis": "No record names Archibald as Robert's father. Andrew's 1597/8 testament directly proves a son Robert by Elizat Stevinsoun who was still under the relevant age or majority; Glasgow-1156's estimated date and Duddingston/Lothian context make him the leading alternate identity candidate, but no Corsoun, land or Stevenson bridge proves the match.",
       "evidence": [{"label": "case findings", "path": "../../research/Glasgow-1156/findings.md"}]
     },
   "Glasgow-1150": {
@@ -170,7 +170,7 @@
   "Glasgow-1495": {
     "father_id": "Glasgow-3921",
     "status": "plausible",
-    "basis": "The live candidate is James younger of the Corsankell/Stevenston cluster and the chronology permits the relationship, but Katherine's 1605 testament calendar names her husband and parish, not her father. Retain only as plausible.",
+    "basis": "CC9/7/4 proves Thomas Weir as Katherine's husband at Stevenston and records her January 1603 death, but names no father. Its confirmation is securely in May 1605, while the day conflicts between manuscript [26?] and Findmypast/Grant 9. James younger remains only a plausible father from locality and chronology.",
       "evidence": [{"label": "case findings", "path": "../../research/Glasgow-1495/findings.md"}]
     },
     "Glasgow-1557": {
@@ -182,7 +182,7 @@
   "Glasgow-1561": {
     "father_id": "Glasgow-3163",
     "status": "uncertain",
-    "basis": "Andrew's 1598 testament expressly identifies Marioune, James, Andrew and William as his four children and omits John. This makes the direct-son placement doubtful, but John still fits the Lothian cluster and no better father has been identified; retain the edge only as uncertain topology.",
+    "basis": "Andrew's corrected 1597/8 will names son Robert and daughters Marion, Janet and Isobel, but not John. The direct-son placement has no positive support; retain it only as uncertain topology until a sourced replacement family is established.",
       "evidence": [{"label": "case findings", "path": "../../research/Glasgow-1561/findings.md"}]
     },
     "Glasgow-3023": {
@@ -205,7 +205,7 @@
     "Glasgow-3062": {
       "father_id": "Glasgow-1096",
       "status": "uncertain",
-      "basis": "Ninian's 1613 testament directly calls Marion his sister, excluding him as her father. Robert is Ninian's proved father and a strong candidate for Marion, but the record does not distinguish full from half-sister.",
+      "basis": "Ninian's 1613 testament directly calls Marion his sister, excluding him as her father and making Ninian's father Robert a strong but uncertain candidate. Andrew's corrected testament separately proves a daughter Marion; chronology fits this profile, but no Corsoun/Fultoun bridge resolves whether she is the same woman.",
       "evidence": [{"label": "case findings", "path": "../../research/Glasgow-3062/findings.md"}]
     },
     "Glasgow-3075": {
@@ -229,7 +229,7 @@
   "Glasgow-3613": {
     "father_id": "Glasgow-1096",
     "status": "uncertain",
-    "basis": "Margaret's 1578 testament directly names her husband and son but no parent. Robert Glasgow and Margaret Rolland remain attached only as an unproved working placement.",
+    "basis": "Margaret's testament directly names her sometime husband John Easton and son Cuthbert Kaddell/Keddell but no parent. Robert Glasgow and Margaret Rolland remain attached only as an unproved working placement.",
       "evidence": [{"label": "case findings", "path": "../../research/Glasgow-3613/findings.md"}]
     },
     "Glasgow-3179": {
@@ -241,7 +241,7 @@
   "Glasgow-3181": {
     "father_id": "Glasgow-1096",
     "status": "contradicted",
-    "basis": "The live profile misapplies Ninian's 1613 bequest to brother John: Glasgow-3181 died in November 1576 and cannot be that man. Robert-1096 must not remain his father on that evidence. John-1093 is the better uncertain father candidate because protocols 748 and 1722 prove he had a son John of the correct generation, although no record bridges that burgh son to Hirdmanscheillis.",
+    "basis": "The live profile misapplies Ninian's 1613 bequest to brother John: Glasgow-3181 was dead before the 4 May 1577 administration and cannot be the man alive in 1613. The corrected death clause gives March but no secure year. Robert-1096 must not remain his father on that evidence. John-1093 is a better uncertain candidate, although no record bridges that burgh son to the indexed Hirmenschelis man.",
       "evidence": [{"label": "case findings", "path": "../../research/Glasgow-3181/findings.md"}]
     },
     "Glasgow-3182": {
@@ -278,7 +278,7 @@
     },
     "Glasgow-3336": {
       "status": "uncertain",
-      "basis": "The 1619 Edinburgh marriage and subsequent baptisms do not name Issobell's parents, and no father is attached.",
+      "basis": "The 1619 Edinburgh marriage and 1620 baptism do not name Issobell's parents. Andrew's corrected testament proves a daughter Isobel in the right generation and region, making this the leading live identity candidate, but no Corsoun or Stevenson bridge proves the relationship.",
       "evidence": [{"label": "case findings", "path": "../../research/Glasgow-3336/findings.md"}]
     },
     "Glasgow-3522": {
@@ -289,13 +289,13 @@
     },
     "Glasgow-3589": {
       "father_id": "Glasgow-3181",
-      "status": "confirmed",
-      "basis": "John's 1577 testament calls Katherine and Marjorie Glasgow his and Margaret Hoghame's lawful children. The live profile is attached to that exact couple, uses Hirmanscheillis, and already gives Marjorie as its RealName, uniquely resolving the identity; FirstName Margaret is erroneous.",
+      "status": "uncertain",
+      "basis": "The corrected 1577 testament reading names Katherine and a second child provisionally read as Androw/Andrew, not Marjorie. The record no longer proves this father edge. Preserve the profile's own evidence and current attachment pending a specific replacement or independent source.",
       "evidence": [{"label": "case findings", "path": "../../research/Glasgow-3589/findings.md"}]
     },
     "Glasgow-3539": {
-      "status": "confirmed",
-      "basis": "The 1637 Saltcoats testament directly calls Marie a lawful child of John Glasgow, sailor, and Isobel Young. Glasgow-3539 is the high-confidence existing-profile match, but John's exact WikiTree identity remains on HOLD.",
+      "status": "uncertain",
+      "basis": "The corrected 1637 Saltcoats testament names Katherine and Agnes, not Marie/Mary, and identifies Isobell Gray as John's widow. CC9/7/27 therefore supplies no parentage evidence for Glasgow-3539; preserve her own sources and current links pending separate reassessment.",
       "evidence": [{"label": "case findings", "path": "../../research/Glasgow-3539/findings.md"}]
     },
     "Glasgow-3590": {
@@ -335,8 +335,8 @@
     },
     "Glasgow-991": {
       "father_id": "Glasgow-3163",
-      "status": "plausible",
-      "basis": "Andrew's 1598 testament directly names a son James, and Glasgow-991 fits the Lothian generation and has Mid Calder family records. No record identifies Andrew's son by residence, occupation, spouse or children. The Mid Calder and Inveresk baptism groups cannot alone resolve whether one or two same-named fathers were involved.",
+      "status": "uncertain",
+      "basis": "The corrected 1597/8 testament reading names Andrew's son as Robert, not James. Glasgow-991 fits the Lothian cluster, but this record no longer supports the father edge and no independent parentage record has been found.",
       "evidence": [{"label": "case findings", "path": "../../research/Glasgow-991/findings.md"}]
     },
     "Glasgow-2730": {
@@ -468,6 +468,50 @@
         {
           "label": "case findings",
           "path": "../../research/Glasgow-3587/findings.md"
+        }
+      ]
+    },
+    "Glasgow-3183": {
+      "father_id": "Glasgow-991",
+      "status": "uncertain",
+      "basis": "The 1624 Mid Calder marriage names no parent. James remains possible by locality and generation, but the earlier claim that Andrew's testament excluded Jonet was false: it directly names a daughter Jonet. Andrew is therefore a plausible competing father, although no Corsoun or Stevenson bridge proves the identity.",
+      "evidence": [
+        {
+          "label": "case findings",
+          "path": "../../research/Glasgow-3183/findings.md"
+        }
+      ]
+    },
+    "Glasgow-3917": {
+      "father_id": "Glasgow-3522",
+      "status": "uncertain",
+      "basis": "William Pady's 1599 admission proves only that his wife was a burgess's daughter and does not name her father. Andrew's corrected testament proves a daughter Jonet, but this woman's Glasgow-burgh records have no Corsoun or Stevenson bridge and the Mid Calder bride Glasgow-3183 is a competing identity candidate.",
+      "evidence": [
+        {
+          "label": "case findings",
+          "path": "../../research/Glasgow-3917/findings.md"
+        }
+      ]
+    },
+    "Glasgow-4006": {
+      "father_id": "Glasgow-3163",
+      "status": "contradicted",
+      "basis": "This profile was created solely from a superseded transcription of CC8/8/32. The corrected reading names Robert as Andrew and Elizat's son and does not name a son Andrew. The profile and parent edge are unsupported and require transparent error handling.",
+      "evidence": [
+        {
+          "label": "case findings",
+          "path": "../../research/Glasgow-4006/findings.md"
+        }
+      ]
+    },
+    "Glasgow-4007": {
+      "father_id": "Glasgow-3163",
+      "status": "contradicted",
+      "basis": "This profile was created solely from a superseded transcription of CC8/8/32. The corrected reading names Robert as Andrew and Elizat's son and does not name a son William. The profile and parent edge are unsupported and require transparent error handling.",
+      "evidence": [
+        {
+          "label": "case findings",
+          "path": "../../research/Glasgow-4007/findings.md"
         }
       ]
     }

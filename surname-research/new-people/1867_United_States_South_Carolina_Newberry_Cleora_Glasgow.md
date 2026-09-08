@@ -1,3 +1,5 @@
+> **READY TO CREATE.** No compatible WikiTree profile was found after duplicate review.
+
 # Cleora (Glasgow) Speers (about 1847–1927), Newberry, South Carolina
 
 ## WikiTree duplicate audit
@@ -8,6 +10,7 @@ WikiTree search on 13 August 2026. **Ready to create** with an estimated birth.
 ## Minimum creation fields
 
 - First name: Cleora
+- Sex: Female
 - Last name at birth: Glasgow
 - Current last name: Speers
 - Birth: about 1847, probably Newberry District, South Carolina
@@ -18,9 +21,9 @@ WikiTree search on 13 August 2026. **Ready to create** with an estimated birth.
 
 ## Paste-ready WikiTree draft
 
-```text
+```wikitext
 {{Estimated Date}}
-{{One Name Study|name=Glasgow}}
+[[Category:Glasgow Name Study]]
 
 == Biography ==
 
@@ -29,6 +32,10 @@ WikiTree search on 13 August 2026. **Ready to create** with an estimated birth.
 She married '''Leland McNary Speers''' on 17 October 1867 at the residence of her mother, Mrs. M. A. Glasgow.<ref>[https://genealogytrails.com/scar/newberry/marriages_early.html "Early Newberry marriage notices"], notice published 23 October 1867.</ref> Their known children included Lucy Kennedy, Hiram Leonidas and Leland C. Speers.<ref name="Obit" />
 
 Cleora died on 12 July 1927 aged about 80 and was buried at Rosemont Cemetery.<ref>[https://genealogytrails.com/scar/newberry/observer/1927s.htm "Newberry Observer abstracts, 1927"], death notice for Cleora Speers.</ref>
+
+== Research Notes ==
+
+Cleora's approximate birth year is inferred from her reported age at death. Her identification as Hiram and Mary Ann's daughter is strongly supported by the independent parent and sibling accounts, but the underlying family Bible or probate record has not been located. Duplicate searches found no compatible WikiTree profile as of 13 August 2026.
 
 == Sources ==
 

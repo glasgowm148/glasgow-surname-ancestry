@@ -6,7 +6,7 @@ from __future__ import annotations
 import csv
 import json
 
-from project_paths import MAP_RECORDS, MAP_RECENT_PROFILE_SUPPLEMENT
+from project_paths import MAP_RECORDS, MAP_RECENT_PROFILE_SUPPLEMENT, atomic_write_csv
 
 
 EXTRA_FIELDS = (
@@ -74,10 +74,7 @@ def main() -> None:
             })
         added_profiles.add(profile["supplement_id"])
 
-    with MAP_RECORDS.open("w", encoding="utf-8-sig", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=fieldnames)
-        writer.writeheader()
-        writer.writerows(rows)
+    atomic_write_csv(MAP_RECORDS, fieldnames, rows)
     print(f"Synchronized {len(added_profiles)} recent profiles across {sum(row['family_group'] == group for row in rows)} map rows")
 
 

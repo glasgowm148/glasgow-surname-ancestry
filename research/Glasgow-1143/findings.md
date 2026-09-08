@@ -1,6 +1,6 @@
 # Findings: Robert Glasgow of Kilwaughter (Glasgow-1143)
 
-Last updated: 2026-08-30
+Last updated: 2026-09-08
 
 ## Live profile update — 30 August 2026
 
@@ -11,6 +11,12 @@ kinship. Robert's father remains explicitly unproved; no relationship was
 detached.
 
 ## Current conclusion
+
+The Findmypast/Tepper entry `US/GPC/00345374` is a high-confidence match to
+this profile. The image reads “Glasgow, Robt., Ballykeel, Co. Ant. Lease. Hill
+Docts. 1738. (O.D.).” It is a lease index, not evidence of United States
+migration. Ballykeel is in Kilwaughter parish, and the date and property
+context coincide with Robert's already documented 1738 Agnew lease.
 
 Robert married Rachel Wilson in November 1729 according to a derivative
 congregation-register chronology. The same chronology directly records him and
@@ -61,6 +67,7 @@ not a particular father, grandfather or paper pedigree.
 
 | Source | Finding | Assessment |
 | --- | --- | --- |
+| [Findmypast image and Tepper index entry](https://search.findmypast.co.uk/record?id=US%2FGPC%2FIMAGES%2F9780806308548-002%2F0315&parentid=US%2FGPC%2F00345374), record `US/GPC/00345374` | “Glasgow, Robt., Ballykeel, Co. Ant. Lease. Hill Docts. 1738. (O.D.).” | High-confidence corroboration of this Kilwaughter Robert's 1738 Ballykeel lease. The United States label belongs to the derivative collection, not the event. |
 | [Registry memorial 74015](https://www.irishdeedsindex.net/mem.php?memorial=74015), vol. 105, p. 301 | William Agnew leased Ballykeel land to Robert Glasgow of Kilwaughter; named lives included James Glasgow junior and Rachel, formerly Wilson, wife of Robert. | Direct derivative deed transcription; original memorial still required. |
 | [Archived Kilwaughter chronology](https://web.archive.org/web/20101124184247id_/http://lifesweaving.com/Glasgow/Kilwaughter/Timeline.html), derived from PRONI `MIC/1B/6` | Marriage in November 1729; James born 24 May 1731, Ann 15 November 1733 and Rachel 8 November 1738 to Robert and Rachel. | Direct relationship statements in a derivative register transcription; inspect the microfilm. |
 | [Registry memorial 76724](https://www.irishdeedsindex.net/mem.php?memorial=76724), deed 17 June 1741 | Robert Glasgow of Kilwaughter, farmer, witnessed the deed and memorial. | Direct occupation and residence; no kinship statement. |
@@ -131,3 +138,19 @@ boxes 11–25 (1989). It covers Thomas 1804, William 1805 and both Arthur estate
 A free linked copy was not found. Volume I nevertheless shows Thomas as a 1798
 appraiser and Robert as surety on an 1808 administration bond, confirming that
 both were established in the same probate network before their target estates.
+
+<!-- BEGIN FMP-GLASGOW-fmp-glasgow-16f49c884ed2 -->
+## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-16f49c884ed2
+
+The transcript-validated residence/migration record for **Robt Glasgow**, 1738, Ballykeel, County Antrim, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
+
+## Source findings
+
+- [US/GPC/00345374 Findmypast transcript](https://www.findmypast.co.uk/transcript?id=US%2FGPC%2F00345374&tab=this): Author: Tepper; Category: Travel & migration; Collection: United States, Transatlantic Migration; Collections from: Americas, United States; Country: United States; Event place: Ballykeel, Co Ant; Event type: Residence; Event year: 1738; First name(s): Robt; Last name: Glasgow; Principal's first name(s): Robt; Principal's last name: Glasgow; Record set: United States, Transatlantic Migration Indexes; Relationship: Principal; Residence year: 1738; Sex: Male; State: -; Subcategory: Migration; Title: New World Immigrants: A Consolidation Of Ship Passenger Lists & Associated Data From Periodical Literature, Vol 2 (captured 2026-09-03T20:37:09.342Z).
+- Findmypast record IDs: `US/GPC/00345374`.
+- Stable research/source ID: `fmp-glasgow-16f49c884ed2`.
+
+## Recommended action — fmp-glasgow-16f49c884ed2
+
+Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
+<!-- END FMP-GLASGOW-fmp-glasgow-16f49c884ed2 -->

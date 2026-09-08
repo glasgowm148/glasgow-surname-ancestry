@@ -684,7 +684,8 @@ def build_machine_models(public_people: list[dict]) -> tuple[dict[str, dict], li
             "canonical_url": f"{SITE_URL}/people/{slug}.html", "json_url": f"{SITE_URL}/people/{slug}.json",
             "network_url": f"{SITE_URL}/people/{slug}.network.json",
             "wikitree_url": (
-                WIKITREE_URL + person_id if WT_ID.fullmatch(person_id)
+                WIKITREE_URL + person_id
+                if person_id in person.get("profile_ids", []) and WT_ID.fullmatch(person_id)
                 else person.get("wikitree_free_space_url") or None
             ),
             "vitals": {"birth": _vital(person.get("birth", ""), person.get("birth_location", ""), person.get("birth_note", "")),

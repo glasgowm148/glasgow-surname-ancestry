@@ -18,6 +18,8 @@
 ## Paste-ready biography
 
 [[Category:Glasgow Name Study]]
+{{Estimated Date}}
+
 
 == Biography ==
 
@@ -29,7 +31,7 @@ Attach only relationships stated by the record after confirming the relative pro
 
 The completed live WikiTree audit retained no compatible profile candidate.
 
-'''Reviewed HOLD reason:''' The Dundonald baptism naming mother Barbara Stevenson is distinct from the Irish-American candidate.
+'''Reviewed integration decision:''' The Dundonald baptism naming mother Barbara Stevenson is distinct from the Irish-American candidate.
 
 * [[Glasgow-2426|William]] — no exact full event-date bridge; no exact locality bridge; named record relatives do not all resolve exactly on the profile
 
@@ -39,7 +41,7 @@ The 1 result ID(s) above represent one conservative documentary group because: s
 
 == Sources ==
 
-<references />
-
 <ref name="FMP1">[https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3536725&tab=this Findmypast transcript], Archive reference: OPR 590/1; Baptism date: 12 Jun 1733; Baptism year: 1733; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Ayrshire; First name(s): William; Item: 3; Last name: Glasgow; Mother's first name(s): Barbara; Mother's last name: Stevenson; Page: 82; Place: Dundonald; Record set: Scotland, Parish Births & Baptisms 1564-1929; Register year range: 1699-1787; Subcategory: Parish Baptisms (captured 2026-09-03T22:07:10.320Z).</ref>
+
+<references />
 <!-- END FMP-GLASGOW-fmp-glasgow-033cb073721c -->

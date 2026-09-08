@@ -11,5 +11,5 @@ The transcript explicitly separates the birth and baptism dates. The exact bapti
 
 == Sources ==
 <references />
-* Glasgow, **John**, male, christened 2 July 1721, Kilwinning, Ayrshire.
+* Glasgow, '''John''', male, christened 2 July 1721, Kilwinning, Ayrshire.
 * Baptism record for John Glasgow, 2 July 1721, Kilwinning, ScotlandsPeople, parish 599, reference 10/248.

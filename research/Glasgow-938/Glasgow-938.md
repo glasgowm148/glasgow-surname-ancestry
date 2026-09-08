@@ -27,10 +27,10 @@ He was a bachelor farmer of Lisnagaver and named his father Alexander Glasgow,
 farmer. Jane lived at Gortereghy.<ref name="Marriage1866">[https://civilrecords.irishgenealogy.ie/churchrecords/images/marriage_returns/marriages_1866/11531/8240963.pdf General Register Office of Ireland, civil marriage register], Robert Glasgow
 and Jane Graham, 5 April 1866.</ref>
 
-A Robert Glasgow occupied the separate house `18c` at Gortereghy in PRONI's
+A Robert Glasgow occupied the separate house ''18c'' at Gortereghy in PRONI's
 1864 revision book and continued in the next volume.<ref name="RevisionBooks">Public
 Record Office of Northern Ireland, Valuation Revision Books,
-`VAL/12/B/4/17A`, folio 21, and `VAL/12/B/4/17B`, folio 22; [https://apps.proni.gov.uk/Val12B/Search.aspx database].</ref>
+''VAL/12/B/4/17A'', folio 21, and ''VAL/12/B/4/17B'', folio 22; [https://apps.proni.gov.uk/Val12B/Search.aspx database].</ref>
 The age, residence, occupation and marriage make this Robert the best identity
 candidate, but the valuation gives no age or relative, so the identification
 remains probable rather than proved.

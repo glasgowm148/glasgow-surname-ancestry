@@ -1,33 +1,20 @@
-> **Existing WikiTree profile identified:** [[Edstoun-4|Cuthbert Edstoun]]. Do not create a duplicate. This file is retained as the evidence draft.
+<!-- Existing WikiTree profile: Edstoun-4. Do not create a duplicate. Correct LNAB and current surname to Keddell; add Kaddell as another surname; birth before December 1578 and Croftmalloch uncertain; mother Glasgow-3613 confident; father Edstoun-3 uncertain. -->
+{{Estimated Date}}
 
-# Cuthbert Unknown, son of Margaret Glasgow of Croftmalloch
+== Biography ==
 
-## Profile data
+'''Cuthbert Keddell''' lived at Croftmalloch in the late sixteenth century. His surname is written '''Kaddell''' in the opening of his mother's testament and '''Keddell''' in its confirmation. He was the son of [[Glasgow-3613|Margaret Glasgow]], spouse or sometime wife of [[Edstoun-3|John Estoun or Edstoun]]. The record repeatedly calls Cuthbert her son and says that he gave up her inventory as executor-dative. The decree appointing or surrogating him in place of the procurator fiscal appears dated 16 October 1580.<ref name="MargaretTestament">National Records of Scotland, Edinburgh Commissary Court, CC8/8/8, images 355–356, testament dative and inventory of Margaret Glasgow; ''Commissariot of Edinburgh: Register of Testaments, 1514–1600'', [https://archive.org/details/scottishrecordso01scotuoft/page/n117/mode/1up p. 108].</ref>
 
-- First name: Cuthbert
-- Last name at birth/current: Unknown
-- Birth: before November 1578, Scotland, uncertain
-- Death: unknown
-- Mother: [Margaret Glasgow (Glasgow-3613), Croftmalloch, died November 1578](https://www.wikitree.com/wiki/Glasgow-3613)
-- Father: blank; John Edstoun is only a candidate
+Cuthbert was born before his mother's death in December 1578. Croftmalloch is a reasonable uncertain birth location because the record places him there, but no birth record has been found.<ref name="MargaretTestament" />
 
-## Biography
+== Research Notes ==
 
-Cuthbert was a son of Margaret Glasgow, spouse of John Edstoun in
-Croftmalloch. Margaret's testament dative says that she died intestate in
-November 1578 and that the inventory was given up by Cuthbert, `hir sone
-executour dative`. The Commissaries of Edinburgh had surrogated him as executor
-in place of the procurator fiscal by decree dated 17 October 1580.<ref>National
-Records of Scotland, Edinburgh Commissary Court, CC8/8/8, image 355, testament
-dative and inventory of Margaret Glasgow; diplomatic transcription preserved
-on [[Glasgow-3613|Margaret Glasgow's profile]]. The printed index is
-''Commissariot of Edinburgh: Register of Testaments, 1514-1600'',
-[https://archive.org/details/scottishrecordso01scotuoft/page/n117/mode/1up p. 108].</ref>
+The manuscript gives both '''Kaddell''' and '''Keddell''', not Edstoun. Keddell is used as the principal surname and Kaddell should be preserved as another-surname form. This profile represents the same executor already attached to Margaret, so its surname should be corrected rather than a duplicate created.
 
-The manuscript writing following Cuthbert's forename has not been read securely.
-His surname must therefore remain Unknown. John Edstoun was Margaret's husband
-and is a plausible father, but the transcribed clause does not identify
-Cuthbert as John's son.
+John Edstoun was Margaret's husband and is a natural candidate for Cuthbert's father, but the testament never calls Cuthbert his son. The existing father attachment should remain uncertain pending direct evidence.
+
+The derivative index dates Margaret's entry 8 November 1580 and calls her sometime spouse to John Edstoun in Croftmalloch.<ref>[https://www.findmypast.co.uk/transcript?id=SCOT%2FWILLS%2F057454&tab=this Findmypast, Scotland, Will and Testament Index 1481–1807, record SCOT/WILLS/057454], Margaret Glasgow, 8 November 1580.</ref> That index date does not change Cuthbert's birth boundary or identify his father.
 
 == Sources ==
+
 <references />

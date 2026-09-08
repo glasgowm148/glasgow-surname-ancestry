@@ -1,20 +1,20 @@
 # Findmypast Glasgow catalogue integration plan 1650–1750
 
-Source snapshot: `555f1c0f70e1d282a45d70d1917b911f99a149f372196e8d869d5b848b464f50`; latest detail capture: `2026-09-03T23:47:25.602Z`.
+Source snapshot: `a4d618ae1f0da46936bdeef4fdf2f4905217e1cb76c3c403c924bf1f7180ca60`; latest detail capture: `2026-09-03T23:47:25.602Z`.
 
 Source scrape/transcript audit: **INCOMPLETE**. This is a scoped integration of currently transcript-validated records 1650–1750; it does not claim that the Findmypast scrape or transcript review is complete.
 
 **APPLY READY**
 
-Validated person groups: **173**; WikiTree-audited groups: **173**; human overrides: **148**.
+Validated person groups: **174**; WikiTree-audited groups: **174**; human overrides: **160**.
 
 ## Outcome counts
 
 | Outcome and status | Groups |
 | --- | ---: |
-| existing_profile:n/a | 122 |
-| new_person:HOLD | 9 |
-| new_person:READY | 42 |
+| existing_profile:n/a | 129 |
+| free_space:READY | 2 |
+| new_person:READY | 43 |
 
 ## Person-group plan
 
@@ -32,13 +32,13 @@ Validated person groups: **173**; WikiTree-audited groups: **173**; human overri
 | `fmp-glasgow-10ad472195e9` | Magdalen Glasgow, 29 Mar 1743, Irvine | new_person | surname-research/new-people/1743_Scotland_Irvine_Magdalen_Glasgow.md | complete_live_no_match_audit |
 | `fmp-glasgow-10c6b4b0ab3d` | George Glasgow, 20 Nov 1687, Kilwinning | existing_profile | Glasgow-1058 | human_override |
 | `fmp-glasgow-1101de150c7c` | Margaret Glasgow, 19 Mar 1702, Kilbirnie | existing_profile | Glasgow-3548 | human_override |
-| `fmp-glasgow-11135d44133e` | Elizabeth Glasgow, 24 Jul 1737, Irvine | new_person | surname-research/new-people/1737_Scotland_Irvine_Elizabeth_Glasgow.md | complete_live_no_match_audit |
+| `fmp-glasgow-11135d44133e` | Elizabeth Glasgow, 24 Jul 1737, Irvine | existing_profile | Glasgow-3316 | human_override |
 | `fmp-glasgow-120b52e4bd76` | Hugh Glasgow, 29 Aug 1742, Kilmarnock | new_person | surname-research/new-people/1742_Scotland_Kilmarnock_Hugh_Glasgow.md | complete_live_no_match_audit |
 | `fmp-glasgow-12395e3a9d9b` | Joan Glasgow, 19 Jul 1702, Stevenston | new_person | surname-research/new-people/1702_Scotland_Stevenston_Joan_Glasgow.md | complete_live_no_match_audit |
 | `fmp-glasgow-13b02996f4c1` | James Glasgow, 12 Dec 1736, Kilwinning | existing_profile | Glasgow-1469 | human_override |
 | `fmp-glasgow-147e2ed3dceb` | Jean Glasgow, 28 Sep 1703, Irvine | existing_profile | Glasgow-1621 | human_override |
 | `fmp-glasgow-152ca76d3669` | John Glasgow, 02 Jul 1721, Kilwinning | existing_profile | Glasgow-1062 | human_override |
-| `fmp-glasgow-16f49c884ed2` | Robt Glasgow, 1738, Ballykeel, Co Ant | new_person | surname-research/new-people/1738_United_States_Ballykeel_Co_Ant_Robt_Glasgow.md | complete_live_no_match_audit |
+| `fmp-glasgow-16f49c884ed2` | Robt Glasgow, 1738, Ballykeel, Co Ant | existing_profile | Glasgow-1143 | human_override |
 | `fmp-glasgow-171b8d89cd68` | Elizabeth Glasgow, 12 Nov 1710, Irvine | existing_profile | Glasgow-1409 | human_override |
 | `fmp-glasgow-17ba21591d7d` | Jon Glasgow, 06 Jul 1679, Kilwinning | existing_profile | Glasgow-1434 | human_override |
 | `fmp-glasgow-196d95f7f8ae` | John Glasgow, 1671, Linlithgow | existing_profile | Glasgow-1927 | human_override |
@@ -48,7 +48,7 @@ Validated person groups: **173**; WikiTree-audited groups: **173**; human overri
 | `fmp-glasgow-1f9a4ce7f9bb` | Elizabeth Glasgow, 10 Jun 1726, Libberton | new_person | surname-research/new-people/1726_Scotland_Libberton_Elizabeth_Glasgow.md | human_override |
 | `fmp-glasgow-2242add57c8f` | Charles Glasgow, 28 Sep 1740, Kilbirnie | existing_profile | Glasgow-1515 | human_override |
 | `fmp-glasgow-25be316e47cf` | James Glasgow, 17 Mar 1700, Kilbirnie | existing_profile | Glasgow-1140 | human_override |
-| `fmp-glasgow-26372d160744` | Margaret Glasgow, 1740, Edrom | new_person | surname-research/new-people/1740_Scotland_Edrom_Margaret_Glasgow.md | unresolved_candidate_audit |
+| `fmp-glasgow-26372d160744` | Margaret Glasgow, 1740, Edrom | existing_profile | Glasgow-1607 | human_override |
 | `fmp-glasgow-2783143b27f7` | Thomas Glasgow, 08 Jan 1744, Irvine | existing_profile | Glasgow-1413 | human_override |
 | `fmp-glasgow-27f929774fdc` | John Glasgow, 29 Mar 1731, Kilbirnie | existing_profile | Glasgow-3006 | human_override |
 | `fmp-glasgow-284beccbf528` | Hugh Glasgow, 05 Aug 1716, Kilwinning | existing_profile | Glasgow-1071 | human_override |
@@ -56,7 +56,7 @@ Validated person groups: **173**; WikiTree-audited groups: **173**; human overri
 | `fmp-glasgow-2b0297c00e35` | John Glasgow, 30 Apr 1740, Irvine | existing_profile | Glasgow-3314 | human_override |
 | `fmp-glasgow-31fbb5a88b3c` | Margaret Glasgow, 12 May 1717, Uphall | existing_profile | Glasgow-1236 | human_override |
 | `fmp-glasgow-32828d4b64cc` | Matthew Glasgow, 05 Nov 1715, Kilwinning | existing_profile | Glasgow-2466 | human_override |
-| `fmp-glasgow-32d4ff293591` | Mary Glasgow, 11 Apr 1744, Kilmarnock | new_person | surname-research/new-people/1744_Scotland_Kilmarnock_Mary_Glasgow.md | unresolved_candidate_audit |
+| `fmp-glasgow-32d4ff293591` | Mary Glasgow, 11 Apr 1744, Kilmarnock | new_person | surname-research/new-people/1744_Scotland_Kilmarnock_Mary_Glasgow.md | human_override |
 | `fmp-glasgow-34c58f3b2e81` | George Glasgow, 20 Jul 1729, Kilwinning | existing_profile | Glasgow-3312 | human_override |
 | `fmp-glasgow-356a7e52dad2` | Jannet Glasgow, 01 Feb 1689, Kilwinning | existing_profile | Glasgow-1433 | human_override |
 | `fmp-glasgow-364d183e66d6` | Grizal Glasgow, 17 May 1719, Irvine | existing_profile | Glasgow-1474 | human_override |
@@ -82,8 +82,9 @@ Validated person groups: **173**; WikiTree-audited groups: **173**; human overri
 | `fmp-glasgow-54571dfc429a` | Jean Glasgow, 01 Oct 1732, Dundonald | new_person | surname-research/new-people/1732_Scotland_Dundonald_Jean_Glasgow.md | human_override |
 | `fmp-glasgow-559ab415303f` | Jean Glasgow, 31 Dec 1710, Kilwinning | existing_profile | Glasgow-1425 | human_override |
 | `fmp-glasgow-5639753a39b0` | David Glasgow, 23 May 1742, Livingston | existing_profile | Glasgow-1228 | human_override |
-| `fmp-glasgow-57e604589b8e` | Nathaniel Glasgow, 1707, Scots-Irish | new_person | surname-research/new-people/1707_United_States_Scots_Irish_Nathaniel_Glasgow.md | complete_live_no_match_audit |
+| `fmp-glasgow-57e604589b8e` | Nathaniel Glasgow, 1707, Scots-Irish | existing_profile | Glasgow-1136 | human_override |
 | `fmp-glasgow-58900a6995c0` | John Glasgow, 23 Sep 1722, Libberton | existing_profile | Glasgow-2870 | human_override |
+| `fmp-glasgow-59dea07d1fbb` | James Glasgow, 22 Apr 1696, Edinburgh | new_person | surname-research/new-people/1696_Scotland_Edinburgh_James_Glasgow.md | human_override |
 | `fmp-glasgow-5b45e8687b5b` | Mary Glasgow, 23 Jul 1717, Kilwinning | existing_profile | Glasgow-1933 | human_override |
 | `fmp-glasgow-5d52d96b0bd3` | Janet Glasgow, 15 Feb 1713, Kilwinning | existing_profile | Glasgow-1060 | human_override |
 | `fmp-glasgow-5f6803aafba8` | Janet Glasgow, 11 Feb 1711, Kilbirnie | existing_profile | Glasgow-3550 | human_override |
@@ -100,14 +101,14 @@ Validated person groups: **173**; WikiTree-audited groups: **173**; human overri
 | `fmp-glasgow-797144230166` | John Glasgow, 09 Dec 1690, Kilbirnie | existing_profile | Glasgow-1077 | human_override |
 | `fmp-glasgow-7a187aa7713d` | Michael Glasgow, 22 Nov 1741, Irvine | existing_profile | Glasgow-1416 | human_override |
 | `fmp-glasgow-7a4bc21a98f0` | Robert Glasgow, 10 Jan 1716, Irvine | existing_profile | Glasgow-2474 | human_override |
-| `fmp-glasgow-7a66001e8cd6` | George Glasgow, 1724,  | new_person | surname-research/new-people/1724_unknown_unknown_George_Glasgow.md | human_override |
+| `fmp-glasgow-7a66001e8cd6` | George Glasgow, 1724,  | free_space | surname-research/free-space-pages/Glasgow_Record_Index_Corrections_and_Unresolved_Files.md | human_override |
 | `fmp-glasgow-811253f3e78f` | James Glasgow, 06 Sep 1718, Irvine | existing_profile | Glasgow-1131 | human_override |
 | `fmp-glasgow-8534eaed42d0` | John Glasgow, 06 Aug 1741, Irvine | new_person | surname-research/new-people/1741_Scotland_Irvine_John_Glasgow.md | human_override |
 | `fmp-glasgow-87dec04eeb63` | James Glasgow, 19 Aug 1750, Kilwinning | existing_profile | Glasgow-2469 | human_override |
 | `fmp-glasgow-89e70b29e0e1` | Robert Glasgow, 07 Jun 1747, Irvine | existing_profile | Glasgow-3315 | human_override |
 | `fmp-glasgow-8a8a5ce31a19` | John Glasgow, 1679-1688, Cavers | existing_profile | Glasgow-1498 | human_override |
 | `fmp-glasgow-8a95a0778a00` | William Glasgow, ? Nov 1747, Covington & Thankerton | existing_profile | Glasgow-1124 | human_override |
-| `fmp-glasgow-8b7fb215d258` | Thomas Glasgow, 2 May 1660, Edinburgh | new_person | surname-research/new-people/1660_Scotland_Edinburgh_Thomas_Glasgow.md | unresolved_candidate_audit |
+| `fmp-glasgow-8b7fb215d258` | Thomas Glasgow, 2 May 1660, Edinburgh | existing_profile | Glasgow-3187 | human_override |
 | `fmp-glasgow-8c3d545ec0e5` | John Glasgow, 22 Sep 1717, Kilbirnie | existing_profile | Glasgow-3553 | human_override |
 | `fmp-glasgow-8d4bf08c43ec` | Helen Glasgow, 22 Dec 1668, Linlithgow | new_person | surname-research/new-people/1668_Scotland_Linlithgow_Helen_Glasgow.md | complete_live_no_match_audit |
 | `fmp-glasgow-8e84eba5c08b` | Jean Glasgow, 03 Apr 1715, Kilbirnie | existing_profile | Glasgow-3552 | human_override |
@@ -120,7 +121,7 @@ Validated person groups: **173**; WikiTree-audited groups: **173**; human overri
 | `fmp-glasgow-9ba0aacd6507` | Margaret Glasgow, 05 Jan 1729, Irvine | existing_profile | Glasgow-2450 | human_override |
 | `fmp-glasgow-9bf49e7b9bd1` | William Glasgow, 03 Feb 1723, Irvine | new_person | surname-research/new-people/1723_Scotland_Irvine_William_Glasgow.md | human_override |
 | `fmp-glasgow-9e83d7bb1375` | James Glasgow, 12 Mar 1707, Kilwinning | existing_profile | Glasgow-1932 | human_override |
-| `fmp-glasgow-a0b809464cc9` | Hugh Glasgow, 03 Feb 1733,  | new_person | surname-research/new-people/1733_Scotland_unknown_Hugh_Glasgow.md | unresolved_candidate_audit |
+| `fmp-glasgow-a0b809464cc9` | Hugh Glasgow, 03 Feb 1733,  | free_space | surname-research/free-space-pages/Glasgow_Record_Index_Corrections_and_Unresolved_Files.md | human_override |
 | `fmp-glasgow-a2dbbb6de106` | Isabel Glasgow, 26 Apr 1741, Irvine | new_person | surname-research/new-people/1741_Scotland_Irvine_Isabel_Glasgow.md | complete_live_no_match_audit |
 | `fmp-glasgow-a2f150d669b0` | Elizabeth Glasgow, 10 Jun 1750, Livingston | existing_profile | Glasgow-1232 | human_override |
 | `fmp-glasgow-a2f52dd2bc28` | James Glasgow, 24 Feb 1669, Edinburgh | existing_profile | Glasgow-1150 | human_override |
@@ -139,10 +140,10 @@ Validated person groups: **173**; WikiTree-audited groups: **173**; human overri
 | `fmp-glasgow-b4821b754264` | John Glasgow, 27 Jun 1721, Irvine | existing_profile | Glasgow-1139 | human_override |
 | `fmp-glasgow-b5d1097ac4ed` | Jannet Glasgow, 11 Jan 1736, Kilbirnie | existing_profile | Glasgow-3008 | human_override |
 | `fmp-glasgow-b6174913c647` | Robert Glasgow, 23 Jul 1728, Irvine | existing_profile | Glasgow-1132 | human_override |
-| `fmp-glasgow-b741e434199b` | James Glasgow, 1733,  | new_person | surname-research/new-people/1733_Scotland_unknown_James_Glasgow.md | unresolved_candidate_audit |
+| `fmp-glasgow-b741e434199b` | James Glasgow, 1733,  | new_person | surname-research/new-people/1733_Scotland_unknown_James_Glasgow.md | human_override |
 | `fmp-glasgow-b8c8c6842a85` | John Glasgow, 15 Oct 1689, Torryburn | new_person | surname-research/new-people/1689_Scotland_Torryburn_John_Glasgow.md | human_override |
 | `fmp-glasgow-ba0ccce5c268` | Mary Glasgow, 21 Apr 1745, Irvine | new_person | surname-research/new-people/1745_Scotland_Irvine_Mary_Glasgow.md | human_override |
-| `fmp-glasgow-baa0969903c8` | John Glasgow, 1707,  | new_person | surname-research/new-people/1707_British_West_Indies_unknown_John_Glasgow.md | unresolved_candidate_audit |
+| `fmp-glasgow-baa0969903c8` | John Glasgow, 1707,  | new_person | surname-research/new-people/1707_British_West_Indies_unknown_John_Glasgow.md | human_override |
 | `fmp-glasgow-bacd8e7498f2` | Will Glasgow, 16 Apr 1706, Irvine | existing_profile | Glasgow-3408 | human_override |
 | `fmp-glasgow-bbae38da8bd2` | Margaret Glasgow, 17 Apr 1691, Kilbirnie | existing_profile | Glasgow-1154 | human_override |
 | `fmp-glasgow-bebf9b2396a7` | John Glasgow, 1730, Ayr | existing_profile | Glasgow-3487 | human_override |
@@ -153,14 +154,14 @@ Validated person groups: **173**; WikiTree-audited groups: **173**; human overri
 | `fmp-glasgow-c5f9840e310b` | James Glasgow, 11 Apr 1721, Irvine | new_person | surname-research/new-people/1721_Scotland_Irvine_James_Glasgow.md | human_override |
 | `fmp-glasgow-c6811d02d484` | Bessie Glasgow, 30 Jun 1750, Covington & Thankerton | existing_profile | Glasgow-1125 | human_override |
 | `fmp-glasgow-c7dabfad5c23` | Janet Glasgow, 22 Apr 1718, Libberton | new_person | surname-research/new-people/1718_Scotland_Libberton_Janet_Glasgow.md | human_override |
-| `fmp-glasgow-cc9a54fb3b86` | James Glasgow, 7 May 1690, Edinburgh | new_person | surname-research/new-people/1690_1696_Scotland_Edinburgh_James_Glasgow.md | human_override |
+| `fmp-glasgow-cc9a54fb3b86` | James Glasgow, 7 May 1690, Edinburgh | new_person | surname-research/new-people/1690_Scotland_Edinburgh_James_Glasgow.md | human_override |
 | `fmp-glasgow-cd18f5e7916d` | John Glasgow, 1738, Edrom | new_person | surname-research/new-people/1738_Scotland_Edrom_John_Glasgow.md | human_override |
 | `fmp-glasgow-cdbfe8e4475a` | Hugh Glasgow, 08 Dec 1713, Irvine | existing_profile | Glasgow-1426 | human_override |
 | `fmp-glasgow-ce7a886e0868` | Agnes Glasgow, 21 Aug 1720, Libberton | new_person | surname-research/new-people/1720_Scotland_Libberton_Agnes_Glasgow.md | complete_live_no_match_audit |
 | `fmp-glasgow-cf86ca3898e2` | Margaret Glasgow, ? Aug 1712, Kilwinning | existing_profile | Glasgow-2465 | human_override |
-| `fmp-glasgow-d086eba57157` | Thomas Glasgow, 02/03/1692, Dublin | new_person | surname-research/new-people/1684_1701_Ireland_Dublin_Thomas_Glasgow.md | human_override |
+| `fmp-glasgow-d086eba57157` | Thomas Glasgow, 02/03/1692, Dublin | existing_profile | Glasgow-3556 | human_override |
 | `fmp-glasgow-d33ed1d5cc49` | Robert Glasgow, 17 Oct 1693, Kilbirnie | existing_profile | Glasgow-1075 | human_override |
-| `fmp-glasgow-d3c5be859131` | Katherine Glasgow, 03 Sep 1749, Irvine | new_person | surname-research/new-people/1749_Scotland_Irvine_Katherine_Glasgow.md | complete_live_no_match_audit |
+| `fmp-glasgow-d3c5be859131` | Katherine Glasgow, 03 Sep 1749, Irvine | existing_profile | Glasgow-1417 | human_override |
 | `fmp-glasgow-d59837c3bc8f` | Hugh Glasgow, 09 Mar 1736, Irvine | existing_profile | Glasgow-3426 | human_override |
 | `fmp-glasgow-d75c7c0eba0a` | Thomas Glasgow, 07 Nov 1725, Kilwinning | existing_profile | Glasgow-1023 | human_override |
 | `fmp-glasgow-d7dbadd32481` | John Glasgow, 19 Dec 1703, Kilwinning | existing_profile | Glasgow-2464 | human_override |
@@ -190,7 +191,7 @@ Validated person groups: **173**; WikiTree-audited groups: **173**; human overri
 | `fmp-glasgow-f76204f85134` | Jean Glasgow, 11 Nov 1722, Kilwinning | existing_profile | Glasgow-1072 | human_override |
 | `fmp-glasgow-f84643271969` | Margaret Glasgow, 23 Sep 1688, Kilwinning | existing_profile | Glasgow-3162 | human_override |
 | `fmp-glasgow-f9d3e4df7bbb` | Jonnat Glasgow, 23 Oct 1685, Kirkintillock | new_person | surname-research/new-people/1685_Scotland_Kirkintillock_Jonnat_Glasgow.md | complete_live_no_match_audit |
-| `fmp-glasgow-fb417c9f3803` | Michael Glasgow, 1679-1688, The Tounes and Parochines of Irving and Kilwinning and baronies yrin | new_person | surname-research/new-people/1679_1688_Scotland_The_Tounes_and_Parochines_of_Irving_and_Kilwinning_and_baronies_yrin_Michael_Glasgow.md | complete_live_no_match_audit |
+| `fmp-glasgow-fb417c9f3803` | Michael Glasgow, 1679-1688, The Tounes and Parochines of Irving and Kilwinning and baronies yrin | new_person | surname-research/new-people/1679_1688_Scotland_The_Tounes_and_Parochines_of_Irving_and_Kilwinning_and_baronies_yrin_Michael_Glasgow.md | human_override |
 | `fmp-glasgow-fba04c067c7c` | Mary Glasgow, 17 Dec 1732, Kilmarnock | new_person | surname-research/new-people/1732_Scotland_Kilmarnock_Mary_Glasgow.md | human_override |
 | `fmp-glasgow-fbace07056e6` | Marie Glasgow, 11 Oct 1674, Edinburgh | existing_profile | Glasgow-1310 | human_override |
 
