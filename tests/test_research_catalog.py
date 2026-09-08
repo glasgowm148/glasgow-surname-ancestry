@@ -9,6 +9,8 @@ from pathlib import Path
 import re
 import unittest
 
+from tests._generated_data import requires_generated_data
+
 from tools.catalogue_machine_data import _profile_assessment_flags, resolver_candidates
 from tools.audit_missing_wikitree_profiles import (
     candidate_summary, discover_drafts, new_draft_match, select_candidates,
@@ -43,6 +45,7 @@ ROOT = Path(__file__).resolve().parents[1]
 WEB = ROOT / "www"
 
 
+@requires_generated_data
 class ResearchCatalogueTest(unittest.TestCase):
     def test_place_timeline_source_link_is_plain_and_escaped(self):
         self.assertEqual(_supporting_source_link({}), "")

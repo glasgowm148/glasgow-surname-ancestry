@@ -1,13 +1,16 @@
 PYTHON ?= .venv/bin/python
 RUFF ?= $(if $(wildcard $(dir $(PYTHON))ruff),$(dir $(PYTHON))ruff,ruff)
 
-.PHONY: test validate lint check build
+.PHONY: test validate validate-strict lint check build
 
 test:
 	$(PYTHON) -m unittest discover -s tests -q
 
 validate:
 	$(PYTHON) tools/validate_data.py
+
+validate-strict:
+	$(PYTHON) tools/validate_data.py --strict
 
 lint:
 	$(RUFF) check src tools tests

@@ -3,11 +3,14 @@ import tempfile
 import unittest
 from pathlib import Path
 
+from tests._generated_data import GENERATED_DATA_AVAILABLE
 from tools.validate_data import validate_catalogue, validate_map_records
 
 
 class DataValidationTests(unittest.TestCase):
     def test_repository_outputs_match_contracts(self):
+        if not GENERATED_DATA_AVAILABLE:
+            self.skipTest("requires local generated catalogue/One-Tree artefacts")
         self.assertEqual([], validate_map_records())
         self.assertEqual([], validate_catalogue())
 

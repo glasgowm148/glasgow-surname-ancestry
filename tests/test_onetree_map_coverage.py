@@ -10,6 +10,8 @@ import sys
 import unittest
 from pathlib import Path
 
+from tests._generated_data import requires_generated_data
+
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
@@ -25,6 +27,7 @@ from project_paths import (  # noqa: E402
 import sync_onetree_ireland_uk_to_1900 as sync  # noqa: E402
 
 
+@requires_generated_data
 class OneTreeMapCoverageTests(unittest.TestCase):
     def test_dictionary_shaped_spouses_supply_marriage_events(self):
         profile = {

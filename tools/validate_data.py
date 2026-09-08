@@ -118,7 +118,16 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--map", dest="map_path", type=Path, default=MAP_RECORDS)
     parser.add_argument("--catalogue", type=Path, default=WEB_DIR / "data" / "people.json")
+    parser.add_argument(
+        "--strict",
+        action="store_true",
+        help="fail when generated inputs are absent instead of skipping validation",
+    )
     args = parser.parse_args()
+    missing = [path for path in (args.map_path, args.catalogue) if not path.exists()]
+    if missing and not args.strict:
+        print("Skipped generated-data validation; missing: " + ", ".join(map(str, missing)))
+        return 0
     errors = validate_map_records(args.map_path) + validate_catalogue(args.catalogue)
     if errors:
         print("\n".join(errors), file=sys.stderr)

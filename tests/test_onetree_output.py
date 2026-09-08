@@ -3,11 +3,14 @@ import importlib.util
 from pathlib import Path
 import unittest
 
+from tests._generated_data import requires_generated_data
+
 
 ROOT = Path(__file__).resolve().parents[1]
 ONE_TREE = ROOT / "www" / "onetree" / "glasgow-one-tree-polished"
 
 
+@requires_generated_data
 class OneTreeOutputTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):

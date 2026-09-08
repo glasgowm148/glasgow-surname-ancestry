@@ -8,6 +8,7 @@ import unittest
 from unittest.mock import patch
 
 import tools.project_paths as project_paths
+from tests._generated_data import requires_generated_data
 from tools.project_paths import apply_profile_redirects
 from tools.build_family_map import apply_catalogue_profile_links, rebuild_standalone_onetree
 
@@ -25,6 +26,7 @@ class ProjectPathTests(unittest.TestCase):
             [],
         )
 
+    @requires_generated_data
     def test_catalogue_build_refreshes_standalone_one_tree(self):
         with patch("tools.build_family_map.subprocess.run") as run:
             rebuild_standalone_onetree()
