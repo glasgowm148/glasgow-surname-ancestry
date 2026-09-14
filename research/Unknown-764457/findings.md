@@ -4,7 +4,7 @@
 
 The original 1851 census mortality return proves Cathrin as the mother of Peggy Hamilton and wife of Robert Hamilton. Cathrin was aged 58 when she died in spring 1848. Her maiden surname remains unknown.
 
-## Evidence
+## Source findings
 
 | Record | Direct statement | Relationship status |
 | --- | --- | --- |

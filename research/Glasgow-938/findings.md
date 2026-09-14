@@ -1,6 +1,6 @@
 # Findings: Glasgow-938
 
-Last updated: 2026-09-05
+Last updated: 2026-09-13
 
 ## Current conclusion
 
@@ -13,6 +13,8 @@ Robert `Glasgow-938`, not older Robert `Glasgow-1367`, is the materially best
 candidate for the Robert Glasgow listed at Gortereghy in Griffith's Valuation.
 The identification is strong but still inferential because the valuation gives
 no age or relative.
+
+The Scottish continuation needs an original-record bridge. Precise child-birth references are now available, but neither image was read in the 13 September follow-up. This limitation does not weaken the direct Irish father–son evidence above.
 
 ## Source findings
 
@@ -31,3 +33,10 @@ Gortereghy residence form a substantially better chain than the older Robert,
 who was still at Glenleslie in 1851. The revision book now shows property
 continuity at `18c`; treat the personal identification as probable rather than
 certain because neither valuation record supplies an age or relative.
+
+
+## Scottish identity checks — 13 September 2026
+
+The copied brief cites [James Glasgow’s 10 July 1869 Bridgeton birth](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSFB-KDZR), film **008065881 image 256**, and [Agnes Glasgow’s 19 August 1875 Bridgeton birth](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSFB-FXZ5), film **008066640 image 244**, with parents Robert Glasgow and Jane Graham. These are precise original-image leads, not freshly inspected records: access failed. Read each parents’ marriage date/place against **5 April 1866** before treating names alone as the Scottish identity bridge. The [official statutory-birth guide](https://www.scotlandspeople.gov.uk/help-and-support/guides/statutory-register-births) confirms the relevant register field, not its contents in these entries.
+
+The alleged 27 November 1902 death has a copied Camlachie reference **644/2/849**, but that citation appears under daughter Mary’s biography in the brief. Verify subject, spouse, parents and informant before using it as evidence for Robert or Alexander. The FamilySearch reference VQQ8-5MB is reused inconsistently for birth/census claims and cannot stand for original census inspection. Original 1871, 1881 and 1891 households remain checks after the birth-record bridge. See [Alexander’s ranked tests](/people/glasgow-951.html#next-research).

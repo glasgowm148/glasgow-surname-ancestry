@@ -1,5 +1,8 @@
 # George Glasgow (Glasgow-1090) research findings
 
+Last updated: 2026-09-10
+
+
 ## Current conclusion
 
 Two 1724 Court of Session file titles do not identify
@@ -19,3 +22,16 @@ legal-file dossiers rather than person records.
 
 Do not amend this profile from either file title. Reassess only if original
 process papers produce an independent identifier.
+
+<!-- opr-birth-review-row-69 -->
+## Source findings
+
+### Supplied OPR births and baptisms: row 69 — 10 September 2026
+
+[Scotland’s People](https://www.scotlandspeople.gov.uk/), **Old Parish Registers, births and baptisms**; exact surname Glasgow through 1700, 127 supplied results. **GEORGE GLASGOW**; indexed date **04/02/1627**; Glasgow; parish **644 / 1**, reference **20 / 170**. Parents/other exactly as indexed: **JOHNE GLASGOW/JONET MATHIE**. Indexed gender: **M**.
+
+**Assessment:** The live biography already includes this 4 February 1627 index date alongside 2 February birth and 25 February baptism statements. The new locator confirms the existing date problem without resolving it.
+
+Original image not inspected for this batch. The combined collection’s date does not automatically establish a birthday. Names alone do not uniquely identify attached parents or connect a child with a later adult. An omitted parent or indexed gender U remains unspecified in this source.
+
+**Next action:** No additional WikiTree update from this row; preserve any existing pending work.

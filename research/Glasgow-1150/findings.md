@@ -33,8 +33,7 @@ remain:
    [[Glasgow-1150|James Glasgow]]` should instead link to
    `[[Glasgow-3923|James Glasgow]]`, the distinct Inveresk child.
 
-## Evidence
-
+## Source findings
 | Source | Finding | Assessment |
 |---|---|---|
 | Francis J. Grant, ed., *Register of Apprentices of the City of Edinburgh, 1583-1666*, printed p. 71, [16 June 1641](https://archive.org/details/scottishrecordso28scotuoft/page/71/mode/2up) | James Glasgow, son of Robert Glasgow, servant to William Crichtoun in Wester Duddingston, was apprenticed to William Sclaitter, weaver. | Direct father-name, residence/association and apprenticeship evidence. |
@@ -214,3 +213,16 @@ The transcript-validated apprenticeship record for **James Glasgow**, 18 Oct 169
 
 Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
 <!-- END FMP-GLASGOW-fmp-glasgow-ad30a52bccad -->
+
+## Source findings
+
+### Supplied OPR banns and marriages — 10 September 2026
+
+| Source locator | Indexed parties | Assessment |
+| --- | --- | --- |
+| [Scotland’s People](https://www.scotlandspeople.gov.uk/), 1653-11-11, Edinburgh, OPR 685 / 1/440 / 20 | JAMES GLASGOW; AGNES DUNCAN/FR931 (FR931) | James's Agnes Duncan marriage already represented and live biography verified. |
+| [Scotland’s People](https://www.scotlandspeople.gov.uk/), 1649-07-06, Edinburgh, OPR 685 / 1/430 / 289 | JAMES GLASGOW; BESSIE WHYTE/FR896 (FR896) | James's Bessie Whyte marriage already represented and live biography verified. |
+
+Source: Old Parish Registers, banns and marriages; exact surname Glasgow through 1700, 55 supplied results. Original images not inspected for this batch; combined index dates do not by themselves establish ceremony dates.
+
+This batch adds supporting evidence or a qualified comparison only; it raises no additional WikiTree amendment for this profile.

@@ -1,0 +1,504 @@
+{
+  "id": "quothquan-1685",
+  "intro": "Four image-led steps separate John Glasgow's identity and widow from the damaged inventory, the procurator's request and the court confirmation. Heavy show-through is visible and is treated as a source limit, not silently repaired. National Records of Scotland, Lanark Commissary Court CC14/5/12, images 67-68, Crown copyright; accessed through Scotland's People wills and testaments.",
+  "source_url": "https://www.scotlandspeople.gov.uk/search-records/legal-records/wills",
+  "people": [
+    {
+      "name": "John Glasgow",
+      "role": "Deceased of Quothquan",
+      "status": "explicit",
+      "evidence_step": "identity",
+      "profile_id": "Glasgow-1086",
+      "evidence_study": "john-glasgow-identity"
+    },
+    {
+      "name": "Jonet [Kinnie?]",
+      "role": "Relict and executrix dative",
+      "status": "relationship explicit, surname uncertain",
+      "evidence_step": "identity",
+      "profile_id": "Unknown-717333",
+      "evidence_study": "quothquan-1685-jonet"
+    },
+    {
+      "name": "William Wilkie",
+      "role": "Procurator fiscal",
+      "status": "explicit administrative role",
+      "evidence_step": "procurator"
+    },
+    {
+      "name": "William Watson",
+      "role": "Cautioner",
+      "status": "explicit administrative role",
+      "evidence_step": "confirmation"
+    }
+  ],
+  "card_kin": {
+    "spouse": [
+      {
+        "name": "Jonet [Kinnie?]",
+        "relationship": "relict; surname reading uncertain",
+        "status": "explicit",
+        "evidence_step": "identity",
+        "evidence_study": "quothquan-1685-jonet"
+      }
+    ],
+    "children": [],
+    "other_kin": []
+  },
+  "steps": [
+    {
+      "id": "identity",
+      "title": "1. Identify Quothquan, the February death and the widow",
+      "page_label": "National Records of Scotland, Lanark Commissary Court CC14/5/12, image 67; Crown copyright",
+      "image": "/assets/research/testament-crops/quothquan-1685-identity.jpg",
+      "image_width": 1900,
+      "image_height": 900,
+      "alt": "1. Original manuscript crop naming John Glasgow in Quothquan, Libberton parish, and Jonet as relict and executrix dative.",
+      "original": "umq[uhi]le John Glasgow in Quothquan within the paroch of Libberton ... deceist intestat in the moneth of ffebruary ... Jonet [Kinnie?] relict and executrix dative",
+      "reading": "The late John Glasgow in Quothquan, Libberton parish, died intestate in February 1685. Jonet [Kinnie?], his widow, served as executrix dative.",
+      "explanation": "Box 1 follows the deceased's name into Quothquan. Box 2 carries the parish wording. Box 3 contains the intestacy and February phrase. Box 4 contains Jonet's name and the adjoining role words. Relict proves widowhood; executrix dative describes a court-appointed estate office. The surname remains qualified because show-through crosses its minims.",
+      "proves": "John's record-defined residence and death month, plus Jonet's explicit widow and executrix roles.",
+      "does_not_prove": "It does not name a child or parent, and it does not bridge John to the 1608 Mid Calder baptism.",
+      "confidence": "High for identity, locality, month/year and roles; moderate-low for Jonet's surname.",
+      "marks": [
+        {
+          "x": 39.26315789473684,
+          "y": 25.555555555555554,
+          "w": 32.526315789473685,
+          "h": 15.666666666666668,
+          "label": "John Glasgow in Quothquan",
+          "kind": "name",
+          "pixel_bbox": [
+            746,
+            230,
+            1364,
+            371
+          ],
+          "analysis": {
+            "reading": "John Glasgow in Quothquan",
+            "expansion": "John Glasgow in Quothquan",
+            "features": [
+              "John begins with a tall black J whose lower curve returns into the short o-h-n group.",
+              "Glasgow has a broad looped capital G and a final w formed by two pointed strokes.",
+              "Quothquan shows two separate q descenders, one at the opening and one in the second syllable."
+            ],
+            "comparison": "John Glasgow recurs in the procurator's clause in step 3, helping distinguish name strokes from show-through.",
+            "uncertainty": "The name and Quothquan are secure; several overlying reverse-page strokes cross the line."
+          }
+        },
+        {
+          "x": 27.368421,
+          "y": 35.555556,
+          "w": 56.842105,
+          "h": 14.444444,
+          "label": "within the paroch of Libberton",
+          "kind": "name",
+          "pixel_bbox": [
+            520,
+            320,
+            1600,
+            450
+          ],
+          "analysis": {
+            "reading": "within the paroch of Libberton",
+            "expansion": "within the parish of Libberton",
+            "features": [
+              "Within begins with a wide w followed by a row of narrow minims in ithin.",
+              "Paroch contains a tall h ascender at its end.",
+              "Libberton begins with an upright looped L and has two tall strokes in bb."
+            ],
+            "comparison": "The following line adds the presbytery of Lanark, keeping this a geographic designation.",
+            "uncertainty": "Libberton is legible despite bleed-through; the exact spelling is preserved."
+          }
+        },
+        {
+          "x": 27.263157894736846,
+          "y": 47.44444444444444,
+          "w": 65.26315789473685,
+          "h": 22.11111111111111,
+          "label": "deceist intestat ... ffebruary",
+          "kind": "date",
+          "pixel_bbox": [
+            518,
+            427,
+            1758,
+            626
+          ],
+          "analysis": {
+            "reading": "deceist intestat in the moneth of ffebruary",
+            "expansion": "died intestate in the month of February",
+            "features": [
+              "Intestat contains a long s-like vertical and two tall t strokes crossed near their tops.",
+              "Ffebruary begins with a doubled initial f convention, both strokes extending below the baseline.",
+              "The final y has a long descending tail that curves back toward the word."
+            ],
+            "comparison": "The 1685 year appears on the next line; step 4 supplies the later March court date.",
+            "uncertainty": "The month is clear; no February day is stated."
+          }
+        },
+        {
+          "x": 27.368421,
+          "y": 70,
+          "w": 63.157895,
+          "h": 18.888889,
+          "label": "Jonet [Kinnie?] relict and executrix dative",
+          "kind": "relationship",
+          "pixel_bbox": [
+            520,
+            630,
+            1720,
+            800
+          ],
+          "analysis": {
+            "reading": "Jonet [Kinnie?] relict and executrix dative",
+            "expansion": "Jonet [Kinnie?], widow and court-appointed executrix",
+            "features": [
+              "Jonet begins with a long initial J descending below the line.",
+              "Relict has a tall l and final t crossed by a light horizontal stroke.",
+              "Executrix begins with an enlarged loop and ends in a distinct x-shaped crossing."
+            ],
+            "comparison": "Jonet's appointment is carried into the court confirmation in step 4.",
+            "uncertainty": "Relict and executrix dative are secure. Reverse-page ink crosses the surname, so Kinnie remains provisional."
+          }
+        }
+      ],
+      "word_studies_replaced": true
+    },
+    {
+      "id": "inventory",
+      "title": "2. Treat the dark middle as an inventory with source damage",
+      "page_label": "National Records of Scotland, Lanark Commissary Court CC14/5/12, image 67; Crown copyright",
+      "image": "/assets/research/testament-crops/quothquan-1685-inventory.jpg",
+      "image_width": 1900,
+      "image_height": 1150,
+      "alt": "2. Original manuscript crop of John's heavily obscured livestock, crop and clothing inventory.",
+      "original": "Inventar ... Item two kyne ... the abulzement of the defuncts bodie ... Summa of the Inventar",
+      "reading": "The inventory includes livestock, farm produce or fodder, household/farm goods and the deceased's clothing, but most exact quantities and prices remain obscured.",
+      "explanation": "Box 1 is the large heading. Box 2 pulls the clearest livestock phrase. Box 3 marks the clothing valuation, and Box 4 the total heading. The heavy dark lines crossing these entries are show-through and overwriting; the walkthrough therefore stops short of invented item totals.",
+      "proves": "The estate included livestock and ordinary farm/household property.",
+      "does_not_prove": "The damaged list cannot support exact wealth calculations or family relationships.",
+      "confidence": "High for the inventory structure and broad classes; low to moderate for individual quantities and valuations.",
+      "marks": [
+        {
+          "x": 10.526316,
+          "y": 6.956522,
+          "w": 31.578947,
+          "h": 31.304348,
+          "label": "Inventar",
+          "kind": "role",
+          "pixel_bbox": [
+            200,
+            80,
+            800,
+            440
+          ],
+          "analysis": {
+            "reading": "Inventar",
+            "expansion": "Inventory",
+            "features": [
+              "The initial I is a very tall black stroke extending below the baseline into a broad curve.",
+              "The middle n-v-e sequence is compressed into alternating thick and thin joins.",
+              "The final r is short and hooked upward."
+            ],
+            "comparison": "This large display heading contrasts with the smaller same word in Summa of the Inventar below.",
+            "uncertainty": "The heading is clear even though reverse-page writing crosses it."
+          }
+        },
+        {
+          "x": 52.631579,
+          "y": 34.347826,
+          "w": 31.578947,
+          "h": 12.173913,
+          "label": "Item two kyne",
+          "kind": "asset",
+          "pixel_bbox": [
+            1000,
+            395,
+            1600,
+            535
+          ],
+          "analysis": {
+            "reading": "Item two kyne",
+            "expansion": "Item: two cows",
+            "features": [
+              "Item begins with a tall upright I and a compact tem group.",
+              "The w in two is formed from two pointed downstrokes.",
+              "Kyne has a long y descender and a final e turning upward."
+            ],
+            "comparison": "Geillis's earlier hand writes the related cattle word ky in step 3 of her walkthrough.",
+            "uncertainty": "Two kyne is legible; the milk/follower description and price alongside it are less secure."
+          }
+        },
+        {
+          "x": 18.947368,
+          "y": 68.695652,
+          "w": 70.526316,
+          "h": 13.043478,
+          "label": "abulzement of the defuncts bodie",
+          "kind": "asset",
+          "pixel_bbox": [
+            360,
+            790,
+            1700,
+            940
+          ],
+          "analysis": {
+            "reading": "abulzement of the defuncts bodie",
+            "expansion": "clothing/personal apparel of the deceased's body",
+            "features": [
+              "Abulzement begins with an open capital A and a tall looped b.",
+              "Defuncts has a long descending f and a tightly joined unct sequence.",
+              "Bodie ends with a clearly separated i dot and a final e curl."
+            ],
+            "comparison": "This conventional personal-apparel item follows the agricultural property entries.",
+            "uncertainty": "The phrase is substantially legible; its appended valuation is obscured."
+          }
+        },
+        {
+          "x": 26.315789,
+          "y": 80.434783,
+          "w": 48.421053,
+          "h": 11.73913,
+          "label": "Summa of the Inventar",
+          "kind": "role",
+          "pixel_bbox": [
+            500,
+            925,
+            1420,
+            1060
+          ],
+          "analysis": {
+            "reading": "Summa of the Inventar",
+            "expansion": "Total of the inventory",
+            "features": [
+              "Summa begins with a broad capital S whose lower curve reaches under the word.",
+              "The double m appears as a run of narrow minims.",
+              "Inventar retains a taller initial than the surrounding words despite the darker ink crossing it."
+            ],
+            "comparison": "The total heading closes the inventory before the separate debt account.",
+            "uncertainty": "The words are legible; the numeric sum at the right is not dependable."
+          }
+        }
+      ]
+    },
+    {
+      "id": "procurator",
+      "title": "3. Read William Wilkie as an officer, not a relative",
+      "page_label": "National Records of Scotland, Lanark Commissary Court CC14/5/12, image 67; Crown copyright",
+      "image": "/assets/research/testament-crops/quothquan-1685-procurator.jpg",
+      "image_width": 1900,
+      "image_height": 1050,
+      "alt": "3. Original manuscript crop beginning I William Wilkie procurator fiscal and naming the late John Glasgow.",
+      "original": "I William Wilkie procurator fiscall of this court ... goods and geir of the said umq[uhi]le John Glasgow",
+      "reading": "William Wilkie appears as procurator fiscal in the court request concerning the late John Glasgow's estate.",
+      "explanation": "Box 1 is the officer's personal name and Box 2 his title. Box 3 returns to John Glasgow as the deceased whose goods are in process. The role label controls interpretation: William is conducting procedure, not being introduced as kin.",
+      "proves": "William Wilkie's official participation in the estate process.",
+      "does_not_prove": "It does not make William Wilkie a brother, son or other relative of John or Jonet.",
+      "confidence": "High for William Wilkie and procurator fiscal; moderate for the surrounding legal formula.",
+      "marks": [
+        {
+          "x": 11.052632,
+          "y": 23.809524,
+          "w": 35.263158,
+          "h": 32.380952,
+          "label": "William Wilkie",
+          "kind": "name",
+          "pixel_bbox": [
+            210,
+            250,
+            880,
+            590
+          ],
+          "analysis": {
+            "reading": "William Wilkie",
+            "expansion": "William Wilkie",
+            "features": [
+              "William begins with a very large W built from deep pointed strokes and a leftward entry flourish.",
+              "The doubled l rises as two tall parallel ascenders.",
+              "Wilkie repeats the pointed W but ends with a small dotted i and curled e."
+            ],
+            "comparison": "The second W is smaller but shares the same angular downstroke pattern as the first.",
+            "uncertainty": "The name is clear; reverse-page text intersects but does not replace its strokes."
+          }
+        },
+        {
+          "x": 45.789474,
+          "y": 28.571429,
+          "w": 38.421053,
+          "h": 14.761905,
+          "label": "procurator fiscall",
+          "kind": "role",
+          "pixel_bbox": [
+            870,
+            300,
+            1600,
+            455
+          ],
+          "analysis": {
+            "reading": "procurator fiscall",
+            "expansion": "procurator fiscal",
+            "features": [
+              "Procurator opens with a tall looped p whose descender falls below the baseline.",
+              "The c and r are open, narrow forms separated by visible pen lifts.",
+              "Fiscall contains a long s and ends with two tall l ascenders."
+            ],
+            "comparison": "Unlike relict and executrix in step 1, this title belongs to a court officer.",
+            "uncertainty": "The title is clear; spelling fiscall is literal."
+          }
+        },
+        {
+          "x": 56.315789,
+          "y": 52.380952,
+          "w": 36.842105,
+          "h": 17.619048,
+          "label": "umq[uhi]le John Glasgow",
+          "kind": "name",
+          "pixel_bbox": [
+            1070,
+            550,
+            1770,
+            735
+          ],
+          "analysis": {
+            "reading": "umq[uhi]le John Glasgow",
+            "expansion": "the late John Glasgow",
+            "features": [
+              "Umqle is heavily abbreviated, with the q descender carrying much of the form.",
+              "John begins with the same tall descending J seen in step 1.",
+              "Glasgow ends in the same sharply pointed w as the opening name."
+            ],
+            "comparison": "The repeated John Glasgow form confirms that this clause still concerns the same deceased.",
+            "uncertainty": "The name is secure; the conventional expansion of umqle is editorially supplied."
+          }
+        }
+      ]
+    },
+    {
+      "id": "confirmation",
+      "title": "4. Separate Jonet's oath from William Watson's caution",
+      "page_label": "National Records of Scotland, Lanark Commissary Court CC14/5/12, image 68; Crown copyright",
+      "image": "/assets/research/testament-crops/quothquan-1685-confirmation.jpg",
+      "image_width": 1900,
+      "image_height": 1750,
+      "alt": "4. Original manuscript crop of the 25 March 1685 court proceeding, Jonet's oath and William Watson's caution.",
+      "original": "At Carnwath the 25 day of March 1685 ... compeired personallie Jonet [Kinnie?] ... William Watson ... cautioner ... goods ... furthcoming to all parties haveand interes",
+      "reading": "At Carnwath on 25 March 1685, Jonet personally presented and swore the inventory; William Watson acted as cautioner for the estate goods.",
+      "explanation": "Box 1 is the dated court opening. Box 2 follows Jonet's personal appearance and oath context. Box 3 isolates William Watson with the cautioner wording, and Box 4 follows the guarantee that goods be forthcoming to interested parties. These are distinct procedural acts, not family descriptions.",
+      "proves": "The proceeding date, Jonet's personal estate oath and William Watson's security role.",
+      "does_not_prove": "It does not identify William Watson as kin and adds no child or parent for John.",
+      "confidence": "High for the date and role distinction; moderate for Jonet's surname and William's place designation.",
+      "marks": [
+        {
+          "x": 11.578947368421053,
+          "y": 27.42857142857143,
+          "w": 80.52631578947368,
+          "h": 8,
+          "label": "At Carnwath the 25 day of March 1685",
+          "kind": "date",
+          "pixel_bbox": [
+            220,
+            480,
+            1750,
+            620
+          ],
+          "analysis": {
+            "reading": "At Carnwath the 25 day of March 1685",
+            "expansion": "At Carnwath, 25 March 1685",
+            "features": [
+              "Carnwath begins with a large open C followed by connected arnwath strokes.",
+              "The Arabic 25 is separated from day by a small gap.",
+              "March has a broad M and a final h ascender rising above the line."
+            ],
+            "comparison": "The same 25 March date is docketed on image 67; this full clause identifies the proceeding place.",
+            "uncertainty": "Carnwath and the date are clear; this is a court date, not John's death date."
+          }
+        },
+        {
+          "x": 21.052631578947366,
+          "y": 37.42857142857143,
+          "w": 71.05263157894737,
+          "h": 9.428571428571429,
+          "label": "compeired personallie Jonet",
+          "kind": "name",
+          "pixel_bbox": [
+            400,
+            655,
+            1750,
+            820
+          ],
+          "analysis": {
+            "reading": "compeired personallie Jonet",
+            "expansion": "Jonet appeared personally",
+            "features": [
+              "Compeired begins with an open capital C and contains a long p descender.",
+              "Personallie has a tall long-s form and two adjacent l ascenders.",
+              "Jonet begins with the familiar long descending J at the right end of the line."
+            ],
+            "comparison": "The same given name and J form appear beside relict and executrix in step 1.",
+            "uncertainty": "Jonet is secure; her surname follows elsewhere and remains uncertain."
+          }
+        },
+        {
+          "x": 3.1578947368421053,
+          "y": 57.714285714285715,
+          "w": 90.52631578947368,
+          "h": 14.285714285714285,
+          "label": "William Watson ... cautioner",
+          "kind": "role",
+          "pixel_bbox": [
+            60,
+            1010,
+            1780,
+            1260
+          ],
+          "analysis": {
+            "reading": "William Watson [in place unresolved] cautioner",
+            "expansion": "William Watson, cautioner/surety",
+            "features": [
+              "William opens with the same deep pointed W construction seen in William Wilkie on image 67.",
+              "Watson has a distinct tall W and a long s before the final on.",
+              "Cautioner begins with a large open C and ends with a short raised r."
+            ],
+            "comparison": "William Wilkie in step 3 is procurator fiscal; William Watson here has the different role cautioner.",
+            "uncertainty": "The name and cautioner role are readable; the intervening place designation is not."
+          }
+        },
+        {
+          "x": 7.894736842105263,
+          "y": 68,
+          "w": 85.78947368421052,
+          "h": 10.857142857142858,
+          "label": "furthcoming to all parties haveand interes",
+          "kind": "role",
+          "pixel_bbox": [
+            150,
+            1190,
+            1780,
+            1380
+          ],
+          "analysis": {
+            "reading": "furthcoming to all parties haveand interes",
+            "expansion": "made available to all parties having an interest",
+            "features": [
+              "Furthcoming begins with a tall f descending below the line.",
+              "Parties has a p descender and a long s at the end.",
+              "Interes closes with a long final s-like stroke after the compact tere sequence."
+            ],
+            "comparison": "This obligation explains the practical purpose of Watson's cautioner role in Box 3.",
+            "uncertainty": "The core phrase is legible; adjoining legal words are obscured by show-through."
+          }
+        }
+      ]
+    }
+  ],
+  "index_confirmation": {
+    "indexed_name": "John Glasgow",
+    "date": "1685-03-25",
+    "description": "in Quodquan, parish of Libertoun",
+    "record_type": "TD",
+    "court": "Lanark Commissary Court",
+    "reference": "CC14/5/12",
+    "status": "confirmed by supplied archival index",
+    "supplied_on": "2026-09-10"
+  }
+}

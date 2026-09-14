@@ -3,6 +3,24 @@
 Record every useful result and negative search here as it is found.
 Do not treat an unsourced tree or naming pattern as proof.
 
+## Original testament review - 10 September 2026
+
+The supplied originals of NRS CC9/7/27, register pages 478-480, freshly
+confirm a separate John Glasgow, sailor in Saltcoats within Ardrossan parish,
+with widow Isobell Gray and lawful children Katherine and Agnes. The
+opening and final caution both support these household identifiers. This is
+a testament dative, not an independently recovered personal will. The
+record does not expressly make Isobell the children's mother and does not
+name Mary as a daughter. It supplies no new connection to John Glasgow-1030
+and Jonet Mathie; the exclusion as a present profile match remains in force.
+
+See the working passages and identity limits at
+[/research/transcriptions/saltcoats-1637/](/research/transcriptions/saltcoats-1637/),
+maintained in `research/transcriptions/originals-2026-09-09/saltcoats-1637.json`.
+Full supplied-page coverage is not a claim that every account entry has
+been deciphered. Ninian's separate 1613 brother-John clause is also freshly
+confirmed without proving the brother's existing-profile identity.
+
 ## Current conclusion
 
 Father assessment: [William Glasgow (about 1540)](https://www.wikitree.com/wiki/Glasgow-3522)
@@ -136,3 +154,15 @@ The transcript-validated marriage record for **John Glasgow**, 25 Jan 1618, Glas
 
 Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
 <!-- END FMP-GLASGOW-fmp-glasgow-e63d7cbe8e87 -->
+
+## Source findings
+
+### Supplied OPR banns and marriages — 10 September 2026
+
+| Source locator | Indexed parties | Assessment |
+| --- | --- | --- |
+| [Scotland’s People](https://www.scotlandspeople.gov.uk/), 1618-01-25, Glasgow, OPR 644 / 1/230 / 32 | JOHNE GLASGOW; JONAT MATHEN/ | Jonat Mathen is compatible with existing Jonet Mathie at the same date; spelling not asserted identical. |
+
+Source: Old Parish Registers, banns and marriages; exact surname Glasgow through 1700, 55 supplied results. Original images not inspected for this batch; combined index dates do not by themselves establish ceremony dates.
+
+This batch adds supporting evidence or a qualified comparison only; it raises no additional WikiTree amendment for this profile.

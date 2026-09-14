@@ -1,0 +1,533 @@
+[
+  {
+    "people": [
+      "Glasgow-951",
+      "Glasgow-3167"
+    ],
+    "status": "proved",
+    "basis": "reviewed marriage evidence",
+    "source_ids": [
+      "marriage-mary-1871"
+    ],
+    "perspectives": {
+      "Glasgow-951": {
+        "relationship": "daughter",
+        "reason": "Mary's 14 June 1871 marriage names Alexander Glasgow, farmer, as her father."
+      },
+      "Glasgow-3167": {
+        "relationship": "father",
+        "reason": "The 14 June 1871 marriage names Alexander Glasgow, farmer, as Mary's father; it does not identify her mother."
+      }
+    },
+    "assertion_id": "C-reviewed-glasgow-3167-glasgow-951",
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "basis": "reviewed marriage evidence",
+      "resolution_note": "Publishes the existing reviewed record assessment in all outputs; no new relationship decision."
+    }
+  },
+  {
+    "people": [
+      "Glasgow-3167",
+      "Elder-7251"
+    ],
+    "status": "proved",
+    "basis": "reviewed marriage evidence",
+    "source_ids": [
+      "marriage-mary-1871"
+    ],
+    "perspectives": {
+      "Glasgow-3167": {
+        "relationship": "spouse",
+        "reason": "The 14 June 1871 marriage names Robert Elder as Mary's husband; later household continuity remains a separate identity question."
+      },
+      "Elder-7251": {
+        "relationship": "spouse",
+        "reason": "The 14 June 1871 marriage names Mary Glasgow as Robert Elder's wife."
+      }
+    },
+    "assertion_id": "C-reviewed-elder-7251-glasgow-3167",
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "basis": "reviewed marriage evidence",
+      "resolution_note": "Publishes the existing reviewed record assessment in all outputs; no new relationship decision."
+    }
+  },
+  {
+    "people": [
+      "Glasgow-987",
+      "Glasgow-3896"
+    ],
+    "status": "proved",
+    "basis": "reviewed will evidence",
+    "source_ids": [
+      "will-daniel-1871"
+    ],
+    "perspectives": {
+      "Glasgow-987": {
+        "relationship": "sibling",
+        "reason": "Daniel Glasgow's will calls Thomas his late brother; the relationship is direct, but the brothers' parents remain unidentified."
+      },
+      "Glasgow-3896": {
+        "relationship": "sibling",
+        "reason": "Daniel Glasgow's will calls Thomas his late brother; it does not identify their parents."
+      }
+    },
+    "assertion_id": "C-reviewed-glasgow-3896-glasgow-987",
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "basis": "reviewed will evidence",
+      "resolution_note": "Publishes the existing reviewed record assessment in all outputs; no new relationship decision."
+    }
+  },
+  {
+    "people": [
+      "Glasgow-987",
+      "Glasgow-2413"
+    ],
+    "status": "proved",
+    "basis": "reviewed marriage evidence",
+    "source_ids": [
+      "marriage-daniel-neely-1888"
+    ],
+    "perspectives": {
+      "Glasgow-987": {
+        "relationship": "son",
+        "reason": "Daniel Neely Glasgow's 28 June 1888 marriage names Thomas Glasgow, farmer, as his father."
+      },
+      "Glasgow-2413": {
+        "relationship": "father",
+        "reason": "The 28 June 1888 marriage names Thomas Glasgow, farmer, as Daniel Neely Glasgow's father."
+      }
+    },
+    "assertion_id": "C-reviewed-glasgow-2413-glasgow-987",
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "basis": "reviewed marriage evidence",
+      "resolution_note": "Publishes the existing reviewed record assessment in all outputs; no new relationship decision."
+    }
+  },
+  {
+    "people": [
+      "Glasgow-987",
+      "Glasgow-3975"
+    ],
+    "status": "proved",
+    "basis": "reviewed marriage evidence",
+    "source_ids": [
+      "marriage-sarah-1885"
+    ],
+    "perspectives": {
+      "Glasgow-987": {
+        "relationship": "daughter",
+        "reason": "Sarah Glasgow's 12 March 1885 marriage names Thomas Glasgow, farmer, as her father and gives her Lisnagaver residence."
+      },
+      "Glasgow-3975": {
+        "relationship": "father",
+        "reason": "The 12 March 1885 marriage names Thomas Glasgow, farmer, as Sarah Glasgow's father."
+      }
+    },
+    "assertion_id": "C-reviewed-glasgow-3975-glasgow-987",
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "basis": "reviewed marriage evidence",
+      "resolution_note": "Publishes the existing reviewed record assessment in all outputs; no new relationship decision."
+    }
+  },
+  {
+    "people": [
+      "Glasgow-951",
+      "Glasgow-1367"
+    ],
+    "status": "possible",
+    "hypothesis_status": "open",
+    "basis": "research_assessment",
+    "source_ids": [
+      "tithe-robert-lisnagaver-1834"
+    ],
+    "reason": "The 1834 tithe places Robert and Alexr on separate Lisnagaver holdings but states no kinship. Robert remains a possible father; the earlier pedigree attachment is superseded, not biological fatherhood disproved. His identification with Glenleslie Robert is also unresolved.",
+    "provenance": "Glasgow-1367 findings: Lisnagaver land-sequence correction; Glasgow-951 reviewed-position decision (earlier proposal not established).",
+    "perspectives": {
+      "Glasgow-951": {
+        "relationship": "father",
+        "status_label": "Open father hypothesis"
+      },
+      "Glasgow-1367": {
+        "relationship": "son",
+        "status_label": "Possible son; relationship unproved"
+      }
+    },
+    "assertion_id": "C-robert-alexander-father-hypothesis",
+    "publication_status": "approved",
+    "status_label": "Open father hypothesis",
+    "claim": "The Robert Glasgow recorded at Lisnagaver in 1834 remains a possible father of Alexander Glasgow; neither fatherhood nor his identification with Glenleslie Robert is established.",
+    "identity_scope": "Glasgow-1367 is retained as the working Lisnagaver occupier profile. Identification with the Glenleslie census-and-will man is unresolved; that man's dates, birthplace and family cannot be transferred to the occupier.",
+    "limitations": "The tithe names Robert and Alexr on separate holdings but gives no ages, wife or kinship. No record identifies Alexander as Robert's son. The rejected acreage comparison supplies no support; the Coltrim household belongs to a separate unresolved comparison.",
+    "analysis_links": [
+      {
+        "href": "/people/glasgow-1367.html#question-robert-identity",
+        "label": "Robert: Lisnagaver and Glenleslie identity comparison"
+      },
+      {
+        "href": "/people/glasgow-1367.html#question-alexander-father",
+        "label": "Why the father hypothesis remains open"
+      },
+      {
+        "href": "/people/glasgow-1367.html#record-tithe-robert-lisnagaver-1834-robert-identity",
+        "label": "1834 Lisnagaver tithe: Robert and Alexr"
+      }
+    ],
+    "historical_assertions": [
+      {
+        "profile_id": "Glasgow-951",
+        "claim_id": "C-b48375a01529",
+        "label": "Historical parent attachment; not established",
+        "scope": "The former accepted/imported pedigree attachment, not the possibility of biological fatherhood."
+      },
+      {
+        "profile_id": "Glasgow-1367",
+        "claim_id": "C-ad51f3d1462c",
+        "label": "Historical reciprocal tree attachment; not established",
+        "scope": "The reconstructed son attachment, not an exclusion of Alexander as a possible son."
+      },
+      {
+        "profile_id": "Glasgow-951",
+        "claim_id": "C-d7cae2ea03a1",
+        "label": "Earlier supporting interpretation; corrected",
+        "scope": "The earlier chronological argument combined Glenleslie and Coltrim household evidence. That supporting interpretation is retired; the independently stated open father hypothesis remains current."
+      }
+    ]
+  },
+  {
+    "people": [
+      "Glasgow-951",
+      "Glasgow-3939"
+    ],
+    "status": "proved",
+    "basis": "Reviewed Rasharkin baptism evidence and maintained family identification",
+    "assessment_date": "2026-09-12",
+    "source_ids": [
+      "baptism-james-1837"
+    ],
+    "research_basis": "research/Glasgow-951/findings.md",
+    "perspectives": {
+      "Glasgow-951": {
+        "relationship": "son",
+        "reason": "Entry 75 records James, born 17 January 1837 and baptised 9 February, with parents Alex and Mary McAughin at Gortereagh. The recorded couple is identified with Alexander and Mary/Molly through the 1837, 1838 and 1844 baptism sequence and the later household. The child's death boundary is a separate inference."
+      },
+      "Glasgow-3939": {
+        "relationship": "father",
+        "reason": "Entry 75 records James, born 17 January 1837 and baptised 9 February, with parents Alex and Mary McAughin at Gortereagh. The names, mother's surname variants and successive family entries identify the recorded couple as Alexander Glasgow and Mary/Molly McCaughan. This documents the parent–child relationship; it does not supply a death date."
+      }
+    },
+    "assertion_id": "C-reviewed-glasgow-3939-glasgow-951",
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "basis": "Reviewed Rasharkin baptism evidence and maintained family identification",
+      "resolution_note": "Publishes the existing reviewed record assessment in all outputs; no new relationship decision."
+    }
+  },
+  {
+    "people": [
+      "McCaughan-222",
+      "Glasgow-3939"
+    ],
+    "status": "proved",
+    "basis": "Reviewed Rasharkin baptism evidence and maintained family identification",
+    "assessment_date": "2026-09-12",
+    "source_ids": [
+      "baptism-james-1837"
+    ],
+    "research_basis": "research/Glasgow-951/findings.md",
+    "perspectives": {
+      "McCaughan-222": {
+        "relationship": "son",
+        "reason": "Entry 75 records James, born 17 January 1837 and baptised 9 February, with parents Alex and Mary McAughin at Gortereagh. The recorded couple is identified with Alexander and Mary/Molly through the 1837, 1838 and 1844 baptism sequence and the later household. The child's death boundary is a separate inference."
+      },
+      "Glasgow-3939": {
+        "relationship": "mother",
+        "reason": "Entry 75 records James, born 17 January 1837 and baptised 9 February, with parents Alex and Mary McAughin at Gortereagh. The names, mother's surname variants and successive family entries identify the recorded couple as Alexander Glasgow and Mary/Molly McCaughan. This documents the parent–child relationship; it does not supply a death date."
+      }
+    },
+    "assertion_id": "C-reviewed-glasgow-3939-mccaughan-222",
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "basis": "Reviewed Rasharkin baptism evidence and maintained family identification",
+      "resolution_note": "Publishes the existing reviewed record assessment in all outputs; no new relationship decision."
+    }
+  },
+  {
+    "people": [
+      "Glasgow-951",
+      "Glasgow-3940"
+    ],
+    "status": "proved",
+    "basis": "Reviewed Rasharkin baptism evidence and maintained family identification",
+    "assessment_date": "2026-09-12",
+    "source_ids": [
+      "baptism-unnamed-1838"
+    ],
+    "research_basis": "research/Glasgow-951/findings.md",
+    "perspectives": {
+      "Glasgow-951": {
+        "relationship": "child",
+        "reason": "Entry 106 records an unnamed child of Alex and Molly McAughern at Gortereagh in the 1838 baptism sequence. The recorded couple is identified with Alexander and Mary/Molly through the 1837, 1838 and 1844 baptism sequence and the later household. The child's death boundary is a separate inference."
+      },
+      "Glasgow-3940": {
+        "relationship": "father",
+        "reason": "Entry 106 records an unnamed child of Alex and Molly McAughern at Gortereagh in the 1838 baptism sequence. The names, mother's surname variants and successive family entries identify the recorded couple as Alexander Glasgow and Mary/Molly McCaughan. This documents the parent–child relationship; it does not supply a death date."
+      }
+    },
+    "assertion_id": "C-reviewed-glasgow-3940-glasgow-951",
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "basis": "Reviewed Rasharkin baptism evidence and maintained family identification",
+      "resolution_note": "Publishes the existing reviewed record assessment in all outputs; no new relationship decision."
+    }
+  },
+  {
+    "people": [
+      "McCaughan-222",
+      "Glasgow-3940"
+    ],
+    "status": "proved",
+    "basis": "Reviewed Rasharkin baptism evidence and maintained family identification",
+    "assessment_date": "2026-09-12",
+    "source_ids": [
+      "baptism-unnamed-1838"
+    ],
+    "research_basis": "research/Glasgow-951/findings.md",
+    "perspectives": {
+      "McCaughan-222": {
+        "relationship": "child",
+        "reason": "Entry 106 records an unnamed child of Alex and Molly McAughern at Gortereagh in the 1838 baptism sequence. The recorded couple is identified with Alexander and Mary/Molly through the 1837, 1838 and 1844 baptism sequence and the later household. The child's death boundary is a separate inference."
+      },
+      "Glasgow-3940": {
+        "relationship": "mother",
+        "reason": "Entry 106 records an unnamed child of Alex and Molly McAughern at Gortereagh in the 1838 baptism sequence. The names, mother's surname variants and successive family entries identify the recorded couple as Alexander Glasgow and Mary/Molly McCaughan. This documents the parent–child relationship; it does not supply a death date."
+      }
+    },
+    "assertion_id": "C-reviewed-glasgow-3940-mccaughan-222",
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "basis": "Reviewed Rasharkin baptism evidence and maintained family identification",
+      "resolution_note": "Publishes the existing reviewed record assessment in all outputs; no new relationship decision."
+    }
+  },
+  {
+    "assertion_id": "C-reviewed-glasgow-938-glasgow-951",
+    "publication_status": "approved",
+    "people": [
+      "Glasgow-951",
+      "Glasgow-938"
+    ],
+    "status": "proved",
+    "source_ids": [
+      "marriage-robert-1866",
+      "census-1851"
+    ],
+    "basis": "Existing approved Alexander family assessment and its maintained record interpretation",
+    "perspectives": {
+      "Glasgow-951": {
+        "relationship": "son",
+        "reason": "The 1851 household and Robert’s 1866 marriage, which names Alexander as father, support this documented child relationship."
+      },
+      "Glasgow-938": {
+        "relationship": "father",
+        "reason": "The 1851 household and Robert’s 1866 marriage, which names Alexander as father, support this documented child relationship."
+      }
+    },
+    "provenance": {
+      "source": "/assets/research/assessments.json",
+      "assessment_id": "alexander-951-reviewed-position",
+      "interpretation_source": "/people/glasgow-951.html#family",
+      "resolution_note": "Existing reviewed relationship, now shared with the child dossier; no change to the separately assessed mother or identity confidence."
+    }
+  },
+  {
+    "assertion_id": "C-reviewed-glasgow-438-glasgow-951",
+    "publication_status": "approved",
+    "people": [
+      "Glasgow-951",
+      "Glasgow-438"
+    ],
+    "status": "proved",
+    "source_ids": [
+      "marriage-ann-1876"
+    ],
+    "basis": "Existing approved Alexander family assessment and its maintained record interpretation",
+    "perspectives": {
+      "Glasgow-951": {
+        "relationship": "daughter",
+        "reason": "The 1851 household and Ann’s 1876 marriage, which names Alexander as father, support this documented child relationship."
+      },
+      "Glasgow-438": {
+        "relationship": "father",
+        "reason": "The 1851 household and Ann’s 1876 marriage, which names Alexander as father, support this documented child relationship."
+      }
+    },
+    "provenance": {
+      "source": "/assets/research/assessments.json",
+      "assessment_id": "alexander-951-reviewed-position",
+      "interpretation_source": "/people/glasgow-951.html#family",
+      "resolution_note": "Existing reviewed relationship, now shared with the child dossier; no change to the separately assessed mother or identity confidence."
+    }
+  },
+  {
+    "assertion_id": "C-reviewed-glasgow-951-glasgow-973",
+    "publication_status": "approved",
+    "people": [
+      "Glasgow-951",
+      "Glasgow-973"
+    ],
+    "status": "proved",
+    "source_ids": [
+      "baptism-james-1843",
+      "census-1851"
+    ],
+    "basis": "Existing approved Alexander family assessment and its maintained record interpretation",
+    "perspectives": {
+      "Glasgow-951": {
+        "relationship": "son",
+        "reason": "Entry 203 records James, born 9 October 1843 and baptised 7 January 1844 at Lisnagaver, as the son of Alex and Molly McAughern; the 1851 household records him aged seven with Alexander and Mary. This documents the parent–child relationship. His proposed later identity in Michigan remains a separate, unproved question."
+      },
+      "Glasgow-973": {
+        "relationship": "father",
+        "reason": "Entry 203 records James, born 9 October 1843 and baptised 7 January 1844 at Lisnagaver, as the son of Alex and Molly McAughern; the 1851 household records him aged seven with Alexander and Mary. This documents Alexander as his father. The proposed Michigan adulthood is assessed separately."
+      }
+    },
+    "provenance": {
+      "source": "/assets/research/assessments.json",
+      "assessment_id": "alexander-951-reviewed-position",
+      "interpretation_source": "/people/glasgow-951.html#family",
+      "resolution_note": "Publishes the record-proved Irish parent–child relationship separately from the unproved identification of James with the later Michigan man."
+    }
+  },
+  {
+    "assertion_id": "C-reviewed-glasgow-973-mccaughan-222",
+    "publication_status": "approved",
+    "people": ["Glasgow-973", "McCaughan-222"],
+    "status": "proved",
+    "assessment_date": "2026-09-13",
+    "source_ids": ["baptism-james-1843", "census-1851"],
+    "basis": "Rasharkin baptism entry 203 and the original 1851 Lisnagaver household",
+    "perspectives": {
+      "Glasgow-973": {
+        "relationship": "mother",
+        "reason": "Entry 203 names Molly McAughern as mother of James, born 9 October 1843; the 1851 household records Mary as Alexander's wife with James aged seven. Mary/Molly and McAughin/McAughern are the maintained record variants of Mary McCaughan."
+      },
+      "McCaughan-222": {
+        "relationship": "son",
+        "reason": "Entry 203 names Molly McAughern as mother of James, born 9 October 1843; the 1851 household records Mary as Alexander's wife with James aged seven. This documents the relationship independently of James's proposed later Michigan identity."
+      }
+    },
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "basis": "Reviewed baptism and census evidence",
+      "resolution_note": "Publishes the record-proved mother–son relationship separately from the later-life identity question."
+    }
+  },
+  {
+    "assertion_id": "C-reviewed-glasgow-951-mccaughan-222",
+    "publication_status": "approved",
+    "people": ["Glasgow-951", "McCaughan-222"],
+    "status": "proved",
+    "assessment_date": "2026-09-13",
+    "source_ids": ["baptism-james-1837", "baptism-unnamed-1838", "baptism-james-1843", "census-1851"],
+    "basis": "Three Rasharkin baptism entries and the original 1851 Lisnagaver household",
+    "perspectives": {
+      "Glasgow-951": {
+        "relationship": "spouse",
+        "reason": "The 1837, 1838 and 1844 baptism entries repeatedly name Alex with Mary or Molly McAughin/McAughern as parents, and the 1851 return records Alexander and Mary as husband and wife with their children at Lisnagaver. This documents the couple although their marriage entry has not been found."
+      },
+      "McCaughan-222": {
+        "relationship": "spouse",
+        "reason": "The 1837, 1838 and 1844 baptism entries repeatedly name Alex with Mary or Molly McAughin/McAughern as parents, and the 1851 return records Alexander and Mary as husband and wife with their children at Lisnagaver. The literal Mary/Molly and McAughin/McAughern forms are retained as record variants."
+      }
+    },
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "basis": "Reviewed baptism and census evidence",
+      "resolution_note": "Publishes the documented spouse relationship; absence of a surviving marriage entry is a source limitation, not a reason to leave the repeated-record couple unassessed."
+    }
+  },
+  {
+    "people": ["Boyd-18548", "Glasgow-2413"],
+    "status": "proved",
+    "basis": "Original 1888 civil marriage return",
+    "assessment_date": "2026-09-12",
+    "source_ids": ["marriage-daniel-neely-1888"],
+    "perspectives": {
+      "Boyd-18548": {"relationship": "spouse", "reason": "The original 28 June 1888 return records Mary Jane Boyd and Daniel Neely Glasgow as bride and groom."},
+      "Glasgow-2413": {"relationship": "spouse", "reason": "The original 28 June 1888 return records Daniel Neely Glasgow and Mary Jane Boyd as groom and bride."}
+    },
+    "assertion_id": "C-reviewed-boyd-18548-glasgow-2413",
+    "publication_status": "approved",
+    "provenance": {"source": "/assets/research/relationship-assessments.json", "basis": "Original civil marriage evidence", "resolution_note": "Publishes the direct spouse evidence in reciprocal dossiers."}
+  },
+  {
+    "people": ["Boyd-18548", "Glasgow-2414"],
+    "status": "proved",
+    "basis": "Original 1889 civil birth return",
+    "assessment_date": "2026-09-12",
+    "source_ids": ["birth-sarah-glasgow-1889"],
+    "perspectives": {
+      "Boyd-18548": {"relationship": "daughter", "reason": "Sarah's original birth return directly names Mary Jane Glasgow formerly Boyd as her mother."},
+      "Glasgow-2414": {"relationship": "mother", "reason": "Sarah's original birth return directly names Mary Jane Glasgow formerly Boyd as her mother."}
+    },
+    "assertion_id": "C-reviewed-boyd-18548-glasgow-2414",
+    "publication_status": "approved",
+    "provenance": {"source": "/assets/research/relationship-assessments.json", "basis": "Original civil birth evidence", "resolution_note": "Publishes the direct mother–daughter evidence in reciprocal dossiers."}
+  },
+  {
+    "people": ["Boyd-18548", "Glasgow-2415"],
+    "status": "proved",
+    "basis": "Original 1889 civil birth return",
+    "assessment_date": "2026-09-12",
+    "source_ids": ["birth-elizabeth-glasgow-1889"],
+    "perspectives": {
+      "Boyd-18548": {"relationship": "daughter", "reason": "Elizabeth's original birth return directly names Mary Jane Glasgow formerly Boyd as her mother."},
+      "Glasgow-2415": {"relationship": "mother", "reason": "Elizabeth's original birth return directly names Mary Jane Glasgow formerly Boyd as her mother."}
+    },
+    "assertion_id": "C-reviewed-boyd-18548-glasgow-2415",
+    "publication_status": "approved",
+    "provenance": {"source": "/assets/research/relationship-assessments.json", "basis": "Original civil birth evidence", "resolution_note": "Publishes the direct mother–daughter evidence in reciprocal dossiers."}
+  },
+  {
+    "people": ["Glasgow-2413", "Glasgow-2414"],
+    "status": "proved",
+    "basis": "Original 1889 civil birth return",
+    "assessment_date": "2026-09-12",
+    "source_ids": ["birth-sarah-glasgow-1889"],
+    "perspectives": {
+      "Glasgow-2413": {"relationship": "daughter", "reason": "Sarah's original birth return directly names Daniel Glasgow as her father."},
+      "Glasgow-2414": {"relationship": "father", "reason": "Sarah's original birth return directly names Daniel Glasgow as her father."}
+    },
+    "assertion_id": "C-reviewed-glasgow-2413-glasgow-2414",
+    "publication_status": "approved",
+    "provenance": {"source": "/assets/research/relationship-assessments.json", "basis": "Original civil birth evidence", "resolution_note": "Publishes the direct father–daughter evidence in reciprocal dossiers."}
+  },
+  {
+    "people": ["Glasgow-2413", "Glasgow-2415"],
+    "status": "proved",
+    "basis": "Original 1889 civil birth return",
+    "assessment_date": "2026-09-12",
+    "source_ids": ["birth-elizabeth-glasgow-1889"],
+    "perspectives": {
+      "Glasgow-2413": {"relationship": "daughter", "reason": "Elizabeth's original birth return directly names Daniel Glasgow as her father."},
+      "Glasgow-2415": {"relationship": "father", "reason": "Elizabeth's original birth return directly names Daniel Glasgow as her father."}
+    },
+    "assertion_id": "C-reviewed-glasgow-2413-glasgow-2415",
+    "publication_status": "approved",
+    "provenance": {"source": "/assets/research/relationship-assessments.json", "basis": "Original civil birth evidence", "resolution_note": "Publishes the direct father–daughter evidence in reciprocal dossiers."}
+  }
+]

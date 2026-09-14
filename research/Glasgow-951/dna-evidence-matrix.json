@@ -1,0 +1,83 @@
+{
+  "assessed": "2026-09-13",
+  "state_key": {
+    "D": "derived",
+    "A": "ancestral direct call",
+    "U": "unresolved in reviewed evidence",
+    "UT": "untested at SNP level in supplied comparison"
+  },
+  "source": "https://www.familytreedna.com/public/Glasgow?iframe=ydna-results-overview",
+  "scope": "Historical descendant-line labels; private-call summaries require consented underlying files for replication. Basal labels are not direct ancestral calls.",
+  "rows": [
+    {
+      "historical_line": "[Alexander Glasgow (Glasgow-951)](https://www.wikitree.com/wiki/Glasgow-951)",
+      "FT20271": "**D**: direct audit and public placement",
+      "FT6135": "**A**: direct reliable call",
+      "FTE32242": "**U**: basal display is insufficient to prove ancestral",
+      "provenance_and_pedigree": "Public project, 13 Sep 2026; private call audit, 11 Aug 2026. Established descendant line in this case; Alexander's parents remain unknown."
+    },
+    {
+      "historical_line": "[James J Glasgow (Glasgow-2738)](https://www.wikitree.com/wiki/Glasgow-2738)",
+      "FT20271": "**D**: public placement",
+      "FT6135": "**U**: direct state not independently reviewed",
+      "FTE32242": "**U**: basal display only",
+      "provenance_and_pedigree": "Public project, 13 Sep 2026; Aug administrator mapping. Descent to James J is distinguished from his uncertain attachment to Robert-2769 and Archibald-2304."
+    },
+    {
+      "historical_line": "Reported [William Glasgow (Glasgow-591)](https://www.wikitree.com/wiki/Glasgow-591), c.1655",
+      "FT20271": "**D**: reported public placement",
+      "FT6135": "**U**",
+      "FTE32242": "**U**: basal display only",
+      "provenance_and_pedigree": "Aug 2026 project evidence; early pedigree not independently established here."
+    },
+    {
+      "historical_line": "Reported [Robert Glasgow (Glasgow-12)](https://www.wikitree.com/wiki/Glasgow-12), through [John M (Glasgow-1965)](https://www.wikitree.com/wiki/Glasgow-1965)",
+      "FT20271": "**D**: reported public placement",
+      "FT6135": "**D**: supplied comparison",
+      "FTE32242": "**U**: basal display only",
+      "provenance_and_pedigree": "Aug call comparison; maintained Y-DNA study maps this result through John M with a probable private continuation. This is a reported son-line of Robert, not an independently verified earlier root."
+    },
+    {
+      "historical_line": "Reported Robert Glasgow, through [William (Glasgow-563)](https://www.wikitree.com/wiki/Glasgow-563)",
+      "FT20271": "**D**: reported public placement",
+      "FT6135": "**D**: supplied comparison",
+      "FTE32242": "**U**: basal display only",
+      "provenance_and_pedigree": "Aug call comparison; the maintained pedigree audit identifies William’s line. The older James c.1700 ancestor label is not an independent test of Robert’s father or grandfather."
+    },
+    {
+      "historical_line": "[James M Glasgow (Glasgow-193)](https://www.wikitree.com/wiki/Glasgow-193), through [William Allen (Glasgow-2182)](https://www.wikitree.com/wiki/Glasgow-2182)",
+      "FT20271": "**D**: upstream of displayed child",
+      "FT6135": "**U**: direct call required",
+      "FTE32242": "**D**: public child-branch association",
+      "provenance_and_pedigree": "Aug 2026 project and Block Tree evidence; historical association conditional on the supplied father-to-son pedigree."
+    },
+    {
+      "historical_line": "James M Glasgow, through [Samuel Lyle (Glasgow-192)](https://www.wikitree.com/wiki/Glasgow-192)",
+      "FT20271": "**D**: upstream of displayed child",
+      "FT6135": "**U**: direct call required",
+      "FTE32242": "**D**: public child-branch association",
+      "provenance_and_pedigree": "Same dated evidence; independently documented descent still needs checking at the relevant joining generations."
+    },
+    {
+      "historical_line": "Reported [Robert Glasgow of Kilwaughter (Glasgow-1143)](https://www.wikitree.com/wiki/Glasgow-1143)",
+      "FT20271": "**UT**",
+      "FT6135": "**UT**",
+      "FTE32242": "**UT**",
+      "provenance_and_pedigree": "Aug 2026 Y-111 comparison only. The ancestor label is a candidate identification; STR grouping does not establish FT20271 membership."
+    },
+    {
+      "historical_line": "Reported [James of Kilwaughter, later South Carolina (Glasgow-1144)](https://www.wikitree.com/wiki/Glasgow-1144)",
+      "FT20271": "**UT**",
+      "FT6135": "**UT**",
+      "FTE32242": "**UT**",
+      "provenance_and_pedigree": "Maintained historical mapping and Y-37 comparison, reviewed 13 Sep 2026. Public broad haplogroup/STR grouping does not establish FT20271. Audit the descendant path before assigning its result to this ancestor."
+    },
+    {
+      "historical_line": "Reported [John of Inishrush, later Ohio (Glasgow-822)](https://www.wikitree.com/wiki/Glasgow-822)",
+      "FT20271": "**UT**",
+      "FT6135": "**UT**",
+      "FTE32242": "**UT**",
+      "provenance_and_pedigree": "Maintained historical mapping and Y-67 comparison, reviewed 13 Sep 2026. Public broad haplogroup/STR grouping does not establish FT20271. Audit the descendant path before assigning its result to this ancestor."
+    }
+  ]
+}

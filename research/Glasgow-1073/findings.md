@@ -128,3 +128,19 @@ John is best treated as a probable member of the older Corsankell-Stevenston-Kil
   cautioners and debts linking the intervening Ayrshire generations.
 
 See the full [Glasgow-1098 descendant map](../../surname-research/clusters/early-scotland-glasgow-1098-map.md).
+## Source findings
+
+Live WikiTree confirms [[Glasgow-1073|Rev. John Glasgow]] is attached to [[Cunningham-20924|Jean Cunynghame]] with 14 January 1690 and [[Scott-40313|Margaret Scott]] with 19 April 1699, matching supplied Kilbirnie OPR rows 15 (596/10/9) and 35 (596/10/28). The live biographies already cite the underlying OPR material. No additional profile draft or attachment is justified.
+
+## Source findings
+
+### Supplied OPR banns and marriages — 10 September 2026
+
+| Source locator | Indexed parties | Assessment |
+| --- | --- | --- |
+| [Scotland’s People](https://www.scotlandspeople.gov.uk/), 1690-01-14, Kilbirnie, OPR 596/10 / 9 | JOHN GLASGOW; JEANE CUNYNGHAME/FR16 (FR16) | John Glasgow and Jean Cunynghame match the live attached pair and date. |
+| [Scotland’s People](https://www.scotlandspeople.gov.uk/), 1699-04-19, Kilbirnie, OPR 596/10 / 28 | JOHN GLASGOW; MARGARET SCOT/FR27 (FR27) | John Glasgow and Margaret Scot match live pair/date. |
+
+Source: Old Parish Registers, banns and marriages; exact surname Glasgow through 1700, 55 supplied results. Original images not inspected for this batch; combined index dates do not by themselves establish ceremony dates.
+
+This batch adds supporting evidence or a qualified comparison only; it raises no additional WikiTree amendment for this profile.

@@ -62,3 +62,15 @@ The transcript-validated marriage record for **Margaret Glasgow**, 16 Jul 1611, 
 
 Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
 <!-- END FMP-GLASGOW-fmp-glasgow-65f4901d3c5c -->
+
+## Source findings
+
+### Supplied OPR banns and marriages — 10 September 2026
+
+| Source locator | Indexed parties | Assessment |
+| --- | --- | --- |
+| [Scotland’s People](https://www.scotlandspeople.gov.uk/), 1611-07-16, Edinburgh, OPR 685 / 1/430 / 84 | MARGARET GLASGOW; WILLIAM HARDIE/FR685 (FR685) | Exact marriage already represented and live biography verified. |
+
+Source: Old Parish Registers, banns and marriages; exact surname Glasgow through 1700, 55 supplied results. Original images not inspected for this batch; combined index dates do not by themselves establish ceremony dates.
+
+This batch adds supporting evidence or a qualified comparison only; it raises no additional WikiTree amendment for this profile.

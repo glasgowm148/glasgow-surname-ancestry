@@ -1,49 +1,22 @@
-# WikiTree update notes: Glasgow-2731
+[[Category:Glasgow Name Study]]
 
-## Suggested additions
-
-Replace the biography with:
-
-```text
 == Biography ==
 
-'''William Glasgo''' was named as the father of Margaret Glasgo when she was baptised at Hawick, Roxburghshire, on 7 February 1692. The indexed baptism does not name Margaret's mother or William's parents.<ref name="MargaretChr">“Scotland Births and Baptisms, 1564–1950,” FamilySearch database, William Glasgo in entry for Margaret Glasgo, 7 February 1692, Hawick, [https://familysearch.org/ark:/61903/1:1:X11X-46N record].</ref>
+'''William Glasgo''' was named as the father of [[Glasgow-2730|Margaret Glasgo]] when she was baptised at Hawick, Roxburghshire, on 7 February 1692.<ref name="MargaretChr">“Scotland Births and Baptisms, 1564–1950,” database, FamilySearch (https://familysearch.org/ark:/61903/1:1:X11X-46N : 12 February 2020), William Glasgo in entry for Margaret Glasgo, 1692.</ref> The index does not name Margaret's mother, William's parents, or his birthplace.
 
 Known child:
 * [[Glasgow-2730|Margaret Glasgow]], baptised 7 February 1692 at Hawick.<ref name="MargaretChr" />
 
-William's birth date, birthplace, wife and death are unknown.
+William's birth date, birthplace, wife, and death are unknown.
 
 == Research Notes ==
 
-=== Parentage ===
+=== Parentage and identity ===
 
-Margaret's baptism identifies William only as her father. It gives no evidence that his father was [[Glasgow-3331|John Glasgow of Quothquan]], so that relationship should remain unconnected.
+Margaret's baptism establishes William only as her named father. It supplies no evidence that he was the son of [[Glasgow-3331|John Glasgow]], whose biography independently reports no confirmed children. That attachment should be treated as uncertain pending direct evidence.
 
-=== Distinction from other Williams ===
-
-No record connects this Hawick father with [[Glasgow-1605]], the child baptised at Polwarth in 1658, or with the William Glasgow listed as a Covenanter prisoner under Cavers parish in 1679. Cavers and Hawick are different parishes. Similarity of name and general region is insufficient to merge the profiles.
+No record connects this Hawick father with [[Glasgow-1605|William Glasgow (bef.1658-)]], who is associated with Polwarth and the 1679 Crowne shipwreck/Cavers material. Similar names and broad regional proximity do not establish identity; no merge is supported.
 
 == Sources ==
 
 <references />
-```
-
-Source: cited FamilySearch baptism index. Confidence: high that William was
-Margaret's named father; no evidence for his own parentage or identity with any
-other William.
-
-## Suggested corrections
-
-- Birth: `before 7 Feb 1692`, uncertain.
-- Birth location: blank.
-- Detach Glasgow-3331 as father.
-
-Edit summary: `Detach unsupported father Glasgow-3331, correct speculative birth
-data, and remove the unsupported proposed match with Glasgow-1605.`
-
-## Do not add as fact
-
-- Roxburghshire as William's birthplace.
-- Glasgow-3331 as his father.
-- Identity with Glasgow-1605 or the Cavers prisoner.

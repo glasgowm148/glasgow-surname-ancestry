@@ -52,10 +52,10 @@ not a stated birth location. The suggested birth range combines the ordinary
 legal implication of minority in May 1605 with Katherine's January 1603 death;
 it should not be treated as a recorded date.
 
-The manuscript confirmation day is not fully secure: it appears to read
-'''[26?] May 1605''', whereas the printed testament calendar and Findmypast
-index give '''9 May 1605'''. Only May 1605 should be treated as settled. Neither
-date is a birth, death or marriage date for James.<ref name="Grant">Francis J.
+Fresh visual review on 10 September 2026 of NRS CC9/7/4, image 7, reads
+'''the nynt day of may 1605''': '''9 May 1605''', superseding the earlier
+'''[26?]''' reading and agreeing with the printed calendar and Findmypast
+index. This confirmation date is not a birth, death or marriage date for James.<ref name="Grant">Francis J.
 Grant, ed., ''The Commissariot Record of Glasgow: Register of Testaments,
 1547–1800'' (Edinburgh, 1901),
 [https://archive.org/details/scottishrecordso07scotuoft/page/196/mode/1up

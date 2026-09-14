@@ -45,3 +45,40 @@ The transcript-validated apprenticeship record for **Archibald Glasgow**, 23 Oct
 
 Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
 <!-- END FMP-GLASGOW-fmp-glasgow-e68eb8704ba2 -->
+
+## Original testament review - 10 September 2026
+
+All five images of the original **NRS Edinburgh Commissary Court CC8/8/70,
+images 689-693**, were visually inspected. The maintained profile associates
+this testament with Archibald; the testament itself does not independently
+bridge the maltman to the shoemaker of the 1647 retour. Preserve that distinction
+when assessing the wider identity evidence.
+
+The opening on image 689 reads `Archibald Glasgow maltman Indweller In leith`
+and says he died `in the moneth of ffebry last bypast 1662`. The marginal
+confirmation date is **24 May 1662**. The will's closing date on image 692 is
+**January 1662**, provisionally `[xxiij?] day of Jan[uar] 1662`; the precise day
+remains uncertain. These are death, will and confirmation events, not birth or
+marriage dates.
+
+On image 691 the will calls **Archibald, George and William Glasgow** `my
+lawfull sones` and appoints them executors. **Agnes Watson** is explicitly his
+relict spouse in the opening and his spouse/tutor in the will. Thus sonship and
+spousal status are direct readings, not deductions from executor roles.
+
+Image 692 names **Captain George Cock** and **Thomas Glasgow, weaver in
+Edinburgh**, as overseers assisting Agnes during the children's minority.
+Thomas is also named as writer of the will and in the confirmation/caution
+passage on image 693. **William Glasgow, weaver in Leith**, appears as a
+creditor. No securely read clause makes either Glasgow associate a brother or
+otherwise establishes their relationship to the testator.
+
+The older quotation in `research_brief.md` is explicitly marked superseded:
+its Glasgow residence should read **Leith**; its May will-making date should
+read **January, day uncertain**; and its inventory subject William should read
+**Archibald**. The inventory includes malt, bere, household possessions and
+clothing; financial figures and several names remain unresolved.
+
+[Selective working transcription and review limits](../transcriptions/originals-2026-09-09/archibald-1662.json).
+The next source task is to resolve the January day and complete the accounts;
+the overseers' and creditor's possible kinship remains an open question.

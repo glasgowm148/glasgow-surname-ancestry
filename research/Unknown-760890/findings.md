@@ -16,7 +16,7 @@ conflict; do not detach them merely because the present placement is weak. She
 is the proved mother of gravestone-named James and Eliza only where the stone's
 wording supports the joint parentage; Nancy's record names Adam but not Rose.
 
-## Source finding
+## Source findings
 
 | Source | Finding | Assessment |
 | --- | --- | --- |

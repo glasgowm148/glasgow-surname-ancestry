@@ -9,7 +9,7 @@ same-person identification is strong circumstantial evidence based on exact
 name, city, chronology and inherited occupation. Keep any structured parent
 links uncertain until a record repeats the son with his wife or later property.
 
-## Evidence
+## Source findings
 
 | Source | Finding | Assessment |
 | --- | --- | --- |

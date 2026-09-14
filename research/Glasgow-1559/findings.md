@@ -1,0 +1,43 @@
+# Findings: [John Glasgow (Glasgow-1559)](https://www.wikitree.com/wiki/Glasgow-1559)
+
+Last updated: 2026-09-10
+
+
+## Current conclusion
+
+John's latest live capture records his birth at Duddingston on **4 April 1639**, son of John Glasgow and Margaret Sluman. He cannot therefore be the JON / other JOHNE GLASGOW index event dated 15 January 1638 (Duddingston 684, reference 60/16).
+
+He is one of two chronological Duddingston candidates for the later index row dated 23 August 1641, but no identity match is established. Do not add either burial index row as his death without inspection of the original entry.
+
+## Source findings
+
+| Source | Indexed information | Assessment |
+| --- | --- | --- |
+| [Live WikiTree profile](https://www.wikitree.com/wiki/Glasgow-1559), public API checked 10 September 2026, revision 20240921203153; [FamilySearch X1TP-WYF](https://familysearch.org/ark:/61903/1:1:X1TP-WYF) | `JOHNE 04-04-1639 JOHNE GLASGOW/MARGARET SLUMAN ... Duddingston 684/`, FR48; structured profile records 4 April 1639. | Existing child-record evidence excludes this profile from the earlier 1638 event. |
+| [Scotland's People](https://www.scotlandspeople.gov.uk/), OPR deaths and burials; supplied exact-Glasgow results to 1700, 10 September 2026 | JON; other: JON GLASGOW; 23 August 1641; Duddingston; parish 684; reference 60/24. | Original not inspected; whether the date denotes death, burial or another burial-related event is unresolved. The other-details field establishes no relationship. |
+
+## Identity assessment
+
+The 1641 entry is compatible with this child by name, parish and age (about two), but it does not uniquely identify him. [[Glasgow-3014|John Glasgow]], recorded born at Duddingston on 11 January 1638, is also compatible with the same row. The available index text does not state an age, parent, residence or other discriminator, and it does not establish whether the other JON GLASGOW was a father, relative or another subject.
+
+## Priority research
+
+**Needs updated on WikiTree:** add the 1641 candidate-record comparison as a
+research note only. This flags useful new evidence for review, not a matched
+death or a request to populate the death field. The event remains HOLD for
+identity, shared with the comparison on Glasgow-3014.
+
+Inspect and transcribe Duddingston OPR 684/60/24. Compare its wording against the recorded 1638 and 1639 births before placing the event on a profile. If the entry identifies John Glasgow and Margaret Sluman's child, record a burial on 23 August 1641 separately from any death-date assertion.
+
+<!-- opr-birth-review-row-119 -->
+## Source findings
+
+### Supplied OPR births and baptisms: row 119 — 10 September 2026
+
+[Scotland’s People](https://www.scotlandspeople.gov.uk/), **Old Parish Registers, births and baptisms**; exact surname Glasgow through 1700, 127 supplied results. **JOHNE GLASGOW**; indexed date **04/04/1639**; Duddingston; parish **684**, reference **10 / 41**. Parents/other exactly as indexed: **JOHNE GLASGOW/MARGARET SLUMAN FR48 (FR48)**. Indexed gender: **U**.
+
+**Assessment:** Matches the existing child-record account by indexed date, locality and recorded family. This row adds the complete index locator as supporting provenance; it does not establish a new event or relationship.
+
+Original image not inspected for this batch. The combined collection’s date does not automatically establish a birthday. Names alone do not uniquely identify attached parents or connect a child with a later adult. An omitted parent or indexed gender U remains unspecified in this source.
+
+**Next action:** No additional WikiTree update from this row; preserve any existing pending work.

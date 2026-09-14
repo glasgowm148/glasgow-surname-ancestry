@@ -1,0 +1,1126 @@
+{
+  "id": "ninian-1613",
+  "studies": [
+    {
+      "id": "ninian-1613-subject",
+      "title": "Ninian Glasgow",
+      "nav_label": "Ninian Glasgow",
+      "image": "/assets/research/testament-crops/ninian-1613-spouse-son-v3.jpg",
+      "image_width": 1544,
+      "image_height": 802,
+      "region": [
+        707,
+        225,
+        389,
+        105
+      ],
+      "reading": "Niniane glasgow",
+      "expansion": "Ninian Glasgow",
+      "confidence": "High for maintained testator.",
+      "context": "The latter-will opening names the deceased before the instructions.",
+      "review_status": "source-aligned",
+      "locator_note": "Use the selected word before the wider passage. Pixel regions retain full visible strokes. Crossings from neighbouring lines remain contextual; a rectangular focus is retained where further separation would guess.",
+      "conclusion": "The damaged lower passage cannot add a proved child named William.",
+      "letters": [
+        {
+          "id": "ninian-1613-subject-word-1",
+          "glyph": "Niniane",
+          "label": "Niniane: whole connected word",
+          "position": 1,
+          "region": [
+            707,
+            228,
+            190,
+            90
+          ],
+          "paths": [],
+          "observed": "Beneath the date, locate the broad initial and connected short forms before the surname.",
+          "matches": "No identical second occurrence is established in this inspected passage; comparison with an isolated teaching alphabet is not proof.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "Whole-name confidence is stronger than every join."
+        },
+        {
+          "id": "ninian-1613-subject-word-2",
+          "glyph": "glasgow",
+          "label": "glasgow: whole connected word",
+          "position": 1,
+          "region": [
+            886,
+            225,
+            210,
+            105
+          ],
+          "paths": [],
+          "observed": "The surname precedes the status wording and directions.",
+          "matches": "No identical second occurrence is established in this inspected passage; comparison with an isolated teaching alphabet is not proof.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "A lower-line stroke crosses its extended forms."
+        }
+      ],
+      "words": [
+        {
+          "text": "Niniane",
+          "region": [
+            707,
+            228,
+            190,
+            90
+          ],
+          "focus_polygon": [
+            [
+              707,
+              228
+            ],
+            [
+              897,
+              228
+            ],
+            [
+              897,
+              318
+            ],
+            [
+              707,
+              318
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "ninian-1613-subject-word-1",
+              "start": 0,
+              "end": 7
+            }
+          ]
+        },
+        {
+          "text": "glasgow",
+          "region": [
+            886,
+            225,
+            210,
+            105
+          ],
+          "focus_polygon": [
+            [
+              886,
+              225
+            ],
+            [
+              1096,
+              225
+            ],
+            [
+              1096,
+              330
+            ],
+            [
+              886,
+              330
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "ninian-1613-subject-word-2",
+              "start": 0,
+              "end": 7
+            }
+          ]
+        }
+      ],
+      "reading_steps": [
+        {
+          "title": "Read Niniane",
+          "text": "Beneath the date, locate the broad initial and connected short forms before the surname. Whole-name confidence is stronger than every join.",
+          "region": [
+            707,
+            228,
+            190,
+            90
+          ]
+        },
+        {
+          "title": "Read glasgow",
+          "text": "The surname precedes the status wording and directions. A lower-line stroke crosses its extended forms.",
+          "region": [
+            886,
+            225,
+            210,
+            105
+          ]
+        },
+        {
+          "title": "Read the relationship in context",
+          "text": "The latter-will opening names the deceased before the instructions. The damaged lower passage cannot add a proved child named William.",
+          "region": [
+            707,
+            225,
+            389,
+            105
+          ]
+        }
+      ],
+      "same_hand_comparisons": []
+    },
+    {
+      "id": "ninian-1613-jonet-spouse",
+      "title": "Jonet Hutchesoun, spouse",
+      "nav_label": "Jonet Hutchesoun, spouse",
+      "image": "/assets/research/testament-crops/ninian-1613-spouse-son-v3.jpg",
+      "image_width": 1544,
+      "image_height": 802,
+      "region": [
+        580,
+        332,
+        636,
+        136
+      ],
+      "reading": "Jonet hutchesoun his spous",
+      "expansion": "Jonet Hutchesoun, his spouse",
+      "confidence": "High.",
+      "context": "The executor appointment identifies Jonet as his spous separately from Robert his sone.",
+      "review_status": "source-aligned",
+      "locator_note": "Use the selected word before the wider passage. Pixel regions retain full visible strokes. Crossings from neighbouring lines remain contextual; a rectangular focus is retained where further separation would guess.",
+      "conclusion": "It does not state that Jonet was Robert's mother.",
+      "letters": [
+        {
+          "id": "ninian-1613-jonet-spouse-word-1",
+          "glyph": "Jonet",
+          "label": "Jonet: whole connected word",
+          "position": 1,
+          "region": [
+            580,
+            352,
+            159,
+            100
+          ],
+          "paths": [],
+          "observed": "Find the forename after the appointment wording on the lower complete line.",
+          "matches": "No identical second occurrence is established in this inspected passage; comparison with an isolated teaching alphabet is not proof.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "Begin at its word gap, not the preceding flourish."
+        },
+        {
+          "id": "ninian-1613-jonet-spouse-word-2",
+          "glyph": "hutchesoun",
+          "label": "hutchesoun: whole connected word",
+          "position": 1,
+          "region": [
+            724,
+            345,
+            246,
+            115
+          ],
+          "paths": [],
+          "observed": "The longer surname has tall h-like forms and a compressed -soun end.",
+          "matches": "No identical second occurrence is established in this inspected passage; comparison with an isolated teaching alphabet is not proof.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "The middle remains connected."
+        },
+        {
+          "id": "ninian-1613-jonet-spouse-word-3",
+          "glyph": "spous",
+          "label": "spous: whole connected word",
+          "position": 1,
+          "region": [
+            1060,
+            332,
+            156,
+            136
+          ],
+          "paths": [],
+          "observed": "After his, read the long initial and deep extension of the spouse noun.",
+          "matches": "No identical second occurrence is established in this inspected passage; comparison with an isolated teaching alphabet is not proof.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "Adjacent-line intersections remain visible."
+        }
+      ],
+      "words": [
+        {
+          "text": "Jonet",
+          "region": [
+            580,
+            352,
+            159,
+            100
+          ],
+          "focus_polygon": [
+            [
+              580,
+              352
+            ],
+            [
+              739,
+              352
+            ],
+            [
+              739,
+              452
+            ],
+            [
+              580,
+              452
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "ninian-1613-jonet-spouse-word-1",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        },
+        {
+          "text": "hutchesoun",
+          "region": [
+            724,
+            345,
+            246,
+            115
+          ],
+          "focus_polygon": [
+            [
+              724,
+              345
+            ],
+            [
+              970,
+              345
+            ],
+            [
+              970,
+              460
+            ],
+            [
+              724,
+              460
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "ninian-1613-jonet-spouse-word-2",
+              "start": 0,
+              "end": 10
+            }
+          ]
+        },
+        {
+          "text": "spous",
+          "region": [
+            1060,
+            332,
+            156,
+            136
+          ],
+          "focus_polygon": [
+            [
+              1060,
+              332
+            ],
+            [
+              1216,
+              332
+            ],
+            [
+              1216,
+              468
+            ],
+            [
+              1060,
+              468
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "ninian-1613-jonet-spouse-word-3",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      ],
+      "reading_steps": [
+        {
+          "title": "Read Jonet",
+          "text": "Find the forename after the appointment wording on the lower complete line. Begin at its word gap, not the preceding flourish.",
+          "region": [
+            580,
+            352,
+            159,
+            100
+          ]
+        },
+        {
+          "title": "Read hutchesoun",
+          "text": "The longer surname has tall h-like forms and a compressed -soun end. The middle remains connected.",
+          "region": [
+            724,
+            345,
+            246,
+            115
+          ]
+        },
+        {
+          "title": "Read spous",
+          "text": "After his, read the long initial and deep extension of the spouse noun. Adjacent-line intersections remain visible.",
+          "region": [
+            1060,
+            332,
+            156,
+            136
+          ]
+        },
+        {
+          "title": "Read the relationship in context",
+          "text": "The executor appointment identifies Jonet as his spous separately from Robert his sone. It does not state that Jonet was Robert's mother.",
+          "region": [
+            580,
+            332,
+            636,
+            136
+          ]
+        }
+      ],
+      "same_hand_comparisons": []
+    },
+    {
+      "id": "ninian-1613-johne-brother",
+      "title": "John Glasgow, brother",
+      "nav_label": "John Glasgow, brother",
+      "image": "/assets/research/testament-crops/ninian-1613-siblings.jpg",
+      "image_width": 1930,
+      "image_height": 950,
+      "region": [
+        614,
+        73,
+        920,
+        189
+      ],
+      "reading": "Johne glasgw his brother",
+      "expansion": "John Glasgow, his brother",
+      "confidence": "High for kinship; profile identity unproved.",
+      "context": "The legacy calls John his brother before the next gift.",
+      "review_status": "source-aligned",
+      "locator_note": "Use the selected word before the wider passage. Pixel regions retain full visible strokes. Crossings from neighbouring lines remain contextual; a rectangular focus is retained where further separation would guess.",
+      "conclusion": "Full versus half sibling is unstated; identity with Glasgow-1030 is not secure.",
+      "letters": [
+        {
+          "id": "ninian-1613-johne-brother-word-1",
+          "glyph": "Johne",
+          "label": "Johne: whole connected word",
+          "position": 1,
+          "region": [
+            614,
+            90,
+            223,
+            153
+          ],
+          "paths": [],
+          "observed": "After Item to, the large entry and taller forms introduce the name.",
+          "matches": "Repeated surname construction can be compared while the following nouns assign different relationships.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "Keep the full descent despite nearby writing."
+        },
+        {
+          "id": "ninian-1613-johne-brother-word-2",
+          "glyph": "glasgw",
+          "label": "glasgw: whole connected word",
+          "position": 1,
+          "region": [
+            835,
+            73,
+            306,
+            189
+          ],
+          "paths": [],
+          "observed": "The long surname movements surround a compact body before his.",
+          "matches": "Repeated surname construction can be compared while the following nouns assign different relationships.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "Do not incorporate the following kin word."
+        },
+        {
+          "id": "ninian-1613-johne-brother-word-3",
+          "glyph": "brother",
+          "label": "brother: whole connected word",
+          "position": 1,
+          "region": [
+            1251,
+            75,
+            283,
+            164
+          ],
+          "paths": [],
+          "observed": "After his, the b-like start and later tall h anchor the longer noun.",
+          "matches": "Repeated surname construction can be compared while the following nouns assign different relationships.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "Contrast its length with Robert's short sone."
+        }
+      ],
+      "words": [
+        {
+          "text": "Johne",
+          "region": [
+            614,
+            90,
+            223,
+            153
+          ],
+          "focus_polygon": [
+            [
+              614,
+              90
+            ],
+            [
+              837,
+              90
+            ],
+            [
+              837,
+              243
+            ],
+            [
+              614,
+              243
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "ninian-1613-johne-brother-word-1",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        },
+        {
+          "text": "glasgw",
+          "region": [
+            835,
+            73,
+            306,
+            189
+          ],
+          "focus_polygon": [
+            [
+              835,
+              73
+            ],
+            [
+              1141,
+              73
+            ],
+            [
+              1141,
+              262
+            ],
+            [
+              835,
+              262
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "ninian-1613-johne-brother-word-2",
+              "start": 0,
+              "end": 6
+            }
+          ]
+        },
+        {
+          "text": "brother",
+          "region": [
+            1251,
+            75,
+            283,
+            164
+          ],
+          "focus_polygon": [
+            [
+              1251,
+              75
+            ],
+            [
+              1534,
+              75
+            ],
+            [
+              1534,
+              239
+            ],
+            [
+              1251,
+              239
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "ninian-1613-johne-brother-word-3",
+              "start": 0,
+              "end": 7
+            }
+          ]
+        }
+      ],
+      "reading_steps": [
+        {
+          "title": "Read Johne",
+          "text": "After Item to, the large entry and taller forms introduce the name. Keep the full descent despite nearby writing.",
+          "region": [
+            614,
+            90,
+            223,
+            153
+          ]
+        },
+        {
+          "title": "Read glasgw",
+          "text": "The long surname movements surround a compact body before his. Do not incorporate the following kin word.",
+          "region": [
+            835,
+            73,
+            306,
+            189
+          ]
+        },
+        {
+          "title": "Read brother",
+          "text": "After his, the b-like start and later tall h anchor the longer noun. Contrast its length with Robert's short sone.",
+          "region": [
+            1251,
+            75,
+            283,
+            164
+          ]
+        },
+        {
+          "title": "Read the relationship in context",
+          "text": "The legacy calls John his brother before the next gift. Full versus half sibling is unstated; identity with Glasgow-1030 is not secure.",
+          "region": [
+            614,
+            73,
+            920,
+            189
+          ]
+        }
+      ],
+      "same_hand_comparisons": [
+        {
+          "image": "/assets/research/testament-crops/ninian-1613-siblings.jpg",
+          "image_width": 1930,
+          "image_height": 950,
+          "region": [
+            917,
+            261,
+            244,
+            116
+          ],
+          "reading": "glasgw with Robert",
+          "explanation": "Repeated surname construction can be compared while the following nouns assign different relationships."
+        }
+      ]
+    },
+    {
+      "id": "ninian-1613-marioun-sister",
+      "title": "Marioun Glasgow, sister",
+      "nav_label": "Marioun Glasgow, sister",
+      "image": "/assets/research/testament-crops/ninian-1613-siblings.jpg",
+      "image_width": 1930,
+      "image_height": 950,
+      "region": [
+        1091,
+        115,
+        606,
+        165
+      ],
+      "reading": "Marioun glasgw his sister [right edge clipped]",
+      "expansion": "Marioun Glasgow, his sister",
+      "confidence": "Maintained kinship high; displayed ending clipped.",
+      "context": "The next legacy names Marioun in the maintained sister clause.",
+      "review_status": "source-aligned",
+      "locator_note": "Use the selected word before the wider passage. Pixel regions retain full visible strokes. Crossings from neighbouring lines remain contextual; a rectangular focus is retained where further separation would guess.",
+      "conclusion": "The image cuts the right end of sister. No missing letters are drawn; full versus half sibling remains unstated.",
+      "letters": [
+        {
+          "id": "ninian-1613-marioun-sister-word-1",
+          "glyph": "Marioun",
+          "label": "Marioun: whole connected word",
+          "position": 1,
+          "region": [
+            1091,
+            120,
+            323,
+            136
+          ],
+          "paths": [],
+          "observed": "After the new Item to, find the broad M and long connected name.",
+          "matches": "The repeated surname and Item pattern separate the gifts while preserving the clipping limitation.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "This starts another legacy, not an extension of brother."
+        },
+        {
+          "id": "ninian-1613-marioun-sister-word-2",
+          "glyph": "glasgw",
+          "label": "glasgw: whole connected word",
+          "position": 1,
+          "region": [
+            1406,
+            115,
+            291,
+            165
+          ],
+          "paths": [],
+          "observed": "The surname repeats before the right-edge possessive.",
+          "matches": "The repeated surname and Item pattern separate the gifts while preserving the clipping limitation.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "The following sister is not offered as an intact standalone word."
+        }
+      ],
+      "words": [
+        {
+          "text": "Marioun",
+          "region": [
+            1091,
+            120,
+            323,
+            136
+          ],
+          "focus_polygon": [
+            [
+              1091,
+              120
+            ],
+            [
+              1414,
+              120
+            ],
+            [
+              1414,
+              256
+            ],
+            [
+              1091,
+              256
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "ninian-1613-marioun-sister-word-1",
+              "start": 0,
+              "end": 7
+            }
+          ]
+        },
+        {
+          "text": "glasgw",
+          "region": [
+            1406,
+            115,
+            291,
+            165
+          ],
+          "focus_polygon": [
+            [
+              1406,
+              115
+            ],
+            [
+              1697,
+              115
+            ],
+            [
+              1697,
+              280
+            ],
+            [
+              1406,
+              280
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "ninian-1613-marioun-sister-word-2",
+              "start": 0,
+              "end": 6
+            }
+          ]
+        }
+      ],
+      "reading_steps": [
+        {
+          "title": "Read Marioun",
+          "text": "After the new Item to, find the broad M and long connected name. This starts another legacy, not an extension of brother.",
+          "region": [
+            1091,
+            120,
+            323,
+            136
+          ]
+        },
+        {
+          "title": "Read glasgw",
+          "text": "The surname repeats before the right-edge possessive. The following sister is not offered as an intact standalone word.",
+          "region": [
+            1406,
+            115,
+            291,
+            165
+          ]
+        },
+        {
+          "title": "Read the relationship in context",
+          "text": "The next legacy names Marioun in the maintained sister clause. The image cuts the right end of sister. No missing letters are drawn; full versus half sibling remains unstated.",
+          "region": [
+            1091,
+            115,
+            606,
+            165
+          ]
+        }
+      ],
+      "same_hand_comparisons": [
+        {
+          "image": "/assets/research/testament-crops/ninian-1613-siblings.jpg",
+          "image_width": 1930,
+          "image_height": 950,
+          "region": [
+            835,
+            73,
+            306,
+            189
+          ],
+          "reading": "glasgw with John",
+          "explanation": "The repeated surname and Item pattern separate the gifts while preserving the clipping limitation."
+        }
+      ]
+    },
+    {
+      "id": "ninian-1613-diagnostic-letters",
+      "title": "Robert Glasgow, son",
+      "nav_label": "Robert Glasgow, son",
+      "image": "/assets/research/testament-crops/ninian-1613-siblings.jpg",
+      "image_width": 1930,
+      "image_height": 950,
+      "region": [
+        596,
+        244,
+        883,
+        175
+      ],
+      "reading": "Robert glasgw his sone",
+      "expansion": "Robert Glasgow, his son",
+      "confidence": "High for complete maintained clause.",
+      "context": "Robert's gift calls him his sone, repeating the executor appointment.",
+      "review_status": "source-aligned",
+      "locator_note": "Use the selected word before the wider passage. Pixel regions retain full visible strokes. Crossings from neighbouring lines remain contextual; a rectangular focus is retained where further separation would guess.",
+      "conclusion": "No maternity is supplied, and sonship cannot extend to the damaged William passage.",
+      "letters": [
+        {
+          "id": "ninian-1613-diagnostic-letters-word-1",
+          "glyph": "Robert",
+          "label": "Robert: whole connected word",
+          "position": 1,
+          "region": [
+            596,
+            252,
+            321,
+            130
+          ],
+          "paths": [],
+          "observed": "After Item to, locate the broad R and tall b before the crossed finish.",
+          "matches": "The name repeats at the end of the executor line; the surname and his sone wrap left below.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "A strong stroke from above remains contextual."
+        },
+        {
+          "id": "ninian-1613-diagnostic-letters-word-2",
+          "glyph": "glasgw",
+          "label": "glasgw: whole connected word",
+          "position": 1,
+          "region": [
+            917,
+            261,
+            244,
+            116
+          ],
+          "paths": [],
+          "observed": "The surname follows and leads into his.",
+          "matches": "The name repeats at the end of the executor line; the surname and his sone wrap left below.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "Its long movement intersects the next line."
+        },
+        {
+          "id": "ninian-1613-diagnostic-letters-word-3",
+          "glyph": "sone",
+          "label": "sone: whole connected word",
+          "position": 1,
+          "region": [
+            1252,
+            244,
+            227,
+            175
+          ],
+          "paths": [],
+          "observed": "The long initial descends beside the short one body after his.",
+          "matches": "The name repeats at the end of the executor line; the surname and his sone wrap left below.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "The whole word replaces the former isolated stem."
+        }
+      ],
+      "words": [
+        {
+          "text": "Robert",
+          "region": [
+            596,
+            252,
+            321,
+            130
+          ],
+          "focus_polygon": [
+            [
+              596,
+              252
+            ],
+            [
+              917,
+              252
+            ],
+            [
+              917,
+              382
+            ],
+            [
+              596,
+              382
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "ninian-1613-diagnostic-letters-word-1",
+              "start": 0,
+              "end": 6
+            }
+          ]
+        },
+        {
+          "text": "glasgw",
+          "region": [
+            917,
+            261,
+            244,
+            116
+          ],
+          "focus_polygon": [
+            [
+              917,
+              261
+            ],
+            [
+              1161,
+              261
+            ],
+            [
+              1161,
+              377
+            ],
+            [
+              917,
+              377
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "ninian-1613-diagnostic-letters-word-2",
+              "start": 0,
+              "end": 6
+            }
+          ]
+        },
+        {
+          "text": "sone",
+          "region": [
+            1252,
+            244,
+            227,
+            175
+          ],
+          "focus_polygon": [
+            [
+              1252,
+              244
+            ],
+            [
+              1479,
+              244
+            ],
+            [
+              1479,
+              419
+            ],
+            [
+              1252,
+              419
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "ninian-1613-diagnostic-letters-word-3",
+              "start": 0,
+              "end": 4
+            }
+          ]
+        }
+      ],
+      "reading_steps": [
+        {
+          "title": "Read Robert",
+          "text": "After Item to, locate the broad R and tall b before the crossed finish. A strong stroke from above remains contextual.",
+          "region": [
+            596,
+            252,
+            321,
+            130
+          ]
+        },
+        {
+          "title": "Read glasgw",
+          "text": "The surname follows and leads into his. Its long movement intersects the next line.",
+          "region": [
+            917,
+            261,
+            244,
+            116
+          ]
+        },
+        {
+          "title": "Read sone",
+          "text": "The long initial descends beside the short one body after his. The whole word replaces the former isolated stem.",
+          "region": [
+            1252,
+            244,
+            227,
+            175
+          ]
+        },
+        {
+          "title": "Read the relationship in context",
+          "text": "Robert's gift calls him his sone, repeating the executor appointment. No maternity is supplied, and sonship cannot extend to the damaged William passage.",
+          "region": [
+            596,
+            244,
+            883,
+            175
+          ]
+        }
+      ],
+      "same_hand_comparisons": [
+        {
+          "image": "/assets/research/testament-crops/ninian-1613-spouse-son-v3.jpg",
+          "image_width": 1544,
+          "image_height": 802,
+          "region": [
+            1214,
+            334,
+            227,
+            116
+          ],
+          "reading": "Robert in appointment",
+          "explanation": "The name repeats at the end of the executor line; the surname and his sone wrap left below."
+        },
+        {
+          "image": "/assets/research/testament-crops/ninian-1613-spouse-son-v3.jpg",
+          "image_width": 1544,
+          "image_height": 802,
+          "region": [
+            539,
+            403,
+            195,
+            107
+          ],
+          "reading": "his sone repeated",
+          "explanation": "The executor passage supplies the same son relationship in another clause."
+        }
+      ]
+    }
+  ],
+  "method": "Visually inspected whole-word source-pixel studies. Original images are unchanged. Conservative focus envelopes retain ambiguous crossings; some remain rectangular because a smaller mask would assign uncertain ink. Whole connected words serve as colour groups where internal boundaries are unclear. The separate Joscelyn example is a different teaching hand, not a reconstruction or proof. No guessed SVG pen paths.",
+  "people_studies": {
+    "Ninian Glasgow": "ninian-1613-subject",
+    "Jonet Hutchesoun": "ninian-1613-jonet-spouse",
+    "Robert Glasgow": "ninian-1613-diagnostic-letters",
+    "John Glasgow": "ninian-1613-johne-brother",
+    "Marioun Glasgow": "ninian-1613-marioun-sister"
+  },
+  "walkthrough_mark_updates": [
+    {
+      "step_id": "spouse-son",
+      "mark_index": 0,
+      "region": [
+        580,
+        345,
+        390,
+        115
+      ]
+    },
+    {
+      "step_id": "spouse-son",
+      "mark_index": 1,
+      "region": [
+        961,
+        332,
+        255,
+        136
+      ]
+    },
+    {
+      "step_id": "spouse-son",
+      "mark_index": 2,
+      "region": [
+        1214,
+        334,
+        227,
+        116
+      ]
+    },
+    {
+      "step_id": "siblings",
+      "mark_index": 0,
+      "region": [
+        614,
+        73,
+        920,
+        189
+      ]
+    },
+    {
+      "step_id": "siblings",
+      "mark_index": 1,
+      "region": [
+        1091,
+        115,
+        839,
+        190
+      ]
+    },
+    {
+      "step_id": "siblings",
+      "mark_index": 2,
+      "region": [
+        596,
+        244,
+        883,
+        175
+      ]
+    }
+  ]
+}

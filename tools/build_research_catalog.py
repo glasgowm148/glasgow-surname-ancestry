@@ -16,6 +16,7 @@ import re
 from urllib.parse import quote, urlparse
 
 try:
+    from site_analytics import with_analytics
     from project_paths import (
         RESEARCH_DIR, WEB_DIR, WIKITREE_PROFILE_EVIDENCE,
         WIKITREE_CATALOGUE_PROFILE_AUDIT, WIKITREE_CATALOGUE_PROFILE_LINKS,
@@ -27,6 +28,7 @@ try:
         write_machine_outputs,
     )
 except ModuleNotFoundError:  # Imported as tools.build_research_catalog by tests.
+    from tools.site_analytics import with_analytics
     from tools.project_paths import (
         RESEARCH_DIR, WEB_DIR, WIKITREE_PROFILE_EVIDENCE,
         WIKITREE_CATALOGUE_PROFILE_AUDIT, WIKITREE_CATALOGUE_PROFILE_LINKS,
@@ -279,6 +281,8 @@ def _canonical_marriage_surname(value: str) -> str:
     key = re.sub(r"[^a-z]", "", surname.casefold())
     if key in _UNKNOWN_MARRIAGE_SURNAMES:
         return ""
+    if _GLASGOW_SURNAME.fullmatch(surname):
+        return "Glasgow"
     if key in _CUNNINGHAM_VARIANTS:
         return "Cunningham"
     return surname
@@ -311,7 +315,7 @@ def _marriage_surname_values(people: list[dict], catalogue_href: str = "/catalog
             continue
         for spouse in person.get("spouses", []):
             for surname in _relation_birth_surnames(spouse, people_by_profile):
-                if surname and not _GLASGOW_SURNAME.fullmatch(surname):
+                if surname:
                     surname_people[surname].add(person["catalogue_id"])
     return [
         (surname, len(members), f'<a href="{catalogue_href}?marriageSurname={quote(surname)}#catalogue-results">{escape(surname)}</a>')
@@ -322,15 +326,16 @@ def _marriage_surname_values(people: list[dict], catalogue_href: str = "/catalog
 def _marriage_statistics_panel(people: list[dict], catalogue_href: str = "/catalogue.html") -> str:
     return _stat_bars(
         "Surnames joined by marriage to Glasgow",
-        "Recorded birth surnames of spouses of Glasgow-at-birth people; recognised spelling variants are grouped.",
+        "Glasgow-at-birth people by their spouses' recorded birth surnames, including Glasgow; recognised spelling variants are grouped. Shared surnames do not by themselves prove cousinship.",
         _marriage_surname_values(people, catalogue_href),
+        limit=24,
     )
 
 
 def sync_generated_marriage_statistics() -> None:
     """Refresh only the generated marriage panel without rebuilding person pages."""
     people = json.loads((DATA_DIR / "people.json").read_text(encoding="utf-8"))["people"]
-    panel = _marriage_statistics_panel(people, "catalogue.html")
+    panel = _marriage_statistics_panel(people, "/catalogue/")
     pattern = re.compile(
         r'<section class="statistics-panel"><h3>(?:Surnames of women who married Glasgow|Surnames joined by marriage to Glasgow)</h3>.*?</section>'
     )
@@ -459,6 +464,13 @@ def _evidence_badge(value: str, label: str | None = None) -> str:
 
 def _load_research_findings(profile_ids: list[str]) -> list[dict]:
     """Load substantive, public-safe sections from durable case findings."""
+    manifest = PROJECT_ROOT / "data/wikitree/research-catalogue-cases.json"
+    if manifest.exists():
+        aliases = json.loads(manifest.read_text()).get("cases", {})
+        profile_ids = list(dict.fromkeys([*profile_ids, *(
+            key for key, entry in aliases.items()
+            if entry.get("status") == "include_record" and entry.get("profile_id") in profile_ids
+        )]))
     findings = []
     for profile_id in profile_ids:
         path = RESEARCH_DIR / profile_id / "findings.md"
@@ -894,9 +906,27 @@ def _similar_people(index: list[dict]) -> dict[str, list[dict]]:
     return results
 
 
-def _potential_parentage(index: list[dict], similar_by_id: dict[str, list[dict]] | None = None) -> dict[str, dict]:
+def _potential_parentage(
+    index: list[dict],
+    similar_by_id: dict[str, list[dict]] | None = None,
+    requested_subject_ids: set[str] | None = None,
+) -> dict[str, dict]:
     """Rank multi-factor parent leads; never treat the score as proof."""
     similar_by_id = similar_by_id or {}
+    reviewed_score_ids: dict[str, set[str]] = {}
+    for candidate_file in RESEARCH_DIR.glob("*/parent_candidates.json"):
+        try:
+            reviewed = json.loads(candidate_file.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            continue
+        ids = {
+            str(profile_id)
+            for item in reviewed if isinstance(item, dict)
+            for profile_id in ([item.get("score_profile_id")] + list(item.get("score_profile_ids") or []))
+            if profile_id
+        }
+        if ids:
+            reviewed_score_ids[candidate_file.parent.name] = ids
     ignored_places = {
         "county", "ireland", "scotland", "england", "united", "kingdom", "states", "townland", "parish",
         # Precision and evidence labels are not geography.
@@ -1099,6 +1129,29 @@ def _potential_parentage(index: list[dict], similar_by_id: dict[str, list[dict]]
             (child_id, names[position] if position < len(names) and names[position] else people_by_id.get(child_id, {}).get("name", child_id))
             for position, child_id in enumerate(person.get("child_ids", []))
         ]
+
+    def branch_uses_unreviewed_child_links(person: dict, max_depth: int = 3) -> bool:
+        """Flag branch clues that travel through unproved pedigree edges."""
+        pending = deque([(person, 1)])
+        seen = set()
+        while pending:
+            parent, depth = pending.popleft()
+            if parent["id"] in seen or depth > max_depth:
+                continue
+            seen.add(parent["id"])
+            links = {link.get("id"): link for link in parent.get("_child_links", [])}
+            for child_id, _ in relation_children(parent):
+                link = links.get(child_id) or {}
+                reviewed = (
+                    link.get("status") in {"proved", "strongly_supported", "probable"}
+                    or link.get("tree_status") in {"dna_confirmed", "confident"}
+                )
+                if not reviewed:
+                    return True
+                child = people_by_id.get(child_id)
+                if child and depth < max_depth:
+                    pending.append((child, depth + 1))
+        return False
 
     descendant_cache: dict[tuple[str, int], dict[str, set[str]]] = {}
 
@@ -1433,6 +1486,8 @@ def _potential_parentage(index: list[dict], similar_by_id: dict[str, list[dict]]
     results = {}
     for subject in analysis_index:
         subject_id = subject["id"]
+        if requested_subject_ids is not None and subject_id not in requested_subject_ids:
+            continue
         subject_birth = subject.get("birth_year")
         subject_birth_expression = str(subject.get("_birth_expression") or "").casefold()
         subject_birth_before = bool(re.search(r"\bbefore\b", subject_birth_expression))
@@ -2794,6 +2849,25 @@ def _potential_parentage(index: list[dict], similar_by_id: dict[str, list[dict]]
                         "the candidate's captured citations consist only of an online family tree "
                         "(score capped at 39 without an exact sibling or parental-couple bridge)"
                     )
+                branch_derived_dimensions = {
+                    "rare branch-name recurrence", "collateral naming",
+                    "lineage surname as middle name", "great-grandparent name echo",
+                    "repeated marriage surnames", "branch migration", "broad migration",
+                    "branch reconvergence", "missing-sibling descendant echo",
+                }
+                if (
+                    score >= 40
+                    and dimensions & branch_derived_dimensions
+                    and (
+                        branch_uses_unreviewed_child_links(subject)
+                        or branch_uses_unreviewed_child_links(candidate)
+                    )
+                ):
+                    score = min(score, 39)
+                    conflicts.append(
+                        "one or more branch-derived clues pass through unproved or merely possible "
+                        "parent-child links (score capped at 39; pedigree structure is not independent evidence)"
+                    )
                 high_information_dimensions = {
                     "time-specific locality", "mapped proximity", "tenancy succession",
                     "local sibling birth", "local same-spouse child window",
@@ -2882,6 +2956,20 @@ def _potential_parentage(index: list[dict], similar_by_id: dict[str, list[dict]]
             )
             selected = role_candidates[:5]
             ranked.extend(selected)
+        # The public top-five worklist stays compact, but a maintained dossier
+        # must retain scores requested by its reviewed candidate inventory.
+        # Include linked, retired and lower-ranked individuals here so “not
+        # scored” cannot merely mean “fell outside the global display cap”.
+        selected_ids = {candidate["id"] for candidate in ranked}
+        wanted_ids = reviewed_score_ids.get(subject_id, set())
+        ranked.extend(
+            candidate for candidate in candidates
+            if candidate["id"] in wanted_ids and candidate["id"] not in selected_ids
+        )
+        ranked.sort(key=lambda candidate: (
+            classification_rank.get(candidate["classification"], 9),
+            -candidate["score"], candidate["age_gap"], candidate["name"],
+        ))
         results[subject_id] = {
             "children_recorded": child_details,
             "earliest_dated_son": earliest_son,
@@ -3378,7 +3466,41 @@ def _page(
 <main>{body}</main><footer><p>Generated from the same records as the family map. Profile fields and inferred placements are research leads unless supported by cited records.</p><p><a href="/changes.html">Change log</a> · <a href="/feedback.html">Report a correction</a> · <a href="/status.html">Catalogue status</a></p></footer><script src="{asset_prefix}people/external-links.js?v={CATALOGUE_ASSET_VERSION}"></script>{script}</body></html>"""
     if asset_prefix != "/":
         html = html.replace('href="/', f'href="{asset_prefix}').replace('src="/', f'src="{asset_prefix}')
-    return html
+    return with_analytics(html)
+
+
+def _preserve_unified_person_shell(existing: str, generated: str) -> str:
+    """Retain the shared rail and dialogs while refreshing person content."""
+    if not re.search(r'class=["\'][^"\']*\bg-rail\b', existing):
+        return generated
+
+    updated = existing
+    main = re.search(r"<main\b[^>]*>[\s\S]*?</main>", generated, re.I)
+    if main:
+        updated = re.sub(
+            r"<main\b[^>]*>[\s\S]*?</main>",
+            lambda _: main.group(0),
+            updated,
+            count=1,
+            flags=re.I,
+        )
+
+    # Keep discovery metadata current without replacing the established shell.
+    for pattern in (
+        r"<title\b[^>]*>[\s\S]*?</title>",
+        r'<meta\b(?=[^>]*\bname=["\']description["\'])[^>]*>',
+        r'<link\b(?=[^>]*\brel=["\']canonical["\'])[^>]*>',
+        r'<link\b(?=[^>]*\brel=["\']alternate["\'])(?=[^>]*\btype=["\']application/json["\'])[^>]*>',
+        r'<script\b(?=[^>]*\btype=["\']application/ld\+json["\'])[^>]*>[\s\S]*?</script>',
+    ):
+        fresh = re.search(pattern, generated, re.I)
+        if not fresh:
+            continue
+        if re.search(pattern, updated, re.I):
+            updated = re.sub(pattern, lambda _: fresh.group(0), updated, count=1, flags=re.I)
+        else:
+            updated = re.sub(r"</head>", fresh.group(0) + "</head>", updated, count=1, flags=re.I)
+    return with_analytics(updated)
 
 
 def _relation_html(relations: list[dict], id_to_slug: dict[str, str]) -> str:
@@ -3572,14 +3694,15 @@ def _extract_profile_draft(audit: dict) -> str:
     return draft
 
 
-def _is_complete_profile_draft(draft: str) -> bool:
+def _is_complete_profile_draft(draft: str, profile_id: str | None = None) -> bool:
     required = (
         "== Biography ==", "== Research Notes ==", "== Sources ==", "<references />",
     )
     return (
         all(item in draft for item in required)
         and "<ref" in draft
-        and bool(re.search(r"\[\[Category:[^\]]+\]\]", draft))
+        and (bool(profile_id and not profile_id.startswith(("Glasgow-", "Glasco-", "Glasgo-", "Glascow-")))
+             or bool(re.search(r"\[\[Category:[^\]]+\]\]", draft)))
     )
 
 
@@ -4156,7 +4279,7 @@ def _registered_profile_updates(wikitree_evidence: dict) -> dict[str, dict]:
                 ):
                     draft_path = str(candidate.relative_to(PROJECT_ROOT))
                     draft_wikitext = _extract_profile_draft({"draft_path": draft_path})
-                    if not _is_complete_profile_draft(draft_wikitext):
+                    if not _is_complete_profile_draft(draft_wikitext, profile_id):
                         raise ValueError(
                             f"Catalogue replacement draft is not complete paste-ready WikiTree text: {profile_id}"
                         )
@@ -4312,7 +4435,10 @@ def _load_profile_updates(wikitree_evidence: dict) -> dict[str, dict]:
             "profile_url": capture.get("profile_url") or WIKITREE_URL + profile_id,
             "remote_wikitext": remote,
             "proposed_wikitext": proposed,
-            "remote_captured_at": capture.get("captured_at") or "",
+            "remote_captured_at": (
+                f'{specification["biography_rechecked_at"]} (biography rechecked against the saved revision)'
+                if specification.get("biography_rechecked_at") else capture.get("captured_at") or ""
+            ),
             "remote_revision": _format_profile_timestamp(capture.get("last_updated", "")),
         }
         if updates[profile_id].get("work_queue_summary"):
@@ -4338,8 +4464,16 @@ def _load_profile_updates(wikitree_evidence: dict) -> dict[str, dict]:
 
 
 def catalogue_profile_update_ids() -> set[str]:
-    """Return update-queue profiles that need catalogue metadata even without map rows."""
-    return set(_load_profile_updates(_load_wikitree_evidence()))
+    """Return queued and reviewed research-only profiles needing catalogue metadata."""
+    return set(_load_profile_updates(_load_wikitree_evidence())) | catalogue_research_case_ids()
+
+
+def catalogue_research_case_ids() -> set[str]:
+    path = PROJECT_ROOT / "data/wikitree/research-catalogue-cases.json"
+    if not path.exists():
+        return set()
+    return {entry["profile_id"] for entry in json.loads(path.read_text()).get("cases", {}).values()
+            if entry.get("status") == "include" and WIKITREE_ID.fullmatch(entry.get("profile_id", ""))}
 
 
 def _profile_update_html(update: dict | None) -> str:
@@ -5513,7 +5647,7 @@ def build_research_catalog(records: list[dict], profiles: dict[str, dict], edges
     profile_audited_at = profile_audit_payload.get("audited_at", "")
     people = _build_people(
         records, profiles, edges, descendant_counts, wikitree_evidence,
-        profile_seed_ids=set(profile_updates),
+        profile_seed_ids=set(profile_updates) | catalogue_research_case_ids(),
     )
     public_people = [person for person in people if not person["likely_living"]]
     pre1500_draft_paths = {
@@ -5680,13 +5814,17 @@ def build_research_catalog(records: list[dict], profiles: dict[str, dict], edges
                     not in {"do_not_create", "hold", "duplicate_profiles"}
                 ),
             }
-        (CATALOGUE_DIR / f"{person['catalogue_id']}.html").write_text(
-            _person_page(
-                person, dossiers[person["catalogue_id"]], id_to_slug, location_to_slug,
-                export_version, generated, profile_audit,
-                profile_updates_by_catalogue.get(person["catalogue_id"]),
-            ), encoding="utf-8"
+        person_path = CATALOGUE_DIR / f"{person['catalogue_id']}.html"
+        person_html = _person_page(
+            person, dossiers[person["catalogue_id"]], id_to_slug, location_to_slug,
+            export_version, generated, profile_audit,
+            profile_updates_by_catalogue.get(person["catalogue_id"]),
         )
+        if person_path.exists():
+            person_html = _preserve_unified_person_shell(
+                person_path.read_text(encoding="utf-8"), person_html
+            )
+        person_path.write_text(person_html, encoding="utf-8")
 
     name_buckets = defaultdict(list)
     for person in public_people:
@@ -6194,6 +6332,24 @@ Dataset version: `{export_version}`. Catalogue generated: `{generated}`.
     except ModuleNotFoundError:
         from publish_clean_urls import publish_clean_urls
     publish_clean_urls(WEB_DIR)
+
+    # The advertised dossier endpoint must already carry the published review,
+    # even before the optional presentation-repair pass runs.
+    if (WEB_DIR / 'assets/research/assessments.json').exists():
+        try:
+            from tools.publish_resolved_dossiers import publish as publish_resolved
+        except ModuleNotFoundError:
+            from publish_resolved_dossiers import publish as publish_resolved
+        publish_resolved(WEB_DIR)
+
+    # Keep generated person pages on the same shared evidence-led presentation
+    # path as the unified-site repair. The JSON dossiers and research files
+    # have been written by this point.
+    try:
+        from tools.repair_person_hierarchy import repair as repair_person_pages
+    except ModuleNotFoundError:
+        from repair_person_hierarchy import repair as repair_person_pages
+    repair_person_pages()
 
     return {
         "people": len(public_people), "records": len(public_records),

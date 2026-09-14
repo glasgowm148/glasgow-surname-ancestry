@@ -1,5 +1,7 @@
 # Glasgow-993 research findings
 
+Last updated: 2026-09-10
+
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-4938dce42a86 -->
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-4938dce42a86
 
@@ -30,3 +32,24 @@ or establish her death. See the [source-anomaly dossier](../hold-resolution/reco
 
 Make no profile amendment. Reassess only from a corrected transcript or an
 original entry with a coherent parish, year and distinguishing detail.
+
++### Supplied Scotland’s People OPR births and baptisms — 10 September 2026
+
+| Source locator | Indexed entry | Assessment |
+| --- | --- | --- |
+| [Scotland’s People](https://www.scotlandspeople.gov.uk/), OPR 689/10 / 91 | AGNES GLASGOW; JAMES GLASGOW/; 22/02/1618; Inveresk and Musselburgh | Index-only confirmation. Its combined birth/baptism date is retained as an index date; original image was not inspected. |
+
+Provenance: exact-surname Glasgow search, year range to 1700, 127 supplied results across six pages.
+
+<!-- opr-birth-review-row-19 -->
+## Source findings
+
+### Supplied OPR births and baptisms: row 19 — 10 September 2026
+
+[Scotland’s People](https://www.scotlandspeople.gov.uk/), **Old Parish Registers, births and baptisms**; exact surname Glasgow through 1700, 127 supplied results. **AGNES GLASGOW**; indexed date **22/02/1618**; Inveresk and Musselburgh; parish **689**, reference **10 / 91**. Parents/other exactly as indexed: **JAMES GLASGOW/**. Indexed gender: **F**.
+
+**Assessment:** Matches the existing child-record account by indexed date, locality and recorded family. This row adds the complete index locator as supporting provenance; it does not establish a new event or relationship.
+
+Original image not inspected for this batch. The combined collection’s date does not automatically establish a birthday. Names alone do not uniquely identify attached parents or connect a child with a later adult. An omitted parent or indexed gender U remains unspecified in this source.
+
+**Next action:** No additional WikiTree update from this row; preserve any existing pending work.

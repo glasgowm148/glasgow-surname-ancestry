@@ -40,8 +40,7 @@ Leith OPR searches found no Glasgow/Glasgo/Glascow/Glaskow/Glassgow baptism in
 1694–1730 and no exact Robert Glasgow marriage in 1694–1710 or burial in
 1694–1730; register survival and spelling limit the negative evidence.
 
-## Sources
-
+## Source findings
 - Scotland's People, Church of Scotland marriages index, Edinburgh `685/1`, ref. `440/13`, 1 July 1652.
 - Henry Paton, ed., [*Register of Marriages for the Parish of Edinburgh, 1595–1700*, printed p. 268](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/register_of_marriages_for_the_parish_of_edinburgh_1595-1700_~_1898.pdf#page=278).
 - Charles B. Boog Watson, ed., [*Roll of Edinburgh Burgesses and Guild-Brethren, 1406–1700*, printed p. 208](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/roll_of_edinburgh_burgesses_1406_to_1700.pdf#page=218).
@@ -59,7 +58,7 @@ Leith OPR searches found no Glasgow/Glasgo/Glascow/Glaskow/Glassgow baptism in
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-937fb03a9d56 -->
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-937fb03a9d56
 
-The transcript-validated burgess admission record for **Robert Glasgow**, 4 Jul 1666, Edinburgh, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
+The transcript-validated burgess admission record for **Robert Glasgow**, 4 Jul 1666, Edinburgh, securely identifies the household of Robert Glasgow and Euphame Lorimer. It does not confirm an identity with this profile: the current conclusion distinguishes that household from Robert Glasgow and Jonet Thomsone, who married at Edinburgh in 1652. Do not use the 1666 admission as confirmed identity evidence for Glasgow-3938 without a record bridging those two households.
 
 ## Source findings
 
@@ -69,5 +68,17 @@ The transcript-validated burgess admission record for **Robert Glasgow**, 4 Jul 
 
 ## Recommended action — fmp-glasgow-937fb03a9d56
 
-Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
+Retain this record as a same-name/identity-separation source while preserving all existing sources and uncertain relationships. Do not add it as supporting identity evidence for Glasgow-3938 or infer an unstated birth place, parent, spouse, or child.
 <!-- END FMP-GLASGOW-fmp-glasgow-937fb03a9d56 -->
+
+## Source findings
+
+### Supplied OPR banns and marriages — 10 September 2026
+
+| Source locator | Indexed parties | Assessment |
+| --- | --- | --- |
+| [Scotland’s People](https://www.scotlandspeople.gov.uk/), 1652-07-01, Edinburgh, OPR 685 / 1/440 / 13 | ROBERT GLASGOW; JONET THOMSONE/FR923 (FR923) | Exact marriage already represented and live biography verified. |
+
+Source: Old Parish Registers, banns and marriages; exact surname Glasgow through 1700, 55 supplied results. Original images not inspected for this batch; combined index dates do not by themselves establish ceremony dates.
+
+This batch adds supporting evidence or a qualified comparison only; it raises no additional WikiTree amendment for this profile.

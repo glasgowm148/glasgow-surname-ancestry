@@ -1,0 +1,589 @@
+{
+  "id": "geillis-1603",
+  "intro": "Five image-led steps separate Geillis Glasgow's identity and household from executor procedure, agricultural inventory, debts and final confirmation. Numbered boxes are reading aids, not claims beyond the ink. National Records of Scotland, Glasgow Commissary Court CC9/7/3, images 113-114, Crown copyright; accessed through Scotland's People wills and testaments.",
+  "source_url": "https://www.scotlandspeople.gov.uk/search-records/legal-records/wills",
+  "people": [
+    {
+      "name": "Geillis Glasgow",
+      "role": "Deceased testatrix; spouse of Thomas Wilson",
+      "status": "explicit",
+      "evidence_step": "identity",
+      "profile_id": "Glasgow-3179",
+      "evidence_study": "geillis-glasgw-identity"
+    },
+    {
+      "name": "Thomas Wilson",
+      "role": "Spouse; supplied the testament",
+      "status": "explicit",
+      "evidence_step": "identity",
+      "evidence_study": "geillis-1603-thomas"
+    },
+    {
+      "name": "James Wilson",
+      "role": "Named in executor passage; precise relationship unresolved",
+      "status": "uncertain",
+      "evidence_step": "appointment",
+      "profile_id": "Wilson-142005",
+      "evidence_study": "geillis-1603-executor-names"
+    },
+    {
+      "name": "Isobel Wilson",
+      "role": "Named in executor passage",
+      "status": "explicit name, relationship uncertain",
+      "evidence_step": "appointment",
+      "evidence_study": "geillis-1603-executor-names"
+    },
+    {
+      "name": "Bessie Wilson",
+      "role": "Named in executor passage",
+      "status": "explicit name, relationship uncertain",
+      "evidence_step": "appointment",
+      "evidence_study": "geillis-1603-executor-names"
+    },
+    {
+      "name": "James Glasgow",
+      "role": "Stevenston payee in debts owed by estate",
+      "status": "explicit financial role, kinship unstated",
+      "evidence_step": "debts",
+      "evidence_study": "geillis-1603-james-debt"
+    }
+  ],
+  "card_kin": {
+    "spouse": [
+      {
+        "name": "Thomas Wilson",
+        "relationship": "spouse",
+        "status": "explicit",
+        "evidence_step": "identity",
+        "evidence_study": "geillis-1603-thomas"
+      }
+    ],
+    "children": [],
+    "other_kin": []
+  },
+  "steps": [
+    {
+      "id": "identity",
+      "title": "1. Read the spouse and place before proposing a family",
+      "page_label": "National Records of Scotland, Glasgow Commissary Court CC9/7/3, image 113; Crown copyright",
+      "image": "/assets/research/testament-crops/geillis-1603-identity.jpg",
+      "image_width": 2050,
+      "image_height": 650,
+      "alt": "1. Original manuscript crop naming Geillis Glasgow, Thomas Wilson, Chaplehill and January 1603.",
+      "original": "umq[uhi]le Geillis glasgw spous to Thomas wilson in Chaplehill / within the parochin of Ardrossane ... moneth of Januar 1603",
+      "reading": "The late Geillis Glasgow, spouse of Thomas Wilson at Chaplehill in Ardrossan parish, died intestate in January 1603.",
+      "explanation": "Box 1 isolates Geillis's name. Box 2 begins with the literal relationship word spous and continues through Thomas Wilson; that word, not proximity alone, establishes marriage. Box 3 contains the January date. The place continues beyond the boxes as Chaplehill within Ardrossan parish.",
+      "proves": "Geillis's married identity, Chaplehill/Ardrossan setting and January 1603 death month.",
+      "does_not_prove": "It names neither parent and does not identify the later James Glasgow as kin.",
+      "confidence": "High for the name, spouse, locality and month/year.",
+      "marks": [
+        {
+          "x": 24.29268292682927,
+          "y": 35.69230769230769,
+          "w": 17.51219512195122,
+          "h": 17.076923076923077,
+          "label": "Geillis glasgw",
+          "kind": "name",
+          "pixel_bbox": [
+            498,
+            232,
+            857,
+            343
+          ],
+          "analysis": {
+            "reading": "Geillis glasgw",
+            "expansion": "Geillis Glasgow",
+            "features": [
+              "The capital G begins with a broad open loop before the narrow e-i sequence.",
+              "The doubled l in Geillis rises above the surrounding short letters as two close ascenders.",
+              "The final w of glasgw finishes in a compact upturned stroke rather than a modern rounded w."
+            ],
+            "comparison": "The same abbreviated glasgw form recurs with James in step 4.",
+            "uncertainty": "The surname is abbreviated, but the personal name and surname are clear."
+          }
+        },
+        {
+          "x": 41.21951219512195,
+          "y": 35.07692307692308,
+          "w": 26.195121951219512,
+          "h": 18.615384615384613,
+          "label": "spous to Thomas Wilson",
+          "kind": "relationship",
+          "pixel_bbox": [
+            845,
+            228,
+            1382,
+            349
+          ],
+          "analysis": {
+            "reading": "spous to Thomas wilson",
+            "expansion": "spouse to Thomas Wilson",
+            "features": [
+              "The long initial stroke of Thomas rises well above the following minims.",
+              "The word spous is written as one low connected sequence immediately before to.",
+              "Wilson begins with a broader capital than the compact lower-case letters that follow."
+            ],
+            "comparison": "This explicit spous wording should be contrasted with the role word executors in step 2.",
+            "uncertainty": "No uncertainty in the spouse wording; spelling is contemporary."
+          }
+        },
+        {
+          "x": 13.658537,
+          "y": 50,
+          "w": 40.97561,
+          "h": 14.615385,
+          "label": "moneth of Januar 1603",
+          "kind": "date",
+          "pixel_bbox": [
+            280,
+            325,
+            1120,
+            420
+          ],
+          "analysis": {
+            "reading": "moneth of Januar 1603",
+            "expansion": "month of January 1603",
+            "features": [
+              "Januar opens with a long descending initial stroke and then a clearly separated rounded a.",
+              "The terminal r is short and raised compared with the preceding a.",
+              "The four Arabic numerals are written on the same baseline after the month."
+            ],
+            "comparison": "Step 5 contains the later May confirmation date in the same clerk's hand.",
+            "uncertainty": "The day of death is not supplied here; only the month and year are visible."
+          }
+        }
+      ],
+      "word_studies_replaced": true
+    },
+    {
+      "id": "appointment",
+      "title": "2. Keep the April executor decree separate from kinship",
+      "page_label": "National Records of Scotland, Glasgow Commissary Court CC9/7/3, image 113; Crown copyright",
+      "image": "/assets/research/testament-crops/geillis-1603-executors.jpg",
+      "image_width": 2050,
+      "image_height": 760,
+      "alt": "2. Original manuscript crop showing the executor passage and the last day of April decree.",
+      "original": "James [unresolved] Isobell & Bessie wilson ... executors dative ... / glasgw upon the last day of Aprile ...",
+      "reading": "James, Isobel and Bessie Wilson are named in the executor passage; the appointment follows a Glasgow commissary decree on the last day of April 1603.",
+      "explanation": "Box 1 pulls the executor-role wording, while Box 2 follows the next dated line through last day of Aprile. Box 3 marks Dative at length, a closing procedural note. The words defining how the three Wilsons relate to Geillis are obscured, so the office cannot be converted into sonship or daughtership.",
+      "proves": "The named group participates in the dative-executor appointment and the decree was on 30 April 1603.",
+      "does_not_prove": "Executor appointment alone does not prove that James, Isobel or Bessie was Geillis's child.",
+      "confidence": "High for the April decree; moderate for the named group; low for the missing relationship words.",
+      "marks": [
+        {
+          "x": 31.707317,
+          "y": 22.368421,
+          "w": 34.146341,
+          "h": 11.184211,
+          "label": "executors dative [context]",
+          "kind": "relationship",
+          "pixel_bbox": [
+            650,
+            170,
+            1350,
+            255
+          ],
+          "analysis": {
+            "reading": "[the] executors dative",
+            "expansion": "the court-appointed executors",
+            "features": [
+              "The tall initial stroke of executors is followed by a compressed chain of rounded letters.",
+              "Dative is written with an enlarged initial and a final e turning upward.",
+              "The two role words occupy the same line rather than being marginal additions."
+            ],
+            "comparison": "The dative terminology recurs in the closing note marked in Box 3.",
+            "uncertainty": "Surrounding words are faded; the administrative role is clearer than the relationship clause."
+          }
+        },
+        {
+          "x": 25.853659,
+          "y": 30.921053,
+          "w": 44.878049,
+          "h": 12.5,
+          "label": "upon the last day of Aprile",
+          "kind": "date",
+          "pixel_bbox": [
+            530,
+            235,
+            1450,
+            330
+          ],
+          "analysis": {
+            "reading": "upon the last day of Aprile",
+            "expansion": "on the last day of April",
+            "features": [
+              "The long s in last descends slightly below the line and differs from the short final s.",
+              "Aprile begins with an enlarged open capital A.",
+              "The terminal e of Aprile ends in a light rising hairline."
+            ],
+            "comparison": "The May date in step 5 is a later confirmation event, not a competing reading of this line.",
+            "uncertainty": "The phrase gives 30 April by calendar convention; the numeral 30 is not written."
+          }
+        },
+        {
+          "x": 12.195122,
+          "y": 49.342105,
+          "w": 36.585366,
+          "h": 12.5,
+          "label": "Dative at length",
+          "kind": "role",
+          "pixel_bbox": [
+            250,
+            375,
+            1000,
+            470
+          ],
+          "analysis": {
+            "reading": "Dative at length",
+            "expansion": "dative [appointment recorded] at length",
+            "features": [
+              "Dative begins with a long horizontal entry stroke leading into the capital.",
+              "The g in length drops below the baseline before a tall h ascender.",
+              "The phrase stands alone as a closing docket beneath the main clause."
+            ],
+            "comparison": "It echoes executors dative in Box 1 and confirms the procedural nature of the passage.",
+            "uncertainty": "The phrase is legible; its exact archival function is summarized rather than over-translated."
+          }
+        }
+      ],
+      "word_studies_replaced": true
+    },
+    {
+      "id": "inventory",
+      "title": "3. Read an agricultural inventory, not a family list",
+      "page_label": "National Records of Scotland, Glasgow Commissary Court CC9/7/3, image 114; Crown copyright",
+      "image": "/assets/research/testament-crops/geillis-1603-inventory.jpg",
+      "image_width": 1950,
+      "image_height": 850,
+      "alt": "3. Original manuscript crop headed Inventar with cattle, crop and household entries.",
+      "original": "Inventar ... sevin ky ... ane blak kow ... insight plenissing and domicilis",
+      "reading": "The estate inventory lists cattle, sheep, crops or grain and household furnishings before a total.",
+      "explanation": "Box 1 is the centred heading. Boxes 2 and 3 pull visible livestock phrases; Box 4 marks the household plenishing entry. The repeated Item structure and price columns show accounting entries. Several adjacent quantities are too faded to normalize safely.",
+      "proves": "Geillis's estate was agricultural and included livestock and household goods.",
+      "does_not_prove": "Ownership of farm goods does not identify a father, child or heir, and the unclear valuations should not be treated as exact.",
+      "confidence": "High for the record type and broad asset classes; moderate-low for quantities and values.",
+      "marks": [
+        {
+          "x": 39.74359,
+          "y": 8.235294,
+          "w": 20.769231,
+          "h": 12.352941,
+          "label": "Inventar",
+          "kind": "role",
+          "pixel_bbox": [
+            775,
+            70,
+            1180,
+            175
+          ],
+          "analysis": {
+            "reading": "Inventar",
+            "expansion": "Inventory",
+            "features": [
+              "The enlarged I begins with a looped entry stroke that reaches left of the word.",
+              "The central v/n minim sequence is tightly joined.",
+              "The final r finishes with a short upward hook."
+            ],
+            "comparison": "The same heading convention appears in the John Glasgow entry, step 2.",
+            "uncertainty": "The heading is clear despite faint show-through."
+          }
+        },
+        {
+          "x": 43.589744,
+          "y": 27.058824,
+          "w": 17.435897,
+          "h": 10.588235,
+          "label": "sevin ky",
+          "kind": "asset",
+          "pixel_bbox": [
+            850,
+            230,
+            1190,
+            320
+          ],
+          "analysis": {
+            "reading": "sevin ky",
+            "expansion": "seven cows",
+            "features": [
+              "The initial s is a long secretary-form stroke rather than a modern round s.",
+              "The v has a sharp central angle between the two rounded e/i groups.",
+              "The y in ky descends well below the baseline with a returning tail."
+            ],
+            "comparison": "Another kyne form appears in the John inventory, showing a different late-seventeenth-century hand.",
+            "uncertainty": "The livestock phrase is readable; the following modifier and price are not."
+          }
+        },
+        {
+          "x": 37.435897,
+          "y": 37.058824,
+          "w": 24.102564,
+          "h": 11.176471,
+          "label": "ane blak kow",
+          "kind": "asset",
+          "pixel_bbox": [
+            730,
+            315,
+            1200,
+            410
+          ],
+          "analysis": {
+            "reading": "ane blak kow",
+            "expansion": "one black cow",
+            "features": [
+              "The a of ane is open at the top and joins directly into a narrow n.",
+              "The k in blak rises with a tall angled arm above the other letters.",
+              "Kow ends in the same compact w form used in the clerk's abbreviated surnames."
+            ],
+            "comparison": "This singular animal follows the plural sevin ky entry immediately above.",
+            "uncertainty": "The phrase is likely, but adjacent words and its valuation remain faint."
+          }
+        },
+        {
+          "x": 36.923077,
+          "y": 76.470588,
+          "w": 40.512821,
+          "h": 14.705882,
+          "label": "insight plenissing and domicilis",
+          "kind": "asset",
+          "pixel_bbox": [
+            720,
+            650,
+            1510,
+            775
+          ],
+          "analysis": {
+            "reading": "insight plenissing and domicilis",
+            "expansion": "household furnishings and utensils",
+            "features": [
+              "Insight begins with a short i followed by a long descending s-like stroke and a tall h near the end.",
+              "Plenissing contains repeated close minims and a long medial s.",
+              "Domicilis has two tall l strokes near its close."
+            ],
+            "comparison": "This household entry follows the livestock and crop items in Boxes 2 and 3.",
+            "uncertainty": "The core phrase is visible; surrounding valuation words and figures remain faint."
+          }
+        }
+      ]
+    },
+    {
+      "id": "debts",
+      "title": "4. Place James Glasgow inside the debts-awand section",
+      "page_label": "National Records of Scotland, Glasgow Commissary Court CC9/7/3, image 114; Crown copyright",
+      "image": "/assets/research/testament-crops/geillis-1603-debts.jpg",
+      "image_width": 1950,
+      "image_height": 850,
+      "alt": "4. Original manuscript crop of debts owed by the estate, including James Glasgow in Stevenston and servants.",
+      "original": "Dittis awand ... my lord of Eglintoun ... James glasgw in Stevinstoun ... Robert boyd & bessie ... servantie",
+      "reading": "The estate owed rent or ferm to the lord of Eglinton, money to James Glasgow in Stevenston, and past wages to Robert Boyd and Bessie.",
+      "explanation": "Box 1 is the debt heading. Box 2 identifies the superior or landlord account. Box 3 contains James Glasgow with Stevenston, and Box 4 contains the servant names. Because James appears under debts awand, his role here is creditor/payee; no kin word accompanies him.",
+      "proves": "A financial connection between Geillis's estate and James Glasgow in Stevenston, plus wage debt to named servants.",
+      "does_not_prove": "It does not call James Geillis's father or brother, and it does not identify servant Bessie with Bessie Wilson.",
+      "confidence": "High for the section, James Glasgow/Stevenston and Robert Boyd; moderate for Bessie's surname and sums.",
+      "marks": [
+        {
+          "x": 40,
+          "y": 20.588235294117645,
+          "w": 24.615384615384617,
+          "h": 8.823529411764707,
+          "label": "Dittis awand",
+          "kind": "role",
+          "pixel_bbox": [
+            780,
+            175,
+            1260,
+            250
+          ],
+          "analysis": {
+            "reading": "Dittis awand",
+            "expansion": "Debts owing [by the estate]",
+            "features": [
+              "Dittis begins with a looped capital whose horizontal entry stroke reaches left.",
+              "The doubled t has a shared high cross stroke.",
+              "Awand ends with a tall d ascender rising above the preceding letters."
+            ],
+            "comparison": "The preceding line Na dettis awand refers to debts owing to the estate; this new heading reverses the accounting direction.",
+            "uncertainty": "The heading is clear; the direction is established by its position after the no-debts-to-estate note and the listed payees."
+          }
+        },
+        {
+          "x": 26,
+          "y": 68.70588235294117,
+          "w": 41.28205128205128,
+          "h": 13.76470588235294,
+          "label": "my lord of Eglintoun",
+          "kind": "name",
+          "pixel_bbox": [
+            507,
+            584,
+            1312,
+            701
+          ],
+          "analysis": {
+            "reading": "my lord of Eglintoun",
+            "expansion": "the lord of Eglinton",
+            "features": [
+              "Lord begins with a tall looped l that descends into the following rounded letters.",
+              "Eglintoun has an enlarged open E and a g descending below the baseline.",
+              "The terminal oun is a compressed sequence ending in a short n stroke."
+            ],
+            "comparison": "This name heads the first debt entry immediately below Dittis awand.",
+            "uncertainty": "The title and place-name are legible; the nature and amount of the rent/ferm following them are less clear."
+          }
+        },
+        {
+          "x": 21.53846153846154,
+          "y": 70,
+          "w": 46.15384615384615,
+          "h": 11.176470588235295,
+          "label": "James glasgw in Stevinstoun",
+          "kind": "name",
+          "pixel_bbox": [
+            420,
+            595,
+            1320,
+            690
+          ],
+          "analysis": {
+            "reading": "James glasgw in Stevinstoun",
+            "expansion": "James Glasgow in Stevenston",
+            "features": [
+              "James begins with a long initial J descending below the line before returning upward.",
+              "Glasgw uses the same compact final w abbreviation visible in Geillis's surname in step 1.",
+              "Stevinstoun begins with a broad capital S and ends in the tightly joined toun sequence."
+            ],
+            "comparison": "The same-hand glasgw abbreviation can be compared directly with Geillis glasgw in step 1.",
+            "uncertainty": "The name and locality are clear; the following sum and reason for payment are unresolved."
+          }
+        },
+        {
+          "x": 47.692308,
+          "y": 76.470588,
+          "w": 36.923077,
+          "h": 12.352941,
+          "label": "Robert boyd & bessie",
+          "kind": "name",
+          "pixel_bbox": [
+            930,
+            650,
+            1650,
+            755
+          ],
+          "analysis": {
+            "reading": "Robert boyd & bessie",
+            "expansion": "Robert Boyd and Bessie",
+            "features": [
+              "Robert has an enlarged R with a long leftward entry loop.",
+              "Boyd contains a y descender that passes below the shared baseline.",
+              "Bessie begins with a looped lower-case b and has a long s in the middle of the word."
+            ],
+            "comparison": "The following servantie phrase, outside the box, defines their wage-related role.",
+            "uncertainty": "Robert Boyd and Bessie are legible; Bessie's surname is not securely visible."
+          }
+        }
+      ],
+      "word_studies_replaced": true
+    },
+    {
+      "id": "confirmation",
+      "title": "5. Date confirmation eleven days after the April decree",
+      "page_label": "National Records of Scotland, Glasgow Commissary Court CC9/7/3, image 114; Crown copyright",
+      "image": "/assets/research/testament-crops/geillis-1603-confirmation.jpg",
+      "image_width": 1950,
+      "image_height": 1200,
+      "alt": "5. Original manuscript crop beginning At Glasgow the eleventh day of May 1603 and continuing the confirmation formula.",
+      "original": "At Glasgow the xj day of Maii 1603 yeiris ... confirme the present testament and Inventar",
+      "reading": "At Glasgow on 11 May 1603 the commissary confirmation process records and confirms the testament and inventory.",
+      "explanation": "Boxes 1 and 2 form one dated opening: At Glasgow and the xj day of Maii 1603. Box 3 follows the later line naming the present testament and Inventar. This is confirmation, eleven days after the 30 April executor decree, not Geillis's death date.",
+      "proves": "The place and date of confirmation and the legal character of the closing passage.",
+      "does_not_prove": "The confirmation formula does not add parents or children and should not be mined for invisible boilerplate.",
+      "confidence": "High for Glasgow, 11 May 1603 and the testament/inventory language; lower for names inside the faded formula.",
+      "marks": [
+        {
+          "x": 15.384615,
+          "y": 17.5,
+          "w": 27.179487,
+          "h": 12.083333,
+          "label": "At Glasgow",
+          "kind": "name",
+          "pixel_bbox": [
+            300,
+            210,
+            830,
+            355
+          ],
+          "analysis": {
+            "reading": "At Glasgow",
+            "expansion": "At Glasgow",
+            "features": [
+              "At begins with a large sweeping capital A whose entry stroke reaches left.",
+              "Glasgow has a broad capital G followed by compact connected lower-case letters.",
+              "The final w turns upward in the same manner as the abbreviated surnames above."
+            ],
+            "comparison": "This is a place in the confirmation formula, unlike glasgw used as Geillis's and James's surname in steps 1 and 4.",
+            "uncertainty": "The place reading is clear; capitalization is editorial."
+          }
+        },
+        {
+          "x": 38.974359,
+          "y": 18.333333,
+          "w": 37.435897,
+          "h": 10.833333,
+          "label": "the xj day of Maii 1603",
+          "kind": "date",
+          "pixel_bbox": [
+            760,
+            220,
+            1490,
+            350
+          ],
+          "analysis": {
+            "reading": "the xj day of Maii 1603",
+            "expansion": "the 11th day of May 1603",
+            "features": [
+              "The Roman xj is separated from the surrounding words and has a descending final j.",
+              "Maii begins with a broad looped M followed by two short i strokes.",
+              "The year uses four Arabic numerals placed before yeiris."
+            ],
+            "comparison": "Step 2's last day of Aprile is the earlier executor decree; this line is the confirmation date.",
+            "uncertainty": "The Roman day numeral reads xj; it is not a marriage or death date."
+          }
+        },
+        {
+          "x": 30.76923076923077,
+          "y": 53.333333333333336,
+          "w": 63.589743589743584,
+          "h": 11.666666666666666,
+          "label": "present testament and Inventar",
+          "kind": "role",
+          "pixel_bbox": [
+            600,
+            640,
+            1840,
+            780
+          ],
+          "analysis": {
+            "reading": "present testament and Inventar",
+            "expansion": "present testament and inventory",
+            "features": [
+              "Present begins with a tall looped p descender entering from below the baseline.",
+              "Testament contains a long s and repeated tall t strokes crossed high.",
+              "Inventar again uses the enlarged initial seen in the inventory heading."
+            ],
+            "comparison": "Inventar repeats the heading in step 3 and ties the confirmation to the same estate account.",
+            "uncertainty": "The phrase is readable; the surrounding confirmation boilerplate is only partly legible."
+          }
+        }
+      ]
+    }
+  ],
+  "index_confirmation": {
+    "indexed_name": "Geillis Glasgw",
+    "date": "1603-05-11",
+    "description": "spouse to Thomas Wilson in Chaipliehill, parish of Ardrossane",
+    "record_type": "TD&Inventory",
+    "court": "Glasgow Commissary Court",
+    "reference": "CC9/7/3",
+    "status": "confirmed by supplied archival index",
+    "supplied_on": "2026-09-10"
+  }
+}

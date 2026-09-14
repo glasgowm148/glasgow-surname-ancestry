@@ -13,7 +13,7 @@
     {
       "claim": "Robert Glasgow-1367 is chronologically possible as Alexander's father but is not proved.",
       "confidence": "low",
-      "reasoning": "His 1803 marriage and large 1831 Coltrim household allow a son born in 1811, but no record proves that the unidentifiable 1834 Lisnagaver Robert was the Robert recorded at Glenleslie in 1851 or names Alexander as his son.",
+      "reasoning": "The reported 1803 marriage could accommodate a son born about 1811, but no record names Alexander as his son. The 1831 Coltrim household belongs to a distinct unresolved Robert-3941 and cannot be used as this father candidate’s household; the 1834 Lisnagaver Robert is also not identified with him.",
       "sources": [
         "../Glasgow-1367/findings.md",
         "http://www.census.nationalarchives.ie/pages/1851/Antrim/Kilconway/Dunaghy/Glenleslie/23/"
@@ -28,9 +28,18 @@
         "sources/proni_VAL-12-B-4-16C_lisnagaver_lot25.jpg",
         "sources/proni_VAL-12-B-4-16D_lisnagaver_lot25.jpg"
       ]
+    },
+    {
+      "claim": "The tested Alexander-descendant and James J Glasgow descendant lines both belong to R-FT20271.",
+      "confidence": "confirmed named test placement; named common ancestor unresolved",
+      "reasoning": "Public FTDNA project rows rechecked 13 September 2026; maintained Y-111 comparison reports genetic distance three. This establishes shared paternal ancestry, not a father or exact degree.",
+      "sources": [
+        "https://www.familytreedna.com/public/Glasgow?iframe=ydna-results-overview",
+        "profile-evidence-review-2026-09-13.md"
+      ]
     }
   ],
-  "objective": "Establish the identity and documented family of Glasgow-951, separating sourced facts from tree assertions.",
+  "objective": "Explain Alexander’s life and family through the complete record sequence; test the probable 1888 death and the historical relationship between the confirmed FT20271 lines while resolving parentage from sources.",
   "questions": [
     {
       "answer": "Baptisms at Gortereagh and Lisnagaver, the 1851 Lisnagaver census, son Robert's 1866 marriage, and PRONI lot 25 revision books form the documented identity sequence.",
@@ -39,22 +48,104 @@
       "status": "answered"
     },
     {
-      "answer": "No inspected contemporary record identifies either parent. James-1702 is excluded; Robert-1367 remains only a possible older relative. An unidentified James is a weak naming-pattern lead, while older Alexander and Rosanna rest on late testimony.",
+      "answer": "No inspected contemporary record identifies either parent. James-1702 is excluded; Robert-1367 remains only a possible older relative. The recovered 2020 descendant correspondence and collateral Y-67 comparison line create better tests of the Thomas/locality hypotheses, but older Alexander and Rosanna remain uncertain.",
       "id": "parents",
       "question": "Which original or indexed records identify the parents?",
       "status": "open"
     },
     {
-      "answer": "Mary McCaughan and children James, Robert and Ann are supported by baptisms, the 1851 household and Robert's 1866 marriage. Thomas is a probable brother; Daniel and Thomas are proved brothers, but Alexander's link to them is indirect.",
+      "answer": "Mary McCaughan and the documented children are supported by baptisms, the 1851 household and later marriages. Daniel and Thomas are proved brothers; Alexander's link remains possible brother or cousin. The Boyd memorial family is now resolved through original records, while the Dysart/Hampton identity remains unmerged because of conflicting age evidence.",
       "id": "family",
       "question": "Which spouses and children are directly supported by records?",
       "status": "answered"
     },
     {
-      "answer": "James-1702 is too young; the 1834 Lisnagaver Robert is not identified as Robert-1367; and the 1888 Ballymoney death aged 84 belongs to the separate Gortahar labourer represented by Glasgow-2717.",
+      "answer": "The Gortahar 16 May 1888 death is the probable best-supported match, with a seven-year census/death age conflict and unproved Nancy/Ann identity. The original gives Nancy’s Gortahar residence. Glenleslie Glasgow-2385 is a weaker real alternative; no reassignment is justified.",
       "id": "conflicts",
       "question": "What conflicts or same-name conflations must be resolved?",
-      "status": "answered"
+      "status": "partly_answered"
+    }
+  ],
+  "priority_actions": [
+    {
+      "priority": 1,
+      "question": "1. What kind of 1829 Lisnagaver occurrence is this Alexander?",
+      "action": "[Belfast News-Letter, **5 June 1829, page 4, article 015**](https://www.britishnewspaperarchive.com/image-viewer?issue=BL%2F0000038%2F18290605&page=0004&article=015), full heading and adjoining columns around **Alex. Glasgow, Lisnagaver**; compare the Elder and Wallace entries.",
+      "status": "Original alert and public newspaper index inspected; page 4, article 015 located. Full image access blocked; registration context provisional and identity unresolved.",
+      "discriminating_outcomes": "Age or qualification wording could distinguish the census-age man, the same man with an earlier birth, or an older namesake. No adulthood rule, freehold status or fatherhood follows from the snippet.",
+      "assessed": "2026-09-13"
+    },
+    {
+      "priority": 2,
+      "question": "2. Was Archibald’s missing son Robert of Tennessee?",
+      "action": "[Newberry estate index](https://genealogytrails.com/scar/newberry/estates1785-1949/22.htm): Archibald, **1818 estate 647, box 27, package 57**; adult distributions, receipts, releases and powers of attorney. Compare the **1810 Archald census, image 4433429_00206**, and James-2439’s **1831 estate 1643, box 63, package 158**.",
+      "status": "Indexes located; no matching estate packet or 1810 household image found in the saved material reviewed. Estate 646 is a separate guardianship proceeding.",
+      "discriminating_outcomes": "A named Robert in Tennessee, a kinship clause or a receipt identifying the missing boy could establish or redirect the American branch. An omitted adult in a guardianship list is not an exclusion. James-2439’s heirs test an alternative father for James J.",
+      "assessed": "2026-09-13"
+    },
+    {
+      "priority": 3,
+      "question": "3. Did the Inishrush family come from James of Larne?",
+      "action": "William-3324’s surviving **1815 will, PRONI D300/1/5/49**; **MIC/1B/6**, the reported 1762 James–Janet marriage and earlier baptisms; Belfast records before the 1760 ropewalk lease; Adam’s Inishrush tenancy in **D1062/1/5** and the Vintners rentals.",
+      "status": "Specific catalogue targets and existing source trails; will clauses, original marriage and relevant tenancy succession remain uninspected.",
+      "discriminating_outcomes": "Look for named siblings, nephews, places, predecessors and any recorded prior marriage. An Adam of Inishrush or a Larne origin would bridge the branches. A different named father would redirect the hypothesis. Janet’s reported 1762 marriage must not supply maternity for Adam born about 1758.",
+      "assessed": "2026-09-13"
+    },
+    {
+      "priority": 4,
+      "question": "4. Who were Alexander and Mary’s parents?",
+      "action": "Reported **1836 marriage** in surviving First Kilraughts material, film 197; Ballymoney/Kilraughts family and society registers **PRONI CR5/32/1/1/1–2**",
+      "status": "Not inspected; the existing PRONI enquiry remains pending. Rasharkin’s surviving marriage register starts in 1845",
+      "discriminating_outcomes": "Named parents or an explicit family group could decide a candidate. Witness names supply leads, not automatic kinship. Failure in an incomplete or later-starting register cannot exclude the marriage.",
+      "assessed": "2026-09-13"
+    },
+    {
+      "priority": 5,
+      "question": "5. How do James’s Rochester family and the remaining title interests connect?",
+      "action": "[C114, 25 March 1868](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LQRC-Y): Alexander Glasco, Rochester express agent, son of James the Prescott carpenter; compare B395/B601 daughters Eliza Jane and Mary, earlier parcel interests and the remaining family records. Separately resolve the Samuel 1875 and James E. 1900–09 estate-index rows. Follow Mary Glasgow Black’s identified children at Drumoolish, Newburgh and Legrand from C298.",
+      "status": "Original B12/B13/B395/B465/B601 and C113/C114/C298 inspected. Irish Daniel and Thomas identified; Rochester Alexander’s identity with Alexander-951 unproved. Ninth and eighteenth interests remain unreconciled with the will’s sixth.",
+      "discriminating_outcomes": "The named carpenter’s children provide a concrete family to reconstruct. Establish their earlier lives and title interests before equating their father with Robert’s brother or assigning James to Alexander-951. The abstract dates are not automatically execution dates. Mary Black’s documented branch offers a separate local route to the siblings’ parents.",
+      "assessed": "2026-09-13"
+    },
+    {
+      "priority": 6,
+      "question": "6. Can existing DNA distinguish the closest paternal branches?",
+      "action": "Audit the existing reported Robert-1143 (Y-111), James-1144 (Y-37) and John-822 (Y-67) descendant paths and whether further SNP results already exist. Compare consented James J calls and coverage with Alexander’s line; retain the FT6135/FTE32242 comparison in the Robert-12 family.",
+      "status": "The [matrix](#paternal-dna) identifies direct calls, displayed placements and unresolved states",
+      "discriminating_outcomes": "Resolved SNP states in these particular Larne and Inishrush lines test the proposed branch connections. A matching downstream state could strengthen a narrower grouping; differing states require mutation placement and pedigree review. A broad STR group or an absent variant-list entry is not a negative SNP call. Establish the useful historical split before proposing a new paid test.",
+      "assessed": "2026-09-13"
+    },
+    {
+      "priority": 7,
+      "question": "7. Which Alexander died, and who was Nancy?",
+      "action": "Original John Martin Glascow–Mary Gibson marriage, **10 November 1870**, [reported index](https://www.familysearch.org/ark:/61903/1:1:QGYQ-ZW9Z); follow Ann McCracken from son William James’s **21 September 1877 Lisnagaver birth** and seek Nancy/Ann records at Gortahar, 1877–1901",
+      "status": "The marriage remains a profile-derived lead; original access blocked. Nancy has no independent link to either family. Ignore the copied contradictory Coleraine/County Offaly location.",
+      "discriminating_outcomes": "A compatible father Alexander and Glenleslie context would locate the rival’s later family. An explicit Nancy/Ann alias or parents would distinguish the two households. Neither a common name nor an unmarked father-deceased field proves identity or survival. Verify Mary Ann Martin’s alleged 1882 death and any remarriage before using marital status to exclude her husband.",
+      "assessed": "2026-09-13"
+    },
+    {
+      "priority": 8,
+      "question": "8. Does Scottish Robert belong to the Irish couple?",
+      "action": "[James’s 10 July 1869 birth](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSFB-KDZR), film **008065881 image 256**; corroborate with [Agnes’s 19 August 1875 birth](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSFB-FXZ5), film **008066640 image 244**",
+      "status": "Exact image references recovered; access blocked, originals unread",
+      "discriminating_outcomes": "Read the parents’ marriage date/place: agreement with **5 April 1866** supplies a much stronger identity bridge than parental names alone. A conflicting marriage requires a namesake review; a blank field leaves the bridge open. Two siblings may repeat the same parents’ report. Then verify the copied 1871/1881/1891 households against all family members.",
+      "assessed": "2026-09-13"
+    },
+    {
+      "priority": 9,
+      "question": "9. Does Robert’s death name Alexander and Mary?",
+      "action": "Alleged **27 November 1902** death; Camlachie **644/2/849**",
+      "status": "Citation is misplaced beneath daughter Mary in the copied brief; verify the subject first",
+      "discriminating_outcomes": "Matching parents and wife Jane Graham would strengthen the Scottish bridge and add later family testimony. Different parents need reconciliation. A deceased-father statement would set an upper boundary, not identify the 1888 death.",
+      "assessed": "2026-09-13"
+    },
+    {
+      "priority": 10,
+      "question": "10. What does the original 1838 baptism say?",
+      "action": "Rasharkin Presbyterian **MIC1P/292, entry 106**, with neighbouring entries",
+      "status": "Named transcription incomplete; original not inspected",
+      "discriminating_outcomes": "A readable name and dates would identify the documented child more precisely. Marginal wording may help; no invented name or exact death follows from a blank or damaged entry.",
+      "assessed": "2026-09-13"
     }
   ],
   "schema_version": 1,
@@ -112,7 +203,60 @@
       "reason": "Search for Alexander Glasgow and Mary McCaughan circa 1836 and record witnesses/residences.",
       "status": "pending",
       "updated_at": "2026-08-05"
+    },
+    {
+      "generation": 1,
+      "id": "MIC1C/15",
+      "kind": "archive",
+      "note": "Drimbolg Reformed Presbyterian session book with discipline cases, 1809–1859; search all Glasgow spelling variants with surrounding case context.",
+      "reason": "Different evidence type for Alexander/Thomas-era collateral and later Boyd–Glasgow network.",
+      "status": "pending",
+      "updated_at": "2026-09-11"
+    },
+    {
+      "generation": 1,
+      "id": "N18544",
+      "kind": "dna",
+      "note": "Public search complete: Y-67 kit reporting John Glasgow, 1767–1851. The tester and modern descent are not public; the administrator subgroup says a Big-Y upgrade is required.",
+      "reason": "Tests a documented geographically close comparison family against Alexander's R-FT20271 line.",
+      "status": "pending",
+      "updated_at": "2026-09-12"
     }
   ],
-  "web_searches": []
+  "web_searches": [],
+  "backlog_actions": [
+    {
+      "priority": 1,
+      "action": "Inspect the John Martin Glascow–MaryGibson marriage reported 10 November 1870 to test the Glenleslie son’s later identity and family residence; current access failed, lead unverified.",
+      "status": "original required"
+    },
+    {
+      "priority": 2,
+      "action": "Compare existing consented Big Y files for James J and other close lines with direct SNP genotype/coverage; resolve FT6135/FTE32242 scenarios before recommending new tests.",
+      "status": "comparison data required"
+    },
+    {
+      "priority": 4,
+      "action": "Recover the shared-cM, longest-segment, segment-location and pedigree data behind the 9–11 February 2020 reported autosomal connection to Thomas's descendants; identify the source behind Alexander and Rosanna.",
+      "status": "open"
+    },
+    {
+      "priority": 2,
+      "action": "Verify the already privately identified N18544 tester’s documented paternal descent and current results before considering a new test; its public STR grouping is not SNP proof.",
+      "status": "open"
+    },
+    {
+      "priority": 3,
+      "action": "Inspect Drimbolg MIC1C/15 at PRONI; test the Prescott will's named Daniel and Thomas identities; obtain Mary Jane Hampton death printout 1881/1677. The Bible-image review, Boyd memorial identity and Samuel/Robert relationship are completed.",
+      "status": "open"
+    }
+  ],
+  "parentage_assessment": "Priority family-origin reconstruction: Larne James-1509 as Adam-3902’s father (3905 placeholder), with older Alexander-3904 as a possible sibling of Adam or younger James-3986 as an alternative route to Alexander-951. American chain Robert-1143→James-1144→Archibald is record-supported; Archibald→Robert-2769→JamesJ-2738 remains a coherent two-edge hypothesis. Robert-2769 is not proposed as father of the Irish men. Immediate local father alternatives remain separately assessed.",
+  "review_notes": [
+    {
+      "date": "2026-09-13",
+      "subject": "Supplied newspaper and Canadian research outputs",
+      "conclusion": "No parentage upgrade. New local chronology test and tighter Canadian share-transfer retrieval; 1875 Samuel index already known, younger Samuel alternative, Water and Centre Street parcels distinct."
+    }
+  ]
 }

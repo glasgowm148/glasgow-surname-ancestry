@@ -1,17 +1,12 @@
 # Findings: [Alexander Glasgow (Glasgow-2385), born 1816, Dunaghy, County Antrim, Ireland](https://www.wikitree.com/wiki/Glasgow-2385)
 
-Last updated: 2026-08-13
+Last updated: 2026-09-13
 
 ## Current conclusion
 
-The original 1847 marriage establishes that Alexander was a full-age labourer
-living at Glenleslie and the son of **John Glasgow, labourer**. [[Glasgow-867|
-John Glasgow of Lisnagaver]] is currently attached as that father, but the
-family gravestone places the Lisnagaver John's birth about 1816/17, the same
-generation as Alexander. Even the conflicting 1851 age makes him only about
-fifteen when Alexander was born. The relationship is chronologically impossible;
-it is retained only as uncertain until the older record-defined John can be
-identified and a materially better replacement profile is available.
+The original 1847 marriage establishes Alexander as a full-age labourer of Glenleslie, son of **John Glasgow, labourer**. The live profile and current catalogue now represent that record-defined father as [[Glasgow-4056|John Glasgow]]. The earlier attachment to [[Glasgow-867|John of Lisnagaver]] is superseded; it was chronologically incompatible with that man's memorial age. Naming the father does not prove a connection to John of Glenleslie `Glasgow-1022` or to Alexander-951.
+
+The 1851 household supports a distinct Glenleslie couple, Alexander and Mary Ann, with son John. This Alexander is a weaker but unexcluded candidate for the 1888 Gortahar death. The family's later movements are unresolved. A live-source review on 13 September found no identifiable original for Mary Anne Martin’s asserted 1882 death and an unrelated-looking Sydney marriage description involving Mary Ann Cupid. That unsourced death year cannot presently exclude her husband from a married death in 1888.
 
 ## Source findings
 
@@ -22,13 +17,7 @@ identified and a materially better replacement profile is available.
 
 ## Parentage correction
 
-[[Glasgow-867|John Glasgow of Lisnagaver]] cannot be the father named in the
-marriage because he was Alexander's contemporary. The link is marked uncertain
-rather than removed without a replacement. The register's father was an older,
-unidentified John in the Dunaghy/Glenleslie network. [[Glasgow-1022|John
-Glasgow of Glenleslie]] is old enough, but he was a farmer in 1851 and no record
-calls Alexander his son. Another John in the intervening generation is equally
-possible.
+The earlier John-867 attachment is superseded by the record-defined father [[Glasgow-4056|John Glasgow, labourer]]. The marriage proves the father's name and occupation; it does not connect him to an older Glenleslie or Lisnagaver pedigree. John-1022 remains a different, unproved possible identification, not a source-supported extension.
 
 ## Cluster significance
 
@@ -64,3 +53,36 @@ Profile prose and trees remain leads; inspect the cited record before treating a
 
 The retired Glenleslie household URL was replaced on WikiTree with the migrated
 1851 Alexander Glasgow census record, current NAI record ID 32216.
+
+## Gortahar death-candidate comparison — 13 September 2026
+
+The original [16 May 1888 Alexander Glasgow death at Gortahar](https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1888/06179/4766466.pdf),
+entry 348, describes a married labourer aged 84, informed by daughter Nancy
+Glasgow of Gortahar. This man could not be distinguished from the Glenleslie
+Alexander by occupation alone. However, the Glenleslie man's 1851 age of 35
+implies about 72 in 1888, a larger discrepancy than the seven-year discrepancy
+for [Alexander Glasgow-951](https://www.wikitree.com/wiki/Glasgow-951). No located
+record connects Glasgow-2385 to Nancy, Gortahar or the Elder household.
+
+Glasgow-951 remains the best-supported probable identification because his
+daughter Mary married Robert Elder of the later Gortahar family, Robert
+succeeded to Alexander's Lisnagaver lot 25, and daughter Mary Elder informed
+widow Mary Glasgow's 1892 death at Gortahar. These connections are indirect;
+neither death explicitly names the other deceased as spouse. Glasgow-2385 is
+a genuine but weaker candidate, not conclusively excluded. Do not transfer the
+1888 death to him on the shared name and occupation.
+
+The reported 1882 death of wife Mary Anne Martin remains unverified. The 13 September live WikiTree API review of [Martin-93219](https://www.wikitree.com/wiki/Martin-93219) found no identifiable original death citation; the biography instead includes an 1848 Sydney marriage involving Mary Ann Cupid. Do not equate those women or use the unsupported 1882 date to exclude the husband. Even a proved first-wife death would require checking remarriage.
+
+## Next identity record — 13 September 2026
+
+The live [John Martin Glasgow profile (Glasgow-2826)](https://www.wikitree.com/wiki/Glasgow-2826) reports a John Martin Glascow–Mary Gibson marriage on 10 November 1870, citing [FamilySearch QGYQ-ZW9Z](https://www.familysearch.org/ark:/61903/1:1:QGYQ-ZW9Z). This is a specific lead for the Glenleslie son’s later household, not yet an inspected marriage or proved identity. The copied Coleraine/County Offaly location is inconsistent and is not adopted. The original could identify father, occupation and residence, but omission of a deceased label would not by itself prove Alexander alive. FamilySearch returned a challenge instead of the record in the bounded lookup; the primary entry remains required.
+
+The bounded follow-up also reached the IrishGenealogy homepage, but direct retrieval returned a Cloudflare challenge and no civil-entry image was obtained. The next query is John/John Martin Glascow, marriage 10 November 1870, other person Mary Gibson; try Glasgow as the recorded-name variant and leave location unrestricted until the inconsistent copied place is resolved. This was an access failure, not a negative civil-index result.
+
+
+## Glenleslie identity follow-up — 13 September 2026
+
+The reported [John Martin Glascow–Mary Gibson marriage of 10 November 1870](https://www.familysearch.org/ark:/61903/1:1:QGYQ-ZW9Z) remains an unverified lead for the Glenleslie son. The civil original was not retrieved in this pass; search-engine absence and an access failure are not evidence against the marriage. Search without adopting the contradictory copied Coleraine/County Offaly location. A compatible father, residence and occupation could locate this family after 1851; the result would not by itself identify the 1888 Gortahar decedent.
+
+Only after identifying the son’s family locality should the wife’s alleged 1882 death be used as a bounded target. An earlier wife’s death would still require checking remarriage before excluding a later married death. [The current comparison and next tests](/people/glasgow-951.html#next-research) retain this man as a weaker, unexcluded alternative.

@@ -14,8 +14,7 @@ but Norwich is geographically remote and the record supplies no migration or
 network evidence. An uncertain Scottish parent would reduce the catalogue
 island count while making the genealogy worse.
 
-## Source finding
-
+## Source findings
 The live profile cites a FamilySearch burial index for St Peter Mancroft. The
 underlying register image has not been inspected in this review; the index is
 evidence for the burial only, not Scottish descent.

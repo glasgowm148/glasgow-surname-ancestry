@@ -11,7 +11,7 @@
 - **Living:** Prescott, Upper Canada/Canada West, by about 1835
 - **Died:** about 1856, uncertain; Prescott, Canada West, uncertain
 - **Occupation:** shipbuilder
-- **Documented siblings in the supplied will reading:** Daniel, Samuel, John, Thomas, deceased James, and Mary Glasgow
+- **Documented siblings in the supplied will reading:** Daniel, Samuel, John, Thomas, James, and Mary Glasgow
 - **Parents, spouse and children:** unknown
 
 ## Paste-ready biography
@@ -21,9 +21,9 @@
 
 == Biography ==
 
-'''Robert Glasgow''' was an early shipbuilder at Prescott, Upper Canada, later Canada West. Prescott heritage material identifies him as the builder of the Centre Street house now known as Glasgow House.<ref name="PrescottHeritage">Town of Prescott, [https://www.prescott.ca/media/3dtiztjk/council-agenda-june-16-2025.pdf ''Council Agenda, 16 June 2025''], heritage-designation material for 280 Centre Street, “Glasgow House.”</ref> A later property history dates the building to about 1835.<ref name="Recorder">Theresa Taylor, [https://www.theresataylor.com/wp-content/uploads/2017/06/Auction-all-for-others-Brockville-Recorder.pdf “Auction all for others,”] ''Brockville Recorder & Times'', 22 February 2017.</ref>
+'''Robert Glasgow''' was an early shipbuilder at Prescott, Upper Canada, later Canada West. Prescott heritage material identifies him as the builder of the Centre Street house now known as Glasgow House.<ref name="PrescottHeritage">Town of Prescott, [https://www.prescott.ca/media/3dtiztjk/council-agenda-june-16-2025.pdf ''Council Agenda, 16 June 2025''], heritage-designation material for 388 Centre Street, “Glasgow House.”</ref> A later property history dates the building to about 1835.<ref name="Recorder">Theresa Taylor, [https://www.theresataylor.com/wp-content/uploads/2017/06/Auction-all-for-others-Brockville-Recorder.pdf “Auction all for others,”] ''Brockville Recorder & Times'', 22 February 2017.</ref>
 
-Robert made his will in October 1849. The registered copy divides his estate into six shares: one each for his brothers Daniel, [[Glasgow-4010|Samuel]], John and Thomas Glasgow, one collectively for the children of his deceased brother James, and one for his sister Mary Glasgow.<ref name="Will1849">FamilySearch, ''Land records of Grenville County, 1822–1955'', film 008200419, image 35, registered copy of the will of Robert Glasgow of Prescott, dated October 1849 and registered in 1856, [https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWY9-S image 3Q9M-CSLG-LWY9-S]; original image inspected 8 September 2026.</ref>
+Robert made his will on 9 October 1849. The registered copy divides his estate into six shares: one each for his brothers Daniel, [[Glasgow-4010|Samuel]], John and Thomas Glasgow, one collectively for the children of his brother James, and one for his sister Mary Glasgow.<ref name="Will1849">FamilySearch, ''Land records of Grenville County, 1822–1955'', film 008200419, image 35, registered copy of the will of Robert Glasgow of Prescott, dated October 1849 and registered in 1856, [https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWY9-S image 3Q9M-CSLG-LWY9-S]; original image inspected 8 September 2026.</ref>
 
 The explicit sibling language makes Samuel Robert's brother, not his son. The later statement that Robert left the house to six “children” and that a son Samuel acquired the other shares appears to have misread the six-share title chain.<ref name="Will1849" /><ref name="Recorder" />
 
@@ -37,13 +37,9 @@ A modern index reports a Robert Glasgow in Augusta in the 1842 Canada West censu
 
 === Family interpretation ===
 
-The will's named beneficiaries are Robert's siblings and the children of one deceased sibling. It does not name Robert's parents, spouse or children. The same-named Glasgow men in Ireland must not be attached merely because Samuel was described as formerly of Kilrea. In particular, the will does not by itself identify the Canadian brothers with the Lisnagaver or Glenleslie families.
+The will's named beneficiaries are Robert's siblings and the children of one brother. It does not name Robert's parents, spouse or children. The 30 July 1861 conveyance, B465, identifies the will’s Daniel as the Kilrea watchmaker and Thomas as the Lisnagaver farmer, with wives Margaret and Mary Anne. This establishes the Irish sibling identities when read with the will; it does not name their parents or identify Alexander of Lisnagaver as another brother.<ref>[https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWB8-D Prescott land register, volume B, memorial 465, pp.397–398, DGS 008200419, images 240–241].</ref>
 
-The current project index and WikiTree search found no compatible profiles for
-the brothers Daniel, John, Thomas and James or the sister Mary named in the
-will. Those beneficiaries should remain unlinked until each has an identifying
-date, residence, occupation, relative or property bridge; same-name profiles
-must not be substituted.
+The 1861 deed identifies the brothers as [[Glasgow-3896|Daniel of Kilrea]] and [[Glasgow-987|Thomas of Lisnagaver]]. The original 15 September 1869 deed, C298, identifies the sister as Mary Black, formerly Glasgow, and names six children, including John and Rose Ann Black of Drumoolish.<ref>[https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LQTY-K Prescott land register, volume C, memorial 298, pp.476–482, DGS 008200420, images 277–280].</ref> John of Prescott, watchmaker, remains an unassigned profile identity. James the Prescott carpenter is a property-based comparison for brother James, but their identity is not yet proved; the will does not say James was deceased.
 
 Robert's actual birthplace is unknown. His birth is estimated only far enough before about 1835 for him to have worked as a shipbuilder and built the house. His brother Samuel was recorded as Irish-born in the original 1851 Prescott census.<ref>Library and Archives Canada, [https://central.bac-lac.gc.ca/.item/?app=Census1851&op=img&id=e002351566 1851 Census of Canada West, Prescott, page 31, lines 11–18, image e002351566], Samuel Glasgow household.</ref> Ireland is therefore a usable uncertain creation-field location from Robert's documented immediate-family context; it is not a statement that Robert's birthplace has been found. Prescott should be entered as an uncertain death place from the local history, not as a birthplace.
 

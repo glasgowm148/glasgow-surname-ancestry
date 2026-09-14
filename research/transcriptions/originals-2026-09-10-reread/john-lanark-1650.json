@@ -1,0 +1,116 @@
+{
+  "id": "john-lanark-1650",
+  "title": "John Glasgow of Quothquan: testament and confirmation, 1650",
+  "record": "National Records of Scotland, Lanark Commissary Court, CC14/5/5, images 65-66; indexed 27 May 1650",
+  "date": "1650-05-27",
+  "reviewed_at": "2026-09-10",
+  "index_confirmation": {
+    "status": "confirmed_by_index",
+    "source": "User-supplied ScotlandsPeople index excerpt",
+    "provenance": "Surname Glasgow/Glasgw; 24 results; supplied 10 September 2026",
+    "indexed_name": "John Glasgow",
+    "indexed_date": "27 May 1650",
+    "indexed_description": "in Quodquen",
+    "indexed_record_type": null,
+    "indexed_record_type_status": "blank in supplied index excerpt",
+    "court": "Lanark Commissary Court",
+    "reference": "CC14/5/5",
+    "evidential_scope": "Confirms the index entry, exact indexed residence and date; the index supplies no record type, and its date is not a death date or profile identity evidence."
+  },
+  "source_files": [
+    "testaments/Glasgow/Lanark/1650_John/1650_Glasgow.pdf",
+    "testaments/Glasgow/Lanark/1650_John/1650_John_p1.png",
+    "testaments/ScotlandsPeople_CC001400005-00005-00066-.jpg"
+  ],
+  "reviewed_pages": [
+    "Image 65: John's opening, inventory and first debts; the preceding record above John's opening is excluded",
+    "Image 66: continuation of John's debts, totals and confirmation; its upper account belongs to John"
+  ],
+  "coverage": "Both register images 65-66 are supplied. The opening, sister clause and continuity of the debts were visually checked against the nested PDF and original images. The existing detailed reading desk concentrates on the confirmation on image 66; a full diplomatic transcription of the opening and accounts remains unfinished.",
+  "provenance": {
+    "previous_review": "research/transcriptions/originals-2026-09-10/john-lanark-1650.json",
+    "walkthrough": "research/transcriptions/walkthroughs/john-lanark-1650.json",
+    "method": "Fresh visual inspection of the original JPEG before comparison with the prior review and walkthrough; no expected legal formula was used to fill unread ink."
+  },
+  "transcription": [
+    {
+      "page": "NRS image 65: selected opening phrases, not a continuous transcription",
+      "lines": [
+        "[John's entry begins below the end of a preceding record.]",
+        "testament dative and inventar",
+        "Johne Glasgow in Quothquane",
+        "Bessie Glasgow ... his lawfull sister",
+        "[These separated phrases were visually checked. The intervening opening wording, inventory and initial debts are not yet fully transcribed here.]",
+        "[John's debt list continues at the top of image 66.]"
+      ]
+    },
+    {
+      "page": "NRS image 66",
+      "lines": [
+        "[Continuation of John's debts from image 65; these account lines are not yet fully transcribed here.]",
+        "Maister James Carmichaell commissar of Lanark speciallie",
+        "constitute for confirmation of testamentis within the boundis of his commissioun",
+        "haveing seine and considerit the testament [descriptor not re-transcribed here] and inventar",
+        "of the guidis geir and debtis of the said umquhile John",
+        "Glasgow in Quodquen [legal review formula partly illegible]",
+        "[the said] Bessie Glasgow [appointment wording partly illegible] executrix",
+        "[confirmation formula partly illegible]",
+        "Bessie Glasgow in Quodquen executrix dative to the said umquhile John",
+        "Glasgow hir brother, with power to intromet with the guidis",
+        "and geir abovewrittin [administration formula partly illegible]",
+        "[name of cautioner illegible] personallie present [security formula]",
+        "[closing procurator and instrument clause; personal name illegible]"
+      ]
+    }
+  ],
+  "plain_english": [
+    "The supplied opening names John Glasgow in Quothquan and explicitly calls Bessie Glasgow his lawful sister. It describes the instrument as a testament dative and inventory. The inventory and first debts are present, and the debt list continues on the next register image.",
+    "James Carmichael acts as commissary of Lanark in the court confirmation.",
+    "Bessie Glasgow in Quothquan is confirmed as executor dative of the late John Glasgow and the document expressly calls John her brother.",
+    "The sibling wording is direct kinship evidence. Carmichael's office and the unread caution/procurator clauses are administrative, not family evidence.",
+    "The opening is supplied on image 65 in the nested PDF and opening crop. John's debts continue at the top of image 66. These are available originals, not missing pages; full word-by-word transcription remains unfinished."
+  ],
+  "findings": [
+    "Image 65 supplies the original sister clause, Bessie Glasgow ... his lawfull sister. This supports the same sibling relationship expressed as hir brother in the confirmation; both clauses belong to one testament.",
+    "Confirmed, not newly discovered: the ink securely reads 'Bessie Glasgow in Quodquen executrix dative ... John Glasgow hir brother'.",
+    "Confirmed: John and Bessie are siblings and both are associated in this instrument with Quodquen/Quothquan.",
+    "Confirmed: James Carmichael is commissary of Lanark; the record does not describe him as kin.",
+    "Unresolved after reread: the cautioner's name, the closing procurator's name, and Bessie's marital status or any designation beyond Quodquen.",
+    "The 1650 John is a distinct record-defined person from the 1661/1662 and 1685 Johns; shared name and locality do not merge them."
+  ],
+  "changes_from_previous": [
+    "No family conclusion changed: the explicit brother clause and Bessie's executor-dative role are reconfirmed at high confidence.",
+    "The reread audits James Carmichael, the unread cautioner and the unread procurator separately instead of allowing court roles to imply kinship.",
+    "Images 65-66 are both supplied; image 65 contains the opening and inventory, while image 66 continues John's debts and confirmation. Full word-by-word transcription remains unfinished."
+  ],
+  "unresolved": [
+    "Image 65: testament opening, death wording, inventory, debts, and original nomination or appointment",
+    "Bessie Glasgow's marital status and any additional designation",
+    "The cautioner's name and the closing procurator's name",
+    "Any parents or additional siblings of John and Bessie"
+  ],
+  "profiles": [
+    [
+      "Glasgow-3296",
+      "John Glasgow of Quothquan; this 1650 testament is the record-specific match"
+    ]
+  ],
+  "confidence_statement": "High for John and Bessie's names, their explicit sibling relationship, and the presence and continuity of images 65-66. The opening reads testament dative and inventar and calls Bessie his lawfull sister. The confirmation's administrative names retain their existing qualifications. The indexed confirmation date is 27 May 1650; precise date wording, full opening transcription and account details still need deliberate transcription.",
+  "reviewer": "Codex fresh original-image name, role, and locality audit",
+  "source_availability": {
+    "checked_on": "2026-09-10",
+    "method": "Astra xhigh visual inspection of both PDF pages, the opening crop and the separate image 66; recursive supplied-file inventory",
+    "supplied_register_images": [
+      65,
+      66
+    ],
+    "sources": [
+      "testaments/Glasgow/Lanark/1650_John/1650_Glasgow.pdf",
+      "testaments/Glasgow/Lanark/1650_John/1650_John_p1.png",
+      "testaments/ScotlandsPeople_CC001400005-00005-00066-.jpg"
+    ],
+    "opening": "Image 65 contains the opening, inventory and first debts. The PNG is a 1194 by 1032 pixel crop of that entry, not a separate missing page.",
+    "continuation": "John's debts continue at the top of image 66, followed by totals and confirmation. The top of image 66 is not a preceding testament.",
+    "reading_status": "Opening identity, sister clause, document type and record continuity visually checked; a full diplomatic transcription of the opening and accounts remains unfinished."
+  }
+}

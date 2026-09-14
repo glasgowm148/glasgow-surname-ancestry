@@ -1,0 +1,704 @@
+{
+  "id": "john-lanark-1650",
+  "review": {
+    "date": "2026-09-10",
+    "model": "gpt-6-astra",
+    "reasoning_effort": "xhigh",
+    "method": "Original-image review and source-pixel focus envelopes. Shared presentation expanded from the compact vision handoff; literal abbreviations, crossing ink and uncertainty retained."
+  },
+  "studies": [
+    {
+      "id": "john-lanark-1650-bessie",
+      "title": "Bessie Glasgow",
+      "nav_label": "Bessie Glasgow",
+      "image": "/assets/research/testament-crops/john-lanark-1650-sister.jpg",
+      "image_width": 1500,
+      "image_height": 281,
+      "region": [
+        144,
+        63,
+        407,
+        164
+      ],
+      "reading": "Bessie Glasgow",
+      "expansion": "Bessie Glasgow",
+      "confidence": "High",
+      "context": "Find Bessie after said, before executrix dative.",
+      "review_status": "source-aligned",
+      "locator_note": "Find Bessie after said, before executrix dative. Use the later hir brother clause, not her office, to establish the sibling relationship.",
+      "conclusion": "No parents, spouse or additional siblings are identified.",
+      "letters": [
+        {
+          "id": "john-lanark-1650-bessie-w1-g1",
+          "glyph": "Be",
+          "label": "Bessie: Be",
+          "region": [
+            144,
+            80,
+            84,
+            123
+          ],
+          "paths": [],
+          "observed": "The larger initial and small e begin after said.",
+          "matches": "Compare with the same-clerk source example below: The confirmation repeats her complete name within the same record.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "john-lanark-1650-bessie-w1-g2",
+          "glyph": "ssie",
+          "label": "Bessie: ssie",
+          "region": [
+            218,
+            80,
+            95,
+            123
+          ],
+          "paths": [],
+          "observed": "Joined short strokes lead into the finishing e.",
+          "matches": "Compare with the same-clerk source example below: The confirmation repeats her complete name within the same record.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "john-lanark-1650-bessie-w2-g1",
+          "glyph": "Glas",
+          "label": "Glasgow: Glas",
+          "region": [
+            299,
+            63,
+            122,
+            164
+          ],
+          "paths": [],
+          "observed": "The broad G and tall group start the surname.",
+          "matches": "Compare with the same-clerk source example below: The confirmation repeats her complete name within the same record.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "john-lanark-1650-bessie-w2-g2",
+          "glyph": "gow",
+          "label": "Glasgow: gow",
+          "region": [
+            411,
+            63,
+            140,
+            164
+          ],
+          "paths": [],
+          "observed": "The second g and following ending descend toward the next line.",
+          "matches": "Compare with the same-clerk source example below: The confirmation repeats her complete name within the same record.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        }
+      ],
+      "words": [
+        {
+          "text": "Bessie",
+          "region": [
+            144,
+            80,
+            169,
+            123
+          ],
+          "focus_polygon": [
+            [
+              144,
+              80
+            ],
+            [
+              313,
+              80
+            ],
+            [
+              313,
+              203
+            ],
+            [
+              144,
+              203
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "john-lanark-1650-bessie-w1-g1",
+              "start": 0,
+              "end": 2
+            },
+            {
+              "letter_id": "john-lanark-1650-bessie-w1-g2",
+              "start": 2,
+              "end": 6
+            }
+          ]
+        },
+        {
+          "text": "Glasgow",
+          "region": [
+            299,
+            63,
+            252,
+            164
+          ],
+          "focus_polygon": [
+            [
+              299,
+              63
+            ],
+            [
+              551,
+              63
+            ],
+            [
+              551,
+              227
+            ],
+            [
+              299,
+              227
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "john-lanark-1650-bessie-w2-g1",
+              "start": 0,
+              "end": 4
+            },
+            {
+              "letter_id": "john-lanark-1650-bessie-w2-g2",
+              "start": 4,
+              "end": 7
+            }
+          ]
+        }
+      ],
+      "reading_steps": [
+        {
+          "title": "Inspect Bessie",
+          "region": [
+            144,
+            80,
+            169,
+            123
+          ],
+          "text": "The larger initial and small e begin after said. Joined short strokes lead into the finishing e."
+        },
+        {
+          "title": "Inspect Glasgow",
+          "region": [
+            299,
+            63,
+            252,
+            164
+          ],
+          "text": "The broad G and tall group start the surname. The second g and following ending descend toward the next line."
+        },
+        {
+          "title": "Read the word in context",
+          "region": [
+            144,
+            63,
+            407,
+            164
+          ],
+          "text": "Find Bessie after said, before executrix dative."
+        },
+        {
+          "title": "Keep the conclusion within the evidence",
+          "region": [
+            144,
+            63,
+            407,
+            164
+          ],
+          "text": "Use the later hir brother clause, not her office, to establish the sibling relationship."
+        }
+      ],
+      "same_hand_comparisons": [
+        {
+          "image": "/assets/research/testament-crops/john-lanark-1650-confirmation.jpg",
+          "image_width": 1500,
+          "image_height": 429,
+          "region": [
+            568,
+            111,
+            424,
+            133
+          ],
+          "reading": "Bessie Glasgow",
+          "explanation": "The confirmation repeats her complete name within the same record."
+        }
+      ]
+    },
+    {
+      "id": "john-lanark-1650-jon",
+      "title": "Jon Glasgow across the line",
+      "nav_label": "Jon Glasgow across the line",
+      "image": "/assets/research/testament-crops/john-lanark-1650-sister.jpg",
+      "image_width": 1500,
+      "image_height": 281,
+      "region": [
+        13,
+        61,
+        1485,
+        199
+      ],
+      "reading": "Jon / Glasgow",
+      "expansion": "John Glasgow",
+      "confidence": "High",
+      "context": "Read Jon at the end of one line and Glasgow at the start of the next.",
+      "review_status": "source-aligned",
+      "locator_note": "Read Jon at the end of one line and Glasgow at the start of the next. Do not treat the line break as a new person.",
+      "conclusion": "John is the expanded form; the selected occurrence is written Jon.",
+      "letters": [
+        {
+          "id": "john-lanark-1650-jon-w1-g1",
+          "glyph": "J",
+          "label": "Jon: J",
+          "region": [
+            1340,
+            61,
+            70,
+            139
+          ],
+          "paths": [],
+          "observed": "The long initial starts the short forename at the right edge.",
+          "matches": "Compare with the same-clerk source example below: The confirmation has another occurrence of the forename before the same surname wraps below.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "john-lanark-1650-jon-w1-g2",
+          "glyph": "on",
+          "label": "Jon: on",
+          "region": [
+            1400,
+            61,
+            98,
+            139
+          ],
+          "paths": [],
+          "observed": "Only the written on ending is supplied; no h is inserted.",
+          "matches": "Compare with the same-clerk source example below: The confirmation has another occurrence of the forename before the same surname wraps below.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "john-lanark-1650-jon-w2-g1",
+          "glyph": "Glas",
+          "label": "Glasgow: Glas",
+          "region": [
+            13,
+            132,
+            158,
+            128
+          ],
+          "paths": [],
+          "observed": "Return left for the large surname initial and longer strokes.",
+          "matches": "Compare with the same-clerk source example below: The confirmation has another occurrence of the forename before the same surname wraps below.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "john-lanark-1650-jon-w2-g2",
+          "glyph": "gow",
+          "label": "Glasgow: gow",
+          "region": [
+            161,
+            132,
+            165,
+            128
+          ],
+          "paths": [],
+          "observed": "The joined ending is followed by hir brother.",
+          "matches": "Compare with the same-clerk source example below: The confirmation has another occurrence of the forename before the same surname wraps below.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        }
+      ],
+      "words": [
+        {
+          "text": "Jon",
+          "region": [
+            1340,
+            61,
+            158,
+            139
+          ],
+          "focus_polygon": [
+            [
+              1340,
+              61
+            ],
+            [
+              1498,
+              61
+            ],
+            [
+              1498,
+              200
+            ],
+            [
+              1340,
+              200
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "john-lanark-1650-jon-w1-g1",
+              "start": 0,
+              "end": 1
+            },
+            {
+              "letter_id": "john-lanark-1650-jon-w1-g2",
+              "start": 1,
+              "end": 3
+            }
+          ]
+        },
+        {
+          "text": "Glasgow",
+          "region": [
+            13,
+            132,
+            313,
+            128
+          ],
+          "focus_polygon": [
+            [
+              13,
+              132
+            ],
+            [
+              326,
+              132
+            ],
+            [
+              326,
+              260
+            ],
+            [
+              13,
+              260
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "john-lanark-1650-jon-w2-g1",
+              "start": 0,
+              "end": 4
+            },
+            {
+              "letter_id": "john-lanark-1650-jon-w2-g2",
+              "start": 4,
+              "end": 7
+            }
+          ]
+        }
+      ],
+      "reading_steps": [
+        {
+          "title": "Inspect Jon",
+          "region": [
+            1340,
+            61,
+            158,
+            139
+          ],
+          "text": "The long initial starts the short forename at the right edge. Only the written on ending is supplied; no h is inserted."
+        },
+        {
+          "title": "Inspect Glasgow",
+          "region": [
+            13,
+            132,
+            313,
+            128
+          ],
+          "text": "Return left for the large surname initial and longer strokes. The joined ending is followed by hir brother."
+        },
+        {
+          "title": "Read the word in context",
+          "region": [
+            13,
+            61,
+            1485,
+            199
+          ],
+          "text": "Read Jon at the end of one line and Glasgow at the start of the next."
+        },
+        {
+          "title": "Keep the conclusion within the evidence",
+          "region": [
+            13,
+            61,
+            1485,
+            199
+          ],
+          "text": "Do not treat the line break as a new person."
+        }
+      ],
+      "same_hand_comparisons": [
+        {
+          "image": "/assets/research/testament-crops/john-lanark-1650-confirmation.jpg",
+          "image_width": 1500,
+          "image_height": 429,
+          "region": [
+            1290,
+            216,
+            190,
+            119
+          ],
+          "reading": "John",
+          "explanation": "The confirmation has another occurrence of the forename before the same surname wraps below."
+        }
+      ]
+    },
+    {
+      "id": "hir-brother",
+      "title": "Her brother",
+      "nav_label": "Her brother",
+      "image": "/assets/research/testament-crops/john-lanark-1650-sister.jpg",
+      "image_width": 1500,
+      "image_height": 281,
+      "region": [
+        309,
+        121,
+        304,
+        138
+      ],
+      "reading": "hir brother",
+      "expansion": "Her brother",
+      "confidence": "High",
+      "context": "Follow Glasgow directly into hir brother.",
+      "review_status": "source-aligned",
+      "locator_note": "Follow Glasgow directly into hir brother. Read hir as referring back to Bessie: the deceased John is her brother. Compare the confirmation's repeated phrase as another occurrence in the same record.",
+      "conclusion": "Executor status alone would not prove kinship; this direct phrase does.",
+      "letters": [
+        {
+          "id": "hir-brother-w1-g1",
+          "glyph": "h",
+          "label": "hir: h",
+          "region": [
+            309,
+            139,
+            46,
+            120
+          ],
+          "paths": [],
+          "observed": "The first taller movement begins after Glasgow.",
+          "matches": "Compare with the same-clerk source example below: The confirmation repeats the same possessive and kin noun.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "hir-brother-w1-g2",
+          "glyph": "ir",
+          "label": "hir: ir",
+          "region": [
+            345,
+            139,
+            69,
+            120
+          ],
+          "paths": [],
+          "observed": "The short ir ending precedes the noun gap.",
+          "matches": "Compare with the same-clerk source example below: The confirmation repeats the same possessive and kin noun.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "hir-brother-w2-g1",
+          "glyph": "bro",
+          "label": "brother: bro",
+          "region": [
+            408,
+            121,
+            105,
+            132
+          ],
+          "paths": [],
+          "observed": "The b and rounded opening group begin the noun.",
+          "matches": "Compare with the same-clerk source example below: The confirmation repeats the same possessive and kin noun.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "hir-brother-w2-g2",
+          "glyph": "ther",
+          "label": "brother: ther",
+          "region": [
+            503,
+            121,
+            110,
+            132
+          ],
+          "paths": [],
+          "observed": "The later tall h and compact finish complete brother.",
+          "matches": "Compare with the same-clerk source example below: The confirmation repeats the same possessive and kin noun.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        }
+      ],
+      "words": [
+        {
+          "text": "hir",
+          "region": [
+            309,
+            139,
+            105,
+            120
+          ],
+          "focus_polygon": [
+            [
+              309,
+              139
+            ],
+            [
+              414,
+              139
+            ],
+            [
+              414,
+              259
+            ],
+            [
+              309,
+              259
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "hir-brother-w1-g1",
+              "start": 0,
+              "end": 1
+            },
+            {
+              "letter_id": "hir-brother-w1-g2",
+              "start": 1,
+              "end": 3
+            }
+          ]
+        },
+        {
+          "text": "brother",
+          "region": [
+            408,
+            121,
+            205,
+            132
+          ],
+          "focus_polygon": [
+            [
+              408,
+              121
+            ],
+            [
+              613,
+              121
+            ],
+            [
+              613,
+              253
+            ],
+            [
+              408,
+              253
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "hir-brother-w2-g1",
+              "start": 0,
+              "end": 3
+            },
+            {
+              "letter_id": "hir-brother-w2-g2",
+              "start": 3,
+              "end": 7
+            }
+          ]
+        }
+      ],
+      "reading_steps": [
+        {
+          "title": "Inspect hir",
+          "region": [
+            309,
+            139,
+            105,
+            120
+          ],
+          "text": "The first taller movement begins after Glasgow. The short ir ending precedes the noun gap."
+        },
+        {
+          "title": "Inspect brother",
+          "region": [
+            408,
+            121,
+            205,
+            132
+          ],
+          "text": "The b and rounded opening group begin the noun. The later tall h and compact finish complete brother."
+        },
+        {
+          "title": "Read the word in context",
+          "region": [
+            309,
+            121,
+            304,
+            138
+          ],
+          "text": "Follow Glasgow directly into hir brother."
+        },
+        {
+          "title": "Keep the conclusion within the evidence",
+          "region": [
+            309,
+            121,
+            304,
+            138
+          ],
+          "text": "Read hir as referring back to Bessie: the deceased John is her brother."
+        },
+        {
+          "title": "Keep the conclusion within the evidence",
+          "region": [
+            309,
+            121,
+            304,
+            138
+          ],
+          "text": "Compare the confirmation's repeated phrase as another occurrence in the same record."
+        }
+      ],
+      "same_hand_comparisons": [
+        {
+          "image": "/assets/research/testament-crops/john-lanark-1650-confirmation.jpg",
+          "image_width": 1500,
+          "image_height": 429,
+          "region": [
+            292,
+            276,
+            325,
+            139
+          ],
+          "reading": "hir brother",
+          "explanation": "The confirmation repeats the same possessive and kin noun."
+        }
+      ]
+    }
+  ],
+  "people_studies": {
+    "John Glasgow": "john-lanark-1650-jon",
+    "Bessie Glasgow": "john-lanark-1650-bessie"
+  },
+  "limitations": []
+}

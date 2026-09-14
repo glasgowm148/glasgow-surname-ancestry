@@ -33,12 +33,14 @@ William was the father of [[Glasgow-3078|Archibald Glasgow]]. On 23 October 1639
 ## Potential-father review — 10 August 2026
 
 [George Glasgow (Glasgow-1099)](https://www.wikitree.com/wiki/Glasgow-1099)
-is not supported as William's father. Ninian's 1613 testament directly names a
-son William; the uncertainty is whether that son was the later Leith
-mealmaker, not whether the testament names George instead. George's documented
-children with Margaret Stewart begin in 1607, and no record associates him
-with this William. Repeated Archibald and George names in later descendants are
-insufficient to overcome the direct parent-name conflict.
+is not supported as William's father. The earlier assertion here that Ninian's
+1613 testament directly names a son William is superseded by the original-image
+rereads: the damaged relationship wording cannot securely establish sonship,
+and the record does not identify the William occurrence as the Leith mealmaker.
+No inspected record establishes George as this William's father either.
+Repeated Archibald and George names in later descendants do not identify a parent.
+See the [10 September family synthesis](../transcriptions/early-families-2026-09-10.md)
+for the secure William-to-Archibald chain and the separate 1662 maltman identity question.
 
 ## Collateral-cluster significance - 31 August 2026
 

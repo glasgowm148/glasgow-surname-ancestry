@@ -1,0 +1,343 @@
+{
+  "id": "jonet-melk-1607",
+  "intro": "Jonet Meik's oral testament gives one secure parent-child statement: Robert Glasgow is repeatedly called her son. Her husband's forename and Marioun Glasgow's relationship word remain qualified readings.",
+  "people": [
+    {
+      "name": "Jonet Meik",
+      "role": "deceased testator",
+      "status": "explicit",
+      "evidence_step": "opening",
+      "evidence_study": "jonet-melk-1607-name"
+    },
+    {
+      "name": "Niniane[?] Glasgow",
+      "role": "husband; forename reading qualified",
+      "status": "uncertain",
+      "profile_id": "Glasgow-3188",
+      "evidence_step": "opening",
+      "evidence_study": "jonet-melk-1607-diagnostic-letters"
+    },
+    {
+      "name": "Robert Glasgow",
+      "role": "son",
+      "status": "explicit",
+      "profile_id": "Glasgow-1027",
+      "evidence_step": "opening",
+      "evidence_study": "jonet-melk-1607-robert-son"
+    },
+    {
+      "name": "Marioun Glasgow",
+      "role": "legatee; relationship word unresolved",
+      "status": "uncertain",
+      "evidence_step": "marioun",
+      "evidence_study": "jonet-melk-1607-marioun"
+    }
+  ],
+  "card_kin": {
+    "spouse": [{"name": "Niniane[?] Glasgow", "relationship": "husband; forename reading qualified", "status": "explicit", "evidence_step": "opening", "evidence_study": "jonet-melk-1607-diagnostic-letters"}],
+    "children": [{"name": "Robert Glasgow", "relationship": "son", "status": "explicit", "evidence_step": "opening", "evidence_study": "jonet-melk-1607-robert-son"}],
+    "other_kin": []
+  },
+  "steps": [
+    {
+      "id": "opening",
+      "title": "A qualified husband, an explicit son",
+      "page_label": "NRS CC9/7/5, image 82; Crown copyright, National Records of Scotland.",
+      "image": "/assets/research/testament-crops/jonet-melk-1607-opening.jpg",
+      "image_width": 1050,
+      "image_height": 330,
+      "alt": "Opening of Jonet Meik's testament naming her husband and son Robert.",
+      "original": "Jonet meik spous to Niniane[?] glasgow ... vpoun the fyftein[?] day of februar 1606 ... Niniane[?] glasgow hir spous and Robert glasgow hir sone",
+      "reading": "Jonet Meik, spouse of Niniane[?] Glasgow ... on the fifteenth[?] day of February 1606 ... Niniane[?] Glasgow her spouse and Robert Glasgow her son",
+      "explanation": "Read the opening across two tightly spaced lines. The kin terms hir spous and hir sone are visible beside their names, so relationship does not depend on appointment language. The husband's forename and the ordinal remain bracketed because their crowded middle strokes can support alternatives; the repeated husband form helps without making it certain.",
+      "proves": "Robert Glasgow was Jonet Meik's son; the oral testament was made in February 1606.",
+      "does_not_prove": "It does not secure the husband's forename beyond doubt or give Jonet's exact death date; she died an unread number of days later.",
+      "confidence": "high for Robert as son; medium for Niniane and the fifteenth",
+      "marks": [
+        {
+          "x": 2.857142857142857,
+          "y": 28.18181818181818,
+          "w": 20.38095238095238,
+          "h": 26.666666666666668,
+          "label": "Jonet Meik",
+          "kind": "name",
+          "pixel_bbox": [
+            30,
+            93,
+            244,
+            181
+          ],
+          "analysis": {
+            "reading": "Jonet meik",
+            "expansion": "Jonet Meik",
+            "features": [
+              "The capital J has a long downstroke and leftward return below the line.",
+              "Jonet ends in a tall crossed t that rises above the preceding letters.",
+              "meik is a compact group of short minims ending in a taller k-like stroke."
+            ],
+            "uncertainty": "The woman's name is clear; the file identifier's 'melk' does not override the visible Meik reading."
+          }
+        },
+        {
+          "x": 23.523809523809526,
+          "y": 27.575757575757574,
+          "w": 36.952380952380956,
+          "h": 32.121212121212125,
+          "label": "spous to Niniane[?] Glasgow",
+          "kind": "uncertain",
+          "pixel_bbox": [
+            247,
+            91,
+            635,
+            197
+          ],
+          "analysis": {
+            "reading": "spous to Niniane[?] glasgow",
+            "expansion": "spouse of Niniane [?] Glasgow",
+            "features": [
+              "spous begins with a long s and a deep p descender.",
+              "The forename opens with a large N formed by tall crossing strokes.",
+              "Its middle sequence is a row of similar minims, the main reason Niniane remains qualified.",
+              "glasgow ends in the clerk's tight w-like zig-zag."
+            ],
+            "comparison": "The lower line repeats Niniane[?] glasgow before hir spous, providing a same-hand check.",
+            "uncertainty": "The spouse role and surname are clear; the husband's exact forename is not fully secure."
+          }
+        },
+        {
+          "x": 70.285714,
+          "y": 38.787879,
+          "w": 29.52381,
+          "h": 29.090909,
+          "label": "fyftein[?] day",
+          "kind": "uncertain",
+          "pixel_bbox": [
+            738,
+            128,
+            1048,
+            224
+          ],
+          "analysis": {
+            "reading": "fyftein[?] day",
+            "expansion": "fifteenth [?] day",
+            "features": [
+              "The initial f is a tall descending stroke crossing the body line.",
+              "The middle -ftein sequence is compressed and partially crowded by adjacent strokes.",
+              "day ends in a long y descender near the crop's right edge."
+            ],
+            "uncertainty": "The day formula is clear, but the ordinal remains only a probable fifteenth."
+          }
+        },
+        {
+          "x": 4.571429,
+          "y": 49.69697,
+          "w": 28.190476,
+          "h": 26.060606,
+          "label": "of februar 1606",
+          "kind": "uncertain",
+          "pixel_bbox": [
+            48,
+            164,
+            344,
+            250
+          ],
+          "analysis": {
+            "reading": "of februar 1606",
+            "expansion": "of February 1606",
+            "features": [
+              "of is a small rounded o joined to a long f stroke.",
+              "februar begins with another tall f and has a dense run of small connected letters.",
+              "1606 appears as four separate darker figures after a clear word gap."
+            ],
+            "uncertainty": "Month and written year are secure; calendar normalization is separate from the letter reading."
+          }
+        },
+        {
+          "x": 18.571429,
+          "y": 57.878788,
+          "w": 39.333333,
+          "h": 30.909091,
+          "label": "Niniane[?] Glasgow hir spous",
+          "kind": "uncertain",
+          "pixel_bbox": [
+            195,
+            191,
+            608,
+            293
+          ],
+          "analysis": {
+            "reading": "Niniane[?] glasgow hir spous",
+            "expansion": "Niniane [?] Glasgow, her spouse",
+            "features": [
+              "The capital N repeats the crossing-stroke form in the earlier occurrence.",
+              "glasgow contains a deep initial g descender.",
+              "hir is short and separate before spous; the latter again shows a long s and p descender."
+            ],
+            "comparison": "Compare the first-line husband form immediately above; repetition supports, but does not settle, Niniane.",
+            "uncertainty": "The relationship is explicit; the forename remains bracketed."
+          }
+        },
+        {
+          "x": 60.38095238095238,
+          "y": 52.121212121212125,
+          "w": 32.476190476190474,
+          "h": 27.575757575757574,
+          "label": "Robert Glasgow hir sone",
+          "kind": "relationship",
+          "pixel_bbox": [
+            634,
+            172,
+            975,
+            263
+          ],
+          "analysis": {
+            "reading": "Robert glasgow hir sone",
+            "expansion": "Robert Glasgow, her son",
+            "features": [
+              "Robert begins with a large looped R and has a tall b in the middle.",
+              "glasgow's g descender crosses into the lower line space.",
+              "hir sone is a separate short phrase; sone begins with the clerk's long s."
+            ],
+            "comparison": "The residue clause on image 83 repeats Robert glasgow hir sone across a line break.",
+            "uncertainty": "Robert's sonship is explicit; the clause does not state that the named spouse was his father."
+          }
+        }
+      ],
+      "word_studies_replaced": true
+    },
+    {
+      "id": "marioun",
+      "title": "Marioun's kin word stays unresolved",
+      "page_label": "NRS CC9/7/5, image 83; Crown copyright, National Records of Scotland.",
+      "image": "/assets/research/testament-crops/jonet-melk-1607-page83-v3.jpg",
+      "image_width": 1600,
+      "image_height": 420,
+      "alt": "Legacy clause naming Marioun Glasgow followed by a difficult relationship word.",
+      "original": "Item to marioun glasgow hir nycht[?] ane [illegible]",
+      "reading": "Item, to Marioun Glasgow, her nycht[?], one [illegible item]",
+      "explanation": "The enlarged line separates the secure name from the difficult following phrase. Marioun's name is readable, but the next word is retained as nycht[?]: its visible strokes do not justify silently expanding it to niece, daughter, servant, or another kinship. A legacy can be given to any of those roles.",
+      "proves": "Jonet left a legacy to Marioun Glasgow.",
+      "does_not_prove": "The passage does not yet establish Marioun as Jonet's niece, daughter or other specific relative.",
+      "confidence": "high for the name; low for the relationship word",
+      "marks": [
+        {
+          "x": 28.249999999999996,
+          "y": 5.714285714285714,
+          "w": 21.9375,
+          "h": 22.857142857142858,
+          "label": "Marioun Glasgow",
+          "kind": "name",
+          "pixel_bbox": [
+            452,
+            24,
+            803,
+            120
+          ],
+          "analysis": {
+            "reading": "marioun glasgow",
+            "expansion": "Marioun Glasgow",
+            "features": [
+              "marioun is written in lower case after Item to, with a sequence of rounded connected humps.",
+              "The i is distinguished by a faint dot above the body line.",
+              "glasgow begins with a looped descending g and ends in a compressed w."
+            ],
+            "comparison": "The same surname form recurs with Robert later on image 83.",
+            "uncertainty": "The name is strong; this box begins close to the source's left edge but retains the visible entry stroke."
+          }
+        },
+        {
+          "x": 48.6875,
+          "y": 7.142857142857142,
+          "w": 9.6875,
+          "h": 22.61904761904762,
+          "label": "hir nycht[?]",
+          "kind": "uncertain",
+          "pixel_bbox": [
+            779,
+            30,
+            934,
+            125
+          ],
+          "analysis": {
+            "reading": "hir nycht[?]",
+            "expansion": "her nycht [?]; relationship unresolved",
+            "features": [
+              "hir is a short three-letter possessive before a small gap.",
+              "The next word starts with an n-like pair of humps followed by a tall crossing stroke.",
+              "Its ending is crowded by the following item wording, making the final letters uncertain."
+            ],
+            "uncertainty": "No modern kinship expansion is secure; niece is only one possible hypothesis and is not adopted."
+          }
+        }
+      ],
+      "word_studies_replaced": true
+    },
+    {
+      "id": "robert",
+      "title": "The residue repeats Robert's relationship",
+      "page_label": "NRS CC9/7/5, image 83; Crown copyright, National Records of Scotland.",
+      "image": "/assets/research/testament-crops/jonet-melk-1607-page83-v3.jpg",
+      "image_width": 1600,
+      "image_height": 420,
+      "alt": "Residue clause leaving Jonet's remaining goods to Robert Glasgow her son.",
+      "original": "the haill[?] rest of the guidis geir & dettis awand to hir to Robert glasgow hir sone",
+      "reading": "the whole[?] remainder of the goods, gear and debts owed to her, to Robert Glasgow her son",
+      "explanation": "Follow the line to Robert at the far right, then return to the far left of the next line for glasgow hir sone. The split samples preserve that wrap. This second occurrence confirms that son in the opening is a relationship statement, not merely part of the executor formula; residue beneficiary and son are separate facts.",
+      "proves": "Robert Glasgow was Jonet Meik's son and residue beneficiary.",
+      "does_not_prove": "It does not identify every other Glasgow named in the accounts as a relative.",
+      "confidence": "high",
+      "marks": [
+        {
+          "x": 82.5,
+          "y": 13.1,
+          "w": 17.38,
+          "h": 32.14,
+          "label": "Robert",
+          "kind": "name",
+          "pixel_bbox": [
+            1320,
+            55,
+            1598,
+            190
+          ],
+          "analysis": {
+            "reading": "Robert",
+            "expansion": "Robert",
+            "features": [
+              "The large initial R has a looped bowl and descending entry flourish.",
+              "The b rises distinctly above the rounded o/e letters.",
+              "The final t is taller and lightly crossed near the source's right edge."
+            ],
+            "comparison": "The opening crop shows the same Robert form before glasgow hir sone.",
+            "uncertainty": "The word is complete, but the source leaves almost no right-side breathing margin."
+          }
+        },
+        {
+          "x": 11.25,
+          "y": 19.05,
+          "w": 29.38,
+          "h": 34.52,
+          "label": "glasgow hir sone",
+          "kind": "relationship",
+          "pixel_bbox": [
+            180,
+            80,
+            650,
+            225
+          ],
+          "analysis": {
+            "reading": "glasgow hir sone",
+            "expansion": "Glasgow, her son",
+            "features": [
+              "glasgow resumes at the left edge because the name wraps from the preceding line.",
+              "The opening g's entry stroke meets the crop boundary, while its descender remains visible.",
+              "hir is separated from sone; sone begins with a long descending s."
+            ],
+            "comparison": "The complete phrase is repeated without a line break in the opening step.",
+            "uncertainty": "The crop cannot provide left-side breathing margin for glasgow; the visible relationship words remain clear."
+          }
+        }
+      ]
+    }
+  ]
+}

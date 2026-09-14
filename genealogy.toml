@@ -1,0 +1,84 @@
+# Glasgow Surname Ancestry project overlay for genealogy-research-workbench.
+# This file is declarative: it never starts a sync, export, or catalogue rebuild.
+
+[project]
+schema_version = 1
+id = "glasgow-surname-ancestry"
+name = "Glasgow Surname Ancestry"
+description = "Evidence-led research into Glasgow surname families and associates."
+branding = "Glasgow Surname Ancestry"
+# This isolated synthetic case exists only to exercise the reusable toolkit.
+# It is never a source for the public catalogue or research corpus.
+case_directory = "data/toolkit/cases"
+default_case = "toolkit-integration"
+
+[research]
+case_root = "research"
+durable_findings_root = "research"
+question_register = "surname-research/INDEX.md"
+
+[surname]
+primary = "Glasgow"
+variants = ["Glasgow", "Glasgo", "Glascow", "Glasgou", "Glassgow"]
+include_married_associates = true
+
+[adapters]
+enabled = ["wikitree", "one-tree", "gedcom", "familysearch", "archives", "spreadsheets", "ocr", "dna"]
+
+[adapters.wikitree]
+enabled = true
+profile_prefix = "Glasgow-"
+api_only_default = true
+
+[adapters.one-tree]
+enabled = true
+snapshot_directory = "data/exports/one-tree"
+
+[adapters.gedcom]
+enabled = true
+[adapters.familysearch]
+enabled = true
+[adapters.archives]
+enabled = true
+[adapters.spreadsheets]
+enabled = true
+[adapters.ocr]
+enabled = true
+[adapters.dna]
+enabled = true
+
+[privacy]
+# Public outputs exclude living, restricted, licensed and raw-sensitive material.
+living_birth_years = 120
+exclude_living = true
+exclude_restricted = true
+exclude_licensed_sources = true
+exclude_raw_dna = true
+exclude_raw_captures = true
+# Names understood directly by genealogy-research-workbench.
+allow_living = false
+allow_restricted = false
+allow_licensed = false
+
+[privacy.source_classes]
+public = "publishable"
+restricted = "withhold"
+licensed = "withhold"
+raw_dna = "withhold"
+
+[paths]
+data = "data"
+research = "research"
+surname_research = "surname-research"
+artifacts = "artifacts"
+website = "www"
+raw_dna = "ydna"
+
+[exports]
+public_catalogue = "www"
+machine_readable = "www/data"
+allow_catalogue_rebuild = false
+
+[project_exclusions]
+paths = ["data/private", "artifacts", "www", "ydna", "*.zip"]
+notes = "Raw DNA, restricted people, licensed source material and generated outputs remain outside toolkit exports."

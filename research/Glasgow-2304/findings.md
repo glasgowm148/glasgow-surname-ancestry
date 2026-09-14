@@ -1,6 +1,6 @@
 # Findings: Archibald Glasgow (Glasgow-2304)
 
-Last updated: 2026-08-12
+Last updated: 2026-09-13
 
 ## Current conclusion
 
@@ -23,12 +23,22 @@ evidence places his birth about 1790, within the 1800 category if he was born af
 the census date or if his later reported age was approximate. This is a genuine
 household fit, not proof of parentage.
 
-The fit has one important weakness. The only adult female in Archibald's 1800
-household was aged 16–25. If she was Mary and Robert was born close to 1790, she
-would have been at the extreme young end—or too young—to be his mother. A slightly
-later birth for Robert, a previous wife, a step-relationship, an age error, or a
-different identity for the boy could explain the return. Archibald should therefore
-be treated as a possible father, not attached as certain.
+The age bands require a more balanced reading. Combining the 1800 boy with
+Robert's 1820 and 1840 brackets permits 5 August 1790–7 August 1794, if the
+identity and ages are correct. The adult woman aged 16–25 in 1800 could have
+been about sixteen to twenty at an early-1790s birth if near the older end of
+her range. Her identity and maternity are not stated. This is a condition to
+check, not a general chronological objection to the household. Robert's 1850
+age of sixty requires a modest discrepancy with the earlier brackets.
+
+The actual American reconstruction has a coherent migration sequence: James's
+family is associated with Kilwaughter in 1772 and his will places him in South
+Carolina in 1775; Robert later reported a South Carolina birth and served in
+Tennessee in 1814. Robert is proposed only as James J's father, not the father
+of the Irish Alexander, Thomas or Daniel. Their ages do not count against this
+chain. [The full Larne comparison](/people/glasgow-951.html#larne-reconstruction)
+separates the supported James-to-Archibald relationship from the two subsequent
+working parent links.
 
 ## Sources and targets
 
@@ -62,13 +72,17 @@ incomplete even without accepting Robert as the missing boy.
 Alexander `Glasgow-951`'s tested line is also basal R-FT20271 and is the closest
 reported Y-111 match to kit 1002232 at genetic distance 3. That supports a paternal
 relationship between the two tested lines, but it cannot choose Archibald as
-Robert's father. If the proposed chain is correct, Alexander's Antrim line and
-Archibald's South Carolina line must share an ancestor above Archibald, probably in
-an earlier Irish generation. The repeated McCracken marriages in the South Carolina
+Robert's father. Their proposed Irish and American branches can connect through an earlier Larne relative, with no return migration required. The exact joining generation remains unresolved. The repeated McCracken marriages in the South Carolina
 family and Thomas `Glasgow-987`'s Antrim family are a useful network clue, not
 evidence of paternal descent.
 
-Priority: inspect estate 647 and related guardianship 646 before creating the
-mother profile or altering Sarah's parentage. The original 1810 census image should
+Priority: inspect the adult distributions, receipts and releases in estate 647.
+Guardianship 646 is a separate proceeding and must not be assumed to list
+Archibald's children. The original 1810 census image should
 also be read for a male aged 10–15 or 16–25. Archibald's estate packet is the best
 chance of naming Robert directly or excluding him from a complete heir group.
+
+
+## Parentage inference correction — 13 September 2026
+
+The common-father comparison is withdrawn: it tested a scenario that was not proposed. The actual Robert-to-James-J hypothesis is compatible with an earlier Irish collateral connection and has positive census, birthplace and migration support. Neither a fixed joining generation nor the two uncertain American parent links has been proved. See [the current reconstruction](/people/glasgow-951.html#larne-reconstruction). No structured relationship has been changed.

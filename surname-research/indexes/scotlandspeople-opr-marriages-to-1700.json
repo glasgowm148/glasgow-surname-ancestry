@@ -1,0 +1,1217 @@
+{
+  "reviewed_at": "2026-09-10",
+  "source_title": "Scotland’s People: Old Parish Registers — banns and marriages",
+  "source_url": "https://www.scotlandspeople.gov.uk/",
+  "query": "Surname Glasgow, exact names only, through 1700; all 55 supplied results across three pages.",
+  "conclusion": "All 55 supplied results are accounted for, representing 54 distinct dated register references. Existing matches are distinguished from possible identities and unlinked subjects. Seven existing profiles have new qualified notes or corrections queued for WikiTree; confirming citations alone do not reopen an update. 21 consolidated identity handoffs remain on HOLD, and no new WikiTree person is ready to create from this review.",
+  "rows": [
+    {
+      "row": 1,
+      "id": "opr-marriage-01",
+      "surname": "GLASGOW",
+      "forename": "AGNES",
+      "spouse": "WILLIAM THOMSONE/FR70 (FR70)",
+      "date": "1681-12-15",
+      "parish_number": "633",
+      "reference": "10 / 66",
+      "parish": "Carstairs",
+      "status": "HOLD",
+      "profile_ids": [],
+      "assessment": "Agnes Glasgow/Wm Thomsone, Carstairs; bounded local and live exact-name review found no compatible identified profile.",
+      "next_action": "Inspect OPR 633/10 / 66 for residence, occupation or witnesses, then complete the identity comparison.",
+      "new_information": false,
+      "record_status": "supplied index; original not inspected in this batch"
+    },
+    {
+      "row": 2,
+      "id": "opr-marriage-02",
+      "surname": "GLASGOW",
+      "forename": "BESSIE",
+      "spouse": "JAMES JUSTICE/FR60 (FR60)",
+      "date": "1627-09-23",
+      "parish_number": "694",
+      "reference": "10 / 55",
+      "parish": "Mid Calder",
+      "status": "KNOWN",
+      "profile_ids": [
+        "Glasgow-1054"
+      ],
+      "assessment": "The same indexed couple and date are already represented on the existing live profile; this is confirming source evidence.",
+      "next_action": "Retain the exact OPR locator in the evidence notes; no new update is raised.",
+      "new_information": false,
+      "record_status": "supplied index; original not inspected in this batch"
+    },
+    {
+      "row": 3,
+      "id": "opr-marriage-03",
+      "surname": "GLASGOW",
+      "forename": "MARGARET",
+      "spouse": "JAMES STEWART/",
+      "date": "1632-07-04",
+      "parish_number": "644 / 1",
+      "reference": "230 / 109",
+      "parish": "Glasgow",
+      "status": "matched — already cited/conflict retained",
+      "profile_ids": [
+        "Glasgow-1100",
+        "Stewart-62608"
+      ],
+      "assessment": "4 Jul 1632 Glasgow index is already preserved; 7 Apr structured value remains unresolved.",
+      "next_action": "Inspect original before changing a date.",
+      "record_status": "supplied index; original not inspected in this batch"
+    },
+    {
+      "row": 4,
+      "id": "opr-marriage-04",
+      "surname": "GLASGOW",
+      "forename": "MARION",
+      "spouse": "JOHN BRUCE/FR1163 (FR1163)",
+      "date": "1684-07-04",
+      "parish_number": "685 / 1",
+      "reference": "440 / 251",
+      "parish": "Edinburgh",
+      "status": "HOLD",
+      "profile_ids": [],
+      "assessment": "Marion Glasgow and John Bruce; no confirmed profile match.",
+      "next_action": "Compare original entry and seek children/guild record.",
+      "new_information": "Exact OPR reference 685/1 440/251.",
+      "record_status": "supplied index; original not inspected in this batch"
+    },
+    {
+      "row": 5,
+      "id": "opr-marriage-05",
+      "surname": "GLASGOW",
+      "forename": "-----",
+      "spouse": "... SMITH/FR233 (FR233)",
+      "date": "1687-08-06",
+      "parish_number": "599",
+      "reference": "10 / 325",
+      "parish": "Kilwinning",
+      "status": "HOLD — possible companion entry",
+      "profile_ids": [
+        "Glasgow-3087"
+      ],
+      "assessment": "The blank-name Glasgow and Smith entry may accompany the named John/Bessie entry one week earlier at the preceding reference; the identities remain unproved.",
+      "next_action": "Inspect both Kilwinning entries; qualified note queued on Glasgow-3087.",
+      "record_status": "supplied index; original not inspected in this batch"
+    },
+    {
+      "row": 6,
+      "id": "opr-marriage-06",
+      "surname": "GLASGOW",
+      "forename": "-----",
+      "spouse": "MARGARET /FR801 GROOM SURNAME ASSUMED (FR801)",
+      "date": "1679-07-24",
+      "parish_number": "491",
+      "reference": "30 / 15",
+      "parish": "Strathblane",
+      "status": "HOLD",
+      "profile_ids": [],
+      "assessment": "Strathblane groom surname is explicitly assumed and no named Glasgow identity is supplied.",
+      "next_action": "Inspect 491/30/15; retain qualified assumption.",
+      "record_status": "supplied index; original not inspected in this batch"
+    },
+    {
+      "row": 7,
+      "id": "opr-marriage-07",
+      "surname": "GLASGOW",
+      "forename": "THOMAS",
+      "spouse": "CATHARINE WEIR/FR856 (FR856)",
+      "date": "1643-10-12",
+      "parish_number": "685 / 1",
+      "reference": "430 / 252",
+      "parish": "Edinburgh",
+      "status": "KNOWN",
+      "profile_ids": [
+        "Glasgow-3187",
+        "Weir-3979"
+      ],
+      "assessment": "Exact Thomas/Catharine household; 1644–50 children corroborate the couple.",
+      "next_action": "No reopening; retain source evidence in findings.",
+      "new_information": "No material delta.",
+      "record_status": "supplied index; original not inspected in this batch"
+    },
+    {
+      "row": 8,
+      "id": "opr-marriage-08",
+      "surname": "GLASGOW",
+      "forename": "EUPHAM",
+      "spouse": "ALEXANDER HUTCHESON/FR1043 (FR1043)",
+      "date": "1671-12-08",
+      "parish_number": "685 / 1",
+      "reference": "440 / 129",
+      "parish": "Edinburgh",
+      "status": "HOLD",
+      "profile_ids": [
+        "Glasgow-3358"
+      ],
+      "assessment": "Eupham/Effie and Alexander Hutcheson are provisionally grouped as one couple across the two parishes; Glasgow-3358 remains an unproved candidate.",
+      "next_action": "Compare both original entries for residences and the nature of each event; do not assume two ceremonies or a proved profile identity.",
+      "new_information": "Edinburgh OPR 685/1 440/129.",
+      "record_status": "supplied index; original not inspected in this batch"
+    },
+    {
+      "row": 9,
+      "id": "opr-marriage-09",
+      "surname": "GLASGOW",
+      "forename": "JAMES",
+      "spouse": "JEAN DOBIE OR WOOD FR1321 (FR1321)",
+      "date": "1698-07-28",
+      "parish_number": "685 / 1",
+      "reference": "450 / 47",
+      "parish": "Edinburgh",
+      "status": "UPDATE — adult identity unresolved",
+      "profile_ids": [
+        "Glasgow-3103",
+        "Glasgow-3368"
+      ],
+      "assessment": "The 1698 adult marriage is already attached to Glasgow-3103, but neither the 1679 nor 1680 child is proved to be that adult. The index adds Jean’s alternative surname “or Wood”.",
+      "next_action": "Add the alternative surname qualification to the existing case; preserve uncertain spouse/children and keep the brothers separate.",
+      "new_information": "The supplied index gives Jean Dobie or Wood; added to Glasgow-3103 findings.",
+      "record_status": "supplied index; original not inspected in this batch"
+    },
+    {
+      "row": 10,
+      "id": "opr-marriage-10",
+      "surname": "GLASGOW",
+      "forename": "JEAN",
+      "spouse": "ROBERT WOODSYD/FR357 (FR357)",
+      "date": "1700-01-13",
+      "parish_number": "620",
+      "reference": "20 / 77",
+      "parish": "West Kilbride",
+      "status": "HOLD",
+      "profile_ids": [],
+      "assessment": "Jean Glasgow/Robert Woodsyd 1700 has no compatible proven pair; Woodside-936 was born 1696.",
+      "next_action": "Original-register and duplicate review required.",
+      "record_status": "supplied index; original not inspected in this batch"
+    },
+    {
+      "row": 11,
+      "id": "opr-marriage-11",
+      "surname": "GLASGOW",
+      "forename": "JEAN",
+      "spouse": "WILLIAM MITCHELL/FR1078 (FR1078)",
+      "date": "1675-12-16",
+      "parish_number": "685 / 1",
+      "reference": "440 / 164",
+      "parish": "Edinburgh",
+      "status": "HOLD",
+      "profile_ids": [],
+      "assessment": "No compatible Jean Glasgow profile.",
+      "next_action": "Seek distinguishing record.",
+      "new_information": "Edinburgh OPR 685/1 440/164.",
+      "record_status": "supplied index; original not inspected in this batch"
+    },
+    {
+      "row": 12,
+      "id": "opr-marriage-12",
+      "surname": "GLASGOW",
+      "forename": "JOHNE",
+      "spouse": "MARGARET CURRIE/FR45 (FR45)",
+      "date": "1673-07-25",
+      "parish_number": "690",
+      "reference": "10 / 70",
+      "parish": "Kirknewton and East Calder",
+      "status": "KNOWN",
+      "profile_ids": [
+        "Glasgow-3012",
+        "Currie-4998"
+      ],
+      "assessment": "The same indexed couple and date are already represented on the existing live profile; this is confirming source evidence.",
+      "next_action": "Retain the exact OPR locator in the evidence notes; no new update is raised.",
+      "new_information": false,
+      "record_status": "supplied index; original not inspected in this batch"
+    },
+    {
+      "row": 13,
+      "id": "opr-marriage-13",
+      "surname": "GLASGOW",
+      "forename": "AGNES",
+      "spouse": "PATRIK PAUL/FR40 (FR40)",
+      "date": "1670-07-08",
+      "parish_number": "690",
+      "reference": "10 / 64",
+      "parish": "Kirknewton and East Calder",
+      "status": "HOLD",
+      "profile_ids": [],
+      "assessment": "Agnes Glasgow/Patrik Paul, 1670; no compatible identified adult profile.",
+      "next_action": "Inspect OPR 690/10 / 64 for residence, occupation or witnesses, then complete the identity comparison.",
+      "new_information": false,
+      "record_status": "supplied index; original not inspected in this batch"
+    },
+    {
+      "row": 14,
+      "id": "opr-marriage-14",
+      "surname": "GLASGOW",
+      "forename": "ALISONE",
+      "spouse": "GEORGE CARGILL/FR918 (FR918)",
+      "date": "1651-03-11",
+      "parish_number": "685 / 1",
+      "reference": "440 / 8",
+      "parish": "Edinburgh",
+      "status": "HOLD",
+      "profile_ids": [],
+      "assessment": "No compatible Alisone Glasgow profile.",
+      "next_action": "Seek distinguishing record.",
+      "new_information": "Edinburgh OPR 685/1 440/8.",
+      "record_status": "supplied index; original not inspected in this batch"
+    },
+    {
+      "row": 15,
+      "id": "opr-marriage-15",
+      "surname": "GLASGOW",
+      "forename": "JOHN",
+      "spouse": "JEANE CUNYNGHAME/FR16 (FR16)",
+      "date": "1690-01-14",
+      "parish_number": "596",
+      "reference": "10 / 9",
+      "parish": "Kilbirnie",
+      "status": "matched — already cited",
+      "profile_ids": [
+        "Glasgow-1073",
+        "Cunningham-20924"
+      ],
+      "assessment": "John Glasgow and Jean Cunynghame match the live attached pair and date.",
+      "next_action": "No change.",
+      "record_status": "supplied index; original not inspected in this batch"
+    },
+    {
+      "row": 16,
+      "id": "opr-marriage-16",
+      "surname": "GLASGOW",
+      "forename": "JOHNNE",
+      "spouse": "ISSOBELL PORTEOUS/FR848 (FR848)",
+      "date": "1642-06-30",
+      "parish_number": "685 / 1",
+      "reference": "430 / 244",
+      "parish": "Edinburgh",
+      "status": "KNOWN",
+      "profile_ids": [
+        "Glasgow-1084",
+        "Porteous-912"
+      ],
+      "assessment": "Exact John/Issobell household; children in 1643 and 1652 corroborate the couple.",
+      "next_action": "No reopening; retain source evidence in findings.",
+      "new_information": "No material delta.",
+      "record_status": "supplied index; original not inspected in this batch"
+    },
+    {
+      "row": 17,
+      "id": "opr-marriage-17",
+      "surname": "GLASGOW",
+      "forename": "JONET",
+      "spouse": "JOHNE STEWART/",
+      "date": "1624-02-05",
+      "parish_number": "644 / 1",
+      "reference": "230 / 64",
+      "parish": "Glasgow",
+      "status": "matched — already cited",
+      "profile_ids": [
+        "Glasgow-3061",
+        "Stewart-62467"
+      ],
+      "assessment": "Jonet Glasgow and John Stewart match live pair/date.",
+      "next_action": "No change.",
+      "record_status": "supplied index; original not inspected in this batch"
+    },
+    {
+      "row": 18,
+      "id": "opr-marriage-18",
+      "surname": "GLASGOW",
+      "forename": "MARGARET",
+      "spouse": "JOHN TAILZER/FR111 (FR111)",
+      "date": "1690-12-18",
+      "parish_number": "658",
+      "reference": "10 / 206",
+      "parish": "Walston",
+      "status": "HOLD",
+      "profile_ids": [],
+      "assessment": "Margaret Glasgow/John Tailzer, Walston; no compatible identified adult profile.",
+      "next_action": "Inspect OPR 658/10 / 206 for residence, occupation or witnesses, then complete the identity comparison.",
+      "new_information": false,
+      "record_status": "supplied index; original not inspected in this batch"
+    },
+    {
+      "row": 19,
+      "id": "opr-marriage-19",
+      "surname": "GLASGOW",
+      "forename": "MARGARET",
+      "spouse": "WILLIAM HARDIE/FR685 (FR685)",
+      "date": "1611-07-16",
+      "parish_number": "685 / 1",
+      "reference": "430 / 84",
+      "parish": "Edinburgh",
+      "status": "KNOWN",
+      "profile_ids": [
+        "Glasgow-3598"
+      ],
+      "assessment": "Exact marriage already represented and live biography verified.",
+      "next_action": "No reopening; retain source evidence in findings.",
+      "new_information": "No material delta.",
+      "record_status": "supplied index; original not inspected in this batch"
+    },
+    {
+      "row": 20,
+      "id": "opr-marriage-20",
+      "surname": "GLASGOW",
+      "forename": "MARION",
+      "spouse": "WILLIAM CALDER/FR1191 (FR1191)",
+      "date": "1686-06-29",
+      "parish_number": "685 / 1",
+      "reference": "440 / 279",
+      "parish": "Edinburgh",
+      "status": "KNOWN",
+      "profile_ids": [
+        "Glasgow-3143"
+      ],
+      "assessment": "Exact marriage and father-daughter evidence already represented and live biography verified.",
+      "next_action": "No reopening.",
+      "new_information": "No material delta.",
+      "record_status": "supplied index; original not inspected in this batch"
+    },
+    {
+      "row": 21,
+      "id": "opr-marriage-21",
+      "surname": "GLASGOW",
+      "forename": "ROBERT",
+      "spouse": "JONET CONYNGHAME/",
+      "date": "1613-04-06",
+      "parish_number": "644 / 1",
+      "reference": "230 / 10",
+      "parish": "Glasgow",
+      "status": "matched — already cited",
+      "profile_ids": [
+        "Glasgow-1027",
+        "Cunningham-20923"
+      ],
+      "assessment": "Robert Glasgow and Jonet Conynghame match live pair/date.",
+      "next_action": "No change.",
+      "record_status": "supplied index; original not inspected in this batch"
+    },
+    {
+      "row": 22,
+      "id": "opr-marriage-22",
+      "surname": "GLASGOW",
+      "forename": "WILLIAM",
+      "spouse": "BESSIE HOWIE/",
+      "date": "1635-12-05",
+      "parish_number": "644 / 1",
+      "reference": "230 / 126",
+      "parish": "Glasgow",
+      "status": "UPDATE — date conflict",
+      "profile_ids": [
+        "Glasgow-992",
+        "Howie-1119"
+      ],
+      "assessment": "William Glasgow and Bessie Howie are attached; index predates unsourced structured 1640 date.",
+      "next_action": "Explain the 1635 versus 1640 conflict; retain the existing date uncertain pending the original.",
+      "record_status": "supplied index; original not inspected in this batch"
+    },
+    {
+      "row": 23,
+      "id": "opr-marriage-23",
+      "surname": "GLASGOW",
+      "forename": "ISSOBELL",
+      "spouse": "WILLIAME SYMOUNTOUN/FR721 (FR721)",
+      "date": "1619-06-10",
+      "parish_number": "685 / 1",
+      "reference": "430 / 120",
+      "parish": "Edinburgh",
+      "status": "KNOWN",
+      "profile_ids": [
+        "Glasgow-3336"
+      ],
+      "assessment": "Exact marriage already represented.",
+      "next_action": "No reopening.",
+      "new_information": "No material delta.",
+      "record_status": "supplied index; original not inspected in this batch"
+    },
+    {
+      "row": 24,
+      "id": "opr-marriage-24",
+      "surname": "GLASGOW",
+      "forename": "JAMES",
+      "spouse": "AGNES DUNCAN/FR931 (FR931)",
+      "date": "1653-11-11",
+      "parish_number": "685 / 1",
+      "reference": "440 / 20",
+      "parish": "Edinburgh",
+      "status": "KNOWN",
+      "profile_ids": [
+        "Glasgow-1150"
+      ],
+      "assessment": "James's Agnes Duncan marriage already represented and live biography verified.",
+      "next_action": "No reopening.",
+      "new_information": "No material delta.",
+      "record_status": "supplied index; original not inspected in this batch"
+    },
+    {
+      "row": 25,
+      "id": "opr-marriage-25",
+      "surname": "GLASGOW",
+      "forename": "JEANE",
+      "spouse": "ROBERT ALIESONE/FR91 AND 92 (FR92)",
+      "date": "1652-05-28",
+      "parish_number": "454",
+      "reference": "10 / 169",
+      "parish": "St Monance",
+      "status": "HOLD",
+      "profile_ids": [],
+      "assessment": "Jeane Glasgow/Robert Aliesone, St Monance; no compatible identified adult profile.",
+      "next_action": "Inspect OPR 454/10 / 169 for residence, occupation or witnesses, then complete the identity comparison.",
+      "new_information": false,
+      "record_status": "supplied index; original not inspected in this batch"
+    },
+    {
+      "row": 26,
+      "id": "opr-marriage-26",
+      "surname": "GLASGOW",
+      "forename": "AGNAS",
+      "spouse": "WILLIAM ANDERSON/FR100 (FR100)",
+      "date": "1666-07-05",
+      "parish_number": "750",
+      "reference": "10 / 79",
+      "parish": "Longformacus",
+      "status": "HOLD",
+      "profile_ids": [],
+      "assessment": "Agnas Glasgow/William Anderson, Longformacus; no compatible identified adult profile.",
+      "next_action": "Inspect OPR 750/10 / 79 for residence, occupation or witnesses, then complete the identity comparison.",
+      "new_information": false,
+      "record_status": "supplied index; original not inspected in this batch"
+    },
+    {
+      "row": 27,
+      "id": "opr-marriage-27",
+      "surname": "GLASGOW",
+      "forename": "AGNES",
+      "spouse": "JAMES SWAN/FR36 (FR36)",
+      "date": "1666-05-12",
+      "parish_number": "690",
+      "reference": "10 / 55",
+      "parish": "Kirknewton and East Calder",
+      "status": "HOLD",
+      "profile_ids": [],
+      "assessment": "Agnes Glasgow/James Swan, 1666; no compatible identified adult profile.",
+      "next_action": "Inspect OPR 690/10 / 55 for residence, occupation or witnesses, then complete the identity comparison.",
+      "new_information": false,
+      "record_status": "supplied index; original not inspected in this batch"
+    },
+    {
+      "row": 28,
+      "id": "opr-marriage-28",
+      "surname": "GLASGOW",
+      "forename": "ALEXANDER",
+      "spouse": "ISSOBELL ANDERSON/FR991 (FR991)",
+      "date": "1665-06-16",
+      "parish_number": "685 / 1",
+      "reference": "440 / 78",
+      "parish": "Edinburgh",
+      "status": "HOLD",
+      "profile_ids": [
+        "Glasgow-3118"
+      ],
+      "assessment": "Alexander-3118 is possible only by chronology.",
+      "next_action": "Seek wife/parish bridge.",
+      "new_information": "Edinburgh OPR 685/1 440/78.",
+      "record_status": "supplied index; original not inspected in this batch"
+    },
+    {
+      "row": 29,
+      "id": "opr-marriage-29",
+      "surname": "GLASGOW",
+      "forename": "ANNA",
+      "spouse": "THOMAS GRAY/FR49 (FR49)",
+      "date": "1676-06-16",
+      "parish_number": "690",
+      "reference": "10 / 80",
+      "parish": "Kirknewton and East Calder",
+      "status": "HOLD",
+      "profile_ids": [],
+      "assessment": "Anna Glasgow/Thomas Gray, 1676; no compatible identified adult profile.",
+      "next_action": "Inspect OPR 690/10 / 80 for residence, occupation or witnesses, then complete the identity comparison.",
+      "new_information": false,
+      "record_status": "supplied index; original not inspected in this batch"
+    },
+    {
+      "row": 30,
+      "id": "opr-marriage-30",
+      "surname": "GLASGOW",
+      "forename": "BARBARA",
+      "spouse": "GEORGE JOHNSTOUN/FR710 (FR710)",
+      "date": "1616-11-21",
+      "parish_number": "685 / 1",
+      "reference": "430 / 109",
+      "parish": "Edinburgh",
+      "status": "KNOWN",
+      "profile_ids": [
+        "Glasgow-3302"
+      ],
+      "assessment": "Exact marriage already represented; connected Barbara identities remain unmerged.",
+      "next_action": "No reopening.",
+      "new_information": "No material delta.",
+      "record_status": "supplied index; original not inspected in this batch"
+    },
+    {
+      "row": 31,
+      "id": "opr-marriage-31",
+      "surname": "GLASGOW",
+      "forename": "DAVID",
+      "spouse": "MARION PEDIE/",
+      "date": "1666-04-19",
+      "parish_number": "644 / 1",
+      "reference": "230 / 240",
+      "parish": "Glasgow",
+      "status": "KNOWN — supporting citation",
+      "profile_ids": [
+        "Glasgow-1518",
+        "Pedie-9"
+      ],
+      "assessment": "The existing attached couple and date match this index entry; the official OPR locator adds supporting evidence without a new profile-level fact.",
+      "next_action": "Retain the official locator as supporting evidence; the couple and date are already represented, so no new update is raised.",
+      "record_status": "supplied index; original not inspected in this batch"
+    },
+    {
+      "row": 32,
+      "id": "opr-marriage-32",
+      "surname": "GLASGOW",
+      "forename": "EFFIE",
+      "spouse": "ALEXANDER HUTCSHESONE/FR123 (FR123)",
+      "date": "1671-09-17",
+      "parish_number": "729",
+      "reference": "10 / 230",
+      "parish": "Channelkirk",
+      "status": "HOLD",
+      "profile_ids": [
+        "Glasgow-3358"
+      ],
+      "assessment": "Eupham/Effie and Alexander Hutcheson are provisionally grouped as one couple across the two parishes; Glasgow-3358 remains an unproved candidate.",
+      "next_action": "Compare both original entries for residences and the nature of each event; do not assume two ceremonies or a proved profile identity.",
+      "new_information": "Channelkirk OPR 729 10/230.",
+      "record_status": "supplied index; original not inspected in this batch"
+    },
+    {
+      "row": 33,
+      "id": "opr-marriage-33",
+      "surname": "GLASGOW",
+      "forename": "GEORG",
+      "spouse": "ISOBELL YOUNG/FR221 (FR221)",
+      "date": "1680-08-05",
+      "parish_number": "599",
+      "reference": "10 / 313",
+      "parish": "Kilwinning",
+      "status": "UPDATE — unresolved identity",
+      "profile_ids": [
+        "Glasgow-2714"
+      ],
+      "assessment": "The 1680 Isobell Young entry supplies a new comparison for George’s Young/Gardiner problem; Isobell is not automatically Jonet Young, and the George identity is unproved.",
+      "next_action": "Add a qualified research note; compare original 1678 and 1680 entries without a new spouse attachment.",
+      "record_status": "supplied index; original not inspected in this batch"
+    },
+    {
+      "row": 34,
+      "id": "opr-marriage-34",
+      "surname": "GLASGOW",
+      "forename": "JAMES",
+      "spouse": "BESSIE WHYTE/FR896 (FR896)",
+      "date": "1649-07-06",
+      "parish_number": "685 / 1",
+      "reference": "430 / 289",
+      "parish": "Edinburgh",
+      "status": "KNOWN",
+      "profile_ids": [
+        "Glasgow-1150"
+      ],
+      "assessment": "James's Bessie Whyte marriage already represented and live biography verified.",
+      "next_action": "No reopening.",
+      "new_information": "No material delta.",
+      "record_status": "supplied index; original not inspected in this batch"
+    },
+    {
+      "row": 35,
+      "id": "opr-marriage-35",
+      "surname": "GLASGOW",
+      "forename": "JOHN",
+      "spouse": "MARGARET SCOT/FR27 (FR27)",
+      "date": "1699-04-19",
+      "parish_number": "596",
+      "reference": "10 / 28",
+      "parish": "Kilbirnie",
+      "status": "matched — already cited",
+      "profile_ids": [
+        "Glasgow-1073",
+        "Scott-40313"
+      ],
+      "assessment": "John Glasgow and Margaret Scot match live pair/date.",
+      "next_action": "No change.",
+      "record_status": "supplied index; original not inspected in this batch"
+    },
+    {
+      "row": 36,
+      "id": "opr-marriage-36",
+      "surname": "GLASGOW",
+      "forename": "JOHNE",
+      "spouse": "JONAT MATHEN/",
+      "date": "1618-01-25",
+      "parish_number": "644 / 1",
+      "reference": "230 / 32",
+      "parish": "Glasgow",
+      "status": "matched — spelling qualified",
+      "profile_ids": [
+        "Glasgow-1030",
+        "Mathie-159"
+      ],
+      "assessment": "Jonat Mathen is compatible with existing Jonet Mathie at the same date; spelling not asserted identical.",
+      "next_action": "Read original 644/1/230/32.",
+      "record_status": "supplied index; original not inspected in this batch"
+    },
+    {
+      "row": 37,
+      "id": "opr-marriage-37",
+      "surname": "GLASGOW",
+      "forename": "JONAT",
+      "spouse": "MARTYN RAMSY/FR52 (FR52)",
+      "date": "1624-03-23",
+      "parish_number": "694",
+      "reference": "10 / 47",
+      "parish": "Mid Calder",
+      "status": "REDUNDANT",
+      "profile_ids": [
+        "Glasgow-3183"
+      ],
+      "assessment": "Jonat Glasgow/Martyn Ramsy, Mid Calder 1624 is already cited on the live profile and maintained findings.",
+      "next_action": "No duplicate citation or update.",
+      "new_information": false,
+      "record_status": "supplied index; original not inspected in this batch"
+    },
+    {
+      "row": 38,
+      "id": "opr-marriage-38",
+      "surname": "GLASGOW",
+      "forename": "MARGRAT",
+      "spouse": "JOHN AITON/FR256 (FR256)",
+      "date": "1693-10-18",
+      "parish_number": "628",
+      "reference": "10 / 344",
+      "parish": "Cambusnethan",
+      "status": "HOLD",
+      "profile_ids": [],
+      "assessment": "Margrat Glasgow/John Aiton, Cambusnethan; no compatible identified adult profile.",
+      "next_action": "Inspect OPR 628/10 / 344 for residence, occupation or witnesses, then complete the identity comparison.",
+      "new_information": false,
+      "record_status": "supplied index; original not inspected in this batch"
+    },
+    {
+      "row": 39,
+      "id": "opr-marriage-39",
+      "surname": "GLASGOW",
+      "forename": "MARIONE",
+      "spouse": "JOHNE RAIT/FR961 (FR961)",
+      "date": "1659-06-28",
+      "parish_number": "685 / 1",
+      "reference": "440 / 48",
+      "parish": "Edinburgh",
+      "status": "HOLD",
+      "profile_ids": [],
+      "assessment": "No compatible Marione Glasgow profile.",
+      "next_action": "Seek distinguishing record.",
+      "new_information": "Edinburgh OPR 685/1 440/48.",
+      "record_status": "supplied index; original not inspected in this batch"
+    },
+    {
+      "row": 40,
+      "id": "opr-marriage-40",
+      "surname": "GLASGOW",
+      "forename": "ROBERT",
+      "spouse": "JONET THOMSONE/FR923 (FR923)",
+      "date": "1652-07-01",
+      "parish_number": "685 / 1",
+      "reference": "440 / 13",
+      "parish": "Edinburgh",
+      "status": "KNOWN",
+      "profile_ids": [
+        "Glasgow-3938"
+      ],
+      "assessment": "Exact marriage already represented and live biography verified.",
+      "next_action": "No reopening.",
+      "new_information": "No material delta.",
+      "record_status": "supplied index; original not inspected in this batch"
+    },
+    {
+      "row": 41,
+      "id": "opr-marriage-41",
+      "surname": "GLASGOW",
+      "forename": "THOMAS",
+      "spouse": "GYLES SPENCE/FR41 (FR41)",
+      "date": "1679-07-24",
+      "parish_number": "633",
+      "reference": "10 / 37",
+      "parish": "Carstairs",
+      "status": "HOLD",
+      "profile_ids": [],
+      "assessment": "Thomas Glasgow/Gyles Spence, Carstairs; no compatible identified adult profile.",
+      "next_action": "Inspect OPR 633/10 / 37 for residence, occupation or witnesses, then complete the identity comparison.",
+      "new_information": false,
+      "record_status": "supplied index; original not inspected in this batch"
+    },
+    {
+      "row": 42,
+      "id": "opr-marriage-42",
+      "surname": "GLASGOW",
+      "forename": "WILLIAM",
+      "spouse": "MARION GLASGOW/FR51 (FR51)",
+      "date": "1681-06-10",
+      "parish_number": "690",
+      "reference": "10 / 82",
+      "parish": "Kirknewton and East Calder",
+      "status": "CANDIDATE — research note queued",
+      "profile_ids": [
+        "Glasgow-3025"
+      ],
+      "assessment": "Both reciprocal rows describe the same entry. Marion-3025 is a possible bride by name, locality and age, not a proved match; the recorded William remains unidentified.",
+      "next_action": "Add the qualified Marion research note; identify both spouses before attaching a William.",
+      "new_information": true,
+      "record_status": "supplied index; original not inspected in this batch"
+    },
+    {
+      "row": 43,
+      "id": "opr-marriage-43",
+      "surname": "GLASGOW",
+      "forename": "ALEXANDER",
+      "spouse": "MARGARET SMITH/FR37 (FR37)",
+      "date": "1667-10-18",
+      "parish_number": "690",
+      "reference": "10 / 54",
+      "parish": "Kirknewton and East Calder",
+      "status": "REDUNDANT",
+      "profile_ids": [
+        "Glasgow-3118"
+      ],
+      "assessment": "Alexander Glasgow/Margaret Smith, 1667 is already represented by the live profile's FamilySearch marriage citation.",
+      "next_action": "No duplicate citation or update.",
+      "new_information": false,
+      "record_status": "supplied index; original not inspected in this batch"
+    },
+    {
+      "row": 44,
+      "id": "opr-marriage-44",
+      "surname": "GLASGOW",
+      "forename": "ALISON",
+      "spouse": "JOHN WILLIAMSON/FR1053 (FR1053)",
+      "date": "1672-11-14",
+      "parish_number": "685 / 1",
+      "reference": "440 / 139",
+      "parish": "Edinburgh",
+      "status": "HOLD",
+      "profile_ids": [],
+      "assessment": "No compatible Alison Glasgow profile.",
+      "next_action": "Seek distinguishing record.",
+      "new_information": "Edinburgh OPR 685/1 440/139.",
+      "record_status": "supplied index; original not inspected in this batch"
+    },
+    {
+      "row": 45,
+      "id": "opr-marriage-45",
+      "surname": "GLASGOW",
+      "forename": "GORG",
+      "spouse": "JEAN GARDINER/FR220 (FR220)",
+      "date": "1678-11-08",
+      "parish_number": "599",
+      "reference": "10 / 312",
+      "parish": "Kilwinning",
+      "status": "matched — already cited",
+      "profile_ids": [
+        "Glasgow-2714",
+        "Gardiner-6839"
+      ],
+      "assessment": "George Glasgow and Jean Gardiner match live pair/date.",
+      "next_action": "No change.",
+      "record_status": "supplied index; original not inspected in this batch"
+    },
+    {
+      "row": 46,
+      "id": "opr-marriage-46",
+      "surname": "GLASGOW",
+      "forename": "HELEN",
+      "spouse": "JAMES HAMILTOUN/FR43 (FR43)",
+      "date": "1672-06-21",
+      "parish_number": "690",
+      "reference": "10 / 66",
+      "parish": "Kirknewton and East Calder",
+      "status": "CANDIDATE — research note queued",
+      "profile_ids": [
+        "Glasgow-3024"
+      ],
+      "assessment": "Helen Glasgow-3024 is a compatible 1652 Kirknewton/East Calder baptism candidate for 1672 James Hamiltoun entry.",
+      "next_action": "Add the possible identification as a research note; no spouse or wedding-date assignment is proposed.",
+      "new_information": true,
+      "record_status": "supplied index; original not inspected in this batch"
+    },
+    {
+      "row": 47,
+      "id": "opr-marriage-47",
+      "surname": "GLASGOW",
+      "forename": "ISOB",
+      "spouse": "JAMES COLDWELL/",
+      "date": "1684-04-17",
+      "parish_number": "644 / 1",
+      "reference": "230 / 285",
+      "parish": "Glasgow",
+      "status": "HOLD",
+      "profile_ids": [],
+      "assessment": "Isob Glasgow and James Coldwell have no proven compatible local/live identity.",
+      "next_action": "Original-register and duplicate review.",
+      "record_status": "supplied index; original not inspected in this batch"
+    },
+    {
+      "row": 48,
+      "id": "opr-marriage-48",
+      "surname": "GLASGOW",
+      "forename": "ISSOBELL",
+      "spouse": "ROBERT MCCASKIE/FR337 (FR337)",
+      "date": "1632-07-19",
+      "parish_number": "685 / 2",
+      "reference": "20 / 34",
+      "parish": "St Cuthbert's",
+      "status": "KNOWN",
+      "profile_ids": [
+        "Glasgow-3185",
+        "McCaskie-747"
+      ],
+      "assessment": "Exact Issobell Glasgow and Robert McCaskie marriage already represented in the saved biography.",
+      "next_action": "No reopening.",
+      "new_information": "No material delta.",
+      "record_status": "supplied index; original not inspected in this batch"
+    },
+    {
+      "row": 49,
+      "id": "opr-marriage-49",
+      "surname": "GLASGOW",
+      "forename": "JAMES",
+      "spouse": "AGNES WAITTE/FR37 (FR37)",
+      "date": "1663-06-18",
+      "parish_number": "754",
+      "reference": "10 / 62",
+      "parish": "Polwarth",
+      "status": "KNOWN",
+      "profile_ids": [
+        "Glasgow-3107",
+        "Watt-5185"
+      ],
+      "assessment": "The same indexed couple and date are already represented on the existing live profile; this is confirming source evidence.",
+      "next_action": "Retain the exact OPR locator in the evidence notes; no new update is raised.",
+      "new_information": false,
+      "record_status": "supplied index; original not inspected in this batch"
+    },
+    {
+      "row": 50,
+      "id": "opr-marriage-50",
+      "surname": "GLASGOW",
+      "forename": "JAMES",
+      "spouse": "ISSABELL ROSS/FR100 (FR100)",
+      "date": "1691-01-12",
+      "parish_number": "581",
+      "reference": "10 / 163",
+      "parish": "Beith",
+      "status": "KNOWN — supporting citation",
+      "profile_ids": [
+        "Glasgow-3969",
+        "Ross-23403"
+      ],
+      "assessment": "The existing attached couple and date match this index entry; the official OPR locator adds supporting evidence without a new profile-level fact.",
+      "next_action": "Retain the official locator as supporting evidence; the couple and date are already represented, so no new update is raised.",
+      "record_status": "supplied index; original not inspected in this batch"
+    },
+    {
+      "row": 51,
+      "id": "opr-marriage-51",
+      "surname": "GLASGOW",
+      "forename": "JOANNET",
+      "spouse": "ANDREW ALLEXANDER/",
+      "date": "1661-08-08",
+      "parish_number": "644 / 1",
+      "reference": "230 / 230",
+      "parish": "Glasgow",
+      "status": "HOLD",
+      "profile_ids": [],
+      "assessment": "Joannet Glasgow and Andrew Allexander remain unlinked; Alexander spelling variants do not identify a couple.",
+      "next_action": "Bounded duplicate review after original record.",
+      "record_status": "supplied index; original not inspected in this batch"
+    },
+    {
+      "row": 52,
+      "id": "opr-marriage-52",
+      "surname": "GLASGOW",
+      "forename": "JOHN",
+      "spouse": "BESSIE SMITH/FR232 (FR232)",
+      "date": "1687-07-30",
+      "parish_number": "599",
+      "reference": "10 / 324",
+      "parish": "Kilwinning",
+      "status": "KNOWN — companion note queued",
+      "profile_ids": [
+        "Glasgow-3087",
+        "Smith-351282"
+      ],
+      "assessment": "The existing John/Bessie attachment matches 30 July 1687; the adjacent 6 August blank-name entry supplies a new possible companion record.",
+      "next_action": "Preserve the couple and add the qualified companion-entry note.",
+      "record_status": "supplied index; original not inspected in this batch"
+    },
+    {
+      "row": 53,
+      "id": "opr-marriage-53",
+      "surname": "GLASGOW",
+      "forename": "MARGARET",
+      "spouse": "WILLIAM THOMSONE/FR46 (FR46)",
+      "date": "1674-09-02",
+      "parish_number": "690",
+      "reference": "10 / 73",
+      "parish": "Kirknewton and East Calder",
+      "status": "CANDIDATE — research note queued",
+      "profile_ids": [
+        "Glasgow-3112"
+      ],
+      "assessment": "Margaret Glasgow-3112, born 1646 under the Kirknewton/East Calder label, is compatible with the 1674 William Thomsone entry.",
+      "next_action": "Add the possible identification as a research note; no spouse or wedding-date assignment is proposed.",
+      "new_information": true,
+      "record_status": "supplied index; original not inspected in this batch"
+    },
+    {
+      "row": 54,
+      "id": "opr-marriage-54",
+      "surname": "GLASGOW",
+      "forename": "MARION",
+      "spouse": "JOHN GRAY/FR67 (FR67)",
+      "date": "1686-09-30",
+      "parish_number": "664",
+      "reference": "10 / 109",
+      "parish": "Carriden",
+      "status": "HOLD",
+      "profile_ids": [],
+      "assessment": "Marion Glasgow/John Gray, Carriden; no compatible identified adult profile.",
+      "next_action": "Inspect OPR 664/10 / 109 for residence, occupation or witnesses, then complete the identity comparison.",
+      "new_information": false,
+      "record_status": "supplied index; original not inspected in this batch"
+    },
+    {
+      "row": 55,
+      "id": "opr-marriage-55",
+      "surname": "GLASGOW",
+      "forename": "MARION",
+      "spouse": "WILLIAM GLASGOW/FR51 (FR51)",
+      "date": "1681-06-10",
+      "parish_number": "690",
+      "reference": "10 / 82",
+      "parish": "Kirknewton and East Calder",
+      "status": "CANDIDATE — research note queued",
+      "profile_ids": [
+        "Glasgow-3025"
+      ],
+      "assessment": "Both reciprocal rows describe the same entry. Marion-3025 is a possible bride by name, locality and age, not a proved match; the recorded William remains unidentified.",
+      "next_action": "Add the qualified Marion research note; identify both spouses before attaching a William.",
+      "new_information": false,
+      "record_status": "supplied index; original not inspected in this batch"
+    }
+  ],
+  "new_drafts": [
+    {
+      "title": "Unnamed Glasgow subject, Strathblane 1679",
+      "status": "HOLD",
+      "path": "surname-research/new-people/1679_Scotland_Strathblane_unknown_Glasgow.md",
+      "rows": [
+        6
+      ],
+      "assessment": "Groom surname explicitly assumed."
+    },
+    {
+      "title": "Jean Glasgow, West Kilbride 1700",
+      "status": "HOLD",
+      "path": "surname-research/new-people/1700_Scotland_West_Kilbride_Jean_Glasgow.md",
+      "rows": [
+        10
+      ],
+      "assessment": "No compatible adult Robert Woodsyd candidate."
+    },
+    {
+      "title": "Isob Glasgow, Glasgow 1684",
+      "status": "HOLD",
+      "path": "surname-research/new-people/1684_Scotland_Glasgow_Isob_Glasgow.md",
+      "rows": [
+        47
+      ],
+      "assessment": "No proven compatible live pair."
+    },
+    {
+      "title": "Joannet Glasgow, Glasgow 1661",
+      "status": "HOLD",
+      "path": "surname-research/new-people/1661_Scotland_Glasgow_Joannet_Glasgow.md",
+      "rows": [
+        51
+      ],
+      "assessment": "Alexander variants remain insufficient."
+    },
+    {
+      "title": "Agnes Glasgow, Carstairs, 1681",
+      "status": "HOLD",
+      "path": "surname-research/new-people/1681_Scotland_Carstairs_Agnes_Glasgow.md",
+      "rows": [
+        1
+      ],
+      "assessment": "No confirmed profile match in the bounded checks; the original entry and a distinguishing household link are still needed."
+    },
+    {
+      "title": "Agnes Glasgow, Kirknewton and East Calder, 1670",
+      "status": "HOLD",
+      "path": "surname-research/new-people/1670_Scotland_Kirknewton_and_East_Calder_Agnes_Glasgow.md",
+      "rows": [
+        13
+      ],
+      "assessment": "No confirmed profile match in the bounded checks; the original entry and a distinguishing household link are still needed."
+    },
+    {
+      "title": "Margaret Glasgow, Walston, 1690",
+      "status": "HOLD",
+      "path": "surname-research/new-people/1690_Scotland_Walston_Margaret_Glasgow.md",
+      "rows": [
+        18
+      ],
+      "assessment": "No confirmed profile match in the bounded checks; the original entry and a distinguishing household link are still needed."
+    },
+    {
+      "title": "Jeane Glasgow, St Monance, 1652",
+      "status": "HOLD",
+      "path": "surname-research/new-people/1652_Scotland_St_Monance_Jeane_Glasgow.md",
+      "rows": [
+        25
+      ],
+      "assessment": "No confirmed profile match in the bounded checks; the original entry and a distinguishing household link are still needed."
+    },
+    {
+      "title": "Agnas Glasgow, Longformacus, 1666",
+      "status": "HOLD",
+      "path": "surname-research/new-people/1666_Scotland_Longformacus_Agnas_Glasgow.md",
+      "rows": [
+        26
+      ],
+      "assessment": "No confirmed profile match in the bounded checks; the original entry and a distinguishing household link are still needed."
+    },
+    {
+      "title": "Agnes Glasgow, Kirknewton and East Calder, 1666",
+      "status": "HOLD",
+      "path": "surname-research/new-people/1666_Scotland_Kirknewton_and_East_Calder_Agnes_Glasgow.md",
+      "rows": [
+        27
+      ],
+      "assessment": "No confirmed profile match in the bounded checks; the original entry and a distinguishing household link are still needed."
+    },
+    {
+      "title": "Anna Glasgow, Kirknewton and East Calder, 1676",
+      "status": "HOLD",
+      "path": "surname-research/new-people/1676_Scotland_Kirknewton_and_East_Calder_Anna_Glasgow.md",
+      "rows": [
+        29
+      ],
+      "assessment": "No confirmed profile match in the bounded checks; the original entry and a distinguishing household link are still needed."
+    },
+    {
+      "title": "Margrat Glasgow, Cambusnethan, 1693",
+      "status": "HOLD",
+      "path": "surname-research/new-people/1693_Scotland_Cambusnethan_Margaret_Glasgow.md",
+      "rows": [
+        38
+      ],
+      "assessment": "No confirmed profile match in the bounded checks; the original entry and a distinguishing household link are still needed."
+    },
+    {
+      "title": "Thomas Glasgow, Carstairs, 1679",
+      "status": "HOLD",
+      "path": "surname-research/new-people/1679_Scotland_Carstairs_Thomas_Glasgow.md",
+      "rows": [
+        41
+      ],
+      "assessment": "No confirmed profile match in the bounded checks; the original entry and a distinguishing household link are still needed."
+    },
+    {
+      "title": "Marion Glasgow, Carriden, 1686",
+      "status": "HOLD",
+      "path": "surname-research/new-people/1686_Scotland_Carriden_Marion_Glasgow.md",
+      "rows": [
+        54
+      ],
+      "assessment": "No confirmed profile match in the bounded checks; the original entry and a distinguishing household link are still needed."
+    },
+    {
+      "path": "surname-research/new-people/1684_Scotland_Edinburgh_Marion_Glasgow.md",
+      "title": "Marion Glasgow and John Bruce, Edinburgh, 1684",
+      "assessment": "No confirmed profile match in the bounded checks; original not inspected.",
+      "status": "HOLD",
+      "rows": [
+        4
+      ]
+    },
+    {
+      "path": "surname-research/new-people/1671_Scotland_Edinburgh_Eupham_Glasgow.md",
+      "title": "Eupham/Effie Glasgow and Alexander Hutcheson, 1671",
+      "assessment": "Two entries probably one couple, provisionally grouped; Glasgow-3358 unproved.",
+      "status": "HOLD",
+      "rows": [
+        8,
+        32
+      ]
+    },
+    {
+      "path": "surname-research/new-people/1675_Scotland_Edinburgh_Jean_Glasgow.md",
+      "title": "Jean Glasgow and William Mitchell, Edinburgh, 1675",
+      "assessment": "No confirmed profile match in the bounded checks.",
+      "status": "HOLD",
+      "rows": [
+        11
+      ]
+    },
+    {
+      "path": "surname-research/new-people/1651_Scotland_Edinburgh_Alisone_Glasgow.md",
+      "title": "Alisone Glasgow and George Cargill, Edinburgh, 1651",
+      "assessment": "No confirmed profile match in the bounded checks.",
+      "status": "HOLD",
+      "rows": [
+        14
+      ]
+    },
+    {
+      "path": "surname-research/new-people/1665_Scotland_Edinburgh_Alexander_Glasgow.md",
+      "title": "Alexander Glasgow and Issobell Anderson, Edinburgh, 1665",
+      "assessment": "Glasgow-3118 possible only by chronology.",
+      "status": "HOLD",
+      "rows": [
+        28
+      ]
+    },
+    {
+      "path": "surname-research/new-people/1659_Scotland_Edinburgh_Marione_Glasgow.md",
+      "title": "Marione Glasgow and Johne Rait, Edinburgh, 1659",
+      "assessment": "No confirmed profile match in the bounded checks.",
+      "status": "HOLD",
+      "rows": [
+        39
+      ]
+    },
+    {
+      "path": "surname-research/new-people/1672_Scotland_Edinburgh_Alison_Glasgow.md",
+      "title": "Alison Glasgow and John Williamson, Edinburgh, 1672",
+      "assessment": "No confirmed profile match in the bounded checks.",
+      "status": "HOLD",
+      "rows": [
+        44
+      ]
+    }
+  ],
+  "update_profile_ids": [
+    "Glasgow-2714",
+    "Glasgow-3024",
+    "Glasgow-3025",
+    "Glasgow-3087",
+    "Glasgow-3103",
+    "Glasgow-3112",
+    "Glasgow-992"
+  ]
+}

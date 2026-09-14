@@ -314,8 +314,8 @@ This line should be treated separately from the seventeenth- and eighteenth-cent
 ! Proved relationship
 | [[Glasgow-3896|Daniel Glasgow]] and [[Glasgow-987|Thomas Glasgow]] were brothers
 |-
-! Probable relationship
-| [[Glasgow-951|Alexander Glasgow]] was probably their brother
+! Possible relationship
+| [[Glasgow-951|Alexander Glasgow]] may have been their brother or cousin
 |-
 ! Working parent generation
 | [[Glasgow-3904|Older Alexander Glasgow]] and Rosanna Unknown
@@ -336,6 +336,10 @@ The 1851 census still records Alexander farming at Lisnagaver. His proved son [[
 A Griffith's Valuation transcript lists Alexander, John and Thomas at Lisnagaver and Daniel and Robert at Gortereghy.<ref name="GriffithRasharkin">[https://www.failteromhat.com/griffiths/antrim/rasharkin.htm Griffith's Valuation transcript for Rasharkin], accessed 17 July 2026.</ref> These names support a locality cluster; they do not establish relationships or exact plot adjacency.
 
 A descendant account published in 2007 names an older Alexander and Rosanna as Thomas's parents.<ref name="GenesReunited">[https://www.genesreunited.co.uk/boards/board/general_topics/thread/465937 Genes Reunited descendant account], 25 January 2007, accessed 17 July 2026.</ref> It preserves several later facts about Thomas's family, so the couple is useful as uncertain working parents. It supplies no contemporary record and does not establish '''Shaw''' as Rosanna's surname. If Daniel was their son, the older Alexander must have been born by about 1778 and Rosanna before about 1780.
+
+Supplied February 2020 descendant correspondence repeats that parent tradition for Thomas but phrases it as a belief, then separately asks whether the younger Alexander might have been Thomas's brother. No underlying family document, match amount, segment data or verified descent was supplied. It is provenance and a follow-up route, not an independent parentage witness.
+
+A dealer catalogue describes seven folio pages of James Henry's Killoquin estate accounts for 11 October 1786–31 December 1787, signed at Culmore by James Henry and Robert Bateson.<ref name="Ford15700">[https://www.dev.richardfordmanuscripts.co.uk/catalogue/15700 Richard Ford Manuscripts, catalogue item 15700], accessed 13 September 2026.</ref> PRONI's 2017 accessions list separately describes <code>D3300/256/1</code> as Robert Bateson Harvey loose estate accounts for 1786–1787.<ref name="PRONI2017">[https://www.nationalarchives.gov.uk/accessions/2017/17returns/17ac255.htm The National Archives, Accessions to Repositories 2017: PRONI], accessed 13 September 2026.</ref> The estate, maker, format and dates make a common manuscript likely, but neither entry cross-references the other and no manuscript image has been inspected. The catalogue descriptions do not name Glasgow or Lisnagaver; the tenant and arrears lists remain a targeted archive search, not present family evidence.
 
 Adam and Rose of Inishrush are not placed above the older Alexander. No source identifies Adam as his father, while Rose, born about 1767, is chronologically excluded as mother of a man born by about 1778. Adam, John and Samuel in the wider Bann Valley material remain possible collateral relatives only.
 
@@ -450,6 +454,7 @@ Y-DNA evidence should be described at the level it actually supports.
 * PRONI Killoquin rent roll <code>D3209/1</code> (1790).
 * Rent accounts <code>D3649/3/1-2</code> (1793–1819).
 * Related estate accounts <code>D3209/2-9</code> and <code>D3300/256/1</code>.
+** <code>D3300/256/1</code> is probably the catalogued 1786–1787 James Henry Killoquin account, but this must be confirmed from the original or matching provenance before treating the descriptions as two sources.
 * Valuation revisions <code>VAL/12/B/4/17A-C</code>.
 * These references remain research targets until the original entries naming Glasgow occupiers are inspected and transcribed.
 

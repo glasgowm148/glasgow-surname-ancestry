@@ -1,5 +1,8 @@
 # Findings: [Issobell Glasgow (Glasgow-1520), baptised 1646](https://www.wikitree.com/wiki/Glasgow-1520)
 
+Last updated: 2026-09-10
+
+
 ## Current conclusion
 
 The surname-only Findmypast result is compatible with Glasgow-1520: Issobell
@@ -19,3 +22,16 @@ represents this child rather than another same-named Glasgow.
 No new person draft is warranted. The record identifies the parents as names,
 not as the existing WikiTree parent profiles. Do not promote or replace any
 attached relationship without a separate identity audit.
+
+<!-- opr-birth-review-row-71 -->
+## Source findings
+
+### Supplied OPR births and baptisms: row 71 — 10 September 2026
+
+[Scotland’s People](https://www.scotlandspeople.gov.uk/), **Old Parish Registers, births and baptisms**; exact surname Glasgow through 1700, 127 supplied results. **ISSOBELL GLASGOW**; indexed date **07/07/1646**; Glasgow; parish **644 / 1**, reference **40 / 81**. Parents/other exactly as indexed: **WILLIAME GLASGOW/BESSIE HOWIE**. Indexed gender: **F**.
+
+**Assessment:** Matches the existing child-record account by indexed date, locality and recorded family. This row adds the complete index locator as supporting provenance; it does not establish a new event or relationship.
+
+Original image not inspected for this batch. The combined collection’s date does not automatically establish a birthday. Names alone do not uniquely identify attached parents or connect a child with a later adult. An omitted parent or indexed gender U remains unspecified in this source.
+
+**Next action:** No additional WikiTree update from this row; preserve any existing pending work.

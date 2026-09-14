@@ -1,0 +1,57 @@
+{
+  "id": "montfoid-bessie-robertson-testament-comparison",
+  "title": "Montfoid: test the rent clause before joining the families",
+  "question": "Is Bessie Robertson's 1610 confirmation the unnamed Montfoid tenant's testament quoted by Paterson, and can it help identify her husband John Glasgow?",
+  "conclusion": "A published extract gives a testable lead: an unnamed Montfoid tenant, said to have died in February 1606, owed Lady Jean Boyd one boll of rent meal, and the testament was confirmed on 17 August 1610. Bessie Robertson, spouse of John Glasgow in Montfoid, has the same confirmation date in the testament calendar. The shared estate and date make her testament worth comparing, but the extract omits the tenant's name. No death date or migration to Quothquan is proved by this match alone.",
+  "status": "unresolved",
+  "findings": [
+    {
+      "claim": "The calendar identifies Bessie Robertson as John Glasgow's spouse in Montfoid on the record confirmed 17 August 1610.",
+      "status": "confirmed",
+      "basis": "The existing calendar citation identifies the spouse and locality. It does not give a marriage date, establish the husband's parentage, or identify him with the later Quothquan deceased. The current Bessie profile is Robertson-33965; no new spouse profile is needed. Its sparse biography adds no independent death evidence.",
+      "source_url": "https://archive.org/details/scottishrecordso07scotuoft/page/426/mode/2up",
+      "source_reference": "Francis J. Grant, ed., The Commissariot Record of Glasgow: Register of Testaments, 1547-1800, printed p. 426, Robertson, Bessie; cross-reference p. 196. Existing calendar finding, not a new original-image reading.",
+      "new_this_pass": false
+    },
+    {
+      "claim": "Paterson describes an unnamed estate tenant's February 1606 death and a distinctive rent creditor, not a named Glasgow death.",
+      "status": "confirmed",
+      "basis": "The text across printed pp. 53-54 discusses Hugh Montfoid of that Ilk and his wife Jean Boyd. It reports Lady Montfoid as creditor for a boll of rent meal in an unnamed tenant's testament, gives that tenant's death as February 1606, and gives confirmation as 17 August 1610. The death clause refers to the tenant, not to Hugh or Jean. Neither Bessie Robertson nor John Glasgow is named in this passage. This is a nineteenth-century account quoting an earlier record, not the original testament itself.",
+      "source_url": "https://archive.org/download/historyofcountie0003pt1pate/historyofcountie0003pt1pate.pdf",
+      "source_reference": "James Paterson, History of the counties of Ayr and Wigtown, Cuninghame section, printed pp. 53-54; public scan inspected in context across the page break.",
+      "new_this_pass": true
+    },
+    {
+      "claim": "The rent clause supplies a stronger comparison than surname or confirmation date alone.",
+      "status": "unresolved",
+      "basis": "Obtain Bessie's original and look for Jeane Boyd, Lady Montfoid, as creditor for ane boll of ferme meill, together with the opening death clause and confirmation. If those distinctive details agree, the unnamed printed extract can be assigned much more securely. Until then, keep February 1606 as a candidate comparison date, not Bessie's death field. A court may confirm several estates on the same day.",
+      "source_url": "https://archive.org/download/historyofcountie0003pt1pate/historyofcountie0003pt1pate.pdf",
+      "source_reference": "Research inference from Paterson pp. 53-54 and the separately maintained calendar entry for Bessie Robertson; original CC9/7 volume and images still to be established.",
+      "new_this_pass": true
+    },
+    {
+      "claim": "The Montfoid husband, the Mid Calder father and the Quothquan deceased remain a three-record identity hypothesis.",
+      "status": "unresolved",
+      "basis": "The 1610 Montfoid calendar proves a spouse pair; the 1608 and 1609 Mid Calder baptism records name a local father John; the 1650 Quothquan testament identifies John and his sister Bessie Glasgow. None of these records supplies the missing cross-place link. Bessie the spouse Robertson and Bessie the sister Glasgow have different documented roles and must not be conflated. Preserve the existing uncertain working attachments while seeking a deed, tenancy succession or testament clause naming a second locality or the relevant relatives.",
+      "source_url": "https://www.wikitree.com/wiki/Glasgow-3296",
+      "source_reference": "Maintained Glasgow-3296 identity assessment, compared with the newly recovered Paterson passage; the WikiTree attachment itself is not independent proof.",
+      "new_this_pass": false
+    }
+  ],
+  "searches": [
+    {
+      "target": "Read the antecedent of the search snippet beginning with 1606 on printed p. 54",
+      "result": "The full pp. 53-54 passage concerns Hugh Montfoid and Jean Boyd and quotes an unnamed tenant's testament. It does not name a Glasgow. The complete context prevents the tenant's death from being assigned to the wrong person."
+    },
+    {
+      "target": "Identify the existing Bessie Robertson profile through the public WikiTree API",
+      "result": "Glasgow-3296's spouse is Robertson-33965. Her biography cites the printed testament calendar; her death field is empty. No original-image or death-date evidence was added by that biography."
+    },
+    {
+      "target": "Find a source route that could prove the Montfoid-to-Quothquan identity",
+      "result": "The recovered passage supplies a specific original-testament comparison, but no cross-place family link. A proposed move is not established by this bounded search."
+    }
+  ],
+  "next_record": "Find Bessie Robertson's original Glasgow commissary testament, confirmed 17 August 1610. Compare the Lady Montfoid rent creditor and death wording, then transcribe every named relative, debtor and locality. Only after that should the Montfoid husband be tested against the Mid Calder and Quothquan records. If a 1606 death is established, assess any proposed maternity of later-baptised children from their full birth/baptism entries rather than assuming baptism dates are birth dates.",
+  "profile_ids": ["Robertson-33965", "Glasgow-3296", "Glasgow-1086"]
+}

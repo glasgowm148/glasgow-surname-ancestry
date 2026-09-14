@@ -1,0 +1,85 @@
+{
+  "id": "ayrshire-followup-2026-09-10",
+  "title": "Ayrshire: follow the tenancies and the women's estates",
+  "question": "Can the Corsinkell father-and-sons group be connected to Geillis and Katherine Glasgow, or to the later James Glasgow married to Margaret Smith at Brekpleughe?",
+  "conclusion": "The local network is real, but the missing kinship clause has not been found. The 1571 Corsinkell sons already have record-defined identities: James Glasgow-3921 and John Glasgow-4061, sons of James elder Glasgow-1168. Do not replace John-4061 with the unproved Kilwinning candidate John-3193. The most discriminating unexamined sources are now the estates of Margaret Smith in 1632, Agnes Glasgow in 1628 and John Mathie of Ibert in 1607, rather than another unrestricted search for James Glasgow.",
+  "status": "unresolved",
+  "findings": [
+    {
+      "claim": "The 1559-60 Stevenston list contains a wider Glasgow, Wilson, Weir and Mathie network.",
+      "status": "confirmed",
+      "basis": "The printed page was visually inspected. Matthew Glasgow shares the Ardeer Nether entry with John Mathie. Michael Glasgow appears at Brakpleuch with John and Robert Wilson and also at Dubbs. Ninian Weir appears at Hawkhill and Hullerhirst Over. Geillis Wilson appears at Corscraig; she is not thereby identified with Geillis Glasgow of the 1603 testament. Repeated names at separate holdings may represent one tenant or namesakes.",
+      "source_url": "https://aanhs.org/wp-content/uploads/2018/05/people-of-ayrshire.pdf#page=36",
+      "source_reference": "Margaret H. B. Sanderson, The People of Sixteenth Century Ayrshire, Ayrshire Collections14/8(1987), p.331, Cunninghame teind lists1559-60. Published reconstruction of Register of Acts and Decreets vol.22,fols.102v-167v; original litigation not inspected.",
+      "new_this_pass": false
+    },
+    {
+      "claim": "The creditor James in Geillis's estate is not yet identified as either a particular Corsinkell James or Margaret Smith's husband.",
+      "status": "unresolved",
+      "basis": "The 1603 original identifies James Glasgow in Stevenston as someone the estate owed. It supplies no age, father, wife or Corsinkell/Brekpleughe designation for him. A shared parish and an expected name are not a record-to-record identity bridge. The possibility of close local kin remains worth testing.",
+      "source_url": "/research/transcriptions/geillis-1603/#name-audit",
+      "source_reference": "NRS CC9/7/3,images113-114, Geillis Glasgow, confirmed11May1603; original-image name audit of10September2026 carried forward, not another handwriting pass.",
+      "new_this_pass": false
+    },
+    {
+      "claim": "Margaret Smith's 1632 estate is a more specific test of the later Brekpleughe household than the existing James profile attachment.",
+      "status": "unresolved",
+      "basis": "The published calendar identifies her as James Glasgow's spouse at Brekpleughe, Stevenston. It does not identify him as the younger Corsinkell tenant first recorded in1559-60. The72-73year interval requires an actual continuity record. It is not a conclusive age contradiction: a confirmation date does not establish when a spouse died or that he remained alive at confirmation. The original may name children, heirs, creditors and the husband's living/deceased status.",
+      "source_url": "https://archive.org/details/scottishrecordso07scotuoft/page/460/mode/1up",
+      "source_reference": "Francis J. Grant, Commissariot Record of Glasgow: Register of Testaments1547-1800(1901),p.460,21February1632; published-index entry. Text cross-reference independently retrieved in this pass; exact year retained from maintained source citation. Original testament not supplied or inspected.",
+      "new_this_pass": true
+    },
+    {
+      "claim": "Agnes Glasgow's 1628 estate is a direct route to testing the proposed Glasgow-Smith parentage.",
+      "status": "unresolved",
+      "basis": "The index calls Agnes the spouse of John Logane, trumpmaker in Stevenston, but names neither parent. That is a distinct, searchable household. Her estate could supply the missing parental or sibling identifiers; the index cannot confirm Agnes as Margaret Smith's daughter. Preserve existing attachments while recording the uncertainty, rather than following older notes that recommended leaving parents blank.",
+      "source_url": "https://archive.org/details/scottishrecordso07scotuoft/page/195/mode/1up",
+      "source_reference": "Grant, Glasgow testament calendar,p.195,4March1628; exact spouse/occupation entry independently retrieved as published text in this pass. Current local profiles: Glasgow-3178 and Smith-374110. Original testament not inspected.",
+      "new_this_pass": false
+    },
+    {
+      "claim": "John Mathie of Ibert's estate could test the proposed link between the city and Glencairn households.",
+      "status": "unresolved",
+      "basis": "The calendar entry for John of Ibert, Kilmaronock, confirmed9November1607, was independently recovered. Maintained research uses January1607 tutory retours for his brother Matthew and children James, David, Agnes and Margaret. His original testament could add a wife, an older child or an identifying associate. It is not currently evidence that Jonet Mathie, married to John Glasgow in1618, was his daughter or granddaughter.",
+      "source_url": "https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/commissariot_records_of_glasgow_1547-1800.pdf",
+      "source_reference": "Grant, Glasgow testament calendar,Mathie entry9November1607. Wider tutory/Glencairn reconstruction is maintained in research/Glasgow-3908/mathie-glencairn-bridge-1554-1618.md and was not newly proved here.",
+      "new_this_pass": false
+    },
+    {
+      "claim": "The records support probable collateral Glasgow kin, but do not identify a father for Michael or connect James elder to William of Glasgow burgh.",
+      "status": "probable",
+      "basis": "Maintained research places Michael as an adult Glencairn-network witness in1549 and a probable match to the later Brakpleuch tenant. His generation and locality make brother/cousin of James elder a better hypothesis than son. Matthew of Ardeer is a possible son or nephew. These are qualified kin hypotheses, not new explicit relationships from this follow-up. James elder's attachment to William Glasgow-1098 remains uncertain.",
+      "source_url": "https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD39%2F1%2F59",
+      "source_reference": "NRS GD39/1/59,28January1549, Michael Glasgow witness; maintained catalogue-based identification in Glasgow-3911/findings.md and Glasgow-1168/findings.md. Original deed not inspected in this pass.",
+      "new_this_pass": false
+    }
+  ],
+  "searches": [
+    {
+      "target": "Corsinkell names and profile identities",
+      "result": "Reconciled maintained Glasgow-1168/3921 findings with indexed NRS GD39/5/59. The record-defined John is Glasgow-4061; Glasgow-3193 is only a comparison. No new parental bridge."
+    },
+    {
+      "target": "NRS and indexed web searches for Glasgow with Brekpleughe, Brakpleuch, Breckpleuch and Stevenston",
+      "result": "No additional person-identifying succession instrument located. Results mostly repeated the testament calendar, the teind list or unrelated modern place references. This is limited indexed coverage, not a search of all underlying deeds."
+    },
+    {
+      "target": "Published1559-60 teind list, Stevenston parish",
+      "result": "Downloaded the public scholarly PDF and visually inspected printedp.331. The groupings and distinct Wilson/Weir search leads are genuine. No manuscript folio, household kinship or equivalence of repeated tenants was inferred."
+    },
+    {
+      "target": "Glasgow testament calendar: Margaret Smith/Brekpleughe, Agnes Glasgow/trumpmaker, John Mathie/Ibert",
+      "result": "Retrieved the public edition text and recovered the entries. No corresponding original1632 PDF was found among supplied testament filenames. The calendar is a finding aid and does not supply the missing kinship clauses."
+    },
+    {
+      "target": "Ninian Weir/Hullerhirst and Wilson/Chaipliehill indexed searches",
+      "result": "No relevant kinship-bearing original located. The published Weir index section also has fragmented OCR date columns; no exact date or relationship was promoted from those fragments."
+    },
+    {
+      "target": "Indexed WikiTree searches for Ninian Weir of Stevenston, Geillis Wilson in1559 and John Wilson at Brakpleuch",
+      "result": "No compatible profile identified in the returned indexed results. Live API and a complete duplicate audit were not undertaken; these remain HOLD research leads, not ready-to-create profiles or newly attached relatives."
+    }
+  ],
+  "next_record": "Obtain the Glasgow Commissary originals for Margaret Smith, spouse of James Glasgow at Brekpleughe, confirmation21February1632; Agnes Glasgow, spouse of John Logane, trumpmaker at Stevenston, confirmation4March1628; and John Mathie of Ibert, Kilmaronock, confirmation9November1607. Read spouses, kin terms, heirs, creditors and cautioners before matching anyone to the Corsinkell line. For the earliest tenancies, consult Register of Acts and Decreets vol.22,fols.102v-167v rather than expecting the abbreviated1559-60 list to preserve omitted relationships.",
+  "profile_ids": ["Glasgow-1168", "Glasgow-3921", "Glasgow-4061", "Glasgow-3193", "Glasgow-3908", "Glasgow-3911", "Glasgow-3179", "Glasgow-1495", "Weir-4172", "Smith-374110", "Glasgow-3178"]
+}

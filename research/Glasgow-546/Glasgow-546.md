@@ -1,17 +1,18 @@
-# WikiTree update notes: Glasgow-546
+[[Category:Glasgow Name Study]]
 
-Facts found after the current WikiTree profile capture, for manual review.
+== Biography ==
 
-## Suggested additions
+'''Robert Glasgow''' was an early settler and the first blacksmith in West Deer Township, Allegheny County, Pennsylvania.<ref>Thomas Cushing, ''History of Allegheny County Pennsylvania'', 1889, A. Warner & Co., Part II, Chapter XII, p. 138. https://archive.org/details/historyofalleghe01cush/page/138/mode/1up</ref>  An indexed Allegheny probate packet for Robert Glasgow has a probate date of 8 June 1881, eight days after the reported death on 31 May 1881.  It is a strong identity lead, but its eight images remain unread and do not yet establish an heir, land, birthplace, or relationship.<ref>Ancestry, "Pennsylvania, U.S., Wills and Probate Records, 1683–1993," collection 8802, record 2107151, images 005557791_02461–02468; indexed probate date 8 June 1881.</ref>
 
-| Fact missing from profile | Source | Confidence |
-| --- | --- | --- |
-| A Robert Glasgow probate packet was proved in Allegheny County on 8 June 1881. Its date is consistent with this Robert's reported death on 31 May 1881. | Ancestry collection 8802, record 2107151, images `005557791_02461`-`02468` | High for the indexed probate event; packet contents unverified |
-| In 1889 Cushing wrote that the West Deer property selected by Robert was still owned by Robert's descendants. | Thomas Cushing, *History of Allegheny County, Pennsylvania* (1889), part 2, p. 138 | Medium; near-contemporary secondary account |
+Cushing also wrote that the property Robert selected was still owned by his descendants in 1889.  The history names no parent, sibling, spouse, child, or Irish locality.
 
-## Do not add as fact
+== Research Notes ==
 
-- Do not state any heir, spouse, child, sibling, parent, land description, or Irish
-  origin from the 1881 packet until all eight pages have been retrieved and read.
-- Do not use the packet index as evidence linking Robert to Adam Glasgow of
-  Inishrush; it provides no displayed relationship.
+The cited probate index and county history do not connect Robert to [[Glasgow-3902|Adam Glasgow of Inishrush]] or to a proposed earlier Glasgow relationship.  The probate packet is the next record to inspect before making such a claim.
+
+== Sources ==
+
+<references />
+
+* Family history document written by William Melanchthon Glasgow [https://www.wikitree.com/photo/pdf/Glasgow-590]
+* {{FindAGrave|23398567}}

@@ -16,6 +16,8 @@ browser support is an optional extension with separate dependencies.
 Outputs:
 - <WikiTree-ID>_ai_export.md — one self-contained file for pasting into AI
 - optional raw JSON when --write-json is supplied
+- optional neutral toolkit case when --toolkit-case-directory is supplied
+- optional private toolkit research bundle when --toolkit-research-bundle is supplied
 - optional FamilySearch page snapshots under artifacts/profile-exports/familysearch_pages/
 
 Examples:
@@ -49,7 +51,6 @@ import time
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Iterable
-from urllib.parse import unquote, urlparse
 
 import requests
 
@@ -200,116 +201,38 @@ def env_bool(name: str, default: bool) -> bool:
 
 
 def normalise_wikitree_id(value: str) -> str:
-    """Accept a WikiTree ID or profile URL and return a WikiTree ID."""
-    value = value.strip()
-    if not value:
-        raise ValueError("WikiTree ID cannot be empty.")
+    """Compatibility wrapper for the reusable WikiTree adapter normaliser."""
+    from genealogy.adapters import normalise_wikitree_profile_id
 
-    if "://" in value:
-        parsed = urlparse(value)
-        if "wikitree.com" not in parsed.netloc.lower():
-            raise ValueError("The URL is not a WikiTree URL.")
-
-        match = re.search(r"/wiki/([^/?#]+)", parsed.path)
-        if not match:
-            raise ValueError("Could not find a WikiTree ID in the URL.")
-
-        value = unquote(match.group(1))
-
-    value = value.replace(" ", "_")
-
-    if not re.fullmatch(r"[^\s/]+-\d+", value):
-        raise ValueError(
-            f"'{value}' does not look like a WikiTree ID such as Glasgow-1538."
-        )
-
-    return value
+    return normalise_wikitree_profile_id(value, example="Glasgow-1538")
 
 
 def normalise_familysearch_pid(value: str) -> str:
-    """Validate a FamilySearch Family Tree person ID."""
-    value = value.strip().upper()
+    """Compatibility wrapper for the reusable FamilySearch adapter normaliser."""
+    from genealogy.adapters import normalise_familysearch_pid as normalise
 
-    if not re.fullmatch(r"[A-Z0-9]{4}-[A-Z0-9]{3}", value):
-        raise ValueError(
-            f"'{value}' does not look like a FamilySearch PID such as 9QMG-R4T."
-        )
-
-    return value
+    return normalise(value, example="9QMG-R4T")
 
 
 def post_wikitree(payload: dict[str, str]) -> dict[str, Any]:
     """POST to the WikiTree API and validate its usual response envelope."""
-    payload = dict(payload)
-    payload.setdefault("appId", WIKITREE_APP_ID)
-    response = None
-    for attempt in range(5):
-        try:
-            response = requests.post(
-                WIKITREE_API_URL,
-                data=payload,
-                timeout=REQUEST_TIMEOUT_SECONDS,
-                headers=WIKITREE_REQUEST_HEADERS,
-            )
-        except requests.RequestException as exc:
-            if attempt == 4:
-                raise ExportError(
-                    f"WikiTree API request failed after five attempts: {exc}"
-                ) from exc
-            time.sleep(min(2.0 ** (attempt + 1), 60.0))
-            continue
+    from genealogy.adapters import WikiTreeClientError, WikiTreeHttpClient
 
-        if response.headers.get("x-amzn-waf-action", "").lower() == "challenge":
-            raise ExportError(
-                "WikiTree's AWS WAF challenged the API request before it "
-                "reached api.php (HTTP 202). Retry later or use the public "
-                "profile-page capture fallback."
-            )
-
-        retryable = response.status_code == 429 or response.status_code >= 500
-        if retryable and attempt < 4:
-            retry_after = response.headers.get("Retry-After")
-            try:
-                delay = (
-                    max(0.0, float(retry_after))
-                    if retry_after
-                    else 2.0 ** (attempt + 1)
-                )
-            except (TypeError, ValueError):
-                delay = 2.0 ** (attempt + 1)
-            time.sleep(min(delay, 60.0))
-            continue
-
-        try:
-            response.raise_for_status()
-        except requests.RequestException as exc:
-            qualifier = " after five attempts" if retryable else ""
-            raise ExportError(f"WikiTree API request failed{qualifier}: {exc}") from exc
-        break
-
-    if response is None:
-        raise ExportError("WikiTree API request produced no response.")
-
+    client = WikiTreeHttpClient(
+        app_id=WIKITREE_APP_ID,
+        transport=requests.post,
+        base_url=WIKITREE_API_URL,
+        timeout=REQUEST_TIMEOUT_SECONDS,
+        max_attempts=5,
+        backoff=2.0,
+        max_backoff=60.0,
+        headers=WIKITREE_REQUEST_HEADERS,
+        sleeper=time.sleep,
+    )
     try:
-        data = response.json()
-    except ValueError as exc:
-        preview = response.text[:500].replace("\n", " ")
-        raise ExportError(
-            f"WikiTree returned non-JSON content: {preview}"
-        ) from exc
-
-    if not isinstance(data, list) or not data:
-        raise ExportError("Unexpected empty response from WikiTree.")
-
-    envelope = data[0]
-    if not isinstance(envelope, dict):
-        raise ExportError("Unexpected WikiTree response structure.")
-
-    status = envelope.get("status")
-    if status not in (0, "0", "", None):
-        raise ExportError(f"WikiTree API returned status: {status!r}")
-
-    return envelope
+        return client.post(payload)
+    except WikiTreeClientError as exc:
+        raise ExportError(str(exc)) from exc
 
 
 def get_relatives(wikitree_id: str) -> dict[str, Any]:
@@ -366,19 +289,9 @@ def resolve_wikitree_redirect(wikitree_id: str) -> tuple[str, int | None]:
 
 def iter_relation_stubs(person: dict[str, Any]) -> Iterable[dict[str, Any]]:
     """Yield every profile stub from the immediate relationship collections."""
-    for relation in RELATION_NAMES:
-        raw = person.get(relation, {})
+    from genealogy.adapters.wikitree import iter_relation_profiles
 
-        if isinstance(raw, dict):
-            values = raw.values()
-        elif isinstance(raw, list):
-            values = raw
-        else:
-            values = []
-
-        for value in values:
-            if isinstance(value, dict):
-                yield value
+    yield from iter_relation_profiles(person, RELATION_NAMES)
 
 
 def collect_profile_names(
@@ -386,21 +299,9 @@ def collect_profile_names(
     requested_id: str,
 ) -> list[str]:
     """Collect the subject and immediate-relative WikiTree IDs."""
-    item = relatives_envelope["items"][0]
-    person = item["person"]
+    from genealogy.adapters.wikitree import collect_family_profile_names
 
-    names: set[str] = {requested_id}
-
-    subject_name = person.get("Name") or item.get("user_name")
-    if subject_name:
-        names.add(str(subject_name))
-
-    for profile in iter_relation_stubs(person):
-        name = profile.get("Name")
-        if name:
-            names.add(str(name))
-
-    return sorted(names)
+    return collect_family_profile_names(relatives_envelope, requested_id, RELATION_NAMES)
 
 
 def get_people(wikitree_ids: list[str]) -> dict[str, dict[str, Any]]:
@@ -441,18 +342,9 @@ def merge_profile(
     full_profiles: dict[str, dict[str, Any]],
 ) -> dict[str, Any]:
     """Replace a relationship stub with a full getPeople profile."""
-    name = stub.get("Name")
-    if not name or str(name) not in full_profiles:
-        return dict(stub)
+    from genealogy.adapters.wikitree import merge_family_profile
 
-    merged = dict(full_profiles[str(name)])
-
-    # Marriage metadata comes from getRelatives.
-    for key, value in stub.items():
-        if key.startswith("marriage_") or key == "do_not_display":
-            merged[key] = value
-
-    return merged
+    return merge_family_profile(stub, full_profiles)
 
 
 def hydrate_family(
@@ -461,44 +353,9 @@ def hydrate_family(
     requested_id: str,
 ) -> dict[str, Any]:
     """Hydrate the subject and all immediate relatives."""
-    item = relatives_envelope["items"][0]
-    stub_subject = item["person"]
+    from genealogy.adapters.wikitree import hydrate_family_envelope
 
-    subject_name = (
-        stub_subject.get("Name")
-        or item.get("user_name")
-        or requested_id
-    )
-
-    subject = dict(full_profiles.get(str(subject_name), stub_subject))
-
-    for relation in RELATION_NAMES:
-        raw = stub_subject.get(relation, {})
-
-        if isinstance(raw, dict):
-            hydrated: dict[str, dict[str, Any]] = {}
-
-            for relation_id, stub in raw.items():
-                if isinstance(stub, dict):
-                    hydrated[str(relation_id)] = merge_profile(
-                        stub,
-                        full_profiles,
-                    )
-
-            subject[relation] = hydrated
-
-        elif isinstance(raw, list):
-            subject[relation] = [
-                merge_profile(stub, full_profiles)
-                for stub in raw
-                if isinstance(stub, dict)
-            ]
-
-        else:
-            subject[relation] = {}
-
-    item["person"] = subject
-    return relatives_envelope
+    return hydrate_family_envelope(relatives_envelope, full_profiles, requested_id, RELATION_NAMES)
 
 
 def fetch_family(wikitree_id: str) -> dict[str, Any]:
@@ -518,27 +375,9 @@ def fetch_family(wikitree_id: str) -> dict[str, Any]:
 
 def extract_bio(profile: dict[str, Any]) -> str | None:
     """Read the biography regardless of Bio/bio casing or format."""
-    bio = profile.get("Bio")
-    if bio is None:
-        bio = profile.get("bio")
+    from genealogy.adapters.wikitree import extract_biography
 
-    if isinstance(bio, str):
-        return bio.strip() or None
-
-    if isinstance(bio, dict):
-        for key in ("wiki", "Wiki", "bio", "html"):
-            value = bio.get(key)
-            if isinstance(value, str) and value.strip():
-                return value.strip()
-
-        return json.dumps(
-            bio,
-            ensure_ascii=False,
-            indent=2,
-            sort_keys=True,
-        )
-
-    return None
+    return extract_biography(profile)
 
 
 def extract_familysearch_pids(profile: dict[str, Any]) -> list[str]:
@@ -2449,6 +2288,22 @@ def safe_stem(wikitree_id: str) -> str:
     return re.sub(r"[^A-Za-z0-9_.-]+", "_", wikitree_id)
 
 
+def write_toolkit_case(
+    envelope: dict[str, Any],
+    wikitree_id: str,
+    case_directory: Path,
+) -> Path:
+    """Persist a captured family through the reusable neutral adapter contract."""
+    from genealogy.adapters import save_wikitree_family_case
+
+    return save_wikitree_family_case(
+        envelope,
+        case_directory,
+        case_id=f"wikitree-{safe_stem(wikitree_id)}",
+        title=f"WikiTree family capture for {wikitree_id}",
+    )
+
+
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description=(
@@ -2472,6 +2327,15 @@ def parse_args() -> argparse.Namespace:
         help=(
             "Directory for Markdown, JSON and browser snapshots "
             f"(default: {DEFAULT_EXPORT_DIR})."
+        ),
+    )
+
+    parser.add_argument(
+        "--toolkit-case-directory",
+        type=Path,
+        help=(
+            "Also normalise the captured family through genealogy-research-workbench "
+            "and save a durable neutral case in this explicit directory."
         ),
     )
 
@@ -2597,6 +2461,17 @@ def parse_args() -> argparse.Namespace:
             "Create or resume an iterative research case in this directory. "
             "Pending targets in research_plan.json are scraped, merged and "
             "rendered to research_brief.md."
+        ),
+    )
+
+    parser.add_argument(
+        "--toolkit-research-bundle",
+        type=Path,
+        metavar="DIRECTORY",
+        help=(
+            "With --research-dir, also convert the established research state, "
+            "plan and evidence index into a verified private toolkit artifact "
+            "bundle in this explicit directory. Legacy files remain unchanged."
         ),
     )
 
@@ -2883,6 +2758,17 @@ def run_research_mode(
                 )
 
     update_research_outputs(args.research_dir, state, plan)
+    toolkit_bundle_paths: dict[str, Path] = {}
+    if args.toolkit_research_bundle:
+        try:
+            from glasgow_research_toolkit import write_toolkit_research_bundle
+
+            toolkit_bundle_paths = write_toolkit_research_bundle(
+                args.research_dir,
+                args.toolkit_research_bundle,
+            )
+        except (ImportError, OSError, ValueError) as exc:
+            raise ExportError(f"Could not write toolkit research bundle: {exc}") from exc
     case_index = read_json_object(args.research_dir / RESEARCH_INDEX_FILE)
     profiles = case_index.get("profiles", {})
     if not isinstance(profiles, dict):
@@ -2919,6 +2805,9 @@ def run_research_mode(
         f"{args.research_dir / research_profile_notes_file(wikitree_id)}"
     )
     print(f"Editable research plan: {args.research_dir / RESEARCH_PLAN_FILE}")
+    if toolkit_bundle_paths:
+        print(f"Private toolkit research bundle: {args.toolkit_research_bundle}")
+        print(f"Toolkit bundle manifest: {toolkit_bundle_paths['bundle-manifest.json']}")
     if surname_outputs:
         print(f"Surname profile index: {surname_outputs[1]}")
     return 1 if failures else 0
@@ -2940,6 +2829,8 @@ def main() -> int:
             raise ValueError("--research-refresh requires --research-dir.")
         if args.descendant_depth and not args.research_dir:
             raise ValueError("--descendant-depth requires --research-dir.")
+        if args.toolkit_research_bundle and not args.research_dir:
+            raise ValueError("--toolkit-research-bundle requires --research-dir.")
         if args.research_dir:
             return run_research_mode(
                 args,
@@ -2986,6 +2877,14 @@ def main() -> int:
             encoding="utf-8",
         )
         print(f"Wrote optional JSON: {json_path}")
+
+    if args.toolkit_case_directory:
+        try:
+            toolkit_path = write_toolkit_case(envelope, wikitree_id, args.toolkit_case_directory)
+        except (ImportError, OSError, ValueError) as exc:
+            print(f"Error writing toolkit case: {exc}", file=sys.stderr)
+            return 1
+        print(f"Wrote neutral toolkit case: {toolkit_path}")
 
     if args.familysearch_browser or args.familysearch_cdp:
         print(

@@ -25,6 +25,16 @@ uses the project's common-root hypothesis to cluster the Scottish branches by
 generation and identify the exact gaps. It currently places Rev. John M.A. in the
 Corsankell-Stevenston-Kilwinning branch and treats John-3375 as a duplicate test.
 
+## Local-study membership
+
+The public Lisnagaver–Rasharkin and Larne–Kilwaughter studies use reviewed
+locality evidence and specifically supported household links, not every person
+reachable through the exported WikiTree pedigree. In particular, the possible
+William of Larne → John of Glenleslie → John of Lisnagaver route remains an open
+research question. It does not place John of Lisnagaver or his Rasharkin
+descendants in the Larne locality group unless an original record proves that
+bridge.
+
 ## WikiTree transfer status
 
 | Status | Meaning |

@@ -1,0 +1,30 @@
+{
+  "resolution_state": "resolved",
+  "assessment_date": "2026-09-12",
+  "opening": "Sarah Taylor Glasgow's original birth return records 8 September 1889 at Tamlaght and directly names Daniel Glasgow and Mary Jane formerly Boyd as her parents.",
+  "position": {
+    "answer": "Sarah was born on 8 September 1889, not 9 September; the next day's entry belongs to Elizabeth Boyd Glasgow.",
+    "points": []
+  },
+  "evidence_questions": [
+    {
+      "id": "birth-date",
+      "title": "Why is Sarah's birth date 8 September?",
+      "answer": "Entry 370 on the original register page reads 8 September 1889; Elizabeth's separate entry 371 reads 9 September.",
+      "records": ["birth-sarah-glasgow-1889"],
+      "reasoning": "The two consecutive original entries distinguish the dates and both name the same parents and Tamlaght place.",
+      "limitation": "This corrects Sarah's date only; it does not decide how the consecutive-day births should be medically described.",
+      "missing": "No further source is needed for the registered date."
+    }
+  ],
+  "record_evidence": {
+    "birth-date": {
+      "birth-sarah-glasgow-1889": {
+        "recorded_statement": "Entry 370 records Sarah Taylor Glasgow at Tamlaght on 8 September 1889.",
+        "relevance": "Direct registered birth date and parent statement.",
+        "limitation": "The return records Daniel's residence as New York but does not identify his later US record."
+      }
+    }
+  },
+  "vital_assessment_id": "sarah-glasgow-2414-reviewed-birth"
+}

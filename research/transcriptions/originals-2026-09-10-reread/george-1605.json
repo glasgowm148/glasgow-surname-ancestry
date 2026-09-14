@@ -1,0 +1,39 @@
+{
+  "id": "george-1605",
+  "title": "George Glasgow: Mid Calder baptism, not a testament",
+  "record": "NRS Old Parish Registers, Births, Mid Calder 694/10, register page 7; supplied ScotlandsPeople image headed 17/02/1605",
+  "date": "17 February 1605 (baptism; not necessarily birth)",
+  "reviewed_at": "2026-09-10",
+  "source_files": ["testaments/Edinburgh/George_1605.jpg"],
+  "source_provenance": [
+    "The supplied ScotlandsPeople image is the complete NRS Mid Calder OPR 694/10 register page 7. The target entry is beneath the 17 February heading; neighboring entries were inspected only for boundaries and hand comparison."
+  ],
+  "reviewed_pages": ["Complete supplied OPR page 7; target entry beneath xvij februar heading"],
+  "coverage": "full",
+  "transcription": [{"page": "OPR page 7, target entry only", "lines": [
+    "xvij feb[ruar?]",
+    "James glasgow in muirestoun[?] ane bairne baptizit namit george . W. Georg",
+    "glasgow Johne smyth Wm[?] [illegible]"
+  ]}],
+  "plain_english": [
+    "Under 17 February, the register records a child named George being baptised to James Glasgow, whose residence is provisionally read as Muirestoun. The witnesses include George Glasgow and John Smith; the remaining name is unresolved.",
+    "This is a baptism entry among other baptisms and marriages. It contains no testament, inventory, estate administration or death statement. The mother's name is not supplied in this entry."
+  ],
+  "findings": [
+    "Target entry, lines 1-3: the source type is positively identified by both the ScotlandsPeople header and the wording 'ane bairne baptizit namit george'. It must not be catalogued as a 1605 testament merely because it was filed under testaments/Edinburgh/.",
+    "Target entry, line 2: James Glasgow is the named parent in the register's baptism formula. The witness George Glasgow is separately named and must not be substituted for the parent or assigned a grandfather relationship.",
+    "The local public registry contains Glasgow-1082, George Glasgow, labelled 17 February 1605 at Mid Calder. This is a strong correspondence of name, date and parish; the date is a baptism date in this supplied record, not an independently stated birth date."
+  ],
+  "changes_from_previous": [
+    "No george-1605 testament attempt exists in research/transcriptions/index.json. This is a newly classified baptism source, not an additional will.",
+    "The existing public registry describes 17 February 1605 as the life-start date; this image specifically supports baptism on that date.",
+    "Fresh full-page and entry-level rereading confirms the James-parent/George-witness distinction; the residence and final witness remain unresolved rather than forced from context."
+  ],
+  "unresolved": [
+    "Confirm the residence spelling muirestoun[?] and the final witness name against other entries in the same register hand.",
+    "No mother, actual birth date or relationship between the witness George Glasgow and the child is stated."
+  ],
+  "profiles": [["Glasgow-1082", "George Glasgow (matching local registry entry)"]],
+  "confidence_statement": "High confidence in document type, parish, baptism date and James/George names; moderate confidence in Muirestoun; low confidence in the final witness. Target entry is fully supplied, but uncertain readings remain. Original spellings are retained where legible; bracketed expansions are provisional. Neighboring entries were inspected to locate boundaries, not transcribed as part of George's entry.",
+  "reviewer": "LLM-assisted fresh image review"
+}

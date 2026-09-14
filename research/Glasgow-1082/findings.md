@@ -1,6 +1,8 @@
 # Glasgow-1082 research findings
 
-<!-- BEGIN FMP-GLASGOW-fmp-glasgow-223c981b581f -->
+Last updated: 2026-09-10
+
+
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-223c981b581f
 
 The transcript-validated baptism record for **George Glasgow**, 17 Feb 1605, Mid Calder, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
@@ -16,3 +18,16 @@ The transcript-validated baptism record for **George Glasgow**, 17 Feb 1605, Mid
 
 Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
 <!-- END FMP-GLASGOW-fmp-glasgow-223c981b581f -->
+
+<!-- opr-birth-review-row-74 -->
+## Source findings
+
+### Supplied OPR births and baptisms: row 74 — 10 September 2026
+
+[Scotland’s People](https://www.scotlandspeople.gov.uk/), **Old Parish Registers, births and baptisms**; exact surname Glasgow through 1700, 127 supplied results. **GERGE GLASGOW**; indexed date **17/02/1605**; Mid Calder; parish **694**, reference **10 / 7**. Parents/other exactly as indexed: **JAMES GLASGOW/**. Indexed gender: **U**.
+
+**Assessment:** Matches the existing child-record account by indexed date, locality and recorded family. This row adds the complete index locator as supporting provenance; it does not establish a new event or relationship.
+
+Original image not inspected for this batch. The combined collection’s date does not automatically establish a birthday. Names alone do not uniquely identify attached parents or connect a child with a later adult. An omitted parent or indexed gender U remains unspecified in this source.
+
+**Next action:** No additional WikiTree update from this row; preserve any existing pending work.

@@ -26,8 +26,7 @@ That earlier alignment is now superseded by the 1704 marriage. Cecil County,
 Maryland, and the 1759 death have no support in the inspected contemporary
 records.
 
-## Sources
-
+## Source findings
 - Scotland's People, Church of Scotland old parish registers, Glencorse parish
   687: marriage `20/53`; births `10/93`, `10/106`, `10/121`.
 - FamilySearch, Christian Glasgow, 15 February 1708,

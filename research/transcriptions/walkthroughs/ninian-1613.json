@@ -1,0 +1,349 @@
+{
+  "id": "ninian-1613",
+  "intro": "Ninian Glasgow's latter will names a spouse and son, then separately names a brother and sister. A torn lower passage cannot safely turn William into another child, and the brother John is not securely identified with Glasgow-1030.",
+  "people": [
+    {
+      "name": "Ninian Glasgow",
+      "role": "deceased testator",
+      "status": "explicit",
+      "profile_id": "Glasgow-3188",
+      "evidence_step": "spouse-son",
+      "evidence_study": "ninian-1613-subject"
+    },
+    {
+      "name": "Jonet Hutchesoun",
+      "role": "spouse",
+      "status": "explicit",
+      "profile_id": "Hutcheson-1774",
+      "evidence_step": "spouse-son",
+      "evidence_study": "ninian-1613-jonet-spouse"
+    },
+    {
+      "name": "Robert Glasgow",
+      "role": "son",
+      "status": "explicit",
+      "profile_id": "Glasgow-1027",
+      "evidence_step": "spouse-son",
+      "evidence_study": "ninian-1613-diagnostic-letters"
+    },
+    {
+      "name": "John Glasgow",
+      "role": "brother named in the record; identity with Glasgow-1030 unproved",
+      "status": "explicit",
+      "evidence_step": "siblings",
+      "evidence_study": "ninian-1613-johne-brother"
+    },
+    {
+      "name": "Marioun Glasgow",
+      "role": "sister",
+      "status": "explicit",
+      "profile_id": "Glasgow-3062",
+      "evidence_step": "siblings",
+      "evidence_study": "ninian-1613-marioun-sister"
+    },
+    {
+      "name": "William[?]",
+      "role": "person in damaged support or bequest passage; relationship unresolved",
+      "status": "uncertain",
+      "evidence_step": "damaged-william"
+    }
+  ],
+  "card_kin": {
+    "spouse": [
+      {
+        "name": "Jonet Hutchesoun",
+        "relationship": "spouse",
+        "status": "explicit",
+        "evidence_step": "spouse-son",
+        "evidence_study": "ninian-1613-jonet-spouse"
+      }
+    ],
+    "children": [
+      {
+        "name": "Robert Glasgow",
+        "relationship": "son",
+        "status": "explicit",
+        "evidence_step": "spouse-son",
+        "evidence_study": "ninian-1613-diagnostic-letters"
+      }
+    ],
+    "other_kin": [
+      {
+        "name": "John Glasgow",
+        "relationship": "brother; identity with Glasgow-1030 unproved",
+        "status": "explicit",
+        "evidence_step": "siblings",
+        "evidence_study": "ninian-1613-johne-brother"
+      },
+      {
+        "name": "Marioun Glasgow",
+        "relationship": "sister",
+        "status": "explicit",
+        "evidence_step": "siblings",
+        "evidence_study": "ninian-1613-marioun-sister"
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": "spouse-son",
+      "title": "The executors are also named by relationship",
+      "page_label": "NRS CC9/7/9, image 143; Crown copyright, National Records of Scotland.",
+      "image": "/assets/research/testament-crops/ninian-1613-spouse-son-v3.jpg",
+      "image_width": 1544,
+      "image_height": 802,
+      "alt": "Ninian Glasgow's latter will naming Jonet Hutchesoun as spouse and Robert Glasgow as son.",
+      "original": "Item he nominat and constitut Jonet hutchesoun his spous & Robert glasgow his sone his onlie ex[ecutouris]",
+      "reading": "He nominated and appointed Jonet Hutchesoun, his spouse, and Robert Glasgow, his son, as his only executors.",
+      "explanation": "Read the first line across Jonet Hutchesoun, his spous and Robert, then return left on the next line for glasgow his sone. The relationships do not have to be inferred from executorship: his spous and his sone are written directly beside the names. Executorship alone could have described trusted non-kin.",
+      "proves": "Jonet Hutchesoun was Ninian's spouse and Robert Glasgow was his son.",
+      "does_not_prove": "This clause does not establish Jonet Hutchesoun as Robert's mother.",
+      "confidence": "high",
+      "marks": [
+        {
+          "x": 37.56476683937824,
+          "y": 43.01745635910225,
+          "w": 25.259067357512954,
+          "h": 14.33915211970075,
+          "label": "Jonet Hutchesoun",
+          "kind": "name",
+          "pixel_bbox": [
+            580,
+            345,
+            970,
+            460
+          ],
+          "analysis": {
+            "reading": "Jonet hutchesoun",
+            "expansion": "Jonet Hutchesoun",
+            "features": [
+              "The capital J descends below the line before curving back.",
+              "Jonet ends in a tall crossed t.",
+              "hutchesoun contains a tall h and tightly connected middle strokes, finishing with a compact -oun."
+            ],
+            "uncertainty": "The name is clear; the box includes crossing strokes from the closely spaced line above."
+          }
+        },
+        {
+          "x": 62.240932642487046,
+          "y": 41.39650872817955,
+          "w": 16.515544041450777,
+          "h": 16.957605985037407,
+          "label": "his spous",
+          "kind": "relationship",
+          "pixel_bbox": [
+            961,
+            332,
+            1216,
+            468
+          ],
+          "analysis": {
+            "reading": "his spous",
+            "expansion": "his spouse",
+            "features": [
+              "his is a short possessive separated from the following noun.",
+              "spous begins with a long s and a deep p descender.",
+              "The terminal s extends in a descending sweep."
+            ],
+            "uncertainty": "The spouse wording is explicit; it does not state that Jonet was Robert's mother."
+          }
+        },
+        {
+          "x": 78.62694300518135,
+          "y": 41.64588528678304,
+          "w": 14.702072538860103,
+          "h": 14.463840399002494,
+          "label": "Robert",
+          "kind": "name",
+          "pixel_bbox": [
+            1214,
+            334,
+            1441,
+            450
+          ],
+          "analysis": {
+            "reading": "Robert",
+            "expansion": "Robert",
+            "features": [
+              "The R opens with a broad loop larger than the body letters.",
+              "The b has a tall straight ascender.",
+              "The final t rises and crosses before the line wraps."
+            ],
+            "comparison": "Robert appears again on image 144 before glasgow his sone.",
+            "uncertainty": "The forename is secure; the surname and kin term continue on the next line."
+          }
+        },
+        {
+          "x": 12.63,
+          "y": 56.11,
+          "w": 34.97,
+          "h": 24.31,
+          "label": "glasgow his sone",
+          "kind": "relationship",
+          "pixel_bbox": [
+            195,
+            450,
+            735,
+            645
+          ],
+          "analysis": {
+            "reading": "glasgow his sone",
+            "expansion": "Glasgow, his son",
+            "features": [
+              "glasgow begins at the left after the line wrap, with a deep looped g descender.",
+              "his is visibly separate from the surname and from sone.",
+              "sone begins with the same long s used elsewhere by this clerk."
+            ],
+            "comparison": "Image 144 repeats Robert glasgow his sone in one line.",
+            "uncertainty": "The crop ends immediately below the phrase, limiting breathing margin under descenders; the visible kin wording is complete."
+          }
+        }
+      ],
+      "word_studies_replaced": true
+    },
+    {
+      "id": "damaged-william",
+      "title": "The torn passage cannot secure William",
+      "page_label": "NRS CC9/7/9, image 143; Crown copyright, National Records of Scotland.",
+      "image": "/assets/research/testament-crops/ninian-1613-damaged-william.jpg",
+      "image_width": 1800,
+      "image_height": 499,
+      "alt": "Damaged lower lines of Ninian Glasgow's latter will where a William reading has been proposed.",
+      "original": "[damaged lower lines: William[?] and relationship wording unresolved]",
+      "reading": "The lower edge is damaged; a possible William cannot be assigned a secure relationship.",
+      "explanation": "The cautious study region isolates the surviving right-hand word cluster once proposed as William. Its strokes are partly obscured by the folded or lost lower edge, and no intact kin term joins it. Expected testament formulas cannot supply missing letters, so this is a region to compare, not a positive name annotation.",
+      "proves": "Only that the clause continues into a materially damaged area.",
+      "does_not_prove": "It does not establish William as Ninian's son or support linking this passage to Glasgow-3075.",
+      "confidence": "low",
+      "marks": [],
+      "word_studies": [
+        {
+          "x": 77.777778,
+          "y": 57.114228,
+          "w": 21.944444,
+          "h": 38.076152,
+          "label": "Damaged right-edge word cluster; possible William [?] requires fresh comparison",
+          "pixel_bbox": [
+            1400,
+            285,
+            1795,
+            475
+          ],
+          "analysis": {
+            "reading": "[damaged word cluster; William? not established]",
+            "expansion": "Unresolved name or wording in the torn continuation",
+            "features": [
+              "Only the upper portions of several dark strokes survive above the folded/lost paper edge.",
+              "A tall central stroke and following humps could belong to more than one name or ordinary word.",
+              "The lower joins and any following relationship word are physically hidden, so the apparent letters cannot be traced continuously."
+            ],
+            "uncertainty": "This framing is intentionally not a positive William identification and proves no sonship or link to Glasgow-3075."
+          }
+        }
+      ]
+    },
+    {
+      "id": "siblings",
+      "title": "Brother and sister are explicit",
+      "page_label": "NRS CC9/7/9, image 144; Crown copyright, National Records of Scotland.",
+      "image": "/assets/research/testament-crops/ninian-1613-siblings.jpg",
+      "image_width": 1930,
+      "image_height": 950,
+      "alt": "Legacy clauses naming John Glasgow as Ninian's brother and Marioun Glasgow as his sister.",
+      "original": "Item to Johne glasgw his brother ... Item to Marioun glasgw his sister ... Item to Robert glasgw his sone ane hundreth pundis",
+      "reading": "Item to John Glasgow his brother ... Item to Marioun Glasgow his sister ... Item to Robert Glasgow his son, one hundred pounds.",
+      "explanation": "Read three consecutive item lines, using the relationship word immediately after each name. John is followed by his brother, Marioun by his sister, and Robert by his sone. This grammatical repetition distinguishes siblings from the son; it does not establish whether John and Marioun were full siblings or identify John with a particular profile. Display limitation: the right edge cuts through the sister-clause continuation. The word desk does not manufacture a complete standalone sister sample from that clipped text.",
+      "proves": "Ninian had a brother John, a sister Marioun, and a son Robert.",
+      "does_not_prove": "The shared name does not securely identify the brother John as Glasgow-1030, nor does it establish whether the siblings were full or half siblings.",
+      "confidence": "high for the kin terms; identity of John unresolved",
+      "marks": [
+        {
+          "x": 31.813471502590673,
+          "y": 7.684210526315789,
+          "w": 47.66839378238342,
+          "h": 19.894736842105264,
+          "label": "Johne Glasgow his brother",
+          "kind": "relationship",
+          "pixel_bbox": [
+            614,
+            73,
+            1534,
+            262
+          ],
+          "analysis": {
+            "reading": "Johne glasgw his brother",
+            "expansion": "John Glasgow, his brother",
+            "features": [
+              "Johne begins with a large descending J and a tall h.",
+              "glasgw has a looped g and compressed final w-like strokes.",
+              "brother is anchored by a tall b and h, with the opening br joined closely."
+            ],
+            "comparison": "The next two lines repeat the same name-plus-his-plus-kin-term structure.",
+            "uncertainty": "Brother is explicit; the handwriting does not identify this John as Glasgow-1030."
+          }
+        },
+        {
+          "x": 56.52849740932643,
+          "y": 12.105263157894736,
+          "w": 43.47150259067358,
+          "h": 20,
+          "label": "Marioun Glasgow his sister",
+          "kind": "relationship",
+          "pixel_bbox": [
+            1091,
+            115,
+            1930,
+            305
+          ],
+          "analysis": {
+            "reading": "Marioun glasgw his sister",
+            "expansion": "Marioun Glasgow, his sister",
+            "features": [
+              "Marioun opens with a broad M whose entry stroke sweeps left.",
+              "The surname repeats the preceding line's deep g and compressed ending.",
+              "sister begins with a long s; its tall t helps distinguish it from a daughter reading."
+            ],
+            "comparison": "The parallel John-brother line above and Robert-son line below confirm where the kin word sits.",
+            "uncertainty": "Sister is explicit; full versus half sibling is not stated."
+          }
+        },
+        {
+          "x": 30.88082901554404,
+          "y": 25.684210526315788,
+          "w": 45.751295336787564,
+          "h": 18.421052631578945,
+          "label": "Robert Glasgow his sone",
+          "kind": "relationship",
+          "pixel_bbox": [
+            596,
+            244,
+            1479,
+            419
+          ],
+          "analysis": {
+            "reading": "Robert glasgw his sone",
+            "expansion": "Robert Glasgow, his son",
+            "features": [
+              "Robert has the same looped R and tall b seen in image 143.",
+              "glasgw again begins with a descending g.",
+              "sone starts with a long s and ends in a small open e, visually different from the longer brother/sister terms above."
+            ],
+            "comparison": "This repeats the son relationship from the executor clause on image 143.",
+            "uncertainty": "Robert's sonship is explicit; it does not establish Jonet Hutchesoun as his mother."
+          }
+        }
+      ],
+      "word_studies_replaced": true
+    }
+  ],
+  "index_confirmation": {
+    "indexed_name": "Niniane Glasgw",
+    "date": "1613-05-08",
+    "description": "fischer burges of Glasgw",
+    "record_type": "TT&Inventory",
+    "court": "Glasgow Commissary Court",
+    "reference": "CC9/7/9",
+    "status": "confirmed by supplied archival index",
+    "supplied_on": "2026-09-10"
+  }
+}

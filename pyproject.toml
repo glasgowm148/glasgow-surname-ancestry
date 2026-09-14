@@ -1,3 +1,13 @@
+[project]
+name = "glasgow-surname-ancestry"
+version = "0.0.0"
+description = "Glasgow surname research project using genealogy-research-workbench."
+requires-python = ">=3.11"
+dependencies = [
+  "genealogy-research-workbench>=0.1.0,<0.2.0",
+  "markdown-it-py>=3.0,<4",
+]
+
 [tool.ruff]
 target-version = "py311"
 line-length = 120

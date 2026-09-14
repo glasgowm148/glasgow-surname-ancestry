@@ -1,3 +1,4 @@
+[[Category:Glasgow Name Study]]
 {{Estimated Date}}
 
 == Biography ==

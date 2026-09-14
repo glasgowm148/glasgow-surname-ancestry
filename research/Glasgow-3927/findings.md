@@ -2,7 +2,7 @@
 
 Last updated: 2026-08-09
 
-## Current assessment
+## Current conclusion
 
 Glasgow-3927 is the record-defined John Glasco who headed house 2 at Inishrush,
 Tamlaght O'Crilly, in the 1831 census. The strongest proposed identity is
@@ -16,7 +16,7 @@ minister whose surviving congregational history records a John Glasgow in 1809
 and again as an elder in 1827. This independently joins John-822's family to the
 same townland, congregation and period as the 1831 householder.
 
-## Direct-link evidence audit: Adam and John
+## Identity and relationship assessment: Adam and John
 
 No inspected source explicitly calls [Adam Glasgow
 (`Glasgow-3902`)](https://www.wikitree.com/wiki/Glasgow-3902) John's brother,
@@ -53,7 +53,7 @@ target, but its public catalogue neither identifies the family nor supplies a
 kinship statement. PRONI `T1762` has already been resolved as an unrelated Oritor,
 County Tyrone collection item and is not an open Inishrush target.
 
-## New Ireland-network evidence
+## Source findings
 
 | Source | Finding | Assessment |
 | --- | --- | --- |
@@ -65,7 +65,7 @@ County Tyrone collection item and is not an open Inishrush target.
 | [Tamlaght O'Crilly Lower graveyard transcription](https://www.oneirishrover.com/tamlaght-graveyard/) | The Glasgow grave and nearby Mulholland inscriptions include Adam and Rose Glasgow, Richard Mulholland, Henry Mulholland and Maria Mulholland. | Supports long-term local proximity between the two families. It does not by itself identify the letter's R. Mulhollan or prove the 1772 Hugh's identity. |
 | [Complete Tamlaght O'Crilly 1831 census transcription](https://genealogy.torrens.org/BannValley/church/Tamlaght/1831census.tsv) and [1833 tithe transcription](https://www.irishgenealogyhub.com/derry/tithe-applotments/tamlaght-o-crilly-parish.php) | A John Gray headed a two-person, wholly Presbyterian household at Boveedy in 1831 and `Jno. Gray` remained a Boveedy landholder in 1833. The reported husband of John Glasgow's daughter Jane was John Gray, born in Ireland in 1798. | Jane is now the leading identification of the one daughter absent from John's otherwise exact 1831 household reconstruction. The census does not name the wife, so this is strong circumstantial evidence, not a proved identity. |
 
-## 1831 parish-wide Glasgow cluster
+## Cluster placement assessment: 1831 parish-wide Glasgow cluster
 
 The complete Tamlaght O'Crilly 1831 transcription lists only two Glasgow/Glasco
 households in the parish: John Glasco at Inishrush house 2 (four males and four
@@ -100,8 +100,10 @@ father. The account also says Hugh-540's household left many kin in Ireland in
 
 [Adam Glasgow-3902](https://www.wikitree.com/wiki/Glasgow-3902) is a plausible
 brother or cousin, but the records prove neither relationship. Older Adam and
-Maria remain naming-pattern search leads only. Glasgow-3927 should be detached
-from placeholder Glasgow-3905 unless a relational record is found.
+Maria remain naming-pattern search leads only. The existing placeholder
+Glasgow-3905 attachment must remain explicitly uncertain until an evidenced
+replacement relationship is ready; this case supplies no basis for a destructive
+detachment.
 
 The Lavina–Richard connection is the most promising route to converting the
 letter's network evidence into a person-level link. Priority records are their
@@ -109,7 +111,7 @@ marriage, the *Hawsbury*'s 1833 arrival, and Ontario records for Richard and
 Lavinia. A confirmed marriage would show that “R. Mulhollan” could have been
 John's son-in-law rather than merely a community correspondent.
 
-## Research caution
+## Recommended next records and cautions
 
 Do not attach Mulhollan, Berkley/Barkly, Boggs, McCaivey or Hugh Henry as kin
 from the letter or 1772 list. They are locality and migration-network leads only.

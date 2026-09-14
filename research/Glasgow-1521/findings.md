@@ -1,5 +1,7 @@
 # Findings: Glasgow-1521
 
+Last updated: 2026-09-10
+
 ## Current conclusion
 
 Glasgow-1521 is not proved to be Glasgow-591 or an ancestor of the Tyrone
@@ -69,3 +71,24 @@ facts and flag the internally inconsistent 1641/1648 citation.`
   Glasgow of County Tyrone.
 - Either 1641 or 1648 as settled baptism data until the underlying entry is
   checked.
+
++### Supplied Scotland’s People OPR births and baptisms — 10 September 2026
+
+| Source locator | Indexed entry | Assessment |
+| --- | --- | --- |
+| [Scotland’s People](https://www.scotlandspeople.gov.uk/), OPR 644 / 1/40 / 156 | WILLIAME GLASGOW; WILLIAME GLASGOW/BESSIE HOWIE; 28/09/1648; Glasgow | Index-only confirmation. Its combined birth/baptism date is retained as an index date; original image was not inspected. |
+
+Provenance: exact-surname Glasgow search, year range to 1700, 127 supplied results across six pages.
+
+<!-- opr-birth-review-row-57 -->
+## Source findings
+
+### Supplied OPR births and baptisms: row 57 — 10 September 2026
+
+[Scotland’s People](https://www.scotlandspeople.gov.uk/), **Old Parish Registers, births and baptisms**; exact surname Glasgow through 1700, 127 supplied results. **WILLIAME GLASGOW**; indexed date **28/09/1648**; Glasgow; parish **644 / 1**, reference **40 / 156**. Parents/other exactly as indexed: **WILLIAME GLASGOW/BESSIE HOWIE**. Indexed gender: **M**.
+
+**Assessment:** Matches the existing child-record account by indexed date, locality and recorded family. This row adds the complete index locator as supporting provenance; it does not establish a new event or relationship.
+
+Original image not inspected for this batch. The combined collection’s date does not automatically establish a birthday. Names alone do not uniquely identify attached parents or connect a child with a later adult. An omitted parent or indexed gender U remains unspecified in this source.
+
+**Next action:** No additional WikiTree update from this row; preserve any existing pending work.

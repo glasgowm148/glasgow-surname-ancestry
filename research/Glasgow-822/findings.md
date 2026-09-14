@@ -1,8 +1,21 @@
 # Findings: Glasgow-822
 
-Last updated: 2026-09-06
+Last updated: 2026-09-13
 
 ## Current conclusion and tree action
+
+[Compare the Larne, Inishrush and American family reconstruction](/people/glasgow-951.html#larne-reconstruction), including the alternative immediate-parent routes and their source tests.
+
+### Larne hypothesis context — 13 September 2026
+
+If Adam `Glasgow-3902` and John were brothers, the proposed James
+`Glasgow-1509` → Adam route is compatible with John's 1767 birth: a reported
+1737 father would have been about 30. That conditional extension is not evidence
+that John was James's son. The Bible's nine children and its Adam–James–John,
+Rose–Maria pattern continue to support an older Adam and Maria as a naming-model
+alternative, while no record names either of John's parents. The Bible weakens
+Alexander `Glasgow-951` as a proposed child of John and Mary; it does not decide
+wider Lisnagaver kinship.
 
 ### Master reassessment, 5 September 2026
 
@@ -18,10 +31,10 @@ identity with Maria Glasgow, wife of Alexander Wallace, remains possible rather
 than proved.
 
 John Glasgow (`Glasgow-822`), born 10 April 1767, is the strongest identity
-candidate for the John Glasco who headed Inishrush house 2 in 1831. Because the
-existing profile belongs to a separately maintained identity, create the 1831
-householder as a new record-defined profile and submit a merge proposal. Leave
-the proposal pending until both identities are reviewed.
+candidate for the John Glasco who headed Inishrush house 2 in 1831.
+`Glasgow-3927` now already represents that record-defined householder. Submit or
+maintain a merge proposal between the two identities, but leave it pending until
+both profiles are reviewed.
 
 Adam Glasgow (`Glasgow-3902`), born about 1758, cannot have been John's father:
 he was only about nine when John was born. Brother and cousin are both viable,
@@ -50,7 +63,7 @@ placeholder `Glasgow-3905`.
 | [Guernsey County, Ohio, Deed Book H, p. 457](https://www.familysearch.org/ark:/61903/3:1:3QS7-89WY-TFPB) | A deed recorded in 1833 is the earliest Ohio record located in this review for John. | Corrects the migration chronology but names no Irish parent or sibling in the information inspected so far. Obtain a full abstract. |
 | [Drimbolg Reformed Presbyterian Church history](https://www.oneirishrover.com/drimbolg-reformed-presbyterian-church/) | A John Glasgow attended a session at Drumlamph in 1809 and was an elder present on 19 July 1827. | Exact denomination, locality and age fit for `Glasgow-822`, who was 42 and 60. Strong identity support, though the church account states no birth date. |
 | W. Melancthon Glasgow, [*History of the Reformed Presbyterian Church in America* (1888), Londonderry congregation](https://archive.org/details/historyofrefor00glas/page/634/mode/2up) | The Guernsey County congregation was organised about 1822; its account names `Glasgow` among the old and prominent families, with William Sloane pastor from 1829 to 1838 and James Love from 1839 to 1864. | Independently places a Glasgow household in John's exact Ohio denomination and settlement. The printed account gives no forename or Irish relationship; the congregation's underlying admissions/session records are now a specific proof target. |
-| Dr James H. Sterrett, [“Western Pennsylvania Obituaries in *The Reformed Presbyterian*, 1837-1862”](https://media.wpgs.org/wpgs/wp-content/uploads/sites/5/2021/06/Volume-08-Number-01-Membership-Year-1981-1982_members.pdf) and [original volume 15](https://books.google.com/books?id=1Hs0AQAAMAAJ&printsec=frontcover) | The abstract contains no John Glasgow and passes from November 1851 to January 1852. John's 23 December 1851 death belongs in volume 15 (March 1851-February 1852). A Google Books copy has now been identified as `1Hs0AQAAMAAJ`, but its search-within-volume results and relevant pages could not be retrieved in this session. | Bounded negative only for the abstract. The original volume is precisely identified but remains unsearched; no parent or sibling statement can yet be claimed. |
+| Dr James H. Sterrett, [“Western Pennsylvania Obituaries in *The Reformed Presbyterian*, 1837-1862”](https://media.wpgs.org/wpgs/wp-content/uploads/sites/5/2021/06/Volume-08-Number-01-Membership-Year-1981-1982_members.pdf) and [original volume 15, February 1852 issue](https://books.google.com/books?id=1Hs0AQAAMAAJ&pg=PA375) | The full-view original scan was searched and pages 375-379 inspected. Its final obituary group names Catherine Kennedy, Elizabeth Carson, Hannah Walker and Ebenezer Craig, not John Glasgow. Searches for Glasgow, Glasco, Glascow, Guernsey, Ohio and relevant Londonderry terms produced no John notice. | Strong bounded negative for a formal obituary in volume 15, including the plausible issue after John's 23 December 1851 death. It cannot exclude a brief unindexed notice elsewhere in the periodical, but the identified volume is no longer unsearched. |
 | [Guernsey County will index](https://www.sampubco.com/wills/oh/ohguernsey01.htm), 1967 typed *Wills Index of Guernsey County, Ohio, 1812-1900*, and [Guernsey County Genealogical Society probate holdings](https://www.guernseycountyohiogenealogy.com/publications) | Neither public will index contains a Glasgow testator. The society separately holds a probate case-file index covering the mid-1840s onward, but its entries are not public. | No recorded will has been found. An intestate administration remains possible, so no probate-based negative about John's heirs or relatives is justified until the case-file index is checked. |
 | [First Kilrea Presbyterian marriage register, 6 October 1825](https://genealogy.torrens.org/BannValley/church/KilreaP1/Marriages/1825.html) | Mary Patton of Tyanee, daughter of John Patton and **Margaret Glasgow**, married Wilson Gordon. | Establishes another Glasgow woman in the immediate Portglenone–Tyanee network. Because Margaret already had a marriageable daughter in 1825, she belongs more naturally to Adam and John's generation and is a candidate sister or cousin, not a safely inferred daughter of Adam. The entry states no relationship to either man. |
 | [Tamlaght O'Crilly 1831 census](https://genealogy.torrens.org/BannValley/church/Tamlaght/1831census_3.html), entry 1019 | John Glasco headed Inishrush house 2 with four males and four females. Adam Glasco separately headed house 91 with three males and five females. MacAfee and Torrens disagree about the denomination column. | Strong same-townland household evidence, but no internal names, ages or kinship. The denomination remains unresolved pending the original return. |
@@ -153,13 +166,12 @@ into 1758.
    not John-822, but the source may still be valid for one of John's sons or
    another correctly identified household member. Do not delete or detach it
    wholesale; remove only an incorrect attachment to John himself.
-2. Create a separate profile for the 1831 Inishrush John from the
-   [profile evidence](../Glasgow-3927/1831_Ireland_Inishrush_John_Glasco.md).
-3. Leave the record-defined profile's parents blank. Do not attach it to
+2. `Glasgow-3927` is the existing record-defined profile for the 1831 Inishrush
+   John. Do not create another profile; leave its parents blank and do not attach it to
    `Glasgow-3905`; the shared-parent and brother hypotheses are not proved.
-4. Submit a merge proposal with `Glasgow-822`, leave it pending, and transfer no
+3. Submit or maintain a merge proposal with `Glasgow-822`, leave it pending, and transfer no
    precise dates or family until the identity review accepts the match.
-5. Detach any existing Glasgow-3927/Glasgow-822 child link from `Glasgow-3905`.
+4. Detach any existing Glasgow-3927/Glasgow-822 child link from `Glasgow-3905`.
    Do not attach the placeholder beneath John-549 or Robert-550 either.
 
 ## Paste-ready relationship note

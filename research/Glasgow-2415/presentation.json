@@ -1,0 +1,25 @@
+{
+  "resolution_state": "resolved",
+  "assessment_date": "2026-09-12",
+  "opening": "Elizabeth Boyd Glasgow was born at Tamlaght on 9 September 1889 to Daniel Glasgow and Mary Jane formerly Boyd. The Boyd household and memorial identify her later life at high confidence.",
+  "position": {"answer": "Elizabeth's birth and parents are documented; the Drimbolg memorial records her death on 4 January 1933 aged 43.", "points": []},
+  "evidence_questions": [
+    {
+      "id": "identity",
+      "title": "How is the memorial niece identified?",
+      "answer": "Her distinctive full name, Tamlaght birth, mother formerly Boyd, 1901 niece relationship and memorial niece wording form a continuous maternal-family chain.",
+      "records": ["birth-elizabeth-glasgow-1889", "census-tamlaght-1901", "memorial-drimbolg-boyd"],
+      "reasoning": "The original birth and census establish Elizabeth in Hugh Boyd's family; the memorial repeats her full name and niece relationship.",
+      "limitation": "The memorial is a transcription; no stone image or civil death entry was inspected.",
+      "missing": "An original death return could confirm place and informant but is not required for the current identity assessment."
+    }
+  ],
+  "record_evidence": {
+    "identity": {
+      "birth-elizabeth-glasgow-1889": {"recorded_statement": "Born 9 September 1889 at Tamlaght to Daniel Glasgow and Mary Jane formerly Boyd.", "relevance": "Direct birth and parent evidence.", "limitation": "None material to the registered date and parents."},
+      "census-tamlaght-1901": {"recorded_statement": "Lizzie B. Glasgow, 11, was a niece of Hugh S. Boyd.", "relevance": "Direct maternal-family household evidence.", "limitation": "The absent parents are not named on the form."},
+      "memorial-drimbolg-boyd": {"recorded_statement": "Elizabeth Boyd Glasgow, niece of Hugh Scott and Joseph A. Boyd, died 4 January 1933 aged 43.", "relevance": "Strong later-life identity evidence.", "limitation": "Published transcription rather than an inspected stone image or civil return."}
+    }
+  },
+  "vital_assessment_id": "elizabeth-glasgow-2415-reviewed-vitals"
+}

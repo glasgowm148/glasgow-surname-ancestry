@@ -11,8 +11,7 @@ Identity with [[Glasgow-3193|the John recorded at Burrowland and Dalgarven in
 1559-60]] remains possible, not proved. No reviewed estate deed bridges those
 holdings to Corsinkell, so the profiles remain separate.
 
-## Source
-
+## Source findings
 National Records of Scotland, Charter Chest of the Earls of Glencairn,
 [GD39/5/59](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD39%2F5%2F59),
 letters of reversion, 9 February 1571. The official catalogue describes the

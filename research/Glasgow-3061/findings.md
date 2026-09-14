@@ -50,3 +50,18 @@ Jonet was the lawful daughter of [[Glasgow-1099|George Glasgow]], merchant, burg
 
 The record does not name Jonet's mother. [[Stewart-65226|Margaret Steuart]], who married George in 1598, is the probable mother by chronology but should remain uncertain pending a record that identifies her directly.
 ```
+## Source findings
+
+Scotland's People OPR index: Jonet Glasgow and Johne Stewart, 5 February 1624, Glasgow, parish 644/1, reference 230/64. Live WikiTree confirms the compatible attached couple [[Glasgow-3061|Jonet Glasgow]] and [[Stewart-62467|John Stewart]]. The profile already has the same structured date; retain it and do not infer whether the index event was banns or marriage. No profile text is needed.
+
+## Source findings
+
+### Supplied OPR banns and marriages — 10 September 2026
+
+| Source locator | Indexed parties | Assessment |
+| --- | --- | --- |
+| [Scotland’s People](https://www.scotlandspeople.gov.uk/), 1624-02-05, Glasgow, OPR 644 / 1/230 / 64 | JONET GLASGOW; JOHNE STEWART/ | Jonet Glasgow and John Stewart match live pair/date. |
+
+Source: Old Parish Registers, banns and marriages; exact surname Glasgow through 1700, 55 supplied results. Original images not inspected for this batch; combined index dates do not by themselves establish ceremony dates.
+
+This batch adds supporting evidence or a qualified comparison only; it raises no additional WikiTree amendment for this profile.

@@ -56,3 +56,8 @@ of Allan Mathie and brother of David Mathie in 1607.
 - Search the Glencairn papers for Mathie variants, Clerkland and Ibert.
 
 See the full [Mathie–Glasgow–Glencairn analysis](../Glasgow-3908/mathie-glencairn-bridge-1554-1618.md).
+## Source findings
+
+The supplied Glasgow OPR row names Johne Glasgow and Jonat Mathen, dated 25 January 1618 (parish 644/1, reference 230/32). The surname may be a Mathie/Mathe spelling or index reading: the local evidence already identifies [[Mathie-159|Jonet Mathie]] as wife of [[Glasgow-1030|John Glasgow]] and cites the same date. This is a compatible match, not an exact-spelling duplicate claim; retain the existing qualification until the original register is read.
+
+[Scotland’s People](https://www.scotlandspeople.gov.uk/), Old Parish Registers, banns and marriages; exact-surname Glasgow search through 1700, index supplied 10 September 2026. Original not inspected for this batch.

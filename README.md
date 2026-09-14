@@ -3,10 +3,81 @@
 Evidence-led genealogy research, WikiTree profile maintenance, and interactive
 ancestry tools for the Glasgow surname and its variants.
 
+This is the Glasgow research project, not the general-purpose toolkit. It consumes
+the platform-neutral `genealogy-research-workbench` package for shared genealogy
+models, research cases, exports and adapter contracts. WikiTree and One-Tree are
+project adapters; GEDCOM, FamilySearch, archives, spreadsheets/OCR and DNA are
+also supported adapter categories. Glasgow-specific branding, surname variants,
+privacy boundaries and paths live in [`genealogy.toml`](genealogy.toml).
+The established family exporter now delegates WikiTree HTTP retry, WAF and
+response validation, family-capture normalisation and neutral case persistence
+to toolkit adapter services while retaining this project's application ID,
+headers, case naming and command interface.
+
+For development beside the toolkit checkout, install the editable local link:
+
+```bash
+python -m pip install -r requirements/base.txt -r requirements/toolkit-local.txt
+```
+
+Released deployments use the versioned `genealogy-research-workbench` dependency
+declared in [`pyproject.toml`](pyproject.toml). The existing scripts and Makefile
+commands below remain unchanged; reading the overlay does not rebuild the catalogue:
+
+```bash
+python tools/genealogy_project.py
+```
+
+An explicit compatibility bridge can normalise a supplied legacy One-Tree JSON
+file and write a privacy-filtered JSON projection without touching `www/` or
+starting a rebuild:
+
+```bash
+.venv/bin/python tools/genealogy_bridge.py --input /path/to/legacy.json \
+  --export-output /path/to/filtered.json
+```
+
+The established WikiTree family exporter also has an opt-in neutral handoff,
+so a normal capture can be saved as a toolkit case without changing its legacy
+Markdown or JSON outputs:
+
+```bash
+.venv/bin/python src/wikitree_family_export.py Example-1 \
+  --toolkit-case-directory /path/to/cases
+```
+
+Iterative research mode has a separate opt-in dual write. It first maintains
+the established `research_state.json`, `research_plan.json`,
+`evidence_index.json`, `research_brief.md`, and `findings.md`, then writes and
+verifies a private neutral toolkit bundle at an explicit, different directory:
+
+```bash
+.venv/bin/python src/wikitree_family_export.py Example-1 \
+  --research-dir /path/to/legacy-case \
+  --toolkit-research-bundle /path/to/private-toolkit-bundle
+```
+
+The neutral bundle records private typed facts, questions and findings plus
+checksummed legacy-artifact and work-queue provenance. It does not copy raw
+captures, biographies, FamilySearch page bodies, or the free-form Markdown
+bodies, and it cannot be written over the legacy research directory.
+
+Existing research folders can be migrated later without rerunning a scrape or
+sync command. This standalone command accepts exactly one source and one
+different destination; it is offline and does not rebuild the catalogue:
+
+```bash
+.venv/bin/python tools/migrate_research_bundle.py \
+  --research-dir /path/to/legacy-case \
+  --bundle-dir /path/to/private-toolkit-bundle
+```
+
 The repository is organized into source code, tools, tests, durable data,
 generated artifacts, the interactive map, and two established research trees.
 See [`docs/repository-structure.md`](docs/repository-structure.md) for the layout
 and [`docs/research-workflow.md`](docs/research-workflow.md) for the full research rules.
+The implemented toolkit boundary and remaining compatibility migration are recorded
+in [`docs/toolkit-migration.md`](docs/toolkit-migration.md).
 
 For surname-wide work, start with
 [`surname-research/INDEX.md`](surname-research/INDEX.md). It joins individual

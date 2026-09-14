@@ -1,0 +1,340 @@
+{
+  "id": "margaret-1580",
+  "intro": "Margaret's mother-son relationship appears twice: once in the inventory opening and again in the confirmation. Reading both passages keeps the relationship distinct from the executor appointment and from the preceding estate higher on image 355.",
+  "people": [
+    {
+      "name": "Margaret Glasgow",
+      "role": "deceased estate holder and mother",
+      "status": "explicit",
+      "profile_id": "Glasgow-3613",
+      "evidence_step": "margaret-identity",
+      "evidence_study": "margaret-1580-name"
+    },
+    {
+      "name": "John Easton",
+      "role": "Margaret's husband",
+      "status": "explicit",
+      "profile_id": "Edstoun-3",
+      "evidence_step": "margaret-identity",
+      "evidence_study": "spous-marital-phrase"
+    },
+    {
+      "name": "Cuthbert Kaddell/Keddell [?]",
+      "role": "Margaret's son and executor dative",
+      "status": "uncertain",
+      "profile_id": "Edstoun-4",
+      "evidence_step": "margaret-son-opening",
+      "evidence_study": "margaret-1580-cuthbert"
+    }
+  ],
+  "card_kin": {
+    "spouse": [
+      {
+        "name": "John Easton",
+        "relationship": "husband",
+        "status": "explicit",
+        "evidence_step": "margaret-identity",
+        "evidence_study": "spous-marital-phrase"
+      }
+    ],
+    "children": [
+      {
+        "name": "Cuthbert Kaddell/Keddell [?]",
+        "relationship": "son; name reading uncertain",
+        "status": "explicit",
+        "evidence_step": "margaret-son-opening",
+        "evidence_study": "margaret-1580-cuthbert"
+      }
+    ],
+    "other_kin": []
+  },
+  "steps": [
+    {
+      "id": "margaret-identity",
+      "title": "Start at Margaret's new entry",
+      "page_label": "NRS Edinburgh Commissary Court CC8/8/8, image 355",
+      "image": "/assets/research/testament-crops/margaret-1580-opening.jpg",
+      "image_width": 1050,
+      "image_height": 650,
+      "alt": "Lower-page manuscript opening naming Margaret Glasgow and John Easton.",
+      "original": "vmqle Margaret glasgw sumtyme spous to Johne estoun",
+      "reading": "the late Margaret Glasgow, sometime spouse of John Easton",
+      "explanation": "The fresh testament begins at this lower-page heading. Read each enlarged sample by following the dark connected strokes rather than expecting modern separated letters: Margaret's capital has a long entry stroke, while the tall s in spous rises above its neighbours. Sumtyme spous to is the marital phrase; it does not make every Easton elsewhere on the page a relative.",
+      "proves": "The estate belongs to Margaret Glasgow, and John Easton is explicitly named as her husband.",
+      "does_not_prove": "This phrase does not identify the father of Margaret's son.",
+      "confidence": "high",
+      "marks": [
+        {
+          "x": 63.04761904761905,
+          "y": 14.307692307692307,
+          "w": 25.80952380952381,
+          "h": 14.153846153846153,
+          "label": "Margaret glasgw",
+          "kind": "name",
+          "pixel_bbox": [
+            662,
+            93,
+            933,
+            185
+          ],
+          "analysis": {
+            "reading": "Margaret glasgw",
+            "expansion": "Margaret Glasgow",
+            "features": [
+              "The capital M begins with a tall, looped entry stroke before the smaller connected letters.",
+              "The final t of Margaret rises above the middle strokes and runs directly toward the surname.",
+              "In glasgw the final compressed cluster lacks the round modern -ow shape, an expected abbreviated-looking Scots spelling here."
+            ],
+            "comparison": "The same name reappears lower on image 356 in the confirmation sample, where the capital M and compressed glasgw ending provide a same-record check.",
+            "uncertainty": "The given name and surname are clear; this sample does not identify her son's father."
+          }
+        },
+        {
+          "x": 20,
+          "y": 20.46153846153846,
+          "w": 20.761904761904763,
+          "h": 15.076923076923077,
+          "label": "sumtyme spous to",
+          "kind": "relationship",
+          "pixel_bbox": [
+            210,
+            133,
+            428,
+            231
+          ],
+          "analysis": {
+            "reading": "sumtyme spous to",
+            "expansion": "sometime spouse of",
+            "features": [
+              "The long s at the start of spous looks more like a modern f without a full crossbar.",
+              "The p has a strong descending stroke below the body of the word.",
+              "The short word to is joined closely after spous, so the phrase reads as one flowing unit."
+            ],
+            "uncertainty": "The marital formula is secure; 'sometime' describes status, not a date."
+          }
+        },
+        {
+          "x": 40.76190476190476,
+          "y": 20.76923076923077,
+          "w": 24.19047619047619,
+          "h": 14.153846153846153,
+          "label": "Johne estoun",
+          "kind": "name",
+          "pixel_bbox": [
+            428,
+            135,
+            682,
+            227
+          ],
+          "analysis": {
+            "reading": "Johne estoun",
+            "expansion": "John Easton",
+            "features": [
+              "Johne begins with a large descending-and-returning capital J stroke.",
+              "The h has a tall ascender and the terminal e is a small open loop.",
+              "estoun is written continuously with a long initial stroke and a compact -oun ending."
+            ],
+            "uncertainty": "The name is secure; the line does not say he fathered Cuthbert."
+          }
+        }
+      ],
+      "word_studies_replaced": true
+    },
+    {
+      "id": "margaret-son-opening",
+      "title": "Follow the executor's name to 'her son'",
+      "page_label": "NRS Edinburgh Commissary Court CC8/8/8, image 355",
+      "image": "/assets/research/testament-crops/margaret-1580-opening.jpg",
+      "image_width": 1050,
+      "image_height": 650,
+      "alt": "Manuscript opening naming Cuthbert Kaddell and describing him as Margaret's son.",
+      "original": "gevin vp be cuthbert kaddell[?] ... hir sone executour dative",
+      "reading": "given up by Cuthbert Kaddell [?] ... her son, executor dative",
+      "explanation": "Hir sone is the kin phrase: 'her son'. In the enlarged samples, first find the tall opening stroke of Cuthbert, then use the separate short phrase hir sone as the decisive relationship evidence. Executor dative describes his court-appointed role; without hir sone, the office alone would allow a creditor or other suitable administrator.",
+      "proves": "Cuthbert is expressly called Margaret's son.",
+      "does_not_prove": "His appointment as executor does not itself prove kinship, and the record does not call John Easton his father.",
+      "confidence": "high for the mother-son wording; moderate for Cuthbert's surname spelling",
+      "marks": [
+        {
+          "x": 63.8095238095238,
+          "y": 35.38461538461539,
+          "w": 23.904761904761905,
+          "h": 13.384615384615383,
+          "label": "cuthbert kaddell [?]",
+          "kind": "uncertain",
+          "pixel_bbox": [
+            670,
+            230,
+            921,
+            317
+          ],
+          "analysis": {
+            "reading": "cuthbert kaddell [?]",
+            "expansion": "Cuthbert Kaddell/Keddell [?]",
+            "features": [
+              "The capital C is an open sweeping curve rather than a closed modern C.",
+              "The tall h and b rise above the other letters in cuthbert and help divide the name.",
+              "The surname begins with a tall k-like stroke, but the crowded middle minims make the exact vowel spelling insecure."
+            ],
+            "comparison": "Image 356 repeats Cuthbert's surname more distinctly as keddell, supporting the person while showing spelling variation.",
+            "uncertainty": "Cuthbert is clear; Kaddell versus Keddell remains provisional."
+          }
+        },
+        {
+          "x": 36.76190476190476,
+          "y": 42,
+          "w": 15.238095238095239,
+          "h": 13.384615384615383,
+          "label": "hir sone",
+          "kind": "relationship",
+          "pixel_bbox": [
+            386,
+            273,
+            546,
+            360
+          ],
+          "analysis": {
+            "reading": "hir sone",
+            "expansion": "her son",
+            "features": [
+              "The h starts with a tall ascender before the two short strokes of ir.",
+              "sone begins with a long s whose descending sweep can resemble f to a modern reader.",
+              "The final e is a small open loop attached to the preceding n."
+            ],
+            "comparison": "The confirmation reverses this same relationship as Cuthbert 'sone' and Margaret 'his mother'.",
+            "uncertainty": "The kin wording is explicit even though the father's identity is not stated."
+          }
+        }
+      ],
+      "word_studies_replaced": true
+    },
+    {
+      "id": "margaret-son-confirmation",
+      "title": "Check the relationship a second time",
+      "page_label": "NRS Edinburgh Commissary Court CC8/8/8, image 356",
+      "image": "/assets/research/testament-crops/margaret-1580-confirmation.jpg",
+      "image_width": 1000,
+      "image_height": 830,
+      "alt": "Confirmation passage repeating that Cuthbert Keddell is Margaret Glasgow's son and calling her his mother.",
+      "original": "cuthbert keddell sone to the said vmqle Margaret ... the said vmqle Margaret glasgw his mother",
+      "reading": "Cuthbert Keddell, son of the said late Margaret ... the said late Margaret Glasgow, his mother",
+      "explanation": "The confirmation reverses the relationship wording: first Cuthbert is Margaret's sone, then Margaret is called his mother. Compare the two pulled-out rows rather than relying on the executor label: the reciprocal possessives make the maternity explicit, while still leaving paternity unstated. The two formulations are repeated evidence inside one record, not two independent sources.",
+      "proves": "Margaret and Cuthbert are explicitly mother and son in a second part of the record.",
+      "does_not_prove": "The repetition still does not identify Cuthbert's father.",
+      "confidence": "high for the relationship; moderate for the Keddell spelling",
+      "marks": [
+        {
+          "x": 34.699999999999996,
+          "y": 40.602409638554214,
+          "w": 22,
+          "h": 8.91566265060241,
+          "label": "cuthbert keddell",
+          "kind": "name",
+          "pixel_bbox": [
+            347,
+            337,
+            567,
+            411
+          ],
+          "analysis": {
+            "reading": "cuthbert keddell",
+            "expansion": "Cuthbert Keddell",
+            "features": [
+              "The open capital C and tall h/b strokes match the earlier occurrence.",
+              "The surname's initial k rises sharply before a compact sequence of short strokes.",
+              "The doubled final l appears as two taller near-parallel strokes at the word end."
+            ],
+            "comparison": "Compare the earlier image-355 form labelled kaddell [?]; this clearer repetition favours Keddell without erasing the first form's uncertainty.",
+            "uncertainty": "The surname is more legible here but period spelling need not be fixed."
+          }
+        },
+        {
+          "x": 61,
+          "y": 38.674699,
+          "w": 11.5,
+          "h": 9.39759,
+          "label": "sone",
+          "kind": "relationship",
+          "pixel_bbox": [
+            610,
+            321,
+            725,
+            399
+          ],
+          "analysis": {
+            "reading": "sone",
+            "expansion": "son",
+            "features": [
+              "The opening long s descends and can be mistaken for f.",
+              "The o is a small closed oval followed by the paired humps of n.",
+              "The final e curls upward in a small loop."
+            ],
+            "comparison": "The same relationship word occurs after hir in the opening passage.",
+            "uncertainty": "The word is clear and directly links Cuthbert to Margaret."
+          }
+        },
+        {
+          "x": 21.4,
+          "y": 60.36144578313253,
+          "w": 24,
+          "h": 10,
+          "label": "Margaret glasgw",
+          "kind": "name",
+          "pixel_bbox": [
+            214,
+            501,
+            454,
+            584
+          ],
+          "analysis": {
+            "reading": "Margaret glasgw",
+            "expansion": "Margaret Glasgow",
+            "features": [
+              "The capital M has the same high looped entrance seen on image 355.",
+              "Margaret contains alternating short humps broken by the tall final t.",
+              "glasgw again closes in a tight final cluster rather than a modern fully rounded -gow."
+            ],
+            "comparison": "This repetition checks the lower-page opening's Margaret glasgw in the same record.",
+            "uncertainty": "The identity is secure; no paternal statement follows from the name alone."
+          }
+        },
+        {
+          "x": 44.4,
+          "y": 61.084337349397586,
+          "w": 15.2,
+          "h": 9.397590361445783,
+          "label": "his mother",
+          "kind": "relationship",
+          "pixel_bbox": [
+            444,
+            507,
+            596,
+            585
+          ],
+          "analysis": {
+            "reading": "his mother",
+            "expansion": "his mother",
+            "features": [
+              "The pronoun his is short and closely joined before a visible gap.",
+              "mother is anchored by the tall h in its middle, not by a modern printed t shape.",
+              "The ending -er is compressed into a small rising finish."
+            ],
+            "comparison": "This reciprocal phrase confirms the earlier hir sone wording from the opposite direction.",
+            "uncertainty": "It establishes maternity, not that John Easton was Cuthbert's father."
+          }
+        }
+      ],
+      "word_studies_replaced": true
+    }
+  ],
+  "index_confirmation": {
+    "indexed_name": "Margaret Glasgw",
+    "date": "1580-11-08",
+    "description": "sometime spouse to John Eastoun in Croftmalloch",
+    "record_type": "TD&Inventory",
+    "court": "Edinburgh Commissary Court",
+    "reference": "CC8/8/8",
+    "status": "confirmed by supplied archival index",
+    "supplied_on": "2026-09-10"
+  }
+}

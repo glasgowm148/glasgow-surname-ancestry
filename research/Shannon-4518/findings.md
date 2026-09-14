@@ -18,9 +18,9 @@ Ann must remain search leads until that copy is read.
 
 | Source | Finding | Assessment |
 | --- | --- | --- |
-| *John Glasgow et al. v. Robert Glasgow*, complaint and sworn answer | Ann Glasgow married Hugh Shannon of Ireland. | Direct derivative litigation evidence for the marriage. |
+| [John Glasgow et al. v. Robert Glasgow, complaint](https://web.archive.org/web/20101124184247id_/http://www.lifesweaving.com/Glasgow/Paper_Complaint.html) and [sworn answer](https://web.archive.org/web/20101124184247id_/http://www.lifesweaving.com/Glasgow/Paper_Reply.html) | Ann Glasgow married Hugh Shannon of Ireland. | Direct derivative litigation evidence for the marriage. |
 | Petition dated 1 April 1772, archived transcription citing PRONI `T808/15082` | Robert Glasgow, James Glasgow and Hugh Shannon appear consecutively under Kilwaughter. | Strong FAN and identity evidence, but the petition itself states no kinship. |
-| PRONI `LPC/1037`, 5 April 1776 | Copy will of Hugh Shannon of Ballykeel, County Antrim. | Exact surviving probate target. Its beneficiaries, executors, witnesses and property clauses are not exposed online; those clauses could identify Glasgow in-laws, children or collateral kin. |
+| [PRONI eCatalogue](https://apps.proni.gov.uk/eCatNI_IE/SearchPage.aspx), `LPC/1037`, 5 April 1776 | Copy will of Hugh Shannon of Ballykeel, County Antrim. | Exact surviving probate target. Its beneficiaries, executors, witnesses and property clauses are not exposed online; those clauses could identify Glasgow in-laws, children or collateral kin. |
 | PRONI `D300/2/1/21/1`, 13 October 1798 | Hugh Shannon, Robert Shannon and James Peoples, all of Ballykeel, took a lease of the upper land of Ballykeel. | Later property association and possible successor-generation lead; no relationship is stated in the catalogue. |
 | PRONI `D300/2/1/21/7`, 1 November 1801 | Hugh and Robert Shannon of Ballykeel assigned the upper land of Ballykeel to George Hill. | Confirms the paired Shannon tenants and property continuity, but does not identify their parents or their connection to the 1776 testator. |
 

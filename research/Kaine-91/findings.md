@@ -16,8 +16,7 @@ The sourced 1526 identity and Calder context are now live on Kaine-91, and the
 structured death is recorded as before 19 December 1552. Live API readback
 verified both changes.
 
-## Evidence
-
+## Source findings
 | Source | Finding | Assessment |
 | --- | --- | --- |
 | National Records of Scotland, Papers of Lord Torphichen, [GD119/193](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/browseDetails.aspx?reference=GD119%2F193), 2 July 1526 | The remission to James Sandilands of Calder's group names William Glasgow and **Alexander Kano** consecutively. *Registrum Secreti Sigilli*, vol. 1, no. 3412, printed p. 516, renders the last surname `Kame`. | Direct occurrence and associate network; original spelling should be checked in GD119/193. |

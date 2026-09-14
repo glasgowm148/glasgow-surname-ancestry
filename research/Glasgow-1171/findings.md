@@ -27,8 +27,7 @@ The unidentified brother Samuel named in Robert's biography must also be reconci
 3. Trace Robert's earliest Auburn household and associates against William and Eliza.
 4. Seek original County Tyrone church or estate records naming the sibling group.
 
-## Sources
-
+## Source findings
 * *Biographical Review: Sketches of the Leading Citizens of Cayuga County, New York*, vol. 1, biography of Robert Glasgow.
 * [John and Julia: Chapter 6](https://www.genarchives.com/montezumagen/exhibits/chp-6---john-and-julia.pdf), GenArchives, 2020, modern compiled family reconstruction.
 * *Portrait and Biographical Album of Hillsdale County, Michigan* (Chicago: Chapman Brothers, 1888), biographies of William Glasgow, p. 395, and John B. Glasgow Jr., p. 688.

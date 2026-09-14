@@ -3,12 +3,20 @@
 ## Conclusion
 
 **Adam Glasgow's father is not identified by the surviving online evidence.**
+The current tested named hypothesis is [James Glasgow (Glasgow-1509), the older
+Larne ropemaker](https://www.wikitree.com/wiki/Glasgow-1509), as Adam's father.
+His reported 1737 birth is an ordinary age 21 for Adam's c.1758 birth, and
+Adam's proved son James gives limited positive naming support. The reported 1762
+marriage to Janet Shutter follows Adam's birth, leaving Adam's mother open; it
+cannot transfer Janet into that role. No inspected document links Larne to
+Inishrush or names the father–son relationship, so this remains a hypothesis,
+not a preferred or proven attachment.
+
 Adam and [John Glasgow (1767), Inishrush](https://www.wikitree.com/wiki/Glasgow-822)
-are probable brothers: they headed the only two Presbyterian Glasgow households
-at Inishrush in 1831; John's family register nearly reconstructs his household
-exactly; and his 1847 letter shows continued intimate knowledge of Adam's
-Inishrush-Tyanee network. No record uses a kin term, so cousinship remains
-possible.
+may be brothers, based on their same-townland households and overlapping local
+network, but cousinship remains viable because no record uses a kin term. If
+they were brothers, James-1509 could have been about 30 at John's 1767 birth;
+that conditional fit is not evidence that John was James's son.
 
 The strongest pre-Adam evidence is for men named **Hugh Glasgow in Adam's own
 parish**: two separate adult Hugh householders in the 1740 Protestant return and
@@ -17,20 +25,18 @@ immediately precedes Hugh Ellis and James McCullough in an Inishrush-linked
 collector cluster. The late William Melanchthon Glasgow account independently
 names Margaret McCullough as Hugh `Glasgow-548`'s wife and says their grandson
 John was born on the family farm near Portglenone in 1780. The combined surname,
-neighbour, parish and farm evidence makes Adam and John high-probability members
-of Hugh-548's extended cluster, but no record supplies the intervening kinship.
+neighbour, parish and farm evidence preserves a local Hugh-centred alternative,
+but no record supplies an intervening kinship or assigns Adam or John to
+Hugh-548's particular line.
 
 The younger Hugh Glasgow's Allegheny will and loose packet are now precisely located. The packet is DGS 5538049 film images 239-243, bounded by the next cover at image 244; a separate full-resolution will-book scan makes the text readable. The 29 March 1827 will names sons John, Hugh, Alexander, and Robert, daughter Nancy, granddaughter Sarah, and an unnamed wife, but no Adam. Adam was alive, and each named son received property, so the omission is material evidence against younger Hugh as his father. It is not conclusive because the will never says it lists all children and also omits Clatworthy and Mary from the late seven-child account.
 
-Recommended WikiTree treatment: detach and retire the unidentified-parent
-placeholder; do not merge it into Adam, because the profiles do not represent
-the same person. Leave Adam's parents blank and retain candidate names only in
-Research Notes. An older Adam and Maria are the best internally consistent
-parent-name model. The cleanest extension is for that older Adam to descend from
-the *other* Hugh recorded in the parish in 1740; alternatively, he could have
-been an omitted son or close nephew of Hugh-548. If the father must instead be
-selected from Hugh-548's traditionally named sons, John `Glasgow-549` and Robert
-`Glasgow-550` are both possible but the evidence does not distinguish them.
+Preserve the existing uncertain placeholder and attachments. It represents a
+generation, not a record person, and must not be merged into Adam. Older Adam
+and Maria remain an internally coherent naming model, perhaps beneath the other
+1740 Hugh or as an omitted/collateral Hugh-548 route, but none is established.
+John `Glasgow-549` and Robert `Glasgow-550` are only possible direct fathers if
+that traditional family proves relevant; the evidence does not distinguish them.
 
 ## Robert `Glasgow-550`: source audit
 

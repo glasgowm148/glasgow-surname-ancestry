@@ -1,65 +1,75 @@
-# Paste-ready replacement profile: Glasgow-987
-
-```wikitext
 {{Estimated Date}}
 {{Ireland Native}}
 [[Category:Glasgow Name Study]]
 
 == Biography ==
 
-'''Thomas Glasgow''' was born about 1815 in County Antrim, Ireland. He married
-Mary Ann McCracken about 1840. In 1851 Thomas was a farmer at Lisnagaver with
-Mary Ann and daughters Rose Ann, Eliza, Jane, Nancy and Margaret.<ref name="Census1851">[https://www.census.nationalarchives.ie/pages/1851/Antrim/Kilconway/Rasharkin/Lisnagaver/37/ 1851 Census of Ireland], Lisnagaver household 37.</ref>
+'''Thomas Glasgow''' was a farmer of Lisnagaver in Rasharkin parish, County Antrim. He was born about 1815: he was 35 in 1851 and reported as 55 when he died at Lisnagaver on 21 June 1870.<ref name="Census1851">1851 Ireland Census, house 37, Lisnagaver, Rasharkin, Kilconway, County Antrim, National Archives of Ireland, [http://www.census.nationalarchives.ie/pages/1851/Antrim/Kilconway/Rasharkin/Lisnagaver/37/ household return] (accessed 12 May 2025).</ref><ref name="ThomasDeath">“Ireland, Deaths, 1864–1870,” digital film/folder 004024453; FHL microfilm 101716; record 2; packet G; {{FamilySearch Record|FGFD-PYC}}; Thomas Glasgow, died 21 June 1870, aged 55, Lisnagaver (accessed 12 May 2025). This is an indexed record; the original civil return remains to be obtained.</ref>
 
-Rasharkin Presbyterian baptisms record the family at Moneyleck in 1842 and at
-Lisnagaver from 1843.<ref name="RasharkinBaptisms">[https://genealogy.torrens.org/BannValley/church/RasharkinP/Baptisms_1834.html Barbara Braswell, transcript of Rasharkin Presbyterian baptisms, 1834–1846], original register PRONI MIC1P/292.</ref>
+Thomas married '''[[McCracken-5681|Mary Ann McCracken]]'''; their marriage date and congregation have not been identified. Rasharkin Presbyterian baptisms name them together at Moneyleck in 1842 and at Lisnagaver in 1843 and 1846.<ref name="RasharkinBaptisms">Barbara Braswell, transcript of Rasharkin Presbyterian Church baptisms, [https://genealogy.torrens.org/BannValley/church/RasharkinP/Baptisms_1834.html ''Baptisms, 1834–1846''], entries 162, 199 and 269 (accessed 9 August 2026). This is a derivative transcription; the controlling original register is PRONI MIC1P/292.</ref> The two Eliza entries probably concern separate children: the younger Eliza was living in 1851, while no death or burial has been found for the elder child.
 
-Two daughters are independently traced to New Zealand. Rosanna Glasgow, aged
-twenty-one, a dairy woman from Antrim, sailed on the ''Mermaid'' in 1862; her
-age and place match Rose Ann in the 1851 household.<ref name="Mermaid1862">[https://christchurchcitylibraries.com/Heritage/Digitised/Emigration/EmbarkationLists/Mermaid-1862/ Christchurch City Libraries, original ''Mermaid'' assisted-passenger list], 1862.</ref> A Canterbury Museum biographical card calls Ann, wife of John Alexander Redpath, the daughter of Thomas Glasgow, farmer and flax miller of Kilrea.<ref name="RedpathCard">[https://digitalnz.org/records/37798178 Canterbury Museum, Macdonald Dictionary card for John Alexander Redpath].</ref>
+=== 1851 household ===
 
-A second Canterbury Museum card says John Haigh married Eliza, daughter of
-Thomas Glasgow of County Antrim, in January 1868.<ref name="HaighCard">[https://digitalnz.org/records/37792659 Canterbury Museum, Macdonald Dictionary card for John Haigh].</ref>
+{| class="wikitable sortable" style="padding:5px; width:100%;"
+|+ '''Lisnagaver household, 1851'''
+|-
+! style="background-color:#E1F0B4;" | Person !! style="background-color:#E1F0B4;" | Age !! style="background-color:#E1F0B4;" | Recorded status
+|-
+| Thomas Glasgow || 35 || Farmer
+|-
+| [[McCracken-5681|Mary Ann Glasgow]] || 29 || Wife
+|-
+| [[Glasgow-1034|Rose Ann Glasgow]] || 10 || Daughter
+|-
+| [[Glasgow-782|Eliza Glasgow]] || 7 || Daughter
+|-
+| [[Glasgow-1361|Jane Glasgow]] || 5 || Daughter
+|-
+| [[Glasgow-1362|Nancy Glasgow]] || 3 || Daughter
+|-
+| [[Glasgow-1363|Margaret Glasgow]] || 1 || Daughter
+|-
+| Catherine McLaughlin || 15 || Servant
+|}
+The household is documented by the original census.<ref name="Census1851" />
 
-Thomas died at Lisnagaver on 21 June 1870, aged about fifty-five. The surviving
-index identifies him as the Lisnagaver man; an original civil image is not
-publicly available for this pre-1871 death.
+=== Children ===
+
+{| class="wikitable sortable" style="padding:5px; width:100%;"
+|+ '''Known and reported children'''
+|-
+! style="background-color:#E1F0B4;" | Child !! style="background-color:#E1F0B4;" | Assessment
+|-
+| [[Glasgow-1034|Rose Ann]], [[Glasgow-782|Eliza]], [[Glasgow-1361|Jane]], [[Glasgow-1362|Nancy]] and [[Glasgow-1363|Margaret]] || Documented daughters in 1851; baptism evidence also documents Eliza and Jane. Later migration and family identifications remain dependent on a later family account.<ref name="FamilyAccount">Peter, “Trying to find Glasgow,” ''Genes Reunited'', Find Ancestors message board, posted 25 January 2007, with replies dated 9 April 2020, [https://www.genesreunited.co.uk/boards/board/general_topics/thread/465937 discussion] (accessed 9 August 2026). This is a later family account, not contemporary proof.</ref><ref name="RasharkinBaptisms" />
+|-
+| [[Glasgow-3976|Catherine]] || Probable daughter. Her 1877 Christchurch marriage notice and a derivative Victorian death-index report are compatible; original baptism and death evidence are needed.<ref name="CatherineITM">New Zealand Notices of Intention to Marry, derivative transcription, Christchurch, 3 October 1877, Catherine Glasgow, age 24, spinster and milliner, [https://itm.howison.co.nz/year/1877/district/christchurch transcription] (accessed 9 August 2026).</ref><ref name="CatherineDeathIndex">Victoria death index, Catherine Ekberg, 1946, registration 12550, derivative details reproduced in the Glasgow family discussion; father under Glasgow and mother Mary Ann McCracken.</ref>
+|-
+| [[Glasgow-3975|Sarah]] || Probable daughter. Four original birth returns identify Sarah Taylor, formerly Glasgow, at Lisnagaver, but do not name her father.<ref name="TaylorBirths">Ireland civil birth returns: Ellen Taylor, 1897, [https://www.irishgenealogy.ie/files/civil/birth_returns/births_1897/02142/1813179.pdf]; Catherine Taylor, 1899, [https://www.irishgenealogy.ie/files/civil/birth_returns/births_1899/02043/1782340.pdf]; Charles Taylor, 1902, [https://www.irishgenealogy.ie/files/civil/birth_returns/births_1902/01892/1735215.pdf]; Alexander Taylor, 1905, [https://www.irishgenealogy.ie/files/civil/birth_returns/births_1905/01798/1705043.pdf] (accessed 9 August 2026).</ref>
+|-
+| Alexander || Possible child only, reported as an emigrant.<ref name="FamilyAccount" />
+|-
+| [[Glasgow-2413|Daniel Neely]] || Documented son: his 1888 marriage names Thomas, farmer, as father. “Full” means he was over 21, hence born before 28 June 1867.<ref name="DanielMarriage">Ireland civil marriage return no. 79, [[Glasgow-2413|Daniel Neely Glasgow]] and Mary Jane Boyd, 28 June 1888, Boveedy First Presbyterian Church, [https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1888/10763/5925382.pdf original image] (accessed 9 August 2026).</ref><ref name="GRONIFull">General Register Office for Northern Ireland, [https://www.nidirect.gov.uk/articles/gronis-online-search-results “GRONI's online search results”], explanation of “Full” (accessed 9 August 2026).</ref>
+|}
+
+=== Brother Daniel and the Prescott connection ===
+
+Thomas was a brother of [[Glasgow-3896|Daniel Glasgow]], watchmaker of Kilrea. Daniel's will calls Thomas his late brother and Daniel Neely Glasgow his nephew; Daniel Neely's marriage independently identifies Thomas as his father.<ref name="DanielWill">Public Record Office of Northern Ireland, [https://apps.proni.gov.uk/willscalendar_ie/willssearch.aspx Will Calendars], registered will of Daniel Glasgow of Kilrea, proved 1871 (accessed 17 July 2026).</ref><ref name="DanielMarriage" /> Daniel's death return names Kate Glasgow as informant but gives no relationship.<ref name="DanielDeath">Ireland civil death return no. 362, [[Glasgow-3896|Daniel Glasgow]], died 16 October 1871, Kilrea, [https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1871/020759/7282767.pdf original image] (accessed 9 August 2026).</ref>
+
+The original deeds under the will of their brother Robert Glasgow of Prescott independently identify the same Thomas and Daniel. Robert's will, dated 9 October 1849, gives shares to his brothers Daniel, Samuel, John and Thomas, sister Mary, and collectively the children of brother James; it does not call James deceased.<ref name="RobertWill1849">Grenville County land records, DGS 8200419, image 35, registered will of Robert Glasgow of Prescott, dated 9 October 1849, [https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWY9-S original image].</ref> Memorial 13 records the 30 October 1856 deed, registered 13 November 1856, between Robert's widow Jane and Samuel Glasgow, merchant, concerning Samuel's one undivided sixth share.<ref name="RobertWill1856">Grenville County land records, DGS 8200419, image 36, Memorial 13, dated 30 October 1856 and registered 13 November 1856, [https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWYM-6 original image].</ref> Memorial 465, dated 30 July 1861 and registered 7 October, names Daniel of Kilrea, watchmaker, and wife Margaret, and Thomas of Lisnagaver, farmer, and wife Mary Ann, as transferors to Samuel of two undivided sixth interests under Robert's will.<ref name="RobertWill1861">Grenville County land records, DGS 8200419, image 240, Memorial 465, registered 7 October 1861, printed p. 397, [https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWB8-D original image].</ref> The deeds establish Thomas, Daniel, Samuel and Robert as brothers; they do not identify their parents.
+
+=== Landholding ===
+
+Griffith's Valuation lists Thomas, John and Alexander Glasgow at Lisnagaver. Shared townland makes kinship possible but does not establish it.<ref name="Griffith">Griffith's Valuation transcript for Rasharkin, [https://www.irishgenealogyhub.com/antrim/griffiths-valuation/parish-of-rasharkin.php entries for Lisnagaver] (accessed 9 August 2026). This is a derivative transcript; original page, map and plot references remain to be checked.</ref>
 
 == Research Notes ==
 
-=== Brother Daniel ===
+No contemporary record found names Thomas's parents. The descendant account naming [[Glasgow-3904|Alexander Glasgow]] and [[Unknown-761034|Rosanna]] remains uncertain; Rosanna's reported Shaw surname is unproved.<ref name="FamilyAccount" /> [[Glasgow-951|Alexander Glasgow of Lisnagaver]] remains an open collateral question. The Prescott deeds establish Robert's documented siblings but do not prove Alexander's place in that group.
 
-[[Glasgow-3896|Daniel Glasgow]] of Kilrea named his late brother Thomas and his
-nephew Daniel Neely Glasgow in his 1871 will.<ref name="DanielWill">[https://apps.proni.gov.uk/willscalendar_ie/willssearch.aspx Public Record Office of Northern Ireland, Will Calendars], registered will of Daniel Glasgow of Kilrea, proved 1871.</ref> Daniel Neely Glasgow's 1888 marriage names his father as Thomas Glasgow, farmer, and gives his residence as Lisnagaver.<ref name="DanielNeelyMarriage">[https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1888/10763/5925382.pdf General Register Office of Ireland, civil marriage register], Daniel Neely Glasgow and Mary Jane Boyd, 28 June 1888.</ref> The two records directly prove that this Thomas and Daniel were brothers.
+The 1901 Coltrim census is another Thomas because this Thomas died in 1870; its Form B1 gives no age, occupation or relationships.<ref name="ColtrimB1">1901 Ireland Census, Form B1, Coltrim, Moneymore DED, house 7, National Archives of Ireland, [https://nationalarchives.ie/collections/search-the-census/view-pdf/?doc=nai000629314 original image] (accessed 9 August 2026).</ref> Kate Glasgow could be Catherine, but this is only a chronological possibility.
 
-=== Parents and possible brother or cousin ===
+Robert's sister Mary is independently identified in a 15 September 1869 deed, registered 1 July 1870, as Mary Black, formerly Mary Glasgow. Her children, including John Black, Rose Ann Black, Jane Miller, Agnes Black and Thomasina Montgomery, conveyed interests under Robert's will to Mary Eno Glasgow; the deed also records their inheritance of their unmarried intestate sister Elizabeth Black's share.<ref name="MaryBlack1870">Grenville County land records, DGS 8200420, image 277, C298, dated 15 September 1869 and registered 1 July 1870, [https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LQTY-K original image].</ref>
 
-A descendant account names [[Glasgow-3904|Alexander Glasgow]] and Rosanna as
-Thomas's parents.<ref name="DescendantAccount">[https://www.genesreunited.co.uk/boards/board/general_topics/thread/465937 “Trying to find Glasgow,” ''Genes Reunited''], descendant account posted 25 January 2007.</ref> No contemporary record inspected names either parent, so both links remain uncertain. Rosanna's surname should remain Unknown.
-
-[[Glasgow-951|Alexander Glasgow of Lisnagaver]] is a possible brother or cousin
-based on age, locality, household clustering, the descendant tradition and
-Y-DNA from his male line. No document yet states the immediate relationship.
-
-=== Other children ===
-
-The 1851 census directly supports Rose Ann, Eliza, Jane, Nancy and Margaret as
-Thomas's daughters. Daniel Neely's marriage directly proves him as Thomas's
-son. Catherine remains a plausible later daughter. Sarah is directly proved as
-Thomas's daughter by her 1885 marriage, which names Thomas Glasgow, farmer, as
-her father and gives Sarah's residence as Lisnagaver.<ref name="SarahMarriage1885">[https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1885/10855/5963591.pdf General Register Office of Ireland, civil marriage register], Charles Taylor and Sarah Glasgow, 12 March 1885.</ref>
-
-Sarah Glasgow married Charles Taylor. Civil births at Lisnagaver name her as
-the mother of Ellen, Catherine, Charles and Alexander Taylor, and a contemporary
-notice identifies John Glasgow Taylor as another son of Charles.<ref name="TaylorBirths">[https://www.irishgenealogy.ie/files/civil/birth_returns/births_1897/02142/1813179.pdf General Register Office of Ireland, civil birth register], Ellen Taylor, 1897; see also the linked 1899, 1902 and 1905 returns.</ref><ref name="JohnTaylorNotice">[https://paperspast.natlib.govt.nz/newspapers/NZTIM19160301.2.60 ''New Zealand Times'', 1 March 1916], John Glasgow Taylor.</ref> Her attachment as Thomas's daughter is supported directly by her marriage.
-
-=== Additional sources consulted ===
-
-The 1851 household is also preserved in the National Archives' [http://www.census.nationalarchives.ie/pages/1851/Antrim/Kilconway/Rasharkin/Lisnagaver/37/ earlier census presentation]. Later family searches included [https://nationalarchives.ie/collections/search-the-census/view-pdf/?doc=nai000629314 an original census PDF], the [https://itm.howison.co.nz/year/1877/district/christchurch 1877 Christchurch electoral material], the [https://www.irishgenealogyhub.com/antrim/griffiths-valuation/parish-of-rasharkin.php Rasharkin valuation transcription], [https://www.nidirect.gov.uk/articles/gronis-online-search-results GRONI search guidance] and [https://www.proni.gov.uk/publications/proni-guide-church-records PRONI's church-record guide]. The FamilySearch record {{FamilySearch Record|FGFD-PYC}} is retained as a derivative lead.
-
-The Taylor-family birth evidence includes the original returns for [https://www.irishgenealogy.ie/files/civil/birth_returns/births_1899/02043/1782340.pdf 1899], [https://www.irishgenealogy.ie/files/civil/birth_returns/births_1902/01892/1735215.pdf 1902] and [https://www.irishgenealogy.ie/files/civil/birth_returns/births_1905/01798/1705043.pdf 1905]. Daniel Glasgow's [https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1871/020759/7282767.pdf 1871 death return] supplies collateral context but does not name Thomas's parents.
+Priority records are the original later Rasharkin baptisms, Thomas and Mary Ann's marriage, Sarah's marriage, Catherine Ekberg's death certificate, Lisnagaver valuation succession, and Thomas's original death return. PRONI's guide identifies the relevant congregations.<ref name="PRONIChurchGuide">Public Record Office of Northern Ireland, [https://www.proni.gov.uk/publications/proni-guide-church-records ''Guide to Church Records''], entries for Rasharkin Presbyterian MIC1P/292 and neighbouring congregations (accessed 9 August 2026).</ref>
 
 == Sources ==
-
 <references />
-```

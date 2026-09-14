@@ -1,8 +1,24 @@
 # Findings: [James J Glasgow (Glasgow-2738)](https://www.wikitree.com/wiki/Glasgow-2738)
 
-Last updated: 2026-09-06
+Last updated: 2026-09-13
 
 ## Current conclusion
+
+**Catalogue-wide reassessment, 13 September:** Robert-2769 is proposed only as
+James J's father. His South Carolina birth, compatible son-age slot in 1820
+and later Tennessee residence give that hypothesis a coherent chronology.
+Archibald-2304's unidentified 1800 boy fits Robert's early-1790s age range,
+while Archibald's descent from James-1144 is independently supported by a will
+and equity case. This makes a substantive two-generation research model;
+Alexander of Lisnagaver would connect through an earlier Irish collateral
+branch, not through Robert as his father. The earlier combined-father
+objection is withdrawn. [Full sourced reconstruction](/people/glasgow-951.html#larne-reconstruction).
+
+Robert is not the only chronologically suitable father for James J.
+[James-2439](/people/glasgow-2439.html), born about 1787, and Sarah form another
+Newberry comparison household. Inspect its 1831 estate 1643 alongside
+Archibald's adult-heir receipts in estate 647. These are specific alternatives,
+not evidence that the anonymous census boys have already been identified.
 
 ### Master reassessment, 5 September 2026
 
@@ -56,7 +72,7 @@ record yet identifies the boy or proves James-to-Robert or Robert-to-Archibald.
 | [Newberry estate index](https://genealogytrails.com/scar/newberry/estates1785-1949/22.htm) | Wilson's 1817 estate was administered by John Glasgow; Mary was guardian for “Ruth & others” in 1820. | Confirms a minor-heir file, estate 646, box 27, package 57. Obtain it for explicit child names. |
 | [Gilders Creek Cemetery](https://genealogytrails.com/scar/newberry/gilders_creek_cem.htm) | Wilson died 11 September 1817; Mary died 23 March 1838. | Confirms Fleming, reportedly born 1823, cannot be Wilson's child. No James c.1809 is identified as their son. |
 | [1820 Giles County census](https://archive.org/details/populationsc18200124unit/page/n21/mode/1up) | Robert Glasgow's household contained one male aged 10–15. | Compatible with James, but the schedule names only Robert and does not prove a relationship. |
-| [1848 Giles deed](https://tngenweb.org/giles/deed-noah-hancock-to-james-glasgow/), Deed Book T, p. 211 | Noah Hancock conveyed James 100 acres in district 6; the deed says James already lived on the ridge and refers to an October 1845 title bond. | Directly establishes James in Giles County by 1845–1848. No relative named. |
+| [1848 Giles deed](https://tngenweb.org/giles/deed-noah-hancock-to-james-glasgow/), Deed Book T, p. 211 | Noah Hancock conveyed James 100 acres in district 6; the deed says James already lived on the ridge and refers to an October 1845 title bond. | Proves residence in 1848 and an earlier transaction in 1845; the bond recital alone does not prove residence in 1845. No relative named. |
 | [1850 Giles deed](https://tngenweb.org/giles/deed-james-j-glasgow-to-john-tornerlin-1850/), Deed Book U, p. 144 | James sold the same 100 acres to John Tornerlin. | Direct identity and residence evidence; no relative named. |
 | [1860 United States census](https://www.familysearch.org/ark:/61903/1:1:M6GF-RXZ), FamilySearch record M6GF-RXZ | Jas J Glasgow and Mary J Glasgow were enumerated together. | Direct household evidence supporting the attached marriage; no parents are named. |
 | [1800 Newberry census transcription](https://genealogytrails.com/scar/newberry/1800nbycensusG.htm) | Archibald Glasgow's household included one male under 10. | Compatible with Robert-2769 as a missing son, but two uncertain generations separate this household from James J. |

@@ -1,0 +1,405 @@
+{
+  "id": "saltcoats-1637",
+  "intro": "The Saltcoats estate administration explicitly names John Glasgow's widow and twice identifies Katherine and Agnes as his lawful children. It does not call the widow their mother, and the household evidence excludes Glasgow-1030 as the present identification.",
+  "people": [
+    {
+      "name": "John Glasgow",
+      "role": "deceased sailor in Saltcoats; not identified as Glasgow-1030",
+      "status": "comparison",
+      "evidence_step": "widow",
+      "evidence_study": "saltcoats-1637-johne"
+    },
+    {
+      "name": "Isobell Gray",
+      "role": "widow",
+      "status": "explicit",
+      "evidence_step": "widow",
+      "evidence_study": "saltcoats-1637-isobell"
+    },
+    {
+      "name": "Katherine Glasgow",
+      "role": "lawful daughter",
+      "status": "explicit",
+      "evidence_step": "children",
+      "evidence_study": "saltcoats-1637-daughters"
+    },
+    {
+      "name": "Agnes Glasgow",
+      "role": "lawful daughter",
+      "status": "explicit",
+      "evidence_step": "children",
+      "evidence_study": "saltcoats-1637-daughters"
+    },
+    {
+      "name": "John Brown",
+      "role": "cautioner; no kinship stated",
+      "status": "explicit",
+      "evidence_step": "caution"
+    }
+  ],
+  "card_kin": {
+    "spouse": [
+      {
+        "name": "Isobell Gray",
+        "relationship": "widow",
+        "status": "explicit",
+        "evidence_step": "widow",
+        "evidence_study": "saltcoats-1637-isobell"
+      }
+    ],
+    "children": [
+      {
+        "name": "Katherine Glasgow",
+        "relationship": "lawful daughter",
+        "status": "explicit",
+        "evidence_step": "children",
+        "evidence_study": "saltcoats-1637-daughters"
+      },
+      {
+        "name": "Agnes Glasgow",
+        "relationship": "lawful daughter",
+        "status": "explicit",
+        "evidence_step": "children",
+        "evidence_study": "saltcoats-1637-daughters"
+      }
+    ],
+    "other_kin": []
+  },
+  "steps": [
+    {
+      "id": "widow",
+      "title": "The Saltcoats sailor and his widow",
+      "page_label": "NRS CC9/7/27, register page 478; Crown copyright, National Records of Scotland.",
+      "image": "/assets/research/testament-crops/saltcoats-1637-widow-v2.jpg",
+      "image_width": 1400,
+      "image_height": 500,
+      "alt": "Opening of John Glasgow's testament dative naming him as a Saltcoats sailor and Isobell Gray as his widow.",
+      "original": "vmqle Johne glasgow sailler in Salt-coittis within the parochin of Ardrossane ... maid & gevin up be Issobell gray his relict",
+      "reading": "the late John Glasgow, sailor in Saltcoats within the parish of Ardrossan ... made and given up by Isobell Gray, his widow",
+      "explanation": "The occupation and locality travel with John's name across a line break: Salt- ends the first line and coittis begins the next. Later, Issobell Gray is followed by his relict, the period legal description of his widow. Widowhood is explicit; motherhood is not, and an administrator could act for children without being their mother.",
+      "proves": "John Glasgow was a sailor in Saltcoats and Isobell Gray was his widow.",
+      "does_not_prove": "It does not identify him with Glasgow-1030 or state that Isobell was the mother of the children named on the next page.",
+      "confidence": "high",
+      "marks": [
+        {
+          "x": 38.642857142857146,
+          "y": 11,
+          "w": 51.357142857142854,
+          "h": 28.4,
+          "label": "Johne Glasgow sailler in Salt-",
+          "kind": "name",
+          "pixel_bbox": [
+            541,
+            55,
+            1260,
+            197
+          ],
+          "analysis": {
+            "reading": "Johne glasgow sailler in Salt-",
+            "expansion": "John Glasgow, sailor in Salt-",
+            "features": [
+              "Johne begins with a large descending J and tall h.",
+              "sailler contains two tall near-parallel l strokes in its middle.",
+              "Salt- starts with a large flourished S and ends in a visible hyphen at the line edge."
+            ],
+            "uncertainty": "The person, occupation and split locality are clear; the locality must be completed from the next line."
+          }
+        },
+        {
+          "x": 8.428571,
+          "y": 19.2,
+          "w": 26.285714,
+          "h": 27.6,
+          "label": "coittis",
+          "kind": "name",
+          "pixel_bbox": [
+            118,
+            96,
+            486,
+            234
+          ],
+          "analysis": {
+            "reading": "coittis",
+            "expansion": "coittis, completing Saltcoats",
+            "features": [
+              "The word resumes at the far left beneath Salt-.",
+              "Its two t strokes rise above the other letters and are crossed by a shared horizontal stroke.",
+              "The final long s descends slightly below the body line."
+            ],
+            "comparison": "The caution clause later writes Saltcoittis in one continuous locality form.",
+            "uncertainty": "This is a line-wrap continuation, not a second place."
+          }
+        },
+        {
+          "x": 48.57142857142857,
+          "y": 52.800000000000004,
+          "w": 40.57142857142857,
+          "h": 26.200000000000003,
+          "label": "Issobell Gray his relict",
+          "kind": "relationship",
+          "pixel_bbox": [
+            680,
+            264,
+            1248,
+            395
+          ],
+          "analysis": {
+            "reading": "Issobell gray his relict",
+            "expansion": "Isobell Gray, his widow",
+            "features": [
+              "Issobell begins with a tall capital I and contains a long s-like stroke before the rounded obell ending.",
+              "gray has a deep y descender extending below the line.",
+              "his relict is separately spaced; relict has tall l and t strokes marking the legal noun."
+            ],
+            "uncertainty": "Widow is explicit; no word in this sample calls Isobell the daughters' mother."
+          }
+        }
+      ],
+      "word_studies_replaced": true
+    },
+    {
+      "id": "children",
+      "title": "Katherine and Agnes, their father John",
+      "page_label": "NRS CC9/7/27, register page 479; Crown copyright, National Records of Scotland.",
+      "image": "/assets/research/testament-crops/saltcoats-1637-children.jpg",
+      "image_width": 1850,
+      "image_height": 510,
+      "alt": "Continuation naming Katherine and Agnes Glasgow as lawful children and John Glasgow as their father.",
+      "original": "In name & behalff of Kathrein & Agnes glasgow his lawfull bairnes ... to the defunct thair father",
+      "reading": "In the name and on behalf of Katherine and Agnes Glasgow, his lawful children ... to the deceased, their father.",
+      "explanation": "Read the first line for both names, the next for his lawfull bairnes, and the following line for thair father. The Scots word bairnes means children, while thair father repeats the paternal relationship from the children's perspective. The double wording makes John their father independently of representation, but still does not name their mother.",
+      "proves": "Katherine and Agnes Glasgow were lawful children of the deceased John Glasgow.",
+      "does_not_prove": "The clause does not expressly identify Isobell Gray as their mother or name a daughter Mary.",
+      "confidence": "high",
+      "marks": [
+        {
+          "x": 44.432432432432435,
+          "y": 13.333333333333334,
+          "w": 48.64864864864865,
+          "h": 30.58823529411765,
+          "label": "Kathrein and Agnes Glasgow",
+          "kind": "name",
+          "pixel_bbox": [
+            822,
+            68,
+            1722,
+            224
+          ],
+          "analysis": {
+            "reading": "Kathrein & Agnes glasgow",
+            "expansion": "Katherine and Agnes Glasgow",
+            "features": [
+              "Kathrein begins with a tall flourished K and contains a crowded -threin sequence.",
+              "The ampersand is a distinct looping sign between the forenames.",
+              "Agnes opens with a large rounded A; the shared glasgow follows after both names."
+            ],
+            "comparison": "The caution clause repeats both daughters in the same order.",
+            "uncertainty": "The first forename is visibly Kathrein; Katherine is a modernized expansion."
+          }
+        },
+        {
+          "x": 4.54054054054054,
+          "y": 23.72549019607843,
+          "w": 44.27027027027027,
+          "h": 29.01960784313726,
+          "label": "his lawfull bairnes",
+          "kind": "relationship",
+          "pixel_bbox": [
+            84,
+            121,
+            903,
+            269
+          ],
+          "analysis": {
+            "reading": "his lawfull bairnes",
+            "expansion": "his lawful children",
+            "features": [
+              "his is a compact possessive before a clear gap.",
+              "lawfull shows two tall l strokes in law and another pair at the end.",
+              "bairnes begins with a tall b and ends in a long s descending below the body letters."
+            ],
+            "comparison": "The closing caution repeats lawfull bairnes of before John's name.",
+            "uncertainty": "Children is explicit; the phrase does not specify daughters except through the feminine forenames."
+          }
+        },
+        {
+          "x": 36.324324,
+          "y": 39.411765,
+          "w": 27.351351,
+          "h": 29.607843,
+          "label": "thair father",
+          "kind": "relationship",
+          "pixel_bbox": [
+            672,
+            201,
+            1178,
+            352
+          ],
+          "analysis": {
+            "reading": "thair father",
+            "expansion": "their father",
+            "features": [
+              "thair begins with a tall t and h followed by a compact -air.",
+              "A clear word gap precedes father.",
+              "father starts with a long f descending below the line, followed by a tall h."
+            ],
+            "uncertainty": "The paternal relationship is explicit; the phrase names no mother."
+          }
+        }
+      ],
+      "word_studies_replaced": true
+    },
+    {
+      "id": "caution",
+      "title": "The relationship is repeated in the caution",
+      "page_label": "NRS CC9/7/27, register page 480; Crown copyright, National Records of Scotland.",
+      "image": "/assets/research/testament-crops/saltcoats-1637-caution.jpg",
+      "image_width": 1880,
+      "image_height": 950,
+      "alt": "Caution clause repeating Katherine and Agnes as lawful children of John Glasgow, sailor in Saltcoats.",
+      "original": "Johne Broune sailler in Saltcoittis ... as cautioun ... Kathrein & Agnes glasgow lawfull bairnes of vmqle Johne glasgow sailler in Saltcoittis",
+      "reading": "John Brown, sailor in Saltcoats ... as cautioner ... Katherine and Agnes Glasgow, lawful children of the late John Glasgow, sailor in Saltcoats.",
+      "explanation": "Follow the wrap from Johne at the right end of one line to Broune at the left of the next. That man is introduced as cautioner, a guarantor, not as kin. Lower down, the clause repeats both daughters, lawfull bairnes of, and the deceased Saltcoats sailor. The repetition corroborates the relationship inside the same testament but is not an independent source.",
+      "proves": "The same record independently repeats the daughters' relationship to the Saltcoats sailor within its closing administration.",
+      "does_not_prove": "Repetition within one testament is not an independent source, and John Brown's cautioner role proves no ancestry. The household remains distinct from Glasgow-1030 and Jonet Mathie's family.",
+      "confidence": "high",
+      "marks": [
+        {
+          "x": 74.574468,
+          "y": 2.105263,
+          "w": 21.702128,
+          "h": 16.526316,
+          "label": "Johne",
+          "kind": "name",
+          "pixel_bbox": [
+            1402,
+            20,
+            1810,
+            177
+          ],
+          "analysis": {
+            "reading": "Johne",
+            "expansion": "John",
+            "features": [
+              "The capital J has a broad upper loop and long descending main stroke.",
+              "The h rises sharply above the rounded o/n/e sequence.",
+              "A terminal stroke carries the reader toward the line break."
+            ],
+            "uncertainty": "The forename is complete; Broune continues on the next line."
+          }
+        },
+        {
+          "x": 12.340426,
+          "y": 10,
+          "w": 21.170213,
+          "h": 16.315789,
+          "label": "Broune",
+          "kind": "name",
+          "pixel_bbox": [
+            232,
+            95,
+            630,
+            250
+          ],
+          "analysis": {
+            "reading": "Broune",
+            "expansion": "Brown",
+            "features": [
+              "The capital B is a large double-bow form extending above and below the body line.",
+              "The r joins immediately into the rounded -oune sequence.",
+              "The final e finishes with a short rising exit stroke."
+            ],
+            "uncertainty": "The surname is secure; the line identifies John Brown as cautioner, not a relative."
+          }
+        },
+        {
+          "x": 11.808510638297873,
+          "y": 27.473684210526315,
+          "w": 47.02127659574468,
+          "h": 16.842105263157894,
+          "label": "Kathrein and Agnes Glasgow",
+          "kind": "name",
+          "pixel_bbox": [
+            222,
+            261,
+            1106,
+            421
+          ],
+          "analysis": {
+            "reading": "Kathrein & Agnes glasgow",
+            "expansion": "Katherine and Agnes Glasgow",
+            "features": [
+              "Kathrein repeats the tall K and crowded middle sequence from the earlier children clause.",
+              "The ampersand is a looped separator before Agnes.",
+              "glasgow follows once as the surname shared by both women."
+            ],
+            "comparison": "Compare the same ordered pair on register page 479.",
+            "uncertainty": "The names are secure; modern Katherine expands the manuscript's Kathrein."
+          }
+        },
+        {
+          "x": 55.425532,
+          "y": 28.736842,
+          "w": 35.531915,
+          "h": 18.631579,
+          "label": "lawfull bairnes of",
+          "kind": "relationship",
+          "pixel_bbox": [
+            1042,
+            273,
+            1710,
+            450
+          ],
+          "analysis": {
+            "reading": "lawfull bairnes of",
+            "expansion": "lawful children of",
+            "features": [
+              "lawfull contains repeated tall l strokes that stand above the body letters.",
+              "bairnes begins with a tall b and closes with a long s.",
+              "The short of attaches the kin term directly to the father's name on the next segment."
+            ],
+            "comparison": "The earlier page uses his lawfull bairnes for the same two daughters.",
+            "uncertainty": "The child relationship is explicit; lawful is a legal status term, not evidence of maternity."
+          }
+        },
+        {
+          "x": 12.234043,
+          "y": 38.421053,
+          "w": 81.382979,
+          "h": 19.684211,
+          "label": "umqle Johne Glasgow sailler in Saltcoittis",
+          "kind": "relationship",
+          "pixel_bbox": [
+            230,
+            365,
+            1760,
+            552
+          ],
+          "analysis": {
+            "reading": "vmqle Johne glasgow sailler in Saltcoittis",
+            "expansion": "the late John Glasgow, sailor in Saltcoats",
+            "features": [
+              "vmqle is the clerk's compact deceased abbreviation before the name.",
+              "Johne has the same descending J and tall h seen in the cautioner's forename.",
+              "sailler is recognizable by its paired tall l strokes.",
+              "Saltcoittis is continuous here, with two tall t strokes, unlike the earlier line-broken Salt-/coittis."
+            ],
+            "comparison": "This full locality form checks the split opening wording on register page 478.",
+            "uncertainty": "The phrase identifies the deceased father; it does not identify him as Glasgow-1030."
+          }
+        }
+      ],
+      "word_studies_replaced": true
+    }
+  ],
+  "index_confirmation": {
+    "indexed_name": "Johnn Glasgw",
+    "date": "1637-04-11",
+    "description": "sailor in Saltcoats, parish of Ardrossan",
+    "record_type": "TD",
+    "court": "Glasgow Commissary Court",
+    "reference": "CC9/7/27",
+    "status": "confirmed by supplied archival index",
+    "supplied_on": "2026-09-10"
+  }
+}

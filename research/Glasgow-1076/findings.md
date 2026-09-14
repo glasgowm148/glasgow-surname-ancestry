@@ -1,51 +1,53 @@
-# Findings: [Glasgow-1076](https://www.wikitree.com/wiki/Glasgow-1076)
+# Findings: [Robert Glasgow of Montgreenan (Glasgow-1076)](https://www.wikitree.com/wiki/Glasgow-1076)
+
+Last updated: 2026-09-10
 
 ## Current conclusion
 
-Robert Glasgow of Montgreenan owned the Mount Grenan and Sans Souci plantations
-on St Vincent. With finance from the Scottish merchants Houstoun & Co, he
-accumulated a West Indian fortune, bought Montgreenan in Ayrshire in 1802 and
-built the later house about 1810–17. This was the movement of wealth extracted
-from enslaved labour into a Scottish landed estate, not merely a personal
-migration story.
+The statement that Robert died “without issue” cannot stand without qualification: [UCL's summary of his 1803 trust](https://wwwdepts-live.ucl.ac.uk/lbs/person/view/2146643739) reports reputed natural children John and Emilia, and identifies Anne as a natural daughter in the Robertson succession. The original trust is not yet read here, so it does not prove that the existing WikiTree children are those people.
 
-Robert died at Montgreenan on 19 April 1827 without issue. The estate passed
-through a Robertson successor family required to use the Glasgow surname. The
-case therefore demonstrates estate and surname continuity without biological
-Glasgow paternal-line continuity.
+Robert Glasgow of Montgreenan held Mount Grenan and Sans Souci on St Vincent. Smith documents Houstoun & Co finance, wealth extracted from enslaved labour, the 1802 purchase of Montgreenan and construction of the later house c.1810–17.
 
-An older narrative associates this Robert with the 1679 wreck of the *Croune*
-and transported Covenanter prisoners. That is impossible for a man born in
-1747. The cited modern article is only context for the wreck and identifies no
-record connecting Robert to it.
+The current WikiTree profile gives death on 19 April 1827 at Kilwinning. A related UCL successor entry calls him “d. 1828” while citing an October 1828 registration. This may be registration rather than death, but the Scottish papers must resolve it; do not change the date from this audit alone.
+
+## Current WikiTree capture and source preservation
+
+Read-only API capture, 10 September 2026: `Glasgow-1076`, page id 27484155; birth 15 October 1747, Kilbirnie; death 19 April 1827, Kilwinning; spouse Rachel Dunlop (`Dunlop-2189`); displayed children Amelia (`Glasgow-3789`), Anne (`Glasgow-2874`) and John (`Glasgow-2952`). Local `www/people/glasgow-1076.json` marks all three as unmarked reconstructed parent references, not documentary conclusions.
+
+Preserve the live profile's Kilbirnie OPR baptism (18 October 1747, Ref 10/116), Dunlop OPR marriage (23 February 1802, Ref 20/211), archived Montgreenan Hotel history, Ayrshire Gazetteer, UCL link and Wikipedia link as captured source leads. Its triangular-trade account, particular mothers, three-child grouping, “youngest daughter” wording and later Robertson detail need independent sources.
 
 ## Source findings
 
-- Simon D. Smith, “Slavery's heritage footprint: links between British country
-  houses and St Vincent plantations, 1814–1834,” in Madge Dresser and Andrew
-  Hann, eds., *Slavery and the British Country House* (English Heritage, 2013),
-  p. 62; [digitised volume](https://historicengland.org.uk/images-books/publications/slavery-and-british-country-house/slavery-british-country-house-web/).
-  Smith identifies Robert's two St Vincent plantations, Houstoun & Co finance,
-  purchase of Montgreenan in 1802 and construction of the later house about
-  1810–17. This is direct secondary historical analysis of the plantation and
-  country-house connection.
-- James Paterson, *History of the County of Ayr*, vol. II,
-  [pp. 252–253](https://archive.org/details/historyofcountyo02pateuoft/page/252/mode/2up),
-  records Robert's death without issue and the settlement by which the
-  Robertson successor family used the Glasgow surname. This is a nineteenth-
-  century county history and should be checked against Robert's settlement for
-  its exact legal terms.
-- [Mark Jardine, “Beyond Orkney's Fatal Shore: the wreck of the Croune, 10
-  December 1679”](https://drmarkjardine.wordpress.com/2016/12/10/beyond-orkneys-fatal-shore-the-wreck-of-the-croune-10-december-1679-history-scotland/)
-  is a secondary source about the wreck, not evidence about Robert.
+- Simon D. Smith, “Slavery's heritage footprint: links between British country houses and St Vincent plantations, 1814–1834,” in Madge Dresser and Andrew Hann, eds., *Slavery and the British Country House* (English Heritage, 2013), p. 62; [digitised volume](https://historicengland.org.uk/images-books/publications/slavery-and-british-country-house/slavery-british-country-house-web/).
+- [UCL LBS: Dr Robert Glasgow](https://wwwdepts-live.ucl.ac.uk/lbs/person/view/2146643739), checked 10 September 2026. Citing **SC6/44/4**, it reports £200 to “my reputed natural mulatto son John” and lawful issue; £500 to “my reputed natural daughter Emilia” and lawful issue; £100 and £50 to Robert and James, reputed natural sons of Robert's late brother James. It identifies Anne as Robert's natural daughter and reports the Robertson/Glasgow-name succession. This is a database summary of a primary reference, not an inspection of the trust image.
+- The same entry identifies **T71/493 pp.591–592** (1817) and **T71/495 p.54** (1822). The dump's claim that Mary and four named children were John's family is an inference, not a documented relationship.
+- [UCL LBS: Robert Glasgow late Robertson](https://wwwdepts-live.ucl.ac.uk/lbs/person/view/27300), checked 10 September 2026, calls Robert Robertson Anne's husband and Robert's son-in-law; it cites **SC6/44/4/1** and October 1828 registration, but its “d. 1828” prose conflicts with the 1827 date held elsewhere.
+- James Paterson, *History of the County of Ayr*, vol. II, [pp.252–253](https://archive.org/details/historyofcountyo02pateuoft/page/252/mode/2up), previously underpinned “without issue.” Its childlessness statement conflicts with the published trust account; its scope remains unresolved until the underlying records are compared.
+- [Mark Jardine on the *Croune* wreck](https://drmarkjardine.wordpress.com/2016/12/10/beyond-orkneys-fatal-shore-the-wreck-of-the-croune-10-december-1679-history-scotland/) is context only; it cannot identify this 1747-born man.
 
-## Recommended next records
+## Household identity assessment
 
-- Inspect Robert's settlement or trust papers to verify the exact Robertson
-  succession and surname condition.
-- Use plantation registers and compensation-era material to reconstruct the
-  enslaved communities at Mount Grenan and Sans Souci; do not reduce the
-  plantation history to Robert's wealth alone.
-- Remove rather than investigate the chronologically impossible 1679 *Croune*
-  association from any Robert-specific narrative. It belongs only in the
-  history of the Cavers prisoners.
+| Subject | Evidence now | Status |
+| --- | --- | --- |
+| John | Trust calls him Robert's reputed natural mulatto son. | **HOLD** against [John Glasgow (Glasgow-2952)](https://www.wikitree.com/wiki/Glasgow-2952); original trust and profile evidence need comparison. |
+| Emilia | Trust calls her Robert's reputed natural daughter. | **HOLD**; do not equate with Amelia Theobalds or [Amelia (Glasgow) Wilson (Glasgow-3789)](https://www.wikitree.com/wiki/Glasgow-3789). |
+| Anne | UCL summary identifies Anne as natural daughter and Robert Robertson's wife. | **HOLD** against [Anne Glasgow (Glasgow-2874)](https://www.wikitree.com/wiki/Glasgow-2874); the trust must establish whether this is the same woman. |
+| Robert and James, sons of late James | Named as James Glasgow's reputed natural sons. | Collateral subjects; do not attach to Robert 1076 or create profiles. |
+| Mary, Adam, Eve, Peter and James in register material | T71 records remain to be read. | **HOLD**; no proof they were John's family or that surname establishes descent. |
+
+## Priority actions
+
+1. Read and transcribe **SC6/44/4** and **SC6/44/4/1**, preserving execution, death, confirmation and registration dates separately.
+2. Read **T71/493 pp.591–592** and **T71/495 p.54**, transcribing headings, owners, names, ages and transfer language exactly.
+3. Duplicate-audit John, Emilia and Anne against the three existing child profiles only after the originals are available. No new-person drafts.
+4. Public wording: **the 1803 trust reports reputed natural children; its relationship to the existing child profiles remains unresolved.**
+
+## Recommended WikiTree update
+
+**Needs updated on WikiTree — narrative amendment prepared, not saved live.**
+The live biography already names children and mentions the trust; the categorical
+childlessness error was in this catalogue’s earlier synthesis. The pending
+replacement adds exact bequests and archive references, identifies the
+Emilia/Amelia question and separates death from registration. It preserves
+family attachments and does not claim that the original manuscripts have been
+inspected. The complete native draft is `Montgreenan_household_audit.wiki`.

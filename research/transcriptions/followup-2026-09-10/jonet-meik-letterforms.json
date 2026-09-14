@@ -1,0 +1,99 @@
+{
+  "id": "jonet-meik-husband-letterforms",
+  "title": "Jonet Meik: why the husband's name is probably Niniane",
+  "question": "Does the 1607 testament name Niniane or Williame Glasgow as Jonet Meik's husband, and which relationships can actually be read?",
+  "conclusion": "Niniane remains the better reading. A fresh initial reading as William did not survive comparison with the repeated names and the clerk's tall l strokes. This strengthens the explanation of the maintained reading rather than changing the family tree. Robert is expressly Jonet's son; the disputed letters concern her husband's forename, not Robert's relationship to her.",
+  "status": "probable",
+  "figures": [
+    {
+      "src": "/assets/research/testament-crops/jonet-meik-name-comparison-2026-09-10/opening.jpg",
+      "alt": "Opening of Jonet Meik's testament, including latterwill, the husband's name after spous to, and the executor clause naming Robert her son",
+      "caption": "CC9/7/5, image 82: compare the short strokes in the husband's forename with the taller l strokes in latterwill above. The name recurs in the executor clause. This is an unretouched crop, not a reconstructed word."
+    },
+    {
+      "src": "/assets/research/testament-crops/jonet-meik-name-comparison-2026-09-10/repetitions.jpg",
+      "alt": "Accounting passage in the same testament containing another occurrence of the husband's name",
+      "caption": "Image 82, lower passage: another occurrence supplies a same-document comparison. Repetition helps test the letter sequence; it does not make an uncertain name certain by itself."
+    },
+    {
+      "src": "/assets/research/testament-crops/jonet-meik-name-comparison-2026-09-10/will-confirmation.jpg",
+      "alt": "Continuation showing the bequest to Marioun Glasgow, the residue left to Robert Glasgow her son, and surrounding attestation and confirmation text",
+      "caption": "Image 83: Robert is again called hir sone in the residue. The words following Marioun Glasgow remain unclear and must not be silently expanded into a niece or daughter relationship."
+    }
+  ],
+  "findings": [
+    {
+      "claim": "Three occurrences favour Niniane rather than Williame, but the reading remains probable.",
+      "status": "probable",
+      "basis": "The opening spouse clause, executor clause and accounting passage share a capital-N-like start, a sequence of short n/i strokes and an apparent ending -ane. The regular paired tall l ascenders expected in a full Williame are not apparent; tall l strokes are visible in the same hand's latterwill. Short repeated strokes can be ambiguous, and no securely isolated same-hand William comparator was established. The letter comparison therefore favours Niniane without claiming certainty or using the expected family as proof.",
+      "source_url": "https://www.scotlandspeople.gov.uk/search-records/legal-records/wills",
+      "source_reference": "NRS Glasgow Commissary Court, CC9/7/5, images 82-83, Jonet Meik; original supplied PDF visually inspected. Maintained case jonet-melk-1607.",
+      "new_this_pass": false
+    },
+    {
+      "claim": "Robert Glasgow is directly identified as Jonet's son in two different clauses.",
+      "status": "confirmed",
+      "basis": "The executor passage names Robert Glasgow hir sone; the residue again names Robert Glasgow hir sone. This is explicit maternity, independently of the husband's disputed forename. Identifying this record-defined Robert with other Robert Glasgow records still requires the family and chronology comparison already maintained in the wider study.",
+      "source_url": "https://www.scotlandspeople.gov.uk/search-records/legal-records/wills",
+      "source_reference": "NRS CC9/7/5, image 82 executor clause and image 83 residue clause; original-image rereading reconfirms the existing finding.",
+      "new_this_pass": false
+    },
+    {
+      "claim": "The bequest to Marioun does not yet establish a niece, daughter or sister relationship.",
+      "status": "unresolved",
+      "basis": "The visible name Marioun Glasgow is followed by hir nycht[?] and further uncertain wording apparently introducing a bequeathed object. The ambiguous token is not relationship-grade evidence. Do not automatically identify this beneficiary with the Marioun called Ninian's sister in his 1613 testament, or fill the gap with a kinship term merely because the same surname occurs.",
+      "source_url": "https://www.scotlandspeople.gov.uk/search-records/legal-records/wills",
+      "source_reference": "NRS CC9/7/5, image 83, opening bequest; compare the separate Ninian 1613 study without merging the two occurrences of Marioun.",
+      "new_this_pass": false
+    },
+    {
+      "claim": "The testament date, death interval and confirmation date must remain separate.",
+      "status": "probable",
+      "basis": "The maintained reading is an oral testament on [15?] February 1606, death an unread number of days afterwards, and confirmation on [27?] August 1607. Today's comparison agrees with that earlier reading. Neither an exact death date nor a February 1607 death should be manufactured from the catalogue year. The uncertain day numbers retain their question marks.",
+      "source_url": "https://www.scotlandspeople.gov.uk/search-records/legal-records/wills",
+      "source_reference": "CC9/7/5, images 82-83; date wording already recorded in the original-image reread of jonet-melk-1607, reconfirmed in this comparison.",
+      "new_this_pass": false
+    }
+  ],
+  "searches": [
+    {
+      "target": "Identify the PDF filed under archival number CC000900007-00005-00082 rather than a personal name",
+      "result": "It is the already-maintained Jonet Meik testament, not the missing John Mathie of Ibert original. The other Jonet PDF contains the same archive pages in a different wrapper/compression; the files are not independent witnesses."
+    },
+    {
+      "target": "Test a fresh William reading against repeated names and same-clerk letterforms",
+      "result": "The initial William reading was withdrawn before publication. Niniane remains probable; Robert's explicit relationship and the existing date readings are unchanged."
+    }
+  ],
+  "next_record": "Compare a securely identified Niniane and Williame in adjacent entries written by this same clerk. Inspect the full Marioun bequest before proposing any kinship term. No profile merge, parent replacement or new testament identity follows from this comparison.",
+  "profile_ids": ["Meik-14", "Glasgow-3188", "Glasgow-1027"],
+  "crop_provenance": [
+    {
+      "asset": "opening.jpg",
+      "source_file": "testaments/ScotlandsPeople_CC000900007-00005-00082-.pdf",
+      "pdf_page": 1,
+      "archive_image": 82,
+      "original_dimensions": [1593, 2522],
+      "crop_xywh": [250, 180, 1250, 520],
+      "method": "Crop of the embedded original image; no ink alteration or synthetic reconstruction."
+    },
+    {
+      "asset": "repetitions.jpg",
+      "source_file": "testaments/ScotlandsPeople_CC000900007-00005-00082-.pdf",
+      "pdf_page": 1,
+      "archive_image": 82,
+      "original_dimensions": [1593, 2522],
+      "crop_xywh": [250, 950, 1250, 900],
+      "method": "Crop of the embedded original image; no ink alteration or synthetic reconstruction."
+    },
+    {
+      "asset": "will-confirmation.jpg",
+      "source_file": "testaments/ScotlandsPeople_CC000900007-00005-00082-.pdf",
+      "pdf_page": 2,
+      "archive_image": 83,
+      "original_dimensions": [1720, 2550],
+      "crop_xywh": [260, 180, 1350, 1000],
+      "method": "Crop of the embedded original image; no ink alteration or synthetic reconstruction."
+    }
+  ]
+}

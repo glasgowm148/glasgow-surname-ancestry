@@ -1,5 +1,7 @@
 # Glasgow-1436 research findings
 
+Last updated: 2026-09-10
+
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-4f35a440ff3b -->
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-4f35a440ff3b
 
@@ -15,3 +17,24 @@ The transcript-validated baptism record for **Jeane Glasgow**, 16 Apr 1697, Kilb
 
 Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
 <!-- END FMP-GLASGOW-fmp-glasgow-4f35a440ff3b -->
+
++### Supplied Scotland’s People OPR births and baptisms — 10 September 2026
+
+| Source locator | Indexed entry | Assessment |
+| --- | --- | --- |
+| [Scotland’s People](https://www.scotlandspeople.gov.uk/), OPR 596/10 / 25 | JEANE GLASGOW; JOHN GLASGOW/JEANE CUNYNGHAME FR24 (FR24); 16/04/1697; Kilbirnie | Index-only confirmation. Its combined birth/baptism date is retained as an index date; original image was not inspected. |
+
+Provenance: exact-surname Glasgow search, year range to 1700, 127 supplied results across six pages.
+
+<!-- opr-birth-review-row-42 -->
+## Source findings
+
+### Supplied OPR births and baptisms: row 42 — 10 September 2026
+
+[Scotland’s People](https://www.scotlandspeople.gov.uk/), **Old Parish Registers, births and baptisms**; exact surname Glasgow through 1700, 127 supplied results. **JEANE GLASGOW**; indexed date **16/04/1697**; Kilbirnie; parish **596**, reference **10 / 25**. Parents/other exactly as indexed: **JOHN GLASGOW/JEANE CUNYNGHAME FR24 (FR24)**. Indexed gender: **F**.
+
+**Assessment:** Matches the existing child-record account by indexed date, locality and recorded family. This row adds the complete index locator as supporting provenance; it does not establish a new event or relationship.
+
+Original image not inspected for this batch. The combined collection’s date does not automatically establish a birthday. Names alone do not uniquely identify attached parents or connect a child with a later adult. An omitted parent or indexed gender U remains unspecified in this source.
+
+**Next action:** No additional WikiTree update from this row; preserve any existing pending work.

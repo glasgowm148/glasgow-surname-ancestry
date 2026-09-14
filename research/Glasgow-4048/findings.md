@@ -29,8 +29,7 @@ A widowed weaver named Hugh Glasgow died in the Ballymena district on 8 June
 1889, aged 55. He is a strong candidate, but the death entry does not securely
 bridge him to the 1852 marriage, so that death remains unproved for this profile.
 
-## Primary sources
-
+## Source findings
 - [Marriage of Hugh Glasgow and Anne Wilson, entry 49, 24 December 1852](https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1852/09422/5413278.pdf).
 - [Death of Ann Glasgow, entry 162, 14 March 1877](https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1877/020560/7214822.pdf).
 - [Candidate death of Hugh Glasgow, entry 301, 8 June 1889](https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1889/06144/4755156.pdf).

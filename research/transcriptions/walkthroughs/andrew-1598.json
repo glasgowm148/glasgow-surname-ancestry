@@ -1,0 +1,290 @@
+{
+  "id": "andrew-1598",
+  "intro": "Image 123 identifies Andrew and begins his latter will; image 124 continues without a gap. The continuation directly names Elizat Stevinsoun as his spouse, Robert as their son, and Marione, Jonet and Isobell as Andrew's daughters, while keeping the possible unborn child conditional.",
+  "people": [
+    {
+      "name": "Andrew Glasgow",
+      "role": "deceased testator",
+      "status": "explicit",
+      "profile_id": "Glasgow-3163",
+      "evidence_step": "andrew-subject",
+      "evidence_study": "andro-subject-name"
+    },
+    {
+      "name": "Elizat Stevinsoun",
+      "role": "Andrew's spouse and Robert's mother",
+      "status": "explicit",
+      "evidence_step": "andrew-family-124",
+      "evidence_study": "andrew-1598-elizat"
+    },
+    {
+      "name": "Robart Glasgow",
+      "role": "son of Andrew and Elizat",
+      "status": "explicit",
+      "evidence_step": "andrew-family-124",
+      "evidence_study": "andrew-1598-robart"
+    },
+    {
+      "name": "Marione, Jonet and Isobell Glasgow",
+      "role": "Andrew's named daughters; maternity unstated",
+      "status": "explicit",
+      "evidence_step": "andrew-distribution-124",
+      "evidence_study": "andrew-1598-daughters"
+    }
+  ],
+  "card_kin": {
+    "spouse": [
+      {
+        "name": "Elizat Stevinsoun",
+        "relationship": "spouse",
+        "status": "explicit",
+        "evidence_step": "andrew-family-124",
+        "evidence_study": "andrew-1598-elizat"
+      }
+    ],
+    "children": [
+      {
+        "name": "Robart Glasgow",
+        "relationship": "son",
+        "status": "explicit",
+        "evidence_step": "andrew-family-124",
+        "evidence_study": "andrew-1598-robart"
+      },
+      {
+        "name": "Marione, Jonet and Isobell Glasgow",
+        "relationship": "named daughters; maternity unstated",
+        "status": "explicit",
+        "evidence_step": "andrew-distribution-124",
+        "evidence_study": "andrew-1598-daughters"
+      }
+    ],
+    "other_kin": []
+  },
+  "steps": [
+    {
+      "id": "andrew-subject",
+      "title": "Identify Andrew and the record type",
+      "page_label": "NRS Edinburgh Commissary Court CC8/8/32, image 123",
+      "image": "/assets/research/testament-crops/andrew-1598-opening.jpg",
+      "image_width": 1290,
+      "image_height": 990,
+      "alt": "Opening of Andrew Glasgow's testament-testamentar and inventory on image 123.",
+      "original": "The testament testamentar and Inventar ... pertening to vmqle andro glasgw in corsoun[?] within the parochin of calder cleir[?]",
+      "reading": "The testament-testamentar and inventory ... belonging to the late Andrew Glasgow in Corsoun [?], in the parish of Calder Cleir [?]",
+      "explanation": "Testament testamentar signals that a will follows the inventory. In the enlarged words, the tall ascenders and long terminal strokes cross the ruled baseline, so the boxes deliberately include space above and below. Vmqle means deceased. The residence and parish spellings remain provisional because crowded minims can support more than one vowel sequence.",
+      "proves": "Andrew Glasgow is the deceased testator associated with this inventory and surviving will opening.",
+      "does_not_prove": "The opening does not name his wife or children, and the uncertain locality spellings should not be normalized from this image alone.",
+      "confidence": "high for Andrew and the record type; moderate for the localities",
+      "marks": [
+        {
+          "x": 58.837209302325576,
+          "y": 9.696969696969697,
+          "w": 22.325581395348838,
+          "h": 8.686868686868687,
+          "label": "andro glasgw",
+          "kind": "name",
+          "pixel_bbox": [
+            759,
+            96,
+            1047,
+            182
+          ],
+          "analysis": {
+            "reading": "andro glasgw",
+            "expansion": "Andrew Glasgow",
+            "features": [
+              "andro starts with a small open a followed by connected n-d-r strokes rather than a capitalized modern form.",
+              "The d has a tall looped ascender that rises well above the other letters.",
+              "glasgw ends in a compressed w-like series of angled strokes."
+            ],
+            "comparison": "The last visible line of image 123 repeats 'said andro' with the same tall d.",
+            "uncertainty": "The personal name is secure; the box does not include the preceding deceased abbreviation."
+          }
+        },
+        {
+          "x": 79.379845,
+          "y": 8.282828,
+          "w": 15.581395,
+          "h": 9.292929,
+          "label": "corsoun [?]",
+          "kind": "uncertain",
+          "pixel_bbox": [
+            1024,
+            82,
+            1225,
+            174
+          ],
+          "analysis": {
+            "reading": "corsoun [?]",
+            "expansion": "Corsoun [?], a residence",
+            "features": [
+              "The word begins with an open c-like curve.",
+              "The middle contains several shallow joined humps that make the exact vowel sequence difficult.",
+              "The final -oun-like group rises into a long terminal stroke near the page edge."
+            ],
+            "uncertainty": "Corsoun is a plausible reading, not a normalized place identification."
+          }
+        },
+        {
+          "x": 32.945736,
+          "y": 14.141414,
+          "w": 22.403101,
+          "h": 9.191919,
+          "label": "calder cleir [?]",
+          "kind": "uncertain",
+          "pixel_bbox": [
+            425,
+            140,
+            714,
+            231
+          ],
+          "analysis": {
+            "reading": "calder cleir [?]",
+            "expansion": "Calder Cleir [?], the parish wording",
+            "features": [
+              "calder begins with an open c and has a tall looped d near its middle.",
+              "A visible gap separates calder from cleir.",
+              "cleir finishes with a long rising terminal stroke, while its middle letters are faint and tightly linked."
+            ],
+            "uncertainty": "Calder is strong; the following qualifier remains provisional."
+          }
+        }
+      ],
+      "word_studies_replaced": true
+    },
+    {
+      "id": "andrew-will-opening",
+      "title": "Stop where the supplied image stops",
+      "page_label": "NRS Edinburgh Commissary Court CC8/8/32, image 123; continued on image 124",
+      "image": "/assets/research/testament-crops/andrew-1598-will-opening.jpg",
+      "image_width": 1290,
+      "image_height": 1110,
+      "alt": "Bottom of image 123 showing the heading Followis the deidis latter will and its first dated line.",
+      "original": "Followis the deidis latter will / Vpoun the sext day of februar 1597 The said day the said andro [continues]",
+      "reading": "The deceased's latter will follows. On 6 February 1597, on that day, the said Andrew ... [continues beyond this crop]",
+      "explanation": "Latter will means the testamentary directions following the estate account. Read the heading as one line, then move to the dated line below; its long capitals and descenders overlap neighbouring ruled space. The written date is 1597; interpreting it as 1597/8 is a calendar convention, not different lettering on the page. The sentence continues on image 124.",
+      "proves": "Andrew's latter will begins on 6 February 1597 as written.",
+      "does_not_prove": "Image 123 alone contains no visible wife, son, daughter, or unborn-child clause; those relationships come from the freshly read continuation on image 124.",
+      "confidence": "high for the heading, written date, and page limitation",
+      "marks": [
+        {
+          "x": 11.24031,
+          "y": 82.432432,
+          "w": 52.713178,
+          "h": 8.018018,
+          "label": "Followis the deidis latter will",
+          "kind": "relationship",
+          "pixel_bbox": [
+            145,
+            915,
+            825,
+            1004
+          ],
+          "analysis": {
+            "reading": "Followis the deidis latter will",
+            "expansion": "The deceased's latter will follows",
+            "features": [
+              "Followis begins with a large flourished F whose lower curve extends below the body letters.",
+              "The long s at the end of Followis descends and can resemble f.",
+              "latter has two tall t strokes; will closes with paired upright l strokes."
+            ],
+            "uncertainty": "The heading is secure and announces the will section; it is not itself a kinship statement."
+          }
+        },
+        {
+          "x": 14.263566,
+          "y": 87.567568,
+          "w": 41.162791,
+          "h": 9.189189,
+          "label": "sext day of februar 1597",
+          "kind": "relationship",
+          "pixel_bbox": [
+            184,
+            972,
+            715,
+            1074
+          ],
+          "analysis": {
+            "reading": "sext day of februar 1597",
+            "expansion": "sixth day of February 1597",
+            "features": [
+              "sext has a long opening s and a tall crossed final t.",
+              "The y of day descends in a long diagonal sweep below the line.",
+              "februar begins with a long f-like stroke; the four final numerals are darker and more angular than the words."
+            ],
+            "uncertainty": "1597 is what is written; 1597/8 is an editorial calendar interpretation."
+          }
+        },
+        {
+          "x": 76.27907,
+          "y": 87.387387,
+          "w": 21.395349,
+          "h": 9.459459,
+          "label": "said andro",
+          "kind": "name",
+          "pixel_bbox": [
+            984,
+            970,
+            1260,
+            1075
+          ],
+          "analysis": {
+            "reading": "said andro",
+            "expansion": "the said Andrew",
+            "features": [
+              "said is a compact linking word with a tall d at its end.",
+              "andro repeats the connected lower-case form used in the opening.",
+              "The final o finishes in a light rightward exit stroke close to the crop edge."
+            ],
+            "comparison": "Compare andro in the opening line above; both occurrences show the distinctive tall looped d.",
+            "uncertainty": "The phrase is secure, but the continuation beyond it is outside this crop."
+          }
+        }
+      ]
+    },
+    {
+      "id": "andrew-family-124",
+      "title": "Elizat is spouse; Robert is their son",
+      "page_label": "NRS Edinburgh Commissary Court CC8/8/32, image 124, top continuation",
+      "image": "/assets/research/testament-crops/andrew-1598-family-124.jpg",
+      "image_width": 1030,
+      "image_height": 390,
+      "alt": "Top of image 124 continuing Andrew Glasgow's will and naming Elizat Stevinsoun and Robert Glasgow.",
+      "original": "Elizat stevinsoun his spous and Robart glasgw his sone begottin be him vpoun the said Elizat his wyff",
+      "reading": "Elizat Stevenson, his spouse, and Robert Glasgow, his son begotten by him upon the said Elizat his wife",
+      "explanation": "The manuscript supplies both relationship terms. His spous links Elizat to Andrew; his sone links Robert to Andrew; begottin ... vpoun the said Elizat his wyff explicitly supplies Robert's maternity. The modern Elizabeth/Stevenson forms are expansions, not replacement manuscript readings. Display limitation: the supplied family extract ends after Robart; it does not show the complete following surname and son phrase. The lower begottin and Elizat wording remains available for the stated parentage comparison.",
+      "proves": "Andrew and Elizat were spouses, and Robert was their son.",
+      "does_not_prove": "It does not identify an existing WikiTree profile for Robert or prove that Elizat was mother of every daughter named later.",
+      "confidence": "high",
+      "marks": [],
+      "word_studies_replaced": true
+    },
+    {
+      "id": "andrew-distribution-124",
+      "title": "Named daughters and a conditional unborn child",
+      "page_label": "NRS Edinburgh Commissary Court CC8/8/32, image 124, dispositive clauses",
+      "image": "/assets/research/testament-crops/andrew-1598-distribution-124.jpg",
+      "image_width": 1030,
+      "image_height": 650,
+      "alt": "Image 124 clauses distributing Andrew Glasgow's estate among Robert, Marione, Jonet and Isobell and providing conditionally for a possible unborn child.",
+      "original": "incais his said spous be with bairne ... and gif scho be not with bairne ... his said sone and his said [dochter- struck through] Marione Jonet Isobell ... his said Robart cum to aige",
+      "reading": "If his spouse was pregnant, provision was made for that child; if she was not, Andrew's share was distributed among his son and his daughters Marione, Jonet and Isobell. Robert had not yet reached the stated age.",
+      "explanation": "The pregnancy wording is conditional and cannot be converted into a born child. The three women's names follow a cancelled daughter-word sequence but are identified by the surrounding dispositive grammar as Andrew's daughters. The later age clause makes Robert's future succession relevant without supplying his exact age.",
+      "proves": "Andrew had named daughters Marione, Jonet and Isobell, and Robert was below the relevant age or majority for the land succession.",
+      "does_not_prove": "It does not prove that another child was born, identify the daughters' mother, resolve the land tenure, or establish matches to candidate profiles.",
+      "confidence": "high for the names, family roles and conditional sense; moderate for the land-succession detail",
+      "marks": [],
+      "word_studies_replaced": true
+    }
+  ],
+  "index_confirmation": {
+    "indexed_name": "Andro Glasgw",
+    "date": "1598-07-10",
+    "description": "in Corstoun, parish of Caldercleir and sheriffdom of Edinburgh",
+    "record_type": "TT&Inventory",
+    "court": "Edinburgh Commissary Court",
+    "reference": "CC8/8/32",
+    "status": "confirmed by supplied archival index",
+    "supplied_on": "2026-09-10"
+  }
+}

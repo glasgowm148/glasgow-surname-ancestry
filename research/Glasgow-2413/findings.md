@@ -1,5 +1,7 @@
 # Findings: [Daniel Glasgow (Glasgow-2413), born 1870, Lisnagaver, Killoquin, Rasharkin, County Antrim, Ireland](https://www.wikitree.com/wiki/Glasgow-2413)
 
+Last updated: 2026-09-12
+
 Record every useful result and negative search here as it is found.
 Do not treat an unsourced tree or naming pattern as proof.
 
@@ -23,9 +25,11 @@ emigration clue. Both say that Daniel was a **labourer residing in New York**
 when Sarah Taylor Glasgow and Elizabeth Boyd Glasgow were born at Tamlaght in
 September 1889. An Irish-born cemetery labourer named Daniel Glascow who died
 at Troy, New York, on 12 February 1931 is therefore a strong candidate for the
-same man. The identity is not yet proved: the decisive 1920 census image and
-death certificate have not been inspected for his wife, parents, precise Irish
-origin, or other identifying details.
+same man. The identity is not yet proved. A bounded free search found no usable
+census schedule, obituary or newspaper result supplying his wife, parents,
+precise Irish origin or other identifying details. The cemetery transcription
+also conflicts with the state index over whether he died in 1913 or 1931. The
+death certificate has not been purchased or inspected.
 
 ## Source findings
 
@@ -38,17 +42,17 @@ origin, or other identifying details.
 | [Drimbolg Reformed Presbyterian grave transcription](https://www.oneirishrover.com/drimbolg-reformed-presbyterian-church/) | The Boyd stone names niece Elizabeth Boyd Glasgow, died 4 January 1933 aged 43, and Mary Jane Glasgow, beloved sister of Hugh Scott and Joseph A. Boyd, died 17 September 1958 aged 93. | Strong compiled evidence for Mary Jane's Boyd family and Elizabeth's later identity. It does not prove whether Elizabeth or Sarah married or had children. |
 | [New York State Death Index: Daniel Glascow](https://www.newyorkdeathindex.com/people/daniel-glascow-1931-25437) | Daniel Glascow died at Troy on 12 February 1931; state certificate 9941. | Authoritative index evidence for the candidate's death, but it gives no age, parents, spouse, occupation, or birthplace. |
 | [Find a Grave memorial 171978557](https://www.findagrave.com/memorial/171978557/daniel-glasgow) | Gives birth 1865 in Ireland, death 12 February 1931 at Troy, burial in Albany Rural Cemetery section 116 lot 76, and says he had worked for the cemetery for over forty years. | Derivative/cemetery evidence closely matching the 1889 New York labourer clue. Identity with Daniel Neely remains unproved. |
-| [Albany Rural Cemetery database transcription](https://www.interment.net/data/us/ny/albany/albrural/albany-rural-cemetery-records-gi-gn.htm) | Gives the same Irish-born Daniel and section/plot but transcribes the death as 12 February 1913, age 66. | The official New York index proves 1931; `1913` is best treated as a digit transposition unless an original cemetery card shows otherwise. |
+| [Albany Rural Cemetery database transcription](https://www.interment.net/data/us/ny/albany/albrural/albany-rural-cemetery-records-gi-gn.htm) | Gives the same Irish-born Daniel and section/plot but transcribes the death as 12 February 1913, age 66. | Unresolved conflict with the state index's 1931 date. The matching plot makes a transcription error plausible, but it must not be asserted without the original cemetery record. |
+| Exact free web searches for Daniel Glasgow/Glascow in Troy and Rensselaer County census and newspaper material | No identity-bearing household, obituary or other record was found. Troy and New York genealogy certificate services require payment. | Bounded negative only. It neither proves nor excludes identity with Daniel Neely; certificate 9941 remains the best next record. |
 | Exact civil-index marriage searches for Sarah Glasgow and Lizzie Glasgow, 1901-1925 | No candidate was identified that could be tied to the Tamlaght twins. | Bounded negative only; spelling, place, emigration, and index limitations remain. Saved search captures: [Sarah](sarah_glasgow_marriage_search_1901_1925.html) and [Lizzie](lizzie_glasgow_marriage_search_1901_1925.html). |
 
 ## Best next proof target
 
 Order the public genealogy copy of Troy death certificate **9941** for Daniel
-Glascow, died 12 February 1931. The local Troy route is preferable to the slow
-state route. If it names Thomas Glasgow and Mary Ann McCracken, or Mary Jane
-Boyd as spouse, the identity with Daniel Neely becomes proved. The 1910 and
-1920 original census schedules should also be inspected for marital status,
-immigration/naturalisation, residence, and household members.
+Glascow, indexed as dying 12 February 1931. If it names Thomas Glasgow and Mary
+Ann McCracken, or Mary Jane Boyd as spouse, the identity with Daniel Neely
+becomes proved. An original Albany Rural Cemetery card should also resolve the
+1913/1931 conflict. No purchase was made in this research pass.
 
 ## Public profile scrape review (2026-07-22)
 

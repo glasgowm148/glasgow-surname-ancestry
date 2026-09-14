@@ -1,0 +1,71 @@
+{
+  "checked_on": "2026-09-10",
+  "scope": "Supplied testament originals, including nested and linked folders; source availability, not a claim of complete transcription",
+  "john-lanark-1650": {
+    "checked_on": "2026-09-10",
+    "method": "Astra xhigh visual inspection of both PDF pages, the opening crop and the separate image 66; recursive supplied-file inventory",
+    "supplied_register_images": [
+      65,
+      66
+    ],
+    "sources": [
+      "testaments/Glasgow/Lanark/1650_John/1650_Glasgow.pdf",
+      "testaments/Glasgow/Lanark/1650_John/1650_John_p1.png",
+      "testaments/ScotlandsPeople_CC001400005-00005-00066-.jpg"
+    ],
+    "opening": "Image 65 contains the opening, inventory and first debts. The PNG is a 1194 by 1032 pixel crop of that entry, not a separate missing page.",
+    "continuation": "John's debts continue at the top of image 66, followed by totals and confirmation. The top of image 66 is not a preceding testament.",
+    "reading_status": "Opening identity, sister clause, document type and record continuity visually checked; a full diplomatic transcription of the opening and accounts remains unfinished."
+  },
+  "john-1577": {
+    "available_images": [
+      276,
+      277
+    ],
+    "sources": [
+      "testaments/Edinburgh/1577_John/1577_John.pdf",
+      "testaments/Edinburgh/1577_John/1577_John_p2.png"
+    ],
+    "boundary": "John's continuation occupies the upper block of image 277, before another testament. The purchased PDF also supplies an associated Hutcheson fragment as a supplementary Image 276 view; keep it as contextual research material without merging its distinct estate text into John's transcription.",
+    "associated_fragment": {
+      "checked_on": "2026-09-10",
+      "status": "associated supplementary fragment; relationship unresolved",
+      "source_files": [
+        "testaments/Edinburgh/1577_John/1577_John.pdf",
+        "testaments/Edinburgh/1577_John/1577_John_p1.png",
+        "testaments/Edinburgh/1577_John/1577_John_p3.png"
+      ],
+      "observations": [
+        "PDF pages 1 and 3 both carry Image 276, CC8/8/5, the Johne Glasgw download title and the same generation timestamp. Page 2 carries Image 277.",
+        "Page 1 shows the complete leaf numbered 276. Page 3 shows an irregular-edged horizontal strip marked 396A beside an older struck-through number.",
+        "No repeated underlying John lines establish a raised/lowered-flap pair, and the exact physical attachment cannot be demonstrated from the supplied photographs.",
+        "The rubric identifies the confirmation of Andro Hutchesoun: identification of the separate testament is strong, but exact surname spelling remains provisional.",
+        "Bairnis and a Johne name are visible. Their full clauses, associated identities, locality and date require closer transcription."
+      ],
+      "interpretation": "A supplementary view was delivered with image 276. This is a real documentary association, not evidence of accidental inclusion; it does not by itself establish a genealogical relationship.",
+      "family_lead": "The supplied human reading hochaine, possibly a phonetic Hutchin form, makes the Hutcheson fragment relevant to Margaret and the family network. Neither surname normalization nor a specific relationship to Andro is established.",
+      "next_steps": [
+        "Transcribe the complete fragment, particularly the children and Johne clauses, without borrowing expected names from the Glasgow family.",
+        "Compare its people, places, executors and debts with John Glasgow's testament.",
+        "Ask NRS or ScotlandsPeople what the strip marked 396A represents and why it is associated with image 276; the exact attachment/export rationale is not established by these views."
+      ],
+      "context_source": {
+        "url": "https://www.ukoln.ac.uk/qa-focus/documents/case-studies/case-study-19/",
+        "title": "Rob Mildren, Digitisation of Wills and Testaments by SCAN",
+        "supports": "The digitisation project captured complete volumes in sequence and also handled loose-leaf material. It does not explain this specific fragment or establish a family connection."
+      },
+      "method": "Fresh Astra xhigh visual comparison of the complete purchased PDF and supplied page images"
+    }
+  },
+  "andrew-1598": {
+    "available_images": [
+      123,
+      124
+    ],
+    "sources": [
+      "testaments/Edinburgh/1598_Andro/1598_Andrew.pdf",
+      "testaments/Edinburgh/1598_Andro/1598_Andrew_p2.png"
+    ],
+    "boundary": "Andrew's genuine continuation is on image 124; the next estate starts below his conclusion."
+  }
+}

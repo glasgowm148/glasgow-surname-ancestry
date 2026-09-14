@@ -208,3 +208,20 @@ David's 1911 death and 1912 probate details are queued under
 NAI confirms that the legacy will-calendar microsite was retired. The dead PDF
 was replaced with the current official will guide while preserving Daniel's
 calendar abstract, reel 005014889 and image 00435 identifiers.
+
+
+## Current conclusion — original Prescott conveyances, 13 September 2026
+
+The original [30 July 1861 deed, B465](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWB8-D) now identifies Daniel of Kilrea, watchmaker, and Thomas of Lisnagaver, farmer, with wives Margaret and Mary Anne, as the men selling interests under Robert’s will. Their identity with Daniel-3896 and Thomas-987 is established by the combined places, occupations, wives and earlier brotherhood evidence. The siblings’ parents remain unnamed. Robert, Samuel, John, Daniel and Thomas belong to the same will-defined sibling group, with sister Mary and brother James’s children also named. No contemporary parent names follow, and Alexander-951 is not proved to be another brother.
+
+## Source findings
+
+| Source | Finding | Assessment |
+| --- | --- | --- |
+| [Robert’s will, B12, 9 October 1849](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWY9-S) | Four named brothers receive sixths; sister Mary and brother James’s children complete the shares. | The original does not say James was deceased; a pre-1849 death must not be inferred. |
+| [B465, 30 July 1861, pp.397–398](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWB8-D) | Daniel of Kilrea, watchmaker, and Thomas of Lisnagaver, farmer, with wives Margaret and Mary Anne, convey two sixths to Samuel under Robert’s will. | Direct identity and inheritance bridge. The crossed-out duplicate is not a second transaction. |
+| [C114, 25 March 1868, pp.164–165](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LQRC-Y) | Alexander Glasco, Rochester express agent, son of James the Prescott carpenter, conveys one eighteenth to Mary Eno Glasgow, widow of Samuel. | A named Rochester family, not proof of Alexander-951’s parentage. Eno is a recorded name, not a proved maiden surname. |
+
+See the [complete original-deed table and title-fraction assessment](/people/glasgow-951.html#family-network). Eliza Jane and Mary of Rochester are the carpenter’s eldest and second eldest daughters; their ninth shares do not fit a simple division of Robert’s sixth for James’s children. The carpenter’s identity with Robert’s brother remains a property-based hypothesis.
+
+The [original C298 deed, 15 September 1869](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LQTY-K), registered 1 July 1870, identifies **Mary Black, formerly Mary Glasgow, as Robert’s sister**, and names children John Black (wife Martha) and Rose Ann Black at Drumoolish, Jane Miller (wife of Robert Miller), Agnes and deceased Elizabeth Black at Newburgh, and Thomasina Montgomery (wife of Mathew) at Legrand, Iowa. This establishes the Black collateral branch; it does not name the siblings’ parents. The original C114 identifies James’s son Alexander as a Rochester express agent, whose identity with Alexander-951 remains unproved.

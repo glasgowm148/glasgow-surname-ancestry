@@ -15,8 +15,7 @@ one possible father, but John `Glasgow-1657`, who was explicitly of Cross and
 died in 1836, is geographically stronger. Leave the parent field blank until a
 record distinguishes them.
 
-## Sources
-
+## Source findings
 | Source | Finding | Assessment |
 | --- | --- | --- |
 | [Original 1865 marriage](https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1865/11578/8260226.pdf) | John Glasgow, full-age bachelor and farmer of Cross, son of John Glasgow, farmer, married Rachel Grey. | Direct father statement; does not identify which John farmer. |

@@ -1,0 +1,665 @@
+{
+  "reviewed_at": "2026-09-10",
+  "title": "Reconstructing the early Glasgow families",
+  "intro": "A surname is not a pedigree. The testaments reveal real households; burgess admissions, apprenticeships and property transfers help us decide which households belong together.",
+  "answer": "We can reconstruct several substantial family groups, but not one proved original Glasgow family. The Glasgow burgh line has a secure sixteenth-century core and a credible circle of probable siblings. Ninian's immediate family is substantially recoverable. Leith, Ayrshire and the Lothian and Lanark households have their own secure relationships. The weak points are the joins between these groups, not the existence of the people within them.",
+  "groups": [
+    {
+      "id": "glasgow-burgh",
+      "short_title": "Glasgow burgh",
+      "period": "1534-1633 · property, marriage and burgess evidence",
+      "title": "Start with the family the records actually connect",
+      "conclusion": "William Glasgow and Esbell Brade provide a firmer starting point than an assumed universal ancestor called John Glasgow, born about 1475. Their descendants can be followed through explicit parent-child property transactions. The surrounding fisher and Herbesoun families probably belong to the same immediate kin group, but their exact places need a different confidence label.",
+      "relationships": [
+        {
+          "people": "William Glasgow + Esbell Brade → their son John",
+          "status": "confirmed",
+          "evidence": "On 31 December 1534 William, with Esbell's consent, transferred property to their son John and John's wife Jonet/Janet Spreull, reserving their own liferents. Protocol 1196 explicitly supplies the parent-child link; it is not inferred from neighbouring property.",
+          "limit": "This does not identify William's father. The older John in the same property block remains a separate identity and parentage problem.",
+          "sources": [
+            "BURGH"
+          ]
+        },
+        {
+          "people": "John → Stephen and William; William → George",
+          "status": "confirmed",
+          "evidence": "The maintained protocol sequence names John's father William in 1564, John's son William in 1565, Stephen as late John's son and Jonet as his mother in 1575, and George as younger William's heir in 1586. The 1586 follow-up expressly calls Margaret Herbesoun George's mother.",
+          "limit": "Stephen's relationship to George follows by combining those parent-child records, not merely from Stephen acting as curator. Jonet's stated maternity of Stephen should not silently be extended to every son of John.",
+          "sources": [
+            "BURGH"
+          ]
+        },
+        {
+          "people": "Robert the fisher, Archibald and Isobella: probable siblings of John",
+          "status": "probable",
+          "evidence": "Repeated adjoining properties, the fishing trade, witnesses and the Herbesoun in-law network support Robert Glasgow, Archibald Glasgow and Isobella Glasgow as probable children of William and siblings of John. This is a meaningful family hypothesis, stronger than a single shared surname.",
+          "limit": "No inspected clause explicitly calls these three William's children. Close collateral kin remain an alternative. Elizabeth Glasgow, wife of Alexander Kaine, has weaker support and should not receive the same probability label automatically.",
+          "sources": [
+            "BURGH"
+          ]
+        },
+        {
+          "people": "George + Margaret Stewart; daughters Jonat and Margaret",
+          "status": "confirmed",
+          "evidence": "Protocol 3492 records George's marriage contract with Margaret, daughter of Alexander Stewart, on 13 November 1598. The burgess admissions of John Stewart in 1624 and James Stewart in 1633 identify their wives Jonat and Margaret respectively as daughters of George Glasgow, merchant.",
+          "limit": "The admissions establish George's fatherhood, not the daughters' mother. The Mid Calder baptism of a George in 1605 is a different record and should not be substituted for this adult merchant.",
+          "sources": [
+            "GEORGE1598",
+            "BURGESS"
+          ]
+        }
+      ],
+      "next_record": "Trace the actual transfers between the older John's Saltmarket holding, William's title and the later John/Robert/Archibald parcels. A deed calling one man son, brother or heir of another could turn the probable sibling circle into an explicit pedigree. Repeated old boundary descriptions alone cannot do that.",
+      "cases": [
+        "ninian-1613",
+        "george-1605"
+      ],
+      "profiles": [
+        [
+          "Glasgow-1098",
+          "William"
+        ],
+        [
+          "Brade-232",
+          "Esbell"
+        ],
+        [
+          "Glasgow-1093",
+          "John"
+        ],
+        [
+          "Spreull-4",
+          "Jonet"
+        ],
+        [
+          "Glasgow-1029",
+          "Stephen"
+        ],
+        [
+          "Glasgow-3522",
+          "Younger William"
+        ],
+        [
+          "Glasgow-1099",
+          "George"
+        ],
+        [
+          "Glasgow-1096",
+          "Robert the fisher"
+        ],
+        [
+          "Glasgow-1097",
+          "Archibald"
+        ],
+        [
+          "Glasgow-3916",
+          "Isobella"
+        ]
+      ]
+    },
+    {
+      "id": "ninian",
+      "short_title": "Ninian's household",
+      "period": "1596-1613 · Glasgow fishers and two testament households",
+      "title": "Ninian's family is clearer than his supposed descendants",
+      "conclusion": "The burgess register gives Ninian a father; the testaments give him siblings, a wife and a son. The crucial distinction is between a securely stated relationship and identifying the particular same-named person on the tree.",
+      "relationships": [
+        {
+          "people": "Robert Glasgow, fisher → Ninian, his second son",
+          "status": "confirmed",
+          "evidence": "The 23 October 1596 admission expressly identifies Ninian as Robert Glasgow the fisher and burgess's second son. That wording was independently recovered in the published register text during this pass.",
+          "limit": "The documentary father is secure. Identifying him with Robert Glasgow-1096 is strongly supported by the maintained locality/trade research, but the admission does not identify Robert's own father or Ninian's mother. Nor does second son identify which surviving brother was older.",
+          "sources": [
+            "BURGESS",
+            "BURGH"
+          ]
+        },
+        {
+          "people": "Ninian → son Robert; siblings John and Marioun",
+          "status": "confirmed",
+          "evidence": "The 1613 original directly calls Robert his son, John his brother and Marioun his sister. Jonet Hutchesoun is called his spouse. These are explicit kin terms rather than deductions from executorship.",
+          "limit": "Full versus half siblings is unstated. John of Hirmenschelis, already dead by 1577, is not a viable identification for the brother receiving a legacy in 1613. A match to Glasgow-1030 is also not established by this clause.",
+          "sources": [
+            "NINIAN"
+          ]
+        },
+        {
+          "people": "Jonet Meik → son Robert; probable Ninian household connection",
+          "status": "probable",
+          "evidence": "The 1607 record twice calls Robert Jonet Meik's son. Her husband's crowded forename is probably Niniane; the surname and Glasgow burgess context fit the Ninian household. Combined with the 1613 son Robert, this is a strong household reconstruction, while the forename and cross-record identities remain distinguishable from the direct maternity wording.",
+          "limit": "Jonet Hutchesoun, the later spouse, must not automatically replace Jonet Meik as Robert's mother. Marioun in the 1607 will has an unresolved following word; do not identify her as daughter, niece or Ninian's sister merely from her name.",
+          "sources": [
+            "JONET",
+            "NINIAN"
+          ]
+        },
+        {
+          "people": "Ninian → William of Leith: still an unproved join",
+          "status": "unresolved",
+          "evidence": "A possible William occurrence and support wording survive near the damaged part of the 1613 record. The decisive kinship words are physically lost; another William occurrence in accounts does not restore them.",
+          "limit": "Neither sonship nor the identity of the Leith mealmaker can be confirmed from this damage. The old statement that the manuscript clearly says his son William is superseded.",
+          "sources": [
+            "NINIAN",
+            "WILLIAM"
+          ]
+        }
+      ],
+      "next_record": "Identify Ninian's brother John through a document naming a spouse, trade or property, and locate William of Leith's own origin or admission record. Those two identity problems have more value than repeatedly trying to reconstruct ink that is physically missing.",
+      "cases": [
+        "jonet-melk-1607",
+        "ninian-1613",
+        "william-1646"
+      ],
+      "profiles": [
+        [
+          "Glasgow-3188",
+          "Ninian"
+        ],
+        [
+          "Glasgow-1096",
+          "Probable father Robert"
+        ],
+        [
+          "Meik-14",
+          "Jonet Meik"
+        ],
+        [
+          "Hutcheson-1774",
+          "Jonet Hutchesoun"
+        ],
+        [
+          "Glasgow-1027",
+          "Robert"
+        ],
+        [
+          "Glasgow-3062",
+          "Marioun"
+        ],
+        [
+          "Glasgow-3075",
+          "William of Leith, uncertain connection"
+        ]
+      ]
+    },
+    {
+      "id": "leith",
+      "short_title": "Leith",
+      "period": "1618-1662 · apprenticeship, probate and service as heir",
+      "title": "A secure father and son, with an occupational identity question",
+      "conclusion": "The Leith line does not depend on recovering Ninian's damaged words. William the mealmaker and Archibald the shoemaker are connected by independent records. The 1662 maltman's household is also explicit, but equating that man with the earlier shoemaker needs to remain visible as a separate question.",
+      "relationships": [
+        {
+          "people": "William, mealmaker → Archibald, apprentice and shoemaker",
+          "status": "confirmed",
+          "evidence": "Archibald's 23 October 1639 apprenticeship names William Glasgow, mealmaker in Leith, as father and Thomas Park, cordiner, as master. William's testament, confirmed in 1646, calls Archibald his lawful son and sole executor. The 1 May 1647 retour again calls William his father, distinguishing both men's occupations and Leith residence.",
+          "limit": "The 1618 South Leith baptism is compatible with this established identity chain. The independent apprenticeship and retour provide the more discriminating evidence. William died in September 1644, not in the 1646 confirmation year.",
+          "sources": [
+            "APPRENTICE",
+            "WILLIAM",
+            "RETOUR"
+          ]
+        },
+        {
+          "people": "Archibald, maltman + Agnes Watson; sons Archibald, George and William",
+          "status": "confirmed",
+          "evidence": "The 1662 testament explicitly names Agnes as spouse and the three Glasgow boys as his lawful sons. The will was made in January; the opening records death in February and confirmation in May. These are distinct events.",
+          "limit": "The manuscript itself does not establish that this maltman was the shoemaker in the 1647 retour. A change of trade is possible, but possibility is not the missing identity record. Retain the maintained Glasgow-3078 association as an identity comparison, not a new proof.",
+          "sources": [
+            "ARCHIBALD"
+          ]
+        },
+        {
+          "people": "Thomas Glasgow and William Glasgow, the weavers",
+          "status": "unresolved",
+          "evidence": "Thomas, weaver in Edinburgh, helps oversee the minor sons and writes the will; William, weaver in Leith, appears as a creditor. They are useful collateral candidates because of their names, places and roles around this household.",
+          "limit": "Neither role says brother. Captain George Cock is also an overseer; an office held alongside a namesake is not a kinship formula. The adult creditor William must not silently be confused with Archibald's minor son William.",
+          "sources": [
+            "ARCHIBALD"
+          ]
+        }
+      ],
+      "next_record": "Find the Archibald-Agnes Watson marriage or a deed, baptism or guild entry carrying both Agnes and an occupational identifier across the shoemaker-to-maltman transition. Separately trace the two weavers through their own admissions and testaments; a relationship term there could establish the collateral branch.",
+      "cases": [
+        "william-1646",
+        "archibald-1662"
+      ],
+      "profiles": [
+        [
+          "Glasgow-3075",
+          "William the mealmaker"
+        ],
+        [
+          "Glasgow-3078",
+          "Archibald, with 1662 identity qualification"
+        ]
+      ]
+    },
+    {
+      "id": "ayrshire",
+      "short_title": "Ayrshire",
+      "period": "1571-1637 · Corsinkell, Stevenston, Chaplehill and Saltcoats",
+      "title": "A local network, not yet one proved pedigree",
+      "conclusion": "The Ayrshire evidence supplies a named father-and-sons group at Corsinkell and separate Wilson, Weir and Glasgow households nearby. Geillis's debt to James Glasgow in Stevenston is a promising point of contact, but it is not a statement that the women were his daughters or sisters.",
+      "relationships": [
+        {
+          "people": "James Glasgow elder → sons James and John at Corsinkell",
+          "status": "confirmed",
+          "evidence": "NRS GD39/5/59, dated 9 February 1571, describes the Corsinkell occupiers as James Glasgow elder, James and John his sons, and Christian Campbell. This is an explicit relationship in the archival catalogue abstract, unlike an inferred family assembled from rent payments.",
+          "limit": "The catalogue description was recovered in indexed search during this pass; the original deed was not inspected. The men's relationship to later Stevenston James or to Geillis and Katherine remains open. Christian Campbell's inclusion does not identify her as a wife or mother.",
+          "sources": [
+            "CORSINKELL"
+          ]
+        },
+        {
+          "people": "Geillis + Thomas Wilson; James, Isobell and Bessie Wilson",
+          "status": "unresolved",
+          "evidence": "Geillis's spouse Thomas acts for named executors James, Isobell and Bessie Wilson. The compressed words after James remain unresolved. Her estate owed money to James Glasgow in Stevenston, placing him in the same local economic network.",
+          "limit": "A tempting provisional reading of son was withdrawn after closer inspection. The executor group is clear; its exact kinship is not. The debt establishes the direction of the financial relationship, not ancestry.",
+          "sources": [
+            "GEILLIS"
+          ]
+        },
+        {
+          "people": "Katherine Glasgow + Thomas Weir; the three minor Weirs",
+          "status": "probable",
+          "evidence": "William, James and probably Jonet Weir are minor executors associated with Katherine and her husband Thomas. Their names, minority and the household context make them very probably the couple's children.",
+          "limit": "No secure child term has been recovered. Describe probable children explicitly rather than either promoting them to proved or treating them as unrelated. No reviewed clause makes Katherine and Geillis sisters.",
+          "sources": [
+            "KATHERINE"
+          ]
+        },
+        {
+          "people": "John of Saltcoats → Katherine and Agnes; widow Isobell Gray",
+          "status": "confirmed",
+          "evidence": "The 1637 testament repeatedly calls Katherine and Agnes John's lawful children and calls him their father. Isobell Gray is his widow; John Broune the sailor is cautioner.",
+          "limit": "The daughter is Agnes, not Mary. The record does not establish the widow's maternity. Do not import this household into the Glasgow-1030 and Jonet Mathie family merely because both men were sailors.",
+          "sources": [
+            "SALTCOATS"
+          ]
+        }
+      ],
+      "next_record": "Follow the Corsinkell tenancy and the specific James Glasgow of Stevenston into later rentals, transfers or testaments. A record naming Geillis, Katherine, a Wilson heir or a Weir heir could connect the households. Also trace the Saltcoats daughters by marriage or succession instead of starting from a generic John Glasgow match.",
+      "cases": [
+        "geillis-1603",
+        "katherine-1605",
+        "saltcoats-1637"
+      ],
+      "profiles": [
+        [
+          "Glasgow-3179",
+          "Geillis"
+        ],
+        [
+          "Glasgow-1495",
+          "Katherine"
+        ],
+        [
+          "Weir-4172",
+          "Thomas Weir"
+        ],
+        [
+          "Glasgow-1030",
+          "Comparison only: John married to Jonet Mathie"
+        ]
+      ]
+    },
+    {
+      "id": "lothian",
+      "short_title": "Lothian households",
+      "period": "1577-1641 · Hirmenschelis, Croftmalloch and Corstoun",
+      "title": "Use the children and land, not just the repeated forenames",
+      "conclusion": "The newly revisited continuations strengthen the household evidence. They do not turn three separate Lothian records into successive generations of one family. The best connecting evidence will identify the same child, spouse or holding in a later record.",
+      "relationships": [
+        {
+          "people": "John of Hirmenschelis → Katherine and Marjory",
+          "status": "confirmed",
+          "evidence": "The genuine continuation, image 277, again names Katherine and Marjory Glasgow as executors to late John, their father. Marjory follows the accepted human reading m[ar]iory; the repetition supports the child relationship within the same testament, not as a separate historical source.",
+          "limit": "Marjory's accepted name does not establish a later profile identity. The associated Andro Hutchesoun fragment is a distinct estate whose archival and possible family-network connection remains unresolved; it is not part of John's main transcription. No inspected record identifies Marjory with another person.",
+          "sources": [
+            "JOHN1577"
+          ]
+        },
+        {
+          "people": "Margaret Glasgow → Cuthbert Kaddell/Keddell",
+          "status": "confirmed",
+          "evidence": "The 1580 record repeatedly calls Cuthbert Margaret's son. Margaret was sometime wife of John Edstoun at Croftmalloch, but the son's own surname is Kaddell/Keddell, not silently Easton. The reread also clarifies financial associates Michael Mertyn and Roland Dundas.",
+          "limit": "Cuthbert's father is not stated. A previous Kaddell union is a research hypothesis, not an identified husband. The clearer account names are useful for tracing the locality but do not create relatives.",
+          "sources": [
+            "MARGARET"
+          ]
+        },
+        {
+          "people": "Andrew + Elizat Stevinsoun → Robert; daughters Marion, Jonet and Isobel",
+          "status": "confirmed",
+          "evidence": "Image 124 explicitly identifies Robert as Andrew's son begotten upon Elizat, his wife. The record also names the three daughters and a conditional provision if Elizat was pregnant. The will is dated 6 February 1597/8, followed by Andrew's death on 7 February; confirmation was 10 July 1598.",
+          "limit": "Robert's maternity is explicit here, unlike many widow-and-children clauses. The conditional unborn child is not a proved birth. The ScotlandsPeople index confirms Corstoun; the manuscript place remains provisionally read as Corsoun.",
+          "sources": [
+            "ANDREW",
+            "EDINBURGHINDEX"
+          ]
+        },
+        {
+          "people": "Robert of Corstoun and Robert of Wester Duddingston",
+          "status": "unresolved",
+          "evidence": "The 16 June 1641 apprentice entry names James as son of Robert Glasgow, servitor to William Crichtoun in Wester Duddingston, apprenticed to William Sclaitter, weaver. This is an explicit later father-son household and supplies an employer and master to trace.",
+          "limit": "It does not call Robert a son of Andrew or connect him to Corstoun. The matching forename alone is insufficient to identify the 1598 child with the Duddingston father. Keep the two documented Roberts separate pending a bridge.",
+          "sources": [
+            "APPRENTICE",
+            "ANDREW"
+          ]
+        }
+      ],
+      "next_record": "For the associated Huchesoun fragment, ask NRS why strip 396A maps to CC8/8/5 Image 276 and identify its own testament entry. Complete the partly read Johne/Andro/bairnis clause before assigning relatives. Trace Elizat's holding until Robert's majority and search for a tack, rental or transfer naming Andrew's heir. Follow Cuthbert under both Kaddell and Keddell, not only Edstoun. These discriminating names and succession clauses are better targets than a broad Glasgow surname search.",
+      "cases": [
+        "john-1577",
+        "margaret-1580",
+        "andrew-1598",
+        "george-1605"
+      ],
+      "profiles": [
+        [
+          "Glasgow-3181",
+          "John of Hirmenschelis"
+        ],
+        [
+          "Glasgow-3590",
+          "Katherine"
+        ],
+        [
+          "Glasgow-3613",
+          "Margaret"
+        ],
+        [
+          "Edstoun-4",
+          "Cuthbert, manuscript surname Kaddell/Keddell"
+        ],
+        [
+          "Glasgow-3163",
+          "Andrew of Corstoun"
+        ],
+        [
+          "Glasgow-1156",
+          "Comparison: Robert of Duddingston"
+        ]
+      ],
+      "associated_material": [
+        {
+          "case_id": "john-1577",
+          "status": "associated; partially transcribed",
+          "question": "Why is strip 396A included with John Glasgow's CC8/8/5 Image 276, and which testament entry does the strip belong to?",
+          "url": "/research/transcriptions/john-1577/#associated-fragment"
+        }
+      ]
+    },
+    {
+      "id": "lanark",
+      "short_title": "Lanark and Quothquan",
+      "period": "1650-1685 · separate deaths and court proceedings",
+      "title": "Separate the Johns before building another generation",
+      "conclusion": "Quothquan is a valuable locality anchor, but it cannot erase three different probate histories. The 1650 sibling clause is particularly useful. Later executors and court officers must not be turned into sons simply because they manage a Glasgow estate.",
+      "relationships": [
+        {
+          "people": "John in the 1650 case ↔ Bessie Glasgow, his sister",
+          "status": "confirmed",
+          "evidence": "The opening on image 65 names Bessie Glasgow as John's lawful sister; the continuation on image 66 calls John her brother and names her as executrix. Both pages are supplied.",
+          "limit": "The supplied opening and accounts still need a complete word-by-word transcription. Neither the sibling clause nor the shared locality identifies this John with the man who died in 1661 or the later 1685 case.",
+          "sources": [
+            "LANARK1650"
+          ]
+        },
+        {
+          "people": "John's 1662 case and William's 1673 case",
+          "status": "unresolved",
+          "evidence": "The renewed name audits distinguish the personal names from their probate roles. In particular, Thomas's description in the 1662 material is not a secure sonship clause; the William 1673 executor and caution names should be read in their procedural context.",
+          "limit": "Neither a sole executor nor a cautioner is automatically a child or sibling. Use the case audit for the revised readings rather than inherited tree labels.",
+          "sources": [
+            "LANARK1662",
+            "WILLIAM1673"
+          ]
+        },
+        {
+          "people": "John of Quothquan + widow Jonet, surname still under review",
+          "status": "confirmed",
+          "evidence": "The 1685 original supplies a widow, Jonet, and identifies the estate's legal participants. William Wilkie is a procurator fiscal and William Watson a cautioner, not documented Glasgow relatives.",
+          "limit": "The widow's surname remains qualified in the manuscript audit. No direct child or parent relationship has been recovered here; existing attached children are not confirmed by this testament.",
+          "sources": [
+            "QUOTHQUAN"
+          ]
+        }
+      ],
+      "next_record": "Complete the word-by-word transcription of the supplied images 65-66, then track the named households through Quothquan land, marriage and court records. A document linking Bessie to another Glasgow sibling or calling a later John son of a named earlier John would resolve a real generational join.",
+      "cases": [
+        "john-lanark-1650",
+        "john-lanark-1662",
+        "william-1673",
+        "quothquan-1685"
+      ],
+      "profiles": [
+        [
+          "Glasgow-1086",
+          "John of Quothquan, 1685"
+        ],
+        [
+          "Unknown-717333",
+          "Jonet, surname uncertain"
+        ]
+      ]
+    },
+    {
+      "id": "original-families",
+      "short_title": "The original families",
+      "period": "Before 1500 and beyond Scotland · boundaries of the evidence",
+      "title": "Do not turn a research container into a common ancestor",
+      "conclusion": "The earliest useful family model is a set of documented households and probable kin groups, not a single all-encompassing root. A large early profile can collect uncertain research branches without proving it fathered every branch attached beneath it.",
+      "relationships": [
+        {
+          "people": "The several early Johns are not one proved man",
+          "status": "unresolved",
+          "evidence": "The maintained medieval research distinguishes Glasgow burgess John de Glasgu in 1447/1455, John Glasgw witnessing Stirling records in 1475/1479-80, John de Glasgow alias Smith in a 1506 transaction, and the older John in later Glasgow property titles.",
+          "limit": "No inspected chain joins all these identities or makes them the ancestor of every later Glasgow bearer. Alias Smith does not itself prove the man's occupation or a father-son relationship with another Smith.",
+          "sources": [
+            "EARLY"
+          ]
+        },
+        {
+          "people": "Scottish groups → early Irish Glasgow branches",
+          "status": "unresolved",
+          "evidence": "The newly resolved names improve the Scottish households against which later migration candidates can be tested. They do not provide a named emigrant linking these families to the early Irish roots.",
+          "limit": "A Y-DNA cluster can guide paternal-line comparisons, but does not select a particular sixteenth-century father or supply an undocumented Scotland-to-Ulster generation. No such migration or universal-founder link is claimed by this pass.",
+          "sources": [
+            "EARLY"
+          ]
+        }
+      ],
+      "next_record": "Keep each securely documented root independent. Promote a join only when an explicit relationship or a convincing combination of spouse, holding, occupation and chronology bridges the identities. Label well-supported probable kin as probable rather than either certain or unrelated.",
+      "cases": [],
+      "profiles": []
+    }
+  ],
+  "priorities": [
+    {
+      "title": "Glasgow burgh: find the missing kinship-bearing conveyance",
+      "why": "The probable Robert/Archibald/Isobella sibling group has repeated property and in-law support. One explicit inheritance or sibling clause could connect a large part of the earliest burgh families."
+    },
+    {
+      "title": "Leith: bridge the shoemaker and maltman without assuming a trade change",
+      "why": "William-to-Archibald is secure. A marriage, deed or guild record carrying Agnes Watson and a trade identifier could determine whether the 1662 sons extend that same line."
+    },
+    {
+      "title": "Corstoun: follow Andrew's widow and Robert's succession",
+      "why": "The testament gives a specific mother, father, child and holding. A later tenancy transfer could identify Robert and distinguish him from the Duddingston father."
+    },
+    {
+      "title": "Ayrshire: follow the particular James Glasgow of Stevenston",
+      "why": "Geillis's creditor and the named Corsinkell father-and-sons group are concrete targets. A rental or testament identifying the same James could connect the Wilson and Weir networks without inventing siblings."
+    },
+    {
+      "title": "Ninian and Quothquan: resolve the named siblings",
+      "why": "John and Marioun in 1613, and Bessie with her deceased brother in 1650, are relationship-bearing leads. Distinguishing these people will do more for the tree than treating every executor or creditor as family."
+    }
+  ],
+  "limitations": [
+    "This is an LLM-assisted working reading. Some important names remain uncertain because strokes overlap, the scan is faint or the physical leaf is damaged. Brackets are not decorative: they preserve those limits.",
+    "The 15-case scope includes 14 testament cases and one baptism. Duplicate PDFs are not independent corroboration; repeated wording within one testament is still one source.",
+    "Source availability and decipherment are separate: John 1650 is supplied as images 65-66, including the opening and inventory. Every word and sum has not yet been transcribed. Unrelated entries sharing a register image are excluded at their actual record boundaries.",
+    "Confirmed readings, proved kinship and cross-record identity are different questions. The status on each relationship card is qualified by its accompanying text; the name-audit statuses must not be copied into tree relationship settings automatically.",
+    "Some wider evidence is carried forward from maintained research, not newly inspected manuscripts. Source notes below distinguish fresh original readings, published-record text, archival catalogue descriptions and prior research.",
+    "No live WikiTree profile was edited or detached in this pass. Live profile access was unavailable, so current attachments were not reverified. No claim is made that all early families or every illegible name have been solved."
+  ],
+  "sources": [
+    {
+      "id": "BURGH",
+      "title": "Maintained Glasgow Kinship Circle and its protocol citations",
+      "url": "https://www.wikitree.com/wiki/Space:Glasgow_Kinship_Circle",
+      "detail": "Renwick, Abstracts of Protocols: vol. IV no.1196 (31 Dec1534); vol.III nos.805 and847 (1564-65); vol.VII no.2189 p.110 (17 Jun1575); vol.IX nos.2903 p.103 and2916 p.107 (1586). Probable sibling assessment uses the additional adjoining-property and Herbesoun evidence documented in the maintained local kinship-circle page.",
+      "access": "Protocol1196 rechecked in saved primary-edition OCR on10Sep2026. Other protocol readings and the probable kin assessment carried forward from research/free-space-pages/pages/020-glasgow-kinship-circle.wiki; not a fresh collation of all manuscripts."
+    },
+    {
+      "id": "BURGESS",
+      "title": "Anderson, Burgesses and Guild Brethren of Glasgow, 1573-1750",
+      "url": "https://archive.org/details/scottishrecordso43scotuoft",
+      "detail": "Published1925: p.24, Ninian23Oct1596; p.61, John Stewart25Nov1624; p.86, James Stewart18Jul1633. The latter two admissions name daughters of George Glasgow, merchant.",
+      "access": "Public edition text independently downloaded and consulted10Sep2026; exact page references also preserved in the existing profile source extracts. OCR is a finding aid, not a new manuscript transcription."
+    },
+    {
+      "id": "GEORGE1598",
+      "title": "Renwick, Abstracts of Protocols, vol.XI, no.3492",
+      "url": "https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/abstracts_of_protocols_of_the_town_clerks_of_glasgow__1900.pdf#page=103",
+      "detail": "13Nov1598, printedpp.86-87: George Glasgw's marriage contract with Margaret Stewart, daughter of Alexander Stewart, with Dowhill and Briggate property.",
+      "access": "Carried forward from the maintained source extract research/Glasgow-1099/sources/1598_protocol_3492_extract.txt; not freshly collated with the manuscript."
+    },
+    {
+      "id": "APPRENTICE",
+      "title": "Grant, Edinburgh Register of Apprentices, 1583-1666, p.71",
+      "url": "https://archive.org/details/scottishrecordso28scotuoft/page/71/mode/2up",
+      "detail": "Archibald, son of William Glasgow, mealmaker in Leith, to Thomas Park, cordiner23Oct1639; James, son of Robert Glasgow, servitor to William Crichtoun in Wester Duddingston, to William Sclaitter, weaver16Jun1641.",
+      "access": "Published-record text independently downloaded and consulted10Sep2026. The1639 entry also has a maintained Findmypast transcript capture in Glasgow-3078/findings.md."
+    },
+    {
+      "id": "RETOUR",
+      "title": "Service of heir: Archibald Glasgow, 1May1647",
+      "url": "https://archive.org/details/inquisitionumadc00grea_0",
+      "detail": "Inquisitionum...Abbreviatio, vol.II, General Retour3278, originalxix.128: Archibald, shoemaker in Leith, heir of William, mealmaker in the same town, his father.",
+      "access": "Latin published-abstract text independently downloaded and consulted10Sep2026. The OCR mangles the item number; the existing source citation and following3279 supply the catalogue numbering. Original retour not newly inspected."
+    },
+    {
+      "id": "CORSINKELL",
+      "title": "NRS GD39/5/59: Corsinkell reversion, 9February1571",
+      "url": "https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD39%2F5%2F59",
+      "detail": "Letters of reversion concerning rent from Corsinkell in Stevenston; catalogue names James Glasgow elder, James and John his sons, and Christian Campbell among occupiers.",
+      "access": "NRS indexed catalogue description retrieved10Sep2026. Direct catalogue fetch was unavailable; original deed not inspected."
+    },
+    {
+      "id": "NINIAN",
+      "title": "Ninian Glasgow,1613: original and renewed name audit",
+      "url": "/research/transcriptions/ninian-1613/#name-audit",
+      "detail": "NRS CC9/7/9,images142-145. Explicit spouse, son and sibling clauses; damaged William passage.",
+      "access": "Supplied original pages reread10Sep2026. See case provenance and unresolved readings."
+    },
+    {
+      "id": "JONET",
+      "title": "Jonet Meik,1607: original and renewed name audit",
+      "url": "/research/transcriptions/jonet-melk-1607/#name-audit",
+      "detail": "Original testament: repeated Robert hir sone; probable Niniane spouse reading; unresolved Marioun descriptor and Meik-name clause.",
+      "access": "Supplied original pages reread10Sep2026; duplicate copies do not count as independent evidence."
+    },
+    {
+      "id": "WILLIAM",
+      "title": "William Glasgow,1646 confirmation",
+      "url": "/research/transcriptions/william-1646/#name-audit",
+      "detail": "NRS CC8/8/62,images461-462. DeathSeptember1644; Archibald lawful son and sole executor.",
+      "access": "Supplied original pages reread10Sep2026."
+    },
+    {
+      "id": "ARCHIBALD",
+      "title": "Archibald Glasgow,1662: Leith maltman's household",
+      "url": "/research/transcriptions/archibald-1662/#name-audit",
+      "detail": "NRS CC8/8/70,images689-693. Agnes Watson; lawful sons Archibald, George, William; overseers and creditor roles.",
+      "access": "Supplied original pages reread10Sep2026. Profile association and shoemaker/maltman identity assessed separately."
+    },
+    {
+      "id": "GEILLIS",
+      "title": "Geillis Glasgow,1603",
+      "url": "/research/transcriptions/geillis-1603/#name-audit",
+      "detail": "Thomas Wilson, executors James/Isobell/Bessie Wilson, and estate debt to James Glasgow of Stevenston.",
+      "access": "Both supplied original pages reread10Sep2026; compressed executor kinship wording remains unresolved."
+    },
+    {
+      "id": "KATHERINE",
+      "title": "Katherine Glasgow,1605 confirmation",
+      "url": "/research/transcriptions/katherine-1605/#name-audit",
+      "detail": "Stevenston household, Thomas Weir and the three minor Weir executors; deathJanuary1603.",
+      "access": "Supplied original reread10Sep2026; probable children, no secure child term."
+    },
+    {
+      "id": "SALTCOATS",
+      "title": "John Glasgow of Saltcoats,1637",
+      "url": "/research/transcriptions/saltcoats-1637/#name-audit",
+      "detail": "Isobell Gray, Katherine and Agnes Glasgow; John Broune the sailor as cautioner.",
+      "access": "All supplied original pages reread10Sep2026."
+    },
+    {
+      "id": "JOHN1577",
+      "title": "John Glasgow of Hirmenschelis,1577",
+      "url": "/research/transcriptions/john-1577/#name-audit",
+      "detail": "NRS CC8/8/5,images276-277; widow Margaret, Katherine and Marjory, following the accepted human reading m[ar]iory.",
+      "access": "Opening and genuine continuation freshly reread10Sep2026."
+    },
+    {
+      "id": "MARGARET",
+      "title": "Margaret Glasgow of Croftmalloch,1580",
+      "url": "/research/transcriptions/margaret-1580/#name-audit",
+      "detail": "NRS CC8/8/8,images355-356; Cuthbert Kaddell/Keddell explicitly her son.",
+      "access": "Supplied original pages reread10Sep2026."
+    },
+    {
+      "id": "ANDREW",
+      "title": "Andrew Glasgow of Corstoun,1598",
+      "url": "/research/transcriptions/andrew-1598/#name-audit",
+      "detail": "NRS CC8/8/32,images123-124; Elizat Stevinsoun, Robert and the daughters; conditional unborn child.",
+      "access": "Opening and continuation freshly reread10Sep2026; manuscript place remains qualified."
+    },
+    {
+      "id": "EDINBURGHINDEX",
+      "title": "Edinburgh testament index,1514-1600,p.108",
+      "url": "https://archive.org/details/scottishrecordso01scotuoft/page/n117/mode/1up",
+      "detail": "Printed index supplies Corstoun, Hirmenschelis and Croftmalloch and their confirmation dates.",
+      "access": "Indexed published text consulted10Sep2026. Normalized index place-names are not passed off as unambiguous manuscript readings."
+    },
+    {
+      "id": "LANARK1650",
+      "title": "John Glasgow,1650 testament",
+      "url": "/research/transcriptions/john-lanark-1650/#name-audit",
+      "detail": "Bessie Glasgow is John's lawful sister in the opening on image 65 and his executrix in the confirmation on image 66.",
+      "access": "Supplied images65-66; opening and record continuity visually checked10Sep2026."
+    },
+    {
+      "id": "LANARK1662",
+      "title": "John Glasgow,1662 confirmation",
+      "url": "/research/transcriptions/john-lanark-1662/#name-audit",
+      "detail": "Separate John who died1661; Thomas descriptor and administrative roles considered in the name audit.",
+      "access": "Supplied original reread10Sep2026."
+    },
+    {
+      "id": "WILLIAM1673",
+      "title": "William Glasgow,1673 Lanark case",
+      "url": "/research/transcriptions/william-1673/#name-audit",
+      "detail": "Executor and caution names reread in the Lanark court record. The Edinburgh-folder copy is not a second testament.",
+      "access": "Supplied original reread10Sep2026; duplicate alias consolidated under william-1673."
+    },
+    {
+      "id": "QUOTHQUAN",
+      "title": "John Glasgow of Quothquan,1685",
+      "url": "/research/transcriptions/quothquan-1685/#name-audit",
+      "detail": "Widow Jonet, surname qualified; procurator fiscal William Wilkie and cautioner William Watson.",
+      "access": "Both supplied original pages reread10Sep2026."
+    },
+    {
+      "id": "EARLY",
+      "title": "Maintained early Scottish Glasgow branches study",
+      "url": "https://www.wikitree.com/wiki/Space:Glasgow_Branches_in_15th_and_16th_Century_Scotland",
+      "detail": "Separate medieval and early-modern documentary people; no universal John1475 pedigree or named Scotland-to-Ireland bridge established by the testaments.",
+      "access": "Local maintained research consulted10Sep2026; medieval originals and live WikiTree attachments were not newly inspected in this pass."
+    }
+  ]
+}

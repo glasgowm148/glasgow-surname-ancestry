@@ -1,0 +1,301 @@
+{
+  "id": "john-lanark-1650",
+  "intro": "John's testament is supplied as register images 65-66. The opening names Bessie Glasgow as his lawful sister; the confirmation calls John her brother. Begin with the supplied opening, then compare the repeated names and brother clauses in the existing detailed studies. Full transcription of the opening and accounts is still in progress.",
+  "people": [
+    {
+      "name": "John Glasgow",
+      "role": "Deceased; expressly Bessie's brother",
+      "status": "explicit",
+      "evidence_step": "sister",
+      "profile_id": "Glasgow-3296",
+      "evidence_study": "john-lanark-1650-jon"
+    },
+    {
+      "name": "Bessie Glasgow",
+      "role": "Sister and executor dative",
+      "status": "explicit",
+      "evidence_step": "sister",
+      "evidence_study": "john-lanark-1650-bessie"
+    }
+  ],
+  "card_kin": {
+    "spouse": [],
+    "children": [],
+    "other_kin": [
+      {
+        "name": "Bessie Glasgow",
+        "relationship": "sister",
+        "status": "explicit",
+        "evidence_step": "sister",
+        "evidence_study": "john-lanark-1650-bessie"
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": "opening-65",
+      "title": "The supplied opening: Bessie is named as John's sister",
+      "page_label": "National Records of Scotland, CC14/5/5, image 65; Crown copyright",
+      "image": "/assets/research/testament-crops/john-lanark-1650-opening.png",
+      "image_width": 1194,
+      "image_height": 1032,
+      "alt": "Untouched supplied crop of register image 65, containing John Glasgow's testament opening, inventory and first debts.",
+      "original": "testament dative and inventar ... Johne Glasgow in Quothquane ... Bessie Glasgow ... his lawfull sister",
+      "reading": "Selected phrases: a testament dative and inventory for John Glasgow in Quothquan, naming Bessie Glasgow as his lawful sister.",
+      "explanation": "This is the supplied opening crop, not a reconstruction. The displayed phrases are separated excerpts, not a completed continuous transcription. John's inventory and first debts follow below; the same debt list continues at the top of image 66. The nested PDF supplies both complete register photographs.",
+      "proves": "The opening is available and independently of her executor role calls Bessie John's sister. The brother wording on image 66 repeats that relationship within the same testament.",
+      "does_not_prove": "The selected phrases do not constitute a full reading of the opening or inventory, identify the siblings' parents, or connect John to the separate 1662 and 1685 cases.",
+      "confidence": "High for the supplied page, document type, names and explicit sister wording. Remaining date wording, legal formula and accounts are not silently completed.",
+      "marks": [],
+      "word_studies_replaced": true
+    },
+    {
+      "id": "sister",
+      "title": "1. Executor and sister are separate readings",
+      "page_label": "National Records of Scotland, CC14/5/5, image 66; Crown copyright",
+      "image": "/assets/research/testament-crops/john-lanark-1650-sister.jpg",
+      "image_width": 1500,
+      "image_height": 281,
+      "alt": "1. Executor and sister are separate readings: cropped original manuscript, CC14/5/5, image 66",
+      "original": "... Bessie Glasgow ... executrix dative to the said umq[uhi]le Jon / Glasgow hir brother ...",
+      "reading": "Bessie Glasgow is executor dative of the late John Glasgow, her brother.",
+      "explanation": "Bessie Glasgow appears before the office executrix dative. The deceased's forename Jon is near the right end of that line; Glasgow begins the next and is immediately followed by hir brother. Hir is the visible Scots form of her. Reading across the line break therefore identifies John as Bessie's brother independently of her legal office as executor dative.",
+      "proves": "Bessie is John's sister, independently of being his executor.",
+      "does_not_prove": "This does not identify their parents, Bessie's spouse or any additional siblings.",
+      "confidence": "High for the combined name and brother clause; some intervening legal wording is unresolved.",
+      "marks": [
+        {
+          "x": 9.6,
+          "y": 22.419928825622776,
+          "w": 27.133333333333333,
+          "h": 58.362989323843415,
+          "pixel_bbox": [
+            144,
+            63,
+            551,
+            227
+          ],
+          "label": "Bessie Glasgow",
+          "kind": "name",
+          "analysis": {
+            "reading": "Bessie Glasgow",
+            "expansion": "Bessie Glasgow",
+            "features": [
+              "The capital B has two open lobes and is much taller than the following letters.",
+              "Bessie contains a close double-s sequence before the dotted i and terminal e.",
+              "Glasgow begins with a looped capital G and includes a lower g loop below the baseline.",
+              "The surname's final ow runs into a light exit stroke before the legal wording."
+            ],
+            "comparison": "Bessie Glasgow is written again in the confirmation step, providing a same-page comparison for both capitals and the double-s sequence.",
+            "uncertainty": "The name is clear; this first name box alone does not state the sibling relationship."
+          }
+        },
+        {
+          "x": 89.33333333333333,
+          "y": 21.70818505338078,
+          "w": 10.533333333333333,
+          "h": 49.46619217081851,
+          "pixel_bbox": [
+            1340,
+            61,
+            1498,
+            200
+          ],
+          "label": "Jon",
+          "kind": "name",
+          "analysis": {
+            "reading": "Jon",
+            "expansion": "John",
+            "features": [
+              "The capital J has a tall entry and a long descending stroke below the small letters.",
+              "The o is a small loop attached directly to the final n.",
+              "The word sits at the extreme right end of the line, immediately before the surname continues below."
+            ],
+            "comparison": "The confirmation step writes the fuller John in the equivalent clause.",
+            "uncertainty": "Jon is the literal spelling; John is the normalized forename."
+          }
+        },
+        {
+          "x": 0.8666666666666666,
+          "y": 46.97508896797153,
+          "w": 20.866666666666667,
+          "h": 45.55160142348754,
+          "pixel_bbox": [
+            13,
+            132,
+            326,
+            260
+          ],
+          "label": "Glasgow",
+          "kind": "name",
+          "analysis": {
+            "reading": "Glasgow",
+            "expansion": "Glasgow",
+            "features": [
+              "The surname resumes flush with the left margin on the line below Jon.",
+              "The capital G is a broad open loop with a returning lower stroke.",
+              "The second g descends below the baseline, and the final ow is compressed into shallow linked strokes."
+            ],
+            "comparison": "The same surname follows Bessie earlier in the crop and recurs in the confirmation step.",
+            "uncertainty": "The reading is clear; its placement on a new line must not be mistaken for a different person."
+          }
+        },
+        {
+          "x": 20.599999999999998,
+          "y": 43.06049822064057,
+          "w": 20.266666666666666,
+          "h": 49.11032028469751,
+          "pixel_bbox": [
+            309,
+            121,
+            613,
+            259
+          ],
+          "label": "hir brother",
+          "kind": "relationship",
+          "analysis": {
+            "reading": "hir brother",
+            "expansion": "her brother",
+            "features": [
+              "Hir begins with a tall looped h, followed by a short dotted i and compact r.",
+              "A visible word space separates the pronoun from brother.",
+              "Brother begins with a tall b, includes another tall h, and ends in a small curling r.",
+              "The phrase follows Glasgow on the same baseline, attaching the relationship to John Glasgow."
+            ],
+            "uncertainty": "Hir is the Scots spelling of her; the brother relationship is explicit, but the clause does not name the siblings' parents."
+          }
+        }
+      ],
+      "word_studies_replaced": true
+    },
+    {
+      "id": "confirmation",
+      "title": "2. The same relationship recurs in the sworn account",
+      "page_label": "National Records of Scotland, CC14/5/5, image 66; Crown copyright",
+      "image": "/assets/research/testament-crops/john-lanark-1650-confirmation.jpg",
+      "image_width": 1500,
+      "image_height": 429,
+      "alt": "2. The same relationship recurs in the sworn account: cropped original manuscript, CC14/5/5, image 66",
+      "original": "... the said Bessie Glasgow ... / ... the said umq[uhi]le John / Glasgow hir brother ...",
+      "reading": "The confirmation again names Bessie and refers to the late John Glasgow as her brother.",
+      "explanation": "Compare Bessie Glasgow near the upper middle with the same name in the first crop. In the lower part, John again ends a line and Glasgow hir brother begins the next. The repeated capitals, descending g and tall h/b forms make the cross-line reading testable. The repetition strengthens the internal reading but remains within one confirmation, not independent corroboration.",
+      "proves": "The surviving confirmation repeats the sibling description.",
+      "does_not_prove": "The repeated clause is not a second independent record and does not identify their parents. The opening and inventory are supplied separately on image 65.",
+      "confidence": "High for the repeated relationship, qualified for the surrounding formula.",
+      "marks": [
+        {
+          "x": 37.46667,
+          "y": 26.80653,
+          "w": 28.66667,
+          "h": 25.64103,
+          "pixel_bbox": [
+            562,
+            115,
+            430,
+            110
+          ],
+          "label": "Bessie Glasgow",
+          "kind": "name",
+          "analysis": {
+            "reading": "Bessie Glasgow",
+            "expansion": "Bessie Glasgow",
+            "features": [
+              "The capital B again has two open lobes followed by the close ess-ie sequence.",
+              "The double s is darker and more angular than the small i and terminal e.",
+              "Glasgow again opens with a broad looped G and sends its lower g below the baseline.",
+              "The final ow finishes in a thin rightward stroke."
+            ],
+            "comparison": "The first step shows the same full name higher on the page with matching B, double-s and Glasgow forms.",
+            "uncertainty": "The repetition is secure but occurs within the same source, so it is not independent evidence."
+          }
+        },
+        {
+          "x": 86,
+          "y": 52.68065,
+          "w": 13.33333,
+          "h": 29.13753,
+          "pixel_bbox": [
+            1290,
+            226,
+            200,
+            125
+          ],
+          "label": "John",
+          "kind": "name",
+          "analysis": {
+            "reading": "John",
+            "expansion": "John",
+            "features": [
+              "The capital J descends far below the short o and n.",
+              "A tall h is written at the end here, unlike the shorter Jon spelling in the first clause.",
+              "The name is crowded against the right margin and completes just before the line break."
+            ],
+            "comparison": "The earlier clause has Jon in the same syntactic position; this fuller spelling confirms the normalized John.",
+            "uncertainty": "The fuller spelling is clear, but the surrounding formula remains only partly transcribed."
+          }
+        },
+        {
+          "x": 0.13333,
+          "y": 66.66667,
+          "w": 20.66667,
+          "h": 27.50583,
+          "pixel_bbox": [
+            2,
+            286,
+            310,
+            118
+          ],
+          "label": "Glasgow",
+          "kind": "name",
+          "analysis": {
+            "reading": "Glasgow",
+            "expansion": "Glasgow",
+            "features": [
+              "The surname begins at the extreme left of the next line, continuing John from above.",
+              "Its large open G and descending lower g match the other Glasgow forms on this page.",
+              "The as is compact, while the final ow ends in a light rising exit."
+            ],
+            "comparison": "Compare the left-margin Glasgow in the first step, where Jon is split from the surname in the same way.",
+            "uncertainty": "The surname is secure; the line break is purely scribal layout."
+          }
+        },
+        {
+          "x": 19.46667,
+          "y": 69.23077,
+          "w": 18.53333,
+          "h": 25.64103,
+          "pixel_bbox": [
+            292,
+            297,
+            278,
+            110
+          ],
+          "label": "hir brother",
+          "kind": "relationship",
+          "analysis": {
+            "reading": "hir brother",
+            "expansion": "her brother",
+            "features": [
+              "The tall opening h of hir rises above its short i-r ending.",
+              "Brother begins with a looped b and has a second tall ascender at h.",
+              "The final er is compressed into a small rightward curl.",
+              "The phrase is joined on the same line directly after Glasgow."
+            ],
+            "comparison": "The first step repeats the same two-word relationship with closely matching tall h and b forms.",
+            "uncertainty": "The sibling term is clear; repetition within one instrument does not identify either sibling's parents."
+          }
+        }
+      ]
+    }
+  ],
+  "index_confirmation": {
+    "indexed_name": "John Glasgow",
+    "date": "1650-05-27",
+    "description": "in Quodquen",
+    "record_type": "",
+    "court": "Lanark Commissary Court",
+    "reference": "CC14/5/5",
+    "status": "confirmed by supplied archival index",
+    "supplied_on": "2026-09-10"
+  }
+}

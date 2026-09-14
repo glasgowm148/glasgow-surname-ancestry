@@ -2,6 +2,18 @@
 
 <html data-theme="light" lang="en-GB">
 <head>
+<!-- site-analytics:start -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JB207MGBMX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-JB207MGBMX');
+</script>
+<!-- site-analytics:end -->
+
 
 <meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/>
 <base href="../../">
@@ -2383,7 +2395,7 @@ body{font-family:var(--sans)}.main-nav{gap:3px}.nav-group-label{display:block;ma
         [
           "Node 17 B580327 · 1002232",
           "DYS714 26→27 before their split; then DYS576 16→18 on Alexander's line and DYS561 16→17 on the 1002232 line.",
-          "Independently recovers the strongest Alexander–James J tested-line pairing and supplies an approximate c.1750 research horizon for their unknown common paternal ancestor.",
+          "Reprocesses the same STR evidence into a candidate Alexander–James J grouping. The approximate c.1750 output is an unvalidated model search horizon, conditional on its mutation and generation assumptions, not an independently dated common ancestor.",
           "The connection is Grade B+ with other options possible. No shared child SNP or paper ancestor has been found."
         ],
         [
@@ -2571,7 +2583,7 @@ body{font-family:var(--sans)}.main-nav{gap:3px}.nav-group-label{display:block;ma
           "R-FTE32242",
           "6",
           "3 shared FTE32242 + two tip variants",
-          "Second son-line independently confirms FTE32242 under Glasgow-193."
+          "Second reported son-line supports FTE32242 inheritance through Glasgow-193, conditional on the pedigree and calls; exact mutation placement needs reliable collateral negatives."
         ],
         [
           "Henry Glasgo 1774 basal Big Y result · Glasgo-21",
@@ -2609,7 +2621,7 @@ body{font-family:var(--sans)}.main-nav{gap:3px}.nav-group-label{display:block;ma
         [
           "4",
           "Request full bundles for kits 999763 , 478604 , 959947 and 200475 . Start with 999763 and 478604 if access is limited; they are the two independent James M. son-lines.",
-          "Resolve the off-tree FT6135 pattern by checking genotype and coverage in every branch. Derived calls in both James M. kits would place FT6135 at or above Robert Glasgow-12; ancestral calls in both would exclude it from Robert's ancestral state and force a narrower explanation.",
+          "Resolve the off-tree FT6135 pattern by checking genotype and coverage in every branch. Derived calls in both James M. kits would support inheritance at or above Robert Glasgow-12 under the reported pedigrees and a simple inheritance model. Reliable ancestral calls in both would contradict a single-origin/no-reversion account, but would not exclude Robert carrying the derived state followed by reversion in the James branch. No-calls remain unresolved.",
           "A no-call at FT6135 remains unresolved. Direct VCF/BED evidence is needed; absence from a displayed private-variant list is not a negative genotype."
         ],
         [
@@ -2749,14 +2761,14 @@ body{font-family:var(--sans)}.main-nav{gap:3px}.nav-group-label{display:block;ma
           "James M. Glasgow, 1799–1875 through son Glasgow-192 · confirmed FTE32242 test B",
           "Big Y · R-FTE32242",
           "4 of 659",
-          "Second son-line independently confirms the child SNP under Glasgow-193."
+          "Second reported son-line supports the child SNP through Glasgow-193, conditional on the pedigree and calls; exact mutation placement needs reliable collateral negatives."
         ],
         [
           "7",
           "Documented William Glasgow branch Robert Glasgow-12 descendant · final link verified in the 1950 census",
           "Big Y · R-FT20271",
           "5 of 660",
-          "Shares FT6135 with Robert's John M. branch, but the call conflicts with its absence in the James M. lines."
+          "Displays FT6135 with Robert's John M. branch. Missing entries in the James M. lines remain unknown until direct calls and coverage are checked; they do not establish a conflict."
         ],
         [
           "8",
@@ -3176,7 +3188,7 @@ body{font-family:var(--sans)}.main-nav{gap:3px}.nav-group-label{display:block;ma
     const n12=sappNode('Node 12 · identical STR state','0 generations [0–0] · c.1950','No additional change',sappLeaf('794462','No additional change','Grade B')+sappLeaf('200475','No additional change','Grade B'),{caution:true,reading:'The source model resolves identical haplotypes into a nested order. No historical ordering is inferred here.'});
     const n13=sappNode('Node 13 · zero-generation model node','0 generations [0–0] · c.1950','DYS712 20→19',sappLeaf('999763','No additional change','Grade B')+n12,{caution:true});
     const n14=sappNode('Node 14 · Glasgow-12 cluster','3 generations [2–4] · c.1850 [1850–1900]','DYS19 14→15 · DYS456 17→16',sappLeaf('333002','DYS576 16→17','Grade C+')+n13,{caution:true,reading:'The date conflicts with the reported 1749-born common ancestor. A marker-only 794462 tip and basal 200475 must not be made descendants of a tested 999763 tip by reading this layout literally.'});
-    const n17=sappNode('Node 17 · Alexander / James J','8 generations [7–9] · c.1750 [1700–1750]','DYS714 26→27',sappLeaf('1002232','DYS561 16→17','Grade B+')+sappLeaf('B580327','DYS576 16→18','Grade B+'),{open:true,reading:'Source-reported B+ / 90.5% connection score. DYS714=27 makes this a useful candidate family to investigate through earlier records and direct SNP comparison.'});
+    const n17=sappNode('Node 17 · Alexander / James J','8 generations [7–9] · c.1750 [1700–1750]','DYS714 26→27',sappLeaf('1002232','DYS561 16→17','Grade B+')+sappLeaf('B580327','DYS576 16→18','Grade B+'),{open:true,reading:'Source-reported B+ / 90.5% connection score, not a pedigree probability. This reuses the same STR evidence; the c.1750 output is unvalidated and conditional on model assumptions. DYS714=27 defines a candidate grouping to investigate through records and direct SNP comparison.'});
     const n16=sappNode('Node 16 · three marker-only lines','12 generations [6–18] · c.1600 [1450–1750]','DYS607 15→16 · CDYa 35→36',sappLeaf('254947','DYS460 11→12 · CDYb 37→38 · DYS534 15→14 · DYS485 15→14 · DYS635 23→24','Grade B')+sappLeaf('325862','DYS464c 17→16 · DYS413a 23→22 · DYS533 12→13 · DYS510 17→16','Grade C+')+sappLeaf('B835762','No additional change selected','Grade C+'),{reading:'Source-reported B+ / 93.6% score. The shared DYS607 / CDY pattern gives a specific Henry–Kilwaughter connection for a terminal SNP test to resolve.'});
     $('sapp-structure').innerHTML=`<div class="sapp-root"><strong>Group MRCA · inferred</strong><span>17 generations [9–24] · c.1500 [1250–1700]</span></div><ul class="sapp-list">${sappLeaf('N18544','DYS389i 13→14 · DYS442 12→13 · DYF406S1 10→11','No matching group')}${sappLeaf('B696189','DYS389ii−i 18→17 · DYS576 16→17 · DYS451? 10→11 · DYS557 16→17','Grade C+; DYS451 / DYS511 label conflict')}${n16}${n17}${n14}</ul>`;
     const rows=[

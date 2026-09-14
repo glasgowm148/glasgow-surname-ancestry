@@ -1,0 +1,33 @@
+{
+  "id": "hugh-1751",
+  "intro": "This catalogue entry is maintained from the supplied wills-index result; the stated relationship is index evidence, not manuscript confirmation.",
+  "evidence_basis": "index",
+  "index_source": "User-supplied ScotlandsPeople wills-index results, exact surname Glasgow, years to 1800",
+  "source_supplied_on": "2026-09-10",
+  "people": [],
+  "card_kin_basis": "index",
+  "card_kin_subject": "Hugh Glasgow",
+  "card_kin": {
+    "spouse": [],
+    "children": [],
+    "other_kin": [
+      {
+        "name": "John Glasgow",
+        "relationship": "uncle; merchant in Byres of Kilwinning, as indexed",
+        "status": "explicit",
+        "evidence_step": "index-description"
+      }
+    ]
+  },
+  "steps": [],
+  "index_confirmation": {
+    "indexed_name": "Hugh Glasgow",
+    "date": "1751-03-12",
+    "description": "sometime sailor in Irvine, thereafter in London, died in Jamaica, nephew to John G., merchant in Byres of Kilwinning",
+    "record_type": "Testament Dative and Inventory; includes Eik dated 11/08/1752",
+    "court": "Edinburgh Commissary Court",
+    "reference": "CC8/8/113",
+    "status": "confirmed by supplied archival index",
+    "supplied_on": "2026-09-10"
+  }
+}

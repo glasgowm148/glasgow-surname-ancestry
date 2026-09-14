@@ -1,0 +1,729 @@
+{
+  "id": "katherine-1605",
+  "studies": [
+    {
+      "id": "katherine-1605-name",
+      "title": "Katherine Glasgow",
+      "nav_label": "Katherine Glasgow",
+      "image": "/assets/research/testament-crops/katherine-1605-opening.jpg",
+      "image_width": 1570,
+      "image_height": 500,
+      "region": [
+        337,
+        112,
+        501,
+        147
+      ],
+      "reading": "Katherine glasgow",
+      "expansion": "Katherine Glasgow",
+      "confidence": "High for maintained identity; faint internal joins.",
+      "context": "The deceased name precedes the spouse phrase.",
+      "review_status": "source-aligned",
+      "locator_note": "Use the selected word before the wider passage. Pixel regions retain full visible strokes. Crossings from neighbouring lines remain contextual; a rectangular focus is retained where further separation would guess.",
+      "conclusion": "The minors below are not proved to be children by their names alone.",
+      "letters": [
+        {
+          "id": "katherine-1605-name-word-1",
+          "glyph": "Katherine",
+          "label": "Katherine: whole connected word",
+          "position": 1,
+          "region": [
+            337,
+            123,
+            279,
+            103
+          ],
+          "paths": [],
+          "observed": "After vmqle, find the large initial and low connected middle before the surname.",
+          "matches": "No identical second occurrence is established in this inspected passage; comparison with an isolated teaching alphabet is not proof.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "Neighbouring descenders are not extra letters."
+        },
+        {
+          "id": "katherine-1605-name-word-2",
+          "glyph": "glasgow",
+          "label": "glasgow: whole connected word",
+          "position": 1,
+          "region": [
+            609,
+            112,
+            229,
+            147
+          ],
+          "paths": [],
+          "observed": "The surname has longer movements around its compact body before spous.",
+          "matches": "No identical second occurrence is established in this inspected passage; comparison with an isolated teaching alphabet is not proof.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "Intersections prevent honest separation of every stroke."
+        }
+      ],
+      "words": [
+        {
+          "text": "Katherine",
+          "region": [
+            337,
+            123,
+            279,
+            103
+          ],
+          "focus_polygon": [
+            [
+              337,
+              123
+            ],
+            [
+              616,
+              123
+            ],
+            [
+              616,
+              226
+            ],
+            [
+              337,
+              226
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "katherine-1605-name-word-1",
+              "start": 0,
+              "end": 9
+            }
+          ]
+        },
+        {
+          "text": "glasgow",
+          "region": [
+            609,
+            112,
+            229,
+            147
+          ],
+          "focus_polygon": [
+            [
+              609,
+              112
+            ],
+            [
+              838,
+              112
+            ],
+            [
+              838,
+              259
+            ],
+            [
+              609,
+              259
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "katherine-1605-name-word-2",
+              "start": 0,
+              "end": 7
+            }
+          ]
+        }
+      ],
+      "reading_steps": [
+        {
+          "title": "Read Katherine",
+          "text": "After vmqle, find the large initial and low connected middle before the surname. Neighbouring descenders are not extra letters.",
+          "region": [
+            337,
+            123,
+            279,
+            103
+          ]
+        },
+        {
+          "title": "Read glasgow",
+          "text": "The surname has longer movements around its compact body before spous. Intersections prevent honest separation of every stroke.",
+          "region": [
+            609,
+            112,
+            229,
+            147
+          ]
+        },
+        {
+          "title": "Read the relationship in context",
+          "text": "The deceased name precedes the spouse phrase. The minors below are not proved to be children by their names alone.",
+          "region": [
+            337,
+            112,
+            501,
+            147
+          ]
+        }
+      ],
+      "same_hand_comparisons": []
+    },
+    {
+      "id": "spous-thomas-clause",
+      "title": "Thomas Weir, spouse",
+      "nav_label": "Thomas Weir, spouse",
+      "image": "/assets/research/testament-crops/katherine-1605-opening.jpg",
+      "image_width": 1570,
+      "image_height": 500,
+      "region": [
+        830,
+        107,
+        554,
+        145
+      ],
+      "reading": "spous to thomas wir",
+      "expansion": "spouse of Thomas Weir",
+      "confidence": "High for explicit marriage.",
+      "context": "Spous to links Katherine with Thomas; hir spous repeats the role below.",
+      "review_status": "source-aligned",
+      "locator_note": "Use the selected word before the wider passage. Pixel regions retain full visible strokes. Crossings from neighbouring lines remain contextual; a rectangular focus is retained where further separation would guess.",
+      "conclusion": "This does not identify the named representatives as their children.",
+      "letters": [
+        {
+          "id": "spous-thomas-clause-word-1",
+          "glyph": "spous",
+          "label": "spous: whole connected word",
+          "position": 1,
+          "region": [
+            830,
+            117,
+            148,
+            135
+          ],
+          "paths": [],
+          "observed": "Find the tall opening and lower movement before to.",
+          "matches": "The presentation line repeats the forename, giving a same-clerk word comparison.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "Keep its whole visible height, not only a stem."
+        },
+        {
+          "id": "spous-thomas-clause-word-2",
+          "glyph": "thomas",
+          "label": "thomas: whole connected word",
+          "position": 1,
+          "region": [
+            1045,
+            107,
+            193,
+            111
+          ],
+          "paths": [],
+          "observed": "After to, the long initial leads into the lower connected name.",
+          "matches": "The presentation line repeats the forename, giving a same-clerk word comparison.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "The curved stroke overhead is neighbouring context."
+        },
+        {
+          "id": "spous-thomas-clause-word-3",
+          "glyph": "wir",
+          "label": "wir: whole connected word",
+          "position": 1,
+          "region": [
+            1231,
+            116,
+            153,
+            101
+          ],
+          "paths": [],
+          "observed": "The short surname closes the phrase in compact joined strokes.",
+          "matches": "The presentation line repeats the forename, giving a same-clerk word comparison.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "Weir expands wir; no written e is supplied."
+        }
+      ],
+      "words": [
+        {
+          "text": "spous",
+          "region": [
+            830,
+            117,
+            148,
+            135
+          ],
+          "focus_polygon": [
+            [
+              830,
+              117
+            ],
+            [
+              978,
+              117
+            ],
+            [
+              978,
+              252
+            ],
+            [
+              830,
+              252
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "spous-thomas-clause-word-1",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        },
+        {
+          "text": "thomas",
+          "region": [
+            1045,
+            107,
+            193,
+            111
+          ],
+          "focus_polygon": [
+            [
+              1045,
+              107
+            ],
+            [
+              1238,
+              107
+            ],
+            [
+              1238,
+              218
+            ],
+            [
+              1045,
+              218
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "spous-thomas-clause-word-2",
+              "start": 0,
+              "end": 6
+            }
+          ]
+        },
+        {
+          "text": "wir",
+          "region": [
+            1231,
+            116,
+            153,
+            101
+          ],
+          "focus_polygon": [
+            [
+              1231,
+              116
+            ],
+            [
+              1384,
+              116
+            ],
+            [
+              1384,
+              217
+            ],
+            [
+              1231,
+              217
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "spous-thomas-clause-word-3",
+              "start": 0,
+              "end": 3
+            }
+          ]
+        }
+      ],
+      "reading_steps": [
+        {
+          "title": "Read spous",
+          "text": "Find the tall opening and lower movement before to. Keep its whole visible height, not only a stem.",
+          "region": [
+            830,
+            117,
+            148,
+            135
+          ]
+        },
+        {
+          "title": "Read thomas",
+          "text": "After to, the long initial leads into the lower connected name. The curved stroke overhead is neighbouring context.",
+          "region": [
+            1045,
+            107,
+            193,
+            111
+          ]
+        },
+        {
+          "title": "Read wir",
+          "text": "The short surname closes the phrase in compact joined strokes. Weir expands wir; no written e is supplied.",
+          "region": [
+            1231,
+            116,
+            153,
+            101
+          ]
+        },
+        {
+          "title": "Read the relationship in context",
+          "text": "Spous to links Katherine with Thomas; hir spous repeats the role below. This does not identify the named representatives as their children.",
+          "region": [
+            830,
+            107,
+            554,
+            145
+          ]
+        }
+      ],
+      "same_hand_comparisons": [
+        {
+          "image": "/assets/research/testament-crops/katherine-1605-opening.jpg",
+          "image_width": 1570,
+          "image_height": 500,
+          "region": [
+            583,
+            283,
+            248,
+            91
+          ],
+          "reading": "thomas repeated",
+          "explanation": "The presentation line repeats the forename, giving a same-clerk word comparison."
+        }
+      ]
+    },
+    {
+      "id": "katherine-1605-representatives",
+      "title": "William, James and Jonet?",
+      "nav_label": "William, James and Jonet?",
+      "image": "/assets/research/testament-crops/katherine-1605-opening.jpg",
+      "image_width": 1570,
+      "image_height": 500,
+      "region": [
+        231,
+        316,
+        915,
+        127
+      ],
+      "reading": "William James and Jonet[?] wir",
+      "expansion": "William, James and Jonet [?] Weir",
+      "confidence": "William and James clear; Jonet qualified; relationship unstated.",
+      "context": "The names follow in name ... of and concern minor estate representatives.",
+      "review_status": "source-aligned",
+      "locator_note": "Use the selected word before the wider passage. Pixel regions retain full visible strokes. Crossings from neighbouring lines remain contextual; a rectangular focus is retained where further separation would guess.",
+      "conclusion": "Minority and executorship do not establish that they were Katherine's children.",
+      "letters": [
+        {
+          "id": "katherine-1605-representatives-word-1",
+          "glyph": "William",
+          "label": "William: whole connected word",
+          "position": 1,
+          "region": [
+            231,
+            326,
+            268,
+            117
+          ],
+          "paths": [],
+          "observed": "After of on the lower naming line, follow the broad opening into taller and shorter joins.",
+          "matches": "No identical second occurrence is established in this inspected passage; comparison with an isolated teaching alphabet is not proof.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "Do not turn a crossing descender into another l."
+        },
+        {
+          "id": "katherine-1605-representatives-word-2",
+          "glyph": "James",
+          "label": "James: whole connected word",
+          "position": 1,
+          "region": [
+            503,
+            320,
+            220,
+            120
+          ],
+          "paths": [],
+          "observed": "The next name has a long initial and compact ending after a gap.",
+          "matches": "No identical second occurrence is established in this inspected passage; comparison with an isolated teaching alphabet is not proof.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "Faint joins remain a connected-word comparison."
+        },
+        {
+          "id": "katherine-1605-representatives-word-3",
+          "glyph": "Jonet?",
+          "label": "Jonet?: whole connected word",
+          "position": 1,
+          "region": [
+            741,
+            316,
+            214,
+            113
+          ],
+          "paths": [],
+          "observed": "After the conjunction, a further name precedes the surname.",
+          "matches": "No identical second occurrence is established in this inspected passage; comparison with an isolated teaching alphabet is not proof.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "The question mark is editorial and must remain."
+        },
+        {
+          "id": "katherine-1605-representatives-word-4",
+          "glyph": "wir",
+          "label": "wir: whole connected word",
+          "position": 1,
+          "region": [
+            952,
+            320,
+            194,
+            120
+          ],
+          "paths": [],
+          "observed": "The surname closes the representative list.",
+          "matches": "No identical second occurrence is established in this inspected passage; comparison with an isolated teaching alphabet is not proof.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "Common surname is not an unwritten child relationship."
+        }
+      ],
+      "words": [
+        {
+          "text": "William",
+          "region": [
+            231,
+            326,
+            268,
+            117
+          ],
+          "focus_polygon": [
+            [
+              231,
+              326
+            ],
+            [
+              499,
+              326
+            ],
+            [
+              499,
+              443
+            ],
+            [
+              231,
+              443
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "katherine-1605-representatives-word-1",
+              "start": 0,
+              "end": 7
+            }
+          ]
+        },
+        {
+          "text": "James",
+          "region": [
+            503,
+            320,
+            220,
+            120
+          ],
+          "focus_polygon": [
+            [
+              503,
+              320
+            ],
+            [
+              723,
+              320
+            ],
+            [
+              723,
+              440
+            ],
+            [
+              503,
+              440
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "katherine-1605-representatives-word-2",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        },
+        {
+          "text": "Jonet?",
+          "region": [
+            741,
+            316,
+            214,
+            113
+          ],
+          "focus_polygon": [
+            [
+              741,
+              316
+            ],
+            [
+              955,
+              316
+            ],
+            [
+              955,
+              429
+            ],
+            [
+              741,
+              429
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "katherine-1605-representatives-word-3",
+              "start": 0,
+              "end": 6
+            }
+          ]
+        },
+        {
+          "text": "wir",
+          "region": [
+            952,
+            320,
+            194,
+            120
+          ],
+          "focus_polygon": [
+            [
+              952,
+              320
+            ],
+            [
+              1146,
+              320
+            ],
+            [
+              1146,
+              440
+            ],
+            [
+              952,
+              440
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "katherine-1605-representatives-word-4",
+              "start": 0,
+              "end": 3
+            }
+          ]
+        }
+      ],
+      "reading_steps": [
+        {
+          "title": "Read William",
+          "text": "After of on the lower naming line, follow the broad opening into taller and shorter joins. Do not turn a crossing descender into another l.",
+          "region": [
+            231,
+            326,
+            268,
+            117
+          ]
+        },
+        {
+          "title": "Read James",
+          "text": "The next name has a long initial and compact ending after a gap. Faint joins remain a connected-word comparison.",
+          "region": [
+            503,
+            320,
+            220,
+            120
+          ]
+        },
+        {
+          "title": "Read Jonet?",
+          "text": "After the conjunction, a further name precedes the surname. The question mark is editorial and must remain.",
+          "region": [
+            741,
+            316,
+            214,
+            113
+          ]
+        },
+        {
+          "title": "Read wir",
+          "text": "The surname closes the representative list. Common surname is not an unwritten child relationship.",
+          "region": [
+            952,
+            320,
+            194,
+            120
+          ]
+        },
+        {
+          "title": "Read the relationship in context",
+          "text": "The names follow in name ... of and concern minor estate representatives. Minority and executorship do not establish that they were Katherine's children.",
+          "region": [
+            231,
+            316,
+            915,
+            127
+          ]
+        }
+      ],
+      "same_hand_comparisons": []
+    }
+  ],
+  "method": "Visually inspected whole-word source-pixel studies. Original images are unchanged. Conservative focus envelopes retain ambiguous crossings; some remain rectangular because a smaller mask would assign uncertain ink. Whole connected words serve as colour groups where internal boundaries are unclear. The separate Joscelyn example is a different teaching hand, not a reconstruction or proof. No guessed SVG pen paths.",
+  "people_studies": {
+    "Katherine Glasgow": "katherine-1605-name",
+    "Thomas Weir": "spous-thomas-clause",
+    "William, James and Jonet[?] Weir": "katherine-1605-representatives"
+  },
+  "walkthrough_mark_updates": [
+    {
+      "step_id": "opening",
+      "mark_index": 0,
+      "region": [
+        337,
+        112,
+        501,
+        147
+      ]
+    },
+    {
+      "step_id": "opening",
+      "mark_index": 1,
+      "region": [
+        830,
+        107,
+        554,
+        145
+      ]
+    },
+    {
+      "step_id": "opening",
+      "mark_index": 2,
+      "region": [
+        231,
+        316,
+        915,
+        127
+      ]
+    }
+  ]
+}

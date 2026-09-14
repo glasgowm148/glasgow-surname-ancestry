@@ -12,7 +12,6 @@ into the better-developed Glasgow-1146 profile.
 The merge does not reveal another son. Absolom remains John's only plausible
 attached son, and that relationship is still awaiting direct evidence.
 
-## Sources
-
+## Source findings
 - [Gilders Creek Cemetery transcription](https://genealogytrails.com/scar/newberry/gilders_creek_cem.htm)
 - [Full Glasgow-1146 findings](../Glasgow-1146/findings.md)

@@ -17,8 +17,7 @@ This is a separate Kilbirnie generation. It does not identify the North Leith
 glassworks servant of 1694 or connect Robert of Paddockholm to Robert Glaskow of
 Larne.
 
-## Source
-
+## Source findings
 - [National Records of Scotland, RH15/120/178](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=RH15%2F120%2F178), letter from Robert Glasgow, Paddockholm, to his brother James Glasgow, student of divinity at Glasgow, 22 November 1722.
 
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-d33ed1d5cc49 -->
@@ -36,3 +35,24 @@ The transcript-validated baptism record for **Robert Glasgow**, 17 Oct 1693, Kil
 
 Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
 <!-- END FMP-GLASGOW-fmp-glasgow-d33ed1d5cc49 -->
+
++### Supplied Scotland’s People OPR births and baptisms — 10 September 2026
+
+| Source locator | Indexed entry | Assessment |
+| --- | --- | --- |
+| [Scotland’s People](https://www.scotlandspeople.gov.uk/), OPR 596/10 / 19 | ROBERT GLASGOW; JOHN GLASGOW/JEANE CUNYNGHAME FR22 (FR22); 17/10/1693; Kilbirnie | Index-only confirmation. Its combined birth/baptism date is retained as an index date; original image was not inspected. |
+
+Provenance: exact-surname Glasgow search, year range to 1700, 127 supplied results across six pages.
+
+<!-- opr-birth-review-row-53 -->
+## Source findings
+
+### Supplied OPR births and baptisms: row 53 — 10 September 2026
+
+[Scotland’s People](https://www.scotlandspeople.gov.uk/), **Old Parish Registers, births and baptisms**; exact surname Glasgow through 1700, 127 supplied results. **ROBERT GLASGOW**; indexed date **17/10/1693**; Kilbirnie; parish **596**, reference **10 / 19**. Parents/other exactly as indexed: **JOHN GLASGOW/JEANE CUNYNGHAME FR22 (FR22)**. Indexed gender: **M**.
+
+**Assessment:** Matches the existing child-record account by indexed date, locality and recorded family. This row adds the complete index locator as supporting provenance; it does not establish a new event or relationship.
+
+Original image not inspected for this batch. The combined collection’s date does not automatically establish a birthday. Names alone do not uniquely identify attached parents or connect a child with a later adult. An omitted parent or indexed gender U remains unspecified in this source.
+
+**Next action:** No additional WikiTree update from this row; preserve any existing pending work.

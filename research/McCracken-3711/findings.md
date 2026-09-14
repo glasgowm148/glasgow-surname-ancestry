@@ -14,8 +14,7 @@ identification: she was not Mary McCrachen, aged 17, in Arthur and Ruth's 1768
 *Chichester* immigrant household. She may still belong to the post-arrival
 generation of that family, but no inspected record names her parents.
 
-## Sources
-
+## Source findings
 - [Mary's 1837 will](https://web.archive.org/web/20101124184247id_/http://www.lifesweaving.com/Glasgow/Paper_WilsonGlasgowWife.html), Newberry Will Book N, p. 1.
 - [Wilson's real-estate packet index](https://genealogytrails.com/scar/newberry/realestate.html), box 1, packet 13.
 - [Gilders Creek Cemetery](https://genealogytrails.com/scar/newberry/gilders_creek_cem.htm), reciprocal Wilson and Mary inscriptions.

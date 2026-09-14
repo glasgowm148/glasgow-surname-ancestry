@@ -24,8 +24,7 @@ not named.
 | Date and place | 21 August 1854, registrar's office, Ballymena |
 | Witnesses | George McMullan and Jane Caldwell |
 
-## Primary source
-
+## Source findings
 - [General Register Office of Ireland marriage register, entry 70](https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1854/09463/5428881.pdf).
 
 ## Duplicate audit

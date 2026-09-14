@@ -12,6 +12,7 @@ import subprocess
 import sys
 from collections import defaultdict, deque
 try:
+    from site_analytics import repair as repair_analytics
     from project_paths import (
         MAP_HTML as HTML_PATH, HUB_HTML, MAP_RECORDS as CSV_PATH, ROOT, WEB_DIR,
         MAP_EARLY_BEARERS, MAP_YDNA_TIMELINE, RESEARCH_DIR,
@@ -20,6 +21,7 @@ try:
     )
     from build_research_catalog import build_research_catalog, catalogue_profile_update_ids
 except ModuleNotFoundError:  # Imported as tools.build_family_map in tests.
+    from tools.site_analytics import repair as repair_analytics
     from tools.project_paths import (
         MAP_HTML as HTML_PATH, HUB_HTML, MAP_RECORDS as CSV_PATH, ROOT, WEB_DIR,
         MAP_EARLY_BEARERS, MAP_YDNA_TIMELINE, RESEARCH_DIR,
@@ -687,6 +689,7 @@ def main() -> None:
         ydna_timeline, catalogue_export_paths, location_index, root_links,
     )
     rebuild_standalone_onetree()
+    repair_analytics(WEB_DIR)
     print(
         f"Embedded {len(records)} records, {location_count} locations, {len(edges)} relationship edges and {len(patriarch_ids)} roots"
         + (f"; applied {applied_profile_links} reviewed profile link(s)" if applied_profile_links else "")

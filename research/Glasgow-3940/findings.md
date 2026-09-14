@@ -1,6 +1,6 @@
 # Findings: [Unknown Glasgow (Glasgow-3940)](https://www.wikitree.com/wiki/Glasgow-3940)
 
-Last updated: 2026-08-18
+Last updated: 2026-09-12
 
 ## Current conclusion
 
@@ -8,6 +8,12 @@ This profile already represents the unnamed `Glascow` baptised in 1838 to
 Alex and Molly McAughern of Gortereagh. The baptism is not a new finding and no
 forename is supplied by the transcription. The profile's `before 1841` death
 is a defensible inference, not a directly recorded death date.
+
+The named parents are documented relationships in the maintained family
+reconstruction. The 12 September editorial review corrects the website's
+unassessed tree flags for both parents using entry 106 and the existing
+1837–1844 baptism sequence; it does not supply a forename or turn the inferred
+death boundary into a recorded event.
 
 The best current assessment is **probably died before the 1841 census date**,
 with an explicit uncertainty marker. The child was not listed anywhere in the

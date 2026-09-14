@@ -1,0 +1,103 @@
+{
+  "id": "william-1673",
+  "title": "William Glasgow, Lanark testament dative: administrator-name reread",
+  "record": "National Records of Scotland, Lanark Commissary Court, CC14/5/9, images 24-26",
+  "date": "1673-04-09 (court date; death month/year not securely resolved)",
+  "reviewed_at": "2026-09-10",
+  "index_confirmation": {
+    "status": "confirmed_by_index",
+    "source": "User-supplied ScotlandsPeople index excerpt",
+    "provenance": "Surname Glasgow/Glasgw; 24 results; supplied 10 September 2026",
+    "indexed_name": "William Glasgow",
+    "indexed_date": "9 April 1673",
+    "indexed_description": "in Quodquen",
+    "indexed_record_type": "TD",
+    "court": "Lanark Commissary Court",
+    "reference": "CC14/5/9",
+    "evidential_scope": "Confirms the index entry, exact indexed residence, record type and date; it does not make the obscured manuscript gutter legible or prove a profile identity."
+  },
+  "source_files": [
+    "testaments/Edinburgh/1673_William.pdf",
+    "testaments/ScotlandsPeople_CC001400005-00009-00024-.pdf"
+  ],
+  "reviewed_pages": [
+    "PDF page 1 / NRS image 24",
+    "PDF page 2 / NRS image 25",
+    "PDF page 3 / NRS image 26"
+  ],
+  "coverage": "All three supplied original images were inspected in full and in enlarged crops. The two listed PDFs are duplicate presentations of the same CC14/5/9 images and count as one documentary source. William's entry begins in the lower part of image 24 and ends above the next testament on image 26. Names, roles, places, and relationship clauses were audited; the gutter, financial text, and several procedural names remain unresolved.",
+  "provenance": {
+    "previous_reviews": [
+      "research/transcriptions/originals-2026-09-09/william-1673.json",
+      "research/transcriptions/originals-2026-09-10/william-lanark-1673.json"
+    ],
+    "walkthrough": "research/transcriptions/walkthroughs/william-1673.json",
+    "method": "Fresh full-page inspection plus magnified comparison of repeated administrator names on images 25 and 26; the duplicate alias review was treated as provenance, not as an independent case."
+  },
+  "transcription": [
+    {
+      "page": "NRS image 24",
+      "lines": [
+        "[preceding testament excluded]",
+        "The testament dative and Inventar of the goods geir soumes of money and debtis",
+        "perteining to umquhile William Glasgow in [locality obscured at gutter]",
+        "quha deceisit in the moneth of [illegible] [year wording obscured]",
+        "[giver-up and appointment formula; names/capacities partly illegible]",
+        "[inventory begins with livestock and crops]"
+      ]
+    },
+    {
+      "page": "NRS image 25",
+      "lines": [
+        "[livestock, crops, household goods, and clothing]",
+        "Summa of the Inventar [amount unresolved]",
+        "Na debtis awand to the deid",
+        "Followes the debtis awand be the deid [creditor/account names partly unresolved]",
+        "[confirmation formula naming] Alexr Broun and Jon Neilsone executoris datives"
+      ]
+    },
+    {
+      "page": "NRS image 26",
+      "lines": [
+        "At Lanark the nynt day of Apryle 1673",
+        "[commissary/title formula; personal name unresolved]",
+        "Compeirit personallie Alexr Broun and Jon Neilsone executoris befoir named",
+        "[they produced and swore the inventory; formula partly unresolved]",
+        "fand Williame Neilsone in Biggar cautioner",
+        "[security and closing formula]",
+        "[following Ralph McDougal testament excluded]"
+      ]
+    }
+  ],
+  "plain_english": [
+    "This is William Glasgow's Lanark Commissary Court testament dative and inventory. The ScotlandsPeople index confirms the indexed residence as Quodquen and the proceeding date as 9 April 1673; the manuscript locality and death wording remain obscured in the gutter.",
+    "Alexander Brown and John Neilson are repeatedly named as executors dative and personally appear to produce and swear the inventory.",
+    "William Neilson in Biggar is the cautioner or surety. A shared surname does not prove that he was related to John Neilson, and none of these offices proves kinship to William Glasgow.",
+    "No spouse, parent, child, or sibling is securely named in the supplied entry."
+  ],
+  "findings": [
+    "Genuinely corrected reading: the first executor is Alexr (Alexander) Broun, not George Broun. The name repeats on images 25 and 26.",
+    "Confirmed: Jon Neilsone (John Neilson) is Alexander Brown's co-executor dative; both appear personally in the estate proceeding.",
+    "Confirmed: William Neilson in Biggar is cautioner, not a stated relative.",
+    "Unresolved: the opening locality, death month/year wording, names in the initial appointment formula, several account parties, and the presiding official's full name/title.",
+    "No direct kinship or new bridge to another Glasgow family is supplied by the testament."
+  ],
+  "changes_from_previous": [
+    "Corrected every 'George Brown' conclusion to Alexander Brown from the repeated literal abbreviation 'Alexr Broun'.",
+    "Retained John Neilson as co-executor and William Neilson as cautioner; their administrative roles remain separate from family evidence.",
+    "Consolidated william-lanark-1673 as a duplicate alias rather than an independent case.",
+    "Preserved Glasgow-3912 as the maintained index-based identification while stating that Quothquan is not independently legible in the manuscript gutter."
+  ],
+  "unresolved": [
+    "The index-confirmed residence is Quodquen; William's manuscript locality strokes and exact death month/year remain unresolved",
+    "Full giver-up and executor-appointment wording on image 24",
+    "The full names and capacities of every official and account party",
+    "Crop quantities, debts, rent, totals, and much of the legal formula",
+    "Any spouse, parent, child, or sibling of William"
+  ],
+  "profiles": [
+    ["Glasgow-3912", "Maintained index-based identity; manuscript locality remains unresolved in this reread"]
+  ],
+  "confidence_statement": "High for the correction to Alexander Brown, John Neilson as co-executor, William Neilson in Biggar as cautioner, and the absence of a securely read kinship clause. The index confirms Quodquen and the 9 April 1673 proceeding date; confidence remains low for the obscured manuscript locality/death wording and several procedural or account names.",
+  "reviewer": "Codex fresh original-image name, role, and locality audit"
+}

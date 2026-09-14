@@ -1,8 +1,33 @@
 # Findings: Glasgow-3904
 
-Last updated: 2026-09-05
+Last updated: 2026-09-13
 
-## Current answer
+## Current conclusion
+
+**13 September 2026:** No newly inspected source proves this older Alexander
+and [Rosanna Unknown](https://www.wikitree.com/wiki/Unknown-761034) as parents of
+[Alexander Glasgow-951](https://www.wikitree.com/wiki/Glasgow-951). The named
+couple remains a possible working pair; the tradition applies directly to
+Thomas, and Alexander's relationship to Thomas and Daniel is possible brother
+or cousin. Preserve existing uncertain attachments; no replacement parent is
+proved. Earlier July directions below to detach people or clear a mother are
+superseded and must not be executed.
+
+The bounded 13 September public search recovered no independent source behind
+the 2007 parent names or reported October 1822 death. Search-indexed text from
+the [Genes Reunited thread](https://www.genesreunited.co.uk/boards/board/general_topics/thread/465937)
+expressly describes its 2020 restatement as a copy of the first post, so it
+cannot count as an independent witness. Direct page retrieval failed in this
+session; the completed 12 September thread and FamilySearch review is reused,
+not claimed as a newly inspected original. The derivative Rosanna tree's
+28 October 1822 conflicts with the post's approximate 23 October date. Neither
+date nor the surname Shaw is established by an original record.
+
+The live WikiTree API on 13 September still supplies an October 23, 1822 death
+for Rosanna and estimated 1770 birth years for both spouses. These are stored
+profile claims, not new evidence. No live changes were made. See the
+[dated source-search log](older_pair_source_search_2026-09-13.md) for exact
+queries, access limits and remaining records.
 
 The best surviving record now identified for testing this reconstructed family
 is PRONI's Ballymoney Reformed Presbyterian register,
@@ -22,6 +47,8 @@ and the descendant account names Thomas's parents. Younger Alexander
 `Glasgow-951` may remain only a possible brother or cousin and uncertain working
 child, but no contemporary record proves the parent edge.
 
+The 13 September comparative review retains this pair as the first named-couple hypothesis to investigate through Thomas, not a demonstrably most-likely pair for Alexander-951. His same-parent relationship to Thomas is still unproved; even paternal half-brotherhood would not establish Rosanna as his mother.
+
 The three proposed children do not have equal support:
 
 | Proposed child | What is proved | Parent-edge status |
@@ -30,43 +57,15 @@ The three proposed children do not have equal support:
 | Thomas `Glasgow-987` | Daniel's will proves the brotherhood; a 2007 descendant account names Alexander and Rosanna as Thomas's parents. | Uncertain son, supported by late family testimony rather than a contemporary parent record. |
 | Alexander `Glasgow-951` | Same Lisnagaver/Rasharkin cluster; close R-FT20271 pairing with the James J Glasgow line. | Possible brother or cousin and uncertain son. No record calls him Daniel or Thomas's brother or names his father. |
 
-## DNA-constrained upstream model
+## Larne parentage and the unresolved upstream connection
 
-Alexander `Glasgow-951` (kit B580327) and the James J Glasgow `Glasgow-2738`
-line (kit 1002232) are confirmed R-FT20271 Big Y lines. They are genetic
-distance 3 at Y-111, differ at four of 662 compared Big Y STRs, and share the
-derived DYS714=27 state. These comparisons are useful for choosing documentary
-test lines, but a local SAPP model misdates a known control and does not provide
-a reliable common-ancestor date or identify a particular eighteenth-century
-ancestor.
+The 13 September catalogue review gives this older Alexander a coherent possible place **beside Adam of Inishrush**, rather than necessarily beneath him. If James of Larne (Glasgow-1509), reportedly born in 1737, fathered Adam about 1758 and this Alexander about 1770, the intervals are about 21 and 33 years. Adam born about 1758 would instead be only twelve at a 1770 Alexander birth, while Rose born about 1767 would be three. Their dates are estimates, but the sibling or cousin version avoids the extra conditions needed for an Adam-to-Alexander parent link. No record yet proves James as either man's father. [Full sourced comparison](/people/glasgow-951.html#larne-reconstruction).
 
-If James J's present uncertain paper chain is substantially right—James J
-`Glasgow-2738` to Robert `Glasgow-2769`, Archibald `Glasgow-2304`, James
-`Glasgow-1144`, and Robert `Glasgow-1143`—the common ancestor with younger
-Alexander must lie at or above James `Glasgow-1144`. James's will identifies his
-children Robert, John, Archibald, Wilson, Margaret and Rachel; it does not name
-a living son Alexander. Younger Alexander therefore should not simply be added
-as another child of James. The DNA is more consistent with a collateral branch
-descending from James's father or an earlier shared Glasgow ancestor.
+The proposed chain James-1509 → older Alexander-3904 → younger Alexander-951 accommodates the late account naming Alexander and Rosanna as Thomas's parents, if younger Alexander shared that family. It remains distinct from James-1509 → younger James-3986 → Alexander-951, an age-compatible alternative using an existing younger Larne man. Extending the latter to Thomas and Daniel would require reassessing the parent-name testimony; their proved brotherhood does not itself name their father.
 
-The fewest-assumption working structure is:
+The American branch is Robert-1143 → James-1144 → Archibald-2304 → possible Robert-2769 → possible James J-2738. The first two connections have concordant record support. The missing boy in Archibald's 1800 household, Robert's South Carolina birth and James J's later chronology give the next two a positive household-and-migration fit. Robert is proposed only as James J's father. The earlier hypothetical transatlantic common-father comparison is irrelevant to this model and is withdrawn.
 
-```text
-unidentified Glasgow man, born in the first half of the 1700s
-├── line to James J Glasgow (the intermediate American links remain uncertain)
-└── Bann Valley / Dunaghy collateral line
-    ├── ? older Alexander Glasgow-3904
-    │   ├── ? Daniel Glasgow-3896
-    │   ├── ? Alexander Glasgow-951 — tested FT20271 line
-    │   └── ? Thomas Glasgow-987
-    ├── ? John Glasgow-1022
-    └── ? Robert Glasgow-1367 and probable brother Hugh
-```
-
-This is a ranked research model, not a set of WikiTree relationships. The
-marker-only kit reported for Robert `Glasgow-1143` is GD 10 from younger
-Alexander at Y-111 and lacks a confirmed terminal Big Y result. It cannot be
-used to turn any of the dotted lines above into a proved relationship.
+The close descendant FT20271/STR connection makes the two branches useful comparisons. Their named common ancestor remains unresolved, including the proposed parentage of James-1509 and Robert-1143 within the older Larne family. DNA does not force a particular early-1700s man, but it supports pursuing this family reconstruction rather than treating the uncertain generations as grounds to abandon it.
 
 ## Source findings
 
@@ -75,7 +74,7 @@ used to turn any of the dotted lines above into a proved relationship.
 | [2007 Genes Reunited descendant account](https://www.genesreunited.co.uk/boards/board/general_topics/thread/465937) | Names Alexander and Rosanna as parents of Thomas Glasgow of Lisnagaver and reports a tradition about two Kilrea clockmaker uncles. | Useful descendant testimony, but late and not a contemporary parent record for Alexander. |
 | 1834 North Antrim tithe transcription | Alexander Glasgow and Robert Glasgow appear consecutively at Lisnagaver. | Contemporary evidence for an Alexander occupier, but no age, spouse, parent, or proof that the entry is this profile. |
 | 1851 census, Lisnagaver | Younger Alexander, about 40, and Thomas, about 35, headed nearby households. | Establishes the younger generation and place, not their parents. |
-| 1834 tithe acreage, later valuation lots 24-26, and [John Glasgow's 1846 marriage](https://www.irishgenealogy.ie/view/?record_id=cima-3156063) | The later John/Alexander/Thomas lots closely reproduce the earlier 64-acre Alexander/Robert total, but John's marriage names his father as **John Glasgow, farmer**. | The land was probably redistributed, but not as a simple division among three sons of older Alexander or Robert. Acreage cannot make the proposed older Alexander the father of Alexander `Glasgow-951`. |
+| 1834 tithe acreage, later valuation lots 24-26, and [John Glasgow's 1846 marriage](https://www.irishgenealogy.ie/view/?record_id=cima-3156063) | The earlier acreage near-equality compared incompatible tithe and valuation measures and is superseded, but John's marriage names his father as **John Glasgow, farmer**. | The surviving records do not establish how the earlier holdings became the later lots. Acreage cannot make the proposed older Alexander the father of Alexander `Glasgow-951`. |
 | Daniel Glasgow's original 1871 will and Daniel Neely Glasgow's 1888 marriage | Daniel of Kilrea calls late Thomas his brother and Daniel Neely his nephew; Daniel Neely's marriage names his father as Thomas Glasgow, farmer, of the Lisnagaver family. | Strong direct/collateral evidence that Daniel of Kilrea and Thomas of Lisnagaver were brothers. It does not identify their father as Alexander or Adam. |
 | Former WikiTree attachments compared with Daniel's original will | Alexander and Daniel had been attached as Adam's sons, while Thomas was attached as Alexander's son. Daniel's will directly calls Thomas his brother. | The former tree incorrectly made Daniel Thomas's uncle. The revised working tree places the brothers together under uncertain parents Alexander and Rosanna; a half-brother scenario still prevents treating either shared parent as proved. |
 | [Rasharkin Presbyterian baptisms, 1834-1846](https://genealogy.torrens.org/BannValley/church/RasharkinP/Baptisms_1834.html) | A younger Alexander and Molly McAughern had Glasgow children recorded at Gortereagh in 1837-38 and at Lisnagaver in 1844. Thomas and Mary Ann McCracken had children recorded at Moneyleck in 1842 and Lisnagaver from 1843. | Contemporary confirmation of the two younger households and their movements, but no parent statement for either man and no identification of the older Alexander. |
@@ -90,12 +89,10 @@ used to turn any of the dotted lines above into a proved relationship.
 
 ## Parentage and cluster conclusion
 
-Alexander remains **unproved** as Adam's son. Adam is only a weak research
-hypothesis and should not be attached as father. Rose, Adam's wife, presents a
+Alexander remains **unproved** as Adam's son. Adam is a weak direct-father hypothesis; preserve existing uncertain attachments while comparing the sibling or cousin alternative. Rose, Adam's wife, presents a
 serious chronology conflict: she was
 born about 1767, while Alexander needed to be born by about 1778 at the latest to
-father Daniel about 1795/96. Adam could only be a speculative young father by an
-earlier woman; detach Rose as mother. Brother, cousin or more distant collateral
+father Daniel about 1795/96. Adam could only be a speculative young father by an earlier woman. No new maternal attachment or destructive tree change follows from this review. Brother, cousin or more distant collateral
 is at least as plausible as Adam being the father.
 
 The working family belongs in the standalone **Bann Valley-Killoquin / Kilrea-
@@ -118,13 +115,9 @@ separate Dunaghy / Doonbought-Glenleslie tenant cluster. If he was the 1834
 Robert, he could have been Alexander's brother, cousin or temporary co-tenant;
 the tithe alone cannot choose among those relationships.
 
-The best unified working model places Alexander and Robert in the same broad
-generation below an unidentified earlier Bann Valley/Dunaghy Glasgow ancestor,
-probably as brothers or first cousins. This is preferable to forcing either man
-beneath [[Glasgow-3902|Adam Glasgow]] or [[Glasgow-1022|John Glasgow]], but it
-is not yet a relationship to add to WikiTree.
+No record currently selects a brother or first-cousin relationship between older Alexander and the unidentified Robert. Neither their relationship nor a shared generation should be supplied merely to complete an upstream diagram.
 
-Two collateral records make that model more coherent without proving it.
+Two collateral records define additional Dunaghy relatives without establishing the older Alexander’s relationship to them.
 [[Glasgow-1367|Robert]]'s age-matching 1851 niece is probably
 [[Glasgow-3957|Mary (Glasgow) Montgomery]], whose 1862 marriage names her father
 as **Hugh Glasgow, weaver**; Hugh is therefore a probable brother of Robert.
@@ -287,7 +280,7 @@ The live structured birth was corrected to **about 1770, uncertain**. The estima
 
 The Alexander Glasgow who died at Gortahar in 1888 should not be assigned to this older Alexander. Later evidence now strongly identifies the deceased with [[Glasgow-951|Alexander Glasgow of Lisnagaver]], rather than as an otherwise separate namesake.
 
-Alexander's widow Mary died at Gortahar in 1892 with daughter [[Glasgow-3167|Mary Elder]] as informant. Mary Elder then appears as a widowed farmer at Gortahar in 1901, and the same household continued there in 1911.<ref>[https://www.familysearch.org/ark:/61903/1:1:QPB2-KNM2 FamilySearch, 1901 Ireland census index], Mary Elder household; [https://www.familysearch.org/ark:/61903/1:1:QYHR-52T2 FamilySearch, 1911 Ireland census index], Robert J. Elder household.</ref> The 1911 nephew displayed as “Samuel Glasgow” was registered as **Samuel Glasgow Elder**, preserving the maternal surname.<ref>[https://www.familysearch.org/ark:/61903/1:1:FBP3-95M FamilySearch, Ireland civil registration birth index], Samuel Glasgow Elder, Ballymoney, July-September 1908.</ref>
+Alexander's widow Mary died at Gortahar in 1892 with daughter [[Glasgow-3167|Mary Elder]] as informant. Mary Elder then appears as a widowed farmer at Gortahar in 1901, and the same household continued there in 1911.<ref>[https://www.familysearch.org/ark:/61903/1:1:QPB2-KNM2 FamilySearch, 1901 Ireland census index], Mary Elder household; [https://downtheroad.dev/de/census/household/c69e0288-e197-4995-af07-71e5ae0626f4 derivative 1911 household transcription], Robert J. Elder household.</ref> The 1911 nephew displayed as “Samuel Glasgow” was born **Samuel Elder** at Gortahar on 4 July 1908 to unmarried Jane Elder, with no father recorded and Mary Elder as informant.<ref>[https://www.irishgenealogy.ie/files/civil/birth_returns/births_1908/01647/1657700.pdf General Register Office of Ireland, civil birth register], Samuel Elder, Gortahar, 4 July 1908.</ref> The original birth supports household continuity but not preservation of the Glasgow surname; the census name remains an unverified transcription conflict.
 
 This supersedes the earlier assessment that the 1888 deceased was merely a separate Gortahar labourer represented by the former duplicate Glasgow-2717. It does not provide any new evidence that [[Glasgow-3904|the older Alexander]] was the father of Alexander of Lisnagaver.
 

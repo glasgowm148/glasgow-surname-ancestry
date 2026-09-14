@@ -1,0 +1,354 @@
+{
+  "schema_version": 1,
+  "default_view": "original",
+  "image_policy": "Unaltered source pixels; only lossless right-angle rotation and rectangular cropping. All annotations are separate removable outlines. No generated or reconstructed ink.",
+  "excerpts": [
+    {
+      "id": "census1851-household",
+      "title": "1851: the five recorded household members",
+      "archive": "National Archives of Ireland",
+      "source_url": "https://nationalarchives.ie/collections/search-the-census/view-pdf/?doc=007246523_00175&c19=true",
+      "record_reference": "Census of Ireland 1851, Antrim, Kilconway, Rasharkin, Lisnagaver, house 35; image 007246523_00175, first five person rows.",
+      "transcription": "Names and relationship columns, with abbreviations expanded: **Alexander Glasgow**, 40, head of family; **Mary Glasgow**, 40, wife; **Robert Glasgow**, 10, son; **James Glasgow**, 7, “Do” [ditto, son]; **Ann Glasgow**, 4, daughter.",
+      "analysis": "This is the complete set of five named persons on the household table. It directly places Robert, James and Ann in Alexander’s household as his children. Mary’s relationship to the head is explicitly “Wife”. The blank lower rows are visible in the accompanying full-table context crop and original image.",
+      "uncertainties": "The census describes the people recorded in this household; it does not establish that these were all the couple’s children. The first forename is abbreviated. Name descenders cross the next row: the overlapping strokes remain unchanged, so inspect one highlighted name at a time.",
+      "highlights": [
+        {
+          "label": "Alexander Glasgow",
+          "x": 48,
+          "y": 301,
+          "width": 591,
+          "height": 145
+        },
+        {
+          "label": "Mary Glasgow",
+          "x": 47,
+          "y": 404,
+          "width": 591,
+          "height": 156
+        },
+        {
+          "label": "Robert Glasgow",
+          "x": 49,
+          "y": 497,
+          "width": 592,
+          "height": 159
+        },
+        {
+          "label": "James Glasgow",
+          "x": 47,
+          "y": 603,
+          "width": 593,
+          "height": 153
+        },
+        {
+          "label": "Ann Glasgow",
+          "x": 49,
+          "y": 708,
+          "width": 594,
+          "height": 152
+        }
+      ],
+      "source_file": "archive/dump/1851 Antrim/alex_mary/007246523_00175.pdf",
+      "source_pixel_dimensions": [
+        3996,
+        6120
+      ],
+      "rotation_degrees": 180,
+      "crop_box": [
+        350,
+        3010,
+        1740,
+        3930
+      ],
+      "context_file": "context/census-full-table.png",
+      "file": "census1851-household.png",
+      "width": 1390,
+      "height": 920,
+      "image_sha256": "2dfeb16a76e18ffb7ed09df5f30766ab114d5d3eba8a72ebfc70dfb4ec6864c0",
+      "reviewed_date": "2026-09-13",
+      "review_status": "Original image and separate annotation proof visually reviewed"
+    },
+    {
+      "id": "census1851-marriage",
+      "title": "1851 census: both spouses reported 1836",
+      "archive": "National Archives of Ireland",
+      "source_url": "https://nationalarchives.ie/collections/search-the-census/view-pdf/?doc=007246523_00175&c19=true",
+      "record_reference": "Census of Ireland 1851, Antrim, Kilconway, Rasharkin, Lisnagaver, house 35; image 007246523_00175, marriage columns, rows 1–2.",
+      "transcription": "Head of family — **Married — 1836**. Wife — **Do** [ditto, married] — **1836**.",
+      "analysis": "The year 1836 appears separately beside Alexander and Mary. The column heading asks the year of marriage, or years if married more than once. Both entries report one year, 1836; this is original census evidence for their reported marriage year.",
+      "uncertainties": "This is a retrospective statement in the 1851 census, not a located marriage register entry. It supplies neither an exact wedding date nor a marriage place. The names are outside this focused crop; their rows are shown in the household excerpt and full-table context.",
+      "highlights": [
+        {
+          "label": "Alexander’s reported marriage year: 1836",
+          "x": 597,
+          "y": 323,
+          "width": 142,
+          "height": 77
+        },
+        {
+          "label": "Mary’s reported marriage year: 1836",
+          "x": 579,
+          "y": 415,
+          "width": 160,
+          "height": 85
+        }
+      ],
+      "source_file": "archive/dump/1851 Antrim/alex_mary/007246523_00175.pdf",
+      "source_pixel_dimensions": [
+        3996,
+        6120
+      ],
+      "rotation_degrees": 180,
+      "crop_box": [
+        1290,
+        3010,
+        2050,
+        3625
+      ],
+      "context_file": "context/census-full-table.png",
+      "file": "census1851-marriage.png",
+      "width": 760,
+      "height": 615,
+      "image_sha256": "8844fce1d554f44ca5344d79e4ff499226ca164487832b86b8500d311a1550f6",
+      "reviewed_date": "2026-09-13",
+      "review_status": "Original image and separate annotation proof visually reviewed"
+    },
+    {
+      "id": "robert1866-marriage",
+      "title": "1866: Robert’s father was Alexander, a farmer",
+      "archive": "General Register Office of Ireland / IrishGenealogy.ie",
+      "source_url": "https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1866/11531/8240963.pdf",
+      "record_reference": "Civil marriage register, Churchtown, Tamlaght O’Crilly, Ballymoney registration district, 5 April 1866, entry 144; Robert Glasgow and Jane Graham; image 8240963.",
+      "transcription": "Groom’s row: **Lisnagaver** [normalized place reading]; **Alex. Glasgow**; **Farmer**. The lower row belongs to Jane Graham and names **Thos. Graham**, labourer.",
+      "analysis": "The full entry identifies the groom as Robert Glasgow, aged 25, a bachelor farmer. The focused crop preserves the printed father heading and his father’s name and occupation. Together with Robert’s Lisnagaver residence, it supports continuity with the ten-year-old son in the 1851 household.",
+      "uncertainties": "“Alex.” and “Thos.” are abbreviations; expansions are Alexander and Thomas. The residence is normalized to Lisnagaver; retain the original strokes when comparing the place spelling. This marriage does not name Robert’s mother. Some pen flourishes cross column rules.",
+      "highlights": [
+        {
+          "label": "Robert’s residence: Lisnagaver",
+          "x": 15,
+          "y": 128,
+          "width": 628,
+          "height": 209
+        },
+        {
+          "label": "Father: Alex. Glasgow",
+          "x": 680,
+          "y": 142,
+          "width": 713,
+          "height": 198
+        },
+        {
+          "label": "Father’s occupation: Farmer",
+          "x": 1344,
+          "y": 134,
+          "width": 411,
+          "height": 174
+        }
+      ],
+      "source_file": "research/Glasgow-951/sources/robert_glasgow_jane_graham_marriage_1866.pdf",
+      "source_pixel_dimensions": [
+        4672,
+        6432
+      ],
+      "rotation_degrees": 0,
+      "crop_box": [
+        2640,
+        940,
+        4440,
+        1570
+      ],
+      "context_file": "context/robert-marriage.png",
+      "file": "robert1866-marriage.png",
+      "width": 1800,
+      "height": 630,
+      "image_sha256": "9665486b8f60c639faf691d935d2d39c70a0b477709738fb791eefa399f5fcb9",
+      "reviewed_date": "2026-09-13",
+      "review_status": "Original image and separate annotation proof visually reviewed"
+    },
+    {
+      "id": "ann1876-marriage",
+      "title": "1876: Ann’s father was Alexander, a labourer",
+      "archive": "General Register Office of Ireland / IrishGenealogy.ie",
+      "source_url": "https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1876/11181/8097170.pdf",
+      "record_reference": "Civil marriage register, Ballymoney Register Office, 13 October 1876, entry 191; Robert McCracken and Ann Glasgow; image 8097170.",
+      "transcription": "Bride’s row (lower): **Lisnagaver / Parish / Rasharkin**; **Alexander Glasgow**; **Labourer**. The upper row belongs to Robert McCracken and names **William McCracken**, labourer.",
+      "analysis": "The full entry identifies Ann as a full-age spinster of Lisnagaver. The father’s occupation is expressly labourer in 1876, twelve years before the Gortahar death. Alexander’s later description as a labourer therefore does not, by itself, distinguish that deceased man from the former Lisnagaver farmer.",
+      "uncertainties": "The father name and occupation are secure readings. This marriage supports Ann’s link to the Lisnagaver family but does not prove that she was the Nancy Glasgow who informed the 1888 death. The bride’s name and date are outside this focused crop and visible in the context crop and original entry.",
+      "highlights": [
+        {
+          "label": "Ann’s residence: Lisnagaver",
+          "x": 10,
+          "y": 426,
+          "width": 568,
+          "height": 137
+        },
+        {
+          "label": "Father: Alexander Glasgow",
+          "x": 612,
+          "y": 423,
+          "width": 718,
+          "height": 144
+        },
+        {
+          "label": "Father’s occupation: Labourer",
+          "x": 1330,
+          "y": 435,
+          "width": 386,
+          "height": 98
+        }
+      ],
+      "source_file": "research/Glasgow-951/sources/ann_glasgow_robert_mccracken_marriage_1876.pdf",
+      "source_pixel_dimensions": [
+        4800,
+        6432
+      ],
+      "rotation_degrees": 0,
+      "crop_box": [
+        2720,
+        2090,
+        4470,
+        2770
+      ],
+      "context_file": "context/ann-marriage.png",
+      "file": "ann1876-marriage.png",
+      "width": 1750,
+      "height": 680,
+      "image_sha256": "fc4793374ee2eac049295b449b1ca506110d33a56df9fc2ca09906795e8dacc8",
+      "reviewed_date": "2026-09-13",
+      "review_status": "Original image and separate annotation proof visually reviewed"
+    },
+    {
+      "id": "alex1888-death",
+      "title": "1888: Alexander Glasgow’s death at Gortahar",
+      "archive": "General Register Office of Ireland / IrishGenealogy.ie",
+      "source_url": "https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1888/06179/4766466.pdf",
+      "record_reference": "Civil death register, Dirraw registrar’s district, Ballymoney union, Antrim, 1888, entry 348; image 4766466.",
+      "transcription": "**1888 / Sixteenth / May / Gortahar**; **Alexander / Glasgow**; male; married; **84 years**; **Labourer**; **Gangrene / 3 months / Certified**.",
+      "analysis": "The entry gives the exact death date, 16 May 1888, and place Gortahar. Its age and occupation are reported record details. Identification with Alexander of Lisnagaver rests on the wider family evidence, including Ann’s 1876 father description and the Mary Elder connection.",
+      "uncertainties": "The recorded age 84 implies birth about 1804, about seven years earlier than the 1851 age suggests. The death entry gives no wife’s name, birthplace, father or former Lisnagaver residence. The date is secure; attribution to Glasgow-951 remains a strong circumstantial identification.",
+      "highlights": [
+        {
+          "label": "Day: Sixteenth",
+          "x": 197,
+          "y": 140,
+          "width": 377,
+          "height": 110
+        },
+        {
+          "label": "Place of death: Gortahar",
+          "x": 170,
+          "y": 316,
+          "width": 385,
+          "height": 112
+        },
+        {
+          "label": "Alexander",
+          "x": 560,
+          "y": 140,
+          "width": 399,
+          "height": 110
+        },
+        {
+          "label": "Glasgow",
+          "x": 560,
+          "y": 247,
+          "width": 419,
+          "height": 128
+        },
+        {
+          "label": "Occupation: Labourer",
+          "x": 1590,
+          "y": 160,
+          "width": 397,
+          "height": 127
+        }
+      ],
+      "source_file": "research/Glasgow-951/sources/irish_civil_death_alexander_glasgow_gortahar_1888.pdf",
+      "source_pixel_dimensions": [
+        4954,
+        6801
+      ],
+      "rotation_degrees": 0,
+      "crop_box": [
+        555,
+        4740,
+        2940,
+        5230
+      ],
+      "context_file": "context/alex-death-row.png",
+      "file": "alex1888-death.png",
+      "width": 2385,
+      "height": 490,
+      "image_sha256": "899e23c973601ca462141108bd61dd21905053b8e008c02f60f9fa99441f2650",
+      "reviewed_date": "2026-09-13",
+      "review_status": "Original image and separate annotation proof visually reviewed"
+    },
+    {
+      "id": "alex1888-informant",
+      "title": "The informant: Nancy Glasgow, daughter, at Gortahar",
+      "archive": "General Register Office of Ireland / IrishGenealogy.ie",
+      "source_url": "https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1888/06179/4766466.pdf",
+      "record_reference": "Civil death register, Dirraw, Ballymoney union, 1888, entry 348; informant column for Alexander Glasgow; image 4766466.",
+      "transcription": "**Nancy Glasgow**, her + mark; **daughter**; **present at death**; **Gortahar**.",
+      "analysis": "The register expressly identifies the informant as the deceased’s daughter, says she was present, and supplies Gortahar as her residence. These words are direct record evidence. The separate question is which later-recorded woman this Nancy was.",
+      "uncertainties": "Nancy is the maintained corrected reading of the tightly formed forename. It must not be silently replaced with Mary. Identification with Ann Glasgow, who married Robert McCracken in 1876, is unproved; a separate daughter remains possible. The “her mark” notation sits between the name lines and is preserved unchanged.",
+      "highlights": [
+        {
+          "label": "Nancy",
+          "x": 39,
+          "y": 45,
+          "width": 213,
+          "height": 141
+        },
+        {
+          "label": "Glasgow",
+          "x": 287,
+          "y": 47,
+          "width": 318,
+          "height": 136
+        },
+        {
+          "label": "Relationship: daughter",
+          "x": 264,
+          "y": 147,
+          "width": 341,
+          "height": 117
+        },
+        {
+          "label": "Present at death",
+          "x": 20,
+          "y": 225,
+          "width": 655,
+          "height": 91
+        },
+        {
+          "label": "Residence: Gortahar",
+          "x": 116,
+          "y": 306,
+          "width": 381,
+          "height": 98
+        }
+      ],
+      "source_file": "research/Glasgow-951/sources/irish_civil_death_alexander_glasgow_gortahar_1888.pdf",
+      "source_pixel_dimensions": [
+        4954,
+        6801
+      ],
+      "rotation_degrees": 0,
+      "crop_box": [
+        2880,
+        4775,
+        3580,
+        5185
+      ],
+      "context_file": "context/alex-death-row.png",
+      "file": "alex1888-informant.png",
+      "width": 700,
+      "height": 410,
+      "image_sha256": "da7377174d526592aeb5872ebf53e961acd55fc46082be487d46488e3f7f396d",
+      "reviewed_date": "2026-09-13",
+      "review_status": "Original image and separate annotation proof visually reviewed"
+    }
+  ]
+}

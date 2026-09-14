@@ -16,8 +16,7 @@ Glasgow, weaver**. The best-supported identification is
 Together, these records establish Ann as James's daughter and James as John's
 son. Ann's mother is not identified.
 
-## Primary sources
-
+## Source findings
 - [1851 Census of Ireland, Glenleslie household 21](https://www.census.nationalarchives.ie/pages/1851/Antrim/Kilconway/Dunaghy/Glenleslie/21/): Ann Glasgow, age eighteen, linen weaver, granddaughter of John Glasgow.
 - [Civil marriage register, Ann Jane Glasgow and Patrick Russell, 24 November 1869](https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1869/11434/8200208.pdf): Ann of Kildowney, daughter of James Glasgow, weaver.
 - [Ballymena workhouse register transcript](https://www.billmacafee.com/otherrecords/ballymenaworkhouse.pdf): the family of James Glasgow associated with Glenleslie in 1847.

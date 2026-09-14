@@ -1,6 +1,6 @@
 # Findings: [Robert Glasgow (Glasgow-2769), Tennessee](https://www.wikitree.com/wiki/Glasgow-2769)
 
-Last updated: 2026-08-12
+Last updated: 2026-09-13
 
 ## Current conclusion
 
@@ -31,10 +31,22 @@ when Robert was at most about ten years old.
 is now the leading named father candidate, but is not proved. Archibald's 1800
 Newberry household contained exactly one male under ten, a slot not occupied by
 his three gravestone-proved children. Robert's best estimate of about 1790 can fit
-that category. The only adult female was aged 16–25, however, making maternity by
-Archibald's known wife Mary chronologically tight if Robert was born near 1790.
-Archibald can be retained as a documented research hypothesis; Robert's parents
-should remain blank unless the estate, census or another kinship record names them.
+that category. Combining that boy with Robert's 1820 and 1840 brackets gives
+5 August 1790–7 August 1794, conditional on accurate ages and identity. A woman
+near the older end of the 1800 female age band could have been about sixteen to
+twenty at an early-1790s birth; her name and maternity are not supplied by the
+schedule. Preserve the existing uncertain father hypothesis while seeking
+named heirs in Archibald's 1818 estate 647.
+
+Robert is proposed as **James J's father only**, not as father of Alexander of
+Lisnagaver, Thomas or Daniel. Their ages do not object to this hypothesis.
+Robert's South Carolina birth, a compatible older boy in his 1820 household,
+and the later Giles County family make a coherent South Carolina-to-Tennessee
+reconstruction. If James J was his South Carolina-born son about 1809/10,
+Robert's 1814 Tennessee service fits a move after that birth. Archibald's
+documented descent from the Kilwaughter emigrant family makes this a concrete
+route to test against the DNA connection, rather than proof obtained from it.
+See [the family reconstruction](/people/glasgow-951.html#larne-reconstruction).
 
 ## Documentary evidence
 

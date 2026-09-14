@@ -1,6 +1,6 @@
 # Findings: [Rosanna Unknown (Unknown-761034), Bann Valley working cluster](https://www.wikitree.com/wiki/Unknown-761034)
 
-Last updated: 2026-07-19
+Last updated: 2026-09-13
 
 ## Current conclusion
 
@@ -10,6 +10,16 @@ maiden surname, birth, marriage, death, or all three proposed children. She is a
 useful uncertain working mother, but her live birth year **1790 is impossible**
 if Daniel, born about 1795/96, remains her son. Use **born before about 1780,
 uncertain**, or leave the birth blank.
+
+The structured birth has since been changed to **about 1770, uncertain**. A
+13 September source audit found no original record for Rosanna's parentage,
+maiden surname or death. Search-indexed text shows that the 2020 Genes Reunited
+reply explicitly copied the 2007 post, so it is not an independent witness.
+The 2018 FamilySearch Pedigree Resource File cites only an Ancestry member tree
+and gives 28 October 1822, conflicting with the post's approximate 23 October.
+The live WikiTree date remains a profile claim, not new evidence. PRONI's early
+family registers, the private tradition source and Killoquin rentals remain
+uninspected; access gaps are not negative searches.
 
 ## Source findings
 

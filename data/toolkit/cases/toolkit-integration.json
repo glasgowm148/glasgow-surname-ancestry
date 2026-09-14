@@ -1,0 +1,102 @@
+{
+  "created_at": "2026-09-08T00:00:00+00:00",
+  "finding_ids": [
+    "fixture-finding"
+  ],
+  "id": "toolkit-integration",
+  "question_ids": [
+    "fixture-question"
+  ],
+  "record_sets": {
+    "Citation": [
+      {
+        "id": "fixture-citation",
+        "sensitivity": "public",
+        "source_id": "fixture-source"
+      }
+    ],
+    "Claim": [
+      {
+        "citation_ids": [
+          "fixture-citation"
+        ],
+        "confidence": "documented",
+        "id": "fixture-claim",
+        "predicate": "resided-in",
+        "sensitivity": "public",
+        "status": "supported",
+        "subject_id": "fixture-historical-person",
+        "value": "fixture-place"
+      }
+    ],
+    "Evidence": [
+      {
+        "assessment": "supports",
+        "citation_id": "fixture-citation",
+        "claim_id": "fixture-claim",
+        "confidence": "documented",
+        "id": "fixture-evidence",
+        "sensitivity": "public",
+        "supports": true
+      }
+    ],
+    "Finding": [
+      {
+        "conclusion": "Synthetic historical fixture retained only to verify the toolkit boundary.",
+        "confidence": "documented",
+        "evidence_ids": [
+          "fixture-evidence"
+        ],
+        "id": "fixture-finding",
+        "related_ids": [
+          "fixture-historical-person"
+        ],
+        "sensitivity": "public",
+        "status": "accepted"
+      }
+    ],
+    "Person": [
+      {
+        "event_ids": [],
+        "external_ids": [],
+        "id": "fixture-historical-person",
+        "living": "deceased",
+        "names": [
+          {
+            "confidence": "documented",
+            "kind": "preferred",
+            "value": "Historical Fixture"
+          }
+        ],
+        "sensitivity": "public"
+      }
+    ],
+    "Place": [
+      {
+        "id": "fixture-place",
+        "name": "Fixture Parish",
+        "sensitivity": "public"
+      }
+    ],
+    "ResearchQuestion": [
+      {
+        "id": "fixture-question",
+        "question": "Does the configured project load a durable toolkit case?",
+        "sensitivity": "public",
+        "status": "answered"
+      }
+    ],
+    "Source": [
+      {
+        "id": "fixture-source",
+        "sensitivity": "public",
+        "source_type": "synthetic",
+        "title": "Synthetic boundary source"
+      }
+    ]
+  },
+  "schema_version": 1,
+  "summary": "Synthetic, non-research fixture for the reusable toolkit integration.",
+  "title": "Toolkit integration fixture",
+  "updated_at": "2026-09-08T00:00:00+00:00"
+}

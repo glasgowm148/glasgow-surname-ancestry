@@ -1,0 +1,298 @@
+#!/usr/bin/env python3
+"""Publish explicit approved assessments into machine dossiers; retain import provenance.
+
+Run after dossier generation. No conclusions are extracted from narrative prose.
+"""
+import argparse
+from copy import deepcopy
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+SECTIONS = ('vitals', 'relationships', 'claims', 'events')
+REVIEW_SCHEMA = {'data_view': {'enum': ['reviewed'], 'description': 'Default fields incorporate explicit approved structured assessments.'}, 'imported': {'type': 'object', 'required': ['sections', 'provenance'], 'description': 'Original pre-review sections and their import provenance; retained for comparison.'}, 'research_assessments': {'type': 'array', 'description': 'Approved source assessments applied to default fields, including remaining questions and superseded interpretations.'}, 'events': {'type': 'array', 'description': 'Explicit reviewed events with evidence references, roles and provenance.'}}
+REVIEW_SCHEMA.update({
+    'vitals': {'type': 'object', 'description': 'Resolved vital assertions. A null date/place is unresolved, not missing display data. Identity-dependent alternatives retain their own provenance and qualifiers; display_date is conditional display text, not a resolved date.'},
+    'shared_relationship_assertions': {'type': 'array', 'items': {'type': 'string'}, 'description': 'Current claim IDs resolved from /assets/research/relationship-assessments.json; shared by reciprocal dossier and network views.'},
+    'relationship_history': {'type': 'array', 'description': 'Earlier relationship assertions with their original claim IDs and superseded_by links. Not current relationship recommendations.'},
+})
+
+
+def _resolve_approved(dossier, assessments):
+    approved = [a for a in assessments if a.get('subject', '').casefold() == dossier['id'].casefold()
+                and a.get('status') == 'approved']
+    approved.sort(key=lambda a: (a.get('reviewed', ''), a.get('id', '')))
+    if not approved and 'imported' not in dossier:
+        return deepcopy(dossier)
+    result = deepcopy(dossier)
+    snapshot = result.get('imported')
+    if snapshot is None:
+        snapshot = {'provenance': deepcopy(dossier.get('provenance', {})),
+                    'sections': {k: deepcopy(dossier[k]) for k in SECTIONS if k in dossier}}
+    for key in SECTIONS:
+        result.pop(key, None)
+        if key in snapshot['sections']:
+            result[key] = deepcopy(snapshot['sections'][key])
+    result.pop('research_assessments', None)
+    result.pop('data_view', None)
+    result.pop('imported', None)
+    if not approved:
+        return result
+    result['imported'] = deepcopy(snapshot)
+    result['data_view'] = 'reviewed'
+    result['research_assessments'] = deepcopy(approved)
+    for assessment in approved:
+        provenance = {'assessment_id': assessment['id'],
+                      'source': '/assets/research/assessments.json',
+                      'reviewed': assessment.get('reviewed'),
+                      'basis': assessment.get('basis')}
+        for kind, value in assessment.get('vitals', {}).items():
+            # A reviewed vital is a complete assertion, not a blend with stale import fields.
+            result.setdefault('vitals', {})[kind] = deepcopy(value)
+            result['vitals'][kind]['provenance'] = deepcopy(provenance)
+        for kind, qualifier in assessment.get('vital_qualifications', {}).items():
+            # A scoped qualification does not replace the underlying observation.
+            result.setdefault('vitals', {}).setdefault(kind, {}).update(
+                qualifier=qualifier, qualification_provenance=deepcopy(provenance))
+        for review in assessment.get('relationships', []):
+            group = review['group']
+            rows = result.setdefault('relationships', {}).setdefault(group, [])
+            matches = [r for r in rows if r.get('id', '').casefold() == review['target'].casefold()]
+            if not matches:
+                matches = [{'id': review['target'], 'relationship': group,
+                            'tree_relationship': False, 'evidence_ids': []}]
+                rows.extend(matches)
+            for row in matches:
+                for key in ('status', 'display'):
+                    if key in review:
+                        row[key] = review[key]
+                if 'label' in review:
+                    row['status_label'] = review['label']
+                row['basis'] = 'research_assessment'
+                row['assessment_provenance'] = deepcopy(provenance)
+                for claim in result.get('claims', []):
+                    if row.get('claim_id') and claim.get('id') == row['claim_id']:
+                        claim['status'] = row['status']
+                        claim['status_label'] = row.get('status_label', row['status'])
+                        claim['assessment_provenance'] = deepcopy(provenance)
+                        if 'display' in row:
+                            claim['display'] = row['display']
+        if 'events' in assessment:
+            events = result.setdefault('events', [])
+            for event in assessment['events']:
+                events[:] = [e for e in events if not (event.get('evidence_id') and
+                             e.get('evidence_id') == event['evidence_id'])]
+                events.append({**deepcopy(event), 'provenance': deepcopy(provenance)})
+    return result
+
+
+def shared_relationship(profile_id, relation, assessments):
+    """Resolve one explicitly assessed pair; never infer adjoining relatives."""
+    pair = {profile_id.casefold(), str(relation.get('id') or '').casefold()}
+    for assessment in assessments:
+        if assessment.get('publication_status') != 'approved':
+            continue
+        if not assessment.get('assertion_id'):
+            raise ValueError('Approved shared relationship lacks a stable assertion_id')
+        if pair != {person.casefold() for person in assessment.get('people', [])}:
+            continue
+        result = {k: deepcopy(v) for k, v in assessment.items()
+                  if k not in ('people', 'perspectives', 'historical_assertions')}
+        result.update(next((deepcopy(v) for k, v in assessment.get('perspectives', {}).items()
+                            if k.casefold() == profile_id.casefold()), {}))
+        if assessment.get('assertion_id'):
+            result.update(claim_id=assessment['assertion_id'], lifecycle='current',
+                          display='hypothesis' if assessment.get('hypothesis_status') else 'current', tree_relationship=False,
+                          relationship_source='shared_research_assertion')
+            role = result.get('relationship', 'relationship')
+            prefix = {'proved': 'Documented', 'strongly_supported': 'Strongly identified',
+                      'possible': 'Possible'}.get(result['status'], result['status'].replace('_', ' ').capitalize())
+            result.setdefault('status_label', prefix + ' ' + role)
+            result['assessment_source'] = '/assets/research/relationship-assessments.json'
+            result['record_source'] = '/assets/research/canonical-records.json'
+            result['historical_claim_ids'] = [h['claim_id'] for h in assessment.get('historical_assertions', [])
+                                               if h['profile_id'].casefold() == profile_id.casefold()]
+        return result
+    return None
+
+
+def _sync_presentation(result):
+    # These are derived mirrors of research facts, never decision inputs.
+    if 'presentation' in result:
+        result['presentation']['vitals'] = deepcopy(result.get('vitals', {}))
+        result['presentation']['relationships'] = deepcopy(result.get('relationships', {}))
+    return result
+
+
+def resolve(dossier, assessments, shared_assessments=()):
+    for assessment in shared_assessments:
+        if assessment.get('publication_status') == 'approved' and not assessment.get('assertion_id'):
+            raise ValueError('Approved shared relationship lacks a stable assertion_id')
+    result = _resolve_approved(dossier, assessments)
+    result.pop('relationship_history', None)
+    result.pop('shared_relationship_assertions', None)
+    active = [a for a in shared_assessments if a.get('assertion_id')
+              and a.get('publication_status') == 'approved'
+              and dossier['id'].casefold() in {p.casefold() for p in a['people']}]
+    if not active:
+        return _sync_presentation(result)
+    result.setdefault('imported', deepcopy(dossier.get('imported') or {
+        'provenance': dossier.get('provenance', {}),
+        'sections': {k: dossier[k] for k in SECTIONS if k in dossier}}))
+    result['data_view'] = 'reviewed'
+    result.setdefault('research_assessments', [])
+    result['shared_relationship_assertions'] = [a['assertion_id'] for a in active]
+    history = result['relationship_history'] = []
+    for assessment in active:
+        aid = assessment['assertion_id']
+        claims = result.setdefault('claims', [])
+        previous_ids = []
+        for previous in assessment.get('historical_assertions', []):
+            if previous['profile_id'].casefold() != dossier['id'].casefold():
+                continue
+            previous_ids.append(previous['claim_id'])
+            for claim in claims:
+                if claim['id'] == previous['claim_id']:
+                    # Keep the exact original wording/evidence in the import snapshot
+                    # and this historical assertion. Retire only its stated scope.
+                    claim.update(lifecycle='historical', status='superseded',
+                                 status_label=previous['label'], superseded_by=aid,
+                                 supersession_scope=previous['scope'])
+        found = False
+        for group, rows in result.get('relationships', {}).items():
+            for index, row in enumerate(rows):
+                resolved = shared_relationship(dossier['id'], row, [assessment])
+                if not resolved:
+                    continue
+                historical = deepcopy(row)
+                historical.update(lifecycle='historical', superseded_by=aid)
+                if historical.get('claim_id') in previous_ids:
+                    historical.update(status='superseded', status_label='Historical attachment; not established')
+                history.append(historical)
+                old_id = row.get('claim_id')
+                if old_id and old_id != aid and old_id not in previous_ids:
+                    previous_ids.append(old_id)
+                    for old_claim in claims:
+                        if old_claim.get('id') == old_id:
+                            old_claim.update(lifecycle='historical', superseded_by=aid,
+                                             supersession_scope='The previous relationship assessment is replaced by the reviewed record basis; this does not reject the relationship.')
+                # Do not carry the earlier assessment's evidence or verdict into
+                # the new assertion merely because it references the same person.
+                clean = {k: deepcopy(row[k]) for k in ('id', 'name', 'url', 'json_url', 'network_url', 'wikitree_url') if k in row}
+                resolved['historical_claim_ids'] = list(previous_ids)
+                rows[index] = {**clean, **resolved}
+                current = resolved
+                found = True
+        if not found:
+            raise ValueError(f"Shared assertion {aid} has no relationship on {dossier['id']}")
+        # Status, role, interpretation and citations come from the same reviewed
+        # pair and its explicit viewing-person perspective, not a UI override.
+        claim = {k: deepcopy(current[k]) for k in (
+            'status', 'status_label', 'relationship', 'reason', 'basis', 'source_ids',
+            'hypothesis_status', 'limitations', 'identity_scope', 'analysis_links',
+            'provenance', 'research_basis', 'assessment_date', 'assessment_source', 'record_source') if k in current}
+        claim.update(id=aid, type='relationship_hypothesis' if assessment.get('hypothesis_status') else 'assessed_relationship',
+                     subject_ids=assessment['people'], perspective_id=dossier['id'],
+                     claim=assessment.get('claim') or current['reason'],
+                     notes=current['reason'], lifecycle='current', historical_claim_ids=previous_ids)
+        claim['evidence_ids'] = []  # source_ids identify canonical records, not imported evidence items.
+        claims[:] = [c for c in claims if c.get('id') != aid]
+        claims.append(claim)
+    return _sync_presentation(result)
+
+
+def resolve_index_row(row, reviewed):
+    row = deepcopy(row.get('imported', row))
+    dossier = reviewed.get(row.get('id', '').casefold())
+    if not dossier:
+        return row
+    row['imported'] = deepcopy(row)
+    row['data_view'] = 'reviewed'
+    row['assessment_provenance'] = [a['id'] for a in dossier['research_assessments']]
+    for assessment in dossier['research_assessments']:
+        for kind, vital in assessment.get('vitals', {}).items():
+            row[kind + '_place'] = vital.get('place')
+            row[kind + '_status'] = vital.get('status')
+            date = str(vital.get('date', ''))
+            row[kind + '_year'] = int(date[:4]) if len(date) >= 4 and date[:4].isdigit() else None
+    row['reviewed_relationships'] = deepcopy(dossier['relationships'])
+    row['reviewed_vitals'] = deepcopy(dossier.get('vitals', {}))
+    if any(r.get('group') == 'parents' for a in dossier['research_assessments']
+           for r in a.get('relationships', [])):
+        parents = [r for r in dossier['relationships'].get('parents', [])
+                   if r.get('status') in ('proved', 'strongly_supported')
+                   and r.get('display') != 'alternative']
+        row['parent_ids'] = [r['id'] for r in parents]
+        row['parent_names'] = [r.get('name', r['id']) for r in parents]
+        for role in ('father', 'mother'):
+            row[role + '_id'] = next((r['id'] for r in parents if r.get('relationship') == role), None)
+    return row
+
+
+def publish(root=ROOT / 'www'):
+    path = root / 'assets/research/assessments.json'
+    assessments = json.loads(path.read_text()).get('assessments', [])
+    shared_path = root / 'assets/research/relationship-assessments.json'
+    if root.resolve() == (ROOT / 'www').resolve():
+        shared_path.write_text((ROOT / 'research/relationship_assessments.json').read_text())
+        (root / 'assets/research/canonical-records.json').write_text((ROOT / 'research/canonical_records.json').read_text())
+    shared = json.loads(shared_path.read_text()) if shared_path.exists() else []
+    changed = 0
+    reviewed = {}
+    for path in sorted((root / 'people').glob('*.json')):
+        if path.name.endswith('.network.json'):
+            continue
+        original = json.loads(path.read_text())
+        resolved = resolve(original, assessments, shared)
+        if resolved.get('data_view') == 'reviewed':
+            reviewed[resolved['id'].casefold()] = resolved
+        if resolved != original:
+            path.write_text(json.dumps(resolved, ensure_ascii=False, separators=(',', ':')) + '\n')
+            changed += 1
+    for path in [root / 'data/people-index.json', root / 'data/people-index.js',
+                 *sorted((root / 'data/resolve').glob('*.json'))]:
+        if not path.exists():
+            continue
+        raw = path.read_text()
+        prefix = raw.split('=', 1)[0] + '=' if path.suffix == '.js' else ''
+        payload = json.loads(raw[len(prefix):].strip().rstrip(';'))
+        before = deepcopy(payload)
+        if isinstance(payload, list):
+            payload = [resolve_index_row(row, reviewed) for row in payload]
+        elif 'candidates' in payload:
+            payload['candidates'] = [resolve_index_row(row, reviewed) for row in payload['candidates']]
+        if payload != before:
+            path.write_text(prefix + json.dumps(payload, ensure_ascii=False, separators=(',', ':')) + (';\n' if prefix else '\n'))
+    for path in sorted((root / 'people').glob('*.network.json')):
+        before = json.loads(path.read_text())
+        network = deepcopy(before.get('imported', before))
+        dossier = reviewed.get(network.get('person', {}).get('id', '').casefold())
+        if dossier:
+            network['imported'] = deepcopy(network)
+            network['data_view'] = 'reviewed'
+            network['relationships'] = [deepcopy(r) for rows in dossier['relationships'].values() for r in rows]
+            network['vitals'] = deepcopy(dossier.get('vitals', {}))
+            network['assessment_provenance'] = [a['id'] for a in dossier['research_assessments']]
+            if dossier.get('shared_relationship_assertions'):
+                network['shared_relationship_assertions'] = deepcopy(dossier['shared_relationship_assertions'])
+                network['relationship_history'] = deepcopy(dossier['relationship_history'])
+                ids = set(network['shared_relationship_assertions']) | {r.get('claim_id') for r in network['relationship_history']}
+                network['claims'] = [deepcopy(c) for c in dossier.get('claims', [])
+                                     if c.get('id') in ids or c.get('superseded_by') in ids]
+        if network != before:
+            path.write_text(json.dumps(network, ensure_ascii=False, separators=(',', ':')) + '\n')
+    schema_path = root / 'data/schema/person.schema.json'
+    if schema_path.exists():
+        schema = json.loads(schema_path.read_text())
+        before = deepcopy(schema)
+        schema.setdefault('properties', {}).update(REVIEW_SCHEMA)
+        if schema != before:
+            schema_path.write_text(json.dumps(schema, indent=2) + '\n')
+    return changed
+
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--www', type=Path, default=ROOT / 'www')
+    args = parser.parse_args()
+    print(f'Resolved dossiers updated: {publish(args.www)}')

@@ -4,18 +4,25 @@
 
 This Larne man is not [James Glasgow (Glasgow-4024)](https://www.wikitree.com/wiki/Glasgow-4024) of Cookstown, buried at St Luran's on 13 March 1831 aged 40. The reported age implies birth about 1790–1791, and the locality and burial context also differ. The Cookstown man was created separately, unconnected. See the [burial transcript](https://www.cotyroneireland.com/churchrecord/saintluran1830-1849.html).
 
-Last updated: 2026-08-11
+Last updated: 2026-09-13
 
 ## Current conclusion
 
-James is currently attached as an uncertain son of the ropemaker James
-`Glasgow-1509`. That is a reasonable working placement: a birth about 1773 falls
+[Compare the Larne, Inishrush and American family reconstruction](/people/glasgow-951.html#larne-reconstruction), including the alternative immediate-parent routes and their source tests.
+
+James is a possible son of the ropemaker [James Glasgow (Glasgow-1509)](https://www.wikitree.com/wiki/Glasgow-1509).
+That is a reasonable working hypothesis: a birth about 1773 falls
 about eleven years after the reported 1762 James Glasgow-Janet Shutter marriage.
+Separately, he is now the leading identified candidate for the possible father
+named James in Alexander `Glasgow-951`'s parentage research, but no record yet
+connects the Larne and Lisnagaver households.
 
 His earlier placement as a direct son of William `Glasgow-1505`, born about
 1708, produced a roughly 65-year generational gap. Direct fatherhood is possible,
 but grandson or later-descendant status through the ropemaker is chronologically
-more natural. The move is a hypothesis refinement, not proof of the new edge.
+more natural. The proposed placement is a hypothesis refinement, not proof of
+the new edge. The live biography checked on 13 September still describes an
+attachment to William; a completed live relationship change has not been verified.
 
 The derivative family chronology is internally inconsistent about which William
 shared a memorial with this James. The published 1899 armorial-stone article does
@@ -30,7 +37,7 @@ attachment should remain explicitly provisional.
 | [Archived Kilwaughter chronology](https://web.archive.org/web/20101124184247id_/http://lifesweaving.com/Glasgow/Kilwaughter/Timeline.html) | Places a later James in the Larne reconstruction but uses inconsistent generational/stone notation. | Useful identity lead; not reliable proof of his father. |
 | [Bigger and Hughes, Larne Parish Churchyard inscriptions](https://archive.org/stream/ulsterjournalofa06ulstiala/ulsterjournalofa06ulstiala_djvu.txt), p. 47 | Publishes Hugh's family stone and the younger William-and-Elizabeth stone, but not the alleged older William-and-James inscription. | Negative source check; the missing stone must be found elsewhere. |
 
-## Next proof targets
+## Priority unresolved records
 
 - Obtain the reported shared memorial photograph or full transcription.
 - Search Larne/Kilwaughter baptisms after the `MIC/1B/6` 1769 cutoff in any
@@ -44,4 +51,71 @@ Two late Larne memorials provide the first useful occupational evidence for a yo
 - A [release dated 16 April 1795](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSH3-Q9B8-H) concerning garden ground on the south side of Newtown of Larne was witnessed by **James Glasgow of Larne, merchant**, and Charles McGarel, gentleman.
 - An [assignment recorded in 1797](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSH3-Q96R-C) concerning a Larne tenement near Charles Dawson Stewart's tanyard was witnessed by Alexander Kitchey and signed in the witness clause by **James Glasgow junior**.
 
-A man born about 1773 would have been about twenty-two in 1795 and twenty-four in 1797. The merchant and junior descriptions therefore fit this profile better than the older ropemaker `Glasgow-1509`. They do not prove his parentage: “junior” distinguishes him from an older same-name man but does not necessarily mean son. The current uncertain attachment to `Glasgow-1509` should remain provisional.
+A man born about 1773 would have been about twenty-two in 1795 and twenty-four in 1797. The merchant and junior descriptions therefore fit this profile better than the older ropemaker `Glasgow-1509`. They do not prove his parentage: “junior” distinguishes him from an older same-name man but does not necessarily mean son. The proposed relationship to `Glasgow-1509` should remain provisional.
+
+## Relationship assessment: possible connection to Alexander Glasgow of Lisnagaver — 13 September 2026
+
+[Alexander Glasgow (Glasgow-951)](https://www.wikitree.com/wiki/Glasgow-951)
+used the name James for his first recorded son in 1837 and again in 1843 after
+the earlier child apparently died. This makes the Larne James a worthwhile
+identified candidate for Alexander's otherwise unproved father-name hypothesis.
+His profile-based research score is 24/100, driven by a plausible 38-year age
+gap, broad County Antrim geography and the naming pattern.
+
+The match remains weak. The records provisionally associated with James place their subject at Larne, while Alexander's
+documented network is at Lisnagaver and nearby Rasharkin townlands. No inspected
+deed, baptism, will, lease or family record links the men. The score ranks the
+lead and is not a probability or evidence of fatherhood.
+
+As a possible son of the older Larne ropemaker `Glasgow-1509`, James is a useful
+alternative later-generation route to Alexander `Glasgow-951`, separate from the
+older Alexander `Glasgow-3904` tradition. His age can accommodate fatherhood in
+the relevant generation, but there is no naming-based probability and no bridge
+from Larne to Lisnagaver. The hypothesis does not establish a father, permit a
+merge, or alter any attachment.
+
+## Source findings: bounded route search — 13 September 2026
+
+The specific hypothesis tested was that this James was the father of
+[Alexander Glasgow (Glasgow-951)](https://www.wikitree.com/wiki/Glasgow-951).
+No new documentary link was recovered. The existing 1795 merchant and 1797
+junior references identify useful Larne occurrences, but their association with
+this profile is itself provisional. Neither names a son Alexander, a spouse,
+Lisnagaver, Rasharkin or a move towards the Bann Valley. His reported 1773 birth
+allows fatherhood around 1811; chronology alone cannot establish it. The
+reported 1831 death also remains dependent on the unrecovered memorial account;
+the excluded Cookstown burial cannot verify it.
+
+Repository review covered this case, the older ropemaker's dossier and Alexander's
+maintained parent-candidate account. Bounded web searches used `"James Glasgow"
+"Larne" "1831"`, `"James Glasgow" "Lisnagaver"`, `"James Glasgow"
+"Rasharkin"`, `"James Glasgow" "Larne" merchant`, `"James Glasgow" "Larne"
+"Alexander"`, and `site:irishdeedsindex.net "Glasgow" "Lisnagaver"`.
+No returned item supplied the required identity or kinship bridge. This records
+search-engine results, not an exhaustive negative search of deed indexes,
+parish registers or estate papers.
+
+An [Irish Manuscripts Commission volume of Registry of Deeds will abstracts,
+1785–1832](https://www.irishmanuscripts.ie/digital/Registry%20Of%20Deeds%20Abstracts%20Of%20Wills%20Vol%20III%201785-1832/Registry%20Of%20Deeds%20Abstracts%20Of%20Wills%20Vol%20III%201785-1832.pdf)
+was located for the already-known Alexander Holmes Larne will. Direct access
+returned HTTP 403; it was not newly inspected and supplies no new link to
+Alexander Glasgow. The older ropemaker's Holmes association must not be
+transferred to this younger James solely from the shared name.
+
+The [live WikiTree API](https://api.wikitree.com/api.php?action=getProfile&key=Glasgow-3986&fields=Name,BirthDate,DeathDate,BirthLocation,DeathLocation,Father,Mother,Bio)
+returned the existing two deed citations and the reported memorial chronology;
+its biography still names William as the attached father. Follow-up API checks
+returned `Limit exceeded`. No live edit was made and no new original deed image
+was inspected in this batch.
+
+## Priority relationship tests
+
+1. Recover the full William-and-James memorial to establish whether the reported
+   dates, family grouping and identity are correct.
+2. Follow the 1795 merchant and 1797 junior through later Larne deeds, recording
+   occupation, spouse, property, witnesses and any changed residence. An estate
+   abstract or deed naming a child Alexander would materially advance the test.
+3. Compare any resulting named relatives or property with the earliest
+   Lisnagaver leases and Alexander's documented household. County-level overlap
+   and repeated given names remain leads; retain the present weak candidate
+   assessment until a record supplies the connection.

@@ -4,9 +4,9 @@
 
 The original testament identifies Katherine as the spouse of **Thomas Weir of
 the parish of Stevenston**, says she died in **January 1603**, and was confirmed
-in **May 1605**. The precise confirmation day is unresolved: the manuscript
-appears to read **[26?] May 1605**, whereas Findmypast and Grant's printed
-calendar give **9 May 1605**. Neither reading is a death or marriage date. The existing
+on **9 May 1605**. Fresh visual review on 10 September 2026 reads
+**“the nynt day of may 1605”** on NRS CC9/7/4 image 7, superseding the
+earlier **[26?]** reading and agreeing with Findmypast and Grant. This is not a death or marriage date. The existing
 [Thomas Weir profile (Weir-4172)](https://www.wikitree.com/wiki/Weir-4172)
 has now been repurposed for this record-defined Stevenston husband: its former
 structured 1590 Aberdeen birth was replaced by an uncertain birth before 1580.
@@ -34,10 +34,10 @@ Stevenston birth-location inference without presenting either as direct fact.
 
 | Source | Finding | Assessment |
 | --- | --- | --- |
-| Francis J. Grant, ed., *The Commissariot Record of Glasgow: Register of Testaments, 1547-1800* (Edinburgh, 1901), [p. 196](https://archive.org/details/scottishrecordso07scotuoft/page/196/mode/1up), citing Glasgow Commissary Court CC9/7/4 | `Glasgow, Katherine, spouse to Thomas Weir, par. of Steinstone 9 May 1605.` | Direct printed evidence of spouse and parish; gives 9 May, in conflict with the manuscript's apparent `[26?] May`. |
-| [Findmypast SCOT/WILLS/057453](https://www.findmypast.co.uk/transcript?id=SCOT%2FWILLS%2F057453&tab=this), Scotland, Will and Testament Index 1481–1807 | Katherine Glasgow, spouse of Thomas Weir, parish of Steinstone; 9 May 1605. | Independent access to the printed/index tradition, not a resolution of the manuscript day. |
+| Francis J. Grant, ed., *The Commissariot Record of Glasgow: Register of Testaments, 1547-1800* (Edinburgh, 1901), [p. 196](https://archive.org/details/scottishrecordso07scotuoft/page/196/mode/1up), citing Glasgow Commissary Court CC9/7/4 | `Glasgow, Katherine, spouse to Thomas Weir, par. of Steinstone 9 May 1605.` | Direct printed evidence of spouse and parish; gives 9 May, now also read in the manuscript as “the nynt day of may 1605” (fresh image 7 review, 10 September 2026). |
+| [Findmypast SCOT/WILLS/057453](https://www.findmypast.co.uk/transcript?id=SCOT%2FWILLS%2F057453&tab=this), Scotland, Will and Testament Index 1481–1807 | Katherine Glasgow, spouse of Thomas Weir, parish of Steinstone; 9 May 1605. | Access to the printed/index tradition; its 9 May date now agrees with the fresh original-image reading. |
 | [Current Thomas Weir profile](https://www.wikitree.com/wiki/Weir-4172), checked 22 July 2026 | Weir-4172 now represents Thomas Weir born before 1580; the former 1590 Aberdeen identity has been removed. | Compatible existing-profile mapping for Katherine's record-defined husband. |
-| NRS Glasgow Commissary Court CC9/7/4, images 6–7 | The opening identifies Katherine as Thomas Weir's wife in Stevenston parish and gives death in January 1603. The confirmation date appears `[26?] May 1605`. William, James and probably Jonet Weir were three minor executors, with Thomas acting in their names. | Direct for wife, parish, death month/year, minority and executorship. The three are very probably the couple's children, but no explicit parent-child term survives. Working transcription supplied 8 September 2026. |
+| NRS Glasgow Commissary Court CC9/7/4, images 6–7 | The opening identifies Katherine as Thomas Weir's wife in Stevenston parish and gives death in January 1603. The confirmation date reads “the nynt day of may 1605”: 9 May 1605; fresh image 7 review supersedes `[26?]`. William, James and probably Jonet Weir were three minor executors, with Thomas acting in their names. | Direct for wife, parish, death month/year, minority and executorship. The three are very probably the couple's children, but no explicit parent-child term survives. Working transcription supplied 8 September 2026. |
 
 The testament begins at the bottom of image 6; most of that image belongs to
 another estate. The debts name James, Earl of Glencairn, and Mr Alexander
@@ -111,8 +111,8 @@ Katherine Glasgow (Glasgow-1495), died January 1603
    as an uncertain residence-based death location.
 2. Retain Weir-4172 as spouse; it now represents the Stevenston man.
 3. Keep the structured marriage date blank. Record confirmation only in the
-   biography as May 1605 with the day unresolved (`[26?]` in the manuscript;
-   `9` in Findmypast and Grant).
+   biography as 9 May 1605: “the nynt day of may 1605” on image 7, agreeing
+   with Findmypast and Grant. The previous `[26?]` reading is superseded.
 4. Do not restore Weir-4172's former Aberdeen birth or identity.
 5. Do not restore the removed speculative paleographic narrative about an
    insolvent estate, `Sir Dafnes`, Stafford and unidentified administrators.
@@ -135,7 +135,7 @@ husband and removes the former speculative manuscript narrative. The newly
 read testament correction is not yet fully live: Katherine's structured death
 still uses 9 May 1605 as a ''before'' boundary and must be corrected to January
 1603, with Stevenston uncertain as a residence-derived place. The complete
-replacement draft preserves the confirmation-day conflict and identifies the
+replacement draft must reflect the resolved 9 May confirmation date and identifies the
 three minors as probable children rather than unrelated associates or
 explicitly proved children. Their duplicate audits are complete and all three
 creation drafts include paste-ready profile text.
@@ -154,7 +154,7 @@ Notes and retained relationship cautions, is in
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-26c2dd21572c -->
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-26c2dd21572c
 
-The transcript-validated testament/probate record for **Katherine Glasgow**, indexed as 9 May 1605, is assigned to this profile by the completed person-level WikiTree audit. The original manuscript appears to give `[26?] May 1605`, so only the month and year are settled. This assignment does not merge any other same-name event.
+The transcript-validated testament/probate record for **Katherine Glasgow**, indexed as 9 May 1605, is assigned to this profile by the completed person-level WikiTree audit. Fresh original-image review on 10 September 2026 reads “the nynt day of may 1605” (image 7), confirming 9 May and superseding `[26?]`. This assignment does not merge any other same-name event.
 
 ## Source findings
 

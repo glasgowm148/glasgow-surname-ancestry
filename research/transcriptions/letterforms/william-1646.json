@@ -1,0 +1,826 @@
+{
+  "id": "william-1646",
+  "review": {
+    "date": "2026-09-10",
+    "model": "gpt-6-astra",
+    "reasoning_effort": "xhigh",
+    "method": "Original-image review and source-pixel focus envelopes. Shared presentation expanded from the compact vision handoff; literal abbreviations, crossing ink and uncertainty retained."
+  },
+  "studies": [
+    {
+      "id": "william-1646-subject",
+      "title": "Wm Glasgow",
+      "nav_label": "Wm Glasgow",
+      "image": "/assets/research/testament-crops/william-1646-identity.jpg",
+      "image_width": 1500,
+      "image_height": 374,
+      "region": [
+        91,
+        90,
+        1333,
+        227
+      ],
+      "reading": "Wm / Glasgow",
+      "expansion": "William Glasgow",
+      "confidence": "High for maintained identity and abbreviation",
+      "context": "Read Wm at the right and Glasgow at the next line's left.",
+      "review_status": "source-aligned",
+      "locator_note": "Read Wm at the right and Glasgow at the next line's left. The teaching text retains Wm; William is the expansion.",
+      "conclusion": "The occupation and Leith setting establish context, not parents or an earlier family.",
+      "letters": [
+        {
+          "id": "william-1646-subject-w1-g1",
+          "glyph": "W",
+          "label": "Wm: W",
+          "region": [
+            1270,
+            90,
+            85,
+            118
+          ],
+          "paths": [],
+          "observed": "The larger first movement is the abbreviated forename's W.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "william-1646-subject-w1-g2",
+          "glyph": "m",
+          "label": "Wm: m",
+          "region": [
+            1345,
+            90,
+            79,
+            118
+          ],
+          "paths": [],
+          "observed": "The small raised m completes the abbreviation; illiam is not written out.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "william-1646-subject-w2-g1",
+          "glyph": "Glas",
+          "label": "Glasgow: Glas",
+          "region": [
+            91,
+            146,
+            141,
+            171
+          ],
+          "paths": [],
+          "observed": "Return left below for the surname and its broad initial.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "william-1646-subject-w2-g2",
+          "glyph": "gow",
+          "label": "Glasgow: gow",
+          "region": [
+            222,
+            146,
+            143,
+            171
+          ],
+          "paths": [],
+          "observed": "The lower strokes and final group lead into Meilmaker.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        }
+      ],
+      "words": [
+        {
+          "text": "Wm",
+          "region": [
+            1270,
+            90,
+            154,
+            118
+          ],
+          "focus_polygon": [
+            [
+              1270,
+              90
+            ],
+            [
+              1424,
+              90
+            ],
+            [
+              1424,
+              208
+            ],
+            [
+              1270,
+              208
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "william-1646-subject-w1-g1",
+              "start": 0,
+              "end": 1
+            },
+            {
+              "letter_id": "william-1646-subject-w1-g2",
+              "start": 1,
+              "end": 2
+            }
+          ]
+        },
+        {
+          "text": "Glasgow",
+          "region": [
+            91,
+            146,
+            274,
+            171
+          ],
+          "focus_polygon": [
+            [
+              91,
+              146
+            ],
+            [
+              365,
+              146
+            ],
+            [
+              365,
+              317
+            ],
+            [
+              91,
+              317
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "william-1646-subject-w2-g1",
+              "start": 0,
+              "end": 4
+            },
+            {
+              "letter_id": "william-1646-subject-w2-g2",
+              "start": 4,
+              "end": 7
+            }
+          ]
+        }
+      ],
+      "reading_steps": [
+        {
+          "title": "Inspect Wm",
+          "region": [
+            1270,
+            90,
+            154,
+            118
+          ],
+          "text": "The larger first movement is the abbreviated forename's W. The small raised m completes the abbreviation; illiam is not written out."
+        },
+        {
+          "title": "Inspect Glasgow",
+          "region": [
+            91,
+            146,
+            274,
+            171
+          ],
+          "text": "Return left below for the surname and its broad initial. The lower strokes and final group lead into Meilmaker."
+        },
+        {
+          "title": "Read the word in context",
+          "region": [
+            91,
+            90,
+            1333,
+            227
+          ],
+          "text": "Read Wm at the right and Glasgow at the next line's left."
+        },
+        {
+          "title": "Keep the conclusion within the evidence",
+          "region": [
+            91,
+            90,
+            1333,
+            227
+          ],
+          "text": "The teaching text retains Wm; William is the expansion."
+        }
+      ],
+      "same_hand_comparisons": []
+    },
+    {
+      "id": "william-1646-archibald",
+      "title": "Archibald Glasgow",
+      "nav_label": "Archibald Glasgow",
+      "image": "/assets/research/testament-crops/william-1646-son.jpg",
+      "image_width": 1500,
+      "image_height": 407,
+      "region": [
+        47,
+        6,
+        1398,
+        223
+      ],
+      "reading": "Archibald glas- / gow",
+      "expansion": "Archibald Glasgow",
+      "confidence": "High for named son; surname divided across lines",
+      "context": "Join glas- at the line end to gow below.",
+      "review_status": "source-aligned",
+      "locator_note": "Join glas- at the line end to gow below. Then read sone lawfull to the defunct as the relationship, separate from the executor office.",
+      "conclusion": "The hyphen is a line-break feature, not a different surname; the mother is not named.",
+      "letters": [
+        {
+          "id": "william-1646-archibald-w1-g1",
+          "glyph": "Arch",
+          "label": "Archibald: Arch",
+          "region": [
+            1001,
+            6,
+            146,
+            145
+          ],
+          "paths": [],
+          "observed": "The broad opening follows given up be.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "william-1646-archibald-w1-g2",
+          "glyph": "ibald",
+          "label": "Archibald: ibald",
+          "region": [
+            1137,
+            6,
+            181,
+            145
+          ],
+          "paths": [],
+          "observed": "The taller b/l/d movements finish the name before the surname.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "william-1646-archibald-w2-g1",
+          "glyph": "g",
+          "label": "glas-: g",
+          "region": [
+            1290,
+            7,
+            58,
+            151
+          ],
+          "paths": [],
+          "observed": "The surname starts near the right edge with a descending g.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "william-1646-archibald-w2-g2",
+          "glyph": "las-",
+          "label": "glas-: las-",
+          "region": [
+            1338,
+            7,
+            107,
+            151
+          ],
+          "paths": [],
+          "observed": "The written first fragment ends at the line's hyphen.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "william-1646-archibald-w3-g1",
+          "glyph": "g",
+          "label": "gow: g",
+          "region": [
+            47,
+            101,
+            58,
+            128
+          ],
+          "paths": [],
+          "observed": "Return left on the following line for the surname's second part.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "william-1646-archibald-w3-g2",
+          "glyph": "ow",
+          "label": "gow: ow",
+          "region": [
+            95,
+            101,
+            78,
+            128
+          ],
+          "paths": [],
+          "observed": "The ow group completes Glasgow before sone.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        }
+      ],
+      "words": [
+        {
+          "text": "Archibald",
+          "region": [
+            1001,
+            6,
+            317,
+            145
+          ],
+          "focus_polygon": [
+            [
+              1001,
+              6
+            ],
+            [
+              1318,
+              6
+            ],
+            [
+              1318,
+              151
+            ],
+            [
+              1001,
+              151
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "william-1646-archibald-w1-g1",
+              "start": 0,
+              "end": 4
+            },
+            {
+              "letter_id": "william-1646-archibald-w1-g2",
+              "start": 4,
+              "end": 9
+            }
+          ]
+        },
+        {
+          "text": "glas-",
+          "region": [
+            1290,
+            7,
+            155,
+            151
+          ],
+          "focus_polygon": [
+            [
+              1290,
+              7
+            ],
+            [
+              1445,
+              7
+            ],
+            [
+              1445,
+              158
+            ],
+            [
+              1290,
+              158
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "william-1646-archibald-w2-g1",
+              "start": 0,
+              "end": 1
+            },
+            {
+              "letter_id": "william-1646-archibald-w2-g2",
+              "start": 1,
+              "end": 5
+            }
+          ]
+        },
+        {
+          "text": "gow",
+          "region": [
+            47,
+            101,
+            126,
+            128
+          ],
+          "focus_polygon": [
+            [
+              47,
+              101
+            ],
+            [
+              173,
+              101
+            ],
+            [
+              173,
+              229
+            ],
+            [
+              47,
+              229
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "william-1646-archibald-w3-g1",
+              "start": 0,
+              "end": 1
+            },
+            {
+              "letter_id": "william-1646-archibald-w3-g2",
+              "start": 1,
+              "end": 3
+            }
+          ]
+        }
+      ],
+      "reading_steps": [
+        {
+          "title": "Inspect Archibald",
+          "region": [
+            1001,
+            6,
+            317,
+            145
+          ],
+          "text": "The broad opening follows given up be. The taller b/l/d movements finish the name before the surname."
+        },
+        {
+          "title": "Inspect glas-",
+          "region": [
+            1290,
+            7,
+            155,
+            151
+          ],
+          "text": "The surname starts near the right edge with a descending g. The written first fragment ends at the line's hyphen."
+        },
+        {
+          "title": "Inspect gow",
+          "region": [
+            47,
+            101,
+            126,
+            128
+          ],
+          "text": "Return left on the following line for the surname's second part. The ow group completes Glasgow before sone."
+        },
+        {
+          "title": "Read the word in context",
+          "region": [
+            47,
+            6,
+            1398,
+            223
+          ],
+          "text": "Join glas- at the line end to gow below."
+        },
+        {
+          "title": "Keep the conclusion within the evidence",
+          "region": [
+            47,
+            6,
+            1398,
+            223
+          ],
+          "text": "Then read sone lawfull to the defunct as the relationship, separate from the executor office."
+        }
+      ],
+      "same_hand_comparisons": []
+    },
+    {
+      "id": "william-1646-diagnostic-letters",
+      "title": "Lawful son; his father",
+      "nav_label": "Lawful son; his father",
+      "image": "/assets/research/testament-crops/william-1646-son.jpg",
+      "image_width": 1500,
+      "image_height": 407,
+      "region": [
+        156,
+        73,
+        677,
+        238
+      ],
+      "reading": "sone lawfull ... his said umqle father",
+      "expansion": "Lawful son; his father",
+      "confidence": "High for direct father-son wording",
+      "context": "Read sone lawfull to the defunct directly after Archibald's wrapped surname.",
+      "review_status": "source-aligned",
+      "locator_note": "Read sone lawfull to the defunct directly after Archibald's wrapped surname. Follow the later his said umqle father for the reciprocal relationship. Executor dative is a separate office and would not alone establish sonship.",
+      "conclusion": "This establishes William and Archibald's relationship, not Archibald's mother.",
+      "letters": [
+        {
+          "id": "william-1646-diagnostic-letters-w1-g1",
+          "glyph": "s",
+          "label": "sone: s",
+          "region": [
+            156,
+            73,
+            59,
+            145
+          ],
+          "paths": [],
+          "observed": "The long opening follows the completed surname.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "william-1646-diagnostic-letters-w1-g2",
+          "glyph": "one",
+          "label": "sone: one",
+          "region": [
+            205,
+            73,
+            103,
+            145
+          ],
+          "paths": [],
+          "observed": "Short joined one strokes form the rest of the word.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "william-1646-diagnostic-letters-w2-g1",
+          "glyph": "law",
+          "label": "lawfull: law",
+          "region": [
+            292,
+            74,
+            107,
+            148
+          ],
+          "paths": [],
+          "observed": "Taller opening movements lead through law.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "william-1646-diagnostic-letters-w2-g2",
+          "glyph": "full",
+          "label": "lawfull: full",
+          "region": [
+            389,
+            74,
+            103,
+            148
+          ],
+          "paths": [],
+          "observed": "The long f and ending uprights distinguish the latter group.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "william-1646-diagnostic-letters-w3-g1",
+          "glyph": "fa",
+          "label": "father: fa",
+          "region": [
+            643,
+            160,
+            84,
+            151
+          ],
+          "paths": [],
+          "observed": "The long f descends from the beginning of the reciprocal noun.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "william-1646-diagnostic-letters-w3-g2",
+          "glyph": "ther",
+          "label": "father: ther",
+          "region": [
+            717,
+            160,
+            116,
+            151
+          ],
+          "paths": [],
+          "observed": "The taller h and compressed ending complete father.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        }
+      ],
+      "words": [
+        {
+          "text": "sone",
+          "region": [
+            156,
+            73,
+            152,
+            145
+          ],
+          "focus_polygon": [
+            [
+              156,
+              73
+            ],
+            [
+              308,
+              73
+            ],
+            [
+              308,
+              218
+            ],
+            [
+              156,
+              218
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "william-1646-diagnostic-letters-w1-g1",
+              "start": 0,
+              "end": 1
+            },
+            {
+              "letter_id": "william-1646-diagnostic-letters-w1-g2",
+              "start": 1,
+              "end": 4
+            }
+          ]
+        },
+        {
+          "text": "lawfull",
+          "region": [
+            292,
+            74,
+            200,
+            148
+          ],
+          "focus_polygon": [
+            [
+              292,
+              74
+            ],
+            [
+              492,
+              74
+            ],
+            [
+              492,
+              222
+            ],
+            [
+              292,
+              222
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "william-1646-diagnostic-letters-w2-g1",
+              "start": 0,
+              "end": 3
+            },
+            {
+              "letter_id": "william-1646-diagnostic-letters-w2-g2",
+              "start": 3,
+              "end": 7
+            }
+          ]
+        },
+        {
+          "text": "father",
+          "region": [
+            643,
+            160,
+            190,
+            151
+          ],
+          "focus_polygon": [
+            [
+              643,
+              160
+            ],
+            [
+              833,
+              160
+            ],
+            [
+              833,
+              311
+            ],
+            [
+              643,
+              311
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "william-1646-diagnostic-letters-w3-g1",
+              "start": 0,
+              "end": 2
+            },
+            {
+              "letter_id": "william-1646-diagnostic-letters-w3-g2",
+              "start": 2,
+              "end": 6
+            }
+          ]
+        }
+      ],
+      "reading_steps": [
+        {
+          "title": "Inspect sone",
+          "region": [
+            156,
+            73,
+            152,
+            145
+          ],
+          "text": "The long opening follows the completed surname. Short joined one strokes form the rest of the word."
+        },
+        {
+          "title": "Inspect lawfull",
+          "region": [
+            292,
+            74,
+            200,
+            148
+          ],
+          "text": "Taller opening movements lead through law. The long f and ending uprights distinguish the latter group."
+        },
+        {
+          "title": "Inspect father",
+          "region": [
+            643,
+            160,
+            190,
+            151
+          ],
+          "text": "The long f descends from the beginning of the reciprocal noun. The taller h and compressed ending complete father."
+        },
+        {
+          "title": "Read the word in context",
+          "region": [
+            156,
+            73,
+            677,
+            238
+          ],
+          "text": "Read sone lawfull to the defunct directly after Archibald's wrapped surname."
+        },
+        {
+          "title": "Keep the conclusion within the evidence",
+          "region": [
+            156,
+            73,
+            677,
+            238
+          ],
+          "text": "Follow the later his said umqle father for the reciprocal relationship."
+        },
+        {
+          "title": "Keep the conclusion within the evidence",
+          "region": [
+            156,
+            73,
+            677,
+            238
+          ],
+          "text": "Executor dative is a separate office and would not alone establish sonship."
+        }
+      ],
+      "same_hand_comparisons": []
+    }
+  ],
+  "people_studies": {
+    "William Glasgow": "william-1646-subject",
+    "Archibald Glasgow": "william-1646-archibald"
+  },
+  "limitations": []
+}

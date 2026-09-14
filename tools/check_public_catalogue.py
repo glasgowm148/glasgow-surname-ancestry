@@ -19,6 +19,7 @@ REQUIRED = (
     "feedback.html", "changes.html", "status.html", "health.json",
     "data/people-index.json", "data/records-index.json", "data/places-index.json",
     "data/compare-index.js", "people/compare.js",
+    "free-space/index.html", "assets/research/free-space-index.json",
 )
 
 
@@ -26,10 +27,13 @@ class LinkParser(HTMLParser):
     def __init__(self):
         super().__init__()
         self.links: list[str] = []
+        self.base = ""
 
     def handle_starttag(self, tag, attrs):
+        values = dict(attrs)
+        if tag == "base" and values.get("href"):
+            self.base = values["href"]
         if tag in {"a", "link", "script"}:
-            values = dict(attrs)
             target = values.get("href") or values.get("src")
             if target:
                 self.links.append(target)
@@ -52,7 +56,11 @@ def local_checks() -> list[str]:
             parsed = urlsplit(link)
             if parsed.scheme or parsed.netloc or link.startswith(("#", "mailto:")):
                 continue
-            target = (path.parent / parsed.path).resolve() if parsed.path else path
+            if parsed.path.startswith("/"):
+                target = (WEB / parsed.path.lstrip("/")).resolve()
+            else:
+                base = urlsplit(parser.base).path if parser.base else ""
+                target = (path.parent / base / parsed.path).resolve() if parsed.path else path
             try:
                 target.relative_to(WEB.resolve())
             except ValueError:
@@ -72,6 +80,7 @@ def deployed_checks(base_url: str) -> list[str]:
         "catalogue.html": "Browse the complete catalogue",
         "records/": "Research records",
         "places/": "Research places",
+        "free-space/": "Free-space research pages.",
         "compare.html": "Compare two people",
         "data/compare-index.js": "window.glasgowCompareDossiers=",
         "people/compare.js": "bundled comparison data",

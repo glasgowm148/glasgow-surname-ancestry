@@ -1,0 +1,383 @@
+[
+  {
+    "record_id": "baptism-james-1837",
+    "association": "James Glasgow baptism, Rasharkin entry 75",
+    "date": "9 February 1837",
+    "year": 1837,
+    "place": "Gortereagh, Rasharkin",
+    "source_url": "https://genealogy.torrens.org/BannValley/church/RasharkinP/Baptisms_1834.html",
+    "status": "Contemporary baptism transcription",
+    "note": "Entry 75 records Jas Glascaw, born 17 January 1837 and baptised 9 February 1837, father Alex, mother Mary McAughin, residence Gortereagh. The birth date matches the early James profile; identifying the adults across later residences is a separate question.",
+    "role": "Baptism record",
+    "profiles": {
+      "Glasgow-951": {
+        "role": "Father of the baptised child, recorded as Alex",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-3939": {
+        "role": "Subject: James, the child baptised",
+        "timeline_group": "Life events"
+      },
+      "McCaughan-222": {
+        "role": "Mother of the baptised child, recorded as Mary McAughin",
+        "timeline_group": "Records mentioning this person"
+      }
+    }
+  },
+  {
+    "record_id": "baptism-unnamed-1838",
+    "association": "Unnamed Glasgow child baptism, Rasharkin entry 106",
+    "date": "1838",
+    "year": 1838,
+    "place": "Gortereagh, Rasharkin",
+    "source_url": "https://genealogy.torrens.org/BannValley/church/RasharkinP/Baptisms_1834.html",
+    "status": "Concrete record; child unnamed",
+    "note": "The entry names Alex and Molly McAughern. The published transcription preserves neither the child's forename nor a precise baptism date.",
+    "role": "Baptism record",
+    "profiles": {
+      "Glasgow-951": {
+        "role": "Father of the baptised child, recorded as Alex",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-3940": {
+        "role": "Subject: the unnamed child baptised; forename not supplied",
+        "timeline_group": "Life events"
+      },
+      "McCaughan-222": {
+        "role": "Mother of the baptised child, recorded as Molly McAughern",
+        "timeline_group": "Records mentioning this person"
+      }
+    }
+  },
+  {
+    "record_id": "baptism-james-1843",
+    "association": "James Glasgow baptism, Rasharkin entry 203",
+    "date": "7 January 1844",
+    "year": 1844,
+    "place": "Lisnagaver, Rasharkin",
+    "source_url": "https://genealogy.torrens.org/BannValley/church/RasharkinP/Baptisms_1834.html",
+    "status": "Contemporary baptism transcription",
+    "note": "The transcription names Alex and Molly McAughern as the parents of James, born 9 October 1843.",
+    "role": "Baptism record",
+    "profiles": {
+      "Glasgow-951": {
+        "role": "Parent of the baptised child; the father identity is assessed in the Alexander dossier",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-973": {
+        "role": "Child named in the baptism; this is the 1843-born James candidate",
+        "timeline_group": "Records mentioning this person"
+      },
+      "McCaughan-222": {
+        "role": "Mother of the baptised child; the mother identity is assessed separately",
+        "timeline_group": "Records mentioning this person"
+      }
+    }
+  },
+  {
+    "record_id": "marriage-mary-1871",
+    "association": "Mary Glasgow and Robert Elder marriage return",
+    "date": "14 June 1871",
+    "year": 1871,
+    "place": "Ballymoney registration district; bride of Lisnagaver",
+    "source_url": "https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1871/11341/8162804.pdf",
+    "status": "Original civil return",
+    "note": "Mary Glasgow, aged 28, named Alexander Glasgow, farmer, as her father and married Robert Elder.",
+    "role": "Marriage record",
+    "profiles": {
+      "Glasgow-951": {},
+      "Glasgow-3167": {},
+      "McCaughan-222": {
+        "role": "Marriage of the identified death informant; bride's mother is not named",
+        "timeline_group": "Collateral records"
+      }
+    }
+  },
+  {
+    "record_id": "death-mary-1892",
+    "association": "Mary Glasgow civil death register",
+    "date": "17 February 1892",
+    "year": 1892,
+    "place": "Gortahar",
+    "source_url": "https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1892/06049/4723532.pdf",
+    "status": "Later household evidence",
+    "note": "Mary Glasgow, widow, housewife, aged 89, died at Gortahar on 17 February 1892; daughter Mary Elder was present. The formerly maintained 27 February date was a transcription error. Identification with Mary McCaughan is strongly supported through the 1871 Elder–Glasgow marriage and Lisnagaver family evidence.",
+    "role": "Death record",
+    "profiles": {
+      "McCaughan-222": {
+        "role": "Subject's death record; Mary Glasgow died at Gortahar",
+        "timeline_group": "Life events",
+        "identification_status": "strongly_supported"
+      },
+      "Glasgow-951": {
+        "role": "Record of the presumed spouse's death; daughter Mary Elder informed",
+        "timeline_group": "Collateral records"
+      }
+    }
+  },
+  {
+    "record_id": "birth-jane-elder-1878",
+    "association": "Jane Matilda Elder civil birth return",
+    "date": "16 September 1878",
+    "year": 1878,
+    "place": "Gortahar",
+    "source_url": "https://www.irishgenealogy.ie/files/civil/birth_returns/births_1878/02945/2078820.pdf",
+    "status": "Original civil return; high-confidence identification",
+    "note": "Jane Matilda Elder was born at Gortahar to farmer Robert Elder and Mary Elder, whose maiden surname is entered as Glass; Robert, her father, informed the birth. Exact parents, place and middle initial identify the later Jane M. Elder.",
+    "role": "Birth record",
+    "profiles": {
+      "Glasgow-3167": {
+        "role": "Daughter's birth and Gortahar household continuity",
+        "timeline_group": "Collateral records"
+      },
+      "Glasgow-951": {
+        "role": "Granddaughter's birth and Elder-family continuation",
+        "timeline_group": "Collateral records"
+      }
+    }
+  },
+  {
+    "record_id": "death-robert-elder-1894",
+    "association": "Robert Elder civil death register",
+    "date": "18 November 1894",
+    "year": 1894,
+    "place": "Gortahar",
+    "source_url": "https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1894/05952/4691448.pdf",
+    "status": "Original civil return; high-confidence identification",
+    "note": "Robert Elder, married farmer, aged 64, died at Gortahar; Mary Elder, widow, of Gortahar was present and registered the death. The return does not explicitly call her his wife.",
+    "role": "Death record",
+    "profiles": {
+      "Glasgow-3167": {
+        "role": "Husband's death and Gortahar household continuity",
+        "timeline_group": "Collateral records"
+      },
+      "Glasgow-951": {
+        "role": "Son-in-law's death and Elder-family continuation",
+        "timeline_group": "Collateral records"
+      }
+    }
+  },
+  {
+    "record_id": "will-daniel-1871",
+    "association": "Daniel Glasgow will, proved 1871",
+    "date": "1871",
+    "year": 1871,
+    "place": "Kilrea",
+    "source_url": "https://apps.proni.gov.uk/willscalendar_ie/willssearch.aspx",
+    "status": "Original registered-will image inspected in maintained research; link is the PRONI search portal",
+    "note": "Daniel Glasgow of Kilrea, died 16 October 1871; will proved at Londonderry by Samuel Neely of Kilrea, sole executor. The inspected original names son David of the City of London, late brother Thomas and nephew Daniel Neely Glasgow. Source: PRONI Will Calendars; the link opens the search, not the original image. Retrieval and inspection are recorded in Daniel’s source manifest.",
+    "role": "Relationship record",
+    "profiles": {
+      "Glasgow-951": {
+        "role": "Collateral family record naming Thomas as Daniel's brother",
+        "timeline_group": "Collateral records"
+      },
+      "Glasgow-987": {
+        "role": "Will naming Thomas as Daniel's brother",
+        "timeline_group": "Collateral records"
+      },
+      "Glasgow-3896": {
+        "role": "Subject's will naming Thomas as his brother and Daniel Neely as nephew",
+        "timeline_group": "Records mentioning this person"
+      }
+    }
+  },
+  {
+    "record_id": "marriage-daniel-neely-1888",
+    "association": "Daniel Neely Glasgow and Mary Jane Boyd marriage",
+    "date": "28 June 1888",
+    "year": 1888,
+    "place": "Boveedy Presbyterian Church; groom of Lisnagaver, bride of Tamlaght",
+    "source_url": "https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1888/10763/5925382.pdf",
+    "status": "Original civil return",
+    "note": "Daniel Neely Glasgow named Thomas Glasgow, farmer, as his father and resided at Lisnagaver. Mary Jane Boyd resided at Tamlaght and named Hugh Boyd, farmer, as her father.",
+    "role": "Marriage record",
+    "profiles": {
+      "Glasgow-951": {
+        "role": "Collateral marriage record identifying Thomas as Daniel Neely's father",
+        "timeline_group": "Collateral records"
+      },
+      "Glasgow-987": {
+        "role": "Father named in the marriage of Daniel Neely Glasgow",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-2413": {
+        "role": "Groom whose marriage names Thomas as his father",
+        "timeline_group": "Life events"
+      },
+      "Boyd-18548": {
+        "role": "Bride whose marriage names Hugh Boyd as her father",
+        "timeline_group": "Life events"
+      }
+    }
+  },
+  {
+    "record_id": "marriage-sarah-1885",
+    "association": "Charles Taylor and Sarah Glasgow marriage",
+    "date": "12 March 1885",
+    "year": 1885,
+    "place": "Rasharkin Presbyterian Church; bride of Lisnagaver",
+    "source_url": "https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1885/10855/5963591.pdf",
+    "status": "Original civil return",
+    "note": "Sarah Glasgow, full-age spinster of Lisnagaver, named Thomas Glasgow, farmer, as her father.",
+    "role": "Marriage record",
+    "profiles": {
+      "Glasgow-987": {},
+      "Glasgow-3975": {}
+    }
+  },
+  {
+    "record_id": "tithe-robert-lisnagaver-1834",
+    "association": "Robert Glasgow tithe occupier at Lisnagaver",
+    "date": "1834",
+    "year": 1834,
+    "place": "Lisnagaver",
+    "source_url": "https://genealogy.torrens.org/BannValley/records/tithe.html",
+    "status": "Original tithe inspected in maintained research; linked transcription",
+    "note": "The original PRONI FIN/5/A/236 entry lists Robt Glasgow with 35 acres, separately from Alexr Glasgow with 29. No age or kinship is stated. Neither the later Glenleslie identity nor a succession of these parcels is established.",
+    "profiles": {
+      "Glasgow-1367": {
+        "role": "Subject: working identification as the Lisnagaver occupier",
+        "timeline_group": "Life events"
+      },
+      "Glasgow-951": {
+        "role": "Neighbouring occupier; possible father, relationship unproved",
+        "timeline_group": "Collateral records"
+      }
+    }
+  },
+  {
+    "record_id": "marriage-robert-1866",
+    "date": "5 April 1866",
+    "year": 1866,
+    "association": "Robert Glasgow and Jane Graham marriage",
+    "role": "Father of groom",
+    "place": "Churchtown, Tamlaght O'Crilly",
+    "status": "Direct father statement",
+    "source_url": "https://civilrecords.irishgenealogy.ie/churchrecords/images/marriage_returns/marriages_1866/11531/8240963.pdf",
+    "note": "Robert named Alexander Glasgow, farmer, as his father.",
+    "profiles": {
+      "Glasgow-951": {
+        "role": "Father of groom",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-938": {
+        "role": "Groom",
+        "timeline_group": "Life events"
+      }
+    }
+  },
+  {
+    "record_id": "census-1851",
+    "date": "1851",
+    "year": 1851,
+    "association": "Lisnagaver household 35 census return",
+    "role": "Head of household; farmer",
+    "place": "Lisnagaver, Rasharkin",
+    "status": "Original census record",
+    "source_url": "https://www.census.nationalarchives.ie/pages/1851/Antrim/Kilconway/Rasharkin/Lisnagaver/35/",
+    "note": "Alexander, 40, lived with Mary and children Robert, James and Ann.",
+    "profiles": {
+      "Glasgow-951": {
+        "role": "Head of household; farmer",
+        "timeline_group": "Life events"
+      },
+      "Glasgow-938": {
+        "role": "Child in the household",
+        "timeline_group": "Life events"
+      },
+    "Glasgow-973": {
+      "role": "Child in the household",
+      "timeline_group": "Life events"
+    },
+    "McCaughan-222": {
+      "role": "Wife of Alexander and mother in the household",
+      "timeline_group": "Life events"
+    }
+    }
+  },
+  {
+    "record_id": "marriage-ann-1876",
+    "date": "13 October 1876",
+    "year": 1876,
+    "association": "Robert McCracken and Ann Glasgow marriage",
+    "role": "Father of bride",
+    "place": "Ballymoney registration district",
+    "status": "Direct father statement",
+    "source_url": "https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1876/11181/8097170.pdf",
+    "note": "Ann named Alexander Glasgow, labourer, as her father and was associated with Lisnagaver.",
+    "profiles": {
+      "Glasgow-951": {
+        "role": "Father of bride",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-438": {
+        "role": "Bride",
+        "timeline_group": "Life events"
+      }
+    }
+  },
+  {
+    "record_id": "birth-sarah-glasgow-1889",
+    "date": "8 September 1889",
+    "year": 1889,
+    "association": "Sarah Taylor Glasgow civil birth",
+    "role": "Birth record",
+    "place": "Tamlaght, Kilrea registration district",
+    "status": "Original civil birth return",
+    "source_url": "https://civilrecords.irishgenealogy.ie/churchrecords/images/birth_returns/births_1889/02466/1915876.pdf",
+    "note": "Entry 370 records Sarah Taylor Glasgow on 8 September 1889, daughter of Daniel Glasgow and Mary Jane Glasgow formerly Boyd. Daniel was a labourer residing in New York.",
+    "profiles": {
+      "Glasgow-2414": {"role": "Subject", "timeline_group": "Life events"},
+      "Glasgow-2413": {"role": "Father", "timeline_group": "Records mentioning this person"},
+      "Boyd-18548": {"role": "Mother", "timeline_group": "Records mentioning this person"}
+    }
+  },
+  {
+    "record_id": "birth-elizabeth-glasgow-1889",
+    "date": "9 September 1889",
+    "year": 1889,
+    "association": "Elizabeth Boyd Glasgow civil birth",
+    "role": "Birth record",
+    "place": "Tamlaght, Kilrea registration district",
+    "status": "Original civil birth return",
+    "source_url": "https://civilrecords.irishgenealogy.ie/churchrecords/images/birth_returns/births_1889/02466/1915877.pdf",
+    "note": "Entry 371 records Elizabeth Boyd Glasgow on 9 September 1889, daughter of Daniel Glasgow and Mary Jane Glasgow formerly Boyd. Daniel was a labourer residing in New York.",
+    "profiles": {
+      "Glasgow-2415": {"role": "Subject", "timeline_group": "Life events"},
+      "Glasgow-2413": {"role": "Father", "timeline_group": "Records mentioning this person"},
+      "Boyd-18548": {"role": "Mother", "timeline_group": "Records mentioning this person"}
+    }
+  },
+  {
+    "record_id": "census-tamlaght-1901",
+    "date": "31 March 1901",
+    "year": 1901,
+    "association": "Hugh S. Boyd household, Tamlaght house 2",
+    "role": "Census household",
+    "place": "Tamlaght, Kilrea, County Londonderry",
+    "status": "Original census return",
+    "source_url": "http://www.census.nationalarchives.ie/pages/1901/Londonderry/Kilrea/Tamlaght/1520789/",
+    "note": "Sarah T. and Lizzie B. Glasgow, both 11, were recorded as nieces of Hugh S. Boyd; Elizabeth Boyd was recorded as his sister.",
+    "profiles": {
+      "Boyd-18548": {"role": "Mother of the two nieces, identified by the combined marriage and birth evidence", "timeline_group": "Collateral records"},
+      "Glasgow-2414": {"role": "Niece in household", "timeline_group": "Life events"},
+      "Glasgow-2415": {"role": "Niece in household", "timeline_group": "Life events"}
+    }
+  },
+  {
+    "record_id": "memorial-drimbolg-boyd",
+    "date": "17 September 1958",
+    "year": 1958,
+    "association": "Drimbolg Boyd family memorial, grave 1",
+    "role": "Memorial transcription",
+    "place": "Drimbolg Reformed Presbyterian graveyard",
+    "status": "Published memorial transcription; stone image uninspected",
+    "source_url": "https://genealogy.torrens.org/BannValley/church/Drimbolg/graveyard.html",
+    "note": "The memorial names Mary Jane Glasgow as the beloved sister of Hugh Scott and Joseph A. Boyd, dying 17 September 1958 aged 93, and Elizabeth Boyd Glasgow as their niece, dying 4 January 1933 aged 43.",
+    "profiles": {
+      "Boyd-18548": {"role": "Subject: Mary Jane Glasgow", "timeline_group": "Life events"},
+      "Glasgow-2415": {"role": "Niece Elizabeth Boyd Glasgow", "timeline_group": "Life events"}
+    }
+  }
+]

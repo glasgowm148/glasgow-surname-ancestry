@@ -1,0 +1,132 @@
+{
+  "reviewed_at": "2026-09-10",
+  "source_title": "Scotland’s People: Old Parish Registers — deaths and burials",
+  "source_url": "https://www.scotlandspeople.gov.uk/",
+  "query": "Surname Glasgow, exact names only, through 1700; supplied result count 7 of 7, one page.",
+  "conclusion": "One exact match is already cited. Two entries are probable matches to existing children; the 1641 Jon has two competing candidates. The Linlithgow entry exposes a misread other-details field. Janet at Polwarth and the unnamed Dirleton subject remain unlinked. Four existing profiles have new qualified notes or a correction queued. These are user-supplied official index results, not newly inspected register images; collection coverage does not establish all historical deaths. Dates are index-event dates until the original distinguishes death, burial or another entry.",
+  "rows": [
+    {
+      "id": "opr-705-10-183",
+      "date": "1688-07-01",
+      "surname": "GLASGOW",
+      "forename": "-----",
+      "other_details": "GLASGOW",
+      "gender": "U",
+      "age": "",
+      "parish": "Dirleton",
+      "parish_number": "705",
+      "reference": "10 / 183",
+      "status": "Unidentified — HOLD",
+      "profile_ids": [],
+      "assessment": "The deceased has no indexed forename, age or relationship. No existing person can be identified from this row; do not create a speculative unnamed child.",
+      "next_action": "Read OPR 705/10/183 and its neighbouring entries for the subject and event type."
+    },
+    {
+      "id": "opr-668-70-653",
+      "date": "1670-02-14",
+      "surname": "GLASGOW",
+      "forename": "-----",
+      "other_details": "JOHN GLASGOW",
+      "gender": "U",
+      "age": "",
+      "parish": "Linlithgow",
+      "parish_number": "668",
+      "reference": "70 / 653",
+      "status": "Existing citation needs correction",
+      "profile_ids": [
+        "Glasgow-3056"
+      ],
+      "assessment": "Already cited as John’s death, but JOHN GLASGOW is in the other-details field and the deceased forename is blank. John may be an associated person. His assigned death remains uncertain.",
+      "next_action": "Correct the biography; retain the existing date/location uncertain while OPR 668/70/653 is inspected. Do not invent a child."
+    },
+    {
+      "id": "opr-754-10-30",
+      "date": "1657-03-16",
+      "surname": "GLASGOW",
+      "forename": "ELIZABETH",
+      "other_details": "-----",
+      "gender": "F",
+      "age": "",
+      "parish": "Polwarth",
+      "parish_number": "754",
+      "reference": "10 / 30",
+      "status": "Probable match — new evidence",
+      "profile_ids": [
+        "Glasgow-3362"
+      ],
+      "assessment": "Same name and parish as the child recorded 17 August 1656, seven months earlier. No age or parent in this death/burial row proves the match.",
+      "next_action": "Add the probable identification in prose; inspect OPR 754/10/30 before assigning an exact death."
+    },
+    {
+      "id": "opr-754-10-113",
+      "date": "1675-12-25",
+      "surname": "GLASGOW",
+      "forename": "JANET",
+      "other_details": "TOD / WILLIAM GLASGOW",
+      "gender": "F",
+      "age": "",
+      "parish": "Polwarth",
+      "parish_number": "754",
+      "reference": "10 / 113",
+      "status": "Unlinked identity — HOLD",
+      "profile_ids": [],
+      "assessment": "The index may identify Janet Tod and a spouse or associate William Glasgow. Tod as birth surname and the relationship to William require the original. Live searches found no compatible Janet profile. This does not identify William as the father of the 1656/1658 Polwarth children.",
+      "next_action": "Read OPR 754/10/113 for the exact name and kin term. Compare the Polwarth household without attaching Janet to Glasgow-2462 or Glasgow-1605."
+    },
+    {
+      "id": "opr-684-60-24",
+      "date": "1641-08-23",
+      "surname": "GLASGOW",
+      "forename": "JON",
+      "other_details": "JON GLASGOW",
+      "gender": "M",
+      "age": "",
+      "parish": "Duddingston",
+      "parish_number": "684",
+      "reference": "60 / 24",
+      "status": "Competing candidates — HOLD",
+      "profile_ids": [
+        "Glasgow-1559",
+        "Glasgow-3014"
+      ],
+      "assessment": "The children recorded in April 1639 and January 1638 both fit the name and parish. The latter’s possible 1638 death would exclude him if confirmed. No age or kin term distinguishes the 1641 subject.",
+      "next_action": "Add the candidate comparison as a research note; inspect OPR 684/60/24 and 60/16 before matching or creating a person."
+    },
+    {
+      "id": "opr-684-60-47",
+      "date": "1647-01-17",
+      "surname": "GLASGOW",
+      "forename": "ROBERT",
+      "other_details": "-----",
+      "gender": "M",
+      "age": "",
+      "parish": "Duddingston",
+      "parish_number": "684",
+      "reference": "60 / 47",
+      "status": "Existing match — already recorded",
+      "profile_ids": [
+        "Glasgow-1156"
+      ],
+      "assessment": "Exact name, date, parish and reference already appear in the live profile as a burial. This batch supplies no new fact requiring a fresh WikiTree update.",
+      "next_action": "Retain the supporting index and existing relationship uncertainties; do not reopen an update merely for a confirming citation."
+    },
+    {
+      "id": "opr-684-60-16",
+      "date": "1638-01-15",
+      "surname": "GLASGOW",
+      "forename": "JON",
+      "other_details": "JOHNE GLASGOW",
+      "gender": "M",
+      "age": "",
+      "parish": "Duddingston",
+      "parish_number": "684",
+      "reference": "60 / 16",
+      "status": "Probable match — new evidence",
+      "profile_ids": [
+        "Glasgow-3014"
+      ],
+      "assessment": "The child recorded on 11 January 1638 in the same parish is a strong candidate four days later. The other-details name supports comparison but is not an explicit father statement.",
+      "next_action": "Add a probable identification in prose; inspect OPR 684/60/16 for identity and event type before entering an exact death."
+    }
+  ]
+}

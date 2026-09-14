@@ -1,6 +1,6 @@
 # Findings: [Ann (Glasgow) McCracken (Glasgow-438)](https://www.wikitree.com/wiki/Glasgow-438)
 
-Last updated: 2026-09-05
+Last updated: 2026-09-13
 
 ## Current conclusion
 
@@ -11,8 +11,15 @@ names her father as **Alexander Glasgow, labourer**. This also corrects the
 profile's birthplace from Lisnagarvey/Lisburn to **Lisnagaver, County Antrim**.
 The occupational wording does not contradict Alexander's earlier description
 as a farmer; later records can describe the same man by changed work or status.
-The Nancy who informed Alexander's probable 1888 death may be Ann, but no record
-yet proves that identity.
+The Nancy who informed Alexander's probable 1888 death may be Ann, but a focused
+free search found no record calling Ann Nancy or placing her at Gortahar. The
+death return explicitly places Nancy at **Gortahar**, but gives no age or
+married surname. It calls her Alexander's **daughter**. [Nancy Glasgow
+(Glasgow-1362)](https://www.wikitree.com/wiki/Glasgow-1362), Thomas Glasgow's
+daughter, is therefore not an equally simple identification: assigning her
+would require an error in the stated relationship or further identity evidence.
+Ann and an otherwise unidentified daughter remain possibilities; neither is
+proved, and the informant identity remains unresolved at low confidence.
 
 Their only presently identified child, William James McCracken, was born at
 Lisnagaver on 21 September 1877. He died there the next day from debility from
@@ -87,3 +94,14 @@ men were brothers.
 - Reconstruct Alexander and George Mark against the John, Jane and Lizzie Marks
   who witnessed marriages in both Alexander's and Thomas's Glasgow families.
   One proved Marks family would create an independent witness-network bridge.
+
+## Death-informant correction — 13 September 2026
+
+Fresh visual inspection of [the original 1888 register](https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1888/06179/4766466.pdf),
+entry 348, corrects the earlier statement that Nancy had no recorded residence.
+The informant column reads Nancy Glasgow, her mark, daughter, present at death,
+Gortahar. This supplies a concrete residence for tracing Nancy but does not
+identify her with Ann or Thomas's daughter. Alexander's 16 May 1888 death remains
+the best-supported probable match for [Glasgow-951](https://www.wikitree.com/wiki/Glasgow-951);
+the family and place evidence is indirect, and the death's reported age of 84
+conflicts with his 1851 census age of 40.

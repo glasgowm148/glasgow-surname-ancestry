@@ -1,0 +1,344 @@
+{
+  "id": "john-1577",
+  "intro": "Follow John, his widow Margaret, and his named children Katherine and Marjory. The accepted reading of Marjory's name is m[ar]iory, supplied by human contributor Double_Show_9316. Margaret's surname remains uncertain; the contributor favours hochaine and suggests a possible Hutchin connection. The confirmation belongs to the same testament, not an independent record. Widowhood does not by itself prove maternity.",
+  "people": [
+    {
+      "name": "John Glasgow",
+      "role": "deceased estate holder and father",
+      "status": "explicit",
+      "profile_id": "Glasgow-3181",
+      "evidence_step": "john-subject",
+      "evidence_study": "john-1577-subject-name-source-aligned"
+    },
+    {
+      "name": "Margaret [Hochaine?]",
+      "role": "John's widow; human reading Hochaine, possibly Hutchin; surname unresolved",
+      "status": "uncertain",
+      "evidence_step": "john-widow-children",
+      "evidence_study": "john-1577-margaret"
+    },
+    {
+      "name": "Katherine [probable reading] Glasgow",
+      "role": "named lawful child; given-name reading probable",
+      "status": "uncertain",
+      "profile_id": "Glasgow-3590",
+      "evidence_step": "john-widow-children",
+      "evidence_study": "john-1577-katharine"
+    },
+    {
+      "name": "Marjory Glasgow",
+      "role": "named lawful child; accepted human reading m[ar]iory",
+      "status": "explicit",
+      "evidence_step": "john-widow-children",
+      "evidence_study": "john-1577-androw"
+    }
+  ],
+  "card_kin": {
+    "spouse": [
+      {
+        "name": "Margaret [Hochaine?]",
+        "relationship": "widow; surname reading unresolved",
+        "status": "explicit",
+        "evidence_step": "john-widow-children",
+        "evidence_study": "john-1577-margaret"
+      }
+    ],
+    "children": [
+      {
+        "name": "Katherine [probable reading] Glasgow",
+        "relationship": "lawful child; given-name reading probable",
+        "status": "explicit",
+        "evidence_step": "john-widow-children",
+        "evidence_study": "john-1577-katharine"
+      },
+      {
+        "name": "Marjory Glasgow",
+        "relationship": "lawful child; accepted human reading",
+        "status": "explicit",
+        "evidence_step": "john-widow-children",
+        "evidence_study": "john-1577-androw"
+      }
+    ],
+    "other_kin": []
+  },
+  "steps": [
+    {
+      "id": "john-subject",
+      "title": "Identify John before following his family",
+      "page_label": "NRS Edinburgh Commissary Court CC8/8/5, image 276",
+      "image": "/assets/research/testament-crops/john-1577-subject-v2.jpg",
+      "image_width": 1440,
+      "image_height": 270,
+      "alt": "Original opening naming the deceased Johne Glasgow; the outline includes the preceding deceased abbreviation.",
+      "original": "vmqle Johne glasgw in hirmenschelis[?]",
+      "reading": "the late John Glasgow in Hirmenschelis [?]",
+      "explanation": "The name-by-name study above separates the large initial, joined forename and repeated surname. Vmqle is an abbreviated deceased formula, conventionally expanded as umquhile. Do not mistake strokes from the line above for additional letters in John's name.",
+      "proves": "John Glasgow is the deceased subject whose goods and debts are inventoried.",
+      "does_not_prove": "The name alone does not establish another generation, resolve the place spelling or securely date John's death.",
+      "confidence": "John Glasgow is strongly supported; the place remains uncertain.",
+      "marks": [
+        {
+          "x": 1.6666666666666667,
+          "y": 15.925925925925927,
+          "w": 63.05555555555556,
+          "h": 60.74074074074074,
+          "label": "vmqle Johne glasgw",
+          "kind": "name",
+          "pixel_bbox": [
+            24,
+            43,
+            932,
+            207
+          ]
+        }
+      ],
+      "word_studies_replaced": true
+    },
+    {
+      "id": "john-widow-children",
+      "title": "Separate the widow, the children and the role words",
+      "page_label": "NRS Edinburgh Commissary Court CC8/8/5, image 276",
+      "image": "/assets/research/testament-crops/john-1577-family.jpg",
+      "image_width": 1430,
+      "image_height": 560,
+      "alt": "Original passage naming Margaret as widow, followed by Katherine and Marjory Glasgow and the lawful-children clause.",
+      "original": "Margaret [surname uncertain] his relict in name & behalf of kath[a?]rine / & m[ar]iory glasgwis [unresolved sign] lauchfull barnis",
+      "reading": "Margaret [surname uncertain], his widow, acting for Katherine and Marjory Glasgow, [unresolved sign], lawful children",
+      "explanation": "Start with Margaret, then the separate surname and his relict, meaning his widow. Katherine is at the right of this line; return to the left of the next for & m[ar]iory glasgwis. Double_Show_9316's m[ar]iory reading is accepted: the bracketed ar is an expansion and i is modernized to j in Marjory. The previous model guess is superseded. The separate sign before lauchfull remains unresolved and must not silently become his or thair.",
+      "proves": "Margaret is described as John's widow. The following grouped names are governed by the lawful-children phrase; the later father clause identifies John as their father.",
+      "does_not_prove": "Margaret's surname and maternity remain unresolved. Hochaine, with a possible Hutchin/Hutcheson connection, is a human-supplied research lead, not proof of a particular family identity.",
+      "confidence": "Marjory is the accepted human reading. The widow, child and father roles are strongly supported; Katherine's compressed spelling, Margaret's surname and the possessive sign retain their existing qualifications.",
+      "marks": [
+        {
+          "x": 7.5524475524475525,
+          "y": 38.392857142857146,
+          "w": 30.909090909090907,
+          "h": 16.428571428571427,
+          "label": "Margaret [surname uncertain; human reading Hochaine?]",
+          "kind": "uncertain",
+          "pixel_bbox": [
+            108,
+            215,
+            550,
+            307
+          ]
+        },
+        {
+          "x": 35.80419580419581,
+          "y": 37.5,
+          "w": 17.482517482517483,
+          "h": 15.714285714285714,
+          "label": "his relict",
+          "kind": "relationship",
+          "pixel_bbox": [
+            512,
+            210,
+            762,
+            298
+          ]
+        },
+        {
+          "x": 80.34965034965035,
+          "y": 38.92857142857143,
+          "w": 13.846153846153847,
+          "h": 13.750000000000002,
+          "label": "kath[a?]rine (probable Katharine)",
+          "kind": "uncertain",
+          "pixel_bbox": [
+            1149,
+            218,
+            1347,
+            295
+          ]
+        },
+        {
+          "x": 7.4825174825174825,
+          "y": 46.60714285714286,
+          "w": 29.86013986013986,
+          "h": 20,
+          "label": "& m[ar]iory glasgwis",
+          "kind": "name",
+          "pixel_bbox": [
+            107,
+            261,
+            534,
+            373
+          ]
+        },
+        {
+          "x": 39.86013986013986,
+          "y": 43.392857142857146,
+          "w": 24.405594405594407,
+          "h": 23.214285714285715,
+          "label": "lauchfull barnis",
+          "kind": "relationship",
+          "pixel_bbox": [
+            570,
+            243,
+            919,
+            373
+          ]
+        },
+        {
+          "x": 36.78321678321678,
+          "y": 48.75,
+          "w": 4.055944055944056,
+          "h": 19.82142857142857,
+          "label": "[unresolved sign or abbreviation]",
+          "kind": "uncertain",
+          "pixel_bbox": [
+            526,
+            273,
+            584,
+            384
+          ]
+        }
+      ],
+      "word_studies_replaced": true
+    },
+    {
+      "id": "john-father",
+      "title": "Follow the first father clause back to the named children",
+      "page_label": "NRS Edinburgh Commissary Court CC8/8/5, image 276",
+      "image": "/assets/research/testament-crops/john-1577-family.jpg",
+      "image_width": 1430,
+      "image_height": 560,
+      "alt": "The next line of the same original passage refers to the children's deceased father.",
+      "original": "to thair said vmqle father",
+      "reading": "to their said deceased father",
+      "explanation": "Read along the lower line, not along the long strokes crossing it from the children's line. Thair refers back to the children; said and the deceased abbreviation point back to the named John. Compare the conspicuous long f with the corresponding letter in the continuation's father.",
+      "proves": "The clause identifies the deceased John as father of the named children; this conclusion does not depend solely on their executor role.",
+      "does_not_prove": "It does not supply maternity, birth order, additional children or another generation.",
+      "confidence": "The father relationship is strongly supported; expansions of shortened forms must be distinguished from fully written letters.",
+      "marks": [
+        {
+          "x": 9.020979020979022,
+          "y": 54.82142857142858,
+          "w": 38.46153846153847,
+          "h": 19.82142857142857,
+          "label": "thair said vmqle father",
+          "kind": "relationship",
+          "pixel_bbox": [
+            129,
+            307,
+            679,
+            418
+          ]
+        }
+      ],
+      "word_studies_replaced": true
+    },
+    {
+      "id": "john-confirmation-277",
+      "title": "Compare the repeated names and father clause",
+      "page_label": "NRS Edinburgh Commissary Court CC8/8/5, image 277; John entry only",
+      "image": "/assets/research/testament-crops/john-1577-confirmation-277.jpg",
+      "image_width": 1500,
+      "image_height": 760,
+      "alt": "John's confirmation continuation: separately selectable children names, deceased John's name and father clause.",
+      "original": "Katharine [Marjory] glasgwis ... Johne glasgw [thair] father",
+      "reading": "Katherine and Marjory Glasgow ... John Glasgow, [their] father",
+      "explanation": "The upper selected line repeats the children's names; the next repeats John's name and the father wording. [Marjory] identifies the second child from the accepted opening reading m[ar]iory, not a fresh independent decipherment of every compressed letter here. No intervening ampersand is securely isolated. [Thair] expands the compact mark before father. The omitted appointment formula is not presented as fully transcribed.",
+      "proves": "The continuation reinforces the father relationship within the same testament and supplies useful comparisons for the names.",
+      "does_not_prove": "This is not an independent record. It supplies no secure maternity wording and does not establish a later profile identity for either child.",
+      "confidence": "Marjory is the accepted name from the opening. The repeated John Glasgow name and father role are strongly supported; the confirmation's compact letter boundaries and abbreviated possessive remain qualified.",
+      "marks": [
+        {
+          "x": 32.53333333333333,
+          "y": 62.5,
+          "w": 14.866666666666667,
+          "h": 8.68421052631579,
+          "label": "Katharine",
+          "kind": "name",
+          "pixel_bbox": [
+            488,
+            475,
+            711,
+            541
+          ]
+        },
+        {
+          "x": 48.266666666666666,
+          "y": 61.973684210526315,
+          "w": 12.266666666666666,
+          "h": 10,
+          "label": "Marjory (identified from the opening)",
+          "kind": "name",
+          "pixel_bbox": [
+            724,
+            471,
+            908,
+            547
+          ]
+        },
+        {
+          "x": 59.66666666666667,
+          "y": 61.973684210526315,
+          "w": 14.533333333333335,
+          "h": 8.68421052631579,
+          "label": "glasgwis",
+          "kind": "name",
+          "pixel_bbox": [
+            895,
+            471,
+            1113,
+            537
+          ]
+        },
+        {
+          "x": 27.933333333333334,
+          "y": 69.34210526315789,
+          "w": 19.400000000000002,
+          "h": 12.631578947368421,
+          "label": "Johne glasgw",
+          "kind": "name",
+          "pixel_bbox": [
+            419,
+            527,
+            710,
+            623
+          ]
+        },
+        {
+          "x": 47.46666666666667,
+          "y": 71.05263157894737,
+          "w": 2.8666666666666667,
+          "h": 8.026315789473685,
+          "label": "[thair]: expanded abbreviation",
+          "kind": "relationship",
+          "pixel_bbox": [
+            712,
+            540,
+            755,
+            601
+          ]
+        },
+        {
+          "x": 50.73333333333333,
+          "y": 69.34210526315789,
+          "w": 11.466666666666667,
+          "h": 11.31578947368421,
+          "label": "father",
+          "kind": "relationship",
+          "pixel_bbox": [
+            761,
+            527,
+            933,
+            613
+          ]
+        }
+      ],
+      "word_studies_replaced": true
+    }
+  ],
+  "index_confirmation": {
+    "indexed_name": "Johne Glasgw",
+    "date": "1577-05-04",
+    "description": "in Hirmenschelis",
+    "record_type": "TD&Inventory",
+    "court": "Edinburgh Commissary Court",
+    "reference": "CC8/8/5",
+    "status": "confirmed by supplied archival index",
+    "supplied_on": "2026-09-10"
+  }
+}

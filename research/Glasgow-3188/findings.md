@@ -3,6 +3,22 @@
 Record every useful result and negative search here as it is found.
 Do not treat an unsourced tree or naming pattern as proof.
 
+## Original testament review - 10 September 2026
+
+Fresh visual reading of NRS CC9/7/9, images 142-145, confirms the explicit
+spouse, son, brother and sister clauses. Jonet Hutchesoun is Ninian's spouse;
+Robert is his son; John is his brother; Marioun is his sister. The damaged
+passage does not securely establish William as another son. Jonet Hutchesoun
+is not thereby proved Robert's mother; the separate Jonet Meik testament is
+the relevant maternity evidence. No identity bridge to Glasgow-1030 is added.
+
+The new line-oriented working reading, image boundaries and remaining gaps
+are maintained in `research/transcriptions/originals-2026-09-09/ninian-1613.json`
+and published at [/research/transcriptions/ninian-1613/](/research/transcriptions/ninian-1613/).
+All four supplied images were examined, but portions of the accounts and
+administrative formulas remain untranscribed. Earlier fuller interpretations
+are retained separately, not silently substituted for unread manuscript text.
+
 ## Current conclusion
 
 Father assessment: [Robert Glasgow (about 1520), fisher and burgess of Glasgow](https://www.wikitree.com/wiki/Glasgow-1096) is **confirmed by record**. The attached [John Glasgow (1516)](https://www.wikitree.com/wiki/Glasgow-1093) should be removed as father.

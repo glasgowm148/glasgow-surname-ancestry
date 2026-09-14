@@ -1,0 +1,33 @@
+{
+  "id": "janet-moody-1787",
+  "intro": "This catalogue entry is maintained from the supplied wills-index result; the stated relationship is index evidence, not manuscript confirmation.",
+  "evidence_basis": "index",
+  "index_source": "User-supplied ScotlandsPeople wills-index results, exact surname Glasgow, years to 1800",
+  "source_supplied_on": "2026-09-10",
+  "people": [],
+  "card_kin_basis": "index",
+  "card_kin_subject": "Janet Glasgow",
+  "card_kin": {
+    "spouse": [
+      {
+        "name": "Hugh Moody",
+        "relationship": "deceased husband; portioner in Corsehill of Kilwinning, as indexed",
+        "status": "explicit",
+        "evidence_step": "index-description"
+      }
+    ],
+    "children": [],
+    "other_kin": []
+  },
+  "steps": [],
+  "index_confirmation": {
+    "indexed_name": "Janet Glasgow",
+    "date": "1787-10-29",
+    "description": "relict of Hugh Moody, portioner in Corsehill of Kilwinning",
+    "record_type": "Testament Testamentar and Inventory",
+    "court": "Glasgow Commissary Court",
+    "reference": "CC9/7/73",
+    "status": "confirmed by supplied archival index",
+    "supplied_on": "2026-09-10"
+  }
+}

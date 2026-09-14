@@ -1,0 +1,434 @@
+{
+  "scope": [
+    "john-1577",
+    "margaret-1580",
+    "andrew-1598",
+    "george-1605",
+    "katherine-1605"
+  ],
+  "summary": "Fresh full-page and focused-crop review closes the two known continuation gaps. John image 277 repeats the father relationship for Katherine and Marjory; Andrew image 124 directly confirms Elizat Stevinsoun, their son Robert, three daughters and the conditional unborn-child provision. Margaret's financial associates Michael Mertyn and Roland Dundas improve modestly. George and Katherine retain important locality, witness, creditor and child-status uncertainties. No cross-testament kinship is proved merely by surname, geography or chronology.",
+  "findings": [
+    {
+      "case_id": "john-1577",
+      "location": "image 276 opening",
+      "previous": "Margaret [Cochrane?] / surname unresolved; children described with [his?]",
+      "reading": "Margaret [surname unresolved]; Hoghame-like and Cochrane-like surname parses remain alternatives; the possessive before 'lauchfull barnis' is [his/thair?]",
+      "status": "unresolved",
+      "basis": "The given name and following 'his relict' are clear, but intrusive strokes and crowded joins prevent a defensible surname segmentation. The separate possessive before 'lauchfull barnis' is not securely distinguishable as 'his' or 'thair'.",
+      "relationship_effect": "Confirms Margaret as John's widow. If the disputed possessive is 'thair' with John and Margaret as antecedent it could support maternity, but the visible letters do not make that direct evidence secure.",
+      "source_files": [
+        "testaments/ScotlandsPeople_CC000800008-00005-00276-.jpg",
+        "testaments/Edinburgh/1577_John/1577_John.pdf"
+      ]
+    },
+    {
+      "case_id": "john-1577",
+      "location": "image 276 opening and image 277 confirmation",
+      "previous": "Superseded model reading: Androw[?] Glasgow",
+      "reading": "m[ar]iory Glasgow (Marjory)",
+      "status": "confirmed",
+      "basis": "Accepted supplied human reading by Double_Show_9316, endorsed by the project owner on 10 September 2026. The unsupported initial a and earlier Androw-specific segmentation are retired. The confirmation repeats the name group within the same record, not as a separately established diplomatic spelling.",
+      "relationship_effect": "Marjory is a named lawful child of John. Acceptance of her name does not prove a later profile identity or Margaret's maternity.",
+      "source_files": [
+        "testaments/Edinburgh/1577_John/1577_John.pdf"
+      ]
+    },
+    {
+      "case_id": "john-1577",
+      "location": "image 276 opening and outgoing rent debt",
+      "previous": "hirmenschelis[?]",
+      "reading": "Index-confirmed Hirmenschelis; the manuscript form remains palaeographically qualified",
+      "status": "confirmed_by_index; manuscript_form_probable",
+      "basis": "The user-supplied ScotlandsPeople index excerpt confirms Hirmenschelis. The place recurs after John and in the rent-creditor entry, but internal manuscript minims remain ambiguous.",
+      "relationship_effect": "Places John's estate in a rural tenancy context but does not connect him to another Glasgow family.",
+      "source_files": [
+        "testaments/ScotlandsPeople_CC000800008-00005-00276-.jpg"
+      ]
+    },
+    {
+      "case_id": "john-1577",
+      "location": "image 276 children clause and image 277 confirmation",
+      "previous": "Superseded child-name reading Androw; confirmation previously not freshly read",
+      "reading": "Katherine and Marjory Glasgow are lawful children and executors to the late John, their father",
+      "status": "confirmed",
+      "basis": "The children/father wording on image 276 is repeated in the same testament's confirmation. The second child's accepted name is supplied by the human m[ar]iory reading; the old Androw interpretation is superseded.",
+      "relationship_effect": "Confirms John as their father; the second occurrence is corroboration within the same record, not an independent source.",
+      "source_files": [
+        "testaments/Edinburgh/1577_John/1577_John.pdf"
+      ]
+    },
+    {
+      "case_id": "john-1577",
+      "location": "image 276 outgoing debts",
+      "previous": "James Stevinsoun[?], Thomas Kerslaw[?], Katherin Glasgow servant",
+      "reading": "James Stevinsoun [probable] of Hirmenschelis-like place; Thomas Kerslaw [probable], servant; Katherin Glasgow, servant",
+      "status": "probable",
+      "basis": "The role words, rent and fee contexts are clear; the first two surnames remain palaeographically qualified.",
+      "relationship_effect": "These are creditors/servants, not stated kin. Katherin the servant cannot be merged with Katherine the child from this wording alone.",
+      "source_files": [
+        "testaments/ScotlandsPeople_CC000800008-00005-00276-.jpg"
+      ]
+    },
+    {
+      "case_id": "john-1577",
+      "location": "image 276 incoming debts",
+      "previous": "Patrick [surname], Henry [surname], Alexander Paterson, William Flint?, William Douglas, several Johns, William Weir, Baillie/Mathie/Murray entries",
+      "reading": "Alexander Paterson and William Douglas are the clearest; Patrick, Henry, William Flint-like, John surnames/localities, Baillie, Mathie and Murray entries remain partly unresolved",
+      "status": "unresolved",
+      "basis": "Full-section enlargement distinguishes several forenames and two surnames, but crowding and account strokes defeat safe completion of every name/place.",
+      "relationship_effect": "Financial associates only; no kinship is inferred from debt entries.",
+      "source_files": [
+        "testaments/ScotlandsPeople_CC000800008-00005-00276-.jpg"
+      ]
+    },
+    {
+      "case_id": "john-1577",
+      "location": "nested PDF page 3",
+      "previous": "possible continuation because the download header was reused",
+      "reading": "Andro Huchesoun's confirmation: partially transcribed associated fragment; the family connection remains unresolved.",
+      "status": "associated",
+      "basis": "A fresh partial transcription of supplementary strip 396A identifies confirmation/administration wording, repeated Andro Huchesoun, secure bairnis and provisional Johne [huchesoun?]. The incomplete clause does not establish their parentage or roles. Its mapping to John's Image 276 is an open question for NRS, not proof of kinship or a cataloguing error.",
+      "relationship_effect": "Retain as a Hochaine/Hutchin lead. Ask why strip 396A maps to CC8/8/5 Image 276, identify its own testament entry, and complete the kin clause before proposing named relationships.",
+      "source_files": [
+        "testaments/Edinburgh/1577_John/1577_John.pdf"
+      ]
+    },
+    {
+      "case_id": "john-1577",
+      "location": "image 276 dates",
+      "previous": "death in March, year unresolved; appointment day unresolved",
+      "reading": "court date 4 May 1577 confirmed; death month March confirmed; death year and April decree day unresolved",
+      "status": "unresolved",
+      "basis": "The marginal day/month/year is clear, while the embedded year/day numerals remain crowded.",
+      "relationship_effect": "Avoids treating the court date as John's death date.",
+      "source_files": [
+        "testaments/ScotlandsPeople_CC000800008-00005-00276-.jpg"
+      ]
+    },
+    {
+      "case_id": "margaret-1580",
+      "location": "image 355 opening and image 356 confirmation",
+      "previous": "Cuthbert Kaddell/Keddell, son; John Estoun spouse",
+      "reading": "Cuthbert Kaddell in the opening / Keddell in confirmation is Margaret's son; John Estoun is her sometime spouse",
+      "status": "confirmed",
+      "basis": "The record uses 'hir sone', later 'sone to the said vmqle Margaret', and 'his mother'; spouse wording separately names John.",
+      "relationship_effect": "Confirms Margaret-Cuthbert mother-son. It does not identify John Easton as Cuthbert's father.",
+      "source_files": [
+        "testaments/Edinburgh/1580_Margaret.pdf"
+      ]
+    },
+    {
+      "case_id": "margaret-1580",
+      "location": "images 355-356 residence",
+      "previous": "Croftmelloch[?], indexed Croftmalloch",
+      "reading": "Index-confirmed Croftmalloch; the manuscript form remains palaeographically qualified",
+      "status": "confirmed_by_index; manuscript_form_probable",
+      "basis": "The user-supplied ScotlandsPeople index excerpt confirms Croftmalloch. The manuscript form recurs but its medial sequence remains difficult.",
+      "relationship_effect": "Supports a shared residence for Margaret and Cuthbert without proving another relationship.",
+      "source_files": [
+        "testaments/Edinburgh/1580_Margaret.pdf"
+      ]
+    },
+    {
+      "case_id": "margaret-1580",
+      "location": "image 356 debts owing in",
+      "previous": "James Estoun; michaell mertyn[?]",
+      "reading": "James Estoun in Wester Quhitburne [place qualified]; Michaell Mertyn",
+      "status": "confirmed",
+      "basis": "Focused enlargement makes both personal names legible; the place remains less secure.",
+      "relationship_effect": "Financial associates only. James's surname does not prove a relationship to Margaret's spouse John Easton.",
+      "source_files": [
+        "testaments/Edinburgh/1580_Margaret.pdf"
+      ]
+    },
+    {
+      "case_id": "margaret-1580",
+      "location": "image 356 debt owing out",
+      "previous": "roland[?] dundas",
+      "reading": "Roland Dundas",
+      "status": "confirmed",
+      "basis": "The forename and surname are legible in the teind-debt entry.",
+      "relationship_effect": "Creditor only; no kinship is stated.",
+      "source_files": [
+        "testaments/Edinburgh/1580_Margaret.pdf"
+      ]
+    },
+    {
+      "case_id": "margaret-1580",
+      "location": "image 356 confirmation",
+      "previous": "cautioner's name illegible",
+      "reading": "cautioner's personal name and locality unresolved",
+      "status": "unresolved",
+      "basis": "Full confirmation and enlargement retain too many ambiguous minims for a safe reading.",
+      "relationship_effect": "No family role can be assigned to the surety.",
+      "source_files": [
+        "testaments/Edinburgh/1580_Margaret.pdf"
+      ]
+    },
+    {
+      "case_id": "margaret-1580",
+      "location": "image 355 dates",
+      "previous": "death December [1578?], decree [16?] October 1580, confirmation 8 November 1580",
+      "reading": "death month December and confirmation 8 November 1580 confirmed; death year probably 1578; October decree day unresolved",
+      "status": "probable",
+      "basis": "Marginal confirmation is clear; the internal year and decree-day numerals are less distinct.",
+      "relationship_effect": "Keeps death and administration dates separate.",
+      "source_files": [
+        "testaments/Edinburgh/1580_Margaret.pdf"
+      ]
+    },
+    {
+      "case_id": "andrew-1598",
+      "location": "image 123 opening",
+      "previous": "corsoun[?], Calder cleir[?]",
+      "reading": "Index-confirmed Corstoun, parish of Caldercleir, sheriffdom of Edinburgh; the manuscript locality strokes remain unresolved",
+      "status": "confirmed_by_index; manuscript_form_unresolved",
+      "basis": "The user-supplied ScotlandsPeople index excerpt confirms the complete indexed locality. Calder is strong in the manuscript, but the residence and parish qualifier contain ambiguous joins.",
+      "relationship_effect": "Places the household in the Calder district but cannot itself bridge Andrew to another profile or family.",
+      "source_files": [
+        "testaments/ScotlandsPeople_CC000800008-00032-00123-.jpg",
+        "testaments/Edinburgh/1598_Andro/1598_Andrew.pdf"
+      ]
+    },
+    {
+      "case_id": "andrew-1598",
+      "location": "image 124 family clause",
+      "previous": "older continuation reported Elizat and Robert; fresh review pending",
+      "reading": "Elizat Stevinsoun 'his spous'; Robart Glasgow 'his sone begottin be him vpoun the said Elizat his wyff'",
+      "status": "confirmed",
+      "basis": "Both spouse and parentage clauses are directly visible on the recovered continuation.",
+      "relationship_effect": "Confirms Andrew and Elizat as Robert's parents. Robert's profile identity remains open.",
+      "source_files": [
+        "testaments/Edinburgh/1598_Andro/1598_Andrew.pdf",
+        "testaments/Edinburgh/1598_Andro/1598_Andrew_p2.png",
+        "testaments/Edinburgh/1598_Andro/p2_300_dpi.png"
+      ]
+    },
+    {
+      "case_id": "andrew-1598",
+      "location": "image 124 alternative distribution",
+      "previous": "Marion, Janet and Isobel reported as daughters",
+      "reading": "Marione, Jonet and Isobell named after Andrew's son and cancelled daughter-word sequence",
+      "status": "confirmed",
+      "basis": "The three names and surrounding dispositive grammar are visible; the cancelled word is recorded rather than silently restored.",
+      "relationship_effect": "Confirms three daughters of Andrew. The clause does not expressly identify Elizat as their mother.",
+      "source_files": [
+        "testaments/Edinburgh/1598_Andro/1598_Andrew.pdf",
+        "testaments/Edinburgh/1598_Andro/1598_Andrew_p2.png"
+      ]
+    },
+    {
+      "case_id": "andrew-1598",
+      "location": "image 124 pregnancy condition",
+      "previous": "unborn child provision reported",
+      "reading": "'incais his said spous be with bairne' / if not with child alternative",
+      "status": "confirmed",
+      "basis": "The conditional structure is visible across the distribution passage.",
+      "relationship_effect": "Does not prove that another child was conceived or born and must not generate a person profile.",
+      "source_files": [
+        "testaments/Edinburgh/1598_Andro/1598_Andrew.pdf"
+      ]
+    },
+    {
+      "case_id": "andrew-1598",
+      "location": "image 124 succession clause",
+      "previous": "Elizat to retain land until Robert came of age",
+      "reading": "Elizat is to retain Andrew's land or holding until Robart came to age; exact tenure word unresolved",
+      "status": "probable",
+      "basis": "The names, age transition and succession sense are visible; the specific land/tenure noun is not secure.",
+      "relationship_effect": "Shows Robert was below the relevant age and intended to succeed, but does not prove ownership type or exact age.",
+      "source_files": [
+        "testaments/Edinburgh/1598_Andro/1598_Andrew.pdf"
+      ]
+    },
+    {
+      "case_id": "andrew-1598",
+      "location": "image 124 counsel passage",
+      "previous": "James Stevisoun named adviser; relationship unknown",
+      "reading": "James Stevinsoun is a probable adviser/associate; exact locality and kinship unstated",
+      "status": "probable",
+      "basis": "The surname is consistent with the clearer wife surname, but surrounding advisory wording and place are only partly legible.",
+      "relationship_effect": "May be part of Elizat's network but cannot be called her father or brother.",
+      "source_files": [
+        "testaments/Edinburgh/1598_Andro/1598_Andrew.pdf"
+      ]
+    },
+    {
+      "case_id": "andrew-1598",
+      "location": "image 123 witnesses and account names",
+      "previous": "James [surname], James [surname], John [surname], John Mure, Isobell [surname] relict of John [surname], Stevenson and creditor names partly illegible",
+      "reading": "John Mure and Stevenson forms are the clearest; witness surnames, Isobell's surname, her deceased husband's surname, several creditor names and localities remain unresolved",
+      "status": "unresolved",
+      "basis": "Full-page and account-section enlargement did not provide enough separated letterforms for safe completion.",
+      "relationship_effect": "Witnesses and financial associates are not assigned as relatives.",
+      "source_files": [
+        "testaments/ScotlandsPeople_CC000800008-00032-00123-.jpg"
+      ]
+    },
+    {
+      "case_id": "andrew-1598",
+      "location": "image 124 lower boundary",
+      "previous": "continuation falsely treated as missing/unread",
+      "reading": "Andrew's will and closing end above the next lower testament",
+      "status": "excluded",
+      "basis": "The separate lower entry has its own opening and margin date; it is outside Andrew's record.",
+      "relationship_effect": "Prevents importing the next testator's people into Andrew's household.",
+      "source_files": [
+        "testaments/Edinburgh/1598_Andro/1598_Andrew.pdf"
+      ]
+    },
+    {
+      "case_id": "george-1605",
+      "location": "OPR page 7 target entry",
+      "previous": "James Glasgow parent; child George; witness George Glasgow",
+      "reading": "James Glasgow is the named parent; George is the baptised child; a separate George Glasgow follows the witness marker W",
+      "status": "confirmed",
+      "basis": "The baptism formula and isolated witness marker separate the three roles across the wrapped entry.",
+      "relationship_effect": "Supports George Glasgow-1082's baptism and James as named parent; the witness is not substituted as father or grandfather.",
+      "source_files": [
+        "testaments/Edinburgh/George_1605.jpg"
+      ]
+    },
+    {
+      "case_id": "george-1605",
+      "location": "OPR page 7 target entry residence",
+      "previous": "muirestoun[?]",
+      "reading": "Muirestoun/Muristoun-like form",
+      "status": "unresolved",
+      "basis": "The initial and -stoun ending are visible but the medial vowel sequence remains ambiguous.",
+      "relationship_effect": "Provides a locality lead only; no modern place normalization or family merger is made.",
+      "source_files": [
+        "testaments/Edinburgh/George_1605.jpg"
+      ]
+    },
+    {
+      "case_id": "george-1605",
+      "location": "OPR page 7 witness line",
+      "previous": "George Glasgow, John Smith, Wm[?] [illegible]",
+      "reading": "George Glasgow and John Smyth confirmed; final William-like witness remains unresolved",
+      "status": "unresolved",
+      "basis": "The first two witness names are readable across the line wrap; the last name is faint and crowded.",
+      "relationship_effect": "Witness network only; no kin term relates either witness to the child.",
+      "source_files": [
+        "testaments/Edinburgh/George_1605.jpg"
+      ]
+    },
+    {
+      "case_id": "george-1605",
+      "location": "local profile association",
+      "previous": "Glasgow-1082 linked; Glasgow-991 attached as father in local tree",
+      "reading": "Glasgow-1082 is a strong event match; Glasgow-991 remains an unevidenced identity match for the James named here",
+      "status": "probable",
+      "basis": "George's name, exact baptism date and parish agree; the record gives no extra identifier for James beyond name and residence.",
+      "relationship_effect": "Do not upgrade Glasgow-991's parent attachment solely from this entry.",
+      "source_files": [
+        "testaments/Edinburgh/George_1605.jpg"
+      ]
+    },
+    {
+      "case_id": "katherine-1605",
+      "location": "image 6 opening",
+      "previous": "Katherine Glasgow spouse of Thomas Weir",
+      "reading": "Cathereine/Katherine Glasgow, spouse of Thomas Weir in Stevenston parish",
+      "status": "confirmed",
+      "basis": "Spouse wording is repeated in the opening and the locality is readable despite washout.",
+      "relationship_effect": "Confirms Katherine-Thomas marriage; profiles Glasgow-1495 and Weir-4172 are the maintained associations.",
+      "source_files": [
+        "testaments/Glasgow/1605_Katherine.pdf"
+      ]
+    },
+    {
+      "case_id": "katherine-1605",
+      "location": "images 6-7 executors",
+      "previous": "William, James and Jonet[?] Weir, minor executors; children not explicit",
+      "reading": "William, James and probable Jonet Weir are named minor estate representatives/executors",
+      "status": "probable",
+      "basis": "William and James are clear; the third forename is washed but remains most consistent with Jonet. No surviving sone, dochter or bairnes term was recovered.",
+      "relationship_effect": "They may be the couple's children, but parentage remains an inference and must not be stated as proved.",
+      "source_files": [
+        "testaments/Glasgow/1605_Katherine.pdf"
+      ]
+    },
+    {
+      "case_id": "katherine-1605",
+      "location": "image 7 debts out",
+      "previous": "James Earl of Glencairn; Alexander Campbell; Bryce? Blair; Archibald Muir?; John Weir; John Wicht? and Jeane Doun? servants",
+      "reading": "James, Earl of Glencairn, and Mr Alexander Campbell, minister at Stevenston, are strongest; Blair/Lochwood, Archibald surname, John Weir's Nether-place, John servant surname and female servant name remain provisional",
+      "status": "unresolved",
+      "basis": "Full-section enlargement confirms roles and the two clearest names, but washed and overlapping strokes prevent safe completion of the rest.",
+      "relationship_effect": "Landlord, minister, creditors and servants are economic associates, not stated relatives.",
+      "source_files": [
+        "testaments/Glasgow/1605_Katherine.pdf"
+      ]
+    },
+    {
+      "case_id": "katherine-1605",
+      "location": "image 7 confirmation",
+      "previous": "Robert Chirnsyde of Over Possill; John Craufurd in Glen",
+      "reading": "Robert Chirnsyde of Over Possill, commissar; Johnne Craufurd in Glen, cautioner",
+      "status": "probable",
+      "basis": "The administrative roles and place phrases are consistent with the visible confirmation; some surname letterforms remain less crisp than the role words.",
+      "relationship_effect": "Administrative officials/surety only; neither is identified as kin.",
+      "source_files": [
+        "testaments/Glasgow/1605_Katherine.pdf"
+      ]
+    },
+    {
+      "case_id": "katherine-1605",
+      "location": "image 7 confirmation date",
+      "previous": "[26?] May superseded by nynt day",
+      "reading": "At Glasgow, the ninth day of May 1605",
+      "status": "confirmed",
+      "basis": "The written Scots ordinal 'nynt' is clear and distinct from a two-digit numeral.",
+      "relationship_effect": "Confirms administration date, not Katherine's death date; death remains January 1603.",
+      "source_files": [
+        "testaments/Glasgow/1605_Katherine.pdf"
+      ]
+    }
+  ],
+  "unresolved": [
+    "John-1577: Margaret's surname, Hirmenschelis normalization, death year, April decree day, most debtor surnames/localities and whether Katherine the servant was the daughter.",
+    "Margaret-1580: exact Croftmelloch manuscript spelling, death-year numerals, October decree day, cautioner, several livestock figures and confirmation formula.",
+    "Andrew-1598: Corsoun and Calder Cleir manuscript spellings, witnesses, several account names/localities, exact land/tenure term, adviser localities and much legal formula; profile identities for wife and children remain open.",
+    "George-1605: residence spelling, final witness, mother and actual birth date; identity of named parent James and witness George beyond the entry remains unproved.",
+    "Katherine-1605: Jonet's exact forename, the three minors' parentage, several creditor/servant names and localities, inventory figures and portions of the confirmation."
+  ],
+  "connections": [
+    {
+      "case_id": "john-1577",
+      "connection": "John Glasgow (Glasgow-3181) is directly father of Katherine Glasgow (Glasgow-3590) and Marjory Glasgow, the latter named m[ar]iory in the accepted human reading. Margaret is directly John's widow. Her maternity remains unresolved because the possessive before lauchfull barnis is not securely distinguished as his or thair. The earlier proposed connection to Glasgow-3163 depended on the superseded Androw reading and is withdrawn; no later identity for Marjory is established here."
+    },
+    {
+      "case_id": "margaret-1580",
+      "connection": "Margaret Glasgow (Glasgow-3613) is directly mother of Cuthbert Kaddell/Keddell (Edstoun-4). John Easton (Edstoun-3) is directly her sometime husband but is not thereby proved Cuthbert's father."
+    },
+    {
+      "case_id": "andrew-1598",
+      "connection": "Andrew Glasgow (Glasgow-3163) and Elizat Stevinsoun are directly parents of Robert. Stevinsoune-1 is only a possible identity for Elizat; Glasgow-1156 is only a possible Robert. Glasgow-3062 is a Marion candidate; Glasgow-3183 and Glasgow-3917 are competing Jonet candidates; Glasgow-3336 is an Isobel candidate. None is identified by the testament alone. Glasgow-4006 and Glasgow-4007 are excluded error profiles not named in the will."
+    },
+    {
+      "case_id": "george-1605",
+      "connection": "George Glasgow (Glasgow-1082) strongly matches the baptised child. The named parent James is not securely identified as Glasgow-991 from this source alone; the witness George Glasgow is a separate role with no proved relationship."
+    },
+    {
+      "case_id": "katherine-1605",
+      "connection": "Katherine Glasgow (Glasgow-1495) and Thomas Weir (Weir-4172) are directly spouses. William, James and probable Jonet Weir are minor estate representatives and probable children only; no explicit parent-child wording survives."
+    },
+    {
+      "case_id": "cross-case",
+      "connection": "The John/Hirmenschelis, Margaret/Croftmelloch, Andrew/Corsoun-Calder, George/Muirestoun-Mid Calder and Katherine/Stevenston records do not directly state relationships between their Glasgow households. Geography and repeated forenames are research leads, not a reconstructed pedigree."
+    }
+  ],
+  "sources": [
+    "testaments/Edinburgh/1577_John/1577_John.pdf",
+    "testaments/ScotlandsPeople_CC000800008-00005-00276-.jpg",
+    "testaments/Edinburgh/1580_Margaret.pdf",
+    "testaments/Edinburgh/1598_Andro/1598_Andrew.pdf",
+    "testaments/ScotlandsPeople_CC000800008-00032-00123-.jpg",
+    "testaments/Edinburgh/1598_Andro/1598_Andrew_p2.png",
+    "testaments/Edinburgh/1598_Andro/p2_300_dpi.png",
+    "testaments/Edinburgh/George_1605.jpg",
+    "testaments/Glasgow/1605_Katherine.pdf",
+    "Scottish Record Society, Commissariot of Edinburgh register of testaments, published index p. 108 (derivative normalization only)"
+  ]
+}

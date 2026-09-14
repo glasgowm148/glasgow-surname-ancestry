@@ -1,6 +1,7 @@
 # Findings: Glasgow-1605
 
-Last updated: 2026-08-09
+Last updated: 2026-09-10
+
 
 ## Current conclusion
 
@@ -21,3 +22,16 @@ Glasgow-3587, Glasgow-591 or Glasgow-2731.
 The Cavers prisoner is the strongest currently identified candidate for the
 traditional William-591. This profile remains a separate Polwarth baptismal
 identity until a record supplies the missing Polwarth-Cavers bridge.
+
+<!-- opr-birth-review-row-126 -->
+## Source findings
+
+### Supplied OPR births and baptisms: row 126 — 10 September 2026
+
+[Scotland’s People](https://www.scotlandspeople.gov.uk/), **Old Parish Registers, births and baptisms**; exact surname Glasgow through 1700, 127 supplied results. **WILLIAM GLASGOW**; indexed date **04/04/1658**; Polwarth; parish **754**, reference **10 / 35**. Parents/other exactly as indexed: **WILLIAM GLASGOW/**. Indexed gender: **M**.
+
+**Assessment:** Matches the existing child-record account by indexed date, locality and recorded family. This row adds the complete index locator as supporting provenance; it does not establish a new event or relationship.
+
+Original image not inspected for this batch. The combined collection’s date does not automatically establish a birthday. Names alone do not uniquely identify attached parents or connect a child with a later adult. An omitted parent or indexed gender U remains unspecified in this source.
+
+**Next action:** No additional WikiTree update from this row; preserve any existing pending work.

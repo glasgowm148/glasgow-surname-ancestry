@@ -1,0 +1,230 @@
+{
+  "id": "katherine-1605",
+  "intro": "Three manuscript details separate what Katherine Glasgow's testament states from what later family reconstruction might infer. The record explicitly names her husband and three minor estate representatives, but it does not call those representatives her children.",
+  "people": [
+    {
+      "name": "Katherine Glasgow",
+      "role": "deceased",
+      "status": "explicit",
+      "profile_id": "Glasgow-1495",
+      "evidence_step": "opening",
+      "evidence_study": "katherine-1605-name"
+    },
+    {
+      "name": "Thomas Weir",
+      "role": "husband",
+      "status": "explicit",
+      "profile_id": "Weir-4172",
+      "evidence_step": "opening",
+      "evidence_study": "spous-thomas-clause"
+    },
+    {
+      "name": "William, James and Jonet[?] Weir",
+      "role": "named minor estate representatives; relationship unstated",
+      "status": "uncertain",
+      "evidence_step": "minority",
+      "evidence_study": "katherine-1605-representatives"
+    }
+  ],
+  "card_kin": {
+    "spouse": [
+      {
+        "name": "Thomas Weir",
+        "relationship": "husband",
+        "status": "explicit",
+        "evidence_step": "opening",
+        "evidence_study": "spous-thomas-clause"
+      }
+    ],
+    "children": [],
+    "other_kin": []
+  },
+  "steps": [
+    {
+      "id": "opening",
+      "title": "Katherine and her husband",
+      "page_label": "NRS CC9/7/4, image 6; Crown copyright, National Records of Scotland.",
+      "image": "/assets/research/testament-crops/katherine-1605-opening.jpg",
+      "image_width": 1570,
+      "image_height": 500,
+      "alt": "Opening lines of Katherine Glasgow's testament naming Katherine and Thomas Weir.",
+      "original": "vmqle Katherine glasgow spous to thomas wir ... vp be the said thomas wir hir spous In name ... of William James and Jonet[?] wir",
+      "reading": "the late Katherine Glasgow, spouse of Thomas Weir ... given up by Thomas Weir, her spouse, in the name of William, James and Jonet[?] Weir",
+      "explanation": "The repeated word spous directly identifies Thomas Weir as Katherine's husband. In the enlarged samples, follow the tall capital strokes and the long descenders even when they overlap the neighbouring line. The three Weirs are named after In name of, not after a child term: estate representation is compatible with children, other relatives, or another legal interest unless a kin word survives.",
+      "proves": "Katherine Glasgow was the spouse of Thomas Weir, who presented the estate in the names of William, James and Jonet[?] Weir.",
+      "does_not_prove": "It does not state that William, James and Jonet[?] were Katherine and Thomas's children.",
+      "confidence": "high for Katherine and Thomas; medium for Jonet's forename",
+      "marks": [
+        {
+          "x": 21.46496815286624,
+          "y": 22.400000000000002,
+          "w": 31.910828025477706,
+          "h": 29.4,
+          "label": "Katherine Glasgow",
+          "kind": "name",
+          "pixel_bbox": [
+            337,
+            112,
+            838,
+            259
+          ],
+          "analysis": {
+            "reading": "Katherine glasgow",
+            "expansion": "Katherine Glasgow",
+            "features": [
+              "The capital K is built from a tall stem with a broad crossing flourish extending above the name.",
+              "The h and t rise above the run of shorter letters in Katherine.",
+              "glasgow begins with a looped g whose descender reaches into the space below."
+            ],
+            "uncertainty": "The name is secure; the large upper flourish is retained even though it crosses neighbouring writing."
+          }
+        },
+        {
+          "x": 52.86624203821656,
+          "y": 21.4,
+          "w": 35.28662420382165,
+          "h": 28.999999999999996,
+          "label": "spous to Thomas Weir",
+          "kind": "relationship",
+          "pixel_bbox": [
+            830,
+            107,
+            1384,
+            252
+          ],
+          "analysis": {
+            "reading": "spous to thomas wir",
+            "expansion": "spouse of Thomas Weir",
+            "features": [
+              "spous starts with a long s and contains a p descender below the body line.",
+              "Thomas begins with a tall flourished T that dominates the middle of the sample.",
+              "wir is compact, with the initial w appearing as joined pointed strokes rather than a modern rounded letter."
+            ],
+            "comparison": "A second 'thomas wir hir spous' occurs later in the same opening crop and repeats the legal relationship formula.",
+            "uncertainty": "The husband relationship is explicit; spelling is preserved as wir in the manuscript."
+          }
+        },
+        {
+          "x": 14.713375796178344,
+          "y": 63.2,
+          "w": 58.28025477707006,
+          "h": 25.4,
+          "label": "William, James and Jonet[?] Weir",
+          "kind": "uncertain",
+          "pixel_bbox": [
+            231,
+            316,
+            1146,
+            443
+          ],
+          "analysis": {
+            "reading": "William James and Jonet[?] wir",
+            "expansion": "William, James and Jonet [?] Weir",
+            "features": [
+              "William opens with a broad W made from several joined downstrokes.",
+              "James has a long descending J and a long final s.",
+              "The third forename begins with a large J-like stroke, but its faint middle letters prevent a fully secure Jonet reading.",
+              "wir follows the grouped forenames only once, indicating the shared surname construction."
+            ],
+            "uncertainty": "The three representatives are named, but no visible sone, dochter or bairnes term defines their relationship."
+          }
+        }
+      ],
+      "word_studies_replaced": true
+    },
+    {
+      "id": "date",
+      "title": "The confirmation date",
+      "page_label": "NRS CC9/7/4, image 7; Crown copyright, National Records of Scotland.",
+      "image": "/assets/research/testament-crops/katherine-1605-date.jpg",
+      "image_width": 1500,
+      "image_height": 450,
+      "alt": "Confirmation clause reading the ninth day of May 1605.",
+      "original": "At glasgow the nynt day of may 1605 zeiris",
+      "reading": "At Glasgow, the ninth day of May 1605",
+      "explanation": "Read the phrase continuously from At glasgow to the dark 1605 numerals. The word before day is nynt, the Scots ordinal for ninth: its final tall t is a letter, not part of a two-digit date. This supersedes the earlier tentative reading of 26 May.",
+      "proves": "The testament was confirmed on 9 May 1605.",
+      "does_not_prove": "This is not Katherine's death date; the opening places her death in January 1603.",
+      "confidence": "high",
+      "marks": [
+        {
+          "x": 13,
+          "y": 5.333333,
+          "w": 62,
+          "h": 29.111111,
+          "label": "At Glasgow the nynt day of May 1605",
+          "kind": "relationship",
+          "pixel_bbox": [
+            195,
+            24,
+            1125,
+            155
+          ],
+          "analysis": {
+            "reading": "At glasgow the nynt day of may 1605",
+            "expansion": "At Glasgow, the ninth day of May 1605",
+            "features": [
+              "At begins with a broad capital whose horizontal entry flourish reaches left.",
+              "nynt is a short four-letter word ending in a tall crossed t, not a pair of Arabic numerals.",
+              "The y descenders in nynt/day/may dip below the main writing line.",
+              "1605 is written in darker separated figures after may."
+            ],
+            "uncertainty": "The confirmation date is secure; it is not a death date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "minority",
+      "title": "Minor executors are not automatically children",
+      "page_label": "NRS CC9/7/4, image 7; Crown copyright, National Records of Scotland.",
+      "image": "/assets/research/testament-crops/katherine-1605-minority-v2.jpg",
+      "image_width": 1500,
+      "image_height": 560,
+      "alt": "Confirmation passage referring to executors dative and their minority.",
+      "original": "executouris dativis minori-tie [illegible]",
+      "reading": "executors dative, [during] minority [remainder illegible]",
+      "explanation": "The visible administrative words identify dative executors and minority. The enlarged sample shows the line-end hyphen after minori-, warning that the word continues beyond the line or damaged area. Neither sone, dochter nor bairnes appears in this surviving clause, so minority supports age/status but cannot choose between children, other young relatives, or wards.",
+      "proves": "The named representatives were minors for purposes of the estate administration.",
+      "does_not_prove": "Minority and executorship alone do not prove that all three were Katherine's children.",
+      "confidence": "high for the administrative terms; low for the washed continuation",
+      "marks": [
+        {
+          "x": 76.533333,
+          "y": 46.25,
+          "w": 22.266667,
+          "h": 22.5,
+          "label": "dativis minori-",
+          "kind": "uncertain",
+          "pixel_bbox": [
+            1148,
+            259,
+            1482,
+            385
+          ],
+          "analysis": {
+            "reading": "dativis minori-",
+            "expansion": "dative [executors], minori- [minority continues]",
+            "features": [
+              "dativis contains a tall d ascender followed by a tight series of short connected strokes.",
+              "The long s at the end of dativis descends slightly below the body letters.",
+              "minori- ends with a visible horizontal hyphen at the line edge, signalling continuation rather than a complete word."
+            ],
+            "uncertainty": "The administrative terms are legible; washed-out continuation prevents reconstruction of the full clause or any kin term."
+          }
+        }
+      ],
+      "word_studies_replaced": true
+    }
+  ],
+  "index_confirmation": {
+    "indexed_name": "Kathereine Glasgow",
+    "date": "1605-05-09",
+    "description": "spouse to Thomas Weir, parish of Steinstone",
+    "record_type": "TD&Inventory",
+    "court": "Glasgow Commissary Court",
+    "reference": "CC9/7/4",
+    "status": "confirmed by supplied archival index",
+    "supplied_on": "2026-09-10"
+  }
+}

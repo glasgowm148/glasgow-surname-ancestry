@@ -21,8 +21,7 @@ remains uncertain.
 | Hugh Glasgow junior | 1852 marriage names Hugh Glasgow, weaver, as his father; both generations were weavers and Hugh junior lived at Liminary. | Direct father statement; duplicate audit remains unresolved. |
 | [[Glasgow-4047|Eliza Glasgow]] | 1854 marriage names Hugh Glasgow, labourer and weaver, as her father; Eliza lived at Liminary. | **Confident relationship on WikiTree.** |
 
-## Primary source
-
+## Source findings
 - [Marriage of William Montgomery and Eliza Glasgow, 21 August 1854](https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1854/09463/5428881.pdf), General Register Office of Ireland, Ballymena registration district, entry 70.
 
 ## Remaining question

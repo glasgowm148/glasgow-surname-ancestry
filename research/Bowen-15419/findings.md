@@ -16,9 +16,11 @@ Thomas Bowen--Sarah Vaux marriage.
 - [1764 marriage index](https://www.familysearch.org/ark:/61903/1:1:NLWW-W8W):
   Thomas Bowen and Sarah Gardner married at St Martin in the Bull Ring,
   Birmingham, Warwickshire, on 5 March 1764.
-- The FamilySearch profile also contains an unsourced custom event labelled
-  `Baptism`, dated 8 March 1741 at Coventry. It duplicates and conflicts with
-  the sourced christening and should not remain as a separate event.
+- TNA RG7/698, RG7/165 p. 15 and RG7/145 p. 83 independently record the
+  30 March 1738 clandestine marriage of the older Thomas or Tho Bowen, a
+  husbandman and widower of Hempstead/Hemel Hempstead, Hertfordshire, and Sarah
+  Vaux, a widow. The conflicting RG7/73 p. 52 "Thos Osbourn of Redbourn" copy
+  is a copying error for the same marriage, not a second groom or marriage.
 
 ## Parentage assessment
 
@@ -26,13 +28,16 @@ The baptism directly proves a father named Thomas or Thos Bowen and a mother
 named Sarah. Identifying them with older Thomas Bowen `LWHR-LR4` and Sarah Vaux
 `9KZM-PL3` is an evidence-based genealogical conclusion from the preceding 1738
 marriage and the later Thomas-and-Sarah Bowen child chronology; the baptism
-alone does not prove the mother's surname.
+alone does not prove the mother's surname. The original RG7 evidence establishes
+that Sarah Vaux was a widow, so Vaux is not established as her birth surname.
+`Hollings` remains an unproved lead and no new FamilySearch Sarah profile is
+warranted.
 
-## Recommended correction
+## Completed correction
 
-Retain the younger Thomas as child of the older Thomas and Sarah and as husband
-of Sarah Gardner/Gardiner. Remove only the duplicate unsourced 8 March 1741
-custom baptism event; preserve the sourced 6 March christening.
+The younger Thomas remains the child of the older Thomas and Sarah and the
+husband of Sarah Gardner/Gardiner. The unsourced 8 March 1741 custom baptism
+was removed; the sourced 6 March Holy Trinity, Coventry christening remains.
 
 ## FamilySearch cleanup completed 3 September 2026
 

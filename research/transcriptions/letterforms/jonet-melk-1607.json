@@ -1,0 +1,926 @@
+{
+  "id": "jonet-melk-1607",
+  "studies": [
+    {
+      "id": "jonet-melk-1607-name",
+      "title": "Jonet Meik",
+      "nav_label": "Jonet Meik",
+      "image": "/assets/research/testament-crops/jonet-melk-1607-opening.jpg",
+      "image_width": 1050,
+      "image_height": 330,
+      "region": [
+        30,
+        93,
+        214,
+        88
+      ],
+      "reading": "Jonet meik",
+      "expansion": "Jonet Meik",
+      "confidence": "High for maintained identity.",
+      "context": "The deceased name begins the identity line before the spouse phrase.",
+      "review_status": "source-aligned",
+      "locator_note": "Use the selected word before the wider passage. Pixel regions retain full visible strokes. Crossings from neighbouring lines remain contextual; a rectangular focus is retained where further separation would guess.",
+      "conclusion": "Meik is the maintained reading; the record ID's spelling is not contrary evidence.",
+      "letters": [
+        {
+          "id": "jonet-melk-1607-name-word-1",
+          "glyph": "Jonet",
+          "label": "Jonet: whole connected word",
+          "position": 1,
+          "region": [
+            30,
+            93,
+            129,
+            88
+          ],
+          "paths": [],
+          "observed": "Start at the long entry near the identity line's left and follow the short body to its final taller stroke.",
+          "matches": "No identical second occurrence is established in this inspected passage; comparison with an isolated teaching alphabet is not proof.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "Do not include the heading flourish."
+        },
+        {
+          "id": "jonet-melk-1607-name-word-2",
+          "glyph": "meik",
+          "label": "meik: whole connected word",
+          "position": 1,
+          "region": [
+            148,
+            96,
+            96,
+            77
+          ],
+          "paths": [],
+          "observed": "The compact surname sits immediately before spous.",
+          "matches": "No identical second occurrence is established in this inspected passage; comparison with an isolated teaching alphabet is not proof.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "Read its joined strokes together."
+        }
+      ],
+      "words": [
+        {
+          "text": "Jonet",
+          "region": [
+            30,
+            93,
+            129,
+            88
+          ],
+          "focus_polygon": [
+            [
+              30,
+              93
+            ],
+            [
+              159,
+              93
+            ],
+            [
+              159,
+              181
+            ],
+            [
+              30,
+              181
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "jonet-melk-1607-name-word-1",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        },
+        {
+          "text": "meik",
+          "region": [
+            148,
+            96,
+            96,
+            77
+          ],
+          "focus_polygon": [
+            [
+              148,
+              96
+            ],
+            [
+              244,
+              96
+            ],
+            [
+              244,
+              173
+            ],
+            [
+              148,
+              173
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "jonet-melk-1607-name-word-2",
+              "start": 0,
+              "end": 4
+            }
+          ]
+        }
+      ],
+      "reading_steps": [
+        {
+          "title": "Read Jonet",
+          "text": "Start at the long entry near the identity line's left and follow the short body to its final taller stroke. Do not include the heading flourish.",
+          "region": [
+            30,
+            93,
+            129,
+            88
+          ]
+        },
+        {
+          "title": "Read meik",
+          "text": "The compact surname sits immediately before spous. Read its joined strokes together.",
+          "region": [
+            148,
+            96,
+            96,
+            77
+          ]
+        },
+        {
+          "title": "Read the relationship in context",
+          "text": "The deceased name begins the identity line before the spouse phrase. Meik is the maintained reading; the record ID's spelling is not contrary evidence.",
+          "region": [
+            30,
+            93,
+            214,
+            88
+          ]
+        }
+      ],
+      "same_hand_comparisons": []
+    },
+    {
+      "id": "jonet-melk-1607-diagnostic-letters",
+      "title": "Niniane? or Williame?",
+      "nav_label": "Niniane? or Williame?",
+      "image": "/assets/research/testament-crops/jonet-melk-1607-opening.jpg",
+      "image_width": 1050,
+      "image_height": 330,
+      "region": [
+        247,
+        91,
+        388,
+        106
+      ],
+      "reading": "Niniane[?] glasgow",
+      "expansion": "Ninian [?] Glasgow",
+      "confidence": "Forename probable; spouse role explicit.",
+      "context": "The disputed name follows spous to and recurs before hir spous in the executor clause.",
+      "review_status": "source-aligned",
+      "locator_note": "Use the selected word before the wider passage. Pixel regions retain full visible strokes. Crossings from neighbouring lines remain contextual; a rectangular focus is retained where further separation would guess.",
+      "conclusion": "Retain qualified Niniane; Williame is an alternative to test, not a proved replacement. Robert's maternity does not depend on it.",
+      "letters": [
+        {
+          "id": "jonet-melk-1607-diagnostic-letters-word-1",
+          "glyph": "Niniane?",
+          "label": "Niniane?: whole connected word",
+          "position": 1,
+          "region": [
+            352,
+            91,
+            165,
+            88
+          ],
+          "paths": [],
+          "observed": "Compare the broad initial and short connected rises after to with the repeated occurrence.",
+          "matches": "Compare the second connected run before glasgow hir spous; repetition is not independent proof of disputed letter divisions.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "Do not invent dots or paired l strokes for either candidate."
+        },
+        {
+          "id": "jonet-melk-1607-diagnostic-letters-word-2",
+          "glyph": "glasgow",
+          "label": "glasgow: whole connected word",
+          "position": 1,
+          "region": [
+            500,
+            95,
+            135,
+            90
+          ],
+          "paths": [],
+          "observed": "The surname follows before the next descriptive words.",
+          "matches": "Compare the second connected run before glasgow hir spous; repetition is not independent proof of disputed letter divisions.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "Its reading is clearer than the forename."
+        },
+        {
+          "id": "jonet-melk-1607-diagnostic-letters-word-3",
+          "glyph": "spous",
+          "label": "spous: whole connected word",
+          "position": 1,
+          "region": [
+            247,
+            97,
+            95,
+            100
+          ],
+          "paths": [],
+          "observed": "The long opening and lower extension identify the relationship noun before to.",
+          "matches": "Compare the second connected run before glasgow hir spous; repetition is not independent proof of disputed letter divisions.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "The explicit spouse role remains even while the name is uncertain."
+        }
+      ],
+      "words": [
+        {
+          "text": "Niniane?",
+          "region": [
+            352,
+            91,
+            165,
+            88
+          ],
+          "focus_polygon": [
+            [
+              352,
+              91
+            ],
+            [
+              517,
+              91
+            ],
+            [
+              517,
+              179
+            ],
+            [
+              352,
+              179
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "jonet-melk-1607-diagnostic-letters-word-1",
+              "start": 0,
+              "end": 8
+            }
+          ]
+        },
+        {
+          "text": "glasgow",
+          "region": [
+            500,
+            95,
+            135,
+            90
+          ],
+          "focus_polygon": [
+            [
+              500,
+              95
+            ],
+            [
+              635,
+              95
+            ],
+            [
+              635,
+              185
+            ],
+            [
+              500,
+              185
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "jonet-melk-1607-diagnostic-letters-word-2",
+              "start": 0,
+              "end": 7
+            }
+          ]
+        },
+        {
+          "text": "spous",
+          "region": [
+            247,
+            97,
+            95,
+            100
+          ],
+          "focus_polygon": [
+            [
+              247,
+              97
+            ],
+            [
+              342,
+              97
+            ],
+            [
+              342,
+              197
+            ],
+            [
+              247,
+              197
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "jonet-melk-1607-diagnostic-letters-word-3",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      ],
+      "reading_steps": [
+        {
+          "title": "Read Niniane?",
+          "text": "Compare the broad initial and short connected rises after to with the repeated occurrence. Do not invent dots or paired l strokes for either candidate.",
+          "region": [
+            352,
+            91,
+            165,
+            88
+          ]
+        },
+        {
+          "title": "Read glasgow",
+          "text": "The surname follows before the next descriptive words. Its reading is clearer than the forename.",
+          "region": [
+            500,
+            95,
+            135,
+            90
+          ]
+        },
+        {
+          "title": "Read spous",
+          "text": "The long opening and lower extension identify the relationship noun before to. The explicit spouse role remains even while the name is uncertain.",
+          "region": [
+            247,
+            97,
+            95,
+            100
+          ]
+        },
+        {
+          "title": "Read the relationship in context",
+          "text": "The disputed name follows spous to and recurs before hir spous in the executor clause. Retain qualified Niniane; Williame is an alternative to test, not a proved replacement. Robert's maternity does not depend on it.",
+          "region": [
+            247,
+            91,
+            388,
+            106
+          ]
+        }
+      ],
+      "same_hand_comparisons": [
+        {
+          "image": "/assets/research/testament-crops/jonet-melk-1607-opening.jpg",
+          "image_width": 1050,
+          "image_height": 330,
+          "region": [
+            170,
+            176,
+            157,
+            90
+          ],
+          "reading": "Niniane[?] repeated",
+          "explanation": "Compare the second connected run before glasgow hir spous; repetition is not independent proof of disputed letter divisions."
+        }
+      ]
+    },
+    {
+      "id": "jonet-melk-1607-robert-son",
+      "title": "Robert Glasgow, her son",
+      "nav_label": "Robert Glasgow, her son",
+      "image": "/assets/research/testament-crops/jonet-melk-1607-opening.jpg",
+      "image_width": 1050,
+      "image_height": 330,
+      "region": [
+        634,
+        172,
+        341,
+        91
+      ],
+      "reading": "Robert glasgow hir sone",
+      "expansion": "Robert Glasgow, her son",
+      "confidence": "High for maintained sonship.",
+      "context": "Robert is followed by hir sone in the opening and the residue clause repeats it.",
+      "review_status": "source-aligned",
+      "locator_note": "Use the selected word before the wider passage. Pixel regions retain full visible strokes. Crossings from neighbouring lines remain contextual; a rectangular focus is retained where further separation would guess.",
+      "conclusion": "This establishes Jonet's maternity, not every other Glasgow's relationship.",
+      "letters": [
+        {
+          "id": "jonet-melk-1607-robert-son-word-1",
+          "glyph": "Robert",
+          "label": "Robert: whole connected word",
+          "position": 1,
+          "region": [
+            634,
+            172,
+            121,
+            91
+          ],
+          "paths": [],
+          "observed": "Find the larger initial after the conjunction in the executor line.",
+          "matches": "The residue clause resumes the surname and relationship after Robert at the previous line's right.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "Retain the tall and low forms together."
+        },
+        {
+          "id": "jonet-melk-1607-robert-son-word-2",
+          "glyph": "glasgow",
+          "label": "glasgow: whole connected word",
+          "position": 1,
+          "region": [
+            748,
+            173,
+            112,
+            90
+          ],
+          "paths": [],
+          "observed": "The surname leads into the possessive.",
+          "matches": "The residue clause resumes the surname and relationship after Robert at the previous line's right.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "Crossing ink remains contextual."
+        },
+        {
+          "id": "jonet-melk-1607-robert-son-word-3",
+          "glyph": "sone",
+          "label": "sone: whole connected word",
+          "position": 1,
+          "region": [
+            891,
+            179,
+            84,
+            79
+          ],
+          "paths": [],
+          "observed": "At the right, the noun follows hir.",
+          "matches": "The residue clause resumes the surname and relationship after Robert at the previous line's right.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "The kin phrase, not appointment alone, establishes sonship."
+        }
+      ],
+      "words": [
+        {
+          "text": "Robert",
+          "region": [
+            634,
+            172,
+            121,
+            91
+          ],
+          "focus_polygon": [
+            [
+              634,
+              172
+            ],
+            [
+              755,
+              172
+            ],
+            [
+              755,
+              263
+            ],
+            [
+              634,
+              263
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "jonet-melk-1607-robert-son-word-1",
+              "start": 0,
+              "end": 6
+            }
+          ]
+        },
+        {
+          "text": "glasgow",
+          "region": [
+            748,
+            173,
+            112,
+            90
+          ],
+          "focus_polygon": [
+            [
+              748,
+              173
+            ],
+            [
+              860,
+              173
+            ],
+            [
+              860,
+              263
+            ],
+            [
+              748,
+              263
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "jonet-melk-1607-robert-son-word-2",
+              "start": 0,
+              "end": 7
+            }
+          ]
+        },
+        {
+          "text": "sone",
+          "region": [
+            891,
+            179,
+            84,
+            79
+          ],
+          "focus_polygon": [
+            [
+              891,
+              179
+            ],
+            [
+              975,
+              179
+            ],
+            [
+              975,
+              258
+            ],
+            [
+              891,
+              258
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "jonet-melk-1607-robert-son-word-3",
+              "start": 0,
+              "end": 4
+            }
+          ]
+        }
+      ],
+      "reading_steps": [
+        {
+          "title": "Read Robert",
+          "text": "Find the larger initial after the conjunction in the executor line. Retain the tall and low forms together.",
+          "region": [
+            634,
+            172,
+            121,
+            91
+          ]
+        },
+        {
+          "title": "Read glasgow",
+          "text": "The surname leads into the possessive. Crossing ink remains contextual.",
+          "region": [
+            748,
+            173,
+            112,
+            90
+          ]
+        },
+        {
+          "title": "Read sone",
+          "text": "At the right, the noun follows hir. The kin phrase, not appointment alone, establishes sonship.",
+          "region": [
+            891,
+            179,
+            84,
+            79
+          ]
+        },
+        {
+          "title": "Read the relationship in context",
+          "text": "Robert is followed by hir sone in the opening and the residue clause repeats it. This establishes Jonet's maternity, not every other Glasgow's relationship.",
+          "region": [
+            634,
+            172,
+            341,
+            91
+          ]
+        }
+      ],
+      "same_hand_comparisons": [
+        {
+          "image": "/assets/research/testament-crops/jonet-melk-1607-page83-v3.jpg",
+          "image_width": 1600,
+          "image_height": 420,
+          "region": [
+            332,
+            129,
+            311,
+            103
+          ],
+          "reading": "glasgow hir sone",
+          "explanation": "The residue clause resumes the surname and relationship after Robert at the previous line's right."
+        }
+      ]
+    },
+    {
+      "id": "jonet-melk-1607-marioun",
+      "title": "Marioun: kin word uncertain",
+      "nav_label": "Marioun: kin word uncertain",
+      "image": "/assets/research/testament-crops/jonet-melk-1607-page83-v3.jpg",
+      "image_width": 1600,
+      "image_height": 420,
+      "region": [
+        452,
+        24,
+        482,
+        101
+      ],
+      "reading": "marioun glasgow hir nycht[?]",
+      "expansion": "Marioun Glasgow; relationship unresolved",
+      "confidence": "Name maintained; proposed kin term uncertain.",
+      "context": "Marioun receives a legacy followed by a word proposed as nycht.",
+      "review_status": "source-aligned",
+      "locator_note": "Use the selected word before the wider passage. Pixel regions retain full visible strokes. Crossings from neighbouring lines remain contextual; a rectangular focus is retained where further separation would guess.",
+      "conclusion": "Neither niece nor daughter is established by this unclear word, a legacy or shared surname.",
+      "letters": [
+        {
+          "id": "jonet-melk-1607-marioun-word-1",
+          "glyph": "marioun",
+          "label": "marioun: whole connected word",
+          "position": 1,
+          "region": [
+            452,
+            25,
+            192,
+            87
+          ],
+          "paths": [],
+          "observed": "After Item to in the first line, find the broad opening and low joined body.",
+          "matches": "No identical second occurrence is established in this inspected passage; comparison with an isolated teaching alphabet is not proof.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "The pale middle is read as a whole name."
+        },
+        {
+          "id": "jonet-melk-1607-marioun-word-2",
+          "glyph": "glasgow",
+          "label": "glasgow: whole connected word",
+          "position": 1,
+          "region": [
+            631,
+            24,
+            172,
+            96
+          ],
+          "paths": [],
+          "observed": "The surname follows and extends below the short body.",
+          "matches": "No identical second occurrence is established in this inspected passage; comparison with an isolated teaching alphabet is not proof.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "The next words belong to the relationship phrase."
+        },
+        {
+          "id": "jonet-melk-1607-marioun-word-3",
+          "glyph": "nycht?",
+          "label": "nycht?: whole connected word",
+          "position": 1,
+          "region": [
+            830,
+            30,
+            104,
+            95
+          ],
+          "paths": [],
+          "observed": "After hir, inspect the short crowded word proposed as nycht.",
+          "matches": "No identical second occurrence is established in this inspected passage; comparison with an isolated teaching alphabet is not proof.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "Its question mark is essential; do not translate it as a certain niece."
+        }
+      ],
+      "words": [
+        {
+          "text": "marioun",
+          "region": [
+            452,
+            25,
+            192,
+            87
+          ],
+          "focus_polygon": [
+            [
+              452,
+              25
+            ],
+            [
+              644,
+              25
+            ],
+            [
+              644,
+              112
+            ],
+            [
+              452,
+              112
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "jonet-melk-1607-marioun-word-1",
+              "start": 0,
+              "end": 7
+            }
+          ]
+        },
+        {
+          "text": "glasgow",
+          "region": [
+            631,
+            24,
+            172,
+            96
+          ],
+          "focus_polygon": [
+            [
+              631,
+              24
+            ],
+            [
+              803,
+              24
+            ],
+            [
+              803,
+              120
+            ],
+            [
+              631,
+              120
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "jonet-melk-1607-marioun-word-2",
+              "start": 0,
+              "end": 7
+            }
+          ]
+        },
+        {
+          "text": "nycht?",
+          "region": [
+            830,
+            30,
+            104,
+            95
+          ],
+          "focus_polygon": [
+            [
+              830,
+              30
+            ],
+            [
+              934,
+              30
+            ],
+            [
+              934,
+              125
+            ],
+            [
+              830,
+              125
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "jonet-melk-1607-marioun-word-3",
+              "start": 0,
+              "end": 6
+            }
+          ]
+        }
+      ],
+      "reading_steps": [
+        {
+          "title": "Read marioun",
+          "text": "After Item to in the first line, find the broad opening and low joined body. The pale middle is read as a whole name.",
+          "region": [
+            452,
+            25,
+            192,
+            87
+          ]
+        },
+        {
+          "title": "Read glasgow",
+          "text": "The surname follows and extends below the short body. The next words belong to the relationship phrase.",
+          "region": [
+            631,
+            24,
+            172,
+            96
+          ]
+        },
+        {
+          "title": "Read nycht?",
+          "text": "After hir, inspect the short crowded word proposed as nycht. Its question mark is essential; do not translate it as a certain niece.",
+          "region": [
+            830,
+            30,
+            104,
+            95
+          ]
+        },
+        {
+          "title": "Read the relationship in context",
+          "text": "Marioun receives a legacy followed by a word proposed as nycht. Neither niece nor daughter is established by this unclear word, a legacy or shared surname.",
+          "region": [
+            452,
+            24,
+            482,
+            101
+          ]
+        }
+      ],
+      "same_hand_comparisons": []
+    }
+  ],
+  "method": "Visually inspected whole-word source-pixel studies. Original images are unchanged. Conservative focus envelopes retain ambiguous crossings; some remain rectangular because a smaller mask would assign uncertain ink. Whole connected words serve as colour groups where internal boundaries are unclear. The separate Joscelyn example is a different teaching hand, not a reconstruction or proof. No guessed SVG pen paths.",
+  "people_studies": {
+    "Jonet Meik": "jonet-melk-1607-name",
+    "Niniane[?] Glasgow": "jonet-melk-1607-diagnostic-letters",
+    "Robert Glasgow": "jonet-melk-1607-robert-son",
+    "Marioun Glasgow": "jonet-melk-1607-marioun"
+  },
+  "walkthrough_mark_updates": [
+    {
+      "step_id": "opening",
+      "mark_index": 0,
+      "region": [
+        30,
+        93,
+        214,
+        88
+      ]
+    },
+    {
+      "step_id": "opening",
+      "mark_index": 1,
+      "region": [
+        247,
+        91,
+        388,
+        106
+      ]
+    },
+    {
+      "step_id": "opening",
+      "mark_index": 5,
+      "region": [
+        634,
+        172,
+        341,
+        91
+      ]
+    },
+    {
+      "step_id": "marioun",
+      "mark_index": 0,
+      "region": [
+        452,
+        24,
+        351,
+        96
+      ]
+    },
+    {
+      "step_id": "marioun",
+      "mark_index": 1,
+      "region": [
+        779,
+        30,
+        155,
+        95
+      ]
+    }
+  ]
+}

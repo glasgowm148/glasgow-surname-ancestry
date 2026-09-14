@@ -1,0 +1,90 @@
+{
+  "id": "quothquan-1685",
+  "title": "John Glasgow in Quothquan, testament dative 1685: name reread",
+  "record": "National Records of Scotland, Lanark Commissary Court, CC14/5/12, images 67-68",
+  "date": "1685-03-25 (court proceeding; death February 1685)",
+  "reviewed_at": "2026-09-10",
+  "index_confirmation": {
+    "status": "confirmed_by_index",
+    "source": "User-supplied ScotlandsPeople index excerpt",
+    "provenance": "Surname Glasgow/Glasgw; 24 results; supplied 10 September 2026",
+    "indexed_name": "John Glasgow",
+    "indexed_date": "25 March 1685",
+    "indexed_description": "in Quodquan, parish Libertoun",
+    "indexed_record_type": "TD",
+    "court": "Lanark Commissary Court",
+    "reference": "CC14/5/12",
+    "evidential_scope": "Confirms the index entry and exact indexed place forms Quodquan and Libertoun; it is not John's death date, a substituted visual transcription or proof of a profile identity."
+  },
+  "source_files": [
+    "testaments/Glasgow/Lanark/1685_John_Lanark.pdf"
+  ],
+  "source_url": "https://www.scotlandspeople.gov.uk/search-records/legal-records/wills",
+  "reviewed_pages": [1, 2],
+  "coverage": "Both supplied originals were inspected in full and in enlarged crops, including the dense inventory, procurator-fiscal request, oath, caution, and entry boundary. Show-through and the repaired left strip remain severe. Every visible name, role, and locality in John's entry was audited; the following Morgan testament was excluded.",
+  "provenance": {
+    "previous_review": "research/transcriptions/originals-2026-09-10/quothquan-1685.json",
+    "walkthrough": "research/transcriptions/walkthroughs/quothquan-1685.json",
+    "method": "Fresh full-page and magnified visual inspection of the two-page PDF before comparison with the previous review and walkthrough."
+  },
+  "transcription": [
+    {
+      "page": "1 / image 67",
+      "lines": [
+        "The Testament dative and Inventar of the goods geir soumes of money and debts",
+        "pertaining to umquhile John Glasgow in Quothquan within the paroch of Libberton",
+        "and presbitry of Lanark who deceist intestat in the moneth of ffebruary 1685",
+        "faithfully made and given up be Jonet [Kinnie?] relict and executrix dative",
+        "[inventory: livestock, crops/fodder, household or farm goods, clothing; sums mostly unresolved]",
+        "I William Wilkie procurator fiscall of this court",
+        "[request concerning the office and goods of the late John Glasgow]"
+      ]
+    },
+    {
+      "page": "2 / image 68",
+      "lines": [
+        "[continuation of executor-dative authority]",
+        "At Carnwath the 25 day of March 1685",
+        "in presence of John Wyllie of [place unresolved] Commissar of Lanark",
+        "compeired personallie Jonet [Kinnie?] and gave in the within Inventar",
+        "[Jonet swore the inventory faithful and true]",
+        "William Watson in [place unresolved] cautioner",
+        "[goods to be forthcoming to all parties having interest]",
+        "[closing formula and signatures partly unresolved]",
+        "[following Morgan testament excluded]"
+      ]
+    }
+  ],
+  "plain_english": [
+    "John Glasgow lived at Quothquan in Libberton parish and died intestate in February 1685.",
+    "Jonet, probably surnamed Kinnie, is expressly his relict or widow and executrix dative. The surname remains qualified because crossing ink prevents a secure letter-by-letter reading.",
+    "William Wilkie is procurator fiscal, John Wyllie is commissary of Lanark, and William Watson is cautioner. These are three separate court roles and none supplies kinship.",
+    "No child, parent, or sibling is named, so the testament does not bridge this John to the 1608 Mid Calder baptism or to either earlier Quothquan John."
+  ],
+  "findings": [
+    "Confirmed, not newly discovered: John Glasgow in Quothquan, Libberton parish; intestate death in February 1685; Jonet as widow and executrix dative.",
+    "Probable but unresolved surname: Kinnie remains the leading reading for Jonet and must retain a question mark.",
+    "Confirmed role separation: William Wilkie is procurator fiscal; John Wyllie is commissary; William Watson is cautioner.",
+    "Unresolved localities: the designations after John Wyllie and William Watson are not safe to normalize.",
+    "Confirmed negative: no child or parent is named in the supplied testament."
+  ],
+  "changes_from_previous": [
+    "No family conclusion changed; the widow and officer/cautioner distinctions are reconfirmed.",
+    "The reread adds John Wyllie explicitly to the role audit while preserving his unread place designation.",
+    "Jonet's surname remains probable Kinnie rather than being promoted from damaged ink.",
+    "The three Quothquan John records remain separate record-defined people unless external evidence links them."
+  ],
+  "unresolved": [
+    "Jonet's surname beyond probable Kinnie",
+    "The place designations of John Wyllie and William Watson",
+    "Complete livestock, crop, debt, and valuation figures",
+    "Closing names and signatures obscured by show-through",
+    "Any child, parent, or sibling of John and any bridge to the 1608 baptism or earlier Quothquan records"
+  ],
+  "profiles": [
+    ["Glasgow-1086", "John Glasgow of Quothquan; testament identity direct, 1608 baptism identity uncertain"],
+    ["Unknown-717333", "Jonet, widow and executrix dative; surname Kinnie remains uncertain"]
+  ],
+  "confidence_statement": "High for John, Quothquan/Libberton, February 1685, Jonet's widow and executrix roles, William Wilkie's fiscal office, John Wyllie's commissary office, and William Watson's caution. Moderate-low for Kinnie and low for the two place designations and damaged financial detail.",
+  "reviewer": "Codex fresh original-image name, role, and locality audit"
+}

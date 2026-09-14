@@ -1,0 +1,64 @@
+{
+  "id": "william-1646",
+  "title": "William Glasgow, mealmaker in Leith: testament dative, 1646",
+  "record": "National Records of Scotland, Edinburgh Commissary Court, CC8/8/62, images 461-462",
+  "date": "1646-07-22 (confirmation; death September 1644)",
+  "reviewed_at": "2026-09-10",
+  "source_files": ["testaments/Edinburgh/William_1646.pdf"],
+  "reviewed_pages": [1, 2],
+  "coverage": "Both original page images visually inspected, with the opening enlarged. Selective, non-continuous working transcription, not a full diplomatic transcription. William's entry begins in the lower half of image 461 and ends in the upper half of image 462. Adjacent estates excluded. Brackets mark uncertainty or omitted text; abbreviations are sometimes expanded.",
+  "transcription": [
+    {"page": "1 / image 461", "lines": [
+      "[Margin:] Wm Glasgow [xxij?] of July 1646",
+      "The testament dative and Inv[entar] of the goods geir",
+      "soumes of money and debtis perteining to umq[uhi]le Wm",
+      "Glasgow Meilmaker in leith ... the tyme of his deceis quha",
+      "deceissit in the moneth of september the yeir of god 1644",
+      "yeiris ffaithfullie maid and givine up be Archibald glas-",
+      "gow sone law[fu]ll to the defunct and onlie ex[ecuto]r dative",
+      "decreit to his s[ai]d umq[uhi]le father be decreit of the com[m]iss[ari]s of",
+      "ed[inbu]r[gh] ... the samyne of the daitt the [day unclear] day of July",
+      "1646 yeiris mair fullie proportis",
+      "In the first the s[ai]d umq[uhi]le Williame Glasgow had goods geir soumes",
+      "of money and debtis of the availl and pryces efterfollowing perteining",
+      "to him the tyme of his deceis ... [amounts omitted]",
+      "... insight ... and domicills with the abulyiementis of his bodie ...",
+      "Followes the debtis awine to the deid",
+      "Item thair wes restand awine ... umq[uhi]le Wm Glasgow ... [debtor names and amounts unresolved]"
+    ]},
+    {"page": "2 / image 462", "lines": [
+      "[Continuation of debt list; several names and amounts unresolved]",
+      "... Jon ... [name unresolved] ...",
+      "... his band ... principall ... of rent",
+      "Summa of the debtis awine to the deid ... [amount unresolved]",
+      "Summa of the Inv[entar] w[i]t[h] the debtis ... [amount unresolved]",
+      "To be divydit in twa pairtis ...",
+      "We Jon nisbit [and?] ... We decreit [and?] con-",
+      "firme ... Williame Craufurd ... [occupation/locality unresolved]",
+      "... cautioner ... [remainder abbreviated/unresolved]"
+    ]}
+  ],
+  "plain_english": [
+    "William Glasgow was a mealmaker in Leith and died in September 1644.",
+    "Archibald Glasgow is expressly described as William's lawful son and sole executor dative. The later phrase 'his ... father' independently reinforces the relationship within the same entry.",
+    "The estate includes household possessions, clothing and debts receivable. The manuscript's financial figures and several debtor names remain untranscribed here."
+  ],
+  "findings": [
+    "Direct kinship: Archibald Glasgow was William's lawful son. This is additional to, and not inferred merely from, his executor appointment.",
+    "No John Glasgow is securely identified as William's brother or executor in this entry.",
+    "The source is a testament dative; the recorded confirmation year is not the death year."
+  ],
+  "changes_from_previous": [
+    "Compared after fresh image inspection with research/Glasgow-3075/findings.md and research/Glasgow-3078/findings.md. Their maintained September 1644 death and lawful-son executor conclusions are corroborated.",
+    "Preserves the maintained correction of an older September 1645 death and supposed brother/executor John; does not reinstate either claim.",
+    "The maintained 22 July 1646 confirmation date agrees with the apparent marginal numeral, but the day remains a qualified manuscript reading in these extracts."
+  ],
+  "unresolved": [
+    "Complete diplomatic transcription of the debt list, monetary amounts and abbreviated confirmation formula.",
+    "Exact internal executor-decree day in July 1646, distinct from confirmation.",
+    "William's parents, spouse and any other children are not established by these passages."
+  ],
+  "profiles": [["Glasgow-3075", "William Glasgow, Leith mealmaker"], ["Glasgow-3078", "Archibald Glasgow, explicitly his lawful son"]],
+  "confidence_statement": "High for occupation, Leith residence, September 1644 death and Archibald's explicit sonship/executorship. Qualified for exact confirmation-day palaeography; incomplete for financial and administrative detail. Existing profile mappings come from maintained research, not names alone.",
+  "reviewer": "Codex original-image visual review; Edinburgh testament subtask"
+}

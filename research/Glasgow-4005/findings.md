@@ -10,8 +10,7 @@ names “his infant son John Garvin.” James and Eliza Ann Aiken married in 188
 and were alone in the 1901 census. The profile therefore uses birth after 1886
 and death before 1901 as uncertain bounds; the stone supplies no exact dates.
 
-## Sources
-
+## Source findings
 - [Rasharkin Second Presbyterian Church headstones](https://genealogy.torrens.org/BannValley/church/RasharkinP/graveyard.html),
   GLASGO memorial transcribed by Pauline O'Keeffe and Helen Evans in August
   2004.

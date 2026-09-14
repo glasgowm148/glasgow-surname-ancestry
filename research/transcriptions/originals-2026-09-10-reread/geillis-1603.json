@@ -1,0 +1,103 @@
+{
+  "id": "geillis-1603",
+  "title": "Geillis Glasgow, spouse of Thomas Wilson at Chaplehill: testament dative, 1603",
+  "record": "National Records of Scotland, Glasgow Commissary Court, CC9/7/3, images 113-114",
+  "date": "Death January 1603; executor decree 30 April 1603; confirmation 11 May 1603",
+  "reviewed_at": "2026-09-10",
+  "index_confirmation": {
+    "status": "confirmed_by_index",
+    "source": "User-supplied ScotlandsPeople index excerpt",
+    "provenance": "Surname Glasgow/Glasgw; 24 results; supplied 10 September 2026",
+    "indexed_name": "Geillis Glasgw",
+    "indexed_date": "11 May 1603",
+    "indexed_description": "spouse Thomas Wilson in Chaipliehill, parish Ardrossane",
+    "indexed_record_type": "TD & Inventory",
+    "court": "Glasgow Commissary Court",
+    "reference": "CC9/7/3",
+    "evidential_scope": "Confirms the index entry and its exact indexed wording; Chaipliehill and Ardrossane are index forms, not substituted diplomatic manuscript readings or profile identity evidence."
+  },
+  "source_files": ["testaments/Glasgow/1603_GIllis/1603_Gillis.pdf"],
+  "source_url": "https://www.scotlandspeople.gov.uk/search-records/legal-records/wills",
+  "reviewed_pages": [
+    "PDF page 1 / image 113: Geillis entry in lower half; preceding estate excluded",
+    "PDF page 2 / image 114: inventory, debts and confirmation"
+  ],
+  "coverage": "Both supplied originals were inspected in full, then the executor, debt and confirmation clauses were reread from enlarged unaltered crops and contrast-enhanced working copies. This is a complete coverage review but not a complete diplomatic transcription. Faded account figures and unclear words remain bracketed rather than reconstructed.",
+  "transcription": [
+    {"page": "113, opening and executor clause", "lines": [
+      "The testament dative and Inventar of the guidis geir",
+      "debtes soumes of money and utheris q[uhil]kis pertenit",
+      "to umq[uhi]le Geillis glasgw spous to Thomas wilson in Chaplehill",
+      "within the parochin of Ardrossane quha deceist intestat the",
+      "moneth of Januar 1603 faithfullie maid and gevin up be the",
+      "said Thomas in name and behalf of James [relationship or additional-name wording unresolved] Isobell &",
+      "Bessie wilson [wording unresolved] executors dative [lawfully]",
+      "[appointed] to the said umq[uhi]le be decreit of the Commissar of",
+      "glasgw upon the last day of Aprile the yeir of god above written",
+      "[procedural wording partly unresolved]",
+      "Dative at length"
+    ]},
+    {"page": "114, inventory and debts", "lines": [
+      "Inventar",
+      "[Agricultural inventory: cattle, sheep, crop/grain and household plenishing; quantities and values only partly legible]",
+      "Summa of the Inventar [amount unresolved]",
+      "Na dettis awand",
+      "Dittis awand",
+      "Item to my lord of Eglintoun of maill ferme [sum unresolved]",
+      "[Rent/ferm entries continue]",
+      "Item to James glasgw in Stevinstoun [sum and purpose unresolved]",
+      "Item to Robert boyd & bessie [surname unresolved], servants, for thair",
+      "servantie of the byrun tyme [sum unresolved]",
+      "Summa of the dettis awand [sum unresolved]",
+      "Et sic debita excedunt bona"
+    ]},
+    {"page": "114, confirmation", "lines": [
+      "At Glasgow the xj day of Maii 1603 yeiris Robert [surname unresolved]",
+      "[confirmation formula and authority partly unresolved]",
+      "[the commissar] confirms the present testament and Inventar",
+      "[caution, administration and closing wording partly unresolved]"
+    ]}
+  ],
+  "plain_english": [
+    "Geillis Glasgow was expressly the spouse of Thomas Wilson at Chaplehill in Ardrossan parish and died intestate in January 1603.",
+    "Thomas supplied the testament for a court-appointed executor group including James, Isobel and Bessie Wilson. The compressed words around James do not safely establish sonship or extend any kin term to Isobel and Bessie.",
+    "James Glasgow in Stevenston is named under debts owed by the estate. That is a creditor or payee association, not a kinship statement.",
+    "The estate was agricultural and debt-heavy. It owed rent or ferm to the lord of Eglinton and past wages to Robert Boyd and a servant Bessie whose surname is not secure.",
+    "The executor decree was dated 30 April 1603 and confirmation 11 May 1603; neither is a death date."
+  ],
+  "findings": [
+    "Confirmed: spouse Thomas Wilson, Chaplehill in Ardrossan parish, intestacy and January 1603 death month.",
+    "Confirmed: James, Isobel and Bessie Wilson occur in the dative-executor clause; the appointment is administrative.",
+    "Unresolved after a closer crop: the words following James cannot securely be read as a kin term or safely attached to all three Wilsons.",
+    "Confirmed: James Glasgow in Stevenston is embedded in the debts-awand-out section and has no visible kin term.",
+    "Confirmed: Robert Boyd and Bessie are wage creditors described as servants; Bessie's surname and identity remain unresolved.",
+    "Confirmed: the lord of Eglinton is a rent/ferm creditor, not a family identification."
+  ],
+  "changes_from_previous": [
+    "Old: relationship wording after James Wilson was simply unresolved. New: a tighter reread tested possible sonship but rejected promotion; the relationship remains unresolved because the compressed strokes admit more than one reading.",
+    "Old: James Glasgow was recorded as a Stevenston payee. New: confirmed unchanged after checking the whole debt direction and neighbouring entries.",
+    "Old: Robert Boyd and Bessie were recorded as servants. New: confirmed unchanged; no surname or identity is supplied for Bessie.",
+    "No walkthrough text or geometry changed because no featured reading crossed a confidence threshold."
+  ],
+  "unresolved": [
+    "Exact wording between James and Isobel/Bessie Wilson and the relationship, if any, of each executor to Geillis.",
+    "Whether the compressed phrase contains a kin term, an additional personal name or an abbreviation.",
+    "James Glasgow of Stevenston's identity and any kinship to Geillis.",
+    "The servant Bessie's surname and identity.",
+    "Several inventory quantities, debt purposes, sums, confirmation names and closing formulae."
+  ],
+  "profiles": [
+    ["Glasgow-3179", "Geillis Glasgow/Wilson: spouse, locality and death month direct"],
+    ["Wilson-142005", "James Wilson: executor-clause name; proposed sonship remains unproved"]
+  ],
+  "confidence_statement": "High for Geillis, Thomas Wilson, Chaplehill/Ardrossan, dates, the executor group, and James Glasgow's debt-section placement. Low for the words defining the Wilson executors' relationships and for account figures. No kinship is inferred from executor, creditor, landlord or servant status.",
+  "reviewer": "LLM-assisted fresh visual reread from original images",
+  "provenance": {
+    "source_type": "original commissary-register images in supplied PDF",
+    "inspection_method": "full-page 250 DPI renders followed by original-resolution and enlarged clause inspection; temporary contrast enhancement used only as a reading aid",
+    "comparison_order": "ink inspected before the maintained 2026-09-10 review was compared",
+    "previous_review": "research/transcriptions/originals-2026-09-10/geillis-1603.json",
+    "walkthrough": "research/transcriptions/walkthroughs/geillis-1603.json",
+    "limitations": "Fading, show-through and tightly compressed secretary hand prevent secure recovery of the executor relationship phrase."
+  }
+}

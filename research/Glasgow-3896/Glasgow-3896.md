@@ -1,57 +1,44 @@
-# Paste-ready replacement profile: Glasgow-3896
-
-```wikitext
 {{Estimated Date}}
 {{Ireland Native}}
 [[Category:Glasgow Name Study]]
 
 == Biography ==
 
-'''Daniel Glasgow''' was born about 1795 or 1796 in Ireland. He became a
-watchmaker and farmer at Kilrea, County Londonderry. His original death return
-records that he died there on 16 October 1871, aged seventy-five, a widower and
-watchmaker. Kate Glasgow was present at his death.<ref name="Death1871">[https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1871/020759/7282767.pdf General Register Office of Ireland, civil death register], Daniel Glasgow, Kilrea, 16 October 1871.</ref>
+'''Daniel Glasgow''' was born about 1795 or 1796 in Ireland. He was a watchmaker and farmer at Kilrea, County Londonderry. His original death return records his death there on 16 October 1871, aged 75, a widower and watchmaker; Kate Glasgow was present at his death, without a stated relationship.<ref name="Death1871">[https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1871/020759/7282767.pdf General Register Office of Ireland, civil death register], Daniel Glasgow, Kilrea, 16 October 1871.</ref>
 
-Daniel was probably married to Margaret Irwin. A First Kilrea Presbyterian
-baptismal record identifies Robert, born in 1827, as a child of Daniel Glasgow
-and Margaret Irwin.<ref name="KilreaBaptisms">[https://genealogy.torrens.org/BannValley/church/KilreaP1/Baptisms/1827.html First Kilrea Presbyterian baptism transcription], Robert, son of Daniel Glasgow and Margaret Irwin, born 1 September and baptised 30 September 1827, p. 20, entry 146.</ref>
+Daniel was probably married to Margaret Irwin. First Kilrea Presbyterian baptisms identify Robert, born 1 September 1827 and baptised 30 September, as son of Daniel Glasgow and Margaret Irwin of Kilrea.<ref name="KilreaBaptism1827">Richard John Torrens, [https://genealogy.torrens.org/BannValley/church/KilreaP1/Baptisms/1827.html "Kilrea First Presbyterian Church Records: Baptisms in 1827"], entry 146, transcribed by Barbara Braswell (accessed 16 July 2026).</ref> The transcription does not expressly call Margaret his wife; she is therefore an uncertain spouse, and no marriage date or place has been identified.
 
-The known or probable children are:
+{| class="wikitable sortable" style="padding:5px; width:100%;"
+|+ '''Known and probable children'''
+|-
+! style="background-color:#E1F0B4;" | Child !! style="background-color:#E1F0B4;" | Evidence and assessment
+|-
+| [[Glasgow-3899|David Glasgow]] || Daniel's 1871 will calls David of the City of London “my son”; the British Museum gives David's Coleraine birth in 1824 and watchmaking career. His mother is unknown.<ref name="DanielWill1871">Public Record Office of Northern Ireland, [https://apps.proni.gov.uk/willscalendar_ie/willssearch.aspx Will Calendars], original registered will of Daniel Glasgow of Kilrea, proved 1871 (accessed 17 July 2026).</ref><ref name="DavidGlasgow">British Museum, [https://www.britishmuseum.org/collection/term/BIOG70412 "David Glasgow"], biographical record (accessed 16 July 2026).</ref>
+|-
+| [[Glasgow-3897|Robert Glasgow]] || Documented son of Daniel and Margaret Irwin.<ref name="KilreaBaptism1827" />
+|-
+| [[Glasgow-3898|James Glasgow]] || The 1853 death notice calls the Brooklyn artist the third son of Daniel Glasgow of Kilrea; mother unknown.<ref name="JamesDeath1853">[https://www.cotyrone.com/colondonderry/burial/CoLondonderry-DeathsSentinel-G-1829-1869.html ''Londonderry Sentinel'' death notices], notice published 18 February 1853 (accessed 16 July 2026).</ref>
+|-
+| [[Glasgow-3900|Daniel Glasgow, Jr.]] || The Kilrea water-colour artist died in 1858. “Jr.” and shared locality make him a candidate relative, but no inspected record names his father; do not attach him as Daniel's son.<ref name="DanielJrDeath1858">[https://msa.maryland.gov/megafile/msa/speccol/sc3500/sc3520/016800/016836/images/crayon_apr1858_1.pdf ''The Crayon''], April 1858, p. 118 (accessed 17 July 2026).</ref>
+|}
 
-* [[Glasgow-3897|Robert Glasgow]], baptised in 1827;
-* [[Glasgow-3898|James Glasgow]], an artist whose 1853 death notice called him Daniel's third son; and
-* [[Glasgow-3899|David Glasgow]], directly identified as Daniel's son in Daniel's will.<ref name="JamesDeath">[https://www.cotyrone.com/colondonderry/burial/CoLondonderry-DeathsSentinel-G-1829-1869.html ''Londonderry Sentinel'' death notices], James Glasgow, died Brooklyn, 21 January 1853.</ref>
+Daniel was listed as a watch and clock maker at Kilrea in 1846.<ref name="Slater1846">J. Slater, [https://www.failteromhat.com/slater/0192.pdf ''Slater's National Commercial Directory of Ireland''] (1846), Kilrea, p. 473, “Watch & Clock Makers,” “Glasco Daniel” (accessed 16 July 2026).</ref> Griffith's Valuation records him at Church Street and Claragh, Kilrea.<ref name="GriffithKilrea">Fáilte Romhat, [https://www.failteromhat.com/griffiths/derry/kilrea.php "Griffith's Valuation of Ireland — Kilrea, County Derry"], entries for Daniel Glasgow (accessed 16 July 2026).</ref> The probate calendar calls him a farmer, consistent with a mixed occupation or later agricultural holding.<ref name="Probate1871">National Archives of Ireland, ''Calendar of Wills and Administrations'', former online reel 005014889, image 00435 ([https://nationalarchives.ie/help-with-research/types-of-research/how-to-find-a-will/ current guide]), Daniel Glasgow, late of Kilrea, farmer, died 16 October 1871; will proved by Samuel Neely, effects under £300 (accessed 16 July 2026).</ref>
 
-Daniel's will, proved in 1871, names his son David, his late brother Thomas
-Glasgow and his nephew Daniel Neely Glasgow.<ref name="Will1871">[https://apps.proni.gov.uk/willscalendar_ie/willssearch.aspx Public Record Office of Northern Ireland, Will Calendars], registered will of Daniel Glasgow of Kilrea, proved 1871.</ref> Daniel Neely's 1888 marriage names his father as [[Glasgow-987|Thomas Glasgow]], farmer, and places him at Lisnagaver.<ref name="DanielNeelyMarriage">[https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1888/10763/5925382.pdf General Register Office of Ireland, civil marriage register], Daniel Neely Glasgow and Mary Jane Boyd, 28 June 1888.</ref> Together the records prove that Daniel and Thomas were brothers.
+=== Brother Thomas and the Prescott siblings ===
+
+Daniel's will calls [[Glasgow-987|Thomas Glasgow]] his late brother and Daniel Neely Glasgow his nephew.<ref name="DanielWill1871" /> Daniel Neely's 1888 marriage calls his father Thomas Glasgow, farmer, of Lisnagaver, which identifies the brother as Thomas of Lisnagaver.<ref name="DanielNeelyMarriage1888">Ireland civil marriage return, Daniel Neely Glasgow and Mary Jane Boyd, 28 June 1888, Boveedy First Presbyterian Church, [https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1888/10763/5925382.pdf original image] (accessed 17 July 2026).</ref>
+
+Original Grenville deeds under the will of Robert Glasgow of Prescott independently identify Daniel's connection. Robert's will, dated 9 October 1849, names Daniel, Samuel, John and Thomas as Robert's brothers; Mary and the children of brother James complete the six shares, but the will does not call James deceased.<ref name="RobertWill1849">Grenville County land records, DGS 8200419, image 35, registered will of Robert Glasgow of Prescott, dated 9 October 1849, [https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWY9-S original image].</ref> Memorial 13 records the 30 October 1856 deed, registered 13 November 1856, involving Robert's widow Jane and Samuel Glasgow, merchant, in Samuel's one undivided sixth share.<ref name="RobertWill1856">Grenville County land records, DGS 8200419, image 36, Memorial 13, dated 30 October 1856 and registered 13 November 1856, [https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWYM-6 original image].</ref> Memorial 465, dated 30 July 1861 and registered 7 October, names Daniel of Kilrea, watchmaker, and wife Margaret, and Thomas of Lisnagaver, farmer, and wife Mary Ann, transferring two undivided sixth interests to Samuel under Robert's will.<ref name="RobertWill1861">Grenville County land records, DGS 8200419, image 240, Memorial 465, registered 7 October 1861, printed p. 397, [https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWB8-D original image].</ref> These deeds establish Daniel, Thomas, Samuel and Robert as brothers by their stated places, trades and wives. They do not identify their parents.
 
 == Research Notes ==
 
-[[Glasgow-3904|Alexander Glasgow]] and Rosanna Unknown are retained as uncertain
-parents. A descendant account identifies them as Thomas's parents; because
-Daniel's will proves Thomas was Daniel's brother, they are plausible parents of
-Daniel as well.<ref name="DescendantAccount">[https://www.genesreunited.co.uk/boards/board/general_topics/thread/465937 “Trying to find Glasgow,” ''Genes Reunited''], descendant account posted 25 January 2007.</ref> No contemporary record inspected names Daniel's parents. Rosanna's reported Shaw surname has not been proved.
+No contemporary record identifies Daniel's parents. A descendant account names [[Glasgow-3904|Alexander Glasgow]] and [[Unknown-761034|Rosanna]] as parents of Thomas; because Thomas and Daniel were brothers, they are plausible but uncertain parents of Daniel. Rosanna's reported Shaw surname is unproved.<ref name="GenesReunitedGlasgow">Peter, “Trying to find Glasgow,” ''Genes Reunited'', [https://www.genesreunited.co.uk/boards/board/general_topics/thread/465937 discussion] (accessed 16 July 2026).</ref> [[Glasgow-951|Alexander Glasgow]] of Lisnagaver remains an open possible collateral relative: the Prescott deeds prove Robert's relation to Daniel and Thomas but do not prove Alexander's place in the family.
 
-Daniel's death age corrects his estimated birth from about 1807 to about
-1795/96. That change also requires the proposed parents to be born earlier than
-previous estimates. [[Glasgow-3902|Adam Glasgow]] and Rose should not be placed
-above this family; Rose's age excludes her as the older Alexander's mother.
+Robert's sister Mary is explicitly identified as Mary Black, formerly Mary Glasgow, in a 15 September 1869 deed registered 1 July 1870. Her children—including John Black, Rose Ann Black, Jane Miller, Agnes Black and Thomasina Montgomery—conveyed interests under Robert's will to Mary Eno Glasgow, including the interest inherited from their unmarried intestate sister Elizabeth Black.<ref name="MaryBlack1870">Grenville County land records, DGS 8200420, image 277, C298, dated 15 September 1869 and registered 1 July 1870, [https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LQTY-K original image].</ref>
 
-[[Glasgow-951|Alexander Glasgow of Lisnagaver]] is a possible brother or cousin
-of Daniel and Thomas. The local cluster and Y-DNA support common paternal
-kinship, but no found record states the immediate relationship.
+Griffith's Valuation also has Daniel and Robert Glasgow at Gortereghy, Rasharkin, but name-only entries do not establish identity.<ref name="GriffithRasharkin">Fáilte Romhat, [https://www.failteromhat.com/griffiths/antrim/rasharkin.htm "Griffith's Valuation of Ireland — Rasharkin"], entries for Daniel and Robert Glasgow (accessed 19 July 2026).</ref> Revision books instead place [[Glasgow-938|Robert Glasgow]], son of Alexander, at Gortereghy 18c, while Daniel McCochrane occupied 18b.<ref name="GortereghyRevision">Public Record Office of Northern Ireland, ''Valuation Revision Books'', VAL/12/B/4/17A and VAL/12/B/4/17B, Gortereghy, Rasharkin parish.</ref> The records do not establish a Daniel–Robert father-son link or adjoining holdings. The earlier Rasharkin transcription and the [https://www.irishgenealogy.ie/en/ IrishGenealogy.ie] death and Thomas index searches remain useful but do not name Daniel's parents.<ref name="RasharkinSearch">[https://genealogy.torrens.org/BannValley/church/RasharkinP/Baptisms_1834.html Rasharkin Presbyterian register transcription].</ref><ref name="DanielDeathIndex">[https://www.irishgenealogy.ie/view/?record_id=cide-7256058 IrishGenealogy.ie], Daniel Glasgow death-result page.</ref><ref name="ThomasDeathIndex">[https://www.irishgenealogy.ie/view/?record_id=cidenc-772683 IrishGenealogy.ie], Thomas Glasgow death-result page.</ref>
 
-[[Glasgow-3900|Daniel Glasgow junior]], the watercolour artist who died at
-Kilrea in 1858, is a possible relative. The surviving obituary and catalogue
-material do not name his parents, so he should not be listed as Daniel's son
-without another record. Kate Glasgow informed Daniel's 1871 death, but the
-register gives no relationship.
-
-=== Additional sources consulted ===
-
-The review retained the [https://genealogy.torrens.org/BannValley/church/KilreaP1/Baptisms/1827.html 1827 Kilrea baptism transcription], [https://www.failteromhat.com/griffiths/derry/kilrea.php Griffith's Valuation for Kilrea], [https://www.failteromhat.com/griffiths/antrim/rasharkin.htm Griffith's Valuation for Rasharkin], [https://www.failteromhat.com/slater/0192.pdf Slater's directory] and the [https://www.britishmuseum.org/collection/term/BIOG70412 British Museum biographical entry]. Civil and probate searches included [https://www.irishgenealogy.ie/en/ IrishGenealogy.ie], the retained [https://www.irishgenealogy.ie/view/?record_id=cide-7256058 death result] and [https://www.irishgenealogy.ie/view/?record_id=cidenc-772683 Thomas death result], together with the [https://www.willcalendars.nationalarchives.ie/reels/cwa/005014889/005014889_00435.pdf imaged probate-calendar page]. They do not identify Daniel's parents.
+The surviving First Kilrea baptism register begins in 1825 and cannot contain Daniel's own baptism. Further work should seek Daniel and Margaret's marriage, original baptism evidence, the mothers of David and James, Daniel Jr.'s parentage, burial evidence, Kate's identity, and contemporary evidence for Daniel and Thomas's parents.
 
 == Sources ==
-
 <references />
-```

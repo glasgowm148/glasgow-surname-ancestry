@@ -1,0 +1,134 @@
+{
+  "assessment_date": "2026-08-25",
+  "resolution_state": "conflict",
+  "resolution_issue": "The Current conclusion identifies the Glenleslie census/will family, while the explicit Lisnagaver land-sequence correction retains Glasgow-1367 for the 1834 occupier without proving the connection. These scopes cannot safely be combined into one set of vital facts.",
+  "principal_locality": "Lisnagaver occupier; Glenleslie identification unresolved",
+  "opening": "Robert held 35 acres at Lisnagaver in 1834. The land-sequence assessment retains this as his working profile scope, while another maintained conclusion describes the documented Glenleslie census-and-will family. No record yet bridges those identities. County Antrim is the Glenleslie man’s recorded birthplace; County Tyrone is an imported profile assertion, not a competing inspected birth record. Robert remains an open, unproved father candidate for Alexander. The earlier accepted pedigree attachment is superseded, but biological fatherhood has not been disproved.",
+  "position": {
+    "answer": "The Lisnagaver working identity and Glenleslie family account remain in conflict over profile scope; an open father hypothesis is not an established pedigree.",
+    "points": []
+  },
+  "vital_assessment_id": "robert-1367-reviewed-vitals",
+  "archive_event_ids": [
+    "birth",
+    "death"
+  ],
+  "family_scope_note": "The Catherine, Margaret and Young-grandchild account belongs to the Glenleslie family. These retained family links must not be transferred to the 1834 Lisnagaver occupier until the identities are connected. Alexander’s possible father relationship is a separate hypothesis.",
+  "family_reasons": {
+    "Glasgow-951": "Robert remains a place-based possible father candidate for Alexander, but the Lisnagaver and Glenleslie identities are not bridged by a direct record."
+  },
+  "family_sources": {
+    "Glasgow-951": [
+      "tithe-robert-lisnagaver-1834"
+    ]
+  },
+  "record_rows": [
+    {
+      "record_id": "census-robert-1851",
+      "association": "Robert Glasgow: Glenleslie household 23 census",
+      "date": "1851",
+      "year": 1851,
+      "place": "Glenleslie, County Antrim",
+      "source_url": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=31234&census_year=1851",
+      "status": "Original census inspected in maintained research",
+      "note": "Robert, 72, Antrim-born farmer, with wife Catherine; marriage reported as 1803. The return names their household and sons absent in America. These facts describe Glenleslie Robert; identity with the Lisnagaver occupier is not established.",
+      "role": "Candidate subject: Glenleslie Robert, not yet linked to Lisnagaver"
+    },
+    {
+      "record_id": "will-robert-1854",
+      "association": "Robert Glasgow of Glenleslie will",
+      "date": "3 February 1851; proved 13 February 1854",
+      "place": "Glenleslie",
+      "source_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJ8-MQQJ?view=fullText",
+      "status": "Probate copy",
+      "note": "Robert named daughter Margaret and her children James and Mary Young; the copy states he died in or about 1852.",
+      "role": "Identity and family evidence"
+    },
+    {
+      "record_id": "tithe-robert-1825",
+      "association": "Robert Glasgow tithe occupier at Doonbought",
+      "date": "1825",
+      "place": "Doonbought",
+      "source_url": "https://www.billmacafee.com/182030stithe/tithenorthantrim.pdf",
+      "status": "Transcription",
+      "note": "The source places a Robert at Doonbought; identity with Glasgow-1367 is probable but not proved.",
+      "role": "Candidate continuity"
+    },
+    {
+      "record_id": "tithe-robert-lisnagaver-1834",
+      "association": "Robert Glasgow tithe occupier at Lisnagaver",
+      "date": "1834",
+      "place": "Lisnagaver",
+      "source_url": "https://genealogy.torrens.org/BannValley/records/tithe.html",
+      "status": "Original/transcribed land record",
+      "note": "A Robert Glasgow held 35 acres at Lisnagaver. The entry does not identify age, kinship or a later identity.",
+      "role": "Profile-scope evidence"
+    }
+  ],
+  "evidence_questions": [
+    {
+      "id": "robert-identity",
+      "title": "Which Robert does this profile represent?",
+      "answer": "The explicit land-sequence decision retains the 1834 Lisnagaver occupier as the working identity. The separate Glenleslie conclusion is well sourced for that family, but cannot establish the identity bridge by itself.",
+      "records": [
+        "will-robert-1854",
+        "census-robert-1851",
+        "tithe-robert-1825",
+        "tithe-robert-lisnagaver-1834"
+      ],
+      "reasoning": "The Glenleslie census records Antrim birth and age 72; the will names daughter Margaret and grandchildren James and Mary Young, and reports death about 1852. The retained Tyrone birthplace comes from imported profile fields. The tithe records identify occupiers at Lisnagaver and Doonbought, not their birthplaces or families. Research must first connect those appearances before assigning the Glenleslie vital facts to the Lisnagaver man.",
+      "limitation": "No direct record identifies Robert's parents or proves that the 1834 Lisnagaver, 1825 Doonbought and 1851 Glenleslie entries concern one man.",
+      "missing": "A lease, estate or family record bridging the townlands, or an incompatible overlapping event establishing two men. Editorially, the Current conclusion and explicit profile-scope decision require reconciliation; neither is resolved simply by its date."
+    },
+    {
+      "id": "alexander-father",
+      "title": "Is Robert excluded as Alexander’s father?",
+      "answer": "No. The earlier pedigree attachment is superseded as the accepted account; Robert remains an open father hypothesis, not a disproved candidate.",
+      "records": [],
+      "reasoning": "The 1834 tithe places Robert and Alexr Glasgow on separate Lisnagaver holdings. It supplies locality context, but neither a kinship statement nor proof of which later Robert was the occupier.",
+      "limitation": "The rejected acreage near-equality argument cannot support succession or parenthood. Its failure does not disprove Robert’s identity or fatherhood.",
+      "missing": "A record identifying Alexander’s father or a household/tenancy succession that explicitly connects them.",
+      "related_question": {
+        "href": "/people/glasgow-951.html#question-parents",
+        "label": "Alexander’s parent hypotheses"
+      }
+    }
+  ],
+  "record_evidence": {
+    "robert-identity": {
+      "will-robert-1854": {
+        "recorded_statement": "Robert made a will at Glenleslie in 1851, named Margaret and the Young grandchildren, and was stated to have died about 1852.",
+        "relevance": "It anchors the documented Glenleslie identity and family chain.",
+        "limitation": "It names no parents and does not mention the Lisnagaver occupier."
+      },
+      "tithe-robert-1825": {
+        "recorded_statement": "A Robert Glasgow was recorded at Doonbought in 1825.",
+        "relevance": "It is an age- and locality-compatible candidate continuation for the Glenleslie man.",
+        "limitation": "The tithe transcription does not provide enough identity detail to prove the match."
+      },
+      "tithe-robert-lisnagaver-1834": {
+        "recorded_statement": "A Robert Glasgow held 35 acres at Lisnagaver in 1834.",
+        "relevance": "It defines the working profile scope used to test the later appearances.",
+        "limitation": "It gives no age, relationship or parcel bridge to the Glenleslie household."
+      },
+      "census-robert-1851": {
+        "recorded_statement": "The Glenleslie house 23 census records Robert, 72, born in County Antrim, farmer, married to Catherine in 1803; sons John and Samuel are recorded absent in America.",
+        "relevance": "This is the record behind the Glenleslie man's estimated birth about 1778–1779 and Antrim birthplace, not evidence of a Tyrone birth.",
+        "limitation": "The return does not mention Lisnagaver or identify the 1834 occupier. These vital facts remain conditional when attached to that working identity."
+      }
+    }
+  },
+  "superseded_interpretations": [
+    {
+      "id": "acreage-near-match",
+      "label": "Superseded acreage near-equality interpretation",
+      "rejected_claim": "The earlier 64-to-63-acre comparison was treated as a near-equality supporting identity or parentage.",
+      "operative_correction": "The apparent equality cannot establish succession: the tithe's particular measure and parcel boundaries have not been established as comparable with Griffith's statute acreage. Plantation measure was common, but its general use is not proof of the unit in this entry. No conversion factor or identity is inferred here.",
+      "unaffected": "The recorded occupier names, holdings and the Glenleslie census-and-will chain retain their separate evidential status.",
+      "source": "research/Glasgow-1367/findings.md · Lisnagaver land-sequence correction - 24 August 2026"
+    }
+  ],
+  "deliberate_exclusions": [
+    "Adam and Rose are not active parents: the maintained Robert assessment finds the chronology and locality inconsistent, while John Glasgow remains only a weak locality candidate."
+  ]
+}

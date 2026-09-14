@@ -1,0 +1,92 @@
+{
+  "id": "saltcoats-1637",
+  "title": "John Glasgow, sailor in Saltcoats: testament dative, 1637",
+  "record": "National Records of Scotland, Glasgow Commissary Court, CC9/7/27, register pages 478-480",
+  "date": "Death December 1636; indexed court date 11 April 1637",
+  "reviewed_at": "2026-09-10",
+  "index_confirmation": {
+    "status": "confirmed_by_index",
+    "source": "User-supplied ScotlandsPeople index excerpt",
+    "provenance": "Surname Glasgow/Glasgw; 24 results; supplied 10 September 2026",
+    "indexed_name": "Johnn Glasgw",
+    "indexed_date": "11 April 1637",
+    "indexed_description": "sailor Saltcoats, parish Ardrossan",
+    "indexed_record_type": "TD",
+    "court": "Glasgow Commissary Court",
+    "reference": "CC9/7/27",
+    "evidential_scope": "Confirms the index entry and its exact indexed wording; 11 April 1637 is not John's death date and does not establish a profile identity."
+  },
+  "source_files": ["testaments/Glasgow/1637_John.pdf"],
+  "reviewed_pages": [
+    "PDF page 1 / register page 478: entry begins at foot; preceding estate excluded",
+    "PDF page 2 / register page 479: children, inventory, accounts and confirmation",
+    "PDF page 3 / register page 480: caution at top; following Muir estate excluded"
+  ],
+  "coverage": "All three originals and the complete John entry were inspected, including the pale inventory/accounts and the full caution continuation. Enlarged crops were used for Isobell Gray, the children/executor clause and John Broune. This is full coverage with selective transcription.",
+  "transcription": [
+    {"page": "478, opening", "lines": [
+      "The Testament dative & Inventar of",
+      "the guidis geir debtis & sowmes of money qlkis",
+      "pertenit to umqle Johne glasgow sailler in Saltcoittis",
+      "within the parochin of Ardrossane",
+      "[who] deceissit in the moneth of December [1636]",
+      "faithfullie maid & gevin up be Issobell gray his relict"
+    ]},
+    {"page": "479, children and estate", "lines": [
+      "In name & behalff of Kathrein & Agnes glasgow",
+      "his lawfull bairnes [and executors dative wording partly unresolved]",
+      "to the defunct thair father be the decreit of the",
+      "Commissaris of glasgow [day unresolved] Aprile 1637 zeiris",
+      "Inventar",
+      "[faded inventory and inward/outward debt entries unresolved]",
+      "[confirmation formula at foot partly unresolved]"
+    ]},
+    {"page": "480, caution", "lines": [
+      "The qlk day [compeirit] personallie Johne Broune",
+      "sailler in Saltcoittis And of his awin consent",
+      "actit him self as cautioun [administrative continuation unresolved]",
+      "Kathrein & Agnes glasgow lawfull bairnes of",
+      "umqle Johne glasgow sailler in Saltcoittis",
+      "[obligation and closing formula unresolved]",
+      "[following Muir estate excluded]"
+    ]}
+  ],
+  "plain_english": [
+    "John Glasgow was a sailor in Saltcoats within Ardrossan parish and died in December 1636.",
+    "Isobell Gray is expressly his relict or widow. Katherine and Agnes Glasgow are expressly his lawful children, and the deceased is called their father. Their executor role is additional administration, not the basis for the relationship.",
+    "John Broune, another sailor in Saltcoats, acted as cautioner. The record gives no kin term for him.",
+    "The record does not state that Isobell was the children's mother and does not name Mary as a child.",
+    "The household remains distinct from Glasgow-1030 and Jonet Mathie: no bridge in this testament connects them."
+  ],
+  "findings": [
+    "Confirmed: testament dative, sailor occupation, Saltcoats, Ardrossan parish and December 1636 death month.",
+    "Confirmed: Isobell Gray is John's relict; maternity of Katherine and Agnes is not stated.",
+    "Confirmed: Kathrein and Agnes Glasgow are lawful children and John is expressly their father.",
+    "Confirmed: the caution repeats the daughters and their father's Saltcoats occupation/locality.",
+    "Confirmed: John Broune is a Saltcoats sailor and cautioner; no kinship follows.",
+    "Excluded: Glasgow-1030 is not identified as this sailor, and Glasgow-3539/Mary is not established as his daughter."
+  ],
+  "changes_from_previous": [
+    "Old: widow, daughters and cautioner readings were maintained. New: each is confirmed unchanged after rereading the full clauses and continuation.",
+    "Old: Glasgow-1030 was excluded as the present identification. New: exclusion is confirmed; no new bridge appears in the accounts or caution.",
+    "Old: no Mary was established. New: confirmed unchanged after checking all three pages.",
+    "No walkthrough text or geometry changed because the family and exclusion conclusions remain unchanged."
+  ],
+  "unresolved": [
+    "Whether Isobell Gray was the mother of Katherine and Agnes.",
+    "Existing-profile identities for John, Isobell, Katherine, Agnes and John Broune.",
+    "The index confirms the court date as 11 April 1637; manuscript inventory descriptions, debt parties and full confirmation/caution wording remain unresolved.",
+    "Any connection to Glasgow-1030 requires an external documentary bridge."
+  ],
+  "profiles": [["Glasgow-1030", "John Glasgow: excluded as the present Saltcoats identification"], ["Glasgow-3539", "Mary Glasgow: not established as this sailor's daughter"]],
+  "confidence_statement": "High for John, occupation/locality, Isobell as relict, Katherine and Agnes as lawful children, and John Broune as cautioner. High that the testament supplies no bridge to Glasgow-1030. Low for faded account parties and precise administrative day.",
+  "reviewer": "LLM-assisted fresh visual reread from original images",
+  "provenance": {
+    "source_type": "original commissary-register images in supplied PDF",
+    "inspection_method": "full-page 250 DPI renders plus enlarged opening, children and caution inspection; temporary contrast enhancement used only as a reading aid",
+    "comparison_order": "ink inspected before the maintained 2026-09-09 review was compared",
+    "previous_review": "research/transcriptions/originals-2026-09-09/saltcoats-1637.json",
+    "walkthrough": "research/transcriptions/walkthroughs/saltcoats-1637.json",
+    "limitations": "Pale overwritten accounts prevent reliable recovery of several parties and sums."
+  }
+}

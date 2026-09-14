@@ -15,8 +15,7 @@ be the same person as the wife of Samuel Winters. The approximate 1801 birth
 remains only a working estimate on this profile; her birthplace and parents are
 unknown.
 
-## Evidence
-
+## Source findings
 | Source | Finding | Assessment |
 | --- | --- | --- |
 | [Detailed 1851 census transcription](https://durrushistory.com/wp-content/uploads/2012/10/1851irishcensusreturnscommadelimitedtextfilejul24_071.pdf), Glenleslie house 23 | Margaret Glasgow, 50, daughter of Robert, unmarried, born County Antrim. | Direct relationship and marital-status evidence in a detailed transcription of the surviving return. |

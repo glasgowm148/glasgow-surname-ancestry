@@ -12,7 +12,7 @@ birthplace remain unknown.
 Jane should not be attached as Hugh's second wife from this monument. The stone
 uses Jane for a deceased child and for the wife of Hugh and Ann's son James.
 
-## Source finding
+## Source findings
 
 | Source | Finding | Assessment |
 | --- | --- | --- |

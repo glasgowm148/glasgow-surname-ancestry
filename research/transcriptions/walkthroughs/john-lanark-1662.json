@@ -1,0 +1,124 @@
+{
+  "id": "john-lanark-1662",
+  "intro": "The place designation is more secure than the proposed family reading. Enlarging the two surviving John Glasgow forms shows what can actually be read, while the unboxed words around them remain too faded or grammatically uncertain to create a family link.",
+  "people": [
+    {
+      "name": "John Glasgow",
+      "role": "Deceased resident of Quothquan in Libberton",
+      "status": "explicit",
+      "evidence_step": "locality",
+      "evidence_study": "john-glasgow-locality"
+    },
+    {
+      "name": "Executor dative, name unresolved",
+      "role": "Identity and any kinship remain uncertain",
+      "status": "uncertain",
+      "evidence_step": "uncertain"
+    }
+  ],
+  "card_kin": {
+    "spouse": [],
+    "children": [],
+    "other_kin": []
+  },
+  "steps": [
+    {
+      "id": "locality",
+      "title": "1. Establish the locality before matching a person",
+      "page_label": "National Records of Scotland, CC14/5/6, image 138; Crown copyright",
+      "image": "/assets/research/testament-crops/john-lanark-1662-locality.jpg",
+      "image_width": 1500,
+      "image_height": 358,
+      "alt": "1. Establish the locality before matching a person: cropped original manuscript, CC14/5/6, image 138",
+      "original": "... John Glasgow in Quodquen ... / within the parochin of Libbertoun ...",
+      "reading": "John Glasgow in Quothquan, within Libberton parish.",
+      "explanation": "The opening puts the deceased's name on the line beneath the testament heading. The following line supplies the parish designation. Quodquen is the maintained literal place form normalized as Quothquan in the working reading, but its right-edge position and cramped text make it harder to inspect than the name. The locality words remain deliberately unboxed rather than being presented as equally clear letter-by-letter demonstrations.",
+      "proves": "The record concerns a John Glasgow in the Quothquan/Libberton locality.",
+      "does_not_prove": "A name and locality do not alone identify a particular WikiTree John or establish relationships to other Quothquan Glasgows.",
+      "confidence": "High for the maintained locality reading; the right-edge place spelling is less easy to inspect in this crop.",
+      "marks": [
+        {
+          "x": 62.866666666666674,
+          "y": 10.335195530726256,
+          "w": 27.200000000000003,
+          "h": 42.17877094972067,
+          "pixel_bbox": [
+            943,
+            37,
+            1351,
+            188
+          ],
+          "label": "John Glasgow",
+          "kind": "name",
+          "analysis": {
+            "reading": "John Glasgow",
+            "expansion": "John Glasgow",
+            "features": [
+              "John begins with a tall descending J followed by the smaller joined ohn letters.",
+              "The h rises above the o and n before a visible word space.",
+              "Glasgow opens with a broad looped G and has a lower g loop beneath the baseline.",
+              "The final ow ends in a fine stroke before the cramped locality wording."
+            ],
+            "comparison": "The next image repeats John Glasgow in a paler administrative continuation.",
+            "uncertainty": "The personal name is secure; this box does not independently demonstrate the adjacent Quodquen or Libbertoun spellings."
+          }
+        }
+      ],
+      "word_studies_replaced": true
+    },
+    {
+      "id": "uncertain",
+      "title": "2. Do not fill the gap with a presumed son",
+      "page_label": "National Records of Scotland, CC14/5/6, image 139; Crown copyright",
+      "image": "/assets/research/testament-crops/john-lanark-1662-uncertain.jpg",
+      "image_width": 1500,
+      "image_height": 286,
+      "alt": "2. Do not fill the gap with a presumed son: cropped original manuscript, CC14/5/6, image 139",
+      "original": "... the said John Glasgow [following words unresolved] ... / the said defunct ...",
+      "reading": "John Glasgow is named in the confirmation, but the following description and its grammatical connection remain unresolved.",
+      "explanation": "The name is visible toward the right of the first line, but the following faded words are not secure enough to transcribe as lawfull or to connect grammatically to the deceased. A familiar confirmation formula is not permission to supply sone. The walkthrough therefore enlarges only the readable name and keeps the missing relationship wording visible as unresolved rather than turning it into a genealogical edge.",
+      "proves": "John Glasgow is named in the administrative continuation.",
+      "does_not_prove": "This crop does not securely prove that an executor was the deceased's lawful son or establish the executor's full identity.",
+      "confidence": "Low for the proposed relationship phrase; no sonship asserted.",
+      "marks": [
+        {
+          "x": 62.6,
+          "y": 4.195804195804196,
+          "w": 23.200000000000003,
+          "h": 46.50349650349651,
+          "pixel_bbox": [
+            939,
+            12,
+            1287,
+            145
+          ],
+          "label": "John Glasgow",
+          "kind": "name",
+          "analysis": {
+            "reading": "John Glasgow",
+            "expansion": "John Glasgow",
+            "features": [
+              "The pale capital J descends below the compact ohn group.",
+              "A visible word space separates the forename from the darker looped G of Glasgow.",
+              "The surname's lower g loop and final ow remain recognizable despite fading and show-through.",
+              "The following ink is materially fainter and more crowded than the boxed name."
+            ],
+            "comparison": "The darker John Glasgow in the locality step provides a same-record comparison for the capital J, looped G and final ow.",
+            "uncertainty": "Only the name is secure here. The following descriptor, its subject and any claimed sonship remain unresolved."
+          }
+        }
+      ],
+      "word_studies_replaced": true
+    }
+  ],
+  "index_confirmation": {
+    "indexed_name": "John Glasgow",
+    "date": "1662-01-13",
+    "description": "in Quodquen",
+    "record_type": "TD&Inventory",
+    "court": "Lanark Commissary Court",
+    "reference": "CC14/5/6",
+    "status": "confirmed by supplied archival index",
+    "supplied_on": "2026-09-10"
+  }
+}

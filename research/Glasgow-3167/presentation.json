@@ -1,0 +1,182 @@
+{
+  "assessment_date": "2026-09-12",
+  "opening": "The maintained research identifies Mary Glasgow-3167 as the 1871 Lisnagaver bride who named Alexander Glasgow, farmer, as her father. Jane Matilda Elder's original 1878 Gortahar birth, Robert Elder's original 1894 death and the 1901 and 1911 census forms make the later household a high-confidence continuation. The 1911 form itself calls Jane's son Samuel Glasgow, while his 1908 birth calls him Samuel Elder and names no father; the alternate surname remains unexplained.",
+  "position": {
+    "answer": "Mary's father and husband are directly identified in her 14 June 1871 marriage; Robert's 1894 death and the later Gortahar household form a high-confidence continuation. Mary's own death remains unresolved.",
+    "points": [
+      "Resolved from the maintained 5 September review and source findings.",
+      "The marriage-based parentage is stronger than the imported birth entry; the latter remains in archive history.",
+      "Jane Matilda's original 1878 birth, Robert's original 1894 death and the census forms make the Gortahar continuation high-confidence but do not supply Mary's death.",
+      "The 1870 Mary Anne Glasgow administration concerns Thomas Glasgow's widow, not Mary-3167, who was still a spinster in June 1871."
+    ]
+  },
+  "family_reasons": {
+    "Glasgow-951": "The original 1871 marriage names Alexander Glasgow, farmer, as Mary's father. This is a documented father relationship; it does not establish Mary's mother.",
+    "Elder-7251": "The original marriage names Robert Elder as Mary's husband. His 1894 Gortahar death and Mary's continuing widow household identify the later family at high confidence."
+  },
+  "family_sources": {
+    "Glasgow-951": ["marriage-mary-1871"],
+    "Elder-7251": ["marriage-mary-1871"]
+  },
+  "record_rows": [
+    {
+      "record_id": "marriage-mary-1871",
+      "association": "Mary Glasgow and Robert Elder marriage return",
+      "date": "14 June 1871",
+      "place": "Ballymoney registration district; bride of Lisnagaver",
+      "source_url": "https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1871/11341/8162804.pdf",
+      "status": "Original civil return",
+      "note": "Mary Glasgow, aged 28, spinster of Lisnagaver, named Alexander Glasgow, farmer, as her father and married Robert Elder.",
+      "role": "Daughter and bride"
+    },
+    {
+      "record_id": "administration-thomas-1870",
+      "association": "Thomas Glasgow administration, Belfast registry",
+      "date": "7 September 1870",
+      "place": "Lisnagaver / Belfast registry",
+      "source_url": "https://apps.proni.gov.uk/WillsCalendar_IE/WillsSearch.aspx",
+      "status": "Official calendar abstract; no image",
+      "note": "Administration of Thomas Glasgow's estate was granted to Mary Anne Glasgow of Lisnagaver, his widow. This cannot be Mary-3167, who married as a spinster on 14 June 1871.",
+      "role": "Excluded same-name association"
+    },
+    {
+      "record_id": "census-mary-1901",
+      "association": "Gortahar Elder household, 1901 original census",
+      "date": "1901",
+      "place": "Gortahar, County Antrim",
+      "source_url": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=4575739&c20_year=1901",
+      "status": "Original Form A inspected",
+      "note": "Widowed farmer Mary Elder headed the household with unmarried children Mary, Robert and Jane; all were Presbyterian, literate and born in County Antrim.",
+      "role": "Candidate continuation"
+    },
+    {
+      "record_id": "death-robert-elder-1894",
+      "association": "Robert Elder civil death return",
+      "date": "18 November 1894",
+      "place": "Gortahar, Dervock registrar district",
+      "source_url": "https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1894/05952/4691448.pdf",
+      "status": "Original civil return; high-confidence identification",
+      "note": "Robert Elder, married farmer, aged 64, died at Gortahar; Mary Elder, widow, of Gortahar informed the death that day. The return does not explicitly call her his wife.",
+      "role": "Husband's death and household continuity"
+    },
+    {
+      "record_id": "birth-jane-elder-1878",
+      "association": "Jane Matilda Elder civil birth return",
+      "date": "16 September 1878",
+      "place": "Gortahar, Ballymoney registration district",
+      "source_url": "https://www.irishgenealogy.ie/files/civil/birth_returns/births_1878/02945/2078820.pdf",
+      "status": "Original civil return; high-confidence identification",
+      "note": "Jane Matilda Elder was born to farmer Robert Elder and Mary Elder, whose maiden surname is entered as Glass; Robert, her father, informed the birth. The exact parents, place and middle initial identify the later Jane M. Elder.",
+      "role": "Daughter and household continuity"
+    },
+    {
+      "record_id": "census-mary-1911",
+      "association": "Gortahar Elder household, 1911 census",
+      "date": "1911",
+      "place": "Gortahar, County Antrim",
+      "source_url": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=490671&c20_year=1911",
+      "status": "Original Form A inspected",
+      "note": "Robert J. Elder lived with his widowed mother Mary, sister Jane M. and nephew Samuel Glasgow. The manuscript itself clearly gives Glasgow as Samuel's surname; his original birth instead records Elder.",
+      "role": "Candidate continuation"
+    },
+    {
+      "record_id": "birth-samuel-1908",
+      "association": "Samuel Elder civil birth return",
+      "date": "4 July 1908",
+      "place": "Gortahar, Ballymoney registration district",
+      "source_url": "https://www.irishgenealogy.ie/files/civil/birth_returns/births_1908/01647/1657700.pdf",
+      "status": "Original civil return",
+      "note": "Samuel Elder was born to unmarried Jane Elder; no father was recorded, and Mary Elder of Gortahar informed the birth. The return records no Glasgow name.",
+      "role": "Household child and transcription correction"
+    },
+    {
+      "record_id": "death-mary-jane-elder-1897",
+      "association": "Mary Jane Elder death return",
+      "date": "11 June 1897",
+      "place": "Lisnagaver",
+      "source_url": "https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1897/05858/4660280.pdf",
+      "status": "Competing identity record",
+      "note": "Mary Jane Elder died aged 65 at Lisnagaver; the return names neither husband nor parents.",
+      "role": "Identity conflict"
+    }
+  ],
+  "evidence_questions": [
+    {
+      "id": "identity-parentage",
+      "title": "What establishes Mary's identity and parentage?",
+      "answer": "The 14 June 1871 original marriage is direct evidence that Mary Glasgow of Lisnagaver was Alexander Glasgow's daughter and Robert Elder's wife.",
+      "records": ["marriage-mary-1871"],
+      "reasoning": "The return supplies Mary's age, residence, father's name and occupation, and her husband's identity in one record. That is a stronger identity bridge than the imported birth entry.",
+      "limitation": "The marriage does not name Mary's mother and does not by itself prove that every later Mary Elder record is the same woman.",
+      "missing": "Children's civil births and a death or probate record that identifies the Gortahar widow."
+    },
+    {
+      "id": "later-continuation",
+      "title": "Which later records may continue the family?",
+      "answer": "Jane Matilda's original 1878 Gortahar birth, Robert's original 1894 death and the 1901 and 1911 households form the strongest continuation, while the 1897 Lisnagaver death remains a competing identity for Mary.",
+      "records": ["birth-jane-elder-1878", "death-robert-elder-1894", "census-mary-1901", "census-mary-1911", "birth-samuel-1908", "death-mary-jane-elder-1897"],
+      "reasoning": "Jane Matilda's birth directly names Robert and Mary at Gortahar, with Mary's maiden surname entered as Glass. Robert's death and the census forms then continue the same household. Samuel's original birth gives the same place, proves Jane as his mother, and names Mary Elder as informant; the original 1911 form independently records the child as Samuel Glasgow.",
+      "limitation": "The birth spelling Glass is retained rather than silently normalised to Glasgow. The Elder/Glasgow difference for Samuel is an unexplained conflict between original records, and neither names his father. Jane's 1878 birth fits her 1901 age but shows that her 1911 age is too low. The 1897 return has no parent or spouse detail.",
+      "missing": "Civil births for Mary and Robert J. Elder, a post-1921 GRONI search, and probate/death evidence for Mary Elder; any guardianship or school record identifying Samuel's father."
+    }
+  ],
+  "record_evidence": {
+    "identity-parentage": {
+      "marriage-mary-1871": {
+        "recorded_statement": "The 14 June 1871 return records Mary Glasgow, aged 28, of Lisnagaver, marrying Robert Elder and naming Alexander Glasgow, farmer, as her father.",
+        "relevance": "It directly establishes the father and supplies the residence and marriage identity used to test later Elder records.",
+        "limitation": "It does not name Mary's mother or resolve the later death identity."
+      }
+    },
+    "later-continuation": {
+      "birth-jane-elder-1878": {
+        "recorded_statement": "Jane Matilda Elder was born at Gortahar on 16 September 1878 to farmer Robert Elder and Mary Elder, whose maiden surname is entered as Glass; Robert, her father, informed the birth.",
+        "relevance": "The exact parents, place and middle initial directly connect the couple to the later Jane M. Elder household at high confidence.",
+        "limitation": "The register spells the maiden surname Glass; that recorded form is retained while its compatibility with Mary's documented Glasgow surname is assessed from the wider evidence."
+      },
+      "death-robert-elder-1894": {
+        "recorded_statement": "Robert Elder, married farmer, aged 64, died at Gortahar on 18 November 1894; Mary Elder, widow, of Gortahar was present and registered the death.",
+        "relevance": "The exact place, compatible age and occupation, same-day widow description and later widow household make this a high-confidence identification as Mary's husband.",
+        "limitation": "The return does not explicitly label Mary as Robert's wife."
+      },
+      "census-mary-1901": {
+        "recorded_statement": "A widowed Mary Elder, aged 60, headed the Gortahar household with Mary, Robert and Jane.",
+        "relevance": "It provides a plausible household continuation for the 1871 bride after her husband's likely death.",
+        "limitation": "The form does not name Mary's father; Jane's age 22 agrees with her 1878 birth, while the 1911 age does not."
+      },
+      "census-mary-1911": {
+        "recorded_statement": "Robert J. Elder lived with his widowed mother Mary, sister Jane and nephew Samuel Glasgow.",
+        "relevance": "It preserves household continuity and directly evidences reported use of the Glasgow surname for Samuel.",
+        "limitation": "It does not state that this Mary is the 1871 bride or identify Samuel's father; Samuel's original birth records him as Elder."
+      },
+      "birth-samuel-1908": {
+        "recorded_statement": "The original register records Samuel Elder, born 4 July 1908 at Gortahar to unmarried Jane Elder, with no father named; Mary Elder of Gortahar was the informant.",
+        "relevance": "The place, age, mother and informant identify the child within the Gortahar Elder household.",
+        "limitation": "It does not identify Samuel's father and conflicts with the original 1911 surname."
+      },
+      "death-mary-jane-elder-1897": {
+        "recorded_statement": "Mary Jane Elder died aged 65 at Lisnagaver on 11 June 1897; parents and husband are not named.",
+        "relevance": "It is the competing death identity that must be tested before assigning a death to Mary-3167.",
+        "limitation": "The entry lacks the family details needed to distinguish this woman from the Gortahar Mary."
+      }
+    }
+  },
+  "research_tasks": [
+    {"priority": 1, "scope": "Documentary", "status": "Completed; continuation strengthened", "status_date": "2026-09-12", "what": "Inspect the original 1901 and 1911 Gortahar household forms.", "tests": "Tests whether the later widow and children are the family of the 1871 bride.", "matters": "The forms strongly continue Mary, Robert and Jane at Gortahar and prove the 1911 Glasgow wording is original, but do not independently name Mary's father.", "provenance": "research/Glasgow-3167/findings.md · Samuel Elder and Jane Elder"},
+    {"priority": 2, "scope": "Documentary", "status": "Completed; alternate surname unexplained", "status_date": "2026-09-12", "what": "Inspect Samuel Elder's civil birth and compare it with the original 1911 household form.", "tests": "Tests the child's identity, mother and reported Glasgow name.", "matters": "The birth proves Jane Elder was Samuel's mother and names Mary Elder as informant; the census itself records Samuel Glasgow. Neither identifies his father.", "provenance": "research/Glasgow-3167/findings.md · Samuel Elder and Jane Elder"},
+    {"priority": 3, "scope": "Documentary", "status": "Completed; husband identified at high confidence", "status_date": "2026-09-12", "what": "Inspect the original 1894 Robert Elder death entry.", "tests": "Tests whether the Ballymoney index candidate was Mary's husband and explains her widow status.", "matters": "The original records the married 64-year-old farmer dying at Gortahar, with Mary Elder of Gortahar described as a widow and reporting the death. It does not explicitly call her his wife.", "provenance": "research/Glasgow-3167/findings.md · Corrected Gortahar household identification"},
+    {"priority": 4, "scope": "Documentary", "status": "Partly completed; Jane proved", "status_date": "2026-09-12", "what": "Inspect age-compatible Ballymoney civil births for Mary, Robert J. and Jane Elder.", "tests": "Tests the children's identities and whether their records independently continue Robert and Mary at Gortahar.", "matters": "Jane Matilda's 1878 Gortahar birth directly names Robert and Mary and matches the later middle initial. Inspected Mary entries for 1873, 1874 and 1876 and Robert entries for 1873–1876 belong to other parents; those two births remain unresolved.", "provenance": "research/Glasgow-3167/findings.md · Samuel Elder and Jane Elder"},
+    {"priority": 5, "scope": "Documentary", "status": "Free pre-1922 search complete; GRONI temporarily unavailable", "status_date": "2026-09-12", "what": "Search post-1911 deaths and marriages for the Gortahar Elder household, then continue after 1921 in GRONI.", "tests": "Tests Mary's death and the later movements of Mary, Robert J., Jane and Samuel.", "matters": "No matching Ballymoney death or marriage was found through 1921. Two older nationwide Mary Elder deaths were married women in Londonderry and conflict with Mary's widowhood. GRONI's scheduled maintenance prevented the post-1921 free name-count search on 12 September; detailed results may require credits.", "provenance": "research/Glasgow-3167/findings.md · Next proof targets"}
+  ],
+  "completed_searches": [
+    {"date": "2026-09-12", "search": "Mary A. Glasgow in Thomas Glasgow's 1870 probate entry", "result": "Resolved as Mary Anne Glasgow, Thomas's widow. Mary-3167 was still a spinster in June 1871 and is excluded from this administration."},
+    {"date": "2026-09-12", "search": "Original 1901 and 1911 Gortahar census forms", "result": "The forms strongly continue Mary, Robert and Jane Elder. The 1911 manuscript itself calls Jane's nephew Samuel Glasgow, creating a genuine original-record conflict with his 1908 birth as Samuel Elder."},
+    {"date": "2026-09-12", "search": "Original Robert Elder death entry, 1894", "result": "Resolved at high confidence: a married farmer aged 64 died at Gortahar on 18 November 1894, with Mary Elder, widow, of Gortahar reporting the death. The return does not explicitly call her his wife."},
+    {"date": "2026-09-12", "search": "Age-compatible Ballymoney births for Mary, Robert J. and Jane Elder", "result": "Jane Matilda Elder's original 16 September 1878 Gortahar birth directly names Robert Elder and Mary Elder, maiden surname entered as Glass. It fits Jane's 1901 age and disproves her reported 1911 age. The inspected Mary entries for 1873, 1874 and 1876 and Robert entries for 1873–1876 name other parents, so those two births remain unresolved."},
+    {"date": "2026-09-12", "search": "Post-1911 Elder deaths and marriages in the free civil index", "result": "No matching Ballymoney death or marriage was found for Mary, Robert J. or Jane through 1921, and no daughter-Mary marriage was found from 1901. The only Ballymoney Mary death was aged 19; two older nationwide Mary Elder deaths were married women in Londonderry. Post-1921 GRONI checking remains pending because the official service was under scheduled maintenance until 14 September."}
+  ],
+  "editorial_corrections": [
+    {"id": "samuel-name-forms", "label": "Conflicting original surname forms retained", "correction": "The original 1908 birth records Samuel Elder, while the original 1911 census clearly records Samuel Glasgow. Treat this as unexplained alternate surname usage, not a transcription error, a middle name, or proof of a Glasgow father.", "source": "General Register Office of Ireland, Samuel Elder civil birth, 4 July 1908, https://www.irishgenealogy.ie/files/civil/birth_returns/births_1908/01647/1657700.pdf; National Archives of Ireland, 1911 census Form A, image nai001389304, https://nationalarchives.ie/collections/search-the-census/census-record/#id=490671&c20_year=1911"}
+  ],
+  "deliberate_exclusions": ["Imported c.1843 birth field is retained in archive data but is not the principal identity source because the original 1871 marriage gives a stronger age, residence and father statement."]
+}

@@ -1,8 +1,10 @@
 # Findings: [James Glasgow (Glasgow-1509), 1737–1802, Larne](https://www.wikitree.com/wiki/Glasgow-1509)
 
-Last updated: 2026-08-11
+Last updated: 2026-09-13
 
 ## Current conclusion
+
+[Compare the Larne, Inishrush and American family reconstruction](/people/glasgow-951.html#larne-reconstruction), including the alternative immediate-parent routes and their source tests.
 
 This profile is the working identity for the **older Larne ropemaker/roper**,
 not the monument son of Hugh and Ann now represented separately by
@@ -14,14 +16,11 @@ The 1803 Connor probate is a plausible match to a James reportedly commemorated
 as 1737-1802 with Janet Shutter, but neither the complete monument nor probate
 contents has been recovered.
 
-A Larne lease dated 14 January 1784, registered 17 August 1790, was witnessed
-by James Glasgow of Larne, described in the current transcription as a turner.
-James also witnessed the memorial and personally swore to its execution at
-Larne in 1790. This is provisionally assigned to this older Larne tradesman,
-although James `Glasgow-3991` was also an adult at Larne and cannot yet be
-excluded. The original image should be checked to determine whether the
-occupation reads `turner` or `tanner`; the latter would align closely with the
-1786 Blackcave lease.
+The 20 August deed reconstruction separates this ropemaker from the contemporary
+Larne tanner: the 1768 ropewalk assignment names both men. The 1778 affidavit
+and 1786 Blackcave tanner lease therefore do not evidence this profile. The
+1784/1790 witness occurrence remains unassigned until its handwriting is read
+securely.
 
 An earlier deed memorial supplies a much stronger identification. On 27
 October 1773 James Glasgow of Larne, gentleman, swore at Ballyshannon, County
@@ -40,9 +39,7 @@ father-son record. These are competing hypotheses; neither is presently preferre
 strongly enough to remove a useful uncertain attachment.
 
 James Glasgow, ropemaker, is independently documented at Larne in newspaper
-advertisements in 1761 and as a deed witness in 1766. A 1786 lease names James
-Glasgow, tanner, at Larne. These may be the same James, but the occupation change
-means identity should remain cautious. Alexander Holmes's 1799 will refers to
+advertisements in 1761 and as a deed witness in 1766. Alexander Holmes's 1799 will refers to
 houses occupied by James Glasgow, apparently a roper, proving that a Larne
 namesake remained there after James-1144 had died in South Carolina.
 
@@ -52,6 +49,23 @@ Glasgow** supplies unusually specific circumstantial support. James
 `Glasgow-3986`, born about 1773, is a plausible later son and may explain why his
 former direct attachment to the much older William-1505 looked generationally
 compressed.
+
+### Tested relationship hypothesis — 13 September 2026
+
+**Hypothesis:** this identifiable 1737 Larne ropemaker was the father of Adam
+Glasgow of Inishrush (`Glasgow-3902`); `Glasgow-3905` is only the existing
+placeholder for that father role. Adam's c.1758 birth gives an ordinary age-21
+father–son interval, and Adam's proved son James (c.1794) offers limited positive
+naming support. The reported 1762 marriage to Janet Shutter is four years later
+than Adam's birth, so the hypothesis requires an earlier mother, a premarital
+birth, or an erroneous date; Janet must not be made Adam's mother. No inspected
+record joins Larne to Inishrush or names the relationship. The two 1740 local
+Hugh households and the older Adam-and-Maria naming model remain alternatives.
+
+Older Alexander `Glasgow-3904` fits more naturally as Adam's possible brother
+than son: James c.1737 could have been about 33 at Alexander's estimated c.1770
+birth, whereas Adam c.1758 was too young for the existing chronology. This is
+only a reconstruction, not a basis to merge profiles or alter attachments.
 
 ## Source findings
 
@@ -80,8 +94,8 @@ compressed.
 4. Keep Glasgow-3991 separate from this profile. Inspect the original 1737 entry,
    reported James-Janet monument and 1762 marriage before upgrading either the
    William-1505 or Hugh-1503 parent hypothesis.
-5. Keep the ropemaker and tanner identities explicitly provisional until a lease,
-   will, spouse or property succession joins them.
+5. Keep the 1784/1790 occurrence unassigned until its handwriting is settled;
+   the 1768 deed already distinguishes the ropemaker from the tanner.
 6. Retain Glasgow-3324 and Glasgow-3986 as reasonable working children, with the
    former assessed probable and the latter uncertain.
 

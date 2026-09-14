@@ -1,28 +1,20 @@
-# WikiTree update notes: Glasgow-548
+[[Category:Glasgow Name Study]]
+{{Estimated Date}}
 
-Facts and corrections found after the current WikiTree profile capture, for manual review.
+== Biography ==
 
-## Suggested additions
+'''Hugh Glasgow''' is represented in a late Glasgow family tradition as the son of [[Glasgow-551|John Glasgow]], a County Tyrone native who married [[McCullough-1964|Margaret McCullough]] in 1733 and was father of [[Glasgow-549|John]], [[Glasgow-550|Robert]], and the younger [[Glasgow-540|Hugh Glasgow]].  The account was written long after the asserted events and provides no contemporary evidence for birth, marriage, occupation, move, or parent-child links; these details remain tradition, not established biography.<ref name="GlasgowHistory">[[Glasgow-590|William Melanchthon Glasgow]], ''History of the Glasgow Family'', [https://www.wikitree.com/photo/pdf/Glasgow-590 digital copy attached to Glasgow-590].</ref>
 
-| Fact | Source | Confidence |
-| --- | --- | --- |
-| Two separate Protestant householders named Hugh Glasgow were recorded in Tamlaght O'Crilly parish in 1740. | PRONI `T808/15258`, pp. 108–109; [Macafee name transcription](https://www.billmacafee.com/1740returns/1740religiousreturnsulstername.pdf) and [collector-order transcription](https://genealogy.torrens.org/BannValley/books/Kilrea/Kilrea07.html) | High |
-| One Hugh occurs in an Inishrush-linked collector cluster immediately before Hugh Ellis and James McCullough, but the return does not specify his townland. | Same return, compared with Registry of Deeds memorial 57951 (1734 Inishrush lease) | Moderate as geographic context; low as personal identification |
-| A Hugh Glasgow was one of the Tamlaght O'Crilly parish inhabitants who surrendered arms to Henry Ellis of Inishrush in April 1772. | Belfast News-Letter, 14 April 1772 | High for a parish resident; unresolved identity |
-| The late family narrative says the younger Hugh's eldest son John was born in 1780 on the family farm in County Londonderry, `not far from` Portglenone. This independently fits the district indicated by the 1740 and 1772 records. | [William Melanchthon Glasgow, *History of the Glasgow Family*, pp. 2-3](https://www.wikitree.com/photo.php/0/0a/Glasgow-590.pdf) | High for what the late source says; moderate as geographic tradition; no direct kinship proof |
-| The combined sequence makes this profile a high-confidence candidate for the Hugh in the Inishrush-linked 1740 collector cluster and makes his family a high-probability extended-family match for Adam-3902 and John-3927/822. | 1740 return, 1772 notice, and 1780 farm tradition considered together | Moderate-high as a cumulative cluster conclusion; not a parent statement |
-| The same late account says Hugh-540's household left many kin in Ireland when it emigrated in August 1796. | Same family history, p. 3 | High for what the late source says; indirect support for a residual collateral family only |
-| If entry 1272 represents Hugh-548, the other 1740 Hugh (entry 1195) is a cleaner possible root for the older Adam/Maria line than adding an unreported fourth son to Hugh-548. | Two-Hugh return compared with the late three-son account and John-822's child order | Coherent working topology; no direct relationship proof |
+Two separate householders named Hugh Glasgow appear in Tamlaght O'Crilly parish in the 1740 Protestant Householders' Return.  One occurs near Hugh Ellis and James McCullough in a collector sequence linked to the Inishrush district.  The return gives neither Hugh's townland, age, wife, nor children, so it cannot identify either entry as this man or as Margaret's husband.<ref name="PHR1740">Bill Macafee, compiler, ''Protestant Householders' Returns (1740) for County Londonderry'', records 1195 and 1272, Hugh Glasgow, Loughinsholin Barony, Tamlaght O'Crilly Parish; [https://adamsfamilydna.com/wp-content/uploads/2013/02/1740-Protestant-Returns-Londonderry-County-Ireland.pdf PDF].</ref><ref name="PHRSequence">William Murphy, transcriber, “Census (Partial) of Protestant Householders in Tamlaght O'Crilly Parish in 1740,” ''Ireland Genealogy Projects Archives'', [https://www.igp-web.com/IGPArchives/ire/derry/census/cens-prot-tamlaght-1740.html online transcription].</ref>
 
-## Suggested corrections
+A 1772 notice likewise names a Hugh Glasgow among inhabitants of Tamlaght O'Crilly who surrendered arms to Henry Ellis of Inishrush.  It confirms a parish occurrence only and cannot distinguish this Hugh from another namesake or the younger [[Glasgow-540|Hugh Glasgow]].<ref name="News1772">''Belfast News-Letter'', 14 April 1772, notice dated at Inishrush on 6 April 1772, naming Hugh Glasgow among inhabitants of Tamlaght O'Crilly Parish; transcript in “1770–1779: News transcripts for Kilrea & environs,” [https://arborealis.ca/records/newspapers/kilrea-news/1770-1779/ Arborealis].</ref>
 
-- Remove or rewrite the statement that this older Hugh's family emigrated in August 1796. The cited family-history scan introduces the younger Hugh and his children before saying `The family` emigrated; it is the younger household's story.
-- Label the County Tyrone birth about 1706, weaving occupation, move to Londonderry, 1733 marriage to Margaret McCullough, and sons John, Robert and Hugh as late family tradition, not established facts.
+== Research Notes ==
 
-## Do not add as fact
+The 1740 cluster and late account make this profile a useful geographic lead for the wider Inishrush Glasgow network, but they do not prove residence at Inishrush, marriage to a particular McCullough, or parentage of [[Glasgow-3902|Adam Glasgow]].  The account's 1796 emigration passage concerns the younger Hugh's household and must not be assigned here.  The later RootsWeb account is derivative tradition, conflicts on dates, and is retained only as a lead.<ref name="RootsWeb">Undated Glasgow family genealogy formerly hosted by RootsWeb, [https://web.archive.org/web/20201003134102/https://sites.rootsweb.com/~iapage/families/glasgow/GLASGOW1.HTM archived copy at the Internet Archive].</ref>
 
-- Do not attach either 1740 entry specifically to this profile without a distinguishing record.
-- Do not describe the second 1740 Hugh as `of Inishrush`; Macafee's transcript states `Not specified` for the townland.
-- Do not infer a McCullough marriage from collector adjacency. The juxtaposition is a research clue only.
-- Do not identify the 1772 subscriber as this older Hugh; the younger Hugh was also old enough to be the subscriber under the traditional chronology.
-- Do not claim that the evidence chooses which traditional son fathered Adam and John. John-549 and Robert-550 are undistinguished possibilities; the other-Hugh collateral model is structurally cleaner.
+== Sources ==
+
+<references />
+
+* Undated Glasgow family genealogy formerly hosted by RootsWeb, [https://web.archive.org/web/20201003134102/https://sites.rootsweb.com/~iapage/families/glasgow/GLASGOW1.HTM archived copy at the Internet Archive]; derivative tradition, retained as a research lead.

@@ -1,0 +1,330 @@
+{
+  "id": "william-1646",
+  "intro": "Read the identity across its line break, then distinguish the explicit sonship from the executor appointment. The enlarged words show the secretary-hand letterforms used for the name and kinship terms; these remain source-image excerpts, not a complete transcription.",
+  "people": [
+    {
+      "name": "William Glasgow",
+      "role": "Deceased mealmaker in Leith",
+      "status": "explicit",
+      "evidence_step": "identity",
+      "profile_id": "Glasgow-3075",
+      "evidence_study": "william-1646-subject"
+    },
+    {
+      "name": "Archibald Glasgow",
+      "role": "Lawful son and sole executor dative",
+      "status": "explicit",
+      "evidence_step": "son",
+      "profile_id": "Glasgow-3078",
+      "evidence_study": "william-1646-archibald"
+    }
+  ],
+  "card_kin": {
+    "spouse": [],
+    "children": [
+      {
+        "name": "Archibald Glasgow",
+        "relationship": "lawful son",
+        "status": "explicit",
+        "evidence_step": "son",
+        "evidence_study": "william-1646-archibald"
+      }
+    ],
+    "other_kin": []
+  },
+  "steps": [
+    {
+      "id": "identity",
+      "title": "1. William Glasgow, mealmaker in Leith",
+      "page_label": "National Records of Scotland, CC8/8/62, image 461; Crown copyright",
+      "image": "/assets/research/testament-crops/william-1646-identity.jpg",
+      "image_width": 1500,
+      "image_height": 374,
+      "alt": "1. William Glasgow, mealmaker in Leith: cropped original manuscript, CC8/8/62, image 461",
+      "original": "... umq[uhi]le Wm / Glasgow Meilmaker in leith ...",
+      "reading": "The late William Glasgow, mealmaker in Leith.",
+      "explanation": "The compact abbreviation Wm stands at the right end of one line; Glasgow begins the next. The line break is layout, not a break between people. Meilmaker and in leith follow the surname and supply occupation and residence. The tall loops, long descenders and compressed minim groups shown in the enlarged words are normal features of this hand, so the reading depends on the whole word and its position rather than on modern letter shapes alone.",
+      "proves": "The record identifies a deceased William Glasgow as a Leith mealmaker.",
+      "does_not_prove": "This identity line does not name his parents or prove a relationship to any earlier Glasgow family.",
+      "confidence": "High for identity, occupation and locality.",
+      "marks": [
+        {
+          "x": 84.66666666666667,
+          "y": 24.06417112299465,
+          "w": 10.266666666666667,
+          "h": 31.550802139037433,
+          "pixel_bbox": [
+            1270,
+            90,
+            1424,
+            208
+          ],
+          "label": "Wm",
+          "kind": "name",
+          "analysis": {
+            "reading": "Wm",
+            "expansion": "William",
+            "features": [
+              "The capital W is compressed into steep joined strokes rather than a modern printed W.",
+              "A small raised m follows the larger initial and sits close to the right edge of the line.",
+              "The final hairline turns down and right, so the whole abbreviation needs more than the height of the central letter body."
+            ],
+            "uncertainty": "The abbreviation is secure in this naming formula; it does not preserve the omitted letters of William."
+          }
+        },
+        {
+          "x": 6.066666666666666,
+          "y": 39.037433155080215,
+          "w": 18.266666666666666,
+          "h": 45.72192513368984,
+          "pixel_bbox": [
+            91,
+            146,
+            365,
+            317
+          ],
+          "label": "Glasgow",
+          "kind": "name",
+          "analysis": {
+            "reading": "Glasgow",
+            "expansion": "Glasgow",
+            "features": [
+              "The large opening G has an open upper loop and a lower stroke that returns beneath the baseline.",
+              "The middle las is tightly joined, with narrow vertical strokes that can look like an undivided zigzag at first sight.",
+              "The second g sends a long loop below the writing line.",
+              "The final ow is shallower and runs into a fine exit stroke toward Meilmaker."
+            ],
+            "comparison": "The same surname is split as glas- and -gow in the sonship passage below, which helps confirm the g and final ow forms.",
+            "uncertainty": "The surname reading is clear; the surrounding ink strokes from the adjacent line are not part of the word."
+          }
+        },
+        {
+          "x": 22.93333,
+          "y": 41.97861,
+          "w": 20,
+          "h": 30.74866,
+          "pixel_bbox": [
+            344,
+            157,
+            300,
+            115
+          ],
+          "label": "Meilmaker",
+          "kind": "name",
+          "analysis": {
+            "reading": "Meilmaker",
+            "expansion": "mealmaker",
+            "features": [
+              "The capital M begins with a tall downstroke and broad turn before the smaller letters.",
+              "The eil sequence is compressed into short connected strokes; the dot above i separates it from an extra minim.",
+              "The k has a taller stem and angled arm near the middle of the word.",
+              "The final er is lighter and more tightly joined than the opening syllable."
+            ],
+            "uncertainty": "Meilmaker is the visible Scots spelling; mealmaker is the modern occupational rendering, not a claim that the manuscript uses modern spelling."
+          }
+        },
+        {
+          "x": 45,
+          "y": 41.17647,
+          "w": 8.66667,
+          "h": 29.94652,
+          "pixel_bbox": [
+            675,
+            154,
+            130,
+            112
+          ],
+          "label": "leith",
+          "kind": "name",
+          "analysis": {
+            "reading": "leith",
+            "expansion": "Leith",
+            "features": [
+              "The opening l rises well above the small e and i.",
+              "A dot is visible above the short i stroke.",
+              "The t is crossed within the joined middle of the word.",
+              "The final h has a tall looped ascender and a return stroke to the baseline."
+            ],
+            "uncertainty": "The place-name is clear; capitalization is modernized in the expansion."
+          }
+        }
+      ],
+      "word_studies_replaced": true
+    },
+    {
+      "id": "son",
+      "title": "2. The relationship is stated, not inferred",
+      "page_label": "National Records of Scotland, CC8/8/62, image 461; Crown copyright",
+      "image": "/assets/research/testament-crops/william-1646-son.jpg",
+      "image_width": 1500,
+      "image_height": 407,
+      "alt": "2. The relationship is stated, not inferred: cropped original manuscript, CC8/8/62, image 461",
+      "original": "... be Archibald glas- / gow sone law[fu]ll to the defunct and onlie ex[ecuto]r dative / ... his s[ai]d umq[uhi]le father ...",
+      "reading": "Given up by Archibald Glasgow, lawful son of the deceased and sole executor dative; the deceased is also called his father.",
+      "explanation": "Archibald appears toward the right of the first complete line; glas- ends at the page edge and -gow resumes at the left of the next line. Immediately after the completed surname come sone and lawfull. The executor description follows as a separate legal office. The following line calls the deceased his father, a second kinship expression within the same record rather than independent corroboration.",
+      "proves": "Archibald is explicitly William's son as well as his executor.",
+      "does_not_prove": "Executor status alone would not prove sonship; this passage also does not identify Archibald's mother.",
+      "confidence": "High for the explicit son/father wording.",
+      "marks": [
+        {
+          "x": 66.73333333333333,
+          "y": 1.4742014742014742,
+          "w": 21.133333333333333,
+          "h": 35.62653562653563,
+          "pixel_bbox": [
+            1001,
+            6,
+            1318,
+            151
+          ],
+          "label": "Archibald",
+          "kind": "name",
+          "analysis": {
+            "reading": "Archibald",
+            "expansion": "Archibald",
+            "features": [
+              "The opening capital is larger than the following compact rch group.",
+              "The b and final d rise above the main letter body with narrow looped ascenders.",
+              "The final d finishes just before the separately boxed surname fragment at the line edge."
+            ],
+            "uncertainty": "The forename is clear in context, although several joined middle strokes are not shaped like modern print."
+          }
+        },
+        {
+          "x": 86,
+          "y": 1.71990171990172,
+          "w": 10.333333333333334,
+          "h": 37.1007371007371,
+          "pixel_bbox": [
+            1290,
+            7,
+            1445,
+            158
+          ],
+          "label": "glas-",
+          "kind": "name",
+          "analysis": {
+            "reading": "glas-",
+            "expansion": "Glasgow, first-line fragment",
+            "features": [
+              "The fragment begins with the same loop-and-descender g used in the complete surname above.",
+              "The las letters are compact and connected along one baseline.",
+              "A short horizontal continuation mark follows s at the right edge, signalling that the word continues on the next line."
+            ],
+            "comparison": "Compare the complete Glasgow in the identity step, especially its opening g and compact las sequence.",
+            "uncertainty": "This is not a separate abbreviated surname; the hyphen and next-line -gow complete it."
+          }
+        },
+        {
+          "x": 3.1333333333333333,
+          "y": 24.815724815724817,
+          "w": 8.4,
+          "h": 31.44963144963145,
+          "pixel_bbox": [
+            47,
+            101,
+            173,
+            229
+          ],
+          "label": "-gow",
+          "kind": "name",
+          "analysis": {
+            "reading": "gow",
+            "expansion": "Glasgow, next-line continuation",
+            "features": [
+              "The resumed g starts close to the left margin and drops below the body of o and w.",
+              "The o is a small closed loop attached directly to the g.",
+              "The final w is formed from two shallow joined humps before the pen lifts."
+            ],
+            "comparison": "Joined to the preceding glas-, this matches the complete surname in the identity step.",
+            "uncertainty": "The leading hyphen in the display label marks editorial continuation; it is not an extra manuscript letter."
+          }
+        },
+        {
+          "x": 10.4,
+          "y": 17.936117936117938,
+          "w": 10.133333333333333,
+          "h": 35.62653562653563,
+          "pixel_bbox": [
+            156,
+            73,
+            308,
+            218
+          ],
+          "label": "sone",
+          "kind": "relationship",
+          "analysis": {
+            "reading": "sone",
+            "expansion": "son",
+            "features": [
+              "The opening secretary s is a long rising stroke, easily mistaken for f when isolated.",
+              "The o is a small loop followed by the two close strokes of n.",
+              "The terminal e is a light open turn at the right of the word."
+            ],
+            "uncertainty": "The Scots spelling sone is visible and supplies the kinship directly; the modern expansion drops the final e."
+          }
+        },
+        {
+          "x": 19.466666666666665,
+          "y": 18.181818181818183,
+          "w": 13.333333333333334,
+          "h": 36.36363636363637,
+          "pixel_bbox": [
+            292,
+            74,
+            492,
+            222
+          ],
+          "label": "lawfull",
+          "kind": "relationship",
+          "analysis": {
+            "reading": "lawfull",
+            "expansion": "lawful",
+            "features": [
+              "The initial l is a tall loop rising above the compact aw group.",
+              "The w is made from linked angular strokes rather than rounded modern humps.",
+              "The f has a long descending stroke, while the final ull compresses several vertical minims together."
+            ],
+            "uncertainty": "The doubled l spelling is literal; lawful is the modernized form."
+          }
+        },
+        {
+          "x": 42.86666666666667,
+          "y": 39.31203931203931,
+          "w": 12.666666666666668,
+          "h": 37.1007371007371,
+          "pixel_bbox": [
+            643,
+            160,
+            833,
+            311
+          ],
+          "label": "father",
+          "kind": "relationship",
+          "analysis": {
+            "reading": "father",
+            "expansion": "father",
+            "features": [
+              "The opening f rises and also sends a long stroke below the baseline.",
+              "The a and t are small and tightly joined after that dominant first letter.",
+              "The h has a tall loop, while the final er closes in a lighter rightward turn."
+            ],
+            "comparison": "This repeats the direction of the earlier sone lawfull statement from Archibald's viewpoint.",
+            "uncertainty": "The word is clear; it is a second expression in the same testament, not a separate source."
+          }
+        }
+      ],
+      "word_studies_replaced": true
+    }
+  ],
+  "index_confirmation": {
+    "indexed_name": "William Glasgow",
+    "date": "1646-07-22",
+    "description": "mealmaker in Leith",
+    "record_type": "TD&Inventory",
+    "court": "Edinburgh Commissary Court",
+    "reference": "CC8/8/62",
+    "status": "confirmed by supplied archival index",
+    "supplied_on": "2026-09-10"
+  }
+}

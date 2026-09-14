@@ -1,14 +1,26 @@
 # Findings: Glasgow-3905
 
-Last updated: 2026-08-19
+Last updated: 2026-09-13
 
 ## Current answer
+
+[Compare the Larne, Inishrush and American family reconstruction](/people/glasgow-951.html#larne-reconstruction), including the alternative immediate-parent routes and their source tests.
 
 `Glasgow-3905` is a **structural placeholder, not a documented person**. No
 surviving record identifies Adam Glasgow's father or supplies a name, birth,
 residence, wife, occupation, religion or death. Retain it only as an explicitly
 uncertain structural placeholder until the branch can be placed beneath a
 source-identified ancestor. It is not documentary proof of any parentage.
+
+The current named hypothesis is **James Glasgow `Glasgow-1509` → Adam
+`Glasgow-3902`**, not an identification of the placeholder with a historical
+man. The reported 1737 Larne ropemaker is chronologically viable for Adam's
+c.1758 birth (about 21), and Adam's proved son James supplies limited positive
+naming support. The reported Janet Shutter marriage in 1762 is later than Adam's
+birth, so Janet is not inferred as Adam's mother. No inspected record supplies a
+Larne–Inishrush residence, property, or kinship bridge. Keep the local 1740 Hugh
+households and older Adam/Maria model as alternatives; this tested hypothesis
+does not authorize a merge or attachment change.
 
 The WikiTree API supplies decisive profile provenance. [Adam Glasgow
 (`Glasgow-3902`)](https://www.wikitree.com/wiki/Glasgow-3902) was created at
@@ -101,7 +113,9 @@ already labelled Arthur a *possible* brother of this placeholder. James is
 attached as Arthur's father, so the scorer recycled one unproved hypothesis to
 support another. No source identifies Arthur as the placeholder's brother.
 
-The remaining evidence is insufficient:
+The remaining evidence is insufficient. Earlier composite 1721/1831 chronology
+for this candidate is not current: the 1831 Cookstown burial belongs to the
+separate `Glasgow-4024`, and no record connects James-1024 to Adam.
 
 * Robert Glasgow's 1834 pension declaration says only that he was born in
   County Derry in 1749 and came to America in 1769; it names no father,
@@ -114,11 +128,6 @@ The remaining evidence is insufficient:
 * Ellen Glasgow's much later account instead calls Arthur a sixteen-year-old
   ward who emigrated with his mother and elder brothers in 1766, and places the
   Irish family in Counties Down and Antrim. It does not name Arthur's father.
-* The candidate's own reconstructed household is chronologically unreliable:
-  James is estimated born in 1721, but attached son Joseph is estimated born in
-  1735, when James would have been about fourteen and attached wife Mary
-  Harkness about ten. The profile also combines a Pennsylvania naturalisation
-  claim with a structured death at Moneymore.
 * Arthur, Nancy and Eliza recurrences are descendant naming patterns, not
   relational records. Arthur is independently explained in the John-822 line
   by John's wife Mary Arthur.
@@ -192,7 +201,7 @@ Maria's documented marriage to Alexander Wallace and children born at Rasharkin 
 | NAI Rebellion Papers `620/42/15`, catalogue and Virtual Record Treasury context audit | The packet covers `Glasco` bills, accounts and financial material, 1764-1798. The fuller Treasury snippet says it includes Mary Lynch's assignment of Trinity Lane premises to Abraham Taylor. It still gives no Glasco forename, county, occupation, or relationship. | The newly exposed Dublin premises strengthen the contextual match to the documented Dublin Glasco trade cluster, but do not identify the packet's owner. It supplies no target-family evidence and must not be connected to Londonderry without the full calendar or microfilm. Saved [audit](agent_deed_originals.md), [source log](sources/deed_originals_access_audit_2026-07-17.tsv), and [Treasury sweep](sources/virtual_treasury_target_audit_2026-07-17.tsv). |
 | [Virtual Record Treasury of Ireland full-text search](https://virtualtreasury.ie/), exact-name, spelling-variant, and Inishrush-place sweep | Exact `Adam Glasco` returned the already-proved 1831 Inishrush census page and its continuation-page spillover; `Adam Glasgow` returned none. Exact Hugh returned the known 1740 record containing both parish householders. Exact Robert, James, John, Rose, `Glasco`, `Glasgo`, `Inishrush`, and `Innisrush` searches found only known local records, unrelated namesakes, or place context. The early Inishrush probate-index residents were John Clark (1696), James Dobbin (1718), William Bay (1734), and Henry Ellis (1791), with no relationship to Adam stated. | No indexed record names Adam's father or links candidate Robert to Inishrush. This is a search of the Treasury's reconstructed/indexed corpus, not of undigitized PRONI estate rentals, church books, or all destroyed records, so it is a bounded negative rather than proof of absence. Saved [query audit](sources/virtual_treasury_target_audit_2026-07-17.tsv) and raw JSON result sets in `sources/virtual_treasury_*_2026-07-17.json`. |
 | [PRONI eCatalogue](https://apps.proni.gov.uk/eCatNI_IE/), `T1762` hierarchy and `T1762/5` description | The collection titled `Glasgow family and Presbyterian papers`, 1795-1899, contains six unrelated-looking items. Only `T1762/5` concerns the surname: William Glasgow, farmer of Oritor, County Tyrone, and a solicitor's copy of his will and codicil concerning Oritor lands. The catalogue dates the item 28 January 1827 while its description dates the will/codicil 10 January 1829; it exposes no digital image. The other five items concern Coleraine Congregation, John Geddes, a Glasgow University certificate, James Lyttle, and John Weir. | The collection is now inspected and is not an Adam/Inishrush family dossier. It supplies no relationship to Adam or candidate Robert. Saved [hierarchy](sources/proni_ecat_T1762_hierarchy_2026-07-17.html), [item description](sources/proni_ecat_T1762_5_details_2026-07-17.html), [full audit](agent_published_manuscripts.md), and [source log](sources/published_manuscript_audit_2026-07-17.tsv). |
-| [Original 1851 Prescott census](https://central.bac-lac.gc.ca/.item/?app=Census1851&op=img&id=e002351566), directories, 1867 Kilrea death notice, Prescott property history and estate catalogues | [[Glasgow-4010|Samuel]] was an Irish-born Presbyterian storekeeper, about 51, with wife Mary E. and six probable children. Orena's rare name and age match the 1861 school derivative. The resulting eight pre-1852 probable children plus two later sons named by local history coherently account for its ten-child total. A later title-chain account calls shipbuilder Robert Samuel's father, but no inspected original record states that relationship. The previously cited 1842 frame contains no readable Robert row; the estate images require FamilySearch sign-in. | This is a separate Kilrea-to-Ontario cluster. No evidence connects Robert or Samuel to Adam, Daniel, candidate `Glasgow-550`, or Adam's proposed son Samuel. Samuel now has a [created-profile record](../Glasgow-4010/1851_Canada_West_Prescott_Samuel_Glasgow.md); Robert remains a [held draft](../../surname-research/new-people/1842_Canada_West_Prescott_Robert_Glasgow.md) pending the correct census or estate/deed evidence. Keep the full assessment in the [cluster audit](agent_descendant_cluster.md) and [source log](sources/prescott_glasgow_cluster_audit_2026-07-17.tsv). |
+| [Original 1851 Prescott census](https://central.bac-lac.gc.ca/.item/?app=Census1851&op=img&id=e002351566), directories, 1867 Kilrea notice and [Robert’s registered will](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWY9-S) | Samuel Glasgow-4010 was an Irish-born Presbyterian storekeeper with Mary E. and six probable children: eight household members, not eight children. Two later sons reported by local history account for eight possible children, leaving two of its reported ten unaccounted for by these sources. Robert’s 1849 will, inspected on 8 September, names Samuel as his brother and names James’s children collectively. | The will supersedes the later father–son account. The original 1861 B465 deed now identifies the will’s Daniel and Thomas with the Irish profiles. No record joins this sibling group to Adam. The Centre Street transfers are now inspected; the 251 Water Street parcel is separate. See [Samuel’s current account](/people/glasgow-4010.html) and [Alexander’s Canadian comparison](/people/glasgow-951.html#family-network). |
 | [1901 and 1911 Irish census search](https://nationalarchives.ie/collections/search-the-census/) | Later Adam Glasgow and Eliza lived at Inishrush with U.S.-born sons Adam D. and Henry. The 1911 return says five children born and two living. | Creates a Philadelphia research route for family papers and vital records; it does not yet connect to Adam born 1758. Saved data: [census_1901_glasgow_derry.json](sources/census_1901_glasgow_derry.json), [census_1911_glasgow_inishrush.json](sources/census_1911_glasgow_inishrush.json). |
 | Nancy Glasgow child-line audit: 1842 marriage notice, WikiTree captures, and First Portglenone coverage | Nancy married John Kyle of Tyanee on 14 January 1842 and was explicitly Adam's sixth daughter. Their WikiTree profiles use guessed 1822 births and name no children. Officiant William Kennedy McKay was First Portglenone's minister, but that congregation's surviving marriage register begins only in 1845. | Opens at least five missing daughter lines but does not identify one. No later Nancy Kyle or child can yet be attached. Person-specific findings and review notes are saved under `research/Glasgow-3907/` and `research/Kyle-3461/`. |
 | [Londonderry Sentinel marriage-notice transcriptions, 1829-1849](https://cotyrone.com/~inthenews/marriage-notices-1829-1831/) | Exact `GLASGOW` and `GLASCO` sweeps across all seven period pages returned Nancy's 1842 marriage as the only target-family notice. Other `Glasgow` hits denote the Scottish city or unrelated people. | This does not identify Adam's other daughters. The newspaper began only in September 1829 and the pages are derivative selections, not complete marriage registers. Saved [coverage audit](sources/londonderry_marriage_notices_glasgow_audit_2026-07-17.tsv). |
@@ -344,3 +353,20 @@ NAI confirms that the legacy Census Search Forms microsite was retired while
 the database is rebuilt. Both broken links were replaced with the current
 official collection/finding-aid page; former detail ID 41311 and the Inishrush
 and Kilrea evidence were retained.
+
+
+## Current conclusion — original Prescott conveyances, 13 September 2026
+
+The original [30 July 1861 deed, B465](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWB8-D) now identifies Daniel of Kilrea, watchmaker, and Thomas of Lisnagaver, farmer, with wives Margaret and Mary Anne, as the men selling interests under Robert’s will. Their identity with Daniel-3896 and Thomas-987 is established by the combined places, occupations, wives and earlier brotherhood evidence. The siblings’ parents remain unnamed. This establishes a larger family for Daniel and Thomas; it does not name Adam’s father or prove their relationship to Adam or John of Inishrush.
+
+## Source findings
+
+| Source | Finding | Assessment |
+| --- | --- | --- |
+| [Robert’s will, B12, 9 October 1849](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWY9-S) | Four named brothers receive sixths; sister Mary and brother James’s children complete the shares. | The original does not say James was deceased; a pre-1849 death must not be inferred. |
+| [B465, 30 July 1861, pp.397–398](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWB8-D) | Daniel of Kilrea, watchmaker, and Thomas of Lisnagaver, farmer, with wives Margaret and Mary Anne, convey two sixths to Samuel under Robert’s will. | Direct identity and inheritance bridge. The crossed-out duplicate is not a second transaction. |
+| [C114, 25 March 1868, pp.164–165](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LQRC-Y) | Alexander Glasco, Rochester express agent, son of James the Prescott carpenter, conveys one eighteenth to Mary Eno Glasgow, widow of Samuel. | A named Rochester family, not proof of Alexander-951’s parentage. Eno is a recorded name, not a proved maiden surname. |
+
+See the [complete original-deed table and title-fraction assessment](/people/glasgow-951.html#family-network). Eliza Jane and Mary of Rochester are the carpenter’s eldest and second eldest daughters; their ninth shares do not fit a simple division of Robert’s sixth for James’s children. The carpenter’s identity with Robert’s brother remains a property-based hypothesis.
+
+The [original C298 deed, 15 September 1869](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LQTY-K), registered 1 July 1870, identifies **Mary Black, formerly Mary Glasgow, as Robert’s sister**, and names children John Black (wife Martha) and Rose Ann Black at Drumoolish, Jane Miller (wife of Robert Miller), Agnes and deceased Elizabeth Black at Newburgh, and Thomasina Montgomery (wife of Mathew) at Legrand, Iowa. This establishes the Black collateral branch; it does not name the siblings’ parents. The original C114 identifies James’s son Alexander as a Rochester express agent, whose identity with Alexander-951 remains unproved.

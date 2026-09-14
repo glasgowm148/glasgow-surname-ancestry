@@ -12,8 +12,7 @@ or parentage. It must not be silently renamed or repurposed as one of the proved
 children because each of those children has a separate unresolved duplicate
 audit.
 
-## Source finding
-
+## Source findings
 | Source | Finding | Assessment |
 | --- | --- | --- |
 | NRS Edinburgh Commissary Court CC8/8/32, images 123–124 | `Robart Glasgw his sone begottin be him vpoun the said Elizat his wyff`; later `his said sone and his said [dochter… struck through] Marione, Jonet, Isobell`. | The sole basis for Glasgow-4007 was a transcription error. The record supplies no son William. |

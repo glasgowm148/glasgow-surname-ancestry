@@ -28,8 +28,7 @@ The catalogue contains no established Samuel profile that securely represents Ma
 4. Obtain the Michigan death and burial records for Samuel M. Glasgow (1816-1874) and identify his wife and parents.
 5. Locate Margaret Glasgow's marriage and death record.
 
-## Sources
-
+## Source findings
 * 1850 United States census, Troy, Rensselaer County, New York, Samuel Glasgow household; [FamilySearch index and image](https://www.familysearch.org/ark:/61903/1:1:MC1C-FNS).
 * *Portrait and Biographical Album of Hillsdale County, Michigan* (Chicago: Chapman Brothers, 1888), p. 395.
 * [Glasgow surname migration compilation](https://www.houseofnames.com/glasgow.-family-crest), entry for Samuel M. Glasgow, age twenty-one, arriving New York in 1841; derivative index.

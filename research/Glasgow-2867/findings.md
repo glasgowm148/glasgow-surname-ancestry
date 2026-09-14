@@ -39,7 +39,9 @@ occupational, probate, or familial bridge has been documented.
 See also [Glasgow-1026 findings](../Glasgow-1026/findings.md) and the
 [graph-claim audit](../../surname-research/pre-1700/graph-claim-audit-2026-07-27.md).
 
-## New source evidence: 1739 vessel continuity lead
+## Source findings
+
+### 1739 vessel continuity lead
 
 On **12 June 1739**, the *Belfast News-Letter* listed a vessel named
 *John and Archibald*, Thomas Hendry master, described as “all of and from Irvine”
@@ -91,7 +93,7 @@ to identify the 1754 master. The original entries and related parish
 records must be examined for residence, occupation, the mother’s name and
 associates.
 
-## Evidence assessment
+## Identity and relationship assessment
 
 - **Proved:** in Feb 1754, Robert Glasgow was master of the snow *John and
   Archibald* (reported as of Glasgow in the maritime item).
@@ -111,16 +113,18 @@ occupation, age or parentage for its Robert. They do not connect him to the
 1754 master of the *John and Archibald*. The unsupported Irvine birthplace has
 now been cleared from the live shipmaster profile.
 
-## Relationship correction verified, 2 September 2026
+### Relationship correction verified, 2 September 2026
 
 The live profile now has no spouse. Public readback on both Glasgow-2867 and
 Davidson-20783 confirmed that the duplicate marriage was removed at 13:49.
 Davidson-20783 retains only Glasgow-3011 as her uncertain husband. Glasgow-2867
 still has uncertain father links to Christian Glasgow (Glasgow-3492), John
 Glasgow (Glasgow-3491) and James Glasgow (Glasgow-2868); these require a
-separate controlled reparenting rather than leaving any child without a father.
+separate controlled reparenting rather than leaving any child without a father. A fresh public API read on **10 September 2026** confirms that all three children still have Glasgow-2867 as their uncertain father. The same read confirms Glasgow-3011 as Margaret Davidson's husband and father of Isobell Glasgow (Glasgow-4062). The remaining proposed correction is to replace Glasgow-2867 with the strongly supported candidate Glasgow-3011 in each child's father field in one controlled change, retaining an uncertain relationship; the 1704 marriage and child baptisms do not uniquely identify the 1676 Robert.
 
-## Corrected Ireland/US priorities
+## Recommended next actions
+
+### Corrected Ireland/US priorities
 
 - Maintain the **Virginia clearance** target in CO 5/1444, CO 5/1445 and CO 5/1446
   (late-1753 outward movement and vessel-clearance context); CO 5/1447 starts
@@ -128,14 +132,14 @@ separate controlled reparenting rather than leaving any child without a father.
 - Use all matching entries to extract master, vessel type, tonnage, owners, bonders,
   crew size, origin and destination.
 
-## Corrected research direction
+### Corrected research direction
 
 The strongest current lead is now the Irvine maritime context (including a possible
 1739 vessel lead), followed by CE71 and other Ayrshire/Port Glasgow/customs searches:
 identify owner and ownership-chain links, then prove whether the ship’s later
 command by Robert can be connected to Irvine records and any Robert Glasgow candidate.
 
-## Potential-father review — 10 August 2026
+### Potential-father review — 10 August 2026
 
 [James Glasgow (Glasgow-1081)](https://www.wikitree.com/wiki/Glasgow-1081) should not
 receive parentage weight from this profile. James is the documented Kilwaughter man;

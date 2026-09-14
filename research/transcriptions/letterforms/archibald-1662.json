@@ -1,0 +1,1298 @@
+{
+  "id": "archibald-1662",
+  "review": {
+    "date": "2026-09-10",
+    "model": "gpt-6-astra",
+    "reasoning_effort": "xhigh",
+    "method": "Original-image review and source-pixel focus envelopes. Shared presentation expanded from the compact vision handoff; literal abbreviations, crossing ink and uncertainty retained."
+  },
+  "studies": [
+    {
+      "id": "archibald-1662-subject",
+      "title": "Archibald Glasgow",
+      "nav_label": "Archibald Glasgow",
+      "image": "/assets/research/testament-crops/archibald-1662-household.jpg",
+      "image_width": 1500,
+      "image_height": 821,
+      "region": [
+        77,
+        99,
+        516,
+        149
+      ],
+      "reading": "Archibald Glasgow",
+      "expansion": "Archibald Glasgow",
+      "confidence": "High",
+      "context": "Find the name before maltman Indweller In leith.",
+      "review_status": "source-aligned",
+      "locator_note": "Find the name before maltman Indweller In leith. Compare the son's abbreviated Archd below without expanding missing letters in the original sample.",
+      "conclusion": "The name does not identify this man with every earlier Archibald record.",
+      "letters": [
+        {
+          "id": "archibald-1662-subject-w1-g1",
+          "glyph": "Arch",
+          "label": "Archibald: Arch",
+          "region": [
+            77,
+            99,
+            177,
+            139
+          ],
+          "paths": [],
+          "observed": "The large opening and joined Arch run start after the deceased wording.",
+          "matches": "Compare with the same-clerk source example below: The son's shortened name is an abbreviation comparison, not a second occurrence naming the father.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "archibald-1662-subject-w1-g2",
+          "glyph": "ibald",
+          "label": "Archibald: ibald",
+          "region": [
+            244,
+            99,
+            133,
+            139
+          ],
+          "paths": [],
+          "observed": "Taller b/l/d forms break the smaller ending.",
+          "matches": "Compare with the same-clerk source example below: The son's shortened name is an abbreviation comparison, not a second occurrence naming the father.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "archibald-1662-subject-w2-g1",
+          "glyph": "Glas",
+          "label": "Glasgow: Glas",
+          "region": [
+            369,
+            103,
+            112,
+            145
+          ],
+          "paths": [],
+          "observed": "The broad G and longer l/s strokes precede the second g.",
+          "matches": "Compare with the same-clerk source example below: The son's shortened name is an abbreviation comparison, not a second occurrence naming the father.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "archibald-1662-subject-w2-g2",
+          "glyph": "gow",
+          "label": "Glasgow: gow",
+          "region": [
+            471,
+            103,
+            122,
+            145
+          ],
+          "paths": [],
+          "observed": "The last group finishes in a joined w-like movement.",
+          "matches": "Compare with the same-clerk source example below: The son's shortened name is an abbreviation comparison, not a second occurrence naming the father.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        }
+      ],
+      "words": [
+        {
+          "text": "Archibald",
+          "region": [
+            77,
+            99,
+            300,
+            139
+          ],
+          "focus_polygon": [
+            [
+              77,
+              159
+            ],
+            [
+              111,
+              133
+            ],
+            [
+              148,
+              104
+            ],
+            [
+              319,
+              99
+            ],
+            [
+              352,
+              125
+            ],
+            [
+              377,
+              125
+            ],
+            [
+              377,
+              214
+            ],
+            [
+              330,
+              238
+            ],
+            [
+              121,
+              230
+            ],
+            [
+              77,
+              201
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "archibald-1662-subject-w1-g1",
+              "start": 0,
+              "end": 4
+            },
+            {
+              "letter_id": "archibald-1662-subject-w1-g2",
+              "start": 4,
+              "end": 9
+            }
+          ]
+        },
+        {
+          "text": "Glasgow",
+          "region": [
+            369,
+            103,
+            224,
+            145
+          ],
+          "focus_polygon": [
+            [
+              369,
+              103
+            ],
+            [
+              593,
+              103
+            ],
+            [
+              593,
+              248
+            ],
+            [
+              369,
+              248
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "archibald-1662-subject-w2-g1",
+              "start": 0,
+              "end": 4
+            },
+            {
+              "letter_id": "archibald-1662-subject-w2-g2",
+              "start": 4,
+              "end": 7
+            }
+          ]
+        }
+      ],
+      "reading_steps": [
+        {
+          "title": "Inspect Archibald",
+          "region": [
+            77,
+            99,
+            300,
+            139
+          ],
+          "text": "The large opening and joined Arch run start after the deceased wording. Taller b/l/d forms break the smaller ending."
+        },
+        {
+          "title": "Inspect Glasgow",
+          "region": [
+            369,
+            103,
+            224,
+            145
+          ],
+          "text": "The broad G and longer l/s strokes precede the second g. The last group finishes in a joined w-like movement."
+        },
+        {
+          "title": "Read the word in context",
+          "region": [
+            77,
+            99,
+            516,
+            149
+          ],
+          "text": "Find the name before maltman Indweller In leith."
+        },
+        {
+          "title": "Keep the conclusion within the evidence",
+          "region": [
+            77,
+            99,
+            516,
+            149
+          ],
+          "text": "Compare the son's abbreviated Archd below without expanding missing letters in the original sample."
+        }
+      ],
+      "same_hand_comparisons": [
+        {
+          "image": "/assets/research/testament-crops/archibald-1662-sons.jpg",
+          "image_width": 1500,
+          "image_height": 413,
+          "region": [
+            1119,
+            69,
+            184,
+            129
+          ],
+          "reading": "Archd",
+          "explanation": "The son's shortened name is an abbreviation comparison, not a second occurrence naming the father."
+        }
+      ]
+    },
+    {
+      "id": "archibald-1662-agnes",
+      "title": "Agnes Watsone, widow",
+      "nav_label": "Agnes Watsone, widow",
+      "image": "/assets/research/testament-crops/archibald-1662-household.jpg",
+      "image_width": 1500,
+      "image_height": 821,
+      "region": [
+        147,
+        456,
+        869,
+        154
+      ],
+      "reading": "Agnes Watsone his relict spous",
+      "expansion": "Agnes Watson",
+      "confidence": "High",
+      "context": "Find Agnes after be, then read the separate surname.",
+      "review_status": "source-aligned",
+      "locator_note": "Find Agnes after be, then read the separate surname. Follow his relict spous for the explicit widow relationship; tutor or estate work alone would not supply it.",
+      "conclusion": "The clause does not establish marriage date or Agnes's parents.",
+      "letters": [
+        {
+          "id": "archibald-1662-agnes-w1-g1",
+          "glyph": "Ag",
+          "label": "Agnes: Ag",
+          "region": [
+            147,
+            456,
+            138,
+            147
+          ],
+          "paths": [],
+          "observed": "A wide initial leads into the g movement below the line.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "archibald-1662-agnes-w1-g2",
+          "glyph": "nes",
+          "label": "Agnes: nes",
+          "region": [
+            275,
+            456,
+            127,
+            147
+          ],
+          "paths": [],
+          "observed": "The short ending remains connected before the surname.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "archibald-1662-agnes-w2-g1",
+          "glyph": "Wat",
+          "label": "Watsone: Wat",
+          "region": [
+            391,
+            457,
+            130,
+            153
+          ],
+          "paths": [],
+          "observed": "The opening W and crossed/taller form form the first group.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "archibald-1662-agnes-w2-g2",
+          "glyph": "sone",
+          "label": "Watsone: sone",
+          "region": [
+            511,
+            457,
+            147,
+            153
+          ],
+          "paths": [],
+          "observed": "A long s and low joined ending complete the surname.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "archibald-1662-agnes-w3-g1",
+          "glyph": "re",
+          "label": "relict: re",
+          "region": [
+            716,
+            485,
+            56,
+            112
+          ],
+          "paths": [],
+          "observed": "The small opening sits after his.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "archibald-1662-agnes-w3-g2",
+          "glyph": "lict",
+          "label": "relict: lict",
+          "region": [
+            762,
+            485,
+            105,
+            112
+          ],
+          "paths": [],
+          "observed": "The taller joined ending precedes spous.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "archibald-1662-agnes-w4-g1",
+          "glyph": "sp",
+          "label": "spous: sp",
+          "region": [
+            851,
+            477,
+            63,
+            133
+          ],
+          "paths": [],
+          "observed": "The opening s/p movements extend above and below the body.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "archibald-1662-agnes-w4-g2",
+          "glyph": "ous",
+          "label": "spous: ous",
+          "region": [
+            904,
+            477,
+            112,
+            133
+          ],
+          "paths": [],
+          "observed": "The short ous finish stays close to the noun's long strokes.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        }
+      ],
+      "words": [
+        {
+          "text": "Agnes",
+          "region": [
+            147,
+            456,
+            255,
+            147
+          ],
+          "focus_polygon": [
+            [
+              147,
+              499
+            ],
+            [
+              198,
+              474
+            ],
+            [
+              258,
+              456
+            ],
+            [
+              300,
+              469
+            ],
+            [
+              332,
+              497
+            ],
+            [
+              402,
+              493
+            ],
+            [
+              402,
+              566
+            ],
+            [
+              330,
+              571
+            ],
+            [
+              287,
+              603
+            ],
+            [
+              204,
+              603
+            ],
+            [
+              147,
+              570
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "archibald-1662-agnes-w1-g1",
+              "start": 0,
+              "end": 2
+            },
+            {
+              "letter_id": "archibald-1662-agnes-w1-g2",
+              "start": 2,
+              "end": 5
+            }
+          ]
+        },
+        {
+          "text": "Watsone",
+          "region": [
+            391,
+            457,
+            267,
+            153
+          ],
+          "focus_polygon": [
+            [
+              391,
+              457
+            ],
+            [
+              658,
+              457
+            ],
+            [
+              658,
+              610
+            ],
+            [
+              391,
+              610
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "archibald-1662-agnes-w2-g1",
+              "start": 0,
+              "end": 3
+            },
+            {
+              "letter_id": "archibald-1662-agnes-w2-g2",
+              "start": 3,
+              "end": 7
+            }
+          ]
+        },
+        {
+          "text": "relict",
+          "region": [
+            716,
+            485,
+            151,
+            112
+          ],
+          "focus_polygon": [
+            [
+              716,
+              485
+            ],
+            [
+              867,
+              485
+            ],
+            [
+              867,
+              597
+            ],
+            [
+              716,
+              597
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "archibald-1662-agnes-w3-g1",
+              "start": 0,
+              "end": 2
+            },
+            {
+              "letter_id": "archibald-1662-agnes-w3-g2",
+              "start": 2,
+              "end": 6
+            }
+          ]
+        },
+        {
+          "text": "spous",
+          "region": [
+            851,
+            477,
+            165,
+            133
+          ],
+          "focus_polygon": [
+            [
+              851,
+              477
+            ],
+            [
+              1016,
+              477
+            ],
+            [
+              1016,
+              610
+            ],
+            [
+              851,
+              610
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "archibald-1662-agnes-w4-g1",
+              "start": 0,
+              "end": 2
+            },
+            {
+              "letter_id": "archibald-1662-agnes-w4-g2",
+              "start": 2,
+              "end": 5
+            }
+          ]
+        }
+      ],
+      "reading_steps": [
+        {
+          "title": "Inspect Agnes",
+          "region": [
+            147,
+            456,
+            255,
+            147
+          ],
+          "text": "A wide initial leads into the g movement below the line. The short ending remains connected before the surname."
+        },
+        {
+          "title": "Inspect Watsone",
+          "region": [
+            391,
+            457,
+            267,
+            153
+          ],
+          "text": "The opening W and crossed/taller form form the first group. A long s and low joined ending complete the surname."
+        },
+        {
+          "title": "Inspect relict",
+          "region": [
+            716,
+            485,
+            151,
+            112
+          ],
+          "text": "The small opening sits after his. The taller joined ending precedes spous."
+        },
+        {
+          "title": "Inspect spous",
+          "region": [
+            851,
+            477,
+            165,
+            133
+          ],
+          "text": "The opening s/p movements extend above and below the body. The short ous finish stays close to the noun's long strokes."
+        },
+        {
+          "title": "Read the word in context",
+          "region": [
+            147,
+            456,
+            869,
+            154
+          ],
+          "text": "Find Agnes after be, then read the separate surname."
+        },
+        {
+          "title": "Keep the conclusion within the evidence",
+          "region": [
+            147,
+            456,
+            869,
+            154
+          ],
+          "text": "Follow his relict spous for the explicit widow relationship; tutor or estate work alone would not supply it."
+        }
+      ],
+      "same_hand_comparisons": []
+    },
+    {
+      "id": "archibald-1662-sons-names",
+      "title": "Archd and George",
+      "nav_label": "Archd and George",
+      "image": "/assets/research/testament-crops/archibald-1662-sons.jpg",
+      "image_width": 1500,
+      "image_height": 413,
+      "region": [
+        1119,
+        69,
+        303,
+        159
+      ],
+      "reading": "Arch[ibal]d George",
+      "expansion": "Archibald Glasgow; George Glasgow",
+      "confidence": "High for maintained sons' names",
+      "context": "Find the two names at the right end of the nomination line.",
+      "review_status": "source-aligned",
+      "locator_note": "Find the two names at the right end of the nomination line. Continue on the next line to Williame and my lawfull sones.",
+      "conclusion": "Abbreviated Archd should not be displayed as fully written Archibald; these names alone do not supply birth dates.",
+      "letters": [
+        {
+          "id": "archibald-1662-sons-names-w1-g1",
+          "glyph": "Arch",
+          "label": "Archd: Arch",
+          "region": [
+            1119,
+            69,
+            146,
+            129
+          ],
+          "paths": [],
+          "observed": "The compact opening is an abbreviation, not all letters of Archibald.",
+          "matches": "Compare with the same-clerk source example below: The household presentation lists the same sons; use the repeated name as a same-record comparison.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "archibald-1662-sons-names-w1-g2",
+          "glyph": "d",
+          "label": "Archd: d",
+          "region": [
+            1255,
+            69,
+            48,
+            129
+          ],
+          "paths": [],
+          "observed": "The last raised/taller d closes the abbreviation.",
+          "matches": "Compare with the same-clerk source example below: The household presentation lists the same sons; use the repeated name as a same-record comparison.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "archibald-1662-sons-names-w2-g1",
+          "glyph": "Ge",
+          "label": "George: Ge",
+          "region": [
+            1271,
+            87,
+            68,
+            141
+          ],
+          "paths": [],
+          "observed": "The opening has a rounded G followed by a smaller e.",
+          "matches": "Compare with the same-clerk source example below: The household presentation lists the same sons; use the repeated name as a same-record comparison.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "archibald-1662-sons-names-w2-g2",
+          "glyph": "orge",
+          "label": "George: orge",
+          "region": [
+            1329,
+            87,
+            93,
+            141
+          ],
+          "paths": [],
+          "observed": "The remaining joined forms include a lower g movement.",
+          "matches": "Compare with the same-clerk source example below: The household presentation lists the same sons; use the repeated name as a same-record comparison.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        }
+      ],
+      "words": [
+        {
+          "text": "Archd",
+          "region": [
+            1119,
+            69,
+            184,
+            129
+          ],
+          "focus_polygon": [
+            [
+              1119,
+              69
+            ],
+            [
+              1303,
+              69
+            ],
+            [
+              1303,
+              198
+            ],
+            [
+              1119,
+              198
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "archibald-1662-sons-names-w1-g1",
+              "start": 0,
+              "end": 4
+            },
+            {
+              "letter_id": "archibald-1662-sons-names-w1-g2",
+              "start": 4,
+              "end": 5
+            }
+          ]
+        },
+        {
+          "text": "George",
+          "region": [
+            1271,
+            87,
+            151,
+            141
+          ],
+          "focus_polygon": [
+            [
+              1271,
+              87
+            ],
+            [
+              1422,
+              87
+            ],
+            [
+              1422,
+              228
+            ],
+            [
+              1271,
+              228
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "archibald-1662-sons-names-w2-g1",
+              "start": 0,
+              "end": 2
+            },
+            {
+              "letter_id": "archibald-1662-sons-names-w2-g2",
+              "start": 2,
+              "end": 6
+            }
+          ]
+        }
+      ],
+      "reading_steps": [
+        {
+          "title": "Inspect Archd",
+          "region": [
+            1119,
+            69,
+            184,
+            129
+          ],
+          "text": "The compact opening is an abbreviation, not all letters of Archibald. The last raised/taller d closes the abbreviation."
+        },
+        {
+          "title": "Inspect George",
+          "region": [
+            1271,
+            87,
+            151,
+            141
+          ],
+          "text": "The opening has a rounded G followed by a smaller e. The remaining joined forms include a lower g movement."
+        },
+        {
+          "title": "Read the word in context",
+          "region": [
+            1119,
+            69,
+            303,
+            159
+          ],
+          "text": "Find the two names at the right end of the nomination line."
+        },
+        {
+          "title": "Keep the conclusion within the evidence",
+          "region": [
+            1119,
+            69,
+            303,
+            159
+          ],
+          "text": "Continue on the next line to Williame and my lawfull sones."
+        }
+      ],
+      "same_hand_comparisons": [
+        {
+          "image": "/assets/research/testament-crops/archibald-1662-household.jpg",
+          "image_width": 1500,
+          "image_height": 821,
+          "region": [
+            371,
+            601,
+            197,
+            141
+          ],
+          "reading": "George",
+          "explanation": "The household presentation lists the same sons; use the repeated name as a same-record comparison."
+        }
+      ]
+    },
+    {
+      "id": "archibald-1662-diagnostic-letters",
+      "title": "Williame and lawful sons",
+      "nav_label": "Williame and lawful sons",
+      "image": "/assets/research/testament-crops/archibald-1662-sons.jpg",
+      "image_width": 1500,
+      "image_height": 413,
+      "region": [
+        31,
+        89,
+        1023,
+        176
+      ],
+      "reading": "Williame Glasgowes my lawfull sones",
+      "expansion": "William Glasgow",
+      "confidence": "High",
+      "context": "Resume at Williame after Archd and George across the line break.",
+      "review_status": "source-aligned",
+      "locator_note": "Resume at Williame after Archd and George across the line break. Read my lawfull sones as the kin phrase; my onlie executoris is a separate office. Keep sones plural and do not treat the executor wording as a list of all children ever born.",
+      "conclusion": "Birth dates, namesake identities and the existence of any other children are not settled here.",
+      "letters": [
+        {
+          "id": "archibald-1662-diagnostic-letters-w1-g1",
+          "glyph": "Will",
+          "label": "Williame: Will",
+          "region": [
+            31,
+            89,
+            134,
+            145
+          ],
+          "paths": [],
+          "observed": "The broad W and taller l strokes begin the name.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "archibald-1662-diagnostic-letters-w1-g2",
+          "glyph": "iame",
+          "label": "Williame: iame",
+          "region": [
+            155,
+            89,
+            162,
+            145
+          ],
+          "paths": [],
+          "observed": "The shorter iame run finishes before the surname.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "archibald-1662-diagnostic-letters-w2-g1",
+          "glyph": "Glas",
+          "label": "Glasgowes: Glas",
+          "region": [
+            305,
+            94,
+            127,
+            161
+          ],
+          "paths": [],
+          "observed": "The opening group has the tall and descending forms characteristic of this surname.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "archibald-1662-diagnostic-letters-w2-g2",
+          "glyph": "gowes",
+          "label": "Glasgowes: gowes",
+          "region": [
+            422,
+            94,
+            170,
+            161
+          ],
+          "paths": [],
+          "observed": "The final -gowes run is retained instead of silently changing it to Glasgow.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "archibald-1662-diagnostic-letters-w3-g1",
+          "glyph": "law",
+          "label": "lawfull: law",
+          "region": [
+            672,
+            105,
+            120,
+            149
+          ],
+          "paths": [],
+          "observed": "The first group rises above the low body.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "archibald-1662-diagnostic-letters-w3-g2",
+          "glyph": "full",
+          "label": "lawfull: full",
+          "region": [
+            782,
+            105,
+            137,
+            149
+          ],
+          "paths": [],
+          "observed": "The long f and taller ending must remain in the full crop.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "archibald-1662-diagnostic-letters-w4-g1",
+          "glyph": "s",
+          "label": "sones: s",
+          "region": [
+            902,
+            120,
+            48,
+            145
+          ],
+          "paths": [],
+          "observed": "The initial long s extends well beyond the body line.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "archibald-1662-diagnostic-letters-w4-g2",
+          "glyph": "ones",
+          "label": "sones: ones",
+          "region": [
+            940,
+            120,
+            114,
+            145
+          ],
+          "paths": [],
+          "observed": "The low ones group supplies the plural ending.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        }
+      ],
+      "words": [
+        {
+          "text": "Williame",
+          "region": [
+            31,
+            89,
+            286,
+            145
+          ],
+          "focus_polygon": [
+            [
+              31,
+              89
+            ],
+            [
+              317,
+              89
+            ],
+            [
+              317,
+              234
+            ],
+            [
+              31,
+              234
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "archibald-1662-diagnostic-letters-w1-g1",
+              "start": 0,
+              "end": 4
+            },
+            {
+              "letter_id": "archibald-1662-diagnostic-letters-w1-g2",
+              "start": 4,
+              "end": 8
+            }
+          ]
+        },
+        {
+          "text": "Glasgowes",
+          "region": [
+            305,
+            94,
+            287,
+            161
+          ],
+          "focus_polygon": [
+            [
+              305,
+              94
+            ],
+            [
+              592,
+              94
+            ],
+            [
+              592,
+              255
+            ],
+            [
+              305,
+              255
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "archibald-1662-diagnostic-letters-w2-g1",
+              "start": 0,
+              "end": 4
+            },
+            {
+              "letter_id": "archibald-1662-diagnostic-letters-w2-g2",
+              "start": 4,
+              "end": 9
+            }
+          ]
+        },
+        {
+          "text": "lawfull",
+          "region": [
+            672,
+            105,
+            247,
+            149
+          ],
+          "focus_polygon": [
+            [
+              672,
+              105
+            ],
+            [
+              919,
+              105
+            ],
+            [
+              919,
+              254
+            ],
+            [
+              672,
+              254
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "archibald-1662-diagnostic-letters-w3-g1",
+              "start": 0,
+              "end": 3
+            },
+            {
+              "letter_id": "archibald-1662-diagnostic-letters-w3-g2",
+              "start": 3,
+              "end": 7
+            }
+          ]
+        },
+        {
+          "text": "sones",
+          "region": [
+            902,
+            120,
+            152,
+            145
+          ],
+          "focus_polygon": [
+            [
+              902,
+              120
+            ],
+            [
+              1054,
+              120
+            ],
+            [
+              1054,
+              265
+            ],
+            [
+              902,
+              265
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "archibald-1662-diagnostic-letters-w4-g1",
+              "start": 0,
+              "end": 1
+            },
+            {
+              "letter_id": "archibald-1662-diagnostic-letters-w4-g2",
+              "start": 1,
+              "end": 5
+            }
+          ]
+        }
+      ],
+      "reading_steps": [
+        {
+          "title": "Inspect Williame",
+          "region": [
+            31,
+            89,
+            286,
+            145
+          ],
+          "text": "The broad W and taller l strokes begin the name. The shorter iame run finishes before the surname."
+        },
+        {
+          "title": "Inspect Glasgowes",
+          "region": [
+            305,
+            94,
+            287,
+            161
+          ],
+          "text": "The opening group has the tall and descending forms characteristic of this surname. The final -gowes run is retained instead of silently changing it to Glasgow."
+        },
+        {
+          "title": "Inspect lawfull",
+          "region": [
+            672,
+            105,
+            247,
+            149
+          ],
+          "text": "The first group rises above the low body. The long f and taller ending must remain in the full crop."
+        },
+        {
+          "title": "Inspect sones",
+          "region": [
+            902,
+            120,
+            152,
+            145
+          ],
+          "text": "The initial long s extends well beyond the body line. The low ones group supplies the plural ending."
+        },
+        {
+          "title": "Read the word in context",
+          "region": [
+            31,
+            89,
+            1023,
+            176
+          ],
+          "text": "Resume at Williame after Archd and George across the line break."
+        },
+        {
+          "title": "Keep the conclusion within the evidence",
+          "region": [
+            31,
+            89,
+            1023,
+            176
+          ],
+          "text": "Read my lawfull sones as the kin phrase; my onlie executoris is a separate office."
+        },
+        {
+          "title": "Keep the conclusion within the evidence",
+          "region": [
+            31,
+            89,
+            1023,
+            176
+          ],
+          "text": "Keep sones plural and do not treat the executor wording as a list of all children ever born."
+        }
+      ],
+      "same_hand_comparisons": []
+    }
+  ],
+  "people_studies": {
+    "Agnes Watson": "archibald-1662-agnes",
+    "George Glasgow": "archibald-1662-sons-names",
+    "William Glasgow": "archibald-1662-diagnostic-letters"
+  },
+  "people_role_studies": [
+    {
+      "name": "Archibald Glasgow",
+      "role": "Testator",
+      "study_id": "archibald-1662-subject"
+    },
+    {
+      "name": "Archibald Glasgow",
+      "role": "Lawful son",
+      "study_id": "archibald-1662-sons-names"
+    }
+  ],
+  "limitations": [
+    "Duplicate Archibald people cards require role-specific links.",
+    "Connected groups overlap deliberately to preserve shared joins; no pen-stroke reconstruction."
+  ]
+}

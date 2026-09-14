@@ -1,0 +1,1145 @@
+{
+  "id": "margaret-1580",
+  "studies": [
+    {
+      "id": "margaret-1580-name",
+      "title": "Margaret Glasgow",
+      "nav_label": "Margaret Glasgow",
+      "image": "/assets/research/testament-crops/margaret-1580-opening.jpg",
+      "image_width": 1050,
+      "image_height": 650,
+      "region": [
+        662,
+        93,
+        271,
+        92
+      ],
+      "reading": "Margaret glasgw",
+      "expansion": "Margaret Glasgow",
+      "confidence": "High.",
+      "context": "The name belongs to a new estate entry below a preceding testament.",
+      "review_status": "source-aligned",
+      "locator_note": "Use the selected word before the wider passage. Pixel regions retain full visible strokes. Crossings from neighbouring lines remain contextual; a rectangular focus is retained where further separation would guess.",
+      "conclusion": "People higher on the page do not automatically belong to this family.",
+      "letters": [
+        {
+          "id": "margaret-1580-name-word-1",
+          "glyph": "Margaret",
+          "label": "Margaret: whole connected word",
+          "position": 1,
+          "region": [
+            662,
+            102,
+            154,
+            71
+          ],
+          "paths": [],
+          "observed": "Near the right of the new entry's second line, find the connected name after the deceased abbreviation.",
+          "matches": "The confirmation repeats the name before his mother; this is a second occurrence within one record.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "Keep the entry above separate."
+        },
+        {
+          "id": "margaret-1580-name-word-2",
+          "glyph": "glasgw",
+          "label": "glasgw: whole connected word",
+          "position": 1,
+          "region": [
+            809,
+            93,
+            124,
+            92
+          ],
+          "paths": [],
+          "observed": "The surname follows with a long middle movement across line space.",
+          "matches": "The confirmation repeats the name before his mother; this is a second occurrence within one record.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "The literal sample retains glasgw."
+        }
+      ],
+      "words": [
+        {
+          "text": "Margaret",
+          "region": [
+            662,
+            102,
+            154,
+            71
+          ],
+          "focus_polygon": [
+            [
+              662,
+              102
+            ],
+            [
+              816,
+              102
+            ],
+            [
+              816,
+              173
+            ],
+            [
+              662,
+              173
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "margaret-1580-name-word-1",
+              "start": 0,
+              "end": 8
+            }
+          ]
+        },
+        {
+          "text": "glasgw",
+          "region": [
+            809,
+            93,
+            124,
+            92
+          ],
+          "focus_polygon": [
+            [
+              809,
+              93
+            ],
+            [
+              933,
+              93
+            ],
+            [
+              933,
+              185
+            ],
+            [
+              809,
+              185
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "margaret-1580-name-word-2",
+              "start": 0,
+              "end": 6
+            }
+          ]
+        }
+      ],
+      "reading_steps": [
+        {
+          "title": "Read Margaret",
+          "text": "Near the right of the new entry's second line, find the connected name after the deceased abbreviation. Keep the entry above separate.",
+          "region": [
+            662,
+            102,
+            154,
+            71
+          ]
+        },
+        {
+          "title": "Read glasgw",
+          "text": "The surname follows with a long middle movement across line space. The literal sample retains glasgw.",
+          "region": [
+            809,
+            93,
+            124,
+            92
+          ]
+        },
+        {
+          "title": "Read the relationship in context",
+          "text": "The name belongs to a new estate entry below a preceding testament. People higher on the page do not automatically belong to this family.",
+          "region": [
+            662,
+            93,
+            271,
+            92
+          ]
+        }
+      ],
+      "same_hand_comparisons": [
+        {
+          "image": "/assets/research/testament-crops/margaret-1580-confirmation.jpg",
+          "image_width": 1000,
+          "image_height": 830,
+          "region": [
+            214,
+            504,
+            140,
+            72
+          ],
+          "reading": "Margaret repeated",
+          "explanation": "The confirmation repeats the name before his mother; this is a second occurrence within one record."
+        }
+      ]
+    },
+    {
+      "id": "spous-marital-phrase",
+      "title": "John Easton, spouse",
+      "nav_label": "John Easton, spouse",
+      "image": "/assets/research/testament-crops/margaret-1580-opening.jpg",
+      "image_width": 1050,
+      "image_height": 650,
+      "region": [
+        319,
+        133,
+        363,
+        94
+      ],
+      "reading": "sumtyme spous to Johne estoun",
+      "expansion": "sometime spouse of John Easton",
+      "confidence": "High for the marital phrase.",
+      "context": "Margaret is described as sumtyme spous to Johne estoun.",
+      "review_status": "source-aligned",
+      "locator_note": "Use the selected word before the wider passage. Pixel regions retain full visible strokes. Crossings from neighbouring lines remain contextual; a rectangular focus is retained where further separation would guess.",
+      "conclusion": "The phrase names her husband, not Cuthbert's father.",
+      "letters": [
+        {
+          "id": "spous-marital-phrase-word-1",
+          "glyph": "spous",
+          "label": "spous: whole connected word",
+          "position": 1,
+          "region": [
+            319,
+            133,
+            99,
+            88
+          ],
+          "paths": [],
+          "observed": "After sumtyme, find the compact body and narrow p descent before to.",
+          "matches": "No identical second occurrence is established in this inspected passage; comparison with an isolated teaching alphabet is not proof.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "The initial is crossed from above; no s outline is invented."
+        },
+        {
+          "id": "spous-marital-phrase-word-2",
+          "glyph": "Johne",
+          "label": "Johne: whole connected word",
+          "position": 1,
+          "region": [
+            428,
+            135,
+            100,
+            92
+          ],
+          "paths": [],
+          "observed": "After to, read the large initial and short joined letters.",
+          "matches": "No identical second occurrence is established in this inspected passage; comparison with an isolated teaching alphabet is not proof.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "Stop before the separate surname."
+        },
+        {
+          "id": "spous-marital-phrase-word-3",
+          "glyph": "estoun",
+          "label": "estoun: whole connected word",
+          "position": 1,
+          "region": [
+            521,
+            135,
+            161,
+            88
+          ],
+          "paths": [],
+          "observed": "A long opening leads into the compact -oun ending.",
+          "matches": "No identical second occurrence is established in this inspected passage; comparison with an isolated teaching alphabet is not proof.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "Easton is a normalized display name."
+        }
+      ],
+      "words": [
+        {
+          "text": "spous",
+          "region": [
+            319,
+            133,
+            99,
+            88
+          ],
+          "focus_polygon": [
+            [
+              319,
+              133
+            ],
+            [
+              418,
+              133
+            ],
+            [
+              418,
+              221
+            ],
+            [
+              319,
+              221
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "spous-marital-phrase-word-1",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        },
+        {
+          "text": "Johne",
+          "region": [
+            428,
+            135,
+            100,
+            92
+          ],
+          "focus_polygon": [
+            [
+              428,
+              135
+            ],
+            [
+              528,
+              135
+            ],
+            [
+              528,
+              227
+            ],
+            [
+              428,
+              227
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "spous-marital-phrase-word-2",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        },
+        {
+          "text": "estoun",
+          "region": [
+            521,
+            135,
+            161,
+            88
+          ],
+          "focus_polygon": [
+            [
+              521,
+              135
+            ],
+            [
+              682,
+              135
+            ],
+            [
+              682,
+              223
+            ],
+            [
+              521,
+              223
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "spous-marital-phrase-word-3",
+              "start": 0,
+              "end": 6
+            }
+          ]
+        }
+      ],
+      "reading_steps": [
+        {
+          "title": "Read spous",
+          "text": "After sumtyme, find the compact body and narrow p descent before to. The initial is crossed from above; no s outline is invented.",
+          "region": [
+            319,
+            133,
+            99,
+            88
+          ]
+        },
+        {
+          "title": "Read Johne",
+          "text": "After to, read the large initial and short joined letters. Stop before the separate surname.",
+          "region": [
+            428,
+            135,
+            100,
+            92
+          ]
+        },
+        {
+          "title": "Read estoun",
+          "text": "A long opening leads into the compact -oun ending. Easton is a normalized display name.",
+          "region": [
+            521,
+            135,
+            161,
+            88
+          ]
+        },
+        {
+          "title": "Read the relationship in context",
+          "text": "Margaret is described as sumtyme spous to Johne estoun. The phrase names her husband, not Cuthbert's father.",
+          "region": [
+            319,
+            133,
+            363,
+            94
+          ]
+        }
+      ],
+      "same_hand_comparisons": []
+    },
+    {
+      "id": "margaret-1580-cuthbert",
+      "title": "Cuthbert Kaddell?",
+      "nav_label": "Cuthbert Kaddell?",
+      "image": "/assets/research/testament-crops/margaret-1580-opening.jpg",
+      "image_width": 1050,
+      "image_height": 650,
+      "region": [
+        670,
+        230,
+        251,
+        87
+      ],
+      "reading": "cuthbert kaddell[?]",
+      "expansion": "Cuthbert Kaddell/Keddell [?]",
+      "confidence": "Forename clear; surname qualified.",
+      "context": "The presentation clause names Cuthbert before his separate kin and executor roles.",
+      "review_status": "source-aligned",
+      "locator_note": "Use the selected word before the wider passage. Pixel regions retain full visible strokes. Crossings from neighbouring lines remain contextual; a rectangular focus is retained where further separation would guess.",
+      "conclusion": "Keep the surname uncertainty; no father is stated.",
+      "letters": [
+        {
+          "id": "margaret-1580-cuthbert-word-1",
+          "glyph": "cuthbert",
+          "label": "cuthbert: whole connected word",
+          "position": 1,
+          "region": [
+            670,
+            230,
+            129,
+            87
+          ],
+          "paths": [],
+          "observed": "After gevin vp be, find the larger opening and tall middle forms.",
+          "matches": "The confirmation repeats the name with the surname read more clearly as Keddell; period spelling need not be fixed.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "The h/b/t joins remain connected."
+        },
+        {
+          "id": "margaret-1580-cuthbert-word-2",
+          "glyph": "kaddell?",
+          "label": "kaddell?: whole connected word",
+          "position": 1,
+          "region": [
+            788,
+            235,
+            133,
+            77
+          ],
+          "paths": [],
+          "observed": "The surname has a taller initial and finishing strokes around a crowded middle.",
+          "matches": "The confirmation repeats the name with the surname read more clearly as Keddell; period spelling need not be fixed.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "The question mark preserves the Kaddell/Keddell uncertainty."
+        }
+      ],
+      "words": [
+        {
+          "text": "cuthbert",
+          "region": [
+            670,
+            230,
+            129,
+            87
+          ],
+          "focus_polygon": [
+            [
+              670,
+              230
+            ],
+            [
+              799,
+              230
+            ],
+            [
+              799,
+              317
+            ],
+            [
+              670,
+              317
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "margaret-1580-cuthbert-word-1",
+              "start": 0,
+              "end": 8
+            }
+          ]
+        },
+        {
+          "text": "kaddell?",
+          "region": [
+            788,
+            235,
+            133,
+            77
+          ],
+          "focus_polygon": [
+            [
+              788,
+              235
+            ],
+            [
+              921,
+              235
+            ],
+            [
+              921,
+              312
+            ],
+            [
+              788,
+              312
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "margaret-1580-cuthbert-word-2",
+              "start": 0,
+              "end": 8
+            }
+          ]
+        }
+      ],
+      "reading_steps": [
+        {
+          "title": "Read cuthbert",
+          "text": "After gevin vp be, find the larger opening and tall middle forms. The h/b/t joins remain connected.",
+          "region": [
+            670,
+            230,
+            129,
+            87
+          ]
+        },
+        {
+          "title": "Read kaddell?",
+          "text": "The surname has a taller initial and finishing strokes around a crowded middle. The question mark preserves the Kaddell/Keddell uncertainty.",
+          "region": [
+            788,
+            235,
+            133,
+            77
+          ]
+        },
+        {
+          "title": "Read the relationship in context",
+          "text": "The presentation clause names Cuthbert before his separate kin and executor roles. Keep the surname uncertainty; no father is stated.",
+          "region": [
+            670,
+            230,
+            251,
+            87
+          ]
+        }
+      ],
+      "same_hand_comparisons": [
+        {
+          "image": "/assets/research/testament-crops/margaret-1580-confirmation.jpg",
+          "image_width": 1000,
+          "image_height": 830,
+          "region": [
+            347,
+            337,
+            220,
+            74
+          ],
+          "reading": "cuthbert keddell",
+          "explanation": "The confirmation repeats the name with the surname read more clearly as Keddell; period spelling need not be fixed."
+        }
+      ]
+    },
+    {
+      "id": "margaret-1580-hir-sone",
+      "title": "Her son",
+      "nav_label": "Her son",
+      "image": "/assets/research/testament-crops/margaret-1580-opening.jpg",
+      "image_width": 1050,
+      "image_height": 650,
+      "region": [
+        386,
+        273,
+        160,
+        84
+      ],
+      "reading": "hir sone",
+      "expansion": "her son",
+      "confidence": "High.",
+      "context": "Cuthbert is called hir sone before the executor role.",
+      "review_status": "source-aligned",
+      "locator_note": "Use the selected word before the wider passage. Pixel regions retain full visible strokes. Crossings from neighbouring lines remain contextual; a rectangular focus is retained where further separation would guess.",
+      "conclusion": "The kin wording establishes maternity; executour dative alone would not.",
+      "letters": [
+        {
+          "id": "margaret-1580-hir-sone-word-1",
+          "glyph": "hir",
+          "label": "hir: whole connected word",
+          "position": 1,
+          "region": [
+            386,
+            274,
+            76,
+            76
+          ],
+          "paths": [],
+          "observed": "Find the tall beginning and two shorter strokes before the noun gap.",
+          "matches": "The reciprocal description repeats the same relationship within the confirmation.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "The pronoun refers back to Margaret."
+        },
+        {
+          "id": "margaret-1580-hir-sone-word-2",
+          "glyph": "sone",
+          "label": "sone: whole connected word",
+          "position": 1,
+          "region": [
+            458,
+            273,
+            88,
+            84
+          ],
+          "paths": [],
+          "observed": "A long opening precedes the small connected one sequence.",
+          "matches": "The reciprocal description repeats the same relationship within the confirmation.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "Preserve the extended stroke beside the lower line."
+        }
+      ],
+      "words": [
+        {
+          "text": "hir",
+          "region": [
+            386,
+            274,
+            76,
+            76
+          ],
+          "focus_polygon": [
+            [
+              386,
+              274
+            ],
+            [
+              462,
+              274
+            ],
+            [
+              462,
+              350
+            ],
+            [
+              386,
+              350
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "margaret-1580-hir-sone-word-1",
+              "start": 0,
+              "end": 3
+            }
+          ]
+        },
+        {
+          "text": "sone",
+          "region": [
+            458,
+            273,
+            88,
+            84
+          ],
+          "focus_polygon": [
+            [
+              458,
+              273
+            ],
+            [
+              546,
+              273
+            ],
+            [
+              546,
+              357
+            ],
+            [
+              458,
+              357
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "margaret-1580-hir-sone-word-2",
+              "start": 0,
+              "end": 4
+            }
+          ]
+        }
+      ],
+      "reading_steps": [
+        {
+          "title": "Read hir",
+          "text": "Find the tall beginning and two shorter strokes before the noun gap. The pronoun refers back to Margaret.",
+          "region": [
+            386,
+            274,
+            76,
+            76
+          ]
+        },
+        {
+          "title": "Read sone",
+          "text": "A long opening precedes the small connected one sequence. Preserve the extended stroke beside the lower line.",
+          "region": [
+            458,
+            273,
+            88,
+            84
+          ]
+        },
+        {
+          "title": "Read the relationship in context",
+          "text": "Cuthbert is called hir sone before the executor role. The kin wording establishes maternity; executour dative alone would not.",
+          "region": [
+            386,
+            273,
+            160,
+            84
+          ]
+        }
+      ],
+      "same_hand_comparisons": [
+        {
+          "image": "/assets/research/testament-crops/margaret-1580-confirmation.jpg",
+          "image_width": 1000,
+          "image_height": 830,
+          "region": [
+            444,
+            507,
+            152,
+            78
+          ],
+          "reading": "his mother",
+          "explanation": "The reciprocal description repeats the same relationship within the confirmation."
+        }
+      ]
+    },
+    {
+      "id": "margaret-1580-his-mother",
+      "title": "His mother, repeated",
+      "nav_label": "His mother, repeated",
+      "image": "/assets/research/testament-crops/margaret-1580-confirmation.jpg",
+      "image_width": 1000,
+      "image_height": 830,
+      "region": [
+        214,
+        501,
+        382,
+        84
+      ],
+      "reading": "Margaret glasgw his mother",
+      "expansion": "Margaret Glasgow, his mother",
+      "confidence": "High for the reciprocal wording.",
+      "context": "The confirmation calls Margaret his mother after describing Cuthbert as her son.",
+      "review_status": "source-aligned",
+      "locator_note": "Use the selected word before the wider passage. Pixel regions retain full visible strokes. Crossings from neighbouring lines remain contextual; a rectangular focus is retained where further separation would guess.",
+      "conclusion": "This is repeated evidence within one record and still supplies no father.",
+      "letters": [
+        {
+          "id": "margaret-1580-his-mother-word-1",
+          "glyph": "Margaret",
+          "label": "Margaret: whole connected word",
+          "position": 1,
+          "region": [
+            214,
+            504,
+            140,
+            72
+          ],
+          "paths": [],
+          "observed": "Locate the repeated personal name after the deceased wording on this lower line.",
+          "matches": "Her son and his mother state the same relationship in opposite directions.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "It identifies the same woman."
+        },
+        {
+          "id": "margaret-1580-his-mother-word-2",
+          "glyph": "glasgw",
+          "label": "glasgw: whole connected word",
+          "position": 1,
+          "region": [
+            335,
+            501,
+            119,
+            83
+          ],
+          "paths": [],
+          "observed": "The surname's extended strokes precede a short possessive.",
+          "matches": "Her son and his mother state the same relationship in opposite directions.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "Nearby lines cross its longer forms."
+        },
+        {
+          "id": "margaret-1580-his-mother-word-3",
+          "glyph": "his",
+          "label": "his: whole connected word",
+          "position": 1,
+          "region": [
+            444,
+            512,
+            57,
+            62
+          ],
+          "paths": [],
+          "observed": "Read the short possessive after the surname.",
+          "matches": "Her son and his mother state the same relationship in opposite directions.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "Keep the noun as a separate word."
+        },
+        {
+          "id": "margaret-1580-his-mother-word-4",
+          "glyph": "mother",
+          "label": "mother: whole connected word",
+          "position": 1,
+          "region": [
+            493,
+            507,
+            103,
+            78
+          ],
+          "paths": [],
+          "observed": "The noun has taller middle strokes and a compressed finish.",
+          "matches": "Her son and his mother state the same relationship in opposite directions.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "The word establishes maternity, not paternity."
+        }
+      ],
+      "words": [
+        {
+          "text": "Margaret",
+          "region": [
+            214,
+            504,
+            140,
+            72
+          ],
+          "focus_polygon": [
+            [
+              214,
+              504
+            ],
+            [
+              354,
+              504
+            ],
+            [
+              354,
+              576
+            ],
+            [
+              214,
+              576
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "margaret-1580-his-mother-word-1",
+              "start": 0,
+              "end": 8
+            }
+          ]
+        },
+        {
+          "text": "glasgw",
+          "region": [
+            335,
+            501,
+            119,
+            83
+          ],
+          "focus_polygon": [
+            [
+              335,
+              501
+            ],
+            [
+              454,
+              501
+            ],
+            [
+              454,
+              584
+            ],
+            [
+              335,
+              584
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "margaret-1580-his-mother-word-2",
+              "start": 0,
+              "end": 6
+            }
+          ]
+        },
+        {
+          "text": "his",
+          "region": [
+            444,
+            512,
+            57,
+            62
+          ],
+          "focus_polygon": [
+            [
+              444,
+              512
+            ],
+            [
+              501,
+              512
+            ],
+            [
+              501,
+              574
+            ],
+            [
+              444,
+              574
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "margaret-1580-his-mother-word-3",
+              "start": 0,
+              "end": 3
+            }
+          ]
+        },
+        {
+          "text": "mother",
+          "region": [
+            493,
+            507,
+            103,
+            78
+          ],
+          "focus_polygon": [
+            [
+              493,
+              507
+            ],
+            [
+              596,
+              507
+            ],
+            [
+              596,
+              585
+            ],
+            [
+              493,
+              585
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "margaret-1580-his-mother-word-4",
+              "start": 0,
+              "end": 6
+            }
+          ]
+        }
+      ],
+      "reading_steps": [
+        {
+          "title": "Read Margaret",
+          "text": "Locate the repeated personal name after the deceased wording on this lower line. It identifies the same woman.",
+          "region": [
+            214,
+            504,
+            140,
+            72
+          ]
+        },
+        {
+          "title": "Read glasgw",
+          "text": "The surname's extended strokes precede a short possessive. Nearby lines cross its longer forms.",
+          "region": [
+            335,
+            501,
+            119,
+            83
+          ]
+        },
+        {
+          "title": "Read his",
+          "text": "Read the short possessive after the surname. Keep the noun as a separate word.",
+          "region": [
+            444,
+            512,
+            57,
+            62
+          ]
+        },
+        {
+          "title": "Read mother",
+          "text": "The noun has taller middle strokes and a compressed finish. The word establishes maternity, not paternity.",
+          "region": [
+            493,
+            507,
+            103,
+            78
+          ]
+        },
+        {
+          "title": "Read the relationship in context",
+          "text": "The confirmation calls Margaret his mother after describing Cuthbert as her son. This is repeated evidence within one record and still supplies no father.",
+          "region": [
+            214,
+            501,
+            382,
+            84
+          ]
+        }
+      ],
+      "same_hand_comparisons": [
+        {
+          "image": "/assets/research/testament-crops/margaret-1580-opening.jpg",
+          "image_width": 1050,
+          "image_height": 650,
+          "region": [
+            386,
+            273,
+            160,
+            87
+          ],
+          "reading": "hir sone",
+          "explanation": "Her son and his mother state the same relationship in opposite directions."
+        }
+      ]
+    }
+  ],
+  "method": "Visually inspected whole-word source-pixel studies. Original images are unchanged. Conservative focus envelopes retain ambiguous crossings; some remain rectangular because a smaller mask would assign uncertain ink. Whole connected words serve as colour groups where internal boundaries are unclear. The separate Joscelyn example is a different teaching hand, not a reconstruction or proof. No guessed SVG pen paths.",
+  "people_studies": {
+    "Margaret Glasgow": "margaret-1580-name",
+    "John Easton": "spous-marital-phrase",
+    "Cuthbert Kaddell/Keddell [?]": "margaret-1580-cuthbert"
+  },
+  "walkthrough_mark_updates": [
+    {
+      "step_id": "margaret-identity",
+      "mark_index": 0,
+      "region": [
+        662,
+        93,
+        271,
+        92
+      ]
+    },
+    {
+      "step_id": "margaret-identity",
+      "mark_index": 1,
+      "region": [
+        210,
+        133,
+        218,
+        98
+      ]
+    },
+    {
+      "step_id": "margaret-identity",
+      "mark_index": 2,
+      "region": [
+        428,
+        135,
+        254,
+        92
+      ]
+    },
+    {
+      "step_id": "margaret-son-opening",
+      "mark_index": 0,
+      "region": [
+        670,
+        230,
+        251,
+        87
+      ]
+    },
+    {
+      "step_id": "margaret-son-opening",
+      "mark_index": 1,
+      "region": [
+        386,
+        273,
+        160,
+        87
+      ]
+    },
+    {
+      "step_id": "margaret-son-confirmation",
+      "mark_index": 0,
+      "region": [
+        347,
+        337,
+        220,
+        74
+      ]
+    },
+    {
+      "step_id": "margaret-son-confirmation",
+      "mark_index": 2,
+      "region": [
+        214,
+        501,
+        240,
+        83
+      ]
+    },
+    {
+      "step_id": "margaret-son-confirmation",
+      "mark_index": 3,
+      "region": [
+        444,
+        507,
+        152,
+        78
+      ]
+    }
+  ]
+}

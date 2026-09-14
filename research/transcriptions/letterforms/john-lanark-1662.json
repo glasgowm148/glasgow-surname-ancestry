@@ -1,0 +1,455 @@
+{
+  "id": "john-lanark-1662",
+  "review": {
+    "date": "2026-09-10",
+    "model": "gpt-6-astra",
+    "reasoning_effort": "xhigh",
+    "method": "Original-image review and source-pixel focus envelopes. Shared presentation expanded from the compact vision handoff; literal abbreviations, crossing ink and uncertainty retained."
+  },
+  "studies": [
+    {
+      "id": "john-glasgow-locality",
+      "title": "John Glasgow",
+      "nav_label": "John Glasgow",
+      "image": "/assets/research/testament-crops/john-lanark-1662-locality.jpg",
+      "image_width": 1500,
+      "image_height": 358,
+      "region": [
+        943,
+        37,
+        408,
+        151
+      ],
+      "reading": "John Glasgow",
+      "expansion": "John Glasgow",
+      "confidence": "High for maintained name; no profile identity established",
+      "context": "Find the deceased name after the inventory wording.",
+      "review_status": "source-aligned",
+      "locator_note": "Find the deceased name after the inventory wording. Follow its place context separately; a shared name and Quothquan location do not establish a profile identity.",
+      "conclusion": "No executor relationship, parent or child is secured by this passage.",
+      "letters": [
+        {
+          "id": "john-glasgow-locality-w1-g1",
+          "glyph": "J",
+          "label": "John: J",
+          "region": [
+            943,
+            37,
+            74,
+            139
+          ],
+          "paths": [],
+          "observed": "The longer initial leads into the short name after umqle.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "john-glasgow-locality-w1-g2",
+          "glyph": "ohn",
+          "label": "John: ohn",
+          "region": [
+            1007,
+            37,
+            121,
+            139
+          ],
+          "paths": [],
+          "observed": "The h-like taller form separates the smaller joined body strokes.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "john-glasgow-locality-w2-g1",
+          "glyph": "Glas",
+          "label": "Glasgow: Glas",
+          "region": [
+            1114,
+            37,
+            122,
+            151
+          ],
+          "paths": [],
+          "observed": "A wider G and longer middle movement begin the surname.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "john-glasgow-locality-w2-g2",
+          "glyph": "gow",
+          "label": "Glasgow: gow",
+          "region": [
+            1226,
+            37,
+            125,
+            151
+          ],
+          "paths": [],
+          "observed": "The remaining joined body finishes before the locality.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        }
+      ],
+      "words": [
+        {
+          "text": "John",
+          "region": [
+            943,
+            37,
+            185,
+            139
+          ],
+          "focus_polygon": [
+            [
+              943,
+              37
+            ],
+            [
+              1128,
+              37
+            ],
+            [
+              1128,
+              176
+            ],
+            [
+              943,
+              176
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "john-glasgow-locality-w1-g1",
+              "start": 0,
+              "end": 1
+            },
+            {
+              "letter_id": "john-glasgow-locality-w1-g2",
+              "start": 1,
+              "end": 4
+            }
+          ]
+        },
+        {
+          "text": "Glasgow",
+          "region": [
+            1114,
+            37,
+            237,
+            151
+          ],
+          "focus_polygon": [
+            [
+              1114,
+              37
+            ],
+            [
+              1351,
+              37
+            ],
+            [
+              1351,
+              188
+            ],
+            [
+              1114,
+              188
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "john-glasgow-locality-w2-g1",
+              "start": 0,
+              "end": 4
+            },
+            {
+              "letter_id": "john-glasgow-locality-w2-g2",
+              "start": 4,
+              "end": 7
+            }
+          ]
+        }
+      ],
+      "reading_steps": [
+        {
+          "title": "Inspect John",
+          "region": [
+            943,
+            37,
+            185,
+            139
+          ],
+          "text": "The longer initial leads into the short name after umqle. The h-like taller form separates the smaller joined body strokes."
+        },
+        {
+          "title": "Inspect Glasgow",
+          "region": [
+            1114,
+            37,
+            237,
+            151
+          ],
+          "text": "A wider G and longer middle movement begin the surname. The remaining joined body finishes before the locality."
+        },
+        {
+          "title": "Read the word in context",
+          "region": [
+            943,
+            37,
+            408,
+            151
+          ],
+          "text": "Find the deceased name after the inventory wording."
+        },
+        {
+          "title": "Keep the conclusion within the evidence",
+          "region": [
+            943,
+            37,
+            408,
+            151
+          ],
+          "text": "Follow its place context separately; a shared name and Quothquan location do not establish a profile identity."
+        }
+      ],
+      "same_hand_comparisons": []
+    },
+    {
+      "id": "john-lanark-1662-repeated-name",
+      "title": "Repeated John; kinship unclear",
+      "nav_label": "Repeated John; kinship unclear",
+      "image": "/assets/research/testament-crops/john-lanark-1662-uncertain.jpg",
+      "image_width": 1500,
+      "image_height": 286,
+      "region": [
+        939,
+        12,
+        348,
+        133
+      ],
+      "reading": "John Glasgow [following wording unresolved]",
+      "expansion": "Repeated John; kinship unclear",
+      "confidence": "High for name; low for following role/kin words",
+      "context": "Compare the repeated name with the opening to check letter shapes.",
+      "review_status": "source-aligned",
+      "locator_note": "Compare the repeated name with the opening to check letter shapes. Stop at the surname gap: the following marks do not provide a securely read lawful-son clause.",
+      "conclusion": "No executor name or sonship is inferred. Two supported studies are preferable to inventing a third family claim.",
+      "letters": [
+        {
+          "id": "john-lanark-1662-repeated-name-w1-g1",
+          "glyph": "J",
+          "label": "John: J",
+          "region": [
+            939,
+            14,
+            62,
+            114
+          ],
+          "paths": [],
+          "observed": "The long initial occurs after the said on the first line.",
+          "matches": "Compare with the same-clerk source example below: The same name is repeated, but repeated identity wording does not resolve the uncertain relationship.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "john-lanark-1662-repeated-name-w1-g2",
+          "glyph": "ohn",
+          "label": "John: ohn",
+          "region": [
+            991,
+            14,
+            105,
+            114
+          ],
+          "paths": [],
+          "observed": "Short connected forms complete the repeated name.",
+          "matches": "Compare with the same-clerk source example below: The same name is repeated, but repeated identity wording does not resolve the uncertain relationship.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "john-lanark-1662-repeated-name-w2-g1",
+          "glyph": "Glas",
+          "label": "Glasgow: Glas",
+          "region": [
+            1083,
+            12,
+            102,
+            133
+          ],
+          "paths": [],
+          "observed": "The surname has a broader opening and extended strokes.",
+          "matches": "Compare with the same-clerk source example below: The same name is repeated, but repeated identity wording does not resolve the uncertain relationship.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "john-lanark-1662-repeated-name-w2-g2",
+          "glyph": "gow",
+          "label": "Glasgow: gow",
+          "region": [
+            1175,
+            12,
+            112,
+            133
+          ],
+          "paths": [],
+          "observed": "Stop before the unclear wording to its right.",
+          "matches": "Compare with the same-clerk source example below: The same name is repeated, but repeated identity wording does not resolve the uncertain relationship.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        }
+      ],
+      "words": [
+        {
+          "text": "John",
+          "region": [
+            939,
+            14,
+            157,
+            114
+          ],
+          "focus_polygon": [
+            [
+              939,
+              14
+            ],
+            [
+              1096,
+              14
+            ],
+            [
+              1096,
+              128
+            ],
+            [
+              939,
+              128
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "john-lanark-1662-repeated-name-w1-g1",
+              "start": 0,
+              "end": 1
+            },
+            {
+              "letter_id": "john-lanark-1662-repeated-name-w1-g2",
+              "start": 1,
+              "end": 4
+            }
+          ]
+        },
+        {
+          "text": "Glasgow",
+          "region": [
+            1083,
+            12,
+            204,
+            133
+          ],
+          "focus_polygon": [
+            [
+              1083,
+              12
+            ],
+            [
+              1287,
+              12
+            ],
+            [
+              1287,
+              145
+            ],
+            [
+              1083,
+              145
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "john-lanark-1662-repeated-name-w2-g1",
+              "start": 0,
+              "end": 4
+            },
+            {
+              "letter_id": "john-lanark-1662-repeated-name-w2-g2",
+              "start": 4,
+              "end": 7
+            }
+          ]
+        }
+      ],
+      "reading_steps": [
+        {
+          "title": "Inspect John",
+          "region": [
+            939,
+            14,
+            157,
+            114
+          ],
+          "text": "The long initial occurs after the said on the first line. Short connected forms complete the repeated name."
+        },
+        {
+          "title": "Inspect Glasgow",
+          "region": [
+            1083,
+            12,
+            204,
+            133
+          ],
+          "text": "The surname has a broader opening and extended strokes. Stop before the unclear wording to its right."
+        },
+        {
+          "title": "Read the word in context",
+          "region": [
+            939,
+            12,
+            348,
+            133
+          ],
+          "text": "Compare the repeated name with the opening to check letter shapes."
+        },
+        {
+          "title": "Keep the conclusion within the evidence",
+          "region": [
+            939,
+            12,
+            348,
+            133
+          ],
+          "text": "Stop at the surname gap: the following marks do not provide a securely read lawful-son clause."
+        }
+      ],
+      "same_hand_comparisons": [
+        {
+          "image": "/assets/research/testament-crops/john-lanark-1662-locality.jpg",
+          "image_width": 1500,
+          "image_height": 358,
+          "region": [
+            943,
+            37,
+            408,
+            151
+          ],
+          "reading": "John Glasgow in opening",
+          "explanation": "The same name is repeated, but repeated identity wording does not resolve the uncertain relationship."
+        }
+      ]
+    }
+  ],
+  "people_studies": {
+    "John Glasgow": "john-glasgow-locality"
+  },
+  "limitations": [
+    "Only two substantive studies: no secure additional person or kin term in the supplied passages."
+  ]
+}

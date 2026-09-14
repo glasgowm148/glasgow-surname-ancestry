@@ -54,8 +54,7 @@ Leith OPR searches found no Glasgow/Glasgo/Glascow/Glaskow/Glassgow baptism in
 1694–1730 and no exact Robert Glasgow marriage in 1694–1710 or burial in
 1694–1730; register survival and spelling limit the negative evidence.
 
-## Sources
-
+## Source findings
 - Scotland's People, Church of Scotland births and baptisms indexes, cited OPR references.
 - Charles B. Boog Watson, ed., [*Roll of Edinburgh Burgesses and Guild-Brethren, 1406–1700*, printed p. 208](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/roll_of_edinburgh_burgesses_1406_to_1700.pdf#page=218), 4 July 1666.
 - National Records of Scotland, E70/4/10, North Leith poll tax, 3 October 1694, [Scotland's People Virtual Volumes, image 11](https://www.scotlandspeople.gov.uk/virtual-volumes/volume-images/volume_data-E70-4-10/REX01666?image_number=11).
@@ -85,3 +84,24 @@ The transcript-validated baptism record for **Robert Glasgow**, 1627, Inveresk w
 
 Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
 <!-- END FMP-GLASGOW-fmp-glasgow-cd4d475c488d -->
+
++### Supplied Scotland’s People OPR births and baptisms — 10 September 2026
+
+| Source locator | Indexed entry | Assessment |
+| --- | --- | --- |
+| [Scotland’s People](https://www.scotlandspeople.gov.uk/), OPR 689/10 / 171 | ROBERT GLASGOW; ALLEXANDER GLASGOW/; 30/12/1627; Inveresk and Musselburgh | Index-only confirmation. Its combined birth/baptism date is retained as an index date; original image was not inspected. |
+
+Provenance: exact-surname Glasgow search, year range to 1700, 127 supplied results across six pages.
+
+<!-- opr-birth-review-row-21 -->
+## Source findings
+
+### Supplied OPR births and baptisms: row 21 — 10 September 2026
+
+[Scotland’s People](https://www.scotlandspeople.gov.uk/), **Old Parish Registers, births and baptisms**; exact surname Glasgow through 1700, 127 supplied results. **ROBERT GLASGOW**; indexed date **30/12/1627**; Inveresk and Musselburgh; parish **689**, reference **10 / 171**. Parents/other exactly as indexed: **ALLEXANDER GLASGOW/**. Indexed gender: **M**.
+
+**Assessment:** Matches the existing child-record account by indexed date, locality and recorded family. This row adds the complete index locator as supporting provenance; it does not establish a new event or relationship.
+
+Original image not inspected for this batch. The combined collection’s date does not automatically establish a birthday. Names alone do not uniquely identify attached parents or connect a child with a later adult. An omitted parent or indexed gender U remains unspecified in this source.
+
+**Next action:** No additional WikiTree update from this row; preserve any existing pending work.

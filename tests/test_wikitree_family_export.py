@@ -37,6 +37,40 @@ def sample_envelope() -> dict:
 
 
 class ResearchLoopTests(unittest.TestCase):
+    def test_project_identifier_wrappers_keep_accepted_forms_and_messages(self) -> None:
+        self.assertEqual(
+            "Example_Person-42",
+            exporter.normalise_wikitree_id("https://www.wikitree.com/wiki/Example%20Person-42"),
+        )
+        self.assertEqual("9QMG-R4T", exporter.normalise_familysearch_pid("9qmg-r4t"))
+        with self.assertRaisesRegex(ValueError, "Glasgow-1538"):
+            exporter.normalise_wikitree_id("not-an-id")
+        with self.assertRaisesRegex(ValueError, "not a WikiTree URL"):
+            exporter.normalise_wikitree_id(
+                "https://wikitree.com.example.invalid/wiki/Example-42"
+            )
+        with self.assertRaisesRegex(ValueError, "9QMG-R4T"):
+            exporter.normalise_familysearch_pid("not-a-pid")
+
+    def test_existing_export_can_write_a_neutral_toolkit_case(self) -> None:
+        envelope = sample_envelope()
+        envelope["items"][0]["person"]["Father"] = "Uncaptured-1"
+        child = envelope["items"][0]["person"]["Children"]["2"]
+        child["Father"] = "Example-1"
+        with tempfile.TemporaryDirectory() as directory:
+            path = exporter.write_toolkit_case(envelope, "Example-1", Path(directory))
+            data = json.loads(path.read_text(encoding="utf-8"))
+        self.assertEqual(data["id"], "wikitree-Example-1")
+        self.assertEqual(len(data["record_sets"]["Person"]), 2)
+        self.assertTrue(data["record_sets"]["Relationship"])
+        person_ids = {person["id"] for person in data["record_sets"]["Person"]}
+        self.assertTrue(all(
+            relationship["subject_id"] in person_ids
+            and relationship["object_id"] in person_ids
+            for relationship in data["record_sets"]["Relationship"]
+        ))
+        self.assertTrue(data["record_sets"]["ImportProvenance"])
+
     def test_api_uses_waf_compatible_same_site_headers_and_app_id(self) -> None:
         response = Mock()
         response.status_code = 200
@@ -87,6 +121,18 @@ class ResearchLoopTests(unittest.TestCase):
         self.assertEqual(envelope["profile"]["Name"], "Example-1")
         self.assertEqual(post.call_count, 3)
         self.assertEqual(sleep.call_count, 2)
+
+    def test_api_response_errors_remain_export_errors(self) -> None:
+        non_json = Mock()
+        non_json.status_code = 200
+        non_json.headers = {"Content-Type": "text/html"}
+        non_json.text = "<html>temporarily unavailable</html>"
+        with patch.object(exporter.requests, "post", return_value=non_json):
+            with self.assertRaisesRegex(
+                exporter.ExportError,
+                "non-JSON content: <html>temporarily unavailable</html>",
+            ):
+                exporter.post_wikitree({"action": "getProfile", "key": "Example-1"})
 
     def test_extracts_embedded_export(self) -> None:
         with tempfile.TemporaryDirectory() as directory:

@@ -14,8 +14,7 @@ origin and the rarity of an adult Andrew in this locality fit this Andrew, but
 the certificate does not give the father's residence and therefore falls short
 of a unique identification.
 
-## Sources
-
+## Source findings
 | Source | Finding | Assessment |
 | --- | --- | --- |
 | [Detailed 1851 census transcription](https://durrushistory.com/wp-content/uploads/2012/10/1851irishcensusreturnscommadelimitedtextfilejul24_071.pdf), Glenleslie household 21 | Andrew, son of John, was a linen weaver aged thirty and died of consumption in 1848. | Direct relationship wording in a detailed derivative transcription. |

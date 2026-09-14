@@ -21,8 +21,7 @@ The live structured birth location is the uncertain estimate County Antrim.
 The older One-Tree export still displays Ballymoney, County Londonderry and is
 stale; do not reintroduce that value during catalogue or profile work.
 
-## Sources
-
+## Source findings
 | Source | Finding | Assessment |
 | --- | --- | --- |
 | [Original 1885 death registration](https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1885/06280/4799372.pdf) | John Glasgow, married farmer, died at Lisnagaver on 24 June 1885 aged 78; son James of Lisnagaver was informant. | Direct evidence for death, occupation, status, residence and son; silent on wife and parents. |

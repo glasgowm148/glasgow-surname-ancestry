@@ -15,8 +15,7 @@ for Hugh. It also does not expressly state whether he was living or deceased.
 
 No wife or additional child has yet been identified.
 
-## Primary source
-
+## Source findings
 - [Marriage of Hugh Glasgow and Anne Wilson, entry 49, 24 December 1852](https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1852/09422/5413278.pdf).
 
 ## Duplicate audit

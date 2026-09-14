@@ -42,8 +42,7 @@ Faris prints a letter dated 6 November 1806 from Joseph and Betty Glasgow to
 Arthur, using explicit brother language for Arthur and Robert. Joseph's own
 1831 will independently calls Arthur his deceased brother.
 
-## Sources
-
+## Source findings
 | Source | Finding | Assessment |
 | --- | --- | --- |
 | David Faris, *The Glasgow Family of Adams County, Ohio* (1990), pp. 14–19; [WorldCat record](https://search.worldcat.org/title/22731567) | The printed 1806 family letter identifies Arthur and Robert as Joseph's brothers. | Strong contemporary relationship evidence in a later transcription. |

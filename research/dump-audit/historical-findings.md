@@ -1,0 +1,33 @@
+# Historical-dump audit
+
+Date: 2026-09-10  
+Scope: `dump/1. Historical Research by Year`, `dump/Misc`, and `dump/1851 Antrim`.  This is a private research handoff, not a publication source.
+
+## Coverage and method
+
+- Inventory cross-check: 431 scoped files (381 research candidates and 50 macOS metadata files). `research/dump-audit/inventory.json` finds one byte-for-byte pre-existing copy: `1600s/1612_Robert_Glasgow.pdf` = `research/Glasgow-3905/sources/legacytree_glasgow_ydna_report_2016.pdf`.
+- Extracted all 77 scoped PDFs with `pdftotext -layout` to private `.cache/dump-historical/`.  Text-bearing books were searched for Glasgow spelling variants and compared with `research/`, `surname-research/`, and `www/people/` (the latter with `rg --no-ignore`).
+- Image-only PDFs include the eight `1851 Antrim` pages and a separate 1851 capture in `1800s/1851_census.pdf`. Basic rendered-image OCR reads mostly printed form text; its rotation/layout was insufficient to make a defensible transcription of handwritten household entries. No claim below is inferred from filenames.
+- The legacy GEDCOM, Family Tree Builder database, old descendant trees, screenshots, and logs were treated as leads only. They contain unproved trees and living-person material, so none should be published or used as evidence.
+- Image coverage: visual contact sheets covered 30 pre-1800 and 15 top-level 1800s images. The large remaining image sets are archived-site decoration/descendant material, software samples, maps/crests, and rendered surname graphics; their private classification is in `.cache/dump-historical/coverage.json`.
+
+## Record-level results
+
+| Status | Exact local item / observed content | Assessment and source provenance | WikiTree / site surface |
+| --- | --- | --- | --- |
+| **Already known** | `dump/1. Historical Research by Year/1600s/1612_Robert_Glasgow.pdf` | Byte-identical to the saved LegacyTree Y-DNA report for the colonial Robert Glasgow (1612–1650) research; no new observation. | `Glasgow-3905`; no site change. |
+| **Lead — HOLD** | `dump/1851 Antrim/alex_mary_ann/007246515_00446.pdf` through `...00078.pdf` (four sheets), and `dump/1851 Antrim/alex_mary/007246523_00175.pdf` through `...00171.pdf` (four sheets) | All are one-page, very high-resolution census-form images with no embedded text. The handwriting could not be read reliably from the available OCR. They may be useful original-image checks only after manual high-resolution transcription; the filenames alone are not evidence of subject, household, or kinship. Relevant established *external* census pages already in the corpus are [Lisnagaver house 35](https://www.census.nationalarchives.ie/pages/1851/Antrim/Kilconway/Rasharkin/Lisnagaver/35/) for Alexander and Mary, and [house 37](https://www.census.nationalarchives.ie/pages/1851/Antrim/Kilconway/Rasharkin/Lisnagaver/37/) for Thomas and Mary Ann. | Possible comparison material for `Glasgow-951` and `Glasgow-987`; **HOLD**, no site change until handwriting is independently read. |
+| **Already known / image-only** | `dump/1. Historical Research by Year/1800s/1851_census.pdf` | One-page image-only capture; no readable unique text from extraction. Existing research already carries a detailed census transcription and named NAI household URLs for Glenleslie and Lisnagaver. This local capture adds no transferable fact. | `Glasgow-1022`, `Glasgow-951`, `Glasgow-987`; no site change. |
+| **Conflict / unproved lead only** | `dump/Misc/markdown_log/##PDF dude##` and `**Mr Glasgow (1582).md`; old tree exports and the 1850s Ancestry-tree PDF | These repeat an asserted John–Rose–Alexander descent and more remote Scotland-to-Antrim lines, but supply no contemporary record or stable source URL. The asserted descent conflicts with the current careful conclusion that Alexander's parentage is unproved. Do not revive it from these captures. | `Glasgow-1022`, `Glasgow-951`; current site treatment is appropriate. |
+| **No usable new record** | Medieval/early-modern books in `1200s/`, `1300s/`, `1400s/`, `1500s/`, and `1600s/` | Search hits are predominantly institutional uses of “Glasgow” (diocese, university, city) or sources already represented in the early-bearer corpus. This audit did not isolate an additional named Glasgow/Glasgu bearer with a date, place, and reference absent from the maintained registers. | Early-records and free-space pages need no change. |
+| **Already known** | `1400s/JohnDeGlasgu.png`, `JohnDeGlasgu_pope_1405.png`, and `john_de_glasgu_1419.png` | OCR and visual review read the 1419 petition: the Obny canonry/prebend was void after the death outside the Curia of John de Glasgu. This is the already maintained end-point of Master John de Glasgow's career, not a new bearer. | Master John de Glasgow free-space page / Early Bearers; no change. |
+| **Already known** | `1600s/1628_Agnes_Glasgow.png` | Clear printed index capture: “Glasgow, Agnes, spouse to John Logane, trumpmaker in Stevinstoune,” 4 March 1628. The underlying testament calendar and NRS reference are already in `Glasgow-1168` and `Glasgow-3193`. | `Glasgow-1168`, `Glasgow-3193`; no change. |
+| **Already known** | `1700s/1796 Country Antrim Flax Growers List John Glasgow In Desertoghill.jpg` and `1800s/1847_radsharkin_ireland.png` | The first visibly supports the already cited John Glasgow of Desertoghill flax-premium entry; the second visibly lists John, Alexander and Thomas Glasgow at Lisnagaver in Griffith's Valuation. Both are maintained with the correct identity cautions. | `Glasgow-822`; `Glasgow-1022`, `Glasgow-951`, `Glasgow-987`; no change. |
+
+## Current conclusion
+
+No new, source-verifiable historical fact was found in this scope. The only exact duplicate has a maintained research destination. The potentially valuable material is the 1851 original-image packet, but its contents remain **HOLD** pending a human or higher-quality transcription; it must not be treated as independent confirmation or used to alter relationships.
+
+The most specific unreadable/insufficiently proven images are the eight 1851 Antrim PDFs; `1800s/1851_cen.jpg`, `1800s/record-image_.jpg`, and root `record-image_(1).jpg`; the 1767 Bible image; and the derivative 1700s/1800s web captures listed in the private coverage file. OCR was used only to route them, never to manufacture a reading.
+
+Recommended future action: inspect the eight census scans at full resolution against the National Archives of Ireland household forms, retaining page/file provenance and recording only literal readings. Compare any reading with `research/Glasgow-1022/agent_census_cluster.md` before adding it to `Glasgow-951` or `Glasgow-987`.

@@ -1,0 +1,886 @@
+{
+  "id": "andrew-1598",
+  "studies": [
+    {
+      "id": "andro-subject-name",
+      "title": "Andro Glasgow",
+      "nav_label": "Andro Glasgow",
+      "image": "/assets/research/testament-crops/andrew-1598-opening.jpg",
+      "image_width": 1290,
+      "image_height": 990,
+      "region": [
+        759,
+        96,
+        288,
+        86
+      ],
+      "reading": "andro glasgw",
+      "expansion": "Andrew Glasgow",
+      "confidence": "High for the maintained name.",
+      "context": "The opening identifies the deceased testator.",
+      "review_status": "source-aligned",
+      "locator_note": "Use the selected word before the wider passage. Pixel regions retain full visible strokes. Crossings from neighbouring lines remain contextual; a rectangular focus is retained where further separation would guess.",
+      "conclusion": "The wife and children come from the continuation; the locality remains provisional.",
+      "letters": [
+        {
+          "id": "andro-subject-name-word-1",
+          "glyph": "andro",
+          "label": "andro: whole connected word",
+          "position": 1,
+          "region": [
+            759,
+            103,
+            127,
+            79
+          ],
+          "paths": [],
+          "observed": "Find the small a, elevated middle loop and short connected ending.",
+          "matches": "No identical second occurrence is established in this inspected passage; comparison with an isolated teaching alphabet is not proof.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "Do not borrow a capital from the line above."
+        },
+        {
+          "id": "andro-subject-name-word-2",
+          "glyph": "glasgw",
+          "label": "glasgw: whole connected word",
+          "position": 1,
+          "region": [
+            879,
+            96,
+            168,
+            85
+          ],
+          "paths": [],
+          "observed": "Follow the long surname strokes around its compact body to the w-like finish.",
+          "matches": "No identical second occurrence is established in this inspected passage; comparison with an isolated teaching alphabet is not proof.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "Modern Glasgow expands the written glasgw."
+        }
+      ],
+      "words": [
+        {
+          "text": "andro",
+          "region": [
+            759,
+            103,
+            127,
+            79
+          ],
+          "focus_polygon": [
+            [
+              759,
+              103
+            ],
+            [
+              886,
+              103
+            ],
+            [
+              886,
+              182
+            ],
+            [
+              759,
+              182
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "andro-subject-name-word-1",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        },
+        {
+          "text": "glasgw",
+          "region": [
+            879,
+            96,
+            168,
+            85
+          ],
+          "focus_polygon": [
+            [
+              879,
+              96
+            ],
+            [
+              1047,
+              96
+            ],
+            [
+              1047,
+              181
+            ],
+            [
+              879,
+              181
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "andro-subject-name-word-2",
+              "start": 0,
+              "end": 6
+            }
+          ]
+        }
+      ],
+      "reading_steps": [
+        {
+          "title": "Read andro",
+          "text": "Find the small a, elevated middle loop and short connected ending. Do not borrow a capital from the line above.",
+          "region": [
+            759,
+            103,
+            127,
+            79
+          ]
+        },
+        {
+          "title": "Read glasgw",
+          "text": "Follow the long surname strokes around its compact body to the w-like finish. Modern Glasgow expands the written glasgw.",
+          "region": [
+            879,
+            96,
+            168,
+            85
+          ]
+        },
+        {
+          "title": "Read the relationship in context",
+          "text": "The opening identifies the deceased testator. The wife and children come from the continuation; the locality remains provisional.",
+          "region": [
+            759,
+            96,
+            288,
+            86
+          ]
+        }
+      ],
+      "same_hand_comparisons": []
+    },
+    {
+      "id": "andrew-1598-elizat",
+      "title": "Elizat Stevinsoun",
+      "nav_label": "Elizat Stevinsoun",
+      "image": "/assets/research/testament-crops/andrew-1598-family-124.jpg",
+      "image_width": 1030,
+      "image_height": 390,
+      "region": [
+        344,
+        107,
+        475,
+        104
+      ],
+      "reading": "Elizat stevinsoun his spous",
+      "expansion": "Elizat Stevenson, his spouse",
+      "confidence": "High for the maintained name and spouse clause.",
+      "context": "The continuation identifies Andrew's spouse and repeats her name in the maternity clause.",
+      "review_status": "source-aligned",
+      "locator_note": "Use the selected word before the wider passage. Pixel regions retain full visible strokes. Crossings from neighbouring lines remain contextual; a rectangular focus is retained where further separation would guess.",
+      "conclusion": "Maternity is stated for Robert, not every daughter.",
+      "letters": [
+        {
+          "id": "andrew-1598-elizat-word-1",
+          "glyph": "Elizat",
+          "label": "Elizat: whole connected word",
+          "position": 1,
+          "region": [
+            344,
+            119,
+            124,
+            79
+          ],
+          "paths": [],
+          "observed": "On the second line, taller opening and finishing movements bracket the short name.",
+          "matches": "The next line repeats the same forename after the said; compare that full occurrence.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "A thin diagonal crosses from another line."
+        },
+        {
+          "id": "andrew-1598-elizat-word-2",
+          "glyph": "stevinsoun",
+          "label": "stevinsoun: whole connected word",
+          "position": 1,
+          "region": [
+            464,
+            107,
+            198,
+            104
+          ],
+          "paths": [],
+          "observed": "A high start leads through shallow joins to the -soun ending.",
+          "matches": "The next line repeats the same forename after the said; compare that full occurrence.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "Stevenson is an expansion, not extra letters."
+        },
+        {
+          "id": "andrew-1598-elizat-word-3",
+          "glyph": "spous",
+          "label": "spous: whole connected word",
+          "position": 1,
+          "region": [
+            697,
+            115,
+            122,
+            88
+          ],
+          "paths": [],
+          "observed": "After the possessive, locate the long opening and lower extension of spous.",
+          "matches": "The next line repeats the same forename after the said; compare that full occurrence.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "Marriage alone does not establish maternity."
+        }
+      ],
+      "words": [
+        {
+          "text": "Elizat",
+          "region": [
+            344,
+            119,
+            124,
+            79
+          ],
+          "focus_polygon": [
+            [
+              344,
+              119
+            ],
+            [
+              468,
+              119
+            ],
+            [
+              468,
+              198
+            ],
+            [
+              344,
+              198
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "andrew-1598-elizat-word-1",
+              "start": 0,
+              "end": 6
+            }
+          ]
+        },
+        {
+          "text": "stevinsoun",
+          "region": [
+            464,
+            107,
+            198,
+            104
+          ],
+          "focus_polygon": [
+            [
+              464,
+              107
+            ],
+            [
+              662,
+              107
+            ],
+            [
+              662,
+              211
+            ],
+            [
+              464,
+              211
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "andrew-1598-elizat-word-2",
+              "start": 0,
+              "end": 10
+            }
+          ]
+        },
+        {
+          "text": "spous",
+          "region": [
+            697,
+            115,
+            122,
+            88
+          ],
+          "focus_polygon": [
+            [
+              697,
+              115
+            ],
+            [
+              819,
+              115
+            ],
+            [
+              819,
+              203
+            ],
+            [
+              697,
+              203
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "andrew-1598-elizat-word-3",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      ],
+      "reading_steps": [
+        {
+          "title": "Read Elizat",
+          "text": "On the second line, taller opening and finishing movements bracket the short name. A thin diagonal crosses from another line.",
+          "region": [
+            344,
+            119,
+            124,
+            79
+          ]
+        },
+        {
+          "title": "Read stevinsoun",
+          "text": "A high start leads through shallow joins to the -soun ending. Stevenson is an expansion, not extra letters.",
+          "region": [
+            464,
+            107,
+            198,
+            104
+          ]
+        },
+        {
+          "title": "Read spous",
+          "text": "After the possessive, locate the long opening and lower extension of spous. Marriage alone does not establish maternity.",
+          "region": [
+            697,
+            115,
+            122,
+            88
+          ]
+        },
+        {
+          "title": "Read the relationship in context",
+          "text": "The continuation identifies Andrew's spouse and repeats her name in the maternity clause. Maternity is stated for Robert, not every daughter.",
+          "region": [
+            344,
+            107,
+            475,
+            104
+          ]
+        }
+      ],
+      "same_hand_comparisons": [
+        {
+          "image": "/assets/research/testament-crops/andrew-1598-family-124.jpg",
+          "image_width": 1030,
+          "image_height": 390,
+          "region": [
+            711,
+            171,
+            152,
+            79
+          ],
+          "reading": "Elizat repeated",
+          "explanation": "The next line repeats the same forename after the said; compare that full occurrence."
+        }
+      ]
+    },
+    {
+      "id": "andrew-1598-robart",
+      "title": "Robart and his mother",
+      "nav_label": "Robart and his mother",
+      "image": "/assets/research/testament-crops/andrew-1598-family-124.jpg",
+      "image_width": 1030,
+      "image_height": 390,
+      "region": [
+        214,
+        109,
+        801,
+        149
+      ],
+      "reading": "Robart ... begottin be him vpoun the said Elizat his wyff",
+      "expansion": "Robert, begotten by Andrew upon Elizat his wife",
+      "confidence": "High for the maintained relationship; crop continuation clipped.",
+      "context": "Robert is identified as Andrew and Elizat's son; the lower visible line supplies the maternity phrase.",
+      "review_status": "source-aligned",
+      "locator_note": "Use the selected word before the wider passage. Pixel regions retain full visible strokes. Crossings from neighbouring lines remain contextual; a rectangular focus is retained where further separation would guess.",
+      "conclusion": "The crop cuts the right-hand continuation after Robart. No missing surname or his sone is reconstructed.",
+      "letters": [
+        {
+          "id": "andrew-1598-robart-word-1",
+          "glyph": "Robart",
+          "label": "Robart: whole connected word",
+          "position": 1,
+          "region": [
+            825,
+            109,
+            190,
+            91
+          ],
+          "paths": [],
+          "observed": "At the second line's right, a broad loop starts the darker joined forename.",
+          "matches": "The repeated name connects the spouse and maternity clauses without creating another person.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "The following continuation runs beyond this image."
+        },
+        {
+          "id": "andrew-1598-robart-word-2",
+          "glyph": "begottin",
+          "label": "begottin: whole connected word",
+          "position": 1,
+          "region": [
+            214,
+            182,
+            160,
+            76
+          ],
+          "paths": [],
+          "observed": "Return left below: long opening and middle strokes distinguish begottin from the short be after it.",
+          "matches": "The repeated name connects the spouse and maternity clauses without creating another person.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "Keep the crowded word whole."
+        },
+        {
+          "id": "andrew-1598-robart-word-3",
+          "glyph": "Elizat",
+          "label": "Elizat: whole connected word",
+          "position": 1,
+          "region": [
+            711,
+            171,
+            152,
+            79
+          ],
+          "paths": [],
+          "observed": "After be him vpoun the said, read the repeated Elizat before his wyff.",
+          "matches": "The repeated name connects the spouse and maternity clauses without creating another person.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "This names Robert's mother expressly."
+        }
+      ],
+      "words": [
+        {
+          "text": "Robart",
+          "region": [
+            825,
+            109,
+            190,
+            91
+          ],
+          "focus_polygon": [
+            [
+              825,
+              109
+            ],
+            [
+              1015,
+              109
+            ],
+            [
+              1015,
+              200
+            ],
+            [
+              825,
+              200
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "andrew-1598-robart-word-1",
+              "start": 0,
+              "end": 6
+            }
+          ]
+        },
+        {
+          "text": "begottin",
+          "region": [
+            214,
+            182,
+            160,
+            76
+          ],
+          "focus_polygon": [
+            [
+              214,
+              182
+            ],
+            [
+              374,
+              182
+            ],
+            [
+              374,
+              258
+            ],
+            [
+              214,
+              258
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "andrew-1598-robart-word-2",
+              "start": 0,
+              "end": 8
+            }
+          ]
+        },
+        {
+          "text": "Elizat",
+          "region": [
+            711,
+            171,
+            152,
+            79
+          ],
+          "focus_polygon": [
+            [
+              711,
+              171
+            ],
+            [
+              863,
+              171
+            ],
+            [
+              863,
+              250
+            ],
+            [
+              711,
+              250
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "andrew-1598-robart-word-3",
+              "start": 0,
+              "end": 6
+            }
+          ]
+        }
+      ],
+      "reading_steps": [
+        {
+          "title": "Read Robart",
+          "text": "At the second line's right, a broad loop starts the darker joined forename. The following continuation runs beyond this image.",
+          "region": [
+            825,
+            109,
+            190,
+            91
+          ]
+        },
+        {
+          "title": "Read begottin",
+          "text": "Return left below: long opening and middle strokes distinguish begottin from the short be after it. Keep the crowded word whole.",
+          "region": [
+            214,
+            182,
+            160,
+            76
+          ]
+        },
+        {
+          "title": "Read Elizat",
+          "text": "After be him vpoun the said, read the repeated Elizat before his wyff. This names Robert's mother expressly.",
+          "region": [
+            711,
+            171,
+            152,
+            79
+          ]
+        },
+        {
+          "title": "Read the relationship in context",
+          "text": "Robert is identified as Andrew and Elizat's son; the lower visible line supplies the maternity phrase. The crop cuts the right-hand continuation after Robart. No missing surname or his sone is reconstructed.",
+          "region": [
+            214,
+            109,
+            801,
+            149
+          ]
+        }
+      ],
+      "same_hand_comparisons": [
+        {
+          "image": "/assets/research/testament-crops/andrew-1598-family-124.jpg",
+          "image_width": 1030,
+          "image_height": 390,
+          "region": [
+            344,
+            119,
+            124,
+            79
+          ],
+          "reading": "Elizat in spouse line",
+          "explanation": "The repeated name connects the spouse and maternity clauses without creating another person."
+        }
+      ]
+    },
+    {
+      "id": "andrew-1598-daughters",
+      "title": "Marione, Jonet and Isobell",
+      "nav_label": "Marione, Jonet and Isobell",
+      "image": "/assets/research/testament-crops/andrew-1598-distribution-124.jpg",
+      "image_width": 1030,
+      "image_height": 650,
+      "region": [
+        350,
+        392,
+        672,
+        90
+      ],
+      "reading": "Marione Jonet Isobell",
+      "expansion": "Marione, Jonet and Isobell",
+      "confidence": "High for maintained names; cancellation visible.",
+      "context": "The daughters' names follow a cancelled daughter-word; the pregnancy provision elsewhere is conditional.",
+      "review_status": "source-aligned",
+      "locator_note": "Use the selected word before the wider passage. Pixel regions retain full visible strokes. Crossings from neighbouring lines remain contextual; a rectangular focus is retained where further separation would guess.",
+      "conclusion": "Do not infer their mother, count the cancellation as another person, or turn possible pregnancy into a child known to be born.",
+      "letters": [
+        {
+          "id": "andrew-1598-daughters-word-1",
+          "glyph": "Marione",
+          "label": "Marione: whole connected word",
+          "position": 1,
+          "region": [
+            350,
+            399,
+            192,
+            73
+          ],
+          "paths": [],
+          "observed": "Find the broad M after the cancelled word and follow the shallow middle.",
+          "matches": "No identical second occurrence is established in this inspected passage; comparison with an isolated teaching alphabet is not proof.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "The cancellation is not part of this name."
+        },
+        {
+          "id": "andrew-1598-daughters-word-2",
+          "glyph": "Jonet",
+          "label": "Jonet: whole connected word",
+          "position": 1,
+          "region": [
+            540,
+            392,
+            217,
+            89
+          ],
+          "paths": [],
+          "observed": "The middle name has a longer entry and taller ending before the next gap.",
+          "matches": "No identical second occurrence is established in this inspected passage; comparison with an isolated teaching alphabet is not proof.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "A crossing diagonal is not another letter."
+        },
+        {
+          "id": "andrew-1598-daughters-word-3",
+          "glyph": "Isobell",
+          "label": "Isobell: whole connected word",
+          "position": 1,
+          "region": [
+            771,
+            395,
+            251,
+            87
+          ],
+          "paths": [],
+          "observed": "The final name has an opening loop and taller finishing strokes near the right.",
+          "matches": "No identical second occurrence is established in this inspected passage; comparison with an isolated teaching alphabet is not proof.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "The adjoining conjunction and lower line remain context."
+        }
+      ],
+      "words": [
+        {
+          "text": "Marione",
+          "region": [
+            350,
+            399,
+            192,
+            73
+          ],
+          "focus_polygon": [
+            [
+              350,
+              399
+            ],
+            [
+              542,
+              399
+            ],
+            [
+              542,
+              472
+            ],
+            [
+              350,
+              472
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "andrew-1598-daughters-word-1",
+              "start": 0,
+              "end": 7
+            }
+          ]
+        },
+        {
+          "text": "Jonet",
+          "region": [
+            540,
+            392,
+            217,
+            89
+          ],
+          "focus_polygon": [
+            [
+              540,
+              392
+            ],
+            [
+              757,
+              392
+            ],
+            [
+              757,
+              481
+            ],
+            [
+              540,
+              481
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "andrew-1598-daughters-word-2",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        },
+        {
+          "text": "Isobell",
+          "region": [
+            771,
+            395,
+            251,
+            87
+          ],
+          "focus_polygon": [
+            [
+              771,
+              395
+            ],
+            [
+              1022,
+              395
+            ],
+            [
+              1022,
+              482
+            ],
+            [
+              771,
+              482
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "andrew-1598-daughters-word-3",
+              "start": 0,
+              "end": 7
+            }
+          ]
+        }
+      ],
+      "reading_steps": [
+        {
+          "title": "Read Marione",
+          "text": "Find the broad M after the cancelled word and follow the shallow middle. The cancellation is not part of this name.",
+          "region": [
+            350,
+            399,
+            192,
+            73
+          ]
+        },
+        {
+          "title": "Read Jonet",
+          "text": "The middle name has a longer entry and taller ending before the next gap. A crossing diagonal is not another letter.",
+          "region": [
+            540,
+            392,
+            217,
+            89
+          ]
+        },
+        {
+          "title": "Read Isobell",
+          "text": "The final name has an opening loop and taller finishing strokes near the right. The adjoining conjunction and lower line remain context.",
+          "region": [
+            771,
+            395,
+            251,
+            87
+          ]
+        },
+        {
+          "title": "Read the relationship in context",
+          "text": "The daughters' names follow a cancelled daughter-word; the pregnancy provision elsewhere is conditional. Do not infer their mother, count the cancellation as another person, or turn possible pregnancy into a child known to be born.",
+          "region": [
+            350,
+            392,
+            672,
+            90
+          ]
+        }
+      ],
+      "same_hand_comparisons": []
+    }
+  ],
+  "method": "Visually inspected whole-word source-pixel studies. Original images are unchanged. Conservative focus envelopes retain ambiguous crossings; some remain rectangular because a smaller mask would assign uncertain ink. Whole connected words serve as colour groups where internal boundaries are unclear. The separate Joscelyn example is a different teaching hand, not a reconstruction or proof. No guessed SVG pen paths.",
+  "people_studies": {
+    "Andrew Glasgow": "andro-subject-name",
+    "Elizat Stevinsoun": "andrew-1598-elizat",
+    "Robart Glasgow": "andrew-1598-robart",
+    "Marione, Jonet and Isobell Glasgow": "andrew-1598-daughters"
+  },
+  "walkthrough_mark_updates": [
+    {
+      "step_id": "andrew-subject",
+      "mark_index": 0,
+      "region": [
+        759,
+        96,
+        288,
+        86
+      ]
+    }
+  ]
+}

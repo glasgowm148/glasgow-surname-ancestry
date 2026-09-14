@@ -20,3 +20,16 @@ father, and a different father is currently attached uncertainly.
 
 Retain as a weak household comparison only. Do not promote on descendant names
 without an original baptism, testament or same-parish household record.
+
+## Source findings
+
+### Supplied OPR banns and marriages — 10 September 2026
+
+| Source locator | Indexed parties | Assessment |
+| --- | --- | --- |
+| [Scotland’s People](https://www.scotlandspeople.gov.uk/), 1665-06-16, Edinburgh, OPR 685 / 1/440 / 78 | ALEXANDER GLASGOW; ISSOBELL ANDERSON/FR991 (FR991) | Alexander-3118 is possible only by chronology. |
+| [Scotland’s People](https://www.scotlandspeople.gov.uk/), 1667-10-18, Kirknewton and East Calder, OPR 690/10 / 54 | ALEXANDER GLASGOW; MARGARET SMITH/FR37 (FR37) | Alexander Glasgow/Margaret Smith, 1667 is already represented by the live profile's FamilySearch marriage citation. |
+
+Source: Old Parish Registers, banns and marriages; exact surname Glasgow through 1700, 55 supplied results. Original images not inspected for this batch; combined index dates do not by themselves establish ceremony dates.
+
+This batch adds supporting evidence or a qualified comparison only; it raises no additional WikiTree amendment for this profile.

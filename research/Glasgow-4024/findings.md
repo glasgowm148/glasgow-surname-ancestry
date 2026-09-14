@@ -17,7 +17,6 @@ Reciprocal exclusion notes were saved on Glasgow-3444, Glasgow-3986, and Glasgow
 
 WikiTree also recorded rejected matches with Glasgow-2439, Glasgow-3095, and Glasgow-1483 during creation.
 
-## Source
-
+## Source findings
 - [Derryloran Parish, St Luran's burial register transcript](https://www.cotyroneireland.com/churchrecord/saintluran1830-1849.html), James Glasgow, Cookstown, buried 13 March 1831, age 40.
 - [PRONI Names, Pre-1858 Wills and Admons](https://apps.proni.gov.uk/ProniNames_IE/SearchPage.aspx), James Glasgow, Cookstown, County Tyrone, 1831; item-level transcription requires re-verification.

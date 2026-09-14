@@ -1,0 +1,722 @@
+{
+  "title": "Wills & Testaments: assisted transcription ledger",
+  "overview_url": "https://www.wikitree.com/wiki/Space:Glasgow_Wills_%26_Testaments",
+  "method": "These are LLM-assisted working readings of supplied manuscript images, checked against the saved record boundaries and research notes. They are not diplomatic editions. Square brackets preserve uncertain letters or supplied readings; an ellipsis marks text not yet resolved.",
+  "attempts": [
+    {
+      "id": "john-1577",
+      "title": "John Glasgow, Hirmenschelis",
+      "date": "4 May 1577 (court/index date; death year unresolved)",
+      "updated": "8 September 2026",
+      "status": "Full saved working transcription",
+      "record": "NRS Edinburgh Commissary Court CC8/8/5, images 276–277",
+      "source": "research/free-space-pages/pages/001-1577-glasgw-johne.wiki",
+      "start": "== Working transcription ==",
+      "end": "== Genealogical assessment ==",
+      "summary": "Names widow Margaret [Cochrane?] and lawful children Katherine and [Androw?/Andrew]. Margaret's maternity is not stated.",
+      "profiles": [
+        [
+          "Glasgow-3181",
+          "John Glasgow"
+        ],
+        [
+          "Glasgow-3590",
+          "Katherine Glasgow"
+        ]
+      ],
+      "source_files": [
+        "testaments/Edinburgh/1577_John/1577_John.pdf"
+      ],
+      "index_confirmation": {
+        "indexed_name": "Johne Glasgw",
+        "date": "1577-05-04",
+        "description": "in Hirmenschelis",
+        "record_type": "TD&Inventory",
+        "court": "Edinburgh Commissary Court",
+        "reference": "CC8/8/5",
+        "status": "confirmed by supplied archival index",
+        "supplied_on": "2026-09-10"
+      }
+    },
+    {
+      "id": "margaret-1580",
+      "title": "Margaret Glasgow, Croftmalloch",
+      "date": "Died December 1578; confirmed 8 November 1580",
+      "updated": "8 September 2026",
+      "status": "Full saved working reading",
+      "record": "NRS Edinburgh Commissary Court CC8/8/8, images 355–356",
+      "source": "research/free-space-pages/pages/028-glasgow-wills-testaments.wiki",
+      "start": "=== Margaret Glasgow of Croftmalloch: detailed reading ===",
+      "end": "=== Andrew Glasgow of [Corsoun?]: detailed reading ===",
+      "summary": "Cuthbert Kaddell/Keddell is expressly Margaret's son. John Easton was her sometime husband, not proved as Cuthbert's father.",
+      "profiles": [
+        [
+          "Glasgow-3613",
+          "Margaret Glasgow"
+        ],
+        [
+          "Edstoun-3",
+          "John Easton"
+        ],
+        [
+          "Edstoun-4",
+          "Cuthbert Kaddell/Keddell"
+        ]
+      ],
+      "index_confirmation": {
+        "indexed_name": "Margaret Glasgw",
+        "date": "1580-11-08",
+        "description": "sometime spouse to John Eastoun in Croftmalloch",
+        "record_type": "TD&Inventory",
+        "court": "Edinburgh Commissary Court",
+        "reference": "CC8/8/8",
+        "status": "confirmed by supplied archival index",
+        "supplied_on": "2026-09-10"
+      }
+    },
+    {
+      "id": "andrew-1598",
+      "title": "Andrew Glasgow, [Corsoun?], Calder Cleir",
+      "date": "Will 6 February; death 7 February 1597/8; confirmed 10 July 1598",
+      "updated": "8 September 2026",
+      "status": "Full saved working reading",
+      "record": "NRS Edinburgh Commissary Court CC8/8/32, images 123–124",
+      "source": "research/free-space-pages/pages/028-glasgow-wills-testaments.wiki",
+      "start": "=== Andrew Glasgow of [Corsoun?]: detailed reading ===",
+      "end": "=== Katherine Glasgow and the minor Weir executors ===",
+      "summary": "Elizat Stevinsoun is Andrew's wife; Robert is expressly their son. Marion, Janet and Isobel are named daughters. The unborn-child provision is conditional.",
+      "profiles": [
+        [
+          "Glasgow-3163",
+          "Andrew Glasgow"
+        ],
+        [
+          "Glasgow-4006",
+          "Andrew Glasgow (superseded error profile)"
+        ],
+        [
+          "Glasgow-4007",
+          "William Glasgow (superseded error profile)"
+        ]
+      ],
+      "source_files": [
+        "testaments/Edinburgh/1598_Andro/1598_Andrew.pdf"
+      ],
+      "index_confirmation": {
+        "indexed_name": "Andro Glasgw",
+        "date": "1598-07-10",
+        "description": "in Corstoun, parish of Caldercleir and sheriffdom of Edinburgh",
+        "record_type": "TT&Inventory",
+        "court": "Edinburgh Commissary Court",
+        "reference": "CC8/8/32",
+        "status": "confirmed by supplied archival index",
+        "supplied_on": "2026-09-10"
+      }
+    },
+    {
+      "id": "ninian-1613",
+      "title": "Ninian Glasgow, fisher and burgess",
+      "date": "1613",
+      "updated": "6 September 2026",
+      "status": "Review notes only; full transcription not saved",
+      "record": "NRS Glasgow Commissary Court CC9/7/9, images 142–145",
+      "source": "research/free-space-pages/glasgow-testaments-integration-2026-09-06.md",
+      "summary": "The reviewed record names Jonet Hutchesoun as spouse, Robert as son, John as brother and Marion as sister. Damaged wording does not safely prove William as a son.",
+      "profiles": [
+        [
+          "Glasgow-3188",
+          "Ninian Glasgow"
+        ],
+        [
+          "Glasgow-1027",
+          "Robert Glasgow"
+        ],
+        [
+          "Glasgow-3062",
+          "Marion Glasgow"
+        ],
+        [
+          "Glasgow-3075",
+          "William Glasgow"
+        ]
+      ],
+      "index_confirmation": {
+        "indexed_name": "Niniane Glasgw",
+        "date": "1613-05-08",
+        "description": "fischer burges of Glasgw",
+        "record_type": "TT&Inventory",
+        "court": "Glasgow Commissary Court",
+        "reference": "CC9/7/9",
+        "status": "confirmed by supplied archival index",
+        "supplied_on": "2026-09-10"
+      }
+    },
+    {
+      "id": "geillis-1603",
+      "source_files": [
+        "testaments/Glasgow/1603_GIllis/1603_Gillis.pdf"
+      ],
+      "original_preview": {
+        "image": "/assets/research/testament-crops/gellis-1603-original.jpg",
+        "alt": "First supplied register image for Geillis Glasgow, 1603",
+        "page_label": "CC9/7/3, image 113; supplied PDF contains two pages, images 113-114",
+        "width": 1200,
+        "height": 1698
+      },
+      "title": "Geillis Glasgow, Chaipliehill",
+      "date": "Died January 1603; confirmed 11 May 1603",
+      "updated": "6 September 2026",
+      "status": "Review notes only; full transcription not saved",
+      "record": "NRS Glasgow Commissary Court CC9/7/3, images 113–114",
+      "source": "research/free-space-pages/glasgow-testaments-integration-2026-09-06.md",
+      "summary": "Geillis was Thomas Wilson's wife. James, Isobel and Bessie Wilson occur in the executor passage, but the relationship wording remains unresolved.",
+      "profiles": [
+        [
+          "Glasgow-3179",
+          "Geillis Glasgow"
+        ],
+        [
+          "Wilson-142005",
+          "James Wilson"
+        ]
+      ],
+      "index_confirmation": {
+        "indexed_name": "Geillis Glasgw",
+        "date": "1603-05-11",
+        "description": "spouse to Thomas Wilson in Chaipliehill, parish of Ardrossane",
+        "record_type": "TD&Inventory",
+        "court": "Glasgow Commissary Court",
+        "reference": "CC9/7/3",
+        "status": "confirmed by supplied archival index",
+        "supplied_on": "2026-09-10"
+      }
+    },
+    {
+      "id": "katherine-1605",
+      "title": "Katherine Glasgow, wife of Thomas Weir",
+      "date": "Died January 1603; confirmation in May 1605",
+      "updated": "8 September 2026",
+      "status": "Full saved working transcription and modern reading",
+      "record": "NRS Glasgow Commissary Court CC9/7/4, images 6–7",
+      "source": "research/free-space-pages/pages/041-kathereine-glasgow-will-and-testament-translation.wiki",
+      "start": "== Working transcription ==",
+      "end": "== Other named people ==",
+      "summary": "Thomas Weir represents William, James and probably Jonet Weir, collectively described as minor executors. They are probable, not explicitly stated, children. The manuscript day appears [26?] May; published calendars give 9 May.",
+      "profiles": [
+        [
+          "Glasgow-1495",
+          "Katherine Glasgow"
+        ],
+        [
+          "Weir-4172",
+          "Thomas Weir"
+        ]
+      ],
+      "index_confirmation": {
+        "indexed_name": "Kathereine Glasgow",
+        "date": "1605-05-09",
+        "description": "spouse to Thomas Weir, parish of Steinstone",
+        "record_type": "TD&Inventory",
+        "court": "Glasgow Commissary Court",
+        "reference": "CC9/7/4",
+        "status": "confirmed by supplied archival index",
+        "supplied_on": "2026-09-10"
+      }
+    },
+    {
+      "id": "saltcoats-1637",
+      "title": "John Glasgow, sailor in Saltcoats",
+      "date": "Died December 1636; court proceeding 1637",
+      "updated": "8 September 2026",
+      "status": "Full saved working transcription",
+      "record": "NRS Glasgow Commissary Court CC9/7/27, register pages 478–480",
+      "source": "research/free-space-pages/pages/036-john-glasgw-s-testament-testamentar-1637.wiki",
+      "start": "== Working transcription ==",
+      "end": "== Identity and research cautions ==",
+      "summary": "The higher-resolution correction names widow Isobell Gray and lawful children Katherine and Agnes. It does not name Mary/Marie Glasgow; the April court day is tentatively [21?].",
+      "profiles": [
+        [
+          "Glasgow-1030",
+          "John Glasgow (identity HOLD)"
+        ],
+        [
+          "Glasgow-3539",
+          "Mary Glasgow (excluded by this reading)"
+        ]
+      ],
+      "index_confirmation": {
+        "indexed_name": "Johnn Glasgw",
+        "date": "1637-04-11",
+        "description": "sailor in Saltcoats, parish of Ardrossan",
+        "record_type": "TD",
+        "court": "Glasgow Commissary Court",
+        "reference": "CC9/7/27",
+        "status": "confirmed by supplied archival index",
+        "supplied_on": "2026-09-10"
+      }
+    },
+    {
+      "id": "quothquan-1685",
+      "source_files": [
+        "testaments/Glasgow/Lanark/1685_John_Lanark.pdf"
+      ],
+      "original_preview": {
+        "image": "/assets/research/testament-crops/john-lanark-1685-original.jpg",
+        "alt": "First supplied register image for John Glasgow, Quothquan, 1685",
+        "page_label": "CC14/5/12, image 67; supplied PDF contains two pages, images 67-68",
+        "width": 1200,
+        "height": 1698
+      },
+      "title": "John Glasgow, Quothquan",
+      "date": "Died February 1685; proceeding 25 March 1685",
+      "updated": "6 September 2026",
+      "status": "Review notes only; full transcription not saved",
+      "record": "NRS Lanark Commissary Court CC14/5/12, images 67–68",
+      "source": "research/Unknown-717333/Unknown-717333.md",
+      "summary": "The record proves the widow relationship to Jonet [Kinnie?]. Her surname is provisional; the testament names no child or parent.",
+      "profiles": [
+        [
+          "Glasgow-1086",
+          "John Glasgow"
+        ],
+        [
+          "Unknown-717333",
+          "Jonet Kinnie?"
+        ]
+      ],
+      "index_confirmation": {
+        "indexed_name": "John Glasgow",
+        "date": "1685-03-25",
+        "description": "in Quodquan, parish of Libertoun",
+        "record_type": "TD",
+        "court": "Lanark Commissary Court",
+        "reference": "CC14/5/12",
+        "status": "confirmed by supplied archival index",
+        "supplied_on": "2026-09-10"
+      }
+    },
+    {
+      "id": "james-lindsaylands-1680",
+      "date": "1680-11-10",
+      "title": "James Glasgow of the Back of Lindsaylands",
+      "index_description": "weaver in the Back of Lindsaylands, parish of Biggar",
+      "court": "Lanark Commissary Court",
+      "reference": "CC14/5/10",
+      "record_type": "TD",
+      "record": "Lanark Commissary Court, CC14/5/10",
+      "summary": "Index entry for James Glasgow, weaver in the Back of Lindsaylands, parish of Biggar.",
+      "evidence_basis": "index",
+      "source_files": [],
+      "profiles": [],
+      "index_source": "User-supplied ScotlandsPeople wills-index results, exact surname Glasgow, years to 1800",
+      "source_supplied_on": "2026-09-10",
+      "index_confirmation": {
+        "indexed_name": "James Glasgow",
+        "date": "1680-11-10",
+        "description": "weaver in the Back of Lindsaylands, parish of Biggar",
+        "record_type": "TD",
+        "court": "Lanark Commissary Court",
+        "reference": "CC14/5/10",
+        "status": "confirmed by supplied archival index",
+        "supplied_on": "2026-09-10"
+      }
+    },
+    {
+      "id": "john-boog-1685",
+      "date": "1685-11-06",
+      "title": "John Glasgow in Boog of Steivinstoun",
+      "index_description": "in Boog of Steivinstoun",
+      "court": "Glasgow Commissary Court",
+      "reference": "CC9/7/47",
+      "record_type": "Testament Dative and Inventory",
+      "record": "Glasgow Commissary Court, CC9/7/47",
+      "summary": "Index entry for John Glasgow in Boog of Steivinstoun; distinct from the Quothquan 1685 record.",
+      "evidence_basis": "index",
+      "source_files": [],
+      "profiles": [],
+      "index_source": "User-supplied ScotlandsPeople wills-index results, exact surname Glasgow, years to 1800",
+      "source_supplied_on": "2026-09-10",
+      "index_confirmation": {
+        "indexed_name": "John Glasgow",
+        "date": "1685-11-06",
+        "description": "in Boog of Steivinstoun",
+        "record_type": "Testament Dative and Inventory",
+        "court": "Glasgow Commissary Court",
+        "reference": "CC9/7/47",
+        "status": "confirmed by supplied archival index",
+        "supplied_on": "2026-09-10"
+      }
+    },
+    {
+      "id": "thomas-edinburgh-1691",
+      "date": "1691-01-27",
+      "title": "Thomas Glasgow, writer in Edinburgh",
+      "index_description": "writer in Edinburgh",
+      "court": "Edinburgh Commissary Court",
+      "reference": "CC8/8/79",
+      "record_type": "Testament Testamentar and Inventory",
+      "record": "Edinburgh Commissary Court, CC8/8/79",
+      "summary": "Index entry for Thomas Glasgow, writer in Edinburgh.",
+      "evidence_basis": "index",
+      "source_files": [],
+      "profiles": [],
+      "index_source": "User-supplied ScotlandsPeople wills-index results, exact surname Glasgow, years to 1800",
+      "source_supplied_on": "2026-09-10",
+      "index_confirmation": {
+        "indexed_name": "Thomas Glasgow",
+        "date": "1691-01-27",
+        "description": "writer in Edinburgh",
+        "record_type": "Testament Testamentar and Inventory",
+        "court": "Edinburgh Commissary Court",
+        "reference": "CC8/8/79",
+        "status": "confirmed by supplied archival index",
+        "supplied_on": "2026-09-10"
+      }
+    },
+    {
+      "id": "james-edinburgh-1733",
+      "date": "1733-02-03",
+      "title": "James Glasgow, elder and younger",
+      "index_description": "elder, weaver burgess of Edinburgh, and James G., younger, surgeon on board H.M. sloop Surf, son of James G. elder and the deceased Isobell Duff, his spouse. Cautioner, Harie Rymer, cordiner in Caldtoun, for executrix Marion Hall and her husband William Bathgate. See also Duff, Isobell",
+      "court": "Edinburgh Commissary Court",
+      "reference": "CC8/8/95",
+      "record_type": "Testament Dative and Inventory; [last five lines filmed after another person's Eik]",
+      "record": "Edinburgh Commissary Court, CC8/8/95",
+      "summary": "Index entry naming James Glasgow, elder, his deceased wife Isobell Duff, and their son James Glasgow, younger.",
+      "evidence_basis": "index",
+      "source_files": [],
+      "profiles": [],
+      "index_source": "User-supplied ScotlandsPeople wills-index results, exact surname Glasgow, years to 1800",
+      "source_supplied_on": "2026-09-10",
+      "index_confirmation": {
+        "indexed_name": "James Glasgow, elder and younger",
+        "date": "1733-02-03",
+        "description": "elder, weaver burgess of Edinburgh, and James G., younger, surgeon on board H.M. sloop Surf, son of James G. elder and the deceased Isobell Duff, his spouse. Cautioner, Harie Rymer, cordiner in Caldtoun, for executrix Marion Hall and her husband William Bathgate. See also Duff, Isobell",
+        "record_type": "Testament Dative and Inventory; [last five lines filmed after another person's Eik]",
+        "court": "Edinburgh Commissary Court",
+        "reference": "CC8/8/95",
+        "status": "confirmed by supplied archival index",
+        "supplied_on": "2026-09-10"
+      }
+    },
+    {
+      "id": "hugh-1751",
+      "date": "1751-03-12",
+      "supplementary_date": "1752-08-11",
+      "title": "Hugh Glasgow, sailor",
+      "index_description": "sometime sailor in Irvine, thereafter in London, died in Jamaica, nephew to John G., merchant in Byres of Kilwinning",
+      "court": "Edinburgh Commissary Court",
+      "reference": "CC8/8/113",
+      "record_type": "Testament Dative and Inventory; includes Eik dated 11/08/1752",
+      "record": "Edinburgh Commissary Court, CC8/8/113",
+      "summary": "Index entry for Hugh Glasgow, sailor, naming his uncle John Glasgow of Byres of Kilwinning.",
+      "evidence_basis": "index",
+      "source_files": [],
+      "profiles": [],
+      "index_source": "User-supplied ScotlandsPeople wills-index results, exact surname Glasgow, years to 1800",
+      "source_supplied_on": "2026-09-10",
+      "index_confirmation": {
+        "indexed_name": "Hugh Glasgow",
+        "date": "1751-03-12",
+        "description": "sometime sailor in Irvine, thereafter in London, died in Jamaica, nephew to John G., merchant in Byres of Kilwinning",
+        "record_type": "Testament Dative and Inventory; includes Eik dated 11/08/1752",
+        "court": "Edinburgh Commissary Court",
+        "reference": "CC8/8/113",
+        "status": "confirmed by supplied archival index",
+        "supplied_on": "2026-09-10"
+      }
+    },
+    {
+      "id": "margaret-buchanan-1768",
+      "date": "1768-06-27",
+      "title": "Margaret Glasgow, alias Buchanan",
+      "index_description": "alias Buchanan, wife of George Glasgow of Nethermains",
+      "court": "Glasgow Commissary Court",
+      "reference": "CC9/7/66",
+      "record_type": "Testament Testamentar and Inventory",
+      "record": "Glasgow Commissary Court, CC9/7/66",
+      "summary": "Index entry for Margaret Glasgow, alias Buchanan, wife of George Glasgow of Nethermains.",
+      "evidence_basis": "index",
+      "source_files": [],
+      "profiles": [],
+      "index_source": "User-supplied ScotlandsPeople wills-index results, exact surname Glasgow, years to 1800",
+      "source_supplied_on": "2026-09-10",
+      "index_confirmation": {
+        "indexed_name": "Margaret Glasgow",
+        "date": "1768-06-27",
+        "description": "alias Buchanan, wife of George Glasgow of Nethermains",
+        "record_type": "Testament Testamentar and Inventory",
+        "court": "Glasgow Commissary Court",
+        "reference": "CC9/7/66",
+        "status": "confirmed by supplied archival index",
+        "supplied_on": "2026-09-10"
+      }
+    },
+    {
+      "id": "janet-moody-1787",
+      "date": "1787-10-29",
+      "title": "Janet Glasgow, widow of Hugh Moody",
+      "index_description": "relict of Hugh Moody, portioner in Corsehill of Kilwinning",
+      "court": "Glasgow Commissary Court",
+      "reference": "CC9/7/73",
+      "record_type": "Testament Testamentar and Inventory",
+      "record": "Glasgow Commissary Court, CC9/7/73",
+      "summary": "Index entry for Janet Glasgow, relict of Hugh Moody, portioner in Corsehill of Kilwinning.",
+      "evidence_basis": "index",
+      "source_files": [],
+      "profiles": [],
+      "index_source": "User-supplied ScotlandsPeople wills-index results, exact surname Glasgow, years to 1800",
+      "source_supplied_on": "2026-09-10",
+      "index_confirmation": {
+        "indexed_name": "Janet Glasgow",
+        "date": "1787-10-29",
+        "description": "relict of Hugh Moody, portioner in Corsehill of Kilwinning",
+        "record_type": "Testament Testamentar and Inventory",
+        "court": "Glasgow Commissary Court",
+        "reference": "CC9/7/73",
+        "status": "confirmed by supplied archival index",
+        "supplied_on": "2026-09-10"
+      }
+    },
+    {
+      "id": "agnes-logan-1628",
+      "date": "1628-03-04",
+      "title": "Agnes Glasgw, spouse to Johnne Logane",
+      "index_description": "spous to Johnne Logane, trumpmaker in Stevinstoune, parish of Stevinstoune",
+      "court": "Glasgow Commissary Court",
+      "reference": "CC9/7/22",
+      "record_type": "Testament Dative and Inventory",
+      "record": "Glasgow Commissary Court, CC9/7/22",
+      "summary": "Index entry for Agnes Glasgw, spouse to Johnne Logane, trumpmaker in Stevinstoune.",
+      "evidence_basis": "index",
+      "source_files": [],
+      "profiles": [],
+      "index_source": "User-supplied ScotlandsPeople wills-index results, Glasgow/Glasgw supplied excerpt, 24 results to 1800",
+      "source_supplied_on": "2026-09-10",
+      "index_confirmation": {
+        "indexed_name": "Agnes Glasgw",
+        "date": "1628-03-04",
+        "description": "spous to Johnne Logane, trumpmaker in Stevinstoune, parish of Stevinstoune",
+        "record_type": "Testament Dative and Inventory",
+        "court": "Glasgow Commissary Court",
+        "reference": "CC9/7/22",
+        "status": "confirmed by supplied archival index",
+        "supplied_on": "2026-09-10"
+      }
+    },
+    {
+      "id": "jonet-logan-1628",
+      "date": "1628-09-02",
+      "title": "Jonet Glasgw, spouse to George Logane",
+      "index_description": "spous to George Logane in Steinstoun, parish of Steinstoun",
+      "court": "Glasgow Commissary Court",
+      "reference": "CC9/7/22",
+      "record_type": "Testament Dative and Inventory",
+      "record": "Glasgow Commissary Court, CC9/7/22",
+      "summary": "Index entry for Jonet Glasgw, spouse to George Logane in Steinstoun.",
+      "evidence_basis": "index",
+      "source_files": [],
+      "profiles": [],
+      "index_source": "User-supplied ScotlandsPeople wills-index results, Glasgow/Glasgw supplied excerpt, 24 results to 1800",
+      "source_supplied_on": "2026-09-10",
+      "index_confirmation": {
+        "indexed_name": "Jonet Glasgw",
+        "date": "1628-09-02",
+        "description": "spous to George Logane in Steinstoun, parish of Steinstoun",
+        "record_type": "Testament Dative and Inventory",
+        "court": "Glasgow Commissary Court",
+        "reference": "CC9/7/22",
+        "status": "confirmed by supplied archival index",
+        "supplied_on": "2026-09-10"
+      }
+    },
+    {
+      "id": "margaret-kilwinning-1636",
+      "date": "1636-11-08",
+      "title": "Margaret Glasgw, Byres of Kilwinning",
+      "index_description": "in Byres of Kilwinning",
+      "court": "Glasgow Commissary Court",
+      "reference": "CC9/7/27",
+      "record_type": "TD",
+      "record": "Glasgow Commissary Court, CC9/7/27",
+      "summary": "Index entry for Margaret Glasgw in Byres of Kilwinning.",
+      "evidence_basis": "index",
+      "source_files": [],
+      "profiles": [],
+      "index_source": "User-supplied ScotlandsPeople wills-index results, Glasgow/Glasgw supplied excerpt, 24 results to 1800",
+      "source_supplied_on": "2026-09-10",
+      "index_confirmation": {
+        "indexed_name": "Margaret Glasgw",
+        "date": "1636-11-08",
+        "description": "in Byres of Kilwinning",
+        "record_type": "TD",
+        "court": "Glasgow Commissary Court",
+        "reference": "CC9/7/27",
+        "status": "confirmed by supplied archival index",
+        "supplied_on": "2026-09-10"
+      }
+    },
+    {
+      "id": "john-rashlie-1643",
+      "date": "1643-04-17",
+      "title": "Johnne Glasgw, Rashlie",
+      "index_description": "in Rashlie, parish of Kilbride",
+      "court": "Glasgow Commissary Court",
+      "reference": "CC9/7/28",
+      "record_type": "TT",
+      "record": "Glasgow Commissary Court, CC9/7/28",
+      "summary": "Index entry for Johnne Glasgw in Rashlie, parish of Kilbride.",
+      "evidence_basis": "index",
+      "source_files": [],
+      "profiles": [],
+      "index_source": "User-supplied ScotlandsPeople wills-index results, Glasgow/Glasgw supplied excerpt, 24 results to 1800",
+      "source_supplied_on": "2026-09-10",
+      "index_confirmation": {
+        "indexed_name": "Johnne Glasgw",
+        "date": "1643-04-17",
+        "description": "in Rashlie, parish of Kilbride",
+        "record_type": "TT",
+        "court": "Glasgow Commissary Court",
+        "reference": "CC9/7/28",
+        "status": "confirmed by supplied archival index",
+        "supplied_on": "2026-09-10"
+      }
+    },
+    {
+      "id": "william-1646",
+      "date": "1646-07-22",
+      "title": "William Glasgow, mealmaker in Leith",
+      "index_description": "mealmaker in Leith",
+      "court": "Edinburgh Commissary Court",
+      "reference": "CC8/8/62",
+      "record_type": "TD&Inventory",
+      "record": "Edinburgh Commissary Court, CC8/8/62",
+      "summary": "Reviewed manuscript case for William Glasgow, mealmaker in Leith.",
+      "source_files": [
+        "testaments/Edinburgh/William_1646.pdf"
+      ],
+      "profiles": [],
+      "index_source": "User-supplied ScotlandsPeople wills-index results, exact surname Glasgow, years to 1800",
+      "source_supplied_on": "2026-09-10",
+      "index_confirmation": {
+        "indexed_name": "William Glasgow",
+        "date": "1646-07-22",
+        "description": "mealmaker in Leith",
+        "record_type": "TD&Inventory",
+        "court": "Edinburgh Commissary Court",
+        "reference": "CC8/8/62",
+        "status": "confirmed by supplied archival index",
+        "supplied_on": "2026-09-10"
+      }
+    },
+    {
+      "id": "john-lanark-1650",
+      "date": "1650-05-27",
+      "title": "John Glasgow, Quodquen",
+      "index_description": "in Quodquen",
+      "court": "Lanark Commissary Court",
+      "reference": "CC14/5/5",
+      "record_type": "",
+      "record": "Lanark Commissary Court, CC14/5/5",
+      "summary": "Reviewed manuscript case for John Glasgow, Quodquen.",
+      "source_files": [
+        "testaments/Glasgow/Lanark/1650_John/1650_Glasgow.pdf"
+      ],
+      "profiles": [],
+      "index_source": "User-supplied ScotlandsPeople wills-index results, exact surname Glasgow, years to 1800",
+      "source_supplied_on": "2026-09-10",
+      "index_confirmation": {
+        "indexed_name": "John Glasgow",
+        "date": "1650-05-27",
+        "description": "in Quodquen",
+        "record_type": "",
+        "court": "Lanark Commissary Court",
+        "reference": "CC14/5/5",
+        "status": "confirmed by supplied archival index",
+        "supplied_on": "2026-09-10"
+      }
+    },
+    {
+      "id": "john-lanark-1662",
+      "date": "1662-01-13",
+      "title": "John Glasgow, Quodquen",
+      "index_description": "in Quodquen",
+      "court": "Lanark Commissary Court",
+      "reference": "CC14/5/6",
+      "record_type": "TD&Inventory",
+      "record": "Lanark Commissary Court, CC14/5/6",
+      "summary": "Reviewed manuscript case for John Glasgow, Quodquen.",
+      "source_files": [
+        "testaments/ScotlandsPeople_CC001400005-00006-00138-.jpg",
+        "testaments/ScotlandsPeople_CC001400005-00006-00139.jpg"
+      ],
+      "profiles": [],
+      "index_source": "User-supplied ScotlandsPeople wills-index results, exact surname Glasgow, years to 1800",
+      "source_supplied_on": "2026-09-10",
+      "index_confirmation": {
+        "indexed_name": "John Glasgow",
+        "date": "1662-01-13",
+        "description": "in Quodquen",
+        "record_type": "TD&Inventory",
+        "court": "Lanark Commissary Court",
+        "reference": "CC14/5/6",
+        "status": "confirmed by supplied archival index",
+        "supplied_on": "2026-09-10"
+      }
+    },
+    {
+      "id": "archibald-1662",
+      "date": "1662-05-24",
+      "title": "Archibald Glasgow, maltman in Leith",
+      "index_description": "maltman, indweller in Leith",
+      "court": "Edinburgh Commissary Court",
+      "reference": "CC8/8/70",
+      "record_type": "TT&Inventory",
+      "record": "Edinburgh Commissary Court, CC8/8/70",
+      "summary": "Reviewed manuscript case for Archibald Glasgow, maltman in Leith.",
+      "source_files": [
+        "testaments/Edinburgh/1662_Archibald.pdf"
+      ],
+      "profiles": [],
+      "index_source": "User-supplied ScotlandsPeople wills-index results, exact surname Glasgow, years to 1800",
+      "source_supplied_on": "2026-09-10",
+      "index_confirmation": {
+        "indexed_name": "Archibald Glasgow",
+        "date": "1662-05-24",
+        "description": "maltman, indweller in Leith",
+        "record_type": "TT&Inventory",
+        "court": "Edinburgh Commissary Court",
+        "reference": "CC8/8/70",
+        "status": "confirmed by supplied archival index",
+        "supplied_on": "2026-09-10"
+      }
+    },
+    {
+      "id": "william-1673",
+      "date": "1673-04-09",
+      "title": "William Glasgow, Quodquen",
+      "index_description": "in Quodquen",
+      "court": "Lanark Commissary Court",
+      "reference": "CC14/5/9",
+      "record_type": "TD",
+      "record": "Lanark Commissary Court, CC14/5/9",
+      "summary": "Reviewed manuscript case for William Glasgow, Quodquen.",
+      "source_files": [
+        "testaments/Edinburgh/1673_William.pdf"
+      ],
+      "profiles": [],
+      "index_source": "User-supplied ScotlandsPeople wills-index results, exact surname Glasgow, years to 1800",
+      "source_supplied_on": "2026-09-10",
+      "index_confirmation": {
+        "indexed_name": "William Glasgow",
+        "date": "1673-04-09",
+        "description": "in Quodquen",
+        "record_type": "TD",
+        "court": "Lanark Commissary Court",
+        "reference": "CC14/5/9",
+        "status": "confirmed by supplied archival index",
+        "supplied_on": "2026-09-10"
+      }
+    }
+  ]
+}

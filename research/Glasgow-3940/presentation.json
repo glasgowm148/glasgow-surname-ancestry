@@ -1,0 +1,42 @@
+{
+  "resolution_state": "resolved",
+  "assessment_date": "2026-09-12",
+  "opening": "This is the unnamed child recorded in Rasharkin Presbyterian baptism entry 106, in the 1838 sequence, with parents Alex and Molly McAughern at Gortereagh. The maintained family reconstruction identifies them as Alexander Glasgow and Mary/Molly McCaughan. Both parent–child relationships are documented; the transcription supplies neither a forename nor exact birth and baptism dates. Death before 1841 remains an inference from the later census, not a located death record.",
+  "evidence_questions": [
+    {
+      "id": "identity",
+      "title": "What does the unnamed baptism establish?",
+      "answer": "Entry 106 documents a child and names both parents. The missing forename does not make the recorded relationship unassessed.",
+      "records": [
+        "baptism-unnamed-1838"
+      ],
+      "reasoning": "Alex and Molly McAughern at Gortereagh continue the couple recorded with James in 1837; the later baptism at Lisnagaver and the census support the maintained family identification.",
+      "limitation": "The published transcription leaves the child's forename and precise dates blank. No sex or forename is inferred here.",
+      "related_question": {
+        "href": "/people/glasgow-951.html#question-family",
+        "label": "Compare the family's baptism entries"
+      }
+    },
+    {
+      "id": "death-boundary",
+      "title": "Why is an early death inferred?",
+      "answer": "The child is absent from the 1851 household and its reported absent members and deaths since 1841. That supports the retained before-1841 estimate, but omissions remain possible.",
+      "records": [],
+      "limitation": "No death or burial entry has been found. This inference does not identify the child with a later emigrant or supply an exact death date.",
+      "related_question": {
+        "href": "/people/glasgow-951.html#question-family",
+        "label": "Later household evidence"
+      }
+    }
+  ],
+  "record_evidence": {
+    "identity": {
+      "baptism-unnamed-1838": {
+        "recorded_statement": "Entry 106, in the 1838 sequence: Glascow child; father Alex; mother Molly McAughern; residence Gortereagh. Forename and precise dates are blank in the transcription.",
+        "relevance": "This is the concrete record underlying the unnamed child's profile and its documented parent–child relationships.",
+        "limitation": "A derivative transcription, not an original image checked in this review; no forename, sex or death information is supplied."
+      }
+    }
+  },
+  "vital_assessment_id": "glasgow-3940-reviewed-vital-qualifications"
+}

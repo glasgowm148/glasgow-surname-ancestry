@@ -1,0 +1,3833 @@
+{
+  "id": "john-1577",
+  "review": {
+    "date": "2026-09-10",
+    "model": "gpt-6-astra",
+    "reasoning_effort": "xhigh",
+    "method": "Astra xhigh source review; complete word bounds and same-document comparisons. Public processed ink is derived deterministically from original pixels; no diagnostic stem is presented as a complete word trace."
+  },
+  "studies": [
+    {
+      "id": "john-1577-subject-name-source-aligned",
+      "title": "Find Johne glasgw in the opening identification",
+      "image": "/assets/research/testament-crops/john-1577-subject-v2.jpg",
+      "image_width": 1440,
+      "image_height": 270,
+      "region": [
+        24,
+        43,
+        908,
+        164
+      ],
+      "reading": "vmqle Johne glasgw",
+      "expansion": "The deceased John Glasgow. The written name is retained as Johne glasgw; vmqle is an abbreviation conventionally expanded as umquhile, meaning deceased here.",
+      "confidence": "Strong for the two-name reading as a sequence, supported by its repetition in the confirmation. The blurred joins inside Johne do not support a confident stroke-by-stroke allocation. The following place-name is outside this study.",
+      "context": "The middle line of the narrow opening crop names the deceased. Read along that line before following the taller strokes above or below it. Some strokes from the neighbouring lines intrude into the same vertical space.",
+      "review_status": "source-aligned",
+      "locator_note": "Start at the broad loop and upright of J around x=330-435, then follow the writing rightwards to x=910. The surname begins with the descending g around x=610. The next word after the surname is outside the selected name.",
+      "conclusion": "The crop supports the proposed name Johne glasgw. The confirmation repeats the same name, providing a better check than matching it to a modern printed alphabet. The location and any identification with a modern profile require their own evidence.",
+      "reading_steps": [
+        {
+          "title": "Keep to the name's writing line",
+          "text": "Use the low connected bodies as your guide. The word before the large initial is the shortened deceased formula, vmqle. Its expansion is a reading convention; do not look for every letter of the modern word deceased in the ink.",
+          "region": [
+            24,
+            61,
+            305,
+            127
+          ]
+        },
+        {
+          "title": "Locate the large J",
+          "text": "The opening initial has a tall upright near x=405 and a broad loop extending left beneath it. Compare both parts in the complete Johne crop. Colour comes from the image pixels, not a guessed line drawn through the letter.",
+          "region": [
+            316,
+            45,
+            129,
+            149
+          ]
+        },
+        {
+          "title": "Treat the joined middle as a group",
+          "text": "The remaining strokes of Johne occupy the compact group immediately to the right. Several are joined and blurred. Read the complete group beside the repeated name in the confirmation instead of assigning each dark patch to an independent modern letter.",
+          "region": [
+            439,
+            77,
+            143,
+            103
+          ]
+        },
+        {
+          "title": "Anchor the surname with its first g and looped l",
+          "text": "After the small gap, the first g drops below the writing line and turns left. The following l makes a small tall loop. These two different shapes, one descending and one rising, are useful landmarks for the beginning of glasgw.",
+          "region": [
+            589,
+            73,
+            104,
+            118
+          ]
+        },
+        {
+          "title": "Find the long s, then keep the ending together",
+          "text": "After the low a comes the tall, sloping form read as long s. Its shaft descends through the writing line. The final g and w are connected. Compare the same sequence in the confirmation rather than expecting the surname to resemble modern Glasgow; no o should be inserted into this diplomatic reading.",
+          "region": [
+            685,
+            52,
+            237,
+            131
+          ]
+        }
+      ],
+      "letters": [
+        {
+          "id": "john-opening-j",
+          "label": "J: tall upright and broad lower loop",
+          "position": "Opening initial of Johne",
+          "glyph": "J",
+          "region": [
+            316,
+            45,
+            129,
+            149
+          ],
+          "paths": [],
+          "reference": "upper-J",
+          "observed": "An upright stands above a broad loop extending to its left. Compare the full loop and shaft in the original; the processed view retains the same source-pixel geometry.",
+          "matches": "The confirmation's Johne also opens with a tall initial which continues below the other letter bodies.",
+          "differs": "This occurrence has a much wider lower flourish than the confirmation occurrence.",
+          "caution": "The whole-word crop preserves the lower flourish and nearby crossing ink. Colour marks a proposed group, not a completed letter or pen-order reconstruction."
+        },
+        {
+          "id": "john-opening-joined-forename",
+          "label": "Joined remainder of Johne",
+          "position": "After the large initial and before the surname gap",
+          "glyph": "ohne",
+          "region": [
+            439,
+            77,
+            143,
+            103
+          ],
+          "paths": [],
+          "reference": "lower-h",
+          "observed": "A looped or descending form is joined to several low strokes and a small finishing stroke.",
+          "matches": "The confirmation supplies a second occurrence of the proposed complete forename.",
+          "differs": "Blur and joins make the internal boundaries much less distinct here.",
+          "caution": "ohne labels the proposed reading of the group. This is not four independently verified letter boxes, and the h reference is only a comparison aid."
+        },
+        {
+          "id": "john-opening-first-g",
+          "label": "First g: a descender below the line",
+          "position": "First letter of glasgw",
+          "glyph": "g",
+          "region": [
+            589,
+            102,
+            62,
+            89
+          ],
+          "paths": [],
+          "reference": "lower-g",
+          "observed": "The initial body sits at the writing line; its attached stroke drops down and turns left below it.",
+          "matches": "The confirmation surname also begins with a descending form before the rising l.",
+          "differs": "This descender is broad and dark, while the repeated occurrence is entangled with the line beneath it.",
+          "caution": "Use the whole source crop to decide which strokes belong to this line. No complete g outline is asserted."
+        },
+        {
+          "id": "john-opening-l",
+          "label": "l: small loop above the writing line",
+          "position": "Second letter of glasgw",
+          "glyph": "l",
+          "region": [
+            645,
+            73,
+            47,
+            65
+          ],
+          "paths": [],
+          "reference": "lower-l",
+          "observed": "A narrow loop rises above the low neighbouring letter bodies and returns to the line.",
+          "matches": "The repeated surname in the confirmation has the same rising position between its initial g and the following low a.",
+          "differs": "This loop is wider and rounder than the corresponding confirmation stroke.",
+          "caution": "The connection to the next letter is part of the continuous writing; do not count it as an extra character."
+        },
+        {
+          "id": "john-opening-long-s",
+          "label": "Long s: the tall sloping shaft",
+          "position": "After gla in glasgw",
+          "glyph": "s",
+          "region": [
+            720,
+            49,
+            64,
+            133
+          ],
+          "paths": [],
+          "reference": "lower-s",
+          "observed": "A long slanting shaft runs down through the writing line. The wider word crop retains its upper extension and the neighbouring line's crossing ink.",
+          "matches": "A tall sloping s occurs at the corresponding position in the confirmation's glasgw.",
+          "differs": "The upper extension approaches ink from the line above, so the processed view cannot attribute every crossing to this letter.",
+          "caution": "A long s can look like f to a new reader. Its position in the repeated surname and the actual same-hand f in father are more useful than resemblance to a modern font."
+        },
+        {
+          "id": "john-opening-gw",
+          "label": "Joined gw ending",
+          "position": "End of glasgw",
+          "glyph": "gw",
+          "region": [
+            770,
+            92,
+            152,
+            86
+          ],
+          "paths": [],
+          "reference": "lower-g",
+          "observed": "A lower loop is followed by connected angular strokes at the end of the name.",
+          "matches": "The confirmation repeats this ending in the deceased's surname; the children's plural surname adds further letters after it.",
+          "differs": "The terminal strokes here are broader and more blurred.",
+          "caution": "This is a joined two-letter segment, not a tracing of two separately isolated glyphs."
+        }
+      ],
+      "same_hand_comparisons": [
+        {
+          "image": "/assets/research/testament-crops/john-1577-confirmation-277.jpg",
+          "image_width": 1500,
+          "image_height": 760,
+          "region": [
+            419,
+            527,
+            291,
+            96
+          ],
+          "reading": "Johne glasgw",
+          "explanation": "Compare the whole repeated name. Start with the tall initial, then the surname's descending g, rising l and tall s. Its smaller size and overlapping neighbouring strokes prevent a literal one-to-one outline match."
+        },
+        {
+          "image": "/assets/research/testament-crops/john-1577-family.jpg",
+          "image_width": 1430,
+          "image_height": 560,
+          "region": [
+            584,
+            468,
+            129,
+            72
+          ],
+          "reading": "Johne",
+          "explanation": "Another occurrence lower in the family passage. Compare the initial and the joined word rather than demanding identical outlines."
+        },
+        {
+          "image": "/assets/research/testament-crops/john-1577-family.jpg",
+          "image_width": 1430,
+          "image_height": 560,
+          "region": [
+            714,
+            459,
+            146,
+            84
+          ],
+          "reading": "glasgw",
+          "explanation": "The lower same-clerk surname offers a word-level comparison. The ink is original; repeated writing within this document is not independent genealogical evidence."
+        }
+      ],
+      "nav_label": "John Glasgow",
+      "words": [
+        {
+          "text": "Johne",
+          "region": [
+            278,
+            43,
+            312,
+            184
+          ],
+          "focus_polygon": [
+            [
+              278,
+              133
+            ],
+            [
+              316,
+              113
+            ],
+            [
+              361,
+              96
+            ],
+            [
+              382,
+              92
+            ],
+            [
+              389,
+              43
+            ],
+            [
+              430,
+              43
+            ],
+            [
+              433,
+              77
+            ],
+            [
+              466,
+              80
+            ],
+            [
+              493,
+              92
+            ],
+            [
+              541,
+              89
+            ],
+            [
+              590,
+              87
+            ],
+            [
+              590,
+              181
+            ],
+            [
+              548,
+              186
+            ],
+            [
+              509,
+              180
+            ],
+            [
+              472,
+              187
+            ],
+            [
+              443,
+              189
+            ],
+            [
+              434,
+              207
+            ],
+            [
+              422,
+              227
+            ],
+            [
+              278,
+              227
+            ]
+          ],
+          "neutral_crossing_polygons": [
+            [
+              [
+                278,
+                185
+              ],
+              [
+                429,
+                185
+              ],
+              [
+                425,
+                227
+              ],
+              [
+                278,
+                227
+              ]
+            ]
+          ],
+          "font_groups": [
+            {
+              "letter_id": "john-opening-j",
+              "start": 0,
+              "end": 1
+            },
+            {
+              "letter_id": "john-opening-joined-forename",
+              "start": 1,
+              "end": 5
+            }
+          ]
+        },
+        {
+          "text": "glasgw",
+          "region": [
+            584,
+            14,
+            356,
+            185
+          ],
+          "focus_polygon": [
+            [
+              584,
+              104
+            ],
+            [
+              635,
+              101
+            ],
+            [
+              645,
+              72
+            ],
+            [
+              687,
+              72
+            ],
+            [
+              710,
+              91
+            ],
+            [
+              728,
+              90
+            ],
+            [
+              741,
+              69
+            ],
+            [
+              760,
+              48
+            ],
+            [
+              791,
+              14
+            ],
+            [
+              845,
+              14
+            ],
+            [
+              840,
+              39
+            ],
+            [
+              802,
+              60
+            ],
+            [
+              790,
+              86
+            ],
+            [
+              836,
+              88
+            ],
+            [
+              865,
+              100
+            ],
+            [
+              940,
+              101
+            ],
+            [
+              940,
+              151
+            ],
+            [
+              904,
+              161
+            ],
+            [
+              882,
+              188
+            ],
+            [
+              837,
+              196
+            ],
+            [
+              806,
+              170
+            ],
+            [
+              790,
+              184
+            ],
+            [
+              733,
+              196
+            ],
+            [
+              698,
+              157
+            ],
+            [
+              652,
+              187
+            ],
+            [
+              619,
+              196
+            ],
+            [
+              584,
+              196
+            ]
+          ],
+          "neutral_crossing_polygons": [
+            [
+              [
+                705,
+                32
+              ],
+              [
+                847,
+                14
+              ],
+              [
+                847,
+                69
+              ],
+              [
+                775,
+                89
+              ],
+              [
+                726,
+                80
+              ]
+            ]
+          ],
+          "font_groups": [
+            {
+              "letter_id": "john-opening-first-g",
+              "start": 0,
+              "end": 1
+            },
+            {
+              "letter_id": "john-opening-l",
+              "start": 1,
+              "end": 2
+            },
+            {
+              "letter_id": "john-opening-long-s",
+              "start": 3,
+              "end": 4
+            },
+            {
+              "letter_id": "john-opening-gw",
+              "start": 4,
+              "end": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "john-1577-margaret",
+      "title": "Margaret: follow the short name before the surname",
+      "image": "/assets/research/testament-crops/john-1577-family.jpg",
+      "image_width": 1430,
+      "image_height": 560,
+      "height": 560,
+      "region": [
+        110,
+        231,
+        247,
+        64
+      ],
+      "reading": "margaret",
+      "expansion": "Margaret",
+      "confidence": "High for the name; medium for the exact boundaries of the small joined middle letters.",
+      "context": "The first name is followed by an uncertain surname and then his relict. That sequence identifies a widow; it does not by itself identify the mother of the children named later.",
+      "review_status": "source-aligned",
+      "locator_note": "Find the line beginning near the left margin with a broad m. The surname begins after the gap near x360. The descending g belongs to Margaret; the much taller strokes behind the end of the name come from the line above.",
+      "conclusion": "Margaret is a supported reading. Read the name as a sequence of connected shapes, not eight independently clear printed letters.",
+      "letters": [
+        {
+          "id": "margaret-m",
+          "label": "Margaret, letter 1: m",
+          "position": 1,
+          "glyph": "m",
+          "region": [
+            112,
+            246,
+            79,
+            36
+          ],
+          "reference": "lower-m",
+          "observed": "A long rising entry leads into repeated upright strokes and low joins.",
+          "matches": "Compare the compact repeated uprights in name later on this same line.",
+          "differs": "This initial m is wider and has a longer entry than the internal m in name.",
+          "caution": "The entry flourish is part of this letter. No complete contour is traced because the strokes run directly into the next letter.",
+          "paths": []
+        },
+        {
+          "id": "margaret-ar",
+          "label": "Margaret, letters 2-3: ar",
+          "position": 2,
+          "glyph": "ar",
+          "region": [
+            184,
+            247,
+            45,
+            34
+          ],
+          "reference": "lower-a",
+          "observed": "After the broad initial, a low connector leads to a short, darker upright before the descending letter.",
+          "matches": "Short a/r-like joins recur in barnis below.",
+          "differs": "The two letters are more compressed here than the b-a beginning of barnis.",
+          "caution": "The group supports ar within the full name; it is not two cleanly detached shapes.",
+          "paths": []
+        },
+        {
+          "id": "margaret-g",
+          "label": "Margaret, letter 4: g",
+          "position": 4,
+          "glyph": "g",
+          "region": [
+            216,
+            252,
+            43,
+            40
+          ],
+          "reference": "lower-g",
+          "observed": "A dark body sits on the writing line and a loop drops below it.",
+          "matches": "The initial g of glasgwis on the following line also extends below its neighbours.",
+          "differs": "The surname initial is more angular and its lower stroke meets writing below.",
+          "caution": "Do not take the descender for a second letter or include the ampersand on the line below. Its exact join to the preceding r is untraced.",
+          "paths": []
+        },
+        {
+          "id": "margaret-are",
+          "label": "Margaret, letters 5-7: are",
+          "position": 5,
+          "glyph": "are",
+          "region": [
+            250,
+            249,
+            65,
+            34
+          ],
+          "reference": "lower-r",
+          "observed": "A sequence of low shoulders follows the descending g and rises into the final stroke.",
+          "matches": "The clerk also compresses the central letters of barnis into a shallow run.",
+          "differs": "The surviving joins do not give three isolated modern letter outlines.",
+          "caution": "This is a group reading from the whole name. The exact a/r/e divisions remain interpretative; no trace is drawn through them.",
+          "paths": []
+        },
+        {
+          "id": "margaret-t",
+          "label": "Margaret, letter 8: t",
+          "position": 8,
+          "glyph": "t",
+          "region": [
+            306,
+            236,
+            51,
+            47
+          ],
+          "reference": "lower-t",
+          "observed": "The last upright turns into a long rightward exit before a visible word gap.",
+          "matches": "The ending of relict farther right likewise has an extended horizontal finish.",
+          "differs": "The relict ending is more heavily inked and visibly crossed.",
+          "caution": "A stroke from the preceding line approaches the top of this area. Do not turn all nearby ink into a t crossbar.",
+          "paths": []
+        }
+      ],
+      "reading_steps": [
+        {
+          "title": "Establish the word gap",
+          "text": "Start at the broad m and stop before the separate looped beginning. Including that next word would turn the surname into extra letters of Margaret.",
+          "region": [
+            110,
+            231,
+            286,
+            64
+          ]
+        },
+        {
+          "title": "Find the descending anchor",
+          "text": "Locate the loop below the middle of the first name. Its position after the broad opening and before the short finishing run is the useful g anchor.",
+          "region": [
+            213,
+            250,
+            51,
+            44
+          ]
+        },
+        {
+          "title": "Read the small letters as groups",
+          "text": "Work left to right: m | ar | g | are | t. The bars are teaching divisions, not spaces or claims that each joining stroke can be assigned with certainty.",
+          "region": [
+            110,
+            231,
+            247,
+            64
+          ]
+        },
+        {
+          "title": "Separate identity from relationship",
+          "text": "The next two words his relict provide the widow relationship. The first name alone supplies no maternity claim.",
+          "region": [
+            514,
+            211,
+            244,
+            82
+          ]
+        }
+      ],
+      "same_hand_comparisons": [
+        {
+          "image": "/assets/research/testament-crops/john-1577-family.jpg",
+          "image_width": 1430,
+          "image_height": 560,
+          "region": [
+            781,
+            211,
+            191,
+            74
+          ],
+          "reading": "name",
+          "explanation": "Use the run of short uprights inside name to compare the clerk's treatment of m. It is a shape comparison, not evidence from another person."
+        },
+        {
+          "image": "/assets/research/testament-crops/john-1577-family.jpg",
+          "image_width": 1430,
+          "image_height": 560,
+          "region": [
+            776,
+            265,
+            143,
+            69
+          ],
+          "reading": "barnis",
+          "explanation": "Compare the compressed a/r/n-like body strokes. Their close joining explains why the middle of Margaret is best taught in groups."
+        }
+      ],
+      "nav_label": "Margaret",
+      "words": [
+        {
+          "text": "margaret",
+          "region": [
+            110,
+            231,
+            247,
+            64
+          ],
+          "font_groups": [
+            {
+              "letter_id": "margaret-m",
+              "start": 0,
+              "end": 1
+            },
+            {
+              "letter_id": "margaret-ar",
+              "start": 1,
+              "end": 3
+            },
+            {
+              "letter_id": "margaret-g",
+              "start": 3,
+              "end": 4
+            },
+            {
+              "letter_id": "margaret-are",
+              "start": 4,
+              "end": 7
+            },
+            {
+              "letter_id": "margaret-t",
+              "start": 7,
+              "end": 8
+            }
+          ],
+          "focus_polygon": [
+            [
+              110,
+              256
+            ],
+            [
+              129,
+              242
+            ],
+            [
+              181,
+              240
+            ],
+            [
+              211,
+              243
+            ],
+            [
+              243,
+              245
+            ],
+            [
+              285,
+              244
+            ],
+            [
+              309,
+              231
+            ],
+            [
+              338,
+              233
+            ],
+            [
+              339,
+              252
+            ],
+            [
+              357,
+              255
+            ],
+            [
+              357,
+              284
+            ],
+            [
+              317,
+              286
+            ],
+            [
+              280,
+              286
+            ],
+            [
+              256,
+              295
+            ],
+            [
+              214,
+              295
+            ],
+            [
+              193,
+              283
+            ],
+            [
+              148,
+              286
+            ],
+            [
+              110,
+              285
+            ]
+          ],
+          "neutral_crossing_polygons": [
+            [
+              [
+                285,
+                231
+              ],
+              [
+                338,
+                231
+              ],
+              [
+                338,
+                252
+              ],
+              [
+                285,
+                252
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "john-1577-widow-surname",
+      "title": "The widow's surname: keep the difficult middle open",
+      "image": "/assets/research/testament-crops/john-1577-family.jpg",
+      "image_width": 1430,
+      "image_height": 560,
+      "height": 560,
+      "region": [
+        358,
+        218,
+        190,
+        87
+      ],
+      "reading": "[surname uncertain; Hoghame? is a candidate]",
+      "expansion": "No settled modern surname. Do not normalize to Hoghame or Cochrane as a fact.",
+      "confidence": "Unsettled. The supplied human contributor favours hochaine over hochame and proposes a possible Hutchin connection. The older Hoghame/Cochrane image-group tests below have not been reconciled with that reading.",
+      "context": "This word lies between Margaret and his relict. Double_Show_9316 favours hochaine, with hochame possible, and suggests a phonetic Hutchin connection. The surname remains unresolved; the earlier Hoghame/Cochrane image-group tests below are not a settled modern identification. This surname uncertainty is separate from the accepted Marjory reading for the child.",
+      "review_status": "source-aligned",
+      "locator_note": "The word starts around x365 with a tall loop and ends before the separate his near x525. Its descending central stroke overlaps the ascender of the surname on the next line. Small overlap with the following h is retained intentionally.",
+      "conclusion": "The contributor's Hochaine reading and possible Hutchin link are recorded as substantive new leads. Neither the older Hoghame/Cochrane interpretations nor a normalized Hutchin/Hutcheson identity is established here. Compare the supplied human transcription with the original before assigning Margaret to a family.",
+      "letters": [
+        {
+          "id": "widow-initial",
+          "label": "Surname, proposed letter 1: h?",
+          "position": 1,
+          "glyph": "h?",
+          "region": [
+            360,
+            223,
+            43,
+            54
+          ],
+          "reference": "lower-h",
+          "observed": "An oblique rising stroke forms a narrow high loop and returns to the writing level.",
+          "matches": "The h of his immediately to the right also has a tall looped part.",
+          "differs": "The opening here has a different approach and its lower connection is less clear.",
+          "caution": "An h-like opening favours testing H-, but this crop alone does not conclusively exclude C-. No full-letter trace is warranted.",
+          "paths": []
+        },
+        {
+          "id": "widow-round",
+          "label": "Surname, proposed letter 2: o?",
+          "position": 2,
+          "glyph": "o?",
+          "region": [
+            386,
+            250,
+            30,
+            29
+          ],
+          "reference": "lower-o",
+          "observed": "A small dark rounded body follows the initial loop.",
+          "matches": "Compare the small rounded body in the accepted name m[ar]iory below, keeping its joins and surrounding strokes visible.",
+          "differs": "Both examples are joined and neither supplies an ideal isolated o.",
+          "caution": "The body can be compared directly; calling it o remains a reading within an uncertain word.",
+          "paths": []
+        },
+        {
+          "id": "widow-middle",
+          "label": "Surname, proposed middle: gh? / chr?",
+          "position": 3,
+          "glyph": "[gh? / chr?]",
+          "region": [
+            407,
+            232,
+            48,
+            71
+          ],
+          "reference": "lower-g",
+          "observed": "The central group contains a high loop, a sloping connection and a long lower return.",
+          "matches": "The g/h regions in glasgwis and his show why loops above and below the line must both be retained.",
+          "differs": "No securely identical complete group elsewhere in this crop confirms gh or chr.",
+          "caution": "Do not split this group into expected letters. A tall stroke from glasgwis below approaches it, and the actual boundary is difficult. Paths are intentionally empty.",
+          "paths": []
+        },
+        {
+          "id": "widow-a",
+          "label": "Surname, proposed following vowel: a?",
+          "position": 5,
+          "glyph": "a?",
+          "region": [
+            445,
+            245,
+            31,
+            35
+          ],
+          "reference": "lower-a",
+          "observed": "A low, more angular body follows the large middle loop.",
+          "matches": "The a-like body after the first l in lauchfull is another small low form.",
+          "differs": "Here the approach and exit are tightly joined to neighbouring strokes.",
+          "caution": "The proposed position 5 follows the Hoghame hypothesis only; the Cochrane hypothesis would divide the middle differently.",
+          "paths": []
+        },
+        {
+          "id": "widow-minims",
+          "label": "Surname, proposed penultimate group: m/n?",
+          "position": 6,
+          "glyph": "m/n?",
+          "region": [
+            470,
+            245,
+            45,
+            35
+          ],
+          "reference": "lower-m",
+          "observed": "Several short uprights form an undulating run before the last loop.",
+          "matches": "Compare the internal run in name on the same line.",
+          "differs": "This run is compressed; counting its apparent peaks is not enough to distinguish m from n.",
+          "caution": "Both m and n must remain open until a clearer same-clerk word or a better original resolves the joins.",
+          "paths": []
+        },
+        {
+          "id": "widow-ending",
+          "label": "Surname, proposed last letter: e?",
+          "position": 7,
+          "glyph": "e?",
+          "region": [
+            508,
+            240,
+            34,
+            39
+          ],
+          "reference": "lower-e",
+          "observed": "A small terminal loop or hook leads toward a gap and the next word.",
+          "matches": "The final e-like exit of name later in the line is a useful local comparison.",
+          "differs": "The next word's h approaches this end and makes the boundary less clean.",
+          "caution": "The candidate letter position follows the Hoghame spelling; it does not establish the number of letters in the original surname.",
+          "paths": []
+        }
+      ],
+      "reading_steps": [
+        {
+          "title": "Locate the surname independently",
+          "text": "Find the gap after Margaret and the separate his to the right. Work only on the word between them; do not begin by writing a modern surname over the image.",
+          "region": [
+            347,
+            213,
+            249,
+            91
+          ]
+        },
+        {
+          "title": "Establish the visible anchors",
+          "text": "The safest anchors are a high loop at the beginning, a small rounded body next, a conspicuous looping middle, and a low run toward the end.",
+          "region": [
+            358,
+            218,
+            190,
+            87
+          ]
+        },
+        {
+          "title": "Test Hoghame",
+          "text": "Ask whether the initial can be h, whether the middle supplies both g and h, and whether the final short strokes really give m rather than n. The first letter alone cannot settle the word.",
+          "region": [
+            358,
+            218,
+            190,
+            87
+          ]
+        },
+        {
+          "title": "Test Cochrane",
+          "text": "This candidate needs a defensible initial C and a chr sequence in the difficult middle. The current crop does not display those as three independently secure letters.",
+          "region": [
+            358,
+            218,
+            190,
+            87
+          ]
+        },
+        {
+          "title": "Stop at the evidence limit",
+          "text": "Retain an uncertain surname in the transcription. A clearer original image or an independently identified, same-clerk occurrence of the name is needed before choosing a normalized spelling.",
+          "region": [
+            358,
+            218,
+            190,
+            87
+          ]
+        }
+      ],
+      "same_hand_comparisons": [
+        {
+          "image": "/assets/research/testament-crops/john-1577-family.jpg",
+          "image_width": 1430,
+          "image_height": 560,
+          "region": [
+            514,
+            215,
+            80,
+            79
+          ],
+          "reading": "his",
+          "explanation": "The h provides a local looped-ascender comparison for the opening of the surname. Similarity supports a test; the two shapes are not identical."
+        },
+        {
+          "image": "/assets/research/testament-crops/john-1577-family.jpg",
+          "image_width": 1430,
+          "image_height": 560,
+          "region": [
+            339,
+            265,
+            190,
+            102
+          ],
+          "reading": "glasgwis",
+          "explanation": "The central tall and descending forms show the danger of reading only the middle-height bodies. This lower line also supplies the crossing ink near the uncertain surname."
+        },
+        {
+          "image": "/assets/research/testament-crops/john-1577-family.jpg",
+          "image_width": 1430,
+          "image_height": 560,
+          "region": [
+            781,
+            211,
+            191,
+            74
+          ],
+          "reading": "name",
+          "explanation": "The repeated short uprights provide a meaningful m/n comparison. They do not prove how many letters the surname contains."
+        }
+      ],
+      "nav_label": "Widow's surname",
+      "words": [
+        {
+          "text": "hoghame",
+          "label": "Hoghame? (candidate)",
+          "region": [
+            358,
+            218,
+            190,
+            87
+          ],
+          "font_groups": [
+            {
+              "letter_id": "widow-initial",
+              "start": 0,
+              "end": 1
+            },
+            {
+              "letter_id": "widow-round",
+              "start": 1,
+              "end": 2
+            },
+            {
+              "letter_id": "widow-middle",
+              "start": 2,
+              "end": 4
+            },
+            {
+              "letter_id": "widow-a",
+              "start": 4,
+              "end": 5
+            },
+            {
+              "letter_id": "widow-minims",
+              "start": 5,
+              "end": 6
+            },
+            {
+              "letter_id": "widow-ending",
+              "start": 6,
+              "end": 7
+            }
+          ],
+          "focus_polygon": [
+            [
+              358,
+              247
+            ],
+            [
+              367,
+              230
+            ],
+            [
+              391,
+              218
+            ],
+            [
+              405,
+              220
+            ],
+            [
+              405,
+              242
+            ],
+            [
+              420,
+              239
+            ],
+            [
+              423,
+              222
+            ],
+            [
+              449,
+              224
+            ],
+            [
+              451,
+              246
+            ],
+            [
+              478,
+              244
+            ],
+            [
+              505,
+              242
+            ],
+            [
+              516,
+              220
+            ],
+            [
+              539,
+              218
+            ],
+            [
+              548,
+              238
+            ],
+            [
+              548,
+              281
+            ],
+            [
+              527,
+              301
+            ],
+            [
+              505,
+              294
+            ],
+            [
+              502,
+              278
+            ],
+            [
+              457,
+              279
+            ],
+            [
+              441,
+              305
+            ],
+            [
+              409,
+              305
+            ],
+            [
+              407,
+              279
+            ],
+            [
+              378,
+              283
+            ],
+            [
+              358,
+              276
+            ]
+          ],
+          "neutral_crossing_polygons": [
+            [
+              [
+                514,
+                218
+              ],
+              [
+                548,
+                218
+              ],
+              [
+                548,
+                305
+              ],
+              [
+                514,
+                305
+              ]
+            ],
+            [
+              [
+                409,
+                276
+              ],
+              [
+                450,
+                276
+              ],
+              [
+                450,
+                305
+              ],
+              [
+                409,
+                305
+              ]
+            ]
+          ]
+        },
+        {
+          "text": "cochrane",
+          "label": "Cochrane? (candidate)",
+          "region": [
+            358,
+            218,
+            190,
+            87
+          ],
+          "font_groups": [
+            {
+              "letter_id": "widow-round",
+              "start": 1,
+              "end": 2
+            },
+            {
+              "letter_id": "widow-middle",
+              "start": 2,
+              "end": 5
+            },
+            {
+              "letter_id": "widow-a",
+              "start": 5,
+              "end": 6
+            },
+            {
+              "letter_id": "widow-minims",
+              "start": 6,
+              "end": 7
+            },
+            {
+              "letter_id": "widow-ending",
+              "start": 7,
+              "end": 8
+            }
+          ],
+          "focus_polygon": [
+            [
+              358,
+              247
+            ],
+            [
+              367,
+              230
+            ],
+            [
+              391,
+              218
+            ],
+            [
+              405,
+              220
+            ],
+            [
+              405,
+              242
+            ],
+            [
+              420,
+              239
+            ],
+            [
+              423,
+              222
+            ],
+            [
+              449,
+              224
+            ],
+            [
+              451,
+              246
+            ],
+            [
+              478,
+              244
+            ],
+            [
+              505,
+              242
+            ],
+            [
+              516,
+              220
+            ],
+            [
+              539,
+              218
+            ],
+            [
+              548,
+              238
+            ],
+            [
+              548,
+              281
+            ],
+            [
+              527,
+              301
+            ],
+            [
+              505,
+              294
+            ],
+            [
+              502,
+              278
+            ],
+            [
+              457,
+              279
+            ],
+            [
+              441,
+              305
+            ],
+            [
+              409,
+              305
+            ],
+            [
+              407,
+              279
+            ],
+            [
+              378,
+              283
+            ],
+            [
+              358,
+              276
+            ]
+          ],
+          "neutral_crossing_polygons": [
+            [
+              [
+                514,
+                218
+              ],
+              [
+                548,
+                218
+              ],
+              [
+                548,
+                305
+              ],
+              [
+                514,
+                305
+              ]
+            ],
+            [
+              [
+                409,
+                276
+              ],
+              [
+                450,
+                276
+              ],
+              [
+                450,
+                305
+              ],
+              [
+                409,
+                305
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "john-1577-relict",
+      "title": "His relict: the relationship that is explicit",
+      "image": "/assets/research/testament-crops/john-1577-family.jpg",
+      "image_width": 1430,
+      "image_height": 560,
+      "height": 560,
+      "region": [
+        512,
+        210,
+        250,
+        88
+      ],
+      "reading": "his relict",
+      "expansion": "his widow",
+      "confidence": "High for the relationship phrase; individual joined letters remain less distinct.",
+      "context": "The phrase follows Margaret and her uncertain surname. It is an explicit widow description. It does not, without more wording, make Margaret the mother of Katharine and Marjory.",
+      "review_status": "source-aligned",
+      "locator_note": "The looped h starts near x525; a clear gap follows his, and relict begins near x610. Keep the lower loop of h and the long terminal cross-stroke of relict in view.",
+      "conclusion": "The widow relationship is supported directly. Any maternity conclusion requires separate evidence or a securely read relationship clause.",
+      "letters": [
+        {
+          "id": "relict-h",
+          "label": "his, letter 1: h",
+          "position": 1,
+          "glyph": "h",
+          "region": [
+            514,
+            215,
+            43,
+            81
+          ],
+          "reference": "lower-h",
+          "observed": "A narrow upper loop returns through the body and extends down into a broad lower movement.",
+          "matches": "This is the strongest local comparison for h-like loops in the widow surname and Katharine.",
+          "differs": "Those other letters begin or join differently and are more crossed.",
+          "caution": "The full height matters. Do not crop to the middle-height body.",
+          "paths": []
+        },
+        {
+          "id": "relict-is",
+          "label": "his, letters 2-3: is",
+          "position": 2,
+          "glyph": "is",
+          "region": [
+            547,
+            222,
+            48,
+            57
+          ],
+          "reference": "lower-s",
+          "observed": "A short joined body is followed by a rising stroke with a small lower return.",
+          "matches": "The ending of glasgwis has a comparable rising terminal movement.",
+          "differs": "The preceding joins differ.",
+          "caution": "The short i is not separately traced; the complete word is clearer than that tiny division.",
+          "paths": []
+        },
+        {
+          "id": "relict-re",
+          "label": "relict, letters 1-2: re",
+          "position": 1,
+          "glyph": "re",
+          "region": [
+            601,
+            224,
+            67,
+            54
+          ],
+          "reference": "lower-r",
+          "observed": "A low angled opening is followed by a small rounded loop.",
+          "matches": "Short r/e-like joins recur in the names on this line.",
+          "differs": "The initial r here has a longer entry and the e is more rounded.",
+          "caution": "These are connected letters; do not isolate the leading angle as a separate word.",
+          "paths": []
+        },
+        {
+          "id": "relict-li",
+          "label": "relict, letters 3-4: li",
+          "position": 3,
+          "glyph": "li",
+          "region": [
+            657,
+            212,
+            43,
+            68
+          ],
+          "reference": "lower-l",
+          "observed": "A tall loop descends to the line and joins a short following stroke.",
+          "matches": "The l in glasgwis has the same general raised-loop construction.",
+          "differs": "This loop is narrower and merges into the crowded ending.",
+          "caution": "The individual l/i join remains interpretative; no full contour is drawn.",
+          "paths": []
+        },
+        {
+          "id": "relict-ct",
+          "label": "relict, letters 5-6: ct",
+          "position": 5,
+          "glyph": "ct",
+          "region": [
+            688,
+            220,
+            75,
+            61
+          ],
+          "reference": "lower-t",
+          "observed": "The ending contains closely placed darker uprights and a long horizontal finish.",
+          "matches": "The last stroke of Margaret also exits to the right.",
+          "differs": "This ending is heavier and more clearly crossed.",
+          "caution": "The word is read from its complete sequence and context; the ending is not two isolated modern letterforms.",
+          "paths": []
+        }
+      ],
+      "reading_steps": [
+        {
+          "title": "Find his after the surname",
+          "text": "Locate the tall looped h and the two shorter shapes to its right, then the space before the next word.",
+          "region": [
+            512,
+            210,
+            89,
+            88
+          ]
+        },
+        {
+          "title": "Read the next word as a whole",
+          "text": "Follow the angled opening, rounded body, raised loop and crossed ending of relict. The whole-word shape is more secure than every letter boundary.",
+          "region": [
+            599,
+            210,
+            165,
+            75
+          ]
+        },
+        {
+          "title": "State only the relationship written",
+          "text": "His relict means his widow. Keep that direct statement separate from a claim that she was the named children's mother.",
+          "region": [
+            512,
+            210,
+            250,
+            88
+          ]
+        }
+      ],
+      "same_hand_comparisons": [
+        {
+          "image": "/assets/research/testament-crops/john-1577-family.jpg",
+          "image_width": 1430,
+          "image_height": 560,
+          "region": [
+            361,
+            276,
+            37,
+            47
+          ],
+          "reading": "l in glasgwis",
+          "explanation": "The narrow raised loop gives a direct same-clerk comparison for l in relict."
+        },
+        {
+          "image": "/assets/research/testament-crops/john-1577-family.jpg",
+          "image_width": 1430,
+          "image_height": 560,
+          "region": [
+            306,
+            236,
+            51,
+            47
+          ],
+          "reading": "ending of Margaret",
+          "explanation": "Compare the rightward terminal movement, while recognizing that the relict ending is more heavily crossed."
+        }
+      ],
+      "nav_label": "His relict",
+      "words": [
+        {
+          "text": "his",
+          "region": [
+            512,
+            210,
+            86,
+            88
+          ],
+          "font_groups": [
+            {
+              "letter_id": "relict-h",
+              "start": 0,
+              "end": 1
+            },
+            {
+              "letter_id": "relict-is",
+              "start": 1,
+              "end": 3
+            }
+          ]
+        },
+        {
+          "text": "relict",
+          "region": [
+            598,
+            210,
+            165,
+            88
+          ],
+          "font_groups": [
+            {
+              "letter_id": "relict-re",
+              "start": 0,
+              "end": 2
+            },
+            {
+              "letter_id": "relict-li",
+              "start": 2,
+              "end": 4
+            },
+            {
+              "letter_id": "relict-ct",
+              "start": 4,
+              "end": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "john-1577-katharine",
+      "title": "Katharine: the name at the end of the line",
+      "image": "/assets/research/testament-crops/john-1577-family.jpg",
+      "image_width": 1430,
+      "image_height": 560,
+      "height": 560,
+      "region": [
+        1149,
+        218,
+        198,
+        77
+      ],
+      "reading": "kath[a?]rine (probable katharine)",
+      "expansion": "Katharine; the internal vowel and fine letter divisions remain uncertain.",
+      "confidence": "High for the k opening; probable for the whole name; lower for the joined middle.",
+      "context": "The name follows in name & behalf of and is followed, across the line break, by & m[ar]iory glasgwis. The line break does not end the naming phrase.",
+      "review_status": "source-aligned",
+      "locator_note": "The name's own initial k is around x1155-1195. The long descending stroke just to its left belongs to the preceding of. A dark stroke from the line above crosses the middle of the name. The broad region retains these neighbours so they can be distinguished.",
+      "conclusion": "Katharine is a defensible whole-name reading. The image does not justify presenting every middle letter as a separately certain outline.",
+      "letters": [
+        {
+          "id": "katharine-k",
+          "label": "Katharine, letter 1: k",
+          "position": 1,
+          "glyph": "k",
+          "region": [
+            1151,
+            222,
+            45,
+            50
+          ],
+          "reference": "lower-k",
+          "observed": "The first letter has a looped upper part, a heavy lower stem and a distinct arm extending to the right.",
+          "matches": "The looped upper part can be compared with b in barnis, but the branching right arm is the useful difference.",
+          "differs": "No second securely identified k is available in this passage for an exact same-letter comparison.",
+          "caution": "Do not include the long of stroke to the left. The short path marks only a thick lower-stem segment, not a reconstructed k.",
+          "paths": []
+        },
+        {
+          "id": "katharine-a",
+          "label": "Katharine, letter 2: a",
+          "position": 2,
+          "glyph": "a",
+          "region": [
+            1190,
+            244,
+            23,
+            29
+          ],
+          "reference": "lower-a",
+          "observed": "A small dark body sits after the k arm and before the next taller group.",
+          "matches": "The following a-like bodies in barnis show the clerk's compact treatment of this vowel.",
+          "differs": "The body is more angular and joined here.",
+          "caution": "Read it with its neighbours. Do not treat its dark shape as an isolated modern a outline.",
+          "paths": []
+        },
+        {
+          "id": "katharine-th",
+          "label": "Katharine, letters 3-4: th (joined)",
+          "position": 3,
+          "glyph": "th",
+          "region": [
+            1205,
+            222,
+            60,
+            70
+          ],
+          "reference": "lower-h",
+          "observed": "A slender upright is followed by a loop and a long lower return; darker vertical ink crosses their meeting area.",
+          "matches": "The h of his also uses a loop extending beyond the ordinary body height.",
+          "differs": "This group is crossed by the descending stroke of a word on the line above.",
+          "caution": "Only the target group's own loop belongs to the name. A complete t or h trace would hide the uncertain ownership of the crossing ink, so none is supplied.",
+          "paths": []
+        },
+        {
+          "id": "katharine-middle-vowel",
+          "label": "Katharine, proposed letter 5: a?",
+          "position": 5,
+          "glyph": "a?",
+          "region": [
+            1253,
+            245,
+            29,
+            34
+          ],
+          "reference": "lower-a",
+          "observed": "A short angled join follows the looping middle group.",
+          "matches": "Compact vowel joins elsewhere in the name make an a possible here.",
+          "differs": "A separate closed or clearly articulated a is not securely visible.",
+          "caution": "This is the weakest proposed letter. Keep the literal kath[a?]rine distinction; do not insert a fully formed a path.",
+          "paths": []
+        },
+        {
+          "id": "katharine-rin",
+          "label": "Katharine, letters 6-8: rin (joined)",
+          "position": 6,
+          "glyph": "rin",
+          "region": [
+            1270,
+            244,
+            49,
+            35
+          ],
+          "reference": "lower-r",
+          "observed": "Several short uprights continue rightward between the tall middle group and the exit.",
+          "matches": "The n-like joins in name and barnis show the same compressed rhythm.",
+          "differs": "The individual r/i/n boundaries and an independent i dot are not securely established.",
+          "caution": "The group supports the probable whole-name reading; do not turn every apparent peak into a certain letter.",
+          "paths": []
+        },
+        {
+          "id": "katharine-e",
+          "label": "Katharine, letter 9: e",
+          "position": 9,
+          "glyph": "e",
+          "region": [
+            1308,
+            241,
+            39,
+            37
+          ],
+          "reference": "lower-e",
+          "observed": "The finishing shape rises slightly and sends a clear tail to the right before the page margin.",
+          "matches": "The last letter of name has a comparable rising finish and rightward exit.",
+          "differs": "The tail is more extended at the end of the line.",
+          "caution": "The final-letter reading is stronger than the exact subdivision of the preceding short strokes.",
+          "paths": []
+        }
+      ],
+      "reading_steps": [
+        {
+          "title": "Find the actual initial",
+          "text": "Ignore the very long stroke descending just left of the name: it belongs to of. Begin with the compact loop-and-arm letter at about x1160.",
+          "region": [
+            1102,
+            201,
+            100,
+            126
+          ]
+        },
+        {
+          "title": "Follow k, then the small a",
+          "text": "The k has a rightward arm, then a separate small body follows. These are the easiest opening anchors.",
+          "region": [
+            1151,
+            222,
+            62,
+            51
+          ]
+        },
+        {
+          "title": "Separate the crossing line",
+          "text": "At the middle, a dark descending stroke arrives from the line above. The thinner loop and lower return belong to the target name. This is why a full coloured outline would overstate the reading.",
+          "region": [
+            1205,
+            175,
+            68,
+            118
+          ]
+        },
+        {
+          "title": "Keep the uncertain vowel visible",
+          "text": "After the th-like group, the putative a is not independently clear. Show kath[a?]rine as the cautious literal guide and Katharine as the probable reading.",
+          "region": [
+            1246,
+            238,
+            103,
+            46
+          ]
+        },
+        {
+          "title": "Continue on the next line",
+          "text": "The naming phrase continues at the left with an ampersand and the next personal name. The line break is a page-layout feature, not the end of the family statement.",
+          "region": [
+            108,
+            276,
+            221,
+            80
+          ]
+        }
+      ],
+      "same_hand_comparisons": [
+        {
+          "image": "/assets/research/testament-crops/john-1577-family.jpg",
+          "image_width": 1430,
+          "image_height": 560,
+          "region": [
+            776,
+            265,
+            39,
+            63
+          ],
+          "reading": "b at the start of barnis",
+          "explanation": "Both b and the proposed k have upper loops. The k's additional rightward arm helps distinguish them; this is a comparison of different letters, not a claim of a second k."
+        },
+        {
+          "image": "/assets/research/testament-crops/john-1577-family.jpg",
+          "image_width": 1430,
+          "image_height": 560,
+          "region": [
+            514,
+            215,
+            80,
+            79
+          ],
+          "reading": "his",
+          "explanation": "Its h shows a high loop and lower extension. Use that scale of movement when looking for h in the crowded middle of Katharine."
+        },
+        {
+          "image": "/assets/research/testament-crops/john-1577-family.jpg",
+          "image_width": 1430,
+          "image_height": 560,
+          "region": [
+            781,
+            211,
+            191,
+            74
+          ],
+          "reading": "name",
+          "explanation": "Compare the short connected uprights and terminal exit. These explain why a word can be legible while its internal letter boundaries remain uncertain."
+        }
+      ],
+      "nav_label": "Katharine",
+      "words": [
+        {
+          "text": "katharine",
+          "label": "katharine (probable)",
+          "region": [
+            1149,
+            218,
+            198,
+            77
+          ],
+          "font_groups": [
+            {
+              "letter_id": "katharine-k",
+              "start": 0,
+              "end": 1
+            },
+            {
+              "letter_id": "katharine-a",
+              "start": 1,
+              "end": 2
+            },
+            {
+              "letter_id": "katharine-th",
+              "start": 2,
+              "end": 4
+            },
+            {
+              "letter_id": "katharine-middle-vowel",
+              "start": 4,
+              "end": 5
+            },
+            {
+              "letter_id": "katharine-rin",
+              "start": 5,
+              "end": 8
+            },
+            {
+              "letter_id": "katharine-e",
+              "start": 8,
+              "end": 9
+            }
+          ],
+          "focus_polygon": [
+            [
+              1149,
+              245
+            ],
+            [
+              1157,
+              224
+            ],
+            [
+              1184,
+              218
+            ],
+            [
+              1201,
+              235
+            ],
+            [
+              1209,
+              230
+            ],
+            [
+              1211,
+              218
+            ],
+            [
+              1254,
+              218
+            ],
+            [
+              1257,
+              240
+            ],
+            [
+              1282,
+              240
+            ],
+            [
+              1312,
+              239
+            ],
+            [
+              1347,
+              241
+            ],
+            [
+              1347,
+              276
+            ],
+            [
+              1320,
+              282
+            ],
+            [
+              1260,
+              283
+            ],
+            [
+              1235,
+              292
+            ],
+            [
+              1205,
+              295
+            ],
+            [
+              1201,
+              275
+            ],
+            [
+              1177,
+              278
+            ],
+            [
+              1152,
+              267
+            ]
+          ],
+          "neutral_crossing_polygons": [
+            [
+              [
+                1231,
+                218
+              ],
+              [
+                1257,
+                218
+              ],
+              [
+                1257,
+                263
+              ],
+              [
+                1231,
+                263
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "john-1577-androw",
+      "title": "m[ar]iory: read the name as Marjory",
+      "image": "/assets/research/testament-crops/john-1577-family.jpg",
+      "image_width": 1430,
+      "image_height": 560,
+      "height": 560,
+      "region": [
+        174,
+        277,
+        156,
+        78
+      ],
+      "reading": "m[ar]iory",
+      "expansion": "Mariory, modernized as Marjory. The bracketed ar is an expansion, not two separately written letters.",
+      "confidence": "Accepted reading: m[ar]iory, supplied by human contributor Double_Show_9316 and accepted by the project owner.",
+      "context": "The ampersand links this child to Katherine on the preceding line. Read the name before the shared surname glasgwis. The supplied human contributor reads m[ar]iory; that is the current reading used here.",
+      "review_status": "source-aligned",
+      "locator_note": "Find the large ampersand at the left of the next line, then the short name beginning around x185. Do not include the ampersand or the following surname as letters of the name. The wide lower margin keeps the final returning stroke.",
+      "conclusion": "The named child is Marjory Glasgow. The earlier model reading Androw is superseded, not a competing current reading. Accepting the name does not establish a later profile identity or prove Margaret's maternity.",
+      "letters": [
+        {
+          "id": "marjory-name",
+          "label": "m[ar]iory: complete name, with ar expanded",
+          "position": "Between the ampersand and glasgwis",
+          "glyph": "m[ar]iory",
+          "region": [
+            174,
+            277,
+            156,
+            78
+          ],
+          "paths": [],
+          "reference": "lower-m",
+          "observed": "The supplied human reading identifies m[ar]iory. The project owner accepts that reading and points out that the initial a required by the earlier Androw suggestion is not supported.",
+          "matches": "Read the complete name with the contributor's explanation below. The teaching model spells out mariory; its initial m and final iory correspond to the written portions of that reading.",
+          "differs": "The teaching font writes the expansion ar in full and modern Marjory changes i to j. Neither change adds separately visible letters to the manuscript.",
+          "caution": "This is a whole-word comparison, not a newly verified set of individual letter boxes. Expanded ar remains uncoloured in the teaching model; the retired Androw letter segmentation is not reused."
+        }
+      ],
+      "reading_steps": [
+        {
+          "title": "Locate the child's name",
+          "text": "Return to the left of the line below Katherine. The ampersand continues the list. The selected name comes next; stop before the separate surname glasgwis.",
+          "region": [
+            107,
+            277,
+            427,
+            96
+          ]
+        },
+        {
+          "title": "Begin with m, not an assumed a",
+          "text": "The accepted reading begins m. The project owner's correction rejects the unsupported initial a required by the earlier model guess. Superficial similarity in later strokes is not a reason to keep that guess as a live alternative.",
+          "region": [
+            174,
+            277,
+            156,
+            78
+          ]
+        },
+        {
+          "title": "Understand m[ar]iory",
+          "text": "Square brackets mark expanded letters: read m plus the expansion ar, followed by iory. The teaching model shows mariory with ar left neutral. Modern Marjory uses j where the transcription has i.",
+          "region": [
+            174,
+            277,
+            156,
+            78
+          ]
+        },
+        {
+          "title": "Follow the contributor's reasoning about the ending",
+          "text": "Double_Show_9316 reads m[ar]iory and rejects Marion: the contributor describes too many final strokes for n and explains that Marion would require a decorative terminal loop not otherwise seen in this writer. This is attributed human analysis, not a fresh model tracing.",
+          "region": [
+            269,
+            277,
+            61,
+            78
+          ]
+        },
+        {
+          "title": "Keep the relationship claim separate",
+          "text": "The shared surname and child/father clauses identify Marjory as one of John's named children. They do not, by themselves, identify a later adult profile or establish Margaret as her mother.",
+          "region": [
+            107,
+            261,
+            812,
+            157
+          ]
+        }
+      ],
+      "same_hand_comparisons": [
+        {
+          "image": "/assets/research/testament-crops/john-1577-confirmation-277.jpg",
+          "image_width": 1500,
+          "image_height": 760,
+          "region": [
+            724,
+            471,
+            184,
+            76
+          ],
+          "reading": "Second child's name in the confirmation",
+          "explanation": "Compare the repeated name group in the same testament. Marjory is identified from the accepted opening reading; this smaller occurrence is not claimed as a new independent letter-by-letter transcription."
+        }
+      ],
+      "nav_label": "Marjory",
+      "words": [
+        {
+          "text": "mariory",
+          "label": "mariory (expanded teaching model; ar is not separately written)",
+          "region": [
+            174,
+            277,
+            156,
+            78
+          ],
+          "font_groups": [
+            {
+              "letter_id": "marjory-name",
+              "start": 0,
+              "end": 1
+            },
+            {
+              "letter_id": "marjory-name",
+              "start": 3,
+              "end": 7
+            }
+          ],
+          "focus_polygon": [
+            [
+              174,
+              302
+            ],
+            [
+              183,
+              289
+            ],
+            [
+              211,
+              289
+            ],
+            [
+              216,
+              277
+            ],
+            [
+              244,
+              277
+            ],
+            [
+              249,
+              294
+            ],
+            [
+              269,
+              291
+            ],
+            [
+              282,
+              277
+            ],
+            [
+              310,
+              277
+            ],
+            [
+              330,
+              301
+            ],
+            [
+              330,
+              340
+            ],
+            [
+              309,
+              355
+            ],
+            [
+              280,
+              355
+            ],
+            [
+              269,
+              333
+            ],
+            [
+              239,
+              333
+            ],
+            [
+              220,
+              328
+            ],
+            [
+              190,
+              330
+            ],
+            [
+              174,
+              321
+            ]
+          ],
+          "neutral_crossing_polygons": [
+            [
+              [
+                274,
+                327
+              ],
+              [
+                330,
+                326
+              ],
+              [
+                330,
+                355
+              ],
+              [
+                274,
+                355
+              ]
+            ]
+          ]
+        }
+      ],
+      "superseded_reading": {
+        "reading": "androw[?]",
+        "status": "superseded",
+        "reason": "Supplied human m[ar]iory reading accepted by the project owner on 2026-09-10; unsupported initial a and model-specific letter segmentation retired."
+      }
+    },
+    {
+      "id": "john-1577-glasgwis",
+      "title": "Glasgwis: compare the repeated surname in this passage",
+      "image": "/assets/research/testament-crops/john-1577-family.jpg",
+      "image_width": 1430,
+      "image_height": 560,
+      "height": 560,
+      "region": [
+        333,
+        261,
+        200,
+        109
+      ],
+      "reading": "glasgwis (probable; ending less secure than the core)",
+      "expansion": "Glasgow surname; retain glasgwis as the provisional literal form.",
+      "confidence": "High for the Glasg- core and surname recognition; medium for the exact final letters.",
+      "context": "The word follows the second personal name. Its position supports reading the two names together with a following surname, but does not independently resolve the pronoun before lauchfull barnis.",
+      "review_status": "source-aligned",
+      "locator_note": "The word begins around x342. Its tall middle stroke reaches upward toward the widow surname, and its lower strokes approach the next line. The region intentionally retains both extents.",
+      "conclusion": "Two other occurrences of the same surname in this image provide stronger evidence than a modern printed alphabet. They confirm the characteristic glasg- sequence; the final wis-like group still needs qualification.",
+      "letters": [
+        {
+          "id": "glasgwis-g",
+          "label": "Glasgwis, letter 1: g",
+          "position": 1,
+          "glyph": "g",
+          "region": [
+            334,
+            294,
+            38,
+            65
+          ],
+          "reference": "lower-g",
+          "observed": "The opening has an angular dark body and a downward extension below the writing line.",
+          "matches": "The upper-line surname begins with a comparable descending g; the lower occurrence is especially close in overall pattern.",
+          "differs": "This example overlaps strokes from the following line more heavily.",
+          "caution": "Use the upper body as the easiest anchor. Do not assign all lower crossing ink to this letter.",
+          "paths": []
+        },
+        {
+          "id": "glasgwis-l",
+          "label": "Glasgwis, letter 2: l",
+          "position": 2,
+          "glyph": "l",
+          "region": [
+            361,
+            276,
+            37,
+            47
+          ],
+          "reference": "lower-l",
+          "observed": "A narrow loop rises above the body and returns into a low exit.",
+          "matches": "The second letter of each other surname occurrence has the same conspicuous raised loop.",
+          "differs": "The upper comparison has a wider and slightly rounder loop.",
+          "caution": "The l is much shorter than the adjacent long middle stroke; do not merge the two ascenders.",
+          "paths": []
+        },
+        {
+          "id": "glasgwis-a",
+          "label": "Glasgwis, letter 3: a",
+          "position": 3,
+          "glyph": "a",
+          "region": [
+            391,
+            296,
+            27,
+            29
+          ],
+          "reference": "lower-a",
+          "observed": "A small low body follows the looped l before the long middle stroke.",
+          "matches": "The other two surname occurrences likewise have a short low shape in this position.",
+          "differs": "The exact closure of the body is blurred by the joining stroke.",
+          "caution": "The repeated sequence supports a more strongly than the tiny shape alone.",
+          "paths": []
+        },
+        {
+          "id": "glasgwis-sg",
+          "label": "Glasgwis, letters 4-5: sg",
+          "position": 4,
+          "glyph": "sg",
+          "region": [
+            402,
+            261,
+            51,
+            107
+          ],
+          "reference": "lower-s",
+          "observed": "A long descending upright is followed by a rounded lower body to its right.",
+          "matches": "Both other surname occurrences repeat the tall stroke followed by a rounded lower element.",
+          "differs": "Here the top is crossed by the widow surname's lower stroke and the bottom nears the next line.",
+          "caution": "The coloured segment follows only a central section of the long stem. It does not reconstruct the full s/g joins.",
+          "paths": []
+        },
+        {
+          "id": "glasgwis-wi",
+          "label": "Glasgwis, letters 6-7: wi",
+          "position": 6,
+          "glyph": "wi",
+          "region": [
+            441,
+            278,
+            62,
+            56
+          ],
+          "reference": "lower-w",
+          "observed": "A sequence of taller and shorter connected body strokes follows the rounded middle element.",
+          "matches": "The equivalent portion of the upper and lower surname occurrences shows a related w-like movement.",
+          "differs": "Their endings differ and do not independently prove the i in this occurrence.",
+          "caution": "Keep wi as a group. An independent i dot is not securely identified.",
+          "paths": []
+        },
+        {
+          "id": "glasgwis-s",
+          "label": "Glasgwis, letter 8: s",
+          "position": 8,
+          "glyph": "s",
+          "region": [
+            493,
+            272,
+            40,
+            53
+          ],
+          "reference": "lower-s",
+          "observed": "The ending rises and curves into a small loop or hooked finish.",
+          "matches": "The terminal s of his provides a useful same-line example of a rising terminal stroke and low return.",
+          "differs": "This ending joins to the previous letter differently.",
+          "caution": "The terminal reading is plausible, but the suffix should remain less confident than the repeated Glasg- core.",
+          "paths": []
+        }
+      ],
+      "reading_steps": [
+        {
+          "title": "Read the distinctive sequence",
+          "text": "Start with the descending first letter, then the raised loop, a small low body, and the very long middle upright. These structural landmarks can be compared without first knowing the surname.",
+          "region": [
+            333,
+            261,
+            122,
+            109
+          ]
+        },
+        {
+          "title": "Compare the upper occurrence",
+          "text": "The surname after the upper John repeats the same g, looped l, low body and tall middle-stroke sequence. This is same-clerk evidence within the same document image.",
+          "region": [
+            992,
+            49,
+            179,
+            99
+          ]
+        },
+        {
+          "title": "Compare the lower occurrence",
+          "text": "The surname near the bottom repeats the pattern again. Its more open spacing helps distinguish the central long stroke from the rounded shape to its right.",
+          "region": [
+            714,
+            459,
+            146,
+            84
+          ]
+        },
+        {
+          "title": "Reassess the ending separately",
+          "text": "The final strokes in the children's line appear to give wis, but the comparison words should not be used to force an identical suffix. Keep the core and ending confidence separate.",
+          "region": [
+            438,
+            271,
+            98,
+            68
+          ]
+        },
+        {
+          "title": "Leave the following connector unresolved",
+          "text": "There is another descending round-headed sign after the surname. Its identity is not supplied by recognizing Glasgow.",
+          "region": [
+            528,
+            275,
+            55,
+            107
+          ]
+        }
+      ],
+      "same_hand_comparisons": [
+        {
+          "image": "/assets/research/testament-crops/john-1577-family.jpg",
+          "image_width": 1430,
+          "image_height": 560,
+          "region": [
+            992,
+            49,
+            179,
+            99
+          ],
+          "reading": "glasg... after John in the upper line",
+          "explanation": "Compare the complete repeated sequence: descending initial, looped second letter, short body, long central stroke, and rounded lower element. The region preserves tall strokes and neighbouring crossings."
+        },
+        {
+          "image": "/assets/research/testament-crops/john-1577-family.jpg",
+          "image_width": 1430,
+          "image_height": 560,
+          "region": [
+            714,
+            459,
+            146,
+            84
+          ],
+          "reading": "glasg... after John near the bottom",
+          "explanation": "This is a second same-clerk surname occurrence with more open spacing. It supports the core surname reading without determining the ending in the children's line."
+        },
+        {
+          "image": "/assets/research/testament-crops/john-1577-family.jpg",
+          "image_width": 1430,
+          "image_height": 560,
+          "region": [
+            561,
+            222,
+            36,
+            53
+          ],
+          "reading": "s at the end of his",
+          "explanation": "Compare the rising terminal stroke and small low return when assessing the last letter of glasgwis."
+        }
+      ],
+      "nav_label": "Glasgwis",
+      "words": [
+        {
+          "text": "glasgwis",
+          "label": "glasgwis (ending uncertain)",
+          "region": [
+            333,
+            261,
+            200,
+            109
+          ],
+          "font_groups": [
+            {
+              "letter_id": "glasgwis-g",
+              "start": 0,
+              "end": 1
+            },
+            {
+              "letter_id": "glasgwis-l",
+              "start": 1,
+              "end": 2
+            },
+            {
+              "letter_id": "glasgwis-a",
+              "start": 2,
+              "end": 3
+            },
+            {
+              "letter_id": "glasgwis-sg",
+              "start": 3,
+              "end": 5
+            },
+            {
+              "letter_id": "glasgwis-wi",
+              "start": 5,
+              "end": 7
+            },
+            {
+              "letter_id": "glasgwis-s",
+              "start": 7,
+              "end": 8
+            }
+          ],
+          "focus_polygon": [
+            [
+              333,
+              302
+            ],
+            [
+              344,
+              289
+            ],
+            [
+              363,
+              289
+            ],
+            [
+              369,
+              275
+            ],
+            [
+              394,
+              272
+            ],
+            [
+              405,
+              287
+            ],
+            [
+              408,
+              261
+            ],
+            [
+              435,
+              261
+            ],
+            [
+              441,
+              280
+            ],
+            [
+              474,
+              275
+            ],
+            [
+              493,
+              284
+            ],
+            [
+              506,
+              265
+            ],
+            [
+              526,
+              269
+            ],
+            [
+              533,
+              292
+            ],
+            [
+              533,
+              329
+            ],
+            [
+              498,
+              337
+            ],
+            [
+              468,
+              335
+            ],
+            [
+              449,
+              343
+            ],
+            [
+              435,
+              370
+            ],
+            [
+              403,
+              370
+            ],
+            [
+              400,
+              337
+            ],
+            [
+              371,
+              335
+            ],
+            [
+              352,
+              363
+            ],
+            [
+              333,
+              355
+            ]
+          ],
+          "neutral_crossing_polygons": [
+            [
+              [
+                407,
+                261
+              ],
+              [
+                437,
+                261
+              ],
+              [
+                437,
+                289
+              ],
+              [
+                407,
+                289
+              ]
+            ],
+            [
+              [
+                333,
+                330
+              ],
+              [
+                373,
+                330
+              ],
+              [
+                373,
+                370
+              ],
+              [
+                333,
+                370
+              ]
+            ],
+            [
+              [
+                403,
+                335
+              ],
+              [
+                442,
+                335
+              ],
+              [
+                442,
+                370
+              ],
+              [
+                403,
+                370
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "john-1577-lawful-children",
+      "title": "Lauchfull barnis: read the status separately from the pronoun",
+      "image": "/assets/research/testament-crops/john-1577-family.jpg",
+      "image_width": 1430,
+      "image_height": 560,
+      "height": 560,
+      "region": [
+        570,
+        243,
+        349,
+        130
+      ],
+      "reading": "lauchfull barnis",
+      "expansion": "lawful children",
+      "confidence": "High for the phrase overall; the joined internal letters are taught as groups.",
+      "context": "The phrase follows the surname and an unresolved connector. It describes lawful children, but the uncertain connector must be resolved before relying on this crop alone for its exact grammatical possessor.",
+      "review_status": "source-aligned",
+      "locator_note": "The first clear loop of lauchfull is around x580, after the separate round-headed descending sign near x545. The word has tall and low strokes extending into neighbouring lines; barnis begins around x780.",
+      "conclusion": "The words lauchfull barnis are supported. Do not silently translate the preceding unclear sign as his or their, and do not infer maternity from the widow wording.",
+      "letters": [
+        {
+          "id": "lawful-l",
+          "label": "lauchfull, letter 1: l",
+          "position": 1,
+          "glyph": "l",
+          "region": [
+            570,
+            272,
+            36,
+            50
+          ],
+          "reference": "lower-l",
+          "observed": "A raised loop returns into a low connecting stroke at the beginning of the word.",
+          "matches": "The l in glasgwis has a comparable loop and low exit.",
+          "differs": "The separate descending sign before this word is much larger and has a different body.",
+          "caution": "Do not absorb the preceding sign into this l.",
+          "paths": []
+        },
+        {
+          "id": "lawful-auc",
+          "label": "lauchfull, letters 2-4: auc",
+          "position": 2,
+          "glyph": "auc",
+          "region": [
+            598,
+            284,
+            64,
+            42
+          ],
+          "reference": "lower-u",
+          "observed": "Several low joined strokes run between the initial loop and the tall following group.",
+          "matches": "Short joined strokes in name and barnis illustrate the same writing rhythm.",
+          "differs": "Here the middle letters are unusually compressed.",
+          "caution": "auc is a whole-word-supported group; exact internal boundaries are not traced.",
+          "paths": []
+        },
+        {
+          "id": "lawful-hf",
+          "label": "lauchfull, letters 5-6: hf",
+          "position": 5,
+          "glyph": "hf",
+          "region": [
+            642,
+            243,
+            88,
+            129
+          ],
+          "reference": "lower-h",
+          "observed": "This group includes tall slanting strokes and a long lower return.",
+          "matches": "The h in his shows why an h may extend below as well as above the line.",
+          "differs": "The following f-like stroke makes the group much taller and more crowded.",
+          "caution": "The extended strokes must remain in the sample. Their joins cross nearby writing, so a full trace would be misleading.",
+          "paths": []
+        },
+        {
+          "id": "lawful-ull",
+          "label": "lauchfull, letters 7-9: ull",
+          "position": 7,
+          "glyph": "ull",
+          "region": [
+            710,
+            264,
+            72,
+            66
+          ],
+          "reference": "lower-l",
+          "observed": "A low joined body leads into two rising looped movements before the next word.",
+          "matches": "The single l in glasgwis supplies a comparison for the loop construction.",
+          "differs": "These final loops are shorter and joined in succession.",
+          "caution": "The last exit approaches the b of barnis. Do not mistake the b's ascender for a third l.",
+          "paths": []
+        },
+        {
+          "id": "barnis-b",
+          "label": "barnis, letter 1: b",
+          "position": 1,
+          "glyph": "b",
+          "region": [
+            775,
+            264,
+            42,
+            68
+          ],
+          "reference": "lower-b",
+          "observed": "The word begins with a conspicuous raised loop returning into a rounded lower body.",
+          "matches": "Katharine's k also has an upper loop, allowing a useful contrast of the lower structure.",
+          "differs": "This b lacks the k's projecting branch to the right.",
+          "caution": "The thick joining ink below the loop should not be redrawn as a perfect modern b.",
+          "paths": []
+        },
+        {
+          "id": "barnis-arni",
+          "label": "barnis, letters 2-5: arni",
+          "position": 2,
+          "glyph": "arni",
+          "region": [
+            802,
+            284,
+            80,
+            50
+          ],
+          "reference": "lower-n",
+          "observed": "A compact succession of low bodies and upright strokes follows b.",
+          "matches": "The middle of Margaret and the ending of Katharine contain similarly compressed short-stroke runs.",
+          "differs": "The exact division between the short letters remains difficult.",
+          "caution": "Read the group within barnis; an independently certain i dot is not claimed.",
+          "paths": []
+        },
+        {
+          "id": "barnis-s",
+          "label": "barnis, letter 6: s",
+          "position": 6,
+          "glyph": "s",
+          "region": [
+            872,
+            267,
+            46,
+            64
+          ],
+          "reference": "lower-s",
+          "observed": "The final stroke rises and curls back toward the body before the next conjunction.",
+          "matches": "The s of his offers a same-clerk rising terminal comparison.",
+          "differs": "This terminal is more compressed against the next word.",
+          "caution": "Keep the next ampersand outside the letter region; only the word ending belongs to barnis.",
+          "paths": []
+        }
+      ],
+      "reading_steps": [
+        {
+          "title": "Separate the unresolved sign",
+          "text": "Before the first clear loop of lauchfull there is a round-headed descending sign. Keep it as its own unresolved element.",
+          "region": [
+            528,
+            274,
+            82,
+            110
+          ]
+        },
+        {
+          "title": "Read the first word in groups",
+          "text": "Follow l | auc | hf | ull. These teaching groups preserve the tall and low extensions that would disappear in a crop fitted only to the ordinary body height.",
+          "region": [
+            570,
+            243,
+            212,
+            130
+          ]
+        },
+        {
+          "title": "Find the new b of barnis",
+          "text": "The tall loop begins the next word. Its rounded body distinguishes it from an extra l at the end of lauchfull.",
+          "region": [
+            763,
+            263,
+            66,
+            70
+          ]
+        },
+        {
+          "title": "Translate only what is secure",
+          "text": "Lauchfull barnis means lawful children. The identity of the possessor belongs to the still-uncertain connector, not to these two words alone.",
+          "region": [
+            570,
+            243,
+            349,
+            130
+          ]
+        }
+      ],
+      "same_hand_comparisons": [
+        {
+          "image": "/assets/research/testament-crops/john-1577-family.jpg",
+          "image_width": 1430,
+          "image_height": 560,
+          "region": [
+            361,
+            276,
+            37,
+            47
+          ],
+          "reading": "l in glasgwis",
+          "explanation": "Compare the initial raised loop and low exit with the start of lauchfull."
+        },
+        {
+          "image": "/assets/research/testament-crops/john-1577-family.jpg",
+          "image_width": 1430,
+          "image_height": 560,
+          "region": [
+            514,
+            215,
+            43,
+            81
+          ],
+          "reading": "h in his",
+          "explanation": "This clear local h shows the full vertical scale of the letter; it is a useful caution against trimming the hf group."
+        },
+        {
+          "image": "/assets/research/testament-crops/john-1577-family.jpg",
+          "image_width": 1430,
+          "image_height": 560,
+          "region": [
+            561,
+            222,
+            36,
+            53
+          ],
+          "reading": "s in his",
+          "explanation": "Compare the terminal rise and lower return with the end of barnis."
+        }
+      ],
+      "nav_label": "Lauchfull barnis",
+      "words": [
+        {
+          "text": "lauchfull",
+          "region": [
+            570,
+            243,
+            212,
+            130
+          ],
+          "font_groups": [
+            {
+              "letter_id": "lawful-l",
+              "start": 0,
+              "end": 1
+            },
+            {
+              "letter_id": "lawful-auc",
+              "start": 1,
+              "end": 4
+            },
+            {
+              "letter_id": "lawful-hf",
+              "start": 4,
+              "end": 6
+            },
+            {
+              "letter_id": "lawful-ull",
+              "start": 6,
+              "end": 9
+            }
+          ],
+          "focus_polygon": [
+            [
+              570,
+              290
+            ],
+            [
+              579,
+              272
+            ],
+            [
+              606,
+              271
+            ],
+            [
+              614,
+              285
+            ],
+            [
+              635,
+              278
+            ],
+            [
+              649,
+              258
+            ],
+            [
+              674,
+              257
+            ],
+            [
+              690,
+              243
+            ],
+            [
+              713,
+              243
+            ],
+            [
+              717,
+              266
+            ],
+            [
+              742,
+              265
+            ],
+            [
+              757,
+              254
+            ],
+            [
+              782,
+              255
+            ],
+            [
+              782,
+              327
+            ],
+            [
+              747,
+              335
+            ],
+            [
+              724,
+              335
+            ],
+            [
+              703,
+              373
+            ],
+            [
+              677,
+              373
+            ],
+            [
+              661,
+              349
+            ],
+            [
+              633,
+              346
+            ],
+            [
+              634,
+              323
+            ],
+            [
+              604,
+              324
+            ],
+            [
+              582,
+              328
+            ],
+            [
+              570,
+              313
+            ]
+          ],
+          "neutral_crossing_polygons": [
+            [
+              [
+                635,
+                243
+              ],
+              [
+                782,
+                243
+              ],
+              [
+                782,
+                273
+              ],
+              [
+                635,
+                273
+              ]
+            ],
+            [
+              [
+                660,
+                344
+              ],
+              [
+                716,
+                344
+              ],
+              [
+                716,
+                373
+              ],
+              [
+                660,
+                373
+              ]
+            ]
+          ]
+        },
+        {
+          "text": "barnis",
+          "region": [
+            775,
+            264,
+            144,
+            70
+          ],
+          "font_groups": [
+            {
+              "letter_id": "barnis-b",
+              "start": 0,
+              "end": 1
+            },
+            {
+              "letter_id": "barnis-arni",
+              "start": 1,
+              "end": 5
+            },
+            {
+              "letter_id": "barnis-s",
+              "start": 5,
+              "end": 6
+            }
+          ],
+          "focus_polygon": [
+            [
+              775,
+              292
+            ],
+            [
+              785,
+              272
+            ],
+            [
+              801,
+              264
+            ],
+            [
+              814,
+              274
+            ],
+            [
+              820,
+              288
+            ],
+            [
+              843,
+              282
+            ],
+            [
+              861,
+              281
+            ],
+            [
+              875,
+              268
+            ],
+            [
+              896,
+              264
+            ],
+            [
+              913,
+              276
+            ],
+            [
+              919,
+              297
+            ],
+            [
+              919,
+              326
+            ],
+            [
+              898,
+              334
+            ],
+            [
+              870,
+              328
+            ],
+            [
+              843,
+              332
+            ],
+            [
+              813,
+              324
+            ],
+            [
+              794,
+              326
+            ],
+            [
+              775,
+              312
+            ]
+          ],
+          "neutral_crossing_polygons": [
+            [
+              [
+                873,
+                264
+              ],
+              [
+                919,
+                264
+              ],
+              [
+                919,
+                280
+              ],
+              [
+                873,
+                280
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "john-1577-connector",
+      "title": "The sign before lauchfull: unresolved ink, not an expanded pronoun",
+      "image": "/assets/research/testament-crops/john-1577-family.jpg",
+      "image_width": 1430,
+      "image_height": 560,
+      "height": 560,
+      "region": [
+        526,
+        273,
+        58,
+        111
+      ],
+      "reading": "[unresolved sign or abbreviation]",
+      "expansion": "No expansion assigned.",
+      "confidence": "Low; insufficient for a choice of his, thair or another expansion.",
+      "context": "The sign lies between glasgwis and lauchfull barnis. Its interpretation affects how the kinship phrase is translated.",
+      "review_status": "source-aligned",
+      "locator_note": "Look just after the surname ending and before the small loop beginning lauchfull. A rounded head sits near the writing line and a long stroke descends through the space occupied by the next line.",
+      "conclusion": "Leave an explicit gap or uncertainty marker. Neither the expected legal formula nor the recognized surname proves the sign's reading.",
+      "letters": [
+        {
+          "id": "connector-sign",
+          "label": "Unresolved connector, sign 1",
+          "position": 1,
+          "glyph": "[?]",
+          "region": [
+            526,
+            273,
+            58,
+            111
+          ],
+          "reference": "abbreviation",
+          "observed": "A rounded head and a long descending movement are visible; nearby lower-line strokes overlap the descent.",
+          "matches": "Some descending letterforms elsewhere also have rounded heads, but no identical, securely expanded sign is established here.",
+          "differs": "The sign does not present an independently legible sequence of the letters his or thair.",
+          "caution": "No trace is supplied: the lower crossings cannot all be assigned to this sign, and a reconstructed pronoun would invent ink.",
+          "paths": []
+        }
+      ],
+      "reading_steps": [
+        {
+          "title": "Keep the neighbouring word boundary",
+          "text": "The small loop beginning lauchfull sits to the right of the larger descending sign. Do not merge them simply to match an expected phrase.",
+          "region": [
+            526,
+            270,
+            89,
+            114
+          ]
+        },
+        {
+          "title": "Separate shape from expansion",
+          "text": "Describe the round head and descending movement first. A diplomatic transcript should retain uncertainty until a securely comparable abbreviation or clearer source resolves it.",
+          "region": [
+            526,
+            273,
+            58,
+            111
+          ]
+        },
+        {
+          "title": "Preserve the genealogical limit",
+          "text": "The secure widow phrase and the words lawful children remain useful. They do not authorize supplying an unread pronoun or making a new maternity claim.",
+          "region": [
+            526,
+            273,
+            58,
+            111
+          ]
+        }
+      ],
+      "same_hand_comparisons": [
+        {
+          "image": "/assets/research/testament-crops/john-1577-family.jpg",
+          "image_width": 1430,
+          "image_height": 560,
+          "region": [
+            334,
+            294,
+            38,
+            65
+          ],
+          "reading": "initial g of glasgwis",
+          "explanation": "This is a visual comparison of descending structures only. A similar lower movement is not proof that the unresolved sign is g or any particular abbreviation."
+        },
+        {
+          "image": "/assets/research/testament-crops/john-1577-family.jpg",
+          "image_width": 1430,
+          "image_height": 560,
+          "region": [
+            570,
+            272,
+            36,
+            50
+          ],
+          "reading": "initial l of lauchfull",
+          "explanation": "The small raised loop to the right makes the boundary between the unresolved sign and the following word easier to see."
+        }
+      ],
+      "nav_label": "Unresolved sign",
+      "words": [
+        {
+          "text": "Unresolved sign",
+          "unresolved": true,
+          "region": [
+            526,
+            273,
+            58,
+            111
+          ],
+          "font_groups": []
+        }
+      ]
+    },
+    {
+      "id": "john-1577-confirmation-children-source-aligned",
+      "title": "Locate the two names repeated in the confirmation",
+      "image": "/assets/research/testament-crops/john-1577-confirmation-277.jpg",
+      "image_width": 1500,
+      "image_height": 760,
+      "region": [
+        480,
+        464,
+        652,
+        90
+      ],
+      "reading": "Katharine [Marjory] glasgwis",
+      "expansion": "Katherine and Marjory Glasgow. Here [Marjory] identifies the second child from the accepted family-declaration reading; it is not a claim to have independently deciphered every letter of this smaller occurrence.",
+      "confidence": "Marjory is the accepted name from the opening declaration. The exact compressed letter boundaries in this confirmation and an intervening ampersand are not independently resolved.",
+      "context": "The two forenames and shared surname are followed by an appointment formula, with the deceased's name and father clause on the next line. Compare this occurrence with the accepted m[ar]iory in the opening; both are within the same testament.",
+      "review_status": "source-aligned",
+      "locator_note": "Find the large looped k near x=500, then follow the line through the second forename around x=725-905 and the surname around x=895-1110. The line immediately below begins the clause naming the deceased.",
+      "conclusion": "The confirmation repeats the named children and father relationship within the same record. Use the opening's accepted Marjory reading without presenting the retired Androw hypothesis as a live alternative.",
+      "reading_steps": [
+        {
+          "title": "Begin at Katharine's distinctive initial",
+          "text": "The name starts with a large looped k at about x=500. It looks unlike a printed K: first locate its tall curved part, then its low arm running right. Do not treat the loop as a separate letter.",
+          "region": [
+            488,
+            473,
+            56,
+            53
+          ]
+        },
+        {
+          "title": "Follow Katharine as a connected word",
+          "text": "Follow the connected letter bodies from the initial towards x=700. A pronounced descending part appears near the beginning of the group; the name ends with a turning terminal stroke near x=690. The narrow humps in between cannot safely be counted as if each were a complete printed letter.",
+          "region": [
+            488,
+            475,
+            223,
+            66
+          ]
+        },
+        {
+          "title": "Isolate the second forename without filling gaps",
+          "text": "Keep the second forename together. This is the repeated name of Marjory, identified from the accepted opening reading m[ar]iory. The compact strokes here are not newly divided into verified individual letters; no intervening ampersand is securely isolated.",
+          "region": [
+            724,
+            471,
+            184,
+            76
+          ]
+        },
+        {
+          "title": "Recognise the surname by its repeated core",
+          "text": "The group after the second forename begins with a descending g, rises into l, and includes the same tall s seen in the deceased's surname. Compare the core glasgw with the line below before considering the extra ending.",
+          "region": [
+            895,
+            471,
+            179,
+            67
+          ]
+        },
+        {
+          "title": "Keep the plural ending attached to the surname",
+          "text": "There are additional strokes after the core glasgw, supporting the reading glasgwis. The following separate word is in. Keep the surname ending inside its own box so that in is not accidentally absorbed into the surname.",
+          "region": [
+            1035,
+            480,
+            142,
+            58
+          ]
+        }
+      ],
+      "letters": [
+        {
+          "id": "john-confirmation-katharine-k",
+          "label": "k: the looped start of Katharine",
+          "position": "First letter of the first forename",
+          "glyph": "k",
+          "region": [
+            488,
+            473,
+            56,
+            53
+          ],
+          "paths": [],
+          "reference": "lower-k",
+          "observed": "The initial curves up into a loop and returns to a low arm directed to the right.",
+          "matches": "It provides a conspicuous starting point for the proposed name Katharine.",
+          "differs": "The looped construction differs substantially from a modern printed K.",
+          "caution": "Capitalisation in the displayed name is editorial; the box identifies the source form without imposing modern letter case."
+        },
+        {
+          "id": "john-confirmation-katharine-joined",
+          "label": "Joined remainder of Katharine",
+          "position": "Connected group following the initial k",
+          "glyph": "atharine",
+          "region": [
+            536,
+            481,
+            175,
+            60
+          ],
+          "paths": [],
+          "reference": "lower-h",
+          "observed": "A connected succession of low humps includes descending and terminal turning strokes.",
+          "matches": "The group supports the proposed complete name when read with its distinctive initial.",
+          "differs": "Several internal letters lack separable boundaries in this reproduction.",
+          "caution": "The label names the proposed segment; it is not a claim that each letter has been independently outlined."
+        },
+        {
+          "id": "john-confirmation-marjory",
+          "label": "Marjory: repeated name group",
+          "position": "Second forename, before the shared surname",
+          "glyph": "Marjory",
+          "region": [
+            724,
+            471,
+            184,
+            76
+          ],
+          "paths": [],
+          "reference": "lower-m",
+          "observed": "The selected compact group is the second forename before the shared surname.",
+          "matches": "Its role and position correspond to Marjory in the opening declaration, whose accepted reading is m[ar]iory.",
+          "differs": "The compressed confirmation occurrence does not supply a separately established letter-by-letter spelling. Its teaching model uses the accepted expanded name.",
+          "caution": "Colour compares the whole name group, not individually verified letters. The human excerpt transcribes the opening, not this separate confirmation crop."
+        },
+        {
+          "id": "john-confirmation-children-surname",
+          "label": "glasgw: repeated surname core",
+          "position": "After both forenames",
+          "glyph": "glasgw",
+          "region": [
+            895,
+            471,
+            179,
+            67
+          ],
+          "paths": [],
+          "reference": "lower-s",
+          "observed": "The group has a descending initial, a rising loop and a tall sloping shaft among its connected strokes.",
+          "matches": "Their sequence matches the surname landmarks in the deceased's name on the next line and in the opening identification.",
+          "differs": "This occurrence continues into a plural ending and is more tightly joined.",
+          "caution": "Compare the shared core before the ending. Do not use the expected surname to trace through unclear joins."
+        },
+        {
+          "id": "john-confirmation-children-ending",
+          "label": "is: the surname ending",
+          "position": "End of glasgwis, before the separate in",
+          "glyph": "is",
+          "region": [
+            1060,
+            478,
+            56,
+            50
+          ],
+          "paths": [],
+          "reference": "lower-s",
+          "observed": "Short final strokes and a turned ending follow the shared surname core.",
+          "matches": "The additional ending is consistent with the proposed plural surname glasgwis.",
+          "differs": "The deceased's singular surname lacks this additional ending.",
+          "caution": "This is an ending-level comparison, not two fully independent letter identifications."
+        }
+      ],
+      "same_hand_comparisons": [
+        {
+          "image": "/assets/research/testament-crops/john-1577-confirmation-277.jpg",
+          "image_width": 1500,
+          "image_height": 760,
+          "region": [
+            558,
+            528,
+            154,
+            88
+          ],
+          "reading": "glasgw",
+          "explanation": "The deceased's surname on the next line provides the closest comparison for the children's surname core. Compare the order of descending g, rising l and tall s, allowing for different joins and the added ending in glasgwis."
+        },
+        {
+          "image": "/assets/research/testament-crops/john-1577-subject-v2.jpg",
+          "image_width": 1440,
+          "image_height": 270,
+          "region": [
+            589,
+            49,
+            333,
+            142
+          ],
+          "reading": "glasgw",
+          "explanation": "The wider opening occurrence makes the surname's sequence easier to see. Compare these actual ink forms; no generic alphabet is needed to establish that the same sequence recurs."
+        }
+      ],
+      "nav_label": "Names repeated",
+      "words": [
+        {
+          "text": "Katharine",
+          "region": [
+            480,
+            464,
+            237,
+            90
+          ],
+          "font_groups": [
+            {
+              "letter_id": "john-confirmation-katharine-k",
+              "start": 0,
+              "end": 1
+            },
+            {
+              "letter_id": "john-confirmation-katharine-joined",
+              "start": 1,
+              "end": 9
+            }
+          ]
+        },
+        {
+          "text": "mariory",
+          "label": "mariory (expanded name for comparison)",
+          "region": [
+            724,
+            471,
+            184,
+            76
+          ],
+          "font_groups": [
+            {
+              "letter_id": "john-confirmation-marjory",
+              "start": 0,
+              "end": 7
+            }
+          ]
+        },
+        {
+          "text": "glasgwis",
+          "region": [
+            895,
+            471,
+            237,
+            67
+          ],
+          "font_groups": [
+            {
+              "letter_id": "john-confirmation-children-surname",
+              "start": 0,
+              "end": 6
+            },
+            {
+              "letter_id": "john-confirmation-children-ending",
+              "start": 6,
+              "end": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "john-1577-confirmation-father-source-aligned",
+      "title": "Check the repeated name and the father clause",
+      "image": "/assets/research/testament-crops/john-1577-confirmation-277.jpg",
+      "image_width": 1500,
+      "image_height": 760,
+      "region": [
+        410,
+        520,
+        533,
+        106
+      ],
+      "reading": "Johne glasgw [thair] father",
+      "expansion": "John Glasgow, their father. Here [thair] expands the compact abbreviated form before father; it is not a transcription of five fully written letters.",
+      "confidence": "Strong for the repeated name and father; moderate for the isolated abbreviated form expanded as thair. The family declaration provides a visually inspected parallel father phrase.",
+      "context": "This clause occurs on the line below the two forenames and shared surname. The surrounding confirmation formula is not completely transcribed here. The relationship wording must be read in that connected passage, not detached from it.",
+      "review_status": "source-aligned",
+      "locator_note": "On the line below Katherine and Marjory, locate the tall J around x=445. The surname ends around x=710. A compact abbreviation follows; the clearer father begins with a tall crossed f around x=780.",
+      "conclusion": "The repeated name and father wording support John Glasgow as father of the named children, Katherine and Marjory. The compact abbreviation remains an expansion; the accepted name does not establish a later profile identity.",
+      "reading_steps": [
+        {
+          "title": "Move down one line from the two forenames",
+          "text": "Find the same large-initial-plus-surname sequence on the next line. Its position beneath the names is the locator; the connected wording supplies the relationship. An adjacent line by itself would not prove kinship.",
+          "region": [
+            419,
+            527,
+            291,
+            96
+          ]
+        },
+        {
+          "title": "Compare Johne glasgw with the opening",
+          "text": "The J here is narrower and extends down between neighbouring strokes. After the joined forename, the surname repeats the descending g, rising l and tall s. Compare the complete sequence with the opening image rather than requiring identical outlines at a different scale.",
+          "region": [
+            419,
+            527,
+            291,
+            96
+          ]
+        },
+        {
+          "title": "Pause at the abbreviation before father",
+          "text": "Immediately after glasgw is a compact sign with a short horizontal stroke and a curved descending part. The proposed expansion is thair, meaning their. The full letters t-h-a-i-r cannot be pointed to separately in this occurrence, so the expansion is shown in brackets.",
+          "region": [
+            712,
+            540,
+            43,
+            61
+          ]
+        },
+        {
+          "title": "Anchor father on the crossed f",
+          "text": "The next word begins with a tall stem crossed near the level of the short letter bodies. Follow the connected word rightwards and compare the complete word with the family declaration. Keep crossing ink distinct from a confident reconstruction of the f.",
+          "region": [
+            761,
+            527,
+            172,
+            86
+          ]
+        },
+        {
+          "title": "Check the father's word in the family declaration",
+          "text": "Open the parallel phrase thair said vmqle father in the family image. Its father again begins with a long crossed f and continues into similarly joined letters. The fuller parallel helps interpret the shortened confirmation wording, but does not make its abbreviation fully legible.",
+          "region": [
+            761,
+            527,
+            172,
+            86
+          ]
+        },
+        {
+          "title": "Keep the evidential claim within the passage",
+          "text": "Read the children's names, the deceased's repeated name and the father clause together. Marjory is the accepted name; the compact possessive remains an expansion. Neither the name nor the role by itself establishes a verified modern profile identity.",
+          "region": [
+            480,
+            464,
+            652,
+            155
+          ]
+        }
+      ],
+      "letters": [
+        {
+          "id": "john-confirmation-j",
+          "label": "J: a narrow descending initial",
+          "position": "Opening of the repeated Johne",
+          "glyph": "J",
+          "region": [
+            419,
+            526,
+            56,
+            97
+          ],
+          "paths": [],
+          "reference": "upper-J",
+          "observed": "A tall initial descends well below the short letter bodies and has a small upper turning stroke.",
+          "matches": "The opening identification begins the same proposed name with a tall J and a lower extension.",
+          "differs": "The confirmation initial is narrower; the opening initial has a broad loop.",
+          "caution": "Ink from the line beneath enters the lower portion of this box. Keep that neighbouring writing separate."
+        },
+        {
+          "id": "john-confirmation-surname-long-s",
+          "label": "s: the surname's tall shaft",
+          "position": "Within the repeated glasgw",
+          "glyph": "s",
+          "region": [
+            636,
+            526,
+            32,
+            78
+          ],
+          "paths": [],
+          "reference": "lower-s",
+          "observed": "A tall narrow sloping stroke occupies the same position in the surname as the conspicuous long s in the opening crop.",
+          "matches": "Its position between the low preceding letters and the gw ending repeats the opening surname sequence.",
+          "differs": "It is compressed between joined letters and nearby strokes in this occurrence.",
+          "caution": "Use this as a positional landmark within the repeated word; its outline alone does not prove the surname."
+        },
+        {
+          "id": "john-confirmation-thair-abbreviation",
+          "label": "Abbreviated thair: an expansion, not five letters",
+          "position": "Between glasgw and father",
+          "glyph": "[thair]",
+          "region": [
+            712,
+            540,
+            43,
+            61
+          ],
+          "paths": [],
+          "reference": "abbreviation-thair",
+          "observed": "A compact form has a short horizontal component and a curved descending component.",
+          "matches": "Its position before father is compatible with thair, supported by the fuller parallel father phrase in the family declaration.",
+          "differs": "The parallel occurrence has a longer visible word group; the confirmation does not write five individually recoverable letters here.",
+          "caution": "Moderate confidence in the expansion. No confident letter-level or superscript-level reconstruction is supplied."
+        },
+        {
+          "id": "john-confirmation-father-f",
+          "label": "f: the crossed stem in father",
+          "position": "First letter of father",
+          "glyph": "f",
+          "region": [
+            761,
+            527,
+            50,
+            90
+          ],
+          "paths": [],
+          "reference": "lower-f",
+          "observed": "A long stem descends below the short letter bodies, with a lateral cross-stroke near their level.",
+          "matches": "The family declaration's father begins with a similarly prominent long crossed f.",
+          "differs": "The confirmation's word is smaller and its lower stroke approaches the line beneath.",
+          "caution": "The initial crosses nearby writing. Pixel colouring preserves what the crop contains; it cannot reconstruct the descender through overlapping ink."
+        },
+        {
+          "id": "john-confirmation-father-joined",
+          "label": "Joined remainder of father",
+          "position": "After the initial f",
+          "glyph": "ather",
+          "region": [
+            804,
+            531,
+            129,
+            78
+          ],
+          "paths": [],
+          "reference": "lower-h",
+          "observed": "Low joined bodies alternate with taller and descending strokes, ending in a rightward finishing stroke.",
+          "matches": "The complete word closely parallels father in the family declaration.",
+          "differs": "Scale, joins and overlapping neighbouring writing differ between the two occurrences.",
+          "caution": "This is a word-segment comparison. The individual inner letters have not been assigned fabricated isolated outlines."
+        }
+      ],
+      "same_hand_comparisons": [
+        {
+          "image": "/assets/research/testament-crops/john-1577-subject-v2.jpg",
+          "image_width": 1440,
+          "image_height": 270,
+          "region": [
+            316,
+            45,
+            610,
+            149
+          ],
+          "reading": "Johne glasgw",
+          "explanation": "The opening identification supplies the same proposed name. Compare the whole sequence and its distinctive rising and descending landmarks; the two occurrences are not identical stencils."
+        },
+        {
+          "image": "/assets/research/testament-crops/john-1577-family.jpg",
+          "image_width": 1430,
+          "image_height": 560,
+          "region": [
+            129,
+            307,
+            550,
+            111
+          ],
+          "reading": "thair said vmqle father",
+          "explanation": "This visually inspected family phrase is the comparison for the father clause. The fuller wording assists the expansion of the confirmation's compact thair form. Strokes from adjoining lines overlap its crop; they should not be traced into the phrase."
+        },
+        {
+          "image": "/assets/research/testament-crops/john-1577-family.jpg",
+          "image_width": 1430,
+          "image_height": 560,
+          "region": [
+            513,
+            308,
+            165,
+            110
+          ],
+          "reading": "father",
+          "explanation": "Start with the long crossed f, then compare the connected remainder with the confirmation's father. This is a source-specific word comparison rather than a generic secretary-hand alphabet."
+        }
+      ],
+      "nav_label": "Their father",
+      "words": [
+        {
+          "text": "Johne",
+          "region": [
+            419,
+            526,
+            140,
+            97
+          ],
+          "font_groups": [
+            {
+              "letter_id": "john-confirmation-j",
+              "start": 0,
+              "end": 1
+            }
+          ]
+        },
+        {
+          "text": "glasgw",
+          "region": [
+            558,
+            528,
+            154,
+            88
+          ],
+          "font_groups": [
+            {
+              "letter_id": "john-confirmation-surname-long-s",
+              "start": 3,
+              "end": 4
+            }
+          ]
+        },
+        {
+          "text": "Unexpanded sign",
+          "unresolved": true,
+          "region": [
+            712,
+            540,
+            43,
+            61
+          ],
+          "font_groups": []
+        },
+        {
+          "text": "father",
+          "region": [
+            761,
+            527,
+            172,
+            90
+          ],
+          "font_groups": [
+            {
+              "letter_id": "john-confirmation-father-f",
+              "start": 0,
+              "end": 1
+            },
+            {
+              "letter_id": "john-confirmation-father-joined",
+              "start": 1,
+              "end": 6
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

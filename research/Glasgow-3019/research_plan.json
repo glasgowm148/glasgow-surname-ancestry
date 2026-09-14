@@ -1,6 +1,16 @@
 {
   "case_id": "Glasgow-3019",
-  "findings": [{"claim":"The profile conflates the separately indexed 1650, 1662 and 1685 John Glasgow estates.","confidence":"high","reasoning":"Its biography describes the 1650 man, structured death says 1685, and attached family refers to 1662.","sources":["captures/20260717T084256Z_Glasgow-3019.json","sources/grant_commissariot_of_lanark_testaments_1595_1800_1903.pdf"]}],
+  "findings": [
+    {
+      "claim": "The profile conflates the separately indexed 1650, 1662 and 1685 John Glasgow estates.",
+      "confidence": "high",
+      "reasoning": "Its biography describes the 1650 man, structured death says 1685, and attached family refers to 1662.",
+      "sources": [
+        "captures/20260717T084256Z_Glasgow-3019.json",
+        "sources/grant_commissariot_of_lanark_testaments_1595_1800_1903.pdf"
+      ]
+    }
+  ],
   "objective": "Establish the identity and documented family of Glasgow-3019, separating sourced facts from tree assertions.",
   "questions": [
     {
@@ -34,10 +44,10 @@
       "generation": 0,
       "id": "Glasgow-3019",
       "kind": "wikitree",
-      "note": "WikiTree subject and immediate family captured.",
+      "note": "Public profile, biography, sources and immediate relationships captured through the WikiTree API.",
       "reason": "Initial subject and immediate family capture.",
       "status": "complete",
-      "updated_at": "2026-07-17T08:42:56Z"
+      "updated_at": "2026-09-10T00:29:17Z"
     }
   ],
   "web_searches": []

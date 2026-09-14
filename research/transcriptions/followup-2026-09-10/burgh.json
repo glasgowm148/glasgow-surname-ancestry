@@ -1,0 +1,73 @@
+{
+  "id": "burgh-bridge-2026-09-10",
+  "title": "Early Glasgow burgh kinship bridge: targeted protocol recheck",
+  "question": "Do the Bridgegait conveyance to Archibald Glasgow and Isobell Newlands, or the later rear-title, expressly connect Robert Glasgow, Archibald Glasgow, Isobella Glasgow wife of Archibald Herbesoun, and the proved John Glasgow son of William Glasgow and Esbell Brade?",
+  "conclusion": "No explicit kinship bridge was found in the newly inspected target abstracts. Protocol 84 proves Archibald Glasgow and Isobell Newlands were spouses and names Robert Glasgow as a witness; protocol 205 identifies John Glasgow only as the eastern neighbour of the relevant back tenement. Neither calls any of them child, sibling, heir, or other relative. This is consistent with, and does not weaken, the maintained probable sibling reconstruction supported by the wider property, craft, witness, and Herbesoun network. John remains the only member of this group directly proved as William and Esbell's son by protocol 1196 (1534).",
+  "status": "unresolved",
+  "findings": [
+    {
+      "claim": "On 21 May 1551 Elizabeth Beith sold the specified fore-and-back Bridgegait tenement to Archibald Glasgow and Isobell Newlands, spouses; Robert Glasgow was one of the witnesses.",
+      "status": "confirmed",
+      "basis": "Direct reading of Renwick's printed abstract: it names the spouses, the tenement's north-side Bridgegait boundaries (Thomas Bargill west; St Roche chaplainry east), and witnesses including Robert Glasgow. It contains no kin term between Robert and either purchaser.",
+      "source_url": "https://archive.org/download/abstractsofproto01glas/abstractsofproto01glas_djvu.txt",
+      "source_reference": "Robert Renwick, ed., Abstracts of Protocols of the Town Clerks of Glasgow, vol. I, protocol 84, p. 31, 21 May 1551 (Internet Archive item abstractsofproto01glas; public-domain scan/OCR; printed abstract, not the original protocol register).",
+      "new_this_pass": true
+    },
+    {
+      "claim": "On 31 January 1554/55, a back tenement held by Thomas Bargill lay with John Glasgow's lands on its east; the act does not state how John acquired his adjacent property or relate him to Archibald, Robert, or the Newlands spouses.",
+      "status": "confirmed",
+      "basis": "Direct reading of Renwick's printed abstract: protocol 205 describes the Bargill/Paterson rear-title boundary and names John Glasgow only as adjacent owner. No familial, succession, or conveyance clause connects the Glasgow parties.",
+      "source_url": "https://archive.org/download/abstractsofproto01glas/abstractsofproto01glas_djvu.txt",
+      "source_reference": "Robert Renwick, ed., Abstracts of Protocols of the Town Clerks of Glasgow, vol. I, protocol 205, 31 January 1554/55 (Internet Archive item abstractsofproto01glas; public-domain scan/OCR; printed abstract, not the original protocol register).",
+      "new_this_pass": true
+    },
+    {
+      "claim": "The target recheck found no contradiction to the maintained conclusion that Robert, Archibald, and Isobella are probable, not documented, siblings of John Glasgow.",
+      "status": "probable",
+      "basis": "The two checked acts independently preserve the documented spouse/witness/adjoining-title pattern but lack an express kin clause. Absence of a kin term in these abstracts cannot disprove the broader reconstruction or establish an unrelated family.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Abstracts_of_protocols_of_the_town_clerks_of_Glasgow_(IA_abstractsofproto01glas).pdf",
+      "source_reference": "Targeted recheck of Renwick, vol. I, protocols 84 and 205; compare the maintained evidence register, Glasgow Kinship Circle, current early-burgh reconstruction.",
+      "new_this_pass": true
+    }
+  ],
+  "searches": [
+    {
+      "target": "Renwick vol. I, protocol 84, 21 May 1551, Archibald Glasgow and Isobell Newlands",
+      "result": "Inspected public-domain OCR/printed abstract. Spouses and Robert Glasgow witness confirmed; no explicit kin term."
+    },
+    {
+      "target": "Renwick vol. I, protocol 205, 31 January 1554/55, rear title beside John Glasgow",
+      "result": "Inspected public-domain OCR/printed abstract. John Glasgow appears only as eastern adjoining owner; no title-transfer or kin clause."
+    },
+    {
+      "target": "Renwick vol. II, protocols 307 and 402",
+      "result": "Internet Archive target-item OCR endpoint returned HTTP 503. Alternate Internet Archive catalogue search found only series identifiers for vols. I, V, and VIII-X; no volume-II item was exposed under that prefix. No content was treated as inspected or cited."
+    },
+    {
+      "target": "Alternate Wikimedia Commons digitized scan for Renwick vol. II",
+      "result": "Public Commons file-catalogue search for the expected Volume-II identifier returned zero matches; no text inspected."
+    },
+    {
+      "target": "Google Books public metadata for an alternate Renwick vol. II digitization",
+      "result": "Public API request returned HTTP 429 before metadata could be inspected; no text or bibliographic claim added."
+    },
+    {
+      "target": "Renwick vol. II, 1559/60 Herbesoun/Glasgow acts",
+      "result": "Search discovery located only volume-level catalogue references, not a newly inspectable entry; no claim added."
+    },
+    {
+      "target": "Renwick vols. V-VII Robert Rowand, Herbesoun, and fisher-group target protocols",
+      "result": "Not re-read in this bounded pass because they are maintained baseline association evidence and no fresh explicit-kin lead emerged from the bridge-title check."
+    }
+  ],
+  "next_record": "Obtain and inspect the original-register image or a reliable full transcription for the missing conveyance behind the 1551-55 Bridgegait boundary sequence, then inspect Renwick vol. II protocols 307 and 402 once the scan endpoint is available. Prioritize any act that names the source of Archibald's title, a Glasgow heir, or a disposition among relatives.",
+  "profile_ids": [
+    "Glasgow-1098",
+    "Brade-232",
+    "Glasgow-1093",
+    "Glasgow-1096",
+    "Glasgow-1097",
+    "Newlands-647",
+    "Glasgow-3916"
+  ]
+}

@@ -31,8 +31,7 @@ in 1563. This repeated surname, craft and Bridgegait-property cluster strongly
 supports Isobella being a sister of John and Robert and therefore a daughter of
 William and Esbell. It remains circumstantial because no act uses a kin term.
 
-## Source finding
-
+## Source findings
 | Source | Finding | Assessment |
 | --- | --- | --- |
 | Robert Renwick, ed., *Abstracts of Protocols of the Town Clerks of Glasgow*, vol. 3, protocol 719, [27 January 1562/3](https://archive.org/details/abstractsprotoc06scogoog/page/n41/mode/2up) | Archibald Herbisoune, fisher, and Isobella Glasgow, spouses, sold a Bridgegait tenement; Isobella ratified the transaction. | Direct proof of spouse and survival, but no parent, sibling or child is named. |

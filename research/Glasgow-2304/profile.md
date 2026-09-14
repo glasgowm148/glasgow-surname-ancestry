@@ -1,11 +1,7 @@
-# Paste-ready replacement for Glasgow-2304
-
-```wikitext
 {{Estimated Date}}
 [[Category:Glasgow Name Study]]
 
 == Biography ==
-
 '''Archibald Glasgow''' was born about 1769. His birthplace has not been established. He was a son of [[Glasgow-1144|James Glasgow]] and [[Crosier-512|Mary Crosier]]. James's will named Archibald among his sons, and the later family equity proceedings again placed Archibald among the children of James and his widow Mary.<ref name="JamesWill">Newberry County, South Carolina, Will Book A, p. 194, will of James Glasgow, proved 1793; [https://web.archive.org/web/20101124184247id_/http://www.lifesweaving.com/Glasgow/Paper_JGlasgowWill.html transcription].</ref><ref name="Equity">Newberry District, South Carolina, Glasgow family equity complaint, 1817; [https://web.archive.org/web/20101124184247id_/http://www.lifesweaving.com/Glasgow/Paper_Complaint.html transcription].</ref>
 
 In 1800 Archibald was enumerated in Newberry District, South Carolina. His household contained one male under ten, one male aged 26–44, four females under ten, one female aged 16–25 and two enslaved people.<ref name="Census1800">"United States Census, 1800," Archibald Glasgow household, Newberry District, South Carolina, p. 75, NARA microfilm publication M32, roll 50; [https://familysearch.org/ark:/61903/1:1:XHRC-7BG FamilySearch record XHRC-7BG] and [https://genealogytrails.com/scar/newberry/1800nbycensusG.htm public household transcription].</ref> The schedule named only Archibald, so the identities and relationships of the other household members are not stated.
@@ -15,7 +11,6 @@ The 1810 census again records him in Newberry, indexed as ''Archald Glasgow''.<r
 Archibald died on 22 July 1818, aged 49, and was buried in Gilders Creek Cemetery in Newberry County.<ref name="Cemetery">[https://genealogytrails.com/scar/newberry/gilders_creek_cem.htm Gilders Creek Cemetery survey and photographs], Newberry County, South Carolina, entries for Archibald and the Glasgow family.</ref><ref name="ArchibaldFindAGrave">{{FindAGrave|33531767}}, memorial for Archibald Glasgow.</ref> The Newberry estate index identifies Mary Glasgow as administrator of his estate, numbered 647 in box 27, package 57.<ref name="Estate">[https://genealogytrails.com/scar/newberry/estates1785-1949/22.htm Newberry County estate index], 1818 entry for Archibald Glasgow, Mary Glasgow administrator, estate 647, box 27, package 57.</ref>
 
 == Research Notes ==
-
 === Wife and children ===
 
 The cemetery inscriptions directly name three children of Archibald and Mary. They do not give Mary's maiden surname. A Find a Grave memorial identifies her as '''Mary Spence Glasgow'''.<ref name="MaryFindAGrave">[https://www.findagrave.com/memorial/33531779/mary-glasgow Find a Grave memorial 33531779], Mary Spence Glasgow.</ref> The memorial is a useful identity lead, but the name ''Spence'' is not visible in the photographed Glasgow inscriptions and has not yet been confirmed by a marriage or probate record.
@@ -44,7 +39,9 @@ Robert's proposed son [[Glasgow-2738|James J Glasgow]] is the documented ancesto
 
 Archibald's original estate packet and the household columns of the 1810 census are the most likely records to confirm or exclude Robert. Until a kinship record is found, Robert remains unattached and Archibald's presently proved children are Neomi, Rachel and James.
 
-== Sources ==
+=== Current Larne reconstruction ===
 
+Archibald's documented children remain those named by the will, equity complaint and monument evidence. The 1800 Newberry household also has one otherwise unidentified boy under ten. [[Glasgow-2769|Robert Glasgow]]'s early-1790s working birth range and South Carolina origin make him a positive possible fit for that boy, while Archibald's monument-named son James was born about 1806 and cannot be the 1800 boy. The hypothesis needs a record naming the child: Archibald's estate 647 and the original 1810 household columns are direct tests. The woman aged 16–25 in 1800 is a maternal-age constraint, not a general exclusion: at the older end of Robert's compatible range she could have been about sixteen to twenty. No record yet identifies Robert as Archibald's son, so Robert must remain unattached or explicitly uncertain rather than presented as proved.<ref name="ArchibaldCurrent">The 1800 census and the cited estate index identify the missing-child question but do not name Robert.</ref>
+
+== Sources ==
 <references />
-```

@@ -1,5 +1,7 @@
 # Glasgow-1079 research findings
 
+Last updated: 2026-09-10
+
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-7c955507b78b -->
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-7c955507b78b
 
@@ -15,3 +17,24 @@ The transcript-validated baptism record for **Ninian Glasgow**, 06 Jan 1614, Gla
 
 Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
 <!-- END FMP-GLASGOW-fmp-glasgow-7c955507b78b -->
+
++### Supplied Scotland’s People OPR births and baptisms — 10 September 2026
+
+| Source locator | Indexed entry | Assessment |
+| --- | --- | --- |
+| [Scotland’s People](https://www.scotlandspeople.gov.uk/), OPR 644 / 1/10 / 121 | NINIAN GLASGOW; ROBERT GLASGOW/JONET CONYNGHAME; 06/01/1614; Glasgow | Index-only confirmation. Its combined birth/baptism date is retained as an index date; original image was not inspected. |
+
+Provenance: exact-surname Glasgow search, year range to 1700, 127 supplied results across six pages.
+
+<!-- opr-birth-review-row-52 -->
+## Source findings
+
+### Supplied OPR births and baptisms: row 52 — 10 September 2026
+
+[Scotland’s People](https://www.scotlandspeople.gov.uk/), **Old Parish Registers, births and baptisms**; exact surname Glasgow through 1700, 127 supplied results. **NINIAN GLASGOW**; indexed date **06/01/1614**; Glasgow; parish **644 / 1**, reference **10 / 121**. Parents/other exactly as indexed: **ROBERT GLASGOW/JONET CONYNGHAME**. Indexed gender: **M**.
+
+**Assessment:** Matches the existing child-record account by indexed date, locality and recorded family. This row adds the complete index locator as supporting provenance; it does not establish a new event or relationship.
+
+Original image not inspected for this batch. The combined collection’s date does not automatically establish a birthday. Names alone do not uniquely identify attached parents or connect a child with a later adult. An omitted parent or indexed gender U remains unspecified in this source.
+
+**Next action:** No additional WikiTree update from this row; preserve any existing pending work.

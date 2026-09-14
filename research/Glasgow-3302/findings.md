@@ -77,3 +77,15 @@ The transcript-validated marriage record for **Barbara Glasgow**, 21 Nov 1616, E
 
 Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
 <!-- END FMP-GLASGOW-fmp-glasgow-ef230e20e0e0 -->
+
+## Source findings
+
+### Supplied OPR banns and marriages — 10 September 2026
+
+| Source locator | Indexed parties | Assessment |
+| --- | --- | --- |
+| [Scotland’s People](https://www.scotlandspeople.gov.uk/), 1616-11-21, Edinburgh, OPR 685 / 1/430 / 109 | BARBARA GLASGOW; GEORGE JOHNSTOUN/FR710 (FR710) | Exact marriage already represented; connected Barbara identities remain unmerged. |
+
+Source: Old Parish Registers, banns and marriages; exact surname Glasgow through 1700, 55 supplied results. Original images not inspected for this batch; combined index dates do not by themselves establish ceremony dates.
+
+This batch adds supporting evidence or a qualified comparison only; it raises no additional WikiTree amendment for this profile.

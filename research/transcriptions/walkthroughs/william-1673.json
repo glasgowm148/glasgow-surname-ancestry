@@ -1,0 +1,186 @@
+{
+  "id": "william-1673",
+  "intro": "The named participants here are administering an estate. The enlarged words help separate personal names from procedural language in a dense court hand. Read the action and office alongside each name: neither an appearance in court nor a caution obligation establishes family membership.",
+  "people": [
+    {
+      "name": "William Glasgow",
+      "role": "Deceased estate subject; maintained profile association",
+      "status": "comparison",
+      "evidence_step": "administrators",
+      "profile_id": "Glasgow-3912"
+    },
+    {
+      "name": "Alexander Brown",
+      "role": "Administrator appearing with the inventory",
+      "status": "explicit",
+      "evidence_step": "administrators",
+      "evidence_study": "william-1673-diagnostic-letters"
+    },
+    {
+      "name": "John Neilson",
+      "role": "Administrator appearing with the inventory",
+      "status": "explicit",
+      "evidence_step": "administrators",
+      "evidence_study": "william-1673-jon-neilsone"
+    },
+    {
+      "name": "William Neilson",
+      "role": "Cautioner in Biggar",
+      "status": "explicit",
+      "evidence_step": "cautioner",
+      "evidence_study": "william-1673-williame-neilsone"
+    }
+  ],
+  "card_kin": {
+    "spouse": [],
+    "children": [],
+    "other_kin": []
+  },
+  "steps": [
+    {
+      "id": "administrators",
+      "title": "1. Names attached to producing the inventory",
+      "page_label": "National Records of Scotland, CC14/5/9, image 26; Crown copyright",
+      "image": "/assets/research/testament-crops/william-1673-administrators.jpg",
+      "image_width": 1500,
+      "image_height": 439,
+      "alt": "1. Names attached to producing the inventory: cropped original manuscript, CC14/5/9, image 26",
+      "original": "... Compeirit personallie ... / Alexr broun and Jon neilsone ... / [following production wording unresolved] ...",
+      "reading": "Alexander Brown and John Neilson appear personally in the estate proceeding as the executors dative; the following production wording is not securely resolved in this crop.",
+      "explanation": "The two names occupy the line immediately below Compeirit personallie. Alexr is the abbreviated Alexander, followed by broun; Jon neilsone supplies the other name. The source review supports this correction of the earlier George reading. The following production wording is not secure enough to quote or box. Neither highlighted name is accompanied here by son, brother or another family term.",
+      "proves": "Alexander Brown and John Neilson are the executors dative and participate in the estate's formal inventory administration.",
+      "does_not_prove": "Their participation does not identify either man as William Glasgow's relative or establish William's family.",
+      "confidence": "High for the two names and their appearance in the proceeding; low for the unboxed production wording.",
+      "marks": [
+        {
+          "x": 6.933333333333333,
+          "y": 59.2255125284738,
+          "w": 24.4,
+          "h": 31.662870159453306,
+          "pixel_bbox": [
+            104,
+            260,
+            470,
+            399
+          ],
+          "label": "Alexr broun",
+          "kind": "name",
+          "analysis": {
+            "reading": "Alexr broun",
+            "expansion": "Alexander Brown",
+            "features": [
+              "The opening is the abbreviated Alexr with a larger A-like start and tall l, followed by a compact exr ending.",
+              "The surname broun follows before and; its tall initial and low oun group are separate from the first name."
+            ],
+            "uncertainty": "The abbreviation is visible; Alexander is its expansion. Neither participation in the inventory nor the surname establishes kinship."
+          }
+        },
+        {
+          "x": 39.666666666666664,
+          "y": 60.820045558086555,
+          "w": 23.066666666666666,
+          "h": 29.6127562642369,
+          "pixel_bbox": [
+            595,
+            267,
+            941,
+            397
+          ],
+          "label": "Jon neilsone",
+          "kind": "name",
+          "analysis": {
+            "reading": "Jon neilsone",
+            "expansion": "John Neilson",
+            "features": [
+              "The capital J has a long dark descender below the rest of the name.",
+              "The short on completes the abbreviated Scots forename without a written h.",
+              "Neilsone contains a tall l among lower connected letters and ends in a light open e.",
+              "The surname's compact minims contrast with the prominent initial J."
+            ],
+            "uncertainty": "Jon and neilsone are literal; John Neilson is the normalized personal name."
+          }
+        }
+      ],
+      "word_studies_replaced": true
+    },
+    {
+      "id": "cautioner",
+      "title": "2. A cautioner provides security",
+      "page_label": "National Records of Scotland, CC14/5/9, image 26; Crown copyright",
+      "image": "/assets/research/testament-crops/william-1673-cautioner.jpg",
+      "image_width": 1500,
+      "image_height": 377,
+      "alt": "2. A cautioner provides security: cropped original manuscript, CC14/5/9, image 26",
+      "original": "... fand Williame neilsone / in biggar cautioner ...",
+      "reading": "William Neilson in Biggar is provided as cautioner.",
+      "explanation": "The name ends one line, while in biggar cautioner begins the next. The long descenders in the name and the two g letters in biggar must be retained when the words are enlarged. Cautioner is the operative role word: the surrounding clause concerns security for proper accounting. It describes a legal obligation, not a family relationship.",
+      "proves": "William Neilson of Biggar serves as cautioner for the administration.",
+      "does_not_prove": "The shared Neilson surname does not prove a relationship to John Neilson, and caution does not make William Neilson kin to the deceased.",
+      "confidence": "High for the name, Biggar and cautioner designation.",
+      "marks": [
+        {
+          "x": 65.33333333333333,
+          "y": 5.305039787798409,
+          "w": 32.666666666666664,
+          "h": 38.9920424403183,
+          "pixel_bbox": [
+            980,
+            20,
+            1470,
+            167
+          ],
+          "label": "Williame neilsone",
+          "kind": "name",
+          "analysis": {
+            "reading": "Williame neilsone",
+            "expansion": "William Neilson",
+            "features": [
+              "Williame begins with a broad angular W and a close sequence of i-l-l minims.",
+              "The final e of the forename is small and lightly joined before the word space.",
+              "Neilsone has a tall l rising above the surrounding letters and a compact son group.",
+              "The last e runs toward the page edge in a fine terminal stroke."
+            ],
+            "comparison": "The spelling and letter pattern of neilsone can be compared with Jon neilsone in the administrators step.",
+            "uncertainty": "The normalized name is William Neilson; the shared surname alone does not prove a relationship to John Neilson."
+          }
+        },
+        {
+          "x": 5.73333,
+          "y": 26.5252,
+          "w": 31.66667,
+          "h": 29.70822,
+          "pixel_bbox": [
+            86,
+            100,
+            475,
+            112
+          ],
+          "label": "in biggar cautioner",
+          "kind": "relationship",
+          "analysis": {
+            "reading": "in biggar cautioner",
+            "expansion": "in Biggar, cautioner or legal surety",
+            "features": [
+              "The short in is followed by a clear word space before the place-name.",
+              "Both g letters in biggar have long loops descending beneath the baseline.",
+              "Cautioner begins with an open capital-like c and contains a tall crossed t.",
+              "The terminal er is compressed into a light upward-and-right stroke."
+            ],
+            "uncertainty": "Cautioner is a legal-security role; the phrase does not state kinship or prove that Biggar was William Neilson's birthplace."
+          }
+        }
+      ],
+      "word_studies_replaced": true
+    }
+  ],
+  "index_confirmation": {
+    "indexed_name": "William Glasgow",
+    "date": "1673-04-09",
+    "description": "in Quodquen",
+    "record_type": "TD",
+    "court": "Lanark Commissary Court",
+    "reference": "CC14/5/9",
+    "status": "confirmed by supplied archival index",
+    "supplied_on": "2026-09-10"
+  }
+}

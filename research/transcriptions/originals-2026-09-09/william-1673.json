@@ -1,0 +1,100 @@
+{
+  "id": "william-1673",
+  "title": "William Glasgow, Quothquan: Lanark testament dative, 1673",
+  "record": "National Records of Scotland, Lanark Commissary Court, CC14/5/9, images 24-26",
+  "date": "1673-04-09 (confirmation; death month/year not securely resolved in this review)",
+  "reviewed_at": "2026-09-10",
+  "source_files": ["testaments/Edinburgh/1673_William.pdf", "testaments/ScotlandsPeople_CC001400005-00009-00024-.pdf"],
+  "reviewed_pages": [1, 2, 3],
+  "coverage": "All three original images visually inspected; opening enlarged. Selective, non-continuous working extracts only, not a full diplomatic transcription. William's entry begins in the lower part of image 24 and ends above the next testament on image 26. Text at the right gutter is obscured; names, date wording and financial totals remain partly unresolved. Brackets mark uncertainty or omission; some abbreviations expanded.",
+  "transcription": [
+    {"page": "1 / image 24", "lines": [
+      "[Margin:] William glasgow / Lanerk / [ix?] Apryll 1673",
+      "The testament dative and Inventar of the",
+      "goods geir soumes of money and debtis ...",
+      "perten[ent] to umq[uhi]ll William glasgow in [right gutter obscured]",
+      "... the tyme of his deceis quha deceis[it]",
+      "the moneth of [Mai[j?] / month uncertain] ... [year wording obscured] ...",
+      "ffaithefullie maid and givin up be [George? ...]",
+      "... portioner of biggar ... to the umq[uhi]ll",
+      "defunct and ... executor",
+      "dative ... the said defunct ...",
+      "... procurator fiscall and office of ...",
+      "... William [Menzies?] of [R...?... ] ...",
+      "... Joh[n] [ffleischer?] of [Edderstoun?] ...",
+      "... Lanerk the [day unresolved] day of Apryll 1673 ...",
+      "... the s[ai]d umq[uhi]ll William Glasgow ...",
+      "... goods geir soumes of money and debtis ...",
+      "... hors[e] ... [livestock and valuations partly obscured]"
+    ]},
+    {"page": "2 / image 25", "lines": [
+      "Item ane ... [livestock entry and value unresolved]",
+      "... oattis ... upone the ground ...",
+      "... peis and ... bollis ... [quantity unresolved]",
+      "... the crop and haill corne ...",
+      "... of beir sawin upone the ground ... estimat ...",
+      "Item ... kyne ...",
+      "... the insight",
+      "... and domicills with the abulziamentis of the defunctis",
+      "bodie estimat ... [amount unresolved]",
+      "Summa of the Inventar ... [amount unresolved]",
+      "Na debtis awand to the deid",
+      "Followes the debtis awand be the deid",
+      "Item thair wes awand be the said umq[uhi]ll William glasgow",
+      "the tyme of his deceis ... [rent and crop valuation wording partly unresolved]",
+      "... to William ... [name unresolved] ...",
+      "Summa of the debtis awand be the",
+      "deid ... [amount unresolved]",
+      "Debtis deducit ffree geir ...",
+      "To be devydit in twa pairtis",
+      "... [confirmation and court-title formula] ...",
+      "... George broun and Jon neilsone ... executoris datives ...",
+      "... procurator fiscall ... office ... [legal appointment wording unresolved]"
+    ]},
+    {"page": "3 / image 26", "lines": [
+      "... [conclusion of prior confirmation formula]",
+      "At Lanerk the [ninth?] day of apryll ... 1673",
+      "... in presence of William [name/title unresolved] ...",
+      "... Compeirit personallie ...",
+      "George broun and Jon neilsone ...",
+      "produced [following wording unresolved] ... goods geir soumes of",
+      "money and debtis abovewrittin ...",
+      "... umq[uhi]ll William Glasgow the tyme of his deceis ...",
+      "... being sworne maid faith the said Inventar is ...",
+      "... trewlie givin up nothing omitted ...",
+      "... Williame neilsone",
+      "in biggar cautioner ... goods and geir ...",
+      "... actit himself his airis and executoris ...",
+      "... restitutione and ... [legal security formula]",
+      "[End of William's entry. Following Ralf McDougal testament excluded.]"
+    ]}
+  ],
+  "plain_english": [
+    "This is a Lanark Commissary Court testament, notwithstanding the Edinburgh folder in which the PDF is stored.",
+    "The estate includes livestock, crops, household possessions and clothing. The heading states that no debts were owed to the deceased; debts owed by him are then listed.",
+    "George Brown and John Neilson appear in the executor-dative administration. The production wording immediately after their names is not securely resolved in this crop. William Neilson in Biggar appears as cautioner.",
+    "These are administrative roles. The inspected passages do not securely call any of these men William Glasgow's relative.",
+    "The original's opening death-date wording is partly obscured and is not sufficiently secure to replace the maintained before-April-1673 death boundary."
+  ],
+  "findings": [
+    "Original images have now been inspected: the former statement that the original had not been reviewed is superseded for this source-review record.",
+    "No securely read spouse, parent, child or sibling clause was recovered. The wording after George Brown and John Neilson is procedural but not securely readable as 'particular Inventar'. This is a qualified result of an incomplete transcription, not proof that no such wording exists.",
+    "No evidence recovered here links this William to the Cavers/Ulster William or Glasgow-591.",
+    "Quothquan is retained from the previously maintained index-based identification; the obscured original locality spelling was not independently resolved here."
+  ],
+  "changes_from_previous": [
+    "The parent review identifies testaments/ScotlandsPeople_CC001400005-00009-00024-.pdf as a duplicate of the same CC14/5/9 images 24-26. Its shorter review is research/transcriptions/originals-2026-09-10/william-lanark-1673.json. Count these as one documentary source; this file supplies the fuller selective reading.",
+    "Fresh original-image inspection preceded comparison with research/Glasgow-3912/1673_Scotland_Quothquan_William_Glasgow.md.",
+    "The maintained draft is index-only and says the original has not been reviewed. This review adds estate contents and administrative participants, but does not establish family relationships.",
+    "Preserves the existing Glasgow-3912 identity and no-new-profile instruction. Does not infer relationships from the Glasgow surname, executor appointment or chronological fit."
+  ],
+  "unresolved": [
+    "Opening locality and exact death month/year, obscured by gutter and difficult writing. The tentative month fragment must not be normalized into a firm death date.",
+    "Full executor appointment wording and capacities of every named official.",
+    "Complete transcription of crop quantities, debts, rent, estate totals and confirmation formula.",
+    "Whether a clearer image supports additional family information; no precise family attachment is justified by this review."
+  ],
+  "profiles": [["Glasgow-3912", "William Glasgow of Quothquan: existing maintained index-based identification"]],
+  "confidence_statement": "High for archive reference, document boundaries, original-image review and the distinction between administrative roles and kinship. Moderate for selected names and inventory readings. Low for obscured opening date/locality; no complete transcription or new family relationship claimed.",
+  "reviewer": "Codex original-image visual review; Edinburgh-folder testament subtask"
+}

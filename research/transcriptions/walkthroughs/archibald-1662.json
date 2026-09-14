@@ -1,0 +1,398 @@
+{
+  "id": "archibald-1662",
+  "intro": "Three crops separate the Leith household, the explicit sons and the January will date. The enlarged words show how the same hand forms names, long s, looped ascenders and abbreviations. The source states family relationships, but those clauses do not by themselves resolve every same-name profile identification.",
+  "people": [
+    {
+      "name": "Archibald Glasgow",
+      "role": "Testator, maltman in Leith",
+      "status": "explicit",
+      "evidence_step": "household",
+      "profile_id": "Glasgow-3078",
+      "evidence_study": "archibald-1662-subject"
+    },
+    {
+      "name": "Agnes Watson",
+      "role": "Relict spouse and tutor",
+      "status": "explicit",
+      "evidence_step": "household",
+      "profile_id": "Watson-45727",
+      "evidence_study": "archibald-1662-agnes"
+    },
+    {
+      "name": "Archibald Glasgow",
+      "role": "Lawful son and executor",
+      "status": "explicit",
+      "evidence_step": "sons",
+      "evidence_study": "archibald-1662-sons-names"
+    },
+    {
+      "name": "George Glasgow",
+      "role": "Lawful son and executor",
+      "status": "explicit",
+      "evidence_step": "sons",
+      "evidence_study": "archibald-1662-sons-names"
+    },
+    {
+      "name": "William Glasgow",
+      "role": "Lawful son and executor",
+      "status": "explicit",
+      "evidence_step": "sons",
+      "evidence_study": "archibald-1662-diagnostic-letters"
+    },
+    {
+      "name": "Thomas Glasgow",
+      "role": "Writer of the will; wider text names overseer/caution role",
+      "status": "explicit",
+      "evidence_step": "date"
+    }
+  ],
+  "card_kin": {
+    "spouse": [
+      {
+        "name": "Agnes Watson",
+        "relationship": "relict spouse",
+        "status": "explicit",
+        "evidence_step": "household",
+        "evidence_study": "archibald-1662-agnes"
+      }
+    ],
+    "children": [
+      {
+        "name": "Archibald Glasgow",
+        "relationship": "lawful son",
+        "status": "explicit",
+        "evidence_step": "sons",
+        "evidence_study": "archibald-1662-sons-names"
+      },
+      {
+        "name": "George Glasgow",
+        "relationship": "lawful son",
+        "status": "explicit",
+        "evidence_step": "sons",
+        "evidence_study": "archibald-1662-sons-names"
+      },
+      {
+        "name": "William Glasgow",
+        "relationship": "lawful son",
+        "status": "explicit",
+        "evidence_step": "sons",
+        "evidence_study": "archibald-1662-diagnostic-letters"
+      }
+    ],
+    "other_kin": []
+  },
+  "steps": [
+    {
+      "id": "household",
+      "title": "1. Leith residence and Agnes Watson, relict spouse",
+      "page_label": "National Records of Scotland, CC8/8/70, image 689; Crown copyright",
+      "image": "/assets/research/testament-crops/archibald-1662-household.jpg",
+      "image_width": 1500,
+      "image_height": 821,
+      "alt": "1. Leith residence and Agnes Watson, relict spouse: cropped original manuscript, CC8/8/70, image 689",
+      "original": "Archibald Glasgow maltman Indweller In leith ... / be Agnes Watsone his relict spous ...",
+      "reading": "Archibald Glasgow, maltman living in Leith; Agnes Watson, his surviving spouse.",
+      "explanation": "The designation in leith follows Indweller near the top. Further down, Agnes Watsone is immediately followed by his relict spous. In seventeenth-century Scots legal usage, relict identifies the surviving spouse. That explicit relationship wording must be kept separate from the later tutorship and administration language, which describes legal functions rather than additional kinship.",
+      "proves": "The record locates this maltman in Leith and expressly identifies Agnes as his widow.",
+      "does_not_prove": "It does not establish a marriage date, Agnes's parents, or the maltman's identity with every earlier Archibald record.",
+      "confidence": "High for the residence and spouse wording.",
+      "marks": [
+        {
+          "x": 5.133333333333334,
+          "y": 12.058465286236297,
+          "w": 34.4,
+          "h": 18.148599269183922,
+          "pixel_bbox": [
+            77,
+            99,
+            593,
+            248
+          ],
+          "label": "Archibald Glasgow",
+          "kind": "name",
+          "analysis": {
+            "reading": "Archibald Glasgow",
+            "expansion": "Archibald Glasgow",
+            "features": [
+              "The capital A opens with a broad loop before the narrow joined rch strokes.",
+              "Tall ascenders in b and d rise above the middle letters of Archibald.",
+              "Glasgow begins with a conspicuous looped G and contains a lower g loop beneath the baseline.",
+              "The final ow runs into a fine exit stroke before maltman."
+            ],
+            "comparison": "The same forename recurs in abbreviated form in the sons step; the full form here supports that expansion.",
+            "uncertainty": "The full name is clear; this clause identifies the testator but does not distinguish every namesake outside the document."
+          }
+        },
+        {
+          "x": 72.26667,
+          "y": 11.93666,
+          "w": 8.33333,
+          "h": 14.00731,
+          "pixel_bbox": [
+            1084,
+            98,
+            125,
+            115
+          ],
+          "label": "leith",
+          "kind": "name",
+          "analysis": {
+            "reading": "leith",
+            "expansion": "Leith",
+            "features": [
+              "The opening l rises in a tall narrow loop above the other letters.",
+              "The short e and dotted i sit low between the two tall outer letters.",
+              "The t is crossed, and the final h closes with a loop and returning foot."
+            ],
+            "uncertainty": "The place-name is secure; the modern expansion supplies capitalization only."
+          }
+        },
+        {
+          "x": 9.8,
+          "y": 55.54202192448234,
+          "w": 34.06666666666667,
+          "h": 18.757612667478686,
+          "pixel_bbox": [
+            147,
+            456,
+            658,
+            610
+          ],
+          "label": "Agnes Watsone",
+          "kind": "name",
+          "analysis": {
+            "reading": "Agnes Watsone",
+            "expansion": "Agnes Watson",
+            "features": [
+              "The capital A is larger and more open than the following gnes sequence.",
+              "The g in Agnes drops below the baseline in a narrow loop.",
+              "Watsone begins with a broad angular W and ends with a small open e.",
+              "The tall t and long s-like stroke break up the otherwise compact surname."
+            ],
+            "uncertainty": "Watsone is the literal spelling; Watson is the normalized surname."
+          }
+        },
+        {
+          "x": 42.86666666666667,
+          "y": 58.09987819732034,
+          "w": 24.866666666666667,
+          "h": 16.199756394640684,
+          "pixel_bbox": [
+            643,
+            477,
+            1016,
+            610
+          ],
+          "label": "his relict spous",
+          "kind": "relationship",
+          "analysis": {
+            "reading": "his relict spous",
+            "expansion": "his surviving spouse",
+            "features": [
+              "The initial h of his has a tall loop, followed by a short i and compact final s.",
+              "Relict is separated as its own word, with a tall l at the start and crossed t at the end.",
+              "Spous begins with a long secretary s and finishes in a small terminal s stroke.",
+              "The three words occupy one continuous phrase immediately after Agnes's name."
+            ],
+            "uncertainty": "Spous is the visible Scots spelling of spouse; relict means surviving spouse here, not merely an estate representative."
+          }
+        }
+      ],
+      "word_studies_replaced": true
+    },
+    {
+      "id": "sons",
+      "title": "2. Three names followed by my lawful sons",
+      "page_label": "National Records of Scotland, CC8/8/70, image 691; Crown copyright",
+      "image": "/assets/research/testament-crops/archibald-1662-sons.jpg",
+      "image_width": 1500,
+      "image_height": 413,
+      "alt": "2. Three names followed by my lawful sons: cropped original manuscript, CC8/8/70, image 691",
+      "original": "... Arch[ibal]d George / & Williame Glasgowes my lawfull sones my onlie ex[ecuto]ris ...",
+      "reading": "Archibald, George and William Glasgow, my lawful sons and my sole executors.",
+      "explanation": "The first two forenames stand at the right end of the nomination line; William and the shared surname continue at the left of the next. The abbreviated Archibald is expanded from its surviving letters and the full form elsewhere in this hand. The plural phrase my lawfull sones grammatically qualifies the three-name group. The following executor wording states their legal role and is not being used to infer the relationship.",
+      "proves": "Archibald, George and William are explicitly the testator's sons and are appointed executors.",
+      "does_not_prove": "This clause alone does not assign birth dates, distinguish every namesake or prove that no other child had ever existed.",
+      "confidence": "High for the three-name group and sonship; the first forename is abbreviated.",
+      "marks": [
+        {
+          "x": 74.6,
+          "y": 16.707021791767556,
+          "w": 12.266666666666666,
+          "h": 31.234866828087167,
+          "pixel_bbox": [
+            1119,
+            69,
+            1303,
+            198
+          ],
+          "label": "Arch[ibal]d",
+          "kind": "name",
+          "analysis": {
+            "reading": "Archd",
+            "expansion": "Archibald",
+            "features": [
+              "The enlarged capital A has the same broad opening movement as the full Archibald in the household step.",
+              "The surviving rch strokes are tightly compressed before the shortened ending.",
+              "A raised terminal d and abbreviation stroke signal omitted internal letters rather than a different forename."
+            ],
+            "comparison": "The full Archibald Glasgow near the start of the testament supplies a same-hand comparison for the expansion.",
+            "uncertainty": "Archibald is the conventional and context-supported expansion; the omitted letters are not individually written."
+          }
+        },
+        {
+          "x": 84.73333333333333,
+          "y": 21.06537530266344,
+          "w": 10.066666666666666,
+          "h": 34.14043583535109,
+          "pixel_bbox": [
+            1271,
+            87,
+            1422,
+            228
+          ],
+          "label": "George",
+          "kind": "name",
+          "analysis": {
+            "reading": "George",
+            "expansion": "George",
+            "features": [
+              "The capital G is an open loop larger than the following letters.",
+              "The middle or is compact, while the second g drops below the baseline.",
+              "The final e is a small rightward turn immediately before the line edge."
+            ],
+            "uncertainty": "The forename is clear despite crowding at the right margin."
+          }
+        },
+        {
+          "x": 2.0666666666666664,
+          "y": 21.54963680387409,
+          "w": 37.4,
+          "h": 40.19370460048426,
+          "pixel_bbox": [
+            31,
+            89,
+            592,
+            255
+          ],
+          "label": "Williame Glasgowes",
+          "kind": "name",
+          "analysis": {
+            "reading": "Williame Glasgowes",
+            "expansion": "William Glasgow; the surname applies to the named sons",
+            "features": [
+              "Williame starts with a broad angular W followed by two close l strokes and a dotted i.",
+              "The final e of Williame is lighter and joins visually toward the following surname.",
+              "Glasgowes has a large opening G, a descending lower g and a clearly continued terminal es.",
+              "The phrase begins at the left margin because it continues the list from the preceding line."
+            ],
+            "uncertainty": "The literal terminal -es belongs to the manuscript grammar; the expansion normalizes the individual surname without treating it as a different family name."
+          }
+        },
+        {
+          "x": 38.53333333333334,
+          "y": 25.423728813559322,
+          "w": 31.733333333333334,
+          "h": 38.7409200968523,
+          "pixel_bbox": [
+            578,
+            105,
+            1054,
+            265
+          ],
+          "label": "my lawfull sones",
+          "kind": "relationship",
+          "analysis": {
+            "reading": "my lawfull sones",
+            "expansion": "my lawful sons",
+            "features": [
+              "The y in my drops below the line and leads into a visible word space before lawfull.",
+              "Lawfull has tall l strokes and a long descending f amid a dense group of minims.",
+              "Sones begins with a long secretary s and ends with a light open e-s sequence.",
+              "The plural ending agrees with the three preceding forenames."
+            ],
+            "uncertainty": "The relationship and plural are explicit; this clause does not establish birth order or whether other children existed."
+          }
+        }
+      ],
+      "word_studies_replaced": true
+    },
+    {
+      "id": "date",
+      "title": "3. The January date belongs to making the will",
+      "page_label": "National Records of Scotland, CC8/8/70, image 692; Crown copyright",
+      "image": "/assets/research/testament-crops/archibald-1662-date.jpg",
+      "image_width": 1500,
+      "image_height": 404,
+      "alt": "3. The January date belongs to making the will: cropped original manuscript, CC8/8/70, image 692",
+      "original": "... writtin be Thomas Glasgow weaver In ed[inbu]r[gh] ... / at leith the [xxiij?] day of Jan[uar] 1662 yeiris ...",
+      "reading": "Written by Thomas Glasgow, weaver in Edinburgh; at Leith on an uncertain day in January 1662.",
+      "explanation": "Read the writer's name in the upper line separately from the place-and-date formula below. The enlarged month begins with a long descending J and a contracted January form; the preceding day numeral remains too uncertain to promote. This closing date belongs to making the will, not to the marginal May confirmation or the separate February death statement.",
+      "proves": "The will was made in January 1662 and names Thomas Glasgow as its writer.",
+      "does_not_prove": "It does not establish the precise January day or make Thomas a relative. It is not a birth, marriage or death date.",
+      "confidence": "High for January 1662; uncertain for the day numeral.",
+      "marks": [
+        {
+          "x": 34.33333,
+          "y": 36.63366,
+          "w": 37,
+          "h": 32.17822,
+          "pixel_bbox": [
+            515,
+            148,
+            555,
+            130
+          ],
+          "label": "Thomas Glasgow",
+          "kind": "name",
+          "analysis": {
+            "reading": "Thomas Glasgow",
+            "expansion": "Thomas Glasgow",
+            "features": [
+              "Thomas begins with a larger crossed capital T followed by a tall looped h.",
+              "The final s of Thomas is a long secretary form rather than a modern rounded s.",
+              "Glasgow opens with a broad looped G and contains a lower g loop beneath the baseline.",
+              "The final ow runs toward, but remains separable from, the following occupational wording."
+            ],
+            "uncertainty": "The name is clear; nothing in this boxed name itself states that Thomas is related to the testator."
+          }
+        },
+        {
+          "x": 57.2,
+          "y": 53.21782,
+          "w": 26.33333,
+          "h": 37.12871,
+          "pixel_bbox": [
+            858,
+            215,
+            395,
+            150
+          ],
+          "label": "Jan[uar] 1662",
+          "kind": "name",
+          "analysis": {
+            "reading": "Jan[uar] 1662",
+            "expansion": "January 1662",
+            "features": [
+              "The month begins with a large J whose stem descends far below the other letters.",
+              "The letters after Jan are compressed and partly raised in the conventional contracted month form.",
+              "The four digits are separately visible, with a tall 1 and rounded final 2.",
+              "The date sits in the lower closing line, beneath Thomas Glasgow's name."
+            ],
+            "uncertainty": "January and 1662 are secure; the exact letters represented by the contraction and the preceding day numeral remain qualified."
+          }
+        }
+      ]
+    }
+  ],
+  "index_confirmation": {
+    "indexed_name": "Archibald Glasgow",
+    "date": "1662-05-24",
+    "description": "maltman, indweller in Leith",
+    "record_type": "TT&Inventory",
+    "court": "Edinburgh Commissary Court",
+    "reference": "CC8/8/70",
+    "status": "confirmed by supplied archival index",
+    "supplied_on": "2026-09-10"
+  }
+}

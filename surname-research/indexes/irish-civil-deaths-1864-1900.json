@@ -1,0 +1,27 @@
+{
+  "title": "Irish civil-death index leads, 1864–1900",
+  "reviewed_at": "2026-09-10",
+  "status": "Index leads; original records and profile identities unverified",
+  "row_count": 241,
+  "capture_supported_rows": 100,
+  "csv_only_rows": 141,
+  "hold_rows": 2,
+  "source_url": "https://www.irishgenealogy.ie/",
+  "collection_guide_url": "https://www.irishgenealogy.ie/faq/",
+  "inputs": [
+    {
+      "path": "chatgpt_dump/glasgow_death_records_estimated_birth_year(1).csv",
+      "sha256": "fd70a6075d6d36577333b06159361e45d9e8eddb6defa6dc4772b4e44ab873ce"
+    },
+    {
+      "path": "chatgpt_dump/Pasted text(118).txt",
+      "sha256": "1dde2f3d65079ee99f4a951a97976125ab49ecf15495d1349ef311cae41457e2"
+    }
+  ],
+  "conclusion": "A useful registration lookup list, not a list of newly identified people. One hundred rows agree with the saved index text (ignoring name capitalization); the other 141 survive only in the exported CSV, including two malformed rows on HOLD. No original registrations were newly inspected, and complete search coverage is not established.",
+  "next_questions": [
+    "Inspect the original registrations and resolve the two malformed rows.",
+    "Compare named relatives, occupation and residence with existing people before assigning any profile or creating a draft.",
+    "Use age-derived birth ranges as search aids, not established birth dates; a registration district does not establish birthplace or exact residence."
+  ]
+}

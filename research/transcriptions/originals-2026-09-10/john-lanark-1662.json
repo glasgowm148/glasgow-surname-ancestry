@@ -1,0 +1,83 @@
+{
+  "id": "john-lanark-1662",
+  "title": "John Glasgow of Quothquan, Lanark testament dative and inventory",
+  "record": "National Records of Scotland, Lanark Commissary Court, CC14/5/6, images 138-139; indexed 13 January 1662",
+  "date": "1662-01-13",
+  "reviewed_at": "2026-09-10",
+  "source_files": ["testaments/ScotlandsPeople_CC001400005-00006-00138-.jpg", "testaments/ScotlandsPeople_CC001400005-00006-00139-.jpg"],
+  "reviewed_pages": ["NRS image 138 (John entry begins below a preceding testament)", "NRS image 139 (John entry concludes at the head; following James entry excluded)"],
+  "coverage": "Complete coverage of the supplied John Glasgow entry from its mid-image-138 opening through its conclusion at the head of image 139; partial decipherment of handwriting, amounts and legal formulae.",
+  "transcription": [
+    {
+      "page": "NRS image 138",
+      "lines": [
+        "[omitted: conclusion and confirmation of the preceding testament above the John Glasgow entry]",
+        "The testament dative and inventar of the guidis, geir, soumes of",
+        "money and debtis perteining to umquhile John Glasgow in Quodquen, within the",
+        "parochin of Libbertoun and sheriffdome of Lanark, the tyme of his deceis,",
+        "quha deceist in the moneth of [illegible] the yeir of God 1661 yeiris,",
+        "faithfullie maid and givin up be [illegible] Glasgow [illegible],",
+        "in name of executour dative, [illegible appointment clause].",
+        "In the first, the said umquhile John Glasgow had the tyme foirsaid [illegible],",
+        "[illegible inventory item and valuation],",
+        "Item [illegible inventory item] [amount illegible],",
+        "Item [illegible inventory item] [amount illegible],",
+        "Item [illegible inventory item] [amount illegible].",
+        "Summa of the inventar — [amount illegible].",
+        "Debtis awand to the dead — [illegible].",
+        "Na debtis awand be the dead [reading uncertain].",
+        "To be deducit [illegible].",
+        "Deidis pairt is — [amount illegible].",
+        "James Hamiltoun, commissar of Lanark, speciallie constitute for confirmation",
+        "of testamentis within the boundis of his commissioun, haveing seine and",
+        "examinat the foirsaid inventar and debtis [illegible],",
+        "and [illegible] the same to be [illegible],",
+        "[illegible confirmation formula continuing onto image 139]."
+      ]
+    },
+    {
+      "page": "NRS image 139",
+      "lines": [
+        "[continuation] [illegible] guidis, geir and debtis of the said John Glasgow [following words unresolved],",
+        "the said defunct [illegible] the said John Glasgow [illegible],",
+        "and [illegible] the said [illegible] in his place and office of executour dative,",
+        "of [illegible] and [illegible] power [illegible],",
+        "[illegible] haveing [illegible] to intromet with the said guidis,",
+        "[illegible] and uplift and ressave the soumes of money and debtis,",
+        "[illegible] faithfull administratioun and compt to pairties haveand interes,",
+        "as accordis of the law; and [illegible] caution [illegible],",
+        "[illegible closing registration and instrument clause].",
+        "[omitted: separate testament beginning 'Lanark the threttene day of Januar the yeir of God 1662' for James [illegible]]"
+      ]
+    }
+  ],
+  "plain_english": [
+    "The entry is the testament dative and inventory of John Glasgow, resident at Quodquen (Quothquan) in Libberton parish, Lanarkshire. It says that he died during an unread month in 1661 and inventories his moveable estate before calculating the distributable portion.",
+    "The second part records commissary James Hamilton's confirmation and the authority of an executor dative to administer the goods and debts. The executor's name and the words immediately describing that person are not secure enough in these scans to establish a family relationship.",
+    "The John entry ends near the top of image 139. The clearly separate James testament beginning below it is outside this transcription."
+  ],
+  "findings": [
+    "The manuscript identifies the deceased as John Glasgow in Quodquen, within Libberton parish and the sheriffdom of Lanark.",
+    "The death is placed in 1661, before the indexed/registration date of 13 January 1662; the month is not securely legible.",
+    "The record contains an inventory, debt calculation and commissary confirmation, but most individual goods and monetary amounts remain unread.",
+    "The earlier proposed reading 'John Glasgow lawfull sone' at the head of image 139 is not secure in context. Neither 'lawfull' nor a following kinship word is clear enough to promote from the faded, tightly written passage; no parent-child conclusion is made.",
+    "James Hamilton acts as commissary in the confirmation clause. That official role does not identify him as executor or kin.",
+    "The James testament beginning lower on image 139 is a new record and has been excluded."
+  ],
+  "changes_from_previous": [
+    "Replaced a three-line selective extract with sequential working lines covering the whole John entry across both supplied images.",
+    "Read the locality as Quodquen in Libberton parish and recorded the manuscript's 1661 death-year statement separately from the 1662 registration date.",
+    "Rejected the former 'lawfull sone' assertion because the words following John Glasgow, their grammatical subject and the executor's identity are not securely established.",
+    "Distinguished full supplied-entry coverage from partial decipherment and explicitly bounded the adjacent preceding and following entries."
+  ],
+  "unresolved": [
+    "The deceased's exact month of death in 1661",
+    "The executor dative's full name and any explicit relationship wording",
+    "The goods, valuations, debtors, creditors and totals in the inventory account",
+    "The obscured words following 'John Glasgow' at the head of image 139",
+    "Any secure match to Glasgow-3331, Glasgow-1086 or another WikiTree profile"
+  ],
+  "profiles": [],
+  "confidence_statement": "High confidence in the record type, John Glasgow's Quodquen/Libberton residence, the 1661 death-year context, the two-page entry boundary and the separate following James testament. Low-to-moderate confidence in individual inventory and confirmation words; no kinship or WikiTree identity is asserted from an executor role or name similarity.",
+  "reviewer": "LLM-assisted fresh review of the original manuscript images"
+}

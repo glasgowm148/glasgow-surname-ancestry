@@ -1,5 +1,8 @@
 # Findings: Glasgow-2462
 
+Last updated: 2026-09-10
+
+
 ## Current conclusion
 
 The Findmypast transcript distinguishes William's birth on **20 August 1639**
@@ -40,3 +43,16 @@ The transcript-validated baptism record for **William Glasgow**, 21 Aug 1639, In
 
 Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
 <!-- END FMP-GLASGOW-fmp-glasgow-1eebe322b8b9 -->
+
+<!-- opr-birth-review-row-92 -->
+## Source findings
+
+### Supplied OPR births and baptisms: row 92 — 10 September 2026
+
+[Scotland’s People](https://www.scotlandspeople.gov.uk/), **Old Parish Registers, births and baptisms**; exact surname Glasgow through 1700, 127 supplied results. **WILLIAME GLASGOW**; indexed date **21/08/1639**; Inveresk and Musselburgh; parish **689**, reference **10 / 332**. Parents/other exactly as indexed: **THOMAS GLASGOW/AGNES THOMSONE FR291 (FR291)**. Indexed gender: **M**.
+
+**Assessment:** Matches the existing child-record account by indexed date, locality and recorded family. This row adds the complete index locator as supporting provenance; it does not establish a new event or relationship.
+
+Original image not inspected for this batch. The combined collection’s date does not automatically establish a birthday. Names alone do not uniquely identify attached parents or connect a child with a later adult. An omitted parent or indexed gender U remains unspecified in this source.
+
+**Next action:** No additional WikiTree update from this row; preserve any existing pending work.

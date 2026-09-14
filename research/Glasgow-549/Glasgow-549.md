@@ -1,25 +1,18 @@
-# WikiTree update notes: [John Glasgow (Glasgow-549), born 1735, County Londonderry, Ireland](https://www.wikitree.com/wiki/Glasgow-549)
+[[Category:Glasgow Name Study]]
+{{Estimated Date}}
 
-Record only sourced facts and corrections missing from the current WikiTree
-profile. Keep same-name identities and inferred relationships explicitly
-unproved.
+== Biography ==
 
-## Suggested additions
+'''John Glasgow''' is named first among the three alleged sons of [[Glasgow-548|Hugh Glasgow]] and [[McCullough-1964|Margaret McCullough]] in William Melanchthon Glasgow's late family history.  That account supplies no date, residence, wife, child, or death for John.  It records a family tradition, not proof of the profile's estimated vital dates or asserted parentage.<ref name="GlasgowHistory">[[Glasgow-590|William Melanchthon Glasgow]], ''History of the Glasgow Family'', [https://www.wikitree.com/photo/pdf/Glasgow-590 digital copy attached to Glasgow-590].</ref>
 
-| Fact missing from profile | Source | Confidence |
-| --- | --- | --- |
-| William Melanchthon Glasgow's late family history names John first among the three sons of Hugh Glasgow and Margaret McCullough, but supplies no event, residence, wife, child or death for him. | [Original family-history scan, p. 2](https://www.wikitree.com/photo.php/0/0a/Glasgow-590.pdf) | High for what the source says; low for the underlying eighteenth-century relationship |
-| The same account says John's younger brother Hugh had a family farm near Portglenone by 1780. The 1740 and 1772 records independently place earlier Hugh Glasgows in Tamlaght O'Crilly and the Ellis/McCullough district. | Same family history, p. 3; 1740 Protestant-householder return; *Belfast News-Letter*, 14 April 1772 | Moderate geographic continuity; no proof John lived there |
-| John-549 is chronologically capable of fathering Adam-3902 and John-3927/822, but younger John's third son `John` repeats his own name while his first son `Adam` points more naturally to an older Adam as paternal grandfather. | John and Mary Glasgow family Bible; [traditional naming guidance](https://www.scotlandspeople.gov.uk/help-and-support/guides/forenames) | Possible direct father; no evidential advantage over Robert-550 |
-| The second 1740 Hugh household supplies a possible collateral root for the older Adam/Maria model without adding an unreported fourth son to Hugh-548. | 1740 Protestant-householder return; late three-son family account | Structurally coherent, unproved |
+The 1831 Lissane return names later Glasgow householders but does not state a relationship to this John; it cannot document his descendants.<ref>1831 Irish Census – National Archives of Ireland (http://www.census.nationalarchives.ie/pages/1831/Londonderry/Lissane/)</ref>
 
-## Suggested corrections
+== Research Notes ==
 
-- Mark the about-1735 County Londonderry birth and about-1785 death uncertain or remove them. The family narrative supplies neither.
-- Remove the suggestion that the 1831 Dromain and Coltrim householders document John's descendants; no intermediate relationship is known.
-- If the tree must represent John as a candidate, use him only as an **uncertain direct father** of Adam-3902 and John-3927/822. Do not rank him above Robert-550 or put Glasgow-3905 beneath him as an intervening generation.
+John is chronologically a possible, but unproved, direct father of [[Glasgow-3902|Adam Glasgow]] and [[Glasgow-3927|John Glasgow]] of Inishrush.  No located record distinguishes him from the traditional brother [[Glasgow-550|Robert Glasgow]].  The naming pattern in the younger documented family and the separate 1740 Hugh Glasgow household are research clues, not proof of a parent-child link.
 
-## Do not add as fact
+== Sources ==
 
-- Do not call Adam and John his proved sons. No inspected record states that relationship.
-- Do not treat the naming pattern as proof. It more naturally supports a competing shared-parent couple called Adam and Maria.
+<references />
+
+* Family history document written by William Melanchthon Glasgow [https://www.wikitree.com/photo/pdf/Glasgow-590]

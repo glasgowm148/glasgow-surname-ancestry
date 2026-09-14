@@ -142,3 +142,14 @@ audit. It does not merge any other same-name event or establish his death date.
 Retain as derivative identity support. Do not infer an unstated parent or use
 the index date as John's death date.
 <!-- END FMP-GLASGOW-fmp-glasgow-f25b7384f2e9 -->
+
+
+## 10 September 2026: supplementary Huchesoun confirmation, partial reading
+
+A fresh partial transcription of supplementary strip 396A identifies confirmation/administration wording, repeated Andro Huchesoun, secure bairnis and provisional Johne [huchesoun?]. The incomplete clause does not establish their parentage or roles. Its mapping to John's Image 276 is an open question for NRS, not proof of kinship or a cataloguing error.
+
+Why is strip 396A included with John Glasgow's CC8/8/5 Image 276, and which testament entry does the strip belong to?
+
+Maintained reading: `research/transcriptions/associated-fragments/john-1577-hutcheson-reading.md`. Structured evidence: `research/transcriptions/associated-fragments/john-1577-hutcheson.json`. Public analysis: /research/transcriptions/john-1577/#associated-fragment
+
+The accepted children in John's own testament are Katherine and Marjory (m[ar]iory), not Androw. Margaret's human-read Hochaine surname and proposed Hutchin connection remain distinct from a confirmed modern family identity.

@@ -1,0 +1,590 @@
+{
+  "id": "george-1605",
+  "studies": [
+    {
+      "id": "george-baptism-name",
+      "title": "George, baptised child",
+      "nav_label": "George, baptised child",
+      "image": "/assets/research/testament-crops/george-1605-entry-v3.jpg",
+      "image_width": 1472,
+      "image_height": 430,
+      "region": [
+        999,
+        126,
+        214,
+        66
+      ],
+      "reading": "namit george",
+      "expansion": "named George",
+      "confidence": "High.",
+      "context": "This baptism's ane bairne baptizit namit wording introduces the child.",
+      "review_status": "source-aligned",
+      "locator_note": "Use the selected word before the wider passage. Pixel regions retain full visible strokes. Crossings from neighbouring lines remain contextual; a rectangular focus is retained where further separation would guess.",
+      "conclusion": "Do not confuse the later witness George with the child; the mother is not named.",
+      "letters": [
+        {
+          "id": "george-baptism-name-word-1",
+          "glyph": "namit",
+          "label": "namit: whole connected word",
+          "position": 1,
+          "region": [
+            999,
+            127,
+            96,
+            58
+          ],
+          "paths": [],
+          "observed": "Locate the short word immediately before the child's forename: named.",
+          "matches": "The similar witness name is a useful writing comparison, but the marker changes its role.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "The later W. begins the witness role."
+        },
+        {
+          "id": "george-baptism-name-word-2",
+          "glyph": "george",
+          "label": "george: whole connected word",
+          "position": 1,
+          "region": [
+            1087,
+            126,
+            126,
+            66
+          ],
+          "paths": [],
+          "observed": "Read after namit and before W.; the descending g forms anchor the compact word.",
+          "matches": "The similar witness name is a useful writing comparison, but the marker changes its role.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "The witness name is a separate occurrence."
+        }
+      ],
+      "words": [
+        {
+          "text": "namit",
+          "region": [
+            999,
+            127,
+            96,
+            58
+          ],
+          "focus_polygon": [
+            [
+              999,
+              127
+            ],
+            [
+              1095,
+              127
+            ],
+            [
+              1095,
+              185
+            ],
+            [
+              999,
+              185
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "george-baptism-name-word-1",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        },
+        {
+          "text": "george",
+          "region": [
+            1087,
+            126,
+            126,
+            66
+          ],
+          "focus_polygon": [
+            [
+              1087,
+              126
+            ],
+            [
+              1213,
+              126
+            ],
+            [
+              1213,
+              192
+            ],
+            [
+              1087,
+              192
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "george-baptism-name-word-2",
+              "start": 0,
+              "end": 6
+            }
+          ]
+        }
+      ],
+      "reading_steps": [
+        {
+          "title": "Read namit",
+          "text": "Locate the short word immediately before the child's forename: named. The later W. begins the witness role.",
+          "region": [
+            999,
+            127,
+            96,
+            58
+          ]
+        },
+        {
+          "title": "Read george",
+          "text": "Read after namit and before W.; the descending g forms anchor the compact word. The witness name is a separate occurrence.",
+          "region": [
+            1087,
+            126,
+            126,
+            66
+          ]
+        },
+        {
+          "title": "Read the relationship in context",
+          "text": "This baptism's ane bairne baptizit namit wording introduces the child. Do not confuse the later witness George with the child; the mother is not named.",
+          "region": [
+            999,
+            126,
+            214,
+            66
+          ]
+        }
+      ],
+      "same_hand_comparisons": [
+        {
+          "image": "/assets/research/testament-crops/george-1605-entry-v3.jpg",
+          "image_width": 1472,
+          "image_height": 430,
+          "region": [
+            1280,
+            108,
+            159,
+            91
+          ],
+          "reading": "Georg after W.",
+          "explanation": "The similar witness name is a useful writing comparison, but the marker changes its role."
+        }
+      ]
+    },
+    {
+      "id": "george-1605-james-parent",
+      "title": "James Glasgow, parent",
+      "nav_label": "James Glasgow, parent",
+      "image": "/assets/research/testament-crops/george-1605-entry-v3.jpg",
+      "image_width": 1472,
+      "image_height": 430,
+      "region": [
+        237,
+        120,
+        283,
+        122
+      ],
+      "reading": "James glasgow",
+      "expansion": "James Glasgow",
+      "confidence": "High for parent named in the baptism formula.",
+      "context": "James begins the entry before the residence and child-baptism clause.",
+      "review_status": "source-aligned",
+      "locator_note": "Use the selected word before the wider passage. Pixel regions retain full visible strokes. Crossings from neighbouring lines remain contextual; a rectangular focus is retained where further separation would guess.",
+      "conclusion": "Neither the mother's name nor the child's birth date is supplied.",
+      "letters": [
+        {
+          "id": "george-1605-james-parent-word-1",
+          "glyph": "James",
+          "label": "James: whole connected word",
+          "position": 1,
+          "region": [
+            237,
+            120,
+            145,
+            111
+          ],
+          "paths": [],
+          "observed": "Find the long initial below the date and the shorter ames run.",
+          "matches": "The repeated surname continues the witness's name, not a second statement of parentage.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "Begin this entry, not the preceding one above."
+        },
+        {
+          "id": "george-1605-james-parent-word-2",
+          "glyph": "glasgow",
+          "label": "glasgow: whole connected word",
+          "position": 1,
+          "region": [
+            374,
+            131,
+            146,
+            111
+          ],
+          "paths": [],
+          "observed": "The surname follows before in and the residence, with low strokes near the next line.",
+          "matches": "The repeated surname continues the witness's name, not a second statement of parentage.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "The second surname below belongs to the witness."
+        }
+      ],
+      "words": [
+        {
+          "text": "James",
+          "region": [
+            237,
+            120,
+            145,
+            111
+          ],
+          "focus_polygon": [
+            [
+              237,
+              120
+            ],
+            [
+              382,
+              120
+            ],
+            [
+              382,
+              231
+            ],
+            [
+              237,
+              231
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "george-1605-james-parent-word-1",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        },
+        {
+          "text": "glasgow",
+          "region": [
+            374,
+            131,
+            146,
+            111
+          ],
+          "focus_polygon": [
+            [
+              374,
+              131
+            ],
+            [
+              520,
+              131
+            ],
+            [
+              520,
+              242
+            ],
+            [
+              374,
+              242
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "george-1605-james-parent-word-2",
+              "start": 0,
+              "end": 7
+            }
+          ]
+        }
+      ],
+      "reading_steps": [
+        {
+          "title": "Read James",
+          "text": "Find the long initial below the date and the shorter ames run. Begin this entry, not the preceding one above.",
+          "region": [
+            237,
+            120,
+            145,
+            111
+          ]
+        },
+        {
+          "title": "Read glasgow",
+          "text": "The surname follows before in and the residence, with low strokes near the next line. The second surname below belongs to the witness.",
+          "region": [
+            374,
+            131,
+            146,
+            111
+          ]
+        },
+        {
+          "title": "Read the relationship in context",
+          "text": "James begins the entry before the residence and child-baptism clause. Neither the mother's name nor the child's birth date is supplied.",
+          "region": [
+            237,
+            120,
+            283,
+            122
+          ]
+        }
+      ],
+      "same_hand_comparisons": [
+        {
+          "image": "/assets/research/testament-crops/george-1605-entry-v3.jpg",
+          "image_width": 1472,
+          "image_height": 430,
+          "region": [
+            242,
+            173,
+            150,
+            79
+          ],
+          "reading": "glasgow below",
+          "explanation": "The repeated surname continues the witness's name, not a second statement of parentage."
+        }
+      ]
+    },
+    {
+      "id": "george-1605-witness-georg",
+      "title": "George Glasgow, witness",
+      "nav_label": "George Glasgow, witness",
+      "image": "/assets/research/testament-crops/george-1605-entry-v3.jpg",
+      "image_width": 1472,
+      "image_height": 430,
+      "region": [
+        242,
+        108,
+        1197,
+        144
+      ],
+      "reading": "W. Georg / glasgow",
+      "expansion": "Witness: George Glasgow",
+      "confidence": "High for role distinction.",
+      "context": "W. follows the child; Georg at the right continues as glasgow on the next line.",
+      "review_status": "source-aligned",
+      "locator_note": "Use the selected word before the wider passage. Pixel regions retain full visible strokes. Crossings from neighbouring lines remain contextual; a rectangular focus is retained where further separation would guess.",
+      "conclusion": "No grandfather or other kinship is stated for the witness.",
+      "letters": [
+        {
+          "id": "george-1605-witness-georg-word-1",
+          "glyph": "Georg",
+          "label": "Georg: whole connected word",
+          "position": 1,
+          "region": [
+            1280,
+            108,
+            159,
+            91
+          ],
+          "paths": [],
+          "observed": "After W., read the far-right name separately from george after namit.",
+          "matches": "The names can be compared visually while their grammatical positions remain distinct.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "The role marker matters as much as the letter shapes."
+        },
+        {
+          "id": "george-1605-witness-georg-word-2",
+          "glyph": "glasgow",
+          "label": "glasgow: whole connected word",
+          "position": 1,
+          "region": [
+            242,
+            173,
+            150,
+            79
+          ],
+          "paths": [],
+          "observed": "Return left below for the surname before Johne smyth.",
+          "matches": "The names can be compared visually while their grammatical positions remain distinct.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "The line break does not create another child."
+        }
+      ],
+      "words": [
+        {
+          "text": "Georg",
+          "region": [
+            1280,
+            108,
+            159,
+            91
+          ],
+          "focus_polygon": [
+            [
+              1280,
+              108
+            ],
+            [
+              1439,
+              108
+            ],
+            [
+              1439,
+              199
+            ],
+            [
+              1280,
+              199
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "george-1605-witness-georg-word-1",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        },
+        {
+          "text": "glasgow",
+          "region": [
+            242,
+            173,
+            150,
+            79
+          ],
+          "focus_polygon": [
+            [
+              242,
+              173
+            ],
+            [
+              392,
+              173
+            ],
+            [
+              392,
+              252
+            ],
+            [
+              242,
+              252
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "george-1605-witness-georg-word-2",
+              "start": 0,
+              "end": 7
+            }
+          ]
+        }
+      ],
+      "reading_steps": [
+        {
+          "title": "Read Georg",
+          "text": "After W., read the far-right name separately from george after namit. The role marker matters as much as the letter shapes.",
+          "region": [
+            1280,
+            108,
+            159,
+            91
+          ]
+        },
+        {
+          "title": "Read glasgow",
+          "text": "Return left below for the surname before Johne smyth. The line break does not create another child.",
+          "region": [
+            242,
+            173,
+            150,
+            79
+          ]
+        },
+        {
+          "title": "Read the relationship in context",
+          "text": "W. follows the child; Georg at the right continues as glasgow on the next line. No grandfather or other kinship is stated for the witness.",
+          "region": [
+            242,
+            108,
+            1197,
+            144
+          ]
+        }
+      ],
+      "same_hand_comparisons": [
+        {
+          "image": "/assets/research/testament-crops/george-1605-entry-v3.jpg",
+          "image_width": 1472,
+          "image_height": 430,
+          "region": [
+            1087,
+            126,
+            126,
+            66
+          ],
+          "reading": "george after namit",
+          "explanation": "The names can be compared visually while their grammatical positions remain distinct."
+        }
+      ]
+    }
+  ],
+  "method": "Visually inspected whole-word source-pixel studies. Original images are unchanged. Conservative focus envelopes retain ambiguous crossings; some remain rectangular because a smaller mask would assign uncertain ink. Whole connected words serve as colour groups where internal boundaries are unclear. The separate Joscelyn example is a different teaching hand, not a reconstruction or proof. No guessed SVG pen paths.",
+  "people_studies": {
+    "George Glasgow": "george-baptism-name",
+    "James Glasgow": "george-1605-james-parent"
+  },
+  "walkthrough_mark_updates": [
+    {
+      "step_id": "george-baptism",
+      "mark_index": 1,
+      "region": [
+        237,
+        120,
+        283,
+        122
+      ]
+    },
+    {
+      "step_id": "george-baptism",
+      "mark_index": 3,
+      "region": [
+        999,
+        126,
+        214,
+        66
+      ]
+    },
+    {
+      "step_id": "george-witness",
+      "mark_index": 0,
+      "region": [
+        237,
+        120,
+        283,
+        122
+      ]
+    },
+    {
+      "step_id": "george-witness",
+      "mark_index": 2,
+      "region": [
+        1280,
+        108,
+        159,
+        91
+      ]
+    },
+    {
+      "step_id": "george-witness",
+      "mark_index": 3,
+      "region": [
+        242,
+        173,
+        150,
+        79
+      ]
+    }
+  ]
+}

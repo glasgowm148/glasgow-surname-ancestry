@@ -1,0 +1,936 @@
+{
+  "id": "geillis-1603",
+  "studies": [
+    {
+      "id": "geillis-glasgw-identity",
+      "title": "Geillis Glasgow",
+      "nav_label": "Geillis Glasgow",
+      "image": "/assets/research/testament-crops/geillis-1603-identity.jpg",
+      "image_width": 2050,
+      "image_height": 650,
+      "region": [
+        498,
+        232,
+        359,
+        111
+      ],
+      "reading": "Geillis glasgw",
+      "expansion": "Geillis Glasgow",
+      "confidence": "High for the maintained identity.",
+      "context": "The deceased woman's name precedes the spouse clause.",
+      "review_status": "source-aligned",
+      "locator_note": "Use the selected word before the wider passage. Pixel regions retain full visible strokes. Crossings from neighbouring lines remain contextual; a rectangular focus is retained where further separation would guess.",
+      "conclusion": "A later Glasgow payee is not thereby a parent or sibling.",
+      "letters": [
+        {
+          "id": "geillis-glasgw-identity-word-1",
+          "glyph": "Geillis",
+          "label": "Geillis: whole connected word",
+          "position": 1,
+          "region": [
+            498,
+            237,
+            198,
+            90
+          ],
+          "paths": [],
+          "observed": "Find the broad G after the deceased abbreviation, narrow middle and taller l-like strokes.",
+          "matches": "A surname recurrence helps compare the hand but establishes no kinship.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "Do not start at the earlier heading."
+        },
+        {
+          "id": "geillis-glasgw-identity-word-2",
+          "glyph": "glasgw",
+          "label": "glasgw: whole connected word",
+          "position": 1,
+          "region": [
+            691,
+            232,
+            166,
+            111
+          ],
+          "paths": [],
+          "observed": "Follow the compact surname and long extensions to the gap before spous.",
+          "matches": "A surname recurrence helps compare the hand but establishes no kinship.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "Retain the literal glasgw."
+        }
+      ],
+      "words": [
+        {
+          "text": "Geillis",
+          "region": [
+            498,
+            237,
+            198,
+            90
+          ],
+          "focus_polygon": [
+            [
+              498,
+              237
+            ],
+            [
+              696,
+              237
+            ],
+            [
+              696,
+              327
+            ],
+            [
+              498,
+              327
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "geillis-glasgw-identity-word-1",
+              "start": 0,
+              "end": 7
+            }
+          ]
+        },
+        {
+          "text": "glasgw",
+          "region": [
+            691,
+            232,
+            166,
+            111
+          ],
+          "focus_polygon": [
+            [
+              691,
+              232
+            ],
+            [
+              857,
+              232
+            ],
+            [
+              857,
+              343
+            ],
+            [
+              691,
+              343
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "geillis-glasgw-identity-word-2",
+              "start": 0,
+              "end": 6
+            }
+          ]
+        }
+      ],
+      "reading_steps": [
+        {
+          "title": "Read Geillis",
+          "text": "Find the broad G after the deceased abbreviation, narrow middle and taller l-like strokes. Do not start at the earlier heading.",
+          "region": [
+            498,
+            237,
+            198,
+            90
+          ]
+        },
+        {
+          "title": "Read glasgw",
+          "text": "Follow the compact surname and long extensions to the gap before spous. Retain the literal glasgw.",
+          "region": [
+            691,
+            232,
+            166,
+            111
+          ]
+        },
+        {
+          "title": "Read the relationship in context",
+          "text": "The deceased woman's name precedes the spouse clause. A later Glasgow payee is not thereby a parent or sibling.",
+          "region": [
+            498,
+            232,
+            359,
+            111
+          ]
+        }
+      ],
+      "same_hand_comparisons": [
+        {
+          "image": "/assets/research/testament-crops/geillis-1603-debts.jpg",
+          "image_width": 1950,
+          "image_height": 850,
+          "region": [
+            691,
+            584,
+            184,
+            117
+          ],
+          "reading": "glasgw with James",
+          "explanation": "A surname recurrence helps compare the hand but establishes no kinship."
+        }
+      ]
+    },
+    {
+      "id": "geillis-1603-thomas",
+      "title": "Thomas Wilson, spouse",
+      "nav_label": "Thomas Wilson, spouse",
+      "image": "/assets/research/testament-crops/geillis-1603-identity.jpg",
+      "image_width": 2050,
+      "image_height": 650,
+      "region": [
+        845,
+        228,
+        537,
+        121
+      ],
+      "reading": "spous to Thomas wilson",
+      "expansion": "spouse of Thomas Wilson",
+      "confidence": "High for the marital clause.",
+      "context": "Spous to explicitly links Geillis and Thomas.",
+      "review_status": "source-aligned",
+      "locator_note": "Use the selected word before the wider passage. Pixel regions retain full visible strokes. Crossings from neighbouring lines remain contextual; a rectangular focus is retained where further separation would guess.",
+      "conclusion": "Marriage follows from that phrase, not from administering her estate.",
+      "letters": [
+        {
+          "id": "geillis-1603-thomas-word-1",
+          "glyph": "spous",
+          "label": "spous: whole connected word",
+          "position": 1,
+          "region": [
+            845,
+            228,
+            139,
+            121
+          ],
+          "paths": [],
+          "observed": "Find the tall start before to, retaining its long lower movement.",
+          "matches": "The presentation wording repeats Thomas after said, allowing a same-clerk comparison.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "Lower-line crossings are not extra letters."
+        },
+        {
+          "id": "geillis-1603-thomas-word-2",
+          "glyph": "Thomas",
+          "label": "Thomas: whole connected word",
+          "position": 1,
+          "region": [
+            1020,
+            238,
+            183,
+            88
+          ],
+          "paths": [],
+          "observed": "After to, a large initial leads into the smaller homas run.",
+          "matches": "The presentation wording repeats Thomas after said, allowing a same-clerk comparison.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "Stop at the surname gap."
+        },
+        {
+          "id": "geillis-1603-thomas-word-3",
+          "glyph": "wilson",
+          "label": "wilson: whole connected word",
+          "position": 1,
+          "region": [
+            1201,
+            233,
+            181,
+            112
+          ],
+          "paths": [],
+          "observed": "A wider opening leads into low joins and a longer downward stroke.",
+          "matches": "The presentation wording repeats Thomas after said, allowing a same-clerk comparison.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "Wilson is the modern display form."
+        }
+      ],
+      "words": [
+        {
+          "text": "spous",
+          "region": [
+            845,
+            228,
+            139,
+            121
+          ],
+          "focus_polygon": [
+            [
+              845,
+              228
+            ],
+            [
+              984,
+              228
+            ],
+            [
+              984,
+              349
+            ],
+            [
+              845,
+              349
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "geillis-1603-thomas-word-1",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        },
+        {
+          "text": "Thomas",
+          "region": [
+            1020,
+            238,
+            183,
+            88
+          ],
+          "focus_polygon": [
+            [
+              1020,
+              238
+            ],
+            [
+              1203,
+              238
+            ],
+            [
+              1203,
+              326
+            ],
+            [
+              1020,
+              326
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "geillis-1603-thomas-word-2",
+              "start": 0,
+              "end": 6
+            }
+          ]
+        },
+        {
+          "text": "wilson",
+          "region": [
+            1201,
+            233,
+            181,
+            112
+          ],
+          "focus_polygon": [
+            [
+              1201,
+              233
+            ],
+            [
+              1382,
+              233
+            ],
+            [
+              1382,
+              345
+            ],
+            [
+              1201,
+              345
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "geillis-1603-thomas-word-3",
+              "start": 0,
+              "end": 6
+            }
+          ]
+        }
+      ],
+      "reading_steps": [
+        {
+          "title": "Read spous",
+          "text": "Find the tall start before to, retaining its long lower movement. Lower-line crossings are not extra letters.",
+          "region": [
+            845,
+            228,
+            139,
+            121
+          ]
+        },
+        {
+          "title": "Read Thomas",
+          "text": "After to, a large initial leads into the smaller homas run. Stop at the surname gap.",
+          "region": [
+            1020,
+            238,
+            183,
+            88
+          ]
+        },
+        {
+          "title": "Read wilson",
+          "text": "A wider opening leads into low joins and a longer downward stroke. Wilson is the modern display form.",
+          "region": [
+            1201,
+            233,
+            181,
+            112
+          ]
+        },
+        {
+          "title": "Read the relationship in context",
+          "text": "Spous to explicitly links Geillis and Thomas. Marriage follows from that phrase, not from administering her estate.",
+          "region": [
+            845,
+            228,
+            537,
+            121
+          ]
+        }
+      ],
+      "same_hand_comparisons": [
+        {
+          "image": "/assets/research/testament-crops/geillis-1603-identity.jpg",
+          "image_width": 2050,
+          "image_height": 650,
+          "region": [
+            370,
+            386,
+            210,
+            88
+          ],
+          "reading": "Thomas repeated",
+          "explanation": "The presentation wording repeats Thomas after said, allowing a same-clerk comparison."
+        }
+      ]
+    },
+    {
+      "id": "geillis-1603-executor-names",
+      "title": "James, Isobell and Bessie",
+      "nav_label": "James, Isobell and Bessie",
+      "image": "/assets/research/testament-crops/geillis-1603-executors.jpg",
+      "image_width": 2050,
+      "image_height": 760,
+      "region": [
+        269,
+        104,
+        1432,
+        163
+      ],
+      "reading": "James ... Isobell & Bessie wilson",
+      "expansion": "James, Isobel and Bessie Wilson",
+      "confidence": "Moderate for names; relationship wording unresolved.",
+      "context": "The group occurs in the dative-executor appointment across a line break.",
+      "review_status": "source-aligned",
+      "locator_note": "Use the selected word before the wider passage. Pixel regions retain full visible strokes. Crossings from neighbouring lines remain contextual; a rectangular focus is retained where further separation would guess.",
+      "conclusion": "Executorship does not establish any of them as Geillis's child.",
+      "letters": [
+        {
+          "id": "geillis-1603-executor-names-word-1",
+          "glyph": "James",
+          "label": "James: whole connected word",
+          "position": 1,
+          "region": [
+            1117,
+            108,
+            153,
+            89
+          ],
+          "paths": [],
+          "observed": "Find James after the behalf wording, with longer initial and short middle.",
+          "matches": "Compare the surname's writing without deciding the bearers' relationship.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "The following unclear wording is not secure sonship."
+        },
+        {
+          "id": "geillis-1603-executor-names-word-2",
+          "glyph": "Isobell",
+          "label": "Isobell: whole connected word",
+          "position": 1,
+          "region": [
+            1459,
+            104,
+            242,
+            110
+          ],
+          "paths": [],
+          "observed": "Read the high opening and taller forms near the right end.",
+          "matches": "Compare the surname's writing without deciding the bearers' relationship.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "The joined body is kept whole."
+        },
+        {
+          "id": "geillis-1603-executor-names-word-3",
+          "glyph": "Bessie",
+          "label": "Bessie: whole connected word",
+          "position": 1,
+          "region": [
+            269,
+            166,
+            167,
+            99
+          ],
+          "paths": [],
+          "observed": "Return left on the next line for Bessie before the shared surname.",
+          "matches": "Compare the surname's writing without deciding the bearers' relationship.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "The name list continues across the break."
+        },
+        {
+          "id": "geillis-1603-executor-names-word-4",
+          "glyph": "wilson",
+          "label": "wilson: whole connected word",
+          "position": 1,
+          "region": [
+            435,
+            166,
+            194,
+            101
+          ],
+          "paths": [],
+          "observed": "The surname after Bessie has a conspicuous longer middle movement.",
+          "matches": "Compare the surname's writing without deciding the bearers' relationship.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "Shared surname does not supply missing kin terms."
+        }
+      ],
+      "words": [
+        {
+          "text": "James",
+          "region": [
+            1117,
+            108,
+            153,
+            89
+          ],
+          "focus_polygon": [
+            [
+              1117,
+              108
+            ],
+            [
+              1270,
+              108
+            ],
+            [
+              1270,
+              197
+            ],
+            [
+              1117,
+              197
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "geillis-1603-executor-names-word-1",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        },
+        {
+          "text": "Isobell",
+          "region": [
+            1459,
+            104,
+            242,
+            110
+          ],
+          "focus_polygon": [
+            [
+              1459,
+              104
+            ],
+            [
+              1701,
+              104
+            ],
+            [
+              1701,
+              214
+            ],
+            [
+              1459,
+              214
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "geillis-1603-executor-names-word-2",
+              "start": 0,
+              "end": 7
+            }
+          ]
+        },
+        {
+          "text": "Bessie",
+          "region": [
+            269,
+            166,
+            167,
+            99
+          ],
+          "focus_polygon": [
+            [
+              269,
+              166
+            ],
+            [
+              436,
+              166
+            ],
+            [
+              436,
+              265
+            ],
+            [
+              269,
+              265
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "geillis-1603-executor-names-word-3",
+              "start": 0,
+              "end": 6
+            }
+          ]
+        },
+        {
+          "text": "wilson",
+          "region": [
+            435,
+            166,
+            194,
+            101
+          ],
+          "focus_polygon": [
+            [
+              435,
+              166
+            ],
+            [
+              629,
+              166
+            ],
+            [
+              629,
+              267
+            ],
+            [
+              435,
+              267
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "geillis-1603-executor-names-word-4",
+              "start": 0,
+              "end": 6
+            }
+          ]
+        }
+      ],
+      "reading_steps": [
+        {
+          "title": "Read James",
+          "text": "Find James after the behalf wording, with longer initial and short middle. The following unclear wording is not secure sonship.",
+          "region": [
+            1117,
+            108,
+            153,
+            89
+          ]
+        },
+        {
+          "title": "Read Isobell",
+          "text": "Read the high opening and taller forms near the right end. The joined body is kept whole.",
+          "region": [
+            1459,
+            104,
+            242,
+            110
+          ]
+        },
+        {
+          "title": "Read Bessie",
+          "text": "Return left on the next line for Bessie before the shared surname. The name list continues across the break.",
+          "region": [
+            269,
+            166,
+            167,
+            99
+          ]
+        },
+        {
+          "title": "Read wilson",
+          "text": "The surname after Bessie has a conspicuous longer middle movement. Shared surname does not supply missing kin terms.",
+          "region": [
+            435,
+            166,
+            194,
+            101
+          ]
+        },
+        {
+          "title": "Read the relationship in context",
+          "text": "The group occurs in the dative-executor appointment across a line break. Executorship does not establish any of them as Geillis's child.",
+          "region": [
+            269,
+            104,
+            1432,
+            163
+          ]
+        }
+      ],
+      "same_hand_comparisons": [
+        {
+          "image": "/assets/research/testament-crops/geillis-1603-identity.jpg",
+          "image_width": 2050,
+          "image_height": 650,
+          "region": [
+            1201,
+            233,
+            181,
+            112
+          ],
+          "reading": "wilson with Thomas",
+          "explanation": "Compare the surname's writing without deciding the bearers' relationship."
+        }
+      ]
+    },
+    {
+      "id": "geillis-1603-james-debt",
+      "title": "James Glasgow, payee",
+      "nav_label": "James Glasgow, payee",
+      "image": "/assets/research/testament-crops/geillis-1603-debts.jpg",
+      "image_width": 1950,
+      "image_height": 850,
+      "region": [
+        507,
+        584,
+        368,
+        117
+      ],
+      "reading": "James glasgw in Stevinstoun",
+      "expansion": "James Glasgow in Stevenston",
+      "confidence": "High for financial role; kinship unstated.",
+      "context": "The name occurs in debts owed by the estate and is followed by a residence.",
+      "review_status": "source-aligned",
+      "locator_note": "Use the selected word before the wider passage. Pixel regions retain full visible strokes. Crossings from neighbouring lines remain contextual; a rectangular focus is retained where further separation would guess.",
+      "conclusion": "James is not called Geillis's father or brother.",
+      "letters": [
+        {
+          "id": "geillis-1603-james-debt-word-1",
+          "glyph": "James",
+          "label": "James: whole connected word",
+          "position": 1,
+          "region": [
+            507,
+            592,
+            187,
+            102
+          ],
+          "paths": [],
+          "observed": "After to in the lower debt entry, find the large descending initial.",
+          "matches": "The same surname appears in a different documented role.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "It is a name stroke, not an account amount."
+        },
+        {
+          "id": "geillis-1603-james-debt-word-2",
+          "glyph": "glasgw",
+          "label": "glasgw: whole connected word",
+          "position": 1,
+          "region": [
+            691,
+            584,
+            184,
+            117
+          ],
+          "paths": [],
+          "observed": "Read the surname's long forms before in Stevinstoun.",
+          "matches": "The same surname appears in a different documented role.",
+          "differs": "The original connects and varies its forms; Joscelyn is a different hand, not a reconstruction.",
+          "caution": "The residence is not part of the surname."
+        }
+      ],
+      "words": [
+        {
+          "text": "James",
+          "region": [
+            507,
+            592,
+            187,
+            102
+          ],
+          "focus_polygon": [
+            [
+              507,
+              592
+            ],
+            [
+              694,
+              592
+            ],
+            [
+              694,
+              694
+            ],
+            [
+              507,
+              694
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "geillis-1603-james-debt-word-1",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        },
+        {
+          "text": "glasgw",
+          "region": [
+            691,
+            584,
+            184,
+            117
+          ],
+          "focus_polygon": [
+            [
+              691,
+              584
+            ],
+            [
+              875,
+              584
+            ],
+            [
+              875,
+              701
+            ],
+            [
+              691,
+              701
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "geillis-1603-james-debt-word-2",
+              "start": 0,
+              "end": 6
+            }
+          ]
+        }
+      ],
+      "reading_steps": [
+        {
+          "title": "Read James",
+          "text": "After to in the lower debt entry, find the large descending initial. It is a name stroke, not an account amount.",
+          "region": [
+            507,
+            592,
+            187,
+            102
+          ]
+        },
+        {
+          "title": "Read glasgw",
+          "text": "Read the surname's long forms before in Stevinstoun. The residence is not part of the surname.",
+          "region": [
+            691,
+            584,
+            184,
+            117
+          ]
+        },
+        {
+          "title": "Read the relationship in context",
+          "text": "The name occurs in debts owed by the estate and is followed by a residence. James is not called Geillis's father or brother.",
+          "region": [
+            507,
+            584,
+            368,
+            117
+          ]
+        }
+      ],
+      "same_hand_comparisons": [
+        {
+          "image": "/assets/research/testament-crops/geillis-1603-identity.jpg",
+          "image_width": 2050,
+          "image_height": 650,
+          "region": [
+            691,
+            232,
+            166,
+            111
+          ],
+          "reading": "glasgw with Geillis",
+          "explanation": "The same surname appears in a different documented role."
+        }
+      ]
+    }
+  ],
+  "method": "Visually inspected whole-word source-pixel studies. Original images are unchanged. Conservative focus envelopes retain ambiguous crossings; some remain rectangular because a smaller mask would assign uncertain ink. Whole connected words serve as colour groups where internal boundaries are unclear. The separate Joscelyn example is a different teaching hand, not a reconstruction or proof. No guessed SVG pen paths.",
+  "people_studies": {
+    "Geillis Glasgow": "geillis-glasgw-identity",
+    "Thomas Wilson": "geillis-1603-thomas",
+    "James Wilson": "geillis-1603-executor-names",
+    "Isobel Wilson": "geillis-1603-executor-names",
+    "Bessie Wilson": "geillis-1603-executor-names",
+    "James Glasgow": "geillis-1603-james-debt"
+  },
+  "walkthrough_mark_updates": [
+    {
+      "step_id": "identity",
+      "mark_index": 0,
+      "region": [
+        498,
+        232,
+        359,
+        111
+      ]
+    },
+    {
+      "step_id": "identity",
+      "mark_index": 1,
+      "region": [
+        845,
+        228,
+        537,
+        121
+      ]
+    },
+    {
+      "step_id": "debts",
+      "mark_index": 1,
+      "region": [
+        507,
+        584,
+        805,
+        117
+      ]
+    }
+  ]
+}

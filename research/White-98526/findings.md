@@ -6,7 +6,7 @@ Jane White married Richard Swift at Birmingham on 5 August 1771 and was the
 mother of Jane Swift, baptized there on 27 December 1777. Her parents remain
 unidentified.
 
-## Evidence
+## Source findings
 
 | Source | Finding | Assessment |
 | --- | --- | --- |

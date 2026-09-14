@@ -1,0 +1,268 @@
+{
+  "id": "george-1605",
+  "intro": "This is a parish-register baptism, not a testament. Read the date heading with the baptism formula, then keep James Glasgow, the named parent, separate from George Glasgow, who appears after the witness marker.",
+  "people": [
+    {
+      "name": "George Glasgow",
+      "role": "child baptised",
+      "status": "explicit",
+      "profile_id": "Glasgow-1082",
+      "evidence_step": "george-baptism",
+      "evidence_study": "george-baptism-name"
+    },
+    {
+      "name": "James Glasgow",
+      "role": "named parent",
+      "status": "explicit",
+      "evidence_step": "george-baptism",
+      "evidence_study": "george-1605-james-parent"
+    },
+    {
+      "name": "George Glasgow",
+      "role": "witness, not the named parent",
+      "status": "comparison",
+      "evidence_step": "george-witness",
+      "evidence_study": "george-1605-witness-georg"
+    }
+  ],
+  "card_kin": {
+    "spouse": [],
+    "children": [],
+    "other_kin": [{"name": "James Glasgow", "relationship": "parent", "status": "explicit", "evidence_step": "george-baptism", "evidence_study": "george-1605-james-parent"}]
+  },
+  "steps": [
+    {
+      "id": "george-baptism",
+      "title": "Read the date and baptism formula together",
+      "page_label": "NRS Old Parish Registers, Births, Mid Calder 694/10, register page 7, 17 February 1605",
+      "image": "/assets/research/testament-crops/george-1605-entry-v3.jpg",
+      "image_width": 1472,
+      "image_height": 430,
+      "alt": "Mid Calder register entry dated 17 February, naming James Glasgow and a baptised child George.",
+      "original": "xvij feb[ruar?] / James glasgow in muirestoun[?] ane bairne baptizit namit george",
+      "reading": "17 February: James Glasgow in Muirestoun [?], a child baptised named George",
+      "explanation": "Xvij is the Roman numeral 17. Read down from that heading to James's entry, then across to baptizit and namit george. The long descenders cross into the next line's space, so the word-study boxes are intentionally tall. Ane bairne baptizit namit george is the operative phrase: 'a child baptised, named George'. The line records baptism, not an explicitly stated birth.",
+      "proves": "George was baptised on 17 February 1605, and James Glasgow is the parent named in the entry's formula.",
+      "does_not_prove": "It does not state George's birth date, name his mother, or securely resolve the residence spelling.",
+      "confidence": "high for the baptism date, James, and child George; moderate for Muirestoun",
+      "marks": [
+        {
+          "x": 42.798913,
+          "y": 20.930233,
+          "w": 13.858696,
+          "h": 17.44186,
+          "label": "xvij feb[ruar?]",
+          "kind": "relationship",
+          "pixel_bbox": [
+            630,
+            90,
+            834,
+            165
+          ],
+          "analysis": {
+            "reading": "xvij feb[ruar?]",
+            "expansion": "17 February",
+            "features": [
+              "xvij is formed by crossed x strokes, a v, two short i minims and a descending final j.",
+              "The j descender drops below the numeral line and curls left.",
+              "The following month abbreviation begins with a tall f and a raised abbreviation mark."
+            ],
+            "uncertainty": "The day numeral is clear; the expanded source excerpt preserves the complete raised month flourish with surrounding margin."
+          }
+        },
+        {
+          "x": 16.10054347826087,
+          "y": 27.906976744186046,
+          "w": 19.22554347826087,
+          "h": 28.37209302325581,
+          "label": "James glasgow",
+          "kind": "name",
+          "pixel_bbox": [
+            237,
+            120,
+            520,
+            242
+          ],
+          "analysis": {
+            "reading": "James glasgow",
+            "expansion": "James Glasgow",
+            "features": [
+              "The capital J has a long descending stroke that loops left below the line.",
+              "James ends in a long s whose stroke can resemble f.",
+              "glasgow begins on the following line with a tall looped g and a compact final w."
+            ],
+            "comparison": "The wider witness crop repeats this same James glasgow at the entry start.",
+            "uncertainty": "The name is clear; the line's formula identifies him as the named parent, not necessarily the father under every possible register convention."
+          }
+        },
+        {
+          "x": 56.38587,
+          "y": 24.418605,
+          "w": 12.228261,
+          "h": 26.27907,
+          "label": "baptizit",
+          "kind": "relationship",
+          "pixel_bbox": [
+            830,
+            105,
+            1010,
+            218
+          ],
+          "analysis": {
+            "reading": "baptizit",
+            "expansion": "baptised",
+            "features": [
+              "The initial b rises in a tall narrow loop.",
+              "The p descends below the body letters, while the t near the end rises and crosses lightly.",
+              "The final -zit is compressed into angular strokes typical of the clerk's connected hand."
+            ],
+            "uncertainty": "The action is baptism; the word supplies no birth date."
+          }
+        },
+        {
+          "x": 67.86684782608695,
+          "y": 29.30232558139535,
+          "w": 14.538043478260871,
+          "h": 15.348837209302326,
+          "label": "namit george",
+          "kind": "name",
+          "pixel_bbox": [
+            999,
+            126,
+            1213,
+            192
+          ],
+          "analysis": {
+            "reading": "namit george",
+            "expansion": "named George",
+            "features": [
+              "namit is a low run of joined humps ending in a taller t.",
+              "george starts with a looped descender and contains a second rounded g-like form near its end.",
+              "A visible word gap separates the naming verb from the child's forename."
+            ],
+            "comparison": "The witness's Georg at the far right of the wider crop has the same open capital-like initial but a different role after W.",
+            "uncertainty": "George is the child named by the baptism formula; this sample does not name a mother."
+          }
+        }
+      ],
+      "word_studies_replaced": true
+    },
+    {
+      "id": "george-witness",
+      "title": "Do not turn the witness into the father",
+      "page_label": "NRS Old Parish Registers, Births, Mid Calder 694/10, register page 7, target entry",
+      "image": "/assets/research/testament-crops/george-1605-entry-v3.jpg",
+      "image_width": 1472,
+      "image_height": 430,
+      "alt": "Two-line baptism entry with James Glasgow at the start and witness George Glasgow wrapping across the line end.",
+      "original": "James glasgow ... namit george . W. Georg / glasgow Johne smyth Wm[?] [illegible]",
+      "reading": "James Glasgow ... named George. Witnesses: George Glasgow, John Smith, William [?] ...",
+      "explanation": "Read the entry as a two-line unit. James begins the first line; after the child-naming words, the isolated W. changes the role to witnesses. Georg closes that line and glasgow resumes at the far left below. The expanded source excerpt preserves the complete lower continuation; keeping the two pieces separate prevents a false single-line box.",
+      "proves": "James Glasgow is the named parent, while a different role is assigned to George Glasgow as a witness.",
+      "does_not_prove": "The entry does not call the witness George the child's grandfather or otherwise state how he was related.",
+      "confidence": "high for the parent/witness distinction; low for the final witness",
+      "marks": [
+        {
+          "x": 16.10054347826087,
+          "y": 27.906976744186046,
+          "w": 19.22554347826087,
+          "h": 28.37209302325581,
+          "label": "James glasgow: parent",
+          "kind": "name",
+          "pixel_bbox": [
+            237,
+            120,
+            520,
+            242
+          ],
+          "analysis": {
+            "reading": "James glasgow",
+            "expansion": "James Glasgow, the named parent",
+            "features": [
+              "The large J descends below the line before returning into ames.",
+              "The long s at the end of James runs toward the next word.",
+              "The surname's opening g descender overlaps the space used by the following line."
+            ],
+            "comparison": "This is the same entry-start name isolated in the baptism step.",
+            "uncertainty": "The register formula names James as parent; it does not display a separate kin word such as father."
+          }
+        },
+        {
+          "x": 78.8,
+          "y": 23.26,
+          "w": 9.85,
+          "h": 26.74,
+          "label": "W.: witnesses begin",
+          "kind": "relationship",
+          "pixel_bbox": [
+            1160,
+            100,
+            1305,
+            215
+          ],
+          "analysis": {
+            "reading": "W.",
+            "expansion": "Witness or witnesses",
+            "features": [
+              "The marker is visually isolated after the child's name and before Georg.",
+              "Its two broad joined downstrokes form a compact W unlike the surrounding lower-case words.",
+              "The following dot reinforces its abbreviated function."
+            ],
+            "uncertainty": "The role change is clear in context; the exact singular/plural expansion is editorial."
+          }
+        },
+        {
+          "x": 86.95652173913044,
+          "y": 25.116279069767444,
+          "w": 10.801630434782608,
+          "h": 21.16279069767442,
+          "label": "Georg: witness name begins",
+          "kind": "name",
+          "pixel_bbox": [
+            1280,
+            108,
+            1439,
+            199
+          ],
+          "analysis": {
+            "reading": "Georg",
+            "expansion": "George, first half of the witness's name",
+            "features": [
+              "The opening G is a dark looped form larger than the following letters.",
+              "The internal eor is a sequence of small connected loops.",
+              "The final g descends and finishes just before the line break."
+            ],
+            "comparison": "The child's george occurs earlier on this same line, but this occurrence follows the witness marker.",
+            "uncertainty": "The forename is secure; its surname must be taken from the next line."
+          }
+        },
+        {
+          "x": 16.440217391304348,
+          "y": 40.23255813953489,
+          "w": 10.190217391304348,
+          "h": 18.372093023255815,
+          "label": "glasgow: witness name continues",
+          "kind": "name",
+          "pixel_bbox": [
+            242,
+            173,
+            392,
+            252
+          ],
+          "analysis": {
+            "reading": "glasgow",
+            "expansion": "Glasgow, continuation of George's witness name",
+            "features": [
+              "The surname restarts at the left margin directly below Georg.",
+              "The opening g has a deep looped descender.",
+              "The final w is a compact zig-zag of connected strokes."
+            ],
+            "comparison": "The same surname shape appears after James at the start of the preceding line.",
+            "uncertainty": "The expanded source excerpt preserves the full continuation and its lower margin; the line break, not the surname, is uncertain."
+          }
+        }
+      ],
+      "word_studies_replaced": true
+    }
+  ]
+}

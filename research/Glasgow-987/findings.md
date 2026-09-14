@@ -1,6 +1,6 @@
 # Findings: Glasgow-987
 
-Last updated: 2026-09-06
+Last updated: 2026-09-13
 
 ## Current conclusion
 
@@ -27,7 +27,10 @@ His daughters' original September 1889 birth returns place their father Daniel,
 a labourer, in New York. An Irish-born Albany Rural Cemetery labourer who died
 as Daniel `Glascow` at Troy on 12 February 1931, certificate 9941, is a strong
 same-person candidate. The Troy death certificate or obituary may name Thomas
-and Mary Ann, but no original US record has yet proved the identity.
+and Mary Ann, but a bounded free census and newspaper search found no
+identity-bearing record. The cemetery transcription gives 1913 where the state
+index gives 1931, so both identity and death date remain unresolved pending the
+certificate or original cemetery card.
 
 Thomas belongs in the standalone **Bann Valley-Killoquin / Kilrea-Rasharkin
 cluster** with proved brother Daniel and possible brother or cousin Alexander
@@ -39,13 +42,12 @@ marriage to Charles Taylor names her father as Thomas Glasgow, farmer, and her
 residence as Lisnagaver. Four civil births and a contemporary notice identify
 their later family.
 
-The same search found Mary Ann Glasgow's original 1914 death return at
-Lisnagaver. It calls the 94-year-old widow a farmer's widow and names Sarah
-Taylor as the informant, but describes Sarah as Mary Ann's **grand-daughter**.
-That word conflicts with Sarah's direct marriage record and the chronology:
-Thomas was born about 1815 and Mary Ann about 1820. It is therefore retained as
-an unresolved relationship error or same-place namesake problem, not used to
-recast Sarah as Thomas's granddaughter.
+Mary Ann Glasgow's original 1914 death return calls its Sarah Taylor informant
+her **grand-daughter**. The original birth return for Charles and Sarah's
+daughter Sarah, born at Lisnagaver on 25 February 1893, now supplies the natural
+identification: she was 20 in January 1914. The death return does not distinguish
+mother from daughter, so this remains a strong inference, but the former
+clerical-error theory is no longer needed.
 
 The 5 September master review confirms that Alexander must not be described as
 Thomas's probable brother. Their common locality, congregation, neighbouring
@@ -57,20 +59,21 @@ parents remain unidentified.
 
 | Source | Finding | Assessment |
 | --- | --- | --- |
-| [Ireland, Inland Revenue Wills & Administration, Will Registers, 1828-1879](https://www.familysearch.org/en/search/collection/5000207), 1870 Belfast index entry (researcher-supplied transcription) | An indexed Lisnagaver entry names Mary A. Glasgow and Thomas Glasgow. The exact image, column headings, folio and name roles have not yet been recovered. | **HOLD.** Thomas died at Lisnagaver on 21 June 1870 and his wife was Mary Ann, so the leading interpretation is Thomas's estate with his widow involved. The index does not state a relationship to Alexander. Inspect the entire index row and then the registered Belfast will before using it as proof. |
+| [PRONI Will Calendars, Thomas Glasgow administration](https://apps.proni.gov.uk/WillsCalendar_IE/WillsSearch.aspx), Belfast registry | The full official abstract records that Thomas Glasgow, late of Lisnagaver, County Antrim, farmer, died there on 21 June 1870. Letters of administration were granted on 7 September 1870 to **Mary Anne Glasgow of Lisnagaver, his widow**; effects were under £200. PRONI marks the entry “No Image.” | **Identity resolved; parentage unchanged.** This is an intestate administration, not a will. It proves Mary Anne's role and excludes Mary `Glasgow-3167`, who was a spinster until 1871. It names no heirs, siblings or parents and gives no Alexander relationship. |
 | Original will of Daniel Glasgow of Kilrea, proved 1871 | Daniel names `my late brother Thomas Glasgow` and `my nephew Daniel Neely Glasgow`. | Direct relationship evidence. |
 | [IrishGenealogy indexed record](https://www.irishgenealogy.ie/view/?record_id=cima-2455742) and [original civil marriage return](https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1888/10763/5925382.pdf), 28 June 1888 | Daniel Neely Glasgow was a farmer residing at Lisnagaver and named his father as Thomas Glasgow, farmer. | Direct father evidence which identifies the will's brother-and-nephew pair with this Lisnagaver family. The local PDF is internal preservation only. |
 | [1851 census, Lisnagaver household 37](http://www.census.nationalarchives.ie/pages/1851/Antrim/Kilconway/Rasharkin/Lisnagaver/37/) | Thomas, 35, was a farmer with wife Mary Ann and five daughters at Lisnagaver. | Identity/place support, but no parent statement. |
 | [Canterbury Museum Macdonald Dictionary card for John Alexander Redpath](https://digitalnz.org/records/37798178) | Redpath's wife Ann is explicitly called the daughter of **Thomas Glasgow, farmer and flax miller of Kilrea, Ireland**; she died 8 July 1921 aged 78. | Strong compiled collateral identification of Thomas as Rose Ann's father and evidence for his occupation and Kilrea connection. It does not name Thomas's parents. Saved [card image](../Glasgow-3904/sources/macdonald_john_alexander_redpath_card.jpg). |
 | [Canterbury Museum Macdonald Dictionary card for John Haigh](https://digitalnz.org/records/37792659) | Haigh married **Eliza, daughter of Thomas Glasgow of County Antrim**, in January 1868; she survived him in 1921. | Independent compiled confirmation that a second emigrant daughter was Thomas's child. No parent of Thomas is named. Saved [card image](../Glasgow-3904/sources/macdonald_john_haigh_card.jpg). |
 | [Original Mermaid assisted-passenger list, 1862](https://christchurchcitylibraries.com/Heritage/Digitised/Emigration/EmbarkationLists/Mermaid-1862/) | Rosanna Glasgow, 21, Antrim, dairy woman, appears in the single-women section beside Elizabeth Glasgow, 24. | Exact age/place match for daughter Rose Ann in Thomas's 1851 household and consistent with the Redpath card. No parent or grandfather is stated. Saved [original list](../Glasgow-3904/sources/mermaid_passenger_list_1862.pdf). |
-| [Civil births of Ellen, Catherine, Charles and Alexander Taylor, 1897-1905](https://www.irishgenealogy.ie/files/civil/birth_returns/births_1897/02142/1813179.pdf) | All four were born at Lisnagaver to Charles Taylor, farmer, and Sarah Taylor formerly Glasgow. The later images are [Catherine](https://www.irishgenealogy.ie/files/civil/birth_returns/births_1899/02043/1782340.pdf), [Charles](https://www.irishgenealogy.ie/files/civil/birth_returns/births_1902/01892/1735215.pdf) and [Alexander](https://www.irishgenealogy.ie/files/civil/birth_returns/births_1905/01798/1705043.pdf). | Original proof of Sarah's maiden surname, husband and four children; no father is named. |
+| [Civil births of Sarah, Ellen, Catherine, Charles and Alexander Taylor, 1893-1905](https://www.irishgenealogy.ie/files/civil/birth_returns/births_1893/02307/1864819.pdf) | All five were born at Lisnagaver to Charles Taylor, farmer, and Sarah Taylor formerly Glasgow. The later images are [Ellen](https://www.irishgenealogy.ie/files/civil/birth_returns/births_1897/02142/1813179.pdf), [Catherine](https://www.irishgenealogy.ie/files/civil/birth_returns/births_1899/02043/1782340.pdf), [Charles](https://www.irishgenealogy.ie/files/civil/birth_returns/births_1902/01892/1735215.pdf) and [Alexander](https://www.irishgenealogy.ie/files/civil/birth_returns/births_1905/01798/1705043.pdf). | Original proof of Sarah's maiden surname, husband and five children. The younger Sarah is the strongest identification of the 1914 granddaughter-informant. |
 | [Charles Taylor and Sarah Glasgow marriage index](https://www.irishgenealogy.ie/view?record_id=cima-2318065) and [original return](https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1885/10855/5963591.pdf), 12 March 1885 | Sarah, full-age spinster of Lisnagaver, married Charles Taylor at Rasharkin Presbyterian Church and named her father as Thomas Glasgow, farmer. | Direct proof that Sarah was Thomas's daughter. |
-| [Mary Ann Glasgow death index](https://www.irishgenealogy.ie/view?record_id=cide-3485826) and [original return](https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1914/05313/4478270.pdf), 3 January 1914 | Mary Ann Glasgow, widow of a farmer, died at Lisnagaver aged 94. Informant Sarah Taylor of Lisnagaver was described as `Grand-daughter`. | Original same-place evidence, but the relationship word conflicts with Sarah's marriage and the ages. Preserve as unresolved; do not override the direct father statement. |
+| [Mary Ann Glasgow death index](https://www.irishgenealogy.ie/view?record_id=cide-3485826) and [original return](https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1914/05313/4478270.pdf), 3 January 1914 | Mary Ann Glasgow, widow of a farmer, died at Lisnagaver aged 94. Informant Sarah Taylor of Lisnagaver was described as `Grand-daughter`. | Original relationship evidence compatible with the younger Sarah born in 1893. The informant is not explicitly identified by age or parents, so the link is strongly inferred rather than proved. |
 | [New Zealand Times, 1 March 1916](https://paperspast.natlib.govt.nz/newspapers/NZTIM19160301.2.60) | John Glasgow Taylor, carpenter and soldier, was identified as a son of Charles Taylor of Lisnagaver, Rasharkin. | Contemporary evidence for a further child and strong surname-preservation support for the same household. |
 | [Genes Reunited descendant account](https://www.genesreunited.co.uk/boards/board/general_topics/thread/465937) | Names Sarah, wife of Charles Taylor, as a daughter of Thomas Glasgow. | Now corroborated as to Sarah's married identity, but still derivative as to parentage. |
-| Felicity Gabbrielli emails, 10–11 February 2020, recovered in the supplied correspondence audit | Identifies her great-grandmother Catherine Glasgow as Thomas and Mary Ann McCracken's sixth daughter, repeats the Alexander-and-Rosanna parent tradition, mentions three children omitted from the online family, and offers further material about Daniel the Kilrea clockmaker. | Valuable descendant correspondence and a concrete follow-up lead, not an independent parentage source. No checked autosomal segment evidence or underlying family papers were recovered, and the account may derive from the same tradition as the 2007 posting. |
-| [Twin birth returns, September 1889](https://civilrecords.irishgenealogy.ie/churchrecords/images/birth_returns/births_1889/02466/1915876.pdf) | Thomas's son Daniel Neely was a labourer residing in New York when Sarah Taylor and Elizabeth Boyd Glasgow were born at Tamlaght. | Direct evidence creating a strong US research route to Thomas's identity and parents. |
+| Private email thread, 10–11 February 2020, recovered in the supplied correspondence audit | The correspondent identifies her great-grandmother as Catherine Glasgow, reportedly Thomas and Mary Ann McCracken's sixth daughter, repeats the Alexander-and-Rosanna parent tradition, mentions three children omitted from the online family, and offers further material about Daniel the Kilrea clockmaker. | Valuable descendant correspondence and a concrete follow-up lead, not an independent parentage source. No checked autosomal segment evidence or underlying family papers were recovered, and the account may derive from the same tradition as the 2007 posting. The correspondent's identity and private message text are not published. |
+| [Drimbolg graveyard transcription, grave 1](https://genealogy.torrens.org/BannValley/church/Drimbolg/graveyard.html), [1888 marriage](https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1888/10763/5925382.pdf), [Elizabeth's 1889 birth](https://civilrecords.irishgenealogy.ie/churchrecords/images/birth_returns/births_1889/02466/1915877.pdf) and original 1901 Tamlaght household | The marriage names Mary Jane Boyd of Tamlaght, daughter of Hugh Boyd. Elizabeth's birth names Daniel and Mary Jane formerly Boyd; the census calls Elizabeth and Sarah nieces of Hugh S. Boyd; the memorial calls Mary Jane Glasgow Hugh and Joseph's sister and Elizabeth their niece. | Continuous, conflict-free evidence identifies the memorial Mary Jane with Daniel Neely's wife and Elizabeth with their daughter at high confidence. It does not identify Thomas's parents. |
+| [Paired birth returns, September 1889](https://civilrecords.irishgenealogy.ie/churchrecords/images/birth_returns/births_1889/02466/1915876.pdf) | Thomas's son Daniel Neely was a labourer residing in New York when Sarah Taylor was born on 8 September and Elizabeth Boyd Glasgow on 9 September at Tamlaght. | Direct evidence creating a strong US research route to Thomas's identity and parents. The records do not support a same-day twin description. |
 | [New York State Death Index, Daniel Glascow](https://www.newyorkdeathindex.com/people/daniel-glascow-1931-25437) | An Irish-born cemetery-labourer candidate died at Troy on 12 February 1931, certificate 9941. | Strong candidate for Daniel Neely, not yet same-person proof. |
 
 ## Relationship conclusion
@@ -103,7 +106,7 @@ therefore a useful migration/network hypothesis, not parentage proof.
   Thomas his brother. The older family tradition apparently misstated the degree.
 - Do not use the sibling proof to attach either man to Adam.
 - Do not treat the 2020 correspondence as a second independent source for
-  Alexander and Rosanna until Felicity's underlying family material and any
+  Alexander and Rosanna until the correspondent's underlying family material and any
   claimed DNA segment evidence are obtained.
 
 ## Local-cluster update
@@ -198,3 +201,20 @@ later John-plus-younger-Alexander land approximates the 1834 Alexander holding.
 That topology is compatible with separate tenant successions and makes the
 cluster less like a simple three-son division of one farm. Only the 1835 rental
 and 1869 maps can test the transfers.
+
+
+## Current conclusion — original Prescott conveyances, 13 September 2026
+
+The original [30 July 1861 deed, B465](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWB8-D) now identifies Daniel of Kilrea, watchmaker, and Thomas of Lisnagaver, farmer, with wives Margaret and Mary Anne, as the men selling interests under Robert’s will. Their identity with Daniel-3896 and Thomas-987 is established by the combined places, occupations, wives and earlier brotherhood evidence. The siblings’ parents remain unnamed. Robert, Samuel, John, Daniel and Thomas belong to the same will-defined sibling group, with sister Mary and brother James’s children also named. No contemporary parent names follow, and Alexander-951 is not proved to be another brother.
+
+## Source findings
+
+| Source | Finding | Assessment |
+| --- | --- | --- |
+| [Robert’s will, B12, 9 October 1849](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWY9-S) | Four named brothers receive sixths; sister Mary and brother James’s children complete the shares. | The original does not say James was deceased; a pre-1849 death must not be inferred. |
+| [B465, 30 July 1861, pp.397–398](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWB8-D) | Daniel of Kilrea, watchmaker, and Thomas of Lisnagaver, farmer, with wives Margaret and Mary Anne, convey two sixths to Samuel under Robert’s will. | Direct identity and inheritance bridge. The crossed-out duplicate is not a second transaction. |
+| [C114, 25 March 1868, pp.164–165](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LQRC-Y) | Alexander Glasco, Rochester express agent, son of James the Prescott carpenter, conveys one eighteenth to Mary Eno Glasgow, widow of Samuel. | A named Rochester family, not proof of Alexander-951’s parentage. Eno is a recorded name, not a proved maiden surname. |
+
+See the [complete original-deed table and title-fraction assessment](/people/glasgow-951.html#family-network). Eliza Jane and Mary of Rochester are the carpenter’s eldest and second eldest daughters; their ninth shares do not fit a simple division of Robert’s sixth for James’s children. The carpenter’s identity with Robert’s brother remains a property-based hypothesis.
+
+The [original C298 deed, 15 September 1869](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LQTY-K), registered 1 July 1870, identifies **Mary Black, formerly Mary Glasgow, as Robert’s sister**, and names children John Black (wife Martha) and Rose Ann Black at Drumoolish, Jane Miller (wife of Robert Miller), Agnes and deceased Elizabeth Black at Newburgh, and Thomasina Montgomery (wife of Mathew) at Legrand, Iowa. This establishes the Black collateral branch; it does not name the siblings’ parents. The original C114 identifies James’s son Alexander as a Rochester express agent, whose identity with Alexander-951 remains unproved.

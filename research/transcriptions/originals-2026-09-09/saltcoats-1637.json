@@ -1,0 +1,78 @@
+{
+  "id": "saltcoats-1637",
+  "title": "John Glasgow, sailor in Saltcoats: estate administration",
+  "record": "NRS Glasgow Commissary Court CC9/7/27, register pages 478-480",
+  "date": "Died December 1636; court proceedings April 1637, day unresolved",
+  "reviewed_at": "2026-09-10",
+  "source_files": ["testaments/Glasgow/1637_John.pdf"],
+  "reviewed_pages": ["PDF page 1 / register page 478: John entry at foot; earlier estate excluded", "PDF page 2 / register page 479: children, inventory, accounts and confirmation", "PDF page 3 / register page 480: upper caution only; following Muir estate excluded"],
+  "coverage": "full",
+  "transcription": [
+    {"page": "478, opening at foot", "lines": [
+      "The Testament dative & Inventar of",
+      "the guidis geir debtis & sowmes of money qlkis",
+      "pertenit to umqle Johne glasgow sailler in Salt-",
+      "coittis within the parochin of Ardrossane the",
+      "tyme of his deceiss [who] deceissit in the moneth",
+      "of December [1636, numeral expansion; intervening wording unresolved]",
+      "faithfullie maid & gevin up be Issobell gray his relict"
+    ]},
+    {"page": "479, opening and accounts", "lines": [
+      "In name & behalff of Kathrein & Agnes glasgow",
+      "his lawfull bairnes [executor wording unresolved]",
+      "to the defunct thair father be the decreit of the",
+      "Commissaris of glasgow [decree date] Aprile 1637 zeiris",
+      "As [the samin?] at lenth [proportis?]",
+      "Inventar",
+      "[Omitted: inventory entries; several figures and descriptions are too faint for a reliable fresh line reading]",
+      "Summa of the Inventar [amount unresolved]",
+      "Debtis awand In",
+      "[Omitted: receivables, debtor names and sums; no kinship inferred from financial roles]",
+      "Summa of the debtis [amount unresolved]",
+      "Summa of the Inventar [with debtis; amount unresolved]",
+      "Debtis awand out",
+      "[Omitted: outgoing debts and totals]",
+      "Restis of free geir the debtis deducit [amount unresolved]",
+      "[Division and valuation lines unresolved]",
+      "[Omitted: confirmation formula at foot; April 1637 is readable, precise day not independently resolved]"
+    ]},
+    {"page": "480, caution at top", "lines": [
+      "The qlk day [compeirit?] personallie Johne",
+      "Broune sailler in Saltcoittis And of his awin",
+      "consent actit him self as cautioun and [continuation unresolved]",
+      "Kathrein & Agnes glasgow lawfull bairnes of",
+      "umqle Johne glasgow sailler in Saltcoittis",
+      "That the guidis & geir contenit in [thair?] testament",
+      "[Omitted: obligation, restitution and closing formula]",
+      "[End of John entry; the following Muir testament is separate]"
+    ]}
+  ],
+  "plain_english": [
+    "This record concerns John Glasgow, a sailor in Saltcoats within Ardrossan parish, who died in December 1636. It is explicitly headed testament dative: an estate administration rather than a freshly recovered personal will.",
+    "Isobell Gray is expressly his widow. The opening continuation names Katherine and Agnes as his lawful children and calls the deceased their father. The concluding caution repeats the daughters' names and their relationship to the Saltcoats sailor. The record does not expressly make Isobell their mother.",
+    "John Broune/Brown, also a sailor in Saltcoats, appears in the final caution. That administrative role does not prove that he was a relative. The inventory and accounts are faint; detailed equipment readings and money totals have not been silently reconstructed.",
+    "The documented widow, children, occupation and locality distinguish this household from the known Glasgow-1030/Jonet Mathie family. No new bridge joins the households, so Glasgow-1030 remains excluded as the present identification. No daughter Mary is established by the family clauses."
+  ],
+  "findings": [
+    "Page 478, opening: 'Testament dative', sailor occupation, Saltcoats, Ardrossan parish and widow Isobell Gray are visible together.",
+    "Page 479, first lines: Katherine and Agnes are called lawful children and the deceased is called their father. This is direct paternal evidence, not a conclusion drawn merely from executorship.",
+    "Page 480, first paragraph: the caution repeats 'lawfull bairnes of umqle Johne glasgow sailler in Saltcoittis', corroborating the household identification within the same record, not as an independent source.",
+    "Nothing freshly read establishes Isobell's maternity, names Mary as a daughter, or connects the sailor to Jonet Mathie and John Glasgow-1030.",
+    "The entry begins at the foot of page 478 and ends in the upper part of page 480. The surrounding estates are excluded. All three supplied pages were examined, but the accounts are incompletely transcribed."
+  ],
+  "changes_from_previous": [
+    "Expands the initial heading-only handoff using enlarged opening, children and caution passages.",
+    "Confirms the maintained finding that this is a testament dative and that Isobell Gray, Katherine and Agnes belong to the Saltcoats household.",
+    "The older ledger's identity-HOLD association must not obscure the later maintained conclusion: Glasgow-1030 is excluded as the present match unless a new documentary bridge is found.",
+    "Financial details and a possible boat/equipment reading remain unresolved rather than being promoted from the earlier prose account."
+  ],
+  "unresolved": [
+    "Precise April court day; faded inventory descriptions, valuations, debtor names and full confirmation wording.",
+    "The children's maternity is not explicitly established.",
+    "An existing WikiTree identity for the Saltcoats sailor requires a documentary bridge; do not add the widow or daughters to Glasgow-1030 on name and chronology alone.",
+    "No ancestry follows from John Broune's cautioner role."
+  ],
+  "profiles": [["Glasgow-1030", "John Glasgow: excluded as the present Saltcoats identity"], ["Glasgow-3539", "Mary Glasgow: not established as this sailor's daughter"]],
+  "confidence_statement": "All three original PDF pages visually examined, with enlarged opening, children and caution crops. High confidence in the document type, occupation/locality, widow and explicit child clauses. The pale accounts remain only selectively read. Earlier maintained findings were consulted after the fresh image pass. This is not a complete diplomatic transcription; editorial expansions and uncertainties are bracketed.",
+  "reviewer": "LLM-assisted fresh visual review, followed by comparison with maintained findings"
+}

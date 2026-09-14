@@ -1,6 +1,8 @@
 # Glasgow-3101 research findings
 
-<!-- BEGIN FMP-GLASGOW-fmp-glasgow-67ec4399079d -->
+Last updated: 2026-09-10
+
+
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-67ec4399079d
 
 The transcript-validated baptism record for **Alexander Glasgow**, 13 Apr 1659, Campbeltown, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
@@ -15,3 +17,16 @@ The transcript-validated baptism record for **Alexander Glasgow**, 13 Apr 1659, 
 
 Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
 <!-- END FMP-GLASGOW-fmp-glasgow-67ec4399079d -->
+
+<!-- opr-birth-review-row-93 -->
+## Source findings
+
+### Supplied OPR births and baptisms: row 93 — 10 September 2026
+
+[Scotland’s People](https://www.scotlandspeople.gov.uk/), **Old Parish Registers, births and baptisms**; exact surname Glasgow through 1700, 127 supplied results. **ALEXANDER GLASGOW**; indexed date **12/04/1659**; Campbeltown; parish **507**, reference **11 / 6**. Parents/other exactly as indexed: **GEORGE GLASGOW/GRIZEL DUNLOP FR9 (FR9)**. Indexed gender: **M**.
+
+**Assessment:** Matches the existing child-record account by indexed date, locality and recorded family. This row adds the complete index locator as supporting provenance; it does not establish a new event or relationship.
+
+Original image not inspected for this batch. The combined collection’s date does not automatically establish a birthday. Names alone do not uniquely identify attached parents or connect a child with a later adult. An omitted parent or indexed gender U remains unspecified in this source.
+
+**Next action:** No additional WikiTree update from this row; preserve any existing pending work.

@@ -14,8 +14,7 @@ The source currently linked from the WikiTree profile points to an unrelated
 1870 birth. It should be supplemented, not deleted, with the correct original
 marriage image.
 
-## Source
-
+## Source findings
 | Source | Finding | Assessment |
 | --- | --- | --- |
 | [Original marriage return](https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1866/11540/8244496.pdf), 21 August 1866 | Samuel John Glasgow, full-age bachelor and labourer, named father Andrew Glasgow, labourer; bride Margaret Calagher named father James Calagher, labourer. | Direct proof of Samuel's father name and marriage; probable identification of Andrew. |

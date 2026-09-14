@@ -1,5 +1,8 @@
 # Findings: [Euphame Glasgow/Glasfoord (Glasgow-1167), 1634](https://www.wikitree.com/wiki/Glasgow-1167)
 
+Last updated: 2026-09-10
+
+
 ## Relationship correction - 20 August 2026
 
 Euphame's former attachment to [Rev. John Glasford of Kilwinning (Glassford-289)](https://www.wikitree.com/wiki/Glassford-289) was caused by a conflation of two men.
@@ -38,3 +41,16 @@ centuries later and unrelated.
 5. Keep the Glassford parents qualified as probable pending that review.
 
 See the [graph-claim audit](../../surname-research/pre-1700/graph-claim-audit-2026-07-27.md).
+
+<!-- opr-birth-review-row-115 -->
+## Source findings
+
+### Supplied OPR births and baptisms: row 115 — 10 September 2026
+
+[Scotland’s People](https://www.scotlandspeople.gov.uk/), **Old Parish Registers, births and baptisms**; exact surname Glasgow through 1700, 127 supplied results. **EUPHAME GLASGOW**; indexed date **30/03/1634**; Edinburgh; parish **685 / 1**, reference **40 / 202**. Parents/other exactly as indexed: **JOHNNE GLASGOW/JONET MORIELL FR1037 (FR1037)**. Indexed gender: **F**.
+
+**Assessment:** Matches the existing child-record account by indexed date, locality and recorded family. This row adds the complete index locator as supporting provenance; it does not establish a new event or relationship.
+
+Original image not inspected for this batch. The combined collection’s date does not automatically establish a birthday. Names alone do not uniquely identify attached parents or connect a child with a later adult. An omitted parent or indexed gender U remains unspecified in this source.
+
+**Next action:** No additional WikiTree update from this row; preserve any existing pending work.

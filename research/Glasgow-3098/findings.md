@@ -2,12 +2,14 @@
 
 ## Conclusion
 
-This profile was merged into [James Glasgow (Glasgow-1150), baptised 1626 at
-Inveresk](https://www.wikitree.com/wiki/Glasgow-1150) on 19 July 2026 and now
-redirects there. That merge was incorrect. Create a replacement profile for
-**James Glasgow, son of Robert of Wester Duddingston, later weaver and burgess
-of Edinburgh**, using the
-[paste-ready draft](../Glasgow-1150/1641_Scotland_Edinburgh_James_Glasgow.md).
+Glasgow-3098 now redirects to [James Glasgow (Glasgow-1150), the Edinburgh
+weaver](https://www.wikitree.com/wiki/Glasgow-1150). The earlier conclusion that
+Glasgow-1150 was the 1626 Inveresk child and that a replacement profile was
+needed has been superseded: the maintained canonical account separates
+Glasgow-1150, the Edinburgh weaver, from [James Glasgow
+(Glasgow-3923)](https://www.wikitree.com/wiki/Glasgow-3923), the 1626 Inveresk
+child. Keep this historical note for provenance, but do not create another
+profile for the Edinburgh man.
 
 The apprentice register directly calls James the son of Robert Glasgow,
 servant to William Crichtoun in Wester Duddingston, on 16 June 1641. His 1649
@@ -17,11 +19,12 @@ the adult Edinburgh weaver and excludes Alexander Glasgow as his father.
 
 Retain wife [Bessie Whyte (Whyte-2772)](https://www.wikitree.com/wiki/Whyte-2772)
 and children [Helen Glasgow (Glasgow-3097)](https://www.wikitree.com/wiki/Glasgow-3097)
-and [Jonet Glasgow (Glasgow-3099)](https://www.wikitree.com/wiki/Glasgow-3099).
-Move second wife [Agnes Duncan (Duncan-16106)](https://www.wikitree.com/wiki/Duncan-16106)
-and the four supported later children from Glasgow-1150 to this profile.
+and [Jonet Glasgow (Glasgow-3099)](https://www.wikitree.com/wiki/Glasgow-3099)
+on the canonical Edinburgh-weaver account. The same applies to second wife
+[Agnes Duncan (Duncan-16106)](https://www.wikitree.com/wiki/Duncan-16106) and
+the supported later children.
 
-## Evidence
+## Source findings
 
 | Source | Finding | Assessment |
 |---|---|---|

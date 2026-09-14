@@ -18,8 +18,7 @@ profile was created from a now-corrected 1598 reading and has no independent
 identity that could link it to the earlier child. Repurposing it would conceal
 rather than resolve the source error.
 
-## Source finding
-
+## Source findings
 | Source | Finding | Assessment |
 | --- | --- | --- |
 | NRS Edinburgh Commissary Court CC8/8/32, images 123–124 | `Robart Glasgw his sone begottin be him vpoun the said Elizat his wyff`; later `his said sone and his said [dochter… struck through] Marione, Jonet, Isobell`. | The sole basis for Glasgow-4006 was a transcription error. The record supplies no son Andrew. |

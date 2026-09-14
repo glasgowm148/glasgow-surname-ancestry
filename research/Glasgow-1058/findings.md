@@ -1,5 +1,8 @@
 # George Glasgow (Glasgow-1058)
 
+Last updated: 2026-09-10
+
+
 ## Current conclusion
 
 **Source-only confirmation.** The Findmypast transcript agrees with the existing structured baptism date and place, the attached confident parents [[Glasgow-1057|John Glasgow]] and [[Spark-330|Agnes Spark]], and the baptism already cited from FamilySearch and ScotlandsPeople. It supplies a recoverable OPR reference but no substantive profile amendment.
@@ -42,3 +45,16 @@ dossiers.
 
 Make no profile amendment unless an original process supplies an independent
 identifier linking its George to this Kilwinning family.
+
+<!-- opr-birth-review-row-73 -->
+## Source findings
+
+### Supplied OPR births and baptisms: row 73 — 10 September 2026
+
+[Scotland’s People](https://www.scotlandspeople.gov.uk/), **Old Parish Registers, births and baptisms**; exact surname Glasgow through 1700, 127 supplied results. **GEORGE GLASGOW**; indexed date **20/11/1687**; Kilwinning; parish **599**, reference **10 / 54**. Parents/other exactly as indexed: **JOHN GLASGOW/AGNES SPARK FR66 (FR66)**. Indexed gender: **M**.
+
+**Assessment:** Matches the existing child-record account by indexed date, locality and recorded family. This row adds the complete index locator as supporting provenance; it does not establish a new event or relationship.
+
+Original image not inspected for this batch. The combined collection’s date does not automatically establish a birthday. Names alone do not uniquely identify attached parents or connect a child with a later adult. An omitted parent or indexed gender U remains unspecified in this source.
+
+**Next action:** No additional WikiTree update from this row; preserve any existing pending work.

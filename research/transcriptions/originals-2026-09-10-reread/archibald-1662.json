@@ -1,0 +1,112 @@
+{
+  "id": "archibald-1662",
+  "title": "Archibald Glasgow, maltman in Leith: testament testamentar name reread",
+  "record": "National Records of Scotland, Edinburgh Commissary Court, CC8/8/70, images 689-693",
+  "date": "1662-05-24 (confirmation; death February 1662; will January 1662, exact day unresolved)",
+  "reviewed_at": "2026-09-10",
+  "index_confirmation": {
+    "status": "confirmed_by_index",
+    "source": "User-supplied ScotlandsPeople index excerpt",
+    "provenance": "Surname Glasgow/Glasgw; 24 results; supplied 10 September 2026",
+    "indexed_name": "Archibald Glasgow",
+    "indexed_date": "24 May 1662",
+    "indexed_description": "maltman, indweller Leith",
+    "indexed_record_type": "TT & Inventory",
+    "court": "Edinburgh Commissary Court",
+    "reference": "CC8/8/70",
+    "evidential_scope": "Confirms the index entry, occupation, residence, record type and date; it does not resolve the separate shoemaker/maltman profile-identity question."
+  },
+  "source_files": [
+    "testaments/Edinburgh/1662_Archibald.pdf"
+  ],
+  "reviewed_pages": [1, 2, 3, 4, 5],
+  "coverage": "All five supplied original images were rendered and visually inspected in full, with every name, role, locality, witness, overseer, debtor/creditor, and family clause checked in enlarged bands. This remains a selective line-oriented reading rather than a full diplomatic financial transcription. Archibald's entry begins near the foot of image 689 and ends at the head of image 693; adjacent testaments are excluded.",
+  "provenance": {
+    "previous_review": "research/transcriptions/originals-2026-09-09/archibald-1662.json",
+    "walkthrough": "research/transcriptions/walkthroughs/archibald-1662.json",
+    "method": "Fresh inspection of the five-page PDF at full-page and magnified-crop scale before comparison with the prior review and walkthrough."
+  },
+  "transcription": [
+    {
+      "page": "1 / image 689",
+      "lines": [
+        "The testament testamentar and Inventar [of] umquhile Archibald Glasgow",
+        "maltman Indweller In leith [who] deceissit in the moneth of ffebry [1662]",
+        "givine up be Agnes Watsone his relict spous tutrix testamentar",
+        "in name and behalf of Archibald George and Williame Glasgowes minoris bairnes",
+        "lawfull to the said umquhile defunct"
+      ]
+    },
+    {
+      "page": "2 / image 690",
+      "lines": [
+        "[the three sons] he nominat his onlie executoris in his latterwill",
+        "[inventory of malt, bear, household plenishing, and clothing]",
+        "Debtis awand to the deid: Jon Greig in Northleith; Williame Couper in Leith; Jon Watsone [and names/sums partly unresolved]",
+        "Debtis awand be the deid: Robert Cunynghame maltman in Leith; Williame Patersone; Williame Glasgow weiber in Leith; James Nisbit apothecar [and sums partly unresolved]"
+      ]
+    },
+    {
+      "page": "3 / image 691",
+      "lines": [
+        "[servants' wages:] Agnes [surname illegible] and Jonet Dick[sone?]",
+        "I Archibald Glasgow maltman and Indweller in Leith [latterwill]",
+        "Archibald George and Williame Glasgowes my lawfull sones my onlie executoris",
+        "[goods to the three sons equally]",
+        "my weilbelovit spous Agnes Watsone [as] intromissatrix and tutrix"
+      ]
+    },
+    {
+      "page": "4 / image 692",
+      "lines": [
+        "for the weill and behoove of my said childrene by the advice and consent of",
+        "captane George Cocke burges in Edinburgh and Thomas Glasgow weaver in Edinburgh as oversiars",
+        "[Agnes to administer during the children's minority with the overseers' consent]",
+        "this testament [was] writtin be Thomas Glasgow weaver in Edinburgh",
+        "at Leith the [day numeral unresolved] day of Jan[uar] 1662"
+      ]
+    },
+    {
+      "page": "5 / image 693",
+      "lines": [
+        "witnesses Walter Roddie Indweller in Edinburgh and Robert Stewart stabler in Leith",
+        "[subscriptions of Archibald Glasgow, Walter Roddie, and Robert Stewart]",
+        "Sir John Nisbet [commissary/confirmation formula]",
+        "Thomas Glasgow weaver in Edinburgh [caution procedure]",
+        "[following James Davidsone testament excluded]"
+      ]
+    }
+  ],
+  "plain_english": [
+    "Archibald Glasgow was a maltman living in Leith and died in February 1662.",
+    "Agnes Watson is expressly his surviving spouse. She acts as testamentary tutor and estate administrator for their minor children.",
+    "Archibald, George, and William Glasgow are expressly called his lawful sons and are his sole executors and equal beneficiaries after debts.",
+    "Captain George Cock and Thomas Glasgow, weaver in Edinburgh, are overseers. Thomas also wrote the will and appears in the caution procedure, but no surviving clause calls him Archibald's brother or other relative.",
+    "William Glasgow, weaver in Leith, is a creditor. His shared surname does not establish kinship."
+  ],
+  "findings": [
+    "Confirmed explicit family: wife/widow Agnes Watson; lawful sons Archibald, George, and William Glasgow.",
+    "Confirmed legal roles: the sons are sole executors; Agnes is tutor/intromissatrix during minority; George Cock and Thomas Glasgow are overseers.",
+    "Confirmed associates: Walter Roddie and Robert Stewart are witnesses; Sir John Nisbet acts in confirmation; Thomas Glasgow is writer and appears in caution procedure.",
+    "Confirmed account participants include John Greig, William Couper, John Watson, Robert Cunningham, William Paterson, William Glasgow the Leith weaver, and James Nisbet the apothecary; the account does not state that any is kin.",
+    "Probable servant name Jonet Dickson remains qualified; Agnes's servant surname remains unreadable.",
+    "The testament defines a Leith maltman. Association with Glasgow-3078 is useful but not proved by this document alone because the securely documented 1647 heir was a Leith shoemaker."
+  ],
+  "changes_from_previous": [
+    "No wife-or-sons conclusion changed; the explicit household is reconfirmed after a complete page-by-page name audit.",
+    "The reread inventories overseers, witnesses, officials, account parties, and servants separately and excludes unsupported kinship for both Thomas Glasgow and creditor William Glasgow.",
+    "The profile association is now expressly qualified at the occupation seam: maltman in 1662 versus shoemaker in the independent 1639/1647 chain."
+  ],
+  "unresolved": [
+    "Exact January day on which the will was made",
+    "Agnes the servant's surname and whether Jonet's surname is Dickson",
+    "Several debtor/creditor names, all sums, and portions of the financial account",
+    "Any kinship between Archibald and overseer/writer Thomas Glasgow or creditor William Glasgow",
+    "Whether the 1662 Leith maltman is identical to Glasgow-3078, the separately documented Leith shoemaker"
+  ],
+  "profiles": [
+    ["Glasgow-3078", "Maintained candidate association; do not treat the 1662 maltman identity as proved without bridging the occupation difference"]
+  ],
+  "confidence_statement": "High for Archibald's name, maltman occupation, Leith residence, Agnes Watson as wife/widow, the three lawful sons, their executorship, and the stated roles of George Cock and Thomas Glasgow. Moderate for some account names and low for servant surnames and complete financial detail. The profile identity remains qualified.",
+  "reviewer": "Codex fresh original-image name, role, and locality audit"
+}

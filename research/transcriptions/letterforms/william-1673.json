@@ -1,0 +1,722 @@
+{
+  "id": "william-1673",
+  "review": {
+    "date": "2026-09-10",
+    "model": "gpt-6-astra",
+    "reasoning_effort": "xhigh",
+    "method": "Original-image review and source-pixel focus envelopes. Shared presentation expanded from the compact vision handoff; literal abbreviations, crossing ink and uncertainty retained."
+  },
+  "studies": [
+    {
+      "id": "william-1673-diagnostic-letters",
+      "title": "Alexr Broun",
+      "nav_label": "Alexr Broun",
+      "image": "/assets/research/testament-crops/william-1673-administrators.jpg",
+      "image_width": 1500,
+      "image_height": 439,
+      "region": [
+        104,
+        260,
+        366,
+        139
+      ],
+      "reading": "Alexr broun",
+      "expansion": "Alexander Brown",
+      "confidence": "High for abbreviated Alexr; replaces stale George label",
+      "context": "Find the participant after compeirit personallie, then read the first name as the abbreviation Alexr.",
+      "review_status": "source-aligned",
+      "locator_note": "Find the participant after compeirit personallie, then read the first name as the abbreviation Alexr. Contrast the visible Al/exr structure with the stale George label; the latter is not the source reading. Keep participation in the inventory separate from kinship.",
+      "conclusion": "Expand as Alexander Brown, retaining Alexr broun as the literal display. No relationship to the deceased is established.",
+      "letters": [
+        {
+          "id": "william-1673-diagnostic-letters-w1-g1",
+          "glyph": "Al",
+          "label": "Alexr: Al",
+          "region": [
+            104,
+            260,
+            85,
+            139
+          ],
+          "paths": [],
+          "observed": "The opening combines a larger A-like form and taller l, not a George beginning.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "william-1673-diagnostic-letters-w1-g2",
+          "glyph": "exr",
+          "label": "Alexr: exr",
+          "region": [
+            179,
+            260,
+            139,
+            139
+          ],
+          "paths": [],
+          "observed": "The small joined ending is the abbreviation exr; do not supply the unwritten ander.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "william-1673-diagnostic-letters-w2-g1",
+          "glyph": "br",
+          "label": "broun: br",
+          "region": [
+            312,
+            274,
+            78,
+            102
+          ],
+          "paths": [],
+          "observed": "A taller initial and short joining r begin the surname.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "william-1673-diagnostic-letters-w2-g2",
+          "glyph": "oun",
+          "label": "broun: oun",
+          "region": [
+            380,
+            274,
+            90,
+            102
+          ],
+          "paths": [],
+          "observed": "The low connected oun ending precedes and.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        }
+      ],
+      "words": [
+        {
+          "text": "Alexr",
+          "region": [
+            104,
+            260,
+            214,
+            139
+          ],
+          "focus_polygon": [
+            [
+              104,
+              295
+            ],
+            [
+              130,
+              273
+            ],
+            [
+              171,
+              260
+            ],
+            [
+              190,
+              277
+            ],
+            [
+              234,
+              285
+            ],
+            [
+              318,
+              284
+            ],
+            [
+              318,
+              367
+            ],
+            [
+              268,
+              383
+            ],
+            [
+              216,
+              399
+            ],
+            [
+              131,
+              383
+            ],
+            [
+              104,
+              346
+            ]
+          ],
+          "neutral_crossing_polygons": [
+            [
+              [
+                104,
+                260
+              ],
+              [
+                318,
+                260
+              ],
+              [
+                318,
+                285
+              ],
+              [
+                104,
+                285
+              ]
+            ]
+          ],
+          "font_groups": [
+            {
+              "letter_id": "william-1673-diagnostic-letters-w1-g1",
+              "start": 0,
+              "end": 2
+            },
+            {
+              "letter_id": "william-1673-diagnostic-letters-w1-g2",
+              "start": 2,
+              "end": 5
+            }
+          ]
+        },
+        {
+          "text": "broun",
+          "region": [
+            312,
+            274,
+            158,
+            102
+          ],
+          "focus_polygon": [
+            [
+              312,
+              274
+            ],
+            [
+              470,
+              274
+            ],
+            [
+              470,
+              376
+            ],
+            [
+              312,
+              376
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "william-1673-diagnostic-letters-w2-g1",
+              "start": 0,
+              "end": 2
+            },
+            {
+              "letter_id": "william-1673-diagnostic-letters-w2-g2",
+              "start": 2,
+              "end": 5
+            }
+          ]
+        }
+      ],
+      "reading_steps": [
+        {
+          "title": "Inspect Alexr",
+          "region": [
+            104,
+            260,
+            214,
+            139
+          ],
+          "text": "The opening combines a larger A-like form and taller l, not a George beginning. The small joined ending is the abbreviation exr; do not supply the unwritten ander. Retained neutral crossings cannot safely be assigned to the selected word."
+        },
+        {
+          "title": "Inspect broun",
+          "region": [
+            312,
+            274,
+            158,
+            102
+          ],
+          "text": "A taller initial and short joining r begin the surname. The low connected oun ending precedes and."
+        },
+        {
+          "title": "Read the word in context",
+          "region": [
+            104,
+            260,
+            366,
+            139
+          ],
+          "text": "Find the participant after compeirit personallie, then read the first name as the abbreviation Alexr."
+        },
+        {
+          "title": "Keep the conclusion within the evidence",
+          "region": [
+            104,
+            260,
+            366,
+            139
+          ],
+          "text": "Contrast the visible Al/exr structure with the stale George label; the latter is not the source reading."
+        },
+        {
+          "title": "Keep the conclusion within the evidence",
+          "region": [
+            104,
+            260,
+            366,
+            139
+          ],
+          "text": "Keep participation in the inventory separate from kinship."
+        }
+      ],
+      "same_hand_comparisons": []
+    },
+    {
+      "id": "william-1673-jon-neilsone",
+      "title": "Jon Neilsone",
+      "nav_label": "Jon Neilsone",
+      "image": "/assets/research/testament-crops/william-1673-administrators.jpg",
+      "image_width": 1500,
+      "image_height": 439,
+      "region": [
+        595,
+        267,
+        346,
+        130
+      ],
+      "reading": "Jon neilsone",
+      "expansion": "John Neilson",
+      "confidence": "High for maintained participant name",
+      "context": "Read Jon after and, separately from Alexr broun.",
+      "review_status": "source-aligned",
+      "locator_note": "Read Jon after and, separately from Alexr broun. Retain the written Jon and neilsone, with John Neilson only as an expansion.",
+      "conclusion": "The record's participant role establishes no relationship to William Glasgow.",
+      "letters": [
+        {
+          "id": "william-1673-jon-neilsone-w1-g1",
+          "glyph": "J",
+          "label": "Jon: J",
+          "region": [
+            595,
+            267,
+            62,
+            118
+          ],
+          "paths": [],
+          "observed": "The long descending initial follows and.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "william-1673-jon-neilsone-w1-g2",
+          "glyph": "on",
+          "label": "Jon: on",
+          "region": [
+            647,
+            267,
+            84,
+            118
+          ],
+          "paths": [],
+          "observed": "The short on body completes Jon; no h is inserted.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "william-1673-jon-neilsone-w2-g1",
+          "glyph": "neil",
+          "label": "neilsone: neil",
+          "region": [
+            719,
+            267,
+            113,
+            130
+          ],
+          "paths": [],
+          "observed": "The first connected group has a taller l before the long s.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "william-1673-jon-neilsone-w2-g2",
+          "glyph": "sone",
+          "label": "neilsone: sone",
+          "region": [
+            822,
+            267,
+            119,
+            130
+          ],
+          "paths": [],
+          "observed": "The final one run closes the surname.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        }
+      ],
+      "words": [
+        {
+          "text": "Jon",
+          "region": [
+            595,
+            267,
+            136,
+            118
+          ],
+          "focus_polygon": [
+            [
+              595,
+              267
+            ],
+            [
+              731,
+              267
+            ],
+            [
+              731,
+              385
+            ],
+            [
+              595,
+              385
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "william-1673-jon-neilsone-w1-g1",
+              "start": 0,
+              "end": 1
+            },
+            {
+              "letter_id": "william-1673-jon-neilsone-w1-g2",
+              "start": 1,
+              "end": 3
+            }
+          ]
+        },
+        {
+          "text": "neilsone",
+          "region": [
+            719,
+            267,
+            222,
+            130
+          ],
+          "focus_polygon": [
+            [
+              719,
+              267
+            ],
+            [
+              941,
+              267
+            ],
+            [
+              941,
+              397
+            ],
+            [
+              719,
+              397
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "william-1673-jon-neilsone-w2-g1",
+              "start": 0,
+              "end": 4
+            },
+            {
+              "letter_id": "william-1673-jon-neilsone-w2-g2",
+              "start": 4,
+              "end": 8
+            }
+          ]
+        }
+      ],
+      "reading_steps": [
+        {
+          "title": "Inspect Jon",
+          "region": [
+            595,
+            267,
+            136,
+            118
+          ],
+          "text": "The long descending initial follows and. The short on body completes Jon; no h is inserted."
+        },
+        {
+          "title": "Inspect neilsone",
+          "region": [
+            719,
+            267,
+            222,
+            130
+          ],
+          "text": "The first connected group has a taller l before the long s. The final one run closes the surname."
+        },
+        {
+          "title": "Read the word in context",
+          "region": [
+            595,
+            267,
+            346,
+            130
+          ],
+          "text": "Read Jon after and, separately from Alexr broun."
+        },
+        {
+          "title": "Keep the conclusion within the evidence",
+          "region": [
+            595,
+            267,
+            346,
+            130
+          ],
+          "text": "Retain the written Jon and neilsone, with John Neilson only as an expansion."
+        }
+      ],
+      "same_hand_comparisons": []
+    },
+    {
+      "id": "william-1673-williame-neilsone",
+      "title": "Williame Neilsone, cautioner",
+      "nav_label": "Williame Neilsone, cautioner",
+      "image": "/assets/research/testament-crops/william-1673-cautioner.jpg",
+      "image_width": 1500,
+      "image_height": 377,
+      "region": [
+        980,
+        20,
+        490,
+        147
+      ],
+      "reading": "Williame neilsone / in biggar cautioner",
+      "expansion": "William Neilson",
+      "confidence": "High for maintained name and role",
+      "context": "Read Williame neilsone at the first line's right.",
+      "review_status": "source-aligned",
+      "locator_note": "Read Williame neilsone at the first line's right. Continue left below to in biggar cautioner for his stated administrative role. Do not turn the shared Neilson surname into a relationship with Jon.",
+      "conclusion": "Caution proves neither kinship to Jon Neilson nor kinship to the deceased.",
+      "letters": [
+        {
+          "id": "william-1673-williame-neilsone-w1-g1",
+          "glyph": "Will",
+          "label": "Williame: Will",
+          "region": [
+            980,
+            23,
+            143,
+            139
+          ],
+          "paths": [],
+          "observed": "The large W and taller l forms start after fand.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "william-1673-williame-neilsone-w1-g2",
+          "glyph": "iame",
+          "label": "Williame: iame",
+          "region": [
+            1113,
+            23,
+            174,
+            139
+          ],
+          "paths": [],
+          "observed": "The shorter iame ending leads into the surname.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "william-1673-williame-neilsone-w2-g1",
+          "glyph": "neil",
+          "label": "neilsone: neil",
+          "region": [
+            1272,
+            20,
+            93,
+            147
+          ],
+          "paths": [],
+          "observed": "The opening connected group precedes the longer s movement.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "william-1673-williame-neilsone-w2-g2",
+          "glyph": "sone",
+          "label": "neilsone: sone",
+          "region": [
+            1355,
+            20,
+            115,
+            147
+          ],
+          "paths": [],
+          "observed": "The ending runs close to the right edge and keeps its descender.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        }
+      ],
+      "words": [
+        {
+          "text": "Williame",
+          "region": [
+            980,
+            23,
+            307,
+            139
+          ],
+          "focus_polygon": [
+            [
+              980,
+              23
+            ],
+            [
+              1287,
+              23
+            ],
+            [
+              1287,
+              162
+            ],
+            [
+              980,
+              162
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "william-1673-williame-neilsone-w1-g1",
+              "start": 0,
+              "end": 4
+            },
+            {
+              "letter_id": "william-1673-williame-neilsone-w1-g2",
+              "start": 4,
+              "end": 8
+            }
+          ]
+        },
+        {
+          "text": "neilsone",
+          "region": [
+            1272,
+            20,
+            198,
+            147
+          ],
+          "focus_polygon": [
+            [
+              1272,
+              20
+            ],
+            [
+              1470,
+              20
+            ],
+            [
+              1470,
+              167
+            ],
+            [
+              1272,
+              167
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "william-1673-williame-neilsone-w2-g1",
+              "start": 0,
+              "end": 4
+            },
+            {
+              "letter_id": "william-1673-williame-neilsone-w2-g2",
+              "start": 4,
+              "end": 8
+            }
+          ]
+        }
+      ],
+      "reading_steps": [
+        {
+          "title": "Inspect Williame",
+          "region": [
+            980,
+            23,
+            307,
+            139
+          ],
+          "text": "The large W and taller l forms start after fand. The shorter iame ending leads into the surname."
+        },
+        {
+          "title": "Inspect neilsone",
+          "region": [
+            1272,
+            20,
+            198,
+            147
+          ],
+          "text": "The opening connected group precedes the longer s movement. The ending runs close to the right edge and keeps its descender."
+        },
+        {
+          "title": "Read the word in context",
+          "region": [
+            980,
+            20,
+            490,
+            147
+          ],
+          "text": "Read Williame neilsone at the first line's right."
+        },
+        {
+          "title": "Keep the conclusion within the evidence",
+          "region": [
+            980,
+            20,
+            490,
+            147
+          ],
+          "text": "Continue left below to in biggar cautioner for his stated administrative role."
+        },
+        {
+          "title": "Keep the conclusion within the evidence",
+          "region": [
+            980,
+            20,
+            490,
+            147
+          ],
+          "text": "Do not turn the shared Neilson surname into a relationship with Jon."
+        }
+      ],
+      "same_hand_comparisons": []
+    }
+  ],
+  "people_studies": {
+    "John Neilson": "william-1673-jon-neilsone",
+    "William Neilson": "william-1673-williame-neilsone"
+  },
+  "limitations": [
+    "The supplied crops do not provide a separately inspectable deceased-name sample for William Glasgow.",
+    "The stale George Brown people entry and its letter-feature prose should be corrected to Alexr Broun / Alexander Brown."
+  ]
+}

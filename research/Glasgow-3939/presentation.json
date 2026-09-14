@@ -1,0 +1,88 @@
+{
+  "resolution_state": "resolved",
+  "assessment_date": "2026-09-12",
+  "opening": "James is the child born on 17 January 1837 and baptised at Rasharkin on 9 February, recorded with parents Alex and Mary McAughin at Gortereagh. This exact birth date agrees with his profile. He is distinct from the James born at Lisnagaver in October 1843. The family reconstruction links their parents through the baptism sequence and later household, but no burial has been found for the older child.",
+  "position": {
+    "answer": "The baptism identifies James and names his parents; the local family sequence identifies them as Alexander and Mary/Molly. His death before 1841 remains an inferred boundary.",
+    "points": []
+  },
+  "record_rows": [],
+  "evidence_questions": [
+    {
+      "id": "identity",
+      "title": "Which James does the baptism identify?",
+      "answer": "Entry 75 agrees with this profile’s name and exact birth date, 17 January 1837. Baptism followed on 9 February; these are not competing birth dates.",
+      "records": [
+        "baptism-james-1837"
+      ],
+      "reasoning": "The transcription records Jas Glascaw, father Alex, mother Mary McAughin and residence Gortereagh. This is the record underlying the early James profile, not a same-name later-life match. The 1843-born James has a different birth date and a separate baptism entry.",
+      "limitation": "The published source is a transcription; the original register image has not been compared in this pass.",
+      "missing": "An original-register check could correct a transcription reading, but a later-life record is not required merely to identify this baptised child."
+    },
+    {
+      "id": "parents",
+      "title": "Are the recorded parents the later Lisnagaver couple?",
+      "answer": "The baptism names James’s parents, and the maintained comparison of the local family entries identifies them as Alexander Glasgow and Mary/Molly McCaughan. Both parent–child relationships are documented.",
+      "records": [],
+      "reasoning": "Alex and Mary McAughin at Gortereagh in 1837 are followed by Alex and Molly McAughern there in 1838, then Alex and Molly McAughern at Lisnagaver in 1844 for James born in 1843. The names, mother’s surname variants and locality sequence support continuity with Alexander and Mary’s later family.",
+      "limitation": "The entries do not expressly say the household moved from Gortereagh to Lisnagaver. No marriage record for Alexander and Mary has been located, so identifying the adults across those appearances is an inference rather than a new direct statement.",
+      "missing": "A marriage, session or other household record connecting the couple across the two residences would strengthen that identification.",
+      "related_question": {
+        "href": "/people/glasgow-951.html#question-family",
+        "label": "Compare the baptism sequence and later household"
+      }
+    },
+    {
+      "id": "death-boundary",
+      "title": "What supports the death estimate?",
+      "answer": "No death or burial record is known. Before 1841 is a retained inferred boundary, not a recorded death date.",
+      "records": [],
+      "reasoning": "The reuse of James for the child born on 9 October 1843 suggests the older child had died by then. The tighter before-1841 estimate relies on his absence from the 1851 return’s household and deaths-since-1841 information.",
+      "limitation": "Name reuse and census omission are indirect evidence. Neither supplies a death date, and the narrower 1841 boundary is less secure than the inference from the reused name.",
+      "missing": "A burial entry or an explicit family account would establish when he died.",
+      "related_question": {
+        "href": "/people/glasgow-951.html#question-family",
+        "label": "Family records and the distinct James children"
+      }
+    }
+  ],
+  "record_evidence": {
+    "identity": {
+      "baptism-james-1837": {
+        "recorded_statement": "Entry 75: Jas Glascaw; born 17 January 1837; baptised 9 February 1837; father Alex; mother Mary McAughin; residence Gortereagh.",
+        "relevance": "The exact birth date, name and recorded family identify the child represented here. The separate 1843 birth belongs to the later James.",
+        "limitation": "This is a derivative transcription, not an original image inspected here. Linking the adults to later Lisnagaver records is a separate identification."
+      }
+    }
+  },
+  "family_reasons": {
+    "Glasgow-951": "Entry 75 names Alex as James’s father. Identifying him as the later Lisnagaver Alexander relies on the local baptism sequence and household continuity, not on James’s birth date alone.",
+    "McCaughan-222": "Entry 75 names Mary McAughin as James’s mother. The Mary/Molly surname variants and subsequent baptisms support the family reconstruction; the adults’ continuity across residences is indirect."
+  },
+  "family_sources": {
+    "Glasgow-951": [
+      "baptism-james-1837"
+    ],
+    "McCaughan-222": [
+      "baptism-james-1837"
+    ]
+  },
+  "deliberate_exclusions": [
+    "The unrecorded death date remains separate from the documented parent–child relationships. Original research and imported attachments are retained."
+  ],
+  "editorial_corrections": [
+    {
+      "id": "baptism-identification",
+      "label": "Birth and baptism distinguished",
+      "correction": "The matching birth date identifies this early James. Earlier derived prose wrongly described 9 February as his birth and treated missing presentation mapping as doubt about the recorded child. The adults’ later identities and death estimate remain separately qualified.",
+      "source": "Rasharkin baptism transcription, entry 75; Glasgow-951 findings, family reconstruction."
+    },
+    {
+      "id": "baptism-relationship-assessment",
+      "label": "Baptism relationships mapped",
+      "correction": "The earlier unassessed labels reflected imported tree flags, not an absence of birth and baptism evidence. The accepted identification is now represented by shared documented assessments for each named parent. This does not convert the inferred death boundary into a recorded date.",
+      "source": "Rasharkin entry 75; maintained 1837/1838/1844 family reconstruction; 12 September 2026 editorial review."
+    }
+  ],
+  "vital_assessment_id": "glasgow-3939-reviewed-vital-qualifications"
+}

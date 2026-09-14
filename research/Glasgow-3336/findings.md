@@ -53,3 +53,15 @@ The [Findmypast transcript](https://www.findmypast.co.uk/transcript?id=R_6958799
 independently indexes the 10 June 1619 Edinburgh marriage. Record ID
 `R_695879939/2`; stable research ID `fmp-glasgow-27ad044d0e56`.
 <!-- END FMP-GLASGOW-fmp-glasgow-27ad044d0e56 -->
+
+## Source findings
+
+### Supplied OPR banns and marriages — 10 September 2026
+
+| Source locator | Indexed parties | Assessment |
+| --- | --- | --- |
+| [Scotland’s People](https://www.scotlandspeople.gov.uk/), 1619-06-10, Edinburgh, OPR 685 / 1/430 / 120 | ISSOBELL GLASGOW; WILLIAME SYMOUNTOUN/FR721 (FR721) | Exact marriage already represented. |
+
+Source: Old Parish Registers, banns and marriages; exact surname Glasgow through 1700, 55 supplied results. Original images not inspected for this batch; combined index dates do not by themselves establish ceremony dates.
+
+This batch adds supporting evidence or a qualified comparison only; it raises no additional WikiTree amendment for this profile.

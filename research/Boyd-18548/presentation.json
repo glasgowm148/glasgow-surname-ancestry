@@ -1,0 +1,71 @@
+{
+  "resolution_state": "resolved",
+  "assessment_date": "2026-09-12",
+  "opening": "Mary Jane Boyd of Tamlaght, daughter of Hugh Boyd, married Daniel Neely Glasgow in 1888. Their daughters' original birth returns and the 1901 Boyd household identify the Mary Jane and Elizabeth named on the Drimbolg memorial at high confidence.",
+  "position": {
+    "answer": "Mary Jane Boyd is documented as Daniel Neely Glasgow's wife and as mother of Sarah Taylor and Elizabeth Boyd Glasgow; the Drimbolg memorial records her death on 17 September 1958 aged 93.",
+    "points": [
+      "The 1888 marriage directly names her father Hugh Boyd and Tamlaght residence.",
+      "The paired 1889 birth returns directly name both parents.",
+      "The 1901 household and memorial independently preserve the Boyd aunt–niece relationships.",
+      "Her memorial age supports birth about 1865 rather than the imported c.1868 estimate."
+    ]
+  },
+  "evidence_questions": [
+    {
+      "id": "identity",
+      "title": "Why is the memorial Mary Jane identified with Daniel Neely Glasgow's wife?",
+      "answer": "The marriage, paired birth returns, 1901 household and memorial preserve the same names, place and maternal Boyd relationships without conflict.",
+      "records": ["marriage-daniel-neely-1888", "birth-sarah-glasgow-1889", "birth-elizabeth-glasgow-1889", "census-tamlaght-1901", "memorial-drimbolg-boyd"],
+      "reasoning": "Mary Jane's marriage names Hugh Boyd as father and Tamlaght as residence. Her daughters' returns name Mary Jane formerly Boyd. The census calls both daughters nieces of Hugh S. Boyd, and the memorial calls Mary Jane Hugh and Joseph's sister and Elizabeth their niece.",
+      "limitation": "The stone image and civil death entry have not been inspected; the memorial age is approximate evidence for birth.",
+      "missing": "An original death return or stone image could refine the age but is not required for the present identity assessment."
+    }
+  ],
+  "record_evidence": {
+    "identity": {
+      "marriage-daniel-neely-1888": {
+        "recorded_statement": "Mary Jane Boyd, full age, of Tamlaght, daughter of Hugh Boyd, married Daniel Neely Glasgow on 28 June 1888.",
+        "relevance": "Direct spouse, residence and father evidence.",
+        "limitation": "The return does not state Mary's exact age or mother."
+      },
+      "birth-sarah-glasgow-1889": {
+        "recorded_statement": "Sarah Taylor Glasgow was born 8 September 1889 at Tamlaght to Daniel Glasgow and Mary Jane formerly Boyd.",
+        "relevance": "Direct mother–child evidence.",
+        "limitation": "Daniel's New York residence does not identify his later US death."
+      },
+      "birth-elizabeth-glasgow-1889": {
+        "recorded_statement": "Elizabeth Boyd Glasgow was born 9 September 1889 at Tamlaght to the same parents.",
+        "relevance": "Direct mother–child evidence and a bridge to the memorial niece.",
+        "limitation": "The consecutive-day entries should not be collapsed into one birth date."
+      },
+      "census-tamlaght-1901": {
+        "recorded_statement": "Sarah T. and Lizzie B. Glasgow were recorded as nieces of Hugh S. Boyd at Tamlaght.",
+        "relevance": "Direct household evidence for the girls' maternal Boyd relationship.",
+        "limitation": "The census does not name their absent parents."
+      },
+      "memorial-drimbolg-boyd": {
+        "recorded_statement": "The transcription names Mary Jane Glasgow as sister of Hugh Scott and Joseph A. Boyd and Elizabeth Boyd Glasgow as their niece.",
+        "relevance": "Completes the later-life identity chain and records Mary Jane's death.",
+        "limitation": "Transcription only; no stone image or civil death entry was inspected."
+      }
+    }
+  },
+  "family_display": {
+    "groups": [
+      {"key": "spouses", "title": "Partner", "items": ["Glasgow-2413"]},
+      {"key": "children", "title": "Children", "items": ["Glasgow-2414", "Glasgow-2415"]}
+    ]
+  },
+  "family_reasons": {
+    "Glasgow-2413": "The original 28 June 1888 marriage directly records Daniel Neely Glasgow and Mary Jane Boyd as spouses.",
+    "Glasgow-2414": "Sarah's original birth return directly names Mary Jane Glasgow formerly Boyd as her mother.",
+    "Glasgow-2415": "Elizabeth's original birth return directly names Mary Jane Glasgow formerly Boyd as her mother."
+  },
+  "family_sources": {
+    "Glasgow-2413": ["marriage-daniel-neely-1888"],
+    "Glasgow-2414": ["birth-sarah-glasgow-1889"],
+    "Glasgow-2415": ["birth-elizabeth-glasgow-1889"]
+  },
+  "vital_assessment_id": "mary-jane-boyd-18548-reviewed-vitals"
+}

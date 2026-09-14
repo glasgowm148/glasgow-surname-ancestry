@@ -1,0 +1,73 @@
+{
+  "checked_on": "2026-09-10",
+  "status": "associated supplementary fragment; relationship unresolved",
+  "source_files": [
+    "testaments/Edinburgh/1577_John/1577_John.pdf",
+    "testaments/Edinburgh/1577_John/1577_John_p1.png",
+    "testaments/Edinburgh/1577_John/1577_John_p3.png"
+  ],
+  "observations": [
+    "PDF pages 1 and 3 both carry Image 276, CC8/8/5, the Johne Glasgw download title and the same generation timestamp. Page 2 carries Image 277.",
+    "Page 1 shows the complete leaf numbered 276. Page 3 shows an irregular-edged horizontal strip marked 396A beside an older struck-through number.",
+    "No repeated underlying John lines establish a raised/lowered-flap pair, and the exact physical attachment cannot be demonstrated from the supplied photographs.",
+    "The rubric identifies the confirmation of Andro Hutchesoun: identification of the separate testament is strong, but exact surname spelling remains provisional.",
+    "The fresh partial reading contains repeated Andro Huchesoun, secure bairnis, and provisional Johne [huchesoun?]. The incomplete grammar does not securely assign their kinship or legal roles."
+  ],
+  "interpretation": "The heading identifies the confirmation of Andro Huchesoun's testament. The readable body approves a testament or inventory, commits administration of the estate, and concerns an executor's office and caution (security). It has not been established as an additional inventory or eik for John Glasgow.",
+  "family_lead": "The supplied human reading hochaine, possibly a phonetic Hutchin form, makes the Hutcheson fragment relevant to Margaret and the family network. Neither surname normalization nor a specific relationship to Andro is established.",
+  "next_steps": [
+    "Ask NRS or ScotlandsPeople to explain the mapping between strip 396A and CC8/8/5 Image 276, and identify the strip's own testament reference, indexed person and date.",
+    "Resolve the complete Johne/Andro/bairnis clause before assigning children, parentage or executor roles. Retain unread words rather than supplying an expected formula.",
+    "Compare the securely identified people, places, property and associates with John and Margaret. Test the proposed Hochaine/Hutchin connection without treating surname resemblance or PDF inclusion as proof."
+  ],
+  "context_source": {
+    "url": "https://www.ukoln.ac.uk/qa-focus/documents/case-studies/case-study-19/",
+    "title": "Rob Mildren, Digitisation of Wills and Testaments by SCAN",
+    "supports": "The digitisation project captured complete volumes in sequence and also handled loose-leaf material. It does not explain this specific fragment or establish a family connection."
+  },
+  "method": "Fresh Astra xhigh visual review of unaltered PDF renders and magnified crops",
+  "transcription_status": "partial; not a complete or verified diplomatic transcription",
+  "partial_transcription": {
+    "heading": [
+      "The confirmatioun",
+      "of ye testament",
+      "of andro huchesoun"
+    ],
+    "conventions": "[...] is unread text of unspecified length; [word?] is tentative; brackets within a word expand an abbreviation. No missing formula or kinship connective is supplied.",
+    "lines": [
+      "We [...] ye tennor heirof [ratifeis?] apprevis & c[on]firmis yis",
+      "p[rese]nt testament or inventar in sa far as ye samin is dewlie & [faithfullie?] maid of ye [gudis?]",
+      "[geir?] [...] And gevis & c[om]mittis ye intromissiou[n] w[i]t[h] ye samin to ye said",
+      "[executoure?] foirsaid And [...] ye said Johne [huchesoun?] [...] [and?] [...]",
+      "andro huchesoun bairnis ye said andro huchesoun [...] [executouris?] [...]",
+      "Be ye said umq[uhi]le andro [...] ye said office [...] as",
+      "ane act maid [...] be ye said [executoure?]",
+      "[...] & [...] of ye law and ye said executoure",
+      "[...] ye said office [...]",
+      "fundin cautiou[n] [...] salbe furthcu[m]and to all [...]",
+      "haifand interess [...] as law will [...]"
+    ]
+  },
+  "reading_findings": [
+    {
+      "name": "Andro Huchesoun",
+      "finding": "Named in the heading and repeatedly in the body. Exact individual-letter spelling remains qualified. Umquhile Andro identifies a deceased Andro, but the incomplete clause does not distinguish every occurrence or establish a younger namesake."
+    },
+    {
+      "name": "Johne [huchesoun?]",
+      "finding": "A provisional reading in body line 4, not a secure identification and not a reading of Johne Glasgow. His legal and family roles remain unresolved."
+    },
+    {
+      "name": "Bairnis (children)",
+      "finding": "The word is securely read in line 5. Missing surrounding words prevent assigning named children to a particular father or identifying their executor or representative roles."
+    },
+    {
+      "name": "John Glasgow and Margaret",
+      "finding": "No Glasgow surname has been securely read in the strip. The fragment does not yet establish a relationship to John or Margaret; this is not evidence that no relationship existed."
+    }
+  ],
+  "research_question": "Why is strip 396A included with John Glasgow's CC8/8/5 Image 276, and which testament entry does the strip belong to?",
+  "attachment_limit": "The PDF associates the supplementary image with John's selected record. The full register pages are numbered 276-277; the irregular strip is marked 396A beside an older struck-through number, provisionally 199. The photographs do not establish its original physical placement, a textual continuation from John, a family connection, or a scanning/cataloguing error.",
+  "image_url": "/assets/research/testament-crops/john-1577-huchesoun-fragment.png",
+  "reading_url": "/research/transcriptions/john-1577/associated-fragment-reading.txt"
+}

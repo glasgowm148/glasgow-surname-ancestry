@@ -1,0 +1,136 @@
+# Website-first research synchronization
+
+## Contract
+
+The website is the primary, current account of this project's research. Source
+records and maintained repo files supply evidence and reproducible inputs; they
+must not hold important conclusions that readers cannot discover on the site.
+The website is not itself a primary historical source.
+
+Research work is not complete until its public-safe results are visible in the
+appropriate local `www/` pages and data. Synchronize after each coherent research
+batch, including work performed by subagents or elsewhere in the repository.
+Do not wait for a separate website-update request.
+
+This is a required agent workflow, not a background file watcher. The current
+builders do not automatically ingest every research document. A new research
+format must be connected to the existing public model or given an appropriate
+visible research section in the same task.
+
+## Research-to-site handoff
+
+1. Record the affected subjects, sources, conclusions, confidence changes and
+   open questions in their maintained source files. Keep original citations and
+   a dated account of material changes. Reconcile conflicting accounts using
+   evidence and superseding findings, not whichever file was built last.
+2. Identify every affected public surface: person dossier, records, family or
+   locality study, early records, research groups, main questions, map, DNA or
+   Timeline. Update overview claims as well as detailed dossiers.
+3. Update the durable rendering inputs and synchronize the relevant pages and
+   data. Do not apply only a generated HTML edit that the next repair will undo.
+4. Read the result in its actual public context. Check affected links, filters
+   and visible qualifications, and desktop/mobile layout where changed. A JSON
+   field, repository file or link in a general directory is not a substitute for
+   integrating a material finding into the relevant account.
+5. Report what is synchronized locally, what has actually been published live,
+   and any remaining blocker. Never label a local-only update as deployed.
+
+## Current update paths
+
+- Person findings: `research/<ID>/findings.md`. Use the headings supported by the
+  project skill: current conclusion, source findings, identity/relationship
+  assessments and unresolved/priority actions. The full catalogue builder reads
+  these into person HTML and JSON; raw notes and unsupported headings are not
+  guaranteed to appear.
+- Targeted verification: `.venv/bin/python tools/sync_catalogue_research.py`
+  compares every eligible case's current source sections with its rendered
+  dossier and compares the maintained update queue with visible drafts and
+  search flags. Use `--write` (optionally followed by profile IDs) to refresh
+  reviewed content. A missing public case must be resolved through the curated
+  `data/wikitree/research-catalogue-cases.json` inclusion/canonical/privacy
+  manifest; `tools/add_research_case_dossiers.py` publishes included historical
+  cases and their search/context entries. These tools never infer that every
+  research file requires a WikiTree amendment.
+- Full catalogue generation, when needed:
+  `.venv/bin/python tools/build_family_map.py`. This is broader than a person
+  update and regenerates several datasets and views. First reconcile manual
+  public edits with maintained inputs. Preserve archival snapshots and restore
+  the current unified presentation with the applicable repair helpers; never
+  leave a full generation at an older site layout.
+- Free-space directory: maintain `research/free-space-pages/index.json`, then
+  `.venv/bin/python tools/build_free_space_site.py`. This publishes metadata and
+  canonical links only. Findings in `surname-research/free-space-pages/*.md`
+  also need a substantive public synthesis in the relevant dossier or study;
+  indexing a page does not publish its body or a newly written draft.
+- Research groups: update the evidence-led definitions and provenance in
+  `tools/repair_research_groups.py`, then run that helper. Preserve the distinction
+  between documented households, uncertain tree attachments and record networks.
+- Main open questions: update `tools/repair_research_questions.py`, then run it.
+  Add newly identified main workstreams, revise changed hypotheses, and remove or
+  mark resolved questions. Do not restrict this list to user-supplied examples.
+- Wills and testament transcriptions: update the maintained reading and its
+  source/version metadata, then run `.venv/bin/python tools/build_transcriptions.py`
+  to refresh `/research/transcriptions/`. Retain uncertain readings and clearly
+  distinguish full saved text from review notes; never invent missing passages.
+- Other views: update their maintained source and dedicated repair helper, not
+  just a public copy. Map associations must retain source provenance and honest
+  coordinate precision; DNA, Timeline and early-record summaries must reflect
+  changed evidence where relevant.
+- Irish civil-death lookup list: maintain
+  `surname-research/indexes/irish-civil-deaths-1864-1900.csv` and its JSON
+  provenance, then run `.venv/bin/python tools/publish_irish_death_index.py`.
+  This adds the qualified lookup table to the Ireland family account and its
+  discovery link to Sources. These unverified index leads are not catalogue
+  people, confirmed matches or mapped record associations.
+- Scottish OPR deaths and burials: maintain
+  `surname-research/indexes/scotlandspeople-opr-deaths-to-1700.json`, then run
+  `.venv/bin/python tools/publish_opr_death_review.py`. This renders the seven
+  supplied entries, identity assessments and next searches in Scottish families
+  with a Sources discovery link. Synchronize affected person findings and the
+  explicit WikiTree update queue separately with the targeted sync tool above.
+  Unidentified entries remain documentary leads; do not create people or assign
+  exact death dates from an unresolved index match.
+- Scottish OPR banns and marriages: maintain
+  `surname-research/indexes/scotlandspeople-opr-marriages-to-1700.json`, then run
+  `.venv/bin/python tools/publish_opr_marriage_review.py`. This publishes all
+  55 supplied rows with their matched profiles, provenance and qualifications
+  in Scottish families, plus a Sources discovery link. Preserve reciprocal
+  results as evidence rows without counting them as separate people or events.
+  Synchronize person findings, complete drafts and update flags separately;
+  combined collection dates do not automatically establish wedding dates.
+- Scottish OPR births and baptisms: maintain
+  `surname-research/indexes/scotlandspeople-opr-births-to-1700.json`, then run
+  `.venv/bin/python tools/publish_opr_birth_review.py`. It adds all 127 supplied
+  rows and their qualified identity assessments to Scottish families and Sources.
+  Preserve unknown day/month values, the assumed-year warning, indexed gender
+  and repeated references. Neither a shared reference nor a shared date alone
+  establishes duplicate people or twins. Refresh affected findings and pending
+  WikiTree drafts with the targeted person sync tool.
+- Unified repair: `.venv/bin/python tools/repair_unified_site.py` restores the
+  presentation and invokes its registered helpers and audit. It does not replace
+  the catalogue builder or discover all new research. Use targeted helpers for
+  narrow changes rather than running a broad pipeline unnecessarily.
+
+For a new public page or research type, update its discovery routes and search
+data as appropriate. Keep canonical subject IDs and links stable. Preserve
+useful previous conclusions as explicitly superseded history, not competing
+current statements.
+
+Recovered-file scans keep inventories and audit handoffs internal. Integrate
+their findings into the relevant existing person, family or subject accounts;
+do not generate a standalone public audit page unless explicitly requested.
+
+## Publication and privacy
+
+Local `www/` is the publishable site, not proof that the hosted site has changed.
+Deployment is currently manual; see `docs/public-catalogue-deployment.md`.
+Research synchronization does not silently authorize a production deployment,
+live WikiTree edit, paid access or publication of private material. If deployment
+is authorized, use the established process and confirm the affected live pages.
+If it is unavailable, explicitly report that the local site is updated but live
+publication remains pending.
+
+Exclude credentials, restricted captures, raw sensitive DNA data and private
+living-person information. Incomplete research may be visible as an explicitly
+labelled lead or open question with its evidence limits; never make a pending
+identity or parentage look established merely to populate the website.

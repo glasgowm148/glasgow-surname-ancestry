@@ -1,5 +1,7 @@
 # Glasgow-1065 research findings
 
+Last updated: 2026-09-10
+
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-f26e15d015c1 -->
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-f26e15d015c1
 
@@ -31,3 +33,31 @@ The transcript-validated baptism record for **Jon Glasgow**, 16 Sep 1683, Kilwin
 
 Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
 <!-- END FMP-GLASGOW-fmp-glasgow-37cd5c63b64f -->
+
+
+
+<!-- opr-birth-review-row-43 -->
+## Source findings
+
+### Supplied OPR births and baptisms: row 43 — 10 September 2026
+
+[Scotland’s People](https://www.scotlandspeople.gov.uk/), **Old Parish Registers, births and baptisms**; exact surname Glasgow through 1700, 127 supplied results. **JOHN GLASGOW**; indexed date **16/09/1683**; Kilwinning; parish **599**, reference **10 / 45**. Parents/other exactly as indexed: **GORG GLASGOW/JEAN GARDINER FR57 (FR57)**. Indexed gender: **M**.
+
+**Assessment:** Confirms the already documented Jean Gardiner reading for John. Row 78 shares the complete date and locator but names Jonet Young; this does not establish that the women were the same person or that there were two children.
+
+Original image not inspected for this batch. The combined collection’s date does not automatically establish a birthday. Names alone do not uniquely identify attached parents or connect a child with a later adult. An omitted parent or indexed gender U remains unspecified in this source.
+
+**Next action:** Inspect the original entry and resolve the existing identity question; no new profile is required.
+
+<!-- opr-birth-review-row-78 -->
+## Source findings
+
+### Supplied OPR births and baptisms: row 78 — 10 September 2026
+
+[Scotland’s People](https://www.scotlandspeople.gov.uk/), **Old Parish Registers, births and baptisms**; exact surname Glasgow through 1700, 127 supplied results. **JON GLASGOW**; indexed date **16/09/1683**; Kilwinning; parish **599**, reference **10 / 45**. Parents/other exactly as indexed: **GORGE GLASGOW/JONET YOUNG FR57 (FR57)**. Indexed gender: **M**.
+
+**Assessment:** Confirms the already documented Jonet Young reading for Jon. Row 43 shares the complete date and locator but names Jean Gardiner. Keep the maternal identity question open pending inspection of the original.
+
+Original image not inspected for this batch. The combined collection’s date does not automatically establish a birthday. Names alone do not uniquely identify attached parents or connect a child with a later adult. An omitted parent or indexed gender U remains unspecified in this source.
+
+**Next action:** Inspect the original entry and resolve the existing identity question; no new profile is required.

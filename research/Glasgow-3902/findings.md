@@ -1,8 +1,39 @@
 # Findings: Glasgow-3902
 
-Last updated: 2026-09-06
+Last updated: 2026-09-13
 
 ## Current conclusion
+
+[Compare the Larne, Inishrush and American family reconstruction](/people/glasgow-951.html#larne-reconstruction), including the alternative immediate-parent routes and their source tests.
+
+### Larne father hypothesis — 13 September 2026
+
+The identifiable older Larne ropemaker, James `Glasgow-1509` (reported 1737),
+is a tested possible father of Adam. A c.1758 birth for Adam gives an ordinary
+age-21 interval, and Adam's proved son James is limited positive naming support.
+The reported 1762 Janet Shutter marriage is later than Adam's birth, so it cannot
+establish Adam's mother. No record connects the Larne trade/property sequence to
+Inishrush or names Adam as James's child. The local 1740 Hugh households and the
+older Adam-and-Maria naming model remain live alternatives. `Glasgow-3905` stays
+an explicitly uncertain placeholder; this hypothesis does not license a merge
+or a relationship edit.
+
+If older Alexander `Glasgow-3904` belongs in Adam's generation, a sibling route
+is chronologically cleaner than the current son route: a 1737 father could have
+sons c.1758 and c.1770, while Adam was too young to father Alexander under the
+stored estimate. Neither relationship is proved.
+
+### Alexander parentage check, 13 September 2026
+
+No new inspected record identifies [Alexander Glasgow (Glasgow-951)](https://www.wikitree.com/wiki/Glasgow-951)
+as a child of Adam. A bounded search for newly accessible archival and newspaper
+references returned no usable primary-record connection; this is not a complete
+archive search. Adam's unnamed 1831 household members remain unidentified.
+Keep Adam `Glasgow-1622`, father of the James named in the 1851 marriage, distinct
+from this elder Adam unless an identifying record establishes their relationship.
+The existing gravestone, tithe and freehold evidence does not fill the Alexander
+parentage gap. See the [dated search audit](2026-09-13_alexander_parentage_check.md)
+for the exact scope and access limitations.
 
 ### Master reassessment, 5 September 2026
 
@@ -43,7 +74,7 @@ and Nancy `Glasgow-3907` as Adam's daughter with maternity uncertain. Nancy's
 ordinal proves at least four additional unidentified daughters. Adam `Glasgow-1622`,
 older Alexander `Glasgow-3904` and Robert `Glasgow-1367` are not proved children.
 Rose is chronologically contradicted as mother of older Alexander and Robert and
-must be detached from those edges.
+must remain uncertain while the competing identities are resolved.
 
 Of the three proposed additional sons, Adam `Glasgow-1622` is the strongest
 working hypothesis. His proved son James was a farmer of Inishrush, the repeated
@@ -233,10 +264,10 @@ them as immediate neighbours, but the absence of any other Glasgow household in
 the return makes a close family or collateral relationship more plausible. This
 is supportive locality evidence, not a parent or sibling record.
 
-Daniel was removed as Adam's son on 17 July 2026 and attached with Thomas to
-Alexander and Rosanna as uncertain parents. Adam's biography must no longer call
-Daniel his son. Older Alexander `Glasgow-3904` should also be detached from Adam;
-retain the connection only as a weak research hypothesis.
+Daniel was reassessed on 17 July 2026 with Thomas and the Alexander/Rosanna
+model as uncertain research relationships. Adam's biography must not present
+Daniel as his son. Older Alexander `Glasgow-3904` remains an uncertain
+relationship to Adam and a weak research hypothesis.
 
 The record-defined Inishrush John is a strong identity match to `Glasgow-822`,
 but his relationship to Adam remains unproved. Do not place either man beneath

@@ -1,0 +1,242 @@
+{
+  "image": "/assets/research/secretary-hand-reference.png",
+  "image_width": 2550,
+  "image_height": 1646,
+  "title": "Published secretary-hand alphabet: labelled variant forms",
+  "url": "https://folgerpedia.folger.edu/images/2/21/Alphabet_Abbreviations.pdf",
+  "note": "Teaching examples, not a universal normal hand and not a reconstruction of this manuscript. Compare structure, not an exact silhouette: individual Scottish clerks used different forms and mixtures of hands. The capital I/J examples are labelled jointly in the source. Coloured manuscript lines are selective interpretive guides, not new ink, a facsimile or evidence of the order in which the pen moved. Untraced marks remain available in the clean original.",
+  "glyphs": {
+    "lower-a": {
+      "region": [
+        18,
+        10,
+        980,
+        100
+      ],
+      "label": "Lowercase a"
+    },
+    "lower-b": {
+      "region": [18, 158, 350, 86],
+      "label": "Lowercase b: four looped variants"
+    },
+    "lower-d": {
+      "region": [18, 300, 282, 80],
+      "label": "Lowercase d: three variants"
+    },
+    "lower-u": {
+      "region": [18, 1386, 180, 58],
+      "label": "Lowercase u: two variants"
+    },
+    "lower-e": {
+      "region": [
+        625,
+        272,
+        605,
+        95
+      ],
+      "label": "Lowercase e"
+    },
+    "lower-f": {
+      "region": [
+        18,
+        405,
+        550,
+        175
+      ],
+      "label": "Lowercase f"
+    },
+    "lower-g": {
+      "region": [
+        665,
+        444,
+        570,
+        110
+      ],
+      "label": "Lowercase g"
+    },
+    "lower-h": {
+      "region": [
+        18,
+        554,
+        455,
+        132
+      ],
+      "label": "Lowercase h"
+    },
+    "lower-i": {
+      "region": [
+        690,
+        554,
+        545,
+        112
+      ],
+      "label": "Lowercase i"
+    },
+    "lower-k": {
+      "region": [
+        18,
+        674,
+        685,
+        110
+      ],
+      "label": "Lowercase k"
+    },
+    "lower-l": {
+      "region": [
+        918,
+        674,
+        320,
+        105
+      ],
+      "label": "Lowercase l"
+    },
+    "lower-m": {
+      "region": [
+        18,
+        830,
+        455,
+        95
+      ],
+      "label": "Lowercase m"
+    },
+    "lower-n": {
+      "region": [
+        604,
+        830,
+        235,
+        95
+      ],
+      "label": "Lowercase n"
+    },
+    "lower-o": {
+      "region": [
+        994,
+        830,
+        244,
+        95
+      ],
+      "label": "Lowercase o"
+    },
+    "lower-p": {
+      "region": [18, 974, 300, 114],
+      "label": "Lowercase p: published bowl-and-descender variants"
+    },
+    "lower-r": {
+      "region": [
+        18,
+        1062,
+        1220,
+        110
+      ],
+      "label": "Lowercase r"
+    },
+    "lower-s": {
+      "region": [
+        18,
+        1177,
+        715,
+        188
+      ],
+      "label": "Lowercase s"
+    },
+    "lower-t": {
+      "region": [
+        852,
+        1198,
+        386,
+        115
+      ],
+      "label": "Lowercase t"
+    },
+    "lower-w": {
+      "region": [
+        716,
+        1342,
+        522,
+        110
+      ],
+      "label": "Lowercase w"
+    },
+    "lower-x": {
+      "region": [
+        18,
+        1478,
+        305,
+        160
+      ],
+      "label": "Lowercase x"
+    },
+    "lower-y": {
+      "region": [
+        410,
+        1478,
+        495,
+        160
+      ],
+      "label": "Lowercase y"
+    },
+    "upper-A": {
+      "region": [
+        1390,
+        5,
+        460,
+        110
+      ],
+      "label": "Capital A"
+    },
+    "upper-G": {
+      "region": [
+        1390,
+        368,
+        455,
+        130
+      ],
+      "label": "Capital G"
+    },
+    "upper-J": {
+      "region": [
+        1390,
+        500,
+        465,
+        115
+      ],
+      "label": "Capital I/J (joint source group)"
+    },
+    "upper-N": {
+      "region": [
+        2105,
+        607,
+        300,
+        120
+      ],
+      "label": "Capital N"
+    },
+    "upper-R": {
+      "region": [
+        1868,
+        818,
+        535,
+        190
+      ],
+      "label": "Capital R"
+    },
+    "upper-W": {
+      "region": [
+        1823,
+        1078,
+        580,
+        145
+      ],
+      "label": "Capital W"
+    }
+  },
+  "provenance": {
+    "local_source": "testaments/Resources/Alphabet_Abbreviations.pdf",
+    "pdf_pages": [
+      3,
+      4
+    ],
+    "method": "Unretouched 150-dpi page renders, teaching plates placed side by side.",
+    "plate_credit": "Ronald B. McKerrow, A Note on Elizabethan Handwriting, reprinted in Philip Gaskell, A New Introduction to Bibliography; distributed in Folgerpedia Basic advice for reading secretary hand."
+  }
+}

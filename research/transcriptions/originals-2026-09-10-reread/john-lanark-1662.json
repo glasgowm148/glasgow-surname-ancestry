@@ -1,0 +1,86 @@
+{
+  "id": "john-lanark-1662",
+  "title": "John Glasgow in Quothquan, Lanark testament dative: name reread",
+  "record": "National Records of Scotland, Lanark Commissary Court, CC14/5/6, images 138-139; indexed 13 January 1662",
+  "date": "1662-01-13 (court/index date; death in 1661, month unresolved)",
+  "reviewed_at": "2026-09-10",
+  "index_confirmation": {
+    "status": "confirmed_by_index",
+    "source": "User-supplied ScotlandsPeople index excerpt",
+    "provenance": "Surname Glasgow/Glasgw; 24 results; supplied 10 September 2026",
+    "indexed_name": "John Glasgow",
+    "indexed_date": "13 January 1662",
+    "indexed_description": "in Quodquen",
+    "indexed_record_type": "testament dative & inventory",
+    "court": "Lanark Commissary Court",
+    "reference": "CC14/5/6",
+    "evidential_scope": "Confirms the index entry, exact indexed residence, record type and date; it is not John's death date or proof of kinship or profile identity."
+  },
+  "source_files": [
+    "testaments/ScotlandsPeople_CC001400005-00006-00138-.jpg",
+    "testaments/ScotlandsPeople_CC001400005-00006-00139-.jpg"
+  ],
+  "reviewed_pages": [
+    "NRS image 138 (John entry begins in the lower part)",
+    "NRS image 139 (John entry concludes at the head; following testament excluded)"
+  ],
+  "coverage": "Both supplied pages were inspected in full and the John entry was enlarged across its page break. The preceding and following testaments were excluded. Names, roles, localities, and possible kinship words were audited throughout; damaged accounting and legal text remains bracketed rather than reconstructed.",
+  "provenance": {
+    "previous_review": "research/transcriptions/originals-2026-09-10/john-lanark-1662.json",
+    "walkthrough": "research/transcriptions/walkthroughs/john-lanark-1662.json",
+    "method": "Fresh inspection of both original JPEGs at source resolution and magnified crops, followed by comparison with the previous reading."
+  },
+  "transcription": [
+    {
+      "page": "NRS image 138",
+      "lines": [
+        "[preceding testament excluded]",
+        "The testament dative and inventar of the guidis geir soumes of",
+        "money and debtis perteining to umquhile John Glasgow in Quodquen within the",
+        "parochin of Libbertoun and sheriffdome of Lanark the tyme of his deceis",
+        "quha deceist in the moneth of [illegible] the yeir of God 1661 yeiris",
+        "faithfullie maid and givin up be Thomas Glasgow [descriptor illegible]",
+        "in name of executour dative [appointment wording illegible]",
+        "[inventory, debts, and sums mostly illegible]",
+        "James Hamiltoun commissar of Lanark [confirmation formula continuing]"
+      ]
+    },
+    {
+      "page": "NRS image 139",
+      "lines": [
+        "[continuation of confirmation and executor-dative authority]",
+        "[the said] John Glasgow [following descriptor and grammatical subject unresolved]",
+        "[administration, caution, and closing formula partly illegible]",
+        "[separate following testament beginning 13 January 1662 excluded]"
+      ]
+    }
+  ],
+  "plain_english": [
+    "This is the testament dative and inventory of John Glasgow in Quothquan, Libberton parish, Lanarkshire. It places his death in 1661 but the month remains unreadable.",
+    "Thomas Glasgow is readable in the giver-up/executor-dative passage. The ink immediately after his name does not securely read 'lawful son', and the page-break continuation does not safely establish its grammatical subject.",
+    "James Hamilton is the commissary confirming the estate. His presence is official rather than familial.",
+    "No parent-child relationship is created from Thomas's participation or from the later occurrence of John Glasgow in the legal continuation."
+  ],
+  "findings": [
+    "Newly improved reading: Thomas Glasgow can be named in the giver-up/executor-dative context, but his exact capacity and descriptor remain unresolved.",
+    "Excluded reading: the marks after Thomas and around the page-break occurrence of John do not prove 'lawful son'.",
+    "Confirmed: deceased John Glasgow lived in Quodquen within Libberton parish and the sheriffdom of Lanark and died in 1661.",
+    "Confirmed: James Hamilton acts as commissary of Lanark, not as executor or kin.",
+    "The 1661/1662 John is kept distinct from the 1650 and 1685 Quothquan Johns unless another record bridges them."
+  ],
+  "changes_from_previous": [
+    "The previous review left the giver-up wholly unnamed. This reread promotes Thomas Glasgow as a probable-to-secure personal-name reading while retaining brackets around his descriptor and exact executorial capacity.",
+    "The former proposed sonship remains rejected: neither proximity nor expected confirmation wording substitutes for visible kinship ink.",
+    "No WikiTree identity is assigned from name and locality alone."
+  ],
+  "unresolved": [
+    "John's exact death month in 1661",
+    "The words immediately following Thomas Glasgow and whether Thomas personally held the executor-dative office or acted in another representative capacity",
+    "The grammatical subject and descriptor around the page-break occurrence of John Glasgow",
+    "Inventory goods, values, debtors, creditors, totals, cautioner, and closing names",
+    "A secure WikiTree match or relationship to either the 1650 or 1685 John"
+  ],
+  "profiles": [],
+  "confidence_statement": "High for the deceased's name, Quodquen/Libberton locality, 1661 death year, entry boundaries, and James Hamilton's office. Moderate for the name Thomas Glasgow. Low for Thomas's following descriptor and any claimed sonship; no kinship is asserted.",
+  "reviewer": "Codex fresh original-image name, role, and locality audit"
+}

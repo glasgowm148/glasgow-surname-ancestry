@@ -5,6 +5,10 @@ relationship recommendations. It distinguishes direct relationships from
 identity hypotheses. It does not claim that every cited original was re-read
 during this integration.
 
+## Review update, 13 September 2026
+
+The maintained person account now exposes the full five-person 1851 household, the reported 1836 marriage year, the 1888 death/namesake comparison and the confirmed R-FT20271 connection to James J’s tested descendant. Nancy’s original death-informant address is Gortahar. The death remains probable; no better competing claimant was found. Earlier statements in this master about no raw Big Y analysis are superseded by the detailed variant audit in findings.md. Raw calls remain private. See [the current evidence review](profile-evidence-review-2026-09-13.md) and presentation.json for the integrated public account.
+
 ## Current conclusion
 
 Neither [Alexander Glasgow (Glasgow-951)](https://www.wikitree.com/wiki/Glasgow-951)
@@ -25,12 +29,34 @@ The strongest proved local relationships are:
 - Adam and Rose Glasgow of Inishrush with the children actually named by their
   monument and Nancy's marriage notice.
 
+## Additions and verification, 11 September 2026
+
+The recovered February 2020 correspondence is the strongest new route for
+testing Alexander's relationship to Thomas: it reports an autosomal match to a
+descendant of Thomas and repeats the Alexander-and-Rosanna tradition. It lacks
+shared-cM, segment and complete-pedigree data, and the parent-name source is
+unknown. It therefore strengthens the research route without changing the
+relationship recommendation.
+
+The Boyd–Glasgow grave 1 transcription, Drimbolg `MIC1C/15` session-book lead,
+John Glasgow's 1767 Bible and N18544 comparison kit, the Samuel Kilrea–Prescott
+lead, the Clockmakers' archive route and the Mary Jane Dysart–Hampton candidate
+are now explicit collateral workstreams. None is a parent-identifying record.
+The public N18544 table supplies no tester or documented modern descent and its
+subgroup explicitly requires a Big-Y upgrade; it must not be treated as
+FT25406-positive.
+
+The retained one-page copy of Daniel Glasgow's 16 October 1871 death register
+was visually checked during this update and does contain Daniel at Kilrea, row
+362, with Kate Glasgow present. The new concern about a wrong page does not
+overturn that reading; the informant's relationship remains unknown.
+
 ## Top ten findings
 
 | Rank | Finding | Evidential effect |
 | ---: | --- | --- |
 | 1 | Alexander's parents remain unidentified. The Alexander-and-Rosanna account concerns Thomas and is late descendant testimony; no contemporary record extends it to Alexander. | Do not make either parent confident. Any retained attachment is only a possible working topology. |
-| 2 | The 16 May 1888 Gortahar death is the high-confidence identification of Alexander: married labourer, reportedly 84, daughter Nancy informing. Mary's 27 February 1892 death at Gortahar, with daughter Mary Elder informing, bridges the later household to the Lisnagaver family. | Replace the false Scottish death/“after 1851 only” conclusion in the draft. Do not equate Nancy with Ann without another record. |
+| 2 | The 16 May 1888 Gortahar death is the high-confidence identification of Alexander: married labourer, reportedly 84, daughter Nancy informing. Mary's 17 February 1892 death at Gortahar, with daughter Mary Elder informing, bridges the later household to the Lisnagaver family. | Replace the false Scottish death/“after 1851 only” conclusion in the draft. Do not equate Nancy with Ann without another record. |
 | 3 | Robert, Mary and Ann are documented children of Alexander. The 1843 James is supported by baptism and the 1851 household. The 1837 James probably died before the name was reused; the incomplete 1838 baptism must remain unnamed. | Robert, Mary and Ann may be confident children; James 1843 is strongly supported. Do not invent a name for the 1838 child. |
 | 4 | Daniel's will calls Thomas his late brother, and Daniel Neely Glasgow's 1888 marriage names Thomas as his father. | Daniel–Thomas brotherhood and Thomas–Daniel Neely fatherhood are proved. Their parents are not. |
 | 5 | Alexander's proximity to Thomas and Daniel, the same church/locality network and Y-DNA make close paternal kinship plausible, but no record calls Alexander their brother. | Change “probable brother” to “possible brother or cousin”; do not use shared speculative parents to manufacture sibling certainty. |
@@ -83,10 +109,20 @@ The strongest proved local relationships are:
 
 ## Highest-value unresolved records
 
+Immediate priorities are: recover the 2020 match data and source behind the
+parent names; identify and document N18544's tester lineage before seeking an
+upgrade; search `MIC1C/15` with surrounding cases; and obtain Mary Jane
+Hampton's New Zealand death printout. Both Bible images have now been inspected,
+the Boyd memorial has been resolved through original marriage, birth and census
+records, and Samuel of Prescott has been reconstructed through Robert's
+original will. These collateral tests should not be presented as replacements
+for the pending direct-parentage records below.
+
 1. PRONI `CR5/32/1/1/1–2`, Ballymoney Reformed Presbyterian family and society
    lists, 1804–1844.
-2. PRONI `MIC.1P/292`, original Rasharkin baptisms, including the incomplete
-   1838 entry.
+2. PRONI `MIC1P/292`, original Rasharkin baptisms, including the incomplete
+   1838 entry; no public image was found, so this requires onsite inspection or
+   an ordered page copy.
 3. Newberry estate 647 and guardianship 646, box 27, package 57, for Archibald's
    adult distributions and Wilson's complete child group.
 4. The original 1851 James Glasgow–Rosanna Barkley marriage (`cima-3208068`)
@@ -113,11 +149,11 @@ transcriptions, catalogue descriptions, earlier-audit recoveries or hypotheses.
 | Mary Glasgow-3167 and Ann Glasgow-438 independently named Alexander as father in their 1871 and 1876 marriages. | Direct daughter evidence. |
 | Mary's original 14 June 1871 marriage: age 28, Robert Elder 40; fathers Alexander Glasgow and Nathaniel Elder, both farmers; witnesses William Graham and John Collins. | Original inspected. Corrects “William Glasgow” and Ballymena: the district is Ballymoney. |
 | Ann's original 13 October 1876 marriage calls Alexander a labourer. | Makes the 1888 farmer/labourer occupation change non-exclusionary. |
-| Alexander died 16 May 1888 at Gortahar, married labourer, reportedly 84; daughter Nancy Glasgow informed. Mary died there 27 February 1892, widow, reportedly 89; daughter Mary Elder informed. | High-confidence later-life identification through Mary Elder. Nancy's identity with married daughter Ann remains unresolved. |
+| Alexander died 16 May 1888 at Gortahar, married labourer, reportedly 84; daughter Nancy Glasgow informed. Mary died there 17 February 1892, widow, reportedly 89; daughter Mary Elder informed. | High-confidence later-life identification through Mary Elder. Nancy's identity with married daughter Ann remains unresolved. The Mary death date was corrected against the original register on 12 September 2026. |
 | The 1834 tithe, `FIN/5/A/236`, fol. 17, separately records Alexr Glasgow with 29 acres and Robt Glasgow with 35. | Original image in the project. It gives no age or relationship; either could be an older namesake. |
 | Later valuation: John lot 24, 21a 2r 25p; Alexander lot 25, 8a 2r 10p; Thomas lot 26, 32a 3r 15p, all under Robert Harvey. Alexander remained through the 1865–1878 volume; Robert Elder succeeded by the volume beginning 1889. | Tenancy continuity and son-in-law association, not an exact death date or sibling proof. |
 | Best of six acreage assignments: earlier Alexander to later John + Alexander, earlier Robert to later Thomas; discrepancy 3.375 acres versus 8.625 runner-up. | Property-history prediction only. Comparable coverage/measurement and parcel assignment remain unverified without the original map. |
-| The 1911 “Samuel Glasgow” nephew was registered as Samuel Glasgow Elder, Ballymoney Q3 1908, vol. 1, p. 111. | Glasgow is a middle name; parents unresolved. |
+| The original 1911 Form A calls the nephew “Samuel Glasgow”, while his original 1908 Gortahar birth records Samuel Elder, son of unmarried Jane Elder, father blank, with Mary Elder as informant. | Preserve the original-to-original surname conflict as unexplained alternate usage. Jane is proved as mother; neither record identifies the father or proves a Glasgow relationship. |
 | Mary Jane Elder died 11 June 1897 at Lisnagaver. | Separate unassigned woman; not the Mary Elder living in 1901/1911 if that household continuity is correct. |
 | William Elder, born 6 November 1833 at Portna to Nathaniel Elder and Ellen Irwin, is a candidate for the 1864 groom witnessed by Robert Elder. | Possible brother of Robert, not proved. |
 | William and James McCaheran at Gortereghy in the 1834 tithe. | Potential McCaughan maternal network only. |
@@ -130,7 +166,7 @@ transcriptions, catalogue descriptions, earlier-audit recoveries or hypotheses.
 | Daniel's original will proves son David of London, late brother Thomas and nephew Daniel Neely. Daniel Neely's original 28 June 1888 marriage names farmer Thomas as father. | Proves Daniel–Thomas and Thomas–Daniel Neely; does not place Alexander among their siblings. |
 | James and Eliza, children of Alexander and Thomas respectively, were born at Lisnagaver on 9 and 17 October 1843. | Strong close-local-network evidence, not a relationship degree. |
 | A 2007 descendant account gives Thomas's parents as Alexander and Rosanna and Rosanna's death about 23 October 1822. | Underlying source unidentified. “Rosanna Shaw” was inferred from a different clockmaker and is not an established maiden name. |
-| Felicity Gabbrielli's emails of 10–11 February 2020 identify her great-grandmother Catherine as Thomas and Mary Ann McCracken's sixth daughter, mention three omitted children and offer Daniel material. | Correspondence recovered; underlying material uncollected. No checked autosomal segments, and the parent tradition may share the 2007 source. |
+| A private email correspondence of 10–11 February 2020 identifies the correspondent's great-grandmother Catherine as Thomas and Mary Ann McCracken's sixth daughter, mentions three omitted children and offers Daniel material. | Correspondence recovered; underlying material uncollected. No checked autosomal segments, and the parent tradition may share the 2007 source. The correspondent's identity and private message text are not published. |
 | Robert, born 1 September and baptised 30 September 1827, was son of Daniel Glasgow and Margaret Irwin of Kilrea, First Kilrea register p. 20, entry 146. | Published transcription; direct parent statement in the entry. |
 | James Glasgow, artist, died 21 January 1853 in Brooklyn in his twenty-fifth year and was called Daniel of Kilrea's third son. | *Londonderry Sentinel*, 18 February 1853 transcription. |
 | D. J. Glasgow wrote Samuel P. Avery on 8 October 1857. | Met Watson Library, Avery Papers, `p15324coll13 / 9368`; item/curator description located, manuscript unread. |
@@ -233,8 +269,8 @@ transcriptions, catalogue descriptions, earlier-audit recoveries or hypotheses.
 
 | Finding | Source status and catalogue effect |
 | --- | --- |
-| Supplied account of an 1849 will registered in 1856 divides six shares: brothers Daniel, Samuel, John and Thomas; deceased brother James's children collectively; sister Mary. | Alexander is absent. He could hypothetically be James's son, but no distribution names him. |
-| The Canadian sibling group has not been identified with the Kilrea/Lisnagaver men. | FamilySearch image `3Q9M-CSLG-LWY9-S` was not retrieved; keep the will account as earlier-audit evidence pending original inspection. |
+| Registered copy of an 1849 will, registered in 1856, divides six shares: brothers Daniel, Samuel, John and Thomas; brother James's children collectively; sister Mary. | Original FamilySearch image `3Q9M-CSLG-LWY9-S` inspected 8 September 2026. Alexander is absent. Later inspection now identifies a son Alexander in C114, but as a Rochester express agent; his identity with Glasgow-951 remains unproved. The original will does not call James deceased. |
+| The Canadian sibling group has not been identified with the Kilrea/Lisnagaver men. | Samuel's Kilrea origin makes the shared Daniel and Thomas names significant, but the will names no Irish residence or parents and does not prove the identity of either brother. |
 
 ### 11. Y-DNA
 

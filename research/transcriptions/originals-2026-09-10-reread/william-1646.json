@@ -1,0 +1,91 @@
+{
+  "id": "william-1646",
+  "title": "William Glasgow, mealmaker in Leith: testament dative, 1646",
+  "record": "National Records of Scotland, Edinburgh Commissary Court, CC8/8/62, images 461-462",
+  "date": "Death September 1644; confirmation 22 July 1646",
+  "reviewed_at": "2026-09-10",
+  "index_confirmation": {
+    "status": "confirmed_by_index",
+    "source": "User-supplied ScotlandsPeople index excerpt",
+    "provenance": "Surname Glasgow/Glasgw; 24 results; supplied 10 September 2026",
+    "indexed_name": "William Glasgow",
+    "indexed_date": "22 July 1646",
+    "indexed_description": "mealmaker Leith",
+    "indexed_record_type": "TD & Inventory",
+    "court": "Edinburgh Commissary Court",
+    "reference": "CC8/8/62",
+    "evidential_scope": "Confirms the index entry, occupation, residence and date; it is not William's death date or proof of a profile identity."
+  },
+  "source_files": ["testaments/Edinburgh/William_1646.pdf"],
+  "reviewed_pages": [
+    "PDF page 1 / image 461: opening in lower half, inventory and beginning of debt list; preceding estate excluded",
+    "PDF page 2 / image 462: debt continuation and confirmation; following estate excluded"
+  ],
+  "coverage": "Both originals and the complete William entry were inspected, including debt continuation and confirmation beyond the sonship crop. Enlarged original and contrast-enhanced working crops were used for the opening and continuation. This is full coverage with selective transcription.",
+  "transcription": [
+    {"page": "461, opening", "lines": [
+      "[Margin:] Wm Glasgow xxij of July 1646",
+      "The testament dative and Inv[entar] of the goods geir",
+      "soumes of money and debtis perteining to umq[uhi]le Wm",
+      "Glasgow Meilmaker in leith [wording unresolved] the tyme of his deceis quha",
+      "deceissit in the moneth of september the yeir of god 1644",
+      "yeiris faithfullie maid and givine up be Archibald glas-",
+      "gow sone lawfull to the defunct and onlie ex[ecuto]r dative",
+      "decreit to his said umq[uhi]le father be decreit of the commissaris of",
+      "Edinburgh [decree wording/day partly unresolved]"
+    ]},
+    {"page": "461-462, inventory and debts", "lines": [
+      "[household goods, clothing and receivables; sums omitted]",
+      "Followes the debtis awine to the deid",
+      "[several debtor names and amounts unresolved]",
+      "Item be Jon[e?] [surname unresolved] [debt wording unresolved]",
+      "[a further associate, possibly Alexander, and bond/rent wording unresolved]",
+      "Summa of the debtis awine to the deid [amount unresolved]",
+      "Summa of the Inventar wt the debtis [amount unresolved]",
+      "To be divydit in twa pairtis"
+    ]},
+    {"page": "462, confirmation", "lines": [
+      "We Jon Nisbit [colleague/title unresolved]",
+      "[confirmation formula]",
+      "Williame Craufurd [occupation/locality unresolved] [administrative role/caution wording unresolved]",
+      "[closing formula unresolved]"
+    ]}
+  ],
+  "plain_english": [
+    "William Glasgow was a mealmaker in Leith and died in September 1644.",
+    "Archibald Glasgow is expressly William's lawful son and sole executor dative. The next line calls William his late father, reinforcing the direct relationship within the same source.",
+    "The testament is dative and its July 1646 proceedings are not William's death date.",
+    "Names in the debt and confirmation sections, including a possible John debtor and William Craufurd in an administrative role, do not establish a brother or other kin."
+  ],
+  "findings": [
+    "Confirmed: William Glasgow, mealmaker in Leith, died September 1644.",
+    "Confirmed: Archibald Glasgow is sone lawfull to the defunct and sole executor dative.",
+    "Confirmed: his said late father independently restates William's relationship to Archibald within the entry.",
+    "Confirmed: no John Glasgow is named as William's brother or executor.",
+    "Unresolved: a possible John in the debt continuation is an account party, not a stated relative.",
+    "Probable: William Craufurd occurs in the confirmation/caution procedure; exact occupation/locality and role remain unresolved."
+  ],
+  "changes_from_previous": [
+    "Old: Archibald's lawful sonship and sole executorship were maintained. New: confirmed unchanged from the opening and reinforced by the following father wording.",
+    "Old: supposed brother/executor John was rejected. New: confirmed unchanged; any possible John on image 462 belongs to the debt list and carries no kin term.",
+    "Old: William Craufurd's occupation/locality was unresolved. New: still unresolved after enlargement; no kinship is assigned.",
+    "No walkthrough text or geometry changed because the core sonship conclusion remains unchanged."
+  ],
+  "unresolved": [
+    "Complete names and roles of the debt parties on images 461-462.",
+    "William Craufurd's exact occupation/locality and administrative role.",
+    "Internal executor-decree day distinct from the marginal 22 July confirmation date.",
+    "William's spouse, parents and any children other than Archibald."
+  ],
+  "profiles": [["Glasgow-3075", "William Glasgow, Leith mealmaker"], ["Glasgow-3078", "Archibald Glasgow, explicitly lawful son"]],
+  "confidence_statement": "High for William's occupation, Leith residence, September 1644 death and Archibald's lawful sonship/sole executorship. High that no brother John is established. Low for several debtor names and detailed confirmation roles.",
+  "reviewer": "LLM-assisted fresh visual reread from original images",
+  "provenance": {
+    "source_type": "original commissary-register images in supplied PDF",
+    "inspection_method": "full-page 250 DPI renders plus enlarged opening, debt continuation and confirmation inspection; temporary contrast enhancement used only as a reading aid",
+    "comparison_order": "ink inspected before the maintained 2026-09-09 review was compared",
+    "previous_review": "research/transcriptions/originals-2026-09-09/william-1646.json",
+    "walkthrough": "research/transcriptions/walkthroughs/william-1646.json",
+    "limitations": "The debt list remains difficult and several administrative abbreviations cannot be expanded securely."
+  }
+}

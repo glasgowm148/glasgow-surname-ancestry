@@ -1,0 +1,89 @@
+{
+  "id": "leith-parish-image-targets",
+  "title": "Leith: four dated child records to compare with the 1662 testament",
+  "question": "Which parish entries can test the family of Archibald Glasgow and Agnes Watson, and might they connect the maltman to William Glasgow's shoemaker son?",
+  "conclusion": "Public WikiTree biographies provide four precise record leads for children attached to Archibald Glasgow and Agnes Watson: Archibald (1654), John (1656), George (1658) and William (1660). Three names agree with the sons in the inspected 1662 testament. This makes the parish household a useful comparison, but the original parish images have not been inspected in this pass. The profiles' attachment to Archibald born in 1618 is not independent evidence that the maltman and the 1647 shoemaker were one man.",
+  "status": "unresolved",
+  "findings": [
+    {
+      "claim": "The official index guide does not distinguish birth dates from baptism dates; the original entry is needed.",
+      "status": "confirmed",
+      "basis": "Scotland'sPeople explains that its old-parish-register index date may be a birth or baptism date and more usually is baptism. This supports keeping the four profile dates as acquisition leads rather than treating every BirthDate field as a proved birth. NRS coverage information places the dates within the broad surviving South Leith register period, but neither coverage nor a film number proves a particular entry's contents. No original parish image was obtained in this continuation.",
+      "source_url": "https://www.scotlandspeople.gov.uk/help-and-support/guides/church-registers",
+      "source_reference": "Official Scotland'sPeople church-register guide, consulted 10 September 2026; contextual guidance, not a transcription of these four entries.",
+      "new_this_pass": true
+    },
+    {
+      "claim": "Archibald: profile date 8 October 1654; FamilySearch record FQMH-M86.",
+      "status": "unresolved",
+      "basis": "The public Glasgow-3079 profile names Archibald Glasgow and Agnes Watson as parents and cites the Scotland Births and Baptisms index for Archbald Glasgowe, 1654. Its structured BirthDate is 1654-10-08, but the biography does not establish whether that exact date is birth or baptism. Check the original parish entry before treating it as either. The record image and index details were not independently read in this pass.",
+      "source_url": "https://www.familysearch.org/ark:/61903/1:1:FQMH-M86",
+      "source_reference": "Record citation and date recovered from public WikiTree profile Glasgow-3079 through getRelatives, 10 September 2026; derivative acquisition lead, not a fresh original-record transcription.",
+      "new_this_pass": true
+    },
+    {
+      "claim": "John: profile date 27 April 1656; FamilySearch record XY75-RRX.",
+      "status": "unresolved",
+      "basis": "Glasgow-3516 names the same parents and cites the Scotland Births and Baptisms index for Johne Glasgow, 1656. The exact day comes from the profile's structured BirthDate, not an inspected register. John is not among the three sons named in the 1662 testament. Check both the parish entry and any burial evidence; his omission does not by itself prove that he died before 1662, was unrelated, or has been mistranscribed.",
+      "source_url": "https://www.familysearch.org/ark:/61903/1:1:XY75-RRX",
+      "source_reference": "Public WikiTree profile Glasgow-3516 and its FamilySearch citation, retrieved 10 September 2026; original image and precise event type outstanding.",
+      "new_this_pass": true
+    },
+    {
+      "claim": "George: reported South Leith baptism 16 May 1658; FamilySearch record FQMH-CXH.",
+      "status": "unresolved",
+      "basis": "Glasgow-2714 explicitly describes this as a baptism at South Leith and names Archibald Glasgow and Agnes Watson as parents. Unlike the other profiles' date fields, the biography supplies an event type and parish, but this remains a derivative report. Direct retrieval of the FamilySearch record returned an internal error; no register image, witnesses or paternal occupation were available for inspection.",
+      "source_url": "https://www.familysearch.org/ark:/61903/1:1:FQMH-CXH",
+      "source_reference": "Public WikiTree biography Glasgow-2714, citing Scotland Births and Baptisms, 1564-1950, Georg Glasgowe, 1658; retrieved 10 September 2026.",
+      "new_this_pass": true
+    },
+    {
+      "claim": "William: profile date 15 October 1660; FamilySearch record FQMH-DD9.",
+      "status": "unresolved",
+      "basis": "Glasgow-3080 names Archibald Glasgow and Agnes Watson as parents and cites the Scotland Births and Baptisms index for William Glasgow, 1660. Its date field supplies 1660-10-15; birth versus baptism and the register wording still need inspection. A matching name among the 1662 sons supports the household comparison, not an automatic identification of the father with the earlier shoemaker.",
+      "source_url": "https://www.familysearch.org/ark:/61903/1:1:FQMH-DD9",
+      "source_reference": "Public WikiTree profile Glasgow-3080 and its FamilySearch citation, retrieved 10 September 2026; exact day is profile metadata, not a newly read church record.",
+      "new_this_pass": true
+    },
+    {
+      "claim": "The 1646 Margaret Hilstones marriage is a separate, precisely cited comparison target, not a proved first marriage of Agnes Watson's husband.",
+      "status": "unresolved",
+      "basis": "The current Glasgow-3078 biography cites Archbald Glasgow and Margaret Hilstones, 14 April 1646, South Leith OPR 692/2, 90/310, FR3086. This is a parish marriage reference, not an Edinburgh commissary testament reference. The original should be compared for occupation and identifying associates. A remarriage is possible; neither it nor a supposed clerical substitution of Agnes's name has been demonstrated.",
+      "source_url": "https://www.wikitree.com/wiki/Glasgow-3078",
+      "source_reference": "Public profile citation inspected through the WikiTree API, 10 September 2026. OPR 692/2, 90/310 is reported by the biography and has not been checked against the original image here.",
+      "new_this_pass": true
+    },
+    {
+      "claim": "Robert Glasgow and Euphame Lorimer's 1666 Edinburgh burgess entry is not evidence of kinship with the Leith Archibalds.",
+      "status": "confirmed",
+      "basis": "The printed roll identifies Robert as a cordiner admitted through his wife Euphame, daughter of the late Andrew Lorimer, beltmaker. It does not name Archibald or a Leith family relationship. This entry was already cited locally. A contradictory automated statement in Glasgow-3938's findings has now been corrected: the secure Robert-Euphame household must not be automatically assigned to the Robert who married Jonet Thomsone in 1652. The underlying transcript is retained as identity-separation evidence, with no attachments changed.",
+      "source_url": "https://archive.org/details/scottishrecordso46scotuoft/page/208/mode/2up",
+      "source_reference": "Charles B. Boog Watson, ed., Roll of Edinburgh Burgesses and Guild-Brethren, 1406-1700 (1929), printed p. 208, 4 July 1666; local correction to source-assignment block fmp-glasgow-937fb03a9d56 in research/Glasgow-3938/findings.md.",
+      "new_this_pass": false
+    }
+  ],
+  "searches": [
+    {
+      "target": "NRS parish-register coverage and alternative film-catalogue access",
+      "result": "South Leith OPR 692/2 has early coverage beginning in 1599. A secondary film catalogue identifies GS film 1067770 for an early register and films 1067770-1067781 for the wider parish-register/index run. These are acquisition leads, not exact image references for the four children. Confirm each record's parish and event type. No authenticated image access was available."
+    },
+    {
+      "target": "Read the current public Glasgow-3078 biography and the child/sibling biographies returned for Glasgow-2714",
+      "result": "Recovered the dated four-child checklist and the exact reported 1646 marriage citation. Profile relationships and dates are derivative leads, not independent confirmation of the father's identity."
+    },
+    {
+      "target": "Find local findings.md dossiers for Glasgow-2714, Glasgow-3079, Glasgow-3080 and Glasgow-3516",
+      "result": "None of those four specific handoff files exists. This does not establish that no relevant evidence exists elsewhere in the repository."
+    },
+    {
+      "target": "Open George's cited FamilySearch record FQMH-CXH and search for independently available parish evidence",
+      "result": "The direct page returned an internal error; targeted web searches returned no usable historical record. No primary parish image was inspected and no absence-of-record conclusion follows."
+    },
+    {
+      "target": "Compare the Edinburgh burgess entries with existing James and Robert Glasgow dossiers",
+      "result": "James Glasgow's 20 June 1649 admission, repeating the 16 June 1641 apprenticeship to William Sclaitter, is already documented under Glasgow-1150. Robert's 4 July 1666 admission is also already recorded. Neither is a new discovery; the useful new outcome was correcting the conflicting Robert profile assignment."
+    }
+  ],
+  "next_record": "Obtain the four cited parish entries, using South Leith OPR 692/2 as a starting point and confirming the parish for each record. Capture full entries and adjacent context, preserving birth and baptism dates separately. Transcribe both parents, occupation, abode, witnesses and any marginal notes. Compare the reported 14 April 1646 marriage. A record expressly connecting the trades or naming William the mealmaker as father would be strong bridging evidence; shared witnesses alone would only support a cumulative identity argument.",
+  "profile_ids": ["Glasgow-3078", "Watson-45727", "Glasgow-3079", "Glasgow-3516", "Glasgow-2714", "Glasgow-3080", "Glasgow-3938"]
+}

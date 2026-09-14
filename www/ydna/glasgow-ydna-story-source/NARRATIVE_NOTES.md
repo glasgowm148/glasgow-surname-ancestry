@@ -39,3 +39,7 @@ S0 is the supplied original Y-DNA page; S9 is the supplied timeline. The story c
 The reading layout uses larger paragraphs, a restrained light default, an available dark theme, local chapter navigation and separate specialist navigation. Diagrams have ordinary buttons with visible selected states, explanatory output, keyboard operation and ARIA relationships. Mobile inheritance controls use concise labels so all three choices remain visible.
 
 The browser suite reports 101 passing content/interaction checks and 140 passing responsive cases across seven widths (320–1920 pixels), ten views and both themes. File/URL navigation was blocked by the environment; the HTML was injected unchanged into Chromium. See the test report for the precise scope rather than treating the counts as an evaluation of the historical interpretation.
+
+## Consistency correction — 13 September 2026
+
+Retired contradictory retained-table wording: SAPP reprocesses the same STR observations; c.1750 remains an unvalidated conditional model output. Missing FT6135 entries remain unknown. Reliable ancestral calls in the James M. lines reject simple single-origin/no-reversion inheritance, not every Robert-carrier possibility. FTE32242 historical placement remains conditional on son-line pedigrees and collateral negatives. No observations, dates, matrix values or historical source captures were changed.

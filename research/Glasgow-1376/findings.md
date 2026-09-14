@@ -17,8 +17,7 @@ is also rejected. Glasgow-2682 is a documented father with Isobell Duffe from
 1677 to 1691. The false 1657 birth on this profile supplies no matching identity
 fact, and no record connects the Whitecastle occurrence to the Duffe household.
 
-## Evidence
-
+## Source findings
 | Source | Finding | Assessment |
 |---|---|---|
 | [FamilySearch index X1YD-PRL](https://familysearch.org/ark:/61903/1:1:X1YD-PRL), cited on Glasgow-1376 | The indexed subject is Marione Glesgow; James Glesgow is the parent named in her entry. | Contradicts use of the event as James's own 1657 birth. |

@@ -228,8 +228,7 @@ lower priority than the estate, subsidy, church and probate records. D2003
 proved Larne/Kilwaughter bridge.
 ```
 
-## Sources
-
+## Source findings
 - [Examination of Con O'Sheale, 21 April 1653](https://1641dep.abdn.ac.uk/items/show/42821.html)
 - [Examination of Robert Brown, 27 May 1653](https://1641dep.abdn.ac.uk/items/show/42939.html)
 - [FamilyTreeDNA Glasgow project](https://www.familytreedna.com/public/Glasgow?iframe=ydna-results-overview)

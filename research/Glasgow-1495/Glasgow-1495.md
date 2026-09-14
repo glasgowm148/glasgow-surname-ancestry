@@ -18,15 +18,15 @@ shared surname, minority and Thomas's representation of them make them very
 probably Katherine and Thomas's children, although the surviving wording does
 not explicitly call them son or daughter.
 
-The date of confirmation is not completely settled. The manuscript appears to
-read '''[26?] May 1605''', while both Grant's printed calendar and the
-Findmypast transcript give '''9 May 1605'''.<ref name="KatherineWill" /><ref name="Grant">Francis J. Grant, ed., ''The Commissariot Record of Glasgow:
+Fresh visual review on 10 September 2026 of NRS CC9/7/4, image 7, reads
+'''the nynt day of may 1605''': '''9 May 1605'''. This supersedes the earlier
+'''[26?]''' reading and agrees with Grant's printed calendar and the
+Findmypast transcript.<ref name="KatherineWill" /><ref name="Grant">Francis J. Grant, ed., ''The Commissariot Record of Glasgow:
 Register of Testaments, 1547–1800'' (Edinburgh, 1901), [https://archive.org/details/scottishrecordso07scotuoft/page/196/mode/1up
 p. 196], entry for Katherine Glasgow.</ref><ref name="FMP">Findmypast,
 [https://www.findmypast.co.uk/transcript?id=SCOT%2FWILLS%2F057453&tab=this
 Scotland, Will and Testament Index 1481–1807], Katherine Glasgow,
-SCOT/WILLS/057453, citing the Glasgow Commissary Court register.</ref> May 1605
-is therefore secure, but the day should remain unresolved.
+SCOT/WILLS/057453, citing the Glasgow Commissary Court register.</ref> The confirmation date is therefore 9 May 1605, not a death or marriage date.
 
 == Research Notes ==
 

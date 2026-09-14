@@ -1,0 +1,98 @@
+{
+  "id": "ninian-1613",
+  "title": "Ninian Glasgow, fisher and burgess of Glasgow",
+  "record": "National Records of Scotland, Glasgow Commissary Court, CC9/7/9, images 142-145",
+  "date": "Death January 1613; testament and confirmation proceedings 1613",
+  "reviewed_at": "2026-09-10",
+  "index_confirmation": {
+    "status": "confirmed_by_index",
+    "source": "User-supplied ScotlandsPeople index excerpt",
+    "provenance": "Surname Glasgow/Glasgw; 24 results; supplied 10 September 2026",
+    "indexed_name": "Niniane Glasgw",
+    "indexed_date": "8 May 1613",
+    "indexed_description": "fischer burges of Glasgw",
+    "indexed_record_type": "TT & Inventory",
+    "court": "Glasgow Commissary Court",
+    "reference": "CC9/7/9",
+    "evidential_scope": "Confirms the index entry, exact indexed occupation and date; it is not a death date, visual transcription or profile identity."
+  },
+  "source_files": ["testaments/Glasgow/1613_Niniane.pdf"],
+  "reviewed_pages": [
+    "PDF page 1 / image 142: opening and inventory; preceding estate excluded",
+    "PDF page 2 / image 143: accounts and damaged latter will",
+    "PDF page 3 / image 144: legacies, witnesses and confirmation",
+    "PDF page 4 / image 145: upper administrative continuation; following estate excluded"
+  ],
+  "coverage": "All four originals and the complete supplied entry span were inspected. The damaged lower edge of image 143 and the continuation at the head of image 144 were enlarged together to test the William/support wording. Family clauses, witnesses and the administrative continuation were also checked. This is full coverage with selective transcription, not a diplomatic edition.",
+  "transcription": [
+    {"page": "142, opening", "lines": [
+      "The testament testamentar and Inventar",
+      "of the guidis geir debtis and sowmes of money qlkis",
+      "pertenit to umqle Niniane glasgow fischer burges",
+      "of glasgow the tyme of his deceiss Quha deceist in",
+      "the moneth of Januar [1613]",
+      "[inventory and incoming debts partly unresolved]"
+    ]},
+    {"page": "143, latter will and damaged edge", "lines": [
+      "At glasgow the [day unresolved] day of Januar 1613 zeiris",
+      "The qlk day Niniane glasgow seik in bodie",
+      "And of perfyt memorie [commends] his saull to god and his bodie to be bureit",
+      "Item he nominat and constitut Jonet hutchesoun his spous & Robert",
+      "glasgow his sone his onlie ex[ecutouris]",
+      "[Lower bequest/support wording, including a possible William name, is physically lost and cannot be restored]"
+    ]},
+    {"page": "144, family legacies", "lines": [
+      "and sustein him for the present [term unresolved] and na langer",
+      "Item to Johne glasgw his brother [amount/clothing wording unresolved]",
+      "Item to Marioun glasgw his sister ten merkis",
+      "Item to Elizabet hutchesoun [legacy amount unresolved]",
+      "Item to Robert glasgw his sone ane hundreth pundis money",
+      "[residue, witnesses and confirmation partly unresolved]"
+    ]},
+    {"page": "145, continuation", "lines": [
+      "[administrative continuation naming the estate of Ninian Glasgow]",
+      "the saidis Jonet hutchesoun & Robert glasgow [continuation unresolved]",
+      "[caution and closing formula unresolved]",
+      "[following estate excluded]"
+    ]}
+  ],
+  "plain_english": [
+    "Ninian Glasgow was a fisher and burgess of Glasgow who died in January 1613.",
+    "Jonet Hutchesoun is expressly his spouse and Robert Glasgow expressly his son; both are named as his only executors. The kin terms, not executorship, prove those two relationships.",
+    "John Glasgow is expressly Ninian's brother and Marioun Glasgow expressly his sister. Robert is again called son and left one hundred pounds.",
+    "The damaged lower edge contains a possible William name followed by continuation wording about sustaining him, but the missing leaf prevents recovery of the relationship. It cannot make William another son.",
+    "Elizabeth Hutchesoun receives a legacy without a stated relationship. Witness and caution names remain too incomplete to support additional family reconstruction."
+  ],
+  "findings": [
+    "Confirmed: fisher, burgess of Glasgow and death in January 1613.",
+    "Confirmed: Jonet Hutchesoun spouse and Robert Glasgow son; both only executors.",
+    "Confirmed: John Glasgow brother, Marioun Glasgow sister and Robert Glasgow son in parallel legacy clauses.",
+    "Confirmed: Marioun's legacy is ten merks and Robert's is one hundred pounds.",
+    "Unresolved after direct edge-to-continuation reread: William's name/role and the person to be sustained cannot be linked securely because the decisive words are physically missing.",
+    "Confirmed: Elizabeth Hutchesoun is a legatee only; no kin term is visible.",
+    "Excluded: the record does not identify brother John as Glasgow-1030."
+  ],
+  "changes_from_previous": [
+    "Old: the damaged William/support clause was unresolved. New: inspection across the torn edge and next-page continuation confirms the loss is physical; no relationship can responsibly be recovered.",
+    "Old: spouse, son, brother and sister readings were maintained. New: all four are confirmed unchanged from the ink.",
+    "Old: Elizabeth Hutchesoun's relationship was unstated. New: confirmed unchanged; legacy does not establish kinship.",
+    "No walkthrough text or geometry changed because the damaged-William conclusion remains the same."
+  ],
+  "unresolved": [
+    "William's complete name, bequest/support role and relationship, if any.",
+    "Identity of brother John and whether the siblings were full or half siblings.",
+    "Elizabeth Hutchesoun's relationship.",
+    "Several account parties, witness names, exact testament day and confirmation/caution formula."
+  ],
+  "profiles": [["Glasgow-3188", "Ninian Glasgow"], ["Hutcheson-1774", "Jonet Hutchesoun, named spouse"], ["Glasgow-1027", "Robert Glasgow, named son"], ["Glasgow-3062", "Marioun Glasgow, named sister"], ["Glasgow-1030", "John Glasgow: excluded as a proved identity for the brother"], ["Glasgow-3075", "William Glasgow: possible name in damaged passage, no proved relationship"]],
+  "confidence_statement": "High for occupation, spouse, son, brother, sister and stated legacies. High that the damaged text cannot establish William as a child. Low for William's role, several account/witness names and administrative wording. No relationship is inferred from executorship, legacy or surname alone.",
+  "reviewer": "LLM-assisted fresh visual reread from original images",
+  "provenance": {
+    "source_type": "original commissary-register images in supplied PDF",
+    "inspection_method": "full-page 250 DPI renders plus enlarged inspection of all family clauses, torn edge, continuation and administrative text; temporary contrast enhancement used only as a reading aid",
+    "comparison_order": "ink inspected before the maintained 2026-09-09 review was compared",
+    "previous_review": "research/transcriptions/originals-2026-09-09/ninian-1613.json",
+    "walkthrough": "research/transcriptions/walkthroughs/ninian-1613.json",
+    "limitations": "The lower leaf is physically missing across the relevant William/support clause."
+  }
+}

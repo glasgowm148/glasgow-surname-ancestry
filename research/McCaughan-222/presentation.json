@@ -1,0 +1,53 @@
+{
+  "resolution_state": "resolved",
+  "assessment_date": "2026-09-13",
+  "opening": "Mary (also Molly; surname recorded as McAughin and McAughern) is the documented wife of Alexander Glasgow. Three Rasharkin baptisms name the couple as parents, and the 1851 Lisnagaver census records them as husband and wife. Her death at Gortahar on 17 February 1892 is a separate high-confidence identification through daughter Mary Elder. The previously maintained 27 February date was a transcription error and is superseded.",
+  "name_variants": [
+    "Mary McAughin",
+    "Molly McAughern",
+    "Mary McCaughan"
+  ],
+  "position": {
+    "answer": "Mary, also recorded as Molly and under the surname spellings McAughin and McAughern, is the documented wife of Alexander Glasgow. Their relationship is established by repeated baptism entries and the 1851 household; the later death identification is assessed separately.",
+    "points": []
+  },
+  "record_rows": [],
+  "evidence_questions": [
+    {
+      "id": "identity",
+      "title": "Why is the Gortahar death identified with Mary McCaughan?",
+      "answer": "The maintained family assessment supports this identification at high confidence through daughter Mary Elder, rather than treating it as an untested same-name match.",
+      "records": [
+        "death-mary-1892",
+        "marriage-mary-1871"
+      ],
+      "reasoning": "The death informant is explicitly the deceased's daughter Mary Elder. Mary Glasgow's 1871 marriage gives Lisnagaver residence, husband Robert Elder and father Alexander Glasgow, farmer. Elder's later succession to Alexander's lot 25 supports that family identification. Together with the baptism and household reconstruction, this bridges the older Mary to the Lisnagaver family. It does not depend on proving the separate proposed 1901–1911 Elder household continuation.",
+      "limitation": "The death return supplies neither a maiden surname nor a named husband. Its reported age of 89 implies about 1802–1803, unlike the profile's c.1811 estimate. These limits qualify the identity inference; they do not make the recorded day approximate.",
+      "missing": "A record reconciling Mary's age or expressly naming her maiden surname would strengthen the identification; a marriage certificate is not a prerequisite for the existing combined-record assessment."
+    }
+  ],
+  "record_evidence": {
+    "identity": {
+      "death-mary-1892": {
+        "recorded_statement": "Entry 234 records Mary Glasgow, widow, housewife, aged 89, dying at Gortahar on 17 February 1892; daughter Mary Elder was present. The earlier maintained 27 February date was a transcription error.",
+        "relevance": "The named daughter supplies the family bridge used by the maintained high-confidence identification, not just a shared surname and locality.",
+        "limitation": "No maiden surname or husband is named, and the reported age differs from the profile birth estimate."
+      },
+      "marriage-mary-1871": {
+        "recorded_statement": "On 14 June 1871 Mary Glasgow, 28, of Lisnagaver, married Robert Elder and named Alexander Glasgow, farmer, as her father.",
+        "relevance": "It identifies the Glasgow-to-Elder daughter whose presence at the older Mary's death connects Gortahar to Alexander's Lisnagaver family.",
+        "limitation": "The bride's mother is not named; the marriage supports the identity bridge but is not direct proof of the deceased's maiden surname."
+      }
+    }
+  },
+  "family_reasons": {
+    "Glasgow-951": "Three Rasharkin baptisms repeatedly name Alex with Mary or Molly McAughin/McAughern as parents, and the 1851 return records Alexander and Mary as husband and wife at Lisnagaver.",
+    "Glasgow-973": "Entry 203 names Molly McAughern as mother of James, born 9 October 1843; the 1851 household records Mary with James aged seven. His proposed Michigan identity is a separate question."
+  },
+  "family_sources": {
+    "Glasgow-951": ["baptism-james-1837", "baptism-unnamed-1838", "baptism-james-1843", "census-1851"],
+    "Glasgow-973": ["baptism-james-1843", "census-1851"]
+  },
+  "deliberate_exclusions": [],
+  "vital_assessment_id": "mary-mccaughan-222-death-identification"
+}

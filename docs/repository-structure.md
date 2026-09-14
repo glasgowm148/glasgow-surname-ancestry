@@ -2,7 +2,8 @@
 
 | Path | Purpose |
 | --- | --- |
-| `src/` | Reusable WikiTree export and surname-index code |
+| `genealogy.toml` | Glasgow overlay for the reusable toolkit: branding, adapters, paths and privacy policy |
+| `src/` | Glasgow WikiTree export and surname-index integration code; generic models live in the sibling toolkit |
 | `tools/` | Map builds, data synchronization and focused research utilities |
 | `tests/` | Offline unit tests and the Chromium map regression test |
 | `data/exports/one-tree/` | Source One-Tree JSON snapshots |
@@ -20,3 +21,14 @@
 The repository root intentionally contains only entry-point documentation,
 environment files and these top-level project directories. Generated exports
 belong under `artifacts/`; durable input snapshots belong under `data/`.
+
+## Toolkit boundary
+
+`../genealogy-research-workbench` is an ordinary sibling repository during
+development, installed with `requirements/toolkit-local.txt`. It supplies the
+platform-neutral genealogy package and CLI; this repository supplies the Glasgow
+research configuration, source policies, surname rules, research cases and website.
+Published installs replace the editable path with the versioned dependency in
+`pyproject.toml`. Neither arrangement changes the established Glasgow command paths
+or authorizes a catalogue rebuild. Restricted people, licensed sources, raw captures
+and raw DNA remain excluded from public toolkit exports.

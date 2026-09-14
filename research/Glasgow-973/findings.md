@@ -1,14 +1,16 @@
 # Findings: [James Glasgow (Glasgow-973)](https://www.wikitree.com/wiki/Glasgow-973)
 
-Last updated: 2026-09-05
+Last updated: 2026-09-13
 
 ## Current conclusion
 
 The Rasharkin transcription identifies this second James as born 9 October
-1843 at Lisnagaver and baptised 7 January 1844, a child of Alexander and Mary.
-His presence aged seven in their 1851 household strongly confirms the
-relationship. An earlier James was born in 1837 and probably died before the
-name was reused; the incomplete 1838 baptism entry must not be assigned a name.
+1843 at Lisnagaver and baptised 7 January 1844, a child of Alexander and Mary
+(recorded as Alex and Molly McAughern). His presence aged seven in their 1851
+household confirms the same family. The parent-child relationships are therefore
+**documented**, not merely strongly supported. An earlier James was born in 1837
+and probably died before the name was reused; the incomplete 1838 baptism entry
+must not be assigned a name.
 
 The James Glasgow buried at Brookside Cemetery, Tecumseh, Michigan, is now a
 **strong but unproved identity candidate** for Alexander's son. He was born in
@@ -18,13 +20,20 @@ father James Glasgow was born in **County Antrim, Ireland**. That is a much
 narrower match than the profile's former Find a Grave lead: Alexander's proved
 son was born at Lisnagaver, County Antrim, on 9 October 1843.
 
-The identity is not yet proved. No inspected American record names James's
+Only the later Michigan identity is not yet proved. No inspected American record names James's
 parents, gives his exact birth date, or mentions Lisnagaver, Rasharkin,
 Alexander Glasgow or Mary McCaughan. The newly assembled 1869 marriage and
 1870/1880 census indexes extend the Michigan household but do not provide that
 bridge. The **original 1869 marriage return**, naturalisation papers or a
 passenger record remain the best prospects before merging the Michigan man
 into the Irish biography as fact.
+
+A derivative descendant report says letters in Hugh Craig's Civil War pension
+file mention work with or for a James Glasgow at the depot. That is compatible
+with the Tecumseh baggage master, but the letters and complete pension file have
+not been inspected and the report does not identify James's parents. It is a
+targeted collateral lead, not additional proof that the Michigan man was
+Alexander's son.
 
 A separate James Glasgow really did occupy a small house and garden at
 **Dromore, Rasharkin parish**. The original valuation-revision books carry him
@@ -44,6 +53,7 @@ has no American record naming Alexander, Mary, Gortereagh or County Antrim.
 
 | Source | Finding | Assessment |
 | --- | --- | --- |
+| [*Descendants of Peter Morton*, derivative report](https://genealogygirl.wordpress.com/wp-content/uploads/2015/04/peter-morton-descendant-report.pdf), PDF p. 25 | In a passage attributed to letters in Hugh Craig's pension file, the compiler says Craig worked with or for James Glasgow at the depot. | Compatible with the documented Tecumseh depot occupation, but the underlying letters and complete pension file have not been inspected and the James is not independently identified. |
 | [1884 Michigan state census, Tecumseh](sources/michigan_state_census_1884_james_glasgow.png) ([official image](https://michigan.access.preservica.com/uncategorized/IO_eb4d3f94-3c2f-4701-b5bb-c3ecee9ef9b9/)) | James Glasgow, 40, baggage agent, born Ireland of Irish-born parents, appears with wife Mary and Michigan-born daughters Minnie, Maggie and Bertha. He reported 18 years' residence in Michigan, implying arrival about 1866. | Original census evidence ties the full cemetery family into one household and independently supports James's approximate 1843-44 birth. It still does not name his parents or county. |
 | [Brookside cemetery register, manuscript p. 66](sources/brookside_register_glassgow_plot_page_66.pdf) and [alphabetical index](sources/brookside_index_glassgow_entries_page_39.pdf) | One family plot contains James Glasgow (1843-1896), Mary B. (Baird) Glasgow (1837-1915), daughters Minnie J. (died 26 July 1870 aged seven months), Margaret L. (1874-1961), and Gertrude Bertha (1876-1884). | Direct cemetery evidence for the Michigan household and James's birth year; it does not give parents or birthplace. |
 | [Michigan GENDIS death index](https://vitalstats.michigan.gov/osr/gendisx/scripts/individual.asp?UniqueID=1896007182) | The only statewide indexed James Glasgow death in 1896 occurred **30 July 1896**. Birthplace is Ireland; age, parents and county were not transcribed. Ledger p. 155, record 4706. | Strong date/place-of-origin evidence, but insufficient alone to identify Alexander's son. |
@@ -90,6 +100,19 @@ substitute for evidence naming James's parents, exact birthplace, or migration.
   pending a parent-level or exact-birth-date link.
 
 ## Searches completed and remaining gaps
+
+- A [derivative Peter Morton descendant report](https://genealogygirl.wordpress.com/wp-content/uploads/2015/04/peter-morton-descendant-report.pdf)
+  says that letters in Hugh Craig's pension file record that Craig “worked
+  with/for James Glasgow at the depot.”
+  This is compatible with the documented Tecumseh baggage master, but neither
+  the letters nor the complete pension file have been inspected and the report
+  does not identify James's parents. It therefore remains a targeted collateral
+  lead, not added weight for the Ireland-to-Michigan identity.
+- Obtain Hugh Craig's **complete** federal pension application file through
+  [NARA/NATF 85](https://www.archives.gov/veterans/military-service-records/pre-ww-1-records),
+  including the widow file and correspondence. The small
+  eight-document military pension packet is not an adequate substitute for a
+  reference reportedly found in letters.
 
 - The Tecumseh District Library's digitised cemetery index and register were
   inspected, not merely their web snippets.

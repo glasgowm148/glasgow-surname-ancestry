@@ -1,0 +1,446 @@
+{
+  "scope": [
+    "john-lanark-1650",
+    "john-lanark-1662",
+    "archibald-1662",
+    "william-1673",
+    "quothquan-1685"
+  ],
+  "summary": "Five canonical testament cases were reread from every supplied original page. William-lanark-1673 is a duplicate alias of william-1673, not a sixth case. The strongest direct family evidence is Bessie Glasgow as the 1650 John's sister and Agnes Watson plus the three lawful sons of the 1662 Leith maltman. The genuinely new correction is Alexander Broun, not George Broun, as William Glasgow's 1673 co-executor. Thomas Glasgow in the 1662 John entry remains a named administrator-context participant without proved sonship. Jonet [Kinnie?] remains the probable widow's name in 1685.",
+  "findings": [
+    {
+      "case_id": "john-lanark-1650",
+      "location": "image 66, confirmation",
+      "previous": "Bessie Glasgow, executor dative; sister reading already maintained",
+      "reading": "Bessie Glasgow in Quodquen, executrix dative to the late John Glasgow, 'hir brother'",
+      "status": "confirmed",
+      "basis": "The names, office, and kin word are directly legible across the line break.",
+      "relationship_effect": "Directly proves Bessie was John's sister; executor status is independent of the kin term.",
+      "source_files": [
+        "testaments/ScotlandsPeople_CC001400005-00005-00066-.jpg"
+      ]
+    },
+    {
+      "case_id": "john-lanark-1650",
+      "location": "image 66, confirmation opening",
+      "previous": "James Carmichael named in official formula",
+      "reading": "Maister James Carmichaell, commissar of Lanark",
+      "status": "confirmed",
+      "basis": "Name and title are legible at the start of John's confirmation.",
+      "relationship_effect": "Official only; no kinship.",
+      "source_files": [
+        "testaments/ScotlandsPeople_CC001400005-00005-00066-.jpg"
+      ]
+    },
+    {
+      "case_id": "john-lanark-1650",
+      "location": "image 66, security and closing clauses",
+      "previous": "Cautioner and procurator names unread",
+      "reading": "[cautioner name illegible]; [closing procurator name illegible]",
+      "status": "unresolved",
+      "basis": "The damaged/tightly written names do not support complete letterforms.",
+      "relationship_effect": "No family connection may be drawn from the offices.",
+      "source_files": [
+        "testaments/ScotlandsPeople_CC001400005-00005-00066-.jpg"
+      ]
+    },
+    {
+      "case_id": "john-lanark-1650",
+      "location": "image 66",
+      "previous": "Quodquen maintained as locality",
+      "reading": "John Glasgow and Bessie Glasgow in Quodquen (Quothquan)",
+      "status": "confirmed",
+      "basis": "The place follows each record subject in the confirmation.",
+      "relationship_effect": "Places the proved siblings together but does not merge them with later same-name residents.",
+      "source_files": [
+        "testaments/ScotlandsPeople_CC001400005-00005-00066-.jpg"
+      ]
+    },
+    {
+      "case_id": "john-lanark-1662",
+      "location": "image 138, opening",
+      "previous": "Giver-up/executor name wholly unresolved",
+      "reading": "Thomas Glasgow [descriptor unresolved], in the giver-up/executor-dative context",
+      "status": "probable",
+      "basis": "Thomas Glasgow can be followed in the enlarged ink; the following words and exact capacity cannot.",
+      "relationship_effect": "Adds a named associate/administrator-context person, not a proved son.",
+      "source_files": [
+        "testaments/ScotlandsPeople_CC001400005-00006-00138-.jpg"
+      ]
+    },
+    {
+      "case_id": "john-lanark-1662",
+      "location": "images 138-139, page-break confirmation",
+      "previous": "Earlier proposed 'lawfull sone' rejected",
+      "reading": "Descriptor after Thomas and the grammatical connection around John Glasgow remain unreadable; 'lawfull sone' excluded",
+      "status": "excluded",
+      "basis": "Neither the required letter sequence nor an unambiguous subject survives across the crowded continuation.",
+      "relationship_effect": "No parent-child edge is supported.",
+      "source_files": [
+        "testaments/ScotlandsPeople_CC001400005-00006-00138-.jpg",
+        "testaments/ScotlandsPeople_CC001400005-00006-00139-.jpg"
+      ]
+    },
+    {
+      "case_id": "john-lanark-1662",
+      "location": "image 138, opening",
+      "previous": "Quodquen, Libberton, Lanark maintained",
+      "reading": "John Glasgow in Quodquen, within Libberton parish and the sheriffdom of Lanark",
+      "status": "confirmed",
+      "basis": "Name and geographic hierarchy are legible in the testament heading.",
+      "relationship_effect": "Defines this John geographically but does not identify him with the 1650 or 1685 John.",
+      "source_files": [
+        "testaments/ScotlandsPeople_CC001400005-00006-00138-.jpg"
+      ]
+    },
+    {
+      "case_id": "john-lanark-1662",
+      "location": "image 138, confirmation",
+      "previous": "James Hamilton identified as commissary",
+      "reading": "James Hamiltoun, commissar of Lanark",
+      "status": "confirmed",
+      "basis": "Name and office are legible in the confirmation formula.",
+      "relationship_effect": "Official only; no kinship.",
+      "source_files": [
+        "testaments/ScotlandsPeople_CC001400005-00006-00138-.jpg"
+      ]
+    },
+    {
+      "case_id": "john-lanark-1662",
+      "location": "images 138-139, inventory/security",
+      "previous": "Most goods, account names, and caution remained unread",
+      "reading": "[debtors, creditors, cautioner, and closing names illegible]",
+      "status": "unresolved",
+      "basis": "Fading, show-through, and compressed writing prevent defensible names.",
+      "relationship_effect": "No additional family member can be placed.",
+      "source_files": [
+        "testaments/ScotlandsPeople_CC001400005-00006-00138-.jpg",
+        "testaments/ScotlandsPeople_CC001400005-00006-00139-.jpg"
+      ]
+    },
+    {
+      "case_id": "archibald-1662",
+      "location": "image 689, opening",
+      "previous": "Agnes Watson read as widow/tutor",
+      "reading": "Agnes Watsone, his relict spous and tutrix testamentar",
+      "status": "confirmed",
+      "basis": "Name, spouse term, and office are explicit.",
+      "relationship_effect": "Directly proves Agnes was Archibald's surviving wife; tutorship is a separate legal role.",
+      "source_files": [
+        "testaments/Edinburgh/1662_Archibald.pdf"
+      ]
+    },
+    {
+      "case_id": "archibald-1662",
+      "location": "images 689 and 691, child/executor clauses",
+      "previous": "Archibald, George, William read as lawful sons and executors",
+      "reading": "Archibald, George and Williame Glasgowes, minor lawful sons and sole executors",
+      "status": "confirmed",
+      "basis": "The three-name group and plural 'my lawfull sones' recur in the will.",
+      "relationship_effect": "Directly proves all three sons and their estate office.",
+      "source_files": [
+        "testaments/Edinburgh/1662_Archibald.pdf"
+      ]
+    },
+    {
+      "case_id": "archibald-1662",
+      "location": "image 692, oversight clause",
+      "previous": "Captain George Cocke and Thomas Glasgow read as overseers",
+      "reading": "Captain George Cocke, burgess in Edinburgh, and Thomas Glasgow, weaver in Edinburgh, as overseers",
+      "status": "confirmed",
+      "basis": "Names, designations, and plural role are legible.",
+      "relationship_effect": "Neither overseer is stated to be kin; Thomas remains an associate/possible relative only.",
+      "source_files": [
+        "testaments/Edinburgh/1662_Archibald.pdf"
+      ]
+    },
+    {
+      "case_id": "archibald-1662",
+      "location": "images 692-693, writing and caution",
+      "previous": "Thomas Glasgow also writer and named in caution procedure",
+      "reading": "Thomas Glasgow, weaver in Edinburgh, wrote the will and appears in the caution/confirmation procedure",
+      "status": "confirmed",
+      "basis": "The name and occupation recur in the closing and court text.",
+      "relationship_effect": "Repeated legal involvement does not prove brotherhood or another family relationship.",
+      "source_files": [
+        "testaments/Edinburgh/1662_Archibald.pdf"
+      ]
+    },
+    {
+      "case_id": "archibald-1662",
+      "location": "image 693, witness clause",
+      "previous": "Walter Roddie and Robert Stewart read as witnesses",
+      "reading": "Walter Roddie, indweller in Edinburgh, and Robert Stewart, stabler in Leith, witnesses",
+      "status": "confirmed",
+      "basis": "Names, places/occupations, and witness subscriptions are legible.",
+      "relationship_effect": "Witnesses only; no kinship.",
+      "source_files": [
+        "testaments/Edinburgh/1662_Archibald.pdf"
+      ]
+    },
+    {
+      "case_id": "archibald-1662",
+      "location": "image 693, confirmation",
+      "previous": "Sir John Nisbet in official formula",
+      "reading": "Sir John Nisbet [commission/confirmation title formula]",
+      "status": "confirmed",
+      "basis": "The personal name is legible; the complete title formula was not expanded from expectation.",
+      "relationship_effect": "Court official only.",
+      "source_files": [
+        "testaments/Edinburgh/1662_Archibald.pdf"
+      ]
+    },
+    {
+      "case_id": "archibald-1662",
+      "location": "image 690, debts owed to the deceased",
+      "previous": "John Greig, William Couper, John Watson among debtors",
+      "reading": "Jon Greig in Northleith; Williame Couper in Leith; Jon Watsone [and further names unresolved]",
+      "status": "confirmed",
+      "basis": "These names and the first two localities are legible in the account.",
+      "relationship_effect": "Account relationships only; no kinship.",
+      "source_files": [
+        "testaments/Edinburgh/1662_Archibald.pdf"
+      ]
+    },
+    {
+      "case_id": "archibald-1662",
+      "location": "images 690-691, debts owed by the deceased",
+      "previous": "Robert Cunningham, William Paterson, William Glasgow, James Nisbet read",
+      "reading": "Robert Cunynghame, maltman in Leith; Williame Patersone; Williame Glasgow, weiber in Leith; James Nisbit, apothecar",
+      "status": "confirmed",
+      "basis": "Names and stated occupations/localities are legible across the account.",
+      "relationship_effect": "William Glasgow is a creditor, not a stated brother or son; all remain non-kin account parties unless separately proved.",
+      "source_files": [
+        "testaments/Edinburgh/1662_Archibald.pdf"
+      ]
+    },
+    {
+      "case_id": "archibald-1662",
+      "location": "image 691, servants' wages",
+      "previous": "Agnes surname unresolved; Jonet Dickson tentative",
+      "reading": "Agnes [surname illegible]; Jonet Dick[sone?]",
+      "status": "unresolved",
+      "basis": "Forenames and wage context are visible, but surname letterforms are incomplete/crowded.",
+      "relationship_effect": "Servants, not family members on present evidence.",
+      "source_files": [
+        "testaments/Edinburgh/1662_Archibald.pdf"
+      ]
+    },
+    {
+      "case_id": "archibald-1662",
+      "location": "images 689-693, identity designation",
+      "previous": "Associated with Glasgow-3078",
+      "reading": "Archibald Glasgow, maltman and indweller in Leith",
+      "status": "confirmed",
+      "basis": "The designation is explicit in the testament opening and will.",
+      "relationship_effect": "Defines the 1662 household, but identity with Glasgow-3078 remains qualified because the securely documented 1639/1647 man was a Leith shoemaker.",
+      "source_files": [
+        "testaments/Edinburgh/1662_Archibald.pdf"
+      ]
+    },
+    {
+      "case_id": "william-1673",
+      "location": "images 25-26, executor and appearance clauses",
+      "previous": "George Broun",
+      "reading": "Alexr Broun (Alexander Brown), executor dative",
+      "status": "confirmed",
+      "basis": "The abbreviated forename repeats with the same letterforms on two pages and reads Alexr, not George.",
+      "relationship_effect": "Genuinely new correction to an administrator's identity; no kinship to William Glasgow is stated.",
+      "source_files": [
+        "testaments/Edinburgh/1673_William.pdf",
+        "testaments/ScotlandsPeople_CC001400005-00009-00024-.pdf"
+      ]
+    },
+    {
+      "case_id": "william-1673",
+      "location": "images 25-26, executor and appearance clauses",
+      "previous": "Jon Neilsone read as co-administrator",
+      "reading": "Jon Neilsone (John Neilson), executor dative",
+      "status": "confirmed",
+      "basis": "The name and plural executor wording repeat in the confirmation and personal-appearance clause.",
+      "relationship_effect": "Administrator only; no family term.",
+      "source_files": [
+        "testaments/Edinburgh/1673_William.pdf",
+        "testaments/ScotlandsPeople_CC001400005-00009-00024-.pdf"
+      ]
+    },
+    {
+      "case_id": "william-1673",
+      "location": "image 26, security clause",
+      "previous": "William Neilson in Biggar read as cautioner",
+      "reading": "Williame Neilsone in Biggar, cautioner",
+      "status": "confirmed",
+      "basis": "Name, locality, and role are legible across adjacent lines.",
+      "relationship_effect": "Surety only; shared surname does not prove relationship to John Neilson.",
+      "source_files": [
+        "testaments/Edinburgh/1673_William.pdf",
+        "testaments/ScotlandsPeople_CC001400005-00009-00024-.pdf"
+      ]
+    },
+    {
+      "case_id": "william-1673",
+      "location": "image 24, opening gutter",
+      "previous": "Quothquan retained from index-based identification",
+      "reading": "Index-confirmed William Glasgow in Quodquen; the manuscript locality is illegible",
+      "status": "confirmed_by_index; manuscript_form_unresolved",
+      "basis": "The user-supplied ScotlandsPeople index excerpt confirms Quodquen; the manuscript place is lost in the obscured right gutter.",
+      "relationship_effect": "The index places William in Quodquen, but neither the index nor the manuscript connects him to another Quodquen family.",
+      "source_files": [
+        "testaments/Edinburgh/1673_William.pdf",
+        "testaments/ScotlandsPeople_CC001400005-00009-00024-.pdf"
+      ]
+    },
+    {
+      "case_id": "william-1673",
+      "location": "image 24, initial appointment formula",
+      "previous": "William [Menzies?] and John [Fleischer?] proposed in procedural text",
+      "reading": "[official/appointment names and capacities illegible]",
+      "status": "unresolved",
+      "basis": "Gutter loss and compressed script prevent safe full names or roles.",
+      "relationship_effect": "No kinship or administrator identity should be built from the tentative readings.",
+      "source_files": [
+        "testaments/Edinburgh/1673_William.pdf",
+        "testaments/ScotlandsPeople_CC001400005-00009-00024-.pdf"
+      ]
+    },
+    {
+      "case_id": "william-1673",
+      "location": "image 25, debt/account clauses",
+      "previous": "Several account-party names unresolved",
+      "reading": "[creditor/account names illegible]",
+      "status": "unresolved",
+      "basis": "The surviving strokes do not support complete personal names.",
+      "relationship_effect": "No additional associate or relative can be placed safely.",
+      "source_files": [
+        "testaments/Edinburgh/1673_William.pdf",
+        "testaments/ScotlandsPeople_CC001400005-00009-00024-.pdf"
+      ]
+    },
+    {
+      "case_id": "william-1673",
+      "location": "images 24-26, duplicate provenance",
+      "previous": "william-lanark-1673 stored as a separate short review",
+      "reading": "Same CC14/5/9 images 24-26 as william-1673",
+      "status": "excluded",
+      "basis": "Archive reference, image span, and content are identical.",
+      "relationship_effect": "Do not double-count the person, record, or evidence.",
+      "source_files": [
+        "testaments/Edinburgh/1673_William.pdf",
+        "testaments/ScotlandsPeople_CC001400005-00009-00024-.pdf"
+      ]
+    },
+    {
+      "case_id": "quothquan-1685",
+      "location": "image 67, opening",
+      "previous": "John Glasgow in Quothquan, Libberton; February 1685 intestate death",
+      "reading": "John Glasgow in Quothquan within Libberton parish and Lanark presbytery; died intestate in February 1685",
+      "status": "confirmed",
+      "basis": "Name, localities, intestacy, month, and year are legible despite show-through.",
+      "relationship_effect": "Defines this 1685 John but does not merge him with the 1650 or 1661/1662 Johns.",
+      "source_files": [
+        "testaments/Glasgow/Lanark/1685_John_Lanark.pdf"
+      ]
+    },
+    {
+      "case_id": "quothquan-1685",
+      "location": "images 67-68, widow/executor clauses",
+      "previous": "Jonet [Kinnie?], relict and executrix dative",
+      "reading": "Jonet [Kinnie?], relict and executrix dative",
+      "status": "probable",
+      "basis": "Jonet and both roles are clear; crossing ink and compressed minims leave the surname short of confirmation.",
+      "relationship_effect": "Directly proves widowhood and estate office; does not prove the surname spelling beyond probable Kinnie.",
+      "source_files": [
+        "testaments/Glasgow/Lanark/1685_John_Lanark.pdf"
+      ]
+    },
+    {
+      "case_id": "quothquan-1685",
+      "location": "image 67, fiscal request",
+      "previous": "William Wilkie read as procurator fiscal",
+      "reading": "William Wilkie, procurator fiscall of this court",
+      "status": "confirmed",
+      "basis": "Name and office are legible in the large request clause.",
+      "relationship_effect": "Court officer only; no kinship.",
+      "source_files": [
+        "testaments/Glasgow/Lanark/1685_John_Lanark.pdf"
+      ]
+    },
+    {
+      "case_id": "quothquan-1685",
+      "location": "image 68, court opening",
+      "previous": "Commissary present but not emphasized in the audit",
+      "reading": "John Wyllie of [place unresolved], Commissar of Lanark",
+      "status": "confirmed",
+      "basis": "Name and office are readable; the intervening place is not.",
+      "relationship_effect": "Court officer only; no kinship.",
+      "source_files": [
+        "testaments/Glasgow/Lanark/1685_John_Lanark.pdf"
+      ]
+    },
+    {
+      "case_id": "quothquan-1685",
+      "location": "image 68, caution clause",
+      "previous": "William Watson with unread place, cautioner",
+      "reading": "William Watson in [place unresolved], cautioner",
+      "status": "confirmed",
+      "basis": "Name and cautioner role are legible; place designation is crossed/unclear.",
+      "relationship_effect": "Surety only; no kinship.",
+      "source_files": [
+        "testaments/Glasgow/Lanark/1685_John_Lanark.pdf"
+      ]
+    },
+    {
+      "case_id": "quothquan-1685",
+      "location": "image 68, following entry",
+      "previous": "Morgan testament excluded",
+      "reading": "Morgan [surname unresolved], subject of a separate following testament",
+      "status": "excluded",
+      "basis": "A new testament heading begins below the end of John's entry.",
+      "relationship_effect": "Must not be merged into John's household or estate.",
+      "source_files": [
+        "testaments/Glasgow/Lanark/1685_John_Lanark.pdf"
+      ]
+    },
+    {
+      "case_id": "john-lanark-1650",
+      "location": "image 65 opening and image 66 account continuation",
+      "previous": "Superseded availability claim: opening image 65 absent; upper image 66 excluded as another entry",
+      "reading": "Both images 65-66 are supplied. The opening names Bessie Glasgow as his lawfull sister; John's debts continue at the top of image 66.",
+      "status": "confirmed",
+      "basis": "Visual inspection of both complete photographs in the nested PDF, the opening crop and the separate image 66. The record begins below a preceding entry on image 65, not at the confirmation on image 66.",
+      "relationship_effect": "The opening and confirmation state the same sibling relationship within one testament. No extra generation or identity with another John is inferred.",
+      "source_files": [
+        "testaments/Glasgow/Lanark/1650_John/1650_Glasgow.pdf",
+        "testaments/Glasgow/Lanark/1650_John/1650_John_p1.png",
+        "testaments/ScotlandsPeople_CC001400005-00005-00066-.jpg"
+      ]
+    }
+  ],
+  "unresolved": [
+    "1650: full transcription of supplied opening image 65 and the continuing accounts; cautioner/procurator names remain unresolved",
+    "1662 John: death month, Thomas Glasgow's descriptor/exact capacity, account names, and any kinship",
+    "1662 Archibald: servant surnames, remaining account names/sums, exact will day, Thomas/William Glasgow kinship, and the maltman-versus-shoemaker identity seam",
+    "1673 William: index confirms Quodquen; manuscript locality strokes/death wording, initial procedural names, account parties, and all family relationships remain unresolved",
+    "1685 John: Jonet's surname, John Wyllie's and William Watson's place designations, damaged financial detail, and any child/parent bridge"
+  ],
+  "connections": [
+    "1650 directly proves John Glasgow and Bessie Glasgow were siblings at Quothquan.",
+    "1662 Archibald directly proves a Leith maltman household: wife Agnes Watson and lawful sons Archibald, George, and William Glasgow.",
+    "The 1662 maltman may be associated with Glasgow-3078, but the testament does not bridge him to the independently documented Leith shoemaker; keep the occupation conflict visible.",
+    "The 1662 John names Thomas Glasgow in an administrative context but does not prove Thomas was his son.",
+    "The 1673 record supplies administrators Alexander Brown and John Neilson and cautioner William Neilson, not relatives of William Glasgow on the visible wording.",
+    "The 1685 record proves Jonet was John's widow; William Wilkie, John Wyllie, and William Watson are officials/surety, not kin.",
+    "The 1650, 1661/1662, and 1685 Johns are three separate record-defined Quothquan people until a separate source proves identity or descent."
+  ],
+  "sources": [
+    "testaments/ScotlandsPeople_CC001400005-00005-00066-.jpg",
+    "testaments/ScotlandsPeople_CC001400005-00006-00138-.jpg",
+    "testaments/ScotlandsPeople_CC001400005-00006-00139-.jpg",
+    "testaments/Edinburgh/1662_Archibald.pdf",
+    "testaments/Edinburgh/1673_William.pdf",
+    "testaments/ScotlandsPeople_CC001400005-00009-00024-.pdf",
+    "testaments/Glasgow/Lanark/1685_John_Lanark.pdf",
+    "testaments/Glasgow/Lanark/1650_John/1650_Glasgow.pdf",
+    "testaments/Glasgow/Lanark/1650_John/1650_John_p1.png"
+  ]
+}

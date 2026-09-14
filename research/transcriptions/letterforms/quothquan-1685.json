@@ -1,0 +1,707 @@
+{
+  "id": "quothquan-1685",
+  "review": {
+    "date": "2026-09-10",
+    "model": "gpt-6-astra",
+    "reasoning_effort": "xhigh",
+    "method": "Original-image review and source-pixel focus envelopes. Shared presentation expanded from the compact vision handoff; literal abbreviations, crossing ink and uncertainty retained."
+  },
+  "studies": [
+    {
+      "id": "john-glasgow-identity",
+      "title": "John Glasgow",
+      "nav_label": "John Glasgow",
+      "image": "/assets/research/testament-crops/quothquan-1685-identity.jpg",
+      "image_width": 1900,
+      "image_height": 900,
+      "region": [
+        746,
+        234,
+        366,
+        117
+      ],
+      "reading": "John Glasgow",
+      "expansion": "John Glasgow",
+      "confidence": "High for maintained name",
+      "context": "Read the body occurrence after umqle, keeping the bold heading distinct.",
+      "review_status": "source-aligned",
+      "locator_note": "Read the body occurrence after umqle, keeping the bold heading distinct. The following Quothquan/Libberton context locates the record; it does not prove an earlier baptism identity.",
+      "conclusion": "No child, parent or link to the 1608 Mid Calder baptism is supplied.",
+      "letters": [
+        {
+          "id": "john-glasgow-identity-w1-g1",
+          "glyph": "J",
+          "label": "John: J",
+          "region": [
+            746,
+            234,
+            61,
+            112
+          ],
+          "paths": [],
+          "observed": "The long initial begins after the deceased wording in the body, not the marginal title.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "john-glasgow-identity-w1-g2",
+          "glyph": "ohn",
+          "label": "John: ohn",
+          "region": [
+            797,
+            234,
+            101,
+            112
+          ],
+          "paths": [],
+          "observed": "The short connected ending precedes the surname.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "john-glasgow-identity-w2-g1",
+          "glyph": "Glas",
+          "label": "Glasgow: Glas",
+          "region": [
+            887,
+            234,
+            118,
+            117
+          ],
+          "paths": [],
+          "observed": "The wider initial and taller middle forms begin the surname.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "john-glasgow-identity-w2-g2",
+          "glyph": "gow",
+          "label": "Glasgow: gow",
+          "region": [
+            995,
+            234,
+            117,
+            117
+          ],
+          "paths": [],
+          "observed": "The second g and final group end before in and the place.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        }
+      ],
+      "words": [
+        {
+          "text": "John",
+          "region": [
+            746,
+            234,
+            152,
+            112
+          ],
+          "focus_polygon": [
+            [
+              746,
+              270
+            ],
+            [
+              768,
+              244
+            ],
+            [
+              801,
+              234
+            ],
+            [
+              834,
+              243
+            ],
+            [
+              860,
+              250
+            ],
+            [
+              898,
+              249
+            ],
+            [
+              898,
+              329
+            ],
+            [
+              839,
+              335
+            ],
+            [
+              772,
+              346
+            ],
+            [
+              746,
+              321
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "john-glasgow-identity-w1-g1",
+              "start": 0,
+              "end": 1
+            },
+            {
+              "letter_id": "john-glasgow-identity-w1-g2",
+              "start": 1,
+              "end": 4
+            }
+          ]
+        },
+        {
+          "text": "Glasgow",
+          "region": [
+            887,
+            234,
+            225,
+            117
+          ],
+          "focus_polygon": [
+            [
+              887,
+              234
+            ],
+            [
+              1112,
+              234
+            ],
+            [
+              1112,
+              351
+            ],
+            [
+              887,
+              351
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "john-glasgow-identity-w2-g1",
+              "start": 0,
+              "end": 4
+            },
+            {
+              "letter_id": "john-glasgow-identity-w2-g2",
+              "start": 4,
+              "end": 7
+            }
+          ]
+        }
+      ],
+      "reading_steps": [
+        {
+          "title": "Inspect John",
+          "region": [
+            746,
+            234,
+            152,
+            112
+          ],
+          "text": "The long initial begins after the deceased wording in the body, not the marginal title. The short connected ending precedes the surname."
+        },
+        {
+          "title": "Inspect Glasgow",
+          "region": [
+            887,
+            234,
+            225,
+            117
+          ],
+          "text": "The wider initial and taller middle forms begin the surname. The second g and final group end before in and the place."
+        },
+        {
+          "title": "Read the word in context",
+          "region": [
+            746,
+            234,
+            366,
+            117
+          ],
+          "text": "Read the body occurrence after umqle, keeping the bold heading distinct."
+        },
+        {
+          "title": "Keep the conclusion within the evidence",
+          "region": [
+            746,
+            234,
+            366,
+            117
+          ],
+          "text": "The following Quothquan/Libberton context locates the record; it does not prove an earlier baptism identity."
+        }
+      ],
+      "same_hand_comparisons": []
+    },
+    {
+      "id": "quothquan-1685-jonet",
+      "title": "Jonet Kinnie?",
+      "nav_label": "Jonet Kinnie?",
+      "image": "/assets/research/testament-crops/quothquan-1685-identity.jpg",
+      "image_width": 1900,
+      "image_height": 900,
+      "region": [
+        518,
+        427,
+        1240,
+        197
+      ],
+      "reading": "Jonet / Kinnie[?]",
+      "expansion": "Jonet [Kinnie?]",
+      "confidence": "Forename maintained; surname uncertain",
+      "context": "Join the end-of-line Jonet to the next-line proposed surname.",
+      "review_status": "source-aligned",
+      "locator_note": "Join the end-of-line Jonet to the next-line proposed surname. Keep Kinnie qualified; do not treat a clear widow role as proof of an uncertain surname.",
+      "conclusion": "Jonet's surname remains uncertain; the record names no child or parent.",
+      "letters": [
+        {
+          "id": "quothquan-1685-jonet-w1-g1",
+          "glyph": "Jo",
+          "label": "Jonet: Jo",
+          "region": [
+            1584,
+            427,
+            97,
+            123
+          ],
+          "paths": [],
+          "observed": "The forename is at the right end of the presentation line after be.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "quothquan-1685-jonet-w1-g2",
+          "glyph": "net",
+          "label": "Jonet: net",
+          "region": [
+            1671,
+            427,
+            87,
+            123
+          ],
+          "paths": [],
+          "observed": "The short ending closes before the page margin.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "quothquan-1685-jonet-w2-g1",
+          "glyph": "K",
+          "label": "Kinnie?: K",
+          "region": [
+            518,
+            494,
+            113,
+            130
+          ],
+          "paths": [],
+          "observed": "Return left on the next line for a very large looped initial.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "quothquan-1685-jonet-w2-g2",
+          "glyph": "innie?",
+          "label": "Kinnie?: innie?",
+          "region": [
+            621,
+            494,
+            170,
+            130
+          ],
+          "paths": [],
+          "observed": "The following minim sequence supports the proposed surname but does not settle its division.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        }
+      ],
+      "words": [
+        {
+          "text": "Jonet",
+          "region": [
+            1584,
+            427,
+            174,
+            123
+          ],
+          "focus_polygon": [
+            [
+              1584,
+              427
+            ],
+            [
+              1758,
+              427
+            ],
+            [
+              1758,
+              550
+            ],
+            [
+              1584,
+              550
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "quothquan-1685-jonet-w1-g1",
+              "start": 0,
+              "end": 2
+            },
+            {
+              "letter_id": "quothquan-1685-jonet-w1-g2",
+              "start": 2,
+              "end": 5
+            }
+          ]
+        },
+        {
+          "text": "Kinnie?",
+          "region": [
+            518,
+            494,
+            273,
+            130
+          ],
+          "focus_polygon": [
+            [
+              518,
+              548
+            ],
+            [
+              544,
+              507
+            ],
+            [
+              600,
+              494
+            ],
+            [
+              630,
+              512
+            ],
+            [
+              647,
+              535
+            ],
+            [
+              791,
+              529
+            ],
+            [
+              791,
+              594
+            ],
+            [
+              695,
+              603
+            ],
+            [
+              630,
+              624
+            ],
+            [
+              537,
+              624
+            ],
+            [
+              518,
+              595
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "quothquan-1685-jonet-w2-g1",
+              "start": 0,
+              "end": 1
+            },
+            {
+              "letter_id": "quothquan-1685-jonet-w2-g2",
+              "start": 1,
+              "end": 7
+            }
+          ]
+        }
+      ],
+      "reading_steps": [
+        {
+          "title": "Inspect Jonet",
+          "region": [
+            1584,
+            427,
+            174,
+            123
+          ],
+          "text": "The forename is at the right end of the presentation line after be. The short ending closes before the page margin."
+        },
+        {
+          "title": "Inspect Kinnie?",
+          "region": [
+            518,
+            494,
+            273,
+            130
+          ],
+          "text": "Return left on the next line for a very large looped initial. The following minim sequence supports the proposed surname but does not settle its division."
+        },
+        {
+          "title": "Read the word in context",
+          "region": [
+            518,
+            427,
+            1240,
+            197
+          ],
+          "text": "Join the end-of-line Jonet to the next-line proposed surname."
+        },
+        {
+          "title": "Keep the conclusion within the evidence",
+          "region": [
+            518,
+            427,
+            1240,
+            197
+          ],
+          "text": "Keep Kinnie qualified; do not treat a clear widow role as proof of an uncertain surname."
+        }
+      ],
+      "same_hand_comparisons": []
+    },
+    {
+      "id": "quothquan-1685-relict",
+      "title": "Relict and executrix",
+      "nav_label": "Relict and executrix",
+      "image": "/assets/research/testament-crops/quothquan-1685-identity.jpg",
+      "image_width": 1900,
+      "image_height": 900,
+      "region": [
+        784,
+        486,
+        522,
+        140
+      ],
+      "reading": "relict and executrix dative",
+      "expansion": "Relict and executrix",
+      "confidence": "High for maintained widow and estate roles",
+      "context": "Read relict as the direct widow term.",
+      "review_status": "source-aligned",
+      "locator_note": "Read relict as the direct widow term. Keep executrix dative as the separate court-appointed estate role; it would not alone prove marriage.",
+      "conclusion": "No kinship is inferred for the procurator or cautioner. This study prioritizes the actual widow wording.",
+      "letters": [
+        {
+          "id": "quothquan-1685-relict-w1-g1",
+          "glyph": "re",
+          "label": "relict: re",
+          "region": [
+            784,
+            497,
+            71,
+            116
+          ],
+          "paths": [],
+          "observed": "The short opening follows the surname on the second line.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "quothquan-1685-relict-w1-g2",
+          "glyph": "lict",
+          "label": "relict: lict",
+          "region": [
+            845,
+            497,
+            120,
+            116
+          ],
+          "paths": [],
+          "observed": "The taller joined ending completes the widow noun before and.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "quothquan-1685-relict-w2-g1",
+          "glyph": "exe",
+          "label": "executrix: exe",
+          "region": [
+            1056,
+            486,
+            118,
+            140
+          ],
+          "paths": [],
+          "observed": "After and, the joined opening begins the administrative title.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        },
+        {
+          "id": "quothquan-1685-relict-w2-g2",
+          "glyph": "cutrix",
+          "label": "executrix: cutrix",
+          "region": [
+            1164,
+            486,
+            142,
+            140
+          ],
+          "paths": [],
+          "observed": "The long middle and closing strokes extend into adjacent writing.",
+          "matches": "Compare this proposed group within the complete manuscript word. No separate same-clerk example is supplied for this group.",
+          "differs": "The Joscelyn example is another hand; its joins and proportions are not a reconstruction of this clerk's writing.",
+          "caution": "These are proposed groups of connected ink, not independently recovered pen strokes. Colour is an aid to comparison, not proof of the reading."
+        }
+      ],
+      "words": [
+        {
+          "text": "relict",
+          "region": [
+            784,
+            497,
+            181,
+            116
+          ],
+          "focus_polygon": [
+            [
+              784,
+              497
+            ],
+            [
+              965,
+              497
+            ],
+            [
+              965,
+              613
+            ],
+            [
+              784,
+              613
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "quothquan-1685-relict-w1-g1",
+              "start": 0,
+              "end": 2
+            },
+            {
+              "letter_id": "quothquan-1685-relict-w1-g2",
+              "start": 2,
+              "end": 6
+            }
+          ]
+        },
+        {
+          "text": "executrix",
+          "region": [
+            1056,
+            486,
+            250,
+            140
+          ],
+          "focus_polygon": [
+            [
+              1056,
+              486
+            ],
+            [
+              1306,
+              486
+            ],
+            [
+              1306,
+              626
+            ],
+            [
+              1056,
+              626
+            ]
+          ],
+          "neutral_crossing_polygons": [],
+          "font_groups": [
+            {
+              "letter_id": "quothquan-1685-relict-w2-g1",
+              "start": 0,
+              "end": 3
+            },
+            {
+              "letter_id": "quothquan-1685-relict-w2-g2",
+              "start": 3,
+              "end": 9
+            }
+          ]
+        }
+      ],
+      "reading_steps": [
+        {
+          "title": "Inspect relict",
+          "region": [
+            784,
+            497,
+            181,
+            116
+          ],
+          "text": "The short opening follows the surname on the second line. The taller joined ending completes the widow noun before and."
+        },
+        {
+          "title": "Inspect executrix",
+          "region": [
+            1056,
+            486,
+            250,
+            140
+          ],
+          "text": "After and, the joined opening begins the administrative title. The long middle and closing strokes extend into adjacent writing."
+        },
+        {
+          "title": "Read the word in context",
+          "region": [
+            784,
+            486,
+            522,
+            140
+          ],
+          "text": "Read relict as the direct widow term."
+        },
+        {
+          "title": "Keep the conclusion within the evidence",
+          "region": [
+            784,
+            486,
+            522,
+            140
+          ],
+          "text": "Keep executrix dative as the separate court-appointed estate role; it would not alone prove marriage."
+        }
+      ],
+      "same_hand_comparisons": []
+    }
+  ],
+  "people_studies": {
+    "John Glasgow": "john-glasgow-identity",
+    "Jonet [Kinnie?]": "quothquan-1685-jonet"
+  },
+  "limitations": [
+    "Kinnie remains uncertain.",
+    "Forename and surname wrap across lines; they are separately selected words, not a manufactured single horizontal manuscript image."
+  ]
+}

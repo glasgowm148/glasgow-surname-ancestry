@@ -1,0 +1,45 @@
+{
+  "id": "glasgow-protocol-volume-two-recovery",
+  "title": "The missing protocols: John Glasgow's neighbouring properties, 1556-1557",
+  "question": "Do protocols 307 and 402 supply the missing family connection among the early Glasgow burgesses?",
+  "conclusion": "The correct second volume has now been recovered and both entries examined in its digitized printed text. They name John Glesgw as a neighbouring landholder, not as a party transferring property or as a witness. They improve the property chronology, but neither supplies a Glasgow parent, spouse or sibling. Existing probable family connections remain probable: these entries neither prove nor disprove them.",
+  "status": "unresolved",
+  "findings": [
+    {
+      "claim": "On 6 August 1556, John Glesgw's land formed the eastern boundary of property sold to Andrew Morsoune and Jonet Gilleis.",
+      "status": "confirmed",
+      "basis": "Protocol 307, printed p. 15, describes Allan Roger and Jonet Scheles as spouses and the purchasers Andrew Morsoune and Jonet Gilleis as spouses. The back tenement and adjacent yard have John Glesgw's land on the east, Thomas Bargille on the south and Richard Ros on the west. John is a boundary reference only. No Glasgow-name person occurs in its witness list. This reading is from the digitized published abstract, not an inspection of the original manuscript.",
+      "source_url": "https://archive.org/details/abstractsprotoc04robegoog",
+      "source_reference": "Robert Renwick, ed., Abstracts of Protocols of the Town Clerks of Glasgow, vol. II: William Hegait's Protocols, 1555-60 (1896), protocol 307, printed p. 15, 6 August 1556. Locate by printed page/protocol if the scan opens elsewhere.",
+      "new_this_pass": true
+    },
+    {
+      "claim": "On 22 November 1557, John Glesgw again appears as an eastern neighbour; the explicit father-son relationship belongs to the Bargilly family.",
+      "status": "confirmed",
+      "basis": "Protocol 402, printed p. 41, records John Bargilly receiving sasine as heir of his deceased father Thomas Bargillye and selling the back-tenement piece to James Schelis, mason. Andrew Morsoune bounds it on the north and west, Patrick Patersoune otherwise Schelis on the south, and John Glesgw on the east. The repeated neighbouring owners help trace the locality. The father named in this entry is Thomas Bargillye, not a Glasgow. John Glesgw is neither a party nor a witness.",
+      "source_url": "https://archive.org/details/abstractsprotoc04robegoog",
+      "source_reference": "Renwick, Abstracts of Protocols, vol. II (1896), protocol 402, printed p. 41, 22 November 1557, 10 a.m.; digitized published abstract, not the manuscript.",
+      "new_this_pass": true
+    },
+    {
+      "claim": "A boundary name must not be converted into a family relationship or a fresh proof of personal survival.",
+      "status": "unresolved",
+      "basis": "An adjoining property can continue to be described by a previous owner's name. These entries securely attest the boundary descriptions, but do not independently establish John's parentage, prove he was present or alive on either transaction date, or uniquely identify him with an existing WikiTree profile. The established William-to-John relationship rests on the separately cited direct records, not these two boundaries.",
+      "source_url": "https://archive.org/details/abstractsprotoc04robegoog",
+      "source_reference": "Interpretation of protocols 307 and 402 alongside the existing early-family evidence; no profile relationships changed.",
+      "new_this_pass": true
+    }
+  ],
+  "searches": [
+    {
+      "target": "Find the actual digitized volume containing protocols 307 and 402 rather than guessing an Internet Archive volume number",
+      "result": "Recovered Internet Archive item abstractsprotoc04robegoog. Its title page identifies vol. II, William Hegait's Protocols, 1555-60; both target entries and printed-page citations are present. The identifier's '04' is not the printed volume number."
+    },
+    {
+      "target": "Distinguish explicit Glasgow kinship from property bounds and other families' kinship",
+      "result": "Both Glasgow references are eastern boundaries. The express spouses in 307 and father-son succession in 402 concern other surnames. No additional Glasgow kinship established."
+    }
+  ],
+  "next_record": "Follow the same properties into a conveyance that names a Glasgow grantor, heir, spouse or predecessor explicitly. Compare the original manuscript if a personal-identity or kinship claim depends on wording omitted from Renwick's abstracts. Do not treat repeated boundary names alone as succession evidence.",
+  "profile_ids": ["Glasgow-1093", "Glasgow-1098", "Glasgow-1096", "Glasgow-1097", "Glasgow-3916"]
+}

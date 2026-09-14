@@ -1,18 +1,34 @@
-# WikiTree update notes: [James Glasgow (Glasgow-1702), born about 1799, County Tyrone; later Ballynasollus](https://www.wikitree.com/wiki/Glasgow-1702)
+[[Category:Ballynasollus Townland, Derryloran and Kildress Parishes, County Tyrone]]
+[[Category:Glasgow Name Study]]
+{{Ireland Native}}
+{{Estimated Date|Birth}}
 
-## Suggested addition
+== Biography ==
 
-```wikitext
-=== Possible 1799 baptism ===
+'''James Glasgow''' was born about 1799, probably in Derryloran parish, County Tyrone.<ref name="death">[https://civilrecords.irishgenealogy.ie/churchrecords/details-civil/0d5b276551918 James Glasgow, death registration, 1882, age 83, Cookstown registration district] at Irish Civil Registration - Deaths.</ref>
 
-The St Luran, Derryloran register records James Glasgow, son of William and Mary, baptised on 21 August 1799.<ref>Representative Church Body Library, ''Derryloran Parish Register, Volume 1'', [https://www.churchofireland.org/cmsfiles/pdf/AboutUs/library/AngRecord/DerryloranVol1.pdf#page=11 published transcription, p. 3], accessed 17 July 2026.</ref>
+The St Luran, Derryloran parish register records a James Glasgow, son of William and Mary Glasgow, baptised on 21 August 1799.<ref name="baptism">Representative Church Body Library, ''Derryloran Parish Register, Volume 1'', [https://www.churchofireland.org/cmsfiles/pdf/AboutUs/library/AngRecord/DerryloranVol1.pdf#page=11 published transcription, p. 3], accessed 17 July 2026.</ref> This is a strong candidate for this James: his 1851 marriage independently names his father William Glasgow, farmer, and his recorded ages in 1851 and 1882 both indicate a birth about 1799. The baptism supplies no abode, so the identification remains probable rather than conclusive.
 
-This is a strong candidate for this James. His 1851 marriage independently names his father as William Glasgow, farmer, and gives age 50; his 1882 death at age 83 also indicates birth about 1798/99. The baptism supplies no abode, however, so the identity remains probable rather than conclusive.
-```
+On 29 November 1851 James, a widower aged 50 and resident at Ballynasollus, married Nancy McCord, aged 26, of Ballynasollus. She was the daughter of James McCord, farmer; the witnesses were George Glasgow and Samuel Allen.<ref name="marriage">[https://civilrecords.irishgenealogy.ie/churchrecords/details-civil/178e293212496 James Glasgow and Nancy McCord, marriage registration, 29 November 1851, Cookstown registration district] at Irish Civil Registration - Marriages.</ref>
 
-## Structured relationships
+James died on 15 March 1882 at Ballynasollus, reportedly aged 83. His son Thomas Glasgow was present at the death.<ref name="death" />
 
-- Retain **William** as the confirmed father's forename, based on James's marriage.
-- The record does not identify that William as [William Glasgow (Glasgow-2915), born 1760, claimed Scotland](https://www.wikitree.com/wiki/Glasgow-2915). Mark that specific attachment uncertain or detach it pending a bridge.
-- Detach Margaret Mitchell. Her attachment is tree-only and the strong baptism candidate instead names James's mother as **Mary**.
-- If the baptism identity is accepted, create or attach `Mary Unknown` as an uncertain mother and document why the identity is not yet conclusive.
+== Research Notes ==
+
+=== Parentage ===
+
+James's marriage confirms only that his father was named '''William Glasgow''' and was a farmer.<ref name="marriage" /> The 1799 baptism candidate names the child's parents as William and Mary Glasgow.<ref name="baptism" /> If it is this James, Mary, surname unknown, is his mother.
+
+The available records do not establish that his father was specifically [[Glasgow-2915|William Glasgow (abt.1760-)]]. The current attachment of Margaret Mitchell is unsupported by an original record and conflicts with the strong baptism candidate naming Mary. Retain both current parent links as uncertain pending a supported structural resolution; do not infer the other attached children as James's siblings.
+
+=== Children and open identifications ===
+
+Nancy's 1911 census return states that she had five children, three then living. A possible daughter, [https://civilrecords.irishgenealogy.ie/churchrecords/details-civil/6567713134957 Mary Ann Glasgow], married David Bell in 1867 and named her father James, but her Killycurragh residence is insufficient to identify her.
+
+People who recorded Ballynasollus on marriage and named their father James include [[Glasgow-1681|James Glasgow (abt.1828-1907)]], [[Glasgow-693|Margaret Jane Glasgow (abt.1851-)]], and [[Glasgow-612|William Glasgow (abt.1823-)]]. [[Glasgow-1795|Thomas Glasgow (abt.1860-aft.1935)]] is supported as Nancy's son by census evidence and as the informant at James's death. Evidence also supports [[Glasgow-1699|John Glasgow (abt.1824-1906)]] as James's son, but its precise relationship evidence should remain documented rather than inferred from patronymics alone. [[Glasgow-1647|David Glasgow (abt.1836-1883)]] remains unattached: his marriage gives Killycurragh, where other men named James Glasgow lived.
+
+== Sources ==
+
+<references />
+
+For additional research notes, see [[Space:Glasgow_of_Killycurragh%2C_early_C19]].

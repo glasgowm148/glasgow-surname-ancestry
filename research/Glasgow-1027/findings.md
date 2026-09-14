@@ -81,3 +81,18 @@ The transcript-validated burgess admission record for **Rpbert Glasgow**, 22 Apr
 
 Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
 <!-- END FMP-GLASGOW-fmp-glasgow-b0b59fa9818e -->
+## Source findings
+
+Scotland's People OPR index: Robert Glasgow and Jonet Conynghame, 6 April 1613, Glasgow, parish 644/1, reference 230/10. Live WikiTree confirms the attached couple [[Glasgow-1027|Robert Glasgow]] and [[Cunningham-20923|Jonet Conynghame]]. This supplies no new profile-level fact beyond the existing relationship/date; no draft is warranted.
+
+## Source findings
+
+### Supplied OPR banns and marriages — 10 September 2026
+
+| Source locator | Indexed parties | Assessment |
+| --- | --- | --- |
+| [Scotland’s People](https://www.scotlandspeople.gov.uk/), 1613-04-06, Glasgow, OPR 644 / 1/230 / 10 | ROBERT GLASGOW; JONET CONYNGHAME/ | Robert Glasgow and Jonet Conynghame match live pair/date. |
+
+Source: Old Parish Registers, banns and marriages; exact surname Glasgow through 1700, 55 supplied results. Original images not inspected for this batch; combined index dates do not by themselves establish ceremony dates.
+
+This batch adds supporting evidence or a qualified comparison only; it raises no additional WikiTree amendment for this profile.
