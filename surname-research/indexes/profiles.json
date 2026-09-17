@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-31T21:12:33Z",
-  "profile_count": 3389,
+  "generated_at": "2026-09-17T11:37:26Z",
+  "profile_count": 3422,
   "profiles": {
     "Glasgow-10": {
       "wikitree_id": "Glasgow-10",
@@ -283,9 +283,13 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2024-09-14"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2024-09-14",
+      "case_files": [
+        "Glasgow-1023.md",
+        "findings.md"
+      ]
     },
     "Glasgow-1024": {
       "wikitree_id": "Glasgow-1024",
@@ -418,7 +422,7 @@
         "Glasgow-3188"
       ],
       "direct_case": true,
-      "early_evidence": false,
+      "early_evidence": true,
       "workbook_modified": "2025-08-11",
       "case_files": [
         "Glasgow-1027.md",
@@ -481,7 +485,7 @@
       "relations": {
         "children": [
           "Glasgow-3296",
-          "Glasgow-3296"
+          "Glasgow-3608"
         ],
         "parents": [
           "Glasgow-1093"
@@ -504,7 +508,7 @@
         "Glasgow-3181",
         "Glasgow-3188",
         "Glasgow-3522",
-        "Glasgow-3296"
+        "Glasgow-3608"
       ],
       "direct_case": true,
       "early_evidence": false,
@@ -552,7 +556,7 @@
         "Glasgow-567"
       ],
       "direct_case": true,
-      "early_evidence": false,
+      "early_evidence": true,
       "workbook_modified": "2025-07-12",
       "case_files": [
         "1575_Scotland_Glasgow_John_Glasgow.md",
@@ -859,9 +863,13 @@
         "Glasgow-1028",
         "Glasgow-1098"
       ],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-08-30"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2025-08-30",
+      "case_files": [
+        "Glasgow-1054.md",
+        "findings.md"
+      ]
     },
     "Glasgow-1055": {
       "wikitree_id": "Glasgow-1055",
@@ -968,9 +976,12 @@
         "Glasgow-1057",
         "Glasgow-1098"
       ],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2026-02-13"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2026-02-13",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-106": {
       "wikitree_id": "Glasgow-106",
@@ -994,9 +1005,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2022-11-10"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2022-11-10",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1061": {
       "wikitree_id": "Glasgow-1061",
@@ -1007,9 +1021,13 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-05-14"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2025-05-14",
+      "case_files": [
+        "Glasgow-1061.md",
+        "findings.md"
+      ]
     },
     "Glasgow-1062": {
       "wikitree_id": "Glasgow-1062",
@@ -1020,9 +1038,13 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2022-11-10"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2022-11-10",
+      "case_files": [
+        "Glasgow-1062.md",
+        "findings.md"
+      ]
     },
     "Glasgow-1063": {
       "wikitree_id": "Glasgow-1063",
@@ -1033,9 +1055,13 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2022-11-10"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2022-11-10",
+      "case_files": [
+        "Glasgow-1063.md",
+        "findings.md"
+      ]
     },
     "Glasgow-1064": {
       "wikitree_id": "Glasgow-1064",
@@ -1046,9 +1072,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-04-19"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2025-04-19",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1065": {
       "wikitree_id": "Glasgow-1065",
@@ -1059,9 +1088,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-03-27"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2025-03-27",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1066": {
       "wikitree_id": "Glasgow-1066",
@@ -1098,7 +1130,7 @@
       "relations": {},
       "research_cases": [],
       "direct_case": true,
-      "early_evidence": false,
+      "early_evidence": true,
       "workbook_modified": "2023-03-26",
       "case_files": [
         "findings.md"
@@ -1113,9 +1145,13 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2025-04-19"
+      "workbook_modified": "2025-04-19",
+      "case_files": [
+        "findings.md",
+        "opr-birth-088-draft.md"
+      ]
     },
     "Glasgow-1069": {
       "wikitree_id": "Glasgow-1069",
@@ -1126,9 +1162,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2020-08-30"
+      "workbook_modified": "2020-08-30",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1070": {
       "wikitree_id": "Glasgow-1070",
@@ -1139,9 +1178,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2024-09-28"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2024-09-28",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1071": {
       "wikitree_id": "Glasgow-1071",
@@ -1152,9 +1194,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2022-11-12"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2022-11-12",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1072": {
       "wikitree_id": "Glasgow-1072",
@@ -1165,9 +1210,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2022-11-12"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2022-11-12",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1073": {
       "wikitree_id": "Glasgow-1073",
@@ -1188,7 +1236,7 @@
           "Glasgow-3514",
           "Glasgow-3524",
           "Glasgow-3548",
-          "Glasgow-3288",
+          "Glasgow-3549",
           "Glasgow-3550",
           "Glasgow-3551",
           "Glasgow-3552",
@@ -1269,7 +1317,7 @@
         "Glasgow-1140"
       ],
       "direct_case": true,
-      "early_evidence": false,
+      "early_evidence": true,
       "workbook_modified": "2026-06-03",
       "case_files": [
         "Glasgow-1075.md",
@@ -1300,6 +1348,8 @@
       "early_evidence": false,
       "workbook_modified": "2026-05-18",
       "case_files": [
+        "Montgreenan_household_audit.md",
+        "Montgreenan_household_audit.wiki",
         "findings.md"
       ]
     },
@@ -1321,9 +1371,12 @@
         "Glasgow-1075",
         "Glasgow-1140"
       ],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-07-03"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2025-07-03",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1078": {
       "wikitree_id": "Glasgow-1078",
@@ -1358,7 +1411,7 @@
         "Glasgow-3971"
       ],
       "direct_case": true,
-      "early_evidence": false,
+      "early_evidence": true,
       "workbook_modified": "2025-08-11",
       "case_files": [
         "Glasgow-1078.md",
@@ -1396,9 +1449,12 @@
         "Glasgow-1078",
         "Glasgow-1098"
       ],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-07-08"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2025-07-08",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-108": {
       "wikitree_id": "Glasgow-108",
@@ -1440,9 +1496,12 @@
         "Glasgow-1078",
         "Glasgow-1098"
       ],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-08-09"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2025-08-09",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1081": {
       "wikitree_id": "Glasgow-1081",
@@ -1517,9 +1576,13 @@
         "Glasgow-3145",
         "Glasgow-991"
       ],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-08-30"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2025-08-30",
+      "case_files": [
+        "Glasgow-1082.md",
+        "findings.md"
+      ]
     },
     "Glasgow-1083": {
       "wikitree_id": "Glasgow-1083",
@@ -1554,9 +1617,12 @@
         "Glasgow-3145",
         "Glasgow-991"
       ],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-04-10"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2025-04-10",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1084": {
       "wikitree_id": "Glasgow-1084",
@@ -1596,7 +1662,7 @@
         "Glasgow-991"
       ],
       "direct_case": true,
-      "early_evidence": false,
+      "early_evidence": true,
       "workbook_modified": "2025-04-12",
       "case_files": [
         "findings.md"
@@ -1623,9 +1689,12 @@
         "Glasgow-1028",
         "Glasgow-1098"
       ],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-08-30"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2025-08-30",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1086": {
       "wikitree_id": "Glasgow-1086",
@@ -1649,13 +1718,16 @@
       },
       "research_cases": [
         "Glasgow-1098",
-        "Glasgow-3296"
+        "Glasgow-3608"
       ],
       "direct_case": true,
-      "early_evidence": false,
+      "early_evidence": true,
       "workbook_modified": "2025-07-12",
       "case_files": [
-        "findings.md"
+        "Glasgow-1086.md",
+        "Unknown-717333.md",
+        "findings.md",
+        "opr-birth-095-draft.md"
       ]
     },
     "Glasgow-1087": {
@@ -1680,10 +1752,10 @@
       },
       "research_cases": [
         "Glasgow-1098",
-        "Glasgow-3296"
+        "Glasgow-3608"
       ],
       "direct_case": true,
-      "early_evidence": false,
+      "early_evidence": true,
       "workbook_modified": "2025-08-28",
       "case_files": [
         "findings.md"
@@ -1714,9 +1786,12 @@
         "Glasgow-1030",
         "Glasgow-1098"
       ],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-07-18"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2025-07-18",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1089": {
       "wikitree_id": "Glasgow-1089",
@@ -1741,9 +1816,12 @@
         "Glasgow-1030",
         "Glasgow-1098"
       ],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2025-05-14"
+      "workbook_modified": "2025-05-14",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-109": {
       "wikitree_id": "Glasgow-109",
@@ -1783,9 +1861,12 @@
         "Glasgow-1030",
         "Glasgow-1098"
       ],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2024-09-28"
+      "workbook_modified": "2024-09-28",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1091": {
       "wikitree_id": "Glasgow-1091",
@@ -1814,9 +1895,12 @@
         "Glasgow-1078",
         "Glasgow-1098"
       ],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-05-14"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2025-05-14",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1092": {
       "wikitree_id": "Glasgow-1092",
@@ -1845,9 +1929,12 @@
         "Glasgow-1078",
         "Glasgow-1098"
       ],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2025-04-25"
+      "workbook_modified": "2025-04-25",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1093": {
       "wikitree_id": "Glasgow-1093",
@@ -2215,7 +2302,7 @@
         "Glasgow-3556"
       ],
       "direct_case": true,
-      "early_evidence": false,
+      "early_evidence": true,
       "workbook_modified": "2025-05-12",
       "case_files": [
         "Glasgow-1101.md",
@@ -2256,7 +2343,7 @@
         "Glasgow-3061"
       ],
       "direct_case": true,
-      "early_evidence": false,
+      "early_evidence": true,
       "workbook_modified": "2025-04-05",
       "case_files": [
         "Glasgow-1102.md",
@@ -2305,9 +2392,12 @@
         "Glasgow-1102",
         "Glasgow-3061"
       ],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2025-07-11"
+      "workbook_modified": "2025-07-11",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1104": {
       "wikitree_id": "Glasgow-1104",
@@ -2325,9 +2415,12 @@
       "research_cases": [
         "Glasgow-1098"
       ],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-04-19"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2025-04-19",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1105": {
       "wikitree_id": "Glasgow-1105",
@@ -2345,9 +2438,12 @@
       "research_cases": [
         "Glasgow-1098"
       ],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-07-12"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2025-07-12",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1108": {
       "wikitree_id": "Glasgow-1108",
@@ -2593,9 +2689,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2026-04-10"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2026-04-10",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1124": {
       "wikitree_id": "Glasgow-1124",
@@ -2606,9 +2705,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2026-04-10"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2026-04-10",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1125": {
       "wikitree_id": "Glasgow-1125",
@@ -2619,9 +2721,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2026-04-10"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2026-04-10",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1126": {
       "wikitree_id": "Glasgow-1126",
@@ -2687,9 +2792,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2020-10-03"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2020-10-03",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1132": {
       "wikitree_id": "Glasgow-1132",
@@ -2700,9 +2808,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2026-04-10"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2026-04-10",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1133": {
       "wikitree_id": "Glasgow-1133",
@@ -2778,7 +2889,7 @@
         "Glasgow-3556"
       ],
       "direct_case": true,
-      "early_evidence": false,
+      "early_evidence": true,
       "workbook_modified": "2025-07-12",
       "case_files": [
         "Glasgow-1136.md",
@@ -2824,9 +2935,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2020-09-15"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2020-09-15",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1140": {
       "wikitree_id": "Glasgow-1140",
@@ -2863,7 +2977,7 @@
         "Glasgow-1140"
       ],
       "direct_case": true,
-      "early_evidence": false,
+      "early_evidence": true,
       "workbook_modified": "2025-06-29",
       "case_files": [
         "Glasgow-1140.md",
@@ -2925,7 +3039,7 @@
         "Glasgow-1502"
       ],
       "direct_case": true,
-      "early_evidence": false,
+      "early_evidence": true,
       "workbook_modified": "2025-04-24",
       "case_files": [
         "findings.md",
@@ -3086,7 +3200,7 @@
         "Glasgow-3923"
       ],
       "direct_case": true,
-      "early_evidence": false,
+      "early_evidence": true,
       "workbook_modified": "2025-05-14",
       "case_files": [
         "Glasgow-1149.md",
@@ -3138,7 +3252,7 @@
           "Glasgow-1155",
           "Glasgow-1157",
           "Glasgow-1429",
-          "Glasgow-1103",
+          "Glasgow-2459",
           "Glasgow-3322"
         ],
         "spouses": []
@@ -3184,9 +3298,12 @@
         "Glasgow-1150",
         "Glasgow-3923"
       ],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2024-09-21"
+      "workbook_modified": "2024-09-21",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1152": {
       "wikitree_id": "Glasgow-1152",
@@ -3207,9 +3324,12 @@
         "Glasgow-1150",
         "Glasgow-3923"
       ],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2024-09-26"
+      "workbook_modified": "2024-09-26",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1153": {
       "wikitree_id": "Glasgow-1153",
@@ -3229,9 +3349,12 @@
         "Glasgow-1075",
         "Glasgow-1140"
       ],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2026-04-10"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2026-04-10",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1154": {
       "wikitree_id": "Glasgow-1154",
@@ -3251,9 +3374,12 @@
         "Glasgow-1075",
         "Glasgow-1140"
       ],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2026-07-15"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2026-07-15",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1155": {
       "wikitree_id": "Glasgow-1155",
@@ -3274,9 +3400,14 @@
         "Glasgow-1150",
         "Glasgow-3923"
       ],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2025-12-06"
+      "workbook_modified": "2025-12-06",
+      "case_files": [
+        "Glasgow-1155.md",
+        "findings.md",
+        "opr-birth-061-draft.md"
+      ]
     },
     "Glasgow-1156": {
       "wikitree_id": "Glasgow-1156",
@@ -3289,7 +3420,7 @@
         "children": [
           "Glasgow-1150",
           "Glasgow-1157",
-          "Glasgow-1103",
+          "Glasgow-2459",
           "Glasgow-3322"
         ],
         "parents": [
@@ -3411,9 +3542,12 @@
       "research_cases": [
         "Glasgow-1098"
       ],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2023-11-17"
+      "workbook_modified": "2023-11-17",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1161": {
       "wikitree_id": "Glasgow-1161",
@@ -3438,9 +3572,12 @@
       "research_cases": [
         "Glasgow-1098"
       ],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2023-11-17"
+      "workbook_modified": "2023-11-17",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1162": {
       "wikitree_id": "Glasgow-1162",
@@ -3465,9 +3602,12 @@
       "research_cases": [
         "Glasgow-1098"
       ],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2026-04-08"
+      "workbook_modified": "2026-04-08",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1163": {
       "wikitree_id": "Glasgow-1163",
@@ -3492,9 +3632,12 @@
       "research_cases": [
         "Glasgow-1098"
       ],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2023-11-17"
+      "workbook_modified": "2023-11-17",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1164": {
       "wikitree_id": "Glasgow-1164",
@@ -4382,7 +4525,7 @@
       "relations": {},
       "research_cases": [],
       "direct_case": true,
-      "early_evidence": false,
+      "early_evidence": true,
       "workbook_modified": "2024-09-23",
       "case_files": [
         "findings.md"
@@ -4397,9 +4540,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-04-24"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2025-04-24",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1229": {
       "wikitree_id": "Glasgow-1229",
@@ -4410,9 +4556,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2021-01-14"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2021-01-14",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-123": {
       "wikitree_id": "Glasgow-123",
@@ -4462,9 +4611,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2021-01-06"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2021-01-06",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1233": {
       "wikitree_id": "Glasgow-1233",
@@ -4475,9 +4627,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2021-01-06"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2021-01-06",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1234": {
       "wikitree_id": "Glasgow-1234",
@@ -4501,9 +4656,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-04-24"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2025-04-24",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1236": {
       "wikitree_id": "Glasgow-1236",
@@ -4514,9 +4672,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2020-12-29"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2020-12-29",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1237": {
       "wikitree_id": "Glasgow-1237",
@@ -4553,9 +4714,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2024-09-20"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2024-09-20",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-124": {
       "wikitree_id": "Glasgow-124",
@@ -4579,9 +4743,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2021-01-06"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2021-01-06",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1241": {
       "wikitree_id": "Glasgow-1241",
@@ -4633,9 +4800,13 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2026-04-06"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2026-04-06",
+      "case_files": [
+        "Glasgow-1243.md",
+        "findings.md"
+      ]
     },
     "Glasgow-1244": {
       "wikitree_id": "Glasgow-1244",
@@ -4659,9 +4830,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2022-11-10"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2022-11-10",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1248": {
       "wikitree_id": "Glasgow-1248",
@@ -5127,9 +5301,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2022-04-23"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2022-04-23",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1311": {
       "wikitree_id": "Glasgow-1311",
@@ -5140,9 +5317,14 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2024-09-26"
+      "workbook_modified": "2024-09-26",
+      "case_files": [
+        "Glasgow-1311.md",
+        "findings.md",
+        "opr-birth-023-draft.md"
+      ]
     },
     "Glasgow-1312": {
       "wikitree_id": "Glasgow-1312",
@@ -5153,9 +5335,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2025-07-11"
+      "workbook_modified": "2025-07-11",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1313": {
       "wikitree_id": "Glasgow-1313",
@@ -5845,6 +6030,7 @@
         "Glasgow-1367.md",
         "evidence_index.json",
         "findings.md",
+        "presentation.json",
         "research_brief.md",
         "research_plan.json",
         "research_state.json"
@@ -5963,9 +6149,12 @@
         "Glasgow-1376",
         "Glasgow-3143"
       ],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2025-03-26"
+      "workbook_modified": "2025-03-26",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1374": {
       "wikitree_id": "Glasgow-1374",
@@ -6004,6 +6193,7 @@
         "Glasgow-1374.md",
         "evidence_index.json",
         "findings.md",
+        "opr-birth-089-draft.md",
         "research_brief.md",
         "research_plan.json",
         "research_state.json"
@@ -6156,9 +6346,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2020-12-31"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2020-12-31",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1382": {
       "wikitree_id": "Glasgow-1382",
@@ -6169,9 +6362,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-05-07"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2025-05-07",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1383": {
       "wikitree_id": "Glasgow-1383",
@@ -6182,9 +6378,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2020-12-31"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2020-12-31",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1384": {
       "wikitree_id": "Glasgow-1384",
@@ -6357,6 +6556,19 @@
       "direct_case": false,
       "early_evidence": false,
       "workbook_modified": "2020-12-31"
+    },
+    "Glasgow-1398": {
+      "wikitree_id": "Glasgow-1398",
+      "display_name": "Jane Glasgow",
+      "birth_date": "1842-00-00",
+      "birth_location": null,
+      "death_date": "1847-00-00",
+      "death_location": null,
+      "relations": {},
+      "research_cases": [],
+      "direct_case": false,
+      "early_evidence": false,
+      "workbook_modified": "2025-03-27"
     },
     "Glasgow-1399": {
       "wikitree_id": "Glasgow-1399",
@@ -6544,9 +6756,12 @@
       "research_cases": [
         "Glasgow-1406"
       ],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2022-11-10"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2022-11-10",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1408": {
       "wikitree_id": "Glasgow-1408",
@@ -6571,9 +6786,12 @@
       "research_cases": [
         "Glasgow-1406"
       ],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2022-11-10"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2022-11-10",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1409": {
       "wikitree_id": "Glasgow-1409",
@@ -6598,9 +6816,12 @@
       "research_cases": [
         "Glasgow-1406"
       ],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2022-11-10"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2022-11-10",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1410": {
       "wikitree_id": "Glasgow-1410",
@@ -6631,9 +6852,12 @@
       "research_cases": [
         "Glasgow-1406"
       ],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2022-11-10"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2022-11-10",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1411": {
       "wikitree_id": "Glasgow-1411",
@@ -6664,9 +6888,12 @@
       "research_cases": [
         "Glasgow-1406"
       ],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2021-01-06"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2021-01-06",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1414": {
       "wikitree_id": "Glasgow-1414",
@@ -6704,9 +6931,12 @@
       "research_cases": [
         "Glasgow-1406"
       ],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-03-26"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2025-03-26",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1416": {
       "wikitree_id": "Glasgow-1416",
@@ -6724,9 +6954,13 @@
       "research_cases": [
         "Glasgow-1406"
       ],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2024-09-30"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2024-09-30",
+      "case_files": [
+        "Glasgow-1416.md",
+        "findings.md"
+      ]
     },
     "Glasgow-1417": {
       "wikitree_id": "Glasgow-1417",
@@ -6744,9 +6978,13 @@
       "research_cases": [
         "Glasgow-1406"
       ],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-03-26"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2025-03-26",
+      "case_files": [
+        "Glasgow-1417.md",
+        "findings.md"
+      ]
     },
     "Glasgow-1418": {
       "wikitree_id": "Glasgow-1418",
@@ -6771,9 +7009,12 @@
       "research_cases": [
         "Glasgow-1406"
       ],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2022-11-10"
+      "workbook_modified": "2022-11-10",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1419": {
       "wikitree_id": "Glasgow-1419",
@@ -6866,9 +7107,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2022-11-10"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2022-11-10",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1426": {
       "wikitree_id": "Glasgow-1426",
@@ -6879,9 +7123,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2021-01-02"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2021-01-02",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1427": {
       "wikitree_id": "Glasgow-1427",
@@ -6892,9 +7139,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-03-26"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2025-03-26",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1428": {
       "wikitree_id": "Glasgow-1428",
@@ -6905,9 +7155,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2021-01-02"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2021-01-02",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1429": {
       "wikitree_id": "Glasgow-1429",
@@ -6928,9 +7181,12 @@
         "Glasgow-1150",
         "Glasgow-3923"
       ],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-03-26"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2025-03-26",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-143": {
       "wikitree_id": "Glasgow-143",
@@ -7000,9 +7256,14 @@
       "research_cases": [
         "Glasgow-3375"
       ],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-04-21"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2025-04-21",
+      "case_files": [
+        "Glasgow-1433.md",
+        "findings.md",
+        "opr-birth-033-draft.md"
+      ]
     },
     "Glasgow-1434": {
       "wikitree_id": "Glasgow-1434",
@@ -7021,7 +7282,7 @@
         "Glasgow-3375"
       ],
       "direct_case": true,
-      "early_evidence": false,
+      "early_evidence": true,
       "workbook_modified": "2026-07-16",
       "case_files": [
         "findings.md"
@@ -7045,9 +7306,12 @@
         "Glasgow-1075",
         "Glasgow-1140"
       ],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2024-09-28"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2024-09-28",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1438": {
       "wikitree_id": "Glasgow-1438",
@@ -7085,9 +7349,12 @@
       "research_cases": [
         "Glasgow-1098"
       ],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2021-01-17"
+      "workbook_modified": "2021-01-17",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-144": {
       "wikitree_id": "Glasgow-144",
@@ -7111,9 +7378,12 @@
       "death_location": "Stitchill, Roxburghshire, Scotland",
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2025-04-12"
+      "workbook_modified": "2025-04-12",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1441": {
       "wikitree_id": "Glasgow-1441",
@@ -7150,9 +7420,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2024-12-25"
+      "workbook_modified": "2024-12-25",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1444": {
       "wikitree_id": "Glasgow-1444",
@@ -7463,7 +7736,7 @@
       "relations": {},
       "research_cases": [],
       "direct_case": true,
-      "early_evidence": false,
+      "early_evidence": true,
       "workbook_modified": "2025-08-11",
       "case_files": [
         "findings.md"
@@ -7517,9 +7790,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2022-11-10"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2022-11-10",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1473": {
       "wikitree_id": "Glasgow-1473",
@@ -7530,9 +7806,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2025-04-28"
+      "workbook_modified": "2025-04-28",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1474": {
       "wikitree_id": "Glasgow-1474",
@@ -7543,9 +7822,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2022-11-11"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2022-11-11",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1475": {
       "wikitree_id": "Glasgow-1475",
@@ -7798,9 +8080,12 @@
         "Glasgow-1078",
         "Glasgow-1098"
       ],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2025-08-09"
+      "workbook_modified": "2025-08-09",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1492": {
       "wikitree_id": "Glasgow-1492",
@@ -7835,9 +8120,12 @@
       "research_cases": [
         "Glasgow-1026"
       ],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2025-07-11"
+      "workbook_modified": "2025-07-11",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1494": {
       "wikitree_id": "Glasgow-1494",
@@ -7897,9 +8185,12 @@
         "Glasgow-3921"
       ],
       "direct_case": true,
-      "early_evidence": false,
+      "early_evidence": true,
       "workbook_modified": "2025-08-11",
       "case_files": [
+        "1605_Scotland_Stevenston_James_Weir.md",
+        "1605_Scotland_Stevenston_Jonet_Weir.md",
+        "1605_Scotland_Stevenston_William_Weir.md",
         "Glasgow-1495.md",
         "evidence_index.json",
         "findings.md",
@@ -7987,7 +8278,7 @@
         "Glasgow-591"
       ],
       "direct_case": true,
-      "early_evidence": false,
+      "early_evidence": true,
       "workbook_modified": "2025-04-06",
       "case_files": [
         "Glasgow-1498.md",
@@ -8104,7 +8395,7 @@
       "relations": {
         "children": [
           "Glasgow-1143",
-          "Glasgow-1499",
+          "Glasgow-1503",
           "Glasgow-1504",
           "Glasgow-1505"
         ],
@@ -8128,6 +8419,37 @@
         "Glasgow-1502.md",
         "evidence_index.json",
         "findings.md",
+        "research_brief.md",
+        "research_plan.json",
+        "research_state.json"
+      ]
+    },
+    "Glasgow-1503": {
+      "wikitree_id": "Glasgow-1503",
+      "display_name": "Hugh Glasgow",
+      "birth_date": "1705-00-00",
+      "birth_location": "Larne, County Antrim, Ireland",
+      "death_date": "1767-07-08",
+      "death_location": "Larne, County Antrim, Ireland",
+      "relations": {
+        "children": [],
+        "parents": [],
+        "siblings": [],
+        "spouses": []
+      },
+      "research_cases": [
+        "Glasgow-1502",
+        "Glasgow-1503"
+      ],
+      "direct_case": true,
+      "early_evidence": false,
+      "workbook_modified": "2024-09-15",
+      "case_files": [
+        "Glasgow-1503.md",
+        "evidence_index.json",
+        "findings.md",
+        "presentation.json",
+        "records_mentions.json",
         "research_brief.md",
         "research_plan.json",
         "research_state.json"
@@ -8348,9 +8670,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2021-01-05"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2021-01-05",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1512": {
       "wikitree_id": "Glasgow-1512",
@@ -8398,9 +8723,12 @@
       "research_cases": [
         "Glasgow-1406"
       ],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2025-07-27"
+      "workbook_modified": "2025-07-27",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1514": {
       "wikitree_id": "Glasgow-1514",
@@ -8418,9 +8746,12 @@
       "research_cases": [
         "Glasgow-1406"
       ],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2021-01-13"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2021-01-13",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1515": {
       "wikitree_id": "Glasgow-1515",
@@ -8438,9 +8769,12 @@
       "research_cases": [
         "Glasgow-1075"
       ],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2021-01-06"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2021-01-06",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1517": {
       "wikitree_id": "Glasgow-1517",
@@ -8469,9 +8803,12 @@
         "Glasgow-1078",
         "Glasgow-1098"
       ],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2025-08-09"
+      "workbook_modified": "2025-08-09",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1518": {
       "wikitree_id": "Glasgow-1518",
@@ -8492,9 +8829,12 @@
         "Glasgow-1521",
         "Glasgow-591"
       ],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2025-07-16"
+      "workbook_modified": "2025-07-16",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-152": {
       "wikitree_id": "Glasgow-152",
@@ -8528,9 +8868,12 @@
         "Glasgow-1521",
         "Glasgow-591"
       ],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2024-12-25"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2024-12-25",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1521": {
       "wikitree_id": "Glasgow-1521",
@@ -8591,9 +8934,12 @@
         "Glasgow-1521",
         "Glasgow-591"
       ],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2024-12-25"
+      "workbook_modified": "2024-12-25",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1523": {
       "wikitree_id": "Glasgow-1523",
@@ -8614,9 +8960,12 @@
         "Glasgow-1521",
         "Glasgow-591"
       ],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2024-12-25"
+      "workbook_modified": "2024-12-25",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1524": {
       "wikitree_id": "Glasgow-1524",
@@ -8637,9 +8986,12 @@
         "Glasgow-1521",
         "Glasgow-591"
       ],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2025-04-19"
+      "workbook_modified": "2025-04-19",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1526": {
       "wikitree_id": "Glasgow-1526",
@@ -8697,9 +9049,12 @@
       "research_cases": [
         "Glasgow-1149"
       ],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2025-04-19"
+      "workbook_modified": "2025-04-19",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1529": {
       "wikitree_id": "Glasgow-1529",
@@ -9110,9 +9465,12 @@
         "Glasgow-1026",
         "Glasgow-2867"
       ],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2021-01-07"
+      "workbook_modified": "2021-01-07",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1546": {
       "wikitree_id": "Glasgow-1546",
@@ -9358,9 +9716,12 @@
         "Glasgow-1557",
         "Glasgow-2456"
       ],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2022-11-07"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2022-11-07",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1559": {
       "wikitree_id": "Glasgow-1559",
@@ -9380,9 +9741,13 @@
       "research_cases": [
         "Glasgow-1098"
       ],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2024-09-21"
+      "workbook_modified": "2024-09-21",
+      "case_files": [
+        "Glasgow-1559.md",
+        "findings.md"
+      ]
     },
     "Glasgow-1560": {
       "wikitree_id": "Glasgow-1560",
@@ -10063,9 +10428,13 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2024-12-25"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2024-12-25",
+      "case_files": [
+        "Glasgow-1607.md",
+        "findings.md"
+      ]
     },
     "Glasgow-1608": {
       "wikitree_id": "Glasgow-1608",
@@ -10274,9 +10643,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2021-01-20"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2021-01-20",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1622": {
       "wikitree_id": "Glasgow-1622",
@@ -10329,6 +10701,7 @@
         "Glasgow-1623.md",
         "evidence_index.json",
         "findings.md",
+        "profile.md",
         "research_brief.md",
         "research_plan.json",
         "research_state.json"
@@ -14364,9 +14737,14 @@
       "death_location": "Ayrshire, Scotland",
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-07-03"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2025-07-03",
+      "case_files": [
+        "Glasgow-1927.md",
+        "findings.md",
+        "opr-birth-035-draft.md"
+      ]
     },
     "Glasgow-1928": {
       "wikitree_id": "Glasgow-1928",
@@ -14377,9 +14755,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2022-11-10"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2022-11-10",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1929": {
       "wikitree_id": "Glasgow-1929",
@@ -14390,9 +14771,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-09-22"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2025-09-22",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-193": {
       "wikitree_id": "Glasgow-193",
@@ -14419,9 +14803,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2022-11-10"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2022-11-10",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1931": {
       "wikitree_id": "Glasgow-1931",
@@ -14432,9 +14819,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2022-11-10"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2022-11-10",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1932": {
       "wikitree_id": "Glasgow-1932",
@@ -14445,9 +14835,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2022-11-10"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2022-11-10",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1933": {
       "wikitree_id": "Glasgow-1933",
@@ -14458,9 +14851,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2022-11-10"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2022-11-10",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1934": {
       "wikitree_id": "Glasgow-1934",
@@ -14471,9 +14867,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2022-11-10"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2022-11-10",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-1935": {
       "wikitree_id": "Glasgow-1935",
@@ -17160,9 +17559,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2022-02-14"
+      "workbook_modified": "2022-02-14",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-2138": {
       "wikitree_id": "Glasgow-2138",
@@ -19201,6 +19603,34 @@
       "early_evidence": false,
       "workbook_modified": "2022-09-05"
     },
+    "Glasgow-2291": {
+      "wikitree_id": "Glasgow-2291",
+      "display_name": "John Glasgow",
+      "birth_date": "1756-00-00",
+      "birth_location": null,
+      "death_date": "1826-12-11",
+      "death_location": "Newberry, South Carolina, United States",
+      "relations": {
+        "children": [],
+        "parents": [],
+        "siblings": [],
+        "spouses": []
+      },
+      "research_cases": [
+        "Glasgow-2291"
+      ],
+      "direct_case": true,
+      "early_evidence": false,
+      "workbook_modified": "2022-06-10",
+      "case_files": [
+        "Glasgow-2291.md",
+        "evidence_index.json",
+        "findings.md",
+        "research_brief.md",
+        "research_plan.json",
+        "research_state.json"
+      ]
+    },
     "Glasgow-2293": {
       "wikitree_id": "Glasgow-2293",
       "display_name": "James Henry Glasgow",
@@ -19357,6 +19787,7 @@
       "early_evidence": false,
       "workbook_modified": "2024-09-19",
       "case_files": [
+        "Glasgow-2304.md",
         "findings.md",
         "profile.md",
         "research_plan.json"
@@ -20867,9 +21298,13 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2022-09-16"
+      "workbook_modified": "2022-09-16",
+      "case_files": [
+        "findings.md",
+        "presentation.json"
+      ]
     },
     "Glasgow-2415": {
       "wikitree_id": "Glasgow-2415",
@@ -20880,9 +21315,13 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2022-09-16"
+      "workbook_modified": "2022-09-16",
+      "case_files": [
+        "findings.md",
+        "presentation.json"
+      ]
     },
     "Glasgow-2416": {
       "wikitree_id": "Glasgow-2416",
@@ -20937,9 +21376,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2022-09-17"
+      "workbook_modified": "2022-09-17",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-2419": {
       "wikitree_id": "Glasgow-2419",
@@ -20950,9 +21392,12 @@
       "death_location": "Inishrush, Claudy, Tamlaght O'Crilly, County Londonderry, Ireland",
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2022-09-18"
+      "workbook_modified": "2022-09-18",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-242": {
       "wikitree_id": "Glasgow-242",
@@ -20976,9 +21421,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2022-09-17"
+      "workbook_modified": "2022-09-17",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-2421": {
       "wikitree_id": "Glasgow-2421",
@@ -21181,9 +21629,12 @@
       "research_cases": [
         "Glasgow-1149"
       ],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2023-03-08"
+      "workbook_modified": "2023-03-08",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-2439": {
       "wikitree_id": "Glasgow-2439",
@@ -21324,9 +21775,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2022-11-10"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2022-11-10",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-2449": {
       "wikitree_id": "Glasgow-2449",
@@ -21337,9 +21791,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-12-24"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2025-12-24",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-245": {
       "wikitree_id": "Glasgow-245",
@@ -21363,9 +21820,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2022-11-10"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2022-11-10",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-2451": {
       "wikitree_id": "Glasgow-2451",
@@ -21416,6 +21876,7 @@
       "early_evidence": false,
       "workbook_modified": "2025-04-19",
       "case_files": [
+        "Glasgow-2453.md",
         "findings.md"
       ]
     },
@@ -21429,7 +21890,7 @@
       "relations": {},
       "research_cases": [],
       "direct_case": true,
-      "early_evidence": false,
+      "early_evidence": true,
       "workbook_modified": "2022-11-11",
       "case_files": [
         "findings.md"
@@ -21474,7 +21935,7 @@
         "Glasgow-2456"
       ],
       "direct_case": true,
-      "early_evidence": false,
+      "early_evidence": true,
       "workbook_modified": "2022-11-12",
       "case_files": [
         "Glasgow-2456.md",
@@ -21494,9 +21955,35 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
+      "direct_case": true,
+      "early_evidence": false,
+      "workbook_modified": "2022-11-12",
+      "case_files": [
+        "findings.md"
+      ]
+    },
+    "Glasgow-2459": {
+      "wikitree_id": "Glasgow-2459",
+      "display_name": "Thomas Glasgow",
+      "birth_date": "1615-00-00",
+      "birth_location": "Inveresk and Musselburgh, Midlothian, Scotland",
+      "death_date": "0000-00-00",
+      "death_location": null,
+      "relations": {
+        "children": [],
+        "parents": [],
+        "siblings": [],
+        "spouses": []
+      },
+      "research_cases": [
+        "Glasgow-1150",
+        "Glasgow-1156",
+        "Glasgow-2462",
+        "Glasgow-591"
+      ],
       "direct_case": false,
       "early_evidence": false,
-      "workbook_modified": "2022-11-12"
+      "workbook_modified": "2025-07-12"
     },
     "Glasgow-2460": {
       "wikitree_id": "Glasgow-2460",
@@ -21516,9 +22003,12 @@
         "Glasgow-2462",
         "Glasgow-591"
       ],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2025-04-16"
+      "workbook_modified": "2025-04-16",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-2461": {
       "wikitree_id": "Glasgow-2461",
@@ -21538,9 +22028,12 @@
         "Glasgow-2462",
         "Glasgow-591"
       ],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2025-04-10"
+      "workbook_modified": "2025-04-10",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-2462": {
       "wikitree_id": "Glasgow-2462",
@@ -21555,7 +22048,7 @@
           "Glasgow-3362"
         ],
         "parents": [
-          "Glasgow-1103"
+          "Glasgow-2459"
         ],
         "siblings": [
           "Glasgow-2460",
@@ -21573,7 +22066,7 @@
         "Glasgow-591"
       ],
       "direct_case": true,
-      "early_evidence": false,
+      "early_evidence": true,
       "workbook_modified": "2025-04-19",
       "case_files": [
         "Glasgow-2462.md",
@@ -21593,9 +22086,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2022-11-12"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2022-11-12",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-2465": {
       "wikitree_id": "Glasgow-2465",
@@ -21606,9 +22102,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2023-08-11"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2023-08-11",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-2466": {
       "wikitree_id": "Glasgow-2466",
@@ -21619,9 +22118,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2022-11-12"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2022-11-12",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-2467": {
       "wikitree_id": "Glasgow-2467",
@@ -21645,9 +22147,13 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2022-11-12"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2022-11-12",
+      "case_files": [
+        "Glasgow-2468.md",
+        "findings.md"
+      ]
     },
     "Glasgow-2469": {
       "wikitree_id": "Glasgow-2469",
@@ -21658,9 +22164,13 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2022-11-12"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2022-11-12",
+      "case_files": [
+        "Glasgow-2469.md",
+        "findings.md"
+      ]
     },
     "Glasgow-247": {
       "wikitree_id": "Glasgow-247",
@@ -21710,9 +22220,13 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2024-09-21"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2024-09-21",
+      "case_files": [
+        "Glasgow-2473.md",
+        "findings.md"
+      ]
     },
     "Glasgow-2474": {
       "wikitree_id": "Glasgow-2474",
@@ -21723,9 +22237,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2022-11-14"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2022-11-14",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-2475": {
       "wikitree_id": "Glasgow-2475",
@@ -24501,9 +25018,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2025-04-10"
+      "workbook_modified": "2025-04-10",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-2682": {
       "wikitree_id": "Glasgow-2682",
@@ -24905,9 +25425,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2023-08-11"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2023-08-11",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-2714": {
       "wikitree_id": "Glasgow-2714",
@@ -24926,9 +25449,13 @@
         "Glasgow-1098",
         "Glasgow-3078"
       ],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2025-04-07"
+      "workbook_modified": "2025-04-07",
+      "case_files": [
+        "findings.md",
+        "opr-marriage-1680-draft.md"
+      ]
     },
     "Glasgow-2715": {
       "wikitree_id": "Glasgow-2715",
@@ -24942,6 +25469,19 @@
       "direct_case": false,
       "early_evidence": false,
       "workbook_modified": "2023-08-11"
+    },
+    "Glasgow-2717": {
+      "wikitree_id": "Glasgow-2717",
+      "display_name": "Alexander Glasgow",
+      "birth_date": "1804-00-00",
+      "birth_location": "Ballymoney, County Wicklow, Ireland",
+      "death_date": "1888-00-00",
+      "death_location": null,
+      "relations": {},
+      "research_cases": [],
+      "direct_case": false,
+      "early_evidence": false,
+      "workbook_modified": "2025-04-24"
     },
     "Glasgow-2718": {
       "wikitree_id": "Glasgow-2718",
@@ -25260,6 +25800,7 @@
       "early_evidence": false,
       "workbook_modified": "2026-03-30",
       "case_files": [
+        "Glasgow-2738.md",
         "findings.md",
         "profile.md"
       ]
@@ -25498,6 +26039,19 @@
       "early_evidence": false,
       "workbook_modified": "2024-04-03"
     },
+    "Glasgow-2755": {
+      "wikitree_id": "Glasgow-2755",
+      "display_name": "Katherine Wheeler Glasgow",
+      "birth_date": "1874-02-26",
+      "birth_location": "Jackson, Clarke, Alabama, United States",
+      "death_date": "1965-05-01",
+      "death_location": "Jefferson, Alabama, United States",
+      "relations": {},
+      "research_cases": [],
+      "direct_case": false,
+      "early_evidence": false,
+      "workbook_modified": "2024-04-03"
+    },
     "Glasgow-2756": {
       "wikitree_id": "Glasgow-2756",
       "display_name": "James A Glasgow",
@@ -25680,6 +26234,7 @@
       "early_evidence": false,
       "workbook_modified": "2025-11-14",
       "case_files": [
+        "Glasgow-2769.md",
         "findings.md",
         "profile.md"
       ]
@@ -27056,6 +27611,34 @@
         "research_state.json"
       ]
     },
+    "Glasgow-2869": {
+      "wikitree_id": "Glasgow-2869",
+      "display_name": "Samuel Glasgow",
+      "birth_date": "1749-00-00",
+      "birth_location": "Cecil, Maryland",
+      "death_date": "1843-00-00",
+      "death_location": "Millersburg, Holmes, Ohio, United States",
+      "relations": {
+        "children": [],
+        "parents": [],
+        "siblings": [],
+        "spouses": []
+      },
+      "research_cases": [
+        "Glasgow-2869"
+      ],
+      "direct_case": true,
+      "early_evidence": false,
+      "workbook_modified": "2025-04-05",
+      "case_files": [
+        "Glasgow-2869.md",
+        "evidence_index.json",
+        "findings.md",
+        "research_brief.md",
+        "research_plan.json",
+        "research_state.json"
+      ]
+    },
     "Glasgow-287": {
       "wikitree_id": "Glasgow-287",
       "display_name": "Katie E Glasgow",
@@ -27078,9 +27661,12 @@
       "death_location": "Nottingham, Chester County, Province of Pennsylvania",
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-05-07"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2025-05-07",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-2871": {
       "wikitree_id": "Glasgow-2871",
@@ -28278,6 +28864,32 @@
       "early_evidence": false,
       "workbook_modified": "2024-09-12"
     },
+    "Glasgow-2966": {
+      "wikitree_id": "Glasgow-2966",
+      "display_name": "John Glasgow",
+      "birth_date": "1785-00-00",
+      "birth_location": "Edinburgh, Scotland",
+      "death_date": "0000-00-00",
+      "death_location": null,
+      "relations": {},
+      "research_cases": [],
+      "direct_case": false,
+      "early_evidence": false,
+      "workbook_modified": "2025-04-25"
+    },
+    "Glasgow-2967": {
+      "wikitree_id": "Glasgow-2967",
+      "display_name": "Peter Glasgow",
+      "birth_date": "1833-00-00",
+      "birth_location": "Edinburgh, Scotland",
+      "death_date": "0000-00-00",
+      "death_location": null,
+      "relations": {},
+      "research_cases": [],
+      "direct_case": false,
+      "early_evidence": false,
+      "workbook_modified": "2025-09-29"
+    },
     "Glasgow-2968": {
       "wikitree_id": "Glasgow-2968",
       "display_name": "John Glasgow",
@@ -28836,6 +29448,19 @@
       "early_evidence": false,
       "workbook_modified": "2024-09-15"
     },
+    "Glasgow-2994": {
+      "wikitree_id": "Glasgow-2994",
+      "display_name": "Thomas Glasgow",
+      "birth_date": "1823-00-00",
+      "birth_location": "Coltrim, County Londonderry, Ireland",
+      "death_date": "0000-00-00",
+      "death_location": null,
+      "relations": {},
+      "research_cases": [],
+      "direct_case": false,
+      "early_evidence": false,
+      "workbook_modified": "2025-04-06"
+    },
     "Glasgow-2995": {
       "wikitree_id": "Glasgow-2995",
       "display_name": "James Glasgow",
@@ -28984,9 +29609,12 @@
       "research_cases": [
         "Glasgow-1075"
       ],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2024-09-18"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2024-09-18",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-3005": {
       "wikitree_id": "Glasgow-3005",
@@ -29024,9 +29652,12 @@
       "research_cases": [
         "Glasgow-1075"
       ],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2024-09-24"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2024-09-24",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-3007": {
       "wikitree_id": "Glasgow-3007",
@@ -29064,9 +29695,12 @@
       "research_cases": [
         "Glasgow-1075"
       ],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2026-06-04"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2026-06-04",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-301": {
       "wikitree_id": "Glasgow-301",
@@ -29133,9 +29767,14 @@
         "Glasgow-2917",
         "Glasgow-3011"
       ],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2025-07-18"
+      "workbook_modified": "2025-07-18",
+      "case_files": [
+        "Glasgow-3012.md",
+        "findings.md",
+        "opr-birth-046-draft.md"
+      ]
     },
     "Glasgow-3013": {
       "wikitree_id": "Glasgow-3013",
@@ -29154,9 +29793,12 @@
         "Glasgow-2917",
         "Glasgow-3011"
       ],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2025-05-14"
+      "workbook_modified": "2025-05-14",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-3014": {
       "wikitree_id": "Glasgow-3014",
@@ -29167,9 +29809,13 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2024-09-21"
+      "workbook_modified": "2024-09-21",
+      "case_files": [
+        "Glasgow-3014.md",
+        "findings.md"
+      ]
     },
     "Glasgow-3015": {
       "wikitree_id": "Glasgow-3015",
@@ -29201,6 +29847,42 @@
       "workbook_modified": "2025-04-28",
       "case_files": [
         "findings.md"
+      ]
+    },
+    "Glasgow-3019": {
+      "wikitree_id": "Glasgow-3019",
+      "display_name": "John Glasgow",
+      "birth_date": "1610-00-00",
+      "birth_location": "Lanarkshire, Scotland",
+      "death_date": "1685-00-00",
+      "death_location": "Biggar, Lanarkshire, Scotland",
+      "relations": {
+        "children": [
+          "Glasgow-3331",
+          "Glasgow-3332"
+        ],
+        "parents": [
+          "Glasgow-3296"
+        ],
+        "siblings": [],
+        "spouses": []
+      },
+      "research_cases": [
+        "Glasgow-3019",
+        "Glasgow-3296",
+        "Glasgow-3332",
+        "Glasgow-591"
+      ],
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2025-04-17",
+      "case_files": [
+        "Glasgow-3019.md",
+        "evidence_index.json",
+        "findings.md",
+        "research_brief.md",
+        "research_plan.json",
+        "research_state.json"
       ]
     },
     "Glasgow-302": {
@@ -29283,7 +29965,9 @@
       "early_evidence": false,
       "workbook_modified": "2025-04-26",
       "case_files": [
-        "findings.md"
+        "1672_scotland_kirknewton_and_east_calder_helen_glasgow.md",
+        "findings.md",
+        "opr-birth-076-draft.md"
       ]
     },
     "Glasgow-3025": {
@@ -29299,7 +29983,9 @@
       "early_evidence": false,
       "workbook_modified": "2025-04-26",
       "case_files": [
-        "findings.md"
+        "1681_scotland_kirknewton_and_east_calder_marion_glasgow.md",
+        "findings.md",
+        "opr-birth-097-draft.md"
       ]
     },
     "Glasgow-3026": {
@@ -29629,9 +30315,12 @@
         "Glasgow-2462",
         "Glasgow-591"
       ],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2025-04-10"
+      "workbook_modified": "2025-04-10",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-305": {
       "wikitree_id": "Glasgow-305",
@@ -29664,9 +30353,13 @@
         "Glasgow-2462",
         "Glasgow-591"
       ],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2025-04-19"
+      "workbook_modified": "2025-04-19",
+      "case_files": [
+        "findings.md",
+        "opr-birth-attribution-draft.md"
+      ]
     },
     "Glasgow-3051": {
       "wikitree_id": "Glasgow-3051",
@@ -29768,9 +30461,13 @@
         "Glasgow-1098",
         "Glasgow-1561"
       ],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2025-04-26"
+      "workbook_modified": "2025-04-26",
+      "case_files": [
+        "Glasgow-3056.md",
+        "findings.md"
+      ]
     },
     "Glasgow-3057": {
       "wikitree_id": "Glasgow-3057",
@@ -29882,7 +30579,7 @@
         "Glasgow-3188"
       ],
       "direct_case": true,
-      "early_evidence": false,
+      "early_evidence": true,
       "workbook_modified": "2026-07-15",
       "case_files": [
         "1610_Scotland_Glasgow_Robert_Fultoun.md",
@@ -30162,12 +30859,13 @@
         "Glasgow-3115"
       ],
       "direct_case": true,
-      "early_evidence": false,
+      "early_evidence": true,
       "workbook_modified": "2025-04-08",
       "case_files": [
         "Glasgow-3078.md",
         "evidence_index.json",
         "findings.md",
+        "parish-register-targets-2026-09-10.md",
         "research_brief.md",
         "research_plan.json",
         "research_state.json"
@@ -30224,9 +30922,12 @@
         "Glasgow-1098",
         "Glasgow-3078"
       ],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2025-07-06"
+      "workbook_modified": "2025-07-06",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-3081": {
       "wikitree_id": "Glasgow-3081",
@@ -30284,9 +30985,13 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2024-09-21"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2024-09-21",
+      "case_files": [
+        "Glasgow-3086.md",
+        "findings.md"
+      ]
     },
     "Glasgow-3087": {
       "wikitree_id": "Glasgow-3087",
@@ -30297,9 +31002,13 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2024-10-02"
+      "workbook_modified": "2024-10-02",
+      "case_files": [
+        "findings.md",
+        "opr-marriage-1687-hold-draft.md"
+      ]
     },
     "Glasgow-3088": {
       "wikitree_id": "Glasgow-3088",
@@ -30310,9 +31019,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2025-04-10"
+      "workbook_modified": "2025-04-10",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-3090": {
       "wikitree_id": "Glasgow-3090",
@@ -30323,9 +31035,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2024-09-21"
+      "workbook_modified": "2024-09-21",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-3091": {
       "wikitree_id": "Glasgow-3091",
@@ -30436,9 +31151,13 @@
         "Glasgow-3098",
         "Glasgow-3143"
       ],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2024-09-21"
+      "workbook_modified": "2024-09-21",
+      "case_files": [
+        "findings.md",
+        "opr-birth-075-draft.md"
+      ]
     },
     "Glasgow-3098": {
       "wikitree_id": "Glasgow-3098",
@@ -30499,9 +31218,13 @@
         "Glasgow-3098",
         "Glasgow-3143"
       ],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2024-09-21"
+      "workbook_modified": "2024-09-21",
+      "case_files": [
+        "findings.md",
+        "opr-birth-120-draft.md"
+      ]
     },
     "Glasgow-31": {
       "wikitree_id": "Glasgow-31",
@@ -30551,9 +31274,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-03-27"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2025-03-27",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-3102": {
       "wikitree_id": "Glasgow-3102",
@@ -30564,9 +31290,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2024-09-24"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2024-09-24",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-3103": {
       "wikitree_id": "Glasgow-3103",
@@ -30581,6 +31310,8 @@
       "early_evidence": false,
       "workbook_modified": "2025-04-10",
       "case_files": [
+        "1698_Scotland_Edinburgh_James_Glasgow.md",
+        "Glasgow-3103.md",
         "findings.md"
       ]
     },
@@ -30593,9 +31324,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2024-09-21"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2024-09-21",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-3105": {
       "wikitree_id": "Glasgow-3105",
@@ -30619,9 +31353,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-04-19"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2025-04-19",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-3107": {
       "wikitree_id": "Glasgow-3107",
@@ -30639,9 +31376,12 @@
       "research_cases": [
         "Glasgow-1098"
       ],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2025-04-19"
+      "workbook_modified": "2025-04-19",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-3108": {
       "wikitree_id": "Glasgow-3108",
@@ -30652,9 +31392,14 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2025-04-23"
+      "workbook_modified": "2025-04-23",
+      "case_files": [
+        "Glasgow-3108.md",
+        "findings.md",
+        "opr-birth-027-draft.md"
+      ]
     },
     "Glasgow-3109": {
       "wikitree_id": "Glasgow-3109",
@@ -30708,9 +31453,13 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2025-07-13"
+      "workbook_modified": "2025-07-13",
+      "case_files": [
+        "1674_scotland_kirknewton_and_east_calder_margaret_glasgow.md",
+        "findings.md"
+      ]
     },
     "Glasgow-3115": {
       "wikitree_id": "Glasgow-3115",
@@ -30772,6 +31521,34 @@
       "workbook_modified": "2025-07-13",
       "case_files": [
         "findings.md"
+      ]
+    },
+    "Glasgow-3119": {
+      "wikitree_id": "Glasgow-3119",
+      "display_name": "Alexander Glasgow",
+      "birth_date": "1673-07-20",
+      "birth_location": "Kirknewton and East Calder, Midlothian, Scotland",
+      "death_date": "0000-00-00",
+      "death_location": null,
+      "relations": {
+        "children": [],
+        "parents": [],
+        "siblings": [],
+        "spouses": []
+      },
+      "research_cases": [
+        "Glasgow-3119"
+      ],
+      "direct_case": true,
+      "early_evidence": false,
+      "workbook_modified": "2025-04-26",
+      "case_files": [
+        "Glasgow-3119.md",
+        "evidence_index.json",
+        "findings.md",
+        "research_brief.md",
+        "research_plan.json",
+        "research_state.json"
       ]
     },
     "Glasgow-312": {
@@ -31066,6 +31843,34 @@
       "direct_case": false,
       "early_evidence": false,
       "workbook_modified": "2025-06-25"
+    },
+    "Glasgow-3137": {
+      "wikitree_id": "Glasgow-3137",
+      "display_name": "James Glasgow",
+      "birth_date": "1750-00-00",
+      "birth_location": "Corvanaghan, County Tyrone, Ireland",
+      "death_date": "0000-00-00",
+      "death_location": null,
+      "relations": {
+        "children": [],
+        "parents": [],
+        "siblings": [],
+        "spouses": []
+      },
+      "research_cases": [
+        "Glasgow-3137"
+      ],
+      "direct_case": true,
+      "early_evidence": false,
+      "workbook_modified": "2024-09-23",
+      "case_files": [
+        "Glasgow-3137.md",
+        "evidence_index.json",
+        "findings.md",
+        "research_brief.md",
+        "research_plan.json",
+        "research_state.json"
+      ]
     },
     "Glasgow-314": {
       "wikitree_id": "Glasgow-314",
@@ -31472,9 +32277,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2024-09-28"
+      "workbook_modified": "2024-09-28",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-3161": {
       "wikitree_id": "Glasgow-3161",
@@ -31507,9 +32315,13 @@
       "research_cases": [
         "Glasgow-1098"
       ],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2026-02-19"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2026-02-19",
+      "case_files": [
+        "findings.md",
+        "opr-birth-081-draft.md"
+      ]
     },
     "Glasgow-3163": {
       "wikitree_id": "Glasgow-3163",
@@ -31552,10 +32364,11 @@
         "Glasgow-991"
       ],
       "direct_case": true,
-      "early_evidence": false,
+      "early_evidence": true,
       "workbook_modified": "2026-07-16",
       "case_files": [
         "1540_Scotland_Corstoun_Andrew_Glasgow.md",
+        "1598_Scotland_Corsoun_Elizabeth_Stevenson.md",
         "Glasgow-3163.md",
         "evidence_index.json",
         "findings.md",
@@ -31615,7 +32428,8 @@
       "early_evidence": false,
       "workbook_modified": "2024-09-29",
       "case_files": [
-        "findings.md"
+        "findings.md",
+        "presentation.json"
       ]
     },
     "Glasgow-3168": {
@@ -31840,7 +32654,7 @@
         "Glasgow-3921"
       ],
       "direct_case": true,
-      "early_evidence": false,
+      "early_evidence": true,
       "workbook_modified": "2025-07-15",
       "case_files": [
         "Glasgow-3178.md",
@@ -31881,7 +32695,7 @@
         "Glasgow-3921"
       ],
       "direct_case": true,
-      "early_evidence": false,
+      "early_evidence": true,
       "workbook_modified": "2025-08-11",
       "case_files": [
         "Glasgow-3179.md",
@@ -31946,10 +32760,11 @@
         "Glasgow-3613"
       ],
       "direct_case": true,
-      "early_evidence": false,
+      "early_evidence": true,
       "workbook_modified": "2026-07-15",
       "case_files": [
         "Glasgow-3181.md",
+        "Hutcheson-1656.md",
         "evidence_index.json",
         "findings.md",
         "research_brief.md",
@@ -32019,8 +32834,22 @@
       "early_evidence": false,
       "workbook_modified": "2026-07-15",
       "case_files": [
+        "Glasgow-3183.md",
         "findings.md"
       ]
+    },
+    "Glasgow-3184": {
+      "wikitree_id": "Glasgow-3184",
+      "display_name": "Bessie Glasgow",
+      "birth_date": "1610-00-00",
+      "birth_location": "Mid Calder, Midlothian, Scotland",
+      "death_date": "0000-00-00",
+      "death_location": null,
+      "relations": {},
+      "research_cases": [],
+      "direct_case": false,
+      "early_evidence": false,
+      "workbook_modified": "2026-04-02"
     },
     "Glasgow-3185": {
       "wikitree_id": "Glasgow-3185",
@@ -32031,9 +32860,12 @@
       "death_location": "Saint Cuthberts, Edinburgh, Scotland",
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2025-07-11"
+      "workbook_modified": "2025-07-11",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-3186": {
       "wikitree_id": "Glasgow-3186",
@@ -32044,9 +32876,10 @@
       "death_location": "South Leith, Midlothian, Scotland",
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2024-09-30"
+      "workbook_modified": "2024-09-30",
+      "case_files": []
     },
     "Glasgow-3187": {
       "wikitree_id": "Glasgow-3187",
@@ -32077,9 +32910,13 @@
         "Glasgow-1030",
         "Glasgow-1098"
       ],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-07-12"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2025-07-12",
+      "case_files": [
+        "Glasgow-3187.md",
+        "findings.md"
+      ]
     },
     "Glasgow-3188": {
       "wikitree_id": "Glasgow-3188",
@@ -33351,9 +34188,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2025-04-10"
+      "workbook_modified": "2025-04-10",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-3285": {
       "wikitree_id": "Glasgow-3285",
@@ -33364,9 +34204,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2026-04-06"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2026-04-06",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-3288": {
       "wikitree_id": "Glasgow-3288",
@@ -33387,9 +34230,12 @@
         "Glasgow-1140",
         "Glasgow-3375"
       ],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-06-29"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2025-06-29",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-3289": {
       "wikitree_id": "Glasgow-3289",
@@ -33541,7 +34387,7 @@
         "children": [
           "Glasgow-1086",
           "Glasgow-1087",
-          "Glasgow-1086"
+          "Glasgow-3019"
         ],
         "parents": [
           "Glasgow-1029"
@@ -33551,7 +34397,7 @@
       },
       "research_cases": [
         "Glasgow-1098",
-        "Glasgow-1086",
+        "Glasgow-3019",
         "Glasgow-3296"
       ],
       "direct_case": true,
@@ -33795,9 +34641,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-05-06"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2025-05-06",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-3313": {
       "wikitree_id": "Glasgow-3313",
@@ -33821,9 +34670,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-04-02"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2025-04-02",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-3315": {
       "wikitree_id": "Glasgow-3315",
@@ -33834,9 +34686,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-07-08"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2025-07-08",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-3316": {
       "wikitree_id": "Glasgow-3316",
@@ -33847,9 +34702,13 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-08-27"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2025-08-27",
+      "case_files": [
+        "Glasgow-3316.md",
+        "findings.md"
+      ]
     },
     "Glasgow-3318": {
       "wikitree_id": "Glasgow-3318",
@@ -34102,7 +34961,7 @@
           "Glasgow-2731"
         ],
         "parents": [
-          "Glasgow-1086"
+          "Glasgow-3019"
         ],
         "siblings": [
           "Glasgow-3332"
@@ -34113,7 +34972,7 @@
         "Glasgow-1098",
         "Glasgow-1498",
         "Glasgow-2731",
-        "Glasgow-1086",
+        "Glasgow-3019",
         "Glasgow-3332",
         "Glasgow-591"
       ],
@@ -34139,7 +34998,7 @@
       "relations": {
         "children": [],
         "parents": [
-          "Glasgow-1086"
+          "Glasgow-3019"
         ],
         "siblings": [
           "Glasgow-3331"
@@ -34148,7 +35007,7 @@
       },
       "research_cases": [
         "Glasgow-1098",
-        "Glasgow-1086",
+        "Glasgow-3019",
         "Glasgow-3332",
         "Glasgow-591"
       ],
@@ -34231,9 +35090,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2025-04-10"
+      "workbook_modified": "2025-04-10",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-3339": {
       "wikitree_id": "Glasgow-3339",
@@ -34478,9 +35340,14 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2025-04-19"
+      "workbook_modified": "2025-04-19",
+      "case_files": [
+        "Glasgow-3357.md",
+        "findings.md",
+        "opr-birth-020-draft.md"
+      ]
     },
     "Glasgow-3358": {
       "wikitree_id": "Glasgow-3358",
@@ -34498,9 +35365,12 @@
       "research_cases": [
         "Glasgow-1149"
       ],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2025-04-19"
+      "workbook_modified": "2025-04-19",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-3359": {
       "wikitree_id": "Glasgow-3359",
@@ -34518,9 +35388,12 @@
       "research_cases": [
         "Glasgow-1149"
       ],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2025-04-19"
+      "workbook_modified": "2025-04-19",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-336": {
       "wikitree_id": "Glasgow-336",
@@ -34551,9 +35424,12 @@
       "research_cases": [
         "Glasgow-1149"
       ],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2025-04-19"
+      "workbook_modified": "2025-04-19",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-3361": {
       "wikitree_id": "Glasgow-3361",
@@ -34626,9 +35502,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2025-04-19"
+      "workbook_modified": "2025-04-19",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-3364": {
       "wikitree_id": "Glasgow-3364",
@@ -34639,9 +35518,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2025-04-19"
+      "workbook_modified": "2025-04-19",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-3365": {
       "wikitree_id": "Glasgow-3365",
@@ -34652,9 +35534,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2025-04-19"
+      "workbook_modified": "2025-04-19",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-3366": {
       "wikitree_id": "Glasgow-3366",
@@ -34810,6 +35695,19 @@
       "case_files": [
         "findings.md"
       ]
+    },
+    "Glasgow-3374": {
+      "wikitree_id": "Glasgow-3374",
+      "display_name": "James Glasgow",
+      "birth_date": "1630-00-00",
+      "birth_location": "Mid Calder, Midlothian, Scotland",
+      "death_date": "0000-00-00",
+      "death_location": null,
+      "relations": {},
+      "research_cases": [],
+      "direct_case": false,
+      "early_evidence": false,
+      "workbook_modified": "2025-04-26"
     },
     "Glasgow-3375": {
       "wikitree_id": "Glasgow-3375",
@@ -35156,6 +36054,19 @@
       "early_evidence": false,
       "workbook_modified": "2025-04-22"
     },
+    "Glasgow-3397": {
+      "wikitree_id": "Glasgow-3397",
+      "display_name": "Peter Glasgow",
+      "birth_date": "1762-10-10",
+      "birth_location": "West Calder, Midlothian, Scotland",
+      "death_date": "0000-00-00",
+      "death_location": "Bathgate, Linlithgowshire, Scotland",
+      "relations": {},
+      "research_cases": [],
+      "direct_case": false,
+      "early_evidence": false,
+      "workbook_modified": "2025-04-25"
+    },
     "Glasgow-3398": {
       "wikitree_id": "Glasgow-3398",
       "display_name": "Margaret Glasgow",
@@ -35234,6 +36145,19 @@
       "early_evidence": false,
       "workbook_modified": "2025-04-22"
     },
+    "Glasgow-3403": {
+      "wikitree_id": "Glasgow-3403",
+      "display_name": "John Glasgow",
+      "birth_date": "1740-00-00",
+      "birth_location": "West Calder, Midlothian, Scotland",
+      "death_date": "0000-00-00",
+      "death_location": null,
+      "relations": {},
+      "research_cases": [],
+      "direct_case": false,
+      "early_evidence": false,
+      "workbook_modified": "2025-04-22"
+    },
     "Glasgow-3404": {
       "wikitree_id": "Glasgow-3404",
       "display_name": "Andrew Glasgow",
@@ -35298,9 +36222,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-07-06"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2025-07-06",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-341": {
       "wikitree_id": "Glasgow-341",
@@ -35494,9 +36421,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-04-24"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2025-04-24",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-3423": {
       "wikitree_id": "Glasgow-3423",
@@ -35507,9 +36437,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-04-24"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2025-04-24",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-3424": {
       "wikitree_id": "Glasgow-3424",
@@ -35520,9 +36453,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-04-24"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2025-04-24",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-3425": {
       "wikitree_id": "Glasgow-3425",
@@ -35533,9 +36469,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-04-30"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2025-04-30",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-3426": {
       "wikitree_id": "Glasgow-3426",
@@ -35546,9 +36485,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-04-24"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2025-04-24",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-3427": {
       "wikitree_id": "Glasgow-3427",
@@ -36165,9 +37107,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-04-24"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2025-04-24",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-347": {
       "wikitree_id": "Glasgow-347",
@@ -36194,6 +37139,34 @@
       "direct_case": false,
       "early_evidence": false,
       "workbook_modified": "2025-04-30"
+    },
+    "Glasgow-3472": {
+      "wikitree_id": "Glasgow-3472",
+      "display_name": "Samuel Glasgow",
+      "birth_date": "1790-00-00",
+      "birth_location": null,
+      "death_date": "1875-00-00",
+      "death_location": "Ballymoney, County Londonderry, Ireland",
+      "relations": {
+        "children": [],
+        "parents": [],
+        "siblings": [],
+        "spouses": []
+      },
+      "research_cases": [
+        "Glasgow-3472"
+      ],
+      "direct_case": true,
+      "early_evidence": false,
+      "workbook_modified": "2025-04-24",
+      "case_files": [
+        "Glasgow-3472.md",
+        "evidence_index.json",
+        "findings.md",
+        "research_brief.md",
+        "research_plan.json",
+        "research_state.json"
+      ]
     },
     "Glasgow-3473": {
       "wikitree_id": "Glasgow-3473",
@@ -36273,9 +37246,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-04-24"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2025-04-24",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-3479": {
       "wikitree_id": "Glasgow-3479",
@@ -36403,9 +37379,12 @@
       "death_location": null,
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-04-24"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2025-04-24",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-3489": {
       "wikitree_id": "Glasgow-3489",
@@ -36822,9 +37801,40 @@
         "Glasgow-1075",
         "Glasgow-1140"
       ],
-      "direct_case": false,
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2025-04-26",
+      "case_files": [
+        "findings.md"
+      ]
+    },
+    "Glasgow-3515": {
+      "wikitree_id": "Glasgow-3515",
+      "display_name": "William Glasgow",
+      "birth_date": "1625-00-00",
+      "birth_location": "Kirknewton and East Calder, Midlothian, Scotland",
+      "death_date": "0000-00-00",
+      "death_location": null,
+      "relations": {
+        "children": [],
+        "parents": [],
+        "siblings": [],
+        "spouses": []
+      },
+      "research_cases": [
+        "Glasgow-3515"
+      ],
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2025-04-26"
+      "workbook_modified": "2025-08-28",
+      "case_files": [
+        "Glasgow-3515.md",
+        "evidence_index.json",
+        "findings.md",
+        "research_brief.md",
+        "research_plan.json",
+        "research_state.json"
+      ]
     },
     "Glasgow-3516": {
       "wikitree_id": "Glasgow-3516",
@@ -36843,9 +37853,12 @@
         "Glasgow-1098",
         "Glasgow-3078"
       ],
-      "direct_case": false,
+      "direct_case": true,
       "early_evidence": false,
-      "workbook_modified": "2025-04-26"
+      "workbook_modified": "2025-04-26",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-3517": {
       "wikitree_id": "Glasgow-3517",
@@ -36880,9 +37893,12 @@
         "Glasgow-3145",
         "Glasgow-991"
       ],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-04-26"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2025-04-26",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-3519": {
       "wikitree_id": "Glasgow-3519",
@@ -37012,9 +38028,12 @@
         "Glasgow-1075",
         "Glasgow-1140"
       ],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-06-29"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2025-06-29",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-3525": {
       "wikitree_id": "Glasgow-3525",
@@ -37232,9 +38251,13 @@
         "Glasgow-1557",
         "Glasgow-2456"
       ],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-05-06"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2025-05-06",
+      "case_files": [
+        "Glasgow-3539.md",
+        "findings.md"
+      ]
     },
     "Glasgow-3541": {
       "wikitree_id": "Glasgow-3541",
@@ -37332,6 +38355,29 @@
         "Glasgow-1075",
         "Glasgow-1140"
       ],
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2025-05-02",
+      "case_files": [
+        "findings.md"
+      ]
+    },
+    "Glasgow-3549": {
+      "wikitree_id": "Glasgow-3549",
+      "display_name": "William Glasgow",
+      "birth_date": "1704-08-20",
+      "birth_location": null,
+      "death_date": "0000-00-00",
+      "death_location": null,
+      "relations": {
+        "children": [],
+        "parents": [],
+        "siblings": [],
+        "spouses": []
+      },
+      "research_cases": [
+        "Glasgow-1073"
+      ],
       "direct_case": false,
       "early_evidence": false,
       "workbook_modified": "2025-05-02"
@@ -37354,9 +38400,12 @@
         "Glasgow-1075",
         "Glasgow-1140"
       ],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-05-06"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2025-05-06",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-3551": {
       "wikitree_id": "Glasgow-3551",
@@ -37398,9 +38447,12 @@
         "Glasgow-1075",
         "Glasgow-1140"
       ],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-05-02"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2025-05-02",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-3553": {
       "wikitree_id": "Glasgow-3553",
@@ -37420,9 +38472,12 @@
         "Glasgow-1075",
         "Glasgow-1140"
       ],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-05-02"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2025-05-02",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-3554": {
       "wikitree_id": "Glasgow-3554",
@@ -37475,7 +38530,7 @@
         "Glasgow-3556"
       ],
       "direct_case": true,
-      "early_evidence": false,
+      "early_evidence": true,
       "workbook_modified": "2025-05-12",
       "case_files": [
         "Glasgow-3556.md",
@@ -38235,6 +39290,40 @@
       "early_evidence": false,
       "workbook_modified": "2025-07-11"
     },
+    "Glasgow-3608": {
+      "wikitree_id": "Glasgow-3608",
+      "display_name": "John Glasgow",
+      "birth_date": "1590-00-00",
+      "birth_location": "Mid Calder, Midlothian, Scotland",
+      "death_date": "0000-00-00",
+      "death_location": "Mid Calder, Midlothian, Scotland",
+      "relations": {
+        "children": [
+          "Glasgow-1086",
+          "Glasgow-1087"
+        ],
+        "parents": [
+          "Glasgow-1029"
+        ],
+        "siblings": [],
+        "spouses": []
+      },
+      "research_cases": [
+        "Glasgow-1029",
+        "Glasgow-3608"
+      ],
+      "direct_case": true,
+      "early_evidence": false,
+      "workbook_modified": "2025-08-11",
+      "case_files": [
+        "Glasgow-3608.md",
+        "evidence_index.json",
+        "findings.md",
+        "research_brief.md",
+        "research_plan.json",
+        "research_state.json"
+      ]
+    },
     "Glasgow-361": {
       "wikitree_id": "Glasgow-361",
       "display_name": "William Thomas Glasgow",
@@ -38324,9 +39413,10 @@
         "Glasgow-3613"
       ],
       "direct_case": true,
-      "early_evidence": false,
+      "early_evidence": true,
       "workbook_modified": "2026-07-15",
       "case_files": [
+        "Edstoun-3.md",
         "Glasgow-3613.md",
         "evidence_index.json",
         "findings.md",
@@ -38712,6 +39802,19 @@
       "early_evidence": false,
       "workbook_modified": "2025-08-11"
     },
+    "Glasgow-3641": {
+      "wikitree_id": "Glasgow-3641",
+      "display_name": "Mathew Glasgow",
+      "birth_date": "1842-00-00",
+      "birth_location": "New Monkland, Lanarkshire, Scotland",
+      "death_date": "1914-00-00",
+      "death_location": "Blackridge, West Lothian, Scotland, United Kingdom",
+      "relations": {},
+      "research_cases": [],
+      "direct_case": false,
+      "early_evidence": false,
+      "workbook_modified": "2025-08-16"
+    },
     "Glasgow-3642": {
       "wikitree_id": "Glasgow-3642",
       "display_name": "Thelma Glasgow",
@@ -38880,6 +39983,34 @@
       "direct_case": false,
       "early_evidence": false,
       "workbook_modified": "2025-08-23"
+    },
+    "Glasgow-3654": {
+      "wikitree_id": "Glasgow-3654",
+      "display_name": "Isobel Glasgow",
+      "birth_date": "1648-02-03",
+      "birth_location": "Mid Calder, Midlothian, Scotland",
+      "death_date": "0000-00-00",
+      "death_location": null,
+      "relations": {
+        "children": [],
+        "parents": [],
+        "siblings": [],
+        "spouses": []
+      },
+      "research_cases": [
+        "Glasgow-3654"
+      ],
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2025-08-28",
+      "case_files": [
+        "Glasgow-3654.md",
+        "evidence_index.json",
+        "findings.md",
+        "research_brief.md",
+        "research_plan.json",
+        "research_state.json"
+      ]
     },
     "Glasgow-3655": {
       "wikitree_id": "Glasgow-3655",
@@ -39075,6 +40206,19 @@
       "direct_case": false,
       "early_evidence": false,
       "workbook_modified": "2025-09-11"
+    },
+    "Glasgow-3681": {
+      "wikitree_id": "Glasgow-3681",
+      "display_name": "William Glasgow",
+      "birth_date": "1813-00-00",
+      "birth_location": null,
+      "death_date": "0000-00-00",
+      "death_location": null,
+      "relations": {},
+      "research_cases": [],
+      "direct_case": false,
+      "early_evidence": false,
+      "workbook_modified": "2025-10-16"
     },
     "Glasgow-3682": {
       "wikitree_id": "Glasgow-3682",
@@ -41645,9 +42789,12 @@
       "research_cases": [
         "Glasgow-1075"
       ],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2026-06-03"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2026-06-03",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-3879": {
       "wikitree_id": "Glasgow-3879",
@@ -41941,6 +43088,21 @@
       "early_evidence": false,
       "workbook_modified": "2019-08-01"
     },
+    "Glasgow-3901": {
+      "wikitree_id": "Glasgow-3901",
+      "display_name": "Glasgow-3901",
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "relations": {},
+      "research_cases": [],
+      "direct_case": true,
+      "early_evidence": true,
+      "case_files": [
+        "findings.md"
+      ]
+    },
     "Glasgow-3902": {
       "wikitree_id": "Glasgow-3902",
       "display_name": "Adam Glasgow",
@@ -41975,6 +43137,7 @@
       "direct_case": true,
       "early_evidence": false,
       "case_files": [
+        "2026-09-13_alexander_parentage_check.md",
         "Glasgow-3902.md",
         "evidence_index.json",
         "findings.md",
@@ -42006,6 +43169,7 @@
         "Glasgow-3903.md",
         "evidence_index.json",
         "findings.md",
+        "profile.md",
         "research_brief.md",
         "research_plan.json",
         "research_state.json"
@@ -42035,6 +43199,7 @@
         "Glasgow-3904.md",
         "evidence_index.json",
         "findings.md",
+        "older_pair_source_search_2026-09-13.md",
         "research_brief.md",
         "research_plan.json",
         "research_state.json"
@@ -42230,7 +43395,9 @@
       "direct_case": true,
       "early_evidence": true,
       "case_files": [
-        "1673_Scotland_Quothquan_William_Glasgow.md"
+        "1673_Scotland_Quothquan_William_Glasgow.md",
+        "Glasgow-3912.md",
+        "findings.md"
       ]
     },
     "Glasgow-3913": {
@@ -42356,7 +43523,9 @@
         "spouses": []
       },
       "case_files": [
-        "1583_Scotland_Glasgow_Jonet_Glasgow.md"
+        "1583_Scotland_Glasgow_Jonet_Glasgow.md",
+        "Glasgow-3917.md",
+        "findings.md"
       ]
     },
     "Glasgow-3919": {
@@ -42609,6 +43778,22 @@
         "research_state.json"
       ]
     },
+    "Glasgow-3928": {
+      "wikitree_id": "Glasgow-3928",
+      "display_name": "Glasgow-3928",
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "relations": {},
+      "research_cases": [],
+      "direct_case": true,
+      "early_evidence": false,
+      "case_files": [
+        "Glasgow-3928.md",
+        "findings.md"
+      ]
+    },
     "Glasgow-3929": {
       "wikitree_id": "Glasgow-3929",
       "display_name": "Glasgow-3929",
@@ -42698,7 +43883,7 @@
         "Glasgow-3938"
       ],
       "direct_case": true,
-      "early_evidence": false,
+      "early_evidence": true,
       "case_files": [
         "Glasgow-3938.md",
         "evidence_index.json",
@@ -42706,6 +43891,22 @@
         "research_brief.md",
         "research_plan.json",
         "research_state.json"
+      ]
+    },
+    "Glasgow-3939": {
+      "wikitree_id": "Glasgow-3939",
+      "display_name": "Glasgow-3939",
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "relations": {},
+      "research_cases": [],
+      "direct_case": true,
+      "early_evidence": false,
+      "case_files": [
+        "findings.md",
+        "presentation.json"
       ]
     },
     "Glasgow-394": {
@@ -42733,7 +43934,8 @@
       "direct_case": true,
       "early_evidence": false,
       "case_files": [
-        "findings.md"
+        "findings.md",
+        "presentation.json"
       ]
     },
     "Glasgow-3941": {
@@ -42830,6 +44032,7 @@
       "direct_case": true,
       "early_evidence": false,
       "case_files": [
+        "1862_Ireland_Ballymena_Hugh_Glasgow.md",
         "Glasgow-3956.md",
         "findings.md"
       ]
@@ -42984,6 +44187,48 @@
         "profile.md"
       ]
     },
+    "Glasgow-3968": {
+      "wikitree_id": "Glasgow-3968",
+      "display_name": "James Glasgow",
+      "birth_date": "1685-00-00",
+      "birth_location": "Duneane, County Antrim, Ireland",
+      "death_date": "0000-00-00",
+      "death_location": null,
+      "relations": {
+        "children": [],
+        "parents": [],
+        "siblings": [],
+        "spouses": []
+      },
+      "research_cases": [
+        "Glasgow-3968"
+      ],
+      "direct_case": true,
+      "early_evidence": false,
+      "case_files": [
+        "Glasgow-3968.md",
+        "evidence_index.json",
+        "findings.md",
+        "research_brief.md",
+        "research_plan.json",
+        "research_state.json"
+      ]
+    },
+    "Glasgow-3969": {
+      "wikitree_id": "Glasgow-3969",
+      "display_name": "Glasgow-3969",
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "relations": {},
+      "research_cases": [],
+      "direct_case": true,
+      "early_evidence": false,
+      "case_files": [
+        "findings.md"
+      ]
+    },
     "Glasgow-397": {
       "wikitree_id": "Glasgow-397",
       "display_name": "Mary Moncrief",
@@ -43066,6 +44311,21 @@
         "research_brief.md",
         "research_plan.json",
         "research_state.json"
+      ]
+    },
+    "Glasgow-3974": {
+      "wikitree_id": "Glasgow-3974",
+      "display_name": "Glasgow-3974",
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "relations": {},
+      "research_cases": [],
+      "direct_case": true,
+      "early_evidence": false,
+      "case_files": [
+        "findings.md"
       ]
     },
     "Glasgow-3975": {
@@ -43339,7 +44599,8 @@
         "spouses": []
       },
       "case_files": [
-        "1598_Scotland_Corstoun_Andrew_Glasgow.md"
+        "1598_Scotland_Corstoun_Andrew_Glasgow.md",
+        "findings.md"
       ]
     },
     "Glasgow-4007": {
@@ -43367,7 +44628,8 @@
         "spouses": []
       },
       "case_files": [
-        "1598_Scotland_Corstoun_William_Glasgow.md"
+        "1598_Scotland_Corstoun_William_Glasgow.md",
+        "findings.md"
       ]
     },
     "Glasgow-4009": {
@@ -43608,6 +44870,7 @@
       "direct_case": true,
       "early_evidence": false,
       "case_files": [
+        "1831_Ireland_Cookstown_James_Glasgow.md",
         "Glasgow-4024.md",
         "findings.md"
       ]
@@ -43657,18 +44920,29 @@
     },
     "Glasgow-4031": {
       "wikitree_id": "Glasgow-4031",
-      "display_name": "Glasgow-4031",
-      "birth_date": null,
+      "display_name": "John Glasgow",
+      "birth_date": "1768-00-00",
       "birth_location": null,
-      "death_date": null,
+      "death_date": "1786-00-00",
       "death_location": null,
-      "relations": {},
-      "research_cases": [],
+      "relations": {
+        "children": [],
+        "parents": [],
+        "siblings": [],
+        "spouses": []
+      },
+      "research_cases": [
+        "Glasgow-4031"
+      ],
       "direct_case": true,
       "early_evidence": false,
       "case_files": [
         "Glasgow-4031.md",
-        "findings.md"
+        "evidence_index.json",
+        "findings.md",
+        "research_brief.md",
+        "research_plan.json",
+        "research_state.json"
       ]
     },
     "Glasgow-404": {
@@ -43773,6 +45047,53 @@
         "research_brief.md",
         "research_plan.json",
         "research_state.json"
+      ]
+    },
+    "Glasgow-4062": {
+      "wikitree_id": "Glasgow-4062",
+      "display_name": "Glasgow-4062",
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "relations": {},
+      "research_cases": [],
+      "direct_case": true,
+      "early_evidence": false,
+      "case_files": [
+        "1714_Scotland_Glencorse_Isobell_Glasgow.md",
+        "findings.md"
+      ]
+    },
+    "Glasgow-4063": {
+      "wikitree_id": "Glasgow-4063",
+      "display_name": "Glasgow-4063",
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "relations": {},
+      "research_cases": [],
+      "direct_case": true,
+      "early_evidence": true,
+      "case_files": [
+        "1559_England_Holkham_Robert_Glasgow.md",
+        "findings.md"
+      ]
+    },
+    "Glasgow-4070": {
+      "wikitree_id": "Glasgow-4070",
+      "display_name": "Glasgow-4070",
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "relations": {},
+      "research_cases": [],
+      "direct_case": true,
+      "early_evidence": false,
+      "case_files": [
+        "findings.md"
       ]
     },
     "Glasgow-408": {
@@ -48803,6 +50124,7 @@
         "Glasgow-822.md",
         "evidence_index.json",
         "findings.md",
+        "presentation.json",
         "research_brief.md",
         "research_plan.json",
         "research_state.json"
@@ -49393,9 +50715,12 @@
       "death_location": "Leadville, Jefferson, Tennessee, United States",
       "relations": {},
       "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2026-06-01"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2026-06-01",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-870": {
       "wikitree_id": "Glasgow-870",
@@ -50469,12 +51794,25 @@
       "workbook_modified": "2026-07-16",
       "case_files": [
         "Glasgow-951.md",
+        "dna-evidence-matrix.csv",
+        "dna-evidence-matrix.json",
+        "evidence-method.md",
         "evidence_index.json",
         "findings.md",
+        "glasgow_parentage_master_integration_2026-09-05.md",
+        "larne-reconstruction-2026-09-13.md",
+        "life-story.md",
         "male_candidate_audit_2026-08-05.md",
+        "parent_candidates.json",
+        "parentage-weight-review-2026-09-13.md",
+        "presentation.json",
+        "profile-evidence-review-2026-09-13.md",
+        "records_mentions.json",
+        "research-checks-2026-09-13.md",
         "research_brief.md",
         "research_plan.json",
-        "research_state.json"
+        "research_state.json",
+        "supplied-output-review-2026-09-13.md"
       ]
     },
     "Glasgow-953": {
@@ -50972,6 +52310,7 @@
         "Glasgow-987.md",
         "evidence_index.json",
         "findings.md",
+        "presentation.json",
         "research_brief.md",
         "research_plan.json",
         "research_state.json"
@@ -51114,7 +52453,8 @@
       "early_evidence": false,
       "workbook_modified": "2025-04-26",
       "case_files": [
-        "findings.md"
+        "findings.md",
+        "opr-marriage-1635-draft.md"
       ]
     },
     "Glasgow-993": {
@@ -51150,9 +52490,12 @@
         "Glasgow-3145",
         "Glasgow-991"
       ],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2024-09-28"
+      "direct_case": true,
+      "early_evidence": true,
+      "workbook_modified": "2024-09-28",
+      "case_files": [
+        "findings.md"
+      ]
     },
     "Glasgow-994": {
       "wikitree_id": "Glasgow-994",
@@ -51188,10 +52531,11 @@
         "Glasgow-991"
       ],
       "direct_case": true,
-      "early_evidence": false,
+      "early_evidence": true,
       "workbook_modified": "2025-04-10",
       "case_files": [
-        "1609_Scotland_Musselburgh_Eduard_Glasgow.md"
+        "1609_Scotland_Musselburgh_Eduard_Glasgow.md",
+        "findings.md"
       ]
     },
     "Glasgow-995": {

@@ -6,13 +6,14 @@
     "person_ids": [
       "Glasgow-3904"
     ],
-    "state": "working",
-    "assessment": "First named-couple hypothesis to investigate through the Thomas–Daniel relationship; not a demonstrated most-likely parental pair. The tradition concerns Thomas, and Alexander’s same-parent relationship remains unproved.",
+    "state": "excluded",
+    "assessment": "Contradicted for Alexander-951. The hypothesis reached Alexander only through supposed brotherhood with Thomas-987. Nancy Glasgow’s 1892 next-of-kin citation lists Alexander’s children but omits Thomas’s adult children at Lisnagaver, so Thomas was not Nancy’s brother and Alexander was not Thomas’s. The tradition remains a statement about Thomas’s parents only.",
     "supports": [
       "The late descendant account names Alexander and Rosanna as Thomas’s parents.",
       "Alexander and Thomas had contemporary local families and intersecting witness/tenancy networks; Daniel is Thomas’s proved brother."
     ],
     "objections": [
+      "Nancy Glasgow’s 1892 next-of-kin citation omits Thomas-987’s children while listing Alexander-951’s; Alexander and Thomas were not brothers, so Thomas’s traditional parents do not transfer to Alexander.",
       "The origin of the parent tradition and Alexander’s brotherhood are both unproved. Reposts and member trees do not supply independent confirmations.",
       "The 1834 occupier could be Alexander-951 himself; locality and holdings overlap as evidence of association.",
       "No independently documented tested descent from this older couple selects them genetically. Paternal half-brotherhood would not establish the same mother."
@@ -30,14 +31,15 @@
     "source_path": "research/Glasgow-951/presentation.json",
     "score_profile_id": "Glasgow-3904",
     "research_tier": "primary local explanation",
-    "verdict_label": "First named-couple hypothesis; possible"
+    "verdict_label": "Contradicted for Alexander-951 (17 September 2026)",
+    "assessment_date": "2026-09-17"
   },
   {
     "id": "unidentified-lisnagaver-robert",
-    "candidate": "Unidentified Robert Glasgow, Lisnagaver tithe occupier in 1834",
+    "candidate": "Unidentified Robert Glasgow, Lisnagaver tithe occupier in 1834 — now read as a probable brother, not father",
     "person_ids": [],
     "state": "open",
-    "assessment": "Open, unproved father hypothesis for the record-defined Lisnagaver occupier. Glasgow-1367 is the working profile reference; its identification with the Glenleslie man is unresolved.",
+    "assessment": "Recast 17 September 2026: Nancy’s citation names ‘Mary Jane and Ann, children of Robert Glasgow’ among her next of kin, i.e. a deceased brother Robert. The 1834 co-occupier (35 acres beside Alexander’s 29), Griffith’s Gortereghy Robert and the 1868 Ballymoney decedent aged 71 (b. c.1797) are compatible with that brother. He is no longer proposed as Alexander’s father; the daughters remain to be documented.",
     "supports": "The tithe separately records Robert and Alexander at Lisnagaver; a Robert also appears in the 1836 house section. This is a concrete local household route, but no age establishes an older generation.",
     "objections": "No age, wife or relationship is recorded. Glenleslie and Coltrim identities remain unproved. If the unassigned 1868 decedent aged 71 were this man, he would be only about 14–15 at Alexander’s c.1811 birth, weakening fatherhood; the c.1804 alternative implies about 7–8. The tithe occupier cannot yet be assigned that age. Acreage near-equality is retired evidence.",
     "source_links": [
@@ -63,7 +65,9 @@
     "score_label": "Record-defined lead",
     "score_note": "The 1834 occupier has not been identified with a unique profile, so the profile-based algorithm cannot assign a defensible numerical score.",
     "assertion_id": "C-robert-alexander-father-hypothesis",
-    "research_tier": "primary local explanation"
+    "research_tier": "primary local explanation",
+    "assessment_date": "2026-09-17",
+    "verdict_label": "Recast as probable brother; not a father candidate"
   },
   {
     "id": "glenleslie-robert-father",
@@ -72,8 +76,8 @@
     "person_ids": [
       "Glasgow-1367"
     ],
-    "state": "weak",
-    "assessment": "Biologically possible father remains open but weak; not the leading local candidate and not an endorsement of the retired pedigree attachment.",
+    "state": "excluded",
+    "assessment": "Contradicted: no member of the Glenleslie family (Margaret-3955’s Young children, Hugh, William, John-4055, Robert-1049 and his daughters, Samuel-1052) appears among Nancy Glasgow’s 1892 next of kin, which list Alexander’s children. Still the attached uncertain WikiTree father; proposed replacement is Glasgow-4090.",
     "supports": [
       "His age of 72 in the 1851 census gives an estimated birth about 1779.",
       "That age and his reported 1803 marriage allow a child of Alexander's approximate generation."
@@ -105,7 +109,9 @@
     "score_profile_id": "Glasgow-1367",
     "score_note": "The individual score uses c.1779 from the original 1851 Glenleslie census only for the separately stated Glenleslie identity. It does not assign that date to the unresolved 1834 Lisnagaver occupier.",
     "related_assertion_id": "C-robert-alexander-father-hypothesis",
-    "research_tier": "secondary comparison"
+    "research_tier": "secondary comparison",
+    "assessment_date": "2026-09-17",
+    "verdict_label": "Contradicted by the 1892 next-of-kin citation; still attached (uncertain) pending replacement"
   },
   {
     "id": "retired-robert-catherine-attachment",
@@ -204,23 +210,40 @@
   },
   {
     "id": "father-john-lisnagaver-branch",
-    "candidate": "John Glasgow, farmer: father of Lisnagaver John and probably Samuel",
-    "person_ids": [],
-    "state": "open",
-    "assessment": "Named-father model conditional on Alexander being another brother; father's profile identity unresolved.",
-    "supports": "John-867's 1846 marriage names father John Glasgow, farmer. The 1851 census proves John and Samuel were brothers; John was Alexander's neighbour.",
-    "objections": "No record calls Alexander their brother or extends the father statement to him. Farm adjacency is insufficient and the acreage argument has been retired. Do not identify this father automatically as Glasgow-1022.",
+    "candidate": "John Glasgow, farmer: father of John-867 and Samuel-2908, and on the 1892 next-of-kin reading of Alexander too",
+    "person_ids": [
+      "Glasgow-4090"
+    ],
+    "state": "working",
+    "assessment": "Leading hypothesis (plausible). Nancy Glasgow’s 14 January 1892 Clinton County probate citation lists the children of John-867 and the children of Alexander-951 in the same class of next of kin, together with the children of Robert, Jane Dysart, Elizabeth Anderson, Ann McClelland and Mary Thompson. On the legal form of that document all were Nancy’s deceased siblings; Alexander and John-867 were therefore brothers and share John-867’s recorded father. No record names Alexander’s father directly, and Glasgow-4090 is a record-defined placeholder for the named man.",
+    "supports": "John-867’s 1846 marriage names father John Glasgow, farmer. The 1851 census proves John and Samuel were brothers and Alexander’s neighbours. The 1892 citation groups Alexander’s children (James, Mary, Ann) with John-867’s (James Garvin, Ann, Elizabeth Ann/Lizzie) as Nancy’s next of kin; Nancy’s will calls Jane Dysart’s and Elizabeth Anderson’s children her niece and nephew; Nancy (b. c.1820–21) is too young to be Alexander’s daughter; Alexander died at Gortahar, the Andersons’ townland.",
+    "objections": "Inference from document structure, not a direct parent statement. Full and half siblings are indistinguishable in the citation. The newspaper text is known from an inspected clipping transcribed on Glasgow-4070, not re-imaged in this session. Identity of the named father with the 1796 Desertoghill flax grower (Glasgow-4090) is unproved.",
     "source_links": [
+      {
+        "href": "https://www.nyshistoricnewspapers.org/?a=d&d=plts18920226-01.1.6",
+        "label": "Plattsburgh Sentinel, 26 February 1892, p. 6: probate citation, estate of Nancy Glasgow"
+      },
+      {
+        "href": "https://www.familysearch.org/ark:/61903/3:1:33SQ-GYC4-66V?view=fullText",
+        "label": "Nancy Glasgow’s will, Clinton County Will Book Q, pp. 255–259"
+      },
       {
         "href": "https://www.irishgenealogy.ie/view/?record_id=cima-3156063",
         "label": "John Glasgow–Margaret Garvin marriage, 1846: father John"
+      },
+      {
+        "href": "https://www.census.nationalarchives.ie/pages/1851/Antrim/Kilconway/Rasharkin/Lisnagaver/34/",
+        "label": "1851 census, Lisnagaver house 34: John and brother Samuel"
       }
     ],
     "source_path": "research/Glasgow-951/findings.md",
     "score_profile_id": null,
-    "score_label": "Conditional model",
-    "score_note": "The father named John is not identified with a unique profile, so only the documentary model can be reviewed; a profile score would invent an identity.",
-    "research_tier": "primary local explanation"
+    "score_label": "Leading hypothesis",
+    "score_note": "The father is a record-named man represented by the placeholder Glasgow-4090; the chain is citation structure plus John-867’s marriage return.",
+    "research_tier": "primary local explanation",
+    "father_profile_id": "Glasgow-4090",
+    "verdict_label": "Leading father hypothesis; plausible",
+    "assessment_date": "2026-09-17"
   },
   {
     "id": "glenleslie-john-1022",

@@ -10,7 +10,7 @@ WEB = Path(__file__).resolve().parents[1] / 'www'
 QUESTIONS = (
     ('glasgow-951', 'Alexander Glasgow', 'c.1811',
      'Who were Alexander of Lisnagaver\'s parents?',
-     'The Larne reconstruction now compares James-1509 as Adam of Inishrush’s father, the older-Alexander and younger-James routes to Alexander, and Archibald’s missing son in South Carolina. It has positive chronological and genetic support, while the immediate father and exact joining generation remain unresolved.'),
+     'Leading hypothesis since 17 September 2026: his father was John Glasgow, farmer, the man named in John-867’s 1846 marriage. Nancy Glasgow’s 1892 Plattsburgh probate citation lists Alexander’s children and John-867’s children together as her next of kin, making the two men her brothers; the same document omits Thomas-987’s children, contradicting the older-Alexander/Rosanna route. No record yet names Alexander’s father directly; Nancy’s probate petition is the decisive target. The Larne reconstruction remains the wider-origin question.'),
     ('glasgow-822', 'John Glasgow', '1767',
      'Can the Bible John be identified with the Inishrush householder, and who were his parents?',
      'The 1831 identity is probable. John’s possible brotherhood with Adam makes the Larne James-1509 hypothesis testable alongside older Adam and Maria from the naming pattern. His nine-child Bible weakens direct fatherhood of Alexander, not collateral kinship.'),
@@ -24,7 +24,7 @@ QUESTIONS = (
 ADDITIONAL_QUESTIONS = (
     ('Larne, Inishrush & South Carolina', 'Where Alexander’s paternal family joins',
      'Was James of Larne Adam’s father, and was Tennessee Robert Archibald’s missing son?',
-     'The two family reconstructions fit without making Robert the Irish men’s father. Compare the Larne 1762 marriage and William’s 1815 will with Archibald’s 1818 adult-heir receipts; each can name a missing connection. The older-Alexander and younger-James routes remain competing explanations.',
+     'The two family reconstructions fit without making Robert the Irish men’s father. Compare the Larne 1762 marriage and William’s 1815 will with Archibald’s 1818 adult-heir receipts; each can name a missing connection. With the older-Alexander route contradicted for Alexander-951, the question is how John Glasgow, farmer, of Lisnagaver (from County Londonderry before c.1801) joins the wider paternal family.',
      '/people/glasgow-951.html#larne-reconstruction'),
     ('Hirmenschelis & the Huchesoun fragment', 'Margaret\'s surname and the associated testament',
      'Why was Andro Huchesoun\'s confirmation included with John Glasgow\'s record, and could it help identify Margaret?',

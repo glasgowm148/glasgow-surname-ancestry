@@ -1,15 +1,17 @@
 {
-  "assessment_date": "2026-09-14",
+  "assessment_date": "2026-09-17",
   "principal_locality": "Lisnagaver, Rasharkin parish",
   "principal_locality_href": "/branches/lisnagaver-rasharkin/",
-  "opening": "Alexander Glasgow’s documented family begins with Mary/Molly McCaughan and their children in the Rasharkin area. This account follows their household, farm and adult children, tests the probable 1888 death, and uses the descendant Y-DNA evidence to compare a wider Larne–Inishrush–South Carolina family reconstruction. His immediate parents remain unresolved.",
+  "opening": "Alexander Glasgow’s documented family begins with Mary/Molly McCaughan and their children in the Rasharkin area. This account follows their household, farm and adult children, tests the probable 1888 death, and uses the descendant Y-DNA evidence to compare a wider Larne–Inishrush–South Carolina family reconstruction. Since 17 September 2026 the leading hypothesis for his father is John Glasgow, farmer — the father named in John-867’s 1846 marriage — because Nancy Glasgow’s 1892 New York next-of-kin citation lists Alexander’s children and John-867’s children together as her nieces and nephews. No record yet names Alexander’s father directly.",
   "position": {
-    "answer": "Documented Lisnagaver family; confirmed descendant R-FT20271 branch; probable Gortahar death in 1888; parents unresolved.",
+    "answer": "Documented Lisnagaver family; confirmed descendant R-FT20271 branch; probable Gortahar death in 1888; father: leading hypothesis John Glasgow, farmer (plausible, from Nancy Glasgow’s 1892 next-of-kin citation), not yet proved.",
     "points": [
       "1851 census: all five household members transcribed; both spouses report first marriage in 1836.",
       "Six documented children; the 1838 child’s name and the early children’s deaths remain unresolved.",
       "R-FT20271 is confirmed for the tested descendant and James J’s line; their named common ancestor is unknown.",
       "The 1888 Gortahar death is the best-supported located match, with conflicting age and unresolved informant identity.",
+      "Nancy Glasgow’s 14 January 1892 probate citation (Plattsburgh) lists the children of John (Glasgow-867), Alexander, Robert, Jane Dysart, Elizabeth Anderson, Ann McClelland and Mary Thompson as her next of kin: on the legal form of the document these were her deceased siblings, so Alexander was Nancy’s brother and John-867’s brother, and shares John-867’s recorded father John Glasgow, farmer.",
+      "The same citation omits Thomas-987’s children and every Glenleslie relative, contradicting the older-Alexander/Rosanna route and the Robert-1367 attachment for Alexander-951.",
       "Larne is a priority origin hypothesis: compare James-1509 as Adam’s father and the older-Alexander or younger-James routes to Alexander; test Robert under Archibald on the American side."
     ]
   },
@@ -234,37 +236,94 @@
         "key": "parents",
         "title": "Parent hypotheses",
         "items": [
-          "Glasgow-3904",
+          {
+            "id": "Glasgow-4090",
+            "name": "John Glasgow, farmer",
+            "relationship": "father",
+            "status": "plausible",
+            "status_label": "Leading hypothesis; plausible, not proved",
+            "display": "proposed",
+            "reason": "Leading father hypothesis (plausible): John Glasgow, farmer, named in John-867’s 1846 marriage return. Nancy Glasgow’s 1892 next-of-kin citation places Alexander’s and John-867’s children in the same class of nieces and nephews, making the two men brothers. Glasgow-4090 (1796 Desertoghill flax grower) is a record-defined placeholder for that father, not an identified individual; mark uncertain."
+          },
+          "Glasgow-1367",
+          "Unknown-540856",
+          {
+            "id": "Glasgow-3904",
+            "name": "Alexander Glasgow (older)",
+            "relationship": "father",
+            "status": "contradicted",
+            "status_label": "Contradicted by the 1892 next-of-kin citation",
+            "display": "superseded",
+            "reason": "Contradicted for Alexander-951 since 17 September 2026: this hypothesis reached Alexander only through supposed brotherhood with Thomas, and Nancy Glasgow’s 1892 next-of-kin citation omits Thomas’s children while listing Alexander’s. The tradition remains a statement about Thomas’s parents only."
+          },
           {
             "name": "Rosanna (surname unknown)",
             "relationship": "mother",
-            "status": "possible",
-            "status_label": "Uncertain working mother",
-            "display": "proposed",
-            "reason": "The late tradition names Rosanna with older Alexander as Thomas’s parents; neither is established as Alexander-951’s parent."
-          },
-          "Glasgow-1367",
-          "Unknown-540856"
+            "status": "contradicted",
+            "status_label": "Contradicted with older Alexander",
+            "display": "superseded",
+            "reason": "Reached Alexander-951 only through the older-Alexander/Thomas route, which the 1892 citation contradicts."
+          }
         ]
       },
       {
         "key": "collateral",
-        "title": "Relevant collateral relatives",
+        "title": "Probable siblings and other collateral relatives",
         "items": [
+          {
+            "id": "Glasgow-4070",
+            "name": "Nancy Glasgow",
+            "relationship": "probable sister",
+            "status": "probable",
+            "status_label": "Probable; 1892 next-of-kin citation",
+            "basis": "research_assessment"
+          },
+          {
+            "id": "Glasgow-867",
+            "name": "John Glasgow",
+            "relationship": "probable brother",
+            "status": "probable",
+            "status_label": "Probable; 1892 next-of-kin citation",
+            "basis": "research_assessment"
+          },
+          {
+            "id": "Glasgow-2908",
+            "name": "Samuel Glasgow",
+            "relationship": "probable brother",
+            "status": "probable",
+            "status_label": "Probable; brother of John-867 in 1851",
+            "basis": "research_assessment"
+          },
+          {
+            "id": "Glasglow-11",
+            "name": "Jane (Glasgow) Dysart",
+            "relationship": "probable sister",
+            "status": "probable",
+            "status_label": "Probable; 1892 citation and will",
+            "basis": "research_assessment"
+          },
+          {
+            "id": "Glasgow-4071",
+            "name": "Elizabeth (Glasgow) Anderson",
+            "relationship": "probable sister",
+            "status": "probable",
+            "status_label": "Probable; 1892 citation and will",
+            "basis": "research_assessment"
+          },
           {
             "id": "Glasgow-987",
             "name": "Thomas Glasgow",
-            "relationship": "possible brother or cousin",
-            "status": "possible",
-            "status_label": "Possible; relationship unproved",
+            "relationship": "local network; not a brother",
+            "status": "contradicted",
+            "status_label": "Brotherhood contradicted by the 1892 citation",
             "basis": "research_assessment"
           },
           {
             "id": "Glasgow-3896",
             "name": "Daniel Glasgow",
-            "relationship": "possible brother or cousin",
-            "status": "possible",
-            "status_label": "Possible; relationship unproved",
+            "relationship": "local network; not a brother",
+            "status": "contradicted",
+            "status_label": "Excluded with Thomas",
             "basis": "research_assessment"
           }
         ]
@@ -283,6 +342,11 @@
       }
     ],
     "collateral": [
+      "Glasgow-4070",
+      "Glasgow-867",
+      "Glasgow-2908",
+      "Glasglow-11",
+      "Glasgow-4071",
       "Glasgow-987",
       "Glasgow-3896"
     ],
@@ -295,10 +359,11 @@
       "Glasgow-1052"
     ],
     "parent_hypotheses": [
-      "Glasgow-3904",
-      "Unknown-761034",
+      "Glasgow-4090",
       "Glasgow-1367",
-      "Unknown-540856"
+      "Unknown-540856",
+      "Glasgow-3904",
+      "Unknown-761034"
     ]
   },
   "family_reasons": {
@@ -309,11 +374,17 @@
     "Glasgow-3167": "Mary’s 1871 marriage names Alexander as her father and gives Lisnagaver as her residence.",
     "Glasgow-938": "The 1851 household and Robert’s 1866 marriage, which names Alexander as father, support this documented child relationship.",
     "Glasgow-3940": "Entry 106 is a concrete record of an unnamed child of Alex and Molly McAughern at Gortereagh in 1838. The parents are documented; no forename or precise death date is supplied.",
-    "Glasgow-3904": "This is the maintained working father hypothesis; the Thomas–Daniel network supplies a route to test, not a proved relationship.",
-    "Glasgow-1367": "This earlier imported proposal is retained as historical context but is superseded and not established.",
-    "Unknown-540856": "This imported attachment has no assessed documentary basis and is not treated as Alexander’s mother.",
-    "Glasgow-987": "Thomas is a relevant collateral comparator: Daniel’s will proves Thomas was Daniel’s brother, but Alexander’s relationship to Thomas remains possible rather than proved.",
-    "Glasgow-3896": "Daniel is relevant because his will proves Thomas was his brother; the further Alexander–Daniel relationship depends on the unproved Alexander–Thomas bridge."
+    "Glasgow-3904": "Contradicted for Alexander-951 since 17 September 2026: this hypothesis reached Alexander only through supposed brotherhood with Thomas, and Nancy Glasgow’s 1892 next-of-kin citation omits Thomas’s children while listing Alexander’s. The tradition remains a statement about Thomas’s parents only.",
+    "Glasgow-1367": "Contradicted: no member of the Glenleslie family appears among Nancy Glasgow’s 1892 next of kin, which list Alexander’s children. Retained only as the currently attached (uncertain) WikiTree father pending the proposed replacement by John Glasgow, farmer (Glasgow-4090, uncertain).",
+    "Unknown-540856": "Robert-1367’s wife; contradicted with him. No evidenced replacement mother exists, so the field is not to be blanked without the manager’s decision.",
+    "Glasgow-987": "Thomas is a local comparator only: Daniel’s will proves Thomas was Daniel’s brother, but Nancy Glasgow’s 1892 next-of-kin citation omits Thomas’s children while listing Alexander’s, so Alexander and Thomas were not brothers.",
+    "Glasgow-3896": "Daniel is Thomas’s proved brother; with Thomas excluded from Alexander’s sibling group by the 1892 citation, Daniel is not Alexander’s brother either.",
+    "Glasgow-4090": "Leading father hypothesis (plausible): John Glasgow, farmer, named in John-867’s 1846 marriage return. Nancy Glasgow’s 1892 next-of-kin citation places Alexander’s and John-867’s children in the same class of nieces and nephews, making the two men brothers. Glasgow-4090 (1796 Desertoghill flax grower) is a record-defined placeholder for that father, not an identified individual; mark uncertain.",
+    "Glasgow-4070": "Probable sister: her 1892 probate citation lists Alexander’s children James, Mary and Ann among her next of kin; her c.1820–21 birth excludes daughterhood.",
+    "Glasgow-867": "Probable brother: the citation lists his children James G., Ann and Lizzie in the same class; his 1846 marriage names father John Glasgow, farmer.",
+    "Glasgow-2908": "Probable brother: the 1851 census calls Samuel the brother of John-867, who is placed in Nancy's sibling group by the 1892 citation. Samuel died unmarried in 1875, so he is correctly absent from that citation.",
+    "Glasglow-11": "Probable sister: Nancy's will calls Margaret (Dysart) Kennedy her niece, the Rasharkin register records Margaret as the daughter of James Dysart and Jane Glascaw (Granagh, 1846), and the 1892 citation lists Jane's Dysart children beside Alexander's. Jane's own dates rest on an unsourced Dysart family tree.",
+    "Glasgow-4071": "Probable sister: Nancy's will calls Robert Anderson her nephew; the Rasharkin register records him as the son of James Anderson and Betty Glascaw (Drumack, 1834); the 1892 citation lists her sons David, James and Samuel Anderson of Gortahar, where Alexander died in 1888."
   },
   "family_sources": {
     "McCaughan-222": [
@@ -349,6 +420,18 @@
     "Glasgow-3896": [
       "will-daniel-1871",
       "marriage-daniel-neely-1888"
+    ],
+    "Glasgow-4090": [
+      "citation-nancy-1892",
+      "marriage-john-867-1846"
+    ],
+    "Glasgow-4070": [
+      "citation-nancy-1892",
+      "will-nancy-1889"
+    ],
+    "Glasgow-867": [
+      "citation-nancy-1892",
+      "marriage-john-867-1846"
     ]
   },
   "superseded_interpretations": [
@@ -367,6 +450,16 @@
     "limitation": "The genetic connection supports a targeted family reconstruction. Its exact Larne joining generation and Alexander’s immediate father remain unresolved; the American hypothesis proposes Robert-2769 only as James J’s father."
   },
   "research_tasks": [
+    {
+      "scope": "Parentage",
+      "what": "0. Does Nancy Glasgow’s probate file state each cited person’s relationship to her?",
+      "tests": "Clinton County Surrogate’s Court probate file for Nancy Glasgow (d. 31 October 1891): petition of Hiram Walworth, affidavit/schedule of heirs and next of kin, proof of service by publication. FamilySearch catalog 223236; the 1892–1898 guardianship/probate register (image 35) indexes the sequence.",
+      "status": "Will (Will Book Q, pp. 255–259) and register entry inspected; petition and heir schedule not yet located.",
+      "matters": "A schedule calling the Glasgow children ‘nephews and nieces’ or naming their fathers as Nancy’s brothers would convert the inferred sibling group into a stated one and confirm John Glasgow, farmer, as Alexander’s father; cousin wording would reopen the question.",
+      "priority": 0,
+      "status_date": "2026-09-17",
+      "provenance": "Next-of-kin reading of the 14 January 1892 citation, 17 September 2026"
+    },
     {
       "scope": "Identity and chronology",
       "what": "1. What kind of 1829 Lisnagaver occurrence is this Alexander?",
@@ -1096,7 +1189,7 @@
         "id": "life-household",
         "title": "Life and household",
         "purpose": "Establish the family and the places before testing uncertain identities",
-          "section_ids": [
+        "section_ids": [
           "biography",
           "household",
           "mary-parentage-research",

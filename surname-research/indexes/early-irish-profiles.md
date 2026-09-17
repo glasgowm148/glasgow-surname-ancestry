@@ -1,6 +1,6 @@
 # Irish Glasgow profiles before 1800
 
-**Snapshot candidates: 96 profiles. Evidence-audited working cohort: 94.**
+**Snapshot candidates: 97 profiles. Evidence-audited working cohort: 95.**
 
 > Generated navigation index. Snapshot candidates have an Irish birthplace, or an Irish death/residence when birthplace is missing. Manual cohort audits may correct the working century or exclude a profile whose supposed Irish event is unsupported; these overrides do not alter the workbook or WikiTree. County groupings follow the recorded place and do not prove origin, migration, or kinship.
 
@@ -18,18 +18,18 @@ Father status: **Confirmed by record** = a relational record plus a resolved ide
 | [Thomas Glasgow (1671)](https://www.wikitree.com/wiki/Glasgow-3556) | Retain with corrected evidence date | Donegal deeds prove Thomas was an adult in 1692-1695; County Donegal birth about 1670 is not proved. | [findings](../../research/Glasgow-3556/findings.md) |
 | [Reverend Patrick Glasgow (1680)](https://www.wikitree.com/wiki/Glasgow-635) | Exclude pending Irish evidence | Records support Maryland ministry from 1736 and death in 1753, not an Irish birth about 1680; a major biography calls him Scottish. | [findings](../../research/Glasgow-635/findings.md) |
 
-## 17th century (1600-1699) (9)
+## 17th century (1600-1699) (10)
 
 | Location | Profiles | Share | Confirmed | Plausible | Uncertain | Contradicted / unsupported | Not assessed |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| Ireland: County Antrim | 5 | 55.6% | 0 | 1 | 0 | 1 | 3 |
-| Ireland: County Donegal | 1 | 11.1% | 0 | 0 | 1 | 0 | 0 |
-| Ireland: County Armagh | 1 | 11.1% | 0 | 0 | 0 | 0 | 1 |
-| Ireland: County Dublin | 1 | 11.1% | 0 | 0 | 0 | 0 | 1 |
-| Ireland: other or unspecified | 1 | 11.1% | 0 | 0 | 0 | 0 | 1 |
-| **Total** | **9** | **100.0%** | **0** | **1** | **1** | **1** | **6** |
+| Ireland: County Antrim | 6 | 60.0% | 0 | 1 | 0 | 1 | 4 |
+| Ireland: County Donegal | 1 | 10.0% | 0 | 0 | 1 | 0 | 0 |
+| Ireland: County Armagh | 1 | 10.0% | 0 | 0 | 0 | 0 | 1 |
+| Ireland: County Dublin | 1 | 10.0% | 0 | 0 | 0 | 0 | 1 |
+| Ireland: other or unspecified | 1 | 10.0% | 0 | 0 | 0 | 0 | 1 |
+| **Total** | **10** | **100.0%** | **0** | **1** | **1** | **1** | **7** |
 
-### Ireland: County Antrim (5)
+### Ireland: County Antrim (6)
 
 | Person | Father / assessment | Assessment basis | Findings |
 | --- | --- | --- | --- |
@@ -38,6 +38,7 @@ Father status: **Confirmed by record** = a relational record plus a resolved ide
 | [Elizabeth Glasgow (1651)](https://www.wikitree.com/wiki/Glasgow-3961) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | [findings](../../research/Glasgow-3961/findings.md) |
 | [James Glasgow R.E (1678)](https://www.wikitree.com/wiki/Glasgow-3967) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | [findings](../../research/Glasgow-3967/findings.md) |
 | [Robert Glasgow (1678)](https://www.wikitree.com/wiki/Glasgow-1502) | [James Glasgow R.E (1651)](https://www.wikitree.com/wiki/Glasgow-1081)<br>**Contradicted / unsupported** | The 1669-1726 James identity is itself inferential, and no congregational or probate record reviewed names the older Robert as his son; Robert's current 1690-1772 dates also conflate him with Glasgow-1143. | [findings](../../research/Glasgow-1502/findings.md) |
+| [James Glasgow (1685)](https://www.wikitree.com/wiki/Glasgow-3968) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | [findings](../../research/Glasgow-3968/findings.md) |
 
 ### Ireland: County Donegal (1)
 
@@ -82,7 +83,7 @@ Father status: **Confirmed by record** = a relational record plus a resolved ide
 
 | Person | Father / assessment | Assessment basis | Findings |
 | --- | --- | --- | --- |
-| [Hugh Glasgow R.E (1705)](https://www.wikitree.com/wiki/Glasgow-1503) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | [findings](../../research/Glasgow-1503/findings.md) |
+| [Hugh Glasgow (1705)](https://www.wikitree.com/wiki/Glasgow-1503) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | [findings](../../research/Glasgow-1503/findings.md) |
 | [James Glasgow (1707)](https://www.wikitree.com/wiki/Glasgow-1504) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | [findings](../../research/Glasgow-1504/findings.md) |
 | [William Glasgow (1708)](https://www.wikitree.com/wiki/Glasgow-1505) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | [findings](../../research/Glasgow-1505/findings.md) |
 | [Robert Glasgow (1710)](https://www.wikitree.com/wiki/Glasgow-1143) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | [findings](../../research/Glasgow-1143/findings.md) |

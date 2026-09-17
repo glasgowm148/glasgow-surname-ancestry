@@ -1,8 +1,34 @@
 # Findings: Glasgow-867
 
-Last updated: 2026-09-05
+Last updated: 2026-09-17
 
 ## Current conclusion
+
+**17 September 2026 — sibling identification from Nancy Glasgow's probate
+citation.** The 14 January 1892 Clinton County citation in the estate of
+[Nancy Glasgow (Glasgow-4070)](https://www.wikitree.com/wiki/Glasgow-4070)
+lists "James G. Glasgow, Ann and Lizzie, the children of John Glasgow, late of
+Baladonly, county Antrim" among Nancy's heirs or next of kin. Those three are
+this John's children James **Garvin** Glasgow, Ann (Bellingham) and Elizabeth
+Ann (d. 1933 aged 84 on the family memorial). A New York probate citation had to
+name the heirs and next of kin; for an unmarried woman these were siblings and
+the children of deceased siblings. The citation names no sibling directly, so
+John was a **deceased brother of Nancy**, which supports the 24 June 1885
+Lisnagaver death (currently [Glasgow-3474](https://www.wikitree.com/wiki/Glasgow-3474))
+over the memorial transcription's 1895: a man alive in January 1892 would have
+been cited himself. "Baladonly" is Ballydonnelly, a Rasharkin-parish townland;
+no Glasgow held land there in the 1834 tithe or in Griffith's Valuation, so the
+association is unexplained. The same citation lists the children of
+[Alexander Glasgow (Glasgow-951)](https://www.wikitree.com/wiki/Glasgow-951) —
+James, Mary and Ann — and the children of Robert, Jane Dysart, Elizabeth
+Anderson, Ann McClelland and Mary Thompson. John, Alexander and those siblings
+therefore shared the father this John named in 1846, **John Glasgow, farmer**.
+The full argument, chronology and remaining gaps are in
+`research/Glasgow-951/findings.md` (*Nancy Glasgow's next-of-kin citation and
+Alexander's father*). Consequences for this profile: Glasgow-3474 is very
+probably the same man and should be assessed for merge; the father placeholder
+[Glasgow-4090](https://www.wikitree.com/wiki/Glasgow-4090) now also carries the
+proposed (uncertain) attachment of Alexander-951, Nancy-4070 and Elizabeth-4071.
 
 The 5 September master review confirms the direct John–Samuel brotherhood and
 John's named father, but it does not identify that older John as
