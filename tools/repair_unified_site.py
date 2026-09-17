@@ -352,6 +352,75 @@ def repair_catalogue() -> Counter[str]:
         if not path.exists() or path.read_text(encoding="utf-8") != page:
             path.write_text(page, encoding="utf-8")
             changed["catalogue_pages"] += 1
+
+    # The catalogue builder owns the search body, but its standalone shell is
+    # legacy.  Put that body inside the same unified shell used by the current
+    # homepage and person dossiers so /catalogue/ cannot silently regress.
+    source = (WEB / "catalogue.html").read_text(encoding="utf-8")
+    catalogue_main = re.search(r"<main\b[\s\S]*?</main>", source, flags=re.I)
+    unified = (WEB / "index.html").read_text(encoding="utf-8")
+    shell_main = re.search(r"<main\b[\s\S]*?</main>", unified, flags=re.I)
+    if not catalogue_main or not shell_main:
+        raise ValueError("catalogue or unified main container not found")
+    page = unified[:shell_main.start()] + catalogue_main.group(0) + unified[shell_main.end():]
+    page = re.sub(r'<body\b[^>]*>', '<body data-r-integrated="3" class="g-unified g-kind-catalogue r-v2 v3-site" data-g-path="/catalogue/" data-v3="true" data-repair="3.1-repair-1">', page, count=1, flags=re.I)
+    page = page.replace('<main>', '<main id="main" class="r-main v3-catalogue">', 1)
+    page = page.replace('<head>', '<head><base href="/">', 1)
+    # Load the catalogue rules first; the unified shell's scoped catalogue
+    # overrides must win, otherwise the legacy dark palette paints the new
+    # shell panels black.
+    page = page.replace(
+        '<link href="/assets/unified/site.css?v=3.1-repair-1" rel="stylesheet">',
+        '<link rel="stylesheet" href="/people/catalogue.css?v=20260915-light-palette-1">'
+        '<link href="/assets/unified/site.css?v=3.1-repair-1" rel="stylesheet">',
+        1,
+    )
+    page = page.replace(
+        '</head>',
+        '<style id="catalogue-unified-overrides">'
+        '.g-kind-catalogue .catalogue-statistics{background:var(--g-surface);border:1px solid var(--g-line);border-radius:8px;box-shadow:none;color:var(--g-ink)}'
+        '.g-kind-catalogue .catalogue-statistics h2{color:var(--g-ink)}'
+        '.g-kind-catalogue .statistics-summary>div{background:#f7f8f0;color:var(--g-ink);border-color:var(--g-line)}'
+        '.g-kind-catalogue .statistics-summary strong{color:var(--g-forest)}'
+        '.g-kind-catalogue .statistics-summary span,.g-kind-catalogue .statistics-panel p,.g-kind-catalogue .statistics-caution{color:var(--g-muted)}'
+        '.g-kind-catalogue .statistics-panel{background:var(--g-surface);border-color:var(--g-line);color:var(--g-ink)}'
+        '.g-kind-catalogue .statistics-panel h3{color:var(--g-ink)}'
+        '.g-kind-catalogue .statistics-bars li{border-color:var(--g-line)}'
+        '.g-kind-catalogue #statistics-detail,.g-kind-catalogue #statistics-detail>summary{background:#f1f3e9;color:var(--g-ink);border-color:var(--g-line)}'
+        '.g-kind-catalogue .catalogue-featured .browse-card,.g-kind-catalogue .catalogue-legend,.g-kind-catalogue .browse-section,.g-kind-catalogue .catalogue-about{background:var(--g-surface);border-color:var(--g-line);color:var(--g-ink)}'
+        '.g-kind-catalogue .catalogue-featured .browse-card strong,.g-kind-catalogue .catalogue-legend strong{color:var(--g-ink)}'
+        '.g-kind-catalogue .strong-match-preview,.g-kind-catalogue .wikitree-update-preview,.g-kind-catalogue .profile-workbench,.g-kind-catalogue .candidate-tabs,.g-kind-catalogue .candidate-card,.g-kind-catalogue .candidate-analysis{background:var(--g-surface);border-color:var(--g-line);color:var(--g-ink);box-shadow:none}'
+        '.g-kind-catalogue .wikitree-update-grid article,.g-kind-catalogue .strong-match-grid article{background:var(--g-surface)!important;border-color:var(--g-line)!important;color:var(--g-ink)!important;box-shadow:none}'
+        '.g-kind-catalogue .wikitree-update-grid article h3,.g-kind-catalogue .strong-match-grid article h4,.g-kind-catalogue .wikitree-update-grid article a,.g-kind-catalogue .strong-match-grid article a{color:var(--g-forest)!important}'
+        '.g-kind-catalogue .wikitree-update-grid article p,.g-kind-catalogue .strong-match-grid article p,.g-kind-catalogue .strong-match-grid article small{color:var(--g-muted)!important}'
+        '.g-kind-catalogue .strong-match-grid li{border-color:var(--g-line)!important}'
+        '.g-kind-catalogue .strong-match-preview h3,.g-kind-catalogue .wikitree-update-preview h2,.g-kind-catalogue .candidate-card h4,.g-kind-catalogue .candidate-role-group>h4{color:var(--g-ink)}'
+        '.g-kind-catalogue .strong-match-preview p,.g-kind-catalogue .wikitree-update-preview p,.g-kind-catalogue .candidate-card p,.g-kind-catalogue .candidate-card li,.g-kind-catalogue .match-clue-list li{color:var(--g-muted)}'
+        '.g-kind-catalogue .legend-grid p,.g-kind-catalogue .search-result,.g-kind-catalogue .catalogue-result-card,.g-kind-catalogue .page-disclosure{background:var(--g-surface);border-color:var(--g-line);color:var(--g-ink)}'
+        '.g-kind-catalogue .table-wrap,.g-kind-catalogue table{background:var(--g-surface);border-color:var(--g-line);color:var(--g-ink)}'
+        '.g-kind-catalogue th,.g-kind-catalogue .catalogue-results-table th,.g-kind-catalogue .catalogue-location-group th,.g-kind-catalogue .catalogue-family-group th{background:#e8eddf!important;color:var(--g-ink)!important;border-color:var(--g-line)!important;position:sticky;top:0}'
+        '.g-kind-catalogue .catalogue-sort{background:transparent!important;color:var(--g-ink)!important}'
+        '.g-kind-catalogue td{background:var(--g-surface);color:var(--g-ink);border-color:var(--g-line)}'
+        '.g-kind-catalogue .catalogue-results-table td:first-child{background:var(--g-surface)}'
+        '.g-kind-catalogue .catalogue-location-card-heading,.g-kind-catalogue .catalogue-family-group th,.g-kind-catalogue .catalogue-location-path-group th{background:#e8eddf!important;color:var(--g-ink)!important}'
+        '.g-kind-catalogue .catalogue-family-toggle,.g-kind-catalogue .catalogue-tree-context-controls{background:#f1f3e9;color:var(--g-ink);border-color:var(--g-line)}'
+        '.g-kind-catalogue .catalogue-group-controls,.g-kind-catalogue .catalogue-result-options{color:var(--g-ink)}'
+        '.g-kind-catalogue .catalogue-result-options select,.g-kind-catalogue .catalogue-search select{background:var(--g-surface);color:var(--g-ink);border-color:var(--g-line)}'
+        '.g-kind-catalogue .catalogue-result-toolbar{color:var(--g-ink)}'
+        '.g-kind-catalogue .catalogue-gender-toggle{display:flex;align-items:center;gap:0;min-height:38px;padding:3px;border:1px solid var(--g-line);border-radius:999px;background:#f1f3e9;color:var(--g-ink)}'
+        '.g-kind-catalogue .catalogue-gender-toggle>span{margin:0 8px 0 9px;color:var(--g-muted);font-size:.72rem;font-weight:850;text-transform:uppercase}'
+        '.g-kind-catalogue .catalogue-gender-toggle label{display:flex;align-items:center;cursor:pointer}'
+        '.g-kind-catalogue .catalogue-gender-toggle input{position:absolute;opacity:0;pointer-events:none}'
+        '.g-kind-catalogue .catalogue-gender-toggle label span{padding:7px 10px;border-radius:999px;color:var(--g-muted);font-size:.75rem;font-weight:800}'
+        '.g-kind-catalogue .catalogue-gender-toggle label:has(input:checked) span{background:var(--g-forest);color:#fff}'
+        '</style></head>',
+        1,
+    )
+    page = page.replace('</body>', '<script src="/people/search.js?v=20260915-family-search-2" defer></script></body>', 1)
+    path = WEB / "catalogue/index.html"
+    if path.read_text(encoding="utf-8") != page:
+        path.write_text(page, encoding="utf-8")
+        changed["catalogue_unified_shell"] += 1
     return changed
 
 

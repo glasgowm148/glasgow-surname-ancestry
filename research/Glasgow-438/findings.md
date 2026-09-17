@@ -1,6 +1,23 @@
 # Findings: [Ann (Glasgow) McCracken (Glasgow-438)](https://www.wikitree.com/wiki/Glasgow-438)
 
-Last updated: 2026-09-13
+Last updated: 2026-09-17
+
+## New identity and relationship lead involving Ann Glasgow, 14 February 1867
+
+The original civil birth return records Mary Ellen born at Lisnagaver to a
+mother named Mary Glasgow, with no father entered. Ann Glasgow of Lisnagaver
+was present at the birth and registered it. This is a new Glasgow-associated
+record and is relevant to [[Glasgow-438|Ann Glasgow]] because the informant's
+name and place match her documented 1851 household and later Lisnagaver
+marriage residence.
+
+The return does not identify the informant's age, parentage, or relationship to
+the mother. It is therefore only a possible association with Ann-438, not proof
+that she was the informant or that Mary Glasgow was her sister.
+
+Source: [IrishGenealogy civil birth record](https://www.irishgenealogy.ie/view?record_id=f66be225e5-6827480),
+[original 1867 birth return](https://www.irishgenealogy.ie/files/civil/birth_returns/births_1867/03501/2286677.pdf),
+entry 214, Ballymoney union, County Antrim, accessed 17 September 2026.
 
 ## Current conclusion
 

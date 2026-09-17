@@ -1,0 +1,12 @@
+# Cost-conscious defaults for local AI-assisted research.
+# Keep the API key in .env or the shell environment; never commit it here.
+
+[openrouter]
+base_url = "https://openrouter.ai/api/v1"
+model = "stealth/union-alpha"
+app_name = "Glasgow Surname Ancestry"
+
+[agents]
+research = "stealth/union-alpha"
+review = "stealth/union-alpha"
+mechanical = "stealth/union-alpha"

@@ -1,6 +1,25 @@
 # Findings: [James Glasgow (Glasgow-973)](https://www.wikitree.com/wiki/Glasgow-973)
 
-Last updated: 2026-09-13
+Last updated: 2026-09-17
+
+## New parentage lead from Lisnagaver birth record: John Glasgow, 3 October 1887
+
+The original civil birth return records John Glasgow born at Lisnagaver on 3
+October 1887. His father is recorded as James Glasgow, farmer, of Lisnagaver;
+his mother is Eliza Ann Glasgow, formerly Lappin. James Glasgow, of Lisnagaver,
+was the informant and is identified as the father in the return.
+
+This is a strong new candidate record for a child of [[Glasgow-973|James
+Glasgow]], whose documented 1843 birth and 1851 household also place him at
+Lisnagaver. The age and occupation are compatible, but the return does not give
+the father's age, birth date, or parentage. Another James Glasgow cannot yet be
+excluded, so the record must not be added as a structured child relationship or
+used to identify the later Michigan man as fact.
+
+Source: [IrishGenealogy civil birth record](https://www.irishgenealogy.ie/view?record_id=f66be225e5-4072024),
+[original 1887 birth return](https://www.irishgenealogy.ie/files/civil/birth_returns/births_1887/02541/1940589.pdf),
+entry 352, Dervock registrar's district, Ballymoney union, County Antrim,
+accessed 17 September 2026.
 
 ## Current conclusion
 

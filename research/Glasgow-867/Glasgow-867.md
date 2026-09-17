@@ -13,7 +13,7 @@ eight, implying birth about 1816 or 1817.<ref name="Lisnagaver1851">[https://www
 
 John married [[Garvin-1831|Margaret Garvin]] on 16 November 1846. The original
 register describes him as a bachelor farmer of Lisnagaver and names his father
-as '''John Glasgow, farmer'''. Margaret was a spinster.<ref name="JohnMarriage1846">[https://www.irishgenealogy.ie/view/?record_id=cima-3156063 IrishGenealogy.ie], civil marriage registration of John Glasgow and Margaret Garvin, 16 November 1846, Ballymena registration district, group registration ID 3156063.</ref>
+as '''John Glasgow, farmer'''. Margaret was a spinster.<ref name="JohnMarriage1846">[https://www.irishgenealogy.ie/view/?record_id=cima-3156063 IrishGenealogy.ie], civil marriage registration of John Glasgow and Margaret Garvin, 16 November 1846, Ballymena registration district, group registration ID 3156063; [https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1846/09306/5369439.pdf original register image].</ref>
 Her father was '''James Garvin, farmer'''. James Garvin and Ann Kelly witnessed
 the marriage.<ref name="JohnMarriage1846" />
 

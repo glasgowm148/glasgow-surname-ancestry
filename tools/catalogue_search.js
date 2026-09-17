@@ -10,7 +10,7 @@
   const scriptUrl=document.currentScript&&document.currentScript.src;
   const indexUrl=new URL('../data/catalogue-search-index.json',scriptUrl||window.location.href);
   const ids={
-    query:'catalogue-query',exact:'catalogue-exact-name',first:'catalogue-first-name',last:'catalogue-last-name',
+    query:'catalogue-query',exact:'catalogue-exact-name',name:'catalogue-name',sibling:'catalogue-sibling-name',child:'catalogue-child-name',
     dateType:'catalogue-date-type',from:'catalogue-date-from',to:'catalogue-date-to',spouse:'catalogue-spouse-name',
     father:'catalogue-father-name',mother:'catalogue-mother-name',location:'catalogue-location',
     locationType:'catalogue-location-type',
@@ -21,8 +21,12 @@
     wives:'catalogue-women-married-glasgow',glasgowBirth:'catalogue-glasgow-at-birth',suffix:'catalogue-has-suffix'
   };
   const controls=Object.fromEntries(Object.entries(ids).map(([key,id])=>[key,document.getElementById(id)]));
-  const textParams={q:'query',first:'first',last:'last',dateType:'dateType',from:'from',to:'to',spouse:'spouse',father:'father',mother:'mother',locationType:'locationType',location:'location',excludeDeath:'excludeDeath',region:'region',cluster:'cluster',recordType:'recordType',quality:'sourceQuality'};
-  const flagParams={exact:'exact',males:'males',missingFather:'missingFather',missingMother:'missingMother',missingProfile:'missingProfile',needsUpdate:'needsUpdate',descendants:'descendants',wives:'wives',glasgowBirth:'glasgowBirth',suffix:'suffix'};
+  const legacyGender=controls.males;
+  let genderInputs=[];
+  if(legacyGender){const label=legacyGender.closest('label');if(label) label.outerHTML='<div class="catalogue-gender-toggle" aria-label="Gender" role="group"><span>Gender</span><label><input name="catalogue-gender" type="radio" value="male"><span>Male</span></label><label><input name="catalogue-gender" type="radio" value="female"><span>Female</span></label><label><input checked name="catalogue-gender" type="radio" value="both"><span>Both</span></label></div>';genderInputs=[...form.querySelectorAll('input[name="catalogue-gender"]')];}
+  const selectedGender=()=>genderInputs.find(input=>input.checked)?.value||'both';
+  const textParams={q:'query',name:'name',sibling:'sibling',child:'child',dateType:'dateType',from:'from',to:'to',spouse:'spouse',father:'father',mother:'mother',locationType:'locationType',location:'location',excludeDeath:'excludeDeath',region:'region',cluster:'cluster',recordType:'recordType',quality:'sourceQuality'};
+  const flagParams={exact:'exact',missingFather:'missingFather',missingMother:'missingMother',missingProfile:'missingProfile',needsUpdate:'needsUpdate',descendants:'descendants',wives:'wives',glasgowBirth:'glasgowBirth',suffix:'suffix'};
   // Search filters start expanded on desktop and mobile; visitors can collapse them.
   const normaliseLiteral=value=>String(value||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').replace(/\s+/g,' ').trim();
   const normalise=value=>normaliseLiteral(value).replace(/\b(?:glasco|glascow|glasgo|glascoe|glassco|glassgow|glasow|glasoe|glassgo|glasko)\b/g,'glasgow');
@@ -102,12 +106,13 @@
     count.dataset.state=state;
   }
   function hasActiveFilter(){
-    return Object.values(controls).some(control=>control&&(control.type==='checkbox'?control.checked:Boolean(control.value.trim())));
+    return selectedGender()!=='both'||Object.entries(controls).some(([key,control])=>control&&key!=='males'&&(control.type==='checkbox'?control.checked:Boolean(control.value.trim())));
   }
   function updateClear(){
     clear.disabled=!hasActiveFilter();
   }
   function prepare(source){
+    const parentGroups=new Map();
     source.forEach(person=>{
       const relations=[relationText(person.spouses),relationText(person.father),relationText(person.mother),relationText(person.children)];
       const identity=[person.name,...(person.profile_ids||[]),...(person.first_names||[]),
@@ -131,6 +136,10 @@
       person._firstExact=normaliseLiteral((person.first_names||[]).join(' ')||person.name);
       person._lastExact=normaliseLiteral([...(person.last_names_at_birth||[]),...(person.last_names_current||[])].join(' ')||person.name);
       person._relations={spouse:normalise(relations[0]),father:normalise(relations[1]),mother:normalise(relations[2])};
+      person._nameFilter=normalise([...(person.first_names||[]),...(person.last_names_at_birth||[]),...(person.last_names_current||[])].join(' '));
+      person._children=normalise(relationText(person.children));
+      person._parentIds=[...(person.father||[]),...(person.mother||[])].map(relation=>normaliseLiteral(relation.id)).filter(Boolean);
+      person._parentIds.forEach(parentId=>{if(!parentGroups.has(parentId)) parentGroups.set(parentId,[]);parentGroups.get(parentId).push(person);});
       person._location=normalise([...(person.locations||[]),...(person.location_aliases||[]),...(person.regions||[])].join(' '));
       person._birthLocation=normalise(person.birth_location);
       person._deathLocation=normalise(person.death_location);
@@ -139,6 +148,7 @@
       person._recordTypes=normalise((person.record_types||[]).join(' '));
       person._qualities=normalise((person.source_qualities||[]).join(' '));
     });
+    source.forEach(person=>{const siblings=new Map();person._parentIds.forEach(parentId=>(parentGroups.get(parentId)||[]).forEach(sibling=>{if(sibling!==person) siblings.set(sibling.id,sibling);}));person._siblings=normalise([...siblings.values()].flatMap(sibling=>[sibling.name,...(sibling.last_names_current||[]),...(sibling.last_names_at_birth||[])].join(' ')));});
     return source;
   }
   function loadPeople(){
@@ -177,7 +187,7 @@
     return {
       query:queryNormaliser(controls.query.value).split(' ').filter(Boolean),
       phrase:queryNormaliser(controls.query.value),exact:controls.exact.checked,
-      first:normalise(controls.first.value),last:birthSurnameOnly?'':normalise(controls.last.value),
+      name:normalise(controls.name.value),sibling:normalise(controls.sibling.value),child:normalise(controls.child.value),
       birthSurname:normalise(birthSurnameOnly),
       spouse:marriageSurnameOnly?'':normalise(controls.spouse.value),marriageSurname:canonicalMarriageSurname(marriageSurnameOnly),father:normalise(controls.father.value),mother:normalise(controls.mother.value),
       dateType:controls.dateType.value,locationType:controls.locationType.value,
@@ -190,9 +200,10 @@
     if(filters.exact){
       if(filters.query.some(term=>!person._identityExactTokens.has(term))) return false;
     }else if(filters.query.some(term=>!person._search.includes(term))) return false;
-    if(filters.first&&!person._first.includes(filters.first)) return false;
+    if(filters.name&&!filters.name.split(' ').every(term=>person._nameFilter.includes(term))) return false;
+    if(filters.sibling&&!filters.sibling.split(' ').every(term=>person._siblings.includes(term))) return false;
+    if(filters.child&&!filters.child.split(' ').every(term=>person._children.includes(term))) return false;
     if(filters.birthSurname&&!person._birthLastNames.includes(filters.birthSurname)) return false;
-    if(filters.last&&!person._last.includes(filters.last)) return false;
     if(filters.spouse&&!person._relations.spouse.includes(filters.spouse)) return false;
     if(filters.marriageSurname&&(!person._birthLastNames.includes('glasgow')||!person._marriageSurnames.includes(filters.marriageSurname))) return false;
     if(filters.father&&!person._relations.father.includes(filters.father)) return false;
@@ -206,7 +217,7 @@
     if(filters.excluded.some(term=>normaliseDeath(person.death_location).includes(term))) return false;
     const dateYears=filters.dateType==='birth'?[person.birth_year]:filters.dateType==='death'?[person.death_year]:(person.date_years||[]);
     if((filters.from!==null||filters.to!==null)&&!dateYears.some(year=>Number.isFinite(year)&&(filters.from===null||year>=filters.from)&&(filters.to===null||year<=filters.to))) return false;
-    if(controls.males.checked&&String(person.gender).toLowerCase()!=='male') return false;
+    if(selectedGender()!=='both'&&String(person.gender).toLowerCase()!==selectedGender()) return false;
     if(controls.missingFather.checked&&!person.missing_father) return false;
     if(controls.missingMother.checked&&!person.missing_mother) return false;
     if(controls.missingProfile.checked&&!person.missing_profile) return false;
@@ -297,11 +308,11 @@
   function updateUrl(){
     if(location.protocol==='file:') return;
     const params=new URLSearchParams();
-    Object.entries(textParams).forEach(([param,key])=>{if(key!=='last'&&controls[key].value.trim()) params.set(param,controls[key].value.trim());});
+    Object.entries(textParams).forEach(([param,key])=>{if(controls[key].value.trim()) params.set(param,controls[key].value.trim());});
     if(birthSurnameOnly) params.set('birthSurname',birthSurnameOnly);
-    else if(controls.last.value.trim()) params.set('last',controls.last.value.trim());
     if(marriageSurnameOnly) params.set('marriageSurname',marriageSurnameOnly);
     Object.entries(flagParams).forEach(([param,key])=>{if(controls[key].checked) params.set(param,'1');});
+    if(selectedGender()!=='both') params.set('gender',selectedGender());
     if(sortMode!=='relevance') params.set('sort',sortMode);
     if(groupLocations) params.set('groupLocation','1');
     if(groupFamilies) params.set('groupFamily','1');
@@ -328,10 +339,11 @@
     const params=new URLSearchParams(location.search);
     Object.entries(textParams).forEach(([param,key])=>{const value=params.get(param);if(value!==null) controls[key].value=value;});
     birthSurnameOnly=params.get('birthSurname')||'';
-    if(birthSurnameOnly) controls.last.value=birthSurnameOnly;
     marriageSurnameOnly=params.get('marriageSurname')||'';
     if(marriageSurnameOnly) controls.spouse.value=marriageSurnameOnly;
     Object.entries(flagParams).forEach(([param,key])=>{controls[key].checked=/^(?:1|true|yes)$/i.test(params.get(param)||'');});
+    const requestedGender=params.get('gender')||(params.has('males')?'male':'both');
+    genderInputs.forEach(input=>{input.checked=input.value===requestedGender;});
     const requestedSort=params.get('sort');
     if(requestedSort==='family:asc'){
       groupFamilies=true;
@@ -864,12 +876,13 @@
   const schedule=()=>{clearTimeout(timer);updateClear();setStatus('Searching…','busy');timer=setTimeout(()=>render(),160);};
   form.addEventListener('submit',event=>{event.preventDefault();clearTimeout(timer);sortMode='relevance';render({scroll:true});});
   form.querySelectorAll('input,select').forEach(input=>input.addEventListener(input.type==='checkbox'||input.tagName==='SELECT'?'change':'input',()=>{
-    if(input===controls.last) birthSurnameOnly='';
+    if(input===controls.name) birthSurnameOnly='';
     if(input===controls.spouse) marriageSurnameOnly='';
     schedule();
   }));
   clear.addEventListener('click',()=>{
-    form.querySelectorAll('input,select').forEach(input=>{if(input.type==='checkbox') input.checked=false;else input.value='';});
+    form.querySelectorAll('input,select').forEach(input=>{if(input.type==='checkbox'||input.type==='radio') input.checked=false;else input.value='';});
+    genderInputs.find(input=>input.value==='both').checked=true;
     birthSurnameOnly='';
     marriageSurnameOnly='';
     sortMode='relevance';

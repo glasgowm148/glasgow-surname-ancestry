@@ -268,6 +268,8 @@ Before changing a WikiTree relationship status, inspect the visible labels and t
 
 ## Preserve live WikiTree edits during browser work
 
+- WikiTree biography text uses WikiTree markup, not Markdown: use `'''bold'''`, `''italic''`, `[[WikiTree-ID|Display Name]]`, `[https://example.com display text]` and `<ref>...</ref>`. Before saving a profile, inspect inserted text for Markdown `**bold**` or other syntax that WikiTree will not render.
+
 - When the user asks to apply or “do all” items in a profile-evidence queue, do not
   treat triage, a HOLD decision, or a no-change review as a completed profile edit.
   Compare every managed live biography and its citations line by line with the

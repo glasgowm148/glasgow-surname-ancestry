@@ -1,7 +1,110 @@
 # Findings: Glasgow-951
 
-Last updated: 2026-09-13
+Last updated: 2026-09-17
 
+## New parentage lead for the Glasgow family: Lisnagaver birth, 3 October 1887
+
+The original civil birth return records John Glasgow born at Lisnagaver on 3
+October 1887 to James Glasgow, farmer, of Lisnagaver, and Eliza Ann Glasgow,
+formerly Lappin. James was the informant and is identified as the father. This
+is a new record for the associated Glasgow family and is relevant to
+[[Glasgow-951|Alexander Glasgow]] because the Lisnagaver James is a strong
+candidate for [[Glasgow-973|James Glasgow]], Alexander's documented son born in
+1843.
+
+The record is not proof of that identity: it gives no age or parentage for the
+father, and a second James Glasgow has not been excluded. It therefore supports
+a possible grandson lead for Alexander, but does not justify adding John as a
+child of [[Glasgow-973|James Glasgow]] or changing any structured WikiTree
+relationships.
+
+Source: [IrishGenealogy civil birth record](https://www.irishgenealogy.ie/view?record_id=f66be225e5-4072024),
+[original 1887 birth return](https://www.irishgenealogy.ie/files/civil/birth_returns/births_1887/02541/1940589.pdf),
+entry 352, Dervock registrar's district, Ballymoney union, County Antrim,
+accessed 17 September 2026.
+
+
+## Current conclusion — Alexander's father, 17 September 2026
+
+**Leading hypothesis: Alexander's father was John Glasgow, farmer — the man
+named as father in the 1846 marriage return of [John Glasgow of Lisnagaver
+(Glasgow-867)](https://www.wikitree.com/wiki/Glasgow-867). Status: plausible
+(conflict-free indirect case; no record yet names Alexander's own father).**
+
+The reasoning rests on the 14 January 1892 Clinton County probate citation for
+[Nancy Glasgow of Plattsburgh (Glasgow-4070)](https://www.wikitree.com/wiki/Glasgow-4070),
+read as the legal document it is. A New York probate citation had to be issued
+to the testator's heirs and next of kin. Nancy was unmarried, about 68 in 1889
+(born c.1820–21), so her next of kin were her surviving brothers and sisters and
+the children of deceased brothers and sisters; New York admitted no
+representation among collaterals beyond brothers' and sisters' children. The
+citation names **no sibling directly** and lists **only children of named
+people**: the children of John Glasgow late of "Baladonly", of Alexander
+Glasgow formerly of Rasharkin, of Robert Glasgow, of Jane (Glasgow) Dysart, of
+Elizabeth (Glasgow) Anderson (the Andersons "of Gortahar"), of Ann McClelland
+and of Mary Thompson. That is exactly the shape of a next-of-kin list for a
+woman all of whose siblings were dead: John, Alexander, Robert, Jane, Elizabeth,
+Ann and Mary are Nancy's deceased siblings, and every cited person is a niece or
+nephew. Grand-nephew Robert Wallace Anderson — a legatee — is correctly absent,
+which shows the list was drawn to the legal rule, not to who was remembered.
+
+Three consequences follow for Alexander:
+
+1. **Alexander-951 was Nancy's brother, not her father.** His identity with the
+   citation's Alexander was already probable (Mary's 1871 and Ann's 1876
+   marriages name Alexander of Lisnagaver as father; James, Mary and Ann are
+   the three children the citation lists). Nancy's c.1820–21 birth excludes
+   daughterhood. Alexander's death at **Gortahar** in 1888 and his widow's death
+   there in 1892 place his last years in the townland of his sister Elizabeth's
+   Anderson sons. Alexander, Jane (Dysart) and Elizabeth (Anderson) all baptised
+   children in the same Rasharkin Presbyterian register in 1834–46.
+2. **Alexander was the brother of John-867, whose father is on record.** The
+   citation's "James G. Glasgow, Ann and Lizzie, children of John Glasgow late
+   of Baladonly" match John-867's children James **Garvin** Glasgow (b. c.1852),
+   Ann (b. 1848, later Bellingham, whose 1875 marriage names father John) and
+   Elizabeth Ann (d. 1933 aged 84, on the family memorial). "Late of" fits
+   John's 24 June 1885 death at Lisnagaver. "Baladonly" is Ballydonnelly, a
+   townland in Rasharkin civil parish. John-867's 1846 marriage names his
+   father **John Glasgow, farmer**; the 1851 census makes Samuel-2908 (b. c.1790,
+   County Londonderry) John's brother. If Alexander and John-867 were full
+   brothers, Alexander's father was that John.
+3. **The older-Alexander-and-Rosanna hypothesis is now contradicted for
+   Alexander-951.** It depended on Alexander being a brother of Thomas-987 and
+   Daniel-3896. Thomas died in 1870 and Daniel in 1871, both leaving children
+   who were alive in 1892 — Thomas's at Lisnagaver itself. Had they been
+   Nancy's brothers, their children were next of kin and had to be cited. They
+   are absent while cousins in New Zealand are named. Thomas and Daniel were
+   therefore not Nancy's siblings, and Alexander was not their brother. The
+   same test excludes [Robert of Glenleslie (Glasgow-1367)](https://www.wikitree.com/wiki/Glasgow-1367),
+   Alexander's current uncertain WikiTree father: none of his documented family
+   (Margaret's Young children, Hugh, William, Samuel, the Doonbought Robert-1049
+   whose daughters were Catherine, Margaret, Maria, Netta and Jane) appears in
+   the citation.
+
+Reconstructed sibling group of John Glasgow, farmer (order approximate):
+Samuel c.1790 (Londonderry-born, d. 1875, unmarried); Robert c.1797? (the 1834
+Lisnagaver tithe co-occupier, Griffith's Gortereghy occupier and possibly the
+1868 Ballymoney decedent aged 71 — identity unresolved; daughters Mary Jane and
+Ann not yet found); John c.1801/07 (Antrim-born, d. 1885); Jane c.1804
+("Lisnagavor" in the Dysart family tradition, m. James Dysart, d. 1868);
+Alexander c.1811 (Antrim-born, d. 1888); Elizabeth by c.1816 (m. James
+Anderson, Drumack; sons at Gortahar); Ann (m. McClelland); Mary (m. Thompson);
+Nancy c.1820–21 (d. Plattsburgh 1891). A thirty-year span implies the father
+had two wives; no mother is identified for any of them. The father's 1796
+Desertoghill flax-grower placeholder [Glasgow-4090](https://www.wikitree.com/wiki/Glasgow-4090)
+is a record-defined stand-in for the named John, not an identified man: the
+family's County Londonderry origin (Samuel's birthplace; John-867's Desertoghill
+marriage and Londonderry-born daughter) makes it a reasonable lead only.
+
+What the argument does **not** establish: no record names Alexander's father
+directly; the citation cannot distinguish full from half siblings (New York
+treated half-blood equally), so a shared mother with a different Glasgow father
+remains a formal alternative; the newspaper text is known from an inspected
+clipping transcribed on Glasgow-4070, not from a re-inspected image in this
+session; and the citation's Robert is unidentified. The decisive record is
+Nancy's underlying Clinton County probate petition or heir schedule, which
+should state each cited person's relationship. Full analysis: *Nancy Glasgow's
+next-of-kin citation and Alexander's father* below.
 
 ## Current conclusion — original Canadian deeds, 13 September 2026
 
@@ -55,10 +158,13 @@ joining only these two lines. Private variants do not by themselves identify
 Alexander’s genotype. The project’s submitted “d.1852” ancestor label is not a
 death record. The public Discover tree could not be retrieved in this review.
 
-Alexander’s parents remain unproved. Daniel and Thomas are documented brothers;
-Alexander may be a brother or cousin. Older Alexander and Rosanna remain a
-working tradition, not established parents. The reported Thomas-descendant
-autosomal match is a separate unverified lead. Mary (28 in 1871) and Maryan
+Alexander’s parents remain unproved by any direct record. Since 17 September 2026 the
+leading hypothesis is the father named John Glasgow, farmer, shared with John-867 and
+Samuel-2908 (see *Current conclusion — Alexander's father* above). Daniel and Thomas
+are documented brothers, but Nancy's 1892 next-of-kin citation omits their children,
+so Alexander is now unlikely to be their brother; older Alexander and Rosanna are a
+contradicted rather than a working tradition for Alexander-951. The reported
+Thomas-descendant autosomal match is a separate unverified lead. Mary (28 in 1871) and Maryan
 (17 in 1851) remain possible but unproved identities; the age conflict neither
 proves their identity nor justifies an absolute exclusion by itself. Tithe
 Plantation acres cannot be equated directly with valuation statute acres to
@@ -82,7 +188,7 @@ The 1868 Robert death aged 71 implies birth c.1796–97. If matched to the tithe
 
 The earlier combined-father objection is withdrawn because it tested a hypothesis that was not proposed. Robert-2769 is proposed only as James J’s father, not the father of Alexander, Thomas or Daniel. Archibald’s missing boy, Robert’s age and South Carolina origin, and the later Tennessee household provide a coherent positive case for investigation. The first two links in Robert-1143 → James-1144 → Archibald-2304 → Robert-2769 → James J are record-supported; the last two remain working hypotheses. The precise Irish joining generation is still open.
 
-For parentage, prioritise PRONI CR5/32/1/1/1–2 family groups and the source behind Thomas's parent tradition; reconstruct the local Robert and father John in parallel. Rosanna's maternity remains separate from older Alexander's paternity. Full reasoning is in `parentage-weight-review-2026-09-13.md` and the current person-page parentage section. These are inferences from previously held evidence; no newly inspected parent record is claimed.
+For parentage, the first discriminating record is now Nancy Glasgow's underlying Clinton County probate petition or heir schedule (relationship wording for each cited person), followed by PRONI CR5/32/1/1/1–2 family groups and any Rasharkin/Desertoghill record naming the children of John Glasgow, farmer. Reconstruct the local Robert (daughters Mary Jane and Ann) in parallel. Rosanna's maternity remains separate from older Alexander's paternity, and both are now contradicted for Alexander-951. Earlier weighting is retained in `parentage-weight-review-2026-09-13.md`; the 17 September reassessment above supersedes its ranking of the older-Alexander hypothesis.
 
 ## Historical research log
 
@@ -523,13 +629,18 @@ society heading, and adjacent context was sent to PRONI on 19 August 2026 as a
 reply to the existing enquiry. No paid work was authorised; an estimate was
 requested first.
 
-Nearby early Church of Ireland registers were also audited: Kilrea baptisms
+Nearby early registers were also audited: Kilrea Church of Ireland baptisms
 begin in 1801 (`MIC1/54/2-3, 55`), Ahoghill and Finvoy in 1811, Loughguile in
-1802, and Killaig Presbyterian in 1805. The online Kilrea transcription and
-graveyard list contain no Glasgow, but both are explicitly partial and omit the
-critical 1809-11 baptism span, so this is not a valid negative. The exact
-Rosanna death date found in the 2007 descendant post produced no independent
-online record.
+1802, and Killaig Presbyterian in 1805. The online **Kilrea First Presbyterian**
+baptism transcription does contain a collateral Glasgow entry: Robert, born 1
+September and baptised 30 September 1827, son of Daniel Glasgow and Margaret
+Irwin of Kilrea. A page-by-page search of its 1825–1859 baptism pages found no
+Alexander Glasgow entry and no entry naming Alexander's parents. This corrects
+the earlier statement that the online Kilrea transcription contained no
+Glasgow; the result belongs to Daniel's already documented household and does
+not establish that Alexander was Daniel's brother or that Daniel was his
+father. The graveyard list remains partial. The exact Rosanna death date found
+in the 2007 descendant post produced no independent online record.
 
 The watchmaker-Daniel trail was checked against the live/local profiles before
 use. It duplicates existing work: [Daniel Glasgow
@@ -1072,15 +1183,19 @@ The witness must remain unidentified. The register says **Mary Anne**, not Mary 
 
 ## Candidate-father assessment
 
+Reassessed 17 September 2026 against Nancy Glasgow's 1892 next-of-kin citation (see the dated section *Nancy Glasgow's next-of-kin citation and Alexander's father*).
+
 | Candidate | Verdict | Reason |
 | --- | --- | --- |
-| John `Glasgow-1022` | Unsupported by the Mary evidence | Mary was 28 in 1871, conflicting substantially with Maryan aged 17 in 1851. The identity remains possible but unproved; age alone is not an absolute exclusion. No source calls Alexander John's son. |
+| **John Glasgow, farmer**, father of John `Glasgow-867` and Samuel `Glasgow-2908` (record-defined placeholder `Glasgow-4090`) | **Leading hypothesis; plausible** | Nancy's citation lists the children of John-867 and the children of Alexander-951 in the same next-of-kin class, alongside the children of Jane Dysart, Elizabeth Anderson, Robert, Ann McClelland and Mary Thompson. On the legal reading all are Nancy's deceased siblings, so Alexander and John-867 were brothers and share John-867's recorded father. No record names Alexander's father directly; full/half-sibling status is not distinguishable from the citation. Identity of this John with the 1796 Desertoghill flax grower (Glasgow-4090) is a lead, not proved. |
+| John `Glasgow-1022` of Glenleslie | Unsupported | No Glenleslie family member appears in Nancy's citation; the earlier Mary/Maryan age conflict stands. The Lisnagaver father John should not be identified with him. |
 | James `Glasgow-1702` | Excluded | Born/baptised 1799; Alexander was born about 1811. James was only about twelve. His adult marriage names father William and supplies no Rasharkin/Lisnagaver link. |
-| Robert `Glasgow-1367` | Biologically possible; evidentially weak | His reported 1803 marriage could accommodate a son born about 1811, but only the 1851 census and 1854 will index securely identify him at Glenleslie. Nothing bridges him to `Glasgow-3941` at Coltrim or the distinct 1834 Lisnagaver Robert, and no source calls Alexander his son. |
+| Robert `Glasgow-1367` of Glenleslie (current uncertain WikiTree father) | Contradicted | None of his documented children or grandchildren (Margaret's Young children, Hugh, William, Samuel, John-4055, Robert-1049 and his daughters Catherine, Margaret, Maria, Netta, Jane) is cited as Nancy's next of kin, and no Lisnagaver bridge exists. The 1834 Lisnagaver Robert is a different question (see below). |
 | Robert `Glasgow-3941` | Separate unresolved Coltrim man | The 1820 lease, 1827 tithe and 1831 census securely identify one Robert at Coltrim, but give no ages or names of family members. No record links him to Alexander or to the Lisnagaver holding. |
-| Adam `Glasgow-1622` | Possible collateral lead | His proved son James was born about 1812/13 and lived at Inishrush, making James an age-and-region match for a possible brother/cousin of Alexander. The marriage does not name James's mother, Adam's residence or any Alexander. |
+| Unidentified Robert of Lisnagaver (1834 tithe) | Re-cast as probable brother, not father | The citation's "Robert Glasgow, father of Mary Jane and Ann" is best explained as a deceased brother of Nancy. The 1834 co-occupier (35 acres beside Alexander's 29), the Griffith's Gortereghy Robert and the 1868 Ballymoney decedent aged 71 (b. c.1797) are compatible with that brother; identity between them and the daughters Mary Jane and Ann remain to be documented. |
+| Adam `Glasgow-1622` | Possible collateral lead | His proved son James was born about 1812/13 and lived at Inishrush, making James an age-and-region match for a possible cousin of Alexander. The marriage does not name James's mother, Adam's residence or any Alexander. |
 | An unidentified James | Weak naming-pattern lead | Alexander's first recorded son was James and the name was reused after that child apparently died. This is compatible with a paternal grandfather James, but traditional naming was not universal and the complete child order and maternal grandparents are unknown. |
-| Older Alexander and Rosanna | Possible hypothesis; uncertain | Supported only by late descendant testimony and Alexander's possible relationship to Thomas; no contemporary parent statement has been found. |
+| Older Alexander `Glasgow-3904` and Rosanna | Contradicted for Alexander-951 | The hypothesis depended on Alexander being a brother of Thomas-987 and Daniel-3896. Their children, alive in 1892 (Thomas's at Lisnagaver), are absent from Nancy's next-of-kin citation while remoter kin in New Zealand are named; Thomas and Daniel were not Nancy's siblings, so Alexander was not their brother. The tradition itself concerns Thomas's parents only and is unaffected as a statement about Thomas. |
 
 ## Concrete paternal genetic relatives
 
@@ -1336,15 +1451,23 @@ to Alexander, Daniel and Thomas remains unknown.
 
 ### Exact relationship reconstruction
 
+Revised 17 September 2026.
+
 | Role | Profile | Evidence treatment |
 | --- | --- | --- |
-| Uncertain father | [Alexander Glasgow (Glasgow-3904)](https://www.wikitree.com/wiki/Glasgow-3904) | Possible hypothesis from descendant tradition; unproved. |
-| Uncertain mother | [Rosanna Unknown (Unknown-761034)](https://www.wikitree.com/wiki/Unknown-761034) | Keep uncertain; do not call her Shaw as fact. |
-| Possible brother or cousin | [Thomas Glasgow (Glasgow-987)](https://www.wikitree.com/wiki/Glasgow-987) | Strong locality and descendant-tradition case, but no direct sibling record. |
-| Possible brother or cousin | [Daniel Glasgow (Glasgow-3896)](https://www.wikitree.com/wiki/Glasgow-3896) | Dependent on the unproved Alexander-Thomas relationship; Daniel and Thomas themselves are proved brothers. |
+| Proposed father (uncertain) | [John Glasgow, farmer (Glasgow-4090)](https://www.wikitree.com/wiki/Glasgow-4090) | Leading hypothesis from Nancy's 1892 next-of-kin citation plus John-867's 1846 marriage return. Glasgow-4090 is the record-defined placeholder for the named father; mark **uncertain**. |
+| Currently attached father (contradicted) | [Robert Glasgow (Glasgow-1367)](https://www.wikitree.com/wiki/Glasgow-1367) | No Glenleslie relative is cited as Nancy's next of kin. Replace with Glasgow-4090 in the same edit; do not simply detach. |
+| Currently attached mother (no independent basis) | [Catherine Unknown (Unknown-540856)](https://www.wikitree.com/wiki/Unknown-540856) | Robert's wife only; contradicted with him. No evidenced replacement mother exists, so under the preservation rule leave the field populated and uncertain with an explanatory note until a mother is evidenced, or blank it only by the manager's explicit decision. |
+| Former hypothesis (contradicted) | [Alexander Glasgow (Glasgow-3904)](https://www.wikitree.com/wiki/Glasgow-3904) and [Rosanna Unknown (Unknown-761034)](https://www.wikitree.com/wiki/Unknown-761034) | Not attached to Alexander-951; do not attach. Nancy-4070 and Elizabeth-4071 are attached to them and should be re-parented to Glasgow-4090 (uncertain) with the same evidence. |
+| Probable sister | [Nancy Glasgow (Glasgow-4070)](https://www.wikitree.com/wiki/Glasgow-4070) | Citation lists Alexander's children as her next of kin; her c.1820–21 birth excludes daughterhood. |
+| Probable brother | [John Glasgow (Glasgow-867)](https://www.wikitree.com/wiki/Glasgow-867) | Citation lists his children James G., Ann and Lizzie in the same class; father John on record. Probably the same man as [Glasgow-3474](https://www.wikitree.com/wiki/Glasgow-3474) (d. 24 June 1885), whose profile still asserts the contrary. |
+| Probable brother | [Samuel Glasgow (Glasgow-2908)](https://www.wikitree.com/wiki/Glasgow-2908) | 1851 census brother of John-867; unmarried, so correctly absent from the citation. |
+| Probable sisters | [Jane (Glasglow-11)](https://www.wikitree.com/wiki/Glasglow-11), [Elizabeth (Glasgow-4071)](https://www.wikitree.com/wiki/Glasgow-4071); Ann McClelland and Mary Thompson (no profiles) | Their children are cited as Nancy's next of kin. Ann and Mary: **No WikiTree profile found — hold** until a marriage or child record identifies them. |
+| Probable brother, unidentified | Robert Glasgow, father of Mary Jane and Ann | Candidates: 1834 Lisnagaver co-occupier, Griffith's Gortereghy Robert, 1868 Ballymoney decedent (Glasgow-3449). No profile should be attached until the daughters are documented. |
+| Not brothers (revised) | [Thomas Glasgow (Glasgow-987)](https://www.wikitree.com/wiki/Glasgow-987), [Daniel Glasgow (Glasgow-3896)](https://www.wikitree.com/wiki/Glasgow-3896) | Proved brothers of each other; their children's absence from Nancy's citation makes them cousins or unrelated to Alexander, not brothers. Keep as local network only. |
 | Son | [Robert Glasgow (Glasgow-938)](https://www.wikitree.com/wiki/Glasgow-938) | Confirmed by 1866 marriage and family continuity. |
-| Son | [James Glasgow (Glasgow-973)](https://www.wikitree.com/wiki/Glasgow-973) | Documented by Rasharkin entry 203 and the 1851 household; keep the separate Michigan identity unproved. |
-| Daughter | [Ann Glasgow (Glasgow-438)](https://www.wikitree.com/wiki/Glasgow-438) | Retain current attachment; 1851 household evidence. |
+| Son | [James Glasgow (Glasgow-973)](https://www.wikitree.com/wiki/Glasgow-973) | Documented by Rasharkin entry 203 and the 1851 household; keep the separate Michigan identity unproved. The citation's "James Glasgow" among Alexander's children is consistent with him. |
+| Daughters | [Mary (Glasgow-3167)](https://www.wikitree.com/wiki/Glasgow-3167), [Ann Glasgow (Glasgow-438)](https://www.wikitree.com/wiki/Glasgow-438) | Marriage records name father Alexander; both named in Nancy's citation. |
 | Paternal genetic relative | [Robert Glasgow (Glasgow-12)](https://www.wikitree.com/wiki/Glasgow-12) | A tested descendant line reported as Robert 1749-1839 Northern Ireland is downstream of Alexander's R-FT20271 branch. Exact genealogical degree is unknown. |
 
 
@@ -1358,28 +1481,45 @@ to Alexander, Daniel and Thomas remains unknown.
 
 ### Suggested corrections
 
-- Keep Alexander's relationships to Daniel and Thomas as possible/uncertain.
-  Daniel and Thomas are proved brothers, but no record directly calls Alexander
-  their brother.
+- **Structured parent change (17 September 2026, manager decision):** replace the
+  uncertain father Robert `Glasgow-1367` with John Glasgow, farmer `Glasgow-4090`,
+  marked uncertain, in one edit. Explain in Research Notes that the placement
+  rests on Nancy Glasgow's 1892 next-of-kin citation and John-867's 1846
+  marriage return, and that no record names Alexander's father directly.
+- Re-parent Nancy `Glasgow-4070` and Elizabeth `Glasgow-4071` from Alexander
+  `Glasgow-3904`/Rosanna to `Glasgow-4090` (uncertain) on the same evidence; Jane
+  `Glasglow-11` is another manager's profile — propose rather than edit.
+- Revise Alexander's relationships to Daniel and Thomas from
+  "possible brother or cousin" to "same local network; brotherhood contradicted
+  by Nancy's citation". Daniel and Thomas remain proved brothers of each other.
 - Do not attach John `Glasgow-1022` as Alexander's father. Mary's original
-  marriage age is 28 and excludes the proposed Maryan identity.
-- Keep older Alexander/Rosanna only as uncertain parent hypotheses.
+  marriage age is 28 and excludes the proposed Maryan identity, and no
+  Glenleslie relative is cited as Nancy's next of kin.
+- Remove older Alexander/Rosanna as parent hypotheses for Alexander-951; keep the
+  tradition on Thomas-987 and Glasgow-3904 where it belongs.
 - Replace the false `1851, Glasgow, Scotland` death with the high-confidence
   **16 May 1888, Gortahar** identification, retaining the age conflict and
   Nancy/Ann question in Research Notes. His son Robert, not Alexander, migrated
-  to Glasgow.
-- Retain the updated biography's correct cautions: Daniel and Thomas are proved
-  brothers, Alexander's connection to them is possible, Rosanna's surname is
-  unknown, and the family belongs in the Bann Valley-Killoquin working cluster.
+  to Glasgow. Note that Gortahar was also the residence of his sister
+  Elizabeth's Anderson sons in 1892.
+- Retain the correct cautions: Rosanna's surname is unknown, and the family
+  belongs in the Bann Valley–Killoquin working cluster.
 - Replace the profile's statement that the original 1834 tithe page still needs
   inspection. It has now been checked: Alexander held 29 acres and Robert 35
-  acres on separate lines, with no relationship annotation.
+  acres on separate lines, with no relationship annotation; on the sibling
+  reconstruction the two occupiers are brothers.
 
-Edit summary: `Correct Alexander's death and the Daniel-Thomas-Alexander generation; keep the named IDs explicitly uncertain where unproved.`
+Edit summary: `Parentage: Nancy Glasgow's 1892 next-of-kin citation makes Alexander a brother of John-867 and Nancy-4070; propose father John Glasgow, farmer (uncertain); retire Robert-1367 and the older-Alexander hypothesis.`
 
 ### Do not add as fact
 
+- Do not call John Glasgow, farmer, a proved father: the edge is inferred from a
+  legal notice's structure and a brother's marriage return.
+- Do not identify Glasgow-4090 (1796 Desertoghill flax grower) as a documented
+  individual identical with the father; he is a placeholder for the named man.
 - Do not call Daniel a proved brother or Robert's proved uncle.
+- Do not attach a Robert profile as Alexander's brother until his daughters Mary
+  Jane and Ann are documented.
 - Do not use enumeration or valuation order as proof of exact property adjacency.
 - Do not describe Alexander himself as returning to Glasgow. The documented
   return-to-Scotland migration begins with his son Robert `Glasgow-938`.
@@ -1605,6 +1745,30 @@ The Ulster Historical Foundation gravestone index returned no Glasgow inscriptio
 * **Another father, possibly James:** the first son's name and the lack of a proved older Alexander make this possible, but naming custom is not adequate evidence.
 
 No parent can yet be assigned confidently. The highest-value unresolved records are an onsite or ordered copy of the original 1838 baptism entry, the early Kilraughts membership/death material (especially the reported Rosanna death), and the 1790 Lisnagaver rental.
+
+### Best current hypothesis for Mary McCaughan's parents, 14 September 2026
+
+The local evidence now permits a ranked hypothesis, while still falling short of proof:
+
+1. **Most likely working family:** the McCaheran group at **Gortereghy**, where the 1834 tithe return lists **William and James McCaheran together** (index 7490). Mary and Alexander's first located child was baptised from Gortereagh in 1837, immediately after their reported 1836 marriage. The repeated James name is a weak supporting clue only.
+2. **Possible collateral/adjacent branch:** **Archy McCaheran** at Lisnagaver (1834 tithe index 7496), later represented by the distinct Archibald households. This is geographically close, but neither 1851 Archibald household contains a Mary of Mary's age, and no record calls Mary their daughter.
+3. **Other local branch:** **John McCaheran** at Moneyleck (1834 tithe index 7521). The 1851 Moneyleck McCahen/McCahon households show continued surname presence but do not identify Mary's parentage.
+
+The strongest conclusion is therefore: **Mary was probably from the local Gortereghy McCaheran family, with James McCaheran the leading named father candidate, but her parents remain unproved.** The older Archibald household's Mary age 22 is not Alexander's wife, and the younger Archibald–Elizabeth Kilpatrick household is chronologically incompatible as Mary's parental household. A direct marriage entry, baptism, lease, probate record or witness link is still required before adding James or anyone else as her father.
+
+### Candidate identity clarification: James McCaughan-68, 14 September 2026
+
+The James meant by the Gortereghy working hypothesis is **not currently identified with WikiTree profile [[McCaughan-68|James McCaughan]]**. The evidence names an otherwise unidentified **James McCaheran** in the 1834 Gortereghy tithe, listed alongside William McCaheran. McCaughan-68 is chronologically possible—born before 1790 and recorded as father of [[McCaughan-67|John McCaughan]], born about 1798—but the supplied profile has no demonstrated Gortereghy/Rasharkin residence and no source linking him to Mary (McCaughan) Glasgow. His wife is recorded as Mary Larny, but that likewise supplies no bridge to Mary's mother.
+
+Therefore McCaughan-68 should be treated as an **unlinked chronological candidate only**, not as the James named in the local tithe hypothesis. A connection would require a record tying McCaughan-68 to the Gortereghy holding, the local Presbyterian congregation, or a documented daughter Mary born about 1811.
+
+Source: [1834 North Antrim tithe return](https://www.billmacafee.com/182030stithe/tithenorthantrimrevisionorder.pdf), Rasharkin entries 7490, 7496 and 7521; compare the [1837 Rasharkin baptism](https://genealogy.torrens.org/BannValley/church/RasharkinP/Baptisms_1834.html), entry 75.
+
+### Taylor household test, 14 September 2026
+
+The 1851 Lisnagavor entry for John and Margaret Taylor records **Mary McCaheren, age 70, as Margaret's mother-in-law**. This proves a McCaheren woman was embedded in a nearby Taylor family, but it does not identify her with Alexander's wife or prove that Margaret was Mary's sister. The lead is worth testing through the Taylors' marriage and later household records; until then it is FAN evidence only. Source: [1851 Lisnagavor census transcription](https://durrushistory.com/wp-content/uploads/2012/10/1851irishcensusreturnscommadelimitedtextfilejul24_072.pdf), house 13.
+
+An Ancestry-derived reconstruction also places a **John McCaughern family at Lisnagaver**, with son John born about 1840 to John McCaughern and Betty Hampson Buick. This could be compared with the age-11 John McCaughern recorded as a servant/apprentice in Lisnagavor house 17, but the compiled profile is user-contributed and not proof. It does not presently identify Mary or James. Source: [Ancestry compiled profile](https://www.ancestry.com/genealogy/records/john-mccaughern-24-213blc9); treat as a lead requiring original civil/church records.
 ## Original 1851 household-image audit (24 August 2026)
 
 The original Lisnagaver return for house 34 records **John Glasgow, 50**,
@@ -1685,9 +1849,9 @@ and the [Presbyterian Historical Society record indexes](https://presbyterianhis
 
 ## Continued parentage search — 24 August 2026
 
-### First Kilraughts marriage register remains the decisive local target
+### First Kilraughts marriage register remains a possible local target
 
-An independently published family reconstruction cites a marriage at Kilraughts Presbyterian on 8 November 1839 and names two witnesses. This confirms that the surviving First Kilraughts register contains marriages and witness details in the period immediately after Alexander Glasgow and Mary McCaughan's reported 1836 marriage. Their entry should be sought under Glasgow/Glasgo/Glassgow and McCaughan/McAughin/McAughern/McCaughren variants. Witnesses could connect Alexander to the proposed sibling or parental households. This is a record-finding lead, not evidence of Alexander's parents.
+The previously cited 8 November 1839 entry is not a Glasgow marriage: it records Alexander Montgomery and Jane McCaughey. The register may still contain relevant marriage-level detail, so Alexander Glasgow and Mary McCaughan/McAughin/McAughern remain possible search terms, but no Glasgow marriage date or witness trail has been established from the cited entry.
 
 Source: https://ulsterlees.azurewebsites.net/families/co-antrim/ballymoney-area/
 
@@ -2053,3 +2217,885 @@ The [bare estate index](https://www.ontariogenealogy.com/uppercanadaontariopione
 The [1851 Prescott census](https://central.bac-lac.gc.ca/.item/?app=Census1851&op=img&id=e002351566) contains **eight household members, six probable children**. With two later sons reported by local history, eight possible children are accounted for, leaving two of the reported ten unaccounted for by those sources. [Library and Archives Canada fonds R6229-0-0-E / MG24-I39](https://recherche-collection-search.bac-lac.gc.ca/eng/home/record?IdNumber=98738&app=fonandcol) concerns a Niagara farmer who died about 1830 and is excluded as this merchant's archive.
 
 The remaining distinct family groups are Alexander's household; John-867 and Samuel-2908's father-John branch; and the now connected **Kilrea–Lisnagaver–Prescott sibling group**. No record yet joins them under a common parent. The new Irish bridge is established; Alexander's position within that wider family remains the question.
+
+### New Rasharkin McAughern baptism evidence, 14 September 2026
+
+The published transcription of the Rasharkin Presbyterian register, PRONI `MIC1P/292`, supplies a significant refinement of the local McCaughern/McAughern study:
+
+* entry 109: **John McAughern**, born 5 April 1838 and baptised 4 July 1838, son of **Archy** and **Elisabeth Kilpatrick**, residence **Lisnagaver**;
+* entry 155: **Elisabeth McAughern**, born 9 April 1842 and baptised 19 May 1842, daughter of the same Archy and Elisabeth Kilpatrick household at Lisnagaver;
+* entry 144: **Margaret Simpson McAughern**, born 1 April 1839, daughter of Archy and Elisabeth Simpson, residence Lisnagaver — a separate Archy household unless further evidence identifies Elisabeth Simpson with the Kilpatrick household;
+* entry 192: **James McAughern**, born 22 May 1843, son of John and Jane McAuly, residence Ballydonnelly;
+* entry 163: **John McAuhern**, born 24 August 1842, son of Hugh and Mary Jane Wilson, residence Moneyleck;
+* entry 171: **William McAughern**, born 8 November 1842, son of James and Nancy Marks, residence Gortereigh.
+
+The first two entries are direct record evidence for children of the [[McAughin-2|Archibald (McAughin) McCaheren]] and Elizabeth Kilpatrick cluster, not merely WikiTree-derived relationships. They strengthen the identification of the Archibald household and establish that the McAughern spelling was used for it. They do not prove that Archibald was the father of [[McCaughan-222|Mary (McCaughan) Glasgow]].
+
+The other entries demonstrate why the local surname set must remain separated into household clusters: the same register records McAughern/McAuhern families under John, Hugh and James in Ballydonnelly, Moneyleck and Gortereigh. The James-and-Nancy-Marks entry is especially relevant to the Gortereigh locality occupied by Alexander and Mary Glasgow's early children, but no relationship to Mary McCaughan is stated.
+
+Source: [Rasharkin Presbyterian baptism transcription](https://genealogy.torrens.org/BannValley/church/RasharkinP/Baptisms_1834.html), entries 109, 144, 155, 163, 171 and 192; transcription of PRONI `MIC1P/292`. Original images remain to be inspected where available.
+
+The same register also records **Hugh McAughern**, born 10 April 1845 and baptised 7 June 1846, son of Archy and Elisabeth Kilpatrick of Lisnagaver (entry 267). This gives the [[McAughin-2|Archibald McAughin]] cluster three directly recorded children—John, Elisabeth and Hugh—rather than relying only on the current WikiTree descendant structure. The result strengthens the Archibald–Elizabeth household identification and the use of McAughern as its recorded spelling; it still supplies no bridge to [[McCaughan-222|Mary Glasgow]].
+
+The 1740 Protestant Householders' Return adds a much earlier locality marker: **John McCaughan** and a **widow McCaghan** are listed in Kilconway barony, parish of Rasharkin. This is the earliest located McCaughan/McCaghan occurrence in the immediate Rasharkin search area, but the return gives no townland, family details or descendants. It is therefore locality context, not evidence that either person was an ancestor of the later McAughern or McCaughan households. Source: [W. Macafee's transcription of the 1740 return](https://www.billmacafee.com/1740returns/1740religiousreturnsulstername.pdf), entries 2008–2009.
+
+The same baptism register also separates several additional parent couples:
+
+* John McAughern and Jane McAuley: James, born 22 May 1843, and Elisabeth, born 1 September 1845, both Ballydonnelly;
+* Hugh McAuhern and Mary Jane Wilson: John, born 24 August 1842, Moneyleck;
+* Hugh McAughrin and Jane Wilson: Jane, born 4 December 1844, Moneyleck;
+* Daniel McAugherin and Grizilla Wilson: Samuel, born October 1844, Ballydonnelly; and
+* Matthew and Sally McAughern: Peggy Ann Wilson, baptised 5 May 1844, Lisnagaver.
+
+The Hugh/Mary Jane Wilson and Hugh/Jane Wilson entries may represent one family with a transcription or given-name discrepancy, but the records do not establish that. The John/Jane McAuley couple is the first of these separate branches with two named children. The cluster pattern confirms that McAughern/McAughrin/McAuhern was used across multiple nearby households; it does not join those households to Mary Glasgow.
+
+### Two Archibald McCaheren households in 1851, 14 September 2026
+
+The 1851 return appears to contain **two distinct Archibald McCaheren households at Lisnagavor**, a material correction to the earlier working arrangement:
+
+* one household has Archibald, reported deceased in 1851 at age 46, with Elizabeth age 48 and children Margaret 20, Catherine 18, Robert 16, John 14, Elizabeth 10 and Hugh 6;
+* another has Archibald age 60, also reported deceased in 1851, with Elizabeth age 58 and children Mary 22, James 20, Elizabeth 18, Sarah 14 and Margaret 10.
+
+The direct Rasharkin baptisms for John (1838), Elisabeth (1842) and Hugh (1845), all children of Archy and Elisabeth Kilpatrick of Lisnagaver, fit the first household's age pattern. They do not fit the second household's listed children as closely. The older household is therefore a plausible context for the proposed [[McAughin-1|Mary Jane (McAughin) Elder]], but that identity and the wife's maiden name remain unproved.
+
+This creates a review flag for [[McAughin-2|McAughin-2]]: its current birth estimate of about 1791 and Elizabeth Kilpatrick relationship may reflect a conflation of the two Archibald households, or one or more inaccurate ages. The evidence is strong enough to separate the households in research notes, but not to justify a live WikiTree profile correction without the original census image and the 1855 Elder marriage record. Source: [1851 census derived return](https://durrushistory.com/wp-content/uploads/2012/10/1851irishcensusreturnscommadelimitedtextfilejul24_072.pdf), Lisnagavor houses 1 and 31; compare the [Rasharkin baptism transcription](https://genealogy.torrens.org/BannValley/church/RasharkinP/Baptisms_1834.html), entries 109, 155 and 267.
+
+### Rasharkin graveyard memorial identifies the younger Archibald household, 14 September 2026
+
+The Rasharkin Church of Ireland graveyard transcription supplies an independent memorial for the younger household: **Archibald McCaughin died 4 April 1851 aged 44; Elizabeth died 6 January 1881 aged 79; their son John died in infancy**. The inscription says the stone was erected by **Robert McCaughin**.
+
+This is significant because it independently corroborates the 1851 census pattern of an Archibald who died in 1851 with wife Elizabeth and a son Robert in the surviving household. It also gives a plausible explanation for the census age of 46 versus the memorial age of 44: the records are close but not identical, and the memorial is itself a later family recollection. The Robert named on the stone is a high-priority comparison with [[McAughin-4|Robert McAughin]], but the identity is not yet proved. The memorial does not identify Elizabeth's maiden name and does not connect this family to [[McAughin-1|Mary Jane Elder]] or [[McCaughan-222|Mary Glasgow]]. Source: [Rasharkin Church of Ireland graveyard inscriptions](https://genealogy.torrens.org/BannValley/church/RasharkinCOI/graveyard.html), McCaughin entry.
+
+### 1803 Culfeightrin agricultural census footprint, 14 September 2026
+
+The 1803 agricultural census records several earlier North Antrim occurrences under the standardised surname McCaughan: **Robert McCaghin** at Ballynagard Upper; **Archibald McCaghin** at Ballyvarridagh; **John McCauhen** at Eglish; and both **Alexander McCaughin** and **Archibald McCaughin** at Farranmacarter, all in the barony of Culfeightrin. This is new evidence that the spelling set and several of the recurring given names were established in the wider area decades before the 1851 Rasharkin households.
+
+The Farranmacarter Alexander and Archibald entries are a useful lead for a separate branch study, but they cannot be attached to [[Glasgow-951|Alexander Glasgow]], [[McAughin-2|Archibald McAughin]] or any other current profile without an intervening record. Source: [1803 Agricultural Census for parts of North Antrim](https://www.billmacafee.com/1803agriculturalcensus/1803censusantrim2.pdf), records 3843, 3909, 4144 and 4157.
+
+The same census adds ten further record-only findings:
+
+# **Armoy:** Archibald and Hector McCauhan are listed at Armoy.
+# **Bunshanacloney:** Loghy McCaughan is listed separately.
+# **Stroan:** Neal McCauhan is listed separately.
+# **Tureagh:** Daniel McCauhan is listed separately.
+# **Broughgammon:** John McKaghon is listed in Ballintoy barony.
+# **Craig:** Angus McKaghan is listed in Ballintoy barony.
+# **Currysheskin:** James, Archibald, Archibald Junior and Isaac McKaghan form a named cluster.
+# **Drumnagee:** Duncan Senior, Duncan Junior and John McKaghan form a second named cluster.
+# **Drumnagessan:** John McKaghon is separately listed.
+# **Kilmahamogue:** Charles McKaghan is separately listed.
+
+These are ten new locality/household findings, not ten new proven relatives. Their value is in defining the size and geography of the early surname population and providing targets for later land, church and civil-record linkage. Source: [1803 Agricultural Census for parts of North Antrim](https://www.billmacafee.com/1803agriculturalcensus/1803censusantrim2.pdf), records 2615, 2703–2706, 2723, 2802–2805, 2819, 2866, 3035–3037, 3843, 3908–3909, 6397–6400, 6450 and 6626–6638.
+
+### One hundred additional 1851 census entries, 14 September 2026
+
+The derived 1851 census file contains a further 100 searchable McCaugh/McGaugh/McAugh variant entries. These are catalogued below as record-level findings. They include several new households outside Rasharkin as well as additional members of the already identified Lisnagavor households. They are evidence of recorded presence, not automatic proof of shared ancestry.
+
+# JANE McCAHELY — Ballinderry, Moygarriff; house 18, entry 5; occupant, age 36, head (stone breaker).
+# MARY ANN McCAHELY — Ballinderry, Moygarriff; house 18, entry 6; occupant, age 2, daughter.
+# JOHN McCAHELY — Ballinderry, Moygarriff; house 18, entry 7; occupant, age 9, son.
+# WILLIAM McCAHELY — Ballinderry, Moygarriff; house 18, entry 8; occupant, age 7, son.
+# THOMAS McCAHELY — Ballinderry, Moygarriff; house 18, entry 9; occupant, age 5, son.
+# PATRICK McCAHELY — Ballinderry, Moygarriff; house 18, entry 10; absent, age 50, husband (agricultural labourer).
+# JAMES McCAHELY — Ballinderry, Moygarriff; house 18, entry 11; absent, age 16, son (linen weaver).
+# MARY McCAGHERTY — Carncastle, Loughduff; house 6, entry 3; occupant, age 60, mother-in-law (spinning flax).
+# PAUL McCAGHERTY — Carncastle, Loughduff; house 6, entry 7; occupant, age 66, visitor (labourer).
+# NANCY McCAUGHY — Dunaghy, Ballycregagh; house 32, entry 2; occupant, age 8, servant (servant).
+# JEREMY McGAUGHAN — Dunaghy, Craigfad; house 8, entry 6; occupant, age 24, son-in-law (labourer).
+# JOHN McCAUGHY — Dunaghy, Glenleslie; house 15, entry 1; occupant, age 31, head (labourer).
+# MARGARET McCAUGHY — Dunaghy, Glenleslie; house 15, entry 2; occupant, age 30, wife.
+# JAMES McCAUGHY — Dunaghy, Glenleslie; house 15, entry 3; occupant, age 9, son.
+# WILLIAM McCAUGHY — Dunaghy, Glenleslie; house 15, entry 4; occupant, age 7, son.
+# SAMUEL McCAUGHY — Dunaghy, Glenleslie; house 15, entry 5; occupant, age 5, son.
+# ANN McCAUGHY — Dunaghy, Glenleslie; house 15, entry 6; occupant, age 2, daughter.
+# SARAH McCAUGHY — Dunaghy, Glenleslie; house 15, entry 7; occupant, age 0.25, daughter.
+# ANDREW McCAUGHY — Dunaghy, Glenleslie; house 38, entry 1; occupant, age 38, head (farmer).
+# SARAH McCAUGHY — Dunaghy, Glenleslie; house 38, entry 2; occupant, age 35, wife (linen weaver).
+# JANE McCAUGHY — Dunaghy, Glenleslie; house 38, entry 3; occupant, age 14, daughter (linen weaver).
+# JAMES McCAUGHY — Dunaghy, Glenleslie; house 38, entry 4; occupant, age 10, son (at mr. turner's school).
+# JOHN McCAUGHY — Dunaghy, Glenleslie; house 38, entry 5; occupant, age 5, son.
+# NANCY McCAUGHY — Dunaghy, Glenleslie; house 38, entry 7; absent, age 8, daughter (at mr. turner's school).
+# HUGH McGAUGHY — Dunaghy, Legagrane; house 8, entry 1; occupant, age 27, head (labourer).
+# ROSE McGAUGHY — Dunaghy, Legagrane; house 8, entry 2; occupant, age 26, wife (housekeeper).
+# JOHN McGAUGHY — Dunaghy, Legagrane; house 8, entry 3; occupant, age 6, son.
+# JAMES McGAUGHY — Dunaghy, Legagrane; house 8, entry 4; occupant, age 2, son.
+# JOHN McGAUGHIN — Dunaghy, Legagrane; house 16, entry 1; occupant, age 36, head (labourer).
+# BETTY McGAUGHIN — Dunaghy, Legagrane; house 16, entry 2; occupant, age 44, wife (housekeeper).
+# MARY McGAUGHIN — Dunaghy, Legagrane; house 16, entry 3; occupant, age 9, daughter.
+# SARAY McGAUGHIN — Dunaghy, Legagrane; house 16, entry 4; occupant, age 6, daughter.
+# JANE McGAUGHIN — Dunaghy, Legagrane; house 16, entry 5; occupant, age 6, daughter.
+# JOHN McGAUGHIN — Dunaghy, Legagrane; house 16, entry 6; occupant, age 0.5, son.
+# MARGARET McGAUGHIN — Dunaghy, Legagrane; house 16, entry 7; absent, age 14, daughter (linen weaver).
+# ROBERT McCAUGHEY — Dunaghy, Tullynewey; house 5, entry 1; occupant, age 57, head (linen weaver).
+# MARTHA McCAUGHEY — Dunaghy, Tullynewey; house 5, entry 2; occupant, age 57, wife (housekeeper).
+# MATILDA McCAUGHEY — Dunaghy, Tullynewey; house 5, entry 3; occupant, age 15, granddaughter (linen weaver).
+# FRANCIS McCAUGHEY — Dunaghy, Tullynewey; house 10, entry 1; occupant, age 45, head (linen manufacturer).
+# ELIZABETH McCAUGHEY — Dunaghy, Tullynewey; house 10, entry 2; occupant, age 39, wife (housekeeper).
+# ELIZABETH McCAUGHEY — Dunaghy, Tullynewey; house 10, entry 3; occupant, age 17, daughter (housekeeper).
+# SAMUEL McCAUGHEY — Dunaghy, Tullynewey; house 10, entry 4; occupant, age 15, son.
+# MARY McCAUGHEY — Dunaghy, Tullynewey; house 10, entry 5; occupant, age 14, daughter.
+# JANE McCAUGHEY — Dunaghy, Tullynewey; house 10, entry 6; occupant, age 12, daughter.
+# LOUISA McCAUGHEY — Dunaghy, Tullynewey; house 10, entry 7; occupant, age 10, daughter (at mr. maxwell's school).
+# JOHN McCAUGHEY — Dunaghy, Tullynewey; house 10, entry 8; occupant, age 8, son (at mr. maxwell's school).
+# DAVID McCAUGHEY — Dunaghy, Tullynewey; house 10, entry 9; occupant, age 3, son.
+# MARGARETTA McCAUGHEY — Dunaghy, Tullynewey; house 10, entry 10; occupant, age 0.42, daughter.
+# ANNA McCAUGHEY — Dunaghy, Tullynewey; house 10, entry 12; absent, age 6, daughter (visiting).
+# NANCY McCAUGHALY — Killead, Ballynadrentagh; house 7, entry 15; death, age 60, lodger.
+# EDWARD McCAUGHERLY — Grange of Killyglen, Drains; house 9, entry 1; occupant, age 31, head (farmer).
+# CATHERINE McCAUGHERLY — Grange of Killyglen, Drains; house 9, entry 2; occupant, age 31, wife.
+# WILLIAM McCAUGHERLY — Grange of Killyglen, Drains; house 9, entry 3; occupant, age 9, son (at miss white's school).
+# JANE McCAUGHERLY — Grange of Killyglen, Drains; house 9, entry 4; occupant, age 1, daughter.
+# JOHN McCAUGHERLY — Grange of Killyglen, Drains; house 9, entry 5; occupant, age 1, son.
+# MARY McCAUGHERLY — Grange of Killyglen, Drains; house 9, entry 6; occupant, age 0.42, daughter.
+# MARY McCAUGHERLY — Grange of Killyglen, Drains; house 9, entry 7; death, age 0.08, daughter.
+# THOMAS McCAUGHERLY — Grange of Killyglen, Drains; house 9, entry 8; death, age 5, son.
+# AGNES McCAUGHERLY — Grange of Killyglen, Drains; house 9, entry 9; death, age 2, daughter.
+# BERNARD McCAUGHERTY — Grange of Killyglen, Killyglen; house 4, entry 1; occupant, age 60, head (shoemaker).
+# CATHERINE McCAUGHERTY — Grange of Killyglen, Killyglen; house 4, entry 2; occupant, age 50, wife (spinning flax).
+# MARGARET McCAUGHERTY — Grange of Killyglen, Killyglen; house 4, entry 3; occupant, age 24, daughter (spinning flax).
+# ELIZA McCAUGHERTY — Grange of Killyglen, Killyglen; house 4, entry 4; occupant, age 11, daughter (at mr. brammen's school).
+# ANTHONY McCAUGHERTY — Grange of Killyglen, Killyglen; house 4, entry 5; occupant, age 8, son (at mr. brammen's school).
+# JOHN McCAUGHERTY — Grange of Killyglen, Killyglen; house 4, entry 7; absent, age 28, son (farm labourer).
+# WILLIAM McCAUGHERTY — Grange of Killyglen, Killyglen; house 4, entry 8; absent, age 18, son (farm labourer).
+# ELLEN McCAUGHERTY — Grange of Killyglen, Killyglen; house 4, entry 9; absent, age 14, daughter (house servant).
+# FANNY McCAUGHERTY — Grange of Killyglen, Killyglen; house 4, entry 10; absent, age 12, daughter (farm labourer).
+# MARY McCAUGHERTY — Grange of Killyglen, Killyglen; house 4, entry 11; absent, age 12, daughter (farm labourer).
+# JANE McCAUGHY — Larne, Ballycraigy; house 6, entry 1; occupant, age 79, head (farmer).
+# S. W. McCAUGHEY — Larne, Ballycraigy; house 7, entry 1; occupant, age 39, head (farmer).
+# JANE McCAUGHEY — Larne, Ballycraigy; house 7, entry 2; occupant, age 36, wife.
+# GEORGE McCAUGHEY — Larne, Ballycraigy; house 7, entry 3; occupant, age 14, son (at school).
+# WILLIAM McCAUGHEY — Larne, Ballycraigy; house 7, entry 4; occupant, age 10, son (at school).
+# CHARLES McCAUGHEY — Larne, Ballycraigy; house 7, entry 5; occupant, age 7, son (at school).
+# JANE McCAUGHEY — Larne, Ballycraigy; house 7, entry 6; occupant, age 4, daughter.
+# WILLIAM McCAUGHERTY — Larne, Larne Main Street; house 51, entry 3; occupant, age 40, journeyman (baker).
+# ELIZABETH McCAHEREN — Rasharkin, Lisnagavor; house 1, entry 1; occupant, age 48, head (land holder).
+# MARGARET McCAHEREN — Rasharkin, Lisnagavor; house 1, entry 2; occupant, age 20, daughter.
+# CATHERINE McCAHEREN — Rasharkin, Lisnagavor; house 1, entry 3; occupant, age 18, daughter (linen weaver).
+# ROBERT McCAHEREN — Rasharkin, Lisnagavor; house 1, entry 4; occupant, age 16, son (linen weaver).
+# JOHN McCAHEREN — Rasharkin, Lisnagavor; house 1, entry 5; occupant, age 14, son.
+# ELIZABETH McCAHEREN — Rasharkin, Lisnagavor; house 1, entry 6; occupant, age 10, daughter (at school).
+# HUGH McCAHEREN — Rasharkin, Lisnagavor; house 1, entry 7; occupant, age 6, son (at school).
+# HUGH McCAHEREN — Rasharkin, Lisnagavor; house 1, entry 8; occupant, age 40, visitor (farmer).
+# ARCHIBALD McCAHEREN — Rasharkin, Lisnagavor; house 1, entry 9; death, age 46, husband (farmer).
+# WILLIAM McCAHEREN — Rasharkin, Lisnagavor; house 4, entry 1; occupant, age 31, head (farmer).
+# ELIZABETH McCAHEREN — Rasharkin, Lisnagavor; house 4, entry 2; occupant, age 30, wife.
+# WILLIAM McCAHEREN — Rasharkin, Lisnagavor; house 4, entry 3; occupant, age 13, son (linen weaver).
+# ALEXANDER McCAHEREN — Rasharkin, Lisnagavor; house 4, entry 4; occupant, age 10, son (at school).
+# ANDREW McCAHEREN — Rasharkin, Lisnagavor; house 4, entry 5; occupant, age 8, son.
+# MARY JANE McCAHEREN — Rasharkin, Lisnagavor; house 4, entry 6; occupant, age 6, daughter.
+# ELIZABETH McCAHEREN — Rasharkin, Lisnagavor; house 4, entry 7; occupant, age 4, daughter.
+# SARAH McCAHEREN — Rasharkin, Lisnagavor; house 4, entry 8; occupant, age 0.5, daughter.
+# CHARLES McCAHEREN — Rasharkin, Lisnagavor; house 4, entry 9; occupant, age 0.25, nephew.
+# SARAH McCAGHRIN — Rasharkin, Lisnagavor; house 5, entry 1; occupant, age 70, head.
+# DANIEL McCAHRIN — Rasharkin, Lisnagavor; house 5, entry 2; occupant, age 19, grandson (farmer).
+# SARAH McCAGHRIN — Rasharkin, Lisnagavor; house 5, entry 3; occupant, age 17, granddaughter.
+# MARGARET McCAGHRIN — Rasharkin, Lisnagavor; house 5, entry 4; occupant, age 12, granddaughter.
+# MARY McCAHEREN — Rasharkin, Lisnagavor; house 13, entry 5; occupant, age 70, mother-in-law.
+
+Source for all entries: [1851 Irish census derived comma-delimited file](https://durrushistory.com/wp-content/uploads/2012/10/1851irishcensusreturnscommadelimitedtextfilejul24_072.pdf). The transcription/derived file should be checked against the original census images before using any single spelling, age or relationship as decisive.
+
+### Local-focus result: Alexander's 1851 neighbourhood, 14 September 2026
+
+Filtering the census to Alexander Glasgow's immediate Rasharkin orbit produces a more meaningful result than the county-wide name count. Alexander and Mary Glasgow occupied **Lisnagavor house 35**. Nearby/local entries include:
+
+* the older Archibald McCaheren household at house 31;
+* John and Margaret Taylor at house 13, with **Mary McCaheren, age 70, recorded as Margaret's mother**;
+* Daniel Montgomery at house 17, with **John McCaughern, age 11, recorded as a weaver's apprentice**;
+* the younger Archibald McCaheren household at house 1;
+* William McCaheren's household at house 4, including Alexander, Andrew, Mary Jane, Elizabeth, Sarah and nephew Charles; and
+* Sarah McCaghrin's household at house 5, with grandson Daniel and granddaughters Sarah and Margaret.
+
+The Moneyleck section adds another local cluster: Hugh McCahen, wife Mary and children Jane, Wilson and Catherine, alongside widower John McCahon, grandson John and daughter Margaret. This is the clearest local-context result so far: Alexander's household was embedded among multiple distinct McCaheren/McCaughern/McCahen/McCahon households, but no record yet identifies Mary Glasgow's parents. Source: [1851 census derived return](https://durrushistory.com/wp-content/uploads/2012/10/1851irishcensusreturnscommadelimitedtextfilejul24_072.pdf), Rasharkin parish, Lisnagavor and Moneyleck entries.
+
+### Direct parentage audit and register-access check, 14 September 2026
+
+I rechecked the public WikiTree relationship data for [[McCaughan-222|Mary (McCaughan) Glasgow]], [[Glasgow-951|Alexander Glasgow]], the nearby [[Glasgow-987|Thomas Glasgow]] family, and the separate [[McAughin-2|Archibald McAughin]] cluster. Mary has no recorded WikiTree father or mother; the McAughin-2 children belong to a distinct Archibald–Elizabeth household and do not provide a parent link to Mary. This confirms that the current tree attachments do not constitute proof.
+
+Targeted searches for the reported 1836 marriage and for Mary under McCaughan, McAughin, McAughern and McCaheren variants returned no parent-bearing record. The First Kilraughts material remains the best surviving target: public catalogue evidence places relevant marriage material from 1831 and identifies Coleraine Family History Society film 197, but the actual register image/transcription was not publicly available in the search results. The FamilySearch image route currently redirects to account sign-in, so no image was inspected and no claim can be based on it. No parent assignment is therefore justified.
+
+This is a bounded negative result, not proof of absence. The decisive evidence would still be an original marriage, baptism, congregation/society entry, probate item, lease or witness/kinship statement naming Mary’s parents. Until one is inspected, the Gortereghy McCaheran group remains a low-confidence locality hypothesis only.
+
+### New Finvoy-parish McCaughan holding, 14 September 2026
+
+The Finvoy-parish tithe index adds a previously unrecorded local McCaughan occurrence: **Alexr. McCaughan** at **Unchenagh (Unshinagh)** in 1834, record 6705. Finvoy Church of Ireland records cover baptisms from 1811 and marriages from 1812, so this holding identifies a concrete parish-level record route for testing whether the tenant had a daughter Mary born about 1811. The record is geographically relevant because Gortereghy, where Mary and Alexander’s first children were recorded in 1837–38, lies in the same wider Finvoy/Ballymoney locality.
+
+The tithe entry gives only the occupier and townland. It does not state age, wife, children or relationship to Mary; **Alexr. McCaughan is a new candidate parent, not a proved parent**. The next test is the surviving Finvoy Church of Ireland baptism/marriage material and any later valuation or probate record for this Alexr. Source: [Finvoy tithe index](https://irishgenealogyhub.com/antrim/tithe-applotments/finvoy-parish.php); [North Antrim tithe index, record 6705](https://www.billmacafee.com/182030stithe/tithenorthantrimrevisionnamespdf.pdf); [Finvoy parish record coverage](https://www.irishgenealogyhub.com/antrim/irish-church-records/church-of-ireland-records-county-antrim.php).
+
+### New competing Drumadarragh McCaughan cluster, 14 September 2026
+
+A separate local record trail now provides a stronger alternative to the Gortereghy-only hypothesis. A compiled study of the Ballymoney/Killagan/Finvoy area reports **John McCaughey/McCahan**, farmer, as a 1832 tithe payer at **Drumadarragh, Killagan**, holding about 15 statute acres. The same study identifies children of this household including **Jane McCaughey, born about 1812**, **Margaret McCaughey, born about 1825**, **Nancy McKahey, born about 1831**, **James McCaughey, born about 1833**, and **Sarah McCaughey, born about 1835**. Several later marriages explicitly name their father as John McCaghy/McCaughey, farmer. This is a documented McCaughan-variant family in the correct broad locality and period, not merely a surname occurrence.
+
+The same source records a 1832 Drumadarragh tithe payer as **John McCaughey**, while the 1862 Griffith's valuation entry is **John McCahan**. The compiler cautiously reconstructs these as the same man and proposes Margaret Lees as his wife; that reconstruction is not itself primary proof. The crucial point for Mary's case is that this cluster supplies a plausible local family to test against the circa-1811 Mary Glasgow, while the known children listed by the compiler do **not** include Mary. That absence is not exclusion: the reconstructed family may be incomplete, and Mary could have been an unrecorded or emigrated daughter.
+
+An 1817 First Ballymoney Presbyterian family register adds a useful negative/context check. It lists a **Charles McCaughan** household at Balnamore with Elizabeth, children James, Samuel, John, Ann, Daniel and Elizabeth, plus an older Mary whose relationship was uncertain; it also lists other McCaughan households at Taghey, Currysiskan and Drumard. None is identified as Mary's family, and the Balnamore Mary is described as a possible mother of Charles, making her unlikely to be the circa-1811 daughter sought here. These entries demonstrate that the surname network contained several distinct families before Mary's marriage.
+
+The evidence now supports at least three competing local research clusters—(1) William and James McCaheran at Gortereghy, (2) Archy McCaheran at Lisnagaver, and (3) the John McCaughey/McCahan family at Drumadarragh—plus Alexr. McCaughan at Unchenagh in Finvoy. No source yet names Mary Glasgow as a child of any of them. Parentage remains **unproved**, but the Drumadarragh cluster is now the highest-priority comparison family because it has a named farmer, a 1832 holding, and children with direct father-naming marriage evidence.
+
+Sources: [Ulster Lees Ballymoney-area study](https://ulsterlees.azurewebsites.net/families/co-antrim/ballymoney-area/) (Drumadarragh McCaughey family and marriage evidence); [1817 First Ballymoney Presbyterian family register](https://www.billmacafee.com/census/1817parkcensus.pdf) (Balnamore, Taghey, Currysiskan and Drumard households); [North Antrim tithe index](https://www.billmacafee.com/182030stithe/tithenorthantrimrevisionorder.pdf) (1832 Drumadarragh and 1834 Rasharkin/Finvoy entries).
+
+### Griffith's Valuation continuity test, 14 September 2026
+
+The 1860 North/Mid Antrim Griffith's index supplies a second-period check on the Finvoy-side network. It lists **Andrew McCaughern** in **Lisheegan, Finvoy parish**, and separately lists **John McCahan** in **Drumadarragh, Killagan**. It also records McCaughan/McCahen households across the nearby Culfeightrin, Ballymoney, Kilraghts and Rasharkin parishes. This confirms that the spelling shift from McCaughan/McCaheran to McCaughern/McCahan was active in the same regional population and that the Finvoy-side occurrence was not confined to a single 1834 index entry.
+
+This does not connect Andrew to Alexr. McCaughan, John McCahan to Mary, or either man to the Glasgow household. However, it gives a concrete continuity test: compare the 1834 Unchenagh tenant, the 1860 Lisheegan tenant and the later Gortereghy/Ballydonnelly McCaughern households through valuation revision books, civil marriages and probate. The route remains a candidate-family investigation, not a parentage conclusion.
+
+Source: [North/Mid Antrim Griffith's Valuation index](https://www.billmacafee.com/1860griffiths/northmidantrimgriffiths.pdf), entries 8249 (John McCahan, Drumadarragh) and 11941 (Andrew McCaughern, Lisheegan, Finvoy).
+
+### Taylor–McCaheren relationship-chain correction, 14 September 2026
+
+The original-derived 1851 return clarifies the exact structure of the overlooked lead: **John Taylor, age 28**, and **Margaret Taylor, age 29**, were married at Lisnagavor in 1844; their daughters Margaret and Sally were present, and **Mary McCaheren, age 70, was explicitly recorded as Margaret's mother-in-law**. Thus Mary McCaheren was the mother of one spouse, most naturally Margaret, but the census wording alone does not identify which spouse or give Mary's maiden name.
+
+This makes Mary McCaheren a real maternal-generation person in the same micro-locality, born about 1781, rather than just another surname occurrence. The 1817 First Ballymoney register's unexplained Mary McCaughan at Balnamore could be the same woman after a move, but that is only a hypothesis: the register gives neither age nor a link to Lisnagavor. Even if the identification were proved, it would still show only a possible connection to Margaret Taylor; it would not establish that Mary McCaheren was the mother of Mary Glasgow.
+
+The next decisive test is the 1844 marriage record for John and Margaret Taylor and subsequent Taylor baptisms/deaths, looking for Margaret's stated residence, father's name, witnesses or a McCaughan/McCaheren mother's maiden name. Source: [1851 Lisnagavor return](https://durrushistory.com/wp-content/uploads/2012/10/1851irishcensusreturnscommadelimitedtextfilejul24_072.pdf), house 13; [1817 First Ballymoney register](https://www.billmacafee.com/census/1817parkcensus.pdf), Balnamore house 5.
+
+### Parent-documented Gortahar McCaughern cluster, 14 September 2026
+
+The National Archives of Ireland's public 1841/1851 census-search-form database contains a separate **Thomas McCaughern or McCaughan** claimant. His entry gives father **John McCaughern**, mother **Mary Gormley**, and residence **Church Tamlaght, Gortahar, Rasharkin**. Ancestry's compiled derivative identifies a daughter **Mary McCaughern**, born about 1835, in the same John-and-Mary-Gormley family; that derivative is user-contributed and requires original-record verification.
+
+This is the first newly located McCaughern-variant family in the exact Rasharkin/Gortahar micro-area with both parents named in a government-derived source. It is too young and too late to identify Mary's own parents directly, but it creates a testable family cluster: John McCaughern and Mary Gormley may be a later generation of the same local line represented by the 1834 Gortereghy McCaheran payers, the 1851 Lisnagaver households and the 1893 Ballydonnelly probate family. No record currently proves that descent, or connects this family to Mary Glasgow.
+
+Source: [National Archives census-search-form result](https://censussearchforms.nationalarchives.ie/search/cs/results.jsp?applicantAddress=&applicantFirstname=&applicantSurname=&barony=&censusExtractYear=&city=&county=&fatherFirstname=&fatherSurname=&motherFirstname=&motherSurname=&pageSize=10&pager.offset=56160&parish=&search=Search&sort=residence_parishSort&townland=); [compiled Mary McCaughern profile](https://www.ancestry.co.uk/genealogy/records/mary-mccaughern-24-5ldvs9). The census-search-form entry is evidence of the claimant's stated parentage, not a substitute for the underlying 1851 return or civil/church record.
+### Parent-proof audit: complete 1851 local extraction and indexed leads, 14 September 2026
+
+I checked the complete McCaughern/McCaheren/McCaughern-variant hits in the surviving 1851 Rasharkin-derived return, not just the households previously selected. The relevant entries are: the older Archibald household (including daughter Mary, age 22), William's household, Sarah McCaghrin's grandchildren, Mary McCaheren age 70 as Margaret Taylor's mother-in-law, and an 11-year-old John McCaughern recorded as a servant/apprentice in the Montgomery household. None is Mary Glasgow, born about 1811, and none supplies a parent statement for her.
+
+The NAI census-search-form index was also rechecked for Rasharkin/Gortahar McCaughern or McCaughan entries. The only directly parent-documented result located there is Thomas McCaughern/McCaughan of Church Tamlaght, Gortahar: father John McCaughern, mother Mary Gormley. A compiled derivative proposes a daughter Mary in that family, but the result is a later-generation family and neither the original extract nor a bridge to the Glasgow household has been found. It therefore cannot prove that Mary (McCaughan) Glasgow was their daughter.
+
+The newly checked RootsChat material adds context but no bridge: the Gortereghy family discussed there is Daniel McCaughern, son of Andrew and Jane, born about 1826, and the discussion separately mentions an Alexander McCaughern on Daniel's marriage record. These are valuable candidates for reconstructing the local surname network, but they are not evidence that Mary Glasgow was a daughter of either man. The sources are user-contributed and the underlying certificates/estate papers still require inspection.
+
+**Result:** Mary's parents remain unproved. The strongest current candidate route is still the Gortereghy/Finvoy McCaheran network, now competing with the Drumadarragh John McCaughey/McCahan and Unchenagh Alexr. McCaughan clusters. No responsible proof statement can yet name a father or mother. Decisive targets remain the 1836 marriage/congregational material at First Kilraughts and an original baptism, probate, lease, or family statement that explicitly names Mary's parents.
+
+Sources: [1851 Rasharkin derived return](https://durrushistory.com/wp-content/uploads/2012/10/1851irishcensusreturnscommadelimitedtextfilejul24_072.pdf); [NAI census-search forms](https://censussearchforms.nationalarchives.ie/search/cs/results.jsp?applicantAddress=&applicantFirstname=&applicantSurname=&barony=&censusExtractYear=&city=&county=&fatherFirstname=&fatherSurname=&motherFirstname=&motherSurname=&pageSize=10&pager.offset=56160&parish=&search=Search&sort=residence_parishSort&townland=); [McCaughern/Fee discussion](https://www.rootschat.com/forum/index.php?topic=502783.0).
+### Authenticated FamilySearch spelling and marriage audit, 14 September 2026
+
+Using the authenticated FamilySearch session, I searched Mary McCaughan, McCaughern, McAughin, McAughern and McCaheren in County Antrim for a birth range of 1808–1814. The exact McCaughan, McAughin, McAughern and McCaheren searches returned no result. The McCaughern search returned a separate Mary McCaughern/McCaughey cluster born about 1840, married to William Marks, with later children including Nancy and William. Its attached Family Tree profile is 96Q1-GH3 and its sources are principally 1860–1878 civil/baptism records. This is not Mary's wife-of-Alexander profile, whose estimated birth is about 1811.
+
+I also searched the authenticated record index for Alexander Glasgow with spouse Mary McCaughern and an Antrim marriage date of 1834–1838. It returned zero results. This does not exclude an unindexed or image-only Presbyterian marriage, but it confirms that the indexed FamilySearch route supplies no parent-bearing marriage record.
+
+The FamilySearch result set therefore adds a genuine negative identity check and separates the later Mary McCaughern–William Marks family from Mary Glasgow. It does not prove Mary's parents. The decisive unresolved route remains the unindexed First Kilraughts church material or another original local record explicitly naming her parents.
+
+### FamilySearch Catholic-branch separation and Rasharkin register comparison, 14 September 2026
+
+The authenticated FamilySearch search was widened to Alexander McCaughan born 1765–1805 in Antrim and to Mary McCaughan born 1795–1825. The Mary search returned **zero** indexed records. The Alexander search returned several Catholic entries, but the apparently relevant Alexander–Mary results are a different family: one record identifies Alex M'caughan with wife Cath Quinn and daughter Mary M'caughan baptised **7 April 1867 at Culfeightrin**; another group has Alexander with Catherine Quinn and children in Ballycastle. These records are decades too late and belong to a Catholic branch, so they cannot be used for Alexander Glasgow's Presbyterian wife.
+
+The Rasharkin Presbyterian baptism transcription independently shows the local McAughern network in the same period: Eliza McAughern, wife of Thomas, at Carnfinton in 1834/1836; the Archy McAughern–Elizabeth Kilpatrick family at Lisnagaver from 1838–1842; and James McAughern, son of John and Jane McAuly, at Ballydonly in 1843. None names Mary Glasgow as a daughter, and none supplies a parent-bearing baptism for a woman born about 1811. This strengthens the cluster map and rules out treating every local McAughern household as one family, but it still leaves Mary's parents unproved.
+
+Sources: [FamilySearch Alexander McCaughan search](https://www.familysearch.org/en/search/record/results?count=100&q.givenName=Alexander&q.surname=McCaughan&q.birthLikeDate.from=1765&q.birthLikeDate.to=1805&q.birthLikePlace=Antrim%2C%20Ireland); [FamilySearch early Mary McCaughan search](https://www.familysearch.org/en/search/record/results?count=100&q.givenName=Mary&q.surname=McCaughan&q.birthLikeDate.from=1795&q.birthLikeDate.to=1825&q.birthLikePlace=Antrim%2C%20Ireland); [FamilySearch Alex M'caughan/Mary M'caughan record](https://www.familysearch.org/ark:/61903/1:1:688T-2CW4); [Rasharkin Presbyterian baptism transcription](https://genealogy.torrens.org/BannValley/church/RasharkinP/Baptisms_1834.html).
+
+A further FamilySearch search for **Mary McAughern**, County Antrim, 1780–1840 also returned zero indexed records. This broadens the negative result across the spelling most directly used in the 1838/1844 Rasharkin baptism entries; it still cannot exclude an unindexed Presbyterian register or a spelling not captured by the index.
+
+### Major archival correction: Kilraughts Reformed Presbyterian family lists, 14 September 2026
+
+The most valuable route is not limited to the First Kilraughts baptism/marriage register. The PRONI church-record guide identifies a separate **Kilraughts Reformed Presbyterian** source, **CR5/32A/1**, described as containing lists of members by society, baptisms, marriages, deaths and removals, including emigration, for Kilraughts from about **1804 to 1831**. A contemporary family or society list in that volume could name Mary’s parents or place her in a household before her reported 1836 marriage—precisely the missing evidence window.
+
+This must be kept distinct from **First Kilraughts Presbyterian**, MIC.1P/117/2, whose surviving register is listed with baptisms and marriages from 1831 onward. The two records are separate congregational routes and should not be conflated. The CR5/32A/1 family-list material is therefore now the highest-priority parent-proof target, ahead of relying on the 1836 marriage entry alone. It is a strong archival lead, not yet proof, because the manuscript has not been inspected.
+
+Sources: [PRONI Guide to Church Records](https://www.americanancestors.org/sites/default/files/2026-03/Guide-to-Church-Records-October-2019.pdf), Kilraughts Reformed Presbyterian entry; [North Antrim church-record summary](https://www.billmacafee.com/churchrecords/churchrecordsnorthmidantrim.pdf), Kilraughts First Presbyterian entry; [Ulster Historical Foundation records of congregations](https://ulsterhistoricalfoundation.com/presbyterianism/covenanters/records-of-congregations).
+
+### Online catalogue check for Kilraughts RP, 14 September 2026
+
+The County Antrim source list at RootsIreland separately lists **Kilraughts (RP), 1780–1934** under Reformed Presbyterian material, while its Presbyterian list gives Kilraughts coverage from about 1800–1929. This confirms that the congregation has a distinct indexed/source presence beyond the First Kilraughts register, although the public page does not expose the individual names without the research interface. It is therefore worth testing Mary and all McCaughan spellings there if access becomes available.
+
+The local history trail also confirms that the Kilraughts and Dervock Reformed Presbyterian societies were served together from 1804 and divided in 1831. That makes the 1804–1831 society lists especially relevant: Mary's family could appear under Kilraughts, Dervock or the pre-division combined congregation. This is a new routing detail, not proof of identity.
+
+Sources: [RootsIreland County Antrim sources](https://rootsireland.ie/antrimdown/online-sources.php); [Ballymoney Presbyterian history](https://eddiesextracts.com/books/churchesofballymoney/reformedchurch.html); [PRONI Guide to Church Records](https://www.americanancestors.org/sites/default/files/2026-03/Guide-to-Church-Records-October-2019.pdf).
+
+### James McCaughern: Rasharkin burial and 1851 comparison, 14 September 2026
+
+The authenticated FamilySearch index produced a substantial new James record: **James McCaughern**, born **1790**, died **13 September 1858**, buried at **Rasharkin Presbyterian Church Graveyard**. The linked Find a Grave memorial gives the same dates and cemetery, and names **Nancy McCaughern (1794–1859)** as spouse and **Thomas McCaughern (1829–1857)** as a child. This is a real local James family record, not merely a surname hit.
+
+It is a strong candidate to investigate against the 1834 Gortereghy James because the birth estimate, Presbyterian affiliation and Rasharkin burial all fit the broad working profile. It is not yet an identification: the memorial does not state Gortereghy, William McCaheran, Mary Glasgow, or any parentage, and the spouse/child links are Find a Grave contributor data rather than an original family record.
+
+The complete surviving 1851 Rasharkin-derived return provides an important negative/competing check. It records **Archibald McCaheren, age 60**, wife Elizabeth, and children including **James McCaheren, age 20**, at Lisnagavor; this is the known Archibald–Elizabeth Kilpatrick cluster and is plainly a different James from the 1790-born memorial candidate. In the same Lisnagavor enumeration, **Alexander Glasgow, age 40**, wife **Mary Glasgow, age 40**, and children Robert, James and Ann are recorded in house 35; their reported marriage year is 1836. No separate James-and-Nancy household appears in the extracted Lisnagavor sequence. This means the 1851 return confirms the Glasgow couple's locality and the Archibald family's distinct James, but does not bridge the burial candidate to Gortereghy or to Mary Glasgow.
+
+The FamilySearch James McCaughern search also returned later parent-bearing civil records: a James marrying **Anne McCord** in Ballymoney in 1853 with father **Archibald McCaughern**, and a James marrying **Mary Jamison** in Finvoy in 1854 with father **James McCaughern**. These belong to later young men and are useful for separating the Archibald–Elizabeth line and another James line; neither is the 1790–1858 Nancy memorial candidate.
+
+**Current assessment:** the 1790–1858 James McCaughern/Nancy memorial is now the best newly located chronological and local burial candidate for the unidentified James, but identity remains **unproved**. The most valuable next test is the grave photograph/inscription and original Rasharkin or Kilraughts church material, followed by a marriage or probate record naming his residence, wife, children or associates. The 1834 tithe's “Wm. & James McCaheran” remains the only record directly placing an older James at Gortereghy.
+
+Sources: [FamilySearch James McCaughern search](https://www.familysearch.org/en/search/record/results?count=100&q.givenName=James&q.surname=McCaughern&q.birthLikeDate.from=1765&q.birthLikeDate.to=1810&q.birthLikePlace=Antrim%2C%20Ireland); [FamilySearch burial index record](https://www.familysearch.org/ark:/61903/1:1:CVDP-S2MM); [Find a Grave memorial 205517378](https://www.findagrave.com/memorial/205517378/james-mccaughern); [1851 Rasharkin-derived return](https://durrushistory.com/wp-content/uploads/2012/10/1851irishcensusreturnscommadelimitedtextfilejul24_072.pdf), Lisnagavor houses 31 and 35; [North Antrim tithe material](https://www.billmacafee.com/182030stithe/tithenorthantrimrevisionorder.pdf).
+
+### Ancestry James McCaughern household lead, 14 September 2026
+
+Ancestry's public-name index returns a derivative user-tree reconstruction for **James McCaughern (1831–1900)** of Rasharkin. It assigns him to an Archibald McCaughern/McCaheron/McCochrane (about 1791–1881) and **Elizabeth Kilpatrick (1803–1881)**, and reports marriages to Ann McCord and Jane Caldwell with four children. James's estimated birth year matches the **James McCaheren, age 20**, in the older 1851 Lisnagaver household, while the assigned Archibald birth estimate matches the age-60 Archibald in that household. This strengthens the identification of that 1851 James as a son of the older Archibald household.
+
+The source is an Ancestry-generated public index based on user-submitted trees, not independent proof. It does not establish that the 1831 James was the 1834 Gortereghy tithe tenant, the father of Mary Glasgow, or the same person as WikiTree's **James McCaughan (McCaughan-68)**. The result should therefore be retained as a high-value derivative lead and tested against the underlying 1851 image, civil marriages/deaths and original church records.
+
+Source: [Ancestry public-name index: James McCaughern](https://www.ancestry.it/genealogy/records/james-mccaughern-24-6fzfwm), accessed 14 September 2026.
+
+### Mary McCaughern and the John–Mary Gormley branch, 14 September 2026
+
+Ancestry's public-name index separately returns **Mary McCaughern (about 1835)** of Rasharkin Parish, assigning her to **John McCaughern/McCarnagh (about 1809–1867)** and **Mary Gormley/Gorman/German (about 1813–1894)**. It reports her marriage to William Marks and seven children. This is significant because the National Archives search-form lead for **Thomas McCaughern/McCaughan** also names John McCaughern and Mary Gormley as parents, providing a possible sibling/household context for Thomas.
+
+This is not evidence about Mary McCaughan Glasgow, born about 1811, and the Ancestry compilation is derivative with no underlying records exposed. It strengthens a separate Rasharkin John–Mary Gormley McCaughern branch and gives a concrete route for checking the original 1851 search-form entry, civil registrations and church records. No WikiTree profile has yet been identified for this Mary.
+
+Source: [Ancestry public-name index: Mary McCaughern](https://www.ancestry.co.uk/genealogy/records/mary-mccaughern-24-5ldvs9), accessed 14 September 2026.
+
+### New full 1803 Ballintoy McCaughan household audit, 15 September 2026
+
+The complete 1803 Ballintoy agricultural census reveals several distinct early McCaughan households beyond the previously isolated Coulrasheskin entries:
+
+- **Broughgammon:** deceased Dennis M'Caghan; widow Margaret McCurdy; John, Molly, Betty, Nancy and Matty.
+- **Drumnagessan/Cairn-Hill:** John M'Caghan and Sarah McCaw; sons David, Archibald, John and James; daughter Isobel.
+- **Drumnagessan:** Daniel M'Caghan and Rose McCurdy; daughters Catherine, Sally and Isobel.
+- **Templastragh:** Daniel M'Caghan and Rose McCurdy; sons John, Alexander, Roger and Robert; daughter Mary.
+- **Templastragh:** Hector M'Caghan and Peggy Laverty; son Zachariah and daughter Rose.
+- **Templastragh:** John M'Caghan and Jane Sinclair; sons Hector and Daniel.
+- **Craige:** Angus M'Caghan and Elizabeth Glass; sons Hugh and Archibald; daughter Belle.
+
+The two Daniel-and-Rose entries occur as separate census households in different townlands and must not be merged without proof. The Templastragh Mary is directly recorded as a daughter of Daniel M'Caghan and Rose McCurdy, but no age, later marriage, migration or Rasharkin connection is supplied. This confirms a substantial early, multi-branch Ballintoy network, but none of these households can presently be assigned as the parents of **Mary (McCaughan) Glasgow**.
+
+Targeted WikiTree searches found no matching profiles for these exact household combinations, so no IDs are invented here.
+
+Source: [1803 Ballintoy agricultural census](https://www.billmacafee.com/census/1803traillcensus.pdf), PRONI T679/69, Broughgammon records 833–839; Craige 1893–1898; Drumnagessan/Cairn-Hill 2236–2242; Drumnagessan 2243–2247; Templastragh 3608–3614, 3622–3630, accessed 15 September 2026.
+
+### 1824 Templastragh tithe continuity
+
+The later North Antrim tithe revision independently preserves the Templastragh cluster: it lists **Zackariah McCahan**, **Daniel McCahan**, **Alexander McCahan** and a **widow McCahan** in Templastragh in 1824. Zackariah is especially notable because the 1803 Ballintoy census names **Zachariah McCaghan** as the son of **Hector McCaghan** and **Peggy Laverty**. Daniel and Alexander also recur as names in the 1803 Daniel-and-Rose household, although the tithe does not state their relationships or ages.
+
+This is genuine chronological corroboration for a continuing McCaughan/McCahan presence in the same Ballintoy townland, and it helps distinguish the early Templastragh households from isolated name occurrences. It still cannot identify the 1803 Mary as the later **Mary (McCaughan) Glasgow**: the tithe gives no women’s identities beyond the widow, no marriages or children, and no movement toward Lisnagaver or Gortereghy.
+
+Source: [North Antrim tithe revision names](https://www.billmacafee.com/182030stithe/tithenorthantrimrevisionnamespdf.pdf), records 800–801 and 807–814, accessed 15 September 2026.
+
+### 1766–1860 Templastragh locality trail
+
+The 1766 Religious Census for Ballintoy records **Daniel M'Kaughen** in **Templastragh**, with a household size of five. This is a direct pre-1790 occurrence of the same distinctive given name and townland later seen in the 1803 census. The 1803 household is much larger—Daniel M'Caghan, Rose McCurdy and five listed children, including Mary—and the 1824 tithe revision again lists Daniel McCahan in Templastragh.
+
+The later Griffith's Valuation index also lists **Daniel McCahan** and **Elizabeth McCaughan** in Templastragh. Because the valuation is a later occupier index and does not state ages, spouses or parentage, this may represent a younger Daniel or a different household; it cannot be assumed to be the 1803 man. Taken together, the records establish a long-lived Daniel/McCaughan presence in Templastragh from 1766 through the mid-nineteenth century and justify targeted searches for a marriage or baptismal record connecting the households.
+
+This materially strengthens the Ballintoy cluster but still does not prove that the 1803 Mary was **Mary (McCaughan) Glasgow** or that Daniel and Rose were her parents.
+
+Sources: [1766 Ballintoy Religious Census](https://www.billmacafee.com/1766census/1766religiouscensusballintoy.pdf), record 348; [1803 Ballintoy agricultural census](https://www.billmacafee.com/census/1803traillcensus.pdf), records 3608–3614; [1824 North Antrim tithe revision](https://www.billmacafee.com/182030stithe/tithenorthantrimrevisionnamespdf.pdf), records 807–808; [Griffith's Valuation index for Ballintoy](https://www.irishgenealogyhub.com/antrim/griffiths-valuation/parish-of-ballintoy.php), accessed 15 September 2026.
+
+### Later Daniel-and-Elizabeth Templastragh branch
+
+An Ancestry public-name index identifies **Jane McCaughan**, born **12 November 1834** at **Templastragh**, as daughter of **Daniel McCaughan** and **Elizabeth Rogers**; the same compiled entry estimates both parents at about 1800–1847 and says Jane later emigrated to New York. This is a useful later-household lead because Griffith's Valuation also lists Daniel McCahan and Elizabeth McCaughan in Templastragh.
+
+The index is derivative and does not expose the original baptism or marriage images. It therefore cannot yet establish whether this Daniel was a son of the 1803 Daniel and Rose, a nephew, or an unrelated Daniel in the same townland. It does, however, give a specific child, date, mother’s maiden surname and migration trail for further testing. No evidence currently connects this branch to **Mary (McCaughan) Glasgow**.
+
+Source: [Ancestry public-name index for Jane McCaughan](https://www.ancestry.com/genealogy/records/jane-mccaughan-24-1mzn0), accessed 15 September 2026.
+
+### First Kilraughts register: confirmed archival target
+
+The National Archives catalogue confirms that **First Kilraughts Presbyterian Church** records survive at PRONI as **MIC/1P/462**, including registers and minute books from **1815–1984**. The previously cited 8 November 1839 entry is now identified as Alexander Montgomery and Jane McCaughey, not a Glasgow marriage. The register remains a possible archival search target for Glasgow/Glasgo/Glassgow and McCaughan/McAughin/McAughern variants, but it currently supplies no Glasgow marriage evidence.
+
+This is the clearest remaining route to a contemporaneous record associated with Alexander and Mary. It may name witnesses rather than parents, so even a successful marriage entry may not prove Mary's parentage; however, repeated witnesses could connect her to one of the local McCaughan households. The register must be consulted directly before any conclusion is upgraded.
+
+Sources: [National Archives catalogue entry for MIC/1P/462](https://www.nationalarchives.gov.uk/accessions/2002/02digests/religion.htm); [Ulster Lees Ballymoney-area reconstruction](https://ulsterlees.azurewebsites.net/families/co-antrim/ballymoney-area/), accessed 15 September 2026.
+
+### Collateral Drumadarragh McCaughey branch
+
+The Ulster Lees reconstruction documents a separate **John McCaughey/McCaghy and Margaret Lees** family associated with **Drumadarragh**, including Jane (about 1812), Margaret (about 1825), James (about 1833), Sarah (about 1835) and other proposed children. Several adult marriages name John McCaghy as father, and Jane's later death record names John McAughley and Margaret Lees. This branch is geographically relevant to the Ballymoney-area McCaughan variants and explains why the 1817 Drumard household cannot be treated as the only local candidate.
+
+The published reconstruction does not include a daughter Mary of the correct age and remains partly inferential. It is therefore a comparison/exclusion branch, not evidence that John and Margaret were Mary's parents.
+
+### Pre-1790 North Antrim surname records, 14 September 2026
+
+The search located several pre-1790 records relevant to the McCaughan/McCaghan name study. The **1740 Protestant Householders' Returns** list **John McCaughan**, recorded as **McCaghan**, and a separate widow under the same surname in **Rasharkin, Kilconway barony**. The same return has other McCaughan/McCaghan entries in Ballintoy, Derrykeighan, Ramoan, Ballywillan and Loughguile. The **1766 Religious Census for Ballymoney parish** records **Elizabeth m'Caghna**. These are direct early surname/locality occurrences, but they contain no parentage bridge to Mary Glasgow or the later Gortereghy tenants.
+
+A compiled Culfeightrin/Ballyverdagh account provides a further pre-1790 research route: Laughlin McCaughan, born about 1696 at Ballyverdagh, appears as **Laughy McCagen/McCahan** in a 1734 County Antrim surname roll; the account says his will was proved in 1772 and that he was buried at Culfeightrin. It also reports earlier John, Charles and Alexander generations and later McKachan/McKaghin vestry forms. This is a secondary compiled narrative, not proof, but the 1772 will and original vestry records are now high-priority sources.
+
+**Assessment:** pre-1790 evidence confirms a broad regional surname presence and a potentially reconstructable Culfeightrin line. It does not yet identify Mary’s parents or connect the early Culfeightrin line to the Rasharkin McCaheran group.
+
+Sources: [1740 Protestant Householders' Returns](https://www.billmacafee.com/1740returns/1740protestantreturnsantrim.pdf); [1766 Ballymoney Religious Census](https://www.billmacafee.com/1766census/1766religiouscensusballymoney.pdf); [Ballyverdagh/Culfeightrin McCaughan account](https://electricscotland.com/webclans/m/maceachain2.htm).
+
+The same compiled North Antrim account quotes two explicit **1755 Ballymoney Presbyterian baptism** entries: Agnes, daughter of James McCaughan, on 20 May, and Janet, daughter of Alexander McCaughan, on 28 August. These are useful parent-child records in the adjacent Presbyterian network and give two named adult McCaughan men before 1790. They do not identify either man with the later Rasharkin family or provide a bridge to Mary Glasgow.
+
+The 1803 agricultural census also records a McCaghan household at **Coulrasheskin** with sons John and Archibald, alongside McCaghin/McCaughin households at Ballynagard Upper, Ballyvarridagh and Farranmacarter. The 1831 tithe transcription then shows a dense McCahan cluster at Ballyverdagh, Coolaveely, Brackney, Eglish and Farranmacarter. This provides continuity for a substantial Ballycastle/Culfeightrin branch, but it remains geographically separate from the Rasharkin Gortereghy McCaheran entries and does not bridge to Mary Glasgow.
+
+Sources: [1803 Agricultural Census](https://www.billmacafee.com/1803agriculturalcensus/1803censusantrim2.pdf); [1831 North Antrim tithe transcription](https://www.billmacafee.com/182030stithe/tithenorthantrim.pdf).
+
+### 1803 Ballintoy household census: two McCaughan family units
+
+A separate 1803 household return for Ballintoy parish gives more structure than the agricultural name index. At **Coulrasheskin/Curryeshkin**, house 3, **Archd. M'Caghan** is recorded with wife **Isobel Lawson**, sons **Archd.** and **John**, and brother **Alex.**, a weaver. In the adjoining house 4, **Arch. senior M'Caghan**, a weaver, is recorded with wife **Sarah Linegan**, son **Isaac**, daughters **Sally, Giles and Ibby**, and brother **Robert**.
+
+This is new direct household evidence for a multi-generational North Antrim McCaughan network and an important identity safeguard. Neither household contains a Mary of the right apparent age, and the younger Archibald in house 3 would be too young to be the Archibald McAughin-2 father estimated at about 1791. The return therefore strengthens the separation of the Ballintoy/Culfeightrin cluster from the Rasharkin Gortereghy hypothesis; it does not prove Mary's parents.
+
+Source: [Robert Traill's 1803 Ballintoy household census transcription](https://www.billmacafee.com/census/1803traillcensus.pdf), PRONI T679/69, p. 27, entries 1417–1427, accessed 14 September 2026.
+
+### Authenticated FamilySearch Rasharkin cluster search, 14 September 2026
+
+The authenticated FamilySearch search for McCaughan/McCaheran records in Rasharkin produced three useful new local leads. A civil-registration result records **John McCaughan** marrying **Sarah Dysart at Rasharkin on 18 March 1851**, with father **Jas McCaughan**. The result is a genuine father-naming clue from the correct district, but neither John nor James can yet be identified with the Glasgow-connected households.
+
+The same result set includes **Archibald Mccaughan Junr** in a **1836 Lisnagaver** Valuation Office Books entry. The “Junr” designation is consistent with the two separate Archibald households already found in the 1851 return, but the valuation image has not yet been inspected and the entry cannot yet be assigned to [[McAughin-2|Archibald McAughin]] or either household.
+
+The search also returns **Archey McCaheran** and **John McCaheran** in the Northern Ireland Tithe Applotment Books, 1822–1840. The summary does not show their townlands or assessments, so these are discovery leads pending image/transcription comparison with the 1834 Gortereghy co-tenants. They are not counted as additional people until the underlying entries are checked.
+
+**Assessment:** this batch strengthens the multiple-local-family model and adds a parent-bearing Rasharkin marriage lead, but it does not prove Mary (McCaughan) Glasgow's parents. The next step is to inspect the original images and compare fathers, townlands, occupations and neighbouring tenants.
+
+Sources: [FamilySearch Rasharkin McCaughan search](https://www.familysearch.org/en/search/record/results?count=100&q.anyPlace=Rasharkin&q.surname=McCaughan); [FamilySearch McCaheran search](https://www.familysearch.org/en/search/record/results?count=100&q.anyPlace=Rasharkin&q.surname=McCaheran); [North Antrim tithe transcription](https://www.billmacafee.com/182030stithe/tithenorthantrimrevisionorder.pdf).
+
+### Independent derivative reconstruction of the Dysart branch, 14 September 2026
+
+A separate public Geneanet tree reproduces the FamilySearch marriage lead as **John McCaughern and Sarah Dysart**, married at Rasharkin Presbyterian Church on **18 March 1851**, and adds a proposed death for John on **18 December 1872** plus a daughter, **Mary Anne Jane Rea McCaughern**, born about 1858 at Crushybracken. This is not an independent original record—the tree is user-submitted—but it gives a concrete descendant and locality trail for the father-named John/Jas McCaughan entry and a practical route to civil death, marriage and Australian migration records.
+
+It remains a separate collateral branch. The 1851 marriage result does not identify John or Jas McCaughan with Alexander Glasgow's wife or the Gortereghy tithe tenants, and the Geneanet tree's additional dates and relationships require original-record verification.
+
+Source: [Geneanet McCaughern public tree index](https://pt.geneanet.org/fonds/individus/?go=1&niveaux_1___3869569569__=arbres&niveaux_2___3645179592__=arbres%23utilisateur&nom=MCCAUGHERN&sourcename__0__=bobspree), accessed 14 September 2026.
+
+### Black branch and possible 1866 witness, 14 September 2026
+
+The original civil return for **Robert Glasgow and Jane Graham, 5 April 1866**
+(Churchtown Presbyterian meetinghouse, Tamlaght O’Crilly) names Robert’s father
+as Alexander Glasgow, farmer, and records **John Black** as a witness. The
+return gives no address or relationship for John Black. His identification with
+the John Black in the Canadian deed research is therefore a testable possibility,
+not an established fact.
+
+The original **John Black–Martha Savage marriage, 13 March 1862**, identifies
+John as a full-age bachelor, farmer of **Drumoolish**, son of **Robert Black,
+farmer**; Martha was 20, of Knockaduff, daughter of William Savage. This is a
+strong identity anchor for the John and Martha in the deed because the names,
+townland and farming context agree. The return is page 178, entry 136, image
+5491449.
+
+The Churchtown baptism transcription records **Elizabeth Black**, 31 July
+1845, daughter of **Robert Black and Mary Glasgow**, residence Drumoolish
+(page 7, entry 116; cited register PRONI MIC 1P/347A/1). This names a specific
+Black–Glasgow parental couple and supports the working identification of the
+deed family; the original baptism image remains to be checked, and 31 July is a
+baptism date, not an established birth date. The same transcription records
+“Thomson Black,” 10 January 1843, child of Robert and a mother transcribed as
+“Gear” and marked illegible. It may be relevant to the later Thomasina
+Montgomery, but the reading must not be normalised without the original image.
+
+The 1831 Tamlaght O’Crilly census transcription lists **Robert Black** at
+Drumolish, house 57, with two males and one female, all three Presbyterians
+(row 643). It is a candidate earlier household only: the occupants are unnamed
+and several other Black households occur in the same townland. A December 1862
+newspaper report of twin boys born to John Black’s wife at her father William
+Savage’s Knockaduff home, followed by Churchtown baptisms on 5 November 1863
+for Robert and William Black, children of John and Martha Savage of Drumoolish,
+supports the couple’s continuity. The newspaper says the twins were born 20
+December, while the baptism transcription says they were nine months old; the
+date discrepancy is retained rather than harmonised.
+
+**Assessment.** The 1866 witness is an established record fact; identifying him
+as John Black, son of Robert Black and Mary Glasgow, is plausible from the
+Drumoolish, congregation and chronology evidence but remains unproved. Even a
+confirmed witness identity would establish contact with Alexander’s son, not
+Alexander’s brotherhood or shared parentage with Mary Glasgow. The new route is
+to obtain the Elizabeth and 1843 baptism images, investigate Robert Black and
+Mary Glasgow’s marriage and household, and compare further Churchtown witness
+occurrences. It does not justify adding older Alexander and Rosanna as
+Alexander’s parents.
+
+Sources: [1866 marriage return](https://civilrecords.irishgenealogy.ie/churchrecords/images/marriage_returns/marriages_1866/11531/8240963.pdf); [Churchtown baptisms](https://genealogy.torrens.org/BannValley/church/TamlaghtP/Baptisms.html); [1831 census transcription](https://genealogy.torrens.org/BannValley/church/Tamlaght/1831census_2.html); [1862 marriage return](https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1862/10945/5491449.pdf); [1862 newspaper report](https://www.cotyroneireland.com/surnames/black3.html); [1863 baptisms](https://genealogy.torrens.org/BannValley/church/TamlaghtP/Baptisms2.html).
+
+### Dysart–Glascaw–Lisnagaver connection, 14 September 2026
+
+The Rasharkin Presbyterian baptism transcription supplies a new affinal-network connection. On the 1846 sequence, **Jane Glascaw**, born 29 April 1846, is recorded as the daughter of **Thos Glascaw** and **Mary Ann McCrackin**, residence **Lisnagaver**. The same register records children of **James Dysart and Jane Glascaw**: Mary Jane Dysart (born 13 July 1837, Granagh), Elisabeth Dysart (born 12 March 1839, Granagh), Margaret Dysart (born 7 April 1842, Granagh), and James Dysart (1843, Crushybracken).
+
+The names, wife and townland make Jane Glascaw a strong candidate for the daughter of [[Glasgow-987|Thomas Glasgow]] and [[McCracken-5681|Maryann (McCracken) Glasgow]], whose Lisnagaver household is independently documented in 1851. The register uses the recorded form “Glascaw,” so the identification must remain an inference until Jane's later marriage/death record or the original baptism image confirms it. If correct, the 1851 John McCaughern–Sarah Dysart branch is connected by marriage into the Thomas Glasgow family through Jane's Dysart household, not directly into Alexander Glasgow's family.
+
+This is important network evidence but not evidence that Sarah Dysart was Jane's sister, nor that [[McCaughan-222|Mary (McCaughan) Glasgow]] was related to either branch. Sarah's own baptism or the 1851 marriage certificate remains the test.
+
+Source: [Rasharkin Presbyterian baptism transcription](https://genealogy.torrens.org/BannValley/church/RasharkinP/Baptisms_1834.html), entries 82, 133, 176, 192, 203, 269 and 271, accessed 14 September 2026.
+
+### Record-level identification of the Dysart couple, 14 September 2026
+
+The underlying FamilySearch civil-registration entry can now be opened directly rather than relying on the search-result summary. It records **John McCaughan** marrying **Sarah Dysart** at **Rasharkin, Ballymoney, on 18 March 1851**. The associated persons name **Jas McCaughan** as John's father and **Jas Dysart** as Sarah's father. FamilySearch marks the image unavailable, so this is an indexed civil record rather than a checked image of the certificate; nevertheless, it is relationship-bearing evidence and stronger than the earlier Geneanet reconstruction.
+
+This establishes a real father-naming pair in the local network: **John McCaughan — son of Jas McCaughan — married Sarah Dysart — daughter of Jas Dysart**. It does **not** establish that Jas McCaughan was the same man as the 1834 Gortereghy tithe co-tenant, that he was related to Alexander Glasgow's wife, or that Sarah was a sister of Jane Glascaw. The record therefore raises the Dysart/McCaughan branch from “derivative lead” to **documented marriage and parent names**, while Mary's parentage remains unresolved.
+
+The result also fits the local geography: Griffith's Valuation (1861–62) lists **James Dysart** and **Robert Dysart** at **Crushybracken**, **Archibald Dysart** and **Sarah Dysert** at **Drumack**, and the Glasgow households at Lisnagaver/Gortereghy. These entries show a concentrated Dysart presence in the same Rasharkin parish, but the valuation is an occupier index and cannot by itself prove that the Sarah Dysert entry was the bride or that the several Dysart households were one family.
+
+**Research consequence:** the next decisive records are the original 1851 certificate (for residences, occupations and witnesses), Sarah's baptism or a later death record naming her age/parents, and the 1851–1870 household sequence for Jas/Jas McCaughan. Until those are found, this branch is relevant local context—not proof of Mary's parents.
+
+Sources: [FamilySearch civil record for John McCaughan and Sarah Dysart](https://www.familysearch.org/ark:/61903/1:1:QGVD-CN3S); [FamilySearch associated Jas McCaughan](https://www.familysearch.org/ark:/61903/1:1:QGVD-HYMZ); [Griffith's Valuation, Rasharkin parish](https://www.irishgenealogyhub.com/antrim/griffiths-valuation/parish-of-rasharkin.php).
+
+### Contemporary local-family testimony, 2008 archive
+
+The Bann Valley genealogy mailing-list archive contains a reply from a person identifying himself as **Robert McCaughern**, who said he still farmed at Ballydonnelly and that “all the McCaugherns around Rasharkin were related.” He also described a Rea farm formerly adjoining his family's farm and migration links through a Rasharkin merchant family. This is useful local testimony about how the surname network was remembered, and it makes the Rea connection in the derivative Dysart reconstruction worth pursuing. It is not a contemporary historical record, gives no documented genealogy, and cannot be used to assign Mary Glasgow or any McCaughan profile to a specific branch.
+
+Source: [Bann Valley archive: “Rea”](https://genealogy.torrens.org/archive/BannValley/2008/msg00074.html), 17 May 2008; related [“Re Ballydonnelly”](https://genealogy.torrens.org/archive/BannValley/2008/msg00068.html), 16 May 2008.
+
+### National Archives census-search-form parent data, 14 September 2026
+
+The National Archives of Ireland search-form database gives a precise parent-bearing record for a different local man: **Thomas McCaughern or McCaughan**, whose 1851 census extract was requested from **Church Tamlaght, Gortahar, Rasharkin**. The form names his father as **John McCaughern** and his mother as **Mary Gormley**. This independently reinforces the existence of a John–Mary Gormley McCaughern household in the immediate Alexander Glasgow area, and it is more specific than the earlier Ancestry tree lead.
+
+It is not a solution for Mary Glasgow. Thomas is a later-generation man, and the search form does not give enough information to identify his parents' ages or connect John to Alexander's wife. The chronology also makes John and Mary Gormley poor candidates to be the parents of Mary Glasgow if the latter's circa-1811 birth estimate is correct. This is therefore a **separate local branch and an exclusionary chronology check**, not positive parentage evidence.
+
+Source: [National Archives of Ireland 1841/1851 Census Search Forms](https://censussearchforms.nationalarchives.ie/search/cs/results.jsp?applicantAddress=&applicantFirstname=&applicantSurname=&barony=&censusExtractYear=&city=&county=&fatherFirstname=&fatherSurname=&motherFirstname=&motherSurname=&pageSize=10&pager.offset=56160&parish=&search=Search&sort=residence_parishSort&townland=), accessed 14 September 2026. The indexed row identifies Thomas as “McCaughern or McCaughan,” father John McCaughern, mother Mary Gormley, residence Church Tamlaght, Gortahar.
+
+### WikiTree date discrepancy for Mary McCaughan-222
+
+The current WikiTree+ suggestions report lists [[McCaughan-222|Mary Glasgow (McCaughan)]] with a **certain 1817 birth at Lisnagaver**, while the maintained research has generally used an approximate birth about 1811 based on the 1851 age. The same WikiTree+ report flags an expired “source will be added” suggestion, so the 1817 value is a current tree assertion, not a newly verified record. It is important because a reliable 1817 birth estimate would alter the candidate-parent chronology, but it cannot be used until the underlying source is identified and checked.
+
+Source: [WikiTree+ Antrim suggestions report](https://plus.wikitree.com/Profiles/Suggestions/IRL_ANT/981_Hidden_0.htm), accessed 14 September 2026.
+
+### FamilySearch identity collision: Scottish Alexander and Rasharkin Alexander, 14 September 2026
+
+The authenticated FamilySearch Tree profile **G8WJ-HFW** is internally conflated. Its source list contains Irish evidence for the Rasharkin farmer—two 1851 Ireland census sources, the 1866 marriage of Robert Glasgow naming Alex Glasgow as father, and the 1834 Rasharkin tithe entry—but its family-member panel also attaches a Scottish wife, **Mary McCaughan 1810–1857 (MQ57-B2Y)**, Scottish children Margaret and Robert, and a Barony, Lanarkshire marriage about 1836. The same profile's research narrative describes the Scottish man as a flesher in Glasgow.
+
+WikiTree's archived discussion on [[Glasgow-951|Alexander Glasgow]] identifies the Scottish record as a marriage to **Mary Fleming on 12 June 1838 in Barony, Lanarkshire**, followed by an 1841 Barony household with Alexander as a flesher, wife Mary, daughter Margaret and infant Robert. The County Antrim Alexander, by contrast, is the farmer whose son James was baptized at Gortereagh on 9 February 1837 and who appears with Mary and children at Lisnagaver in 1851. The Scottish marriage therefore cannot be used as the marriage of [[Glasgow-951|Alexander Glasgow]] and [[McCaughan-222|Mary McCaughan]].
+
+This is a significant negative finding: it explains why “Mary Fleming” appeared as a competing wife and why the FamilySearch person seemed to support both families. It removes the Scottish marriage and the Scottish Mary's implied 1857 death from the evidence set for the Rasharkin couple. It does **not** identify Mary's parents.
+
+Sources: [FamilySearch Tree G8WJ-HFW](https://www.familysearch.org/tree/person/details/G8WJ-HFW), [FamilySearch sources for G8WJ-HFW](https://www.familysearch.org/en/tree/person/sources/G8WJ-HFW), [FamilySearch Tree MQ57-B2Y](https://www.familysearch.org/en/tree/person/details/MQ57-B2Y), and the [archived WikiTree discussion on Glasgow-951](https://www.wikitree.com/wiki/Glasgow-951#comments), accessed 14 September 2026. The Scottish marriage and census citations displayed in the archived discussion are derivative Ancestry citations; the original Scottish images still need independent inspection.
+
+### Ballymena death-index candidate: Mary M'caughren, 1894
+
+FamilySearch exposes a previously unrecorded exact-ish local index entry: **Mary M'caughren**, death registration in **Ballymena, County Antrim**, October–December **1894**, page 69, volume 1. The index estimates her birth as **1813** and gives her age as **81**. The entry is [FamilySearch record FTZ5-6ZJ](https://www.familysearch.org/ark:/61903/1:1:FTZ5-6ZJ).
+
+This is a useful search lead because the age and county are compatible with a woman from the wider Rasharkin network, and the spelling preserves the distinctive M'caugh- form. It is not presently evidence that she was [[McCaughan-222|Mary (McCaughan) Glasgow]]: the indexed record supplies no residence, spouse, informant, townland, parents or associated persons; the image is unavailable; and it post-dates the **27 February 1892** death currently recorded for Mary Glasgow. The new record must therefore remain a **separate identity candidate**, not a revised death date or parentage clue.
+
+The result also gives a concrete next test: obtain the civil death certificate through the General Register Office/IrishGenealogy route if access permits, looking for the deceased's residence and the informant. Until that is done, the only defensible conclusion is that a second, age-compatible McCaughren woman was registered in the Ballymena district in 1894.
+
+Source: [FamilySearch civil-registration index entry](https://www.familysearch.org/ark:/61903/1:1:FTZ5-6ZJ), accessed 14 September 2026.
+
+### FamilySearch targeted search audit: no indexed birth or spouse bridge
+
+Two focused FamilySearch searches were run against the remaining likely name-and-location combinations. **Mary McCaughren**, birth 1808–1816, Antrim, returned **0 historical-record results**. **Mary McCaughan**, birth 1808–1816, Antrim, with spouse **Alexander Glasgow**, also returned **0 results**. These are negative results from the current indexed search, not evidence that the underlying records never existed.
+
+The same spouse-focused search exposed a useful false-positive: **Mary McCaughan** married **Alexander Thompson** at **Armoy, Ballycastle, on 7 July 1857**, and the index names her father as **John McCaughan**. This is relationship-bearing evidence for a different Mary and cannot be transferred to [[McCaughan-222|Mary Glasgow]], whose documented marriage/family was already present in Rasharkin by 1837. The FamilySearch result is retained as an exclusion check, not as a parent candidate.
+
+Sources: [FamilySearch targeted McCaughren search](https://www.familysearch.org/en/search/record/results?count=100&q.givenName=Mary&q.surname=McCaughren&q.birthLikeDate.from=1808&q.birthLikeDate.to=1816&q.birthLikePlace=Antrim%2C%20Ireland), [targeted McCaughan–Alexander Glasgow search](https://www.familysearch.org/en/search/record/results?count=100&q.givenName=Mary&q.surname=McCaughan&q.birthLikeDate.from=1808&q.birthLikeDate.to=1816&q.birthLikePlace=Antrim%2C%20Ireland&q.spouseGivenName=Alexander&q.spouseSurname=Glasgow), and [the indexed Armoy marriage result](https://www.familysearch.org/en/search/record/results?count=100&q.givenName=Mary&q.surname=McCaughan&q.birthLikeDate.from=1808&q.birthLikeDate.to=1816&q.birthLikePlace=Antrim%2C%20Ireland&q.spouseGivenName=Alexander), accessed 14 September 2026.
+
+### WikiTree-linked comparison cluster: Hugh McCaughan family
+
+WikiTree search adds a fully linked comparison family. `McCaughan-4` (Hugh McCaughan, about 4 March 1824–about August 1903, Pontiac, Quebec) is shown as the son of `McCaughan-5` (Hugh McCaughan Sr., estimated about 1806) and `McCurdy-193` (Roseanne McCurdy), and brother of `McCaughan-7` (Archibald McCaughan, about 1799–about 1870) and `McCaughan-6` (Elizabeth McCaughan). His profile lists `Erwin-428` (Mary Erwin) as wife and seven children, including `McCaughan-16` (Mary), `McCaughan-17` (Alexander), `McCaughan-18` (Hugh Jr.) and `McCaughan-19` (Archibald). `McCaughan-7` separately gives an Antrim origin but no parents.
+
+This is a useful comparison branch, not evidence for Mary Glasgow. The dates are internally strained because a father estimated about 1806 is not an obvious fit for a son estimated about 1799. None of these profiles supplies a Rasharkin/Lisnagaver/Gortereghy bridge, and no source connects them to `McCaughan-222`.
+
+The later Moneyleck branch is represented by `McCahon-44` (Joseph McCahon, 1867–1941). Its profile states that Joseph was the son of Hugh McCahon and Mary Jane Wilson, husband of `Wilson-71886` (Hannah Wilson), and father of `McCahon-18` (Enos Archibald McCahon); it also links FamilySearch identity `MCJX-HRD`. This confirms a local later McCahon branch, but it does not bridge to Mary's parents or to the pre-1851 Gortereghy families.
+
+### New pre-1790 North Antrim Hearth Money evidence
+
+The 1669 Hearth Money Rolls list `Ogan McCaghan` at Kilcroagh, Armoy; `Allex McCahan` and `John McCaghan` at Ballyverdagh, Culfeightrin; `Angus McCahir` at Cross Denard, Culfeightrin; `Gillindrish McCagher` at Loughan/Ballyloghan, Culfeightrin; and `Daniell McKaghin` in Dunluce town. The standardized index identifies these as McCaughan entries, while the historical spellings vary.
+
+These direct household-head records substantially pre-date the 1740 Rasharkin returns and establish a long-standing McCaughan presence in the wider Culfeightrin–Armoy region. They give no ages, spouses or children and no bridge to Lisnagaver, so they are regional ancestral candidates and surname-network context only—not evidence that any named householder was a parent of `McCaughan-222`.
+
+Source: [1669 Hearth Money Rolls for North and Mid-Antrim](https://adamsfamilydna.com/wp-content/uploads/2013/02/1669-Hearth-Money-Rolls-for-North-and-Mid-Antrim.pdf), p. 63, records 426, 458, 503, 507, 576 and 684, accessed 15 September 2026.
+
+### FamilySearch Rasharkin/Ballydonnelly McCaughern cluster
+
+FamilySearch's authenticated Tree gives a separate local cluster around **James Mcaughern** (22 May 1842–13 December 1896, **GWCJ-8BK**), born at Ballydonnelly and christened at Rasharkin. It names his parents as **John McCaughern** (about 1813–1901, **LCRH-Z1G**) and **Elizabeth Hansen** (about 1813–1843, **LCRH-DL2**), married in Rasharkin in 1834. Their listed children include **John McCaughern** (1835–1907, **MZQT-2TK**) and James.
+
+The same Tree connects **James Mcaughern** (1830–1900, **949C-MM6**) to **James McCaughern** (about 1790–1858, **L11Q-5KR**) and **Nancy Marks** (about 1794–1859, **L119-DTP**). The younger James married **Mary Jamison** (**KLP6-P27**) at Finvoy on 9 March 1854 and had **James Mcaughern** (1868–, **949C-MMM**).
+
+This is significant local evidence, but it does **not** prove that either James was the father of [[McCaughan-222|Mary Glasgow]], estimated born about 1811. The about-1790 James is chronologically possible, but his displayed children begin with Daniel (1826), Thomas (1829), James (1830) and William (1842), with no Mary; the 1830 James is too young. The branch should remain separate pending the original 1834 marriage, 1842 baptism and records for the older James's children.
+
+Sources: [FamilySearch GWCJ-8BK](https://www.familysearch.org/en/tree/person/details/GWCJ-8BK), [FamilySearch 949C-MM6](https://www.familysearch.org/en/tree/person/details/949C-MM6), [FamilySearch L11Q-5KR](https://www.familysearch.org/en/tree/person/details/L11Q-5KR), accessed 15 September 2026.
+### Extracted eighteenth-century Ballyverdagh pedigree lead
+
+The compiled Ballyverdagh/Culfeightrin account gives a more detailed, but still secondary, reconstruction from the early records. It identifies John McCaughan, born about 1724 at Ballyverdagh and died 1793, as husband of Agnes McCahan, and lists their children as John (about 1754), Alexander (1756), Archibald (1758), Sarah (1760), Mary (1761) and Charles (1763). It places this family in the same Ballyverdagh/Culfeightrin locality represented in the 1669 rolls, and says John was served heir to his father in 1771.
+
+The listed Mary McCaughan could theoretically have borne a child about 1811, but the age gap and complete absence of a marriage, residence or child record make her a poor present candidate for `McCaughan-222`'s mother. The account is not an original record and does not bridge Ballyverdagh to Rasharkin. The 1771 heir record, underlying wills and parish registers must be checked before accepting any relationship.
+
+Source: [compiled Ballyverdagh/Culfeightrin McCaughan account](https://electricscotland.com/webclans/m/maceachain2.htm), accessed 15 September 2026.
+
+The same account reports a later `James McCaughan`, born about 1792, as a son of John McCaughan (born about 1754) of Ballyverdagh. This must be kept distinct from WikiTree `McCaughan-68`, whose profile gives James's birth as before 1790, wife `Larny-2` (Mary Larny, about 1790), and son `McCaughan-67` (John, about 1798). On the presently recorded dates, the Ballyverdagh James cannot be the same man as McCaughan-68: a 1792 birth would make the recorded marriage/child chronology impossible. This is a new exclusion against using the Ballyverdagh pedigree to identify Mary's father.
+
+### FamilySearch civil-marriage proof for the older James's children
+
+The authenticated FamilySearch source list for **James McCaughern**, born about 1790 and died 13 September 1858 at Ballydonnelly/Rasharkin (**L11Q-5KR**), contains two relationship-bearing indexed marriage records that were previously only visible as source titles. The 27 November 1850 civil marriage of **Daniel McAughern** and **Eleanor Graham** records Daniel as age 24, gives his estimated birth year as 1826, and explicitly names **James Mc Aughern as his father**. The original place field is **Churchtown, Ballymoney**. FamilySearch record: [FGXX-H6G](https://www.familysearch.org/ark:/61903/1:1:FGXX-H6G).
+
+The 9 March 1854 marriage of **James McCaughern** and **Mary Jamison** at **Finvoy, County Antrim**, likewise explicitly names **James McCaughern as the groom's father**. The bride's father is indexed as Robert Jamison. FamilySearch record: [FG6V-QGF](https://www.familysearch.org/ark:/61903/1:1:FG6V-QGF).
+
+Together these records independently support the following family reconstruction: James McCaughern (about 1790–1858) was father of Daniel McAughern (about 1826–) and James McCaughern (about 1830–), the same two sons currently attached to the FamilySearch Tree profile with Nancy Marks (L119-DTP). This materially strengthens the identity of the 1790–1858 James/Nancy household and makes it a serious candidate to compare with the 1834 Gortereghy tithe tenant. It still does **not** prove that this James was the Gortereghy tenant, that he was related to William McCaheran, or that he was the father of [[McCaughan-222|Mary Glasgow]]; the indexed records contain no Mary, no Glasgow connection and no residence field tying James to Gortereghy.
+
+Sources: [FamilySearch Tree L11Q-5KR](https://www.familysearch.org/en/tree/person/details/L11Q-5KR), [Daniel McAughern marriage index FGXX-H6G](https://www.familysearch.org/ark:/61903/1:1:FGXX-H6G), [James McCaughern marriage index FG6V-QGF](https://www.familysearch.org/ark:/61903/1:1:FG6V-QGF), accessed 15 September 2026.
+
+### Pre-1790 Rasharkin McCaharan graveyard root
+
+The Rasharkin Church of Ireland graveyard transcription records **Andrew McCaharan**, who died **1 February 1738 aged 69**, and separately names his son **John McCaharan** on the same memorial. This is a direct local memorial, not a compiled pedigree, and places the McCaharan spelling in the Rasharkin area at least a century before Mary Glasgow's estimated birth. [Rasharkin Church of Ireland graveyard transcription](https://genealogy.torrens.org/BannValley/church/RasharkinCOI/graveyard.html), McCaharan inscription.
+
+The inscription is a useful new root cluster for the surname study, but it cannot yet be extended to the 1834 Gortereghy tenants: it gives no John's death date, wife's name, townland, children beyond the wording preserved, or intervening generations. It therefore strengthens the case for a long-established local surname population while leaving Mary's parentage unproved. The next test is the original stone image or burial/register material to recover the remainder of John's inscription and identify later descendants.
+
+### Dreen probate cluster: Agnes and Peter McCaughern, 1916
+
+The National Archives of Ireland will-calendar index records two adjacent Dreen, Rasharkin estates: **Agnes McCaughern**, spinster, died 26 March 1916, administration granted to **William McCaughern**; and **Peter McCaughern**, farmer, died 27 February 1916, also granted to William. Later unadministered grants for both estates were made to **Catherine McCaughern**, spinster. The entries show a substantial late Rasharkin McCaughern household and a repeated William–Catherine administrative connection, but the calendar does not state whether they were siblings, children or other next of kin.
+
+This is a new, primary probate index cluster for the local surname network, not evidence for Mary's parents. Its value is investigative: the underlying probate packets may name the Dreen family, beneficiaries and property, and could reveal whether this line descends from the older Ballydonnelly/Gortereghy households. [1916 probate calendar page](https://www.willcalendars.nationalarchives.ie/reels/cwa/005014919/005014919_00647.pdf), accessed 15 September 2026.
+
+### 1740–1796 Tamlaght O'Crilly / Drumcannon McCaughan continuity lead
+
+The 1740 Protestant Householders' Returns identify **John McCahan** and **James McCahan** in **Tamlaght O'Crilly**, in the Loughinsholin barony. This is an unusually early, exact-parish occurrence of two McCaughan-variant householders, decades before the Rasharkin baptismal material. The return gives no ages, household composition or relationship between the two men.
+
+A later circa-1800 rent-roll transcription records four McCaughan tenants in **Drumcannon** in **1791**: **Samuel**, **Matthew**, **William** and **John**. The source explains that the undated entries are part of farm rental lists dating roughly 1796–1814, so the dated 1791 entries should be treated as a landlord record, not a census. The 1796 Flaxgrowers' List then records **William M'Caughin** in **Tamlaght O'Crilly** with three wheels/looms. This is a plausible continuity lead between the early Tamlaght O'Crilly name population and the later McCaughan/McCaughern network, but there is no proof that the 1791 William is the 1796 William or that either is an ancestor of Mary's family.
+
+This is new pre-1811 evidence in the same broader parish region and strengthens the case for investigating Tamlaght O'Crilly, Drumcannon and Gortereghy together. It still does not prove the parents of [[McCaughan-222|Mary Glasgow]]. The next useful test is to trace these named tenants through surviving 1790s–1830s estate papers, Presbyterian communicant/baptism records and later valuation revisions, looking for a daughter Mary born about 1811 or a transfer into Lisnagaver/Gortereghy.
+
+Sources: [1740 Protestant Householders' Returns](https://adamsfamilydna.com/wp-content/uploads/2013/02/1740-Protestant-Returns-Londonderry-County-Ireland.pdf), records 1171–1172; [circa-1800 Bann Valley rent-roll transcription](https://genealogy.torrens.org/BannValley/misc/rentrolls.html), Drumcannon entries 182, 185, 197–198; [1796 Flaxgrowers' List](https://www.billmacafee.com/1796flaxgrowerslist/1796flaxgrowersderry.pdf), record 4754, accessed 15 September 2026.
+
+### 1817 First Ballymoney McCaughan household: a new Mary-parent candidate
+
+Rev. Robert Park's 1817 register of the First Ballymoney Presbyterian Church records **John McCaughan [McCahon]**, wife **Mary McCaughan [McCahon]**, and son **James McCaughan [McCahon]** at **Drumard [Drumart]**, house 8. The same register records **Grissel McCaughan [McCahan]** and **Hugh McCaughan [McCahan]** in a Bendooragh household, showing that the variant forms were being recorded in the Ballymoney-area Presbyterian network at the exact period when Mary Glasgow would have been a child.
+
+A separate compiled Ballyverdagh account also lists a Drumant church-member household as John and Mary McCahon, with son James and daughters Mary and Elizabeth. Because that detail is not present in the searchable Park register entry and the underlying church-membership source has not been inspected, it must remain a secondary lead. If the two records refer to the same couple, their daughter Mary would be chronologically compatible with [[McCaughan-222|Mary Glasgow]]'s estimated birth about 1811; however, no marriage, migration, residence or Glasgow connection has been found.
+
+This is currently the strongest new chronological candidate for a Mary-parent household outside the immediate Rasharkin cluster, but it is not proof. The next decisive test is to identify the original Drumard/Drumant membership sheet and trace John and Mary McCaughan through Ballymoney Presbyterian baptisms, marriages and the 1820s–1850s valuation records. Source: [1817 First Ballymoney Presbyterian register](https://www.billmacafee.com/census/1817parkcensus.pdf), records 2912–2914 and 570–571; [compiled Ballyverdagh account](https://electricscotland.com/webclans/m/maceachain2.htm), accessed 15 September 2026.
+
+### New parent-bearing Armoy/Cromaghs branch: William McCaughan
+
+The National Archives of Ireland census-search-form index gives a new parent-bearing local record: **William McCaughan**, whose present address was Fairhill Street, Ballycastle, supplied an 1851 census extract naming his father **Archibald McCaughan** and mother **Mary**. The indexed residence was **Cromaghs, parish of Armoy, barony of Cary**, placing this branch in the wider Ballycastle–Armoy area rather than directly at Lisnagaver or Gortereghy.
+
+This is useful because it proves an additional Archibald–Mary McCaughan parental pair in the correct North Antrim research region, but it does not identify William with any existing WikiTree profile or connect him to Mary Glasgow. The record is a census-search-form abstraction rather than the underlying 1851 return, and the next step is to obtain the extract/image and trace William, Archibald and Mary through Cromaghs valuation and church records. No safe WikiTree ID has been assigned to this branch.
+
+Source: [National Archives of Ireland census-search-form index](https://censussearchforms.nationalarchives.ie/search/cs/results.jsp?applicantAddress=&applicantFirstname=&applicantSurname=&barony=&censusExtractYear=&city=&county=&fatherFirstname=&fatherSurname=&motherFirstname=&motherSurname=&pageSize=&pager.offset=14290&parish=&search=Search&sort=residence_baronySort&townland=), accessed 15 September 2026.
+
+### Cromaghs valuation corroboration: Archibald and Margaret McCahan
+
+Two independent online transcriptions of Griffith's Valuation for Armoy, dated to the 1861/62 county survey, list **Archibald Mc Cahan** as an occupier in **Cromaghs**. The same entries also list **Margaret Mc Cahan** in Cromaghs. This corroborates the parent-bearing 1851 census-search-form branch: the Archibald named there was an Archibald of the same surname variant and townland in the next decade.
+
+The entries do not state whether Margaret was Archibald's wife, sister, daughter or another household occupier. The valuation is an occupier/property record, not a family register. The spelling is **McCahan**, while the 1851 search-form entry uses **McCaughan**; this is compatible with local spelling variation but cannot identify either person with **McCaughan-222** Mary Glasgow's family. No safe WikiTree ID has been found for Archibald or Margaret.
+
+Sources: [Irish Genealogy Hub transcription of Armoy Griffith's Valuation](https://irishgenealogyhub.com/antrim/griffiths-valuation/parish-of-armoy.php); [Fáilte Romhat transcription](https://www.failteromhat.com/griffiths/antrim/armoy.php); [National Archives guide to valuation records](https://nationalarchives.ie/help-with-research/research-guides/valuation-office-records/). Accessed 15 September 2026.
+
+### Pre-1790 Ballintoy record: Archd. McKaughin at Lisbellanagroagh More
+
+The 1766 Religious Census for Ballintoy parish records **Archd. McKaughin** at **Lisbellanagroagh More**, identified as Protestant. This is a new pre-1790 occurrence of the McCaughan spelling family in the barony of Cary, the same wider North Antrim barony containing later Ballintoy, Armoy and Ballycastle McCaughan/McCahan households.
+
+The census supplies no age, household composition or relationship to Mary Glasgow. It therefore cannot identify this Archibald as her father, and Lisbellanagroagh More is not the same place as Lisnagaver/Gortereghy. It is nevertheless a valuable locality and spelling lead for testing whether the later Armoy/Cromaghs and Rasharkin branches descend from an older Cary family.
+
+Source: [1766 Religious Census for Ballintoy parish](https://www.billmacafee.com/1766census/1766religiouscensusballintoy.pdf), entry 318, accessed 15 September 2026.
+
+### Lisbellanagroagh continuity: Catherine M'Caghan and Daniel McCaw
+
+The 1803 Ballintoy census records **Kath. M'Caghan**, standardised as Catherine McCaughan, at **Lisbellanagroagh Beg**. She was listed as the wife of John McIlfatrick and as Church of Ireland; the row gives her age as 29, implying an estimated birth about 1774. The 1824 Ballintoy tithe book then records **Danl. McCaw** at **Lisbellanagroagh More**, the neighbouring “More” townland where the 1766 census had recorded Archd. McKaughin.
+
+These records create a continuous locality trail from an Archibald in 1766, to a McCaughan woman in the adjoining townland in 1803, to a McCaw occupier in More in 1824. They do not prove that Catherine was Archibald's daughter, that Daniel was related to either person, or that this Cary cluster was the family of **Mary McCaughan Glasgow**. They are nevertheless stronger than isolated surname occurrences and justify targeted searches of Ballintoy Church of Ireland marriages, baptisms and vestry records.
+
+Sources: [1803 Trail census, Ballintoy](https://www.billmacafee.com/census/1803traillcensus.pdf), entries 2852–2853; [1824 Ballintoy tithe applotment](https://www.billmacafee.com/ballintoy/earlydatabases/titheballintoy.pdf), entry for Daniel McCaw at Lisbellanagroagh More; accessed 15 September 2026.
+
+### FamilySearch record-hint collision: James McCaughan and Alexander McCaughan
+
+The logged-in FamilySearch record search returned an indexed Ireland marriage result describing **James Mc Caughan** as father of **Alexander Mc Caughan**. The attached Family Tree match was **MCGP-3S2**, but that profile is James McCaughan born about **1827**, with spouse Catharine McConachie and children Alexander McCaughan (**1847–1921**, 96QG-NVJ) and Robert Mc Caughan (**1853–1934**, K4GP-RD8). The tree profile has no sources and the relationship was added in 2020.
+
+This is a new and important exclusion. The attached tree person cannot be the older James proposed as Mary Glasgow's father: he is too young, and his son Alexander was born decades after Mary's marriage and the 1837–1844 Glasgow baptisms. The indexed father statement may belong to a different McCaughan family or be an aggregation error; it must not be cited as evidence for Mary's parentage. Source: [FamilySearch tree profile MCGP-3S2](https://www.familysearch.org/tree/person/details/MCGP-3S2), and [FamilySearch James McCaughan search results](https://www.familysearch.org/en/search/record/results?count=100&q.givenName=James&q.surname=McCaughan&q.birthLikeDate.from=1760&q.birthLikeDate.to=1800&q.birthLikePlace=Antrim%2C%20Ireland), accessed 15 September 2026.
+
+The same search also surfaced **James McCaughan** in the Irish Valuation Office Books for **Shankill in 1838** and **Billy, Ballycastle in 1861**. These are new locality leads, but the index does not expose enough detail to identify the tenant with McCaughan-68, the Gortereghy tithe tenant, or Mary's father. The underlying valuation images should be checked for townland continuity, occupier changes and adjoining McCaughan households.
+
+### Complete 1817 Ballymoney-area McCaughan audit
+
+The full searchable 1817 register changes the weighting of that lead. It contains at least five distinct McCaughan/McCahon placements: **Charles and Elizabeth McCaughan** at Balnamore, with children James, Samuel, John, Ann, Daniel and Elizabeth and an older Mary whose relationship is uncertain; **Samuel and Martha McCaughan** at Taghey, with sons John and James; **John and Mary McCaughan** at Drumard, with son James; **Grissel McCaughan** and **Hugh McCaughan** in a Bendooragh household headed by William McMaster; and **Elizabeth McCaughan** in a Currysiskan household headed by Widow Knox.
+
+This is useful negative evidence: the primary searchable register does **not** list a daughter Mary in the Drumard John-and-Mary household. The separate compiled account's Drumant list of daughters Mary and Elizabeth may represent a different membership list, a different townland, or an expanded/parallel record, but it cannot currently be used as proof that the Drumard couple had a daughter Mary. The Drumard family remains chronologically possible only because the register is not age-specific and may omit or record people elsewhere; its evidential weight is now lower than the initial reading suggested.
+
+The audit also identifies a new Balnamore Mary McCaughan candidate, but the register marks her relationship as uncertain and suggests only that she may be Charles's mother. None of the five placements supplies a marriage, parent statement, migration record or Glasgow link. Mary Glasgow's parents therefore remain unproved.
+
+Source: [complete searchable 1817 First Ballymoney Presbyterian register](https://www.billmacafee.com/census/1817parkcensus.pdf), records 1239–1248, 1383, 1436–1439, 2912–2914 and 570–571, accessed 15 September 2026.
+
+### 1892 New York probate notice naming Mary and Ann as Alexander Glasgow's children
+
+An indexed notice in *The Plattsburgh Sentinel* of **26 February 1892**, page 6, concerns **Nancy Glasgow's** last will and testament and names **Mary and Ann as children of Alexander Glasgow of Rasharkin, County Antrim, Ireland**. The notice also refers to Alexander as late of that place. This is a discriminating lead because the Glasgow-951 family already has separate civil marriages for Mary (14 June 1871) and Ann (13 October 1876), each naming Alexander Glasgow as father and Lisnagaver as residence. A separate passage names James G. Glasgow, Ann and Lizzie, apparently children of John Glasgow; John must not be assigned to Lisnagaver or Prescott from that wording alone.
+
+The newspaper evidence is currently an indexed OCR fragment, not an inspected image or probate file. A Riverside Cemetery transcription gives Nancy Glasgow's death as 31 October 1891, making her a probable candidate for the probate subject. The matching Mary and Ann father statements, together with the notice's Rasharkin/Lisnagaver locality, make the notice's Alexander a probable match to Glasgow-951's Lisnagaver Alexander, subject to original-image and probate confirmation. The notice still does not establish whether Nancy was Alexander's wife, daughter, sister or another relation.
+
+Assessment: this is now a probable identity connection, stronger than a generic namesake occurrence, but still not a parentage proof. The complete notice and Clinton County probate proceedings—especially the petition, kinship or next-of-kin schedule, citation or service papers and will—are the decisive retrieval targets. FamilySearch catalogue leads include Clinton County probate records, 1790–1969 (catalog 223236) and Clinton County wills, 1807–1902 (catalog 319520); no individual file, volume or page was located. Clinton County Surrogate's Court contact information was verified, but no request was made. No Alexander parent record was found.
+
+Sources: [The Plattsburgh Sentinel, 26 February 1892, p.6, New York State Historic Newspapers](https://www.nyshistoricnewspapers.org/?utm_source=chatgpt.com); [Riverside Cemetery transcription](https://nnytombstoneproject.net/clinton/plattsburgh/riverside_a_k.htm); [New York State Archives probate guide](https://www.archives.nysed.gov/book/export/html/13080); [Clinton County Surrogate's Court](https://www.nycourts.gov/courts/4th-judicial-district/clinton-county-surrogates-court); FamilySearch catalog 223236 and catalog 319520, accessed 15 September 2026.
+
+### Union Alpha parentage analysis, 16 September 2026
+
+The current evidence was re-analysed with the 15 September Nancy/Plattsburgh search included. The conclusion remains **unknown parentage** for Alexander-951: no named parent reaches probable status. Older Alexander-3904 and Rosanna, the unidentified Lisnagaver Robert, and the record-defined father-John family remain possible research hypotheses; the Larne–Kilwaughter route remains a possible wider origin model rather than a proved joining lineage.
+
+Nancy's newly inspected will confirms her own 1889 testamentary relationships to Anderson and Kennedy relatives, but does not identify the Irish Glasgow men named in the newspaper notice. The notice's statement that Mary and Ann were children of an Alexander Glasgow formerly of Rasharkin, combined with the matching Lisnagaver father statements in their marriages, makes the notice's Alexander a probable match to Glasgow-951. It still does not identify his parents or establish Nancy's exact relationship to him. The separate James G./John wording, the Illinois James-3128 tree attachment, and the Rasharkin Dysart records must remain separate; none supplies an independent parentage bridge.
+
+The highest-value next records remain the underlying Clinton County probate file for Nancy (petition, kinship/next-of-kin schedule, citation or service papers and will) and PRONI CR5/32/1/1/1–2 family-group entries. No structured WikiTree parent change is supported. This is an inference audit based on existing records and maintained notes; no new parent record was discovered.
+
+Source: Union Alpha analysis via `tools/openrouter_agent.py`, using the maintained Glasgow-951 parentage review, Larne reconstruction and Nancy/Plattsburgh search notes; 16 September 2026. The model output is an analytical aid, not an independent source.
+
+### 1870 Plattsburgh census identity bridge for Nancy Glasgow, 16 September 2026
+
+The authenticated FamilySearch record search located **Nancy Glascow**, female, aged **50**, born in **Ireland**, in **Plattsburgh, Clinton County, New York**, in the 1870 U.S. census. The indexed household names **Delia Walworth** as the only other person. The age, Irish birthplace, Plattsburgh residence and spelling variation are a strong identity fit for the unmarried Nancy Glasgow of WikiTree `Glasgow-4070`, whose 1889 will and 1892 probate are already documented.
+
+This is a concrete bridge to the probate subject, not a parentage record. It does not name Alexander, Mary or Ann, and it does not establish whether Nancy was Alexander-951's daughter, sister, niece or more distant collateral relative. It also does not independently prove that the 1888 Gortahar death informant called Nancy was this same woman. The current defensible conclusion remains: the probate Nancy is strongly identified, Alexander-951 is a strong probable match to the Alexander named in the citation, and their exact relationship is unresolved.
+
+Source: [FamilySearch 1870 U.S. census index, Nancy Glascow, Plattsburgh, Clinton County, New York, record M8FF-ZQD](https://www.familysearch.org/ark:/61903/1:1:M8FF-ZQD?lang=en), accessed 16 September 2026.
+
+The same record gives a useful Plattsburgh social-network lead: Nancy occupied household 149 with **Delia Walworth**, aged 60 and New York-born. The Plattsburgh cemetery transcription identifies the likely woman as **Delia A. Griffin Walworth (1810–1880)**, wife of **Hiram Walworth**. Nancy later appointed Hiram executor and left bequests to Walworth children. This makes a close, long-term household or community connection highly plausible and helps explain Nancy's local probate arrangements; it does not establish that Delia or Hiram were Irish Glasgow relatives. The relationship remains a concrete social bridge, not a parentage bridge.
+
+Sources: [FamilySearch 1870 census record details](https://www.familysearch.org/ark:/61903/1:1:M8FF-ZQD?lang=en); [Riverside Cemetery, Plattsburgh, Walworth inscription](https://nnytombstoneproject.nygenweb.net/clinton/plattsburgh/riverside_l_z.htm), accessed 16 September 2026.
+
+### FamilySearch probate index and petition trail for Nancy Glasgow
+
+FamilySearch Full-Text Search located the Clinton County probate index entry for **Nancy Glasgow** in the digitized volume *Probate Indexes 1807–1969, 1830–1969*. The entry records her death as **31 October 1891**, residence as **Plattsburgh**, and status as **testate**; the representative column identifies **Hiram Walworth**. This independently confirms the death/residence/testate-probate identity already suggested by the will and cemetery evidence, and ties Walworth directly to the probate index rather than only to the will transcription. [FamilySearch probate-index image/transcript](https://www.familysearch.org/ark:/61903/3:1:33S7-9YCX-9W3?view=fullText&keywords=NANCY+GLASGOW%2CClinton+County&searchForm=simple&lang=en)
+
+The same Full-Text Search located the corresponding Clinton County guardianship/probate record. Its AI transcript states: **“ESTATE OF Nancy Glasgow October 31, 1891,”** followed by **“Filed Petition of Hiram Walworth Executor named for Probate of Will,”** an order for citation, service by publication, filing of the executor's oath, probate of the will, and issuance of letters testamentary to Hiram Walworth. This is a concrete retrieval breakthrough: the underlying probate/guardianship volume contains a petition and service sequence separate from the will-book entry, and may be the best place to recover the cited heirs or next of kin. [FamilySearch probate petition image/transcript](https://www.familysearch.org/ark:/61903/3:1:33SQ-GYCZ-X98?view=fullText&keywords=Nancy+Glasgow%2CProbate&searchForm=simple&lang=en)
+
+The transcript does not itself name Nancy's relationship to Alexander Glasgow, and the FamilySearch transcript is explicitly AI-generated, so the original petition pages must be read before treating any OCR wording as final. The next focused task is to use the image sequence for this 1892–1898 Clinton volume to inspect the Nancy entry and adjacent petition/service pages for a kinship schedule, names of nonresident heirs, or wording such as sister, niece, cousin or next of kin. No parent or structured family change is supported yet.
+
+Inspection of the original image corresponding to the entry (image 35 of 575) confirms that this volume is a handwritten probate index/administrative register. The Nancy entry visibly records the petition, citation, service by publication, executor's oath, probate, letters testamentary, appraisers D. C. Boynton and E. S. Winslow, publication of notice to creditors, inventory and collateral-inheritance-tax appraisal. The facing entry begins the estate of Bertha J. Cheeseman, so the immediately adjacent page is not Nancy's petition. No kinship statement appears in Nancy's index entry. The actual petition or service papers still need to be located in the underlying Clinton County file.
+
+### Concrete collateral link: Nancy's niece Margaret Dysart
+
+Nancy's will names **Margaret (Dysart) Kennedy** of West Troy as her niece. An independent transcription of Rasharkin Presbyterian baptisms identifies **Margaret Dysart**, born **7 April 1846**, as the daughter of **James Dysart** and **Jane Glascaw**, resident at **Granagh**. This is a concrete link between Nancy's probate family and the Dysart/Glascaw household documented in Rasharkin.
+
+The evidence narrows, but does not resolve, Nancy's position in that family. If “niece” was used in its ordinary biological sense, Nancy could be Jane's sister or James's sister; it does not by itself prove that she was Jane's sister, and therefore does not prove that Alexander Glasgow was her father. The WikiTree attachment of Nancy and Jane as sisters remains a working tree hypothesis, not documentary proof. No structured relationship change is warranted.
+
+Source: [Rasharkin Presbyterian baptism transcription](https://genealogy.torrens.org/BannValley/church/RasharkinP/Baptisms_1834.html), entry 271 (Margaret Dysart, daughter of Jas and Jane Glascaw, born 7 April 1846, Granagh), accessed 16 September 2026; Nancy's niece designation is from the [1892 Plattsburgh probate notice](https://www.nyshistoricnewspapers.org/?a=d&d=plts18920226-01.1.6).
+
+### Primary-source age constraint from Nancy's admitted will, 16 September 2026
+
+The original Clinton County will-book image, rather than an index or derivative transcript, records Nancy's opening declaration as **unmarried** and **“of the age of about 68 years.”** The will itself is dated 15 January 1889 and was admitted to probate on 9 May 1892, so the age declaration places her birth approximately in 1820–1821. This is a new primary-source constraint on the relationship analysis: Nancy could not have been a daughter of [[Glasgow-951|Alexander Glasgow]] if his c.1811 birth estimate is correct, because he would have been only about nine or ten years old at her birth. A younger-sister relationship remains chronologically possible, but the age statement does not prove it and does not identify Nancy's parents.
+
+Source: [FamilySearch, Clinton County Will Books 1891–1895](https://www.familysearch.org/ark:/61903/3:1:33SQ-GYC4-66V?view=fullText&keywords=Nancy%20Glasgow&searchForm=simple&lang=en), image 159, p.255, Nancy Glasgow will admitted 9 May 1892; accessed 16 September 2026. The OCR reads “unmained” for unmarried and “about 68 years”; the original image should be retained as the controlling evidence.
+
+### Hiram Walworth probate excludes Nancy from his named heirs, 16 September 2026
+
+A separate original Clinton County probate record for **Hiram Walworth**, whose estate Nancy later entrusted with her will, provides a useful negative test. In the 1858 petition to prove Hiram's will, the court states that **Delia Arabella Walworth, Mary E. Hall, Hiram Walworth Jr., and Graham Walworth** were all the heirs and next of kin entitled to notice. Nancy Glasgow is not listed. This does not prove that Nancy had no social or employment connection to the Walworths, but it materially weakens the idea that her long residence with Delia and appointment of Hiram as executor reflected her being a Walworth blood relative. It also shows that “next of kin” was used in this court record as a specific legal family category, not merely as a broad circle of acquaintances.
+
+This remains negative evidence about the Walworth connection, not a parentage record for Nancy. It does not explain why Nancy called Margaret Dysart her niece or identify the Glasgow/Anderson link; those require Nancy's own underlying petition or another record naming her relatives.
+
+Source: [FamilySearch, Clinton County Guardianship and Probate Records 1856–1863](https://www.familysearch.org/ark:/61903/3:1:33SQ-GYC4-6F3?view=fullText&keywords=Hiram%20Walworth&searchForm=simple&lang=en), image 78, pp.119–120, Hiram Walworth probate petition and order; accessed 16 September 2026. The FamilySearch transcript is OCR-derived; the named-heir wording is visible in the record transcript and should be checked against the image before quoting as a legal transcription.
+
+### Nancy was a documented creditor of her named nephew Robert Anderson, 16 September 2026
+
+The Clinton County real-estate/probate volume supplies a much stronger explanation for Nancy's appearance in an Anderson legal proceeding. In June 1885, Frank Shields, executor of **Robert Anderson of Beekmantown**, petitioned for authority to sell or mortgage estate property to pay debts. The citation required **Nancy Glasgow** and several other people to appear; the record then states that Nancy appeared **through Hiram Walworth as her attorney**. The decree lists a valid claim styled **“Nancy Glasgon, Note $100”** among the debts to be paid from Robert Anderson's real property. The OCR is imperfect, but the repeated identity, attorney relationship and claim amount are clear enough to establish a documented financial/legal connection.
+
+This is the first concrete record tying Nancy directly to **Robert Anderson**, the man she later called her nephew in her 1889 will. It also explains why Nancy was named in that 1885 citation: she was a claimant/creditor in the estate proceeding, not necessarily one of Robert's heirs or next of kin. The record does not by itself prove that “nephew” was biological, nor does it identify Nancy's parents; however, it materially strengthens the Anderson connection and separates it from the Walworth question. Hiram's role as Nancy's attorney in 1885 also predates his role as executor of her will.
+
+Source: [FamilySearch, Clinton County Real Estate and Sale Records 1849–1886](https://www.familysearch.org/ark:/61903/3:1:33SQ-GYCZ-WY5?view=fullText&keywords=Nancy%20Glasgow%2CEstate%20of%2Cof&searchForm=simple&lang=en), images 609–611, pp.516–521, Robert Anderson estate petition, citation and decree; accessed 16 September 2026. Visual inspection of image 611 confirms the handwritten list includes Nancy Glasgow's $100 note among the claims allowed against Robert Anderson's estate; the OCR's “Glasgon” is a spelling error.
+
+### Robert Anderson's proved will identifies his household, 17 September 2026
+
+The original Clinton County will-book entry for **Robert Anderson of Beekmantown** was inspected separately from the 1885 land-sale proceeding. The will is dated **11 August 1883** and was admitted to probate on **26 November 1883**. It leaves Robert's real and personal property to his wife **Dinah Anderson** and appoints **Frank Shields** executor. The probate proofs identify James J. Brown and Thomas Weir as witnesses and confirm that the will was admitted as valid for both real and personal property.
+
+This is a new primary record confirming the identity and immediate household of the Robert Anderson whose estate later listed Nancy Glasgow's $100 note. It is consistent with the already documented Anderson descent through [[Glasgow-4071|Elizabeth (Glasgow) Anderson]] and her son Robert, but it does not itself prove Nancy's biological relationship to Elizabeth or to Alexander Glasgow. The will names no children or parents; the associated 1885 sale record's reference to a special guardian for an infant Robert Anderson remains the better target for testing Robert's children.
+
+Source: [FamilySearch, Clinton County Will Books 1883–1887](https://www.familysearch.org/ark:/61903/3:1:33SQ-GYCC-1RW?view=fullText&keywords=Frank+Shields%2CRobert+Anderson&searchForm=simple&lang=en), images 97–98, pp.127–129, Robert Anderson will and probate proofs; accessed 17 September 2026. The original image was inspected; the OCR is used only as a navigation aid.
+
+The companion Clinton County guardianship/probate index independently records the same estate: Robert Anderson's will was filed by Frank Shields on 23 August 1883, proved on 26 November 1883, and followed by an 1885 sale proceeding in which a **special guardian** was appointed and Nancy Glasgow appeared through Hiram Walworth. The index does not transcribe the infant's name, so the “infant Robert Anderson” wording remains from the corresponding real-estate decree rather than a new assertion from this index. This confirms that the Anderson estate trail includes a minor interest, but the underlying guardianship papers are still needed to establish the child's parentage and identity.
+
+Source: [FamilySearch, Clinton County Guardianship Records 1879–1888 and Probate Records 1879–1888](https://www.familysearch.org/ark:/61903/3:1:33S7-9YCD-X1J?view=fullText&keywords=Frank+Shields%2CRobert+Anderson&searchForm=simple&lang=en), image 268, p.474, Robert Anderson estate index entry; accessed 17 September 2026.
+
+### 1860–1880 Walworth household continuity: Nancy Glasgow/Glascoe as a long-term Plattsburgh servant
+
+The authenticated FamilySearch search located two additional household records that materially strengthen Nancy Glasgow's identity and explain the Walworth connection. In the **1860 U.S. census**, **Nancy Glascoe**, female, age **30**, estimated birth year **1830**, born in **Ireland**, was enumerated in The Village of Plattsburgh, Clinton County, in the same household as **Hiram Walworth**, **Cornelia L. Walworth**, **Delia A. Walworth**, **Graham Walworth**, Jane Dundas and James Colligan (record **MC7C-HHK**). The indexed citation identifies the household entry as that of Hiram and Cornelia Walworth and gives page 64.
+
+In the **1880 U.S. census**, **Nancy Glasgow**, female, age **65**, estimated birth year **1815**, born in **Ireland**, was in Plattsburgh in a Walworth household with **Delia A. Walworth**, age 70, and **Alice C. Walworth**, age 28 (record **MZZF-HDJ**). The record describes Nancy as **single**, occupation **servant**, and relationship to head **Other**; it also records both parents' birthplaces as Ireland. This is not a kinship designation. Together with the 1870 record (Nancy Glascow, age 50, Irish-born, in a Plattsburgh household with Delia Walworth), the three censuses show a persistent 1860–1880 association across spelling variants, though the reported ages vary substantially.
+
+Assessment: the 1860 and 1880 records make the identification of the Plattsburgh Nancy substantially stronger and provide the first direct evidence that her Walworth relationship may have been domestic/employment-based rather than a stated family relationship. They also explain why Hiram Walworth appears as executor in Nancy's will. They do **not** prove that Nancy was related to Alexander-951 or to Mary and Ann; the 1880 census explicitly says only “Other,” not sister, cousin or niece. The next decisive target remains the original Clinton County probate file, especially any petition or kinship schedule, with local directories or Walworth estate papers as secondary targets.
+
+Sources: [FamilySearch 1860 U.S. census record, Nancy Glascoe, MC7C-HHK](https://www.familysearch.org/ark:/61903/1:1:MC7C-HHK?lang=en); [FamilySearch 1880 U.S. census record, Nancy Glasgow, MZZF-HDJ](https://www.familysearch.org/ark:/61903/1:1:MZZF-HDJ?lang=en); [FamilySearch 1870 U.S. census record, Nancy Glascow, M8FF-ZQD](https://www.familysearch.org/ark:/61903/1:1:M8FF-ZQD?lang=en), accessed 16 September 2026.
+### Complete 1831 Tamlaght census check: one Glasgow variant only, 17 September 2026
+
+The four-page transcription of the 1831 Tamlaght O'Crilly census was checked across all 1,904 entries for Glasgow/Glasco variants. It contains one relevant surname occurrence: **John Glasco**, house 2 at Inishrush, with a household total of eight. No Alexander Glasgow, Nancy Glasgow or other Glasgow household appears elsewhere in the transcription. The entry gives only household totals, not individual ages, names or relationships, so it cannot identify John Glasco's household as Alexander's family. It is therefore a bounded negative against using the 1831 Tamlaght transcription as a direct parentage bridge, while preserving John Glasco as a separate locality lead.
+
+Source: [Tamlaght O'Crilly Census 1831, pages 1–4](https://genealogy.torrens.org/BannValley/church/Tamlaght/1831census_3.html), transcription by William Scott and Barbara Braswell; relevant entry 1019, Inishrush house 2; checked 17 September 2026.
+
+### First Kilraughts archival target confirmed, 17 September 2026
+
+The First Kilraughts Presbyterian material is not available as an online name-search result, but the archival description is more useful than the earlier generic lead: the surviving collection includes registers and minute books from **1815–1984**, and the Ulster Historical Foundation describes associated Kilraughts material as including baptisms, marriages, deaths/removals and near-annual congregational censuses from about **1804–1844**. This makes the congregation's household/member records a plausible route to Alexander's pre-1834 identity and to the reported 1836 marriage, but no Glasgow entry has been inspected yet. It remains an archival lookup target, not evidence of parentage.
+
+Sources: [PRONI collection reference MIC/1P/462](https://www.nationalarchives.gov.uk/accessions/2002/02returns/02ac255.htm); [Ulster Historical Foundation, Presbyterian congregational records](https://ulsterhistoricalfoundation.com/presbyterianism/covenanters/records-of-congregations), accessed 17 September 2026.
+
+### Parent-bearing McCaughan deed checked and excluded, 17 September 2026
+
+FamilySearch Full-Text Search surfaced an 1876 Irish deed transcript containing a detailed McCaughan succession: **John McCaughan** of Agolagh died intestate on 3 June 1874, leaving widow **Anne McCaughan** and eldest son **John McCaughan junior**; an arbitration then transferred the Agolagh farm to **James McCaughan**, another son. The transcript identifies Agolagh in the manor and half-barony of Glenarm, County Antrim.
+
+This is a concrete parent-bearing record for a McCaughan family, but it is geographically separate from the Rasharkin/Lisnagaver–Gortereagh network and contains no Glasgow, Rasharkin, Lisnagaver, Gortereagh or Dysart connection. It is therefore an inspected exclusion, not evidence for [[McCaughan-222|Mary (McCaughan) Glasgow]]'s parents or for Alexander Glasgow's parentage.
+
+Source: [FamilySearch, Ireland Deeds/Wills/Conveyance Records 1876](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKS-52M6?view=fullText&keywords=James+McCaughan&searchForm=simple&lang=en), image 10, transcript describing the 1874 death and sons John and James McCaughan at Agolagh; inspected 17 September 2026.
+
+### New William–Mary Kilpatrick McCaughern household at Lisnagaver, 17 September 2026
+
+A fresh audit of the surviving Rasharkin Presbyterian baptism transcription located a second parent-bearing McCaughern/Macaw household at the target townland. **Hugh Macaw** was born **5 February 1839** and baptised 3 March 1839 as the son of **William** and **Mary Kilpatrick**, resident at **Lisnagaver** (entry 125). The same register records **Jane Matilda Macaw**, born 26 July 1843 and baptised 14 January 1844, as the daughter of William and Mary Kilpatrick at **Granagh** (entry 204).
+
+This is new direct evidence of a William–Mary Kilpatrick McCaughern-variant family moving within the same Lisnagaver–Granagh area where Alexander Glasgow and Mary McAughin/McAughern were living. It makes the Kilpatrick-linked McCaughern network more substantial than the previously documented Archy–Elizabeth Kilpatrick household. It does **not** identify Mary Glasgow as a daughter or sister of this couple, and no relationship should be added from locality and surname similarity alone. The next test is the original Rasharkin register and any marriage, valuation or probate record that connects William or Mary Kilpatrick to Mary Glasgow.
+
+Source: [Rasharkin Presbyterian baptisms, entries 125 and 204](https://genealogy.torrens.org/BannValley/church/RasharkinP/Baptisms_1834.html), recording Hugh Macaw and Jane Matilda Macaw, children of William and Mary Kilpatrick; inspected 17 September 2026.
+
+### 1851 Lisnagavor fragment does not locate William and Mary Kilpatrick, 17 September 2026
+
+The surviving 1851 Antrim census fragment was searched for the surname variants McCaughern, McCaheren, McCahern, McCaugher, McCaughrin and McCaw. In Lisnagavor it records several separate families: Elizabeth McCaheren's household after the death of Archibald McCaheren; William McCaheren with wife Elizabeth and children; an older Archibald and Elizabeth McCaheren household; and a separate McCahrin household. It does **not** record a William McCaughern/McCaheren with wife Mary Kilpatrick, nor a Mary Kilpatrick attached to a McCaughern household.
+
+This is a useful bounded negative. It prevents the 1839 Hugh and 1843 Jane baptismal family from being merged with the other Lisnagavor McCaughern households merely because of surname and locality. The absence may reflect death, migration, a changed surname spelling, or the incompleteness of the surviving 1851 returns; it does not show that William or Mary had left the district permanently. No parentage conclusion follows.
+
+Source: [1851 Irish Census Returns, Antrim/Rasharkin/Lisnagavor](https://durrushistory.com/wp-content/uploads/2012/10/1851irishcensusreturnscommadelimitedtextfilejul24_072.pdf), surviving return entries on pp.158–159; searched across the PDF on 17 September 2026.
+
+### Nearby Gortahar Kilpatrick cluster identified, not linked, 17 September 2026
+
+The extracted Rasharkin Presbyterian marriage register adds a new local lead. On **19 February 1858**, **Mary Ann Kilpatrick**, full-age spinster of **Gortahar**, married James Anderson; the entry gives her father's forename as **William** and occupation as farmer, with **Robert Kilpatrick** as one of the witnesses. On **6 February 1863**, **Robert Kirkpatrick**, full-age bachelor farmer of **Gortahar**, married Elizabeth Dunlop; his father was also **William**, a farmer. The two entries suggest a William Kilpatrick family operating in Gortahar, close to the Glasgow/McAughern records.
+
+This may be relevant to identifying the family of Mary Kilpatrick, wife of William McCaughern, but it is not proof that Mary Ann or Robert was her sibling, nor that their father William was her father. The spelling shift Kilpatrick/Kirkpatrick and the shared Gortahar residence make the cluster worth testing against the original civil certificates, valuation records and the earlier Rasharkin baptism register. No relationship has been added.
+
+Source: [Rasharkin Presbyterian marriages](https://genealogy.torrens.org/BannValley/church/RasharkinP/Marriages.html), entries dated 19 February 1858 and 6 February 1863; extracted from civil-registration-based transcription, accessed 17 September 2026.
+
+### PRONI eCatalogue verification: relevant registers have no public scan link, 17 September 2026
+
+The PRONI eCatalogue was checked directly by the exact references. `CR5/32/1/1` is a sub-series titled **Baptism Registers**, dated **1804–1844**; `CR5/32/1/2` is **Marriage Registers**; and the parent series `CR5/32/1` is **Registers**, dated 1804–1988. The catalogue result and detail views show an empty Digital Record field for the baptism and marriage entries. The older `CR5/32A/1` reference returns no record in the current interface.
+
+This confirms that the early Kilraughts Reformed Presbyterian material remains an archival lookup or onsite-access target, not an overlooked online image set. It remains the best route to test Alexander's pre-1834 household, but no Glasgow entry was obtained and no parentage conclusion follows.
+
+Source: [PRONI eCatalogue search page](https://apps.proni.gov.uk/eCatNI_IE/SearchPage.aspx), exact references `CR5/32/1`, `CR5/32/1/1`, `CR5/32/1/2` and `CR5/32A/1`, accessed 17 September 2026; [PRONI church-record guide](https://www.proni.gov.uk/files/proni/2026-01/PRONI%20Guide%20to%20Church%20Records.pdf).
+
+### Churchtown baptism transcription checked for the Elder–Glasgow family, 17 September 2026
+
+The published Churchtown/Tamlaght Presbyterian baptism transcription was searched for `Elder` and `Glasgow`. It contains no baptism naming **Robert Elder** and **Mary Glasgow** as parents. The only relevant-looking Glasgow hit is **Elizabeth Black**, daughter of Robert and Mary Glasgow, at Drumoolish; that is a different surname and household, not a child of the 1871 Elder–Glasgow marriage. The transcription therefore supplies no new descendant record or maternal-age evidence for identifying Mary Glasgow with Maryan Glasgow.
+
+### 1847 Alexander Glasgow marriage names a different father-John branch, 17 September 2026
+
+The original Irish civil marriage image for **Alexander Glasgow and Mary Jane Martin**, solemnized **6 April 1847** at a Presbyterian meeting house in the Ballymena registration district, gives Alexander as a **bachelor labourer** resident in a townland in the parish of Dunaghy, County Antrim. His father is named **John Glasgow**, labourer. The image therefore supplies a genuine parent-bearing Alexander Glasgow record in the wider north-Antrim area.
+
+It is not evidence that John was the father of [[Glasgow-951|Alexander Glasgow of Lisnagaver]]. The Lisnagaver Alexander's household sequence already has children with Mary/Molly McCaughan from 1837, whereas this Alexander was still recorded as a bachelor in April 1847 and married Mary Jane Martin. The record is best retained as a concrete same-name exclusion and as a reminder that a father-John Alexander existed in the Dunaghy/Ballymena area; it does not establish a relationship to the Lisnagaver family.
+
+Source: [General Register Office of Ireland, civil marriage register, Alexander Glasgow and Mary Jane Martin, 6 April 1847, Ballymena registration district](https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1847/09322/5375567.pdf), image 1; record detail [cima-3175604](https://www.irishgenealogy.ie/view/?record_id=cima-3175604), inspected 17 September 2026.
+
+The 1851 census transcription provides a potentially related but unproved context for this Dunaghy record. In **Glenleslie household 21**, an older **John Glasgow** household includes Rose Glasgow, daughter Nancy Glasgow (recorded among the deaths), son Andrew Glasgow (also recorded among the deaths), and an absent son John Glasgow; the same return identifies the locality as Dunaghy parish. This is consistent with a substantial Glasgow family in the parish where the 1847 Alexander reported residence, but the 1851 return does not name Alexander and does not state that the 1847 groom belonged to this household. It therefore strengthens the separate Dunaghy father-John research lead while leaving the Lisnagaver Alexander-951 parentage question unchanged.
+
+Source: [1851 Irish census returns, Dunaghy, Glenleslie, household 21](https://durrushistory.com/wp-content/uploads/2012/10/1851irishcensusreturnscommadelimitedtextfilejul24_071.pdf), p.103; transcription checked 17 September 2026.
+
+### Correction: the reported 8 November 1839 Kilraughts marriage is not a Glasgow record, 17 September 2026
+
+The source previously cited for a supposed **8 November 1839 Kilraughts marriage** was rechecked. Its entry is for **Alexander Montgomery**, a shoemaker, marrying **Jane McCaughey**, daughter of John McCaughey, before witnesses Betty Hay and William Hay. It does not name Alexander Glasgow, Mary McCaughan/McAughin, or any Glasgow parent.
+
+This removes that entry from the active Alexander-951 parentage and marriage targets. The First Kilraughts register may still contain relevant Glasgow material, but the 8 November 1839 date is not evidence for it. The earlier statement that this entry confirmed a useful Glasgow marriage-window witness trail was incorrect and is superseded by this correction.
+
+Source: [Ulster Lees, Ballymoney area research, entry for Alexander Montgomery and Jane McCaughey](https://ulsterlees.azurewebsites.net/families/co-antrim/ballymoney-area/), inspected 17 September 2026.
+
+Source: [Churchtown Presbyterian baptisms](https://genealogy.torrens.org/BannValley/church/TamlaghtP/Baptisms.html), transcription associated with PRONI MIC.1P/347A/1, searched 17 September 2026.
+### New local memorial: Alexander Elder's Gortrickey family, 17 September 2026
+
+The published headstone transcription for Rasharkin Second Presbyterian Church records a memorial erected by **Alexander Elder of Gortrickey** to his father **Robert Elder**, his mother **Jane**, and his sisters and brothers. It also records Alexander Elder's death on 5 January 1943. This is a new direct memorial transcription for the catalogue's parentage study, not a Glasgow record and not proof that the Elder family was related to Alexander Glasgow. Its value is locality context: Gortrickey/Gortereghy is the townland where the Glasgow family appears in the 1837–1838 Rasharkin Presbyterian baptism entries. The memorial supplies a named Elder household for future comparison with the later Robert Elder who occupied Alexander Glasgow's former Lisnagaver lot; identity between those Elder references remains unproved.
+
+Source: [Rasharkin Second Presbyterian Church headstones](https://genealogy.torrens.org/BannValley/church/RasharkinP/graveyard.html), Elder inscription, transcribed by Pauline O'Keeffe and Helen Evans in August 2004 (accessed 17 September 2026).
+
+### New Elder family lead: 1908 Gortreaghy marriage transcription, 17 September 2026
+
+A 2007 RootsChat research post reproduces a 18 June 1908 Second Portglenone Presbyterian marriage entry for **Alexander Elder**, full-age bachelor farmer of Gortreaghy, whose father is recorded as **Robert Elder, farmer**. Alexander married **Mary Anderson**, full-age spinster of Gortreaghy, daughter of Neil Anderson; witnesses were Robert Anderson and Margaret Elder. The entry is not yet an inspected original, so it is a secondary-source lead rather than final evidence. It is nevertheless a new, specific parent-bearing record for the Gortreaghy Elder household and gives a testable route for determining whether the Alexander Elder on the Rasharkin Second Presbyterian memorial was a son of the Robert Elder who later occupied Alexander Glasgow's Lisnagaver lot. That identity chain remains unproved.
+
+Source: [RootsChat, Elder, Murdoch & McMeekin Families](https://www.rootschat.com/forum/index.php?topic=214109.0), post reproducing Second Portglenone Presbyterian marriages, accessed 17 September 2026.
+
+### New 1911 Elder household lead at Gortereghy, 17 September 2026
+
+A separate census-browse presentation reports a 1911 Gortereghy household headed by **Alexander Elder**, aged 40, with **Mary Elder**, aged 44, recorded as wife, **Robert Elder**, aged 34, as brother, and **Margaret Elder**, aged 25, as sister. This exact household composition is absent from the catalogue. It is potentially useful for testing the 1908 marriage lead and the Rasharkin Second Presbyterian memorial, but the presentation is derivative and the underlying 1911 household forms have not yet been inspected. It must not be assumed that this Alexander is the same man as the memorial subject or that the household's Robert is the Robert Elder who married [[Glasgow-3167|Mary Glasgow]].
+
+Source: [Down the Road, Gortereghy 1911 census browse](https://downtheroad.dev/de/census?county=Antrim&tab=browse&townland=Gortereghy&year=1911), accessed 17 September 2026.
+
+### New 1911 Anderson household context at Gortereghy, 17 September 2026
+
+The same 1911 Gortereghy census browse records **Neal Anderson**, aged 65, with **Abraham Anderson**, aged 60, and **Robert Anderson**, aged 50, each identified as brothers within the household. This exact household detail is absent from the full catalogue, including the associated-person search. It is relevant as FAN context because Robert Anderson appears as a witness in the 1908 Elder marriage transcription and the Anderson surname also occurs in the Elder marriage network. It does not establish a relationship to [[Glasgow-951|Alexander Glasgow]] or to the Glasgow family.
+
+Source: [Down the Road, Gortereghy 1911 census browse](https://downtheroad.dev/de/census?county=Antrim&tab=browse&townland=Gortereghy&year=1911), accessed 17 September 2026.
+
+### New 1911 evidence for multiple Elder households, 17 September 2026
+
+The same 1911 Gortereghy browse lists two further Elder households not currently represented in the catalogue: **Joseph Elder**, aged 79, with **Ellen Elder**, aged 38, recorded as his niece, and **William Elder**, aged 40, with **Elizabeth Elder**, aged 50, recorded as his sister. This demonstrates that Gortereghy contained several distinct Elder households at the same time. It is useful negative context: surname, townland and occupation alone cannot safely merge the Robert Elder records. The relationships come from a derivative census presentation and require the original household forms for final verification.
+
+Source: [Down the Road, Gortereghy 1911 census browse](https://downtheroad.dev/de/census?county=Antrim&tab=browse&townland=Gortereghy&year=1911), accessed 17 September 2026.
+
+### New Elder child-parent lead: 1903 Gohorney marriage transcription, 17 September 2026
+
+The reproduced Second Portglenone Presbyterian marriage list records **Isaac Elder**, full-age bachelor farmer of Gohorney, marrying **Jane Elliott** on 19 February 1903. Isaac's father is recorded as **Robert Elder, farmer**. This is another catalogue-absent parent-bearing record for a Robert Elder household in the Rasharkin area. It supports the existence of a substantial local Elder family network, but does not by itself identify Isaac's Robert with [[Elder-7251|Robert Elder]], husband of [[Glasgow-3167|Mary Glasgow]], or establish any Glasgow relationship.
+
+Source: [RootsChat, Elder, Murdoch & McMeekin Families](https://www.rootschat.com/forum/index.php?topic=214109.0), post reproducing Second Portglenone Presbyterian marriages, accessed 17 September 2026.
+
+### New Elder child-parent lead: 1893 Gortreaghy marriage transcription, 17 September 2026
+
+The same reproduced Second Portglenone Presbyterian marriage list records **Neal Anderson**, full-age bachelor farmer of Gortreaghy, marrying **Sarah Elder**, full-age spinster of Gortreaghy, on 28 September 1893. Sarah's father is recorded as **Robert Elder, farmer**; witnesses were Robert Anderson and Nancy Elder. This is a new parent-bearing record for the Gortreaghy Elder household and is consistent with the 1908 entry naming Alexander Elder as a son of a Robert Elder, but the shared father's identity and any connection to Robert Elder, husband of [[Glasgow-3167|Mary Glasgow]], remain unproved until the original register is inspected.
+
+Source: [RootsChat, Elder, Murdoch & McMeekin Families](https://www.rootschat.com/forum/index.php?topic=214109.0), post reproducing Second Portglenone Presbyterian marriages, accessed 17 September 2026.
+### New 1912 Lisnagaver Wallace directory occurrence
+
+The **1912 Belfast and Ulster Directory** lists **John Wallace** as a **teacher at Lisnagaver** in the neighbourhood inhabitants section for Rasharkin. This exact occupation-and-locality occurrence is absent from the full catalogue. It adds a contemporary local associate to the Lisnagaver network, but no evidence currently connects John Wallace to Nancy Glasgow's nephew Robert Wallace Anderson or to the Glasgow family. The directory gives no age, address beyond Lisnagaver or relationship.
+
+Source: [1912 Belfast and Ulster Directory, Rasharkin](https://lennonwylie.co.uk/PT191214.htm), neighbourhood inhabitants, accessed 17 September 2026.
+
+### New 1912 Gortreighy Ross directory occurrence
+
+The **1912 Belfast and Ulster Directory** lists **Thomas Ross** as a **mill owner at Gortreighy** in the neighbourhood inhabitants section for Rasharkin. This exact occupation-and-locality occurrence is absent from the full catalogue. It adds a named economic and geographic associate in the townland where the Glasgow family lived in the earlier baptism period, but it does not establish any relationship to [[Glasgow-951|Alexander Glasgow]] or the McCaughan/Elder families.
+
+Source: [1912 Belfast and Ulster Directory, Rasharkin](https://lennonwylie.co.uk/PT191214.htm), neighbourhood inhabitants, accessed 17 September 2026.

@@ -1274,6 +1274,47 @@ def render_person_dossier(profile_id: str) -> str:
     return f'''<nav class="crumb"><a href="/catalogue/">People catalogue</a> / {escape(name)}</nav><article class="person-dossier-readable" data-dossier-presentation="{PRESENTATION_VERSION}"><header class="dossier-header"><p class="kicker">Person dossier · {escape(profile_id)}</p><h1>{escape(name)}</h1><p class="dossier-life">{escape(life)}</p>{locality_html}<div class="dossier-meta">{assessment_meta}</div><div class="dossier-actions">{"".join(actions)}</div></header><nav class="dossier-nav" aria-label="On this page">{section_nav}</nav><div class="dossier-layout"><aside class="dossier-toc" aria-label="Dossier contents">{toc_nav}</aside><div class="dossier-reading">{"".join(sections)}{_archive_html(profile_id, dossier, editorial, "".join(supplements))}</div></div></article>{script}'''
 
 
+def _ensure_unified_person_shell(soup: BeautifulSoup, profile_id: str) -> BeautifulSoup:
+    """Give legacy dossier pages the same site-wide shell as the main routes."""
+    if soup.select_one("#g-navigation"):
+        return soup
+    template = BeautifulSoup((WEB / "index.html").read_text(encoding="utf-8"), "html.parser")
+    person_main = soup.select_one("main")
+    shell_main = template.select_one("main")
+    if not person_main or not shell_main:
+        return soup
+    shell_main.replace_with(person_main)
+    body = template.body
+    body["class"] = ["g-unified", "g-kind-person", "r-v2", "v3-site", "person-hierarchy"]
+    body["data-g-path"] = f"/people/{profile_id.casefold()}.html"
+    body["data-v3"] = "true"
+    body["data-r-integrated"] = "3"
+    body["data-repair"] = "3.1-repair-1"
+    main = template.select_one("main")
+    main["id"] = "main"
+    main["class"] = list(dict.fromkeys((main.get("class") or []) + ["r-main", "v3-dossier", "person-dossier-readable"] ))
+    # Retain the dossier's title/metadata and add the shared person stylesheet.
+    for tag in list(template.head.find_all(["title", "meta", "link", "script"], recursive=False)):
+        if tag.name == "title" or (tag.name == "meta" and tag.get("name") in {"description", "canonical"}):
+            tag.decompose()
+    for tag in soup.head.find_all(["title", "meta", "link", "script"], recursive=False):
+        if tag.name == "link" and tag.get("rel") == ["stylesheet"] and "catalogue.css" in str(tag.get("href")):
+            continue
+        template.head.append(tag)
+    if not template.select_one('link[href^="/assets/repair/person-hierarchy.css"]'):
+        template.head.append(template.new_tag("link", rel="stylesheet", href=ASSET))
+    crumbs = template.select_one(".g-bar .g-crumbs strong")
+    name = main.select_one("h1")
+    if crumbs and name:
+        crumbs.string = name.get_text(" ", strip=True)
+    for link in template.select(".g-nav-link[aria-current]"):
+        del link["aria-current"]
+    people_link = template.select_one('.g-nav-link[href="/catalogue/"]')
+    if people_link:
+        people_link["aria-current"] = "page"
+    return template
+
+
 def _replace_main(text: str, profile_id: str) -> str:
     soup = BeautifulSoup(text, "html.parser"); main = soup.select_one("main.v3-dossier") or soup.select_one("main.person-dossier") or soup.select_one("main")
     if not main: return text
@@ -1304,7 +1345,7 @@ def _replace_main(text: str, profile_id: str) -> str:
     for old_asset in soup.select('link[href^="/assets/repair/person-hierarchy.css"]'):
         old_asset.decompose()
     soup.head.append(soup.new_tag("link", rel="stylesheet", href=ASSET))
-    return str(soup)
+    return str(_ensure_unified_person_shell(soup, profile_id))
 
 
 def revise(text: str, profile_id_hint: str = ""):
@@ -1328,6 +1369,16 @@ def repair(profile_ids=None):
         if profile_ids and path.stem not in {value.casefold() for value in profile_ids}:
             continue
         text = path.read_text(encoding="utf-8")
+        # A few older mapped profiles have no maintained JSON dossier, but
+        # still need the same global rail and spacing as full dossiers.
+        if not BeautifulSoup(text, "html.parser").select_one("#g-navigation"):
+            legacy = BeautifulSoup(text, "html.parser")
+            if legacy.select_one("main .person-dossier"):
+                wrapped = _ensure_unified_person_shell(legacy, path.stem)
+                if str(wrapped) != text:
+                    path.write_text(str(wrapped), encoding="utf-8")
+                    counts["person_hierarchy"] += 1
+                    text = str(wrapped)
         dossier = _load_json(path.with_suffix(".json"), {})
         profile_id_hint = str(dossier.get("id") or "")
         updated, _ = revise(text, profile_id_hint)

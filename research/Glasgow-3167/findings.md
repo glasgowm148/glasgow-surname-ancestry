@@ -1,6 +1,50 @@
 # Findings: Mary Glasgow (Glasgow-3167), wife of Robert Elder
 
-Last updated: 2026-09-13
+Last updated: 2026-09-17
+
+## New identity and relationship lead: Lisnagaver birth, 14 February 1867
+
+The original civil birth return records Mary Ellen, a female child born at
+Lisnagaver on 14 February 1867. The mother is Mary Glasgow; no father is
+entered. Ann Glasgow of Lisnagaver was present at the birth and informed the
+registration.
+
+The mother is a plausible identity candidate for [[Glasgow-3167|Mary
+Glasgow]], who was a 28-year-old spinster of Lisnagaver when she married in
+1871. The informant may be [[Glasgow-438|Ann Glasgow]], the documented
+Lisnagaver daughter of Alexander Glasgow, but the birth return does not state
+that the two women were sisters or otherwise related. This is evidence for a
+new Glasgow-associated event, not proof of Mary's identity, the child's later
+surname, or either woman's parentage.
+
+Source: [IrishGenealogy civil birth record](https://www.irishgenealogy.ie/view?record_id=f66be225e5-6827480),
+[original 1867 birth return](https://www.irishgenealogy.ie/files/civil/birth_returns/births_1867/03501/2286677.pdf),
+entry 214, Ballymoney union, County Antrim, accessed 17 September 2026.
+
+### New earlier Gortrechy Elder marriage lead, 7 April 1842
+
+A reproduced Second Portglenone Presbyterian marriage list records **John Elder of Gortrechy** marrying **Peggy Stuart of Killycuggin** on 7 April 1842. The witnesses were **James Ray** and **James Stuart**. This exact marriage and witness/locality combination is absent from the catalogue. It establishes an earlier Elder household in the same local area and supplies names for future church and civil-record tracing, but it does not identify John as an ancestor of [[Elder-7251|Robert Elder]]; Robert's 1871 marriage names his father as Nathaniel Elder. The source is a secondary transcription and the original register remains to be inspected.
+
+Source: [RootsChat, Elder, Murdoch & McMeekin Families](https://www.rootschat.com/forum/index.php?topic=214109.0), post reproducing Second Portglenone Presbyterian marriages, accessed 17 September 2026.
+
+### New separate Robert Elder marriage lead, 13 July 1887
+
+The reproduced Third Portglenone Presbyterian marriage list records **Robert Elder**, full-age bachelor labourer of Ballymoney, marrying **Jane Adams McCaughey**, full-age spinster of Garvaghey, on 13 July 1887. Robert's father is recorded as **James Elder, labourer**; Jane's father as **William McCaughey, labourer**. The witnesses were **Archie McCaughey** and **Lizzie Connaghy**. This exact marriage and parentage combination is absent from the catalogue. It is useful chiefly as a confirmed namesake-separation record: this Robert should not be merged with [[Elder-7251|Robert Elder]], Mary's 1871 husband, whose father was recorded as Nathaniel Elder and whose occupation was farmer. The source is a secondary transcription and the original register remains to be inspected.
+
+Source: [RootsChat, Elder, Murdoch & McMeekin Families](https://www.rootschat.com/forum/index.php?topic=214109.0), post reproducing Third Portglenone Presbyterian marriages, accessed 17 September 2026.
+
+### New 1912 Elder directory occupation and locality details
+
+The **1912 Belfast and Ulster Directory** lists **John Elder, junior**, as a **grocer and postmaster** among the inhabitants of Rasharkin. In the neighbourhood section it separately lists **James Elder** and **James Elder, junior** at **Ballydonnelly**. The exact 1912 occupations, junior designation and locality entries are absent from the catalogue. They add useful identity clues for separating the later Elder households, but the directory does not identify either man as [[Elder-7251|Robert Elder]]'s son or brother. The source is a directory, not a parentage record.
+
+Source: [1912 Belfast and Ulster Directory, Rasharkin](https://lennonwylie.co.uk/PT191214.htm), accessed 17 September 2026.
+
+
+### New 1857 Gortereghy Elder marriage lead
+
+The reproduced marriage list records **Alex Hillis**, full-age bachelor merchant of Ballymena, marrying **Annie Elder**, full-age spinster of Gortereghy, on 7 July 1857. Annie's father is recorded as **James Elder, farmer**; witnesses were **James McChesney** and **Robert Bell**. This exact marriage, residence and parent statement are absent from the catalogue. It adds another distinct Elder household in the Gortereghy area and names two witnesses for future tracing, but it does not connect Annie or James Elder to [[Elder-7251|Robert Elder]], whose 1871 marriage names Nathaniel Elder as father. The source is a secondary transcription and the original register remains to be inspected.
+
+Source: [RootsChat, Elder, Murdoch & McMeekin Families](https://www.rootschat.com/forum/index.php?topic=214109.0), post reproducing Second Portglenone Presbyterian marriages, accessed 17 September 2026.
 
 ## Current conclusion
 
@@ -115,3 +159,8 @@ The original civil birth register resolves Jane's identity and chronology. **Jan
 The age-compatible Ballymoney birth sweep did not find registrations for the other two census children. The inspected Mary Elder entries for 1873, 1874 and 1876, and Robert Elder entries for 1873–1876, name other parent couples. This is a bounded negative, not proof that the Gortahar births were unregistered: census ages can be inaccurate and indexing or registration gaps remain possible.
 
 FamilySearch also incorrectly normalises Samuel's Ballymoney registration place to County Wicklow. The original register places his birth at Gortahar in the Ballymoney, County Antrim district and controls both the place and recorded name.
+### New 1911 Gortereghy Elder household comparison, 17 September 2026
+
+The 1911 Gortereghy census browse lists three separate Elder households: Alexander Elder, aged 40, with wife Mary, brother Robert, 34, and sister Margaret, 25; Joseph Elder, aged 79, with niece Ellen, 38; and William Elder, aged 40, with sister Elizabeth, 50. The exact household comparison is absent from the catalogue. It is relevant to Robert Elder's case because it shows that several Elder households occupied the same townland, so the Robert Elder who married [[Glasgow-3167|Mary Glasgow]] must not be identified with another local Robert solely from surname, place or occupation. The source is a derivative census presentation; original 1911 forms remain needed for final verification.
+
+Source: [Down the Road, Gortereghy 1911 census browse](https://downtheroad.dev/de/census?county=Antrim&tab=browse&townland=Gortereghy&year=1911), accessed 17 September 2026.

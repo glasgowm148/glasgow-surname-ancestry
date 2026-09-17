@@ -52,3 +52,32 @@ death return remain real limitations. Neither changes the documented parents
 of James (1837), the unnamed child (1838), or James (1843), changes the
 documented spouse relationship, proves other child relationships, or determines
 Alexander's ancestry. No live WikiTree edit is part of this pass.
+### New 1911 Gortereghy McCaughern household, 17 September 2026
+
+The 1911 Gortereghy census browse records **Sarah McCaughern**, aged 82, as head of household with **Matilda Mulholland**, 52, and **Caroline McCaughern**, 47, recorded as daughters; **Sara Jane McCaughern**, 45, and **Jas Alex McCaughern**, 43, are also listed as children, with **Geo Mulholland**, 14, as grandson. This exact household is absent from the McCaughan/McCaughern catalogue. It confirms a substantial McCaughern household in the same townland as the Elder and Glasgow-associated records, but it does not identify Sarah's husband, parents or relationship to Mary Glasgow. The source is a derivative census presentation and requires the original 1911 forms for final verification.
+
+Source: [Down the Road, Gortereghy 1911 census browse](https://downtheroad.dev/de/census?county=Antrim&tab=browse&townland=Gortereghy&year=1911), accessed 17 September 2026.
+
+### New Elder–McCaughern witness connection, 12 May 1886 transcription
+
+A reproduced Second Portglenone Presbyterian marriage list records **John Elder**, full-age bachelor of Rasharkin, marrying **Annie Patterson**, aged 20, on 12 May 1886. John's father is recorded as **John Elder, farmer**; Annie's father as **David Patterson, farmer**. The witnesses were **Hugh McCahon** and **Jane McCaughern**. This exact witness pairing is absent from the catalogue and is relevant to the local McCaughern/McCahon–Elder network. It does not identify either witness as a relative of [[McCaughan-222|Mary Glasgow]] or establish a Glasgow connection. The source is a secondary transcription and the original register remains to be inspected.
+
+Source: [RootsChat, Elder, Murdoch & McMeekin Families](https://www.rootschat.com/forum/index.php?topic=214109.0), post reproducing Second Portglenone Presbyterian marriages, accessed 17 September 2026.
+
+### New 1912 Robert McCaughern Lisnagaver directory lead
+
+The **1912 Belfast and Ulster Directory** lists **Robert McCaughern, farmer, Lisnagaver** in the neighbourhood section for Rasharkin. This exact directory occurrence is absent from the full catalogue, including the associated McCaughan/McCaughern material. It is a useful later locality lead because Lisnagaver is the Glasgow family's documented townland and the directory places a McCaughern farmer there after the 1851 and 1901–1911 census evidence. It does not identify Robert's age, parents or relationship to [[McCaughan-222|Mary Glasgow]], and it must not be merged with any other Robert McCaughern without the underlying valuation, census or civil records.
+
+Source: [1912 Belfast and Ulster Directory, Rasharkin](https://lennonwylie.co.uk/PT191214.htm), neighbourhood inhabitants, accessed 17 September 2026.
+
+### New 1912 Nancy McCaughern directory occurrence
+
+The **1912 Belfast and Ulster Directory** lists **Nancy McCaughern** as a publican among the inhabitants of Rasharkin. This exact occupation-and-place occurrence is absent from the full catalogue. It is a useful later record for separating McCaughern women in the locality, but it must not be conflated with [[Glasgow-4070|Nancy Glasgow]], with the Nancy McCaughern named on the James McCaughern memorial, or with any other McCaughern profile without an address, age or family record.
+
+Source: [1912 Belfast and Ulster Directory, Rasharkin](https://lennonwylie.co.uk/PT191214.htm), inhabitants, accessed 17 September 2026.
+
+### New 1912 Peter McCaughern occupation lead
+
+The **1912 Belfast and Ulster Directory** lists **Peter McCaughern** as a **grocer and farmer** among the inhabitants of Rasharkin. This exact occupation and locality combination is absent from the full catalogue. It may be relevant to the later Rasharkin McCaughern probate network, but the directory gives no age, address or family relationship, so this Peter must not be merged with the Peter McCaughern of the 1916 Dreen probate cluster without further evidence.
+
+Source: [1912 Belfast and Ulster Directory, Rasharkin](https://lennonwylie.co.uk/PT191214.htm), inhabitants, accessed 17 September 2026.

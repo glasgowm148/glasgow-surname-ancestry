@@ -76,6 +76,24 @@ The repository is organized into source code, tools, tests, durable data,
 generated artifacts, the interactive map, and two established research trees.
 See [`docs/repository-structure.md`](docs/repository-structure.md) for the layout
 and [`docs/research-workflow.md`](docs/research-workflow.md) for the full research rules.
+
+### Optional free-model agent runner
+
+AI-assisted work can be routed through OpenRouter's free-model router without
+adding an LLM dependency to the toolkit. Copy [`.env.example`](.env.example)
+to `.env`, set `OPENROUTER_API_KEY`, and run:
+
+```bash
+.venv/bin/python tools/openrouter_agent.py --agent research \
+  "Summarise the evidence and list unresolved questions."
+```
+
+The `research`, `review`, and `mechanical` roles all default to
+`stealth/union-alpha`.
+Explicit overrides are accepted only for known free models or models ending in
+`:free`, so this helper cannot accidentally route a request to a paid model.
+Defaults are also recorded in [`config/openrouter.toml`](config/openrouter.toml).
+
 The implemented toolkit boundary and remaining compatibility migration are recorded
 in [`docs/toolkit-migration.md`](docs/toolkit-migration.md).
 
