@@ -21,6 +21,15 @@ are retained separately, not silently substituted for unread manuscript text.
 
 ## Current conclusion
 
+Father audit, 28 September 2026: [John Glasgow-1030](https://www.wikitree.com/wiki/Glasgow-1030), representing Ninian's documented brother, now has Robert Glasgow-1096 marked **confident** on WikiTree. The explicit 1596 father and 1613 brother statements, shared surname, chronology and 1619 family witness support the common-father inference, as for Marion. The 1618 Jonet Mathie husband identification remains probable. See [John's current assessment](../Glasgow-1030/findings.md); older conditional father wording is superseded.
+
+Marion Glasgow-3062 is Ninian’s documented sister in his 1613 testament.
+Combined with Ninian’s 1596 burgess admission as Robert Glasgow-1096’s second
+son, their shared surname and compatible chronology support Robert as Marion’s
+confident inferred father. The live status was saved and verified on
+28 September 2026; no concrete alternative father is known. Marion’s mother
+remains uncertain. This is a reassessment of the existing records.
+
 Father assessment: [Robert Glasgow (about 1520), fisher and burgess of Glasgow](https://www.wikitree.com/wiki/Glasgow-1096) is **confirmed by record**. The attached [John Glasgow (1516)](https://www.wikitree.com/wiki/Glasgow-1093) should be removed as father.
 
 [Elizabeth Glasgow, widow of Alexander Kaine](https://www.wikitree.com/wiki/Glasgow-3915)
@@ -79,7 +88,10 @@ and extends the family reading:
 - John Glasgow is expressly his brother; [[Glasgow-1030]] remains the leading
   existing-profile candidate, not a proved identity.
 - [[Glasgow-3062|Marioun (Marion) Glasgow]] is expressly his sister, not his
-  daughter.
+  daughter. Combined with Ninian’s 1596 admission as Robert’s second son,
+  their shared surname and compatible chronology support Robert as Marion’s
+  confident inferred father. No concrete alternative father is known;
+  Marion’s mother remains uncertain.
 - William Glasgow occurs in the debt/damaged opening material, but the claimed
   words `his sone` cannot be securely recovered. [[Glasgow-3075]] remains only
   a **possible** son and possible identity match.

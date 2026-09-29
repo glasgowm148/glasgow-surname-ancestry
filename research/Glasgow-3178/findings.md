@@ -6,6 +6,14 @@ Agnes was the wife of John Logan, a trumpmaker at Stevenston, and died before
 her testament dative was recorded on 4 March 1628. The testament-calendar entry
 does not name either parent.
 
+A 1932 published index to the Ayr Secretary's Register of Sasines also names
+“Agnes Glasgow, spouse of John, in Milne-burne, Stenstoun,” under its `LOGAN
+(LOGANE)` heading, with a recording date of 29 June 1601. This is probably the
+same woman, given the spouse and locality, but the underlying sasine has not
+been read. The heading supplies Logan/Logane, while the entry body says only
+“John.” Keep the match unconfirmed and do not treat the 1601 registration date
+as a birth, marriage or death date.
+
 Her former profile attached [James Glasgow elder
 (Glasgow-1168)](https://www.wikitree.com/wiki/Glasgow-1168) as father and
 [Margaret Smith (Smith-374110)](https://www.wikitree.com/wiki/Smith-374110) as
@@ -20,6 +28,7 @@ converting the cross-generation placement into another unproved relationship.
 | Source | Finding | Assessment |
 | --- | --- | --- |
 | Francis J. Grant, ed., *The Commissariot Record of Glasgow: Register of Testaments, 1547-1800*, [p. 195](https://archive.org/details/scottishrecordso07scotuoft/page/195/mode/1up), entry recorded 4 March 1628 | Agnes Glasgow was spouse of John Logan, trumpmaker in Stevenston. | Direct spouse, occupation and locality evidence; the calendar entry names no parent. |
+| Scottish Record Office, *Index to Secretary's Register of Sasines for Sheriffdom of Ayr and Bailiaries of Kyle, Carrick and Cunningham, 1599–1609* (Edinburgh: H.M. Stationery Office, 1932), p. 128; [FamilySearch item #007830795, image 74/120](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS3Q-47SZ-P?view=fullText&keywords=GLASGOW&searchForm=advanced&lang=en&groupId=M9QN-ZXH) | Under `LOGAN (LOGANE)`, the index names “Agnes Glasgow, spouse of John, in Milne-burne, Stenstoun”; date of recording 29 June 1601, vol. 1, fol. 94, Ayr. | Direct Glasgow surname and spouse/locality in a published index; its heading supplies John Logan/Logane, while the entry body gives only “John.” Probable match to this Agnes, not confirmed until the underlying register entry is examined. NRS catalogues that register as [RS11/1](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/browsetreeview.aspx?reference=RS11), covering 3 Dec 1599–19 Jul 1602. |
 | Same volume, [p. 460](https://archive.org/details/scottishrecordso07scotuoft/page/460/mode/1up), entry dated 21 February 1632 | Margaret Smith was spouse of James Glasgow in Brekpleughe, Stevenston parish. | Direct evidence for Margaret's spouse; it does not name Agnes or establish maternity. |
 | [Live WikiTree profile](https://www.wikitree.com/wiki/Glasgow-3178), checked 28 August 2026 | Agnes was attached to Glasgow-1168 and Smith-374110 as uncertain parents; Margaret's attached husband is Glasgow-3921, a son of Glasgow-1168. | Structurally inconsistent working placement and the cause of WT+ warning 420. Uncertainty settings do not supply evidence. |
 

@@ -6,6 +6,11 @@ Last updated: 2026-09-10
 
 The supplied index entry is a compatible derivative-record match by name, parish and recorded parent(s). Its date may be a birth or baptism date; the original image has not been inspected.
 
+Marie's mother is the Jannet Willie represented by [[Willie-202]]. The second
+mother profile [[Willie-296]] cited this same 1688 entry and was merged into
+Willie-202 on 26 September 2026. The baptism names George Glasgow as father and
+Jannet Willie as mother; it does not alone prove their marriage.
+
 <!-- opr-birth-review-row-84 -->
 ## Source findings
 

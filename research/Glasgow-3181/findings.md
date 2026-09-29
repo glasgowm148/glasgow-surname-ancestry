@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+**Current reading cross-check, 28 September 2026:** the accepted human reading is **Katherine and Marjory**, not Katherine and Androw/Andrew; see the [maintained illustrated reading](/research/transcriptions/john-1577/#passage-john-widow-children). References below to an Andrew child or an Andrew-3163 candidate preserve an earlier, superseded reading. They do not establish a son Andrew or a connection to Corsoun. The father link to John Glasgow-1093 remains uncertain.
+
 [John Glasgow (Glasgow-3181)](https://www.wikitree.com/wiki/Glasgow-3181)
 is the unique WikiTree match for the man indexed as John Glasgow in
 Hirmenschelis whose testament dative is in National Records of Scotland

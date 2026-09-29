@@ -3,6 +3,7 @@
 The inclusion manifest supplies canonical destinations, never inferred identity
 matches. Public profile metadata and the normal privacy filter remain required.
 """
+import argparse
 import json
 import re
 from copy import deepcopy
@@ -12,6 +13,7 @@ from bs4 import BeautifulSoup
 
 import build_family_map as family
 import build_research_catalog as catalogue
+import evidence_labels
 from catalogue_machine_data import build_machine_models, build_network
 from sync_catalogue_research import ROOT, WEB, read_json, write_json, refresh_person
 
@@ -20,7 +22,7 @@ MANIFEST = ROOT / "data/wikitree/research-catalogue-cases.json"
 
 def page_shell(person, dossier, findings, links):
     # Reuse only the current site's shared shell, removing all subject content.
-    soup = BeautifulSoup((WEB / "people/glasgow-3912.html").read_text(), "html.parser")
+    soup = BeautifulSoup((WEB / "people/glasgow-1521.html").read_text(), "html.parser")
     ident, slug, name = dossier["id"], person["catalogue_id"], person["name"]
     destination = catalogue.WIKITREE_URL + ident if person["profile_ids"] else person["records"][0]["source_url"]
     destination_label = "View on WikiTree" if person["profile_ids"] else "View the baptism source"
@@ -28,7 +30,11 @@ def page_shell(person, dossier, findings, links):
     soup.body["data-r-person"] = ident
     soup.body["data-g-person"] = json.dumps({"id":ident, "name":name, "life":f"{person['birth']} – {person['death']}", "url":f"/people/{slug}.html", "tree":False})
     soup.title.string = name + " · Glasgow surname archive"
-    soup.select_one('meta[name="description"]')["content"] = "Sources, conclusions and unresolved questions for " + name + "."
+    description = soup.select_one('meta[name="description"]')
+    if description is None:
+        description = soup.new_tag("meta", attrs={"name": "description"})
+        soup.head.append(description)
+    description["content"] = "Sources, conclusions and unresolved questions for " + name + "."
     for node in soup.select('link[rel="canonical"], link[rel="alternate"]'):
         suffix = ".json" if node.get("type") == "application/json" else ".html"
         node["href"] = f"{catalogue.SITE_URL}/people/{slug}{suffix}"
@@ -51,11 +57,14 @@ def page_shell(person, dossier, findings, links):
             if not rid:
                 continue
             href = f'people/{links[rid]}.html' if rid in links else catalogue.WIKITREE_URL + rid
-            status = relative.get("tree_status_label") or relative.get("status_label") or "Recorded attachment; see assessment"
+            state = relative.get("status") or relative.get("tree_status") or "unmarked"
+            shown = relative.get("tree_status_label") or relative.get("status_label")
+            status = evidence_labels.normalise_status_label(state, shown) if shown else evidence_labels.label(state)
             values.append(f'<li><a href="{escape(href, quote=True)}">{escape(relative.get("name") or rid)}</a> · {escape(status)}</li>')
         if values:
             family_rows.append(f'<h3>{label}</h3><ul>{"".join(values)}</ul>')
     family_html = "".join(family_rows) or "<p>No family attachments are available in this public capture. See the case findings for documentary relationships and candidates.</p>"
+    family_html += f'<p class="evidence-guide-link"><a href="{evidence_labels.GUIDE_URL}">{evidence_labels.GUIDE_LABEL}</a></p>'
     content = f'''<header class="v3-person-header"><span class="r-kicker">Person dossier · {ident}</span>
 <div class="v3-title-line"><div><h1>{escape(name)}</h1><p>{escape(person['birth'] or 'Birth unrecorded')} – {escape(person['death'] or 'Death unrecorded')}</p>
 <div class="profile-wikitree-actions"><span>{'WikiTree destination' if person['profile_ids'] else 'WikiTree identity unresolved'}</span><a href="{escape(destination, quote=True)}">{destination_label} <small>{ident} ↗</small></a></div></div></div></header>
@@ -125,8 +134,19 @@ def publish_context(people, dossiers):
 
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("profiles", nargs="*", help="Limit materialization and shared context updates to these reviewed profile IDs")
+    args = parser.parse_args()
     manifest = read_json(MANIFEST)
     cases = manifest["cases"]
+    if args.profiles:
+        requested = set(args.profiles)
+        cases = {key: case for key, case in cases.items()
+                 if key in requested or case.get("profile_id") in requested}
+        eligible = {case.get("profile_id", key) for key, case in cases.items()
+                    if case.get("status") in {"include", "include_record"}}
+        if requested - eligible:
+            raise ValueError("Profiles require reviewed inclusion: " + ", ".join(sorted(requested - eligible)))
     wanted = {c["profile_id"] for c in cases.values() if c["status"] == "include"}
     metadata = family.profile_metadata([], wanted)
     evidence = catalogue._load_wikitree_evidence()

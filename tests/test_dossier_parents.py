@@ -63,7 +63,12 @@ class DossierParentsTests(unittest.TestCase):
         self.assertEqual([c['id'] for c in inventory], [c['id'] for c in editorial['parent_candidates']])
         expected = [item for item in editorial['parent_candidates'] if item.get('father_profile_id')]
         section = self.page(profile).select_one('#parent-candidates')
-        self.assertEqual('Possible father', section.select_one('h2').text)
+        # Authored biographies keep the candidate audit as a supporting register
+        # beneath the narrative instead of a second top-level section.
+        self.assertTrue(editorial.get('biography_sections'))
+        self.assertEqual('details', section.name)
+        self.assertIn('supporting-register', section['class'])
+        self.assertEqual('Detailed candidate research and score audit', section.find('summary', recursive=False).text)
         self.assertEqual(len(expected), len(section.select('.parent-candidate')))
         scores = {item['id']: item for item in dossier['potential_parentage']['candidates']}
         for item in expected:
@@ -74,7 +79,13 @@ class DossierParentsTests(unittest.TestCase):
                 self.assertIn(point, node.get_text())
             self.assertTrue(node.select_one(f'a.candidate-name[href="https://www.wikitree.com/wiki/{item["father_profile_id"]}"]'))
             self.assertIn('birth', node.select_one('.candidate-identity small').text.casefold())
-            self.assertIn(f'{scores[item["father_profile_id"]]["score"]}/100', node.select_one('summary').text)
+            if 'score_profile_id' in item and item['score_profile_id'] is None:
+                # Record-named placeholders are deliberately left unscored.
+                self.assertNotIn(item['father_profile_id'], scores)
+                self.assertIn('—/100', node.select_one('summary').text)
+                self.assertIn(item['score_note'], node.select_one('.candidate-score')['title'])
+            else:
+                self.assertIn(f'{scores[item["father_profile_id"]]["score"]}/100', node.select_one('summary').text)
             self.assertTrue(node.select('.candidate-support li'))
             self.assertTrue(node.select('.candidate-objection li'))
         excluded = section.select_one('#candidate-excluded-james-1702')
@@ -82,8 +93,9 @@ class DossierParentsTests(unittest.TestCase):
         self.assertIn('researched 1799 birth makes him only about twelve', excluded.text)
         self.assertIn('not probabilities', section.text)
         james = section.select_one('#candidate-larne-james-3986')
-        self.assertIn('Leading named-James lead', james.select_one('summary').text)
-        self.assertIn('24/100', james.select_one('summary').text)
+        james_item = next(item for item in inventory if item['id'] == 'larne-james-3986')
+        self.assertIn(james_item['verdict_label'], james.select_one('summary').text)
+        self.assertIn(f'{scores["Glasgow-3986"]["score"]}/100', james.select_one('summary').text)
         self.assertFalse(section.select('[data-score-profile^="Unknown-"]'))
         self.assertNotIn('Collateral comparisons', section.text)
 

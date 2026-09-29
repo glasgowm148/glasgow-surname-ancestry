@@ -1,0 +1,880 @@
+{
+  "reviewed_at": "2026-09-23",
+  "source": "Public WikiTree searchPerson API; 75 supplied death rows previously without catalogue matches",
+  "initial_queries": 75,
+  "variant_queries": 13,
+  "exact_date_queries": 80,
+  "api_errors": 0,
+  "note": "Candidate lists are public-profile leads; unavailable private matches cannot be assessed. Review notes distinguish exact matches from weak name/age overlaps.",
+  "rows": [
+    {
+      "registration_number": "D/1872/7/1001/3/156",
+      "name": "Sarah",
+      "death_date": "1872-11-08",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [],
+      "review": "Sarah, b~1798, Antrim death; exact-date candidates are US/foreign or survive past date; Bradley-21461/Alexander-22579 are born 1809/1811 and have no Irish death evidence."
+    },
+    {
+      "registration_number": "D/1880/11/1002/11/102",
+      "name": "Hanah",
+      "death_date": "1880-06-17",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [],
+      "review": "Hanah b~1813 Armagh; exact search returned no candidates."
+    },
+    {
+      "registration_number": "D/1865/11/1002/1/447",
+      "name": "Sarah",
+      "death_date": "1865-08-22",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [],
+      "review": "Sarah b~1837 Armagh; Glasgow-3721 born Virginia 1843 and Glasgow-3219 died England 1860; Gormley-671 died US 1861. All fail Irish/date fit."
+    },
+    {
+      "registration_number": "D/1885/11/1002/13/159",
+      "name": "Henry",
+      "death_date": "1885-04-05",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [],
+      "review": "Henry infant, Armagh; Glasgow-3802/736/2572 are US profiles, with Glasgow-2572 born 1880 after the 1885 death."
+    },
+    {
+      "registration_number": "D/1884/11/1002/13/63",
+      "name": "Alice",
+      "death_date": "1884-11-17",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [],
+      "review": "Alice infant, Armagh; exact search empty."
+    },
+    {
+      "registration_number": "D/1895/11/1002/17/72",
+      "name": "Henrietta",
+      "death_date": "1895-03-04",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [],
+      "review": "Henrietta infant, Armagh; exact search empty."
+    },
+    {
+      "registration_number": "D/1865/24/1004/1/118",
+      "name": "Eliza",
+      "death_date": "1865-05-05",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [
+        "Glasgow-3988"
+      ],
+      "review": "Screened Glasgow-3988: Eliza b~1796 Ballymena; Glasgow-3988 (Elizabeth, b 1802, County Antrim) is the only geographically compatible Irish candidate, but forename differs and death is blank. Glasgow-4071 is Antrim but died 1868; other close-age candidates are Scotland/US or have foreign deaths."
+    },
+    {
+      "registration_number": "D/1870/26/1004/2/89",
+      "name": "Alice",
+      "death_date": "1870-07-27",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [],
+      "review": "Alice b~1798 Ballymena; exact search empty and no reviewed candidate combines Irish locality, age and chronology."
+    },
+    {
+      "registration_number": "D/1890/19/1004/9/138",
+      "name": "Agnes",
+      "death_date": "1890-01-23",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [],
+      "review": "Agnes b~1800 Ballymena; Irish candidates Glasgow-1349/3402 are Scotland-born with blank deaths; Glasgow-876/647 died Ohio/US. No compatible Ballymena death."
+    },
+    {
+      "registration_number": "D/1881/20/1004/11/324",
+      "name": "Jane",
+      "death_date": "1881-12-13",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [
+        "Glasgow-3929"
+      ],
+      "review": "Glasgow-3929 excluded: her biography identifies her as Jane Gray, wife of John Gray, and describes their emigration to Kentucky; an Irish death in these years is incompatible with that life course."
+    },
+    {
+      "registration_number": "D/1876/23/1004/5/50",
+      "name": "Nancy",
+      "death_date": "1876-09-28",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [],
+      "review": "Nancy b~1810 Ballymena; candidates are US/Scotland/County Tyrone and none has compatible Ballymena death; Glasgow-1936/2171/2100 have documented later or foreign deaths."
+    },
+    {
+      "registration_number": "D/1890/23/1004/9/446",
+      "name": "James",
+      "death_date": "1890-06-07",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [],
+      "review": "James b~1821 Ballymena; Irish candidates are Tyrone/Antrim but blank or later deaths, while exact-age US candidates are foreign. No Ballymena fit."
+    },
+    {
+      "registration_number": "D/1877/24/1004/3/162",
+      "name": "Ann",
+      "death_date": "1877-03-14",
+      "assessment": "existing_profile",
+      "confirmed_or_possible_ids": "Cushnehan-1",
+      "exact_date_public_ids": [
+        "Cushnehan-1"
+      ],
+      "screened_candidate_ids": [
+        "Cushnehan-1"
+      ],
+      "review": "Exact death date, entry number, locality and age confirmed in Cushnehan-1 and cited original register."
+    },
+    {
+      "registration_number": "D/1897/20/1004/20/403",
+      "name": "Margaret",
+      "death_date": "1897-12-11",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [
+        "Glasgow-1363"
+      ],
+      "review": "Screened Glasgow-1363: Margaret b~1847 Ballymena; Glasgow-1363 (b 1850 Rasharkin, Antrim, death blank) is the best locality/age lead, but no death confirmation. Glasgow-1399 is Antrim-born but died Illinois 1899; other candidates are foreign."
+    },
+    {
+      "registration_number": "D/1882/24/1004/4/439",
+      "name": "Nathaniel",
+      "death_date": "1882-03-12",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [],
+      "review": "Nathaniel infant, Ballymena; exact search empty."
+    },
+    {
+      "registration_number": "D/1865/24/1004/1/152",
+      "name": "Mary",
+      "death_date": "1865-09-10",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [],
+      "review": "Mary infant, Ballymena; candidates are US/Scotland/Tyrone and none fits a Ballymena death; Glasgow-315 is Kentucky-born despite matching year."
+    },
+    {
+      "registration_number": "D/1890/20/1004/16/320",
+      "name": "Rosetta",
+      "death_date": "1890-02-18",
+      "assessment": "possible_profile",
+      "confirmed_or_possible_ids": "Glasgow-1422",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [
+        "Glasgow-1422"
+      ],
+      "review": "Glasgow-1422 is a plausible existing profile; keep death unassigned and do not create a Rosetta duplicate yet."
+    },
+    {
+      "registration_number": "D/1867/24/1004/1/290",
+      "name": "John",
+      "death_date": "1867-03-23",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [],
+      "review": "John infant, Ballymena; Irish candidates Glasgow-1821/1883 are Cookstown/Tyrone and Glasgow-3254 is New Zealand; no Ballymena fit."
+    },
+    {
+      "registration_number": "D/1876/22/1004/3/301",
+      "name": "Margaret",
+      "death_date": "1876-11-24",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [],
+      "review": "Margaret infant, Ballymena; Glasgow-2252 died 31 Oct 1876 before registration date and was born 1872; other candidates are Belfast/US or incompatible. No fit."
+    },
+    {
+      "registration_number": "D/1871/27/1005/3/355",
+      "name": "Letitia",
+      "death_date": "1871-01-30",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [],
+      "review": "Letitia b~1790 Ballymoney; exact search empty."
+    },
+    {
+      "registration_number": "D/1890/27/1005/13/100",
+      "name": "Jane",
+      "death_date": "1890-03-06",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [],
+      "review": "Jane b~1859 Ballymoney; Glasgow-1361 is Antrim-born but b 1846 (13 years early), and Glasgow-2328 is Tyrone-born with later US death; remaining candidates are Scotland/US/foreign. No Ballymoney fit."
+    },
+    {
+      "registration_number": "D/1887/31/1005/7/245",
+      "name": "John",
+      "death_date": "1887-10-18",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [],
+      "review": "John infant, Ballymoney; Glasgow-3533 is Niagara, New York-born; no Irish/local candidate."
+    },
+    {
+      "registration_number": "D/1889/27/1005/12/439",
+      "name": "Matilda",
+      "death_date": "1889-02-12",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [],
+      "review": "Matilda infant, Ballymoney; Maude-Glasgow-1629 is Kentucky-born and b 1887; Glasgow-1686 is Sarah, Tyrone-born. Wrong name/locality."
+    },
+    {
+      "registration_number": "D/1874/49/1007/17/123",
+      "name": "William",
+      "death_date": "1874-09-14",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [],
+      "review": "William b~1816 Belfast; many name matches, but closest Ireland candidates have wrong birth years/localities or blank/foreign deaths. Glasgow-612 (Ireland, b 1822) died New York 1879; Glasgow-1387 (Antrim, b 1810) lacks death evidence. No Belfast fit."
+    },
+    {
+      "registration_number": "D/1877/57/1007/10/239",
+      "name": "Rose",
+      "death_date": "1877-09-02",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [],
+      "review": "Rose b~1823 Belfast; exact search empty."
+    },
+    {
+      "registration_number": "D/1874/52/1007/12/431",
+      "name": "Mary",
+      "death_date": "1874-12-08",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [
+        "Glasgow-1403",
+        "Glasgow-1365"
+      ],
+      "review": "Screened Glasgow-1403, Glasgow-1365: Antrim births in age range; deaths blank and no Belfast evidence."
+    },
+    {
+      "registration_number": "D/1879/49/1007/25/179",
+      "name": "Margaret",
+      "death_date": "1879-01-16",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [
+        "Glasgow-1363"
+      ],
+      "review": "Screened Glasgow-1363: Antrim-born about 1850; death blank, no Belfast link."
+    },
+    {
+      "registration_number": "D/1871/49/1007/12/209",
+      "name": "Sarah",
+      "death_date": "1871-09-21",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [],
+      "review": "Returned profiles US-born or wrong surname; no Belfast evidence."
+    },
+    {
+      "registration_number": "D/1900/48/1007/54/58",
+      "name": "Margaret",
+      "death_date": "1900-09-25",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [
+        "Glasgow-1798"
+      ],
+      "review": "Screened Glasgow-1798: Irish candidate but Cookstown locality/death blank; Glasgow-2021 died 1887."
+    },
+    {
+      "registration_number": "D/1888/53/1007/7/172",
+      "name": "Thomas",
+      "death_date": "1888-05-06",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [
+        "Glasgow-1883",
+        "Glasgow-2047"
+      ],
+      "review": "Screened Glasgow-1883, Glasgow-2047: Irish age-range leads, Cookstown not Belfast; deaths blank."
+    },
+    {
+      "registration_number": "D/1873/50/1007/22/376",
+      "name": "William",
+      "death_date": "1873-04-01",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [
+        "Glasgow-2422",
+        "Glasgow-1421"
+      ],
+      "review": "Screened Glasgow-2422, Glasgow-1421: Irish age-compatible leads, but wrong locality/deaths blank."
+    },
+    {
+      "registration_number": "D/1876/57/1007/9/170",
+      "name": "Daniel",
+      "death_date": "1876-01-31",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [],
+      "review": "Only hit Australia-born."
+    },
+    {
+      "registration_number": "D/1876/50/1007/30/176",
+      "name": "Margaret",
+      "death_date": "1876-09-12",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [
+        "Glasgow-1688"
+      ],
+      "review": "Screened Glasgow-1688: Irish candidate but Cookstown/death blank; no Belfast evidence."
+    },
+    {
+      "registration_number": "D/1893/49/1007/52/209",
+      "name": "Clare",
+      "death_date": "1893-09-13",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [],
+      "review": "No matches."
+    },
+    {
+      "registration_number": "D/1893/51/1007/30/285",
+      "name": "Maggie",
+      "death_date": "1893-07-05",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [
+        "Glasgow-1805"
+      ],
+      "review": "Screened Glasgow-1805: Cookstown-born Irish lead; death blank/no Belfast evidence."
+    },
+    {
+      "registration_number": "D/1889/51/1007/26/350",
+      "name": "William",
+      "death_date": "1889-11-22",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [],
+      "review": "Glasgow-3815 died before record; others foreign/incompatible."
+    },
+    {
+      "registration_number": "D/1889/50/1007/62/348",
+      "name": "Sarah",
+      "death_date": "1889-07-05",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [
+        "Glasgow-1686",
+        "Glasgow-3438"
+      ],
+      "review": "Screened Glasgow-1686, Glasgow-3438: Irish age-compatible, but Cookstown/Armagh and deaths blank."
+    },
+    {
+      "registration_number": "D/1890/50/1007/66/264",
+      "name": "Mary",
+      "death_date": "1890-10-01",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [],
+      "review": "US-born or death after record; no Belfast fit."
+    },
+    {
+      "registration_number": "D/1892/50/1007/70/374",
+      "name": "Sarah",
+      "death_date": "1892-01-30",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [],
+      "review": "Glasgow-2414 is Kilrea-born; death blank and no Belfast proof."
+    },
+    {
+      "registration_number": "D/1897/51/1007/34/369",
+      "name": "Adam",
+      "death_date": "1897-12-30",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [],
+      "review": "No matches."
+    },
+    {
+      "registration_number": "D/1900/56/1007/6/107",
+      "name": "Samuel",
+      "death_date": "1900-02-21",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [],
+      "review": "No usable named candidate."
+    },
+    {
+      "registration_number": "D/1867/96/1008/1/383",
+      "name": "Margaret",
+      "death_date": "1867-02-15",
+      "assessment": "possible_profile",
+      "confirmed_or_possible_ids": "Unknown-766238",
+      "exact_date_public_ids": [
+        "Unknown-766238"
+      ],
+      "screened_candidate_ids": [
+        "Unknown-766238"
+      ],
+      "review": "Exact death-day candidate Unknown-766238; structured fields and biography conflict."
+    },
+    {
+      "registration_number": "D/1875/98/1009/2/344",
+      "name": "James",
+      "death_date": "1875-02-09",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [
+        "Glasgow-3129",
+        "Glasgow-1702"
+      ],
+      "review": "Screened Glasgow-3129, Glasgow-1702: Irish/Tyrone leads; one died 1882, other death blank; no exact proof."
+    },
+    {
+      "registration_number": "D/1878/99/1009/8/93",
+      "name": "Jane",
+      "death_date": "1878-08-03",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [
+        "Glasgow-3929"
+      ],
+      "review": "Glasgow-3929 excluded: her biography identifies her as Jane Gray, wife of John Gray, and describes their emigration to Kentucky; an Irish death in these years is incompatible with that life course."
+    },
+    {
+      "registration_number": "D/1865/99/1009/1/329",
+      "name": "James",
+      "death_date": "1865-04-24",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [
+        "Glasgow-3129",
+        "Glasgow-2981"
+      ],
+      "review": "Screened Glasgow-3129, Glasgow-2981: Irish leads with blank deaths; no exact death/locality evidence."
+    },
+    {
+      "registration_number": "D/1887/99/1009/12/157",
+      "name": "Mattew",
+      "death_date": "1887-11-05",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [],
+      "review": "No matches."
+    },
+    {
+      "registration_number": "D/1892/99/1009/14/60",
+      "name": "Ann",
+      "death_date": "1892-02-11",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [
+        "Glasgow-3907"
+      ],
+      "review": "Screened Glasgow-3907: Irish Inishrush lead, but 12 years late, death blank, locality unproved."
+    },
+    {
+      "registration_number": "D/1884/99/1009/10/353",
+      "name": "Jane",
+      "death_date": "1884-02-18",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [
+        "Glasgow-3929"
+      ],
+      "review": "Glasgow-3929 excluded: her biography identifies her as Jane Gray, wife of John Gray, and describes their emigration to Kentucky; an Irish death in these years is incompatible with that life course."
+    },
+    {
+      "registration_number": "D/1865/98/1009/1/167",
+      "name": "Jane",
+      "death_date": "1865-09-10",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [
+        "Glasgow-3929"
+      ],
+      "review": "Glasgow-3929 excluded: her biography identifies her as Jane Gray, wife of John Gray, and describes their emigration to Kentucky; an Irish death in these years is incompatible with that life course."
+    },
+    {
+      "registration_number": "D/1868/100/1009/2/125",
+      "name": "David",
+      "death_date": "1868-10-22",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [],
+      "review": "No matches."
+    },
+    {
+      "registration_number": "D/1868/100/1009/2/150",
+      "name": "Lilas",
+      "death_date": "1868-12-24",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [],
+      "review": "No candidate survives full-bio review: returned profiles have incompatible locality/chronology, known death before the record, or no usable identity data."
+    },
+    {
+      "registration_number": "D/1864/100/1009/1/6",
+      "name": "William",
+      "death_date": "1864-01-10",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [
+        "Glasgow-3157"
+      ],
+      "review": "Screened Glasgow-3157: Age/name and Ireland locality are broadly compatible, but no exact death date and the profile lacks proof of residence/death in the registration district."
+    },
+    {
+      "registration_number": "D/1896/99/1009/15/376",
+      "name": "Lizzie",
+      "death_date": "1896-04-30",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [],
+      "review": "No candidate survives full-bio review: returned profiles have incompatible locality/chronology, known death before the record, or no usable identity data."
+    },
+    {
+      "registration_number": "D/1872/100/1009/2/487",
+      "name": "Mary",
+      "death_date": "1872-01-25",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [],
+      "review": "No candidate survives full-bio review: returned profiles have incompatible locality/chronology, known death before the record, or no usable identity data."
+    },
+    {
+      "registration_number": "D/1881/99/1009/9/242",
+      "name": "Mary",
+      "death_date": "1881-03-06",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [
+        "Glasgow-2290"
+      ],
+      "review": "Glasgow-2290 excluded: the 1879-born Mary is named with her family in the 1901 Killycurragh census, after this 1881 death."
+    },
+    {
+      "registration_number": "D/1882/99/1009/9/455",
+      "name": "Mary",
+      "death_date": "1882-04-03",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [
+        "Glasgow-2290"
+      ],
+      "review": "Glasgow-2290 excluded: the 1879-born Mary is named with her family in the 1901 Killycurragh census, after this 1882 death."
+    },
+    {
+      "registration_number": "D/1883/99/1009/10/149",
+      "name": "George",
+      "death_date": "1883-03-02",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [],
+      "review": "No candidate survives full-bio review: returned profiles have incompatible locality/chronology, known death before the record, or no usable identity data."
+    },
+    {
+      "registration_number": "D/1887/100/1009/8/224",
+      "name": "Sarah",
+      "death_date": "1887-07-12",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [
+        "Glasgow-3438",
+        "Glasgow-1742"
+      ],
+      "review": "Glasgow-1742 excluded: the 1883-born Sarah married George Black in 1913. Glasgow-3438, born in Armagh in 1886, remains only a broad name/age lead with no Cookstown family bridge."
+    },
+    {
+      "registration_number": "D/1892/99/1009/14/124",
+      "name": "Clarke",
+      "death_date": "1892-05-20",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [],
+      "review": "No candidate survives full-bio review: returned profiles have incompatible locality/chronology, known death before the record, or no usable identity data."
+    },
+    {
+      "registration_number": "D/1898/99/1009/16/199",
+      "name": "John",
+      "death_date": "1897-12-31",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [],
+      "review": "No candidate survives full-bio review: returned profiles have incompatible locality/chronology, known death before the record, or no usable identity data."
+    },
+    {
+      "registration_number": "D/1899/99/1009/16/482",
+      "name": "Anna",
+      "death_date": "1899-08-15",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [],
+      "review": "No candidate survives full-bio review: returned profiles have incompatible locality/chronology, known death before the record, or no usable identity data."
+    },
+    {
+      "registration_number": "D/1900/99/1009/17/226",
+      "name": "Thomas",
+      "death_date": "1900-07-20",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [
+        "Glasgow-1787"
+      ],
+      "review": "Glasgow-1787 excluded: the 1898-born Thomas appears in the 1901 and 1911 Ballynasollus censuses, after this 1900 death."
+    },
+    {
+      "registration_number": "D/1893/170/1020/14/497",
+      "name": "Elizabeth",
+      "death_date": "1893-11-15",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [],
+      "review": "No candidate survives full-bio review: returned profiles have incompatible locality/chronology, known death before the record, or no usable identity data."
+    },
+    {
+      "registration_number": "D/1869/183/1022/2/430",
+      "name": "Ellen",
+      "death_date": "1869-05-17",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [],
+      "review": "No candidate survives full-bio review: returned profiles have incompatible locality/chronology, known death before the record, or no usable identity data."
+    },
+    {
+      "registration_number": "D/1890/183/1022/9/186",
+      "name": "Martha",
+      "death_date": "1890-05-08",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [],
+      "review": "No candidate survives full-bio review: returned profiles have incompatible locality/chronology, known death before the record, or no usable identity data."
+    },
+    {
+      "registration_number": "D/1884/183/1022/7/459",
+      "name": "Ellen",
+      "death_date": "1884-09-12",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [
+        "Glasgow-2885"
+      ],
+      "review": "Screened Glasgow-2885: Age/name and Ireland locality are broadly compatible, but no exact death date and the profile lacks proof of residence/death in the registration district."
+    },
+    {
+      "registration_number": "D/1888/179/1022/11/59",
+      "name": "Roseanna",
+      "death_date": "1888-04-22",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [],
+      "review": "No candidate survives full-bio review: returned profiles have incompatible locality/chronology, known death before the record, or no usable identity data."
+    },
+    {
+      "registration_number": "D/1867/183/1022/2/51",
+      "name": "William",
+      "death_date": "1866-11-17",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [
+        "Glasgow-1390"
+      ],
+      "review": "Screened Glasgow-1390: Age/name and Ireland locality are broadly compatible, but no exact death date and the profile lacks proof of residence/death in the registration district."
+    },
+    {
+      "registration_number": "D/1889/179/1022/11/358",
+      "name": "Mary",
+      "death_date": "1889-12-17",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [],
+      "review": "No candidate survives full-bio review: returned profiles have incompatible locality/chronology, known death before the record, or no usable identity data."
+    },
+    {
+      "registration_number": "D/1879/183/1022/6/164",
+      "name": "Maria",
+      "death_date": "1879-03-28",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [
+        "Glasgow-1790"
+      ],
+      "review": "Screened Glasgow-1790: Age/name and Ireland locality are broadly compatible, but no exact death date and the profile lacks proof of residence/death in the registration district."
+    },
+    {
+      "registration_number": "D/1865/179/1022/1/245",
+      "name": "Eliza",
+      "death_date": "1865-03-13",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [],
+      "review": "No candidate survives full-bio review: returned profiles have incompatible locality/chronology, known death before the record, or no usable identity data."
+    },
+    {
+      "registration_number": "D/1879/191/1023/9/27",
+      "name": "Margaret",
+      "death_date": "1879-08-27",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [],
+      "review": "No candidate survives full-bio review: returned profiles have incompatible locality/chronology, known death before the record, or no usable identity data."
+    },
+    {
+      "registration_number": "D/1887/227/1023/9/208",
+      "name": "Martha",
+      "death_date": "1887-01-15",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [],
+      "review": "No candidate survives full-bio review: returned profiles have incompatible locality/chronology, known death before the record, or no usable identity data."
+    },
+    {
+      "registration_number": "D/1898/201/1024/25/189",
+      "name": "Nannie",
+      "death_date": "1898-04-16",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [],
+      "review": "No candidate survives full-bio review: returned profiles have incompatible locality/chronology, known death before the record, or no usable identity data."
+    },
+    {
+      "registration_number": "D/1871/209/1025/2/489",
+      "name": "John",
+      "death_date": "1871-09-30",
+      "assessment": "no_catalogue_match",
+      "confirmed_or_possible_ids": "",
+      "exact_date_public_ids": [],
+      "screened_candidate_ids": [],
+      "review": "No candidate survives full-bio review: returned profiles have incompatible locality/chronology, known death before the record, or no usable identity data."
+    }
+  ],
+  "local_creation_sync": {
+    "updated": "2026-09-23",
+    "profile_ids": [
+      "Glasgow-4182",
+      "Glasgow-4183",
+      "Glasgow-4184",
+      "Glasgow-4185",
+      "Glasgow-4186",
+      "Glasgow-4187",
+      "Glasgow-4188",
+      "Glasgow-4189",
+      "Glasgow-4190",
+      "Glasgow-4191",
+      "Glasgow-4192",
+      "Glasgow-4193",
+      "Glasgow-4194",
+      "Glasgow-4195",
+      "Glasgow-4196",
+      "Glasgow-4197",
+      "Glasgow-4198",
+      "Glasgow-4199",
+      "Glasgow-4200",
+      "Glasgow-4201",
+      "Glasgow-4202",
+      "Glasgow-4203",
+      "Glasgow-4204",
+      "Glasgow-4205",
+      "Glasgow-4206",
+      "Glasgow-4207",
+      "Glasgow-4208",
+      "Glasgow-4209",
+      "Glasgow-4210",
+      "Glasgow-4211",
+      "Unknown-766785",
+      "Unknown-766786",
+      "Unknown-766788",
+      "Unknown-766789",
+      "Unknown-766790",
+      "Unknown-766797",
+      "Unknown-766798",
+      "Unknown-766800",
+      "Unknown-766801",
+      "Unknown-766802",
+      "Unknown-766805",
+      "Unknown-766806"
+    ],
+    "redirects": {
+      "Unknown-766791": "Glasgow-4194",
+      "Unknown-766792": "Glasgow-4193",
+      "Unknown-766793": "Glasgow-4195"
+    }
+  }
+}

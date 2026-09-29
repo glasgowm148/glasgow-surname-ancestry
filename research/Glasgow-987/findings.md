@@ -192,7 +192,7 @@ buried at Observatory, Cape Town. This places the defendant much more strongly
 in Cape Town's commercial/property orbit. It still proves neither Irish origin
 nor parentage, and only the files can establish whether the two cases concern
 one man. The references are KAB CSC 2/6/1/146 ref. 286 (1893) and KAB CSC
-2/1/1/350 ref. 123 (1898). A [held candidate draft](../../surname-research/new-people/1893_South_Africa_Cape_Town_Alexander_Glasgow.md)
+2/1/1/350 ref. 123 (1898). A [held candidate draft](../../research/Glasgow-4154/1893_South_Africa_Cape_Town_Alexander_Glasgow.md)
 records the duplicate audit and prevents premature attachment.
 
 The tithe/valuation acreage pattern should not be overstated as sibling proof.
@@ -218,3 +218,7 @@ The original [30 July 1861 deed, B465](https://www.familysearch.org/ark:/61903/3
 See the [complete original-deed table and title-fraction assessment](/people/glasgow-951.html#family-network). Eliza Jane and Mary of Rochester are the carpenter’s eldest and second eldest daughters; their ninth shares do not fit a simple division of Robert’s sixth for James’s children. The carpenter’s identity with Robert’s brother remains a property-based hypothesis.
 
 The [original C298 deed, 15 September 1869](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LQTY-K), registered 1 July 1870, identifies **Mary Black, formerly Mary Glasgow, as Robert’s sister**, and names children John Black (wife Martha) and Rose Ann Black at Drumoolish, Jane Miller (wife of Robert Miller), Agnes and deceased Elizabeth Black at Newburgh, and Thomasina Montgomery (wife of Mathew) at Legrand, Iowa. This establishes the Black collateral branch; it does not name the siblings’ parents. The original C114 identifies James’s son Alexander as a Rochester express agent, whose identity with Alexander-951 remains unproved.
+
+### 17 September 2026: widow Mary Ann's remarriage and the Ballydonnelly mill (Source findings)
+
+A 30 March 1889 Exchequer judgment (creditor Robert Wilson, trading as Louden & Wilson, Belfast) describes the debtor as **Mary Ann Smith otherwise Glasgow, wife of John Smith, formerly of Rosedermot otherwise Rosedemate**, holding the Lisnagaver tenancy and the Ballydonnelly flax-mill plot (rent £1 1s 8d) under "the representative of the late Robert B. Harvey Esq." ([FamilySearch 3Q9M-CSKS-13HQ-D](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKS-13HQ-D)). This documents that Thomas's widow **Mary Ann (McCracken) Glasgow remarried a John Smith** and moved to Rosedermot, and confirms the Ballydonnelly flax mill was the Thomas branch's holding. Thomas himself died **21 June 1870** at Lisnagaver (Will Calendar and the 21 June index; a "24 May 1870" FamilySearch index entry is a divergent transcription). Full context: `research/Glasgow-951/research-log-2026-09-17-live.md`.

@@ -26,6 +26,18 @@ class SiteExperienceTests(unittest.TestCase):
         self.assertNotEqual(helper._metadata_signature(old, helper.DESCRIPTION_RE), helper._metadata_signature(changed, helper.DESCRIPTION_RE))
         self.assertNotEqual(helper._metadata_signature(old, helper.DESCRIPTION_RE), helper._metadata_signature('', helper.DESCRIPTION_RE))
 
+    def test_research_header_insertion_preserves_leading_browse_block(self):
+        helper = module('repair_research_groups')
+        browse = '<!-- static-browse:start --><p>Browse</p><!-- static-browse:end -->'
+        header = '<header class="r-page-head"><h1>Families</h1></header>'
+        page = '<header>Site</header><main>' + browse + header + '</main>'
+        section = '<section id="research-studies">Studies</section>'
+        updated = helper.insert_after_page_header(page, section)
+        self.assertEqual(page.replace(header, header + section), updated)
+        self.assertEqual(1, updated.count(section))
+        with self.assertRaises(ValueError):
+            helper.insert_after_page_header('<main></main><header>Outside</header>', section)
+
     def test_generated_presentation_contracts(self):
         summary, failures = module('audit_site_experience').audit()
         self.assertGreater(summary['experience_checks'], 25)
@@ -73,7 +85,14 @@ class SiteExperienceTests(unittest.TestCase):
         self.assertNotIn('larne-kilwaughter', registry['glasgow-867']['branches'])
         self.assertNotIn('larne-kilwaughter', registry['glasgow-1371']['branches'])
         self.assertEqual('Hugh Glasgow', registry['glasgow-1503']['name'])
-        self.assertNotIn('glasgow-1499', larne['members'])
+        # Glasgow-1503 now redirects to Glasgow-1499, the canonical Hugh of Larne
+        # (research/Glasgow-1499/findings.md): only the surviving profile is a member.
+        redirects = json.loads((ROOT / 'data/wikitree/live-profile-overrides.json').read_text())['redirects']
+        canonical_hugh = redirects['Glasgow-1503'].casefold()
+        self.assertEqual('glasgow-1499', canonical_hugh)
+        self.assertIn(canonical_hugh, larne['members'])
+        self.assertNotIn('glasgow-1503', larne['members'])
+        self.assertEqual('Hugh Glasgow', registry[canonical_hugh]['name'])
         packed = json.loads((ROOT / 'www/assets/v3/registry-packed.json').read_text())
         packed_people = {row[packed['fields'].index('slug')]: dict(zip(packed['fields'], row)) for row in packed['rows']}
         self.assertEqual('Hugh Glasgow', packed_people['glasgow-1503']['name'])
@@ -87,7 +106,10 @@ class SiteExperienceTests(unittest.TestCase):
             soup = BeautifulSoup((ROOT / f'www/branches/{branch}/index.html').read_text(), 'html.parser')
             section = soup.select_one('#local-family-overview')
             self.assertIsNotNone(section)
-            self.assertEqual(5, len(section.select('.local-family-card')))
+            # Structured study stories now own the cluster count (including
+            # explicitly uncertain clusters), rather than the old five-card layout.
+            story = json.loads((ROOT / f'tools/study_stories/{branch}.json').read_text())
+            self.assertEqual(len(story['clusters']), len(section.select('.local-family-card')))
             page_titles = {node.get_text(' ', strip=True) for node in section.select('.local-family-card h3')}
             self.assertTrue(set(titles) <= page_titles)
             for card in section.select('.local-family-card'):

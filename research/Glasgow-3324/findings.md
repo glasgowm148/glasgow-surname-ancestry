@@ -69,3 +69,15 @@ Profile prose and trees remain leads; inspect the cited record before treating a
 ### External source links present
 
 - [https://web.archive.org/web/20101124184247/http://lifesweaving.com/Glasgow/Kilwaughter/Timeline.html](https://web.archive.org/web/20101124184247/http://lifesweaving.com/Glasgow/Kilwaughter/Timeline.html)
+
+
+## Widow’s estate association — 21 September 2026
+
+| Source | Finding | Assessment |
+| --- | --- | --- |
+| [Armorial Sculptured Stones of the County Antrim, Ulster Journal of Archaeology, second series 6 (1900), p.47](https://archive.org/details/ulsterjournalofa06ulstiala/page/47/mode/1up), page image inspected | William Glasgow died 5 October 1816 aged 53; his wife Elizabeth died 17 September 1832 aged 60. Names daughters Jane Shutter, Eliza and Mary. | Published monument transcription: direct wife/daughter wording and age-derived birth estimate. Not a contemporary birth register; does not give Elizabeth’s maiden surname. |
+| [Registry of Deeds memorial 548257, p.522](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJ7-9935-Y), 8 November 1823, registered 17 May 1826, original image 359 inspected | Elizabeth Glasgow of Larne, widow, administratrix of Jane Stewart late of Curran, County Antrim, deceased, assigned a mortgage to Royal Navy lieutenant Roger Brown Curry. Newtown south-side tenement: 21 ft front by 189 ft depth, lane to Larne Quay east, James Mitchell west. Witnesses William Walsh McNeill, attorney, and James Glasgow, writing clerk, Larne. | New estate association and specific title route. Administratrix is an office, not a kinship statement. Widow identification remains strong but unproved; writing clerk’s identity and relationship unresolved. |
+
+## Priority actions
+
+Read Jane Stewart’s administration and the earlier mortgage recited in 548257. Compare the 1824 Elizabeth renewal with this widow and William’s 1815 will without assuming the same property: the assignment is on the south side of Newtown, while the 1779/1832 James–Anne–Jane tenement is on the north side. Preserve these title chains separately.

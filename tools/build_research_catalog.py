@@ -13,10 +13,16 @@ import json
 from math import asin, cos, radians, sin, sqrt
 from pathlib import Path
 import re
+import unicodedata
 from urllib.parse import quote, urlparse
 
 try:
     from site_analytics import with_analytics
+    from public_privacy import from_sources as privacy_from_sources, likely_living as privacy_likely_living, evidence_envelope, public_capture
+    from records_page import records_body, records_assets
+    import evidence_labels
+    from catalogue_theme import CATALOGUE_ASSET_VERSION, write_catalogue_css
+    from catalogue_search_markup import hero_html as catalogue_hero_html, search_panel_html as catalogue_search_panel_html
     from project_paths import (
         RESEARCH_DIR, WEB_DIR, WIKITREE_PROFILE_EVIDENCE,
         WIKITREE_CATALOGUE_PROFILE_AUDIT, WIKITREE_CATALOGUE_PROFILE_LINKS,
@@ -29,6 +35,11 @@ try:
     )
 except ModuleNotFoundError:  # Imported as tools.build_research_catalog by tests.
     from tools.site_analytics import with_analytics
+    from tools.public_privacy import from_sources as privacy_from_sources, likely_living as privacy_likely_living, evidence_envelope, public_capture
+    from tools.records_page import records_body, records_assets
+    from tools import evidence_labels
+    from tools.catalogue_theme import CATALOGUE_ASSET_VERSION, write_catalogue_css
+    from tools.catalogue_search_markup import hero_html as catalogue_hero_html, search_panel_html as catalogue_search_panel_html
     from tools.project_paths import (
         RESEARCH_DIR, WEB_DIR, WIKITREE_PROFILE_EVIDENCE,
         WIKITREE_CATALOGUE_PROFILE_AUDIT, WIKITREE_CATALOGUE_PROFILE_LINKS,
@@ -49,7 +60,6 @@ DATA_DIR = WEB_DIR / "data"
 RECORDS_DIR = WEB_DIR / "records"
 PLACES_DIR = WEB_DIR / "places"
 GENERATED_MARKER = ".generated-by-build-research-catalog"
-CATALOGUE_ASSET_VERSION = "20260915-light-palette-2"
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 PROFILE_UPDATE_QUEUE = PROJECT_ROOT / "data/wikitree/profile-update-queue.json"
 PROFILE_UPDATE_REGISTER = PROJECT_ROOT / "surname-research/to-update.md"
@@ -288,6 +298,13 @@ def _canonical_marriage_surname(value: str) -> str:
     return surname
 
 
+def _marriage_surname_key(value: str) -> str:
+    """Mirror catalogue_search.js normaliseLiteral for marriage-surname grouping."""
+    text = unicodedata.normalize("NFD", str(value or ""))
+    text = "".join(char for char in text if not unicodedata.combining(char)).lower()
+    return re.sub(r"[^a-z0-9]+", " ", text).strip()
+
+
 def _relation_birth_surnames(relation: dict, people_by_profile: dict[str, dict]) -> set[str]:
     profile_id = str(relation.get("id") or "").strip()
     linked = people_by_profile.get(profile_id.casefold())
@@ -309,17 +326,28 @@ def _marriage_surname_values(people: list[dict], catalogue_href: str = "/catalog
         for person in people
         for profile_id in person.get("profile_ids", [])
     }
+    # Group by the same literal normalisation the catalogue search applies to
+    # ?marriageSurname= (case, accents and punctuation folded), so each bar's
+    # count equals the number of results its link returns.
     surname_people: dict[str, set[str]] = defaultdict(set)
+    spellings: dict[str, Counter] = defaultdict(Counter)
     for person in people:
         if not any(_GLASGOW_SURNAME.fullmatch(name or "") for name in person.get("last_names_at_birth", [])):
             continue
         for spouse in person.get("spouses", []):
             for surname in _relation_birth_surnames(spouse, people_by_profile):
-                if surname:
-                    surname_people[surname].add(person["catalogue_id"])
+                key = _marriage_surname_key(surname)
+                if key:
+                    surname_people[key].add(person["catalogue_id"])
+                    spellings[key][surname] += 1
+    labelled = [
+        # Label with the most common spelling; on ties avoid stray capitals ("WIlson", "ROSS").
+        (min(spellings[key].items(), key=lambda item: (-item[1], bool(re.search(r"[A-Z]{2}", item[0])), item[0]))[0], members)
+        for key, members in surname_people.items()
+    ]
     return [
         (surname, len(members), f'<a href="{catalogue_href}?marriageSurname={quote(surname)}#catalogue-results">{escape(surname)}</a>')
-        for surname, members in sorted(surname_people.items(), key=lambda item: (-len(item[1]), item[0]))
+        for surname, members in sorted(labelled, key=lambda item: (-len(item[1]), item[0]))
     ]
 
 
@@ -345,6 +373,91 @@ def sync_generated_marriage_statistics() -> None:
         if count != 1:
             raise RuntimeError(f"Marriage statistics panel not found in {path}")
         path.write_text(updated, encoding="utf-8")
+
+
+def sync_generated_profile_work_status() -> dict[str, int]:
+    """Refresh profile-work classifications and their small public mirrors.
+
+    This is deliberately narrower than a catalogue build: it reads the
+    maintained profile audit, updates only work-status fields in existing
+    public records, and refreshes the affected catalogue copy.
+    """
+    audit_entries = _load_catalogue_profile_audit().get("entries", {})
+    people_path = DATA_DIR / "people.json"
+    people_payload = json.loads(people_path.read_text(encoding="utf-8"))
+    people = people_payload["people"]
+    changed_ids = set()
+    for person in people:
+        audit = audit_entries.get(person["catalogue_id"], {})
+        status = _profile_work_status(person, audit)
+        candidate_count = len(audit.get("candidates") or [])
+        if (person.get("profile_work_status") != status
+                or person.get("profile_work_candidate_count") != candidate_count):
+            person["profile_work_status"] = status
+            person["profile_work_candidate_count"] = candidate_count
+            changed_ids.add(person["catalogue_id"])
+
+    if changed_ids:
+        people_path.write_text(
+            json.dumps(people_payload, ensure_ascii=False, separators=(",", ":")) + "\n",
+            encoding="utf-8",
+        )
+        search_path = DATA_DIR / "catalogue-search-index.json"
+        search_rows = json.loads(search_path.read_text(encoding="utf-8"))
+        by_id = {person["catalogue_id"]: person for person in people}
+        for row in search_rows:
+            person = by_id.get(row.get("id"))
+            if person is not None:
+                row["profile_work_status"] = person["profile_work_status"]
+                row["profile_work_candidate_count"] = person["profile_work_candidate_count"]
+        search_text = json.dumps(search_rows, ensure_ascii=False, separators=(",", ":")) + "\n"
+        search_path.write_text(search_text, encoding="utf-8")
+        (DATA_DIR / "people-index.js").write_text(
+            "window.glasgowPeopleIndex=" + search_text,
+            encoding="utf-8",
+        )
+
+    counts = Counter(
+        person["profile_work_status"] for person in people if not person.get("profile_ids")
+    )
+    missing_count = sum(count for status, count in counts.items() if status != "linked_free_space")
+    workbench = (
+        f"{missing_count:,} documentary identities without confirmed destinations: "
+        f"{counts['creation_ready']:,} creation-ready, "
+        f"{counts['existing_profile_candidate']:,} possible existing-profile matches on HOLD, "
+        f"{counts['identity_hold']:,} identity-insufficient HOLD, "
+        f"{counts['free_space_only']:,} pre-1500 subjects missing an individual Space page, and "
+        f"{counts['unreviewed']:,} awaiting review"
+    )
+    caution = (
+        f"Profile work is consolidation-first: {missing_count:,} documentary identities lack a confirmed WikiTree destination, comprising "
+        f"{counts['creation_ready']:,} creation-ready after duplicate review, "
+        f"{counts['existing_profile_candidate']:,} on HOLD with possible existing-profile matches, "
+        f"{counts['identity_hold']:,} on HOLD because the records do not yet define a safely distinct person, "
+        f"{counts['free_space_only']:,} pre-1500 subjects still lacking an individual Space page, and "
+        f"{counts['unreviewed']:,} awaiting identity review. {counts['linked_free_space']:,} pre-1500 subjects are already linked to their canonical individual Space pages and are excluded from that work queue."
+    )
+    for path in (WEB_DIR / "catalogue.html", WEB_DIR / "catalogue" / "index.html", WEB_DIR / "catalogue" / "advanced.html"):
+        html = path.read_text(encoding="utf-8")
+        updated = re.sub(
+            r"\d{1,3}(?:,\d{3})* documentary identities without confirmed destinations: .*? awaiting review",
+            workbench,
+            html,
+        )
+        updated = re.sub(
+            r"Profile work is consolidation-first: .*?(?= A record fact is not by itself a person to create\.)",
+            caution,
+            updated,
+        )
+        # The summary number immediately precedes its label in generated markup.
+        updated = re.sub(
+            r"<div><strong>\d{1,3}(?:,\d{3})*</strong><span>Creation-ready profiles</span></div>",
+            f'<div><strong>{counts["creation_ready"]:,}</strong><span>Creation-ready profiles</span></div>',
+            updated,
+        )
+        if updated != html:
+            path.write_text(updated, encoding="utf-8")
+    return {"changed_people": len(changed_ids), "creation_ready": counts["creation_ready"]}
 
 
 def _catalogue_statistics(
@@ -443,7 +556,7 @@ def _catalogue_record_types(person: dict) -> list[str]:
         ("Marriages", r"\b(?:marriage|married|wedding|spouse|groom|bride)"),
         ("Deaths and burials", r"\b(?:death|died|burial|buried|grave|cemetery)"),
         ("Census and households", r"\b(?:census|household|householder)"),
-        ("Wills and probate", r"\b(?:will|probate|testament|administration|executor)"),
+        ("Wills and probate", r"\b(?:will|probate|testament|administration|executor)\b"),
         ("Land and valuation", r"\b(?:lease|rent|tenant|tithe|valuation|griffith|deed|land)"),
         ("Church records", r"\b(?:church|parish|presbyterian|session|communicant)"),
         ("Military records", r"\b(?:military|army|navy|soldier|officer|service record)"),
@@ -459,7 +572,26 @@ def _catalogue_record_types(person: dict) -> list[str]:
 
 def _evidence_badge(value: str, label: str | None = None) -> str:
     status = re.sub(r"[^a-z0-9]+", "-", (value or "unknown").casefold()).strip("-") or "unknown"
+    if label is None:
+        key = str(value or "unknown")
+        if key in evidence_labels.RECORD_QUALITY:
+            label = evidence_labels.quality_label(key)
+        elif key.casefold().replace(" ", "_") in evidence_labels.STATES or key.casefold() in evidence_labels.ALIASES:
+            label = evidence_labels.label(key)
     return f'<span class="evidence-badge evidence-{escape(status, quote=True)}">{escape(label or value or "Unclassified")}</span>'
+
+
+def _catalogue_legend_html() -> str:
+    """The catalogue legend, taken from the shared evidence vocabulary."""
+    states = ("proved", "strongly_supported", "probable", "possible", "unmarked")
+    terms = [(evidence_labels.label(key), evidence_labels.meaning(key)) for key in states]
+    terms += [(term, evidence_labels.RECORD_EVIDENCE[term]) for term in ("Profile lead", "Estimated")]
+    cells = "".join(f'<p><strong>{escape(term)}</strong><span>{escape(text)}</span></p>' for term, text in terms)
+    return (
+        f'<section class="catalogue-legend"><h2>{escape(evidence_labels.GUIDE_LABEL)}</h2><div class="legend-grid">{cells}</div>'
+        f'<p class="legend-warning">{escape(evidence_labels.CLUSTER_NOTE)}</p>'
+        f'<p class="legend-guide"><a href="{evidence_labels.GUIDE_URL}">Read the full evidence guide</a></p></section>'
+    )
 
 
 def _load_research_findings(profile_ids: list[str]) -> list[dict]:
@@ -473,6 +605,8 @@ def _load_research_findings(profile_ids: list[str]) -> list[dict]:
         )]))
     findings = []
     for profile_id in profile_ids:
+        if manifest.exists() and aliases.get(profile_id, {}).get("status") == "covered":
+            continue
         path = RESEARCH_DIR / profile_id / "findings.md"
         if not path.exists():
             continue
@@ -3079,13 +3213,21 @@ def _descendant_counter(edges: list[list[str]], known: dict[str, int]):
 
 
 def _estimated_birth(rows: list[dict]) -> tuple[str, str]:
+    if any(str(row.get("birth_status") or "").casefold() == "unknown" for row in rows):
+        return "", ""
     dated = sorted((row for row in rows if isinstance(row.get("filter_year"), (int, float))), key=lambda row: row["filter_year"])
+    death_record = re.compile(r"\b(?:death|died|burial|buried|probate|will|testament|administration)\b", re.I)
     for row in dated:
+        if death_record.search(row.get("association", "")):
+            continue
         if re.search(r"\b(?:birth|born|bapti[sz]|christen)", f"{row.get('association', '')} {row.get('note', '')}", re.I):
             year = round(row["filter_year"])
             return f"c. {year} (estimated)", f"Estimated from a birth or baptism record ({row.get('year')})."
     for row in dated:
-        if not re.search(r"\b(?:child|children|minor|infant)\b", f"{row.get('association', '')} {row.get('note', '')}", re.I):
+        context = f"{row.get('association', '')} {row.get('note', '')}"
+        if death_record.search(row.get("association", "")):
+            continue
+        if not re.search(r"\b(?:child|children|minor|infant)\b", context, re.I):
             year = round(row["filter_year"]) - 18
             return f"c. {year} (estimated)", f"Estimated as age 18 at the earliest known adult record ({row.get('year')})."
     return "", ""
@@ -3215,18 +3357,7 @@ def _source_for_record(row: dict, catalogue_id: str) -> dict:
 
 
 def _likely_living(metas: list[dict], rows: list[dict]) -> bool:
-    if any(meta.get("likely_living") for meta in metas):
-        return True
-    death_values = [meta.get("death_date") or meta.get("death_location") for meta in metas]
-    death_values += [row.get("death_date") or row.get("death_location") for row in rows]
-    if any(death_values):
-        return False
-    birth_years = []
-    for value in [meta.get("birth_date") for meta in metas] + [row.get("birth_date") for row in rows]:
-        match = re.match(r"^(\d{4})", value or "")
-        if match and match.group(1) != "0000":
-            birth_years.append(int(match.group(1)))
-    return bool(birth_years and min(birth_years) >= date.today().year - 120)
+    return privacy_likely_living(*metas, *rows)
 
 
 def _load_wikitree_evidence() -> dict:
@@ -3239,6 +3370,7 @@ def _load_wikitree_evidence() -> dict:
 
 
 def _build_people(records: list[dict], profiles: dict[str, dict], edges: list[list[str]], descendant_counts: dict[str, int], wikitree_evidence: dict | None = None, profile_seed_ids: set[str] | None = None) -> list[dict]:
+    privacy = privacy_from_sources(wikitree_evidence or {}, profiles)
     evidence_profiles = (wikitree_evidence or {}).get("profiles", {})
     evidence_numeric_ids = {
         str(capture.get("profile_fields", {}).get("Id")): profile_id
@@ -3252,6 +3384,8 @@ def _build_people(records: list[dict], profiles: dict[str, dict], edges: list[li
         field = "Father" if role == "father" else "Mother"
         for profile_id in profile_ids:
             capture = evidence_profiles.get(profile_id, {})
+            if not public_capture(capture):
+                continue
             profile_fields = capture.get("profile_fields", {})
             numeric_id = str(profile_fields.get(field) or "")
             if not numeric_id or numeric_id == "0":
@@ -3332,6 +3466,11 @@ def _build_people(records: list[dict], profiles: dict[str, dict], edges: list[li
                 values = _unique(_format_date(row.get(f"{kind}_date", ""), row.get(f"{kind}_status", "")) for row in rows)
             if values:
                 return " / ".join(values), ""
+            if kind == "birth" and any(
+                str(row.get("birth_status") or "").casefold() == "unknown"
+                for row in rows
+            ):
+                return "", ""
             return _estimated_birth(rows) if kind == "birth" else ("", "")
 
         birth, birth_note = vital("birth")
@@ -3402,6 +3541,10 @@ def _build_people(records: list[dict], profiles: dict[str, dict], edges: list[li
             "gender": next((meta.get("gender") for meta in metas if meta.get("gender")), next((row.get("gender") for row in rows if row.get("gender")), "")) or inferred_gender(name, rows),
             "birth": birth,
             "birth_note": birth_note,
+            "_birth_estimate_suppressed": any(
+                str(row.get("birth_status") or "").casefold() == "unknown"
+                for row in rows
+            ),
             "birth_location": birth_location,
             "birth_location_note": birth_location_note,
             "death": death,
@@ -3421,7 +3564,7 @@ def _build_people(records: list[dict], profiles: dict[str, dict], edges: list[li
             "derived_children_count": derived_children_count,
             "outside_export_parent_references": outside_parent_refs,
             "relationship_warnings": relationship_warnings,
-            "likely_living": _likely_living(metas, rows),
+            "likely_living": _likely_living(metas, rows) or any(profile_id.casefold() in privacy.blocked for profile_id in profile_ids),
             "profile_information": [{
                 "id": profile_id,
                 "full_name": meta.get("full_name", ""),
@@ -3441,7 +3584,7 @@ def _build_people(records: list[dict], profiles: dict[str, dict], edges: list[li
                 for profile_id in profile_ids if profile_id in evidence_profiles
             ],
         }
-        people.append(person)
+        people.append(privacy.project(person))
     return sorted(people, key=lambda person: (person["name"].casefold(), person["birth"], person["catalogue_id"]))
 
 
@@ -3467,6 +3610,67 @@ def _page(
     if asset_prefix != "/":
         html = html.replace('href="/', f'href="{asset_prefix}').replace('src="/', f'src="{asset_prefix}')
     return with_analytics(html)
+
+
+def _unified_records_page(title: str, description: str, body: str) -> str:
+    """Render the records catalogue inside the maintained research shell.
+
+    The record search remains generated here, rather than relying on the
+    post-build repair, so a catalogue rebuild cannot restore its legacy page.
+    """
+    shell = (WEB_DIR / "sources" / "index.html").read_text(encoding="utf-8")
+    shell_main = re.search(r"<main\b[\s\S]*?</main>", shell, flags=re.I)
+    if not shell_main:
+        raise ValueError("unified research shell has no main container")
+    page = shell[:shell_main.start()] + f'<main id="main" class="r-main v3-records">{body}</main>' + shell[shell_main.end():]
+    page = re.sub(r'<body\b[^>]*>', '<body data-r-integrated="3" class="g-unified g-kind-research r-v2 v3-site" data-g-path="/records/index.html" data-v3="true" data-repair="3.1-repair-1">', page, count=1, flags=re.I)
+    metadata = (
+        (r"<title\b[^>]*>[\s\S]*?</title>", f"<title>{escape(title)} · Glasgow</title>"),
+        (r'<meta\b(?=[^>]*\bname=["\']description["\'])[^>]*>', f'<meta name="description" content="{escape(description, quote=True)}">'),
+        (r'<link\b(?=[^>]*\brel=["\']canonical["\'])[^>]*>', f'<link rel="canonical" href="{SITE_URL}/records/">'),
+    )
+    for pattern, value in metadata:
+        if re.search(pattern, page, flags=re.I):
+            page = re.sub(pattern, value, page, count=1, flags=re.I)
+        else:
+            page = re.sub(r"</head>", value + "</head>", page, count=1, flags=re.I)
+    return with_analytics(records_assets(page, WEB_DIR))
+
+
+def _unified_data_page(body: str) -> str:
+    """Keep the generated data guide in the site's maintained navigation shell."""
+    css = WEB_DIR / "assets" / "data" / "site.css"
+    css.parent.mkdir(parents=True, exist_ok=True)
+    css.write_text((PROJECT_ROOT / "tools" / "data-site.css").read_text(encoding="utf-8"), encoding="utf-8")
+    page = (WEB_DIR / "resources" / "index.html").read_text(encoding="utf-8")
+    page = re.sub(
+        r"<main\b[^>]*>[\s\S]*?</main>",
+        lambda _: f'<main class="data-page" id="main">{body}</main>',
+        page,
+        count=1,
+        flags=re.I,
+    )
+    page = re.sub(
+        r'<body\b[^>]*>',
+        '<body data-r-integrated="3" class="g-unified g-kind-about v3-site" data-g-path="/data/index.html" data-v3="true" data-repair="3.1-repair-1">',
+        page,
+        count=1,
+        flags=re.I,
+    )
+    page = re.sub(r"<title\b[^>]*>[\s\S]*?</title>", "<title>Research data · Glasgow surname archive</title>", page, count=1, flags=re.I)
+    page = re.sub(
+        r'<meta\b(?=[^>]*\bname=["\']description["\'])[^>]*>',
+        '<meta name="description" content="Machine-readable Glasgow surname research datasets and interpretation rules.">',
+        page,
+        count=1,
+        flags=re.I,
+    )
+    page = page.replace('</head>', '<link rel="canonical" href="https://glasgow.phenotype.dev/data"><link rel="stylesheet" href="/assets/data/site.css"></head>', 1)
+    page = page.replace(' data-g-path="/resources/index.html"', ' data-g-path="/data/index.html"', 1)
+    page = page.replace('href="/about/" aria-current="page"', 'href="/about/"', 1)
+    page = page.replace('href="/data/">Data &amp; downloads</a>', 'href="/data/" aria-current="page">Data &amp; downloads</a>', 1)
+    page = page.replace('<strong>Research resources</strong>', '<strong>Data &amp; downloads</strong>', 1)
+    return with_analytics(page)
 
 
 def _preserve_unified_person_shell(existing: str, generated: str) -> str:
@@ -3628,8 +3832,7 @@ def _wikitree_evidence_html(captures: list[dict], id_to_slug: dict[str, str]) ->
 {f'<h3>Record-bearing passages</h3><ul class="record-passages">{passage_rows}</ul>' if passage_rows else ''}
 <h3>Profile source citations</h3>{f'<ol>{"".join(source_rows)}</ol>' if source_rows else '<p>No structured source citation was recoverable from the profile biography.</p>'}
 {f'<h3>Other external links in the profile</h3><ul>{external_rows}</ul>' if external_rows else ''}
-<details><summary>Full captured biography text</summary><pre class="profile-text">{escape(capture.get('biography_text') or 'No public biography text was returned.')}</pre></details>
-<details><summary>Raw WikiTree biography markup</summary><pre class="profile-text">{escape(capture.get('biography_wikitext') or 'No public biography markup was returned.')}</pre></details></section>""")
+<p class="privacy-note">Raw profile narratives are retained privately. Public citations and historical profile fields are research leads; inspect the original records.</p></section>""")
     return "".join(sections)
 
 
@@ -4518,6 +4721,8 @@ def _profile_update_html(update: dict | None) -> str:
 
 def _profile_creation_vital(person: dict) -> dict[str, str]:
     """Return one defensible vital field for WikiTree creation and matching."""
+    if person.get("_birth_estimate_suppressed"):
+        return {}
     for kind in ("birth", "death"):
         value = str(person.get(kind) or "").strip()
         match = re.search(r"\b(1\d{3}|20\d{2})\b", value)
@@ -4624,7 +4829,7 @@ def _profile_workbench_html(person: dict, audit: dict, audited_at: str) -> str:
     action = audit.get("recommended_action") or "needs_sourced_draft"
     candidates = audit.get("candidates", [])
     identity_note = audit.get("identity_note") or "No confirmed WikiTree profile is linked."
-    if action == "hold" and not candidates:
+    if action == "hold" and not candidates and not audit.get("identity_note"):
         identity_note = "The record does not yet define a safely distinct person. Consolidate it with compatible records before considering profile creation."
     candidate_cards = "".join(
         f'<article class="profile-match-card"><div><h3><a href="{escape(item.get("url") or WIKITREE_URL + quote(item["profile_id"]), quote=True)}" target="_blank" rel="noopener noreferrer">{escape(item.get("name") or item["profile_id"])}</a></h3>'
@@ -4633,10 +4838,17 @@ def _profile_workbench_html(person: dict, audit: dict, audited_at: str) -> str:
         f'<div class="profile-match-actions"><a class="button secondary" href="../compare.html?a={quote(person["catalogue_id"], safe="")}&amp;b={quote(item["profile_id"], safe="")}" target="_blank" rel="noopener">Compare with record</a></div></article>'
         for item in candidates
     )
-    audit_summary = (
-        f'<p class="workbench-audit"><strong>Live duplicate audit:</strong> checked {escape(audited_at or "date not recorded")} '
-        f'across {int(audit.get("searched_profile_count") or 0):,} exact-name or surname-variant search results.</p>'
-    )
+    if audit.get("review_method"):
+        reviewed = escape(audit.get("reviewed_at") or audited_at or "date not recorded")
+        audit_summary = (
+            f'<p class="workbench-audit"><strong>{escape(audit["review_method"])}:</strong> '
+            f'reviewed {reviewed}; see the research notes for the candidate comparison.</p>'
+        )
+    else:
+        audit_summary = (
+            f'<p class="workbench-audit"><strong>Live duplicate audit:</strong> checked {escape(audited_at or "date not recorded")} '
+            f'across {int(audit.get("searched_profile_count") or 0):,} exact-name or surname-variant search results.</p>'
+        )
     vital = _profile_creation_vital(person)
     missing_external_sources = [
         record for record in person.get("records", [])
@@ -5110,66 +5322,7 @@ def _people_list_page(title: str, introduction: str, people: list[dict], canonic
 
 
 def _write_assets() -> None:
-    css = """*{box-sizing:border-box}:root{color-scheme:dark;--bg:#07100e;--panel:#101a17;--line:#2b3a35;--text:#eef4f1;--muted:#a7b4af;--teal:#65c9b5;--gold:#d4af37}body{margin:0;background:radial-gradient(circle at 75% 0,#12352d 0,transparent 32rem),var(--bg);color:var(--text);font:16px/1.55 Inter,system-ui,sans-serif}a{color:var(--teal)}header{display:flex;justify-content:space-between;gap:24px;align-items:center;padding:18px max(24px,calc((100% - 1180px)/2));border-bottom:1px solid var(--line);background:#07100eee;position:sticky;top:0;z-index:2}header a{text-decoration:none}.brand{color:#fff;font-weight:850}nav{display:flex;flex-wrap:wrap;gap:18px}main,footer{width:min(1180px,calc(100% - 32px));margin:auto}main{padding:52px 0 70px}footer{border-top:1px solid var(--line);padding:24px 0 46px;color:var(--muted);font-size:.85rem}h1{font:500 clamp(2.3rem,6vw,4.8rem)/.98 Georgia,serif;margin:.15em 0}h2{margin-top:42px;font:600 1.5rem Georgia,serif}.kicker{color:var(--gold);text-transform:uppercase;letter-spacing:.16em;font-size:.72rem;font-weight:850}.lede{max-width:850px;color:var(--muted);font-size:1.08rem}.crumb{font-size:.82rem;color:var(--muted)}.actions{display:flex;gap:10px;flex-wrap:wrap;margin:24px 0}.button{padding:10px 14px;border-radius:9px;background:var(--teal);color:#07100e;text-decoration:none;font-weight:800}.button.secondary{color:var(--text);background:var(--panel);border:1px solid var(--line)}.facts{display:grid;grid-template-columns:minmax(140px,220px) 1fr;border:1px solid var(--line);border-radius:14px;overflow:hidden;background:var(--panel)}.facts dt,.facts dd{margin:0;padding:11px 14px;border-bottom:1px solid var(--line)}.facts dt{color:var(--muted);font-weight:700}.tag{display:inline-block;margin:3px 5px 3px 0;padding:5px 9px;border:1px solid #47625a;border-radius:999px;background:#13231f}.notice{padding:14px 18px;border-left:3px solid var(--gold);background:#1a1c13}.table-wrap{overflow:auto;border:1px solid var(--line);border-radius:13px}table{width:100%;border-collapse:collapse;background:var(--panel);font-size:.88rem}th,td{padding:10px 12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}th{color:#d6e0dc;background:#14211e;position:sticky;top:0}.browse-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:24px 0}.browse-card{display:block;padding:17px;border:1px solid var(--line);border-radius:12px;background:var(--panel);text-decoration:none}.browse-card strong{display:block;color:var(--text)}.browse-card span{color:var(--muted);font-size:.85rem}.search{display:flex;gap:8px;max-width:760px;margin:24px 0}.search input{flex:1;min-width:0;padding:12px;border:1px solid #466057;border-radius:9px;background:#0d1714;color:#fff}.search button{padding:10px 14px;border:0;border-radius:9px;background:var(--teal);font-weight:800}.search-results{display:grid;gap:8px;margin:12px 0 30px}.search-result{padding:12px;border:1px solid var(--line);border-radius:9px;background:var(--panel)}details{margin:16px 0;border:1px solid var(--line);border-radius:10px;background:var(--panel)}summary{padding:12px 14px;cursor:pointer;font-weight:750}.profile-text{max-height:46rem;overflow:auto;margin:0;padding:14px;border-top:1px solid var(--line);white-space:pre-wrap;overflow-wrap:anywhere;color:#dbe6e1;font:13px/1.55 ui-monospace,SFMono-Regular,Consolas,monospace}.profile-evidence h3{margin-top:26px}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}@media(max-width:650px){header{align-items:flex-start;flex-direction:column}.facts{grid-template-columns:1fr}.facts dt{padding-bottom:0;border-bottom:0}.facts dd{padding-top:3px}.search{flex-direction:column}}"""
-    css += """
-.catalogue-search-panel{margin:32px 0 20px;border:1px solid #365048;border-radius:20px;background:linear-gradient(145deg,rgba(21,48,41,.96),rgba(9,20,17,.98) 64%);box-shadow:0 24px 70px #0005;overflow:hidden}
-.catalogue-search-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:24px;padding:24px 26px 18px}.catalogue-search-heading h2{margin:3px 0 5px;font:600 clamp(1.35rem,3vw,1.85rem) Georgia,serif}.catalogue-search-heading .kicker{margin:0}.catalogue-search-heading small{display:block;color:var(--muted);max-width:690px}
-.catalogue-results-count{flex:0 0 auto;margin:2px 0;padding:7px 11px;border:1px solid #416158;border-radius:999px;background:#0a1714;color:#cbd8d3;font-size:.78rem;font-weight:800;white-space:nowrap}.catalogue-results-count[data-state=ready]{border-color:#418c7b;color:#91e0cf}.catalogue-results-count[data-state=busy]{border-color:#9c8334;color:#ead17b}.catalogue-results-count[data-state=error]{border-color:#a95555;color:#ffb2b2}
-.catalogue-search{border-top:1px solid #2d463f}.catalogue-primary-search{display:grid;grid-template-columns:minmax(180px,280px) 1fr;gap:22px;align-items:center;padding:22px 26px}.catalogue-primary-search>label span{display:block;color:#f5faf8;font-weight:850}.catalogue-primary-search>label small{display:block;margin-top:2px;color:var(--muted);font-size:.76rem}
-.catalogue-query-stack{display:grid;gap:8px}.catalogue-query-control{display:flex;gap:8px;padding:6px;border:1px solid #4d7066;border-radius:13px;background:#07100e;box-shadow:inset 0 1px 5px #0008;transition:border-color .16s,box-shadow .16s}.catalogue-query-control:focus-within{border-color:var(--teal);box-shadow:0 0 0 3px #65c9b526,inset 0 1px 5px #0008}.catalogue-query-control input{min-width:0;flex:1;border:0!important;background:transparent!important;box-shadow:none!important;padding:8px 10px!important}.catalogue-query-control button{padding:9px 18px;border:0;border-radius:9px;background:var(--teal);color:#06120f;font-weight:900;cursor:pointer}.catalogue-query-control button:hover{background:#81dac9}.catalogue-exact-name{display:flex;align-items:flex-start;gap:8px;width:max-content;max-width:100%;color:#dfe9e5;font-size:.76rem;font-weight:800;cursor:pointer}.catalogue-exact-name input{flex:0 0 auto;width:15px;height:15px;margin:3px 0 0;accent-color:var(--teal)}.catalogue-exact-name span{display:block}.catalogue-exact-name small{display:block;color:var(--muted);font-size:.7rem;font-weight:500}
-.catalogue-advanced{margin:0;border:0;border-top:1px solid #2d463f;border-radius:0;background:#0a1512aa}.catalogue-advanced summary{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:15px 26px;list-style:none}.catalogue-advanced summary::-webkit-details-marker{display:none}.catalogue-advanced summary strong,.catalogue-advanced summary small{display:block}.catalogue-advanced summary small{margin-top:2px;color:var(--muted);font-size:.75rem;font-weight:500}.catalogue-advanced summary::after{content:'+';display:grid;place-items:center;width:25px;height:25px;border:1px solid #476159;border-radius:50%;color:var(--teal);font-size:1.15rem;font-weight:400}.catalogue-advanced[open] summary::after{content:'−'}.catalogue-advanced-body{display:grid;grid-template-columns:1.25fr 1fr;gap:18px;padding:2px 26px 23px}.catalogue-filter-section{min-width:0;margin:0;padding:17px;border:1px solid #2f4942;border-radius:13px;background:#0b1714}.catalogue-filter-section legend{padding:0 7px;color:var(--gold);font-size:.7rem;font-weight:900;letter-spacing:.11em;text-transform:uppercase}
-.catalogue-search-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.catalogue-search-grid label{min-width:0;color:#b9c7c2;font-size:.74rem;font-weight:800}.catalogue-search-grid label span{display:block;margin:0 0 5px 2px}.catalogue-search input[type=search],.catalogue-search input[type=number]{width:100%;min-height:42px;padding:9px 11px;border:1px solid #3e5b53;border-radius:9px;background:#07100e;color:#fff;outline:0}.catalogue-search input::placeholder{color:#71817b}.catalogue-search input:focus{border-color:var(--teal);box-shadow:0 0 0 3px #65c9b51f}
-.catalogue-inline-filters{grid-column:1/-1;padding-top:2px}.catalogue-filter-chips{display:flex;flex-wrap:wrap;gap:7px}.catalogue-filter-chips label{position:relative;display:flex;align-items:center;gap:7px;padding:7px 10px;border:1px solid #3d554d;border-radius:999px;background:#101f1b;color:#dfe9e5;font-size:.73rem;font-weight:800;cursor:pointer;transition:.15s}.catalogue-filter-chips label:hover{border-color:#65837a}.catalogue-filter-chips label:has(input:checked){border-color:var(--teal);background:#183c34;color:#b9f0e5;box-shadow:inset 0 0 0 1px #65c9b526}.catalogue-filter-chips input{width:14px;height:14px;margin:0;accent-color:var(--teal)}.catalogue-search-footer{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;padding:0 26px 22px}.catalogue-search-footer .catalogue-filter-chips{flex:1}.catalogue-clear{flex:0 0 auto;padding:8px 12px;border:1px solid #486057;border-radius:9px;background:#0c1714;color:var(--text);font-weight:800;cursor:pointer}.catalogue-clear:disabled{opacity:.42;cursor:default}
-.catalogue-results{margin:18px 0 30px}.catalogue-results>.notice{border-radius:10px}.catalogue-results-table{table-layout:fixed}.catalogue-results-table th,.catalogue-results-table td{min-width:0;overflow-wrap:anywhere}.catalogue-results-table th:nth-child(1){width:17%}.catalogue-results-table th:nth-child(2),.catalogue-results-table th:nth-child(4){width:8%}.catalogue-results-table th:nth-child(3),.catalogue-results-table th:nth-child(5){width:15%}.catalogue-results-table th:nth-child(n+6){width:12.333%}.catalogue-results-table td:first-child{position:sticky;left:0;background:var(--panel);min-width:0}.catalogue-results-table a{overflow-wrap:anywhere}.catalogue-wikitree-id,.catalogue-location-repeat{display:block;margin-top:5px;font-size:.72rem;font-weight:700}.catalogue-location-repeat{color:var(--gold)}.catalogue-sort{display:inline-flex;align-items:center;gap:7px;width:100%;max-width:100%;padding:0;border:0;background:transparent;color:inherit;font:inherit;font-weight:850;text-align:left;white-space:normal;cursor:pointer}.catalogue-sort:hover,.catalogue-sort:focus-visible{color:var(--teal)}.catalogue-sort span{flex:0 0 auto;color:var(--teal);font-size:.78rem}.catalogue-family-cell{min-width:0}.catalogue-relation{display:block;margin-bottom:6px}.catalogue-relation:last-child{margin-bottom:0}.catalogue-relation small{display:block;color:var(--muted);font-size:.72rem}.catalogue-relation-confidence{display:inline-flex!important;align-items:center;gap:4px;width:max-content;max-width:100%;margin-top:4px;padding:2px 5px;border:1px solid #45534f;border-radius:999px;background:#111b18;color:#aebdb7!important;font-size:.59rem!important;font-weight:850;text-transform:uppercase}.catalogue-relation-confidence i{flex:0 0 auto;width:7px;height:7px;border-radius:50%;background:#72817c}.catalogue-relation-confidence.confidence-proved i,.catalogue-relation-confidence.confidence-strongly_supported i,.catalogue-relation-confidence.confidence-dna_confirmed i,.catalogue-relation-confidence.confidence-confident i{background:var(--teal);box-shadow:0 0 0 2px #65c9b51c}.catalogue-relation-confidence.confidence-probable i,.catalogue-relation-confidence.confidence-possible i,.catalogue-relation-confidence.confidence-uncertain i,.catalogue-relation-confidence.confidence-disputed i{background:var(--gold)}.catalogue-relation-confidence.confidence-contradicted i{background:#e26363}.catalogue-relation-confidence.confidence-non_biological i{background:#8ba6dc}.catalogue-location-group th{position:static;padding:10px 14px;border-top:1px solid #49655c;background:#162a24;color:#f4faf7}.catalogue-location-group th>span{display:inline-block;margin-right:9px;color:var(--gold);font-size:.65rem;font-weight:900;letter-spacing:.1em;text-transform:uppercase}.catalogue-location-group th>small{color:var(--muted);font-weight:600}.catalogue-location-path-group th{border-top-color:#4f7469;background:#112821}.catalogue-location-path{display:flex;align-items:baseline;gap:9px;flex-wrap:wrap}.catalogue-location-path>span{margin-right:0!important;flex:0 0 auto}.catalogue-location-path strong{font:700 .94rem Georgia,serif}.catalogue-location-path strong b{font-weight:700}.catalogue-location-path strong i{padding:0 5px;color:var(--teal);font-family:Inter,system-ui,sans-serif;font-style:normal}.catalogue-location-path small{color:var(--muted);font-weight:600}.catalogue-location-child td:first-child{border-left:3px solid var(--teal)}.catalogue-family-child td:first-child{border-left:3px solid var(--gold)}.catalogue-family-group th{border-top-color:#7b6732;background:#221f12}.catalogue-family-group th>span{color:#e4c95d}.catalogue-family-group th>small{margin-left:7px}.catalogue-location-card-heading{grid-column:1/-1;margin:12px 0 0;padding:10px 12px;border-left:3px solid var(--teal);background:#10211c;font:700 .95rem Georgia,serif}.catalogue-location-card-heading span{display:block;color:var(--gold);font:900 .62rem Inter,system-ui,sans-serif;letter-spacing:.1em;text-transform:uppercase}.catalogue-location-card-heading small{color:var(--muted)}.catalogue-location-card-heading.catalogue-location-path{display:flex}.catalogue-result-card.catalogue-location-child{border-left:3px solid var(--teal)}.catalogue-result-card.catalogue-family-child{border-left:3px solid var(--gold)}.catalogue-location-card-heading.catalogue-family-group{border-left-color:var(--gold);background:#211d10}.record-passages{display:grid;gap:10px;padding-left:1.35rem}.record-passage-intro{margin:0 0 8px}.record-passage-bullets{display:grid;gap:7px;margin:7px 0 2px;padding-left:1.3rem}.record-passages a{overflow-wrap:anywhere;word-break:break-word}.catalogue-search.is-loading{opacity:.78}.catalogue-search-panel[aria-busy=true] .catalogue-query-control button{cursor:progress}
-.catalogue-family-root-vitals{display:block;margin:4px 0 0!important;color:#cfddd8!important;font:650 .76rem Inter,system-ui,sans-serif!important}
-.catalogue-family-group th{position:relative;padding-right:170px}.catalogue-family-heading-copy>span{display:inline-block;margin-right:9px;color:#e4c95d;font-size:.65rem;font-weight:900;letter-spacing:.1em;text-transform:uppercase}.catalogue-family-heading-copy>small{margin-left:7px}.catalogue-family-toggle{position:absolute;top:50%;right:14px;display:inline-flex;align-items:center;gap:6px;margin:0;padding:6px 9px;border:1px solid #806f3c;border-radius:8px;background:#15140d;color:#ead77d;font:800 .72rem Inter,system-ui,sans-serif;transform:translateY(-50%);cursor:pointer}.catalogue-family-toggle:hover,.catalogue-family-toggle:focus-visible{border-color:var(--gold);background:#2b2611;color:#fff}.catalogue-family-toggle>span{font-size:.9rem}.catalogue-location-card-heading.catalogue-family-group{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:start;gap:10px}.catalogue-location-card-heading .catalogue-family-toggle{position:static;grid-column:2;grid-row:1;margin:0;transform:none}.catalogue-location-card-heading .catalogue-family-heading-copy{grid-column:1;grid-row:1}.catalogue-result-card[hidden],[data-family-member][hidden]{display:none!important}
-.catalogue-tree-context-controls{display:flex;align-items:end;gap:8px;flex-wrap:wrap;padding:8px;border:1px solid #355047;border-radius:10px;background:#0b1714}.catalogue-tree-context-controls label{display:grid;gap:3px;color:var(--muted);font-size:.65rem;font-weight:800}.catalogue-tree-context-controls select{min-width:135px}
-.catalogue-one-tree{position:relative;overflow:auto;max-height:75vh;border:1px solid #4a653a;border-radius:14px;background:linear-gradient(145deg,#101b16,#0a120f)}.catalogue-one-tree-summary{position:sticky;z-index:4;top:0;left:0;display:flex;align-items:flex-start;justify-content:space-between;gap:16px;min-width:min(100%,760px);padding:11px 15px;border-bottom:1px solid #3c522f;background:#182113f7;backdrop-filter:blur(8px)}.catalogue-one-tree-summary strong,.catalogue-one-tree-summary span{display:block}.catalogue-one-tree-summary strong{color:#e4c95d;font:700 1rem Georgia,serif}.catalogue-one-tree-summary span,.catalogue-tree-breadcrumb{color:var(--muted);font-size:.72rem}.catalogue-tree-breadcrumb{max-width:48%;color:#c9d8d2;text-align:right}.catalogue-tree-tools{position:sticky;z-index:3;top:58px;left:0;display:flex;align-items:center;gap:7px;min-width:min(100%,760px);padding:8px 12px;border-bottom:1px solid #34493f;background:#0c1714f3;backdrop-filter:blur(8px)}.catalogue-tree-tools button,.catalogue-tree-tools select,.catalogue-tree-tools input{min-height:31px;padding:5px 8px;border:1px solid #476159;border-radius:7px;background:#101f1b;color:var(--text);font:700 .68rem Inter,system-ui,sans-serif}.catalogue-tree-tools button{cursor:pointer}.catalogue-tree-tools button:hover,.catalogue-tree-tools button:focus-visible{border-color:var(--teal);color:#fff}.catalogue-tree-tools label{display:flex;align-items:center;gap:5px;color:var(--muted);font-size:.67rem;font-weight:800}.catalogue-tree-jump input{width:130px}.catalogue-tree-compact input{min-height:15px;width:15px;accent-color:var(--teal)}.catalogue-tree-legend{position:sticky;z-index:2;top:105px;left:0;display:flex;gap:14px;min-width:min(100%,760px);padding:7px 14px;border-bottom:1px solid #25372f;background:#0b1512ed;color:var(--muted);font-size:.64rem}.catalogue-tree-legend span::before{content:'';display:inline-block;width:8px;height:8px;margin-right:5px;border-radius:50%;background:#71817b}.catalogue-tree-legend .direct::before{background:var(--gold)}.catalogue-tree-legend .related::before{background:var(--teal)}.catalogue-tree-legend .context::before{background:#71817b}.catalogue-tree-legend .uncertain::before{border:1px dashed var(--gold);background:transparent}
-.catalogue-one-tree ol{min-width:max-content;margin:0;padding:0;list-style:none}.catalogue-tree-roots{padding:10px 16px 16px!important;counter-reset:tree-root}.catalogue-tree-person{position:relative;outline:0}.catalogue-tree-person:focus>.catalogue-tree-line{outline:2px solid var(--teal);outline-offset:-2px}.catalogue-tree-person>ol,.catalogue-tree-union>ol{position:relative;margin-left:15px;padding-left:28px;border-left:2px solid #527441}.catalogue-tree-person>ol>.catalogue-tree-person::before,.catalogue-tree-union>ol>.catalogue-tree-person::before{content:'';position:absolute;left:-28px;top:21px;width:22px;border-top:2px solid #527441}.catalogue-tree-person>ol>.catalogue-tree-person:last-child::after,.catalogue-tree-union>ol>.catalogue-tree-person:last-child::after{content:'';position:absolute;left:-30px;top:23px;bottom:0;width:5px;background:#0d1612}.catalogue-tree-line{position:relative;display:flex;align-items:flex-start;gap:7px;min-height:44px;padding:7px 12px 7px 4px;border-left:3px solid transparent;border-radius:6px}.catalogue-tree-direct-match>.catalogue-tree-line{border-left-color:var(--gold);background:linear-gradient(90deg,#362e10aa,transparent 62%)}.catalogue-tree-related-match>.catalogue-tree-line{border-left-color:var(--teal);background:linear-gradient(90deg,#12342baa,transparent 62%)}.catalogue-tree-context>.catalogue-tree-line{opacity:.72}.catalogue-tree-context>.catalogue-tree-line:hover{opacity:1}.catalogue-tree-uncertain-link::before{border-top-style:dashed!important;border-top-color:var(--gold)!important}.catalogue-tree-deep>ol{margin-left:8px;padding-left:19px}.catalogue-tree-deep>ol>.catalogue-tree-person::before{left:-19px;width:14px}.catalogue-tree-toggle,.catalogue-tree-leaf{position:relative;z-index:1;flex:0 0 30px;width:30px;height:25px;margin-top:0}.catalogue-tree-toggle{display:grid;grid-template-columns:1fr auto;place-items:center;padding:0 3px;border:1px solid #71905e;border-radius:5px;background:#172218;color:#dcebcb;font-weight:900;cursor:pointer}.catalogue-tree-toggle small{color:#91a989;font-size:.52rem}.catalogue-tree-toggle:hover,.catalogue-tree-toggle:focus-visible{border-color:#a8cc8f;background:#263824;color:#fff}.catalogue-tree-leaf::after{content:'';position:absolute;left:11px;top:9px;width:6px;height:6px;border-radius:50%;background:#6e8c5c}.catalogue-tree-number{flex:0 0 auto;color:#89988f;font-size:.76rem;line-height:24px}.catalogue-tree-person-copy{display:flex;align-items:baseline;gap:6px;max-width:1000px;flex-wrap:wrap}.catalogue-tree-person-copy>strong{font:700 .95rem Georgia,serif}.catalogue-tree-wikitree{font-size:.68rem;font-weight:800}.catalogue-tree-vitals{color:#aebbb6}.catalogue-tree-focus{padding:2px 5px;border:1px solid #425a52;border-radius:5px;background:#0c1714;color:#a9bbb5;font-size:.55rem;font-weight:800;cursor:pointer}.catalogue-tree-focus:hover{border-color:var(--teal);color:#fff}.catalogue-tree-couple{display:inline-flex;align-items:baseline;gap:4px;padding:2px 7px;border:1px solid #514d2e;border-radius:999px;background:#1d1b10;color:#c7d0cc}.catalogue-tree-couple>span{color:var(--gold);font-size:.58rem;font-weight:900;text-transform:uppercase}.catalogue-tree-couple i,.catalogue-tree-couple em{color:#9eaaa6;font-size:.65rem;font-style:normal}.catalogue-tree-couple em{color:var(--teal)}.catalogue-tree-cross-link{display:block;flex-basis:100%;margin-left:1px;color:#9fb0aa}.catalogue-tree-cross-link::before{content:'↳';margin-right:5px;color:var(--gold)}.catalogue-tree-person-copy>.catalogue-relation-confidence{margin-top:0}.catalogue-tree-union{margin:3px 0}.catalogue-tree-union>div{margin:3px 0 3px 16px;padding:3px 8px;border-left:2px solid var(--gold);background:#171a10;color:#cabf87;font-size:.64rem;font-weight:800}.catalogue-one-tree.is-compact .catalogue-tree-vitals,.catalogue-one-tree.is-compact .catalogue-tree-cross-link,.catalogue-one-tree.is-compact .catalogue-tree-couple i,.catalogue-one-tree.is-compact .catalogue-tree-couple em,.catalogue-one-tree.is-compact .catalogue-tree-focus{display:none}.catalogue-one-tree.is-compact .catalogue-tree-line{min-height:33px;padding-top:4px;padding-bottom:4px}.catalogue-one-tree.is-compact .catalogue-tree-person>ol,.catalogue-one-tree.is-compact .catalogue-tree-union>ol{padding-left:20px}.catalogue-one-tree.is-compact .catalogue-tree-person>ol>.catalogue-tree-person::before,.catalogue-one-tree.is-compact .catalogue-tree-union>ol>.catalogue-tree-person::before{left:-20px;width:15px}
-.catalogue-sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}.catalogue-tree-couple-node{display:flex;align-items:stretch;gap:4px;min-width:340px;max-width:1080px}.catalogue-tree-partner{position:relative;display:flex;align-items:flex-start;justify-content:space-between;gap:10px;min-width:235px;padding:7px 10px;border:1px solid #344b43;background:#0b1714}.catalogue-tree-primary{border-radius:9px 3px 3px 9px}.catalogue-tree-spouse{align-items:center;border-color:#62582f;border-radius:3px 9px 9px 3px;background:#1a190f}.catalogue-tree-partner>div>small,.catalogue-tree-spouse>div>span,.catalogue-tree-spouse em{display:block;color:var(--muted);font-size:.59rem;font-style:normal}.catalogue-tree-partner strong{display:block;font:700 .92rem Georgia,serif}.catalogue-tree-partner .catalogue-tree-wikitree{display:block}.catalogue-tree-union-mark{display:grid;place-items:center;flex:0 0 23px;height:23px;border:1px solid #796a32;border-radius:50%;color:var(--gold);font-weight:900}.catalogue-tree-statuses{display:flex;gap:4px;flex-wrap:wrap;margin-top:4px}.catalogue-tree-status{padding:1px 5px;border:1px solid #46554f;border-radius:999px;color:#aebcb7;font-size:.5rem;font-weight:850;text-transform:uppercase}.catalogue-tree-status.status-sourced{border-color:#337d6c;color:#83d6c4}.catalogue-tree-status.status-unsourced,.catalogue-tree-status.status-missing-parent{border-color:#74652f;color:#e3ca6a}.catalogue-tree-status.status-uncertain,.catalogue-tree-status.status-questions{border-color:#8a5140;color:#f0a58f}.catalogue-tree-status.status-update{border-color:#59698c;color:#b6c8ef}.catalogue-tree-overlay-muted>.catalogue-tree-line{opacity:.22;filter:saturate(.35)}.catalogue-tree-overlay-hit>.catalogue-tree-line{box-shadow:inset 4px 0 var(--gold)}.catalogue-tree-branch-actions{position:relative;margin:0}.catalogue-tree-branch-actions>summary{padding:2px 6px;border:1px solid #40564f;border-radius:5px;color:#9fb0aa;font-size:.55rem;cursor:pointer;list-style:none}.catalogue-tree-branch-actions>summary::-webkit-details-marker{display:none}.catalogue-tree-branch-actions>div,.catalogue-tree-export>div{position:absolute;z-index:8;right:0;display:grid;gap:3px;min-width:145px;padding:6px;border:1px solid #4a625a;border-radius:8px;background:#07100e;box-shadow:0 8px 24px #000b}.catalogue-tree-branch-actions button,.catalogue-tree-export button,.catalogue-tree-cross-link button{padding:4px 6px;border:1px solid #3d514a;border-radius:5px;background:#10201b;color:var(--text);font-size:.58rem;cursor:pointer}.catalogue-tree-cross-link button{margin-left:5px}.catalogue-tree-export{position:relative;margin:0}.catalogue-tree-export>summary{padding:6px 8px;border:1px solid #476159;border-radius:7px;color:var(--text);font-size:.68rem;font-weight:800;cursor:pointer;list-style:none}.catalogue-tree-pins,.catalogue-tree-history{position:sticky;z-index:2;left:0;display:flex;align-items:center;gap:7px;min-width:min(100%,760px);padding:6px 13px;border-bottom:1px solid #30443d;background:#0c1815f4;color:var(--muted);font-size:.65rem}.catalogue-tree-pins button,.catalogue-tree-history button{padding:3px 7px;border:1px solid #496159;border-radius:999px;background:#13251f;color:var(--teal);font-size:.62rem;cursor:pointer}.catalogue-tree-minimap{position:sticky;z-index:2;left:0;display:flex;align-items:center;gap:3px;min-width:min(100%,760px);padding:5px 13px;border-bottom:1px solid #283a34;background:#091310}.catalogue-tree-minimap button{display:grid;place-items:center;width:16px;height:16px;padding:0;border:0;background:transparent;cursor:pointer}.catalogue-tree-minimap span{display:block;width:var(--branch-size);height:var(--branch-size);max-width:12px;max-height:12px;border-radius:50%;background:#55776d}.catalogue-tree-minimap button:hover span,.catalogue-tree-minimap button:focus-visible span{background:var(--gold)}.catalogue-tree-timeline-axis{position:sticky;z-index:2;left:0;display:grid;grid-template-columns:auto 240px auto;align-items:center;gap:8px;min-width:min(100%,760px);padding:5px 15px;background:#101b17;color:var(--muted);font-size:.6rem}.catalogue-tree-timeline-axis i{height:1px;background:linear-gradient(90deg,var(--teal),var(--gold))}.catalogue-one-tree.is-timeline .catalogue-tree-line{margin-left:var(--tree-year-offset)}.catalogue-tree-virtual-notice{position:sticky;left:0;padding:10px 15px;border-top:1px solid #665b31;background:#201d10;color:#e3d38c;font-size:.72rem}.catalogue-tree-virtual-notice button{margin-left:7px;padding:4px 7px;border:1px solid var(--gold);border-radius:5px;background:#13130c;color:#fff;cursor:pointer}@media(forced-colors:active){.catalogue-tree-line,.catalogue-tree-partner,.catalogue-tree-status{forced-color-adjust:none}.catalogue-tree-direct-match>.catalogue-tree-line{outline:2px solid Highlight}.catalogue-tree-related-match>.catalogue-tree-line{outline:1px solid LinkText}.catalogue-tree-context>.catalogue-tree-line{opacity:1}.catalogue-tree-overlay-muted>.catalogue-tree-line{opacity:.55;filter:none}}@media print{header,footer,.catalogue-search-panel,.catalogue-result-toolbar,.catalogue-tree-tools,.catalogue-tree-minimap,.catalogue-tree-legend,.catalogue-tree-pins,.catalogue-tree-history{display:none!important}.catalogue-one-tree{overflow:visible!important;max-height:none!important;border:0!important;background:#fff!important;color:#000!important}.catalogue-one-tree a{color:#000!important}.catalogue-tree-context>.catalogue-tree-line{opacity:1!important}}
-.catalogue-tree-person-actions{display:flex;align-items:flex-start;gap:4px}.catalogue-one-tree.is-compact .catalogue-tree-statuses{display:none}.catalogue-one-tree.is-compact .catalogue-tree-partner{min-width:190px;padding:4px 7px}
-.catalogue-one-tree{max-height:78vh;border-radius:10px;background:#0b1411}.catalogue-one-tree ol{min-width:0}.catalogue-one-tree-summary{align-items:center;min-width:0;padding:8px 12px}.catalogue-one-tree-summary strong{font-size:.92rem}.catalogue-one-tree-summary span,.catalogue-tree-breadcrumb{font-size:.66rem}.catalogue-tree-tools{top:47px;min-width:0;padding:6px 10px}.catalogue-tree-tools button,.catalogue-tree-tools select,.catalogue-tree-tools input{min-height:28px;padding:4px 7px}.catalogue-tree-roots{padding:7px 10px 12px!important}.catalogue-tree-person>ol,.catalogue-tree-union>ol{margin-left:10px;padding-left:20px;border-left-width:1px}.catalogue-tree-person>ol>.catalogue-tree-person::before,.catalogue-tree-union>ol>.catalogue-tree-person::before{left:-20px;top:17px;width:16px;border-top-width:1px}.catalogue-tree-person>ol>.catalogue-tree-person:last-child::after,.catalogue-tree-union>ol>.catalogue-tree-person:last-child::after{left:-22px;top:18px}.catalogue-tree-line{align-items:center;gap:5px;min-height:34px;padding:3px 6px 3px 2px}.catalogue-tree-toggle,.catalogue-tree-leaf{flex-basis:23px;width:23px;height:22px}.catalogue-tree-toggle{grid-template-columns:1fr;padding:0;border-color:#526b5f;background:#12201b;font-size:.72rem}.catalogue-tree-toggle small{display:none}.catalogue-tree-leaf::after{left:8px;top:8px}.catalogue-tree-couple-node{display:flex;align-items:center;gap:6px;flex:1;min-width:0;max-width:none}.catalogue-tree-person-copy{display:flex;align-items:center;gap:5px 8px;flex:1;min-width:0;max-width:none;padding:3px 6px;border-bottom:1px solid #1d2b26}.catalogue-tree-person-main{display:inline-flex;align-items:baseline;gap:7px;flex-wrap:wrap;min-width:0}.catalogue-tree-person-main>strong{font:700 .9rem Georgia,serif}.catalogue-tree-vitals{font-size:.68rem}.catalogue-tree-wikitree{font-size:.61rem}.catalogue-tree-spouses{display:inline-flex;align-items:baseline;gap:8px;flex-wrap:wrap;padding-left:8px;border-left:1px solid #4b4430}.catalogue-tree-spouse-inline{display:inline-flex;align-items:baseline;gap:4px;color:#c9d2ce;font-size:.72rem}.catalogue-tree-spouse-inline b{color:var(--gold);font-size:.61rem}.catalogue-tree-spouse-inline small,.catalogue-tree-spouse-inline em{color:var(--muted);font-size:.6rem;font-style:normal}.catalogue-tree-statuses{margin-top:0}.catalogue-tree-status{font-size:.47rem}.catalogue-tree-person-actions{margin-left:auto}.catalogue-tree-branch-actions>summary{min-width:26px;padding:1px 5px;border-color:transparent;color:#83938d;text-align:center}.catalogue-tree-union{margin:1px 0}.catalogue-tree-union>div{margin:2px 0 2px 10px;padding:2px 6px;border-left-width:1px;background:transparent;color:#a99e6c;font-size:.57rem}.catalogue-tree-help,.catalogue-tree-navigation{border-bottom:1px solid #25372f;background:#091310}.catalogue-tree-help>summary,.catalogue-tree-navigation>summary{width:max-content;padding:5px 12px;color:#97a8a1;font-size:.61rem;font-weight:800;cursor:pointer}.catalogue-tree-help .catalogue-tree-legend{position:static;min-width:0;padding:5px 12px;border:0;background:transparent}.catalogue-tree-navigation>div>.catalogue-tree-pins,.catalogue-tree-navigation>div>.catalogue-tree-history,.catalogue-tree-navigation>div>.catalogue-tree-minimap{position:static;min-width:0}.catalogue-tree-more,.catalogue-tree-display-options{position:relative}.catalogue-tree-more>summary,.catalogue-tree-display-options>summary{padding:5px 8px;border:1px solid #476159;border-radius:7px;color:var(--text);font-size:.67rem;font-weight:800;cursor:pointer;list-style:none}.catalogue-tree-more>summary::-webkit-details-marker,.catalogue-tree-display-options>summary::-webkit-details-marker{display:none}.catalogue-tree-more>div,.catalogue-tree-display-options>div{position:absolute;z-index:9;right:0;display:grid;gap:6px;min-width:190px;padding:8px;border:1px solid #4a625a;border-radius:8px;background:#07100e;box-shadow:0 8px 24px #000b}.catalogue-tree-display-options>div label{display:grid;gap:3px}.catalogue-one-tree.is-compact .catalogue-tree-vitals,.catalogue-one-tree.is-compact .catalogue-tree-cross-link,.catalogue-one-tree.is-compact .catalogue-tree-spouse-inline small,.catalogue-one-tree.is-compact .catalogue-tree-spouse-inline em{display:none}.catalogue-one-tree.is-compact .catalogue-tree-line{min-height:28px;padding-top:2px;padding-bottom:2px}.catalogue-one-tree.is-compact .catalogue-tree-person-copy{padding-top:1px;padding-bottom:1px}
-.catalogue-tree-help,.catalogue-tree-navigation{margin:0;border-left:0;border-right:0;border-radius:0}.catalogue-tree-more,.catalogue-tree-display-options{margin:0}.catalogue-tree-line:has(.catalogue-tree-branch-actions[open]){z-index:6}.catalogue-tree-branch-actions[open]{z-index:7}.catalogue-tree-more .catalogue-tree-export>div{position:static;margin-top:4px;box-shadow:none}
-.identity-comparison-context{padding:14px 18px 16px;border-top:1px solid var(--line);background:linear-gradient(135deg,#122a24,#0d1c18 72%)}.identity-comparison-context>p:not(.subject-subhead){margin:0;color:var(--muted);font-size:.76rem}
-.fit-legend{display:flex;flex-wrap:wrap;gap:9px;margin:14px 0}.fit-legend span{display:inline-flex;align-items:center;gap:7px;color:var(--muted);font-size:.76rem}.fit-legend span::before{content:'';width:10px;height:10px;border-radius:50%;background:#71817b}.fit-legend .fit-high::before{background:var(--teal)}.fit-legend .fit-medium::before{background:var(--gold)}.fit-legend .fit-low::before{background:#71817b}
-.candidate-tabs{border:1px solid #365048;border-radius:18px;background:#0b1714;overflow:hidden}.candidate-tab-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));padding:7px;border-bottom:1px solid #365048;background:#0f1f1b}.candidate-tab-list button{display:flex;align-items:center;justify-content:center;gap:9px;min-height:48px;border:1px solid transparent;border-radius:11px;background:transparent;color:var(--muted);font:800 .88rem Inter,system-ui,sans-serif;cursor:pointer}.candidate-tab-list button span{min-width:25px;padding:2px 7px;border-radius:999px;background:#07100e;color:#bdc9c4;font-size:.7rem}.candidate-tab-list button[aria-selected=true]{border-color:#4f776c;background:#18342d;color:#fff;box-shadow:0 6px 18px #0004}.candidate-tab-list button[aria-selected=true] span{background:var(--teal);color:#07100e}.candidate-tab-list button:focus-visible{outline:2px solid var(--gold);outline-offset:2px}.candidate-tab-panel{padding:20px}.candidate-tab-panel>h3{margin:0;font:600 1.35rem Georgia,serif}.candidate-tabs.is-enhanced [role=tabpanel][hidden]{display:none}
-.candidate-card-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:14px}.candidate-card{min-width:0;padding:17px;border:1px solid #354a44;border-radius:14px;background:linear-gradient(145deg,#111f1b,#0d1714);box-shadow:0 10px 28px #0002}.candidate-card-head{display:flex;align-items:flex-start;justify-content:space-between;gap:18px}.candidate-card h4{margin:1px 0;font:600 1.12rem Georgia,serif}.candidate-card h4 small{display:block;margin-top:3px;font:700 .72rem Inter,system-ui,sans-serif}.candidate-role{margin:0;color:var(--gold);font-size:.68rem;font-weight:900;letter-spacing:.09em;text-transform:uppercase}.candidate-tree-chip{display:inline-block;margin-top:7px;padding:3px 7px;border:1px solid #6d5c2d;border-radius:999px;background:#2b260f;color:#ead17b;font-size:.68rem;font-weight:800}.fit-visual{flex:0 0 145px}.fit-label{display:flex;align-items:baseline;justify-content:space-between;gap:8px}.fit-label span{color:var(--muted);font-size:.65rem;font-weight:800;text-transform:uppercase}.fit-label strong{font-size:.9rem}.fit-track{height:7px;margin:4px 0;border-radius:999px;background:#25332e;overflow:hidden}.fit-track span{display:block;height:100%;border-radius:inherit;background:#71817b}.fit-high .fit-track span{background:var(--teal)}.fit-medium .fit-track span{background:var(--gold)}.fit-visual small{display:block;color:var(--muted);font-size:.66rem;text-align:right}.candidate-facts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px;margin:14px 0}.candidate-facts span{padding:8px 9px;border:1px solid #283b35;border-radius:8px;background:#091310;color:#d9e2de;font-size:.78rem;overflow-wrap:anywhere}.candidate-facts span.wide{grid-column:1/-1}.candidate-facts strong{display:block;margin-bottom:2px;color:#8fa099;font-size:.62rem;letter-spacing:.06em;text-transform:uppercase}.candidate-signals{padding:11px 12px;border-left:3px solid var(--teal);background:#10241e}.candidate-signals>strong{font-size:.75rem}.candidate-signals ul{margin:7px 0 0;padding-left:1.05rem}.candidate-signals li{margin:3px 0;font-size:.8rem}.candidate-conflict{margin:10px 0 0;padding:8px 10px;border-left:3px solid #a95555;background:#271414;color:#ffb7b7;font-size:.76rem}.candidate-conflict.clear{border-left-color:#466057;background:#101b18;color:var(--muted)}.candidate-details{margin:10px 0 0;background:#0a1411}.candidate-details summary{padding:9px 11px;font-size:.75rem}.candidate-details ul,.candidate-details p{margin:8px 14px 12px;padding-left:1rem;font-size:.77rem}.candidate-card-actions{margin-top:12px}.candidate-card-actions .button{display:inline-block;padding:7px 10px;font-size:.74rem}.parentage-clues{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:16px 0 12px}.parentage-clues>div{padding:11px 13px;border:1px solid #3a554d;border-radius:10px;background:#10211c}.parentage-clues>div>strong{display:block;color:var(--gold);font-size:.68rem;text-transform:uppercase;letter-spacing:.05em}.parentage-clues>div>span:not(.child-chip-list){display:block;margin-top:3px}.parentage-children{grid-column:1/-1}.child-chip-list{display:flex;flex-wrap:wrap;gap:6px;margin-top:7px}.child-chip{padding:5px 8px;border:1px solid #385149;border-radius:999px;background:#0a1714;font-size:.74rem}.child-chip small{margin-left:5px;color:var(--muted)}.parentage-warning{margin-top:12px;padding:13px 16px;border-left:3px solid var(--gold);background:#1a1c13}.parentage-warning p{margin:4px 0 0;color:var(--muted)}
-.candidate-role-group{margin-top:22px}.candidate-role-group>h4{display:flex;align-items:baseline;gap:9px;margin:0;color:#fff;font:600 1.08rem Georgia,serif}.candidate-role-group>h4 span{color:var(--muted);font:700 .7rem Inter,system-ui,sans-serif;text-transform:uppercase;letter-spacing:.06em}.candidate-role-group .candidate-card-grid{margin-top:8px}
-.person-dossier .source-list a,.person-dossier .research-leads li{overflow-wrap:anywhere}.person-dossier .research-leads li{min-width:0}
-.catalogue-family-unconnected th{border-top-color:#53605d;background:#18201e}.catalogue-family-unconnected .catalogue-family-heading-copy>span{color:#aebbb7}.catalogue-location-card-heading.catalogue-family-unconnected{border-left-color:#6f7d79;background:#151c1a}
-.relation-chip::before{content:'';flex:0 0 auto;width:6px;height:6px;margin-right:6px;border-radius:50%;background:#72817c}.relation-certainty-proved::before,.relation-certainty-strongly_supported::before,.relation-certainty-dna_confirmed::before{background:var(--teal);box-shadow:0 0 0 3px #65c9b51c}.relation-certainty-probable::before,.relation-certainty-confident::before{background:var(--gold)}.relation-certainty-possible::before,.relation-certainty-uncertain::before,.relation-certainty-disputed::before{background:#d98c52}.relation-certainty-contradicted::before{background:#e26363}.relation-certainty-non_biological::before{background:#8ba6dc}
-.relation-chip small{margin-left:6px;padding-left:6px;border-left:1px solid #476159;color:#aebdb7;font-size:.61rem;font-weight:800;text-transform:uppercase}
-.profile-workbench{margin-top:18px;padding:20px;border:1px solid #49675f;border-radius:20px;background:linear-gradient(145deg,#10231e,#091411 70%);box-shadow:0 20px 55px #0004}.workbench-audit,.static-site-note,.form-status{color:var(--muted);font-size:.78rem}.profile-match-list{display:grid;gap:9px;margin:12px 0 18px}.profile-match-card{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:13px 15px;border:1px solid #385149;border-radius:12px;background:#0a1714}.profile-match-card h3,.profile-match-card p{margin:0 0 4px}.profile-match-card small{color:var(--muted)}.profile-draft-panel,.profile-link-panel{margin-top:18px;padding:17px;border:1px solid #365048;border-radius:14px;background:#0a1512}.profile-draft-panel h3,.profile-link-panel h3{margin-top:0}.profile-draft{box-sizing:border-box;width:100%;padding:13px;border:1px solid #45645b;border-radius:10px;background:#06100d;color:#e6eee9;font:13px/1.55 ui-monospace,SFMono-Regular,Consolas,monospace;resize:vertical}.profile-link-panel form{display:grid;gap:12px}.profile-link-panel label span{display:block;margin-bottom:5px;font-size:.76rem;font-weight:800}.profile-link-panel input,.profile-link-panel textarea{box-sizing:border-box;width:100%;padding:10px;border:1px solid #45645b;border-radius:9px;background:#07110e;color:#fff}.form-status[data-state=error]{color:#ffb7b7}.form-status[data-state=success]{color:var(--teal)}
-.profile-vital-panel,.profile-refresh-panel{margin-top:18px;padding:17px;border:1px solid #365048;border-radius:14px;background:#0a1512}.profile-vital-panel h3,.profile-refresh-panel h3{margin-top:0}.profile-vital-panel dl{display:grid;grid-template-columns:90px minmax(0,1fr);gap:8px;margin:0}.profile-vital-panel dt{color:var(--gold);font-size:.72rem;font-weight:900;text-transform:uppercase}.profile-vital-panel dd{margin:0}.profile-vital-panel dd small{display:block;margin-top:3px;color:var(--muted)}.profile-refresh-panel p{margin-bottom:0;color:var(--muted)}
-.person-dossier{--surface:#0c1815;--surface-raised:#10211c}.person-dossier>section{scroll-margin-top:125px}.person-dossier .actions{margin:12px 0 16px}.person-dossier .button{padding:8px 12px;font-size:.78rem}.person-hero{position:relative;isolation:isolate;overflow:hidden;padding:24px 28px;box-shadow:0 24px 70px #0005}.person-hero::after{content:'';position:absolute;z-index:-1;right:-80px;bottom:-120px;width:360px;height:360px;border:1px solid #65c9b526;border-radius:50%;box-shadow:0 0 0 48px #65c9b50b,0 0 0 96px #d4af3707}.person-hero .lede{margin-bottom:0;font-size:.92rem}.person-section-nav{margin-top:8px;padding:6px 0}.person-section-nav a{padding:6px 10px;background:#0b1815e8;backdrop-filter:blur(12px)}
-.identity-shell{margin-top:10px;border:1px solid #365048;border-radius:18px;background:linear-gradient(145deg,#10231e,#091411 68%);box-shadow:0 16px 42px #0003;overflow:hidden}.identity-heading,.candidate-section-heading{display:flex;align-items:end;justify-content:space-between;gap:20px}.identity-heading{padding:18px 20px 13px}.identity-heading .kicker,.candidate-section-heading .kicker,.research-stack-heading .kicker{margin:0}.identity-heading h2,.candidate-section-heading h2,.research-stack-heading h2{margin:2px 0 0}.identity-heading>p,.candidate-section-heading>p{max-width:470px;margin:0;color:var(--muted);font-size:.8rem;text-align:right}.profile-stat-strip{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--line)}.profile-stat-strip div{padding:10px 14px;background:#0a1714}.profile-stat-strip strong,.profile-stat-strip span{display:block}.profile-stat-strip strong{color:var(--teal);font-size:1.22rem}.profile-stat-strip span{color:var(--muted);font-size:.68rem}.identity-facts{grid-template-columns:110px minmax(0,1fr) 110px minmax(0,1fr);border:0;border-radius:0;background:transparent}.identity-facts dt,.identity-facts dd{min-width:0;padding:9px 13px}.identity-facts dt{border-right:1px solid var(--line);font-size:.72rem;text-transform:uppercase;letter-spacing:.05em}.identity-facts dd{font-size:.84rem;overflow-wrap:anywhere}.relation-chip{display:inline-flex;align-items:center;margin:2px 5px 2px 0;padding:4px 8px;border:1px solid #385149;border-radius:999px;background:#0a1714;font-size:.76rem;line-height:1.2}.relation-chip a{text-decoration:none}.not-recorded{color:var(--muted)}.identity-note{margin:0;border:0;border-top:1px solid var(--line);border-radius:0;background:#0b1714}.identity-note summary{padding:10px 14px;color:var(--muted);font-size:.76rem}.identity-note>div{padding:0 18px 12px;color:var(--muted);font-size:.8rem}.identity-note ul{margin:5px 0}
-.candidate-analysis{margin-top:18px;padding:20px;border:1px solid #365048;border-radius:20px;background:radial-gradient(circle at 100% 0,#17372f 0,transparent 28rem),#091411;box-shadow:0 22px 65px #0004}.candidate-section-heading{margin-bottom:10px}.candidate-tabs{box-shadow:0 16px 40px #0003}.fit-legend{margin:9px 0}.subject-naming-sequence{margin-top:13px;padding-top:12px;border-top:1px solid #34534a}.subject-subhead{margin:0 0 7px;color:#a7b8b2;font-size:.68rem;font-weight:850;letter-spacing:.06em;text-transform:uppercase}.subject-naming-sequence>div{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:7px}.subject-naming-sequence>div>div{min-width:0;padding:7px 9px;border:1px solid #38564e;border-radius:8px;background:#08130f99}.subject-naming-sequence strong,.subject-naming-sequence span{display:block}.subject-naming-sequence strong{color:var(--gold);font-size:.61rem;letter-spacing:.04em;text-transform:uppercase}.subject-naming-sequence span{margin-top:2px;font-size:.72rem;overflow-wrap:anywhere}.naming-control-note{margin:7px 0 0;color:var(--muted);font-size:.7rem}.candidate-tab-panel{padding:14px 18px 17px}.candidate-role-group{margin-top:8px}.candidate-method-note{margin:12px 0 0;border-color:#30463f;background:#0a1411}.candidate-method-note summary{padding:9px 11px;color:var(--muted);font-size:.74rem}.candidate-method-note p{margin:8px 12px;color:var(--muted);font-size:.76rem}.candidate-card-grid{margin-top:8px}
-.candidate-overflow{margin:10px 0 0;border-color:#2e453e;background:#091310}.candidate-overflow>summary{padding:9px 12px;color:var(--teal);font-size:.74rem}.candidate-overflow>.candidate-card-grid{padding:0 10px 10px}.candidate-overflow[open]>summary{border-bottom:1px solid var(--line)}
-.research-stack{margin-top:20px}.research-stack-heading{margin:0 0 9px}.page-disclosure{margin:7px 0;border:1px solid #30473f;border-radius:12px;background:linear-gradient(145deg,#101c18,#0b1512);overflow:hidden;transition:border-color .16s,background .16s}.page-disclosure:hover{border-color:#45675d}.page-disclosure[open]{border-color:#4a6d63;background:#0d1916}.page-disclosure>summary{display:flex;align-items:center;gap:13px;min-height:58px;padding:10px 14px;list-style:none}.page-disclosure>summary::-webkit-details-marker{display:none}.disclosure-copy{min-width:0;flex:1}.disclosure-copy strong,.disclosure-copy small{display:block}.disclosure-copy strong{color:#edf5f2;font:600 1rem Georgia,serif}.disclosure-copy small{margin-top:1px;color:var(--muted);font-size:.72rem;font-weight:500}.disclosure-count{flex:0 0 auto;padding:4px 8px;border:1px solid #3b574f;border-radius:999px;background:#091411;color:#b9c7c2;font-size:.66rem;font-weight:800}.disclosure-chevron{flex:0 0 auto;width:9px;height:9px;border-right:2px solid var(--teal);border-bottom:2px solid var(--teal);transform:rotate(45deg);transition:transform .16s}.page-disclosure[open] .disclosure-chevron{transform:rotate(225deg)}.disclosure-body{padding:15px 16px 18px;border-top:1px solid var(--line)}.disclosure-body>:first-child{margin-top:0}.disclosure-body>:last-child{margin-bottom:0}.research-update-disclosure{border-color:#6d5d30;background:linear-gradient(145deg,#211d0e,#0f160f)}.research-update-disclosure .disclosure-count{border-color:#76642e;color:#e4cb76}.research-update-disclosure .research-finding{margin:0;padding:0;border:0;background:transparent}.page-disclosure .quality-summary{margin-top:0}.page-disclosure .profile-evidence h2{margin-top:24px}.page-disclosure .profile-card{margin:8px 0}.page-disclosure .research-finding:first-child{margin-top:0}
-@media(max-width:800px){.catalogue-search-heading{flex-direction:column;gap:12px}.catalogue-primary-search{grid-template-columns:1fr;gap:10px}.catalogue-advanced-body{grid-template-columns:1fr}.catalogue-results-count{white-space:normal}.catalogue-clear{width:100%}.catalogue-query-control button{padding-inline:13px}}
-@media(max-width:520px){.catalogue-search-heading,.catalogue-primary-search,.catalogue-advanced summary,.catalogue-advanced-body,.catalogue-search-footer{padding-left:16px;padding-right:16px}.catalogue-search-footer{align-items:stretch;flex-direction:column}.catalogue-search-footer .catalogue-clear{align-self:flex-end}.catalogue-search-grid{grid-template-columns:1fr}.catalogue-query-control{flex-direction:column}.catalogue-query-control button{width:100%}}
-.catalogue-hero{max-width:900px}.catalogue-refresh{margin:10px 0 0;color:var(--muted);font-size:.84rem}.catalogue-results-summary{display:flex;align-items:center;gap:8px;flex-wrap:wrap}.catalogue-view-results{padding:7px 11px;border:1px solid var(--teal);border-radius:999px;background:var(--teal);color:#06120f;font-size:.78rem;font-weight:900;cursor:pointer}.catalogue-view-results[hidden]{display:none}
-.catalogue-statistics{margin:32px 0;border:1px solid #365048;border-radius:18px;background:linear-gradient(145deg,#10251f,#091512 72%);overflow:hidden}.catalogue-statistics-heading{display:flex;align-items:end;justify-content:space-between;gap:20px;padding:22px 24px}.catalogue-statistics-heading h2{margin:2px 0 4px}.catalogue-statistics-heading p{margin:0;color:var(--muted)}.catalogue-statistics-heading>a{flex:0 0 auto}.statistics-summary{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--line)}.statistics-summary div{padding:15px 17px;background:#0b1814}.statistics-summary strong,.statistics-summary span{display:block}.statistics-summary strong{color:var(--teal);font-size:1.4rem}.statistics-summary span{color:var(--muted);font-size:.73rem}.catalogue-statistics>details{margin:0;border:0;border-radius:0;background:transparent}.catalogue-statistics>details>summary{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px 24px;color:#e8f1ed;cursor:pointer;background:#132b24}.catalogue-statistics>details>summary:hover{background:#19382f}.catalogue-statistics>details>summary strong,.catalogue-statistics>details>summary small{display:block}.catalogue-statistics>details>summary small{margin-top:3px;color:var(--muted);font-size:.75rem}.statistics-open-label{flex:0 0 auto;padding:7px 11px;border:1px solid var(--teal);border-radius:999px;color:var(--teal);font-size:.72rem;font-weight:700}.statistics-open-copy{display:none}.catalogue-statistics>details[open] .statistics-open-label{color:var(--muted);border-color:var(--line)}.catalogue-statistics>details[open] .statistics-closed-copy{display:none}.catalogue-statistics>details[open] .statistics-open-copy{display:inline}.statistics-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;padding:16px 24px 24px}.statistics-panel{padding:17px;border:1px solid var(--line);border-radius:12px;background:#0b1714}.statistics-panel h3{margin:0;font:600 1.1rem Georgia,serif}.statistics-panel>p{min-height:2.6em;margin:4px 0 14px;color:var(--muted);font-size:.76rem}.statistics-bars{display:grid;gap:8px;margin:0;padding:0;list-style:none}.statistics-bars li{display:grid;grid-template-columns:minmax(100px,1.15fr) minmax(70px,2fr) auto;gap:9px;align-items:center}.statistics-label{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:.78rem}.statistics-label small{display:block;color:var(--muted);font-size:.62rem}.statistics-bar{height:8px;border-radius:99px;background:#1d302a;overflow:hidden}.statistics-bar i{display:block;height:100%;border-radius:inherit;background:linear-gradient(90deg,var(--teal),#d4af37)}.statistics-bars strong{min-width:30px;text-align:right;font-size:.76rem}.statistics-caution{margin:0;padding:0 24px 22px;color:var(--muted);font-size:.78rem}
-.catalogue-advanced-body{grid-template-columns:repeat(2,minmax(0,1fr))}.catalogue-date-scope{grid-column:1/-1}.catalogue-search select{width:100%;min-height:42px;padding:9px 31px 9px 11px;border:1px solid #3e5b53;border-radius:9px;background:#07100e;color:#fff;outline:0}.catalogue-search select:focus{border-color:var(--teal);box-shadow:0 0 0 3px #65c9b51f}
-.catalogue-result-toolbar{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:0 0 10px}.catalogue-result-options{display:flex;align-items:center;justify-content:flex-end;gap:12px;flex-wrap:wrap}.catalogue-result-options>[hidden]{display:none!important}.catalogue-result-toolbar label{display:flex;align-items:center;gap:8px;color:var(--muted);font-size:.8rem;font-weight:750}.catalogue-result-toolbar select{padding:7px 30px 7px 9px;border:1px solid #3e5b53;border-radius:8px;background:var(--panel);color:var(--text)}.catalogue-group-controls{display:flex;align-items:center;gap:6px;padding-left:8px;border-left:2px solid var(--teal)}.catalogue-group-controls>span{margin-right:2px;color:var(--muted);font-size:.72rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase}.catalogue-group-toggle{padding:6px 9px;border:1px solid #3e5b53;border-radius:8px;background:var(--panel);color:var(--text)!important}.catalogue-group-toggle:has(input:checked){border-color:var(--teal);background:#123129}.catalogue-group-toggle input{accent-color:var(--teal)}.catalogue-result-cards{display:none}.catalogue-result-card{padding:16px;border:1px solid var(--line);border-radius:13px;background:var(--panel)}.catalogue-result-card h3{margin:0;font:600 1.2rem Georgia,serif}.catalogue-result-card .result-vitals{margin:4px 0 10px;color:var(--muted)}.catalogue-result-card dl{display:grid;grid-template-columns:90px 1fr;gap:5px 10px;margin:0}.catalogue-result-card dt{color:var(--muted);font-size:.78rem;font-weight:800}.catalogue-result-card dd{margin:0;min-width:0}.catalogue-result-card details{margin:10px 0 0;background:#0b1714}.catalogue-result-card summary{padding:8px 10px;font-size:.8rem}
-.featured-grid{grid-template-columns:repeat(auto-fit,minmax(245px,1fr))}.catalogue-featured h2,.catalogue-legend h2,.catalogue-browse h2{margin-bottom:10px}.strong-match-preview{margin:28px 0 8px;padding:22px;border:1px solid #7b6732;border-radius:18px;background:radial-gradient(circle at 100% 0,#3d3317 0,transparent 23rem),linear-gradient(145deg,#17251f,#0a1512 70%);box-shadow:0 20px 55px #0003}.strong-match-heading{display:flex;align-items:end;justify-content:space-between;gap:18px}.strong-match-heading .kicker{margin:0}.strong-match-heading h3{margin:2px 0 0;font:600 1.35rem Georgia,serif}.strong-match-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:16px}.strong-match-grid article{padding:15px;border:1px solid #3b514a;border-radius:12px;background:#091411cc}.strong-match-grid h4{margin:0;font:600 1rem Georgia,serif}.strong-match-grid article>p{margin:4px 0 10px;color:var(--muted);font-size:.78rem}.strong-match-grid ol{display:grid;gap:7px;margin:0;padding:0;list-style:none}.strong-match-grid li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;padding-top:7px;border-top:1px solid #263c35;font-size:.76rem}.strong-match-grid li>span{min-width:0;overflow-wrap:anywhere}.strong-match-grid li>strong{color:var(--gold);font-size:.9rem}.strong-match-grid small,.match-person small{display:block;color:var(--muted);font-size:.62rem}.match-filter-bar{display:grid;grid-template-columns:minmax(260px,1fr) minmax(150px,220px) auto;gap:16px;align-items:end;margin:24px 0 10px;padding:18px;border:1px solid #49635a;border-radius:15px;background:var(--panel)}.match-filter-bar h2,.match-filter-bar p{margin:0}.match-filter-bar>div>p:last-child{margin-top:5px;color:var(--muted);font-size:.8rem}.match-filter-bar label span{display:block;margin-bottom:5px;color:var(--muted);font-size:.72rem;font-weight:850;text-transform:uppercase}.match-filter-bar input{width:100%;min-height:42px;padding:9px 11px;border:1px solid #3e5b53;border-radius:9px;background:#07100e;color:#fff}.match-worklist tr[hidden]{display:none}.match-worklist td{min-width:115px}.match-worklist td:nth-child(6),.match-worklist td:nth-child(7){min-width:260px}.match-rank{min-width:45px!important;color:var(--muted);font-weight:800}.match-direction{min-width:36px!important;color:var(--gold);font-size:1.15rem;text-align:center}.score-pill{display:inline-block;min-width:42px;padding:5px 8px;border:1px solid #7b6732;border-radius:999px;background:#2d260f;color:#f0d98d;font-weight:900;text-align:center}.match-worklist td:nth-child(5)>small{display:block;margin-top:4px;color:var(--muted);font-size:.64rem}.match-overflow{margin-top:12px}.match-overflow>summary{color:var(--teal)}.match-overflow>.table-wrap{margin:0 12px 12px}.legend-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}.legend-grid p{margin:0;padding:14px;border:1px solid var(--line);border-radius:11px;background:var(--panel)}.legend-grid strong,.legend-grid span{display:block}.legend-grid span{margin-top:3px;color:var(--muted);font-size:.82rem}.legend-warning{color:var(--muted);font-size:.85rem}.browse-section{margin:10px 0}.browse-section summary{display:flex;justify-content:space-between;gap:16px;padding:16px 18px}.browse-section summary span{font-weight:850}.browse-section summary small{color:var(--muted);font-weight:500}.browse-section .browse-grid{padding:0 16px 16px;margin:0}.catalogue-about{margin-top:38px}.catalogue-about>div{padding:0 18px 8px;color:var(--muted)}.browse-card:focus-visible,.button:focus-visible,.catalogue-view-results:focus-visible{outline:3px solid #d4af3788;outline-offset:3px}
-.match-clue-list{display:grid;gap:7px;margin:0;padding:0;list-style:none}.match-clue-list li{display:grid;grid-template-columns:auto minmax(0,1fr);gap:7px;align-items:start;padding:7px 9px;border:1px solid #31463f;border-left-width:3px;border-radius:8px;background:#0b1714;color:#dce8e3;font-size:.74rem;line-height:1.38}.match-clue-list .match-clue-high{border-color:#3f7467;border-left-color:var(--teal);background:linear-gradient(90deg,#123329,#0b1714 72%)}.match-clue-list .match-clue-medium{border-color:#655a31;border-left-color:var(--gold);background:linear-gradient(90deg,#2a2510,#0b1714 72%)}.match-clue-list .match-clue-context{border-left-color:#71817b;color:#bbc9c4}.match-clue-label{display:inline-block;min-width:58px;padding:2px 5px;border:1px solid currentColor;border-radius:999px;color:#98aaa4;font-size:.54rem;font-weight:900;letter-spacing:.04em;text-align:center;text-transform:uppercase}.match-clue-high .match-clue-label{color:var(--teal)}.match-clue-medium .match-clue-label{color:var(--gold)}
-.match-person .match-candidate-location{margin-top:7px;padding-left:7px;border-left:2px solid var(--teal);color:#a9bbb5;font-size:.64rem;line-height:1.35}
-.match-filter-bar{grid-template-columns:minmax(240px,1fr) repeat(4,minmax(125px,175px)) auto auto}.match-filter-bar select{width:100%;min-height:42px;padding:9px 11px;border:1px solid #3e5b53;border-radius:9px;background:#07100e;color:#fff}.match-filter-bar .match-filter-toggle{display:flex;align-items:center;gap:8px;min-height:42px;padding:8px 10px;border:1px solid #3e5b53;border-radius:9px;background:#07100e;cursor:pointer}.match-filter-bar .match-filter-toggle:has(input:checked){border-color:var(--teal);background:#123129}.match-filter-bar .match-filter-toggle input{width:18px;min-height:18px;margin:0;accent-color:var(--teal)}.match-filter-bar .match-filter-toggle span{margin:0;color:#d8e5e0;font-size:.68rem;line-height:1.25;text-transform:none}
-@media(max-width:1000px){.catalogue-advanced-body{grid-template-columns:repeat(2,minmax(0,1fr))}.legend-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.statistics-summary{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media(max-width:960px){.catalogue-result-table-wrap{display:none}.catalogue-result-cards{display:grid;gap:10px}}
-@media(max-width:800px){.catalogue-advanced-body{grid-template-columns:1fr}.catalogue-filter-section:last-child{grid-column:auto}.catalogue-result-table-wrap{display:none}.catalogue-result-cards{display:grid;gap:10px}.catalogue-result-toolbar{align-items:flex-start;flex-direction:column;min-width:0}.catalogue-result-options{display:grid;grid-template-columns:minmax(0,1fr);width:100%;min-width:0;justify-content:stretch}.catalogue-result-options>label{display:grid;grid-template-columns:112px minmax(0,1fr);width:100%;min-width:0}.catalogue-result-toolbar select{width:100%;min-width:0}.catalogue-group-controls{grid-column:1/-1;min-width:0;max-width:100%;flex-wrap:wrap}.catalogue-group-controls .catalogue-group-toggle{width:auto}.catalogue-tree-context-controls{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));width:100%}.catalogue-tree-context-controls select{width:100%;min-width:0}.catalogue-one-tree{max-height:72vh}.catalogue-tree-tools{position:static;flex-wrap:wrap}.catalogue-tree-legend{position:static}.catalogue-location-card-heading.catalogue-family-group{grid-template-columns:1fr}.catalogue-location-card-heading .catalogue-family-toggle{grid-column:1;grid-row:2;justify-self:start}.catalogue-location-card-heading .catalogue-family-heading-copy{grid-column:1;grid-row:1}.catalogue-filter-chips label{justify-content:flex-start}.featured-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.strong-match-grid{grid-template-columns:1fr}.strong-match-heading{align-items:flex-start;flex-direction:column}.match-filter-bar{grid-template-columns:1fr}.match-filter-bar .button{width:100%}}
-@media(max-width:650px){header{position:static;align-items:center;flex-direction:row;padding:12px 16px;gap:12px}.brand{font-size:.82rem;white-space:nowrap}header nav{justify-content:flex-end;gap:11px;font-size:.76rem}main{padding-top:28px}.catalogue-hero h1{font-size:2.55rem}.catalogue-search-panel{margin-top:24px}.featured-grid,.legend-grid,.statistics-grid{grid-template-columns:1fr}.catalogue-statistics-heading{align-items:flex-start;flex-direction:column}.statistics-summary{grid-template-columns:1fr 1fr}.statistics-grid{padding-left:14px;padding-right:14px}.statistics-bars li{grid-template-columns:minmax(95px,1.2fr) minmax(55px,1fr) auto}.browse-section .browse-grid{grid-template-columns:1fr}.catalogue-result-card dl{grid-template-columns:78px 1fr}.catalogue-tree-context-controls{grid-template-columns:1fr}.catalogue-tree-display-options{grid-column:1/-1}.catalogue-one-tree-summary{position:static;display:block;min-width:0}.catalogue-tree-breadcrumb{max-width:none;margin-top:4px;text-align:left}.catalogue-tree-tools{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));min-width:0}.catalogue-tree-tools label,.catalogue-tree-tools button{justify-content:center}.catalogue-tree-jump{grid-column:1/-1}.catalogue-tree-jump input{width:100%}.catalogue-tree-more{grid-column:1/-1}.catalogue-tree-more>div,.catalogue-tree-display-options>div{position:static;margin-top:5px;box-shadow:none}.catalogue-tree-legend{min-width:0;flex-wrap:wrap}.catalogue-tree-roots{padding-left:5px!important}.catalogue-tree-person>ol,.catalogue-tree-union>ol{margin-left:6px;padding-left:14px}.catalogue-tree-person>ol>.catalogue-tree-person::before,.catalogue-tree-union>ol>.catalogue-tree-person::before{left:-14px;width:10px}.catalogue-tree-couple-node{align-items:flex-start}.catalogue-tree-person-copy{align-items:flex-start;flex-direction:column;gap:3px}.catalogue-tree-spouses{padding-left:0;border-left:0}.catalogue-tree-focus{display:none}}
-@media(max-width:440px){header{align-items:flex-start;flex-direction:column;gap:4px}header nav{justify-content:flex-start}.catalogue-results-summary{width:100%;justify-content:space-between}}
-.person-hero{display:grid;grid-template-columns:1.35fr 1fr;align-items:end;gap:28px;padding:32px;border:1px solid #355148;border-radius:20px;background:linear-gradient(145deg,#15352d,#0a1512 72%)}.person-hero h1{margin:.1em 0}.person-life{margin:8px 0;color:#c8d6d1;font:600 1.15rem Georgia,serif}.person-hero-summary{display:grid;grid-template-columns:1fr auto 1fr;gap:10px;align-items:center;color:var(--muted)}.person-hero-summary span:nth-child(2){color:var(--gold);font-size:1.4rem}.person-section-nav{display:flex;gap:8px;overflow:auto;margin:14px 0 0;padding:8px 0;position:sticky;top:69px;z-index:1;background:#07100ef2}.person-section-nav a{flex:0 0 auto;padding:7px 11px;border:1px solid var(--line);border-radius:999px;background:var(--panel);text-decoration:none;font-size:.78rem;font-weight:800}.section-intro,.empty-state{color:var(--muted)}.family-groups{display:grid;gap:22px}.family-groups>div>h3{margin-bottom:8px}.family-grid,.claim-grid,.question-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(245px,1fr));gap:10px}.family-card,.claim-card,.question-card,.profile-card{padding:15px;border:1px solid var(--line);border-radius:12px;background:var(--panel)}.family-card h3,.question-card h3,.profile-card h3{margin:2px 0;font:600 1.05rem Georgia,serif}.family-card p{margin:3px 0}.family-role{color:var(--gold);font-size:.7rem;font-weight:900;letter-spacing:.1em;text-transform:uppercase}.evidence-badge{display:inline-block;padding:4px 8px;border:1px solid #4b625b;border-radius:999px;background:#17241f;color:#d7e2de;font-size:.69rem;font-weight:850;text-transform:capitalize}.evidence-original,.evidence-proved,.evidence-documented,.evidence-strongly-supported{border-color:#3f917c;background:#13362e;color:#a7eadb}.evidence-derivative,.evidence-probable{border-color:#8b7738;background:#312a12;color:#f0d98d}.evidence-possible,.evidence-estimated,.evidence-unknown,.evidence-unclassified{color:#bdc8c4}.evidence-possible-duplicate{border-color:#9a713c;background:#35230f;color:#ffd99a}.evidence-contradicted,.evidence-disputed{border-color:#a95555;background:#351717;color:#ffb2b2}.evidence-tree-only,.evidence-profile{border-color:#56617a;background:#181d2d;color:#c8d0e6}.badge-row{display:flex;align-items:center;flex-wrap:wrap;gap:8px;color:var(--muted);font-size:.75rem}.timeline{position:relative;display:grid;gap:12px}.timeline::before{content:'';position:absolute;left:93px;top:0;bottom:0;width:1px;background:#365048}.timeline-card{position:relative;display:grid;grid-template-columns:76px 1fr;gap:32px}.timeline-card>div:last-child{padding:16px;border:1px solid var(--line);border-radius:13px;background:var(--panel)}.timeline-card h3{margin:0;font:600 1.08rem Georgia,serif}.timeline-card p{margin:6px 0}.timeline-date{padding-top:16px;color:var(--gold);font-weight:900;text-align:right}.timeline-card::before{content:'';position:absolute;left:88px;top:22px;width:11px;height:11px;border:2px solid var(--bg);border-radius:50%;background:var(--teal)}.timeline-place{color:var(--muted)}.timeline-card details{margin:10px 0 0}.timeline-card summary{padding:8px 10px;font-size:.78rem}.timeline-card details p{padding:0 10px}.quality-summary{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:8px;margin:16px 0 26px}.quality-summary div{padding:13px;border:1px solid var(--line);border-radius:11px;background:var(--panel)}.quality-summary strong,.quality-summary span{display:block}.quality-summary strong{font-size:1.35rem;color:var(--teal)}.quality-summary span{color:var(--muted);font-size:.76rem}.claim-card p{margin:0 0 10px}.claim-note{color:var(--muted);font-size:.82rem}.question-card p{font-size:.88rem}.current-research-update{padding:20px;border:1px solid #7b6732;border-radius:15px;background:#241f0f}.research-finding{margin:12px 0;padding:18px;border:1px solid var(--line);border-radius:13px;background:var(--panel)}.current-research-update .research-finding{margin:0;padding:0;border:0;background:transparent}.research-finding h3{margin:0 0 3px;font:600 1.2rem Georgia,serif}.research-finding h4{margin:18px 0 5px}.research-finding p,.research-finding li{line-height:1.55}.finding-meta{margin:0 0 14px!important;color:var(--muted);font-size:.75rem}.finding-table{margin:14px 0}.finding-table td{min-width:180px;vertical-align:top}.finding-code{white-space:pre-wrap}.local-artifact{border-bottom:1px dotted var(--muted);color:#c8d3cf}.case-assessments,.case-actions{margin-top:28px}.similar-people-table td:first-child{min-width:180px}.similar-people-table td:first-child small{display:block;margin-top:5px}.similar-people-table td:nth-child(3){min-width:210px}.research-leads,.source-list{display:grid;gap:8px}.source-list{padding-left:1.2rem}.source-list li{padding:8px 0;border-bottom:1px solid var(--line)}.source-list .evidence-badge{margin-right:7px}.technical-details{margin-top:42px}.technical-details>summary{font-size:1rem}.technical-details>.profile-card,.technical-details>p,.technical-details>.profile-evidence{margin-left:14px;margin-right:14px}.record-search-panel,.place-search-panel,.compare-panel{padding:20px;border:1px solid #365048;border-radius:16px;background:var(--panel)}.public-search-grid{display:grid;grid-template-columns:2fr repeat(4,minmax(130px,1fr));gap:10px}.public-search-grid label{color:var(--muted);font-size:.74rem;font-weight:800}.public-search-grid span{display:block;margin-bottom:4px}.public-search-grid input,.public-search-grid select,.compare-panel input{width:100%;min-height:42px;padding:9px 11px;border:1px solid #3e5b53;border-radius:9px;background:#07100e;color:#fff}.record-results,.place-results{display:grid;gap:10px;margin-top:18px}.record-card,.place-result-card,.place-stat,.compare-card{padding:16px;border:1px solid var(--line);border-radius:13px;background:var(--panel)}.record-card h3,.place-result-card h3,.compare-card h3{margin:0;font:600 1.1rem Georgia,serif}.record-meta{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0}.record-meta span{color:var(--muted);font-size:.78rem}.place-hero-grid{display:grid;grid-template-columns:2fr 1fr;gap:16px}.place-stats{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}.place-stat strong,.place-stat span{display:block}.place-stat strong{font-size:1.4rem;color:var(--teal)}.place-stat span{color:var(--muted);font-size:.76rem}.place-people{display:flex;flex-wrap:wrap;gap:8px}.place-people a{padding:6px 9px;border:1px solid var(--line);border-radius:999px;background:var(--panel);text-decoration:none}.compare-fields{display:grid;grid-template-columns:1fr auto 1fr;gap:12px;align-items:end}.compare-fields button{min-height:42px;padding:8px 16px;border:0;border-radius:9px;background:var(--teal);font-weight:900}.compare-results{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:20px}.compare-shared{grid-column:1/-1}.compare-list{display:flex;flex-wrap:wrap;gap:7px}.compare-list span{padding:5px 8px;border:1px solid var(--line);border-radius:999px}.status-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px}.status-card{padding:16px;border:1px solid var(--line);border-radius:12px;background:var(--panel)}.status-card strong,.status-card span{display:block}.status-card strong{font-size:1.45rem;color:var(--teal)}.status-card span{color:var(--muted)}
-@media(max-width:900px){.public-search-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.public-search-grid label:first-child{grid-column:1/-1}.place-hero-grid{grid-template-columns:1fr}.person-hero{grid-template-columns:1fr}.person-hero-summary{max-width:650px}.identity-facts{grid-template-columns:110px minmax(0,1fr)}.subject-naming-sequence>div{grid-template-columns:repeat(2,minmax(0,1fr))}.compare-results{grid-template-columns:1fr}.compare-shared{grid-column:auto}}
-@media(max-width:650px){.person-section-nav{position:static;top:auto}.person-hero{padding:18px}.person-hero-summary{grid-template-columns:1fr}.person-hero-summary span:nth-child(2){transform:rotate(90deg);justify-self:start}.person-dossier .actions{gap:6px}.person-dossier .button{flex:1 1 auto;text-align:center}.identity-heading,.candidate-section-heading{display:block}.identity-heading>p,.candidate-section-heading>p{margin-top:3px;text-align:left}.profile-stat-strip{grid-template-columns:repeat(2,minmax(0,1fr))}.timeline::before{left:6px}.timeline-card{grid-template-columns:1fr;padding-left:22px}.timeline-date{text-align:left;padding:0}.timeline-card::before{left:1px;top:7px}.family-grid,.claim-grid,.question-grid,.candidate-card-grid{grid-template-columns:1fr}.candidate-analysis{padding:14px}.candidate-tab-panel{padding:12px}.candidate-card-head{display:block}.fit-visual{width:100%;margin-top:12px}.candidate-tab-list button{padding:7px;font-size:.75rem}.disclosure-copy small{white-space:normal}.disclosure-count{display:none}.public-search-grid,.compare-fields{grid-template-columns:1fr}.public-search-grid label:first-child{grid-column:auto}.compare-fields button{width:100%}.place-stats{grid-template-columns:1fr 1fr}}
-.profile-match-actions{display:flex;align-items:center;justify-content:flex-end;gap:8px;flex-wrap:wrap}.profile-match-actions .button{margin:0;border:1px solid var(--line);cursor:pointer;font-size:.75rem;white-space:nowrap}
-.profile-update-panel{margin:28px 0;padding:22px;border:1px solid #7b6732;border-radius:18px;background:linear-gradient(145deg,#25200f,#0b1714 72%)}.profile-update-panel h2{margin-top:3px}.profile-update-diff{max-height:42rem;overflow:auto;margin:0;padding:14px;border-top:1px solid var(--line);white-space:pre-wrap;overflow-wrap:anywhere;background:#07100e;color:#c7d2ce;font:12px/1.45 ui-monospace,SFMono-Regular,Consolas,monospace}.profile-update-diff mark,.profile-update-diff del{display:block;margin:0 -5px;padding:0 5px;text-decoration:none}.profile-update-diff mark{background:#123c30;color:#b9f0df}.profile-update-diff del{background:#431d1d;color:#ffc1c1;text-decoration:line-through}.wikitree-update-preview{margin:28px 0;padding:22px;border:1px solid #567267;border-radius:18px;background:linear-gradient(145deg,#142b24,#0a1512 72%)}.wikitree-update-preview h2{margin:2px 0}.wikitree-update-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:10px;margin-top:16px}.wikitree-update-grid article{padding:15px;border:1px solid #365048;border-radius:12px;background:#091411}.wikitree-update-grid h3,.wikitree-update-grid p{margin:3px 0}.wikitree-update-grid article>p{margin-top:10px;color:var(--muted);font-size:.82rem}.catalogue-update-badge{display:block;margin-top:6px;color:var(--gold);font-size:.68rem;font-weight:850}
-@media(max-width:650px){.profile-workbench{padding:14px}.profile-match-card{align-items:flex-start;flex-direction:column}.profile-match-actions{justify-content:flex-start;width:100%}.profile-match-card .button{width:auto}.profile-link-panel .actions{display:grid}.profile-link-panel .button{width:100%}}
-@media(max-width:440px){.subject-naming-sequence>div{grid-template-columns:1fr}.page-disclosure>summary{padding:9px 11px}.disclosure-body{padding:12px}.relation-chip{font-size:.72rem}}
-"""
-    (CATALOGUE_DIR / "catalogue.css").write_text(css + "\n", encoding="utf-8")
+    write_catalogue_css(CATALOGUE_DIR / "catalogue.css")
     (CATALOGUE_DIR / "external-links.js").write_text(
         Path(__file__).with_name("external_links.js").read_text(encoding="utf-8") + "\n",
         encoding="utf-8",
@@ -5286,16 +5439,10 @@ def _write_record_catalog(public_records: list[dict]) -> dict[str, int]:
         )
     } for record in public_records]
     (DATA_DIR / "records-index.json").write_text(json.dumps(records_index, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
-    regions = sorted({record.get("region") or "Unspecified" for record in public_records})
-    categories = sorted({category for record in public_records for category in (record.get("record_category") or "Other records").split(" | ")})
     status_counts = Counter(record.get("supporting_source_status") or "unresolved" for record in public_records)
-    quality_counts = Counter(record.get("supporting_source_quality") or "unknown" for record in public_records)
-    body = f"""<p class="kicker">Search the documentary layer</p><h1>Research records</h1><p class="lede">Search {len(public_records):,} mapped associations by person, place, date, record type and source quality.</p>
-<div class="quality-summary">{''.join(f'<div><strong>{count:,}</strong><span>{escape(status.title())} source links</span></div>' for status, count in sorted(status_counts.items()))}{''.join(f'<div><strong>{count:,}</strong><span>{escape(quality.replace("_", " ").title())}</span></div>' for quality, count in sorted(quality_counts.items()))}</div>
-<section class="record-search-panel"><div class="public-search-grid"><label><span>Person, place or record detail</span><input id="record-query" type="search" placeholder="e.g. Glasgow-951, Lisnagaver or marriage"></label><label><span>From year</span><input id="record-from" type="number" placeholder="From"></label><label><span>To year</span><input id="record-to" type="number" placeholder="To"></label><label><span>Region</span><select id="record-region"><option value="">Any region</option>{''.join(f'<option>{escape(value)}</option>' for value in regions)}</select></label><label><span>Record type</span><select id="record-category"><option value="">Any type</option>{''.join(f'<option>{escape(value)}</option>' for value in categories)}</select></label><label><span>Source quality</span><select id="record-quality"><option value="">Any quality</option><option value="original">Original</option><option value="derivative">Index/transcription</option><option value="secondary">Secondary</option><option value="tree_only">Tree/profile only</option><option value="unknown">Unclassified</option></select></label><label><span>Citation status</span><select id="record-status"><option value="">Any status</option><option value="explicit">Explicit source</option><option value="candidate">Candidate match</option><option value="unresolved">Citation unresolved</option></select></label></div><p id="record-count" aria-live="polite">Loading records…</p></section><div id="record-results" class="record-results"></div>
-<details class="catalogue-about"><summary>How source matching works</summary><div><p>An explicit source was attached directly to the mapped association. A candidate source was conservatively matched from that person’s captured citations using record type, year and place; it remains a lead until inspected. Unresolved means the catalogue has not found a sufficiently specific citation.</p><p><a href="/data/source-review.csv">Download the source-review queue</a>.</p></div></details>"""
+    body = records_body(public_records)
     (RECORDS_DIR / "index.html").write_text(
-        _page("Research records", "Search Glasgow surname records by person, place, date and evidence quality.", body, "/records/", script='<script src="/records/search.js" defer></script>', asset_prefix="../"),
+        _unified_records_page("Research records", "Search Glasgow surname records by person, place, date and evidence quality.", body),
         encoding="utf-8",
     )
     (RECORDS_DIR / "search.js").write_text(Path(__file__).with_name("record_search.js").read_text(encoding="utf-8") + "\n", encoding="utf-8")
@@ -5950,30 +6097,9 @@ def build_research_catalog(records: list[dict], profiles: dict[str, dict], edges
         public_people, family_memberships, location_to_slug, len(place_index), len(public_records),
         profile_work_counts, original_count, refreshed,
     )
-    index_body = f"""<section class="catalogue-hero"><p class="kicker">Glasgow surname research</p><h1>Research catalogue</h1>
-<p class="lede">Search {len(public_people):,} historical people connected with the Glasgow surname.</p></section>{statistics_html}
-<section class="catalogue-search-panel" id="catalogue-search-panel" aria-labelledby="catalogue-search-title" aria-busy="true">
-<div class="catalogue-search-heading"><div><p class="kicker">Find an individual</p><h2 id="catalogue-search-title">Search the research catalogue</h2><small>Search names, relatives, places, dates, WikiTree IDs, records and evidence.</small></div>
-<div class="catalogue-results-summary"><p id="catalogue-results-count" class="catalogue-results-count" data-state="busy" aria-live="polite">Loading searchable index…</p><button id="catalogue-view-results" class="catalogue-view-results" type="button" hidden>View results</button></div></div>
-<form class="catalogue-search is-loading" id="catalogue-search">
-<div class="catalogue-primary-search"><label for="catalogue-query"><span>Name, WikiTree ID or any detail</span><small>Children and evidence text are included too</small></label><div class="catalogue-query-stack"><div class="catalogue-query-control"><input id="catalogue-query" type="search" placeholder="e.g. James Glasgow or Glasgow-1022" autocomplete="off"><button type="submit">Search</button></div><label class="catalogue-exact-name"><input id="catalogue-exact-name" type="checkbox"><span>Exact name spelling<small>Match only the name spelling entered; for example, Glasco will not expand to Glasgow.</small></span></label></div></div>
-<details class="catalogue-advanced" open><summary><span><strong>Refine results</strong><small>Use family, date, place and evidence filters</small></span></summary><div class="catalogue-advanced-body">
-<fieldset class="catalogue-filter-section"><legend>Names &amp; family</legend><div class="catalogue-search-grid">
-<label><span>First name</span><input id="catalogue-first-name" type="search" autocomplete="off"></label><label><span>Last name</span><input id="catalogue-last-name" type="search" autocomplete="off"></label>
-<label><span>Spouse name</span><input id="catalogue-spouse-name" type="search" autocomplete="off"></label><label><span>Father name</span><input id="catalogue-father-name" type="search" autocomplete="off"></label><label><span>Mother name</span><input id="catalogue-mother-name" type="search" autocomplete="off"></label>
-</div></fieldset><fieldset class="catalogue-filter-section"><legend>Research &amp; evidence</legend><div class="catalogue-search-grid">
-<label><span>Research cluster</span><select id="catalogue-cluster"><option value="">Any cluster</option>{cluster_options}</select></label>
-<label><span>Record type</span><select id="catalogue-record-type"><option value="">Any record type</option>{record_type_options}</select></label>
-<label><span>Source quality</span><select id="catalogue-source-quality"><option value="">Any quality</option><option value="original">Original record</option><option value="derivative">Index or transcription</option><option value="secondary">Secondary source</option><option value="tree_only">Tree/profile only</option><option value="unknown">Unclassified</option></select></label>
-</div></fieldset><fieldset class="catalogue-filter-section"><legend>Dates</legend><div class="catalogue-search-grid">
-<label><span>Date from</span><input id="catalogue-date-from" type="number" min="1000" max="2100" placeholder="From"></label><label><span>Date to</span><input id="catalogue-date-to" type="number" min="1000" max="2100" placeholder="To"></label>
-<label class="catalogue-date-scope"><span>Dates apply to</span><select id="catalogue-date-type"><option value="">Any record</option><option value="birth">Birth</option><option value="death">Death</option></select></label>
-</div></fieldset><fieldset class="catalogue-filter-section"><legend>Places</legend><div class="catalogue-search-grid">
-<label><span>Location applies to</span><select id="catalogue-location-type"><option value="">Any record</option><option value="birth">Birth</option><option value="death">Death</option></select></label>
-<label><span>Location</span><input id="catalogue-location" type="search" placeholder="Place name" autocomplete="off"></label><label><span>Country or region</span><select id="catalogue-region"><option value="">Any region</option>{region_options}</select></label>
-<label><span>Exclude death location</span><input id="catalogue-death-exclude" type="search" placeholder="e.g. USA" autocomplete="off"></label>
-</div></fieldset></div></details>
-<div class="catalogue-search-footer"><div class="catalogue-filter-chips" role="group" aria-label="People and family filters"><label><input id="catalogue-glasgow-at-birth" type="checkbox"><span>Glasgow at birth</span></label><label><input id="catalogue-males-only" type="checkbox"><span>Males only</span></label><label><input id="catalogue-missing-father" type="checkbox"><span>Missing father</span></label><label><input id="catalogue-missing-mother" type="checkbox"><span>Missing mother</span></label><label><input id="catalogue-has-descendants" type="checkbox"><span>Has descendants</span></label><label><input id="catalogue-women-married-glasgow" type="checkbox"><span>Women who married a Glasgow</span></label><label><input id="catalogue-missing-profile" type="checkbox"><span>No confirmed WikiTree link</span></label><label><input id="catalogue-needs-wikitree-update" type="checkbox"><span>Needs updated on WikiTree</span></label><label><input id="catalogue-has-suffix" type="checkbox"><span>Has suffix</span></label></div><button id="catalogue-search-clear" class="catalogue-clear" type="button" disabled>Reset filters</button></div></form></section>
+    index_body = f"""{catalogue_hero_html(len(public_people))}
+{statistics_html}
+{catalogue_search_panel_html(cluster_options, record_type_options, region_options)}
 <div id="catalogue-results" class="catalogue-results search-results" aria-live="polite"></div>
 {update_preview_html}
 {candidate_worklist["preview_html"]}
@@ -5990,7 +6116,7 @@ def build_research_catalog(records: list[dict], profiles: dict[str, dict], edges
 <a class="browse-card" href="/people/early-bearers.html"><strong>Early <em>de Glasgu</em> bearers</strong><span>{len(early_bearers)} medieval documentary entries</span></a>
 <a class="browse-card" href="/timeline.html"><strong>Y-DNA timeline</strong><span>{len(ydna_timeline)} migration and ancestry stages</span></a>
 </div></section>
-<section class="catalogue-legend"><h2>How to read the evidence</h2><div class="legend-grid"><p><strong>Documented</strong><span>Supported by a cited record.</span></p><p><strong>Probable</strong><span>Supported, but not conclusively proved.</span></p><p><strong>Profile lead</strong><span>Reported on a tree profile; inspect its sources.</span></p><p><strong>Estimated</strong><span>A date or place inferred from other evidence.</span></p></div><p class="legend-warning">Research clusters organise related records and hypotheses; cluster membership does not prove kinship.</p></section>
+{_catalogue_legend_html()}
 <section class="catalogue-browse"><h2>Browse the complete catalogue</h2>
 <details class="browse-section"><summary><span>Browse by name</span><small>{len(name_cards)} alphabetical groups</small></summary><div class="browse-grid">{"".join(name_cards)}</div></details>
 <details class="browse-section"><summary><span>Browse by country or region</span><small>{len(region_cards)} regions</small></summary><div class="browse-grid">{"".join(region_cards)}</div></details>
@@ -6049,7 +6175,8 @@ def build_research_catalog(records: list[dict], profiles: dict[str, dict], edges
         location_aliases = _unique(
             alias
             for record in person["records"]
-            for alias in (location_index or {}).get(record.get("location_id", ""), [])
+            if record.get("location_id")
+            for alias in (location_index or {}).get(record["location_id"], [])
         )
         dossier = dossiers[person["catalogue_id"]]
         assessed_parents = {
@@ -6166,15 +6293,7 @@ def build_research_catalog(records: list[dict], profiles: dict[str, dict], edges
     (schema_dir / "person.schema.json").write_text(
         json.dumps(person_json_schema(), ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
-    public_profile_ids = {profile_id for person in public_people for profile_id in person["profile_ids"]}
-    public_wikitree_evidence = {
-        **{key: value for key, value in wikitree_evidence.items() if key != "profiles"},
-        "profiles": {
-            profile_id: evidence
-            for profile_id, evidence in wikitree_evidence.get("profiles", {}).items()
-            if profile_id in public_profile_ids
-        },
-    }
+    public_wikitree_evidence = evidence_envelope(wikitree_evidence, public_people)
     (DATA_DIR / "wikitree-profile-evidence.json").write_text(
         json.dumps(public_wikitree_evidence, ensure_ascii=False, separators=(",", ":")) + "\n",
         encoding="utf-8",
@@ -6245,7 +6364,7 @@ def build_research_catalog(records: list[dict], profiles: dict[str, dict], edges
         public_people, public_records, place_index, dossiers, profile_audit_entries, generated, export_version,
     )
 
-    data_body = f"""<p class="kicker">For researchers and programmatic clients</p><h1>Research data and machine interface</h1><p class="lede">Schema {SCHEMA_VERSION}. These static, cacheable files are generated from the same public historical-person model as the human catalogue. Start with the compact resolver index, then fetch one dossier or depth-one family network.</p><div class="browse-grid">
+    data_body = f"""<header class="data-hero"><span class="r-kicker">For researchers and programmatic clients</span><h1>Research data<br>and downloads.</h1><p>Schema {SCHEMA_VERSION}. These static, cacheable files are generated from the same public historical-person model as the human catalogue. Start with the compact resolver index, then fetch one dossier or depth-one family network.</p></header><!-- research-access:start --><!-- research-access:end --><section class="data-section" aria-labelledby="data-downloads-title"><div class="data-section-head"><span class="r-kicker">Files and interfaces</span><h2 id="data-downloads-title">Choose a starting point.</h2></div><div class="data-download-grid">
 <a class="browse-card" href="/data/people-index.json"><strong>people-index.json</strong><span>Compact identity resolver index; no biographies or evidence payloads</span></a>
 <a class="browse-card" href="/people/glasgow-951.json"><strong>Per-person dossier</strong><span>Claims, evidence, family status, questions and leads for Glasgow-951</span></a>
 <a class="browse-card" href="/people/glasgow-951.network.json"><strong>Immediate-family network</strong><span>Depth-one family links and their best relationship evidence</span></a>
@@ -6260,8 +6379,8 @@ def build_research_catalog(records: list[dict], profiles: dict[str, dict], edges
 <a class="browse-card" href="/map/data/early-bearers.json"><strong>early-bearers.json</strong><span>{len(early_bearers)} medieval documentary entries</span></a>
 <a class="browse-card" href="/map/data/ydna-timeline.json"><strong>ydna-timeline.json</strong><span>{len(ydna_timeline)} ancestry and migration stages</span></a>
 <a class="browse-card" href="/data/schema/person.schema.json"><strong>person.schema.json</strong><span>JSON Schema for a person dossier</span></a>
-<a class="browse-card" href="/catalogue.html"><strong>HTML catalogue</strong><span>Small, citable page for every published person</span></a></div>
-<aside class="notice"><strong>Privacy:</strong> {withheld_count:,} likely-living profiles are withheld from these files. The heuristic is no recorded death plus a birth within the last 120 years.</aside>
+<a class="browse-card" href="/catalogue.html"><strong>HTML catalogue</strong><span>Small, citable page for every published person</span></a></div></section>
+<aside class="data-notice"><strong>Privacy:</strong> {withheld_count:,} likely-living profiles are withheld from these files. The heuristic is no recorded death plus a birth within the last 120 years.</aside>
 <section><h2>Predictable endpoints</h2><div class="table-wrap"><table><thead><tr><th>Purpose</th><th>Path</th></tr></thead><tbody>
 <tr><td>Compact global index</td><td><code>/data/people-index.json</code></td></tr><tr><td>Person dossier</td><td><code>/people/&lt;lowercase-wikitree-id&gt;.json</code></td></tr>
 <tr><td>Depth-one network</td><td><code>/people/&lt;lowercase-wikitree-id&gt;.network.json</code></td></tr><tr><td>Exact normalised-name candidates</td><td><code>/data/resolve/&lt;name-slug&gt;.json</code></td></tr>
@@ -6269,7 +6388,7 @@ def build_research_catalog(records: list[dict], profiles: dict[str, dict], edges
 <section><h2>Claims, evidence and relationships</h2><p>The dossier follows <strong>Person → Claim → Evidence → Source</strong>. Stable hash-based IDs prevent rebuilds from renumbering unchanged objects. Canonical claim statuses are <code>unknown</code>, <code>possible</code>, <code>probable</code>, <code>strongly_supported</code>, <code>proved</code>, <code>disputed</code> and <code>contradicted</code>; the original project label is retained in <code>status_label</code>. Source quality is <code>original</code>, <code>derivative</code>, <code>secondary</code>, <code>tree_only</code> or <code>unknown</code>.</p><p>A relationship with <code>tree_relationship: true</code> says the exported WikiTree currently connects the people. It is not documentary proof. Children with <code>relationship_source: reconstructed_parent_reference</code> were recovered by reversing child profiles’ Father/Mother fields. A <code>proved</code> relationship carries claim and evidence IDs from the controlled evidence assessment.</p></section>
 <section><h2>Research questions and leads</h2><p><code>open_questions</code> come from versioned local research cases. <code>research_leads</code> include pending case targets plus conservatively extracted profile-note actions only when they contain a concrete archive reference, URL, or a record type with a constrained year. Repository, collection/reference, date bounds and reason are retained where supplied. No archive references are invented.</p></section>
 <section><h2>Provenance and interpretation</h2><ul><li>Mapped associations, WikiTree tree links, extracted citations, controlled relationship assessments and local research findings retain separate provenance labels.</li><li><code>independence_group</code> groups citations that resolve to the same underlying URL or source key.</li><li>Estimated dates and locations remain explicitly labelled.</li><li>A cluster is a research grouping, not proof of kinship.</li><li>Full profile captures remain available in <code>wikitree-profile-evidence.json</code>, but compact dossiers omit raw biographies.</li></ul></section>"""
-    (DATA_DIR / "index.html").write_text(_page("Research data", "Machine-readable Glasgow surname research datasets and interpretation rules.", data_body, "/data/index.html"), encoding="utf-8")
+    (DATA_DIR / "index.html").write_text(_unified_data_page(data_body), encoding="utf-8")
 
     sitemap_paths = [
         "/", "/catalogue.html", "/candidate-matches.html", "/records/", "/places/", "/compare.html", "/feedback.html",
@@ -6350,6 +6469,21 @@ Dataset version: `{export_version}`. Catalogue generated: `{generated}`.
     except ModuleNotFoundError:
         from repair_person_hierarchy import repair as repair_person_pages
     repair_person_pages()
+    try:
+        from tools.build_latest_research import repair as repair_latest_research
+        from tools.repair_primary_navigation import repair as repair_primary_navigation
+    except ModuleNotFoundError:
+        from build_latest_research import repair as repair_latest_research
+        from repair_primary_navigation import repair as repair_primary_navigation
+    repair_latest_research()
+    repair_primary_navigation()
+    # publish_clean_urls recreates /catalogue/ from the standalone generator.
+    # Restore the shared light shell in the same build, so it cannot be skipped.
+    try:
+        from tools.repair_unified_site import repair_catalogue
+    except ModuleNotFoundError:
+        from repair_unified_site import repair_catalogue
+    repair_catalogue()
 
     return {
         "people": len(public_people), "records": len(public_records),

@@ -15,11 +15,17 @@ Glasgow-1168 and explicitly represents the younger James at Corsankell. The
 same holding; the 1571 record then expressly calls James and John the elder
 James's sons. No new profile, split or merge is required.
 
-Sibling update, **30 August 2026**: [[Glasgow-4061]] now represents the
-record-defined John named as the other son in GD39/5/59. He is James younger's
-directly proved brother. [[Glasgow-3193]] remains only an uncertain identity
-candidate for that brother and should not carry the direct wording in this
-biography.
+Sibling update, **27 September 2026**: record-defined [[Glasgow-4061]] was
+merged into [[Glasgow-3193]], which now represents the John named as James
+younger’s brother in GD39/5/59. The deed directly proves the two sons of James
+elder; identifying its John with the survivor’s additional
+Kilwinning/Burrowland/Dalgarven records remains probable rather than certain.
+The merged John’s structured father link to James elder was upgraded to
+**confident** and read back on 27 September after a fresh source/profile-scope
+review: the surviving profile explicitly represents the Corsinkell son, whose
+parentage is directly stated. The earlier Kilwinning occurrences remain a
+probable attribution. The
+original 30 August separate-profile recommendation is superseded.
 
 The 1632 testament-calendar entry for Margaret Smith, spouse of James Glasgow
 in Brekpleughe, has now been assigned to this existing profile as a later
@@ -32,6 +38,15 @@ The same entry does not name [Agnes (Glasgow) Logan
 the couple's daughter. Agnes's separate 1628 testament-calendar entry names her
 husband John Logan but no parent. Do not attach Agnes to this couple without a
 parent-identifying record.
+
+## Identity assessment
+
+The 9 February 1571 date in GD39/5/59 is the date of the letters of reversion,
+not a death date. The record names James Glasgow younger as an occupier at
+Corsankell on that date, so he was alive then. Glasgow-3921's live WikiTree
+field already correctly says **died after 9 February 1571**. The record gives
+no exact death date; this same lower bound also applies to his father,
+Glasgow-1168, who is named in the same 1571 entry.
 
 ## Source findings
 

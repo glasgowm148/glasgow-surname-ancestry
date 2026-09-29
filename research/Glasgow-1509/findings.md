@@ -19,8 +19,8 @@ contents has been recovered.
 The 20 August deed reconstruction separates this ropemaker from the contemporary
 Larne tanner: the 1768 ropewalk assignment names both men. The 1778 affidavit
 and 1786 Blackcave tanner lease therefore do not evidence this profile. The
-1784/1790 witness occurrence remains unassigned until its handwriting is read
-securely.
+1784 lease, sworn and registered in 1790, also calls its witnessing James
+Glasgow a **tanner**; it belongs in that separate sequence, not this ropemaker's.
 
 An earlier deed memorial supplies a much stronger identification. On 27
 October 1773 James Glasgow of Larne, gentleman, swore at Ballyshannon, County
@@ -77,7 +77,7 @@ only a reconstruction, not a basis to merge profiles or alter attachments.
 | *Belfast News-Letter*, 2 and 16 January 1761 | Advertisements report that James Glasgow, ropemaker from Belfast, had erected a rope-walk at Larne. | Direct occupation/residence if the newspaper text is confirmed; exact identity not stated. |
 | [Registry memorial 204122](https://www.irishdeedsindex.net/mem.php?memorial=204122), deed 14 May 1766 | James Glasgow, ropemaker of Larne, witnessed the deed and memorial. | Direct occupation and residence; no kinship. |
 | [Registry of Deeds memorial image](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSH3-M72W-M), affidavit sworn 27 October 1773; memorial registered 15 November 1773 | Mr James Glasgow of Larne, County Antrim, gentleman, aged upwards of thirty, witnessed the articles and memorial and personally proved their execution at Ballyshannon. | Strong direct match to this older Larne man. The stated age excludes `Glasgow-3991`; no kinship is supplied. |
-| [Registry of Deeds memorial image](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJ4-4SJF), lease dated 14 January 1784; memorial sworn and registered 17 August 1790 | James Glasgow of Larne, transcribed as a turner, witnessed the lease and memorial and personally proved its execution. | New direct Larne occurrence, provisionally assigned to this profile. James `Glasgow-3991` remains a viable alternative; inspect the handwriting for `turner` versus `tanner`. |
+| [Registry of Deeds memorial 278037, FamilySearch image 437](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJ4-4SJF), lease dated 14 January 1784; sworn 17 August and registered 23 August 1790 | The manuscript calls the Larne witness **James Glasgow, Tanner**. | Direct occupation/residence occurrence in the tanner sequence; strong candidate for James `Glasgow-3991`, and not evidence for this ropemaker. It names no relative. |
 | PRONI `D2977/3A/4/25/13`, 1 November 1786 | Lease to James Glasgow, tanner of Larne, for about five acres at Blackcave. | Direct occupation/residence; probably this profile, but not uniquely identified. |
 | [Alexander Holmes will transcription](https://holmes-history.com/antrim/), will dated 5 June 1799; Registry memorial 345729, vol. 527, p. 136 | Gives Jane Holmes a field held with James Glasgow and Mary Holmes ground rent from houses occupied by `James Glasgow, Roper` in Old Town, Larne. | Direct local association in a derivative will abstract; likely continuity with the 1761/1766 trade cluster, though a son or successor remains possible. |
 | [Bigger and Hughes, Larne Parish Churchyard inscriptions](https://archive.org/stream/ulsterjournalofa06ulstiala/ulsterjournalofa06ulstiala_djvu.txt), published 1899 | James, explicitly son of Hugh and Ann Glasgow, died 14 April 1812 aged 64; wife Jane died 21 July 1820 aged 79. Their daughter Ann was also commemorated, apparently dying 25 May 1832, although the OCR renders the year inconsistently. | Strong competing direct relationship and chronology. It breaks the assumed identification of Hugh's adult son with a 1737-1802 James married to Janet; Ann's year requires inspection of the plate. |
@@ -94,8 +94,8 @@ only a reconstruction, not a basis to merge profiles or alter attachments.
 4. Keep Glasgow-3991 separate from this profile. Inspect the original 1737 entry,
    reported James-Janet monument and 1762 marriage before upgrading either the
    William-1505 or Hugh-1503 parent hypothesis.
-5. Keep the 1784/1790 occurrence unassigned until its handwriting is settled;
-   the 1768 deed already distinguishes the ropemaker from the tanner.
+5. Treat the 1784/1790 James Glasgow occurrence as the separately documented
+   tanner, not as evidence for this ropemaker.
 6. Retain Glasgow-3324 and Glasgow-3986 as reasonable working children, with the
    former assessed probable and the latter uncertain.
 
@@ -147,6 +147,8 @@ The record-defined ropemaker is the strongest match for this profile:
 
 The 1778 tanner affidavit and 1786 Blackcave tanner lease should no longer be used as evidence for this profile. They form a separate occupational sequence that most probably belongs to `Glasgow-3991`.
 
+The original [memorial 278037, image 437](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJ4-4SJF) now settles the former automated “turner” reading: its 14 January 1784 lease calls the Larne witness James Glasgow **tanner**; the memorial was sworn 17 August and registered 23 August 1790. It strengthens the separate tanner sequence but supplies no kinship evidence.
+
 The [1790 Larne and Kilwaughter mills conveyance](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJ4-331B), witnessed by James Glasgow and Charles McGarel, is compatible with this man and includes Alexander Holmes among the executing parties. It gives James no occupation, however, so it remains probable rather than conclusive.
 ## Unresolved Larne same-name records
 
@@ -157,7 +159,19 @@ These memorials are useful locality and associate evidence but cannot yet be ass
 | 1772 | [Newtown of Larne lease witnessed by James Glasgow and Nathan North](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSHM-P6YQ) | James has no occupation or relationship; both older Larne men were adults. |
 | 1772–1773 | [Abbey Hill tenement occupied by James Glasgow](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJW-H9D2-B) | The record proves a same-name occupier in Glenarm but gives no trade or family. |
 | 1781 | [Assignment witnessed by James Glasgow and Samuel Weir](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJW-B9R2-4) | The witness is only described as of Larne. |
-| 1784/1790 | [Larne lease witnessed by James Glasgow](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJ4-4SJF) | The automated transcript renders the occupation as “turner”; the handwriting must be settled before treating it as the tanner. |
 | 1790 | [Larne and Kilwaughter mills conveyance](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJ4-331B) | Alexander Holmes supports the ropemaker candidate, but James is only a witness and has no occupation. |
 
 The [1795 Larne merchant](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSH3-Q9B8-H) and [1797 James Glasgow junior](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSH3-Q96R-C) are separately recorded under `Glasgow-3986` as strong but not proved matches.
+
+## Newtown title succession — 21 September 2026
+
+The original recital in an [indenture of 25 March 1874](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS54-77Q4-H), registered 24 August 1874, traces James Glasgow's 2 October 1779 Newtown lease to a 25 February 1832 renewal to Anne Glasgow and Jane Glasgow. The 24-foot north-side tenement was formerly John English's and bounded by Hugh Glasgow's former tenement on the west. This is direct title succession, not a stated descent. Neither the 1779 James nor the women's identities are securely assigned. James-3991's wife Jane died 1820 and cannot automatically be the 1832 Jane; Ann-3992 is only a candidate for Anne. Inspect the 1832 renewal for relationship wording and intervening assignments.
+
+## Two distinct assignments — 21 September 2026
+
+Two assignments by James Glasgow, ropemaker, to John Hill share the date **28 March 1768** and registration date **2 November 1768**, but concern different leases:
+
+- [Memorial 173104, p. 510, image 258](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJW-DDXW) assigns the ropewalk plot and workhouse, held for 31 years from 1 November 1760 at £1 14s 1½d yearly. The witness James Glasgow is explicitly **Tanner**, both in the witness clause and the affidavit; John Houston, merchant, is the other witness. This remains valid evidence for the separate tanner sequence, probably James Glasgow-3991.
+- [Memorial 173108, opening, image 259](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJW-DDD6), with [continuation p. 513, image 260](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJW-DDDL), concerns a messuage held on a 60-year lease at £5 2s 6d yearly. Its witness James Glasgow is explicitly **Farmer**, repeated in the affidavit; John Houston, merchant, also witnesses this instrument.
+
+Both original occupation readings were independently checked. The Farmer wording does not overturn the Tanner reading in the other deed. Whether the two witnesses were the same man with different descriptions or namesakes remains unresolved. The farmer is not assigned to the tanner or to the South Carolina settler from this record alone; neither assignment supplies kinship.

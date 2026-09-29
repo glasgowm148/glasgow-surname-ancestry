@@ -370,7 +370,7 @@ class PersonDossierPresentationTests(unittest.TestCase):
         self.assertIn("1885", sarah.get_text())
         self.assertTrue(thomas.select_one("#source-marriage-sarah-1885"))
         mary = self.page("glasgow-3167")
-        spouse = mary.select_one("#family a[href='/people/elder-7251.html']").find_parent("tr")
+        spouse = mary.select_one("#family a[href='/people/elder-7251.html'], #family a[href='https://www.wikitree.com/wiki/Elder-7251']").find_parent("tr")
         self.assertIn("Documented spouse", spouse.get_text())
         self.assertIn("source-marriage-mary-1871", str(spouse))
         reverse = self.page("glasgow-3896").select_one("#family a[href='/people/glasgow-987.html']").find_parent("tr")
@@ -390,8 +390,15 @@ class PersonDossierPresentationTests(unittest.TestCase):
     def test_existing_letter_generates_remaining_examination_task(self):
         soup = self.page("glasgow-951")
         research = soup.select_one("#research").get_text(" ", strip=True)
-        self.assertIn("already-held 20 March 1847 John Glasgow letter", research)
-        self.assertIn("Completed; both Bible images inspected", research)
+        letter = next(
+            item for item in json.loads((ROOT / "research/Glasgow-951/presentation.json").read_text(encoding="utf-8"))["completed_searches"]
+            if item["search"] == "John Glasgow family Bible and 1847 letter"
+        )
+        self.assertIn("inspected with the letter", letter["result"])
+        self.assertIn("retrieval task is complete", letter["result"])
+        self.assertIn(letter["search"], research)
+        self.assertIn(letter["result"], research)
+        self.assertNotRegex(research, r"\b(?:obtain|acquire)\b.{0,120}\b(?:letter|20 March 1847)\b")
         self.assertNotIn("Obtain and read the original 20 March 1847", research)
 
     def test_identity_limitations_do_not_require_modern_profile_ids(self):

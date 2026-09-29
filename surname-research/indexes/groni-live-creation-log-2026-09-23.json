@@ -1,0 +1,1431 @@
+{
+  "generated": "2026-09-23",
+  "source_ledger": "/Users/m/wikitree-api-scrape/surname-research/indexes/groni-live-registration-ledger-2026-09-23.json",
+  "verified_live": true,
+  "created": [
+    {
+      "registration": "U/1867/7/1001/2/270",
+      "id": "Glasgow-4212",
+      "source_id": "U/1867/7/1001/2/270",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "D/1872/7/1001/3/156",
+      "id": "Unknown-766805",
+      "source_id": "D/1872/7/1001/3/156",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1881/2/1001/6/415",
+      "id": "Glasgow-4258",
+      "source_id": "U/1881/2/1001/6/415",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "D/1865/11/1002/1/447",
+      "id": "Unknown-766806",
+      "source_id": "D/1865/11/1002/1/447",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "M/1873/Q1/110/1/162",
+      "id": "Glasgow-4324",
+      "source_id": "M/1873/Q1/110/1/162",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "D/1873/11/1002/5/393",
+      "id": "Glasgow-4321",
+      "source_id": "D/1873/11/1002/5/393",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1874/11/1002/9/425",
+      "id": "Glasgow-4213",
+      "source_id": "U/1874/11/1002/9/425",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1878/11/1002/12/140",
+      "id": "Glasgow-4259",
+      "source_id": "U/1878/11/1002/12/140",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1879/11/1002/12/352",
+      "id": "Glasgow-4214",
+      "source_id": "U/1879/11/1002/12/352",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "D/1880/11/1002/11/102",
+      "id": "Unknown-766785",
+      "source_id": "D/1880/11/1002/11/102",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1880/11/1002/13/299",
+      "id": "Glasgow-4215",
+      "source_id": "U/1880/11/1002/13/299",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1883/11/1002/15/340",
+      "id": "Glasgow-4216",
+      "source_id": "U/1883/11/1002/15/340",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1886/11/1002/17/244",
+      "id": "Glasgow-4217",
+      "source_id": "U/1886/11/1002/17/244",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1886/11/1002/18/176",
+      "id": "Glasgow-4218",
+      "source_id": "U/1886/11/1002/18/176",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1890/11/1002/20/127",
+      "id": "Glasgow-4219",
+      "source_id": "U/1890/11/1002/20/127",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1893/11/1002/21/148",
+      "id": "Glasgow-4220",
+      "source_id": "U/1893/11/1002/21/148",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1894/11/1002/21/472",
+      "id": "Glasgow-4221",
+      "source_id": "U/1894/11/1002/21/472",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1896/11/1002/22/395",
+      "id": "Glasgow-4260",
+      "source_id": "U/1896/11/1002/22/395",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1898/11/1002/23/279",
+      "id": "Glasgow-4222",
+      "source_id": "U/1898/11/1002/23/279",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1900/11/1002/24/230",
+      "id": "Glasgow-4223",
+      "source_id": "U/1900/11/1002/24/230",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "M/1864/H1/233/12/225",
+      "id": "Glasgow-4325",
+      "source_id": "M/1864/H1/233/12/225",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1865/22/1004/1/262",
+      "id": "Glasgow-4261",
+      "source_id": "U/1865/22/1004/1/262",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "D/1865/24/1004/1/152",
+      "id": "Glasgow-4201",
+      "source_id": "D/1865/24/1004/1/152",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1866/24/1004/1/390",
+      "id": "Glasgow-4262",
+      "source_id": "U/1866/24/1004/1/390",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "D/1867/24/1004/1/290",
+      "id": "Glasgow-4202",
+      "source_id": "D/1867/24/1004/1/290",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1867/26/1004/2/106",
+      "id": "Glasgow-4307",
+      "source_id": "U/1867/26/1004/2/106",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1869/20/1004/5/338",
+      "id": "Glasgow-4342",
+      "source_id": "U/1869/20/1004/5/338",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "D/1870/26/1004/2/89",
+      "id": "Unknown-766786",
+      "source_id": "D/1870/26/1004/2/89",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "D/1876/23/1004/5/50",
+      "id": "Unknown-766820",
+      "source_id": "D/1876/23/1004/5/50",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "D/1876/22/1004/3/301",
+      "id": "Unknown-766821",
+      "source_id": "D/1876/22/1004/3/301",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "M/1877/H1/233/16/54",
+      "id": "Glasgow-4326",
+      "source_id": "M/1877/H1/233/16/54",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1880/24/1004/8/24",
+      "id": "Glasgow-4263",
+      "source_id": "U/1880/24/1004/8/24",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "D/1881/20/1004/11/324",
+      "id": "Unknown-766829",
+      "source_id": "D/1881/20/1004/11/324",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "D/1882/24/1004/4/439",
+      "id": "Glasgow-4185",
+      "source_id": "D/1882/24/1004/4/439",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1884/22/1004/9/242",
+      "id": "Glasgow-4225",
+      "source_id": "U/1884/22/1004/9/242",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1885/24/1004/11/81",
+      "id": "Glasgow-4226",
+      "source_id": "U/1885/24/1004/11/81",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1887/23/1004/15/473",
+      "id": "Glasgow-4227",
+      "source_id": "U/1887/23/1004/15/473",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1887/20/1004/19/483",
+      "id": "Glasgow-4228",
+      "source_id": "U/1887/20/1004/19/483",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "D/1890/19/1004/9/138",
+      "id": "Unknown-766819",
+      "source_id": "D/1890/19/1004/9/138",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1890/20/1004/21/246",
+      "id": "Glasgow-4229",
+      "source_id": "U/1890/20/1004/21/246",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1892/26/1004/11/157",
+      "id": "Glasgow-4264",
+      "source_id": "U/1892/26/1004/11/157",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1893/23/1004/18/224",
+      "id": "Glasgow-4265",
+      "source_id": "U/1893/23/1004/18/224",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1895/23/1004/19/228",
+      "id": "Glasgow-4266",
+      "source_id": "U/1895/23/1004/19/228",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1897/26/1004/12/269",
+      "id": "Glasgow-4267",
+      "source_id": "U/1897/26/1004/12/269",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1898/23/1004/20/406",
+      "id": "Glasgow-4268",
+      "source_id": "U/1898/23/1004/20/406",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1901/24/1004/16/30",
+      "id": "Glasgow-4230",
+      "source_id": "U/1901/24/1004/16/30",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1903/21/1004/15/172",
+      "id": "Glasgow-4231",
+      "source_id": "U/1903/21/1004/15/172",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1867/31/1005/2/214",
+      "id": "Glasgow-4269",
+      "source_id": "U/1867/31/1005/2/214",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "D/1871/27/1005/3/355",
+      "id": "Unknown-766788",
+      "source_id": "D/1871/27/1005/3/355",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1888/27/1005/13/351",
+      "id": "Glasgow-4270",
+      "source_id": "U/1888/27/1005/13/351",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "D/1889/27/1005/12/439",
+      "id": "Glasgow-4203",
+      "source_id": "D/1889/27/1005/12/439",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1901/35/1006/9/97",
+      "id": "Glasgow-4232",
+      "source_id": "U/1901/35/1006/9/97",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1864/50/1007/1/45",
+      "id": "Glasgow-4308",
+      "source_id": "U/1864/50/1007/1/45",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1866/50/1007/5/468",
+      "id": "Glasgow-4309",
+      "source_id": "U/1866/50/1007/5/468",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1867/50/1007/7/108",
+      "id": "Glasgow-4233",
+      "source_id": "U/1867/50/1007/7/108",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1868/50/1007/9/444",
+      "id": "Glasgow-4310",
+      "source_id": "U/1868/50/1007/9/444",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1870/50/1007/13/214",
+      "id": "Glasgow-4311",
+      "source_id": "U/1870/50/1007/13/214",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "M/1870/B1/464/2/231",
+      "id": "Glasgow-4327",
+      "source_id": "M/1870/B1/464/2/231",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1870/49/1007/19/389",
+      "id": "Glasgow-4312",
+      "source_id": "U/1870/49/1007/19/389",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1871/48/1007/8/248",
+      "id": "Glasgow-4271",
+      "source_id": "U/1871/48/1007/8/248",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "D/1871/49/1007/12/209",
+      "id": "Unknown-766790",
+      "source_id": "D/1871/49/1007/12/209",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1871/52/1007/13/76",
+      "id": "Glasgow-4272",
+      "source_id": "U/1871/52/1007/13/76",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "M/1872/B1/464/4/19",
+      "id": "Glasgow-4328",
+      "source_id": "M/1872/B1/464/4/19",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1873/50/1007/18/278",
+      "id": "Glasgow-4313",
+      "source_id": "U/1873/50/1007/18/278",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "D/1873/50/1007/22/376",
+      "id": "Glasgow-4205",
+      "source_id": "D/1873/50/1007/22/376",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1873/48/1007/11/99",
+      "id": "Glasgow-4234",
+      "source_id": "U/1873/48/1007/11/99",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1873/57/1007/12/369",
+      "id": "Glasgow-4235",
+      "source_id": "U/1873/57/1007/12/369",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1874/50/1007/21/395",
+      "id": "Glasgow-4314",
+      "source_id": "U/1874/50/1007/21/395",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "M/1875/B1/463/1/28",
+      "id": "Glasgow-4329",
+      "source_id": "M/1875/B1/463/1/28",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1875/50/1007/23/321",
+      "id": "Glasgow-4315",
+      "source_id": "U/1875/50/1007/23/321",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "D/1876/57/1007/9/170",
+      "id": "Glasgow-4191",
+      "source_id": "D/1876/57/1007/9/170",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "D/1876/50/1007/30/176",
+      "id": "Glasgow-4322",
+      "source_id": "D/1876/50/1007/30/176",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1877/57/1007/18/296",
+      "id": "Glasgow-4273",
+      "source_id": "U/1877/57/1007/18/296",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "M/1877/B1/418/46/140",
+      "id": "Glasgow-4330",
+      "source_id": "M/1877/B1/418/46/140",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "D/1877/57/1007/10/239",
+      "id": "Unknown-766789",
+      "source_id": "D/1877/57/1007/10/239",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1877/48/1007/17/184",
+      "id": "Glasgow-4236",
+      "source_id": "U/1877/48/1007/17/184",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1879/48/1007/20/296",
+      "id": "Glasgow-4274",
+      "source_id": "U/1879/48/1007/20/296",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "M/1880/B1/478/1/171",
+      "id": "Glasgow-4331",
+      "source_id": "M/1880/B1/478/1/171",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1882/48/1007/26/356",
+      "id": "Glasgow-4237",
+      "source_id": "U/1882/48/1007/26/356",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1884/48/1007/32/134",
+      "id": "Glasgow-4275",
+      "source_id": "U/1884/48/1007/32/134",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "M/1885/B1/418/62/169",
+      "id": "Glasgow-4332",
+      "source_id": "M/1885/B1/418/62/169",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1887/48/1007/39/323",
+      "id": "Glasgow-4238",
+      "source_id": "U/1887/48/1007/39/323",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1887/49/1007/68/449",
+      "id": "Glasgow-4240",
+      "source_id": "U/1887/49/1007/68/449",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1888/50/1007/48/462",
+      "id": "Glasgow-4241",
+      "source_id": "U/1888/50/1007/48/462",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "D/1888/53/1007/7/172",
+      "id": "Glasgow-4204",
+      "source_id": "D/1888/53/1007/7/172",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "D/1889/50/1007/62/348",
+      "id": "Glasgow-4208",
+      "source_id": "D/1889/50/1007/62/348",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "D/1889/51/1007/26/350",
+      "id": "Glasgow-4207",
+      "source_id": "D/1889/51/1007/26/350",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1889/49/1007/74/183",
+      "id": "Glasgow-4242",
+      "source_id": "U/1889/49/1007/74/183",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "D/1890/50/1007/66/264",
+      "id": "Glasgow-4193",
+      "source_id": "D/1890/50/1007/66/264",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "D/1892/50/1007/70/374",
+      "id": "Glasgow-4195",
+      "source_id": "D/1892/50/1007/70/374",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "D/1893/51/1007/30/285",
+      "id": "Glasgow-4206",
+      "source_id": "D/1893/51/1007/30/285",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1893/49/1007/85/250",
+      "id": "Glasgow-4276",
+      "source_id": "U/1893/49/1007/85/250",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "D/1893/49/1007/52/209",
+      "id": "Glasgow-4194",
+      "source_id": "D/1893/49/1007/52/209",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "M/1894/B1/570/37/83",
+      "id": "Glasgow-4333",
+      "source_id": "M/1894/B1/570/37/83",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1894/51/1007/42/69",
+      "id": "Glasgow-4277",
+      "source_id": "U/1894/51/1007/42/69",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1895/50/1007/66/439",
+      "id": "Glasgow-4278",
+      "source_id": "U/1895/50/1007/66/439",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1897/50/1007/73/418",
+      "id": "Glasgow-4279",
+      "source_id": "U/1897/50/1007/73/418",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "D/1897/51/1007/34/369",
+      "id": "Glasgow-4186",
+      "source_id": "D/1897/51/1007/34/369",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "D/1900/56/1007/6/107",
+      "id": "Glasgow-4200",
+      "source_id": "D/1900/56/1007/6/107",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1879/94/1008/10/248",
+      "id": "Glasgow-4244",
+      "source_id": "U/1879/94/1008/10/248",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "D/1864/100/1009/1/6",
+      "id": "Glasgow-4323",
+      "source_id": "D/1864/100/1009/1/6",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1864/99/1009/1/22",
+      "id": "Glasgow-4284",
+      "source_id": "U/1864/99/1009/1/22",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1864/100/1009/1/89",
+      "id": "Glasgow-4289",
+      "source_id": "U/1864/100/1009/1/89",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1864/99/1009/1/189",
+      "id": "Glasgow-4290",
+      "source_id": "U/1864/99/1009/1/189",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1865/98/1009/1/235",
+      "id": "Glasgow-4247",
+      "source_id": "U/1865/98/1009/1/235",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "D/1865/98/1009/1/167",
+      "id": "Unknown-766825",
+      "source_id": "D/1865/98/1009/1/167",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1866/99/1009/2/404",
+      "id": "Glasgow-4291",
+      "source_id": "U/1866/99/1009/2/404",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "M/1867/L1/1132/1/159",
+      "id": "Glasgow-4334",
+      "source_id": "M/1867/L1/1132/1/159",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1867/100/1009/2/303",
+      "id": "Glasgow-4292",
+      "source_id": "U/1867/100/1009/2/303",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1867/98/1009/2/171",
+      "id": "Glasgow-4293",
+      "source_id": "U/1867/98/1009/2/171",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1868/99/1009/3/398",
+      "id": "Glasgow-4248",
+      "source_id": "U/1868/99/1009/3/398",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "M/1868/L1/1106/3/94",
+      "id": "Glasgow-4335",
+      "source_id": "M/1868/L1/1106/3/94",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "D/1868/100/1009/2/125",
+      "id": "Glasgow-4188",
+      "source_id": "D/1868/100/1009/2/125",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1869/98/1009/2/338",
+      "id": "Glasgow-4294",
+      "source_id": "U/1869/98/1009/2/338",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "D/1868/100/1009/2/150",
+      "id": "Glasgow-4189",
+      "source_id": "D/1868/100/1009/2/150",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1869/99/1009/4/269",
+      "id": "Glasgow-4295",
+      "source_id": "U/1869/99/1009/4/269",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1869/99/1009/4/320",
+      "id": "Glasgow-4317",
+      "source_id": "U/1869/99/1009/4/320",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1870/99/1009/5/229",
+      "id": "Glasgow-4296",
+      "source_id": "U/1870/99/1009/5/229",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "M/1871/L1/1118/1/135",
+      "id": "Glasgow-4336",
+      "source_id": "M/1871/L1/1118/1/135",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1871/99/1009/6/78",
+      "id": "Glasgow-4297",
+      "source_id": "U/1871/99/1009/6/78",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "D/1872/100/1009/2/487",
+      "id": "Glasgow-4198",
+      "source_id": "D/1872/100/1009/2/487",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1872/98/1009/3/337",
+      "id": "Glasgow-4298",
+      "source_id": "U/1872/98/1009/3/337",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1873/99/1009/7/321",
+      "id": "Glasgow-4299",
+      "source_id": "U/1873/99/1009/7/321",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1874/99/1009/8/154",
+      "id": "Glasgow-4300",
+      "source_id": "U/1874/99/1009/8/154",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1875/99/1009/8/281",
+      "id": "Glasgow-4301",
+      "source_id": "U/1875/99/1009/8/281",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1876/99/1009/9/262",
+      "id": "Glasgow-4318",
+      "source_id": "U/1876/99/1009/9/262",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1876/99/1009/9/263",
+      "id": "Glasgow-4249",
+      "source_id": "U/1876/99/1009/9/263",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "D/1878/99/1009/8/93",
+      "id": "Unknown-766822",
+      "source_id": "D/1878/99/1009/8/93",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1879/100/1009/8/33",
+      "id": "Glasgow-4285",
+      "source_id": "U/1879/100/1009/8/33",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1879/99/1009/11/150",
+      "id": "Glasgow-4302",
+      "source_id": "U/1879/99/1009/11/150",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1879/99/1009/12/2",
+      "id": "Glasgow-4303",
+      "source_id": "U/1879/99/1009/12/2",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1880/99/1009/12/180",
+      "id": "Glasgow-4250",
+      "source_id": "U/1880/99/1009/12/180",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "D/1881/99/1009/9/242",
+      "id": "Glasgow-4209",
+      "source_id": "D/1881/99/1009/9/242",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "M/1881/L1/1122/2/60",
+      "id": "Glasgow-4337",
+      "source_id": "M/1881/L1/1122/2/60",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "M/1882/L1/2532/7/69",
+      "id": "Glasgow-4338",
+      "source_id": "M/1882/L1/2532/7/69",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "D/1882/99/1009/9/455",
+      "id": "Glasgow-4210",
+      "source_id": "D/1882/99/1009/9/455",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1883/100/1009/9/342",
+      "id": "Glasgow-4251",
+      "source_id": "U/1883/100/1009/9/342",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "D/1883/99/1009/10/149",
+      "id": "Glasgow-4192",
+      "source_id": "D/1883/99/1009/10/149",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "M/1884/L1/2530/4/89",
+      "id": "Glasgow-4339",
+      "source_id": "M/1884/L1/2530/4/89",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1884/100/1009/9/472",
+      "id": "Glasgow-4286",
+      "source_id": "U/1884/100/1009/9/472",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "D/1884/99/1009/10/353",
+      "id": "Unknown-766824",
+      "source_id": "D/1884/99/1009/10/353",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1885/99/1009/15/163",
+      "id": "Glasgow-4304",
+      "source_id": "U/1885/99/1009/15/163",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1885/100/1009/10/174",
+      "id": "Glasgow-4287",
+      "source_id": "U/1885/100/1009/10/174",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1886/100/1009/10/277",
+      "id": "Glasgow-4319",
+      "source_id": "U/1886/100/1009/10/277",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "D/1887/99/1009/12/157",
+      "id": "Glasgow-4187",
+      "source_id": "D/1887/99/1009/12/157",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1889/99/1009/17/238",
+      "id": "Glasgow-4252",
+      "source_id": "U/1889/99/1009/17/238",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "D/1892/99/1009/14/60",
+      "id": "Unknown-766823",
+      "source_id": "D/1892/99/1009/14/60",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1892/99/1009/18/408",
+      "id": "Glasgow-4253",
+      "source_id": "U/1892/99/1009/18/408",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "D/1892/99/1009/14/124",
+      "id": "Glasgow-4190",
+      "source_id": "D/1892/99/1009/14/124",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1893/99/1009/19/226",
+      "id": "Glasgow-4320",
+      "source_id": "U/1893/99/1009/19/226",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1893/100/1009/12/30",
+      "id": "Glasgow-4288",
+      "source_id": "U/1893/100/1009/12/30",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1894/99/1009/19/411",
+      "id": "Glasgow-4282",
+      "source_id": "U/1894/99/1009/19/411",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "D/1896/99/1009/15/376",
+      "id": "Unknown-766797",
+      "source_id": "D/1896/99/1009/15/376",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1896/99/1009/20/441",
+      "id": "Glasgow-4305",
+      "source_id": "U/1896/99/1009/20/441",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1897/99/1009/21/61",
+      "id": "Glasgow-4283",
+      "source_id": "U/1897/99/1009/21/61",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "D/1898/99/1009/16/199",
+      "id": "Glasgow-4196",
+      "source_id": "D/1898/99/1009/16/199",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1898/99/1009/21/263",
+      "id": "Glasgow-4254",
+      "source_id": "U/1898/99/1009/21/263",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1898/99/1009/21/321",
+      "id": "Glasgow-4255",
+      "source_id": "U/1898/99/1009/21/321",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1898/99/1009/21/430",
+      "id": "Glasgow-4306",
+      "source_id": "U/1898/99/1009/21/430",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "D/1899/99/1009/16/482",
+      "id": "Glasgow-4197",
+      "source_id": "D/1899/99/1009/16/482",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "D/1900/99/1009/17/226",
+      "id": "Glasgow-4211",
+      "source_id": "D/1900/99/1009/17/226",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1902/99/1009/23/121",
+      "id": "Glasgow-4256",
+      "source_id": "U/1902/99/1009/23/121",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1903/99/1009/23/463",
+      "id": "Glasgow-4257",
+      "source_id": "U/1903/99/1009/23/463",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "M/1864/T1/1447/2/35",
+      "id": "Glasgow-4340",
+      "source_id": "M/1864/T1/1447/2/35",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "D/1865/179/1022/1/245",
+      "id": "Glasgow-4199",
+      "source_id": "D/1865/179/1022/1/245",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1865/183/1022/1/421",
+      "id": "Glasgow-4316",
+      "source_id": "U/1865/183/1022/1/421",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "D/1869/183/1022/2/430",
+      "id": "Unknown-766826",
+      "source_id": "D/1869/183/1022/2/430",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1870/183/1022/4/216",
+      "id": "Glasgow-4245",
+      "source_id": "U/1870/183/1022/4/216",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "D/1879/183/1022/6/164",
+      "id": "Unknown-766827",
+      "source_id": "D/1879/183/1022/6/164",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "D/1888/179/1022/11/59",
+      "id": "Unknown-766800",
+      "source_id": "D/1888/179/1022/11/59",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "D/1889/179/1022/11/358",
+      "id": "Unknown-766801",
+      "source_id": "D/1889/179/1022/11/358",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "D/1890/183/1022/9/186",
+      "id": "Unknown-766798",
+      "source_id": "D/1890/183/1022/9/186",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1891/179/1022/19/268",
+      "id": "Glasgow-4280",
+      "source_id": "U/1891/179/1022/19/268",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "D/1887/227/1023/9/208",
+      "id": "Unknown-766802",
+      "source_id": "D/1887/227/1023/9/208",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "M/1885/P1/2079/3/109",
+      "id": "Glasgow-4341",
+      "source_id": "M/1885/P1/2079/3/109",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1864/197/1024/1/161",
+      "id": "Glasgow-4281",
+      "source_id": "U/1864/197/1024/1/161",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "U/1896/201/1024/28/164",
+      "id": "Glasgow-4246",
+      "source_id": "U/1896/201/1024/28/164",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    },
+    {
+      "registration": "D/1898/201/1024/25/189",
+      "id": "Unknown-766828",
+      "source_id": "D/1898/201/1024/25/189",
+      "verified_live": true,
+      "verification": "verify_groni_live_ledger.py",
+      "action": "verified_live_creation"
+    }
+  ]
+}

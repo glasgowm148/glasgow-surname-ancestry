@@ -1,0 +1,21 @@
+/* Narrow release-readiness overrides. Loaded only by repaired public pages. */
+.release-ready .crumb,.release-ready .crumb a{color:#315544;font-size:.875rem}
+.release-ready .profile-stat-strip span{color:#365747;font-size:.75rem;font-weight:700}
+.release-ready .person-dossier .actions .button.secondary{color:#244435;background:#fbfcf7;border-color:#789084}
+.release-ready .statistics-label,.release-ready .statistics-label a{color:#294f3f}
+.release-ready .statistics-label small{color:#3b584b;font-size:.72rem;font-weight:600}
+.release-ready .kicker{color:#6d4c1d}
+.release-ready .lede,.release-ready footer,.release-ready #compare-status,.release-ready #place-count{color:#405a4d}
+.release-ready .latest-research{margin:32px 0;padding:24px;border:1px solid #c8d5c9;border-radius:14px;background:#f8faf5}
+.release-ready .latest-research-heading>p{max-width:74ch}
+.release-ready .latest-research-links{display:flex;flex-wrap:wrap;gap:12px 20px;margin:18px 0}
+.release-ready .latest-research-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px}
+.release-ready .latest-research-entry{padding:16px;border:1px solid #d4ddd2;border-radius:10px;background:#fff}
+.release-ready .latest-research-entry time{display:block;color:#405a4d;font-size:.82rem;font-weight:700}
+.release-ready .latest-research-entry h3{margin:7px 0;font-size:1.12rem}
+.release-ready .latest-research-entry p{line-height:1.55}
+.release-ready .latest-research-identity{display:grid;gap:5px;margin:12px 0;font-size:.82rem}
+.release-ready .latest-research-identity div{display:grid;grid-template-columns:58px 1fr;gap:8px}
+.release-ready .latest-research-identity dt{font-weight:700}.release-ready .latest-research-identity dd{margin:0}
+
+.release-ready #compare-submit{color:#fff;background:#315641;border-color:#315641}

@@ -365,7 +365,7 @@ Samuel's notice supplies a valuable **Kilrea origin**, but it does not say Rober
 
 ### Conclusion
 
-The best-supported reconstruction is: **Robert Glasgow, early Prescott shipbuilder (reported died 1856), was brother of [[Glasgow-4010|Samuel Glasgow]], born about 1801 in Ireland, Kilrea emigrant of 1831 and Prescott general merchant (reported died 1866).** Samuel's identity and the brotherhood are strong from the original census, the inspected will, and the convergent migration/occupation evidence. No source yet gives the siblings' parents or Robert's birthplace. This cluster is an important Kilrea collateral lead, not evidence for the parentage of [[Glasgow-3905|Adam Glasgow]]. Samuel's [created-profile record](../Glasgow-4010/1851_Canada_West_Prescott_Samuel_Glasgow.md) is resolved; [Robert](../../surname-research/new-people/1842_Canada_West_Prescott_Robert_Glasgow.md) remains on hold.
+The best-supported reconstruction is: **Robert Glasgow, early Prescott shipbuilder (reported died 1856), was brother of [[Glasgow-4010|Samuel Glasgow]], born about 1801 in Ireland, Kilrea emigrant of 1831 and Prescott general merchant (reported died 1866).** Samuel's identity and the brotherhood are strong from the original census, the inspected will, and the convergent migration/occupation evidence. No source yet gives the siblings' parents or Robert's birthplace. This cluster is an important Kilrea collateral lead, not evidence for the parentage of [[Glasgow-3905|Adam Glasgow]]. Samuel's [created-profile record](../Glasgow-4010/1851_Canada_West_Prescott_Samuel_Glasgow.md) is resolved; [Robert](../../research/Glasgow-4150/1842_Canada_West_Prescott_Robert_Glasgow.md) remains on hold.
 
 
 ## Superseding original-deed inspection — 13 September 2026

@@ -28,3 +28,7 @@ Profile prose and trees remain leads; inspect the cited record before treating a
 ### External source links present
 
 - None detected outside WikiTree and sponsored Ancestry links.
+
+## Source findings — GRONI death image, 23 September 2026
+
+Death register image viewed on GRONI (D/1868/27/1005/2/324, Ballymoney entry 324): died 31 March 1868 in Ballymoney Workhouse; married labourer, 71; cancer, one year. The informant was John Stewart, workhouse officer. This is a weak fit for the 1834 Lisnagaver tithe farmer or the citation brother Robert; the entry neither confirms nor excludes either identity. Live profile updated 23 September 2026: exact date and workhouse place set as certain, and a research note added.

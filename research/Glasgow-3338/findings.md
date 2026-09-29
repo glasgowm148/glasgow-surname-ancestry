@@ -1,3 +1,23 @@
+# Robert Glasgow — Glasgow-3338
+
+Last updated: 2026-09-27
+
+## Current conclusion — duplicate merge
+
+Glasgow-4149 was merged into Glasgow-3338 on 27 September 2026. The 1665 St Cuthbert's baptism gives an Edinburgh-area candidate who would have been about 29 when a Robert Glasgow served Alexander Ainslie in neighbouring North Leith in 1694. The July receipt and October poll-tax entry identify the same adult by employer and business. Neither adult record names parents; connecting that adult to the baptised child is a qualified inference. The former birth estimate of about 1670 and the inferred North Leith birthplace are retained as research history, while the 1665 indexed baptism is the structured early date.
+
+## Source findings — merged adult record
+
+- [NRS GD112/15/59](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD112%2F15%2F59), item 24: Robert gave the 16 July 1694 bottle receipt in Ainslie's name.
+- NRS E70/4/10, image 11: Robert appears as a servant in Ainslie's North Leith household on 3 October 1694. These records do not call him a glassmaker.
+- [FamilySearch baptism index](https://www.familysearch.org/ark:/61903/1:1:F316-F84), supported by the Scotland's People OPR locator below, names James Glasgow and Annapill Glasse as parents of the 1665 child.
+
+## Unresolved questions
+
+Inspect the original 1665 baptism, 1694 poll-tax image and Ainslie papers for a direct identifier. The 1676 Glencorse Robert remains an alternative adult candidate, but has a weaker locality and age fit.
+
+## Prior assessment — superseded by merge
+
 # Findings: Robert (Glasgow-3338)
 
 Last updated: 2026-09-10

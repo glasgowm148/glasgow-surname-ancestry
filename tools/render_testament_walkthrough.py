@@ -5,11 +5,16 @@ from html import escape
 from pathlib import Path
 import json
 import re
+try:
+    from tools.public_manuscript_previews import approved_preview
+except ModuleNotFoundError:
+    from public_manuscript_previews import approved_preview
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "research/transcriptions/walkthroughs"
 LETTERFORM_DATA = ROOT / "research/transcriptions/letterforms"
 STATUSES = {"explicit": "Stated in the record", "uncertain": "Reading uncertain", "comparison": "Identity comparison"}
+WITHHELD_NOTICE = "Licensed scan withheld; consult cited source"
 
 
 def e(value):
@@ -95,31 +100,32 @@ def step_id(step, number):
 
 def preview_walkthrough(ident, original=None):
     data = load_walkthrough(ident)
-    if not data or not data.get("steps"):
-        if original:
-            return (f'<a class="tx-preview" href="/research/transcriptions/{e(ident)}/" tabindex="-1" aria-hidden="true">'
-                    f'<img src="{e(image_url(original))}" alt="" loading="lazy" decoding="async">'
-                    '<span>Original supplied; fresh reading pending</span></a>')
+    steps = (data or {}).get("steps", [])
+    first = steps[0] if steps else original
+    if not first:
         return '<div class="tx-preview-missing">Illustrated walkthrough not yet prepared</div>'
-    first = data["steps"][0]
+    if not approved_preview(first.get("image")):
+        return f'<p class="tx-licensed-withheld">{WITHHELD_NOTICE}</p>'
+    label = f'{len(steps)} illustrated passages' if steps else 'Original supplied; fresh reading pending'
     return (f'<a class="tx-preview" href="/research/transcriptions/{e(ident)}/" tabindex="-1" aria-hidden="true">'
             f'<img src="{e(image_url(first))}" alt="" loading="lazy" decoding="async">'
-            f'<span>{len(data["steps"])} illustrated passages</span></a>')
+            f'<span>{e(label)}</span></a>')
 
 
 def render_supplied_original(item, sources):
     original = item.get("original_preview")
     figure = ""
     if original:
-        url = image_url(original)
-        caption = original.get("page_label", item.get("record", "Supplied original"))
-        figure = (f'<figure class="tx-evidence-figure"><a href="{e(url)}" '
-                  'aria-label="Enlarge supplied original page">'
-                  f'<div class="tx-image-frame"><img src="{e(url)}" '
-                  f'alt="{e(original.get("alt", caption))}" loading="lazy" decoding="async"></div></a>'
-                  f'<figcaption>{e(caption)}. Click to enlarge. '
-                  '&copy; Crown copyright, National Records of Scotland / ScotlandsPeople. '
-                  'Unannotated source preview, not a completed transcription.</figcaption></figure>')
+        if approved_preview(original.get("image")):
+            url = image_url(original)
+            caption = original.get("page_label", item.get("record", "Supplied original"))
+            figure = (f'<figure class="tx-evidence-figure"><a href="{e(url)}" aria-label="Enlarge supplied original page">'
+                      f'<div class="tx-image-frame"><img src="{e(url)}" alt="{e(original.get("alt", caption))}" '
+                      'loading="lazy" decoding="async"></div></a>'
+                      f'<figcaption>{e(caption)}. Click to enlarge. &copy; Crown copyright, National Records of Scotland / ScotlandsPeople. '
+                      'Unannotated source preview, not a completed transcription.</figcaption></figure>')
+        else:
+            figure = f'<p class="tx-licensed-withheld">{WITHHELD_NOTICE}</p>'
     files = "".join(f'<li><code>{e(path)}</code></li>' for path in sources)
     return ('<section class="tx-image-pending"><p class="r-kicker">Original supplied</p>'
             '<h2>The manuscript is available.</h2>'
@@ -155,6 +161,10 @@ def marks_markup(marks):
 
 
 def word_studies_markup(step):
+    return _illustrated_word_studies_markup(step) if approved_preview(step.get("image")) else ""
+
+
+def _illustrated_word_studies_markup(step):
     studies = [(number, mark) for number, mark in enumerate(step.get("marks", []), 1)]
     studies += [(None, word) for word in step.get("word_studies", [])]
     cards = []
@@ -225,24 +235,28 @@ def render_walkthrough(review):
     passages = []
     for number, step in enumerate(steps, 1):
         ident = step_id(step, number)
-        url = image_url(step)
         overlay, key = marks_markup(step.get("marks", []))
         caption = step.get("page_label", review["record"])
+        if approved_preview(step.get("image")):
+            url = image_url(step)
+            figure = (f'<a class="tx-image-link" href="{e(url)}" data-tx-zoom data-tx-caption="{e(caption)}" '
+                      f'aria-label="Enlarge manuscript crop: {e(step["title"])}">'
+                      f'<div class="tx-image-frame"><img src="{e(url)}" alt="{e(step.get("alt", step["original"]))}" '
+                      f'loading="lazy" decoding="async">{overlay}</div></a>'
+                      '<div class="tx-image-tools"><span>Click the manuscript to enlarge</span>'
+                      '<button type="button" data-tx-toggle aria-pressed="true">Highlights on</button></div>'
+                      + key + f'<figcaption>{e(caption)}. Cropped from the supplied original; '
+                      '&copy; Crown copyright, National Records of Scotland / ScotlandsPeople. '
+                      'Coloured boxes are reading aids, not part of the manuscript.</figcaption>')
+        else:
+            figure = f'<p class="tx-licensed-withheld">{WITHHELD_NOTICE}</p><figcaption>{e(caption)}. {WITHHELD_NOTICE}.</figcaption>'
         passages.append(
             f'<article class="tx-passage" id="passage-{e(ident)}" aria-labelledby="heading-{e(ident)}">'
             '<header class="tx-passage-head">'
             f'<span class="tx-passage-number" aria-hidden="true">{number:02}</span><div>'
             f'<p class="r-kicker">{e(caption)}</p><h2 id="heading-{e(ident)}">{e(step["title"])}</h2></div></header>'
             '<div class="tx-passage-grid"><figure class="tx-evidence-figure">'
-            f'<a class="tx-image-link" href="{e(url)}" data-tx-zoom data-tx-caption="{e(caption)}" '
-            f'aria-label="Enlarge manuscript crop: {e(step["title"])}">'
-            f'<div class="tx-image-frame"><img src="{e(url)}" alt="{e(step.get("alt", step["original"]))}" '
-            f'loading="lazy" decoding="async">{overlay}</div></a>'
-            '<div class="tx-image-tools"><span>Click the manuscript to enlarge</span>'
-            '<button type="button" data-tx-toggle aria-pressed="true">Highlights on</button></div>'
-            + key + f'<figcaption>{e(caption)}. Cropped from the supplied original; '
-            '&copy; Crown copyright, National Records of Scotland / ScotlandsPeople. '
-            'Coloured boxes are reading aids, not part of the manuscript.</figcaption></figure>'
+            + figure + '</figure>'
             '<div class="tx-reading-guide"><p class="tx-guide-label">On the page</p>'
             f'<blockquote class="tx-literal">{e(step["original"])}</blockquote>'
             '<p class="tx-guide-label">In modern English</p>'

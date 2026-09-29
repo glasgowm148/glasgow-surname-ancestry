@@ -36,6 +36,10 @@ def page(template, title, body, url):
     text = re.sub(r'<main\b[^>]*>.*?</main>', lambda _: '<main id="main"><h1>' + escape(title) + '</h1>' + body + '</main>', text, count=1, flags=re.S)
     text = re.sub(r'<script data-clean-index-redirect>.*?</script>', '', text, flags=re.S)
     text = re.sub(r'<link rel="canonical"[^>]*>', f'<link rel="canonical" href="https://glasgow.phenotype.dev{url}">', text)
+    # Browse pages are written at several depths (/catalogue/browse/page-N.html,
+    # /branches/browse/); the data/ template's ../-relative asset and nav links
+    # only resolve from /data/, so hoist local refs to root-relative.
+    text = re.sub(r'((?:href|src)=["\'])(?:\.\./)+', r'\1/', text)
     return text
 
 
@@ -94,7 +98,7 @@ def repair():
     manifest.update(build_id=build_id, generated_at=old.get('generated_at') if old.get('build_id') == build_id else datetime.now(timezone.utc).isoformat(timespec='seconds'))
     write(old_path, manifest)
     chunk_links = ''.join(f'<li>{escape(d["name"].title())}: {d["count"]:,} entries — ' + ' · '.join(f'<a href="{c["url"]}">{i + 1}</a>' for i, c in enumerate(d['chunks'])) + '</li>' for d in datasets)
-    body = f'<section aria-labelledby="access-title"><h2 id="access-title">Current data and small downloads</h2><p><a href="/data/manifest.json"><strong>Build manifest (JSON)</strong></a> · Build <code>{build_id}</code> · Assembled {escape(manifest["generated_at"])}. Latest dated person research or review: {escape(manifest["latest_research_update"] or "not recorded")}.</p><p>Start with the small indexes below, then follow each person’s JSON link for the current resolved dossier. Approved reviews override imported fields; <code>imported</code> preserves the original values and provenance. Unreviewed fields retain their existing qualifications. The bulk <code>people.json</code> export is an imported research snapshot, not the reviewed interface.</p><p>The manifest records dataset scopes, entry counts, byte sizes and SHA-256 hashes. Re-fetch it when resuming research; a changed build identifier means the listed data changed. Build time is separate from research dates.</p><ul>{chunk_links}</ul><p><a href="/catalogue/browse/">Browse all people without JavaScript</a> · <a href="/branches/browse/">Browse all family groups without JavaScript</a></p></section>'
+    body = f'<section class="data-access" aria-labelledby="access-title"><div class="data-section-head"><span class="r-kicker">Current release</span><h2 id="access-title">Current data and small downloads.</h2></div><p><a href="/data/manifest.json"><strong>Build manifest (JSON)</strong></a> · Build <code>{build_id}</code> · Assembled {escape(manifest["generated_at"])}. Latest dated person research or review: {escape(manifest["latest_research_update"] or "not recorded")}.</p><p>Start with the small indexes below, then follow each person’s JSON link for the current resolved dossier. Approved reviews override imported fields; <code>imported</code> preserves the original values and provenance. Unreviewed fields retain their existing qualifications. The bulk <code>people.json</code> export is an imported research snapshot, not the reviewed interface.</p><p>The manifest records dataset scopes, entry counts, byte sizes and SHA-256 hashes. Re-fetch it when resuming research; a changed build identifier means the listed data changed. Build time is separate from research dates.</p><details class="data-chunks"><summary>Browse small JSON chunks</summary><ul>{chunk_links}</ul></details><p class="data-browse-links"><a href="/catalogue/browse/">Browse all people without JavaScript</a> · <a href="/branches/browse/">Browse all family groups without JavaScript</a></p></section>'
     block(WEB / 'data/index.html', 'research-access', body)
     llms_path = WEB / 'llms.txt'
     if llms_path.exists():

@@ -1,6 +1,6 @@
 # Findings: [William Glasgow (Glasgow-1505), Larne, died about 1783](https://www.wikitree.com/wiki/Glasgow-1505)
 
-Last updated: 2026-08-11
+Last updated: 2026-09-21
 
 ## Current conclusion
 
@@ -9,7 +9,7 @@ Larne and Kilwaughter congregational accounts probably identifies him as
 `William Glasgow Major` when the mortcloth was lodged with him in 1734, and
 records William handling mortcloth money in 1739/40, 1741 and 1743. Registry
 memorial 62131 independently places William as an adjoining Larne occupier in
-March 1736. These adult occurrences cannot belong to William `Glasgow-3962`,
+March 1736. These adult occurrences cannot belong to [William Glasgow-3326](https://www.wikitree.com/wiki/Glasgow-3326),
 born in 1730.
 
 The reported birth about 1708 and death about 1783 remain estimates. The exact
@@ -23,9 +23,10 @@ Derryloran return or the William of Killycoragh in the 1770 probate index. No
 record moves William-1505 from County Antrim to those County Tyrone localities.
 
 Registry memorial 62131 independently places William Glasgow as an adjoining
-occupier at Larne by March 1736. PRONI's catalogue now confirms a 10 March 1736
-lease to William and Hugh Glasgow jointly (`D300/2/1/100/3A-B`) and a related
-lease with 1751 and 1767 new-life endorsements (`D2977/3A/4/81/72A`). The same
+occupier at Larne by March 1736. The inspected original memorial 63221 confirms
+a **10 March 1736** lease to William and Hugh Glasgow jointly (`D300/2/1/100/3A-B`)
+and a related lease with 1751 and 1767 new-life endorsements
+(`D2977/3A/4/81/72A`); its measuring lives are royal lives, not family members. The same
 1736 title was renewed to Elizabeth Glasgow, widow of Larne, in 1824. This is a
 strong property association and a possible descendant chain, but none of the
 catalogue abstracts states that William and Hugh were brothers or identifies
@@ -51,6 +52,8 @@ reported shared memorial is unresolved.
 | [Registry memorial 62131](https://www.irishdeedsindex.net/mem.php?memorial=62131), deed 10 March 1736 | A Larne lease describes William Glasgow as the western adjoining occupier. | Direct early Larne residence/landholding context; no kin. |
 | PRONI `D300/2/1/100/3A` and `3B`, 10 March 1736 | Leases New Town of Larne tenements jointly to William and Hugh Glasgow, both of Larne. | Direct official catalogue description of a close property association; no kin term. |
 | PRONI `D2977/3A/4/81/72A`, underlying lease 10 March 1736, endorsed 1751 and 1767 | Lease to William and Hugh; new lives inserted at their request. | Original endorsements are priority targets because the catalogue omits the lives' names. |
+| [Memorial 63221, FamilySearch image 542](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSN1-FXR2), original lease dated 10 March 1736, registered 10 April 1738 | William and Hugh Glasgow of Larne jointly leased two north-side Newtown tenements. Frontages were 23 and 32 feet; witnesses were James Stenhouse and William Harrison. The lives were George II, Frederick Prince of Wales and Prince William Augustus. | Original inspected record; confirms association and corrects the former 12 March date, but names no kin. |
+| [Memorial 159181, FamilySearch images 257–258](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJM-MJX4), deed poll 4 June 1757, manuscript pp.473–474 | A conditional assignment refers to a head lease granted by William and Hugh Glasgow of Larne. | Original inspected record; new joint-lessor occurrence by 1757, with no head-lease date, heir, parent or kinship statement. |
 | PRONI `D300/2/1/100/69` and `D2977/3A/4/81/72B`, 9 August 1824 | The 1736 lease was renewed to Elizabeth Glasgow, widow of Larne. | Potential succession evidence, but the abstract does not identify her late husband or relationship to either original lessee. |
 | [Archived Kilwaughter chronology](https://web.archive.org/web/20101124184247id_/http://lifesweaving.com/Glasgow/Kilwaughter/Timeline.html) | Reports a 1737 James under Hugh, a later ropemaker household with Janet Shutter, and conflicting gravestone-derived dates for the older William. | Derivative reconstruction containing valuable leads and internal conflicts; it cannot settle William's dates, parentage or children without the underlying register and stones. |
 | [Bigger and Hughes, Larne churchyard inscriptions](https://archive.org/stream/ulsterjournalofa06ulstiala/ulsterjournalofa06ulstiala_djvu.txt), p. 47 | Publishes Hugh's family stone and the younger William-and-Elizabeth family stone, but not a complete inscription proving an older William dated 1708-1783. | Negative check against treating the alleged older William stone or a William-and-James relationship as published monument evidence. |
@@ -132,3 +135,15 @@ None of these records names William's father, wife, or children. Later William
 Glasgow occurrences in Larne in 1802-1805 and the 1810s belong to a younger
 namesake generation and cannot be assigned to this profile from name and place
 alone.
+
+## Batch evidence update — 21 September 2026
+
+A manuscript-checked deed dated 12 May 1772 names **Wm Glasgow of Larne** as a witness; it was registered 9 November 1784. This is an adult Larne occurrence which could belong to William-1505 or the younger William-3326: it names no occupation, age or relative, and registration does not prove survival to 1784. It strengthens neither William's uncertain father attachment nor a descent from Robert-1502. Source: [Registry of Deeds, Miller to Drennan, image 166, manuscript p. 315](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSH3-SQLT-3).
+
+## Live profile update — 21 September 2026, further records
+
+Saved and verified the original-deed source additions and their identity limits. No structured family or vital fields changed. [Complete saved biography](pre1710-record-update-2026-09-21.wiki).
+
+## Verified live joint-lease update — 21 September 2026
+
+The 1736 source corrections and new 1757 assignment reference were saved through the browser and read back exactly from WikiTree. Family fields remain unchanged. [Complete saved biography](joint-lease-update-2026-09-21.wiki); [verification](../larne-pre1710-2026-09-21/continuation-live-verification.json).

@@ -286,14 +286,14 @@
         "role": "Child in the household",
         "timeline_group": "Life events"
       },
-    "Glasgow-973": {
-      "role": "Child in the household",
-      "timeline_group": "Life events"
-    },
-    "McCaughan-222": {
-      "role": "Wife of Alexander and mother in the household",
-      "timeline_group": "Life events"
-    }
+      "Glasgow-973": {
+        "role": "Child in the household",
+        "timeline_group": "Life events"
+      },
+      "McCaughan-222": {
+        "role": "Wife of Alexander and mother in the household",
+        "timeline_group": "Life events"
+      }
     }
   },
   {
@@ -328,9 +328,18 @@
     "source_url": "https://civilrecords.irishgenealogy.ie/churchrecords/images/birth_returns/births_1889/02466/1915876.pdf",
     "note": "Entry 370 records Sarah Taylor Glasgow on 8 September 1889, daughter of Daniel Glasgow and Mary Jane Glasgow formerly Boyd. Daniel was a labourer residing in New York.",
     "profiles": {
-      "Glasgow-2414": {"role": "Subject", "timeline_group": "Life events"},
-      "Glasgow-2413": {"role": "Father", "timeline_group": "Records mentioning this person"},
-      "Boyd-18548": {"role": "Mother", "timeline_group": "Records mentioning this person"}
+      "Glasgow-2414": {
+        "role": "Subject",
+        "timeline_group": "Life events"
+      },
+      "Glasgow-2413": {
+        "role": "Father",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Boyd-18548": {
+        "role": "Mother",
+        "timeline_group": "Records mentioning this person"
+      }
     }
   },
   {
@@ -344,9 +353,18 @@
     "source_url": "https://civilrecords.irishgenealogy.ie/churchrecords/images/birth_returns/births_1889/02466/1915877.pdf",
     "note": "Entry 371 records Elizabeth Boyd Glasgow on 9 September 1889, daughter of Daniel Glasgow and Mary Jane Glasgow formerly Boyd. Daniel was a labourer residing in New York.",
     "profiles": {
-      "Glasgow-2415": {"role": "Subject", "timeline_group": "Life events"},
-      "Glasgow-2413": {"role": "Father", "timeline_group": "Records mentioning this person"},
-      "Boyd-18548": {"role": "Mother", "timeline_group": "Records mentioning this person"}
+      "Glasgow-2415": {
+        "role": "Subject",
+        "timeline_group": "Life events"
+      },
+      "Glasgow-2413": {
+        "role": "Father",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Boyd-18548": {
+        "role": "Mother",
+        "timeline_group": "Records mentioning this person"
+      }
     }
   },
   {
@@ -360,9 +378,18 @@
     "source_url": "http://www.census.nationalarchives.ie/pages/1901/Londonderry/Kilrea/Tamlaght/1520789/",
     "note": "Sarah T. and Lizzie B. Glasgow, both 11, were recorded as nieces of Hugh S. Boyd; Elizabeth Boyd was recorded as his sister.",
     "profiles": {
-      "Boyd-18548": {"role": "Mother of the two nieces, identified by the combined marriage and birth evidence", "timeline_group": "Collateral records"},
-      "Glasgow-2414": {"role": "Niece in household", "timeline_group": "Life events"},
-      "Glasgow-2415": {"role": "Niece in household", "timeline_group": "Life events"}
+      "Boyd-18548": {
+        "role": "Mother of the two nieces, identified by the combined marriage and birth evidence",
+        "timeline_group": "Collateral records"
+      },
+      "Glasgow-2414": {
+        "role": "Niece in household",
+        "timeline_group": "Life events"
+      },
+      "Glasgow-2415": {
+        "role": "Niece in household",
+        "timeline_group": "Life events"
+      }
     }
   },
   {
@@ -376,8 +403,529 @@
     "source_url": "https://genealogy.torrens.org/BannValley/church/Drimbolg/graveyard.html",
     "note": "The memorial names Mary Jane Glasgow as the beloved sister of Hugh Scott and Joseph A. Boyd, dying 17 September 1958 aged 93, and Elizabeth Boyd Glasgow as their niece, dying 4 January 1933 aged 43.",
     "profiles": {
-      "Boyd-18548": {"role": "Subject: Mary Jane Glasgow", "timeline_group": "Life events"},
-      "Glasgow-2415": {"role": "Niece Elizabeth Boyd Glasgow", "timeline_group": "Life events"}
+      "Boyd-18548": {
+        "role": "Subject: Mary Jane Glasgow",
+        "timeline_group": "Life events"
+      },
+      "Glasgow-2415": {
+        "role": "Niece Elizabeth Boyd Glasgow",
+        "timeline_group": "Life events"
+      }
+    }
+  },
+  {
+    "record_id": "deed-ballykeel-159661-1764",
+    "association": "Robert Glasgow to Hugh Shannon: Ballykeel lease, memorial 159661",
+    "date": "20 December 1764",
+    "year": 1764,
+    "place": "Ballykeel, Kilwaughter, County Antrim",
+    "source_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSH3-33QZ-Y",
+    "source_urls": [
+      "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSH3-33Q6-L",
+      "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSH3-33QZ-Y"
+    ],
+    "reference": "Registry of Deeds memorial 159661, pp.415–416; registered 18 April 1766",
+    "status": "Original registered memorial images reviewed",
+    "source_quality": "original",
+    "note": "The original registered memorial 159661, lease dated 20 December 1764, expressly names Jas Glasgow as son of Robert Glasgow of Ballykeel, Kilwaughter. The register chronology and equity evidence identify the son with James Glasgow-1144; the deed alone does not prove his American migration. Hugh Shannon is not called son-in-law by this lease.",
+    "role": "Lease",
+    "profiles": {
+      "Glasgow-1143": {
+        "role": "Grantor and expressly named father",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1144": {
+        "role": "Named life, Jas, expressly son of Robert",
+        "timeline_group": "Records mentioning this person"
+      }
+    }
+  },
+  {
+    "record_id": "larne-marriage-settlement-1843",
+    "association": "Mary Glasgow and John McGavock intended-marriage settlement; Hugh Glasgow estate",
+    "date": "10 February 1843",
+    "year": 1843,
+    "place": "Larne, County Antrim, Ireland",
+    "source_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJW-FQ3Q",
+    "status": "Original images inspected; kinship unstated",
+    "note": "Affidavit 14 February; registered 18 February 1843; continuation image 3Q9M-CSJW-F3BZ. £250 to be paid by deceased Hugh Glasgow’s trustees or executors. Full book and memorial reference pending.",
+    "profiles": {
+      "Glasgow-4180": {
+        "role": "Deceased testator; relationship to bride unstated"
+      },
+      "Glasgow-4181": {
+        "role": "Intended bride"
+      },
+      "Glasgow-3991": {
+        "role": "Proposed father of Hugh; not named in this settlement. The document establishes Hugh’s deceased estate and the intended bride, not the proposed parent-child link."
+      }
+    }
+  },
+  {
+    "record_id": "glasgow-protocol-2903-1586",
+    "association": "George Glasgow served heir of deceased father William Glasgow",
+    "date": "15 July 1586",
+    "year": 1586,
+    "place": "Glasgow, Lanarkshire, Scotland",
+    "source_url": "https://archive.org/details/abstractsprotoc01scogoog/page/n113/mode/2up",
+    "status": "Published abstract of contemporary sasine; inspected",
+    "note": "Robert Renwick, ed., Abstracts of Protocols of the Town Clerks of Glasgow, vol. 9, protocol 2903, p. 103. George is called heir of deceased William Glasgow, his father. The property boundaries match protocol 2916.",
+    "profiles": {
+      "Glasgow-1099": {
+        "role": "Son and heir"
+      },
+      "Glasgow-3522": {
+        "role": "Father, deceased"
+      },
+      "Glasgow-1029": {
+        "role": "Witness to George’s inheritance"
+      }
+    }
+  },
+  {
+    "record_id": "glasgow-protocol-2916-1586",
+    "association": "George Glasgow sold inherited property with mother Margaret Herbesoun consenting",
+    "date": "1 September 1586",
+    "year": 1586,
+    "place": "Glasgow, Lanarkshire, Scotland",
+    "source_url": "https://archive.org/details/abstractsprotoc01scogoog/page/n116/mode/2up",
+    "status": "Published abstract of contemporary sasine; inspected",
+    "note": "Robert Renwick, ed., Abstracts of Protocols of the Town Clerks of Glasgow, vol. 9, protocol 2916, p. 107. Margaret Herbesoun is expressly called George’s mother and liferenter. The property boundaries match protocol 2903.",
+    "profiles": {
+      "Glasgow-1099": {
+        "role": "Son and seller"
+      },
+      "Herbison-439": {
+        "role": "Mother and liferenter"
+      },
+      "Glasgow-1029": {
+        "role": "George’s curator"
+      }
+    }
+  },
+  {
+    "record_id": "glasgow-protocol-1196-1534",
+    "association": "John Glasgow and Janet Spreull received property as spouses",
+    "date": "31 December 1534",
+    "year": 1534,
+    "place": "Glasgow, Lanarkshire, Scotland",
+    "source_url": "https://archive.org/details/abstractsprotoc08robegoog/page/n84/mode/2up",
+    "status": "Published abstract of contemporary sasine; inspected",
+    "note": "Renwick, Abstracts of Protocols, vol. 4, protocol 1196, p. 72. William Glasgow and Esbell Brade conveyed property to their son John and Janet Spreull, John’s spouse. It does not name their children.",
+    "profiles": {
+      "Glasgow-1093": {
+        "role": "Son of grantors and husband of Janet"
+      },
+      "Spreull-4": {
+        "role": "John’s named spouse"
+      }
+    }
+  },
+  {
+    "record_id": "glasgow-protocol-847-1565",
+    "association": "John Glasgow transferred a tenement to son William while reserving liferent to Jonet Spreull",
+    "date": "24 August 1565",
+    "year": 1565,
+    "place": "Glasgow, Lanarkshire, Scotland",
+    "source_url": "https://archive.org/details/abstractsprotoc06scogoog/page/n85/mode/2up",
+    "status": "Published abstract of contemporary sasine; inspected",
+    "note": "Renwick, Abstracts of Protocols, vol. 3, protocol 847, p. 73. John calls William his son and Jonet his spouse; the act does not expressly call her William’s mother.",
+    "profiles": {
+      "Glasgow-1093": {
+        "role": "Father and grantor"
+      },
+      "Glasgow-3522": {
+        "role": "John’s named son"
+      },
+      "Spreull-4": {
+        "role": "John’s spouse and liferenter"
+      }
+    }
+  },
+  {
+    "record_id": "glasgow-protocol-2189-1575",
+    "association": "Stephen Glasgow sold property with consent of mother Jonet Spreull",
+    "date": "17 June 1575",
+    "year": 1575,
+    "place": "Glasgow, Lanarkshire, Scotland",
+    "source_url": "https://archive.org/details/abstractsprotoc00robegoog/page/n126/mode/2up",
+    "status": "Published abstract of contemporary sasine; inspected",
+    "note": "Renwick, Abstracts of Protocols, vol. 7, protocol 2189, p. 110. Stephen is called son of the late John Glasgow, and Jonet Spreull is expressly called Stephen’s mother and liferenter.",
+    "profiles": {
+      "Glasgow-1029": {
+        "role": "Son of John and Jonet, seller"
+      },
+      "Glasgow-1093": {
+        "role": "Father, deceased"
+      },
+      "Spreull-4": {
+        "role": "Mother and liferenter"
+      }
+    }
+  },
+  {
+    "record_id": "nrs-gd39-5-59-1571",
+    "association": "James Glasgow elder and sons James and John at Corsinkell",
+    "date": "9 February 1571",
+    "year": 1571,
+    "place": "Corsinkell, Stevenston, Ayrshire, Scotland",
+    "source_url": "https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD39%2F5%2F59",
+    "status": "Official archival catalogue abstract; original open/off site",
+    "note": "NRS GD39/5/59, letters of reversion by Marion Cunninghame concerning the 40-shilling land of Corsinkell. The occupier clause names James Glasgow elder and James and John Glasgow, his sons, alongside Christian Campbell. It does not name the sons’ mother or identify John’s proposed earlier Kilwinning holdings. Official catalogue wording freshly reviewed 27 September 2026.",
+    "profiles": {
+      "Glasgow-1168": {
+        "role": "Father and occupier"
+      },
+      "Glasgow-3921": {
+        "role": "Named son and occupier"
+      },
+      "Glasgow-3193": {
+        "role": "Named son and occupier; earlier Kilwinning events separately probable"
+      }
+    }
+  },
+  {
+    "record_id": "nrs-cc8-8-32-andrew-1598",
+    "association": "Andrew Glasgow names his daughter Jonet in his testament",
+    "date": "6 February 1597/8; confirmed 10 July 1598",
+    "year": 1598,
+    "place": "[Corsoun?], parish [Calder Cleir?], Midlothian, Scotland",
+    "source_url": "https://www.scotlandspeople.gov.uk/search-records/legal-records/wills",
+    "status": "Original NRS register images inspected; selected family clauses freshly reviewed 27 September 2026",
+    "note": "NRS Edinburgh Commissary Court CC8/8/32, images 123–124. The distribution clause names his son and [dochter… struck through] Marione, Jonet, Isobell within the children’s provision. Direct daughter evidence; no connection to the 1624 Ramsy marriage is stated. Working reading: /research/transcriptions/andrew-1598/.",
+    "profiles": {
+      "Glasgow-3163": {
+        "role": "Testator and father"
+      },
+      "Glasgow-3183": {
+        "role": "Named daughter; 1624 bride attribution separately probable"
+      }
+    }
+  },
+  {
+    "record_id": "glasgow-burgess-ninian-1596",
+    "association": "Ninian Glasgow admitted as Robert Glasgow’s second son",
+    "date": "23 October 1596",
+    "year": 1596,
+    "place": "Glasgow, Lanarkshire, Scotland",
+    "source_url": "https://archive.org/details/scottishrecordso43scotuoft/page/24/mode/2up",
+    "status": "Published transcription of contemporary burgess admission",
+    "note": "James R. Anderson, ed., Burgesses & Guild Brethren of Glasgow, 1573–1750 (Scottish Record Society, 1925), p. 24. Ninian is called second son to Robert Glasgow, fisher, burgess. The entry does not name Marion; its direct father statement is combined with the 1613 sister clause to infer her father. The same combined-evidence inference supports John, Ninian's explicitly named brother; this admission does not itself name John.",
+    "profiles": {
+      "Glasgow-3188": {
+        "role": "Admitted burgess, named second son"
+      },
+      "Glasgow-1096": {
+        "role": "Named father, fisher and burgess"
+      }
+    }
+  },
+  {
+    "record_id": "nrs-cc9-7-9-ninian-1613",
+    "association": "Ninian Glasgow names his brother John and sister Marion",
+    "date": "Testament made 10 January 1613; confirmed 8 May 1613",
+    "year": 1613,
+    "place": "Glasgow, Lanarkshire, Scotland",
+    "source_url": "https://www.scotlandspeople.gov.uk/search-records/legal-records/wills",
+    "status": "Original NRS register images inspected; working family-clause reading",
+    "note": "NRS Glasgow Commissary Court CC9/7/9, images 142–145, family clause on image 144: Marioun glasgw his sist[er], a ten-merk legacy. This directly establishes the sibling relationship. Robert’s inferred parentage comes from combining it with Ninian’s 1596 father statement; the testament does not name Marion’s parents. Working reading: /research/transcriptions/ninian-1613/. The same family passage explicitly calls Johne glasgw his brother. The brother's father is inferred by combining this with the 1596 admission; later identity with the Jonet Mathie husband remains probable.",
+    "profiles": {
+      "Glasgow-3188": {
+        "role": "Testator and brother"
+      },
+      "Glasgow-3062": {
+        "role": "Named sister and legatee"
+      },
+      "Glasgow-1030": {
+        "role": "Named brother represented by this profile; later marriage identity probable"
+      }
+    }
+  },
+  {
+    "record_id": "glasgow-bridgegait-herbertsoun-1582",
+    "association": "Archibald Herbertsoun, fisher: Bridgegait boundary",
+    "date": "18 January 1581/82",
+    "year": 1582,
+    "place": "Bridgegait, Glasgow",
+    "source_url": "https://archive.org/details/abstractsprotoc00scogoog/page/n60/mode/2up",
+    "status": "Published protocol abstract; probable identity",
+    "note": "Renwick, Abstracts of Protocols, vol. 8, protocol 2370, pp. 36–37; Archibald Hegate vol. 1 fol. 31. Both printed pages visually inspected 28 September 2026. A neighbouring property bounded the tenement of Archibald Herbertsoun, fisher, Ninian Schyre’s land and the little common green. Name, craft and street support a probable match to Isobella Glasgow’s husband. No spouse or Glasgow kin is named; no structured vital-date boundary is inferred.",
+    "role": "Property boundary",
+    "profiles": {
+      "Herbison-475": {
+        "role": "Probable owner named as Archibald Herbertsoun, fisher",
+        "timeline_group": "Records mentioning this person",
+        "identification_status": "plausible"
+      },
+      "Glasgow-3916": {
+        "role": "Probable later reference to her record-proved husband; Isobella is not named",
+        "timeline_group": "Collateral records",
+        "identification_status": "plausible"
+      }
+    }
+  },
+  {
+    "record_id": "review-reference-c-father-audit-20260928-bryse-15-bryse-13",
+    "association": "Reviewed relationship source reference",
+    "source_title": "FamilySearch X1RN-H3Y",
+    "source_url": "/people/bryse-13.html#archive-tools",
+    "source_type": "reviewed_reference",
+    "status": "Reference recorded in reviewed assessment; consult the cited record",
+    "note": "FamilySearch X1RN-H3Y",
+    "profiles": {
+      "Bryse-15": {
+        "role": "Source cited by reviewed relationship",
+        "assessment_id": "C-father-audit-20260928-bryse-15-bryse-13"
+      },
+      "Bryse-13": {
+        "role": "Source cited by reviewed relationship",
+        "assessment_id": "C-father-audit-20260928-bryse-15-bryse-13"
+      }
+    },
+    "provenance": {
+      "assessment_id": "C-father-audit-20260928-bryse-15-bryse-13",
+      "reviewed": "2026-09-28",
+      "basis": "Existing reviewed citation; no new record inspection or genealogical assertion."
+    }
+  },
+  {
+    "record_id": "review-reference-c-father-audit-20260928-glasgow-1028-glasgow-1054",
+    "association": "Reviewed relationship source reference",
+    "source_title": "The Mid Calder baptism index of 2 March 1606 names David Glasgow as father; NRS OPR 694/10/9.",
+    "source_url": "/people/glasgow-1054.html#archive-tools",
+    "source_type": "reviewed_reference",
+    "status": "Reference recorded in reviewed assessment; consult the cited record",
+    "note": "The Mid Calder baptism index of 2 March 1606 names David Glasgow as father; NRS OPR 694/10/9.",
+    "profiles": {
+      "Glasgow-1028": {
+        "role": "Source cited by reviewed relationship",
+        "assessment_id": "C-father-audit-20260928-glasgow-1028-glasgow-1054"
+      },
+      "Glasgow-1054": {
+        "role": "Source cited by reviewed relationship",
+        "assessment_id": "C-father-audit-20260928-glasgow-1028-glasgow-1054"
+      }
+    },
+    "provenance": {
+      "assessment_id": "C-father-audit-20260928-glasgow-1028-glasgow-1054",
+      "reviewed": "2026-09-28",
+      "basis": "Existing reviewed citation; no new record inspection or genealogical assertion."
+    }
+  },
+  {
+    "record_id": "review-reference-c-father-audit-20260928-glasgow-1028-glasgow-1085",
+    "association": "Reviewed relationship source reference",
+    "source_title": "The Mid Calder baptism index of 3 May 1612 names David Glasgow as father; NRS OPR 694/10/21.",
+    "source_url": "/people/glasgow-1085.html#archive-tools",
+    "source_type": "reviewed_reference",
+    "status": "Reference recorded in reviewed assessment; consult the cited record",
+    "note": "The Mid Calder baptism index of 3 May 1612 names David Glasgow as father; NRS OPR 694/10/21.",
+    "profiles": {
+      "Glasgow-1028": {
+        "role": "Source cited by reviewed relationship",
+        "assessment_id": "C-father-audit-20260928-glasgow-1028-glasgow-1085"
+      },
+      "Glasgow-1085": {
+        "role": "Source cited by reviewed relationship",
+        "assessment_id": "C-father-audit-20260928-glasgow-1028-glasgow-1085"
+      }
+    },
+    "provenance": {
+      "assessment_id": "C-father-audit-20260928-glasgow-1028-glasgow-1085",
+      "reviewed": "2026-09-28",
+      "basis": "Existing reviewed citation; no new record inspection or genealogical assertion."
+    }
+  },
+  {
+    "record_id": "review-reference-c-father-audit-20260928-glasgow-1030-glasgow-1090",
+    "association": "Reviewed relationship source reference",
+    "source_title": "The Glasgow 1627 baptism names John Glasgow and Jonet Mathie as the lawful child’s parents; High Kirk baptisms, vol.2/436.",
+    "source_url": "/people/glasgow-1090.html#archive-tools",
+    "source_type": "reviewed_reference",
+    "status": "Reference recorded in reviewed assessment; consult the cited record",
+    "note": "The Glasgow 1627 baptism names John Glasgow and Jonet Mathie as the lawful child’s parents; High Kirk baptisms, vol.2/436.",
+    "profiles": {
+      "Glasgow-1030": {
+        "role": "Source cited by reviewed relationship",
+        "assessment_id": "C-father-audit-20260928-glasgow-1030-glasgow-1090"
+      },
+      "Glasgow-1090": {
+        "role": "Source cited by reviewed relationship",
+        "assessment_id": "C-father-audit-20260928-glasgow-1030-glasgow-1090"
+      }
+    },
+    "provenance": {
+      "assessment_id": "C-father-audit-20260928-glasgow-1030-glasgow-1090",
+      "reviewed": "2026-09-28",
+      "basis": "Existing reviewed citation; no new record inspection or genealogical assertion."
+    }
+  },
+  {
+    "record_id": "review-reference-c-father-audit-20260928-glasgow-1557-glasgow-2456",
+    "association": "Reviewed relationship source reference",
+    "source_title": "The Inveresk and Musselburgh baptism index of 1 May 1609 names Eduard Glasgow as father; NRS OPR 689/10/19.",
+    "source_url": "/people/glasgow-2456.html#archive-tools",
+    "source_type": "reviewed_reference",
+    "status": "Reference recorded in reviewed assessment; consult the cited record",
+    "note": "The Inveresk and Musselburgh baptism index of 1 May 1609 names Eduard Glasgow as father; NRS OPR 689/10/19.",
+    "profiles": {
+      "Glasgow-1557": {
+        "role": "Source cited by reviewed relationship",
+        "assessment_id": "C-father-audit-20260928-glasgow-1557-glasgow-2456"
+      },
+      "Glasgow-2456": {
+        "role": "Source cited by reviewed relationship",
+        "assessment_id": "C-father-audit-20260928-glasgow-1557-glasgow-2456"
+      }
+    },
+    "provenance": {
+      "assessment_id": "C-father-audit-20260928-glasgow-1557-glasgow-2456",
+      "reviewed": "2026-09-28",
+      "basis": "Existing reviewed citation; no new record inspection or genealogical assertion."
+    }
+  },
+  {
+    "record_id": "review-reference-c-father-audit-20260928-glasgow-3163-glasgow-3336",
+    "association": "Reviewed relationship source reference",
+    "source_title": "NRS Edinburgh Commissary Court CC8/8/32, images 123–124.",
+    "source_url": "/people/glasgow-3336.html#archive-tools",
+    "source_type": "reviewed_reference",
+    "status": "Reference recorded in reviewed assessment; consult the cited record",
+    "note": "NRS Edinburgh Commissary Court CC8/8/32, images 123–124.",
+    "profiles": {
+      "Glasgow-3163": {
+        "role": "Source cited by reviewed relationship",
+        "assessment_id": "C-father-audit-20260928-glasgow-3163-glasgow-3336"
+      },
+      "Glasgow-3336": {
+        "role": "Source cited by reviewed relationship",
+        "assessment_id": "C-father-audit-20260928-glasgow-3163-glasgow-3336"
+      }
+    },
+    "provenance": {
+      "assessment_id": "C-father-audit-20260928-glasgow-3163-glasgow-3336",
+      "reviewed": "2026-09-28",
+      "basis": "Existing reviewed citation; no new record inspection or genealogical assertion."
+    }
+  },
+  {
+    "record_id": "review-reference-c-father-audit-20260928-glasgow-4152-glasgow-4151",
+    "association": "Reviewed relationship source reference",
+    "source_title": "Glasgow Commissary Court testament dative and inventory",
+    "source_url": "/people/glasgow-4151.html#archive-tools",
+    "source_type": "reviewed_reference",
+    "status": "Reference recorded in reviewed assessment; consult the cited record",
+    "note": "Glasgow Commissary Court testament dative and inventory",
+    "profiles": {
+      "Glasgow-4152": {
+        "role": "Source cited by reviewed relationship",
+        "assessment_id": "C-father-audit-20260928-glasgow-4152-glasgow-4151"
+      },
+      "Glasgow-4151": {
+        "role": "Source cited by reviewed relationship",
+        "assessment_id": "C-father-audit-20260928-glasgow-4152-glasgow-4151"
+      }
+    },
+    "provenance": {
+      "assessment_id": "C-father-audit-20260928-glasgow-4152-glasgow-4151",
+      "reviewed": "2026-09-28",
+      "basis": "Existing reviewed citation; no new record inspection or genealogical assertion."
+    }
+  },
+  {
+    "record_id": "review-reference-c-father-audit-20260928-glasgow-4152-glasgow-4153",
+    "association": "Reviewed relationship source reference",
+    "source_title": "Glasgow Commissary Court testament dative and inventory",
+    "source_url": "/people/glasgow-4153.html#archive-tools",
+    "source_type": "reviewed_reference",
+    "status": "Reference recorded in reviewed assessment; consult the cited record",
+    "note": "Glasgow Commissary Court testament dative and inventory",
+    "profiles": {
+      "Glasgow-4152": {
+        "role": "Source cited by reviewed relationship",
+        "assessment_id": "C-father-audit-20260928-glasgow-4152-glasgow-4153"
+      },
+      "Glasgow-4153": {
+        "role": "Source cited by reviewed relationship",
+        "assessment_id": "C-father-audit-20260928-glasgow-4152-glasgow-4153"
+      }
+    },
+    "provenance": {
+      "assessment_id": "C-father-audit-20260928-glasgow-4152-glasgow-4153",
+      "reviewed": "2026-09-28",
+      "basis": "Existing reviewed citation; no new record inspection or genealogical assertion."
+    }
+  },
+  {
+    "record_id": "review-reference-c-father-audit-20260928-glasgow-991-glasgow-1084",
+    "association": "Reviewed relationship source reference",
+    "source_title": "The Mid Calder baptism index of 18 February 1616 names James Glasgow as father; NRS OPR 694/10/28. Later adult identities are assessed separately.",
+    "source_url": "/people/glasgow-1084.html#archive-tools",
+    "source_type": "reviewed_reference",
+    "status": "Reference recorded in reviewed assessment; consult the cited record",
+    "note": "The Mid Calder baptism index of 18 February 1616 names James Glasgow as father; NRS OPR 694/10/28. Later adult identities are assessed separately.",
+    "profiles": {
+      "Glasgow-991": {
+        "role": "Source cited by reviewed relationship",
+        "assessment_id": "C-father-audit-20260928-glasgow-991-glasgow-1084"
+      },
+      "Glasgow-1084": {
+        "role": "Source cited by reviewed relationship",
+        "assessment_id": "C-father-audit-20260928-glasgow-991-glasgow-1084"
+      }
+    },
+    "provenance": {
+      "assessment_id": "C-father-audit-20260928-glasgow-991-glasgow-1084",
+      "reviewed": "2026-09-28",
+      "basis": "Existing reviewed citation; no new record inspection or genealogical assertion."
+    }
+  },
+  {
+    "record_id": "review-reference-c-father-audit-20260928-glassford-289-glassfuird-1",
+    "association": "Reviewed relationship source reference",
+    "source_title": "The 6 July 1642 Edinburgh apprentice entry expressly calls John son of the late John Glassfuird, minister at Kilwinning; Grant, Register of Apprentices, p.71.",
+    "source_url": "/people/glassfuird-1.html#archive-tools",
+    "source_type": "reviewed_reference",
+    "status": "Reference recorded in reviewed assessment; consult the cited record",
+    "note": "The 6 July 1642 Edinburgh apprentice entry expressly calls John son of the late John Glassfuird, minister at Kilwinning; Grant, Register of Apprentices, p.71.",
+    "profiles": {
+      "Glassford-289": {
+        "role": "Source cited by reviewed relationship",
+        "assessment_id": "C-father-audit-20260928-glassford-289-glassfuird-1"
+      },
+      "Glassfuird-1": {
+        "role": "Source cited by reviewed relationship",
+        "assessment_id": "C-father-audit-20260928-glassford-289-glassfuird-1"
+      }
+    },
+    "provenance": {
+      "assessment_id": "C-father-audit-20260928-glassford-289-glassfuird-1",
+      "reviewed": "2026-09-28",
+      "basis": "Existing reviewed citation; no new record inspection or genealogical assertion."
+    }
+  },
+  {
+    "record_id": "review-reference-c-father-audit-20260928-symington-721-symington-724",
+    "association": "Reviewed relationship source reference",
+    "source_title": "Edinburgh OPR baptism, 2 May 1620 (parish 685/1, ref 20/284), names Williame Symountoun and Issobell Glesgow as William's parents; cited in Glasgow-3336 biography.",
+    "source_url": "/people/symington-724.html#archive-tools",
+    "source_type": "reviewed_reference",
+    "status": "Reference recorded in reviewed assessment; consult the cited record",
+    "note": "Edinburgh OPR baptism, 2 May 1620 (parish 685/1, ref 20/284), names Williame Symountoun and Issobell Glesgow as William's parents; cited in Glasgow-3336 biography.",
+    "profiles": {
+      "Symington-721": {
+        "role": "Source cited by reviewed relationship",
+        "assessment_id": "C-father-audit-20260928-symington-721-symington-724"
+      },
+      "Symington-724": {
+        "role": "Source cited by reviewed relationship",
+        "assessment_id": "C-father-audit-20260928-symington-721-symington-724"
+      }
+    },
+    "provenance": {
+      "assessment_id": "C-father-audit-20260928-symington-721-symington-724",
+      "reviewed": "2026-09-28",
+      "basis": "Existing reviewed citation; no new record inspection or genealogical assertion."
     }
   }
 ]

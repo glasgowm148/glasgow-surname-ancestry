@@ -4,70 +4,89 @@
   "record": "NRS Glasgow Commissary Court CC9/7/9, images 142-145",
   "date": "Died January 1613; testament and confirmation proceedings 1613",
   "reviewed_at": "2026-09-10",
-  "source_files": ["testaments/Glasgow/1613_Niniane.pdf"],
-  "reviewed_pages": ["PDF page 1 / image 142: entry begins midway down; preceding estate excluded", "PDF page 2 / image 143: accounts and damaged opening of latter will", "PDF page 3 / image 144: legacies, witnesses, confirmation and caution", "PDF page 4 / image 145: upper continuation only; following Margaret estate excluded"],
+  "source_files": [
+    "testaments/Glasgow/1613_Niniane.pdf"
+  ],
+  "reviewed_pages": [
+    "PDF page 1 / image 142: entry begins midway down; preceding estate excluded",
+    "PDF page 2 / image 143: accounts and damaged opening of latter will",
+    "PDF page 3 / image 144: legacies, witnesses, confirmation and caution",
+    "PDF page 4 / image 145: upper continuation only; following Margaret estate excluded"
+  ],
   "coverage": "full",
   "transcription": [
-    {"page": "142, opening", "lines": [
-      "The testament testamentar and Inventar",
-      "of the guidis geir debtis and sowmes of money qlkis",
-      "pertenit to umqle Niniane glasgow fischer burges",
-      "of glasgow the tyme of his deceiss Quha deceist in",
-      "the moneth of Januar the zeir of god [1613, numeral expansion]",
-      "zeiris faithfullie maid and gevin up be him selff As far",
-      "As concernis the nominatioun of his ex[ecutouris] And [wording unresolved]",
-      "of debtis awand to him and [wording unresolved] maid & gevin up",
-      "be Jonet hutchesoun & Robert glasgow his [abbreviated roles unresolved]",
-      "he nominat in his Latterwill & testament underwrittin",
-      "[unresolved] as concernis ane p[art] of the debtis awand to him",
-      "As in the said testament & Inventar of the dait",
-      "underwrittin at mair lenth is contenit",
-      "Inventar",
-      "In the first the said umqle Niniane [remaining inventory not fully transcribed]",
-      "[Omitted: livestock/equipment, household goods, valuations and inventory total; no reconstructed numerals supplied]",
-      "Debtis awand In",
-      "[Omitted: beginning of receivables; lower edge damaged]"
-    ]},
-    {"page": "143, accounts and latter will", "lines": [
-      "[Omitted: continuation of receivables; several personal names and monetary figures remain unresolved]",
-      "Summa of the debtis [amount unresolved]",
-      "Summa of the Inventar & debtis [amount unresolved]",
-      "Debtis awand out",
-      "[Omitted: outgoing-debt entries and totals, not safely reconstructed from formulas]",
-      "Restis of free geir debtis deducit [amount unresolved]",
-      "To be dividit in thrie p[artis]",
-      "The deidis p[art] [amount unresolved]",
-      "Legacie",
-      "At glasgow the [day unresolved] day of Januar 1613 zeiris",
-      "The qlk day Niniane glasgow seik in bodie",
-      "And of perfyt memorie [wording unresolved] his saull to god and",
-      "his bodie to be bureit Item he nominat and",
-      "constitut Jonet hutchesoun his spous & Robert",
-      "glasgow his sone his onlie ex[ecutouris] [wording unresolved]",
-      "[Damaged lower lines: bequest/support wording and a William reading cannot securely establish another child]"
-    ]},
-    {"page": "144, legacies", "lines": [
-      "and sustein him for the present [word unresolved] and na langer",
-      "Item to Johne glasgw his brother [amount/clothing wording unresolved]",
-      "[clothing wording unresolved] Item to Marioun glasgw his sister",
-      "ten merkis Item to Elizabet hutchesoun [amount not independently resolved]",
-      "Item to Robert glasgw his sone ane hundreth",
-      "pundis money Item he levis [wording unresolved] of his p[art]",
-      "of the free guidis geir and debtis abon[e]writtin to Jonet",
-      "hutchesoun his spous [continuation unresolved]",
-      "[Omitted: residue, recovery of debts and distribution conditions; no additional child inferred]",
-      "[Omitted: subscription and witnesses; portions of names remain provisional]",
-      "[Omitted: confirmation formula and date; no guessed expansion supplied]",
-      "[Caution begins near the foot of the page; lower edge damaged]"
-    ]},
-    {"page": "145, upper continuation", "lines": [
-      "contenit in the testament & Inventar of the said umqle",
-      "Niniane glasgow [administrative wording unresolved]",
-      "[Omitted: caution and obligation wording]",
-      "the saidis Jonet hutchesoun & Robert glasgow [continuation unresolved]",
-      "[Omitted: indemnity and closing administrative formula]",
-      "[End of Ninian entry; following Margaret testament is a separate estate]"
-    ]}
+    {
+      "page": "142, opening",
+      "lines": [
+        "The testament testamentar and Inventar",
+        "of the guidis geir debtis and sowmes of money qlkis",
+        "pertenit to umqle Niniane glasgow fischer burges",
+        "of glasgow the tyme of his deceiss Quha deceist in",
+        "the moneth of Januar the zeir of god [1613, numeral expansion]",
+        "zeiris faithfullie maid and gevin up be him selff As far",
+        "As concernis the nominatioun of his ex[ecutouris] And [wording unresolved]",
+        "of debtis awand to him and [wording unresolved] maid & gevin up",
+        "be Jonet hutchesoun & Robert glasgow his [abbreviated roles unresolved]",
+        "he nominat in his Latterwill & testament underwrittin",
+        "[unresolved] as concernis ane p[art] of the debtis awand to him",
+        "As in the said testament & Inventar of the dait",
+        "underwrittin at mair lenth is contenit",
+        "Inventar",
+        "In the first the said umqle Niniane [remaining inventory not fully transcribed]",
+        "[Omitted: livestock/equipment, household goods, valuations and inventory total; no reconstructed numerals supplied]",
+        "Debtis awand In",
+        "[Omitted: beginning of receivables; lower edge damaged]"
+      ]
+    },
+    {
+      "page": "143, accounts and latter will",
+      "lines": [
+        "[Omitted: continuation of receivables; several personal names and monetary figures remain unresolved]",
+        "Summa of the debtis [amount unresolved]",
+        "Summa of the Inventar & debtis [amount unresolved]",
+        "Debtis awand out",
+        "[Omitted: outgoing-debt entries and totals, not safely reconstructed from formulas]",
+        "Restis of free geir debtis deducit [amount unresolved]",
+        "To be dividit in thrie p[artis]",
+        "The deidis p[art] [amount unresolved]",
+        "Legacie",
+        "At glasgow the [day unresolved] day of Januar 1613 zeiris",
+        "The qlk day Niniane glasgow seik in bodie",
+        "And of perfyt memorie [wording unresolved] his saull to god and",
+        "his bodie to be bureit Item he nominat and",
+        "constitut Jonet hutchesoun his spous & Robert",
+        "glasgow his sone his onlie ex[ecutouris] [wording unresolved]",
+        "[Damaged lower lines: bequest/support wording and a William reading cannot securely establish another child]"
+      ]
+    },
+    {
+      "page": "144, legacies",
+      "lines": [
+        "and sustein him for the present [word unresolved] and na langer",
+        "Item to Johne glasgw his brother [amount/clothing wording unresolved]",
+        "[clothing wording unresolved] Item to Marioun glasgw his sister",
+        "ten merkis Item to Elizabet hutchesoun [amount not independently resolved]",
+        "Item to Robert glasgw his sone ane hundreth",
+        "pundis money Item he levis [wording unresolved] of his p[art]",
+        "of the free guidis geir and debtis abon[e]writtin to Jonet",
+        "hutchesoun his spous [continuation unresolved]",
+        "[Omitted: residue, recovery of debts and distribution conditions; no additional child inferred]",
+        "[Omitted: subscription and witnesses; portions of names remain provisional]",
+        "[Omitted: confirmation formula and date; no guessed expansion supplied]",
+        "[Caution begins near the foot of the page; lower edge damaged]"
+      ]
+    },
+    {
+      "page": "145, upper continuation",
+      "lines": [
+        "contenit in the testament & Inventar of the said umqle",
+        "Niniane glasgow [administrative wording unresolved]",
+        "[Omitted: caution and obligation wording]",
+        "the saidis Jonet hutchesoun & Robert glasgow [continuation unresolved]",
+        "[Omitted: indemnity and closing administrative formula]",
+        "[End of Ninian entry; following Margaret testament is a separate estate]"
+      ]
+    }
   ],
   "plain_english": [
     "Ninian was a fisher and burgess of Glasgow. His testament records his death in January 1613. The entry combines an inventory, debts, a latter will and subsequent court administration; the records before the opening on image 142 and after the upper continuation on image 145 belong to other people.",
@@ -81,7 +100,8 @@
     "Image 144, opening legacies: John is expressly brother and Marioun expressly sister. Marioun must not be converted into a daughter.",
     "Image 144: Robert is again called son, with an explicit 'ane hundreth pundis' bequest. Elizabeth Hutchesoun's receipt of a legacy does not establish kinship.",
     "Neither the brother clause nor the shared surname securely identifies John with Glasgow-1030. The testament contains no fresh proof of Ninian's parents.",
-    "All four supplied pages were examined. This is full coverage of the supplied image span, but only a partial transcription of the surviving text."
+    "All four supplied pages were examined. This is full coverage of the supplied image span, but only a partial transcription of the surviving text.",
+    "Relationship assessment, 28 September 2026: combined with Ninian’s 1596 burgess admission as Robert Glasgow’s second son, the Marion sister clause, shared surname and compatible chronology support Robert as Marion’s confident inferred father. No concrete alternative father is known. This reassesses the existing records; no fresh manuscript wording is claimed. Marion’s mother remains uncertain."
   ],
   "changes_from_previous": [
     "Replaces the initial heading-only handoff with fresh, enlarged readings of the opening and family clauses.",
@@ -93,9 +113,35 @@
     "Read the damaged lower lines of image 143 before assigning William a relationship or interpreting the support clause.",
     "Resolve the exact clothing legacy to John, Elizabeth Hutchesoun's amount, several account names and most monetary totals.",
     "The day of the latter will and full confirmation/caution wording are not independently resolved in these extracts.",
-    "The identity of brother John, and full versus half-sibling relationships, remain unproved."
+    "The identity of brother John remains unproved. Marion’s mother remains unidentified; no evidence currently establishes a maternal-only half-sibling relationship."
   ],
-  "profiles": [["Glasgow-3188", "Ninian Glasgow"], ["Hutcheson-1774", "Jonet Hutchesoun, named spouse"], ["Glasgow-1027", "Robert Glasgow, named son"], ["Glasgow-3062", "Marioun Glasgow, named sister"], ["Glasgow-1030", "John Glasgow: brother's identity comparison, not proved"], ["Glasgow-3075", "William Glasgow: alleged son clause not established"]],
+  "profiles": [
+    [
+      "Glasgow-3188",
+      "Ninian Glasgow"
+    ],
+    [
+      "Hutcheson-1774",
+      "Jonet Hutchesoun, named spouse"
+    ],
+    [
+      "Glasgow-1027",
+      "Robert Glasgow, named son"
+    ],
+    [
+      "Glasgow-3062",
+      "Marioun Glasgow, named sister"
+    ],
+    [
+      "Glasgow-1030",
+      "John Glasgow: brother's identity comparison, not proved"
+    ],
+    [
+      "Glasgow-3075",
+      "William Glasgow: alleged son clause not established"
+    ]
+  ],
   "confidence_statement": "All four PDF images were visually examined, with enlarged opening and legacy crops. High confidence in the explicit family clauses and entry boundaries; incomplete reading of the damaged passages and accounts. The previous maintained findings were compared after the fresh image pass. Spellings are working readings; superscripts are lowered, uncertain expansions bracketed, and excerpt lineation is not a diplomatic facsimile.",
-  "reviewer": "LLM-assisted fresh visual review, followed by comparison with maintained findings"
+  "reviewer": "LLM-assisted fresh visual review, followed by comparison with maintained findings",
+  "assessment_updated_at": "2026-09-28"
 }

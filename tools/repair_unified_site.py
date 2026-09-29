@@ -19,9 +19,13 @@ import runpy
 from urllib.parse import unquote, urlsplit
 
 try:
+    from records_page import records_body, records_assets
     from site_analytics import audit as audit_analytics, repair as repair_analytics, with_analytics, without_analytics
+    from catalogue_theme import CATALOGUE_ASSET_VERSION, ensure_catalogue_stylesheet, refresh_catalogue_stylesheet_references, write_catalogue_css
 except ModuleNotFoundError:
+    from tools.records_page import records_body, records_assets
     from tools.site_analytics import audit as audit_analytics, repair as repair_analytics, with_analytics, without_analytics
+    from tools.catalogue_theme import CATALOGUE_ASSET_VERSION, ensure_catalogue_stylesheet, refresh_catalogue_stylesheet_references, write_catalogue_css
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -29,11 +33,7 @@ WEB = ROOT / "www"
 OLD_WEB = ROOT / "www_old"
 PERSON_DIR = WEB / "people"
 OLD_PERSON_DIR = OLD_WEB / "people"
-ARCHIVAL_SNAPSHOTS = (
-    "ydna/glasgow-ydna-story-source/index.html",
-    "ydna/glasgow-ydna-story-source/reference/original-upload.html",
-    "ydna/glasgow-ydna-story-source/reference/supplied-timeline.html",
-)
+ARCHIVAL_SNAPSHOTS = ()  # Superseded and tester-level originals are now private.
 
 LOCAL_FILE_LINKS = (
     '<script data-local-file-links>addEventListener("DOMContentLoaded",()=>{'
@@ -213,6 +213,33 @@ def _record_summary(rows: list[dict]) -> str:
     )
 
 
+def repair_records_shell() -> Counter[str]:
+    """Put the generated record-search body in the shared research shell only."""
+    changed: Counter[str] = Counter()
+    page_path = WEB / "records/index.html"
+    existing = page_path.read_text(encoding="utf-8")
+    records_main = re.search(r"<main\b[\s\S]*?</main>", existing, flags=re.I)
+    shell = (WEB / "sources/index.html").read_text(encoding="utf-8")
+    shell_main = re.search(r"<main\b[\s\S]*?</main>", shell, flags=re.I)
+    if not records_main or not shell_main:
+        raise ValueError("records or unified research shell has no main container")
+    rows = json.loads((WEB / "data/records-index.json").read_text(encoding="utf-8"))
+    main = f'<main id="main" class="r-main v3-records">{records_body(rows)}</main>'
+    page = shell[:shell_main.start()] + main + shell[shell_main.end():]
+    page = re.sub(r'<body\b[^>]*>', '<body data-r-integrated="3" class="g-unified g-kind-research r-v2 v3-site" data-g-path="/records/index.html" data-v3="true" data-repair="3.1-repair-1">', page, count=1, flags=re.I)
+    title = _tag(existing, re.compile(r"<title\b[^>]*>[\s\S]*?</title>", re.I))
+    description = _tag(existing, DESCRIPTION_RE)
+    canonical = _tag(existing, CANONICAL_RE) or '<link rel="canonical" href="https://glasgow.phenotype.dev/records/">'
+    for pattern, value in ((re.compile(r"<title\b[^>]*>[\s\S]*?</title>", re.I), title), (DESCRIPTION_RE, description), (CANONICAL_RE, canonical)):
+        if value:
+            page = _replace_or_add_head(page, pattern, value)
+    page = with_analytics(records_assets(page, WEB))
+    if page != existing:
+        page_path.write_text(page, encoding="utf-8")
+        changed["records_unified_shell"] += 1
+    return changed
+
+
 def repair_records() -> Counter[str]:
     changed: Counter[str] = Counter()
     source_path = WEB / "data/records-index.json"
@@ -230,6 +257,9 @@ def repair_records() -> Counter[str]:
     page_path = WEB / "records/index.html"
     page = page_path.read_text(encoding="utf-8")
     before = page
+    if 'id="record-query"' in page:
+        changed.update(repair_records_shell())
+        return changed
     quality = (
         '<label class="r-field">Source quality<select id="r-record-quality">'
         '<option value="">All source qualities</option><option value="original">Original</option>'
@@ -324,6 +354,7 @@ def repair_records() -> Counter[str]:
 def repair_catalogue() -> Counter[str]:
     """Make the complete research catalogue the primary clean-route experience."""
     changed: Counter[str] = Counter()
+    write_catalogue_css(PERSON_DIR / "catalogue.css")
     source = (WEB / "catalogue.html").read_text(encoding="utf-8")
     nav = (
         '<nav class="v3-view-nav" aria-label="Section views">'
@@ -366,15 +397,9 @@ def repair_catalogue() -> Counter[str]:
     page = re.sub(r'<body\b[^>]*>', '<body data-r-integrated="3" class="g-unified g-kind-catalogue r-v2 v3-site" data-g-path="/catalogue/" data-v3="true" data-repair="3.1-repair-1">', page, count=1, flags=re.I)
     page = page.replace('<main>', '<main id="main" class="r-main v3-catalogue">', 1)
     page = page.replace('<head>', '<head><base href="/">', 1)
-    # Load the catalogue rules first; the unified shell's scoped catalogue
-    # overrides must win, otherwise the legacy dark palette paints the new
-    # shell panels black.
-    page = page.replace(
-        '<link href="/assets/unified/site.css?v=3.1-repair-1" rel="stylesheet">',
-        '<link rel="stylesheet" href="/people/catalogue.css?v=20260915-light-palette-1">'
-        '<link href="/assets/unified/site.css?v=3.1-repair-1" rel="stylesheet">',
-        1,
-    )
+    # The maintained catalogue stylesheet supplies layout and the light palette.
+    # Keep it before the shared shell rules for the shared navigation and cards.
+    page = ensure_catalogue_stylesheet(page)
     page = page.replace(
         '</head>',
         '<style id="catalogue-unified-overrides">'
@@ -416,11 +441,12 @@ def repair_catalogue() -> Counter[str]:
         '</style></head>',
         1,
     )
-    page = page.replace('</body>', '<script src="/people/search.js?v=20260915-family-search-2" defer></script></body>', 1)
+    page = page.replace('</body>', f'<script src="/people/external-links.js?v={CATALOGUE_ASSET_VERSION}" defer></script><script src="/people/search.js?v={CATALOGUE_ASSET_VERSION}" defer></script></body>', 1)
     path = WEB / "catalogue/index.html"
     if path.read_text(encoding="utf-8") != page:
         path.write_text(page, encoding="utf-8")
         changed["catalogue_unified_shell"] += 1
+    changed["catalogue_asset_versions"] += refresh_catalogue_stylesheet_references(WEB)
     return changed
 
 
@@ -476,6 +502,15 @@ def repair_ui_regressions() -> Counter[str]:
     atlas_path = WEB / "onetree/index.html"
     atlas = atlas_path.read_text(encoding="utf-8")
     before = atlas
+    atlas = atlas.replace(
+        '<button class="active" data-view="lanes" id="view-lanes" role="tab"',
+        '<button data-view="lanes" id="view-lanes" role="tab"',
+        1,
+    ).replace(
+        '<button data-view="all" id="view-all" role="tab"',
+        '<button class="active" data-view="all" id="view-all" role="tab"',
+        1,
+    )
     if 'class="repair-atlas-project-links"' not in atlas:
         atlas = atlas.replace(
             '<a href="/connections/">Find a connection</a></div>',
@@ -512,6 +547,22 @@ def repair_ui_regressions() -> Counter[str]:
             "else{const p=P.get(h.id);if(!p){hideTooltip();return}const d=state.pins?DNA.get(p.id):null;",
             1,
         )
+        # The Canopy (radial "all" view) is the Atlas default; the family-lanes
+        # timeline remains one tab away.
+        for old, new in (
+            ("let state={view:'lanes',early:false", "let state={view:'all',early:false"),
+            # People without a catalogue page (catalogueId null) link to WikiTree, not a 404.
+            ("const catalogue=p=>'/people/'+encodeURIComponent(p.catalogueId||p.id.toLowerCase())+'.html';",
+             "const catalogue=p=>p.catalogueId===null?'https://www.wikitree.com/wiki/'+encodeURIComponent(p.id):'/people/'+encodeURIComponent(p.catalogueId||p.id.toLowerCase())+'.html';"),
+            ('<a href="${esc(catalogue(p))}" target="_blank" rel="noopener noreferrer">Catalogue ${icon(\'out\')}</a>',
+             '${p.catalogueId===null?\'\':`<a href="${esc(catalogue(p))}" target="_blank" rel="noopener noreferrer">Catalogue ${icon(\'out\')}</a>`}'),
+            ('<p><a href="${esc(catalogue(p))}" target="_blank" rel="noopener noreferrer">Open the complete dossier ↗</a></p>',
+             '${p.catalogueId===null?\'<p>No catalogue dossier has been published for this person yet.</p>\':`<p><a href="${esc(catalogue(p))}" target="_blank" rel="noopener noreferrer">Open the complete dossier ↗</a></p>`}'),
+            ("lanes=makeLanes(state.laneSort);scene=lanes;syncUI();", "lanes=makeLanes(state.laneSort);scene=atlas;syncUI();"),
+            ("$('#home').onclick=()=>goView('lanes');$('#brand').onclick=e=>{e.preventDefault();goView('lanes')};",
+             "$('#home').onclick=()=>goView('all');$('#brand').onclick=e=>{e.preventDefault();goView('all')};"),
+        ):
+            atlas_script = atlas_script.replace(old, new, 1)
         if atlas_script != before:
             atlas_script_path.write_text(atlas_script, encoding="utf-8")
             changed["atlas_interactions"] += 1
@@ -889,6 +940,8 @@ def audit() -> tuple[dict[str, object], list[str]]:
         public_html = without_analytics((WEB / relative).read_text(encoding="utf-8"))
         if public_html != (OLD_WEB / relative).read_text(encoding="utf-8"):
             failures.append(f"{relative} differs from the archival snapshot beyond the shared analytics tag")
+    from tools.repair_publication_policy import audit as audit_publication_policy
+    failures.extend(audit_publication_policy(WEB))
     if len(re.findall(r"<!doctype html>", (WEB / "index.html").read_text(encoding="utf-8"), re.I)) != 1:
         failures.append("index.html does not have exactly one doctype")
 
@@ -963,7 +1016,7 @@ def main() -> int:
         changed.update(repair_ui_regressions())
         experience = runpy.run_path(str(ROOT / "tools/repair_site_experience.py"))
         changed.update(experience["repair"]())
-        for helper in ("repair_timeline_navigation.py", "repair_map_state_fallbacks.py", "repair_map_legacy_routes.py", "repair_early_records.py", "repair_research_groups.py", "repair_family_browsing.py", "build_transcriptions.py", "build_latest_research.py", "build_statistics_page.py", "build_resources_page.py", "repair_profile_wikitree_links.py", "repair_person_hierarchy.py", "repair_primary_navigation.py", "repair_research_questions.py", "repair_exploration_layout.py"):
+        for helper in ("repair_timeline_navigation.py", "repair_map_state_fallbacks.py", "repair_map_legacy_routes.py", "repair_early_records.py", "repair_research_groups.py", "repair_family_browsing.py", "build_branches_directory.py", "build_study_pages.py", "build_transcriptions.py", "build_latest_research.py", "build_statistics_page.py", "build_resources_page.py", "repair_profile_wikitree_links.py", "repair_person_hierarchy.py", "repair_primary_navigation.py", "repair_research_questions.py", "repair_exploration_layout.py"):
             presentation = runpy.run_path(str(ROOT / "tools" / helper))
             changed.update(presentation["repair"]())
         death_index = runpy.run_path(str(ROOT / "tools/publish_irish_death_index.py"))

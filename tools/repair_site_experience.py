@@ -34,11 +34,12 @@ LOCALITY_MEMBERS = {
     },
     'larne-kilwaughter': {
         'glasgow-3970', 'glasgow-3961', 'glasgow-3913', 'glasgow-1081',
-        'glasgow-1503', 'glasgow-1504', 'murray-20395',
+        'glasgow-1499', 'glasgow-1504', 'murray-20395',
         'glasgow-3325', 'glasgow-3326', 'glasgow-3327', 'glasgow-3328',
         'glasgow-1505', 'glasgow-1506', 'glasgow-1507',
         'glasgow-1508', 'glasgow-1510', 'glasgow-1509', 'glasgow-3324',
         'glasgow-3986', 'glasgow-3991', 'glasgow-3992',
+        'glasgow-4180', 'glasgow-4181', 'glasgow-3989', 'stewart-72380',
         'unknown-763421', 'glasgow-4013', 'glasgow-1143', 'wilson-78088',
         'glasgow-1144', 'crosier-512', 'glasgow-1500', 'glasgow-1501',
         'glasgow-2304', 'glasgow-1146', 'glasgow-1983', 'glasgow-1982',
@@ -54,10 +55,11 @@ LOCAL_FAMILIES = {
         dict(status='Documented continuation', title='Mary Ann Glasgow and Robert Elder', place='Lisnagaver and Gortahar · 1871 onward', members=['glasgow-3167'], evidence='Mary’s marriage names Alexander Glasgow as her father and the later Gortahar records continue the Elder household.', boundary='Only catalogue people with public dossiers are linked here; unresolved later children remain research subjects.'),
     ],
     'larne-kilwaughter': [
-        dict(status='Documented locality cluster', title='The 1653 and 1669 households', place='Larne, Glenarm and Kilwaughter Demesne', members=['glasgow-3970', 'glasgow-3961', 'glasgow-1081', 'glasgow-3913'], evidence='Contemporary hearth-money records establish Robert Glaskow at Larne and the Elizabeth, James and John occurrences nearby.', boundary='These are separate record occurrences, not a proved founding family.'),
-        dict(status='Register-supported household', title='Hugh Glasgow of New Town, Larne', place='New Town of Larne · early eighteenth century', members=['glasgow-1503', 'glasgow-1506', 'glasgow-1507', 'glasgow-1508', 'glasgow-1510'], evidence='The maintained church chronology identifies Hugh’s household and named children.', boundary='The surviving evidence is derivative and does not establish Hugh’s parents or the disputed James identity.'),
+        dict(status='Two uncertain parent links', title='James, Hugh and the 1843 bride Mary', place='Larne settlement and property · 1843', members=['glasgow-3991', 'glasgow-4180', 'glasgow-4181', 'glasgow-3989'], evidence='The marriage settlement names Mary and the estate of deceased Hugh. The live working chain places Hugh under James and Mary under Hugh, with both father links explicitly uncertain.', boundary='No inspected record states either new relationship. Hugh’s residence is not given. The bride may be William’s daughter Mary-3989; their 1843/1844 death-year conflict remains unresolved.'),
+        dict(status='Documented locality cluster', title='The 1653 and 1669 households', place='Larne, Glenarm and Kilwaughter Demesne', members=['glasgow-3970', 'glasgow-3961', 'glasgow-1081', 'glasgow-3913'], evidence='A 1653 deposition places Robert Glaskow at Larne; the 1669 hearth-money roll records Elizabeth at Glenarm and James and John at Kilwaughter.', boundary='These are separate record occurrences, not a proved founding family.'),
+        dict(status='Register-supported household', title='Hugh Glasgow of New Town, Larne', place='New Town of Larne · early eighteenth century', members=['glasgow-1499', 'glasgow-1506', 'glasgow-1507', 'glasgow-1508', 'glasgow-1510'], evidence='The maintained church chronology identifies Hugh’s household and named children.', boundary='The surviving evidence is derivative and does not establish Hugh’s parents or the disputed James identity.'),
         dict(status='Strongly supported family', title='James Glasgow and Sarah Murray', place='Larne and Kilwaughter · eighteenth century', members=['glasgow-1504', 'murray-20395', 'glasgow-3325', 'glasgow-3326', 'glasgow-3327', 'glasgow-3328'], evidence='The congregation-register chronology supports the marriage and four named children.', boundary='Their parentage remains unknown; locality and repeated names do not attach them to the 1653 household.'),
-        dict(status='Strongly supported family', title='Robert Glasgow and Rachel Wilson', place='Kilwaughter · 1710s–1770s', members=['glasgow-1143', 'wilson-78088', 'glasgow-1144', 'glasgow-1500', 'glasgow-1501'], evidence='Register, deed and equity evidence securely reconstructs the couple and their children James, Ann Taggard and Rachel.', boundary='No inspected record proves descent from Robert Glaskow at Larne in 1653.'),
+        dict(status='Strongly supported family', title='Robert Glasgow and Rachel Wilson', place='Kilwaughter · 1710s–1770s', members=['glasgow-1143', 'wilson-78088', 'glasgow-1144', 'glasgow-1500', 'glasgow-1501'], evidence='Register and equity evidence reconstructs Robert and Rachel’s household. The original 20 December 1764 Ballykeel memorial expressly names James as Robert’s son; the sourced reading follows below.', boundary='No inspected record proves descent from Robert Glaskow at Larne in 1653.'),
         dict(status='Strongly supported continuation', title='James Glasgow and Mary Crosier', place='Kilwaughter to Newberry, South Carolina', members=['glasgow-1144', 'crosier-512', 'glasgow-2304', 'glasgow-1146', 'glasgow-1983', 'glasgow-1982'], evidence='The maintained family evidence strongly supports the couple and four named sons.', boundary='Their later American branch does not prove the ancestry of the older Larne households.'),
     ],
 }
@@ -144,6 +146,18 @@ section.experience-topic > h2{margin:0 0 20px}
 .v3-country-total>span:last-child{font-size:12px;text-decoration:underline;margin-top:8px}
 .repair-home-routes a{padding:14px 15px;border:1px solid #d6ddcf;border-radius:7px;background:#fbfaf4;font-size:15px;transition:border-color .16s ease,background .16s ease,transform .16s ease}.repair-home-routes a small{margin-top:4px}.repair-home-routes a:hover{border-color:#92a58f;background:#f0f3e9;text-decoration:none;transform:translateY(-1px)}
 @media(max-width:700px){.experience-topic{padding:18px}.local-family-grid{grid-template-columns:1fr}.local-family-card{padding:16px}.v3-site .catalogue-primary-search{grid-template-columns:minmax(0,1fr)}.v3-site .catalogue-advanced-body{padding-top:18px}.v3-site .catalogue-filter-section{padding:15px!important}.v3-site .catalogue-hero{margin-bottom:12px}.v3-site .catalogue-search-heading{display:grid!important;grid-template-columns:minmax(0,1fr) auto;align-items:center!important;gap:10px!important;padding:16px!important}.v3-site .catalogue-search-heading .kicker,.v3-site .catalogue-search-heading h2{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}.v3-site .catalogue-search-heading>div>small{display:block;font-size:.79rem;line-height:1.45}.v3-site .catalogue-results-summary{justify-self:end;margin:0}.v3-site .catalogue-primary-search{padding-top:18px!important}.repair-home-routes{gap:10px!important}.repair-home-routes a{padding:12px;font-size:14px}.v3-site.g-kind-dna #sidebar .main-nav{display:flex!important;grid-template-columns:none!important;flex-wrap:nowrap!important;overflow-x:auto!important;overscroll-behavior-inline:contain;scrollbar-width:thin;padding:7px 10px!important;scroll-padding-inline:10px}.v3-site.g-kind-dna #sidebar .main-nav a{flex:0 0 auto;min-width:112px;min-height:38px!important;padding:7px 12px!important;font-size:10px!important;white-space:nowrap}}
+.v3-site.g-kind-tree .content-view{max-height:none}
+/* Accessibility: retain regional colour hints while darkening preview label text. */
+.repair-home-group-label strong{color:color-mix(in srgb,var(--group-colour,#31583d) 75%,#263f35)}
+/* Accessibility: WCAG AA text contrast for small muted labels (same hues, darker). */
+body .g-footer a,body .g-footer-links a{color:#536746}
+body .g-bar-menu,body .repair-menu-label{color:#536746}
+body .v3-feature-timeline time{color:#4c5f43}
+body .v3-country-total small{color:#536746}
+body .v3-local-mark{color:#74511f}
+body .repair-question-trails-head>p{color:#4c5f43}
+body .g-eyebrow,body .g-guide-step p,body .g-note-panel .g-eyebrow,body .g-page table th,body .g-page table td{color:#536746}
+body .legend,body .legend button{color:#536746}
 """
 
 
@@ -252,10 +266,20 @@ def local_family_section(branch_id, people):
              'The possible William of Larne → John of Glenleslie → John of Lisnagaver route remains a research hypothesis and does not place Rasharkin people in this locality group.'
              if branch_id == 'larne-kilwaughter' else
              'Families are grouped by records from Lisnagaver, Rasharkin and their immediate Bann Valley network. Proved households are kept distinct where the relationship between them is still unknown.')
+    synthesis = ''
+    if branch_id == 'larne-kilwaughter':
+        try:
+            from repair_person_hierarchy import _safe_markdown_html
+        except ModuleNotFoundError:
+            from tools.repair_person_hierarchy import _safe_markdown_html
+        source = ROOT / 'research/larne-proof-2026-09-21/public-synthesis.md'
+        synthesis = ('<div class="local-family-research" id="larne-original-evidence">'
+                     + _safe_markdown_html(source.read_text(), '/branches/larne-kilwaughter/')
+                     + '</div>')
     return (f'<section id="local-family-overview" class="local-family-overview"><header><span class="r-kicker">Families in the area</span>'
             f'<h2>Established families and record-defined households</h2><p>{escape(scope)}</p>'
             '<p><a href="/people/glasgow-951.html#larne-reconstruction">The Larne–Inishrush–South Carolina reconstruction</a> compares the missing generations, the two Irish parent routes and the named records that could distinguish them.</p></header>'
-            f'<div class="local-family-grid">{"".join(rendered)}</div></section>')
+            f'<div class="local-family-grid">{"".join(rendered)}</div>{synthesis}</section>')
 
 
 def apply_locality_membership(branch, people, records, by_person):
@@ -295,7 +319,7 @@ def repair_locality_page(page, branch, people):
     page = re.sub(r'(<span class="r-kicker">The earliest entries in this group</span><div class="r-linklist">).*?(</div>)', lambda match: match[1] + links + match[2], page, count=1, flags=re.S)
     families = local_family_section(branch['id'], people)
     if 'id="local-family-overview"' in page:
-        page = re.sub(r'<section id="local-family-overview".*?</section>', families, page, count=1, flags=re.S)
+        page = re.sub(r'<section\b(?=[^>]*\bid="local-family-overview")[^>]*>.*?</section>', lambda _: families, page, count=1, flags=re.S)
     else:
         page, count = re.subn(r'<section class="r-section"><div class="r-section-head"><h2>Inside the current research\.</h2>.*?</section>', families, page, count=1, flags=re.S)
         if not count:
@@ -382,17 +406,6 @@ def repair_branches(changed):
         page = re.sub(r'<main\b[\s\S]*?</main>', lambda _: body, page, count=1)
         page = re.sub(r'(<meta\b(?=[^>]*name="description")[^>]*content=")[^"]*', lambda m: m[1] + escape(hub['description'], quote=True), page, count=1)
         update(f'branches/{hub["id"]}/index.html', page, changed)
-    directory = (WEB / 'branches/index.html').read_text()
-    if '<option value="research">' not in directory:
-        directory = directory.replace('<option value="family">', '<option value="research">Evidence-led research groups</option><option value="family">', 1)
-    directory = re.sub(r'(<header class="r-page-head">)[\s\S]*?(</header>)', lambda m: m[1] + '<span class="r-kicker">Families &amp; localities</span><h1>Find the place.<br>Follow the family.</h1><p class="r-lead">Start with a region, choose a local study, then follow the named people into their records and family connections.</p>' + m[2], directory, count=1)
-    topics = '<section id="experience-regions"><h2>Start with a region</h2>' + cards(hubs, descriptions=False) + '</section>'
-    if 'id="experience-regions"' in directory:
-        directory = re.sub(r'<section id="experience-regions">[\s\S]*?</section>', lambda _: topics, directory, count=1)
-    else:
-        directory = directory.replace('<div class="r-filter-panel">', topics + '<h2>Or find a family directly</h2><div class="r-filter-panel">', 1)
-    directory = directory.replace('A family name, founder or place', 'A person, family or place')
-    update('branches/index.html', directory, changed)
     update('assets/research/branches.json', json.dumps(branches + hubs, ensure_ascii=False, separators=(',', ':')), changed)
     update('assets/research/registry.json', json.dumps(list(people.values()), ensure_ascii=False, separators=(',', ':')), changed)
     packed_path = WEB / 'assets/v3/registry-packed.json'

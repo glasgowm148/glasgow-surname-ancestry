@@ -32,8 +32,9 @@ class UnifiedSiteParityTests(unittest.TestCase):
         page = (WEB / "catalogue/index.html").read_text(encoding="utf-8")
         required = (
             "catalogue-exact-name",
-            "catalogue-first-name",
-            "catalogue-last-name",
+            "catalogue-name",
+            "catalogue-child-name",
+            "catalogue-sibling-name",
             "catalogue-spouse-name",
             "catalogue-father-name",
             "catalogue-mother-name",

@@ -3,47 +3,17 @@
 
 == Biography ==
 
-'''Issobell Glasgow''' married '''Williame Symountoun''', a tailor, at
-Edinburgh on 10 June 1619.<ref name="MarriageOPR">“Church of Scotland: Old
-Parish Registers—Banns and Marriages,” National Records of Scotland,
-[https://www.scotlandspeople.gov.uk/ ScotlandsPeople], Issobell Glasgow and
-Williame Symountoun, 10 June 1619, Edinburgh; parish 685/1, reference 430/120,
-frame 721.</ref><ref name="MarriagePrinted">Henry Paton, ed., ''The Register of
-Marriages for the Parish of Edinburgh, 1595–1700'' (Edinburgh, 1905),
-[https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/register_of_marriages_for_the_parish_of_edinburgh_1595-1700_~_1898.pdf#page=277
-p. 267], 10 June 1619: William Symountoun, tailor, and Isobel Glasgow.</ref>
+'''Isobel or Issobell Glasgow''' is probably the daughter Isobel named in the 1597/8 testament of [[Glasgow-3163|Andrew Glasgow]] of [Corsoun?], Calder Cleir parish. Andrew named his daughters Marion, Jonet and Isobel in a provision for his children. The testament expressly calls [[Glasgow-4006|Robert]] his son by his wife [[Stevinsoun-2|Elizat Stevinsoun]], but does not separately identify Elizat as the daughters' mother.<ref name="Andrew1598">National Records of Scotland, Edinburgh Commissary Court, CC8/8/32, images 123–124, testament testamentar and inventory of Andro Glasgw, made 6 February 1597/8, death stated as 7 February, confirmed 10 July 1598; working transcription of the original register. Printed index: Scottish Record Society, ''Commissariot of Edinburgh: Register of Testaments, 1514–1600'', [https://archive.org/details/scottishrecordso01scotuoft/page/n117/mode/1up p. 108].</ref>
 
-Their son '''William Symountoun''' was baptised at Edinburgh on 2 May 1620.<ref
-name="William1620">“Church of Scotland: Old Parish Registers—Births and
-Baptisms,” National Records of Scotland,
-[https://www.scotlandspeople.gov.uk/ ScotlandsPeople], Williame Symountoun, son
-of Williame Symountoun and Issobell Glesgow, 2 May 1620, Edinburgh; parish
-685/1, reference 20/284, frame 527.</ref>
+An Issobell Glasgow married [[Symington-721|Williame Symountoun]], a tailor, at Edinburgh on or after 10 June 1619.<ref name="MarriageOPR">“Church of Scotland: Old Parish Registers—Banns and Marriages,” National Records of Scotland, [https://www.scotlandspeople.gov.uk/ ScotlandsPeople] (accessed 9 April 2025), Issobell Glasgow and Williame Symountoun, Edinburgh parish 685/1, reference 430/120, frame 721.</ref><ref name="MarriageAncestry1">“Scotland, Extracted Parish Records, 1571–1997,” {{Ancestry Record|61544|30438}}, Isobel Glasgow and William Symountoun, 10 June 1619.</ref><ref name="MarriageAncestry2">“Scotland, Select Marriages, 1561–1910,” {{Ancestry Record|60144|3232351}}, Issobell Glasgow and Williame Symountoun, 10 June 1619.</ref><ref name="Paton">Henry Paton, ed., ''The Register of Marriages for the Parish of Edinburgh, 1595–1700'', [https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/register_of_marriages_for_the_parish_of_edinburgh_1595-1700_~_1898.pdf#page=277 printed p. 267], 10 June 1619; William is described as a tailor.</ref> Their son [[Symington-724|Williame]] was baptised at Edinburgh on 2 May 1620, with both parents named.<ref name="BaptismOPR">“Church of Scotland: Old Parish Registers—Births and Baptisms,” National Records of Scotland, [https://www.scotlandspeople.gov.uk/ ScotlandsPeople] (accessed 9 April 2025), Williame Symountoun, son of Williame Symountoun and Issobell Glesgow, Edinburgh parish 685/1, reference 20/284, frame 527.</ref><ref name="BaptismAncestry">“Scotland, Select Births and Baptisms, 1564–1950,” {{Ancestry Record|60143|18383188}}, Williame Symountoun, 2 May 1620.</ref> Their daughter [[Symington-722|Margaret]] is also attached to this family; her specific evidence should be assessed on her own profile.
 
 == Research Notes ==
 
-Issobell's parents and birth date are not named in the marriage or baptism
-records. The profile's 1597 birth is an estimate.
+=== Corsoun daughter and Edinburgh bride ===
 
-She was compared with the '''Isobel''' whom [[Glasgow-3163|Andrew Glasgow of
-uncertain Corsoun]] named as a daughter in his 1597/8 testament. The generation
-and broader Edinburgh/Calder geography fit,
-but the testament supplies no married surname or later residence, and no record
-connects this Issobell to Andrew's wife Elizat Stevinsoun, their son Robert or
-the other daughters.<ref name="Andrew1598">National Records of Scotland,
-Edinburgh Commissary Court, CC8/8/32, images 123–124, testament testamentar and
-inventory of Andro Glasgw, made 6 February 1597/8 and confirmed 10 July 1598;
-corrected working transcription of the original register images.</ref> These
-similarities do not identify one woman. This profile is excluded as the present
-destination for Andrew's daughter. Do not attach Andrew without a direct
-identity bridge; if one is later found, merge the documentary profiles.
+The identification joins two compatible but separately recorded appearances. The testament names a daughter Isobel by 1597/8; the marriage and baptism name Issobell/Isobell Glesgow in Edinburgh in 1619–20. The dates and Midlothian setting fit, and no better compatible Isobel has been found in the current pre-1600 catalogue review. Neither later record names Andrew, Elizat, Corsoun or a sibling, so this remains a '''probable identity''', not a directly documented continuity. The father relationship is confident for Andrew’s testament-named daughter represented by this merged profile; the later Edinburgh bride attribution remains probable. Elizat's maternity is independently uncertain even if the identification is correct.
 
-Issobell's tailor marriage also sits near an Edinburgh craft network involving
-other Glasgow surname-bearers, including cordiners in Ninian Glasgow's family.
-That is a competing research clue, not proof that Ninian or one of his relatives
-was her father. The Edinburgh Tailors incorporation and marriage-proclamation
-records may identify a father or cautioner.
+The estimated 1597 birth year and Edinburgh birthplace are not birth-register facts. The testament establishes only that the daughter existed by Andrew's death; the Edinburgh records place the bride there as an adult. The same marriage-register page also records Margaret Glasgow marrying a cordiner in 1611 and Barbara Glasgow marrying a cordiner in 1616. Those women and [[Glasgow-3188|Ninian Glasgow]]'s Edinburgh craft circle remain a possible alternative context; shared occupation and proximity do not establish parentage or sisterhood.<ref name="Paton"/>
 
 == Sources ==
-
 <references />

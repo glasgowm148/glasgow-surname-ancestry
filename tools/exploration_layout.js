@@ -35,7 +35,6 @@
         toolbar.append(options);
         header.hidden = true;
         document.querySelector('.v3-atlas-tools')?.setAttribute('hidden', '');
-        document.getElementById('repair-testers-toggle')?.addEventListener('click', () => { options.open = false; });
         document.addEventListener('click', event => {
           if (!options.contains(event.target)) options.open = false;
         });

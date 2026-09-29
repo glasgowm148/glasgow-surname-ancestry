@@ -1,31 +1,17 @@
-# Findings: [William Glasgow (Glasgow-4007)](https://www.wikitree.com/wiki/Glasgow-4007)
+# Findings: Glasgow-4007 redirects to [Robert Glasgow (Glasgow-4006)](https://www.wikitree.com/wiki/Glasgow-4006)
 
 ## Current conclusion
 
-This profile was created on 19 August 2026 solely to represent a William who
-was thought to be named as a son in NRS CC8/8/32. The corrected reading does
-not identify that person. It names Robert as Andrew Glasgow and Elizat
-Stevinsoun's son and names daughters Marion, Janet and Isobel.
-
-No independent source has been found for this profile's name, estimated dates
-or parentage. It must not be silently renamed or repurposed as one of the proved
-children because each of those children has a separate unresolved duplicate
-audit.
+Glasgow-4007 was created for a supposed son William of Andrew Glasgow based
+on a superseded reading of his 1597/8 testament. The corrected original names
+Robert as Andrew and Elizat Stevinsoun's son and names daughters Marion,
+Jonet and Isobel. It names no son William. The duplicate erroneous profile was
+merged into Glasgow-4006, which now represents the record-defined Robert.
+Live WikiTree API redirect resolution was verified 26 September 2026. This ID
+must not be reused for another William.
 
 ## Source findings
+
 | Source | Finding | Assessment |
 | --- | --- | --- |
-| NRS Edinburgh Commissary Court CC8/8/32, images 123–124 | `Robart Glasgw his sone begottin be him vpoun the said Elizat his wyff`; later `his said sone and his said [dochter… struck through] Marione, Jonet, Isobell`. | The sole basis for Glasgow-4007 was a transcription error. The record supplies no son William. |
-
-## WikiTree handoff
-
-1. Replace the profile narrative with the neutral, source-preserving text in
-   `1598_Scotland_Corstoun_William_Glasgow.md`.
-2. Preserve the current parent attachment as uncertain while seeking WikiTree
-   team guidance for a profile created in error. Do not detach it merely to
-   leave this otherwise unsupported profile parentless.
-3. Preserve the original NRS citation and the transparent correction history.
-4. Do not recycle the profile as Robert, Marion, Janet or Isobel without an
-   independently proved identity.
-
-Edit summary: `Correct profile created from superseded reading of NRS CC8/8/32.`
+| NRS Edinburgh Commissary Court CC8/8/32, images 123–124; [printed index p. 108](https://archive.org/details/scottishrecordso01scotuoft/page/n117/mode/1up) | Names son Robert, not William. | Corrected original reading explains the profile's merge/redirect. |

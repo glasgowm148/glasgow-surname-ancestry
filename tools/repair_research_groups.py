@@ -27,18 +27,18 @@ GROUPS = [
          place='Glasgow burgh and the Clyde-side property network',
          description='Robert, Ninian and their family emerge from burgess admissions, property deeds and testaments. John who married Jonet Mathie remains an identity question within this network.',
          question='Was John who married Jonet Mathie the living brother named by Ninian in 1613?',
-         conclusion='Ninian\'s 1596 admission calls him Robert the fisher\'s second son. His testament names son Robert, sister Marion and a living brother John. Robert the fisher is probably a son of William from the repeated craft and property evidence, but that parentage is not expressed in a record. John of Hirmenschelis, dead by 1577, cannot be the living brother.',
-         boundary='A documented family core and an explicitly unresolved John identity; inclusion of John-1030 is as a candidate, not an established sibling.',
+         conclusion='Ninian\'s 1596 admission calls him Robert the fisher\'s second son. His testament names son Robert, sister Marion and a living brother John. Robert is confidently inferred to be Marion\'s and the record-defined brother John\'s father from the combined evidence. Glasgow-1030 represents that brother; identification with the 1618 Jonet Mathie husband remains probable. Robert the fisher\'s own father William remains probable and uncertain in the tree. John of Hirmenschelis, dead by 1577, cannot be the living brother.',
+         boundary='The brother\'s inferred father is confident; continuity into the 1618 marriage household remains a separate identity question. These confidence levels do not extend through every attached generation.',
          next='Find an occupation, inherited property or parent statement carrying Ninian\'s brother into the 1618 marriage and 1619 baptism household.',
-         evidence=[('Robert: craft and property evidence', '/people/glasgow-1096.html'), ('John and Jonet Mathie: competing parentage', '/people/glasgow-1030.html')],
-         sources=['research/Glasgow-1096/findings.md', 'research/Glasgow-1030/findings.md']),
+         evidence=[('Robert: craft and property evidence', '/people/glasgow-1096.html'), ('John and Jonet Mathie: competing parentage', '/people/glasgow-1030.html'), ('Isobella: the later Bridgegait fisher reference', '/people/glasgow-3916.html')],
+         sources=['research/Glasgow-1096/findings.md', 'research/Glasgow-1030/findings.md', 'research/Glasgow-3916/findings.md']),
     dict(id='research-corsankell-household', label='Corsankell: James and his sons',
-         members=['glasgow-1168', 'glasgow-3921', 'glasgow-4061'], years=(1559, 1571),
+         members=['glasgow-1168', 'glasgow-3921', 'glasgow-3193'], years=(1559, 1571),
          place='Corsankell / Corsinkell, Stevenston, Ayrshire',
          description='The 1559-60 teind list and 1571 charter define James elder\'s household. Its connection to the Glasgow burgh family still needs a documentary bridge.',
          question='How did the Corsankell household connect to William\'s Glasgow burgh family?',
-         conclusion='The 1571 NRS catalogue abstract GD39/5/59 names James elder\'s sons James and John. The record-defined John is Glasgow-4061; Glasgow-3193 is only a possible match. William as James elder\'s father remains chronologically possible, not proved. The Campbell co-occupiers are not established wives or relatives.',
-         boundary='A record-defined father-and-sons group. Neither the city connection nor the identity of the Kilwinning John is assumed.',
+         conclusion='The 1571 NRS catalogue abstract GD39/5/59 names James elder\'s sons James and John. The record-defined John profile Glasgow-4061 has been merged into Glasgow-3193, the leading Kilwinning identity. The deed itself does not identify the Burrowland/Dalgarven tenant, so that continuity remains probable. William as James elder\'s father is still unproved; Campbell co-occupiers are not established wives or relatives.',
+         boundary='A record-defined father-and-sons group. The city connection and the Kilwinning John\'s identity remain qualified despite the live merge.',
          next='Inspect the original 1571 deed and earlier estate succession for a predecessor, relative or link to the Glasgow property family.',
          evidence=[('James elder: household reconstruction', '/people/glasgow-1168.html'), ('1571 Corsinkell charter catalogue', 'https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD39%2F5%2F59')],
          sources=['research/Glasgow-1168/findings.md']),
@@ -53,15 +53,25 @@ GROUPS = [
          evidence=[('Matthew: Mathie-Glencairn research', '/people/glasgow-3908.html'), ('Michael: separate identity and estate records', '/people/glasgow-3911.html')],
          sources=['research/Glasgow-3908/findings.md', 'research/Glasgow-3911/findings.md']),
     dict(id='research-calder-testament-household', label='Calder: Andrew\'s actual household',
-         members=['glasgow-3163'], years=(1597, 1598),
+         members=['glasgow-3163', 'glasgow-3336', 'glasgow-3183', 'glasgow-3262'], years=(1597, 1624),
          place='Corstoun, parish of Caldercleir, sheriffdom of Edinburgh',
-         description='A corrected testament reading establishes Andrew, Elizat Stevinsoun and four named children. It also removes the supposed documentary bridge to several attached branches.',
-         question='Who were Andrew\'s parents, and where did his named children and land pass next?',
-         conclusion='Andrew\'s 1597/8 testament names wife Elizat Stevinsoun, son Robert and daughters Marion, Janet and Isobel. It does not name a son James. Several exported profile identities formerly associated with the household are therefore unsupported. The proposed father John of Glasgow remains unproved.',
-         boundary='The testament household is documented; the children\'s catalogue identities are unresolved. John of Hirmenschelis\'s second named child is Marjory, following the accepted human reading, not an Andrew who could establish this man\'s parentage.',
-         next='Follow the land reserved to Elizat until Robert came of age, and seek kirk, estate or court records naming the same family.',
-         evidence=[('Andrew: corrected testament and identities', '/people/glasgow-3163.html')],
-         sources=['research/Glasgow-3163/findings.md']),
+         description='Andrew\'s testament establishes Elizat Stevinsoun and four named children. Isobel and Jonet have qualified later identity joins; a separate 1609 Mid Calder Jonat is a further possible identity for the latter.',
+         question='Who were Andrew\'s parents, and can estate, marriage or Menzeis records confirm his daughters\' later identities?',
+         conclusion='Andrew\'s 1597/8 testament names wife Elizat Stevinsoun, son Robert and daughters Marion, Janet and Isobel. Isobel is probably the Edinburgh bride of tailor William Symountoun; Jonet is probably the 1624 Mid Calder bride of Martin Ramsy. Both documentary profiles were merged into those later identities on 27 September 2026, Andrew’s father links are confident for the record-defined daughters; their later bride identities remain probable and maternity remains separately uncertain. A different Jonat Glasgow had daughter Agnes Menzeis in Mid Calder in 1609 and could be the same Ramsy bride if her Menzeis marriage had ended; that continuity is still unproved.',
+         boundary='The testament household is documented. The later Isobel and Jonet identifications are probable, and the 1609 Menzeis mother is a separate candidate, not an attached daughter. John of Hirmenschelis\'s second named child is Marjory, not an Andrew who could establish this man\'s parentage.',
+         next='Follow the land reserved to Elizat until Robert came of age; inspect the 1609 baptism, 1624 marriage, David Menzeis records and Edinburgh craft archives for direct household identifiers.',
+         evidence=[('Andrew: corrected testament and identities', '/people/glasgow-3163.html'), ('Isobel: testament and Edinburgh marriage', '/people/glasgow-3336.html'), ('Jonet: Ramsy and Menzeis comparison', '/people/glasgow-3183.html'), ('Jonat Menzeis: 1609 mother', '/people/glasgow-3262.html')],
+         sources=['research/Glasgow-3163/findings.md', 'research/Glasgow-3336/findings.md', 'research/Glasgow-3183/findings.md', 'research/Glasgow-3262/findings.md']),
+    dict(id='research-edinburgh-craft-marriages', label='Edinburgh and Leith: Glasgow women in craft households',
+         members=['glasgow-3188', 'glasgow-3182', 'glasgow-3302', 'glasgow-3598', 'glasgow-3336'], years=(1607, 1620),
+         place='Edinburgh and South Leith, Midlothian',
+         description='Marriage and baptism entries place several Glasgow women among tailors and cordiners. The shared trades and locality point to research connections, while each woman must be identified from her own records.',
+         question='Do craft incorporation, marriage-cautioner or testament records identify the fathers or earlier marriages of Barbara and Margaret Glasgow?',
+         conclusion='Margaret Glasgow married cordiner William Hardie in 1611; one Barbara married George Johnstoun, also a cordiner, in 1616; another Barbara has a South Leith entry with John Wilson in 1611. The Edinburgh register also lists a cordiner William Hardie marrying in 1608, 1641 and 1643, but does not establish whether these entries concern Margaret\'s husband or namesakes. Ninian\'s son Robert was a cordiner, making his household a plausible context for the unattached women. Isobel, who married tailor William Symountoun in 1619, is now probably identified with Andrew of Corsoun\'s daughter; that proposed join remains qualified.',
+         boundary='A craft and locality network, not proof that the Barbara entries refer to one woman or that Margaret and Barbara are Ninian\'s daughters.',
+         next='Read the original 1611 South Leith entries, trace John Wilson after the marriage, and inspect Edinburgh tailoring and cordiner incorporation records for named fathers or cautioners. Compare the Hardie OPR marriages and testaments before treating the later William as Margaret\'s husband.',
+         evidence=[('Barbara: South Leith identity comparison', '/people/glasgow-3182.html'), ('Margaret: Hardie marriage', '/people/glasgow-3598.html'), ('Isobel: Corsoun and Edinburgh evidence', '/people/glasgow-3336.html')],
+         sources=['research/Glasgow-3182/findings.md', 'research/Glasgow-3302/findings.md', 'research/Glasgow-3598/findings.md', 'research/Glasgow-3336/findings.md']),
     dict(id='research-hirmenschelis-household', label='Hirmenschelis: John\'s testament family',
          members=['glasgow-3181'], years=(1563, 1577),
          place='Hirmenschelis / Hirdmanschiels, Calder district',
@@ -76,12 +86,12 @@ GROUPS = [
          members=['glasgow-1073', 'glasgow-3375'], years=(1674, 1722),
          place='Kilbirnie and Kilwinning, Ayrshire',
          description='Rev. John\'s education and ministry are documented, but his earlier Ayrshire ancestry and a possible second John identity remain unsettled.',
-         question='Was Rev. John the Kilwinning John married to Barbara Allison, and how does his family connect to Corsankell?',
-         conclusion='University and Fasti records identify the minister\'s career, but name no parents. The Corsankell-Stevenston-Kilwinning route is the leading wider branch hypothesis, not a proved chain. John-3375\'s local household is a serious duplicate candidate; the original parish entries must distinguish or connect the men.',
-         boundary='An established ministerial family with uncertain ancestry and a candidate identity. It is not declared a separate, unrelated Ayrshire root.',
-         next='Inspect complete Kilwinning parish entries for title, occupation and residence; seek an explicit parentage record before changing attachments.',
-         evidence=[('Rev. John: career, ancestry and identity problem', '/people/glasgow-1073.html')],
-         sources=['research/Glasgow-1073/findings.md']),
+         question='Was Rev. John the Kilwinning John married to Barbara Allison, and were the Georges of Bog and Bay part of his family or separate local households?',
+         conclusion='University and Fasti records identify the minister\'s career, but name no parents. A FamilySearch-catalogued handwritten genealogy names George Glasgow of the Bog (Stevenson/Stevenston) and George Glasgow of the Bay (Kelvening/Kilwinning), while asking about their relationship to the minister. The note gives neither George a date or parentage; Glasgow-3120, stated born about 1660 in Kilwinning, is only a possible overlap with the Bay lead. The Corsankell-Stevenston-Kilwinning route remains a hypothesis, and John-3375\'s local household remains a duplicate candidate.',
+         boundary='The minister and two possible local Glasgow bearers remain unconnected by proven descent. The retrospective manuscript and its AI transcript do not establish dates or identities; do not equate the Bay George with Glasgow-3120 or attach either George to the minister without contemporary evidence.',
+         next='Verify the manuscript readings and chronology from its image, then seek contemporary parish, sasine or probate evidence for Bog/Stevenston and Bay/Kilwinning. Compare Glasgow-3120 only against independent records before changing attachments.',
+         evidence=[('Rev. John: career, ancestry and identity problem', '/people/glasgow-1073.html'), ('FamilySearch manuscript: Georges of the Bog and Bay', 'https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJ9-2YWB?view=fullText&keywords=Glasgow&searchForm=advanced&lang=en')],
+         sources=['research/Glasgow-1073/findings.md', 'surname-research/pre-1700/familysearch-full-text-glasgow-scotland-1699-2026-09-22.md']),
     dict(id='research-calder-inveresk-james', label='Two places, one James?',
          members=['glasgow-991'], years=(1605, 1618),
          place='Mid Calder and Inveresk / Musselburgh',
@@ -99,7 +109,7 @@ GROUPS = [
 IRISH_GROUPS = [
     dict(id='research-irish-cross-derry', label='Cross and Derry: a reconstructed cluster', members=['glasgow-2917', 'glasgow-1732', 'glasgow-1654'], years=(1686, 1844), place='Cross, Killycurragh and Ballynasollus, Derry/Tyrone', description='A Scottish baptism is documented; the later Irish association and attached descent remain reconstructed.', question='Can Irish records bridge Charles Glasgow from the Scottish baptism to the Cross families?', conclusion='The named local subgroups are useful research leads, not a documented chain from Charles.', boundary='A locality and identity study. No displayed father-son link is accepted from the Scottish baptism.', next='Seek Irish parish, lease, probate or land records naming Charles or the first Cross household.', evidence=[('Early Ireland branch overview', 'https://www.wikitree.com/wiki/Space:Glasgow_Branches_in_Early_Ireland')], sources=['surname-research/free-space-pages/Glasgow_Branches_In_Early_Ireland.md'], irish=True),
     dict(id='research-irish-tamlaght', label="Tamlaght O'Crilly: the Hugh households", members=['glasgow-548', 'glasgow-3931', 'glasgow-540', 'glasgow-591'], years=(1740, 1772), place="Tamlaght O'Crilly and Inishrush, County Londonderry", description='Two 1740 Hugh Glasgow households and a 1772 occurrence are documented; their identities and kinship are unresolved.', question='Which, if any, later Glasgow family belongs to each documented Hugh household?', conclusion='The returns establish household occurrences, not descent from the traditional William or a secure profile identity.', boundary='Contemporary locality evidence with unresolved identities and no proved relationship between the two Hughs.', next='Find lease, church, probate or estate material with age, occupation, household or relatives.', evidence=[('Early Ireland branch overview', 'https://www.wikitree.com/wiki/Space:Glasgow_Branches_in_Early_Ireland')], sources=['surname-research/free-space-pages/Glasgow_Branches_In_Early_Ireland.md'], irish=True),
-    dict(id='research-irish-east-antrim', label='East Antrim: Larne to Kilwaughter', members=['glasgow-1078', 'glasgow-1081', 'glasgow-3913', 'glasgow-1143', 'glasgow-1503', 'glasgow-1504', 'glasgow-1505', 'glasgow-1022'], years=(1653, 1772), place='Larne, Glenarm and Kilwaughter, County Antrim', description='Early adults and households are documented in east Antrim; a complete founding family and links to later branches are not proved.', question='Can the early Larne, Glenarm and Kilwaughter occurrences be connected by a record-defined household?', conclusion='Robert-1143 to James-1144 to Archibald is supported by concordant records. Archibald’s missing boy fits Tennessee Robert, the possible father of James J. The older Larne ropemaker is separately a candidate for Adam of Inishrush’s father; the joining generations remain hypotheses.', boundary='Documentary locality cluster, not a founding couple or complete descent.', next='Inspect original church, estate, deed and session records for named relatives or succession.', evidence=[('Larne and American family reconstruction', '/people/glasgow-951.html#larne-reconstruction'), ('Larne and Kilwaughter family study', '/branches/larne-kilwaughter/'), ('Early Ireland branch overview', 'https://www.wikitree.com/wiki/Space:Glasgow_Branches_in_Early_Ireland')], sources=['surname-research/free-space-pages/Glasgow_Branches_In_Early_Ireland.md'], irish=True),
+    dict(id='research-irish-east-antrim', label='East Antrim: Larne to Kilwaughter', members=['glasgow-1078', 'glasgow-1081', 'glasgow-3913', 'glasgow-1143', 'glasgow-1499', 'glasgow-1504', 'glasgow-1505', 'glasgow-1022'], years=(1653, 1772), place='Larne, Glenarm and Kilwaughter, County Antrim', description='Early adults and households are documented in east Antrim; a complete founding family and links to later branches are not proved.', question='Can the early Larne, Glenarm and Kilwaughter occurrences be connected by a record-defined household?', conclusion='The 20 December 1764 Ballykeel lease, memorial 159661, explicitly names James as Robert’s son, documenting Robert-1143 to James-1144; the continuation to Archibald is supported by concordant records. Archibald’s missing boy fits Tennessee Robert, the possible father of James J. The older Larne ropemaker is separately a candidate for Adam of Inishrush’s father; the joining generations remain hypotheses.', boundary='Documentary locality cluster, not a founding couple or complete descent.', next='Compare NRS GD154/514–515 (c. 1653), /525 (c. 1690), /530 (November 1692) and /532 (1693–1708) tenant and rental originals, and read PRONI T/828/15 for named relatives and date qualifications.', evidence=[('Larne and American family reconstruction', '/people/glasgow-951.html#larne-reconstruction'), ('Larne and Kilwaughter family study', '/branches/larne-kilwaughter/'), ('Early Ireland branch overview', 'https://www.wikitree.com/wiki/Space:Glasgow_Branches_in_Early_Ireland')], sources=['surname-research/free-space-pages/Glasgow_Branches_In_Early_Ireland.md'], irish=True),
     dict(id='research-irish-moneymore', label='Moneymore: a labelled tree under review', members=['glasgow-1026', 'glasgow-1492', 'glasgow-2425', 'glasgow-2426'], years=(1671, 1735), place='Moneymore / Derryloran, County Tyrone', description='A Scottish baptism is cited for the earliest profile, but no Irish record yet supports the claimed migration or attached Moneymore descent.', question='Can Irish evidence identify William Walter Glasgow or reconcile the competing attached fathers?', conclusion='The Moneymore-labelled tree remains reconstructed; the stated County Galway locality is inconsistent with the Ulster setting.', boundary='A profile and locality reconciliation study, not a confirmed Irish lineage.', next='Find Irish records for William, spouse and children and resolve the competing father attachments.', evidence=[('Early Ireland branch overview', 'https://www.wikitree.com/wiki/Space:Glasgow_Branches_in_Early_Ireland')], sources=['surname-research/free-space-pages/Glasgow_Branches_In_Early_Ireland.md'], irish=True),
     dict(id='research-irish-derryloran', label='Derryloran and Cookstown: four 1740 households', members=['glasgow-2988', 'glasgow-2915', 'glasgow-1970'], years=(1740, 1760), place='Derryloran and Cookstown, County Tyrone', description='Two James and two William Glasgow households form a documented 1740 parish cluster beneath later Cookstown research.', question='Can later Cookstown profiles be matched to a specific 1740 householder?', conclusion='The four household occurrences are firm locality evidence; relationships and profile identities remain unknown.', boundary='A documentary parish cluster, not proof of a shared father or Moneymore descent.', next='Follow each householder in church, lease, tax, probate and estate records.', evidence=[('Early Ireland branch overview', 'https://www.wikitree.com/wiki/Space:Glasgow_Branches_in_Early_Ireland')], sources=['surname-research/free-space-pages/Glasgow_Branches_In_Early_Ireland.md'], irish=True),
     dict(id='research-irish-cork-new-zealand', label='Cork to New Zealand: an independent migration', members=['glasgow-971'], years=(1792, 1873), place='County Cork and New Zealand', description='A later migration family is documented independently of the Ulster clusters.', question='Is there any documentary bridge from this Cork family to an earlier Glasgow branch?', conclusion='No evidence currently joins the Cork–New Zealand family to the Ulster locality clusters.', boundary='A separate migration family; broad surname or Y-DNA affinity does not supply the missing connection.', next='Trace the Barony-to-Cork move and earliest Cork records before testing wider links.', evidence=[('Early Ireland branch overview', 'https://www.wikitree.com/wiki/Space:Glasgow_Branches_in_Early_Ireland')], sources=['surname-research/free-space-pages/Glasgow_Branches_In_Early_Ireland.md'], irish=True),
@@ -111,6 +121,52 @@ IRISH_GROUPS = [
     dict(id='research-irish-bann-valley-killoquin', label='Bann Valley and Killoquin: Daniel and Thomas', members=['glasgow-3904', 'glasgow-3896', 'glasgow-987', 'glasgow-951', 'glasgow-938'], years=(1778, 1871), place='Kilrea, Killoquin, Lisnagaver and Gortereghy', description='Daniel and Thomas Glasgow are proved brothers; the older parent generation and Alexander’s proposed sibling place remain qualified.', question='Can estate and church records resolve the older Alexander-and-Rosanna generation and Alexander’s relationship to Daniel and Thomas?', conclusion='Daniel and Thomas are securely brothers. The Larne reconstruction compares descent through their proposed father older Alexander with a separate younger-James route to Alexander-951. The first preserves the Thomas-parent testimony; neither yet supplies Alexander-951’s father statement.', boundary='A partly proved local family core, not evidence that it descends from East Antrim or another Irish cluster.', next='Inspect Killoquin rent rolls, estate accounts, valuation revisions and the first Lisnagaver leases.', evidence=[('Larne and American family reconstruction', '/people/glasgow-951.html#larne-reconstruction'), ('Lisnagaver and Rasharkin family study', '/branches/lisnagaver-rasharkin/'), ('Early Ireland branch overview', 'https://www.wikitree.com/wiki/Space:Glasgow_Branches_in_Early_Ireland')], sources=['surname-research/free-space-pages/Glasgow_Branches_In_Early_Ireland.md'], irish=True),
     dict(id='research-irish-desertoghill-garvagh', label='Desertoghill and Garvagh: a 1796 occurrence', members=[], years=(1796, 1796), place='Desertoghill and Garvagh, County Londonderry', description='A 1796 flax-grower entry records John Glasgow at Desertoghill; parentage and descendants are not yet known.', question='Can a church, lease, probate or estate record identify John Glasgow’s household at Desertoghill?', conclusion='The flax list proves a late-eighteenth-century locality occurrence, not a relationship to Tamlaght, Inishrush or another Derry group.', boundary='One documented local occurrence, deliberately kept separate from named family clusters.', next='Trace the Desertoghill and Garvagh tenant, church and probate records for household detail.', evidence=[('Early Ireland branch overview', 'https://www.wikitree.com/wiki/Space:Glasgow_Branches_in_Early_Ireland')], sources=['surname-research/free-space-pages/Glasgow_Branches_In_Early_Ireland.md'], irish=True),
 ]
+
+
+def insert_after_page_header(text, content):
+    pattern = r'(<main\b[^>]*>(?:(?!</main>|<header\b).)*<header\b[^>]*>.*?</header>)'
+    updated, count = re.subn(pattern, lambda match: match[1] + content, text, count=1, flags=re.S)
+    if count != 1:
+        raise ValueError('Research page header not found inside main')
+    return updated
+
+
+def father_audit_section(audit):
+    """Expose the maintained early Glasgow father audit, including unresolved leads."""
+    rows = []
+    for item in audit['results']:
+        father = item.get('father')
+        father_text = (f'<a href="https://www.wikitree.com/wiki/{escape(father)}">{escape(father)}</a>'
+                       if father else 'No father attached')
+        source = (f'<p><strong>Source evidence:</strong> {escape(item["source_summary"])}</p>'
+                  if item.get('source_summary') else '')
+        rows.append(f'<details><summary>{escape(item["name"])} · {escape(item["id"])} — '
+                    f'{escape(item["outcome"])}</summary><p><strong>Father:</strong> {father_text}</p>'
+                    f'<p>{escape(item["assessment"])}</p>{source}'
+                    f'<p><strong>Next question:</strong> {escape(item["next_question"])}</p>'
+                    f'<p><a href="{escape(item["findings"], quote=True)}">Read the profile evidence</a></p></details>')
+    counts = audit['counts']
+    followup = ''
+    if audit.get('followup_batch'):
+        followup = ('<p>The follow-up search located a probable 1582 Bridgegait reference to '
+                    '<a href="/people/herbison-475.html">Archibald Herbertsoun, fisher</a>. '
+                    'It was added to <a href="/people/glasgow-3916.html">Isobella’s live profile</a> '
+                    'and source account. The remaining father arguments still leave an identity '
+                    'or family degree unresolved; this batch added no confident father link. '
+                    'The original Morton, Torphichen and Ayr sasine succession records remain '
+                    'priority archival sources; publicly available indexes do not supply their full text.</p>')
+    return (f'<!-- early-father-audit:start --><section class="experience-topic" id="early-father-audit">'
+            f'<span class="r-kicker">Father audit · 28 September 2026</span>'
+            f'<h2>Early Glasgow profiles: fathers and remaining leads</h2>'
+            f'<p>{escape(audit["scope"])}</p><p><strong>{audit["cohort_total"]} profiles:</strong> '
+            f'{counts["confident"]} confident father links · {counts["uncertain"]} uncertain · '
+            f'{counts["father_missing"]} missing fathers · {counts["unmarked"]} unmarked links.</p>'
+            f'<p>{escape(audit["method"])}</p><p>One father relationship was upgraded on live WikiTree; '
+            f'no new father was attached. The brother John’s father is confidently inferred from '
+            f'Ninian’s <a href="https://archive.org/details/scottishrecordso43scotuoft/page/24/mode/2up">1596 admission</a> '
+            f'and <a href="/research/transcriptions/ninian-1613/">1613 testament</a>; his later marriage identity '
+            f'remains probable.</p>' + followup + '<details><summary>Review the 31 assessed profiles and next searches</summary>'
+            + ''.join(rows) + '</details></section><!-- early-father-audit:end -->')
 
 
 def repair():
@@ -179,21 +235,25 @@ def repair():
         '<div class="experience-topic-grid">' + irish_cards +
         '</div></section><!-- curated-irish-groups:end -->'
     )
-    for relative in ('branches/index.html', 'branches/family-glasgow-1095/index.html'):
+    for relative in ('branches/family-glasgow-1095/index.html',):
         text = (WEB / relative).read_text()
         text = re.sub(r'<!-- curated-research-groups:start -->.*?<!-- curated-research-groups:end -->', '', text, flags=re.S)
         text = re.sub(r'<!-- curated-irish-groups:start -->.*?<!-- curated-irish-groups:end -->', '', text, flags=re.S)
-        sections = section + (irish_section if relative == 'branches/index.html' else '')
-        text = re.sub(r'(<main\b[^>]*>\s*<header\b[^>]*>.*?</header>)', lambda m: m[1] + sections, text, count=1, flags=re.S)
-        if relative == 'branches/index.html' and 'value="research"' not in text:
-            text = text.replace('<option value="family">', '<option value="research">Evidence-led research groups</option><option value="family">', 1)
+        sections = section
+        text = insert_after_page_header(text, sections)
         write(relative, text)
     relative = 'branches/scottish-families/index.html'
     text = (WEB / relative).read_text()
     marker = '<!-- curated-scottish-studies -->'
     text = re.sub(r'<!-- curated-scottish-studies --><nav\b[^>]*>.*?</nav>', '', text, flags=re.S)
-    navigation = marker + '<nav class="experience-branch-nav" aria-label="Scottish research studies"><p>Look inside uncertain tree connections</p><div class="r-actions"><a href="/branches/#research-studies">Eight evidence-led Scottish research groups</a><a href="/research/#open-questions">The main open research questions</a></div></nav>'
-    text = re.sub(r'(<main\b[^>]*>\s*<header\b[^>]*>.*?</header>)', lambda m: m[1] + navigation, text, count=1, flags=re.S)
+    navigation = marker + f'<nav class="experience-branch-nav" aria-label="Scottish research studies"><p>Look inside uncertain tree connections</p><div class="r-actions"><a href="/branches/#research-studies">{len(GROUPS)} evidence-led Scottish research groups</a><a href="/research/#open-questions">The main open research questions</a></div></nav>'
+    text = insert_after_page_header(text, navigation)
+    audit_path = ROOT / 'research/pre-1600-glasgow-father-evidence-audit-2026-09-28.json'
+    if audit_path.exists():
+        audit = json.loads(audit_path.read_text())
+        text = re.sub(r'<!-- early-father-audit:start -->.*?<!-- early-father-audit:end -->', '', text, flags=re.S)
+        text = insert_after_page_header(text, father_audit_section(audit))
+        write('assets/research/early-father-audit.json', json.dumps(audit, ensure_ascii=False, separators=(',', ':')) + '\n')
     write(relative, text)
     return changed
 

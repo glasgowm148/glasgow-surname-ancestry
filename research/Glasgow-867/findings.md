@@ -1,34 +1,38 @@
 # Findings: Glasgow-867
 
-Last updated: 2026-09-17
+Last updated: 2026-09-21
 
 ## Current conclusion
+
+**17 September 2026 (part 2) — corrections.** (1) The Rasharkin GLASGO memorial's "Elizabeth Ann, died 16 June 1933 aged 84" is **James Garvin Glasgow's widow Eliza Ann (Aiken)**: PRONI Will Calendar, Glasgow, Eliza Ann, of Tullynahinion, widow, d. 16 June 1933, probate Belfast 17 July 1933 to Robert Andrew Aicken, farmer, and William Shaw, solicitor (£601 5s); James Garvin Glasgow's estate (d. 14 Feb 1918, Lisnagaver) was administered 8 May 1918 by Eliza Ann Glasgow, widow (£310). The citation's "Lizzie, child of John Glasgow" is therefore **not** the memorial's Elizabeth Ann and remains unidentified. (2) The 3 October 1887 Lisnagaver birth (Dirraw entry 352) is **[[Glasgow-4005|John Garvin Glasgow]]**, son of James Glasgow, farmer, and Eliza Ann formerly **Eakin** — this is the exact birth date for the existing profile Glasgow-4005 (which had only the gravestone's undated "infant son John Garvin"), a son of James Garvin, not a child of Alexander's line; he is absent from the 1901/1911 household. (3) Registry of Deeds Land Index 1890–94, Kilconway, lists "Glasgow James G" among Lisnagaver grantors (Land Purchase vesting, 1893). (4) 1901 census Lisnagaver h33: James Garvin Glasgow 49, Eliza A 51; 1911 h22: James 60, Eliza Ann 62, married 24 years. (5) Mary Anne M'Caughern, witness at Ann Glasgow's 1875 marriage, is the granddaughter and residuary heir named in the 1881 will of James Dysart of Crushybracken (husband of Jane Glasgow) — a documented tie between this household and the Dysart family.
 
 **17 September 2026 — sibling identification from Nancy Glasgow's probate
 citation.** The 14 January 1892 Clinton County citation in the estate of
 [Nancy Glasgow (Glasgow-4070)](https://www.wikitree.com/wiki/Glasgow-4070)
 lists "James G. Glasgow, Ann and Lizzie, the children of John Glasgow, late of
-Baladonly, county Antrim" among Nancy's heirs or next of kin. Those three are
-this John's children James **Garvin** Glasgow, Ann (Bellingham) and Elizabeth
-Ann (d. 1933 aged 84 on the family memorial). A New York probate citation had to
-name the heirs and next of kin; for an unmarried woman these were siblings and
-the children of deceased siblings. The citation names no sibling directly, so
-John was a **deceased brother of Nancy**, which supports the 24 June 1885
-Lisnagaver death (currently [Glasgow-3474](https://www.wikitree.com/wiki/Glasgow-3474))
-over the memorial transcription's 1895: a man alive in January 1892 would have
-been cited himself. "Baladonly" is Ballydonnelly, a Rasharkin-parish townland;
-no Glasgow held land there in the 1834 tithe or in Griffith's Valuation, so the
-association is unexplained. The same citation lists the children of
-[Alexander Glasgow (Glasgow-951)](https://www.wikitree.com/wiki/Glasgow-951) —
-James, Mary and Ann — and the children of Robert, Jane Dysart, Elizabeth
-Anderson, Ann McClelland and Mary Thompson. John, Alexander and those siblings
-therefore shared the father this John named in 1846, **John Glasgow, farmer**.
-The full argument, chronology and remaining gaps are in
+Baladonly, county Antrim" among Nancy's heirs or next of kin. James **Garvin** Glasgow and Ann (Bellingham)
+provide a probable match to this John's household; "Lizzie" remains unidentified.
+The citation supports a probable deceased-brother relationship to Nancy, not a
+direct statement of it. The proposed match is compatible with the 24 June 1885
+Lisnagaver death; the discrepancy with the memorial transcription's 1895 must
+be resolved from the death and memorial evidence rather than presumed citation
+completeness. "Baladonly" probably represents Ballydonnelly, but John's
+association with that townland remains unexplained. The same citation names
+children of Alexander, Robert, Jane Dysart, Ann McClelland and Mary Thompson,
+and Andersons at Gortahar (Elizabeth's name is supplied by other records).
+
+**21 September 2026 — probate evidence audit.** John's 1846 marriage directly
+names his father **John Glasgow, farmer**, and the 1851 census directly makes
+Samuel his brother. Those findings stand. Extending that father to the probable
+Nancy/Alexander sibling network is conditional: the citation does not distinguish
+paternal from maternal half-kin, and siblinghood is not necessarily transitive.
+The proposed father represented by [Glasgow-4090](https://www.wikitree.com/wiki/Glasgow-4090)
+is not thereby identified with the 1796 Desertoghill flax-premium recipient.
+No automatic parent replacement follows. The January newspaper image was
+rechecked in the Nancy dossier; obtain the underlying petition/heir schedule
+and resolve Ballydonnelly before strengthening this extension. Full argument:
 `research/Glasgow-951/findings.md` (*Nancy Glasgow's next-of-kin citation and
-Alexander's father*). Consequences for this profile: Glasgow-3474 is very
-probably the same man and should be assessed for merge; the father placeholder
-[Glasgow-4090](https://www.wikitree.com/wiki/Glasgow-4090) now also carries the
-proposed (uncertain) attachment of Alexander-951, Nancy-4070 and Elizabeth-4071.
+Alexander's father*).
 
 The 5 September master review confirms the direct John–Samuel brotherhood and
 John's named father, but it does not identify that older John as
@@ -82,8 +86,8 @@ probably born about 1817. Alexander belongs to a different father-John branch.
 ## Remaining parentage problem
 
 The named father was a John Glasgow who worked as a farmer by 1846. The evidence
-does not give his residence, wife or age. The records now require a man capable
-of fathering both Samuel, born about 1791, and John, whose sources disagree
+does not give his residence, wife or age. If John and Samuel shared a father, that man must have been capable
+of fathering Samuel, born about 1791, and John, whose sources disagree
 between about 1801 and about 1817. The Killoquin estate tenant books for 1772-74
 and 1835 are the most promising source for separating the local John households.
 

@@ -415,10 +415,16 @@
   {
     "assertion_id": "C-reviewed-glasgow-973-mccaughan-222",
     "publication_status": "approved",
-    "people": ["Glasgow-973", "McCaughan-222"],
+    "people": [
+      "Glasgow-973",
+      "McCaughan-222"
+    ],
     "status": "proved",
     "assessment_date": "2026-09-13",
-    "source_ids": ["baptism-james-1843", "census-1851"],
+    "source_ids": [
+      "baptism-james-1843",
+      "census-1851"
+    ],
     "basis": "Rasharkin baptism entry 203 and the original 1851 Lisnagaver household",
     "perspectives": {
       "Glasgow-973": {
@@ -439,10 +445,18 @@
   {
     "assertion_id": "C-reviewed-glasgow-951-mccaughan-222",
     "publication_status": "approved",
-    "people": ["Glasgow-951", "McCaughan-222"],
+    "people": [
+      "Glasgow-951",
+      "McCaughan-222"
+    ],
     "status": "proved",
     "assessment_date": "2026-09-13",
-    "source_ids": ["baptism-james-1837", "baptism-unnamed-1838", "baptism-james-1843", "census-1851"],
+    "source_ids": [
+      "baptism-james-1837",
+      "baptism-unnamed-1838",
+      "baptism-james-1843",
+      "census-1851"
+    ],
     "basis": "Three Rasharkin baptism entries and the original 1851 Lisnagaver household",
     "perspectives": {
       "Glasgow-951": {
@@ -461,73 +475,2522 @@
     }
   },
   {
-    "people": ["Boyd-18548", "Glasgow-2413"],
+    "people": [
+      "Boyd-18548",
+      "Glasgow-2413"
+    ],
     "status": "proved",
     "basis": "Original 1888 civil marriage return",
     "assessment_date": "2026-09-12",
-    "source_ids": ["marriage-daniel-neely-1888"],
+    "source_ids": [
+      "marriage-daniel-neely-1888"
+    ],
     "perspectives": {
-      "Boyd-18548": {"relationship": "spouse", "reason": "The original 28 June 1888 return records Mary Jane Boyd and Daniel Neely Glasgow as bride and groom."},
-      "Glasgow-2413": {"relationship": "spouse", "reason": "The original 28 June 1888 return records Daniel Neely Glasgow and Mary Jane Boyd as groom and bride."}
+      "Boyd-18548": {
+        "relationship": "spouse",
+        "reason": "The original 28 June 1888 return records Mary Jane Boyd and Daniel Neely Glasgow as bride and groom."
+      },
+      "Glasgow-2413": {
+        "relationship": "spouse",
+        "reason": "The original 28 June 1888 return records Daniel Neely Glasgow and Mary Jane Boyd as groom and bride."
+      }
     },
     "assertion_id": "C-reviewed-boyd-18548-glasgow-2413",
     "publication_status": "approved",
-    "provenance": {"source": "/assets/research/relationship-assessments.json", "basis": "Original civil marriage evidence", "resolution_note": "Publishes the direct spouse evidence in reciprocal dossiers."}
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "basis": "Original civil marriage evidence",
+      "resolution_note": "Publishes the direct spouse evidence in reciprocal dossiers."
+    }
   },
   {
-    "people": ["Boyd-18548", "Glasgow-2414"],
+    "people": [
+      "Boyd-18548",
+      "Glasgow-2414"
+    ],
     "status": "proved",
     "basis": "Original 1889 civil birth return",
     "assessment_date": "2026-09-12",
-    "source_ids": ["birth-sarah-glasgow-1889"],
+    "source_ids": [
+      "birth-sarah-glasgow-1889"
+    ],
     "perspectives": {
-      "Boyd-18548": {"relationship": "daughter", "reason": "Sarah's original birth return directly names Mary Jane Glasgow formerly Boyd as her mother."},
-      "Glasgow-2414": {"relationship": "mother", "reason": "Sarah's original birth return directly names Mary Jane Glasgow formerly Boyd as her mother."}
+      "Boyd-18548": {
+        "relationship": "daughter",
+        "reason": "Sarah's original birth return directly names Mary Jane Glasgow formerly Boyd as her mother."
+      },
+      "Glasgow-2414": {
+        "relationship": "mother",
+        "reason": "Sarah's original birth return directly names Mary Jane Glasgow formerly Boyd as her mother."
+      }
     },
     "assertion_id": "C-reviewed-boyd-18548-glasgow-2414",
     "publication_status": "approved",
-    "provenance": {"source": "/assets/research/relationship-assessments.json", "basis": "Original civil birth evidence", "resolution_note": "Publishes the direct mother–daughter evidence in reciprocal dossiers."}
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "basis": "Original civil birth evidence",
+      "resolution_note": "Publishes the direct mother–daughter evidence in reciprocal dossiers."
+    }
   },
   {
-    "people": ["Boyd-18548", "Glasgow-2415"],
+    "people": [
+      "Boyd-18548",
+      "Glasgow-2415"
+    ],
     "status": "proved",
     "basis": "Original 1889 civil birth return",
     "assessment_date": "2026-09-12",
-    "source_ids": ["birth-elizabeth-glasgow-1889"],
+    "source_ids": [
+      "birth-elizabeth-glasgow-1889"
+    ],
     "perspectives": {
-      "Boyd-18548": {"relationship": "daughter", "reason": "Elizabeth's original birth return directly names Mary Jane Glasgow formerly Boyd as her mother."},
-      "Glasgow-2415": {"relationship": "mother", "reason": "Elizabeth's original birth return directly names Mary Jane Glasgow formerly Boyd as her mother."}
+      "Boyd-18548": {
+        "relationship": "daughter",
+        "reason": "Elizabeth's original birth return directly names Mary Jane Glasgow formerly Boyd as her mother."
+      },
+      "Glasgow-2415": {
+        "relationship": "mother",
+        "reason": "Elizabeth's original birth return directly names Mary Jane Glasgow formerly Boyd as her mother."
+      }
     },
     "assertion_id": "C-reviewed-boyd-18548-glasgow-2415",
     "publication_status": "approved",
-    "provenance": {"source": "/assets/research/relationship-assessments.json", "basis": "Original civil birth evidence", "resolution_note": "Publishes the direct mother–daughter evidence in reciprocal dossiers."}
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "basis": "Original civil birth evidence",
+      "resolution_note": "Publishes the direct mother–daughter evidence in reciprocal dossiers."
+    }
   },
   {
-    "people": ["Glasgow-2413", "Glasgow-2414"],
+    "people": [
+      "Glasgow-2413",
+      "Glasgow-2414"
+    ],
     "status": "proved",
     "basis": "Original 1889 civil birth return",
     "assessment_date": "2026-09-12",
-    "source_ids": ["birth-sarah-glasgow-1889"],
+    "source_ids": [
+      "birth-sarah-glasgow-1889"
+    ],
     "perspectives": {
-      "Glasgow-2413": {"relationship": "daughter", "reason": "Sarah's original birth return directly names Daniel Glasgow as her father."},
-      "Glasgow-2414": {"relationship": "father", "reason": "Sarah's original birth return directly names Daniel Glasgow as her father."}
+      "Glasgow-2413": {
+        "relationship": "daughter",
+        "reason": "Sarah's original birth return directly names Daniel Glasgow as her father."
+      },
+      "Glasgow-2414": {
+        "relationship": "father",
+        "reason": "Sarah's original birth return directly names Daniel Glasgow as her father."
+      }
     },
     "assertion_id": "C-reviewed-glasgow-2413-glasgow-2414",
     "publication_status": "approved",
-    "provenance": {"source": "/assets/research/relationship-assessments.json", "basis": "Original civil birth evidence", "resolution_note": "Publishes the direct father–daughter evidence in reciprocal dossiers."}
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "basis": "Original civil birth evidence",
+      "resolution_note": "Publishes the direct father–daughter evidence in reciprocal dossiers."
+    }
   },
   {
-    "people": ["Glasgow-2413", "Glasgow-2415"],
+    "people": [
+      "Glasgow-2413",
+      "Glasgow-2415"
+    ],
     "status": "proved",
     "basis": "Original 1889 civil birth return",
     "assessment_date": "2026-09-12",
-    "source_ids": ["birth-elizabeth-glasgow-1889"],
+    "source_ids": [
+      "birth-elizabeth-glasgow-1889"
+    ],
     "perspectives": {
-      "Glasgow-2413": {"relationship": "daughter", "reason": "Elizabeth's original birth return directly names Daniel Glasgow as her father."},
-      "Glasgow-2415": {"relationship": "father", "reason": "Elizabeth's original birth return directly names Daniel Glasgow as her father."}
+      "Glasgow-2413": {
+        "relationship": "daughter",
+        "reason": "Elizabeth's original birth return directly names Daniel Glasgow as her father."
+      },
+      "Glasgow-2415": {
+        "relationship": "father",
+        "reason": "Elizabeth's original birth return directly names Daniel Glasgow as her father."
+      }
     },
     "assertion_id": "C-reviewed-glasgow-2413-glasgow-2415",
     "publication_status": "approved",
-    "provenance": {"source": "/assets/research/relationship-assessments.json", "basis": "Original civil birth evidence", "resolution_note": "Publishes the direct father–daughter evidence in reciprocal dossiers."}
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "basis": "Original civil birth evidence",
+      "resolution_note": "Publishes the direct father–daughter evidence in reciprocal dossiers."
+    }
+  },
+  {
+    "people": [
+      "Glasgow-1143",
+      "Glasgow-1144"
+    ],
+    "status": "proved",
+    "status_label": "Documented father–son relationship; original memorial",
+    "basis": "original-image documentary father–son evidence",
+    "source_ids": [
+      "deed-ballykeel-159661-1764"
+    ],
+    "claim": "Robert Glasgow was father of James Glasgow",
+    "assessment_date": "2026-09-21",
+    "limitations": "The deed identifies no age, mother, migration or father for Robert. Identification with the South Carolina James uses the combined church and equity evidence.",
+    "perspectives": {
+      "Glasgow-1143": {
+        "relationship": "son",
+        "reason": "The original registered memorial 159661, lease dated 20 December 1764, expressly names Jas Glasgow as son of Robert Glasgow of Ballykeel, Kilwaughter. The register chronology and equity evidence identify the son with James Glasgow-1144; the deed alone does not prove his American migration."
+      },
+      "Glasgow-1144": {
+        "relationship": "father",
+        "reason": "The original registered memorial 159661, lease dated 20 December 1764, expressly names Jas Glasgow as son of Robert Glasgow of Ballykeel, Kilwaughter. The register chronology and equity evidence identify the son with James Glasgow-1144; the deed alone does not prove his American migration."
+      }
+    },
+    "assertion_id": "C-reviewed-glasgow-1143-glasgow-1144-159661",
+    "publication_status": "approved",
+    "provenance": {
+      "source": "research/relationship_assessments.json",
+      "basis": "Original Registry of Deeds memorial 159661, pp.415–416, images 542–543",
+      "reviewed": "2026-09-21"
+    },
+    "historical_assertions": [
+      {
+        "profile_id": "Glasgow-1143",
+        "claim_id": "C-67caa91c2105",
+        "label": "Earlier derivative-register assessment, now corroborated by original memorial",
+        "scope": "Earlier evidence basis; the father–son relationship is retained and strengthened."
+      },
+      {
+        "profile_id": "Glasgow-1144",
+        "claim_id": "C-67caa91c2105",
+        "label": "Earlier derivative-register assessment, now corroborated by original memorial",
+        "scope": "Earlier evidence basis; the father–son relationship is retained and strengthened."
+      }
+    ]
+  },
+  {
+    "people": [
+      "Glasgow-3991",
+      "Glasgow-4180"
+    ],
+    "status": "possible",
+    "status_label": "Uncertain parentage — low-confidence hypothesis",
+    "hypothesis_status": "open",
+    "basis": "Generation and naming compatibility only; no inspected record names Hugh as James’s son.",
+    "source_ids": [
+      "larne-marriage-settlement-1843"
+    ],
+    "claim": "James Glasgow may have been father of Hugh Glasgow",
+    "assessment_date": "2026-09-21",
+    "limitations": "Birth about1770 depends on this proposed generation; no mother inferred. Alternative fathers remain open.",
+    "perspectives": {
+      "Glasgow-3991": {
+        "relationship": "son",
+        "reason": "Generation and naming compatibility only; no inspected record names Hugh as James’s son."
+      },
+      "Glasgow-4180": {
+        "relationship": "father",
+        "reason": "Generation and naming compatibility only; no inspected record names Hugh as James’s son."
+      }
+    },
+    "assertion_id": "C-hypothesis-glasgow-3991-glasgow-4180-20260921",
+    "publication_status": "approved",
+    "provenance": {
+      "source": "research/relationship_assessments.json",
+      "basis": "Explicitly provisional live attachment; genealogy remains unproved"
+    }
+  },
+  {
+    "people": [
+      "Glasgow-4180",
+      "Glasgow-4181"
+    ],
+    "status": "possible",
+    "status_label": "Uncertain parentage — low-confidence hypothesis",
+    "hypothesis_status": "open",
+    "basis": "1843 settlement provides £250 from Hugh’s estate in connection with Mary’s intended marriage; no father-daughter wording.",
+    "source_ids": [
+      "larne-marriage-settlement-1843"
+    ],
+    "claim": "Hugh Glasgow may have been father of Mary Glasgow (McGavock)",
+    "assessment_date": "2026-09-21",
+    "limitations": "Hugh could be another relative or benefactor. Mary3989 remains a possible duplicate; if identical, William3324’s monument-proved fatherhood takes precedence.",
+    "perspectives": {
+      "Glasgow-4180": {
+        "relationship": "daughter",
+        "reason": "1843 settlement provides £250 from Hugh’s estate in connection with Mary’s intended marriage; no father-daughter wording."
+      },
+      "Glasgow-4181": {
+        "relationship": "father",
+        "reason": "1843 settlement provides £250 from Hugh’s estate in connection with Mary’s intended marriage; no father-daughter wording."
+      }
+    },
+    "assertion_id": "C-hypothesis-glasgow-4180-glasgow-4181-20260921",
+    "publication_status": "approved",
+    "provenance": {
+      "source": "research/relationship_assessments.json",
+      "basis": "Explicitly provisional live attachment; genealogy remains unproved"
+    }
+  },
+  {
+    "people": [
+      "Glasgow-1099",
+      "Herbison-439"
+    ],
+    "status": "proved",
+    "basis": "direct mother wording in protocol 2916, with protocol 2903 matching the inherited property and naming George’s father",
+    "source_ids": [
+      "glasgow-protocol-2903-1586",
+      "glasgow-protocol-2916-1586"
+    ],
+    "perspectives": {
+      "Glasgow-1099": {
+        "relationship": "mother",
+        "reason": "Protocol 2916 expressly calls Margaret Herbesoun George’s mother and liferenter; the property matches his father William’s heir entry in protocol 2903."
+      },
+      "Herbison-439": {
+        "relationship": "son",
+        "reason": "Protocol 2916 expressly calls George Glasgow Margaret’s son; protocol 2903 identifies his deceased father William on the same property."
+      }
+    },
+    "claim": "Margaret Herbesoun was George Glasgow’s mother",
+    "assessment_date": "2026-09-27",
+    "assertion_id": "C-reviewed-glasgow-1099-herbison-439",
+    "publication_status": "approved",
+    "provenance": {
+      "source": "research/relationship_assessments.json",
+      "basis": "reviewed Glasgow protocols 2903 and 2916"
+    }
+  },
+  {
+    "people": [
+      "Glasgow-3522",
+      "Spreull-4"
+    ],
+    "status": "strongly_supported",
+    "basis": "combined 1534 marriage, 1565 father-to-son transfer with continuing wife, 1575 explicit maternity of Stephen and 1586 curatorship of William’s son",
+    "source_ids": [
+      "glasgow-protocol-1196-1534",
+      "glasgow-protocol-847-1565",
+      "glasgow-protocol-2189-1575",
+      "glasgow-protocol-2903-1586",
+      "glasgow-protocol-2916-1586"
+    ],
+    "perspectives": {
+      "Glasgow-3522": {
+        "relationship": "mother",
+        "reason": "Jonet was John’s wife by 1534 and in 1565 when he transferred land to son William; she was explicitly mother of John’s son Stephen, who later served William’s son. William’s birth fits that marriage; no earlier wife or competing mother is known. Inferred, not expressly stated for William."
+      },
+      "Spreull-4": {
+        "relationship": "son",
+        "reason": "William was John’s son; Jonet was John’s documented wife by 1534 and mother of his son Stephen, who later served William’s son. The combined chronology supports William as her son, although no record expressly says so."
+      }
+    },
+    "claim": "Jonet Spreull was probably William Glasgow’s mother",
+    "assessment_date": "2026-09-27",
+    "assertion_id": "C-reviewed-glasgow-3522-spreull-4-20260927",
+    "publication_status": "approved",
+    "provenance": {
+      "source": "research/relationship_assessments.json",
+      "basis": "reviewed Glasgow protocols 1196, 847, 2189, 2903 and 2916; inference distinguished from direct kin wording"
+    }
+  },
+  {
+    "people": [
+      "Glasgow-1168",
+      "Glasgow-3193"
+    ],
+    "status": "proved",
+    "basis": "express sons clause in official NRS GD39/5/59 archival abstract; surviving profile represents the record-defined Corsinkell John",
+    "source_ids": [
+      "nrs-gd39-5-59-1571"
+    ],
+    "perspectives": {
+      "Glasgow-1168": {
+        "relationship": "son",
+        "reason": "GD39/5/59 calls John and James the elder James’s sons at Corsinkell. Glasgow-3193 now represents that record-defined John after the Glasgow-4061 merger; his earlier Kilwinning events remain probable attributions."
+      },
+      "Glasgow-3193": {
+        "relationship": "father",
+        "reason": "The 1571 Corsinkell record expressly names John as James elder’s son. This parentage applies to the record-defined John represented here; identifying him with the 1559–60 Kilwinning tenant remains a separate probable attribution."
+      }
+    },
+    "claim": "James Glasgow elder was the father of John Glasgow of Corsinkell",
+    "assessment_date": "2026-09-27",
+    "assertion_id": "C-reviewed-glasgow-1168-glasgow-3193-20260927",
+    "publication_status": "approved",
+    "provenance": {
+      "source": "research/relationship_assessments.json",
+      "basis": "NRS official catalogue abstract freshly reviewed; original manuscript unavailable online; record-defined identity and earlier event attribution assessed separately"
+    }
+  },
+  {
+    "people": [
+      "Glasgow-3163",
+      "Glasgow-3183"
+    ],
+    "status": "proved",
+    "basis": "express daughter provision in NRS CC8/8/32; surviving profile represents the testament-defined Jonet",
+    "source_ids": [
+      "nrs-cc8-8-32-andrew-1598"
+    ],
+    "perspectives": {
+      "Glasgow-3163": {
+        "relationship": "daughter",
+        "reason": "The testament names Jonet among Andrew’s children. Glasgow-3183 represents this record-defined daughter after the Glasgow-4096 merger; the 1624 Ramsy bride attribution remains probable."
+      },
+      "Glasgow-3183": {
+        "relationship": "father",
+        "reason": "Andrew directly names Jonet in his testament’s child-distribution clause. This father relationship applies to the record-defined daughter represented here; the later Mid Calder marriage attribution remains separately probable."
+      }
+    },
+    "claim": "Andrew Glasgow was the father of Jonet named in his 1597/8 testament",
+    "assessment_date": "2026-09-27",
+    "assertion_id": "C-reviewed-glasgow-3163-glasgow-3183-20260927",
+    "publication_status": "approved",
+    "provenance": {
+      "source": "research/relationship_assessments.json",
+      "basis": "fresh original image 124 family-clause inspection; recorded parentage and later marriage attribution assessed separately"
+    }
+  },
+  {
+    "people": [
+      "Glasgow-1096",
+      "Glasgow-3062"
+    ],
+    "status": "strongly_supported",
+    "basis": "combined explicit 1596 Ninian–Robert father statement, explicit 1613 Ninian–Marion sibling statement, shared surname and compatible chronology; no concrete alternative father known",
+    "source_ids": [
+      "glasgow-burgess-ninian-1596",
+      "nrs-cc9-7-9-ninian-1613"
+    ],
+    "perspectives": {
+      "Glasgow-1096": {
+        "relationship": "daughter",
+        "reason": "The 1596 burgess roll names Ninian as Robert’s second son; Ninian’s 1613 testament names Marion as his sister. Shared surname and compatible chronology support a common father. This is a confident inference, not an express father-daughter statement; Marion’s mother remains uncertain."
+      },
+      "Glasgow-3062": {
+        "relationship": "father",
+        "reason": "Ninian is directly recorded as Robert’s second son in 1596 and Marion’s brother in 1613. The shared surname and compatible chronology support Robert as their common father, with no concrete alternative known. Confident inference; mother independently uncertain."
+      }
+    },
+    "claim": "Robert Glasgow is confidently inferred to have been Marion Glasgow’s father",
+    "assessment_date": "2026-09-28",
+    "assertion_id": "C-reviewed-glasgow-1096-glasgow-3062-20260928",
+    "publication_status": "approved",
+    "provenance": {
+      "source": "research/relationship_assessments.json",
+      "basis": "reassessment of existing inspected records; no new primary record claimed; unsupported half-sibling possibility is not treated as contrary evidence"
+    }
+  },
+  {
+    "assertion_id": "C-father-audit-20260928-adamson-5462-adamson-3318",
+    "people": [
+      "Adamson-5462",
+      "Adamson-3318"
+    ],
+    "status": "uncertain",
+    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "source_ids": [],
+    "source_summary": "live biography; Ancestry link only",
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "perspectives": {
+      "Adamson-3318": {
+        "relationship": "father",
+        "reason": "Child biography is an uncited tree assertion that she was born to Edmund Adamson. Source review: live biography; Ancestry link only."
+      },
+      "Adamson-5462": {
+        "relationship": "daughter",
+        "reason": "Child biography is an uncited tree assertion that she was born to Edmund Adamson. Source review: live biography; Ancestry link only."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Father evidence and remaining questions",
+        "href": "/people/adamson-3318.html#archive-tools"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
+      "live_wikitree_status": "uncertain"
+    }
+  },
+  {
+    "assertion_id": "C-father-audit-20260928-allen-77809-allen-77808",
+    "people": [
+      "Allen-77809",
+      "Allen-77808"
+    ],
+    "status": "uncertain",
+    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "source_ids": [],
+    "source_summary": "FamilySearch profile links only",
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "perspectives": {
+      "Allen-77808": {
+        "relationship": "father",
+        "reason": "No parent statement or record in either local biography. Source review: FamilySearch profile links only."
+      },
+      "Allen-77809": {
+        "relationship": "son",
+        "reason": "No parent statement or record in either local biography. Source review: FamilySearch profile links only."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Father evidence and remaining questions",
+        "href": "/people/allen-77808.html#archive-tools"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
+      "live_wikitree_status": "uncertain"
+    }
+  },
+  {
+    "assertion_id": "C-father-audit-20260928-bryse-11-bryse-10",
+    "people": [
+      "Bryse-11",
+      "Bryse-10"
+    ],
+    "status": "uncertain",
+    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "source_ids": [],
+    "source_summary": "none beyond FamilySearch links",
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "perspectives": {
+      "Bryse-10": {
+        "relationship": "father",
+        "reason": "No father evidence in the local biographies. Source review: none beyond FamilySearch links."
+      },
+      "Bryse-11": {
+        "relationship": "son",
+        "reason": "No father evidence in the local biographies. Source review: none beyond FamilySearch links."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Father evidence and remaining questions",
+        "href": "/people/bryse-10.html#archive-tools"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
+      "live_wikitree_status": "uncertain"
+    }
+  },
+  {
+    "assertion_id": "C-father-audit-20260928-bryse-12-bryse-11",
+    "people": [
+      "Bryse-12",
+      "Bryse-11"
+    ],
+    "status": "uncertain",
+    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "source_ids": [],
+    "source_summary": "FamilySearch link only",
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "perspectives": {
+      "Bryse-11": {
+        "relationship": "father",
+        "reason": "The cited 1586 baptism is not transcribed here with its father’s name, and the attached David Bryse identity has not been verified against that wording. Source review: FamilySearch link only."
+      },
+      "Bryse-12": {
+        "relationship": "son",
+        "reason": "The cited 1586 baptism is not transcribed here with its father’s name, and the attached David Bryse identity has not been verified against that wording. Source review: FamilySearch link only."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Father evidence and remaining questions",
+        "href": "/people/bryse-11.html#archive-tools"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
+      "live_wikitree_status": "uncertain"
+    }
+  },
+  {
+    "assertion_id": "C-father-audit-20260928-bryse-15-bryse-13",
+    "people": [
+      "Bryse-15",
+      "Bryse-13"
+    ],
+    "status": "proved",
+    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "source_ids": [
+      "review-reference-c-father-audit-20260928-bryse-15-bryse-13"
+    ],
+    "source_summary": "FamilySearch X1RN-H3Y",
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "perspectives": {
+      "Bryse-13": {
+        "relationship": "father",
+        "reason": "1613 Linlithgow christening names father John Bryse; parent profile represents that record-defined same-name father. Source review: FamilySearch X1RN-H3Y."
+      },
+      "Bryse-15": {
+        "relationship": "son",
+        "reason": "1613 Linlithgow christening names father John Bryse; parent profile represents that record-defined same-name father. Source review: FamilySearch X1RN-H3Y."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Father evidence and remaining questions",
+        "href": "/people/bryse-13.html#archive-tools"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
+      "live_wikitree_status": "confident"
+    }
+  },
+  {
+    "assertion_id": "C-father-audit-20260928-campbell-81261-campbell-73041",
+    "people": [
+      "Campbell-81261",
+      "Campbell-73041"
+    ],
+    "status": "uncertain",
+    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "source_ids": [],
+    "source_summary": "none",
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "perspectives": {
+      "Campbell-73041": {
+        "relationship": "father",
+        "reason": "No father evidence in either local biography. Source review: none."
+      },
+      "Campbell-81261": {
+        "relationship": "daughter",
+        "reason": "No father evidence in either local biography. Source review: none."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Father evidence and remaining questions",
+        "href": "/people/campbell-73041.html#archive-tools"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
+      "live_wikitree_status": "uncertain"
+    }
+  },
+  {
+    "assertion_id": "C-father-audit-20260928-craig-19073-craig-19072",
+    "people": [
+      "Craig-19073",
+      "Craig-19072"
+    ],
+    "status": "uncertain",
+    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "source_ids": [],
+    "source_summary": "live biographies",
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "perspectives": {
+      "Craig-19072": {
+        "relationship": "father",
+        "reason": "Parent biography calls John only the probable father; child says she is believed related. Source review: live biographies."
+      },
+      "Craig-19073": {
+        "relationship": "daughter",
+        "reason": "Parent biography calls John only the probable father; child says she is believed related. Source review: live biographies."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Father evidence and remaining questions",
+        "href": "/people/craig-19072.html#archive-tools"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
+      "live_wikitree_status": "uncertain"
+    }
+  },
+  {
+    "assertion_id": "C-father-audit-20260928-cunningham-5869-cunningham-22081",
+    "people": [
+      "Cunningham-5869",
+      "Cunningham-22081"
+    ],
+    "status": "uncertain",
+    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "source_ids": [],
+    "source_summary": "live biography",
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "perspectives": {
+      "Cunningham-22081": {
+        "relationship": "father",
+        "reason": "Child gives only an uncited tree assertion naming John and Katerin. Source review: live biography."
+      },
+      "Cunningham-5869": {
+        "relationship": "son",
+        "reason": "Child gives only an uncited tree assertion naming John and Katerin. Source review: live biography."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Father evidence and remaining questions",
+        "href": "/people/cunningham-22081.html#archive-tools"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
+      "live_wikitree_status": "uncertain"
+    }
+  },
+  {
+    "assertion_id": "C-father-audit-20260928-fawson-40-fawson-39",
+    "people": [
+      "Fawson-40",
+      "Fawson-39"
+    ],
+    "status": "uncertain",
+    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "source_ids": [],
+    "source_summary": "FamilySearch profile links only",
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "perspectives": {
+      "Fawson-39": {
+        "relationship": "father",
+        "reason": "No parent statement or record in local biographies. Source review: FamilySearch profile links only."
+      },
+      "Fawson-40": {
+        "relationship": "son",
+        "reason": "No parent statement or record in local biographies. Source review: FamilySearch profile links only."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Father evidence and remaining questions",
+        "href": "/people/fawson-39.html#archive-tools"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
+      "live_wikitree_status": "uncertain"
+    }
+  },
+  {
+    "assertion_id": "C-father-audit-20260928-fawson-41-fawson-40",
+    "people": [
+      "Fawson-41",
+      "Fawson-40"
+    ],
+    "status": "uncertain",
+    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "source_ids": [],
+    "source_summary": "FamilySearch profile links only",
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "perspectives": {
+      "Fawson-40": {
+        "relationship": "father",
+        "reason": "No parent statement or record in local biographies. Source review: FamilySearch profile links only."
+      },
+      "Fawson-41": {
+        "relationship": "son",
+        "reason": "No parent statement or record in local biographies. Source review: FamilySearch profile links only."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Father evidence and remaining questions",
+        "href": "/people/fawson-40.html#archive-tools"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
+      "live_wikitree_status": "uncertain"
+    }
+  },
+  {
+    "assertion_id": "C-father-audit-20260928-glasfurd-11-glassford-289",
+    "people": [
+      "Glasfurd-11",
+      "Glassford-289"
+    ],
+    "status": "strongly_supported",
+    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "source_ids": [],
+    "source_summary": "Fasti, vol.III, p.116; NRS GD254/35 and GD254/190.",
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "perspectives": {
+      "Glassford-289": {
+        "relationship": "father",
+        "reason": "Fasti Ecclesiae Scoticanae, vol.III, p.116, specifically identifies the Kilwinning minister as son of Patrick Glasfurd of Cupar; the notarial records corroborate Patrick’s place and period. Source review: Fasti, vol.III, p.116; NRS GD254/35 and GD254/190."
+      },
+      "Glasfurd-11": {
+        "relationship": "son",
+        "reason": "Fasti Ecclesiae Scoticanae, vol.III, p.116, specifically identifies the Kilwinning minister as son of Patrick Glasfurd of Cupar; the notarial records corroborate Patrick’s place and period. Source review: Fasti, vol.III, p.116; NRS GD254/35 and GD254/190."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Father evidence and remaining questions",
+        "href": "/people/glassford-289.html#archive-tools"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
+      "live_wikitree_status": "confident"
+    }
+  },
+  {
+    "assertion_id": "C-father-audit-20260928-glasgow-1028-glasgow-1054",
+    "people": [
+      "Glasgow-1028",
+      "Glasgow-1054"
+    ],
+    "status": "proved",
+    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "source_ids": [
+      "review-reference-c-father-audit-20260928-glasgow-1028-glasgow-1054"
+    ],
+    "source_summary": "The Mid Calder baptism index of 2 March 1606 names David Glasgow as father; NRS OPR 694/10/9.",
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "perspectives": {
+      "Glasgow-1054": {
+        "relationship": "father",
+        "reason": "The Mid Calder baptism index of 2 March 1606 names David Glasgow as father; NRS OPR 694/10/9."
+      },
+      "Glasgow-1028": {
+        "relationship": "daughter",
+        "reason": "The Mid Calder baptism index of 2 March 1606 names David Glasgow as father; NRS OPR 694/10/9."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Father evidence and remaining questions",
+        "href": "/people/glasgow-1054.html#archive-tools"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
+      "live_wikitree_status": "confident"
+    }
+  },
+  {
+    "assertion_id": "C-father-audit-20260928-glasgow-1028-glasgow-1085",
+    "people": [
+      "Glasgow-1028",
+      "Glasgow-1085"
+    ],
+    "status": "proved",
+    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "source_ids": [
+      "review-reference-c-father-audit-20260928-glasgow-1028-glasgow-1085"
+    ],
+    "source_summary": "The Mid Calder baptism index of 3 May 1612 names David Glasgow as father; NRS OPR 694/10/21.",
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "perspectives": {
+      "Glasgow-1085": {
+        "relationship": "father",
+        "reason": "The Mid Calder baptism index of 3 May 1612 names David Glasgow as father; NRS OPR 694/10/21."
+      },
+      "Glasgow-1028": {
+        "relationship": "daughter",
+        "reason": "The Mid Calder baptism index of 3 May 1612 names David Glasgow as father; NRS OPR 694/10/21."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Father evidence and remaining questions",
+        "href": "/people/glasgow-1085.html#archive-tools"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
+      "live_wikitree_status": "confident"
+    }
+  },
+  {
+    "assertion_id": "C-father-audit-20260928-glasgow-1030-glasgow-1090",
+    "people": [
+      "Glasgow-1030",
+      "Glasgow-1090"
+    ],
+    "status": "proved",
+    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "source_ids": [
+      "review-reference-c-father-audit-20260928-glasgow-1030-glasgow-1090"
+    ],
+    "source_summary": "The Glasgow 1627 baptism names John Glasgow and Jonet Mathie as the lawful child’s parents; High Kirk baptisms, vol.2/436.",
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "perspectives": {
+      "Glasgow-1090": {
+        "relationship": "father",
+        "reason": "The Glasgow 1627 baptism names John Glasgow and Jonet Mathie as the lawful child’s parents; High Kirk baptisms, vol.2/436."
+      },
+      "Glasgow-1030": {
+        "relationship": "son",
+        "reason": "The Glasgow 1627 baptism names John Glasgow and Jonet Mathie as the lawful child’s parents; High Kirk baptisms, vol.2/436."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Father evidence and remaining questions",
+        "href": "/people/glasgow-1090.html#archive-tools"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
+      "live_wikitree_status": "confident"
+    }
+  },
+  {
+    "assertion_id": "C-father-audit-20260928-glasgow-1030-glasgow-3187",
+    "people": [
+      "Glasgow-1030",
+      "Glasgow-3187"
+    ],
+    "status": "uncertain",
+    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "source_ids": [],
+    "source_summary": "Thomas’s inspected child records and burgess admission do not identify his own parents; John Glasgow remains a working hypothesis.",
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "perspectives": {
+      "Glasgow-3187": {
+        "relationship": "father",
+        "reason": "Thomas’s inspected child records and burgess admission do not identify his own parents; John Glasgow remains a working hypothesis."
+      },
+      "Glasgow-1030": {
+        "relationship": "son",
+        "reason": "Thomas’s inspected child records and burgess admission do not identify his own parents; John Glasgow remains a working hypothesis."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Father evidence and remaining questions",
+        "href": "/people/glasgow-3187.html#archive-tools"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
+      "live_wikitree_status": "uncertain"
+    }
+  },
+  {
+    "assertion_id": "C-father-audit-20260928-glasgow-1095-glasgow-1098",
+    "people": [
+      "Glasgow-1095",
+      "Glasgow-1098"
+    ],
+    "status": "uncertain",
+    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "source_ids": [],
+    "source_summary": "Glasgow property protocols and maintained William findings.",
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "perspectives": {
+      "Glasgow-1098": {
+        "relationship": "father",
+        "reason": "The same-property succession supports the older John as a probable father, but the inspected title records do not establish that relationship; the biography already describes it as an inference. Source review: Glasgow property protocols and maintained William findings."
+      },
+      "Glasgow-1095": {
+        "relationship": "son",
+        "reason": "The same-property succession supports the older John as a probable father, but the inspected title records do not establish that relationship; the biography already describes it as an inference. Source review: Glasgow property protocols and maintained William findings."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Father evidence and remaining questions",
+        "href": "/people/glasgow-1098.html#archive-tools"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
+      "live_wikitree_status": "uncertain"
+    }
+  },
+  {
+    "assertion_id": "C-father-audit-20260928-glasgow-1557-glasgow-1494",
+    "people": [
+      "Glasgow-1557",
+      "Glasgow-1494"
+    ],
+    "status": "uncertain",
+    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "source_ids": [],
+    "source_summary": "The cited 1628 testament index identifies Jonet’s spouse but supplies no father; Edward’s attachment is a working hypothesis.",
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "perspectives": {
+      "Glasgow-1494": {
+        "relationship": "father",
+        "reason": "The cited 1628 testament index identifies Jonet’s spouse but supplies no father; Edward’s attachment is a working hypothesis."
+      },
+      "Glasgow-1557": {
+        "relationship": "daughter",
+        "reason": "The cited 1628 testament index identifies Jonet’s spouse but supplies no father; Edward’s attachment is a working hypothesis."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Father evidence and remaining questions",
+        "href": "/people/glasgow-1494.html#archive-tools"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
+      "live_wikitree_status": "uncertain"
+    }
+  },
+  {
+    "assertion_id": "C-father-audit-20260928-glasgow-1557-glasgow-2456",
+    "people": [
+      "Glasgow-1557",
+      "Glasgow-2456"
+    ],
+    "status": "proved",
+    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "source_ids": [
+      "review-reference-c-father-audit-20260928-glasgow-1557-glasgow-2456"
+    ],
+    "source_summary": "The Inveresk and Musselburgh baptism index of 1 May 1609 names Eduard Glasgow as father; NRS OPR 689/10/19.",
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "perspectives": {
+      "Glasgow-2456": {
+        "relationship": "father",
+        "reason": "The Inveresk and Musselburgh baptism index of 1 May 1609 names Eduard Glasgow as father; NRS OPR 689/10/19."
+      },
+      "Glasgow-1557": {
+        "relationship": "daughter",
+        "reason": "The Inveresk and Musselburgh baptism index of 1 May 1609 names Eduard Glasgow as father; NRS OPR 689/10/19."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Father evidence and remaining questions",
+        "href": "/people/glasgow-2456.html#archive-tools"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
+      "live_wikitree_status": "confident"
+    }
+  },
+  {
+    "assertion_id": "C-father-audit-20260928-glasgow-1557-glasgow-3539",
+    "people": [
+      "Glasgow-1557",
+      "Glasgow-3539"
+    ],
+    "status": "uncertain",
+    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "source_ids": [],
+    "source_summary": "The 1677 testament index identifies Mary’s spouse and Saltcoats locality but supplies no parentage; Edward’s attachment remains unproved.",
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "perspectives": {
+      "Glasgow-3539": {
+        "relationship": "father",
+        "reason": "The 1677 testament index identifies Mary’s spouse and Saltcoats locality but supplies no parentage; Edward’s attachment remains unproved."
+      },
+      "Glasgow-1557": {
+        "relationship": "daughter",
+        "reason": "The 1677 testament index identifies Mary’s spouse and Saltcoats locality but supplies no parentage; Edward’s attachment remains unproved."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Father evidence and remaining questions",
+        "href": "/people/glasgow-3539.html#archive-tools"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
+      "live_wikitree_status": "uncertain"
+    }
+  },
+  {
+    "assertion_id": "C-father-audit-20260928-glasgow-3163-glasgow-3336",
+    "people": [
+      "Glasgow-3163",
+      "Glasgow-3336"
+    ],
+    "status": "proved",
+    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "source_ids": [
+      "review-reference-c-father-audit-20260928-glasgow-3163-glasgow-3336"
+    ],
+    "source_summary": "NRS Edinburgh Commissary Court CC8/8/32, images 123–124.",
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "perspectives": {
+      "Glasgow-3336": {
+        "relationship": "father",
+        "reason": "Andrew’s testament names Isobel among his daughters. Glasgow-3336 represents that record-defined child after the Glasgow-4097 merger; the later Edinburgh bride attribution remains separately probable. Source review: NRS Edinburgh Commissary Court CC8/8/32, images 123–124."
+      },
+      "Glasgow-3163": {
+        "relationship": "daughter",
+        "reason": "Andrew’s testament names Isobel among his daughters. Glasgow-3336 represents that record-defined child after the Glasgow-4097 merger; the later Edinburgh bride attribution remains separately probable. Source review: NRS Edinburgh Commissary Court CC8/8/32, images 123–124."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Father evidence and remaining questions",
+        "href": "/people/glasgow-3336.html#archive-tools"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
+      "live_wikitree_status": "confident"
+    }
+  },
+  {
+    "assertion_id": "C-father-audit-20260928-glasgow-4152-glasgow-4151",
+    "people": [
+      "Glasgow-4152",
+      "Glasgow-4151"
+    ],
+    "status": "proved",
+    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "source_ids": [
+      "review-reference-c-father-audit-20260928-glasgow-4152-glasgow-4151"
+    ],
+    "source_summary": "Glasgow Commissary Court testament dative and inventory",
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "perspectives": {
+      "Glasgow-4151": {
+        "relationship": "father",
+        "reason": "1637 testament dative calls Agnes a lawful child of deceased John, sailor in Saltcoats. Source review: Glasgow Commissary Court testament dative and inventory."
+      },
+      "Glasgow-4152": {
+        "relationship": "daughter",
+        "reason": "1637 testament dative calls Agnes a lawful child of deceased John, sailor in Saltcoats. Source review: Glasgow Commissary Court testament dative and inventory."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Father evidence and remaining questions",
+        "href": "/people/glasgow-4151.html#archive-tools"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
+      "live_wikitree_status": "confident"
+    }
+  },
+  {
+    "assertion_id": "C-father-audit-20260928-glasgow-4152-glasgow-4153",
+    "people": [
+      "Glasgow-4152",
+      "Glasgow-4153"
+    ],
+    "status": "proved",
+    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "source_ids": [
+      "review-reference-c-father-audit-20260928-glasgow-4152-glasgow-4153"
+    ],
+    "source_summary": "Glasgow Commissary Court testament dative and inventory",
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "perspectives": {
+      "Glasgow-4153": {
+        "relationship": "father",
+        "reason": "1637 testament dative calls Katherine a lawful child of deceased John, sailor in Saltcoats. Source review: Glasgow Commissary Court testament dative and inventory."
+      },
+      "Glasgow-4152": {
+        "relationship": "daughter",
+        "reason": "1637 testament dative calls Katherine a lawful child of deceased John, sailor in Saltcoats. Source review: Glasgow Commissary Court testament dative and inventory."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Father evidence and remaining questions",
+        "href": "/people/glasgow-4153.html#archive-tools"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
+      "live_wikitree_status": "confident"
+    }
+  },
+  {
+    "assertion_id": "C-father-audit-20260928-glasgow-991-glasgow-1084",
+    "people": [
+      "Glasgow-991",
+      "Glasgow-1084"
+    ],
+    "status": "proved",
+    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "source_ids": [
+      "review-reference-c-father-audit-20260928-glasgow-991-glasgow-1084"
+    ],
+    "source_summary": "The Mid Calder baptism index of 18 February 1616 names James Glasgow as father; NRS OPR 694/10/28. Later adult identities are assessed separately.",
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "perspectives": {
+      "Glasgow-1084": {
+        "relationship": "father",
+        "reason": "The Mid Calder baptism index of 18 February 1616 names James Glasgow as father; NRS OPR 694/10/28. Later adult identities are assessed separately."
+      },
+      "Glasgow-991": {
+        "relationship": "son",
+        "reason": "The Mid Calder baptism index of 18 February 1616 names James Glasgow as father; NRS OPR 694/10/28. Later adult identities are assessed separately."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Father evidence and remaining questions",
+        "href": "/people/glasgow-1084.html#archive-tools"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
+      "live_wikitree_status": "confident"
+    }
+  },
+  {
+    "assertion_id": "C-father-audit-20260928-glasgow-991-glasgow-1148",
+    "people": [
+      "Glasgow-991",
+      "Glasgow-1148"
+    ],
+    "status": "uncertain",
+    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "source_ids": [],
+    "source_summary": "Existing Musselburgh sasine account, 1624–25; cross-record father identity unresolved.",
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "perspectives": {
+      "Glasgow-1148": {
+        "relationship": "father",
+        "reason": "The cited Musselburgh record identifies Alexander’s father as a James Glasgow, but does not establish that he was the attached Mid Calder James Glasgow-991; the profile itself distinguishes the local candidate. Source review: Existing Musselburgh sasine account, 1624–25; cross-record father identity unresolved."
+      },
+      "Glasgow-991": {
+        "relationship": "son",
+        "reason": "The cited Musselburgh record identifies Alexander’s father as a James Glasgow, but does not establish that he was the attached Mid Calder James Glasgow-991; the profile itself distinguishes the local candidate. Source review: Existing Musselburgh sasine account, 1624–25; cross-record father identity unresolved."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Father evidence and remaining questions",
+        "href": "/people/glasgow-1148.html#archive-tools"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
+      "live_wikitree_status": "uncertain"
+    }
+  },
+  {
+    "assertion_id": "C-father-audit-20260928-glasgow-991-glasgow-3144",
+    "people": [
+      "Glasgow-991",
+      "Glasgow-3144"
+    ],
+    "status": "uncertain",
+    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "source_ids": [],
+    "source_summary": "The only cited support is a FamilySearch tree; its biography names a different James Glasgow profile, and the attached father has not been established from a record.",
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "perspectives": {
+      "Glasgow-3144": {
+        "relationship": "father",
+        "reason": "The only cited support is a FamilySearch tree; its biography names a different James Glasgow profile, and the attached father has not been established from a record."
+      },
+      "Glasgow-991": {
+        "relationship": "daughter",
+        "reason": "The only cited support is a FamilySearch tree; its biography names a different James Glasgow profile, and the attached father has not been established from a record."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Father evidence and remaining questions",
+        "href": "/people/glasgow-3144.html#archive-tools"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
+      "live_wikitree_status": "uncertain"
+    }
+  },
+  {
+    "assertion_id": "C-father-audit-20260928-glasgow-991-glasgow-3321",
+    "people": [
+      "Glasgow-991",
+      "Glasgow-3321"
+    ],
+    "status": "uncertain",
+    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "source_ids": [],
+    "source_summary": "The cited user-submitted IGI entry has not been verified against an identifiable original baptism or independently reviewed index; James’s attachment remains a working hypothesis.",
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "perspectives": {
+      "Glasgow-3321": {
+        "relationship": "father",
+        "reason": "The cited user-submitted IGI entry has not been verified against an identifiable original baptism or independently reviewed index; James’s attachment remains a working hypothesis."
+      },
+      "Glasgow-991": {
+        "relationship": "daughter",
+        "reason": "The cited user-submitted IGI entry has not been verified against an identifiable original baptism or independently reviewed index; James’s attachment remains a working hypothesis."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Father evidence and remaining questions",
+        "href": "/people/glasgow-3321.html#archive-tools"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
+      "live_wikitree_status": "uncertain"
+    }
+  },
+  {
+    "assertion_id": "C-father-audit-20260928-glassford-289-glassfuird-1",
+    "people": [
+      "Glassford-289",
+      "Glassfuird-1"
+    ],
+    "status": "proved",
+    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "source_ids": [
+      "review-reference-c-father-audit-20260928-glassford-289-glassfuird-1"
+    ],
+    "source_summary": "The 6 July 1642 Edinburgh apprentice entry expressly calls John son of the late John Glassfuird, minister at Kilwinning; Grant, Register of Apprentices, p.71.",
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "perspectives": {
+      "Glassfuird-1": {
+        "relationship": "father",
+        "reason": "The 6 July 1642 Edinburgh apprentice entry expressly calls John son of the late John Glassfuird, minister at Kilwinning; Grant, Register of Apprentices, p.71."
+      },
+      "Glassford-289": {
+        "relationship": "son",
+        "reason": "The 6 July 1642 Edinburgh apprentice entry expressly calls John son of the late John Glassfuird, minister at Kilwinning; Grant, Register of Apprentices, p.71."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Father evidence and remaining questions",
+        "href": "/people/glassfuird-1.html#archive-tools"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
+      "live_wikitree_status": "confident"
+    }
+  },
+  {
+    "assertion_id": "C-father-audit-20260928-herbertson-133-herbertson-132",
+    "people": [
+      "Herbertson-133",
+      "Herbertson-132"
+    ],
+    "status": "uncertain",
+    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "source_ids": [],
+    "source_summary": "live biography",
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "perspectives": {
+      "Herbertson-132": {
+        "relationship": "father",
+        "reason": "George is positioned as father from an 'Unknown Herbertson' tree and chronology. Source review: live biography."
+      },
+      "Herbertson-133": {
+        "relationship": "daughter",
+        "reason": "George is positioned as father from an 'Unknown Herbertson' tree and chronology. Source review: live biography."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Father evidence and remaining questions",
+        "href": "/people/herbertson-132.html#archive-tools"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
+      "live_wikitree_status": "uncertain"
+    }
+  },
+  {
+    "assertion_id": "C-father-audit-20260928-herbertson-133-herbison-440",
+    "people": [
+      "Herbertson-133",
+      "Herbison-440"
+    ],
+    "status": "uncertain",
+    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "source_ids": [],
+    "source_summary": "live biography",
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "perspectives": {
+      "Herbison-440": {
+        "relationship": "father",
+        "reason": "Same tree-and-timeline reconstruction only. Source review: live biography."
+      },
+      "Herbertson-133": {
+        "relationship": "son",
+        "reason": "Same tree-and-timeline reconstruction only. Source review: live biography."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Father evidence and remaining questions",
+        "href": "/people/herbison-440.html#archive-tools"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
+      "live_wikitree_status": "uncertain"
+    }
+  },
+  {
+    "assertion_id": "C-father-audit-20260928-howie-1198-howie-1119",
+    "people": [
+      "Howie-1198",
+      "Howie-1119"
+    ],
+    "status": "uncertain",
+    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "source_ids": [],
+    "source_summary": "none",
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "perspectives": {
+      "Howie-1119": {
+        "relationship": "father",
+        "reason": "No parent statement or record in either local biography. Source review: none."
+      },
+      "Howie-1198": {
+        "relationship": "daughter",
+        "reason": "No parent statement or record in either local biography. Source review: none."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Father evidence and remaining questions",
+        "href": "/people/howie-1119.html#archive-tools"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
+      "live_wikitree_status": "uncertain"
+    }
+  },
+  {
+    "assertion_id": "C-father-audit-20260928-hutcheson-1647-hutcheson-1648",
+    "people": [
+      "Hutcheson-1647",
+      "Hutcheson-1648"
+    ],
+    "status": "strongly_supported",
+    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "source_ids": [],
+    "source_summary": "W.H. Hill, Early Records of an Old Glasgow Family; History of Glasgow, ch.XX",
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "perspectives": {
+      "Hutcheson-1648": {
+        "relationship": "father",
+        "reason": "Specific compiled family histories identify George as Thomas Sr.'s eldest son; chronology and named family match. Source review: W.H. Hill, Early Records of an Old Glasgow Family; History of Glasgow, ch.XX."
+      },
+      "Hutcheson-1647": {
+        "relationship": "son",
+        "reason": "Specific compiled family histories identify George as Thomas Sr.'s eldest son; chronology and named family match. Source review: W.H. Hill, Early Records of an Old Glasgow Family; History of Glasgow, ch.XX."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Father evidence and remaining questions",
+        "href": "/people/hutcheson-1648.html#archive-tools"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
+      "live_wikitree_status": "confident"
+    }
+  },
+  {
+    "assertion_id": "C-father-audit-20260928-hutcheson-1647-hutcheson-1649",
+    "people": [
+      "Hutcheson-1647",
+      "Hutcheson-1649"
+    ],
+    "status": "strongly_supported",
+    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "source_ids": [],
+    "source_summary": "W.H. Hill, Early Records of an Old Glasgow Family; History of Glasgow, ch.XX-XXI",
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "perspectives": {
+      "Hutcheson-1649": {
+        "relationship": "father",
+        "reason": "Specific compiled family histories identify Thomas Jr. as Thomas Sr.'s younger son and George's brother. Source review: W.H. Hill, Early Records of an Old Glasgow Family; History of Glasgow, ch.XX-XXI."
+      },
+      "Hutcheson-1647": {
+        "relationship": "son",
+        "reason": "Specific compiled family histories identify Thomas Jr. as Thomas Sr.'s younger son and George's brother. Source review: W.H. Hill, Early Records of an Old Glasgow Family; History of Glasgow, ch.XX-XXI."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Father evidence and remaining questions",
+        "href": "/people/hutcheson-1649.html#archive-tools"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
+      "live_wikitree_status": "confident"
+    }
+  },
+  {
+    "assertion_id": "C-father-audit-20260928-hutcheson-1647-hutcheson-1652",
+    "people": [
+      "Hutcheson-1647",
+      "Hutcheson-1652"
+    ],
+    "status": "uncertain",
+    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "source_ids": [],
+    "source_summary": "live biography citing W.H. Hill and George Hutcheson's 1639 will",
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "perspectives": {
+      "Hutcheson-1652": {
+        "relationship": "father",
+        "reason": "Relationship rests on property connections, will legatees and compiled-family reconstruction. Source review: live biography citing W.H. Hill and George Hutcheson's 1639 will."
+      },
+      "Hutcheson-1647": {
+        "relationship": "daughter",
+        "reason": "Relationship rests on property connections, will legatees and compiled-family reconstruction. Source review: live biography citing W.H. Hill and George Hutcheson's 1639 will."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Father evidence and remaining questions",
+        "href": "/people/hutcheson-1652.html#archive-tools"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
+      "live_wikitree_status": "uncertain"
+    }
+  },
+  {
+    "assertion_id": "C-father-audit-20260928-hutcheson-1647-hutcheson-1654",
+    "people": [
+      "Hutcheson-1647",
+      "Hutcheson-1654"
+    ],
+    "status": "strongly_supported",
+    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "source_ids": [],
+    "source_summary": "W.H. Hill, Early Records of an Old Glasgow Family; History of Glasgow, ch.XX",
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "perspectives": {
+      "Hutcheson-1654": {
+        "relationship": "father",
+        "reason": "Compiled Hutcheson family account identifies Janet among Thomas and Helen's five children; her co-heir status fits the named sister group. Source review: W.H. Hill, Early Records of an Old Glasgow Family; History of Glasgow, ch.XX."
+      },
+      "Hutcheson-1647": {
+        "relationship": "daughter",
+        "reason": "Compiled Hutcheson family account identifies Janet among Thomas and Helen's five children; her co-heir status fits the named sister group. Source review: W.H. Hill, Early Records of an Old Glasgow Family; History of Glasgow, ch.XX."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Father evidence and remaining questions",
+        "href": "/people/hutcheson-1654.html#archive-tools"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
+      "live_wikitree_status": "confident"
+    }
+  },
+  {
+    "assertion_id": "C-father-audit-20260928-hutcheson-1647-hutcheson-1655",
+    "people": [
+      "Hutcheson-1647",
+      "Hutcheson-1655"
+    ],
+    "status": "strongly_supported",
+    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "source_ids": [],
+    "source_summary": "Thomas Sr.'s biography, citing Early Records of an Old Glasgow Family and charter/sasine context, names Elizabeth among Thomas and Helen's five children; the same entry lists her marriage to James Pollok.",
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "perspectives": {
+      "Hutcheson-1655": {
+        "relationship": "father",
+        "reason": "Thomas Sr.'s biography, citing Early Records of an Old Glasgow Family and charter/sasine context, names Elizabeth among Thomas and Helen's five children; the same entry lists her marriage to James Pollok."
+      },
+      "Hutcheson-1647": {
+        "relationship": "daughter",
+        "reason": "Thomas Sr.'s biography, citing Early Records of an Old Glasgow Family and charter/sasine context, names Elizabeth among Thomas and Helen's five children; the same entry lists her marriage to James Pollok."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Father evidence and remaining questions",
+        "href": "/people/hutcheson-1655.html#archive-tools"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
+      "live_wikitree_status": "confident"
+    }
+  },
+  {
+    "assertion_id": "C-father-audit-20260928-hutcheson-1648-hutcheson-1650",
+    "people": [
+      "Hutcheson-1648",
+      "Hutcheson-1650"
+    ],
+    "status": "strongly_supported",
+    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "source_ids": [],
+    "source_summary": "Biography reports the Glasgow kirk session's 1588 paternity admission by George Hutcheson for Janet; this is a direct father statement.",
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "perspectives": {
+      "Hutcheson-1650": {
+        "relationship": "father",
+        "reason": "Biography reports the Glasgow kirk session's 1588 paternity admission by George Hutcheson for Janet; this is a direct father statement."
+      },
+      "Hutcheson-1648": {
+        "relationship": "daughter",
+        "reason": "Biography reports the Glasgow kirk session's 1588 paternity admission by George Hutcheson for Janet; this is a direct father statement."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Father evidence and remaining questions",
+        "href": "/people/hutcheson-1650.html#archive-tools"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
+      "live_wikitree_status": "confident"
+    }
+  },
+  {
+    "assertion_id": "C-father-audit-20260928-hutcheson-1651-hutcheson-1647",
+    "people": [
+      "Hutcheson-1651",
+      "Hutcheson-1647"
+    ],
+    "status": "uncertain",
+    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "source_ids": [],
+    "source_summary": "Only local tradition says John had Thomas as child; no inspected charter, baptism, testament, or other record names Thomas as John's son.",
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "perspectives": {
+      "Hutcheson-1647": {
+        "relationship": "father",
+        "reason": "Only local tradition says John had Thomas as child; no inspected charter, baptism, testament, or other record names Thomas as John's son."
+      },
+      "Hutcheson-1651": {
+        "relationship": "son",
+        "reason": "Only local tradition says John had Thomas as child; no inspected charter, baptism, testament, or other record names Thomas as John's son."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Father evidence and remaining questions",
+        "href": "/people/hutcheson-1647.html#archive-tools"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
+      "live_wikitree_status": "uncertain"
+    }
+  },
+  {
+    "assertion_id": "C-father-audit-20260928-johnstoun-29-johnstoun-30",
+    "people": [
+      "Johnstoun-29",
+      "Johnstoun-30"
+    ],
+    "status": "strongly_supported",
+    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "source_ids": [],
+    "source_summary": "FamilySearch baptism index XTPH-QTG is cited for James, whose profile identifies George and Barbara as parents.",
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "perspectives": {
+      "Johnstoun-30": {
+        "relationship": "father",
+        "reason": "FamilySearch baptism index XTPH-QTG is cited for James, whose profile identifies George and Barbara as parents."
+      },
+      "Johnstoun-29": {
+        "relationship": "son",
+        "reason": "FamilySearch baptism index XTPH-QTG is cited for James, whose profile identifies George and Barbara as parents."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Father evidence and remaining questions",
+        "href": "/people/johnstoun-30.html#archive-tools"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
+      "live_wikitree_status": "confident"
+    }
+  },
+  {
+    "assertion_id": "C-father-audit-20260928-johnstoun-29-johnstoun-31",
+    "people": [
+      "Johnstoun-29",
+      "Johnstoun-31"
+    ],
+    "status": "strongly_supported",
+    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "source_ids": [],
+    "source_summary": "FamilySearch baptism index X1YQ-BXW is cited for Daniel, whose profile identifies George and Barbara as parents.",
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "perspectives": {
+      "Johnstoun-31": {
+        "relationship": "father",
+        "reason": "FamilySearch baptism index X1YQ-BXW is cited for Daniel, whose profile identifies George and Barbara as parents."
+      },
+      "Johnstoun-29": {
+        "relationship": "son",
+        "reason": "FamilySearch baptism index X1YQ-BXW is cited for Daniel, whose profile identifies George and Barbara as parents."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Father evidence and remaining questions",
+        "href": "/people/johnstoun-31.html#archive-tools"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
+      "live_wikitree_status": "confident"
+    }
+  },
+  {
+    "assertion_id": "C-father-audit-20260928-johnstoun-29-johnstoun-32",
+    "people": [
+      "Johnstoun-29",
+      "Johnstoun-32"
+    ],
+    "status": "strongly_supported",
+    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "source_ids": [],
+    "source_summary": "FamilySearch baptism index X1Y3-2X2 is cited for Archebald, whose profile identifies George and Barbara as parents.",
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "perspectives": {
+      "Johnstoun-32": {
+        "relationship": "father",
+        "reason": "FamilySearch baptism index X1Y3-2X2 is cited for Archebald, whose profile identifies George and Barbara as parents."
+      },
+      "Johnstoun-29": {
+        "relationship": "son",
+        "reason": "FamilySearch baptism index X1Y3-2X2 is cited for Archebald, whose profile identifies George and Barbara as parents."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Father evidence and remaining questions",
+        "href": "/people/johnstoun-32.html#archive-tools"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
+      "live_wikitree_status": "confident"
+    }
+  },
+  {
+    "assertion_id": "C-father-audit-20260928-johnstoun-29-johnstoun-33",
+    "people": [
+      "Johnstoun-29",
+      "Johnstoun-33"
+    ],
+    "status": "strongly_supported",
+    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "source_ids": [],
+    "source_summary": "FamilySearch baptism index X1TB-PZ7 is cited for Catharine, whose profile identifies George and Barbara as parents.",
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "perspectives": {
+      "Johnstoun-33": {
+        "relationship": "father",
+        "reason": "FamilySearch baptism index X1TB-PZ7 is cited for Catharine, whose profile identifies George and Barbara as parents."
+      },
+      "Johnstoun-29": {
+        "relationship": "daughter",
+        "reason": "FamilySearch baptism index X1TB-PZ7 is cited for Catharine, whose profile identifies George and Barbara as parents."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Father evidence and remaining questions",
+        "href": "/people/johnstoun-33.html#archive-tools"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
+      "live_wikitree_status": "confident"
+    }
+  },
+  {
+    "assertion_id": "C-father-audit-20260928-johnstoun-29-johnstoun-47",
+    "people": [
+      "Johnstoun-29",
+      "Johnstoun-47"
+    ],
+    "status": "uncertain",
+    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "source_ids": [],
+    "source_summary": "Marion's profile is expressly Unsourced; no baptism or other father statement is cited.",
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "perspectives": {
+      "Johnstoun-47": {
+        "relationship": "father",
+        "reason": "Marion's profile is expressly Unsourced; no baptism or other father statement is cited."
+      },
+      "Johnstoun-29": {
+        "relationship": "daughter",
+        "reason": "Marion's profile is expressly Unsourced; no baptism or other father statement is cited."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Father evidence and remaining questions",
+        "href": "/people/johnstoun-47.html#archive-tools"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
+      "live_wikitree_status": "uncertain"
+    }
+  },
+  {
+    "assertion_id": "C-father-audit-20260928-johnstoun-29-johnstoun-48",
+    "people": [
+      "Johnstoun-29",
+      "Johnstoun-48"
+    ],
+    "status": "uncertain",
+    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "source_ids": [],
+    "source_summary": "Margaret's profile is expressly Unsourced; no baptism or other father statement is cited.",
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "perspectives": {
+      "Johnstoun-48": {
+        "relationship": "father",
+        "reason": "Margaret's profile is expressly Unsourced; no baptism or other father statement is cited."
+      },
+      "Johnstoun-29": {
+        "relationship": "daughter",
+        "reason": "Margaret's profile is expressly Unsourced; no baptism or other father statement is cited."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Father evidence and remaining questions",
+        "href": "/people/johnstoun-48.html#archive-tools"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
+      "live_wikitree_status": "uncertain"
+    }
+  },
+  {
+    "assertion_id": "C-father-audit-20260928-montgomery-24361-montgomery-24360",
+    "people": [
+      "Montgomery-24361",
+      "Montgomery-24360"
+    ],
+    "status": "strongly_supported",
+    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "source_ids": [],
+    "source_summary": "Thomas Harrison Montgomery's specific published pedigree, pp.117/120, identifies Robert as third son of Hugh of Auchinhood and Bowhouse and traces the Bonyglen line; both profiles agree.",
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "perspectives": {
+      "Montgomery-24360": {
+        "relationship": "father",
+        "reason": "Thomas Harrison Montgomery's specific published pedigree, pp.117/120, identifies Robert as third son of Hugh of Auchinhood and Bowhouse and traces the Bonyglen line; both profiles agree."
+      },
+      "Montgomery-24361": {
+        "relationship": "son",
+        "reason": "Thomas Harrison Montgomery's specific published pedigree, pp.117/120, identifies Robert as third son of Hugh of Auchinhood and Bowhouse and traces the Bonyglen line; both profiles agree."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Father evidence and remaining questions",
+        "href": "/people/montgomery-24360.html#archive-tools"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
+      "live_wikitree_status": "confident"
+    }
+  },
+  {
+    "assertion_id": "C-father-audit-20260928-porteous-913-porteous-912",
+    "people": [
+      "Porteous-913",
+      "Porteous-912"
+    ],
+    "status": "strongly_supported",
+    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "source_ids": [],
+    "source_summary": "FamilySearch baptism index VQC7-2LB is cited for Issobell; this is the supplied primary-type event support for the attached father.",
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "perspectives": {
+      "Porteous-912": {
+        "relationship": "father",
+        "reason": "FamilySearch baptism index VQC7-2LB is cited for Issobell; this is the supplied primary-type event support for the attached father."
+      },
+      "Porteous-913": {
+        "relationship": "daughter",
+        "reason": "FamilySearch baptism index VQC7-2LB is cited for Issobell; this is the supplied primary-type event support for the attached father."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Father evidence and remaining questions",
+        "href": "/people/porteous-912.html#archive-tools"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
+      "live_wikitree_status": "confident"
+    }
+  },
+  {
+    "assertion_id": "C-father-audit-20260928-porteous-913-porteous-915",
+    "people": [
+      "Porteous-913",
+      "Porteous-915"
+    ],
+    "status": "strongly_supported",
+    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "source_ids": [],
+    "source_summary": "FamilySearch baptism index VQ4N-KQ2 is cited for Alexander and his profile explicitly identifies Andro and Margaret as parents.",
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "perspectives": {
+      "Porteous-915": {
+        "relationship": "father",
+        "reason": "FamilySearch baptism index VQ4N-KQ2 is cited for Alexander and his profile explicitly identifies Andro and Margaret as parents."
+      },
+      "Porteous-913": {
+        "relationship": "son",
+        "reason": "FamilySearch baptism index VQ4N-KQ2 is cited for Alexander and his profile explicitly identifies Andro and Margaret as parents."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Father evidence and remaining questions",
+        "href": "/people/porteous-915.html#archive-tools"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
+      "live_wikitree_status": "confident"
+    }
+  },
+  {
+    "assertion_id": "C-father-audit-20260928-robertson-32084-robertson-32083",
+    "people": [
+      "Robertson-32084",
+      "Robertson-32083"
+    ],
+    "status": "uncertain",
+    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "source_ids": [],
+    "source_summary": "The only stated support is an uncited genealogical assertion that John of Monkmylne was son of William; no direct record or attributable strong compiled pedigree is supplied.",
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "perspectives": {
+      "Robertson-32083": {
+        "relationship": "father",
+        "reason": "The only stated support is an uncited genealogical assertion that John of Monkmylne was son of William; no direct record or attributable strong compiled pedigree is supplied."
+      },
+      "Robertson-32084": {
+        "relationship": "son",
+        "reason": "The only stated support is an uncited genealogical assertion that John of Monkmylne was son of William; no direct record or attributable strong compiled pedigree is supplied."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Father evidence and remaining questions",
+        "href": "/people/robertson-32083.html#archive-tools"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
+      "live_wikitree_status": "uncertain"
+    }
+  },
+  {
+    "assertion_id": "C-father-audit-20260928-spreul-23-spreul-22",
+    "people": [
+      "Spreul-23",
+      "Spreul-22"
+    ],
+    "status": "strongly_supported",
+    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "source_ids": [],
+    "source_summary": "Metcalfe p.104 supplies the succession chain: Cambuslang vicar's son/heir, then the Provost of Renfrew, then the Provost's son appointed Glasgow Town Clerk. The profile identities align with that specific compiled kinship.",
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "perspectives": {
+      "Spreul-22": {
+        "relationship": "father",
+        "reason": "Metcalfe p.104 supplies the succession chain: Cambuslang vicar's son/heir, then the Provost of Renfrew, then the Provost's son appointed Glasgow Town Clerk. The profile identities align with that specific compiled kinship."
+      },
+      "Spreul-23": {
+        "relationship": "son",
+        "reason": "Metcalfe p.104 supplies the succession chain: Cambuslang vicar's son/heir, then the Provost of Renfrew, then the Provost's son appointed Glasgow Town Clerk. The profile identities align with that specific compiled kinship."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Father evidence and remaining questions",
+        "href": "/people/spreul-22.html#archive-tools"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
+      "live_wikitree_status": "confident"
+    }
+  },
+  {
+    "assertion_id": "C-father-audit-20260928-spreul-26-spreul-24",
+    "people": [
+      "Spreul-26",
+      "Spreul-24"
+    ],
+    "status": "strongly_supported",
+    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "source_ids": [],
+    "source_summary": "Metcalfe p.104 explicitly calls heir John the nephew of the Dundonald vicar and son of the vicar's brother Robert, burgess of Glasgow.",
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "perspectives": {
+      "Spreul-24": {
+        "relationship": "father",
+        "reason": "Metcalfe p.104 explicitly calls heir John the nephew of the Dundonald vicar and son of the vicar's brother Robert, burgess of Glasgow."
+      },
+      "Spreul-26": {
+        "relationship": "son",
+        "reason": "Metcalfe p.104 explicitly calls heir John the nephew of the Dundonald vicar and son of the vicar's brother Robert, burgess of Glasgow."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Father evidence and remaining questions",
+        "href": "/people/spreul-24.html#archive-tools"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
+      "live_wikitree_status": "confident"
+    }
+  },
+  {
+    "assertion_id": "C-father-audit-20260928-spreule-2-spreul-26",
+    "people": [
+      "Spreule-2",
+      "Spreul-26"
+    ],
+    "status": "uncertain",
+    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "source_ids": [],
+    "source_summary": "Robert's profile says he and the vicar were 'likely' younger sons of John of Cowdin; no cited source names their father.",
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "perspectives": {
+      "Spreul-26": {
+        "relationship": "father",
+        "reason": "Robert's profile says he and the vicar were 'likely' younger sons of John of Cowdin; no cited source names their father."
+      },
+      "Spreule-2": {
+        "relationship": "son",
+        "reason": "Robert's profile says he and the vicar were 'likely' younger sons of John of Cowdin; no cited source names their father."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Father evidence and remaining questions",
+        "href": "/people/spreul-26.html#archive-tools"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
+      "live_wikitree_status": "uncertain"
+    }
+  },
+  {
+    "assertion_id": "C-father-audit-20260928-spreule-2-sprewel-11",
+    "people": [
+      "Spreule-2",
+      "Sprewel-11"
+    ],
+    "status": "uncertain",
+    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "source_ids": [],
+    "source_summary": "Nisbet calls John a younger son of the old Cowden family, but the supplied material does not directly identify John of Cowdin as his father.",
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "perspectives": {
+      "Sprewel-11": {
+        "relationship": "father",
+        "reason": "Nisbet calls John a younger son of the old Cowden family, but the supplied material does not directly identify John of Cowdin as his father."
+      },
+      "Spreule-2": {
+        "relationship": "son",
+        "reason": "Nisbet calls John a younger son of the old Cowden family, but the supplied material does not directly identify John of Cowdin as his father."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Father evidence and remaining questions",
+        "href": "/people/sprewel-11.html#archive-tools"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
+      "live_wikitree_status": "uncertain"
+    }
+  },
+  {
+    "assertion_id": "C-father-audit-20260928-spreull-17-spreul-23",
+    "people": [
+      "Spreull-17",
+      "Spreul-23"
+    ],
+    "status": "strongly_supported",
+    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "source_ids": [],
+    "source_summary": "Metcalfe p.104's specific succession statement identifies the Cambuslang vicar's son and heir as father of the Provost of Renfrew; Spreull-17 is the record-defined vicar/heir-generation placeholder used for that father.",
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "perspectives": {
+      "Spreul-23": {
+        "relationship": "father",
+        "reason": "Metcalfe p.104's specific succession statement identifies the Cambuslang vicar's son and heir as father of the Provost of Renfrew; Spreull-17 is the record-defined vicar/heir-generation placeholder used for that father."
+      },
+      "Spreull-17": {
+        "relationship": "son",
+        "reason": "Metcalfe p.104's specific succession statement identifies the Cambuslang vicar's son and heir as father of the Provost of Renfrew; Spreull-17 is the record-defined vicar/heir-generation placeholder used for that father."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Father evidence and remaining questions",
+        "href": "/people/spreul-23.html#archive-tools"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
+      "live_wikitree_status": "confident"
+    }
+  },
+  {
+    "assertion_id": "C-father-audit-20260928-stewart-65233-stewart-65226",
+    "people": [
+      "Stewart-65233",
+      "Stewart-65226"
+    ],
+    "status": "uncertain",
+    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "source_ids": [],
+    "source_summary": "The cited baptism identifies Margaret as the mother of a Glasgow child, but does not name Margaret’s own father; the attachment remains a working hypothesis.",
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "perspectives": {
+      "Stewart-65226": {
+        "relationship": "father",
+        "reason": "The cited baptism identifies Margaret as the mother of a Glasgow child, but does not name Margaret’s own father; the attachment remains a working hypothesis."
+      },
+      "Stewart-65233": {
+        "relationship": "daughter",
+        "reason": "The cited baptism identifies Margaret as the mother of a Glasgow child, but does not name Margaret’s own father; the attachment remains a working hypothesis."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Father evidence and remaining questions",
+        "href": "/people/stewart-65226.html#archive-tools"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
+      "live_wikitree_status": "uncertain"
+    }
+  },
+  {
+    "assertion_id": "C-father-audit-20260928-symington-721-symington-722",
+    "people": [
+      "Symington-721",
+      "Symington-722"
+    ],
+    "status": "uncertain",
+    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "source_ids": [],
+    "source_summary": "Only a user-submitted IGI/FamilySearch tree entry with no source information supports Margaret's parentage.",
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "perspectives": {
+      "Symington-722": {
+        "relationship": "father",
+        "reason": "Only a user-submitted IGI/FamilySearch tree entry with no source information supports Margaret's parentage."
+      },
+      "Symington-721": {
+        "relationship": "daughter",
+        "reason": "Only a user-submitted IGI/FamilySearch tree entry with no source information supports Margaret's parentage."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Father evidence and remaining questions",
+        "href": "/people/symington-722.html#archive-tools"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
+      "live_wikitree_status": "uncertain"
+    }
+  },
+  {
+    "assertion_id": "C-father-audit-20260928-symington-721-symington-724",
+    "people": [
+      "Symington-721",
+      "Symington-724"
+    ],
+    "status": "proved",
+    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "source_ids": [
+      "review-reference-c-father-audit-20260928-symington-721-symington-724"
+    ],
+    "source_summary": "Edinburgh OPR baptism, 2 May 1620 (parish 685/1, ref 20/284), names Williame Symountoun and Issobell Glesgow as William's parents; cited in Glasgow-3336 biography.",
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "perspectives": {
+      "Symington-724": {
+        "relationship": "father",
+        "reason": "Edinburgh OPR baptism, 2 May 1620 (parish 685/1, ref 20/284), names Williame Symountoun and Issobell Glesgow as William's parents; cited in Glasgow-3336 biography."
+      },
+      "Symington-721": {
+        "relationship": "son",
+        "reason": "Edinburgh OPR baptism, 2 May 1620 (parish 685/1, ref 20/284), names Williame Symountoun and Issobell Glesgow as William's parents; cited in Glasgow-3336 biography."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Father evidence and remaining questions",
+        "href": "/people/symington-724.html#archive-tools"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
+      "live_wikitree_status": "confident"
+    }
+  },
+  {
+    "assertion_id": "C-father-audit-20260928-symington-723-symington-721",
+    "people": [
+      "Symington-723",
+      "Symington-721"
+    ],
+    "status": "uncertain",
+    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "source_ids": [],
+    "source_summary": "Father claim rests only on Roots Finder/FamilySearch user-tree material; no record or reliable compiled pedigree is cited.",
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "perspectives": {
+      "Symington-721": {
+        "relationship": "father",
+        "reason": "Father claim rests only on Roots Finder/FamilySearch user-tree material; no record or reliable compiled pedigree is cited."
+      },
+      "Symington-723": {
+        "relationship": "son",
+        "reason": "Father claim rests only on Roots Finder/FamilySearch user-tree material; no record or reliable compiled pedigree is cited."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Father evidence and remaining questions",
+        "href": "/people/symington-721.html#archive-tools"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
+      "live_wikitree_status": "uncertain"
+    }
+  },
+  {
+    "assertion_id": "C-father-audit-20260928-wilson-127012-wilson-142005",
+    "people": [
+      "Wilson-127012",
+      "Wilson-142005"
+    ],
+    "status": "uncertain",
+    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "source_ids": [],
+    "source_summary": "CC9/7/3 names James with Isobel and Bessie in Geillis Glasgow's executor clause, but the intervening words are unresolved. The local findings and live biography explicitly say the earlier 'lawful son' reading is insecure.",
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "perspectives": {
+      "Wilson-142005": {
+        "relationship": "father",
+        "reason": "CC9/7/3 names James with Isobel and Bessie in Geillis Glasgow's executor clause, but the intervening words are unresolved. The local findings and live biography explicitly say the earlier 'lawful son' reading is insecure."
+      },
+      "Wilson-127012": {
+        "relationship": "son",
+        "reason": "CC9/7/3 names James with Isobel and Bessie in Geillis Glasgow's executor clause, but the intervening words are unresolved. The local findings and live biography explicitly say the earlier 'lawful son' reading is insecure."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Father evidence and remaining questions",
+        "href": "/people/wilson-142005.html#archive-tools"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
+      "live_wikitree_status": "uncertain"
+    }
+  },
+  {
+    "assertion_id": "C-reviewed-glasgow-1096-glasgow-1030-20260928",
+    "people": [
+      "Glasgow-1096",
+      "Glasgow-1030"
+    ],
+    "status": "strongly_supported",
+    "claim": "Robert Glasgow is confidently inferred to be the father of John, Ninian’s documented brother",
+    "basis": "Ninian's 1596 burgess admission expressly names Robert Glasgow, fisher, as his father; Ninian's 1613 testament expressly calls John his brother. Shared surname, compatible chronology and Ninian's son Robert's appearance at the 1619 baptism support a common father. Confident combined-evidence inference for the record-defined brother represented by Glasgow-1030; identification with the 1618 Jonet Mathie husband remains probable.",
+    "source_ids": [
+      "glasgow-burgess-ninian-1596",
+      "nrs-cc9-7-9-ninian-1613"
+    ],
+    "assessment_date": "2026-09-28",
+    "identity_scope": "Record-defined brother; later marriage identity remains probable",
+    "perspectives": {
+      "Glasgow-1030": {
+        "relationship": "father",
+        "reason": "Ninian's 1596 burgess admission expressly names Robert Glasgow, fisher, as his father; Ninian's 1613 testament expressly calls John his brother. Shared surname, compatible chronology and Ninian's son Robert's appearance at the 1619 baptism support a common father. Confident combined-evidence inference for the record-defined brother represented by Glasgow-1030; identification with the 1618 Jonet Mathie husband remains probable."
+      },
+      "Glasgow-1096": {
+        "relationship": "son",
+        "reason": "Ninian's 1596 burgess admission expressly names Robert Glasgow, fisher, as his father; Ninian's 1613 testament expressly calls John his brother. Shared surname, compatible chronology and Ninian's son Robert's appearance at the 1619 baptism support a common father. Confident combined-evidence inference for the record-defined brother represented by Glasgow-1030; identification with the 1618 Jonet Mathie husband remains probable."
+      }
+    },
+    "analysis_links": [
+      {
+        "href": "/people/glasgow-1030.html#archive-tools",
+        "label": "Father evidence and separate marriage identity"
+      }
+    ],
+    "publication_status": "approved",
+    "provenance": {
+      "source": "research/relationship_assessments.json",
+      "reviewed_at": "2026-09-28",
+      "basis": "Reassessment of existing records; sibling manuscript passage and burgess transcription re-inspected; no new primary record claimed",
+      "live_wikitree_status": "confident"
+    }
   }
 ]

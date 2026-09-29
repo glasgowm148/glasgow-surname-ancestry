@@ -1,8 +1,16 @@
 # Findings: William Glasgow (Glasgow-1087), christened at Mid Calder in 1609
 
-Last updated: 2026-08-09
+## Current conclusion — 27 September 2026
 
-## Current conclusion
+Glasgow-2453 was merged into this profile on 27 September 2026. William baptised at Mid Calder in 1609 is the best identified candidate for the adult William named as father of Johne and Issobel at Mid Calder in 1648. Age and parish fit, and no stronger competitor was found. This is an inferred cross-record identification, not wording in either register. The former adult child cluster, source citations and uncertain family links were retained.
+
+## Next records
+
+Inspect the original 1609 and 1648 Mid Calder entries for residence, occupation, witnesses and handwriting; test each possible Kirknewton/East Calder child event separately.
+
+Last updated: 2026-09-26
+
+## Prior assessment — superseded by merge
 
 A derivative baptism index records William Glasgow, son of **Jhone Glasgow**,
 christened at Mid Calder on 24 December 1609. The date is a christening date,
@@ -17,9 +25,11 @@ East Calder. No located record identifies any of those adult fathers as the
 child christened in 1609. No spouse or child is therefore proved for
 Glasgow-1087.
 
-Disconnect reconstructed adult-father profiles Glasgow-3515 and Glasgow-3610
-as sons of Glasgow-1087. Do not transfer their children to Glasgow-1087 merely
-because his age and locality fit.
+The reconstructed adult-father profiles Glasgow-2453 (former Glasgow-3515) and
+Glasgow-3610 were disconnected as sons on 26 September 2026. The former
+Glasgow-2453 attachment would have made the 1609 child about eleven at his
+estimated son's birth; neither attachment had a relational source. Do not
+transfer their children to Glasgow-1087 merely because his age and locality fit.
 
 ## Source findings
 
@@ -41,7 +51,7 @@ because his age and locality fit.
   wider identity are not proved.
 - Glasgow-1086: possible brother from a 1608 derivative entry; compare the
   original 1608 and 1609 pages before asserting a shared father profile.
-- Glasgow-3515 and Glasgow-3610: disconnect as sons.
+- Glasgow-2453 (former Glasgow-3515) and Glasgow-3610: disconnected as sons on 26 September 2026; assess possible identity only from new evidence.
 - Glasgow-2453: another reconstructed adult William; do not merge with
   Glasgow-1087 or Glasgow-3515 without original-entry continuity.
 - Glasgow-2454 and Glasgow-3654: probable duplicate representations of the

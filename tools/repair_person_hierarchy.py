@@ -27,9 +27,26 @@ try:
 except ModuleNotFoundError:  # imported as tools.repair_person_hierarchy in tests
     from tools.dossier_resolution import assessment_coverage, resolve_presentation
 
+try:
+    import evidence_labels
+except ModuleNotFoundError:
+    from tools import evidence_labels
+
 ROOT = Path(__file__).resolve().parents[1]
 WEB = ROOT / "www"
-PRESENTATION_VERSION = "25"
+PRESENTATION_VERSION = "26"
+_PRIVACY_CACHE = None
+
+def _public_projection(value):
+    global _PRIVACY_CACHE
+    if _PRIVACY_CACHE is None:
+        try:
+            from public_privacy import from_sources
+        except ModuleNotFoundError:
+            from tools.public_privacy import from_sources
+        _PRIVACY_CACHE = from_sources()
+    return _PRIVACY_CACHE.project(value)
+
 ASSET = f"/assets/repair/person-hierarchy.css?v={PRESENTATION_VERSION}"
 _INDEX_CACHE: dict[str, dict] | None = None
 
@@ -151,7 +168,13 @@ def person_href(value: str | None, profile_id: str | None = None) -> str:
         path = f"/people/{profile_id.casefold()}.html"
     else:
         path = "/" + value
-    return re.sub(r"^/people/(?:people/)+", "/people/", path)
+    path = re.sub(r"^/people/(?:people/)+", "/people/", path)
+    local_path = path.split("#", 1)[0].split("?", 1)[0]
+    if (local_path.startswith("/people/") and local_path.endswith(".html")
+            and not (WEB / local_path.lstrip("/")).exists()
+            and profile_id and re.fullmatch(r"[A-Za-z][A-Za-z_'’\-]*-\d+", profile_id)):
+        return "https://www.wikitree.com/wiki/" + profile_id
+    return path
 
 
 def _load_json(path: Path, default):
@@ -185,7 +208,13 @@ def _editorial(profile_id: str) -> dict:
             assertion = assertions[candidate["assertion_id"]]
             candidate.update(state=assertion["hypothesis_status"], assessment=assertion["claim"],
                              objections=assertion["limitations"], source_ids=assertion["source_ids"])
-    return resolve_presentation(profile_id, dossier, model, authored)
+    result = _public_projection(resolve_presentation(profile_id, dossier, model, authored))
+    for section in result.get("biography_sections") or []:
+        downloads = section.get("downloads") or []
+        if downloads and any(item.get("publication_status") != "approved" for item in downloads):
+            if "dna" in str(section.get("id") or "").casefold():
+                section["markdown"] = "Y-DNA is a lead for comparing paternal branches, not proof of an historical parent. Alexander’s parentage remains unresolved. Individual tester calls and audit downloads are withheld pending documented publication permission. Consult the [public Y-DNA summary](/ydna/) for the qualified project account."
+    return result
 
 
 def _refresh_reviewed_parentage(profile_ids=None) -> None:
@@ -252,13 +281,17 @@ def _canonical_records() -> list[dict]:
 def _canonical_record_rows(profile_id: str) -> list[dict]:
     """Return explicitly shared record identities mapped to this profile."""
     wanted = profile_id.casefold()
+    cited = {record_id for assessment in _relationship_assessments()
+             if assessment.get("publication_status") == "approved"
+             and wanted in {str(person).casefold() for person in assessment.get("people", [])}
+             for record_id in assessment.get("source_ids", [])}
     rows = []
     for record in _canonical_records():
         profiles = record.get("profiles") or {}
         profile_key = next((key for key in profiles if str(key).casefold() == wanted), None)
-        if profile_key:
+        if profile_key or _record_id(record) in cited:
             row = {key: value for key, value in record.items() if key not in {"profiles", "record_assessments"}}
-            context = profiles.get(profile_key)
+            context = profiles.get(profile_key) if profile_key else None
             if isinstance(context, dict) and context:
                 row["_profile_context"] = context
             rows.append(row)
@@ -462,41 +495,33 @@ def _timeline_role(row: dict, context: dict) -> str:
 
 
 def _role_label(relation: dict, group: str, state: str) -> str:
-    """Use a relationship label that fits the opened person's perspective."""
+    """Use a relationship label that fits the opened person's perspective.
+
+    Wording comes from the shared vocabulary in ``tools/evidence_labels.py``;
+    a curated qualification is kept but always carries the canonical term.
+    """
     if relation.get('lifecycle') == 'current' and relation.get('status_label'):
-        return relation['status_label']
+        return evidence_labels.normalise_status_label(state, relation['status_label'])
     role = str(relation.get("relationship") or "").casefold()
     if relation.get("hypothesis_status") == "open":
-        return relation.get("status_label") or ("Open father hypothesis" if role == "father" else "Open relationship hypothesis")
-    if state == "superseded":
-        return "Superseded proposal"
-    if state in {"unknown", "unmarked", "unassessed"}:
-        if group == "parents" or role in {"father", "mother", "parent"}:
-            return "Unassessed parent"
-        if group == "children" or role in {"son", "daughter", "child"}:
-            return "Unassessed child"
-        if group == "spouses" or role in {"spouse", "partner"}:
-            return "Tree relationship"
-        if group == "siblings" or role == "sibling":
-            return "Unassessed sibling link"
-        return "Relationship not assessed"
-    if group == "parents" or role in {"father", "mother", "parent"}:
-        if role == "father":
-            return "Documented father" if state == "proved" else "Strongly identified father" if state == "strongly_supported" else "Possible father"
-        if role == "mother":
-            return "Documented mother" if state == "proved" else "Strongly identified mother" if state == "strongly_supported" else "Possible mother"
-        return "Documented parent" if state == "proved" else "Strongly identified parent" if state == "strongly_supported" else "Possible parent"
-    if group == "children" or role in {"son", "daughter", "child"}:
-        if role == "daughter":
-            return "Documented daughter" if state == "proved" else "Strongly identified daughter" if state == "strongly_supported" else "Possible daughter"
-        if role == "son":
-            return "Documented son" if state == "proved" else "Strongly identified son" if state == "strongly_supported" else "Possible son"
-        return "Documented child" if state == "proved" else "Strongly identified child" if state == "strongly_supported" else "Possible child"
-    if group == "spouses" or role in {"spouse", "partner"}:
-        return "Documented spouse" if state == "proved" else "Tree relationship"
-    if group == "siblings" or role == "sibling":
-        return "Documented sibling" if state == "proved" else "Unassessed sibling link"
-    return relation.get("status_label") or state.replace("_", " ").title()
+        custom = relation.get("status_label") or ("Open father hypothesis" if role == "father" else "Open relationship hypothesis")
+        return evidence_labels.normalise_status_label(state, custom)
+    standard = {"parents": "parent", "children": "child", "spouses": "spouse", "siblings": "sibling"}
+    if role not in evidence_labels.ROLE_NOUNS and group in standard:
+        role = standard[group]
+    elif not role:
+        if relation.get("status_label"):
+            return evidence_labels.normalise_status_label(state, relation["status_label"])
+        role = "relationship"
+    return evidence_labels.relationship_label(state, role)
+
+
+EVIDENCE_GUIDE_LINK = (
+    f'<p class="evidence-guide-link"><a href="{evidence_labels.GUIDE_URL}">{evidence_labels.GUIDE_LABEL}</a>'
+    '<span> What “Documented”, “Probable”, “Possible” and “Unassessed tree link” mean.</span></p>'
+)
+EVIDENCE_CSS = f"/assets/research/evidence.css?v={evidence_labels.VERSION}"
+DOSSIER_GUIDE_META = f'<a class="dossier-evidence-guide" href="{evidence_labels.GUIDE_URL}">{evidence_labels.GUIDE_LABEL}</a>'
 
 
 def _current_vitals(profile_id: str, dossier: dict, model: dict, editorial: dict | None = None) -> dict:
@@ -610,9 +635,9 @@ def _family_html(profile_id: str, dossier: dict, model: dict, index: dict, edito
             state = relation.get("status") or relation.get("tree_status") or "unassessed"
             label = _role_label(relation, key, state)
             if relation.get("display") == "alternative" and state in {"unknown", "unassessed"}:
-                label = "Earlier tree proposal; not established"
+                label = evidence_labels.normalise_status_label(state, "Earlier tree proposal; not established")
             if relation.get("display") == "proposed":
-                label = relation.get("status_label") or "Uncertain working hypothesis"
+                label = evidence_labels.normalise_status_label(state, relation.get("status_label") or "Uncertain working hypothesis")
             relationship = relation.get("relationship") or ("parent" if key == "parents" else "child" if key == "children" else "partner")
             reason = _relation_reason(editorial, relation, key)
             source_links = []
@@ -635,7 +660,8 @@ def _family_html(profile_id: str, dossier: dict, model: dict, index: dict, edito
             previews.append(f'<span class="family-preview-person">{mark}{escape(name)}<small>{escape(dates)}</small></span>')
         out.append(f'<details class="relation-group"><summary><span>{escape(title)} <small>{len(values)}</small></span><span class="group-preview">{"".join(previews)}</span></summary><div class="table-wrap"><table class="relation-table"><thead><tr><th>Person and dates</th><th>Relationship</th><th>Current assessment</th><th>Why this relationship is shown</th></tr></thead><tbody>{"".join(rendered)}</tbody></table></div></details>')
     scope = editorial.get("family_scope_note")
-    return (f'<p class="family-scope">{escape(scope)}</p>' if scope else "") + "".join(out)
+    guide = EVIDENCE_GUIDE_LINK if out else ""
+    return (f'<p class="family-scope">{escape(scope)}</p>' if scope else "") + guide + "".join(out)
 
 
 def _parent_comparison_html(editorial: dict, dossier: dict) -> str:
@@ -857,6 +883,26 @@ def _timeline_html(profile_id: str, model: dict, rows: list[dict], source_by_rec
     return group_html("Historical chronology", historical)
 
 
+def _question_status(task: dict) -> str:
+    """Classify a research task without reading more into it than its status text."""
+    text = str(task.get("status") or "").strip().casefold()
+    if text.startswith(("completed", "resolved", "answered")):
+        return "answered"
+    if text.startswith(("partly", "partially")):
+        return "partly_answered"
+    return "open"
+
+
+def _question_actions_html(task: dict) -> str:
+    """Show what would resolve an open task; never invent a missing target."""
+    rows = []
+    for key, field in (("resolves", "resolve"), ("record_target", "record")):
+        value = str(task.get(key) or "").strip()
+        shown = escape(value) if value else f'<span class="question-unknown">{escape(evidence_labels.NOT_YET_IDENTIFIED)}</span>'
+        rows.append(f'<div><dt>{escape(evidence_labels.QUESTION_FIELDS[field])}</dt><dd>{shown}</dd></div>')
+    return f'<dl class="question-actions">{"".join(rows)}</dl>'
+
+
 def _research_html(editorial: dict) -> str:
     tasks = editorial.get("research_tasks") or []
     task_html = []
@@ -864,13 +910,17 @@ def _research_html(editorial: dict) -> str:
         scope = task.get("scope") or ("DNA" if "DNA" in str(task.get("what")) or "kit" in str(task.get("what")) else "Documentary")
         status_meta = f' · {task.get("status_date")}' if task.get("status_date") else ""
         superseded = f'<p class="relation-note"><span class="task-label">Superseding result</span> {escape(task.get("superseded_by"))}</p>' if task.get("superseded_by") else ""
-        task_html.append(f'<li class="task"><div class="task-head"><strong>{escape(str(task.get("priority") or ""))}. {escape(task.get("what") or "Research task")}</strong><span class="task-label">{escape(scope)}</span><span class="status-label status-{escape(_status_class(task.get("status")))}">{escape(str(task.get("status") or "Status not recorded"))}{escape(status_meta)}</span></div><p><span class="task-label">Question tested</span> {escape(task.get("tests") or "Not specified.")}</p><p><span class="task-label">What would matter</span> {escape(task.get("matters") or "Not specified.")}</p>{superseded}{f'<p class="relation-note"><span class="task-label">Provenance</span> {escape(task.get("provenance"))}</p>' if task.get("provenance") else ""}</li>')
+        question_state = _question_status(task)
+        question_label = evidence_labels.QUESTION_STATUS[question_state]
+        actions = _question_actions_html(task) if question_state != "answered" else ""
+        task_html.append(f'<li class="task" data-question-status="{question_state}"><div class="task-head"><strong>{escape(str(task.get("priority") or ""))}. {escape(task.get("what") or "Research task")}</strong><span class="task-label">{escape(scope)}</span><span class="question-status question-{question_state}">{escape(question_label)}</span><span class="status-label status-{escape(_status_class(task.get("status")))}">{escape(str(task.get("status") or "Status not recorded"))}{escape(status_meta)}</span></div><p><span class="task-label">Question tested</span> {escape(task.get("tests") or "Not specified.")}</p><p><span class="task-label">What would matter</span> {escape(task.get("matters") or "Not specified.")}</p>{actions}{superseded}{f'<p class="relation-note"><span class="task-label">Provenance</span> {escape(task.get("provenance"))}</p>' if task.get("provenance") else ""}</li>')
     logs = editorial.get("completed_searches") or []
     log_html = "".join(f'<tr><td>{escape(str(item.get("date") or "Undated"))}</td><td>{escape(item.get("scope") or item.get("search") or "Search")}</td><td>{escape(item.get("result") or "")}</td><td>{escape(item.get("limitation") or "")}</td></tr>' for item in logs)
     task_block = f'<ol class="task-list">{"".join(task_html)}</ol>' if task_html else '<p class="dossier-empty">No active task is recorded.</p>'
     log_block = f'<div class="table-wrap"><table class="source-table research-log"><thead><tr><th>Date</th><th>Scope</th><th>Result</th><th>Limitation</th></tr></thead><tbody>{log_html}</tbody></table></div>' if log_html else '<p class="dossier-empty">No completed search log is recorded.</p>'
     completed_block = f'<h3>Completed searches and review log</h3>{log_block}' if log_html else ""
-    return f'<h3>Active research priorities</h3>{task_block}{completed_block}'
+    guide = EVIDENCE_GUIDE_LINK if task_html else ""
+    return f'<h3>Active research priorities</h3>{guide}{task_block}{completed_block}'
 
 
 def _sources_html(rows: list[dict], sources: list[dict], source_by_record: dict[str, str], editorial: dict) -> str:
@@ -968,6 +1018,9 @@ def _record_excerpt_html(profile_id: str, excerpt_id: str) -> str:
     item = next((entry for entry in entries if entry.get("id") == excerpt_id), None)
     if not item:
         return ""
+    if item.get("publication_status") != "approved":
+        source = _a(str(item.get("source_url") or ""), "Consult the cited source")
+        return f'<aside class="record-excerpt-withheld"><strong>Licensed scan withheld; consult cited source.</strong><p>{escape(str(item.get("title") or "Original record excerpt"))} · {source}</p></aside>'
     filename = str(item.get("file") or "")
     if not re.fullmatch(r"[A-Za-z0-9_-]+\.(?:png|jpg|jpeg|webp)", filename):
         return ""
@@ -1018,6 +1071,8 @@ def _biography_sections_html(profile_id: str, editorial: dict, used_ids: set[str
         if not isinstance(item, dict) or not str(item.get("markdown") or "").strip():
             continue
         for attachment in item.get("downloads") or []:
+            if attachment.get("publication_status") != "approved":
+                continue
             filename = str(attachment.get("file") or "")
             public_file = str(attachment.get("public_file") or filename)
             if not all(re.fullmatch(r"[A-Za-z0-9_-]+\.(?:json|csv)", name) for name in (filename, public_file)):
@@ -1163,6 +1218,9 @@ def render_person_dossier(profile_id: str) -> str:
     birth = date_label("birth"); death = date_label("death")
     birth_place = (model_vitals.get("birth") or vitals.get("birth") or {}).get("place")
     death_place = (model_vitals.get("death") or vitals.get("death") or {}).get("place")
+    place_labels = editorial.get("vital_place_labels") or {}
+    birth_place = place_labels.get("birth", birth_place)
+    death_place = place_labels.get("death", death_place)
     assessment_date = editorial.get("assessment_date") or ""
     wiki = dossier.get("wikitree_url") or ""
     opening = editorial.get("opening") or ""
@@ -1271,7 +1329,7 @@ def render_person_dossier(profile_id: str) -> str:
     locality_value = _a(locality_href, str(locality)) if locality and locality_href else escape(str(locality))
     locality_html = f'<p class="dossier-locality">{locality_value}</p>' if locality else ""
     assessment_meta = f'<span>Research assessment: <time>{escape(str(assessment_date))}</time></span>' if assessment_date else ""
-    return f'''<nav class="crumb"><a href="/catalogue/">People catalogue</a> / {escape(name)}</nav><article class="person-dossier-readable" data-dossier-presentation="{PRESENTATION_VERSION}"><header class="dossier-header"><p class="kicker">Person dossier · {escape(profile_id)}</p><h1>{escape(name)}</h1><p class="dossier-life">{escape(life)}</p>{locality_html}<div class="dossier-meta">{assessment_meta}</div><div class="dossier-actions">{"".join(actions)}</div></header><nav class="dossier-nav" aria-label="On this page">{section_nav}</nav><div class="dossier-layout"><aside class="dossier-toc" aria-label="Dossier contents">{toc_nav}</aside><div class="dossier-reading">{"".join(sections)}{_archive_html(profile_id, dossier, editorial, "".join(supplements))}</div></div></article>{script}'''
+    return f'''<nav class="crumb"><a href="/catalogue/">People catalogue</a> / {escape(name)}</nav><article class="person-dossier-readable" data-dossier-presentation="{PRESENTATION_VERSION}"><header class="dossier-header"><p class="kicker">Person dossier · {escape(profile_id)}</p><h1>{escape(name)}</h1><p class="dossier-life">{escape(life)}</p>{locality_html}<div class="dossier-meta">{assessment_meta}{DOSSIER_GUIDE_META}</div><div class="dossier-actions">{"".join(actions)}</div></header><nav class="dossier-nav" aria-label="On this page">{section_nav}</nav><div class="dossier-layout"><aside class="dossier-toc" aria-label="Dossier contents">{toc_nav}</aside><div class="dossier-reading">{"".join(sections)}{_archive_html(profile_id, dossier, editorial, "".join(supplements))}</div></div></article>{script}'''
 
 
 def _ensure_unified_person_shell(soup: BeautifulSoup, profile_id: str) -> BeautifulSoup:
@@ -1345,7 +1403,14 @@ def _replace_main(text: str, profile_id: str) -> str:
     for old_asset in soup.select('link[href^="/assets/repair/person-hierarchy.css"]'):
         old_asset.decompose()
     soup.head.append(soup.new_tag("link", rel="stylesheet", href=ASSET))
-    return str(_ensure_unified_person_shell(soup, profile_id))
+    for old_asset in soup.select('link[href^="/assets/research/evidence.css"]'):
+        old_asset.decompose()
+    soup.head.append(soup.new_tag("link", rel="stylesheet", href=EVIDENCE_CSS))
+    try:
+        from tools.site_analytics import with_analytics
+    except ModuleNotFoundError:
+        from site_analytics import with_analytics
+    return with_analytics(str(_ensure_unified_person_shell(soup, profile_id)))
 
 
 def revise(text: str, profile_id_hint: str = ""):

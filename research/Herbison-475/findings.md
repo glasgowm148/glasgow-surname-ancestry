@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+A newly located 18 January 1581/82 Bridgegait boundary reference names Archibald Herbertsoun, fisher. It probably continues the record-proved husband’s property history; it names no Glasgow kin and does not change the father assessment. See the dated source review below.
+
 This profile is securely identified as the **fisher** Archibald Herbesoun,
 husband of [Isobella Glasgow
 (Glasgow-3916)](https://www.wikitree.com/wiki/Glasgow-3916). Their 27 January
@@ -17,6 +19,11 @@ elder namesake in 1536 is a possible earlier occurrence, but the inspected acts
 do not bridge that man to the fisher.
 
 ## Source findings
+
+### Bridgegait continuation — 28 September 2026
+
+Renwick, *Abstracts of Protocols*, vol. 8, protocol 2370, [18 January 1581/82, pp. 36–37](https://archive.org/details/abstractsprotoc00scogoog/page/n60/mode/2up), describes a south-side Bridgegait boundary as the tenement of **Archibald Herbertsoun, fisher**. The neighbouring holding also bounded Ninian Schyre's land and the little common green. Both printed pages were visually checked. The name, craft and street make this a probable later occurrence of Isobella Glasgow's husband. This is a title-boundary description, not a new statement that Isobella was alive, and it supplies no Glasgow parentage. No structured dates or relationships are changed from this reference.
+
 
 | Source | Finding | Assessment |
 | --- | --- | --- |

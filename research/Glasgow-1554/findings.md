@@ -1,6 +1,6 @@
 # Findings: Walter Glasgow (Glasgow-1554), recorded in 1649
 
-Last updated: 2026-09-10
+Last updated: 2026-09-26
 
 
 ## Current conclusion
@@ -13,6 +13,12 @@ Walter's date falls within the documented July 1649-August 1651 gap in the Mid
 Calder baptism register. His entry therefore cannot demonstrate that the family
 was registering children at Mid Calder in September 1649. Inspect the original
 Kirknewton/East Calder source before assigning a parish or merging adult fathers.
+
+Walter was formerly attached as father of [William Glasgow
+(Glasgow-1026)](https://www.wikitree.com/wiki/Glasgow-1026), whose birth is
+estimated about 1660. The eleven-year interval and absence of a parentage
+record make that relationship unsupported. It was removed live on 26 September
+2026; Walter is not a documented father of Glasgow-1026.
 
 ## Potential-father review — 10 August 2026
 

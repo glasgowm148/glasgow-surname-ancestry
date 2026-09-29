@@ -1,7 +1,8 @@
-> **READY TO CREATE — DISTINCT DOCUMENTARY PERSON (MODERATE CONFIDENCE):**
-> Andrew's daughter Isobel is directly identified. [[Glasgow-3336]] is
-> compatible by generation and region but has no parent, sibling, Corsoun,
-> Stevenson or succession bridge; that overlap is not an identity match.
+> **ARCHIVED DRAFT — DO NOT CREATE:** Andrew's daughter was represented by
+> Glasgow-4097 and merged into [[Glasgow-3336]] on 27 September 2026. The
+> identification with the Edinburgh bride is probable; the later records do
+> not directly name her father or Corsoun. See the current survivor biography
+> and `research/Glasgow-3336/findings.md`.
 
 ## Paste-ready biography
 

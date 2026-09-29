@@ -13,6 +13,10 @@ unproved.
 | Robert was alive on 7 February 1574/75. | Protocol 2125, cited above. | Direct occurrence; use **after 7 February 1575** as the uncertain death boundary. |
 | Robert and John Glasgow were listed among fishers in 1573. | Renwick, ''Abstracts of Protocols'', vol. 7, protocol 2002, [19 December 1573](https://archive.org/details/abstractsprotoc00robegoog/page/n52/mode/2up). | Direct occupational evidence; no relationship between the two men is stated. |
 
+Marion Glasgow-3062 is confidently inferred to be Robert’s daughter from
+Ninian’s documented father, the explicit sister clause and the shared surname;
+no competing father is evidenced. Her mother remains uncertain.
+
 ## Suggested corrections
 
 - Attach [Ninian Glasgow (Glasgow-3188)](https://www.wikitree.com/wiki/Glasgow-3188) as confirmed son.

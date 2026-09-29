@@ -59,3 +59,11 @@ another record supplies a supported replacement. Do not attach Mary to the
 2. Search Ardrossan kirk-session and parish material for Mary and James.
 3. Test the attached Edward Glasgow and Catherine Hamilton against original
    records; preserve both links unless a sourced replacement is established.
+
+## Father relationship assessment — 28 September 2026
+
+This is a review of existing evidence, not a newly discovered record. Attached father: [Edward Glasgow](https://www.wikitree.com/wiki/Glasgow-1557). Assessment: **uncertain**.
+
+Reason: The 1677 testament index identifies Mary’s spouse and Saltcoats locality but supplies no parentage; Edward’s attachment remains unproved.
+
+Source summary: The 1677 testament index identifies Mary’s spouse and Saltcoats locality but supplies no parentage; Edward’s attachment remains unproved. Saved on WikiTree and verified in the live edit form on 28 September 2026; only the father certainty and its explanation were updated.

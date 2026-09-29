@@ -25,6 +25,11 @@ father in structured data, but the relationship can now be described as
 
 ## Source findings
 
+### Combined father-evidence review — 28 September 2026
+
+The 1551 acquisition and 1554/55–1575 boundary sequence remain strong evidence of a connected property group. A well-supported inference could establish fatherhood without an explicit son clause. Here the missing transfer leaves its mechanism, the intervening John's precise identity and the family degree unresolved. Robert's witness role independently supports the network, but does not identify Archibald's father. William remains a probable father, with the live status uncertain. The earlier next-action wording requiring an explicit kin formula is superseded by this combined-evidence assessment: a sufficiently identifying title or household bridge could also resolve it.
+
+
 | Source | Finding | Assessment |
 | --- | --- | --- |
 | Robert Renwick, ed., *Abstracts of Protocols of the Town Clerks of Glasgow*, vol. 1, protocol 84, printed p. 31, [21 May 1551](https://archive.org/details/abstractsprotoc07robegoog/page/n59/mode/2up) | Elizabeth Beith sold a fore-and-back tenement on the north side of the street from the South Port to the Clyde bridge to **Archibald Glasgow and Isobell Newlands, spouses**. Robert Glasgow was one of six witnesses. | Direct proof of Archibald's wife, property and survival to this date. Robert's presence is useful network evidence but the record states no relationship or father. |

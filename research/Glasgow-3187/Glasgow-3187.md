@@ -1,10 +1,7 @@
-# Complete WikiTree replacement text for Glasgow-3187
-
-[[Category:Glasgow Name Study]]
 {{Estimated Date}}
+[[Category:Glasgow Name Study]]
 
 == Biography ==
-
 '''Thomas Glasgow''' was born before about 1627, probably in Scotland. His
 exact birth date, birthplace and parents have not been established. Edinburgh
 is a reasonable uncertain location from his documented adult household there,
@@ -28,7 +25,7 @@ recorded in Edinburgh:
 |-
 | [[Glasgow-1163|Jeane Glasgow]] || 8 March 1650 || Edinburgh OPR 685/1, FR1426
 |}<ref name="Children">Edinburgh parish register index entries preserved on
-the live profiles: Margaret Glasgow, 27 December 1644, Thomas Glasgow/Catharine
+The live profiles: Margaret Glasgow, 27 December 1644, Thomas Glasgow/Catharine
 Weir, OPR 685/1, FR1323; Elizabeth Glasgow, 1 July 1647, OPR 685/1, FR1362;
 Catharine Glasgow, 16 January 1649, OPR 685/1, FR1400; and Jeane Glasgow, 8
 March 1650, OPR 685/1, FR1426.</ref>
@@ -52,28 +49,26 @@ Thomas's death date and place have not been identified. He was alive on 2 May
 1660.<ref name="Burgess1660" />
 
 == Research Notes ==
+=== Current evidence assessment ===
 
-=== Identification with the burgess ===
-
+==== Identification with the burgess ====
 The 1660 burgess is probably this Thomas. The exact name, city and adult
 chronology continue the Edinburgh household documented between 1644 and 1650.
 The admission lacks a wife, trade or kinship statement, so the identification
 should remain explicitly probable.
 
-=== Parentage ===
-
+==== Parentage ====
 Thomas is attached to [[Glasgow-1030|John Glasgow]] and [[Mathie-159|Jonet
 Mathie]]. No birth or baptism record inspected for Thomas names those parents.
 The child records and burgess admission establish his adult Edinburgh identity
 but do not prove that attachment. Preserve the relationships as uncertain
 working hypotheses unless direct evidence is found.
 
-=== Thomas M.A. ===
-
+==== Thomas M.A. ====
 [[Glasgow-3413|Thomas Glasgow M.A.]] graduated from the University of Edinburgh
 on 20 March 1670.<ref>[https://archive.org/details/catalogueofgr10600univuoft/page/100/mode/2up
 ''A Catalogue of the Graduates in the Faculties of Arts, Divinity, and Law of
-the University of Edinburgh''], printed p. 100.</ref> He is attached as a son
+The University of Edinburgh''], printed p. 100.</ref> He is attached as a son
 of this household, but the university entry supplies no father and shared
 city/name evidence is insufficient. Keep that relationship uncertain.
 
@@ -82,5 +77,11 @@ Thomas's wife [[Weir-3979|Catharine Weir]] should not be confused with
 same-name comparison is maintained at
 [https://www.wikitree.com/wiki/Space:Thomas-1 Thomas Research].
 
+* [https://www.wikitree.com/wiki/Space:Thomas-1 Thomas Research]
+* His wife, [[Weir-3979|Catherine (Weir) Glasgow (abt.1625-)]] is not to be confused with [[Glasgow-1495|Catherine (Glasgow) Weir (bef.1584-)]]
 == Sources ==
+* MARGARET 27-12-1644 THOMAS GLASGOW/CATHARINE WEIR FR1323 (FR1323) Edinburgh 685/1 F
+* ELIZABETH 01-07-1647 THOMAS GLASGOW/CATHARINE WEIR FR1362 (FR1362) Edinburgh 685/1 F
+*    CATHARINE 16-01-1649 THOMAS GLASGOW/CATHARINE WEIR FR1400 (FR1400) Edinburgh 685/1 F
+*  JEANE 08-03-1650 THOMAS GLASGOW/CATHARINE WEIR FR1426 (FR1426) Edinburgh 685/1 F
 <references />

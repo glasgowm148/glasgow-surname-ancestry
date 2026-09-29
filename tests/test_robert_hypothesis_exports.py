@@ -7,6 +7,7 @@ from urllib.parse import urlsplit
 
 from bs4 import BeautifulSoup
 from tools.publish_resolved_dossiers import resolve
+from tools import evidence_labels
 
 ROOT = Path(__file__).resolve().parents[1]
 WEB = ROOT / 'www'
@@ -39,7 +40,8 @@ class RobertHypothesisExportsTests(unittest.TestCase):
             self.assertEqual(assessment['source_ids'], row['source_ids'])
             self.assertIn('no ages, wife or kinship', row['limitations'])
             node = html.select_one(f'#family tr[data-claim-id="{ASSERTION}"]')
-            self.assertEqual(row['status_label'], node.select_one('.status-label').text)
+            # Pages show the curated label in the canonical vocabulary (tools/evidence_labels.py).
+            self.assertEqual(evidence_labels.normalise_status_label(row["status"], row["status_label"]), node.select_one('.status-label').text)
             self.assertIn(row['reason'], node.text)
             for document in (dossier, network):
                 claim = next(c for c in document['claims'] if c['id'] == ASSERTION)

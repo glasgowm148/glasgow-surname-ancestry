@@ -1,6 +1,11 @@
 # Findings: [John Glasgow (Glasgow-3015), Duddingston father](https://www.wikitree.com/wiki/Glasgow-3015)
 
-## Conclusion
+## Current disposition — 27 September 2026
+
+Glasgow-3015 was merged into [the surviving profile Glasgow-1084](https://www.wikitree.com/wiki/Glasgow-1084). The older separate-profile recommendation below is retained as superseded research history. The survivor carries the qualified identity assessment and the original record citations.
+
+
+## Superseded conclusion — before merge
 
 The 11 January 1638 Duddingston entry directly identifies John Glasgow and
 Helen Patoune as parents of John-3014. It does not identify the father's birth

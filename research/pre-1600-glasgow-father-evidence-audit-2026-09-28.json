@@ -1,0 +1,408 @@
+{
+  "scope": "Owned profiles with exact Glasgow surname at birth and an indexed birth or death year through 1600 inclusive; father links only.",
+  "reviewed_at": "2026-09-28T00:17:55.204394+00:00",
+  "cohort_total": 46,
+  "counts": {
+    "confident": 16,
+    "uncertain": 20,
+    "unmarked": 0,
+    "father_missing": 10
+  },
+  "reviewed_targets": 31,
+  "live_upgrades": 1,
+  "new_father_attachments": 0,
+  "method": "Reviewed all 21 uncertain father links and all 10 fatherless subjects against the existing cited biographies, maintained case evidence and candidate inventory. John’s sibling manuscript passage and published burgess entry were re-inspected. No new archival discovery is claimed.",
+  "results": [
+    {
+      "id": "Glasgow-1028",
+      "name": "David Glasgow",
+      "father": null,
+      "outcome": "father remains missing",
+      "assessment": "Andrew Glasgow-3163 remains a possible father; no positive relationship or identity bridge has been found. The corrected testament does not name David as a son. This removes the claimed direct proof but omission from dispositive clauses does not exclude him as a child. No positive bridge establishes his father.",
+      "source_summary": "FamilySearch X1BJ-22S (Elspeth, 2 Mar 1606) and X1BJ-LR9 (Issobell, 3 May 1612) name David as father. Andrew's original testament, NRS CC8/8/32 images 123-124 (6 Feb 1597/8), names son Robert and daughters Marion, Jonet and Isobel, but no David.",
+      "next_question": "Search Calder/Linlithgow land, rental or testament records for a patronymic.",
+      "evidence_provenance": "Maintained case evidence and source locators; no new original inspection claimed for this subject.",
+      "findings": "/people/glasgow-1028.html#archive-tools"
+    },
+    {
+      "id": "Glasgow-1030",
+      "name": "John Glasgow",
+      "father": "Glasgow-1096",
+      "outcome": "upgraded to confident",
+      "assessment": "Ninian's 1596 burgess admission expressly names Robert Glasgow, fisher, as his father; Ninian's 1613 testament expressly calls John his brother. Shared surname, compatible chronology and Ninian's son Robert's appearance at the 1619 baptism support a common father. Confident combined-evidence inference for the record-defined brother represented by Glasgow-1030; identification with the 1618 Jonet Mathie husband remains probable.",
+      "next_question": "Find an occupation/property bridge to the 1618 husband; father confidence applies to the record-defined brother.",
+      "evidence_provenance": "Existing cited biography and maintained findings; sibling passage and burgess transcription re-inspected for Glasgow-1030 only.",
+      "findings": "/people/glasgow-1030.html#archive-tools"
+    },
+    {
+      "id": "Glasgow-1096",
+      "name": "Robert Glasgow",
+      "father": "Glasgow-1098",
+      "outcome": "retain uncertain",
+      "assessment": "William remains the leading probable father on the combined property/craft evidence. The Bridgegait/fisher John is not uniquely joined to William's Saltmarket son-and-heir, and the exact kinship degree remains unresolved; confidence is not withheld merely for lack of an explicit son clause.",
+      "next_question": "Find an explicit succession or family settlement connecting Robert to William; the fisher network already supports a probable relationship.",
+      "evidence_provenance": "Existing cited biography and maintained findings; sibling passage and burgess transcription re-inspected for Glasgow-1030 only.",
+      "findings": "/people/glasgow-1096.html#archive-tools",
+      "followup_review": "28 September 2026: combined-evidence and original-source access review"
+    },
+    {
+      "id": "Glasgow-1097",
+      "name": "Archibald Glasgow",
+      "father": "Glasgow-1098",
+      "outcome": "retain uncertain",
+      "assessment": "The Bargill-side property passed from Archibald's 1551 holding to a John by 1554/55. The unlocated transfer leaves that John's precise identity, transfer mechanism and family degree unresolved. William remains a probable father on strong circumstantial evidence; an identifying household/title bridge could establish confidence without an explicit son formula.",
+      "next_question": "Locate the 1551–1554/55 transfer of Archibald’s Bargill-side parcel to John.",
+      "evidence_provenance": "Existing cited biography and maintained findings; sibling passage and burgess transcription re-inspected for Glasgow-1030 only.",
+      "findings": "/people/glasgow-1097.html#archive-tools",
+      "followup_review": "28 September 2026: combined-evidence and original-source access review"
+    },
+    {
+      "id": "Glasgow-1098",
+      "name": "William Glasgow",
+      "father": "Glasgow-1095",
+      "outcome": "retain uncertain",
+      "assessment": "The exact Rankin–Young property sequence supports succession and probable kinship. Eufame Craig's 1564 conjunct fee/liferent leaves her deceased husband's forename blank, and neither the older John identity nor the exact degree is resolved. William's attached father remains a probable hypothesis.",
+      "next_question": "Inspect BL/204 and the older Saltmarket title sequence for a son or heir clause.",
+      "evidence_provenance": "Existing cited biography and maintained findings; sibling passage and burgess transcription re-inspected for Glasgow-1030 only.",
+      "findings": "/people/glasgow-1098.html#archive-tools",
+      "followup_review": "28 September 2026: combined-evidence and original-source access review"
+    },
+    {
+      "id": "Glasgow-1156",
+      "name": "Robert Glasgow",
+      "father": "Glasgow-1097",
+      "outcome": "retain uncertain",
+      "assessment": "The 1647 Duddingston burial does not name Robert's parents; Archibald's profile admits no record identifies Robert as his son.",
+      "next_question": "Follow Andrew’s Corsoun son Robert through land or Stevenson family evidence into Duddingston.",
+      "evidence_provenance": "Existing cited biography and maintained findings; sibling passage and burgess transcription re-inspected for Glasgow-1030 only.",
+      "findings": "/people/glasgow-1156.html#archive-tools"
+    },
+    {
+      "id": "Glasgow-1168",
+      "name": "James Glasgow",
+      "father": "Glasgow-1098",
+      "outcome": "retain uncertain",
+      "assessment": "Corsinkell records directly establish James's sons James and John, but provide no link from James elder to William.",
+      "next_question": "Find a Glasgow-burgh to Corsankell tenant succession, patronymic or estate bridge.",
+      "evidence_provenance": "Existing cited biography and maintained findings; sibling passage and burgess transcription re-inspected for Glasgow-1030 only.",
+      "findings": "/people/glasgow-1168.html#archive-tools"
+    },
+    {
+      "id": "Glasgow-1494",
+      "name": "Jonet Glasgow",
+      "father": "Glasgow-1557",
+      "outcome": "retain uncertain",
+      "assessment": "The cited 1628 testament index identifies Jonet’s spouse but supplies no father; Edward’s attachment is a working hypothesis.",
+      "next_question": "Inspect the underlying 1628 testament beyond the spouse-only calendar entry for an Edward link.",
+      "evidence_provenance": "Existing cited biography and maintained findings; sibling passage and burgess transcription re-inspected for Glasgow-1030 only.",
+      "findings": "/people/glasgow-1494.html#archive-tools"
+    },
+    {
+      "id": "Glasgow-1495",
+      "name": "Catherine Glasgow",
+      "father": "Glasgow-3921",
+      "outcome": "retain uncertain",
+      "assessment": "Katherine's 1605 testament calendar names her spouse only; James of Corsankell is compatible by place/generation but is not named as parent.",
+      "next_question": "Follow Stevenston Weir and Corsankell property succession for Katherine’s birth family.",
+      "evidence_provenance": "Existing cited biography and maintained findings; sibling passage and burgess transcription re-inspected for Glasgow-1030 only.",
+      "findings": "/people/glasgow-1495.html#archive-tools"
+    },
+    {
+      "id": "Glasgow-1557",
+      "name": "Edward Glasgow",
+      "father": "Glasgow-3921",
+      "outcome": "retain uncertain",
+      "assessment": "No identified birth, baptismal, testamentary, or other relational record names Edward's father; locality and naming are insufficient.",
+      "next_question": "Find an Edward record naming a parent or a household/property bridge to James of Corsankell.",
+      "evidence_provenance": "Existing cited biography and maintained findings; sibling passage and burgess transcription re-inspected for Glasgow-1030 only.",
+      "findings": "/people/glasgow-1557.html#archive-tools"
+    },
+    {
+      "id": "Glasgow-1561",
+      "name": "John Glasgow",
+      "father": null,
+      "outcome": "father remains missing",
+      "assessment": "Andrew Glasgow-3163 remains a possible father; no positive relationship or identity bridge has been found. The child baptisms prove the Linlithgow father but do not identify the adult's father.",
+      "source_summary": "FamilySearch X1RX-HPB, X1RV-T8R and X1RN-XV7 name John as father of Jean (1613), John (1617) and George (1622), Linlithgow. CC8/8/32 images 123-124 names Andrew's children Robert, Marion, Jonet and Isobel, not John.",
+      "next_question": "Search Calder/Linlithgow land, rental or testament records for a patronymic.",
+      "evidence_provenance": "Maintained case evidence and source locators; no new original inspection claimed for this subject.",
+      "findings": "/people/glasgow-1561.html#archive-tools"
+    },
+    {
+      "id": "Glasgow-1603",
+      "name": "Hugh Glasgow",
+      "father": "Glasgow-991",
+      "outcome": "retain uncertain",
+      "assessment": "Hugh's identity and Ayrshire association are uncertain; James's documented Calder/Inveresk household conflicts geographically and no record names Hugh.",
+      "next_question": "Establish Hugh’s household and locality, then test the Ayrshire and Calder candidates.",
+      "evidence_provenance": "Existing cited biography and maintained findings; sibling passage and burgess transcription re-inspected for Glasgow-1030 only.",
+      "findings": "/people/glasgow-1603.html#archive-tools"
+    },
+    {
+      "id": "Glasgow-3023",
+      "name": "Alan Glasgow",
+      "father": null,
+      "outcome": "father remains missing",
+      "assessment": "John Glasgw of Stirling (Space:John_Glasgw_of_Stirling), active 1475-1480; possible father/brother/uncle-generation comparison, no exact relationship. Stirling and Jedburgh have no shared associate/property/kin bridge; the record cannot distinguish father from brother, nephew or unrelated namesake.",
+      "source_summary": "Pitcairn, Criminal Trials, vol. I pt. I, p. 19, prints the Jedburgh justice-ayre remission for the 'Slaughter of Alan Glasgw'; underlying NRS JC1/1. It names Pilmure and surety Ralph Ker, no kin. The correct date is 1495, not the misprinted 1594-5.",
+      "next_question": "Search the Jedburgh and Stirling records for a kinship, property or associate bridge.",
+      "evidence_provenance": "Maintained case evidence and source locators; no new original inspection claimed for this subject.",
+      "findings": "/people/glasgow-3023.html#archive-tools"
+    },
+    {
+      "id": "Glasgow-3026",
+      "name": "Isabella Glasgow",
+      "father": "Glasgow-1097",
+      "outcome": "retain uncertain",
+      "assessment": "Isabella's 1600 property record proves her marriage only; published-protocol search found no statement of her parentage.",
+      "next_question": "Trace Isabella and the dyer John Howe’s property; the other Howe household is not a parental bridge.",
+      "evidence_provenance": "Existing cited biography and maintained findings; sibling passage and burgess transcription re-inspected for Glasgow-1030 only.",
+      "findings": "/people/glasgow-3026.html#archive-tools"
+    },
+    {
+      "id": "Glasgow-3075",
+      "name": "William Glasgow",
+      "father": "Glasgow-3188",
+      "outcome": "retain uncertain",
+      "assessment": "The damaged William passage does not securely establish him as Ninian's son, and no record joins the later Leith mealmaker to Ninian's household. William's own son Archibald is independently well documented.",
+      "next_question": "Resolve the damaged William clause and seek a Glasgow-to-Leith identity bridge.",
+      "evidence_provenance": "Existing cited biography and maintained findings; sibling passage and burgess transcription re-inspected for Glasgow-1030 only.",
+      "findings": "/people/glasgow-3075.html#archive-tools"
+    },
+    {
+      "id": "Glasgow-3163",
+      "name": "Andrew Glasgow",
+      "father": "Glasgow-1093",
+      "outcome": "retain uncertain",
+      "assessment": "Andrew's 1597/8 Corsoun testament identifies his own household, while John-1093's proved family is Glasgow burgh; no parent is named or bridge supplied.",
+      "next_question": "Search Caldercleir/Morton rentals and sasines for Andrew’s parent or earlier holding.",
+      "evidence_provenance": "Existing cited biography and maintained findings; sibling passage and burgess transcription re-inspected for Glasgow-1030 only.",
+      "findings": "/people/glasgow-3163.html#archive-tools"
+    },
+    {
+      "id": "Glasgow-3179",
+      "name": "Geillis Glasgow",
+      "father": "Glasgow-3921",
+      "outcome": "retain uncertain",
+      "assessment": "Geillis's testament identifies husband/estate but not parents; debt owed to a James Glasgow in Stevenston has no stated kinship.",
+      "next_question": "Follow the testament’s James Glasgow creditor through Stevenston land and family records.",
+      "evidence_provenance": "Existing cited biography and maintained findings; sibling passage and burgess transcription re-inspected for Glasgow-1030 only.",
+      "findings": "/people/glasgow-3179.html#archive-tools"
+    },
+    {
+      "id": "Glasgow-3181",
+      "name": "John Glasgow",
+      "father": "Glasgow-1093",
+      "outcome": "retain uncertain",
+      "assessment": "Protocols directly name John-1093's son John, but no inspected record carries that burgh son into the Hirmanscheillis estate. The testator died before the 4 May 1577 proceeding; the exact death year remains unresolved.",
+      "next_question": "Connect the directly named Glasgow-burgh son John to the Hirmanscheillis estate by property or occupation.",
+      "evidence_provenance": "Existing cited biography and maintained findings; sibling passage and burgess transcription re-inspected for Glasgow-1030 only.",
+      "findings": "/people/glasgow-3181.html#archive-tools"
+    },
+    {
+      "id": "Glasgow-3182",
+      "name": "Barbara Glasgow",
+      "father": null,
+      "outcome": "father remains missing",
+      "assessment": "Ninian Glasgow (Glasgow-3188), possible father or uncle. The two dates may be proclamation and marriage. Barbara may also be the Little mother Glasgow-567 or Johnstoun wife Glasgow-3302; no continuity or father wording exists.",
+      "source_summary": "South Leith OPR 692/2 90/219 gives Barbara Glasgow and Johne Wilsoune, 20 Sep 1611; FamilySearch XYML-ZBB gives 26 Nov 1611. Ninian's 1613 testament (CC9/7/9 images 142-145) proves son Robert and names no Barbara. Robert was a cordiner; Ninian's possible son William was in Leith, making the craft/locality pattern a useful lead.",
+      "next_question": "Inspect original marriage entries and cordiner incorporation records for a father or named cautioner.",
+      "evidence_provenance": "Maintained case evidence and source locators; no new original inspection claimed for this subject.",
+      "findings": "/people/glasgow-3182.html#archive-tools"
+    },
+    {
+      "id": "Glasgow-3296",
+      "name": "John Glasgow",
+      "father": "Glasgow-1029",
+      "outcome": "retain uncertain",
+      "assessment": "1650 Quodquen testament proves only John and Bessie as siblings and names no parent; no bridge identifies him with Stephen's documented family.",
+      "next_question": "Find a Quodquen property or patronymic bridge to Stephen’s household.",
+      "evidence_provenance": "Existing cited biography and maintained findings; sibling passage and burgess transcription re-inspected for Glasgow-1030 only.",
+      "findings": "/people/glasgow-3296.html#archive-tools"
+    },
+    {
+      "id": "Glasgow-3302",
+      "name": "Barbara Glasgow",
+      "father": null,
+      "outcome": "father remains missing",
+      "assessment": "Ninian Glasgow (Glasgow-3188), possible father or uncle. No parent, age or birthplace in marriage. It may be one woman with Glasgow-3182/Glasgow-567, but that is unresolved.",
+      "source_summary": "Edinburgh OPR 685/1/430/109 and FamilySearch XYMH-HZJ record Barbara Glasgow marrying cordiner George Johnstoun, 21 Nov 1616. Paton, Register of Marriages, p. 267, confirms his trade. Ninian's proven son Robert was a cordiner, but Ninian's testament does not name Barbara.",
+      "next_question": "Inspect original marriage entries and cordiner incorporation records for a father or named cautioner.",
+      "evidence_provenance": "Maintained case evidence and source locators; no new original inspection claimed for this subject.",
+      "findings": "/people/glasgow-3302.html#archive-tools"
+    },
+    {
+      "id": "Glasgow-3598",
+      "name": "Margaret Glasgow",
+      "father": null,
+      "outcome": "father remains missing",
+      "assessment": "Ninian Glasgow (Glasgow-3188), possible father or uncle. The compact craft cluster supports a household/collateral hypothesis, not a particular parent edge.",
+      "source_summary": "Edinburgh OPR 685/1/430/84; FamilySearch XYMK-1QM; Paton, p. 267: Margaret married William Hardie, cordiner, 16 Jul 1611. The page also has Barbara-Johnstoun and Isobel-Symountoun craft marriages. Ninian's proven son Robert was a cordiner; Ninian's will names no Margaret.",
+      "next_question": "Inspect original marriage entries and cordiner incorporation records for a father or named cautioner.",
+      "evidence_provenance": "Maintained case evidence and source locators; no new original inspection claimed for this subject.",
+      "findings": "/people/glasgow-3598.html#archive-tools"
+    },
+    {
+      "id": "Glasgow-3613",
+      "name": "Margaret Glasgow",
+      "father": "Glasgow-1096",
+      "outcome": "retain uncertain",
+      "assessment": "Margaret's 1578 testament gives no parentage; shared surname and chronology do not bridge rural Croftmalloch to Robert the Glasgow fisher.",
+      "next_question": "Follow Croftmalloch/Easton/Kaddell property records for Margaret’s birth family.",
+      "evidence_provenance": "Existing cited biography and maintained findings; sibling passage and burgess transcription re-inspected for Glasgow-1030 only.",
+      "findings": "/people/glasgow-3613.html#archive-tools"
+    },
+    {
+      "id": "Glasgow-3908",
+      "name": "Matthew Glasgow",
+      "father": "Glasgow-1168",
+      "outcome": "retain uncertain",
+      "assessment": "Matthew appears in 1559-60 teind material; locality and generation allow James as father, uncle, or collateral, and no record names the relationship.",
+      "next_question": "Follow the 1559–60 teind tenancy into an heir or patronymic statement.",
+      "evidence_provenance": "Existing cited biography and maintained findings; sibling passage and burgess transcription re-inspected for Glasgow-1030 only.",
+      "findings": "/people/glasgow-3908.html#archive-tools"
+    },
+    {
+      "id": "Glasgow-3911",
+      "name": "Michael Glasgow",
+      "father": null,
+      "outcome": "father remains missing",
+      "assessment": "James elder Glasgow-1168 is a possible brother or cousin; no father identified. Birth estimates do not establish an exact age gap. Focused web result independently reproduces the 1559-60 Brakpleuch and Dubbs entries, but none gives a patronymic or heir/sibling term.",
+      "source_summary": "NRS GD39/1/59, 28 Jan 1549, names Michael as a Stevenston sasine witness. Sanderson, People of Sixteenth Century Ayrshire, p.331 (underlying Register of Acts and Decreets vol.22), lists Michael at Brakpleuch and Dubbs in 1559-60, alongside the neighbouring Corsankell Glasgows.",
+      "next_question": "Search the Glencairn tenant succession records for a named parent or heir.",
+      "evidence_provenance": "Maintained case evidence and source locators; no new original inspection claimed for this subject.",
+      "findings": "/people/glasgow-3911.html#archive-tools"
+    },
+    {
+      "id": "Glasgow-3915",
+      "name": "Elizabeth Glasgow",
+      "father": "Glasgow-1098",
+      "outcome": "retain uncertain",
+      "assessment": "1552 record identifies Elizabeth as Alexander Kaine's relict; it does not distinguish daughter from sister, niece, or another relative of William.",
+      "next_question": "Distinguish daughter, sister or niece using the Calder/Kaine estate and liferent records.",
+      "evidence_provenance": "Existing cited biography and maintained findings; sibling passage and burgess transcription re-inspected for Glasgow-1030 only.",
+      "findings": "/people/glasgow-3915.html#archive-tools"
+    },
+    {
+      "id": "Glasgow-3916",
+      "name": "Isobella Glasgow",
+      "father": "Glasgow-1098",
+      "outcome": "retain uncertain",
+      "assessment": "Her husband's role in John's inherited-property sale and repeated fisher/property associations make William a leading probable father. New protocol 2370 extends the probable husband's Bridgegait network to 1582, but does not identify Isobella's exact place in William's family. The combined evidence still leaves that step unresolved.",
+      "next_question": "Seek a family settlement or succession connecting Isobella herself to William’s inherited parcel.",
+      "evidence_provenance": "Existing cited biography and maintained findings; sibling passage and burgess transcription re-inspected for Glasgow-1030 only.",
+      "findings": "/people/glasgow-3916.html#archive-tools",
+      "followup_review": "28 September 2026: combined-evidence and original-source access review",
+      "source_summary": "Newly located Renwick vol. 8 protocol 2370, 18 Jan 1581/82, pp. 36–37: Archibald Herbertsoun, fisher, as a Bridgegait boundary owner; printed pages visually checked. Probable husband continuity, no named Glasgow kin."
+    },
+    {
+      "id": "Glasgow-3917",
+      "name": "Jonet Glasgow",
+      "father": "Glasgow-3522",
+      "outcome": "retain uncertain",
+      "assessment": "1599 burgess admission says William Pady married a burgess's daughter but names neither wife nor father; it cannot identify William Glasgow as Jonet's father.",
+      "next_question": "Identify Pady’s unnamed burgess father-in-law, and test the competing Corsoun Jonet identity.",
+      "evidence_provenance": "Existing cited biography and maintained findings; sibling passage and burgess transcription re-inspected for Glasgow-1030 only.",
+      "findings": "/people/glasgow-3917.html#archive-tools",
+      "followup_review": "28 September 2026: protocols 2478 and 3459 and printed burgess roll p. 27 rechecked; unnamed burgess father remains unidentified."
+    },
+    {
+      "id": "Glasgow-4063",
+      "name": "Robert Glasgow",
+      "father": null,
+      "outcome": "father remains missing",
+      "assessment": "No age, origin, occupation or relative. The apparent 1541 birth estimate derived from a death-only record is unusable.",
+      "source_summary": "Norfolk Record Office PD 608/1; Findmypast GBPRS/NORFOLK/BUR/004320950 is a death/burial entry only (reported manuscript wording 'Robertus Glasgow[e] obijt').",
+      "next_question": "Seek an earlier Holkham record identifying occupation, origin or a relative.",
+      "evidence_provenance": "Maintained case evidence and source locators; no new original inspection claimed for this subject.",
+      "findings": "/people/glasgow-4063.html#archive-tools"
+    },
+    {
+      "id": "Glasgow-4152",
+      "name": "John Glasgow",
+      "father": null,
+      "outcome": "father remains missing",
+      "assessment": "No father candidate. Glasgow-1030 is not the present identity match; a future household or property bridge could resolve that separate identity question. No record names the sailor's parent; no occupation, residence, spouse or child bridge joins him to Glasgow-1030.",
+      "source_summary": "NRS Glasgow Commissary CC9/7/27 pp.478-480: John, sailor in Saltcoats, died Dec 1636; widow Isobell Gray administered for lawful children Katherine and Agnes. It proves John as their father. Glasgow-1030's distinct Glasgow household married Jonet Mathie in 1618 and had documented city children 1619-34.",
+      "next_question": "Search Saltcoats land, maritime and estate records for a parent or inherited holding.",
+      "evidence_provenance": "Maintained case evidence and source locators; no new original inspection claimed for this subject.",
+      "findings": "https://www.wikitree.com/wiki/Glasgow-4152"
+    },
+    {
+      "id": "Glasgow-991",
+      "name": "James Glasgow",
+      "father": null,
+      "outcome": "father remains missing",
+      "assessment": "Andrew Glasgow-3163 remains a possible father; no positive relationship or identity bridge has been found. The six baptisms may represent one mobile James or two contemporaries. They establish record-defined children, not James's father or a link to Andrew.",
+      "source_summary": "FamilySearch X1BK-1BW, X1BJ-L51 and X1BL-JXY name James as Mid Calder father in 1605, 1610 and 1616; XTRF-FQX, VQ4V-K87 and XTRJ-SZX name a James at Inveresk/Musselburgh in 1609, 1614 and 1618. Andrew's CC8/8/32 testament names Robert, Marion, Jonet and Isobel, no James.",
+      "next_question": "Search Calder/Linlithgow land, rental or testament records for a patronymic.",
+      "evidence_provenance": "Maintained case evidence and source locators; no new original inspection claimed for this subject.",
+      "findings": "/people/glasgow-991.html#archive-tools"
+    }
+  ],
+  "publication": "Local catalogue synchronized; production publication pending manual upload.",
+  "verification": "Fresh live WikiTree getPeople readback for all46 cohort profiles:16 confident,20 uncertain,10 fatherless. Only Glasgow-1030 father certainty changed; father/mother attachments, maternal certainty, dates, locations and gender unchanged.",
+  "followup_batch": {
+    "target_confident_count": 20,
+    "current_confident_count": 16,
+    "new_confident_fathers": 0,
+    "new_record": "glasgow-bridgegait-herbertsoun-1582",
+    "source_access": "FamilySearch is signed in. Bounded full-text variant searches to 1600 returned three Glasgw hits: two inspected transcripts were place/title usages, and the Dundee guild image requires a FamilySearch Center or affiliate library. Glesgw and Glasgo searches returned no results. These searches do not constitute an exhaustive image audit. Original Morton, Torphichen and Ayr sasine title records were not found publicly digitized.",
+    "scope_check": "Later-dated local profile inventory examined for misplaced early estimates; no record-supported qualifying date corrections identified.",
+    "live_addition": {
+      "profile": "Glasgow-3916",
+      "record": "glasgow-bridgegait-herbertsoun-1582",
+      "saved": true,
+      "public_render_verified": true,
+      "verification": "Full Save acknowledged and rendered note seen. Fresh getPeople readback of all46 profiles confirms all compared structured fields unchanged and16confident/20uncertain/10missing.",
+      "checked_at": "2026-09-28T00:50:10.890584+00:00"
+    },
+    "search_log": [
+      {
+        "query": "Glasgw; Scotland; to1600",
+        "url": "https://www.familysearch.org/en/search/full-text/results?count=100&q.anyDate.to=1600&q.anyPlace=Scotland&q.fullName=Glasgw",
+        "result_count": 3,
+        "inspection": "Printed Glasgow burgh records pp. 214–215, 10 Oct–6 Dec 1600: city/office usages. Scottish Historical Review (1908), pp. 458–459: Ja. Glasgw is the titular archbishop James Boyd, not a Glasgow-surname ancestor. Neither inspected transcript supplies surname parent evidence. Dundee guild image access was checked and requires a FamilySearch Center or affiliate library."
+      },
+      {
+        "query": "Glesgw; to1600",
+        "url": "https://www.familysearch.org/en/search/full-text/results?count=100&q.anyDate.to=1600&q.fullName=Glesgw",
+        "result_count": 0
+      },
+      {
+        "query": "Glasgo; to1600",
+        "url": "https://www.familysearch.org/en/search/full-text/results?count=100&q.anyDate.to=1600&q.fullName=Glasgo",
+        "result_count": 0
+      },
+      {
+        "query": "Glasgw; Scotland; to 1650",
+        "result_count": 0,
+        "url": "https://www.familysearch.org/en/search/full-text/results?count=100&q.anyDate.to=1650&q.anyPlace=Scotland&q.fullName=Glasgw",
+        "limit": "One bounded variant query; not a complete source audit."
+      },
+      {
+        "query": "Glasgow; Scotland; birth 1550–1600; principal records only",
+        "result_count": 4,
+        "url": "https://www.familysearch.org/en/search/record/results?count=100&q.birthLikeDate.from=1550&q.birthLikeDate.to=1600&q.birthLikePlace=Scotland&q.surname=Glasgow&q.isPrincipal=true",
+        "inspection": "Four marriage results with no baptism or parentage bridge for the missing-father subjects. The search returns near matches and is not an exact-date assertion."
+      },
+      {
+        "query": "Accessible full-text Glasgow Wills 1547–1800 image",
+        "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS8K-D4RZ?view=fullText&keywords=Glasgow&searchForm=advanced&lang=en",
+        "inspection": "Inspected transcript is the printed testament calendar, not original wills; no additional family detail for Jonet Logan obtained."
+      }
+    ],
+    "reading_crosscheck": {
+      "profiles": [
+        "Glasgow-3181",
+        "Glasgow-3163"
+      ],
+      "finding": "Accepted 1577 child reading is Marjory, not the superseded Andrew reading. Added prominent current-conclusion clarifications in both maintained cases; no new live structured change.",
+      "source": "research/transcriptions/walkthroughs/john-1577.json"
+    },
+    "bounded_followup_reviews": [
+      "Hirmanscheillis: 1583 Calder court and 1586 muster name Stevenson; neither joins the directly named Glasgow-burgh son to the testator.",
+      "Jonet Pady: protocols 2478, 3459 and the 1599 admission checked; no named Glasgow father or Corsoun identity bridge."
+    ]
+  }
+}

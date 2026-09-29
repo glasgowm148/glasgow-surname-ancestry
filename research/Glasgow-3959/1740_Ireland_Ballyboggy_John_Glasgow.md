@@ -76,3 +76,9 @@ at Ballyboggy in 1740 and 1825. It does not yet support a Glasgow–Weir marriag
 descent from the 1740 co-lessees, or transfer of the same lease between the two
 families. The original D2223/15/56 lease remains the decisive record because its
 three named lives, witnesses and endorsements may supply the missing kinship.
+
+## 1733 administration-index correction — 21 September 2026
+
+Use the complete minimally amended live biography in [the current replacement](../larne-pre1710-2026-09-21/Glasgow-3959-admin-bond-replacement.wiki). The 1733 Kilroot entry is a Connor administration bond whose original is lost, not an inspected will. Its deceased-estate chronology conflicts with identification as the 1740 Ballyboggy co-lessee; no kinship is supplied. Other sections of this historical draft are preserved.
+
+Current family reconciliation (21 September 2026): Glasgow-3990 is the attached **uncertain working father**, not a proved parent. The complete linked replacement now states this in its Family section and includes the Glasgow Name Study category. No attachment is changed.

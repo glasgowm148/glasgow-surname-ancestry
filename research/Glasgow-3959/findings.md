@@ -1,6 +1,6 @@
 # Findings: John Glasgow (Glasgow-3959), Ballyboggy
 
-Last updated: 2026-08-11
+Last updated: 2026-09-21
 
 ## Current conclusion
 
@@ -8,9 +8,12 @@ John Glasgow of Ballyboggy is directly documented as an adult co-lessee in 1740.
 The matching order of the Protestant Householders' Return and same-day Ballyboggy
 lease groups strongly identifies him with `Joh Glask` in Dunaghy parish.
 
-He is a possible, but weaker, candidate for the younger John implied by John
-`Glasgow-3913` being called senior about 1700. Different districts, no shared
-associates and the separate 1733 Killroot occurrence prevent attachment.
+He is currently attached as an uncertain working son of `Glasgow-3990`, the
+unidentified younger namesake implied by John `Glasgow-3913` being called senior.
+No historical record proves this attachment. Different districts and no shared
+associates leave the proposed relationship uncertain; the 1733 Kilroot deceased
+estate must not be identified with the personally active 1740 lessee without
+resolving that chronological conflict.
 
 John is also the earliest directly documented member of the local
 Ballyboggy-Glenleslie Glasgow-Alexander-Wier tenant network. Ballyboggy borders
@@ -35,6 +38,7 @@ therefore remain open.
 
 | Source | Finding | Assessment |
 | --- | --- | --- |
+| [PRONI Name Search](https://apps.proni.gov.uk/ProniNames_IE/SearchPage.aspx), Connor Diocesan Administration Bonds, inspected 21 September 2026 | John Glasgow, Kilroot, 1733; all occupation, notes, reference and other descriptive fields blank. | Official index detail, not an original bond. PRONI states that the originals do not exist and no further information survives in this index. No kinship or exact death date; identity remains unproved. |
 | PRONI `D2223/15/56`, counterpart lease, 1 November 1740 | William Hamilton granted James Wier and John Glasgow of Ballyboggy a three-life lease for one-third of Ballyboggy. | Direct identity and residence; original lives and relationships not yet transcribed. |
 | [Virtual Record Treasury, PRONI `T808/15258`](https://www.virtualtreasury.ie/item/PRONI-T808-15258), 1740 Protestant Householders' Return | `Joh Glask` appears between Thomas Alexander and John Wier in the sequence matching the Ballyboggy lease groups. | Strong independent identity and tenant-network match, not kinship evidence. |
 | [North Antrim tithe transcription](https://www.billmacafee.com/182030stithe/tithenorthantrim.pdf), Dunaghy parish, 1825 | Ballyboggy records James Glasgow and James Glasgow junior among Alexander and Wier occupiers; Robert Glasco is at Doonbought. | A three-man Dunaghy parish cluster, not three men in Ballyboggy. `Junior` distinguishes the Ballyboggy namesakes but does not guarantee father and son. |
@@ -67,3 +71,17 @@ digitally available through the eCatalogue. `D2003/MIC128`, `D2223/15/56`,
 [digitised-records inventory](https://www.proni.gov.uk/publications/digitised-and-born-digital-records-available-ecatalogue).
 Their catalogue descriptions are public, but manuscript contents have not been
 viewed in this research. Copies or a PRONI visit are required.
+
+## 1733 index audit — 21 September 2026
+
+The official detail now identifies the event as a Connor diocesan administration
+bond, not a read will. No administrator, occupation or relative is named. PRONI
+reports the original lost; the outstanding question is identity through independent
+estate or church evidence, not inspection of a surviving bond linked by this index.
+The 1733 deceased-estate occurrence should not be identified with the man personally
+co-leasing Ballyboggy in 1740 without resolving that chronological conflict. All
+proposed family links remain uncertain. See [exact detail and access audit](../larne-pre1710-2026-09-21/john-kilroot.md).
+
+## Live profile update — 21 September 2026
+
+Saved and read back the precise 1733 administration-bond description, lost-original limit and uncertain father–son discussion. Existing family attachments remain unchanged and uncertain. [Complete saved biography](pre1710-record-update-2026-09-21.wiki).

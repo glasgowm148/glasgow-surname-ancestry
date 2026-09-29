@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+**Current reading cross-check, 28 September 2026:** the accepted human reading of the second child in John Glasgow-3181’s 1577 testament is **Marjory**, not Androw/Andrew (see the [maintained illustrated reading](/research/transcriptions/john-1577/#passage-john-widow-children)). The older Andrew-candidate discussion below is retained as superseded research history. That testament supplies no named son Andrew and therefore no positive parentage evidence for Andrew of Corsoun. His own father remains uncertain.
+
 Andrew Glasgow's testament directly identifies his wife as **Elizat
 Stevinsoun** and their son as **Robert Glasgow**. It also names his daughters
 **Marion, Janet and Isobel**. A clause for a child with whom Elizat might then
@@ -9,8 +11,9 @@ be pregnant is conditional only and does not prove that another child was
 born.
 
 The testament was made on 6 February 1597 as written (1597/8), says Andrew died
-on 7 February, and was confirmed on 10 July 1598. The present WikiTree death
-date of 10 July 1598 is therefore the confirmation date, not the death date.
+on 7 February, and was confirmed on 10 July 1598. WikiTree now correctly uses
+7 February 1598 as the death date; its former 10 July date was the confirmation
+date.
 
 This reading supersedes the former identification of [[Anderson-103463|Jonet
 Anderson]] as Andrew's wife and Marion, James, Andrew and William as his
@@ -65,15 +68,18 @@ identifies Andrew, the locality and confirmation: Scottish Record Society,
 | Elizat/Elizabeth Stevinsoun | Proved wife; exact WikiTree identity unresolved | [[Stevenson-7398]] is excluded as Robert Blaikstone's Yorkshire wife. [[Stevinsoune-1]] remains genuinely possible: the Dunfermline register names her husband George Lugtoun on 25 February 1606 and their children in 1607 and 1609, but gives no prior marital status, parents or residence. Andrew's 1597/8 death permits remarriage, while no record bridges Bessie to Corsoun, Andrew, Robert or the land. |
 | Robert Glasgow | Proved son of Andrew and Elizat; new profile ready | [[Glasgow-1156]] has only compatible chronology and Lothian geography; no estate, Stevenson, Corsoun or kin bridge identifies him as this son. [[Glasgow-1027]] is directly the son of Ninian Glasgow and Jonet Meik; [[Glasgow-1096]] died before this testament; [[Glasgow-3919]] was already an adult occupier in 1580. |
 | Marion Glasgow | Proved daughter; new profile ready | [[Glasgow-3062]] belongs to a proved Glasgow-burgh/Fultoun and Ninian-sibling context, with no Corsoun bridge. |
-| Janet/Jonet Glasgow | Proved daughter; new profile ready at moderate confidence | [[Glasgow-3917]] belongs to a Glasgow-burgh marriage; [[Glasgow-3183]] is geographically compatible at Mid Calder but has no parent, sibling, property or succession bridge. |
-| Isobel Glasgow | Proved daughter; new profile ready at moderate confidence | [[Glasgow-3336]], wife of Edinburgh tailor William Symountoun from 1619, is compatible by date and region only; no Corsoun, Stevenson, sibling or land bridge identifies her as this daughter. |
+| Janet/Jonet Glasgow | Proved daughter; father status confident on Glasgow-3183 | [[Glasgow-4096]] was merged into [[Glasgow-3183]], which now represents the testament-named daughter. The confident father status was saved and verified on 27 September 2026 after fresh review of image 124. Her attribution as the 1624 Mid Calder Ramsy bride remains probable: that marriage names no father, sibling or Corsoun property. [[Glasgow-3917]] belongs to a different Glasgow-burgh marriage. |
+| Isobel Glasgow | Proved daughter; probable later identity merged 27 September 2026 | [[Glasgow-4097]] was merged into [[Glasgow-3336]], wife of Edinburgh tailor William Symountoun from 1619. The date and Midlothian setting fit and no better compatible Isobel emerged from the catalogue audit. The later records do not name Andrew or Corsoun, so the live father link remains uncertain; Elizat's maternity is separately uncertain. |
 | Possible unborn child | Not proved to have existed | The wording is expressly conditional. No profile should be created. |
 
 Do not detach the current spouse merely to leave Andrew without an evidenced
 replacement. Treat the Jonet Anderson attachment as contradicted and temporary
 until a verified Elizabeth profile is ready. The four directly documented
-children now have distinct creation drafts; do not substitute the rejected
-same-name candidates without a later direct identity bridge.
+children were documented separately. Jonet's and Isobel's record-defined
+profiles have since been merged into the leading compatible Mid Calder and
+Edinburgh identities, respectively. Jonet’s direct testament father relationship is
+now confident; Isobel’s live father status remains uncertain. Both later-life
+identity attributions remain probable, as described in their current findings.
 
 ## Wider rural context
 
@@ -132,3 +138,9 @@ confirmation date, not Andrew's death date or independent family evidence.
 Record ID: `SCOT/WILLS/057425`; stable research ID:
 `fmp-glasgow-2afd2a13c27a`.
 <!-- END FMP-GLASGOW-fmp-glasgow-2afd2a13c27a -->
+
+## Source findings
+
+### Caldercleir source-access review — 28 September 2026
+
+The [NRS Morton papers catalogue](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD150) identifies GD150/696–757 as Caldercleir barony material (1506–1824) and GD150/320–493 as general charters/deeds (1551–1597). No public item-level image or occupier succession transcript naming Andrew, Elizat Stevinsoun or their son Robert was found. The original testament remains the direct evidence for Andrew's children; the estate series is a pending archival route to his own father and the children's later identities. Lack of a name-level catalogue hit is not evidence that the family is absent from the manuscripts.

@@ -1,0 +1,42 @@
+# Early Larne and Kilwaughter: new proof and source audit
+
+Research date: 21 September 2026. Public synthesis belongs to the Larne–Kilwaughter family study and the linked person dossiers. Raw browser captures remain internal.
+
+## Current conclusion
+
+An original registered memorial now explicitly proves that **Robert Glasgow of Ballykeel, Kilwaughter, had a son James** in 1764. Together with the existing locality, church and equity evidence, this strengthens the identification of the pair as [Robert Glasgow-1143](https://www.wikitree.com/wiki/Glasgow-1143) and [James Glasgow-1144](https://www.wikitree.com/wiki/Glasgow-1144). It does not name Robert's father or connect him to the 1653 or 1669 householders.
+
+## Source findings
+
+| Inspected source | What it establishes | Limit |
+| --- | --- | --- |
+| Registry of Deeds memorial **159661**, lease **20 December 1764**, registered **18 April 1766**, pp.415–416; FamilySearch [image 542](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSH3-33Q6-L) and [image 543](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSH3-33QZ-Y), original images inspected | Robert Glasgow of Ballykeel, parish Kilwaughter, gentleman, leased Hugh Shannon of the same parish half the lower Ballykeel farm, estimated 31½ acres. Named lives include Robert the grantor and **“Jas Glasgow son of the sd Robt”**, followed by Elinor Jones otherwise Agnew, daughter of William Agnew. James Shutter proved execution on 29 March 1766. | Direct father–son wording. The third life belongs to the landlord's family. The lease does not call Hugh Shannon a son-in-law, identify Robert's parents, or prove James's later migration by itself. |
+| Memorial **97407**, mortgage **6 November 1749**, [FamilySearch image 449](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSH3-7XCG), original image inspected | William Eakine of Larne mortgaged Old Town premises to **Hugh Shutter and Hugh Glasgow**; Hugh Glasgow is described as a Larne merchant and executed the memorial. The underlying lease was dated 11 August 1748. | A documented Glasgow–Shutter business association before the reported 1762 marriage. Identification with [Hugh-1499](https://www.wikitree.com/wiki/Glasgow-1499) is strong from place and chronology, but no relationship is stated. Monetary details and exact registration date require a fuller diplomatic reading. |
+| Indenture **25 March 1874**, registered **24 August 1874**, Antrim to John Mulvenna; [image 475](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS54-77Q4-H), original recital inspected; [continuation image 476](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS54-77QC-T), machine transcript inspected | Recites a **2 October 1779** lease to James Glasgow and its **25 February 1832** renewal to **Anne Glasgow and Jane Glasgow**. North-side Newtown tenement formerly John English's, 24 feet frontage by 150 feet with 11 additional perches; west boundary formerly Hugh Glasgow's tenement. | Direct title succession, not a stated inheritance or family relationship. The 1779 James is not securely assigned among the ropemaker, tanner and other namesakes. The monument wife Jane of James-3991 died in 1820 and cannot automatically be the 1832 Jane; Ann-3992, reportedly died May 1832, remains only a candidate for Anne. No new people or kin attachments created. |
+| Memorial **278037**, lease **14 January 1784**, sworn **17 August 1790**, registered **23 August 1790**; [FamilySearch image 437](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJ4-4SJF), original image inspected | Witness **James Glasgow, Tanner**, with Samuel Drummond and James Farries. This extends the separate Larne tanner sequence provisionally identified with [James-3991](https://www.wikitree.com/wiki/Glasgow-3991). | FamilySearch's volume label 1734–1736 is wrong for this image. Earlier “turner” ambiguity and registration on 17 August are superseded. No kin named; do not use it as a ropemaker occurrence. |
+
+## Earlier generations: exact surviving records located
+
+The NRS item descriptions identify **GD154/514**, tenant goods and livestock c. 1653; **/515**, rental c. 1653; **/525**, rentals c. 1690 (two items); **/530**, November 1692 rents/accounts (three items); and **/532**, 1693–1708 rents/accounts (eight items). Each inspected item is **Open / On site**. Their contents are not digitised on the inspected catalogue pages and their tenant names are not exposed. These replace an imprecise broad collection lead; they are **catalogue targets, not inspected Glasgow occurrences**.
+
+Use the exact [GD154/532 record](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD154%2F532&st=1&tc=y&tl=n&tn=n&tp=n) and corresponding item references. Catalogue spellings include Kilwaghter/Kilwoghter/Killwaghter. An exact modern-spelling zero search was not an absence finding. The 1645 and 1691 leases whose descriptions name tenants did not name Glasgow; unnamed subtenants remain outside that check.
+
+The Belfast shipmaster's 1686 will reference does not itself establish death in 1686. It cannot alone exclude identity with a later James. Equally, the 1669 Kilwaughter James and the officer recorded into 1726 are not automatically one lifetime. Belfast's Town Book calls its mariner a **free commoner**, not necessarily a governing burgess. The unread T/828/15 extract remains the decisive kinship target.
+
+## Other source checks and remaining work
+
+- The 1799 Holmes will's Larne roper was already present in the maintained reconstruction; it is corroboration, not a new descendant discovery.
+- Oscar K. Lyle, *Lyle Family* (1912), p. 63, preserves a story of Samuel Donald and an unnamed Glasgow surviving an Antrim-coast shipwreck. [Full text](https://archive.org/stream/lylefamilyancest00lyle/lylefamilyancest00lyle_djvu.txt). This is late family tradition, not a dated contemporary record or identifiable Glasgow; no new profile or ancestry assigned.
+- The 1736 William/Hugh lease’s 1751/1767 inserted lives, Elizabeth’s 1824 renewal and William’s 1815 copy will remain unread. Retrieve PRONI D2977/3A/4/81/72A–B, D300/2/1/100/69 and D300/1/5/49. Property succession may involve assignment, not descent.
+- Authenticated FamilySearch search `+Glasgow +Larne`, restricted to Ireland/Antrim Properties, returned 223 results. First 100 inventoried; selected early candidates read. This is not an exhaustive 223-document review. Restricted 1727/1832 results are uninspected generic archival entries, not identified wills.
+- Newly read machine transcripts without sufficient image review remain leads: 1812 William Glasgow sales and the 1774–1777 result. The two separate 1768 assignments have now both been read in the original: memorial 173104 names a tanner witness, while 173108 names a farmer witness. See the continuation below; preserve both readings without assuming one identity.
+
+## Continuation: monument, estate and marriage evidence
+
+[Continued deed findings](continued-deeds.md) records the original-verified 1823 Elizabeth Glasgow/Jane Stewart estate connection, the two separate 1768 assignments and the 1843 Mary Glasgow–John McGavock marriage settlement referring to Hugh Glasgow's will. Elizabeth's monument supports birth about 1772 and death 17 September 1832; her and William-3324's live profiles have now been saved and checked. Administratrix status and marriage-settlement funds do not themselves establish parentage. Mary and the deceased Hugh remain unassigned.
+
+[Continued probate checks](continued-probate.md) records the access limits and the unresolved Thomas grantor index reference: the inspected volume 21, p. 549 does not contain the indexed Thomas entry. No new Thomas will or collateral relationship has been inferred.
+
+## Publication status
+
+Nine managed live WikiTree profiles were saved and verified across this batch and continuation: Glasgow-1143, 1144, 3991, 1509, 1499, 3172, 1081, 3324 and Stewart-72380. Exact biographies, pre-edit captures, post-save readings and both live-save logs are retained locally. The Larne family study, reconstruction, affected dossiers and current public data are synchronized locally. Eleven dossiers passed the first targeted freshness check, and the two continuation profiles passed a separate check with no stale or missing cases. Production website publication remains pending; no deployment was performed.

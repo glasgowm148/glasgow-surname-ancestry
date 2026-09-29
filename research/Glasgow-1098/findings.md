@@ -19,12 +19,15 @@ him `q. Wylzem Glasgw` on **16 March 1535/36**, proving that he had died by then
 John was later served heir of his father William in 1564. These records do not
 prove William's own birth, death place or parents.
 
-The current `1500, Stirlingshire` birth and `1543, High Street/Merchant City`
-death are not established by the inspected evidence; the 1543 death is
-incompatible with the 1535/36 `q.` record. A Glasgow property record does not
-prove either vital-event location. The claimed marriage before 1514
-is also unsupported; the direct evidence proves only that William and Esbell
-were spouses by 31 December 1534.
+The live profile now has **no birth date or place** and records death **before
+16 March 1535/36, place unknown**. Those structured values were rechecked on
+27 September 2026. An older generated catalogue snapshot still shows an
+estimated 1516 birth and a High Street death place, neither of which matches
+the live profile or the inspected evidence. The 1516 estimate is also
+chronologically impossible beside his adult son John's circa-1510 working
+birth. The direct evidence proves only that William and Esbell were spouses by
+31 December 1534; it does not supply an earlier marriage date or a vital-event
+location.
 
 ## Descendant relationship audit — 31 August 2026
 
@@ -45,11 +48,11 @@ checked against their maintained findings and underlying records:
 The wider audit found one actionable status omission on a pre-1600 descendant.
 [[Glasgow-1099|George Glasgow]], born about 1569, already has William
 [[Glasgow-3522]] as a confident father, but the status of attached mother
-[[Herbison-439|Margaret Herbesoun]] is unset. Protocol 2903 calls George heir of
+[[Herbison-439|Margaret Herbesoun]] was unset until 27 September 2026. Protocol 2903 calls George heir of
 the deceased William, his father; protocol 2916 calls Margaret his mother and
 liferenter. These companion acts directly establish both parents and securely
-identify the same minor heir and property. Margaret's relationship should be
-set to **confident**, WikiTree's strongest non-DNA parent status. This meets the
+identify the same minor heir and property. Margaret's relationship is now
+**confident** on the live profile, verified against the API. This meets the
 project threshold of a pre-1600 descendant explicitly confident to both
 parents without upgrading any circumstantial edge.
 
@@ -102,6 +105,13 @@ and Glasgow City Archives
 
 ## Source findings
 
+### Combined succession review — 28 September 2026
+
+The older John-to-William succession of the same Rankin–Young property is the strongest earlier-generation lead. Protocol 809, 16 November 1564, expressly describes Eufame Craig's **conjunct fee, franktenement and liferent** in the back tenement, but leaves her deceased Glasgow husband's forename blank. Its property boundaries connect it to the same family block. These are existing record details, reconsidered alongside the 1527, 1528/29, 1542 and 1564 sequence; they are not a newly discovered parent statement. The sequence supports succession and probable kinship, while the older John's profile identity, Eufame's husband and the exact degree remain unresolved. A father inference does not require a literal son clause, but must resolve those identity and degree questions. No birth estimate is treated as an exact age or used alone to exclude fatherhood.
+
+The original 1527–1529 transfer behind the sequence remains the priority, but its precise archival item has not been identified. NP1/5 and B/10/1/3 remain separately listed targets for checking the later title reconstruction; they are not verified repositories of that missing early transfer. No publicly accessible original transfer image was located in this batch.
+
+
 | Source | Finding | Assessment |
 | --- | --- | --- |
 | [*Registrum Secreti Sigilli*, entry **3412**](https://archive.org/stream/registrumsecret00scotgoog/registrumsecret00scotgoog_djvu.txt), 2 July 1526 | A remission for the killing of James Somervile includes `Willelmi Glasgw` among a long list headed by James Sandelandis of Calder and Robert Bruce of Auchinbowy. | Corrects the profile's `3433` citation. The entry supplies no residence, trade or kinship, so identity with the later Glasgow burgess is plausible rather than certain. |
@@ -148,3 +158,11 @@ and Glasgow City Archives
 - That protocol 1196 proves any child other than John.
 - That succession to the older John's exact tenement proves a father-son
   relationship without the missing transmission instrument.
+
+## Father relationship assessment — 28 September 2026
+
+This is a review of existing evidence, not a newly discovered record. Attached father: [John Glasgow](https://www.wikitree.com/wiki/Glasgow-1095). Assessment: **uncertain**.
+
+Reason: The same-property succession supports the older John as a probable father, but the inspected title records do not establish that relationship; the biography already describes it as an inference.
+
+Source summary: Glasgow property protocols and maintained William findings. Saved on WikiTree and verified in the live edit form on 28 September 2026; only the father certainty and its explanation were updated.

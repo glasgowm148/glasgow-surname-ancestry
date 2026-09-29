@@ -1,0 +1,37 @@
+{
+  "verified_at": "2026-09-21T21:55:01.049995+00:00",
+  "profiles": [
+    {
+      "profile": "Glasgow-1499",
+      "revision": "20260921215142",
+      "exact_biography_match": true,
+      "family_fields_unchanged": true,
+      "sha256": "c00e3f70137a1932d3152439e7b32b17153cb8dc164af95a3dcd67ae19e6688d"
+    },
+    {
+      "profile": "Glasgow-1505",
+      "revision": "20260921215305",
+      "exact_biography_match": true,
+      "family_fields_unchanged": true,
+      "sha256": "4bec45f774f49e915ee46d91b14c1919a37063b02a1edc95caa3172b0101ad31"
+    }
+  ],
+  "structured_changes": "None",
+  "website_deployment": "Not performed",
+  "local_site_checks": {
+    "person_pages": [
+      "Glasgow-1499",
+      "Glasgow-1505",
+      "Glasgow-3970"
+    ],
+    "visible_deed_text": "Passed",
+    "json_parse": "Passed",
+    "family_markup": "Passed",
+    "browser_checks": [
+      "Glasgow-1499",
+      "Larne\u2013Kilwaughter family",
+      "Glasgow-3970"
+    ],
+    "deployment": "Not performed"
+  }
+}

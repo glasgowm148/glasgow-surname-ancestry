@@ -1,0 +1,47 @@
+<!-- BEGIN FMP-GLASGOW-fmp-glasgow-fb417c9f3803 -->
+> **CREATED:** [Michael Glasgow (Glasgow-4141)](https://www.wikitree.com/wiki/Glasgow-4141)
+
+# Michael Glasgow, Sep 1679
+
+## Minimum creation fields
+
+- **Name:** Michael Glasgow
+- **Gender:** Male (uncertain; inferred from the recorded given name)
+- **Birth date:** before Sep 1679 (uncertain; inferred from the person's documented event)
+- **Birth location:** The Tounes and Parochines of Irving and Kilwinning and baronies yrin, Scotland (uncertain; inferred from the person's documented event)
+- **Death date:** unknown
+- **Recorded event:** covenanter record, Sep 1679
+- **Recorded relationships:** none stated in the transcript
+- **Stable research ID:** `fmp-glasgow-fb417c9f3803`
+- **Findmypast record IDs:** GBPR/COVENANT/028557
+
+## Paste-ready biography
+
+[[Category:Glasgow Name Study]]
+{{Estimated Date}}
+
+
+== Biography ==
+
+'''Michael Glasgow''' appears in a covenanter record dated Sep 1679 at The Tounes and Parochines of Irving and Kilwinning and baronies yrin, Scotland. The transcript's description states: “Skinner yr [Irving]”. The transcript's source states: “In a list of personnes summoned  [no indication of why they were summoned or in what capacity] within Kyle and parochins baronies tenendries yrin and also of Cunninghame and parochins baronies and tenendries yrof  [Sept 1679]”.<ref name="FMP1" />
+
+== Research Notes ==
+
+Attach only relationships stated by the record after confirming the relative profile identities; leave all other relationships blank. Each named relative requires a duplicate search and a separately supported profile identity before attachment.
+
+Later review found [[Glasgow-1406]], a Michael Glasgow recorded as a saddler at Irvine from 1699, as a plausible earlier-life match for this 1679 skinner. No record proves the identification; keep both profiles cross-linked and unmerged pending a trade, family or residence bridge.
+
+'''Reviewed integration decision:''' The transcript's source wording dates the summons list to September 1679; 1679-1688 is only the collection span and is not Michael's event or birth date.
+
+No compatible candidate was retained by the completed live WikiTree audit.
+
+The 1 result ID(s) above represent one conservative documentary group because: singleton; no strong same-event duplicate proof. Preserve uncertainty; a similarly named event is not automatically the same historical person.
+
+'''Next test before creation:''' repeat the exact-name, date, place, occupation, and named-relative duplicate search, then inspect the underlying record image where available.
+
+== Sources ==
+
+<ref name="FMP1">[https://www.findmypast.co.uk/transcript?id=GBPR%2FCOVENANT%2F028557&tab=this Findmypast transcript], Archive reference: JC10/19; Category: Directories & social history; Collections from: Scotland, Great Britain; Country: Scotland; County: Ayrshire; County as transcribed: Ayr; Description: Skinner yr [Irving]; First name(s): Michael; Last name: Glasgow; Place: -; Place as transcribed: The Tounes and Parochines of Irving and Kilwinning and baronies yrin; Record set: Scottish Covenanters 1679-1688; Source: In a list of personnes summoned  [no indication of why they were summoned or in what capacity] within Kyle and parochins baronies tenendries yrin and also of Cunninghame and parochins baronies and tenendries yrof  [Sept 1679]; Subcategory: Social History (captured 2026-09-03T22:07:07.579Z).</ref>
+
+<references />
+<!-- END FMP-GLASGOW-fmp-glasgow-fb417c9f3803 -->

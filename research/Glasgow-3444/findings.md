@@ -1,5 +1,9 @@
 # Findings: [James Glasgow (Glasgow-3444), born 1776, Cookstown, Tyrone, Ireland](https://www.wikitree.com/wiki/Glasgow-3444)
 
+## Civil-death index match, 23 September 2026
+
+The [GRONI civil-death index](https://geni.nidirect.gov.uk/search/death) lists James Glasgow, aged 90, dying **14 December 1866** in the Cookstown registration district (`D/1866/99/1009/2/195`). Its age, district and year fit the profile's previous death source (about 1776–1866, Cookstown). The live profile now gives the exact date and cites the index. The birthplace and exact death address are not established by this registration district. The full return was not viewed; the earlier probate identity exclusions below remain in force.
+
 ## Identity exclusion: the 1831 Cookstown burial
 
 St Luran's register records [James Glasgow (Glasgow-4024)](https://www.wikitree.com/wiki/Glasgow-4024) of Cookstown buried on 13 March 1831 aged 40, implying birth about 1790–1791. He is not compatible with this profile's current 1776–1866 lifespan and was created separately, unconnected. See the [burial transcript](https://www.cotyroneireland.com/churchrecord/saintluran1830-1849.html).
@@ -20,7 +24,7 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
-No sourced conclusion recorded yet.
+The 14 December 1866 death index entry is a good fit for this profile. The earlier probate occurrences remain separate, unproved identities.
 
 ## Source findings
 

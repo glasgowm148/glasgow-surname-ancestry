@@ -109,7 +109,7 @@ def repair() -> dict[str, int]:
         current = ' aria-current="page"' if name == 'dna-overview' else ''
         submenu += f'<a{current} data-view="{name}" href="#{name}">{label}</a>'
     submenu += '</div>'
-    rail_link = r'(<a class="g-nav-link" href="/ydna/" aria-current="page">.*?</a>)'
+    rail_link = r'(<a\b(?=[^>]*class="[^"]*g-nav-link")(?=[^>]*href="/ydna/")(?=[^>]*aria-current="page")[^>]*>.*?</a>)'
     if not re.search(rail_link, ydna, re.S):
         raise RuntimeError('Could not find selected Y-DNA item in archive navigation')
     ydna = re.sub(rail_link, lambda match: match.group(1) + submenu, ydna, count=1, flags=re.S)

@@ -20,8 +20,9 @@ The baptisms prove those local father-child pairs but do not identify the father
 with the Montfoid or Quodquen man. Preserve both children only as uncertain
 relationships and keep the three-place identity problem explicit.
 
-Father assessment: **father not identified; uncertain**. The 1650 testament
-identifies John's sister but names neither parent.
+Father assessment: **Stephen Glasgow-1029 is attached as uncertain**. The 1650
+testament identifies John's sister but names neither parent, and no inspected
+record bridges the Quodquen household to Stephen's family.
 
 ## Source findings
 

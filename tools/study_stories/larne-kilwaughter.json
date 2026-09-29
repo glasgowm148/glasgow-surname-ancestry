@@ -1,0 +1,493 @@
+{
+  "id": "larne-kilwaughter",
+  "kicker": "Local research study",
+  "title": "Larne & Kilwaughter",
+  "standfirst": "East Antrim records preserve several Glasgow households from 1653 onward. One later father-and-son link is explicit; the connections between the older households, and to collateral Irish lines, are still questions.",
+  "status": {
+    "label": "Partly proved",
+    "tone": "supported"
+  },
+  "facts": [
+    {
+      "value": "1653–1843",
+      "label": "dated record span"
+    },
+    {
+      "value": "37",
+      "label": "reviewed local people"
+    },
+    {
+      "value": "1764",
+      "label": "explicit father–son lease"
+    },
+    {
+      "value": "6",
+      "label": "record-defined household clusters"
+    }
+  ],
+  "question": "Can the seventeenth-century Larne, Glenarm and Kilwaughter occurrences be connected to the later documented Kilwaughter family without filling the missing generations by name or locality alone?",
+  "answer": "The 20 December 1764 Ballykeel lease proves that James Glasgow was Robert Glasgow’s son. It does not name Robert’s father, connect him to the 1653 or 1669 householders, or establish a Scottish origin. Later Larne and Inishrush comparisons are useful hypotheses, not a joined pedigree.",
+  "chapters": [
+    {
+      "id": "early-households",
+      "period": "1653–1669",
+      "title": "Separate early occurrences",
+      "body": [
+        "A 1653 deposition places Robert Glaskow at Larne. The 1669 hearth-money roll records Elizabeth at Glenarm and James and John at Kilwaughter.",
+        "These are documented local occurrences, not a proved founding family or a line of descent."
+      ],
+      "cluster": "early-households",
+      "evidence": [
+        {
+          "label": "Larne evidence synthesis",
+          "url": "/branches/larne-kilwaughter/#larne-original-evidence"
+        }
+      ]
+    },
+    {
+      "id": "newtown-households",
+      "period": "1736–1768",
+      "title": "Larne property, but not kinship",
+      "body": [
+        "A 1736 Newtown lease names William and Hugh Glasgow as joint lessees, and a 1757 deed independently refers to their head lease. Neither document states that they were related.",
+        "The 1749 mortgage and later assignments add business and occupational occurrences, not parentage."
+      ],
+      "cluster": "hugh-newtown",
+      "evidence": [
+        {
+          "label": "1736 lease, memorial 63221",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSN1-FXR2"
+        },
+        {
+          "label": "1757 deed, memorial 159181",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJM-MJX4"
+        }
+      ]
+    },
+    {
+      "id": "kilwaughter-family",
+      "period": "1729–1775",
+      "title": "A documented Kilwaughter father and son",
+      "body": [
+        "The register chronology and later equity material reconstruct Robert Glasgow and Rachel Wilson’s household at Kilwaughter. The 1738 lease associates Robert, Rachel and James junior, but does not call James a son.",
+        "The original 1764 Ballykeel lease does: its continuation calls him “Jas Glasgow son of the sd Robt”."
+      ],
+      "cluster": "robert-rachel",
+      "evidence": [
+        {
+          "label": "1764 Ballykeel lease, memorial 159661",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSH3-33QZ-Y"
+        },
+        {
+          "label": "1738 Ballykeel lease, memorial 74015",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJW-B99B"
+        }
+      ]
+    },
+    {
+      "id": "south-carolina-continuation",
+      "period": "1775–1818",
+      "title": "A family continues to South Carolina",
+      "body": [
+        "James Glasgow’s 1775 will and the later equity case support James and Mary Crosier’s South Carolina household and name Archibald among their children.",
+        "That American continuation does not supply Robert’s parentage in Ireland or join the family to the older Larne occurrences."
+      ],
+      "cluster": "james-mary-crosier",
+      "evidence": [
+        {
+          "label": "James Glasgow’s 1775 will",
+          "url": "https://web.archive.org/web/20101124184337id_/http://lifesweaving.com/Glasgow/Paper_JGlasgowWill.html"
+        },
+        {
+          "label": "1817 equity complaint",
+          "url": "https://web.archive.org/web/20101124184247id_/http://www.lifesweaving.com/Glasgow/Paper_Complaint.html"
+        }
+      ]
+    },
+    {
+      "id": "later-larne-estate",
+      "period": "1784–1843",
+      "title": "A later estate question",
+      "body": [
+        "The Larne monument explicitly names James Glasgow as a son of elder Hugh. The 1843 marriage settlement names property of a deceased Hugh Glasgow, but does not call that Hugh Mary’s father.",
+        "The current James–Hugh–Mary chain is a low-confidence working hypothesis. Mary may instead be William’s monument-recorded daughter, whose 1844 death conflicts with the candidate 1843 death."
+      ],
+      "cluster": "james-hugh-mary",
+      "evidence": [
+        {
+          "label": "Larne family monument, p. 47",
+          "url": "https://archive.org/details/ulsterjournalofa06ulstiala/page/47/mode/1up"
+        },
+        {
+          "label": "1843 marriage settlement",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJW-FQ3Q"
+        }
+      ]
+    }
+  ],
+  "clusters": [
+    {
+      "id": "early-households",
+      "title": "The 1653 and 1669 households",
+      "place": "Larne, Glenarm and Kilwaughter Demesne",
+      "period": "1653–1669",
+      "status": "proved",
+      "status_label": "Documented local occurrences",
+      "summary": "A deposition and hearth-money roll record four named Glasgow/Glaskow occurrences in east Antrim.",
+      "boundary": "They are separate record occurrences, not a proved founding family.",
+      "people": [
+        "glasgow-3970",
+        "glasgow-3961",
+        "glasgow-1081",
+        "glasgow-3913"
+      ]
+    },
+    {
+      "id": "hugh-newtown",
+      "title": "Hugh Glasgow of New Town, Larne",
+      "place": "New Town of Larne",
+      "period": "early eighteenth century",
+      "status": "supported",
+      "status_label": "Register-supported household",
+      "summary": "The maintained church chronology identifies Hugh’s household and named children; property records also place named Glasgows in Newtown.",
+      "boundary": "The surviving family chronology is derivative and does not establish Hugh’s parents or the disputed James identity.",
+      "people": [
+        "glasgow-1499",
+        "glasgow-1506",
+        "glasgow-1507",
+        "glasgow-1508",
+        "glasgow-1510"
+      ]
+    },
+    {
+      "id": "james-sarah-murray",
+      "title": "James Glasgow and Sarah Murray",
+      "place": "Larne and Kilwaughter",
+      "period": "eighteenth century",
+      "status": "supported",
+      "status_label": "Strongly supported family",
+      "summary": "The congregation-register chronology supports the marriage and four named children.",
+      "boundary": "Their parentage is unknown; repeated names and locality do not attach them to the earlier households.",
+      "people": [
+        "glasgow-1504",
+        "murray-20395",
+        "glasgow-3325",
+        "glasgow-3326",
+        "glasgow-3327",
+        "glasgow-3328"
+      ]
+    },
+    {
+      "id": "robert-rachel",
+      "title": "Robert Glasgow and Rachel Wilson",
+      "place": "Kilwaughter",
+      "period": "1710s–1770s",
+      "status": "supported",
+      "status_label": "Strongly supported family",
+      "summary": "Register and equity evidence reconstructs the household; the 1764 Ballykeel lease expressly names James as Robert’s son.",
+      "boundary": "No inspected record proves descent from Robert Glaskow at Larne in 1653.",
+      "people": [
+        "glasgow-1143",
+        "wilson-78088",
+        "glasgow-1144",
+        "glasgow-1500",
+        "glasgow-1501"
+      ]
+    },
+    {
+      "id": "james-mary-crosier",
+      "title": "James Glasgow and Mary Crosier",
+      "place": "Kilwaughter to Newberry, South Carolina",
+      "period": "eighteenth to early nineteenth century",
+      "status": "supported",
+      "status_label": "Strongly supported continuation",
+      "summary": "The maintained evidence strongly supports the couple and four named sons, including Archibald.",
+      "boundary": "Their American branch does not prove the ancestry of the older Larne households.",
+      "people": [
+        "glasgow-1144",
+        "crosier-512",
+        "glasgow-2304",
+        "glasgow-1146",
+        "glasgow-1983",
+        "glasgow-1982"
+      ]
+    },
+    {
+      "id": "james-hugh-mary",
+      "title": "James, Hugh and the 1843 bride Mary",
+      "place": "Larne settlement and property",
+      "period": "1784–1843",
+      "status": "hypothesis",
+      "status_label": "Two uncertain parent links",
+      "summary": "The monument documents James as elder Hugh’s son; the settlement documents a deceased Hugh’s estate connection with Mary.",
+      "boundary": "No inspected record states James was the later Hugh’s father or Hugh was Mary’s father. Mary may be William’s daughter, and the 1843/1844 death-year conflict is unresolved.",
+      "people": [
+        "glasgow-3991",
+        "glasgow-4180",
+        "glasgow-4181",
+        "glasgow-3989"
+      ]
+    },
+    {
+      "id": "tennessee-robert",
+      "title": "Tennessee Robert and James J",
+      "place": "South Carolina and Tennessee",
+      "period": "about 1790–1848",
+      "status": "hypothesis",
+      "status_label": "Missing-son hypothesis",
+      "summary": "Robert’s South Carolina birth and household ages make him a worthwhile candidate for Archibald’s unaccounted-for son, and for James J’s father.",
+      "boundary": "No located record names Archibald as Robert’s father or Robert as James J’s father; another age-compatible Newberry household remains a live alternative.",
+      "people": [
+        "glasgow-2769",
+        "glasgow-2738"
+      ]
+    },
+    {
+      "id": "larne-ropemaker",
+      "title": "James, ropemaker, of Larne",
+      "place": "Larne and Belfast",
+      "period": "1760–1799",
+      "status": "hypothesis",
+      "status_label": "Origin hypothesis",
+      "summary": "The ropemaker has a real adult and property trail; he is a candidate for an older generation in the Inishrush comparison.",
+      "boundary": "No record joins him to Adam of Inishrush, and the 1762 marriage leaves Adam’s mother unresolved if this were a father–son link.",
+      "people": [
+        "glasgow-1509",
+        "glasgow-3324",
+        "glasgow-3986"
+      ]
+    },
+    {
+      "id": "inishrush-adam",
+      "title": "Adam of Inishrush",
+      "place": "Inishrush, County Londonderry",
+      "period": "about 1758 onward",
+      "status": "hypothesis",
+      "status_label": "Collateral comparison lead",
+      "summary": "Adam’s family is a meaningful collateral comparison because the ages can fit a Larne father hypothesis.",
+      "boundary": "No document names Adam’s father or joins him to Larne; alternative local origins remain open.",
+      "people": [
+        "glasgow-3902"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "from": "early-households",
+      "to": "robert-rachel",
+      "status": "unresolved",
+      "label": "No inspected record connects the 1653/1669 householders to Robert"
+    },
+    {
+      "from": "robert-rachel",
+      "to": "james-mary-crosier",
+      "status": "proved",
+      "label": "1764 Ballykeel lease names James as Robert’s son"
+    },
+    {
+      "from": "james-mary-crosier",
+      "to": "tennessee-robert",
+      "status": "hypothesis",
+      "label": "Archibald’s missing boy could be Tennessee Robert, but no parent statement has been found"
+    },
+    {
+      "from": "hugh-newtown",
+      "to": "james-hugh-mary",
+      "status": "proved",
+      "label": "The Larne monument names James-3991 as elder Hugh-1499’s son"
+    },
+    {
+      "from": "james-hugh-mary",
+      "to": "larne-ropemaker",
+      "status": "unresolved",
+      "label": "Shared Larne property and names; no record joins the two families"
+    },
+    {
+      "from": "larne-ropemaker",
+      "to": "inishrush-adam",
+      "status": "hypothesis",
+      "label": "James the ropemaker is a candidate father of Adam of Inishrush"
+    }
+  ],
+  "ladder": {
+    "proved": [
+      "The 1764 Ballykeel lease, memorial 159661, calls James Glasgow Robert’s son.",
+      "The Larne monument names James-3991 as a son of elder Hugh-1499."
+    ],
+    "supported": [
+      "Robert and Rachel’s Kilwaughter household, and James and Mary Crosier’s South Carolina continuation, are supported by concordant register, will and equity material."
+    ],
+    "hypothesis": [
+      "Archibald’s missing boy may be Tennessee Robert, a possible father of James J.",
+      "The Larne ropemaker James may be Adam of Inishrush’s father.",
+      "James-3991 → Hugh-4180 → Mary-4181 is a low-confidence estate-based working chain."
+    ],
+    "unresolved": [
+      "No bridge joins the 1653/1669 householders to the later Kilwaughter family.",
+      "Mary’s possible identity with William’s daughter remains conflicted by the 1843 and 1844 death evidence."
+    ]
+  },
+  "gaps": [
+    {
+      "title": "Inspect the Kilwaughter tenant and rental originals",
+      "why": "They may name a predecessor, successor or relative across the early gap.",
+      "where": "NRS GD154/514–515, /525, /530 and /532",
+      "url": "https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD154%2F532&st=1&tc=y&tl=n&tn=n&tp=n",
+      "priority": "high"
+    },
+    {
+      "title": "Read Hugh’s will and Mary’s property succession",
+      "why": "They could distinguish the estate testator and identify the 1843 bride.",
+      "where": "1843 settlement; William’s 1815 copy will D300/1/5/49",
+      "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJW-FQ3Q",
+      "priority": "high"
+    },
+    {
+      "title": "Inspect the 1751 and 1767 lease endorsements",
+      "why": "Named lives or recitals could distinguish Hugh, William and later Larne people.",
+      "where": "PRONI D2977/3A/4/81/72A",
+      "url": "https://www.proni.gov.uk/name-search",
+      "priority": "high"
+    },
+    {
+      "title": "Read the original Kilwaughter congregation records",
+      "why": "They are the test for the derivative household chronology and disputed identities.",
+      "where": "PRONI MIC/1B/6",
+      "url": "https://www.proni.gov.uk/name-search",
+      "priority": "medium"
+    },
+    {
+      "title": "Recover the Belfast captain’s will",
+      "why": "It may clarify named relatives and the qualification on the 1686 date.",
+      "where": "PRONI T/828/15",
+      "url": "https://www.proni.gov.uk/name-search",
+      "priority": "medium"
+    },
+    {
+      "title": "Test Archibald’s missing son and the Larne–Inishrush comparison",
+      "why": "Estate, church and succession records could replace age-based hypotheses with parent statements.",
+      "where": "Newberry estate 647; Inishrush church, lease and succession records",
+      "url": "/people/glasgow-951.html#larne-reconstruction",
+      "priority": "medium"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1653,
+      "label": "Robert Glaskow appears in a Larne deposition",
+      "status": "proved",
+      "cluster": "early-households",
+      "url": "/branches/larne-kilwaughter/#larne-original-evidence"
+    },
+    {
+      "year": 1669,
+      "label": "Hearth-money roll records Elizabeth at Glenarm and James and John at Kilwaughter",
+      "status": "proved",
+      "cluster": "early-households",
+      "url": "/branches/larne-kilwaughter/#larne-original-evidence"
+    },
+    {
+      "year": 1729,
+      "label": "Derivative chronology reports Robert Glasgow and Rachel Wilson’s marriage",
+      "status": "supported",
+      "cluster": "robert-rachel",
+      "url": "https://web.archive.org/web/20101124184247id_/http://lifesweaving.com/Glasgow/Kilwaughter/Timeline.html"
+    },
+    {
+      "year": 1736,
+      "label": "William and Hugh Glasgow jointly lease Newtown tenements",
+      "status": "proved",
+      "cluster": "hugh-newtown",
+      "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSN1-FXR2"
+    },
+    {
+      "year": 1738,
+      "label": "Ballykeel lease associates Robert, Rachel Wilson and James junior",
+      "status": "proved",
+      "cluster": "robert-rachel",
+      "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJW-B99B"
+    },
+    {
+      "year": 1741,
+      "label": "Robert Glasgow of Kilwaughter, farmer, witnesses a Ballyboly lease",
+      "status": "proved",
+      "cluster": "robert-rachel",
+      "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSH3-S4ML"
+    },
+    {
+      "year": 1757,
+      "label": "A deed refers to a head lease from William and Hugh Glasgow",
+      "status": "proved",
+      "cluster": "hugh-newtown",
+      "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJM-MJX4"
+    },
+    {
+      "year": 1760,
+      "label": "James the ropemaker takes a Larne ropewalk lease",
+      "status": "proved",
+      "cluster": "larne-ropemaker",
+      "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSH3-S7XZ-8"
+    },
+    {
+      "year": 1764,
+      "label": "Ballykeel lease names James as Robert’s son",
+      "status": "proved",
+      "cluster": "robert-rachel",
+      "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSH3-33QZ-Y"
+    },
+    {
+      "year": 1768,
+      "label": "James the ropemaker transfers his ropewalk interest",
+      "status": "proved",
+      "cluster": "larne-ropemaker",
+      "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJW-DDXW"
+    },
+    {
+      "year": 1775,
+      "label": "James Glasgow’s will names his South Carolina household",
+      "status": "proved",
+      "cluster": "james-mary-crosier",
+      "url": "https://web.archive.org/web/20101124184337id_/http://lifesweaving.com/Glasgow/Paper_JGlasgowWill.html"
+    },
+    {
+      "year": 1784,
+      "label": "A lease calls James Glasgow a tanner",
+      "status": "proved",
+      "cluster": "james-hugh-mary",
+      "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJ4-4SJF"
+    },
+    {
+      "year": 1815,
+      "label": "William’s copy will remains a targeted, unread test",
+      "status": "unresolved",
+      "cluster": "larne-ropemaker",
+      "url": "/people/glasgow-951.html#larne-reconstruction"
+    },
+    {
+      "year": 1843,
+      "label": "Mary’s settlement refers to property of deceased Hugh Glasgow",
+      "status": "proved",
+      "cluster": "james-hugh-mary",
+      "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJW-FQ3Q"
+    }
+  ],
+  "evidence_log": {
+    "source": "research/larne-proof-2026-09-21/public-synthesis.md",
+    "title": "Original evidence and current boundaries"
+  },
+  "related": [
+    {
+      "label": "East Antrim: Larne to Kilwaughter",
+      "url": "/branches/research-irish-east-antrim/"
+    },
+    {
+      "label": "Inishrush, Dunaghy and Drumragh collateral leads",
+      "url": "/branches/research-irish-inishrush-collateral/"
+    },
+    {
+      "label": "Larne–Inishrush–South Carolina reconstruction",
+      "url": "/people/glasgow-951.html#larne-reconstruction"
+    }
+  ],
+  "sources_note": "The public-safe original-image synthesis is maintained in research/larne-proof-2026-09-21/public-synthesis.md. Working captures and uninspected archive targets are not claims of proof."
+}

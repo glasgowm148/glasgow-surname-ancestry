@@ -5,6 +5,10 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
+Father audit, 28 September 2026: [John Glasgow-1030](https://www.wikitree.com/wiki/Glasgow-1030), representing Ninian's documented brother, now has Robert Glasgow-1096 marked **confident** on WikiTree. The explicit 1596 father and 1613 brother statements, shared surname, chronology and 1619 family witness support the common-father inference, as for Marion. The 1618 Jonet Mathie husband identification remains probable. See [John's current assessment](../Glasgow-1030/findings.md); older conditional father wording is superseded.
+
+WikiTree parent-status audit, 27 September 2026: the attached mother Esbell Brade (Brade-232) is now marked uncertain. No inspected record directly calls Robert her son; the relationship remains a family reconstruction.
+
 Father assessment: [William Glasgow (1500)](https://www.wikitree.com/wiki/Glasgow-1098) is **probable on strong circumstantial evidence**, not proved by an explicit kinship formula.
 
 This is stronger than a bare chronology-and-surname placement. William's proved
@@ -35,6 +39,12 @@ namesake. Because two generations of adult Johns overlapped, the evidence does
 not justify a `certain` WikiTree status. It does justify retaining William as
 Robert's uncertain father while describing the relationship as **probable**.
 
+Marion Glasgow-3062 is confidently inferred to be Robert’s daughter: the
+1596 burgess roll identifies Ninian as Robert’s second son, and Ninian’s 1613
+testament expressly calls Marion his sister. Their shared surname and compatible
+chronology support the common father, with no concrete alternative known.
+This is an inference from combined records; Marion’s mother remains uncertain.
+
 Robert is directly proved to have had **Ninian as a son**. The 1596 burgess
 admission calls [Ninian Glasgow (Glasgow-3188)](https://www.wikitree.com/wiki/Glasgow-3188)
 Robert's **second son**. Ninian's 1613 testament independently names
@@ -61,6 +71,11 @@ Easter Corswood widow to Robert's Glasgow household.
 
 ## Source findings
 
+### Combined father-evidence review — 28 September 2026
+
+The property and craft cluster remains a substantial probable-family argument. Confidence is not withheld simply for lack of an explicit son clause. The unresolved identification is the John in the Bridgegait/fisher acts: the records also contain John senior, his adult son John, and deceased John boundary owners. No inspected act uniquely joins the Bridgegait John to the Saltmarket son-and-heir of William. Robert's proposed father therefore still depends on both that identity and the exact kinship degree. The newly located protocol 2370 (18 January 1581/82) extends Archibald Herbertsoun's fisher/Bridgegait network, but does not supply either missing link. William remains the leading probable father.
+
+
 | Source | Finding | Assessment |
 | --- | --- | --- |
 | Civic and property evidence summarized in the [captured WikiTree profile](https://www.wikitree.com/wiki/Glasgow-1096) | Chronology, adjacent burgh property and Robert's association with Archibald fit William's family, but no record names Robert's father. | Indirect cluster evidence. |
@@ -74,7 +89,7 @@ Easter Corswood widow to Robert's Glasgow household.
 | Same work, vol. 5, protocol 1559, printed p. 93, 13 May 1567 | Robert Glasgow and Archibald Herbertsoun, fisher and husband of Isobella Glasgow, again appeared together as witnesses. | Independent recurrence of the proposed brother-and-brother-in-law association before the 1573 fisher group; the act states no kinship. |
 | Same work, vol. 6, protocol 1615, printed p. 5, 15 February 1568/69 | Robert Glasgow, citizen, sold James Rowand the St Roche/late Andrew Dunlop tenement adjoining John Glasgow on the west, subject to two reversions. | Directly identifies the parcel which the Rowands restored and reconveyed in protocols 1903-1904, strengthening continuity across the 1568/69 and 1572/73 acts. |
 | James R. Anderson, ed., ''Burgesses & Guild Brethren of Glasgow, 1573-1750'' (1925), [p. 24](https://archive.org/details/scottishrecordso43scotuoft/page/24/mode/2up), 23 October 1596 | Ninian Glasgow was admitted as "second son to Robert G., fisher, burgess." | Directly proves Robert was Ninian's father and confirms Robert's occupation and burgess status. |
-| NRS Glasgow Commissary Court, `CC9/7/9`, images 142-145, testament of Ninian Glasgow, made 10 January 1613 and confirmed 8 May 1613; [saved source extracts](sources/robert-sons-source-extracts.txt) | Ninian directly names `Johne glasgw his brother` and `Marioun glasgw his sist[er]`. The exact clothing description for John is unclear. | Directly proves Ninian had siblings John and Marion alive in 1613. Because the will does not say whether either was a full sibling, Robert is a strong parent candidate rather than a directly proved parent for them; `second son` does not identify John's birth order. |
+| NRS Glasgow Commissary Court, `CC9/7/9`, images 142-145, testament of Ninian Glasgow, made 10 January 1613 and confirmed 8 May 1613; [saved source extracts](sources/robert-sons-source-extracts.txt) | Ninian directly names `Johne glasgw his brother` and `Marioun glasgw his sist[er]`. The exact clothing description for John is unclear. | Directly proves Ninian had siblings John and Marion alive in 1613. Combined with Ninian’s 1596 father statement, the shared surname supports Robert as Marion's and the record-defined brother John's confident inferred father; John's later marriage identity remains probable; `second son` does not identify John's birth order. |
 | Robert Renwick, ed., *Abstracts of Protocols of the Town Clerks of Glasgow*, vol. 6, protocols 1903-1904, [12 February 1572/73](https://archive.org/details/abstractsprotoc01renwgoog/page/n121/mode/2up) | Robert Glasgow and Margaret Rowand dealt with a tenement adjoining land of John Glasgow; John Glasgow, fisher, witnessed the transaction. | Directly places Robert and a fisher John in the same immediate property network. It does not call John Robert's son. |
 | *Extracts from the Records of the Burgh of Glasgow*, accounts for 1573-74, printed p. 453, [FamilySearch image](https://www.familysearch.org/ark:/61903/3:1:3QHV-V3DN-P9VH-Q) | The burgh accountant was discharged for eight shillings described as outstanding and not in use of payment from "Robert Glasgow tenement." | New contemporary property occurrence. Its date and subject fit the same Robert who dealt with a Glasgow tenement in 1572/73 and 1574/75. The entry gives no occupation or relative, so identity with Glasgow-1096 is strong contextual attribution rather than a uniquely identifying statement. |
 | Robert Renwick, ed., *Abstracts of Protocols of the Town Clerks of Glasgow*, vol. 7, protocol 2002, [19 December 1573](https://archive.org/details/abstractsprotoc00robegoog/page/n52/mode/2up) | `Robert Glasgw, Archibald Herbertsone, John Glasgw, fishers` were named together as witnesses. Archibald is the proved husband of probable sister Isobella Glasgow. | Strong three-person occupational and association evidence for the proposed sibling/in-law cluster. The protocol states no kinship, and multiple adult Johns were present, so it cannot by itself resolve which John witnessed. |
@@ -114,8 +129,8 @@ The remaining changes are:
 | Probable father | [[Glasgow-1098|William Glasgow (about 1500), Glasgow burgh]] | Retain the structured relationship as uncertain, but describe it as probable: Robert repeatedly shared William's proved son's compact property/craft network and linked the same group to Archibald. No record explicitly names Robert's father. |
 | Spouse | [[Rolland-239|Margaret Rolland]] | Protocol 2125 directly names Robert's spouse as **Margaret Rowand**. Correct this existing profile's surname if it represents the same woman; the protocol does not prove she was mother of either son. |
 | Proved son | [[Glasgow-3188|Ninian Glasgow (about 1550), Glasgow]] | Already attached certain; the 1596 roll directly calls him Robert's second son. |
-| Strong candidate son | **John Glasgow, alive 10 January 1613; unresolved identity within an existing profile** | Ninian's testament directly calls John his brother. Robert is Ninian's proved father, but full versus half-brother is unstated. [John Glasgow (Glasgow-1030), born before about 1595, Glasgow](https://www.wikitree.com/wiki/Glasgow-1030) is the leading identity candidate; do not treat either the identity or Robert father edge as certain. |
-| Strong candidate daughter | [[Glasgow-3062|Marion Glasgow]] | Ninian's testament directly calls Marion his sister. Robert is Ninian's proved father, but the record does not establish whether Marion was a full or half-sister. Replace the impossible Ninian-as-father edge with Robert marked uncertain; do not infer Marion's mother. |
+| Confident inferred son | **John Glasgow, Ninian's documented brother, Glasgow-1030** | Ninian's testament calls John his brother and the 1596 admission names Robert as Ninian's father. Shared surname, chronology and the 1619 witness support the common father. The father relationship is confident; identification with the 1618 Jonet Mathie husband remains probable. |
+| Confident inferred daughter | [[Glasgow-3062|Marion Glasgow]] | Ninian’s testament directly calls Marion his sister; the 1596 burgess roll directly names Robert as Ninian’s father. The shared surname and compatible chronology support the common father, with no concrete alternative known. This is a confident inference; Marion’s mother remains uncertain. |
 | Other current child | [[Glasgow-3613|Margaret Glasgow]] | Existing attachment; the 1596 record does not address her. |
 | Possible daughter | [Elizabeth Glasgow, widow of Alexander Kaine](https://www.wikitree.com/wiki/Glasgow-3915) | Collateral descendant-name lead only. Do not attach without a Kaine, property or testamentary record linking her to Robert or Ninian. |
 
@@ -129,16 +144,10 @@ Ninian's bequest.
 
 Edit summary: `Add Robert's directly evidenced spouse and 1575 occurrence; remove the son who was dead by May 1577.`
 
-## Kilbride identity candidate - 31 August 2026
+## Kilbride identity — merged 27 September 2026
 
-[Robert Glasgow of Kilbride (Glasgow-3919)](https://www.wikitree.com/wiki/Glasgow-3919)
-is now the leading later identity for this Robert. The five-year interval from
-Robert and Margaret Rowand's 1575 city act to the 1580 Kilbride charter is
-compatible. Robert's 1554 co-witness David Mathy belongs to a documented route
-into the Glencairn estate landscape, while Kilbride co-occupants include
-Dunlop, Wilson and Young surnames also recurring in Robert's burgh/property
-network.
+Glasgow-3919 was merged into this profile as the leading identity of Robert Glasgow named among occupiers of Kilbride church lands in a charter dated 9 February 1580. The 1575 Glasgow property record and 1580 charter are five years apart; the rare name and Mathie–Glencairn association support one man. The charter does not state his occupation, wife or former city residence, so this remains a probable cross-record identification. The 1580 occurrence is preserved in the live WikiTree biography with the exact [Great Seal charter citation](https://archive.org/details/registrummagnisi05scot/page/104/mode/2up), vol. 5, no. 324. If the identification is correct, Robert was alive after 9 February 1580; his death is otherwise unknown.
 
-Assessment: **probable same man, moderate-to-strong circumstantial**. The 1580
-record supplies no occupation, spouse or city designation, so retain separate
-profiles and an identity link rather than merge.
+## Unresolved questions — Kilbride
+
+Find a deed or other contemporary entry that names the Kilbride occupier with Margaret Rowand, his fisher trade, or the Glasgow tenement. The old Kilbride profile's about-1560 birth was only an adult-status estimate, not a separate birth record.

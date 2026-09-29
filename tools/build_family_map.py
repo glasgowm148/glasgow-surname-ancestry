@@ -7,28 +7,36 @@ import csv
 from datetime import date
 from hashlib import sha1
 import json
+from pathlib import Path
 import re
 import subprocess
 import sys
+import tempfile
 from collections import defaultdict, deque
 try:
     from site_analytics import repair as repair_analytics
+    from public_privacy import likely_living as privacy_likely_living
     from project_paths import (
         MAP_HTML as HTML_PATH, HUB_HTML, MAP_RECORDS as CSV_PATH, ROOT, WEB_DIR,
         MAP_EARLY_BEARERS, MAP_YDNA_TIMELINE, RESEARCH_DIR,
         SURNAME_RESEARCH_DIR, WIKITREE_PROFILE_EVIDENCE,
-        WIKITREE_CATALOGUE_PROFILE_LINKS, merged_map_profiles, relation_values,
+        WIKITREE_CATALOGUE_PROFILE_LINKS, ONETREE_BUILD, merged_map_profiles, relation_values,
     )
     from build_research_catalog import build_research_catalog, catalogue_profile_update_ids
 except ModuleNotFoundError:  # Imported as tools.build_family_map in tests.
     from tools.site_analytics import repair as repair_analytics
+    from tools.public_privacy import likely_living as privacy_likely_living
     from tools.project_paths import (
         MAP_HTML as HTML_PATH, HUB_HTML, MAP_RECORDS as CSV_PATH, ROOT, WEB_DIR,
         MAP_EARLY_BEARERS, MAP_YDNA_TIMELINE, RESEARCH_DIR,
         SURNAME_RESEARCH_DIR, WIKITREE_PROFILE_EVIDENCE,
-        WIKITREE_CATALOGUE_PROFILE_LINKS, merged_map_profiles, relation_values,
+        WIKITREE_CATALOGUE_PROFILE_LINKS, ONETREE_BUILD, merged_map_profiles, relation_values,
     )
     from tools.build_research_catalog import build_research_catalog, catalogue_profile_update_ids
+try:
+    from place_gazetteer import aliases_for_text as gazetteer_aliases_for_text
+except ModuleNotFoundError:  # Imported as tools.build_family_map in tests.
+    from tools.place_gazetteer import aliases_for_text as gazetteer_aliases_for_text
 GLASGOW_ID = re.compile(
     r"(?:Glasgow|Glasco|Glassco|Glascoe|Glasgo|Glasow|Glascow|Glasoe|Glassgow|Glassgo|Glasko)-\d+",
     re.I,
@@ -99,9 +107,6 @@ PROFILE_METADATA_OVERRIDES = {
         "birth_location": "Ireland", "death_location": "Ontario, Canada", "gender": "Female",
     },
 }
-ONETREE_BUILD = WEB_DIR / "onetree" / "glasgow-one-tree-polished" / "build.py"
-
-
 def rebuild_standalone_onetree() -> None:
     """Keep the standalone viewer aligned with the freshly built catalogue."""
     if not ONETREE_BUILD.is_file():
@@ -109,7 +114,14 @@ def rebuild_standalone_onetree() -> None:
         # Its absence must not prevent the public catalogue from rebuilding.
         print(f"Standalone One Tree builder not present; skipped: {ONETREE_BUILD}")
         return
-    subprocess.run([sys.executable, str(ONETREE_BUILD)], cwd=ROOT, check=True)
+    # The public viewer is /onetree/; the standalone directory's index.html is a
+    # maintained redirect stub. Refresh model.json and its QA files, but send the
+    # standalone HTML to a scratch file so the stub is not overwritten.
+    with tempfile.TemporaryDirectory() as scratch:
+        subprocess.run(
+            [sys.executable, str(ONETREE_BUILD), "--output", str(Path(scratch) / "index.html")],
+            cwd=ROOT, check=True,
+        )
 
 
 def _record_slug(value: str) -> str:
@@ -211,7 +223,10 @@ def location_search_index(records: list[dict]) -> dict[str, list[str]]:
     """Build country/county aliases for each granular mapped location."""
     rows_by_location = defaultdict(list)
     for record in records:
-        rows_by_location[record["location_id"]].append(record)
+        # Unmapped records share an empty id; pooling them would give every
+        # unmapped person the regions of all the others (e.g. Scots as "Ireland").
+        if record.get("location_id"):
+            rows_by_location[record["location_id"]].append(record)
 
     overrides = defaultdict(set)
     for county, location_ids in IRISH_COUNTY_LOCATION_IDS.items():
@@ -235,6 +250,8 @@ def location_search_index(records: list[dict]) -> dict[str, list[str]]:
                 aliases.update({"Northern Ireland", "Ulster"})
             if counties and not counties & NORTHERN_IRELAND_COUNTIES:
                 aliases.add("Republic of Ireland")
+        for row in rows:
+            aliases.update(gazetteer_aliases_for_text(row.get("record_location", "")))
         for county in counties:
             aliases.update({county, f"County {county}", f"Co {county}", f"Co. {county}"})
             if county == "Londonderry":
@@ -390,10 +407,7 @@ def profile_metadata(records: list[dict], include_profile_ids: set[str] | None =
     }
 
     def likely_living(profile: dict) -> bool:
-        if profile.get("DeathDate") not in (None, "", "0000-00-00") or profile.get("DeathLocation"):
-            return False
-        birth_match = re.match(r"^(\d{4})", profile.get("BirthDate") or "")
-        return bool(birth_match and int(birth_match.group(1)) >= date.today().year - 120)
+        return privacy_likely_living(profile)
 
     def profile_name(profile: dict) -> str:
         return (
@@ -559,7 +573,7 @@ def profile_metadata(records: list[dict], include_profile_ids: set[str] | None =
                         "id": relative.get("id") or "",
                         "name": profile_name(profiles.get(relative.get("id") or "", {})) or relative.get("name") or relative.get("id") or "",
                         "outside_export": (relative.get("id") or "") not in profiles,
-                        "likely_living": likely_living(profiles.get(relative.get("id") or "", {})),
+                        "likely_living": privacy_likely_living(profiles.get(relative.get("id") or "", {}), relative),
                     }
                     for relative in evidence_relations.get(relation_name, [])
                     if relative.get("id") or relative.get("name")

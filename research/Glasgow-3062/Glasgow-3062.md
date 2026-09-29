@@ -2,7 +2,6 @@
 {{Estimated Date}}
 
 == Biography ==
-
 '''Marion Glasgow''' was the sister of [[Glasgow-3188|Ninian Glasgow]], fisher
 and burgess of Glasgow. Ninian's 1613 testament left her ten merks and
 expressly called her ''his sist[er]''.<ref name="Ninian1613">National Records of
@@ -19,12 +18,21 @@ and James Barr,
 [https://www.gwsfhs.org.uk/records/james-fultoun/ public index].</ref>
 
 == Research Notes ==
+=== Current evidence assessment ===
 
-Marion is not Ninian's daughter. Because the testament does not say whether
-they were full or half-siblings, Ninian's proved father [[Glasgow-1096|Robert
-Glasgow]] is a strong but uncertain father candidate for Marion. Her mother is
-not identified. The currently attached mother must remain uncertain until an
-evidenced replacement is available.
+Marion is Ninian's sister and is confidently identified as a daughter of
+[[Glasgow-1096|Robert Glasgow]]. Ninian's burgess admission on 23 October 1596
+calls him Robert Glasgow's second son; his 1613 testament expressly calls
+Marion his sister.<ref>James R. Anderson, ed., ''Burgesses & Guild Brethren of
+Glasgow, 1573–1750'' (Scottish Record Society, 1925),
+[https://archive.org/details/scottishrecordso43scotuoft/page/24/mode/2up p. 24],
+23 October 1596, Ninian Glasgow, second son to Robert Glasgow, fisher,
+burgess.</ref><ref name="Ninian1613" /> Together with their shared Glasgow
+surname and compatible chronology, these records support the common father.
+No evidence identifies a different father for Marion. The existing birth entry is a before-1592 boundary, not evidence that Marion was born in 1592. This is a confident
+inference from the combined records, rather than an express father-daughter
+statement. Her mother is not identified; the currently attached mother remains
+uncertain.
 
 Jonet Meik's 1607 testament also names Marion as a legatee but does not call
 her a daughter.<ref>National Records of Scotland, Glasgow Commissary Court,
@@ -36,11 +44,16 @@ Commissary Court, CC8/8/32, images 123–124, testament testamentar and inventor
 of Andro Glasgw, made 6 February 1597/8 and confirmed 10 July 1598; corrected
 working transcription of the original register images.</ref> Shared name and
 chronology do not identify this profile as that daughter. No record connects
-the Fultoun household to Andrew, Elizat Stevinsoun, Corsoun or Andrew's land,
+The Fultoun household to Andrew, Elizat Stevinsoun, Corsoun or Andrew's land,
 while Ninian's direct statement that this Marion was his sister establishes a
 substantial competing family context. This profile is not the present match;
-do not attach Andrew without an identity bridge.
+do not attach Andrew without an identity bridge. [[Glasgow-4095|The testament-named Marion of Corsoun]] has a separate profile while the identity remains unproved.
+
+Marion was named as a legatee in the 1607 testament of Jonet Meik, wife of [[Glasgow-3188|Ninian Glasgow]], but the testament does not describe Marion as their daughter. Ninian's 1613 testament proves their sibling relationship; the currently attached [[Meik-14|Jonet Meik]] mother relationship remains uncertain.
+
+An earlier profile note mentioned [[Glasgow-992|William Glasgow]] and [[Howie-1119|Bessie Howie]]. That association does not identify Marion's father or change the direct 1610 evidence naming James Fultoun as her son and Robert Fultoun as the child's father.
+
+Further research should search Glasgow sasines and testaments for Marion Glasgow or Robert Fultoun naming a maternal relative.
 
 == Sources ==
-
 <references />

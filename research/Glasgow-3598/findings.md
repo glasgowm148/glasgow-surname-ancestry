@@ -7,6 +7,8 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 Father assessment: **father not identified; uncertain**.
 
+The documented Edinburgh marriage to [[Hardie-2102|William Hardie]] on 16 July 1611 is now present in the live WikiTree spouse date and place fields, verified on both spouses' pages on 27 September 2026. This joins Margaret's research profile to the Hardie household with the same details already cited in her biography.
+
 ## Source findings
 
 | Source | Finding | Assessment |
@@ -46,6 +48,18 @@ pattern materially strengthens the Edinburgh marriage cluster.
 
 Assessment: **possible daughter/niece, moderate**. No testament or marriage
 entry names her father, so do not mark an exact parent confident.
+
+## William Hardie identity test — 27 September 2026
+
+The [same published Edinburgh marriage register, under Hardie (printed p. 307)](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/register_of_marriages_for_the_parish_of_edinburgh_1595-1700_~_1898.pdf#page=317), lists **William Hardie, cordiner**, with Eupham Wauchope on 1 September 1608, Margaret Glasgow on 16 July 1611, Catharine Leslie on 27 August 1641 and Catharine Angus on 17 November 1643. The reverse entry for [Eupham Wauchope (printed p. 724)](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/register_of_marriages_for_the_parish_of_edinburgh_1595-1700_~_1898.pdf#page=734) agrees on the 1608 date and trade. These are four **same-name, same-trade entries**, not proof of one repeatedly married man. The later entries could belong to a younger namesake. No entry names Margaret's parent, child, death or widowhood.
+
+Compare the original OPR entries, cordiner records and any Hardie testaments before using a later marriage as a death bound for Margaret or identifying William's relatives. The [Edinburgh burgess roll, printed p. 236–237](https://archive.org/details/scottishrecordso46scotuoft/page/236/mode/2up) identifies Patrick Hardie, cordiner, admitted in 1566/7 and his eldest son John, admitted in 1586; it does not identify William as their relative.
+
+A short, cited version of this same-name comparison was added to Margaret's live WikiTree Research Notes on 27 September 2026. The saved profile preserves the existing biography and states explicitly that the entries do not prove serial marriages or Margaret's death.
+
+## Live structured marriage — 27 September 2026
+
+The existing WikiTree biography already cited Margaret's 16 July 1611 Edinburgh marriage to [[Hardie-2102|William Hardie]], but the spouse connection had empty date and place fields. On the managed [Margaret profile](https://www.wikitree.com/wiki/Glasgow-3598), the marriage connection was updated to **16 July 1611, Edinburgh, Scotland**, with marriage, date and place marked confident/certain. The reciprocal [William profile](https://www.wikitree.com/wiki/Hardie-2102) displays the same details. The source is the published Edinburgh marriage register, printed p. 267, and Scotland's People OPR 685/1/430/84. No other relationship or vital date was changed in the structured-field edit.
 
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-65f4901d3c5c -->
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-65f4901d3c5c

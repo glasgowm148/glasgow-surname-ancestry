@@ -1,32 +1,65 @@
-# WikiTree update notes: [William Glasgow (Glasgow-1098)](https://www.wikitree.com/wiki/Glasgow-1098)
+[[Category:Glasgow Name Study]]
+{{Estimated Date}}
 
-Record only sourced facts and corrections missing from the current WikiTree
-profile. Keep same-name identities and inferred relationships explicitly
-unproved.
+== Biography ==
 
-## Live update applied 30 August 2026
+{| class="wikitable" style="width:100%; background-color:#E1F0B4;"
+| '''Likely father:''' [[Space:John_de_Glasgow_alias_Smith_/_John_Glasgow_of_Saltmarket'|John Glasgow of Saltmarket (c.1480–before 1553)]]. This is the maintained, sourced biography for William's predecessor and probable father. The attached [[Glasgow-1095|John Glasgow]] profile is an older unsourced placeholder; use the free-space biography for the current research.
+|}
 
-The profile now points prominently to the maintained
-[John Glasgow of Saltmarket free-space biography](https://www.wikitree.com/wiki/Space:John_de_Glasgow_alias_Smith_/_John_Glasgow_of_Saltmarket%27),
-estimated born about 1480. Use that sourced account for William's probable
-father rather than the stale, unsourced pre-1500 profile Glasgow-1095; the tree
-attachment itself remains unchanged and uncertain.
+'''William Glasgow''' was a burgess of Glasgow. He was married to [[Brade-232|Esbell Brade]], and their son [[Glasgow-1093|John Glasgow]] is directly identified in two independent property records.
 
-| Fact | Source | Confidence |
-| --- | --- | --- |
-| William occupied the Rankin–Young parcel on 17 February 1534/35. | Renwick, *Abstracts of Protocols*, vol. 4, protocol 1201, pp. 73–74. | Strong same-parcel boundary evidence. |
-| The same parcel was bounded by the lands of the late William on 16 March 1535/36. | Renwick, vol. 4, protocol 1233, pp. 86–87, fol. 87. | Direct death boundary. |
-| John entered its fore tenement as heir of William, explicitly his father, on 28 October 1564. | Renwick, vol. 3, protocol 805, p. 57. | Direct relationship. |
+A William Glasgow was among the men granted a royal remission on 2 July 1526 for the killing of James Somervile and other offences.<ref name="remission1526">[https://archive.org/stream/registrumsecret00scotgoog/registrumsecret00scotgoog_djvu.txt ''Registrum Secreti Sigilli Regum Scotorum'', vol. 1, entry 3412], 2 July 1526.</ref> The entry gives no residence, occupation or relationship by which to distinguish him, so identification with the later burgess remains possible rather than certain.
 
-The live structured death is now **before 16 March 1536**. The biography gives
-the full documentary interval of 17 February 1534/35–16 March 1535/36 and the
-rear-tenement reconstruction.
+On 28 February 1530/31 William Glasgow witnessed the sasine of property on Our Lady's Street to John Allason.<ref name="protocol1058">Robert Renwick, ed., [https://archive.org/stream/abstractsprotoc08robegoog/abstractsprotoc08robegoog_djvu.txt ''Abstracts of Protocols of the Town Clerks of Glasgow'', vol. 4, protocol 1058], 28 February 1530/31.</ref>
 
-## Do not add as fact
+On 31 December 1534 William, with Esbell's consent, resigned a back tenement in Glasgow to ''their son'' John Glasgow and John's wife [[Spreull-4|Jonet Spreull]], reserving the profits to himself and Esbell during their lives.<ref name="protocol1196">Renwick, [https://archive.org/details/abstractsprotoc08robegoog/page/n84/mode/2up ''Abstracts of Protocols'', vol. 4, protocol 1196], 31 December 1534, printed p. 72.</ref>
 
-- The older John-to-William transfer or relationship.
-- A recorded marriage between Eufame Craig and the older John. Her position as
-  his likely widow is a property-based reconstruction.
-- Eufame Craig's unnamed Glasgow husband as William; that is now the weaker
-  hypothesis.
-- A death place inferred from the property.
+=== The Rankin–Young property ===
+
+The tenement can be placed within a stable group of adjoining properties. In 1527 [[Space:John_de_Glasgow_alias_Smith_/_John_Glasgow_of_Saltmarket'|an older John Glasgow]]'s tenement on the west side of the street from theMarket Cross to the South Port lay between John Rankin on the south and James Young on the north.<ref name="olderJohn1527">[https://archive.org/details/libercollegiino00annegoog ''Liber Collegii Nostre Domine''], act of 2 May 1527, pp. 85–86.</ref> On 20 February 1528/29—the date explicitly supplied in the edition's contents—Malcolm Henryson alias Makandoy sold the adjoining tenement, small garden and rear orchard to Master James Houston. Its fore boundaries were Andrew Craig south and William Glasgow north.<ref name="liber1528">[https://archive.org/download/libercollegiino00annegoog/page/n195_w1600.jpg ''Liber Collegii Nostre Domine'', p. 90] and [https://archive.org/download/libercollegiino00annegoog/page/n196_w1600.jpg p. 91], instrument dated 20 February 1528/29: ''inter tenementa ... Andree Craig exaustrali et Willelmi Glasgu ex boreali partibus''.</ref> This is the parcel later held by Rankin. On 17February 1534/35 Rankin's adjoining tenement was bounded by William Glasgow immediately to the north and Andrew Craig to the south.<ref name="protocol1201">Renwick, [https://archive.org/details/abstractsprotoc08robegoog/page/n85/mode/2up ''Abstracts of Protocols'', vol. 4, protocol 1201], 17 February 1534/35, printed pp. 73–74.</ref> On 16 March 1535/36 James Young's place was bounded by the lands of the ''late William Glasgow'' on the south and Robert Cochran on the north.<ref name="protocol1233">Renwick, [https://archive.org/details/abstractsprotoc08robegoog/page/n99/mode/2up ''Abstracts of Protocols'', vol. 4, protocol 1233], 16 March 1535/36, printed pp. 86–87, fol. 87.</ref> The St Andrew prebend rental, confirmed on 3 June 1542 and transumed on 8 January 1548/49, charged a four-shilling annual on the tenement of the late William Glasgow between the late John Crownar north and John Rankin south.<ref name="rent1542">[https://archive.org/download/libercollegiino00annegoog/page/n141_w1600.jpg ''Liber Collegii Nostre Domine'', St Andrew prebend, p. 36]: ''quatuor solidi annui redditus de tenemento quondam Wilelmi Glasgu ... inter tenementa quondam Johannis Crovnar ... et tenementum Johannis Rankyn''.</ref> This matches the four-shilling institutional burden on the older John's 1527 tenement.
+
+The 1527 title, the 1528 Henryson/Houston boundary and the later rental identify William's holding as the same Rankin–Young parcel recorded under the older John's name in 1527. They place the transfer of the property title within about twenty-one and a half months. The rapid same-title succession makes a close family transfer, especially father to son, a strong possibility, although the surviving records donot name their relationship. William was described without the deceased qualifier on 17 February 1534/35 and as late on 16 March 1535/36, narrowing his death to that interval.
+
+On 28 October 1564 William's son John received sasine as William's heir in the fore tenement, still bounded by the late John Rankin to the south and Robert Young to the north.<ref name="protocol805">Renwick, [https://archive.org/details/abstractsprotoc06scogoog/page/n69/mode/2up ''Abstracts of Protocols'', vol. 3, protocol 805], 28 October 1564, printed p. 57.</ref> The inheritance directly confirms William as John's father and carries the same property into the next generation.
+
+The rear title also fits the 1534 family settlement. In 1563 John senior and Jonet Spreull conveyed their son John a tenement bounded by Robert Young, the late John Rankin and St Mary's collegiate-church land.<ref name="protocol748">Renwick, [https://archive.org/details/abstractsprotoc06scogoog/page/n52/mode/2up ''Abstracts of Protocols'', vol. 3, protocol 748], 13 May 1563.</ref> In 1564 Eufame Craig, widow of an unnamed Glasgow, sold her liferent in the corresponding back tenement to John senior.<ref name="protocol809">Renwick, [https://archive.org/details/abstractsprotoc06scogoog/page/n71/mode/2up ''Abstracts of Protocols'', vol. 3, protocols 809–810], 16 November 1564, printed pp. 58–59.</ref> The most likely reconstruction is that Eufame was the older John's widow and that her reserved liferent survived the rapid passage of the fee to William. This fits the layered title much better than making herWilliam's widow, which would require Esbell's death and William's remarriage within about fourteen months. The Craig witnesses and the same-day sale of the adjoining fore tenement to William Craig also suggest a coordinated family settlement. The sequence strongly identifies William and Esbell's 1534 back tenement as the rear portion of the Rankin–Young block. On 5 February 1565/66 William Craig conveyed the fore parcel to his son Archibald Craig and Archibald's wife Margaret Smith, with the late Rankin, Robert Young and JohnGlasgow's back-tenement boundaries unchanged.<ref name="protocol860">Renwick, [https://archive.org/details/abstractsprotoc06scogoog/page/n89/mode/2up ''Abstracts of Protocols'', vol. 3, protocol 860], 5 February 1565/66, printed pp. 77–78.</ref>
+
+== Research Notes ==
+
+The consolidated Brady/Brade research relevant to this profile is maintained at [[Space:Brady Family of Sauchie, Stirling & Easter Kennet — Research Notes|Brady Family of Stirling and Easter Kennet — Research Notes]].
+
+William's birth date, birth place and death place are not recorded. His documented death interval is 17 February 1534/35 to 16 March 1535/36.
+
+The attached father, [[Glasgow-1095|John Glasgow]], remains uncertain and is not the maintained research account. The current sourced biography is [[Space:John_de_Glasgow_alias_Smith_/_John_Glasgow_of_Saltmarket'|John Glasgow of Saltmarket (c.1480–before 1553)]]. His exact title passing to William within about twenty-one and a half months makes a father-son relationship the leading genealogical hypothesis. The missing conveyance could still record a sale, assignment, tenancy or another family relationship. === Child and collateral assessment ===
+
+Only [[Glasgow-1093|John]] is explicitly named as William's son. The other attachedrelationships remain uncertain, but the property reconstruction now distinguishes two probable burgh placements from the weaker Ayrshire and daughter hypotheses.
+
+{| class="wikitable sortable" style="padding: 5px; width:100%;"
+|+ '''Attached children and current evidence'''
+|-
+! style="background-color:#E1F0B4;" | Person
+! style="background-color:#E1F0B4;" | Assessment
+! style="background-color:#E1F0B4;" | Basis
+|-
+| [[Glasgow-1093|John Glasgow]] || '''Documented son''' || Named as William and Esbell's son in 1534 and served heir to William in 1564.<ref name="protocol1196"/><ref name="protocol805"/>
+|-
+| [[Glasgow-1096|Robert Glasgow]] || '''Probable son; relationship remains uncertain''' || Robert repeatedly shared the compact south-burgh property and fisher network of William's proved son John in 1557-73. Their lands bounded the same tenements, and they were described together as fishers in 1573.<ref name="RobertJohn">Renwick, ''Abstracts of Protocols'', vol. 2, protocols 401 and 403, [https://archive.org/details/abstractsprotoc08scogoog/page/n57/mode/2up 8 and 26 November 1557], and protocol544, [https://archive.org/details/abstractsprotoc08scogoog/page/n98/mode/2up 18 April 1560]; vol. 7, protocol 2002, [https://archive.org/details/abstractsprotoc00robegoog/page/n52/mode/2up 19 December 1573].</ref>
+|-
+| [[Glasgow-1097|Archibald Glasgow]] || '''Probable son; relationship remains uncertain''' || Robert witnessed Archibald's 1551 purchase of the parcel immediately east of Thomas Bargill; that exact east boundary belonged to John by 1554/55 and remained his in 1556-57.<ref name="ArchibaldParcel">Renwick, ''Abstracts of Protocols'', vol. 1, protocol 84, [https://archive.org/details/abstractsprotoc07robegoog/page/n59/mode/2up 21 May 1551], and protocol 205, [https://archive.org/details/abstractsprotoc07robegoog/page/n97/mode/2up 31 January 1554/55]; vol. 2, protocols 307 and 402, [https://archive.org/details/abstractsprotoc08scogoog/page/n29/mode/2up 5 August 1556] and [https://archive.org/details/abstractsprotoc08scogoog/page/n57/mode/2up 22 November 1557].</ref>
+|-
+| [[Glasgow-1168|James Glasgow elder]] || '''Possible son; weak evidence''' || Chronology permits the relationship and the Glencairn network links Ayrshire tenants with Glasgow burgesses, but no property, household or kinship record joins James at Corsankell to William.
+|-
+| [[Glasgow-3915|Elizabeth Glasgow]] || '''Possible daughter or close female kinswoman; exact degree unresolved''' || William and Elizabeth's husband Alexander Kano/Kaine were named consecutively in the 1526 Sandilands of Calder remission. By 1552 Elizabeth, Alexander's widow, occupied Easter Corswood in the same Calder estate. Daughter, sister and niece remain viable.<ref name="ElizabethKaine">National Records of Scotland, Papers of Lord Torphichen, [https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/browseDetails.aspx?reference=GD119%2F193 GD119/193], 2 July 1526; John Maitland Thomson, ed., ''Registrum Magni Sigilli Regum Scotorum'', vol. 4, no. 739, [https://archive.org/details/registrummagnisi04scot/page/164/mode/1up p. 164], 19 December 1552.</ref>
+|-
+| [[Glasgow-3916|Isobella Glasgow]] || '''Probable daughter; relationships remain uncertain''' || Her husband Archibald Herbisoune witnessed John sell the exact fore tenement John had entered nineteen days earlier as heir of William. Isobella also repeats proposed mother Esbell/Isobel's forename. The witness act does not state kinship, so this is strong circumstantial rather than direct evidence.<ref name="IsobellaNetwork">Renwick, ''Abstracts of Protocols'', vol. 3, protocol 805, [https://archive.org/details/abstractsprotoc06scogoog/page/n69/mode/2up 28 October 1564], and protocol 810, [https://archive.org/details/abstractsprotoc06scogoog/page/n71/mode/2up 16 November 1564].</ref>
+|}
+
+John's sole heirship is consistent with male primogeniture and therefore does not exclude younger sons who acquired neighbouring holdings. Nevertheless, the missing transfers permit alternatives such as cousinship, and Robert's own son John complicates the later fisher references. Robert, Archibald and Isobella should remain attached as uncertain even though the accumulated evidence makes each placement probable.
+
+A 1548 collegiate-church sasine repeats the older John Glasgow's name and the 1527 boundaries. It may preserve copied title language for the four-shilling annual rent rather than identify the person then in possession.
+
+No second published occurrence names Eufame Craig's deceased Glasgow husband. The property sequence nevertheless makes the older John her likeliest husband: her widow's liferent could have been reserved before his title passed to William and thensurvived over the rear parcel. William is a weaker alternative because it requires Esbell's death and a remarriage within about fourteen months. The original manuscripts are [https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=NP1%2f5 NRS NP1/5] for the 1534–36 Michael Fleming protocols and [https://cityarchives.glasgowlife.org.uk/Record.aspx?src=CalmView.Catalog&id=B%2f10%2f1%2f3 Glasgow City Archives B/10/1/3], especially protocol 809at folio 54, for the blank husband's name. An independent textual control is catalogued by the NationalLibrary of Scotland as [https://manuscripts.nls.uk/repositories/2/archival_objects/12930 Adv.MS.9A.1.12], with microfilm Mf.Sec.MSS.156; it has not yet been inspected.
+
+== Sources ==
+<references />

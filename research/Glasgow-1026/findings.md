@@ -1,7 +1,7 @@
 # Findings: [William Glasgow (Glasgow-1026), born about 1660](https://www.wikitree.com/wiki/Glasgow-1026)
 
-Checked against the live profile and all attached immediate-family profiles on
-**10 August 2026**.
+Checked against the live profile and immediate-family records on
+**26 September 2026**.
 
 ## Current conclusion
 
@@ -10,7 +10,11 @@ is the older Kirknewton householder who could chronologically have fathered
 Bessie in 1682 and the later children recorded through 1705. His birth is
 estimated as **about 1660**, uncertain, and his parentage remains unproved;
 [Walter Glasgow (Glasgow-1554)](https://www.wikitree.com/wiki/Glasgow-1554)
-is attached only uncertainly.
+was formerly attached as an uncertain father. That live attachment was removed
+on 26 September 2026: Walter was christened in 1649 and would have been about
+eleven at William's estimated circa-1660 birth; no contemporary record names
+him as William's father. The live biography now states this with the Walter
+baptism citation. William's father remains unknown.
 
 The former structured death before 1784 had no supporting death record and
 produced an implausible 120-year lifespan. It is replaced by **after 1705,
@@ -19,12 +23,12 @@ currently assigned to this same-name Kirknewton father. The identity across
 the 1682-1705 entries remains a working reconstruction.
 
 [John Glasgow (Glasgow-3610)](https://www.wikitree.com/wiki/Glasgow-3610) is
-now the best automated alternative: John was born in Kirknewton in 1626 and
-had children recorded there in 1646, 1649 and about 1650. Another son before
-1664 is chronologically and geographically possible. The unusual-name pattern
-across the descendant branches adds support, but no baptism, testament or
-other record yet names William as John's son. This is a genuine research lead,
-not a relationship ready to attach.
+another possible father by chronology: his own birth is unknown, while children
+attributed to a father John were recorded in the Kirknewton/East Calder area in
+the 1640s. The previous exact 1626 birth and Kirknewton birthplace assigned to
+John were removed as unsupported. No baptism, testament or other record names
+William as John's son; this is a research lead, not a relationship ready to
+attach.
 
 ## Superseded July audit
 

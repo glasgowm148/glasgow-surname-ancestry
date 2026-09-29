@@ -180,6 +180,18 @@ the later 1738 lease to Robert Glasgow. The printed 1645 extract names no
 Glasgow but is explicitly incomplete. This clarifies the superior title; it
 does not identify the missing Glasgow tenant succession.
 
+The NRS catalogue now identifies the exact open, on-site Kilwaghter record set:
+[GD154/514](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD154%2f514&st=1&tc=y&tl=n&tn=n&tp=n&k=&ko=a&r=GD154%2f5&ro=s&df=&dt=&di=y)
+(tenant goods/livestock, c.1653), [515](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD154%2f515&st=1&tc=y&tl=n&tn=n&tp=n&k=&ko=a&r=GD154%2f5&ro=s&df=&dt=&di=y)
+(rental, c.1653), [525](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD154%2f525&st=1&tc=y&tl=n&tn=n&tp=n&k=&ko=a&r=GD154%2f5&ro=s&df=&dt=&di=y)
+(rentals, c.1690; two items), [530](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD154%2f530&st=1&tc=y&tl=n&tn=n&tp=n&k=&ko=a&r=GD154%2f5&ro=s&df=&dt=&di=y)
+(rent-roll/accounts, Nov. 1692; three items), and [532](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD154%2f532&st=1&tc=y&tl=n&tn=n&tp=n&k=&ko=a&r=GD154%2f5&ro=s&df=&dt=&di=y)
+(rent-roll/accounts, 1693-1708; eight items). The catalogue names no Glasgow and
+supplies no image or transcription. This corrects the earlier blanket
+“archive-only/off-site” claim: the files are **Open, On site**, but still
+uninspected. Search `Kilwaghter`, `Kilwaughter`, `Kilwaugheter` and Glasgow
+variants in the originals; no kinship inference is presently available.
+
 The Registry of Deeds cluster adds William Glasgow as an adjoining Larne
 occupier in 1736 ([memorial 62131](https://irishdeedsindex.net/mem.php?memorial=62131)),
 Robert and wife Rachel at Ballykeel in 1738 ([memorial 74015](https://irishdeedsindex.net/mem.php?memorial=74015)),
@@ -190,13 +202,22 @@ Glasgow, ropemaker of Larne, in 1766
 form a persistent local surname cluster, not a pedigree. Memorial 74015 calls
 Rachel Robert's wife but does not call James junior their son.
 
+The inspected original memorial 63221 (10 March 1736, registered 10 April 1738)
+confirms William and Hugh Glasgow as joint Larne lessees; its named lives are
+royal lives, not relatives. Memorial 159181, a deed poll dated 4 June 1757,
+independently refers to a head lease granted by William and Hugh Glasgow of
+Larne. These records reinforce the later Larne property cluster, but provide no
+bridge from Robert-3970 or the 1653/1669 householders and no kinship statement.
+
 ## Priority proof targets
 
 1. Argyll Estates Archives `GB 3452 ARG-04-03-67-78`: inspect the original 1666 receipt for date, route, residence, associates, signature and endorsements.
 2. NRS `GD86/741`: compare the 1688 Ayr instrument written by Robert Glasgow with the receipt's hand and signature.
 3. TCD MS 844, fol. 841 and adjacent/enclosed papers; collate the names schedule against the print and Young.
 4. UCD `IE UCDA LA/12/5`, transcript pp. 553–558; also `LA/12/1`, chapter XIII, pp. 235–237, and the `LA/12/3` synopsis.
-5. NRS [Agnew papers `GD154/505–534`](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?di=y&k=Agnew+Estate&ko=a&reference=GD154&ro=s&st=1&tc=y&tl=n&tn=n&tp=n), Irish Kilwaughter estate material, 1636–1712; archive-only/off-site.
+5. NRS GD154/514-515, 525, 530 and 532: the precise **Open, On site**
+   Kilwaghter tenant-list/rental/rent-roll targets, c.1653-1708. Inspect the
+   originals before treating any tenancy as identity or kinship evidence.
 6. PRONI `D/282/2–160`, Kilwaughter leases, assignments, rentals and conveyances, prioritising 1647–1742.
 7. PRONI `T/808/14889`, the undigitised 1666 County Antrim subsidy roll, searched parish by parish under Glasgow/Glascho/Glaskow/Glass variants.
 8. PRONI `MIC/1B/6` and `MIC1B/6A/1B`, checked against derivative Larne/Kilwaughter register material.
@@ -263,3 +284,7 @@ Glasgow generation: Larne leases in 1736 and 1737, and a 1744 deed whose
 execution William personally proved in 1775. They do not bridge Robert to the
 proposed children or grandchildren. The relationships descending from
 Glasgow-3970 therefore remain uncertain.
+
+## Batch limits and next originals — 21 September 2026
+
+The manuscript-checked 1738 wife clause and 1741 farmer occurrence belong to the later Robert-1143 household; neither names a father or supplies a bridge from Robert Glaskow of Larne. A 1772 Wm Glasgow witness occurrence is likewise unassigned between later namesakes. The remaining direct tests are the on-site Kilwaughter rentals NRS GD154/514–515, /525, /530 and /532, PRONI T828/15, and MIC1B/6. Catalogue descriptions and surname association do not establish descent.

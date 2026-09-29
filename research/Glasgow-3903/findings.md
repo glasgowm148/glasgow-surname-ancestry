@@ -1,15 +1,16 @@
 # Findings: Glasgow-3903
 
-Last updated: 2026-09-05
+Last updated: 2026-09-23
 
 ## Current answer
 
-### Civil-date correction, 5 September 2026
+### Original civil return dates the death to 12 December 1878
 
 The original civil register records James's death at Inishrush on **12 December
 1878**, not 11 December. The published stone transcription gives 11 December.
 Treat this as a one-day source conflict, not as two deaths, and use the original
-civil-register date for the structured death. Henry Glasgow's presence at death
+civil-register date for the structured death. The live structured date is now
+**12 December 1878**. Henry Glasgow's presence at death
 does not state his relationship.
 
 James Glasgow is directly identified as Adam and Rose Glasgow's son by the family
@@ -69,7 +70,7 @@ again.
 
 | Outstanding change | Source | Confidence |
 | --- | --- | --- |
-| Change the structured death date to **12 December 1878**. The structured death place is already Inishrush. Preserve the stone's 11 December transcription as a conflict note. | [Original civil death return](https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1878/020497/7192875.pdf) | High |
+| **Completed:** the structured death date now reads **12 December 1878**. The structured death place remains Inishrush; the stone's 11 December transcription remains a conflict note. | [Original civil death return](https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1878/020497/7192875.pdf) | High |
 | Remove the implication that the 1847 report concerned this James. The younger James `Glasgow-1623` and Rosanna Barkley are the exact record-backed match. | [Original 1851 marriage](../Glasgow-1622/sources/irishgenealogy_1851_james_glasgow_rosanna_barkley_marriage.pdf) | High for the couple; the child remains unknown |
 | Add First Kilrea session minutes `MIC1P/87` (1825-1852) and Drimbolg session/discipline book `MIC1C/15` (1809-1859) as unread targets for the reported 1846 event. | [County Londonderry church-record guide](https://www.billmacafee.com/churchrecords/churchrecordsderry.pdf) | High for record coverage; no result yet |
 
@@ -115,8 +116,9 @@ aid only, not a WikiTree source.
 ## Recommended correction applied
 
 The live structured date was set on 19 August 2026 to 11 December from the stone
-transcription. The original civil register instead says **12 December 1878**;
-the live value therefore requires correction.
+transcription. The original civil register says **12 December 1878**; the live
+structured field now uses that date and preserves the gravestone discrepancy in
+the biography.
 
 ## Error 966 link migration — 29 August 2026
 

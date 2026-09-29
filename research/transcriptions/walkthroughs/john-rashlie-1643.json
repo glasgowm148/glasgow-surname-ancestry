@@ -1,9 +1,11 @@
 {
   "id": "john-rashlie-1643",
-  "intro": "This catalogue entry is maintained from the supplied wills-index result; no family relationship is stated in the index description.",
+  "intro": "The FamilySearch image confirms a printed Glasgow Commissary Court index entry for John Glasgow in Rashlie, parish of Kilbride. It does not show the underlying testament or establish the identity of any existing John Glasgow profile.",
   "evidence_basis": "index",
-  "index_source": "User-supplied ScotlandsPeople wills-index results, Glasgow/Glasgw supplied excerpt, 24 results to 1800",
+  "index_source": "FamilySearch, Glasgow. Wills 1547–1800, item #007960708, image 112, printed index p. 196; matches the supplied ScotlandsPeople entry CC9/7/28.",
+  "index_source_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS8K-D98V?view=fullText&keywords=Glasgow&searchForm=advanced&lang=en&groupId=M97N-2NT",
   "source_supplied_on": "2026-09-10",
+  "source_verified_on": "2026-09-23",
   "people": [],
   "card_kin_basis": "index",
   "card_kin": {
@@ -13,13 +15,14 @@
   },
   "steps": [],
   "index_confirmation": {
-    "indexed_name": "Johnne Glasgw",
+    "indexed_name": "John Glasgow",
     "date": "1643-04-17",
-    "description": "in Rashlie, parish of Kilbride",
+    "description": "in Rashlie, parish of Kilbride (FamilySearch transcript: Rashlic)",
     "record_type": "TT",
     "court": "Glasgow Commissary Court",
     "reference": "CC9/7/28",
-    "status": "confirmed by supplied archival index",
+    "status": "confirmed by the printed index image; identity unresolved",
+    "source_label": "FamilySearch · Printed testament index",
     "supplied_on": "2026-09-10"
   }
 }

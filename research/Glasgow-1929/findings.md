@@ -15,3 +15,12 @@ The transcript-validated baptism record for **Hugh Glasgow**, 05 Feb 1710, Kilwi
 
 Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
 <!-- END FMP-GLASGOW-fmp-glasgow-62648f8f1ec3 -->
+
+## Current conclusion — 27 September 2026 merge
+
+Glasgow-4166 was merged into Glasgow-1929. The older profile's 1710 Kilwinning baptism and 1732 marriage to Margaret McEachin are now joined to the Kilmarnock children formerly attached to Glasgow-4166. The same wife's two surname forms and continuous child sequence support the identification. The 1744 Margaret Giffen mother entry remains unassigned to either a second union or a different Hugh; the profile retains the citation without resolving that household.
+
+## Unresolved questions — 27 September 2026
+
+Inspect the original 1732 marriage and 1732–1755 baptisms, especially the 1744 Giffen entry, before claiming all children have the same mother or that there was a second marriage.
+

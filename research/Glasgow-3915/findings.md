@@ -22,6 +22,11 @@ an **uncertain** father, and Elizabeth's death is recorded as after 19 December
 
 ## Source findings
 
+### Original-source access review — 28 September 2026
+
+Publicly available printed register images corroborate the existing 1526 remission (RSS I no. 3412) and 1552 Easter Corswood occupation (RMS IV no. 739). They are not images of the Torphichen manuscripts. No public original image or transcript of GD119/193–205 was located. The Calder association remains strong, but those printed clauses do not identify Elizabeth's father or the mechanism by which the tenancy passed. Inspect the underlying title/estate instruments for a household or succession bridge; a literal daughter formula is not the only potentially sufficient evidence.
+
+
 | Source | Finding | Assessment |
 | --- | --- | --- |
 | [Great Seal register, vol. 4, no. 739, p. 164](https://archive.org/details/registrummagnisi04scot/page/164/mode/1up), 19 December 1552 | Elizabeth Glasgow was occupying Easter Corswood in Edinburghshire and was the widow of Alexander Kaine. | Direct evidence for Elizabeth's identity, widowhood and residence; it names no parent or sibling. |

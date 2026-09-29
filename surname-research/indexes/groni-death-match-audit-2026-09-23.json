@@ -1,0 +1,89 @@
+{
+  "title": "GRONI death-index profile match audit",
+  "reviewed_at": "2026-09-23",
+  "source_url": "https://geni.nidirect.gov.uk/search/death",
+  "source_description": "User-supplied transcription of 152 unique Glasgow surname death-index entries; paid certificates not consulted.",
+  "source_attachment_sha256": "cc1395ea4a226cb11fd69ff2a42b4b058b2d757296346f7ee550d9ff1535afe1",
+  "row_count": 152,
+  "counts": {
+    "new_profile_created": 53,
+    "lead_attached": 22,
+    "existing_profile": 72,
+    "deferred_robert": 5
+  },
+  "method": "Exact death-date search without a birth-year constraint, followed by forename/variant and age-derived birth-range/locality searches against local and live public WikiTree profiles, including profiles with blank/partial deaths. Cross-reference supplied birth and marriage indexes; review candidate biographies and contradictions before assigning identities.",
+  "limitations": "Registration district does not prove exact death place or birthplace. Age-derived birth year is approximate. Public WikiTree searches cannot resolve private profiles. No suitable public fit is not by itself a distinct-person determination for profile creation. Robert entries are assigned elsewhere; paid certificates were not viewed.",
+  "source_birth_csv_sha256": "68c8e12faf2c35f269b9fba1a57fa5f21eb4b5b874592f0dd848432f7abf49c1",
+  "source_marriage_attachment_sha256": "38a93baa89b7e94d0e2317ef0096b6ede9013c018987244bfb82de3540778cbb",
+  "birth_crosswalk": {
+    "birth_rows": 307,
+    "unique_named_non_robert_birth_leads": 26,
+    "ambiguous_named_non_robert_birth_leads": 7,
+    "unique_birth_leads_without_catalogue_profile": 17,
+    "note": "A single candidate in the supplied birth list is a lead, not proof; multiple candidates are held."
+  },
+  "marriage_crosswalk": {
+    "marriage_rows": 102,
+    "note": "Marriage summary lacks given names of non-Glasgow spouses, parents and residence; same-forename, same-district overlap is only a lead."
+  },
+  "live_duplicate_search": "Completed: 75 live name/birth-range/death queries, 13 broader variant checks and 80 exact-death-date/name queries using the documented searchPerson action and appId. Zero API errors or rate-limit responses. One additional confirmed profile (Cushnehan-1), two additional possible profiles (Glasgow-1422, Unknown-766238). Earlier Limit exceeded/unknown_action report came from invalid API usage.",
+  "family_crosswalk": {
+    "index_only_clusters": 3,
+    "death_rows_with_family_lead": 7,
+    "note": "A same-district marriage surname matching a birth mother maiden surname suggests a family cluster but does not prove individual parentage. Births after death were excluded."
+  },
+  "live_search_review_file": "groni-live-duplicate-review-2026-09-23.json",
+  "live_creation_sync": {
+    "updated": "2026-09-23",
+    "created_profile_ids": [
+      "Glasgow-4182",
+      "Glasgow-4183",
+      "Glasgow-4184",
+      "Glasgow-4185",
+      "Glasgow-4186",
+      "Glasgow-4187",
+      "Glasgow-4188",
+      "Glasgow-4189",
+      "Glasgow-4190",
+      "Glasgow-4191",
+      "Glasgow-4192",
+      "Glasgow-4193",
+      "Glasgow-4194",
+      "Glasgow-4195",
+      "Glasgow-4196",
+      "Glasgow-4197",
+      "Glasgow-4198",
+      "Glasgow-4199",
+      "Glasgow-4200",
+      "Glasgow-4201",
+      "Glasgow-4202",
+      "Glasgow-4203",
+      "Glasgow-4204",
+      "Glasgow-4205",
+      "Glasgow-4206",
+      "Glasgow-4207",
+      "Glasgow-4208",
+      "Glasgow-4209",
+      "Glasgow-4210",
+      "Glasgow-4211",
+      "Unknown-766785",
+      "Unknown-766786",
+      "Unknown-766788",
+      "Unknown-766789",
+      "Unknown-766790",
+      "Unknown-766797",
+      "Unknown-766798",
+      "Unknown-766800",
+      "Unknown-766801",
+      "Unknown-766802",
+      "Unknown-766805",
+      "Unknown-766806"
+    ],
+    "catalogue_metadata_status": "pending public WikiTree captures"
+  },
+  "live_verification": {
+    "date": "2026-09-23",
+    "non_robert_death_references_cited": 147,
+    "structured_death_fields_added_after_review": 16
+  }
+}

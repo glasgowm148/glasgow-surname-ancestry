@@ -27,3 +27,13 @@ birth conflict: structured 1810 versus 1800 in the biography.
 
 Update `Glasgow-3995`: reconcile birth to about 1810, add wife Mary Ann Brandon
 Kennedy, and add Leonidas and Cleora with the cited evidence.
+
+## Update 18 September 2026 (applied live)
+
+The planned family work is now applied: wife Mary Ann Brandon Kennedy was
+created as [[Kennedy-35691]] (born about 1815, South Carolina, uncertain; died
+after 17 Oct 1867) and attached as Hiram's spouse; daughter Cleora
+[[Glasgow-4148]] is attached to Hiram and Mary Ann and is married (17 Oct 1867)
+to Leland McNary Speers (new [[Speers-583]], born before 1847). Each new profile
+carries the biographical-account and marriage-notice citations. A profile for
+their son Rev. Leonidas K. Glasgow has still not been created.

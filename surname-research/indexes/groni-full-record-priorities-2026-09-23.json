@@ -1,0 +1,139 @@
+{
+  "generated": "2026-09-23",
+  "scope": "152 supplied GRONI death-index rows; Roberts excluded; rows with an already inspected original civil return excluded",
+  "ranked": [
+    {
+      "rank": 1,
+      "registration_id": "D/1884/99/1009/10/328",
+      "district": "Cookstown",
+      "deceased_index": "David, age 24, died 1884-01-07",
+      "candidate": "[David Glasgow (Glasgow-1802)](https://www.wikitree.com/wiki/Glasgow-1802)",
+      "question": "Is this the Killycurragh David Glasgow born 1865, or a different Cookstown-area David?",
+      "why_full_return_might_resolve": "Glasgow-1802 has a documented 1865 Killycurragh birth and no death. The return's informant, address, occupation and marital/parental context could connect the 1884 death to Killycurragh or exclude it; it is one side of the explicit Cookstown-versus-Omagh identity split.",
+      "evidence": [
+        "surname-research/indexes/profiles.json",
+        "surname-research/indexes/groni-death-match-audit-2026-09-23.csv"
+      ],
+      "priority": "high"
+    },
+    {
+      "rank": 2,
+      "registration_id": "D/1896/212/1025/20/338",
+      "district": "Omagh",
+      "deceased_index": "David, age 28, died 1896-08-06",
+      "candidate": "[David Glasgow (Glasgow-1802)](https://www.wikitree.com/wiki/Glasgow-1802)",
+      "question": "Is this the same Killycurragh David as the 1884 Cookstown candidate, or a second David Glasgow?",
+      "why_full_return_might_resolve": "The audit explicitly records this as competing with the 1884 Cookstown David death. A full return may identify the townland, occupation, informant or relatives and thereby assign one or both deaths to Glasgow-1802 or separate namesakes.",
+      "evidence": [
+        "surname-research/indexes/profiles.json",
+        "surname-research/indexes/groni-death-match-audit-2026-09-23.csv"
+      ],
+      "priority": "high"
+    },
+    {
+      "rank": 3,
+      "registration_id": "D/1900/23/1004/12/293",
+      "district": "Ballymena",
+      "deceased_index": "William, age 58, died 1900-05-17",
+      "candidate": "[William Glasgow (Glasgow-1390)](https://www.wikitree.com/wiki/Glasgow-1390); [William Glasgow (Glasgow-1401)](https://www.wikitree.com/wiki/Glasgow-1401)",
+      "question": "Which of the two distinct c.1839 Antrim William Glasgow profiles, if either, is the 1900 Ballymena decedent?",
+      "why_full_return_might_resolve": "The audit identifies two same-age, same-region profiles and says the row has no distinguishing relative. Informant, residence, occupation, spouse and named children on the full return could separate the two identity clusters and assign the 1900 death.",
+      "evidence": [
+        "surname-research/indexes/profiles.json",
+        "surname-research/indexes/groni-death-match-audit-2026-09-23.csv"
+      ],
+      "priority": "high"
+    },
+    {
+      "rank": 4,
+      "registration_id": "D/1865/24/1004/1/82",
+      "district": "Ballymena",
+      "deceased_index": "William, age 21, died 1865-01-06",
+      "candidate": "[William Glasgow (Glasgow-1390)](https://www.wikitree.com/wiki/Glasgow-1390); [William Glasgow (Glasgow-1401)](https://www.wikitree.com/wiki/Glasgow-1401)",
+      "question": "Does the young 1865 Ballymena William represent one of the same two c.1839 profiles, and can it be linked or contrasted with the 1900 death?",
+      "why_full_return_might_resolve": "The audit treats this as another possible death for the same two competing Williams. A full return's exact address, occupation, informant and relationship data could establish an early death for one profile, rule out the 1900 continuity, or reveal a third local William.",
+      "evidence": [
+        "surname-research/indexes/profiles.json",
+        "surname-research/indexes/groni-death-match-audit-2026-09-23.csv"
+      ],
+      "priority": "medium-high"
+    },
+    {
+      "rank": 5,
+      "registration_id": "D/1891/24/1004/7/198",
+      "district": "Ballymena",
+      "deceased_index": "William, age 58, died 1891-01-30",
+      "candidate": "[William James Glasgow (Glasgow-2983)](https://www.wikitree.com/wiki/Glasgow-2983)",
+      "question": "Is the 1891 Ballymena William the documented Glenleslie/Ballycregagh William James, or a different William Glasgow?",
+      "why_full_return_might_resolve": "The maintained case identifies Glasgow-2983 in the Glenleslie/Ballycregagh family but has no death. The index age implies birth about 1833, close to the documented c.1836 profile; an informant, residence, occupation or family detail could bridge the death to James Glasgow's son or expose a namesake.",
+      "evidence": [
+        "research/Glasgow-2983/findings.md",
+        "surname-research/indexes/groni-death-match-audit-2026-09-23.csv"
+      ],
+      "priority": "medium-high"
+    },
+    {
+      "rank": 6,
+      "registration_id": "D/1870/50/1007/17/273",
+      "district": "Belfast",
+      "deceased_index": "Ellen, age 35, died 1870-11-21",
+      "candidate": "[Ellin Glasgow (Glasgow-1389)](https://www.wikitree.com/wiki/Glasgow-1389)",
+      "question": "Is the Belfast Ellen/Ellin the 1851 Dunaghy/Glenleslie daughter in the Glasgow-1389 cluster, and who was her husband or informant?",
+      "why_full_return_might_resolve": "The profile cluster documents an Ellin Glasgow born about 1837 in Dunaghy, while the audit flags the age/locality match as possible but unproved. The full return may name a spouse, address, occupation or relative, directly testing the identity and the currently unresolved marriage/family context.",
+      "evidence": [
+        "research/Glasgow-1387/findings.md",
+        "surname-research/indexes/profiles.json",
+        "surname-research/indexes/groni-death-match-audit-2026-09-23.csv"
+      ],
+      "priority": "medium"
+    },
+    {
+      "rank": 7,
+      "registration_id": "D/1881/48/1007/19/468",
+      "district": "Belfast",
+      "deceased_index": "William, age 55, died 1881-09-21",
+      "candidate": "[William James Glasgow (Glasgow-3872)](https://www.wikitree.com/wiki/Glasgow-3872)",
+      "question": "Is the Belfast death the possible father William James in the profile cluster, and can the return establish his residence/family identity?",
+      "why_full_return_might_resolve": "The audit has only a birth-range lead for Glasgow-3872 and explicitly says the profile lacks own-death or residence evidence. A full return could provide the missing address, occupation, spouse and informant needed to distinguish this William from other Antrim/Belfast men.",
+      "evidence": [
+        "surname-research/indexes/profiles.json",
+        "surname-research/indexes/groni-death-match-audit-2026-09-23.csv"
+      ],
+      "priority": "medium"
+    },
+    {
+      "rank": 8,
+      "registration_id": "D/1867/96/1008/1/383",
+      "district": "Coleraine",
+      "deceased_index": "Margaret, age 66, died 1867-02-15",
+      "candidate": "[Margaret (Irwin) Glasgow (Unknown-766238)](https://www.wikitree.com/wiki/Unknown-766238)",
+      "question": "Does the Coleraine death belong to the Margaret Irwin of Kilrea profile, whose structured death date matches exactly but whose biography says her death is unproved?",
+      "why_full_return_might_resolve": "An exact date and nearby Kilrea death location point to this live profile, but its Brooklyn birth and explicit biography warning conflict with the assignment. An informant, address, occupation or spouse could resolve whether the structured date belongs to her.",
+      "evidence": [
+        "surname-research/indexes/groni-death-match-audit-2026-09-23.csv",
+        "https://www.wikitree.com/wiki/Unknown-766238"
+      ],
+      "priority": "medium"
+    },
+    {
+      "rank": 9,
+      "registration_id": "D/1890/20/1004/16/320",
+      "district": "Ballymena",
+      "deceased_index": "Rosetta, age 25, died 1890-02-18",
+      "candidate": "[Rose Ann Glasgow (Glasgow-1422)](https://www.wikitree.com/wiki/Glasgow-1422)",
+      "question": "Is Rosetta the Ballymena-born Rose Ann Glasgow, or a distinct woman?",
+      "why_full_return_might_resolve": "The names, age range and district are compatible but do not prove identity. A family informant or precise locality could link the death to Samuel Glasgow and Margaret Calagher's daughter or exclude her.",
+      "evidence": [
+        "research/Glasgow-1422/findings.md",
+        "surname-research/indexes/groni-death-match-audit-2026-09-23.csv"
+      ],
+      "priority": "medium"
+    }
+  ],
+  "excluded_notes": [
+    "All rows assessed existing_profile or existing_profile_update were excluded where the maintained research already cites or inspected an original civil death return; a paid GRONI copy would add little to the stated brick-wall.",
+    "All deferred_robert rows were excluded per instruction.",
+    "Unmatched infants and generic no_catalogue_match rows were excluded because the supplied material does not document a specific parent, spouse, locality or identity-split question that a particular full return is likely to resolve.",
+    "Check the 1822 Samuel Glasgow probate entry before considering the 1873 Armagh death return: if Samuel was the deceased person in that probate, the later death cannot be his."
+  ]
+}

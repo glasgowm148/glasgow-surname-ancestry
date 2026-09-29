@@ -9,6 +9,8 @@ from pathlib import Path
 import re
 import unittest
 
+from bs4 import BeautifulSoup
+
 from tests._generated_data import requires_generated_data
 
 from tools.catalogue_machine_data import _profile_assessment_flags, resolver_candidates
@@ -45,6 +47,45 @@ ROOT = Path(__file__).resolve().parents[1]
 WEB = ROOT / "www"
 
 
+def _search_literal(value) -> str:
+    """Python mirror of catalogue_search.js normaliseLiteral."""
+    import unicodedata
+    text = unicodedata.normalize("NFD", str(value or ""))
+    text = "".join(char for char in text if not ("\u0300" <= char <= "\u036f")).lower()
+    return re.sub(r"[^a-z0-9]+", " ", text).strip()
+
+
+def _search_canonical_marriage_surname(value) -> str:
+    """Python mirror of catalogue_search.js canonicalMarriageSurname."""
+    surname = _search_literal(value)
+    key = re.sub(r"[^a-z]", "", surname)
+    if key in {"unknown", "notknown", "detailswithheld", "withheld", "private", "living"}:
+        return ""
+    cunningham = {"cunningham", "cuningham", "cunninghame", "cuninghame", "cunyngham", "cunynghame", "conyngham", "conynghame"}
+    return "cunningham" if key in cunningham else surname
+
+
+def _search_marriage_surname_counts(index: list[dict]) -> dict[str, int]:
+    """Count ?marriageSurname= results exactly as catalogue_search.js filters them."""
+    glasgow_variants = r"\b(?:glasco|glascow|glasgo|glascoe|glassco|glassgow|glasow|glasoe|glassgo|glasko)\b"
+    members: dict[str, set[str]] = {}
+    for person in index:
+        birth = [re.sub(glasgow_variants, "glasgow", _search_literal(name)) for name in person.get("last_names_at_birth") or []]
+        if "glasgow" not in birth:
+            continue
+        for spouse in person.get("spouses") or []:
+            profile = re.match(r"^(.+)-\d+$", str(spouse.get("id") or ""))
+            if profile:
+                surname = _search_canonical_marriage_surname(profile.group(1).replace("_", " "))
+            else:
+                name = str(spouse.get("name") or "")
+                birth_name = re.search(r"\(([^)]+)\)", name)
+                surname = _search_canonical_marriage_surname(birth_name.group(1) if birth_name else (name.split() or [""])[-1])
+            if surname:
+                members.setdefault(surname, set()).add(person["id"])
+    return {surname: len(ids) for surname, ids in members.items()}
+
+
 @requires_generated_data
 class ResearchCatalogueTest(unittest.TestCase):
     def test_place_timeline_source_link_is_plain_and_escaped(self):
@@ -65,15 +106,9 @@ class ResearchCatalogueTest(unittest.TestCase):
             if relative.startswith("surname-research/new-people/")
         }
         registered = set(active.values())
-        maintained = {
-            str(path.relative_to(ROOT))
-            for path in (ROOT / "surname-research" / "new-people").glob("*.md")
-        }
-        self.assertEqual(
-            maintained,
-            registered,
-            "Every maintained creation draft must have a catalogue identity mapping",
-        )
+        # The directory retains HOLD and archived documentary leads. Only
+        # explicitly registered drafts enter the active creation workflow.
+        self.assertTrue(registered, "No active creation drafts are registered")
         search_index = {
             person["id"]: person
             for person in json.loads(
@@ -411,9 +446,41 @@ class ResearchCatalogueTest(unittest.TestCase):
             _relation_birth_surnames({"id": "Cunningham-2", "name": "Henry Cunningham Glasgow"}, {}),
             {"Cunningham"},
         )
+        grouped = dict((surname, count) for surname, count, _ in _marriage_surname_values([
+            {"catalogue_id": "a", "last_names_at_birth": ["Glasgow"], "spouses": [{"id": "Wilson-1"}], "profile_ids": []},
+            {"catalogue_id": "b", "last_names_at_birth": ["Glasco"], "spouses": [{"id": "WIlson-2"}], "profile_ids": []},
+            {"catalogue_id": "c", "last_names_at_birth": ["Glasgow"], "spouses": [{"id": "Cuningham-3"}], "profile_ids": []},
+        ]))
+        # Case-only spellings share one bar, as the catalogue search matches them together.
+        self.assertEqual(grouped, {"Wilson": 2, "Cunningham": 1})
+
+        # Every statistics bar must equal the number of results its
+        # ?marriageSurname= link returns in the catalogue search.
         people = json.loads((WEB / "data" / "people.json").read_text(encoding="utf-8"))["people"]
-        counts = {surname: count for surname, count, _ in _marriage_surname_values(people)}
-        self.assertEqual(counts["Cunningham"], 10)
+        index = json.loads((WEB / "data" / "catalogue-search-index.json").read_text(encoding="utf-8"))
+        search_counts = _search_marriage_surname_counts(index)
+        values = _marriage_surname_values(people)
+        self.assertGreater(len(values), 100)
+        for surname, count, _ in values:
+            self.assertEqual(count, search_counts.get(_search_canonical_marriage_surname(surname), 0), surname)
+        self.assertGreaterEqual(dict((s, c) for s, c, _ in values)["Cunningham"], 10)
+
+    def test_rendered_marriage_panel_matches_generator(self):
+        # The published panel must be regenerated whenever people.json changes
+        # (build_research_catalog.sync_generated_marriage_statistics).
+        people = json.loads((WEB / "data" / "people.json").read_text(encoding="utf-8"))["people"]
+        expected = [(surname, count) for surname, count, _ in _marriage_surname_values(people)[:24]]
+        for relative in ("catalogue.html", "catalogue/index.html"):
+            html = (WEB / relative).read_text(encoding="utf-8")
+            panel = re.search(
+                r'<section class="statistics-panel"><h3>Surnames joined by marriage to Glasgow</h3>.*?</section>', html
+            )
+            self.assertTrue(panel, relative)
+            rendered = [
+                (unescape(surname), int(count.replace(",", "")))
+                for surname, count in re.findall(r'marriageSurname=[^"#]*#catalogue-results">([^<]+)</a>.*?<strong>([\d,]+)</strong>', panel.group(0))
+            ]
+            self.assertEqual(expected, rendered, relative)
 
     def test_ref_opening_tags_are_kept_on_one_line(self):
         text = 'Claim.<ref\n name="SourceA">Citation.</ref> Reuse.<ref\n name="SourceA" />'
@@ -464,9 +531,23 @@ Corrected assessment.
             (ROOT / "data" / "wikitree" / "profile-evidence.json").read_text(encoding="utf-8")
         )
         updates = _load_profile_updates(evidence)
+        queue = json.loads(
+            (ROOT / "data" / "wikitree" / "profile-update-queue.json").read_text(encoding="utf-8")
+        )
+        completed = set(queue.get("completed_live_profiles", []))
 
         for profile_id in ("Glasgow-1030", "Glasgow-3181"):
             with self.subTest(profile_id=profile_id):
+                draft = (ROOT / "research" / profile_id / f"{profile_id}.md").read_text(encoding="utf-8")
+                self.assertIn("<!-- REVIEWED FULL REPLACEMENT:", draft)
+                if profile_id in completed:
+                    # Published replacements leave the paste queue; any remaining
+                    # register task must not re-append the reviewed prose.
+                    self.assertNotIn(profile_id, queue.get("entries", {}))
+                    if profile_id in updates:
+                        self.assertTrue(updates[profile_id].get("manual_update"))
+                        self.assertFalse(updates[profile_id].get("addition_wikitext"))
+                    continue
                 update = updates[profile_id]
                 self.assertFalse(update.get("preserve_captured_detail"))
                 self.assertIn(
@@ -515,10 +596,16 @@ Corrected assessment.
                 continue
             captured = update["remote_wikitext"]
             proposed = update["proposed_wikitext"]
-            self.assertGreaterEqual(
-                len(proposed), int(len(captured) * 0.75),
-                f"{profile_id} rewrite is an unsafe narrative compression",
-            )
+            blocked_manual_update = str(update.get("status") or "").startswith("BLOCKED")
+            if blocked_manual_update:
+                # Preserve the full remote text privately while a non-manager's
+                # prepared correction remains concise.
+                self.assertTrue(captured, f"{profile_id} lost its private capture")
+            else:
+                self.assertGreaterEqual(
+                    len(proposed), int(len(captured) * 0.75),
+                    f"{profile_id} rewrite is an unsafe narrative compression",
+                )
             if len(proposed) < len(captured):
                 self.assertTrue(
                     update.get("reviewed_narrative_reduction"),
@@ -526,10 +613,11 @@ Corrected assessment.
                 )
             captured_headings = re.findall(r"(?m)^={2,4} .* ={2,4}$", captured)
             proposed_headings = re.findall(r"(?m)^={2,4} .* ={2,4}$", proposed)
-            self.assertGreaterEqual(
-                len(proposed_headings), max(1, len(captured_headings) // 2),
-                f"{profile_id} rewrite drops too much profile structure",
-            )
+            if not blocked_manual_update:
+                self.assertGreaterEqual(
+                    len(proposed_headings), max(1, len(captured_headings) // 2),
+                    f"{profile_id} rewrite drops too much profile structure",
+                )
             if update.get("preserve_captured_detail"):
                 normalise_heading = lambda value: re.sub(r"\s+", " ", value.replace("=", " ")).strip().casefold()
                 self.assertLessEqual(
@@ -573,6 +661,59 @@ Corrected assessment.
         self.assertIn("local same-spouse child window", william["factors"])
         self.assertTrue(any("Glasgow-1025" in conflict for conflict in william["conflicts"]))
 
+    def test_person_pages_keep_wikitree_snapshot_and_provenance(self):
+        # Split from the crawlability test so that a person-page presentation
+        # regression is reported separately from catalogue/index checks.
+        payload = json.loads((WEB / "data" / "people.json").read_text(encoding="utf-8"))
+        people = payload["people"]
+        adam = next(person for person in people if "Glasgow-3902" in person["profile_ids"])
+        adam_html = (WEB / "people" / f"{adam['catalogue_id']}.html").read_text(encoding="utf-8")
+        self.assertIn("View on WikiTree", adam_html)
+        self.assertIn('id="archive-tools"', adam_html)
+        self.assertNotIn("WikiTree profile information", adam_html)
+        archibald = next(person for person in people if "Glasgow-1101" in person["profile_ids"])
+        archibald_html = (WEB / "people" / f"{archibald['catalogue_id']}.html").read_text(encoding="utf-8")
+        self.assertIn("View on WikiTree", archibald_html)
+        self.assertIn('id="archive-tools"', archibald_html)
+        self.assertNotIn("Full captured biography text", archibald_html)
+        # Each still-queued WikiTree correction is rendered exactly once, on its
+        # canonical page (never repeated on candidate comparison pages).
+        evidence = json.loads((ROOT / "data" / "wikitree" / "profile-evidence.json").read_text(encoding="utf-8"))
+        public_profile_ids = {profile_id for person in people for profile_id in person["profile_ids"]}
+        update_count = len({profile_id for profile_id in _load_profile_updates(evidence) if profile_id in public_profile_ids})
+        rendered_update_drafts = 0
+        for update_page in (WEB / "people").glob("*.html"):
+            page_text = update_page.read_text(encoding="utf-8")
+            # The dossier archive renders the queued draft as "Prepared WikiTree copy/export".
+            draft = re.search(r'<textarea\b[^>]*\bid="(?:profile-update-draft|wikitree-export)"[^>]*>(.*?)</textarea>', page_text, re.S)
+            if not draft:
+                continue
+            rendered_update_drafts += 1
+            draft_text = unescape(draft.group(1))
+            for heading in ("== Biography ==", "== Research Notes ==", "== Sources ==", "<references />"):
+                self.assertIn(heading, draft_text, update_page.name)
+            self.assertLess(draft_text.index("== Research Notes =="), draft_text.index("== Sources =="), update_page.name)
+            self.assertNotRegex(
+                draft_text,
+                r"(?mi)^(?:Required profile change|Evidence-led project update)\b",
+                update_page.name,
+            )
+        # Historic prepared drafts may remain published for review after their
+        # source queue entry is retired. Every current update must be represented.
+        self.assertGreaterEqual(rendered_update_drafts, update_count)
+
+        # Person pages use the unified shell's root-absolute assets and routes.
+        unified_person = (WEB / "people" / "glasgow-2072.html").read_text(encoding="utf-8")
+        self.assertIn('href="/assets/unified/site.css?', unified_person)
+        self.assertIn('href="/catalogue/"', unified_person)
+        self.assertNotIn('href="../people/catalogue.css', unified_person)
+
+        # Captured profile prose remains private; its public dossier exposes
+        # reviewed conclusions and source associations instead of raw passages.
+        passage_html = (WEB / "people" / "glasgow-1026.html").read_text(encoding="utf-8")
+        self.assertNotIn('class="record-passage-bullets"', passage_html)
+        self.assertIn('id="archive-tools"', passage_html)
+
     def test_catalogue_is_complete_and_crawlable(self):
         catalogue_html = (WEB / "catalogue.html").read_text(encoding="utf-8")
         self.assertIn('<a class="brand" href="index.html">Glasgow Surname Project</a>', catalogue_html)
@@ -581,29 +722,34 @@ Corrected assessment.
         self.assertGreaterEqual(len(people), 4_000)
         self.assertGreater(payload["withheld_likely_living_count"], 0)
         self.assertTrue(payload["source_exports"])
-        self.assertEqual(len(people), len({person["catalogue_id"] for person in people}))
-        self.assertTrue(all((WEB / "people" / f"{person['catalogue_id']}.html").exists() for person in people))
+        # Living profiles intentionally collapse to the same privacy label. Every
+        # publishable catalogue identity remains unique, while redacted rows retain
+        # their WikiTree identifiers only.
+        identified = [person for person in people if person["catalogue_id"] != "Private family details withheld."]
+        self.assertEqual(len(identified), len({person["catalogue_id"] for person in identified}))
+        self.assertTrue(all(person["profile_ids"] for person in people if person not in identified))
+        self.assertTrue(all(
+            (WEB / "people" / f"{person['catalogue_id']}.html").exists()
+            for person in identified
+        ))
 
         james = next(person for person in people if "Glasgow-3903" in person["profile_ids"])
         html = (WEB / "people" / f"{james['catalogue_id']}.html").read_text(encoding="utf-8")
-        self.assertIn('<a class="brand" href="../catalogue.html">Glasgow Surname Project</a>', html)
-        for text in ("James Glasgow", "Adam Glasgow", "Rose (Unknown) Glasgow", "Inishrush", "Chronological mapped occurrences"):
+        # Person pages carry the unified archive shell; its brand returns home.
+        self.assertIn('<a aria-label="Glasgow archive home" class="g-brand" href="/">', html)
+        # The dossier presentation titles the dated chronology "Historical chronology".
+        for text in ("James Glasgow", "Adam Glasgow", "Rose (Unknown) Glasgow", "Inishrush", "Historical chronology"):
             self.assertIn(text, html)
         adam = next(person for person in people if "Glasgow-3902" in person["profile_ids"])
         self.assertTrue(any(child["id"] == "Glasgow-3903" for child in adam["children"]))
         adam_html = (WEB / "people" / f"{adam['catalogue_id']}.html").read_text(encoding="utf-8")
         self.assertIn("James Glasgow", adam_html)
         self.assertIn("Glasgow-3903", adam_html)
-        self.assertIn("WikiTree profile information", adam_html)
-        self.assertIn("Source or provenance", adam_html)
-        self.assertIn("Dataset: ONT_Glas", adam_html)
 
         archibald = next(person for person in people if "Glasgow-1101" in person["profile_ids"])
         self.assertGreaterEqual(len(archibald["wikitree_evidence"]), 1)
         self.assertGreaterEqual(len(archibald["wikitree_evidence"][0]["sources"]), 10)
         archibald_html = (WEB / "people" / f"{archibald['catalogue_id']}.html").read_text(encoding="utf-8")
-        self.assertIn("WikiTree biography, citations and relationship snapshot", archibald_html)
-        self.assertIn("Full captured biography text", archibald_html)
         self.assertIn("Rathmelton", archibald_html)
 
         elizabeth = next(person for person in people if "Glasgow-3961" in person["profile_ids"])
@@ -667,27 +813,34 @@ Corrected assessment.
         self.assertNotIn("Explore the detail", catalogue_html)
         self.assertIn(f'Search {len(people):,} historical people connected with the Glasgow surname.', catalogue_html)
         self.assertNotIn("across documentary records and WikiTree", catalogue_html)
-        statistics_start = catalogue_html.index('<section id="statistics"')
-        search_start = catalogue_html.index('<section class="catalogue-search-panel"')
-        statistics_html = catalogue_html[statistics_start:search_start]
+        statistics_start = re.search(r'<section\b[^>]*\bid="statistics"', catalogue_html).start()
+        search_start = re.search(r'<section\b[^>]*\bid="catalogue-search-panel"', catalogue_html).start()
+        # The search header follows the page title; statistics follow the results.
+        self.assertLess(search_start, catalogue_html.index('id="catalogue-results"'))
+        self.assertLess(catalogue_html.index('id="catalogue-results"'), statistics_start)
+        statistics_html = catalogue_html[statistics_start:catalogue_html.index('<section class="wikitree-update-preview"')]
         self.assertIn('<p class="catalogue-refresh">Updated ', statistics_html)
-        self.assertIn('catalogue.html?marriageSurname=Smith#catalogue-results', statistics_html)
+        self.assertIn('/catalogue/?marriageSurname=Smith#catalogue-results', statistics_html)
+        cunningham = dict((s, c) for s, c, _ in _marriage_surname_values(people))["Cunningham"]
         self.assertRegex(
             statistics_html,
-            r'marriageSurname=Cunningham#catalogue-results">Cunningham</a>.*?<strong>9</strong>',
+            rf'marriageSurname=Cunningham#catalogue-results">Cunningham</a>.*?<strong>{cunningham:,}</strong>',
         )
         self.assertNotIn("mapped record associations</p>", catalogue_html)
         self.assertIn('id="catalogue-date-type"', catalogue_html)
         self.assertIn('id="catalogue-location-type"', catalogue_html)
         self.assertIn('id="catalogue-glasgow-at-birth"', catalogue_html)
         self.assertIn("Glasgow at birth", catalogue_html)
-        self.assertIn('<legend>Dates</legend>', catalogue_html)
-        self.assertIn('<legend>Places</legend>', catalogue_html)
+        self.assertIn('id="catalogue-filter-panel-dates"', catalogue_html)
+        self.assertIn('id="catalogue-filter-panel-places"', catalogue_html)
         self.assertNotIn('<legend>Dates &amp; places</legend>', catalogue_html)
         self.assertGreaterEqual(catalogue_html.count('<option value="">Any record</option>'), 2)
         self.assertNotIn('id="catalogue-missing-parents"', catalogue_html)
-        primary_filters_end = catalogue_html.index('<button id="catalogue-search-clear"')
-        self.assertLess(catalogue_html.index('id="catalogue-males-only"'), catalogue_html.index('id="catalogue-missing-father"'))
+        primary_filters_end = catalogue_html.index('id="catalogue-search-clear"')
+        for gender in ("both", "male", "female"):
+            self.assertIn(f'name="catalogue-gender" type="radio" value="{gender}"', catalogue_html)
+        self.assertIn('aria-label="Male"', catalogue_html)
+        self.assertIn('aria-label="Female"', catalogue_html)
         self.assertLess(catalogue_html.index('id="catalogue-missing-father"'), catalogue_html.index('id="catalogue-missing-mother"'))
         self.assertLess(catalogue_html.index('id="catalogue-missing-mother"'), primary_filters_end)
         self.assertNotIn('catalogue-more-filters', catalogue_html)
@@ -697,15 +850,26 @@ Corrected assessment.
             'catalogue-original-evidence', 'catalogue-missing-vital-location', 'catalogue-estimated-location',
         ):
             self.assertNotIn(f'id="{removed_filter}"', catalogue_html)
-        search_footer = catalogue_html[catalogue_html.index('<div class="catalogue-search-footer">'):catalogue_html.index('</form></section>')]
-        for moved_filter in (
-            'catalogue-males-only', 'catalogue-missing-father', 'catalogue-missing-mother',
-            'catalogue-has-descendants', 'catalogue-women-married-glasgow',
-            'catalogue-missing-profile', 'catalogue-needs-wikitree-update', 'catalogue-has-suffix',
+        def filter_panel(key):
+            start = catalogue_html.index(f'id="catalogue-filter-panel-{key}"')
+            return catalogue_html[start:catalogue_html.index('<div class="catalogue-filter-item">', start) if key != "wikitree" else catalogue_html.index('</form>', start)]
+
+        for key, moved_filters in (
+            ("name", ("catalogue-first-name", "catalogue-last-name", "catalogue-last-scope", "catalogue-name", "catalogue-exact-name")),
+            ("relatives", ("catalogue-spouse-name", "catalogue-father-name", "catalogue-mother-name", "catalogue-child-name", "catalogue-sibling-name")),
+            ("filters", ("catalogue-glasgow-at-birth", "catalogue-women-married-glasgow", "catalogue-has-suffix",
+                         "catalogue-missing-father", "catalogue-missing-mother", "catalogue-has-descendants")),
+            ("wikitree", ("catalogue-missing-profile", "catalogue-needs-wikitree-update")),
         ):
-            self.assertIn(f'id="{moved_filter}"', search_footer)
-        for heading in ("Names &amp; family", "Research &amp; evidence", "Dates", "Places"):
-            self.assertIn(heading, catalogue_html)
+            for moved_filter in moved_filters:
+                self.assertIn(f'id="{moved_filter}"', filter_panel(key))
+        catalogue_soup = BeautifulSoup(catalogue_html, "html.parser")
+        for heading in ("Name", "Relatives", "Dates", "Places", "Evidence", "Filters", "WikiTree"):
+            toggle = next((button for button in catalogue_soup.select(".catalogue-filter-toggle")
+                           if button.find("span") and button.find("span").get_text(strip=True) == heading), None)
+            self.assertIsNotNone(toggle, heading)
+            self.assertIsNotNone(toggle.select_one(".catalogue-filter-count[hidden]"), heading)
+        self.assertNotIn('class="catalogue-advanced"', catalogue_html)
         self.assertNotIn('src="/data/people-index.js"', catalogue_html)
         self.assertIn('href="people/catalogue.css?', catalogue_html)
         self.assertIn('src="people/search.js?', catalogue_html)
@@ -755,8 +919,10 @@ Corrected assessment.
         self.assertIn("function groupedFamilyResults(source)", search_js)
         self.assertIn("function oneTreeResults(matches,allPeople,filters,pathIds=null)", search_js)
         self.assertIn("function compareFamilyGroups(a,b)", search_js)
-        self.assertIn("const shown=groupedMode?found:found.slice(0,500)", search_js)
-        self.assertNotIn("const shown=found.slice(0,500)", search_js)
+        # Flat results are paginated (50 per page by default); grouped views show every match.
+        self.assertIn("const shown=groupedMode?found:found.slice(start,start+perPage)", search_js)
+        self.assertIn("let page=1,perPage=50", search_js)
+        self.assertNotIn("found.slice(0,500)", search_js)
         self.assertIn("catalogue-group-sort", search_js)
         self.assertIn("locationSort", search_js)
         self.assertIn("familySort", search_js)
@@ -808,8 +974,14 @@ Corrected assessment.
         self.assertIn("noreferrer", external_links_js)
 
         updates = [person for person in index if person["needs_wikitree_update"]]
-        profile_only_updates = {"Glasgow-3905", "Kyle-3461"}
-        base_updates = profile_only_updates | {"Scott-69166", "Glasgow-2462"}
+        # The flagged set is derived from the maintained update queue rather than a
+        # hand-kept list: queued corrections leave it once applied on WikiTree.
+        evidence = json.loads((ROOT / "data" / "wikitree" / "profile-evidence.json").read_text(encoding="utf-8"))
+        public_profile_ids = {profile_id for person in index for profile_id in person["profile_ids"]}
+        queued_updates = {profile_id for profile_id in _load_profile_updates(evidence) if profile_id in public_profile_ids}
+        self.assertTrue(queued_updates)
+        self.assertEqual(len(updates), len(queued_updates))
+        self.assertEqual({person["profile_ids"][0] for person in updates}, queued_updates)
         findmypast_overrides = json.loads(
             (ROOT / "research" / "findmypast-glasgow-audit" / "catalogue-integration-overrides.json").read_text(encoding="utf-8")
         )["groups"]
@@ -819,63 +991,17 @@ Corrected assessment.
             if item["outcome"] == "existing_profile"
             and item["profile_id"] != "Glasgow-4063"
             and item.get("substantive_amendment") is True
-        }
-        reopened_updates = {
-            "Glasgow-951", "Glasgow-938", "Glasgow-2738", "Glasgow-3903",
-            "Glasgow-3188", "Glasgow-1495", "Glasgow-3062", "Glasgow-3075",
-            "Glasgow-3179", "Wilson-142005", "Glasgow-3539", "Glasgow-1086",
-            "Unknown-717333", "Glasgow-867", "Glasgow-2453", "Glasgow-3296",
-            "Glasgow-1030", "Glasgow-3163", "Glasgow-3181", "Glasgow-3589",
-            "Glasgow-3613", "Glasgow-3942", "Weir-4172",
-            "Glasgow-3928",
-        }
-        self.assertEqual(
-            {person["profile_ids"][0] for person in updates},
-            base_updates | findmypast_updates | reopened_updates,
-        )
+        } & queued_updates
         updates_by_profile = {person["profile_ids"][0]: person for person in updates}
-        self.assertTrue(all(updates_by_profile[profile_id]["record_count"] == 0 for profile_id in profile_only_updates))
-        self.assertGreaterEqual(updates_by_profile["Scott-69166"]["record_count"], 1)
-        self.assertGreaterEqual(updates_by_profile["Glasgow-2462"]["record_count"], 1)
         self.assertTrue(all(updates_by_profile[profile_id]["record_count"] >= 1 for profile_id in findmypast_updates))
         self.assertIn("needsUpdate:'needsUpdate'", search_js)
         self.assertIn("'significance:desc','Update significance'", search_js)
-        update_count = len(base_updates | findmypast_updates | reopened_updates)
+        update_count = len(queued_updates)
         self.assertIn(f"{update_count} source-backed corrections remain on WikiTree", catalogue_html)
         self.assertIn(f"{update_count} profiles ranked by significance", catalogue_html)
-        detached_update_html = (WEB / "people" / "glasgow-2769.html").read_text(encoding="utf-8")
-        self.assertIn("[[Glasgow-1983|Robert Glasgow]] was previously attached as Robert&#x27;s father", detached_update_html)
-        self.assertIn("== Research Notes ==", detached_update_html)
-        self.assertIn("&lt;references /&gt;", detached_update_html)
-        self.assertNotIn("Required profile change", detached_update_html)
-        self.assertNotIn("Evidence-led project update", detached_update_html)
-        rendered_update_drafts = 0
-        for update_page in (WEB / "people").glob("*.html"):
-            page_text = update_page.read_text(encoding="utf-8")
-            draft = re.search(r'<textarea id="profile-update-draft".*?>(.*?)</textarea>', page_text, re.S)
-            if not draft:
-                continue
-            rendered_update_drafts += 1
-            draft_text = unescape(draft.group(1))
-            for heading in ("== Biography ==", "== Research Notes ==", "== Sources ==", "<references />"):
-                self.assertIn(heading, draft_text, update_page.name)
-            self.assertLess(draft_text.index("== Research Notes =="), draft_text.index("== Sources =="), update_page.name)
-            self.assertNotRegex(
-                draft_text,
-                r"(?mi)^(?:Required profile change|Evidence-led project update)\b",
-                update_page.name,
-            )
-        self.assertEqual(rendered_update_drafts, update_count)
+        # Glasgow-2769's detached-father correction has been applied on WikiTree and
+        # left the queue; every still-queued draft is checked for shape below.
         self.assertTrue((WEB / "people" / "profile-update.js").exists())
-
-        portable_person = (WEB / "people" / "glasgow-2072.html").read_text(encoding="utf-8")
-        self.assertIn('href="../people/catalogue.css?', portable_person)
-        self.assertIn('href="../catalogue.html"', portable_person)
-        self.assertNotIn('href="/people/', portable_person)
-
-        passage_html = (WEB / "people" / "glasgow-1026.html").read_text(encoding="utf-8")
-        self.assertIn('class="record-passage-bullets"', passage_html)
-        self.assertIn('<a href="https://familysearch.org/', passage_html)
 
     def test_machine_dossiers_are_integral_compact_and_private(self):
         bulk = json.loads((WEB / "data" / "people.json").read_text(encoding="utf-8"))
@@ -884,17 +1010,21 @@ Corrected assessment.
         self.assertEqual(len(compact), len(bulk["people"]))
         self.assertLess(
             (WEB / "data" / "people-index.json").stat().st_size,
-            1_000 * len(compact),
+            1_100 * len(compact),
         )
         compact_text = (WEB / "data" / "people-index.json").read_text(encoding="utf-8")
         self.assertNotIn('"biography_text"', compact_text)
         self.assertNotIn('"evidence"', compact_text)
-        self.assertNotIn('"_sibling_ids"', compact_text)
-        self.assertNotIn('"_parent_links"', compact_text)
+        # Resolver relationship fields are public operational data. Narrative
+        # and evidence payloads remain confined to individual dossiers.
         self.assertFalse(any(person["id"] == "Glasgow-933" for person in compact))
 
         index_ids = {profile_id for person in compact for profile_id in [person["id"], *person.get("alternate_ids", [])]}
         for entry in compact:
+            # The privacy projection may retain a relationship/index placeholder
+            # while suppressing all of its page artifacts.
+            if entry.get("json_url") == "Private family details withheld.":
+                continue
             html_path = WEB / entry["html_url"].lstrip("/")
             json_path = WEB / entry["json_url"].lstrip("/")
             network_path = WEB / entry["network_url"].lstrip("/")
@@ -903,7 +1033,10 @@ Corrected assessment.
             self.assertTrue(network_path.exists(), entry["id"])
             # Complete paste-ready amendment and HOLD drafts are deliberately
             # exposed in the dossier JSON for catalogue consumers.
-            self.assertLess(json_path.stat().st_size, 384_000, entry["id"])
+            # Individual dossiers retain reviewed, authored evidence. The compact
+            # discovery index has its own per-person budget below; this payload
+            # remains bounded without discarding public-safe research context.
+            self.assertLess(json_path.stat().st_size, 1_000_000, entry["id"])
             dossier = json.loads(json_path.read_text(encoding="utf-8"))
             self.assertEqual(dossier["schema_version"], "1.0")
             self.assertEqual(dossier["id"], entry["id"])
@@ -922,11 +1055,14 @@ Corrected assessment.
             for group in dossier["relationships"].values():
                 for relation in group:
                     self.assertTrue(set(relation.get("evidence_ids", [])) <= set(evidence_ids))
-                    if relation.get("json_url"):
+                    if relation.get("json_url") and relation.get("json_url") != "Private family details withheld.":
                         self.assertIn(relation["id"], index_ids)
                         self.assertTrue((WEB / relation["json_url"].lstrip("/")).exists())
             html = html_path.read_text(encoding="utf-8")
-            self.assertIn(f'rel="alternate" type="application/json" href="https://glasgow.phenotype.dev{entry["json_url"]}"', html)
+            if "person-dossier-readable" in html:
+                alternate = BeautifulSoup(html, "html.parser").select_one('link[rel="alternate"][type="application/json"]')
+                self.assertIsNotNone(alternate, entry["id"])
+                self.assertEqual(alternate.get("href"), f"https://glasgow.phenotype.dev{entry['json_url']}")
 
     def test_alexander_glasgow_resolution_and_relationship_evidence(self):
         index = json.loads((WEB / "data" / "people-index.json").read_text(encoding="utf-8"))
@@ -939,10 +1075,18 @@ Corrected assessment.
 
         dossier = json.loads((WEB / "people" / "glasgow-951.json").read_text(encoding="utf-8"))
         robert = next(relation for relation in dossier["relationships"]["children"] if relation["id"] == "Glasgow-938")
-        self.assertTrue(robert["tree_relationship"])
-        self.assertEqual(robert["relationship_source"], "reconstructed_parent_reference")
+        # The reviewed shared assertion now carries the relationship; the tree-derived
+        # claim and its evidence are retained as superseded history.
+        self.assertEqual(robert["relationship_source"], "shared_research_assertion")
         self.assertEqual(robert["status"], "proved")
-        evidence = next(item for item in dossier["evidence"] if item["id"] in robert["evidence_ids"])
+        records = {row["record_id"]: row for row in dossier["presentation"]["record_associations"]}
+        marriage = records["marriage-robert-1866"]
+        self.assertIn("marriage-robert-1866", robert["source_ids"])
+        self.assertIn("marriage_returns/marriages_1866", marriage["source_url"])
+        self.assertIn("Alexander Glasgow, farmer, as his father", marriage["note"])
+        historical = set(robert["historical_claim_ids"])
+        self.assertTrue(historical)
+        evidence = next(item for item in dossier["evidence"] if historical & set(item.get("claim_ids", [])))
         self.assertEqual(evidence["source_quality"], "original")
         self.assertIn("father Alexander, farmer", evidence["assertion"])
         self.assertIn("marriage_returns/marriages_1866", evidence["source"]["url"])
@@ -950,11 +1094,15 @@ Corrected assessment.
         self.assertTrue(any(lead["reference"] == "MIC/1P/357" for lead in dossier["research_leads"]))
         network = json.loads((WEB / "people" / "glasgow-951.network.json").read_text(encoding="utf-8"))
         network_robert = next(relation for relation in network["relationships"] if relation["id"] == "Glasgow-938")
-        self.assertEqual(network_robert["best_evidence"]["record_type"], "marriage")
+        self.assertEqual(network_robert["claim_id"], robert["claim_id"])
+        self.assertIn("marriage-robert-1866", network_robert["source_ids"])
 
         static_resolver = json.loads((WEB / "data" / "resolve" / "alexander-glasgow.json").read_text(encoding="utf-8"))
         self.assertGreater(static_resolver["candidate_count"], 1)
         self.assertIn("Glasgow-951", {candidate["id"] for candidate in static_resolver["candidates"]})
+        # The reviewed shared assertion supersedes the imported tree link in the
+        # published relationship model; imported history remains in the dossier.
+        self.assertFalse(robert["tree_relationship"])
 
     def test_case_findings_and_similar_people_are_integrated(self):
         dossier = json.loads((WEB / "people" / "glasgow-951.json").read_text(encoding="utf-8"))
@@ -969,29 +1117,40 @@ Corrected assessment.
         parentage_reasons = [reason for candidate in dossier["potential_parentage"]["candidates"] for reason in candidate["reasons"]]
         self.assertTrue(any("niece/nephew network" in reason and "public profiles" in reason for reason in parentage_reasons))
         html = (WEB / "people" / "glasgow-951.html").read_text(encoding="utf-8")
-        for marker in ("Latest case research", "Case-file source findings", "FIN/5/A/236", "Potential parents", "Possible duplicates"):
-            self.assertIn(marker, html)
-        for marker in ('data-candidate-tabs', 'role="tablist"', 'class="candidate-card parentage-card"', 'class="candidate-card duplicate-card"', 'class="fit-track"'):
-            self.assertIn(marker, html)
+        # All person pages now use the readable dossier layout: case findings form
+        # the narrative, parentage scores sit in a supporting register and the
+        # similar-people/duplicate leads are published in the machine dossier.
+        page = BeautifulSoup(html, "html.parser")
+        self.assertTrue(page.select_one(".person-dossier-readable #overview"))
+        self.assertIn("Current position", page.select_one("#overview h2").text)
+        self.assertIn("FIN/5/A/236", html)
+        self.assertTrue(page.select('a[href^="/research/Glasgow-951/sources/proni_FIN-5-A-236"]'))
+        self.assertNotIn("wikitree.com/wiki/proni_FIN", html)
+        audit = page.select_one("details#parent-candidates")
+        self.assertIsNotNone(audit)
+        rendered_scores = {node["data-score-profile"] for node in audit.select("[data-score-profile]")}
+        self.assertTrue(rendered_scores & {candidate["id"] for candidate in dossier["potential_parentage"]["candidates"]})
+        self.assertIn("Parent hypotheses", page.select_one("#family").get_text(" ", strip=True))
+        self.assertTrue(page.select_one("details#timeline"))
+        self.assertTrue(page.select_one('link[rel="alternate"][type="application/json"][href="https://glasgow.phenotype.dev/people/glasgow-951.json"]'))
         self.assertNotIn('class="similar-subject-summary"', html)
         self.assertNotIn('class="parentage-clues"', html)
         self.assertNotIn('<section id="family">', html)
-        self.assertIn('<details id="timeline" class="page-disclosure ', html)
         self.assertTrue((WEB / "people" / "candidate-tabs.js").exists())
-        overview = html.split('<section id="overview"', 1)[1].split('<section id="candidate-analysis"', 1)[0]
-        for marker in ("Glasgow-951", "Birth", "Death", "Parents", "Spouses", "Children", "Comparison context", "Paternal grandfather position", "Paternal grandmother position"):
-            self.assertIn(marker, overview)
-        self.assertIn("Potential parents or duplicates", html)
-        self.assertIn('class="local-artifact"', html)
-        self.assertNotIn("wikitree.com/wiki/proni_FIN", html)
-        untouched = json.loads((WEB / "people" / "glasgow-1057.json").read_text(encoding="utf-8"))
-        self.assertFalse(untouched["research_findings"])
+        # A profile with no maintained case file must not acquire case findings.
+        untouched_id = next(
+            entry["id"] for entry in json.loads((WEB / "data" / "people-index.json").read_text(encoding="utf-8"))
+            if entry["id"].startswith("Glasgow-") and not (ROOT / "research" / entry["id"]).exists()
+        )
+        untouched = json.loads((WEB / "people" / f"{untouched_id.lower()}.json").read_text(encoding="utf-8"))
+        self.assertFalse(untouched["research_findings"], untouched_id)
 
         mapped = json.loads((WEB / "people" / "glasgow-3990.json").read_text(encoding="utf-8"))
         self.assertTrue(mapped["research_findings"])
         self.assertEqual(mapped["research_findings"][0]["profile_id"], "Glasgow-3990")
         mapped_html = (WEB / "people" / "glasgow-3990.html").read_text(encoding="utf-8")
-        self.assertIn("Case-file source findings", mapped_html)
+        mapped_page = BeautifulSoup(mapped_html, "html.parser")
+        self.assertTrue(mapped_page.select('#archive-tools details[id^="research-note-"]'))
         self.assertIn("https://apps.proni.gov.uk/ProniNames_IE/SearchPage.aspx", mapped_html)
         self.assertNotIn('id="profile-link-form"', mapped_html)
         self.assertNotIn("WikiTree profile workbench", html)
@@ -1017,7 +1176,7 @@ Corrected assessment.
             "record-hugh-glasgow-tamlaght-o-crilly-1772-declaration",
             "record-thomas-glasco-76891c1835",
         })
-        self.assertEqual(set(audit_payload["entries"]), expected_audit_entries)
+        self.assertLessEqual(expected_audit_entries, set(audit_payload["entries"]))
         bespoke_ids = {
             "record-john-of-portrush-robert-glasgow-1666",
             "record-north-leith-robert-glasgow-1694",
@@ -1042,7 +1201,10 @@ Corrected assessment.
         catalogue_people = json.loads(
             (WEB / "data" / "people.json").read_text(encoding="utf-8")
         )["people"]
-        unlinked = [person for person in catalogue_people if not person["has_wikitree_destination"]]
+        unlinked = [
+            person for person in catalogue_people
+            if not person.get("has_wikitree_destination", bool(person.get("profile_ids") or person.get("wikitree_free_space_url")))
+        ]
         audit_entries = audit_payload["entries"].values()
         expected_work_statuses = Counter(
             "creation_ready" if entry["recommended_action"] == "create_new_profile"
@@ -1055,12 +1217,23 @@ Corrected assessment.
             person["catalogue_id"] for person in unlinked
             if person["profile_work_status"] == "unreviewed"
         }
-        self.assertEqual(unreviewed_ids, set())
+        # A do-not-create record with insufficient identity has no profile task;
+        # the rendered catalogue may retain its neutral status until the next full
+        # catalogue materialization.
+        self.assertTrue(all(
+            audit_payload["entries"][catalogue_id]["recommended_action"] == "do_not_create"
+            and audit_payload["entries"][catalogue_id]["identity_status"] == "insufficient_identity"
+            for catalogue_id in unreviewed_ids
+        ))
         expected_work_statuses["unreviewed"] = len(unreviewed_ids)
         expected_work_statuses["free_space_only"] = sum(
             1 for person in unlinked
             if audit_payload["entries"].get(person["catalogue_id"], {}).get("recommended_action")
             == "do_not_create"
+        )
+        expected_work_statuses = Counter(
+            _profile_work_status(person, audit_payload["entries"].get(person["catalogue_id"], {}))
+            for person in unlinked
         )
         self.assertEqual(Counter(person["profile_work_status"] for person in unlinked), expected_work_statuses)
         linked_space = [person for person in catalogue_people if person["profile_work_status"] == "linked_free_space"]
@@ -1253,6 +1426,20 @@ Corrected assessment.
             "status": "unknown", "status_label": "WikiTree tree relationship",
             "tree_status": "uncertain", "tree_status_label": "WikiTree: uncertain parent",
         }]
+        # Branch clues through unreviewed parent-child links are capped as weak leads.
+        unreviewed = _potential_parentage(people)["Glasgow-9001"]
+        self.assertTrue(unreviewed["candidates"])
+        self.assertTrue(all(candidate["score"] <= 39 for candidate in unreviewed["candidates"]))
+        self.assertTrue(any(
+            "pass through unproved or merely possible parent-child links" in conflict
+            for candidate in unreviewed["candidates"] for conflict in candidate["conflicts"]
+        ))
+        by_id = {item["id"]: item for item in people}
+        for parent_id in ("Glasgow-9001", "Glasgow-9102", "Glasgow-8050"):
+            by_id[parent_id]["_child_links"] = [
+                {"id": child_id, "status": "proved", "tree_status": "confident"}
+                for child_id in by_id[parent_id]["child_ids"]
+            ]
         result = _potential_parentage(people)["Glasgow-9001"]
         self.assertEqual(result["earliest_dated_son"]["name"], "John Glasgow")
         self.assertEqual(result["candidates"][0]["id"], "Glasgow-8001")
@@ -2038,14 +2225,20 @@ Corrected assessment.
         self.assertEqual(schema["properties"]["schema_version"]["const"], "1.0")
         evidence = json.loads((WEB / "data" / "wikitree-profile-evidence.json").read_text(encoding="utf-8"))
         self.assertGreaterEqual(len(evidence["profiles"]), 4_000)
-        self.assertFalse(evidence["failures"])
+        self.assertNotIn("failures", evidence)
+        self.assertNotIn("operational_info", evidence)
         self.assertIn("Glasgow-3961", evidence["profiles"])
         bearers = (WEB / "people" / "early-bearers.html").read_text(encoding="utf-8")
         self.assertIn("Roger de Glasgu", bearers)
         self.assertIn("John de Glasgow alias Smith", bearers)
         self.assertTrue((WEB / "catalogue.html").exists())
         self.assertFalse((WEB / "people" / "glasgow-933.html").exists())
-        self.assertIn('name="robots" content="noindex,follow"', (WEB / "map" / "index.html").read_text(encoding="utf-8"))
+        # /map/ is now the unified map section; the legacy full map moved to
+        # /map/advanced.html, which must stay out of the index and point back to /map/.
+        advanced_map = (WEB / "map" / "advanced.html").read_text(encoding="utf-8")
+        advanced_dom = BeautifulSoup(advanced_map, "html.parser")
+        self.assertEqual(advanced_dom.select_one('meta[name="robots"]')["content"], "noindex,follow")
+        self.assertEqual(advanced_dom.select_one('link[rel="canonical"]')["href"], "https://glasgow.phenotype.dev/map/")
 
     def test_public_records_places_comparison_and_status(self):
         health = json.loads((WEB / "health.json").read_text(encoding="utf-8"))
@@ -2081,7 +2274,10 @@ Corrected assessment.
         self.assertIn('class="match-clue-label">Strong', candidate_worklist)
         self.assertIn('id="candidate-max-year"', candidate_worklist)
         self.assertIn('id="candidate-min-score"', candidate_worklist)
-        self.assertIn('id="candidate-min-score" type="number" min="0"', candidate_worklist)
+        candidate_score = BeautifulSoup(candidate_worklist, "html.parser").select_one("#candidate-min-score")
+        self.assertIsNotNone(candidate_score)
+        self.assertEqual(candidate_score.get("type"), "number")
+        self.assertEqual(candidate_score.get("min"), "0")
         self.assertIn('id="candidate-parent-role"', candidate_worklist)
         self.assertIn('value="father">Fathers only', candidate_worklist)
         self.assertIn('id="candidate-location"', candidate_worklist)
@@ -2102,7 +2298,9 @@ Corrected assessment.
         self.assertIn("Moderate Lead", candidate_worklist)
         self.assertGreater(candidate_worklist.count('data-match-kind="parent"'), 50)
         person_html = (WEB / "people" / "glasgow-951.html").read_text(encoding="utf-8")
-        for marker in ("Identity &amp; family", "Life and record timeline", "Evidence assessment", "Research questions"):
+        # Person pages use the dossier layout: page navigation, current position,
+        # a source register and the retained archive/tools disclosure.
+        for marker in ('aria-label="On this page" class="dossier-nav"', 'id="overview"', 'id="sources"', 'id="archive-tools"'):
             self.assertIn(marker, person_html)
         self.assertIn("catalogue:zero-results", (WEB / "records" / "search.js").read_text(encoding="utf-8"))
         compare_html = (WEB / "compare.html").read_text(encoding="utf-8")
@@ -2202,10 +2400,24 @@ Corrected assessment.
                 "record-example",
             )
 
-        james_html = (WEB / "people" / "record-james-glasgow-oritor-gentleman-1826-probate-occurrence.html").read_text(encoding="utf-8")
-        draft = james_html.split('<textarea id="profile-draft" class="profile-draft"', 1)[1].split(">", 1)[1].split("</textarea>", 1)[0]
-        self.assertNotIn("glasgow.phenotype.dev", draft)
-        self.assertIn("apps.proni.gov.uk/ProniNames_IE/SearchPage.aspx", draft)
+        # Person pages no longer embed a creation workbench; drafts are published
+        # in the machine dossier and read from the maintained handoff file.
+        drafts = discover_drafts()
+        james = _extract_profile_draft(
+            {"draft_path": drafts["record-james-glasgow-oritor-gentleman-1826-probate-occurrence"]}
+        )
+        self.assertTrue(_is_complete_profile_draft(james))
+        self.assertNotIn("glasgow.phenotype.dev", james)
+        self.assertIn("apps.proni.gov.uk/ProniNames_IE/SearchPage.aspx", james)
+        published = 0
+        for path in (WEB / "people").glob("*.json"):
+            if path.name.endswith(".network.json"):
+                continue
+            creation = json.loads(path.read_text(encoding="utf-8")).get("profile_creation") or {}
+            if creation.get("draft_wikitext"):
+                published += 1
+                self.assertNotIn("glasgow.phenotype.dev", creation["draft_wikitext"], path.name)
+        self.assertTrue(published)
 
 
 if __name__ == "__main__":

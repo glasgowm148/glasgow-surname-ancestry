@@ -1,0 +1,82 @@
+{
+  "verified_at": "2026-09-21T20:53:52.452048+00:00",
+  "profiles": [
+    {
+      "profile": "Glasgow-1143",
+      "url": "https://www.wikitree.com/wiki/Glasgow-1143",
+      "revision": "20260921205109",
+      "exact_biography_match": true,
+      "new_section_outside_comments": true,
+      "father_id": 29027866,
+      "father_status": "",
+      "mother_id": 0,
+      "sha256": "c92fcc6d42834586aa45c343d6167f593b587ddf99424f96178f7e05a5f02d80"
+    },
+    {
+      "profile": "Glasgow-1505",
+      "url": "https://www.wikitree.com/wiki/Glasgow-1505",
+      "revision": "20260921205154",
+      "exact_biography_match": true,
+      "new_section_outside_comments": true,
+      "father_id": 29027866,
+      "father_status": "10",
+      "mother_id": 0,
+      "sha256": "6e9c14a6daccd18f2c78dd054ac3ecb0fc4b17cc4b665764623af1d95dbb0b2d"
+    },
+    {
+      "profile": "Glasgow-3326",
+      "url": "https://www.wikitree.com/wiki/Glasgow-3326",
+      "revision": "20260921205326",
+      "exact_biography_match": true,
+      "new_section_outside_comments": true,
+      "father_id": 29027902,
+      "father_status": "20",
+      "mother_id": 29028172,
+      "sha256": "02f4cd48ff64d533f7a0d6db8702bcfb5dae93e54c689799dab6a9ef2f5277ce"
+    },
+    {
+      "profile": "Glasgow-3959",
+      "url": "https://www.wikitree.com/wiki/Glasgow-3959",
+      "revision": "20260921204554",
+      "exact_biography_match": true,
+      "new_section_outside_comments": true,
+      "father_id": 51230723,
+      "father_status": "10",
+      "mother_id": 0,
+      "sha256": "5eacfae692b7669b684cc4336e79e11869b0d6192458ab54fd48d73e4f850586"
+    },
+    {
+      "profile": "Glasgow-3990",
+      "url": "https://www.wikitree.com/wiki/Glasgow-3990",
+      "revision": "20260921204421",
+      "exact_biography_match": true,
+      "new_section_outside_comments": true,
+      "father_id": 50931016,
+      "father_status": "10",
+      "mother_id": 0,
+      "sha256": "3fb089c87006908be30f2205eb507797f8e3ec47a652318c319178ac015d546d"
+    }
+  ],
+  "structured_changes": "None; biography and source text only",
+  "website": "Local synchronization; no deployment",
+  "local_site_checks": {
+    "dossiers": [
+      "Glasgow-1143",
+      "Glasgow-1505",
+      "Glasgow-3326",
+      "Glasgow-1502",
+      "Glasgow-3970",
+      "Glasgow-3913",
+      "Glasgow-3990",
+      "Glasgow-3959"
+    ],
+    "visible_text_checks": "Passed",
+    "json_parse": "Passed",
+    "targeted_freshness": "8 checked; no stale or missing public cases",
+    "browser_checks": [
+      "Larne family synthesis",
+      "John3990 current conclusion"
+    ],
+    "deployment": "Not performed"
+  }
+}

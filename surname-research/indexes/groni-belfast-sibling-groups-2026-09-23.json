@@ -1,0 +1,22 @@
+{
+  "updated": "2026-09-23",
+  "source": "GRONI birth and marriage index summaries supplied for the Belfast Glasgow review",
+  "groups": [
+    {
+      "mother_profile": "Mitchell-58907",
+      "mother_name": "Unknown Mitchell Glasgow",
+      "children": ["Glasgow-4208", "Glasgow-4195"],
+      "birth_indexes": ["U/1889/50/1007/52/143", "U/1891/50/1007/58/148"],
+      "marriage_lead": "M/1887/B1/418/66/71",
+      "assessment": "Confirmed sibling grouping from two Belfast births with mother's maiden surname Mitchell; marriage summary does not identify a given name or named father."
+    },
+    {
+      "mother_profile": "Moore-107968",
+      "mother_name": "Unknown Moore Glasgow",
+      "children": ["Glasgow-4186", "Glasgow-4200"],
+      "birth_indexes": ["U/1894/56/1007/2/27", "U/1897/51/1007/45/300"],
+      "marriage_lead": "M/1886/B1/418/65/88",
+      "assessment": "Confirmed sibling grouping from two Belfast births with mother's maiden surname Moore; marriage summary does not identify a given name or named father."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "generated": "2026-09-24",
+  "read_only": true,
+  "records": [
+    {
+      "group": "Henry|Cookstown",
+      "children": [
+        "Glasgow-4296",
+        "Glasgow-4299"
+      ],
+      "safe_parent_ids": [],
+      "hold_parent_ids": [
+        "Henry-13722",
+        "Glasgow-1703",
+        "Henry-13729",
+        "Glasgow-1732"
+      ],
+      "reason": "Two distinct Henry parent couples in the same maiden-surname/district group; 1870 and 1873 children cannot be assigned safely from local crosswalk alone."
+    },
+    {
+      "group": "Neill|Cookstown",
+      "children": [
+        "Glasgow-4248",
+        "Glasgow-4297",
+        "Glasgow-4300"
+      ],
+      "safe_parent_ids": [],
+      "hold_parent_ids": [
+        "Edsel-9",
+        "Glasgow-1397",
+        "Unknown-696005",
+        "Glasgow-2995"
+      ],
+      "reason": "Two conflicting candidate parent couples; no safe assignment."
+    },
+    {
+      "group": "Moore|Belfast",
+      "children": [
+        "Glasgow-4240",
+        "Glasgow-4242"
+      ],
+      "safe_parent_ids": [],
+      "hold_parent_ids": [
+        "Moore-89506",
+        "Moore-107968",
+        "Glasgow-1395"
+      ],
+      "reason": "Two conflicting Moore mothers; shared father candidate does not resolve maternal identity."
+    },
+    {
+      "group": "Bell|Magherafelt",
+      "children": [
+        "Glasgow-4316"
+      ],
+      "safe_parent_ids": [
+        "Bell-32242",
+        "Glasgow-1676"
+      ],
+      "hold_parent_ids": [],
+      "reason": "Single consistent candidate couple; existing children begin 1867, while 1865 child precedes them and has no same-date duplicate in local snapshot."
+    }
+  ]
+}

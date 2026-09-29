@@ -1,6 +1,14 @@
 # Findings: [John Glasgow (Glasgow-1604), about 1626, Kilwinning/Ayrshire](https://www.wikitree.com/wiki/Glasgow-1604)
 
-## Current conclusion
+## Current conclusion — 27 September 2026
+
+**Merged Glasgow-3145 into this profile on 27 September 2026.** Both profiles represented an unsourced John born about 1626; neither had an independent event establishing a second man. The surviving profile retains uncertain Hugh Glasgow-1603 as attached father and three adult sons. Glasgow-3145’s alternative James Glasgow-991/Christina Bie parentage survives in the merged biography as an unproved hypothesis, not a combined parent couple. The approximate 1664 death remains unsourced.
+
+## Next records
+
+Find a contemporary record identifying this John and test both parentage routes before upgrading either.
+
+## Prior assessment — superseded by merge
 
 John is the best existing-profile candidate for the father of [Rev. John Glasgow
 M.A. (Glasgow-1073), about 1653, Kilbirnie](https://www.wikitree.com/wiki/Glasgow-1073),

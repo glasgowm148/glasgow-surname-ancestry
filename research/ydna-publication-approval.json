@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "scope": "previous-curated-ydna-study",
+  "approved_on": "2026-09-29",
+  "authorization": "Project owner explicitly requested: Restore the previous curated Y-DNA research in full. Includes previously public kit comparisons, STR matrices, SNP call summaries, diagrams, tools and exports. Raw sequence files remain private.",
+  "inputs": [
+    {
+      "path": "ydna/glasgow-ydna-story-source/data.json",
+      "sha256": "be8f18bb335d7ae2be3afe482389d14c3d015bb6cc9fefdf89af79450b24e9ba"
+    },
+    {
+      "path": "assets/research/dna-index.json",
+      "sha256": "12b8692cd4d7cf7253f1e266bed8355d61da00adb1f0566df867a479b78aada0"
+    }
+  ],
+  "public_pages": [
+    "ydna/index.html",
+    "ydna/glasgow-ydna-story-source/index.html"
+  ],
+  "public_assets": [
+    {
+      "path": "ydna/lines.json",
+      "source": "assets/research/dna-index.json"
+    }
+  ]
+}

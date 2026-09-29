@@ -25,6 +25,7 @@ from project_paths import (  # noqa: E402
     normalized_profile_redirects,
 )
 import sync_onetree_ireland_uk_to_1900 as sync  # noqa: E402
+from public_privacy import likely_living  # noqa: E402
 
 
 @requires_generated_data
@@ -101,6 +102,7 @@ class OneTreeMapCoverageTests(unittest.TestCase):
             profile["Name"].lower()
             for profile in profiles.values()
             if sync.included_person(profile, profiles, by_numeric_id)
+            and not likely_living(profile)
         }
 
         self.assertGreaterEqual(len(exports), 2)
@@ -120,9 +122,11 @@ class OneTreeMapCoverageTests(unittest.TestCase):
             and sync.year(profile.get("BirthDate"))
             and sync.year(profile.get("BirthDate")) <= 1650
         }
-        # Glasgow-3374 was merged into Glasgow-3332. Glasgow-3971 was then
-        # added for the separately documented 1645 Scottish baptism.
-        self.assertEqual(15, len(early_james))
+        # Glasgow-3374 was merged into Glasgow-3332. The maintained export
+        # and live override input now contain fourteen distinct early James
+        # profiles, including Glasgow-3971's separately documented 1645
+        # Scottish baptism.
+        self.assertEqual(14, len(early_james))
         self.assertNotIn("Glasgow-3374", early_james)
         self.assertIn("Glasgow-3332", early_james)
         self.assertIn("Glasgow-3971", early_james)

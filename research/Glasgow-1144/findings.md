@@ -1,6 +1,6 @@
 # Findings: [James Glasgow (Glasgow-1144), born 1731-05-24, Kilwaughter, Larne, County Antrim, Ireland](https://www.wikitree.com/wiki/Glasgow-1144)
 
-Last updated: 2026-08-12
+Last updated: 2026-09-21
 
 Record every useful result and negative search here as it is found.
 Do not treat an unsourced tree or naming pattern as proof.
@@ -26,7 +26,10 @@ origin for the Newberry McCrackens.
 
 The congregation-register chronology additionally records James born 24 May 1731
 to Robert and Rachel Glasgow. The conclusions are strongly supported by concordant
-transcriptions of distinct original records. Original images remain the final check.
+transcriptions of distinct original records. Original-image review of memorial
+159661 (20 December 1764) now independently corroborates his father Robert with
+the express wording `Jas Glasgow son of the sd Robt`; see the dated proof
+section below. That inspection does not verify the images of the other records.
 
 The equity pleadings say James's wife Mary was a daughter of one of Rachel
 Wilson's five sisters. On the pleaded relationships James and Mary were first
@@ -137,3 +140,41 @@ Profile prose and trees remain leads; inspect the cited record before treating a
 The 28 March 1768 assignment should be removed from this profile. Inspection of the [original memorial image](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJW-DDXW) shows that the assignor was **James Glasgow, ropemaker**, not soapmaker. He was assigning the plot, workhouse and remainder of the same ropewalk lease granted in 1760 to James Glasgow of Belfast, ropemaker. The occupational and property continuity, followed by a Larne “Roper” reference in Alexander Holmes's 1799 will, identifies the record with the local ropemaker represented by `Glasgow-1509`, not with the South Carolina settler.
 
 The same 1768 memorial separately names another James Glasgow, a tanner, as witness. That tanner sequence is treated under `Glasgow-3991`. The deed therefore documents two contemporary Larne men and cannot be used as evidence that this profile disposed of property before emigrating.
+
+## Original-image proof: Robert's son James — 21 September 2026
+
+Registry of Deeds memorial **159661**, pp. **415–416**, records Robert Glasgow
+of Ballykeel, parish of Kilwaughter, granting Hugh Shannon of the same parish
+a lease dated **20 December 1764**. The opening reads `Twentyth day of Decr`,
+not a twenty-seventh date. The premises comprise one half of Lower Ballykeel,
+estimated at thirty-one acres and a half, with half the office houses and
+associated appurtenances, held under William Agnew of Kilwaughter.
+
+The continuation expressly includes `Jas Glasgow son of the sd Robt` among the
+lease lives, alongside Robert Glasgow the grantor and Elinor Jones otherwise
+Agnew, daughter of William Agnew. **This is direct contemporary father–son
+wording**, rather than an inference from the `James Glasgow junior` life in
+memorial 74015 (1738). Read in the same Ballykeel tenure and independently
+documented household, it corroborates Robert-1143 as father of James-1144.
+The memorial itself gives James no age, birthplace, mother or later American
+residence: those identity details still depend on the register and other records.
+
+Hugh Shannon's participation is proved, but this lease does **not** call him
+Robert's son-in-law. His marriage to Ann Glasgow belongs to the independent
+family evidence. Nor does this document identify Robert's own father or supply
+a bridge to Robert-1502 or James-1081.
+
+The deed and memorial were witnessed by James Shutter and Hugh Kennedy; the
+continuation records James Shutter's affidavit at Carrickfergus on **29 March
+1766**. The recorded registration is **18 April 1766**. The reviewed screenshots
+independently expose the lease-day and kinship wording; the memorial number and
+registration date are from the accompanying main-task header reading, since the
+opening screenshot is cropped at its left edge.
+
+Sources: Registry of Deeds memorial 159661, pp.415–416, FamilySearch images
+[542, 3Q9M-CSH3-33Q6-L](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSH3-33Q6-L)
+and [543, 3Q9M-CSH3-33QZ-Y](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSH3-33QZ-Y).
+Locally reviewed original-register image captures:
+[opening](../larne-proof-2026-09-21/sources/fs-33Q6-original.png),
+[continuation](../larne-proof-2026-09-21/sources/fs-33QZ-original.png).
+These are images of the registered memorial, not the separately executed lease.

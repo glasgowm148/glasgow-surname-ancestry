@@ -1,6 +1,6 @@
 # Findings: Hugh Glasgow (Glasgow-1503), Larne
 
-Last updated: 2026-08-13
+Last updated: 2026-09-21
 
 ## Current conclusion
 
@@ -46,13 +46,15 @@ candidate, not an identification. If the original surname proves to be Glasgow
 and the child proves to be this Hugh, it would point to William rather than the
 currently attached Robert as his father.
 
-A newly identified PRONI title chain is the best prospect for extending this
-household another generation. A 1736 lease put Larne tenements jointly in the
-names of William and Hugh Glasgow; endorsements inserted new lives in 1751 and
-1767; and the same 1736 lease was renewed to Elizabeth Glasgow, widow of Larne,
-in 1824. If she is Elizabeth, widow of Hugh's grandson William Glasgow-3324, the
-original renewal may recite the missing succession. The catalogue descriptions
-do not identify her husband, so that link is not yet proved.
+A PRONI title chain remains the best prospect for extending this household another
+generation. The inspected original memorial 63221 is dated **10 March 1736** and
+puts two Larne tenements jointly in the names of William and Hugh Glasgow; its
+royal measuring lives are not relatives. A newly inspected 4 June 1757 assignment
+(memorial 159181, manuscript pp.473–474) independently refers to a head lease
+granted by William and Hugh Glasgow of Larne. The 1751 and 1767 endorsements and
+the 1824 renewal to Elizabeth Glasgow, widow of Larne, remain unexamined for
+succession language. Neither inspected deed proves that William and Hugh were
+brothers or identifies a parent, spouse or child.
 
 ## Source findings
 
@@ -63,9 +65,10 @@ do not identify her husband, so that link is not yet proved.
 | [RCB Library parish-register list](https://www.churchofireland.org/cmsfiles/pdf/AboutUs/library/registers/ParishRegisters/DEF/DublinStCatherineParishRegisterList.pdf) | Identifies Herbert Wood's 1908 published edition, *The Registers of the Parish of S. Catherine, Dublin, 1636-1715*. | Inspect the printed entry or original register image before deciding whether `Glasroe` could be a misreading of `Glasgoe/Glasgow`. |
 | [Archived Kilwaughter chronology](https://web.archive.org/web/20101124184247id_/http://lifesweaving.com/Glasgow/Kilwaughter/Timeline.html), derived from Larne/Kilwaughter register | Records children Jean (1731), Rose (1735), Mary (1736), James (1737) and Hugh (1745) under Hugh at New Town/Larne. | Direct relationship statements in a derivative transcription; inspect the microfilm. |
 | PRONI, *Guide to Church Records*, `MIC/1B/6` | The Non-Subscribing Presbyterian collection includes baptisms 1720-1769, marriages 1721-1769, session minutes 1720-1748 and related accounts. | Official provenance and finite source target. |
-| Hugh's current WikiTree biography, citing an image held by the manager | Reports a 12 March 1736 joint lease to William and Hugh Glasgow, both of Larne, for Newtown tenements; gives memorial `63221`. | Strong association/residence lead, but the memorial number is not found in the online deeds index and must be checked against the image. |
+| [Memorial 63221, FamilySearch image 542](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSN1-FXR2), original lease dated 10 March 1736, registered 10 April 1738 | William and Hugh Glasgow of Larne jointly leased two north-side Newtown tenements; named lives are George II, Frederick Prince of Wales and Prince William Augustus. | Original inspected record; confirms the joint association and corrects the former 12 March date, but names no kin. |
 | PRONI `D300/2/1/100/3A` and `3B`, 10 March 1736 | Earl of Antrim lease of New Town of Larne tenements to William and Hugh Glasgow, both of Larne, for lives renewable for ever. | Official catalogue description confirms the joint lease and corrects the uncertain profile reference; it states association, not kinship. |
-| PRONI `D2977/3A/4/81/72A`, underlying lease 10 March 1736, with 1751 and 1767 endorsements | William and Hugh Glasgow held two Larne tenements; new lives were inserted at their request. | High-value original target because the named lives may identify the next generation, but their names are omitted from the catalogue. |
+| [Memorial 159181, FamilySearch images 257–258](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJM-MJX4), deed poll 4 June 1757, manuscript pp.473–474 | A conditional assignment refers to a head lease granted by William and Hugh Glasgow of Larne. | Original inspected record; independently confirms the joint-lessor association by 1757, but gives no heir or kinship. |
+| PRONI `D2977/3A/4/81/72A`, underlying lease 10 March 1736, with 1751 and 1767 endorsements | William and Hugh Glasgow held two Larne tenements; new lives were inserted at their request. | Still unexamined for names and succession language; do not treat the endorsements as read evidence. |
 | PRONI `D300/2/1/100/69` and `D2977/3A/4/81/72B`, 9 August 1824 | Renewal of the lease dated 10 March 1736 to Elizabeth Glasgow, widow, of Larne. | A real cross-generational title chain; the abstract does not identify Elizabeth's husband or state descent. |
 | Classon Porter, *Congregational Memoirs* | Lists Hugh as an elder and records him dead by 8 July 1767. | Direct published congregational transcription; not a kinship record. |
 | [Bigger and Hughes, Larne Parish Churchyard inscriptions](https://archive.org/stream/ulsterjournalofa06ulstiala/ulsterjournalofa06ulstiala_djvu.txt), published 1899 | Hugh died 8 July 1767 aged 62; wife Ann died 8 June 1786 aged 75; eleven children were commemorated, including first-named Jane and last-named Hugh; James, `their son`, died 14 April 1812 aged 64, and his wife Jane died 21 July 1820 aged 79. | Near-primary published transcription of the monument. Exact death dates, relationships and age-derived ranges; worn-stone transcription risk remains. |
@@ -79,7 +82,7 @@ do not identify her husband, so that link is not yet proved.
 - Inspect Herbert Wood's 1908 St Catherine register, Book 1 p. 139 entry 2577,
   for the exact handwritten/printed surname; then search the same household and
   any occupation, residence or migration clue before considering a merge.
-- Inspect the 1736/1757 leases, especially the named lives in the 1751 and 1767
+- Inspect the 1751/1767 endorsements and title recitals, especially any named lives,
   endorsements, and the 1824 renewal's recital of title.
 - Compare the 1824 widow Elizabeth with Elizabeth, wife of William Glasgow-3324,
   using William's surviving 1815 will (`D300/1/5/49`).
@@ -91,3 +94,17 @@ do not identify her husband, so that link is not yet proved.
 - Locate Donna Jean Glasgow or the custodian of the original 2006 Webshots album
   `558514063awmMGT`; request the full-resolution church-register photographs and
   their captions/file metadata.
+
+## John Glasgow (Glasgow-4179): parentage unresolved — reviewed 21 September 2026
+
+The 1769 Larne groom John Glasgow is not positively identified as Hugh's son. His c.1745–48 birth is an estimate from the derivative chronology. The Larne monument and derivative baptism list name other children but not John; neither has been shown to enumerate every child. The 18 September withdrawal of a naming-pattern attachment was therefore justified as lack of support, but its wording must not be read as proof that Hugh was not his father. On 21 September, John was attached to canonical Hugh-1499 with father status uncertain, explicitly as a low-confidence working hypothesis; this did not add documentary proof. No mother was attached. Inspect the original MIC/1B/6 register and family/estate succession. Source: [published Larne monument](https://archive.org/stream/ulsterjournalofa06ulstiala/ulsterjournalofa06ulstiala_djvu.txt) and [archived chronology](https://web.archive.org/web/20101124184247id_/http://lifesweaving.com/Glasgow/Kilwaughter/Timeline.html).
+
+## Canonical identity and live family correction — 21 September 2026
+
+[John Glasgow of Larne (Glasgow-4179)](https://www.wikitree.com/wiki/Glasgow-4179) is now attached to [Hugh Glasgow (Glasgow-1499)](https://www.wikitree.com/wiki/Glasgow-1499) as an **uncertain son**, with low confidence. This is a working hypothesis based on locality and generation, not a record naming his father. [Older William (Glasgow-1505)](https://www.wikitree.com/wiki/Glasgow-1505) remains viable. No mother is attached; Hugh's wife Ann is not thereby identified as John's mother.
+
+The duplicate marriage has been resolved: [Rose Allan (Allan-6611)](https://www.wikitree.com/wiki/Allan-6611) is the wife of the Larne John, married in 1769 according to the [archived Kilwaughter/Larne chronology](https://web.archive.org/web/20101124184247id_/http://lifesweaving.com/Glasgow/Kilwaughter/Timeline.html). Allan-8249 now redirects to Allan-6611, the older ID required by WikiTree. Both Rose profiles cited the same marriage; neither supplied an independent Rose baptism. Her estimated birth about 1750 and inferred County Antrim birthplace remain uncertain. The chronology's 1745–48 birth estimate concerns John, not Rose.
+
+[John Glasgow of West Calder (Glasgow-2846)](https://www.wikitree.com/wiki/Glasgow-2846), son of [John Glasgow (Glasgow-2847)](https://www.wikitree.com/wiki/Glasgow-2847) and [Margaret Anderson](https://www.wikitree.com/wiki/Anderson-83671), remains a separate identity. Rose has been detached from him. The [1747 Scottish baptism citation](https://www.familysearch.org/ark:/61903/1:1:VQ4T-R5D) has not been re-inspected beyond the existing citation because FamilySearch requires sign-in. No inspected evidence joins that Scottish child to the Larne groom; this separation does not prove that they could never be the same man.
+
+The original PRONI MIC/1B/6 marriage and baptism entries and the named lives in the 1751/1767 endorsements to lease D2977/3A/4/81/72A remain the tests for Hugh versus William. The [Larne memorial](https://archive.org/stream/ulsterjournalofa06ulstiala/ulsterjournalofa06ulstiala_djvu.txt), pp.47–48, does not name John and is not proved to enumerate every surviving child.

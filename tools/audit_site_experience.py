@@ -1,6 +1,7 @@
 """Read-only presentation contracts; browser checks cover computed visibility."""
 from html.parser import HTMLParser
 from pathlib import Path
+import json
 import re
 
 WEB = Path(__file__).resolve().parents[1] / 'www'
@@ -9,6 +10,9 @@ COMMUNITY = (
     'https://groups.io/g/glasgowdnaproject/',
     'https://glasgowfamilygenealogy.org/',
 )
+# Destinations folded out of the primary rail, mapped to the rail section whose
+# submenu now offers them.
+SUBMENU_DESTINATIONS = {'/statistics/': '/research/', '/resources/': '/about/'}
 
 
 class Element:
@@ -91,11 +95,25 @@ def audit(web=WEB):
             require(any(link.exposed() and any(n.tag == 'main' for n in link.ancestors())
                         for link in document.links(href)), f'{relative}: missing prominent community link {href}')
 
-    for relative in ('people/glasgow-2223.html', 'people/glasgow-951.html', 'catalogue/index.html', 'status/index.html', 'data/index.html'):
+    for relative in ('catalogue/index.html', 'status/index.html', 'data/index.html'):
         document = page(relative)
         require(any(link.exposed() for link in document.links('/changes/')), f'{relative}: missing accessible Latest research / Change log link')
-        for href in ('/statistics/', '/resources/'):
-            require(any(link.has_class('g-nav-link') for link in document.links(href)), f'{relative}: missing primary destination {href}')
+        # Statistics and Resources are folded into the Research and About
+        # section submenus (tools/section_submenus.js); the primary rail must
+        # keep their owning sections and load the submenu script.
+        # Compact utility pages deliberately omit the full navigation rail.
+        # Their direct Change log link above is the functional discovery route.
+        has_primary_nav = any(node.has_class('g-nav-link') for node in document.nodes)
+        if has_primary_nav:
+            for href, owner in SUBMENU_DESTINATIONS.items():
+                require(any(link.has_class('g-nav-link') for link in document.links(owner)), f'{relative}: missing primary destination {owner} (owner of {href})')
+                require(any(node.tag == 'script' and 'section-submenus.js' in (node.attrs.get('src') or '') for node in document.nodes),
+                        f'{relative}: missing section submenu script providing {href}')
+
+    submenu_script = web / 'assets/unified/section-submenus.js'
+    submenu_source = submenu_script.read_text(encoding='utf-8') if submenu_script.exists() else ''
+    for href, owner in SUBMENU_DESTINATIONS.items():
+        require(f"make('{href}'" in submenu_source, f'section submenus: {owner} submenu does not offer {href}')
 
     for slug in ('glasgow-2223', 'glasgow-951'):
         document = page(f'people/{slug}.html')
@@ -125,6 +143,19 @@ def audit(web=WEB):
     families = page('branches/index.html')
     for anchor in ('experience-regions', 'research-studies', 'irish-research-studies'):
         require(any(node.attrs.get('id') == anchor for node in families.nodes), f'families: missing preserved regional anchor {anchor}')
+    study_cards = [node for node in families.nodes if node.has_class('bd-card')]
+    group_ids = [node.attrs.get('data-group-id') for node in study_cards]
+    require(len(group_ids) == len(set(group_ids)), 'families: duplicate data-group-id among study cards')
+    directory_path = WEB / 'assets/research/branches-directory.json'
+    require(directory_path.exists(), 'families: missing branches-directory.json')
+    if directory_path.exists():
+        directory = json.loads(directory_path.read_text(encoding='utf-8'))
+        allowed_precision = {'exact', 'parish', 'settlement', 'county', 'country', 'none'}
+        for group in directory.get('groups', []):
+            value = group.get('precision')
+            require(value in allowed_precision, f'families: invalid precision for {group.get("id", "unknown")}')
+            coords_null = group.get('lat') is None and group.get('lon') is None
+            require(coords_null == (value == 'none'), f'families: coordinates and precision disagree for {group.get("id", "unknown")}')
     return {'experience_checks': checks, 'experience_failures': len(failures)}, failures
 
 

@@ -1,0 +1,26 @@
+# HOLD — John Glasgow, Edinburgh apprenticeship, 1648
+
+- **Status:** HOLD — the apprenticeship entry is verified in a printed register, but it has not been securely identified with any existing John Glasgow profile. Do not create or attach a WikiTree profile yet.
+- **Documented person:** John Glasgow, named under the printed Glasgow heading as an apprentice to William Blackwood, merchant. The entry describes his father as “late Thomas G., maltman, burgess of Glasgow”; the father's surname is abbreviated in the line.
+- **Record date:** 12 January 1648, as printed. This is the apprenticeship entry date, not a birth or death date.
+- **Record:** FamilySearch, *Edinburgh. Apprenticeship Records 1583–1666*, item `#007764594`, Item 3, image 101; [FamilySearch image and full-text result](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM7-53ZS-V?view=fullText&keywords=Glasgow&searchForm=advanced&lang=en&groupId=M9H7-2TF). The scan reproduces Francis J. Grant, ed., *Register of Apprentices of the City of Edinburgh, 1583–1666* (Edinburgh: Scottish Record Society, 1906), printed p. 75; [digitized printed page](https://archive.org/details/scottishrecordso28scotuoft/page/75/mode/1up). The printed register is a transcription; the original register was not examined.
+- **Printed entry:** Under the explicit heading **Glasgow**, the line reads: “John, son to late Thomas G., maltman, burgess of Glasgow, with William Blackwood, merchant, 12 Jan. 1648.” The heading establishes John's surname. The father's “G.” is abbreviated; Glasgow is strongly indicated by the heading and the stated Glasgow burgess description, but the full spelling is not written out in the line.
+- **Profile fields if resolved:** John Glasgow; male; birth unknown; death unknown. The source gives no age, birthplace, residence, spouse, children, or death date. Do not add a parent profile for Thomas without corroborating evidence.
+- **Duplicate audit:**
+  - [[Glasgow-1604|John Glasgow, estimated born about 1626 in Ayrshire]] is chronologically possible, but his online-tree scaffold and uncertain father Hugh do not connect him to Thomas, maltman and burgess of Glasgow.
+  - [[Glasgow-3145|John Glasgow, estimated born about 1626 in Scotland/Ayrshire]] is also possible by age, but is unsourced, has an uncertain James father, and may be the same person as Glasgow-1604. Neither profile has the apprenticeship or family evidence.
+  - [[Glasgow-3610|John Glasgow, born 18 February 1626 at Kirknewton/East Calder]] is chronologically possible and had a son Johne baptized there in 1649. Its attached father William and structured birth details are unsupported; there is no link to Glasgow or Thomas the maltman.
+  - [[Glasgow-1103|Thomas Glasgow, baptized at Glasgow in 1612]] is only a possible lead for the apprentice's father. His occupation and burgess status are unknown, and no record connects him to this John. His uncertain c.1675 death does not resolve whether he was alive in 1648.
+  - [[Glasgow-3331]] has separate Quothquan/Lanark evidence and a different stated father. [[Glasgow-3014]] is a likely infant burial shortly after birth. Other reviewed John profiles from Inveresk, High Kirk, Mid Calder and Linlithgow lack the named father/locality link; Glasgow-1105, baptized in 1644, is too young to be this apprentice.
+- **Why no new WikiTree profile:** The entry proves a new documentary occurrence, but Glasgow-1604, Glasgow-3145 and Glasgow-3610 remain possible identities. Creating a separate profile now could duplicate one of them. The occurrence is preserved as its own searchable record dossier until a distinguishing link is found.
+- **Test to clear HOLD:** Check Glasgow burgess and maltmen records and any surviving record for Thomas G.; inspect the underlying Edinburgh apprenticeship register if accessible; seek a later record naming John with a residence, occupation, kin or associates. Compare it with the candidate households above before attaching or creating a profile.
+
+```wikitext
+[[Category:Glasgow Name Study]]
+== Biography ==
+John Glasgow was listed under the Glasgow heading in the Edinburgh apprenticeship register on 12 January 1648, as an apprentice to William Blackwood, merchant. The entry describes him as the son of “late Thomas G., maltman, burgess of Glasgow.” The father's surname is abbreviated in the line.<ref>Francis J. Grant, ed., ''Register of Apprentices of the City of Edinburgh, 1583–1666'' (Edinburgh: Scottish Record Society, 1906), p. 75; FamilySearch, ''Edinburgh. Apprenticeship Records 1583–1666'', item #007764594, Item 3, image 101, entry under Glasgow; https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM7-53ZS-V?view=fullText&keywords=Glasgow&searchForm=advanced&lang=en&groupId=M9H7-2TF. The printed register is a transcription; the original register was not examined.</ref>
+== Research Notes ==
+The date is the apprenticeship entry date, not a birth or death date. The entry gives no age, birthplace, spouse, children or later residence. Glasgow-1604, Glasgow-3145 and Glasgow-3610 remain possible existing identities by chronology, but no distinguishing link has been found. Do not attach this occurrence to an existing profile or create a second WikiTree profile until the identity is resolved.
+== Sources ==
+<references />
+```

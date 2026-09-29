@@ -42,3 +42,11 @@ Add the record as supporting evidence while preserving all existing sources and 
 Original image not inspected for this batch. The combined collection’s date does not automatically establish a birthday. Names alone do not uniquely identify attached parents or connect a child with a later adult. An omitted parent or indexed gender U remains unspecified in this source.
 
 **Next action:** No additional WikiTree update from this row; preserve any existing pending work.
+
+## Father relationship assessment — 28 September 2026
+
+This is a review of existing evidence, not a newly discovered record. Attached father: [Edward Glasgow](https://www.wikitree.com/wiki/Glasgow-1557). Assessment: **confident**.
+
+Reason: The Inveresk and Musselburgh baptism index of 1 May 1609 names Eduard Glasgow as father; NRS OPR 689/10/19.
+
+Source summary: The Inveresk and Musselburgh baptism index of 1 May 1609 names Eduard Glasgow as father; NRS OPR 689/10/19. Saved on WikiTree and verified in the live edit form on 28 September 2026; only the father certainty and its explanation were updated.

@@ -3,8 +3,14 @@
 ## Current conclusion
 
 Hugh occupies a plausible generation in the route from the Corsankell family to
-the later Kilwinning Glasgows, but no reviewed record yet proves Hugh's existence,
-birth, father or son. Every structured fact is derived from one Ancestry tree.
+the later Kilwinning Glasgows. A 1677 Register of Deeds index identifies Hugh
+Glasgow, “preacher of the gospel,” as grantee in a deed indexed “Transl.” and
+recorded 8 March 1677 in the Durie Office, vol. 42, p. 148 (NRS RD3/42). This is
+a concrete deed locator, but it gives no residence or kin and does not establish
+that the grantee is this profile. The source was added to Glasgow-1603 on
+WikiTree as an explicitly possible match on 23 September 2026; no life dates or
+relationships were changed. Hugh's birth, father and son remain unproved; every
+structured profile fact is still derived from one Ancestry tree.
 
 His current father [James Glasgow (Glasgow-991), about 1575, Midlothian](https://www.wikitree.com/wiki/Glasgow-991)
 belongs to a record-led Calder/Inveresk household. The profile's own biography
@@ -31,6 +37,9 @@ same missing-generation corridor and may expose Hugh as a conflated placeholder.
 | Live WikiTree profile, 19 July 2026 | Birth about 1600, father Glasgow-991, son Glasgow-1604 and Ayrshire identity all depend on one Ancestry tree. | Unsourced tree scaffold. |
 | NRS [GD39/5/59](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD39%2F5%2F59), 1571 | James elder of Corsankell had sons James and John. | Direct local branch anchor, but it does not name Hugh. |
 | Grant, *Commissariot Record of Glasgow*, [surname index](https://archive.org/details/scottishrecordso07scotuoft) | Local testaments identify John at Montfoid (1610), James at Brekpleughe (1632), and Ninian at Brigend of Eglinton (1634). | Establishes candidate intervening households, not Hugh's identity. |
+| FamilySearch, [*Scotland. Land Records 1677*](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS39-S9V2-4?view=fullText&keywords=HUGH+Glasgow&searchForm=simple&lang=en&groupId=M9QN-ZQ3), item `#007830797`, Item 3, image 48, printed *Register of Deeds, 1677. Name and Designation*, vol. XVII, p. 80 | Under the printed heading “Glasgow,” “Hugh, preacher of the gospel” is indexed as grantee (“Ge.”) in a deed abbreviated “Transl.”, recorded 8 March 1677, Durie Office, vol. 42, p. 148; NRS reference RD3/42, p. 148. | Direct evidence for a named grantee and an exact register locator. 8 March is the recording date, not a proved death or deed-execution date. The index gives no residence or kin and does not identify this profile. |
+
+The 1677 entry is absent from the curated occurrence catalogue. The current WikiTree profile Glasgow-1603 is chronologically compatible, but so are other Hugh candidates, including Hew-1066 and Glasgow-3109. The source is attached to Glasgow-1603 only as a possible match; do not treat it as proof or infer death after 1677. Examine NRS RD3/42, p. 148 for the deed's other party, residence and kin before resolving identity.
 
 ## Complete WikiTree handoff
 

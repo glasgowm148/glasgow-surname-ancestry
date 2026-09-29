@@ -4,6 +4,10 @@ from functools import lru_cache
 import json
 from pathlib import Path
 import re
+try:
+    from tools.public_manuscript_previews import approved_preview
+except ModuleNotFoundError:
+    from public_manuscript_previews import approved_preview
 
 
 def e(value):
@@ -96,7 +100,7 @@ def render_letterform_desk(ident, data):
     for number, study in enumerate(data["studies"], 1):
         image = study.get("image", "")
         region = study.get("region")
-        if not image.startswith("/assets/research/") or not region:
+        if not image.startswith("/assets/research/") or not approved_preview(image) or not region:
             continue
         width, height = study["image_width"], study["image_height"]
         sid = f'tx-letterform-{ident}-{study["id"]}'
@@ -138,7 +142,7 @@ def render_letterform_desk(ident, data):
         comparisons = []
         for comparison in study.get("same_hand_comparisons", []):
             ci = comparison.get("image", image)
-            if not ci.startswith("/assets/research/"):
+            if not ci.startswith("/assets/research/") or not approved_preview(ci):
                 continue
             crop = source_svg(ci, comparison.get("image_width", width), comparison.get("image_height", height),
                               comparison.get("region", region), comparison.get("reading", "Same-hand comparison"))

@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+WikiTree parent-status audit, 27 September 2026: the attached mother Isobell Newlands (Newlands-647) is now marked uncertain. No direct parentage record has been found for Robert.
+
 Robert, buried at Duddingston on 17 January 1647, is not presently identified
 as the Robert whom [[Glasgow-3163|Andrew Glasgow of [Corsoun?]]]'s 1597/8
 testament explicitly calls his son by Elizat Stevinsoun. Chronology and Lothian

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "generated_at": "2026-09-17T11:37:26Z",
-  "profile_count": 3422,
+  "profile_count": 3382,
   "profiles": {
     "Glasgow-10": {
       "wikitree_id": "Glasgow-10",
@@ -451,7 +451,7 @@
         "siblings": [
           "Glasgow-1561",
           "Glasgow-4006",
-          "Glasgow-4007",
+          "Glasgow-4006",
           "Glasgow-991"
         ],
         "spouses": []
@@ -485,7 +485,7 @@
       "relations": {
         "children": [
           "Glasgow-3296",
-          "Glasgow-3608"
+          "Glasgow-3296"
         ],
         "parents": [
           "Glasgow-1093"
@@ -508,7 +508,7 @@
         "Glasgow-3181",
         "Glasgow-3188",
         "Glasgow-3522",
-        "Glasgow-3608"
+        "Glasgow-3296"
       ],
       "direct_case": true,
       "early_evidence": false,
@@ -1236,7 +1236,7 @@
           "Glasgow-3514",
           "Glasgow-3524",
           "Glasgow-3548",
-          "Glasgow-3549",
+          "Glasgow-3288",
           "Glasgow-3550",
           "Glasgow-3551",
           "Glasgow-3552",
@@ -1561,7 +1561,7 @@
           "Glasgow-1148",
           "Glasgow-1603",
           "Glasgow-3144",
-          "Glasgow-3145",
+          "Glasgow-1604",
           "Glasgow-3183",
           "Glasgow-3321",
           "Glasgow-3517",
@@ -1573,7 +1573,7 @@
       "research_cases": [
         "Glasgow-1098",
         "Glasgow-1603",
-        "Glasgow-3145",
+        "Glasgow-1604",
         "Glasgow-991"
       ],
       "direct_case": true,
@@ -1602,7 +1602,7 @@
           "Glasgow-1148",
           "Glasgow-1603",
           "Glasgow-3144",
-          "Glasgow-3145",
+          "Glasgow-1604",
           "Glasgow-3183",
           "Glasgow-3321",
           "Glasgow-3517",
@@ -1614,7 +1614,7 @@
       "research_cases": [
         "Glasgow-1098",
         "Glasgow-1603",
-        "Glasgow-3145",
+        "Glasgow-1604",
         "Glasgow-991"
       ],
       "direct_case": true,
@@ -1646,7 +1646,7 @@
           "Glasgow-1148",
           "Glasgow-1603",
           "Glasgow-3144",
-          "Glasgow-3145",
+          "Glasgow-1604",
           "Glasgow-3183",
           "Glasgow-3321",
           "Glasgow-3517",
@@ -1658,7 +1658,7 @@
       "research_cases": [
         "Glasgow-1098",
         "Glasgow-1603",
-        "Glasgow-3145",
+        "Glasgow-1604",
         "Glasgow-991"
       ],
       "direct_case": true,
@@ -1718,7 +1718,7 @@
       },
       "research_cases": [
         "Glasgow-1098",
-        "Glasgow-3608"
+        "Glasgow-3296"
       ],
       "direct_case": true,
       "early_evidence": true,
@@ -1739,7 +1739,7 @@
       "death_location": null,
       "relations": {
         "children": [
-          "Glasgow-2453",
+          "Glasgow-1087",
           "Glasgow-3610"
         ],
         "parents": [
@@ -1752,7 +1752,7 @@
       },
       "research_cases": [
         "Glasgow-1098",
-        "Glasgow-3608"
+        "Glasgow-3296"
       ],
       "direct_case": true,
       "early_evidence": true,
@@ -3144,7 +3144,7 @@
           "Glasgow-1084",
           "Glasgow-1603",
           "Glasgow-3144",
-          "Glasgow-3145",
+          "Glasgow-1604",
           "Glasgow-3183",
           "Glasgow-3321",
           "Glasgow-3517",
@@ -3158,7 +3158,7 @@
         "Glasgow-1149",
         "Glasgow-1150",
         "Glasgow-1603",
-        "Glasgow-3145",
+        "Glasgow-1604",
         "Glasgow-3923",
         "Glasgow-991"
       ],
@@ -3252,7 +3252,7 @@
           "Glasgow-1155",
           "Glasgow-1157",
           "Glasgow-1429",
-          "Glasgow-2459",
+          "Glasgow-1103",
           "Glasgow-3322"
         ],
         "spouses": []
@@ -3420,7 +3420,7 @@
         "children": [
           "Glasgow-1150",
           "Glasgow-1157",
-          "Glasgow-2459",
+          "Glasgow-1103",
           "Glasgow-3322"
         ],
         "parents": [
@@ -3708,7 +3708,7 @@
           "Glasgow-3193",
           "Glasgow-3908",
           "Glasgow-3921",
-          "Glasgow-4061"
+          "Glasgow-3193"
         ],
         "parents": [
           "Glasgow-1093",
@@ -3742,7 +3742,7 @@
         "Glasgow-3188",
         "Glasgow-3193",
         "Glasgow-3921",
-        "Glasgow-4061"
+        "Glasgow-3193"
       ],
       "direct_case": true,
       "early_evidence": true,
@@ -3756,19 +3756,6 @@
         "research_plan.json",
         "research_state.json"
       ]
-    },
-    "Glasgow-117": {
-      "wikitree_id": "Glasgow-117",
-      "display_name": "Dosha Ann Glasgow",
-      "birth_date": "1831-06-22",
-      "birth_location": "Weakley, Tennessee, United States",
-      "death_date": "1907-07-08",
-      "death_location": "Martin, Weakley, Tennessee, United States",
-      "relations": {},
-      "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2015-04-05"
     },
     "Glasgow-1171": {
       "wikitree_id": "Glasgow-1171",
@@ -6557,19 +6544,6 @@
       "early_evidence": false,
       "workbook_modified": "2020-12-31"
     },
-    "Glasgow-1398": {
-      "wikitree_id": "Glasgow-1398",
-      "display_name": "Jane Glasgow",
-      "birth_date": "1842-00-00",
-      "birth_location": null,
-      "death_date": "1847-00-00",
-      "death_location": null,
-      "relations": {},
-      "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-03-27"
-    },
     "Glasgow-1399": {
       "wikitree_id": "Glasgow-1399",
       "display_name": "Margret Glasgow",
@@ -8395,7 +8369,7 @@
       "relations": {
         "children": [
           "Glasgow-1143",
-          "Glasgow-1503",
+          "Glasgow-1499",
           "Glasgow-1504",
           "Glasgow-1505"
         ],
@@ -8419,37 +8393,6 @@
         "Glasgow-1502.md",
         "evidence_index.json",
         "findings.md",
-        "research_brief.md",
-        "research_plan.json",
-        "research_state.json"
-      ]
-    },
-    "Glasgow-1503": {
-      "wikitree_id": "Glasgow-1503",
-      "display_name": "Hugh Glasgow",
-      "birth_date": "1705-00-00",
-      "birth_location": "Larne, County Antrim, Ireland",
-      "death_date": "1767-07-08",
-      "death_location": "Larne, County Antrim, Ireland",
-      "relations": {
-        "children": [],
-        "parents": [],
-        "siblings": [],
-        "spouses": []
-      },
-      "research_cases": [
-        "Glasgow-1502",
-        "Glasgow-1503"
-      ],
-      "direct_case": true,
-      "early_evidence": false,
-      "workbook_modified": "2024-09-15",
-      "case_files": [
-        "Glasgow-1503.md",
-        "evidence_index.json",
-        "findings.md",
-        "presentation.json",
-        "records_mentions.json",
         "research_brief.md",
         "research_plan.json",
         "research_state.json"
@@ -9794,7 +9737,7 @@
         "siblings": [
           "Glasgow-1028",
           "Glasgow-4006",
-          "Glasgow-4007",
+          "Glasgow-4006",
           "Glasgow-991"
         ],
         "spouses": []
@@ -10314,7 +10257,7 @@
           "Glasgow-1084",
           "Glasgow-1148",
           "Glasgow-3144",
-          "Glasgow-3145",
+          "Glasgow-1604",
           "Glasgow-3183",
           "Glasgow-3321",
           "Glasgow-3517",
@@ -10327,7 +10270,7 @@
         "Glasgow-1098",
         "Glasgow-1603",
         "Glasgow-1604",
-        "Glasgow-3145",
+        "Glasgow-1604",
         "Glasgow-991"
       ],
       "direct_case": true,
@@ -19603,34 +19546,6 @@
       "early_evidence": false,
       "workbook_modified": "2022-09-05"
     },
-    "Glasgow-2291": {
-      "wikitree_id": "Glasgow-2291",
-      "display_name": "John Glasgow",
-      "birth_date": "1756-00-00",
-      "birth_location": null,
-      "death_date": "1826-12-11",
-      "death_location": "Newberry, South Carolina, United States",
-      "relations": {
-        "children": [],
-        "parents": [],
-        "siblings": [],
-        "spouses": []
-      },
-      "research_cases": [
-        "Glasgow-2291"
-      ],
-      "direct_case": true,
-      "early_evidence": false,
-      "workbook_modified": "2022-06-10",
-      "case_files": [
-        "Glasgow-2291.md",
-        "evidence_index.json",
-        "findings.md",
-        "research_brief.md",
-        "research_plan.json",
-        "research_state.json"
-      ]
-    },
     "Glasgow-2293": {
       "wikitree_id": "Glasgow-2293",
       "display_name": "James Henry Glasgow",
@@ -21856,30 +21771,6 @@
         "findings.md"
       ]
     },
-    "Glasgow-2453": {
-      "wikitree_id": "Glasgow-2453",
-      "display_name": "William Glasgow",
-      "birth_date": "1620-00-00",
-      "birth_location": "Mid Calder, Linlithgowshire, Scotland",
-      "death_date": "0000-00-00",
-      "death_location": null,
-      "relations": {
-        "children": [],
-        "parents": [],
-        "siblings": [],
-        "spouses": []
-      },
-      "research_cases": [
-        "Glasgow-1098"
-      ],
-      "direct_case": true,
-      "early_evidence": false,
-      "workbook_modified": "2025-04-19",
-      "case_files": [
-        "Glasgow-2453.md",
-        "findings.md"
-      ]
-    },
     "Glasgow-2454": {
       "wikitree_id": "Glasgow-2454",
       "display_name": "Issobel Glasgow",
@@ -21962,29 +21853,6 @@
         "findings.md"
       ]
     },
-    "Glasgow-2459": {
-      "wikitree_id": "Glasgow-2459",
-      "display_name": "Thomas Glasgow",
-      "birth_date": "1615-00-00",
-      "birth_location": "Inveresk and Musselburgh, Midlothian, Scotland",
-      "death_date": "0000-00-00",
-      "death_location": null,
-      "relations": {
-        "children": [],
-        "parents": [],
-        "siblings": [],
-        "spouses": []
-      },
-      "research_cases": [
-        "Glasgow-1150",
-        "Glasgow-1156",
-        "Glasgow-2462",
-        "Glasgow-591"
-      ],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-07-12"
-    },
     "Glasgow-2460": {
       "wikitree_id": "Glasgow-2460",
       "display_name": "Agnes Glasgow",
@@ -22048,7 +21916,7 @@
           "Glasgow-3362"
         ],
         "parents": [
-          "Glasgow-2459"
+          "Glasgow-1103"
         ],
         "siblings": [
           "Glasgow-2460",
@@ -25470,19 +25338,6 @@
       "early_evidence": false,
       "workbook_modified": "2023-08-11"
     },
-    "Glasgow-2717": {
-      "wikitree_id": "Glasgow-2717",
-      "display_name": "Alexander Glasgow",
-      "birth_date": "1804-00-00",
-      "birth_location": "Ballymoney, County Wicklow, Ireland",
-      "death_date": "1888-00-00",
-      "death_location": null,
-      "relations": {},
-      "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-04-24"
-    },
     "Glasgow-2718": {
       "wikitree_id": "Glasgow-2718",
       "display_name": "Alexander Glasgow",
@@ -26032,19 +25887,6 @@
       "birth_date": "1874-04-03",
       "birth_location": "Georgia, United States",
       "death_date": "1924-12-02",
-      "death_location": "Jefferson, Alabama, United States",
-      "relations": {},
-      "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2024-04-03"
-    },
-    "Glasgow-2755": {
-      "wikitree_id": "Glasgow-2755",
-      "display_name": "Katherine Wheeler Glasgow",
-      "birth_date": "1874-02-26",
-      "birth_location": "Jackson, Clarke, Alabama, United States",
-      "death_date": "1965-05-01",
       "death_location": "Jefferson, Alabama, United States",
       "relations": {},
       "research_cases": [],
@@ -27611,34 +27453,6 @@
         "research_state.json"
       ]
     },
-    "Glasgow-2869": {
-      "wikitree_id": "Glasgow-2869",
-      "display_name": "Samuel Glasgow",
-      "birth_date": "1749-00-00",
-      "birth_location": "Cecil, Maryland",
-      "death_date": "1843-00-00",
-      "death_location": "Millersburg, Holmes, Ohio, United States",
-      "relations": {
-        "children": [],
-        "parents": [],
-        "siblings": [],
-        "spouses": []
-      },
-      "research_cases": [
-        "Glasgow-2869"
-      ],
-      "direct_case": true,
-      "early_evidence": false,
-      "workbook_modified": "2025-04-05",
-      "case_files": [
-        "Glasgow-2869.md",
-        "evidence_index.json",
-        "findings.md",
-        "research_brief.md",
-        "research_plan.json",
-        "research_state.json"
-      ]
-    },
     "Glasgow-287": {
       "wikitree_id": "Glasgow-287",
       "display_name": "Katie E Glasgow",
@@ -28864,32 +28678,6 @@
       "early_evidence": false,
       "workbook_modified": "2024-09-12"
     },
-    "Glasgow-2966": {
-      "wikitree_id": "Glasgow-2966",
-      "display_name": "John Glasgow",
-      "birth_date": "1785-00-00",
-      "birth_location": "Edinburgh, Scotland",
-      "death_date": "0000-00-00",
-      "death_location": null,
-      "relations": {},
-      "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-04-25"
-    },
-    "Glasgow-2967": {
-      "wikitree_id": "Glasgow-2967",
-      "display_name": "Peter Glasgow",
-      "birth_date": "1833-00-00",
-      "birth_location": "Edinburgh, Scotland",
-      "death_date": "0000-00-00",
-      "death_location": null,
-      "relations": {},
-      "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-09-29"
-    },
     "Glasgow-2968": {
       "wikitree_id": "Glasgow-2968",
       "display_name": "John Glasgow",
@@ -29448,19 +29236,6 @@
       "early_evidence": false,
       "workbook_modified": "2024-09-15"
     },
-    "Glasgow-2994": {
-      "wikitree_id": "Glasgow-2994",
-      "display_name": "Thomas Glasgow",
-      "birth_date": "1823-00-00",
-      "birth_location": "Coltrim, County Londonderry, Ireland",
-      "death_date": "0000-00-00",
-      "death_location": null,
-      "relations": {},
-      "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-04-06"
-    },
     "Glasgow-2995": {
       "wikitree_id": "Glasgow-2995",
       "display_name": "James Glasgow",
@@ -29817,22 +29592,6 @@
         "findings.md"
       ]
     },
-    "Glasgow-3015": {
-      "wikitree_id": "Glasgow-3015",
-      "display_name": "John Glasgow",
-      "birth_date": "1618-00-00",
-      "birth_location": "Duddingston, Midlothian, Scotland",
-      "death_date": "0000-00-00",
-      "death_location": null,
-      "relations": {},
-      "research_cases": [],
-      "direct_case": true,
-      "early_evidence": false,
-      "workbook_modified": "2025-04-12",
-      "case_files": [
-        "findings.md"
-      ]
-    },
     "Glasgow-3018": {
       "wikitree_id": "Glasgow-3018",
       "display_name": "John Glasgow",
@@ -29847,42 +29606,6 @@
       "workbook_modified": "2025-04-28",
       "case_files": [
         "findings.md"
-      ]
-    },
-    "Glasgow-3019": {
-      "wikitree_id": "Glasgow-3019",
-      "display_name": "John Glasgow",
-      "birth_date": "1610-00-00",
-      "birth_location": "Lanarkshire, Scotland",
-      "death_date": "1685-00-00",
-      "death_location": "Biggar, Lanarkshire, Scotland",
-      "relations": {
-        "children": [
-          "Glasgow-3331",
-          "Glasgow-3332"
-        ],
-        "parents": [
-          "Glasgow-3296"
-        ],
-        "siblings": [],
-        "spouses": []
-      },
-      "research_cases": [
-        "Glasgow-3019",
-        "Glasgow-3296",
-        "Glasgow-3332",
-        "Glasgow-591"
-      ],
-      "direct_case": true,
-      "early_evidence": true,
-      "workbook_modified": "2025-04-17",
-      "case_files": [
-        "Glasgow-3019.md",
-        "evidence_index.json",
-        "findings.md",
-        "research_brief.md",
-        "research_plan.json",
-        "research_state.json"
       ]
     },
     "Glasgow-302": {
@@ -30392,19 +30115,6 @@
       "display_name": "Margaret Glasgow",
       "birth_date": "1734-03-19",
       "birth_location": "Kirknewton, Linlithgowshire, Scotland",
-      "death_date": "0000-00-00",
-      "death_location": null,
-      "relations": {},
-      "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2024-09-20"
-    },
-    "Glasgow-3054": {
-      "wikitree_id": "Glasgow-3054",
-      "display_name": "John Glasgow",
-      "birth_date": "1782-08-00",
-      "birth_location": "Glasgow, Lanarkshire, Scotland",
       "death_date": "0000-00-00",
       "death_location": null,
       "relations": {},
@@ -31523,34 +31233,6 @@
         "findings.md"
       ]
     },
-    "Glasgow-3119": {
-      "wikitree_id": "Glasgow-3119",
-      "display_name": "Alexander Glasgow",
-      "birth_date": "1673-07-20",
-      "birth_location": "Kirknewton and East Calder, Midlothian, Scotland",
-      "death_date": "0000-00-00",
-      "death_location": null,
-      "relations": {
-        "children": [],
-        "parents": [],
-        "siblings": [],
-        "spouses": []
-      },
-      "research_cases": [
-        "Glasgow-3119"
-      ],
-      "direct_case": true,
-      "early_evidence": false,
-      "workbook_modified": "2025-04-26",
-      "case_files": [
-        "Glasgow-3119.md",
-        "evidence_index.json",
-        "findings.md",
-        "research_brief.md",
-        "research_plan.json",
-        "research_state.json"
-      ]
-    },
     "Glasgow-312": {
       "wikitree_id": "Glasgow-312",
       "display_name": "Marvin Claude Glasgow",
@@ -31844,34 +31526,6 @@
       "early_evidence": false,
       "workbook_modified": "2025-06-25"
     },
-    "Glasgow-3137": {
-      "wikitree_id": "Glasgow-3137",
-      "display_name": "James Glasgow",
-      "birth_date": "1750-00-00",
-      "birth_location": "Corvanaghan, County Tyrone, Ireland",
-      "death_date": "0000-00-00",
-      "death_location": null,
-      "relations": {
-        "children": [],
-        "parents": [],
-        "siblings": [],
-        "spouses": []
-      },
-      "research_cases": [
-        "Glasgow-3137"
-      ],
-      "direct_case": true,
-      "early_evidence": false,
-      "workbook_modified": "2024-09-23",
-      "case_files": [
-        "Glasgow-3137.md",
-        "evidence_index.json",
-        "findings.md",
-        "research_brief.md",
-        "research_plan.json",
-        "research_state.json"
-      ]
-    },
     "Glasgow-314": {
       "wikitree_id": "Glasgow-314",
       "display_name": "Mary Catherine Glasgow",
@@ -31987,7 +31641,7 @@
           "Glasgow-1084",
           "Glasgow-1148",
           "Glasgow-1603",
-          "Glasgow-3145",
+          "Glasgow-1604",
           "Glasgow-3183",
           "Glasgow-3321",
           "Glasgow-3517",
@@ -31999,57 +31653,12 @@
       "research_cases": [
         "Glasgow-1098",
         "Glasgow-1603",
-        "Glasgow-3145",
+        "Glasgow-1604",
         "Glasgow-991"
       ],
       "direct_case": false,
       "early_evidence": false,
       "workbook_modified": "2025-07-27"
-    },
-    "Glasgow-3145": {
-      "wikitree_id": "Glasgow-3145",
-      "display_name": "John Glasgow",
-      "birth_date": "1626-00-00",
-      "birth_location": "Scotland",
-      "death_date": "0000-00-00",
-      "death_location": "Ayrshire, Scotland",
-      "relations": {
-        "children": [],
-        "parents": [
-          "Glasgow-991"
-        ],
-        "siblings": [
-          "Glasgow-1082",
-          "Glasgow-1083",
-          "Glasgow-1084",
-          "Glasgow-1148",
-          "Glasgow-1603",
-          "Glasgow-3144",
-          "Glasgow-3183",
-          "Glasgow-3321",
-          "Glasgow-3517",
-          "Glasgow-993",
-          "Glasgow-994"
-        ],
-        "spouses": []
-      },
-      "research_cases": [
-        "Glasgow-1098",
-        "Glasgow-1603",
-        "Glasgow-3145",
-        "Glasgow-991"
-      ],
-      "direct_case": true,
-      "early_evidence": false,
-      "workbook_modified": "2024-09-27",
-      "case_files": [
-        "Glasgow-3145.md",
-        "evidence_index.json",
-        "findings.md",
-        "research_brief.md",
-        "research_plan.json",
-        "research_state.json"
-      ]
     },
     "Glasgow-3146": {
       "wikitree_id": "Glasgow-3146",
@@ -32216,19 +31825,6 @@
       "early_evidence": false,
       "workbook_modified": "2024-09-28"
     },
-    "Glasgow-3157": {
-      "wikitree_id": "Glasgow-3157",
-      "display_name": "William Glasgow",
-      "birth_date": "1860-00-00",
-      "birth_location": "Derrynoose, County Armagh, Ireland",
-      "death_date": "0000-00-00",
-      "death_location": null,
-      "relations": {},
-      "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2024-09-28"
-    },
     "Glasgow-3158": {
       "wikitree_id": "Glasgow-3158",
       "display_name": "Mary Glasgow",
@@ -32335,7 +31931,7 @@
           "Glasgow-1028",
           "Glasgow-1561",
           "Glasgow-4006",
-          "Glasgow-4007",
+          "Glasgow-4006",
           "Glasgow-991"
         ],
         "parents": [
@@ -32819,7 +32415,7 @@
           "Glasgow-1148",
           "Glasgow-1603",
           "Glasgow-3144",
-          "Glasgow-3145",
+          "Glasgow-1604",
           "Glasgow-3321",
           "Glasgow-3517",
           "Glasgow-993",
@@ -32837,19 +32433,6 @@
         "Glasgow-3183.md",
         "findings.md"
       ]
-    },
-    "Glasgow-3184": {
-      "wikitree_id": "Glasgow-3184",
-      "display_name": "Bessie Glasgow",
-      "birth_date": "1610-00-00",
-      "birth_location": "Mid Calder, Midlothian, Scotland",
-      "death_date": "0000-00-00",
-      "death_location": null,
-      "relations": {},
-      "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2026-04-02"
     },
     "Glasgow-3185": {
       "wikitree_id": "Glasgow-3185",
@@ -33003,7 +32586,7 @@
           "Glasgow-3613",
           "Glasgow-3908",
           "Glasgow-3921",
-          "Glasgow-4061"
+          "Glasgow-3193"
         ],
         "spouses": []
       },
@@ -33014,7 +32597,7 @@
         "Glasgow-3178",
         "Glasgow-3193",
         "Glasgow-3921",
-        "Glasgow-4061"
+        "Glasgow-3193"
       ],
       "direct_case": true,
       "early_evidence": true,
@@ -34363,19 +33946,6 @@
       "early_evidence": false,
       "workbook_modified": "2026-05-03"
     },
-    "Glasgow-3295": {
-      "wikitree_id": "Glasgow-3295",
-      "display_name": "Spencer Lafayette Glasgow",
-      "birth_date": "1855-09-12",
-      "birth_location": "Newberry, South Carolina, United States",
-      "death_date": "1936-02-06",
-      "death_location": "Belgreen, Franklin, Alabama, United States",
-      "relations": {},
-      "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-09-16"
-    },
     "Glasgow-3296": {
       "wikitree_id": "Glasgow-3296",
       "display_name": "John Glasgow",
@@ -34387,7 +33957,7 @@
         "children": [
           "Glasgow-1086",
           "Glasgow-1087",
-          "Glasgow-3019"
+          "Glasgow-1086"
         ],
         "parents": [
           "Glasgow-1029"
@@ -34397,7 +33967,7 @@
       },
       "research_cases": [
         "Glasgow-1098",
-        "Glasgow-3019",
+        "Glasgow-1086",
         "Glasgow-3296"
       ],
       "direct_case": true,
@@ -34742,7 +34312,7 @@
           "Glasgow-1148",
           "Glasgow-1603",
           "Glasgow-3144",
-          "Glasgow-3145",
+          "Glasgow-1604",
           "Glasgow-3183",
           "Glasgow-3517",
           "Glasgow-993",
@@ -34753,7 +34323,7 @@
       "research_cases": [
         "Glasgow-1098",
         "Glasgow-1603",
-        "Glasgow-3145",
+        "Glasgow-1604",
         "Glasgow-991"
       ],
       "direct_case": false,
@@ -34961,7 +34531,7 @@
           "Glasgow-2731"
         ],
         "parents": [
-          "Glasgow-3019"
+          "Glasgow-1086"
         ],
         "siblings": [
           "Glasgow-3332"
@@ -34972,7 +34542,7 @@
         "Glasgow-1098",
         "Glasgow-1498",
         "Glasgow-2731",
-        "Glasgow-3019",
+        "Glasgow-1086",
         "Glasgow-3332",
         "Glasgow-591"
       ],
@@ -34998,7 +34568,7 @@
       "relations": {
         "children": [],
         "parents": [
-          "Glasgow-3019"
+          "Glasgow-1086"
         ],
         "siblings": [
           "Glasgow-3331"
@@ -35007,7 +34577,7 @@
       },
       "research_cases": [
         "Glasgow-1098",
-        "Glasgow-3019",
+        "Glasgow-1086",
         "Glasgow-3332",
         "Glasgow-591"
       ],
@@ -35062,23 +34632,6 @@
         "research_brief.md",
         "research_plan.json",
         "research_state.json"
-      ]
-    },
-    "Glasgow-3337": {
-      "wikitree_id": "Glasgow-3337",
-      "display_name": "James Glasgow",
-      "birth_date": "1640-00-00",
-      "birth_location": "Edinburgh, Scotland",
-      "death_date": "0000-00-00",
-      "death_location": null,
-      "relations": {},
-      "research_cases": [],
-      "direct_case": true,
-      "early_evidence": false,
-      "workbook_modified": "2025-04-22",
-      "case_files": [
-        "Glasgow-3337.md",
-        "findings.md"
       ]
     },
     "Glasgow-3338": {
@@ -35696,19 +35249,6 @@
         "findings.md"
       ]
     },
-    "Glasgow-3374": {
-      "wikitree_id": "Glasgow-3374",
-      "display_name": "James Glasgow",
-      "birth_date": "1630-00-00",
-      "birth_location": "Mid Calder, Midlothian, Scotland",
-      "death_date": "0000-00-00",
-      "death_location": null,
-      "relations": {},
-      "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-04-26"
-    },
     "Glasgow-3375": {
       "wikitree_id": "Glasgow-3375",
       "display_name": "John Glasgow",
@@ -36054,19 +35594,6 @@
       "early_evidence": false,
       "workbook_modified": "2025-04-22"
     },
-    "Glasgow-3397": {
-      "wikitree_id": "Glasgow-3397",
-      "display_name": "Peter Glasgow",
-      "birth_date": "1762-10-10",
-      "birth_location": "West Calder, Midlothian, Scotland",
-      "death_date": "0000-00-00",
-      "death_location": "Bathgate, Linlithgowshire, Scotland",
-      "relations": {},
-      "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-04-25"
-    },
     "Glasgow-3398": {
       "wikitree_id": "Glasgow-3398",
       "display_name": "Margaret Glasgow",
@@ -36137,19 +35664,6 @@
       "display_name": "Agnes Glasgow",
       "birth_date": "1795-03-03",
       "birth_location": "Bathgate, Linlithgowshire, Scotland",
-      "death_date": "0000-00-00",
-      "death_location": null,
-      "relations": {},
-      "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-04-22"
-    },
-    "Glasgow-3403": {
-      "wikitree_id": "Glasgow-3403",
-      "display_name": "John Glasgow",
-      "birth_date": "1740-00-00",
-      "birth_location": "West Calder, Midlothian, Scotland",
       "death_date": "0000-00-00",
       "death_location": null,
       "relations": {},
@@ -37140,34 +36654,6 @@
       "early_evidence": false,
       "workbook_modified": "2025-04-30"
     },
-    "Glasgow-3472": {
-      "wikitree_id": "Glasgow-3472",
-      "display_name": "Samuel Glasgow",
-      "birth_date": "1790-00-00",
-      "birth_location": null,
-      "death_date": "1875-00-00",
-      "death_location": "Ballymoney, County Londonderry, Ireland",
-      "relations": {
-        "children": [],
-        "parents": [],
-        "siblings": [],
-        "spouses": []
-      },
-      "research_cases": [
-        "Glasgow-3472"
-      ],
-      "direct_case": true,
-      "early_evidence": false,
-      "workbook_modified": "2025-04-24",
-      "case_files": [
-        "Glasgow-3472.md",
-        "evidence_index.json",
-        "findings.md",
-        "research_brief.md",
-        "research_plan.json",
-        "research_state.json"
-      ]
-    },
     "Glasgow-3473": {
       "wikitree_id": "Glasgow-3473",
       "display_name": "Robert Glasgow",
@@ -37180,23 +36666,6 @@
       "direct_case": false,
       "early_evidence": false,
       "workbook_modified": "2025-04-24"
-    },
-    "Glasgow-3474": {
-      "wikitree_id": "Glasgow-3474",
-      "display_name": "John Glasgow",
-      "birth_date": "1807-00-00",
-      "birth_location": "Ballymoney, County Londonderry, Ireland",
-      "death_date": "1885-00-00",
-      "death_location": "Ballymoney, County Londonderry, Ireland",
-      "relations": {},
-      "research_cases": [],
-      "direct_case": true,
-      "early_evidence": false,
-      "workbook_modified": "2025-04-24",
-      "case_files": [
-        "Glasgow-3474.md",
-        "findings.md"
-      ]
     },
     "Glasgow-3475": {
       "wikitree_id": "Glasgow-3475",
@@ -37252,19 +36721,6 @@
       "case_files": [
         "findings.md"
       ]
-    },
-    "Glasgow-3479": {
-      "wikitree_id": "Glasgow-3479",
-      "display_name": "Robert Glasgow",
-      "birth_date": "1720-00-00",
-      "birth_location": "Irvine, Ayrshire, Scotland",
-      "death_date": "0000-00-00",
-      "death_location": null,
-      "relations": {},
-      "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-04-24"
     },
     "Glasgow-348": {
       "wikitree_id": "Glasgow-348",
@@ -37411,19 +36867,6 @@
       "direct_case": false,
       "early_evidence": false,
       "workbook_modified": "2018-11-14"
-    },
-    "Glasgow-3490": {
-      "wikitree_id": "Glasgow-3490",
-      "display_name": "John Glasgow",
-      "birth_date": "1710-00-00",
-      "birth_location": "Kirknewton and East Calder, Midlothian, Scotland",
-      "death_date": "0000-00-00",
-      "death_location": null,
-      "relations": {},
-      "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-04-24"
     },
     "Glasgow-3491": {
       "wikitree_id": "Glasgow-3491",
@@ -37808,34 +37251,6 @@
         "findings.md"
       ]
     },
-    "Glasgow-3515": {
-      "wikitree_id": "Glasgow-3515",
-      "display_name": "William Glasgow",
-      "birth_date": "1625-00-00",
-      "birth_location": "Kirknewton and East Calder, Midlothian, Scotland",
-      "death_date": "0000-00-00",
-      "death_location": null,
-      "relations": {
-        "children": [],
-        "parents": [],
-        "siblings": [],
-        "spouses": []
-      },
-      "research_cases": [
-        "Glasgow-3515"
-      ],
-      "direct_case": true,
-      "early_evidence": false,
-      "workbook_modified": "2025-08-28",
-      "case_files": [
-        "Glasgow-3515.md",
-        "evidence_index.json",
-        "findings.md",
-        "research_brief.md",
-        "research_plan.json",
-        "research_state.json"
-      ]
-    },
     "Glasgow-3516": {
       "wikitree_id": "Glasgow-3516",
       "display_name": "John Glasgow",
@@ -37879,7 +37294,7 @@
           "Glasgow-1148",
           "Glasgow-1603",
           "Glasgow-3144",
-          "Glasgow-3145",
+          "Glasgow-1604",
           "Glasgow-3183",
           "Glasgow-3321",
           "Glasgow-993",
@@ -37890,7 +37305,7 @@
       "research_cases": [
         "Glasgow-1098",
         "Glasgow-1603",
-        "Glasgow-3145",
+        "Glasgow-1604",
         "Glasgow-991"
       ],
       "direct_case": true,
@@ -38361,26 +37776,6 @@
       "case_files": [
         "findings.md"
       ]
-    },
-    "Glasgow-3549": {
-      "wikitree_id": "Glasgow-3549",
-      "display_name": "William Glasgow",
-      "birth_date": "1704-08-20",
-      "birth_location": null,
-      "death_date": "0000-00-00",
-      "death_location": null,
-      "relations": {
-        "children": [],
-        "parents": [],
-        "siblings": [],
-        "spouses": []
-      },
-      "research_cases": [
-        "Glasgow-1073"
-      ],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-05-02"
     },
     "Glasgow-3550": {
       "wikitree_id": "Glasgow-3550",
@@ -39290,40 +38685,6 @@
       "early_evidence": false,
       "workbook_modified": "2025-07-11"
     },
-    "Glasgow-3608": {
-      "wikitree_id": "Glasgow-3608",
-      "display_name": "John Glasgow",
-      "birth_date": "1590-00-00",
-      "birth_location": "Mid Calder, Midlothian, Scotland",
-      "death_date": "0000-00-00",
-      "death_location": "Mid Calder, Midlothian, Scotland",
-      "relations": {
-        "children": [
-          "Glasgow-1086",
-          "Glasgow-1087"
-        ],
-        "parents": [
-          "Glasgow-1029"
-        ],
-        "siblings": [],
-        "spouses": []
-      },
-      "research_cases": [
-        "Glasgow-1029",
-        "Glasgow-3608"
-      ],
-      "direct_case": true,
-      "early_evidence": false,
-      "workbook_modified": "2025-08-11",
-      "case_files": [
-        "Glasgow-3608.md",
-        "evidence_index.json",
-        "findings.md",
-        "research_brief.md",
-        "research_plan.json",
-        "research_state.json"
-      ]
-    },
     "Glasgow-361": {
       "wikitree_id": "Glasgow-361",
       "display_name": "William Thomas Glasgow",
@@ -39802,19 +39163,6 @@
       "early_evidence": false,
       "workbook_modified": "2025-08-11"
     },
-    "Glasgow-3641": {
-      "wikitree_id": "Glasgow-3641",
-      "display_name": "Mathew Glasgow",
-      "birth_date": "1842-00-00",
-      "birth_location": "New Monkland, Lanarkshire, Scotland",
-      "death_date": "1914-00-00",
-      "death_location": "Blackridge, West Lothian, Scotland, United Kingdom",
-      "relations": {},
-      "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-08-16"
-    },
     "Glasgow-3642": {
       "wikitree_id": "Glasgow-3642",
       "display_name": "Thelma Glasgow",
@@ -39983,34 +39331,6 @@
       "direct_case": false,
       "early_evidence": false,
       "workbook_modified": "2025-08-23"
-    },
-    "Glasgow-3654": {
-      "wikitree_id": "Glasgow-3654",
-      "display_name": "Isobel Glasgow",
-      "birth_date": "1648-02-03",
-      "birth_location": "Mid Calder, Midlothian, Scotland",
-      "death_date": "0000-00-00",
-      "death_location": null,
-      "relations": {
-        "children": [],
-        "parents": [],
-        "siblings": [],
-        "spouses": []
-      },
-      "research_cases": [
-        "Glasgow-3654"
-      ],
-      "direct_case": true,
-      "early_evidence": true,
-      "workbook_modified": "2025-08-28",
-      "case_files": [
-        "Glasgow-3654.md",
-        "evidence_index.json",
-        "findings.md",
-        "research_brief.md",
-        "research_plan.json",
-        "research_state.json"
-      ]
     },
     "Glasgow-3655": {
       "wikitree_id": "Glasgow-3655",
@@ -40206,19 +39526,6 @@
       "direct_case": false,
       "early_evidence": false,
       "workbook_modified": "2025-09-11"
-    },
-    "Glasgow-3681": {
-      "wikitree_id": "Glasgow-3681",
-      "display_name": "William Glasgow",
-      "birth_date": "1813-00-00",
-      "birth_location": null,
-      "death_date": "0000-00-00",
-      "death_location": null,
-      "relations": {},
-      "research_cases": [],
-      "direct_case": false,
-      "early_evidence": false,
-      "workbook_modified": "2025-10-16"
     },
     "Glasgow-3682": {
       "wikitree_id": "Glasgow-3682",
@@ -43314,7 +42621,7 @@
         "siblings": [
           "Glasgow-3193",
           "Glasgow-3921",
-          "Glasgow-4061"
+          "Glasgow-3193"
         ],
         "spouses": []
       },
@@ -43380,23 +42687,6 @@
       "early_evidence": true,
       "case_files": [
         "1542_Scotland_Brakpleuch_Michael_Glasgow.md",
-        "findings.md"
-      ]
-    },
-    "Glasgow-3912": {
-      "wikitree_id": "Glasgow-3912",
-      "display_name": "Glasgow-3912",
-      "birth_date": null,
-      "birth_location": null,
-      "death_date": null,
-      "death_location": null,
-      "relations": {},
-      "research_cases": [],
-      "direct_case": true,
-      "early_evidence": true,
-      "case_files": [
-        "1673_Scotland_Quothquan_William_Glasgow.md",
-        "Glasgow-3912.md",
         "findings.md"
       ]
     },
@@ -43528,22 +42818,6 @@
         "findings.md"
       ]
     },
-    "Glasgow-3919": {
-      "wikitree_id": "Glasgow-3919",
-      "display_name": "Glasgow-3919",
-      "birth_date": null,
-      "birth_location": null,
-      "death_date": null,
-      "death_location": null,
-      "relations": {},
-      "research_cases": [],
-      "direct_case": true,
-      "early_evidence": true,
-      "case_files": [
-        "1580_Scotland_Kilbride_Robert_Glasgow.md",
-        "findings.md"
-      ]
-    },
     "Glasgow-392": {
       "wikitree_id": "Glasgow-392",
       "display_name": "William Jules Glasgow",
@@ -43604,7 +42878,7 @@
         "Glasgow-3179",
         "Glasgow-3193",
         "Glasgow-3921",
-        "Glasgow-4061"
+        "Glasgow-3193"
       ],
       "direct_case": true,
       "early_evidence": true,
@@ -43621,7 +42895,7 @@
           "Glasgow-3178",
           "Glasgow-3193",
           "Glasgow-3908",
-          "Glasgow-4061"
+          "Glasgow-3193"
         ],
         "spouses": []
       },
@@ -44187,33 +43461,6 @@
         "profile.md"
       ]
     },
-    "Glasgow-3968": {
-      "wikitree_id": "Glasgow-3968",
-      "display_name": "James Glasgow",
-      "birth_date": "1685-00-00",
-      "birth_location": "Duneane, County Antrim, Ireland",
-      "death_date": "0000-00-00",
-      "death_location": null,
-      "relations": {
-        "children": [],
-        "parents": [],
-        "siblings": [],
-        "spouses": []
-      },
-      "research_cases": [
-        "Glasgow-3968"
-      ],
-      "direct_case": true,
-      "early_evidence": false,
-      "case_files": [
-        "Glasgow-3968.md",
-        "evidence_index.json",
-        "findings.md",
-        "research_brief.md",
-        "research_plan.json",
-        "research_state.json"
-      ]
-    },
     "Glasgow-3969": {
       "wikitree_id": "Glasgow-3969",
       "display_name": "Glasgow-3969",
@@ -44593,42 +43840,13 @@
         "siblings": [
           "Glasgow-1028",
           "Glasgow-1561",
-          "Glasgow-4007",
-          "Glasgow-991"
-        ],
-        "spouses": []
-      },
-      "case_files": [
-        "1598_Scotland_Corstoun_Andrew_Glasgow.md",
-        "findings.md"
-      ]
-    },
-    "Glasgow-4007": {
-      "wikitree_id": "Glasgow-4007",
-      "display_name": "William Glasgow",
-      "birth_date": "1597-02-06",
-      "birth_location": "Inveresk, Midlothian, Scotland",
-      "death_date": "1597-02-06",
-      "research_cases": [
-        "Glasgow-1098"
-      ],
-      "direct_case": true,
-      "early_evidence": true,
-      "relations": {
-        "children": [],
-        "parents": [
-          "Glasgow-3163"
-        ],
-        "siblings": [
-          "Glasgow-1028",
-          "Glasgow-1561",
           "Glasgow-4006",
           "Glasgow-991"
         ],
         "spouses": []
       },
       "case_files": [
-        "1598_Scotland_Corstoun_William_Glasgow.md",
+        "1598_Scotland_Corstoun_Andrew_Glasgow.md",
         "findings.md"
       ]
     },
@@ -45013,41 +44231,6 @@
       "direct_case": false,
       "early_evidence": false,
       "workbook_modified": "2025-10-13"
-    },
-    "Glasgow-4061": {
-      "wikitree_id": "Glasgow-4061",
-      "display_name": "John Glasgow",
-      "birth_date": "1571-02-09",
-      "death_date": "1571-02-09",
-      "research_cases": [
-        "Glasgow-1098",
-        "Glasgow-1168",
-        "Glasgow-3193",
-        "Glasgow-3921",
-        "Glasgow-4061"
-      ],
-      "direct_case": true,
-      "early_evidence": false,
-      "relations": {
-        "children": [],
-        "parents": [
-          "Glasgow-1168"
-        ],
-        "siblings": [
-          "Glasgow-3193",
-          "Glasgow-3908",
-          "Glasgow-3921"
-        ],
-        "spouses": []
-      },
-      "case_files": [
-        "Glasgow-4061.md",
-        "evidence_index.json",
-        "findings.md",
-        "research_brief.md",
-        "research_plan.json",
-        "research_state.json"
-      ]
     },
     "Glasgow-4062": {
       "wikitree_id": "Glasgow-4062",
@@ -52370,7 +51553,7 @@
           "Glasgow-1148",
           "Glasgow-1603",
           "Glasgow-3144",
-          "Glasgow-3145",
+          "Glasgow-1604",
           "Glasgow-3183",
           "Glasgow-3321",
           "Glasgow-3517",
@@ -52384,7 +51567,7 @@
           "Glasgow-1028",
           "Glasgow-1561",
           "Glasgow-4006",
-          "Glasgow-4007"
+          "Glasgow-4006"
         ],
         "spouses": []
       },
@@ -52393,7 +51576,7 @@
         "Glasgow-1098",
         "Glasgow-1561",
         "Glasgow-1603",
-        "Glasgow-3145",
+        "Glasgow-1604",
         "Glasgow-3163",
         "Glasgow-991"
       ],
@@ -52476,7 +51659,7 @@
           "Glasgow-1148",
           "Glasgow-1603",
           "Glasgow-3144",
-          "Glasgow-3145",
+          "Glasgow-1604",
           "Glasgow-3183",
           "Glasgow-3321",
           "Glasgow-3517",
@@ -52487,7 +51670,7 @@
       "research_cases": [
         "Glasgow-1098",
         "Glasgow-1603",
-        "Glasgow-3145",
+        "Glasgow-1604",
         "Glasgow-991"
       ],
       "direct_case": true,
@@ -52516,7 +51699,7 @@
           "Glasgow-1148",
           "Glasgow-1603",
           "Glasgow-3144",
-          "Glasgow-3145",
+          "Glasgow-1604",
           "Glasgow-3183",
           "Glasgow-3321",
           "Glasgow-3517",
@@ -52527,7 +51710,7 @@
       "research_cases": [
         "Glasgow-1098",
         "Glasgow-1603",
-        "Glasgow-3145",
+        "Glasgow-1604",
         "Glasgow-991"
       ],
       "direct_case": true,

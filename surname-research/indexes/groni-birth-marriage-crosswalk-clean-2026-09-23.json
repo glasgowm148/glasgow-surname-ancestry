@@ -1,0 +1,3363 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-09-23",
+  "source": "surname-research/indexes/groni-birth-marriage-crosswalk-raw-2026-09-23.json",
+  "source_inputs": [
+    "Glasgow_births_master.csv (307 rows)",
+    "GRONI marriage transcription supplied 23 September 2026 (102 rows)",
+    "GRONI death transcription supplied 23 September 2026 (152 rows)"
+  ],
+  "counts": {
+    "death_rows": 152,
+    "birth_leads": 52,
+    "marriage_leads": 51,
+    "birth_after_death_excluded": 8,
+    "marriage_after_death_excluded": 2
+  },
+  "rows": [
+    {
+      "audit_row": 1,
+      "death_registration_number": "D/1872/7/1001/3/156",
+      "death_date": "1872-11-08",
+      "district": "Antrim",
+      "forename": "Sarah",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 2,
+      "death_registration_number": "D/1886/7/1001/8/142",
+      "death_date": "1886-10-13",
+      "district": "Antrim",
+      "forename": "Mary",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 3,
+      "death_registration_number": "D/1873/11/1002/5/393",
+      "death_date": "1873-07-21",
+      "district": "Armagh",
+      "forename": "Samuel",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 4,
+      "death_registration_number": "D/1880/11/1002/11/102",
+      "death_date": "1880-06-17",
+      "district": "Armagh",
+      "forename": "Hanah",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 5,
+      "death_registration_number": "D/1883/11/1002/12/140",
+      "death_date": "1882-12-11",
+      "district": "Armagh",
+      "forename": "John",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 6,
+      "death_registration_number": "D/1896/11/1002/17/275",
+      "death_date": "1896-03-08",
+      "district": "Armagh",
+      "forename": "Samuel",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 7,
+      "death_registration_number": "D/1865/11/1002/1/447",
+      "death_date": "1865-08-22",
+      "district": "Armagh",
+      "forename": "Sarah",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 8,
+      "death_registration_number": "D/1885/11/1002/13/159",
+      "death_date": "1885-04-05",
+      "district": "Armagh",
+      "forename": "Henry",
+      "compatible_births": [
+        {
+          "district": "Armagh",
+          "year": "1876",
+          "date_of_birth": "19th July 1876",
+          "forename": "Henry",
+          "sex": "Male",
+          "mother_maiden_name": "Hewitt",
+          "registration_number": "U/1876/11/1002/11/31",
+          "match_basis": [
+            "forename",
+            "district",
+            "birth_year_within_2"
+          ]
+        }
+      ],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "birth_leads"
+    },
+    {
+      "audit_row": 9,
+      "death_registration_number": "D/1884/11/1002/13/63",
+      "death_date": "1884-11-17",
+      "district": "Armagh",
+      "forename": "Alice",
+      "compatible_births": [
+        {
+          "district": "Armagh",
+          "year": "1884",
+          "date_of_birth": "5th November 1884",
+          "forename": "Alice",
+          "sex": "Female",
+          "mother_maiden_name": "Hewitt",
+          "registration_number": "U/1884/11/1002/16/205",
+          "match_basis": [
+            "forename",
+            "district",
+            "birth_year_within_2"
+          ]
+        }
+      ],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "birth_leads"
+    },
+    {
+      "audit_row": 10,
+      "death_registration_number": "D/1895/11/1002/17/72",
+      "death_date": "1895-03-04",
+      "district": "Armagh",
+      "forename": "Henrietta",
+      "compatible_births": [
+        {
+          "district": "Armagh",
+          "year": "1895",
+          "date_of_birth": "2nd March 1895",
+          "forename": "Henrietta",
+          "sex": "Female",
+          "mother_maiden_name": "Hewitt",
+          "registration_number": "U/1895/11/1002/22/55",
+          "match_basis": [
+            "forename",
+            "district",
+            "birth_year_within_2"
+          ]
+        }
+      ],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "birth_leads"
+    },
+    {
+      "audit_row": 11,
+      "death_registration_number": "D/1865/24/1004/1/118",
+      "death_date": "1865-05-05",
+      "district": "Ballymena",
+      "forename": "Eliza",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 12,
+      "death_registration_number": "D/1870/26/1004/2/89",
+      "death_date": "1870-07-27",
+      "district": "Ballymena",
+      "forename": "Alice",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 13,
+      "death_registration_number": "D/1890/19/1004/9/138",
+      "death_date": "1890-01-23",
+      "district": "Ballymena",
+      "forename": "Agnes",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 14,
+      "death_registration_number": "D/1881/20/1004/11/324",
+      "death_date": "1881-12-13",
+      "district": "Ballymena",
+      "forename": "Jane",
+      "compatible_births": [],
+      "compatible_marriages": [
+        {
+          "district": "Ballymena",
+          "year": 1868,
+          "date_of_marriage": "9th December 1868",
+          "glasgow_forenames": [
+            "Jane"
+          ],
+          "glasgow_forename_raw": "Jane",
+          "other_party_surname": "Lough",
+          "registration_number": "M/1868/H1/233/13/289",
+          "match_basis": [
+            "forename_or_common_abbreviation",
+            "district_exact",
+            "chronology_marriage_after_approx_birth_plus_12_before_death"
+          ]
+        }
+      ],
+      "excluded": [],
+      "lead_status": "marriage_leads"
+    },
+    {
+      "audit_row": 15,
+      "death_registration_number": "D/1874/24/1004/2/366",
+      "death_date": "1874-01-27",
+      "district": "Ballymena",
+      "forename": "John",
+      "compatible_births": [],
+      "compatible_marriages": [
+        {
+          "district": "Ballymena",
+          "year": 1865,
+          "date_of_marriage": "11th September 1865",
+          "glasgow_forenames": [
+            "John"
+          ],
+          "glasgow_forename_raw": "John",
+          "other_party_surname": "Grey",
+          "registration_number": "M/1865/H1/215/4/87",
+          "match_basis": [
+            "forename_or_common_abbreviation",
+            "district_exact",
+            "chronology_marriage_after_approx_birth_plus_12_before_death"
+          ]
+        }
+      ],
+      "excluded": [],
+      "lead_status": "marriage_leads"
+    },
+    {
+      "audit_row": 16,
+      "death_registration_number": "D/1876/23/1004/5/50",
+      "death_date": "1876-09-28",
+      "district": "Ballymena",
+      "forename": "Nancy",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 17,
+      "death_registration_number": "D/1890/23/1004/9/446",
+      "death_date": "1890-06-07",
+      "district": "Ballymena",
+      "forename": "James",
+      "compatible_births": [],
+      "compatible_marriages": [
+        {
+          "district": "Ballymena",
+          "year": 1886,
+          "date_of_marriage": "1st July 1886",
+          "glasgow_forenames": [
+            "James"
+          ],
+          "glasgow_forename_raw": "James",
+          "other_party_surname": "Aicken",
+          "registration_number": "M/1886/H1/231/5/62",
+          "match_basis": [
+            "forename_or_common_abbreviation",
+            "district_exact",
+            "chronology_marriage_after_approx_birth_plus_12_before_death"
+          ]
+        }
+      ],
+      "excluded": [],
+      "lead_status": "marriage_leads"
+    },
+    {
+      "audit_row": 18,
+      "death_registration_number": "D/1877/24/1004/3/162",
+      "death_date": "1877-03-14",
+      "district": "Ballymena",
+      "forename": "Ann",
+      "compatible_births": [],
+      "compatible_marriages": [
+        {
+          "district": "Ballymena",
+          "year": 1869,
+          "date_of_marriage": "24th November 1869",
+          "glasgow_forenames": [
+            "Anne"
+          ],
+          "glasgow_forename_raw": "Anne",
+          "other_party_surname": "Russell",
+          "registration_number": "M/1869/H1/227/1/195",
+          "match_basis": [
+            "forename_or_common_abbreviation",
+            "district_exact",
+            "chronology_marriage_after_approx_birth_plus_12_before_death"
+          ]
+        }
+      ],
+      "excluded": [],
+      "lead_status": "marriage_leads"
+    },
+    {
+      "audit_row": 19,
+      "death_registration_number": "D/1891/24/1004/7/198",
+      "death_date": "1891-01-30",
+      "district": "Ballymena",
+      "forename": "William",
+      "compatible_births": [],
+      "compatible_marriages": [
+        {
+          "district": "Ballymena",
+          "year": 1889,
+          "date_of_marriage": "6th March 1889",
+          "glasgow_forenames": [
+            "William"
+          ],
+          "glasgow_forename_raw": "William",
+          "other_party_surname": "Kerr",
+          "registration_number": "M/1889/H1/227/3/20",
+          "match_basis": [
+            "forename_or_common_abbreviation",
+            "district_exact",
+            "chronology_marriage_after_approx_birth_plus_12_before_death"
+          ]
+        }
+      ],
+      "excluded": [],
+      "lead_status": "marriage_leads"
+    },
+    {
+      "audit_row": 20,
+      "death_registration_number": "D/1889/23/1004/9/301",
+      "death_date": "1889-06-08",
+      "district": "Ballymena",
+      "forename": "Hugh",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 21,
+      "death_registration_number": "D/1900/23/1004/12/293",
+      "death_date": "1900-05-17",
+      "district": "Ballymena",
+      "forename": "William",
+      "compatible_births": [],
+      "compatible_marriages": [
+        {
+          "district": "Ballymena",
+          "year": 1889,
+          "date_of_marriage": "6th March 1889",
+          "glasgow_forenames": [
+            "William"
+          ],
+          "glasgow_forename_raw": "William",
+          "other_party_surname": "Kerr",
+          "registration_number": "M/1889/H1/227/3/20",
+          "match_basis": [
+            "forename_or_common_abbreviation",
+            "district_exact",
+            "chronology_marriage_after_approx_birth_plus_12_before_death"
+          ]
+        }
+      ],
+      "excluded": [],
+      "lead_status": "marriage_leads"
+    },
+    {
+      "audit_row": 22,
+      "death_registration_number": "D/1865/24/1004/1/82",
+      "death_date": "1865-01-06",
+      "district": "Ballymena",
+      "forename": "William",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 23,
+      "death_registration_number": "D/1897/20/1004/20/403",
+      "death_date": "1897-12-11",
+      "district": "Ballymena",
+      "forename": "Margaret",
+      "compatible_births": [],
+      "compatible_marriages": [
+        {
+          "district": "Ballymena",
+          "year": 1874,
+          "date_of_marriage": "24th November 1874",
+          "glasgow_forenames": [
+            "Margaret"
+          ],
+          "glasgow_forename_raw": "Margaret",
+          "other_party_surname": "Jebb",
+          "registration_number": "M/1874/H1/230/1/76",
+          "match_basis": [
+            "forename_or_common_abbreviation",
+            "district_exact",
+            "chronology_marriage_after_approx_birth_plus_12_before_death"
+          ]
+        }
+      ],
+      "excluded": [],
+      "lead_status": "marriage_leads"
+    },
+    {
+      "audit_row": 24,
+      "death_registration_number": "D/1882/24/1004/4/439",
+      "death_date": "1882-03-12",
+      "district": "Ballymena",
+      "forename": "Nathaniel",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 25,
+      "death_registration_number": "D/1865/24/1004/1/152",
+      "death_date": "1865-09-10",
+      "district": "Ballymena",
+      "forename": "Mary",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 26,
+      "death_registration_number": "D/1890/20/1004/16/338",
+      "death_date": "1890-03-22",
+      "district": "Ballymena",
+      "forename": "Robert",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 27,
+      "death_registration_number": "D/1890/20/1004/16/320",
+      "death_date": "1890-02-18",
+      "district": "Ballymena",
+      "forename": "Rosetta",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 28,
+      "death_registration_number": "D/1867/24/1004/1/290",
+      "death_date": "1867-03-23",
+      "district": "Ballymena",
+      "forename": "John",
+      "compatible_births": [
+        {
+          "district": "Ballymena",
+          "year": "1865",
+          "date_of_birth": "18th December 1865",
+          "forename": "John",
+          "sex": "Male",
+          "mother_maiden_name": "Gray",
+          "registration_number": "U/1866/24/1004/1/390",
+          "match_basis": [
+            "forename",
+            "district",
+            "birth_year_within_2"
+          ]
+        },
+        {
+          "district": "Ballymena",
+          "year": "1866",
+          "date_of_birth": "20th February 1866",
+          "forename": "John",
+          "sex": "Male",
+          "mother_maiden_name": "Cushonon",
+          "registration_number": "U/1866/24/1004/1/431",
+          "match_basis": [
+            "forename",
+            "district",
+            "birth_year_within_2"
+          ]
+        }
+      ],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "birth_leads"
+    },
+    {
+      "audit_row": 29,
+      "death_registration_number": "D/1876/22/1004/3/301",
+      "death_date": "1876-11-24",
+      "district": "Ballymena",
+      "forename": "Margaret",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 30,
+      "death_registration_number": "D/1871/27/1005/3/355",
+      "death_date": "1871-01-30",
+      "district": "Ballymoney",
+      "forename": "Letitia",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 31,
+      "death_registration_number": "D/1875/31/1005/3/280",
+      "death_date": "1875-08-17",
+      "district": "Ballymoney",
+      "forename": "Samuel",
+      "compatible_births": [],
+      "compatible_marriages": [
+        {
+          "district": "Ballymoney",
+          "year": 1866,
+          "date_of_marriage": "21st August 1866",
+          "glasgow_forenames": [
+            "Samuel"
+          ],
+          "glasgow_forename_raw": "Samuel",
+          "other_party_surname": "Calaghen",
+          "registration_number": "M/1866/I1/281/6/5",
+          "match_basis": [
+            "forename_or_common_abbreviation",
+            "district_exact",
+            "chronology_marriage_after_approx_birth_plus_12_before_death"
+          ]
+        }
+      ],
+      "excluded": [],
+      "lead_status": "marriage_leads"
+    },
+    {
+      "audit_row": 32,
+      "death_registration_number": "D/1868/27/1005/2/324",
+      "death_date": "1868-03-31",
+      "district": "Ballymoney",
+      "forename": "Robert",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 33,
+      "death_registration_number": "D/1892/31/1005/8/234",
+      "death_date": "1892-02-17",
+      "district": "Ballymoney",
+      "forename": "Mary",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 34,
+      "death_registration_number": "D/1888/31/1005/7/348",
+      "death_date": "1888-05-16",
+      "district": "Ballymoney",
+      "forename": "Alexander",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 35,
+      "death_registration_number": "D/1885/31/1005/7/2",
+      "death_date": "1885-06-24",
+      "district": "Ballymoney",
+      "forename": "John",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 36,
+      "death_registration_number": "D/1870/31/1005/2/197",
+      "death_date": "1870-06-21",
+      "district": "Ballymoney",
+      "forename": "Thomas",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 37,
+      "death_registration_number": "D/1868/31/1005/1/451",
+      "death_date": "1867-12-14",
+      "district": "Ballymoney",
+      "forename": "Daniel",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 38,
+      "death_registration_number": "D/1890/27/1005/13/100",
+      "death_date": "1890-03-06",
+      "district": "Ballymoney",
+      "forename": "Jane",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 39,
+      "death_registration_number": "D/1887/31/1005/7/245",
+      "death_date": "1887-10-18",
+      "district": "Ballymoney",
+      "forename": "John",
+      "compatible_births": [
+        {
+          "district": "Ballymoney",
+          "year": "1887",
+          "date_of_birth": "3rd October 1887",
+          "forename": "John",
+          "sex": "Male",
+          "mother_maiden_name": "Eakin",
+          "registration_number": "U/1887/31/1005/10/352",
+          "match_basis": [
+            "forename",
+            "district",
+            "birth_year_within_2"
+          ]
+        }
+      ],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "birth_leads"
+    },
+    {
+      "audit_row": 40,
+      "death_registration_number": "D/1889/27/1005/12/439",
+      "death_date": "1889-02-12",
+      "district": "Ballymoney",
+      "forename": "Matilda",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 41,
+      "death_registration_number": "D/1874/49/1007/17/123",
+      "death_date": "1874-09-14",
+      "district": "Belfast",
+      "forename": "William",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 42,
+      "death_registration_number": "D/1881/50/1007/41/66",
+      "death_date": "1881-03-13",
+      "district": "Belfast",
+      "forename": "Eileen",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 43,
+      "death_registration_number": "D/1877/57/1007/10/239",
+      "death_date": "1877-09-02",
+      "district": "Belfast",
+      "forename": "Rose",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 44,
+      "death_registration_number": "D/1881/48/1007/19/468",
+      "death_date": "1881-09-21",
+      "district": "Belfast",
+      "forename": "William",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 45,
+      "death_registration_number": "D/1870/50/1007/17/273",
+      "death_date": "1870-11-21",
+      "district": "Belfast",
+      "forename": "Ellen",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 46,
+      "death_registration_number": "D/1874/52/1007/12/431",
+      "death_date": "1874-12-08",
+      "district": "Belfast",
+      "forename": "Mary",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 47,
+      "death_registration_number": "D/1879/49/1007/25/179",
+      "death_date": "1879-01-16",
+      "district": "Belfast",
+      "forename": "Margaret",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 48,
+      "death_registration_number": "D/1871/49/1007/12/209",
+      "death_date": "1871-09-21",
+      "district": "Belfast",
+      "forename": "Sarah",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 49,
+      "death_registration_number": "D/1887/49/1007/40/212",
+      "death_date": "1887-12-20",
+      "district": "Belfast",
+      "forename": "Annie",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 50,
+      "death_registration_number": "D/1891/49/1007/47/327",
+      "death_date": "1891-07-04",
+      "district": "Belfast",
+      "forename": "Victoria",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 51,
+      "death_registration_number": "D/1900/48/1007/54/58",
+      "death_date": "1900-09-25",
+      "district": "Belfast",
+      "forename": "Margaret",
+      "compatible_births": [
+        {
+          "district": "Belfast",
+          "year": "1864",
+          "date_of_birth": "27th September 1864",
+          "forename": "Margaret",
+          "sex": "Female",
+          "mother_maiden_name": "Woods",
+          "registration_number": "U/1864/49/1007/2/285",
+          "match_basis": [
+            "forename",
+            "district",
+            "birth_year_within_2"
+          ]
+        }
+      ],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "birth_leads"
+    },
+    {
+      "audit_row": 52,
+      "death_registration_number": "D/1867/50/1007/8/381",
+      "death_date": "1867-04-14",
+      "district": "Belfast",
+      "forename": "Robert",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 53,
+      "death_registration_number": "D/1868/50/1007/11/275",
+      "death_date": "1868-07-16",
+      "district": "Belfast",
+      "forename": "Not Captured",
+      "compatible_births": [
+        {
+          "district": "Belfast",
+          "year": "1866",
+          "date_of_birth": "5th April 1866",
+          "forename": "Not Captured",
+          "sex": "Female",
+          "mother_maiden_name": "Woods",
+          "registration_number": "U/1866/48/1007/3/71",
+          "match_basis": [
+            "forename",
+            "district",
+            "birth_year_within_2"
+          ]
+        },
+        {
+          "district": "Belfast",
+          "year": "1866",
+          "date_of_birth": "18th September 1866",
+          "forename": "Not Captured",
+          "sex": "Male",
+          "mother_maiden_name": "",
+          "registration_number": "U/1866/50/1007/5/468",
+          "match_basis": [
+            "forename",
+            "district",
+            "birth_year_within_2"
+          ]
+        },
+        {
+          "district": "Belfast",
+          "year": "1867",
+          "date_of_birth": "19th June 1867",
+          "forename": "Not Captured",
+          "sex": "Female",
+          "mother_maiden_name": "Woods",
+          "registration_number": "U/1867/49/1007/9/448",
+          "match_basis": [
+            "forename",
+            "district",
+            "birth_year_within_2"
+          ]
+        },
+        {
+          "district": "Belfast",
+          "year": "1868",
+          "date_of_birth": "15th July 1868",
+          "forename": "Not Captured",
+          "sex": "Male",
+          "mother_maiden_name": "",
+          "registration_number": "U/1868/50/1007/9/444",
+          "match_basis": [
+            "forename",
+            "district",
+            "birth_year_within_2"
+          ]
+        }
+      ],
+      "compatible_marriages": [],
+      "excluded": [
+        {
+          "type": "birth",
+          "registration_number": "U/1870/50/1007/13/214",
+          "reason": "birth_date_after_death_date"
+        },
+        {
+          "type": "birth",
+          "registration_number": "U/1870/49/1007/19/389",
+          "reason": "birth_date_after_death_date"
+        }
+      ],
+      "lead_status": "birth_leads"
+    },
+    {
+      "audit_row": 54,
+      "death_registration_number": "D/1888/53/1007/7/172",
+      "death_date": "1888-05-06",
+      "district": "Belfast",
+      "forename": "Thomas",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 55,
+      "death_registration_number": "D/1871/50/1007/18/337",
+      "death_date": "1871-05-08",
+      "district": "Belfast",
+      "forename": "Robert",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 56,
+      "death_registration_number": "D/1873/50/1007/22/120",
+      "death_date": "1873-01-20",
+      "district": "Belfast",
+      "forename": "Not Captured",
+      "compatible_births": [
+        {
+          "district": "Belfast",
+          "year": "1873",
+          "date_of_birth": "19th January 1873",
+          "forename": "Not Captured",
+          "sex": "Female",
+          "mother_maiden_name": "",
+          "registration_number": "U/1873/50/1007/18/278",
+          "match_basis": [
+            "forename",
+            "district",
+            "birth_year_within_2"
+          ]
+        }
+      ],
+      "compatible_marriages": [],
+      "excluded": [
+        {
+          "type": "birth",
+          "registration_number": "U/1874/50/1007/21/395",
+          "reason": "birth_date_after_death_date"
+        },
+        {
+          "type": "birth",
+          "registration_number": "U/1875/50/1007/23/321",
+          "reason": "birth_date_after_death_date"
+        }
+      ],
+      "lead_status": "birth_leads"
+    },
+    {
+      "audit_row": 57,
+      "death_registration_number": "D/1873/50/1007/22/376",
+      "death_date": "1873-04-01",
+      "district": "Belfast",
+      "forename": "William",
+      "compatible_births": [
+        {
+          "district": "Belfast",
+          "year": "1873",
+          "date_of_birth": "21st March 1873",
+          "forename": "William",
+          "sex": "Male",
+          "mother_maiden_name": "",
+          "registration_number": "U/1873/50/1007/18/426",
+          "match_basis": [
+            "forename",
+            "district",
+            "birth_year_within_2"
+          ]
+        }
+      ],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "birth_leads"
+    },
+    {
+      "audit_row": 58,
+      "death_registration_number": "D/1876/57/1007/9/170",
+      "death_date": "1876-01-31",
+      "district": "Belfast",
+      "forename": "Daniel",
+      "compatible_births": [
+        {
+          "district": "Belfast",
+          "year": "1875",
+          "date_of_birth": "6th August 1875",
+          "forename": "Daniel",
+          "sex": "Male",
+          "mother_maiden_name": "Hughes",
+          "registration_number": "U/1875/57/1007/15/347",
+          "match_basis": [
+            "forename",
+            "district",
+            "birth_year_within_2"
+          ]
+        }
+      ],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "birth_leads"
+    },
+    {
+      "audit_row": 59,
+      "death_registration_number": "D/1876/50/1007/30/176",
+      "death_date": "1876-09-12",
+      "district": "Belfast",
+      "forename": "Margaret",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 60,
+      "death_registration_number": "D/1893/49/1007/52/209",
+      "death_date": "1893-09-13",
+      "district": "Belfast",
+      "forename": "Clare",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 61,
+      "death_registration_number": "D/1893/51/1007/30/285",
+      "death_date": "1893-07-05",
+      "district": "Belfast",
+      "forename": "Maggie",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 62,
+      "death_registration_number": "D/1889/51/1007/26/350",
+      "death_date": "1889-11-22",
+      "district": "Belfast",
+      "forename": "William",
+      "compatible_births": [
+        {
+          "district": "Belfast",
+          "year": "1887",
+          "date_of_birth": "5th December 1887",
+          "forename": "William",
+          "sex": "Male",
+          "mother_maiden_name": "Cleery",
+          "registration_number": "U/1887/51/1007/32/453",
+          "match_basis": [
+            "forename",
+            "district",
+            "birth_year_within_2"
+          ]
+        }
+      ],
+      "compatible_marriages": [],
+      "excluded": [
+        {
+          "type": "birth",
+          "registration_number": "U/1889/49/1007/74/183",
+          "reason": "birth_date_after_death_date"
+        }
+      ],
+      "lead_status": "birth_leads"
+    },
+    {
+      "audit_row": 63,
+      "death_registration_number": "D/1889/50/1007/62/348",
+      "death_date": "1889-07-05",
+      "district": "Belfast",
+      "forename": "Sarah",
+      "compatible_births": [
+        {
+          "district": "Belfast",
+          "year": "1889",
+          "date_of_birth": "3rd July 1889",
+          "forename": "Sarah",
+          "sex": "Female",
+          "mother_maiden_name": "Mitchell",
+          "registration_number": "U/1889/50/1007/52/143",
+          "match_basis": [
+            "forename",
+            "district",
+            "birth_year_within_2"
+          ]
+        }
+      ],
+      "compatible_marriages": [],
+      "excluded": [
+        {
+          "type": "birth",
+          "registration_number": "U/1891/50/1007/58/148",
+          "reason": "birth_date_after_death_date"
+        }
+      ],
+      "lead_status": "birth_leads"
+    },
+    {
+      "audit_row": 64,
+      "death_registration_number": "D/1890/50/1007/66/264",
+      "death_date": "1890-10-01",
+      "district": "Belfast",
+      "forename": "Mary",
+      "compatible_births": [
+        {
+          "district": "Belfast",
+          "year": "1890",
+          "date_of_birth": "2nd September 1890",
+          "forename": "Mary",
+          "sex": "Female",
+          "mother_maiden_name": "Logan",
+          "registration_number": "U/1890/50/1007/55/34",
+          "match_basis": [
+            "forename",
+            "district",
+            "birth_year_within_2"
+          ]
+        }
+      ],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "birth_leads"
+    },
+    {
+      "audit_row": 65,
+      "death_registration_number": "D/1892/50/1007/70/374",
+      "death_date": "1892-01-30",
+      "district": "Belfast",
+      "forename": "Sarah",
+      "compatible_births": [
+        {
+          "district": "Belfast",
+          "year": "1891",
+          "date_of_birth": "25th November 1891",
+          "forename": "Sarah",
+          "sex": "Female",
+          "mother_maiden_name": "Mitchell",
+          "registration_number": "U/1891/50/1007/58/148",
+          "match_basis": [
+            "forename",
+            "district",
+            "birth_year_within_2"
+          ]
+        }
+      ],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "birth_leads"
+    },
+    {
+      "audit_row": 66,
+      "death_registration_number": "D/1897/51/1007/34/369",
+      "death_date": "1897-12-30",
+      "district": "Belfast",
+      "forename": "Adam",
+      "compatible_births": [
+        {
+          "district": "Belfast",
+          "year": "1894",
+          "date_of_birth": "31st July 1894",
+          "forename": "Adam",
+          "sex": "Male",
+          "mother_maiden_name": "Moore",
+          "registration_number": "U/1894/56/1007/2/27",
+          "match_basis": [
+            "forename",
+            "district",
+            "birth_year_within_2"
+          ]
+        }
+      ],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "birth_leads"
+    },
+    {
+      "audit_row": 67,
+      "death_registration_number": "D/1900/56/1007/6/107",
+      "death_date": "1900-02-21",
+      "district": "Belfast",
+      "forename": "Samuel",
+      "compatible_births": [
+        {
+          "district": "Belfast",
+          "year": "1897",
+          "date_of_birth": "22nd July 1897",
+          "forename": "Samuel",
+          "sex": "Male",
+          "mother_maiden_name": "Moore",
+          "registration_number": "U/1897/51/1007/45/300",
+          "match_basis": [
+            "forename",
+            "district",
+            "birth_year_within_2"
+          ]
+        }
+      ],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "birth_leads"
+    },
+    {
+      "audit_row": 68,
+      "death_registration_number": "D/1871/96/1008/2/362",
+      "death_date": "1871-10-16",
+      "district": "Coleraine",
+      "forename": "Daniel",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 69,
+      "death_registration_number": "D/1867/96/1008/1/383",
+      "death_date": "1867-02-15",
+      "district": "Coleraine",
+      "forename": "Margaret",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 70,
+      "death_registration_number": "D/1866/99/1009/2/195",
+      "death_date": "1866-12-14",
+      "district": "Cookstown",
+      "forename": "James",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 71,
+      "death_registration_number": "D/1865/99/1009/1/371",
+      "death_date": "1865-06-22",
+      "district": "Cookstown",
+      "forename": "Samuel",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 72,
+      "death_registration_number": "D/1875/98/1009/2/344",
+      "death_date": "1875-02-09",
+      "district": "Cookstown",
+      "forename": "James",
+      "compatible_births": [],
+      "compatible_marriages": [
+        {
+          "district": "Cookstown",
+          "year": 1869,
+          "date_of_marriage": "20th July 1869",
+          "glasgow_forenames": [
+            "James"
+          ],
+          "glasgow_forename_raw": "James",
+          "other_party_surname": "Henry",
+          "registration_number": "M/1869/L1/1132/1/172",
+          "match_basis": [
+            "forename_or_common_abbreviation",
+            "district_exact",
+            "chronology_marriage_after_approx_birth_plus_12_before_death"
+          ]
+        },
+        {
+          "district": "Cookstown",
+          "year": 1873,
+          "date_of_marriage": "25th March 1873",
+          "glasgow_forenames": [
+            "James"
+          ],
+          "glasgow_forename_raw": "James",
+          "other_party_surname": "Happer",
+          "registration_number": "M/1873/L1/1132/1/191",
+          "match_basis": [
+            "forename_or_common_abbreviation",
+            "district_exact",
+            "chronology_marriage_after_approx_birth_plus_12_before_death"
+          ]
+        },
+        {
+          "district": "Cookstown",
+          "year": 1873,
+          "date_of_marriage": "10th May 1873",
+          "glasgow_forenames": [
+            "James"
+          ],
+          "glasgow_forename_raw": "James",
+          "other_party_surname": "Bell",
+          "registration_number": "M/1873/L1/1131/2/71",
+          "match_basis": [
+            "forename_or_common_abbreviation",
+            "district_exact",
+            "chronology_marriage_after_approx_birth_plus_12_before_death"
+          ]
+        }
+      ],
+      "excluded": [
+        {
+          "type": "marriage",
+          "registration_number": "M/1875/L1/1132/1/196",
+          "reason": "marriage_date_after_death_date"
+        }
+      ],
+      "lead_status": "marriage_leads"
+    },
+    {
+      "audit_row": 73,
+      "death_registration_number": "D/1878/99/1009/8/93",
+      "death_date": "1878-08-03",
+      "district": "Cookstown",
+      "forename": "Jane",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 74,
+      "death_registration_number": "D/1883/99/1009/10/244",
+      "death_date": "1883-07-04",
+      "district": "Cookstown",
+      "forename": "William",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 75,
+      "death_registration_number": "D/1865/99/1009/1/329",
+      "death_date": "1865-04-24",
+      "district": "Cookstown",
+      "forename": "James",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 76,
+      "death_registration_number": "D/1882/100/1009/7/125",
+      "death_date": "1882-03-15",
+      "district": "Cookstown",
+      "forename": "James",
+      "compatible_births": [],
+      "compatible_marriages": [
+        {
+          "district": "Cookstown",
+          "year": 1869,
+          "date_of_marriage": "20th July 1869",
+          "glasgow_forenames": [
+            "James"
+          ],
+          "glasgow_forename_raw": "James",
+          "other_party_surname": "Henry",
+          "registration_number": "M/1869/L1/1132/1/172",
+          "match_basis": [
+            "forename_or_common_abbreviation",
+            "district_exact",
+            "chronology_marriage_after_approx_birth_plus_12_before_death"
+          ]
+        },
+        {
+          "district": "Cookstown",
+          "year": 1873,
+          "date_of_marriage": "25th March 1873",
+          "glasgow_forenames": [
+            "James"
+          ],
+          "glasgow_forename_raw": "James",
+          "other_party_surname": "Happer",
+          "registration_number": "M/1873/L1/1132/1/191",
+          "match_basis": [
+            "forename_or_common_abbreviation",
+            "district_exact",
+            "chronology_marriage_after_approx_birth_plus_12_before_death"
+          ]
+        },
+        {
+          "district": "Cookstown",
+          "year": 1873,
+          "date_of_marriage": "10th May 1873",
+          "glasgow_forenames": [
+            "James"
+          ],
+          "glasgow_forename_raw": "James",
+          "other_party_surname": "Bell",
+          "registration_number": "M/1873/L1/1131/2/71",
+          "match_basis": [
+            "forename_or_common_abbreviation",
+            "district_exact",
+            "chronology_marriage_after_approx_birth_plus_12_before_death"
+          ]
+        },
+        {
+          "district": "Cookstown",
+          "year": 1875,
+          "date_of_marriage": "29th June 1875",
+          "glasgow_forenames": [
+            "James"
+          ],
+          "glasgow_forename_raw": "James",
+          "other_party_surname": "Dougal",
+          "registration_number": "M/1875/L1/1132/1/196",
+          "match_basis": [
+            "forename_or_common_abbreviation",
+            "district_exact",
+            "chronology_marriage_after_approx_birth_plus_12_before_death"
+          ]
+        }
+      ],
+      "excluded": [],
+      "lead_status": "marriage_leads"
+    },
+    {
+      "audit_row": 77,
+      "death_registration_number": "D/1887/99/1009/12/157",
+      "death_date": "1887-11-05",
+      "district": "Cookstown",
+      "forename": "Mattew",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 78,
+      "death_registration_number": "D/1867/99/1009/2/222",
+      "death_date": "1867-02-05",
+      "district": "Cookstown",
+      "forename": "Anne",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 79,
+      "death_registration_number": "D/1888/99/1009/12/304",
+      "death_date": "1888-06-14",
+      "district": "Cookstown",
+      "forename": "Mary",
+      "compatible_births": [],
+      "compatible_marriages": [
+        {
+          "district": "Cookstown",
+          "year": 1866,
+          "date_of_marriage": "17th April 1866",
+          "glasgow_forenames": [
+            "Mary"
+          ],
+          "glasgow_forename_raw": "Mary",
+          "other_party_surname": "Bell",
+          "registration_number": "M/1866/L1/1127/1/69",
+          "match_basis": [
+            "forename_or_common_abbreviation",
+            "district_exact",
+            "chronology_marriage_after_approx_birth_plus_12_before_death"
+          ]
+        },
+        {
+          "district": "Cookstown",
+          "year": 1875,
+          "date_of_marriage": "14th December 1875",
+          "glasgow_forenames": [
+            "Mary"
+          ],
+          "glasgow_forename_raw": "Mary",
+          "other_party_surname": "Park",
+          "registration_number": "M/1875/L1/1118/1/157",
+          "match_basis": [
+            "forename_or_common_abbreviation",
+            "district_exact",
+            "chronology_marriage_after_approx_birth_plus_12_before_death"
+          ]
+        },
+        {
+          "district": "Cookstown",
+          "year": 1879,
+          "date_of_marriage": "10th June 1879",
+          "glasgow_forenames": [
+            "Mary"
+          ],
+          "glasgow_forename_raw": "Mary",
+          "other_party_surname": "Henry",
+          "registration_number": "M/1879/L1/1127/1/98",
+          "match_basis": [
+            "forename_or_common_abbreviation",
+            "district_exact",
+            "chronology_marriage_after_approx_birth_plus_12_before_death"
+          ]
+        },
+        {
+          "district": "Cookstown",
+          "year": 1884,
+          "date_of_marriage": "30th October 1884",
+          "glasgow_forenames": [
+            "Mary"
+          ],
+          "glasgow_forename_raw": "Mary",
+          "other_party_surname": "Henry",
+          "registration_number": "M/1884/L1/1132/2/50",
+          "match_basis": [
+            "forename_or_common_abbreviation",
+            "district_exact",
+            "chronology_marriage_after_approx_birth_plus_12_before_death"
+          ]
+        }
+      ],
+      "excluded": [],
+      "lead_status": "marriage_leads"
+    },
+    {
+      "audit_row": 80,
+      "death_registration_number": "D/1898/99/1009/16/261",
+      "death_date": "1898-04-09",
+      "district": "Cookstown",
+      "forename": "William",
+      "compatible_births": [],
+      "compatible_marriages": [
+        {
+          "district": "Cookstown",
+          "year": 1891,
+          "date_of_marriage": "6th April 1891",
+          "glasgow_forenames": [
+            "William"
+          ],
+          "glasgow_forename_raw": "William",
+          "other_party_surname": "Moore",
+          "registration_number": "M/1891/L1/1106/5/168",
+          "match_basis": [
+            "forename_or_common_abbreviation",
+            "district_exact",
+            "chronology_marriage_after_approx_birth_plus_12_before_death"
+          ]
+        },
+        {
+          "district": "Cookstown",
+          "year": 1894,
+          "date_of_marriage": "22nd May 1894",
+          "glasgow_forenames": [
+            "William"
+          ],
+          "glasgow_forename_raw": "William",
+          "other_party_surname": "Hutchison",
+          "registration_number": "M/1894/L1/1119/2/7",
+          "match_basis": [
+            "forename_or_common_abbreviation",
+            "district_exact",
+            "chronology_marriage_after_approx_birth_plus_12_before_death"
+          ]
+        }
+      ],
+      "excluded": [],
+      "lead_status": "marriage_leads"
+    },
+    {
+      "audit_row": 81,
+      "death_registration_number": "D/1875/99/1009/6/138",
+      "death_date": "1875-07-27",
+      "district": "Cookstown",
+      "forename": "James",
+      "compatible_births": [],
+      "compatible_marriages": [
+        {
+          "district": "Cookstown",
+          "year": 1869,
+          "date_of_marriage": "20th July 1869",
+          "glasgow_forenames": [
+            "James"
+          ],
+          "glasgow_forename_raw": "James",
+          "other_party_surname": "Henry",
+          "registration_number": "M/1869/L1/1132/1/172",
+          "match_basis": [
+            "forename_or_common_abbreviation",
+            "district_exact",
+            "chronology_marriage_after_approx_birth_plus_12_before_death"
+          ]
+        },
+        {
+          "district": "Cookstown",
+          "year": 1873,
+          "date_of_marriage": "25th March 1873",
+          "glasgow_forenames": [
+            "James"
+          ],
+          "glasgow_forename_raw": "James",
+          "other_party_surname": "Happer",
+          "registration_number": "M/1873/L1/1132/1/191",
+          "match_basis": [
+            "forename_or_common_abbreviation",
+            "district_exact",
+            "chronology_marriage_after_approx_birth_plus_12_before_death"
+          ]
+        },
+        {
+          "district": "Cookstown",
+          "year": 1873,
+          "date_of_marriage": "10th May 1873",
+          "glasgow_forenames": [
+            "James"
+          ],
+          "glasgow_forename_raw": "James",
+          "other_party_surname": "Bell",
+          "registration_number": "M/1873/L1/1131/2/71",
+          "match_basis": [
+            "forename_or_common_abbreviation",
+            "district_exact",
+            "chronology_marriage_after_approx_birth_plus_12_before_death"
+          ]
+        },
+        {
+          "district": "Cookstown",
+          "year": 1875,
+          "date_of_marriage": "29th June 1875",
+          "glasgow_forenames": [
+            "James"
+          ],
+          "glasgow_forename_raw": "James",
+          "other_party_surname": "Dougal",
+          "registration_number": "M/1875/L1/1132/1/196",
+          "match_basis": [
+            "forename_or_common_abbreviation",
+            "district_exact",
+            "chronology_marriage_after_approx_birth_plus_12_before_death"
+          ]
+        }
+      ],
+      "excluded": [],
+      "lead_status": "marriage_leads"
+    },
+    {
+      "audit_row": 82,
+      "death_registration_number": "D/1896/99/1009/15/479",
+      "death_date": "1896-11-07",
+      "district": "Cookstown",
+      "forename": "John",
+      "compatible_births": [],
+      "compatible_marriages": [
+        {
+          "district": "Cookstown",
+          "year": 1865,
+          "date_of_marriage": "26th January 1865",
+          "glasgow_forenames": [
+            "John"
+          ],
+          "glasgow_forename_raw": "John",
+          "other_party_surname": "Bell",
+          "registration_number": "M/1865/L1/1132/1/151",
+          "match_basis": [
+            "forename_or_common_abbreviation",
+            "district_exact",
+            "chronology_marriage_after_approx_birth_plus_12_before_death"
+          ]
+        },
+        {
+          "district": "Cookstown",
+          "year": 1866,
+          "date_of_marriage": "18th December 1866",
+          "glasgow_forenames": [
+            "John"
+          ],
+          "glasgow_forename_raw": "John",
+          "other_party_surname": "Murphy",
+          "registration_number": "M/1866/L1/1132/1/157",
+          "match_basis": [
+            "forename_or_common_abbreviation",
+            "district_exact",
+            "chronology_marriage_after_approx_birth_plus_12_before_death"
+          ]
+        },
+        {
+          "district": "Cookstown",
+          "year": 1871,
+          "date_of_marriage": "24th April 1871",
+          "glasgow_forenames": [
+            "John"
+          ],
+          "glasgow_forename_raw": "John",
+          "other_party_surname": "Knipe",
+          "registration_number": "M/1871/L1/1136/2/127",
+          "match_basis": [
+            "forename_or_common_abbreviation",
+            "district_exact",
+            "chronology_marriage_after_approx_birth_plus_12_before_death"
+          ]
+        },
+        {
+          "district": "Cookstown",
+          "year": 1874,
+          "date_of_marriage": "7th June 1874",
+          "glasgow_forenames": [
+            "John"
+          ],
+          "glasgow_forename_raw": "John",
+          "other_party_surname": "Jordan",
+          "registration_number": "M/1874/L1/1127/1/89",
+          "match_basis": [
+            "forename_or_common_abbreviation",
+            "district_exact",
+            "chronology_marriage_after_approx_birth_plus_12_before_death"
+          ]
+        },
+        {
+          "district": "Cookstown",
+          "year": 1875,
+          "date_of_marriage": "1st May 1875",
+          "glasgow_forenames": [
+            "John"
+          ],
+          "glasgow_forename_raw": "John",
+          "other_party_surname": "Mitchell",
+          "registration_number": "M/1875/L1/1131/2/84",
+          "match_basis": [
+            "forename_or_common_abbreviation",
+            "district_exact",
+            "chronology_marriage_after_approx_birth_plus_12_before_death"
+          ]
+        },
+        {
+          "district": "Cookstown",
+          "year": 1891,
+          "date_of_marriage": "2nd February 1891",
+          "glasgow_forenames": [
+            "John"
+          ],
+          "glasgow_forename_raw": "John",
+          "other_party_surname": "Mitchell",
+          "registration_number": "M/1891/L1/1136/3/82",
+          "match_basis": [
+            "forename_or_common_abbreviation",
+            "district_exact",
+            "chronology_marriage_after_approx_birth_plus_12_before_death"
+          ]
+        }
+      ],
+      "excluded": [],
+      "lead_status": "marriage_leads"
+    },
+    {
+      "audit_row": 83,
+      "death_registration_number": "D/1892/99/1009/14/60",
+      "death_date": "1892-02-11",
+      "district": "Cookstown",
+      "forename": "Ann",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 84,
+      "death_registration_number": "D/1874/99/1009/5/373",
+      "death_date": "1874-02-15",
+      "district": "Cookstown",
+      "forename": "Henry",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 85,
+      "death_registration_number": "D/1892/99/1009/14/123",
+      "death_date": "1892-03-21",
+      "district": "Cookstown",
+      "forename": "Margaret",
+      "compatible_births": [],
+      "compatible_marriages": [
+        {
+          "district": "Cookstown",
+          "year": 1868,
+          "date_of_marriage": "9th May 1868",
+          "glasgow_forenames": [
+            "Margaret"
+          ],
+          "glasgow_forename_raw": "Margaret",
+          "other_party_surname": "McKnight",
+          "registration_number": "M/1868/L1/1106/3/94",
+          "match_basis": [
+            "forename_or_common_abbreviation",
+            "district_exact",
+            "chronology_marriage_after_approx_birth_plus_12_before_death"
+          ]
+        },
+        {
+          "district": "Cookstown",
+          "year": 1878,
+          "date_of_marriage": "17th October 1878",
+          "glasgow_forenames": [
+            "**David",
+            "Margaret**"
+          ],
+          "glasgow_forename_raw": "**David + Margaret**",
+          "other_party_surname": "Glasgow",
+          "registration_number": "M/1878/L1/1132/2/14",
+          "match_basis": [
+            "forename_or_common_abbreviation",
+            "district_exact",
+            "chronology_marriage_after_approx_birth_plus_12_before_death"
+          ]
+        }
+      ],
+      "excluded": [],
+      "lead_status": "marriage_leads"
+    },
+    {
+      "audit_row": 86,
+      "death_registration_number": "D/1893/99/1009/14/230",
+      "death_date": "1892-11-13",
+      "district": "Cookstown",
+      "forename": "George",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 87,
+      "death_registration_number": "D/1884/99/1009/10/353",
+      "death_date": "1884-02-18",
+      "district": "Cookstown",
+      "forename": "Jane",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 88,
+      "death_registration_number": "D/1888/99/1009/12/218",
+      "death_date": "1888-02-19",
+      "district": "Cookstown",
+      "forename": "Sarah",
+      "compatible_births": [],
+      "compatible_marriages": [
+        {
+          "district": "Cookstown",
+          "year": 1870,
+          "date_of_marriage": "19th March 1870",
+          "glasgow_forenames": [
+            "Sarah"
+          ],
+          "glasgow_forename_raw": "Sarah",
+          "other_party_surname": "Henry",
+          "registration_number": "M/1870/L1/1131/2/44",
+          "match_basis": [
+            "forename_or_common_abbreviation",
+            "district_exact",
+            "chronology_marriage_after_approx_birth_plus_12_before_death"
+          ]
+        }
+      ],
+      "excluded": [],
+      "lead_status": "marriage_leads"
+    },
+    {
+      "audit_row": 89,
+      "death_registration_number": "D/1865/98/1009/1/167",
+      "death_date": "1865-09-10",
+      "district": "Cookstown",
+      "forename": "Jane",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 90,
+      "death_registration_number": "D/1894/99/1009/15/8",
+      "death_date": "1894-04-26",
+      "district": "Cookstown",
+      "forename": "Matilda",
+      "compatible_births": [],
+      "compatible_marriages": [
+        {
+          "district": "Cookstown",
+          "year": 1867,
+          "date_of_marriage": "4th May 1867",
+          "glasgow_forenames": [
+            "Matilda"
+          ],
+          "glasgow_forename_raw": "Matilda",
+          "other_party_surname": "Nobbs",
+          "registration_number": "M/1867/L1/1132/1/159",
+          "match_basis": [
+            "forename_or_common_abbreviation",
+            "district_exact",
+            "chronology_marriage_after_approx_birth_plus_12_before_death"
+          ]
+        }
+      ],
+      "excluded": [],
+      "lead_status": "marriage_leads"
+    },
+    {
+      "audit_row": 91,
+      "death_registration_number": "D/1895/99/1009/15/114",
+      "death_date": "1894-10-30",
+      "district": "Cookstown",
+      "forename": "Isabella",
+      "compatible_births": [],
+      "compatible_marriages": [
+        {
+          "district": "Cookstown",
+          "year": 1887,
+          "date_of_marriage": "22nd February 1887",
+          "glasgow_forenames": [
+            "Isabella"
+          ],
+          "glasgow_forename_raw": "Isabella",
+          "other_party_surname": "Kempton",
+          "registration_number": "M/1887/L1/1136/3/37",
+          "match_basis": [
+            "forename_or_common_abbreviation",
+            "district_exact",
+            "chronology_marriage_after_approx_birth_plus_12_before_death"
+          ]
+        },
+        {
+          "district": "Cookstown",
+          "year": 1893,
+          "date_of_marriage": "2nd November 1893",
+          "glasgow_forenames": [
+            "Isabella"
+          ],
+          "glasgow_forename_raw": "Isabella",
+          "other_party_surname": "Graham",
+          "registration_number": "M/1893/L1/1136/3/119",
+          "match_basis": [
+            "forename_or_common_abbreviation",
+            "district_exact",
+            "chronology_marriage_after_approx_birth_plus_12_before_death"
+          ]
+        }
+      ],
+      "excluded": [],
+      "lead_status": "marriage_leads"
+    },
+    {
+      "audit_row": 92,
+      "death_registration_number": "D/1875/99/1009/6/133",
+      "death_date": "1875-07-05",
+      "district": "Cookstown",
+      "forename": "Silas",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 93,
+      "death_registration_number": "D/1898/99/1009/16/184",
+      "death_date": "1897-11-28",
+      "district": "Cookstown",
+      "forename": "Hessie",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 94,
+      "death_registration_number": "D/1870/99/1009/3/464",
+      "death_date": "1870-02-08",
+      "district": "Cookstown",
+      "forename": "Benjamin",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 95,
+      "death_registration_number": "D/1883/99/1009/10/261",
+      "death_date": "1883-09-28",
+      "district": "Cookstown",
+      "forename": "David",
+      "compatible_births": [],
+      "compatible_marriages": [
+        {
+          "district": "Cookstown",
+          "year": 1878,
+          "date_of_marriage": "17th October 1878",
+          "glasgow_forenames": [
+            "**David",
+            "Margaret**"
+          ],
+          "glasgow_forename_raw": "**David + Margaret**",
+          "other_party_surname": "Glasgow",
+          "registration_number": "M/1878/L1/1132/2/14",
+          "match_basis": [
+            "forename_or_common_abbreviation",
+            "district_exact",
+            "chronology_marriage_after_approx_birth_plus_12_before_death"
+          ]
+        }
+      ],
+      "excluded": [],
+      "lead_status": "marriage_leads"
+    },
+    {
+      "audit_row": 96,
+      "death_registration_number": "D/1866/99/1009/2/55",
+      "death_date": "1866-01-01",
+      "district": "Cookstown",
+      "forename": "Jane",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 97,
+      "death_registration_number": "D/1892/99/1009/14/151",
+      "death_date": "1892-05-06",
+      "district": "Cookstown",
+      "forename": "Annie",
+      "compatible_births": [],
+      "compatible_marriages": [
+        {
+          "district": "Cookstown",
+          "year": 1880,
+          "date_of_marriage": "17th October 1880",
+          "glasgow_forenames": [
+            "Annie"
+          ],
+          "glasgow_forename_raw": "Annie",
+          "other_party_surname": "Mitchell",
+          "registration_number": "M/1880/L1/1132/2/29",
+          "match_basis": [
+            "forename_or_common_abbreviation",
+            "district_exact",
+            "chronology_marriage_after_approx_birth_plus_12_before_death"
+          ]
+        }
+      ],
+      "excluded": [],
+      "lead_status": "marriage_leads"
+    },
+    {
+      "audit_row": 98,
+      "death_registration_number": "D/1896/99/1009/15/454",
+      "death_date": "1896-08-26",
+      "district": "Cookstown",
+      "forename": "Nancy",
+      "compatible_births": [],
+      "compatible_marriages": [
+        {
+          "district": "Cookstown",
+          "year": 1881,
+          "date_of_marriage": "15th December 1881",
+          "glasgow_forenames": [
+            "Nancy"
+          ],
+          "glasgow_forename_raw": "Nancy",
+          "other_party_surname": "Harkness",
+          "registration_number": "M/1881/L1/1122/2/60",
+          "match_basis": [
+            "forename_or_common_abbreviation",
+            "district_exact",
+            "chronology_marriage_after_approx_birth_plus_12_before_death"
+          ]
+        }
+      ],
+      "excluded": [],
+      "lead_status": "marriage_leads"
+    },
+    {
+      "audit_row": 99,
+      "death_registration_number": "D/1897/99/1009/16/39",
+      "death_date": "1897-02-12",
+      "district": "Cookstown",
+      "forename": "James",
+      "compatible_births": [],
+      "compatible_marriages": [
+        {
+          "district": "Cookstown",
+          "year": 1869,
+          "date_of_marriage": "20th July 1869",
+          "glasgow_forenames": [
+            "James"
+          ],
+          "glasgow_forename_raw": "James",
+          "other_party_surname": "Henry",
+          "registration_number": "M/1869/L1/1132/1/172",
+          "match_basis": [
+            "forename_or_common_abbreviation",
+            "district_exact",
+            "chronology_marriage_after_approx_birth_plus_12_before_death"
+          ]
+        },
+        {
+          "district": "Cookstown",
+          "year": 1873,
+          "date_of_marriage": "25th March 1873",
+          "glasgow_forenames": [
+            "James"
+          ],
+          "glasgow_forename_raw": "James",
+          "other_party_surname": "Happer",
+          "registration_number": "M/1873/L1/1132/1/191",
+          "match_basis": [
+            "forename_or_common_abbreviation",
+            "district_exact",
+            "chronology_marriage_after_approx_birth_plus_12_before_death"
+          ]
+        },
+        {
+          "district": "Cookstown",
+          "year": 1873,
+          "date_of_marriage": "10th May 1873",
+          "glasgow_forenames": [
+            "James"
+          ],
+          "glasgow_forename_raw": "James",
+          "other_party_surname": "Bell",
+          "registration_number": "M/1873/L1/1131/2/71",
+          "match_basis": [
+            "forename_or_common_abbreviation",
+            "district_exact",
+            "chronology_marriage_after_approx_birth_plus_12_before_death"
+          ]
+        },
+        {
+          "district": "Cookstown",
+          "year": 1875,
+          "date_of_marriage": "29th June 1875",
+          "glasgow_forenames": [
+            "James"
+          ],
+          "glasgow_forename_raw": "James",
+          "other_party_surname": "Dougal",
+          "registration_number": "M/1875/L1/1132/1/196",
+          "match_basis": [
+            "forename_or_common_abbreviation",
+            "district_exact",
+            "chronology_marriage_after_approx_birth_plus_12_before_death"
+          ]
+        },
+        {
+          "district": "Cookstown",
+          "year": 1888,
+          "date_of_marriage": "23rd October 1888",
+          "glasgow_forenames": [
+            "James"
+          ],
+          "glasgow_forename_raw": "James",
+          "other_party_surname": "Crooks",
+          "registration_number": "M/1888/L1/1136/3/56",
+          "match_basis": [
+            "forename_or_common_abbreviation",
+            "district_exact",
+            "chronology_marriage_after_approx_birth_plus_12_before_death"
+          ]
+        },
+        {
+          "district": "Cookstown",
+          "year": 1892,
+          "date_of_marriage": "24th July 1892",
+          "glasgow_forenames": [
+            "**Eliza",
+            "James**"
+          ],
+          "glasgow_forename_raw": "**Eliza + James**",
+          "other_party_surname": "Glasgow",
+          "registration_number": "M/1892/L1/1106/5/179",
+          "match_basis": [
+            "forename_or_common_abbreviation",
+            "district_exact",
+            "chronology_marriage_after_approx_birth_plus_12_before_death"
+          ]
+        }
+      ],
+      "excluded": [
+        {
+          "type": "marriage",
+          "registration_number": "M/1897/L1/1132/2/98",
+          "reason": "marriage_date_after_death_date"
+        }
+      ],
+      "lead_status": "marriage_leads"
+    },
+    {
+      "audit_row": 100,
+      "death_registration_number": "D/1868/100/1009/2/125",
+      "death_date": "1868-10-22",
+      "district": "Cookstown",
+      "forename": "David",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 101,
+      "death_registration_number": "D/1868/100/1009/2/150",
+      "death_date": "1868-12-24",
+      "district": "Cookstown",
+      "forename": "Lilas",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 102,
+      "death_registration_number": "D/1884/99/1009/10/328",
+      "death_date": "1884-01-07",
+      "district": "Cookstown",
+      "forename": "David",
+      "compatible_births": [],
+      "compatible_marriages": [
+        {
+          "district": "Cookstown",
+          "year": 1878,
+          "date_of_marriage": "17th October 1878",
+          "glasgow_forenames": [
+            "**David",
+            "Margaret**"
+          ],
+          "glasgow_forename_raw": "**David + Margaret**",
+          "other_party_surname": "Glasgow",
+          "registration_number": "M/1878/L1/1132/2/14",
+          "match_basis": [
+            "forename_or_common_abbreviation",
+            "district_exact",
+            "chronology_marriage_after_approx_birth_plus_12_before_death"
+          ]
+        }
+      ],
+      "excluded": [],
+      "lead_status": "marriage_leads"
+    },
+    {
+      "audit_row": 103,
+      "death_registration_number": "D/1890/100/1009/9/323",
+      "death_date": "1890-08-30",
+      "district": "Cookstown",
+      "forename": "Sarah",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 104,
+      "death_registration_number": "D/1864/100/1009/1/6",
+      "death_date": "1864-01-10",
+      "district": "Cookstown",
+      "forename": "William",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 105,
+      "death_registration_number": "D/1892/99/1009/14/182",
+      "death_date": "1892-08-23",
+      "district": "Cookstown",
+      "forename": "Samuel",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 106,
+      "death_registration_number": "D/1875/99/1009/6/45",
+      "death_date": "1875-04-01",
+      "district": "Cookstown",
+      "forename": "Mary",
+      "compatible_births": [
+        {
+          "district": "Cookstown",
+          "year": "1866",
+          "date_of_birth": "24th December 1866",
+          "forename": "Mary",
+          "sex": "Female",
+          "mother_maiden_name": "Bell",
+          "registration_number": "U/1867/99/1009/2/482",
+          "match_basis": [
+            "forename",
+            "district",
+            "birth_year_within_2"
+          ]
+        }
+      ],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "birth_leads"
+    },
+    {
+      "audit_row": 107,
+      "death_registration_number": "D/1891/99/1009/13/461",
+      "death_date": "1891-09-28",
+      "district": "Cookstown",
+      "forename": "Annie",
+      "compatible_births": [],
+      "compatible_marriages": [
+        {
+          "district": "Cookstown",
+          "year": 1880,
+          "date_of_marriage": "17th October 1880",
+          "glasgow_forenames": [
+            "Annie"
+          ],
+          "glasgow_forename_raw": "Annie",
+          "other_party_surname": "Mitchell",
+          "registration_number": "M/1880/L1/1132/2/29",
+          "match_basis": [
+            "forename_or_common_abbreviation",
+            "district_exact",
+            "chronology_marriage_after_approx_birth_plus_12_before_death"
+          ]
+        }
+      ],
+      "excluded": [],
+      "lead_status": "marriage_leads"
+    },
+    {
+      "audit_row": 108,
+      "death_registration_number": "D/1872/99/1009/4/472",
+      "death_date": "1872-08-01",
+      "district": "Cookstown",
+      "forename": "Andrew",
+      "compatible_births": [
+        {
+          "district": "Cookstown",
+          "year": "1867",
+          "date_of_birth": "1st January 1867",
+          "forename": "Andrew",
+          "sex": "Male",
+          "mother_maiden_name": "McMurragh-Murphy",
+          "registration_number": "U/1867/99/1009/2/496",
+          "match_basis": [
+            "forename",
+            "district",
+            "birth_year_within_2"
+          ]
+        }
+      ],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "birth_leads"
+    },
+    {
+      "audit_row": 109,
+      "death_registration_number": "D/1896/99/1009/15/376",
+      "death_date": "1896-04-30",
+      "district": "Cookstown",
+      "forename": "Lizzie",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 110,
+      "death_registration_number": "D/1900/99/1009/17/56",
+      "death_date": "1899-10-23",
+      "district": "Cookstown",
+      "forename": "Eliza",
+      "compatible_births": [],
+      "compatible_marriages": [
+        {
+          "district": "Cookstown",
+          "year": 1892,
+          "date_of_marriage": "24th July 1892",
+          "glasgow_forenames": [
+            "**Eliza",
+            "James**"
+          ],
+          "glasgow_forename_raw": "**Eliza + James**",
+          "other_party_surname": "Glasgow",
+          "registration_number": "M/1892/L1/1106/5/179",
+          "match_basis": [
+            "forename_or_common_abbreviation",
+            "district_exact",
+            "chronology_marriage_after_approx_birth_plus_12_before_death"
+          ]
+        }
+      ],
+      "excluded": [],
+      "lead_status": "marriage_leads"
+    },
+    {
+      "audit_row": 111,
+      "death_registration_number": "D/1872/100/1009/2/487",
+      "death_date": "1872-01-25",
+      "district": "Cookstown",
+      "forename": "Mary",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [
+        {
+          "type": "birth",
+          "registration_number": "U/1874/100/1009/5/341",
+          "reason": "birth_date_after_death_date"
+        }
+      ],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 112,
+      "death_registration_number": "D/1872/99/1009/4/412",
+      "death_date": "1872-04-29",
+      "district": "Cookstown",
+      "forename": "Samuel",
+      "compatible_births": [
+        {
+          "district": "Cookstown",
+          "year": "1872",
+          "date_of_birth": "26th April 1872",
+          "forename": "Samuel",
+          "sex": "Male",
+          "mother_maiden_name": "Henderson",
+          "registration_number": "U/1872/99/1009/6/368",
+          "match_basis": [
+            "forename",
+            "district",
+            "birth_year_within_2"
+          ]
+        }
+      ],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "birth_leads"
+    },
+    {
+      "audit_row": 113,
+      "death_registration_number": "D/1872/99/1009/4/473",
+      "death_date": "1872-07-29",
+      "district": "Cookstown",
+      "forename": "William",
+      "compatible_births": [
+        {
+          "district": "Cookstown",
+          "year": "1872",
+          "date_of_birth": "26th April 1872",
+          "forename": "William",
+          "sex": "Male",
+          "mother_maiden_name": "Henderson",
+          "registration_number": "U/1872/99/1009/6/369",
+          "match_basis": [
+            "forename",
+            "district",
+            "birth_year_within_2"
+          ]
+        }
+      ],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "birth_leads"
+    },
+    {
+      "audit_row": 114,
+      "death_registration_number": "D/1873/99/1009/5/50",
+      "death_date": "1873-01-06",
+      "district": "Cookstown",
+      "forename": "Annie",
+      "compatible_births": [
+        {
+          "district": "Cookstown",
+          "year": "1871",
+          "date_of_birth": "16th February 1871",
+          "forename": "Annie",
+          "sex": "Female",
+          "mother_maiden_name": "Henderson",
+          "registration_number": "U/1871/99/1009/5/441",
+          "match_basis": [
+            "forename",
+            "district",
+            "birth_year_within_2"
+          ]
+        }
+      ],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "birth_leads"
+    },
+    {
+      "audit_row": 115,
+      "death_registration_number": "D/1889/99/1009/12/460",
+      "death_date": "1889-03-19",
+      "district": "Cookstown",
+      "forename": "Sarah",
+      "compatible_births": [
+        {
+          "district": "Cookstown",
+          "year": "1870",
+          "date_of_birth": "18th December 1870",
+          "forename": "Sarah",
+          "sex": "Female",
+          "mother_maiden_name": "McKenzie",
+          "registration_number": "U/1871/99/1009/5/399",
+          "match_basis": [
+            "forename",
+            "district",
+            "birth_year_within_2"
+          ]
+        },
+        {
+          "district": "Cookstown",
+          "year": "1871",
+          "date_of_birth": "16th February 1871",
+          "forename": "Sarah",
+          "sex": "Female",
+          "mother_maiden_name": "Henderson",
+          "registration_number": "U/1871/99/1009/5/440",
+          "match_basis": [
+            "forename",
+            "district",
+            "birth_year_within_2"
+          ]
+        },
+        {
+          "district": "Cookstown",
+          "year": "1871",
+          "date_of_birth": "2nd October 1871",
+          "forename": "Sarah",
+          "sex": "Female",
+          "mother_maiden_name": "Henry",
+          "registration_number": "U/1871/99/1009/6/154",
+          "match_basis": [
+            "forename",
+            "district",
+            "birth_year_within_2"
+          ]
+        }
+      ],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "birth_leads"
+    },
+    {
+      "audit_row": 116,
+      "death_registration_number": "D/1876/99/1009/7/141",
+      "death_date": "1876-10-31",
+      "district": "Cookstown",
+      "forename": "Margaret",
+      "compatible_births": [
+        {
+          "district": "Cookstown",
+          "year": "1872",
+          "date_of_birth": "21st December 1872",
+          "forename": "Margaret",
+          "sex": "Female",
+          "mother_maiden_name": "Bole",
+          "registration_number": "U/1872/99/1009/7/112",
+          "match_basis": [
+            "forename",
+            "district",
+            "birth_year_within_2"
+          ]
+        },
+        {
+          "district": "Cookstown",
+          "year": "1873",
+          "date_of_birth": "11th December 1873",
+          "forename": "Margaret",
+          "sex": "Female",
+          "mother_maiden_name": "Henderson",
+          "registration_number": "U/1874/99/1009/7/398",
+          "match_basis": [
+            "forename",
+            "district",
+            "birth_year_within_2"
+          ]
+        },
+        {
+          "district": "Cookstown",
+          "year": "1875",
+          "date_of_birth": "13th February 1875",
+          "forename": "Margaret",
+          "sex": "Female",
+          "mother_maiden_name": "McKenzie",
+          "registration_number": "U/1875/99/1009/8/281",
+          "match_basis": [
+            "forename",
+            "district",
+            "birth_year_within_2"
+          ]
+        }
+      ],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "birth_leads"
+    },
+    {
+      "audit_row": 117,
+      "death_registration_number": "D/1874/99/1009/5/335",
+      "death_date": "1874-05-28",
+      "district": "Cookstown",
+      "forename": "Julia",
+      "compatible_births": [
+        {
+          "district": "Cookstown",
+          "year": "1874",
+          "date_of_birth": "24th February 1874",
+          "forename": "Julia",
+          "sex": "Female",
+          "mother_maiden_name": "Happer",
+          "registration_number": "U/1874/99/1009/7/454",
+          "match_basis": [
+            "forename",
+            "district",
+            "birth_year_within_2"
+          ]
+        }
+      ],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "birth_leads"
+    },
+    {
+      "audit_row": 118,
+      "death_registration_number": "D/1895/99/1009/15/291",
+      "death_date": "1895-10-25",
+      "district": "Cookstown",
+      "forename": "George",
+      "compatible_births": [
+        {
+          "district": "Cookstown",
+          "year": "1874",
+          "date_of_birth": "10th January 1874",
+          "forename": "George",
+          "sex": "Male",
+          "mother_maiden_name": "Henry",
+          "registration_number": "U/1874/99/1009/7/417",
+          "match_basis": [
+            "forename",
+            "district",
+            "birth_year_within_2"
+          ]
+        }
+      ],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "birth_leads"
+    },
+    {
+      "audit_row": 119,
+      "death_registration_number": "D/1876/99/1009/7/51",
+      "death_date": "1876-05-19",
+      "district": "Cookstown",
+      "forename": "Robert",
+      "compatible_births": [
+        {
+          "district": "Cookstown",
+          "year": "1876",
+          "date_of_birth": "13th May 1876",
+          "forename": "Robert",
+          "sex": "Male",
+          "mother_maiden_name": "Henry",
+          "registration_number": "U/1876/99/1009/9/164",
+          "match_basis": [
+            "forename",
+            "district",
+            "birth_year_within_2"
+          ]
+        }
+      ],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "birth_leads"
+    },
+    {
+      "audit_row": 120,
+      "death_registration_number": "D/1896/99/1009/15/318",
+      "death_date": "1896-01-18",
+      "district": "Cookstown",
+      "forename": "James",
+      "compatible_births": [
+        {
+          "district": "Cookstown",
+          "year": "1877",
+          "date_of_birth": "17th January 1877",
+          "forename": "James",
+          "sex": "Male",
+          "mother_maiden_name": "Noble",
+          "registration_number": "U/1877/99/1009/9/387",
+          "match_basis": [
+            "forename",
+            "district",
+            "birth_year_within_2"
+          ]
+        },
+        {
+          "district": "Cookstown",
+          "year": "1877",
+          "date_of_birth": "25th June 1877",
+          "forename": "James",
+          "sex": "Male",
+          "mother_maiden_name": "Henry",
+          "registration_number": "U/1877/99/1009/10/29",
+          "match_basis": [
+            "forename",
+            "district",
+            "birth_year_within_2"
+          ]
+        }
+      ],
+      "compatible_marriages": [
+        {
+          "district": "Cookstown",
+          "year": 1892,
+          "date_of_marriage": "24th July 1892",
+          "glasgow_forenames": [
+            "**Eliza",
+            "James**"
+          ],
+          "glasgow_forename_raw": "**Eliza + James**",
+          "other_party_surname": "Glasgow",
+          "registration_number": "M/1892/L1/1106/5/179",
+          "match_basis": [
+            "forename_or_common_abbreviation",
+            "district_exact",
+            "chronology_marriage_after_approx_birth_plus_12_before_death"
+          ]
+        }
+      ],
+      "excluded": [],
+      "lead_status": "birth_and_marriage_leads"
+    },
+    {
+      "audit_row": 121,
+      "death_registration_number": "D/1881/99/1009/9/242",
+      "death_date": "1881-03-06",
+      "district": "Cookstown",
+      "forename": "Mary",
+      "compatible_births": [
+        {
+          "district": "Cookstown",
+          "year": "1878",
+          "date_of_birth": "28th February 1878",
+          "forename": "Mary",
+          "sex": "Female",
+          "mother_maiden_name": "Bell",
+          "registration_number": "U/1878/99/1009/10/240",
+          "match_basis": [
+            "forename",
+            "district",
+            "birth_year_within_2"
+          ]
+        },
+        {
+          "district": "Cookstown",
+          "year": "1879",
+          "date_of_birth": "19th May 1879",
+          "forename": "Mary",
+          "sex": "Female",
+          "mother_maiden_name": "Bole",
+          "registration_number": "U/1879/99/1009/11/150",
+          "match_basis": [
+            "forename",
+            "district",
+            "birth_year_within_2"
+          ]
+        },
+        {
+          "district": "Cookstown",
+          "year": "1879",
+          "date_of_birth": "3rd September 1879",
+          "forename": "Mary",
+          "sex": "Female",
+          "mother_maiden_name": "Henry",
+          "registration_number": "U/1879/99/1009/11/233",
+          "match_basis": [
+            "forename",
+            "district",
+            "birth_year_within_2"
+          ]
+        },
+        {
+          "district": "Cookstown",
+          "year": "1879",
+          "date_of_birth": "21st September 1879",
+          "forename": "Mary",
+          "sex": "Female",
+          "mother_maiden_name": "McKenzie",
+          "registration_number": "U/1879/99/1009/12/2",
+          "match_basis": [
+            "forename",
+            "district",
+            "birth_year_within_2"
+          ]
+        }
+      ],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "birth_leads"
+    },
+    {
+      "audit_row": 122,
+      "death_registration_number": "D/1882/99/1009/9/455",
+      "death_date": "1882-04-03",
+      "district": "Cookstown",
+      "forename": "Mary",
+      "compatible_births": [
+        {
+          "district": "Cookstown",
+          "year": "1878",
+          "date_of_birth": "28th February 1878",
+          "forename": "Mary",
+          "sex": "Female",
+          "mother_maiden_name": "Bell",
+          "registration_number": "U/1878/99/1009/10/240",
+          "match_basis": [
+            "forename",
+            "district",
+            "birth_year_within_2"
+          ]
+        },
+        {
+          "district": "Cookstown",
+          "year": "1879",
+          "date_of_birth": "19th May 1879",
+          "forename": "Mary",
+          "sex": "Female",
+          "mother_maiden_name": "Bole",
+          "registration_number": "U/1879/99/1009/11/150",
+          "match_basis": [
+            "forename",
+            "district",
+            "birth_year_within_2"
+          ]
+        },
+        {
+          "district": "Cookstown",
+          "year": "1879",
+          "date_of_birth": "3rd September 1879",
+          "forename": "Mary",
+          "sex": "Female",
+          "mother_maiden_name": "Henry",
+          "registration_number": "U/1879/99/1009/11/233",
+          "match_basis": [
+            "forename",
+            "district",
+            "birth_year_within_2"
+          ]
+        },
+        {
+          "district": "Cookstown",
+          "year": "1879",
+          "date_of_birth": "21st September 1879",
+          "forename": "Mary",
+          "sex": "Female",
+          "mother_maiden_name": "McKenzie",
+          "registration_number": "U/1879/99/1009/12/2",
+          "match_basis": [
+            "forename",
+            "district",
+            "birth_year_within_2"
+          ]
+        }
+      ],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "birth_leads"
+    },
+    {
+      "audit_row": 123,
+      "death_registration_number": "D/1883/99/1009/10/149",
+      "death_date": "1883-03-02",
+      "district": "Cookstown",
+      "forename": "George",
+      "compatible_births": [
+        {
+          "district": "Cookstown",
+          "year": "1882",
+          "date_of_birth": "1st March 1882",
+          "forename": "George",
+          "sex": "Male",
+          "mother_maiden_name": "McKenzie",
+          "registration_number": "U/1882/99/1009/13/226",
+          "match_basis": [
+            "forename",
+            "district",
+            "birth_year_within_2"
+          ]
+        }
+      ],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "birth_leads"
+    },
+    {
+      "audit_row": 124,
+      "death_registration_number": "D/1887/100/1009/8/224",
+      "death_date": "1887-07-12",
+      "district": "Cookstown",
+      "forename": "Sarah",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 125,
+      "death_registration_number": "D/1889/99/1009/12/471",
+      "death_date": "1889-04-08",
+      "district": "Cookstown",
+      "forename": "William",
+      "compatible_births": [
+        {
+          "district": "Cookstown",
+          "year": "1887",
+          "date_of_birth": "10th July 1887",
+          "forename": "William",
+          "sex": "Male",
+          "mother_maiden_name": "Henry",
+          "registration_number": "U/1887/99/1009/16/223",
+          "match_basis": [
+            "forename",
+            "district",
+            "birth_year_within_2"
+          ]
+        }
+      ],
+      "compatible_marriages": [],
+      "excluded": [
+        {
+          "type": "birth",
+          "registration_number": "U/1890/99/1009/17/388",
+          "reason": "birth_date_after_death_date"
+        }
+      ],
+      "lead_status": "birth_leads"
+    },
+    {
+      "audit_row": 126,
+      "death_registration_number": "D/1892/99/1009/14/124",
+      "death_date": "1892-05-20",
+      "district": "Cookstown",
+      "forename": "Clarke",
+      "compatible_births": [
+        {
+          "district": "Cookstown",
+          "year": "1892",
+          "date_of_birth": "21st March 1892",
+          "forename": "Clarke",
+          "sex": "Male",
+          "mother_maiden_name": "Crowe",
+          "registration_number": "U/1892/99/1009/18/409",
+          "match_basis": [
+            "forename",
+            "district",
+            "birth_year_within_2"
+          ]
+        }
+      ],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "birth_leads"
+    },
+    {
+      "audit_row": 127,
+      "death_registration_number": "D/1898/99/1009/16/199",
+      "death_date": "1897-12-31",
+      "district": "Cookstown",
+      "forename": "John",
+      "compatible_births": [
+        {
+          "district": "Cookstown",
+          "year": "1897",
+          "date_of_birth": "13th April 1897",
+          "forename": "John",
+          "sex": "Male",
+          "mother_maiden_name": "Glasgow",
+          "registration_number": "U/1897/99/1009/21/81",
+          "match_basis": [
+            "forename",
+            "district",
+            "birth_year_within_2"
+          ]
+        }
+      ],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "birth_leads"
+    },
+    {
+      "audit_row": 128,
+      "death_registration_number": "D/1899/99/1009/16/482",
+      "death_date": "1899-08-15",
+      "district": "Cookstown",
+      "forename": "Anna",
+      "compatible_births": [
+        {
+          "district": "Cookstown",
+          "year": "1899",
+          "date_of_birth": "1st June 1899",
+          "forename": "Anna",
+          "sex": "Female",
+          "mother_maiden_name": "Glasgow",
+          "registration_number": "U/1899/99/1009/22/58",
+          "match_basis": [
+            "forename",
+            "district",
+            "birth_year_within_2"
+          ]
+        }
+      ],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "birth_leads"
+    },
+    {
+      "audit_row": 129,
+      "death_registration_number": "D/1900/99/1009/17/226",
+      "death_date": "1900-07-20",
+      "district": "Cookstown",
+      "forename": "Thomas",
+      "compatible_births": [
+        {
+          "district": "Cookstown",
+          "year": "1898",
+          "date_of_birth": "2nd October 1898",
+          "forename": "Thomas",
+          "sex": "Male",
+          "mother_maiden_name": "Crooks",
+          "registration_number": "U/1898/100/1009/13/49",
+          "match_basis": [
+            "forename",
+            "district",
+            "birth_year_within_2"
+          ]
+        },
+        {
+          "district": "Cookstown",
+          "year": "1898",
+          "date_of_birth": "15th October 1898",
+          "forename": "Thomas",
+          "sex": "Male",
+          "mother_maiden_name": "",
+          "registration_number": "U/1898/99/1009/21/430",
+          "match_basis": [
+            "forename",
+            "district",
+            "birth_year_within_2"
+          ]
+        }
+      ],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "birth_leads"
+    },
+    {
+      "audit_row": 130,
+      "death_registration_number": "D/1873/132/1016/4/349",
+      "death_date": "1873-09-04",
+      "district": "Larne",
+      "forename": "Jane",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 131,
+      "death_registration_number": "D/1893/170/1020/14/497",
+      "death_date": "1893-11-15",
+      "district": "Londonderry",
+      "forename": "Elizabeth",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 132,
+      "death_registration_number": "D/1890/176/1021/16/104",
+      "death_date": "1890-06-30",
+      "district": "Lurgan",
+      "forename": "James",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 133,
+      "death_registration_number": "D/1885/176/1021/13/43",
+      "death_date": "1885-02-16",
+      "district": "Lurgan",
+      "forename": "Mary",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 134,
+      "death_registration_number": "D/1869/183/1022/2/430",
+      "death_date": "1869-05-17",
+      "district": "Magherafelt",
+      "forename": "Ellen",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 135,
+      "death_registration_number": "D/1878/179/1022/7/138",
+      "death_date": "1878-12-12",
+      "district": "Magherafelt",
+      "forename": "James",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 136,
+      "death_registration_number": "D/1890/183/1022/9/186",
+      "death_date": "1890-05-08",
+      "district": "Magherafelt",
+      "forename": "Martha",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 137,
+      "death_registration_number": "D/1884/183/1022/7/459",
+      "death_date": "1884-09-12",
+      "district": "Magherafelt",
+      "forename": "Ellen",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 138,
+      "death_registration_number": "D/1888/179/1022/11/59",
+      "death_date": "1888-04-22",
+      "district": "Magherafelt",
+      "forename": "Roseanna",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 139,
+      "death_registration_number": "D/1870/183/1022/3/118",
+      "death_date": "1870-08-23",
+      "district": "Magherafelt",
+      "forename": "John",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 140,
+      "death_registration_number": "D/1867/183/1022/2/51",
+      "death_date": "1866-11-17",
+      "district": "Magherafelt",
+      "forename": "William",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 141,
+      "death_registration_number": "D/1883/183/1022/7/253",
+      "death_date": "1883-01-15",
+      "district": "Magherafelt",
+      "forename": "Eleanor",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 142,
+      "death_registration_number": "D/1882/179/1022/8/486",
+      "death_date": "1882-11-27",
+      "district": "Magherafelt",
+      "forename": "William",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 143,
+      "death_registration_number": "D/1889/179/1022/11/358",
+      "death_date": "1889-12-17",
+      "district": "Magherafelt",
+      "forename": "Mary",
+      "compatible_births": [],
+      "compatible_marriages": [
+        {
+          "district": "Magherafelt",
+          "year": 1871,
+          "date_of_marriage": "14th June 1871",
+          "glasgow_forenames": [
+            "Mary"
+          ],
+          "glasgow_forename_raw": "Mary",
+          "other_party_surname": "Elder",
+          "registration_number": "M/1871/N1/1863/1/179",
+          "match_basis": [
+            "forename_or_common_abbreviation",
+            "district_exact",
+            "chronology_marriage_after_approx_birth_plus_12_before_death"
+          ]
+        }
+      ],
+      "excluded": [],
+      "lead_status": "marriage_leads"
+    },
+    {
+      "audit_row": 144,
+      "death_registration_number": "D/1879/183/1022/6/164",
+      "death_date": "1879-03-28",
+      "district": "Magherafelt",
+      "forename": "Maria",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 145,
+      "death_registration_number": "D/1865/179/1022/1/245",
+      "death_date": "1865-03-13",
+      "district": "Magherafelt",
+      "forename": "Eliza",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 146,
+      "death_registration_number": "D/1875/183/1022/4/256",
+      "death_date": "1875-01-28",
+      "district": "Magherafelt",
+      "forename": "Alexander",
+      "compatible_births": [
+        {
+          "district": "Magherafelt",
+          "year": "1874",
+          "date_of_birth": "7th August 1874",
+          "forename": "Alexander",
+          "sex": "Male",
+          "mother_maiden_name": "Bell",
+          "registration_number": "U/1874/183/1022/6/317",
+          "match_basis": [
+            "forename",
+            "district",
+            "birth_year_within_2"
+          ]
+        }
+      ],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "birth_leads"
+    },
+    {
+      "audit_row": 147,
+      "death_registration_number": "D/1879/191/1023/9/27",
+      "death_date": "1879-08-27",
+      "district": "Newry",
+      "forename": "Margaret",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 148,
+      "death_registration_number": "D/1894/191/1023/15/194",
+      "death_date": "1894-10-24",
+      "district": "Newry",
+      "forename": "Harriette",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 149,
+      "death_registration_number": "D/1887/227/1023/9/208",
+      "death_date": "1887-01-15",
+      "district": "Newry",
+      "forename": "Martha",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 150,
+      "death_registration_number": "D/1898/201/1024/25/189",
+      "death_date": "1898-04-16",
+      "district": "Newtownards",
+      "forename": "Nannie",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 151,
+      "death_registration_number": "D/1871/209/1025/2/489",
+      "death_date": "1871-09-30",
+      "district": "Omagh",
+      "forename": "John",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    },
+    {
+      "audit_row": 152,
+      "death_registration_number": "D/1896/212/1025/20/338",
+      "death_date": "1896-08-06",
+      "district": "Omagh",
+      "forename": "David",
+      "compatible_births": [],
+      "compatible_marriages": [],
+      "excluded": [],
+      "lead_status": "none"
+    }
+  ],
+  "interpretation": "Birth and marriage entries are indexed leads only; same-name records are not identity conclusions."
+}

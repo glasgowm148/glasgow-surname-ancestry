@@ -63,7 +63,7 @@ Validated person groups: **83**; WikiTree-audited groups: **25**; human override
 | `fmp-glasgow-7c955507b78b` | Ninian Glasgow, 06 Jan 1614, Glasgow | blocked_missing_match_audit | — | none |
 | `fmp-glasgow-7cbeb1492d76` | Eduard Glasgow, 1609, Inveresk with Musselburgh | blocked_missing_match_audit | — | none |
 | `fmp-glasgow-7cdd4d2e4d17` | Cristiane Glasgow, 1609, Inveresk with Musselburgh | blocked_missing_match_audit | — | none |
-| `fmp-glasgow-7dd0e1fcefbd` | Helen Glasgow, 1668, Linlithgow | new_person | surname-research/new-people/1668_Scotland_Linlithgow_Helen_Glasgow.md | complete_live_no_match_audit |
+| `fmp-glasgow-7dd0e1fcefbd` | Helen Glasgow, 1668, Linlithgow | new_person | research/Glasgow-4098/1668_Scotland_Linlithgow_Helen_Glasgow.md | complete_live_no_match_audit |
 | `fmp-glasgow-7ed3915647bd` | Rot. Glasgow, 17 Nov 1618, Glasgow | blocked_missing_match_audit | — | none |
 | `fmp-glasgow-7fc6bb781027` | James Glasgow, 20 Jun 1649, Edinburgh | new_person | surname-research/new-people/1649_Scotland_Edinburgh_James_Glasgow.md | unresolved_candidate_audit |
 | `fmp-glasgow-8a1040c5d545` | Thomas Glasgow, 15/05/1701, Dublin | new_person | surname-research/new-people/1701_Ireland_Dublin_Thomas_Glasgow.md | unresolved_candidate_audit |
@@ -85,8 +85,8 @@ Validated person groups: **83**; WikiTree-audited groups: **25**; human override
 | `fmp-glasgow-c3bc3cd2f9f5` | Issobell Glasgow, 03 May 1612, Mid Calder | blocked_missing_match_audit | — | none |
 | `fmp-glasgow-c608ee62fa8a` | William Glasgow, 1614, Inveresk with Musselburgh | blocked_missing_match_audit | — | none |
 | `fmp-glasgow-c75131589af7` | William Glasgow, 1614, Inveresk with Musselburgh | blocked_missing_match_audit | — | none |
-| `fmp-glasgow-cc9a54fb3b86` | James Glasgow, 7 May 1690, Edinburgh | new_person | surname-research/new-people/1690_Scotland_Edinburgh_James_Glasgow.md | unresolved_candidate_audit |
-| `fmp-glasgow-cd18f5e7916d` | John Glasgow, 1738, Edrom | new_person | surname-research/new-people/1738_Scotland_Edrom_John_Glasgow.md | unresolved_candidate_audit |
+| `fmp-glasgow-cc9a54fb3b86` | James Glasgow, 7 May 1690, Edinburgh | new_person | research/Glasgow-4131/1690_Scotland_Edinburgh_James_Glasgow.md | unresolved_candidate_audit |
+| `fmp-glasgow-cd18f5e7916d` | John Glasgow, 1738, Edrom | new_person | research/Glasgow-4132/1738_Scotland_Edrom_John_Glasgow.md | unresolved_candidate_audit |
 | `fmp-glasgow-cd4d475c488d` | Robert Glasgow, 1627, Inveresk with Musselburgh | blocked_missing_match_audit | — | none |
 | `fmp-glasgow-cdda2a9c56ba` | Jhone Glasgow, 26 Jun 1608, Midcalder | blocked_missing_match_audit | — | none |
 | `fmp-glasgow-cf1b4a398238` | Ninian Glasgow, 27 Aug 1607, Glasgow | blocked_missing_match_audit | — | none |
@@ -97,7 +97,7 @@ Validated person groups: **83**; WikiTree-audited groups: **25**; human override
 | `fmp-glasgow-e1d691461260` | Margaret Glasgow, 06 May 1610, Glasgow | blocked_missing_match_audit | — | none |
 | `fmp-glasgow-e282854aa0b5` | Elspeth Glasgow, 02 Mar 1606, Mid Calder | blocked_missing_match_audit | — | none |
 | `fmp-glasgow-e36059d2d68b` | Elizabeth Glasgow, 15 Dec 1616, Glasgow | blocked_missing_match_audit | — | none |
-| `fmp-glasgow-e47e0e47524a` | William Glasgow, 1679, Cavers | new_person | surname-research/new-people/1679_Scotland_Cavers_William_Glasgow.md | unresolved_candidate_audit |
+| `fmp-glasgow-e47e0e47524a` | William Glasgow, 1679, Cavers | new_person | research/Glasgow-4138/1679_Scotland_Cavers_William_Glasgow.md | unresolved_candidate_audit |
 | `fmp-glasgow-e63d7cbe8e87` | John Glasgow, 25 Jan 1618, Glasgow | blocked_missing_match_audit | — | none |
 | `fmp-glasgow-e8d6ceab667c` | Eduard Glasgow, 1609, Inveresk with Musselburgh | blocked_missing_match_audit | — | none |
 | `fmp-glasgow-ef230e20e0e0` | Barbara Glasgow, 21 Nov 1616, Edinburgh | blocked_missing_match_audit | — | none |

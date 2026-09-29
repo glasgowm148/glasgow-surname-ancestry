@@ -3,6 +3,7 @@
 
 import os
 from pathlib import Path
+import re
 
 from playwright.sync_api import sync_playwright
 
@@ -24,24 +25,40 @@ def main() -> None:
         page.locator(".catalogue-one-tree").wait_for(state="visible")
         page.locator(".catalogue-one-tree-summary strong", has_text="Connecting paths").wait_for()
         assert page.url.startswith((ROOT / "www" / "catalogue.html").as_uri())
+        def toolbar_total() -> int:
+            # "All 4,662 people" (browse view) or "3,550 results"; rows are paginated.
+            text = page.locator(".catalogue-result-toolbar > strong").inner_text()
+            return int(re.search(r"[\d,]+", text).group().replace(",", ""))
+
         page.goto(f"{BASE}/catalogue.html", wait_until="networkidle")
+        # With no filters the catalogue browses everyone ("All N people").
+        browse_all = page.locator(".catalogue-result-toolbar > strong").inner_text()
+        assert browse_all.startswith("All ") and browse_all.endswith(" people"), browse_all
+        total_people = toolbar_total()
+        page.locator("#catalogue-filter-toggle-filters").click()
         page.locator("#catalogue-glasgow-at-birth").check()
-        filtered_count = int(page.locator(".catalogue-result-toolbar > strong").inner_text().split()[0].replace(",", ""))
-        assert 0 < filtered_count < 4450
-        assert "glasgowBirth=1" in page.url
+        page.wait_for_url("**glasgowBirth=1**")
+        page.locator(".catalogue-result-toolbar > strong", has_text="results").wait_for()
+        filtered_count = toolbar_total()
+        assert 0 < filtered_count < total_people
         page.goto(f"{BASE}/catalogue.html", wait_until="networkidle")
         page.locator("#statistics-detail > summary").click()
         marriage_panel = page.locator(".statistics-panel", has_text="Surnames joined by marriage to Glasgow")
         cunningham = marriage_panel.get_by_role("link", name="Cunningham", exact=True)
-        assert cunningham.locator("xpath=ancestor::li/strong").inner_text() == "9"
+        cunningham_count = int(cunningham.locator("xpath=ancestor::li/strong").inner_text().replace(",", ""))
+        assert cunningham_count >= 10
         cunningham.click()
         assert "marriageSurname=Cunningham" in page.url
         assert page.locator("#catalogue-spouse-name").input_value() == "Cunningham"
-        assert page.locator(".catalogue-results-table tbody tr").count() == 9
+        page.locator(".catalogue-results-table").wait_for(state="visible")
+        # The statistics bar and the search it links to must agree.
+        assert toolbar_total() == cunningham_count, (toolbar_total(), cunningham_count)
+        assert page.locator(".catalogue-results-table tbody tr").count() == min(50, cunningham_count)
         assert page.locator(".catalogue-results-table tbody", has_text="Margaret (Knox) Glasgow").count() == 0
         page.goto(f"{BASE}/catalogue?marriageSurname=Cunningham", wait_until="networkidle")
         assert page.locator("#catalogue-spouse-name").input_value() == "Cunningham"
-        assert page.locator(".catalogue-results-table tbody tr").count() == 9
+        page.locator(".catalogue-results-table").wait_for(state="visible")
+        assert toolbar_total() == cunningham_count
         page.goto(f"{BASE}/catalogue.html?q=Alexander", wait_until="networkidle")
         page.locator("#catalogue-group-tree").check()
         tree = page.locator(".catalogue-one-tree")

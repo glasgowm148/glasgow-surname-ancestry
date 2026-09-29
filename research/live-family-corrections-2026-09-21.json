@@ -1,0 +1,39 @@
+{
+  "date": "2026-09-21",
+  "status": "completed",
+  "managed_by": "M Glasgow",
+  "edits": [
+    {
+      "profile_id": "Glasgow-4179",
+      "father": "Glasgow-1499",
+      "father_status": "10",
+      "mother": null,
+      "spouse": "Allan-6611",
+      "confidence": "low; hypothesis only"
+    },
+    {
+      "profile_id": "Glasgow-2846",
+      "removed_spouse": "Allan-6611",
+      "parents_preserved": [
+        "Glasgow-2847",
+        "Anderson-83671"
+      ]
+    },
+    {
+      "merged_from": "Allan-8249",
+      "merged_into": "Allan-6611",
+      "spouse": "Glasgow-4179",
+      "marriage_year": "1769",
+      "birth_date": "1750",
+      "birth_status": "guess",
+      "birth_place": "County Antrim, Ireland",
+      "birth_place_status": "guess"
+    },
+    {
+      "profile_id": "Glasgow-1499",
+      "change": "Reciprocal low-confidence son explanation"
+    }
+  ],
+  "verification": "Canonical public pages checked; reopened saved wikitext matches all four drafts; father uncertain control checked; merge_complete acknowledgement and canonical redirect checked.",
+  "source_limitations": "No original record names Hugh as John’s father. West Calder index sign-in blocked fresh verification; original baptism remains uninspected."
+}

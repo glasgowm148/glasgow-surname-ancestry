@@ -1,14 +1,17 @@
 > **RESOLVED — matched to [[Glasgow-4063|Robert Glasgow]]**
 
-# Robert Glasgow, buried at Holkham in 1559
+# Robert Glasgow, Holkham register, 1559/60
 
 ## Minimum creation fields
 
 - **Proper name:** Robert Glasgow
 - **Surname at birth:** Glasgow
 - **Birth:** unknown; do not infer a date from the burial alone
-- **Death:** 23 March 1559, Holkham, Norfolk, England
-- **Burial:** 23 March 1559, Holkham, Norfolk, England
+- **Death:** 23 March 1560 in modern-year notation, Holkham, Norfolk, England;
+  register dated 23 March 1559 Old Style and reportedly reads `obijt`
+- **Burial:** Findmypast indexes 23 March 1559 Old Style as a burial; the live
+  profile reports that the manuscript says "died," so a separate burial date
+  is unproved
 - **Parents:** unknown
 - **Spouse:** unknown
 - **WikiTree profile:** [[Glasgow-4063|Robert Glasgow]]
@@ -19,11 +22,11 @@
 
 == Biography ==
 
-'''Robert Glasgow''' was buried at Holkham, Norfolk, England, on 23 March 1559.<ref name="FindmypastHolkham1559">[https://www.findmypast.co.uk/transcript?id=GBPRS%2FNORFOLK%2FBUR%2F004320950 Findmypast], ''Norfolk Burials'', Robert Glasgow, burial 23 March 1559, Norfolk Record Office reference PD 608/1, parish registers, year range 1542–1723 (transcript inspected 3 September 2026).</ref> The record supplies no age, birth place, parent, spouse or occupation. Holkham is a burial place only and does not prove that Robert was born there or that he came from Scotland.
+'''Robert Glasgow''' was recorded as dead at Holkham, Norfolk, England, on 23 March 1559 Old Style, equivalent to 23 March 1560 in modern-year notation.<ref name="FindmypastHolkham1559">[https://www.findmypast.co.uk/transcript?id=GBPRS%2FNORFOLK%2FBUR%2F004320950 Findmypast], ''Norfolk Burials'', Robert Glasgow, indexed 23 March 1559, Norfolk Record Office reference PD 608/1; the live [[Glasgow-4063|profile]] reports the manuscript's `obijt` wording.</ref> The record supplies no age, birth place, parent, spouse or occupation. Holkham is the recorded event place only and does not prove that Robert was born there or came from Scotland.
 
 == Research Notes ==
 
-This is a record-defined Glasgow-surname person. The Findmypast entry is a derivative transcription; the underlying Norfolk parish register should be inspected for the original burial wording and any marginal context. No family relationship is proposed from this single entry.
+This is a record-defined Glasgow-surname person. The Findmypast entry is a derivative transcription; the live profile reports an inspection of the underlying register, but that reading should be checked independently for its exact wording and any marginal context. No family relationship is proposed from this single entry. A catalogue estimate of birth about 1541 was generated from an assumed adult age at death and has no record basis.
 
 == Sources ==
 

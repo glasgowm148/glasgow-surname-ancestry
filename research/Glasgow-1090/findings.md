@@ -35,3 +35,11 @@ process papers produce an independent identifier.
 Original image not inspected for this batch. The combined collection’s date does not automatically establish a birthday. Names alone do not uniquely identify attached parents or connect a child with a later adult. An omitted parent or indexed gender U remains unspecified in this source.
 
 **Next action:** No additional WikiTree update from this row; preserve any existing pending work.
+
+## Father relationship assessment — 28 September 2026
+
+This is a review of existing evidence, not a newly discovered record. Attached father: [John Glasgow](https://www.wikitree.com/wiki/Glasgow-1030). Assessment: **confident**.
+
+Reason: The Glasgow 1627 baptism names John Glasgow and Jonet Mathie as the lawful child’s parents; High Kirk baptisms, vol.2/436.
+
+Source summary: The Glasgow 1627 baptism names John Glasgow and Jonet Mathie as the lawful child’s parents; High Kirk baptisms, vol.2/436. Saved on WikiTree and verified in the live edit form on 28 September 2026; only the father certainty and its explanation were updated.

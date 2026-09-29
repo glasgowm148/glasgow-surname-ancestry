@@ -27,6 +27,24 @@ Use cost-aware delegation for bounded, independent work that can proceed in para
 
 - `gpt-5.6-luna` for menial, deterministic, low-risk work: file discovery, formatting, simple data extraction, mechanical edits, and straightforward tests.
 - `gpt-5.6-terra` for ordinary implementation, investigation, and multi-step work that is not especially difficult or risky.
-- `gpt-6-astra` with `reasoning_effort: "low"` for hard, ambiguous, security-sensitive, architectural, cross-cutting, or reasoning-heavy work. Prefer Astra low over Sol high for these tasks.
+- Claude Opus 5.5 (OpenCode `task` sub-agents, or provider `opencode` with model `openrouter/anthropic/claude-opus-5.5`) for hard, ambiguous, security-sensitive, architectural, cross-cutting, design-heavy or reasoning-heavy work. It costs about half as much as `gpt-6-astra`; do not use Astra (corrected by the user, 24 Sep 2026).
 
-When uncertain, use Terra; choose Astra low when a mistake would be costly or substantial judgment is required. The orchestrator owns decisions and integration. Delegation does not authorize work or verification outside the requested scope.
+When uncertain, use Terra; choose Opus 5.5 when a mistake would be costly or substantial judgment is required. The orchestrator owns decisions and integration. Delegation does not authorize work or verification outside the requested scope.
+
+## Live WikiTree editing via the local CDP browser
+
+When asked to edit WikiTree profiles directly, drive the logged-in local Chrome over
+CDP (port 9333). Use the helpers in `tools/wikitree/`: `wt.mjs` (navigate + read state),
+`wt_edit.mjs` (apply an edit), `wtmgr.mjs` (check manager status). Env `TAB=wikitree`
+targets the WikiTree tab.
+
+Workflow and gotchas (all discovered 17 Sep 2026, do not re-derive):
+
+- **Scope first**: `node wtmgr.mjs <ID>` reads each profile page and reports "Profile manager: <name>" and whether an Edit link is present. On profiles the signed-in account manages, apply the full evidence-led workflow. On profiles managed by others, add only facts taken directly from a concrete, cited record (e.g. an inspected civil register entry): additive text, citations, and more specific or corrected dates and places. Do not add speculative relationships, reattach or detach parents, merge, or restructure their biographies. Never message anyone or propose merges with non-managed profiles.
+- **Text edits need the enhanced editor OFF**: otherwise `wpTextbox1` changes are silently dropped (only the structured date/place fields persist). Click `#toggleMarkupColor` ("Turn Off Enhanced Editor") before setting the textarea value.
+- **Family (re-parenting)**: `Special:EditFamily&u=<uid>&who=father|mother`. To replace a father: pick `editAction_connectExisting`, enter the target WikiTree ID in `#mName`, Continue, then `#addNewPersonButton` ("Proceed to connect father") — optionally fill the explanation first. To remove a parent, pick `editAction_remove` then Continue (no confirm). Always verify the resulting profile's Family section.
+- **Edit form**: the "edit" link on a profile points to `https://www.wikitree.com/index.php?title=Special:EditPerson&u=<numeric uid>` (extract `u=` from the href). The form is a MediaWiki-style POST: `#editform` with `wpTextbox1` (full wikitext), date/location fields `mBirthDate`/`mBirthLocation`/`mDeathDate`/`mDeathLocation`, and `mStatus_*` certainty radios (`guess`/`certain`/`before`/`after`/`blank`). Read `wpTextbox1` first and preserve all existing text/refs; only append/adjust what the evidence changes.
+- **Summary unlock**: fill the change explanation by first clicking a summary-suggestion radio (ids `summarySuggestion-bio`, `summarySuggestion-sources`, etc.) with a trusted click, then optionally set `wpSummary` ("Summarize your changes here (REQUIRED for Full Save)") and dispatch `input`+`change` events. Full Save only commits once this is satisfied.
+- **Save requires a TRUSTED click**: `el.click()` (untrusted) and `form.submit()`/`requestSubmit()` only trigger an autosave draft. Click `#wpSave` ("Full Save: Commit Changes") with CDP `Input.dispatchMouseEvent` (mousePressed + mouseReleased) at its `getBoundingClientRect()` centre. Success lands on `…/<ID>&errcode=saved`; then verify the profile `/wiki/<ID>` shows the new values.
+- **Pending drafts block the form**: a failed attempt leaves an "uncommitted draft"; revisit `Special:EditPerson` and if `#wpSave` is absent, follow the "Discard the Draft" link (`…&dd=<id>`) first. A `?displayDraft=1` profile view can hang the tab — avoid it; discard via the EditPerson interstitial instead. Do one edit per call, verifying the profile each time.
+- The mac-mcp browser tools work (verified 23 Sep 2026 against the research Chrome, where "Allow JavaScript from Apple Events" is enabled): `browser_list_tabs`, `browser_do` navigation and DOM `browser_observe`. Visual capture (`visual='full_page'`) can fail on sites that block injected scripts (e.g. GRONI); use CDP there. If two Chrome instances are running, check which one mac-mcp is addressing.

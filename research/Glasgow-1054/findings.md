@@ -43,3 +43,11 @@ This batch adds supporting evidence or a qualified comparison only; it raises no
 Original image not inspected for this batch. The combined collection’s date does not automatically establish a birthday. Names alone do not uniquely identify attached parents or connect a child with a later adult. An omitted parent or indexed gender U remains unspecified in this source.
 
 **Next action:** No additional WikiTree update from this row; preserve any existing pending work.
+
+## Father relationship assessment — 28 September 2026
+
+This is a review of existing evidence, not a newly discovered record. Attached father: [David Glasgow](https://www.wikitree.com/wiki/Glasgow-1028). Assessment: **confident**.
+
+Reason: The Mid Calder baptism index of 2 March 1606 names David Glasgow as father; NRS OPR 694/10/9.
+
+Source summary: The Mid Calder baptism index of 2 March 1606 names David Glasgow as father; NRS OPR 694/10/9. Saved on WikiTree and verified in the live edit form on 28 September 2026; only the father certainty and its explanation were updated.

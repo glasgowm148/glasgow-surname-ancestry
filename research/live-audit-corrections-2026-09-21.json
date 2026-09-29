@@ -1,0 +1,32 @@
+{
+  "date": "2026-09-21",
+  "saved": 3,
+  "held": 0,
+  "outside_management_scope": 0,
+  "profiles": [
+    {
+      "profile_id": "Glasgow-951",
+      "url": "https://www.wikitree.com/wiki/Glasgow-951",
+      "manager_verified": "Glasgow-933",
+      "status": "saved_and_verified",
+      "summary": "Qualified Nancy’s probate evidence, common-father reasoning, omission-based exclusions and the inferred two marriages. Preserved the current WikiTree-generated Glasgow-1503→Glasgow-1499 link update. The father relationship remains uncertain; vital fields and attachments were not changed.",
+      "capture": "research/Glasgow-951/sources/live-saved-2026-09-21.json"
+    },
+    {
+      "profile_id": "Glasgow-4070",
+      "url": "https://www.wikitree.com/wiki/Glasgow-4070",
+      "manager_verified": "Glasgow-933",
+      "status": "saved_and_verified",
+      "summary": "Qualified the probable sibling network, withdrew unsupported exclusions and the claimed identification with Glasgow-1022, and marked the existing father relationship uncertain. Preserved the attached father and all vital values.",
+      "capture": "research/Glasgow-4070/sources/live-saved-2026-09-21.json"
+    },
+    {
+      "profile_id": "Glasgow-3478",
+      "url": "https://www.wikitree.com/wiki/Glasgow-3478",
+      "manager_verified": "Glasgow-933",
+      "status": "saved_and_verified",
+      "summary": "Added the sourced September/October 1738 birth conflict and marked the existing birth date uncertain. Retained 4 October 1738 as the current field value pending the original register; no merge, split or parent change was made.",
+      "capture": "research/Glasgow-3478/sources/live-saved-2026-09-21.json"
+    }
+  ]
+}

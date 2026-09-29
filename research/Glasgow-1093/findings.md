@@ -78,10 +78,12 @@ sons John and William. The profile mapping of the son William to Glasgow-3522
 is now confident; the mapping of the son John to Glasgow-3181 remains only
 possible.
 
-Live readback **30 August 2026** confirms Glasgow-3522 now displays John-1093 as
-his confident father. Jonet Spreull remains an uncertain mother because the
-record reserves her liferent as John's spouse without explicitly calling her
-William's mother.
+Live readback **30 August 2026** confirmed Glasgow-3522 displays John-1093 as
+his confident father. On **27 September 2026**, Jonet Spreull was upgraded to
+William's confident, inferred mother after protocols 1196 (1534), 847 (1565)
+and 2189 (17 June 1575) were assessed together with Stephen's 1586
+curatorship. The 1565 instrument does not expressly call Jonet William's
+mother; the combined chronology and family network supports the inference.
 
 Either retain John's uncertain `before 1516` boundary or use `about 1510` as a
 working estimate. Explain that it is inferred from his documented marriage and

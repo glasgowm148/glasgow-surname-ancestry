@@ -1,0 +1,171 @@
+{
+  "id": "lisnagaver-rasharkin",
+  "kicker": "Local research study",
+  "title": "Lisnagaver & Rasharkin",
+  "standfirst": "Nineteenth-century records document several Glasgow households around Lisnagaver, Gortahar and Kilrea. Their shared older parentage, and any route back to Larne or Inishrush, remain open.",
+  "status": {"label": "Documented households; open parentage", "tone": "supported"},
+  "facts": [
+    {"value": "28", "label": "reviewed local people"},
+    {"value": "5", "label": "record-defined family clusters"},
+    {"value": "1846–1918", "label": "John and Margaret’s documented span"},
+    {"value": "by 1871", "label": "proved Thomas–Daniel brotherhood"}
+  ],
+  "question": "Can the documented Lisnagaver, Gortahar and Kilrea households be joined by a record that names their older parents, rather than by shared surname, locality, or DNA alone?",
+  "answer": "Alexander and Mary McCaughan’s household, John and Margaret Garvin’s household, and the Thomas–Daniel brotherhood are each supported by records. The evidence does not name a shared parent for those groups or prove a descent from Inishrush, Larne or another Glasgow cluster. The leading sibling reading around Alexander remains an inference, not a father statement.",
+  "chapters": [
+    {
+      "id": "early-local-context",
+      "period": "1790s–1830s",
+      "title": "A local network before the later families",
+      "body": ["The study keeps nearby Inishrush and Bann Valley material as comparison evidence, not as an inherited pedigree. Adam and John at Inishrush may be related, but no inspected record calls them brothers or names a shared parent.", "The 1831 household return records separate Adam and John Glasgow households in Inishrush; it does not list household members by name."],
+      "cluster": "inishrush-collateral",
+      "evidence": [{"label": "Tamlaght O’Crilly 1831 census", "url": "https://genealogy.torrens.org/BannValley/church/Tamlaght/1831census_3.html"}, {"label": "Inishrush collateral study", "url": "/branches/research-irish-inishrush-collateral/"}]
+    },
+    {
+      "id": "alexander-mary",
+      "period": "1837–1892",
+      "title": "Alexander and Mary’s documented family",
+      "body": ["Baptisms, the complete 1851 household and later marriages document Alexander Glasgow and Mary McCaughan and six children. Their descendant evidence places a tested line in R-FT20271.", "Alexander’s parents and Mary’s parents remain unproved. A haplogroup or regional surname network cannot provide the missing parent statement."],
+      "cluster": "alexander-mary",
+      "evidence": [{"label": "1851 Irish census derived return", "url": "https://durrushistory.com/wp-content/uploads/2012/10/1851irishcensusreturnscommadelimitedtextfilejul24_072.pdf"}, {"label": "Alexander’s research account", "url": "/people/glasgow-951.html"}]
+    },
+    {
+      "id": "john-margaret",
+      "period": "1846–1918",
+      "title": "John and Margaret at Lisnagaver",
+      "body": ["The 1846 marriage, 1851 household and family memorial establish John Glasgow, Margaret Garvin, their children and John’s brother Samuel.", "Their older father is named in the maintained reconstruction but is not securely identified with an existing profile."],
+      "cluster": "john-margaret",
+      "evidence": [{"label": "1851 Irish census derived return", "url": "https://durrushistory.com/wp-content/uploads/2012/10/1851irishcensusreturnscommadelimitedtextfilejul24_072.pdf"}, {"label": "Lisnagaver study evidence", "url": "/people/glasgow-951.html"}]
+    },
+    {
+      "id": "thomas-daniel",
+      "period": "by 1871",
+      "title": "Thomas and Daniel are brothers",
+      "body": ["Daniel’s will calls Thomas his late brother and Daniel Neely Glasgow his nephew. Daniel Neely’s marriage names Thomas as father.", "That evidence proves the brotherhood and nephew relationship, but does not name Thomas and Daniel’s parents or prove Alexander was their brother."],
+      "cluster": "thomas-daniel",
+      "evidence": [{"label": "Bann Valley and Killoquin study", "url": "/branches/research-irish-bann-valley-killoquin/"}, {"label": "Alexander’s research account", "url": "/people/glasgow-951.html"}]
+    },
+    {
+      "id": "later-continuations",
+      "period": "1888–1901",
+      "title": "Later documented continuations",
+      "body": ["Daniel Neely Glasgow and Mary Jane Boyd’s marriage and original birth returns document daughters Sarah Taylor and Elizabeth Boyd. Mary Ann Glasgow’s marriage names Alexander as her father and later records continue the Elder household.", "These continuations do not settle the older Glasgow-parentage question."],
+      "cluster": "daniel-neely-mary-jane",
+      "evidence": [{"label": "Lisnagaver study evidence", "url": "/people/glasgow-951.html"}]
+    }
+  ],
+  "clusters": [
+    {
+      "id": "alexander-mary",
+      "title": "Alexander Glasgow and Mary McCaughan",
+      "place": "Gortereagh, Lisnagaver and Gortahar",
+      "period": "1837–1892",
+      "status": "proved",
+      "status_label": "Documented family",
+      "summary": "Baptisms, the complete 1851 household and later marriages document the couple and six children. A tested descendant is in R-FT20271.",
+      "boundary": "Alexander’s parents, the named ancestor shared with James J, and his exact relationship to Thomas and Daniel remain unresolved. The 1888 death remains probable, with age and informant identity unresolved.",
+      "people": ["glasgow-951", "mccaughan-222", "glasgow-3939", "glasgow-3940", "glasgow-938", "glasgow-3167", "glasgow-973", "glasgow-438"]
+    },
+    {
+      "id": "john-margaret",
+      "title": "John Glasgow and Margaret Garvin",
+      "place": "Lisnagaver and Rasharkin",
+      "period": "1846–1918",
+      "status": "proved",
+      "status_label": "Documented household",
+      "summary": "The 1846 marriage, 1851 household and family memorial establish the couple, their children and John’s brother Samuel.",
+      "boundary": "The older father John is named but not securely identified with an existing profile.",
+      "people": ["glasgow-867", "garvin-1831", "glasgow-1371", "glasgow-2406", "glasgow-2908"]
+    },
+    {
+      "id": "thomas-daniel",
+      "title": "Thomas and Daniel Glasgow",
+      "place": "Lisnagaver and Kilrea",
+      "period": "by 1871",
+      "status": "proved",
+      "status_label": "Proved sibling network",
+      "summary": "Daniel’s will calls Thomas his late brother and Daniel Neely Glasgow his nephew; the nephew’s marriage names Thomas as father.",
+      "boundary": "The records do not name the brothers’ parents or prove Alexander was their brother.",
+      "people": ["glasgow-987", "glasgow-3896", "glasgow-2413"]
+    },
+    {
+      "id": "daniel-neely-mary-jane",
+      "title": "Daniel Neely Glasgow and Mary Jane Boyd",
+      "place": "Tamlaght and Lisnagaver connections",
+      "period": "1888–1901",
+      "status": "proved",
+      "status_label": "Documented family",
+      "summary": "The marriage and original birth returns document the couple and daughters Sarah Taylor and Elizabeth Boyd Glasgow.",
+      "boundary": "Their later migration evidence does not resolve the older Glasgow parentage question.",
+      "people": ["glasgow-2413", "boyd-18548", "glasgow-2414", "glasgow-2415"]
+    },
+    {
+      "id": "mary-ann-elder",
+      "title": "Mary Ann Glasgow and Robert Elder",
+      "place": "Lisnagaver and Gortahar",
+      "period": "1871 onward",
+      "status": "proved",
+      "status_label": "Documented continuation",
+      "summary": "Mary’s marriage names Alexander Glasgow as her father and later Gortahar records continue the Elder household.",
+      "boundary": "Only catalogue people with public dossiers are linked here; unresolved later children remain research subjects.",
+      "people": ["glasgow-3167"]
+    },
+    {
+      "id": "inishrush-collateral",
+      "title": "Inishrush collateral leads",
+      "place": "Inishrush, Dunaghy and Drumragh",
+      "period": "1767–1851",
+      "status": "hypothesis",
+      "status_label": "Collateral locality research",
+      "summary": "Family-register, census, tithe and marriage clues identify Adam and John as meaningful comparison leads beside, not within, the later Lisnagaver households.",
+      "boundary": "No document proves a bridge to Lisnagaver or Bann Valley families; Adam and John may be brothers, cousins or unrelated namesakes.",
+      "people": ["glasgow-822", "glasgow-3902", "glasgow-1623", "glasgow-3927"]
+    }
+  ],
+  "links": [
+    {"from": "thomas-daniel", "to": "daniel-neely-mary-jane", "status": "proved", "label": "Daniel’s will calls Daniel Neely his nephew; Daniel Neely’s marriage names Thomas as father"},
+    {"from": "alexander-mary", "to": "mary-ann-elder", "status": "proved", "label": "Mary Ann’s marriage names Alexander Glasgow as father"},
+    {"from": "alexander-mary", "to": "john-margaret", "status": "supported", "label": "The leading sibling reading fits several records, but no record names their shared father"},
+    {"from": "alexander-mary", "to": "thomas-daniel", "status": "unresolved", "label": "No record proves Alexander was Thomas and Daniel’s brother"},
+    {"from": "inishrush-collateral", "to": "alexander-mary", "status": "unresolved", "label": "No documented bridge connects Inishrush collateral leads to Alexander’s family"}
+  ],
+  "ladder": {
+    "proved": ["Daniel and Thomas are brothers; Daniel Neely is Thomas’s son and Daniel’s nephew.", "Alexander and Mary’s household, John and Margaret’s household, and Mary Ann’s father statement are documented."],
+    "supported": ["The leading sibling reading around Alexander is supported by a probate notice and independent local records, but it does not name a father for Alexander."],
+    "hypothesis": ["Adam and John of Inishrush may be brothers or cousins.", "The Gortereghy, Drumadarragh and Finvoy McCaughan networks are candidate routes to Mary’s parentage."],
+    "unresolved": ["No record connects the documented Lisnagaver households to each other through a named older parent.", "No record proves a Lisnagaver descent from Inishrush, Larne or another Irish cluster."]
+  },
+  "gaps": [
+    {"title": "Find a parent-naming record for Alexander", "why": "A marriage, baptism, lease, probate or family statement could test the leading sibling reconstruction.", "where": "First Kilraughts material; Killoquin rent roll D3209/1", "url": "/branches/research-irish-bann-valley-killoquin/", "priority": "high"},
+    {"title": "Inspect Mary McCaughan’s original marriage or baptism evidence", "why": "It could identify her parents among competing local McCaughan-variant families.", "where": "First Kilraughts register; Gortereghy, Drumadarragh and Finvoy records", "url": "https://www.proni.gov.uk/name-search", "priority": "high"},
+    {"title": "Obtain Daniel’s will and associated estate records", "why": "The will already proves the sibling network; fuller files may name the older generation or property succession.", "where": "Kilrea and Killoquin probate and estate records", "url": "/branches/research-irish-bann-valley-killoquin/", "priority": "high"},
+    {"title": "Test John’s older father identity", "why": "A parent, residence or occupation statement could distinguish the named father from existing same-name profiles.", "where": "Lisnagaver leases, memorial and church records", "url": "/people/glasgow-951.html", "priority": "medium"},
+    {"title": "Resolve the Inishrush household relationships", "why": "Church, lease and succession records could distinguish Adam–John brotherhood from cousin or namesake alternatives.", "where": "Inishrush, Dunaghy and Drumragh records", "url": "/branches/research-irish-inishrush-collateral/", "priority": "medium"},
+    {"title": "Identify a documented male-line comparator", "why": "A Big Y-700 result from a documented Larne/Kilwaughter or John-867 line could refine the paternal comparison without naming an ancestor by itself.", "where": "Glasgow DNA project and documented descent audit", "url": "/people/glasgow-951.html#larne-reconstruction", "priority": "low"}
+  ],
+  "timeline": [
+    {"year": 1790, "label": "Samuel Glasgow’s recorded life begins in the reviewed locality group", "status": "supported", "cluster": "john-margaret", "url": "/people/glasgow-2908.html"},
+    {"year": 1811, "label": "Estimated births of Alexander Glasgow and Mary McCaughan", "status": "hypothesis", "cluster": "alexander-mary", "url": "/people/glasgow-951.html"},
+    {"year": 1831, "label": "Separate Adam and John Glasgow households appear at Inishrush", "status": "proved", "cluster": "inishrush-collateral", "url": "https://genealogy.torrens.org/BannValley/church/Tamlaght/1831census_3.html"},
+    {"year": 1837, "label": "Alexander and Mary’s documented children begin appearing in the record sequence", "status": "proved", "cluster": "alexander-mary", "url": "/people/glasgow-951.html"},
+    {"year": 1843, "label": "Mary Ann Glasgow, Alexander’s documented daughter, is born", "status": "proved", "cluster": "alexander-mary", "url": "/people/glasgow-3167.html"},
+    {"year": 1846, "label": "John Glasgow and Margaret Garvin marry", "status": "proved", "cluster": "john-margaret", "url": "/people/glasgow-867.html"},
+    {"year": 1851, "label": "The census records Alexander and Mary’s household at Lisnagavor", "status": "proved", "cluster": "alexander-mary", "url": "https://durrushistory.com/wp-content/uploads/2012/10/1851irishcensusreturnscommadelimitedtextfilejul24_072.pdf"},
+    {"year": 1867, "label": "Daniel Neely Glasgow is born", "status": "proved", "cluster": "thomas-daniel", "url": "/people/glasgow-2413.html"},
+    {"year": 1870, "label": "Thomas Glasgow’s recorded life ends", "status": "supported", "cluster": "thomas-daniel", "url": "/people/glasgow-987.html"},
+    {"year": 1871, "label": "Daniel’s will identifies Thomas as his late brother and Daniel Neely as nephew", "status": "proved", "cluster": "thomas-daniel", "url": "/branches/research-irish-bann-valley-killoquin/"},
+    {"year": 1875, "label": "Mary Ann Glasgow’s marriage names Alexander as father", "status": "proved", "cluster": "mary-ann-elder", "url": "/people/glasgow-3167.html"},
+    {"year": 1888, "label": "Alexander’s reported death remains probable, not fully resolved", "status": "supported", "cluster": "alexander-mary", "url": "/people/glasgow-951.html"},
+    {"year": 1889, "label": "Daniel Neely Glasgow and Mary Jane Boyd marry", "status": "proved", "cluster": "daniel-neely-mary-jane", "url": "/people/glasgow-2413.html"},
+    {"year": 1892, "label": "Mary McCaughan’s recorded life ends", "status": "supported", "cluster": "alexander-mary", "url": "/people/mccaughan-222.html"},
+    {"year": 1901, "label": "Later records continue Daniel Neely’s family", "status": "proved", "cluster": "daniel-neely-mary-jane", "url": "/people/glasgow-2413.html"},
+    {"year": 1918, "label": "James Garvin Glasgow’s recorded life ends", "status": "supported", "cluster": "john-margaret", "url": "/people/glasgow-2406.html"}
+  ],
+  "related": [
+    {"label": "Bann Valley and Killoquin: Daniel and Thomas", "url": "/branches/research-irish-bann-valley-killoquin/"},
+    {"label": "Inishrush, Dunaghy and Drumragh collateral leads", "url": "/branches/research-irish-inishrush-collateral/"},
+    {"label": "East Antrim: Larne to Kilwaughter", "url": "/branches/research-irish-east-antrim/"},
+    {"label": "Larne and Kilwaughter family study", "url": "/branches/larne-kilwaughter/"}
+  ],
+  "sources_note": "The working evidence is maintained in the linked public people and study accounts. No evidence-log source is supplied here because the detailed local findings file includes working material rather than a separate public-safe synthesis."
+}

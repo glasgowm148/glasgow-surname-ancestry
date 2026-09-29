@@ -21,41 +21,28 @@ def main() -> None:
         page.on("pageerror", lambda error: errors.append(str(error)))
 
         page.goto(f"{BASE}/people/glasgow-951.html", wait_until="networkidle")
-        assert page.locator(".person-hero h1").inner_text() == "Alexander Glasgow"
-        identity = page.locator("#overview .identity-facts")
-        assert identity.is_visible()
-        for label in ("PARENTS", "SPOUSES", "CHILDREN"):
-            assert label in identity.inner_text()
-        assert page.locator(".timeline-card").count() >= 2
+        # Person pages use the dossier layout: a header, a visible current-position
+        # summary, and the detailed record/candidate material collapsed in the archive.
+        assert page.locator(".dossier-header h1").inner_text() == "Alexander Glasgow"
+        facts = page.locator("#overview .dossier-facts")
+        assert facts.is_visible()
+        for label in ("BIRTH", "DEATH", "LOCALITY"):
+            assert label in facts.inner_text()
+        assert page.locator(".dossier-nav a").count() >= 4
+        archive = page.locator("details#archive-tools")
+        assert not archive.get_attribute("open")
+        assert page.locator("#timeline .timeline-row").count() >= 2
+        assert not page.locator("#timeline .timeline-row").first.is_visible()
+        candidates = page.locator("#parent-candidates details[id^='candidate-']")
+        assert candidates.count() >= 2
+        assert not candidates.first.is_visible()
+        page.locator("#archive-tools > summary").click()
+        assert archive.get_attribute("open") is not None
         assert not page.locator("#timeline").get_attribute("open")
-        assert not page.locator("#timeline .timeline-card").first.is_visible()
         page.locator("#timeline > summary").click()
-        assert page.locator("#timeline .timeline-card").first.is_visible()
-        assert not page.locator("#questions .question-card").first.is_visible()
-        assert not page.locator("#research-update .research-finding").first.is_visible()
-        assert not page.locator("#research-findings .finding-table").is_visible()
-        tabs = page.locator("#candidate-analysis [role=tab]")
-        comparison_context = page.locator("#overview .identity-comparison-context")
-        assert tabs.count() == 2
-        assert tabs.nth(0).inner_text().startswith("Potential parents")
-        assert tabs.nth(1).inner_text().startswith("Possible duplicates")
-        assert tabs.nth(0).get_attribute("aria-selected") == "true"
-        assert comparison_context.is_visible()
-        assert page.locator("#candidate-analysis > .similar-subject-summary").count() == 0
-        assert page.locator("#potential-parentage .parentage-clues").count() == 0
-        assert page.locator("#potential-parentage .parentage-card").first.is_visible()
-        assert page.locator("#potential-parentage .fit-track").first.is_visible()
-        assert "FACTOR BREADTH" in page.locator("#potential-parentage .parentage-card").first.inner_text()
-        assert not page.locator("#similar-people").is_visible()
-        tabs.nth(1).click()
-        assert tabs.nth(1).get_attribute("aria-selected") == "true"
-        assert not page.locator("#potential-parentage").is_visible()
-        assert page.locator("#similar-people .similar-people-cards").is_visible()
-        assert "PARENT COMPARISON" in page.locator("#similar-people .candidate-card").first.inner_text()
-        assert "#similar-people" in page.url
-        assert comparison_context.is_visible()
-        assert "PATERNAL GRANDFATHER POSITION" in comparison_context.inner_text()
-        assert "UNCERTAIN" in page.locator("#overview").inner_text()
+        assert page.locator("#timeline .timeline-row").first.is_visible()
+        page.locator("#parent-candidates > summary").click()
+        assert candidates.first.is_visible()
         external_profile_link = page.locator('a[href^="https://www.wikitree.com/wiki/"]').first
         assert external_profile_link.get_attribute("target") == "_blank"
         assert {"noopener", "noreferrer"} <= set(external_profile_link.get_attribute("rel").split())
@@ -114,19 +101,32 @@ def main() -> None:
         assert page.locator(".statistics-panel").count() == 7
         spouse_surnames = page.locator(".statistics-panel", has_text="Surnames joined by marriage to Glasgow")
         assert spouse_surnames.is_visible()
-        smith_link = spouse_surnames.get_by_role("link", name="Smith", exact=True)
-        expected_smith_count = int(smith_link.locator("xpath=ancestor::li/strong").inner_text().replace(",", ""))
-        smith_link.click()
+        # Each bar's count must equal the result total its link returns. Rows are
+        # paginated, so read the total from the result toolbar.
+        bar_counts = {
+            surname: int(spouse_surnames.get_by_role("link", name=surname, exact=True)
+                         .locator("xpath=ancestor::li/strong").inner_text().replace(",", ""))
+            for surname in ("Smith", "Cunningham")
+        }
+        spouse_surnames.get_by_role("link", name="Smith", exact=True).click()
         page.locator(".catalogue-results-table").wait_for(state="visible")
         assert "marriageSurname=Smith" in page.url and "#catalogue-results" in page.url
         assert page.locator("#catalogue-spouse-name").input_value() == "Smith"
         assert not page.locator("#catalogue-women-married-glasgow").is_checked()
-        assert page.locator(".catalogue-results-table tbody tr").count() == expected_smith_count
+        result_total = lambda: int(page.locator(".catalogue-result-toolbar > strong").inner_text().split()[0].replace(",", ""))
+        assert result_total() == bar_counts["Smith"], (result_total(), bar_counts)
+        assert page.locator(".catalogue-results-table tbody tr").count() == min(50, bar_counts["Smith"])
+        page.goto(f"{BASE}/catalogue.html?marriageSurname=Cunningham#catalogue-results", wait_until="networkidle")
+        page.locator(".catalogue-results-table").wait_for(state="visible")
+        assert result_total() == bar_counts["Cunningham"], (result_total(), bar_counts)
+        page.goto(f"{BASE}/catalogue.html?marriageSurname=Smith#catalogue-results", wait_until="networkidle")
+        page.locator(".catalogue-results-table").wait_for(state="visible")
         page.locator("#statistics").screenshot(path=str(ROOT / "artifacts" / "catalogue-statistics-desktop.png"))
 
         page.goto(f"{BASE}/catalogue.html?q=Glasgow-951&from=1851&to=1851", wait_until="networkidle")
         page.locator(".catalogue-results-table").wait_for(state="visible")
         assert page.locator(".catalogue-results-table tbody tr").count() == 1
+        page.locator("#catalogue-filter-toggle-dates").click()
         page.locator("#catalogue-date-type").select_option("birth")
         page.locator(".catalogue-results > .notice").wait_for(state="visible")
         assert "dateType=birth" in page.url
@@ -134,6 +134,7 @@ def main() -> None:
         page.locator(".catalogue-results-table").wait_for(state="visible")
         page.locator("#catalogue-date-from").fill("")
         page.locator("#catalogue-date-to").fill("")
+        page.locator("#catalogue-filter-toggle-places").click()
         page.locator("#catalogue-location").fill("Lisnagaver")
         page.locator(".catalogue-results-table").wait_for(state="visible")
         assert page.locator(".catalogue-results-table tbody tr").count() == 1
@@ -181,15 +182,27 @@ def main() -> None:
         page.locator("#candidate-max-clear").click()
         assert "maxYear" not in page.url
         assert "parentRole" not in page.url
-        assert page.locator('tr[data-match-kind][hidden]').count() == 0
+        # Clearing restores the default view: only the minimum-score threshold
+        # (40 by default; lower scores reveal weaker leads) still hides rows.
+        min_score = int(page.locator("#candidate-min-score").input_value())
+        assert min_score == 40
+        scores = page.locator("tr[data-match-kind]").evaluate_all(
+            "rows => rows.map(row => [Number(row.dataset.score), row.hidden])"
+        )
+        assert all(hidden == (score < min_score) for score, hidden in scores)
+        assert any(hidden for _, hidden in scores) and any(not hidden for _, hidden in scores)
 
         page.goto(f"{BASE}/feedback.html?person=Glasgow-951", wait_until="networkidle")
         assert "Glasgow-951" in page.locator("#feedback-template").input_value()
 
         page.set_viewport_size({"width": 390, "height": 844})
         page.goto(f"{BASE}/catalogue.html?q=Alexander&groupLocation=1&locationLevel=2", wait_until="networkidle")
-        page.locator(".catalogue-result-cards").wait_for(state="visible")
-        assert page.locator(".catalogue-result-cards .catalogue-location-path-group").count() > 0
+        # Narrow screens keep every column and scroll the table horizontally (no result cards).
+        page.locator(".catalogue-result-table-wrap").wait_for(state="visible")
+        assert page.locator(".catalogue-result-cards").is_hidden()
+        assert page.locator(".catalogue-results-table thead th").count() == 8
+        assert page.locator(".catalogue-result-table-wrap").evaluate("element => element.scrollWidth > element.clientWidth")
+        assert page.locator(".catalogue-results-table .catalogue-location-path-group").count() > 0
         page.locator(".catalogue-result-toolbar").scroll_into_view_if_needed()
         page.screenshot(path=str(ROOT / "artifacts" / "catalogue-groups-mobile.png"), full_page=False)
         assert page.evaluate("document.documentElement.scrollWidth === document.documentElement.clientWidth"), page.evaluate(
@@ -201,11 +214,12 @@ def main() -> None:
         assert page.evaluate("document.documentElement.scrollWidth === document.documentElement.clientWidth")
         page.screenshot(path=str(ROOT / "artifacts" / "catalogue-records-mobile.png"), full_page=False)
 
-        page.goto(f"{BASE}/people/glasgow-951.html#potential-parentage", wait_until="networkidle")
-        assert page.locator("#potential-parentage").is_visible()
-        assert page.locator("#potential-parentage .candidate-card-grid").first.is_visible()
+        # A hash link to a collapsed section opens its enclosing disclosures.
+        page.goto(f"{BASE}/people/glasgow-951.html#parent-candidates", wait_until="networkidle")
+        assert page.locator("#parent-candidates").is_visible()
+        assert page.locator("#parent-candidates details[id^='candidate-']").first.is_visible()
         assert page.evaluate("document.documentElement.scrollWidth === document.documentElement.clientWidth")
-        page.locator("#candidate-analysis").screenshot(path=str(ROOT / "artifacts" / "catalogue-candidates-mobile.png"))
+        page.locator("#parent-candidates").screenshot(path=str(ROOT / "artifacts" / "catalogue-candidates-mobile.png"))
         assert not errors, errors
         browser.close()
     print("Public-catalogue browser smoke test passed")

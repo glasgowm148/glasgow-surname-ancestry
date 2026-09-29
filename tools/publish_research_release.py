@@ -2,13 +2,36 @@
 """Refresh research-access interfaces after targeted or full site generation."""
 from pathlib import Path
 import runpy
+try:
+    from catalogue_theme import repair_clean_catalogue_stylesheet
+except ModuleNotFoundError:
+    from tools.catalogue_theme import repair_clean_catalogue_stylesheet
 
 ROOT = Path(__file__).resolve().parents[1]
 
 
-def publish():
+def publish(*, render_people=True):
+    try:
+        from tools.public_privacy import repair as repair_privacy
+    except ModuleNotFoundError:
+        from public_privacy import repair as repair_privacy
+    runpy.run_path(str(ROOT / 'tools/repair_public_dna.py'))['repair']()
+    runpy.run_path(str(ROOT / 'tools/withhold_licensed_assets.py'))['withhold']()
+    repair_privacy(ROOT / 'www')
+    runpy.run_path(str(ROOT / 'tools/repair_claim_status.py'))['repair'](ROOT / 'www')
     runpy.run_path(str(ROOT / 'tools/publish_resolved_dossiers.py'))['publish']()
+    runpy.run_path(str(ROOT / 'tools/repair_evidence_source_links.py'))['repair']()
+    runpy.run_path(str(ROOT / 'tools/build_research_catalog.py'))['sync_generated_profile_work_status']()
     runpy.run_path(str(ROOT / 'tools/publish_static_sources.py'))['main']()
+    runpy.run_path(str(ROOT / 'tools/publish_wikitree_redirect_aliases.py'))['publish']()
+    repair_clean_catalogue_stylesheet(ROOT / 'www')
+    runpy.run_path(str(ROOT / 'tools/repair_sources_page.py'))['repair']()
+    if render_people:
+        runpy.run_path(str(ROOT / 'tools/repair_person_hierarchy.py'))['repair']()
+    repair_privacy(ROOT / 'www')
+    runpy.run_path(str(ROOT / 'tools/repair_release_readiness.py'))['repair']()
+    runpy.run_path(str(ROOT / 'tools/repair_publication_policy.py'))['repair']()
+    runpy.run_path(str(ROOT / 'tools/site_analytics.py'))['repair']()
     runpy.run_path(str(ROOT / 'tools/publish_research_access.py'))['repair']()
 
 

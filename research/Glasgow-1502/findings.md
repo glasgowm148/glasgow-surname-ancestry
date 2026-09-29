@@ -59,7 +59,7 @@ but do not uniquely determine kinship.
 | [Registry memorial 76724](https://www.irishdeedsindex.net/mem.php?memorial=76724), 17 June 1741 | Robert Glasgow, farmer, of Kilwaughter witnessed a deed. | No relationship is stated. |
 | [PRONI Name Search](https://apps.proni.gov.uk/ProniNames_IE/SearchPage.aspx), pre-1858 wills index | William Glasgow of Larne appears in the Diocese of Connor section in 1783. The result states that the original document does not exist and no information beyond the index survived. The 1727 James Glasgow of Kilwater entry has the same survival warning. | Neither lost probate can now be used to recover a father, brother, executor or beneficiary. The William entry is not uniquely assignable between the older Larne man and the William born in 1730. |
 | [Bigger and Hughes, Larne churchyard inscriptions](https://archive.org/details/ulsterjournalofa06ulstiala), 1899 | The surviving Glasgow inscription names Hugh, wife Ann, son James and later descendants. | It proves Hugh's household but does not name Hugh's father. |
-| [NRS GD154, Papers of the Agnew Family of Lochnaw](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?di=y&k=Agnew+Estate&ko=a&reference=GD154&ro=s&st=1&tc=y&tl=n&tn=n&tp=n), especially `GD154/505-534` | The official catalogue identifies an open, off-site series for the Irish estate at Kilwaughter, 1636-1712. | Unsearched contemporary proof target, not evidence yet. Its date and estate context make it the best surviving candidate for a rental, lease, account or correspondence naming Robert with sons or a successor. |
+| NRS [GD154/514](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD154%2f514&st=1&tc=y&tl=n&tn=n&tp=n&k=&ko=a&r=GD154%2f5&ro=s&df=&dt=&di=y), [515](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD154%2f515&st=1&tc=y&tl=n&tn=n&tp=n&k=&ko=a&r=GD154%2f5&ro=s&df=&dt=&di=y), [525](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD154%2f525&st=1&tc=y&tl=n&tn=n&tp=n&k=&ko=a&r=GD154%2f5&ro=s&df=&dt=&di=y), [530](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD154%2f530&st=1&tc=y&tl=n&tn=n&tp=n&k=&ko=a&r=GD154%2f5&ro=s&df=&dt=&di=y), and [532](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD154%2f532&st=1&tc=y&tl=n&tn=n&tp=n&k=&ko=a&r=GD154%2f5&ro=s&df=&dt=&di=y) | Precise Kilwaghter tenant-goods/rental/rent-roll targets: c.1653 (514-515), c.1690 (525, two items), Nov. 1692 (530, three items), and 1693-1708 (532, eight items). Each is **Open, On site**. | Corrects the earlier blanket “off-site/unsearched” description. The online catalogue names no Glasgow and supplies no images or tenant transcription; these are primary targets, not kinship evidence. Search the originals under `Kilwaghter`, `Kilwaughter`, `Kilwaugheter`, `Glasgow`, `Glascho`, `Glaskow`, and `Glassgow`. |
 | [PRONI eCatalogue](https://apps.proni.gov.uk/eCatNI_IE/SearchPage.aspx), `D282/3-10` | Item-level descriptions were checked for estate transactions spanning 1685-1738. `D282/4` assigns the quarterland of Kilwaughter from William Shaw to Patrick Agnew in 1700; `D282/5-7` concern Kennedy/Donaldson land; `D282/9` is John Moore's Larne lease; `D282/10` is William Agnew's 1738 Ballykeel lease to the younger Robert Glasgow. | None supplies the alleged older-Robert-to-four-sons relationship. `D282/10` belongs to the younger Robert's household and cannot be projected backward. The originals may contain detail omitted from the catalogue. |
 | [Agnew family history, NLS digital copy](https://deriv.nls.uk/dcn23/9489/94898125.23.pdf), pp. 489-491 | The published Lochnaw correspondence describes rent-collection trouble in 1704 and Sir James Agnew's 1708 sale of the Irish estate to Patrick Agnew, but names no Glasgow tenant or family relationship. | Negative search of the relevant published estate narrative; the unpublished `GD154/505-534` papers still require inspection. |
 | [Belfast News-Letter Index, 1737-1800](https://www.ucs.louisiana.edu/bnl/) | All 134 indexed `GLASGOW` hits and the `GLASGO`/`GLASSGOW` variants were reviewed. Local notices identify later Larne/Kilwaughter people and businesses but no father, brother, uncle, probate or estate notice proving these four men as Robert's sons. | Useful negative search. The index is extensive but is not a substitute for every word of every surviving issue. |
@@ -88,10 +88,13 @@ pedigree.
 
 ## Best next proof targets
 
-1. **NRS `GD154/505-534`, Irish estate (Kilwaughter), 1636-1712.** Request the
-   item-level inventory and inspect tenant lists, leases, rentals, accounts and
-   correspondence around 1699-1712 for Robert of the South Side, John senior and
-   James of Kilwaughter, with a named son, heir, household or tenancy successor.
+1. **NRS `GD154/514-515`, `525`, `530`, and `532`, Irish estate
+   (Kilwaghter/Kilwaughter).** Consult the open, on-site originals: tenant goods
+   and rental c.1653; rentals c.1690; rent-roll/accounts Nov. 1692; and
+   rent-roll/accounts 1693-1708. Search `Kilwaghter`, `Kilwaughter` and
+   `Kilwaugheter`, and Glasgow spelling variants, for Robert of the South Side,
+   John senior and James of Kilwaughter, with a named son, heir, household or
+   tenancy successor.
    Do not search only under Robert: the district evidence means John or James may
    be equally important household heads.
 2. **PRONI `MIC/1B/6`, original Larne/Kilwaughter session books, 1721-1748.** Read
@@ -140,3 +143,7 @@ Robert's sons therefore remains an unproved tree reconstruction.
 ## Birth-estimate audit - 21 August 2026
 
 The live structured birth was corrected to **about 1675, uncertain**. The 1699-1700 records identify Robert as an adult actor but supply no birth year. The earlier `before` value remains only a strict chronological boundary, not the most useful estimated birth. No biography, relationship, source or other structured field was changed in this audit.
+
+## Batch evidence update — 21 September 2026
+
+The 1738 Ballykeel lease has now been checked in manuscript: it names Rachel Glasgow otherwise Wilson as Robert's wife and James Glasgow junior, but no father for Robert and no son clause for James. The 1741 Ballyboly lease likewise now confirms Robert Glasgow of Kilwaughter as a farmer and witness, with his proof of execution on 21 April 1743 and registration on 13 June 1743. These records concern the later Robert-1143 household and do not bridge the older Robert-1502 to any listed child. The strongest next originals remain NRS GD154/514–515, /525, /530 and /532, PRONI T828/15, and MIC1B/6.

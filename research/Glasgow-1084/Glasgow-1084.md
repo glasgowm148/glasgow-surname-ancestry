@@ -1,0 +1,20 @@
+[[Category:Glasgow Name Study]]
+{{Estimated Date}}
+
+== Biography ==
+
+'''John Glasgow''' is recorded as born or baptised on 18 February 1616 in Mid Calder, Midlothian, with James Glasgow and Agnes Adamson attached as his parents. The older profile cited only “Old Parish Records” for this event; the original entry and the precise birth/baptism distinction remain to be checked. The supplied NRS index names James Glasgow as father (Mid Calder OPR 694/10/28), supporting a confident father relationship for this record-defined child; the later adult-identity comparisons remain provisional.<ref>National Records of Scotland, Old Parish Registers, Mid Calder, John Glasgow, 18 February 1616, father James Glasgow, parish 694, reference 10/28; supplied Scotland’s People index, [https://www.scotlandspeople.gov.uk/ repository].</ref>
+
+A John Glasgow and [[Patoune-11|Helen Patoune]] were named as parents of [[Glasgow-3014|John Glasgow]], recorded on 11 January 1638 at Duddingston, Midlothian.<ref>Duddingston Old Parish Register, parish 684, reference FR38, “JOHNE GLASGOW/HELENE PATOUNE,” entry for Johne, 11 January 1638; citation carried from the former Glasgow-3015 profile. The original page has not been compared with this index wording.</ref>
+
+Later entries name a John Glasgow with [[Porteous-912|Issobell Porteous]] as parents of [[Glasgow-1438|Issobell Glasgow]], recorded on 4 April 1643 in Edinburgh parish,<ref>“Scotland, Births and Baptisms, 1564–1950,” FamilySearch, [https://familysearch.org/ark:/61903/1:1:X1YN-JHD entry for Issobell Glasgow, 1643], naming John Glasgow and Issobell Porteous; cited on the child's profile.</ref> and [[Glasgow-1439|Anne Glasgow]], recorded on 20 June 1652 at Kirknewton and East Calder. The latter child's profile cites a [https://www.familysearch.org/tree/person/details/4XPK-FW2 FamilySearch tree] rather than an inspected register entry, so its details remain to be verified.
+
+[[Glasgow-3107|James Glasgow]] is also attached as a son. His own profile documents a 1663 marriage at Polwarth but says his parentage remains unconfirmed; that attachment must not be read as an established child of this John.
+
+== Research Notes ==
+
+The former Glasgow-3015 profile and this profile were combined as the leading identification. The 1638 Duddingston father and the father of the 1643 and 1652 children share a name, generation and neighbouring Midlothian parishes; there is no recorded overlap in the two maternal child sequences. No death of Helen Patoune, marriage to Issobell Porteous or continuous identifier has yet been found, so identifying both fathers as one man and inferring a second union remain provisional. The earlier profile's approximate 1618 birth was an adult-status estimate, not a separate birth record.
+
+== Sources ==
+<references />
+* Old Parish Records; generic citation retained from the older profile pending the exact Mid Calder register reference.

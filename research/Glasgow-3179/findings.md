@@ -5,6 +5,8 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
+WikiTree parent-status audit, 27 September 2026: the attached mother Margaret Smith (Smith-374110) is now marked uncertain. Geillis’s testament does not identify her parents.
+
 Father assessment: the attached [James Glasgow (Glasgow-3921)](https://www.wikitree.com/wiki/Glasgow-3921) remains **plausible**, not proved. [James Glasgow (Glasgow-1168)](https://www.wikitree.com/wiki/Glasgow-1168) is another Ayrshire comparison, not an established father.
 
 Geillis's 1603 testament identifies James, Isobel and Bessie Wilson in the

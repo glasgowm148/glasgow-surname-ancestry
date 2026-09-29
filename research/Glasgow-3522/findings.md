@@ -14,6 +14,23 @@ acting as that heir's curator. A complete search of the published Glasgow
 protocol series from William's first appearance through 1586 found no competing
 living adult William Glasgow.
 
+Mother assessment, **27 September 2026**: [Jonet Spreull
+(Spreull-4)](https://www.wikitree.com/wiki/Spreull-4) is now **confident as an
+evidence-based inference**, saved and read back on WikiTree. Protocol 1196
+establishes her marriage to John by 31 December 1534; protocol 847 still calls
+her his spouse while John conveys land to his son William in 1565; protocol
+2189 explicitly calls her mother of John's son Stephen in 1575. Stephen then
+witnessed William's son's inheritance and served as his curator in 1586.
+William's estimated birth fits the documented marriage, and no earlier wife or
+competing mother has been found. The 1565 instrument alone does **not** call
+Jonet William's mother; the grade rests on the combined family chronology and
+records, and would need revisiting if evidence of an earlier union emerged.
+
+William's son [George Glasgow (Glasgow-1099)](https://www.wikitree.com/wiki/Glasgow-1099)
+now has both parents marked confident on WikiTree. Protocols 2903 and 2916
+directly identify William as his father and Margaret Herbesoun as his mother;
+Margaret's parent status was saved and read back on 27 September 2026.
+
 Birth-date assessment: William's live profile now uses **about 1540**. No record
 supplies an exact birth year. William was an instrumentary
 witness on 9 June 1564. The Scots-law minimum age of 14 for such a witness gives
@@ -30,9 +47,11 @@ has been found.
 | Source | Finding | Assessment |
 | --- | --- | --- |
 | William's [captured WikiTree profile](https://www.wikitree.com/wiki/Glasgow-3522) | The refreshed live data uses about 1540 and explains the estimate from William's 1564 witness appearance and George's later minority. | The estimate is evidence-based but not a recorded birth year. |
+| Renwick, *Abstracts of Protocols*, vol. 4, protocol 1196, printed p. 72, [31 December 1534](https://archive.org/details/abstractsprotoc08robegoog/page/n84/mode/2up) | John's parents conveyed property to John and Janet Spreull, explicitly his spouse. | Direct marriage evidence before William's estimated birth. |
 | Robert Renwick, ed., *Abstracts of Protocols of the Town Clerks of Glasgow*, vol. 3, protocol 795, printed p. 54, [9 June 1564](https://archive.org/details/abstractsprotoc06scogoog/page/n66/mode/2up) | `William Glesgw` witnessed Thomas Mwre's sasine. Another witness was Mychael Lyndesay, son of Kentigern Lyndesay. | First located legal appearance. Scots law required an instrumentary witness to be at least 14, hence William was born by 9 June 1550. Scan visually verified 18 July 2026. |
 | Robert Renwick, ed., *Abstracts of Protocols of the Town Clerks of Glasgow*, vol. 3 (Glasgow, 1896), protocol 847, printed p. 73, [24 August 1565](https://archive.org/details/abstractsprotoc06scogoog/page/n85/mode/2up) | John Glasgow senior resigned a burgage tenement to "William Glesgw, his son," reserving liferent to John and Jonet Spreull, his spouse. | Direct parentage. The repeated witness, sibling-curator network and absence of a competing William make the profile mapping confident. Scan and wording visually verified 18 July 2026. |
 | Same volume, protocols 795 and 847 | Mychael Lyndesay, son of Kentigern Lyndesay, witnessed both William's 1564 appearance and John's 1565 conveyance to his son William. | Strong same-person network link between the witness and the son of John. |
+| Renwick, *Abstracts*, vol. 7, protocol 2189, printed p. 110, [17 June 1575](https://archive.org/details/abstractsprotoc00robegoog/page/n126/mode/2up) | Stephen, son of deceased John, sold a tenement with consent of Jonet Spreull, expressly named as his mother and liferenter. | Direct proof that Jonet was mother of another of John's sons; the full abstract and citation were checked against the digitized edition on 27 September 2026. |
 | Robert Renwick, ed., *Abstracts of Protocols of the Town Clerks of Glasgow*, vol. 9, protocol 2903, printed p. 103, [15 July 1586](https://archive.org/details/abstractsprotoc01scogoog/page/n113/mode/2up) | George Glasgw took sasine as heir of the deceased William Glasgw, his father; Stephen Glasgw was a witness. | Direct proof of William's death and George's father. Stephen's presence links the inheritance to John's family network. The live profile now cites the correct protocol. |
 | Same volume, protocol 2916, printed p. 107, [1 September 1586](https://archive.org/details/abstractsprotoc01scogoog/page/n116/mode/2up) | George, son and heir of William, sold the inherited land with consent of Margaret Herbesoun, his mother and liferenter, and Sir William Herbesoun and Stephen Glasgw, his curators. | Direct proof of George's mother and minority. As a male acting with curators, George was at least 14 but under 21, implying birth after 1 September 1565 and by 1 September 1572. The live profile now cites the correct protocol. |
 | Scottish Law Commission, *Report on Requirements of Writing*, [para. 5.12](https://www.scotlawcom.gov.uk/index.php/download_file/view/615/139/) | The pre-reform Scots-law rule required an instrumentary witness to be aged 14 or over. | Supplies the minimum age used for the 1564 birth bound. |
@@ -40,11 +59,11 @@ has been found.
 
 ## WikiTree update applied
 
-Live profile saved and read back **30 August 2026**. The relationship to
-[[Glasgow-1093|John Glasgow]] is now confident. [[Spreull-4|Jonet Spreull]]
-remains uncertain because protocol 847 calls her John's spouse but does not use
-an explicit maternity formula. The biography now states the direct wording and
-the repeated-witness/sibling-curator corroboration.
+Father relationship saved and read back **30 August 2026**. Mother relationship
+to [[Spreull-4|Jonet Spreull]] upgraded to confident and read back **27 September
+2026** after the 1534 marriage, 1575 Stephen maternity and 1586 curatorship were
+assessed together. The live biography states that William's maternity is an
+inference, not an express clause in protocol 847.
 
 The live biography cites protocols 2903 and 2916 correctly and uses the
 evidence-based birth range about 1535-1550.
@@ -54,7 +73,7 @@ evidence-based birth range about 1535-1550.
 | Relationship | WikiTree profile | Required treatment |
 | --- | --- | --- |
 | Father | [[Glasgow-1093|John Glasgow senior (about 1510), Glasgow]] | **Confident and saved live 30 August 2026**; protocol 847 directly calls William his son, with independent network corroboration. |
-| Mother | [[Spreull-4|Jonet Spreull]] | Attached uncertain; protocol 847 calls her John's spouse and reserves her liferent. Maternity is a strong reconstruction rather than an explicit formula. |
+| Mother | [[Spreull-4|Jonet Spreull]] | **Confident, inferred; saved live 27 September 2026.** Protocols 1196, 847 and 2189 establish John's continuing marriage and Jonet's maternity of Stephen; the 1586 curatorship joins the brothers' households. No record explicitly calls her William's mother. |
 | Spouse | [[Herbison-439|Margaret Herbesoun]] | Already attached; protocol 2916 directly calls her George's mother. |
 | Son | [[Glasgow-1099|George Glasgow]] | Already attached; protocols 2903 and 2916 directly call him William's son and heir. |
 | Other current child | [[Glasgow-1030|John Glasgow]] | Existing attachment; the 1586 protocols do not prove it. John's 1619 witness argument is contradicted by the direct parentage of George-1099 and Robert-1027, so this relationship should be marked uncertain. |

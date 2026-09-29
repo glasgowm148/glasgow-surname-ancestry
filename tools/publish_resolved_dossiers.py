@@ -8,7 +8,13 @@ from copy import deepcopy
 import json
 from pathlib import Path
 
+try:
+    import evidence_labels
+except ModuleNotFoundError:  # imported as tools.publish_resolved_dossiers
+    from tools import evidence_labels
+
 ROOT = Path(__file__).resolve().parents[1]
+HISTORY_SEED = ROOT / 'research/relationship_history_seed.json'
 SECTIONS = ('vitals', 'relationships', 'claims', 'events')
 REVIEW_SCHEMA = {'data_view': {'enum': ['reviewed'], 'description': 'Default fields incorporate explicit approved structured assessments.'}, 'imported': {'type': 'object', 'required': ['sections', 'provenance'], 'description': 'Original pre-review sections and their import provenance; retained for comparison.'}, 'research_assessments': {'type': 'array', 'description': 'Approved source assessments applied to default fields, including remaining questions and superseded interpretations.'}, 'events': {'type': 'array', 'description': 'Explicit reviewed events with evidence references, roles and provenance.'}}
 REVIEW_SCHEMA.update({
@@ -105,9 +111,12 @@ def shared_relationship(profile_id, relation, assessments):
                           display='hypothesis' if assessment.get('hypothesis_status') else 'current', tree_relationship=False,
                           relationship_source='shared_research_assertion')
             role = result.get('relationship', 'relationship')
-            prefix = {'proved': 'Documented', 'strongly_supported': 'Strongly identified',
-                      'possible': 'Possible'}.get(result['status'], result['status'].replace('_', ' ').capitalize())
-            result.setdefault('status_label', prefix + ' ' + role)
+            # Shared vocabulary: tools/evidence_labels.py.
+            if role.casefold() in evidence_labels.ROLE_NOUNS:
+                default_label = evidence_labels.relationship_label(result['status'], role)
+            else:
+                default_label = evidence_labels.label(result['status']) + ' ' + role
+            result.setdefault('status_label', default_label)
             result['assessment_source'] = '/assets/research/relationship-assessments.json'
             result['record_source'] = '/assets/research/canonical-records.json'
             result['historical_claim_ids'] = [h['claim_id'] for h in assessment.get('historical_assertions', [])
@@ -124,7 +133,27 @@ def _sync_presentation(result):
     return result
 
 
+def _restore_historical_import(dossier):
+    """Retain earlier claim provenance after a live tree link is changed."""
+    if not HISTORY_SEED.exists():
+        return dossier
+    seed = json.loads(HISTORY_SEED.read_text()).get('profiles', {}).get(dossier['id'])
+    if not seed:
+        return dossier
+    dossier = deepcopy(dossier)
+    sections = dossier.get('imported', {}).get('sections', dossier)
+    claims = sections.setdefault('claims', [])
+    known = {claim.get('id') for claim in claims}
+    claims.extend(deepcopy(claim) for claim in seed.get('claims', []) if claim.get('id') not in known)
+    for group, rows in seed.get('relationships', {}).items():
+        current = sections.setdefault('relationships', {}).setdefault(group, [])
+        ids = {row.get('claim_id') for row in current}
+        current.extend(deepcopy(row) for row in rows if row.get('claim_id') not in ids)
+    return dossier
+
+
 def resolve(dossier, assessments, shared_assessments=()):
+    dossier = _restore_historical_import(dossier)
     for assessment in shared_assessments:
         if assessment.get('publication_status') == 'approved' and not assessment.get('assertion_id'):
             raise ValueError('Approved shared relationship lacks a stable assertion_id')

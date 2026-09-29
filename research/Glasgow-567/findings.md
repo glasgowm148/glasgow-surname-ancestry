@@ -17,6 +17,12 @@ Barbara. Preserve the populated links as uncertain while testing the positive
 alternative below; do not leave the fields blank merely because the current
 placement is weak. Barbara's birth, death and parents remain unproved.
 
+Parent-status audit, 27 September 2026: Barbara's live father link to William
+is marked confident despite this unresolved identity, while her mother link to
+Margaret is unmarked. Barbara's profile is managed outside the project account;
+the relationship fields were left intact. Both attached parent links need to be
+treated as uncertain in research until a record bridges Barbara to this couple.
+
 Do not merge the adult 1611 Barbara with `Glasgow-3182` or `Glasgow-3302` without
 continuity evidence. The woman `Glasgow-1102`, baptised in 1617, is conclusively
 excluded by chronology.

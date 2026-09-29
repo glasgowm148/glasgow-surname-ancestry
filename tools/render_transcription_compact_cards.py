@@ -39,7 +39,7 @@ def render_compact_card(item, walkthrough, *, preview="", index_only=False, rela
         action = "View reading"
     location_html = f'<small class="tx-card-location">{escape(location)}</small>' if location else ""
     status_html = f'<p class="tx-status">{escape(label)}</p>' if label else ""
-    preview = preview if "<img" in preview else ""
+    preview = preview if ("<img" in preview or "tx-licensed-withheld" in preview) else ""
     return (
         f'<article class="tx-card tx-card-compact" id="{escape(ident, quote=True)}">'
         + preview

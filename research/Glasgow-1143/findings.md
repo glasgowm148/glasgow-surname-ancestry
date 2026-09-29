@@ -1,6 +1,6 @@
 # Findings: Robert Glasgow of Kilwaughter (Glasgow-1143)
 
-Last updated: 2026-09-08
+Last updated: 2026-09-21
 
 ## Live profile update — 30 August 2026
 
@@ -37,6 +37,10 @@ of another Wilson sister, making James and Mary first cousins if the pleaded
 relationships are accurate. Neither the pleadings nor James's will calls Mary a
 Crozier or Crosier.
 
+Original-image review of memorial 159661 (20 December 1764) now independently
+confirms `Jas Glasgow son of the sd Robt` in Robert's Ballykeel lease to Hugh
+Shannon. See the dated proof section below.
+
 No inspected record identifies Robert's father. His current placement under
 Glasgow-1502 is therefore unproved.
 
@@ -68,9 +72,9 @@ not a particular father, grandfather or paper pedigree.
 | Source | Finding | Assessment |
 | --- | --- | --- |
 | [Findmypast image and Tepper index entry](https://search.findmypast.co.uk/record?id=US%2FGPC%2FIMAGES%2F9780806308548-002%2F0315&parentid=US%2FGPC%2F00345374), record `US/GPC/00345374` | “Glasgow, Robt., Ballykeel, Co. Ant. Lease. Hill Docts. 1738. (O.D.).” | High-confidence corroboration of this Kilwaughter Robert's 1738 Ballykeel lease. The United States label belongs to the derivative collection, not the event. |
-| [Registry memorial 74015](https://www.irishdeedsindex.net/mem.php?memorial=74015), vol. 105, p. 301 | William Agnew leased Ballykeel land to Robert Glasgow of Kilwaughter; named lives included James Glasgow junior and Rachel, formerly Wilson, wife of Robert. | Direct derivative deed transcription; original memorial still required. |
+| [Registry memorial 74015, original opening](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJW-B9MS) and [continuation](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJW-B99B), vol. 105, pp. 301–302 | The manuscript names Robert Glasgow, James Glasgow junior and Rachel Glasgow otherwise Wilson, wife to Robert. | Original-checked evidence for Robert’s wife; `junior` is not a son clause and Robert’s father is unnamed. |
 | [Archived Kilwaughter chronology](https://web.archive.org/web/20101124184247id_/http://lifesweaving.com/Glasgow/Kilwaughter/Timeline.html), derived from PRONI `MIC/1B/6` | Marriage in November 1729; James born 24 May 1731, Ann 15 November 1733 and Rachel 8 November 1738 to Robert and Rachel. | Direct relationship statements in a derivative register transcription; inspect the microfilm. |
-| [Registry memorial 76724](https://www.irishdeedsindex.net/mem.php?memorial=76724), deed 17 June 1741 | Robert Glasgow of Kilwaughter, farmer, witnessed the deed and memorial. | Direct occupation and residence; no kinship statement. |
+| [Registry memorial 76724, original image](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSH3-S4ML), lease 17 June 1741 | Robert Glasgow of Kilwaughter, farmer, witnessed the Ballyboly lease and proved execution on 21 April 1743; it registered 13 June 1743. | Original-checked occupation and residence; no kinship statement. |
 | [1817 equity complaint](https://web.archive.org/web/20101124184247id_/http://www.lifesweaving.com/Glasgow/Paper_Complaint.html) | Rachel Glasgow died in 1742 leaving James and Ann. | Direct relationship statement in a transcription of an original court pleading. |
 | [Robert Glasgow's sworn answer](https://web.archive.org/web/20101124184247id_/http://www.lifesweaving.com/Glasgow/Paper_Reply.html) | Robert calls James his father, Rachel his paternal grandmother, and Ann his father's sister. | Direct sworn relationship evidence; original file not yet inspected. |
 | [FamilyTreeDNA Glasgow project](https://www.familytreedna.com/public/Glasgow?iframe=ydna-results-overview), public results reviewed 9 August 2026 | Kit 254947, submitted for Robert c.1710 Northern Ireland, is STR-grouped in the working FT25406 subgroup and marked `upgrade to Big-Y required`; B835762, submitted for James 1731, is in the same working subgroup. | Provisional genetic support for this father-son line's wider paternal cluster. It does not confirm FT25406/FT20271 or identify Robert's father. |
@@ -110,10 +114,9 @@ for a later wife or another explanation.
 
 1. PRONI `MIC/1B/6`: 1729 marriage, 1731/1733/1738 baptisms, session appointments
    and the complete 1747 discipline entry.
-2. Registry memorial 74015, vol. 105, p. 301: determine whether James junior is
-   expressly called a son. The public extract calls Rachel Robert's wife but
-   does not describe James junior as Robert's son; the later baptism/equity
-   evidence, not the lease wording alone, supports that relationship.
+2. Registry memorial 74015 is now checked: James junior is not expressly called
+   a son. The later baptism/equity evidence, not the lease wording alone,
+   supports that relationship.
 3. South Carolina equity originals in Washington District series `L 61004-8`:
    identify Mary's mother and resolve the Wilson estate chronology.
 4. PRONI `T808/15082` and the *Belfast News-Letter* of 7 April 1772: verify the
@@ -154,3 +157,45 @@ The transcript-validated residence/migration record for **Robt Glasgow**, 1738, 
 
 Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
 <!-- END FMP-GLASGOW-fmp-glasgow-16f49c884ed2 -->
+
+## Original-image proof: Robert's son James — 21 September 2026
+
+Registry of Deeds memorial **159661**, pp. **415–416**, records Robert Glasgow
+of Ballykeel, parish of Kilwaughter, granting Hugh Shannon of the same parish
+a lease dated **20 December 1764**. The opening reads `Twentyth day of Decr`,
+not a twenty-seventh date. The premises comprise one half of Lower Ballykeel,
+estimated at thirty-one acres and a half, with half the office houses and
+associated appurtenances, held under William Agnew of Kilwaughter.
+
+The continuation expressly includes `Jas Glasgow son of the sd Robt` among the
+lease lives, alongside Robert Glasgow the grantor and Elinor Jones otherwise
+Agnew, daughter of William Agnew. **This is direct contemporary father–son
+wording**, rather than an inference from the `James Glasgow junior` life in
+memorial 74015 (1738). Read in the same Ballykeel tenure and independently
+documented household, it corroborates Robert-1143 as father of James-1144.
+The memorial itself gives James no age, birthplace, mother or later American
+residence: those identity details still depend on the register and other records.
+
+Hugh Shannon's participation is proved, but this lease does **not** call him
+Robert's son-in-law. His marriage to Ann Glasgow belongs to the independent
+family evidence. Nor does this document identify Robert's own father or supply
+a bridge to Robert-1502 or James-1081.
+
+The deed and memorial were witnessed by James Shutter and Hugh Kennedy; the
+continuation records James Shutter's affidavit at Carrickfergus on **29 March
+1766**. The recorded registration is **18 April 1766**. The reviewed screenshots
+independently expose the lease-day and kinship wording; the memorial number and
+registration date are from the accompanying main-task header reading, since the
+opening screenshot is cropped at its left edge.
+
+Sources: Registry of Deeds memorial 159661, pp.415–416, FamilySearch images
+[542, 3Q9M-CSH3-33Q6-L](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSH3-33Q6-L)
+and [543, 3Q9M-CSH3-33QZ-Y](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSH3-33QZ-Y).
+Locally reviewed original-register image captures:
+[opening](../larne-proof-2026-09-21/sources/fs-33Q6-original.png),
+[continuation](../larne-proof-2026-09-21/sources/fs-33QZ-original.png).
+These are images of the registered memorial, not the separately executed lease.
+
+## Live profile update — 21 September 2026, further records
+
+Saved and verified the original-deed source additions and their identity limits. No structured family or vital fields changed. [Complete saved biography](pre1710-record-update-2026-09-21.wiki).

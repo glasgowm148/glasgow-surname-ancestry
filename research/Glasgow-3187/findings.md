@@ -72,3 +72,11 @@ Add the record as supporting evidence while preserving all existing sources and 
 Source: Old Parish Registers, banns and marriages; exact surname Glasgow through 1700, 55 supplied results. Original images not inspected for this batch; combined index dates do not by themselves establish ceremony dates.
 
 This batch adds supporting evidence or a qualified comparison only; it raises no additional WikiTree amendment for this profile.
+
+## Father relationship assessment — 28 September 2026
+
+This is a review of existing evidence, not a newly discovered record. Attached father: [John Glasgow](https://www.wikitree.com/wiki/Glasgow-1030). Assessment: **uncertain**.
+
+Reason: Thomas’s inspected child records and burgess admission do not identify his own parents; John Glasgow remains a working hypothesis.
+
+Source summary: Thomas’s inspected child records and burgess admission do not identify his own parents; John Glasgow remains a working hypothesis. Saved on WikiTree and verified in the live edit form on 28 September 2026; only the father certainty and its explanation were updated.

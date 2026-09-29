@@ -10,8 +10,11 @@ WEB = ROOT / 'www'
 def repair():
     catalogue = (WEB / 'catalogue/index.html').read_text(encoding='utf-8')
     shell = (WEB / 'research/index.html').read_text(encoding='utf-8')
+    # The pane was once nested in a disclosure before the browse section; the
+    # filter-toolbar catalogue places it as a sibling section after the results.
     block = re.search(
-        r'<section class="catalogue-statistics" id="statistics">(.*?)</section></details><section class="catalogue-browse"',
+        r'<section\b(?=[^>]*\bid="statistics")(?=[^>]*\bclass="[^"]*\bcatalogue-statistics\b)[^>]*>'
+        r'(.*?</details>)</section>',
         catalogue, re.S)
     if not block:
         raise RuntimeError('Could not locate the maintained catalogue statistics pane')
@@ -27,7 +30,7 @@ def repair():
     panels = panels.replace('/catalogue.html?', '/catalogue/?')
     main = '''<main class="r-main statistics-page" id="main"><header class="v3-page-head statistics-page-head"><span class="r-kicker">The collection, at a glance</span><h1>Statistics from the<br>public historical catalogue.</h1><p>Counts are drawn from the maintained catalogue snapshot. They describe records and documented associations, not a proved single family tree.</p></header><section class="statistics-page-summary" aria-label="Catalogue summary">''' + summary.group(0) + '''</section><section class="statistics-page-panels" aria-labelledby="statistics-detail-title"><div class="statistics-page-intro"><span class="r-kicker">Patterns in the collection</span><h2 id="statistics-detail-title">Places, names, branches and movement</h2><p>Each panel remains linked back to the relevant catalogue or place view.</p></div><div class="statistics-grid">''' + panels + '''</div><p class="statistics-caution">''' + caution + '''</p></section></main>'''
     shell = re.sub(r'<title>.*?</title>', '<title>Catalogue statistics · Glasgow surname archive</title>', shell, count=1, flags=re.S)
-    shell = re.sub(r'<meta content="The Glasgow surname archive:[^"]*" name="description">', '<meta content="Statistics from the public historical catalogue: places, names, branches and recorded movement." name="description">', shell, count=1)
+    shell = re.sub(r'<meta content="The Glasgow surname archive:[^"]*" name="description"\s*/?>', '<meta content="Statistics from the public historical catalogue: places, names, branches and recorded movement." name="description">', shell, count=1)
     shell = shell.replace('data-g-path="/research/index.html"', 'data-g-path="/statistics/index.html"')
     shell = shell.replace('<strong>Research</strong>', '<strong>Statistics</strong>', 1)
     shell = re.sub(r'<nav class="v3-view-nav" aria-label="Section views">.*?</nav>', '', shell, count=1, flags=re.S)

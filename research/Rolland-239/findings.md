@@ -5,6 +5,8 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
+WikiTree parent-status audit, 27 September 2026: the attached father James Rolland (Rolland-259) is now marked uncertain. Protocols 1903–1904 name a James Rolland in the property transaction but do not call him Margaret’s father.
+
 [Robert Glasgow (Glasgow-1096), born about 1520, Glasgow](https://www.wikitree.com/wiki/Glasgow-1096)
 is Margaret's **confirmed spouse**. Three contemporary protocol instruments
 name them as spouses. No reviewed record gives Margaret's birth date, parents,

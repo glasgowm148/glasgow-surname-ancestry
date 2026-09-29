@@ -1,8 +1,13 @@
 # Findings: [William Glasgow (Glasgow-3912)](https://www.wikitree.com/wiki/Glasgow-3912)
 
+## Current disposition — 27 September 2026
+
+Glasgow-3912 was merged into [the surviving profile Glasgow-1521](https://www.wikitree.com/wiki/Glasgow-1521). The older separate-profile recommendation below is retained as superseded research history. The survivor carries the qualified identity assessment and the original record citations.
+
+
 Last updated: 2026-09-10
 
-## Current conclusion
+## Superseded conclusion — before merge
 
 William Glasgow of Quothquan (indexed as Quodquen), parish of Libberton,
 Lanarkshire, died before the Lanark Commissary Court confirmation of 9 April

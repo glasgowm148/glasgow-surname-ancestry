@@ -7,6 +7,7 @@ from datetime import datetime, timezone
 import hashlib
 import json
 from pathlib import Path
+import re
 import subprocess
 from urllib.request import Request, urlopen
 
@@ -37,7 +38,9 @@ def checks(html, profile):
     result["header_css_loaded"] = bool(soup.select_one(f'link[href="/assets/repair/person-hierarchy.css?v={PRESENTATION_VERSION}"]'))
     if profile == "Glasgow-951":
         result["single_thomas_proof"] = not main.select("#question-parents tr[id^='record-will-daniel'], #question-parents tr[id^='record-marriage-daniel']") and len(main.select("#question-thomas-network tr[id^='record-will-daniel'], #question-thomas-network tr[id^='record-marriage-daniel']")) == 2
-        result["letter_possession"] = "already-held 20 March 1847 John Glasgow letter" in text
+        result["letter_possession"] = "inspected with the letter" in text and not re.search(
+            r"\b(?:obtain|acquire)\b.{0,120}\b(?:letter|20 March 1847)\b", text
+        )
         result["death_qualified"] = "leading identification" in main.select_one(".dossier-life").get_text()
     if profile == "Glasgow-1367":
         overview = main.select_one("#overview").get_text(" ", strip=True)

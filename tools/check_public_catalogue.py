@@ -43,6 +43,16 @@ def local_checks() -> list[str]:
     failures = [f"missing {path}" for path in REQUIRED if not (WEB / path).exists()]
     if failures:
         return failures
+    css_path = WEB / "people/catalogue.css"
+    if not css_path.exists():
+        failures.append("missing people/catalogue.css")
+    else:
+        css = css_path.read_text(encoding="utf-8")
+        if ":root{color-scheme:light;" not in css or "color-scheme:dark" in css or "#07100e" in css:
+            failures.append("catalogue stylesheet has lost its maintained light palette")
+    catalogue_path = WEB / "catalogue/index.html"
+    if not catalogue_path.exists() or 'class="g-unified g-kind-catalogue' not in catalogue_path.read_text(encoding="utf-8"):
+        failures.append("catalogue route has lost its unified light shell")
     health = json.loads((WEB / "health.json").read_text(encoding="utf-8"))
     if health.get("status") != "ok":
         failures.append("health.json status is not ok")

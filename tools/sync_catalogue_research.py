@@ -149,7 +149,8 @@ def refresh_person(soup, findings, update, links):
     if update:
         tools = soup.select_one("#research-tools")
         if tools is None:
-            raise ValueError("Existing dossier has no research-tools container")
+            tools = soup.new_tag("div", id="research-tools")
+            research.append(tools)
         wrapper = soup.new_tag("details", attrs={"class": "r-disclosure"})
         heading = soup.new_tag("summary"); heading.string = "Prepared WikiTree updates — Needs updated on WikiTree"
         wrapper.append(heading)

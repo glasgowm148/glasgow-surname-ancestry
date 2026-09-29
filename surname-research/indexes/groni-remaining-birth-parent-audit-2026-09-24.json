@@ -1,0 +1,1121 @@
+{
+  "generated": "2026-09-24",
+  "read_only": true,
+  "remaining_count": 63,
+  "records": [
+    {
+      "child_id": "Glasgow-4289",
+      "source_ref": "U/1864/100/1009/1/89",
+      "mother_maiden_surname": "McGartland",
+      "district": "Cookstown",
+      "candidate_parents": [],
+      "action": "NO_CANDIDATE"
+    },
+    {
+      "child_id": "Glasgow-4290",
+      "source_ref": "U/1864/99/1009/1/189",
+      "mother_maiden_surname": "Kenedy",
+      "district": "Cookstown",
+      "candidate_parents": [],
+      "action": "NO_CANDIDATE"
+    },
+    {
+      "child_id": "Glasgow-4296",
+      "source_ref": "U/1870/99/1009/5/229",
+      "mother_maiden_surname": "Henry",
+      "district": "Cookstown",
+      "candidate_parents": [
+        {
+          "role": "mother",
+          "parent_id": "Henry-13722",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "mother",
+          "parent_id": "Henry-13729",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "mother",
+          "parent_id": "Bole-219",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "father",
+          "parent_id": "Glasgow-1703",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "father",
+          "parent_id": "Glasgow-1732",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "father",
+          "parent_id": "Glasgow-1722",
+          "likely_duplicate_ids": []
+        }
+      ],
+      "action": "REVIEW"
+    },
+    {
+      "child_id": "Glasgow-4297",
+      "source_ref": "U/1871/99/1009/6/78",
+      "mother_maiden_surname": "Neill",
+      "district": "Cookstown",
+      "candidate_parents": [
+        {
+          "role": "mother",
+          "parent_id": "Edsel-9",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "mother",
+          "parent_id": "Unknown-696005",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "father",
+          "parent_id": "Glasgow-1397",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "father",
+          "parent_id": "Glasgow-2995",
+          "likely_duplicate_ids": []
+        }
+      ],
+      "action": "REVIEW"
+    },
+    {
+      "child_id": "Glasgow-4299",
+      "source_ref": "U/1873/99/1009/7/321",
+      "mother_maiden_surname": "Henry",
+      "district": "Cookstown",
+      "candidate_parents": [
+        {
+          "role": "mother",
+          "parent_id": "Henry-13722",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "mother",
+          "parent_id": "Henry-13729",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "mother",
+          "parent_id": "Bole-219",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "father",
+          "parent_id": "Glasgow-1703",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "father",
+          "parent_id": "Glasgow-1732",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "father",
+          "parent_id": "Glasgow-1722",
+          "likely_duplicate_ids": []
+        }
+      ],
+      "action": "REVIEW"
+    },
+    {
+      "child_id": "Glasgow-4300",
+      "source_ref": "U/1874/99/1009/8/154",
+      "mother_maiden_surname": "Neill",
+      "district": "Cookstown",
+      "candidate_parents": [
+        {
+          "role": "mother",
+          "parent_id": "Edsel-9",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "mother",
+          "parent_id": "Unknown-696005",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "father",
+          "parent_id": "Glasgow-1397",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "father",
+          "parent_id": "Glasgow-2995",
+          "likely_duplicate_ids": []
+        }
+      ],
+      "action": "REVIEW"
+    },
+    {
+      "child_id": "Glasgow-4302",
+      "source_ref": "U/1879/99/1009/11/150",
+      "mother_maiden_surname": "Bole",
+      "district": "Cookstown",
+      "candidate_parents": [
+        {
+          "role": "mother",
+          "parent_id": "Bole-218",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "mother",
+          "parent_id": "Bole-219",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "father",
+          "parent_id": "Glasgow-1700",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "father",
+          "parent_id": "Glasgow-1722",
+          "likely_duplicate_ids": []
+        }
+      ],
+      "action": "REVIEW"
+    },
+    {
+      "child_id": "Glasgow-4304",
+      "source_ref": "U/1885/99/1009/15/163",
+      "mother_maiden_surname": null,
+      "district": null,
+      "candidate_parents": [],
+      "action": "NO_CANDIDATE"
+    },
+    {
+      "child_id": "Glasgow-4305",
+      "source_ref": "U/1896/99/1009/20/441",
+      "mother_maiden_surname": null,
+      "district": null,
+      "candidate_parents": [],
+      "action": "NO_CANDIDATE"
+    },
+    {
+      "child_id": "Glasgow-4306",
+      "source_ref": "U/1898/99/1009/21/430",
+      "mother_maiden_surname": null,
+      "district": null,
+      "candidate_parents": [],
+      "action": "NO_CANDIDATE"
+    },
+    {
+      "child_id": "Glasgow-4307",
+      "source_ref": "U/1867/26/1004/2/106",
+      "mother_maiden_surname": "Murphy",
+      "district": "Ballymena",
+      "candidate_parents": [],
+      "action": "NO_CANDIDATE"
+    },
+    {
+      "child_id": "Glasgow-4308",
+      "source_ref": "U/1864/50/1007/1/45",
+      "mother_maiden_surname": null,
+      "district": null,
+      "candidate_parents": [],
+      "action": "NO_CANDIDATE"
+    },
+    {
+      "child_id": "Glasgow-4309",
+      "source_ref": "U/1866/50/1007/5/468",
+      "mother_maiden_surname": null,
+      "district": null,
+      "candidate_parents": [],
+      "action": "NO_CANDIDATE"
+    },
+    {
+      "child_id": "Glasgow-4310",
+      "source_ref": "U/1868/50/1007/9/444",
+      "mother_maiden_surname": null,
+      "district": null,
+      "candidate_parents": [],
+      "action": "NO_CANDIDATE"
+    },
+    {
+      "child_id": "Glasgow-4311",
+      "source_ref": "U/1870/50/1007/13/214",
+      "mother_maiden_surname": null,
+      "district": null,
+      "candidate_parents": [],
+      "action": "NO_CANDIDATE"
+    },
+    {
+      "child_id": "Glasgow-4313",
+      "source_ref": "U/1873/50/1007/18/278",
+      "mother_maiden_surname": null,
+      "district": null,
+      "candidate_parents": [],
+      "action": "NO_CANDIDATE"
+    },
+    {
+      "child_id": "Glasgow-4314",
+      "source_ref": "U/1874/50/1007/21/395",
+      "mother_maiden_surname": null,
+      "district": null,
+      "candidate_parents": [],
+      "action": "NO_CANDIDATE"
+    },
+    {
+      "child_id": "Glasgow-4315",
+      "source_ref": "U/1875/50/1007/23/321",
+      "mother_maiden_surname": null,
+      "district": null,
+      "candidate_parents": [],
+      "action": "NO_CANDIDATE"
+    },
+    {
+      "child_id": "Glasgow-4316",
+      "source_ref": "U/1865/183/1022/1/421",
+      "mother_maiden_surname": "Bell",
+      "district": "Magherafelt",
+      "candidate_parents": [
+        {
+          "role": "mother",
+          "parent_id": "Bell-32242",
+          "likely_duplicate_ids": [
+            "Glasgow-1693"
+          ]
+        },
+        {
+          "role": "father",
+          "parent_id": "Glasgow-1676",
+          "likely_duplicate_ids": [
+            "Glasgow-1693"
+          ]
+        }
+      ],
+      "action": "HOLD"
+    },
+    {
+      "child_id": "Glasgow-4212",
+      "source_ref": "U/1867/7/1001/2/270",
+      "mother_maiden_surname": null,
+      "district": null,
+      "candidate_parents": [],
+      "action": "NO_CANDIDATE"
+    },
+    {
+      "child_id": "Glasgow-4258",
+      "source_ref": "U/1881/2/1001/6/415",
+      "mother_maiden_surname": "Pike",
+      "district": "Antrim",
+      "candidate_parents": [],
+      "action": "NO_CANDIDATE"
+    },
+    {
+      "child_id": "Glasgow-4213",
+      "source_ref": "U/1874/11/1002/9/425",
+      "mother_maiden_surname": "Tate Hewitt",
+      "district": "Armagh",
+      "candidate_parents": [],
+      "action": "NO_CANDIDATE"
+    },
+    {
+      "child_id": "Glasgow-4259",
+      "source_ref": "U/1878/11/1002/12/140",
+      "mother_maiden_surname": "Gardiner",
+      "district": "Armagh",
+      "candidate_parents": [
+        {
+          "role": "mother",
+          "parent_id": "Gardiner-6945",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "father",
+          "parent_id": "Glasgow-3430",
+          "likely_duplicate_ids": []
+        }
+      ],
+      "action": "REVIEW"
+    },
+    {
+      "child_id": "Glasgow-4218",
+      "source_ref": "U/1886/11/1002/18/176",
+      "mother_maiden_surname": "Gardiner",
+      "district": "Armagh",
+      "candidate_parents": [
+        {
+          "role": "mother",
+          "parent_id": "Gardiner-6945",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "father",
+          "parent_id": "Glasgow-3430",
+          "likely_duplicate_ids": []
+        }
+      ],
+      "action": "REVIEW"
+    },
+    {
+      "child_id": "Glasgow-4261",
+      "source_ref": "U/1865/22/1004/1/262",
+      "mother_maiden_surname": "Isobel",
+      "district": "Ballymena",
+      "candidate_parents": [],
+      "action": "NO_CANDIDATE"
+    },
+    {
+      "child_id": "Glasgow-4342",
+      "source_ref": "U/1869/20/1004/5/338",
+      "mother_maiden_surname": null,
+      "district": null,
+      "candidate_parents": [],
+      "action": "NO_CANDIDATE"
+    },
+    {
+      "child_id": "Glasgow-4263",
+      "source_ref": "U/1880/24/1004/8/24",
+      "mother_maiden_surname": null,
+      "district": null,
+      "candidate_parents": [],
+      "action": "NO_CANDIDATE"
+    },
+    {
+      "child_id": "Glasgow-4225",
+      "source_ref": "U/1884/22/1004/9/242",
+      "mother_maiden_surname": "Watson",
+      "district": "Ballymena",
+      "candidate_parents": [
+        {
+          "role": "mother",
+          "parent_id": "Watson-53621",
+          "likely_duplicate_ids": []
+        }
+      ],
+      "action": "REVIEW"
+    },
+    {
+      "child_id": "Glasgow-4228",
+      "source_ref": "U/1887/20/1004/19/483",
+      "mother_maiden_surname": "Callaghan",
+      "district": "Ballymena",
+      "candidate_parents": [],
+      "action": "NO_CANDIDATE"
+    },
+    {
+      "child_id": "Glasgow-4229",
+      "source_ref": "U/1890/20/1004/21/246",
+      "mother_maiden_surname": "Kerr",
+      "district": "Ballymena",
+      "candidate_parents": [],
+      "action": "NO_CANDIDATE"
+    },
+    {
+      "child_id": "Glasgow-4264",
+      "source_ref": "U/1892/26/1004/11/157",
+      "mother_maiden_surname": null,
+      "district": null,
+      "candidate_parents": [],
+      "action": "NO_CANDIDATE"
+    },
+    {
+      "child_id": "Glasgow-4267",
+      "source_ref": "U/1897/26/1004/12/269",
+      "mother_maiden_surname": null,
+      "district": null,
+      "candidate_parents": [],
+      "action": "NO_CANDIDATE"
+    },
+    {
+      "child_id": "Glasgow-4269",
+      "source_ref": "U/1867/31/1005/2/214",
+      "mother_maiden_surname": null,
+      "district": null,
+      "candidate_parents": [],
+      "action": "NO_CANDIDATE"
+    },
+    {
+      "child_id": "Glasgow-4270",
+      "source_ref": "U/1888/27/1005/13/351",
+      "mother_maiden_surname": null,
+      "district": null,
+      "candidate_parents": [],
+      "action": "NO_CANDIDATE"
+    },
+    {
+      "child_id": "Glasgow-4232",
+      "source_ref": "U/1901/35/1006/9/97",
+      "mother_maiden_surname": "Bertram",
+      "district": "Banbridge",
+      "candidate_parents": [
+        {
+          "role": "mother",
+          "parent_id": "Bertram-1320",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "father",
+          "parent_id": "Glasgow-2135",
+          "likely_duplicate_ids": []
+        }
+      ],
+      "action": "REVIEW"
+    },
+    {
+      "child_id": "Glasgow-4233",
+      "source_ref": "U/1867/50/1007/7/108",
+      "mother_maiden_surname": null,
+      "district": null,
+      "candidate_parents": [],
+      "action": "NO_CANDIDATE"
+    },
+    {
+      "child_id": "Glasgow-4271",
+      "source_ref": "U/1871/48/1007/8/248",
+      "mother_maiden_surname": "McGastlan",
+      "district": "Belfast",
+      "candidate_parents": [],
+      "action": "NO_CANDIDATE"
+    },
+    {
+      "child_id": "Glasgow-4272",
+      "source_ref": "U/1871/52/1007/13/76",
+      "mother_maiden_surname": "Hughes",
+      "district": "Belfast",
+      "candidate_parents": [],
+      "action": "NO_CANDIDATE"
+    },
+    {
+      "child_id": "Glasgow-4234",
+      "source_ref": "U/1873/48/1007/11/99",
+      "mother_maiden_surname": "Gartlan",
+      "district": "Belfast",
+      "candidate_parents": [],
+      "action": "NO_CANDIDATE"
+    },
+    {
+      "child_id": "Glasgow-4236",
+      "source_ref": "U/1877/48/1007/17/184",
+      "mother_maiden_surname": "McGartland",
+      "district": "Belfast",
+      "candidate_parents": [],
+      "action": "NO_CANDIDATE"
+    },
+    {
+      "child_id": "Glasgow-4240",
+      "source_ref": "U/1887/49/1007/68/449",
+      "mother_maiden_surname": "Moore",
+      "district": "Belfast",
+      "candidate_parents": [
+        {
+          "role": "mother",
+          "parent_id": "Moore-89506",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "mother",
+          "parent_id": "Moore-107968",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "father",
+          "parent_id": "Glasgow-1395",
+          "likely_duplicate_ids": []
+        }
+      ],
+      "action": "REVIEW"
+    },
+    {
+      "child_id": "Glasgow-4242",
+      "source_ref": "U/1889/49/1007/74/183",
+      "mother_maiden_surname": "Moore",
+      "district": "Belfast",
+      "candidate_parents": [
+        {
+          "role": "mother",
+          "parent_id": "Moore-89506",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "mother",
+          "parent_id": "Moore-107968",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "father",
+          "parent_id": "Glasgow-1395",
+          "likely_duplicate_ids": []
+        }
+      ],
+      "action": "REVIEW"
+    },
+    {
+      "child_id": "Glasgow-4276",
+      "source_ref": "U/1893/49/1007/85/250",
+      "mother_maiden_surname": "Wilson",
+      "district": "Belfast",
+      "candidate_parents": [],
+      "action": "NO_CANDIDATE"
+    },
+    {
+      "child_id": "Glasgow-4277",
+      "source_ref": "U/1894/51/1007/42/69",
+      "mother_maiden_surname": "McCleery",
+      "district": "Belfast",
+      "candidate_parents": [],
+      "action": "NO_CANDIDATE"
+    },
+    {
+      "child_id": "Glasgow-4278",
+      "source_ref": "U/1895/50/1007/66/439",
+      "mother_maiden_surname": "Logan",
+      "district": "Belfast",
+      "candidate_parents": [],
+      "action": "NO_CANDIDATE"
+    },
+    {
+      "child_id": "Glasgow-4244",
+      "source_ref": "U/1879/94/1008/10/248",
+      "mother_maiden_surname": "Pike",
+      "district": "Coleraine",
+      "candidate_parents": [],
+      "action": "NO_CANDIDATE"
+    },
+    {
+      "child_id": "Glasgow-4248",
+      "source_ref": "U/1868/99/1009/3/398",
+      "mother_maiden_surname": "Neill",
+      "district": "Cookstown",
+      "candidate_parents": [
+        {
+          "role": "mother",
+          "parent_id": "Edsel-9",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "mother",
+          "parent_id": "Unknown-696005",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "father",
+          "parent_id": "Glasgow-1397",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "father",
+          "parent_id": "Glasgow-2995",
+          "likely_duplicate_ids": []
+        }
+      ],
+      "action": "REVIEW"
+    },
+    {
+      "child_id": "Glasgow-4285",
+      "source_ref": "U/1879/100/1009/8/33",
+      "mother_maiden_surname": "Glasgow",
+      "district": "Cookstown",
+      "candidate_parents": [
+        {
+          "role": "mother",
+          "parent_id": "Glasgow-1648",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "mother",
+          "parent_id": "Glasgow-1717",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "mother",
+          "parent_id": "Glasgow-693",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "mother",
+          "parent_id": "Glasgow-1760",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "mother",
+          "parent_id": "Glasgow-1715",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "father",
+          "parent_id": "Glasgow-1647",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "father",
+          "parent_id": "Glasgow-2566",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "father",
+          "parent_id": "Glasgow-692",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "father",
+          "parent_id": "Glasgow-1710",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "father",
+          "parent_id": "Glasgow-1712",
+          "likely_duplicate_ids": []
+        }
+      ],
+      "action": "REVIEW"
+    },
+    {
+      "child_id": "Glasgow-4250",
+      "source_ref": "U/1880/99/1009/12/180",
+      "mother_maiden_surname": "Glasgow",
+      "district": "Cookstown",
+      "candidate_parents": [
+        {
+          "role": "mother",
+          "parent_id": "Glasgow-1648",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "mother",
+          "parent_id": "Glasgow-1717",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "mother",
+          "parent_id": "Glasgow-693",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "mother",
+          "parent_id": "Glasgow-1760",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "mother",
+          "parent_id": "Glasgow-1715",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "father",
+          "parent_id": "Glasgow-1647",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "father",
+          "parent_id": "Glasgow-2566",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "father",
+          "parent_id": "Glasgow-692",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "father",
+          "parent_id": "Glasgow-1710",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "father",
+          "parent_id": "Glasgow-1712",
+          "likely_duplicate_ids": []
+        }
+      ],
+      "action": "REVIEW"
+    },
+    {
+      "child_id": "Glasgow-4251",
+      "source_ref": "U/1883/100/1009/9/342",
+      "mother_maiden_surname": "McCullagh",
+      "district": "Cookstown",
+      "candidate_parents": [],
+      "action": "NO_CANDIDATE"
+    },
+    {
+      "child_id": "Glasgow-4286",
+      "source_ref": "U/1884/100/1009/9/472",
+      "mother_maiden_surname": "Glasgow",
+      "district": "Cookstown",
+      "candidate_parents": [
+        {
+          "role": "mother",
+          "parent_id": "Glasgow-1648",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "mother",
+          "parent_id": "Glasgow-1717",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "mother",
+          "parent_id": "Glasgow-693",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "mother",
+          "parent_id": "Glasgow-1760",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "mother",
+          "parent_id": "Glasgow-1715",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "father",
+          "parent_id": "Glasgow-1647",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "father",
+          "parent_id": "Glasgow-2566",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "father",
+          "parent_id": "Glasgow-692",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "father",
+          "parent_id": "Glasgow-1710",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "father",
+          "parent_id": "Glasgow-1712",
+          "likely_duplicate_ids": []
+        }
+      ],
+      "action": "REVIEW"
+    },
+    {
+      "child_id": "Glasgow-4287",
+      "source_ref": "U/1885/100/1009/10/174",
+      "mother_maiden_surname": "Glasgow",
+      "district": "Cookstown",
+      "candidate_parents": [
+        {
+          "role": "mother",
+          "parent_id": "Glasgow-1648",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "mother",
+          "parent_id": "Glasgow-1717",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "mother",
+          "parent_id": "Glasgow-693",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "mother",
+          "parent_id": "Glasgow-1760",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "mother",
+          "parent_id": "Glasgow-1715",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "father",
+          "parent_id": "Glasgow-1647",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "father",
+          "parent_id": "Glasgow-2566",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "father",
+          "parent_id": "Glasgow-692",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "father",
+          "parent_id": "Glasgow-1710",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "father",
+          "parent_id": "Glasgow-1712",
+          "likely_duplicate_ids": []
+        }
+      ],
+      "action": "REVIEW"
+    },
+    {
+      "child_id": "Glasgow-4252",
+      "source_ref": "U/1889/99/1009/17/238",
+      "mother_maiden_surname": null,
+      "district": null,
+      "candidate_parents": [],
+      "action": "NO_CANDIDATE"
+    },
+    {
+      "child_id": "Glasgow-4288",
+      "source_ref": "U/1893/100/1009/12/30",
+      "mother_maiden_surname": "Glasgow",
+      "district": "Cookstown",
+      "candidate_parents": [
+        {
+          "role": "mother",
+          "parent_id": "Glasgow-1648",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "mother",
+          "parent_id": "Glasgow-1717",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "mother",
+          "parent_id": "Glasgow-693",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "mother",
+          "parent_id": "Glasgow-1760",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "mother",
+          "parent_id": "Glasgow-1715",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "father",
+          "parent_id": "Glasgow-1647",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "father",
+          "parent_id": "Glasgow-2566",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "father",
+          "parent_id": "Glasgow-692",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "father",
+          "parent_id": "Glasgow-1710",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "father",
+          "parent_id": "Glasgow-1712",
+          "likely_duplicate_ids": []
+        }
+      ],
+      "action": "REVIEW"
+    },
+    {
+      "child_id": "Glasgow-4282",
+      "source_ref": "U/1894/99/1009/19/411",
+      "mother_maiden_surname": null,
+      "district": null,
+      "candidate_parents": [],
+      "action": "NO_CANDIDATE"
+    },
+    {
+      "child_id": "Glasgow-4254",
+      "source_ref": "U/1898/99/1009/21/263",
+      "mother_maiden_surname": "Crooks",
+      "district": "Cookstown",
+      "candidate_parents": [
+        {
+          "role": "mother",
+          "parent_id": "Crooks-2092",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "mother",
+          "parent_id": "Crooks-1812",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "father",
+          "parent_id": "Glasgow-1764",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "father",
+          "parent_id": "Glasgow-1651",
+          "likely_duplicate_ids": []
+        }
+      ],
+      "action": "REVIEW"
+    },
+    {
+      "child_id": "Glasgow-4255",
+      "source_ref": "U/1898/99/1009/21/321",
+      "mother_maiden_surname": "Glasgow",
+      "district": "Cookstown",
+      "candidate_parents": [
+        {
+          "role": "mother",
+          "parent_id": "Glasgow-1648",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "mother",
+          "parent_id": "Glasgow-1717",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "mother",
+          "parent_id": "Glasgow-693",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "mother",
+          "parent_id": "Glasgow-1760",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "mother",
+          "parent_id": "Glasgow-1715",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "father",
+          "parent_id": "Glasgow-1647",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "father",
+          "parent_id": "Glasgow-2566",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "father",
+          "parent_id": "Glasgow-692",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "father",
+          "parent_id": "Glasgow-1710",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "father",
+          "parent_id": "Glasgow-1712",
+          "likely_duplicate_ids": []
+        }
+      ],
+      "action": "REVIEW"
+    },
+    {
+      "child_id": "Glasgow-4256",
+      "source_ref": "U/1902/99/1009/23/121",
+      "mother_maiden_surname": "Mason",
+      "district": "Cookstown",
+      "candidate_parents": [],
+      "action": "NO_CANDIDATE"
+    },
+    {
+      "child_id": "Glasgow-4257",
+      "source_ref": "U/1903/99/1009/23/463",
+      "mother_maiden_surname": "Glasgow",
+      "district": "Cookstown",
+      "candidate_parents": [
+        {
+          "role": "mother",
+          "parent_id": "Glasgow-1648",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "mother",
+          "parent_id": "Glasgow-1717",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "mother",
+          "parent_id": "Glasgow-693",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "mother",
+          "parent_id": "Glasgow-1760",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "mother",
+          "parent_id": "Glasgow-1715",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "father",
+          "parent_id": "Glasgow-1647",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "father",
+          "parent_id": "Glasgow-2566",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "father",
+          "parent_id": "Glasgow-692",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "father",
+          "parent_id": "Glasgow-1710",
+          "likely_duplicate_ids": []
+        },
+        {
+          "role": "father",
+          "parent_id": "Glasgow-1712",
+          "likely_duplicate_ids": []
+        }
+      ],
+      "action": "REVIEW"
+    },
+    {
+      "child_id": "Glasgow-4245",
+      "source_ref": "U/1870/183/1022/4/216",
+      "mother_maiden_surname": "Palmer",
+      "district": "Magherafelt",
+      "candidate_parents": [],
+      "action": "NO_CANDIDATE"
+    },
+    {
+      "child_id": "Glasgow-4280",
+      "source_ref": "U/1891/179/1022/19/268",
+      "mother_maiden_surname": "Chestnut",
+      "district": "Magherafelt",
+      "candidate_parents": [],
+      "action": "NO_CANDIDATE"
+    },
+    {
+      "child_id": "Glasgow-4281",
+      "source_ref": "U/1864/197/1024/1/161",
+      "mother_maiden_surname": null,
+      "district": null,
+      "candidate_parents": [],
+      "action": "NO_CANDIDATE"
+    },
+    {
+      "child_id": "Glasgow-4224",
+      "source_ref": "U/1867/22/1004/2/210",
+      "mother_maiden_surname": null,
+      "district": null,
+      "candidate_parents": [],
+      "action": "NO_CANDIDATE"
+    }
+  ]
+}

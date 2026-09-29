@@ -19,6 +19,7 @@ from project_paths import (
     MAP_AUDIT_DIR, MAP_CACHE_DIR, MAP_RECORDS as CSV_PATH,
     atomic_write_csv, atomic_write_text, merged_map_profiles, relation_values,
 )
+from public_privacy import likely_living
 
 
 CACHE_PATH = MAP_CACHE_DIR / "ireland_uk_geocodes.json"
@@ -519,7 +520,10 @@ def main() -> None:
     geocoder = Geocoder(args.geocode)
     qualifying = []
     for profile in profiles.values():
-        if not included_person(profile, profiles, by_numeric_id):
+        # The map is a public surface. Do not regenerate associations which the
+        # privacy projection would subsequently redact.
+        if (not included_person(profile, profiles, by_numeric_id)
+                or likely_living(profile)):
             continue
         birth_year, year_label, estimated = display_birth_year(profile)
         event = primary_event(profile)

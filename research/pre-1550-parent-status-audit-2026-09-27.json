@@ -1,0 +1,317 @@
+{
+  "scope": "Local catalogue WikiTree person profiles with an indexed birth or death year before 1550; each distinct parent-child link incident to one of those profiles",
+  "checked_at": "2026-09-28T00:17:55.204394+00:00",
+  "source": "Live WikiTree getRelatives/getPerson DataStatus audit; Glasgow-3522 mother, Glasgow-3193 father and Glasgow-3183 father upgrades verified in live edit forms after research, 27 September 2026; Glasgow-3062 father upgraded from combined sibling and father evidence, saved 28 September 2026; father statuses reconciled with the full Watchlist audit through1600 on 28 September2026; Glasgow-1030 father confident from the combined Ninian father/brother evidence, saved and verified 28 September2026",
+  "profile_count": 26,
+  "profiles_without_parent_child_links": [
+    "Glasgow-3023",
+    "Glasgow-3911",
+    "Glendinning-455",
+    "Herbison-475",
+    "Kaine-91",
+    "WIlson-130143"
+  ],
+  "distinct_relationship_count": 48,
+  "counts": {
+    "confident": 20,
+    "uncertain": 27,
+    "unmarked": 1
+  },
+  "unresolved": [
+    {
+      "parent": "Herbison-439",
+      "child": "Glasgow-567",
+      "reason": "Mother status unmarked on a child profile managed outside the project account; no record proves the attachment."
+    }
+  ],
+  "relationships": [
+    {
+      "parent": "Glasgow-1093",
+      "child": "Glasgow-1029",
+      "parent_role": "father",
+      "status": "confident"
+    },
+    {
+      "parent": "Spreull-4",
+      "child": "Glasgow-1029",
+      "parent_role": "mother",
+      "status": "confident"
+    },
+    {
+      "parent": "Glasgow-1096",
+      "child": "Glasgow-1030",
+      "parent_role": "father",
+      "status": "confident"
+    },
+    {
+      "parent": "Brade-232",
+      "child": "Glasgow-1093",
+      "parent_role": "mother",
+      "status": "confident"
+    },
+    {
+      "parent": "Glasgow-1098",
+      "child": "Glasgow-1093",
+      "parent_role": "father",
+      "status": "confident"
+    },
+    {
+      "parent": "Brade-232",
+      "child": "Glasgow-1096",
+      "parent_role": "mother",
+      "status": "uncertain"
+    },
+    {
+      "parent": "Glasgow-1098",
+      "child": "Glasgow-1096",
+      "parent_role": "father",
+      "status": "uncertain"
+    },
+    {
+      "parent": "Brade-232",
+      "child": "Glasgow-1097",
+      "parent_role": "mother",
+      "status": "uncertain"
+    },
+    {
+      "parent": "Glasgow-1098",
+      "child": "Glasgow-1097",
+      "parent_role": "father",
+      "status": "uncertain"
+    },
+    {
+      "parent": "Glasgow-1095",
+      "child": "Glasgow-1098",
+      "parent_role": "father",
+      "status": "uncertain"
+    },
+    {
+      "parent": "Glasgow-3522",
+      "child": "Glasgow-1099",
+      "parent_role": "father",
+      "status": "confident"
+    },
+    {
+      "parent": "Herbison-439",
+      "child": "Glasgow-1099",
+      "parent_role": "mother",
+      "status": "confident"
+    },
+    {
+      "parent": "Glasgow-1097",
+      "child": "Glasgow-1156",
+      "parent_role": "father",
+      "status": "uncertain"
+    },
+    {
+      "parent": "Newlands-647",
+      "child": "Glasgow-1156",
+      "parent_role": "mother",
+      "status": "uncertain"
+    },
+    {
+      "parent": "Brade-232",
+      "child": "Glasgow-1168",
+      "parent_role": "mother",
+      "status": "uncertain"
+    },
+    {
+      "parent": "Glasgow-1098",
+      "child": "Glasgow-1168",
+      "parent_role": "father",
+      "status": "uncertain"
+    },
+    {
+      "parent": "Glasgow-3921",
+      "child": "Glasgow-1495",
+      "parent_role": "father",
+      "status": "uncertain"
+    },
+    {
+      "parent": "Glasgow-3921",
+      "child": "Glasgow-1557",
+      "parent_role": "father",
+      "status": "uncertain"
+    },
+    {
+      "parent": "Smith-374110",
+      "child": "Glasgow-1557",
+      "parent_role": "mother",
+      "status": "uncertain"
+    },
+    {
+      "parent": "Glasgow-1097",
+      "child": "Glasgow-3026",
+      "parent_role": "father",
+      "status": "uncertain"
+    },
+    {
+      "parent": "Glasgow-1096",
+      "child": "Glasgow-3062",
+      "parent_role": "father",
+      "status": "confident"
+    },
+    {
+      "parent": "Glasgow-1093",
+      "child": "Glasgow-3163",
+      "parent_role": "father",
+      "status": "uncertain"
+    },
+    {
+      "parent": "Glasgow-3921",
+      "child": "Glasgow-3179",
+      "parent_role": "father",
+      "status": "uncertain"
+    },
+    {
+      "parent": "Smith-374110",
+      "child": "Glasgow-3179",
+      "parent_role": "mother",
+      "status": "uncertain"
+    },
+    {
+      "parent": "Glasgow-1093",
+      "child": "Glasgow-3181",
+      "parent_role": "father",
+      "status": "uncertain"
+    },
+    {
+      "parent": "Glasgow-3163",
+      "child": "Glasgow-3183",
+      "parent_role": "father",
+      "status": "confident"
+    },
+    {
+      "parent": "Glasgow-1096",
+      "child": "Glasgow-3188",
+      "parent_role": "father",
+      "status": "confident"
+    },
+    {
+      "parent": "Glasgow-1168",
+      "child": "Glasgow-3193",
+      "parent_role": "father",
+      "status": "confident"
+    },
+    {
+      "parent": "Glasgow-3163",
+      "child": "Glasgow-3336",
+      "parent_role": "father",
+      "status": "confident"
+    },
+    {
+      "parent": "Glasgow-1093",
+      "child": "Glasgow-3522",
+      "parent_role": "father",
+      "status": "confident"
+    },
+    {
+      "parent": "Spreull-4",
+      "child": "Glasgow-3522",
+      "parent_role": "mother",
+      "status": "confident"
+    },
+    {
+      "parent": "Glasgow-3181",
+      "child": "Glasgow-3589",
+      "parent_role": "father",
+      "status": "confident"
+    },
+    {
+      "parent": "Glasgow-3181",
+      "child": "Glasgow-3590",
+      "parent_role": "father",
+      "status": "confident"
+    },
+    {
+      "parent": "Glasgow-1096",
+      "child": "Glasgow-3613",
+      "parent_role": "father",
+      "status": "uncertain"
+    },
+    {
+      "parent": "Rolland-239",
+      "child": "Glasgow-3613",
+      "parent_role": "mother",
+      "status": "uncertain"
+    },
+    {
+      "parent": "Glasgow-1168",
+      "child": "Glasgow-3908",
+      "parent_role": "father",
+      "status": "uncertain"
+    },
+    {
+      "parent": "Glasgow-1098",
+      "child": "Glasgow-3915",
+      "parent_role": "father",
+      "status": "uncertain"
+    },
+    {
+      "parent": "Brade-232",
+      "child": "Glasgow-3916",
+      "parent_role": "mother",
+      "status": "uncertain"
+    },
+    {
+      "parent": "Glasgow-1098",
+      "child": "Glasgow-3916",
+      "parent_role": "father",
+      "status": "uncertain"
+    },
+    {
+      "parent": "Glasgow-3522",
+      "child": "Glasgow-3917",
+      "parent_role": "father",
+      "status": "uncertain"
+    },
+    {
+      "parent": "Glasgow-1168",
+      "child": "Glasgow-3921",
+      "parent_role": "father",
+      "status": "confident"
+    },
+    {
+      "parent": "Glasgow-3163",
+      "child": "Glasgow-4006",
+      "parent_role": "father",
+      "status": "confident"
+    },
+    {
+      "parent": "Glasgow-3163",
+      "child": "Glasgow-4095",
+      "parent_role": "father",
+      "status": "confident"
+    },
+    {
+      "parent": "Glasgow-3522",
+      "child": "Glasgow-567",
+      "parent_role": "father",
+      "status": "confident"
+    },
+    {
+      "parent": "Herbison-439",
+      "child": "Glasgow-567",
+      "parent_role": "mother",
+      "status": "unmarked"
+    },
+    {
+      "parent": "Herbison-440",
+      "child": "Herbison-439",
+      "parent_role": "father",
+      "status": "uncertain"
+    },
+    {
+      "parent": "Rolland-259",
+      "child": "Rolland-239",
+      "parent_role": "father",
+      "status": "uncertain"
+    },
+    {
+      "parent": "Spreul-26",
+      "child": "Spreull-4",
+      "parent_role": "father",
+      "status": "uncertain"
+    }
+  ]
+}

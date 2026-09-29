@@ -133,12 +133,15 @@ evidence that either person existed.
 
 The current spouse should not be detached merely to leave an empty field before
 an evidenced Elizabeth profile is available, but the relationship is
-contradicted and must not be presented as proved. Robert, Marion, Janet and
-Isobel each require a new documentary profile. [[Glasgow-1156]],
-[[Glasgow-3062]], [[Glasgow-3917]], [[Glasgow-3183]] and [[Glasgow-3336]] were
-compared but do not have a direct Corsoun, Stevenson, sibling, property or
-succession bridge. They must not be substituted merely from name, chronology
-or regional compatibility.
+contradicted and must not be presented as proved. Robert and Marion have
+separate documentary profiles. The record-defined Janet and Isobel profiles
+were merged into [[Glasgow-3183]] and [[Glasgow-3336]] respectively as their
+leading compatible later identities. Both joins are probable rather than
+directly proved; neither later event names Corsoun or Andrew. Jonet's father
+status is confident for the testament-named daughter represented by
+[[Glasgow-3183]], while the later Ramsy marriage attribution remains probable. The remaining
+[[Glasgow-1156]], [[Glasgow-3062]] and [[Glasgow-3917]] comparisons have not
+been adopted as these testament children.
 
 The currently attached [[Glasgow-991|James Glasgow]], [[Glasgow-1561|John
 Glasgow]] and [[Glasgow-1028|David Glasgow]] are not named as sons in this

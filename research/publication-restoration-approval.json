@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "scope": "previous-public-research-restoration",
+  "approved_on": "2026-09-29",
+  "authorization": "Project owner explicitly requested restoration of Alexander Glasgow full DNA section, matrix exports, six record excerpts, all Atlas tester panels/annotations/pins/counts/legends and the two supplied Y-DNA reference pages. Preserve the previous curated publications in full. Raw sequence files and unrelated private captures remain private.",
+  "publications": [
+    {
+      "path": "assets/research/atlas-model.json",
+      "kind": "atlas-model",
+      "source": "data/private/approved-restoration-sources/assets/research/atlas-model.json",
+      "sha256": "b5e21398833803315adaa181c1cefbc173c7707b82dbad82fb9484f4c339ca61"
+    },
+    {
+      "path": "assets/research/atlas-import.json",
+      "kind": "atlas-model",
+      "source": "data/private/approved-restoration-sources/assets/research/atlas-import.json",
+      "sha256": "e77dd971d4136af171422324df53d8f4de68f902c257306a7c2f838d2ec9a6d0"
+    },
+    {
+      "path": "onetree/glasgow-one-tree-polished-3/model.json",
+      "kind": "atlas-model",
+      "source": "data/private/approved-restoration-sources/onetree/glasgow-one-tree-polished-3/model.json",
+      "sha256": "52ddc534da3a6b2e3d9e94e13ed7af5f81d6601f0bb4ba3e3fcb0b45996b0d8d"
+    },
+    {
+      "path": "assets/research/atlas.js",
+      "kind": "atlas-renderer",
+      "source": "data/private/approved-restoration-sources/assets/research/atlas.js",
+      "sha256": "9d72f05bd844fc72d0388430c8ac95d386b40b21625db6ce4b4dfda6b8f060d1"
+    },
+    {
+      "path": "assets/research/atlas-standalone.html",
+      "kind": "atlas-renderer",
+      "source": "data/private/approved-restoration-sources/assets/research/atlas-standalone.html",
+      "sha256": "dbbcf99d038c4a0b151cbf9c20ff451097cec134deb0c633451ab9b7175b7e0e"
+    },
+    {
+      "path": "assets/unified/atlas-standalone.html",
+      "kind": "atlas-renderer",
+      "source": "data/private/approved-restoration-sources/assets/unified/atlas-standalone.html",
+      "sha256": "9190bc203b8d296e7f75088b90cca311b85e72996009c107904039f3426837a9"
+    },
+    {
+      "path": "onetree/glasgow-one-tree-polished-3/template.html",
+      "kind": "atlas-renderer",
+      "source": "data/private/approved-restoration-sources/onetree/glasgow-one-tree-polished-3/template.html",
+      "sha256": "19a6417d11406b5e0e42e2feed1dfa221884fafd1ac8fe7da6694851b6684468"
+    },
+    {
+      "path": "onetree/index.html",
+      "kind": "atlas-renderer",
+      "source": "data/private/approved-restoration-sources/onetree/index.html",
+      "sha256": "f5d502a59accb53b177dc6b2087695076103b04ce4956b5b3426efa78f7c62e8"
+    },
+    {
+      "path": "assets/repair/atlas.js",
+      "kind": "atlas-renderer",
+      "source": "data/private/approved-restoration-sources/assets/repair/atlas.js",
+      "sha256": "387ec4b91476e3489437b6c8ad896a2ca1cca44eb38b1bccab8dbc65d110ed45"
+    },
+    {
+      "path": "assets/research/dna-index.json",
+      "kind": "exact",
+      "source": "data/private/withheld-public-assets/assets/research/dna-index.json",
+      "sha256": "12b8692cd4d7cf7253f1e266bed8355d61da00adb1f0566df867a479b78aada0"
+    },
+    {
+      "path": "assets/research/glasgow-951-dna-matrix.json",
+      "kind": "exact",
+      "source": "data/private/withheld-public-assets/assets/research/glasgow-951-dna-matrix.json",
+      "sha256": "41dce3225bfcae2c402ece311fdeac32a3fa75853cc6ebd69df0a5e51a087d9a"
+    },
+    {
+      "path": "assets/research/glasgow-951-dna-matrix.csv",
+      "kind": "exact",
+      "source": "data/private/withheld-public-assets/assets/research/glasgow-951-dna-matrix.csv",
+      "sha256": "01be70fc5d0b54c465db7b0ce1c9e2d695f0ac5426c4d4bece31104530641f76"
+    },
+    {
+      "path": "ydna/glasgow-ydna-story-source/reference/original-upload.html",
+      "kind": "reference",
+      "source": "data/private/publication-source-archives/original-upload.html",
+      "sha256": "aa495c18217ab7c88cb4b4182a49d7554a1e0f85454fc59d9927e3401a1b6cc0"
+    },
+    {
+      "path": "ydna/glasgow-ydna-story-source/reference/supplied-timeline.html",
+      "kind": "reference",
+      "source": "data/private/publication-source-archives/supplied-timeline.html",
+      "sha256": "730a41b53c6402f021785073ad038c4d5bea3c13d47510aef1797fa643b33f0b"
+    },
+    {
+      "path": "people/glasgow-951.html",
+      "kind": "dossier"
+    }
+  ]
+}

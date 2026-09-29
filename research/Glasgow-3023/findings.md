@@ -10,6 +10,15 @@ Pitcairn's heading `1594-5` is a typographical error: the entry belongs to the
 Jedburgh justice ayre of 26 February **1495**, within court book NRS JC1/1
 (1493-1504). The live structured dates `1500` are still inaccurate estimates.
 
+Live recheck on 27 September 2026: the public profile renders those estimates
+as birth and death at about age zero and places the death at Jedburgh, although
+the proceeding gives neither a birth year nor a death place. An attempt to set
+birth and death **before 26 February 1495** and clear the unsupported death
+place was blocked by WikiTree's `Pre-1500 Profiles` validation; the draft was
+discarded and the live fields remain unchanged. The cited biography and the
+individual free-space research page carry the accurate chronology pending a
+permitted structured correction.
+
 Father assessment: **father not identified**. The best genealogical placement
 is as a possible son, brother or nephew in the generation of
 [John Glasgw of Stirling](https://www.wikitree.com/wiki/Space:John_Glasgw_of_Stirling),

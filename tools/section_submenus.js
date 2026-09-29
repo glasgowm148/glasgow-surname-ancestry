@@ -48,18 +48,22 @@
   function start() {
     const rail = document.querySelector('.g-nav');
     if (!rail) return;
+    // This script can be included from both a page-local and shared asset URL.
+    // Keep initialization single so it cannot append duplicate rail navigation.
+    if (rail.dataset.sectionSubmenusReady === 'true') return;
+    rail.dataset.sectionSubmenusReady = 'true';
     const mobileNav = mobileNavigation(rail);
     const primary = [...rail.querySelectorAll(':scope > .g-nav-link')];
     const clean = path => path.replace(/index\.html$/, '').replace(/\/$/, '') || '/';
     const path = clean(location.pathname);
     const roots = [
-      [/^\/(research|sources|records|events|free-space|compare|connections|candidate-matches)(\/|$)/, '/research/'],
+      [/^\/(research|sources|records|events|free-space|compare|connections|candidate-matches|statistics)(\/|$)/, '/research/'],
+      [/^\/(about|resources|coverage|data|changes|feedback|status)(\/|$)/, '/about/'],
       [/^\/branches(\/|$)/, '/branches/'],
       [/^\/(catalogue|people|early-records)(\/|\.|$)/, '/catalogue/'],
-      [/^\/(ydna|dna)(\/|$)/, '/ydna/'],
-      [/^\/timeline(\/|$)/, '/timeline/'],
-      [/^\/map(\/|$)/, '/map/'],
-      [/^\/onetree(\/|$)/, '/onetree/'],
+      // Timeline is part of the Y-DNA section; Map is part of the Atlas.
+      [/^\/(ydna|dna|timeline)(\/|$)/, '/ydna/'],
+      [/^\/(onetree|map)(\/|$)/, '/onetree/'],
     ];
     const root = path === '/' ? '/' : roots.find(([pattern]) => pattern.test(path))?.[1];
     if (!root) return;
@@ -70,9 +74,9 @@
       if (link === selected) link.setAttribute('aria-current', 'page');
       else link.removeAttribute('aria-current');
     });
-    // Overview and Map have no sidebar submenu.
+    // Overview has no sidebar submenu.
     // Other sections expose only destinations they themselves own.
-    if (path === '/' || root === '/map/') return;
+    if (path === '/') return;
     const dna = path === '/ydna';
     const timeline = path === '/timeline';
     const source = document.querySelector(dna ? '#sidebar .main-nav' : timeline ? '.g-timeline-jumps' : '.v3-view-nav');
@@ -96,17 +100,26 @@
         make('/branches/#research-studies', 'Research groups'),
         make('/branches/scottish-families/', 'Scottish families'),
       ];
-      if (/^\/(research|records|sources|free-space|events)(\/|$)/.test(path)) return [
+      if (root === '/research/') return [
         make('/research/#open-questions', 'Open questions'),
         make('/research/transcriptions/', 'Transcriptions'),
         make('/records/', 'Source records'),
         make('/sources/', 'Source notes'),
         make('/free-space/', 'Free-space research'),
+        make('/statistics/', 'Statistics'),
       ];
-      if (path === '/onetree') return [
-        make('/onetree/#view=all', 'All people'),
+      if (root === '/about/') return [
+        make('/about/', 'About this project'),
+        make('/resources/', 'Resources'),
+        make('/coverage/', 'Coverage & method'),
+        make('/data/', 'Data & downloads'),
+      ];
+      if (root === '/onetree/') return [
+        make('/onetree/#view=all', 'Canopy'),
+        make('/onetree/#view=lanes', 'Timeline of families'),
         make('/onetree/#view=branches', 'Family branches'),
         make('/onetree/#view=dna', 'DNA view'),
+        make('/map/', 'Map'),
       ];
       if (/^\/(catalogue|people|early-records)(\/|$)/.test(path)) return [
         make('/catalogue/', 'People search'),
@@ -119,7 +132,11 @@
     function owns(url) {
       const target = clean(url.pathname);
       if (root === '/catalogue/') return /^\/(catalogue|people|early-records)(\/|$)/.test(target);
-      if (root === '/research/') return /^\/(research|records|sources|free-space|events)(\/|$)/.test(target);
+      if (root === '/research/') return /^\/(research|records|sources|free-space|events|statistics)(\/|$)/.test(target);
+      if (root === '/about/') return /^\/(about|resources|coverage|data)(\/|$)/.test(target);
+      if (root === '/branches/') return /^\/branches(\/|$)/.test(target);
+      if (root === '/onetree/') return /^\/(onetree|map)$/.test(target);
+      if (root === '/ydna/') return /^\/(ydna|timeline)$/.test(target);
       return target === clean(root);
     }
     if (!source) {
@@ -143,14 +160,23 @@
       sourceLinks = (owned.length ? owned : source ? [...source.querySelectorAll(timeline
         ? '.g-timeline-period-link' : 'a[href]')] : fallback)
         .filter(link => owns(new URL(hrefOf(link), location.href)));
+      if (root === '/ydna/') {
+        const extra = document.createElement('a');
+        extra.href = dna ? '/timeline/' : '/ydna/';
+        extra.textContent = dna ? 'Timeline' : 'Y-DNA story';
+        extra.dataset.sectionExtra = 'true';
+        sourceLinks = dna ? [...sourceLinks, extra] : [extra, ...sourceLinks];
+      }
       const exact = sourceLinks.filter(link => {
         const url = new URL(hrefOf(link), location.href);
-        return clean(url.pathname) === path && (!url.hash || url.hash === location.hash);
+        // The Atlas opens on the Canopy when no view is named in the URL.
+        const hash = path === '/onetree' && !location.hash ? '#view=all' : location.hash;
+        return clean(url.pathname) === path && (!url.hash || url.hash === hash);
       });
       const current = exact.find(link => new URL(hrefOf(link), location.href).hash) || exact[0];
       const rows = sourceLinks.map((link, index) => {
         const url = new URL(hrefOf(link), location.href);
-        const active = dna || timeline ? link.hasAttribute('aria-current')
+        const active = link.dataset.sectionExtra ? false : dna || timeline ? link.hasAttribute('aria-current')
           : current ? link === current : link.hasAttribute('aria-current');
         return {index, href: url.href, text: link.textContent.replace(/\s+/g, ' ').trim(), active};
       });
@@ -178,7 +204,7 @@
     submenu.addEventListener('click', event => {
       const link = event.target.closest('a[data-source-index]');
       if (!link || event.button || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
-      if (dna) {
+      if (dna && !sourceLinks[Number(link.dataset.sourceIndex)]?.dataset.sectionExtra) {
         event.preventDefault();
         event.stopPropagation();
         sourceLinks[Number(link.dataset.sourceIndex)]?.click();

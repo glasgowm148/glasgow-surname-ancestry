@@ -1,6 +1,6 @@
 # Findings: [Anne (Cushnehan) Glasgow (Cushnehan-1)](https://www.wikitree.com/wiki/Cushnehan-1)
 
-Last updated: 2026-08-25
+Last updated: 2026-09-23
 
 ## Current conclusion
 
@@ -16,6 +16,12 @@ her father and establishes her birth surname.
 Anne died at Liminary on 14 March 1877. She was described as married, aged 54
 and a weaver's wife. Nathaniel Glasgow was present at death, but no relationship
 is stated.
+
+The user-supplied GRONI death-search row `D/1877/24/1004/3/162` is this same
+death: Ann Glasgow, Ballymena registration district, 14 March 1877, age 54.
+Her profile already has the full date and cites original register entry 162.
+The age suggests about 1823, while the marriage age suggests about 1827;
+retain the existing qualified birth estimate rather than silently replacing it.
 
 ## Source findings
 - [Marriage of Hugh Glasgow and Anne Wilson, entry 49, 24 December 1852](https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1852/09422/5413278.pdf).

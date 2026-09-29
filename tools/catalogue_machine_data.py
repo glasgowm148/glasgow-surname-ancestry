@@ -75,21 +75,56 @@ def _citation_label(citation: str, url: str | None) -> str:
     return label[:420].rstrip() + ("…" if len(label) > 420 else "")
 
 
-def _canonical_status(value: str) -> str:
-    text = (value or "").casefold()
-    if re.search(r"\b(?:contradicted|excluded|rejected|impossible)\b", text):
+def _canonical_status(value: str, *, claim_type: str | None = None, claim_context: str = "") -> str:
+    """Map a legacy prose label to a status without promoting qualified claims.
+
+    A status code is already a structured conclusion and therefore wins.  The
+    prose fallback is deliberately conservative: a record can document an
+    occurrence while still leaving the identity or relationship unresolved.
+    """
+    text = re.sub(r"\s+", " ", (value or "").strip().casefold())
+    explicit = {
+        "contradicted": "contradicted", "excluded": "contradicted",
+        "rejected": "contradicted", "disputed": "disputed",
+        "proved": "proved", "proven": "proved", "confirmed": "proved",
+        "documented": "proved", "strongly supported": "strongly_supported",
+        "strongly_supported": "strongly_supported", "probable": "probable",
+        "possible": "possible", "unknown": "unknown",
+    }
+    if text in explicit:
+        return explicit[text]
+    prose = f"{text} {claim_context.casefold()}"
+    if re.search(r"\b(?:contradicted|excluded|rejected|impossible)\b", prose):
         return "contradicted"
-    if "disputed" in text:
+    if "disputed" in prose:
         return "disputed"
-    if re.search(r"\b(?:proved|proven|confirmed|documented)\b", text):
+    negated_proof = re.search(
+        r"\b(?:not\s+(?:proved|proven|confirmed|established|identified|documented)|"
+        r"un(?:proved|proven|confirmed|established|identified|documented))\b",
+        prose,
+    )
+    if negated_proof:
+        # Do not borrow proof of a recorded event for a different identity or
+        # relationship claim.  For an occurrence claim, retain the narrow
+        # documented observation when the label explicitly scopes it that way.
+        if claim_type == "recorded_occurrence" and re.search(r"\b(?:documented|direct)\s+occurrence\b", prose):
+            return "proved"
+        if re.search(r"\bstrong(?:ly)?\s+candidate\b|\bstrong\b", prose):
+            return "strongly_supported"
+        if "probable" in prose:
+            return "probable"
+        if re.search(r"\b(?:possible|plausible|working|open|low|moderate)\b", prose):
+            return "possible"
+        return "unknown"
+    if re.search(r"\b(?:proved|proven|confirmed|documented)\b", prose):
         return "proved"
-    if "strong" in text:
+    if re.search(r"\bstrong(?:ly)?(?:\s+supported|\s+candidate)?\b", prose):
         return "strongly_supported"
-    if "high" in text:
+    if "high" in prose:
         return "strongly_supported"
-    if "probable" in text:
+    if "probable" in prose:
         return "probable"
-    if re.search(r"\b(?:possible|plausible|working|open|low|moderate)\b", text):
+    if re.search(r"\b(?:possible|plausible|working|open|low|moderate)\b", prose):
         return "possible"
     return "unknown"
 
@@ -155,7 +190,9 @@ def _relationship_assessments() -> list[dict]:
             "person_a": ids_a[0], "person_b": ids_b[0],
             "relationship": _clean_markdown(cells[1]),
             "status_label": _clean_markdown(cells[3]),
-            "status": _canonical_status(cells[3]),
+            "status": _canonical_status(
+                cells[3], claim_type="relationship", claim_context=f"{cells[1]} {cells[4]}"
+            ),
             "basis": _clean_markdown(cells[4]),
             "source_title": _clean_markdown(source_link.group(1)) if source_link else None,
             "source_url": source_link.group(2) if source_link else None,
@@ -280,11 +317,23 @@ def _profile_assessment_flags(person: dict) -> dict[str, bool]:
         re.search(r"ancestry\.[^ ]+/family-tree/|\bonline family tree\b|\buser-submitted tree\b", text)
         for text in meaningful_sources
     )
+    # Public capture projection removes narrative fields.  The projection saves
+    # these bounded, non-sensitive conclusions from the raw capture so scoring
+    # retains its safeguards after that redaction.  Older captures simply have
+    # no stored flags and continue through the text-based path above.
+    stored_flags = {
+        key: any(bool((capture.get("assessment_flags") or {}).get(key))
+                 for capture in person.get("wikitree_evidence", []))
+        for key in (
+            "_structural_placeholder", "_family_links_disclaimed",
+            "_birth_details_disclaimed", "_profile_sources_tree_only",
+        )
+    }
     return {
-        "_structural_placeholder": structural_placeholder,
-        "_family_links_disclaimed": family_links_disclaimed,
-        "_birth_details_disclaimed": birth_details_disclaimed,
-        "_profile_sources_tree_only": profile_sources_tree_only,
+        "_structural_placeholder": structural_placeholder or stored_flags["_structural_placeholder"],
+        "_family_links_disclaimed": family_links_disclaimed or stored_flags["_family_links_disclaimed"],
+        "_birth_details_disclaimed": birth_details_disclaimed or stored_flags["_birth_details_disclaimed"],
+        "_profile_sources_tree_only": profile_sources_tree_only or stored_flags["_profile_sources_tree_only"],
     }
 
 

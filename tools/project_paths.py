@@ -35,6 +35,9 @@ MAP_EARLY_BEARERS = MAP_DATA_DIR / "early-bearers.json"
 MAP_RECENT_PROFILE_SUPPLEMENT = MAP_DATA_DIR / "recent-profile-supplement.json"
 MAP_CACHE_DIR = MAP_DATA_DIR / "cache"
 MAP_AUDIT_DIR = MAP_DATA_DIR / "audits"
+# Standalone linked-families viewer builder; the public route is /onetree/.
+ONETREE_STANDALONE_DIR = WEB_DIR / "onetree" / "glasgow-one-tree-polished-3"
+ONETREE_BUILD = ROOT / "tools" / "site_sources" / "onetree" / "build.py"
 
 RESEARCH_DIR = ROOT / "research"
 SURNAME_RESEARCH_DIR = ROOT / "surname-research"

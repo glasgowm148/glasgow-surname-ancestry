@@ -74,29 +74,6 @@ def repair_montgreenan():
 
 def repair():
     changed = Counter()
-    registry = {item["slug"]: item for item in json.loads((WEB / "assets/research/registry.json").read_text())}
-    entries = [item for item in json.loads((WEB / "assets/research/branches.json").read_text()) if item.get("curatedResearch")]
-    scottish = [item for item in entries if not GROUPS[item["id"]].get("irish")]
-    irish = [item for item in entries if GROUPS[item["id"]].get("irish")]
-    regions = ''.join(f'<a class="family-region-card" href="{url}"><span>Browse region</span><h2>{label}</h2><small>{count}</small></a>' for label, url, count in REGIONS)
-    region_section = '<section id="experience-regions"><span class="r-kicker">Browse by place</span><h2>Start with a region</h2><div class="family-region-grid">' + regions + '</div></section>'
-    path = WEB / "branches/index.html"
-    text = path.read_text()
-    text = re.sub(r'<section id="experience-regions">.*?</section>', region_section, text, count=1, flags=re.S)
-    text = replace_section(text, "research-studies", "Scottish research studies", scottish, registry)
-    text = replace_section(text, "irish-research-studies", "Ireland & Ulster research studies", irish, registry)
-    text = re.sub(r'<nav class="family-region-nav"[^>]*>.*?</nav>', '', text, flags=re.S)
-    nav = '<nav class="family-region-nav" aria-label="Browse family studies"><a href="#experience-regions">Regions</a><a href="#research-studies">Scotland studies</a><a href="#irish-research-studies">Ireland &amp; Ulster studies</a><a href="#r-branch-results">Find a family</a></nav>'
-    text = re.sub(r'(<main\b[^>]*>\s*<header\b[^>]*>.*?</header>)', r'\1' + nav, text, count=1, flags=re.S)
-    text = re.sub(r'(<p id="r-branch-count" role="status">.*?</p>)(?:<div id="r-branch-pages"[^>]*></div>)?', r'\1<div id="r-branch-pages" class="r-pager" aria-label="Family results pages"></div>', text, count=1, flags=re.S)
-    stylesheet = '<link rel="stylesheet" href="/assets/research/family-browsing.css?v=2">'
-    text = re.sub(r'<link rel="stylesheet" href="/assets/research/family-browsing\.css\?v=\d+">', stylesheet, text, count=1)
-    if stylesheet not in text:
-        text = text.replace('</head>', stylesheet + '</head>', 1)
-    text = re.sub(r'src="/assets/research/views\.js\?v=[^"]+"', 'src="/assets/research/views.js?v=3.1-family-pagination-1"', text, count=1)
-    if text != path.read_text():
-        path.write_text(text)
-        changed["family_browsing"] += 1
     css_path = WEB / "assets/research/family-browsing.css"
     if not css_path.exists() or css_path.read_text() != CSS:
         css_path.write_text(CSS)

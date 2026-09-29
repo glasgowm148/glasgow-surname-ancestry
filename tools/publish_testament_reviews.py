@@ -1,10 +1,14 @@
-"""Publish maintained original-image reviews without redistributing the scans."""
+"""Publish detailed original-image reviews and approved manuscript material."""
 
 from collections import Counter, defaultdict
 from html import escape
 from pathlib import Path
 import json
 import re
+try:
+    from tools.public_manuscript_previews import approved_preview, restore_approved_previews
+except ModuleNotFoundError:
+    from public_manuscript_previews import approved_preview, restore_approved_previews
 
 try:
     from tools.render_testament_walkthrough import (
@@ -22,6 +26,7 @@ ALIASES = {"william-lanark-1673": "william-1673"}
 AUXILIARY = {"george-1605"}
 MARKER_START = "<!-- testament-original-review:start -->"
 MARKER_END = "<!-- testament-original-review:end -->"
+LICENSED_ASSET_URL = re.compile(r"/assets/research/testament-(?:crops|originals)/[^\"'\s]+")
 
 
 def e(value):
@@ -30,6 +35,29 @@ def e(value):
 
 def paragraphs(values):
     return "".join(f"<p>{e(value)}</p>" for value in values)
+
+
+def scrub_licensed_asset_urls(path):
+    """Preserve approved manuscript URLs and remove unapproved public URLs."""
+    if not path.is_file():
+        return
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return
+
+    def scrub(value):
+        if isinstance(value, dict):
+            return {key: scrub(item) for key, item in value.items()}
+        if isinstance(value, list):
+            return [scrub(item) for item in value]
+        if isinstance(value, str) and LICENSED_ASSET_URL.search(value):
+            return LICENSED_ASSET_URL.sub(lambda match: match[0] if approved_preview(match[0]) else "Licensed scan withheld; consult cited source", value)
+        return value
+
+    cleaned = scrub(payload)
+    if cleaned != payload:
+        path.write_text(json.dumps(cleaned, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
 def bullets(values):
@@ -97,6 +125,9 @@ def review_body(review):
         lines.append(f'<section class="tx-folio"><h3>Image / passage {e(part["page"])}</h3>'
                      f'<ol class="tx-lines">{rows}</ol></section>')
     sources = [Path(path).name for path in review.get("source_files", [])]
+    original_url = f'/assets/research/testament-originals/{ident}.pdf'
+    original_link = (f'<p><a href="{e(original_url)}">Read the complete supplied original (PDF)</a></p>'
+                     if approved_preview(original_url) else "")
     return (
         render_walkthrough(review)
         + '<details class="tx-extra" id="case-analysis"><summary>Full case analysis'
@@ -127,6 +158,7 @@ def review_body(review):
         f'<strong>Method:</strong> {e(review.get("reviewer", "LLM-assisted image review"))}.</p>'
         '<h3>Pages examined</h3>' + bullets(review.get("reviewed_pages", []))
         + '<h3>Supplied local source files</h3>' + bullets(sources)
+        + original_link
         + '<p>The full originals remain in the local research archive. Selected unaltered crops are shown above '
         'for reading and commentary, with separate switchable highlights. Image credit: Crown copyright, '
         'National Records of Scotland / ScotlandsPeople. Duplicate downloads are not independent evidence. '
@@ -182,7 +214,8 @@ def court_area(record):
     return "other"
 
 
-def repair(extracted_text, render_reading):
+def repair(extracted_text, render_reading, *, update_dossiers=True):
+    restore_approved_previews()
     try:
         from tools.render_testament_kinship import render_name_audit, feature_link, publish_family_report
     except ModuleNotFoundError:
@@ -258,6 +291,9 @@ def repair(extracted_text, render_reading):
                 from render_testament_index_entry import render_index_confirmation
                 from render_testament_fragment import render_associated_fragment
             body = render_index_confirmation(item.get("index_confirmation") or review.get("index_confirmation")) + render_name_audit(ident) + render_associated_fragment(review.get("associated_fragment")) + review_body(review)
+            if review.get("associated_fragment"):
+                write(OUT / ident / "associated-fragment.json",
+                      json.dumps(review["associated_fragment"], ensure_ascii=False, indent=2) + "\n")
             write(OUT / ident / "reading.txt", text_reading(review))
             for profile in profiles:
                 profile_cases[profile[0]].append((href, title, profile[1], review.get("reviewed_at", "")))
@@ -305,8 +341,10 @@ def repair(extracted_text, render_reading):
             '<p>Names, families and the strokes that connect them. Explore the original handwriting, '
             'then work through each reading word by word.</p>'
             f'<a class="tx-overview" href="{e(overview)}">WikiTree wills and testaments study <span aria-hidden="true">&nearr;</span></a></div>'
-            '<figure class="tx-index-cover"><img src="/assets/research/testament-crops/john-1577-family.jpg" '
-            'alt="The widow-and-children passage in John Glasgow\'s 1577 testament">'
+            '<figure class="tx-index-cover">'
+            + ('<img src="/assets/research/testament-crops/john-1577-family.jpg" alt="The widow-and-children passage in John Glasgow\'s 1577 testament">'
+               if approved_preview('/assets/research/testament-crops/john-1577-family.jpg') else '<p class="tx-licensed-withheld">Licensed scan withheld; consult cited source</p>')
+            +
             '<figcaption><span>From the original register</span><strong>1577</strong>'
             '<span>John Glasgow &middot; Edinburgh</span></figcaption></figure></header>'
             '<dl class="tx-review-counts">'
@@ -332,6 +370,11 @@ def repair(extracted_text, render_reading):
     main += '</main>'
     write(OUT / "index.html", shell(template, main, "Wills and testament transcriptions", "/research/transcriptions/index.html"))
     publish_family_report(write, shell, template, fresh, OUT)
+    for path in OUT.rglob("*.json"):
+        scrub_licensed_asset_urls(path)
+
+    if not update_dossiers:
+        return changed
 
     # Generate the local links after case files exist; no uncertain relationship is added to the tree.
     for ident, links in profile_cases.items():

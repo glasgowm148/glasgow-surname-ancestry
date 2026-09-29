@@ -4,6 +4,10 @@ from html import escape
 import json
 from pathlib import Path
 import re
+try:
+    from tools.public_manuscript_previews import approved_preview
+except ModuleNotFoundError:
+    from public_manuscript_previews import approved_preview
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "research/transcriptions"
@@ -90,11 +94,16 @@ def render_followups():
             if not isinstance(src, str) or not re.fullmatch(
                     r"/assets/research/testament-crops/[A-Za-z0-9._/-]+\.(?:jpg|jpeg|png|webp)", src):
                 continue
-            alt = e(figure.get("alt"))
             caption = e(figure.get("caption"))
-            figures.append(f'<figure class="tx-testament-figure"><img src="{e(src)}" alt="{alt}" '
-                           'style="max-width:100%;height:auto"><figcaption>'
-                           f'{caption}</figcaption></figure>')
+            if approved_preview(src):
+                alt = e(figure.get("alt"))
+                figures.append(f'<figure class="tx-testament-figure"><img src="{e(src)}" alt="{alt}" '
+                               'style="max-width:100%;height:auto"><figcaption>'
+                               f'{caption}</figcaption></figure>')
+            else:
+                figures.append('<figure class="tx-testament-figure"><p class="tx-licensed-withheld">'
+                               'Licensed scan withheld; consult cited source</p><figcaption>'
+                               f'{caption}</figcaption></figure>')
         findings = []
         for finding in report.get("findings", []):
             label = ('<span class="tx-evidence-label tx-evidence-unresolved">'

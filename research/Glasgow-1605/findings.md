@@ -1,6 +1,6 @@
 # Findings: Glasgow-1605
 
-Last updated: 2026-09-10
+Last updated: 2026-09-26
 
 
 ## Current conclusion
@@ -8,6 +8,11 @@ Last updated: 2026-09-10
 This profile represents the William baptised at Polwarth on 4 April 1658. No
 reviewed source connects him to Glasgow-2462, the Cavers prisoner, Glasgow-3370,
 Glasgow-3587, Glasgow-591 or Glasgow-2731.
+The documented Cavers/Ormistoun man now has his own profile,
+[Glasgow-4138](https://www.wikitree.com/wiki/Glasgow-4138). This profile's
+Cavers material is explicitly a same-name hypothesis, not an established
+life event of the Polwarth child. The profiles overlap in research subject,
+but the baptism and adult records cannot yet be merged as one person.
 
 ## Source findings
 
@@ -22,6 +27,12 @@ Glasgow-3587, Glasgow-591 or Glasgow-2731.
 The Cavers prisoner is the strongest currently identified candidate for the
 traditional William-591. This profile remains a separate Polwarth baptismal
 identity until a record supplies the missing Polwarth-Cavers bridge.
+
+## Unresolved questions
+
+- Inspect original Polwarth and Cavers/Ormistoun records for a residence,
+  relative, occupation or other bridge that identifies the 1658 child with
+  the 1679–84 man on Glasgow-4138.
 
 <!-- opr-birth-review-row-126 -->
 ## Source findings

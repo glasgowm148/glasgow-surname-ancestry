@@ -12,10 +12,13 @@ No attached person was removed or detached.
 
 ## Current conclusion
 
+WikiTree parent-status audit, 27 September 2026: Sir William Herbesoun (Herbison-440) is now marked uncertain as Margaret’s attached father. His curatorship of her son George documents an association but does not call Margaret his daughter.
+
 Protocol 2916 of 1 September 1586 directly calls Margaret Herbesoun the mother
 of George `Glasgow-1099`, son and heir of William `Glasgow-3522`. No located
-record names Barbara `Glasgow-567` as Margaret's daughter. Detach that maternity
-edge; retain George.
+record names Barbara `Glasgow-567` as Margaret's daughter. Retain Barbara's
+existing link as uncertain while looking for a connecting record; George's
+parentage is directly proved.
 
 The attached father, [Sir William Herbesoun
 (Herbison-440)](https://www.wikitree.com/wiki/Herbison-440), is not proved and

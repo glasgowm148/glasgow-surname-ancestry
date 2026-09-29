@@ -1,111 +1,84 @@
 # Findings: Glasgow-951
 
-Last updated: 2026-09-17
+Last updated: 2026-09-23
 
-## New parentage lead for the Glasgow family: Lisnagaver birth, 3 October 1887
+## Current conclusion — father evaluation, 23 September 2026
 
-The original civil birth return records John Glasgow born at Lisnagaver on 3
-October 1887 to James Glasgow, farmer, of Lisnagaver, and Eliza Ann Glasgow,
-formerly Lappin. James was the informant and is identified as the father. This
-is a new record for the associated Glasgow family and is relevant to
-[[Glasgow-951|Alexander Glasgow]] because the Lisnagaver James is a strong
-candidate for [[Glasgow-973|James Glasgow]], Alexander's documented son born in
-1843.
+**Alexander's father was probably John Glasgow, farmer, the father named in [John Glasgow (Glasgow-867)](https://www.wikitree.com/wiki/Glasgow-867)'s 1846 marriage and carried on WikiTree as [John Glasgow (Glasgow-4090)](https://www.wikitree.com/wiki/Glasgow-4090).** This is a reweighting of the records already held, not a newly found record. No surviving record names Alexander's own father. The live uncertain attachment to Glasgow-4090 is still appropriate and should not be marked confirmed. Identifying this John with the 1796 Desertoghill flax grower remains a separate hypothesis that the evidence fits but does not prove.
 
-The record is not proof of that identity: it gives no age or parentage for the
-father, and a second James Glasgow has not been excluded. It therefore supports
-a possible grandson lead for Alexander, but does not justify adding John as a
-child of [[Glasgow-973|James Glasgow]] or changing any structured WikiTree
-relationships.
+The argument has three steps:
 
-Source: [IrishGenealogy civil birth record](https://www.irishgenealogy.ie/view?record_id=f66be225e5-4072024),
-[original 1887 birth return](https://www.irishgenealogy.ie/files/civil/birth_returns/births_1887/02541/1940589.pdf),
-entry 352, Dervock registrar's district, Ballymoney union, County Antrim,
-accessed 17 September 2026.
+1. **Alexander was Nancy Glasgow's brother (probable, strong).** The January 1892 Clinton County citation serves "James Glasgow, Mary —— and Ann ——, the children of Alexander Glasgow, late of Rasharkin" as heirs and next of kin. It lists them with nieces and nephews whom Nancy's will names as such: Margaret (Dysart) Kennedy and Robert Anderson. James, Mary (Elder) and Ann (McCracken) are Alexander-951's documented children. Being named in the heirs class is stronger evidence than being left out of it. The executor had to serve these people, and nobody nearer than a niece or nephew was living. A cousin's children would not normally have been heirs while nieces and nephews survived. The natural reading is therefore that the petitioner understood Alexander to be a sibling (full or half). Over-cautious service remains possible, but nothing marks this group differently from the niece and nephew branches. The 21 September caution about the pre-1898 personal-property rule concerns whether *omissions* exclude a family, not this *inclusion*.
+2. **The parent Alexander shared with Nancy and John-867 was a Glasgow father.** Every sibling branch whose birth surname is recorded carries Glasgow. The Rasharkin baptisms give "Jane Glascaw" (Dysart) and "Betty Glascaw" (Anderson). Ann (Glasgow) McClelland's sons' Scottish records name their mother as Ann Glasgow. A brother through the mother only would normally have a different surname. That could be avoided only if the mother had married two Glasgow men in turn, and no evidence suggests this. The objection that siblinghood "cannot be made transitive" is right in principle but has little force here: the shared surname points to a common father, while full versus half blood on the mother's side stays unknown.
+3. **That father was John Glasgow, farmer.** John-867 names him in the [original 16 November 1846 marriage return](https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1846/09306/5369439.pdf). The citation's "James G." and "Ann" identify John-867's line (James Garvin; Annie Bellingham), and the 1851 Lisnagaver return calls Samuel-2908 John's brother. Samuel's absence from the citation fits: he died a bachelor in 1875.
+
+**Consistency checks that support the reconstruction:** Samuel was born about 1790 in County Londonderry, and John-867 was born in County Antrim about 1801. This fits a father who moved across the Bann during the 1790s, and a Desertoghill occupier in 1796 would fit that move. It does not prove the Desertoghill identity. The 1834 Lisnagaver tithe pairs "Alexr" and "Robt" Glasgow, and the citation's brother Robert (daughters Mary Jane and Ann) gives a natural candidate for that co-tenant. The implied father's age at Alexander's c.1811 birth (roughly 40s) is compatible. The c.1790–1821 span may reflect two wives, which affects maternity only.
+
+**What still counts against the conclusion or limits it:** (a) The citation reflects what the petitioner knew and is not a decree. The petition and heir schedule could correct it. (b) Alexander's son Robert-938 is omitted, and whether he was still alive in 1892 is unverified. (c) The Ballydonnelly residence and the unidentified "Lizzie" leave a small doubt about the John identification, although "James G." plus Ann make John-867 the clear match. (d) None of this excludes a different same-surname explanation. Thomas-987 and Daniel-3896 are not in Nancy's sibling group as reconstructed, so they would most naturally be Alexander's cousins rather than brothers. Their omission alone does not prove that. The older Alexander/Rosanna tradition, Robert-1367 and the unidentified 1834 Robert as *father* are weaker alternatives. None has a record placing Alexander in that man's family.
+
+**Recommended WikiTree position:** keep Glasgow-4090 attached as Alexander's father with uncertain status. The research notes should describe the relationship as probable, set out the three-step argument, and name the Clinton County petition as the decisive outstanding record. Make no change to mother or siblings. The most useful next records remain Nancy's probate packet (petition, heir schedule, affidavits of service), Robert-938's survival in 1892, and any Rasharkin/Desertoghill record naming John's children.
+
+### Searches for a direct father statement, 23 September 2026 (all negative)
+
+- [Clinton County probate register, Nancy Glasgow estate](https://www.familysearch.org/ark:/61903/3:1:33SQ-GYCZ-X98?view=fullText) (FamilySearch, AI transcript read): this is a docket of steps only. It records the petition, citation, publication, oath, probate, the inventory and a collateral inheritance tax appraiser (Cabell McLean). It gives no heirs or relationships. The [Will Book Q recording, p.255](https://www.familysearch.org/ark:/61903/3:1:33SQ-GYC4-66V?view=fullText) has no recital of heirs. The petition and the collateral-tax appraiser's report are not filmed in the FamilySearch catalogue ([catalogue 319520](https://www.familysearch.org/en/search/catalog/319520) holds will books only). They are held at the Clinton County Surrogate's Court.
+- FamilySearch Scotland index: no death or census entry found for Ann (Glasgow) McClelland herself. The only Ann Glasgow McClelland index hits are her sons' 1870 death and 1873 marriage, already held.
+- [1831 Londonderry census (Macafee)](https://www.billmacafee.com/1831census/1831derrycensus.xlsx): no John Glasgow in Desertoghill. The Glasgow heads found were Danl. at Kilrea, Robt. at Coltrim, John at Drummeen (Lissan), and John and Adam at Inishrush.
+- [Letitia Glasgow death, Ballymoney workhouse, 30 January 1871](https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1871/020787/7291709.pdf), entry 355: widow, 81, mendicant; the informant was the workhouse officer. No family link.
+- [John Glasgow (Glasgow-867) death, 24 June 1885](https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1885/06280/4799372.pdf), Dirraw entry 2: the informant was James Glasgow, son. No sibling link.
+- GRONI death images, viewed on 23 September 2026 (images not retained, per GRONI terms):
+  - Robert Glasgow, D/1868/27/1005/2/324: died 31 March 1868 in Ballymoney Workhouse; married; labourer; 71; cancer. The informant was John Stewart, workhouse officer. This is a pauper labourer dying in the workhouse, a weak fit for the 1834 Lisnagaver tithe farmer.
+  - Daniel Glasgow, D/1868/31/1005/1/451 (Dirraw): died 14 December 1867 at Culmore; married; weaver; 50. The informant was Martha Glasgow (her mark), present at death, relationship not stated (probably his wife).
+  - Elizabeth Anderson, D/1868/31/1005/2/25 (Dirraw): died 7 September 1868 at Gortahar; married; farmer's wife; 66; phthisis. The informant was James Anderson (his mark), present at death.
+  - Jane Dysert, D/1868/22/1004/1/418 (Ballymena SRD, Clough sub-district, entry 418): died 13 September 1868 at Crushybracken, Rasharkin parish; married; 64; the wife of a farmer; heart disease, two years, certified. The informant was James Dysert (his mark), present at death, Crushybracken. Registered 22 September 1868.
+  - None of the four names a Glasgow sibling. All four GRONI credits are now used.
+  - [Jane (Glasglow) Dysart (Glasglow-11)](https://www.wikitree.com/wiki/Glasglow-11) and her husband [Dysart-1684](https://www.wikitree.com/wiki/Dysart-1684) are managed by Marion Hemopo. On 23 September 2026 the record details were added to Glasglow-11: death place Crushybracken (certain), the GRONI citation and a link to her husband. The existing text and Find a Grave source were preserved.
+- The NAI tithe site did not respond from this machine.
+
+## Parentage and Larne reassessment, 21 September 2026 (father confidence revised 23 September)
+
+**John Glasgow, farmer, remains a plausible leading candidate for Alexander's father. His identification with the 1796 Desertoghill flax grower (Glasgow-4090) is a separate, unproved hypothesis.** Nancy Glasgow's will and 1892 probate citation support a probable sibling network including Alexander and John of Lisnagaver. They do not name Alexander's father, distinguish full from half siblings, or justify excluding Thomas and Daniel solely because their children were omitted. The original petition, heir schedule and service papers remain the most useful next records.
+
+The 17–18 September conclusions that the Larne question was exhausted, that omitted families were excluded, and that the patriarch was intestate are superseded. The records remain useful; those conclusions exceeded their coverage.
+
+## Source findings — limits and reopened records, 21 September 2026
+
+| Source | Checked evidence | Current assessment and next test |
+| --- | --- | --- |
+| [Plattsburgh Republican, 23 January 1892, citation](https://fultonhistory.com/Newspaper%2024/Plattsburg%20NY%20Republican/Plattsburg%20NY%20Republican%201889-1892/Plattsburg%20NY%20Republican%201889-1892%20-%201042.pdf) and [Nancy's will](https://www.familysearch.org/ark:/61903/3:1:33SQ-GYC4-66V?view=fullText) | The notice groups named people as heirs/next of kin and others as legatees; the will expressly names niece Margaret Kennedy and nephew Robert Anderson. Elizabeth Anderson is supplied by the baptism evidence, not named as a parent in the notice. | Probable sibling reconstruction, not a complete adjudicated pedigree. Copies of the same notice are one underlying source. Obtain the petition and service papers; verify omitted potential relatives and the informant's knowledge. |
+| [Matter of De Voe, 107 A.D. 245 (1905)](https://law.justia.com/cases/new-york/appellate-division/1905/107-ad-245.html) | The opinion distinguishes the pre-1898 restriction on representation in personal property from the rules for real property. Nancy's notice concerns both. | The personal-property rule cannot alone prove that every cited relative was a niece/nephew or that omitted descendants were unrelated. This later judgment explains the distinction; it is not Nancy's decree or a substitute for the exact contemporary statute and case papers. |
+| [PRONI Will Calendars](https://www.proni.gov.uk/will-calendars) and [pre-1858 Name Search](https://www.proni.gov.uk/name-search) | The calendar database covers 1858–1965. The project already holds Thomas Glasgow of Lisnagaver's administration, granted 7 September 1870 to widow Mary Anne, and indexes for Larne Glasgows before 1858. | The reported universal zero result is contradicted by existing records. No result for the unidentified older John proves neither intestacy nor exhaustion. Resume pre-1858 wills/administrations, surviving copies and estate/deed searches; William-3324's will, D300/1/5/49, remains a concrete Larne target. |
+| [1796 Londonderry flax list, p.49, entry 2070](https://www.billmacafee.com/1796flaxgrowerslist/1796flaxgrowersderry.pdf#page=49), [compiler's coverage and premium explanation](https://www.billmacafee.com/18centurydatabases.htm), [North Antrim list](https://www.billmacafee.com/1796flaxgrowerslist/1796flaxgrowersantrim.pdf) | John Glasgow is listed at Desertoghill for two wheels. The companion Antrim compilation expressly covers selected North Antrim parishes, not the whole county or Larne/Kilwaughter. Two wheels are a flax-growing premium corresponding to two roods under the scheme. | Retain the documented Desertoghill occurrence. The award is not an inventory of household equipment or proof of exclusive occupation; absence from the limited Antrim list cannot exclude the Larne family or distinguish kinship. |
+| [FamilyTreeDNA Group Time Tree documentation](https://help.familytreedna.com/hc/en-us/articles/6463932665871-Group-Time-Tree) and [public Glasgow results](https://www.familytreedna.com/public/Glasgow?iframe=ydna-results-overview) | A haplogroup age is an estimate with a range. The maintained matrix distinguishes the confirmed Alexander/James J FT20271 lines from SNP-unresolved reported Larne lines. | A reported c.1600 age for the whole branch is not the date of a particular pair's common ancestor and cannot rule out a later joining generation. James J's proposed descent through Robert and Archibald is itself unproved. No new raw DNA analysis or live FT20271 age verification was completed in this audit. |
+
+## Larne relationship assessment — open, 21 September 2026
+
+[John Glasgow of Larne (Glasgow-4179)](https://www.wikitree.com/wiki/Glasgow-4179) is now attached to [Hugh Glasgow (Glasgow-1499)](https://www.wikitree.com/wiki/Glasgow-1499) as an **uncertain son**, with low confidence. This is a working hypothesis based on locality and generation, not a record naming his father. [Older William (Glasgow-1505)](https://www.wikitree.com/wiki/Glasgow-1505) remains viable. No mother is attached; Hugh's wife Ann is not thereby identified as John's mother.
+
+The duplicate marriage has been resolved: [Rose Allan (Allan-6611)](https://www.wikitree.com/wiki/Allan-6611) is the wife of the Larne John, married in 1769 according to the [archived Kilwaughter/Larne chronology](https://web.archive.org/web/20101124184247id_/http://lifesweaving.com/Glasgow/Kilwaughter/Timeline.html). Allan-8249 now redirects to Allan-6611, the older ID required by WikiTree. Both Rose profiles cited the same marriage; neither supplied an independent Rose baptism. Her estimated birth about 1750 and inferred County Antrim birthplace remain uncertain. The chronology's 1745–48 birth estimate concerns John, not Rose.
+
+[John Glasgow of West Calder (Glasgow-2846)](https://www.wikitree.com/wiki/Glasgow-2846), son of [John Glasgow (Glasgow-2847)](https://www.wikitree.com/wiki/Glasgow-2847) and [Margaret Anderson](https://www.wikitree.com/wiki/Anderson-83671), remains a separate identity. Rose has been detached from him. The [1747 Scottish baptism citation](https://www.familysearch.org/ark:/61903/1:1:VQ4T-R5D) has not been re-inspected beyond the existing citation because FamilySearch requires sign-in. No inspected evidence joins that Scottish child to the Larne groom; this separation does not prove that they could never be the same man.
+
+The original PRONI MIC/1B/6 marriage and baptism entries and the named lives in the 1751/1767 endorsements to lease D2977/3A/4/81/72A remain the tests for Hugh versus William. The [Larne memorial](https://archive.org/stream/ulsterjournalofa06ulstiala/ulsterjournalofa06ulstiala_djvu.txt), pp.47–48, does not name John and is not proved to enumerate every surviving child.
+
+[John Glasgow (Glasgow-4179)](https://www.wikitree.com/wiki/Glasgow-4179), reported married to Rose Allan in 1769, remains a Larne candidate whose proposed Hugh parentage and descendant bridge are unproved. His c.1745–48 birth is a compiler's estimate. The stone and derivative register list do not positively identify him as Hugh-1503's son, but their silence does not prove he was not a son; neither is established as an exhaustive list of Hugh's children.
+
+The proposed intervening son born c.1760–70 is not evidence: much of that range precedes the 1769 marriage and gives the estimated father an age of only 12–25. Test actual identities and generation intervals before inventing another John. The original MIC/1B/6 register is a priority, alongside estate succession, deeds, wills and related households. It is not the only conceivable surviving source. Neither an eighteenth-century Larne connection nor an earlier common origin is proved or excluded.
+
+## Current conclusion — Alexander's probable sibling network
+
+The combined citation, Nancy's explicit kin terms, Rasharkin baptisms and the James Garvin/Ann child group favour Alexander and John-867 as Nancy's brothers. John-867's 1846 marriage directly names his own father John Glasgow, farmer; extending that father to Alexander depends on a shared paternal relationship. The family's use of the same surname makes that a useful working model, not proof.
+
+The notice's Ballydonnelly residence and unidentified Lizzie remain checks on the John-867 match. Thomas's family's Ballydonnelly mill offers context, not proof that the American informant confused households. Omission of Thomas's children may count against a proposed relationship after survival and expected inclusion are established, but it cannot categorically exclude Thomas, Daniel or the Glenleslie family. A person can also be Alexander's half-brother without being Nancy's sibling. The older-Alexander/Rosanna tradition remains weak evidence about Thomas; this audit does not establish it as Alexander's parentage.
+
+The proposed births span roughly 1790–1821. That warrants checking ages, identities and possible half relationships; it does not establish that a particular father had two wives. No mother has been identified. The full argument and the remaining record leads appear below.
+
+## Corrected: Lisnagaver birth, 3 October 1887, belongs to John-867's line
 
 
-## Current conclusion — Alexander's father, 17 September 2026
+The original civil birth return (Dirraw registrar's district, entry 352) records **John Garvin** [Glasgow], born at Lisnagaver on 3 October 1887, son of James Glasgow, farmer, Lisnagaver (informant), and Eliza Ann Glasgow formerly **Eakin**. An earlier reading of the maiden name as "Lappin" and the suggestion that the child might be a son of Alexander's son [[Glasgow-973|James Glasgow]] are withdrawn after inspection of the image on 17 September 2026: the child's forename Garvin and the mother's maiden name Eakin/Aiken identify the parents as [[Glasgow-2406|James Garvin Glasgow]] (son of [[Glasgow-867|John Glasgow]]) and Eliza Ann Aiken, married 1 July 1886 — the parents of the existing profile [[Glasgow-4005|John Garvin Glasgow]] (which previously had only the gravestone's undated "infant son John Garvin"). The child is absent from their 1901 and 1911 households, and the birth record supplies the exact date (3 October 1887) the profile lacked.
 
-**Leading hypothesis: Alexander's father was John Glasgow, farmer — the man
-named as father in the 1846 marriage return of [John Glasgow of Lisnagaver
-(Glasgow-867)](https://www.wikitree.com/wiki/Glasgow-867). Status: plausible
-(conflict-free indirect case; no record yet names Alexander's own father).**
+Source: [IrishGenealogy civil birth record](https://www.irishgenealogy.ie/view?record_id=f66be225e5-4072024), [original 1887 birth return](https://www.irishgenealogy.ie/files/civil/birth_returns/births_1887/02541/1940589.pdf), entry 352, Dervock/Dirraw registrar's district, Ballymoney union, County Antrim; image inspected 17 September 2026.
 
-The reasoning rests on the 14 January 1892 Clinton County probate citation for
-[Nancy Glasgow of Plattsburgh (Glasgow-4070)](https://www.wikitree.com/wiki/Glasgow-4070),
-read as the legal document it is. A New York probate citation had to be issued
-to the testator's heirs and next of kin. Nancy was unmarried, about 68 in 1889
-(born c.1820–21), so her next of kin were her surviving brothers and sisters and
-the children of deceased brothers and sisters; New York admitted no
-representation among collaterals beyond brothers' and sisters' children. The
-citation names **no sibling directly** and lists **only children of named
-people**: the children of John Glasgow late of "Baladonly", of Alexander
-Glasgow formerly of Rasharkin, of Robert Glasgow, of Jane (Glasgow) Dysart, of
-Elizabeth (Glasgow) Anderson (the Andersons "of Gortahar"), of Ann McClelland
-and of Mary Thompson. That is exactly the shape of a next-of-kin list for a
-woman all of whose siblings were dead: John, Alexander, Robert, Jane, Elizabeth,
-Ann and Mary are Nancy's deceased siblings, and every cited person is a niece or
-nephew. Grand-nephew Robert Wallace Anderson — a legatee — is correctly absent,
-which shows the list was drawn to the legal rule, not to who was remembered.
-
-Three consequences follow for Alexander:
-
-1. **Alexander-951 was Nancy's brother, not her father.** His identity with the
-   citation's Alexander was already probable (Mary's 1871 and Ann's 1876
-   marriages name Alexander of Lisnagaver as father; James, Mary and Ann are
-   the three children the citation lists). Nancy's c.1820–21 birth excludes
-   daughterhood. Alexander's death at **Gortahar** in 1888 and his widow's death
-   there in 1892 place his last years in the townland of his sister Elizabeth's
-   Anderson sons. Alexander, Jane (Dysart) and Elizabeth (Anderson) all baptised
-   children in the same Rasharkin Presbyterian register in 1834–46.
-2. **Alexander was the brother of John-867, whose father is on record.** The
-   citation's "James G. Glasgow, Ann and Lizzie, children of John Glasgow late
-   of Baladonly" match John-867's children James **Garvin** Glasgow (b. c.1852),
-   Ann (b. 1848, later Bellingham, whose 1875 marriage names father John) and
-   Elizabeth Ann (d. 1933 aged 84, on the family memorial). "Late of" fits
-   John's 24 June 1885 death at Lisnagaver. "Baladonly" is Ballydonnelly, a
-   townland in Rasharkin civil parish. John-867's 1846 marriage names his
-   father **John Glasgow, farmer**; the 1851 census makes Samuel-2908 (b. c.1790,
-   County Londonderry) John's brother. If Alexander and John-867 were full
-   brothers, Alexander's father was that John.
-3. **The older-Alexander-and-Rosanna hypothesis is now contradicted for
-   Alexander-951.** It depended on Alexander being a brother of Thomas-987 and
-   Daniel-3896. Thomas died in 1870 leaving children who were adults at Lisnagaver in
-   the 1880s (Anne/Nancy m. 1879; Daniel Neely m. 1888). Had Thomas been
-   Nancy's brother, those children were next of kin and had to be cited. They
-   are absent while nieces in New Zealand are named. Thomas was therefore not
-   Nancy's sibling, so Alexander was not Thomas's brother, and Daniel — Thomas's
-   proved brother — falls outside Alexander's sibling group with him. The
-   same test excludes [Robert of Glenleslie (Glasgow-1367)](https://www.wikitree.com/wiki/Glasgow-1367),
-   Alexander's current uncertain WikiTree father: none of his documented family
-   (Margaret's Young children, Hugh, William, Samuel, the Doonbought Robert-1049
-   whose daughters were Catherine, Margaret, Maria, Netta and Jane) appears in
-   the citation.
-
-Reconstructed sibling group of John Glasgow, farmer (order approximate):
-Samuel c.1790 (Londonderry-born, d. 1875, unmarried); Robert c.1797? (the 1834
-Lisnagaver tithe co-occupier, Griffith's Gortereghy occupier and possibly the
-1868 Ballymoney decedent aged 71 — identity unresolved; daughters Mary Jane and
-Ann not yet found); John c.1801/07 (Antrim-born, d. 1885); Jane c.1804
-("Lisnagavor" in the Dysart family tradition, m. James Dysart, d. 1868);
-Alexander c.1811 (Antrim-born, d. 1888); Elizabeth by c.1816 (m. James
-Anderson, Drumack; sons at Gortahar); Ann (m. McClelland); Mary (m. Thompson);
-Nancy c.1820–21 (d. Plattsburgh 1891). A thirty-year span implies the father
-had two wives; no mother is identified for any of them. The father's 1796
-Desertoghill flax-grower placeholder [Glasgow-4090](https://www.wikitree.com/wiki/Glasgow-4090)
-is a record-defined stand-in for the named John, not an identified man: the
-family's County Londonderry origin (Samuel's birthplace; John-867's Desertoghill
-marriage and Londonderry-born daughter) makes it a reasonable lead only.
-
-What the argument does **not** establish: no record names Alexander's father
-directly; the citation cannot distinguish full from half siblings (New York
-treated half-blood equally), so a shared mother with a different Glasgow father
-remains a formal alternative; the newspaper text is known from an inspected
-clipping transcribed on Glasgow-4070, not from a re-inspected image in this
-session; and the citation's Robert is unidentified. The decisive record is
-Nancy's underlying Clinton County probate petition or heir schedule, which
-should state each cited person's relationship. Full analysis: *Nancy Glasgow's
-next-of-kin citation and Alexander's father* below.
 
 ## Current conclusion — original Canadian deeds, 13 September 2026
 
@@ -160,11 +133,11 @@ Alexander’s genotype. The project’s submitted “d.1852” ancestor label is
 death record. The public Discover tree could not be retrieved in this review.
 
 Alexander’s parents remain unproved by any direct record. Since 17 September 2026 the
-leading hypothesis is the father named John Glasgow, farmer, shared with John-867 and
-Samuel-2908 (see *Current conclusion — Alexander's father* above). Daniel and Thomas
-are documented brothers, but Nancy's 1892 next-of-kin citation omits their children,
-so Alexander is now unlikely to be their brother; older Alexander and Rosanna are a
-contradicted rather than a working tradition for Alexander-951. The reported
+leading hypothesis is John Glasgow, farmer, conditionally shared with John-867
+and Samuel-2908 (see the 21 September current conclusion). Daniel and Thomas
+are documented brothers; their relationship to Alexander remains unproved.
+Their children's omission does not exclude brotherhood or establish or disprove
+the older-Alexander/Rosanna tradition for Alexander. The reported
 Thomas-descendant autosomal match is a separate unverified lead. Mary (28 in 1871) and Maryan
 (17 in 1851) remain possible but unproved identities; the age conflict neither
 proves their identity nor justifies an absolute exclusion by itself. Tithe
@@ -189,7 +162,7 @@ The 1868 Robert death aged 71 implies birth c.1796–97. If matched to the tithe
 
 The earlier combined-father objection is withdrawn because it tested a hypothesis that was not proposed. Robert-2769 is proposed only as James J’s father, not the father of Alexander, Thomas or Daniel. Archibald’s missing boy, Robert’s age and South Carolina origin, and the later Tennessee household provide a coherent positive case for investigation. The first two links in Robert-1143 → James-1144 → Archibald-2304 → Robert-2769 → James J are record-supported; the last two remain working hypotheses. The precise Irish joining generation is still open.
 
-For parentage, the first discriminating record is now Nancy Glasgow's underlying Clinton County probate petition or heir schedule (relationship wording for each cited person), followed by PRONI CR5/32/1/1/1–2 family groups and any Rasharkin/Desertoghill record naming the children of John Glasgow, farmer. Reconstruct the local Robert (daughters Mary Jane and Ann) in parallel. Rosanna's maternity remains separate from older Alexander's paternity, and both are now contradicted for Alexander-951. Earlier weighting is retained in `parentage-weight-review-2026-09-13.md`; the 17 September reassessment above supersedes its ranking of the older-Alexander hypothesis.
+For parentage, the first discriminating record is now Nancy Glasgow's underlying Clinton County probate petition or heir schedule (relationship wording for each cited person), followed by PRONI CR5/32/1/1/1–2 family groups and any Rasharkin/Desertoghill record naming the children of John Glasgow, farmer. Reconstruct the local Robert (daughters Mary Jane and Ann) in parallel. Rosanna's maternity remains separate from older Alexander's paternity; neither is proved for Alexander-951. Earlier weighting is historical; the 21 September review supersedes the categorical exclusions of 17 September.
 
 ## Historical research log
 
@@ -1184,19 +1157,19 @@ The witness must remain unidentified. The register says **Mary Anne**, not Mary 
 
 ## Candidate-father assessment
 
-Reassessed 17 September 2026 against Nancy Glasgow's 1892 next-of-kin citation (see the dated section *Nancy Glasgow's next-of-kin citation and Alexander's father*).
+Reassessed 21 September 2026. The probable Nancy sibling network is positive indirect evidence; omission alone does not exclude other families.
 
 | Candidate | Verdict | Reason |
 | --- | --- | --- |
-| **John Glasgow, farmer**, father of John `Glasgow-867` and Samuel `Glasgow-2908` (record-defined placeholder `Glasgow-4090`) | **Leading hypothesis; plausible** | Nancy's citation lists the children of John-867 and the children of Alexander-951 in the same next-of-kin class, alongside the children of Jane Dysart, Elizabeth Anderson, Robert, Ann McClelland and Mary Thompson. On the legal reading all are Nancy's deceased siblings, so Alexander and John-867 were brothers and share John-867's recorded father. No record names Alexander's father directly; full/half-sibling status is not distinguishable from the citation. Identity of this John with the 1796 Desertoghill flax grower (Glasgow-4090) is a lead, not proved. |
-| John `Glasgow-1022` of Glenleslie | Unsupported | No Glenleslie family member appears in Nancy's citation; the earlier Mary/Maryan age conflict stands. The Lisnagaver father John should not be identified with him. |
-| James `Glasgow-1702` | Excluded | Born/baptised 1799; Alexander was born about 1811. James was only about twelve. His adult marriage names father William and supplies no Rasharkin/Lisnagaver link. |
-| Robert `Glasgow-1367` of Glenleslie (current uncertain WikiTree father) | Contradicted | None of his documented children or grandchildren (Margaret's Young children, Hugh, William, Samuel, John-4055, Robert-1049 and his daughters Catherine, Margaret, Maria, Netta, Jane) is cited as Nancy's next of kin, and no Lisnagaver bridge exists. The 1834 Lisnagaver Robert is a different question (see below). |
-| Robert `Glasgow-3941` | Separate unresolved Coltrim man | The 1820 lease, 1827 tithe and 1831 census securely identify one Robert at Coltrim, but give no ages or names of family members. No record links him to Alexander or to the Lisnagaver holding. |
-| Unidentified Robert of Lisnagaver (1834 tithe) | Re-cast as probable brother, not father | The citation's "Robert Glasgow, father of Mary Jane and Ann" is best explained as a deceased brother of Nancy. The 1834 co-occupier (35 acres beside Alexander's 29), the Griffith's Gortereghy Robert and the 1868 Ballymoney decedent aged 71 (b. c.1797) are compatible with that brother; identity between them and the daughters Mary Jane and Ann remain to be documented. |
-| Adam `Glasgow-1622` | Possible collateral lead | His proved son James was born about 1812/13 and lived at Inishrush, making James an age-and-region match for a possible cousin of Alexander. The marriage does not name James's mother, Adam's residence or any Alexander. |
-| An unidentified James | Weak naming-pattern lead | Alexander's first recorded son was James and the name was reused after that child apparently died. This is compatible with a paternal grandfather James, but traditional naming was not universal and the complete child order and maternal grandparents are unknown. |
-| Older Alexander `Glasgow-3904` and Rosanna | Contradicted for Alexander-951 | The hypothesis depended on Alexander being a brother of Thomas-987 and Daniel-3896. Their children, alive in 1892 (Thomas's at Lisnagaver), are absent from Nancy's next-of-kin citation while remoter kin in New Zealand are named; Thomas and Daniel were not Nancy's siblings, so Alexander was not their brother. The tradition itself concerns Thomas's parents only and is unaffected as a statement about Thomas. |
+| John Glasgow, farmer, named by John-867 in 1846 | Leading hypothesis; plausible | Requires Alexander and John-867 to share a father. The citation supplies probable kinship, not the paternal edge. Identity with the Desertoghill flax grower Glasgow-4090 remains possible only. |
+| John Glasgow-1022 of Glenleslie | Unsupported | No positive record identifies him as Alexander's father. Absence of his family from Nancy's notice is not decisive. |
+| James Glasgow-1702 | Chronologically incompatible with the current dates | His 1799 birth/baptism is only about twelve years before Alexander's estimated birth; no independent Lisnagaver bridge. |
+| Robert Glasgow-1367 of Glenleslie | Unsupported attachment | No positive Lisnagaver identity/parentage bridge; the notice's omissions alone do not disprove it. |
+| Robert Glasgow-3941 of Coltrim | Separate unresolved candidate | Lease, tithe and census define the Coltrim man but name no family connecting him to Alexander. |
+| Robert of Lisnagaver in 1834 | Identity and kinship unresolved | May be the notice's Robert, father of Mary Jane and Ann, but that identification must not be used to exclude an older same-name father hypothesis. |
+| Adam Glasgow-1622 | Possible collateral lead | His son James's dates and region supply a comparison, not Alexander's parentage. |
+| An unidentified James | Weak naming lead | Repeated son-name James is compatible with either side of the family and incomplete birth order. |
+| Older Alexander Glasgow-3904 and Rosanna | Unproved traditional alternative | The tradition concerns Thomas. Extending it to Alexander requires a separate link; Thomas's absence from Nancy's notice does not logically disprove Alexander–Thomas half-brotherhood. |
 
 ## Concrete paternal genetic relatives
 
@@ -1452,20 +1425,20 @@ to Alexander, Daniel and Thomas remains unknown.
 
 ### Exact relationship reconstruction
 
-Revised 17 September 2026.
+Revised 21 September 2026. These are evidence assessments, not a fresh read of live attachments.
 
 | Role | Profile | Evidence treatment |
 | --- | --- | --- |
-| Proposed father (uncertain) | [John Glasgow, farmer (Glasgow-4090)](https://www.wikitree.com/wiki/Glasgow-4090) | Leading hypothesis from Nancy's 1892 next-of-kin citation plus John-867's 1846 marriage return. Glasgow-4090 is the record-defined placeholder for the named father; mark **uncertain**. |
-| Currently attached father (contradicted) | [Robert Glasgow (Glasgow-1367)](https://www.wikitree.com/wiki/Glasgow-1367) | No Glenleslie relative is cited as Nancy's next of kin. Replace with Glasgow-4090 in the same edit; do not simply detach. |
-| Currently attached mother (no independent basis) | [Catherine Unknown (Unknown-540856)](https://www.wikitree.com/wiki/Unknown-540856) | Robert's wife only; contradicted with him. No evidenced replacement mother exists, so under the preservation rule leave the field populated and uncertain with an explanatory note until a mother is evidenced, or blank it only by the manager's explicit decision. |
-| Former hypothesis (contradicted) | [Alexander Glasgow (Glasgow-3904)](https://www.wikitree.com/wiki/Glasgow-3904) and [Rosanna Unknown (Unknown-761034)](https://www.wikitree.com/wiki/Unknown-761034) | Not attached to Alexander-951; do not attach. Nancy-4070 and Elizabeth-4071 are attached to them and should be re-parented to Glasgow-4090 (uncertain) with the same evidence. |
+| Proposed father (conditional) | [John Glasgow, farmer (Glasgow-4090)](https://www.wikitree.com/wiki/Glasgow-4090) | Leading hypothesis from Nancy's 1892 next-of-kin citation plus John-867's 1846 marriage return. Glasgow-4090 represents the independently recorded flax grower; his identity with the named father is unproved. |
+| Earlier father attachment (unsupported) | [Robert Glasgow (Glasgow-1367)](https://www.wikitree.com/wiki/Glasgow-1367) | No positive parentage bridge; omissions alone do not exclude him. No replacement is established by this audit. |
+| Earlier mother attachment (no independent basis) | [Catherine Unknown (Unknown-540856)](https://www.wikitree.com/wiki/Unknown-540856) | Robert's wife only; her maternity is unproved. No evidenced replacement mother exists, so under the preservation rule leave the field populated and uncertain with an explanatory note until a mother is evidenced, or blank it only by the manager's explicit decision. |
+| Traditional hypothesis (unproved) | [Alexander Glasgow (Glasgow-3904)](https://www.wikitree.com/wiki/Glasgow-3904) and [Rosanna Unknown (Unknown-761034)](https://www.wikitree.com/wiki/Unknown-761034) | The tradition concerns Thomas; a relationship to Alexander is an additional unproved step. This audit does not authorize or justify reparenting. |
 | Probable sister | [Nancy Glasgow (Glasgow-4070)](https://www.wikitree.com/wiki/Glasgow-4070) | Citation lists Alexander's children as her next of kin; her c.1820–21 birth excludes daughterhood. |
-| Probable brother | [John Glasgow (Glasgow-867)](https://www.wikitree.com/wiki/Glasgow-867) | Citation lists his children James G., Ann and Lizzie in the same class; father John on record. Probably the same man as [Glasgow-3474](https://www.wikitree.com/wiki/Glasgow-3474) (d. 24 June 1885), whose profile still asserts the contrary. |
-| Probable brother | [Samuel Glasgow (Glasgow-2908)](https://www.wikitree.com/wiki/Glasgow-2908) | 1851 census brother of John-867; unmarried, so correctly absent from the citation. |
-| Probable sisters | [Jane (Glasglow-11)](https://www.wikitree.com/wiki/Glasglow-11), [Elizabeth (Glasgow-4071)](https://www.wikitree.com/wiki/Glasgow-4071); Ann McClelland and Mary Thompson (no profiles) | Their children are cited as Nancy's next of kin. Ann and Mary: **No WikiTree profile found — hold** until a marriage or child record identifies them. |
+| Probable brother | [John Glasgow (Glasgow-867)](https://www.wikitree.com/wiki/Glasgow-867) | Citation lists his children James G., Ann and Lizzie in the same class; father John on record. Probably the same man as [Glasgow-3474](https://www.wikitree.com/wiki/Glasgow-3474) (d. 24 June 1885), reported merged into John-867 on 17 September; the underlying death/memorial discrepancy remains source history. |
+| Probable brother | [Samuel Glasgow (Glasgow-2908)](https://www.wikitree.com/wiki/Glasgow-2908) | 1851 census proves brotherhood with John-867. His relationship to Nancy and Alexander is inferred; unmarried status alone would not explain absence if he were living. |
+| Probable sisters | [Jane (Glasglow-11)](https://www.wikitree.com/wiki/Glasglow-11), [Elizabeth (Glasgow-4071)](https://www.wikitree.com/wiki/Glasgow-4071); [Ann McClelland (Glasgow-4092)](https://www.wikitree.com/wiki/Glasgow-4092) and [Mary Thompson (Glasgow-4093)](https://www.wikitree.com/wiki/Glasgow-4093) | The notice and separate household records support probable kin. Elizabeth is identified from other records; Mary remains citation-only. Shared fatherhood is unproved. |
 | Probable brother, unidentified | Robert Glasgow, father of Mary Jane and Ann | Candidates: 1834 Lisnagaver co-occupier, Griffith's Gortereghy Robert, 1868 Ballymoney decedent (Glasgow-3449). No profile should be attached until the daughters are documented. |
-| Not brothers (revised) | [Thomas Glasgow (Glasgow-987)](https://www.wikitree.com/wiki/Glasgow-987), [Daniel Glasgow (Glasgow-3896)](https://www.wikitree.com/wiki/Glasgow-3896) | Proved brothers of each other; their children's absence from Nancy's citation makes them cousins or unrelated to Alexander, not brothers. Keep as local network only. |
+| Possible brother or collateral relationship | [Thomas Glasgow (Glasgow-987)](https://www.wikitree.com/wiki/Glasgow-987), [Daniel Glasgow (Glasgow-3896)](https://www.wikitree.com/wiki/Glasgow-3896) | Proved brothers of each other. Relationship to Alexander remains unproved; citation omissions do not exclude full or half brotherhood. |
 | Son | [Robert Glasgow (Glasgow-938)](https://www.wikitree.com/wiki/Glasgow-938) | Confirmed by 1866 marriage and family continuity. |
 | Son | [James Glasgow (Glasgow-973)](https://www.wikitree.com/wiki/Glasgow-973) | Documented by Rasharkin entry 203 and the 1851 household; keep the separate Michigan identity unproved. The citation's "James Glasgow" among Alexander's children is consistent with him. |
 | Daughters | [Mary (Glasgow-3167)](https://www.wikitree.com/wiki/Glasgow-3167), [Ann Glasgow (Glasgow-438)](https://www.wikitree.com/wiki/Glasgow-438) | Marriage records name father Alexander; both named in Nancy's citation. |
@@ -1482,22 +1455,10 @@ Revised 17 September 2026.
 
 ### Suggested corrections
 
-- **Structured parent change (17 September 2026, manager decision):** replace the
-  uncertain father Robert `Glasgow-1367` with John Glasgow, farmer `Glasgow-4090`,
-  marked uncertain, in one edit. Explain in Research Notes that the placement
-  rests on Nancy Glasgow's 1892 next-of-kin citation and John-867's 1846
-  marriage return, and that no record names Alexander's father directly.
-- Re-parent Nancy `Glasgow-4070` and Elizabeth `Glasgow-4071` from Alexander
-  `Glasgow-3904`/Rosanna to `Glasgow-4090` (uncertain) on the same evidence; Jane
-  `Glasglow-11` is another manager's profile — propose rather than edit.
-- Revise Alexander's relationships to Daniel and Thomas from
-  "possible brother or cousin" to "same local network; brotherhood contradicted
-  by Nancy's citation". Daniel and Thomas remain proved brothers of each other.
-- Do not attach John `Glasgow-1022` as Alexander's father. Mary's original
-  marriage age is 28 and excludes the proposed Maryan identity, and no
-  Glenleslie relative is cited as Nancy's next of kin.
-- Remove older Alexander/Rosanna as parent hypotheses for Alexander-951; keep the
-  tradition on Thomas-987 and Glasgow-3904 where it belongs.
+- Keep the father-John model conditional and the Desertoghill identity separate. No record yet establishes a replacement father or mother; make no automatic reparenting recommendation from this audit.
+- Keep Thomas and Daniel as proved brothers of each other and possible brothers or collateral kin of Alexander. Withdraw the categorical exclusions based on Nancy's notice.
+- Keep the older-Alexander/Rosanna tradition attributed to Thomas's descendants; its extension to Alexander remains unproved, not excluded by this notice.
+- Do not identify the named father John with either Glenleslie John-1022 or Desertoghill John-4090 without a record bridge. Mary's marriage-age conflict is a separate identity problem.
 - Replace the false `1851, Glasgow, Scotland` death with the high-confidence
   **16 May 1888, Gortahar** identification, retaining the age conflict and
   Nancy/Ann question in Research Notes. His son Robert, not Alexander, migrated
@@ -1888,7 +1849,7 @@ A broader Killoquin search found estate and deed references, but the inspected 1
 
 ### Superseded conclusion of 24 August 2026 (retained as history)
 
-At that date no new evidence identified Alexander Glasgow (born about 1811)'s parents, and older Alexander Glasgow and Rosanna were retained as an unsourced working hypothesis; that hypothesis was contradicted for Alexander-951 on 17 September 2026 (see the current conclusion on his father). The strongest unresolved sources are, in order: the c.1836 First Kilraughts marriage entry; the early Kilraughts congregation census/register; the 1790 Killoquin/Lisnagaver rent roll; and the original 1816-17 Glasgow Weavers admission entry.
+At that date no new evidence identified Alexander Glasgow (born about 1811)'s parents, and older Alexander Glasgow and Rosanna were retained as an unsourced working hypothesis; the 17 September exclusion was withdrawn on 21 September 2026 (see the current conclusion on his father). The strongest unresolved sources are, in order: the c.1836 First Kilraughts marriage entry; the early Kilraughts congregation census/register; the 1790 Killoquin/Lisnagaver rent roll; and the original 1816-17 Glasgow Weavers admission entry.
 ## Gortahar identification and daughter Mary — 24 August 2026
 
 The 14 June 1871 civil marriage of Robert Elder and Mary Glasgow directly names Mary's father as **Alexr. Glasgow, farmer**, and gives Mary's residence as Lisnagaver. Mary was aged 28. This proves an additional daughter of Alexander Glasgow of Lisnagaver and supplies the bridge to the later Gortahar death records.
@@ -2135,7 +2096,7 @@ The [DNA evidence](#paternal-dna) is positive family evidence. Alexander's estab
 
 There are already **two additional historical comparison routes** in the [public project](https://www.familytreedna.com/public/Glasgow?iframe=ydna-results-overview): a reported Robert-1143 line tested at Y-111, and a reported John-822 line tested at Y-67. They place the Larne and Inishrush questions within the same broader STR research network. Their public broad haplogroup labels do not yet establish either as FT20271-positive. Auditing those descent paths and obtaining resolved SNP states would test the proposed geographic connection more directly than treating all current FT20271 matches as interchangeable. John's omission of Alexander from his family Bible weakens **John as Alexander's father**, not John as a collateral relative.
 
-The proposed older Larne tree must also be tested. James-1509’s imported and live attachment is to [William-1505](/people/glasgow-1505.html), while the reviewed catalogue also carries a competing Hugh hypothesis. A William Glasgow, merchant of Larne, witnessed the 1760 lease; his identification with William-1505 needs checking against the other adult Williams. The derivative 1737 baptism names Hugh. [Hugh-1503's](/people/glasgow-1503.html) monument names a different adult son James, born about 1747/48. Both cannot casually be treated as the same child; identifying both as surviving sons of one Hugh would need explanation. William and Hugh's 1736 joint tenancy establishes association, while the proposed connections from them and Robert-1143 to [Robert-1502](/people/glasgow-1502.html) remain unproved. This is the unsettled joining generation, rather than a reason to disregard the well-supported branches below it.
+The proposed older Larne tree must also be tested. James-1509’s imported and live attachment is to [William-1505](/people/glasgow-1505.html), while the reviewed catalogue also carries a competing Hugh hypothesis. A William Glasgow, merchant of Larne, witnessed the 1760 lease; his identification with William-1505 needs checking against the other adult Williams. The derivative 1737 baptism names Hugh. [Hugh-1503's](/people/glasgow-1499.html) monument names a different adult son James, born about 1747/48. Both cannot casually be treated as the same child; identifying both as surviving sons of one Hugh would need explanation. William and Hugh's 1736 joint tenancy establishes association, while the proposed connections from them and Robert-1143 to [Robert-1502](/people/glasgow-1502.html) remain unproved. This is the unsettled joining generation, rather than a reason to disregard the well-supported branches below it.
 
 A second origin model remains useful: the two **Hugh Glasgow householders recorded in Tamlaght O'Crilly in 1740**, followed by a parish Hugh in 1772, could represent local continuity behind Adam. John's [Bible](https://www.hiltner.com/mckeown/getperson.php?personID=I368&tree=tree1) gives sons Adam–James–John and second daughter Maria, suggesting older Adam and Maria under a conventional naming pattern. That pattern is not fully followed, and applying it to Adam-3902 depends on the unproved brotherhood. These are substantive local alternatives. They prevent treating a good Larne reconstruction as already the only surviving family.
 
@@ -3101,50 +3062,142 @@ The **1912 Belfast and Ulster Directory** lists **Thomas Ross** as a **mill owne
 
 Source: [1912 Belfast and Ulster Directory, Rasharkin](https://lennonwylie.co.uk/PT191214.htm), neighbourhood inhabitants, accessed 17 September 2026.
 
-### Nancy Glasgow's next-of-kin citation and Alexander's father, 17 September 2026
+### Nancy Glasgow's next-of-kin citation and Alexander's father — reviewed 21 September 2026
 
-**Question tested.** Does the 1892 Clinton County probate citation for [Nancy Glasgow (Glasgow-4070)](https://www.wikitree.com/wiki/Glasgow-4070), which names Alexander's children among her "heirs or next of kin", identify Alexander's father?
+The 17 September investigation found a substantial positive case for a Rasharkin sibling network. Nancy's will expressly names Robert Anderson as nephew and Margaret Kennedy as niece. The notice groups children of John, Alexander, Robert, Jane Dysart, Ann McClelland and Mary Thompson with the Gortahar Anderson men as heirs/next of kin. Elizabeth's motherhood comes from other records, not the notice's wording. Repeated newspaper printings corroborate the transcription of one notice; they are not independent kinship testimony.
 
-**The record and its legal meaning.** The citation, dated 14 January 1892 and published in *The Plattsburgh Sentinel* on 26 February 1892, p. 6, was issued on Hiram Walworth's petition to prove Nancy's will. Under the New York Code of Civil Procedure then in force (§ 2615) a probate citation had to be directed to the testator's heirs at law and next of kin. Nancy declared herself unmarried and "about 68" in her 15 January 1889 will (Clinton County Will Book Q, pp. 255–259), so with no spouse, issue or living parent her next of kin under the statute of distributions were her brothers and sisters and the children of deceased brothers and sisters; New York admitted no representation among collaterals beyond brothers' and sisters' children, and treated half-blood kin equally with whole-blood kin. A correctly drawn citation therefore lists living siblings by name and deceased siblings only through their children.
+James, Mary and Ann fit Alexander-951's documented children; James G. and Ann fit John-867's James Garvin and Ann. Alexander's c.1811 birth is incompatible with fathering Nancy c.1820–21. These facts favour brotherhood, but Lizzie and Ballydonnelly remain unresolved. The will/baptism bridges make Jane and Elizabeth stronger kin identifications than citation-only Mary Thompson. The proposed birth chronology includes Samuel c.1790, John c.1801/07, Jane c.1804, Elizabeth c.1802, Alexander c.1811 and Nancy c.1820–21; Robert c.1797 remains an identity candidate. A long approximate span does not determine remarriage or a common father.
 
-**What the citation contains** (text as transcribed from the inspected clipping on the Glasgow-4070 profile; the newspaper image could not be re-opened in this session because of the site's access challenge):
+The father-John hypothesis is conditional: John-867 directly names his father in the 1846 marriage; Nancy's citation does not say which parent she or Alexander shared with him. It also cannot make siblinghood transitive. Thomas might be Alexander's half-brother without being Nancy's sibling. No proved parent follows for Alexander.
 
-| Cited persons | Described as | Reading |
-| --- | --- | --- |
-| James G. Glasgow, Ann and Lizzie | children of John Glasgow, late of "Baladonly", County Antrim | children of a deceased brother John |
-| James Glasgow, Mary and Ann | children of Alexander Glasgow, formerly of Rasharkin, County Antrim | children of a deceased brother Alexander |
-| Mary Jane and Ann | children of Robert Glasgow | children of a deceased brother Robert |
-| Robert Dysart of Rasharkin, James Dysart, Sallie (of Ballymena), Mary Jane Hampton, Martha Dysart, Elizabeth Weir (New Zealand), Margaret Kennedy (West Troy) | children of Jane (Glasgow) Dysart | children of a deceased sister Jane (d. 1868) |
-| David, James and Samuel Anderson of Gortahar | Anderson family | children of a deceased sister Elizabeth (Glasgow) Anderson |
-| unnamed children of Ann McClelland | — | children of a deceased sister Ann |
-| unnamed children of Mary Thompson | — | children of a deceased sister Mary |
+The exclusion argument is withdrawn. The same notes excuse Robert-938's omission on possible informant ignorance while using Thomas's children's absence as conclusive. Robert's alleged Scottish survival until 1902 itself needs original-record verification, so this is an unresolved test of completeness. Daniel Neely's residence somewhere in New York does not prove the Plattsburgh informant knew him. The cited pre-1898 rule restricts representation in personalty; the notice covers real and personal property, whose rules differed. [Matter of De Voe](https://law.justia.com/cases/new-york/appellate-division/1905/107-ad-245.html) explains that distinction retrospectively. Obtain the contemporary petition, heir schedule, service papers and decree before using omissions or legal degree to exclude a family.
 
-No one is cited in his or her own right as a sibling, so every sibling was dead by January 1892. Robert Wallace Anderson, a legatee and grand-nephew, is not cited — consistent with the rule that representation stopped at siblings' children — which indicates the list was compiled to the legal standard rather than as a loose list of remembered relatives. Nancy's will independently calls Margaret (Dysart) Kennedy her niece and Robert Anderson her nephew, and the Rasharkin Presbyterian register records Margaret as the daughter of James Dysart and Jane Glascaw (Granagh, 1846) and Robert as the son of James Anderson and Betty Glascaw (Drumack, 1834). The niece/nephew relationships run through Glasgow mothers, so Jane and Elizabeth were Nancy's sisters, and the citation's structure extends the same sibling status to John, Alexander, Robert, Ann and Mary.
+Robert of the notice has daughters Mary Jane and Ann. The 1834 Lisnagaver occupier, later Gortereghy occupier and 1868 Ballymoney decedent aged 71 remain candidates, not an established identity chain. No automatic parent replacement, merge, or new shared-father attachment follows from this reassessment.
 
-**Alexander-951 is the cited Alexander and is Nancy's brother.** Mary's 14 June 1871 marriage to Robert Elder and Ann's 13 October 1876 marriage to Robert McCracken each name Alexander Glasgow of Lisnagaver as father; the 1851 household and Rasharkin entry 203 document James (b. 1843). The citation's three children of "Alexander Glasgow, formerly of Rasharkin" — James, Mary and Ann — are exactly these three, and Alexander's death on 16 May 1888 satisfies "formerly of"/deceased. Nancy's c.1820–21 birth makes her about a decade younger than Alexander, excluding daughterhood and fitting a younger sister. Alexander died at Gortahar and his widow Mary died there in 1892 with daughter Mary Elder present; the citation places Elizabeth's sons David, James and Samuel Anderson "of Gortahar" in the same townland in 1892. Alexander (Gortereagh 1837–38, Lisnagaver 1843), Jane Dysart (Granagh, Crushybracken 1837–46) and Elizabeth Anderson (Drumack 1834–36) all baptised children in the one Rasharkin Presbyterian congregation. Son Robert-938 (alive in Scotland until 1902) is not cited; as a child of a deceased sibling he should have been, and his omission is the one irregularity in Alexander's group. It is best explained by the American informant not knowing of the emigrant son, and it does not affect the identification of the three who are named.
-
-**John of "Baladonly" is John-867, whose father is on record.** [John Glasgow (Glasgow-867)](https://www.wikitree.com/wiki/Glasgow-867) married Margaret Garvin on 16 November 1846 at Second Garvagh; the original return names his father **John Glasgow, farmer**. Their children are Ann (b. 1848, County Londonderry; married Bellingham in 1875 naming father John), Elizabeth Ann (d. 16 June 1933 aged 84 on the family memorial erected by James Garvin Glasgo) and James **Garvin** Glasgow (b. c.1852, d. 1918). "James G. Glasgow, Ann and Lizzie" is an exact match for that child group, with the distinctive middle initial. "Late of" agrees with the civil death of John Glasgow of Lisnagaver on 24 June 1885 aged 78 (son James informant), currently represented by the separate profile [Glasgow-3474](https://www.wikitree.com/wiki/Glasgow-3474); the memorial transcription's 1895 remains the unresolved conflict already discussed in the Glasgow-867 dossier, but a man alive in January 1892 would have been cited himself, so the citation supports 1885. "Baladonly" is a phonetic rendering of **Ballydonnelly**, a townland in Rasharkin civil parish (the same parish as Lisnagaver); no Glasgow occupied Ballydonnelly in the 1834 tithe or in Griffith's Valuation, so the association is unexplained and may reflect a residence between records or the informant's memory. The 1851 census (Lisnagaver house 34) makes Samuel Glasgow (60, linen weaver, born County Londonderry) John's brother.
-
-**Therefore Alexander's father.** If Nancy, John-867 and Alexander were siblings, Alexander's father was the John Glasgow, farmer, named in John-867's marriage. This is the "father John" model already carried in the dossier as conditional on Alexander being a brother; the citation supplies the condition. The chain is: (1) citation structure → Alexander and John-867 are children of Nancy's parents; (2) John-867's marriage → his father was John Glasgow, farmer. Step (1) is an inference from the legal form of the document and the positive niece/nephew statements in the will; step (2) is a direct record. The remaining gaps are that no record names Alexander's own father, and that the citation cannot distinguish full from half siblings — a shared mother with two Glasgow husbands would produce the same list. That alternative is not excluded, but it multiplies entities without evidence and is not adopted.
-
-**Exclusions produced by the same document.**
-
-- *Thomas-987 and Daniel-3896.* Daniel's 1871 will proves them brothers. Thomas died at Lisnagaver in 1870; his children baptised at Rasharkin include Eliza (1842/43) and Jane (1846), and his daughter Anne/Nancy (m. 1879) and son Daniel Neely (m. 28 June 1888, Lisnagaver farmer) were certainly adults in the 1880s, living in the very townland of the cited James Garvin Glasgow. Had Thomas been Nancy's brother, those children were next of kin and had to be cited. They are absent while nieces in Canterbury, New Zealand, are named. (Daniel's will benefited his nephew Daniel Neely, so Daniel may have died childless; his absence is not itself diagnostic.) Thomas was not Nancy's sibling; since Alexander was, Alexander was not Thomas's brother, and Daniel's proved brotherhood with Thomas carries him out of Alexander's sibling group too. The "possible brother or cousin" relationship is downgraded to same-network kin of unproved degree, and the older-Alexander-and-Rosanna parentage — which reached Alexander-951 only through supposed brotherhood with Thomas — is contradicted for him. The tradition remains a statement about Thomas's parents only.
-- *Robert-1367 of Glenleslie and Catherine.* Alexander's current uncertain WikiTree parents. Robert's proved daughter Margaret-3955 had children James and Mary Young; his other attached children are Hugh, William, John-4055, Robert-1049 (d. 10 January 1888, Plainfield, Illinois; daughters Catherine, Margaret, Maria, Netta and Jane, no Mary Jane or Ann) and Samuel-1052. None appears in the citation. Robert-1049 also fails as the citation's "Robert Glasgow, father of Mary Jane and Ann". The Glenleslie family is contradicted as Alexander's family of origin.
-- *John-1022 of Glenleslie.* Same test: none of his family is cited. His daughter Nancy-1369 (1811–1847) is a different Nancy.
-
-**The citation's Robert.** A deceased brother Robert with daughters Mary Jane and Ann fits the second 1834 Lisnagaver tithe occupier (Robt Glasgow, 35 acres, entered immediately after Alexr Glasgow, 29 acres), Griffith's Valuation's Robert Glasgow at Gortereghy (c.1861; house 18c in the 1864 revision book, distinct from Robert-938's later Gortereghy link) and the Robert Glasgow who died in Ballymoney registration district in 1868 aged 71 ([Glasgow-3449](https://www.wikitree.com/wiki/Glasgow-3449); index only, original uninspected). A birth c.1797 sits between Samuel (c.1790) and John (c.1801). None of these identifications is proved and the daughters are undocumented; the earlier reading of this Robert as a possible *father* of Alexander is withdrawn in favour of *brother*.
-
-**Chronology and origin of the sibling group.** Samuel c.1790 (County Londonderry), Robert c.1797, John c.1801 (County Antrim; 1807 by the 1885 death age), Jane c.1804 ("Lisnagavor" in the Dysart family tradition; unsourced), Alexander c.1811 (County Antrim), Elizabeth by c.1816, Ann and Mary (dates unknown), Nancy c.1820–21. A span of about thirty years indicates two marriages of the father; no mother is identified for any child, and Nancy's mother must not be inferred from Rosanna or from Margaret Garvin. The family was in County Londonderry at Samuel's birth and in County Antrim by John's; John-867 married a Desertoghill woman at Garvagh and had a Londonderry-born daughter in 1848. [Glasgow-4090](https://www.wikitree.com/wiki/Glasgow-4090), the John Glasgow in the 1796 Desertoghill flax-growers' list, is the record-defined placeholder currently attached as John-867's and Samuel's father; he is a plausible lead for the named father, not an identified individual, and should carry uncertain status wherever attached.
-
-**Confidence.** Alexander-951 = the cited Alexander: probable (already established, now strengthened). Nancy = Alexander's sister: probable, on the legal form of the citation, the will's niece/nephew statements, the age gap and the Gortahar/Rasharkin setting. Father = John Glasgow, farmer: plausible — the conflict-free leading hypothesis, resting on an inference from document structure plus one direct record. Identity of that John with Glasgow-4090: possible only.
-
-**Discriminating records still to obtain.**
-
-1. Nancy's underlying Clinton County probate file (petition, proof of service, any affidavit of heirship) — should state each cited person's relationship and may give residences; FamilySearch catalog 223236 and the 1892–1898 guardianship/probate volume indexed at image 35 are the entry points.
-2. A record naming Alexander's father directly: PRONI CR5/32/1/1/1–2 (Ballymoney/Kilraughts Reformed Presbyterian family groups 1804–44), First Kilraughts records (MIC/1P/462), or any Rasharkin session/estate rental naming "John Glasgow" of Lisnagaver before 1834.
-3. Civil marriages (1845–) or deaths (1864–) of Mary Jane and Ann Glasgow naming father Robert, Ballymoney or Ballymena districts, to identify the brother Robert; the 1868 Ballymoney death original for Robert aged 71.
-4. Marriages of Ann Glasgow to a McClelland and Mary Glasgow to a Thompson (probably pre-1845 Presbyterian marriages; Rasharkin marriages survive only from 1845) to define the two remaining sisters.
-5. A photograph of the Rasharkin Second Presbyterian GLASGO memorial, to settle 1885 versus 1895 for John-867 and confirm Elizabeth Ann as "Lizzie".
+Next records: Nancy's full Clinton County probate packet; Robert-938's Scottish identity and survival; John-867's Lizzie and Ballydonnelly connection; the 1836 Alexander marriage and Kilraughts family registers; parent-naming records for the reconstructed siblings. The original Rasharkin memorial photograph remains useful for John-867's date conflict, but its Elizabeth Ann is already identified as James Garvin's widow, not Lizzie.
 
 Sources: [The Plattsburgh Sentinel, 26 February 1892, p. 6, legal notices](https://www.nyshistoricnewspapers.org/?a=d&d=plts18920226-01.1.6) (text from the inspected clipping transcribed on Glasgow-4070; image not re-opened 17 September 2026); [Nancy Glasgow's will, Clinton County Will Book Q, pp. 255–259, FamilySearch image 159](https://www.familysearch.org/ark:/61903/3:1:33SQ-GYC4-66V?view=fullText); New York Code of Civil Procedure § 2615 and the statute of distributions (2 R.S. 96, § 75) as in force in 1892 — statutory wording to be quoted from an authoritative edition before publication on WikiTree; [John Glasgow–Margaret Garvin marriage, 16 November 1846, original return](https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1846/09306/5369439.pdf); [1851 census, Lisnagaver house 34](https://www.census.nationalarchives.ie/pages/1851/Antrim/Kilconway/Rasharkin/Lisnagaver/34/); [John Glasgow death, Lisnagaver, 24 June 1885](https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1885/06280/4799372.pdf); [Rasharkin Second Presbyterian headstone transcriptions](https://genealogy.torrens.org/BannValley/church/RasharkinP/graveyard.html); [Rasharkin Presbyterian baptisms 1834–46](https://genealogy.torrens.org/BannValley/church/RasharkinP/Baptisms_1834.html), entries 04, 63, 75, 82, 106, 133, 162, 176, 199, 203, 269, 271; [Griffith's Valuation, Rasharkin](https://www.failteromhat.com/griffiths/antrim/rasharkin.htm); [Macafee, North Antrim tithe data in document order](https://www.billmacafee.com/182030stithe/tithenorthantrimrevisionorder.pdf), Rasharkin records 7288–7311 (Ballydonnelly, no Glasgow) and 7493–7494 (Lisnagaver, Alexr and Robt Glasgow); WikiTree API relatives for Glasgow-951, Glasgow-4070, Glasgow-4071, Glasgow-867, Glasgow-1367, Glasgow-1049, Glasglow-11, Glasgow-4090, retrieved 17 September 2026.
+
+### Live evidence sweep on the sibling network and the father question, 17 September 2026 (part 2)
+
+Working log with every record, URL and assessment: `research-log-2026-09-17-live.md`; subagent handoffs in `sources/agent_*_2026-09-17.md`. Summary of what changed:
+
+**1. The citation's own wording labels the kin classes.** The *Plattsburgh Republican* printed the same citation on 23 and 30 January and 13 February 1892 (Fulton History PDFs; transcription and copies in `research/Glasgow-4070/sources/`). After the Glasgow, Dysart, Anderson, McClelland and Thompson people it reads "to all other heirs or next of kin of Nancy Glasgow, deceased, if any; to Mary E. Walworth and Caroline H. Farnsworth, Robert Wallace Anderson, Dinah Anderson, Ann Cavanagh, Alexander Weir, The Peristrome Presbyterian Church … the legatees, heirs and next of kin of the testator". The heirs/next-of-kin class is therefore explicit, not inferred. It also adds residences: Robert Dysart at Rasharkin, Sallie [Dysart] at Ballymena, the three Andersons at Gortahar, the Glasgow children "residences unknown". The 21 September review limits this to a probable combined kinship interpretation: the personalty rule cited in the earlier legal review does not control every relationship in a notice concerning both real and personal property.
+
+**2. Independently documented households in the probable sibling network.**
+- *Elizabeth (Glasgow) Anderson*: died 7 September 1868 at Gortahar aged 66 (b. c.1802), record naming James Anderson ([FS QPTW-QQXN](https://www.familysearch.org/ark:/61903/1:1:QPTW-QQXN)). Sons David (71 in 1901, d. 11 April 1914, probate to brother Samuel) and Samuel (56 in 1901; d. 1925) farmed Gortahar house 1 in 1901/1911 (NAI census API). Alexander-951 died at Gortahar in 1888.
+- *Jane (Glasgow) Dysart*: died 13 September 1868 aged 64 (b. c.1804), Ballymena SRD (FS index), six days after Elizabeth. Her husband James Dysart's registered will (Crushybracken, 31 March 1881; d. 5 May 1883; PRONI image B-0028-0046/47) leaves £10 to "my daughter Margaret Kennedy", the cottier house and £80 to "my son Robert", and the residue to "my granddaughter Mary Anne McCaughern"; executors grandson Jas. Dickey and Samuel Tweed. The granddaughter descends from Sarah Dysart, who married John McCaughern of **Gortereghy**, son of Jas McCaughern, at Rasharkin Presbyterian on 18 March 1851 (witnesses Thomas Henry, Archibald McCaughern; [IG image 5405894](https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1851/09402/5405894.pdf)) — the "Sallie, daughter of Jane Dysart, residing at Ballymena" of the citation. **Mary Anne M'Caughern witnessed the 18 February 1875 marriage of John-867's daughter Ann Glasgow**, a record-level tie between John-867's household and Jane Dysart's descendants that is independent of the citation.
+- *Ann (Glasgow) McClelland*: identified for the first time. Scottish civil records name **Andrew McClelland and Ann Glasgow** as parents of Andrew McClelland (35, engine keeper, d. 17 January 1870, Bridgeton, Glasgow; wife Jane McCracken; [FS XSSG-M9CW](https://www.familysearch.org/ark:/61903/1:1:XSSG-M9CW)) and of Robert McLelland (32, carter, m. Martha McLean 18 July 1873; [FS X95J-MXQP](https://www.familysearch.org/ark:/61903/1:1:X95J-MXQP)). Andrew jr, weaver of **Killyless, Craigs parish**, son of Andrew McClelland, carpenter, married Jane McCracken of Ballyconnelly (father Wm McCracken, labourer) at Craigs parish church (CoI) on 24 December 1860; witnesses Saml Thompson and John Bacchus ([IG image 5474474](https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1860/09582/5474474.pdf)). The family moved to Glasgow between 1860 and 1863 (children Andrew 1863, David 1864, Jane 1866, James 1868 — FS Tree KCJ3-YLF), the same Calton/Bridgeton district where Alexander's son [[Glasgow-938|Robert Glasgow]] settled. The "children of Ann McClelland, names and residences unknown" were therefore in Scotland.
+- *Mary (Glasgow) Thompson*: still unidentified. The only age-compatible death in Ballymena SRD 1864–91 is Mary Thompson, widow of William Thompson, farmer, d. 7 March 1888 at Tannybrake, Connor, aged 73 (candidate only; [IG image 4769890](https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1888/06190/4769890.pdf)). The Samuel Thompson witness of 1860 in Craigs is a lead.
+- *Robert Glasgow*: Robert Glasgow aged 71 died 31 March 1868, registered Ballymoney sub-district ([FS QP7B-B6H4](https://www.familysearch.org/ark:/61903/1:1:QP7B-B6H4)); the earlier "Margaret Glasgow 1867 (66)" is Daniel-3896's wife (died at Kilrea, 15 February 1867), not Robert's. No Mary Jane or Ann Glasgow with father Robert appears in Irish civil marriages 1845–1900 in Ballymoney/Ballymena/Coleraine, and the 1877 Robert Glasgow–Mary Mayberry marriage (Kilrea CoI, both of Lisnagrot, labourers; father Robert Glasgow, labourer) is a different, Church-of-Ireland labouring family. Robert's daughters remain undocumented.
+- *John-867*: the memorial's "Elizabeth Ann d. 16 June 1933 aged 84" is **James Garvin Glasgow's widow Eliza Ann (Aiken)** — PRONI Will Calendar: Glasgow, Eliza Ann, of Tullynahinion, widow, d. 16 June 1933, probate to Robert Andrew Aicken; James Garvin Glasgow's own estate (d. 14 February 1918) was administered by her. The citation's "Lizzie, child of John Glasgow" is therefore **unidentified**; James G. (Land Index 1893 "Glasgow James G", Lisnagaver purchasing tenant) and Ann (Bellingham) remain matched.
+
+**3. A new Rasharkin Glasgow: Daniel, died 14 December 1867 at Culmore aged 50** (b. c.1817; [FS QP3S-P6DL](https://www.familysearch.org/ark:/61903/1:1:QP3S-P6DL)). He, not Kilrea Daniel-3896, is the natural identity for Griffith's "Daniel Glasgow, Gortereghy". No marriage 1845–67 or later family found; no Glasgow at Culmore or Ballydonnelly in 1901/1911. Age-compatible with a brother of Alexander or Thomas; if he died childless his absence from the citation is uninformative.
+
+**4. Omitted relatives need testing.** Thomas-987's son Daniel Neely Glasgow was "a labourer residing in New York" in 1889 (`research/Glasgow-2413/findings.md`) yet is not named. Residence in the same state does not establish contact with Nancy or the informant's knowledge; the omission is not an exclusion. The only documented Glasgow link to Ballydonnelly is Thomas's family's flax-mill plot (mortgages 1886–87), so "John Glasgow, late of Baladonly" does not sit cleanly with John-867 (died at Lisnagaver 1885) — an unresolved conflict, possibly the informant's memory of the family mill, possibly a residence between records.
+
+**5. Negative and blocked searches.** FamilySearch full text: no Clinton County petition/heir schedule for Nancy (`+Glasgow +Walworth +Plattsburgh` returns only the will book and probate index); `+Glasgow +Baladonly` 0; `+Glasgow +Gortereghy` 0; `+Lisnagaver` (83 hits) yields no pre-1880 Glasgow deed — the 1811–20 Registry of Deeds land index entry for Lisnagaver is the Harvey estate marriage articles only. No civil marriage of a Glasgow to a McClelland or Thompson in Ireland 1845–70. No Glasgow occupier in Craigs, Connor or Desertoghill/Errigal/Aghadowey Griffith's; Desertoghill has John Glasgow only in the 1796 flax list (agent B). census.nationalarchives.ie legacy pages and apps.proni.gov.uk are unreachable from the Codex sandbox; the NAI API (`api-census.nationalarchives.ie/census/query`) and the PRONI Will Calendar (abstract search) work from the research browser.
+
+**Assessment.** The sibling reading is now probable on the document's own wording plus independent Irish records for five of the seven siblings; the father edge for Alexander (John Glasgow, farmer) remains an inference through John-867 and is still unconfirmed by any record naming Alexander's father. Nothing found contradicts H1; H2 (older Alexander/Rosanna via Thomas) is further weakened; H3 (Glenleslie Robert) has no support.
+
+### Resolving the flagged contradictions, 17 September 2026 (part 3)
+
+**"John Glasgow late of Baladonly" — still unresolved after the mill-deed finding.** A 30 March 1889 Exchequer judgment (creditor Robert Wilson, trading as Louden & Wilson, Belfast tea and sugar merchants) describes the judgment debtor as **Mary Ann Smith otherwise Glasgow, wife of John Smith, formerly of Rosedermot otherwise Rosedemate**, holding (i) the Lisnagaver judicial tenancy and (ii) the Ballydonnelly plot at £1 1s 8d — the flax-mill holding — both "under the representative of the late Robert B. Harvey Esq." ([FS 3Q9M-CSKS-13HQ-D](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKS-13HQ-D)). Thomas-987's widow Mary Ann (McCracken) Glasgow therefore **remarried a John Smith** and lived at Rosedermot, and the Ballydonnelly flax mill was her (i.e. the Thomas branch's) property throughout. The recorded mill connects Ballydonnelly to Thomas's household. It does not prove that Nancy's informant confused Thomas with John or that John never lived there. The match to John-867 remains probable on James G. and Ann; residence, Lizzie, and the shared-father inference remain open.
+
+**"Lizzie, child of John Glasgow" — narrowed to a named candidate.** The 1880 U.S. census records **Lizzie Glasgow, aged 21, born in Ireland about 1859, a domestic servant, "Other" in the household of James O. Wood, Captain of Police, and his wife Elizabeth, at West Troy (Watervliet), Albany County, New York** ([FS MZCY-D41](https://www.familysearch.org/ark:/61903/1:1:MZCY-D41)). West Troy is exactly where Nancy's niece Margaret (Dysart) Kennedy resided in 1892, and domestic service was Nancy's own occupation. A New York passenger-list index also has a Lizzie Glasgow arriving 1878, born about 1856. This is the strongest candidate for John-867's daughter but is not yet joint to him by a parent-naming record; the memorial's "Elizabeth Ann, died 1933" remains excluded (she was James Garvin's widow).
+
+**Thomas Glasgow's death date — resolved to 21 June 1870.** The PRONI Will Calendar and one FamilySearch index ([FGFD-PYC](https://www.familysearch.org/ark:/61903/1:1:FGFD-PYC)) both read 21 June 1870; a second FamilySearch index ([QGJN-LVSP](https://www.familysearch.org/ark:/61903/1:1:QGJN-LVSP)) reads 24 May 1870 and is a divergent volunteer transcription of the same register.
+
+**Robert's daughters — narrowed, not resolved.** No Robert Glasgow of Rasharkin/Gortereghy/Lisnagaver/Culmore appears in the PRONI Will Calendars 1858–1965, and no administration exists for the Robert who died 31 March 1868 (aged 71, registered at Ballymoney town). Mary Jane and Ann Glasgow have no marriage in Ballymoney, Ballymena or Coleraine 1845–1900. The brother Robert and his daughters remain unresolved; the discriminating record is the GRONI image of the 1868 death (residence and informant) and an all-SRD marriage sweep.
+
+### Clarification: the two Johns (following a challenge on Glasgow-4090)
+
+A challenge proposed that Glasgow-4090 (the 1796 Desertoghill flax-grower) is the "John Glasgow late of Baladonly" of the citation. That is rejected, on two anchors:
+
+1. **County.** The citation locates John "late of Baladonly, **County Antrim**"; Ballydonnelly is a Rasharkin-parish (Antrim) townland and is the only Ballydonnelly returned by the townlands index even when filtered for Londonderry. Glasgow-4090 is Desertoghill parish, Coleraine barony, **County Londonderry**.
+2. **Children.** The citation's John's children are James G., Ann and Lizzie. Ann is provably John-867's daughter (1851 Lisnagaver house 34, "Ann, daughter, 3"; 1875 Bellingham marriage naming father John Glasgow), and "James G." is James **Garvin** Glasgow, whose middle name is his mother Margaret **Garvin**'s surname. The citation's John is therefore John-867 of Lisnagaver, not his father.
+
+Glasgow-4090 is the **father-generation** John carried as the proposed father of John-867, Samuel-2908 and (on the sibling reading) Alexander-951 and Nancy-4070; he is not a competing "different John of Ballydonnelly". The family's only Ballydonnelly interest was the flax mill of Thomas-987's branch (later his widow, "Mary Ann Smith otherwise Glasgow"), which plausibly explains the informant's "Baladonly" descriptor. Two distinct men named John (father and son) are therefore explicitly distinguished. The bridge from the 1796 Desertoghill flax-grower to the Lisnagaver children remains an inference, not a documented parentage.
+
+### Extended family group created on WikiTree, 17 September 2026
+
+All profiles below are managed by the requesting account; each carries a sourced biography and factual creation fields. Live WikiTree work this batch:
+
+**Merges** — Glasgow-3474 (the 1885-death John) merged into **Glasgow-867** with the 24 June 1885 death retained and the 1895 memorial date superseded; Irwin-9371 merged into **Unknown-766238** (the wife of Daniel Glasgow-3896; LNAB left Unknown, unsourced "Irwin"/Brooklyn data dropped).
+
+**Re-parented** (father → John Glasgow-4090, former mother removed): Glasgow-951, Glasgow-4070, Glasgow-4071.
+
+**New profiles (Glasgow surname)**: Glasgow-4091 (Daniel of Culmore), Glasgow-4092 (Ann ⌖ McClelland), Glasgow-4093 (Mary ⌖ Thompson), Glasgow-4094 (Kate, informant at Daniel-3896's death; attached as uncertain daughter).
+
+**Ann (Glasgow) McClelland's branch** (research/Glasgow-4092): husband **McClelland-3730** (Andrew, carpenter); sons **McClelland-3731** (Andrew, 1835–1870 Bridgeton) and **McClelland-3732** (Robert, c.1841); their wives **McCracken-5722** (Jane) and **McLean-15735** (Martha); Jane's father **McCracken-5723** (William, labourer); Martha's parents **McLean-15736** (John) and **McIlroy-877** (Catherine). Marriages recorded: 24 Dec 1860 Craigs and 18 Jul 1873.
+
+**Elizabeth (Glasgow) Anderson's branch** (research/Glasgow-4071): sons **Anderson-104792** (David, c.1830–1914), **Anderson-104793** (Samuel, c.1845–1925), **Anderson-104794** (James); Samuel's wife **Unknown-766242** (Mary Ann) and their nine children **Anderson-104800–104808** (Elizabeth, Robert Ernest, James Alfred, David, Samuel, John, Jeannie, William Hugh, George Albert), all from the 1901/1911 Gortahar censuses.
+
+**McCaughern–Dysart branch** (from the 1851 Rasharkin marriage and James Dysart's 1881 will): **McCaughern-22** (Jas, Gortereghy farmer), **McCaughern-23** (John, m. 18 Mar 1851), **Dysart-1893** (Sarah "Sallie"), **McCaughern-24** (Mary Anne, 1875 witness and will residuary heir), **Dysart-1894** (Martha, Canterbury NZ). Sarah and Martha attached to parents Dysart-1684 and Glasglow-11 (the latter two managed by another member).
+
+**Glasgow-987's branch**: **Smith-407035** (John Smith of Rosedermot), attached as second husband of McCracken-5681 (Mary Ann, Thomas-987's widow).
+
+**Glasgow-3449** (the brother Robert): biography updated with the 31 March 1868 death and the 1892-citation brother identification; daughters Mary Jane and Ann remain unidentified.
+
+### Other family trees search for the collateral lines, 17 September 2026
+
+Question: do other people's trees name parents/grandparents for the McClelland (Ann Glasgow-4092), Anderson (Gortahar) or McLean/McCracken lines, or connect John Glasgow-4090 to the Larne line?
+
+**Sources searched:** FamilySearch Genealogies (submitted Pedigree Resource Files, IGI, Partner Trees from MyTrees/RootsFinder/American Ancestors), the FamilySearch collaborative Tree, WikiTree name search, and public web (Bing, DuckDuckGo; site-restricted searches on Geni, Geneanet, MyHeritage, Find a Grave, Ancestry). Delegated web agents failed (local MCP port 8765 down), so Geni/Geneanet/MyHeritage/Ancestry tree searches are incomplete.
+
+**Results.**
+- *Our Alexander's own tree.* One submission, "Partner Trees – MyTrees.com" file 2:2:2:MMXQ-BQS (submitted 19 Dec 2019 by jgerrard43168), is a descendant tree of **Alexander Glasgow (b. c1810, "nr Rasharkin, Co. Lndry")** with wife **Mary McCaughan** and son **Robert Glasgow (b. 6 November 1840, Tamlaght O'Crilly; d. 27 Nov 1902 Glasgow)** married to Jane Graham, and their descendants in Calton/Bridgeton, Glasgow. **It gives no parents for Alexander and no parents for Mary McCaughan.** It does independently carry the exact 6 November 1840 birth date for Robert that the project had marked unsupported.
+- *The old-Alexander/Rosanna tradition in submitted trees.* Two PRFs repeat it — "Bayliss/McCracken/Reed" (2:2:2:MMX5-MJZ, 2021) and "Dowds and Stewart" (2:2:2:MM6D-RG6, 2018): **Alexander Glasgow b. 1770 Co. Antrim + Rosanna b. 1774 d. 1822**, children including Alexander b. 1811 and Thomas b. 1816 (the latter married Mary Ann McCracken/Faulkener at Rasharkin in 1840 in the Dowds tree). Both cite "Ancestry Family Trees" as their only source and name **no parents** for the 1770 Alexander. They are copies of Ancestry member trees, not independent evidence.
+- *McCracken lead (unproven).* PRF "Simpson/Carson" (2:2:2:MMF7-8QH, 2021) gives **Jane McCracken (b. abt 1809, Antrim) + William McCracken (1810–1888)**, with a daughter Jane McCracken (1833–1900) who married John Crockett. The ages and the absence of Craigs/Ballyconnelly detail mean this is only a possible, unproven family for Jane McCracken-5722 (b. c1836, m. Andrew McClelland 1860 at Craigs).
+- *Unrelated lines confirmed distinct.* Co. Londonderry Glasgow submissions are dominated by (a) the Moneymore/Rockbridge-Virginia family (Arthur Glasgow b. 1750, m. Rebecca Anderson McNutt) and (b) the Pittsburgh family ("JG_DNA" file: Hugh Glasgow (1755–1824) + Sallie Blair → John Glasgow (1780–1840) m. Peninah Thomas → Moses Thomas Glasgow (1809–1892), Robert, Alexander Glassgow (1807–1857)). Neither is the Desertoghill/Garvagh John Glasgow-4090. An IGI family (Samuel Anderson b. 1806 Rasharkin + Mary b. 1811, children 1836–1850) is a different Rasharkin Anderson household from our Gortahar family.
+- *Negatives.* No submitted tree, WikiTree profile, or indexed public page names parents for **Ann (Glasgow) McClelland**, **Andrew McClelland (carpenter)**, **Elizabeth (Glasgow) Anderson**, or **Samuel Anderson of Gortahar**; and no tree connects a Desertoghill/Garvagh John Glasgow to the Larne/Kilwaughter line. Bing found nothing for "Andrew McClelland" + "Ann Glasgow" or the Gortahar family; site-restricted searches returned only site home pages.
+
+**Next.** (1) The Ancestry member trees behind the two Rosanna PRFs are the most likely place a parent might be named — needs Ancestry access. (2) Geni/Geneanet/MyHeritage tree searches when the delegation MCP is restored. (3) The MyTrees submission's submitter (jgerrard43168) may hold more of the family, but no contact is to be made. (4) The Larne link still rests on records/Y-DNA, not on any tree.
+
+### Y-DNA review of the R-FT20271 cluster, 17 September 2026
+
+The FTDNA Glasgow Surname Project Y-DNA results (accessed 17 Sep 2026) place five Big Y-700 testers in R-FT20271:
+
+| Kit | Ancestor stated | Reported origin | Haplogroup |
+| --- | --- | --- | --- |
+| B580327 | **Alexander Glasgow, b. 1811, d. 1852** | Ireland | R-FT20271 |
+| 1002232 | James J Glasgow | Unknown | R-FT20271 |
+| B696189 | William Glasgow, b. 1655 | Scotland | R-FT20271 |
+| 200475 | Robert Glasgow 1749–1836 | Scotland | R-FT20271 |
+| 999763 | Robert Glasgow 1749–1839 | Northern Ireland | **R-FTE32242** (downstream of FT20271) |
+
+FTDNA Discover states R-FT20271 branched from R-FT25406 about 1450 CE and that the most recent common ancestor of all R-FT20271 members is estimated at about **1600 CE** (95% 1387–1729); it has at least six descendant lineages (one named, R-FTE32242, plus unnamed ones) and seven tested descendants whose earliest reported origins are Ireland 2, Northern Ireland 2, Scotland 2 and one unknown.
+
+Two consequences. First, the cluster is **Scots-origin in paternal terms** (the two earliest-documented testers are Scottish, 1655 and 1749), consistent with a Lowland-Scots line in Ulster, which is the framework of the Larne–Kilwaughter hypothesis. Second, the shared ancestor of the cluster is **c.1600 CE**, not a recent man: the tested lines (Alexander-951; James J; the 1655 Cavers line; the 1749 lines) are **not shown to be related within the genealogical period**. Alexander's tester (B580327) is R-FT20271 but is not in R-FTE32242, the branch that contains one of the 1749 testers, so the 1749/Northern-Ireland line is not a close paternal branch of Alexander's line on present data. Y-DNA therefore supports a wider Scots-Ulster paternal family and constrains any common ancestor to roughly 1600, but it does **not** connect John Glasgow-4090 to the documented Larne/Kilwaughter family, and no tester from that family is in the R-FT20271 group. The next discriminating test remains a Big Y-700 from a documented male-line descendant of the Larne/Kilwaughter family (or of John-867/4090's line) to resolve the joining generation.
+
+## Live correction applied — 21 September 2026
+
+[Live Glasgow-951](https://www.wikitree.com/wiki/Glasgow-951): Qualified Nancy’s probate evidence, common-father reasoning, omission-based exclusions and the inferred two marriages. Preserved the current WikiTree-generated Glasgow-1503→Glasgow-1499 link update. The father relationship remains uncertain; vital fields and attachments were not changed. The save acknowledgement, public rendering and complete saved biography were verified. This correction is complete on WikiTree; the underlying research questions remain open.
+
+### Correction note, 23 September 2026
+
+The project owner states that [Robert Glasgow (Glasgow-938)](https://www.wikitree.com/wiki/Glasgow-938), their 4th-great-grandfather, died in Scotland. He was therefore not linked as the Griffith's Gortereghy Robert (c.1861). The only other candidate so far is the 1868 workhouse decedent [Glasgow-3449](https://www.wikitree.com/wiki/Glasgow-3449). A death in Scotland alone does not exclude Robert-938 holding land at about 20 in 1861, so this identity remains unresolved.
+
+### GRONI export triage, 23 September 2026
+
+The user supplied an export of pre-1900 GRONI Glasgow index entries. Civil deaths name no parents, so the export cannot name Alexander's father directly. Five marriages that could have tested the sibling network were checked free on IrishGenealogy:
+- [Jane Glasgow and Robert Jamison, 7 March 1867, Finvoy](https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1867/11481/8220222.pdf): Jane of Lisnagaver, father Thomas Glasgow, farmer. She is Thomas-987's daughter, already known; the witnesses were Leslie Ellis and George Graham.
+- [Ann Jane Glasgow and Patrick Russell, 24 November 1869](https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1869/11434/8200208.pdf): of Kildowney, father James Glasgow, weaver. Not a daughter of Robert.
+- [Jane Glasgow and Hugh Lough, 9 December 1868, Ballymena](https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1868/11471/8216579.pdf): father Hugh Glasgow, soldier. Unrelated.
+- [Catherine Glasgow and Alexander Smith, 17 June 1871, Ballymena](https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1871/11341/8162761.pdf): of Cabragh, father Saml Glasgow, labourer. Not Thomas's daughter Catherine.
+- [John Glasgow and Maggie Graham Anderson, 21 September 1891, Portstewart](https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1891/10682/5892956.pdf): a Cookstown merchant, son of Benjamin; bride's father Samuel Anderson, farmer. The 1901 Gortahar Samuel Anderson's household had no daughter Maggie. Unrelated.
+
+No marriage in the export identifies Robert's daughters Mary Jane or Ann.
+
+### Next-step packages prepared, 23 September 2026
+
+- Clinton County Surrogate's Court request, ready to send to ClintonSurrogate@nycourts.gov: `../Glasgow-4070/sources/clinton_county_probate_request_2026-09-23.md`. It asks for the petition and heirs schedule, proof of service and the collateral-tax appraiser's report.
+- PRONI CR5/32/1/1/1–2 chaser, ready to send: `sources/proni_cr5_32_chaser_2026-09-23.md`.
+- Autosomal DNA sibling test plan: `sources/autosomal_sibling_test_plan_2026-09-23.md`.
+- Scottish death search for Ann (Glasgow) McClelland. The free FamilySearch Scotland index (1855–75, 1881, 1891) has no Ann McClelland, McLelland or McLellan death with spouse Andrew or a Glasgow parent. The full ScotlandsPeople index needs a login; that search is pending.
+
+### ScotlandsPeople searches, 23 September 2026
+
+- Ann (Glasgow) McClelland: no female McClelland/McLelland death with other surname Glasgow, 1855–1900. The Ann McClelland/McLelland deaths of a suitable age with a recorded mother's maiden name don't fit. An Ann McCleland who died at Airdrie in 1879 aged 83 (no mother's maiden name recorded) is the only unexcluded Ann of suitable age, and a weak one. She may have died in Ireland.
+- **New:** Alexander's daughter Ann (Glasgow-438) died as Ann McCracken in 1898 in Calton, Glasgow, aged 49; mother's maiden name McCaughern (644/4 70). This supports "Nancy Glasgow, daughter" at the 1888 death being someone other than Ann.
+- Female deaths with other surname Glasgow and surname Mc*, Thom*, And* or Dys*, 1855–1900: no Thompson, Anderson or Dysart sister found.

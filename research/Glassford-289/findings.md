@@ -4,7 +4,7 @@
 
 Rev. John Glasford of Kilwinning is, with high confidence, the son of Patrick Glasfurd of Walltour, burgess and notary of Cupar, and Margaret Lucklaw or Lucklay. He married Jean Blair, not Jonet Murriell. His documented son John is [Glassfuird-1](https://www.wikitree.com/wiki/Glassfuird-1). The Edinburgh slater and Murriell household has been split to [Glassfuird-2](https://www.wikitree.com/wiki/Glassfuird-2).
 
-John's exact birth is unresolved. The live profile records only that he was born before 1614, probably at Cupar, and marks this uncertain. Fasti gives his death as December 1636.
+John's exact birth is unresolved. The live profile records a birth before 1593, probably at Cupar; the biography explains this as an adult-age estimate from his 1614 admission to the ministry, rather than a baptismal date. Fasti gives his death as December 1636.
 
 ## Source findings
 
@@ -24,3 +24,10 @@ John's exact birth is unresolved. The live profile records only that he was born
 4. Corroborate Jean Blair through Blair family legal records.
 5. Trace son John forward before testing any link to the Tobacco Lord family.
 
+## Father relationship assessment — 28 September 2026
+
+This is a review of existing evidence, not a newly discovered record. Attached father: [Patrick Glasfurd](https://www.wikitree.com/wiki/Glasfurd-11). Assessment: **confident**.
+
+Reason: Fasti Ecclesiae Scoticanae, vol.III, p.116, specifically identifies the Kilwinning minister as son of Patrick Glasfurd of Cupar; the notarial records corroborate Patrick’s place and period.
+
+Source summary: Fasti, vol.III, p.116; NRS GD254/35 and GD254/190. Saved on WikiTree and verified in the live edit form on 28 September 2026; only the father certainty and its explanation were updated.

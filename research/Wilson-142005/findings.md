@@ -26,3 +26,11 @@ WikiTree's create-person match search was repeated with a 30-year date range, Ay
 - Death: after 11 May 1603, the testament confirmation date.
 - Parents: Thomas Wilson and Geillis Glasgow, uncertain pending a secure
   reading of the relationship clause.
+
+## Father relationship assessment — 28 September 2026
+
+This is a review of existing evidence, not a newly discovered record. Attached father: [Thomas Wilson](https://www.wikitree.com/wiki/Wilson-127012). Assessment: **uncertain**.
+
+Reason: CC9/7/3 names James with Isobel and Bessie in Geillis Glasgow's executor clause, but the intervening words are unresolved. The local findings and live biography explicitly say the earlier 'lawful son' reading is insecure.
+
+Source summary: CC9/7/3 names James with Isobel and Bessie in Geillis Glasgow's executor clause, but the intervening words are unresolved. The local findings and live biography explicitly say the earlier 'lawful son' reading is insecure. Saved on WikiTree and verified in the live edit form on 28 September 2026; only the father certainty and its explanation were updated.

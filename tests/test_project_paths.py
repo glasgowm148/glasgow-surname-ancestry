@@ -32,6 +32,12 @@ class ProjectPathTests(unittest.TestCase):
             rebuild_standalone_onetree()
         run.assert_called_once()
         self.assertTrue(run.call_args.kwargs["check"])
+        command = run.call_args.args[0]
+        self.assertTrue(command[1].endswith("tools/site_sources/onetree/build.py"))
+        # The standalone index.html is a redirect stub to /onetree/; the builder's
+        # HTML goes to a scratch path so a rebuild cannot replace it.
+        output = Path(command[command.index("--output") + 1])
+        self.assertNotEqual(output.parent, Path(command[1]).parent)
 
     def test_atomic_text_writer_replaces_complete_content(self):
         with tempfile.TemporaryDirectory() as directory:

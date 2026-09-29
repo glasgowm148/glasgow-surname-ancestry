@@ -1,0 +1,102 @@
+{
+  "provenance": "Public dossier import snapshots from glasgow-site-20260924-223311.tar.gz, retained after live WikiTree parent-link changes; these claims are historical, not current tree links.",
+  "profiles": {
+    "Glasgow-951": {
+      "claims": [
+        {
+          "id": "C-d7cae2ea03a1",
+          "type": "research_finding",
+          "subject_ids": [
+            "Glasgow-951",
+            "Glasgow-1367"
+          ],
+          "claim": "Robert Glasgow-1367 is chronologically possible as Alexander's father but is not proved.",
+          "status": "possible",
+          "status_label": "low",
+          "evidence_ids": [
+            "E-4a7cbfa1f949",
+            "E-99f0a9c7dcf6"
+          ],
+          "notes": "The reported 1803 marriage could accommodate a son born about 1811, but no record names Alexander as his son. The 1831 Coltrim household belongs to a distinct unresolved Robert-3941 and cannot be used as this father candidate’s household; the 1834 Lisnagaver Robert is also not identified with him.",
+          "provenance": "research/Glasgow-951/research_plan.json"
+        },
+        {
+          "id": "C-b48375a01529",
+          "type": "tree_relationship",
+          "subject_ids": [
+            "Glasgow-951",
+            "Glasgow-1367"
+          ],
+          "claim": "WikiTree currently connects Alexander Glasgow and Robert Glasgow as father.",
+          "status": "unknown",
+          "status_label": "WikiTree tree relationship",
+          "evidence_ids": [],
+          "notes": "Tree structure only; no documentary conclusion is implied.",
+          "provenance": "wikitree_parent_field"
+        }
+      ],
+      "relationships": {
+        "parents": [
+          {
+            "id": "Glasgow-1367",
+            "name": "Robert Glasgow",
+            "relationship": "father",
+            "status": "unknown",
+            "status_label": "WikiTree tree relationship",
+            "basis": "tree",
+            "evidence_ids": [],
+            "tree_relationship": true,
+            "relationship_source": "wikitree_parent_field",
+            "tree_status": "uncertain",
+            "tree_status_label": "WikiTree: uncertain parent",
+            "url": "/people/glasgow-1367.html",
+            "json_url": "/people/glasgow-1367.json",
+            "network_url": "/people/glasgow-1367.network.json",
+            "wikitree_url": "https://www.wikitree.com/wiki/Glasgow-1367",
+            "claim_id": "C-b48375a01529"
+          }
+        ]
+      }
+    },
+    "Glasgow-1367": {
+      "claims": [
+        {
+          "id": "C-ad51f3d1462c",
+          "type": "tree_relationship",
+          "subject_ids": [
+            "Glasgow-1367",
+            "Glasgow-951"
+          ],
+          "claim": "WikiTree currently connects Robert Glasco and Alexander Glasgow as son.",
+          "status": "unknown",
+          "status_label": "WikiTree tree relationship",
+          "evidence_ids": [],
+          "notes": "Tree structure only; no documentary conclusion is implied.",
+          "provenance": "reconstructed_parent_reference"
+        }
+      ],
+      "relationships": {
+        "children": [
+          {
+            "id": "Glasgow-951",
+            "name": "Alexander Glasgow",
+            "relationship": "son",
+            "status": "unknown",
+            "status_label": "WikiTree tree relationship",
+            "basis": "tree",
+            "evidence_ids": [],
+            "tree_relationship": true,
+            "relationship_source": "reconstructed_parent_reference",
+            "tree_status": "unmarked",
+            "tree_status_label": "WikiTree: relationship status unmarked",
+            "url": "/people/glasgow-951.html",
+            "json_url": "/people/glasgow-951.json",
+            "network_url": "/people/glasgow-951.network.json",
+            "wikitree_url": "https://www.wikitree.com/wiki/Glasgow-951",
+            "claim_id": "C-ad51f3d1462c"
+          }
+        ]
+      }
+    }
+  }
+}

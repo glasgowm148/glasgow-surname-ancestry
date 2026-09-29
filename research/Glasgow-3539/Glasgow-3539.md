@@ -1,9 +1,6 @@
 [[Category:Glasgow Name Study]]
 {{Estimated Date}}
-<!-- REVIEWED FULL REPLACEMENT: the cited live-profile source and useful record detail have been reconciled below; do not append the superseded stub. -->
-
 == Biography ==
-
 '''Mary Glasgow''' was the wife of [[Montgomerie-601|James Montgomerie]], who
 was described as a sailor in Saltcoats in the parish of Ardrossan. The printed
 index to the Glasgow Commissary testament registers lists Mary in that capacity
@@ -18,7 +15,6 @@ occupation and place. The date is the testament-register entry date; the index
 does not state Mary's exact date of death.<ref name="Mary1677" />
 
 == Research Notes ==
-
 === Birth and parentage ===
 
 Mary's existing birth year of about 1613 is an estimate for which no supporting
@@ -50,5 +46,4 @@ The full 1677 testament should be inspected before inferring Mary's age,
 parentage, children, property or exact death date from the short printed index.
 
 == Sources ==
-
 <references />

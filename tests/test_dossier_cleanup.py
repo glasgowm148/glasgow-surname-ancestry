@@ -149,7 +149,13 @@ class DossierCleanupTests(unittest.TestCase):
         self.assertNotIn("Glasgow was his middle name", visible)
 
         research = self.text(alexander.select_one("#research"))
-        self.assertIn("already-held 20 March 1847 John Glasgow letter", research)
+        # The held letter is recorded as an inspected, completed search rather than a task.
+        letter = next(
+            item for item in json.loads((ROOT / "research/Glasgow-951/presentation.json").read_text(encoding="utf-8"))["completed_searches"]
+            if item["search"] == "John Glasgow family Bible and 1847 letter"
+        )
+        self.assertIn("inspected with the letter", letter["result"])
+        self.assertIn(letter["result"], research)
         self.assertNotRegex(research, r"\b(?:obtain|acquire)\b.{0,120}\b(?:letter|20 March 1847)\b")
 
     def test_hash_handler_walks_all_ancestor_disclosures(self):

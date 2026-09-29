@@ -31,9 +31,26 @@ Three records form a coherent tanner sequence and distinguish this man from the 
 
 - In the [28 March 1768 ropewalk assignment](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJW-DDXW), the principal James Glasgow is a ropemaker, but a second James Glasgow who witnessed the deed is explicitly described as a **tanner**. The witness later swore to its execution at Larne.
 - A [mortgage dated 22 June 1778](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJW-64YW) concerning houses and garden ground in Newtown of Larne was witnessed by James Glasgow of Larne, tanner, and John Weir, notary. James swore the affidavit at Larne on 29 June 1778.
+- The original [Registry of Deeds memorial 278037, FamilySearch image 437](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJ4-4SJF) calls the Larne witness **James Glasgow, Tanner** in a lease dated 14 January 1784; it was sworn 17 August and registered 23 August 1790. The handwritten occupation settles the former automated “turner” reading.
 - The known 1786 Blackcave lease names James Glasgow, tanner of Larne.
 
 The chronology fits the monument-derived birth about 1747–1748: he was about twenty or twenty-one in 1768, about thirty in 1778 and about thirty-eight or thirty-nine in 1786. This is substantially stronger than assigning the tanner records to `Glasgow-1509`, whose separate ropemaker occupation is documented from 1760 through the 1799 Alexander Holmes will.
 
 The identification remains strong rather than fully proved because none of the deeds names James's wife, parents or child. The occupational sequence should be cited in the biography while that limitation is stated.
 
+## Newtown title succession — 21 September 2026
+
+The original recital in an [indenture of 25 March 1874](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS54-77Q4-H), registered 24 August 1874, traces James Glasgow's 2 October 1779 Newtown lease to a 25 February 1832 renewal to Anne Glasgow and Jane Glasgow. The 24-foot north-side tenement was formerly John English's and bounded by Hugh Glasgow's former tenement on the west. This is direct title succession, not a stated descent. Neither the 1779 James nor the women's identities are securely assigned. James-3991's wife Jane died 1820 and cannot automatically be the 1832 Jane; Ann-3992 is only a candidate for Anne. Inspect the 1832 renewal for relationship wording and intervening assignments.
+
+## Two distinct assignments — 21 September 2026
+
+Two assignments by James Glasgow, ropemaker, to John Hill share the date **28 March 1768** and registration date **2 November 1768**, but concern different leases:
+
+- [Memorial 173104, p. 510, image 258](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJW-DDXW) assigns the ropewalk plot and workhouse, held for 31 years from 1 November 1760 at £1 14s 1½d yearly. The witness James Glasgow is explicitly **Tanner**, both in the witness clause and the affidavit; John Houston, merchant, is the other witness. This remains valid evidence for the separate tanner sequence, probably James Glasgow-3991.
+- [Memorial 173108, opening, image 259](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJW-DDD6), with [continuation p. 513, image 260](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJW-DDDL), concerns a messuage held on a 60-year lease at £5 2s 6d yearly. Its witness James Glasgow is explicitly **Farmer**, repeated in the affidavit; John Houston, merchant, also witnesses this instrument.
+
+Both original occupation readings were independently checked. The Farmer wording does not overturn the Tanner reading in the other deed. Whether the two witnesses were the same man with different descriptions or namesakes remains unresolved. The farmer is not assigned to the tanner or to the South Carolina settler from this record alone; neither assignment supplies kinship.
+
+## Uncertain son Hugh, deceased by 1843 — 21 September 2026
+
+[Hugh Glasgow-4180](/people/glasgow-4180.html), the deceased testator named in the [1843 marriage settlement](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJW-F3BZ), is attached as James’s uncertain son. Naming and generation fit are compatibility only: neither the monument nor the settlement names Hugh as James’s son. No mother is inferred. Hugh’s possible fatherhood of [Mary Glasgow-4181](/people/glasgow-4181.html) is a separate low-confidence hypothesis.

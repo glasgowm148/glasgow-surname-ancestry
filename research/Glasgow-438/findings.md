@@ -122,3 +122,7 @@ identify her with Ann or Thomas's daughter. Alexander's 16 May 1888 death remain
 the best-supported probable match for [Glasgow-951](https://www.wikitree.com/wiki/Glasgow-951);
 the family and place evidence is indirect, and the death's reported age of 84
 conflicts with his 1851 census age of 40.
+
+## Source findings — Scottish death index, 23 September 2026
+
+The ScotlandsPeople statutory deaths index lists **Ann McCracken**, female, 49, died 1898 in Calton (Glasgow), reference 644/4 70, with other surname **Glasgow** and mother's maiden surname **McCaughern**. Her maiden name, her mother's maiden name (Mary McAughin/McCaughan) and her age (4 in 1851) identify her as Alexander-951's daughter. Her brother Robert-938 had settled in Calton. The register image (6 ScotlandsPeople credits) has not been viewed. It should give the exact date, her husband's status, her parents and the informant. The live profile was updated with death year 1898 and place Calton, Glasgow, both certain. As a married McCracken living in Scotland, she is an unlikely match for the "Nancy Glasgow, daughter" who informed at the 1888 Gortahar death.

@@ -1,79 +1,114 @@
 {
   "id": "andrew-1598",
-  "title": "Andro Glasgow, [Corsoun?], Caldercleir: inventory and opening of latter will",
-  "record": "NRS Edinburgh Commissary Court CC8/8/32, images 123-124; continuation capture now supplied but outside the earlier fresh transcription",
+  "title": "Andro Glasgow, [Corsoun?], Caldercleir: inventory and selected latter-will family clauses",
+  "record": "NRS Edinburgh Commissary Court CC8/8/32, images 123–124; complete working reading of image 123 and selected family-clause excerpts from image 124",
   "date": "10 July 1598 marginal date; will 6 February 1597 as written; death 7 February [1597 as written?]",
-  "reviewed_at": "2026-09-10",
-  "source_files": ["testaments/ScotlandsPeople_CC000800008-00032-00123-.jpg", "testaments/Edinburgh/1598_Andro/1598_Andrew_p1.png", "testaments/Edinburgh/1598_Andro/1598_Andrew_p2.png", "testaments/Edinburgh/1598_Andro/p2_300_dpi.png"],
-  "reviewed_pages": ["Image 123, complete supplied page, inventory and debts through first line of latter will", "Page-two continuation is supplied locally but awaits a fresh line-by-line reading"],
+  "reviewed_at": "2026-09-27",
+  "source_files": [
+    "testaments/ScotlandsPeople_CC000800008-00032-00123-.jpg",
+    "testaments/Edinburgh/1598_Andro/1598_Andrew_p1.png",
+    "testaments/Edinburgh/1598_Andro/1598_Andrew_p2.png",
+    "testaments/Edinburgh/1598_Andro/p2_300_dpi.png"
+  ],
+  "reviewed_pages": [
+    "Image 123, complete supplied page, inventory and debts through first line of latter will",
+    "Image 124, selected wife/son, conditional pregnancy and named-child distribution clauses freshly inspected; remaining continuation not fully transcribed"
+  ],
   "coverage": "partial",
-  "transcription": [{"page": "123", "lines": [
-    "[Margin] Andro glasgw",
-    "decimo Julij",
-    "1598",
-    "The testament testamentar and Inventar of the guidis geir soumes",
-    "of money and dettis pertening to vmqle andro glasgw in corsoun[?]",
-    "within the parochin of calder cleir[?] within the schirefdome of Edr",
-    "the tyme of his deceis quha deceissit vpoun the sevint day of februar",
-    "the zeir of god jm vc lxxxxvij[?] zeiris faithfullie maid & gevin vp",
-    "be him self vpoun the sext day of februar the zeir of god",
-    "foirsaid In presens of the witnessis James [surname illegible] in corsoun[?] [illegible]",
-    "[illegible] James [surname illegible] [illegible] Johne [surname illegible] [illegible]",
-    "[illegible]",
-    "In the first the said vmqle andro glasgw had the guidis geir soumes of",
-    "money and dettis of the availl & prices efter following pertening to him the",
-    "tyme of his deceis foirsaid Viz Item thrie ky wt thair calfis price of the",
-    "pece viij li[?] Summa xxiiij li[?] Item tua zowng[?] of ane zeir auld",
-    "price of the pece [amount illegible] Summa [amount illegible] Item tua horss price of the",
-    "pece x li[?] Summa xx li[?] Item nyne scheip price of the pece [illegible]",
-    "[amount illegible] Item in the barne & barnzaird aucht bollis aittis price of the",
-    "boll at the [illegible] iiij merkis[?] Summa [amount illegible] Item mair [quantity illegible] firlott",
-    "beir price of [illegible] Item in vtensilis & domicilis with the abulzementis",
-    "of his bodie estimat to [amount illegible]",
-    "Summa of the Inventar [amount unresolved]",
-    "Followis the dettis awin to the deid",
-    "Item thair wes awin to the said vmqle andro glasgw be Jo[hn?] mure in [place illegible]",
-    "[amount illegible] Item be Isobell [surname illegible] relict of vmqle Johne [surname illegible]",
-    "[amount illegible] Item be James stevinsoun in [place illegible] x li[?]",
-    "Summa of the dettis awin to the deid [amount unresolved]",
-    "Summa of the Inventar wt the dettis [amount unresolved]",
-    "Followis the dettis awin be the deid",
-    "Item thair wes awin be the said vmqle andro glasgw to [name illegible]",
-    "in corsoun[?] [amount illegible] Item to Johne keddell[?] in [place illegible]",
-    "[illegible] for ane broun hors [amount illegible] Item to [name illegible] [amount illegible]",
-    "[illegible] Item to James [surname illegible] [illegible] Item to David",
-    "lyoun [amount illegible] Item to patrik stevinsoun[?] in [place illegible] [amount illegible] Item",
-    "to the laird westhall[?] [amount illegible]",
-    "Summa of the dettis awin be the deid [amount unresolved]",
-    "Restis of free geir the dettis deducit [amount unresolved]",
-    "To be dividit in thrie the deidis pairt [amount unresolved]",
-    "Quhairof the quot is componit for [amount unresolved]",
-    "Followis the deidis latter will",
-    "Vpoun the sext day of februar 1597 The said day the said andro [continues]"
-  ]}, {"page": "124", "lines": ["[continuation supplied locally but outside earlier transcription; awaits fresh reading]"]}],
+  "transcription": [
+    {
+      "page": "123",
+      "lines": [
+        "[Margin] Andro glasgw",
+        "decimo Julij",
+        "1598",
+        "The testament testamentar and Inventar of the guidis geir soumes",
+        "of money and dettis pertening to vmqle andro glasgw in corsoun[?]",
+        "within the parochin of calder cleir[?] within the schirefdome of Edr",
+        "the tyme of his deceis quha deceissit vpoun the sevint day of februar",
+        "the zeir of god jm vc lxxxxvij[?] zeiris faithfullie maid & gevin vp",
+        "be him self vpoun the sext day of februar the zeir of god",
+        "foirsaid In presens of the witnessis James [surname illegible] in corsoun[?] [illegible]",
+        "[illegible] James [surname illegible] [illegible] Johne [surname illegible] [illegible]",
+        "[illegible]",
+        "In the first the said vmqle andro glasgw had the guidis geir soumes of",
+        "money and dettis of the availl & prices efter following pertening to him the",
+        "tyme of his deceis foirsaid Viz Item thrie ky wt thair calfis price of the",
+        "pece viij li[?] Summa xxiiij li[?] Item tua zowng[?] of ane zeir auld",
+        "price of the pece [amount illegible] Summa [amount illegible] Item tua horss price of the",
+        "pece x li[?] Summa xx li[?] Item nyne scheip price of the pece [illegible]",
+        "[amount illegible] Item in the barne & barnzaird aucht bollis aittis price of the",
+        "boll at the [illegible] iiij merkis[?] Summa [amount illegible] Item mair [quantity illegible] firlott",
+        "beir price of [illegible] Item in vtensilis & domicilis with the abulzementis",
+        "of his bodie estimat to [amount illegible]",
+        "Summa of the Inventar [amount unresolved]",
+        "Followis the dettis awin to the deid",
+        "Item thair wes awin to the said vmqle andro glasgw be Jo[hn?] mure in [place illegible]",
+        "[amount illegible] Item be Isobell [surname illegible] relict of vmqle Johne [surname illegible]",
+        "[amount illegible] Item be James stevinsoun in [place illegible] x li[?]",
+        "Summa of the dettis awin to the deid [amount unresolved]",
+        "Summa of the Inventar wt the dettis [amount unresolved]",
+        "Followis the dettis awin be the deid",
+        "Item thair wes awin be the said vmqle andro glasgw to [name illegible]",
+        "in corsoun[?] [amount illegible] Item to Johne keddell[?] in [place illegible]",
+        "[illegible] for ane broun hors [amount illegible] Item to [name illegible] [amount illegible]",
+        "[illegible] Item to James [surname illegible] [illegible] Item to David",
+        "lyoun [amount illegible] Item to patrik stevinsoun[?] in [place illegible] [amount illegible] Item",
+        "to the laird westhall[?] [amount illegible]",
+        "Summa of the dettis awin be the deid [amount unresolved]",
+        "Restis of free geir the dettis deducit [amount unresolved]",
+        "To be dividit in thrie the deidis pairt [amount unresolved]",
+        "Quhairof the quot is componit for [amount unresolved]",
+        "Followis the deidis latter will",
+        "Vpoun the sext day of februar 1597 The said day the said andro [continues]"
+      ]
+    },
+    {
+      "page": "124",
+      "lines": [
+        "[Selected non-contiguous family-clause excerpts; intervening text omitted. Not a complete page transcription.]",
+        "Robart Glasgw his sone begottin be him vpoun the said Elizat his wyff",
+        "[intervening text omitted]",
+        "incais his said spous be with bairne to him",
+        "[intervening text omitted]",
+        "his said sone and his said [dochter… struck through] Marione, Jonet, Isobell",
+        "[remaining continuation not transcribed here]"
+      ]
+    }
+  ],
   "plain_english": [
     "The supplied page is Andrew Glasgow's testament-testamentar and inventory. His residence is provisionally read as Corsoun in the parish of Caldercleir, sheriffdom of Edinburgh. It records his death on 7 February and says that he gave up the inventory himself on 6 February. The latter-will opening at the bottom expressly bears 6 February 1597 as written.",
     "The inventory includes cows with calves, young cattle, horses, sheep, oats, barley, household furnishings and clothing. Incoming and outgoing accounts name financial associates, but their appearance here does not establish family relationships.",
-    "The latter will only begins at the foot of image 123. A local page-two continuation is now supplied, but its family appointments and distribution clauses remain outside this earlier fresh transcription. The previous review's wife, children and conditional unborn-child clauses therefore still await fresh verification."
+    "Selected family clauses on image 124 were freshly inspected on 27 September 2026. They explicitly name Robert as Andrew’s son by his wife Elizat, provide conditionally for a possible pregnancy, and name Marion, Jonet and Isobel in the children’s distribution provision. The cancelled daughter word remains marked. These excerpts prove the named children’s relationship to Andrew; they do not identify the girls’ mother or establish Jonet’s possible later identity as the 1624 Mid Calder Ramsy bride."
   ],
   "findings": [
     "Image 123, lines 4-9: this is a testament-testamentar, distinct from a testament-dative. The decedent's own act on the sixth and death on the seventh are legible; uncertain year numerals in the opening should be checked against the clearer 1597 at the latter-will opening.",
     "Image 123, line 42: 6 February 1597 is the written latter-will date. The existing record describes this as 1597/8 under the pre-1600 Scottish year convention; that is a dating interpretation, not a different date written on the image.",
     "Image 123, lines 24-36: financial associates and possible Stevenson names are not described here as Andrew's parents, children or siblings.",
-    "The page header identifies image 123 and last image 124. The continuation is now present locally, but no wife/son/daughter clause occurs in the portion freshly reviewed. Coverage therefore remains partial until page two receives a fresh line-by-line reading."
+    "Image 124: selected family clauses freshly reviewed. Jonet is named with Marion and Isobel in the testament’s child-distribution provision. Glasgow-3183 now represents the testament-defined daughter after the Glasgow-4096 merger, so Andrew’s father status was upgraded to confident and verified live on 27 September. The later marriage attribution remains probable. The page has not received a full diplomatic transcription."
   ],
   "changes_from_previous": [
-    "Keeps this fresh attempt's coverage partial: image 123 was transcribed, while the now-supplied page-two continuation still awaits a fresh line-by-line reading.",
+    "Earlier 10 September review retained partial coverage: image 123 was transcribed, while image 124 still awaited fresh reading. The selected family clauses have now been reviewed; the remaining continuation still needs full transcription.",
     "Freshly supports the testament type, Caldercleir setting, sixth/seventh-February sequence and the written 1597 latter-will date.",
-    "Elizat Stevinsoun, Robert and the named daughters remain findings of the older continuation review, not newly inspected clauses in this batch. Do not overwrite those findings with absence claims.",
-    "The outgoing Stevenson name may be patrik rather than James in one entry. The present reading is too uncertain for an identity correction; retain a flagged financial-name query."
+    "At the 10 September review, Elizat Stevinsoun, Robert and the named daughters were findings of the older continuation review. The selected clauses have now been freshly inspected on 27 September, without attempting a complete page-two transcription.",
+    "The outgoing Stevenson name may be patrik rather than James in one entry. The present reading is too uncertain for an identity correction; retain a flagged financial-name query.",
+    "27 September 2026: supersedes the earlier awaiting-review status for selected image-124 family clauses. Records fresh inspection and selected excerpts, while retaining partial coverage and the cancelled word. Andrew–Jonet parentage is direct; the later Ramsy identity remains separately probable."
   ],
   "unresolved": [
-    "Freshly read the supplied page-two continuation to re-examine the spouse, explicit Robert parentage, daughters, conditional unborn-child provision, land succession and confirmation.",
+    "Complete a fresh line-by-line reading of the remaining page-two continuation, including land succession, administration, witnesses and confirmation. The selected family clauses are now reviewed; do not treat the omitted wording as absent.",
     "Residence spelling, witnesses, creditor names and most account numerals remain unresolved.",
     "The outgoing Stevenson name requires comparison with a clearer same-hand example; no genealogical conclusion should depend on it."
   ],
-  "profiles": [["Glasgow-3163", "Andrew Glasgow"]],
-  "confidence_statement": "Fresh visual review of image 123 and enlarged crops, with the earlier saved account consulted afterwards. High confidence in document type, reviewed-page limitation and 6 February 1597 at the latter-will opening; moderate confidence in locality and individual inventory items; low confidence in many financial names and sums. This is a partial working reading, not a complete or diplomatic transcript. The now-supplied page-two continuation has not yet been freshly transcribed or used to reconstruct wording.",
+  "profiles": [
+    [
+      "Glasgow-3163",
+      "Andrew Glasgow"
+    ],
+    [
+      "Glasgow-3183",
+      "Jonet Glasgow, testament-named daughter; Ramsy attribution probable"
+    ]
+  ],
+  "confidence_statement": "Fresh visual review of image 123 and enlarged crops in the earlier attempt, supplemented by fresh inspection of selected image-124 family clauses on 27 September 2026. High confidence in the document type, written latter-will date, Robert’s explicit parentage and named children in the distribution provision; moderate confidence in locality; low confidence in many financial names and sums. Coverage remains partial: the continuation excerpts are non-contiguous and do not reconstruct intervening text. Later identity attribution to the 1624 Ramsy bride remains probable.",
   "reviewer": "LLM-assisted fresh image review"
 }

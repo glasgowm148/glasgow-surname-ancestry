@@ -43,3 +43,11 @@ No wife or proved child of William has been identified.
 The decisive items are the complete St Cedma's inscription and the 1783 probate
 material. PRONI `MIC/1B/6` should also be searched for William's marriage and
 children before the register series ends in 1769.
+
+## Batch evidence update — 21 September 2026
+
+The 1783 Connor probate material is lost and the surviving index supplies no heirs, executor or date of death; it is not retrievable as a will. Independent church, estate or deed evidence is required to distinguish this William from William-1505. A manuscript-checked 12 May 1772 Larne deed names Wm Glasgow as a witness, but no age, occupation or relative assigns him to either man; it was registered 9 November 1784 and does not prove survival then. Source: [Registry of Deeds, Miller to Drennan, image 166, manuscript p. 315](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSH3-SQLT-3).
+
+## Live profile update — 21 September 2026, further records
+
+Saved and verified the original-deed source additions and their identity limits. No structured family or vital fields changed. [Complete saved biography](pre1710-record-update-2026-09-21.wiki).

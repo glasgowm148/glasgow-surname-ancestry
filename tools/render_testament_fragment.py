@@ -1,5 +1,9 @@
 """Render associated manuscript material separately from a testament's text."""
 from html import escape
+try:
+    from tools.public_manuscript_previews import approved_preview
+except ModuleNotFoundError:
+    from public_manuscript_previews import approved_preview
 
 
 def render_associated_fragment(fragment):
@@ -13,6 +17,17 @@ def render_associated_fragment(fragment):
         for person in fragment["reading_findings"]
     )
     questions = "".join(f'<li>{escape(question)}</li>' for question in fragment["next_steps"])
+    image_url = fragment.get("image_url", "")
+    scan = (
+        f'<a href="{escape(image_url, quote=True)}">'
+        f'<img src="{escape(image_url, quote=True)}" '
+        'alt="Unaltered PDF page 3: the supplementary confirmation strip marked 396A" '
+        'loading="lazy" style="display:block;max-width:100%;height:auto"></a>'
+        '<p class="tx-key">Original supplied image. Click to enlarge. Image credit: '
+        'Crown copyright, National Records of Scotland / ScotlandsPeople.</p>'
+        if approved_preview(image_url) else
+        '<p class="tx-licensed-withheld">Licensed scan withheld; consult cited source</p>'
+    )
     return (
         '<details class="tx-extra tx-fragment" id="associated-fragment">'
         '<summary>Andro Huchesoun: associated testament fragment'
@@ -24,13 +39,8 @@ def render_associated_fragment(fragment):
         f'<p>{escape(fragment["interpretation"])}</p>'
         '<h3>What the names establish</h3><ul>' + people + '</ul>'
         '<h3>Read the supplied strip</h3>'
-        f'<a href="{escape(fragment["image_url"], quote=True)}">'
-        f'<img src="{escape(fragment["image_url"], quote=True)}" '
-        'alt="Unaltered PDF page 3: the supplementary confirmation strip marked 396A" '
-        'loading="lazy" style="display:block;max-width:100%;height:auto"></a>'
-        '<p class="tx-key">Original supplied image. Click to enlarge. Image credit: '
-        'Crown copyright, National Records of Scotland / ScotlandsPeople.</p>'
-        '<h3>Heading</h3><pre style="white-space:pre-wrap;overflow-wrap:anywhere">'
+        + scan
+        + '<h3>Heading</h3><pre style="white-space:pre-wrap;overflow-wrap:anywhere">'
         + escape(heading) + '</pre><h3>Partial line-by-line reading</h3>'
         '<p>[...] marks unread text of unspecified length; [word?] is tentative. '
         'Brackets within a word expand an abbreviation. Gaps are not reconstructed from an expected formula.</p>'

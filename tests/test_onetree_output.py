@@ -7,7 +7,7 @@ from tests._generated_data import requires_generated_data
 
 
 ROOT = Path(__file__).resolve().parents[1]
-ONE_TREE = ROOT / "www" / "onetree" / "glasgow-one-tree-polished"
+ONE_TREE = ROOT / "www" / "onetree" / "glasgow-one-tree-polished-3"
 
 
 @requires_generated_data
@@ -16,7 +16,9 @@ class OneTreeOutputTests(unittest.TestCase):
     def setUpClass(cls):
         cls.model = json.loads((ONE_TREE / "model.json").read_text(encoding="utf-8"))
         cls.people = {person["id"]: person for person in cls.model["people"]}
-        spec = importlib.util.spec_from_file_location("onetree_build", ONE_TREE / "build.py")
+        spec = importlib.util.spec_from_file_location(
+            "onetree_build", ROOT / "tools" / "site_sources" / "onetree" / "build.py"
+        )
         cls.build = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(cls.build)
 
@@ -40,6 +42,10 @@ class OneTreeOutputTests(unittest.TestCase):
             if person.get("kind") != "person":
                 continue
             slug = person["catalogueId"]
+            if slug is None:
+                # No published dossier: the Atlas links to WikiTree instead (tools/repair_atlas_destinations.py).
+                self.assertFalse((ROOT / "www" / "people" / f"{person['id'].lower()}.html").exists(), person["id"])
+                continue
             self.assertRegex(slug, r"^[a-z0-9_-]+$")
             self.assertTrue(
                 (ROOT / "www" / "people" / slug / "index.html").exists()
@@ -93,14 +99,22 @@ class OneTreeOutputTests(unittest.TestCase):
             self.assertEqual(edge["parent"], "Glasgow-12", child_id)
             self.assertEqual(edge["type"], "recorded", child_id)
 
-    def test_progressive_view_preserves_component_roots_and_ordered_routes(self):
+    def test_template_embeds_relationship_aware_family_index(self):
+        # The linked-families viewer (polished-3) replaced the earlier progressive
+        # component view; its layout engine is embedded in the template itself.
         template = (ONE_TREE / "template.html").read_text(encoding="utf-8")
-        self.assertIn("componentDepth", template)
-        self.assertIn("migrationRoute", template)
-        self.assertIn("migrationRoutes", template)
-        self.assertIn("aggregateBloom", template)
-        self.assertIn("family-local location blooms", template)
-        self.assertIn("Ordered country trail", template)
+        self.assertEqual(1, template.count("__MODEL__"))
+        begin, end = template.find("/* FAMILY_INDEX_BEGIN"), template.find("/* FAMILY_INDEX_END */")
+        self.assertGreater(begin, -1)
+        self.assertGreater(end, begin)
+        index = template[begin:end]
+        self.assertIn("function buildFamilyIndex", index)
+        for key in ("partners", "coparent", "forestRoots", "componentOf", "ancestors", "descendants"):
+            self.assertIn(key, index)
+        # Exports never label a spouse attachment as a displayed parent.
+        self.assertIn("Layout attachment", template)
+        self.assertIn("Layout link type", template)
+        self.assertIn("drawMigrationPoints", template)
 
     def test_collection_nodes_do_not_claim_kinship(self):
         for person in self.people.values():

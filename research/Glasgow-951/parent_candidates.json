@@ -6,14 +6,14 @@
     "person_ids": [
       "Glasgow-3904"
     ],
-    "state": "excluded",
-    "assessment": "Contradicted for Alexander-951. The hypothesis reached Alexander only through supposed brotherhood with Thomas-987. Nancy Glasgow’s 1892 next-of-kin citation lists Alexander’s children but omits Thomas’s adult children at Lisnagaver, so Thomas was not Nancy’s brother and Alexander was not Thomas’s. The tradition remains a statement about Thomas’s parents only.",
+    "state": "open",
+    "assessment": "The tradition identifies Thomas's parents, not Alexander's. Extending it to Alexander requires unproved brotherhood and shared parentage. Omissions from Nancy's notice do not exclude this possibility.",
     "supports": [
       "The late descendant account names Alexander and Rosanna as Thomas’s parents.",
       "Alexander and Thomas had contemporary local families and intersecting witness/tenancy networks; Daniel is Thomas’s proved brother."
     ],
     "objections": [
-      "Nancy Glasgow’s 1892 next-of-kin citation omits Thomas-987’s children while listing Alexander-951’s; Alexander and Thomas were not brothers, so Thomas’s traditional parents do not transfer to Alexander.",
+      "Thomas's omitted children raise a completeness question; the notice does not prove that Thomas and Alexander were unrelated.",
       "The origin of the parent tradition and Alexander’s brotherhood are both unproved. Reposts and member trees do not supply independent confirmations.",
       "The 1834 occupier could be Alexander-951 himself; locality and holdings overlap as evidence of association.",
       "No independently documented tested descent from this older couple selects them genetically. Paternal half-brotherhood would not establish the same mother."
@@ -31,15 +31,15 @@
     "source_path": "research/Glasgow-951/presentation.json",
     "score_profile_id": "Glasgow-3904",
     "research_tier": "primary local explanation",
-    "verdict_label": "Contradicted for Alexander-951 (17 September 2026)",
-    "assessment_date": "2026-09-17"
+    "verdict_label": "Unproved; exclusion withdrawn",
+    "assessment_date": "2026-09-21"
   },
   {
     "id": "unidentified-lisnagaver-robert",
-    "candidate": "Unidentified Robert Glasgow, Lisnagaver tithe occupier in 1834 — now read as a probable brother, not father",
+    "candidate": "Unidentified Robert Glasgow, Lisnagaver tithe occupier in 1834",
     "person_ids": [],
     "state": "open",
-    "assessment": "Recast 17 September 2026: Nancy’s citation names ‘Mary Jane and Ann, children of Robert Glasgow’ among her next of kin, i.e. a deceased brother Robert. The 1834 co-occupier (35 acres beside Alexander’s 29), Griffith’s Gortereghy Robert and the 1868 Ballymoney decedent aged 71 (b. c.1797) are compatible with that brother. He is no longer proposed as Alexander’s father; the daughters remain to be documented.",
+    "assessment": "Nancy's notice names Mary Jane and Ann as children of Robert Glasgow. A probable sibling branch is supported, but identifying that Robert with the 1834 occupier, the Griffith's occupier or the 1868 decedent remains unresolved. No parent or sibling role can be assigned to the occupier until identity is established.",
     "supports": "The tithe separately records Robert and Alexander at Lisnagaver; a Robert also appears in the 1836 house section. This is a concrete local household route, but no age establishes an older generation.",
     "objections": "No age, wife or relationship is recorded. Glenleslie and Coltrim identities remain unproved. If the unassigned 1868 decedent aged 71 were this man, he would be only about 14–15 at Alexander’s c.1811 birth, weakening fatherhood; the c.1804 alternative implies about 7–8. The tithe occupier cannot yet be assigned that age. Acreage near-equality is retired evidence.",
     "source_links": [
@@ -66,8 +66,8 @@
     "score_note": "The 1834 occupier has not been identified with a unique profile, so the profile-based algorithm cannot assign a defensible numerical score.",
     "assertion_id": "C-robert-alexander-father-hypothesis",
     "research_tier": "primary local explanation",
-    "assessment_date": "2026-09-17",
-    "verdict_label": "Recast as probable brother; not a father candidate"
+    "assessment_date": "2026-09-21",
+    "verdict_label": "Identity and generation unresolved"
   },
   {
     "id": "glenleslie-robert-father",
@@ -76,8 +76,8 @@
     "person_ids": [
       "Glasgow-1367"
     ],
-    "state": "excluded",
-    "assessment": "Contradicted: no member of the Glenleslie family (Margaret-3955’s Young children, Hugh, William, John-4055, Robert-1049 and his daughters, Samuel-1052) appears among Nancy Glasgow’s 1892 next of kin, which list Alexander’s children. Still the attached uncertain WikiTree father; proposed replacement is Glasgow-4090.",
+    "state": "weak",
+    "assessment": "No direct record names Glenleslie Robert as Alexander's father, and the documented Glenleslie trail has not been connected to Lisnagaver. Absence from Nancy's notice does not prove exclusion. This is a former attachment hypothesis, not the current live father.",
     "supports": [
       "His age of 72 in the 1851 census gives an estimated birth about 1779.",
       "That age and his reported 1803 marriage allow a child of Alexander's approximate generation."
@@ -110,8 +110,8 @@
     "score_note": "The individual score uses c.1779 from the original 1851 Glenleslie census only for the separately stated Glenleslie identity. It does not assign that date to the unresolved 1834 Lisnagaver occupier.",
     "related_assertion_id": "C-robert-alexander-father-hypothesis",
     "research_tier": "secondary comparison",
-    "assessment_date": "2026-09-17",
-    "verdict_label": "Contradicted by the 1892 next-of-kin citation; still attached (uncertain) pending replacement"
+    "assessment_date": "2026-09-21",
+    "verdict_label": "Unsupported; no direct parentage record"
   },
   {
     "id": "retired-robert-catherine-attachment",
@@ -215,9 +215,9 @@
       "Glasgow-4090"
     ],
     "state": "working",
-    "assessment": "Leading hypothesis (plausible). Nancy Glasgow’s 14 January 1892 Clinton County probate citation lists the children of John-867 and the children of Alexander-951 in the same class of next of kin, together with the children of Robert, Jane Dysart, Elizabeth Anderson, Ann McClelland and Mary Thompson. On the legal form of that document all were Nancy’s deceased siblings; Alexander and John-867 were therefore brothers and share John-867’s recorded father. No record names Alexander’s father directly, and Glasgow-4090 is a record-defined placeholder for the named man.",
-    "supports": "John-867’s 1846 marriage names father John Glasgow, farmer. The 1851 census proves John and Samuel were brothers and Alexander’s neighbours. The 1892 citation groups Alexander’s children (James, Mary, Ann) with John-867’s (James Garvin, Ann, Elizabeth Ann/Lizzie) as Nancy’s next of kin; Nancy’s will calls Jane Dysart’s and Elizabeth Anderson’s children her niece and nephew; Nancy (b. c.1820–21) is too young to be Alexander’s daughter; Alexander died at Gortahar, the Andersons’ townland.",
-    "objections": "Inference from document structure, not a direct parent statement. Full and half siblings are indistinguishable in the citation. The newspaper text is known from an inspected clipping transcribed on Glasgow-4070, not re-imaged in this session. Identity of the named father with the 1796 Desertoghill flax grower (Glasgow-4090) is unproved.",
+    "assessment": "John Glasgow, farmer, is the leading conditional father hypothesis. John-867's 1846 marriage names that father; the probable Nancy/John/Alexander sibling network would extend him to Alexander only if the men shared a father. No record directly names Alexander's father, and the Desertoghill flax-grower identity is unproved.",
+    "supports": "The 1846 marriage names John-867's father John, farmer. The 1851 census documents John and Samuel as brothers. Nancy's inspected 1892 notice and her explicit niece/nephew terms in the will, compared with Irish household records, support the probable sibling network. Lizzie and the Ballydonnelly residence remain identity checks.",
+    "objections": "The notice does not establish full siblinghood, common fatherhood or completeness. Elizabeth Anderson is identified through separate records, not named as a mother in the notice. Neither the named father's identity with Glasgow-4090 nor a Larne joining generation is proved.",
     "source_links": [
       {
         "href": "https://www.nyshistoricnewspapers.org/?a=d&d=plts18920226-01.1.6",
@@ -242,8 +242,8 @@
     "score_note": "The father is a record-named man represented by the placeholder Glasgow-4090; the chain is citation structure plus John-867’s marriage return.",
     "research_tier": "primary local explanation",
     "father_profile_id": "Glasgow-4090",
-    "verdict_label": "Leading father hypothesis; plausible",
-    "assessment_date": "2026-09-17"
+    "verdict_label": "Leading conditional hypothesis; not proved",
+    "assessment_date": "2026-09-21"
   },
   {
     "id": "glenleslie-john-1022",

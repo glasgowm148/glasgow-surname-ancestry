@@ -8,6 +8,7 @@ from bs4 import BeautifulSoup
 
 from tools.publish_resolved_dossiers import resolve
 from tools.repair_person_hierarchy import _current_vitals
+from tools import evidence_labels
 
 ROOT = Path(__file__).resolve().parents[1]
 WEB = ROOT / 'www'
@@ -51,11 +52,19 @@ class ResolvedPublicModelTests(unittest.TestCase):
                         self.assertEqual(claim[key], row[key])
                     html_row = page.select_one(f'#family tr[data-claim-id="{aid}"]')
                     self.assertIsNotNone(html_row)
-                    self.assertEqual(row['status_label'], html_row.select_one('.status-label').text)
+                    # Pages show the curated label in the canonical vocabulary (tools/evidence_labels.py).
+                    self.assertEqual(evidence_labels.normalise_status_label(row["status"], row["status_label"]), html_row.select_one('.status-label').text)
                     self.assertIn(row['reason'], html_row.text)
                     record_ids = {r['record_id'] for r in dossier['presentation']['record_associations']}
                     self.assertTrue(set(row['source_ids']).issubset(record_ids))
-                    self.assertTrue(html_row.select('a[href^="#source-"]'))
+                    if row['source_ids']:
+                        self.assertTrue(html_row.select('a[href^="#source-"]'))
+                    else:
+                        # An approved publication can be a caution about an
+                        # unassessed tree link. It must not claim documentary
+                        # proof or manufacture a source anchor.
+                        self.assertNotEqual('proved', row['status'])
+                        self.assertTrue(row['reason'])
                     for link in html_row.select('a[href^="#"]'):
                         self.assertIsNotNone(page.find(id=link['href'][1:]))
                     for old_id in claim['historical_claim_ids']:

@@ -6,6 +6,8 @@ The reciprocal link to [Brady Family of Sauchie, Stirling & Easter Kennet — Re
 
 ## Current conclusion
 
+A newly located 18 January 1581/82 Bridgegait boundary reference names Archibald Herbertsoun, fisher. It probably continues the record-proved husband’s property history; it names no Glasgow kin and does not change the father assessment. See the dated source review below.
+
 The profile correctly represents Isobella Glasgow, wife of Archibald
 Herbisoune, and cites the 1563 property transaction. No reviewed source names
 her parents. The attached [William Glasgow (Glasgow-1098), about 1500,
@@ -32,6 +34,13 @@ supports Isobella being a sister of John and Robert and therefore a daughter of
 William and Esbell. It remains circumstantial because no act uses a kin term.
 
 ## Source findings
+
+### Bridgegait continuation — 28 September 2026
+
+A newly located boundary reference in Renwick, *Abstracts of Protocols*, vol. 8, protocol 2370, [18 January 1581/82, pp. 36–37](https://archive.org/details/abstractsprotoc00scogoog/page/n60/mode/2up), describes the tenement of **Archibald Herbertsoun, fisher**, on the south side of Bridgegait, beside Ninian Schyre's property and the little common green. The two printed pages were visually inspected on 28 September. Name, occupation and street support a probable later occurrence of Isobella's husband. The entry does not name Isobella or a Glasgow relative, and the tenement has not been matched to the 1563 title. It strengthens the maintained craft/property network without identifying a father.
+
+The confidence review considers the combined evidence; an explicit daughter clause is not a prerequisite. Here the unresolved step is whether her husband's repeated civic association identifies Isobella as a sister of William's proved son, rather than another member of the same craft/property circle. William remains the leading probable father, with the live link uncertain.
+
 | Source | Finding | Assessment |
 | --- | --- | --- |
 | Robert Renwick, ed., *Abstracts of Protocols of the Town Clerks of Glasgow*, vol. 3, protocol 719, [27 January 1562/3](https://archive.org/details/abstractsprotoc06scogoog/page/n41/mode/2up) | Archibald Herbisoune, fisher, and Isobella Glasgow, spouses, sold a Bridgegait tenement; Isobella ratified the transaction. | Direct proof of spouse and survival, but no parent, sibling or child is named. |

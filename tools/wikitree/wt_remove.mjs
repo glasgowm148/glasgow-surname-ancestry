@@ -1,0 +1,15 @@
+const u=process.argv[2], who=process.argv[3];
+const tabs=await fetch("http://127.0.0.1:9333/json/list").then(r=>r.json());
+let page=tabs.find(t=>t.type==="page"&&/wikitree/.test(t.url))||tabs.find(t=>t.type==="page");
+const ws=new WebSocket(page.webSocketDebuggerUrl);const pend=new Map();let id=0;
+ws.addEventListener("message",ev=>{const m=JSON.parse(ev.data);if(!m.id||!pend.has(m.id))return;const{resolve,reject}=pend.get(m.id);pend.delete(m.id);m.error?reject(new Error(JSON.stringify(m.error))):resolve(m.result);});
+await new Promise((res,rej)=>{ws.addEventListener("open",res,{once:true});ws.addEventListener("error",rej,{once:true});});
+const cmd=(m,p={})=>{const i=++id;ws.send(JSON.stringify({id:i,method:m,params:p}));return new Promise((resolve,reject)=>pend.set(i,{resolve,reject}));};
+const ev=async e=>{const r=await cmd("Runtime.evaluate",{expression:e,returnByValue:true});return r.result&&r.result.value;};
+const clickSel=async sel=>{const s=await ev(`(()=>{const b=document.querySelector(${JSON.stringify(sel)}); if(!b)return 'null'; b.scrollIntoView({block:'center'}); const r=b.getBoundingClientRect(); return JSON.stringify({x:r.x+r.width/2,y:r.y+r.height/2});})()`); if(s==='null')return 'null';const{x,y}=JSON.parse(s);await cmd("Input.dispatchMouseEvent",{type:"mousePressed",x,y,button:"left",clickCount:1});await cmd("Input.dispatchMouseEvent",{type:"mouseReleased",x,y,button:"left",clickCount:1});return 'ok';};
+await cmd("Page.enable");await cmd("Runtime.enable");
+await cmd("Page.navigate",{url:`https://www.wikitree.com/index.php?title=Special:EditFamily&u=${u}&who=${who}`});await new Promise(r=>setTimeout(r,4000));
+await clickSel('#editAction_remove'); await new Promise(r=>setTimeout(r,800));
+await clickSel('#actionButton'); await new Promise(r=>setTimeout(r,4500));
+const st=await ev(`JSON.stringify({url:location.href, text:document.body.innerText.replace(/\\s+/g,' ').slice(0,1500), btns:[...document.querySelectorAll('button')].filter(e=>e.offsetParent!==null).map(b=>({id:b.id||'',t:(b.innerText||'').trim().slice(0,40)})), radios:[...document.querySelectorAll('input[type=radio]')].filter(e=>e.offsetParent!==null).map(r=>({id:r.id,checked:r.checked}))})`);
+ws.close(); console.log(JSON.stringify(JSON.parse(st),null,1));

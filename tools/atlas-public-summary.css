@@ -1,0 +1,22 @@
+/* Public DNA summary and the downloadable Atlas share readable text colours. */
+#dna-view .eyebrow,
+#dna-view .note-box p,
+#dna-view .note-box .tool-btn { color: #40583d; }
+body.repair-offline-atlas { --muted: #465744; }
+body.repair-offline-atlas .brand small,
+body.repair-offline-atlas .side-heading,
+body.repair-offline-atlas .branch-search,
+body.repair-offline-atlas .branch-search input::placeholder,
+body.repair-offline-atlas .branch-link b,
+body.repair-offline-atlas .eyebrow,
+body.repair-offline-atlas .overline,
+body.repair-offline-atlas .side-bottom,
+body.repair-offline-atlas #snapshot-date,
+body.repair-offline-atlas .breadcrumb > span,
+body.repair-offline-atlas kbd,
+body.repair-offline-atlas .metrics small,
+body.repair-offline-atlas .geo-label,
+body.repair-offline-atlas [data-geo] small,
+body.repair-offline-atlas [data-view]:not(.active),
+body.repair-offline-atlas footer span,
+body.repair-offline-atlas footer a { color: #465744; }

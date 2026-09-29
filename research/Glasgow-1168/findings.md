@@ -10,11 +10,33 @@ uncertain.
 
 The 1571 record proves two sons: **James Glasgow younger**, now represented by
 [Glasgow-3921](https://www.wikitree.com/wiki/Glasgow-3921), and **John Glasgow**,
-now represented directly by the record-defined
-[Glasgow-4061](https://www.wikitree.com/wiki/Glasgow-4061). The separate
-[Glasgow-3193](https://www.wikitree.com/wiki/Glasgow-3193) remains an uncertain
-Kilwinning identity match. The old Glasgow-991 and Glasgow-1561
-identifications remain only as explicit no-restore cautions.
+now represented by the surviving [Glasgow-3193](https://www.wikitree.com/wiki/Glasgow-3193)
+after record-defined Glasgow-4061 was merged into it on 27 September 2026.
+James is a record-proved father of the Corsinkell son; the survivor's further
+identification with the Kilwinning/Burrowland/Dalgarven John remains a probable
+but unbridged event attribution. A fresh source/profile-scope review on 27
+September separated these conclusions: the merged profile explicitly
+represents the Corsinkell son, so his structured father link is now
+**confident**, saved and read back live. The earlier Kilwinning appearances
+remain probable. The old Glasgow-991 and Glasgow-1561
+identifications remain only as explicit no-restore cautions. The live James
+profile's stale instruction to merge the two Johns was corrected and verified
+on 27 September 2026.
+
+The same 1571 deed also names **Mr Adam Wallace, burgess of Glasgow**, as a
+witness. A later Glencairn commission names a Mr Adam Wallace as a Glasgow
+bailie. The matching name and city favour one civic officer, giving a direct
+Glasgow-burgh contact for the Corsinkell legal transaction, but neither record
+calls Wallace kin to James or identifies James's father. This witness detail was
+added to the live profile and verified on 27 September 2026.
+
+## Identity assessment
+
+The 9 February 1571 date in GD39/5/59 is the date of the letters of reversion,
+not a death date. The record names James elder and his son James among the
+Corsankell occupiers on that date, so both were living then. Glasgow-1168's
+live WikiTree field already correctly says **died after 9 February 1571**;
+neither an exact death date nor a death place is established by this item.
 
 ## Chronology correction
 
@@ -35,7 +57,8 @@ William-1098 remains chronologically possible.
 | --- | --- | --- |
 | Margaret H. B. Sanderson, *The People of Sixteenth Century Ayrshire*, *Ayrshire Collections* 14, no. 8 (1987), appendix "The Cunninghame Teind Lists of 1559-60," [p. 331](https://aanhs.org/wp-content/uploads/2018/05/people-of-ayrshire.pdf#page=36) | Under Stevenston parish and Corsankell the list names "Katherine Campbell, James Glasgow, yr., James Glasgow, eld." Sanderson explains that the list was reconstructed from Gavin Hamilton's 1561 Court of Session action against heads of household/tenants owing the 1559-60 teinds. Her underlying citation is Register of Acts and Decreets, vol. 22, fols. 102v-167v. | Primary-derived contemporary evidence for two distinct James Glasgows at the same holding by 1559-60. The designations do not alone prove relationship; the 1571 record supplies that proof. Katherine Campbell's relationship is not stated. |
 | National Records of Scotland, Charter Chest of the Earls of Glencairn, [GD39/5/59, 9 February 1571](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD39%2F5%2F59) | The catalogue describes the 40-shilling land of Corsinkell as occupied by "James Glasgow, elder James Glasgow and John Glasgow, his sons, Christian Campbell." | Direct evidence in the archival catalogue abstract that James elder's sons were James and John. The repeated place and elder/younger distinction make the younger James a high-confidence match to the man in 1559-60. The original is open but off site; its punctuation and Christian Campbell's relationship should be checked before drawing conclusions about her. |
-| Official NRS catalogue audit, 30 August 2026 | Exact-name searches across 1500-1600 returned no additional James or John Glasgow estate record linking Corsinkell with Burrowland or Dalgarven. GD39/5/59 remains the only exact father-son item. | Negative result supporting a separate record-defined son rather than a forced merge with Glasgow-3193. |
+| Same NRS [GD39/5/59](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD39%2F5%2F59), witness clause; later [GD39/5/68](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD39%2F5%2F68), 26 April 1588 | The 1571 abstract names Mr Adam Wallace, burgess of Glasgow, among the Corsinkell deed's witnesses. The 1588 commission names a Mr Adam Wallace as one of Glasgow's bailies and William Wallace as his son. | Direct city-to-estate legal contact; identity of the two Adam Wallace occurrences is probable from name and civic setting but not explicitly cross-stated. Witnessing does not prove Glasgow-family kinship or parentage. |
+| Official NRS catalogue audit, 30 August 2026 | Exact-name searches across 1500-1600 returned no additional James or John Glasgow estate record linking Corsinkell with Burrowland or Dalgarven. GD39/5/59 remains the only exact father-son item. | The original separate-profile recommendation is superseded by the 27 September merge. The negative search still limits confidence in the Kilwinning identity on the survivor. |
 | *Registrum Magni Sigilli Regum Scotorum*, vol. 3, [no. 596, pp. 133-34](https://archive.org/details/registrummagnisi03scot/page/133/mode/2up) | A charter made at Kerelaw on 4 February 1527 and confirmed 25 May 1536 granted David Cunningham of Bertaneholme the five-merk lands of Corssynkell and Myddillpart, with related Stevenston lands. | Establishes the superior-title history before James's first known appearance, but names no Glasgow tenant or predecessor. It gives no parentage bridge to the Glasgow burgh family. |
 | *Registrum Magni Sigilli Regum Scotorum*, vol. 3, [no. 1698, p. 377](https://archive.org/details/registrummagnisi03scot/page/377/mode/2up) | Charter of 11 July 1537, confirmed 4 August 1537, included two-and-a-half merk lands of Corsinkell in a grant to David Cunningham of Robertland. | Again establishes ownership but names no tenant or Glasgow relative. |
 | Francis J. Grant, ed., *The Commissariot Record of Glasgow: Register of Testaments 1547-1800* (1901), locally archived source | All printed Glasgow-surname index entries were checked. The only potentially nearby James entry points to Margaret Smith, spouse of James Glasgow in Brekpleuch, testament indexed 21 February 1632. No James of Corsankell testament appears under his own name. | Negative result. The 1632 Brekpleuch couple is too late to establish the elder James's parents. An index omission cannot prove that no estate papers ever existed. |
@@ -45,8 +68,7 @@ William-1098 remains chronologically possible.
 | Person | Relationship to James elder | Status |
 | --- | --- | --- |
 | [James Glasgow younger (Glasgow-3921), Corsankell](https://www.wikitree.com/wiki/Glasgow-3921) | Son | **Confirmed by record and already attached.** |
-| [John Glasgow (Glasgow-3193), Kilwinning/Corsankell candidate](https://www.wikitree.com/wiki/Glasgow-3193) | Son | The record confirms James elder had a son John; identity with Glasgow-3193 remains uncertain. |
-| [John Glasgow (Glasgow-4061), record-defined Corsinkell son](https://www.wikitree.com/wiki/Glasgow-4061) | Son | **Confirmed by GD39/5/59 and attached confidently on 30 August 2026.** |
+| [John Glasgow (Glasgow-3193), Kilwinning/Corsinkell survivor](https://www.wikitree.com/wiki/Glasgow-3193) | Son | **Corsinkell son documented by GD39/5/59; confident father setting saved and verified 27 September 2026.** Former record-only Glasgow-4061 merged into this survivor; its additional Kilwinning occurrences remain probable, without a direct residence bridge. Those event attributions are separate from the documented parentage. |
 | Katherine Campbell, at Corsankell in 1559-60 | Unknown | Co-tenant/householder only. The list states no marriage or kinship. |
 | Christian Campbell, at Corsankell in 1571 | Unknown | The catalogue states no marriage or kinship. Do not assume she is Katherine under another name without the original deed or corroboration. |
 | [Matthew Glasgow (Glasgow-3908), Ardeer Nether](https://www.wikitree.com/wiki/Glasgow-3908) and [Michael Glasgow (Glasgow-3911), Brakpleuch/Dubbs](https://www.wikitree.com/wiki/Glasgow-3911) | Possible local collateral kin | The same 1559-60 Stevenston list places them in the immediate parish cluster, but supplies no relationship. |
@@ -103,9 +125,11 @@ father; Glasgow-3921 and Glasgow-3193 are already the structured sons.
    uncertain. He is chronologically possible, but no
    record joins the Glasgow burgh and Corsankell families. If retained as a
    working attachment, mark and describe it as uncertain rather than proved.
-4. Mark the identity of record-proved son John with
-   [Glasgow-3193](https://www.wikitree.com/wiki/Glasgow-3193) uncertain until a
-   Burrowland/Dalgarven-to-Corsankell bridge is found.
+4. John [Glasgow-3193](https://www.wikitree.com/wiki/Glasgow-3193) now explicitly
+   represents the record-proved Corsinkell son following the Glasgow-4061
+   merge. His father is confident, saved/read back 27 September. Keep the
+   attribution of the 1559–60 Burrowland/Dalgarven events probable until a
+   residence bridge is found.
 5. Change structured death from `after 8 November 1580` to **after 9 February
    1571, place unknown**, uncertain. The biography itself correctly says the
    1580 date is an online-tree conflation.
@@ -119,7 +143,9 @@ Edit summary: `Align uncertain relationship and death settings with the Corsanke
 Verified live **19 August 2026**: birth is about 1515 and uncertain; death is
 **after 9 February 1571** with no death place. Both early parent links are
 uncertain. Glasgow-3921 remains the record-proved confident son, while
-Glasgow-3193 and Glasgow-3178 now have uncertain father links.
+Glasgow-3178 has an uncertain father link. Glasgow-3193's father status was
+subsequently upgraded to confident on 27 September 2026 for the documented
+Corsinkell identity; the Kilwinning event attribution remains probable.
 
 The Glasgow-3178 father link was re-audited on **28 August 2026** after WT+
 warning 420 exposed its pairing with Margaret Smith, wife of Glasgow-3921.
@@ -138,6 +164,9 @@ Created [[Glasgow-4061]] with birth before and death after 9 February 1571,
 unknown places, unknown mother, and James elder as a confident father. The
 profile quotes and cites GD39/5/59. Keep [[Glasgow-3193]] attached only
 uncertain until a property deed joins Burrowland or Dalgarven to Corsinkell.
+This 30 August instruction is superseded: Glasgow-4061 merged into Glasgow-3193
+on 27 September, retaining the record-proved father and a qualified wider
+identity claim.
 
 ## Collateral household placement - 31 August 2026
 

@@ -1,29 +1,19 @@
 # Findings: [John Glasgow (Glasgow-1084), Mid Calder](https://www.wikitree.com/wiki/Glasgow-1084)
 
-Last updated: 2026-08-09
+Last updated: 2026-09-27
 
-## Conclusion
+## Current conclusion
 
-John's 1616 Mid Calder event and later Issobell Porteous family do not prove
-identity with [Glasgow-3015](https://www.wikitree.com/wiki/Glasgow-3015), the
-Duddingston father who had a child with Helen Patoune in 1638. A first marriage
-is chronologically possible, but no record links the places, wives or fathers.
+Glasgow-3015 was merged into this older profile on 27 September 2026 as the leading identification of the Midlothian John Glasgow named with Helen Patoune in a 1638 Duddingston child record and with Issobell Porteous in later Edinburgh and Kirknewton child records. The 1616 Mid Calder baptism gives a compatible generation. The mother's two record sequences do not overlap, but no death or remarriage record proves a second union. The 1645 James child remains attached with unconfirmed parentage. The former unsupported William-2453 son link was already resolved in an earlier audit and was not restored.
 
-Keep the profiles separate and label the comparison as a research lead. Do not
-use the Duddingston family to validate this profile's already uncertain wider
-parent topology.
+## Unresolved questions
 
-The current son Glasgow-2453 is also chronologically implausible and unsupported.
-John was christened in 1616, while Glasgow-2453 represents an adult William who
-had a child in 1648. Issobel's baptism identifies her father as William but says
-nothing about that adult's parents. Detach Glasgow-2453 from Glasgow-1084.
-
-See the [graph-claim audit](../../surname-research/pre-1700/graph-claim-audit-2026-07-27.md).
+Compare the original 1638, 1643 and 1652 entries for residence, trade and witnesses; identify Helen Patoune's later fate and a marriage to Issobell Porteous. Verify the exact date and parent names in John's 1616 Mid Calder register entry.
 
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-155c74c6dd03 -->
-## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-155c74c6dd03
+## Source assessment — Findmypast Glasgow surname evidence fmp-glasgow-155c74c6dd03
 
-The transcript-validated baptism record for **John Glasgow**, 10 ? 1616, Midcalder, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
+The transcript-validated baptism record for **John Glasgow**, 10 ? 1616, Midcalder, is assigned to this profile by the completed person-level WikiTree audit. The later 27 September 2026 merge with Glasgow-3015 is assessed separately in the current conclusion.
 
 ## Source findings
 
@@ -37,9 +27,9 @@ Add the record as supporting evidence while preserving all existing sources and 
 <!-- END FMP-GLASGOW-fmp-glasgow-155c74c6dd03 -->
 
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-580b6ddab10a -->
-## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-580b6ddab10a
+## Source assessment — Findmypast Glasgow surname evidence fmp-glasgow-580b6ddab10a
 
-The transcript-validated baptism record for **John Glasgow**, 18 Feb 1616, Mid Calder, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
+The transcript-validated baptism record for **John Glasgow**, 18 Feb 1616, Mid Calder, is assigned to this profile by the completed person-level WikiTree audit. The later 27 September 2026 merge with Glasgow-3015 is assessed separately in the current conclusion.
 
 ## Source findings
 
@@ -85,3 +75,11 @@ Provenance: exact-surname Glasgow search, year range to 1700, 127 supplied resul
 Original image not inspected for this batch. The combined collection’s date does not automatically establish a birthday. Names alone do not uniquely identify attached parents or connect a child with a later adult. An omitted parent or indexed gender U remains unspecified in this source.
 
 **Next action:** No additional WikiTree update from this row; preserve any existing pending work.
+
+## Father relationship assessment — 28 September 2026
+
+This is a review of existing evidence, not a newly discovered record. Attached father: [James Glasgow](https://www.wikitree.com/wiki/Glasgow-991). Assessment: **confident**.
+
+Reason: The Mid Calder baptism index of 18 February 1616 names James Glasgow as father; NRS OPR 694/10/28. Later adult identities are assessed separately.
+
+Source summary: The Mid Calder baptism index of 18 February 1616 names James Glasgow as father; NRS OPR 694/10/28. Later adult identities are assessed separately. Saved on WikiTree and verified in the live edit form on 28 September 2026; only the father certainty and its explanation were updated.

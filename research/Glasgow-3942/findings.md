@@ -31,7 +31,7 @@ unless later positive evidence supports a merge.
   record-defined Saltcoats Katherine. Name and theoretical longevity are not
   identity evidence; later positive evidence could justify a merge.
 - The complete conditional creation draft is
-  `../../surname-research/new-people/1637_Scotland_Saltcoats_Katherine_Glasgow.md`.
+  `../../research/Glasgow-4153/1637_Scotland_Saltcoats_Katherine_Glasgow.md`.
 
 ## Recommended profile amendment
 

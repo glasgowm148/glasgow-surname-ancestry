@@ -1,0 +1,48 @@
+{
+  "date": "2026-09-21",
+  "method": "Authenticated Chrome browser UI",
+  "authorization": "User approved creation of both profiles and uncertain paternal attachments.",
+  "profiles": [
+    {
+      "id": "Glasgow-4180",
+      "uid": 51606567,
+      "url": "https://www.wikitree.com/index.php?title=Glasgow-4180&errcode=saved",
+      "created": true,
+      "father": "Glasgow-3991",
+      "fatherStatus": "uncertain",
+      "verifiedUncertainIndicator": true,
+      "mother": null,
+      "manager": "M Glasgow (Glasgow-933)",
+      "citationTitleVerified": true,
+      "verifiedAt": "2026-09-21T20:06:46.438Z"
+    },
+    {
+      "id": "Glasgow-4181",
+      "uid": 51606575,
+      "url": "https://www.wikitree.com/index.php?title=Glasgow-4181&errcode=saved",
+      "created": true,
+      "father": "Glasgow-4180",
+      "fatherStatus": "uncertain",
+      "verifiedUncertainIndicator": true,
+      "mother": null,
+      "manager": "M Glasgow (Glasgow-933)",
+      "citationTitleVerified": true,
+      "verifiedAt": "2026-09-21T20:06:46.507Z"
+    }
+  ],
+  "relatedEdits": [
+    {
+      "id": "Glasgow-3991",
+      "verified": true,
+      "changes": "Reciprocal uncertain-son note with source links",
+      "wiki": "research/larne-proof-2026-09-21/sources/James-3991-attachment-note.wiki"
+    },
+    {
+      "id": "Glasgow-3989",
+      "verified": true,
+      "changes": "Possible Mary-4181 duplicate note; birth about1807, death18Oct1844 exact from monument; deathplaceLarne uncertain; fatherWilliam3324 preserved",
+      "wiki": "research/larne-proof-2026-09-21/sources/Mary-3989-attachment-note.wiki"
+    }
+  ],
+  "productionWebsiteDeployed": false
+}

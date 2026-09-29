@@ -10,7 +10,7 @@ REQUIRED_GENERATED_PATHS = (
     ROOT / "data" / "wikitree" / "profile-evidence.json",
     ROOT / "www" / "data" / "people.json",
     ROOT / "www" / "map" / "data" / "records.csv",
-    ROOT / "www" / "onetree" / "glasgow-one-tree-polished" / "model.json",
+    ROOT / "www" / "onetree" / "glasgow-one-tree-polished-3" / "model.json",
 )
 GENERATED_DATA_AVAILABLE = all(path.exists() for path in REQUIRED_GENERATED_PATHS)
 requires_generated_data = unittest.skipUnless(

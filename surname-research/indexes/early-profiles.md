@@ -1,6 +1,6 @@
 # Glasgow profiles and occurrences before 1701
 
-**Total indexed: 397 profiles and early-record references.**
+**Total indexed: 380 profiles and early-record references.**
 
 > Generated navigation index. Areas use a specific birthplace when recorded, otherwise a more specific death place; this is navigation, not migration or kinship proof. An attached WikiTree father defaults to uncertain until the manual father-assessment register cites evidence; missing local parent data is shown as not assessed, not as proof that the father is unknown.
 
@@ -19,18 +19,17 @@ Father status: **Confirmed by record** = a relational record plus a resolved ide
 | --- | --- | --- | --- |
 | [John Glasgow (1475)](https://www.wikitree.com/wiki/Glasgow-1095) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | [findings](../../research/Glasgow-1095/findings.md) |
 
-## 16th century (1500-1599): highest priority (43)
+## 16th century (1500-1599): highest priority (40)
 
 | Location | Profiles | Share | Confirmed | Plausible | Uncertain | Contradicted / unsupported | Not assessed |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| Scotland: Lanarkshire and Glasgow | 16 | 37.2% | 5 | 4 | 7 | 0 | 0 |
-| Scotland: Ayrshire | 5 | 11.6% | 1 | 3 | 1 | 0 | 0 |
-| Scotland: Edinburgh and the Lothians | 17 | 39.5% | 1 | 1 | 11 | 4 | 0 |
-| Scotland: Borders | 1 | 2.3% | 0 | 0 | 1 | 0 | 0 |
-| Scotland: Stirlingshire | 1 | 2.3% | 0 | 1 | 0 | 0 | 0 |
-| Scotland: other or unspecified | 2 | 4.7% | 0 | 0 | 2 | 0 | 0 |
-| Other or location unknown | 1 | 2.3% | 0 | 0 | 1 | 0 | 0 |
-| **Total** | **43** | **100.0%** | **7** | **9** | **23** | **4** | **0** |
+| Scotland: Lanarkshire and Glasgow | 16 | 40.0% | 5 | 6 | 5 | 0 | 0 |
+| Scotland: Ayrshire | 5 | 12.5% | 1 | 3 | 1 | 0 | 0 |
+| Scotland: Edinburgh and the Lothians | 15 | 37.5% | 2 | 1 | 10 | 2 | 0 |
+| Scotland: Borders | 1 | 2.5% | 0 | 0 | 1 | 0 | 0 |
+| Scotland: Stirlingshire | 1 | 2.5% | 0 | 0 | 1 | 0 | 0 |
+| Scotland: other or unspecified | 2 | 5.0% | 0 | 0 | 2 | 0 | 0 |
+| **Total** | **40** | **100.0%** | **8** | **10** | **20** | **2** | **0** |
 
 ### Scotland: Lanarkshire and Glasgow (16)
 
@@ -46,12 +45,12 @@ Father status: **Confirmed by record** = a relational record plus a resolved ide
 | [Stephen Glasgow (1550)](https://www.wikitree.com/wiki/Glasgow-1029) | [John Glasgow (1510)](https://www.wikitree.com/wiki/Glasgow-1093)<br>**Confirmed by record** | A 1575 Glasgow protocol describes Stephen as son of the late John Glasgow and names Jonet Spreull as his mother. | [findings](../../research/Glasgow-1029/findings.md) |
 | [Isabella Glasgow (1560)](https://www.wikitree.com/wiki/Glasgow-3026) | [Archibald Glasgow (1533)](https://www.wikitree.com/wiki/Glasgow-1097)<br>**Uncertain** | No leading father candidate remains. Isabella's dyer husband was probably the 1582 record-proved son of Peter Howie and Isobella Maxwell, so Robert Glasgow's links to David Howe concern another Howe household and do not support her parentage. | [findings](../../research/Glasgow-3026/findings.md) |
 | [George Glasgow (1569)](https://www.wikitree.com/wiki/Glasgow-1099) | [William Glasgow (1540)](https://www.wikitree.com/wiki/Glasgow-3522)<br>**Confirmed by record** | The 15 July 1586 sasine names George as heir of his father William, and the 1 September transaction names his mother Margaret Herbesoun, resolving the attached parental couple. | [findings](../../research/Glasgow-1099/findings.md) |
-| [John Glasgow (1575)](https://www.wikitree.com/wiki/Glasgow-1030) | [William Glasgow (1540)](https://www.wikitree.com/wiki/Glasgow-3522)<br>**Uncertain** | The 1619 witnesses do not establish brothers: George is directly proved William's son, but Robert is directly proved Ninian's son. Ninian's testament-named brother John is now the leading identity candidate for this profile. Robert the fisher is only the leading possible father because the testament does not exclude John being Ninian's maternal half-brother; no occupation or property bridge proves the profile identity. | [findings](../../research/Glasgow-1030/findings.md) |
+| [John Glasgow (1575)](https://www.wikitree.com/wiki/Glasgow-1030) | [Robert Glasgow (1520)](https://www.wikitree.com/wiki/Glasgow-1096)<br>**Plausible** | Ninian's 1596 burgess admission expressly names Robert Glasgow, fisher, as his father; Ninian's 1613 testament expressly calls John his brother. Shared surname, compatible chronology and Ninian's son Robert's appearance at the 1619 baptism support a common father. Confident combined-evidence inference for the record-defined brother represented by Glasgow-1030; identification with the 1618 Jonet Mathie husband remains probable. | [findings](../../research/Glasgow-1030/findings.md) |
 | [Robert Glasgow I (1582)](https://www.wikitree.com/wiki/Glasgow-1156) | [Archibald Glasgow (1533)](https://www.wikitree.com/wiki/Glasgow-1097)<br>**Uncertain** | No record names Archibald as Robert's father. Andrew's 1597/8 testament directly proves a son Robert by Elizat Stevinsoun who was still under the relevant age or majority; Glasgow-1156's estimated date and Duddingston/Lothian context make him the leading alternate identity candidate, but no Corsoun, land or Stevenson bridge proves the match. | [findings](../../research/Glasgow-1156/findings.md) |
 | [Robert Glasgow (1583)](https://www.wikitree.com/wiki/Glasgow-1027) | [Ninian Glasgow (1550)](https://www.wikitree.com/wiki/Glasgow-3188)<br>**Confirmed by record** | Jonet Meik's 1607 testament calls Robert her son, and Ninian Glasgow's 1613 testament independently calls Robert his son; the two records resolve the parents to this family. | [findings](../../research/Glasgow-1027/findings.md) |
 | [John Glasgow (1590)](https://www.wikitree.com/wiki/Glasgow-3296) | Father not identified<br>**Uncertain** | The 1650 Quodquen testament identifies John's sister but no parents, and no father is attached. | [findings](../../research/Glasgow-3296/findings.md) |
 | [William Glasgow (1590)](https://www.wikitree.com/wiki/Glasgow-3075) | [Ninian Glasgow (1550)](https://www.wikitree.com/wiki/Glasgow-3188)<br>**Uncertain** | A William occurs in Ninian's damaged 1613 testament material, but the previously asserted sonship clause cannot be securely recovered and no record identifies him as the Leith mealmaker. | [findings](../../research/Glasgow-3075/findings.md) |
-| [Marion Glasgow (1592)](https://www.wikitree.com/wiki/Glasgow-3062) | [Robert Glasgow (1520)](https://www.wikitree.com/wiki/Glasgow-1096)<br>**Uncertain** | Ninian's 1613 testament directly calls Marion his sister, excluding him as her father and making Ninian's father Robert a strong but uncertain candidate. Andrew's corrected testament separately proves a daughter Marion; chronology fits this profile, but no Corsoun/Fultoun bridge resolves whether she is the same woman. | [findings](../../research/Glasgow-3062/findings.md) |
+| [Marion Glasgow (1592)](https://www.wikitree.com/wiki/Glasgow-3062) | [Robert Glasgow (1520)](https://www.wikitree.com/wiki/Glasgow-1096)<br>**Plausible** | Ninian's 1596 admission names Robert as his father and his 1613 testament calls Marion his sister. Shared surname and chronology support their common father without concrete contrary evidence. Confident combined-evidence inference; the separate Andrew/Corsoun identity remains unresolved. | [findings](../../research/Glasgow-3062/findings.md) |
 
 ### Scotland: Ayrshire (5)
 
@@ -63,7 +62,7 @@ Father status: **Confirmed by record** = a relational record plus a resolved ide
 | [Catherine Weir (1565)](https://www.wikitree.com/wiki/Glasgow-1495) | [James Glasgow (1540)](https://www.wikitree.com/wiki/Glasgow-3921)<br>**Plausible** | CC9/7/4 proves Thomas Weir as Katherine's husband at Stevenston and records her January 1603 death, but names no father. Its confirmation is securely in May 1605, while the day conflicts between manuscript [26?] and Findmypast/Grant 9. James younger remains only a plausible father from locality and chronology. | [findings](../../research/Glasgow-1495/findings.md) |
 | [Geillis Wilson (1565)](https://www.wikitree.com/wiki/Glasgow-3179) | [James Glasgow (1540)](https://www.wikitree.com/wiki/Glasgow-3921)<br>**Plausible** | The live candidate is James younger of Corsankell. Geillis lived in the same Ayrshire cluster and her 1603 testament names a James Glasgow in financial dealings, but states no relationship and names no father. | [findings](../../research/Glasgow-3179/findings.md) |
 
-### Scotland: Edinburgh and the Lothians (17)
+### Scotland: Edinburgh and the Lothians (15)
 
 | Person | Father / assessment | Assessment basis | Findings |
 | --- | --- | --- | --- |
@@ -78,12 +77,10 @@ Father status: **Confirmed by record** = a relational record plus a resolved ide
 | [Jonat Menzeis (1585)](https://www.wikitree.com/wiki/Glasgow-3262) | Father not identified<br>**Uncertain** | No father is attached and the captured profile supplies no cited relational record identifying one. | [findings](../../research/Glasgow-3262/findings.md) |
 | [David Glasgow (1586)](https://www.wikitree.com/wiki/Glasgow-1028) | [Andrew Glasgow (1540)](https://www.wikitree.com/wiki/Glasgow-3163)<br>**Uncertain** | Andrew's corrected 1597/8 will names son Robert and daughters Marion, Janet and Isobel, but not David. The direct-son placement has no positive support; retain it only as uncertain topology until a sourced replacement family is established. | [findings](../../research/Glasgow-1028/findings.md) |
 | [Barbara Wilson (1590)](https://www.wikitree.com/wiki/Glasgow-3182) | Father not identified<br>**Uncertain** | The profile supplies no parentage record and distinguishes several contemporary Barbara Glasgows without assigning this woman to a parental family. | [findings](../../research/Glasgow-3182/findings.md) |
-| [John Glasgow (1590)](https://www.wikitree.com/wiki/Glasgow-3608) | [Stephen Glasgow (1550)](https://www.wikitree.com/wiki/Glasgow-1029)<br>**Contradicted / unsupported** | The Stephen attachment is unsupported. This unsourced Mid Calder profile may duplicate John Glasgow-1561, whose family is documented in nearby Linlithgow from 1613; resolve that identity before proposing a father. | [findings](../../research/Glasgow-3608/findings.md) |
 | [Margaret Glasgow (1592)](https://www.wikitree.com/wiki/Glasgow-3598) | Father not identified<br>**Uncertain** | The captured marriage evidence identifies Margaret as William Hardie's spouse but does not name her parents, and no father is attached. | [findings](../../research/Glasgow-3598/findings.md) |
 | [Barbara Johnson (1596)](https://www.wikitree.com/wiki/Glasgow-3302) | Father not identified<br>**Uncertain** | The captured marriage evidence identifies Barbara as a spouse but supplies no parents, and no father is attached. | [findings](../../research/Glasgow-3302/findings.md) |
 | [Andrew Glasgow (1597)](https://www.wikitree.com/wiki/Glasgow-4006) | [Andrew Glasgow (1540)](https://www.wikitree.com/wiki/Glasgow-3163)<br>**Contradicted / unsupported** | This profile was created solely from a superseded transcription of CC8/8/32. The corrected reading names Robert as Andrew and Elizat's son and does not name a son Andrew. The profile and parent edge are unsupported and require transparent error handling. | [findings](../../research/Glasgow-4006/findings.md) |
-| [Issobell Symington (1597)](https://www.wikitree.com/wiki/Glasgow-3336) | Father not identified<br>**Uncertain** | The 1619 Edinburgh marriage and 1620 baptism do not name Issobell's parents. Andrew's corrected testament proves a daughter Isobel in the right generation and region, making this the leading live identity candidate, but no Corsoun or Stevenson bridge proves the relationship. | [findings](../../research/Glasgow-3336/findings.md) |
-| [William Glasgow (1597)](https://www.wikitree.com/wiki/Glasgow-4007) | [Andrew Glasgow (1540)](https://www.wikitree.com/wiki/Glasgow-3163)<br>**Contradicted / unsupported** | This profile was created solely from a superseded transcription of CC8/8/32. The corrected reading names Robert as Andrew and Elizat's son and does not name a son William. The profile and parent edge are unsupported and require transparent error handling. | [findings](../../research/Glasgow-4007/findings.md) |
+| [Issobell Symington (1597)](https://www.wikitree.com/wiki/Glasgow-3336) | [Andrew Glasgow (1540)](https://www.wikitree.com/wiki/Glasgow-3163)<br>**Confirmed by record** | Andrew’s testament names Isobel among his daughters. Glasgow-3336 represents that record-defined child after the Glasgow-4097 merger; the later Edinburgh bride attribution remains separately probable. Source review: NRS Edinburgh Commissary Court CC8/8/32, images 123–124. | [findings](../../research/Glasgow-3336/findings.md) |
 
 ### Scotland: Borders (1)
 
@@ -95,7 +92,7 @@ Father status: **Confirmed by record** = a relational record plus a resolved ide
 
 | Person | Father / assessment | Assessment basis | Findings |
 | --- | --- | --- | --- |
-| [William Glasgow (1500)](https://www.wikitree.com/wiki/Glasgow-1098) | [John Glasgow (1475)](https://www.wikitree.com/wiki/Glasgow-1095)<br>**Plausible** | The relationship is unproved, but the same Glasgow locality and workable estimated generation make John the leading known candidate for William's father. Both birth years are reconstructed, so the attachment must remain explicitly uncertain. | [findings](../../research/Glasgow-1098/findings.md) |
+| [William Glasgow (1500)](https://www.wikitree.com/wiki/Glasgow-1098) | [John Glasgow (1475)](https://www.wikitree.com/wiki/Glasgow-1095)<br>**Uncertain** | The same-property succession supports the older John as a probable father, but the inspected title records do not establish that relationship; the biography already describes it as an inference. Source review: Glasgow property protocols and maintained William findings. | [findings](../../research/Glasgow-1098/findings.md) |
 
 ### Scotland: other or unspecified (2)
 
@@ -104,35 +101,28 @@ Father status: **Confirmed by record** = a relational record plus a resolved ide
 | [Elizabeth Kaine (1525)](https://www.wikitree.com/wiki/Glasgow-3915) | [William Glasgow (1500)](https://www.wikitree.com/wiki/Glasgow-1098)<br>**Uncertain** | Strong close-kin hypothesis, exact degree unresolved: William Glasgow and probable husband Alexander Kano/Kaine occur consecutively in the 1526 Sandilands remission, and Alexander's widow Elizabeth later occupied Easter Corswood in the same Calder estate. Daughter, sister and niece remain viable. | [findings](../../research/Glasgow-3915/findings.md) |
 | [Jonet Pady (1560)](https://www.wikitree.com/wiki/Glasgow-3917) | [William Glasgow (1540)](https://www.wikitree.com/wiki/Glasgow-3522)<br>**Uncertain** | William Pady's 1599 admission proves only that his wife was a burgess's daughter and does not name her father. Andrew's corrected testament proves a daughter Jonet, but this woman's Glasgow-burgh records have no Corsoun or Stevenson bridge and the Mid Calder bride Glasgow-3183 is a competing identity candidate. | [findings](../../research/Glasgow-3917/findings.md) |
 
-### Other or location unknown (1)
-
-| Person | Father / assessment | Assessment basis | Findings |
-| --- | --- | --- | --- |
-| [John Glasgow (1571)](https://www.wikitree.com/wiki/Glasgow-4061) | [James Glasgow (1515)](https://www.wikitree.com/wiki/Glasgow-1168)<br>**Uncertain** | Attached in captured WikiTree data; not evidence-audited. | [findings](../../research/Glasgow-4061/findings.md) |
-
-## 17th century (1600-1699) (246)
+## 17th century (1600-1699) (234)
 
 | Location | Profiles | Share | Confirmed | Plausible | Uncertain | Contradicted / unsupported | Not assessed |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| Scotland: Lanarkshire and Glasgow | 33 | 13.4% | 5 | 0 | 20 | 0 | 8 |
-| Scotland: Ayrshire | 44 | 17.9% | 0 | 0 | 10 | 0 | 34 |
-| Scotland: Edinburgh and the Lothians | 119 | 48.4% | 4 | 1 | 38 | 0 | 76 |
-| Scotland: Borders | 17 | 6.9% | 1 | 0 | 4 | 2 | 10 |
+| Scotland: Lanarkshire and Glasgow | 32 | 13.7% | 6 | 0 | 18 | 0 | 8 |
+| Scotland: Ayrshire | 43 | 18.4% | 0 | 0 | 9 | 0 | 34 |
+| Scotland: Edinburgh and the Lothians | 110 | 47.0% | 8 | 1 | 34 | 0 | 67 |
+| Scotland: Borders | 17 | 7.3% | 1 | 0 | 4 | 2 | 10 |
 | Scotland: Stirlingshire | 1 | 0.4% | 0 | 0 | 0 | 0 | 1 |
-| Scotland: Argyll | 5 | 2.0% | 0 | 0 | 0 | 0 | 5 |
-| Scotland: other or unspecified | 4 | 1.6% | 0 | 0 | 1 | 0 | 3 |
-| Ireland: County Antrim | 6 | 2.4% | 0 | 1 | 0 | 1 | 4 |
-| Ireland: other or unspecified | 3 | 1.2% | 0 | 0 | 0 | 1 | 2 |
-| England | 5 | 2.0% | 0 | 0 | 1 | 0 | 4 |
-| North America and Caribbean | 5 | 2.0% | 0 | 0 | 0 | 0 | 5 |
-| **Total** | **246** | **100.0%** | **10** | **2** | **75** | **4** | **155** |
+| Scotland: Argyll | 5 | 2.1% | 0 | 0 | 0 | 0 | 5 |
+| Scotland: other or unspecified | 4 | 1.7% | 0 | 0 | 1 | 0 | 3 |
+| Ireland: County Antrim | 5 | 2.1% | 0 | 1 | 0 | 1 | 3 |
+| Ireland: other or unspecified | 3 | 1.3% | 0 | 0 | 0 | 1 | 2 |
+| England | 5 | 2.1% | 0 | 0 | 1 | 0 | 4 |
+| North America and Caribbean | 5 | 2.1% | 0 | 0 | 0 | 0 | 5 |
+| **Total** | **234** | **100.0%** | **15** | **2** | **68** | **4** | **145** |
 
-### Scotland: Lanarkshire and Glasgow (33)
+### Scotland: Lanarkshire and Glasgow (32)
 
 | Person | Father / assessment | Assessment basis | Findings |
 | --- | --- | --- | --- |
 | [Jonet Stewart (1607)](https://www.wikitree.com/wiki/Glasgow-3061) | [George Glasgow (1569)](https://www.wikitree.com/wiki/Glasgow-1099)<br>**Confirmed by record** | John Stewart's 25 November 1624 burgess admission directly calls his wife Jonat the lawful daughter of George Glasgow, merchant, burgess and guild brother. The exact husband, Glasgow household, first child in 1625 and George-1099's matching civic identity resolve the record to this profile. | [findings](../../research/Glasgow-3061/findings.md) |
-| [John Glasgow (1610)](https://www.wikitree.com/wiki/Glasgow-3019) | [John Glasgow (1590)](https://www.wikitree.com/wiki/Glasgow-3296)<br>**Uncertain** | Attached in captured WikiTree data; not evidence-audited. | [findings](../../research/Glasgow-3019/findings.md) |
 | [Margarat Stewart (1610)](https://www.wikitree.com/wiki/Glasgow-1100) | [George Glasgow (1569)](https://www.wikitree.com/wiki/Glasgow-1099)<br>**Confirmed by record** | Her 1610 Glasgow High Kirk baptism names George Glasgow as father, and James Stewart's 18 July 1633 burgess admission independently calls his wife Margaret the lawful daughter of George Glasgow, merchant, burgess and guild brother. | [findings](../../research/Glasgow-1100/findings.md) |
 | [Thomas Glasgow (1612)](https://www.wikitree.com/wiki/Glasgow-1103) | [George Glasgow (1569)](https://www.wikitree.com/wiki/Glasgow-1099)<br>**Uncertain** | Attached in captured WikiTree data; not evidence-audited. | [findings](../../research/Glasgow-1103/findings.md) |
 | [William Glasgow (1612)](https://www.wikitree.com/wiki/Glasgow-1556) | [William Glasgow (1590)](https://www.wikitree.com/wiki/Glasgow-3075)<br>**Uncertain** | Attached in captured WikiTree data; not evidence-audited. | Not yet researched |
@@ -148,7 +138,7 @@ Father status: **Confirmed by record** = a relational record plus a resolved ide
 | [Bessie Glasgow (1623)](https://www.wikitree.com/wiki/Glasgow-1092) | [Robert Glasgow (1583)](https://www.wikitree.com/wiki/Glasgow-1027)<br>**Uncertain** | Attached in captured WikiTree data; not evidence-audited. | [findings](../../research/Glasgow-1092/findings.md) |
 | [Elizabeth Glasgow (1625)](https://www.wikitree.com/wiki/Glasgow-1517) | [Robert Glasgow (1583)](https://www.wikitree.com/wiki/Glasgow-1027)<br>**Uncertain** | Attached in captured WikiTree data; not evidence-audited. | [findings](../../research/Glasgow-1517/findings.md) |
 | [Catherine Glasgow (1627)](https://www.wikitree.com/wiki/Glasgow-1490) | [Robert Glasgow (1583)](https://www.wikitree.com/wiki/Glasgow-1027)<br>**Uncertain** | Attached in captured WikiTree data; not evidence-audited. | [findings](../../research/Glasgow-1490/findings.md) |
-| [George Glasgow (1627)](https://www.wikitree.com/wiki/Glasgow-1090) | [John Glasgow (1575)](https://www.wikitree.com/wiki/Glasgow-1030)<br>**Uncertain** | Attached in captured WikiTree data; not evidence-audited. | [findings](../../research/Glasgow-1090/findings.md) |
+| [George Glasgow (1627)](https://www.wikitree.com/wiki/Glasgow-1090) | [John Glasgow (1575)](https://www.wikitree.com/wiki/Glasgow-1030)<br>**Confirmed by record** | The Glasgow 1627 baptism names John Glasgow and Jonet Mathie as the lawful child’s parents; High Kirk baptisms, vol.2/436. | [findings](../../research/Glasgow-1090/findings.md) |
 | [John Glasgow (1632)](https://www.wikitree.com/wiki/Glasgow-3331) | [John Glasgow (1608)](https://www.wikitree.com/wiki/Glasgow-1086)<br>**Uncertain** | The 1685 testament names no child; the father edge depends on a secure reading of the separate 1662 original. | [findings](../../research/Glasgow-3331/findings.md) |
 | [James Glasgow (1634)](https://www.wikitree.com/wiki/Glasgow-3332) | [John Glasgow (1608)](https://www.wikitree.com/wiki/Glasgow-1086)<br>**Uncertain** | The 1685 testament names no child; this placement depends on a secure reading of the separate 1662 original. | [findings](../../research/Glasgow-3332/findings.md) |
 | [Jonet Glasgow (1636)](https://www.wikitree.com/wiki/Glasgow-1522) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | [findings](../../research/Glasgow-1522/findings.md) |
@@ -165,15 +155,14 @@ Father status: **Confirmed by record** = a relational record plus a resolved ide
 | [Nathaniel Glasgow M.A (1690)](https://www.wikitree.com/wiki/Glasgow-1136) | [Thomas Glasgow (1670)](https://www.wikitree.com/wiki/Glasgow-3556)<br>**Uncertain** | Attached in captured WikiTree data; not evidence-audited. | [findings](../../research/Glasgow-1136/findings.md) |
 | [Robert Glasgow (1690)](https://www.wikitree.com/wiki/Glasgow-3407) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | [findings](../../research/Glasgow-3407/findings.md) |
 
-### Scotland: Ayrshire (44)
+### Scotland: Ayrshire (43)
 
 | Person | Father / assessment | Assessment basis | Findings |
 | --- | --- | --- | --- |
 | [Hugh Glasgow (1600)](https://www.wikitree.com/wiki/Glasgow-1603) | [John Glasgow (1540)](https://www.wikitree.com/wiki/Glasgow-3193)<br>**Uncertain** | The current Midlothian father Glasgow-991 is tree-derived and conflicts with Hugh's asserted Ayrshire role. John-3193 is a record-proved son in the Corsankell family and a better branch candidate, but the age gap may conceal another generation and no record names Hugh. | [findings](../../research/Glasgow-1603/findings.md) |
-| [Jonet Logan (1600)](https://www.wikitree.com/wiki/Glasgow-1494) | [Edward Glasgow (1570)](https://www.wikitree.com/wiki/Glasgow-1557)<br>**Uncertain** | Attached in captured WikiTree data; not evidence-audited. | Not yet researched |
-| [Mary Glasgow (1613)](https://www.wikitree.com/wiki/Glasgow-3539) | Father not identified<br>**Uncertain** | The corrected 1637 Saltcoats testament names Katherine and Agnes, not Marie/Mary, and identifies Isobell Gray as John's widow. CC9/7/27 therefore supplies no parentage evidence for Glasgow-3539; preserve her own sources and current links pending separate reassessment. | [findings](../../research/Glasgow-3539/findings.md) |
+| [Jonet Logan (1600)](https://www.wikitree.com/wiki/Glasgow-1494) | [Edward Glasgow (1570)](https://www.wikitree.com/wiki/Glasgow-1557)<br>**Uncertain** | The cited 1628 testament index identifies Jonet’s spouse but supplies no father; Edward’s attachment is a working hypothesis. | Not yet researched |
+| [Mary Glasgow (1613)](https://www.wikitree.com/wiki/Glasgow-3539) | [Edward Glasgow (1570)](https://www.wikitree.com/wiki/Glasgow-1557)<br>**Uncertain** | The 1677 testament index identifies Mary’s spouse and Saltcoats locality but supplies no parentage; Edward’s attachment remains unproved. | [findings](../../research/Glasgow-3539/findings.md) |
 | [John Glasgow (1626)](https://www.wikitree.com/wiki/Glasgow-1604) | [Hugh Glasgow (1600)](https://www.wikitree.com/wiki/Glasgow-1603)<br>**Uncertain** | The proposed father-son ages and Ayrshire placement work, but both profiles' vital facts and this relationship cite only an Ancestry tree. | [findings](../../research/Glasgow-1604/findings.md) |
-| [John Glasgow (1626)](https://www.wikitree.com/wiki/Glasgow-3145) | [James Glasgow (1575)](https://www.wikitree.com/wiki/Glasgow-991)<br>**Uncertain** | The profile is empty and unsourced and exactly repeats Glasgow-1604's estimated 1626 birth. It is probably a duplicate or imported-tree artifact; neither its direct Midlothian father nor Glasgow-1604's Ayrshire route is proved. | [findings](../../research/Glasgow-3145/findings.md) |
 | [John Glasgow (1650)](https://www.wikitree.com/wiki/Glasgow-3375) | [John Glasgow (1626)](https://www.wikitree.com/wiki/Glasgow-1604)<br>**Uncertain** | Kilwinning OPR indexes establish John-3375's later household but do not name his father. He may instead duplicate Rev. John-1073, which must be resolved before retaining two same-generation sons named John. | [findings](../../research/Glasgow-3375/findings.md) |
 | [Robert Glasgow (1652)](https://www.wikitree.com/wiki/Glasgow-1512) | [John Glasgow (1626)](https://www.wikitree.com/wiki/Glasgow-1604)<br>**Uncertain** | Attached in captured WikiTree data; not evidence-audited. | Not yet researched |
 | [Rev. John Glasgow M.A (1653)](https://www.wikitree.com/wiki/Glasgow-1073) | [John Glasgow (1626)](https://www.wikitree.com/wiki/Glasgow-1604)<br>**Uncertain** | No record names the minister's father, but John-1604 is the best existing-profile candidate by generation and the Kilwinning-Kilbirnie locality. His own vital facts and family are tree-derived, and John-3375 must first be tested as a possible duplicate of the minister. | [findings](../../research/Glasgow-1073/findings.md) |
@@ -214,45 +203,39 @@ Father status: **Confirmed by record** = a relational record plus a resolved ide
 | [Jeane Glasgow (1697)](https://www.wikitree.com/wiki/Glasgow-1436) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | [findings](../../research/Glasgow-1436/findings.md) |
 | [Agnes Glasgow (1699)](https://www.wikitree.com/wiki/Glasgow-1069) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | [findings](../../research/Glasgow-1069/findings.md) |
 
-### Scotland: Edinburgh and the Lothians (119)
+### Scotland: Edinburgh and the Lothians (110)
 
 | Person | Father / assessment | Assessment basis | Findings |
 | --- | --- | --- | --- |
 | [Jonet Ramsy (1600)](https://www.wikitree.com/wiki/Glasgow-3183) | [James Glasgow (1575)](https://www.wikitree.com/wiki/Glasgow-991)<br>**Uncertain** | The 1624 Mid Calder marriage names no parent. James remains possible by locality and generation, but the earlier claim that Andrew's testament excluded Jonet was false: it directly names a daughter Jonet. Andrew is therefore a plausible competing father, although no Corsoun or Stevenson bridge proves the identity. | [findings](../../research/Glasgow-3183/findings.md) |
-| [Alexander Glasgow (1603)](https://www.wikitree.com/wiki/Glasgow-1148) | [James Glasgow (1575)](https://www.wikitree.com/wiki/Glasgow-991)<br>**Uncertain** | Attached in captured WikiTree data; not evidence-audited. | Not yet researched |
+| [Alexander Glasgow (1603)](https://www.wikitree.com/wiki/Glasgow-1148) | [James Glasgow (1575)](https://www.wikitree.com/wiki/Glasgow-991)<br>**Uncertain** | The cited Musselburgh record identifies Alexander’s father as a James Glasgow, but does not establish that he was the attached Mid Calder James Glasgow-991; the profile itself distinguishes the local candidate. Source review: Existing Musselburgh sasine account, 1624–25; cross-record father identity unresolved. | Not yet researched |
 | [George Glasgow (1605)](https://www.wikitree.com/wiki/Glasgow-1082) | [James Glasgow (1575)](https://www.wikitree.com/wiki/Glasgow-991)<br>**Uncertain** | Attached in captured WikiTree data; not evidence-audited. | [findings](../../research/Glasgow-1082/findings.md) |
-| [Elspeth Glasgow (1606)](https://www.wikitree.com/wiki/Glasgow-1054) | [David Glasgow (1586)](https://www.wikitree.com/wiki/Glasgow-1028)<br>**Uncertain** | Attached in captured WikiTree data; not evidence-audited. | [findings](../../research/Glasgow-1054/findings.md) |
+| [Elspeth Glasgow (1606)](https://www.wikitree.com/wiki/Glasgow-1054) | [David Glasgow (1586)](https://www.wikitree.com/wiki/Glasgow-1028)<br>**Confirmed by record** | The Mid Calder baptism index of 2 March 1606 names David Glasgow as father; NRS OPR 694/10/9. | [findings](../../research/Glasgow-1054/findings.md) |
 | [John Glasgow (1608)](https://www.wikitree.com/wiki/Glasgow-1086) | [John Glasgow (1590)](https://www.wikitree.com/wiki/Glasgow-3296)<br>**Uncertain** | Glasgow-3019 redirects here. The 1685 Quothquan testament names widow Jonet but no parent; the Mid Calder baptism-to-Quothquan identity and father remain unproved. | [findings](../../research/Glasgow-1086/findings.md) |
-| [Cristiane Glasgow (1609)](https://www.wikitree.com/wiki/Glasgow-2456) | [Edward Glasgow (1570)](https://www.wikitree.com/wiki/Glasgow-1557)<br>**Uncertain** | Attached in captured WikiTree data; not evidence-audited. | [findings](../../research/Glasgow-2456/findings.md) |
+| [Cristiane Glasgow (1609)](https://www.wikitree.com/wiki/Glasgow-2456) | [Edward Glasgow (1570)](https://www.wikitree.com/wiki/Glasgow-1557)<br>**Confirmed by record** | The Inveresk and Musselburgh baptism index of 1 May 1609 names Eduard Glasgow as father; NRS OPR 689/10/19. | [findings](../../research/Glasgow-2456/findings.md) |
 | [Eduard Glasgow (1609)](https://www.wikitree.com/wiki/Glasgow-994) | [James Glasgow (1575)](https://www.wikitree.com/wiki/Glasgow-991)<br>**Uncertain** | Attached in captured WikiTree data; not evidence-audited. | [findings](../../research/Glasgow-994/findings.md) |
 | [William Glasgow (1609)](https://www.wikitree.com/wiki/Glasgow-1087) | [John Glasgow (1590)](https://www.wikitree.com/wiki/Glasgow-3296)<br>**Uncertain** | Attached in captured WikiTree data; not evidence-audited. | [findings](../../research/Glasgow-1087/findings.md) |
 | [Beatrix Glasgow (1610)](https://www.wikitree.com/wiki/Glasgow-1083) | [James Glasgow (1575)](https://www.wikitree.com/wiki/Glasgow-991)<br>**Uncertain** | Attached in captured WikiTree data; not evidence-audited. | [findings](../../research/Glasgow-1083/findings.md) |
-| [Bessie Glasgow (1610)](https://www.wikitree.com/wiki/Glasgow-3184) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | Not yet researched |
 | [Margaret Glasgow (1610)](https://www.wikitree.com/wiki/Glasgow-3186) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | Not yet researched |
-| [Cathrin Glasgow (1611)](https://www.wikitree.com/wiki/Glasgow-3321) | [James Glasgow (1575)](https://www.wikitree.com/wiki/Glasgow-991)<br>**Uncertain** | Attached in captured WikiTree data; not evidence-audited. | Not yet researched |
-| [Issobell Glasgow (1612)](https://www.wikitree.com/wiki/Glasgow-1085) | [David Glasgow (1586)](https://www.wikitree.com/wiki/Glasgow-1028)<br>**Uncertain** | Attached in captured WikiTree data; not evidence-audited. | [findings](../../research/Glasgow-1085/findings.md) |
+| [Cathrin Glasgow (1611)](https://www.wikitree.com/wiki/Glasgow-3321) | [James Glasgow (1575)](https://www.wikitree.com/wiki/Glasgow-991)<br>**Uncertain** | The cited user-submitted IGI entry has not been verified against an identifiable original baptism or independently reviewed index; James’s attachment remains a working hypothesis. | Not yet researched |
+| [Issobell Glasgow (1612)](https://www.wikitree.com/wiki/Glasgow-1085) | [David Glasgow (1586)](https://www.wikitree.com/wiki/Glasgow-1028)<br>**Confirmed by record** | The Mid Calder baptism index of 3 May 1612 names David Glasgow as father; NRS OPR 694/10/21. | [findings](../../research/Glasgow-1085/findings.md) |
 | [Issobell Glasgow (1612)](https://www.wikitree.com/wiki/Glasgow-3185) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | [findings](../../research/Glasgow-3185/findings.md) |
 | [Robert Glasgow II (1612)](https://www.wikitree.com/wiki/Glasgow-1157) | [Edward Glasgow (1570)](https://www.wikitree.com/wiki/Glasgow-1557)<br>**Uncertain** | Attached in captured WikiTree data; not evidence-audited. | Not yet researched |
 | [Jean Glasgow (1613)](https://www.wikitree.com/wiki/Glasgow-3055) | [John Glasgow (1579)](https://www.wikitree.com/wiki/Glasgow-1561)<br>**Uncertain** | Attached in captured WikiTree data; not evidence-audited. | Not yet researched |
 | [William Glasgow (1614)](https://www.wikitree.com/wiki/Glasgow-3517) | [James Glasgow (1575)](https://www.wikitree.com/wiki/Glasgow-991)<br>**Uncertain** | Attached in captured WikiTree data; not evidence-audited. | [findings](../../research/Glasgow-3517/findings.md) |
 | [Edward Glasgow (1615)](https://www.wikitree.com/wiki/Glasgow-1558) | [Edward Glasgow (1570)](https://www.wikitree.com/wiki/Glasgow-1557)<br>**Uncertain** | Attached in captured WikiTree data; not evidence-audited. | [findings](../../research/Glasgow-1558/findings.md) |
-| [Thomas Glasgow (1615)](https://www.wikitree.com/wiki/Glasgow-2459) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | Not yet researched |
 | [Bessie Glasgow (1616)](https://www.wikitree.com/wiki/Glasgow-3361) | [William Glasgow (1590)](https://www.wikitree.com/wiki/Glasgow-3075)<br>**Uncertain** | Attached in captured WikiTree data; not evidence-audited. | Not yet researched |
-| [John Glasgow (1616)](https://www.wikitree.com/wiki/Glasgow-1084) | [James Glasgow (1575)](https://www.wikitree.com/wiki/Glasgow-991)<br>**Uncertain** | Attached in captured WikiTree data; not evidence-audited. | [findings](../../research/Glasgow-1084/findings.md) |
+| [John Glasgow (1616)](https://www.wikitree.com/wiki/Glasgow-1084) | [James Glasgow (1575)](https://www.wikitree.com/wiki/Glasgow-991)<br>**Confirmed by record** | The Mid Calder baptism index of 18 February 1616 names James Glasgow as father; NRS OPR 694/10/28. Later adult identities are assessed separately. | [findings](../../research/Glasgow-1084/findings.md) |
 | [John Glasgow (1617)](https://www.wikitree.com/wiki/Glasgow-3056) | [John Glasgow (1579)](https://www.wikitree.com/wiki/Glasgow-1561)<br>**Uncertain** | Attached in captured WikiTree data; not evidence-audited. | [findings](../../research/Glasgow-3056/findings.md) |
 | [Agnes Glasgow (1618)](https://www.wikitree.com/wiki/Glasgow-993) | [James Glasgow (1575)](https://www.wikitree.com/wiki/Glasgow-991)<br>**Uncertain** | Attached in captured WikiTree data; not evidence-audited. | [findings](../../research/Glasgow-993/findings.md) |
 | [Archibald Glasgow (1618)](https://www.wikitree.com/wiki/Glasgow-3078) | [William Glasgow (1590)](https://www.wikitree.com/wiki/Glasgow-3075)<br>**Confirmed by record** | Archibald's 1639 apprenticeship calls him the son of William Glasgow, mealmaker in Leith, and his 1647 retour again calls him heir of William Glasgow, mealmaker there, his father. Name, place and occupation uniquely match the attached father. | [findings](../../research/Glasgow-3078/findings.md) |
-| [John Glasgow (1618)](https://www.wikitree.com/wiki/Glasgow-3015) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | [findings](../../research/Glasgow-3015/findings.md) |
-| [William Glasgow (1620)](https://www.wikitree.com/wiki/Glasgow-2453) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | [findings](../../research/Glasgow-2453/findings.md) |
 | [George Glasgow (1622)](https://www.wikitree.com/wiki/Glasgow-1560) | [John Glasgow (1579)](https://www.wikitree.com/wiki/Glasgow-1561)<br>**Uncertain** | Attached in captured WikiTree data; not evidence-audited. | Not yet researched |
-| [William Glasgow (1625)](https://www.wikitree.com/wiki/Glasgow-3515) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | [findings](../../research/Glasgow-3515/findings.md) |
 | [James Glasgow (1626)](https://www.wikitree.com/wiki/Glasgow-1150) | [Alexander Glasgow (1603)](https://www.wikitree.com/wiki/Glasgow-1148)<br>**Confirmed by record** | The 19 March 1626 Inveresk baptism directly names Alexander Glasgow as James's father. The adult Edinburgh weaver is now excluded because his 1641 apprenticeship names a different father, Robert of Wester Duddingston. | [findings](../../research/Glasgow-1150/findings.md) |
 | [James Glasgow (1626)](https://www.wikitree.com/wiki/Glasgow-3923) | [Alexander Glasgow (1603)](https://www.wikitree.com/wiki/Glasgow-1148)<br>**Uncertain** | Attached in captured WikiTree data; not evidence-audited. | [findings](../../research/Glasgow-3923/findings.md) |
 | [Jean Glasgow (1626)](https://www.wikitree.com/wiki/Glasgow-3083) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | Not yet researched |
 | [John Glasgow (1626)](https://www.wikitree.com/wiki/Glasgow-3610) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | [findings](../../research/Glasgow-3610/findings.md) |
 | [Robert Glasgow (1627)](https://www.wikitree.com/wiki/Glasgow-1149) | [Alexander Glasgow (1603)](https://www.wikitree.com/wiki/Glasgow-1148)<br>**Uncertain** | Attached in captured WikiTree data; not evidence-audited. | [findings](../../research/Glasgow-1149/findings.md) |
-| [Thomas Glasgow (1627)](https://www.wikitree.com/wiki/Glasgow-3187) | [John Glasgow (1575)](https://www.wikitree.com/wiki/Glasgow-1030)<br>**Uncertain** | Attached in captured WikiTree data; not evidence-audited. | [findings](../../research/Glasgow-3187/findings.md) |
-| [James Glasgow (1630)](https://www.wikitree.com/wiki/Glasgow-3374) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | Not yet researched |
+| [Thomas Glasgow (1627)](https://www.wikitree.com/wiki/Glasgow-3187) | [John Glasgow (1575)](https://www.wikitree.com/wiki/Glasgow-1030)<br>**Uncertain** | Thomas’s inspected child records and burgess admission do not identify his own parents; John Glasgow remains a working hypothesis. | [findings](../../research/Glasgow-3187/findings.md) |
 | [Marioune Glasgow (1630)](https://www.wikitree.com/wiki/Glasgow-1429) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | [findings](../../research/Glasgow-1429/findings.md) |
 | [James Glasgow (1631)](https://www.wikitree.com/wiki/Glasgow-3098) | Robert Glasgow of Wester Duddingston; exact profile unresolved<br>**Plausible** | Glasgow-3098 now redirects to the wrongly conflated Glasgow-1150 and is retained here only as pre-merge evidence. The 1641 apprentice register directly names James's father as Robert Glasgow, servant to William Crichtoun in Wester Duddingston. Robert-1156 is the leading profile match but is not uniquely proved. | [findings](../../research/Glasgow-3098/findings.md) |
 | [John Glasgow (1632)](https://www.wikitree.com/wiki/Glasgow-1151) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | [findings](../../research/Glasgow-1151/findings.md) |
@@ -264,9 +247,8 @@ Father status: **Confirmed by record** = a relational record plus a resolved ide
 | [Thomas Glasgow (1637)](https://www.wikitree.com/wiki/Glasgow-2461) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | [findings](../../research/Glasgow-2461/findings.md) |
 | [John Glasgow (1638)](https://www.wikitree.com/wiki/Glasgow-3014) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | [findings](../../research/Glasgow-3014/findings.md) |
 | [John Glasgow (1639)](https://www.wikitree.com/wiki/Glasgow-1559) | [John Glasgow (1619)](https://www.wikitree.com/wiki/Glasgow-1088)<br>**Uncertain** | Attached in captured WikiTree data; not evidence-audited. | [findings](../../research/Glasgow-1559/findings.md) |
-| [William Glasgow (1639)](https://www.wikitree.com/wiki/Glasgow-2462) | [Thomas Glasgow (1615)](https://www.wikitree.com/wiki/Glasgow-2459)<br>**Uncertain** | Attached in captured WikiTree data; not evidence-audited. | [findings](../../research/Glasgow-2462/findings.md) |
+| [William Glasgow (1639)](https://www.wikitree.com/wiki/Glasgow-2462) | [Thomas Glasgow (1612)](https://www.wikitree.com/wiki/Glasgow-1103)<br>**Uncertain** | Attached in captured WikiTree data; not evidence-audited. | [findings](../../research/Glasgow-2462/findings.md) |
 | [James Glasgow (1640)](https://www.wikitree.com/wiki/Glasgow-3077) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | [findings](../../research/Glasgow-3077/findings.md) |
-| [James Glasgow (1640)](https://www.wikitree.com/wiki/Glasgow-3337) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | [findings](../../research/Glasgow-3337/findings.md) |
 | [Jannet Glasgow (1640)](https://www.wikitree.com/wiki/Glasgow-1104) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | [findings](../../research/Glasgow-1104/findings.md) |
 | [Marione Glasgow (1642)](https://www.wikitree.com/wiki/Glasgow-3049) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | [findings](../../research/Glasgow-3049/findings.md) |
 | [Issobell Glasgow (1643)](https://www.wikitree.com/wiki/Glasgow-1438) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | Not yet researched |
@@ -278,7 +260,6 @@ Father status: **Confirmed by record** = a relational record plus a resolved ide
 | [Margaret Glasgow (1646)](https://www.wikitree.com/wiki/Glasgow-3112) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | [findings](../../research/Glasgow-3112/findings.md) |
 | [Robert Glasgow (1646)](https://www.wikitree.com/wiki/Glasgow-3357) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | [findings](../../research/Glasgow-3357/findings.md) |
 | [Elizabeth Glasgow (1647)](https://www.wikitree.com/wiki/Glasgow-1161) | [Thomas Glasgow (1627)](https://www.wikitree.com/wiki/Glasgow-3187)<br>**Uncertain** | Attached in captured WikiTree data; not evidence-audited. | [findings](../../research/Glasgow-1161/findings.md) |
-| [Isobel Glasgow (1648)](https://www.wikitree.com/wiki/Glasgow-3654) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | [findings](../../research/Glasgow-3654/findings.md) |
 | [Issobel Glasgow (1648)](https://www.wikitree.com/wiki/Glasgow-2454) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | [findings](../../research/Glasgow-2454/findings.md) |
 | [John Glasgow (1648)](https://www.wikitree.com/wiki/Glasgow-2452) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | [findings](../../research/Glasgow-2452/findings.md) |
 | [John Glasgow (1648)](https://www.wikitree.com/wiki/Glasgow-3093) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | [findings](../../research/Glasgow-3093/findings.md) |
@@ -318,7 +299,6 @@ Father status: **Confirmed by record** = a relational record plus a resolved ide
 | [Hellen Glasgow (1668)](https://www.wikitree.com/wiki/Glasgow-2458) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | [findings](../../research/Glasgow-2458/findings.md) |
 | [John Glasgow (1671)](https://www.wikitree.com/wiki/Glasgow-1927) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | [findings](../../research/Glasgow-1927/findings.md) |
 | [Alexander Glasgow (1673)](https://www.wikitree.com/wiki/Glasgow-1314) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | [findings](../../research/Glasgow-1314/findings.md) |
-| [Alexander Glasgow (1673)](https://www.wikitree.com/wiki/Glasgow-3119) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | [findings](../../research/Glasgow-3119/findings.md) |
 | [Marie Glasgow (1674)](https://www.wikitree.com/wiki/Glasgow-1310) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | [findings](../../research/Glasgow-1310/findings.md) |
 | [Thomas Glasgow (1675)](https://www.wikitree.com/wiki/Glasgow-1242) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | Not yet researched |
 | [Robert Glasgow (1676)](https://www.wikitree.com/wiki/Glasgow-3011) | [John Glasgow (1649)](https://www.wikitree.com/wiki/Glasgow-3012)<br>**Uncertain** | Attached in captured WikiTree data; not evidence-audited. | [findings](../../research/Glasgow-3011/findings.md) |
@@ -385,7 +365,7 @@ Father status: **Confirmed by record** = a relational record plus a resolved ide
 | [Matthew Glasgow (1650)](https://www.wikitree.com/wiki/Glasgow-3538) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | [findings](../../research/Glasgow-3538/findings.md) |
 | [John Glasgow (1681)](https://www.wikitree.com/wiki/Glasgow-551) | [William Glasgow (1656)](https://www.wikitree.com/wiki/Glasgow-591)<br>**Uncertain** | Attached in captured WikiTree data; not evidence-audited. | [findings](../../research/Glasgow-551/findings.md) |
 
-### Ireland: County Antrim (6)
+### Ireland: County Antrim (5)
 
 | Person | Father / assessment | Assessment basis | Findings |
 | --- | --- | --- | --- |
@@ -394,7 +374,6 @@ Father status: **Confirmed by record** = a relational record plus a resolved ide
 | [Elizabeth Glasgow (1651)](https://www.wikitree.com/wiki/Glasgow-3961) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | [findings](../../research/Glasgow-3961/findings.md) |
 | [James Glasgow R.E (1678)](https://www.wikitree.com/wiki/Glasgow-3967) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | [findings](../../research/Glasgow-3967/findings.md) |
 | [Robert Glasgow (1678)](https://www.wikitree.com/wiki/Glasgow-1502) | [James Glasgow R.E (1651)](https://www.wikitree.com/wiki/Glasgow-1081)<br>**Contradicted / unsupported** | The 1669-1726 James identity is itself inferential, and no congregational or probate record reviewed names the older Robert as his son; Robert's current 1690-1772 dates also conflate him with Glasgow-1143. | [findings](../../research/Glasgow-1502/findings.md) |
-| [James Glasgow (1685)](https://www.wikitree.com/wiki/Glasgow-3968) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | [findings](../../research/Glasgow-3968/findings.md) |
 
 ### Ireland: other or unspecified (3)
 
@@ -408,7 +387,7 @@ Father status: **Confirmed by record** = a relational record plus a resolved ide
 
 | Person | Father / assessment | Assessment basis | Findings |
 | --- | --- | --- | --- |
-| [Elizabeth Ann Glasgow (1622)](https://www.wikitree.com/wiki/Glasgow-3144) | [James Glasgow (1575)](https://www.wikitree.com/wiki/Glasgow-991)<br>**Uncertain** | Attached in captured WikiTree data; not evidence-audited. | Not yet researched |
+| [Elizabeth Ann Glasgow (1622)](https://www.wikitree.com/wiki/Glasgow-3144) | [James Glasgow (1575)](https://www.wikitree.com/wiki/Glasgow-991)<br>**Uncertain** | The only cited support is a FamilySearch tree; its biography names a different James Glasgow profile, and the attached father has not been established from a record. | Not yet researched |
 | [Unknown Glasgow (1645)](https://www.wikitree.com/wiki/Glasgow-3110) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | Not yet researched |
 | [Thomas Glasgow (1650)](https://www.wikitree.com/wiki/Glasgow-1527) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | Not yet researched |
 | [William Daniel Glasgow (1653)](https://www.wikitree.com/wiki/Glasgow-1158) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | Not yet researched |
@@ -568,14 +547,14 @@ Father status: **Confirmed by record** = a relational record plus a resolved ide
 | [William Glasgow (1747)](https://www.wikitree.com/wiki/Glasgow-1124) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | [findings](../../research/Glasgow-1124/findings.md) |
 | [Bessie Glasgow (1750)](https://www.wikitree.com/wiki/Glasgow-1125) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | [findings](../../research/Glasgow-1125/findings.md) |
 
-## Early evidence, birth year unresolved (11)
+## Early evidence, birth year unresolved (9)
 
 | Location | Profiles | Share | Confirmed | Plausible | Uncertain | Contradicted / unsupported | Not assessed |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| Scotland: Lanarkshire and Glasgow | 1 | 9.1% | 0 | 0 | 1 | 0 | 0 |
-| Scotland: Edinburgh and the Lothians | 1 | 9.1% | 0 | 0 | 1 | 0 | 0 |
-| Other or location unknown | 9 | 81.8% | 0 | 0 | 0 | 0 | 9 |
-| **Total** | **11** | **100.0%** | **0** | **0** | **2** | **0** | **9** |
+| Scotland: Lanarkshire and Glasgow | 1 | 11.1% | 0 | 0 | 1 | 0 | 0 |
+| Scotland: Edinburgh and the Lothians | 1 | 11.1% | 0 | 0 | 1 | 0 | 0 |
+| Other or location unknown | 7 | 77.8% | 0 | 0 | 0 | 0 | 7 |
+| **Total** | **9** | **100.0%** | **0** | **0** | **2** | **0** | **7** |
 
 ### Scotland: Lanarkshire and Glasgow (1)
 
@@ -589,7 +568,7 @@ Father status: **Confirmed by record** = a relational record plus a resolved ide
 | --- | --- | --- | --- |
 | [Margaret Edstoun (birth unknown)](https://www.wikitree.com/wiki/Glasgow-3613) | [Robert Glasgow (1520)](https://www.wikitree.com/wiki/Glasgow-1096)<br>**Uncertain** | Margaret's testament directly names her sometime husband John Easton and son Cuthbert Kaddell/Keddell but no parent. Robert Glasgow and Margaret Rolland remain attached only as an unproved working placement. | [findings](../../research/Glasgow-3613/findings.md) |
 
-### Other or location unknown (9)
+### Other or location unknown (7)
 
 | Person | Father / assessment | Assessment basis | Findings |
 | --- | --- | --- | --- |
@@ -599,6 +578,4 @@ Father status: **Confirmed by record** = a relational record plus a resolved ide
 | [Glasgow-3909 (birth unknown)](https://www.wikitree.com/wiki/Glasgow-3909) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | Not yet researched |
 | [Glasgow-3910 (birth unknown)](https://www.wikitree.com/wiki/Glasgow-3910) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | Not yet researched |
 | [Glasgow-3911 (birth unknown)](https://www.wikitree.com/wiki/Glasgow-3911) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | [findings](../../research/Glasgow-3911/findings.md) |
-| [Glasgow-3912 (birth unknown)](https://www.wikitree.com/wiki/Glasgow-3912) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | [findings](../../research/Glasgow-3912/findings.md) |
-| [Glasgow-3919 (birth unknown)](https://www.wikitree.com/wiki/Glasgow-3919) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | [findings](../../research/Glasgow-3919/findings.md) |
 | [Glasgow-4063 (birth unknown)](https://www.wikitree.com/wiki/Glasgow-4063) | Not captured<br>**Not assessed** | The workbook has no parent fields and no local case capture supplied a father. | [findings](../../research/Glasgow-4063/findings.md) |

@@ -1,0 +1,1302 @@
+{
+  "generated": "2026-09-23",
+  "scope": "109 GRONI birth profiles; conservative read-only local audit; no API/live edits",
+  "counts": {
+    "created_profiles": 109,
+    "safe_mother_only": 7,
+    "ambiguous_duplicate_or_parent_conflict": 18,
+    "missing_parent_records": 84,
+    "missing_parent_groups": 39
+  },
+  "safe_reuse_existing_parents": [
+    {
+      "child_id": "Glasgow-4214",
+      "source_ref": "U/1879/11/1002/12/352",
+      "mother": "Hewitt-8271",
+      "father": null,
+      "evidence": {
+        "exact_snapshot_child": "Glasgow-4214",
+        "exact_surname_group": true
+      },
+      "status": "safe_mother_only"
+    },
+    {
+      "child_id": "Glasgow-4215",
+      "source_ref": "U/1880/11/1002/13/299",
+      "mother": "Hewitt-8271",
+      "father": null,
+      "evidence": {
+        "exact_snapshot_child": "Glasgow-4215",
+        "exact_surname_group": true
+      },
+      "status": "safe_mother_only"
+    },
+    {
+      "child_id": "Glasgow-4216",
+      "source_ref": "U/1883/11/1002/15/340",
+      "mother": "Hewitt-8271",
+      "father": null,
+      "evidence": {
+        "exact_snapshot_child": "Glasgow-4216",
+        "exact_surname_group": true
+      },
+      "status": "safe_mother_only"
+    },
+    {
+      "child_id": "Glasgow-4217",
+      "source_ref": "U/1886/11/1002/17/244",
+      "mother": "Hewitt-8271",
+      "father": null,
+      "evidence": {
+        "exact_snapshot_child": "Glasgow-4217",
+        "exact_surname_group": true
+      },
+      "status": "safe_mother_only"
+    },
+    {
+      "child_id": "Glasgow-4218",
+      "source_ref": "U/1886/11/1002/18/176",
+      "mother": "Gardiner-6945",
+      "father": null,
+      "evidence": {
+        "exact_snapshot_child": "Glasgow-3438",
+        "exact_surname_group": true
+      },
+      "status": "safe_mother_only"
+    },
+    {
+      "child_id": "Glasgow-4219",
+      "source_ref": "U/1890/11/1002/20/127",
+      "mother": "Hewitt-8271",
+      "father": null,
+      "evidence": {
+        "exact_snapshot_child": "Glasgow-4219",
+        "exact_surname_group": true
+      },
+      "status": "safe_mother_only"
+    },
+    {
+      "child_id": "Glasgow-4225",
+      "source_ref": "U/1884/22/1004/9/242",
+      "mother": "Watson-53621",
+      "father": null,
+      "evidence": {
+        "exact_snapshot_child": "Glasgow-4225",
+        "exact_surname_group": true
+      },
+      "status": "safe_mother_only"
+    }
+  ],
+  "ambiguous_duplicate_or_parent_conflict": [
+    {
+      "child_id": "Glasgow-4296",
+      "forename": "Jane",
+      "date": "1870-06-09",
+      "mother_maiden_surname": "Henry",
+      "district": "Cookstown",
+      "candidate_mothers": [
+        "Henry-13722",
+        "Henry-13729",
+        "Bole-219"
+      ],
+      "nearby_existing_children": [],
+      "flags": [
+        "parent_conflict",
+        "multiple_mothers"
+      ]
+    },
+    {
+      "child_id": "Glasgow-4297",
+      "forename": "Eliza",
+      "date": "1871-07-17",
+      "mother_maiden_surname": "Neill",
+      "district": "Cookstown",
+      "candidate_mothers": [
+        "Edsel-9",
+        "Unknown-696005"
+      ],
+      "nearby_existing_children": [],
+      "flags": [
+        "parent_conflict",
+        "multiple_mothers"
+      ]
+    },
+    {
+      "child_id": "Glasgow-4299",
+      "forename": "John",
+      "date": "1873-10-03",
+      "mother_maiden_surname": "Henry",
+      "district": "Cookstown",
+      "candidate_mothers": [
+        "Henry-13722",
+        "Henry-13729",
+        "Bole-219"
+      ],
+      "nearby_existing_children": [],
+      "flags": [
+        "parent_conflict",
+        "multiple_mothers"
+      ]
+    },
+    {
+      "child_id": "Glasgow-4300",
+      "forename": "James",
+      "date": "1874-10-07",
+      "mother_maiden_surname": "Neill",
+      "district": "Cookstown",
+      "candidate_mothers": [
+        "Edsel-9",
+        "Unknown-696005"
+      ],
+      "nearby_existing_children": [],
+      "flags": [
+        "parent_conflict",
+        "multiple_mothers"
+      ]
+    },
+    {
+      "child_id": "Glasgow-4302",
+      "forename": "Mary",
+      "date": "1879-05-19",
+      "mother_maiden_surname": "Bole",
+      "district": "Cookstown",
+      "candidate_mothers": [
+        "Bole-218",
+        "Bole-219"
+      ],
+      "nearby_existing_children": [
+        "Glasgow-2254"
+      ],
+      "flags": [
+        "parent_conflict",
+        "near_date_existing_child",
+        "multiple_mothers"
+      ]
+    },
+    {
+      "child_id": "Glasgow-4316",
+      "forename": "Not Captured",
+      "date": "1865-06-10",
+      "mother_maiden_surname": "Bell",
+      "district": "Magherafelt",
+      "candidate_mothers": [
+        "Bell-32242"
+      ],
+      "nearby_existing_children": [
+        "Glasgow-1693"
+      ],
+      "flags": [
+        "near_date_existing_child"
+      ]
+    },
+    {
+      "child_id": "Glasgow-4259",
+      "forename": "James",
+      "date": "1878-04-26",
+      "mother_maiden_surname": "Gardiner",
+      "district": "Armagh",
+      "candidate_mothers": [
+        "Gardiner-6945"
+      ],
+      "nearby_existing_children": [
+        "Glasgow-3435"
+      ],
+      "flags": [
+        "near_date_existing_child"
+      ]
+    },
+    {
+      "child_id": "Glasgow-4240",
+      "forename": "Eveline",
+      "date": "1887-12-02",
+      "mother_maiden_surname": "Moore",
+      "district": "Belfast",
+      "candidate_mothers": [
+        "Moore-89506",
+        "Moore-107968"
+      ],
+      "nearby_existing_children": [],
+      "flags": [
+        "parent_conflict",
+        "multiple_mothers"
+      ]
+    },
+    {
+      "child_id": "Glasgow-4242",
+      "forename": "William",
+      "date": "1889-12-01",
+      "mother_maiden_surname": "Moore",
+      "district": "Belfast",
+      "candidate_mothers": [
+        "Moore-89506",
+        "Moore-107968"
+      ],
+      "nearby_existing_children": [],
+      "flags": [
+        "parent_conflict",
+        "multiple_mothers"
+      ]
+    },
+    {
+      "child_id": "Glasgow-4248",
+      "forename": "Isaac",
+      "date": "1868-02-25",
+      "mother_maiden_surname": "Neill",
+      "district": "Cookstown",
+      "candidate_mothers": [
+        "Edsel-9",
+        "Unknown-696005"
+      ],
+      "nearby_existing_children": [],
+      "flags": [
+        "parent_conflict",
+        "multiple_mothers"
+      ]
+    },
+    {
+      "child_id": "Glasgow-4285",
+      "forename": "Not Captured",
+      "date": "1879-04-09",
+      "mother_maiden_surname": "Glasgow",
+      "district": "Cookstown",
+      "candidate_mothers": [
+        "Glasgow-1648",
+        "Glasgow-1717",
+        "Glasgow-693",
+        "Glasgow-1760",
+        "Glasgow-1715"
+      ],
+      "nearby_existing_children": [],
+      "flags": [
+        "parent_conflict",
+        "multiple_mothers"
+      ]
+    },
+    {
+      "child_id": "Glasgow-4250",
+      "forename": "Jemima",
+      "date": "1880-04-10",
+      "mother_maiden_surname": "Glasgow",
+      "district": "Cookstown",
+      "candidate_mothers": [
+        "Glasgow-1648",
+        "Glasgow-1717",
+        "Glasgow-693",
+        "Glasgow-1760",
+        "Glasgow-1715"
+      ],
+      "nearby_existing_children": [],
+      "flags": [
+        "parent_conflict",
+        "multiple_mothers"
+      ]
+    },
+    {
+      "child_id": "Glasgow-4286",
+      "forename": "Not Captured",
+      "date": "1884-01-31",
+      "mother_maiden_surname": "Glasgow",
+      "district": "Cookstown",
+      "candidate_mothers": [
+        "Glasgow-1648",
+        "Glasgow-1717",
+        "Glasgow-693",
+        "Glasgow-1760",
+        "Glasgow-1715"
+      ],
+      "nearby_existing_children": [],
+      "flags": [
+        "parent_conflict",
+        "multiple_mothers"
+      ]
+    },
+    {
+      "child_id": "Glasgow-4287",
+      "forename": "Not Captured",
+      "date": "1885-12-13",
+      "mother_maiden_surname": "Glasgow",
+      "district": "Cookstown",
+      "candidate_mothers": [
+        "Glasgow-1648",
+        "Glasgow-1717",
+        "Glasgow-693",
+        "Glasgow-1760",
+        "Glasgow-1715"
+      ],
+      "nearby_existing_children": [],
+      "flags": [
+        "parent_conflict",
+        "multiple_mothers"
+      ]
+    },
+    {
+      "child_id": "Glasgow-4288",
+      "forename": "Not Captured",
+      "date": "1893-09-03",
+      "mother_maiden_surname": "Glasgow",
+      "district": "Cookstown",
+      "candidate_mothers": [
+        "Glasgow-1648",
+        "Glasgow-1717",
+        "Glasgow-693",
+        "Glasgow-1760",
+        "Glasgow-1715"
+      ],
+      "nearby_existing_children": [],
+      "flags": [
+        "parent_conflict",
+        "multiple_mothers"
+      ]
+    },
+    {
+      "child_id": "Glasgow-4254",
+      "forename": "Eleen",
+      "date": "1898-02-26",
+      "mother_maiden_surname": "Crooks",
+      "district": "Cookstown",
+      "candidate_mothers": [
+        "Crooks-2092",
+        "Crooks-1812"
+      ],
+      "nearby_existing_children": [
+        "Glasgow-1819"
+      ],
+      "flags": [
+        "parent_conflict",
+        "near_date_existing_child",
+        "multiple_mothers"
+      ]
+    },
+    {
+      "child_id": "Glasgow-4255",
+      "forename": "Janie",
+      "date": "1898-04-29",
+      "mother_maiden_surname": "Glasgow",
+      "district": "Cookstown",
+      "candidate_mothers": [
+        "Glasgow-1648",
+        "Glasgow-1717",
+        "Glasgow-693",
+        "Glasgow-1760",
+        "Glasgow-1715"
+      ],
+      "nearby_existing_children": [
+        "Glasgow-1761"
+      ],
+      "flags": [
+        "parent_conflict",
+        "near_date_existing_child",
+        "multiple_mothers"
+      ]
+    },
+    {
+      "child_id": "Glasgow-4257",
+      "forename": "Rashel",
+      "date": "1903-10-28",
+      "mother_maiden_surname": "Glasgow",
+      "district": "Cookstown",
+      "candidate_mothers": [
+        "Glasgow-1648",
+        "Glasgow-1717",
+        "Glasgow-693",
+        "Glasgow-1760",
+        "Glasgow-1715"
+      ],
+      "nearby_existing_children": [
+        "Glasgow-1741"
+      ],
+      "flags": [
+        "parent_conflict",
+        "near_date_existing_child",
+        "multiple_mothers"
+      ]
+    }
+  ],
+  "likely_duplicate_children": [
+    {
+      "child_id": "Glasgow-4296",
+      "forename": "Jane",
+      "date": "1870-06-09",
+      "mother_maiden_surname": "Henry",
+      "district": "Cookstown",
+      "candidate_mothers": [
+        "Henry-13722",
+        "Henry-13729",
+        "Bole-219"
+      ],
+      "nearby_existing_children": [],
+      "flags": [
+        "parent_conflict",
+        "multiple_mothers"
+      ]
+    },
+    {
+      "child_id": "Glasgow-4297",
+      "forename": "Eliza",
+      "date": "1871-07-17",
+      "mother_maiden_surname": "Neill",
+      "district": "Cookstown",
+      "candidate_mothers": [
+        "Edsel-9",
+        "Unknown-696005"
+      ],
+      "nearby_existing_children": [],
+      "flags": [
+        "parent_conflict",
+        "multiple_mothers"
+      ]
+    },
+    {
+      "child_id": "Glasgow-4299",
+      "forename": "John",
+      "date": "1873-10-03",
+      "mother_maiden_surname": "Henry",
+      "district": "Cookstown",
+      "candidate_mothers": [
+        "Henry-13722",
+        "Henry-13729",
+        "Bole-219"
+      ],
+      "nearby_existing_children": [],
+      "flags": [
+        "parent_conflict",
+        "multiple_mothers"
+      ]
+    },
+    {
+      "child_id": "Glasgow-4300",
+      "forename": "James",
+      "date": "1874-10-07",
+      "mother_maiden_surname": "Neill",
+      "district": "Cookstown",
+      "candidate_mothers": [
+        "Edsel-9",
+        "Unknown-696005"
+      ],
+      "nearby_existing_children": [],
+      "flags": [
+        "parent_conflict",
+        "multiple_mothers"
+      ]
+    },
+    {
+      "child_id": "Glasgow-4302",
+      "forename": "Mary",
+      "date": "1879-05-19",
+      "mother_maiden_surname": "Bole",
+      "district": "Cookstown",
+      "candidate_mothers": [
+        "Bole-218",
+        "Bole-219"
+      ],
+      "nearby_existing_children": [
+        "Glasgow-2254"
+      ],
+      "flags": [
+        "parent_conflict",
+        "near_date_existing_child",
+        "multiple_mothers"
+      ]
+    },
+    {
+      "child_id": "Glasgow-4316",
+      "forename": "Not Captured",
+      "date": "1865-06-10",
+      "mother_maiden_surname": "Bell",
+      "district": "Magherafelt",
+      "candidate_mothers": [
+        "Bell-32242"
+      ],
+      "nearby_existing_children": [
+        "Glasgow-1693"
+      ],
+      "flags": [
+        "near_date_existing_child"
+      ]
+    },
+    {
+      "child_id": "Glasgow-4259",
+      "forename": "James",
+      "date": "1878-04-26",
+      "mother_maiden_surname": "Gardiner",
+      "district": "Armagh",
+      "candidate_mothers": [
+        "Gardiner-6945"
+      ],
+      "nearby_existing_children": [
+        "Glasgow-3435"
+      ],
+      "flags": [
+        "near_date_existing_child"
+      ]
+    },
+    {
+      "child_id": "Glasgow-4240",
+      "forename": "Eveline",
+      "date": "1887-12-02",
+      "mother_maiden_surname": "Moore",
+      "district": "Belfast",
+      "candidate_mothers": [
+        "Moore-89506",
+        "Moore-107968"
+      ],
+      "nearby_existing_children": [],
+      "flags": [
+        "parent_conflict",
+        "multiple_mothers"
+      ]
+    },
+    {
+      "child_id": "Glasgow-4242",
+      "forename": "William",
+      "date": "1889-12-01",
+      "mother_maiden_surname": "Moore",
+      "district": "Belfast",
+      "candidate_mothers": [
+        "Moore-89506",
+        "Moore-107968"
+      ],
+      "nearby_existing_children": [],
+      "flags": [
+        "parent_conflict",
+        "multiple_mothers"
+      ]
+    },
+    {
+      "child_id": "Glasgow-4248",
+      "forename": "Isaac",
+      "date": "1868-02-25",
+      "mother_maiden_surname": "Neill",
+      "district": "Cookstown",
+      "candidate_mothers": [
+        "Edsel-9",
+        "Unknown-696005"
+      ],
+      "nearby_existing_children": [],
+      "flags": [
+        "parent_conflict",
+        "multiple_mothers"
+      ]
+    },
+    {
+      "child_id": "Glasgow-4285",
+      "forename": "Not Captured",
+      "date": "1879-04-09",
+      "mother_maiden_surname": "Glasgow",
+      "district": "Cookstown",
+      "candidate_mothers": [
+        "Glasgow-1648",
+        "Glasgow-1717",
+        "Glasgow-693",
+        "Glasgow-1760",
+        "Glasgow-1715"
+      ],
+      "nearby_existing_children": [],
+      "flags": [
+        "parent_conflict",
+        "multiple_mothers"
+      ]
+    },
+    {
+      "child_id": "Glasgow-4250",
+      "forename": "Jemima",
+      "date": "1880-04-10",
+      "mother_maiden_surname": "Glasgow",
+      "district": "Cookstown",
+      "candidate_mothers": [
+        "Glasgow-1648",
+        "Glasgow-1717",
+        "Glasgow-693",
+        "Glasgow-1760",
+        "Glasgow-1715"
+      ],
+      "nearby_existing_children": [],
+      "flags": [
+        "parent_conflict",
+        "multiple_mothers"
+      ]
+    },
+    {
+      "child_id": "Glasgow-4286",
+      "forename": "Not Captured",
+      "date": "1884-01-31",
+      "mother_maiden_surname": "Glasgow",
+      "district": "Cookstown",
+      "candidate_mothers": [
+        "Glasgow-1648",
+        "Glasgow-1717",
+        "Glasgow-693",
+        "Glasgow-1760",
+        "Glasgow-1715"
+      ],
+      "nearby_existing_children": [],
+      "flags": [
+        "parent_conflict",
+        "multiple_mothers"
+      ]
+    },
+    {
+      "child_id": "Glasgow-4287",
+      "forename": "Not Captured",
+      "date": "1885-12-13",
+      "mother_maiden_surname": "Glasgow",
+      "district": "Cookstown",
+      "candidate_mothers": [
+        "Glasgow-1648",
+        "Glasgow-1717",
+        "Glasgow-693",
+        "Glasgow-1760",
+        "Glasgow-1715"
+      ],
+      "nearby_existing_children": [],
+      "flags": [
+        "parent_conflict",
+        "multiple_mothers"
+      ]
+    },
+    {
+      "child_id": "Glasgow-4288",
+      "forename": "Not Captured",
+      "date": "1893-09-03",
+      "mother_maiden_surname": "Glasgow",
+      "district": "Cookstown",
+      "candidate_mothers": [
+        "Glasgow-1648",
+        "Glasgow-1717",
+        "Glasgow-693",
+        "Glasgow-1760",
+        "Glasgow-1715"
+      ],
+      "nearby_existing_children": [],
+      "flags": [
+        "parent_conflict",
+        "multiple_mothers"
+      ]
+    },
+    {
+      "child_id": "Glasgow-4254",
+      "forename": "Eleen",
+      "date": "1898-02-26",
+      "mother_maiden_surname": "Crooks",
+      "district": "Cookstown",
+      "candidate_mothers": [
+        "Crooks-2092",
+        "Crooks-1812"
+      ],
+      "nearby_existing_children": [
+        "Glasgow-1819"
+      ],
+      "flags": [
+        "parent_conflict",
+        "near_date_existing_child",
+        "multiple_mothers"
+      ]
+    },
+    {
+      "child_id": "Glasgow-4255",
+      "forename": "Janie",
+      "date": "1898-04-29",
+      "mother_maiden_surname": "Glasgow",
+      "district": "Cookstown",
+      "candidate_mothers": [
+        "Glasgow-1648",
+        "Glasgow-1717",
+        "Glasgow-693",
+        "Glasgow-1760",
+        "Glasgow-1715"
+      ],
+      "nearby_existing_children": [
+        "Glasgow-1761"
+      ],
+      "flags": [
+        "parent_conflict",
+        "near_date_existing_child",
+        "multiple_mothers"
+      ]
+    },
+    {
+      "child_id": "Glasgow-4257",
+      "forename": "Rashel",
+      "date": "1903-10-28",
+      "mother_maiden_surname": "Glasgow",
+      "district": "Cookstown",
+      "candidate_mothers": [
+        "Glasgow-1648",
+        "Glasgow-1717",
+        "Glasgow-693",
+        "Glasgow-1760",
+        "Glasgow-1715"
+      ],
+      "nearby_existing_children": [
+        "Glasgow-1741"
+      ],
+      "flags": [
+        "parent_conflict",
+        "near_date_existing_child",
+        "multiple_mothers"
+      ]
+    }
+  ],
+  "missing_parent_surname_groups": [
+    {
+      "mother_maiden_surname": "(none)",
+      "district": "Antrim",
+      "child_ids": [
+        "Glasgow-4212"
+      ],
+      "sibling_group_ids": [],
+      "source_refs": [
+        "U/1867/7/1001/2/270"
+      ]
+    },
+    {
+      "mother_maiden_surname": "(none)",
+      "district": "Ballymena",
+      "child_ids": [
+        "Glasgow-4342",
+        "Glasgow-4263",
+        "Glasgow-4264",
+        "Glasgow-4267"
+      ],
+      "sibling_group_ids": [],
+      "source_refs": [
+        "U/1869/20/1004/5/338",
+        "U/1880/24/1004/8/24",
+        "U/1892/26/1004/11/157",
+        "U/1897/26/1004/12/269"
+      ]
+    },
+    {
+      "mother_maiden_surname": "(none)",
+      "district": "Ballymoney",
+      "child_ids": [
+        "Glasgow-4269",
+        "Glasgow-4270"
+      ],
+      "sibling_group_ids": [],
+      "source_refs": [
+        "U/1867/31/1005/2/214",
+        "U/1888/27/1005/13/351"
+      ]
+    },
+    {
+      "mother_maiden_surname": "(none)",
+      "district": "Belfast",
+      "child_ids": [
+        "Glasgow-4308",
+        "Glasgow-4309",
+        "Glasgow-4310",
+        "Glasgow-4311",
+        "Glasgow-4313",
+        "Glasgow-4314",
+        "Glasgow-4315",
+        "Glasgow-4233"
+      ],
+      "sibling_group_ids": [],
+      "source_refs": [
+        "U/1864/50/1007/1/45",
+        "U/1866/50/1007/5/468",
+        "U/1868/50/1007/9/444",
+        "U/1870/50/1007/13/214",
+        "U/1873/50/1007/18/278",
+        "U/1874/50/1007/21/395",
+        "U/1875/50/1007/23/321",
+        "U/1867/50/1007/7/108"
+      ]
+    },
+    {
+      "mother_maiden_surname": "(none)",
+      "district": "Cookstown",
+      "child_ids": [
+        "Glasgow-4304",
+        "Glasgow-4305",
+        "Glasgow-4306",
+        "Glasgow-4252",
+        "Glasgow-4282"
+      ],
+      "sibling_group_ids": [],
+      "source_refs": [
+        "U/1885/99/1009/15/163",
+        "U/1896/99/1009/20/441",
+        "U/1898/99/1009/21/430",
+        "U/1889/99/1009/17/238",
+        "U/1894/99/1009/19/411"
+      ]
+    },
+    {
+      "mother_maiden_surname": "(none)",
+      "district": "Newtownards",
+      "child_ids": [
+        "Glasgow-4281"
+      ],
+      "sibling_group_ids": [],
+      "source_refs": [
+        "U/1864/197/1024/1/161"
+      ]
+    },
+    {
+      "mother_maiden_surname": "Bertram",
+      "district": "Banbridge",
+      "child_ids": [
+        "Glasgow-4232"
+      ],
+      "sibling_group_ids": [],
+      "source_refs": [
+        "U/1901/35/1006/9/97"
+      ]
+    },
+    {
+      "mother_maiden_surname": "Boyd",
+      "district": "Ballymena",
+      "child_ids": [
+        "Glasgow-4230",
+        "Glasgow-4231"
+      ],
+      "sibling_group_ids": [
+        "Glasgow-4230",
+        "Glasgow-4231"
+      ],
+      "source_refs": [
+        "U/1901/24/1004/16/30",
+        "U/1903/21/1004/15/172"
+      ]
+    },
+    {
+      "mother_maiden_surname": "Callaghan",
+      "district": "Ballymena",
+      "child_ids": [
+        "Glasgow-4228"
+      ],
+      "sibling_group_ids": [],
+      "source_refs": [
+        "U/1887/20/1004/19/483"
+      ]
+    },
+    {
+      "mother_maiden_surname": "Chestnut",
+      "district": "Magherafelt",
+      "child_ids": [
+        "Glasgow-4280"
+      ],
+      "sibling_group_ids": [],
+      "source_refs": [
+        "U/1891/179/1022/19/268"
+      ]
+    },
+    {
+      "mother_maiden_surname": "Gartlan",
+      "district": "Belfast",
+      "child_ids": [
+        "Glasgow-4234"
+      ],
+      "sibling_group_ids": [],
+      "source_refs": [
+        "U/1873/48/1007/11/99"
+      ]
+    },
+    {
+      "mother_maiden_surname": "Gray",
+      "district": "Ballymena",
+      "child_ids": [
+        "Glasgow-4262"
+      ],
+      "sibling_group_ids": [],
+      "source_refs": [
+        "U/1866/24/1004/1/390"
+      ]
+    },
+    {
+      "mother_maiden_surname": "Herron",
+      "district": "Armagh",
+      "child_ids": [
+        "Glasgow-4220",
+        "Glasgow-4221",
+        "Glasgow-4260",
+        "Glasgow-4222",
+        "Glasgow-4223"
+      ],
+      "sibling_group_ids": [
+        "Glasgow-4220",
+        "Glasgow-4221",
+        "Glasgow-4222",
+        "Glasgow-4223",
+        "Glasgow-4260"
+      ],
+      "source_refs": [
+        "U/1893/11/1002/21/148",
+        "U/1894/11/1002/21/472",
+        "U/1896/11/1002/22/395",
+        "U/1898/11/1002/23/279",
+        "U/1900/11/1002/24/230"
+      ]
+    },
+    {
+      "mother_maiden_surname": "Hughes",
+      "district": "Belfast",
+      "child_ids": [
+        "Glasgow-4272",
+        "Glasgow-4235",
+        "Glasgow-4273",
+        "Glasgow-4274",
+        "Glasgow-4237",
+        "Glasgow-4275",
+        "Glasgow-4238"
+      ],
+      "sibling_group_ids": [
+        "Glasgow-4235",
+        "Glasgow-4237",
+        "Glasgow-4272",
+        "Glasgow-4273",
+        "Glasgow-4274",
+        "Glasgow-4275"
+      ],
+      "source_refs": [
+        "U/1871/52/1007/13/76",
+        "U/1873/57/1007/12/369",
+        "U/1877/57/1007/18/296",
+        "U/1879/48/1007/20/296",
+        "U/1882/48/1007/26/356",
+        "U/1884/48/1007/32/134",
+        "U/1887/48/1007/39/323"
+      ]
+    },
+    {
+      "mother_maiden_surname": "Isdal",
+      "district": "Ballymena",
+      "child_ids": [
+        "Glasgow-4224"
+      ],
+      "sibling_group_ids": [],
+      "source_refs": [
+        "U/1867/22/1004/2/210"
+      ]
+    },
+    {
+      "mother_maiden_surname": "Isobel",
+      "district": "Ballymena",
+      "child_ids": [
+        "Glasgow-4261"
+      ],
+      "sibling_group_ids": [],
+      "source_refs": [
+        "U/1865/22/1004/1/262"
+      ]
+    },
+    {
+      "mother_maiden_surname": "Kenedy",
+      "district": "Cookstown",
+      "child_ids": [
+        "Glasgow-4317",
+        "Glasgow-4290",
+        "Glasgow-4291"
+      ],
+      "sibling_group_ids": [
+        "Glasgow-4290",
+        "Glasgow-4291"
+      ],
+      "source_refs": [
+        "U/1869/99/1009/4/320",
+        "U/1864/99/1009/1/189",
+        "U/1866/99/1009/2/404"
+      ]
+    },
+    {
+      "mother_maiden_surname": "Kerr",
+      "district": "Ballymena",
+      "child_ids": [
+        "Glasgow-4229"
+      ],
+      "sibling_group_ids": [],
+      "source_refs": [
+        "U/1890/20/1004/21/246"
+      ]
+    },
+    {
+      "mother_maiden_surname": "Lawther",
+      "district": "Ballymena",
+      "child_ids": [
+        "Glasgow-4226",
+        "Glasgow-4227",
+        "Glasgow-4265",
+        "Glasgow-4268"
+      ],
+      "sibling_group_ids": [],
+      "source_refs": [
+        "U/1885/24/1004/11/81",
+        "U/1887/23/1004/15/473",
+        "U/1893/23/1004/18/224",
+        "U/1898/23/1004/20/406"
+      ]
+    },
+    {
+      "mother_maiden_surname": "Lawthers",
+      "district": "Ballymena",
+      "child_ids": [
+        "Glasgow-4266"
+      ],
+      "sibling_group_ids": [],
+      "source_refs": [
+        "U/1895/23/1004/19/228"
+      ]
+    },
+    {
+      "mother_maiden_surname": "Logan",
+      "district": "Belfast",
+      "child_ids": [
+        "Glasgow-4278",
+        "Glasgow-4279"
+      ],
+      "sibling_group_ids": [
+        "Glasgow-4278",
+        "Glasgow-4279"
+      ],
+      "source_refs": [
+        "U/1895/50/1007/66/439",
+        "U/1897/50/1007/73/418"
+      ]
+    },
+    {
+      "mother_maiden_surname": "Mason",
+      "district": "Cookstown",
+      "child_ids": [
+        "Glasgow-4256"
+      ],
+      "sibling_group_ids": [],
+      "source_refs": [
+        "U/1902/99/1009/23/121"
+      ]
+    },
+    {
+      "mother_maiden_surname": "McCleery",
+      "district": "Belfast",
+      "child_ids": [
+        "Glasgow-4277",
+        "Glasgow-4243"
+      ],
+      "sibling_group_ids": [],
+      "source_refs": [
+        "U/1894/51/1007/42/69",
+        "U/1897/51/1007/45/251"
+      ]
+    },
+    {
+      "mother_maiden_surname": "McCullagh",
+      "district": "Cookstown",
+      "child_ids": [
+        "Glasgow-4319",
+        "Glasgow-4251"
+      ],
+      "sibling_group_ids": [],
+      "source_refs": [
+        "U/1886/100/1009/10/277",
+        "U/1883/100/1009/9/342"
+      ]
+    },
+    {
+      "mother_maiden_surname": "McGartland",
+      "district": "Belfast",
+      "child_ids": [
+        "Glasgow-4236"
+      ],
+      "sibling_group_ids": [],
+      "source_refs": [
+        "U/1877/48/1007/17/184"
+      ]
+    },
+    {
+      "mother_maiden_surname": "McGartland",
+      "district": "Cookstown",
+      "child_ids": [
+        "Glasgow-4289",
+        "Glasgow-4292",
+        "Glasgow-4295"
+      ],
+      "sibling_group_ids": [
+        "Glasgow-4292",
+        "Glasgow-4295"
+      ],
+      "source_refs": [
+        "U/1864/100/1009/1/89",
+        "U/1867/100/1009/2/303",
+        "U/1869/99/1009/4/269"
+      ]
+    },
+    {
+      "mother_maiden_surname": "McGastlan",
+      "district": "Belfast",
+      "child_ids": [
+        "Glasgow-4271"
+      ],
+      "sibling_group_ids": [],
+      "source_refs": [
+        "U/1871/48/1007/8/248"
+      ]
+    },
+    {
+      "mother_maiden_surname": "McKenzie",
+      "district": "Cookstown",
+      "child_ids": [
+        "Glasgow-4301",
+        "Glasgow-4303",
+        "Glasgow-4284"
+      ],
+      "sibling_group_ids": [],
+      "source_refs": [
+        "U/1875/99/1009/8/281",
+        "U/1879/99/1009/12/2",
+        "U/1864/99/1009/1/22"
+      ]
+    },
+    {
+      "mother_maiden_surname": "Mitchell",
+      "district": "Belfast",
+      "child_ids": [
+        "Glasgow-4241"
+      ],
+      "sibling_group_ids": [],
+      "source_refs": [
+        "U/1888/50/1007/48/462"
+      ]
+    },
+    {
+      "mother_maiden_surname": "Moore",
+      "district": "Cookstown",
+      "child_ids": [
+        "Glasgow-4320",
+        "Glasgow-4253",
+        "Glasgow-4283"
+      ],
+      "sibling_group_ids": [
+        "Glasgow-4253",
+        "Glasgow-4320"
+      ],
+      "source_refs": [
+        "U/1893/99/1009/19/226",
+        "U/1892/99/1009/18/408",
+        "U/1897/99/1009/21/61"
+      ]
+    },
+    {
+      "mother_maiden_surname": "Murphy",
+      "district": "Ballymena",
+      "child_ids": [
+        "Glasgow-4307"
+      ],
+      "sibling_group_ids": [],
+      "source_refs": [
+        "U/1867/26/1004/2/106"
+      ]
+    },
+    {
+      "mother_maiden_surname": "Palmer",
+      "district": "Magherafelt",
+      "child_ids": [
+        "Glasgow-4245"
+      ],
+      "sibling_group_ids": [],
+      "source_refs": [
+        "U/1870/183/1022/4/216"
+      ]
+    },
+    {
+      "mother_maiden_surname": "Pike",
+      "district": "Antrim",
+      "child_ids": [
+        "Glasgow-4258"
+      ],
+      "sibling_group_ids": [],
+      "source_refs": [
+        "U/1881/2/1001/6/415"
+      ]
+    },
+    {
+      "mother_maiden_surname": "Pike",
+      "district": "Coleraine",
+      "child_ids": [
+        "Glasgow-4244"
+      ],
+      "sibling_group_ids": [],
+      "source_refs": [
+        "U/1879/94/1008/10/248"
+      ]
+    },
+    {
+      "mother_maiden_surname": "Pike",
+      "district": "Cookstown",
+      "child_ids": [
+        "Glasgow-4318",
+        "Glasgow-4293",
+        "Glasgow-4294",
+        "Glasgow-4298",
+        "Glasgow-4247",
+        "Glasgow-4249"
+      ],
+      "sibling_group_ids": [
+        "Glasgow-4247",
+        "Glasgow-4249",
+        "Glasgow-4293",
+        "Glasgow-4294",
+        "Glasgow-4318"
+      ],
+      "source_refs": [
+        "U/1876/99/1009/9/262",
+        "U/1867/98/1009/2/171",
+        "U/1869/98/1009/2/338",
+        "U/1872/98/1009/3/337",
+        "U/1865/98/1009/1/235",
+        "U/1876/99/1009/9/263"
+      ]
+    },
+    {
+      "mother_maiden_surname": "Stouppe",
+      "district": "Newtownards",
+      "child_ids": [
+        "Glasgow-4246"
+      ],
+      "sibling_group_ids": [],
+      "source_refs": [
+        "U/1896/201/1024/28/164"
+      ]
+    },
+    {
+      "mother_maiden_surname": "Tate Hewitt",
+      "district": "Armagh",
+      "child_ids": [
+        "Glasgow-4213"
+      ],
+      "sibling_group_ids": [],
+      "source_refs": [
+        "U/1874/11/1002/9/425"
+      ]
+    },
+    {
+      "mother_maiden_surname": "Wilson",
+      "district": "Belfast",
+      "child_ids": [
+        "Glasgow-4276"
+      ],
+      "sibling_group_ids": [],
+      "source_refs": [
+        "U/1893/49/1007/85/250"
+      ]
+    },
+    {
+      "mother_maiden_surname": "Woods",
+      "district": "Belfast",
+      "child_ids": [
+        "Glasgow-4312"
+      ],
+      "sibling_group_ids": [],
+      "source_refs": [
+        "U/1870/49/1007/19/389"
+      ]
+    }
+  ],
+  "method_notes": [
+    "Exact maternal maiden surname and district required for group matching.",
+    "No father is asserted from sibling clusters or crosswalk alone.",
+    "Safe entries require exact child identity evidence in the candidate mother snapshot.",
+    "Ambiguous entries include conflicting parent candidates or nearby existing child dates; inspect original records before linking.",
+    "Prior duplicate audit excluded as invalid."
+  ]
+}
