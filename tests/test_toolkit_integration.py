@@ -14,7 +14,6 @@ from tools.genealogy_project import load_project_config, load_toolkit_project_co
 
 
 ROOT = Path(__file__).resolve().parents[1]
-TOOLKIT_ROOT = ROOT.parent / "genealogy-research-workbench"
 
 
 def public_legacy_payload() -> dict[str, object]:
@@ -167,11 +166,7 @@ class ToolkitIntegrationTests(unittest.TestCase):
         self.assertEqual(result.returncode, 0, result.stderr)
         self.assertIn("--json", result.stdout)
 
-    def test_sibling_toolkit_loads_the_glasgow_overlay_when_available(self):
-        requirement = ROOT / "requirements" / "toolkit-local.txt"
-        self.assertIn("../genealogy-research-workbench", requirement.read_text(encoding="utf-8"))
-        if not (TOOLKIT_ROOT / "src").is_dir():
-            self.skipTest("sibling genealogy-research-workbench checkout is not available")
+    def test_installed_toolkit_loads_the_glasgow_overlay(self):
         toolkit_config = load_toolkit_project_config()
         self.assertEqual(toolkit_config.project_id, "glasgow-surname-ancestry")
         self.assertEqual(toolkit_config.raw["surname"]["primary"], "Glasgow")

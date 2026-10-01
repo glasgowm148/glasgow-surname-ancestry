@@ -2,9 +2,12 @@
 from __future__ import annotations
 
 from pathlib import Path
+import json
 import unittest
 
+from bs4 import BeautifulSoup
 from tools import repair_public_dna
+from tools.public_ydna_research import approved_document, approved_inputs, STUDY
 from tools.site_sources.ydna_story import build as ydna_build
 
 
@@ -34,30 +37,45 @@ def private_fixture() -> dict[str, object]:
 class YdnaExplorerTests(unittest.TestCase):
     def test_public_summary_keeps_historical_links_and_uncertainty(self) -> None:
         page = PUBLIC.read_text(encoding="utf-8")
-        self.assertIn("Historical branch summary", page)
-        self.assertIn('href="/timeline"', page)
-        self.assertIn('href="/privacy/"', page)
-        for profile in ("Glasgo-21", "Glasgow-1144", "Glasgow-1143", "Glasgow-822", "Glasgow-591", "Glasgow-2738", "Glasgow-951", "Glasgow-12"):
-            self.assertIn(f'href="/people/{profile}/"', page)
+        # The original curated explorer now has exact publication approval.
+        # Keep the older aggregate-only contract on unapproved input below.
+        self.assertTrue(approved_document("ydna/index.html", page))
+        self.assertEqual(approved_inputs()[STUDY],
+                         json.loads(BeautifulSoup(page, "html.parser").select_one("#research-data").text))
+        main = BeautifulSoup(page, "html.parser").select_one("main")
+        self.assertTrue(main.select_one("h1").get_text(strip=True))
+        self.assertTrue(main.select('a[href^="/timeline/"]'))
+        self.assertIn("unproved", main.get_text(" ", strip=True).casefold())
+        summary = ydna_build.render(private_fixture(), canonical="https://example.test/ydna/")
+        self.assertIn("Historical branch summary", summary)
+        self.assertIn('href="/timeline"', summary)
+        self.assertIn('href="/privacy/"', summary)
+        # All retained historic roots remain available to the aggregate renderer.
+        fixture = private_fixture()
+        fixture["roots"] = approved_inputs()[STUDY]["roots"]
+        summary = ydna_build.render(fixture, canonical="https://example.test/ydna/")
+        for profile in (root["profile"] for root in fixture["roots"] if root.get("profile")):
+            self.assertIn(f'href="/people/{profile}/"', summary)
         for wording in (
             "do not prove a historical pedigree",
             "remain research leads",
             "not been independently established",
             "withheld pending publication approval",
         ):
-            self.assertIn(wording, page)
+            self.assertIn(wording, summary)
 
     def test_public_routes_do_not_embed_or_offer_tester_level_assets(self) -> None:
         for path in (PUBLIC, LEGACY_STORY):
             page = path.read_text(encoding="utf-8")
-            self.assertNotIn('id="research-data"', page)
-            self.assertNotIn("application/json", page)
-            self.assertNotIn("comparison matrix", page)
-        self.assertIn('name="robots" content="noindex, noarchive"', LEGACY_STORY.read_text(encoding="utf-8"))
-        self.assertIn('href="https://glasgow.phenotype.dev/ydna/"', LEGACY_STORY.read_text(encoding="utf-8"))
-        self.assertEqual("[]\n", (ROOT / "www" / repair_public_dna.DNA_INDEX).read_text(encoding="utf-8"))
-        for relative in repair_public_dna.WITHHELD_ASSETS:
-            self.assertFalse((ROOT / "www" / relative).exists(), relative)
+            self.assertTrue(approved_document(str(path.relative_to(ROOT / "www")), page))
+        legacy = BeautifulSoup(LEGACY_STORY.read_text(encoding="utf-8"), "html.parser")
+        self.assertEqual("noindex, noarchive", legacy.select_one('meta[name="robots"]')["content"])
+        self.assertEqual("https://glasgow.phenotype.dev/ydna/", legacy.select_one('link[rel="canonical"]')["href"])
+        for relative in (repair_public_dna.DNA_INDEX, *repair_public_dna.WITHHELD_ASSETS):
+            path = ROOT / "www" / relative
+            if path.exists():
+                self.assertTrue(approved_document(relative, path.read_text(encoding="utf-8")), relative)
+        self.assertEqual([], repair_public_dna.audit(ROOT / "www", repair_public_dna.PRIVATE_ROOT))
 
     def test_renderer_discards_private_fixture_fields(self) -> None:
         page = ydna_build.render(private_fixture(), canonical="https://example.test/ydna/")

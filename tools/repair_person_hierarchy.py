@@ -707,6 +707,13 @@ def _current_vitals(profile_id: str, dossier: dict, model: dict, editorial: dict
     return dossier.get("vitals") or {}
 
 
+def _qualified_life_summary(summary: str, vitals: dict) -> str:
+    """A shorter editorial date line cannot suppress its evidence limits."""
+    qualifiers = dict.fromkeys(str(vital["qualifier"]) for vital in vitals.values()
+                               if isinstance(vital, dict) and vital.get("qualifier"))
+    return " · ".join([summary, *(value for value in qualifiers if value not in summary)])
+
+
 def _family_dates(relation: dict, index: dict) -> str:
     rid = str(relation.get("id") or "")
     if not rid:
@@ -1741,7 +1748,7 @@ def render_person_dossier(profile_id: str) -> str:
     qualifier = (model_vitals.get("birth") or {}).get("qualifier")
     if qualifier and birth.endswith(f" ({qualifier})") and death.endswith(f" ({qualifier})"):
         life = birth.removesuffix(f" ({qualifier})") + " – " + death
-    life = editorial.get("life_summary") or life
+    life = _qualified_life_summary(editorial.get("life_summary") or life, model_vitals)
     script = '''<script>(function(){var printing=false;function openHash(){var id;try{id=decodeURIComponent(location.hash.slice(1));}catch(e){return;}var target=document.getElementById(id);if(!target)return;for(var node=target;node;node=node.parentElement){if(node.tagName==="DETAILS")node.open=true;}if(target.matches(".dossier-section")){var d=target.querySelector(":scope > .biography-disclosure");if(d)d.open=true;}requestAnimationFrame(function(){target.scrollIntoView({block:"start"});});}function all(open){var root=document.querySelector(".supporting-research")||document.querySelector(".dossier-reading");if(root)root.querySelectorAll("details").forEach(function(d){d.open=open;});}function printOpen(){if(printing)return;printing=true;document.querySelectorAll(".person-dossier-readable[data-dossier-presentation] .dossier-reading details").forEach(function(d){d.dataset.printWasOpen=d.open?"1":"0";d.open=true;});}function printRestore(){if(!printing)return;document.querySelectorAll(".person-dossier-readable[data-dossier-presentation] .dossier-reading details").forEach(function(d){d.open=d.dataset.printWasOpen==="1";d.removeAttribute("data-print-was-open");});printing=false;}function init(){openHash();var c=document.querySelector("[data-reading-controls]");if(c){c.hidden=false;c.querySelector("[data-reading-expand]").onclick=function(){all(true)};c.querySelector("[data-reading-collapse]").onclick=function(){all(false)}}}if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",init);else init();window.addEventListener("hashchange",openHash);window.addEventListener("beforeprint",printOpen);window.addEventListener("afterprint",printRestore);})();</script>'''
     if profile_update_panel:
         script += '<script src="/people/profile-update.js" defer></script>'

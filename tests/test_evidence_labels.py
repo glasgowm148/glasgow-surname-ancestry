@@ -139,7 +139,8 @@ class PublishedSurfaceTests(unittest.TestCase):
         soup = BeautifulSoup((ROOT / "www/research/index.html").read_text(encoding="utf-8"), "html.parser")
         section = soup.select_one("#open-questions")
         blocks = section.select(".question-actions")
-        self.assertEqual(13, len(blocks))
+        from tools.repair_research_questions import QUESTIONS, ADDITIONAL_QUESTIONS
+        self.assertEqual(len(QUESTIONS) + len(ADDITIONAL_QUESTIONS), len(blocks))
         for block in blocks:
             values = [dd.get_text(strip=True) for dd in block.select("dd")]
             self.assertEqual(2, len(values))

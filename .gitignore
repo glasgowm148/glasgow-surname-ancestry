@@ -15,6 +15,11 @@ test-results/
 .idea/
 .vscode/
 
+# Vendored package build metadata
+vendor/genealogy-research-workbench/**/__pycache__/
+vendor/genealogy-research-workbench/**/*.pyc
+vendor/genealogy-research-workbench/**/genealogy_research_workbench.egg-info/
+
 # Temporary and generated output
 tmp/
 artifacts/

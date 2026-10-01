@@ -1,0 +1,14 @@
+.env
+.env.*
+dist/
+private/
+restricted/
+captures/
+sources/
+raw-dna/
+*.ged
+*.gedcom
+*.vcf
+*.bcf
+*.bam
+*.fastq

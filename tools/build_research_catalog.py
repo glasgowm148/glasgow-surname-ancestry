@@ -447,6 +447,8 @@ def sync_generated_profile_work_status() -> dict[str, int]:
     )
     artifact_path = DATA_DIR / "catalogue-statistics.json"
     artifact = json.loads(artifact_path.read_text(encoding="utf-8"))
+    public_profile_ids = {profile_id for person in people for profile_id in person.get("profile_ids", [])}
+    update_count = len(set(_load_profile_updates(_load_wikitree_evidence())) & public_profile_ids)
     for path in (WEB_DIR / "catalogue.html", WEB_DIR / "catalogue" / "index.html", WEB_DIR / "catalogue" / "advanced.html", artifact_path, WEB_DIR / "statistics" / "index.html"):
         html = artifact["html"] if path == artifact_path else path.read_text(encoding="utf-8")
         updated = re.sub(
@@ -459,6 +461,8 @@ def sync_generated_profile_work_status() -> dict[str, int]:
             caution,
             updated,
         )
+        updated = re.sub(r"\d[\d,]* profiles ranked by significance",
+                         f"{update_count:,} profiles ranked by significance", updated)
         # The summary number immediately precedes its label in generated markup.
         updated = re.sub(
             r"<div><strong>\d{1,3}(?:,\d{3})*</strong><span>Creation-ready profiles</span></div>",
@@ -3911,14 +3915,17 @@ def _extract_profile_draft(audit: dict) -> str:
     return draft
 
 
-def _is_complete_profile_draft(draft: str, profile_id: str | None = None) -> bool:
+def _is_complete_profile_draft(draft: str, profile_id: str | None = None,
+                               *, subject_surname: str | None = None) -> bool:
     required = (
-        "== Biography ==", "== Research Notes ==", "== Sources ==", "<references />",
+        "== Biography ==", "== Research Notes ==", "== Sources ==",
     )
     return (
         all(item in draft for item in required)
+        and bool(re.search(r"<references\s*/\s*>", draft, re.I))
         and "<ref" in draft
         and (bool(profile_id and not profile_id.startswith(("Glasgow-", "Glasco-", "Glasgo-", "Glascow-")))
+             or bool(subject_surname and not _GLASGOW_SURNAME.fullmatch(subject_surname))
              or bool(re.search(r"\[\[Category:[^\]]+\]\]", draft)))
     )
 
@@ -5591,15 +5598,10 @@ def _write_record_catalog(public_records: list[dict]) -> dict[str, int]:
     return {"records": len(public_records), **{f"source_{key}": value for key, value in status_counts.items()}}
 
 
-def _write_support_pages(
-    public_people: list[dict],
-    public_records: list[dict],
-    place_index: list[dict],
-    dossiers: dict[str, dict],
-    profile_audit_entries: dict[str, dict],
-    generated: str,
-    export_version: str,
-) -> dict:
+def build_comparison_index(
+    dossiers: dict[str, dict], profile_audit_entries: dict[str, dict], *, privacy=None
+) -> tuple[list[dict], dict[str, dict]]:
+    """Return the public comparison index and compact dossier projection."""
     compare_index = sorted(({
         "id": dossier["id"], "alternate_ids": dossier.get("alternate_ids", []),
         "catalogue_id": dossier["catalogue_id"], "name": dossier["name"],
@@ -5631,12 +5633,15 @@ def _write_support_pages(
             "open_question_count": len(dossier.get("open_questions", [])),
         }
     indexed_profile_ids = {
-        profile_id
-        for person in compare_index
+        profile_id for person in compare_index
         for profile_id in (person["id"], *person.get("alternate_ids", []))
     }
     for audit in profile_audit_entries.values():
         for candidate in audit.get("candidates", []):
+            if privacy is not None:
+                candidate = privacy.project(candidate)
+                if candidate.get("withheld"):
+                    continue
             profile_id = candidate.get("profile_id") or ""
             if not profile_id or profile_id in indexed_profile_ids:
                 continue
@@ -5667,6 +5672,17 @@ def _write_support_pages(
             }
             indexed_profile_ids.add(profile_id)
     compare_index.sort(key=lambda person: (person["name"].casefold(), person["id"]))
+    return compare_index, compare_dossiers
+
+
+def write_comparison_index(
+    dossiers: dict[str, dict], profile_audit_entries: dict[str, dict], *,
+    output: Path = DATA_DIR / "compare-index.js", privacy=None,
+) -> tuple[int, int]:
+    """Write the comparison data asset without rebuilding the catalogue."""
+    compare_index, compare_dossiers = build_comparison_index(
+        dossiers, profile_audit_entries, privacy=privacy
+    )
     compare_payload = (
         "window.glasgowCompareIndex="
         + json.dumps(compare_index, ensure_ascii=False, separators=(",", ":"))
@@ -5674,10 +5690,21 @@ def _write_support_pages(
         + json.dumps(compare_dossiers, ensure_ascii=False, separators=(",", ":"))
         + ";\n"
     ).replace("</", "<\\/")
-    (DATA_DIR / "compare-index.js").write_text(
-        compare_payload,
-        encoding="utf-8",
-    )
+    output.parent.mkdir(parents=True, exist_ok=True)
+    output.write_text(compare_payload, encoding="utf-8")
+    return len(compare_index), len(compare_dossiers)
+
+
+def _write_support_pages(
+    public_people: list[dict],
+    public_records: list[dict],
+    place_index: list[dict],
+    dossiers: dict[str, dict],
+    profile_audit_entries: dict[str, dict],
+    generated: str,
+    export_version: str,
+) -> dict:
+    write_comparison_index(dossiers, profile_audit_entries)
     compare_body = """<p class="kicker">Test a possible connection</p><h1>Compare two people</h1><p class="lede">Compare vital details, family links, places, research clusters and evidence summaries. Shared context is a lead, not proof of kinship.</p><section class="compare-panel"><div class="compare-fields"><label><span>First person or WikiTree ID</span><input id="compare-a" list="people-options" placeholder="Glasgow-951"></label><button id="compare-submit" type="button">Compare</button><label><span>Second person or WikiTree ID</span><input id="compare-b" list="people-options" placeholder="Glasgow-3904"></label></div><datalist id="people-options"></datalist><p id="compare-status" aria-live="polite">Loading people…</p></section><div id="compare-results" class="compare-results"></div>"""
     (WEB_DIR / "compare.html").write_text(
         _page("Compare people", "Compare two Glasgow Surname Project people and their evidence context.", compare_body, "/compare.html", script=f'<script src="/data/compare-index.js?v={CATALOGUE_ASSET_VERSION}"></script><script src="/people/compare.js?v={CATALOGUE_ASSET_VERSION}" defer></script>'),

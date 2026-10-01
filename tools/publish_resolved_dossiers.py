@@ -10,8 +10,10 @@ from pathlib import Path
 
 try:
     import evidence_labels
+    from catalogue_machine_data import compact_resolver_row
 except ModuleNotFoundError:  # imported as tools.publish_resolved_dossiers
     from tools import evidence_labels
+    from tools.catalogue_machine_data import compact_resolver_row
 
 ROOT = Path(__file__).resolve().parents[1]
 HISTORY_SEED = ROOT / 'research/relationship_history_seed.json'
@@ -307,6 +309,8 @@ def publish(root=ROOT / 'www'):
         before = deepcopy(payload)
         if isinstance(payload, list):
             payload = [resolve_index_row(row, reviewed) for row in payload]
+            if path.name == 'people-index.json':
+                payload = [compact_resolver_row(row) for row in payload]
         elif 'candidates' in payload:
             payload['candidates'] = [resolve_index_row(row, reviewed) for row in payload['candidates']]
         if payload != before:

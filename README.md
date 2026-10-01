@@ -14,15 +14,32 @@ response validation, family-capture normalisation and neutral case persistence
 to toolkit adapter services while retaining this project's application ID,
 headers, case naming and command interface.
 
-For development beside the toolkit checkout, install the editable local link:
+The bundled workbench source is installed by the development requirements used
+for local checks and CI:
 
 ```bash
-python -m pip install -r requirements/base.txt -r requirements/toolkit-local.txt
+python -m pip install -r requirements/base.txt -r requirements/dev.txt -c requirements/constraints.txt
 ```
 
-Released deployments use the versioned `genealogy-research-workbench` dependency
-declared in [`pyproject.toml`](pyproject.toml). The existing scripts and Makefile
-commands below remain unchanged; reading the overlay does not rebuild the catalogue:
+For development with a separate toolkit checkout, install that editable link
+after the bundled requirements. The
+`requirements/toolkit-local.txt` shorthand assumes the toolkit repository is
+checked out at `../genealogy-research-workbench` relative to this repository.
+If it lives elsewhere, install that checkout explicitly:
+
+```bash
+python -m pip install -e /path/to/genealogy-research-workbench
+```
+
+When the checkout is adjacent, the equivalent command is:
+
+```bash
+python -m pip install -r requirements/toolkit-local.txt
+```
+
+The project metadata retains the versioned dependency for a future published
+workbench release. The existing scripts and Makefile commands below remain
+unchanged; reading the overlay does not rebuild the catalogue:
 
 ```bash
 python tools/genealogy_project.py

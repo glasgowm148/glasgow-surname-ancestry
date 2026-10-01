@@ -32,6 +32,18 @@ GLASGOW_SURNAME_VARIANTS = frozenset({
 })
 
 
+def compact_resolver_row(row: dict) -> dict:
+    """Omit empty optional discovery fields; keep every populated assertion.
+
+    Absent optional values mean unknown/empty. Full dossiers and retained
+    import snapshots remain unchanged, including explicit unresolved vitals.
+    """
+    required = {"schema_version", "id", "alternate_ids", "catalogue_id", "name",
+                "html_url", "json_url", "network_url"}
+    return {key: value for key, value in row.items()
+            if key in required or value not in (None, "", [], {})}
+
+
 def _normal_match_text(value: str) -> str:
     tokens = re.findall(r"[a-z0-9]+", str(value or "").casefold())
     return " ".join("glasgow" if token in GLASGOW_SURNAME_VARIANTS else token for token in tokens)
@@ -892,7 +904,8 @@ def write_machine_outputs(catalogue_dir: Path, data_dir: Path, dossiers: dict[st
         (catalogue_dir / f"{slug}.json").write_text(json.dumps(dossier, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
         network = build_network(dossier, dossiers_by_id)
         (catalogue_dir / f"{slug}.network.json").write_text(json.dumps(network, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
-    (data_dir / "people-index.json").write_text(json.dumps(index, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
+    compact = [compact_resolver_row(row) for row in index]
+    (data_dir / "people-index.json").write_text(json.dumps(compact, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
     resolve_dir = data_dir / "resolve"
     # The parent generated-data directory is cleared at build start. Tolerate a
     # resolver directory recreated meanwhile by another catalogue process.

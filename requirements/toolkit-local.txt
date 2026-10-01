@@ -1,3 +1,6 @@
-# Development-only sibling checkout. Released installs use the versioned
-# dependency declared in pyproject.toml instead.
+# Development-only adjacent checkout. This relative path is valid when
+# genealogy-research-workbench is checked out beside this repository. For a
+# checkout elsewhere, install it explicitly with `pip install -e PATH` before
+# installing this project's base requirements. Released installs use the
+# versioned dependency declared in pyproject.toml instead.
 -e ../genealogy-research-workbench

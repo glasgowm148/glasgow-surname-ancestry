@@ -129,3 +129,9 @@ Upload bundle: `www/glasgow-site-20261001-111836.tar.gz`, 149,273,265 bytes (149
 Superseded local bundles (23 files) were moved intact to ignored `archive/site-releases/`, outside the public website tree. Their relocation ledger is `archive/site-releases/moved-20261001.json`; historical bundle names in earlier notes refer to this retained location. During the owner’s authorized server upload, remove superseded tarballs from the host/CDN as described above.
 
 No production deployment or Git push was performed. Production caching still requires the host to honour the supplied `.htaccess` or `_headers` configuration and must be checked after upload. Verification: `artifacts/site-performance-release-verification.json` and `artifacts/site-quality-report.json`.
+
+## Full-suite repair release — 1 October 2026
+
+Latest verified upload bundle: `www/glasgow-site-20261001-121650.tar.gz`, 149,136,681 bytes (149.14 decimal MB). SHA-256: `8f105cf1c446769e34c335a502b5d9827f7eb7e750b0f21fd2338ca908187a9c`. All 79,443 public files match the internal release manifest; eight affected pages/assets also match current local files. Verification: `artifacts/site-suite-release-verification.json`. Superseded bundles are preserved outside the public root in `archive/site-releases/`.
+
+The final full suite runs 406 tests with zero failures/errors; six archived-migration checks require the unavailable `www_old` reference and remain skipped. Lint, data validation, dependency checks, all 18 browser gates, release totals, Atlas destinations and publication boundaries pass. This release includes corrected date qualifications, refreshed map/comparison data, accurate work-queue counts, retained merge redirects and the smaller identity resolver index. No push, live profile edit or production deployment was performed.

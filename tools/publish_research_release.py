@@ -23,7 +23,6 @@ def publish(*, render_people=True):
     runpy.run_path(str(ROOT / 'tools/repair_evidence_source_links.py'))['repair']()
     runpy.run_path(str(ROOT / 'tools/build_research_catalog.py'))['sync_generated_profile_work_status']()
     runpy.run_path(str(ROOT / 'tools/publish_static_sources.py'))['main']()
-    runpy.run_path(str(ROOT / 'tools/publish_wikitree_redirect_aliases.py'))['publish']()
     repair_clean_catalogue_stylesheet(ROOT / 'www')
     runpy.run_path(str(ROOT / 'tools/repair_sources_page.py'))['repair']()
     if render_people:
@@ -35,9 +34,12 @@ def publish(*, render_people=True):
     runpy.run_path(str(ROOT / 'tools/site_analytics.py'))['repair']()
     runpy.run_path(str(ROOT / 'tools/publish_research_access.py'))['repair']()
     runpy.run_path(str(ROOT / 'tools/repair_reader_guidance.py'))['repair']()
+    runpy.run_path(str(ROOT / 'tools/refresh_comparison_index.py'))['refresh'](ROOT)
     runpy.run_path(str(ROOT / 'tools/build_latest_findings.py'))['repair']()
     runpy.run_path(str(ROOT / 'tools/build_relationship_audit.py'))['build']()
     runpy.run_path(str(ROOT / 'tools/build_research_queue.py'))['build']()
+    # Rendering old imported dossiers must not overwrite merge redirects.
+    runpy.run_path(str(ROOT / 'tools/publish_wikitree_redirect_aliases.py'))['publish']()
     repair_privacy(ROOT / 'www')
     runpy.run_path(str(ROOT / 'tools/site_analytics.py'))['repair']()
     try:

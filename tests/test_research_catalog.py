@@ -119,7 +119,9 @@ class ResearchCatalogueTest(unittest.TestCase):
         for catalogue_id, relative in sorted(active.items()):
             draft = _extract_profile_draft({"draft_path": relative})
             self.assertTrue(draft, relative)
-            self.assertTrue(_is_complete_profile_draft(draft), relative)
+            person = search_index[catalogue_id]
+            surname = (person.get("last_names_at_birth") or [person["name"].split()[-1]])[0]
+            self.assertTrue(_is_complete_profile_draft(draft, subject_surname=surname), relative)
             self.assertNotRegex(draft, r"<ref\b[^>]*\n[^>]*>", relative)
             self.assertNotRegex(draft, r"\[[^\]\n]+\]\(https?://", relative)
             self.assertNotRegex(draft, r"\*\*[^*\n]+\*\*", relative)
@@ -683,27 +685,28 @@ Corrected assessment.
         # canonical page (never repeated on candidate comparison pages).
         evidence = json.loads((ROOT / "data" / "wikitree" / "profile-evidence.json").read_text(encoding="utf-8"))
         public_profile_ids = {profile_id for person in people for profile_id in person["profile_ids"]}
-        update_count = len({profile_id for profile_id in _load_profile_updates(evidence) if profile_id in public_profile_ids})
+        current_updates = set(_load_profile_updates(evidence)) & public_profile_ids
+        update_count = len(current_updates)
+        current_update_pages = {profile_id.casefold() for profile_id in current_updates}
         rendered_update_drafts = 0
         for update_page in (WEB / "people").glob("*.html"):
-            page_text = update_page.read_text(encoding="utf-8")
-            # The dossier archive renders the queued draft as "Prepared WikiTree copy/export".
-            draft = re.search(r'<textarea\b[^>]*\bid="(?:profile-update-draft|wikitree-export)"[^>]*>(.*?)</textarea>', page_text, re.S)
-            if not draft:
-                continue
+            if update_page.stem not in current_update_pages:
+                continue  # Original captures and retired exports keep their original headings.
+            page_text = read_html(update_page)
+            draft = re.search(r'<textarea\b[^>]*\bid="profile-update-draft"[^>]*>(.*?)</textarea>', page_text, re.S)
+            self.assertIsNotNone(draft, update_page.name)
             rendered_update_drafts += 1
             draft_text = unescape(draft.group(1))
-            for heading in ("== Biography ==", "== Research Notes ==", "== Sources ==", "<references />"):
+            for heading in ("== Biography ==", "== Research Notes ==", "== Sources =="):
                 self.assertIn(heading, draft_text, update_page.name)
+            self.assertRegex(draft_text, r"<references\s*/\s*>", update_page.name)
             self.assertLess(draft_text.index("== Research Notes =="), draft_text.index("== Sources =="), update_page.name)
             self.assertNotRegex(
                 draft_text,
                 r"(?mi)^(?:Required profile change|Evidence-led project update)\b",
                 update_page.name,
             )
-        # Historic prepared drafts may remain published for review after their
-        # source queue entry is retired. Every current update must be represented.
-        self.assertGreaterEqual(rendered_update_drafts, update_count)
+        self.assertEqual(rendered_update_drafts, update_count)
 
         # Person pages use the unified shell's root-absolute assets and routes.
         unified_person = (WEB / "people" / "glasgow-2072.html").read_text(encoding="utf-8")
@@ -719,7 +722,8 @@ Corrected assessment.
 
     def test_catalogue_is_complete_and_crawlable(self):
         catalogue_html = (WEB / "catalogue.html").read_text(encoding="utf-8")
-        self.assertIn('<a class="brand" href="index.html">Glasgow Surname Project</a>', catalogue_html)
+        catalogue_dom = BeautifulSoup(catalogue_html, "html.parser")
+        self.assertIsNotNone(catalogue_dom.select_one('a.g-brand[href="/"]'))
         payload = json.loads((WEB / "data" / "people.json").read_text(encoding="utf-8"))
         people = payload["people"]
         self.assertGreaterEqual(len(people), 4_000)
@@ -818,12 +822,12 @@ Corrected assessment.
         self.assertNotIn("across documentary records and WikiTree", catalogue_html)
         statistics_start = re.search(r'<section\b[^>]*\bid="statistics"', catalogue_html).start()
         search_start = re.search(r'<section\b[^>]*\bid="catalogue-search-panel"', catalogue_html).start()
-        # Compact counts stay visible above search; full charts have their own page.
+        # Browsing comes first; complete counts follow in a compact disclosure.
         self.assertLess(search_start, catalogue_html.index('id="catalogue-results"'))
-        self.assertLess(statistics_start, search_start)
+        self.assertGreater(statistics_start, catalogue_html.index('id="catalogue-results"'))
         statistics_summary = catalogue_html[statistics_start:catalogue_html.index('</section>', statistics_start)]
         self.assertIn('catalogue-statistics-compact', statistics_summary)
-        self.assertNotIn('<details', statistics_summary)
+        self.assertIn('<details', statistics_summary)
         self.assertNotIn('id="statistics-detail"', catalogue_html)
         self.assertIn('href="/statistics/"', statistics_summary)
         self.assertIn('<p class="catalogue-refresh">Updated ', statistics_summary)
@@ -881,10 +885,10 @@ Corrected assessment.
             self.assertIsNotNone(toggle, heading)
             self.assertIsNotNone(toggle.select_one(".catalogue-filter-count[hidden]"), heading)
         self.assertNotIn('class="catalogue-advanced"', catalogue_html)
-        self.assertNotIn('src="/data/people-index.js"', catalogue_html)
-        self.assertIn('href="people/catalogue.css?', catalogue_html)
-        self.assertIn('src="people/search.js?', catalogue_html)
-        self.assertIn('src="people/external-links.js?', catalogue_html)
+        self.assertIsNone(catalogue_soup.select_one('script[src="/data/people-index.js"]'))
+        self.assertIsNotNone(catalogue_soup.select_one('link[href^="/people/catalogue.css?v="]'))
+        self.assertIsNotNone(catalogue_soup.select_one('script[src^="/people/search.js?v="]'))
+        self.assertIsNotNone(catalogue_soup.select_one('script[src^="/people/external-links.js?v="]'))
         self.assertIn('location.protocol==="file:"', catalogue_html)
         for text in (
             "Explore the research", "How to read the evidence", "Browse the complete catalogue",
@@ -894,14 +898,15 @@ Corrected assessment.
             "Catalogue statistics", "View all statistics",
         ):
             self.assertIn(text, catalogue_html)
-        for title in ("Most frequent given names", "Surnames joined by marriage to Glasgow", "Largest exported family branches"):
+        for title in ("Most frequent given names", "Surnames joined by marriage to Glasgow", "Largest family groups from WikiTree"):
             self.assertIn(title, statistics_html)
         self.assertLess(
             catalogue_html.index("Profiles with strong candidate matches"),
             catalogue_html.index("Explore the research"),
         )
         search_js = (WEB / "people" / "search.js").read_text(encoding="utf-8")
-        self.assertIn("catalogue-search-index.json", search_js)
+        self.assertIn("catalogue-search-fast.json", search_js)
+        self.assertIn("catalogue-worker.js", search_js)
         self.assertIn("Loading searchable index", search_js)
         for key, heading in (("spouse", "Spouse(s)"), ("father", "Father"), ("mother", "Mother")):
             self.assertIn(f"sortHeader('{key}','{heading}')", search_js)
@@ -919,7 +924,8 @@ Corrected assessment.
         self.assertIn("controls.glasgowBirth.checked&&!person._birthLastNames.includes('glasgow')", search_js)
         self.assertIn("if(filters.exact)", search_js)
         self.assertIn("history.replaceState", search_js)
-        self.assertIn("catalogue-result-cards", search_js)
+        self.assertIn("catalogue-result-table", search_js)
+        self.assertNotIn('class="catalogue-result-cards"', search_js)
         self.assertIn("catalogue-wikitree-id", search_js)
         self.assertIn("catalogue-group-locations", search_js)
         self.assertIn("catalogue-group-families", search_js)
@@ -1048,8 +1054,15 @@ Corrected assessment.
             # Individual dossiers retain reviewed, authored evidence. The compact
             # discovery index has its own per-person budget below; this payload
             # remains bounded without discarding public-safe research context.
-            self.assertLess(json_path.stat().st_size, 1_000_000, entry["id"])
             dossier = json.loads(json_path.read_text(encoding="utf-8"))
+            # Complete paste-ready biographies and dated source findings are
+            # explicitly downloadable, rather than part of initial browsing.
+            # Keep the structured dossier bounded without trimming those texts.
+            authored_text = sum(len(json.dumps(dossier.get(key, {}), ensure_ascii=False,
+                                               separators=(",", ":")).encode("utf-8"))
+                                for key in ("wikitree_update", "research_findings"))
+            self.assertLess(json_path.stat().st_size - authored_text, 1_000_000, entry["id"])
+            self.assertLess(json_path.stat().st_size, 2_000_000, entry["id"])
             self.assertEqual(dossier["schema_version"], "1.0")
             self.assertEqual(dossier["id"], entry["id"])
             self.assertNotIn("biography_text", dossier)
@@ -1070,9 +1083,11 @@ Corrected assessment.
                     if relation.get("json_url") and relation.get("json_url") != "Private family details withheld.":
                         self.assertIn(relation["id"], index_ids)
                         self.assertTrue((WEB / relation["json_url"].lstrip("/")).exists())
-            html = read_html(html_path)
+            # Alternate download metadata lives in the initial head, never a
+            # deferred evidence fragment. Avoid reparsing thousands of bodies.
+            html = html_path.read_text(encoding="utf-8")
             if "person-dossier-readable" in html:
-                alternate = BeautifulSoup(html, "html.parser").select_one('link[rel="alternate"][type="application/json"]')
+                alternate = BeautifulSoup(html.partition("</head>")[0], "html.parser").select_one('link[rel="alternate"][type="application/json"]')
                 self.assertIsNotNone(alternate, entry["id"])
                 self.assertEqual(alternate.get("href"), f"https://glasgow.phenotype.dev{entry['json_url']}")
 
@@ -1128,13 +1143,13 @@ Corrected assessment.
         self.assertTrue(dossier["potential_parentage"]["children_recorded"])
         parentage_reasons = [reason for candidate in dossier["potential_parentage"]["candidates"] for reason in candidate["reasons"]]
         self.assertTrue(any("niece/nephew network" in reason and "public profiles" in reason for reason in parentage_reasons))
-        html = (WEB / "people" / "glasgow-951.html").read_text(encoding="utf-8")
+        html = read_html(WEB / "people" / "glasgow-951.html")
         # All person pages now use the readable dossier layout: case findings form
         # the narrative, parentage scores sit in a supporting register and the
         # similar-people/duplicate leads are published in the machine dossier.
         page = BeautifulSoup(html, "html.parser")
         self.assertTrue(page.select_one(".person-dossier-readable #overview"))
-        self.assertIn("Current position", page.select_one("#overview h2").text)
+        self.assertEqual("What we know", page.select_one("#overview h2").get_text(strip=True))
         self.assertIn("FIN/5/A/236", html)
         self.assertTrue(page.select('a[href^="/research/Glasgow-951/sources/proni_FIN-5-A-236"]'))
         self.assertNotIn("wikitree.com/wiki/proni_FIN", html)
@@ -2274,7 +2289,7 @@ Corrected assessment.
             self.assertIn(marker, (WEB / page).read_text(encoding="utf-8"))
         catalogue = (WEB / "catalogue.html").read_text(encoding="utf-8")
         self.assertIn("Profiles with strong candidate matches", catalogue)
-        self.assertIn('href="candidate-matches.html"', catalogue)
+        self.assertIsNotNone(BeautifulSoup(catalogue, "html.parser").select_one('a[href="/candidate-matches.html"]'))
         candidate_worklist = (WEB / "candidate-matches.html").read_text(encoding="utf-8")
         self.assertIn("Potential parentage", candidate_worklist)
         self.assertIn("Possible duplicates", candidate_worklist)
