@@ -61,7 +61,8 @@ def check(base, fixture_mode=False):
     def require(value, message):
         if not value: failures.append(message)
     routes=['/catalogue/','/latest-findings/','/latest-findings/page/2/']
-    if not fixture_mode:routes+=['/people/glasgow-951.html','/onetree/','/branches/']
+    if not fixture_mode:routes+=['/people/glasgow-951.html','/onetree/','/branches/',
+                                '/records/','/places/','/compare.html?a=Gray-16804&b=Gray-25428']
     with sync_playwright() as pw:
         browser=pw.chromium.launch(headless=True, **({'executable_path':str(CHROME)} if CHROME.exists() else {}))
         for width in [320,390,1440]:
@@ -75,6 +76,10 @@ def check(base, fixture_mode=False):
                 require(html_bytes<=500_000,f'{width} {route}: initial HTML exceeds 500 KB')
                 if route=='/catalogue/':page.wait_for_function('window.GlasgowSearchMetrics',timeout=30_000)
                 if route=='/onetree/':page.wait_for_function('window.GlasgowTree',timeout=30_000)
+                if route.startswith('/compare.html'):
+                    require(page.locator('#compare-status').inner_text()=='Comparing John Gray and John Gray',
+                            'Reviewed Gray candidates did not compare')
+                    require(page.locator('.compare-card').count()==3,'Comparison results are incomplete')
                 metrics=page.evaluate("""()=>({width:innerWidth,scroll:document.documentElement.scrollWidth,dom:document.querySelectorAll('*').length,
                     cls:auditCLS,blocking:auditTasks.reduce((s,d)=>s+Math.max(0,d-50),0),maxTask:Math.max(0,...auditTasks),
                     ready:window.GlasgowSearchMetrics?.readyMs, data:performance.getEntriesByType('resource').filter(e=>/catalogue-search-/.test(e.name)).map(e=>({url:e.name,bytes:e.decodedBodySize}))})""")
@@ -98,6 +103,10 @@ def check(base, fixture_mode=False):
                 page.add_script_tag(path=str(AXE))
                 violations=page.evaluate("async()=> (await axe.run(document,{runOnly:{type:'tag',values:['wcag2a','wcag2aa','wcag21a','wcag21aa']}})).violations.filter(v=>['critical','serious'].includes(v.impact)).map(v=>({rule:v.id,count:v.nodes.length,targets:v.nodes.slice(0,2).map(n=>n.target)}))")
                 require(not violations,f'{width} {route}: accessibility {violations}')
+                if not fixture_mode and width==390 and route.startswith('/compare.html'):
+                    screenshot=ROOT/'output/playwright/site-quality-compare-mobile.png'
+                    screenshot.parent.mkdir(parents=True,exist_ok=True)
+                    page.screenshot(path=str(screenshot))
             context.close()
         nojs=browser.new_context(java_script_enabled=False)
         page=nojs.new_page();page.goto(base+'/latest-findings/')

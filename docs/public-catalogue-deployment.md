@@ -183,3 +183,74 @@ Evidence: `artifacts/site-live-release-http-20261001.json`,
 `output/playwright/site-live-*-20261001.png`. These are lab observations,
 not production field measurements. No host configuration, site content,
 Git push or WikiTree edit was performed during verification.
+
+## Applying caching on an Nginx origin
+
+Uploading `.htaccess` or `_headers` does not configure Nginx. Two maintained
+includes are available in `deploy/nginx/`: `cache-map.conf` goes inside the
+existing `http {}` context; `cache-headers.conf` goes beside the existing
+`add_header` directives in this site's serving `server {}` or `location {}`
+block. Keep the current document root, TLS settings and routing intact.
+
+The policy revalidates HTML and unversioned files, gives one-year immutable
+caching to content-hash CSS/JS/JSON/CSV query URLs and hash-named catalogue
+details/source fragments, and sends `no-store` for errors. A hash query does
+not make HTML immutable. Conditional 304 responses retain their cache policy.
+
+Nginx replaces inherited `add_header` directives when a child block defines
+its own. Preserve all current security headers and apply the cache include
+at the effective serving level; an asset location with its own headers will
+otherwise bypass a server-level include. Disable conflicting `expires` or
+duplicate `Cache-Control` directives at that same level. This follows the
+[Nginx header](https://nginx.org/en/docs/http/ngx_http_headers_module.html)
+and [map](https://nginx.org/en/docs/http/ngx_http_map_module.html) documentation.
+
+Run `nginx -t` before reloading the configured host. The project provides
+`.venv/bin/python tools/check_nginx_cache.py` to test these exact includes
+in an isolated local Nginx process, including immutable/revalidation rules,
+invalid versions, unhashed fragments, 404 responses and conditional 304s.
+It does not edit or reload the host's existing server configuration.
+
+After the owner supplies the host connection and configuration location,
+apply the matching host policy and check actual production responses.
+Cloudflare cache rules must respect the origin policy; existing cached
+responses may require a targeted purge of the changed URLs. A successful
+local Nginx test does not confirm live caching. Apache and compatible static
+hosts should use the bundled `.htaccess` and `_headers` instead.
+
+## Follow-up fixes prepared — 1 October 2026, 13:55
+
+New upload bundle: `www/glasgow-site-20261001-135520.tar.gz`, 149,133,900
+bytes (149.13 decimal MB; 142.23 MiB). SHA256:
+`95be56399f4edb92277c4190c2652d42f6a0cb526b72a9ea93ffe0c51fccf941`.
+All 79,443 public files match the internal manifest; ten critical pages,
+stylesheets and host-policy files also match the final local files. Gzip,
+release totals, Atlas destinations, publication boundaries and asset
+versions pass. The superseded 12:16 bundle is retained intact in
+`archive/site-releases/`, with `moved-20261001-followup.json` recording it.
+
+The Compare button now has white text on its green background. The tree
+reserves the Menu label's width and omits the empty location-picker space
+before that picker moves into Filters & tools; all ten location controls
+remain visible there. Empty place/comparison containers reserve space to
+prevent the footer jumping when their cards load. Maintained styles and
+public assets are synchronized; generated URLs use the new content hashes.
+
+All 27 final browser cases pass at 320/390/1440 px, including actual Gray
+comparisons, accessibility, overflow and performance limits. Maximum CLS
+is 0.0921 and blocking time 146 ms; tree CLS is 0.0326/0.0761/0.0283 at the
+three widths. Eleven focused Python tests and all nine self-contained
+browser fixture cases pass. The real isolated Nginx verification passes
+eleven cache/status cases plus a conditional 304. The wider genealogy
+suite was not rerun for these style/configuration changes.
+
+The site fixes are prepared locally, pending the owner's upload. Live
+cache headers remain unresolved: there is no confirmed connection to this
+site's origin, and the available Cloudflare dashboard is signed out.
+The Nginx includes above are ready to apply if the origin uses Nginx;
+the owner's hosting details are required before changing production.
+No production upload, host change, Git push or WikiTree edit was performed.
+
+Verification: `artifacts/site-followup-release-verification-20261001.json`,
+`artifacts/site-followup-quality-20261001.json` and
+`output/playwright/site-quality-compare-mobile.png`.

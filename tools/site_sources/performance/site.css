@@ -1,4 +1,8 @@
 /* Match the finished Atlas shell from its first paint, before deferred data. */
 .g-kind-tree #app .main > .topbar{display:none!important}
+/* This location picker moves into Filters & tools during initialization. */
+.exploration-atlas #app .main > #geography{display:none}
+/* Reserve the Menu label's width before the shared shell inserts its text. */
+@media(max-width:760px){.g-kind-tree #g-nav-toggle{min-width:66px}}
 /* Keep absolute screen-reader text inside its scrollable content. */
 .biography-table-wrap{position:relative}
