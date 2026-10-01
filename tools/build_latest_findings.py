@@ -135,35 +135,39 @@ def row_html(item):
     case_label = 'Open WikiTree profile ↗' if external_case else 'Read the research →'
     return (f'<tr id="finding-{esc(item["id"])}" data-date="{item["found_on"]}" '
             f'data-kind="{item["kind"]}" data-status="{item["status"]}" data-relationship-upgrade="{upgrades}" data-change-count="{len(changes)}" data-ungraded-count="{sum(c["before"] == "unmarked" for c in changes)}" data-father-count="{sum(c["relationship"] == "father" for c in changes)}" data-father-ungraded-count="{sum(c["relationship"] == "father" and c["before"] == "unmarked" for c in changes)}" data-search="{esc(search)}">'
-            f'<td data-label="Found"><a class="lf-date" href="/latest-findings/#finding-{esc(item["id"])}"><time datetime="{item["found_on"]}">{label}</time></a></td>'
+            f'<td data-label="Found"><a class="lf-date" href="{item.get("_page_url", "/latest-findings/")}#finding-{esc(item["id"])}"><time datetime="{item["found_on"]}">{label}</time></a></td>'
             f'<td data-label="People"><ul class="lf-people">{people}</ul></td>'
             f'<td data-label="Finding"><span class="lf-kind">{KINDS[item["kind"]]}</span><p class="lf-fact">{esc(item["finding"])}</p>{significance}</td>'
             f'<td data-label="Assessment"><span class="lf-status lf-{item["status"]}">{STATUSES[item["status"]]}</span>{qualification}{changes_html}</td>'
             f'<td data-label="Evidence"><ul class="lf-sources">{sources}</ul><a class="lf-case" href="{esc(item["detail_url"])}"{case_attributes}>{case_label}</a></td></tr>')
 
 
-def render_main(rows):
+def render_main(rows, total=None, page_number=1):
+    total = len(rows) if total is None else total
+    pages = max(1, (total + 49) // 50)
+    page_url = lambda n: "/latest-findings/" if n == 1 else f"/latest-findings/page/{n}/"
     options = ''.join(f'<option value="{key}">{label}</option>' for key, label in KINDS.items())
-    return f'''<main id="main" class="latest-findings-page">
+    return f'''<main id="main" class="latest-findings-page" data-lf-total="{total}" data-lf-page="{page_number}">
 <header class="lf-intro"><p class="r-kicker">What we have learned</p><h1>Latest findings</h1>
 <p class="lf-lede">New records and supported corrections from the Glasgow research, newest first.</p>
 <p>Dates show when evidence was found or reviewed. Each finding gives its sources and what remains uncertain.</p>
 <p>Use Assessment to find relationships that became certain. <a href="/research/relationship-audit/">Read the historical audit and counts →</a></p></header>
 <section class="lf-content" aria-labelledby="lf-table-title"><h2 id="lf-table-title" class="lf-sr-only">Dated research findings</h2>
-<form class="lf-controls" id="lf-controls" role="search" hidden>
+<form class="lf-controls" id="lf-controls" role="search">
 <div class="lf-search"><label for="lf-query">Search findings</label><input type="search" id="lf-query" placeholder="Name, place, record or finding" autocomplete="off"></div>
 <div><label for="lf-kind">Finding type</label><select id="lf-kind"><option value="">All types</option>{options}</select></div>
 <div class="lf-assessment"><label for="lf-status">Assessment</label><select id="lf-status"><option value="">All findings</option><option value="confirmed">Confirmed</option><option value="qualified">Qualified</option><option value="relationship-certain">Relationships newly certain</option><option value="father-certain">Fathers newly certain</option><option value="relationship-ungraded">Previously ungraded → certain</option></select></div>
 <div><label for="lf-order">Order</label><select id="lf-order"><option value="newest">Newest first</option><option value="oldest">Oldest first</option></select></div>
 <button type="reset" class="lf-reset">Reset</button></form>
-<div class="lf-table-heading"><p id="lf-count" role="status" aria-live="polite">{len(rows):,} findings · newest first</p>
+<div class="lf-table-heading"><p id="lf-count" role="status" aria-live="polite">{(page_number-1)*50+1}–{(page_number-1)*50+len(rows)} of {total:,} findings · newest first</p>
 <p class="lf-key"><span class="lf-status lf-confirmed">Confirmed</span> Supported fact or correction <span class="lf-status lf-qualified">Qualified</span> Evidence or identification has a stated limit</p></div>
 <div class="lf-table-wrap"><table class="lf-table"><caption class="lf-sr-only">Concrete findings ordered by research discovery date, newest first. Evidence and limitations accompany each finding.</caption>
 <colgroup><col class="lf-col-date"><col class="lf-col-people"><col class="lf-col-finding"><col class="lf-col-assessment"><col class="lf-col-evidence"></colgroup>
 <thead><tr><th scope="col">Found</th><th scope="col">People</th><th scope="col">Finding</th><th scope="col">Assessment</th><th scope="col">Evidence</th></tr></thead>
 <tbody id="lf-rows">{''.join(row_html(row) for row in rows)}</tbody></table></div>
+<noscript><style>.lf-controls{{display:none}}</style></noscript>
 <p class="lf-empty" id="lf-empty" hidden>No findings match those filters. Try another name or place, or reset the filters.</p>
-<nav class="lf-pagination" id="lf-pagination" aria-label="Finding pages" hidden><button id="lf-prev" type="button">← Previous</button><span id="lf-page"></span><button id="lf-next" type="button">Next →</button></nav>
+<nav class="lf-pagination" id="lf-pagination" aria-label="Finding pages"><a id="lf-prev" href="{page_url(max(1,page_number-1))}" aria-disabled="{str(page_number==1).lower()}">← Previous</a><span id="lf-page">Page {page_number} of {pages}</span><a id="lf-next" href="{page_url(min(pages,page_number+1))}" aria-disabled="{str(page_number==pages).lower()}">Next →</a></nav>
 <p class="lf-context">Undated findings remain on the person and family pages. <a href="/changes/">Website change log →</a></p>
 </section></main>'''
 
@@ -181,13 +185,19 @@ def repair(web=WEB, ledger=LEDGER):
     rows = load_findings(ledger, web)
     if not rows:
         raise ValueError('The latest-findings page needs reviewed findings')
+    for index, row in enumerate(rows):
+        row['_page_url'] = '/latest-findings/' if index < 50 else f'/latest-findings/page/{index//50+1}/'
     page = (web / 'about/index.html').read_text(encoding='utf-8')
-    page, count = re.subn(r'<main\b[^>]*>.*?</main>', lambda _: render_main(rows), page, count=1, flags=re.S)
+    page, count = re.subn(r'<main\b[^>]*>.*?</main>', lambda _: render_main(rows[:50], len(rows)), page, count=1, flags=re.S)
     if count != 1:
         raise ValueError('The site template has no main element')
     page = re.sub(r'<title>.*?</title>', '<title>Latest findings · Glasgow Surname Project</title>', page, count=1, flags=re.S)
     page = re.sub(r'<meta\b[^>]*name="description"[^>]*>', '<meta name="description" content="New Glasgow genealogy findings, with discovery dates, evidence, profile links and clear qualifications.">', page, count=1)
-    page = re.sub(r'<link\b[^>]*rel="canonical"[^>]*>', '<link rel="canonical" href="https://glasgow.phenotype.dev/latest-findings/">', page, count=1)
+    canonical = '<link rel="canonical" href="https://glasgow.phenotype.dev/latest-findings/">'
+    if re.search(r'<link\b[^>]*rel="canonical"[^>]*>', page):
+        page = re.sub(r'<link\b[^>]*rel="canonical"[^>]*>', canonical, page, count=1)
+    else:
+        page = page.replace('</head>', canonical+'</head>', 1)
     page = page.replace('g-kind-about', 'g-kind-latest-findings').replace('data-g-path="/about/index.html"', 'data-g-path="/latest-findings/index.html"')
     page = page.replace('href="#g-page"', 'href="/latest-findings/#g-page"')
     page = re.sub(r'(<div class="g-crumbs">.*?<strong>).*?(</strong>)', r'\1Latest findings\2', page, count=1, flags=re.S)
@@ -208,10 +218,32 @@ def repair(web=WEB, ledger=LEDGER):
             target.write_text(content, encoding='utf-8'); changed['latest_findings_assets'] += 1
     # The clean-URL parser normalizes markup; restore the exact managed tag.
     page = with_analytics(page)
-    target = web / 'latest-findings/index.html'
-    if not target.exists() or target.read_text(encoding='utf-8') != page:
+    from html.parser import HTMLParser
+    class RowAttributes(HTMLParser):
+        def handle_starttag(self, tag, attrs):
+            if tag == 'tr': self.attributes = dict(attrs)
+    manifest = []
+    for row in rows:
+        parser = RowAttributes(); parser.feed(row_html(row))
+        manifest.append({**parser.attributes, 'url':row['_page_url']})
+    data_path = web / 'data/latest-findings-index.json'
+    data_path.parent.mkdir(parents=True, exist_ok=True)
+    data_path.write_text(json.dumps(manifest, ensure_ascii=False, separators=(',', ':')) + '\n')
+    for start in range(0, len(rows), 50):
+        number = start//50+1
+        rendered = re.sub(r'<main\b[^>]*>.*?</main>', lambda _:render_main(rows[start:start+50], len(rows), number), page, count=1, flags=re.S)
+        rendered = rendered.replace('https://glasgow.phenotype.dev/latest-findings/', 'https://glasgow.phenotype.dev'+('/latest-findings/' if number == 1 else f'/latest-findings/page/{number}/'), 1)
+        if number == 1:
+            esc = lambda value: escape(str(value), quote=True)
+            fallback = '<noscript><nav aria-label="Earlier findings"><p>Earlier findings:</p><ul>' + ''.join(f'<li id="finding-{esc(r["id"])}"><a href="{r["_page_url"]}#finding-{esc(r["id"])}">{esc(r["found_on"])}: {esc(r["finding"][:100])}</a></li>' for r in rows[50:]) + '</ul></nav></noscript>'
+            rendered = rendered.replace('</main>', fallback+'</main>')
+        target = web / ('latest-findings/index.html' if number == 1 else f'latest-findings/page/{number}/index.html')
         target.parent.mkdir(parents=True, exist_ok=True)
-        target.write_text(page, encoding='utf-8'); changed['latest_findings'] += 1
+        if not target.exists() or target.read_text() != rendered:
+            target.write_text(rendered); changed['latest_findings'] += 1
+    for stale in (web/'latest-findings/page').glob('*/index.html'):
+        if stale.parent.name.isdigit() and int(stale.parent.name)>(len(rows)+49)//50:
+            stale.unlink();changed['stale_finding_pages_removed']+=1
     changes_path = web / 'changes/index.html'
     if changes_path.exists():
         original = changes_path.read_text(encoding='utf-8')

@@ -4,6 +4,7 @@ from pathlib import Path
 import unittest
 
 from bs4 import BeautifulSoup
+from tests._site_html import read_html
 
 ROOT = Path(__file__).resolve().parents[1]
 WEB = ROOT / 'www'
@@ -13,7 +14,7 @@ class MaryDeathIdentificationTests(unittest.TestCase):
     def test_identity_and_date_precision_agree_in_every_output(self):
         dossier = json.loads((WEB / 'people/mccaughan-222.json').read_text())
         network = json.loads((WEB / 'people/mccaughan-222.network.json').read_text())
-        page = BeautifulSoup((WEB / 'people/mccaughan-222.html').read_text(), 'html.parser')
+        page = BeautifulSoup(read_html(WEB / 'people/mccaughan-222.html'), 'html.parser')
         embedded = json.loads(page.select_one('pre.archive-json').text)
         death = dossier['vitals']['death']
         for output in (network, embedded, dossier['presentation']):
@@ -26,7 +27,7 @@ class MaryDeathIdentificationTests(unittest.TestCase):
         self.assertEqual('corrected_against_original', death['date_reading_status'])
         self.assertEqual('mary-mccaughan-222-death-identification', death['provenance']['assessment_id'])
         self.assertIn(death['qualifier'], page.select_one('.dossier-life').text)
-        alexander = BeautifulSoup((WEB / 'people/glasgow-951.html').read_text(), 'html.parser')
+        alexander = BeautifulSoup(read_html(WEB / 'people/glasgow-951.html'), 'html.parser')
         family_row = alexander.select_one('#family a[href="/people/mccaughan-222.html"]').find_parent('tr')
         self.assertIn(death['qualifier'], family_row.text)
         self.assertEqual('1892-02-27', dossier['imported']['sections']['vitals']['death']['date'])
@@ -41,7 +42,7 @@ class MaryDeathIdentificationTests(unittest.TestCase):
         self.assertIn('neither a maiden surname nor a named husband', question['limitation'])
         self.assertIn('89', question['limitation'])
         self.assertNotIn('The original return and a direct marriage', question['missing'])
-        page = BeautifulSoup((WEB / 'people/mccaughan-222.html').read_text(), 'html.parser')
+        page = BeautifulSoup(read_html(WEB / 'people/mccaughan-222.html'), 'html.parser')
         for record in question['records']:
             self.assertIsNotNone(page.find(id=f'record-{record}-identity'))
             self.assertIsNotNone(page.find(id=f'source-{record}'))

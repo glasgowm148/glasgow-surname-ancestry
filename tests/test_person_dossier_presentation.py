@@ -6,6 +6,7 @@ import unittest
 from unittest.mock import patch
 
 from bs4 import BeautifulSoup
+from tests._site_html import read_html
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -13,7 +14,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 class PersonDossierPresentationTests(unittest.TestCase):
     def page(self, slug):
-        return BeautifulSoup((ROOT / "www/people" / f"{slug}.html").read_text(encoding="utf-8"), "html.parser")
+        return BeautifulSoup(read_html(ROOT / "www/people" / f"{slug}.html"), "html.parser")
 
     def test_evidence_questions_keep_reading_inset(self):
         """The dossier override must not reset expanded evidence cards to edge-to-edge text."""

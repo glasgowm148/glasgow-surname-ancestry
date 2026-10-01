@@ -36,6 +36,8 @@ def prepare_release(site_root: Path, write: bool = True) -> None:
     tools = Path(__file__).parent
     sys.path.insert(0, str(tools))
     from stamp_asset_versions import stamp
+    from finalize_site import finalize
+    if write: finalize(site_root)
 
     if write:
         # Scripts that load other versioned assets change hash when stamped,

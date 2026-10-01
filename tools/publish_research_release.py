@@ -40,6 +40,11 @@ def publish(*, render_people=True):
     runpy.run_path(str(ROOT / 'tools/build_research_queue.py'))['build']()
     repair_privacy(ROOT / 'www')
     runpy.run_path(str(ROOT / 'tools/site_analytics.py'))['repair']()
+    try:
+        from tools.finalize_site import finalize
+    except ModuleNotFoundError:
+        from finalize_site import finalize
+    finalize(ROOT / 'www')
     refresh_result = runpy.run_path(str(ROOT / 'tools/genealogy/batch_complete.py'))['refresh_after_batch']()
     if refresh_result:
         raise RuntimeError('Website synchronized; local genealogy index refresh failed (see refresh state/logs).')

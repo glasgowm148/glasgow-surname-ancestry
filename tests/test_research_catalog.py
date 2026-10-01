@@ -10,6 +10,7 @@ import re
 import unittest
 
 from bs4 import BeautifulSoup
+from tests._site_html import read_html
 
 from tests._generated_data import requires_generated_data
 
@@ -1069,7 +1070,7 @@ Corrected assessment.
                     if relation.get("json_url") and relation.get("json_url") != "Private family details withheld.":
                         self.assertIn(relation["id"], index_ids)
                         self.assertTrue((WEB / relation["json_url"].lstrip("/")).exists())
-            html = html_path.read_text(encoding="utf-8")
+            html = read_html(html_path)
             if "person-dossier-readable" in html:
                 alternate = BeautifulSoup(html, "html.parser").select_one('link[rel="alternate"][type="application/json"]')
                 self.assertIsNotNone(alternate, entry["id"])

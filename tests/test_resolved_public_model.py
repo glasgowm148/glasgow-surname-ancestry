@@ -5,6 +5,7 @@ from pathlib import Path
 import unittest
 
 from bs4 import BeautifulSoup
+from tests._site_html import read_html
 
 from tools.publish_resolved_dossiers import resolve
 from tools.repair_person_hierarchy import _current_vitals
@@ -35,7 +36,7 @@ class ResolvedPublicModelTests(unittest.TestCase):
                         continue
                     dossier = load(WEB / f'people/{profile.lower()}.json')
                     network = load(WEB / f'people/{profile.lower()}.network.json')
-                    page = BeautifulSoup((WEB / f'people/{profile.lower()}.html').read_text(), 'html.parser')
+                    page = BeautifulSoup(read_html(WEB / f'people/{profile.lower()}.html'), 'html.parser')
                     embedded = json.loads(page.select_one('pre.archive-json').text)
                     self.assertEqual(dossier['relationships'], dossier['presentation']['relationships'])
                     self.assertEqual(dossier['relationships'], embedded['relationships'])
@@ -77,7 +78,7 @@ class ResolvedPublicModelTests(unittest.TestCase):
         for profile in ('glasgow-1367', 'glasgow-3939', 'glasgow-3940', 'glasgow-951', 'mccaughan-222'):
             dossier = load(WEB / f'people/{profile}.json')
             network = load(WEB / f'people/{profile}.network.json')
-            page = BeautifulSoup((WEB / f'people/{profile}.html').read_text(), 'html.parser')
+            page = BeautifulSoup(read_html(WEB / f'people/{profile}.html'), 'html.parser')
             embedded = json.loads(page.select_one('pre.archive-json').text)
             for representation in (dossier['presentation'], network, embedded):
                 self.assertEqual(dossier['vitals'], representation['vitals'])

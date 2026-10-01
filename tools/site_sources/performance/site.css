@@ -1,0 +1,4 @@
+/* Match the finished Atlas shell from its first paint, before deferred data. */
+.g-kind-tree #app .main > .topbar{display:none!important}
+/* Keep absolute screen-reader text inside its scrollable content. */
+.biography-table-wrap{position:relative}

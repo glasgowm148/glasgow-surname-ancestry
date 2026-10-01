@@ -11,25 +11,30 @@ import sys
 from pathlib import Path
 from urllib.error import HTTPError, URLError
 from urllib.parse import urljoin, urlsplit
-from urllib.request import urlopen
+from urllib.request import Request, urlopen
 
 
 PAGES = {
-    "/": "Glasgow",
-    "/catalogue/": "Catalogue",
-    "/onetree/": "OneTree",
-    "/branches/": "Branches",
-    "/ydna/": "Y-DNA",
-    "/research/": "Research",
-    "/people/glasgow-951.html": "Glasgow-951",
+    "/": ("Glasgow family history", None), "/catalogue/": ("Find a person", None),
+    "/onetree/": ("The family atlas", None), "/branches/": ("Families and places", None),
+    "/ydna/": ("Before the name.", None), "/research/": ("Questions we are working on", None),
+    "/people/glasgow-951.html": ("Alexander Glasgow", "Glasgow-951"),
 }
+USER_AGENT = "Mozilla/5.0 (compatible; GlasgowCatalogueSmoke/1.0; +https://glasgow.phenotype.dev/)"
 ASSET_URL = re.compile(r"(?:href|src)=[\"']([^\"']+\.(?:css|js)\?v=[^\"'#]+)[\"']", re.I)
 BASE_HREF = re.compile(r"<base\s+[^>]*href=[\"']([^\"']+)[\"']", re.I)
+
+def page_matches(body: bytes, heading: str, person_id: str | None = None) -> bool:
+    text = body.decode("utf-8", errors="replace")
+    headings = re.findall(r"<h1\b[^>]*>(.*?)</h1>", text, re.I | re.S)
+    if not any(re.sub(r"<[^>]+>", "", value).strip() == heading or re.sub(r"<[^>]+>", "", value).strip().startswith(heading) for value in headings):
+        return False
+    return person_id is None or re.search(r'data-r-person=["\']' + re.escape(person_id) + r'["\']', text) is not None
 
 
 def fetch(url: str) -> tuple[int, bytes]:
     try:
-        with urlopen(url, timeout=20) as response:
+        with urlopen(Request(url, headers={"User-Agent": USER_AGENT}), timeout=20) as response:
             return response.status, response.read()
     except HTTPError as error:
         return error.code, error.read()
@@ -51,7 +56,7 @@ def smoke_test(base_url: str, site_root: Path) -> list[str]:
     failures: list[str] = []
     base_url = base_url.rstrip("/") + "/"
     seen_assets: set[str] = set()
-    for route, expected in PAGES.items():
+    for route, (expected, person_id) in PAGES.items():
         url = urljoin(base_url, route.lstrip("/"))
         try:
             status, body = fetch(url)
@@ -59,10 +64,11 @@ def smoke_test(base_url: str, site_root: Path) -> list[str]:
             failures.append(f"{route}: {error}")
             continue
         if status != 200:
-            failures.append(f"{route}: HTTP {status}")
+            kind = "access/WAF failure" if status == 403 else "missing page" if status == 404 else "HTTP failure"
+            failures.append(f"{route}: {kind} (HTTP {status})")
             continue
-        if expected.lower() not in body.decode("utf-8", errors="replace").lower():
-            failures.append(f"{route}: missing expected content {expected!r}")
+        if not page_matches(body, expected, person_id):
+            failures.append(f"{route}: missing expected page heading or person identity")
         page = body.decode("utf-8", errors="replace")
         base_match = BASE_HREF.search(page)
         page_base = urljoin(url, base_match.group(1)) if base_match else url
@@ -75,7 +81,8 @@ def smoke_test(base_url: str, site_root: Path) -> list[str]:
         try:
             status, body = fetch(urljoin(base_url, route.lstrip("/")))
             if status != 200:
-                failures.append(f"{route}: HTTP {status}")
+                kind = "access/WAF failure" if status == 403 else "missing page" if status == 404 else "HTTP failure"
+                failures.append(f"{route}: {kind} (HTTP {status})")
                 continue
             data = json.loads(body)
             if route.endswith("manifest.json") and not {"schema_version", "datasets", "build_id"} <= data.keys():
@@ -89,13 +96,14 @@ def smoke_test(base_url: str, site_root: Path) -> list[str]:
             failures.append(f"{url}: {error}")
             continue
         if status != 200:
-            failures.append(f"{url}: HTTP {status}")
+            kind = "access/WAF failure" if status == 403 else "missing page" if status == 404 else "HTTP failure"
+            failures.append(f"{url}: {kind} (HTTP {status})")
             continue
         asset = local_asset(site_root, url)
         if asset is None:
             failures.append(f"{url}: no matching local asset")
         elif hashlib.sha256(served).digest() != hashlib.sha256(asset.read_bytes()).digest():
-            failures.append(f"{url}: served content differs from {asset.relative_to(site_root)}")
+            failures.append(f"{url}: served content differs from {asset.relative_to(site_root.resolve())}")
     return failures
 
 

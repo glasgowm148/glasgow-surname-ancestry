@@ -1,7 +1,7 @@
 PYTHON ?= .venv/bin/python
 RUFF ?= $(if $(wildcard $(dir $(PYTHON))ruff),$(dir $(PYTHON))ruff,ruff)
 
-.PHONY: test validate validate-strict lint check build
+.PHONY: test validate validate-strict lint check check-browser build
 
 test:
 	$(PYTHON) -m unittest discover -s tests -q
@@ -16,6 +16,9 @@ lint:
 	$(RUFF) check src tools tests
 
 check: lint validate test
+
+check-browser:
+	$(PYTHON) tools/check_site_quality.py
 
 # This is intentionally separate from `check`: it regenerates thousands of
 # static pages and should only be run when source data changes.

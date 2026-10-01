@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Stamp local CSS and JavaScript query versions from their content hashes."""
+"""Stamp local CSS, JavaScript and JSON query versions from their content hashes."""
 
 from __future__ import annotations
 
@@ -11,7 +11,7 @@ from pathlib import Path
 
 
 VERSIONED_ASSET = re.compile(
-    r"(?P<quote>[\"'])(?P<url>(?:/|\.{1,2}/)?[^\"'()\s?#]+\.(?:css|js))"
+    r"(?P<quote>[\"'])(?P<url>(?:/|\.{1,2}/)?[^\"'()\s?#]+\.(?:css|js|json))"
     r"\?v=(?P<version>[^\"'&()\s#]+)(?P=quote)"
 )
 SOURCE_SUFFIXES = {".html", ".js"}
@@ -25,14 +25,17 @@ class Mismatch:
     expected: str
 
 
-def asset_path(site_root: Path, source: Path, url: str) -> Path | None:
+def asset_path(site_root: Path, source: Path, url: str, cache: dict | None = None) -> Path | None:
     """Resolve a site-local URL, refusing paths outside the site root."""
     candidate = site_root / url.lstrip("/") if url.startswith("/") else source.parent / url
+    if cache is not None and candidate in cache:return cache[candidate]
     try:
         resolved = candidate.resolve()
         resolved.relative_to(site_root.resolve())
+        if cache is not None:cache[candidate]=resolved
         return resolved
     except ValueError:
+        if cache is not None:cache[candidate]=None
         return None
 
 
@@ -43,11 +46,12 @@ def content_hash(path: Path) -> str:
 def find_mismatches(site_root: Path) -> list[Mismatch]:
     mismatches: list[Mismatch] = []
     hashes: dict[Path, str] = {}
+    resolved_assets: dict[Path, Path | None] = {}
     for source in sorted(path for path in site_root.rglob("*") if path.suffix in SOURCE_SUFFIXES):
         text = source.read_text(encoding="utf-8")
         for match in VERSIONED_ASSET.finditer(text):
             url = match.group("url")
-            target = asset_path(site_root, source, url)
+            target = asset_path(site_root, source, url, resolved_assets)
             if target is None or not target.is_file():
                 continue
             if target not in hashes:
@@ -66,14 +70,17 @@ def stamp(site_root: Path, write: bool) -> tuple[int, int]:
     for mismatch in mismatches:
         by_source.setdefault(mismatch.source, []).append(mismatch)
     if write:
+        resolved_assets: dict[Path, Path | None] = {}
+        hashes: dict[Path, str] = {}
         for source in by_source:
             original = source.read_text(encoding="utf-8")
 
             def replace(match: re.Match[str]) -> str:
-                target = asset_path(site_root, source, match.group("url"))
+                target = asset_path(site_root, source, match.group("url"), resolved_assets)
                 if target is None or not target.is_file():
                     return match.group(0)
-                return f"{match.group('quote')}{match.group('url')}?v={content_hash(target)}{match.group('quote')}"
+                if target not in hashes:hashes[target]=content_hash(target)
+                return f"{match.group('quote')}{match.group('url')}?v={hashes[target]}{match.group('quote')}"
 
             source.write_text(VERSIONED_ASSET.sub(replace, original), encoding="utf-8")
     return len(by_source), len(mismatches)

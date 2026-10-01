@@ -5,6 +5,7 @@ import re
 import unittest
 
 from bs4 import BeautifulSoup
+from tests._site_html import read_html
 
 from tools import evidence_labels as ev
 
@@ -106,7 +107,7 @@ class EvidencePageTests(unittest.TestCase):
 
 class PublishedSurfaceTests(unittest.TestCase):
     def test_dossier_labels_are_canonical_and_linked_to_the_guide(self):
-        soup = BeautifulSoup((ROOT / "www/people/glasgow-951.html").read_text(encoding="utf-8"), "html.parser")
+        soup = BeautifulSoup(read_html(ROOT / "www/people/glasgow-951.html"), "html.parser")
         family = soup.select_one("#family")
         self.assertTrue(family.select_one('a[href="/evidence/"]'))
         for row in family.select("tr[data-state]"):
@@ -126,7 +127,7 @@ class PublishedSurfaceTests(unittest.TestCase):
         self.assertEqual(once, repair.add_meta_guide(once))
 
     def test_open_research_tasks_show_resolution_fields(self):
-        soup = BeautifulSoup((ROOT / "www/people/glasgow-951.html").read_text(encoding="utf-8"), "html.parser")
+        soup = BeautifulSoup(read_html(ROOT / "www/people/glasgow-951.html"), "html.parser")
         tasks = soup.select('#research li.task[data-question-status="open"]')
         self.assertTrue(tasks)
         for task in tasks:

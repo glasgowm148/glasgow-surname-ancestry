@@ -198,21 +198,17 @@ def _statistics_section(page: str):
 
 
 def place_statistics_above_search(page: str) -> str:
-    """Keep the research overview before the catalogue search controls."""
+    """Compatibility entry point: put statistics after the browsing content."""
     stats = _statistics_section(page)
-    if not stats or 'id="catalogue-search-panel"' not in page:
-        return page
-    panel_start = page.rfind('<section', 0, page.index('id="catalogue-search-panel"'))
-    if stats.start() < panel_start:
+    if not stats or '</main>' not in page:
         return page
     block = stats.group(0)
     page = page[:stats.start()] + page[stats.end():]
-    panel_start = page.rfind('<section', 0, page.index('id="catalogue-search-panel"'))
-    return page[:panel_start] + block + '\n' + page[panel_start:]
+    return page.replace('</main>', block + '\n</main>', 1)
 
 
 def compact_statistics(page: str) -> str:
-    """Show the counts directly and send readers to the full Statistics page."""
+    """Keep the summary available without delaying the search controls."""
     block = _statistics_section(page)
     if not block:
         return page
@@ -225,7 +221,7 @@ def compact_statistics(page: str) -> str:
         '<div class="catalogue-statistics-heading"><div><h2 id="catalogue-statistics-title">Catalogue statistics</h2>'
         + (refreshed[0] if refreshed else '') + '</div>'
         '<a class="catalogue-statistics-link" href="/statistics/">View all statistics →</a></div>'
-        + summary[0] + '</section>'
+        + '<details class="catalogue-statistics-fold"><summary>Show catalogue statistics</summary>' + summary[0] + '</details></section>'
     )
     return page[:block.start()] + compact + page[block.end():]
 
@@ -252,8 +248,9 @@ def apply_layout(page: str) -> str:
         from tools.build_research_catalog import _catalogue_legend_html
     page = re.sub(r'<section class="catalogue-legend">.*?</section>', lambda _: _catalogue_legend_html(), page, count=1, flags=re.S)
     # Start downloading the search index with the page, not after the script runs.
+    page = re.sub(r'<link\b(?=[^>]*rel="preload")(?=[^>]*href="[^"]*catalogue-search-(?:index|fast)\.json[^"]*")[^>]*>', '', page)
     preloads = (
-        '<link rel="preload" href="/data/catalogue-search-index.json" as="fetch" crossorigin="anonymous">',
+        '<link rel="preload" href="/data/catalogue-search-fast.json?v=1" as="fetch" crossorigin="anonymous">',
     )
     missing_preloads = ''.join(preload for preload in preloads if preload.split(' href="', 1)[1].split('"', 1)[0] not in page)
     if missing_preloads:

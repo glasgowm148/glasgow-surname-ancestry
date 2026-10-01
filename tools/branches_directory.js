@@ -6,6 +6,8 @@
  */
 (() => {
   'use strict';
+  if (window.__branchesDirectoryInitialized) return;
+  window.__branchesDirectoryInitialized = true;
   const map = document.getElementById('study-map');
   if (map) initMap(map);
   initSearch();

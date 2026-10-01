@@ -1,92 +1,14 @@
-/* Progressive enhancement: the complete dated table also works without JS. */
+/* Static pages remain complete without JavaScript; search loads metadata on demand. */
 (() => {
-  const body = document.getElementById('lf-rows');
-  if (!body) return;
-  const rows = [...body.children];
-  const form = document.getElementById('lf-controls');
-  const query = document.getElementById('lf-query');
-  const kind = document.getElementById('lf-kind');
-  const status = document.getElementById('lf-status');
-  const order = document.getElementById('lf-order');
-  const count = document.getElementById('lf-count');
-  const pagination = document.getElementById('lf-pagination');
-  const previous = document.getElementById('lf-prev');
-  const next = document.getElementById('lf-next');
-  const pageLabel = document.getElementById('lf-page');
-  const empty = document.getElementById('lf-empty');
-  const pageSize = 50;
-  let page = 0;
-  let filtered = [];
-  const params = new URLSearchParams(location.search);
-  query.value = params.get('q') || '';
-  if ([...kind.options].some(option => option.value === params.get('type'))) kind.value = params.get('type');
-  if ([...status.options].some(option => option.value === params.get('status'))) status.value = params.get('status');
-  if (params.get('order') === 'oldest') order.value = 'oldest';
-  function render() {
-    const last = Math.max(0, Math.ceil(filtered.length / pageSize) - 1);
-    page = Math.min(page, last);
-    const start = page * pageSize;
-    body.replaceChildren(...filtered.slice(start, start + pageSize));
-    [...body.children].forEach(row => { row.querySelector('.lf-date').href = `${location.pathname}${location.search}#${row.id}`; });
-    count.textContent = filtered.length
-      ? `${start + 1}–${Math.min(start + pageSize, filtered.length)} of ${filtered.length.toLocaleString()} findings${filtered.length !== rows.length ? ` (${rows.length.toLocaleString()} total)` : ''} · ${order.value === 'oldest' ? 'oldest' : 'newest'} first`
-      : `0 of ${rows.length.toLocaleString()} findings`;
-    empty.hidden = filtered.length !== 0;
-    if(['relationship-certain','father-certain','relationship-ungraded'].includes(status.value)){
-      const father=status.value==='father-certain',total=filtered.reduce((n,row)=>n+Number((father?row.dataset.fatherCount:row.dataset.changeCount)||0),0),ungraded=filtered.reduce((n,row)=>n+Number((father?row.dataset.fatherUngradedCount:row.dataset.ungradedCount)||0),0);
-      count.textContent+=` · ${total} ${father?'father':'relationship'} changes (${total-ungraded} uncertain/unknown, ${ungraded} previously ungraded)`;
-    }
-    empty.textContent = status.value === 'father-certain' && !rows.some(row => row.dataset.relationshipUpgrade.split(' ').includes('father'))
-      ? 'No dated finding currently documents a previously uncertain or unknown father relationship becoming certain.'
-      : status.value === 'relationship-certain' && !rows.some(row => row.dataset.relationshipUpgrade)
-        ? 'No dated finding currently documents a previously uncertain or unknown relationship becoming certain.'
-        : 'No findings match those filters. Try another name or place, or reset the filters.';
-    pagination.hidden = filtered.length <= pageSize;
-    previous.disabled = page === 0;
-    next.disabled = page === last;
-    pageLabel.textContent = `Page ${page + 1} of ${last + 1}`;
-  }
-  function apply(updateURL = true) {
-    const terms = query.value.toLocaleLowerCase().trim().split(/\s+/).filter(Boolean);
-    filtered = rows.filter(row => (!kind.value || row.dataset.kind === kind.value)
-      && (!status.value || (status.value === 'relationship-certain'
-        ? Boolean(row.dataset.relationshipUpgrade)
-        : status.value === 'father-certain'
-          ? row.dataset.relationshipUpgrade.split(' ').includes('father')
-          : status.value === 'relationship-ungraded'
-            ? Number(row.dataset.ungradedCount)>0
-            : row.dataset.status === status.value))
-      && terms.every(term => row.dataset.search.includes(term)));
-    filtered.sort((a, b) => {
-      const date = a.dataset.date.localeCompare(b.dataset.date);
-      return (order.value === 'oldest' ? date : -date) || a.id.localeCompare(b.id);
-    });
-    page = 0;
-    const anchor = location.hash.startsWith('#finding-') && filtered.findIndex(row => `#${row.id}` === location.hash);
-    if (typeof anchor === 'number' && anchor >= 0) page = Math.floor(anchor / pageSize);
-    if (updateURL && location.protocol !== 'file:') {
-      const url = new URL(location.href);
-      for (const [key, value] of [['q', query.value.trim()], ['type', kind.value], ['status', status.value], ['order', order.value === 'oldest' ? 'oldest' : '']]) {
-        if (value) url.searchParams.set(key, value); else url.searchParams.delete(key);
-      }
-      history.replaceState(null, '', url);
-    }
-    render();
-  }
-  form.hidden = false;
-  form.addEventListener('submit', event => event.preventDefault());
-  query.addEventListener('input', () => apply());
-  [kind, status, order].forEach(control => control.addEventListener('change', () => apply()));
-  form.addEventListener('reset', () => setTimeout(() => apply(), 0));
-  previous.addEventListener('click', () => { page--; render(); document.getElementById('lf-table-title').scrollIntoView({block:'start'}); });
-  next.addEventListener('click', () => { page++; render(); document.getElementById('lf-table-title').scrollIntoView({block:'start'}); });
-  window.addEventListener('hashchange', () => apply(false));
-  window.addEventListener('popstate', () => {
-    const values = new URLSearchParams(location.search);
-    query.value = values.get('q') || ''; kind.value = values.get('type') || '';
-    status.value = values.get('status') || ''; order.value = values.get('order') || 'newest';
-    apply(false);
-  });
-  apply(false);
-  if (location.hash.startsWith('#finding-')) document.getElementById(location.hash.slice(1))?.scrollIntoView();
+ const host=document.querySelector('.latest-findings-page'),body=document.getElementById('lf-rows');if(!host||!body)return;
+ const form=document.getElementById('lf-controls'),query=document.getElementById('lf-query'),kind=document.getElementById('lf-kind'),status=document.getElementById('lf-status'),order=document.getElementById('lf-order'),count=document.getElementById('lf-count'),prev=document.getElementById('lf-prev'),next=document.getElementById('lf-next'),label=document.getElementById('lf-page'),empty=document.getElementById('lf-empty');
+ let indexPromise,filtered=[],page=0,active=false,sequence=0,timer;const pages=new Map();
+ pages.set(location.pathname,Promise.resolve(new Map([...body.children].map(row=>[row.id,row.cloneNode(true)]))));
+ function index(){return indexPromise??=fetch('/data/latest-findings-index.json?v=1').then(r=>{if(!r.ok)throw Error('Finding index unavailable');return r.json()}).catch(e=>{indexPromise=null;throw e})}
+ async function rows(url){if(!pages.has(url))pages.set(url,fetch(url).then(r=>{if(!r.ok)throw Error('Finding page unavailable');return r.text()}).then(text=>{const doc=new DOMParser().parseFromString(text,'text/html');return new Map([...doc.querySelectorAll('#lf-rows > tr')].map(r=>[r.id,r]))}).catch(e=>{pages.delete(url);throw e}));return pages.get(url)}
+ async function render(){const n=++sequence,slice=filtered.slice(page*50,page*50+50);try{const documents=new Map(await Promise.all([...new Set(slice.map(r=>r.url))].map(async url=>[url,await rows(url)])));if(n!==sequence)return;body.replaceChildren(...slice.map(r=>documents.get(r.url).get(r.id).cloneNode(true)));count.textContent=filtered.length?`${page*50+1}–${page*50+slice.length} of ${filtered.length.toLocaleString()} findings (${Number(host.dataset.lfTotal).toLocaleString()} total)`:`0 of ${host.dataset.lfTotal} findings`;empty.hidden=filtered.length>0;const last=Math.max(0,Math.ceil(filtered.length/50)-1);prev.setAttribute('aria-disabled',String(page===0));next.setAttribute('aria-disabled',String(page>=last));label.textContent=`Page ${page+1} of ${last+1}`;if(['relationship-certain','father-certain','relationship-ungraded'].includes(status.value)){const father=status.value==='father-certain',changes=filtered.reduce((n,r)=>n+Number(r[father?'data-father-count':'data-change-count']),0),ungraded=filtered.reduce((n,r)=>n+Number(r[father?'data-father-ungraded-count':'data-ungraded-count']),0);count.textContent+=` · ${changes} ${father?'father':'relationship'} changes (${changes-ungraded} uncertain/unknown, ${ungraded} previously ungraded)`}if(location.hash)document.getElementById(decodeURIComponent(location.hash.slice(1)))?.scrollIntoView({block:'start'});}catch(e){count.textContent=e.message+'. Change the search to retry, or use the page links.'}}
+ async function apply(update=true){active=true;const n=++sequence;try{const all=await index();if(n!==sequence)return;const terms=query.value.toLocaleLowerCase().trim().split(/\s+/).filter(Boolean);filtered=all.filter(r=>(!kind.value||r['data-kind']===kind.value)&&(!status.value||(status.value==='relationship-certain'?Boolean(r['data-relationship-upgrade']):status.value==='father-certain'?r['data-relationship-upgrade'].split(' ').includes('father'):status.value==='relationship-ungraded'?Number(r['data-ungraded-count'])>0:r['data-status']===status.value))&&terms.every(t=>r['data-search'].includes(t)));filtered.sort((a,b)=>{const d=a['data-date'].localeCompare(b['data-date']);return(order.value==='oldest'?d:-d)||a.id.localeCompare(b.id)});page=0;const target=location.hash&&filtered.findIndex(r=>'#'+r.id===location.hash);if(typeof target==='number'&&target>=0)page=Math.floor(target/50);if(update){const u=new URL(location.href);for(const[k,v]of[['q',query.value.trim()],['type',kind.value],['status',status.value],['order',order.value==='oldest'?'oldest':'']])v?u.searchParams.set(k,v):u.searchParams.delete(k);history.replaceState(null,'',u)}await render();}catch(e){count.textContent=e.message+'. Change the search to retry.';}}
+ form.style.visibility="visible";form.addEventListener('submit',e=>{e.preventDefault();apply()});query.addEventListener('input',()=>{clearTimeout(timer);timer=setTimeout(()=>apply(),160)});for(const c of[kind,status,order])c.addEventListener('change',()=>apply());form.addEventListener('reset',()=>setTimeout(()=>apply(),0));
+ for(const[b,step]of[[prev,-1],[next,1]])b.addEventListener('click',e=>{if(b.getAttribute('aria-disabled')==='true'){e.preventDefault();return}if(active){e.preventDefault();page+=step;render();document.getElementById('lf-table-title').scrollIntoView({block:'start'})}});
+ const params=new URLSearchParams(location.search);query.value=params.get('q')||'';for(const[c,k]of[[kind,'type'],[status,'status'],[order,'order']])if([...c.options].some(o=>o.value===params.get(k)))c.value=params.get(k);if(location.search||location.hash.startsWith('#finding-'))apply(false);window.addEventListener('hashchange',()=>apply(false));
 })();

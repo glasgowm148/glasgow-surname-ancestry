@@ -8,7 +8,9 @@
   const clear=document.querySelector('#catalogue-search-clear');
   const viewResults=document.querySelector('#catalogue-view-results');
   const scriptUrl=document.currentScript&&document.currentScript.src;
-  const indexUrl=new URL('../data/catalogue-search-index.json',scriptUrl||window.location.href);
+  const indexUrl=new URL('../data/catalogue-search-fast.json?v=1',scriptUrl||window.location.href);
+  const advancedUrl=new URL('../data/catalogue-search-advanced.json?v=1',scriptUrl||window.location.href);
+  const workerUrl=new URL('catalogue-worker.js?v=1',scriptUrl||window.location.href);
   const ids={
     query:'catalogue-query',exact:'catalogue-exact-name',name:'catalogue-name',first:'catalogue-first-name',last:'catalogue-last-name',sibling:'catalogue-sibling-name',child:'catalogue-child-name',
     dateType:'catalogue-date-type',from:'catalogue-date-from',to:'catalogue-date-to',spouse:'catalogue-spouse-name',
@@ -66,7 +68,7 @@
       const name=relation.name||id;
       const confidence=relationConfidence(relation);
       const compact=confidence.key==='confident';
-      const confidenceHtml=showConfidence?`<span class="catalogue-relation-status confidence-${confidence.key}" title="${esc(confidence.title)}" aria-label="${esc(confidence.label)}">${compact?'<span aria-hidden="true">✓</span>':esc(confidence.label)}</span>`:'';
+      const confidenceHtml=showConfidence?`<span class="catalogue-relation-status confidence-${confidence.key}" title="${esc(confidence.title)}" > ${compact?'<span aria-hidden="true">✓</span><span class="sr-only">'+esc(confidence.label)+'</span>':esc(confidence.label)}</span>`:'';
       const classes=`catalogue-relation${showConfidence?` catalogue-parent confidence-${confidence.key}`:''}`;
       if(!id) return `<span class="${classes}">${esc(name)} ${confidenceHtml}</span>`;
       const idLabel=normalise(name)!==normalise(id)?`<small>${esc(id)}</small>`:'';
@@ -190,6 +192,33 @@
     source.forEach(person=>{const siblings=new Map();person._parentIds.forEach(parentId=>(parentGroups.get(parentId)||[]).forEach(sibling=>{if(sibling!==person) siblings.set(sibling.id,sibling);}));person._siblings=normalise([...siblings.values()].flatMap(sibling=>[sibling.name,...(sibling.last_names_current||[]),...(sibling.last_names_at_birth||[])].join(' ')));});
     return source;
   }
+  let searchWorker=null,workerSequence=0;
+  const workerJobs=new Map(),detailCache=new Map();
+  function workerRequest(type,payload={}){
+    return new Promise((resolve,reject)=>{
+      try{
+        if(!searchWorker){searchWorker=new Worker(workerUrl);searchWorker.onmessage=({data})=>{const job=workerJobs.get(data.id);if(!job)return;clearTimeout(job.timer);workerJobs.delete(data.id);data.error?job.reject(Error(data.error)):job.resolve(data.result)};searchWorker.onerror=()=>{for(const job of workerJobs.values()){clearTimeout(job.timer);job.reject(Error('Search worker unavailable'))}workerJobs.clear();searchWorker.terminate();searchWorker=null}};
+        const id=++workerSequence,timer=setTimeout(()=>{workerJobs.delete(id);reject(Error('Search timed out. Please retry.'))},15000);workerJobs.set(id,{resolve,reject,timer});searchWorker.postMessage({id,type,...payload});
+      }catch(error){reject(error)}
+    });
+  }
+  function unpackSearch(value,strings){if(typeof value==='number'&&value<0)return strings[-value-1];if(Array.isArray(value))return value.map(x=>unpackSearch(x,strings));if(value&&typeof value==='object'){if('number'in value)return value.number;return Object.fromEntries(Object.entries(value).map(([k,v])=>[k,unpackSearch(v,strings)]))}return value}
+  async function preparedPeople(useWorker=true){
+    if(useWorker&&typeof Worker!=='undefined')try{return await workerRequest('load',{url:indexUrl.href,advancedUrl:advancedUrl.href})}catch(error){searchWorker?.terminate();searchWorker=null;}
+    const response=await fetch(indexUrl);if(!response.ok)throw Error(`Search index returned ${response.status}`);
+    const payload=await response.json();if(payload.schema_version!==1||!Array.isArray(payload.rows))throw Error('Invalid search index');
+    const records=payload.rows.map(row=>{const p=Object.fromEntries(payload.fields.map((k,i)=>[k,unpackSearch(row[i],payload.strings)]));p._identityExactTokens=new Set(p._identityExactTokens);p._sortValues=Object.fromEntries(payload.sort_keys.map((k,i)=>[k,p._sortValues[i]]));p._search='';return p});
+    for(const [word,deltas]of Object.entries(payload.search)){let i=0;for(const delta of deltas){i+=delta;records[i]._search+=word+' '}}
+    const extra=await fetch(advancedUrl);if(!extra.ok)throw Error('Advanced search unavailable');(await extra.json()).forEach((row,i)=>Object.assign(records[i],row));return records;
+  }
+  async function hydrateDetails(rows){
+    const urls=[...new Set(rows.filter(p=>p._detailShard&&!p._hydrated).map(p=>p._detailShard))];
+    await Promise.all(urls.map(async url=>{
+      if(!detailCache.has(url))detailCache.set(url,fetch(url).then(r=>{if(!r.ok)throw Error('Person details unavailable');return r.json()}).catch(e=>{detailCache.delete(url);throw e}));
+      const details=await detailCache.get(url);const byId=new Map(details.map(p=>[p.id,p]));
+      for(const p of rows)if(p._detailShard===url&&byId.has(p.id)){Object.assign(p,byId.get(p.id));p._hydrated=true}
+    }));
+  }
   function loadPeople(){
     if(loadPromise) return loadPromise;
     setStatus('Loading searchable index…','busy');
@@ -198,11 +227,7 @@
     loadPromise=(async()=>{
       const embedded=Array.isArray(window.glasgowPeopleIndex)?window.glasgowPeopleIndex:null;
       if(embedded) return prepare(embedded);
-      const response=await fetch(indexUrl,{headers:{Accept:'application/json'}});
-      if(!response.ok) throw new Error(`Search index returned ${response.status}`);
-      const data=await response.json();
-      if(!Array.isArray(data)) throw new Error('Search index has an invalid format');
-      return prepare(data);
+      return preparedPeople();
     })().then(data=>{
       people=data;
       if(totalLabel){
@@ -219,6 +244,7 @@
       form.classList.remove('is-loading');
       setStatus('Search unavailable','error');
       out.innerHTML=`<p class="notice"><strong>The catalogue search could not load.</strong><br>${esc(error.message)}. Try refreshing the page.</p>`;
+      loadPromise=null;
       throw error;
     });
     return loadPromise;
@@ -317,6 +343,7 @@
     }).filter(Boolean).sort()[0]||'';
   }
   function sortValue(person,key){
+    if(person._sortValues&&key in person._sortValues)return person._sortValues[key];
     if(key==='name') return person._name;
     if(key==='birth'||key==='death'){
       const text=String(person[key]||'');
@@ -995,7 +1022,11 @@
     const filters=criteria();
     if(browsing&&sortMode==='relevance'){sortMode='name:asc';autoBrowseSort=true;}
     if(!filters.query.length&&sortMode==='relevance') sortMode=controls.needsUpdate.checked?'significance:desc':'birth:asc';
-    const found=source.filter(person=>matches(person,filters)).sort((a,b)=>comparePeople(a,b,filters));
+    let matchesSource,workerSorted=false;
+    if(searchWorker){try{const flags=Object.fromEntries(Object.entries(controls).map(([key,c])=>[key,Boolean(c?.checked)]));const ids=await workerRequest('filter',{filters:{...filters,gender:selectedGender(),flags},sortMode});const byId=new Map(source.map(p=>[p.id,p]));matchesSource=ids.map(id=>byId.get(id));workerSorted=true}catch(error){searchWorker?.terminate();searchWorker=null;source=people=await preparedPeople(false);matchesSource=source.filter(p=>matches(p,filters))}}
+    else matchesSource=source.filter(p=>matches(p,filters));
+    if(current!==renderNumber)return;
+    const found=workerSorted?matchesSource:matchesSource.sort((a,b)=>comparePeople(a,b,filters));
     const groupedMode=groupLocations||groupFamilies||groupOneTree;
     // Grouping must use the complete filtered population, so only ungrouped
     // results are paginated.
@@ -1003,6 +1034,11 @@
     if(page>pageCount) page=pageCount;
     const start=(page-1)*perPage;
     const shown=groupedMode?found:found.slice(start,start+perPage);
+    if(groupOneTree&&searchWorker){const all=await workerRequest('all');const byId=new Map(all.map(p=>[p.id,p]));for(const p of source)Object.assign(p,byId.get(p.id));}
+    try{await hydrateDetails(groupOneTree?source:groupedMode||resultView==='map'?found:shown)}catch(error){setStatus('Details unavailable — retry search','error');out.innerHTML='<p class="notice">The result details could not load. Search again to retry.</p>';return;}
+    if(current!==renderNumber)return;
+    window.GlasgowSearchMetrics={readyMs:performance.now(),people:source.length};
+    document.dispatchEvent(new CustomEvent('catalogue:ready',{detail:window.GlasgowSearchMetrics}));
     const range=!groupedMode&&found.length>shown.length?` · ${(start+1).toLocaleString()}–${(start+shown.length).toLocaleString()} shown`:'';
     setStatus(browsing?`Browsing all ${found.length.toLocaleString()} people${range}`:`${found.length.toLocaleString()} individual${found.length===1?'':'s'}${range}`,'ready');
     viewResults.hidden=!found.length;
@@ -1021,10 +1057,9 @@
     }
     const grouped=groupLocations?groupedResults(shown):(groupFamilies?groupedFamilyResults(shown):(groupOneTree?oneTreeResults(shown,source,filters,pathIds):null));
     const rows=grouped?grouped.rows:shown.map(person=>resultRow(person)).join('');
-    const cards=grouped?grouped.cards:shown.map(person=>resultCard(person)).join('');
     const groupSortLabel=groupLocations?'Sort locations':'Sort branches';
     const groupSortChoices=groupLocations?locationSortOptions():familySortOptions();
-    const resultViews=resultView==='map'?catalogueMapMarkup(mapModel):(groupOneTree?grouped.tree:`<div class="table-wrap catalogue-result-table-wrap"><table class="catalogue-results-table"><thead><tr>${sortHeader('name','Individual')}${sortHeader('birth','Birth')}${sortHeader('birthLocation','Birth location')}${sortHeader('death','Death')}${sortHeader('deathLocation','Death location')}${sortHeader('spouse','Spouse(s)')}${sortHeader('father','Father')}${sortHeader('mother','Mother')}</tr></thead><tbody>${rows}</tbody></table></div><div class="catalogue-result-cards">${cards}</div>`);
+    const resultViews=resultView==='map'?catalogueMapMarkup(mapModel):(groupOneTree?grouped.tree:`<div class="table-wrap catalogue-result-table-wrap"><table class="catalogue-results-table"><thead><tr>${sortHeader('name','Individual')}${sortHeader('birth','Birth')}${sortHeader('birthLocation','Birth location')}${sortHeader('death','Death')}${sortHeader('deathLocation','Death location')}${sortHeader('spouse','Spouse(s)')}${sortHeader('father','Father')}${sortHeader('mother','Mother')}</tr></thead><tbody>${rows}</tbody></table></div>`);
     const treeContextControls=groupOneTree?`<div class="catalogue-tree-context-controls"><label>Ancestors <select id="catalogue-tree-ancestors"${treePathMode?' disabled':''}>${treeDepthOptions(treeAncestorDepth)}</select></label><label>Descendants <select id="catalogue-tree-descendants"${treePathMode?' disabled':''}>${treeDepthOptions(treeDescendantDepth)}</select></label><label>Evidence <select id="catalogue-tree-evidence">${treeEvidenceOptions()}</select></label><details class="catalogue-tree-display-options"><summary>Display options</summary><div><label>Primary parent <select id="catalogue-tree-parent"><option value="strongest"${treeParentPreference==='strongest'?' selected':''}>Strongest evidence</option><option value="father"${treeParentPreference==='father'?' selected':''}>Father first</option><option value="mother"${treeParentPreference==='mother'?' selected':''}>Mother first</option></select></label><label>Research overlay <select id="catalogue-tree-overlay"><option value="none"${treeOverlay==='none'?' selected':''}>None</option><option value="sourced"${treeOverlay==='sourced'?' selected':''}>Sourced</option><option value="unsourced"${treeOverlay==='unsourced'?' selected':''}>No original source</option><option value="questions"${treeOverlay==='questions'?' selected':''}>Open questions</option><option value="missing-parent"${treeOverlay==='missing-parent'?' selected':''}>Missing parents</option><option value="uncertain"${treeOverlay==='uncertain'?' selected':''}>Uncertain identity</option><option value="update"${treeOverlay==='update'?' selected':''}>WikiTree update</option></select></label><label class="catalogue-group-toggle"><input id="catalogue-tree-paths" type="checkbox"${treePathMode?' checked':''}> Connecting paths</label><label class="catalogue-group-toggle"><input id="catalogue-tree-timeline" type="checkbox"${treeTimeline?' checked':''}> Timeline</label></div></details></div>`:'';
     const pagination=resultView==='map'||groupedMode?'':paginationHtml(found.length,start,shown.length,pageCount);
     out.innerHTML=`<div class="catalogue-result-toolbar"><strong>${browsing?`All ${found.length.toLocaleString()} people`:`${found.length.toLocaleString()} result${found.length===1?'':'s'}`}</strong><div class="catalogue-result-view-tabs" role="tablist" aria-label="Catalogue result view"><button type="button" data-catalogue-view="table" role="tab" aria-selected="${resultView==='table'}">Table</button><button type="button" data-catalogue-view="map" role="tab" aria-selected="${resultView==='map'}">Map</button></div><div class="catalogue-result-options"><div class="catalogue-group-controls" role="group" aria-label="Group results"><span>Group</span><label class="catalogue-group-toggle"><input id="catalogue-group-locations" type="checkbox"${groupLocations?' checked':''}> Location</label><label class="catalogue-group-toggle"><input id="catalogue-group-families" type="checkbox"${groupFamilies?' checked':''}> Family branch</label><label class="catalogue-group-toggle"><input id="catalogue-group-tree" type="checkbox"${groupOneTree?' checked':''}> One tree</label></div>${treeContextControls}<label${groupLocations?'':' hidden'}>Location detail <select id="catalogue-location-level"${groupLocations?'':' disabled'}><option value="1"${locationLevel==='1'?' selected':''}>Country</option><option value="2"${locationLevel==='2'?' selected':''}>County / area</option><option value="3"${locationLevel==='3'?' selected':''}>Townland / locality</option></select></label><label${groupedMode&&!groupOneTree?'':' hidden'}>${groupSortLabel} <select id="catalogue-group-sort"${groupedMode&&!groupOneTree?'':' disabled'}>${groupSortChoices}</select></label><label>${groupOneTree?'Sort each generation':groupedMode?'Sort within groups':'Sort results'} <select id="catalogue-result-sort">${sortOptions()}</select></label></div></div>${resultViews}${pagination}`;

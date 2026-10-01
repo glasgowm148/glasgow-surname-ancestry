@@ -6,6 +6,7 @@ import unittest
 from urllib.parse import urlsplit
 
 from bs4 import BeautifulSoup
+from tests._site_html import read_html
 from tools.publish_resolved_dossiers import resolve
 from tools import evidence_labels
 
@@ -28,7 +29,7 @@ class RobertHypothesisExportsTests(unittest.TestCase):
         ):
             dossier = load(WEB / f'people/{profile.lower()}.json')
             network = load(WEB / f'people/{profile.lower()}.network.json')
-            html = BeautifulSoup((WEB / f'people/{profile.lower()}.html').read_text(), 'html.parser')
+            html = BeautifulSoup(read_html(WEB / f'people/{profile.lower()}.html'), 'html.parser')
             row = next(r for r in dossier['relationships'][group] if r['id'] == target)
             network_row = next(r for r in network['relationships'] if r['id'] == target)
             self.assertEqual(row, network_row)
@@ -59,7 +60,7 @@ class RobertHypothesisExportsTests(unittest.TestCase):
             self.assertTrue(set(row['source_ids']).issubset(record_ids))
             for link in row['analysis_links']:
                 url = urlsplit(link['href'])
-                page = BeautifulSoup((WEB / url.path.lstrip('/')).read_text(), 'html.parser')
+                page = BeautifulSoup(read_html(WEB / url.path.lstrip('/')), 'html.parser')
                 self.assertIsNotNone(page.find(id=url.fragment))
                 self.assertTrue(node.select(f'a[href="{link["href"]}"]'))
 

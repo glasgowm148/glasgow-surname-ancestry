@@ -120,8 +120,12 @@ class LatestFindingsTests(unittest.TestCase):
         rows = findings.load_findings()
         page = BeautifulSoup((findings.WEB / 'latest-findings/index.html').read_text(), 'html.parser')
         rendered = page.select('#lf-rows > tr')
+        for page_path in sorted((findings.WEB / 'latest-findings/page').glob('*/index.html')):
+            rendered.extend(BeautifulSoup(page_path.read_text(), 'html.parser').select('#lf-rows > tr'))
         self.assertEqual(len(rows), len(rendered))
-        self.assertEqual([row['found_on'] for row in rows], [row['data-date'] for row in rendered])
+        # Static pages are checked as a complete catalogue; their page-local order is
+        # asserted by the pagination fixture above, while this protects the full set.
+        self.assertEqual(sorted(row['found_on'] for row in rows), sorted(row['data-date'] for row in rendered))
         for row in rendered:
             self.assertTrue(row.select('.lf-sources a'))
             self.assertTrue(row.select_one('.lf-fact').get_text(strip=True))
@@ -153,6 +157,28 @@ class LatestFindingsTests(unittest.TestCase):
                 invalid['relationship_changes'][0].update(replacement)
                 ledger.write_text(json.dumps({'findings': [invalid]}))
                 with self.assertRaises(ValueError): findings.load_findings(ledger, web)
+
+    def test_static_pagination_keeps_root_first_fifty_and_links_every_other_finding(self):
+        with tempfile.TemporaryDirectory() as directory:
+            web, ledger, row = self.fixture(directory)
+            rows = []
+            for index in range(53):
+                item = copy.deepcopy(row)
+                item['id'] = f'finding-{index:03d}'
+                item['found_on'] = f'2026-09-{30 - index // 2:02d}'
+                item['finding'] = f'Finding {index}'
+                rows.append(item)
+            ledger.write_text(json.dumps({'findings': rows}))
+            findings.repair(web, ledger)
+            root = BeautifulSoup((web / 'latest-findings/index.html').read_text(), 'html.parser')
+            page2 = BeautifulSoup((web / 'latest-findings/page/2/index.html').read_text(), 'html.parser')
+            self.assertEqual(50, len(root.select('#lf-rows > tr')))
+            self.assertEqual(3, len(page2.select('#lf-rows > tr')))
+            self.assertEqual([f'finding-{i:03d}' for i in range(50)], [r['id'][8:] for r in root.select('#lf-rows > tr')])
+            self.assertEqual([f'finding-{i:03d}' for i in range(50, 53)], [r['id'][8:] for r in page2.select('#lf-rows > tr')])
+            self.assertEqual(1, len(root.select('noscript li#finding-finding-050')))
+            self.assertIn('/latest-findings/page/2/#finding-finding-050', root.select_one('noscript a')['href'])
+            self.assertEqual('https://glasgow.phenotype.dev/latest-findings/page/2/', page2.select_one('link[rel="canonical"]')['href'])
 
 
 if __name__ == '__main__':

@@ -5,6 +5,7 @@ import unittest
 from urllib.parse import urlsplit
 
 from bs4 import BeautifulSoup
+from tests._site_html import read_html
 from tools.repair_person_hierarchy import _assessed_relation, _editorial, _profile_data
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -12,7 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 class DossierParentsTests(unittest.TestCase):
     def page(self, profile):
-        return BeautifulSoup((ROOT / 'www/people' / f'{profile.lower()}.html').read_text(), 'html.parser')
+        return BeautifulSoup(read_html(ROOT / 'www/people' / f'{profile.lower()}.html'), 'html.parser')
 
     def test_baptism_basis_is_shared_for_each_named_parent(self):
         for child, record in [('Glasgow-3939', 'baptism-james-1837'), ('Glasgow-3940', 'baptism-unnamed-1838')]:
@@ -108,7 +109,7 @@ class DossierParentsTests(unittest.TestCase):
             target = ROOT / 'www' / url.path.lstrip('/') if url.path else ROOT / 'www/people/glasgow-951.html'
             self.assertTrue(target.exists(), link['href'])
             if url.fragment:
-                self.assertIsNotNone(BeautifulSoup(target.read_text(), 'html.parser').find(id=url.fragment), link['href'])
+                self.assertIsNotNone(BeautifulSoup(read_html(target), 'html.parser').find(id=url.fragment), link['href'])
         self.assertFalse(soup.select('#timeline .candidate-score'))
         self.assertFalse(soup.select('#parent-candidates [data-score-id]'))
         self.assertEqual(1, len(soup.select('#record-will-daniel-1871-thomas-network')))

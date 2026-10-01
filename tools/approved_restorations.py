@@ -8,8 +8,12 @@ import re
 
 try:
     from tools.site_analytics import with_analytics, without_analytics
+    from tools.site_html import read_html
+    from tools.site_payloads import unpack_model
 except ModuleNotFoundError:
     from site_analytics import with_analytics, without_analytics
+    from site_html import read_html
+    from site_payloads import unpack_model
 
 ROOT = Path(__file__).resolve().parents[1]
 PRIVATE = ROOT / 'data/private/withheld-public-assets'
@@ -61,10 +65,30 @@ def usable_tester_panel(page):
 
 
 def approved_document(relative, content, private=PRIVATE):
+    if relative == 'assets/research/atlas-model-packed.json':
+        try:
+            return approved_document('assets/research/atlas-model.json', json.dumps(unpack_model(json.loads(content))), private)
+        except (ValueError, KeyError, TypeError, IndexError):
+            return False
+    if relative.startswith(('assets/research/fragments/', 'people/research-material/')):
+        # A moved fragment inherits only its explicitly approved dossier's scope.
+        # The approved parent must actually link to this immutable public output.
+        target=ROOT/'www'/relative
+        if not target.exists() or target.read_text()!=content:return False
+        for parent, item in entries(private).items():
+            if item['kind'] != 'dossier':continue
+            path=ROOT/'www'/parent
+            if not path.exists():continue
+            page=path.read_text()
+            if '/'+relative not in page:continue
+            if approved_document(parent, read_html(path), private):return True
+        return False
     entry = entries(private).get(relative)
     if entry is None:
         return False
     if entry['kind'] == 'dossier':
+        if 'data-r-fragment=' in content:
+            content=read_html(ROOT/'www'/relative)
         return ('id="paternal-dna"' in content
                 and all(path in content for path in ('glasgow-951-dna-matrix.json', 'glasgow-951-dna-matrix.csv'))
                 and 'awaiting publication permission' not in content)

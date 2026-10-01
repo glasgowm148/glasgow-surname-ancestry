@@ -5,6 +5,7 @@ import re
 import unittest
 
 from bs4 import BeautifulSoup
+from tests._site_html import read_html
 
 from tools.repair_person_hierarchy import _date_sort_key
 
@@ -23,7 +24,7 @@ SLUGS = (
 class DossierCleanupTests(unittest.TestCase):
     def page(self, slug):
         path = ROOT / "www" / "people" / f"{slug}.html"
-        return BeautifulSoup(path.read_text(encoding="utf-8"), "html.parser")
+        return BeautifulSoup(read_html(path), "html.parser")
 
     def text(self, node):
         return node.get_text(" ", strip=True)
