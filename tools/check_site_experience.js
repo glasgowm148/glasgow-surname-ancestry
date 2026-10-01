@@ -25,8 +25,8 @@ async (page) => {
         }
       }
       await visit('/people/glasgow-2223.html');
-      check(await visible('.profile-wikitree-actions a[href="https://www.wikitree.com/wiki/Glasgow-2223"]'), `${width}: own WikiTree action unavailable`);
-      check(await visible('#person-summary'), `${width}: person summary unavailable`);
+      check(await visible('.profile-wikitree-actions a[href="https://www.wikitree.com/wiki/Glasgow-2223"],.dossier-actions a[href="https://www.wikitree.com/wiki/Glasgow-2223"]'), `${width}: own WikiTree action unavailable`);
+      check(await visible('#person-summary,#overview'), `${width}: person summary unavailable`);
       check(await visible('a[href="/changes/"]'), `${width}: Latest research unavailable from person`);
       check(await page.locator('.person-technical-fold[open]').count() === 0, `${width}: technical material expanded by default`);
       await visit('/statistics/');
@@ -39,7 +39,7 @@ async (page) => {
       await visit('/branches/');
       for (const id of ['experience-regions', 'research-studies', 'irish-research-studies']) check(await visible('#' + id), `${width}: missing family section ${id}`);
       check(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1), `${width}: family page horizontal overflow`);
-      const contrast = await page.locator('.family-study-where').first().evaluate(element => {
+      const contrast = await page.locator('.family-study-where,.bd-place').first().evaluate(element => {
         const rgb = value => (value.match(/[\d.]+/g) || []).map(Number);
         const light = values => values.slice(0,3).map(v => { const s=v/255; return s<=0.04045?s/12.92:Math.pow((s+0.055)/1.055,2.4); }).reduce((sum,v,i)=>sum+v*[0.2126,0.7152,0.0722][i],0);
         const foreground = light(rgb(getComputedStyle(element).color));

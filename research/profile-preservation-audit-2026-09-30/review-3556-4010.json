@@ -1,0 +1,483 @@
+{
+  "audit_date": "2026-09-30",
+  "source_basis": "Provided fresh baseline and existing owned findings; historical sources not re-opened during this preservation audit.",
+  "scope": "Local drafts only. No live edits, browser, new research, attachment or parent certainty changes.",
+  "reviews": [
+    {
+      "id": "Glasgow-3556",
+      "draft_path": "research/profile-preservation-audit-2026-09-30/Glasgow-3556-reconciled.wiki",
+      "original_queue_summary": "Add the new Betham eldest-son evidence and Lifford purchase transcript; keep the son identity strongly probable and the father field uncertain.",
+      "verification": {
+        "every_current_full_citation_verbatim_preserved": true,
+        "every_current_url_preserved": true,
+        "current_full_citation_count": 10,
+        "reconciled_full_citation_count": 13,
+        "current_chars": 13022,
+        "reconciled_chars": 16731,
+        "draft_sha256": "1ef6c33b36eb90dccf0a60235e9d728a209e954a6d72a6c7c62682b37e4ab9ce",
+        "every_proposed_url_preserved": true,
+        "named_reference_definitions_unique_and_uses_resolved": true
+      },
+      "queue_assertion_check": "Betham named-son evidence and PRONI D1939/21/3 purchase are missing from fresh current biography. Court/deed sequence and latest 15 May 1701 life event already present. Death section, conclusion and structured DeathDate still repeat the obsolete 1695 bound. Father status already 10 (uncertain): no upgrade justified or performed.",
+      "proposed_omissions": [
+        "Full court/deed named-associate summary and list of unrecorded relatives/heirs/executors removed; restored with the source group specified.",
+        "Creighton repeated association does not establish kinship: omitted; restored unchanged.",
+        "Son-or-younger-relative chronology/geography hypothesis and Archibald\u2013Thomas\u2013Nathaniel line shortened without retaining earlier assessment; restored with explicit Betham correction and identity limits.",
+        "No spouse/child inference from chronology/geography/naming/unsourced trees alone omitted; preserved as evidence limitation."
+      ],
+      "supported_corrections": [
+        {
+          "change": "Named son Thomas in Betham supersedes wholly-unknown Archibald connection, without proving the Lifford identity.",
+          "source": "NLI GO MS 225, handwritten p.90/image97; existing findings. Full prior no-relative assertion retained in Research Notes."
+        },
+        {
+          "change": "Death bound after 15 May 1701 replaces after 25 November 1695 in bounds/conclusion.",
+          "source": "Current Exch1701 reference. Original 1695 memorandum and former assessment retained."
+        },
+        {
+          "change": "Opening/summary unqualified unknown-parents statement reconciled with probable father; unknown wife/children/heirs/siblings remains specific to Lifford man.",
+          "source": "Betham record named Thomas and Margaret has no age/residence/wife/estate to bridge identity."
+        }
+      ],
+      "formatting_only": [
+        "Native links for existing identified Glasgow subjects.",
+        "Structured-field/editor commands rewritten as evidence conclusions, preserving the locality and family evidence limits."
+      ],
+      "recommended_queue_summary": "Add Betham\u2019s named eldest son and the qualified Lifford purchase transcription to the complete biography, retaining all court/deed detail and uncertain father status. Reconcile existing 1701 evidence with the stale 1695 death bound and preserve prior assessments in Research Notes.",
+      "disposition": "Reconciled full draft ready for review; original effective proposal should not be used unchanged.",
+      "pending_structured_actions": "If later authorized, DeathDate 1701-05-15 with after status must accompany corrected death-bound prose. Preserve Father 10, BirthDate before 1671 and uncertain Lifford locality; no field actions made.",
+      "additions": [
+        "PRONI D1939/21/3 specific purchase, amount, sureties and later litigation/purchase with catalogue-only qualification.",
+        "Betham explicitly named eldest son/only daughter with identity limits.",
+        "Bounded surviving will-book G index/all-nine Glas* search result with not-fully-read limitation."
+      ],
+      "current_to_proposed_exact_passage_accounting": [
+        {
+          "opcode": "insert",
+          "current_line_start": 45,
+          "current_line_end": 44,
+          "proposed_line_start": 45,
+          "proposed_line_end": 46,
+          "old_exact": "",
+          "new_exact": "The newly inspected archival transcription of a c.1700 Lifford estate paper describes Thomas Glascoe, Esq., buying a previously mortgaged interest from Hugh Hamill for \u00a33,216, with Abraham Creighton and John Hamilton as sureties. Litigation and a subsequent purchase by Creighton followed.<ref>Public Record Office of Northern Ireland, D1939/21/3, c.1700 Lifford estate paper; [https://apps.proni.gov.uk/eCatNI_IE/SearchPage.aspx eCatalogue], search exact reference. Catalogue transcription inspected 30 September 2026; manuscript image not inspected.</ref> This purchase is documented; beneficial ownership and precise roles in every other deed remain separate questions.\n",
+          "accounting": "Addition or whitespace-only change; no existing substantive passage removed."
+        },
+        {
+          "opcode": "replace",
+          "current_line_start": 68,
+          "current_line_end": 68,
+          "proposed_line_start": 70,
+          "proposed_line_end": 70,
+          "old_exact": "The available records name Thomas Glasgow, Abraham Creighton, James Creighton and several other parties to the transactions.",
+          "new_exact": "Betham's pre-destruction abstract of the April 1673 will of [[Glasgow-1101|Archibald Glasgow of Rathmalton, County Donegal, clerk]] explicitly names Thomas Glasgow as his eldest son and Margaret as his only daughter.<ref>National Library of Ireland, GO MS 225, William Betham, Old Series vol. 3 (1808), p. 90, digital image 97, microfilm POS 1219; [https://catalogue.nli.ie/Record/vtls000540633 catalogue and digitised manuscript], inspected 30 September 2026. A genealogical will abstract, not the complete original.</ref> Identifying that son with this Lifford/Raphoe man is strongly probable, but the abstract gives him no residence, estate, age or wife. Retain the father field as uncertain pending a distinctive identity connection. No inspected record proves Thomas's fatherhood of [[Glasgow-1136|Nathaniel Glasgow]] or [[Glasgow-3966|George Glasgow]].",
+          "accounting": "Existing associates, unrecorded-relatives list, Creighton non-kinship caveat and spouse/child evidence limits restored. Archibald chronology/geography and chain hypothesis preserved with new Betham evidence; earlier broad unsupported assertion retained explicitly in Research Notes."
+        },
+        {
+          "opcode": "replace",
+          "current_line_start": 70,
+          "current_line_end": 104,
+          "proposed_line_start": 72,
+          "proposed_line_end": 72,
+          "old_exact": "They do not identify Thomas\u2019s:\n\n* father or mother;\n* wife;\n* sons or daughters;\n* brothers or sisters;\n* heirs;\n* executors; or\n* other stated relatives.\n\nNo family relationship between Thomas and the Creightons is given. Their repeated appearance together establishes a continuing legal and financial association, not kinship.\n\nNo inspected record proves that Thomas was a son, brother, nephew or other relative of [[Glasgow-1101|Archibald Glasgow M.A. (1614\u2013bef.1677)]].\n\nThe chronology and geography allow Thomas to have been a son or younger relative of the Archibald Glasgow who served as a clergyman in County Donegal and whose will was proved in 1677. That remains a research hypothesis only.\n\nNo inspected record proves that Thomas was the father of [[Glasgow-1136|Nathaniel Glasgow M.A. (died 1743)]].\n\nThe proposed line:\n\nArchibald Glasgow\n|\n?\n|\nThomas Glasgow of Lifford, Ballindroight and Shannon\n|\n?\n|\nNathaniel Glasgow\n\nremains unsupported by direct kinship evidence. Each question mark represents a missing documentary link.\n\nA '''James Glasgow''' appearing in Killybegs account material in 1728 may belong to an adjacent generation of the Donegal family. The entry does not identify James as Thomas\u2019s son or other relative.\n\nNo spouse or child should be attached to Thomas from chronology, geography, naming patterns or unsourced family trees alone.",
+          "new_exact": "Thomas should not be identified with [[Glasgow-1103|Thomas Glasgow]], baptised in Scotland in 1612, without a cross-channel identity record. A James Glasgow in Killybegs account material in 1728 is an adjacent-generation Donegal clue only; no source calls him Thomas's son or relative.",
+          "accounting": "Earlier full attributed no-relative assertion retained in Research Notes, now superseded partly by Betham\u2019s named son. Chronology/geography hypothesis retained; son-to-Lifford identity unproved."
+        },
+        {
+          "opcode": "replace",
+          "current_line_start": 125,
+          "current_line_end": 125,
+          "proposed_line_start": 93,
+          "proposed_line_end": 93,
+          "old_exact": "* death after 25 November 1695, place unknown.",
+          "new_exact": "* death after 15 May 1701, place unknown.",
+          "accounting": "After-1695 bound superseded by already-cited Exch1701. Former assessment and 1695 event/source retained. Other family limits retained and Betham identity distinction explicit."
+        },
+        {
+          "opcode": "replace",
+          "current_line_start": 190,
+          "current_line_end": 190,
+          "proposed_line_start": 158,
+          "proposed_line_end": 158,
+          "old_exact": "His birth date and place are unknown. His adult status in 1689 supports a probable birth before 1671, and the records show that he was alive after 25 November 1695.",
+          "new_exact": "His birth date and place are unknown. His adult status in 1689 supports a probable birth before 1671, and the records show that he was alive after 15 May 1701.",
+          "accounting": "After-1695 bound superseded by already-cited Exch1701. Former assessment and 1695 event/source retained. Other family limits retained and Betham identity distinction explicit."
+        },
+        {
+          "opcode": "replace",
+          "current_line_start": 192,
+          "current_line_end": 192,
+          "proposed_line_start": 160,
+          "proposed_line_end": 164,
+          "old_exact": "No inspected record identifies his wife, children, parents, heirs or siblings. No relationship to Archibald Glasgow of Ramelton, Nathaniel Glasgow of Golan or Fintona, the later Killybegs James Glasgow, or the Scottish Thomas baptised in 1612 has been proved.",
+          "new_exact": "No inspected record identifies his wife, children, heirs or siblings. Betham explicitly names Archibald\u2019s eldest son Thomas; identifying that son with this man remains strongly probable, with the father field uncertain. No relationship to Archibald Glasgow of Ramelton, Nathaniel Glasgow of Golan or Fintona, the later Killybegs James Glasgow, or the Scottish Thomas baptised in 1612 has been proved.\n\n=== Search of the surviving registered will book ===\n\nThe surviving 1664\u20131684 prerogative will book is accessible. Its visible G index (image 542 of 547) and all nine full-text Glas* matches were checked on 30 September 2026 without locating Archibald\u2019s particular will. The full manuscript has not been read, so this does not establish that the will is absent or destroyed.<ref>National Archives of Ireland, prerogative wills 1664\u20131684, FamilySearch DGS 8096787, [https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJ8-FDT8 image 542, G index].</ref>",
+          "accounting": "Unknown wife/children/heirs/siblings and all relationship limits preserved; probable Archibald identity explains revised parent language. Earlier no-relative assessment explicitly retained in Research Notes."
+        }
+      ],
+      "current_to_reconciled_exact_passage_accounting": [
+        {
+          "opcode": "replace",
+          "current_line_start": 5,
+          "current_line_end": 5,
+          "reconciled_line_start": 5,
+          "reconciled_line_end": 5,
+          "old_exact": "The date and place of birth of '''Thomas Glasgow''' are unknown. Because he was recorded as an adult in January 1684 and styled an esquire by 1689, he was probably born before about 1671. Lifford may be retained in the structured birth-place field as uncertain because it is his earliest stated locality, but the record does not prove that he was born there. No inspected record identifies his wife, children or parents.",
+          "new_exact": "The date and place of birth of '''Thomas Glasgow''' are unknown. Because he was recorded as an adult in January 1684 and styled an esquire by 1689, he was probably born before about 1671. Lifford is an uncertain birthplace hypothesis based on his earliest stated locality; the record does not prove that he was born there. No inspected record identifies his wife or children. His probable father connection is discussed below.",
+          "accounting": "Birth bound, uncertain Lifford inference and lack of wife/children evidence preserved. Structured-field process wording removed; unknown-parent statement reconciled with Betham; earlier assessment recorded in Research Notes."
+        },
+        {
+          "opcode": "replace",
+          "current_line_start": 39,
+          "current_line_end": 40,
+          "reconciled_line_start": 39,
+          "reconciled_line_end": 40,
+          "old_exact": "| Relationship to Archibald, Nathaniel or George\n| Unproved; retain existing links only as uncertain",
+          "new_exact": "| Relationship to [[Glasgow-1101|Archibald]], [[Glasgow-1136|Nathaniel]] or [[Glasgow-3966|George]]\n| Archibald as father is strongly probable but the son-to-Lifford identity remains uncertain; Thomas as father of Nathaniel or George is unproved",
+          "accounting": "All named relationship subjects retained/linked. Archibald now probable but uncertain; Nathaniel/George remain unproved; earlier unsupported assessment retained in Research Notes."
+        },
+        {
+          "opcode": "insert",
+          "current_line_start": 44,
+          "current_line_end": 43,
+          "reconciled_line_start": 44,
+          "reconciled_line_end": 45,
+          "old_exact": "",
+          "new_exact": "\nThe newly inspected archival transcription of a c.1700 Lifford estate paper describes Thomas Glascoe, Esq., buying a previously mortgaged interest from Hugh Hamill for \u00a33,216, with Abraham Creighton and John Hamilton as sureties. Litigation and a subsequent purchase by Creighton followed.<ref>Public Record Office of Northern Ireland, D1939/21/3, c.1700 Lifford estate paper; [https://apps.proni.gov.uk/eCatNI_IE/SearchPage.aspx eCatalogue], search exact reference. Catalogue transcription inspected 30 September 2026; manuscript image not inspected.</ref> This purchase is documented; beneficial ownership and precise roles in every other deed remain separate questions.",
+          "accounting": "Addition or whitespace-only change; no existing substantive passage removed."
+        },
+        {
+          "opcode": "insert",
+          "current_line_start": 68,
+          "current_line_end": 67,
+          "reconciled_line_start": 70,
+          "reconciled_line_end": 71,
+          "old_exact": "",
+          "new_exact": "Betham's pre-destruction abstract of the April 1673 will of [[Glasgow-1101|Archibald Glasgow of Rathmalton, County Donegal, clerk]] explicitly names Thomas Glasgow as his eldest son and Margaret as his only daughter.<ref>National Library of Ireland, GO MS 225, William Betham, Old Series vol. 3 (1808), p. 90, digital image 97, microfilm POS 1219; [https://catalogue.nli.ie/Record/vtls000540633 catalogue and digitised manuscript], inspected 30 September 2026. A genealogical will abstract, not the complete original.</ref> Identifying that son with this Lifford/Raphoe man is strongly probable, but the abstract gives him no residence, estate, age or wife. The identification remains uncertain pending a distinctive identity connection. No inspected record proves Thomas's fatherhood of [[Glasgow-1136|Nathaniel Glasgow]] or [[Glasgow-3966|George Glasgow]].\n",
+          "accounting": "Addition or whitespace-only change; no existing substantive passage removed."
+        },
+        {
+          "opcode": "replace",
+          "current_line_start": 70,
+          "current_line_end": 70,
+          "reconciled_line_start": 74,
+          "reconciled_line_end": 74,
+          "old_exact": "They do not identify Thomas\u2019s:",
+          "new_exact": "The court and deed records do not identify Thomas\u2019s:",
+          "accounting": "Same list retained, explicitly limited to court/deed records to avoid conflict with newly added Betham named son."
+        },
+        {
+          "opcode": "replace",
+          "current_line_start": 82,
+          "current_line_end": 84,
+          "reconciled_line_start": 86,
+          "reconciled_line_end": 86,
+          "old_exact": "No inspected record proves that Thomas was a son, brother, nephew or other relative of [[Glasgow-1101|Archibald Glasgow M.A. (1614\u2013bef.1677)]].\n\nThe chronology and geography allow Thomas to have been a son or younger relative of the Archibald Glasgow who served as a clergyman in County Donegal and whose will was proved in 1677. That remains a research hypothesis only.",
+          "new_exact": "The compatible chronology, Donegal geography and Glasgow/Glascoe/Glascow surname forms support identifying the eldest son in Betham\u2019s abstract with this Thomas. The abstract establishes a son named Thomas, but does not supply a distinctive Lifford residence, estate, age or wife. It therefore strengthens the former son-or-younger-relative hypothesis without proving that specific identity or Archibald\u2019s Scottish origin.",
+          "accounting": "Earlier full attributed no-relative assertion retained in Research Notes, now superseded partly by Betham\u2019s named son. Chronology/geography hypothesis retained; son-to-Lifford identity unproved."
+        },
+        {
+          "opcode": "replace",
+          "current_line_start": 88,
+          "current_line_end": 88,
+          "reconciled_line_start": 90,
+          "reconciled_line_end": 90,
+          "old_exact": "The proposed line:",
+          "new_exact": "The proposed line from [[Glasgow-1101|Archibald Glasgow]] through Thomas Glasgow of Lifford, Ballindroight and Shannon to [[Glasgow-1136|Nathaniel Glasgow]] still has two limits: Archibald\u2019s named son Thomas is not distinctively identified with this man, and no record proves Thomas\u2019s fatherhood of Nathaniel. The first link is now strongly probable; the second remains unproved.",
+          "accounting": "Linked Archibald\u2013Thomas\u2013Nathaniel line retained with both missing bridges spelled out; prior unsupported-line assessment in Research Notes."
+        },
+        {
+          "opcode": "replace",
+          "current_line_start": 90,
+          "current_line_end": 98,
+          "reconciled_line_start": 92,
+          "reconciled_line_end": 92,
+          "old_exact": "Archibald Glasgow\n|\n?\n|\nThomas Glasgow of Lifford, Ballindroight and Shannon\n|\n?\n|\nNathaniel Glasgow",
+          "new_exact": "[[Glasgow-3001|James Glasgow]] appearing in Killybegs account material in 1728 may belong to an adjacent generation of the Donegal family. The entry does not identify James as Thomas\u2019s son or other relative.",
+          "accounting": "Vertical Archibald\u2013Thomas\u2013Nathaniel hypothesis diagram converted to linked prose retaining both missing documentary bridges. Prior wholly unsupported-line assessment explicitly preserved in Research Notes; Betham changes the first edge to strongly probable while the Thomas\u2013Nathaniel edge remains unproved."
+        },
+        {
+          "opcode": "replace",
+          "current_line_start": 100,
+          "current_line_end": 104,
+          "reconciled_line_start": 94,
+          "reconciled_line_end": 94,
+          "old_exact": "remains unsupported by direct kinship evidence. Each question mark represents a missing documentary link.\n\nA '''James Glasgow''' appearing in Killybegs account material in 1728 may belong to an adjacent generation of the Donegal family. The entry does not identify James as Thomas\u2019s son or other relative.\n\nNo spouse or child should be attached to Thomas from chronology, geography, naming patterns or unsourced family trees alone.",
+          "new_exact": "Chronology, geography, naming patterns and unsourced family trees alone do not establish a spouse or child of Thomas.",
+          "accounting": "Former unsupported-line/missing-links conclusion preserved and explicitly corrected in Research Notes and linked hypothesis prose. The Killybegs James 1728 clue is retained with Glasgow-3001 link and its no-proved-relationship qualification. The spouse/child inference restriction is recast as an evidence limitation with unchanged meaning."
+        },
+        {
+          "opcode": "replace",
+          "current_line_start": 122,
+          "current_line_end": 122,
+          "reconciled_line_start": 112,
+          "reconciled_line_end": 112,
+          "old_exact": "His profile should therefore use:",
+          "new_exact": "The supported date bounds are:",
+          "accounting": "Same date bounds introduced as supported evidence; editor command only removed."
+        },
+        {
+          "opcode": "replace",
+          "current_line_start": 125,
+          "current_line_end": 125,
+          "reconciled_line_start": 115,
+          "reconciled_line_end": 115,
+          "old_exact": "* death after 25 November 1695, place unknown.",
+          "new_exact": "* death after 15 May 1701, place unknown.",
+          "accounting": "After-1695 bound superseded by already-cited Exch1701. Former assessment and 1695 event/source retained. Other family limits retained and Betham identity distinction explicit."
+        },
+        {
+          "opcode": "insert",
+          "current_line_start": 140,
+          "current_line_end": 139,
+          "reconciled_line_start": 130,
+          "reconciled_line_end": 139,
+          "old_exact": "",
+          "new_exact": "=== Earlier assessments and their limits ===\n\nThe earlier assessment stated: \u201cNo inspected record proves that Thomas was a son, brother, nephew or other relative of Archibald Glasgow M.A. (1614\u2013bef.1677).\u201d It allowed a son or younger relative of the Donegal clergyman whose will was proved in 1677, but described the Archibald\u2013Thomas\u2013Nathaniel line as unsupported by direct kinship evidence. That broad assessment is superseded in part by Betham\u2019s abstract of the April 1673 will: the testator explicitly had an eldest son Thomas. What remains unproved is that son\u2019s identity with the Lifford man and any Thomas\u2013Nathaniel link. The age, Scottish origin and denomination attributed to Archibald require their own evidence; they do not follow from this abstract.\n\nThe former after-25-November-1695 death bound came from the \u00a36,000 bond memorandum. It is superseded by the 15 May 1701 Exchequer entry already described above. The 1695 event remains valid evidence of his life and associations.\n\n=== Search of the surviving registered will book ===\n\nThe surviving 1664\u20131684 prerogative will book is accessible. Its visible G index (image 542 of 547) and all nine full-text Glas* matches were checked on 30 September 2026 without locating Archibald\u2019s particular will. The full manuscript has not been read, so this does not establish that the will is absent or destroyed.<ref>National Archives of Ireland, prerogative wills 1664\u20131684, FamilySearch DGS 8096787, [https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJ8-FDT8 image 542, G index].</ref>\n",
+          "accounting": "Addition or whitespace-only change; no existing substantive passage removed."
+        },
+        {
+          "opcode": "replace",
+          "current_line_start": 190,
+          "current_line_end": 190,
+          "reconciled_line_start": 190,
+          "reconciled_line_end": 190,
+          "old_exact": "His birth date and place are unknown. His adult status in 1689 supports a probable birth before 1671, and the records show that he was alive after 25 November 1695.",
+          "new_exact": "His birth date and place are unknown. His adult status in 1689 supports a probable birth before 1671, and the records show that he was alive after 15 May 1701.",
+          "accounting": "After-1695 bound superseded by already-cited Exch1701. Former assessment and 1695 event/source retained. Other family limits retained and Betham identity distinction explicit."
+        },
+        {
+          "opcode": "replace",
+          "current_line_start": 192,
+          "current_line_end": 192,
+          "reconciled_line_start": 192,
+          "reconciled_line_end": 192,
+          "old_exact": "No inspected record identifies his wife, children, parents, heirs or siblings. No relationship to Archibald Glasgow of Ramelton, Nathaniel Glasgow of Golan or Fintona, the later Killybegs James Glasgow, or the Scottish Thomas baptised in 1612 has been proved.",
+          "new_exact": "No inspected record identifies his wife, children, heirs or siblings for this Lifford man. Betham explicitly names Archibald\u2019s eldest son Thomas and only daughter Margaret; identifying that Thomas with this man is strongly probable, but not distinctively proved. His father attachment remains uncertain. No relationship to [[Glasgow-1136|Nathaniel Glasgow of Golan or Fintona]], [[Glasgow-3966|George Glasgow]], [[Glasgow-3001|James Glasgow of Killybegs]], or [[Glasgow-1103|the Scottish Thomas baptised in 1612]] is proved.",
+          "accounting": "Unknown wife/children/heirs/siblings and all relationship limits preserved; probable Archibald identity explains revised parent language. Earlier no-relative assessment explicitly retained in Research Notes."
+        }
+      ]
+    },
+    {
+      "id": "Glasgow-4010",
+      "draft_path": "research/profile-preservation-audit-2026-09-30/Glasgow-4010-reconciled.wiki",
+      "original_queue_summary": "Connect the proved Prescott brothers through the existing Alexander-3904 father hypothesis, with uncertain status; preserve all original will/deed evidence. Add the working-parentage explanation to the existing sibling biography.",
+      "verification": {
+        "every_current_full_citation_verbatim_preserved": true,
+        "every_current_url_preserved": true,
+        "current_full_citation_count": 15,
+        "reconciled_full_citation_count": 16,
+        "current_chars": 9051,
+        "reconciled_chars": 11304,
+        "draft_sha256": "e9df941fa4ee139fbe5228acaf6fcaaa3d183deaf56b185dcc4be50f920e16e3",
+        "every_proposed_url_preserved": true,
+        "named_reference_definitions_unique_and_uses_resolved": true
+      },
+      "queue_assertion_check": "Fresh biography already identifies Robert as Samuel\u2019s brother and contains all will/deed evidence. The Alexander-3904 father hypothesis is absent; Father currently 0. Proposed uncertain father attachment remains a pending structural action, not completed or a certainty upgrade.",
+      "proposed_omissions": [
+        "Dated 13 August 2026 local One Tree/public-index search provenance and no-compatible-profile finding removed; restored as a historical search result preceding identification. No distinct citation omitted."
+      ],
+      "supported_corrections": [
+        {
+          "change": "Eight census members comprise parents and six probable children; with later two sons this accounts for eight possible children, not ten.",
+          "source": "Full current Census1851 table and research/Glasgow-4010/findings.md, 13 September property/estate review. Earlier eight-children/ten-child reconstruction explicitly retained and corrected in Research Notes; Grenville report retained."
+        },
+        {
+          "change": "2017 father\u2013son claim retained as attributed derivative assertion and explicitly contradicted by original will/memorials. Stale do-not-attach-until-read instruction retired.",
+          "source": "Current RobertWill1849/1856/1861 and Recorder references; earlier assessment preserved in Research Notes."
+        },
+        {
+          "change": "Full-will-reading request corrected to unresolved complete title-chain reconstruction, without deleting fractions/carpenter identity caveat.",
+          "source": "Current inspected will and maintained findings. Earlier reading request preserved in Research Notes."
+        },
+        {
+          "change": "Duplicate-search result qualified in dated past tense.",
+          "source": "Current 13 August assertion; this subject now has profile 4010."
+        }
+      ],
+      "formatting_only": [
+        "Proposed blank-line removals have no substance; regular spacing retained.",
+        "Native links to Robert, Daniel, Thomas, Mary E. and four created children use existing checked IDs in owned findings; household readings remain unchanged."
+      ],
+      "recommended_queue_summary": "Add the uncertain Alexander-3904 father hypothesis to Samuel\u2019s existing complete sibling biography, preserving all original and derivative sources. Correct census child-count arithmetic with earlier assessment retained; keep dated duplicate-search provenance. Any uncertain father attachment is separately pending; do not imply sibling evidence is missing.",
+      "disposition": "Reconciled full draft ready for review; original effective proposal should not be used unchanged.",
+      "pending_structured_actions": "Father currently 0. No attachment or certainty action made. Proved siblings plus Thomas\u2019s descendant account support the existing uncertain Alexander hypothesis only; maternity separate.",
+      "additions": [
+        "Working father connection from FatherTradition, explicit family-testimony status and uncertain identity; no newly certain parent."
+      ],
+      "other_local_material_not_added": "The 1851_Canada_West_Prescott_Samuel_Glasgow.md draft additionally has C298/Mary Black collateral deed. Neither fresh current nor effective proposal includes it, so it is not an omitted baseline passage. Consider separately if scope expands.",
+      "current_to_proposed_exact_passage_accounting": [
+        {
+          "opcode": "delete",
+          "current_line_start": 7,
+          "current_line_end": 7,
+          "proposed_line_start": 7,
+          "proposed_line_end": 6,
+          "old_exact": "",
+          "new_exact": "",
+          "accounting": "Addition or whitespace-only change; no existing substantive passage removed."
+        },
+        {
+          "opcode": "replace",
+          "current_line_start": 44,
+          "current_line_end": 44,
+          "proposed_line_start": 43,
+          "proposed_line_end": 43,
+          "old_exact": "Samuel was a brother of Robert Glasgow, the Prescott shipbuilder. Robert's will, dated 9 October 1849, gives one sixth each to his brothers Daniel, Samuel, John and Thomas, his sister Mary, and collectively the children of his brother James; it does not call James deceased.<ref name=\"RobertWill1849\">Grenville County land records, DGS 8200419, image 35, registered will of Robert Glasgow of Prescott, dated 9 October 1849, [https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWY9-S original image].</ref> Memorial 13 records a 30 October 1856 deed, registered 13 November 1856, by which Robert's widow Jane sold Samuel, merchant, property in which he held one undivided sixth share under Robert's will.<ref name=\"RobertWill1856\">Grenville County land records, DGS 8200419, image 36, Memorial 13, dated 30 October 1856 and registered 13 November 1856, [https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWYM-6 original image].</ref> Memorial 465, dated 30 July 1861 and registered 7 October, names Daniel of Kilrea, County Londonderry, watchmaker, and wife Margaret, and Thomas of Lisnagaver, County Antrim, farmer, and wife Mary Ann, in transfers to Samuel of two undivided sixth interests under Robert's will.<ref name=\"RobertWill1861\">Grenville County land records, DGS 8200419, image 240, Memorial 465, registered 7 October 1861, printed p. 397, [https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWB8-D original image].</ref> The deeds establish the stated Daniel, Thomas and Samuel as Robert's brothers by place, trade and wife; they do not identify the siblings' parents.",
+          "new_exact": "Samuel was a brother of [[Glasgow-4150|Robert Glasgow]], the Prescott shipbuilder. Robert's will, dated 9 October 1849, gives one sixth each to his brothers Daniel, Samuel, John and Thomas, his sister Mary, and collectively the children of his brother James; it does not call James deceased.<ref name=\"RobertWill1849\">Grenville County land records, DGS 8200419, image 35, registered will of Robert Glasgow of Prescott, dated 9 October 1849, [https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWY9-S original image].</ref> Memorial 13 records a 30 October 1856 deed, registered 13 November 1856, by which Robert's widow Jane sold Samuel, merchant, property in which he held one undivided sixth share under Robert's will.<ref name=\"RobertWill1856\">Grenville County land records, DGS 8200419, image 36, Memorial 13, dated 30 October 1856 and registered 13 November 1856, [https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWYM-6 original image].</ref> Memorial 465, dated 30 July 1861 and registered 7 October, names Daniel of Kilrea, County Londonderry, watchmaker, and wife Margaret, and Thomas of Lisnagaver, County Antrim, farmer, and wife Mary Ann, in transfers to Samuel of two undivided sixth interests under Robert's will.<ref name=\"RobertWill1861\">Grenville County land records, DGS 8200419, image 240, Memorial 465, registered 7 October 1861, printed p. 397, [https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWB8-D original image].</ref> The deeds establish the stated Daniel, Thomas and Samuel as Robert's brothers by place, trade and wife; they do not identify the siblings' parents.",
+          "accounting": "Entire original will/deed evidence retained, including each sibling/share, dates, named wives, places and source qualifications; only verified profile links added."
+        },
+        {
+          "opcode": "delete",
+          "current_line_start": 49,
+          "current_line_end": 49,
+          "proposed_line_start": 48,
+          "proposed_line_end": 47,
+          "old_exact": "",
+          "new_exact": "",
+          "accounting": "Addition or whitespace-only change; no existing substantive passage removed."
+        },
+        {
+          "opcode": "replace",
+          "current_line_start": 56,
+          "current_line_end": 56,
+          "proposed_line_start": 54,
+          "proposed_line_end": 54,
+          "old_exact": "The local One Tree export and public WikiTree indexing were searched again on 13 August 2026. No profile matches this Irish-born Prescott merchant. [[Glasgow-2908|Samuel Glasgow of Lisnagaver]] remained in Ireland in 1851 and is excluded. Other same-name profiles have incompatible places, ages or families.",
+          "new_exact": "[[Glasgow-2908|Samuel Glasgow of Lisnagaver]] remained in Ireland in 1851 and is excluded. Other same-name profiles have incompatible places, ages or families.",
+          "accounting": "Date, searched collections and earlier no-compatible-profile outcome retained, qualified as historical before identification; all same-name exclusion details retained."
+        },
+        {
+          "opcode": "insert",
+          "current_line_start": 61,
+          "current_line_end": 60,
+          "proposed_line_start": 59,
+          "proposed_line_end": 62,
+          "old_exact": "",
+          "new_exact": "=== Working father connection ===\n\nRobert and Samuel belong to the same documented sibling group as [[Glasgow-987|Thomas Glasgow]] and [[Glasgow-3896|Daniel Glasgow]]. A descendant family account names [[Glasgow-3904|Alexander Glasgow of Lisnagaver]] as Thomas's father, and Thomas and Daniel are already attached to Alexander on that basis.<ref name=\"FatherTradition\">Peter, \u201cTrying to find Glasgow,\u201d ''Genes Reunited'', [https://www.genesreunited.co.uk/boards/board/general_topics/thread/465937 discussion], descendant account naming Alexander and Rosanna as parents of Thomas Glasgow. This is family testimony rather than a contemporary parent record.</ref> Their proved brotherhood and compatible chronology support Alexander as an uncertain father of Robert and Samuel too. This connects the documented brothers through the existing family hypothesis; it does not make the father relationship certain. Rosanna's maternity is assessed separately and is not established by the sibling deeds.\n",
+          "accounting": "Addition or whitespace-only change; no existing substantive passage removed."
+        },
+        {
+          "opcode": "delete",
+          "current_line_start": 62,
+          "current_line_end": 62,
+          "proposed_line_start": 64,
+          "proposed_line_end": 63,
+          "old_exact": "",
+          "new_exact": "",
+          "accounting": "Addition or whitespace-only change; no existing substantive passage removed."
+        }
+      ],
+      "current_to_reconciled_exact_passage_accounting": [
+        {
+          "opcode": "replace",
+          "current_line_start": 22,
+          "current_line_end": 22,
+          "reconciled_line_start": 22,
+          "reconciled_line_end": 22,
+          "old_exact": "| Mary E. Glasgow || United States || 32 || Married; Samuel's wife by household structure",
+          "new_exact": "| [[Unknown-764031|Mary E. Glasgow]] || United States || 32 || Married; Samuel's wife by household structure",
+          "accounting": "Household names, birthplace, age and uncertainty preserved; checked native profile links added."
+        },
+        {
+          "opcode": "replace",
+          "current_line_start": 24,
+          "current_line_end": 24,
+          "reconciled_line_start": 24,
+          "reconciled_line_end": 24,
+          "old_exact": "| Mary Glasgow || United States || 11 || Probable child",
+          "new_exact": "| [[Glasgow-4016|Mary Glasgow]] || United States || 11 || Probable child",
+          "accounting": "Household names, birthplace, age and uncertainty preserved; checked native profile links added."
+        },
+        {
+          "opcode": "replace",
+          "current_line_start": 28,
+          "current_line_end": 28,
+          "reconciled_line_start": 28,
+          "reconciled_line_end": 28,
+          "old_exact": "| Orena Glasgow || Canada || 7 || Probable child; independently appears aged 17 in a later school list",
+          "new_exact": "| [[Glasgow-4019|Orena Glasgow]] || Canada || 7 || Probable child; independently appears aged 17 in a later school list",
+          "accounting": "Household names, birthplace, age and uncertainty preserved; checked native profile links added."
+        },
+        {
+          "opcode": "replace",
+          "current_line_start": 30,
+          "current_line_end": 30,
+          "reconciled_line_start": 30,
+          "reconciled_line_end": 30,
+          "old_exact": "| James E. Glasgow || Canada || 5 || Probable child; middle initial uncertain",
+          "new_exact": "| [[Glasgow-4017|James E. Glasgow]] || Canada || 5 || Probable child; middle initial uncertain",
+          "accounting": "Household names, birthplace, age and uncertainty preserved; checked native profile links added."
+        },
+        {
+          "opcode": "replace",
+          "current_line_start": 32,
+          "current_line_end": 32,
+          "reconciled_line_start": 32,
+          "reconciled_line_end": 32,
+          "old_exact": "| Samuel Glasgow || Canada || 2 || Probable child",
+          "new_exact": "| [[Glasgow-4021|Samuel Glasgow]] || Canada || 2 || Probable child",
+          "accounting": "Household names, birthplace, age and uncertainty preserved; checked native profile links added."
+        },
+        {
+          "opcode": "replace",
+          "current_line_start": 39,
+          "current_line_end": 39,
+          "reconciled_line_start": 39,
+          "reconciled_line_end": 39,
+          "old_exact": "A descendant's local history says that Samuel had ten children, six of whom survived, and names later sons Thomas Crichton, born 1853, and Henry, born 1857 and dying young.<ref name=\"Grenville\">Grenville County Historical Society, [https://www.grenvillecountyarchives.ca/uploads/1/4/7/7/147712809/jul_aug_2023_the_grenville_sentine__1_.pdf ''The Grenville Sentinel'', July\u2013August 2023], \u201cThe Glasgow House,\u201d pp. 3\u20134.</ref> Those two later births plus the eight people appearing as children in 1851 form a coherent ten-child reconstruction, but original birth, baptism or estate records are still needed to prove each relationship.",
+          "new_exact": "A descendant's local history says that Samuel had ten children, six of whom survived, and names later sons Thomas Crichton, born 1853, and Henry, born 1857 and dying young.<ref name=\"Grenville\">Grenville County Historical Society, [https://www.grenvillecountyarchives.ca/uploads/1/4/7/7/147712809/jul_aug_2023_the_grenville_sentine__1_.pdf ''The Grenville Sentinel'', July\u2013August 2023], \u201cThe Glasgow House,\u201d pp. 3\u20134.</ref> The census contains eight people in all: Samuel, Mary E., and six probable children. Adding the two later sons accounts for eight possible children, leaving two of the reported ten unaccounted for by this evidence combination. Original birth, baptism or estate records are still needed to prove each relationship.",
+          "accounting": "Grenville ten-children/six-survived claim and later-son dates retained; erroneous arithmetic explicitly quoted/corrected in Research Notes using unchanged six-child census table."
+        },
+        {
+          "opcode": "replace",
+          "current_line_start": 44,
+          "current_line_end": 44,
+          "reconciled_line_start": 44,
+          "reconciled_line_end": 44,
+          "old_exact": "Samuel was a brother of Robert Glasgow, the Prescott shipbuilder. Robert's will, dated 9 October 1849, gives one sixth each to his brothers Daniel, Samuel, John and Thomas, his sister Mary, and collectively the children of his brother James; it does not call James deceased.<ref name=\"RobertWill1849\">Grenville County land records, DGS 8200419, image 35, registered will of Robert Glasgow of Prescott, dated 9 October 1849, [https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWY9-S original image].</ref> Memorial 13 records a 30 October 1856 deed, registered 13 November 1856, by which Robert's widow Jane sold Samuel, merchant, property in which he held one undivided sixth share under Robert's will.<ref name=\"RobertWill1856\">Grenville County land records, DGS 8200419, image 36, Memorial 13, dated 30 October 1856 and registered 13 November 1856, [https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWYM-6 original image].</ref> Memorial 465, dated 30 July 1861 and registered 7 October, names Daniel of Kilrea, County Londonderry, watchmaker, and wife Margaret, and Thomas of Lisnagaver, County Antrim, farmer, and wife Mary Ann, in transfers to Samuel of two undivided sixth interests under Robert's will.<ref name=\"RobertWill1861\">Grenville County land records, DGS 8200419, image 240, Memorial 465, registered 7 October 1861, printed p. 397, [https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWB8-D original image].</ref> The deeds establish the stated Daniel, Thomas and Samuel as Robert's brothers by place, trade and wife; they do not identify the siblings' parents.",
+          "new_exact": "Samuel was a brother of [[Glasgow-4150|Robert Glasgow]], the Prescott shipbuilder. Robert's will, dated 9 October 1849, gives one sixth each to his brothers [[Glasgow-3896|Daniel]], Samuel, John and [[Glasgow-987|Thomas]], his sister Mary, and collectively the children of his brother James; it does not call James deceased.<ref name=\"RobertWill1849\">Grenville County land records, DGS 8200419, image 35, registered will of Robert Glasgow of Prescott, dated 9 October 1849, [https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWY9-S original image].</ref> Memorial 13 records a 30 October 1856 deed, registered 13 November 1856, by which Robert's widow Jane sold Samuel, merchant, property in which he held one undivided sixth share under Robert's will.<ref name=\"RobertWill1856\">Grenville County land records, DGS 8200419, image 36, Memorial 13, dated 30 October 1856 and registered 13 November 1856, [https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWYM-6 original image].</ref> Memorial 465, dated 30 July 1861 and registered 7 October, names Daniel of Kilrea, County Londonderry, watchmaker, and wife Margaret, and Thomas of Lisnagaver, County Antrim, farmer, and wife Mary Ann, in transfers to Samuel of two undivided sixth interests under Robert's will.<ref name=\"RobertWill1861\">Grenville County land records, DGS 8200419, image 240, Memorial 465, registered 7 October 1861, printed p. 397, [https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWB8-D original image].</ref> The deeds establish the stated Daniel, Thomas and Samuel as Robert's brothers by place, trade and wife; they do not identify the siblings' parents.",
+          "accounting": "Entire original will/deed evidence retained, including each sibling/share, dates, named wives, places and source qualifications; only verified profile links added."
+        },
+        {
+          "opcode": "replace",
+          "current_line_start": 50,
+          "current_line_end": 50,
+          "reconciled_line_start": 50,
+          "reconciled_line_end": 50,
+          "old_exact": "A later title-chain account calls early Prescott shipbuilder Robert Glasgow Samuel's father, says Robert left his house to six children, and says Samuel bought his siblings' shares.<ref>[https://www.theresataylor.com/wp-content/uploads/2017/06/Auction-all-for-others-Brockville-Recorder.pdf Theresa Taylor, \u201cAuction all for others,\u201d ''Brockville Recorder & Times'', 22 February 2017].</ref> This is credible local-history evidence but not an inspected contemporary kinship record. Do not attach Robert until the underlying deed or estate file is read.",
+          "new_exact": "A later title-chain account calls early Prescott shipbuilder Robert Glasgow Samuel's father, says Robert left his house to six children, and says Samuel bought his siblings' shares.<ref>[https://www.theresataylor.com/wp-content/uploads/2017/06/Auction-all-for-others-Brockville-Recorder.pdf Theresa Taylor, \u201cAuction all for others,\u201d ''Brockville Recorder & Times'', 22 February 2017].</ref> This local-history account is a derivative title-chain narrative; its father\u2013son description is contradicted by the original will and memorials cited above.",
+          "accounting": "All derivative account assertions and distinct citations preserved; father claim and obsolete unread-will request explicitly corrected with prior assessment in Research Notes. Carpenter/fraction uncertainties retained."
+        },
+        {
+          "opcode": "replace",
+          "current_line_start": 52,
+          "current_line_end": 52,
+          "reconciled_line_start": 52,
+          "reconciled_line_end": 52,
+          "old_exact": "The original memorials correct that relationship: Robert was Samuel's brother, not his father. They do not establish that James the carpenter named in later deeds was Robert's brother, and the apparent share fractions require a full reading of Robert's will before a complete inheritance reconstruction is stated.<ref name=\"Recorder\">Theresa Taylor, [https://www.theresataylor.com/wp-content/uploads/2017/06/Auction-all-for-others-Brockville-Recorder.pdf \u201cAuction all for others,\u201d] ''Brockville Recorder & Times'', 22 February 2017.</ref>",
+          "new_exact": "The original memorials correct that relationship: Robert was Samuel's brother, not his father. They do not establish that James the carpenter named in later deeds was Robert's brother, and the apparent share fractions still require a complete title-chain reconstruction even though Robert's will has now been read.<ref name=\"Recorder\">Theresa Taylor, [https://www.theresataylor.com/wp-content/uploads/2017/06/Auction-all-for-others-Brockville-Recorder.pdf \u201cAuction all for others,\u201d] ''Brockville Recorder & Times'', 22 February 2017.</ref>",
+          "accounting": "All derivative account assertions and distinct citations preserved; father claim and obsolete unread-will request explicitly corrected with prior assessment in Research Notes. Carpenter/fraction uncertainties retained."
+        },
+        {
+          "opcode": "replace",
+          "current_line_start": 56,
+          "current_line_end": 56,
+          "reconciled_line_start": 56,
+          "reconciled_line_end": 56,
+          "old_exact": "The local One Tree export and public WikiTree indexing were searched again on 13 August 2026. No profile matches this Irish-born Prescott merchant. [[Glasgow-2908|Samuel Glasgow of Lisnagaver]] remained in Ireland in 1851 and is excluded. Other same-name profiles have incompatible places, ages or families.",
+          "new_exact": "The local One Tree export and public WikiTree indexing were searched again on 13 August 2026 and were then recorded as finding no compatible profile for this Irish-born Prescott merchant. That dated duplicate-search result preceded his identification as this profile. [[Glasgow-2908|Samuel Glasgow of Lisnagaver]] remained in Ireland in 1851 and is excluded. Other same-name profiles have incompatible places, ages or families.",
+          "accounting": "Date, searched collections and earlier no-compatible-profile outcome retained, qualified as historical before identification; all same-name exclusion details retained."
+        },
+        {
+          "opcode": "insert",
+          "current_line_start": 61,
+          "current_line_end": 60,
+          "reconciled_line_start": 61,
+          "reconciled_line_end": 70,
+          "old_exact": "",
+          "new_exact": "=== Household count and earlier relationship assessment ===\n\nThe earlier household reconstruction described \u201ceight people appearing as children in 1851\u201d and counted them with the two later sons as ten children. The cited census has eight household members, of whom six are probable children; that arithmetic is corrected above. The local-history report of ten children, six surviving, is retained as a separate attributed claim, not independently reconciled by the census.\n\nThe 2017 account\u2019s father\u2013son claim was initially treated as credible local-history evidence awaiting a contemporary deed or estate reading. The inspected will and memorials establish Robert as Samuel\u2019s brother. An earlier caution requested a full reading of Robert\u2019s will to explain the share fractions; the will is now read, while the identity of James the carpenter and the complete title chain still need resolution.\n\n=== Working father connection ===\n\nRobert and Samuel belong to the same documented sibling group as [[Glasgow-987|Thomas Glasgow]] and [[Glasgow-3896|Daniel Glasgow]]. A descendant family account names [[Glasgow-3904|Alexander Glasgow of Lisnagaver]] as Thomas's father, and Thomas and Daniel are already attached to Alexander on that basis.<ref name=\"FatherTradition\">Peter, \u201cTrying to find Glasgow,\u201d ''Genes Reunited'', [https://www.genesreunited.co.uk/boards/board/general_topics/thread/465937 discussion], descendant account naming Alexander and Rosanna as parents of Thomas Glasgow. This is family testimony rather than a contemporary parent record.</ref> Their proved brotherhood and compatible chronology support Alexander as an uncertain father of Robert and Samuel too. This connects the documented brothers through the existing family hypothesis; it does not make the father relationship certain. Rosanna's maternity is assessed separately and is not established by the sibling deeds.\n",
+          "accounting": "Addition or whitespace-only change; no existing substantive passage removed."
+        }
+      ]
+    }
+  ]
+}

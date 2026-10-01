@@ -13,6 +13,15 @@ def module():
 
 
 class ReleaseReadinessTests(unittest.TestCase):
+    def test_homepage_count_preserves_the_new_introduction_and_tree_scope(self):
+        helper = module()
+        page = '<section class="reader-intro"><h1>Family history</h1></section><span>The family tree · 123 public profiles</span>'
+        self.assertEqual(page, helper.homepage_count(page, 456))
+        legacy = '<div class="v3-hero-stat"><strong>123</strong> catalogue entries</div>'
+        self.assertIn('<strong>456</strong>', helper.homepage_count(legacy, 456))
+        with self.assertRaises(ValueError):
+            helper.homepage_count('<h1>Unrecognised layout</h1>', 456)
+
     def test_release_data_is_current_and_explicit(self):
         helper = module()
         health, manifest, generated = helper.release_data()

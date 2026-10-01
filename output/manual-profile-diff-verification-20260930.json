@@ -1,0 +1,45 @@
+{
+  "cause": "manual_update renderer bypassed comparison despite different captured and replacement biographies",
+  "affected": {
+    "Glasgow-548": {
+      "rows": 100,
+      "changed": 87,
+      "added": 5,
+      "removed": 0
+    },
+    "Glasgow-567": {
+      "rows": 46,
+      "changed": 31,
+      "added": 3,
+      "removed": 0
+    },
+    "Glasgow-822": {
+      "rows": 51,
+      "changed": 0,
+      "added": 13,
+      "removed": 3
+    }
+  },
+  "tests_passed": 7,
+  "captured_and_draft_text_preserved": true,
+  "live_before_fix": "Browser verified missing diff on https://glasgow.phenotype.dev/people/glasgow-548.html",
+  "desktop": "100 aligned rows; removed/current red rgb(249,231,229), added/replacement green rgb(228,243,232)",
+  "mobile": {
+    "width": 390,
+    "body_width": 375,
+    "comparison_width": 292,
+    "comparison_scroll_width": 680,
+    "arrow_right_scrolled": 40,
+    "side_labels_visible": true
+  },
+  "screenshot": "output/glasgow-548-restored-diff-20260930.png",
+  "production_uploaded": false,
+  "archive": {
+    "path": "/Users/m/wikitree-api-scrape/www/glasgow-site-20260930-214345.tar.gz",
+    "bytes": 143876515,
+    "sha256": "2082e09d21203e83aab9ee217a43093da1916c27d320528879a6d33f7ef35bb2",
+    "gzip_integrity": "passed",
+    "repaired_page_hashes": "passed",
+    "release_checks": "passed"
+  }
+}

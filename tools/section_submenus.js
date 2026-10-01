@@ -57,9 +57,11 @@
     const clean = path => path.replace(/index\.html$/, '').replace(/\/$/, '') || '/';
     const path = clean(location.pathname);
     const roots = [
+      [/^\/latest-findings(\/|$)/, '/latest-findings/'],
+      [/^\/(sources|records|research\/transcriptions)(\/|$)/, '/sources/'],
       [/^\/(research|sources|records|events|free-space|compare|connections|candidate-matches|statistics)(\/|$)/, '/research/'],
       [/^\/(about|resources|coverage|data|changes|feedback|status)(\/|$)/, '/about/'],
-      [/^\/branches(\/|$)/, '/branches/'],
+      [/^\/(branches|places)(\/|$)/, '/branches/'],
       [/^\/(catalogue|people|early-records)(\/|\.|$)/, '/catalogue/'],
       // Timeline is part of the Y-DNA section; Map is part of the Atlas.
       [/^\/(ydna|dna|timeline)(\/|$)/, '/ydna/'],
@@ -74,13 +76,18 @@
       if (link === selected) link.setAttribute('aria-current', 'page');
       else link.removeAttribute('aria-current');
     });
-    // Overview has no sidebar submenu.
+    // Overview and the dated findings index are intentionally single-
+    // destination rails; headings must not become a lone fake submenu.
+    if (path === '/' || root === '/latest-findings/') return;
     // Other sections expose only destinations they themselves own.
-    if (path === '/') return;
     const dna = path === '/ydna';
     const timeline = path === '/timeline';
-    const source = document.querySelector(dna ? '#sidebar .main-nav' : timeline ? '.g-timeline-jumps' : '.v3-view-nav');
-    let submenu = dna ? rail.querySelector('.g-dna-subnav') : null;
+    const source = document.querySelector(dna ? '#sidebar .main-nav' : timeline ? '.g-timeline-jumps'
+      : path === '/onetree' ? '[aria-label="Atlas views"],[aria-label="Family tree views"]' : '.v3-view-nav');
+    // Reuse a first-paint submenu emitted by the shared repair. This keeps
+    // cross-page rails stable while deferred JS reconciles active state.
+    let submenu = dna ? rail.querySelector('.g-dna-subnav')
+      : rail.querySelector(':scope > .g-section-subnav');
     if (!submenu) submenu = document.createElement('div');
     submenu.classList.add('g-section-subnav');
     submenu.setAttribute('role', 'group');
@@ -88,42 +95,75 @@
     const sectionDisclosure = mobileNav?.attach(submenu, selected);
     if (!mobileNav) selected.after(submenu);
     const fallback = [];
+    const dnaGroups = [
+      {label: 'Y-DNA study', links: [
+        ['/ydna/#dna-overview', 'Overview'], ['/ydna/#overview', 'The story'],
+        ['/ydna/#origins', 'Origins & routes'], ['/ydna/#mutation-tree', 'DNA tree'],
+        ['/ydna/#roots', 'People & matches'],
+      ]},
+      {label: 'Compare & research', links: [
+        ['/ydna/#compare', 'Compare tests'], ['/ydna/#str-network', 'STR patterns'],
+        ['/ydna/#snp-splits', 'SNP markers'], ['/ydna/#sapp-model', 'SAPP model'],
+        ['/ydna/#next-steps', 'Priorities'], ['/ydna/#sources', 'Sources'],
+      ]},
+      {label: 'Timeline', href: '/timeline/', links: [
+        ['/timeline/#R-U106', 'Deep ancestry'], ['/timeline/#R-Z17', 'North Sea'],
+        ['/timeline/#R-FT4811', 'Medieval Britain'], ['/timeline/#R-FT25406', 'The Glasgow name'],
+        ['/timeline/#R-FT20271', 'Ulster & beyond'],
+      ]},
+    ];
     function ownedLinks() {
-      const make = (href, text) => {
+      const make = (href, text, title = '') => {
         const link = document.createElement('a');
         link.href = href;
         link.textContent = text;
+        if (title) link.title = title;
         return link;
       };
+      if (root === '/ydna/') return dnaGroups.flatMap(group => group.links.map(([href, text]) => {
+        const link = make(href, text);
+        link.dataset.sectionGroup = group.label;
+        return link;
+      }));
       if (path.startsWith('/branches')) return [
         make('/branches/', 'All families'),
-        make('/branches/#research-studies', 'Research groups'),
+        make('/branches/#research-studies', 'Family studies'),
         make('/branches/scottish-families/', 'Scottish families'),
+        make('/branches/early-ireland/', 'Irish families'),
       ];
       if (root === '/research/') return [
         make('/research/#open-questions', 'Open questions'),
-        make('/research/transcriptions/', 'Transcriptions'),
-        make('/records/', 'Source records'),
-        make('/sources/', 'Source notes'),
-        make('/free-space/', 'Free-space research'),
+        make('/connections/', 'Find a relationship'),
+        make('/compare/', 'Compare two people'),
+        make('/free-space/', 'WikiTree study pages'),
         make('/statistics/', 'Statistics'),
+      ];
+      if (root === '/sources/') return [
+        make('/sources/', 'Source references'),
+        make('/records/', 'Records by person'),
+        make('/research/transcriptions/', 'Wills & transcriptions'),
       ];
       if (root === '/about/') return [
         make('/about/', 'About this project'),
         make('/resources/', 'Resources'),
         make('/coverage/', 'Coverage & method'),
         make('/data/', 'Data & downloads'),
+        make('/changes/', 'Change log'),
+        make('/feedback/', 'Suggest a correction'),
+        make('/status/', 'Catalogue status'),
       ];
       if (root === '/onetree/') return [
-        make('/onetree/#view=all', 'Canopy'),
-        make('/onetree/#view=lanes', 'Timeline of families'),
-        make('/onetree/#view=branches', 'Family branches'),
-        make('/onetree/#view=dna', 'DNA view'),
+        make('/onetree/#view=all', 'Whole tree'),
+        make('/onetree/#view=branches', 'Branch cards'),
+        make('/onetree/#view=lanes', 'Timeline'),
+        make('/onetree/#view=dna', 'Y-DNA'),
         make('/map/', 'Map'),
       ];
       if (/^\/(catalogue|people|early-records)(\/|$)/.test(path)) return [
         make('/catalogue/', 'People search'),
-        make('/catalogue/#catalogue-filters', 'Filters'),
+        make('/catalogue/?missingProfile=1#catalogue-filters', 'No WikiTree link', 'People with no confirmed WikiTree link'),
+        make('/catalogue/?needsUpdate=1#catalogue-filters', 'WikiTree updates', 'People whose WikiTree details need updating'),
+        make('/catalogue/#research-queue', 'Held & pending research'),
         make('/early-records/', 'Early records'),
       ];
       return [];
@@ -132,9 +172,10 @@
     function owns(url) {
       const target = clean(url.pathname);
       if (root === '/catalogue/') return /^\/(catalogue|people|early-records)(\/|$)/.test(target);
-      if (root === '/research/') return /^\/(research|records|sources|free-space|events|statistics)(\/|$)/.test(target);
-      if (root === '/about/') return /^\/(about|resources|coverage|data)(\/|$)/.test(target);
-      if (root === '/branches/') return /^\/branches(\/|$)/.test(target);
+      if (root === '/research/') return /^\/(research|free-space|events|statistics|compare|connections|candidate-matches)(\/|$)/.test(target);
+      if (root === '/sources/') return /^\/(sources|records|research\/transcriptions)(\/|$)/.test(target);
+      if (root === '/about/') return /^\/(about|resources|coverage|data|changes|feedback|status)(\/|$)/.test(target);
+      if (root === '/branches/') return /^\/(branches|places)(\/|$)/.test(target);
       if (root === '/onetree/') return /^\/(onetree|map)$/.test(target);
       if (root === '/ydna/') return /^\/(ydna|timeline)$/.test(target);
       return target === clean(root);
@@ -160,38 +201,67 @@
       sourceLinks = (owned.length ? owned : source ? [...source.querySelectorAll(timeline
         ? '.g-timeline-period-link' : 'a[href]')] : fallback)
         .filter(link => owns(new URL(hrefOf(link), location.href)));
-      if (root === '/ydna/') {
-        const extra = document.createElement('a');
-        extra.href = dna ? '/timeline/' : '/ydna/';
-        extra.textContent = dna ? 'Timeline' : 'Y-DNA story';
-        extra.dataset.sectionExtra = 'true';
-        sourceLinks = dna ? [...sourceLinks, extra] : [extra, ...sourceLinks];
-      }
+      const queryMatches = (url, target) => {
+        if (root === '/onetree/') return true; // View hashes also work with reset/geography parameters.
+        if (root !== '/catalogue/') return url.search === target.search;
+        const required = new URLSearchParams(url.search);
+        const actual = new URLSearchParams(target.search);
+        return [...required].every(([key, value]) => actual.getAll(key).includes(value));
+      };
       const exact = sourceLinks.filter(link => {
         const url = new URL(hrefOf(link), location.href);
         // The Atlas opens on the Canopy when no view is named in the URL.
         const hash = path === '/onetree' && !location.hash ? '#view=all' : location.hash;
-        return clean(url.pathname) === path && (!url.hash || url.hash === hash);
+        return clean(url.pathname) === path && queryMatches(url, location)
+          && (!url.hash || url.hash === hash);
       });
-      const current = exact.find(link => new URL(hrefOf(link), location.href).hash) || exact[0];
+      const current = (root === '/catalogue/' && exact.find(link => new URL(hrefOf(link), location.href).search))
+        || exact.find(link => new URL(hrefOf(link), location.href).hash)
+        || exact[0]
+        || sourceLinks.find(link => {
+          const url = new URL(hrefOf(link), location.href);
+          return clean(url.pathname) === path && !url.search && !url.hash && !location.hash;
+        });
       const rows = sourceLinks.map((link, index) => {
         const url = new URL(hrefOf(link), location.href);
-        const active = link.dataset.sectionExtra ? false : dna || timeline ? link.hasAttribute('aria-current')
+        const localCurrent = (dna || timeline) && source?.querySelector('a[aria-current]');
+        const active = localCurrent ? clean(url.pathname) === path && url.hash === new URL(hrefOf(localCurrent), location.href).hash
           : current ? link === current : link.hasAttribute('aria-current');
-        return {index, href: url.href, text: link.textContent.replace(/\s+/g, ' ').trim(), active};
+        return {index, href: url.href, text: link.textContent.replace(/\s+/g, ' ').trim(), title: link.title,
+          group: link.dataset.sectionGroup, active};
       });
       const next = JSON.stringify(rows);
       if (next === signature) return;
       signature = next;
       const focusIndex = submenu.contains(document.activeElement) ? document.activeElement.dataset.sourceIndex : null;
       const fragment = document.createDocumentFragment();
+      const groups = new Map();
       rows.forEach(row => {
+        let container = fragment;
+        if (row.group) {
+          if (!groups.has(row.group)) {
+            const group = document.createElement('div');
+            group.className = 'g-section-group';
+            group.setAttribute('role', 'group');
+            group.setAttribute('aria-label', row.group);
+            const destination = dnaGroups.find(item => item.label === row.group)?.href;
+            const heading = document.createElement(destination ? 'a' : 'span');
+            heading.className = 'g-section-group-title';
+            heading.textContent = row.group;
+            if (destination) heading.href = destination;
+            group.append(heading);
+            groups.set(row.group, group);
+            fragment.append(group);
+          }
+          container = groups.get(row.group);
+        }
         const link = document.createElement('a');
         link.href = row.href;
         link.textContent = row.text;
+        if (row.title) link.title = row.title;
         link.dataset.sourceIndex = row.index;
         if (row.active) link.setAttribute('aria-current', dna ? 'page' : 'location');
-        fragment.append(link);
+        container.append(link);
       });
       submenu.replaceChildren(fragment);
       submenu.hidden = !rows.length;
@@ -202,12 +272,23 @@
       if (!queued) { queued = true; requestAnimationFrame(render); }
     }
     submenu.addEventListener('click', event => {
-      const link = event.target.closest('a[data-source-index]');
+      const link = event.target.closest('a');
       if (!link || event.button || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
-      if (dna && !sourceLinks[Number(link.dataset.sourceIndex)]?.dataset.sectionExtra) {
+      const url = new URL(link.href);
+      const localLink = dna && source && clean(url.pathname) === path && [...source.querySelectorAll('a[href]')]
+        .find(item => new URL(hrefOf(item), location.href).hash === url.hash);
+      if (localLink) {
         event.preventDefault();
         event.stopPropagation();
-        sourceLinks[Number(link.dataset.sourceIndex)]?.click();
+        localLink.click();
+        schedule();
+      } else if (url.hash && clean(url.pathname) === path && url.search === location.search) {
+        // Keep same-page family-study and catalogue anchors in the current
+        // document. Hash navigation supplies native history/back behaviour.
+        event.preventDefault();
+        event.stopPropagation();
+        if (location.hash !== url.hash) location.hash = url.hash;
+        else document.getElementById(url.hash.slice(1))?.scrollIntoView({block: 'start'});
         schedule();
       }
       if (matchMedia('(max-width:760px)').matches) {
@@ -218,10 +299,11 @@
     });
     if (source) new MutationObserver(schedule).observe(source, {
       subtree: true, childList: true, characterData: true,
-      attributes: true, attributeFilter: ['aria-current', 'class', 'href'],
+      attributes: true, attributeFilter: ['aria-current', 'aria-selected', 'class', 'href'],
     });
     addEventListener('hashchange', schedule);
     addEventListener('popstate', schedule);
+    addEventListener('catalogue:filters-changed', schedule);
     render();
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start, {once: true});

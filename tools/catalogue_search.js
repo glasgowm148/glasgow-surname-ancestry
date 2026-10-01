@@ -28,7 +28,7 @@
   if(legacyGender){const label=legacyGender.closest('label');if(label) label.outerHTML='<div class="catalogue-gender-toggle" aria-label="Gender" role="group"><span>Gender</span><label><input name="catalogue-gender" type="radio" value="male"><span>Male</span></label><label><input name="catalogue-gender" type="radio" value="female"><span>Female</span></label><label><input checked name="catalogue-gender" type="radio" value="both"><span>Both</span></label></div>';genderInputs=[...form.querySelectorAll('input[name="catalogue-gender"]')];}
   const selectedGender=()=>genderInputs.find(input=>input.checked)?.value||'both';
   const controlValue=control=>control?String(control.value||''):'';
-  const textParams={q:'query',name:'name',first:'first',last:'last',sibling:'sibling',child:'child',dateType:'dateType',from:'from',to:'to',spouse:'spouse',father:'father',mother:'mother',locationType:'locationType',location:'location',excludeDeath:'excludeDeath',region:'region',cluster:'cluster',recordType:'recordType',quality:'sourceQuality'};
+  const textParams={q:'query',name:'name',first:'first',last:'last',sibling:'sibling',child:'child',dateType:'dateType',from:'from',to:'to',spouse:'spouse',father:'father',mother:'mother',locationType:'locationType',location:'location',excludeLocation:'excludeDeath',region:'region',cluster:'cluster',recordType:'recordType',quality:'sourceQuality'};
   const flagParams={exact:'exact',missingFather:'missingFather',missingMother:'missingMother',missingProfile:'missingProfile',needsUpdate:'needsUpdate',descendants:'descendants',wives:'wives',glasgowBirth:'glasgowBirth',suffix:'suffix'};
   // Search filters start expanded on desktop and mobile; visitors can collapse them.
   const normaliseLiteral=value=>String(value||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').replace(/\s+/g,' ').trim();
@@ -44,7 +44,7 @@
     const name=String(relation.name||''),birth=name.match(/\(([^)]+)\)/);
     return canonicalMarriageSurname(birth?birth[1]:(name.split(/\s+/).pop()||''));
   };
-  const normaliseDeath=value=>normalise(value).replace(/\bunited states of america\b|\bu s a\b/g,'united states');
+  const normaliseDeath=value=>normalise(value).replace(/\bunited states of america\b|\bu s a\b|\busa\b/g,'united states');
   const relationText=relations=>(relations||[]).map(relation=>relation.name||relation.id||'').join(' ');
   const esc=value=>String(value==null?'':value).replace(/[&<>"]/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[char]));
   const personUrl=person=>new URL(`${encodeURIComponent(person.id)}.html`,scriptUrl||window.location.href).href;
@@ -55,7 +55,7 @@
     let key=relation.certainty||treeFallback[String(relation.data_status||'')]||'unmarked';
     if(!allowed.has(key)) key='unmarked';
     // Canonical wording: tools/evidence_labels.py (explained at /evidence/).
-    const labels={proved:'Documented',strongly_supported:'Strongly supported',probable:'Probable',possible:'Possible',disputed:'Disputed',contradicted:'Contradicted',dna_confirmed:'Tree-marked DNA confirmed',confident:'Tree-marked confident',uncertain:'Uncertain',non_biological:'Tree-marked non-biological',unmarked:'Unassessed tree link'};
+    const labels={proved:'Documented',strongly_supported:'Strongly supported',probable:'Probable',possible:'Possible',disputed:'Disputed',contradicted:'Contradicted',dna_confirmed:'Tree-marked DNA confirmed',confident:'Tree-marked confident',uncertain:'Uncertain',non_biological:'Tree-marked non-biological',unmarked:'Unassessed'};
     return {key,label:labels[key],title:relation.certainty_label||labels[key]};
   };
   const relationHtml=(relations,showConfidence=false)=>{
@@ -65,11 +65,27 @@
       const id=relation.id||'';
       const name=relation.name||id;
       const confidence=relationConfidence(relation);
-      const confidenceHtml=showConfidence?`<small class="catalogue-relation-confidence confidence-${confidence.key}" title="${esc(confidence.title)}"><i aria-hidden="true"></i>${esc(confidence.label)}</small>`:'';
-      if(!id) return `<span class="catalogue-relation">${esc(name)}${confidenceHtml}</span>`;
+      const compact=confidence.key==='confident';
+      const confidenceHtml=showConfidence?`<span class="catalogue-relation-status confidence-${confidence.key}" title="${esc(confidence.title)}" aria-label="${esc(confidence.label)}">${compact?'<span aria-hidden="true">✓</span>':esc(confidence.label)}</span>`:'';
+      const classes=`catalogue-relation${showConfidence?` catalogue-parent confidence-${confidence.key}`:''}`;
+      if(!id) return `<span class="${classes}">${esc(name)} ${confidenceHtml}</span>`;
       const idLabel=normalise(name)!==normalise(id)?`<small>${esc(id)}</small>`:'';
-      return `<span class="catalogue-relation"><a href="https://www.wikitree.com/wiki/${encodeURIComponent(id)}" target="_blank" rel="noopener noreferrer">${esc(name)}</a>${idLabel}${confidenceHtml}</span>`;
+      return `<span class="${classes}"><a href="https://www.wikitree.com/wiki/${encodeURIComponent(id)}" target="_blank" rel="noopener noreferrer">${esc(name)}</a> ${confidenceHtml}${idLabel}</span>`;
     }).join('');
+  };
+  const fieldConfidence=(person,field)=>{
+    const key=person.field_statuses?.[field]||'unmarked';
+    const labels={certain:'Tree-marked certain',uncertain:'Uncertain',estimated:'Estimated',before:'Before this date',after:'After this date',disputed:'Disputed',contradicted:'Contradicted',unmarked:'Unassessed'};
+    return {key:labels[key]?key:'unmarked',label:labels[key]||labels.unmarked};
+  };
+  const fieldAttributes=(person,field)=>{
+    if(!person[field]) return ` data-field="${field}"`;
+    const confidence=fieldConfidence(person,field);
+    return ` data-field="${field}" class="catalogue-status-cell confidence-${confidence.key}" title="${esc(confidence.label)}"`;
+  };
+  const fieldHtml=(person,field)=>{
+    const value=esc(person[field]||'—');
+    return person[field]?`${value}<span class="sr-only"> · ${esc(fieldConfidence(person,field).label)}</span>`:value;
   };
   let people=[];
   let loadPromise;
@@ -81,6 +97,7 @@
   let groupLocations=false;
   let groupFamilies=false;
   let groupOneTree=false;
+  let resultView='table';
   let birthSurnameOnly='',marriageSurnameOnly='';
   let locationGroupSort='geography';
   let familyGroupSort='name:asc';
@@ -105,6 +122,11 @@
   const treePinnedPeople=new Set(Array.isArray(storedTreePins)?storedTreePins:[]);
   let treePathCache={key:'',ids:null};
   let locationLevel='3';
+  let catalogueMapDataPromise;
+  let catalogueMapResizeObserver=null;
+  function disconnectCatalogueMap(){
+    if(catalogueMapResizeObserver){catalogueMapResizeObserver.disconnect();catalogueMapResizeObserver=null;}
+  }
   // Pagination (ungrouped results) and history: committed actions push a
   // history entry; typing only replaces the current one.
   const pageSizes=[25,50,100,250];
@@ -154,9 +176,12 @@
       person._children=normalise(relationText(person.children));
       person._parentIds=[...(person.father||[]),...(person.mother||[])].map(relation=>normaliseLiteral(relation.id)).filter(Boolean);
       person._parentIds.forEach(parentId=>{if(!parentGroups.has(parentId)) parentGroups.set(parentId,[]);parentGroups.get(parentId).push(person);});
-      person._location=normalise([...(person.locations||[]),...(person.location_aliases||[]),...(person.regions||[])].join(' '));
-      person._birthLocation=normalise(person.birth_location);
-      person._deathLocation=normalise(person.death_location);
+      person._recordLocation=normaliseDeath([...(person.locations||[]),...(person.location_aliases||[]),...(person.regions||[])].join(' '));
+      person._birthLocation=normaliseDeath(person.birth_location);
+      person._deathLocation=normaliseDeath(person.death_location);
+      person._marriageLocation=normaliseDeath([...(person.marriage_locations||[]),...(person.spouses||[]).map(spouse=>spouse.marriage_location)].join(' '));
+      person._biography=normaliseDeath(person.biography_text);
+      person._location=[person._recordLocation,person._birthLocation,person._deathLocation,person._marriageLocation,person._biography].join(' ');
       person._regions=normalise((person.regions||[]).join(' '));
       person._clusters=normalise((person.clusters||[]).join(' '));
       person._recordTypes=normalise((person.record_types||[]).join(' '));
@@ -211,7 +236,7 @@
       birthSurname:normalise(birthSurnameOnly),
       spouse:marriageSurnameOnly?'':normalise(controls.spouse.value),marriageSurname:canonicalMarriageSurname(marriageSurnameOnly),father:normalise(controls.father.value),mother:normalise(controls.mother.value),
       dateType:controls.dateType.value,locationType:controls.locationType.value,
-      location:normalise(controls.location.value),region:normalise(controls.region.value),cluster:normalise(controls.cluster.value),
+      location:normaliseDeath(controls.location.value),region:normalise(controls.region.value),cluster:normalise(controls.cluster.value),
       recordType:normalise(controls.recordType.value),sourceQuality:normalise(controls.sourceQuality.value),
       excluded:String(controls.excludeDeath.value||'').split(/[,;]+/).map(normaliseDeath).map(term=>/^(?:us|america)$/.test(term)?'united states':term).filter(Boolean),from,to
     };
@@ -234,13 +259,13 @@
     if(filters.marriageSurname&&(!person._birthLastNames.includes('glasgow')||!person._marriageSurnames.includes(filters.marriageSurname))) return false;
     if(filters.father&&!person._relations.father.includes(filters.father)) return false;
     if(filters.mother&&!person._relations.mother.includes(filters.mother)) return false;
-    const locationText=filters.locationType==='birth'?person._birthLocation:filters.locationType==='death'?person._deathLocation:person._location;
+    const locationText=({birth:person._birthLocation,death:person._deathLocation,marriage:person._marriageLocation,bio:person._biography,record:person._recordLocation})[filters.locationType]??person._location;
     if(filters.location&&!locationText.includes(filters.location)) return false;
     if(filters.region&&!person._regions.includes(filters.region)) return false;
     if(filters.cluster&&!person._clusters.includes(filters.cluster)) return false;
     if(filters.recordType&&!person._recordTypes.includes(filters.recordType)) return false;
     if(filters.sourceQuality&&!person._qualities.includes(filters.sourceQuality)) return false;
-    if(filters.excluded.some(term=>normaliseDeath(person.death_location).includes(term))) return false;
+    if(filters.excluded.some(term=>locationText.includes(term))) return false;
     const dateYears=filters.dateType==='birth'?[person.birth_year]:filters.dateType==='death'?[person.death_year]:(person.date_years||[]);
     if((filters.from!==null||filters.to!==null)&&!dateYears.some(year=>Number.isFinite(year)&&(filters.from===null||year>=filters.from)&&(filters.to===null||year<=filters.to))) return false;
     if(selectedGender()!=='both'&&String(person.gender).toLowerCase()!==selectedGender()) return false;
@@ -357,6 +382,7 @@
     if(groupOneTree&&treeParentPreference!=='strongest') params.set('treeParent',treeParentPreference);
     if(groupOneTree&&treeOverlay!=='none') params.set('treeOverlay',treeOverlay);
     if(groupOneTree&&treeTimeline) params.set('treeTimeline','1');
+    if(resultView==='map') params.set('view','map');
     if(groupOneTree&&expandedTreePeople.size) params.set('treeExpanded',[...expandedTreePeople].slice(0,40).join(','));
     if(groupOneTree&&collapsedTreePeople.size) params.set('treeCollapsed',[...collapsedTreePeople].slice(0,40).join(','));
     if(groupLocations&&locationGroupSort!=='geography') params.set('locationSort',locationGroupSort);
@@ -370,10 +396,13 @@
     if(pendingPush&&next!==`${location.pathname}${location.search}${location.hash}`) history.pushState(null,'',next);
     else history.replaceState(null,'',next);
     pendingPush=false;
+    dispatchEvent(new Event('catalogue:filters-changed'));
   }
   function restoreUrl(){
     const params=new URLSearchParams(location.search);
     Object.entries(textParams).forEach(([param,key])=>{const control=controls[key];if(!control) return;const value=params.get(param);if(value!==null) control.value=value;});
+    // Restore older death-exclusion bookmarks using their original scope.
+    if(params.has('excludeDeath')&&!params.has('excludeLocation')){controls.excludeDeath.value=params.get('excludeDeath');if(!params.has('locationType')) controls.locationType.value='death';}
     if(!controls.name&&params.get('name')&&!params.has('first')&&!params.has('last')) legacyNameFilter=normalise(params.get('name')||'');
     if(!controls.first&&params.get('first')) legacyFirstFilter=normalise(params.get('first')||'');
     if(!controls.last&&params.get('last')) legacyLastFilter=normalise(params.get('last')||'');
@@ -395,6 +424,7 @@
     groupLocations=/^(?:1|true|yes)$/i.test(params.get('groupLocation')||'');
     groupFamilies=groupFamilies||/^(?:1|true|yes)$/i.test(params.get('groupFamily')||'');
     groupOneTree=/^(?:1|true|yes)$/i.test(params.get('groupTree')||'');
+    resultView=params.get('view')==='map'?'map':'table';
     if(groupOneTree){groupLocations=false;groupFamilies=false;}
     else if(groupFamilies) groupLocations=false;
     if(['geography','name:asc','name:desc','count:desc','count:asc'].includes(params.get('locationSort'))) locationGroupSort=params.get('locationSort');
@@ -524,14 +554,17 @@
     const rowClass=groupKind?` class="catalogue-${groupKind}-child"`:'';
     const familyAttributes=familyKey?` data-family-member="${esc(familyKey)}"${collapsed?' hidden':''}`:'';
     const update=person.needs_wikitree_update?`<small class="catalogue-update-badge">Needs WikiTree update · significance ${Number(person.wikitree_update_significance)||0}</small>`:'';
-    return `<tr${rowClass}${familyAttributes}><td><a href="${esc(personUrl(person))}"><strong>${esc(person.name)}</strong></a><small class="catalogue-wikitree-id">${wikiLinks(person)}</small>${update}${locationRepeat(person,currentKey)}</td><td>${esc(person.birth||'—')}</td><td>${esc(person.birth_location||'—')}</td><td>${esc(person.death||'—')}</td><td>${esc(person.death_location||'—')}</td><td class="catalogue-family-cell">${relationHtml(person.spouses)}</td><td class="catalogue-family-cell">${relationHtml(person.father,true)}</td><td class="catalogue-family-cell">${relationHtml(person.mother,true)}</td></tr>`;
+    return `<tr${rowClass}${familyAttributes}><td><a href="${esc(personUrl(person))}"><strong>${esc(person.name)}</strong></a><small class="catalogue-wikitree-id">${wikiLinks(person)}</small>${update}${locationRepeat(person,currentKey)}</td><td${fieldAttributes(person,'birth')}>${fieldHtml(person,'birth')}</td><td${fieldAttributes(person,'birth_location')}>${fieldHtml(person,'birth_location')}</td><td${fieldAttributes(person,'death')}>${fieldHtml(person,'death')}</td><td${fieldAttributes(person,'death_location')}>${fieldHtml(person,'death_location')}</td><td class="catalogue-family-cell${relationshipCellClass(person.spouses)}">${relationHtml(person.spouses,true)}</td><td class="catalogue-family-cell${relationshipCellClass(person.father)}">${relationHtml(person.father,true)}</td><td class="catalogue-family-cell${relationshipCellClass(person.mother)}">${relationHtml(person.mother,true)}</td></tr>`;
+  }
+  function relationshipCellClass(relations){
+    const statuses=[...new Set((relations||[]).map(relation=>relationConfidence(relation).key))];
+    return statuses.length===1?` catalogue-parent-cell confidence-${statuses[0]}`:'';
   }
   function resultCard(person,currentKey='',groupKind='',familyKey='',collapsed=false){
-    const locations=[person.birth_location,person.death_location].filter(Boolean).join(' → ')||'Location not supplied';
     const parents=[...(person.father||[]),...(person.mother||[])];
     const familyAttributes=familyKey?` data-family-member="${esc(familyKey)}"${collapsed?' hidden':''}`:'';
     const update=person.needs_wikitree_update?`<small class="catalogue-update-badge">Needs WikiTree update · significance ${Number(person.wikitree_update_significance)||0}</small>`:'';
-    return `<article class="catalogue-result-card${groupKind?` catalogue-${groupKind}-child`:''}"${familyAttributes}><h3><a href="${esc(personUrl(person))}">${esc(person.name)}</a></h3>${update}<p class="result-vitals">${esc(person.birth||'Birth unknown')} – ${esc(person.death||'Death unknown')}</p>${locationRepeat(person,currentKey)}<dl><dt>Location</dt><dd>${esc(locations)}</dd><dt>Parents</dt><dd>${relationHtml(parents,true)}</dd><dt>Spouse</dt><dd>${relationHtml(person.spouses)}</dd></dl><details><summary>More catalogue details</summary><dl><dt>Recorded in</dt><dd>${esc((person.recorded_in||[]).join(' / ')||'—')}</dd><dt>Cluster</dt><dd>${esc(person.cluster||'—')}</dd><dt>WikiTree</dt><dd>${wikiLinks(person)}</dd><dt>Evidence</dt><dd>${esc((person.source_qualities||[]).join(', ')||'Unclassified')}</dd></dl></details></article>`;
+    return `<article class="catalogue-result-card${groupKind?` catalogue-${groupKind}-child`:''}"${familyAttributes}><h3><a href="${esc(personUrl(person))}">${esc(person.name)}</a></h3>${update}<p class="result-vitals"><span${fieldAttributes(person,'birth')}>${fieldHtml(person,'birth')}</span> – <span${fieldAttributes(person,'death')}>${fieldHtml(person,'death')}</span></p>${locationRepeat(person,currentKey)}<dl><dt>Birth location</dt><dd${fieldAttributes(person,'birth_location')}>${fieldHtml(person,'birth_location')}</dd><dt>Death location</dt><dd${fieldAttributes(person,'death_location')}>${fieldHtml(person,'death_location')}</dd><dt>Parents</dt><dd>${relationHtml(parents,true)}</dd><dt>Spouse</dt><dd>${relationHtml(person.spouses,true)}</dd></dl><details><summary>More catalogue details</summary><dl><dt>Recorded in</dt><dd>${esc((person.recorded_in||[]).join(' / ')||'—')}</dd><dt>Cluster</dt><dd>${esc(person.cluster||'—')}</dd><dt>WikiTree</dt><dd>${wikiLinks(person)}</dd><dt>Evidence</dt><dd>${esc((person.source_qualities||[]).join(', ')||'Unclassified')}</dd></dl></details></article>`;
   }
   function locationBuckets(source){
     const buckets=new Map();
@@ -869,6 +902,71 @@
       downloadTreeFile('glasgow-tree.svg','image/svg+xml;charset=utf-8',`<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="${height}" viewBox="0 0 1400 ${height}"><rect width="100%" height="100%" fill="#07100e"/><text x="20" y="20" fill="#d4af37" font-family="serif" font-size="16">Glasgow family tree</text>${rows}</svg>`);
     }
   }
+  function loadCatalogueMapData(){
+    if(catalogueMapDataPromise) return catalogueMapDataPromise;
+    const base=scriptUrl||window.location.href;
+    const asset=path=>new URL(path,base).href;
+    catalogueMapDataPromise=Promise.all([
+      fetch(asset('../assets/research/map-points.json'),{headers:{Accept:'application/json'}}).then(response=>{if(!response.ok) throw new Error(`Map points returned ${response.status}`);return response.json();}),
+      fetch(asset('../assets/v3/map-country-associations.json'),{headers:{Accept:'application/json'}}).then(response=>response.ok?response.json():[]).catch(()=>[]),
+      fetch(asset('../assets/research/world.json'),{headers:{Accept:'application/json'}}).then(response=>response.ok?response.json():[]).catch(()=>[])
+    ]).then(([points,broad,world])=>({points:[...(Array.isArray(points)?points:[]),...(Array.isArray(broad)?broad.map(point=>({...point,broad:true})):[])],world:Array.isArray(world)?world:[]}));
+    return catalogueMapDataPromise;
+  }
+  async function catalogueMapModel(source,dataOverride=null){
+    const data=dataOverride||await loadCatalogueMapData(),byId=new Map(source.map(person=>[String(person.id),person])),markers=new Map(),mappedPeople=new Set();
+    data.points.forEach(point=>{
+      if(point.lat===null||point.lat===undefined||point.lon===null||point.lon===undefined||String(point.lat).trim()===''||String(point.lon).trim()==='') return;
+      const lat=Number(point.lat),lon=Number(point.lon);
+      if(!Number.isFinite(lat)||!Number.isFinite(lon)||lat<-90||lat>90||lon<-180||lon>180) return;
+      const matches=new Map();
+      (point.items||[]).forEach(item=>{const person=byId.get(String(Array.isArray(item)?item[1]:'') );if(person) matches.set(person.id,person);});
+      if(!matches.size) return;
+      const key=[lat,lon,point.name||'',point.precision||''].join('|');
+      const suppliedPrecision=String(point.precision||'').trim();
+      const precision=point.broad&&!/fallback|approximate|representative|country[- ]?level/i.test(suppliedPrecision)
+        ?`Approximate country-level representative point · ${suppliedPrecision||'country association'}`
+        :(suppliedPrecision||'Supplied representative point');
+      if(!markers.has(key)) markers.set(key,{lat,lon,name:point.name||'Supplied location',precision,people:new Map(),broad:Boolean(point.broad)});
+      const marker=markers.get(key);matches.forEach((person,id)=>{marker.people.set(id,person);mappedPeople.add(id);});
+    });
+    const rows=[...markers.values()].sort((a,b)=>a.name.localeCompare(b.name,undefined,{sensitivity:'base'}));
+    return {world:data.world,markers:rows,mappedPeople,unmapped:source.length-mappedPeople.size,total:source.length};
+  }
+  function catalogueMapMarkup(model){
+    const mapped=model.mappedPeople.size,locations=model.markers.length;
+    const summary=`${mapped.toLocaleString()} of ${model.total.toLocaleString()} filtered people have supplied map points · ${model.unmapped.toLocaleString()} unmapped · ${locations.toLocaleString()} locations`;
+    const rows=model.markers.map((marker,index)=>`<button type="button" class="catalogue-map-location" data-catalogue-map-marker="${index}"><strong>${esc(marker.name)}</strong><small>${marker.people.size.toLocaleString()} filtered ${marker.people.size===1?'person':'people'} · ${esc(marker.precision)}</small></button>`).join('');
+    return `<section class="catalogue-map-view" aria-label="Map of filtered people"><div class="catalogue-map-summary"><strong>${summary}</strong><span>Coordinates and precision are inherited from the maintained research map; no locations are inferred here.</span></div><div class="catalogue-map-layout"><div class="catalogue-map-stage"><canvas class="catalogue-map-canvas" id="catalogue-map-canvas" tabindex="0" role="img" aria-label="Interactive map of supplied locations"></canvas><div class="catalogue-map-tooltip" id="catalogue-map-tooltip" hidden></div><div class="catalogue-map-controls" role="group" aria-label="Map controls"><button type="button" data-catalogue-map-action="zoom-in" aria-label="Zoom in">+</button><button type="button" data-catalogue-map-action="zoom-out" aria-label="Zoom out">−</button><button type="button" data-catalogue-map-action="fit">Fit</button></div><p class="catalogue-map-boot" id="catalogue-map-boot">${locations?'Loading map…':'No supplied coordinates match these filtered people.'}</p></div><aside class="catalogue-map-sidebar" aria-label="Mapped locations"><h3>Locations in this result</h3><p>${locations.toLocaleString()} supplied location${locations===1?'':'s'} · select a marker for filtered profiles.</p><div class="catalogue-map-location-list">${rows||'<p class="notice">No supplied coordinates are available for this filtered set.</p>'}</div></aside></div><div class="catalogue-map-popup" id="catalogue-map-popup" hidden></div></section>`;
+  }
+  function installCatalogueMap(model){
+    const canvas=out.querySelector('#catalogue-map-canvas'),stage=out.querySelector('.catalogue-map-stage'),popup=out.querySelector('#catalogue-map-popup'),tooltip=out.querySelector('#catalogue-map-tooltip');
+    if(!canvas||!stage) return;
+    const ctx=canvas.getContext('2d'),world=model.world||[];let width=900,height=520,dpr=1,pending=false,pointer=null,dragged=false,clusters=[];
+    let camera={x:.5,y:.36,z:1.45};
+    const merc=(lat,lon)=>{const s=Math.sin(Math.max(-85,Math.min(85,lat))*Math.PI/180);return {x:(lon+180)/360,y:.5-Math.log((1+s)/(1-s))/(4*Math.PI)}};
+    const project=point=>{const scale=256*2**camera.z,m=merc(point.lat,point.lon);return {x:width/2+(m.x-camera.x)*scale,y:height/2+(m.y-camera.y)*scale}};
+    const constrain=()=>{camera.z=Math.max(.25,Math.min(12,camera.z));camera.x=Math.max(0,Math.min(1,camera.x));camera.y=Math.max(0,Math.min(1,camera.y));};
+    const queue=()=>{if(pending)return;pending=true;requestAnimationFrame(()=>{pending=false;draw()})};
+    const fit=()=>{if(!model.markers.length){queue();return;}const points=model.markers.map(marker=>merc(marker.lat,marker.lon)),xs=points.map(point=>point.x),ys=points.map(point=>point.y),minX=Math.min(...xs),maxX=Math.max(...xs),minY=Math.min(...ys),maxY=Math.max(...ys);camera.x=(minX+maxX)/2;camera.y=(minY+maxY)/2;camera.z=Math.min(5.8,Math.log2(Math.min((width-80)/(256*Math.max(maxX-minX,.002)),(height-80)/(256*Math.max(maxY-minY,.002)))));constrain();queue()};
+    const drawLand=()=>{const scale=256*2**camera.z;ctx.fillStyle='#e6ecdf';ctx.strokeStyle='#c3d0bf';ctx.lineWidth=.7;for(const polygons of world){if(!Array.isArray(polygons))continue;for(const rings of polygons){if(!Array.isArray(rings))continue;ctx.beginPath();for(const ring of rings||[]){if(!Array.isArray(ring))continue;ring.forEach(([lon,lat],index)=>{const point=merc(lat,lon),x=width/2+(point.x-camera.x)*scale,y=height/2+(point.y-camera.y)*scale;index?ctx.lineTo(x,y):ctx.moveTo(x,y)});}ctx.closePath();ctx.fill('evenodd');ctx.stroke();}}};
+    const precisionIsBroad=marker=>marker.broad||/fallback|approximate|representative|inferred|unproved|holding point/i.test(marker.precision);
+    const draw=()=>{if(!width||!height)return;ctx.setTransform(dpr,0,0,dpr,0,0);ctx.clearRect(0,0,width,height);ctx.fillStyle='#f5f7f1';ctx.fillRect(0,0,width,height);drawLand();const grid=new Map(),cell=camera.z>7?22:34;for(const marker of model.markers){const point=project(marker);if(point.x<-30||point.y<-30||point.x>width+30||point.y>height+30)continue;const key=`${Math.floor(point.x/cell)}:${Math.floor(point.y/cell)}`;let cluster=grid.get(key);if(!cluster){cluster={x:0,y:0,markers:[]};grid.set(key,cluster)}cluster.x+=point.x;cluster.y+=point.y;cluster.markers.push(marker)}clusters=[...grid.values()];for(const cluster of clusters){cluster.x/=cluster.markers.length;cluster.y/=cluster.markers.length;cluster.people=new Set(cluster.markers.flatMap(marker=>[...marker.people.keys()]));cluster.r=Math.min(25,7+Math.log2(cluster.people.size+1)*2.2);const broad=cluster.markers.every(precisionIsBroad);ctx.fillStyle=broad?'#d9b978':'#2b6750';ctx.beginPath();ctx.arc(cluster.x,cluster.y,cluster.r,0,Math.PI*2);ctx.fill();ctx.strokeStyle='#fffdf4';ctx.lineWidth=1.5;ctx.stroke();if(broad){ctx.setLineDash([3,3]);ctx.strokeStyle='#765d32';ctx.stroke();ctx.setLineDash([])}if(cluster.people.size>1){ctx.fillStyle='#fffdf4';ctx.font='600 11px sans-serif';ctx.textAlign='center';ctx.textBaseline='middle';ctx.fillText(cluster.people.size.toLocaleString(),cluster.x,cluster.y)}}};
+    const popupFor=marker=>{if(!marker)return;const people=[...marker.people.values()].sort((a,b)=>a.name.localeCompare(b.name,undefined,{sensitivity:'base'}));popup.innerHTML=`<button type="button" class="catalogue-map-popup-close" aria-label="Close location">×</button><h3>${esc(marker.name)}</h3><p class="catalogue-map-precision">${esc(marker.precision)}</p><p class="catalogue-map-coordinate">Supplied representative point: ${marker.lat.toFixed(4)}, ${marker.lon.toFixed(4)}</p><ul>${people.map(person=>`<li><a href="${esc(personUrl(person))}">${esc(person.name)}</a>${person.birth||person.death?` <small>${esc(person.birth||'')} ${person.death?`– ${esc(person.death)}`:''}</small>`:''}</li>`).join('')}</ul>`;popup.hidden=false;popup.querySelector('.catalogue-map-popup-close').onclick=()=>{popup.hidden=true};};
+    const choose=cluster=>{if(!cluster)return;if(cluster.markers.length>1){const points=cluster.markers.map(marker=>merc(marker.lat,marker.lon));const xs=points.map(point=>point.x),ys=points.map(point=>point.y);camera.x=(Math.min(...xs)+Math.max(...xs))/2;camera.y=(Math.min(...ys)+Math.max(...ys))/2;camera.z=Math.min(10,camera.z+.8);constrain();queue();return;}popupFor(cluster.markers[0]);};
+    const resize=()=>{const box=canvas.getBoundingClientRect();width=Math.max(280,box.width);height=Math.max(320,box.height);dpr=Math.min(devicePixelRatio||1,2);canvas.width=width*dpr;canvas.height=height*dpr;queue()};
+    const showTooltip=(event)=>{const rect=canvas.getBoundingClientRect(),x=event.clientX-rect.left,y=event.clientY-rect.top,cluster=clusters.find(item=>Math.hypot(item.x-x,item.y-y)<item.r+7);tooltip.hidden=!cluster;if(cluster){tooltip.textContent=`${cluster.people.size.toLocaleString()} filtered ${cluster.people.size===1?'person':'people'} · ${cluster.markers.length.toLocaleString()} supplied location${cluster.markers.length===1?'':'s'}`;tooltip.style.left=`${Math.min(width-240,Math.max(8,x+12))}px`;tooltip.style.top=`${Math.max(8,y-34)}px`;canvas.style.cursor='pointer'}else canvas.style.cursor='grab'};
+    canvas.addEventListener('wheel',event=>{event.preventDefault();camera.z+=event.deltaY<0?.35:-.35;constrain();queue()},{passive:false});
+    canvas.addEventListener('pointerdown',event=>{canvas.setPointerCapture(event.pointerId);pointer={x:event.clientX,y:event.clientY,cx:camera.x,cy:camera.y};dragged=false;tooltip.hidden=true});
+    canvas.addEventListener('pointermove',event=>{if(pointer){const dx=event.clientX-pointer.x,dy=event.clientY-pointer.y;if(Math.abs(dx)+Math.abs(dy)>4)dragged=true;const scale=256*2**camera.z;camera.x=pointer.cx-dx/scale;camera.y=pointer.cy-dy/scale;constrain();queue();return}showTooltip(event)});
+    canvas.addEventListener('pointerup',event=>{const moved=dragged;pointer=null;if(moved)return;const rect=canvas.getBoundingClientRect(),x=event.clientX-rect.left,y=event.clientY-rect.top;choose(clusters.find(item=>Math.hypot(item.x-x,item.y-y)<item.r+7))});
+    canvas.addEventListener('pointerleave',()=>{tooltip.hidden=true});
+    canvas.addEventListener('keydown',event=>{if(['+','=','-','ArrowLeft','ArrowRight','ArrowUp','ArrowDown','Home'].includes(event.key))event.preventDefault();if(event.key==='+'||event.key==='=')camera.z+=.5;if(event.key==='-')camera.z-=.5;if(event.key==='Home')fit();const scale=256*2**camera.z;if(event.key==='ArrowLeft')camera.x-=70/scale;if(event.key==='ArrowRight')camera.x+=70/scale;if(event.key==='ArrowUp')camera.y-=70/scale;if(event.key==='ArrowDown')camera.y+=70/scale;constrain();queue()});
+    out.querySelectorAll('[data-catalogue-map-action]').forEach(button=>button.addEventListener('click',()=>{const action=button.dataset.catalogueMapAction;if(action==='zoom-in')camera.z+=.7;if(action==='zoom-out')camera.z-=.7;if(action==='fit')fit();constrain();queue()}));
+    out.querySelectorAll('[data-catalogue-map-marker]').forEach(button=>button.addEventListener('click',()=>popupFor(model.markers[Number(button.dataset.catalogueMapMarker)])));
+    disconnectCatalogueMap();
+    catalogueMapResizeObserver=new ResizeObserver(resize);catalogueMapResizeObserver.observe(stage);resize();fit();out.querySelector('#catalogue-map-boot').hidden=true;
+  }
   function paginationHtml(total,start,count,pageCount){
     const pages=[];
     const add=number=>pages.push(number);
@@ -885,6 +983,7 @@
   }
   async function render(options={}){
     const current=++renderNumber;
+    disconnectCatalogueMap();
     updateClear();
     // With no filters the whole catalogue is browsable, A–Z by default.
     const browsing=!hasActiveFilter();
@@ -915,15 +1014,21 @@
     }
     const pathIds=groupOneTree&&treePathMode?await connectedTreePathIds(shown,source,filters):null;
     if(current!==renderNumber) return;
+    let mapModel=null;
+    if(resultView==='map'){
+      try{mapModel=await catalogueMapModel(found);}catch(error){out.innerHTML=`<p class="notice"><strong>The catalogue map could not load.</strong><br>${esc(error.message)}. Return to the table to keep browsing the filtered people.</p>`;return;}
+      if(current!==renderNumber) return;
+    }
     const grouped=groupLocations?groupedResults(shown):(groupFamilies?groupedFamilyResults(shown):(groupOneTree?oneTreeResults(shown,source,filters,pathIds):null));
     const rows=grouped?grouped.rows:shown.map(person=>resultRow(person)).join('');
     const cards=grouped?grouped.cards:shown.map(person=>resultCard(person)).join('');
     const groupSortLabel=groupLocations?'Sort locations':'Sort branches';
     const groupSortChoices=groupLocations?locationSortOptions():familySortOptions();
-    const resultViews=groupOneTree?grouped.tree:`<div class="table-wrap catalogue-result-table-wrap"><table class="catalogue-results-table"><thead><tr>${sortHeader('name','Individual')}${sortHeader('birth','Birth')}${sortHeader('birthLocation','Birth location')}${sortHeader('death','Death')}${sortHeader('deathLocation','Death location')}${sortHeader('spouse','Spouse(s)')}${sortHeader('father','Father')}${sortHeader('mother','Mother')}</tr></thead><tbody>${rows}</tbody></table></div><div class="catalogue-result-cards">${cards}</div>`;
+    const resultViews=resultView==='map'?catalogueMapMarkup(mapModel):(groupOneTree?grouped.tree:`<div class="table-wrap catalogue-result-table-wrap"><table class="catalogue-results-table"><thead><tr>${sortHeader('name','Individual')}${sortHeader('birth','Birth')}${sortHeader('birthLocation','Birth location')}${sortHeader('death','Death')}${sortHeader('deathLocation','Death location')}${sortHeader('spouse','Spouse(s)')}${sortHeader('father','Father')}${sortHeader('mother','Mother')}</tr></thead><tbody>${rows}</tbody></table></div><div class="catalogue-result-cards">${cards}</div>`);
     const treeContextControls=groupOneTree?`<div class="catalogue-tree-context-controls"><label>Ancestors <select id="catalogue-tree-ancestors"${treePathMode?' disabled':''}>${treeDepthOptions(treeAncestorDepth)}</select></label><label>Descendants <select id="catalogue-tree-descendants"${treePathMode?' disabled':''}>${treeDepthOptions(treeDescendantDepth)}</select></label><label>Evidence <select id="catalogue-tree-evidence">${treeEvidenceOptions()}</select></label><details class="catalogue-tree-display-options"><summary>Display options</summary><div><label>Primary parent <select id="catalogue-tree-parent"><option value="strongest"${treeParentPreference==='strongest'?' selected':''}>Strongest evidence</option><option value="father"${treeParentPreference==='father'?' selected':''}>Father first</option><option value="mother"${treeParentPreference==='mother'?' selected':''}>Mother first</option></select></label><label>Research overlay <select id="catalogue-tree-overlay"><option value="none"${treeOverlay==='none'?' selected':''}>None</option><option value="sourced"${treeOverlay==='sourced'?' selected':''}>Sourced</option><option value="unsourced"${treeOverlay==='unsourced'?' selected':''}>No original source</option><option value="questions"${treeOverlay==='questions'?' selected':''}>Open questions</option><option value="missing-parent"${treeOverlay==='missing-parent'?' selected':''}>Missing parents</option><option value="uncertain"${treeOverlay==='uncertain'?' selected':''}>Uncertain identity</option><option value="update"${treeOverlay==='update'?' selected':''}>WikiTree update</option></select></label><label class="catalogue-group-toggle"><input id="catalogue-tree-paths" type="checkbox"${treePathMode?' checked':''}> Connecting paths</label><label class="catalogue-group-toggle"><input id="catalogue-tree-timeline" type="checkbox"${treeTimeline?' checked':''}> Timeline</label></div></details></div>`:'';
-    const pagination=groupedMode?'':paginationHtml(found.length,start,shown.length,pageCount);
-    out.innerHTML=`<div class="catalogue-result-toolbar"><strong>${browsing?`All ${found.length.toLocaleString()} people`:`${found.length.toLocaleString()} result${found.length===1?'':'s'}`}</strong><div class="catalogue-result-options"><div class="catalogue-group-controls" role="group" aria-label="Group results"><span>Group</span><label class="catalogue-group-toggle"><input id="catalogue-group-locations" type="checkbox"${groupLocations?' checked':''}> Location</label><label class="catalogue-group-toggle"><input id="catalogue-group-families" type="checkbox"${groupFamilies?' checked':''}> Family branch</label><label class="catalogue-group-toggle"><input id="catalogue-group-tree" type="checkbox"${groupOneTree?' checked':''}> One tree</label></div>${treeContextControls}<label${groupLocations?'':' hidden'}>Location detail <select id="catalogue-location-level"${groupLocations?'':' disabled'}><option value="1"${locationLevel==='1'?' selected':''}>Country</option><option value="2"${locationLevel==='2'?' selected':''}>County / area</option><option value="3"${locationLevel==='3'?' selected':''}>Townland / locality</option></select></label><label${groupedMode&&!groupOneTree?'':' hidden'}>${groupSortLabel} <select id="catalogue-group-sort"${groupedMode&&!groupOneTree?'':' disabled'}>${groupSortChoices}</select></label><label>${groupOneTree?'Sort each generation':groupedMode?'Sort within groups':'Sort results'} <select id="catalogue-result-sort">${sortOptions()}</select></label></div></div>${resultViews}${pagination}`;
+    const pagination=resultView==='map'||groupedMode?'':paginationHtml(found.length,start,shown.length,pageCount);
+    out.innerHTML=`<div class="catalogue-result-toolbar"><strong>${browsing?`All ${found.length.toLocaleString()} people`:`${found.length.toLocaleString()} result${found.length===1?'':'s'}`}</strong><div class="catalogue-result-view-tabs" role="tablist" aria-label="Catalogue result view"><button type="button" data-catalogue-view="table" role="tab" aria-selected="${resultView==='table'}">Table</button><button type="button" data-catalogue-view="map" role="tab" aria-selected="${resultView==='map'}">Map</button></div><div class="catalogue-result-options"><div class="catalogue-group-controls" role="group" aria-label="Group results"><span>Group</span><label class="catalogue-group-toggle"><input id="catalogue-group-locations" type="checkbox"${groupLocations?' checked':''}> Location</label><label class="catalogue-group-toggle"><input id="catalogue-group-families" type="checkbox"${groupFamilies?' checked':''}> Family branch</label><label class="catalogue-group-toggle"><input id="catalogue-group-tree" type="checkbox"${groupOneTree?' checked':''}> One tree</label></div>${treeContextControls}<label${groupLocations?'':' hidden'}>Location detail <select id="catalogue-location-level"${groupLocations?'':' disabled'}><option value="1"${locationLevel==='1'?' selected':''}>Country</option><option value="2"${locationLevel==='2'?' selected':''}>County / area</option><option value="3"${locationLevel==='3'?' selected':''}>Townland / locality</option></select></label><label${groupedMode&&!groupOneTree?'':' hidden'}>${groupSortLabel} <select id="catalogue-group-sort"${groupedMode&&!groupOneTree?'':' disabled'}>${groupSortChoices}</select></label><label>${groupOneTree?'Sort each generation':groupedMode?'Sort within groups':'Sort results'} <select id="catalogue-result-sort">${sortOptions()}</select></label></div></div>${resultViews}${pagination}`;
+    if(resultView==='map') installCatalogueMap(mapModel);
     if(restoreResultsAnchor){restoreResultsAnchor=false;requestAnimationFrame(()=>out.scrollIntoView({block:'start'}));}
     if(options.scroll&&window.matchMedia('(max-width: 800px)').matches){
       if(advanced) advanced.open=false;
@@ -997,6 +1102,12 @@
     render();
   });
   out.addEventListener('click',event=>{
+    const viewButton=event.target.closest('button[data-catalogue-view]');
+    if(viewButton){
+      const nextView=viewButton.dataset.catalogueView==='map'?'map':'table';
+      if(resultView!==nextView){resultView=nextView;pendingPush=true;page=1;render({scroll:true});}
+      return;
+    }
     const treeToggle=event.target.closest('button[data-tree-toggle]');
     if(treeToggle){
       const item=treeToggle.closest('[data-tree-person]'),personId=item&&item.dataset.treePerson;
@@ -1211,12 +1322,12 @@
       add('dates','dates',`${scope}: ${range}`,()=>{controls.from.value='';controls.to.value='';controls.dateType.value='';});
     }
     if(text(controls.location)){
-      const scope=controls.locationType.value==='birth'?'Birth location':controls.locationType.value==='death'?'Death location':'Location';
-      add('location','places',`${scope}: ${text(controls.location)}`,()=>{controls.location.value='';controls.locationType.value='';});
+      const scope=({birth:'Birth location',death:'Death location',marriage:'Marriage location',bio:'Bio',record:'Record location'})[controls.locationType.value]||'Any location';
+      add('location','places',`${scope}: ${text(controls.location)}`,()=>{controls.location.value='';if(!controlValue(controls.excludeDeath).trim()) controls.locationType.value='';});
     }
     if(text(controls.region)) add('region','places',`Country or region: ${optionText(controls.region)}`,resetControls('region'));
-    if(text(controls.excludeDeath)) add('excludeDeath','places',`Death location excludes: ${text(controls.excludeDeath)}`,resetControls('excludeDeath'));
-    if(text(controls.cluster)) add('cluster','evidence',`Research cluster: ${optionText(controls.cluster)}`,resetControls('cluster'));
+    if(text(controls.excludeDeath)) add('excludeDeath','places',`Exclude location: ${text(controls.excludeDeath)}`,resetControls('excludeDeath'));
+    if(text(controls.cluster)) add('cluster','evidence',`Family or research group: ${optionText(controls.cluster)}`,resetControls('cluster'));
     if(text(controls.recordType)) add('recordType','evidence',`Record type: ${optionText(controls.recordType)}`,resetControls('recordType'));
     if(text(controls.sourceQuality)) add('sourceQuality','evidence',`Source quality: ${optionText(controls.sourceQuality)}`,resetControls('sourceQuality'));
     flagChips.forEach(([key,panelKey,label])=>{if(controls[key]&&controls[key].checked) add(key,panelKey,label,resetControls(key));});

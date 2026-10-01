@@ -210,14 +210,14 @@
   },
   {
     "id": "father-john-lisnagaver-branch",
-    "candidate": "John Glasgow, farmer: father of John-867 and Samuel-2908, and on the 1892 next-of-kin reading of Alexander too",
+    "candidate": "John Glasgow, farmer: recorded father of John-867 and probable father of Alexander-951",
     "person_ids": [
       "Glasgow-4090"
     ],
     "state": "working",
-    "assessment": "John Glasgow, farmer, is the leading conditional father hypothesis. John-867's 1846 marriage names that father; the probable Nancy/John/Alexander sibling network would extend him to Alexander only if the men shared a father. No record directly names Alexander's father, and the Desertoghill flax-grower identity is unproved.",
+    "assessment": "John Glasgow, farmer, remains Alexander’s probable father after the 29 September independent tests. John-867’s 1846 marriage names him; Nancy’s reconstructed sibling group and recorded Glasgow birth surnames favour common fatherhood. Alexander’s own father is not directly named. A mother marrying two Glasgow men remains an unsupported alternative, and the Desertoghill identity is a separate unproved step.",
     "supports": "The 1846 marriage names John-867's father John, farmer. The 1851 census documents John and Samuel as brothers. Nancy's inspected 1892 notice and her explicit niece/nephew terms in the will, compared with Irish household records, support the probable sibling network. Lizzie and the Ballydonnelly residence remain identity checks.",
-    "objections": "The notice does not establish full siblinghood, common fatherhood or completeness. Elizabeth Anderson is identified through separate records, not named as a mother in the notice. Neither the named father's identity with Glasgow-4090 nor a Larne joining generation is proved.",
+    "objections": "The citation does not prove full rather than half blood or exhaust all relatives. Lizzie and Ballydonnelly remain identity checks. Glasgow-4090 represents the record-defined father; identification with the 1796 Desertoghill occupier and the Larne joining generation is unproved.",
     "source_links": [
       {
         "href": "https://www.nyshistoricnewspapers.org/?a=d&d=plts18920226-01.1.6",
@@ -242,8 +242,8 @@
     "score_note": "The father is a record-named man represented by the placeholder Glasgow-4090; the chain is citation structure plus John-867’s marriage return.",
     "research_tier": "primary local explanation",
     "father_profile_id": "Glasgow-4090",
-    "verdict_label": "Leading conditional hypothesis; not proved",
-    "assessment_date": "2026-09-21"
+    "verdict_label": "Probable father; not directly proved",
+    "assessment_date": "2026-09-29"
   },
   {
     "id": "glenleslie-john-1022",
@@ -253,13 +253,13 @@
       "Glasgow-1022"
     ],
     "state": "weak",
-    "assessment": "Specific identity hypothesis for a father John; neither his identity with the marriage father nor Alexander's descent is proved.",
+    "assessment": "Disfavoured as father of Nancy’s entire reconstructed sibling group: the Glenleslie household’s daughter Nancy died in 1847 aged 36 and cannot be Plattsburgh Nancy. Assigning both to him requires an unexplained namesake daughter or a revised sibling reconstruction. This does not exclude every paternal half-sibling or collateral connection.",
     "supports": [
       "The nearby father-John branch provides a concrete name to test.",
       "Maintained research has investigated this profile and the proposed Mary/Maryan family connection."
     ],
     "objections": [
-      "Reported age and household chronology create problems.",
+      "The documented Glenleslie Nancy died in 1847; Plattsburgh Nancy lived until 1891. John-867’s corrected 1885 death supersedes the old 1895-based age objection.",
       "Mary aged 28 in 1871 conflicts with granddaughter Maryan aged 17 in 1851, so that proposed bridge remains unproved.",
       "No record names Alexander as John's son."
     ],
@@ -271,11 +271,16 @@
       {
         "href": "https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1871/11341/8162804.pdf",
         "label": "Mary Glasgow–Robert Elder marriage, 1871; age conflict in proposed bridge"
+      },
+      {
+        "href": "https://durrushistory.com/wp-content/uploads/2012/10/1851irishcensusreturnscommadelimitedtextfilejul24_072.pdf",
+        "label": "1851 census derived transcript: Glenleslie house 21, daughter Nancy died 1847 aged 36"
       }
     ],
-    "source_path": "research/Glasgow-951/Glasgow-951.md",
+    "source_path": "research/Glasgow-951/findings.md",
     "score_profile_id": "Glasgow-1022",
-    "research_tier": "secondary comparison"
+    "research_tier": "secondary comparison",
+    "assessment_date": "2026-09-29"
   },
   {
     "id": "john-mary-arthur",

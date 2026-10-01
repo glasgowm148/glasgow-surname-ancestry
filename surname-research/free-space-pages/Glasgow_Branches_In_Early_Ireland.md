@@ -388,6 +388,29 @@ Under its heading for 19 July 1779, a newspaper extract reported the marriage of
 
 Three live profiles remain possible, but none can safely absorb the records. [[Glasco-143|Thomas Glasco]] has a weakly sourced estimated birth and reported 1785 marriage to Mary King; [[Glasco-144|Thomas Glasco]] is documented marrying Margaret Duffy in 1773, but no death or burial bridges him to Miss Hynes; and [[Glasco-173|Thomas Glasco]] is documented with wife Catherine as Sarah's father in 1760, but no trade or address connects him to the watchmaker. The attached Glasco-173 → Glasco-144 → Glasco-143 chain is not established by those records. Preserve the 1779–1783 watchmaker as a documentary cluster rather than inventing serial marriages or creating a fourth Thomas profile.
 
+== Rathmalton: a newly documented father and son ==
+
+Betham's genealogical abstract of the will of [[Glasgow-1101|Archibald Glasgow
+of Rathmalton, County Donegal, clerk]], dated April 1673, explicitly names
+'''Thomas Glasgow as eldest son and Margaret as only daughter'''. It also names
+wife Elizabeth, surname provisionally read as M'Auley.<ref>National Library
+of Ireland, GO MS 225, William Betham's genealogical abstracts of Prerogative
+wills, Old Series vol. 3 (1808), p. 90, digital image 97, microfilm POS 1219;
+[https://catalogue.nli.ie/Record/vtls000540633 catalogue and digitised
+manuscript], inspected 30 September 2026. This is a pre-destruction abstract,
+not the complete will. April 1673 is the will date, distinct from the 1677
+probate-index year.</ref>
+
+The exact Irish residence and clerical designation identify Archibald
+confidently. Identifying the named son with [[Glasgow-3556|Thomas of
+Lifford/Raphoe]] is strongly probable, but the abstract supplies no residence,
+age, wife or estate for that son. The attached father field remains uncertain
+pending a distinguishing connection. The newly read PRONI D1939/21/3 estate
+paper identifies Thomas as purchaser of a Lifford interest from Hugh Hamill;
+it does not name his father or establish inherited Ramelton property. Neither
+Archibald's Scottish parentage nor Thomas's proposed fatherhood of Nathaniel
+is established by the new evidence.
+
 == 🧾 Seventeenth-Century Profile Index Cautions ==
 
 The profiles currently indexed to seventeenth-century Ireland do not represent seven proved Irish founder lines.

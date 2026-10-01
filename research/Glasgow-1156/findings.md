@@ -4,13 +4,21 @@
 
 WikiTree parent-status audit, 27 September 2026: the attached mother Isobell Newlands (Newlands-647) is now marked uncertain. No direct parentage record has been found for Robert.
 
-Robert, buried at Duddingston on 17 January 1647, is not presently identified
-as the Robert whom [[Glasgow-3163|Andrew Glasgow of [Corsoun?]]]'s 1597/8
-testament explicitly calls his son by Elizat Stevinsoun. Chronology and Lothian
-geography fit, but the burial supplies no parent, age or Corsoun association,
-and no record connects the Duddingston man to Andrew, Elizat or Andrew's land.
-He is excluded as the current profile match; a distinct creation draft now
-represents Andrew's son. Later succession evidence could still justify a merge.
+**30 September 2026 — identity review:** Robert, buried at Duddingston on
+17 January 1647, remains a compatible later identity for
+[[Glasgow-4006|Robert Glasgow]], the son whom
+[[Glasgow-3163|Andrew Glasgow of [Corsoun?]]]'s 1597/8 testament expressly
+names by Elizat Stevinsoun. Glasgow-4006's current public biography already
+represents that record-defined son; its former Andrew reading and the separate
+creation proposal are superseded.
+
+Chronology and Lothian geography fit. The burial supplies no parent, age or
+Corsoun association, so the identification is still unproved, but no concrete
+conflicting parentage or lifespan has been found. The earlier exclusion relied
+on the missing estate or family bridge and is withdrawn: missing corroboration
+is not evidence that these were different men. Keep the existing profiles and
+attachments intact while assessing the later-life identity; this review makes
+no merge, parent change or live WikiTree edit.
 
 Robert is also the leading candidate for the father of [[Glasgow-1150|James
 Glasgow]], whose 1641 Edinburgh apprenticeship calls his father Robert a
@@ -31,7 +39,7 @@ re-parenting or duplicate action.
 | --- | --- | --- |
 | Duddingston OPR death/burial, parish 684, ref. 60/47 | Robert Glasgow was buried 17 January 1647. | Direct event evidence; no age or relationship in the indexed citation. |
 | Francis J. Grant, ed., *Register of Apprentices of the City of Edinburgh, 1583–1666*, [p. 71](https://archive.org/details/scottishrecordso28scotuoft/page/71/mode/2up) | On 16 June 1641 James Glasgow, son of Robert Glasgow, servant to William Crichtoun in Wester Duddingston, was apprenticed to William Sclaitter, weaver. | Direct father name and locality for James; strong but not unique match to Glasgow-1156. |
-| NRS CC8/8/32, images 123–124 | `Robart Glasgw his sone begottin be him vpoun the said Elizat his wyff`; Elizat was to retain Andrew's land until Robert came of age. | Direct proof of Andrew and Elizat's record-defined son Robert; no identifying link to Glasgow-1156. |
+| NRS CC8/8/32, images 123–124 | `Robart Glasgw his sone begottin be him vpoun the said Elizat his wyff`; Elizat was to retain Andrew's land until Robert came of age. | Direct proof of Andrew and Elizat's record-defined son on Glasgow-4006; Glasgow-1156 remains a compatible later identity, not yet proved. |
 
 ## Candidate exclusions and cautions
 
@@ -53,8 +61,8 @@ re-parenting or duplicate action.
 
 Inspect NRS GD150/696–757, GD150/2027–2060 and GD150/320–493 for Andrew's land
 and an occupier succession to Robert. A later tack, rental or discharge linking
-Andrew's son to Duddingston could justify merging the new documentary profile
-into Glasgow-1156.
+Andrew's son to Duddingston could strengthen identification of Glasgow-4006 with Glasgow-1156 before any
+separately reviewed merge.
 
 ## WikiTree handoff
 

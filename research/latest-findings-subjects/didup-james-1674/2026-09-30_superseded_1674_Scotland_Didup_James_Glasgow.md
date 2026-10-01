@@ -1,0 +1,29 @@
+# Superseded research draft — 30 September 2026
+
+The same 11 June 1674 inquest occurrence is consolidated in the maintained Didup subject handoff. Its linked candidates include Glasgow-3105, whose 1670 birth is only an unsupported estimate; no separate person is established.
+
+Maintained account: [James Glasgow in Didup](https://glasgow.phenotype.dev/research/subjects/didup-james-1674/#james-glasgow). The original draft below is preserved as dated research history, not an active creation instruction. No live WikiTree edit was made by this retirement.
+
+---
+
+# HOLD — James Glasgow in Didup, named 1674
+
+- **Status:** HOLD — the dated occurrence is verified, but the record does not identify this man among several plausible existing James Glasgow profiles. Keep the occurrence separate from any profile until a distinguishing link is found.
+- **Documented person:** James Glasgow, described as “in Didup.” He appears in the inquest list for Robert Hunter of Hunterston's General Service as heir to Henry Hunter. The printed extract does not state an age, kinship, vital date or occupation for James.
+- **Record date:** 11 June 1674, date of the retour/service entry. It is not a birth, death or necessarily residence-start date for James.
+- **Record:** FamilySearch, *Linlithgow. Legal Records 1546–1564* (collection title does not describe the scanned item), item `#007764588`, Item 2, image 105/120; [FamilySearch image and transcript](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM7-J962-6?view=fullText&keywords=Glasgow&searchForm=advanced&lang=en&groupId=M9QY-96Q). The scan is M. S. Shaw, ed., *Some Family Papers of the Hunters of Hunterston* (Edinburgh: Scottish Record Society, 1925), printed p. 62, entry 89. The Scottish Record Society's catalogue identifies this as Old Series no. 58, edited by M. S. Shaw and published in 1925: [publication record](https://www.scottishrecordsociety.org.uk/publications/old-series/). A [digitized transcription](https://www.seekingmyroots.com/members/files/G003230.pdf) also reproduces the entry.
+- **Printed entry:** Entry 89, “Service as heir to Mr. Henry Hunter,” describes an extract retour of General Service of Robert Hunter of Hunterstoun as heir of Henry Hunter, dated at Irvine, 11 June 1674. The inquest list includes “James Glasgow in Didup.” The source gives the name, locality and association with the inquest, not more.
+- **Locality:** The recorded place is Didup. A later county directory associates Didup with Stevenston, Ayrshire; retain that as locality context, not as proof of a modern property boundary or of James's birth/death place.
+- **Database check:** No exact `James Glasgow + Didup + 1674` row was found in the curated record catalogue. A bounded profile audit found no proved match. Chronologically possible candidates include [[Glasgow-3971|James Glasgow, born 1645 at Glasgow]], [[Glasgow-3969|James Glasgow, married in Beith in 1691]], [[Glasgow-3107|James Glasgow in the 1663 Polwarth marriage index]], [[Glasgow-3172|Captain James Glasgow, active at Belfast by 1667]], and [[Glasgow-1496|James Glasgow, estimated born about 1650 in Campbeltown]]. None has a Didup/Stevenston link. Glasgow-3105's estimated 1670 birth is too late for an adult on a 1674 inquest; Glasgow-3104 (baptized 1689) and Glasgow-1932 (baptized 1707) are too young. Glasgow-3921 and Glasgow-1168 are the much earlier Corsankell Jameses, not supported matches.
+- **Why no profile assignment yet:** The record establishes a new documentary occurrence but cannot distinguish it from several existing adult James profiles. It also does not establish a separate lifespan. Creating a second WikiTree profile would risk duplication.
+- **Test to clear HOLD:** Locate the original 1674 retour or the related Hunterston estate papers and seek residence, family, age, occupation or associate details that distinguish this James. Then compare those details with the candidates above and check for a surviving child/spouse profile before creating any new profile.
+
+```wikitext
+[[Category:Glasgow Name Study]]
+== Biography ==
+James Glasgow was named “in Didup” in the inquest list in a 1674 extract retour concerning Robert Hunter of Hunterstoun's service as heir to Henry Hunter. The entry is dated 11 June 1674 at Irvine. It supplies no age, family relationship, occupation or vital date for James.<ref>M. S. Shaw, ed., ''Some Family Papers of the Hunters of Hunterston'' (Edinburgh: Scottish Record Society, 1925), p. 62, entry 89; FamilySearch, ''Linlithgow. Legal Records 1546–1564'', item #007764588, Item 2, image 105; https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM7-J962-6?view=fullText&keywords=Glasgow&searchForm=advanced&lang=en&groupId=M9QY-96Q. The FamilySearch collection title does not describe the scanned volume.</ref>
+== Research Notes ==
+This occurrence is not identified with a particular existing James Glasgow profile. Glasgow-3971, Glasgow-3969, Glasgow-3107, Glasgow-3172 and Glasgow-1496 are chronological possibilities without a Didup/Stevenston identity link. No birth or death date, family relationship or occupation is established.
+== Sources ==
+<references />
+```

@@ -1,0 +1,1198 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-09-30",
+  "scope": "All 51 ledger rows with unlinked named people, plus unnamedDirleton documentary row and Prescott sibling-chain row. Candidate profiles are retained unless concrete contradictory evidence excludes them. No live edits.",
+  "entries": [
+    {
+      "finding_id": "will-archibald-rathmalton-1673-betham",
+      "people": [
+        {
+          "id": "Glasgow-1101",
+          "name": "Archibald Glasgow",
+          "url": "/people/glasgow-1101.html",
+          "role": "Irish testator; Scottish baptism identity unresolved"
+        },
+        {
+          "id": "Glasgow-3556",
+          "name": "Thomas Glasgow",
+          "url": "/people/glasgow-3556.html",
+          "role": "Proposed match for eldest son Thomas"
+        },
+        {
+          "name": "Margaret Glasgow",
+          "role": "Possible match; Only daughter named in the abstract",
+          "url": "https://www.wikitree.com/wiki/Glasgow-3186",
+          "id": "Glasgow-3186",
+          "draft_url": "/research/subjects/rathmalton-1673/#margaret-glasgow"
+        },
+        {
+          "name": "Elizabeth",
+          "role": "Wife; surname provisional; confirmed documentary match",
+          "id": "Unknown-761582",
+          "url": "https://www.wikitree.com/wiki/Unknown-761582"
+        }
+      ],
+      "duplicate_check": [
+        "Maintained provenance: research/canonical_records.json, research/Glasgow-1101/findings.md, research/Glasgow-3556/findings.md",
+        "Public sourced identity handoff: /research/subjects/rathmalton-1673/"
+      ],
+      "status": "profile or consolidated evidence handoff"
+    },
+    {
+      "finding_id": "princess-anne-daniel-glasco-deed-1729",
+      "people": [
+        {
+          "name": "Daniel Glasco",
+          "role": "Possible match; Norfolk planter",
+          "url": "https://www.wikitree.com/wiki/Glasgow-3322",
+          "draft_url": "/research/subjects/norfolk-daniel-1729-1730/#daniel-glasco",
+          "id": "Glasgow-3322"
+        },
+        {
+          "name": "Mary",
+          "role": "Possible match; Wife named in the deed",
+          "url": "https://www.wikitree.com/wiki/Gammon-934",
+          "draft_url": "/research/subjects/norfolk-daniel-1729-1730/#mary",
+          "id": "Gammon-934"
+        },
+        {
+          "name": "Richard Linton",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/norfolk-daniel-1729-1730/#richard-linton"
+        }
+      ],
+      "duplicate_check": [
+        "Maintained provenance: research/canonical_records.json, research/Glasgow-428/findings.md",
+        "Public sourced identity handoff: /research/subjects/norfolk-daniel-1729-1730/"
+      ],
+      "status": "profile or consolidated evidence handoff"
+    },
+    {
+      "finding_id": "norfolk-daneill-glasco-witness-1729-30",
+      "people": [
+        {
+          "name": "Daniel Glasco",
+          "role": "Possible match; Will witness",
+          "url": "https://www.wikitree.com/wiki/Glasgow-3322",
+          "draft_url": "/research/subjects/norfolk-daniel-1729-1730/#daniel-glasco",
+          "id": "Glasgow-3322"
+        }
+      ],
+      "duplicate_check": [
+        "Maintained provenance: research/canonical_records.json, research/Glasgow-428/findings.md",
+        "Public sourced identity handoff: /research/subjects/norfolk-daniel-1729-1730/"
+      ],
+      "status": "profile or consolidated evidence handoff"
+    },
+    {
+      "finding_id": "mary-thomson-sneddon-1860-parents",
+      "people": [
+        {
+          "name": "Mary Glasgon Thomson",
+          "role": "Possible match; Indexed mother",
+          "url": "https://www.wikitree.com/wiki/Glasgow-4093",
+          "draft_url": "/research/subjects/old-monkland-thomson-sneddon-1860/#mary-glasgon-thomson",
+          "id": "Glasgow-4093"
+        },
+        {
+          "name": "Mary Thomson",
+          "role": "Possible match; Bride",
+          "url": "https://www.wikitree.com/wiki/Thomson-3009",
+          "draft_url": "/research/subjects/old-monkland-thomson-sneddon-1860/#mary-thomson",
+          "id": "Thomson-3009"
+        },
+        {
+          "name": "William Sneddon",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/old-monkland-thomson-sneddon-1860/#william-sneddon"
+        }
+      ],
+      "duplicate_check": [
+        "Maintained provenance: research/Glasgow-4093/findings.md, research/Glasgow-951/findings.md",
+        "Public sourced identity handoff: /research/subjects/old-monkland-thomson-sneddon-1860/"
+      ],
+      "status": "profile or consolidated evidence handoff"
+    },
+    {
+      "finding_id": "glasgow-bridgegait-herbertsoun-1582",
+      "people": [
+        {
+          "name": "Archibald Herbertsoun",
+          "role": "Possible match; Fisher and tenement holder",
+          "url": "https://www.wikitree.com/wiki/Herbison-475",
+          "draft_url": "/research/subjects/bridgegait-herbertsoun-1582/#archibald-herbertsoun",
+          "id": "Herbison-475"
+        }
+      ],
+      "duplicate_check": [
+        "Maintained provenance: research/canonical_records.json, research/Herbison-475/findings.md, research/Glasgow-3916/findings.md",
+        "Public sourced identity handoff: /research/subjects/bridgegait-herbertsoun-1582/"
+      ],
+      "status": "profile or consolidated evidence handoff"
+    },
+    {
+      "finding_id": "james-didup-inquest-1674",
+      "people": [
+        {
+          "name": "James Glasgow",
+          "role": "Sourced HOLD handoff; possible Glasgow-3971, Glasgow-3969, Glasgow-3107, Glasgow-3172, Glasgow-1496",
+          "url": "/research/subjects/didup-james-1674/#james-glasgow"
+        }
+      ],
+      "duplicate_check": [
+        "Maintained provenance: surname-research/pre-1700/familysearch-full-text-glasgow-scotland-1699-2026-09-22.md",
+        "Public sourced identity handoff: /research/subjects/didup-james-1674/"
+      ],
+      "status": "profile or consolidated evidence handoff"
+    },
+    {
+      "finding_id": "larne-newtown-title-1779-1832",
+      "people": [
+        {
+          "name": "James Glasgow",
+          "role": "Sourced HOLD handoff; possible Glasgow-1509, Glasgow-3991, Glasgow-3986",
+          "url": "/research/subjects/larne-title-and-witnesses/#james-glasgow"
+        },
+        {
+          "name": "Anne Glasgow",
+          "role": "Possible match; 1832 lessee",
+          "url": "https://www.wikitree.com/wiki/Glasgow-3992",
+          "draft_url": "/research/subjects/larne-title-and-witnesses/#anne-glasgow",
+          "id": "Glasgow-3992"
+        },
+        {
+          "name": "Jane Glasgow",
+          "role": "Sourced HOLD handoff; possible Glasgow-3929, Glasgow-4013",
+          "url": "/research/subjects/larne-title-and-witnesses/#jane-glasgow"
+        }
+      ],
+      "duplicate_check": [
+        "Maintained provenance: research/Glasgow-3991/findings.md, research/Glasgow-1509/findings.md",
+        "Public sourced identity handoff: /research/subjects/larne-title-and-witnesses/"
+      ],
+      "status": "profile or consolidated evidence handoff"
+    },
+    {
+      "finding_id": "larne-messuage-farmer-assignment-1768",
+      "people": [
+        {
+          "id": "Glasgow-1509",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-1509.html",
+          "role": ""
+        },
+        {
+          "name": "James Glasgow",
+          "role": "Sourced HOLD handoff; possible Glasgow-1509, Glasgow-3991, Glasgow-3986",
+          "url": "/research/subjects/larne-title-and-witnesses/#james-glasgow"
+        }
+      ],
+      "duplicate_check": [
+        "Maintained provenance: research/Glasgow-1509/findings.md, research/Glasgow-3991/findings.md",
+        "Public sourced identity handoff: /research/subjects/larne-title-and-witnesses/"
+      ],
+      "status": "profile or consolidated evidence handoff"
+    },
+    {
+      "finding_id": "new-17sep-e8ed725c038b",
+      "people": [
+        {
+          "name": "Nancy McCaughern",
+          "role": "Possible match; Named in the record",
+          "url": "https://www.wikitree.com/wiki/McCarnagh-4",
+          "draft_url": "/research/subjects/rasharkin-directory-1912/#nancy-mccaughern",
+          "id": "McCarnagh-4"
+        }
+      ],
+      "duplicate_check": [
+        "Maintained provenance: research/McCaughan-222/findings.md",
+        "Public sourced identity handoff: /research/subjects/rasharkin-directory-1912/"
+      ],
+      "status": "profile or consolidated evidence handoff"
+    },
+    {
+      "finding_id": "new-17sep-e880bb3e41ac",
+      "people": [
+        {
+          "name": "Thomas Ross",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/rasharkin-directory-1912/#thomas-ross"
+        }
+      ],
+      "duplicate_check": [
+        "Maintained provenance: research/Glasgow-951/findings.md",
+        "Public sourced identity handoff: /research/subjects/rasharkin-directory-1912/"
+      ],
+      "status": "profile or consolidated evidence handoff"
+    },
+    {
+      "finding_id": "new-17sep-e874cb7c1c5f",
+      "people": [
+        {
+          "name": "Robert Elder",
+          "role": "Sourced HOLD handoff; possible Elder-7144, Elder-7251",
+          "url": "/research/subjects/gortereghy-elder-and-anderson/#robert-elder-father"
+        },
+        {
+          "name": "Alexander Elder",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/gortereghy-elder-and-anderson/#alexander-elder"
+        }
+      ],
+      "duplicate_check": [
+        "Maintained provenance: research/Glasgow-951/findings.md",
+        "Public sourced identity handoff: /research/subjects/gortereghy-elder-and-anderson/"
+      ],
+      "status": "profile or consolidated evidence handoff"
+    },
+    {
+      "finding_id": "new-17sep-d095eefbd739",
+      "people": [
+        {
+          "name": "Mary Ellen",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/lisnagaver-mary-ellen-1867/#mary-ellen"
+        },
+        {
+          "name": "Mary Glasgow",
+          "role": "Possible match; Mother",
+          "url": "https://www.wikitree.com/wiki/Glasgow-3167",
+          "draft_url": "/research/subjects/lisnagaver-mary-ellen-1867/#mary-glasgow",
+          "id": "Glasgow-3167"
+        },
+        {
+          "name": "Ann Glasgow",
+          "role": "Possible match; Informant",
+          "url": "https://www.wikitree.com/wiki/Glasgow-438",
+          "draft_url": "/research/subjects/lisnagaver-mary-ellen-1867/#ann-glasgow",
+          "id": "Glasgow-438"
+        }
+      ],
+      "duplicate_check": [
+        "Maintained provenance: research/Glasgow-3167/findings.md",
+        "Public sourced identity handoff: /research/subjects/lisnagaver-mary-ellen-1867/"
+      ],
+      "status": "profile or consolidated evidence handoff"
+    },
+    {
+      "finding_id": "new-17sep-b3460e8a0404",
+      "people": [
+        {
+          "name": "Peter McCaughern",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/rasharkin-directory-1912/#peter-mccaughern"
+        }
+      ],
+      "duplicate_check": [
+        "Maintained provenance: research/McCaughan-222/findings.md",
+        "Public sourced identity handoff: /research/subjects/rasharkin-directory-1912/"
+      ],
+      "status": "profile or consolidated evidence handoff"
+    },
+    {
+      "finding_id": "new-17sep-b0598d53220a",
+      "people": [
+        {
+          "name": "Robert Elder",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/ballymoney-elder-mccaughey-1887/#robert-elder"
+        },
+        {
+          "name": "Jane Adams McCaughey",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/ballymoney-elder-mccaughey-1887/#jane-adams-mccaughey"
+        },
+        {
+          "name": "William McCaughey",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/ballymoney-elder-mccaughey-1887/#william-mccaughey"
+        }
+      ],
+      "duplicate_check": [
+        "Maintained provenance: research/Glasgow-3167/findings.md",
+        "Public sourced identity handoff: /research/subjects/ballymoney-elder-mccaughey-1887/"
+      ],
+      "status": "profile or consolidated evidence handoff"
+    },
+    {
+      "finding_id": "new-17sep-8b874ec0e8e2",
+      "people": [
+        {
+          "name": "John Elder",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/rasharkin-john-elder-marriages/#john-elder"
+        },
+        {
+          "name": "Annie Patterson",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/rasharkin-john-elder-marriages/#annie-patterson"
+        }
+      ],
+      "duplicate_check": [
+        "Maintained provenance: research/McCaughan-222/findings.md",
+        "Public sourced identity handoff: /research/subjects/rasharkin-john-elder-marriages/"
+      ],
+      "status": "profile or consolidated evidence handoff"
+    },
+    {
+      "finding_id": "new-17sep-8b4df34b7a69",
+      "people": [
+        {
+          "name": "Alex Hillis",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/ballymena-hillis-elder-1857/#alex-hillis"
+        },
+        {
+          "name": "Annie Elder",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/ballymena-hillis-elder-1857/#annie-elder"
+        }
+      ],
+      "duplicate_check": [
+        "Maintained provenance: research/Glasgow-3167/findings.md",
+        "Public sourced identity handoff: /research/subjects/ballymena-hillis-elder-1857/"
+      ],
+      "status": "profile or consolidated evidence handoff"
+    },
+    {
+      "finding_id": "new-17sep-8b3828f0a74e",
+      "people": [
+        {
+          "name": "Alexander Montgomery",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/kilraughts-montgomery-mccaughey-1839/#alexander-montgomery"
+        },
+        {
+          "name": "Jane McCaughey",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/kilraughts-montgomery-mccaughey-1839/#jane-mccaughey"
+        },
+        {
+          "name": "William Hay",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/kilraughts-montgomery-mccaughey-1839/#william-hay"
+        }
+      ],
+      "duplicate_check": [
+        "Maintained provenance: research/Glasgow-951/findings.md",
+        "Public sourced identity handoff: /research/subjects/kilraughts-montgomery-mccaughey-1839/"
+      ],
+      "status": "profile or consolidated evidence handoff"
+    },
+    {
+      "finding_id": "new-17sep-8621efc1a6c2",
+      "people": [
+        {
+          "name": "Hugh Macaw",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/lisnagaver-macaw-kilpatrick-1839/#hugh-macaw"
+        },
+        {
+          "name": "William Macaw",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/lisnagaver-macaw-kilpatrick-1839/#william-macaw"
+        },
+        {
+          "name": "Mary Kilpatrick",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/lisnagaver-macaw-kilpatrick-1839/#mary-kilpatrick"
+        }
+      ],
+      "duplicate_check": [
+        "Maintained provenance: research/Glasgow-951/findings.md",
+        "Public sourced identity handoff: /research/subjects/lisnagaver-macaw-kilpatrick-1839/"
+      ],
+      "status": "profile or consolidated evidence handoff"
+    },
+    {
+      "finding_id": "new-17sep-747cbf8bcdac",
+      "people": [
+        {
+          "name": "Robert McCaughern",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/rasharkin-directory-1912/#robert-mccaughern"
+        }
+      ],
+      "duplicate_check": [
+        "Maintained provenance: research/McCaughan-222/findings.md",
+        "Public sourced identity handoff: /research/subjects/rasharkin-directory-1912/"
+      ],
+      "status": "profile or consolidated evidence handoff"
+    },
+    {
+      "finding_id": "new-17sep-6fc146926262",
+      "people": [
+        {
+          "name": "Joseph Elder",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/gortereghy-elder-households-1911/#joseph-elder"
+        },
+        {
+          "name": "Ellen Elder",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/gortereghy-elder-households-1911/#ellen-elder"
+        },
+        {
+          "name": "William Elder",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/gortereghy-elder-households-1911/#william-elder"
+        },
+        {
+          "name": "Elizabeth Elder",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/gortereghy-elder-households-1911/#elizabeth-elder"
+        }
+      ],
+      "duplicate_check": [
+        "Maintained provenance: research/Glasgow-951/findings.md",
+        "Public sourced identity handoff: /research/subjects/gortereghy-elder-households-1911/"
+      ],
+      "status": "profile or consolidated evidence handoff"
+    },
+    {
+      "finding_id": "new-17sep-5cc82aef172f",
+      "people": [
+        {
+          "name": "Neal Anderson",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/gortereghy-elder-and-anderson/#neal-anderson"
+        }
+      ],
+      "duplicate_check": [
+        "Maintained provenance: research/Glasgow-951/findings.md",
+        "Public sourced identity handoff: /research/subjects/gortereghy-elder-and-anderson/"
+      ],
+      "status": "profile or consolidated evidence handoff"
+    },
+    {
+      "finding_id": "new-17sep-5c3f1cfb8d0b",
+      "people": [
+        {
+          "name": "John Elder",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/rasharkin-john-elder-marriages/#john-elder"
+        },
+        {
+          "name": "Peggy Stuart",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/rasharkin-john-elder-marriages/#peggy-stuart"
+        }
+      ],
+      "duplicate_check": [
+        "Maintained provenance: research/Glasgow-3167/findings.md",
+        "Public sourced identity handoff: /research/subjects/rasharkin-john-elder-marriages/"
+      ],
+      "status": "profile or consolidated evidence handoff"
+    },
+    {
+      "finding_id": "new-17sep-51559e1403ab",
+      "people": [
+        {
+          "name": "Robert Elder",
+          "role": "Sourced HOLD handoff; possible Elder-7144, Elder-7251",
+          "url": "/research/subjects/gortereghy-elder-and-anderson/#robert-elder-father"
+        },
+        {
+          "name": "Neal Anderson",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/gortereghy-elder-and-anderson/#neal-anderson"
+        },
+        {
+          "name": "Sarah Elder",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/gortereghy-elder-and-anderson/#sarah-elder"
+        }
+      ],
+      "duplicate_check": [
+        "Maintained provenance: research/Glasgow-951/findings.md",
+        "Public sourced identity handoff: /research/subjects/gortereghy-elder-and-anderson/"
+      ],
+      "status": "profile or consolidated evidence handoff"
+    },
+    {
+      "finding_id": "new-17sep-3c3193a6b04a",
+      "people": [
+        {
+          "name": "John Wallace",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/rasharkin-directory-1912/#john-wallace"
+        }
+      ],
+      "duplicate_check": [
+        "Maintained provenance: research/Glasgow-951/findings.md",
+        "Public sourced identity handoff: /research/subjects/rasharkin-directory-1912/"
+      ],
+      "status": "profile or consolidated evidence handoff"
+    },
+    {
+      "finding_id": "new-17sep-2db1153d15bd",
+      "people": [
+        {
+          "name": "Robert Elder",
+          "role": "Sourced HOLD handoff; possible Elder-7144, Elder-7251",
+          "url": "/research/subjects/gortereghy-elder-and-anderson/#robert-elder-father"
+        },
+        {
+          "name": "Isaac Elder",
+          "role": "Named in the record; family identity unresolved; confirmed documentary match",
+          "id": "Elder-3240",
+          "url": "https://www.wikitree.com/wiki/Elder-3240"
+        },
+        {
+          "name": "Jane Elliott",
+          "role": "Named in the record; family identity unresolved; confirmed documentary match",
+          "id": "Simpson-15883",
+          "url": "https://www.wikitree.com/wiki/Simpson-15883"
+        }
+      ],
+      "duplicate_check": [
+        "Maintained provenance: research/Glasgow-951/findings.md",
+        "Public sourced identity handoff: /research/subjects/gortereghy-elder-and-anderson/"
+      ],
+      "status": "profile or consolidated evidence handoff"
+    },
+    {
+      "finding_id": "new-17sep-23827b2edc89",
+      "people": [
+        {
+          "name": "Robert Elder",
+          "role": "Sourced HOLD handoff; possible Elder-7144, Elder-7251",
+          "url": "/research/subjects/gortereghy-elder-and-anderson/#robert-elder-father"
+        },
+        {
+          "name": "Alexander Elder",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/gortereghy-elder-and-anderson/#alexander-elder"
+        },
+        {
+          "name": "Mary Anderson",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/gortereghy-elder-and-anderson/#mary-anderson"
+        }
+      ],
+      "duplicate_check": [
+        "Maintained provenance: research/Glasgow-951/findings.md",
+        "Public sourced identity handoff: /research/subjects/gortereghy-elder-and-anderson/"
+      ],
+      "status": "profile or consolidated evidence handoff"
+    },
+    {
+      "finding_id": "new-17sep-0652ac06be27",
+      "people": [
+        {
+          "name": "John Elder",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/rasharkin-john-elder-marriages/#john-elder"
+        }
+      ],
+      "duplicate_check": [
+        "Maintained provenance: research/Glasgow-3167/findings.md",
+        "Public sourced identity handoff: /research/subjects/rasharkin-john-elder-marriages/"
+      ],
+      "status": "profile or consolidated evidence handoff"
+    },
+    {
+      "finding_id": "mccaughern-gortereghy-census-1911",
+      "people": [
+        {
+          "name": "Sarah McCaughern",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/gortereghy-mccaughern-household-1911/#sarah-mccaughern"
+        },
+        {
+          "name": "Matilda Mulholland",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/gortereghy-mccaughern-household-1911/#matilda-mulholland"
+        },
+        {
+          "name": "Caroline McCaughern",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/gortereghy-mccaughern-household-1911/#caroline-mccaughern"
+        },
+        {
+          "name": "Sara Jane McCaughern",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/gortereghy-mccaughern-household-1911/#sara-jane-mccaughern"
+        },
+        {
+          "name": "Jas Alex McCaughern",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/gortereghy-mccaughern-household-1911/#jas-alex-mccaughern"
+        },
+        {
+          "name": "Geo Mulholland",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/gortereghy-mccaughern-household-1911/#geo-mulholland"
+        }
+      ],
+      "duplicate_check": [
+        "Maintained provenance: research/McCaughan-222/findings.md",
+        "Public sourced identity handoff: /research/subjects/gortereghy-mccaughern-household-1911/"
+      ],
+      "status": "profile or consolidated evidence handoff"
+    },
+    {
+      "finding_id": "elder-alexander-gortereghy-census-1911",
+      "people": [
+        {
+          "name": "Robert Elder",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/gortereghy-elder-and-anderson/#robert-elder-brother"
+        },
+        {
+          "name": "Alexander Elder",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/gortereghy-elder-and-anderson/#alexander-elder"
+        }
+      ],
+      "duplicate_check": [
+        "Maintained provenance: research/Glasgow-951/findings.md",
+        "Public sourced identity handoff: /research/subjects/gortereghy-elder-and-anderson/"
+      ],
+      "status": "profile or consolidated evidence handoff"
+    },
+    {
+      "finding_id": "rochester-alexander-prescott-james-son",
+      "people": [
+        {
+          "name": "Alexander Glasco",
+          "role": "Possible match; Express agent of Rochester",
+          "url": "https://www.wikitree.com/wiki/Glasgow-951",
+          "draft_url": "/research/subjects/prescott-rochester-james-family/#alexander-glasco",
+          "id": "Glasgow-951"
+        },
+        {
+          "name": "James Glasgow",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/prescott-rochester-james-family/#james-glasgow"
+        }
+      ],
+      "duplicate_check": [
+        "Maintained provenance: research/Glasgow-951/findings.md",
+        "Public sourced identity handoff: /research/subjects/prescott-rochester-james-family/"
+      ],
+      "status": "profile or consolidated evidence handoff"
+    },
+    {
+      "finding_id": "prescott-glasgow-brothers-deed-1861",
+      "people": [
+        {
+          "id": "Glasgow-3896",
+          "name": "Daniel Glasgow",
+          "url": "/people/glasgow-3896.html",
+          "role": ""
+        },
+        {
+          "id": "Glasgow-987",
+          "name": "Thomas Glasgow",
+          "url": "/people/glasgow-987.html",
+          "role": ""
+        },
+        {
+          "id": "Glasgow-4150",
+          "name": "Robert Glasgow",
+          "url": "https://www.wikitree.com/wiki/Glasgow-4150",
+          "role": "Record-proved sibling in the Prescott will/deed chain"
+        },
+        {
+          "id": "Glasgow-4010",
+          "name": "Samuel Glasgow",
+          "url": "https://www.wikitree.com/wiki/Glasgow-4010",
+          "role": "Record-proved sibling in the Prescott will/deed chain"
+        }
+      ],
+      "duplicate_check": [
+        "Glasgow-4150 live biography inspected 2026-09-30: exact9 October 1849 will/B 465 identities. Glasgow-4010 already represents the named Prescott brother."
+      ],
+      "status": "confirmed existing profiles"
+    },
+    {
+      "finding_id": "opr-marriage-54",
+      "people": [
+        {
+          "name": "Marion Glasgow",
+          "role": "Sourced HOLD handoff; possible Glasgow-4095, Glasgow-3025, Glasgow-3143, Glasgow-1428, Glasgow-1532, Glasgow-3049, Glasgow-3062",
+          "url": "/research/subjects/opr-marion-marriages/#marion-glasgow"
+        },
+        {
+          "name": "John Gray",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/opr-marion-marriages/#john-gray"
+        }
+      ],
+      "duplicate_check": [
+        "Maintained provenance: surname-research/indexes/scotlandspeople-opr-marriages-to-1700.json",
+        "Public sourced identity handoff: /research/subjects/opr-marion-marriages/"
+      ],
+      "status": "profile or consolidated evidence handoff"
+    },
+    {
+      "finding_id": "opr-marriage-51",
+      "people": [
+        {
+          "name": "Joannet Glasgow",
+          "role": "Sourced HOLD handoff; possible Glasgow-1448, Glasgow-4112, Glasgow-1407, Glasgow-4130, Glasgow-1432, Glasgow-4137, Glasgow-1329, Glasgow-1305, Glasgow-3310",
+          "url": "/research/subjects/opr-joannet-marriages/#joannet-glasgow"
+        },
+        {
+          "name": "Andrew Allexander",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/opr-joannet-marriages/#andrew-allexander"
+        }
+      ],
+      "duplicate_check": [
+        "Maintained provenance: surname-research/indexes/scotlandspeople-opr-marriages-to-1700.json",
+        "Public sourced identity handoff: /research/subjects/opr-joannet-marriages/"
+      ],
+      "status": "profile or consolidated evidence handoff"
+    },
+    {
+      "finding_id": "opr-marriage-47",
+      "people": [
+        {
+          "name": "Isob Glasgow",
+          "role": "Sourced HOLD handoff; possible Glasgow-3372, Glasgow-2454",
+          "url": "/research/subjects/opr-isob-marriages/#isob-glasgow"
+        },
+        {
+          "name": "James Coldwell",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/opr-isob-marriages/#james-coldwell"
+        }
+      ],
+      "duplicate_check": [
+        "Maintained provenance: surname-research/indexes/scotlandspeople-opr-marriages-to-1700.json",
+        "Public sourced identity handoff: /research/subjects/opr-isob-marriages/"
+      ],
+      "status": "profile or consolidated evidence handoff"
+    },
+    {
+      "finding_id": "opr-marriage-44",
+      "people": [
+        {
+          "name": "Alison Glasgow",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/opr-alison-marriages/#alison-glasgow"
+        },
+        {
+          "name": "John Williamson",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/opr-alison-marriages/#john-williamson"
+        }
+      ],
+      "duplicate_check": [
+        "Maintained provenance: surname-research/indexes/scotlandspeople-opr-marriages-to-1700.json",
+        "Public sourced identity handoff: /research/subjects/opr-alison-marriages/"
+      ],
+      "status": "profile or consolidated evidence handoff"
+    },
+    {
+      "finding_id": "opr-marriage-41",
+      "people": [
+        {
+          "name": "Thomas Glasgow",
+          "role": "Sourced HOLD handoff; possible Glasgow-2461, Glasgow-3091, Glasgow-3187, Glasgow-1311, Glasgow-1242, Glasgow-1226, Glasgow-1382, Glasgow-3602, Glasgow-1449, Glasgow-441, Glasgow-3413, Glasgow-1471",
+          "url": "/research/subjects/opr-thomas-marriages/#thomas-glasgow"
+        },
+        {
+          "name": "Gyles Spence",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/opr-thomas-marriages/#gyles-spence"
+        }
+      ],
+      "duplicate_check": [
+        "Maintained provenance: surname-research/indexes/scotlandspeople-opr-marriages-to-1700.json",
+        "Public sourced identity handoff: /research/subjects/opr-thomas-marriages/"
+      ],
+      "status": "profile or consolidated evidence handoff"
+    },
+    {
+      "finding_id": "opr-marriage-39",
+      "people": [
+        {
+          "name": "Marion Glasgow",
+          "role": "Sourced HOLD handoff; possible Glasgow-4095, Glasgow-3025, Glasgow-3143, Glasgow-1428, Glasgow-1532, Glasgow-3049, Glasgow-3062",
+          "url": "/research/subjects/opr-marion-marriages/#marion-glasgow"
+        },
+        {
+          "name": "Johne Rait",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/opr-marion-marriages/#johne-rait"
+        }
+      ],
+      "duplicate_check": [
+        "Maintained provenance: surname-research/indexes/scotlandspeople-opr-marriages-to-1700.json",
+        "Public sourced identity handoff: /research/subjects/opr-marion-marriages/"
+      ],
+      "status": "profile or consolidated evidence handoff"
+    },
+    {
+      "finding_id": "opr-marriage-38",
+      "people": [
+        {
+          "name": "Margaret Glasgow",
+          "role": "Sourced HOLD handoff; possible Glasgow-3186, Glasgow-1524, Glasgow-3050, Glasgow-3366, Glasgow-3112, Glasgow-3365, Glasgow-1154, Glasgow-4119, Glasgow-4111, Glasgow-1341, Glasgow-1322, Glasgow-3007, Glasgow-3878, Glasgow-1330, Glasgow-2101, Glasgow-1160",
+          "url": "/research/subjects/opr-margaret-marriages/#margaret-glasgow"
+        },
+        {
+          "name": "John Aiton",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/opr-margaret-marriages/#john-aiton"
+        }
+      ],
+      "duplicate_check": [
+        "Maintained provenance: surname-research/indexes/scotlandspeople-opr-marriages-to-1700.json",
+        "Public sourced identity handoff: /research/subjects/opr-margaret-marriages/"
+      ],
+      "status": "profile or consolidated evidence handoff"
+    },
+    {
+      "finding_id": "opr-marriage-29",
+      "people": [
+        {
+          "name": "Anna Glasgow",
+          "role": "Possible match; Indexed subject",
+          "url": "https://www.wikitree.com/wiki/Glasgow-1233",
+          "draft_url": "/research/subjects/opr-anna-marriages/#anna-glasgow",
+          "id": "Glasgow-1233"
+        },
+        {
+          "name": "Thomas Gray",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/opr-anna-marriages/#thomas-gray"
+        }
+      ],
+      "duplicate_check": [
+        "Maintained provenance: surname-research/indexes/scotlandspeople-opr-marriages-to-1700.json",
+        "Public sourced identity handoff: /research/subjects/opr-anna-marriages/"
+      ],
+      "status": "profile or consolidated evidence handoff"
+    },
+    {
+      "finding_id": "opr-marriage-27",
+      "people": [
+        {
+          "name": "Agnes Glasgow",
+          "role": "Sourced HOLD handoff; possible Glasgow-1455, Glasgow-993, Glasgow-2460, Glasgow-1312, Glasgow-1408, Glasgow-1441, Glasgow-4123, Glasgow-4133, Glasgow-1482, Glasgow-1349, Glasgow-1562, Glasgow-4151, Glasgow-3092",
+          "url": "/research/subjects/opr-agnes-marriages/#agnes-glasgow"
+        },
+        {
+          "name": "James Swan",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/opr-agnes-marriages/#james-swan"
+        }
+      ],
+      "duplicate_check": [
+        "Maintained provenance: surname-research/indexes/scotlandspeople-opr-marriages-to-1700.json",
+        "Public sourced identity handoff: /research/subjects/opr-agnes-marriages/"
+      ],
+      "status": "profile or consolidated evidence handoff"
+    },
+    {
+      "finding_id": "opr-marriage-26",
+      "people": [
+        {
+          "name": "Agnes Glasgow",
+          "role": "Sourced HOLD handoff; possible Glasgow-1455, Glasgow-993, Glasgow-2460, Glasgow-1312, Glasgow-1408, Glasgow-1441, Glasgow-4123, Glasgow-4133, Glasgow-1482, Glasgow-1349, Glasgow-1562, Glasgow-4151, Glasgow-3092",
+          "url": "/research/subjects/opr-agnes-marriages/#agnes-glasgow"
+        },
+        {
+          "name": "William Anderson",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/opr-agnes-marriages/#william-anderson"
+        }
+      ],
+      "duplicate_check": [
+        "Maintained provenance: surname-research/indexes/scotlandspeople-opr-marriages-to-1700.json",
+        "Public sourced identity handoff: /research/subjects/opr-agnes-marriages/"
+      ],
+      "status": "profile or consolidated evidence handoff"
+    },
+    {
+      "finding_id": "opr-marriage-25",
+      "people": [
+        {
+          "name": "Jean Glasgow",
+          "role": "Sourced HOLD handoff; possible Glasgow-3083, Glasgow-3055, Glasgow-4113, Glasgow-1344, Glasgow-1462, Glasgow-1163, Glasgow-3364, Glasgow-3088, Glasgow-3528",
+          "url": "/research/subjects/opr-jean-marriages/#jean-glasgow"
+        },
+        {
+          "name": "Robert Aliesone",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/opr-jean-marriages/#robert-aliesone"
+        }
+      ],
+      "duplicate_check": [
+        "Maintained provenance: surname-research/indexes/scotlandspeople-opr-marriages-to-1700.json",
+        "Public sourced identity handoff: /research/subjects/opr-jean-marriages/"
+      ],
+      "status": "profile or consolidated evidence handoff"
+    },
+    {
+      "finding_id": "opr-marriage-18",
+      "people": [
+        {
+          "name": "Margaret Glasgow",
+          "role": "Sourced HOLD handoff; possible Glasgow-3186, Glasgow-1524, Glasgow-3050, Glasgow-3366, Glasgow-3112, Glasgow-3365, Glasgow-1154, Glasgow-4119, Glasgow-4111, Glasgow-1341, Glasgow-1322, Glasgow-3007, Glasgow-3878, Glasgow-1330, Glasgow-2101, Glasgow-1160",
+          "url": "/research/subjects/opr-margaret-marriages/#margaret-glasgow"
+        },
+        {
+          "name": "John Tailzer",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/opr-margaret-marriages/#john-tailzer"
+        }
+      ],
+      "duplicate_check": [
+        "Maintained provenance: surname-research/indexes/scotlandspeople-opr-marriages-to-1700.json",
+        "Public sourced identity handoff: /research/subjects/opr-margaret-marriages/"
+      ],
+      "status": "profile or consolidated evidence handoff"
+    },
+    {
+      "finding_id": "opr-marriage-14",
+      "people": [
+        {
+          "name": "Alison Glasgow",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/opr-alison-marriages/#alison-glasgow"
+        },
+        {
+          "name": "George Cargill",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/opr-alison-marriages/#george-cargill"
+        }
+      ],
+      "duplicate_check": [
+        "Maintained provenance: surname-research/indexes/scotlandspeople-opr-marriages-to-1700.json",
+        "Public sourced identity handoff: /research/subjects/opr-alison-marriages/"
+      ],
+      "status": "profile or consolidated evidence handoff"
+    },
+    {
+      "finding_id": "opr-marriage-13",
+      "people": [
+        {
+          "name": "Agnes Glasgow",
+          "role": "Sourced HOLD handoff; possible Glasgow-1455, Glasgow-993, Glasgow-2460, Glasgow-1312, Glasgow-1408, Glasgow-1441, Glasgow-4123, Glasgow-4133, Glasgow-1482, Glasgow-1349, Glasgow-1562, Glasgow-4151, Glasgow-3092",
+          "url": "/research/subjects/opr-agnes-marriages/#agnes-glasgow"
+        },
+        {
+          "name": "Patrik Paul",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/opr-agnes-marriages/#patrik-paul"
+        }
+      ],
+      "duplicate_check": [
+        "Maintained provenance: surname-research/indexes/scotlandspeople-opr-marriages-to-1700.json",
+        "Public sourced identity handoff: /research/subjects/opr-agnes-marriages/"
+      ],
+      "status": "profile or consolidated evidence handoff"
+    },
+    {
+      "finding_id": "opr-marriage-11",
+      "people": [
+        {
+          "name": "Jean Glasgow",
+          "role": "Sourced HOLD handoff; possible Glasgow-3083, Glasgow-3055, Glasgow-4113, Glasgow-1344, Glasgow-1462, Glasgow-1163, Glasgow-3364, Glasgow-3088, Glasgow-3528",
+          "url": "/research/subjects/opr-jean-marriages/#jean-glasgow"
+        },
+        {
+          "name": "William Mitchell",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/opr-jean-marriages/#william-mitchell"
+        }
+      ],
+      "duplicate_check": [
+        "Maintained provenance: surname-research/indexes/scotlandspeople-opr-marriages-to-1700.json",
+        "Public sourced identity handoff: /research/subjects/opr-jean-marriages/"
+      ],
+      "status": "profile or consolidated evidence handoff"
+    },
+    {
+      "finding_id": "opr-marriage-10",
+      "people": [
+        {
+          "name": "Jean Glasgow",
+          "role": "Sourced HOLD handoff; possible Glasgow-3083, Glasgow-3055, Glasgow-4113, Glasgow-1344, Glasgow-1462, Glasgow-1163, Glasgow-3364, Glasgow-3088, Glasgow-3528",
+          "url": "/research/subjects/opr-jean-marriages/#jean-glasgow"
+        },
+        {
+          "name": "Robert Woodsyd",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/opr-jean-marriages/#robert-woodsyd"
+        }
+      ],
+      "duplicate_check": [
+        "Maintained provenance: surname-research/indexes/scotlandspeople-opr-marriages-to-1700.json",
+        "Public sourced identity handoff: /research/subjects/opr-jean-marriages/"
+      ],
+      "status": "profile or consolidated evidence handoff"
+    },
+    {
+      "finding_id": "opr-marriage-06",
+      "people": [
+        {
+          "name": "Unnamed Glasgow subject",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/opr-unnamed-marriages/#unnamed-glasgow-subject"
+        },
+        {
+          "name": "Margaret",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/opr-unnamed-marriages/#margaret"
+        }
+      ],
+      "duplicate_check": [
+        "Maintained provenance: surname-research/indexes/scotlandspeople-opr-marriages-to-1700.json",
+        "Public sourced identity handoff: /research/subjects/opr-unnamed-marriages/"
+      ],
+      "status": "profile or consolidated evidence handoff"
+    },
+    {
+      "finding_id": "opr-marriage-04",
+      "people": [
+        {
+          "name": "Marion Glasgow",
+          "role": "Sourced HOLD handoff; possible Glasgow-4095, Glasgow-3025, Glasgow-3143, Glasgow-1428, Glasgow-1532, Glasgow-3049, Glasgow-3062",
+          "url": "/research/subjects/opr-marion-marriages/#marion-glasgow"
+        },
+        {
+          "name": "John Bruce",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/opr-marion-marriages/#john-bruce"
+        }
+      ],
+      "duplicate_check": [
+        "Maintained provenance: surname-research/indexes/scotlandspeople-opr-marriages-to-1700.json",
+        "Public sourced identity handoff: /research/subjects/opr-marion-marriages/"
+      ],
+      "status": "profile or consolidated evidence handoff"
+    },
+    {
+      "finding_id": "opr-marriage-01",
+      "people": [
+        {
+          "name": "Agnes Glasgow",
+          "role": "Sourced HOLD handoff; possible Glasgow-1455, Glasgow-993, Glasgow-2460, Glasgow-1312, Glasgow-1408, Glasgow-1441, Glasgow-4123, Glasgow-4133, Glasgow-1482, Glasgow-1349, Glasgow-1562, Glasgow-4151, Glasgow-3092",
+          "url": "/research/subjects/opr-agnes-marriages/#agnes-glasgow"
+        },
+        {
+          "name": "William Thomsone",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/opr-agnes-marriages/#william-thomsone"
+        }
+      ],
+      "duplicate_check": [
+        "Maintained provenance: surname-research/indexes/scotlandspeople-opr-marriages-to-1700.json",
+        "Public sourced identity handoff: /research/subjects/opr-agnes-marriages/"
+      ],
+      "status": "profile or consolidated evidence handoff"
+    },
+    {
+      "finding_id": "opr-754-10-113",
+      "people": [
+        {
+          "name": "Janet Glasgow",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/polwarth-janet-1675/#janet-glasgow"
+        }
+      ],
+      "duplicate_check": [
+        "Maintained provenance: surname-research/indexes/scotlandspeople-opr-deaths-to-1700.json",
+        "Public sourced identity handoff: /research/subjects/polwarth-janet-1675/"
+      ],
+      "status": "profile or consolidated evidence handoff"
+    },
+    {
+      "finding_id": "opr-705-10-183",
+      "people": [
+        {
+          "name": "Unnamed Glasgow record subject",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/dirleton-unnamed-burial-1688/#unnamed-glasgow-record-subject"
+        }
+      ],
+      "duplicate_check": [
+        "Maintained provenance: surname-research/indexes/scotlandspeople-opr-deaths-to-1700.json",
+        "Public sourced identity handoff: /research/subjects/dirleton-unnamed-burial-1688/"
+      ],
+      "status": "profile or consolidated evidence handoff"
+    },
+    {
+      "finding_id": "mathie-glasgow-burgh-witnesses-1554",
+      "people": [
+        {
+          "name": "David Mathy",
+          "role": "Sourced HOLD handoff",
+          "url": "/research/subjects/glasgow-mathy-burgesses-1554/#david-mathy"
+        },
+        {
+          "name": "Robert Glasgow",
+          "role": "Glasgow burgess and witness; confirmed documentary match",
+          "id": "Glasgow-1096",
+          "url": "https://www.wikitree.com/wiki/Glasgow-1096"
+        }
+      ],
+      "duplicate_check": [
+        "Maintained provenance: research/Glasgow-3908/findings.md, research/Glasgow-3911/findings.md, research/Glasgow-1168/findings.md",
+        "Public sourced identity handoff: /research/subjects/glasgow-mathy-burgesses-1554/"
+      ],
+      "status": "profile or consolidated evidence handoff"
+    }
+  ],
+  "subject_input": "research/latest-findings-subjects/subjects.json",
+  "builder": "tools/build_research_subject_drafts.py",
+  "public_pages": [
+    "/research/subjects/rathmalton-1673/",
+    "/research/subjects/norfolk-daniel-1729-1730/",
+    "/research/subjects/old-monkland-thomson-sneddon-1860/",
+    "/research/subjects/bridgegait-herbertsoun-1582/",
+    "/research/subjects/didup-james-1674/",
+    "/research/subjects/larne-title-and-witnesses/",
+    "/research/subjects/rasharkin-directory-1912/",
+    "/research/subjects/gortereghy-elder-and-anderson/",
+    "/research/subjects/lisnagaver-mary-ellen-1867/",
+    "/research/subjects/ballymoney-elder-mccaughey-1887/",
+    "/research/subjects/rasharkin-john-elder-marriages/",
+    "/research/subjects/ballymena-hillis-elder-1857/",
+    "/research/subjects/kilraughts-montgomery-mccaughey-1839/",
+    "/research/subjects/lisnagaver-macaw-kilpatrick-1839/",
+    "/research/subjects/gortereghy-elder-households-1911/",
+    "/research/subjects/gortereghy-mccaughern-household-1911/",
+    "/research/subjects/prescott-rochester-james-family/",
+    "/research/subjects/opr-marion-marriages/",
+    "/research/subjects/opr-joannet-marriages/",
+    "/research/subjects/opr-isob-marriages/",
+    "/research/subjects/opr-alison-marriages/",
+    "/research/subjects/opr-thomas-marriages/",
+    "/research/subjects/opr-margaret-marriages/",
+    "/research/subjects/opr-anna-marriages/",
+    "/research/subjects/opr-agnes-marriages/",
+    "/research/subjects/opr-jean-marriages/",
+    "/research/subjects/opr-unnamed-marriages/",
+    "/research/subjects/polwarth-janet-1675/",
+    "/research/subjects/dirleton-unnamed-burial-1688/",
+    "/research/subjects/glasgow-mathy-burgesses-1554/"
+  ],
+  "remaining_sync": [],
+  "limitations": [
+    "Common-name live queries were bounded where noted; those subjects remain HOLD and are not presented as no-profile creation-ready.",
+    "Original inspection limits from every ledger source remain with each sourced draft."
+  ],
+  "verification": {
+    "all_rows_with_unlinked_named_people": 51,
+    "additional_rows": [
+      "opr-705-10-183",
+      "prescott-glasgow-brothers-deed-1861"
+    ],
+    "new_public_subject_pages": 30,
+    "sourced_subject_drafts": 84,
+    "live_name_queries": 52,
+    "live_profile_and_relative_batches": 8,
+    "no_live_edits": true,
+    "local_destination_anchor_checks": 108,
+    "repeat_build_changed_pages": 0
+  },
+  "internal_duplicate_check_captures": ".cache/latest-findings-profile-audit-2026-09-30/",
+  "integration_status": "Completed locally: final ledger links, 30 public draft pages, 19 revised OPR assessments, desktop/mobile verification and release packaging. Production upload pending."
+}

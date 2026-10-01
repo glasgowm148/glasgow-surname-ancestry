@@ -1,0 +1,36 @@
+/* Plain introductions before the interactive research views. */
+.reader-intro{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.3fr);gap:36px;padding:8px 0 20px;align-items:stretch}
+.reader-intro>.repair-canopy-figure{min-width:0;width:100%;margin:0}
+.v3-site .reader-intro h1{font-size:clamp(38px,4.2vw,60px);line-height:1.08;letter-spacing:-.025em;margin:14px 0 22px;max-width:12ch}
+.reader-intro p{max-width:58ch;font-size:16px;line-height:1.7;color:#536451}
+.reader-intro .r-actions{margin-top:22px;flex-wrap:wrap}
+.reader-start{margin:30px 0;border-top:1px solid #ccd5c5;padding:24px 0 0}
+.reader-start h2{font:500 27px/1.2 var(--g-serif);margin:0 0 18px;color:#304b3a}
+.reader-start ol,.reader-about ol{padding-left:22px;margin:0}
+.reader-start ol{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:30px}
+.reader-start li,.reader-about li{padding-left:5px;margin-bottom:14px;line-height:1.65}
+.reader-start a,.reader-about a{color:#2f5d48;text-decoration:underline;text-underline-offset:3px}
+.reader-start p{max-width:90ch;font-size:13px;line-height:1.65;margin-top:14px}
+.reader-start>a{font-size:13px}
+.v3-home #research-example{margin-top:0;scroll-margin-top:90px}
+.v3-home #research-example h2{font-size:clamp(29px,3vw,40px)}
+.reader-example-note{margin-top:16px!important;font-size:13px!important}
+.reader-about p{line-height:1.75}
+.reader-about .g-note-panel p{font-size:14px;line-height:1.7}
+.reader-about h2{font:500 28px/1.2 var(--g-serif);margin:28px 0 14px}
+.reader-about h2:first-child{margin-top:0}
+@media(max-width:850px){.reader-intro{gap:28px;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr)}.reader-start ol{gap:24px}}
+@media(max-width:640px){.reader-intro{grid-template-columns:minmax(0,1fr);gap:26px;padding:10px 0 28px}.v3-site .reader-intro h1{font-size:42px;max-width:13ch}.reader-intro p{font-size:15px}.reader-start{padding-top:22px}.reader-start ol{grid-template-columns:minmax(0,1fr);gap:0}.reader-start h2{font-size:25px}.reader-start li{font-size:14px}.reader-start p{font-size:13px}.v3-home #research-example{scroll-margin-top:70px}}
+
+/* A large linked tree fills the opening's right-hand illustration panel. */
+.reader-intro>div{align-self:center}
+.v3-site .reader-intro>.repair-canopy-figure{position:relative;min-height:440px;overflow:hidden;border-radius:12px;background:radial-gradient(ellipse at 55% 40%,#f7f6ee 15%,#e7eddf 100%);isolation:isolate}
+.v3-site .reader-intro .repair-canopy-stage{position:absolute;inset:0;display:block;width:100%;height:100%;margin:0}
+.reader-intro #r-home-canopy{display:block;width:100%;height:100%;--canopy-scale:1.25}
+.reader-intro .repair-home-group-links,.reader-intro .repair-home-branch-links,.reader-intro .repair-canopy-caption{display:none}
+.v3-site .reader-intro .repair-canopy-top{position:absolute;inset:0 0 auto;z-index:2;gap:10px;margin:0;padding:13px 16px;border:0;background:linear-gradient(#f1f3e9 50%,#f1f3e900)}
+.reader-intro .repair-canopy-figure figcaption{position:absolute;inset:auto 0 0;z-index:2;margin:0;padding:25px 16px 13px;background:linear-gradient(#edf1e600,#edf1e6 32%);font-size:11px}
+.reader-intro .repair-country-key{margin:0;gap:7px 13px}
+.v3-home .bd-home-studymap{margin-top:8px}
+.v3-home .bd-home-studymap .bd-studymap-head p{max-width:100%}
+@media(max-width:640px){.v3-site .reader-intro>.repair-canopy-figure{min-height:360px}.reader-intro #r-home-canopy{--canopy-scale:1}.reader-start{margin:26px 0}.v3-site .reader-intro .repair-canopy-top{padding:12px;font-size:11px}.reader-intro .repair-canopy-figure figcaption{padding:25px 12px 12px}.reader-intro .repair-country-key{font-size:10px;gap:6px 10px}}

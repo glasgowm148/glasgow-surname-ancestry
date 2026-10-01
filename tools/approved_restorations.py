@@ -53,6 +53,7 @@ def reference_html(page):
 
 
 def usable_tester_panel(page):
+    page = page.replace('THE COMPLETE CANOPY', 'THE WHOLE TREE')
     if 'function show(open)' not in page:
         return page
     return page.replace("requestAnimationFrame(()=>window.dispatchEvent(new Event('resize')))",
@@ -152,6 +153,13 @@ def restore_atlas(web, private=PRIVATE):
                     previous = re.search(pattern, current, re.S)
                     if previous:
                         rendered = re.sub(pattern, lambda _: previous[0], rendered, count=1, flags=re.S)
+            # Loaded tree templates can otherwise reintroduce old visible labels.
+            if entry['kind'] == 'atlas-renderer':
+                try:
+                    from tools.repair_primary_navigation import reorder_atlas_views
+                except ModuleNotFoundError:
+                    from repair_primary_navigation import reorder_atlas_views
+                rendered = reorder_atlas_views(rendered)
         if entry['kind'] == 'atlas-renderer' and target.exists():
             current = target.read_text()
             urls = cache_urls(current)

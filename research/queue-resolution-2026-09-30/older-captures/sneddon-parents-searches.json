@@ -1,0 +1,90 @@
+[
+  {
+    "query": {
+      "FirstName": "Robert",
+      "LastName": "Sneddon",
+      "BirthDate": "1780"
+    },
+    "response": {
+      "status": 0,
+      "matches": [],
+      "total": 0,
+      "start": 0,
+      "limit": 100
+    }
+  },
+  {
+    "query": {
+      "FirstName": "Robert",
+      "LastName": "Snedden",
+      "BirthDate": "1780"
+    },
+    "response": {
+      "status": 0,
+      "matches": [],
+      "total": 0,
+      "start": 0,
+      "limit": 100
+    }
+  },
+  {
+    "query": {
+      "FirstName": "Mary",
+      "LastName": "Gray",
+      "BirthDate": "1780",
+      "BirthLocation": "Scotland"
+    },
+    "response": {
+      "status": 0,
+      "matches": [
+        {
+          "Id": 31655224,
+          "Name": "Gray-34174",
+          "FirstName": "Mary",
+          "LastNameAtBirth": "Gray",
+          "BirthDate": "0000-00-00",
+          "DeathDate": "1858-00-00",
+          "BirthLocation": "Scotland, United Kingdom",
+          "DeathLocation": "Scotland, United Kingdom",
+          "Privacy": 60,
+          "IsLiving": 0,
+          "Privacy_IsPrivate": false,
+          "Privacy_IsPublic": false,
+          "Privacy_IsOpen": true,
+          "Privacy_IsAtLeastPublic": true,
+          "Privacy_IsSemiPrivate": false,
+          "Privacy_IsSemiPrivateBio": false,
+          "Father": 0,
+          "Mother": 0,
+          "Spouses": [],
+          "index": 0
+        },
+        {
+          "Id": 31799847,
+          "Name": "Gray-34314",
+          "FirstName": "Mary",
+          "LastNameAtBirth": "Gray",
+          "BirthDate": "1780-00-00",
+          "DeathDate": "0000-00-00",
+          "BirthLocation": "Scotland",
+          "DeathLocation": "",
+          "Privacy": 60,
+          "IsLiving": 0,
+          "Privacy_IsPrivate": false,
+          "Privacy_IsPublic": false,
+          "Privacy_IsOpen": true,
+          "Privacy_IsAtLeastPublic": true,
+          "Privacy_IsSemiPrivate": false,
+          "Privacy_IsSemiPrivateBio": false,
+          "Father": 0,
+          "Mother": 0,
+          "Spouses": [],
+          "index": 1
+        }
+      ],
+      "total": 2,
+      "start": 0,
+      "limit": 100
+    }
+  }
+]

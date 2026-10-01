@@ -1,40 +1,48 @@
 # Findings: [Archibald Glasgow M.A. (Glasgow-1101), baptised 1614; Donegal cleric](https://www.wikitree.com/wiki/Glasgow-1101)
 
-Last updated: 2026-09-10
+Last updated: 2026-09-30
 
 
 ## Current conclusion
 
-The Donegal clerical records from 1641 to 1677 form a coherent career and
-probably concern one man. The strongest new evidence is the prerogative-will
-index for **Archibald Glasgow of Rathmalton, County Donegal, clerk, proved in
-1677**. Rathmalton/Rathmelton is Ramelton. The 1675/76 Ramelton bond-holder and
-the 1677 testator are almost certainly the same man.
+Betham's newly inspected genealogical abstract names **Archibald Glasgow of
+Rathmalton, County Donegal, clerk**, with a will dated **April 1673**. It
+explicitly identifies **Thomas Glasgow as his eldest son** and **Margaret as
+his only daughter**; wife Elizabeth's surname is read provisionally as
+M'Auley. This supersedes the former statement that no spouse or child was
+known. The inspected manuscript is a pre-destruction abstract, not the complete
+will. April 1673 is its will date; the separate index gives probate in 1677.
 
-The separate 1679 entry for `Archibald Glascoe` of `Rathmatton` is probably a
-duplicate or later probate action, not evidence for a second local Archibald.
-The two-year discrepancy should be displayed rather than silently resolved.
+The exact name, residence and clerical designation confidently identify the
+Irish testator with the Irish cleric represented by this profile. Rathmalton
+is Ramelton; the 1675/76 Ramelton bond-holder is almost certainly the same man.
+The 1679 Archibald Glascoe of Rathmatton entry is probably a duplicate or later
+probate action, with its date discrepancy still unresolved.
 
-Identity with the Archibald baptised at Glasgow in 1614 and M.A. in 1635 is a
-strong chronological fit, but no inspected Irish record names his Scottish
-parents or university. No spouse or child has been recovered. Nothing yet
-proves an Archibald-to-Thomas-to-Nathaniel descent.
+Matching his now-documented eldest son to **Thomas of Lifford/Raphoe
+(Glasgow-3556)** is strongly probable, but a distinctive household, associate
+or estate connection is still needed before changing that live father field
+from uncertain. Uncommon name, compatible generation and Donegal geography
+support the match; the abstract gives the son no residence, age, wife or estate.
 
-`Glasgow`, `Glascoe` and `Glascow` are demonstrated forms in this Donegal
-cluster, not merely hypothetical search variants. The 1679 `Archibald Glascoe`
-entry makes variant searching essential, but does not change the kinship
-conclusion.
+The Irish cleric's identification with the Scottish child baptised in 1614
+and M.A. in 1635 remains probable. No inspected Irish record names his Scottish
+parents or university. This abstract does not prove Archibald's father George
+or Thomas's proposed fatherhood of Nathaniel. These remain separate questions.
 
 ## Source findings
 
 | Source | Finding | Assessment |
 | --- | --- | --- |
+| William Betham, Old Series vol. 3 (1808), NLI GO MS 225, handwritten p. 90, viewer image 97, microfilm POS 1219; [catalogue and digitised manuscript](https://catalogue.nli.ie/Record/vtls000540633), inspected 30 Sep 2026 | Will dated April 1673; Archibald Glasgow of Rathmalton, County Donegal, clerk; wife Elizabeth (provisional M'Auley); Thomas Glasgow, eldest son; Margaret, only daughter, linked to a Cairns household. | Direct kinship for the Irish testator. The son-to-Lifford identity remains strongly probable. Original abstract image inspected; complete will not inspected. |
 | [Ulster Settlers person record](https://ulster-settlers.maynoothuniversity.ie/people/32084) | Clerical service at Killea (1641; restored 1661), Faughanvale (1654), Taboyne (1660), and Clondevadock, Tullyfern and Aughnish (1661). | A geographically and chronologically coherent Donegal clerical career; individual entries do not name Scottish kin. |
 | Vicars prerogative-will index; [Internet Archive text](https://archive.org/stream/indextoprerogati00vica/indextoprerogati00vica_djvu.txt) | Archibald Glasgow of Rathmalton, County Donegal, clerk; probate 1677. | Direct for name, residence, occupation and probate year. The will contents are not present in the index. |
 | Irish probate index transcription supplied July 2026 | Archibald Glascoe, Rathmatton, County Donegal, 1679. | Probable duplicate/later action because of the uncommon name and same residence; not independently merged as fact. |
-| Dutton bond, 1675/76 | Archibald Glasgow of Ramelton was the obligee. | Almost certainly the 1677 testator; no kinship is stated. |
+| Dutton bond, 1675/76; PRONI eCatalogue D1825/A/2 title-group description, inspected 30 Sep 2026 | Archibald Glasgow of Ramelton was the obligee. | Almost certainly the 1677 testator; no kinship is stated. The bond is grouped among Hugh Hamill/Portin Island title instruments, but the description does not name Hamill as a party to Archibald’s bond. This is qualified financial context, not an inherited-property bridge to Thomas. |
 | Scottish baptism and M.A. evidence currently associated with the profile | An Archibald Glasgow was baptised in Glasgow in 1614 and graduated M.A. in 1635. | Strong candidate identity, not an Irish-to-Scottish bridge. |
-| Betham consolidated index | `GLASCOE` appears at Will Abstract references `10/47` and `14/296`; Ismay is also indexed to `10/47`. | Specific collateral leads only. The underlying abstracts have not been inspected and may be unrelated. |
+| National Archives of Ireland, surviving prerogative will book, 1664–1684, [FamilySearch DGS 8096787, image 542 of 547](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJ8-FDT8), G index; inspected 30 Sep 2026 | No obvious Archibald Glasgow/Glascoe entry in the complete visible G column; independently reviewed from saved source tiles. | Sign-in resolved image access. This limited index check does not establish that his will is absent or destroyed; exact full-text keyword Glasgow returned zero; Glas* returned nine matches, all captured and assessed as objects, commodities, occupation or apparent place/property phrases rather than a Glasgow father or identity bridge. Machine transcripts are search aids, not verified manuscript readings. The complete book has not been read. The nearby “Glass John,” p. 224, is not an Archibald entry. |
+| Henry Cotton, *Fasti Ecclesiae Hibernicae*, [vol. III (1849)](https://archive.org/details/fastiecclesiaehi03cott), [vol. V (1860)](https://archive.org/details/fastiecclesiae05cottuoft); Alexander G. Lecky, [*In the Days of the Laggan Presbytery* (1908)](https://archive.org/details/indayslagganpre00leckgoog); checked 30 Sep 2026 | Focused whole-book OCR searches and selected printed indexes/locality passages yielded no Glasgow household or Thomas-to-Lifford identity bridge. | Bounded negative searches. Cotton III complete G index and Lecky relevant passages were visually read; Cotton V was OCR-only. These publications are not complete parish-clergy rolls; original presbytery minutes were not inspected. No denomination or father status follows from their silence. |
+| Betham consolidated index | `GLASCOE` appears at Will Abstract references `10/47` and `14/296`; Ismay is also indexed to `10/47`. | Inspected 30 Sep 2026: 10/47 is the Patrick Duffy will (1774, proved 1775), GO MS 232 p. 47/image 51; Margaret Duffy married Thomas Glascoe and Ismay is a different Duffy child. 14/296 is Robert Johnston’s 1768 will, GO MS 236 p. 296/image 151, naming an Elizabeth Sophia/John Glasgow family. These eighteenth-century collateral entries do not identify Archibald’s son. |
 
 ## WikiTree recommendations
 
@@ -46,12 +54,29 @@ conclusion.
    the date discrepancy unresolved.
 4. Add the Donegal career localities, keeping the identification with the 1614
    Scottish child explicitly probable rather than proved.
-5. Attach no spouse or children. In particular, do not attach Thomas of Lifford
-   or Nathaniel of Keady/Fintona without a kinship record.
-6. Search Betham's Old Series, especially Genealogical Office `MS 225`, Old
-   Series vol. 3 (D-O), under Glasgow, Glascoe, Glascow and related forms. Also
-   inspect Will Abstract references `10/47` and `14/296`. These are exact search
-   targets, not evidence that an abstract for Archibald has already been found.
+5. Add the newly documented household, retaining the distinction between the
+   named son and his probable identification with the already attached Lifford
+   Thomas. Keep the latter's father status uncertain pending an identity bridge.
+6. MS 225 has now been inspected at p. 90. The surviving 1664–1684 registered
+   book is accessible and its visible G index has been checked without finding
+   Archibald; do not describe this as a proved absence from the whole volume.
+   Continue locating the particular will, deed
+   recitals and Cairns/M'Auley collateral records for a distinguishing estate
+   or relative. Will Abstract references `10/47` and `14/296` have now been inspected and
+   eliminated as this pre-1700 bridge; they concern separate eighteenth-century
+   Duffy and Johnston households.
+
+## Identity and relationship assessments
+
+Live WikiTree father status for Thomas-3556 was uncertain (10) on 30 September
+2026. The new abstract proves the Irish Archibald's fatherhood of a Thomas;
+it does not alone identify that son with the later Lifford esquire. No rival
+contemporary Donegal Thomas has been positively identified. A distinctive
+shared estate, associate or relative would resolve the remaining gap; a second
+literal father clause is not required.
+
+Image and provenance: `research/pre-1700-2026-09-30/betham/`.
+Independent review: `research/pre-1700-2026-09-30/scottish/proof-review.md`.
 
 Suggested edit summary: `Add the 1677 Ramelton clerical will and qualify the Scottish identity and proposed descendants.`
 

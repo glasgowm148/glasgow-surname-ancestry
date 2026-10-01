@@ -19,7 +19,10 @@ class BranchesDirectoryTests(unittest.TestCase):
     def test_generated_directory_contract(self):
         directory = json.loads((ROOT / 'www/assets/research/branches-directory.json').read_text())
         groups = directory['groups']
-        self.assertEqual(346, len(groups))
+        branches = json.loads((ROOT / 'www/assets/research/branches.json').read_text())
+        self.assertEqual({branch['id'] for branch in branches if branch['kind'] != 'region'},
+                         {group['id'] for group in groups})
+        self.assertEqual(len(groups), len({group['id'] for group in groups}))
         self.assertEqual({'family', 'research', 'place'}, {group['kind'] for group in groups})
         self.assertTrue(all(group['precision'] for group in groups))
         self.assertTrue(all((group['lat'] is None and group['lon'] is None) == (group['precision'] == 'none') for group in groups))

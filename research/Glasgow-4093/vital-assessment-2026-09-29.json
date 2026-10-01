@@ -1,0 +1,18 @@
+{
+  "id": "glasgow-4093-birth-unestablished-20260929",
+  "subject": "Glasgow-4093",
+  "status": "approved",
+  "reviewed": "2026-09-29",
+  "basis": "Citation-defined research subject with no identified birth record; live WikiTree API confirms blank birth date. Withdraw an unsupported catalogue estimate, without asserting another birth.",
+  "source_url": "https://www.nyshistoricnewspapers.org/?a=d&d=plts18920226-01.1.6",
+  "summary": "Mary’s birth date and birthplace are unestablished. The new Scottish indexed mother is a candidate, not an identified family connection.",
+  "vitals": {
+    "birth": {
+      "date": null,
+      "display_date": "Birth date not established",
+      "place": null,
+      "status": "uncertain",
+      "note": "The citation names only the children of Mary Thompson; it supplies no birth date or birthplace. The former catalogue estimate 1874 was not record evidence."
+    }
+  }
+}

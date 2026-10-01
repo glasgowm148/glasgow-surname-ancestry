@@ -22,6 +22,80 @@ class PersonDossierPresentationTests(unittest.TestCase):
         self.assertIn(".person-hierarchy .question{margin:10px 0", stylesheet)
         self.assertIn(".person-hierarchy .question{padding:16px}", stylesheet)
 
+    def test_wikitree_panel_keeps_current_capture_and_diff(self):
+        import tools.repair_person_hierarchy as renderer
+
+        update = {
+            "profile_id": "Glasgow-1",
+            "profile_url": "https://www.wikitree.com/wiki/Glasgow-1",
+            "summary": "Add the sourced correction.",
+            "significance": 90,
+            "remote_captured_at": "2026-09-30T16:50:00Z",
+            "remote_revision": "20260930165000",
+            "remote_wikitext": "old line\nkeep",
+            "proposed_wikitext": "new line\nkeep",
+            "pending": True,
+        }
+        soup = BeautifulSoup(renderer._profile_update_panel(update), "html.parser")
+        self.assertIsNotNone(soup.select_one("#wikitree-update"))
+        self.assertEqual("old line\nkeep", soup.select_one("#profile-update-current").get_text())
+        self.assertEqual("new line\nkeep", soup.select_one("#profile-update-draft").get_text())
+        self.assertIsNotNone(soup.select_one(".profile-update-diff"))
+        self.assertIn("2026-09-30T16:50:00Z", soup.select_one(".workbench-audit").get_text())
+
+    def test_completed_wikitree_comparison_is_not_marked_pending(self):
+        import tools.repair_person_hierarchy as renderer
+
+        update = {
+            "profile_id": "Glasgow-1",
+            "profile_url": "https://www.wikitree.com/wiki/Glasgow-1",
+            "summary": "The prepared amendment is already on WikiTree; no pending biography change.",
+            "significance": 90,
+            "remote_captured_at": "2026-09-30T16:50:00Z",
+            "remote_revision": "20260930165000",
+            "remote_wikitext": "same",
+            "draft_wikitext": "same",
+            "pending": False,
+        }
+        soup = BeautifulSoup(renderer._profile_update_panel(update), "html.parser")
+        self.assertIn("WikiTree profile and prepared draft", soup.get_text())
+        self.assertNotIn("Needs updated on WikiTree", soup.get_text())
+        self.assertIsNotNone(soup.select_one("#profile-update-current"))
+
+    def test_dossier_comparison_fallback_preserves_capture(self):
+        import tools.repair_person_hierarchy as renderer
+
+        dossier = {
+            "id": "Glasgow-1",
+            "wikitree_comparison": {
+                "profile_id": "Glasgow-1",
+                "remote_wikitext": "current",
+                "draft_wikitext": "draft",
+                "pending": False,
+            },
+        }
+        with patch.object(renderer, "_PROFILE_UPDATE_CACHE", {}):
+            result = renderer._profile_update_data("Glasgow-1", dossier)
+        self.assertEqual("current", result["remote_wikitext"])
+        self.assertEqual("draft", result["proposed_wikitext"])
+        self.assertFalse(result["pending"])
+
+    def test_completed_comparison_uses_captured_biography_as_draft(self):
+        from tools.sync_catalogue_research import completed_comparisons
+
+        result = completed_comparisons(
+            {"profiles": {"Glasgow-1": {
+                "profile_url": "https://www.wikitree.com/wiki/Glasgow-1",
+                "captured_at": "2026-09-30T16:50:00Z",
+                "last_updated": "20260930165000",
+                "biography_wikitext": "current biography",
+            }}},
+            {"completed_live_profiles": ["Glasgow-1"], "entries": {}},
+        )
+        self.assertEqual("current biography", result["Glasgow-1"]["remote_wikitext"])
+        self.assertEqual("current biography", result["Glasgow-1"]["draft_wikitext"])
+        self.assertFalse(result["Glasgow-1"]["pending"])
+
     def test_biography_sections_are_visible_navigable_and_label_their_own_tables(self):
         """Authored narrative belongs in the reading flow, including its evidence table."""
         from tools.repair_person_hierarchy import render_person_dossier
@@ -135,19 +209,46 @@ class PersonDossierPresentationTests(unittest.TestCase):
                 soup=BeautifulSoup(render_person_dossier("Example-1"),"html.parser")
             self.assertFalse(soup.select(".biography-disclosure")); self.assertIn("Body",soup.get_text())
 
+    def test_compact_account_preserves_grouped_and_new_evidence(self):
+        """New research stays reachable without invalidating the compact reading."""
+        from tools.repair_person_hierarchy import render_person_dossier
+        editorial = {
+            "opening": "Current answer", "reading_mode": "authored",
+            "reading_guide": {"mode": "compact-account", "hypothesis": "Hypothesis", "current_answer": "Answer",
+                "account_sections": [{"id": "short-account", "title": "Family", "markdown": "Main evidence [original](https://example.test/original)."}],
+                "groups": [{"id": "g", "title": "Household", "purpose": "Original records", "section_ids": ["early"]}]},
+            "biography_sections": [{"id": ident, "title": ident.title(), "markdown": f"{ident} evidence\n\n| Year | Finding |\n| --- | --- |\n| 1841 | Present |",
+                "reading_summary": {"question": "What?", "finding": "Present.", "purpose": "Context."}} for ident in ("early", "new")],
+        }
+        editorial["biography_sections"][1]["reading_summary"] = "A newly found record, with an unresolved identity."
+        dossier = {"id": "Example-1", "name": "Example", "vitals": {}}
+        with patch("tools.repair_person_hierarchy._profile_data", return_value=(dossier, {}, {})), patch("tools.repair_person_hierarchy._editorial", return_value=editorial), patch("tools.repair_person_hierarchy._record_rows", return_value=[]), patch("tools.repair_person_hierarchy._record_source_map", return_value=({}, [])), patch("tools.repair_person_hierarchy._current_vitals", return_value={}), patch("tools.repair_person_hierarchy._family_html", return_value=""), patch("tools.repair_person_hierarchy._parent_comparison_html", return_value=""), patch("tools.repair_person_hierarchy._evidence_questions", return_value=""), patch("tools.repair_person_hierarchy._timeline_html", return_value=""), patch("tools.repair_person_hierarchy._research_html", return_value=""), patch("tools.repair_person_hierarchy._sources_html", return_value=""), patch("tools.repair_person_hierarchy._archive_html", return_value=""):
+            soup = BeautifulSoup(render_person_dossier("Example-1"), "html.parser")
+        self.assertIsNone(soup.select_one("#short-account").find_parent("details"))
+        self.assertIsNotNone(soup.select_one('#short-account a[href="https://example.test/original"]'))
+        for ident in ("early", "new"):
+            section = soup.select_one("#" + ident)
+            self.assertTrue(section.find_parent("details"))
+            self.assertFalse(section.select_one("details").has_attr("open"))
+            self.assertIsNotNone(section.select_one("table.biography-table"))
+        self.assertIsNotNone(soup.select_one("#reading-group-additional-evidence #new"))
+        self.assertEqual(["#overview", "#short-account", "#full-research", "#archive-tools"], [a["href"] for a in soup.select(".dossier-toc a")])
+
     def test_acceptance_page_has_one_current_view_and_complete_documentary_list(self):
         soup = self.page("glasgow-951")
         main = soup.select_one("main")
         authored = json.loads((ROOT / "research/Glasgow-951/presentation.json").read_text())["biography_sections"]
-        headings = [node.get_text(" ", strip=True) for node in main.select(".dossier-reading > .dossier-section > h2")]
+        headings = [section.select_one("h2").get_text(" ", strip=True) for section in main.select(".dossier-reading > .dossier-section")]
         self.assertEqual(
-            ["Current position", *[section["title"] for section in authored], "Sources"],
+            ["What we know", "Mary and the six children", "A life in records", "A small Antrim neighbourhood", "Why the 1888 death is probable", "The case for John Glasgow", "The Irish–Canadian family", "DNA and the Larne hypotheses", "What could change the answer?", "Source notebook", "Sources"],
             headings,
         )
         for section in authored:
             visible = main.select_one("#" + section["id"])
             self.assertIsNotNone(visible)
-            self.assertIsNone(visible.find_parent("details"))
+            self.assertIsNotNone(visible.find_parent("details"))
+            self.assertFalse(visible.find_parent("details").has_attr("open"))
+            self.assertIsNone(visible.select_one(".biography-disclosure"))
         self.assertEqual(0, sum(text.casefold() == "current conclusion" for text in headings))
         records = main.select_one("#timeline")
         collateral = BeautifulSoup("".join(str(row) for row in main.select('.timeline-row[data-group="Collateral records"]')), "html.parser")
@@ -163,6 +264,149 @@ class PersonDossierPresentationTests(unittest.TestCase):
         for ident in ("family", "evidence", "parent-candidates", "timeline", "research"):
             self.assertEqual("archive-tools", main.select_one("#" + ident).find_parent(id="archive-tools")["id"])
         self.assertFalse(main.select("#next-research .candidate-score"))
+
+    def test_family_diagram_retains_each_child_account_and_uncertainty(self):
+        """Visual connections preserve the table's facts, profile links and limits."""
+        from tools.repair_person_hierarchy import _biography_sections_html
+        source = json.loads((ROOT / "research/Glasgow-951/presentation.json").read_text())
+        section = next(item for item in source["reading_guide"]["account_sections"] if item["id"] == "family-account")
+        original = BeautifulSoup(_biography_sections_html("Glasgow-951", {"biography_sections": [section]}, set())[0][2], "html.parser")
+        diagram = self.page("glasgow-951").select_one("#family-account .account-family-map")
+        rows = original.select("tbody tr")
+        children = diagram.select(".family-children > li")
+        self.assertEqual(6, len(children))
+        for row, child in zip(rows, children):
+            self.assertEqual(row.get_text(" ", strip=True), child.get_text(" ", strip=True))
+            self.assertEqual([a["href"] for a in row.select("a")], [a["href"] for a in child.select("a")])
+        self.assertIn("three were at home in 1851", diagram.figcaption.get_text())
+        self.assertIn("Michigan identification is unproved", diagram.get_text())
+        self.assertNotIn("Glasgow-4090", diagram.get_text())
+        trail = self.page("glasgow-951").select_one("#record-trail")
+        self.assertEqual(["1834", "1836", "1851", "1871", "1888"], [n.get_text() for n in trail.select(".trail-year")])
+        self.assertIn("probable, not proved", trail.get_text())
+        self.assertIn("relationship is unknown", trail.get_text())
+        self.assertTrue(all(node.select_one("a[href]") for node in trail.select("li")))
+
+    def test_important_arguments_are_visible_outside_the_source_notebook(self):
+        """The default account must explain the research, rather than hide its findings."""
+        soup = self.page("glasgow-951")
+        account = soup.select(".account-section")
+        self.assertTrue(account)
+        for section in account:
+            self.assertIsNone(section.find_parent("details"))
+            self.assertFalse(section.select("details"))
+            self.assertNotIn("{{visuals}}", section.get_text())
+        self.assertEqual(1, len(soup.select(".supporting-research details")))
+        self.assertEqual(17, len(soup.select("#source-notebook .biography-section")))
+        self.assertTrue(soup.select_one('#places-account img[src$="/places.svg"]'))
+        self.assertEqual(3, len(soup.select("#parents-account .visual-chain li")))
+        self.assertEqual(3, len(soup.select("#parents-account .visual-cards li")))
+        self.assertEqual(4, len(soup.select("#death-account .visual-chain li")))
+        self.assertIn("1811", soup.select_one("#death-account .visual-cards").get_text())
+        self.assertIn("1804", soup.select_one("#death-account .visual-cards").get_text())
+        connections = soup.select_one("#connections-account")
+        self.assertIn("historical men were not themselves tested", soup.select_one("#dna-account").get_text())
+        self.assertIn("Alexander is not connected to them by these records", connections.get_text())
+        for node in soup.select("#parents-account .visual-chain li, #death-account .visual-chain li"):
+            self.assertTrue(node.select_one("a[href]"))
+
+    def test_guided_account_exposes_source_readings_with_provenance(self):
+        """A reader can inspect each claim and distinguish a record from an inference."""
+        soup = self.page("glasgow-951")
+        steps = soup.select(".account-journey a")
+        self.assertEqual(["#family-account", "#places-account", "#parents-account"], [a["href"] for a in steps])
+        snippets = soup.select(".account-section .source-snippet")
+        self.assertEqual(6, len(snippets))
+        for snippet in snippets:
+            ident = snippet["data-excerpt"]
+            original = soup.select_one("#excerpt-" + ident)
+            self.assertIsNotNone(original)
+            self.assertEqual(original.select_one(".record-stage img")["src"], snippet.img["src"])
+            self.assertEqual(original.select_one(".record-provenance a")["href"], snippet.select_one(".snippet-source a")["href"])
+            self.assertIsNone(snippet.find_parent("details"))
+            self.assertTrue(snippet.select_one(".snippet-label").get_text())
+            self.assertTrue(snippet.select_one(".snippet-reading").get_text())
+            self.assertFalse(snippet.select("[id]"))
+        death = soup.select_one("#death-account")
+        self.assertIn("upper row", death.select_one('[data-excerpt="robert1866-marriage"]').get_text())
+        self.assertIn("lower row", death.select_one('[data-excerpt="ann1876-marriage"]').get_text())
+        self.assertIn("does not establish the deceased’s identity", death.get_text())
+        self.assertIn("Nancy Glasgow", death.select_one('[data-excerpt="alex1888-informant"] blockquote').get_text())
+        self.assertIn("Ann’s identification as Nancy is unproved", death.get_text())
+        self.assertIn("names no relatives or Irish birthplace", soup.select_one('[data-excerpt="nancy1891-death"] .snippet-reading').get_text())
+        for section in soup.select(".account-section"):
+            self.assertNotIn("{{snippets:", section.get_text())
+        self.assertEqual(6, len(soup.select(".account-transition")))
+
+    def test_source_snippets_cannot_preview_withheld_records(self):
+        from tools.repair_person_hierarchy import _account_snippets
+        block = {"id": "test", "items": [{"excerpt_id": "withheld", "title": "Record", "quote": "A name", "quote_label": "Transcribed fields", "reading": "An interpretation"}]}
+        with patch("tools.repair_person_hierarchy._record_excerpt_html", return_value='<p class="record-withheld">Record withheld</p>'):
+            rendered = _account_snippets('<p>{{snippets:test}}</p>', [block], "Example-1")
+        self.assertNotIn("A name", rendered)
+        self.assertNotIn("source-snippet", rendered)
+        self.assertNotIn("{{snippets:", rendered)
+
+    def test_estate_diagram_distinguishes_recorded_kin_words_from_sibling_inference(self):
+        soup = self.page("glasgow-951")
+        diagram = soup.select_one("#parents-account .visual-kinship")
+        self.assertEqual(["niece", "nephew"], [q.get_text() for q in diagram.select("q")])
+        parents = diagram.select(".kin-parent")
+        self.assertIn("Jane Glascaw", parents[0].get_text())
+        self.assertIn("Betty Glascaw", parents[1].get_text())
+        self.assertTrue(all(p.select_one('a[href*="Baptisms_1834"]') for p in parents))
+        note = diagram.select_one(".visual-note").get_text()
+        self.assertIn("probably Nancy’s sisters", note)
+        self.assertIn("do not state full siblinghood", note)
+        self.assertIn("named transcriptions", note)
+        account = soup.select_one("#parents-account .biography-content")
+        self.assertLess(str(account).index('visual-kinship'), str(account).index('visual-chain'))
+        self.assertEqual(3, len(account.select(".theory-test")))
+        self.assertNotIn("{{visuals", account.get_text())
+        self.assertIsNone(diagram.find_parent("details"))
+
+    def test_census_strip_keeps_household_order_separate_from_a_pedigree(self):
+        diagram = self.page("glasgow-951").select_one("#places-account .visual-households")
+        self.assertEqual(["House 34", "House 35", "House 36", "House 37"], [label.get_text() for label in diagram.select(".evidence-state")])
+        self.assertEqual("The Watters household", diagram.select("li h3")[2].get_text())
+        self.assertIn("Brothers explicitly recorded", diagram.select("li")[0].get_text())
+        self.assertIn("does not call Alexander their brother", diagram.select_one(".visual-note").get_text())
+        self.assertIn("not a property map or pedigree", diagram.figcaption.get_text())
+        self.assertIsNone(diagram.find_parent("details"))
+
+    def test_folded_studies_have_visible_material_findings_and_qualifications(self):
+        """Important unresolved identities and adverse evidence cannot live only in a notebook."""
+        soup = self.page("glasgow-951")
+        expected = {
+            "family-account": ["baggage agent", "County Antrim", "names neither Alexander nor Mary", "Samuel Elder", "Samuel Glasgow", "no father named", "no death or burial has been found"],
+            "places-account": ["Archibald", "Cath Quinn", "CR5/32A/1", "has not been inspected"],
+            "death-account": ["Glenleslie", "72", "118", "1882", "weaker but not excluded", "Ann’s identification as Nancy is unproved"],
+            "parents-account": ["1829", "59", "land section supplies no occupier names", "Plantation measure", "14–15", "7–8"],
+            "connections-account": ["express agent of Rochester", "James Glasco", "Eliza Jane", "Thomasina Montgomery", "John Black", "Mary Anne", "1875", "1900–09", "neither the fractions nor the common name"],
+            "dna-account": ["genetic distance 3 at Y-111", "FT6135", "Untested", "two missing relationships", "1760", "1762", "only 12", "John Glasgow, farmer"],
+            "next-checks-account": ["Ann McClelland", "644/2/849", "28 April 1894", "uninspected", "independent evidence"],
+        }
+        for ident, phrases in expected.items():
+            section = soup.select_one("#" + ident)
+            self.assertIsNone(section.find_parent("details"))
+            self.assertFalse(section.select("details"))
+            text = section.get_text(" ", strip=True).casefold()
+            for phrase in phrases:
+                self.assertIn(phrase.casefold(), text, (ident, phrase))
+        paths = soup.select("#family-account .evidence-path")
+        self.assertEqual(3, len(paths))
+        self.assertTrue(all(path.select_one('.path-continuation[data-state]') for path in paths))
+        guide = json.loads((ROOT / "research/Glasgow-951/presentation.json").read_text())["reading_guide"]
+        source_ids = {section["id"] for section in json.loads((ROOT / "research/Glasgow-951/presentation.json").read_text())["biography_sections"]}
+        self.assertEqual(source_ids, set(guide["visible_coverage"]))
+        self.assertTrue(all(soup.select_one('#' + ident + '.account-section') for ids in guide["visible_coverage"].values() for ident in ids))
+
+    def test_property_shares_compare_equal_units_without_counting_children(self):
+        diagram = self.page("glasgow-951").select_one(".visual-shares")
+        self.assertEqual([18, 18], [len(strip.select('.share-unit')) for strip in diagram.select('.share-strip')])
+        self.assertEqual([3, 4], [len(strip.select('.share-filled')) for strip in diagram.select('.share-strip')])
+        self.assertEqual(["3 of 18 equal parts", "4 of 18 equal parts"], [strip["aria-label"] for strip in diagram.select('.share-strip')])
+        self.assertIn("no complete child count follows", self.page("glasgow-951").select_one('#connections-account').get_text())
 
     def test_relationship_qualifiers_and_links_are_preserved(self):
         soup = self.page("glasgow-951")
@@ -192,6 +436,10 @@ class PersonDossierPresentationTests(unittest.TestCase):
         archive = reading.select_one("#archive-tools")
         archive_text = archive.get_text() if archive else ""
         archive.decompose()
+        # The restored comparison deliberately exposes native WikiTree text;
+        # it is an editing tool, separate from the prose research account.
+        for panel in reading.select("#wikitree-update"):
+            panel.decompose()
         visible_text = reading.get_text(" ", strip=True)
         self.assertNotIn("[[Glasgow-", visible_text)
         self.assertNotIn("<ref", visible_text)
@@ -290,11 +538,13 @@ class PersonDossierPresentationTests(unittest.TestCase):
         archive_copy = archive.get_text(" ", strip=True)
         reading_copy_copy = BeautifulSoup(str(reading_copy), "html.parser")
         reading_copy_copy.select_one("#archive-tools").decompose()
+        for panel in reading_copy_copy.select("#wikitree-update"):
+            panel.decompose()
         self.assertNotIn("[[Glasgow-", reading_copy_copy.get_text())
         self.assertNotIn("<ref", reading_copy_copy.get_text())
         dossier = json.loads((ROOT / "www/people/glasgow-951.json").read_text())
         draft = (dossier.get("wikitree_update") or {}).get("draft_wikitext") or ""
-        textarea = archive.select_one("textarea")
+        textarea = soup.select_one("#profile-update-draft") or archive.select_one("textarea")
         if draft:
             self.assertEqual(draft, textarea.get_text())
         self.assertIn("p29041.htm#i290407", str(archive))

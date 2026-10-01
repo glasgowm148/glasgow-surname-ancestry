@@ -1,6 +1,6 @@
 # Findings: Glasgow-548
 
-Last updated: 2026-09-08
+Last updated: 2026-09-30
 
 ## Current answer
 
@@ -45,7 +45,7 @@ still a hypothesis because neither Hugh's children are named in the return.
 | William Melanchthon Glasgow, *History of the Glasgow Family*, original scan p. 2 | Written roughly 160 years after the events, it says the older Hugh worked for an aged weaver named McCullough, married the employer's daughter Margaret McCullough in 1733, and had sons John, Robert and Hugh. This wording is present in William's own narrative, not a later WikiTree interpolation. | Family tradition only. The narrative does not name Margaret's father or cite a contemporary source and cannot be used to select the 1740 entry merely because James McCullough follows one Hugh in collector order. Saved scan in `sources/william_melanchthon_glasgow_family_history.pdf`. |
 | Same family history, original scan p. 3 | It says the younger Hugh's eldest son John was born on 28 April 1780 on the family farm in County Londonderry, `not far from` Portglenone. | Late testimony, but a specific geographic statement independently consistent with the Tamlaght O'Crilly/Inishrush evidence. It strengthens the extended-cluster identification without naming Adam's father. |
 | Same family history, original scan p. 3 | When the younger Hugh's family emigrated in August 1796, they reportedly left many kin and acquaintances behind. | Positive late-family testimony that collateral relatives remained in Ireland. Adam and John are plausible members of that residual kin network, especially given their later Covenanter association, but they are not named. |
-| Same family history, checked against Hugh Glasgow's original Pennsylvania will | The history says the younger Hugh died in 1824, but he signed his will on 29 March 1827 and it was proved 25 April 1831. Its 1796 emigration narrative concerns the younger Hugh's household, not this older Hugh. | A demonstrated chronology error requires caution with its unsupported 1706, 1733 and kinship details. The current WikiTree biography incorrectly transfers the 1796 migration paragraph to the older Hugh. |
+| Same family history, checked against Hugh Glasgow's original Pennsylvania will | The history says the younger Hugh died in 1824, but he signed his will on 29 March 1827 and it was proved 25 April 1831. Its 1796 emigration narrative concerns the younger Hugh's household, not this older Hugh. | A demonstrated chronology error requires caution with its unsupported 1706, 1733 and kinship details. The WikiTree biography captured on 30 September 2026 already correctly describes the 1796 migration as the younger Hugh’s household. The earlier concern about misattribution is superseded; retain this family context. |
 | PRONI Bellaghy estate series described in `D1062/1/5`, `D2094/50-51, 68, 75-76, 78`, and `T2825/C/19/1-13` | Lease books, rentals and accounts survive for the period in which a Glasgow tenancy could be identified, but the relevant name-level Inishrush rows are not digitised. A published study using the series warns that rentals may list head tenants and omit subtenants. | These are the best remaining direct-record targets. A missing Glasgow head tenant would not by itself exclude residence. Catalogue inventory and study are saved in `sources/`. |
 
 ## Ellis and Dobbin network audit

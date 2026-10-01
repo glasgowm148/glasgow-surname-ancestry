@@ -41,6 +41,49 @@ class PublishCleanUrlsTest(unittest.TestCase):
             self.assertIn('location.protocol!=="file:"', output)
             self.assertIn('href="catalogue.html"', output)
 
+    def test_comparison_rebuild_refreshes_content_inside_shared_navigation(self):
+        with tempfile.TemporaryDirectory() as directory:
+            web = Path(directory)
+            (web / "compare").mkdir()
+            (web / "compare" / "advanced.html").write_text(
+                '<html><head><title>Old comparison</title></head>'
+                '<body data-g-path="/compare/advanced.html"><aside class="g-rail">'
+                '<nav class="g-nav">Old navigation</nav></aside>'
+                '<main>Old comparison controls</main>'
+                '<script src="/data/compare-index.js?v=old"></script>'
+                '<script src="/people/compare.js?v=old" defer></script></body></html>',
+                encoding="utf-8",
+            )
+            source = web / "compare.html"
+            for generation in ("first", "updated"):
+                source.write_text(
+                    '<html><head><title>Compare people</title></head><body>'
+                    f'<main><input id="compare-a"><input id="compare-b">{generation}'
+                    '<div id="compare-results"></div></main>'
+                    '<footer><p>Shared places do not prove kinship.</p></footer>'
+                    f'<script src="data/compare-index.js?v={generation}"></script>'
+                    f'<script src="people/compare.js?v={generation}" defer></script>'
+                    '</body></html>', encoding="utf-8",
+                )
+                publish_clean_urls(web)
+                output = (web / "compare" / "index.html").read_text(encoding="utf-8")
+                self.assertEqual(output.count('class="g-rail"'), 1)
+                self.assertEqual(output.count('class="g-nav"'), 1)
+                self.assertIn('href="/research/" aria-current="page"', output)
+                self.assertIn('data-g-path="/compare/"', output)
+                self.assertIn('<title>Compare people</title>', output)
+                self.assertIn(f'id="compare-b">{generation}', output)
+                self.assertIn('id="compare-results"', output)
+                self.assertIn('Shared places do not prove kinship.', output)
+                self.assertIn(f'src="/data/compare-index.js?v={generation}"', output)
+                self.assertIn(f'src="/people/compare.js?v={generation}" defer', output)
+                self.assertIn('<base href="../">', output)
+                self.assertNotIn('Old comparison', output)
+                publish_clean_urls(web)
+                self.assertEqual(
+                    (web / "compare" / "index.html").read_text(encoding="utf-8"), output
+                )
+
 
 if __name__ == "__main__":
     unittest.main()

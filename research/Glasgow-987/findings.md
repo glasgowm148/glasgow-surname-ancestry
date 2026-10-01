@@ -2,7 +2,7 @@
 
 Last updated: 2026-09-13
 
-## Current conclusion
+## Assessment history — will and marriage review
 
 Two original records now strongly identify Thomas Glasgow of Lisnagaver as the
 late brother named in Daniel Glasgow of Kilrea's 1871 will. Daniel's will names

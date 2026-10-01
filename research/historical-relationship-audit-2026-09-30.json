@@ -1,0 +1,999 @@
+{
+  "schema_version": 2,
+  "audit_date": "2026-09-30",
+  "purpose": "Additive repository-only historical audit of relationship confidence changes beyond the current latest-findings ledger; no latest-findings, www, browser, or live WikiTree edits.",
+  "scope": {
+    "period": "2026-07-17 through 2026-09-29 committed history, with dated research through 2026-09-30",
+    "git_history": "research history from 2026-08-20 through b78bf5da (2026-09-29); current working research files included where cited",
+    "inputs": [
+      "research/latest-findings.json",
+      "research/latest-findings-relationship-upgrades.json",
+      "research/latest-findings-relationship-upgrades-followup-2026-09-30.json",
+      "research/relationship_assessments.json",
+      "research/pre-1600-father-status-audit-2026-09-28.json",
+      "research/pre-1600-glasgow-father-evidence-audit-2026-09-28.json",
+      "research/pre-1550-parent-status-audit-2026-09-27.json",
+      "dated research/*/findings.md and profile drafts"
+    ],
+    "classification": "Exact means the maintained source records a prior assessed unknown/uncertain grade and a later certain/confident grade. Unmarked→confident is a real live status change but is reported separately because its prior grade is explicitly ungraded. Inferential parentage is eligible when profile identity and relationship scope are explicit; evidence quality and unresolved identity questions remain visible."
+  },
+  "counts": {
+    "current_latest_findings_relationship_change_rows": 9,
+    "current_latest_findings_relationship_change_batches": 3,
+    "exact_prior_grade_transitions_current_ledger": 9,
+    "additional_exact_uncertain_to_confident": 5,
+    "exact_prior_grade_transitions_total_after_deduplication": 14,
+    "unmarked_to_confident_live_changes": 24,
+    "confident_status_without_recoverable_prior_grade": 5,
+    "historical_followup_candidates_reconciled": 3,
+    "live_correction_rows_total": 58,
+    "live_correction_breakdown": {
+      "unmarked->uncertain": 26,
+      "confident->uncertain": 4,
+      "uncertain->confident": 4,
+      "unmarked->confident": 24
+    },
+    "relationship_assessment_entries": 93,
+    "latest_findings_total": 462,
+    "latest_findings_relationship_kind_total": 77,
+    "pre1600_audit_profiles": 135,
+    "pre1600_audit_live_corrections": 58,
+    "pre1600_glasgow_cohort": 46,
+    "pre1550_parent_status_profiles": 26,
+    "pre1550_parent_status_links": 48,
+    "pre1550_current_confident_links": 20,
+    "pre1550_current_uncertain_links": 27,
+    "pre1550_current_unmarked_links": 1,
+    "pre1600_glasgow_audit_reviewed_targets": 31
+  },
+  "current_ledger_rows": [
+    {
+      "finding_id": "prescott-glasgow-brothers-deed-1861",
+      "date": "2026-09-13",
+      "relationship": "sibling",
+      "subject": "Daniel Glasgow (Glasgow-3896)",
+      "relative": "Robert Glasgow of Prescott (Glasgow-4150)",
+      "before": "uncertain",
+      "after": "certain",
+      "evidence": "The original 1849 Robert will names Daniel and Thomas as brothers; the original B465 deed of 30 July 1861 identifies the corresponding Irish beneficiaries by Kilrea/watchmaker/Margaret and Lisnagaver/farmer/Mary Anne. Together with established Daniel–Thomas brotherhood, these identify the known Irish men with Robert’s named brothers.",
+      "scope": "Certain sibling relationship to the record-defined Prescott testator. Their parents and Alexander Glasgow-951’s relationship remain unresolved. This is a multi-record identity argument, not an assertion based on the isolated kinship clause.",
+      "source_refs": [
+        "research/latest-findings.json#/findings/220/relationship_changes/0",
+        "research/Glasgow-3896/findings.md",
+        "research/Glasgow-987/findings.md",
+        "research/latest-findings-relationship-upgrades.json",
+        "research/latest-findings-profile-link-audit.json",
+        "research/Glasgow-4010/findings.md:16-24 (8 September 2026 original-will review: other named siblings still require identity and duplicate checks)",
+        "research/Glasgow-951/findings.md:1304-1306 (retained earlier open identity test)",
+        "research/Glasgow-951/profile-evidence-review-2026-09-13.md:319-321 (explicit statement that this resolves former uncertainty)"
+      ]
+    },
+    {
+      "finding_id": "prescott-glasgow-brothers-deed-1861",
+      "date": "2026-09-13",
+      "relationship": "sibling",
+      "subject": "Thomas Glasgow (Glasgow-987)",
+      "relative": "Robert Glasgow of Prescott (Glasgow-4150)",
+      "before": "uncertain",
+      "after": "certain",
+      "evidence": "The original 1849 Robert will names Daniel and Thomas as brothers; the original B465 deed of 30 July 1861 identifies the corresponding Irish beneficiaries by Kilrea/watchmaker/Margaret and Lisnagaver/farmer/Mary Anne. Together with established Daniel–Thomas brotherhood, these identify the known Irish men with Robert’s named brothers.",
+      "scope": "Certain sibling relationship to the record-defined Prescott testator. Their parents and Alexander Glasgow-951’s relationship remain unresolved. This is a multi-record identity argument, not an assertion based on the isolated kinship clause.",
+      "source_refs": [
+        "research/latest-findings.json#/findings/220/relationship_changes/1",
+        "research/Glasgow-3896/findings.md",
+        "research/Glasgow-987/findings.md",
+        "research/latest-findings-relationship-upgrades.json",
+        "research/latest-findings-profile-link-audit.json",
+        "research/Glasgow-4010/findings.md:16-24 (8 September 2026 original-will review: other named siblings still require identity and duplicate checks)",
+        "research/Glasgow-951/findings.md:1304-1306 (retained earlier open identity test)",
+        "research/Glasgow-951/profile-evidence-review-2026-09-13.md:319-321 (explicit statement that this resolves former uncertainty)"
+      ]
+    },
+    {
+      "finding_id": "prescott-glasgow-brothers-deed-1861",
+      "date": "2026-09-13",
+      "relationship": "sibling",
+      "subject": "Daniel Glasgow (Glasgow-3896)",
+      "relative": "Samuel Glasgow, Prescott merchant (Glasgow-4010)",
+      "before": "uncertain",
+      "after": "certain",
+      "evidence": "Robert’s will names Samuel, Daniel and Thomas as brothers; the 1861 deed identifies Daniel and Thomas by their places, trades and wives, resolving their identity with the Irish profiles and placing them in Samuel’s sibling group.",
+      "scope": null,
+      "source_refs": [
+        "research/latest-findings.json#/findings/220/relationship_changes/2",
+        "research/Glasgow-3896/findings.md",
+        "research/Glasgow-987/findings.md",
+        "research/latest-findings-relationship-upgrades.json",
+        "research/latest-findings-profile-link-audit.json",
+        "research/Glasgow-4010/findings.md:16-24 (other named sibling identities still required checks)",
+        "research/Glasgow-951/profile-evidence-review-2026-09-13.md:319-321 (identity uncertainty resolved)"
+      ]
+    },
+    {
+      "finding_id": "prescott-glasgow-brothers-deed-1861",
+      "date": "2026-09-13",
+      "relationship": "sibling",
+      "subject": "Thomas Glasgow (Glasgow-987)",
+      "relative": "Samuel Glasgow, Prescott merchant (Glasgow-4010)",
+      "before": "uncertain",
+      "after": "certain",
+      "evidence": "Robert’s will names Samuel, Daniel and Thomas as brothers; the 1861 deed identifies Daniel and Thomas by their places, trades and wives, resolving their identity with the Irish profiles and placing them in Samuel’s sibling group.",
+      "scope": null,
+      "source_refs": [
+        "research/latest-findings.json#/findings/220/relationship_changes/3",
+        "research/Glasgow-3896/findings.md",
+        "research/Glasgow-987/findings.md",
+        "research/latest-findings-relationship-upgrades.json",
+        "research/latest-findings-profile-link-audit.json",
+        "research/Glasgow-4010/findings.md:16-24 (other named sibling identities still required checks)",
+        "research/Glasgow-951/profile-evidence-review-2026-09-13.md:319-321 (identity uncertainty resolved)"
+      ]
+    },
+    {
+      "finding_id": "hamilton-ballycregagh-census-family-1851",
+      "date": "2026-08-19",
+      "relationship": "father",
+      "subject": "Peggy Hamilton (Hamilton-25516)",
+      "relative": "Robert Hamilton (Hamilton-44031)",
+      "before": "unknown",
+      "after": "certain",
+      "evidence": "The living and mortality returns together establish the named family relationship. These are the first documented family links in the dated census review; no prior established parent or sibling identification is recorded in the case.",
+      "scope": null,
+      "source_refs": [
+        "research/latest-findings.json#/findings/459/relationship_changes/0",
+        "research/Hamilton-25516/findings.md:3-29",
+        "research/Hamilton-44032/findings.md",
+        "research/Hamilton-44033/findings.md",
+        "research/Hamilton-44031/findings.md",
+        "research/Unknown-764457/findings.md",
+        "research/Hamilton-25516/findings.md:3-29 (19 August first documented sibling/parent identification, separate from uncertain maternity)",
+        "research/Hamilton-44031/findings.md:5-12",
+        "research/Unknown-764457/findings.md:5-13"
+      ]
+    },
+    {
+      "finding_id": "hamilton-ballycregagh-census-family-1851",
+      "date": "2026-08-19",
+      "relationship": "mother",
+      "subject": "Peggy Hamilton (Hamilton-25516)",
+      "relative": "Cathrin Hamilton (Unknown-764457)",
+      "before": "unknown",
+      "after": "certain",
+      "evidence": "The living and mortality returns together establish the named family relationship. These are the first documented family links in the dated census review; no prior established parent or sibling identification is recorded in the case.",
+      "scope": null,
+      "source_refs": [
+        "research/latest-findings.json#/findings/459/relationship_changes/1",
+        "research/Hamilton-25516/findings.md:3-29",
+        "research/Hamilton-44032/findings.md",
+        "research/Hamilton-44033/findings.md",
+        "research/Hamilton-44031/findings.md",
+        "research/Unknown-764457/findings.md",
+        "research/Hamilton-25516/findings.md:3-29 (19 August first documented sibling/parent identification, separate from uncertain maternity)",
+        "research/Hamilton-44031/findings.md:5-12",
+        "research/Unknown-764457/findings.md:5-13"
+      ]
+    },
+    {
+      "finding_id": "hamilton-ballycregagh-census-family-1851",
+      "date": "2026-08-19",
+      "relationship": "sibling",
+      "subject": "Nancy Hamilton (Hamilton-44032)",
+      "relative": "Peggy Hamilton (Hamilton-25516)",
+      "before": "unknown",
+      "after": "certain",
+      "evidence": "The living and mortality returns together establish the named family relationship. These are the first documented family links in the dated census review; no prior established parent or sibling identification is recorded in the case.",
+      "scope": null,
+      "source_refs": [
+        "research/latest-findings.json#/findings/459/relationship_changes/2",
+        "research/Hamilton-25516/findings.md:3-29",
+        "research/Hamilton-44032/findings.md",
+        "research/Hamilton-44033/findings.md",
+        "research/Hamilton-44031/findings.md",
+        "research/Unknown-764457/findings.md",
+        "research/Hamilton-25516/findings.md:3-29 (19 August first documented sibling/parent identification, separate from uncertain maternity)",
+        "research/Hamilton-44031/findings.md:5-12",
+        "research/Unknown-764457/findings.md:5-13"
+      ]
+    },
+    {
+      "finding_id": "hamilton-ballycregagh-census-family-1851",
+      "date": "2026-08-19",
+      "relationship": "sibling",
+      "subject": "Jane Hamilton (Hamilton-44033)",
+      "relative": "Peggy Hamilton (Hamilton-25516)",
+      "before": "unknown",
+      "after": "certain",
+      "evidence": "The living and mortality returns together establish the named family relationship. These are the first documented family links in the dated census review; no prior established parent or sibling identification is recorded in the case.",
+      "scope": null,
+      "source_refs": [
+        "research/latest-findings.json#/findings/459/relationship_changes/3",
+        "research/Hamilton-25516/findings.md:3-29",
+        "research/Hamilton-44032/findings.md",
+        "research/Hamilton-44033/findings.md",
+        "research/Hamilton-44031/findings.md",
+        "research/Unknown-764457/findings.md",
+        "research/Hamilton-25516/findings.md:3-29 (19 August first documented sibling/parent identification, separate from uncertain maternity)",
+        "research/Hamilton-44031/findings.md:5-12",
+        "research/Unknown-764457/findings.md:5-13"
+      ]
+    },
+    {
+      "finding_id": "daniel-will-david-father-1871",
+      "date": "2026-07-17",
+      "relationship": "father",
+      "subject": "David Glasgow (Glasgow-3899)",
+      "relative": "Daniel Glasgow (Glasgow-3896)",
+      "before": "uncertain",
+      "after": "certain",
+      "evidence": "The original will identifies David of London as Daniel’s son; David’s dated case says his father is now directly proved, superseding the former statement that no record named Daniel as his father.",
+      "scope": null,
+      "source_refs": [
+        "research/latest-findings.json#/findings/461/relationship_changes/0",
+        "research/Glasgow-3899/findings.md:3-24",
+        "research/Glasgow-3896/findings.md:55",
+        "research/Glasgow-3899/sources/daniel_glasgow_1871_will_manifest.md",
+        "research/Glasgow-3896/findings.md:55 (explicit superseded no-record statement)",
+        "research/Glasgow-3899/findings.md:3-24 (17 July dated resolution)"
+      ]
+    }
+  ],
+  "additional_exact_uncertain_to_confident": [
+    {
+      "finding_id": "andrew-testament-jonet-1598",
+      "date": "2026-09-27",
+      "relationship": "father",
+      "subject": "Jonet Glasgow (Glasgow-3183; record-defined testament daughter)",
+      "relative": "Andrew Glasgow (Glasgow-3163)",
+      "before": "uncertain",
+      "after": "confident",
+      "evidence": "Andrew’s CC8/8/32 testament names Jonet among his daughters. The earlier James attachment was explicitly uncertain and was superseded; the later 1624 bride identity remains probable.",
+      "evidence_class": "direct record for scoped testament child; inferential cross-record bride identity",
+      "source_refs": [
+        "research/relationship_assessments.json#/26",
+        "research/Glasgow-3183/findings.md:5,12,15-17,35"
+      ],
+      "assessment_pointer": "research/relationship_assessments.json#/26",
+      "assessment_status": "proved",
+      "assessment_source_summary": null,
+      "source_grade": "proved"
+    },
+    {
+      "finding_id": "bryse-linlithgow-1613",
+      "date": "2026-09-28",
+      "relationship": "father",
+      "subject": "William Bryse (Bryse-13)",
+      "relative": "John Bryse (Bryse-15)",
+      "before": "uncertain",
+      "after": "confident",
+      "evidence": "The 1613 Linlithgow christening names John Bryse as father; the live audit records the exact status change.",
+      "evidence_class": "direct record",
+      "source_refs": [
+        "research/relationship_assessments.json#/32",
+        "research/pre-1600-father-status-audit-2026-09-28.json#/live_corrections/4",
+        "research/Bryse-13/findings.md:5,9-15"
+      ],
+      "assessment_pointer": "research/relationship_assessments.json#/32",
+      "assessment_status": "proved",
+      "assessment_source_summary": "FamilySearch X1RN-H3Y",
+      "source_grade": "proved"
+    },
+    {
+      "finding_id": "andrew-testament-isobel-1598",
+      "date": "2026-09-28",
+      "relationship": "father",
+      "subject": "Isobel Glasgow (Glasgow-3336; record-defined testament daughter)",
+      "relative": "Andrew Glasgow (Glasgow-3163)",
+      "before": "uncertain",
+      "after": "confident",
+      "evidence": "Andrew’s CC8/8/32 testament names Isobel among his daughters; the live audit records uncertain→confident. The later Edinburgh bride identity remains probable.",
+      "evidence_class": "direct record for scoped testament child; inferential cross-record bride identity",
+      "source_refs": [
+        "research/relationship_assessments.json#/47",
+        "research/pre-1600-father-status-audit-2026-09-28.json#/live_corrections/19",
+        "research/Glasgow-3336/findings.md:12-20,78-84"
+      ],
+      "assessment_pointer": "research/relationship_assessments.json#/47",
+      "assessment_status": "proved",
+      "assessment_source_summary": "NRS Edinburgh Commissary Court CC8/8/32, images 123–124.",
+      "source_grade": "proved"
+    },
+    {
+      "finding_id": "father-audit-glasford-11-glassford-289",
+      "date": "2026-09-28",
+      "relationship": "father",
+      "subject": "Rev. John Glassford (Glassford-289)",
+      "relative": "Patrick Glasfurd (Glasfurd-11)",
+      "before": "uncertain",
+      "after": "confident",
+      "evidence": "Fasti and notarial context support the father link; the maintained assessment is strongly_supported, but the live correction is an exact uncertain→confident change.",
+      "evidence_class": "inferential/strongly_supported; live status transition accepted",
+      "source_refs": [
+        "research/relationship_assessments.json#/38",
+        "research/pre-1600-father-status-audit-2026-09-28.json#/live_corrections/10",
+        "research/Glassford-289/findings.md:4-5,29-33"
+      ],
+      "assessment_pointer": "research/relationship_assessments.json#/38",
+      "assessment_status": "strongly_supported",
+      "assessment_source_summary": "Fasti, vol.III, p.116; NRS GD254/35 and GD254/190.",
+      "source_grade": "strongly_supported"
+    },
+    {
+      "finding_id": "father-audit-glasgow-1096-glasgow-1030",
+      "date": "2026-09-28",
+      "relationship": "father",
+      "subject": "John Glasgow (Glasgow-1030; record-defined Ninian brother mapping)",
+      "relative": "Robert Glasgow (Glasgow-1096)",
+      "before": "uncertain",
+      "after": "confident",
+      "evidence": "Ninian’s 1596 burgess admission names Robert as father and his 1613 testament names John as brother; surname, chronology and the 1619 witness support the common-father inference. Confidence applies to the record-defined brother represented by Glasgow-1030; identification with the 1618 Jonet Mathie husband remains probable.",
+      "evidence_class": "inferential/strongly_supported; live status transition accepted",
+      "source_refs": [
+        "research/relationship_assessments.json#/85",
+        "research/pre-1600-father-status-audit-2026-09-28.json#/live_corrections/57",
+        "research/Glasgow-1030/findings.md:24-31,79,93"
+      ],
+      "assessment_pointer": "research/relationship_assessments.json#/85",
+      "assessment_status": "strongly_supported",
+      "assessment_source_summary": null,
+      "source_grade": "strongly_supported"
+    }
+  ],
+  "unmarked_to_confident": [
+    {
+      "date": "2026-09-28",
+      "relationship": "father",
+      "subject": "Glasgow-1054",
+      "relative": "Glasgow-1028",
+      "before": "unmarked",
+      "after": "confident",
+      "evidence_class": "direct-record or record-specific",
+      "evidence_basis": "See dated profile findings and structured assessment; live audit records the exact unmarked→confident edit.",
+      "source_refs": [
+        "research/relationship_assessments.json#/39",
+        "research/pre-1600-father-status-audit-2026-09-28.json#/live_corrections/11",
+        "research/Glasgow-1054/findings.md"
+      ],
+      "assessment_status": "proved",
+      "assessment_source_summary": "The Mid Calder baptism index of 2 March 1606 names David Glasgow as father; NRS OPR 694/10/9.",
+      "assessment_pointer": "research/relationship_assessments.json#/39",
+      "source_grade": "proved"
+    },
+    {
+      "date": "2026-09-28",
+      "relationship": "father",
+      "subject": "Glasgow-1085",
+      "relative": "Glasgow-1028",
+      "before": "unmarked",
+      "after": "confident",
+      "evidence_class": "direct-record or record-specific",
+      "evidence_basis": "See dated profile findings and structured assessment; live audit records the exact unmarked→confident edit.",
+      "source_refs": [
+        "research/relationship_assessments.json#/40",
+        "research/pre-1600-father-status-audit-2026-09-28.json#/live_corrections/12",
+        "research/Glasgow-1085/findings.md"
+      ],
+      "assessment_status": "proved",
+      "assessment_source_summary": "The Mid Calder baptism index of 3 May 1612 names David Glasgow as father; NRS OPR 694/10/21.",
+      "assessment_pointer": "research/relationship_assessments.json#/40",
+      "source_grade": "proved"
+    },
+    {
+      "date": "2026-09-28",
+      "relationship": "father",
+      "subject": "Glasgow-1090",
+      "relative": "Glasgow-1030",
+      "before": "unmarked",
+      "after": "confident",
+      "evidence_class": "direct-record or record-specific",
+      "evidence_basis": "See dated profile findings and structured assessment; live audit records the exact unmarked→confident edit.",
+      "source_refs": [
+        "research/relationship_assessments.json#/41",
+        "research/pre-1600-father-status-audit-2026-09-28.json#/live_corrections/13",
+        "research/Glasgow-1090/findings.md"
+      ],
+      "assessment_status": "proved",
+      "assessment_source_summary": "The Glasgow 1627 baptism names John Glasgow and Jonet Mathie as the lawful child’s parents; High Kirk baptisms, vol.2/436.",
+      "assessment_pointer": "research/relationship_assessments.json#/41",
+      "source_grade": "proved"
+    },
+    {
+      "date": "2026-09-28",
+      "relationship": "father",
+      "subject": "Glasgow-2456",
+      "relative": "Glasgow-1557",
+      "before": "unmarked",
+      "after": "confident",
+      "evidence_class": "direct-record or record-specific",
+      "evidence_basis": "See dated profile findings and structured assessment; live audit records the exact unmarked→confident edit.",
+      "source_refs": [
+        "research/relationship_assessments.json#/45",
+        "research/pre-1600-father-status-audit-2026-09-28.json#/live_corrections/17",
+        "research/Glasgow-2456/findings.md"
+      ],
+      "assessment_status": "proved",
+      "assessment_source_summary": "The Inveresk and Musselburgh baptism index of 1 May 1609 names Eduard Glasgow as father; NRS OPR 689/10/19.",
+      "assessment_pointer": "research/relationship_assessments.json#/45",
+      "source_grade": "proved"
+    },
+    {
+      "date": "2026-09-28",
+      "relationship": "father",
+      "subject": "Glasgow-4151",
+      "relative": "Glasgow-4152",
+      "before": "unmarked",
+      "after": "confident",
+      "evidence_class": "direct-record or record-specific",
+      "evidence_basis": "See dated profile findings and structured assessment; live audit records the exact unmarked→confident edit.",
+      "source_refs": [
+        "research/relationship_assessments.json#/48",
+        "research/pre-1600-father-status-audit-2026-09-28.json#/live_corrections/20",
+        "research/Glasgow-4151/findings.md"
+      ],
+      "assessment_status": "proved",
+      "assessment_source_summary": "Glasgow Commissary Court testament dative and inventory",
+      "assessment_pointer": "research/relationship_assessments.json#/48",
+      "source_grade": "proved"
+    },
+    {
+      "date": "2026-09-28",
+      "relationship": "father",
+      "subject": "Glasgow-4153",
+      "relative": "Glasgow-4152",
+      "before": "unmarked",
+      "after": "confident",
+      "evidence_class": "direct-record or record-specific",
+      "evidence_basis": "See dated profile findings and structured assessment; live audit records the exact unmarked→confident edit.",
+      "source_refs": [
+        "research/relationship_assessments.json#/49",
+        "research/pre-1600-father-status-audit-2026-09-28.json#/live_corrections/21",
+        "research/Glasgow-4153/findings.md"
+      ],
+      "assessment_status": "proved",
+      "assessment_source_summary": "Glasgow Commissary Court testament dative and inventory",
+      "assessment_pointer": "research/relationship_assessments.json#/49",
+      "source_grade": "proved"
+    },
+    {
+      "date": "2026-09-28",
+      "relationship": "father",
+      "subject": "Glasgow-1084",
+      "relative": "Glasgow-991",
+      "before": "unmarked",
+      "after": "confident",
+      "evidence_class": "direct-record or record-specific",
+      "evidence_basis": "See dated profile findings and structured assessment; live audit records the exact unmarked→confident edit.",
+      "source_refs": [
+        "research/relationship_assessments.json#/50",
+        "research/pre-1600-father-status-audit-2026-09-28.json#/live_corrections/22",
+        "research/Glasgow-1084/findings.md"
+      ],
+      "assessment_status": "proved",
+      "assessment_source_summary": "The Mid Calder baptism index of 18 February 1616 names James Glasgow as father; NRS OPR 694/10/28. Later adult identities are assessed separately.",
+      "assessment_pointer": "research/relationship_assessments.json#/50",
+      "source_grade": "proved"
+    },
+    {
+      "date": "2026-09-28",
+      "relationship": "father",
+      "subject": "Glassfuird-1",
+      "relative": "Glassford-289",
+      "before": "unmarked",
+      "after": "confident",
+      "evidence_class": "direct-record or record-specific",
+      "evidence_basis": "See dated profile findings and structured assessment; live audit records the exact unmarked→confident edit.",
+      "source_refs": [
+        "research/relationship_assessments.json#/54",
+        "research/pre-1600-father-status-audit-2026-09-28.json#/live_corrections/26",
+        "research/Glassfuird-1/findings.md"
+      ],
+      "assessment_status": "proved",
+      "assessment_source_summary": "The 6 July 1642 Edinburgh apprentice entry expressly calls John son of the late John Glassfuird, minister at Kilwinning; Grant, Register of Apprentices, p.71.",
+      "assessment_pointer": "research/relationship_assessments.json#/54",
+      "source_grade": "proved"
+    },
+    {
+      "date": "2026-09-28",
+      "relationship": "father",
+      "subject": "Hutcheson-1648",
+      "relative": "Hutcheson-1647",
+      "before": "unmarked",
+      "after": "confident",
+      "evidence_class": "compiled/strongly-supported or existing cited record",
+      "evidence_basis": "See dated profile findings and structured assessment; live audit records the exact unmarked→confident edit.",
+      "source_refs": [
+        "research/relationship_assessments.json#/58",
+        "research/pre-1600-father-status-audit-2026-09-28.json#/live_corrections/30",
+        "research/Hutcheson-1648/findings.md"
+      ],
+      "assessment_status": "strongly_supported",
+      "assessment_source_summary": "W.H. Hill, Early Records of an Old Glasgow Family; History of Glasgow, ch.XX",
+      "assessment_pointer": "research/relationship_assessments.json#/58",
+      "source_grade": "strongly_supported"
+    },
+    {
+      "date": "2026-09-28",
+      "relationship": "father",
+      "subject": "Hutcheson-1649",
+      "relative": "Hutcheson-1647",
+      "before": "unmarked",
+      "after": "confident",
+      "evidence_class": "compiled/strongly-supported or existing cited record",
+      "evidence_basis": "See dated profile findings and structured assessment; live audit records the exact unmarked→confident edit.",
+      "source_refs": [
+        "research/relationship_assessments.json#/59",
+        "research/pre-1600-father-status-audit-2026-09-28.json#/live_corrections/31",
+        "research/Hutcheson-1649/findings.md"
+      ],
+      "assessment_status": "strongly_supported",
+      "assessment_source_summary": "W.H. Hill, Early Records of an Old Glasgow Family; History of Glasgow, ch.XX-XXI",
+      "assessment_pointer": "research/relationship_assessments.json#/59",
+      "source_grade": "strongly_supported"
+    },
+    {
+      "date": "2026-09-28",
+      "relationship": "father",
+      "subject": "Hutcheson-1654",
+      "relative": "Hutcheson-1647",
+      "before": "unmarked",
+      "after": "confident",
+      "evidence_class": "compiled/strongly-supported or existing cited record",
+      "evidence_basis": "See dated profile findings and structured assessment; live audit records the exact unmarked→confident edit.",
+      "source_refs": [
+        "research/relationship_assessments.json#/61",
+        "research/pre-1600-father-status-audit-2026-09-28.json#/live_corrections/33",
+        "research/Hutcheson-1654/findings.md"
+      ],
+      "assessment_status": "strongly_supported",
+      "assessment_source_summary": "W.H. Hill, Early Records of an Old Glasgow Family; History of Glasgow, ch.XX",
+      "assessment_pointer": "research/relationship_assessments.json#/61",
+      "source_grade": "strongly_supported"
+    },
+    {
+      "date": "2026-09-28",
+      "relationship": "father",
+      "subject": "Hutcheson-1655",
+      "relative": "Hutcheson-1647",
+      "before": "unmarked",
+      "after": "confident",
+      "evidence_class": "compiled/strongly-supported or existing cited record",
+      "evidence_basis": "See dated profile findings and structured assessment; live audit records the exact unmarked→confident edit.",
+      "source_refs": [
+        "research/relationship_assessments.json#/62",
+        "research/pre-1600-father-status-audit-2026-09-28.json#/live_corrections/34",
+        "research/Hutcheson-1655/findings.md"
+      ],
+      "assessment_status": "strongly_supported",
+      "assessment_source_summary": "Thomas Sr.'s biography, citing Early Records of an Old Glasgow Family and charter/sasine context, names Elizabeth among Thomas and Helen's five children; the same entry lists her marriage to James Pollok.",
+      "assessment_pointer": "research/relationship_assessments.json#/62",
+      "source_grade": "strongly_supported"
+    },
+    {
+      "date": "2026-09-28",
+      "relationship": "father",
+      "subject": "Hutcheson-1650",
+      "relative": "Hutcheson-1648",
+      "before": "unmarked",
+      "after": "confident",
+      "evidence_class": "compiled/strongly-supported or existing cited record",
+      "evidence_basis": "See dated profile findings and structured assessment; live audit records the exact unmarked→confident edit.",
+      "source_refs": [
+        "research/relationship_assessments.json#/63",
+        "research/pre-1600-father-status-audit-2026-09-28.json#/live_corrections/35",
+        "research/Hutcheson-1650/findings.md"
+      ],
+      "assessment_status": "strongly_supported",
+      "assessment_source_summary": "Biography reports the Glasgow kirk session's 1588 paternity admission by George Hutcheson for Janet; this is a direct father statement.",
+      "assessment_pointer": "research/relationship_assessments.json#/63",
+      "source_grade": "strongly_supported"
+    },
+    {
+      "date": "2026-09-28",
+      "relationship": "father",
+      "subject": "Johnstoun-30",
+      "relative": "Johnstoun-29",
+      "before": "unmarked",
+      "after": "confident",
+      "evidence_class": "compiled/strongly-supported or existing cited record",
+      "evidence_basis": "See dated profile findings and structured assessment; live audit records the exact unmarked→confident edit.",
+      "source_refs": [
+        "research/relationship_assessments.json#/65",
+        "research/pre-1600-father-status-audit-2026-09-28.json#/live_corrections/37",
+        "research/Johnstoun-30/findings.md"
+      ],
+      "assessment_status": "strongly_supported",
+      "assessment_source_summary": "FamilySearch baptism index XTPH-QTG is cited for James, whose profile identifies George and Barbara as parents.",
+      "assessment_pointer": "research/relationship_assessments.json#/65",
+      "source_grade": "strongly_supported"
+    },
+    {
+      "date": "2026-09-28",
+      "relationship": "father",
+      "subject": "Johnstoun-31",
+      "relative": "Johnstoun-29",
+      "before": "unmarked",
+      "after": "confident",
+      "evidence_class": "compiled/strongly-supported or existing cited record",
+      "evidence_basis": "See dated profile findings and structured assessment; live audit records the exact unmarked→confident edit.",
+      "source_refs": [
+        "research/relationship_assessments.json#/66",
+        "research/pre-1600-father-status-audit-2026-09-28.json#/live_corrections/38",
+        "research/Johnstoun-31/findings.md"
+      ],
+      "assessment_status": "strongly_supported",
+      "assessment_source_summary": "FamilySearch baptism index X1YQ-BXW is cited for Daniel, whose profile identifies George and Barbara as parents.",
+      "assessment_pointer": "research/relationship_assessments.json#/66",
+      "source_grade": "strongly_supported"
+    },
+    {
+      "date": "2026-09-28",
+      "relationship": "father",
+      "subject": "Johnstoun-32",
+      "relative": "Johnstoun-29",
+      "before": "unmarked",
+      "after": "confident",
+      "evidence_class": "compiled/strongly-supported or existing cited record",
+      "evidence_basis": "See dated profile findings and structured assessment; live audit records the exact unmarked→confident edit.",
+      "source_refs": [
+        "research/relationship_assessments.json#/67",
+        "research/pre-1600-father-status-audit-2026-09-28.json#/live_corrections/39",
+        "research/Johnstoun-32/findings.md"
+      ],
+      "assessment_status": "strongly_supported",
+      "assessment_source_summary": "FamilySearch baptism index X1Y3-2X2 is cited for Archebald, whose profile identifies George and Barbara as parents.",
+      "assessment_pointer": "research/relationship_assessments.json#/67",
+      "source_grade": "strongly_supported"
+    },
+    {
+      "date": "2026-09-28",
+      "relationship": "father",
+      "subject": "Johnstoun-33",
+      "relative": "Johnstoun-29",
+      "before": "unmarked",
+      "after": "confident",
+      "evidence_class": "compiled/strongly-supported or existing cited record",
+      "evidence_basis": "See dated profile findings and structured assessment; live audit records the exact unmarked→confident edit.",
+      "source_refs": [
+        "research/relationship_assessments.json#/68",
+        "research/pre-1600-father-status-audit-2026-09-28.json#/live_corrections/40",
+        "research/Johnstoun-33/findings.md"
+      ],
+      "assessment_status": "strongly_supported",
+      "assessment_source_summary": "FamilySearch baptism index X1TB-PZ7 is cited for Catharine, whose profile identifies George and Barbara as parents.",
+      "assessment_pointer": "research/relationship_assessments.json#/68",
+      "source_grade": "strongly_supported"
+    },
+    {
+      "date": "2026-09-28",
+      "relationship": "father",
+      "subject": "Montgomery-24360",
+      "relative": "Montgomery-24361",
+      "before": "unmarked",
+      "after": "confident",
+      "evidence_class": "compiled/strongly-supported or existing cited record",
+      "evidence_basis": "See dated profile findings and structured assessment; live audit records the exact unmarked→confident edit.",
+      "source_refs": [
+        "research/relationship_assessments.json#/71",
+        "research/pre-1600-father-status-audit-2026-09-28.json#/live_corrections/43",
+        "research/Montgomery-24360/findings.md"
+      ],
+      "assessment_status": "strongly_supported",
+      "assessment_source_summary": "Thomas Harrison Montgomery's specific published pedigree, pp.117/120, identifies Robert as third son of Hugh of Auchinhood and Bowhouse and traces the Bonyglen line; both profiles agree.",
+      "assessment_pointer": "research/relationship_assessments.json#/71",
+      "source_grade": "strongly_supported"
+    },
+    {
+      "date": "2026-09-28",
+      "relationship": "father",
+      "subject": "Porteous-912",
+      "relative": "Porteous-913",
+      "before": "unmarked",
+      "after": "confident",
+      "evidence_class": "compiled/strongly-supported or existing cited record",
+      "evidence_basis": "See dated profile findings and structured assessment; live audit records the exact unmarked→confident edit.",
+      "source_refs": [
+        "research/relationship_assessments.json#/72",
+        "research/pre-1600-father-status-audit-2026-09-28.json#/live_corrections/44",
+        "research/Porteous-912/findings.md"
+      ],
+      "assessment_status": "strongly_supported",
+      "assessment_source_summary": "FamilySearch baptism index VQC7-2LB is cited for Issobell; this is the supplied primary-type event support for the attached father.",
+      "assessment_pointer": "research/relationship_assessments.json#/72",
+      "source_grade": "strongly_supported"
+    },
+    {
+      "date": "2026-09-28",
+      "relationship": "father",
+      "subject": "Porteous-915",
+      "relative": "Porteous-913",
+      "before": "unmarked",
+      "after": "confident",
+      "evidence_class": "compiled/strongly-supported or existing cited record",
+      "evidence_basis": "See dated profile findings and structured assessment; live audit records the exact unmarked→confident edit.",
+      "source_refs": [
+        "research/relationship_assessments.json#/73",
+        "research/pre-1600-father-status-audit-2026-09-28.json#/live_corrections/45",
+        "research/Porteous-915/findings.md"
+      ],
+      "assessment_status": "strongly_supported",
+      "assessment_source_summary": "FamilySearch baptism index VQ4N-KQ2 is cited for Alexander and his profile explicitly identifies Andro and Margaret as parents.",
+      "assessment_pointer": "research/relationship_assessments.json#/73",
+      "source_grade": "strongly_supported"
+    },
+    {
+      "date": "2026-09-28",
+      "relationship": "father",
+      "subject": "Spreul-22",
+      "relative": "Spreul-23",
+      "before": "unmarked",
+      "after": "confident",
+      "evidence_class": "compiled/strongly-supported or existing cited record",
+      "evidence_basis": "See dated profile findings and structured assessment; live audit records the exact unmarked→confident edit.",
+      "source_refs": [
+        "research/relationship_assessments.json#/75",
+        "research/pre-1600-father-status-audit-2026-09-28.json#/live_corrections/47",
+        "research/Spreul-22/findings.md"
+      ],
+      "assessment_status": "strongly_supported",
+      "assessment_source_summary": "Metcalfe p.104 supplies the succession chain: Cambuslang vicar's son/heir, then the Provost of Renfrew, then the Provost's son appointed Glasgow Town Clerk. The profile identities align with that specific compiled kinship.",
+      "assessment_pointer": "research/relationship_assessments.json#/75",
+      "source_grade": "strongly_supported"
+    },
+    {
+      "date": "2026-09-28",
+      "relationship": "father",
+      "subject": "Spreul-24",
+      "relative": "Spreul-26",
+      "before": "unmarked",
+      "after": "confident",
+      "evidence_class": "compiled/strongly-supported or existing cited record",
+      "evidence_basis": "See dated profile findings and structured assessment; live audit records the exact unmarked→confident edit.",
+      "source_refs": [
+        "research/relationship_assessments.json#/76",
+        "research/pre-1600-father-status-audit-2026-09-28.json#/live_corrections/48",
+        "research/Spreul-24/findings.md"
+      ],
+      "assessment_status": "strongly_supported",
+      "assessment_source_summary": "Metcalfe p.104 explicitly calls heir John the nephew of the Dundonald vicar and son of the vicar's brother Robert, burgess of Glasgow.",
+      "assessment_pointer": "research/relationship_assessments.json#/76",
+      "source_grade": "strongly_supported"
+    },
+    {
+      "date": "2026-09-28",
+      "relationship": "father",
+      "subject": "Spreul-23",
+      "relative": "Spreull-17",
+      "before": "unmarked",
+      "after": "confident",
+      "evidence_class": "compiled/strongly-supported or existing cited record",
+      "evidence_basis": "See dated profile findings and structured assessment; live audit records the exact unmarked→confident edit.",
+      "source_refs": [
+        "research/relationship_assessments.json#/79",
+        "research/pre-1600-father-status-audit-2026-09-28.json#/live_corrections/51",
+        "research/Spreul-23/findings.md"
+      ],
+      "assessment_status": "strongly_supported",
+      "assessment_source_summary": "Metcalfe p.104's specific succession statement identifies the Cambuslang vicar's son and heir as father of the Provost of Renfrew; Spreull-17 is the record-defined vicar/heir-generation placeholder used for that father.",
+      "assessment_pointer": "research/relationship_assessments.json#/79",
+      "source_grade": "strongly_supported"
+    },
+    {
+      "date": "2026-09-28",
+      "relationship": "father",
+      "subject": "Symington-724",
+      "relative": "Symington-721",
+      "before": "unmarked",
+      "after": "confident",
+      "evidence_class": "direct-record or record-specific",
+      "evidence_basis": "See dated profile findings and structured assessment; live audit records the exact unmarked→confident edit.",
+      "source_refs": [
+        "research/relationship_assessments.json#/82",
+        "research/pre-1600-father-status-audit-2026-09-28.json#/live_corrections/54",
+        "research/Symington-724/findings.md"
+      ],
+      "assessment_status": "proved",
+      "assessment_source_summary": "Edinburgh OPR baptism, 2 May 1620 (parish 685/1, ref 20/284), names Williame Symountoun and Issobell Glesgow as William's parents; cited in Glasgow-3336 biography.",
+      "assessment_pointer": "research/relationship_assessments.json#/82",
+      "source_grade": "proved"
+    }
+  ],
+  "confident_status_without_recoverable_prior_grade": [
+    {
+      "finding_id": "reviewed-glasgow-1099-herbison-439",
+      "date": "2026-09-27",
+      "relationship": "mother",
+      "subject": "George Glasgow (Glasgow-1099)",
+      "relative": "Margaret Herbesoun (Herbison-439)",
+      "before": "not recorded",
+      "after": "confident",
+      "evidence": "Protocol 2916 directly calls Margaret George’s mother and liferenter; profile notes say the status was saved/read back, but no prior grade is retained.",
+      "evidence_class": "direct record; prior ungraded",
+      "source_refs": [
+        "research/relationship_assessments.json#/23",
+        "research/Glasgow-1099/findings.md:8-13"
+      ],
+      "assessment_pointer": "research/relationship_assessments.json#/23",
+      "assessment_status": "proved",
+      "assessment_source_summary": null,
+      "source_grade": "proved"
+    },
+    {
+      "finding_id": "reviewed-glasgow-1168-glasgow-3193",
+      "date": "2026-09-27",
+      "relationship": "father",
+      "subject": "John Glasgow (Glasgow-3193; record-defined Corsinkell subject)",
+      "relative": "James Glasgow elder (Glasgow-1168)",
+      "before": "not recorded",
+      "after": "confident",
+      "evidence": "GD39/5/59 directly names the Corsinkell John as James’s son; the older Kilwinning identification remains probable. The structured edge was upgraded/read back, with no prior grade retained.",
+      "evidence_class": "direct record; identity scope qualified; prior ungraded",
+      "source_refs": [
+        "research/relationship_assessments.json#/25",
+        "research/Glasgow-3193/findings.md:8,16,21-28,44-52"
+      ],
+      "assessment_pointer": "research/relationship_assessments.json#/25",
+      "assessment_status": "proved",
+      "assessment_source_summary": null,
+      "source_grade": "proved"
+    },
+    {
+      "finding_id": "reviewed-glasgow-1093-glasgow-3522",
+      "date": "2026-08-30",
+      "relationship": "father",
+      "subject": "William Glasgow (Glasgow-3522)",
+      "relative": "John Glasgow (Glasgow-1093)",
+      "before": "not recorded",
+      "after": "confident",
+      "evidence": "Protocol 847 directly calls William John’s son; profile notes record the live save/readback, but no prior grade is retained.",
+      "evidence_class": "direct record; prior ungraded",
+      "source_refs": [
+        "research/Glasgow-3522/findings.md:8-15,50-55,62-76",
+        "research/pre-1550-parent-status-audit-2026-09-27.json#/relationships/29"
+      ]
+    },
+    {
+      "finding_id": "reviewed-glasgow-3522-spreull-4",
+      "date": "2026-09-27",
+      "relationship": "mother",
+      "subject": "William Glasgow (Glasgow-3522)",
+      "relative": "Jonet Spreull (Spreull-4)",
+      "before": "not recorded",
+      "after": "confident",
+      "evidence": "Continuing marriage, another child’s explicit maternity and curatorship support this inference; no direct clause calls Jonet William’s mother, and no prior grade is retained.",
+      "evidence_class": "inferential/strongly_supported; prior ungraded",
+      "source_refs": [
+        "research/relationship_assessments.json#/24",
+        "research/Glasgow-3522/findings.md:17-27,62-76",
+        "research/pre-1550-parent-status-audit-2026-09-27.json#/relationships/30"
+      ],
+      "assessment_pointer": "research/relationship_assessments.json#/24",
+      "assessment_status": "strongly_supported",
+      "assessment_source_summary": null,
+      "source_grade": "strongly_supported"
+    },
+    {
+      "finding_id": "reviewed-glasgow-1096-glasgow-3062",
+      "date": "2026-09-28",
+      "relationship": "father",
+      "subject": "Marion Glasgow (Glasgow-3062)",
+      "relative": "Robert Glasgow (Glasgow-1096)",
+      "before": "not recorded",
+      "after": "confident",
+      "evidence": "Ninian’s 1596 father statement and 1613 sister clause support Robert as Marion’s common father. The relationship is a confident inference; Marion’s mother remains unidentified and no prior grade is retained.",
+      "evidence_class": "inferential/strongly_supported; prior ungraded",
+      "source_refs": [
+        "research/relationship_assessments.json#/27",
+        "research/Glasgow-3062/findings.md:14-20,35-40,47-50,69-72",
+        "research/pre-1550-parent-status-audit-2026-09-27.json#/relationships/20"
+      ],
+      "assessment_pointer": "research/relationship_assessments.json#/27",
+      "assessment_status": "strongly_supported",
+      "assessment_source_summary": null,
+      "source_grade": "strongly_supported"
+    }
+  ],
+  "historical_followup_reconciliation": [
+    {
+      "date": "2026-07-17",
+      "relationship": "father",
+      "subject": "David Glasgow (old followup Glasgow-3905; current Glasgow-3899)",
+      "relative": "Daniel Glasgow (Glasgow-3896)",
+      "classification": "superseded/corrected by current ledger row",
+      "reason": "Old followup used Glasgow-3905; current latest-finding uses the corrected matching profile Glasgow-3899 and records uncertain→certain. Do not count twice.",
+      "source_refs": [
+        "research/latest-findings-relationship-upgrades-followup-2026-09-30.json#/proposals/1/relationship_changes/0",
+        "research/latest-findings.json#/findings/461/relationship_changes/0",
+        "research/Glasgow-3899/findings.md:3-24"
+      ]
+    },
+    {
+      "date": "2026-07-17",
+      "relationship": "sibling",
+      "subject": "Daniel Glasgow (Glasgow-3896)",
+      "relative": "Thomas Glasgow (Glasgow-987)",
+      "classification": "historical direct evidence; prior grade unrecorded; not current ledger transition",
+      "reason": "Daniel’s will calls Thomas his late brother and the 1888 marriage identifies Thomas of Lisnagaver. Current latest ledger does not carry this row because it is already represented in the Prescott 1861 sibling chain; retain as corroborative/duplicate candidate.",
+      "source_refs": [
+        "research/latest-findings-relationship-upgrades-followup-2026-09-30.json#/proposals/1/relationship_changes/1",
+        "research/Glasgow-3896/findings.md:55-59",
+        "research/Glasgow-2413/findings.md:8-19,38-39"
+      ]
+    },
+    {
+      "date": "2026-07-17",
+      "relationship": "father",
+      "subject": "Daniel Neely Glasgow (Glasgow-2413)",
+      "relative": "Thomas Glasgow (Glasgow-987)",
+      "classification": "historical direct evidence; prior grade unrecorded; not current ledger transition",
+      "reason": "The original 1888 marriage directly names Thomas as father and the uncle’s will closes the nephew chain; current latest ledger does not repeat it. Retain as already-established/corroborative, not a new current transition.",
+      "source_refs": [
+        "research/latest-findings-relationship-upgrades-followup-2026-09-30.json#/proposals/1/relationship_changes/2",
+        "research/Glasgow-2413/findings.md:8-19,38-39"
+      ]
+    }
+  ],
+  "already_certain_or_corroboration": [
+    {
+      "relationship": "John Glasgow (Glasgow-1093) -> Stephen Glasgow (Glasgow-1029), father",
+      "reason": "Record-proved edge; 19 August label correction from erroneous Confirmed-with-DNA to Confident is status repair, not uncertain/unknown→certain.",
+      "source_refs": [
+        "research/Glasgow-1029/findings.md:8,24-33",
+        "research/pre-1550-parent-status-audit-2026-09-27.json#/relationships/0"
+      ]
+    },
+    {
+      "relationship": "Robert Glasgow (Glasgow-1143) -> James Glasgow (Glasgow-1144), father",
+      "reason": "21 September deed corroborates an already-supported edge; not a new grade transition.",
+      "source_refs": [
+        "research/latest-findings-relationship-upgrades.json#/exclusions/0",
+        "research/relationship_assessments.json:646"
+      ]
+    },
+    {
+      "relationship": "Current pre-1550 confident links",
+      "reason": "The parent-status table has 20 confident links, including record-defined and inferential edges; absent an explicit prior-grade record each remains current status/coverage, not an exact historical transition.",
+      "source_refs": [
+        "research/pre-1550-parent-status-audit-2026-09-27.json#/relationships",
+        "research/pre-1550-parent-status-audit-2026-09-27.json#/counts"
+      ]
+    },
+    {
+      "relationship": "All direct records in relationship_assessments.json without a saved prior grade",
+      "reason": "Already-certain or current evidence only; not counted again as newly certain.",
+      "source_refs": [
+        "research/relationship_assessments.json#/0-92"
+      ]
+    }
+  ],
+  "unresolved_or_excluded": [
+    {
+      "item": "Older followup Glasgow-3905 identity for David",
+      "reason": "Superseded by current Glasgow-3899 row; identity corrected, no duplicate count."
+    },
+    {
+      "item": "Daniel Glasgow→Thomas Glasgow and Daniel Neely→Thomas Glasgow July backfills",
+      "reason": "Direct and useful, but current latest ledger does not carry them as changes; the former is corroborated by later Prescott chain and the latter is already proved in dated profile notes."
+    },
+    {
+      "item": "Jonet Mathie bride identity for Glasgow-1030 and later Edinburgh bride identity for Glasgow-3183/3336",
+      "reason": "The scoped testament relationships qualify as confident; cross-record spouse/profile identity remains probable."
+    },
+    {
+      "item": "Mothers of Glasgow-1030, Glasgow-3183 and Glasgow-3336; Marion’s mother",
+      "reason": "The reviewed sources do not prove those mothers; retain uncertainty."
+    },
+    {
+      "item": "26 unmarked→uncertain and 4 confident→uncertain live corrections",
+      "reason": "Documented in live correction history but are not newly certain; they are included in coverage counts only.",
+      "source_refs": [
+        "research/pre-1600-father-status-audit-2026-09-28.json#/live_corrections"
+      ]
+    }
+  ],
+  "coverage_and_limitations": {
+    "coverage": "Searched the current and superseded relationship ledgers, all 93 structured relationship assessments, all 58 rows in the 28 September pre-1600 live correction history, the 46-profile Glasgow father cohort, the 26-profile pre-1550 relationship status audit, dated profile findings, and available git research history from 20 August through 29 September. The 1,009 findings.md files were inventoried by count; only relationship-relevant files were read. Current latest findings span 17 July–30 September.",
+    "why_three_ledger_count_is_incomplete": "The current latest ledger has 9 rows, but it excludes 5 separately recorded uncertain→confident live/status changes (Jonet, Bryse, Isobel, Glassford and John-1030). It also excludes 24 unmarked→confident live changes and 5 dated confident edges whose prior grade is not preserved. Earlier followup rows are reconciled as corrected, duplicate/corroborative or ungraded rather than silently added.",
+    "public_safe": "No raw captures, credentials, living-person data, browser state, live WikiTree edits or external web calls were used.",
+    "site_sync": "Intentionally not run per task scope; root review is required before any latest-findings or website synchronization.",
+    "source_rule": "Original source claims remain in the cited findings and assessments; this audit does not promote an inference to direct proof. Exact status changes are counted from saved live/status provenance, with scope and remaining identity conflicts retained."
+  }
+}

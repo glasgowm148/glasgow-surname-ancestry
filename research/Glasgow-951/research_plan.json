@@ -68,6 +68,14 @@
   ],
   "priority_actions": [
     {
+      "priority": 0,
+      "question": "Can an independent sibling parent statement test John farmer without correspondence?",
+      "action": "Follow Mary Thomson’s 9 November 1860 Old Monkland marriage to William Sneddon (FS 6TLK-6T1J, XT1H-TBC), her mother Mary Glasgon Thomson, Ann Glasgow McClelland’s own death and the docketed April 1894 Nancy appraisal.",
+      "status": "Scottish index candidate located; no Irish-origin or Nancy relationship bridge. Parent-name follow-ups found only the marriage, or zero in the strict mother query. Appraisal text not located.",
+      "discriminating_outcomes": "A named father in a securely reconstructed sibling branch could support John or require a half-sibling/different-family explanation. A Scottish-born unrelated Thompson household would close only this candidate.",
+      "assessed": "2026-09-29"
+    },
+    {
       "priority": 1,
       "question": "1. What kind of 1829 Lisnagaver occurrence is this Alexander?",
       "action": "[Belfast News-Letter, **5 June 1829, page 4, article 015**](https://www.britishnewspaperarchive.com/image-viewer?issue=BL%2F0000038%2F18290605&page=0004&article=015), full heading and adjoining columns around **Alex. Glasgow, Lisnagaver**; compare the Elder and Wallace entries.",
@@ -251,12 +259,24 @@
       "status": "open"
     }
   ],
-  "parentage_assessment": "Priority family-origin reconstruction: Larne James-1509 as Adam-3902’s father (3905 placeholder), with older Alexander-3904 as a possible sibling of Adam or younger James-3986 as an alternative route to Alexander-951. American chain Robert-1143→James-1144→Archibald is record-supported; Archibald→Robert-2769→JamesJ-2738 remains a coherent two-edge hypothesis. Robert-2769 is not proposed as father of the Irish men. Immediate local father alternatives remain separately assessed.",
+  "parentage_assessment": "Current review, 29 September 2026: John Glasgow, farmer, named in John-867’s 1846 marriage, is Alexander’s probable father through Nancy’s reconstructed sibling group. No direct father statement for Alexander. The Glenleslie Nancy died in 1847 and is a different woman; same-surname maternal half-siblinghood remains possible but unsupported. John’s Desertoghill identity, Alexander’s mother and the Larne joining generation are separate unresolved questions. Priority family-origin reconstruction: Larne James-1509 as Adam-3902’s father (3905 placeholder), with older Alexander-3904 as a possible sibling of Adam or younger James-3986 as an alternative route to Alexander-951. American chain Robert-1143→James-1144→Archibald is record-supported; Archibald→Robert-2769→JamesJ-2738 remains a coherent two-edge hypothesis. Robert-2769 is not proposed as father of the Irish men. Immediate local father alternatives remain separately assessed.",
   "review_notes": [
     {
       "date": "2026-09-13",
       "subject": "Supplied newspaper and Canadian research outputs",
       "conclusion": "No parentage upgrade. New local chronology test and tighter Canadian share-transfer retrieval; 1875 Samuel index already known, younger Samuel alternative, Water and Centre Street parcels distinct."
+    },
+    {
+      "date": "2026-09-29",
+      "subject": "Independent parentage tests and new contemporary Nancy notice",
+      "conclusion": "John farmer remains probable. Nancy death notice adds conflicting age about 75 and American funeral; Glenleslie daughter Nancy died 1847. Docketed tax appraisal locates a further record; Mary Thomson–Sneddon index is a candidate only. No correspondence or live edits.",
+      "findings_section": "Current conclusion and independent tests — 29 September 2026",
+      "next_tests": [
+        "Mary Thomson married William Sneddon 9 November 1860: birthplace, mother Mary Glasgon Thomson’s death/parents",
+        "Ann Glasgow McClelland own death",
+        "Robert-938 alleged 1902 death and 1892 survival",
+        "Nancy 1894 appraisal and probate letters/minutes if accessible"
+      ]
     }
   ]
 }

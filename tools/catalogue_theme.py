@@ -3,7 +3,7 @@
 from pathlib import Path
 import re
 
-CATALOGUE_ASSET_VERSION = "20260927-one-tree-layout-2"
+CATALOGUE_ASSET_VERSION = "20260929-field-status"
 CSS_SOURCE = Path(__file__).with_name("catalogue-light.css")
 
 

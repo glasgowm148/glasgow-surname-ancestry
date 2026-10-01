@@ -1,6 +1,6 @@
 # Findings: [Samuel Glasgow (Glasgow-4010)](https://www.wikitree.com/wiki/Glasgow-4010)
 
-## Current conclusion
+## Assessment history — August and September 2026
 
 [Samuel Glasgow (Glasgow-4010)](https://www.wikitree.com/wiki/Glasgow-4010) is
 the Irish-born storekeeper aged next birthday 51 in Prescott's 1851 census. No
@@ -50,12 +50,10 @@ For the consequence for Alexander's parentage, see the [Canadian comparison on A
 ## Recommended action
 
 Use the complete replacement draft in `1851_Canada_West_Prescott_Samuel_Glasgow.md`
-to correct Robert from reported father to documented brother. Keep the sibling
-relationship biographical until a shared parent is identified; do not invent a
-parent to force a structured sibling link.
+to correct Robert from reported father to documented brother. The sibling biographies are now live. The 30 September connected-family review below supersedes the earlier recommendation to leave this family structurally unconnected: Alexander-3904 is a supported uncertain father hypothesis through the proved brothers, not an invented parent.
 
 
-## Current conclusion — original Prescott conveyances, 13 September 2026
+## Identity and relationship assessments — original Prescott conveyances, 13 September 2026
 
 The original [30 July 1861 deed, B465](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWB8-D) now identifies Daniel of Kilrea, watchmaker, and Thomas of Lisnagaver, farmer, with wives Margaret and Mary Anne, as the men selling interests under Robert’s will. Their identity with Daniel-3896 and Thomas-987 is established by the combined places, occupations, wives and earlier brotherhood evidence. The siblings’ parents remain unnamed. Robert, Samuel, John, Daniel and Thomas belong to the same will-defined sibling group, with sister Mary and brother James’s children also named. No contemporary parent names follow, and Alexander-951 is not proved to be another brother.
 
@@ -70,3 +68,11 @@ The original [30 July 1861 deed, B465](https://www.familysearch.org/ark:/61903/3
 See the [complete original-deed table and title-fraction assessment](/people/glasgow-951.html#family-network). Eliza Jane and Mary of Rochester are the carpenter’s eldest and second eldest daughters; their ninth shares do not fit a simple division of Robert’s sixth for James’s children. The carpenter’s identity with Robert’s brother remains a property-based hypothesis.
 
 The [original C298 deed, 15 September 1869](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LQTY-K), registered 1 July 1870, identifies **Mary Black, formerly Mary Glasgow, as Robert’s sister**, and names children John Black (wife Martha) and Rose Ann Black at Drumoolish, Jane Miller (wife of Robert Miller), Agnes and deceased Elizabeth Black at Newburgh, and Thomasina Montgomery (wife of Mathew) at Legrand, Iowa. This establishes the Black collateral branch; it does not name the siblings’ parents. The original C114 identifies James’s son Alexander as a Rochester express agent, whose identity with Alexander-951 remains unproved.
+
+## Current conclusion — linked family hypothesis, 30 September 2026
+
+Robert-4150 and Samuel-4010 are proved brothers of Daniel-3896 and Thomas-987. Their current public WikiTree biographies already contain the sibling will/deed evidence. Thomas and Daniel share the existing father attachment Alexander-3904. The descendant account naming Alexander as Thomas’s father, combined with proved brotherhood and compatible chronology, supports extending that same attachment to Robert and Samuel with **uncertain** status. The original deeds do not name a parent; this is an inherited family hypothesis, not a newly certain father. Assess Rosanna’s maternity separately.
+
+## Recommended action — pending 30 September 2026
+
+Use the complete replacement draft named for this WikiTree ID, preserving existing sources. Add the working father connection and attach Alexander-3904 as uncertain father. Robert’s draft also interlinks Daniel/Thomas at first mention and removes obsolete instructions to create this already existing profile. Thomas and Daniel’s prior sibling biography updates remain complete.

@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "query": {
+    "name": "John Gray"
+  },
+  "candidate_count": 1,
+  "candidates": [
+    {
+      "schema_version": "1.0",
+      "id": "record-john-glasgow-edinburgh-1648",
+      "alternate_ids": [],
+      "catalogue_id": "record-john-glasgow-edinburgh-1648",
+      "name": "John Gray",
+      "gender": "Male",
+      "birth_surnames": [],
+      "research_clusters": [],
+      "birth_year": null,
+      "death_year": null,
+      "birth_status": null,
+      "death_status": null,
+      "birth_place": null,
+      "death_place": null,
+      "locations": [
+        "Edinburgh, Scotland"
+      ],
+      "father_id": null,
+      "mother_id": null,
+      "parent_ids": [],
+      "parent_names": [],
+      "spouse_ids": [],
+      "spouse_names": [],
+      "child_ids": [],
+      "child_names": [],
+      "sibling_names": [],
+      "html_url": "/people/record-john-glasgow-edinburgh-1648.html",
+      "json_url": "/people/record-john-glasgow-edinburgh-1648.json",
+      "network_url": "/people/record-john-glasgow-edinburgh-1648.network.json",
+      "score": 0.55,
+      "match_reasons": [
+        "name match"
+      ],
+      "conflicts": []
+    }
+  ],
+  "scoring": "Name candidates only; not a confirmed genealogical identity."
+}

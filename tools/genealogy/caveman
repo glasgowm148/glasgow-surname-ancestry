@@ -1,0 +1,13 @@
+#!/bin/sh
+set -eu
+
+RUNTIME='/Users/m/Library/Application Support/genealogy-tools/caveman'
+CLI="$RUNTIME/node_modules/@caveman-ai/cli/dist/index.js"
+
+if [ ! -f "$CLI" ]; then
+  printf '%s\n' 'Caveman runtime missing; reinstall @caveman-ai/cli@1.3.4 into authorized runtime.' >&2
+  exit 1
+fi
+
+export CAVEMAN_HOME="$RUNTIME"
+exec node "$CLI" "$@"

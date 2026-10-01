@@ -1,0 +1,128 @@
+[
+  {
+    "query": {
+      "action": "searchPerson",
+      "appId": "GlasgowSurnameResearch",
+      "FirstName": "Margaret",
+      "LastName": "Anderson",
+      "BirthLocation": "Scotland",
+      "limit": 100,
+      "start": 0,
+      "fields": "Id,Name,FirstName,LastNameAtBirth,BirthDate,DeathDate,BirthLocation,DeathLocation,Father,Mother,Spouses,Privacy,IsLiving"
+    },
+    "historical_filter": "known birth<=1551; known death>=1551; unknown dates retained; Privacy60/nonliving only",
+    "response": {
+      "status": 0,
+      "matches": [
+        {
+          "Id": 2151970,
+          "Name": "Anderson-3241",
+          "FirstName": "Margaret",
+          "LastNameAtBirth": "Anderson",
+          "BirthDate": "0000-00-00",
+          "DeathDate": "0000-00-00",
+          "BirthLocation": "Scotland",
+          "DeathLocation": "Scotland",
+          "Privacy": 60,
+          "IsLiving": 0,
+          "Privacy_IsPrivate": false,
+          "Privacy_IsPublic": false,
+          "Privacy_IsOpen": true,
+          "Privacy_IsAtLeastPublic": true,
+          "Privacy_IsSemiPrivate": false,
+          "Privacy_IsSemiPrivateBio": false,
+          "Father": 0,
+          "Mother": 0,
+          "Spouses": [],
+          "index": 71
+        }
+      ],
+      "total": 807,
+      "start": 0,
+      "limit": 100
+    }
+  },
+  {
+    "query": {
+      "action": "searchPerson",
+      "appId": "GlasgowSurnameResearch",
+      "FirstName": "Margaret",
+      "LastName": "Andersone",
+      "BirthLocation": "Scotland",
+      "limit": 100,
+      "start": 0,
+      "fields": "Id,Name,FirstName,LastNameAtBirth,BirthDate,DeathDate,BirthLocation,DeathLocation,Father,Mother,Spouses,Privacy,IsLiving"
+    },
+    "historical_filter": "known birth<=1551; known death>=1551; unknown dates retained; Privacy60/nonliving only",
+    "response": {
+      "status": 0,
+      "matches": [
+        {
+          "Id": 2151970,
+          "Name": "Anderson-3241",
+          "FirstName": "Margaret",
+          "LastNameAtBirth": "Anderson",
+          "BirthDate": "0000-00-00",
+          "DeathDate": "0000-00-00",
+          "BirthLocation": "Scotland",
+          "DeathLocation": "Scotland",
+          "Privacy": 60,
+          "IsLiving": 0,
+          "Privacy_IsPrivate": false,
+          "Privacy_IsPublic": false,
+          "Privacy_IsOpen": true,
+          "Privacy_IsAtLeastPublic": true,
+          "Privacy_IsSemiPrivate": false,
+          "Privacy_IsSemiPrivateBio": false,
+          "Father": 0,
+          "Mother": 0,
+          "Spouses": [],
+          "index": 77
+        }
+      ],
+      "total": 738,
+      "start": 0,
+      "limit": 100
+    }
+  },
+  {
+    "query": {
+      "action": "searchPerson",
+      "appId": "GlasgowSurnameResearch",
+      "FirstName": "Margaret",
+      "LastName": "Androsoune",
+      "BirthLocation": "Scotland",
+      "limit": 100,
+      "start": 0,
+      "fields": "Id,Name,FirstName,LastNameAtBirth,BirthDate,DeathDate,BirthLocation,DeathLocation,Father,Mother,Spouses,Privacy,IsLiving"
+    },
+    "historical_filter": "known birth<=1551; known death>=1551; unknown dates retained; Privacy60/nonliving only",
+    "response": {
+      "status": 0,
+      "matches": [],
+      "total": 0,
+      "start": 0,
+      "limit": 100
+    }
+  },
+  {
+    "query": {
+      "action": "searchPerson",
+      "appId": "GlasgowSurnameResearch",
+      "FirstName": "Margaret",
+      "LastName": "Andersoun",
+      "BirthLocation": "Scotland",
+      "limit": 100,
+      "start": 0,
+      "fields": "Id,Name,FirstName,LastNameAtBirth,BirthDate,DeathDate,BirthLocation,DeathLocation,Father,Mother,Spouses,Privacy,IsLiving"
+    },
+    "historical_filter": "known birth<=1551; known death>=1551; unknown dates retained; Privacy60/nonliving only",
+    "response": {
+      "status": 0,
+      "matches": [],
+      "total": 1,
+      "start": 0,
+      "limit": 100
+    }
+  }
+]

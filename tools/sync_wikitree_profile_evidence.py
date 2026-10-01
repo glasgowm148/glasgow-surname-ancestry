@@ -309,7 +309,7 @@ def profile_evidence(profile: dict, person: dict, captured_at: str) -> dict:
                 "Id", "PageId", "Name", "FirstName", "MiddleName", "MiddleInitial",
                 "LastNameAtBirth", "LastNameCurrent", "LastNameOther", "Nicknames",
                 "RealName", "ShortName", "LongName", "BirthName", "Prefix", "Suffix",
-                "Gender", "BirthDate", "BirthLocation", "DeathDate", "DeathLocation",
+                "Gender", "IsLiving", "BirthDate", "BirthLocation", "DeathDate", "DeathLocation",
                 "Father", "Mother", "DataStatus", "Privacy", "Connected", "Created",
                 "Touched", "HasChildren", "NoChildren", "childrenCount", "yDNA", "auDNA",
             )
@@ -401,7 +401,7 @@ def main() -> int:
                 try:
                     fallback = post_wikitree({
                         "action": "getProfile", "key": missing_target,
-                        "fields": ",".join(FIELDS), "bioFormat": "wiki",
+                        "fields": ",".join(dict.fromkeys([*FIELDS, "IsLiving"])), "bioFormat": "wiki",
                         "resolveRedirect": "1",
                     })
                 except ExportError as exc:

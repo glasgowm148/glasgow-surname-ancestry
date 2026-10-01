@@ -43,11 +43,11 @@ GENERIC_PLACE_WORDS = {
 }
 KNOWN_DRAFTS = {
     "record-john-glasgow-edinburgh-1648": "surname-research/new-people/1648_Scotland_Edinburgh_John_Glasgow.md",
-    "record-edinburgh-1577-andrew-glasgow": "surname-research/new-people/1577_Scotland_Hirmenschelis_Andrew_Glasgow.md",
-    "record-corsoun-1598-robert-glasgow": "surname-research/new-people/1598_Scotland_Corsoun_Robert_Glasgow.md",
-    "record-corsoun-1598-marion-glasgow": "surname-research/new-people/1598_Scotland_Corsoun_Marion_Glasgow.md",
-    "record-corsoun-1598-janet-glasgow": "surname-research/new-people/1598_Scotland_Corsoun_Janet_Glasgow.md",
-    "record-corsoun-1598-isobel-glasgow": "surname-research/new-people/1598_Scotland_Corsoun_Isobel_Glasgow.md",
+    "record-edinburgh-1577-andrew-glasgow": "research/Glasgow-3589/2026-09-30_superseded_1577_Scotland_Hirmenschelis_Andrew_Glasgow.md",
+    "record-corsoun-1598-robert-glasgow": "research/Glasgow-4006/2026-09-30_superseded_1598_Scotland_Corsoun_Robert_Glasgow.md",
+    "record-corsoun-1598-marion-glasgow": "research/Glasgow-4095/2026-09-30_superseded_1598_Scotland_Corsoun_Marion_Glasgow.md",
+    "record-corsoun-1598-janet-glasgow": "research/Glasgow-3183/Glasgow-3183.md",
+    "record-corsoun-1598-isobel-glasgow": "research/Glasgow-3336/Glasgow-3336.md",
     "record-john-glasgow-adf7604c1a": "research/Glasgow-3984/1685_Ireland_Maghrebegg_John_Glasgow.md",
     "record-robert-glascow-c6238069c6": "research/Glasgow-4009/1685_Ireland_Belfast_Robert_Glascow.md",
     "record-saltcoats-1637-john-glasgow": "research/Glasgow-4152/1637_Scotland_Saltcoats_John_Glasgow.md",

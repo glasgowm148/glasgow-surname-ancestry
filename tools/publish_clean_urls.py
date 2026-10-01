@@ -74,6 +74,58 @@ def _with_index_redirect(text: str, clean: str) -> str:
     return text.replace("<head>", f"<head>\n  {script}", 1)
 
 
+def _with_compare_shell(source: str, web_dir: Path) -> str:
+    """Keep the freshly generated comparison inside its shared site shell."""
+    shell_path = web_dir / "compare" / "advanced.html"
+    if not shell_path.exists():
+        return source
+    shell = shell_path.read_text(encoding="utf-8")
+    if 'class="g-nav"' not in shell:
+        return source
+    main_pattern = re.compile(r"<main\b[^>]*>(.*?)</main>", re.I | re.S)
+    main = main_pattern.search(source)
+    if not main or not main_pattern.search(shell):
+        raise ValueError("Comparison source or shared shell has no main container")
+
+    # Preserve the generator's cautions and links as well as all controls/results.
+    footer = re.search(r"<footer\b[^>]*>(.*?)</footer>", source, re.I | re.S)
+    notes = (
+        '<aside class="compare-panel" aria-label="About this comparison">'
+        + footer[1] + '</aside>'
+        if footer else ""
+    )
+    content = '<main id="main" class="r-main v3-compare">' + main[1] + notes + '</main>'
+    shell = main_pattern.sub(lambda _: content, shell, count=1)
+    shell = re.sub(r'data-g-path="[^"]*"', 'data-g-path="/compare/"', shell, count=1)
+    # The catalogue's generic details/button rules must not recolour the rail.
+    shell = shell.replace(
+        '</head>',
+        '<style id="compare-shell-overrides">'
+        '.g-rail :is(.g-mobile-more-links,.g-mobile-section-links)'
+        '{margin:0;border:0;border-radius:0;background:transparent}'
+        '.v3-compare #compare-submit{color:#fff}'
+        '</style></head>', 1,
+    )
+    for pattern in (r"<title>.*?</title>", r'<meta\b[^>]*name="description"[^>]*>'):
+        fresh = re.search(pattern, source, re.I | re.S)
+        if fresh:
+            shell = re.sub(pattern, lambda _: fresh[0], shell, count=1, flags=re.I | re.S)
+
+    # The source owns comparison data/scripts; the template owns shared UI assets.
+    for asset in ("people/external-links.js", "data/compare-index.js", "people/compare.js"):
+        pattern = rf'<script\b[^>]*src="/?{re.escape(asset)}(?:\?[^\"]*)?"[^>]*>\s*</script>'
+        fresh = re.search(pattern, source, re.I)
+        if fresh:
+            script = fresh[0].replace(f'src="{asset}', f'src="/{asset}')
+            shell = re.sub(pattern, lambda _: script, shell, count=1, flags=re.I)
+
+    try:
+        from tools.repair_primary_navigation import NAV, render_primary_navigation
+    except ImportError:
+        from repair_primary_navigation import NAV, render_primary_navigation
+    return NAV.sub(lambda _: render_primary_navigation(Path("compare/index.html")), shell)
+
+
 def publish_clean_urls(web_dir: Path = WEB_DIR) -> None:
     for legacy, clean in PAGE_ROUTES.items():
         source = web_dir / legacy
@@ -83,6 +135,8 @@ def publish_clean_urls(web_dir: Path = WEB_DIR) -> None:
         source_text = source.read_text(encoding="utf-8")
         if REDIRECT_MARKER in source_text:
             continue
+        if clean == "/compare":
+            source_text = _with_compare_shell(source_text, web_dir)
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_text(
             _with_index_redirect(_with_base(_rewrite_routes(source_text), clean), clean),

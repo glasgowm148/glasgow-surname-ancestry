@@ -1,54 +1,66 @@
 {
-  "updated": "2026-09-11",
-  "purpose": "Public-safe dated summaries of high-value external WikiTree free-space studies. They are navigation and research-status notes, not copies of page bodies or archival captures.",
+  "updated": "2026-09-30",
+  "purpose": "Current research conclusions for the full local Free-space second edition, retaining confidence, sources and next questions.",
   "studies": [
     {
       "id": "medieval-bearers",
       "title": "Medieval bearer register, c.1175–1500",
       "wikitreeId": "Space:Bearers of the ''de Glasgu'' Name and the Emergence of the Glasgow Surname, c.1175–1500",
       "provenance": "Reviewed Glasgow Name Study synthesis, 7 September 2026; individual bearer source copies verified live 29 August 2026.",
-      "publicSupport": {"label": "Public early-bearers account", "url": "/people/early-bearers/"},
+      "publicSupport": {
+        "label": "Public early-bearers account",
+        "url": "/people/early-bearers/"
+      },
       "confidence": "Mixed: individual occurrences are documented; a continuous medieval pedigree is not.",
       "conclusion": "The records document personal de Glasgu/de Glascu usage from the late twelfth century and two explicit father–son statements. They do not join the named bearers into one family or prove hereditary surname use in every occurrence.",
       "completedSearches": "Guild-roll, cartulary, ecclesiastical, royal-account and charter references were compared; distinct same-name people were kept separate and fourteen verified individual bearer pages were recorded locally.",
       "nextAction": "Add only a record with an identifying bridge—kin term, office, property, patron or repeated associates—before proposing any new connection.",
-      "localStatus": "Public supporting account linked here. The fourteen verified individual-page source copies are repository-only working material; the canonical study remains external on WikiTree."
+      "localStatus": "Full public-safe local edition published; WikiTree comparison and outgoing draft available on the reading page."
     },
     {
       "id": "early-scotland",
       "title": "Scottish branches, c.1447–1650",
       "wikitreeId": "Space:Glasgow Branches in 15th and 16th Century Scotland",
       "provenance": "Reviewed Glasgow Name Study synthesis, 7 September 2026.",
-      "publicSupport": {"label": "Public William Glasgow research account", "url": "/people/glasgow-1098.html"},
+      "publicSupport": {
+        "label": "Public William Glasgow research account",
+        "url": "/people/glasgow-1098.html"
+      },
       "confidence": "High for the documented William–John burgh core; probable for several adjacent relationships; unproved between regional groups.",
       "conclusion": "A Glasgow burgh family is directly visible through William Glasgow, Esbell Brade and their son John in sixteenth-century property records. The Saltmarket predecessor and several sibling links are probable, while the Corsinkell and Calder connections remain separate questions.",
       "completedSearches": "Property, burgess, protocol, testament and regional-record evidence was reconciled in the reviewed Name Study; conflicting kin claims were separated from explicit parent-child statements.",
       "nextAction": "Seek a document that bridges the burgh core to the west-coast and regional households; do not convert shared locality or surname evidence into a pedigree edge.",
-      "localStatus": "Public supporting account linked here. The maintained reviewed synthesis is repository source material; the canonical branch study is external on WikiTree."
+      "localStatus": "Full public-safe local edition published; WikiTree comparison and outgoing draft available on the reading page."
     },
     {
       "id": "early-ireland",
       "title": "Early Irish branches and Ulster locality groups",
       "wikitreeId": "Space:Glasgow Branches in Early Ireland",
-      "provenance": "Reviewed Glasgow Name Study synthesis, 7 September 2026; public place account built from maintained catalogue evidence.",
-      "publicSupport": {"label": "Public County Londonderry research account", "url": "/places/county-londonderry-general.html"},
-      "confidence": "Documented for several households and some nuclear families; unresolved between localities and to Scotland.",
-      "conclusion": "East Antrim, Tamlaght O'Crilly–Inishrush, Derryloran and the Bann Valley preserve real Glasgow household networks. The evidence does not support one Irish founder or a proven bridge from those networks to the Scottish pedigree.",
+      "provenance": "Maintained early-Ireland synthesis; Betham GO MS 225 p. 90/image 97 and new PRONI Lifford catalogue transcriptions inspected 30 September 2026.",
+      "publicSupport": {
+        "label": "Public Belfast & Donegal family account",
+        "url": "/branches/research-irish-belfast-donegal/"
+      },
+      "confidence": "Direct Archibald–Thomas father clause in Betham; son-to-Lifford identity strongly probable; wider regional and Scottish bridges unresolved.",
+      "conclusion": "Betham’s April 1673 will abstract identifies Archibald of Rathmalton’s eldest son Thomas and only daughter Margaret. Matching the son to the Lifford/Raphoe man remains strongly probable and his father field uncertain. Other Ulster household networks remain separate; no single Irish founder or Scottish descent is established.",
       "completedSearches": "Religious returns, leases, parish material, wills, census households, land records, family papers and relevant Y-DNA context were compared in the reviewed Name Study.",
-      "nextAction": "Reconstruct each locality household from original records and pursue migration links person by person; inspect underlying registers behind index-only leads.",
-      "localStatus": "Public supporting account linked here. The maintained reviewed synthesis is repository source material; the canonical branch study is external on WikiTree."
+      "nextAction": "Seek a distinctive relative or estate connecting the named 1673 son to Thomas of Lifford; search NAI PRCT/1/1 microfilm MFGS/41/1, deed recitals and Cairns/M’Auley collateral records. The surviving book is now accessible; its G index and Glas* transcript search did not locate the particular will. A complete manual search remains unfinished.",
+      "localStatus": "Full public-safe local edition published; WikiTree comparison and outgoing draft available on the reading page."
     },
     {
       "id": "londonderry-families",
       "title": "County Londonderry families",
       "wikitreeId": "Space:Glasgow Families of County Londonderry",
       "provenance": "Local revision draft marked REVIEW; canonical WikiTree page captured 29 August 2026 (last listed WikiTree edit 21 July 2026).",
-      "publicSupport": {"label": "Public County Londonderry research account", "url": "/places/county-londonderry-general.html"},
+      "publicSupport": {
+        "label": "Public County Londonderry research account",
+        "url": "/places/county-londonderry-general.html"
+      },
       "confidence": "Partial: the Tamlaght O'Crilly–Inishrush people form a documentary locality study; the proposed wider relationship is unproved.",
       "conclusion": "The maintained dossier distinguishes Hugh, Adam and John Glasgow evidence in Tamlaght O'Crilly and Inishrush from a single-founder narrative. It supports a research group, not a proved county-wide pedigree.",
       "completedSearches": "The local dossier compares the 1740 return, Inishrush lease context, later locality references and the reconstructed nineteenth-century John household.",
       "nextAction": "Compare the REVIEW-marked local revision against the existing canonical page, then seek records that expressly connect the separate households before naming a common ancestor.",
-      "localStatus": "Public supporting account linked here. A local REVIEW-marked revision draft exists only in the repository; it is not asserted to be the text currently published on the external canonical page."
+      "localStatus": "Full public-safe local edition published; WikiTree comparison and outgoing draft available on the reading page."
     }
   ]
 }

@@ -1,0 +1,23 @@
+# Clerical/local-history identity bridge: bounded search
+
+30 September 2026. **No new documentary bridge identifies Archibald Glasgow's eldest son Thomas with Glasgow-3556 of Lifford/Raphoe/Ballindrait. No father status change is supported.** The newly inspected 1673 Betham pedigree remains explicit for its own father–son pair; exact son-to-profile identity remains strongly probable.
+
+## Sources inspected
+
+1. **Henry Cotton, *Fasti Ecclesiae Hibernicae*, vol.III, *The Province of Ulster* (Dublin,1849)** — [complete digitised book](https://archive.org/details/fastiecclesiaehi03cott). Whole-book OCR was searched for Glasgow/Glascoe variants (`Glas[gck]`), Ramelton/Rathmalton variants, Lifford, Ballindrait and Cairns/M'Auley variants. The printed complete G-name index, pp.384–385 (PDF pages398–399), was visually inspected: no Glasgow/Glascoe entry. The full OCR's Glasgow occurrences concern education, origin or the city/archbishopric, rather than the targeted surname. This work concerns prelates and cathedral bodies; it is not a comprehensive roll of parish clergy or civil clerks. Its silence neither disproves Archibald's clerical identity nor identifies his denomination or appointment. The printed title dates1849; IA's generic series metadata says1851.
+
+2. **Cotton, vol.V, *Illustrations, Corrections and Additions*, with Garstin's general indexes (1860)** — [complete OCR](https://archive.org/details/fastiecclesiae05cottuoft). Correct volume/title verified from the OCR title page. Whole text/general indexes searched with the same surname/locality patterns. No targeted Glasgow/Glascoe person, Ramelton/Rathmalton occurrence or named Cairns/M'Auley household bridge found. This is an OCR-bounded negative; the printed vol.V index was not separately inspected. An initially returned item `fastiecclesiaehi05cott`, labelled volume5 in IA metadata, actually begins with Leinster material; it was excluded as the vol.V source. Captures preserve that metadata discrepancy.
+
+3. **Alexander G. Lecky, *In the Days of the Laggan Presbytery* (1908)** — [complete digitised book](https://archive.org/details/indayslagganpre00leckgoog). Whole-book OCR searched; all four Glasgow occurrences concern the city/university or a merchant's former residence, with no targeted surname relationship. Relevant complete printed passages were visually inspected: p.4 identifies **Thomas Drummond at Ramelton** among early ministers; p.23 places **William Trail at Lifford (Ballindrait), ordained29January1673**. These are separate men and general context, not a Glasgow kinship bridge. Appendix pp.143–147 gives Lecky's list of ruling elders/commissioners1672–1700; the complete Raphoe, Lifford and Ramelton subsections were read across their page continuations, with no Glasgow/Glascoe entry. The Inishowen list has **John M'Kaules**, but states no relationship to Elizabeth M'Auley or either Glasgow. Surname resemblance alone is insufficient. Lecky is a later history incorporating minute quotations/transcripts; the underlying original minutes were not inspected.
+
+## Limits and next question
+
+The lane is now stopped at these three relevant publications, printed-source checks and focused discovery searches. No qualifying new father record or distinctive estate/associate link emerged. No Ramelton/Lifford estate account manuscript was newly located or inspected here. No original presbytery minute book or additional Derry/Raphoe parish register was inspected; do not convert these bounded negatives into exhaustive clerical or local-record absence.
+
+The useful next evidence remains a direct recital in the already identified original PRONI bonds/deeds, the registered entry indexed cautiously as **Glass John,p.224**, or a dated Cairns/M'Auley family document connecting the1673household to the later Lifford actor. The sources checked here supply no basis to attach John M'Kaules, assign Archibald a particular church post, or change Father10.
+
+## Handoff and captures
+
+All downloads, OCR, metadata and selected complete-page PNGs are under `identity-bridge-captures/`; `provenance.json` records sources, verification scope and SHA256 hashes. No browser or Chrome was used, no live profile was edited and no public files were changed in this lane.
+
+Orchestrator integration: add the scoped Fasti/Lecky checks to maintained Glasgow-1101/Glasgow-3556 research logs and their public-safe source/open-question presentation. Relevant surfaces are their people pages/data and the early-Ireland/Donegal summaries. Keep the positive1673Betham father–son finding and the strongly probable exactprofile match; do not present this batch as resolution of the remaining father identity or as evidence of a denomination. Raw captures remain outside `www/`.

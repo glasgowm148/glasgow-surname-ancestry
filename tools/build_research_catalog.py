@@ -6,7 +6,7 @@ from __future__ import annotations
 import csv
 from collections import Counter, defaultdict, deque
 from datetime import date
-from difflib import ndiff
+from difflib import SequenceMatcher
 from hashlib import sha1
 from html import escape
 import json
@@ -22,7 +22,8 @@ try:
     from records_page import records_body, records_assets
     import evidence_labels
     from catalogue_theme import CATALOGUE_ASSET_VERSION, write_catalogue_css
-    from catalogue_search_markup import hero_html as catalogue_hero_html, search_panel_html as catalogue_search_panel_html
+    from catalogue_search_markup import compact_statistics, hero_html as catalogue_hero_html, search_panel_html as catalogue_search_panel_html
+    from catalogue_location_search import enrichment as catalogue_location_search_enrichment
     from project_paths import (
         RESEARCH_DIR, WEB_DIR, WIKITREE_PROFILE_EVIDENCE,
         WIKITREE_CATALOGUE_PROFILE_AUDIT, WIKITREE_CATALOGUE_PROFILE_LINKS,
@@ -39,7 +40,8 @@ except ModuleNotFoundError:  # Imported as tools.build_research_catalog by tests
     from tools.records_page import records_body, records_assets
     from tools import evidence_labels
     from tools.catalogue_theme import CATALOGUE_ASSET_VERSION, write_catalogue_css
-    from tools.catalogue_search_markup import hero_html as catalogue_hero_html, search_panel_html as catalogue_search_panel_html
+    from tools.catalogue_search_markup import compact_statistics, hero_html as catalogue_hero_html, search_panel_html as catalogue_search_panel_html
+    from tools.catalogue_location_search import enrichment as catalogue_location_search_enrichment
     from tools.project_paths import (
         RESEARCH_DIR, WEB_DIR, WIKITREE_PROFILE_EVIDENCE,
         WIKITREE_CATALOGUE_PROFILE_AUDIT, WIKITREE_CATALOGUE_PROFILE_LINKS,
@@ -367,12 +369,18 @@ def sync_generated_marriage_statistics() -> None:
     pattern = re.compile(
         r'<section class="statistics-panel"><h3>(?:Surnames of women who married Glasgow|Surnames joined by marriage to Glasgow)</h3>.*?</section>'
     )
-    for path in (WEB_DIR / "catalogue.html", WEB_DIR / "catalogue" / "index.html"):
-        html = path.read_text(encoding="utf-8")
+    artifact_path = DATA_DIR / "catalogue-statistics.json"
+    artifact = json.loads(artifact_path.read_text(encoding="utf-8"))
+    for path in (artifact_path, WEB_DIR / "statistics" / "index.html"):
+        html = artifact["html"] if path == artifact_path else path.read_text(encoding="utf-8")
         updated, count = pattern.subn(panel, html, count=1)
         if count != 1:
             raise RuntimeError(f"Marriage statistics panel not found in {path}")
-        path.write_text(updated, encoding="utf-8")
+        if path == artifact_path:
+            artifact["html"] = updated
+            path.write_text(json.dumps(artifact, ensure_ascii=False) + "\n", encoding="utf-8")
+        else:
+            path.write_text(updated, encoding="utf-8")
 
 
 def sync_generated_profile_work_status() -> dict[str, int]:
@@ -437,8 +445,10 @@ def sync_generated_profile_work_status() -> dict[str, int]:
         f"{counts['free_space_only']:,} pre-1500 subjects still lacking an individual Space page, and "
         f"{counts['unreviewed']:,} awaiting identity review. {counts['linked_free_space']:,} pre-1500 subjects are already linked to their canonical individual Space pages and are excluded from that work queue."
     )
-    for path in (WEB_DIR / "catalogue.html", WEB_DIR / "catalogue" / "index.html", WEB_DIR / "catalogue" / "advanced.html"):
-        html = path.read_text(encoding="utf-8")
+    artifact_path = DATA_DIR / "catalogue-statistics.json"
+    artifact = json.loads(artifact_path.read_text(encoding="utf-8"))
+    for path in (WEB_DIR / "catalogue.html", WEB_DIR / "catalogue" / "index.html", WEB_DIR / "catalogue" / "advanced.html", artifact_path, WEB_DIR / "statistics" / "index.html"):
+        html = artifact["html"] if path == artifact_path else path.read_text(encoding="utf-8")
         updated = re.sub(
             r"\d{1,3}(?:,\d{3})* documentary identities without confirmed destinations: .*? awaiting review",
             workbench,
@@ -456,7 +466,11 @@ def sync_generated_profile_work_status() -> dict[str, int]:
             updated,
         )
         if updated != html:
-            path.write_text(updated, encoding="utf-8")
+            if path == artifact_path:
+                artifact["html"] = updated
+                path.write_text(json.dumps(artifact, ensure_ascii=False) + "\n", encoding="utf-8")
+            else:
+                path.write_text(updated, encoding="utf-8")
     return {"changed_people": len(changed_ids), "creation_ready": counts["creation_ready"]}
 
 
@@ -4544,6 +4558,17 @@ def _registered_profile_updates(wikitree_evidence: dict) -> dict[str, dict]:
     return entries
 
 
+def _validate_profile_preservation_review(profile_id: str, current: str, proposed: str, review: dict) -> None:
+    """A previous preservation audit cannot approve changed source texts."""
+    import hashlib
+    for field, text in (("current_sha256", current), ("proposed_sha256", proposed)):
+        digest = hashlib.sha256(text.strip().encode()).hexdigest()
+        if review.get(field) != digest:
+            raise ValueError(f"Profile preservation review is stale for {profile_id}: {field}; reconcile the complete biographies again")
+    if not review.get('all_substantive_passages_accounted_for'):
+        raise ValueError(f"Profile preservation review is incomplete for {profile_id}")
+
+
 def _load_profile_updates(wikitree_evidence: dict) -> dict[str, dict]:
     """Build paste-ready biographies by applying reviewed patches to live WikiTree text."""
     if not PROFILE_UPDATE_QUEUE.exists():
@@ -4558,9 +4583,10 @@ def _load_profile_updates(wikitree_evidence: dict) -> dict[str, dict]:
     specifications = dict(registered_specifications)
     specifications.update(payload.get("entries", {}))
     completed_live_profiles = set(payload.get("completed_live_profiles", []))
+    reopened_profiles = set(payload.get("reopened_completed_profiles", {}))
     updates = {}
     for profile_id, specification in specifications.items():
-        if profile_id in completed_live_profiles:
+        if profile_id in completed_live_profiles and profile_id not in reopened_profiles:
             if profile_id not in registered_specifications:
                 continue
             # The reviewed biography is live, but an OPEN register row can still
@@ -4615,6 +4641,10 @@ def _load_profile_updates(wikitree_evidence: dict) -> dict[str, dict]:
                 proposed = proposed.replace(marker, addition.strip() + "\n\n" + marker, 1)
         proposed = _normalise_complete_wikitree_profile(proposed, profile_id, capture)
         proposed = _restore_captured_named_ref_definitions(proposed, remote, profile_id)
+        if specification.get('preservation_review_path'):
+            review_path = PROJECT_ROOT / specification['preservation_review_path']
+            review = json.loads(review_path.read_text())['profiles'][profile_id]
+            _validate_profile_preservation_review(profile_id, remote, proposed, review)
         if specification.get("draft_path"):
             # Full replacements may reorganise or qualify citations, but must
             # never silently discard a source present on the captured profile.
@@ -4631,6 +4661,10 @@ def _load_profile_updates(wikitree_evidence: dict) -> dict[str, dict]:
                     + "; ".join(sorted(missing_sources))
                 )
         if proposed == remote and not manual_update:
+            if profile_id in reopened_profiles:
+                # A later capture can show that a reopened biography amendment
+                # was applied. Keep completion history without a false badge.
+                continue
             raise ValueError(f"WikiTree update queue produces no change: {profile_id}")
         updates[profile_id] = {
             **specification,
@@ -4679,44 +4713,152 @@ def catalogue_research_case_ids() -> set[str]:
             if entry.get("status") == "include" and WIKITREE_ID.fullmatch(entry.get("profile_id", ""))}
 
 
+def _profile_update_controls(markup: str) -> str:
+    """Collapse the editor and filter the diff without changing either biography."""
+    from bs4 import BeautifulSoup
+    soup = BeautifulSoup(markup, "html.parser")
+    panel = soup.select_one('#wikitree-update')
+    if panel is None:
+        return markup
+    if not panel.select_one('.profile-update-disclosure'):
+        disclosure = soup.new_tag('details', attrs={'class': 'profile-update-disclosure'})
+        summary = soup.new_tag('summary')
+        summary.string = 'Paste-ready revised profile'
+        disclosure.append(summary)
+        for child in list(panel.contents):
+            disclosure.append(child.extract())
+        panel.append(disclosure)
+    for scroll in panel.select('.profile-diff-scroll'):
+        if scroll.find_previous_sibling(class_='profile-diff-controls'):
+            continue
+        controls = soup.new_tag('label', attrs={'class': 'profile-diff-controls'})
+        checkbox = soup.new_tag('input', attrs={'type': 'checkbox', 'class': 'profile-diff-changes-only'})
+        if scroll.select_one('.is-changed, .is-added, .is-removed'):
+            checkbox['checked'] = ''
+        else:
+            checkbox['disabled'] = ''
+        controls.append(checkbox)
+        controls.append(' Changes only — hide unchanged lines')
+        scroll.insert_before(controls)
+        if checkbox.has_attr('disabled'):
+            note = soup.new_tag('p')
+            note.string = 'No biography changes in this draft.'
+            scroll.insert_before(note)
+    for draft in panel.select('section.profile-draft-panel'):
+        draft.name = 'details'
+        heading = draft.find(['h2', 'h3'])
+        if heading:
+            heading.name = 'summary'
+        draft.attrs.pop('open', None)
+    if not panel.select_one('style[data-profile-update-controls]'):
+        style = soup.new_tag('style', attrs={'data-profile-update-controls': ''})
+        style.string = '''.profile-update-panel>.profile-update-disclosure>summary{cursor:pointer;font-weight:700;min-height:44px;box-sizing:border-box;padding:12px}
+.profile-update-panel .profile-diff-controls{display:flex;align-items:center;gap:8px;padding:12px 0;font:600 .85rem/1.5 Arial,sans-serif;cursor:pointer}
+.profile-update-panel .profile-diff-controls input{width:18px;min-width:18px;height:18px;min-height:18px;margin:0}
+.profile-update-panel .profile-diff-controls:has(input:checked)~.profile-diff-scroll .is-unchanged{display:none}
+.profile-update-panel details.profile-draft-panel>summary{cursor:pointer;font-weight:600;padding:12px 0}'''
+        panel.append(style)
+    return str(soup)
+
+
 def _profile_update_html(update: dict | None) -> str:
     if not update:
         return ""
+    review = update.get("application_review") or {}
+    review_note = (
+        '<p class="workbench-audit profile-application-review"><strong>Application review, '
+        + escape(str(review.get("reviewed_on") or "date not recorded"))
+        + ':</strong> ' + escape(str(review.get("assessment") or "")) + '</p>'
+        if review.get("assessment") else ""
+    )
     if update.get("manual_update"):
         profile_id = update["profile_id"]
         captured = escape(update.get("remote_captured_at") or "date not recorded")
         revision = escape(update.get("remote_revision") or "unknown revision")
-        return f"""<section id="wikitree-update" class="profile-update-panel">
+        # Manual describes how an amendment must be applied, not whether its
+        # biography needs comparing. Manager-blocked drafts can differ too.
+        current = update.get("remote_wikitext") or ""
+        comparison = (
+            '<details open><summary>Side-by-side comparison of the captured and replacement profiles</summary>'
+            '<div class="profile-diff-scroll" role="region" aria-label="Scrollable profile comparison" tabindex="0">'
+            + _profile_diff_html(current, update["proposed_wikitext"])
+            + '</div></details>'
+            if current else
+            '<p class="profile-capture-note">A current biography capture is unavailable; a comparison cannot yet be shown.</p>'
+        )
+        return _profile_update_controls(f"""<section id="wikitree-update" class="profile-update-panel">
 <div class="candidate-section-heading"><div><p class="kicker">Needs updated on WikiTree</p><h2>Manual or structured correction</h2></div><p>Significance {int(update.get('significance') or 0)}/100</p></div>
 <p class="lede">{escape(update.get('summary') or '')}</p>
-<p class="workbench-audit">Compared with <a href="{escape(update['profile_url'], quote=True)}">{escape(profile_id)}</a>, captured {captured} · {revision}. The biography already contains the researched narrative; make the remaining relationship, confidence or vital-field correction directly in WikiTree.</p>
+{review_note}
+<p class="workbench-audit">Compared with <a href="{escape(update['profile_url'], quote=True)}">{escape(profile_id)}</a>, captured {captured} · {revision}. This amendment requires manual action in WikiTree; the comparison shows the saved biography and prepared replacement. Relationship, confidence and vital-field changes must be applied separately.</p>
+{comparison}
 <section class="profile-draft-panel"><h3>Complete WikiTree biography</h3><p>Copy this complete text if the biography needs replacing while making the structured correction. Relationship, confidence and vital-field changes must still be made separately in WikiTree's data fields.</p>
 <textarea id="profile-update-draft" class="profile-draft" rows="28" readonly>{escape(update['proposed_wikitext'])}</textarea>
-<div class="actions"><button id="copy-profile-update" class="button" type="button">Copy complete profile</button><a class="button secondary" href="{escape(update['profile_url'], quote=True)}">Open WikiTree profile</a></div><p id="profile-update-status" class="form-status" aria-live="polite"></p></section></section>"""
-    diff_lines = []
-    for line in ndiff(
-        update["remote_wikitext"].splitlines(), update["proposed_wikitext"].splitlines()
-    ):
-        if line.startswith("? "):
-            continue
-        rendered = escape(line)
-        if line.startswith("+ "):
-            rendered = f"<mark>{rendered}</mark>"
-        elif line.startswith("- "):
-            rendered = f"<del>{rendered}</del>"
-        diff_lines.append(rendered)
+<div class="actions"><button id="copy-profile-update" class="button" type="button">Copy complete profile</button><a class="button secondary" href="{escape(update['profile_url'], quote=True)}">Open WikiTree profile</a></div><p id="profile-update-status" class="form-status" aria-live="polite"></p></section></section>""")
+    diff_html = _profile_diff_html(
+        update["remote_wikitext"], update["proposed_wikitext"]
+    )
     profile_id = update["profile_id"]
     captured = escape(update.get("remote_captured_at") or "date not recorded")
     revision = escape(update.get("remote_revision") or "unknown revision")
-    diff_html = "\n".join(diff_lines)
-    return f"""<section id="wikitree-update" class="profile-update-panel">
+    return _profile_update_controls(f"""<section id="wikitree-update" class="profile-update-panel">
 <div class="candidate-section-heading"><div><p class="kicker">Needs updated on WikiTree</p><h2>Paste-ready revised profile</h2></div><p>Significance {int(update.get('significance') or 0)}/100</p></div>
 <p class="lede">{escape(update.get('summary') or '')}</p>
+{review_note}
 <p class="workbench-audit">Compared with <a href="{escape(update['profile_url'], quote=True)}">{escape(profile_id)}</a>, captured {captured} · {revision}.</p>
-<details open><summary>Additions and removals from the live profile</summary><pre class="profile-update-diff">{diff_html}</pre></details>
-<section class="profile-draft-panel"><h3>Full replacement WikiTree biography</h3><p>Copy this complete text into the WikiTree biography editor. Green lines above are additions; red struck lines are removals. Apply any structured vital or relationship correction described in the update separately in WikiTree's data fields.</p>
+<details open><summary>Side-by-side comparison of the live and replacement profiles</summary><div class="profile-diff-scroll" role="region" aria-label="Scrollable profile comparison" tabindex="0">{diff_html}</div></details>
+<section class="profile-draft-panel"><h3>Full replacement WikiTree biography</h3><p>Copy this complete text into the WikiTree biography editor. Removed lines appear red on the left; added lines appear green on the right. Apply any structured vital or relationship correction described in the update separately in WikiTree's data fields.</p>
 <textarea id="profile-update-draft" class="profile-draft" rows="28" readonly>{escape(update['proposed_wikitext'])}</textarea>
-<div class="actions"><button id="copy-profile-update" class="button" type="button">Copy full revised profile</button><a class="button secondary" href="{escape(update['profile_url'], quote=True)}">Open WikiTree profile</a></div><p id="profile-update-status" class="form-status" aria-live="polite"></p></section></section>"""
+<div class="actions"><button id="copy-profile-update" class="button" type="button">Copy full revised profile</button><a class="button secondary" href="{escape(update['profile_url'], quote=True)}">Open WikiTree profile</a></div><p id="profile-update-status" class="form-status" aria-live="polite"></p></section></section>""")
+
+
+def _profile_diff_html(current: str, replacement: str) -> str:
+    """Render a complete, aligned two-column biography diff."""
+    current_lines = str(current or "").splitlines()
+    replacement_lines = str(replacement or "").splitlines()
+    rows: list[tuple[str, int | None, str, int | None, str]] = []
+    matcher = SequenceMatcher(None, current_lines, replacement_lines, autojunk=False)
+    for tag, i1, i2, j1, j2 in matcher.get_opcodes():
+        if tag == "equal":
+            for offset, (left, right) in enumerate(zip(current_lines[i1:i2], replacement_lines[j1:j2])):
+                rows.append(("unchanged", i1 + offset + 1, left, j1 + offset + 1, right))
+        elif tag == "delete":
+            for offset, left in enumerate(current_lines[i1:i2]):
+                rows.append(("removed", i1 + offset + 1, left, None, ""))
+        elif tag == "insert":
+            for offset, right in enumerate(replacement_lines[j1:j2]):
+                rows.append(("added", None, "", j1 + offset + 1, right))
+        else:  # replace: align differing lines row by row.
+            width = max(i2 - i1, j2 - j1)
+            for offset in range(width):
+                left_number = i1 + offset + 1 if i1 + offset < i2 else None
+                right_number = j1 + offset + 1 if j1 + offset < j2 else None
+                left = current_lines[i1 + offset] if left_number is not None else ""
+                right = replacement_lines[j1 + offset] if right_number is not None else ""
+                rows.append(("changed", left_number, left, right_number, right))
+
+    rendered = [
+        '<div class="profile-update-diff" role="table" aria-label="Profile biography comparison">'
+        '<div class="profile-diff-header" role="row">'
+        '<span role="columnheader">Current profile</span>'
+        '<span role="columnheader">Replacement profile</span></div>'
+    ]
+    for state, left_number, left, right_number, right in rows:
+        left_label = f"Current profile, line {left_number or 'blank'}, {state}"
+        right_label = f"Replacement profile, line {right_number or 'blank'}, {state}"
+        rendered.append(
+            f'<div class="profile-diff-row is-{state}" role="row">'
+            f'<div class="profile-diff-cell" role="cell" data-label="Current profile" aria-label="{escape(left_label, quote=True)}">'
+            f'<span class="profile-diff-side-label">Current profile</span>'
+            f'<span class="profile-diff-line-number">{left_number or ""}</span>'
+            f'<span class="profile-diff-text">{escape(left)}</span></div>'
+            f'<div class="profile-diff-cell" role="cell" data-label="Replacement profile" aria-label="{escape(right_label, quote=True)}">'
+            f'<span class="profile-diff-side-label">Replacement profile</span>'
+            f'<span class="profile-diff-line-number">{right_number or ""}</span>'
+            f'<span class="profile-diff-text">{escape(right)}</span></div></div>'
+        )
+    rendered.append("</div>")
+    return "".join(rendered)
 
 
 def _profile_creation_vital(person: dict) -> dict[str, str]:
@@ -5940,6 +6082,10 @@ def build_research_catalog(records: list[dict], profiles: dict[str, dict], edges
             "remote_captured_at": update.get("remote_captured_at") or "",
             "remote_revision": update.get("remote_revision") or "",
             "draft_wikitext": update.get("proposed_wikitext") or "",
+            **({"application_review": {key: update["application_review"][key]
+                                       for key in ("reviewed_on", "status", "assessment")
+                                       if key in update["application_review"]}}
+               if update.get("application_review") else {}),
         }
     candidate_worklist = _write_candidate_match_worklist(dossiers)
     location_to_slug = {
@@ -6097,8 +6243,10 @@ def build_research_catalog(records: list[dict], profiles: dict[str, dict], edges
         public_people, family_memberships, location_to_slug, len(place_index), len(public_records),
         profile_work_counts, original_count, refreshed,
     )
+    (DATA_DIR / "catalogue-statistics.json").write_text(
+        json.dumps({"html": statistics_html}, ensure_ascii=False) + "\n", encoding="utf-8")
     index_body = f"""{catalogue_hero_html(len(public_people))}
-{statistics_html}
+{compact_statistics(statistics_html)}
 {catalogue_search_panel_html(cluster_options, record_type_options, region_options)}
 <div id="catalogue-results" class="catalogue-results search-results" aria-live="polite"></div>
 {update_preview_html}
@@ -6217,7 +6365,7 @@ def build_research_catalog(records: list[dict], profiles: dict[str, dict], edges
         claim_statuses = _unique(item.get("status") for item in dossier["claims"])
         record_types = _catalogue_record_types(person)
         evidence_text = " ".join(str(value) for value in person["evidence"])
-        catalogue_search_index.append({
+        search_row = {
             "map_key": person["map_key"], "id": person["catalogue_id"], "name": person["name"],
             "profile_ids": person["profile_ids"], "first_names": person["first_names"],
             "last_names_at_birth": person["last_names_at_birth"], "last_names_current": person["last_names_current"],
@@ -6271,7 +6419,9 @@ def build_research_catalog(records: list[dict], profiles: dict[str, dict], edges
                 [category for capture in person["wikitree_evidence"] for category in capture.get("categories", [])]
                 + [item.get("citation", "") for capture in person["wikitree_evidence"] for item in capture.get("sources", [])]
             ),
-        })
+        }
+        search_row.update(catalogue_location_search_enrichment(person, dossier))
+        catalogue_search_index.append(search_row)
     search_js = Path(__file__).with_name("catalogue_search.js").read_text(encoding="utf-8")
     (CATALOGUE_DIR / "search.js").write_text(search_js + "\n", encoding="utf-8")
 

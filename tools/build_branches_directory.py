@@ -97,10 +97,11 @@ def area_for(*texts):
 
 def status_for(branch, curated):
     if branch["kind"] == "family":
-        return "Exported-tree family"
+        return "WikiTree family group"
     if branch["kind"] == "place":
         return "Local research study"
-    return curated.get(branch["id"], {}).get("status", "Evidence-led study")
+    status = curated.get(branch["id"], {}).get("status", "Evidence-led study")
+    return {"Evidence-led study": "Family study", "Locality / record cluster": "People recorded in the same area"}.get(status, status)
 
 
 def family_summary(branch, place):
@@ -133,14 +134,25 @@ MAP_BBOX = (-7.7, 54.4, -2.5, 56.2)  # west, south, east, north — must match p
 MAP_SCALE = 330.0
 
 
-def _project(lon, lat):
-    west, south, east, north = MAP_BBOX
+def _map_scale(bbox):
+    """Keep regional maps near the legacy map's 980px-wide canvas."""
+    if bbox == MAP_BBOX:
+        return MAP_SCALE
+    west, south, east, north = bbox
+    horizontal = (east - west) * math.cos(math.radians((south + north) / 2))
+    scale = 980.0 / horizontal if horizontal else MAP_SCALE
+    return min(scale, 680.0 / (north - south)) if north > south else scale
+
+
+def _project(lon, lat, *, bbox=MAP_BBOX):
+    west, south, east, north = bbox
     k = math.cos(math.radians((south + north) / 2))
-    return (lon - west) * k * MAP_SCALE, (north - lat) * MAP_SCALE
+    scale = _map_scale(bbox)
+    return (lon - west) * k * scale, (north - lat) * scale
 
 
-def _map_size():
-    return _project(MAP_BBOX[2], MAP_BBOX[1])
+def _map_size(*, bbox=MAP_BBOX):
+    return _project(bbox[2], bbox[1], bbox=bbox)
 
 
 def _rings(geometry):
@@ -151,13 +163,13 @@ def _rings(geometry):
     return []
 
 
-def _path(geometry):
+def _path(geometry, *, bbox=MAP_BBOX):
     parts = []
     for polygon in _rings(geometry):
         for ring in polygon:
             points, last = [], None
             for lon, lat in ring:
-                x, y = _project(lon, lat)
+                x, y = _project(lon, lat, bbox=bbox)
                 point = (round(x, 1), round(y, 1))
                 if point != last:
                     points.append(point)
@@ -167,11 +179,11 @@ def _path(geometry):
     return "".join(parts)
 
 
-def _label_point(geometry):
+def _label_point(geometry, *, bbox=MAP_BBOX):
     """Area-weighted centroid of the largest polygon (a simple visual anchor)."""
     best, best_area = None, -1.0
     for polygon in _rings(geometry):
-        ring = [_project(lon, lat) for lon, lat in polygon[0]]
+        ring = [_project(lon, lat, bbox=bbox) for lon, lat in polygon[0]]
         area = cx = cy = 0.0
         for (x0, y0), (x1, y1) in zip(ring, ring[1:] + ring[:1]):
             cross = x0 * y1 - x1 * y0
@@ -183,15 +195,16 @@ def _label_point(geometry):
     return best or (0.0, 0.0)
 
 
-def basemap_paths():
+def basemap_paths(counties=None, *, bbox=MAP_BBOX):
     """Non-interactive context: historic counties of Ireland and Great Britain.
 
     Drawn inline (not as an <image>) so county lines keep a constant width
     when the map is zoomed.
     """
-    counties = json.loads((TERRITORY_DIR / "counties.geojson").read_text(encoding="utf-8"))["features"]
+    if counties is None:
+        counties = json.loads((TERRITORY_DIR / "counties.geojson").read_text(encoding="utf-8"))["features"]
     return '<g class="bd-base">' + "".join(
-        f'<path class="bd-base-{f["properties"]["country"]}" d="{_path(f["geometry"])}"/>' for f in counties if f.get("geometry")) + '</g>'
+        f'<path class="bd-base-{f["properties"]["country"]}" d="{_path(f["geometry"], bbox=bbox)}"/>' for f in counties if f.get("geometry")) + '</g>'
 
 
 def _fixed(x, y, content, cls):
@@ -199,14 +212,15 @@ def _fixed(x, y, content, cls):
     return f'<g class="{cls}" data-x="{x:.1f}" data-y="{y:.1f}" transform="translate({x:.1f} {y:.1f})">{content}</g>'
 
 
-def county_labels():
-    width, height = _map_size()
-    counties = json.loads((TERRITORY_DIR / "counties.geojson").read_text(encoding="utf-8"))["features"]
+def county_labels(counties=None, *, bbox=MAP_BBOX):
+    width, height = _map_size(bbox=bbox)
+    if counties is None:
+        counties = json.loads((TERRITORY_DIR / "counties.geojson").read_text(encoding="utf-8"))["features"]
     labels = []
     for f in counties:
         if not f.get("geometry"):
             continue
-        x, y = _label_point(f["geometry"])
+        x, y = _label_point(f["geometry"], bbox=bbox)
         if 40 < x < width - 40 and 20 < y < height - 20:
             name = re.sub(r"^County ", "", f["properties"]["name"] or "")
             labels.append(_fixed(x, y, f'<text>{escape(name)}</text>', "bd-county"))
@@ -284,19 +298,27 @@ def rank_territories(territories):
 
 
 def _evidence_line(m):
-    people = f'{m["people"]:,} people mapped' + (f' ({m["leads"]:,} unreviewed profile lead{"s" if m["leads"] != 1 else ""})' if m["leads"] else '')
-    return escape(f'{m["dossiers"]} research dossiers · {m["sourced"]} sourced records and captures · {people}')
+    people = f'{m["people"]:,} people listed' + (f' ({m["leads"]:,} unreviewed profile lead{"s" if m["leads"] != 1 else ""})' if m["leads"] else '')
+    return escape(f'{m["dossiers"]} people with research notes · {m["sourced"]} records and saved source material · {people}')
 
 
-def study_map(groups):
-    """Inline SVG of the priority study territories plus the ranked list."""
+DEFAULT_MAP_INTRO = ('The highlighted areas are the main study areas, numbered by how much research is recorded for them: research notes, sources and people recorded there. '
+                     'Hover or tap an area to see its studies; select it to open the leading study. Scroll or pinch to zoom, and drag to move the map.')
+DEFAULT_MAP_ATTRIBUTION = ('Civil-parish outlines mark representative study areas, not proved family lands. Boundaries: '
+                           '<a href="https://www.townlands.ie/">Townlands.ie</a> and <a href="https://www.openstreetmap.org/copyright">© OpenStreetMap contributors</a> (ODbL); '
+                           '<a href="https://www.nrscotland.gov.uk/">National Records of Scotland</a> civil parishes (Open Government Licence); '
+                           'this map made use of data provided by the <a href="https://www.county-borders.co.uk">Historic County Borders Project</a>.')
+
+
+def render_study_map(groups, territories, counties, *, bbox=MAP_BBOX, label='Ireland and Scotland', intro=None,
+                     attribution=None, region_id=None, overseas=True):
+    """Render pre-ranked study territories with reusable SVG and list markup."""
     by_id = {group["id"]: group for group in groups}
-    width, height = _map_size()
-    territories = rank_territories(json.loads((TERRITORY_DIR / "territories.geojson").read_text(encoding="utf-8"))["features"])
+    width, height = _map_size(bbox=bbox)
     shapes, badges, items = [], [], []
     # Separate badges that would overlap (1, 3 and 8 are neighbouring parishes)
     # and join each moved badge to its area with a short leader line.
-    anchors = {f["properties"]["id"]: _label_point(f["geometry"]) for f in territories}
+    anchors = {f["properties"]["id"]: _label_point(f["geometry"], bbox=bbox) for f in territories}
     placed = {}
     for tid, (x, y) in anchors.items():
         bx, by = x, y
@@ -311,7 +333,7 @@ def study_map(groups):
         placed[tid] = (bx, by)
     for feature in territories:
         t = feature["properties"]
-        studies = [by_id[sid] for sid in t["studies"] if sid in by_id]
+        studies = [by_id[sid] for sid in t.get("studies", []) if sid in by_id]
         if not studies:
             continue
         primary = studies[0]
@@ -322,34 +344,58 @@ def study_map(groups):
         # The badge offset from its area shrinks as the map zooms in (data-ox/oy).
         badge = (f'<g class="bd-badge-g" data-x="{ax:.1f}" data-y="{ay:.1f}" data-ox="{x - ax:.1f}" data-oy="{y - ay:.1f}" transform="translate({x:.1f} {y:.1f})">'
                  f'<circle class="bd-badge" r="13"/><text>{t["priority"]}</text></g>')
-        label = f'{t["priority"]}. {t["label"]}: {primary["label"]}'
-        shapes.append(f'<a class="bd-territory bd-{t["country"]}" href="{escape(primary["url"], quote=True)}" data-territory="{tid}" aria-label="{escape(label, quote=True)}">'
-                      f'<path d="{_path(feature["geometry"])}"/>{leader}{badge}</a>')
+        shape_label = f'{t["priority"]}. {t["label"]}: {primary["label"]}'
+        shapes.append(f'<a class="bd-territory bd-{t["country"]}" href="{escape(primary["url"], quote=True)}" data-territory="{tid}" aria-label="{escape(shape_label, quote=True)}">'
+                      f'<path d="{_path(feature["geometry"], bbox=bbox)}"/>{leader}{badge}</a>')
         study_links = ''.join(
             f'<li><a href="{escape(s["url"], quote=True)}">{escape(s["label"])}</a> <span class="bd-status">{escape(s["status"])}</span></li>'
             for s in studies)
-        items.append(f'<li class="bd-priority-item" data-territory="{tid}"><span class="bd-rank">{t["priority"]}</span><div>'
-                     f'<h3><a href="{escape(primary["url"], quote=True)}">{escape(t["label"])}</a></h3>'
-                     f'<p>{escape(t["why"])}</p><p class="bd-evidence" title="Research score {t["metrics"]["score"]} of 100">{_evidence_line(t["metrics"])}</p><p class="bd-parishes">Civil parishes shown: {escape(", ".join(sorted({re.sub(r" [(].*[)]$", "", p) for p in t["parishes"]})))}</p>'
-                     f'<ul class="bd-priority-studies">{study_links}</ul></div></li>')
-    overseas = [g for g in groups if g["tier"] == "study" and not any(r in {"early-ireland", "scottish-families"} for r in g["regions"])]
-    return (f'<section id="study-map" class="bd-studymap" aria-labelledby="study-map-title"><div class="bd-studymap-head"><span class="r-kicker">Priority studies</span>'
-            '<h2 id="study-map-title">Where the research is concentrated</h2><p>The highlighted areas are the main study areas, numbered by how much research is recorded for them: research dossiers, sourced records and documented people located there. '
-            'Hover or tap an area to see its studies; select it to open the leading study. Scroll or pinch to zoom, and drag to move the map.</p></div>'
-            f'<div class="bd-studymap-body"><figure class="bd-studymap-figure"><svg class="bd-svg" viewBox="0 0 {width:.0f} {height:.0f}" role="group" aria-label="Map of priority research areas in Ireland and Scotland">'
-            + basemap_paths()
-            + county_labels()
-            + _fixed(*_project(-7.2, 54.55), '<text>IRELAND</text>', 'bd-country')
-            + _fixed(*_project(-3.4, 56.12), '<text>SCOTLAND</text>', 'bd-country')
+        metrics = t.get("metrics", {})
+        evidence = metrics.get("evidence_text") or _evidence_line(metrics)
+        score_title = f' title="Research score {metrics["score"]} of 100"' if "score" in metrics else ""
+        boundary_label = t.get("boundary_label", "Civil parishes shown")
+        boundaries = t.get("parishes", [])
+        content = (f'<p>{escape(t.get("why", ""))}</p><p class="bd-evidence"{score_title}>{escape(evidence) if metrics.get("evidence_text") else evidence}</p>'
+                   f'<p class="bd-parishes">{escape(boundary_label)}: {escape(", ".join(sorted({re.sub(r" [(].*[)]$", "", p) for p in boundaries})))}</p>'
+                   f'<ul class="bd-priority-studies">{study_links}</ul>')
+        if region_id:
+            people = metrics.get('people', 0)
+            items.append(f'<li class="bd-priority-item" data-territory="{tid}"><details class="bd-area-details" open>'
+                         f'<summary><h3><span class="bd-rank">{t["priority"]}</span><span class="bd-area-heading">'
+                         f'<span class="bd-area-name">{escape(t["label"])}</span><small>{people:,} people recorded</small></span></h3></summary>'
+                         f'<div class="bd-area-content">{content}</div></details></li>')
+        else:
+            items.append(f'<li class="bd-priority-item" data-territory="{tid}"><span class="bd-rank">{t["priority"]}</span><div>'
+                         f'<h3><a href="{escape(primary["url"], quote=True)}">{escape(t["label"])}</a></h3>{content}</div></li>')
+    overseas_groups = ([g for g in groups if g["tier"] == "study" and not any(r in {"early-ireland", "scottish-families"} for r in g["regions"])]
+                       if overseas else [])
+    regional_class = ' bd-regional-studymap' if region_id else ''
+    regional_svg = f' bd-region-svg" data-region="{escape(region_id, quote=True)}' if region_id else ''
+    intro = DEFAULT_MAP_INTRO if intro is None else intro
+    attribution = DEFAULT_MAP_ATTRIBUTION if attribution is None else attribution
+    country_words = ''
+    if bbox == MAP_BBOX and label == 'Ireland and Scotland':
+        country_words = (_fixed(*_project(-7.2, 54.55, bbox=bbox), '<text>IRELAND</text>', 'bd-country')
+                         + _fixed(*_project(-3.4, 56.12, bbox=bbox), '<text>SCOTLAND</text>', 'bd-country'))
+    return (f'<section id="study-map" class="bd-studymap{regional_class}" aria-labelledby="study-map-title"><div class="bd-studymap-head"><span class="r-kicker">Priority studies</span>'
+            f'<h2 id="study-map-title">Where the research is concentrated</h2><p>{escape(intro)}</p></div>'
+            f'<div class="bd-studymap-body"><figure class="bd-studymap-figure"><svg class="bd-svg{regional_svg}" viewBox="0 0 {width:.0f} {height:.0f}" role="group" aria-label="Map of priority research areas in {escape(label, quote=True)}">'
+            + basemap_paths(counties, bbox=bbox)
+            + county_labels(counties, bbox=bbox)
+            + country_words
             + ''.join(shapes) +
             '</svg><div class="bd-zoom" hidden><button type="button" data-zoom="in" aria-label="Zoom in">+</button><button type="button" data-zoom="out" aria-label="Zoom out">−</button><button type="button" data-zoom="reset" aria-label="Show the whole map">⤢</button></div><div class="bd-popup" hidden role="status"></div>'
-            '<figcaption>Civil-parish outlines mark representative study areas, not proved family lands. Boundaries: '
-            '<a href="https://www.townlands.ie/">Townlands.ie</a> and <a href="https://www.openstreetmap.org/copyright">© OpenStreetMap contributors</a> (ODbL); '
-            '<a href="https://www.nrscotland.gov.uk/">National Records of Scotland</a> civil parishes (Open Government Licence); '
-            'this map made use of data provided by the <a href="https://www.county-borders.co.uk">Historic County Borders Project</a>.</figcaption></figure>'
+            f'<figcaption>{attribution}</figcaption></figure>'
             f'<ol class="bd-priority">{"".join(items)}</ol></div>'
-            + (f'<p class="bd-overseas">Studies beyond Ireland and Scotland: ' + ', '.join(f'<a href="{escape(g["url"], quote=True)}">{escape(g["label"])}</a>' for g in overseas) + '.</p>' if overseas else '')
+            + (f'<p class="bd-overseas">Studies beyond Ireland and Scotland: ' + ', '.join(f'<a href="{escape(g["url"], quote=True)}">{escape(g["label"])}</a>' for g in overseas_groups) + '.</p>' if overseas_groups else '')
             + '</section>')
+
+
+def study_map(groups):
+    """Legacy Ireland-and-Scotland priority-study map."""
+    territories = rank_territories(json.loads((TERRITORY_DIR / "territories.geojson").read_text(encoding="utf-8"))["features"])
+    counties = json.loads((TERRITORY_DIR / "counties.geojson").read_text(encoding="utf-8"))["features"]
+    return render_study_map(groups, territories, counties)
 
 
 def static_main(directory):
@@ -374,18 +420,25 @@ def static_main(directory):
     for region in regions:
         families = [group for group in groups if group["kind"] == "family" and region["id"] in group["regions"]]
         items = ''.join(f'<li data-group-id="{escape(group["id"], quote=True)}"><a href="{escape(group["url"], quote=True)}">{escape(group["label"])}</a> · {group["people"]} people · {group["from"] or "?"}–{group["to"] or "?"}</li>' for group in families)
-        family_sections.append(f'<details><summary>Connected families in {escape(region["label"])} ({len(families)})</summary><ul>{items}</ul></details>')
-    return f'''<main class="r-main" id="main"><header class="r-page-head"><span class="r-kicker">Families &amp; localities</span><h1>Find the place.<br>Follow the family.</h1><p class="r-lead">Start with a region, choose an evidence-led study, then follow named people into their records and connections.</p></header>
+        family_sections.append(f'<details><summary>Family groups in {escape(region["label"])} ({len(families)})</summary><ul>{items}</ul></details>')
+    return f'''<main class="r-main" id="main"><header class="r-page-head"><span class="r-kicker">Families &amp; places</span><h1>Families and places</h1><p class="r-lead">Choose a place or family to read its history, see the records and find the questions still open.</p></header>
 {study_map(groups)}
 <section id="bd-find" class="bd-find" hidden><label for="bd-q">Find a study or family</label><input id="bd-q" type="search" placeholder="A person, family or place" autocomplete="off"><p id="bd-count" role="status"></p></section>
 <section id="experience-regions"><span class="r-kicker">Browse by place</span><h2>Start with a region</h2><div class="bd-region-grid">{region_cards}</div></section>
-<section id="research-studies"><span class="r-kicker">Evidence-led studies</span><h2>Scotland studies</h2>{grouped_cards(scottish)}</section>
-<section id="irish-research-studies"><span class="r-kicker">Evidence-led studies</span><h2>Ireland &amp; Ulster studies</h2>{grouped_cards(irish)}</section>
-<section id="connected-families"><span class="r-kicker">Browse the catalogue exports</span><h2>Connected families</h2>{''.join(family_sections)}<p><a href="/branches/browse/">Browse all family groups</a></p></section></main>'''
+<section id="research-studies"><span class="r-kicker">Family and place studies</span><h2>Scotland studies</h2>{grouped_cards(scottish)}</section>
+<section id="irish-research-studies"><span class="r-kicker">Family and place studies</span><h2>Ireland &amp; Ulster studies</h2>{grouped_cards(irish)}</section>
+<section id="connected-families"><span class="r-kicker">Browse recorded family groups</span><h2>Family groups from WikiTree</h2><p>These groups follow recorded tree links, some of which have not been checked against the records. See each person’s research notes before relying on a relationship.</p>{''.join(family_sections)}<p><a href="/branches/browse/">Browse all family groups</a></p></section></main>'''
 
 
 def repair():
     changed = Counter()
+    for name in ('css', 'js'):
+        asset = ROOT / f'tools/branches_directory.{name}'
+        destination = WEB / f'assets/research/branches-directory.{name}'
+        if asset.exists() and (not destination.exists() or destination.read_text() != asset.read_text()):
+            destination.parent.mkdir(parents=True, exist_ok=True)
+            destination.write_text(asset.read_text())
+            changed['branches_directory_assets'] += 1
     branches = json.loads((WEB / "assets/research/branches.json").read_text(encoding="utf-8"))
     palette = json.loads((WEB / "assets/research/palette.json").read_text(encoding="utf-8"))
     data = runpy.run_path(str(ROOT / "tools/repair_research_groups.py"))
@@ -438,10 +491,10 @@ def repair():
         changed["branches_directory"] += 1
     page = WEB / "branches/index.html"
     text = page.read_text(encoding="utf-8")
-    css = '<link rel="stylesheet" href="/assets/research/branches-directory.css?v=12">'
+    css = '<link rel="stylesheet" href="/assets/research/branches-directory.css?v=14">'
     text = re.sub(r'<link rel="stylesheet" href="/assets/research/branches-directory\.css\?v=\d+">', "", text)
     text = text.replace("</head>", css + "</head>", 1)
-    script = '<script defer src="/assets/research/branches-directory.js?v=5"></script>'
+    script = '<script defer src="/assets/research/branches-directory.js?v=7"></script>'
     text = re.sub(r'<script defer src="/assets/research/branches-(?:map|directory)\.js\?v=\d+"></script>', "", text)
     core = re.search(r'(<script defer src="/assets/research/core\.js\?v=[^"]+"></script>)', text)
     text = text[:core.end()] + script + text[core.end():] if core else text.replace("</body>", script + "</body>", 1)
@@ -450,20 +503,21 @@ def repair():
         page.write_text(text, encoding="utf-8")
         changed["branches_directory"] += 1
     changed["home_study_map"] += _home_study_map(directory["groups"], css, script)
+    changed.update(runpy.run_path(str(ROOT / 'tools/build_regional_study_maps.py'))['repair'](directory, renderer=render_study_map))
     return changed
 
 
 def _home_study_map(groups, css: str, script: str) -> int:
-    """Show the same priority-study map on the homepage, after the family/place starting points."""
+    """Show the priority-study map immediately after the homepage opening."""
     page = WEB / "index.html"
     original = page.read_text(encoding="utf-8")
     section = study_map(groups).replace('class="bd-studymap"', 'class="bd-studymap bd-home-studymap"', 1)
     more = '<p class="bd-home-more"><a href="/branches/#study-map">All study areas and families →</a></p>'
     section = section[:-len("</section>")] + more + "</section>"
-    text = re.sub(r'<section id="study-map" class="bd-studymap[^"]*".*?</section>', "", original, count=1, flags=re.S)
-    anchor = re.search(r'<section class="v3-section"><div class="v3-section-heading"><div><span class="r-kicker">Follow the evidence</span>.*?</section>', text, flags=re.S)
+    text = re.sub(r'<section\b(?=[^>]*\bid="study-map")[^>]*>.*?</section>', "", original, count=1, flags=re.S)
+    anchor = re.search(r'<section class="(?:reader-intro|v3-home-hero)"[^>]*>.*?</section>', text, flags=re.S)
     if not anchor:
-        raise ValueError("homepage 'Follow the evidence' section not found")
+        raise ValueError("homepage opening section not found")
     text = text[:anchor.end()] + section + text[anchor.end():]
     text = re.sub(r'<link rel="stylesheet" href="/assets/research/branches-directory\.css\?v=\d+">', "", text)
     text = text.replace("</head>", css + "</head>", 1)

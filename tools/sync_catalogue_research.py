@@ -11,8 +11,12 @@ from pathlib import Path
 
 from bs4 import BeautifulSoup
 
-import build_research_catalog as catalogue
-from repair_person_hierarchy import _replace_main, revise, render_person_dossier
+try:
+    import build_research_catalog as catalogue
+    from repair_person_hierarchy import _profile_update_panel, _replace_main, revise, render_person_dossier
+except ModuleNotFoundError:
+    from tools import build_research_catalog as catalogue
+    from tools.repair_person_hierarchy import _profile_update_panel, _replace_main, revise, render_person_dossier
 
 ROOT = Path(__file__).resolve().parents[1]
 WEB = ROOT / "www"
@@ -35,14 +39,54 @@ def write_json(path, value):
 def update_data(update):
     if not update:
         return None
+    draft = update.get("proposed_wikitext") or update.get("draft_wikitext") or ""
     return {
         "profile_id": update["profile_id"],
-        "significance": int(update["significance"]),
-        "summary": update["summary"],
-        "remote_captured_at": update["remote_captured_at"],
-        "remote_revision": update["remote_revision"],
-        "draft_wikitext": update["proposed_wikitext"],
+        "significance": int(update.get("significance") or 0),
+        "summary": update.get("summary") or "",
+        "remote_captured_at": update.get("remote_captured_at") or "",
+        "remote_revision": update.get("remote_revision") or "",
+        "remote_wikitext": update.get("remote_wikitext") or "",
+        "draft_wikitext": draft,
+        "manual_update": bool(update.get("manual_update")),
+        "pending": bool(update.get("pending", True)),
+        **({"application_review": {key: update["application_review"][key]
+                                   for key in ("reviewed_on", "status", "assessment")
+                                   if key in update["application_review"]}}
+           if update.get("application_review") else {}),
     }
+
+
+def completed_comparisons(evidence, queue_payload):
+    """Materialise a read-only current-vs-draft comparison for completed work."""
+    profiles = evidence.get("profiles", {})
+    reopened = set(queue_payload.get("reopened_completed_profiles", []))
+    entries = queue_payload.get("entries", {})
+    completed = set(queue_payload.get("completed_live_profiles", [])) - reopened
+    comparisons = {}
+    for profile_id in sorted(completed):
+        capture = profiles.get(profile_id) or {}
+        current = str(capture.get("biography_wikitext") or "").strip()
+        if not current:
+            continue
+        spec = entries.get(profile_id) or {}
+        revision = capture.get("last_updated") or ""
+        try:
+            revision = catalogue._format_profile_timestamp(revision)
+        except (AttributeError, TypeError, ValueError):
+            revision = str(revision)
+        comparisons[profile_id] = {
+            "profile_id": profile_id,
+            "remote_wikitext": current,
+            "draft_wikitext": current,
+            "remote_captured_at": capture.get("captured_at") or "",
+            "remote_revision": revision,
+            "summary": "The prepared amendment is already on WikiTree; no pending biography change.",
+            "pending": False,
+            "significance": int(spec.get("significance") or 0),
+            "profile_url": capture.get("profile_url") or f"https://www.wikitree.com/wiki/{profile_id}",
+        }
+    return comparisons
 
 
 def article_html(finding, section, links):
@@ -58,7 +102,7 @@ def plain(node):
     return " ".join(node.get_text(" ", strip=True).split())
 
 
-def discrepancies(dossier, soup, findings, update, row, links):
+def discrepancies(dossier, soup, findings, update, row, links, comparison=None):
     issues = []
     new_layout = bool(soup.select_one(".person-dossier-readable"))
     if dossier.get("research_findings", []) != findings:
@@ -70,6 +114,19 @@ def discrepancies(dossier, soup, findings, update, row, links):
         desired = update_data(update)
         if dossier.get("wikitree_update") != desired:
             issues.append("update data")
+        if comparison and dossier.get("wikitree_comparison") != comparison:
+            issues.append("comparison data")
+        display = update or comparison
+        panel = soup.select_one("#wikitree-update")
+        if bool(panel) != bool(display):
+            issues.append("update panel")
+        elif display:
+            expected_draft = display.get("proposed_wikitext") or display.get("draft_wikitext") or ""
+            draft = panel.select_one("#profile-update-draft")
+            if not draft or draft.get_text() != expected_draft:
+                issues.append("visible draft")
+            if display.get("remote_wikitext") and not panel.select_one("#profile-update-current"):
+                issues.append("visible current capture")
         if bool(row.get("needs_wikitree_update")) != bool(update):
             issues.append("update flag")
         if row.get("wikitree_update_summary", "") != (update["summary"] if update else ""):
@@ -87,16 +144,22 @@ def discrepancies(dossier, soup, findings, update, row, links):
     actual = dossier.get("wikitree_update")
     if actual != desired:
         issues.append("update data")
+    if comparison and dossier.get("wikitree_comparison") != comparison:
+        issues.append("comparison data")
     panel = soup.select_one("#wikitree-update")
-    if bool(panel) != bool(update):
+    display = update or comparison
+    if bool(panel) != bool(display):
         issues.append("update panel")
-    elif update:
+    elif display:
         draft = panel.select_one("#profile-update-draft")
         summary = panel.select_one(".lede")
-        if not draft or draft.get_text() != update["proposed_wikitext"]:
+        expected_draft = display.get("proposed_wikitext") or display.get("draft_wikitext") or ""
+        if not draft or draft.get_text() != expected_draft:
             issues.append("visible draft")
-        if not summary or plain(summary) != " ".join(update["summary"].split()):
+        if not summary or plain(summary) != " ".join(display.get("summary", "").split()):
             issues.append("visible update summary")
+        if display.get("remote_wikitext") and not panel.select_one("#profile-update-current"):
+            issues.append("visible current capture")
     if bool(row.get("needs_wikitree_update")) != bool(update):
         issues.append("update flag")
     if row.get("wikitree_update_summary", "") != (update["summary"] if update else ""):
@@ -152,15 +215,15 @@ def refresh_person(soup, findings, update, links):
             tools = soup.new_tag("div", id="research-tools")
             research.append(tools)
         wrapper = soup.new_tag("details", attrs={"class": "r-disclosure"})
-        heading = soup.new_tag("summary"); heading.string = "Prepared WikiTree updates — Needs updated on WikiTree"
+        heading = soup.new_tag("summary"); heading.string = "Prepared WikiTree comparison" if not update.get("pending", True) else "Prepared WikiTree updates — Needs updated on WikiTree"
         wrapper.append(heading)
-        wrapper.append(BeautifulSoup(catalogue._profile_update_html(update), "html.parser"))
+        wrapper.append(BeautifulSoup(_profile_update_panel(update), "html.parser"))
         tools.insert(1, wrapper)
         inline = soup.select_one(".v3-inline-links")
         if inline is not None:
-            link = soup.new_tag("a", href="#wikitree-update"); link.string = "Needs updated on WikiTree →"; inline.append(link)
+            link = soup.new_tag("a", href="#wikitree-update"); link.string = "WikiTree comparison →" if not update.get("pending", True) else "Needs updated on WikiTree →"; inline.append(link)
         if not any("profile-update.js" in script.get("src", "") for script in soup.select("script[src]")):
-            soup.body.append(soup.new_tag("script", src=f"people/profile-update.js?v={catalogue.CATALOGUE_ASSET_VERSION}", defer=True))
+            soup.body.append(soup.new_tag("script", src=f"/people/profile-update.js?v={catalogue.CATALOGUE_ASSET_VERSION}", defer=True))
     return revise(str(soup))[0]
 
 
@@ -206,14 +269,17 @@ def main():
     parser.add_argument("profiles", nargs="*", help="Profile IDs; default: every case with findings or an update")
     parser.add_argument("--write", action="store_true", help="Refresh reviewed existing dossiers and queue presentation")
     args = parser.parse_args()
-    updates = catalogue._load_profile_updates(catalogue._load_wikitree_evidence())
+    evidence = catalogue._load_wikitree_evidence()
+    updates = catalogue._load_profile_updates(evidence)
+    queue_payload = read_json(catalogue.PROFILE_UPDATE_QUEUE)
+    comparisons = completed_comparisons(evidence, queue_payload)
     rows = read_json(WEB / "data/catalogue-search-index.json")
     by_slug = {r["id"]: r for r in rows}
     links = {p["id"]: p.get("slug", p["id"].lower()) for p in read_json(WEB / "data/people-index.json")}
-    requested = set(args.profiles) or ({p.parent.name for p in (ROOT / "research").glob("*/findings.md")} | set(updates))
+    requested = set(args.profiles) or ({p.parent.name for p in (ROOT / "research").glob("*/findings.md")} | set(updates) | set(comparisons))
     manifest_path = ROOT / "data/wikitree/research-catalogue-cases.json"
     cases = read_json(manifest_path).get("cases", {}) if manifest_path.exists() else {}
-    report, missing, checked = {}, [], 0
+    report, missing, checked, refreshed_profiles = {}, [], 0, []
     for ident in sorted(requested):
         decision = cases.get(ident, {})
         if decision.get("status") in {"internal", "withheld"}:
@@ -237,19 +303,25 @@ def main():
         update = updates.get(ident)
         html_path = path.with_suffix(".html")
         soup = BeautifulSoup(html_path.read_text(encoding="utf-8"), "html.parser")
-        issues = discrepancies(dossier, soup, findings, update, by_slug[slug], links)
+        comparison = comparisons.get(ident)
+        issues = discrepancies(dossier, soup, findings, update, by_slug[slug], links, comparison)
         checked += 1
         if not issues:
             continue
         report[ident] = issues
         if not args.write:
             continue
-        rendered = None if soup.select_one(".person-dossier-readable") else refresh_person(soup, findings, update, links)
+        display_update = update or comparison
+        rendered = None if soup.select_one(".person-dossier-readable") else refresh_person(soup, findings, display_update, links)
         dossier["research_findings"] = findings
         if update:
             dossier["wikitree_update"] = update_data(update)
         else:
             dossier.pop("wikitree_update", None)
+        if comparison:
+            dossier["wikitree_comparison"] = comparison
+        else:
+            dossier.pop("wikitree_comparison", None)
         by_slug[slug].update(needs_wikitree_update=bool(update),
                             wikitree_update_summary=update["summary"] if update else "",
                             wikitree_update_significance=int(update["significance"]) if update else 0)
@@ -258,13 +330,25 @@ def main():
             html_path.write_text(_replace_main(html_path.read_text(encoding="utf-8"), dossier["id"]), encoding="utf-8")
         else:
             html_path.write_text(rendered, encoding="utf-8")
+        refreshed_profiles.append(dossier["id"])
     if args.write and report:
         write_json(WEB / "data/catalogue-search-index.json", rows)
         (WEB / "data/people-index.js").write_text("window.glasgowPeopleIndex=" + json.dumps(rows, ensure_ascii=False, separators=(",", ":")) + ";\n", encoding="utf-8")
+        # The hierarchy pass writes the approved presentation fields, then
+        # refreshes the derived Bio/Marriage catalogue search fields.
+        from repair_person_hierarchy import repair as repair_person_hierarchy
+        repair_person_hierarchy(refreshed_profiles)
         refresh_catalogue_summaries(rows)
+    index_exit = 0
+    if args.write and not missing:
+        try:
+            from genealogy.batch_complete import refresh_after_batch
+        except ModuleNotFoundError:
+            from tools.genealogy.batch_complete import refresh_after_batch
+        index_exit = refresh_after_batch()
     print(json.dumps({"checked": checked, "refreshed" if args.write else "stale": report,
                       "missing_public_cases": missing}, indent=2))
-    return int(bool(missing or (report and not args.write)))
+    return int(bool(missing or (report and not args.write) or index_exit))
 
 
 if __name__ == "__main__":

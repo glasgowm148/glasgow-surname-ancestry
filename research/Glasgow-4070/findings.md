@@ -1,12 +1,25 @@
 # Findings: Glasgow-4070
 
-Last updated: 2026-09-23
+Last updated: 2026-09-29
 
-## Current conclusion
+## Current conclusion and new evidence — 29 September 2026
+
+The **Plattsburgh Sentinel, 6 November 1891, p. 8**, reports Nancy's death at **Plattsburgh on 31 October 1891**, **aged about 75**, followed by a funeral on Monday afternoon at the **Peristrome Presbyterian church**. [Original newspaper page](https://www.nyshistoricnewspapers.org/?a=d&d=plts18911106-01.1.8). The original PDF and an unaltered crop are saved in `record-excerpts/`. The notice names no relatives or birthplace. Its c.1815–16 birth implication conflicts with Nancy's will's c.1820–21 implication; neither approximate age resolves the conflict. The independently corroborated death date is stronger than the cemetery transcription alone. The maintained census indexes give still other ages: 30 in 1860, 50 in 1870 and 65 in 1880 ([MC7C-HHK](https://www.familysearch.org/ark:/61903/1:1:MC7C-HHK), [M8FF-ZQD](https://www.familysearch.org/ark:/61903/1:1:M8FF-ZQD), [MZZF-HDJ](https://www.familysearch.org/ark:/61903/1:1:MZZF-HDJ)). These are not new original-image inspections in this review; they reinforce that neither selected birth estimate is a proved bound.
+
+The [original probate docket](https://www.familysearch.org/ark:/61903/3:1:33SQ-GYCZ-X98?view=fullText) was visually checked: **DGS 005115656, image 34, vol. 6, p. 6**. It records a guardian for minor heirs at the May 1892 probate, Cabell McLean's appointment as collateral inheritance tax appraiser in March 1894, and his report filed **28 April 1894**. No parents, heir schedule or appraisal text appears in this entry. Robert Wallace Anderson, son of Nancy's deceased nephew, is a concrete younger beneficiary who could explain the guardian; the ward is not named in the docket. Nancy calls both generations nephew, so exact kin terms require independent relationship checks.
+
+The broader [probate catalogue 223236](https://www.familysearch.org/en/search/catalog/223236) includes minutes and letters beyond the will series. Neither catalogue proves that the petition or tax report was never filmed or does not survive. The G index in the earlier minutes volume DGS 005115623, image 12, and a scoped full-text Glasgow search yielded no entry; this was not an exhaustive estate-file search.
+
+The specific Glenleslie daughter Nancy died in 1847 aged 36 and is conclusively a different person. A single-family model making both Nancys daughters of John-1022 needs an unexplained namesake daughter or a different sibling reconstruction. John farmer remains the probable shared-father model, with maternity and the Desertoghill identity unresolved. See Alexander's dated competing-theory table for the alternatives and exact search scope.
+
+**Mary Thompson branch, 29 September:** the mother Mary Glasgon Thomson named in [Mary Thomson’s 1860 Old Monkland marriage index](https://www.familysearch.org/ark:/61903/1:1:6TLK-6T1J) is a new candidate only. No Nancy relationship, Irish origin or mother’s parents are established. The separately reported Tannybrake widow’s age would make her about eight at that daughter’s birth; those candidate identities need independent tests. Mary-4093’s birth date and birthplace are unestablished, and the unsupported catalogue estimate 1874 is withdrawn. No live family link or date was changed.
+
+## Prior relationship assessment — consolidated family reconstruction
 
 [Nancy Glasgow (Glasgow-4070)](https://www.wikitree.com/wiki/Glasgow-4070),
 unmarried, "about 68" when she made her will at Plattsburgh, New York, on
-15 January 1889 (born c.1820–21), died on 31 October 1891 and her will was
+15 January 1889 (implying birth c.1820–21), was reported as about 75 at her death
+on 31 October 1891 (implying c.1815–16). These approximate ages conflict. Her will was
 proved on 9 May 1892. Irish-born, she was a long-term servant in the Hiram and
 Delia Walworth household in Plattsburgh (1860, 1870, 1880 censuses); Hiram
 Walworth acted as her attorney in 1885 and executor in 1892.
@@ -74,7 +87,7 @@ Records for the proposed sibling branches (these records identify people; they d
 | [Probate citation, *Plattsburgh Sentinel*, 26 February 1892, p. 6](https://www.nyshistoricnewspapers.org/?a=d&d=plts18920226-01.1.6) | Lists children of John (Baladonly), Alexander (Rasharkin), Robert, Jane Dysart, Ann McClelland and Mary Thompson, and Andersons at Gortahar, as heirs or next of kin; Elizabeth is identified through other records. | Text from the inspected clipping transcribed on the live profile; image not re-opened 17 September 2026 (site access challenge). Structure supports the probable deceased-sibling interpretation; completeness and full/half kinship remain unproved. The saved Republican printing was visually checked on 21 September. |
 | [Rasharkin Presbyterian baptisms](https://genealogy.torrens.org/BannValley/church/RasharkinP/Baptisms_1834.html), entries 04, 63, 82, 133, 176, 271 | Anderson children of Jas and Betty/Elisabeth Glascaw at Drumack (1834, 1836); Dysart children of Jas and Jane Glascaw at Granagh/Crushybracken (1837–46). | Named transcription; establishes the Glasgow mothers behind the will's niece and nephew. |
 | [1860](https://www.familysearch.org/ark:/61903/1:1:MC7C-HHK), [1870](https://www.familysearch.org/ark:/61903/1:1:M8FF-ZQD), [1880](https://www.familysearch.org/ark:/61903/1:1:MZZF-HDJ) U.S. censuses | Nancy Glascoe/Glascow/Glasgow, Irish-born, in the Walworth household; single, servant, "Other" in 1880. | Identity continuity; ages vary (30, 50, 65). Not kinship evidence. |
-| [Probate index](https://www.familysearch.org/ark:/61903/3:1:33S7-9YCX-9W3?view=fullText) and [1892–98 probate register, image 35](https://www.familysearch.org/ark:/61903/3:1:33SQ-GYCZ-X98?view=fullText) | Death 31 October 1891, Plattsburgh, testate; petition, citation, service by publication, letters testamentary to Walworth. | Confirms the probate sequence; no kinship statement in the register entry. |
+| [Probate index](https://www.familysearch.org/ark:/61903/3:1:33S7-9YCX-9W3?view=fullText) and [1892–98 probate register, image 34](https://www.familysearch.org/ark:/61903/3:1:33SQ-GYCZ-X98?view=fullText) | Death 31 October 1891, Plattsburgh, testate; petition, citation, service by publication, letters testamentary to Walworth. | Confirms the probate sequence; no kinship statement in the register entry. |
 | [Robert Anderson estate, 1885](https://www.familysearch.org/ark:/61903/3:1:33SQ-GYCZ-WY5?view=fullText) and [will, 1883](https://www.familysearch.org/ark:/61903/3:1:33SQ-GYCC-1RW?view=fullText) | Nancy a $100 creditor, appearing by Hiram Walworth as attorney; Robert's will leaves all to wife Dinah. | Documents the Anderson connection independently of the will. |
 
 ## Relationship assessment

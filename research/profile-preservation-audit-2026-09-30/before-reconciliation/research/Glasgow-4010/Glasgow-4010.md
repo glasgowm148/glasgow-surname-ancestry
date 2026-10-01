@@ -1,0 +1,73 @@
+# Complete replacement: Glasgow-4010
+
+Reviewed against the public WikiTree biography on 30 September 2026. Preserve all sources. Proposed structured action: attach Alexander Glasgow-3904 as father with uncertain status; keep existing populated parents unchanged. Do not mark this father certain.
+
+```wikitext
+{{Estimated Date}}
+[[Category:Glasgow Name Study]]
+{{Ireland Native}}
+{{Migrating Ancestor|origin=Ireland|destination=Canada}}
+
+== Biography ==
+
+'''Samuel Glasgow''' was born about 1801 in Ireland. A later death notice described him as formerly of Kilrea and said that he emigrated in 1831.<ref name="Sentinel">[https://cotyrone.com/colondonderry/burial/CoLondonderry-DeathsSentinel-G-1829-1869.html County Londonderry ''Sentinel'' death-notice transcriptions, G, 1829–1869], entry published 29 January 1867 for Samuel Glasgow (accessed 13 August 2026). The transcription calls its source a “Prescott, U.S. American paper,” an unresolved geographic anomaly; the matching merchant lived at Prescott, Canada West.</ref>
+
+Samuel became a merchant at Prescott. The 1851 Canada Directory listed “Glasgow, Samuel, general store, Main st.”<ref>[https://numerique.banq.qc.ca/patrimoine/details/52327/5139192 Robert W. S. Mackay, ''The Canada Directory'' (Montreal, 1851)], Prescott entry for Samuel Glasgow.</ref> In the original 1851 census he was a Presbyterian storekeeper, born in Ireland and aged 51 at his next birthday. His household occupied lines 11–18 on Prescott enumeration page 31.<ref name="Census1851">Library and Archives Canada, [https://central.bac-lac.gc.ca/.item/?app=Census1851&op=img&id=e002351566 1851 Census of Canada West, Prescott, page 31, lines 11–18, image e002351566], original schedule (accessed 13 August 2026).</ref>
+
+{| class="wikitable sortable" style="padding: 5px; width:100%;"
+|+ '''Samuel Glasgow household, 1851'''
+|-
+! style="background-color:#E1F0B4;" | Person
+! style="background-color:#E1F0B4;" | Birthplace
+! style="background-color:#E1F0B4;" | Age next birthday
+! style="background-color:#E1F0B4;" | Assessment
+|-
+| Samuel Glasgow || Ireland || 51 || Storekeeper; married
+|-
+| Mary E. Glasgow || United States || 32 || Married; Samuel's wife by household structure
+|-
+| Mary Glasgow || United States || 11 || Probable child
+|-
+| Alba Glasgow || Canada || 10 || Probable child; given-name reading uncertain
+|-
+| Orena Glasgow || Canada || 7 || Probable child; independently appears aged 17 in a later school list
+|-
+| James E. Glasgow || Canada || 5 || Probable child; middle initial uncertain
+|-
+| Samuel Glasgow || Canada || 2 || Probable child
+|-
+| Lycania Glasgow || Canada || 1 || Probable child; given-name reading uncertain
+|}
+
+All eight were recorded as Presbyterians.<ref name="Census1851" /> Orena's rare name and compatible age recur in a transcription of the 1861 Prescott grammar-school census, where she was associated with Samuel Glasgow, storekeeper.<ref>[https://thepastaroundus.wordpress.com/2015/10/12/black-walnuts-squirrels-and-prescott-high-school/ “Black Walnuts, Squirrels and Prescott High School,” ''The Past Around Us''], 1861 entry for Orena Glasgow, aged 17 (accessed 13 August 2026).</ref>
+
+A descendant's local history says that Samuel had ten children, six of whom survived, and names later sons Thomas Crichton, born 1853, and Henry, born 1857 and dying young.<ref name="Grenville">Grenville County Historical Society, [https://www.grenvillecountyarchives.ca/uploads/1/4/7/7/147712809/jul_aug_2023_the_grenville_sentine__1_.pdf ''The Grenville Sentinel'', July–August 2023], “The Glasgow House,” pp. 3–4.</ref> Those two later births plus the eight people appearing as children in 1851 form a coherent ten-child reconstruction, but original birth, baptism or estate records are still needed to prove each relationship.
+
+The 1866–67 Fuller directory listed Samuel as a general dealer on King Street.<ref>[https://www.collectionscanada.gc.ca/obj/001075/f2/nlc008163.pdf ''Fuller's Counties of Leeds, Grenville, Lanark and Renfrew Directory for 1866 & 1867''], Prescott entry for Samuel Glasgow.</ref> The death-notice transcription published on 29 January 1867 said he had died at Prescott after becoming a successful merchant and left a widow and a wealthy family.<ref name="Sentinel" /> Local history dates his death to 1866 and identifies the family burial place as Sandy Hill Presbyterian Cemetery.<ref name="Grenville" />
+
+
+Samuel was a brother of [[Glasgow-4150|Robert Glasgow]], the Prescott shipbuilder. Robert's will, dated 9 October 1849, gives one sixth each to his brothers Daniel, Samuel, John and Thomas, his sister Mary, and collectively the children of his brother James; it does not call James deceased.<ref name="RobertWill1849">Grenville County land records, DGS 8200419, image 35, registered will of Robert Glasgow of Prescott, dated 9 October 1849, [https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWY9-S original image].</ref> Memorial 13 records a 30 October 1856 deed, registered 13 November 1856, by which Robert's widow Jane sold Samuel, merchant, property in which he held one undivided sixth share under Robert's will.<ref name="RobertWill1856">Grenville County land records, DGS 8200419, image 36, Memorial 13, dated 30 October 1856 and registered 13 November 1856, [https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWYM-6 original image].</ref> Memorial 465, dated 30 July 1861 and registered 7 October, names Daniel of Kilrea, County Londonderry, watchmaker, and wife Margaret, and Thomas of Lisnagaver, County Antrim, farmer, and wife Mary Ann, in transfers to Samuel of two undivided sixth interests under Robert's will.<ref name="RobertWill1861">Grenville County land records, DGS 8200419, image 240, Memorial 465, registered 7 October 1861, printed p. 397, [https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWB8-D original image].</ref> The deeds establish the stated Daniel, Thomas and Samuel as Robert's brothers by place, trade and wife; they do not identify the siblings' parents.
+
+A further conveyance identifies Samuel's widow by her recorded name. On 25 March 1868, registered 18 August, Alexander Glasco of Rochester, New York, express agent and son of James Glasco formerly of Prescott, carpenter, conveyed an undivided eighteenth interest to '''Mary Eno Glasgow''', widow of the late Samuel Glasgow, for $166.66.<ref name="AlexanderGlasco1868">Grenville County land records, DGS 8200420, image 120, C114, dated 25 March 1868 and registered 18 August 1868, [https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LQRC-Y original image].</ref> Eno is a recorded name in this deed, not a proved maiden name. This Alexander has not been identified with [[Glasgow-951|Alexander Glasgow]] of Lisnagaver.
+
+== Research Notes ==
+
+A later title-chain account calls early Prescott shipbuilder Robert Glasgow Samuel's father, says Robert left his house to six children, and says Samuel bought his siblings' shares.<ref>[https://www.theresataylor.com/wp-content/uploads/2017/06/Auction-all-for-others-Brockville-Recorder.pdf Theresa Taylor, “Auction all for others,” ''Brockville Recorder & Times'', 22 February 2017].</ref> This is credible local-history evidence but not an inspected contemporary kinship record. Do not attach Robert until the underlying deed or estate file is read.
+
+The original memorials correct that relationship: Robert was Samuel's brother, not his father. They do not establish that James the carpenter named in later deeds was Robert's brother, and the apparent share fractions require a full reading of Robert's will before a complete inheritance reconstruction is stated.<ref name="Recorder">Theresa Taylor, [https://www.theresataylor.com/wp-content/uploads/2017/06/Auction-all-for-others-Brockville-Recorder.pdf “Auction all for others,”] ''Brockville Recorder & Times'', 22 February 2017.</ref>
+
+A derivative Leeds and Grenville estate index gives Samuel an estate year of 1875, conflicting with his reported 1866 death. The original file must be inspected to determine whether this is a delayed proceeding, a different man or an indexing error. The same derivative index gives James E. Glasgow an estate period of 1900–09, which likewise provides no identity, file number or contents.
+
+[[Glasgow-2908|Samuel Glasgow of Lisnagaver]] remained in Ireland in 1851 and is excluded. Other same-name profiles have incompatible places, ages or families.
+
+=== Uncertain 1851 household transcriptions ===
+The 1851 Prescott census transcription includes two child names read as Alba and Lycania Glasgow, and later tradition supplies a Robert born about 1835. The readings of Alba and Lycania are uncertain and have not been supported by separate records; they are retained as household research leads rather than newly created child profiles.<ref>[https://central.bac-lac.gc.ca/.item/?app=Census1851&op=img&id=e002351566 Underlying record source: alba glasgow].</ref><ref>[https://central.bac-lac.gc.ca/.item/?app=Census1851&op=img&id=e002351566 Underlying record source: lycania glasgow].</ref><ref>[https://www.theresataylor.com/wp-content/uploads/2017/06/Auction-all-for-others-Brockville-Recorder.pdf Underlying record source: robert glasgow].</ref>
+
+=== Working father connection ===
+
+Robert and Samuel belong to the same documented sibling group as [[Glasgow-987|Thomas Glasgow]] and [[Glasgow-3896|Daniel Glasgow]]. A descendant family account names [[Glasgow-3904|Alexander Glasgow of Lisnagaver]] as Thomas's father, and Thomas and Daniel are already attached to Alexander on that basis.<ref name="FatherTradition">Peter, “Trying to find Glasgow,” ''Genes Reunited'', [https://www.genesreunited.co.uk/boards/board/general_topics/thread/465937 discussion], descendant account naming Alexander and Rosanna as parents of Thomas Glasgow. This is family testimony rather than a contemporary parent record.</ref> Their proved brotherhood and compatible chronology support Alexander as an uncertain father of Robert and Samuel too. This connects the documented brothers through the existing family hypothesis; it does not make the father relationship certain. Rosanna's maternity is assessed separately and is not established by the sibling deeds.
+
+== Sources ==
+
+<references />
+```

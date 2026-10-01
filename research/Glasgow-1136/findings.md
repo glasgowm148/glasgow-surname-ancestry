@@ -1,6 +1,6 @@
 # Findings: [Nathaniel Glasgow M.A. (Glasgow-1136), Presbyterian minister, died 1743](https://www.wikitree.com/wiki/Glasgow-1136)
 
-Last updated: 2026-09-08
+Last updated: 2026-09-30
 
 ## Current conclusion
 
@@ -137,3 +137,13 @@ The transcript-validated residence/migration record for **Nathaniel Glasgow**, 1
 
 Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
 <!-- END FMP-GLASGOW-fmp-glasgow-57e604589b8e -->
+
+## Identity and relationship assessments — 30 September 2026
+
+Betham's newly inspected abstract of Archibald Glasgow of Rathmalton's April
+1673 will explicitly names eldest son Thomas (NLI GO MS 225, p. 90, image 97;
+[manuscript catalogue](https://catalogue.nli.ie/Record/vtls000540633)). Matching
+that son to Thomas of Lifford (Glasgow-3556) remains strongly probable. The
+abstract does not name Nathaniel and does not establish his own father link.
+Nathaniel's live Father status was uncertain (10) on 30 September 2026;
+retain that uncertainty and seek his own parent or succession record.

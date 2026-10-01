@@ -6,10 +6,28 @@
 :is(.g-nav,.g-mobile-nav-extras) .g-section-subnav a[aria-current]{background:#59734f;color:#fff;font-weight:700}
 :is(.g-nav,.g-mobile-nav-extras) .g-section-subnav a:focus-visible{outline:2px solid #d3deae;outline-offset:1px}
 :is(.g-nav,.g-mobile-nav-extras) .g-section-subnav .g-section-reference{margin-left:7px;border-left:1px solid #77906b;border-radius:0;font-size:10px;color:#d1dcb6}
+.g-section-group{display:grid;gap:2px;min-width:0}
+.g-section-group+.g-section-group{margin-top:8px;padding-top:9px;border-top:1px solid #b0c3ac40}
+:is(.g-nav,.g-mobile-nav-extras) .g-section-group .g-section-group-title{display:block;margin:0 0 3px;padding:3px 7px;color:#d5e0ce;font:600 10px/1.4 var(--g-sans);letter-spacing:.06em;text-transform:uppercase}
+:is(.g-nav,.g-mobile-nav-extras) .g-section-group a.g-section-group-title{color:#fff;text-decoration:underline;text-underline-offset:3px}
 .g-mobile-nav-extras,.g-mobile-more-links,.g-mobile-section-links{display:contents}
 :is(.g-mobile-more-links,.g-mobile-section-links)>summary{display:none}
 body.g-nav-collapsed .g-section-subnav{display:none}
 @media(min-width:761px) and (max-width:1199px){body:not(.g-nav-wide) .g-section-subnav,body:not(.g-nav-wide) .g-dna-subnav{display:none}}
+@media(min-width:761px){
+  /* Keep a long selected submenu in the rail's scroll area instead of
+     shrinking the nav and clipping its final links below the viewport. */
+  .v3-site .g-rail{overflow-x:hidden;overflow-y:auto}
+  .v3-site .g-rail .g-nav{flex:0 0 auto;overflow:visible}
+}
+.g-kind-about #feedback-template,
+body[data-g-path="/feedback/index.html"] #feedback-template,
+body[data-g-path="/feedback.html"] #feedback-template{
+  width:min(100%,860px);max-width:100%;min-height:260px;box-sizing:border-box;
+  padding:14px 16px;border:1px solid var(--g-line);border-radius:6px;
+  background:var(--g-surface);color:var(--g-ink);font:14px/1.6 var(--g-sans);
+  resize:vertical
+}
 @media(max-width:760px){
   .v3-site .g-rail{width:min(320px,calc(100vw - 32px));height:100vh;height:100dvh;max-height:100dvh;padding:max(14px,env(safe-area-inset-top)) 14px max(12px,env(safe-area-inset-bottom));overflow:hidden}
   .v3-site .g-rail .g-brand{flex:0 0 auto;margin:0 6px 14px!important}

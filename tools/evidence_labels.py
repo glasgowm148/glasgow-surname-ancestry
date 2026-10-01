@@ -127,8 +127,8 @@ QUESTION_STATUS = {
     "answered": "Answered",
 }
 QUESTION_FIELDS = {
-    "resolve": "What would resolve this",
-    "record": "Record to request or inspect",
+    "resolve": "What evidence would answer this?",
+    "record": "Next record to check",
 }
 NOT_YET_IDENTIFIED = "Not yet identified"
 
@@ -141,8 +141,8 @@ DATE_PLACE_NOTES = (
 )
 
 CLUSTER_NOTE = (
-    "Research clusters, households and study groups organise related records and hypotheses. "
-    "Being placed in the same cluster does not prove that people were related."
+    "People are grouped by household, place or related records to help investigate possible family connections. "
+    "Being in the same group does not prove that people were related."
 )
 
 ROLE_NOUNS = {"father", "mother", "parent", "son", "daughter", "child", "spouse", "partner", "sibling", "brother", "sister"}

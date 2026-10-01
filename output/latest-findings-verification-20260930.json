@@ -1,0 +1,59 @@
+{
+  "page": "http://127.0.0.1:8765/latest-findings/",
+  "findings": 460,
+  "tests": {
+    "command": ".venv/bin/python -m unittest tests.test_latest_findings tests.test_primary_navigation tests.test_release_readiness -q",
+    "passed": 15
+  },
+  "browser": {
+    "viewports": [
+      [
+        1440,
+        1000
+      ],
+      [
+        390,
+        844
+      ],
+      [
+        320,
+        760
+      ]
+    ],
+    "passed": [
+      "search and empty results",
+      "type and assessment filters",
+      "newest and oldest order",
+      "pagination",
+      "shareable URLs and permalinks",
+      "review date ranges",
+      "narrow-screen table scrolling",
+      "primary navigation"
+    ],
+    "console_errors": []
+  },
+  "release_checks": [
+    "consistent totals",
+    "Atlas destinations",
+    "publication boundary: zero failures",
+    "no stale asset references",
+    "gzip integrity"
+  ],
+  "home_map_before_alexander": true,
+  "archive": {
+    "path": "/Users/m/wikitree-api-scrape/www/glasgow-site-20260930-150054.tar.gz",
+    "bytes": 138732871,
+    "decimal_MB": 138.73,
+    "files": 78986,
+    "sha256": "02517b230a4b86e31fe055417a2d27993ee067dcaeb03735cdbc131e88476b7d",
+    "matched_current_files": [
+      "about/index.html",
+      "assets/repair/latest-findings.css",
+      "assets/repair/latest-findings.js",
+      "changes/index.html",
+      "index.html",
+      "latest-findings/index.html"
+    ]
+  },
+  "production": "upload pending"
+}

@@ -22,3 +22,7 @@ The date is the indexed testament date, not an established date of death. The in
 == Sources ==
 <references />
 ```
+
+## Queue source review — 30 September 2026
+
+The independently inspected testament index confirms John Glasgow in Rashlie, parish of Kilbryde, on 17 April 1643, but supplies no age or family. Glasgow-1030, Glasgow-1561, Glasgow-1084 (redirecting to Glasgow-3015), Glasgow-1088 and Glasgow-1604 (redirecting to Glasgow-3145) remain compatible. Keep this separate from the 1637 Saltcoats sailor and the 1685 Boog/Steivinstoun John. Original CC9/7/28 remains uninspected. [Independently inspected printed index, p.196/PDF206](https://www.electricscotland.com/history/records/scottishrecordso07scotuoft.pdf#page=206).

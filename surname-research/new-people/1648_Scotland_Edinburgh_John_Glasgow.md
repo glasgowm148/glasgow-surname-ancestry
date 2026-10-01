@@ -1,26 +1,39 @@
-# HOLD — John Glasgow, Edinburgh apprenticeship, 1648
+# HOLD — John Gray, Edinburgh apprenticeship, 1648 · source correction
 
-- **Status:** HOLD — the apprenticeship entry is verified in a printed register, but it has not been securely identified with any existing John Glasgow profile. Do not create or attach a WikiTree profile yet.
-- **Documented person:** John Glasgow, named under the printed Glasgow heading as an apprentice to William Blackwood, merchant. The entry describes his father as “late Thomas G., maltman, burgess of Glasgow”; the father's surname is abbreviated in the line.
-- **Record date:** 12 January 1648, as printed. This is the apprenticeship entry date, not a birth or death date.
-- **Record:** FamilySearch, *Edinburgh. Apprenticeship Records 1583–1666*, item `#007764594`, Item 3, image 101; [FamilySearch image and full-text result](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM7-53ZS-V?view=fullText&keywords=Glasgow&searchForm=advanced&lang=en&groupId=M9H7-2TF). The scan reproduces Francis J. Grant, ed., *Register of Apprentices of the City of Edinburgh, 1583–1666* (Edinburgh: Scottish Record Society, 1906), printed p. 75; [digitized printed page](https://archive.org/details/scottishrecordso28scotuoft/page/75/mode/1up). The printed register is a transcription; the original register was not examined.
-- **Printed entry:** Under the explicit heading **Glasgow**, the line reads: “John, son to late Thomas G., maltman, burgess of Glasgow, with William Blackwood, merchant, 12 Jan. 1648.” The heading establishes John's surname. The father's “G.” is abbreviated; Glasgow is strongly indicated by the heading and the stated Glasgow burgess description, but the full spelling is not written out in the line.
-- **Profile fields if resolved:** John Glasgow; male; birth unknown; death unknown. The source gives no age, birthplace, residence, spouse, children, or death date. Do not add a parent profile for Thomas without corroborating evidence.
-- **Duplicate audit:**
-  - [[Glasgow-1604|John Glasgow, estimated born about 1626 in Ayrshire]] is chronologically possible, but his online-tree scaffold and uncertain father Hugh do not connect him to Thomas, maltman and burgess of Glasgow.
-  - [[Glasgow-3145|John Glasgow, estimated born about 1626 in Scotland/Ayrshire]] is also possible by age, but is unsourced, has an uncertain James father, and may be the same person as Glasgow-1604. Neither profile has the apprenticeship or family evidence.
-  - [[Glasgow-3610|John Glasgow, born 18 February 1626 at Kirknewton/East Calder]] is chronologically possible and had a son Johne baptized there in 1649. Its attached father William and structured birth details are unsupported; there is no link to Glasgow or Thomas the maltman.
-  - [[Glasgow-1103|Thomas Glasgow, baptized at Glasgow in 1612]] is only a possible lead for the apprentice's father. His occupation and burgess status are unknown, and no record connects him to this John. His uncertain c.1675 death does not resolve whether he was alive in 1648.
-  - [[Glasgow-3331]] has separate Quothquan/Lanark evidence and a different stated father. [[Glasgow-3014]] is a likely infant burial shortly after birth. Other reviewed John profiles from Inveresk, High Kirk, Mid Calder and Linlithgow lack the named father/locality link; Glasgow-1105, baptized in 1644, is too young to be this apprentice.
-- **Why no new WikiTree profile:** The entry proves a new documentary occurrence, but Glasgow-1604, Glasgow-3145 and Glasgow-3610 remain possible identities. Creating a separate profile now could duplicate one of them. The occurrence is preserved as its own searchable record dossier until a distinguishing link is found.
-- **Test to clear HOLD:** Check Glasgow burgess and maltmen records and any surviving record for Thomas G.; inspect the underlying Edinburgh apprenticeship register if accessible; seek a later record naming John with a residence, occupation, kin or associates. Compare it with the candidate households above before attaching or creating a profile.
+The former attribution to **John Glasgow** is superseded by a page-image review on 30 September 2026. The entry appears under the printed **Gray** heading, not Glasgow. The filename and record link are retained for provenance. No Glasgow profile should receive this apprenticeship or its father clause.
+
+Francis J. Grant, ed., *Register of Apprentices of the City of Edinburgh, 1583–1666* (1906), [printed p. 75, IA scan n86](https://archive.org/details/scottishrecordso28scotuoft/page/n86/mode/1up), lists **John Gray**, son of the late **Thomas Gray**, maltman and burgess of Glasgow, apprenticed with William Blackwood, merchant, on **12 January 1648**. The surname ditto marks repeat Gray; “G.” abbreviates that surname, while Glasgow identifies Thomas’s city. The actual [Glasgow heading, printed p. 71](https://archive.org/details/scottishrecordso28scotuoft/page/n82/mode/1up), contains Archibald (1639) and James (1641). The underlying manuscript apprenticeship register remains uninspected. The original [FamilySearch result](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM7-53ZS-V) is retained as the earlier search route.
+
+## Father and family evidence
+
+- John’s father Thomas is directly named and deceased by 12 January 1648. This proves a documentary **Gray** father–son pair, not a Glasgow father upgrade or an existing Gray profile match.
+- The Glasgow burgess roll, [printed p. 44, 29 July 1613](https://archive.org/details/scottishrecordso43scotuoft/page/n57/mode/1up), admits Thomas Gray, maltman, as burgess and guild brother as son and heir of deceased Gilbert Gray.
+- The same roll, [printed p. 118, 7 May 1646](https://archive.org/details/scottishrecordso43scotuoft/page/n131/mode/1up), admits James Gray, maltman, as eldest lawful son of deceased Thomas Gray, maltman, burgess and guild brother. George Kinkaid, maltman, is admitted the same day through marriage to Margaret, lawful daughter of that deceased Thomas Gray.
+
+The 1646 father’s name, craft, city and deceased status strongly agree with the 1648 father. Thomas in 1613 is a probable earlier occurrence, but no act inspected expressly joins all three entries. John, James and Margaret should remain one proposed family research group, with the identity qualification beside the links.
+
+## Existing profile checks
+
+**Retired Glasgow candidates:** Glasgow-1604 (redirected to Glasgow-3145), Glasgow-3610 and the proposed father Glasgow-1103 were considered under the superseded surname attribution. This record supplies no event or relationship evidence for them.
+
+**John Gray candidates:** [Gray-42340](https://www.wikitree.com/wiki/Gray-42340), a Kirkintilloch John estimated 1620–1635 and a father in 1657, remains compatible; its Andrew father assertion has no inspected original. [Gray-16804](https://www.wikitree.com/wiki/Gray-16804), estimated Glasgow 1600–1665, is sparse and tree-derived; an estimated early birth alone does not exclude an older apprentice. [Gray-25428](https://www.wikitree.com/wiki/Gray-25428), Monikie John married in 1649, and [Gray-32315](https://www.wikitree.com/wiki/Gray-32315), Dysart John married in 1630, are weaker locality/chronology candidates without a Glasgow bridge. Gray-25383’s Brechin baptism expressly names Patrick and Jean Ogilvie; Grey-1220 belongs to the documented Edward Grey/Le Strange Northumberland family. Those are concrete father conflicts.
+
+**Thomas Gray candidate:** [Gray-44891](https://www.wikitree.com/wiki/Gray-44891), Glasgow husband of Geills Lytbodie in 1616 and father of Jean in 1633, has sons Jon (1625) and John (1631) listed in its biography. Its asserted 1600 birth and Robert Gray/Katherine Myles parents need original verification; unsupported tree fields do not exclude it. A proved 1600 birth would conflict with the adult 1613 burgess admission. Do not substitute Gilbert as father or attach the apprentice without a record bridge.
+
+## Search scope and next test
+
+Anonymous public searches on 30 September 2026 retained only Open, non-living profiles. John Gray with BirthDate=1625 returned 63/63; John Grey with BirthDate=1625, 55/55; Thomas Gray with BirthDate=1590, 18/18. These birth filters are exact-year/unknown searches, not broad date ranges. John Gray + Glasgow returned 30/30; Thomas Gray + Glasgow, 6/6; Thomas Gray + DeathDate=1646, 68/68. John Grey + Scotland returned only the first 100 of 708, so variant coverage remains bounded. Full candidate biographies and Gray-44891’s Open child were checked. Captures and exact queries are in `research/queue-resolution-2026-09-30/older-records.json`.
+
+Obtain the candidate baptisms, marriage and burgess household records to distinguish the two Johns in Thomas/Geills’s family and verify Thomas’s own father. No new WikiTree profile or parent attachment is recommended from the unresolved profile identity.
+
+## Corrected sourced draft
 
 ```wikitext
-[[Category:Glasgow Name Study]]
 == Biography ==
-John Glasgow was listed under the Glasgow heading in the Edinburgh apprenticeship register on 12 January 1648, as an apprentice to William Blackwood, merchant. The entry describes him as the son of “late Thomas G., maltman, burgess of Glasgow.” The father's surname is abbreviated in the line.<ref>Francis J. Grant, ed., ''Register of Apprentices of the City of Edinburgh, 1583–1666'' (Edinburgh: Scottish Record Society, 1906), p. 75; FamilySearch, ''Edinburgh. Apprenticeship Records 1583–1666'', item #007764594, Item 3, image 101, entry under Glasgow; https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM7-53ZS-V?view=fullText&keywords=Glasgow&searchForm=advanced&lang=en&groupId=M9H7-2TF. The printed register is a transcription; the original register was not examined.</ref>
+John Gray was entered in the Edinburgh apprenticeship register on 12 January 1648 as son of the late Thomas Gray, maltman and burgess of Glasgow, with William Blackwood, merchant.<ref>Francis J. Grant, ed., ''Register of Apprentices of the City of Edinburgh, 1583–1666'' (1906), [https://archive.org/details/scottishrecordso28scotuoft/page/n86/mode/1up p. 75], under Gray; page image inspected 30 September 2026. Printed transcription; underlying register uninspected.</ref>
+
 == Research Notes ==
-The date is the apprenticeship entry date, not a birth or death date. The entry gives no age, birthplace, spouse, children or later residence. Glasgow-1604, Glasgow-3145 and Glasgow-3610 remain possible existing identities by chronology, but no distinguishing link has been found. Do not attach this occurrence to an existing profile or create a second WikiTree profile until the identity is resolved.
+An earlier research account misread the surname heading as Glasgow; corrected 30 September 2026. The source directly names John’s father, but his identity with an existing Gray profile remains unresolved. The 1646 Glasgow burgess entries naming James and Margaret as children of deceased Thomas Gray, maltman, strongly support the same proposed family. The 1613 Thomas Gray, maltman, son and heir of deceased Gilbert Gray, is a probable earlier occurrence, not a proved joined lifetime.<ref>James R. Anderson, ''The Burgesses and Guild Brethren of Glasgow, 1573–1750'', [https://archive.org/details/scottishrecordso43scotuoft/page/n57/mode/1up p. 44], 29 July 1613; [https://archive.org/details/scottishrecordso43scotuoft/page/n131/mode/1up p. 118], 7 May 1646; page images inspected 30 September 2026.</ref>
 == Sources ==
 <references />
 ```

@@ -1,20 +1,161 @@
 {
-  "assessment_date": "2026-09-12",
-  "opening": "The maintained research identifies Thomas Glasgow of Lisnagaver through a two-record chain: Daniel Glasgow's 1871 will calls Thomas his late brother, and Daniel Neely Glasgow's 1888 marriage names Thomas as his father. The chain identifies the relevant Thomas family but stops before Alexander's relationship or their parents are proved.",
-  "position": {"answer": "Thomas and Daniel's brotherhood is strongly documented; Thomas's parents and Alexander's relationship to this family remain unresolved.", "points": ["The will and marriage are separate records with a shared identity bridge through Daniel Neely's full name.", "Alexander is a possible brother or cousin, not a proved brother.", "Thomas's official administration identifies Mary Anne as his widow but names no parents, siblings or heirs."]},
-  "family_reasons": {"Glasgow-951": "Alexander is a relevant possible brother or cousin because of the local network, but the maintained research does not establish the degree of relationship.", "Glasgow-3896": "Daniel's will calls Thomas his late brother; this is a direct sibling assessment and does not identify their parents.", "Glasgow-2413": "Daniel Neely Glasgow's marriage names Thomas as his father; this is the son relationship used in the will-and-marriage identity bridge.", "Glasgow-3975": "Sarah's 1885 marriage names Thomas Glasgow, farmer, as her father and places her at Lisnagaver."},
-  "family_sources": {"Glasgow-951": ["will-daniel-1871", "marriage-daniel-neely-1888"], "Glasgow-3896": ["will-daniel-1871"], "Glasgow-2413": ["marriage-daniel-neely-1888"], "Glasgow-3975": ["marriage-sarah-1885"]},
+  "assessment_date": "2026-09-30",
+  "opening": "Thomas Glasgow of Lisnagaver is a proved brother of Daniel Glasgow of Kilrea and of Robert and Samuel Glasgow of Prescott. Daniel’s will, Daniel Neely’s marriage and the original Prescott conveyances supply the identity chain. Alexander-3904 remains their uncertain father hypothesis from descendant testimony; Alexander-951’s collateral relationship is unproved.",
+  "position": {
+    "answer": "Thomas, Daniel, Robert and Samuel are documented brothers. Their father Alexander-3904 is a supported family hypothesis rather than original-record parent proof.",
+    "points": [
+      "The will and marriage are separate records with a shared identity bridge through Daniel Neely's full name.",
+      "Alexander is a possible brother or cousin, not a proved brother.",
+      "Thomas's official administration identifies Mary Anne as his widow but names no parents, siblings or heirs.",
+      "The 1861 Prescott conveyance resolves the named Irish brothers’ identities; Robert and Samuel’s pending father attachments should use uncertain status."
+    ]
+  },
+  "family_reasons": {
+    "Glasgow-951": "Alexander is a relevant possible brother or cousin because of the local network, but the maintained research does not establish the degree of relationship.",
+    "Glasgow-3896": "Daniel's will calls Thomas his late brother; this is a direct sibling assessment and does not identify their parents.",
+    "Glasgow-2413": "Daniel Neely Glasgow's marriage names Thomas as his father; this is the son relationship used in the will-and-marriage identity bridge.",
+    "Glasgow-3975": "Sarah's 1885 marriage names Thomas Glasgow, farmer, as her father and places her at Lisnagaver."
+  },
+  "family_sources": {
+    "Glasgow-951": [
+      "will-daniel-1871",
+      "marriage-daniel-neely-1888"
+    ],
+    "Glasgow-3896": [
+      "will-daniel-1871"
+    ],
+    "Glasgow-2413": [
+      "marriage-daniel-neely-1888"
+    ],
+    "Glasgow-3975": [
+      "marriage-sarah-1885"
+    ]
+  },
   "record_rows": [
-    {"record_id": "will-daniel-1871", "association": "Daniel Glasgow will, proved 1871", "date": "1871", "place": "Kilrea", "source_url": "", "status": "Original will; preserved research summary", "note": "Daniel names his late brother Thomas Glasgow and nephew Daniel Neely Glasgow. The original publication-safe summary is retained; the public page does not expose private material.", "role": "Brother and nephew evidence"},
-    {"record_id": "marriage-daniel-neely-1888", "association": "Daniel Neely Glasgow and Mary Jane Boyd marriage", "date": "28 June 1888", "place": "Lisnagaver", "source_url": "https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1888/10763/5925382.pdf", "status": "Original civil return", "note": "Daniel Neely Glasgow named Thomas Glasgow, farmer, as his father and resided at Lisnagaver.", "role": "Son and bridegroom evidence"},
-    {"record_id": "marriage-sarah-1885", "association": "Charles Taylor and Sarah Glasgow marriage", "date": "12 March 1885", "place": "Rasharkin Presbyterian Church; bride of Lisnagaver", "source_url": "https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1885/10855/5963591.pdf", "status": "Original civil return", "note": "Sarah Glasgow, full-age spinster of Lisnagaver, named Thomas Glasgow, farmer, as her father.", "role": "Daughter and bride evidence"},
-    {"record_id": "census-thomas-1851", "association": "Thomas Glasgow household, 1851 census", "date": "1851", "place": "Lisnagaver", "source_url": "http://www.census.nationalarchives.ie/pages/1851/Antrim/Kilconway/Rasharkin/Lisnagaver/37/", "status": "Census record", "note": "Thomas, 35, was a farmer with Mary Ann and five daughters. It supports locality identity but names no parents.", "role": "Household context"},
-    {"record_id": "administration-thomas-1870", "association": "Thomas Glasgow administration, Belfast registry", "date": "7 September 1870", "place": "Lisnagaver / Belfast registry", "source_url": "https://apps.proni.gov.uk/WillsCalendar_IE/WillsSearch.aspx", "status": "Official calendar abstract; no image", "note": "Thomas Glasgow, farmer of Lisnagaver, died there on 21 June 1870. Administration of his intestate estate, under £200, was granted to Mary Anne Glasgow of Lisnagaver, his widow. The abstract names no heirs, siblings or parents.", "role": "Death, residence and widow evidence"}
+    {
+      "record_id": "will-daniel-1871",
+      "association": "Daniel Glasgow will, proved 1871",
+      "date": "1871",
+      "place": "Kilrea",
+      "source_url": "",
+      "status": "Original will; preserved research summary",
+      "note": "Daniel names his late brother Thomas Glasgow and nephew Daniel Neely Glasgow. The original publication-safe summary is retained; the public page does not expose private material.",
+      "role": "Brother and nephew evidence"
+    },
+    {
+      "record_id": "marriage-daniel-neely-1888",
+      "association": "Daniel Neely Glasgow and Mary Jane Boyd marriage",
+      "date": "28 June 1888",
+      "place": "Lisnagaver",
+      "source_url": "https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1888/10763/5925382.pdf",
+      "status": "Original civil return",
+      "note": "Daniel Neely Glasgow named Thomas Glasgow, farmer, as his father and resided at Lisnagaver.",
+      "role": "Son and bridegroom evidence"
+    },
+    {
+      "record_id": "marriage-sarah-1885",
+      "association": "Charles Taylor and Sarah Glasgow marriage",
+      "date": "12 March 1885",
+      "place": "Rasharkin Presbyterian Church; bride of Lisnagaver",
+      "source_url": "https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1885/10855/5963591.pdf",
+      "status": "Original civil return",
+      "note": "Sarah Glasgow, full-age spinster of Lisnagaver, named Thomas Glasgow, farmer, as her father.",
+      "role": "Daughter and bride evidence"
+    },
+    {
+      "record_id": "census-thomas-1851",
+      "association": "Thomas Glasgow household, 1851 census",
+      "date": "1851",
+      "place": "Lisnagaver",
+      "source_url": "http://www.census.nationalarchives.ie/pages/1851/Antrim/Kilconway/Rasharkin/Lisnagaver/37/",
+      "status": "Census record",
+      "note": "Thomas, 35, was a farmer with Mary Ann and five daughters. It supports locality identity but names no parents.",
+      "role": "Household context"
+    },
+    {
+      "record_id": "administration-thomas-1870",
+      "association": "Thomas Glasgow administration, Belfast registry",
+      "date": "7 September 1870",
+      "place": "Lisnagaver / Belfast registry",
+      "source_url": "https://apps.proni.gov.uk/WillsCalendar_IE/WillsSearch.aspx",
+      "status": "Official calendar abstract; no image",
+      "note": "Thomas Glasgow, farmer of Lisnagaver, died there on 21 June 1870. Administration of his intestate estate, under £200, was granted to Mary Anne Glasgow of Lisnagaver, his widow. The abstract names no heirs, siblings or parents.",
+      "role": "Death, residence and widow evidence"
+    }
   ],
-  "evidence_questions": [{"id": "thomas-daniel", "title": "What establishes the Thomas–Daniel family?", "answer": "Daniel's will establishes Thomas as his brother; Daniel Neely's marriage establishes Thomas as his father. Together they identify the same Lisnagaver Thomas family, but they do not establish Alexander as a brother or identify the parents.", "records": ["will-daniel-1871", "marriage-daniel-neely-1888"], "reasoning": "The will supplies the sibling relationship and the unusual nephew name. The marriage supplies that full name, Thomas's occupation and Lisnagaver residence, creating the identity bridge rather than relying on the surname alone.", "limitation": "Neither record names Alexander or Thomas's parents. Thomas's official administration identifies his widow but adds no parent, sibling or heir.", "missing": "A record explicitly connecting Alexander to Thomas or Daniel, or a contemporary record naming Thomas's parents."}, {"id": "thomas-children", "title": "Which records establish Thomas's identified children?", "answer": "The 1888 marriage directly identifies Daniel Neely as Thomas's son, and the 1885 marriage directly identifies Sarah as Thomas's daughter. These relationships support the family reconstruction but do not extend to Alexander.", "records": ["marriage-daniel-neely-1888", "marriage-sarah-1885"], "reasoning": "Each civil marriage names Thomas as the bridegroom's or bride's father and supplies a Lisnagaver connection. The two records are separate relationship statements, not one copied family-tree assertion.", "limitation": "Neither marriage identifies Thomas's parents or states that Alexander was Thomas's sibling.", "missing": "A contemporary record naming Thomas's parents or explicitly connecting Alexander to this household."}],
-  "record_evidence": {"thomas-daniel": {"will-daniel-1871": {"recorded_statement": "Daniel's will calls Thomas his late brother and Daniel Neely Glasgow his nephew.", "relevance": "It directly establishes the sibling relationship and gives the full nephew name needed to identify the later family.", "limitation": "It does not name Alexander or either parent's identity."}, "marriage-daniel-neely-1888": {"recorded_statement": "Daniel Neely Glasgow's marriage names Thomas Glasgow, farmer, as his father and places Daniel at Lisnagaver.", "relevance": "It connects the named nephew to the Lisnagaver Thomas through a direct father statement.", "limitation": "It still does not state how Alexander is related to Thomas."}}, "thomas-children": {"marriage-daniel-neely-1888": {"recorded_statement": "Daniel Neely Glasgow's 28 June 1888 marriage return names Thomas Glasgow, farmer, as his father.", "relevance": "It is the direct son relationship that identifies Daniel Neely in the will-and-marriage bridge.", "limitation": "It does not identify Thomas's parents or Alexander's relationship to him."}, "marriage-sarah-1885": {"recorded_statement": "Sarah Glasgow's 12 March 1885 marriage return names Thomas Glasgow, farmer, as her father and gives her Lisnagaver residence.", "relevance": "It is an independent direct daughter relationship supporting the same Thomas household.", "limitation": "It does not identify Thomas's parents or connect Alexander to the family."}}},
-  "research_tasks": [{"priority": 1, "scope": "Documentary", "status": "Completed; administration only", "status_date": "2026-09-12", "what": "Inspect the complete Belfast probate-index row and seek the registered Thomas estate record.", "tests": "Tests the roles of Mary A. Glasgow and Thomas and whether any probate material names heirs or relationships.", "matters": "The official abstract proves Mary Anne was Thomas's widow. He died intestate, PRONI has no image, and no heir, sibling or parent is named.", "provenance": "research/Glasgow-987/findings.md · Source findings"}],
-  "completed_searches": [{"date": "2026-09-12", "search": "Thomas Glasgow Belfast probate entry", "result": "The official PRONI abstract resolves the lead as an intestate administration to widow Mary Anne Glasgow. No image or further kinship statement survives in the public entry."}],
+  "evidence_questions": [
+    {
+      "id": "thomas-daniel",
+      "title": "What establishes the Thomas–Daniel family?",
+      "answer": "Daniel's will establishes Thomas as his brother; Daniel Neely's marriage establishes Thomas as his father. Together they identify the same Lisnagaver Thomas family, but they do not establish Alexander as a brother or identify the parents.",
+      "records": [
+        "will-daniel-1871",
+        "marriage-daniel-neely-1888"
+      ],
+      "reasoning": "The will supplies the sibling relationship and the unusual nephew name. The marriage supplies that full name, Thomas's occupation and Lisnagaver residence, creating the identity bridge rather than relying on the surname alone.",
+      "limitation": "Neither record names Alexander or Thomas's parents. Thomas's official administration identifies his widow but adds no parent, sibling or heir.",
+      "missing": "A record explicitly connecting Alexander to Thomas or Daniel, or a contemporary record naming Thomas's parents."
+    },
+    {
+      "id": "thomas-children",
+      "title": "Which records establish Thomas's identified children?",
+      "answer": "The 1888 marriage directly identifies Daniel Neely as Thomas's son, and the 1885 marriage directly identifies Sarah as Thomas's daughter. These relationships support the family reconstruction but do not extend to Alexander.",
+      "records": [
+        "marriage-daniel-neely-1888",
+        "marriage-sarah-1885"
+      ],
+      "reasoning": "Each civil marriage names Thomas as the bridegroom's or bride's father and supplies a Lisnagaver connection. The two records are separate relationship statements, not one copied family-tree assertion.",
+      "limitation": "Neither marriage identifies Thomas's parents or states that Alexander was Thomas's sibling.",
+      "missing": "A contemporary record naming Thomas's parents or explicitly connecting Alexander to this household."
+    }
+  ],
+  "record_evidence": {
+    "thomas-daniel": {
+      "will-daniel-1871": {
+        "recorded_statement": "Daniel's will calls Thomas his late brother and Daniel Neely Glasgow his nephew.",
+        "relevance": "It directly establishes the sibling relationship and gives the full nephew name needed to identify the later family.",
+        "limitation": "It does not name Alexander or either parent's identity."
+      },
+      "marriage-daniel-neely-1888": {
+        "recorded_statement": "Daniel Neely Glasgow's marriage names Thomas Glasgow, farmer, as his father and places Daniel at Lisnagaver.",
+        "relevance": "It connects the named nephew to the Lisnagaver Thomas through a direct father statement.",
+        "limitation": "It still does not state how Alexander is related to Thomas."
+      }
+    },
+    "thomas-children": {
+      "marriage-daniel-neely-1888": {
+        "recorded_statement": "Daniel Neely Glasgow's 28 June 1888 marriage return names Thomas Glasgow, farmer, as his father.",
+        "relevance": "It is the direct son relationship that identifies Daniel Neely in the will-and-marriage bridge.",
+        "limitation": "It does not identify Thomas's parents or Alexander's relationship to him."
+      },
+      "marriage-sarah-1885": {
+        "recorded_statement": "Sarah Glasgow's 12 March 1885 marriage return names Thomas Glasgow, farmer, as her father and gives her Lisnagaver residence.",
+        "relevance": "It is an independent direct daughter relationship supporting the same Thomas household.",
+        "limitation": "It does not identify Thomas's parents or connect Alexander to the family."
+      }
+    }
+  },
+  "research_tasks": [
+    {
+      "priority": 1,
+      "scope": "Documentary",
+      "status": "Completed; administration only",
+      "status_date": "2026-09-12",
+      "what": "Inspect the complete Belfast probate-index row and seek the registered Thomas estate record.",
+      "tests": "Tests the roles of Mary A. Glasgow and Thomas and whether any probate material names heirs or relationships.",
+      "matters": "The official abstract proves Mary Anne was Thomas's widow. He died intestate, PRONI has no image, and no heir, sibling or parent is named.",
+      "provenance": "research/Glasgow-987/findings.md · Source findings"
+    }
+  ],
+  "completed_searches": [
+    {
+      "date": "2026-09-12",
+      "search": "Thomas Glasgow Belfast probate entry",
+      "result": "The official PRONI abstract resolves the lead as an intestate administration to widow Mary Anne Glasgow. No image or further kinship statement survives in the public entry."
+    }
+  ],
   "superseded_interpretations": [],
-  "deliberate_exclusions": ["The 2020 descendant correspondence is not treated as independent proof of Thomas's parents; it remains in Alexander's publication-safe evidence discussion."]
+  "deliberate_exclusions": [
+    "The 2020 descendant correspondence is not treated as independent proof of Thomas's parents; it remains in Alexander's publication-safe evidence discussion."
+  ]
 }

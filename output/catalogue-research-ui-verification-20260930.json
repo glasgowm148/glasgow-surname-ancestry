@@ -1,0 +1,50 @@
+{
+  "date": "2026-09-30",
+  "scope": "Profile split diff, historical relationship audit, filtered catalogue map, branch map order and dismissal, central held-research queue",
+  "relationship_audit": {
+    "public_path": "/research/relationship-audit/",
+    "documented_changes": 38,
+    "uncertain_or_unknown_to_certain": 14,
+    "previously_ungraded_to_certain": 24,
+    "father_changes": 31,
+    "father_uncertain_or_unknown_to_certain": 7,
+    "newly_certain_finding_batches": 32,
+    "backfilled_historical_findings": 29,
+    "ledger_findings": 491,
+    "coverage_limit": "1,009 finding files inventoried; relevant notes, saved live corrections, structured assessments and available repository history reconciled. Not every historical file was reread. Five currently confident relationships without a recoverable prior grade excluded."
+  },
+  "site": {
+    "split_diff_profiles": 210,
+    "central_queue_items": 140,
+    "additional_public_drafts": 11,
+    "pending_profile_amendments": 10,
+    "broken_queue_destinations": 0,
+    "regional_map_first_pages": 6,
+    "popup_shared_map_pages": 7
+  },
+  "validation": {
+    "focused_python_tests_passed": 36,
+    "queue_tests_repeated_after_jump_fix": 2,
+    "javascript_map_fixture": "passed",
+    "desktop": "Aligned diff colors and line numbers; sticky headings; filtered Map locations; branch map placement; actual pointer preview and background dismissal; queue jump and sidebar; all relationship Assessment counts.",
+    "mobile_390px": "Map canvas fits; held queue table scroll contained; split diff keyboard horizontal scroll works and page body fits.",
+    "map_fixture": "Same filtered identities, multiple people and locations, unmapped people, invalid coordinate exclusion, unrelated profile exclusion."
+  },
+  "screenshots": [
+    "output/profile-split-diff-20260930.png",
+    "output/catalogue-filtered-map-20260930.png"
+  ],
+  "local_synchronization": true,
+  "live_wikitree_saves": false,
+  "production_deployment": "pending",
+  "archive": {
+    "path": "/Users/m/wikitree-api-scrape/www/glasgow-site-20260930-192738.tar.gz",
+    "bytes": 142859653,
+    "decimal_mb": 142.86,
+    "members": 79153,
+    "rootless": true,
+    "selected_hashes_verified": 22,
+    "sha256": "4bd7c5dd6098eab4be99bc84b5234402a45de7eaa1ad67c1f8043e6a86246c32",
+    "release_checks": "totals, Atlas destinations, publication boundaries, asset versions and gzip integrity passed"
+  }
+}

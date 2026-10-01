@@ -49,10 +49,12 @@ class UnifiedSiteParityTests(unittest.TestCase):
             "catalogue-missing-profile",
             "catalogue-needs-wikitree-update",
             "catalogue-results",
-            "statistics-detail",
+            "statistics",
         )
         for marker in required:
             self.assertIn(f'id="{marker}"', page)
+        self.assertIn('href="/statistics/"', page)
+        self.assertNotIn('id="statistics-detail"', page)
         self.assertIn('src="people/search.js?', page)
         self.assertIn(
             "restoreResultsAnchor=location.hash==='#catalogue-results'",
@@ -128,8 +130,9 @@ class UnifiedSiteParityTests(unittest.TestCase):
         self.assertTrue(all(not ({"localFile", "editUrl", "capturedUrl", "sourceLength"} & set(row)) for row in rows))
         directory = (WEB / "free-space/index.html").read_text(encoding="utf-8")
         self.assertEqual(85, directory.count('class="fsp-card"'))
-        self.assertIn("14 individual bearer pages recorded as verified live", directory)
-        self.assertIn("Free-space pages are research resources and are not person profiles", directory)
+        self.assertIn("A second edition, kept alongside WikiTree.", directory)
+        self.assertTrue(all(row.get("url", "").startswith("/free-space/") for row in rows))
+        self.assertNotIn("A directory, not a second edition", directory)
         self.assertNotIn("research/free-space-pages/", directory)
         self.assertIn('/free-space/', (WEB / "index.html").read_text(encoding="utf-8"))
         research = (WEB / "research/index.html").read_text(encoding="utf-8")

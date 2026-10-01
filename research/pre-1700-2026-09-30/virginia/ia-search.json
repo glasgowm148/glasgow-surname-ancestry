@@ -1,0 +1,149 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 61,
+    "params": {
+      "query": "title:&quot;Brief abstract&quot; AND creator:McIntosh",
+      "qin": "title:(&quot;Brief abstract&quot;) AND creator:(McIntosh)",
+      "fields": "_default_",
+      "wt": "json",
+      "rows": 20,
+      "start": 0
+    }
+  },
+  "response": {
+    "numFound": 2,
+    "start": 0,
+    "docs": [
+      {
+        "btih": "bdad311d05be120ae01af6c0481e9a5a71c770d0",
+        "collection": [
+          "internetarchivebooks"
+        ],
+        "contributor": "Internet Archive",
+        "creator": "Charles Fleming McIntosh",
+        "date": "1914-01-01T00:00:00Z",
+        "downloads": 80,
+        "external-identifier": [
+          "urn:lcp:bwb_P7-CKF-622:epub:75f80c06-5c4b-4dbb-9334-d2f7f326481d",
+          "urn:lcp:bwb_P7-CKF-622:lcpdf:d7a3dca0-4fe1-4137-ad57-b3f71a8fd4e3",
+          "urn:acs6:bwb_P7-CKF-622:pdf:d3794720-5a3e-49af-93f7-0b15cae49f18"
+        ],
+        "foldoutcount": 0,
+        "format": [
+          "Archive BitTorrent",
+          "Cloth Cover Detection Log",
+          "DjVuTXT",
+          "Djvu XML",
+          "Item Tile",
+          "JPEG Thumb",
+          "Log",
+          "Metadata",
+          "OCR Page Index",
+          "OCR Search Text",
+          "PNG",
+          "Page Numbers JSON",
+          "RePublisher Final Processing Log",
+          "RePublisher Initial Processing Log",
+          "Scandata",
+          "Single Page Original JP2 Tar",
+          "Single Page Processed JP2 ZIP",
+          "Text PDF",
+          "Title Page Detection Log",
+          "chOCR",
+          "hOCR"
+        ],
+        "identifier": "bwb_P7-CKF-622",
+        "imagecount": 236,
+        "indexflag": [
+          "index",
+          "nonoindex",
+          "scanned_by_ia"
+        ],
+        "item_size": 373352437,
+        "language": "eng",
+        "mediatype": "texts",
+        "month": 3,
+        "oai_updatedate": [
+          "2024-08-10T00:02:59Z",
+          "2024-07-27T20:19:22Z",
+          "2025-04-27T02:47:42Z"
+        ],
+        "publicdate": "2024-07-27T20:19:22Z",
+        "title": "Brief Abstract of Lower Norfolk County and Norfolk County Wills 1637-1710",
+        "week": 0,
+        "year": 1914
+      },
+      {
+        "backup_location": "ia906402_4",
+        "btih": "eec097fc565aae2dbff84472605d2c1871d94d99",
+        "call_number": "2144433",
+        "collection": [
+          "brigham_young_university",
+          "americana",
+          "fav-chaseo7156349",
+          "fav-firstcaucasoid",
+          "fav-mp_42",
+          "fav-useful_brokeness"
+        ],
+        "contributor": "Harold B. Lee Library",
+        "creator": "McIntosh, Charles Fleming",
+        "date": "1914-01-01T00:00:00Z",
+        "description": [
+          "In 1691 Lower Norfolk county was divided into Princess Anne county and Norfolk county -- preface",
+          "Vol. [2] has title: Brief abstracts of Norfolk county wills, 1710-1753",
+          "1"
+        ],
+        "downloads": 3459,
+        "external-identifier": "urn:oclc:record:1041466215",
+        "foldoutcount": 0,
+        "format": [
+          "Abbyy GZ",
+          "Archive BitTorrent",
+          "Cloth Cover Detection Log",
+          "DjVuTXT",
+          "Djvu XML",
+          "Dublin Core",
+          "Item Tile",
+          "MARC",
+          "MARC Binary",
+          "MARC Source",
+          "Metadata",
+          "OCR Page Index",
+          "OCR Search Text",
+          "Page Numbers JSON",
+          "Scandata",
+          "Single Page Original JP2 Tar",
+          "Single Page Processed JP2 ZIP",
+          "Text PDF",
+          "chOCR",
+          "hOCR"
+        ],
+        "identifier": "briefabstractofl01mcin",
+        "imagecount": 236,
+        "indexflag": [
+          "index",
+          "nonoindex",
+          "scanned_by_ia"
+        ],
+        "item_size": 328629242,
+        "language": "eng",
+        "mediatype": "texts",
+        "month": 30,
+        "oai_updatedate": [
+          "2017-04-12T14:30:10Z",
+          "2017-04-12T14:30:13Z",
+          "2017-04-12T14:30:08Z",
+          "2024-06-06T16:14:25Z"
+        ],
+        "publicdate": "2017-04-12T14:30:13Z",
+        "publisher": "[Richmond] : The Colonial dames of America in the state of Virginia",
+        "subject": "Wills",
+        "title": "Brief abstract of Lower Norfolk county and Norfolk county wills, 1637-1753",
+        "volume": "1",
+        "week": 4,
+        "year": 1914
+      }
+    ]
+  }
+}

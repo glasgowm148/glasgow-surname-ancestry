@@ -42,7 +42,10 @@ def main() -> None:
         filtered_count = toolbar_total()
         assert 0 < filtered_count < total_people
         page.goto(f"{BASE}/catalogue.html", wait_until="networkidle")
-        page.locator("#statistics-detail > summary").click()
+        assert page.locator("#statistics .statistics-summary > div").count() == 9
+        assert page.locator("#statistics details").count() == 0
+        page.locator("#statistics .catalogue-statistics-link").click()
+        page.wait_for_url("**/statistics/")
         marriage_panel = page.locator(".statistics-panel", has_text="Surnames joined by marriage to Glasgow")
         cunningham = marriage_panel.get_by_role("link", name="Cunningham", exact=True)
         cunningham_count = int(cunningham.locator("xpath=ancestor::li/strong").inner_text().replace(",", ""))

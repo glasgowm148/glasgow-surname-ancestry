@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "audit_date": "2026-09-30",
+  "purpose": "Internal audit proposals for Latest findings relationship-confidence transitions; no live WikiTree status changes or new historical research.",
+  "ledger_audited": "research/latest-findings.json",
+  "ledger_row_count": 460,
+  "relationship_kind_row_count": 75,
+  "accepted_finding_count": 1,
+  "father_upgrade_finding_count": 0,
+  "proposals": [
+    {
+      "finding_id": "prescott-glasgow-brothers-deed-1861",
+      "found_on": "2026-09-13",
+      "relationship_changes": [
+        {
+          "relationship": "sibling",
+          "subject": "Daniel Glasgow (Glasgow-3896)",
+          "relative": "Robert Glasgow of Prescott (Glasgow-4150)",
+          "before": "uncertain",
+          "after": "certain",
+          "explanation": "The original 1849 Robert will names Daniel and Thomas as brothers; the original B465 deed of 30 July 1861 identifies the corresponding Irish beneficiaries by Kilrea/watchmaker/Margaret and Lisnagaver/farmer/Mary Anne. Together with established Daniel–Thomas brotherhood, these identify the known Irish men with Robert’s named brothers.",
+          "previous_status_provenance": [
+            "research/Glasgow-4010/findings.md:16-24 (8 September 2026 original-will review: other named siblings still require identity and duplicate checks)",
+            "research/Glasgow-951/findings.md:1304-1306 (retained earlier open identity test)",
+            "research/Glasgow-951/profile-evidence-review-2026-09-13.md:319-321 (explicit statement that this resolves former uncertainty)"
+          ],
+          "scope": "Certain sibling relationship to the record-defined Prescott testator. Their parents and Alexander Glasgow-951’s relationship remain unresolved. This is a multi-record identity argument, not an assertion based on the isolated kinship clause."
+        },
+        {
+          "relationship": "sibling",
+          "subject": "Thomas Glasgow (Glasgow-987)",
+          "relative": "Robert Glasgow of Prescott (Glasgow-4150)",
+          "before": "uncertain",
+          "after": "certain",
+          "explanation": "The original 1849 Robert will names Daniel and Thomas as brothers; the original B465 deed of 30 July 1861 identifies the corresponding Irish beneficiaries by Kilrea/watchmaker/Margaret and Lisnagaver/farmer/Mary Anne. Together with established Daniel–Thomas brotherhood, these identify the known Irish men with Robert’s named brothers.",
+          "previous_status_provenance": [
+            "research/Glasgow-4010/findings.md:16-24 (8 September 2026 original-will review: other named siblings still require identity and duplicate checks)",
+            "research/Glasgow-951/findings.md:1304-1306 (retained earlier open identity test)",
+            "research/Glasgow-951/profile-evidence-review-2026-09-13.md:319-321 (explicit statement that this resolves former uncertainty)"
+          ],
+          "scope": "Certain sibling relationship to the record-defined Prescott testator. Their parents and Alexander Glasgow-951’s relationship remain unresolved. This is a multi-record identity argument, not an assertion based on the isolated kinship clause."
+        }
+      ],
+      "basis_provenance": [
+        "research/Glasgow-3896/findings.md:213-224",
+        "research/Glasgow-987/findings.md:206-220",
+        "research/Glasgow-951/profile-evidence-review-2026-09-13.md:319-321"
+      ],
+      "source_urls": [
+        "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWY9-S",
+        "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWB8-D"
+      ],
+      "optional_related_changes": "The same combined argument also establishes Daniel/Thomas as siblings of identified Samuel Glasgow-4010. Two testator-centred assertions are sufficient to classify this finding; do not count Daniel–Thomas brotherhood as newly proved in this batch."
+    }
+  ],
+  "exclusions": [
+    {
+      "finding_id": "deed-ballykeel-159661-1764",
+      "reason": "Independent father corroboration, not documented upgrade from uncertain/unknown. Existing congregation chronology and equity evidence already strongly supported James Glasgow-1144 as Robert Glasgow-1143’s son; current findings expressly describe the new deed as corroboration.",
+      "provenance": [
+        "research/Glasgow-1144/findings.md:9-33",
+        "research/Glasgow-1143/findings.md:21-46"
+      ]
+    },
+    {
+      "finding_id": "birth-jane-elder-1878",
+      "reason": "New exact birth and parent-bearing original establish Jane Matilda’s later Jane M. identity at high confidence, but no explicit dated prior-status transition for her father or mother was located. The Gortahar household’s identification with Mary Glasgow-3167 was already assessed high confidence in the retained 24 August section. Do not infer before unknown merely because the birth entry was new.",
+      "provenance": [
+        "research/Glasgow-3167/findings.md:140-159",
+        "git:93f8105e:research/Glasgow-3167/findings.md:38-43,54-64"
+      ]
+    },
+    {
+      "finding_id": "samuel-elder-glasgow-name-conflict",
+      "reason": "Original surname conflict; no Glasgow father named. The retrieved 1908 birth does prove Jane’s maternity, but the ledger row is a dated name correction and its case does not provide an unambiguous retrieval date for a prior-to-certain maternity transition.",
+      "provenance": [
+        "research/Glasgow-3167/findings.md:140-153",
+        "git:93f8105e:research/Glasgow-3167/findings.md:62-64"
+      ]
+    },
+    {
+      "finding_id": "will-archibald-rathmalton-1673-betham",
+      "reason": "Abstract explicitly names a son Thomas, but identification with Glasgow-3556 remains strongly probable; no certain profile-level father upgrade.",
+      "provenance": [
+        "research/latest-findings.json",
+        "research/Glasgow-3556/findings.md"
+      ]
+    },
+    {
+      "finding_id": "rochester-alexander-prescott-james-son",
+      "reason": "New explicit kinship between documentary subjects; this is not Alexander-951, and no earlier uncertain/unknown relationship assessment for the same Rochester subject was found.",
+      "provenance": [
+        "research/Glasgow-951/findings.md:2205-2207"
+      ]
+    },
+    {
+      "finding_id": "death-mary-1892",
+      "reason": "Corrected date and strengthened identification; daughter relationship/household continuity was already part of maintained evidence, with no dated before-to-certain relationship transition established.",
+      "provenance": [
+        "research/Glasgow-3167/findings.md:140-147",
+        "research/McCaughan-222/findings.md"
+      ]
+    }
+  ],
+  "group_exclusions": [
+    {
+      "finding_ids": "groni-m-*, opr-marriage-*, transcript-*",
+      "reason": "New supplied index/saved transcript entries identify record kinship or confirm attached couples/parents; novelty of a record or absent ledger confidence metadata does not establish an earlier uncertain/unknown assessment. Unresolved adult mappings and existing confident family attachments must be kept separate."
+    },
+    {
+      "finding_ids": "new-17sep-* relationship entries, mary-thomson-sneddon-1860-parents, john-edinburgh-apprentice-thomas-1648, agnes-logan-sasine-index-1601",
+      "reason": "Record-defined kinship or associated family leads without proven modern subject matches or recorded prior confidence upgrade."
+    }
+  ],
+  "limitations": "This report audits recoverable maintained assessments, not current live WikiTree relationship status. Zero accepted father-upgrade findings in this audit does not mean no historical research ever proved a father.",
+  "identity_mapping_review": "Robert of Prescott is Glasgow-4150, verified by the profile-link audit and maintained canonical draft map on 30 September; the upgrade date remains 13 September."
+}

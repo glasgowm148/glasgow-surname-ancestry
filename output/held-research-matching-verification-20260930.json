@@ -1,0 +1,61 @@
+{
+  "reviewed_on": "2026-09-30",
+  "baseline_reviews": 140,
+  "baseline_counts": {
+    "already_linked": 13,
+    "research_question": 14,
+    "compatible_candidate": 77,
+    "no_compatible_profile": 25,
+    "matched": 6,
+    "unnamed_record": 4,
+    "partly_matched": 1
+  },
+  "identity_entries_linked": 87,
+  "identity_entries_without_match": 29,
+  "current_queue": 137,
+  "pending_amendments": 11,
+  "latest_findings": 495,
+  "missing_local_links": [],
+  "raw_captures_withheld": true,
+  "mary_ellen": {
+    "pending": true,
+    "current": "17 February 1867",
+    "proposed": "14 February 1867",
+    "original_and_index_citations_preserved": true,
+    "side_by_side_diff_verified": true
+  },
+  "checks": {
+    "python_tests": 22,
+    "javascript_syntax": "pass",
+    "desktop_matched_filter": 6,
+    "mobile_compatible_filter": 77,
+    "mobile_page_overflow": false
+  },
+  "live_wikitree_edits": false,
+  "production_deployed": false,
+  "archive": {
+    "path": "/Users/m/wikitree-api-scrape/www/glasgow-site-20260930-212026.tar.gz",
+    "bytes": 143865065,
+    "sha256": "629719e4857329d695727f8146f070f9af9bf5c99e3e9d148164c1e17cbdb57e",
+    "members": 79171,
+    "gzip_integrity": "passed",
+    "selected_member_hashes": "passed",
+    "checked_members": [
+      "research/profile-matches/index.html",
+      "data/research-queue-match-audit.json",
+      "data/research-queue.json",
+      "catalogue/index.html",
+      "latest-findings/index.html",
+      "people/glasgow-4269.html",
+      "people/glasgow-4269.json",
+      "people/glasgow-3589.html",
+      "people/elder-5907.html",
+      "people/anderson-47669.html",
+      "people/grey-2711.html",
+      "people/record-edinburgh-1577-andrew-glasgow.html",
+      "research/subjects/rasharkin-john-elder-marriages/index.html",
+      "assets/research/research-queue.js",
+      "map/data/records.csv"
+    ]
+  }
+}

@@ -28,11 +28,21 @@ def publish(*, render_people=True):
     runpy.run_path(str(ROOT / 'tools/repair_sources_page.py'))['repair']()
     if render_people:
         runpy.run_path(str(ROOT / 'tools/repair_person_hierarchy.py'))['repair']()
+    runpy.run_path(str(ROOT / 'tools/repair_profile_update_controls.py'))['repair']()
     repair_privacy(ROOT / 'www')
     runpy.run_path(str(ROOT / 'tools/repair_release_readiness.py'))['repair']()
     runpy.run_path(str(ROOT / 'tools/repair_publication_policy.py'))['repair']()
     runpy.run_path(str(ROOT / 'tools/site_analytics.py'))['repair']()
     runpy.run_path(str(ROOT / 'tools/publish_research_access.py'))['repair']()
+    runpy.run_path(str(ROOT / 'tools/repair_reader_guidance.py'))['repair']()
+    runpy.run_path(str(ROOT / 'tools/build_latest_findings.py'))['repair']()
+    runpy.run_path(str(ROOT / 'tools/build_relationship_audit.py'))['build']()
+    runpy.run_path(str(ROOT / 'tools/build_research_queue.py'))['build']()
+    repair_privacy(ROOT / 'www')
+    runpy.run_path(str(ROOT / 'tools/site_analytics.py'))['repair']()
+    refresh_result = runpy.run_path(str(ROOT / 'tools/genealogy/batch_complete.py'))['refresh_after_batch']()
+    if refresh_result:
+        raise RuntimeError('Website synchronized; local genealogy index refresh failed (see refresh state/logs).')
 
 
 if __name__ == '__main__':

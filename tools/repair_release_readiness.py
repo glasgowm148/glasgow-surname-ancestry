@@ -75,12 +75,20 @@ def replace_once(page: str, pattern: str, replacement: str) -> str:
     return value
 
 
+def homepage_count(page: str, people: int) -> str:
+    # The reader introduction replaces the old count strip. Its tree preview
+    # has a different scope and must not receive the catalogue total.
+    if 'class="reader-intro"' in page and 'class="v3-hero-stat"' not in page:
+        return page
+    return replace_once(page, r'(<div class="v3-hero-stat"><strong>)[\d,]+(</strong> catalogue entries)', rf'\g<1>{people:,}\2')
+
+
 def repair_counts(health: dict, manifest: dict, generated: date, changed: Counter) -> None:
     counts = health["counts"]
     datasets = {row["name"]: row["count"] for row in manifest["datasets"]}
     people, records, places = counts["people"], counts["records"], counts["places"]
     pages = {
-        "index.html": lambda page: replace_once(page, r'(<div class="v3-hero-stat"><strong>)[\d,]+(</strong> catalogue entries)', rf'\g<1>{people:,}\2'),
+        "index.html": lambda page: homepage_count(page, people),
         "about/index.html": lambda page: replace_once(page, r'(<td>Research catalogue</td><td>)[^<]+(</td>)', rf'\g<1>{people:,} people · {records:,} record associations · {places:,} places\2'),
         "data/index.html": lambda page: replace_once(page, r'(<strong>people\.csv</strong><span>)[\d,]+ historical or deceased people(</span>)', rf'\g<1>{datasets["people"]:,} historical or deceased people\2'),
     }

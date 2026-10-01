@@ -1,0 +1,47 @@
+{
+  "checked_on": "2026-09-30",
+  "findings": 462,
+  "upgrade_findings": 3,
+  "relationship_transitions": 9,
+  "father_findings": 2,
+  "profile_comparisons_restored": 213,
+  "focus_tests_passed": 59,
+  "pending_wikitree_profiles": [
+    "Glasgow-4010",
+    "Glasgow-4150"
+  ],
+  "pending_action": "Attach Alexander Glasgow (Glasgow-3904) as uncertain father and integrate full sourced explanation; no certain father upgrade claimed.",
+  "proved_sibling_group": [
+    "Glasgow-987",
+    "Glasgow-3896",
+    "Glasgow-4010",
+    "Glasgow-4150"
+  ],
+  "local_reciprocal_assertions": "proved sibling edges; uncertain father edges; imported tree retained",
+  "browser_checks": [
+    "relationship filter 3 rows",
+    "father filter 2 rows",
+    "mobile390 no body overflow for Robert/Samuel comparison",
+    "current captured biography disclosure",
+    "full replacement draft and diff controls",
+    "Robert family lists all3 brothers and uncertain father",
+    "desktop screenshot saved",
+    "no console errors/warnings"
+  ],
+  "scope_limit": "Dated recoverable history, not a claim of complete coverage of every past research relationship. New historical backfills are July17 and Aug19 discoveries, not new September30 records.",
+  "broad_catalogue_checks": "Earlier full catalogue run also found legacy Current position heading and 1MB size assumptions plus seeded-case count mismatch; focused affected checks passed.",
+  "live_wikitree_edits_performed": false,
+  "production_upload": "pending",
+  "queued_later_work": "docs/queued-site-work-2026-09-30.md",
+  "screenshot": "output/profile-comparison-restored-20260930.png",
+  "archive": {
+    "path": "/Users/m/wikitree-api-scrape/www/glasgow-site-20260930-172518.tar.gz",
+    "bytes": 140387466,
+    "decimal_mb": 140.39,
+    "members": 79051,
+    "rootless": true,
+    "selected_hashes_verified": 15,
+    "sha256": "eaeadc520dd8208f277669355f5a92f75ed6a7500d476b0b92aac133029dca75",
+    "release_checks": "totals, Atlas destinations, publication boundaries, asset versions, gzip integrity passed"
+  }
+}

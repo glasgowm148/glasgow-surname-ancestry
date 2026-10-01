@@ -146,6 +146,7 @@ FIELDS = [
     "Prefix",
     "Suffix",
     "Gender",
+    "IsLiving",
     "BirthDate",
     "BirthLocation",
     "DeathDate",

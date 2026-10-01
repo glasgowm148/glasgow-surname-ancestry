@@ -1,3 +1,6 @@
+<!-- profile-match-review-20260930 -->
+**Current identity review, 30 September 2026:** The supplied index records ISOB Glasgow and JAMES COLDWELL/ at Glasgow on 1684-04-17. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group.
+
 # HOLD — Isob Glasgow, Glasgow 1684
 
 ```wikitext

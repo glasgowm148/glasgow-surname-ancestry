@@ -2,7 +2,7 @@
 
 Last updated: 2026-09-06
 
-## Current conclusion
+## Assessment history — will and marriage review
 
 Daniel's 1871 will proves that Thomas `Glasgow-987` was his late brother, names
 David as his son and Daniel Neely as his nephew. Daniel Neely's 1888 marriage
@@ -19,7 +19,7 @@ younger artist Daniel discussed by the Met remains an unresolved same-name
 candidate; the surviving catalogue/article does not establish his parentage.
 Kate Glasgow informed Daniel's 1871 death, but the return gives no relationship.
 
-## Current answer
+## Identity and relationship assessments — earlier will review
 
 Daniel Glasgow's original 1871 will directly identifies David Glasgow of
 the City of London as his son. It also identifies Daniel's late brother

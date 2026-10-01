@@ -1,0 +1,2986 @@
+{
+  "schema_version": 1,
+  "audited_at": "2026-09-18",
+  "method": "Live WikiTree searchPerson exact-name audit with surname variants, chronology and place screening; candidates are leads, not identity proof.",
+  "unlinked_count": 72,
+  "entries": {
+    "record-alexander-glasgow-94245e5bf7": {
+      "catalogue_id": "record-alexander-glasgow-94245e5bf7",
+      "name": "Alexander Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 78,
+      "record_year": 1893,
+      "search_terms": [
+        "Alexander Glasgow"
+      ],
+      "candidates": [
+        {
+          "profile_id": "Glasgow-2702",
+          "name": "Alexander Glasgow",
+          "birth_date": "1837-09-14",
+          "birth_location": "Glasgow, Lanarkshire, Scotland",
+          "death_date": "1894-06-28",
+          "death_location": "Dundee, Forfarshire, Scotland, United Kingdom",
+          "location_overlap": [],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Male",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 65,
+          "url": "https://www.wikitree.com/wiki/Glasgow-2702"
+        },
+        {
+          "profile_id": "Glasgow-2839",
+          "name": "Alexander Glasgow",
+          "birth_date": "1851-05-26",
+          "birth_location": "Windsor, New South Wales, Australia",
+          "death_date": "1923-02-02",
+          "death_location": "Melbourne, New South Wales, Australia",
+          "location_overlap": [
+            "south"
+          ],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Male",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 65,
+          "url": "https://www.wikitree.com/wiki/Glasgow-2839"
+        }
+      ],
+      "draft_path": "surname-research/new-people/1893_South_Africa_Cape_Town_Alexander_Glasgow.md"
+    },
+    "record-ballybogy-1825-james-glasgow": {
+      "catalogue_id": "record-ballybogy-1825-james-glasgow",
+      "name": "James Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 288,
+      "record_year": 1825,
+      "search_terms": [
+        "James Glasgow"
+      ],
+      "candidates": [
+        {
+          "profile_id": "Glasgow-1780",
+          "name": "James McClure Glasgow",
+          "birth_date": "1805-05-27",
+          "birth_location": "Clough, County Antrim, Ireland",
+          "death_date": "1890-06-30",
+          "death_location": "Portadown, County Antrim, Ireland",
+          "location_overlap": [
+            "antrim"
+          ],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Male",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 90,
+          "url": "https://www.wikitree.com/wiki/Glasgow-1780"
+        },
+        {
+          "profile_id": "Glasgow-2981",
+          "name": "James Glasgow",
+          "birth_date": "1801-00-00",
+          "birth_location": "County Antrim, Ireland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [
+            "antrim"
+          ],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Male",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 85,
+          "url": "https://www.wikitree.com/wiki/Glasgow-2981"
+        },
+        {
+          "profile_id": "Glasgow-1701",
+          "name": "James Glasgow jun",
+          "birth_date": "1805-00-00",
+          "birth_location": "",
+          "death_date": "1875-07-27",
+          "death_location": "Killycurragh, Derryloran, Cookstown, County Tyrone, Ireland",
+          "location_overlap": [],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Male",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 75,
+          "url": "https://www.wikitree.com/wiki/Glasgow-1701"
+        },
+        {
+          "profile_id": "Glasgow-3129",
+          "name": "James Glasgow",
+          "birth_date": "1810-00-00",
+          "birth_location": "Ireland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Male",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 75,
+          "url": "https://www.wikitree.com/wiki/Glasgow-3129"
+        },
+        {
+          "profile_id": "Glasgow-3196",
+          "name": "James Glasgow",
+          "birth_date": "1805-00-00",
+          "birth_location": "County Tyrone, Ireland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Male",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 75,
+          "url": "https://www.wikitree.com/wiki/Glasgow-3196"
+        },
+        {
+          "profile_id": "Glasgow-3986",
+          "name": "James Glasgow",
+          "birth_date": "1773-00-00",
+          "birth_location": "Larne, County Antrim, Ireland",
+          "death_date": "1831-00-00",
+          "death_location": "",
+          "location_overlap": [
+            "antrim"
+          ],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Male",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 75,
+          "url": "https://www.wikitree.com/wiki/Glasgow-3986"
+        },
+        {
+          "profile_id": "Glasgow-1702",
+          "name": "James Glasgow",
+          "birth_date": "1799-08-21",
+          "birth_location": "County Tyrone, Ireland",
+          "death_date": "1882-03-15",
+          "death_location": "Ballynasollus, Kildress, Cookstown, County Tyrone, Ireland",
+          "location_overlap": [],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Male",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 70,
+          "url": "https://www.wikitree.com/wiki/Glasgow-1702"
+        },
+        {
+          "profile_id": "Glasgow-3126",
+          "name": "James Glasgow",
+          "birth_date": "1795-00-00",
+          "birth_location": "Ireland",
+          "death_date": "0000-00-00",
+          "death_location": "Henry, Ohio, United States",
+          "location_overlap": [],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Male",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 70,
+          "url": "https://www.wikitree.com/wiki/Glasgow-3126"
+        }
+      ],
+      "draft_path": "surname-research/new-people/1825_Ireland_Ballybogy_James_Glasgow.md"
+    },
+    "record-corsoun-1598-isobel-glasgow": {
+      "catalogue_id": "record-corsoun-1598-isobel-glasgow",
+      "name": "Isobel Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 8,
+      "record_year": 1598,
+      "search_terms": [
+        "Isobel Glasgow"
+      ],
+      "candidates": [
+        {
+          "profile_id": "Brade-232",
+          "name": "Isobel (Brade) Glasgow",
+          "birth_date": "1500-00-00",
+          "birth_location": "Glasgow, Lanarkshire, Scotland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Female",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 45,
+          "url": "https://www.wikitree.com/wiki/Brade-232"
+        }
+      ],
+      "draft_path": "surname-research/new-people/1598_Scotland_Corsoun_Isobel_Glasgow.md"
+    },
+    "record-corsoun-1598-janet-glasgow": {
+      "catalogue_id": "record-corsoun-1598-janet-glasgow",
+      "name": "Janet Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 307,
+      "record_year": 1598,
+      "search_terms": [
+        "Janet Glasgow"
+      ],
+      "candidates": [],
+      "draft_path": "surname-research/new-people/1598_Scotland_Corsoun_Janet_Glasgow.md"
+    },
+    "record-corsoun-1598-marion-glasgow": {
+      "catalogue_id": "record-corsoun-1598-marion-glasgow",
+      "name": "Marion Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 37,
+      "record_year": 1598,
+      "search_terms": [
+        "Marion Glasgow"
+      ],
+      "candidates": [],
+      "draft_path": "surname-research/new-people/1598_Scotland_Corsoun_Marion_Glasgow.md"
+    },
+    "record-corsoun-1598-robert-glasgow": {
+      "catalogue_id": "record-corsoun-1598-robert-glasgow",
+      "name": "Robert Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 207,
+      "record_year": 1598,
+      "search_terms": [
+        "Robert Glasgow"
+      ],
+      "candidates": [
+        {
+          "profile_id": "Glasgow-1027",
+          "name": "Robert Glasgow",
+          "birth_date": "1583-00-00",
+          "birth_location": "Glasgow, Lanarkshire, Scotland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Male",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 55,
+          "url": "https://www.wikitree.com/wiki/Glasgow-1027"
+        },
+        {
+          "profile_id": "Glasgow-1156",
+          "name": "Robert Glasgow I",
+          "birth_date": "1582-00-00",
+          "birth_location": "Glasgow, Lanarkshire, Scotland",
+          "death_date": "1647-01-17",
+          "death_location": "Duddingston, Edinburghshire, Scotland",
+          "location_overlap": [],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Male",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 55,
+          "url": "https://www.wikitree.com/wiki/Glasgow-1156"
+        }
+      ],
+      "draft_path": "surname-research/new-people/1598_Scotland_Corsoun_Robert_Glasgow.md"
+    },
+    "record-drumragh-mary-glasgow-1828": {
+      "catalogue_id": "record-drumragh-mary-glasgow-1828",
+      "name": "Mary Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 394,
+      "record_year": 1828,
+      "search_terms": [
+        "Mary Glasgow"
+      ],
+      "candidates": [
+        {
+          "profile_id": "Glasgow-4155",
+          "name": "Mary Glasgow",
+          "birth_date": "1792-00-00",
+          "birth_location": "Drumragh near Ahoghill, County Antrim, Ireland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [
+            "ahoghill",
+            "antrim",
+            "drumragh",
+            "near"
+          ],
+          "birth_year_match": true,
+          "death_year_match": false,
+          "gender": "Female",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 105,
+          "url": "https://www.wikitree.com/wiki/Glasgow-4155"
+        },
+        {
+          "profile_id": "Glasgow-3989",
+          "name": "Mary Glasgow",
+          "birth_date": "1783-00-00",
+          "birth_location": "County Antrim, Ireland.",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [
+            "antrim"
+          ],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Female",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 85,
+          "url": "https://www.wikitree.com/wiki/Glasgow-3989"
+        },
+        {
+          "profile_id": "Glasgow-805",
+          "name": "Mary (Glasgow) Harrington",
+          "birth_date": "1814-00-00",
+          "birth_location": "Borrisoleigh, County Tipperary, Ireland",
+          "death_date": "1891-02-06",
+          "death_location": "Woodlands, near Wentworth Swamps, West Maitland, New South Wales, Australia",
+          "location_overlap": [
+            "near"
+          ],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Female",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 80,
+          "url": "https://www.wikitree.com/wiki/Glasgow-805"
+        },
+        {
+          "profile_id": "McCaughan-222",
+          "name": "Mary (McCaughan) Glasgow",
+          "birth_date": "1811-00-00",
+          "birth_location": "County Antrim, Ireland",
+          "death_date": "1892-02-27",
+          "death_location": "Gortahar, Rasharkin, County Antrim, Ireland",
+          "location_overlap": [
+            "antrim"
+          ],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Female",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 80,
+          "url": "https://www.wikitree.com/wiki/McCaughan-222"
+        },
+        {
+          "profile_id": "Unknown-764460",
+          "name": "Mary (Unknown) Glasgow",
+          "birth_date": "1813-00-00",
+          "birth_location": "County Antrim, Ireland",
+          "death_date": "1847-00-00",
+          "death_location": "",
+          "location_overlap": [
+            "antrim"
+          ],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Female",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 80,
+          "url": "https://www.wikitree.com/wiki/Unknown-764460"
+        },
+        {
+          "profile_id": "Glasgow-1508",
+          "name": "Mary Glasgow",
+          "birth_date": "1736-00-00",
+          "birth_location": "County Antrim, Ireland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [
+            "antrim"
+          ],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Female",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 75,
+          "url": "https://www.wikitree.com/wiki/Glasgow-1508"
+        },
+        {
+          "profile_id": "Glasco-66",
+          "name": "Mary (Glasco) Hames",
+          "birth_date": "1781-12-05",
+          "birth_location": "St Michan's, Dublin city, Dublin, Ireland",
+          "death_date": "1848-11-07",
+          "death_location": "Leicester, Leicestershire, England, United Kingdom",
+          "location_overlap": [],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Female",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 70,
+          "url": "https://www.wikitree.com/wiki/Glasco-66"
+        },
+        {
+          "profile_id": "Henry-6408",
+          "name": "Mary Anne (Henry) Glasgow",
+          "birth_date": "1802-01-00",
+          "birth_location": "Derryloran, Cookstown Co Tyrone, Ireland",
+          "death_date": "1888-06-14",
+          "death_location": "Montober, County Tyrone, Ireland",
+          "location_overlap": [],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Female",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 70,
+          "url": "https://www.wikitree.com/wiki/Henry-6408"
+        }
+      ],
+      "draft_path": "surname-research/new-people/1828_Ireland_Drumragh_Mary_Glasgow.md"
+    },
+    "record-edinburgh-1577-andrew-glasgow": {
+      "catalogue_id": "record-edinburgh-1577-andrew-glasgow",
+      "name": "Marjory Glasgow",
+      "identity_status": "individual",
+      "identity_note": "The earlier Androw/Andrew reading is superseded by the accepted human reading m[ar]iory (Marjory). This is John Glasgow's lawful daughter, already represented by Glasgow-3589, not a separate Andrew.",
+      "recommended_action": "verified_existing_profile",
+      "confirmed_profile_id": "Glasgow-3589",
+      "searched_profile_count": 0,
+      "record_year": 1577,
+      "search_terms": [
+        "[Androw?/Andrew] Glasgow"
+      ],
+      "candidates": [],
+      "draft_path": "research/Glasgow-3589/2026-09-30_superseded_1577_Scotland_Hirmenschelis_Andrew_Glasgow.md",
+      "matched_at": "2026-09-30"
+    },
+    "record-fmp-glasgow-015f1040785c": {
+      "catalogue_id": "record-fmp-glasgow-015f1040785c",
+      "name": "James Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 288,
+      "record_year": 1711,
+      "search_terms": [
+        "James Glasgow"
+      ],
+      "candidates": [
+        {
+          "profile_id": "Glasgow-4100",
+          "name": "James Glasgow",
+          "birth_date": "1711-00-00",
+          "birth_location": "Irvine, Scotland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [
+            "irvine"
+          ],
+          "birth_year_match": true,
+          "death_year_match": false,
+          "gender": "",
+          "exact_relative_roles": [
+            "father",
+            "mother"
+          ],
+          "birth_year_conflict": false,
+          "score": 105,
+          "url": "https://www.wikitree.com/wiki/Glasgow-4100"
+        }
+      ],
+      "draft_path": "surname-research/new-people/1711_Scotland_Irvine_James_Glasgow.md"
+    },
+    "record-fmp-glasgow-033cb073721c": {
+      "catalogue_id": "record-fmp-glasgow-033cb073721c",
+      "name": "William Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 285,
+      "record_year": 1733,
+      "search_terms": [
+        "William Glasgow"
+      ],
+      "candidates": [
+        {
+          "profile_id": "Glasgow-4101",
+          "name": "William Glasgow",
+          "birth_date": "1733-00-00",
+          "birth_location": "Dundonald, Scotland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [
+            "dundonald"
+          ],
+          "birth_year_match": true,
+          "death_year_match": false,
+          "gender": "",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 75,
+          "url": "https://www.wikitree.com/wiki/Glasgow-4101"
+        }
+      ],
+      "draft_path": "surname-research/new-people/1733_Scotland_Dundonald_William_Glasgow.md"
+    },
+    "record-fmp-glasgow-0840d67a902e": {
+      "catalogue_id": "record-fmp-glasgow-0840d67a902e",
+      "name": "Mary Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 394,
+      "record_year": 1713,
+      "search_terms": [
+        "Mary Glasgow"
+      ],
+      "candidates": [
+        {
+          "profile_id": "Glasgow-4093",
+          "name": "Mary (Glasgow) Thompson",
+          "birth_date": "0000-00-00",
+          "birth_location": "",
+          "death_date": "1892-00-00",
+          "death_location": "",
+          "location_overlap": [],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Female",
+          "exact_relative_roles": [
+            "father"
+          ],
+          "birth_year_conflict": false,
+          "score": 60,
+          "url": "https://www.wikitree.com/wiki/Glasgow-4093"
+        }
+      ],
+      "draft_path": "surname-research/new-people/1713_Scotland_Irvine_Mary_Glasgow.md"
+    },
+    "record-fmp-glasgow-10ad472195e9": {
+      "catalogue_id": "record-fmp-glasgow-10ad472195e9",
+      "name": "Magdalen Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 2,
+      "record_year": 1743,
+      "search_terms": [
+        "Magdalen Glasgow"
+      ],
+      "candidates": [
+        {
+          "profile_id": "Glasgow-4103",
+          "name": "Magdalen Glasgow",
+          "birth_date": "1743-00-00",
+          "birth_location": "Irvine, Scotland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [
+            "irvine"
+          ],
+          "birth_year_match": true,
+          "death_year_match": false,
+          "gender": "",
+          "exact_relative_roles": [
+            "father"
+          ],
+          "birth_year_conflict": false,
+          "score": 90,
+          "url": "https://www.wikitree.com/wiki/Glasgow-4103"
+        }
+      ],
+      "draft_path": "surname-research/new-people/1743_Scotland_Irvine_Magdalen_Glasgow.md"
+    },
+    "record-fmp-glasgow-11443ace3ea2": {
+      "catalogue_id": "record-fmp-glasgow-11443ace3ea2",
+      "name": "Agnes Glasgow (malformed burial-index entry)",
+      "identity_status": "free_space_only",
+      "identity_note": "The Findmypast row combines parish 689, Inveresk volume 20 (deaths 1820-1854) with Kirknewton and East Calder parish 690 and a 1642-1737 range. It cannot define a person; preserve the correction on the supporting record-errors page and do not create or amend a profile.",
+      "recommended_action": "do_not_create",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 0,
+      "record_year": null,
+      "search_terms": [],
+      "candidates": [],
+      "draft_path": "surname-research/free-space-pages/Glasgow_Record_Index_Corrections_and_Unresolved_Files.md"
+    },
+    "record-fmp-glasgow-120b52e4bd76": {
+      "catalogue_id": "record-fmp-glasgow-120b52e4bd76",
+      "name": "Hugh Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 51,
+      "record_year": 1742,
+      "search_terms": [
+        "Hugh Glasgow"
+      ],
+      "candidates": [
+        {
+          "profile_id": "Glasgow-4104",
+          "name": "Hugh Glasgow",
+          "birth_date": "1742-00-00",
+          "birth_location": "Kilmarnock, Scotland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [
+            "kilmarnock"
+          ],
+          "birth_year_match": true,
+          "death_year_match": false,
+          "gender": "",
+          "exact_relative_roles": [
+            "father",
+            "mother"
+          ],
+          "birth_year_conflict": false,
+          "score": 105,
+          "url": "https://www.wikitree.com/wiki/Glasgow-4104"
+        }
+      ],
+      "draft_path": "surname-research/new-people/1742_Scotland_Kilmarnock_Hugh_Glasgow.md"
+    },
+    "record-fmp-glasgow-12395e3a9d9b": {
+      "catalogue_id": "record-fmp-glasgow-12395e3a9d9b",
+      "name": "Joan Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 358,
+      "record_year": 1702,
+      "search_terms": [
+        "Joan Glasgow"
+      ],
+      "candidates": [
+        {
+          "profile_id": "Glasgow-4105",
+          "name": "Joan Glasgow",
+          "birth_date": "1702-00-00",
+          "birth_location": "Stevenston, Scotland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [
+            "stevenston"
+          ],
+          "birth_year_match": true,
+          "death_year_match": false,
+          "gender": "",
+          "exact_relative_roles": [
+            "father",
+            "mother"
+          ],
+          "birth_year_conflict": false,
+          "score": 105,
+          "url": "https://www.wikitree.com/wiki/Glasgow-4105"
+        }
+      ],
+      "draft_path": "surname-research/new-people/1702_Scotland_Stevenston_Joan_Glasgow.md"
+    },
+    "record-fmp-glasgow-1acad1415f85": {
+      "catalogue_id": "record-fmp-glasgow-1acad1415f85",
+      "name": "Euphan Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 1,
+      "record_year": 1718,
+      "search_terms": [
+        "Euphan Glasgow"
+      ],
+      "candidates": [
+        {
+          "profile_id": "Glasgow-4106",
+          "name": "Euphan Glasgow",
+          "birth_date": "1718-00-00",
+          "birth_location": "Stevenston, Scotland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [
+            "stevenston"
+          ],
+          "birth_year_match": true,
+          "death_year_match": false,
+          "gender": "",
+          "exact_relative_roles": [
+            "father"
+          ],
+          "birth_year_conflict": false,
+          "score": 90,
+          "url": "https://www.wikitree.com/wiki/Glasgow-4106"
+        }
+      ],
+      "draft_path": "surname-research/new-people/1718_Scotland_Stevenston_Euphan_Glasgow.md"
+    },
+    "record-fmp-glasgow-1f9a4ce7f9bb": {
+      "catalogue_id": "record-fmp-glasgow-1f9a4ce7f9bb",
+      "name": "Elizabeth Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 270,
+      "record_year": 1726,
+      "search_terms": [
+        "Elizabeth Glasgow"
+      ],
+      "candidates": [
+        {
+          "profile_id": "Glasgow-4107",
+          "name": "Elizabeth Glasgow",
+          "birth_date": "1726-00-00",
+          "birth_location": "Libberton, Scotland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [
+            "libberton"
+          ],
+          "birth_year_match": true,
+          "death_year_match": false,
+          "gender": "",
+          "exact_relative_roles": [
+            "father",
+            "mother"
+          ],
+          "birth_year_conflict": false,
+          "score": 105,
+          "url": "https://www.wikitree.com/wiki/Glasgow-4107"
+        }
+      ],
+      "draft_path": "surname-research/new-people/1726_Scotland_Libberton_Elizabeth_Glasgow.md"
+    },
+    "record-fmp-glasgow-32d4ff293591": {
+      "catalogue_id": "record-fmp-glasgow-32d4ff293591",
+      "name": "Mary Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 394,
+      "record_year": 1744,
+      "search_terms": [
+        "Mary Glasgow"
+      ],
+      "candidates": [
+        {
+          "profile_id": "Glasgow-4108",
+          "name": "Mary Glasgow",
+          "birth_date": "1744-00-00",
+          "birth_location": "Kilmarnock, Scotland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [
+            "kilmarnock"
+          ],
+          "birth_year_match": true,
+          "death_year_match": false,
+          "gender": "",
+          "exact_relative_roles": [
+            "father",
+            "mother"
+          ],
+          "birth_year_conflict": false,
+          "score": 105,
+          "url": "https://www.wikitree.com/wiki/Glasgow-4108"
+        }
+      ],
+      "draft_path": "surname-research/new-people/1744_Scotland_Kilmarnock_Mary_Glasgow.md"
+    },
+    "record-fmp-glasgow-37b7f7e8fed2": {
+      "catalogue_id": "record-fmp-glasgow-37b7f7e8fed2",
+      "name": "Thomas Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 115,
+      "record_year": 1749,
+      "search_terms": [
+        "Thomas Glasgow"
+      ],
+      "candidates": [
+        {
+          "profile_id": "Glasgow-4109",
+          "name": "Thomas Glasgow",
+          "birth_date": "1749-00-00",
+          "birth_location": "Edinburgh, Scotland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [
+            "edinburgh"
+          ],
+          "birth_year_match": true,
+          "death_year_match": false,
+          "gender": "",
+          "exact_relative_roles": [
+            "father",
+            "mother"
+          ],
+          "birth_year_conflict": false,
+          "score": 105,
+          "url": "https://www.wikitree.com/wiki/Glasgow-4109"
+        }
+      ],
+      "draft_path": "surname-research/new-people/1749_Scotland_Edinburgh_Thomas_Glasgow.md"
+    },
+    "record-fmp-glasgow-38a943ed5dc4": {
+      "catalogue_id": "record-fmp-glasgow-38a943ed5dc4",
+      "name": "Allan Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 8,
+      "record_year": 1743,
+      "search_terms": [
+        "Allan Glasgow"
+      ],
+      "candidates": [
+        {
+          "profile_id": "Glasgow-4110",
+          "name": "Allan Glasgow",
+          "birth_date": "1743-00-00",
+          "birth_location": "Irvine, Scotland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [
+            "irvine"
+          ],
+          "birth_year_match": true,
+          "death_year_match": false,
+          "gender": "",
+          "exact_relative_roles": [
+            "mother"
+          ],
+          "birth_year_conflict": false,
+          "score": 90,
+          "url": "https://www.wikitree.com/wiki/Glasgow-4110"
+        }
+      ],
+      "draft_path": "surname-research/new-people/1743_Scotland_Irvine_Allan_Glasgow.md"
+    },
+    "record-fmp-glasgow-5286617ad4ee": {
+      "catalogue_id": "record-fmp-glasgow-5286617ad4ee",
+      "name": "Margaret Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 332,
+      "record_year": 1717,
+      "search_terms": [
+        "Margaret Glasgow"
+      ],
+      "candidates": [
+        {
+          "profile_id": "Glasgow-4111",
+          "name": "Margaret Glasgow",
+          "birth_date": "1717-00-00",
+          "birth_location": "Stevenston, Scotland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [
+            "stevenston"
+          ],
+          "birth_year_match": true,
+          "death_year_match": false,
+          "gender": "",
+          "exact_relative_roles": [
+            "father",
+            "mother"
+          ],
+          "birth_year_conflict": false,
+          "score": 105,
+          "url": "https://www.wikitree.com/wiki/Glasgow-4111"
+        }
+      ],
+      "draft_path": "surname-research/new-people/1717_Scotland_Stevenston_Margaret_Glasgow.md"
+    },
+    "record-fmp-glasgow-5333ccc1e75f": {
+      "catalogue_id": "record-fmp-glasgow-5333ccc1e75f",
+      "name": "Janet Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 307,
+      "record_year": 1703,
+      "search_terms": [
+        "Janet Glasgow"
+      ],
+      "candidates": [],
+      "draft_path": "surname-research/new-people/1703_Scotland_Irvine_Janet_Glasgow.md"
+    },
+    "record-fmp-glasgow-54571dfc429a": {
+      "catalogue_id": "record-fmp-glasgow-54571dfc429a",
+      "name": "Jean Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 634,
+      "record_year": 1732,
+      "search_terms": [
+        "Jean Glasgow"
+      ],
+      "candidates": [
+        {
+          "profile_id": "Glasgow-4113",
+          "name": "Jean Glasgow",
+          "birth_date": "1732-00-00",
+          "birth_location": "Dundonald, Scotland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [
+            "dundonald"
+          ],
+          "birth_year_match": true,
+          "death_year_match": false,
+          "gender": "",
+          "exact_relative_roles": [
+            "father"
+          ],
+          "birth_year_conflict": false,
+          "score": 90,
+          "url": "https://www.wikitree.com/wiki/Glasgow-4113"
+        }
+      ],
+      "draft_path": "surname-research/new-people/1732_Scotland_Dundonald_Jean_Glasgow.md"
+    },
+    "record-fmp-glasgow-59dea07d1fbb": {
+      "catalogue_id": "record-fmp-glasgow-59dea07d1fbb",
+      "name": "James Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 288,
+      "record_year": 1696,
+      "search_terms": [
+        "James Glasgow"
+      ],
+      "candidates": [
+        {
+          "profile_id": "Glasgow-3076",
+          "name": "James Glasgow",
+          "birth_date": "1661-03-03",
+          "birth_location": "Saint Cuthberts, Edinburgh, Midlothian, Scotland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [
+            "edinburgh",
+            "midlothian"
+          ],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Male",
+          "exact_relative_roles": [
+            "father"
+          ],
+          "birth_year_conflict": false,
+          "score": 90,
+          "url": "https://www.wikitree.com/wiki/Glasgow-3076"
+        },
+        {
+          "profile_id": "Glasgow-3103",
+          "name": "James Glasgow",
+          "birth_date": "1679-03-16",
+          "birth_location": "Edinburgh, Midlothian, Scotland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [
+            "edinburgh",
+            "midlothian"
+          ],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Male",
+          "exact_relative_roles": [
+            "father"
+          ],
+          "birth_year_conflict": false,
+          "score": 90,
+          "url": "https://www.wikitree.com/wiki/Glasgow-3103"
+        },
+        {
+          "profile_id": "Glasgow-3368",
+          "name": "James Glasgow",
+          "birth_date": "1680-04-18",
+          "birth_location": "Edinburgh, Midlothian, Scotland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [
+            "edinburgh",
+            "midlothian"
+          ],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Male",
+          "exact_relative_roles": [
+            "father"
+          ],
+          "birth_year_conflict": false,
+          "score": 90,
+          "url": "https://www.wikitree.com/wiki/Glasgow-3368"
+        },
+        {
+          "profile_id": "Glasgow-1376",
+          "name": "James Glasgow",
+          "birth_date": "1650-00-00",
+          "birth_location": "Edinburgh, Midlothian, Scotland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [
+            "edinburgh",
+            "midlothian"
+          ],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Male",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 75,
+          "url": "https://www.wikitree.com/wiki/Glasgow-1376"
+        }
+      ],
+      "draft_path": "surname-research/new-people/1696_Scotland_Edinburgh_James_Glasgow.md"
+    },
+    "record-fmp-glasgow-6cc997e45c40": {
+      "catalogue_id": "record-fmp-glasgow-6cc997e45c40",
+      "name": "Margaret Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 332,
+      "record_year": 1738,
+      "search_terms": [
+        "Margaret Glasgow"
+      ],
+      "candidates": [
+        {
+          "profile_id": "Glasgow-4115",
+          "name": "Margaret Glasgow",
+          "birth_date": "1738-00-00",
+          "birth_location": "Kilmarnock, Scotland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [
+            "kilmarnock"
+          ],
+          "birth_year_match": true,
+          "death_year_match": false,
+          "gender": "",
+          "exact_relative_roles": [
+            "father"
+          ],
+          "birth_year_conflict": false,
+          "score": 90,
+          "url": "https://www.wikitree.com/wiki/Glasgow-4115"
+        }
+      ],
+      "draft_path": "surname-research/new-people/1738_Scotland_Kilmarnock_Margaret_Glasgow.md"
+    },
+    "record-fmp-glasgow-7a66001e8cd6": {
+      "catalogue_id": "record-fmp-glasgow-7a66001e8cd6",
+      "name": "George Glasgow (unidentified 1724 court-file subject)",
+      "identity_status": "free_space_only",
+      "identity_note": "CS143/24 and CS228/G/1/105 are separate legal files whose public titles give no place, occupation, age, relative or property identifier for George. Preserve each file separately on the supporting page; neither title justifies a person profile or an existing-profile amendment.",
+      "recommended_action": "do_not_create",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 0,
+      "record_year": null,
+      "search_terms": [],
+      "candidates": [],
+      "draft_path": "surname-research/free-space-pages/Glasgow_Record_Index_Corrections_and_Unresolved_Files.md"
+    },
+    "record-fmp-glasgow-8534eaed42d0": {
+      "catalogue_id": "record-fmp-glasgow-8534eaed42d0",
+      "name": "John Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 426,
+      "record_year": 1741,
+      "search_terms": [
+        "John Glasgow"
+      ],
+      "candidates": [
+        {
+          "profile_id": "Glasgow-4116",
+          "name": "John Glasgow",
+          "birth_date": "1741-00-00",
+          "birth_location": "Irvine, Scotland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [
+            "irvine"
+          ],
+          "birth_year_match": true,
+          "death_year_match": false,
+          "gender": "",
+          "exact_relative_roles": [
+            "father",
+            "mother"
+          ],
+          "birth_year_conflict": false,
+          "score": 105,
+          "url": "https://www.wikitree.com/wiki/Glasgow-4116"
+        }
+      ],
+      "draft_path": "surname-research/new-people/1741_Scotland_Irvine_John_Glasgow.md"
+    },
+    "record-fmp-glasgow-8d4bf08c43ec": {
+      "catalogue_id": "record-fmp-glasgow-8d4bf08c43ec",
+      "name": "Helen Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 123,
+      "record_year": 1668,
+      "search_terms": [
+        "Helen Glasgow"
+      ],
+      "candidates": [],
+      "draft_path": "surname-research/new-people/1668_Scotland_Linlithgow_Helen_Glasgow.md"
+    },
+    "record-fmp-glasgow-96dde749c693": {
+      "catalogue_id": "record-fmp-glasgow-96dde749c693",
+      "name": "John Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 426,
+      "record_year": 1736,
+      "search_terms": [
+        "John Glasgow"
+      ],
+      "candidates": [
+        {
+          "profile_id": "Glasgow-4118",
+          "name": "John Glasgow",
+          "birth_date": "1736-00-00",
+          "birth_location": "Irvine, Scotland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [
+            "irvine"
+          ],
+          "birth_year_match": true,
+          "death_year_match": false,
+          "gender": "",
+          "exact_relative_roles": [
+            "father",
+            "mother"
+          ],
+          "birth_year_conflict": false,
+          "score": 105,
+          "url": "https://www.wikitree.com/wiki/Glasgow-4118"
+        }
+      ],
+      "draft_path": "surname-research/new-people/1736_Scotland_Irvine_John_Glasgow.md"
+    },
+    "record-fmp-glasgow-984fa1db3c1a": {
+      "catalogue_id": "record-fmp-glasgow-984fa1db3c1a",
+      "name": "Margaret Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 332,
+      "record_year": 1708,
+      "search_terms": [
+        "Margaret Glasgow"
+      ],
+      "candidates": [
+        {
+          "profile_id": "Glassco-55",
+          "name": "Margaret (Glassco) McNeeley",
+          "birth_date": "0000-00-00",
+          "birth_location": "",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Female",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 45,
+          "url": "https://www.wikitree.com/wiki/Glassco-55"
+        }
+      ],
+      "draft_path": "surname-research/new-people/1708_Scotland_Irvine_Margaret_Glasgow.md"
+    },
+    "record-fmp-glasgow-9bf49e7b9bd1": {
+      "catalogue_id": "record-fmp-glasgow-9bf49e7b9bd1",
+      "name": "William Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 285,
+      "record_year": 1723,
+      "search_terms": [
+        "William Glasgow"
+      ],
+      "candidates": [
+        {
+          "profile_id": "Glasgow-4120",
+          "name": "William Glasgow",
+          "birth_date": "1723-00-00",
+          "birth_location": "Irvine, Scotland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [
+            "irvine"
+          ],
+          "birth_year_match": true,
+          "death_year_match": false,
+          "gender": "",
+          "exact_relative_roles": [
+            "father",
+            "mother"
+          ],
+          "birth_year_conflict": false,
+          "score": 105,
+          "url": "https://www.wikitree.com/wiki/Glasgow-4120"
+        }
+      ],
+      "draft_path": "surname-research/new-people/1723_Scotland_Irvine_William_Glasgow.md"
+    },
+    "record-fmp-glasgow-a0b809464cc9": {
+      "catalogue_id": "record-fmp-glasgow-a0b809464cc9",
+      "name": "Hugh Glasgow (unidentified 1751 source cluster)",
+      "identity_status": "free_space_only",
+      "identity_note": "The 1733 row is a parser conflation: Hugh the Irvine-to-London sailor's testament was confirmed 12 March 1751, while 3 February 1733 belongs to the following James Glasgow entry. Several live Hughs remain compatible, so preserve the corrected evidence without creating or amending a profile.",
+      "recommended_action": "do_not_create",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 0,
+      "record_year": null,
+      "search_terms": [],
+      "candidates": [],
+      "draft_path": "surname-research/free-space-pages/Glasgow_Record_Index_Corrections_and_Unresolved_Files.md"
+    },
+    "record-fmp-glasgow-a2dbbb6de106": {
+      "catalogue_id": "record-fmp-glasgow-a2dbbb6de106",
+      "name": "Isabel Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 57,
+      "record_year": 1741,
+      "search_terms": [
+        "Isabel Glasgow"
+      ],
+      "candidates": [
+        {
+          "profile_id": "Glasgow-4121",
+          "name": "Isabel Glasgow",
+          "birth_date": "1741-00-00",
+          "birth_location": "Irvine, Scotland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [
+            "irvine"
+          ],
+          "birth_year_match": true,
+          "death_year_match": false,
+          "gender": "",
+          "exact_relative_roles": [
+            "father"
+          ],
+          "birth_year_conflict": false,
+          "score": 90,
+          "url": "https://www.wikitree.com/wiki/Glasgow-4121"
+        }
+      ],
+      "draft_path": "surname-research/new-people/1741_Scotland_Irvine_Isabel_Glasgow.md"
+    },
+    "record-fmp-glasgow-a8ea1428813a": {
+      "catalogue_id": "record-fmp-glasgow-a8ea1428813a",
+      "name": "Sarah Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 124,
+      "record_year": 1726,
+      "search_terms": [
+        "Sarah Glasgow"
+      ],
+      "candidates": [
+        {
+          "profile_id": "Glasgow-4122",
+          "name": "Sarah Glasgow",
+          "birth_date": "1726-00-00",
+          "birth_location": "Irvine, Scotland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [
+            "irvine"
+          ],
+          "birth_year_match": true,
+          "death_year_match": false,
+          "gender": "",
+          "exact_relative_roles": [
+            "father",
+            "mother"
+          ],
+          "birth_year_conflict": false,
+          "score": 105,
+          "url": "https://www.wikitree.com/wiki/Glasgow-4122"
+        }
+      ],
+      "draft_path": "surname-research/new-people/1726_Scotland_Irvine_Sarah_Glasgow.md"
+    },
+    "record-fmp-glasgow-aedca3d838c1": {
+      "catalogue_id": "record-fmp-glasgow-aedca3d838c1",
+      "name": "Agnes Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 126,
+      "record_year": 1712,
+      "search_terms": [
+        "Agnes Glasgow"
+      ],
+      "candidates": [
+        {
+          "profile_id": "Glasgow-4123",
+          "name": "Agnes Glasgow",
+          "birth_date": "1712-00-00",
+          "birth_location": "Walston, Scotland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [
+            "walston"
+          ],
+          "birth_year_match": true,
+          "death_year_match": false,
+          "gender": "",
+          "exact_relative_roles": [
+            "father"
+          ],
+          "birth_year_conflict": false,
+          "score": 90,
+          "url": "https://www.wikitree.com/wiki/Glasgow-4123"
+        }
+      ],
+      "draft_path": "surname-research/new-people/1712_Scotland_Walston_Agnes_Glasgow.md"
+    },
+    "record-fmp-glasgow-b741e434199b": {
+      "catalogue_id": "record-fmp-glasgow-b741e434199b",
+      "name": "James Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 288,
+      "record_year": 1733,
+      "search_terms": [
+        "James Glasgow"
+      ],
+      "candidates": [
+        {
+          "profile_id": "Glasgow-1025",
+          "name": "James Glasgow",
+          "birth_date": "1700-00-00",
+          "birth_location": "County Tyrone, Ireland",
+          "death_date": "1759-01-17",
+          "death_location": "Drumearn, Tyrone, Ireland",
+          "location_overlap": [],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Male",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 45,
+          "url": "https://www.wikitree.com/wiki/Glasgow-1025"
+        },
+        {
+          "profile_id": "Glasgow-1131",
+          "name": "James Glasgow",
+          "birth_date": "1718-08-09",
+          "birth_location": "Kilbirnie, Ayrshire, Scotland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Male",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 45,
+          "url": "https://www.wikitree.com/wiki/Glasgow-1131"
+        }
+      ],
+      "draft_path": "surname-research/new-people/1733_Scotland_unknown_James_Glasgow.md"
+    },
+    "record-fmp-glasgow-b8c8c6842a85": {
+      "catalogue_id": "record-fmp-glasgow-b8c8c6842a85",
+      "name": "John Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 426,
+      "record_year": 1689,
+      "search_terms": [
+        "John Glasgow"
+      ],
+      "candidates": [
+        {
+          "profile_id": "Glasgow-4125",
+          "name": "John Glasgow",
+          "birth_date": "1689-00-00",
+          "birth_location": "Torryburn, Scotland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [
+            "torryburn"
+          ],
+          "birth_year_match": true,
+          "death_year_match": false,
+          "gender": "",
+          "exact_relative_roles": [
+            "father",
+            "mother"
+          ],
+          "birth_year_conflict": false,
+          "score": 105,
+          "url": "https://www.wikitree.com/wiki/Glasgow-4125"
+        }
+      ],
+      "draft_path": "surname-research/new-people/1689_Scotland_Torryburn_John_Glasgow.md"
+    },
+    "record-fmp-glasgow-ba0ccce5c268": {
+      "catalogue_id": "record-fmp-glasgow-ba0ccce5c268",
+      "name": "Mary Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 394,
+      "record_year": 1745,
+      "search_terms": [
+        "Mary Glasgow"
+      ],
+      "candidates": [
+        {
+          "profile_id": "Glasgow-4126",
+          "name": "Mary Glasgow",
+          "birth_date": "1745-00-00",
+          "birth_location": "Irvine, Scotland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [
+            "irvine"
+          ],
+          "birth_year_match": true,
+          "death_year_match": false,
+          "gender": "",
+          "exact_relative_roles": [
+            "father"
+          ],
+          "birth_year_conflict": false,
+          "score": 90,
+          "url": "https://www.wikitree.com/wiki/Glasgow-4126"
+        }
+      ],
+      "draft_path": "surname-research/new-people/1745_Scotland_Irvine_Mary_Glasgow.md"
+    },
+    "record-fmp-glasgow-baa0969903c8": {
+      "catalogue_id": "record-fmp-glasgow-baa0969903c8",
+      "name": "John Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 426,
+      "record_year": 1707,
+      "search_terms": [
+        "John Glasgow"
+      ],
+      "candidates": [
+        {
+          "profile_id": "Glasgow-1057",
+          "name": "John Glasgow",
+          "birth_date": "1661-08-30",
+          "birth_location": "Edinburgh, Midlothian, Scotland",
+          "death_date": "1750-00-00",
+          "death_location": "Stevenson, Lanarkshire, Scotland",
+          "location_overlap": [],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Male",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 45,
+          "url": "https://www.wikitree.com/wiki/Glasgow-1057"
+        },
+        {
+          "profile_id": "Glasgow-1065",
+          "name": "John Glasgow",
+          "birth_date": "1683-09-16",
+          "birth_location": "Kilwinning, Ayrshire, Scotland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Male",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 45,
+          "url": "https://www.wikitree.com/wiki/Glasgow-1065"
+        }
+      ],
+      "draft_path": "surname-research/new-people/1707_British_West_Indies_unknown_John_Glasgow.md"
+    },
+    "record-fmp-glasgow-c487f88da30e": {
+      "catalogue_id": "record-fmp-glasgow-c487f88da30e",
+      "name": "Susanna Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 274,
+      "record_year": 1747,
+      "search_terms": [
+        "Susanna Glasgow"
+      ],
+      "candidates": [],
+      "draft_path": "surname-research/new-people/1747_Scotland_Irvine_Susanna_Glasgow.md"
+    },
+    "record-fmp-glasgow-c5f9840e310b": {
+      "catalogue_id": "record-fmp-glasgow-c5f9840e310b",
+      "name": "James Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 288,
+      "record_year": 1721,
+      "search_terms": [
+        "James Glasgow"
+      ],
+      "candidates": [
+        {
+          "profile_id": "Glasgow-4129",
+          "name": "James Glasgow",
+          "birth_date": "1721-00-00",
+          "birth_location": "Irvine, Scotland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [
+            "irvine"
+          ],
+          "birth_year_match": true,
+          "death_year_match": false,
+          "gender": "",
+          "exact_relative_roles": [
+            "father",
+            "mother"
+          ],
+          "birth_year_conflict": false,
+          "score": 105,
+          "url": "https://www.wikitree.com/wiki/Glasgow-4129"
+        }
+      ],
+      "draft_path": "surname-research/new-people/1721_Scotland_Irvine_James_Glasgow.md"
+    },
+    "record-fmp-glasgow-c7dabfad5c23": {
+      "catalogue_id": "record-fmp-glasgow-c7dabfad5c23",
+      "name": "Janet Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 307,
+      "record_year": 1718,
+      "search_terms": [
+        "Janet Glasgow"
+      ],
+      "candidates": [
+        {
+          "profile_id": "Glasgow-4130",
+          "name": "Janet Glasgow",
+          "birth_date": "1718-00-00",
+          "birth_location": "Libberton, Scotland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [
+            "libberton"
+          ],
+          "birth_year_match": true,
+          "death_year_match": false,
+          "gender": "",
+          "exact_relative_roles": [
+            "father",
+            "mother"
+          ],
+          "birth_year_conflict": false,
+          "score": 105,
+          "url": "https://www.wikitree.com/wiki/Glasgow-4130"
+        }
+      ],
+      "draft_path": "surname-research/new-people/1718_Scotland_Libberton_Janet_Glasgow.md"
+    },
+    "record-fmp-glasgow-cc9a54fb3b86": {
+      "catalogue_id": "record-fmp-glasgow-cc9a54fb3b86",
+      "name": "James Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 288,
+      "record_year": 1690,
+      "search_terms": [
+        "James Glasgow"
+      ],
+      "candidates": [
+        {
+          "profile_id": "Glasgow-3076",
+          "name": "James Glasgow",
+          "birth_date": "1661-03-03",
+          "birth_location": "Saint Cuthberts, Edinburgh, Midlothian, Scotland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [
+            "edinburgh"
+          ],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Male",
+          "exact_relative_roles": [
+            "father"
+          ],
+          "birth_year_conflict": false,
+          "score": 75,
+          "url": "https://www.wikitree.com/wiki/Glasgow-3076"
+        }
+      ],
+      "draft_path": "surname-research/new-people/1690_Scotland_Edinburgh_James_Glasgow.md"
+    },
+    "record-fmp-glasgow-cd18f5e7916d": {
+      "catalogue_id": "record-fmp-glasgow-cd18f5e7916d",
+      "name": "John Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 426,
+      "record_year": 1738,
+      "search_terms": [
+        "John Glasgow"
+      ],
+      "candidates": [
+        {
+          "profile_id": "Glasgow-4132",
+          "name": "John Glasgow",
+          "birth_date": "1738-00-00",
+          "birth_location": "Edrom, Scotland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [
+            "edrom"
+          ],
+          "birth_year_match": true,
+          "death_year_match": false,
+          "gender": "",
+          "exact_relative_roles": [
+            "father"
+          ],
+          "birth_year_conflict": false,
+          "score": 90,
+          "url": "https://www.wikitree.com/wiki/Glasgow-4132"
+        }
+      ],
+      "draft_path": "surname-research/new-people/1738_Scotland_Edrom_John_Glasgow.md"
+    },
+    "record-fmp-glasgow-ce7a886e0868": {
+      "catalogue_id": "record-fmp-glasgow-ce7a886e0868",
+      "name": "Agnes Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 126,
+      "record_year": 1720,
+      "search_terms": [
+        "Agnes Glasgow"
+      ],
+      "candidates": [
+        {
+          "profile_id": "Glasgow-4133",
+          "name": "Agnes Glasgow",
+          "birth_date": "1720-00-00",
+          "birth_location": "Libberton, Scotland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [
+            "libberton"
+          ],
+          "birth_year_match": true,
+          "death_year_match": false,
+          "gender": "",
+          "exact_relative_roles": [
+            "father"
+          ],
+          "birth_year_conflict": false,
+          "score": 90,
+          "url": "https://www.wikitree.com/wiki/Glasgow-4133"
+        }
+      ],
+      "draft_path": "surname-research/new-people/1720_Scotland_Libberton_Agnes_Glasgow.md"
+    },
+    "record-fmp-glasgow-d8449b678fd3": {
+      "catalogue_id": "record-fmp-glasgow-d8449b678fd3",
+      "name": "Anne Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 310,
+      "record_year": 1689,
+      "search_terms": [
+        "Anne Glasgow"
+      ],
+      "candidates": [
+        {
+          "profile_id": "Glasgow-4134",
+          "name": "Anne Glasgow",
+          "birth_date": "1689-00-00",
+          "birth_location": "Kilwinning, Scotland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [
+            "kilwinning"
+          ],
+          "birth_year_match": true,
+          "death_year_match": false,
+          "gender": "",
+          "exact_relative_roles": [
+            "father"
+          ],
+          "birth_year_conflict": false,
+          "score": 90,
+          "url": "https://www.wikitree.com/wiki/Glasgow-4134"
+        }
+      ],
+      "draft_path": "surname-research/new-people/1689_Scotland_Kilwinning_Anne_Glasgow.md"
+    },
+    "record-fmp-glasgow-d96763598f21": {
+      "catalogue_id": "record-fmp-glasgow-d96763598f21",
+      "name": "Elizabeth Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 270,
+      "record_year": 1749,
+      "search_terms": [
+        "Elizabeth Glasgow"
+      ],
+      "candidates": [
+        {
+          "profile_id": "Glasgow-4135",
+          "name": "Elizabeth Glasgow",
+          "birth_date": "1749-00-00",
+          "birth_location": "Covington & Thankerton, Scotland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [
+            "covington",
+            "thankerton"
+          ],
+          "birth_year_match": true,
+          "death_year_match": false,
+          "gender": "",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 90,
+          "url": "https://www.wikitree.com/wiki/Glasgow-4135"
+        }
+      ],
+      "draft_path": "surname-research/new-people/1749_Scotland_Covington_Thankerton_Elizabeth_Glasgow.md"
+    },
+    "record-fmp-glasgow-e0a45e457988": {
+      "catalogue_id": "record-fmp-glasgow-e0a45e457988",
+      "name": "Edwd Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 1,
+      "record_year": 1726,
+      "search_terms": [
+        "Edwd Glasgow"
+      ],
+      "candidates": [],
+      "draft_path": "surname-research/new-people/1726_England_London_Edward_Glasgow.md"
+    },
+    "record-fmp-glasgow-e37cff91091d": {
+      "catalogue_id": "record-fmp-glasgow-e37cff91091d",
+      "name": "Janet Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 307,
+      "record_year": 1748,
+      "search_terms": [
+        "Janet Glasgow"
+      ],
+      "candidates": [
+        {
+          "profile_id": "Glasgow-4137",
+          "name": "Janet Glasgow",
+          "birth_date": "1748-00-00",
+          "birth_location": "Kilbirnie, Scotland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [
+            "kilbirnie"
+          ],
+          "birth_year_match": true,
+          "death_year_match": false,
+          "gender": "",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 75,
+          "url": "https://www.wikitree.com/wiki/Glasgow-4137"
+        }
+      ],
+      "draft_path": "surname-research/new-people/1748_Scotland_Kilbirnie_Janet_Glasgow.md"
+    },
+    "record-fmp-glasgow-e47e0e47524a": {
+      "catalogue_id": "record-fmp-glasgow-e47e0e47524a",
+      "name": "William Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 285,
+      "record_year": 1679,
+      "search_terms": [
+        "William Glasgow"
+      ],
+      "candidates": [
+        {
+          "profile_id": "Glasgow-1026",
+          "name": "William Glasgow",
+          "birth_date": "1660-00-00",
+          "birth_location": "Kirknewton and East Calder, Midlothian, Scotland",
+          "death_date": "1705-00-00",
+          "death_location": "",
+          "location_overlap": [],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Male",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 45,
+          "url": "https://www.wikitree.com/wiki/Glasgow-1026"
+        },
+        {
+          "profile_id": "Glasgow-1087",
+          "name": "William Glasgow",
+          "birth_date": "1609-12-24",
+          "birth_location": "Mid Calder, Midlothian, Scotland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Male",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 45,
+          "url": "https://www.wikitree.com/wiki/Glasgow-1087"
+        }
+      ],
+      "draft_path": "surname-research/new-people/1679_Scotland_Cavers_William_Glasgow.md"
+    },
+    "record-fmp-glasgow-f325c7334f8a": {
+      "catalogue_id": "record-fmp-glasgow-f325c7334f8a",
+      "name": "William Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 285,
+      "record_year": 1749,
+      "search_terms": [
+        "William Glasgow"
+      ],
+      "candidates": [
+        {
+          "profile_id": "Glasgow-4139",
+          "name": "William Glasgow",
+          "birth_date": "1749-00-00",
+          "birth_location": "Kilbirnie, Scotland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [
+            "kilbirnie"
+          ],
+          "birth_year_match": true,
+          "death_year_match": false,
+          "gender": "",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 75,
+          "url": "https://www.wikitree.com/wiki/Glasgow-4139"
+        }
+      ],
+      "draft_path": "surname-research/new-people/1749_Scotland_Kilbirnie_William_Glasgow.md"
+    },
+    "record-fmp-glasgow-f9d3e4df7bbb": {
+      "catalogue_id": "record-fmp-glasgow-f9d3e4df7bbb",
+      "name": "Jonnat Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 1,
+      "record_year": 1685,
+      "search_terms": [
+        "Jonnat Glasgow"
+      ],
+      "candidates": [
+        {
+          "profile_id": "Glasgow-4140",
+          "name": "Jonnat Glasgow",
+          "birth_date": "1685-00-00",
+          "birth_location": "Kirkintillock, Scotland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [
+            "kirkintillock"
+          ],
+          "birth_year_match": true,
+          "death_year_match": false,
+          "gender": "",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 75,
+          "url": "https://www.wikitree.com/wiki/Glasgow-4140"
+        }
+      ],
+      "draft_path": "surname-research/new-people/1685_Scotland_Kirkintillock_Jonnat_Glasgow.md"
+    },
+    "record-fmp-glasgow-fb417c9f3803": {
+      "catalogue_id": "record-fmp-glasgow-fb417c9f3803",
+      "name": "Michael Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 14,
+      "record_year": 1679,
+      "search_terms": [
+        "Michael Glasgow"
+      ],
+      "candidates": [
+        {
+          "profile_id": "Glasgow-3567",
+          "name": "Michael Glasgow",
+          "birth_date": "",
+          "birth_location": "",
+          "death_date": "",
+          "death_location": "",
+          "location_overlap": [],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Male",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 45,
+          "url": "https://www.wikitree.com/wiki/Glasgow-3567"
+        }
+      ],
+      "draft_path": "surname-research/new-people/1679_1688_Scotland_The_Tounes_and_Parochines_of_Irving_and_Kilwinning_and_baronies_yrin_Michael_Glasgow.md"
+    },
+    "record-fmp-glasgow-fba04c067c7c": {
+      "catalogue_id": "record-fmp-glasgow-fba04c067c7c",
+      "name": "Mary Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 394,
+      "record_year": 1732,
+      "search_terms": [
+        "Mary Glasgow"
+      ],
+      "candidates": [
+        {
+          "profile_id": "Glasgow-4142",
+          "name": "Mary Glasgow",
+          "birth_date": "1732-00-00",
+          "birth_location": "Kilmarnock, Scotland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [
+            "kilmarnock"
+          ],
+          "birth_year_match": true,
+          "death_year_match": false,
+          "gender": "",
+          "exact_relative_roles": [
+            "father"
+          ],
+          "birth_year_conflict": false,
+          "score": 90,
+          "url": "https://www.wikitree.com/wiki/Glasgow-4142"
+        }
+      ],
+      "draft_path": "surname-research/new-people/1732_Scotland_Kilmarnock_Mary_Glasgow.md"
+    },
+    "record-henry-glads-duneane-1740": {
+      "catalogue_id": "record-henry-glads-duneane-1740",
+      "name": "Henry Glads",
+      "identity_status": "free_space_only",
+      "identity_note": "The 1740 Duneane return names Henry Glads, a distinct documentary occurrence. The inspected Larne armorial-stone page identifies Hugh Glasgow (Glasgow-1503), wife Ann and their later family; it does not identify Henry as Hugh or as a Glasgow. Preserve Henry's recorded form as an unresolved surname-context occurrence, without linking, merging or amending a person profile.",
+      "recommended_action": "do_not_create",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 0,
+      "record_year": null,
+      "search_terms": [],
+      "candidates": [],
+      "draft_path": "surname-research/free-space-pages/Glasgow_Branches_In_Early_Ireland.md"
+    },
+    "record-hugh-glasgow-tamlaght-o-crilly-1740-entry-1272": {
+      "catalogue_id": "record-hugh-glasgow-tamlaght-o-crilly-1740-entry-1272",
+      "name": "Hugh Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 51,
+      "record_year": 1740,
+      "search_terms": [
+        "Hugh Glasgow"
+      ],
+      "candidates": [
+        {
+          "profile_id": "Glasgow-3931",
+          "name": "Hugh Glasgow",
+          "birth_date": "1722-00-00",
+          "birth_location": "Tamlaght, County Londonderry, Ireland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [
+            "londonderry",
+            "tamlaght"
+          ],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Male",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 90,
+          "url": "https://www.wikitree.com/wiki/Glasgow-3931"
+        }
+      ],
+      "draft_path": "surname-research/new-people/1740_Ireland_Tamlaght_O_Crilly_entry_1272_Hugh_Glasgow.md"
+    },
+    "record-hugh-glasgow-tamlaght-o-crilly-1772-declaration": {
+      "catalogue_id": "record-hugh-glasgow-tamlaght-o-crilly-1772-declaration",
+      "name": "Hugh Glasgow",
+      "identity_status": "free_space_only",
+      "identity_note": "The parish declaration gives no age, occupation, household, relative or exact residence and cannot distinguish among four plausible local Hughs. Publish it as an unassigned occurrence on the established early-Ireland page; do not create, merge or attach a person profile.",
+      "recommended_action": "do_not_create",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 0,
+      "record_year": null,
+      "search_terms": [],
+      "candidates": [],
+      "draft_path": "surname-research/free-space-pages/Glasgow_Branches_In_Early_Ireland.md"
+    },
+    "record-inishrush-lindsey-glasgow-1882": {
+      "catalogue_id": "record-inishrush-lindsey-glasgow-1882",
+      "name": "Lindsey Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 1,
+      "record_year": 1882,
+      "search_terms": [
+        "Lindsey Glasgow"
+      ],
+      "candidates": [],
+      "draft_path": "surname-research/new-people/1882_Ireland_Inishrush_Lindsey_Glasgow.md"
+    },
+    "record-james-glasgow-killycurragh-1836-probate-occurrence": {
+      "catalogue_id": "record-james-glasgow-killycurragh-1836-probate-occurrence",
+      "name": "James Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 288,
+      "record_year": 1836,
+      "search_terms": [
+        "James Glasgow"
+      ],
+      "candidates": [
+        {
+          "profile_id": "Glasgow-1701",
+          "name": "James Glasgow jun",
+          "birth_date": "1805-00-00",
+          "birth_location": "",
+          "death_date": "1875-07-27",
+          "death_location": "Killycurragh, Derryloran, Cookstown, County Tyrone, Ireland",
+          "location_overlap": [
+            "derryloran",
+            "killycurragh",
+            "tyrone"
+          ],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Male",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 100,
+          "url": "https://www.wikitree.com/wiki/Glasgow-1701"
+        },
+        {
+          "profile_id": "Glasgow-2989",
+          "name": "James Glasgow",
+          "birth_date": "1740-00-00",
+          "birth_location": "Derryloran, Cookstown, County Tyrone, Ireland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [
+            "derryloran",
+            "tyrone"
+          ],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Male",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 90,
+          "url": "https://www.wikitree.com/wiki/Glasgow-2989"
+        },
+        {
+          "profile_id": "Glasgow-3196",
+          "name": "James Glasgow",
+          "birth_date": "1805-00-00",
+          "birth_location": "County Tyrone, Ireland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [
+            "tyrone"
+          ],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Male",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 85,
+          "url": "https://www.wikitree.com/wiki/Glasgow-3196"
+        },
+        {
+          "profile_id": "Glasgow-1702",
+          "name": "James Glasgow",
+          "birth_date": "1799-08-21",
+          "birth_location": "County Tyrone, Ireland",
+          "death_date": "1882-03-15",
+          "death_location": "Ballynasollus, Kildress, Cookstown, County Tyrone, Ireland",
+          "location_overlap": [
+            "tyrone"
+          ],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Male",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 80,
+          "url": "https://www.wikitree.com/wiki/Glasgow-1702"
+        },
+        {
+          "profile_id": "Glasgo-3",
+          "name": "James Glasgo",
+          "birth_date": "1820-00-00",
+          "birth_location": "Ireland",
+          "death_date": "0000-00-00",
+          "death_location": "Ireland",
+          "location_overlap": [],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Male",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 75,
+          "url": "https://www.wikitree.com/wiki/Glasgo-3"
+        },
+        {
+          "profile_id": "Glasgow-1623",
+          "name": "James Glasgow",
+          "birth_date": "1813-00-00",
+          "birth_location": "Portglenone, County Antrim, Ireland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Male",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 75,
+          "url": "https://www.wikitree.com/wiki/Glasgow-1623"
+        },
+        {
+          "profile_id": "Glasgow-3129",
+          "name": "James Glasgow",
+          "birth_date": "1810-00-00",
+          "birth_location": "Ireland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Male",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 75,
+          "url": "https://www.wikitree.com/wiki/Glasgow-3129"
+        },
+        {
+          "profile_id": "Glasgow-3444",
+          "name": "James Glasgow",
+          "birth_date": "1776-00-00",
+          "birth_location": "Cookstown, Tyrone, Ireland",
+          "death_date": "1866-00-00",
+          "death_location": "Cookstown, Tyrone, Ireland",
+          "location_overlap": [
+            "tyrone"
+          ],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Male",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 75,
+          "url": "https://www.wikitree.com/wiki/Glasgow-3444"
+        }
+      ],
+      "draft_path": "surname-research/new-people/1836_Ireland_Killycurragh_James_Glasgow.md"
+    },
+    "record-james-glasgow-oritor-gentleman-1826-probate-occurrence": {
+      "catalogue_id": "record-james-glasgow-oritor-gentleman-1826-probate-occurrence",
+      "name": "James Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 288,
+      "record_year": 1826,
+      "search_terms": [
+        "James Glasgow"
+      ],
+      "candidates": [
+        {
+          "profile_id": "Glasgow-1701",
+          "name": "James Glasgow jun",
+          "birth_date": "1805-00-00",
+          "birth_location": "",
+          "death_date": "1875-07-27",
+          "death_location": "Killycurragh, Derryloran, Cookstown, County Tyrone, Ireland",
+          "location_overlap": [
+            "tyrone"
+          ],
+          "birth_year_match": true,
+          "death_year_match": false,
+          "gender": "Male",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 90,
+          "url": "https://www.wikitree.com/wiki/Glasgow-1701"
+        },
+        {
+          "profile_id": "Glasgow-3196",
+          "name": "James Glasgow",
+          "birth_date": "1805-00-00",
+          "birth_location": "County Tyrone, Ireland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [
+            "tyrone"
+          ],
+          "birth_year_match": true,
+          "death_year_match": false,
+          "gender": "Male",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 90,
+          "url": "https://www.wikitree.com/wiki/Glasgow-3196"
+        },
+        {
+          "profile_id": "Glasgow-1702",
+          "name": "James Glasgow",
+          "birth_date": "1799-08-21",
+          "birth_location": "County Tyrone, Ireland",
+          "death_date": "1882-03-15",
+          "death_location": "Ballynasollus, Kildress, Cookstown, County Tyrone, Ireland",
+          "location_overlap": [
+            "tyrone"
+          ],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Male",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 85,
+          "url": "https://www.wikitree.com/wiki/Glasgow-1702"
+        },
+        {
+          "profile_id": "Glasgow-3444",
+          "name": "James Glasgow",
+          "birth_date": "1776-00-00",
+          "birth_location": "Cookstown, Tyrone, Ireland",
+          "death_date": "1866-00-00",
+          "death_location": "Cookstown, Tyrone, Ireland",
+          "location_overlap": [
+            "tyrone"
+          ],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Male",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 80,
+          "url": "https://www.wikitree.com/wiki/Glasgow-3444"
+        },
+        {
+          "profile_id": "Glasgow-4024",
+          "name": "James Glasgow",
+          "birth_date": "1791-00-00",
+          "birth_location": "Cookstown, Derryloran Parish, County Tyrone",
+          "death_date": "1831-03-13",
+          "death_location": "",
+          "location_overlap": [
+            "tyrone"
+          ],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Male",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 80,
+          "url": "https://www.wikitree.com/wiki/Glasgow-4024"
+        },
+        {
+          "profile_id": "Glasgow-1780",
+          "name": "James McClure Glasgow",
+          "birth_date": "1805-05-27",
+          "birth_location": "Clough, County Antrim, Ireland",
+          "death_date": "1890-06-30",
+          "death_location": "Portadown, County Antrim, Ireland",
+          "location_overlap": [],
+          "birth_year_match": true,
+          "death_year_match": false,
+          "gender": "Male",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 75,
+          "url": "https://www.wikitree.com/wiki/Glasgow-1780"
+        },
+        {
+          "profile_id": "Glasgow-1970",
+          "name": "James Glasgow",
+          "birth_date": "1730-00-00",
+          "birth_location": "Scotland",
+          "death_date": "0000-00-00",
+          "death_location": "Cookstown, County Tyrone, Ireland",
+          "location_overlap": [
+            "tyrone"
+          ],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Male",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 75,
+          "url": "https://www.wikitree.com/wiki/Glasgow-1970"
+        },
+        {
+          "profile_id": "Glasgow-2981",
+          "name": "James Glasgow",
+          "birth_date": "1801-00-00",
+          "birth_location": "County Antrim, Ireland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Male",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 75,
+          "url": "https://www.wikitree.com/wiki/Glasgow-2981"
+        }
+      ],
+      "draft_path": "surname-research/new-people/1826_Ireland_Oritor_James_Glasgow.md"
+    },
+    "record-janet-kirkwood-1799": {
+      "catalogue_id": "record-janet-kirkwood-1799",
+      "name": "janet-kirkwood-1799",
+      "identity_status": "insufficient_identity",
+      "identity_note": "The record does not supply a complete searchable name.",
+      "recommended_action": "do_not_create",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 0,
+      "record_year": 1799,
+      "search_terms": [],
+      "candidates": [],
+      "draft_path": ""
+    },
+    "record-john-of-portrush-robert-glasgow-1666": {
+      "catalogue_id": "record-john-of-portrush-robert-glasgow-1666",
+      "name": "Robert Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 207,
+      "record_year": 1666,
+      "search_terms": [
+        "Robert Glasgow"
+      ],
+      "candidates": [
+        {
+          "profile_id": "Glasgow-4147",
+          "name": "Robert Glasgow",
+          "birth_date": "1645-00-00",
+          "birth_location": "Unknown",
+          "death_date": "1666-00-00",
+          "death_location": "",
+          "location_overlap": [],
+          "birth_year_match": true,
+          "death_year_match": true,
+          "gender": "Male",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 90,
+          "url": "https://www.wikitree.com/wiki/Glasgow-4147"
+        }
+      ],
+      "draft_path": "surname-research/new-people/1666_Scotland_location_unknown_Robert_Glasgow.md"
+    },
+    "record-medieval-1283-alexander-richard-constable": {
+      "catalogue_id": "record-medieval-1283-alexander-richard-constable",
+      "name": "Alexander, son of Richard the former constable of Glasgow",
+      "identity_status": "free_space_only",
+      "identity_note": "This evidence belongs on a supporting WikiTree free-space page; do not create a person profile.",
+      "recommended_action": "do_not_create",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 0,
+      "record_year": null,
+      "search_terms": [],
+      "candidates": [],
+      "draft_path": ""
+    },
+    "record-medieval-1283-alexander-richard-messenger": {
+      "catalogue_id": "record-medieval-1283-alexander-richard-messenger",
+      "name": "Alexander, son of Richard the messenger of Glasgow",
+      "identity_status": "free_space_only",
+      "identity_note": "This evidence belongs on a supporting WikiTree free-space page; do not create a person profile.",
+      "recommended_action": "do_not_create",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 0,
+      "record_year": null,
+      "search_terms": [],
+      "candidates": [],
+      "draft_path": ""
+    },
+    "record-medieval-1289-alexander-escheator": {
+      "catalogue_id": "record-medieval-1289-alexander-escheator",
+      "name": "Alexander de Glasgow",
+      "identity_status": "free_space_only",
+      "identity_note": "This evidence belongs on a supporting WikiTree free-space page; do not create a person profile.",
+      "recommended_action": "do_not_create",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 0,
+      "record_year": null,
+      "search_terms": [],
+      "candidates": [],
+      "draft_path": ""
+    },
+    "record-medieval-1506-john-alias-smith": {
+      "catalogue_id": "record-medieval-1506-john-alias-smith",
+      "name": "John de Glasgow alias Smith",
+      "identity_status": "free_space_only",
+      "identity_note": "This evidence belongs on a supporting WikiTree free-space page; do not create a person profile.",
+      "recommended_action": "do_not_create",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 0,
+      "record_year": null,
+      "search_terms": [],
+      "candidates": [],
+      "draft_path": ""
+    },
+    "record-newberry-cleora-glasgow-speers": {
+      "catalogue_id": "record-newberry-cleora-glasgow-speers",
+      "name": "Cleora (Glasgow) Speers",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 1,
+      "record_year": 1867,
+      "search_terms": [
+        "Cleora Glasgow"
+      ],
+      "candidates": [
+        {
+          "profile_id": "Glasgow-4148",
+          "name": "Cleora Glasgow",
+          "birth_date": "1847-00-00",
+          "birth_location": "",
+          "death_date": "1927-00-00",
+          "death_location": "",
+          "location_overlap": [],
+          "birth_year_match": true,
+          "death_year_match": false,
+          "gender": "Female",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 60,
+          "url": "https://www.wikitree.com/wiki/Glasgow-4148"
+        }
+      ],
+      "draft_path": "surname-research/new-people/1867_United_States_South_Carolina_Newberry_Cleora_Glasgow.md"
+    },
+    "record-north-leith-robert-glasgow-1694": {
+      "catalogue_id": "record-north-leith-robert-glasgow-1694",
+      "name": "Robert Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 207,
+      "record_year": 1694,
+      "search_terms": [
+        "Robert Glasgow"
+      ],
+      "candidates": [
+        {
+          "profile_id": "Glasgow-3338",
+          "name": "Robert Glasgow",
+          "birth_date": "1665-05-28",
+          "birth_location": "Saint Cuthberts, Edinburgh, Midlothian, Scotland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [
+            "midlothian"
+          ],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Male",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 75,
+          "url": "https://www.wikitree.com/wiki/Glasgow-3338"
+        },
+        {
+          "profile_id": "Glasgow-1374",
+          "name": "Robert Glasgow",
+          "birth_date": "1655-05-05",
+          "birth_location": "Edinburgh, Midlothian, Scotland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [
+            "midlothian"
+          ],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Male",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 70,
+          "url": "https://www.wikitree.com/wiki/Glasgow-1374"
+        },
+        {
+          "profile_id": "Glasgow-3011",
+          "name": "Robert Glasgow",
+          "birth_date": "1676-12-29",
+          "birth_location": "Glencorse, Midlothian, Scotland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [
+            "midlothian"
+          ],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Male",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 70,
+          "url": "https://www.wikitree.com/wiki/Glasgow-3011"
+        }
+      ],
+      "draft_path": "surname-research/new-people/1694_Scotland_North_Leith_Robert_Glasgow.md"
+    },
+    "record-robert-glasgow-45f84ce490": {
+      "catalogue_id": "record-robert-glasgow-45f84ce490",
+      "name": "Robert Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 207,
+      "record_year": 1849,
+      "search_terms": [
+        "Robert Glasgow"
+      ],
+      "candidates": [
+        {
+          "profile_id": "Glasgow-2672",
+          "name": "Robert James Glasgow",
+          "birth_date": "1833-00-00",
+          "birth_location": "Ireland",
+          "death_date": "1913-00-00",
+          "death_location": "West Derby, Lancashire, England, United Kingdom",
+          "location_overlap": [
+            "west"
+          ],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Male",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 80,
+          "url": "https://www.wikitree.com/wiki/Glasgow-2672"
+        },
+        {
+          "profile_id": "Glasgow-1049",
+          "name": "Robert Glasgow",
+          "birth_date": "1811-00-00",
+          "birth_location": "Donbought, Dunaghy, Antrim, Ireland",
+          "death_date": "1888-01-10",
+          "death_location": "Plainfield, Will, Illinois, United States",
+          "location_overlap": [],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Male",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 75,
+          "url": "https://www.wikitree.com/wiki/Glasgow-1049"
+        },
+        {
+          "profile_id": "Glasgow-1656",
+          "name": "Robert Glasgow",
+          "birth_date": "1814-00-00",
+          "birth_location": "Clough, County Antrim, Ireland, United Kingdom",
+          "death_date": "1875-02-03",
+          "death_location": "Wangoom, Victoria, Australia",
+          "location_overlap": [],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Male",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 75,
+          "url": "https://www.wikitree.com/wiki/Glasgow-1656"
+        },
+        {
+          "profile_id": "Glasgow-1171",
+          "name": "Robert Glasgow",
+          "birth_date": "1809-00-00",
+          "birth_location": "County Tyrone, Ireland",
+          "death_date": "1900-00-00",
+          "death_location": "Montezuma, Cayuga, New York, United States",
+          "location_overlap": [],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Male",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 70,
+          "url": "https://www.wikitree.com/wiki/Glasgow-1171"
+        },
+        {
+          "profile_id": "Glasgow-1367",
+          "name": "Robert Glasgow",
+          "birth_date": "1779-00-00",
+          "birth_location": "County Antrim, Ireland",
+          "death_date": "1852-00-00",
+          "death_location": "",
+          "location_overlap": [],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Male",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 70,
+          "url": "https://www.wikitree.com/wiki/Glasgow-1367"
+        },
+        {
+          "profile_id": "Glasgow-3415",
+          "name": "Robert Glasgow",
+          "birth_date": "1800-08-18",
+          "birth_location": "West Kilbride, Ayrshire, Scotland",
+          "death_date": "1855-11-21",
+          "death_location": "Greenock West, Renfrewshire, Scotland",
+          "location_overlap": [
+            "west"
+          ],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Male",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 70,
+          "url": "https://www.wikitree.com/wiki/Glasgow-3415"
+        },
+        {
+          "profile_id": "Glasgow-3897",
+          "name": "Robert Irvine Glasgow",
+          "birth_date": "1827-09-01",
+          "birth_location": "Kilrea, County Londonderry, Ireland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Male",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 70,
+          "url": "https://www.wikitree.com/wiki/Glasgow-3897"
+        },
+        {
+          "profile_id": "Glasgow-587",
+          "name": "Robert Glasgow",
+          "birth_date": "1830-00-00",
+          "birth_location": "Cookstown, County Tyrone, Ireland",
+          "death_date": "1914-08-05",
+          "death_location": "Avondale, Auckland, New Zealand",
+          "location_overlap": [],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Male",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 70,
+          "url": "https://www.wikitree.com/wiki/Glasgow-587"
+        }
+      ],
+      "draft_path": "surname-research/new-people/1842_Canada_West_Prescott_Robert_Glasgow.md"
+    },
+    "record-saltcoats-1637-agnes-glasgow": {
+      "catalogue_id": "record-saltcoats-1637-agnes-glasgow",
+      "name": "Agnes Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 126,
+      "record_year": 1637,
+      "search_terms": [
+        "Agnes Glasgow"
+      ],
+      "candidates": [
+        {
+          "profile_id": "Glasgow-993",
+          "name": "Agnes Glasgow",
+          "birth_date": "1618-02-22",
+          "birth_location": "Musselburgh, Lothian, Scotland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Female",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 50,
+          "url": "https://www.wikitree.com/wiki/Glasgow-993"
+        },
+        {
+          "profile_id": "Thomsone-70",
+          "name": "Agnes (Thomsone) Glasgow",
+          "birth_date": "1620-00-00",
+          "birth_location": "Inveresk, Midlothian, Scotland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Female",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 50,
+          "url": "https://www.wikitree.com/wiki/Thomsone-70"
+        }
+      ],
+      "draft_path": "surname-research/new-people/1637_Scotland_Saltcoats_Agnes_Glasgow.md"
+    },
+    "record-saltcoats-1637-john-glasgow": {
+      "catalogue_id": "record-saltcoats-1637-john-glasgow",
+      "name": "John Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 426,
+      "record_year": 1636,
+      "search_terms": [
+        "John Glasgow"
+      ],
+      "candidates": [
+        {
+          "profile_id": "Glasgow-4152",
+          "name": "John Glasgow",
+          "birth_date": "1600-00-00",
+          "birth_location": "Saltcoats, Ayrshire, Scotland, uncertain and inferred only",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [
+            "ayrshire",
+            "saltcoats"
+          ],
+          "birth_year_match": true,
+          "death_year_match": false,
+          "gender": "Male",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 90,
+          "url": "https://www.wikitree.com/wiki/Glasgow-4152"
+        }
+      ],
+      "draft_path": "surname-research/new-people/1637_Scotland_Saltcoats_John_Glasgow.md"
+    },
+    "record-saltcoats-1637-katherine-glasgow": {
+      "catalogue_id": "record-saltcoats-1637-katherine-glasgow",
+      "name": "Katherine Glasgow",
+      "identity_status": "individual",
+      "identity_note": "",
+      "recommended_action": "create_new_profile",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 81,
+      "record_year": 1637,
+      "search_terms": [
+        "Katherine Glasgow"
+      ],
+      "candidates": [
+        {
+          "profile_id": "Wellesley-144",
+          "name": "Katherine (Wellesley) Glasgow",
+          "birth_date": "1610-00-00",
+          "birth_location": "Queen's County, Ireland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Female",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 50,
+          "url": "https://www.wikitree.com/wiki/Wellesley-144"
+        },
+        {
+          "profile_id": "Glasgow-3590",
+          "name": "Katherine Glasgow",
+          "birth_date": "1575-00-00",
+          "birth_location": "Hirmanscheillis, Midlothian, Scotland",
+          "death_date": "0000-00-00",
+          "death_location": "",
+          "location_overlap": [],
+          "birth_year_match": false,
+          "death_year_match": false,
+          "gender": "Female",
+          "exact_relative_roles": [],
+          "birth_year_conflict": false,
+          "score": 45,
+          "url": "https://www.wikitree.com/wiki/Glasgow-3590"
+        }
+      ],
+      "draft_path": "surname-research/new-people/1637_Scotland_Saltcoats_Katherine_Glasgow.md"
+    },
+    "record-thomas-glasco-76891c1835": {
+      "catalogue_id": "record-thomas-glasco-76891c1835",
+      "name": "Thomas Glasco",
+      "identity_status": "free_space_only",
+      "identity_note": "The 1779 marriage notice and 1783 directory entry almost certainly identify one watchmaker, but no inspected record distinguishes Glasco-143, Glasco-144 or Glasco-173 as that man. Publish the cluster on the established early-Ireland page; do not create a fourth Thomas profile or invent serial marriages.",
+      "recommended_action": "do_not_create",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 0,
+      "record_year": null,
+      "search_terms": [],
+      "candidates": [],
+      "draft_path": "surname-research/free-space-pages/Glasgow_Branches_In_Early_Ireland.md"
+    },
+    "record-john-glasgow-edinburgh-1648": {
+      "catalogue_id": "record-john-glasgow-edinburgh-1648",
+      "name": "John Glasgow",
+      "identity_status": "individual",
+      "identity_note": "Manual comparison on 23 September 2026: Glasgow-1604 (about 1626, Ayrshire), Glasgow-3145 (about 1626, Scotland/Ayrshire; may duplicate Glasgow-1604), and Glasgow-3610 (1626, Kirknewton/East Calder) remain possible by chronology. No father or locality evidence links any one of them to this apprentice. Thomas Glasgow-1103 is only a possible father lead. Keep profile creation on HOLD.",
+      "recommended_action": "hold",
+      "confirmed_profile_id": "",
+      "searched_profile_count": 0,
+      "record_year": 1648,
+      "search_terms": [
+        "John Glasgow"
+      ],
+      "candidates": [],
+      "draft_path": "surname-research/new-people/1648_Scotland_Edinburgh_John_Glasgow.md",
+      "review_method": "Manual duplicate review",
+      "reviewed_at": "2026-09-23"
+    }
+  }
+}

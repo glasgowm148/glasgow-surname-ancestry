@@ -1,0 +1,136 @@
+{
+  "scope": "11 pending profiles",
+  "tests": 10,
+  "profiles": [
+    {
+      "id": "Glasgow-548",
+      "full_current_and_reconciled_draft_verified": true,
+      "starts_collapsed": true,
+      "changes_only_checked": true,
+      "public_review_visible": true
+    },
+    {
+      "id": "Glasgow-567",
+      "full_current_and_reconciled_draft_verified": true,
+      "starts_collapsed": true,
+      "changes_only_checked": true,
+      "public_review_visible": true
+    },
+    {
+      "id": "Glasgow-822",
+      "full_current_and_reconciled_draft_verified": true,
+      "starts_collapsed": true,
+      "changes_only_checked": true,
+      "public_review_visible": true
+    },
+    {
+      "id": "Glasgow-951",
+      "full_current_and_reconciled_draft_verified": true,
+      "starts_collapsed": true,
+      "changes_only_checked": true,
+      "public_review_visible": true
+    },
+    {
+      "id": "Glasgow-1101",
+      "full_current_and_reconciled_draft_verified": true,
+      "starts_collapsed": true,
+      "changes_only_checked": true,
+      "public_review_visible": true
+    },
+    {
+      "id": "Glasgow-3556",
+      "full_current_and_reconciled_draft_verified": true,
+      "starts_collapsed": true,
+      "changes_only_checked": true,
+      "public_review_visible": true
+    },
+    {
+      "id": "Glasgow-4010",
+      "full_current_and_reconciled_draft_verified": true,
+      "starts_collapsed": true,
+      "changes_only_checked": true,
+      "public_review_visible": true
+    },
+    {
+      "id": "Glasgow-4070",
+      "full_current_and_reconciled_draft_verified": true,
+      "starts_collapsed": true,
+      "changes_only_checked": true,
+      "public_review_visible": true
+    },
+    {
+      "id": "Glasgow-4093",
+      "full_current_and_reconciled_draft_verified": true,
+      "starts_collapsed": true,
+      "changes_only_checked": true,
+      "public_review_visible": true
+    },
+    {
+      "id": "Glasgow-4150",
+      "full_current_and_reconciled_draft_verified": true,
+      "starts_collapsed": true,
+      "changes_only_checked": true,
+      "public_review_visible": true
+    },
+    {
+      "id": "Glasgow-4269",
+      "full_current_and_reconciled_draft_verified": true,
+      "starts_collapsed": true,
+      "changes_only_checked": true,
+      "public_review_visible": true
+    }
+  ],
+  "live_saved": false,
+  "production_deployed": false,
+  "fresh_public_captures_match": true,
+  "all_current_source_urls_retained": true,
+  "all_current_profile_links_retained": true,
+  "complete_reference_bodies_retained_verbatim": 180,
+  "pending_profile_count": 11,
+  "desktop_screenshot": "output/profile-preservation-audit-20260930.png",
+  "diff_screenshot": "output/profile-preservation-diff-20260930.png",
+  "restricted_kit_references_omitted_from_public_notes": true,
+  "browser_toggle_verification": {
+    "unchanged_rows_visible_with_all_lines": 26,
+    "unchanged_rows_visible_with_changes_only": 0,
+    "full_copy_starts_collapsed": true
+  },
+  "bundle": {
+    "path": "/Users/m/wikitree-api-scrape/www/glasgow-site-20261001-000224.tar.gz",
+    "bytes": 144115274,
+    "decimal_mb": 144.12,
+    "sha256": "4c7da9be4d1eebf2a4fa69e03ae97911035844a78bacb7478169421f19ba39a9",
+    "rootless_members": 79172,
+    "gzip_stream_and_manifest_verified": true,
+    "selected_file_hashes": {
+      "catalogue/index.html": "09db8cc30a86a80849a212ce967b398150aee87a0257a8bdb09902c8f9d6b8ee",
+      "data/catalogue-search-index.json": "b3057f3b97ba9c18a5341dade6c021e4cc46cbe7787d3866d42d9cac2794d876",
+      "data/manifest.json": "072766135d1390f7f4d2b8411a1ad4fc344052925ba0a44b6208fa35a55bfa9a",
+      "data/research-queue.json": "e40e2b2ea665075118a0280c36f7bbb8b9fbd2a310076b7710a05bc8204e9e43",
+      "people/glasgow-1101.html": "72ae80bc187907f9f6294f42ac471538eeef226a3d9079af3e5e995191ce9b1c",
+      "people/glasgow-1101.json": "9628c3a0be53791a7c789cbde222f2170eb2a3f20e015dbc87c67c0e37e6fb41",
+      "people/glasgow-3556.html": "36b08447ed1b34c86cbfa3d9f1fd96062e74c06c6205639e940c054d0fb76493",
+      "people/glasgow-3556.json": "8073a8c9b9ee60d22898a8fba5bb1089d5cce3c33430d1836292e71050888870",
+      "people/glasgow-4010.html": "1d63f37fc6d92a01c472a69fb7e5f22ceb544efcdf41db68c0c03c52187b5ca0",
+      "people/glasgow-4010.json": "38b8d2fc823050b8b54dbe29cf1c3fc0c884ed74e3aed17738f328bd86cc38f5",
+      "people/glasgow-4070.html": "ab5226e61ced65d4c711f737725516e98484fd2ca237a4f939655374556444c2",
+      "people/glasgow-4070.json": "79589f6d815ebb4732439d2f3883fd663872ef611e5e6319e66b9bd688672617",
+      "people/glasgow-4093.html": "cb02b1037481712ec3b0c7e07ad75d4a58b303c49a1704d211dac03724ebde28",
+      "people/glasgow-4093.json": "a7ea35afd5b75f9a15eb3a86fc7aa17fdedc694bbc76af78cd4f98102a86af0c",
+      "people/glasgow-4150.html": "63bbd532a63bcbf87e9511b661cc45ff8eb9aa1e4f670c5d2ea26d9fc66da641",
+      "people/glasgow-4150.json": "320cf71e7af1104ea76391d7dd1a2401918cf8712bc5f52a0a36deda680e8c3a",
+      "people/glasgow-4269.html": "f06b9afcb5cd42435610399ed29587d308780eeb9e4697491d7486f796928e56",
+      "people/glasgow-4269.json": "926dbcd2a931e2437ad245a5bb938fff591534b07e9752642d3c6d3414b6ada1",
+      "people/glasgow-548.html": "8edf48349777e44e5676392021db5316b145b0594923c8db6a6f0fdfe0dfe45d",
+      "people/glasgow-548.json": "7f080414f68aad8ad21f475f6e0a53bc12e2fbafe29a77cc692c5d0daedbdc98",
+      "people/glasgow-567.html": "9eaa2f706be1f0d9f65866947fe1e50a5be2660831a493de7b4359e300a92824",
+      "people/glasgow-567.json": "dd144ec890958511129cbf8589b8ed38bd61d6a3433aa724841c8eb568a8ca60",
+      "people/glasgow-822.html": "4c5eb6fc9985f30234ab7d2319ef964548b5265fbddc1a4e6c67c76d3209351f",
+      "people/glasgow-822.json": "3bc8b9290f5776db6bd63dceaf97f3581ef07fbfa9bd4d0619bab4fb5093180a",
+      "people/glasgow-951.html": "8a1e9664401c2e3dbae8195015c2b07fc5a8a985fd9997194504917cd1edc20f",
+      "people/glasgow-951.json": "4344b964a2afa2c9b464d59558c669ac20997df166776c16617dce767d8165e6"
+    },
+    "selected_files_verified": 26
+  },
+  "completed_at": "2026-09-30T23:04:48.311352+00:00"
+}

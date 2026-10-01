@@ -126,3 +126,13 @@ conflicts with his 1851 census age of 40.
 ## Source findings — Scottish death index, 23 September 2026
 
 The ScotlandsPeople statutory deaths index lists **Ann McCracken**, female, 49, died 1898 in Calton (Glasgow), reference 644/4 70, with other surname **Glasgow** and mother's maiden surname **McCaughern**. Her maiden name, her mother's maiden name (Mary McAughin/McCaughan) and her age (4 in 1851) identify her as Alexander-951's daughter. Her brother Robert-938 had settled in Calton. The register image (6 ScotlandsPeople credits) has not been viewed. It should give the exact date, her husband's status, her parents and the informant. The live profile was updated with death year 1898 and place Calton, Glasgow, both certain. As a married McCracken living in Scotland, she is an unlikely match for the "Nancy Glasgow, daughter" who informed at the 1888 Gortahar death.
+
+
+## Source findings
+
+<!-- queue-profile-match-review-20260930 -->
+### Collateral profile matching — 30 September 2026
+
+The 1867 Lisnagaver Mary Ellen birth is matched to the existing record-defined child Glasgow-4269. Ann Glasgow is the named informant. Identification with this Ann-438 remains compatible, not established; presence at a birth is not proof of kinship. The original entry 214 reads 14 February; a correction to the current 17 February index-based profile is pending.
+
+Current public profile biographies were checked alongside the maintained historical record accounts. The complete record-specific review is published in the [profile matching audit](https://glasgow.phenotype.dev/research/profile-matches/).

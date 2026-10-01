@@ -43,9 +43,16 @@ def render(data: dict) -> str:
             if not (WEB / href.lstrip("/")).exists():
                 href = f"https://www.wikitree.com/wiki/{ident}"
             links.append(f'<a href="{escape(href, quote=True)}">{escape(ident)}</a>')
+        for ident in row.get('candidate_profile_ids', []):
+            href = f'/people/{ident.lower()}.html'
+            if not (WEB / href.lstrip('/')).exists():
+                href = f'https://www.wikitree.com/wiki/{ident}'
+            links.append(f'<a href="{escape(href, quote=True)}">Possible: {escape(ident)}</a>')
+        if row.get('identity_review_url'):
+            links.append(f'<a href="{escape(row["identity_review_url"], quote=True)}">Current identity draft</a>')
         if row['row'] in drafts_by_row:
             entry = drafts_by_row[row['row']]
-            links.append(f'<a href="#{escape(entry["id"])}">HOLD handoff</a>')
+            links.append(f'<a href="#{escape(entry["id"])}">Record identity review</a>')
         ref = f"{row['parish_number']}/{row['reference']}"
         when = date.fromisoformat(row["date"]).strftime("%-d %b %Y")
         body.append(
@@ -65,11 +72,11 @@ def render(data: dict) -> str:
             f'{escape(entry["title"])} · {escape(entry["status"])}</summary>'
             f'<p>{escape(entry["assessment"])}</p>'
             f'<p>Index rows: {", ".join(str(n) for n in entry["rows"])}. '
-            'This handoff is not a created WikiTree profile. Resolve any HOLD before creating or attaching a person.</p>'
+            'Use the linked existing profile where matched. Compatible candidates remain linked for comparison; do not create a duplicate while identity is unresolved.</p>'
             f'<label for="{escape(entry["id"])}-text">Sourced WikiTree evidence draft</label>'
             f'<textarea id="{escape(entry["id"])}-text" readonly rows="16">{escape(entry["draft_wikitext"])}</textarea></details>'
         )
-    draft_section = ('<h3 id="opr-marriage-identity-drafts">Identities awaiting a confirmed profile</h3>'
+    draft_section = ('<h3 id="opr-marriage-identity-drafts">Record identity reviews</h3>'
                      '<p>Compatible repeated entries share one handoff. Candidate identities and their tests are kept explicit.</p>'
                      + "".join(drafts)) if drafts else ""
     return f'''{START}
@@ -171,7 +178,7 @@ def repair() -> dict[str, int]:
             for entry in data["documentary_drafts"]
         )
         queue = (QUEUE_START + '<section id="opr-marriage-identities" class="r-section"><h2>OPR marriage identities awaiting profiles</h2>'
-                 '<p>These documentary identities have no confirmed WikiTree match. Their consolidated handoffs distinguish unresolved candidates from any creation-ready people.</p>'
+                 '<p>These documentary identities have dated profile reviews. Their consolidated handoffs distinguish matched profiles, compatible candidates and subjects with no compatible profile found.</p>'
                  '<ul>' + cards + '</ul></section>' + QUEUE_END)
         for relative in ("catalogue.html", "catalogue/index.html"):
             target = WEB / relative

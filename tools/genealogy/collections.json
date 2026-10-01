@@ -1,0 +1,61 @@
+{
+  "schema": 1,
+  "review_policy": "Only the exact SHA256 recorded here may be staged. Changed, new, missing, symlinked, or unreviewed sources are withheld.",
+  "collections": [
+    {
+      "kind": "note",
+      "source": "research/Glasgow-428/findings.md",
+      "sha256": "be5fbbc2caa5f1072aacf35e8889a1bdf292da64b1757737c7d517fef50b0274",
+      "review_reason": "Reviewed public-safe historical findings for the Glasgow-428 research account.",
+      "original_source_references": [
+        "research/Glasgow-428/findings.md"
+      ],
+      "staged_name": "Glasgow-428-findings.md"
+    },
+    {
+      "kind": "note",
+      "source": "research/Glasgow-2917/findings.md",
+      "sha256": "43ae0075478d70780889035e07488faa36f352478a11f2a3efc63d2f6449b17a",
+      "review_reason": "Reviewed public-safe historical findings for the Glasgow-2917 research account.",
+      "original_source_references": [
+        "research/Glasgow-2917/findings.md"
+      ],
+      "staged_name": "Glasgow-2917-findings.md"
+    },
+    {
+      "kind": "note",
+      "source": "research/Glasgow-3172/findings.md",
+      "sha256": "9da3cb3c6f00336481bd688f514e62f7afb62a712cf14b5f5d13a1ddd52fbcef",
+      "review_reason": "Reviewed public-safe historical findings for the Glasgow-3172 research account.",
+      "original_source_references": [
+        "research/Glasgow-3172/findings.md"
+      ],
+      "staged_name": "Glasgow-3172-findings.md"
+    },
+    {
+      "kind": "pdf",
+      "source": "surname-research/pre-1700/sources/grant_commissariot_of_lanark_testaments_1595_1800_1903.pdf",
+      "sha256": "b4b9db3cf9c5339c5c26b4e33af204272ae73c829acabd31d4f913ac7fc64e6b",
+      "review_reason": "Reviewed public-domain printed 1903 historical source for genealogy research.",
+      "original_source_references": [
+        "Francis J. Grant, ed., The Commissariot Record of Lanark: Register of Testaments, 1595\u20131800 (Scottish Record Society, Edinburgh, 1903)",
+        "https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/the_commissariot_record_of_lanark__register_of_testaments__1595-1800_~_1903.pdf",
+        "surname-research/pre-1700/evidence-register.md:251"
+      ],
+      "staged_name": "grant_commissariot_of_lanark_testaments_1595_1800_1903.pdf",
+      "public_bibliographic_provenance": {
+        "title": "The Commissariot Record of Lanark: Register of Testaments, 1595\u20131800",
+        "year": 1903,
+        "publisher": "Scottish Record Society, Edinburgh",
+        "public_domain": true,
+        "source_url": "https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/the_commissariot_record_of_lanark__register_of_testaments__1595-1800_~_1903.pdf"
+      }
+    }
+  ],
+  "public_profile_policy": {
+    "privacy": 60,
+    "nonliving": "Explicit IsLiving=0, locally cached anonymous API verification, recorded death, or birth at least 120 years ago. Living/restricted/missing verified profiles fail closed.",
+    "content": "Selected approved www/people JSON conclusions, evidence metadata, questions and basic profile fields only; no raw narratives, DNA or record transcriptions.",
+    "refresh": "After successful approved website batch; daily 03:00 local fallback. No automatic remote calls."
+  }
+}

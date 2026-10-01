@@ -1,0 +1,46 @@
+[
+  {
+    "id": "Glasgow-548",
+    "status": "complete",
+    "omissions": [],
+    "intentional_replacements": [
+      {
+        "old": "Unattributed 1733 marriage and three known sons sentence",
+        "new": "Explicit family-history attribution, with same marriage and three sons preserved",
+        "basis": "Current named GlasgowHistory citation"
+      }
+    ],
+    "assessment": "All original substantive text, quotation, date conflict, American migration context, namesake and family links survive; only blank-line normalization and explicit attribution differ."
+  },
+  {
+    "id": "Glasgow-951",
+    "status": "reconciled",
+    "omissions": [],
+    "intentional_replacements": [
+      {
+        "old": "Definitive 1885 correction to memorial",
+        "new": "Both 20 June 1895 memorial and 24 June 1885 civil candidate retained with identity conflict explicit",
+        "basis": "Maintained Glasgow-867 findings and original civil reference; no inspected correction to the memorial established"
+      }
+    ],
+    "assessment": "164,330-character current biography checked through complete line comparison: only one old substantive paragraph altered. All other original paragraphs/links/sources survive. Revised that paragraph to retain rather than erase its conflicting chronology.",
+    "recommended_summary": "Add the inspected Nancy death notice and dated parentage tests; retain the competing John death readings and approximate ages without changing family links."
+  },
+  {
+    "id": "Glasgow-1101",
+    "status": "reconciled",
+    "omissions": [
+      "Thomas’s 1689 attainder, Lifford/esquire description and explicit Abraham/James Creighton context",
+      "Explicit limitations of the five PRONI catalogue descriptions and probate-index entries"
+    ],
+    "intentional_replacements": [
+      {
+        "old": "No wife or child known; Betham still uninspected; no father-son evidence",
+        "new": "Inspected Betham names Elizabeth, Thomas and Margaret; identity of Thomas with Lifford man remains qualified",
+        "basis": "Existing draft Betham1673 citation, NLI GO MS225 p90/image97"
+      }
+    ],
+    "assessment": "Restored all lost historic context. Kept supported supersession of obsolete no-family and uninspected-abstract statements. Removed duplicate-profile/editor commands; uncertain links retained.",
+    "recommended_summary": "Add the inspected Betham family abstract while preserving the clerical career, 1689 Thomas context, full PRONI research scope and unresolved identities; no relationship status change."
+  }
+]

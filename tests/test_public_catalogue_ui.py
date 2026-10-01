@@ -54,7 +54,7 @@ def main() -> None:
         assert page.locator("#catalogue-date-type").input_value() == ""
         assert page.locator("#catalogue-location-type").input_value() == ""
         assert page.locator('#catalogue-date-type option[value=""]').inner_text() == "Any record"
-        assert page.locator('#catalogue-location-type option[value=""]').inner_text() == "Any record"
+        assert page.locator('#catalogue-location-type option[value=""]').inner_text() == "Any"
         headers = page.locator(".catalogue-results-table th").all_inner_texts()
         assert len(headers) == 8
         assert "Recorded in" not in headers and "Cluster" not in headers and "WikiTree" not in headers
@@ -97,7 +97,10 @@ def main() -> None:
         assert tree_toggle.get_attribute("aria-expanded") == "false"
         assert "groupTree=1" in page.url and "groupFamily" not in page.url
         page.screenshot(path=str(ROOT / "artifacts" / "catalogue-one-tree-desktop.png"), full_page=False)
-        page.locator("#statistics-detail > summary").click()
+        assert page.locator("#statistics .statistics-summary > div").count() == 9
+        assert page.locator("#statistics details").count() == 0
+        page.locator("#statistics .catalogue-statistics-link").click()
+        page.wait_for_url("**/statistics/")
         assert page.locator(".statistics-panel").count() == 7
         spouse_surnames = page.locator(".statistics-panel", has_text="Surnames joined by marriage to Glasgow")
         assert spouse_surnames.is_visible()

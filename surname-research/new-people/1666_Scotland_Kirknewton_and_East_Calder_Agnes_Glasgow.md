@@ -1,3 +1,6 @@
+<!-- profile-match-review-20260930 -->
+**Current identity review, 30 September 2026:** The supplied index records AGNES Glasgow and JAMES SWAN/FR 36 (FR 36) at Kirknewton and East Calder on 1666-05-12. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group.
+
 # HOLD — Agnes Glasgow, Kirknewton and East Calder, 1666
 
 - **Status:** HOLD; no confirmed WikiTree profile.

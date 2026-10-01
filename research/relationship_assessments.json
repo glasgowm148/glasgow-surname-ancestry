@@ -2992,5 +2992,284 @@
       "basis": "Reassessment of existing records; sibling manuscript passage and burgess transcription re-inspected; no new primary record claimed",
       "live_wikitree_status": "confident"
     }
+  },
+  {
+    "assertion_id": "C-prescott-siblings-glasgow-4010-glasgow-987",
+    "people": [
+      "Glasgow-987",
+      "Glasgow-4010"
+    ],
+    "profile_names": {
+      "Glasgow-987": "Thomas Glasgow",
+      "Glasgow-3896": "Daniel Glasgow",
+      "Glasgow-4010": "Samuel Glasgow",
+      "Glasgow-4150": "Robert Glasgow",
+      "Glasgow-3904": "Alexander Glasgow"
+    },
+    "status": "proved",
+    "claim": "Thomas Glasgow and Samuel Glasgow are documented brothers.",
+    "basis": "Robert’s original 1849 will names his brothers; B465 identifies Daniel of Kilrea, watchmaker, and Thomas of Lisnagaver, farmer, with their wives, conveying their shares to Samuel. The combined records establish this sibling pair; parentage is assessed separately.",
+    "source_ids": [
+      "prescott-will-1849",
+      "prescott-deed-b465"
+    ],
+    "assessment_date": "2026-09-13",
+    "allow_new_relationship": true,
+    "perspectives": {
+      "Glasgow-987": {
+        "relationship": "sibling",
+        "reason": "Robert’s original 1849 will names his brothers; B465 identifies Daniel of Kilrea, watchmaker, and Thomas of Lisnagaver, farmer, with their wives, conveying their shares to Samuel. The combined records establish this sibling pair; parentage is assessed separately."
+      },
+      "Glasgow-4010": {
+        "relationship": "sibling",
+        "reason": "Robert’s original 1849 will names his brothers; B465 identifies Daniel of Kilrea, watchmaker, and Thomas of Lisnagaver, farmer, with their wives, conveying their shares to Samuel. The combined records establish this sibling pair; parentage is assessed separately."
+      }
+    },
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "basis": "Original registered will and conveyance; profile identities checked in maintained cases",
+      "resolution_note": "Publishes the established sibling evidence separately from missing WikiTree parent-derived links."
+    }
+  },
+  {
+    "assertion_id": "C-prescott-siblings-glasgow-4150-glasgow-987",
+    "people": [
+      "Glasgow-987",
+      "Glasgow-4150"
+    ],
+    "profile_names": {
+      "Glasgow-987": "Thomas Glasgow",
+      "Glasgow-3896": "Daniel Glasgow",
+      "Glasgow-4010": "Samuel Glasgow",
+      "Glasgow-4150": "Robert Glasgow",
+      "Glasgow-3904": "Alexander Glasgow"
+    },
+    "status": "proved",
+    "claim": "Thomas Glasgow and Robert Glasgow are documented brothers.",
+    "basis": "Robert’s original 1849 will names his brothers; B465 identifies Daniel of Kilrea, watchmaker, and Thomas of Lisnagaver, farmer, with their wives, conveying their shares to Samuel. The combined records establish this sibling pair; parentage is assessed separately.",
+    "source_ids": [
+      "prescott-will-1849",
+      "prescott-deed-b465"
+    ],
+    "assessment_date": "2026-09-13",
+    "allow_new_relationship": true,
+    "perspectives": {
+      "Glasgow-987": {
+        "relationship": "sibling",
+        "reason": "Robert’s original 1849 will names his brothers; B465 identifies Daniel of Kilrea, watchmaker, and Thomas of Lisnagaver, farmer, with their wives, conveying their shares to Samuel. The combined records establish this sibling pair; parentage is assessed separately."
+      },
+      "Glasgow-4150": {
+        "relationship": "sibling",
+        "reason": "Robert’s original 1849 will names his brothers; B465 identifies Daniel of Kilrea, watchmaker, and Thomas of Lisnagaver, farmer, with their wives, conveying their shares to Samuel. The combined records establish this sibling pair; parentage is assessed separately."
+      }
+    },
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "basis": "Original registered will and conveyance; profile identities checked in maintained cases",
+      "resolution_note": "Publishes the established sibling evidence separately from missing WikiTree parent-derived links."
+    }
+  },
+  {
+    "assertion_id": "C-prescott-siblings-glasgow-3896-glasgow-4010",
+    "people": [
+      "Glasgow-3896",
+      "Glasgow-4010"
+    ],
+    "profile_names": {
+      "Glasgow-987": "Thomas Glasgow",
+      "Glasgow-3896": "Daniel Glasgow",
+      "Glasgow-4010": "Samuel Glasgow",
+      "Glasgow-4150": "Robert Glasgow",
+      "Glasgow-3904": "Alexander Glasgow"
+    },
+    "status": "proved",
+    "claim": "Daniel Glasgow and Samuel Glasgow are documented brothers.",
+    "basis": "Robert’s original 1849 will names his brothers; B465 identifies Daniel of Kilrea, watchmaker, and Thomas of Lisnagaver, farmer, with their wives, conveying their shares to Samuel. The combined records establish this sibling pair; parentage is assessed separately.",
+    "source_ids": [
+      "prescott-will-1849",
+      "prescott-deed-b465"
+    ],
+    "assessment_date": "2026-09-13",
+    "allow_new_relationship": true,
+    "perspectives": {
+      "Glasgow-3896": {
+        "relationship": "sibling",
+        "reason": "Robert’s original 1849 will names his brothers; B465 identifies Daniel of Kilrea, watchmaker, and Thomas of Lisnagaver, farmer, with their wives, conveying their shares to Samuel. The combined records establish this sibling pair; parentage is assessed separately."
+      },
+      "Glasgow-4010": {
+        "relationship": "sibling",
+        "reason": "Robert’s original 1849 will names his brothers; B465 identifies Daniel of Kilrea, watchmaker, and Thomas of Lisnagaver, farmer, with their wives, conveying their shares to Samuel. The combined records establish this sibling pair; parentage is assessed separately."
+      }
+    },
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "basis": "Original registered will and conveyance; profile identities checked in maintained cases",
+      "resolution_note": "Publishes the established sibling evidence separately from missing WikiTree parent-derived links."
+    }
+  },
+  {
+    "assertion_id": "C-prescott-siblings-glasgow-3896-glasgow-4150",
+    "people": [
+      "Glasgow-3896",
+      "Glasgow-4150"
+    ],
+    "profile_names": {
+      "Glasgow-987": "Thomas Glasgow",
+      "Glasgow-3896": "Daniel Glasgow",
+      "Glasgow-4010": "Samuel Glasgow",
+      "Glasgow-4150": "Robert Glasgow",
+      "Glasgow-3904": "Alexander Glasgow"
+    },
+    "status": "proved",
+    "claim": "Daniel Glasgow and Robert Glasgow are documented brothers.",
+    "basis": "Robert’s original 1849 will names his brothers; B465 identifies Daniel of Kilrea, watchmaker, and Thomas of Lisnagaver, farmer, with their wives, conveying their shares to Samuel. The combined records establish this sibling pair; parentage is assessed separately.",
+    "source_ids": [
+      "prescott-will-1849",
+      "prescott-deed-b465"
+    ],
+    "assessment_date": "2026-09-13",
+    "allow_new_relationship": true,
+    "perspectives": {
+      "Glasgow-3896": {
+        "relationship": "sibling",
+        "reason": "Robert’s original 1849 will names his brothers; B465 identifies Daniel of Kilrea, watchmaker, and Thomas of Lisnagaver, farmer, with their wives, conveying their shares to Samuel. The combined records establish this sibling pair; parentage is assessed separately."
+      },
+      "Glasgow-4150": {
+        "relationship": "sibling",
+        "reason": "Robert’s original 1849 will names his brothers; B465 identifies Daniel of Kilrea, watchmaker, and Thomas of Lisnagaver, farmer, with their wives, conveying their shares to Samuel. The combined records establish this sibling pair; parentage is assessed separately."
+      }
+    },
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "basis": "Original registered will and conveyance; profile identities checked in maintained cases",
+      "resolution_note": "Publishes the established sibling evidence separately from missing WikiTree parent-derived links."
+    }
+  },
+  {
+    "assertion_id": "C-prescott-siblings-glasgow-4010-glasgow-4150",
+    "people": [
+      "Glasgow-4010",
+      "Glasgow-4150"
+    ],
+    "profile_names": {
+      "Glasgow-987": "Thomas Glasgow",
+      "Glasgow-3896": "Daniel Glasgow",
+      "Glasgow-4010": "Samuel Glasgow",
+      "Glasgow-4150": "Robert Glasgow",
+      "Glasgow-3904": "Alexander Glasgow"
+    },
+    "status": "proved",
+    "claim": "Samuel Glasgow and Robert Glasgow are documented brothers.",
+    "basis": "Robert’s original 1849 will names his brothers; B465 identifies Daniel of Kilrea, watchmaker, and Thomas of Lisnagaver, farmer, with their wives, conveying their shares to Samuel. The combined records establish this sibling pair; parentage is assessed separately.",
+    "source_ids": [
+      "prescott-will-1849",
+      "prescott-deed-b465"
+    ],
+    "assessment_date": "2026-09-13",
+    "allow_new_relationship": true,
+    "perspectives": {
+      "Glasgow-4010": {
+        "relationship": "sibling",
+        "reason": "Robert’s original 1849 will names his brothers; B465 identifies Daniel of Kilrea, watchmaker, and Thomas of Lisnagaver, farmer, with their wives, conveying their shares to Samuel. The combined records establish this sibling pair; parentage is assessed separately."
+      },
+      "Glasgow-4150": {
+        "relationship": "sibling",
+        "reason": "Robert’s original 1849 will names his brothers; B465 identifies Daniel of Kilrea, watchmaker, and Thomas of Lisnagaver, farmer, with their wives, conveying their shares to Samuel. The combined records establish this sibling pair; parentage is assessed separately."
+      }
+    },
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "basis": "Original registered will and conveyance; profile identities checked in maintained cases",
+      "resolution_note": "Publishes the established sibling evidence separately from missing WikiTree parent-derived links."
+    }
+  },
+  {
+    "assertion_id": "C-prescott-father-hypothesis-glasgow-4010",
+    "people": [
+      "Glasgow-4010",
+      "Glasgow-3904"
+    ],
+    "profile_names": {
+      "Glasgow-987": "Thomas Glasgow",
+      "Glasgow-3896": "Daniel Glasgow",
+      "Glasgow-4010": "Samuel Glasgow",
+      "Glasgow-4150": "Robert Glasgow",
+      "Glasgow-3904": "Alexander Glasgow"
+    },
+    "status": "uncertain",
+    "hypothesis_status": "possible",
+    "claim": "Alexander Glasgow-3904 is the uncertain father hypothesis for Samuel Glasgow.",
+    "basis": "The original Prescott will/deed chain proves the brotherhood with Thomas-987 and Daniel-3896. Both already share Alexander-3904 as an attached father, based on descendant testimony naming Alexander as Thomas’s father. Compatible chronology supports extending the same uncertain hypothesis to this brother; no contemporary parent record has been found.",
+    "limitations": "Descendant testimony and sibling inference; the original deeds do not name parents. Mother assessed separately. Pending WikiTree attachment, not a certain father upgrade.",
+    "source_ids": [
+      "prescott-will-1849",
+      "prescott-deed-b465",
+      "prescott-father-tradition"
+    ],
+    "assessment_date": "2026-09-30",
+    "allow_new_relationship": true,
+    "perspectives": {
+      "Glasgow-4010": {
+        "relationship": "father",
+        "reason": "The original Prescott will/deed chain proves the brotherhood with Thomas-987 and Daniel-3896. Both already share Alexander-3904 as an attached father, based on descendant testimony naming Alexander as Thomas’s father. Compatible chronology supports extending the same uncertain hypothesis to this brother; no contemporary parent record has been found."
+      },
+      "Glasgow-3904": {
+        "relationship": "son",
+        "reason": "The original Prescott will/deed chain proves the brotherhood with Thomas-987 and Daniel-3896. Both already share Alexander-3904 as an attached father, based on descendant testimony naming Alexander as Thomas’s father. Compatible chronology supports extending the same uncertain hypothesis to this brother; no contemporary parent record has been found."
+      }
+    },
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "basis": "Recorded brotherhood and existing family testimony, explicitly uncertain",
+      "resolution_note": "Maintains a supported family connection at its actual confidence; live WikiTree amendment remains pending."
+    }
+  },
+  {
+    "assertion_id": "C-prescott-father-hypothesis-glasgow-4150",
+    "people": [
+      "Glasgow-4150",
+      "Glasgow-3904"
+    ],
+    "profile_names": {
+      "Glasgow-987": "Thomas Glasgow",
+      "Glasgow-3896": "Daniel Glasgow",
+      "Glasgow-4010": "Samuel Glasgow",
+      "Glasgow-4150": "Robert Glasgow",
+      "Glasgow-3904": "Alexander Glasgow"
+    },
+    "status": "uncertain",
+    "hypothesis_status": "possible",
+    "claim": "Alexander Glasgow-3904 is the uncertain father hypothesis for Robert Glasgow.",
+    "basis": "The original Prescott will/deed chain proves the brotherhood with Thomas-987 and Daniel-3896. Both already share Alexander-3904 as an attached father, based on descendant testimony naming Alexander as Thomas’s father. Compatible chronology supports extending the same uncertain hypothesis to this brother; no contemporary parent record has been found.",
+    "limitations": "Descendant testimony and sibling inference; the original deeds do not name parents. Mother assessed separately. Pending WikiTree attachment, not a certain father upgrade.",
+    "source_ids": [
+      "prescott-will-1849",
+      "prescott-deed-b465",
+      "prescott-father-tradition"
+    ],
+    "assessment_date": "2026-09-30",
+    "allow_new_relationship": true,
+    "perspectives": {
+      "Glasgow-4150": {
+        "relationship": "father",
+        "reason": "The original Prescott will/deed chain proves the brotherhood with Thomas-987 and Daniel-3896. Both already share Alexander-3904 as an attached father, based on descendant testimony naming Alexander as Thomas’s father. Compatible chronology supports extending the same uncertain hypothesis to this brother; no contemporary parent record has been found."
+      },
+      "Glasgow-3904": {
+        "relationship": "son",
+        "reason": "The original Prescott will/deed chain proves the brotherhood with Thomas-987 and Daniel-3896. Both already share Alexander-3904 as an attached father, based on descendant testimony naming Alexander as Thomas’s father. Compatible chronology supports extending the same uncertain hypothesis to this brother; no contemporary parent record has been found."
+      }
+    },
+    "publication_status": "approved",
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "basis": "Recorded brotherhood and existing family testimony, explicitly uncertain",
+      "resolution_note": "Maintains a supported family connection at its actual confidence; live WikiTree amendment remains pending."
+    }
   }
 ]

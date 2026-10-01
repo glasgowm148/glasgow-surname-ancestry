@@ -1,0 +1,452 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 30,
+    "params": {
+      "query": "creator:McIntosh AND (text:Norfolk OR text:Norfolk OR text__reviews:Norfolk)",
+      "qin": "creator:(McIntosh) AND (Norfolk)",
+      "fields": "_default_",
+      "wt": "json",
+      "rows": 100,
+      "start": 0
+    }
+  },
+  "response": {
+    "numFound": 7,
+    "start": 0,
+    "docs": [
+      {
+        "btih": "bdad311d05be120ae01af6c0481e9a5a71c770d0",
+        "collection": [
+          "internetarchivebooks"
+        ],
+        "contributor": "Internet Archive",
+        "creator": "Charles Fleming McIntosh",
+        "date": "1914-01-01T00:00:00Z",
+        "downloads": 80,
+        "external-identifier": [
+          "urn:lcp:bwb_P7-CKF-622:epub:75f80c06-5c4b-4dbb-9334-d2f7f326481d",
+          "urn:lcp:bwb_P7-CKF-622:lcpdf:d7a3dca0-4fe1-4137-ad57-b3f71a8fd4e3",
+          "urn:acs6:bwb_P7-CKF-622:pdf:d3794720-5a3e-49af-93f7-0b15cae49f18"
+        ],
+        "foldoutcount": 0,
+        "format": [
+          "Archive BitTorrent",
+          "Cloth Cover Detection Log",
+          "DjVuTXT",
+          "Djvu XML",
+          "Item Tile",
+          "JPEG Thumb",
+          "Log",
+          "Metadata",
+          "OCR Page Index",
+          "OCR Search Text",
+          "PNG",
+          "Page Numbers JSON",
+          "RePublisher Final Processing Log",
+          "RePublisher Initial Processing Log",
+          "Scandata",
+          "Single Page Original JP2 Tar",
+          "Single Page Processed JP2 ZIP",
+          "Text PDF",
+          "Title Page Detection Log",
+          "chOCR",
+          "hOCR"
+        ],
+        "identifier": "bwb_P7-CKF-622",
+        "imagecount": 236,
+        "indexflag": [
+          "index",
+          "nonoindex",
+          "scanned_by_ia"
+        ],
+        "item_size": 373352437,
+        "language": "eng",
+        "mediatype": "texts",
+        "month": 3,
+        "oai_updatedate": [
+          "2024-08-10T00:02:59Z",
+          "2024-07-27T20:19:22Z",
+          "2025-04-27T02:47:42Z"
+        ],
+        "publicdate": "2024-07-27T20:19:22Z",
+        "title": "Brief Abstract of Lower Norfolk County and Norfolk County Wills 1637-1710",
+        "week": 0,
+        "year": 1914
+      },
+      {
+        "backup_location": "ia905608_12",
+        "btih": "9a44a47d26f1366092bdc6b1e97afe0b0bc53a7e",
+        "collection": [
+          "jstor_willmaryquar",
+          "jstor_ejc",
+          "journals"
+        ],
+        "contributor": "JSTOR",
+        "creator": "McIntosh, Charles F.",
+        "date": "1916-07-01T00:00:00Z",
+        "description": "\"Ages of Lower Norfolk County People\" is an article from The William and Mary Quarterly, Volume 25 . View more articles from The William and Mary Quarterly . View this article on JSTOR . View this article's JSTOR metadata . You may also retrieve all of this items metadata in JSON at the following URL: https://archive.org/metadata/jstor-1915102",
+        "downloads": 402,
+        "external-identifier": [
+          "urn:jstor-headid:10.2307/j100408",
+          "urn:jstor-articleid:10.2307/1915102",
+          "urn:jstor-issueid:10.2307/i305714",
+          "urn:jstor-journalid:10.2307/j100408"
+        ],
+        "format": [
+          "Abbyy GZ",
+          "Animated GIF",
+          "Archive BitTorrent",
+          "DjVu",
+          "DjVuTXT",
+          "Djvu XML",
+          "Item Tile",
+          "Metadata",
+          "Scandata",
+          "Single Page Processed JP2 ZIP",
+          "Text PDF"
+        ],
+        "identifier": "jstor-1915102",
+        "imagecount": 6,
+        "indexflag": [
+          "index",
+          "nonoindex"
+        ],
+        "item_size": 2723998,
+        "language": "eng",
+        "mediatype": "texts",
+        "month": 2,
+        "oai_updatedate": [
+          "2013-03-19T00:21:42Z",
+          "2026-01-02T20:58:00Z"
+        ],
+        "publicdate": "2013-03-19T00:21:42Z",
+        "publisher": "The William and Mary Quarterly",
+        "source": "http://www.jstor.org/stable/10.2307/1915102",
+        "stripped_tags": [
+          "a href=\"/search.php?query=collection%3Ajstor_willmaryquar%20AND%20volume%3A25\" rel=\"ugc nofollow\"",
+          "a href=\"/search.php?query=collection%3Ajstor_willmaryquar\" rel=\"ugc nofollow\"",
+          "a href=\"http://www.jstor.org/stable/10.2307/1915102\" rel=\"ugc nofollow\"",
+          "a href=\"/download/jstor-1915102/10.2307_1915102.xml\" rel=\"ugc nofollow\"",
+          "a href=\"https://archive.org/metadata/jstor-1915102\" rel=\"ugc nofollow\""
+        ],
+        "title": "Ages of Lower Norfolk County People",
+        "volume": "25",
+        "week": 0,
+        "year": 1916
+      },
+      {
+        "backup_location": "ia905905_5",
+        "btih": "27a63363df06ce056deab1140a199f103d446348",
+        "collection": [
+          "pubmed",
+          "journals"
+        ],
+        "contributor": "F1000 Research Ltd",
+        "creator": [
+          "Thurtle, David",
+          "Pullinger, Michael",
+          "Tsigarides, Jordan",
+          "McIntosh, Iris",
+          "Steytler, Carla",
+          "Beales, Ian"
+        ],
+        "date": "2014-05-13T00:00:00Z",
+        "description": "This article is from F1000Research , volume 3 . Abstract Objective: Polyp detection rate (PDR) is an accepted measure of colonoscopy quality. Several factors may influence PDR\u00a0including time of procedure and order of colonoscopy within a session. Our unit provides\u00a0evening colonoscopy lists (6-9 pm). We examined whether colonoscopy performance declines in the evening.Design: Data for all National Health Service (NHS) outpatient colonoscopies performed at Norfolk and Norwich University Hospital in 2011 were examined. Timing, demographics, indication and colonoscopy findings were recorded. Statistical analysis was performed using multivariate regression.Results: Data from 2576 colonoscopies were included: 1163 (45.1%) in the morning, 1123 (43.6%) in the afternoon and 290 (11.3%) in the evening.\u00a0 Overall PDR was 40.80%. Males, increasing age and successful caecal intubation were all significantly associated with higher polyp detection.\u00a0The indications\u00a0\u2018faecal occult blood screening\u2019 (p",
+        "downloads": 98,
+        "external-identifier": "doi:10.12688/f1000research.4045.1",
+        "format": [
+          "Abbyy GZ",
+          "Animated GIF",
+          "Archive BitTorrent",
+          "DjVu",
+          "DjVuTXT",
+          "Djvu XML",
+          "JPEG Thumb",
+          "JSON",
+          "Metadata",
+          "Scandata",
+          "Single Page Processed JP2 ZIP",
+          "Text PDF"
+        ],
+        "identifier": "pubmed-PMC4118755",
+        "indexflag": [
+          "index",
+          "nonoindex"
+        ],
+        "item_size": 13429350,
+        "language": "eng",
+        "mediatype": "texts",
+        "month": 2,
+        "oai_updatedate": [
+          "2014-10-08T06:37:44Z",
+          "2023-02-06T08:44:56Z"
+        ],
+        "publicdate": "2014-10-08T06:37:44Z",
+        "source": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4118755",
+        "stripped_tags": [
+          "a href=\"//archive.org/search.php?query=journaltitle%3A%28F1000Research%29\" rel=\"nofollow\"",
+          "a href=\"//archive.org/search.php?query=journaltitle%3A%28F1000Research%29%20AND%20volume%3A%283%29\" rel=\"nofollow\""
+        ],
+        "title": "Colonoscopic polyp detection rate is stable throughout the workday including evening colonoscopy sessions.",
+        "volume": "3",
+        "week": 0,
+        "year": 2014
+      },
+      {
+        "backup_location": "ia905608_12",
+        "btih": "8817080940f27778c7a695b407053f229f1b47ed",
+        "collection": [
+          "jstor_willmaryquar",
+          "jstor_ejc",
+          "journals"
+        ],
+        "contributor": "JSTOR",
+        "creator": "McIntosh, Charles F.",
+        "date": "1916-10-01T00:00:00Z",
+        "description": "\"Ages of Lower Norfolk County People\" is an article from The William and Mary Quarterly, Volume 25 . View more articles from The William and Mary Quarterly . View this article on JSTOR . View this article's JSTOR metadata . You may also retrieve all of this items metadata in JSON at the following URL: https://archive.org/metadata/jstor-1915199",
+        "downloads": 360,
+        "external-identifier": [
+          "urn:jstor-headid:10.2307/j100408",
+          "urn:jstor-articleid:10.2307/1915199",
+          "urn:jstor-issueid:10.2307/i305715",
+          "urn:jstor-journalid:10.2307/j100408"
+        ],
+        "format": [
+          "Abbyy GZ",
+          "Animated GIF",
+          "Archive BitTorrent",
+          "DjVu",
+          "DjVuTXT",
+          "Djvu XML",
+          "Item Tile",
+          "Metadata",
+          "Scandata",
+          "Single Page Processed JP2 ZIP",
+          "Text PDF"
+        ],
+        "identifier": "jstor-1915199",
+        "imagecount": 3,
+        "indexflag": [
+          "index",
+          "nonoindex"
+        ],
+        "item_size": 1062798,
+        "language": "eng",
+        "mediatype": "texts",
+        "month": 2,
+        "oai_updatedate": [
+          "2013-03-19T01:04:37Z",
+          "2026-01-02T20:58:09Z"
+        ],
+        "publicdate": "2013-03-19T01:04:37Z",
+        "publisher": "The William and Mary Quarterly",
+        "source": "http://www.jstor.org/stable/10.2307/1915199",
+        "stripped_tags": [
+          "a href=\"/search.php?query=collection%3Ajstor_willmaryquar%20AND%20volume%3A25\" rel=\"ugc nofollow\"",
+          "a href=\"/search.php?query=collection%3Ajstor_willmaryquar\" rel=\"ugc nofollow\"",
+          "a href=\"http://www.jstor.org/stable/10.2307/1915199\" rel=\"ugc nofollow\"",
+          "a href=\"/download/jstor-1915199/10.2307_1915199.xml\" rel=\"ugc nofollow\"",
+          "a href=\"https://archive.org/metadata/jstor-1915199\" rel=\"ugc nofollow\""
+        ],
+        "title": "Ages of Lower Norfolk County People",
+        "volume": "25",
+        "week": 1,
+        "year": 1916
+      },
+      {
+        "backup_location": "ia905608_17",
+        "btih": "26b383472e35b659507c82b8d30265fb465d2f43",
+        "collection": [
+          "jstor_virghistbiog",
+          "jstor_ejc",
+          "journals"
+        ],
+        "contributor": "JSTOR",
+        "creator": "McIntosh, Charles F.",
+        "date": "1914-04-01T00:00:00Z",
+        "description": "\"The Proby Family of England and of Hampton and Norfolk, Virginia\" is an article from The Virginia Magazine of History and Biography, Volume 22 . View more articles from The Virginia Magazine of History and Biography . View this article on JSTOR . View this article's JSTOR metadata . You may also retrieve all of this items metadata in JSON at the following URL: https://archive.org/metadata/jstor-4243352",
+        "downloads": 448,
+        "external-identifier": [
+          "urn:jstor-headid:10.2307/j101342",
+          "urn:jstor-articleid:10.2307/4243352",
+          "urn:jstor-issueid:10.2307/i392806",
+          "urn:jstor-journalid:10.2307/j101342"
+        ],
+        "format": [
+          "Abbyy GZ",
+          "Animated GIF",
+          "Archive BitTorrent",
+          "DjVu",
+          "DjVuTXT",
+          "Djvu XML",
+          "Item Tile",
+          "Metadata",
+          "Scandata",
+          "Single Page Processed JP2 ZIP",
+          "Text PDF"
+        ],
+        "identifier": "jstor-4243352",
+        "imagecount": 5,
+        "indexflag": [
+          "index",
+          "nonoindex"
+        ],
+        "item_size": 2558507,
+        "language": "eng",
+        "mediatype": "texts",
+        "month": 6,
+        "oai_updatedate": [
+          "2013-03-22T23:36:22Z",
+          "2026-01-03T18:56:05Z"
+        ],
+        "publicdate": "2013-03-22T23:36:22Z",
+        "publisher": "The Virginia Magazine of History and Biography",
+        "source": "http://www.jstor.org/stable/10.2307/4243352",
+        "stripped_tags": [
+          "a href=\"/search.php?query=collection%3Ajstor_virghistbiog%20AND%20volume%3A22\" rel=\"ugc nofollow\"",
+          "a href=\"/search.php?query=collection%3Ajstor_virghistbiog\" rel=\"ugc nofollow\"",
+          "a href=\"http://www.jstor.org/stable/10.2307/4243352\" rel=\"ugc nofollow\"",
+          "a href=\"/download/jstor-4243352/10.2307_4243352.xml\" rel=\"ugc nofollow\"",
+          "a href=\"https://archive.org/metadata/jstor-4243352\" rel=\"ugc nofollow\""
+        ],
+        "title": "The Proby Family of England and of Hampton and Norfolk, Virginia",
+        "volume": "22",
+        "week": 0,
+        "year": 1914
+      },
+      {
+        "backup_location": "ia906402_4",
+        "btih": "eec097fc565aae2dbff84472605d2c1871d94d99",
+        "call_number": "2144433",
+        "collection": [
+          "brigham_young_university",
+          "americana",
+          "fav-chaseo7156349",
+          "fav-firstcaucasoid",
+          "fav-mp_42",
+          "fav-useful_brokeness"
+        ],
+        "contributor": "Harold B. Lee Library",
+        "creator": "McIntosh, Charles Fleming",
+        "date": "1914-01-01T00:00:00Z",
+        "description": [
+          "In 1691 Lower Norfolk county was divided into Princess Anne county and Norfolk county -- preface",
+          "Vol. [2] has title: Brief abstracts of Norfolk county wills, 1710-1753",
+          "1"
+        ],
+        "downloads": 3459,
+        "external-identifier": "urn:oclc:record:1041466215",
+        "foldoutcount": 0,
+        "format": [
+          "Abbyy GZ",
+          "Archive BitTorrent",
+          "Cloth Cover Detection Log",
+          "DjVuTXT",
+          "Djvu XML",
+          "Dublin Core",
+          "Item Tile",
+          "MARC",
+          "MARC Binary",
+          "MARC Source",
+          "Metadata",
+          "OCR Page Index",
+          "OCR Search Text",
+          "Page Numbers JSON",
+          "Scandata",
+          "Single Page Original JP2 Tar",
+          "Single Page Processed JP2 ZIP",
+          "Text PDF",
+          "chOCR",
+          "hOCR"
+        ],
+        "identifier": "briefabstractofl01mcin",
+        "imagecount": 236,
+        "indexflag": [
+          "index",
+          "nonoindex",
+          "scanned_by_ia"
+        ],
+        "item_size": 328629242,
+        "language": "eng",
+        "mediatype": "texts",
+        "month": 30,
+        "oai_updatedate": [
+          "2017-04-12T14:30:10Z",
+          "2017-04-12T14:30:13Z",
+          "2017-04-12T14:30:08Z",
+          "2024-06-06T16:14:25Z"
+        ],
+        "publicdate": "2017-04-12T14:30:13Z",
+        "publisher": "[Richmond] : The Colonial dames of America in the state of Virginia",
+        "subject": "Wills",
+        "title": "Brief abstract of Lower Norfolk county and Norfolk county wills, 1637-1753",
+        "volume": "1",
+        "week": 4,
+        "year": 1914
+      },
+      {
+        "backup_location": "ia905608_17",
+        "btih": "f06a898ed7627a79dae83dfd7771cde2c04ddc2c",
+        "collection": [
+          "jstor_virghistbiog",
+          "jstor_ejc",
+          "journals"
+        ],
+        "contributor": "JSTOR",
+        "creator": "Charles McIntosh",
+        "date": "1914-07-01T00:00:00Z",
+        "description": "\"The Proby Family of England and of Hampton and Norfolk, Virginia (Concluded)\" is an article from The Virginia Magazine of History and Biography, Volume 22 . View more articles from The Virginia Magazine of History and Biography . View this article on JSTOR . View this article's JSTOR metadata . You may also retrieve all of this items metadata in JSON at the following URL: https://archive.org/metadata/jstor-4243370",
+        "downloads": 770,
+        "external-identifier": [
+          "urn:jstor-headid:10.2307/j101342",
+          "urn:jstor-articleid:10.2307/4243370",
+          "urn:jstor-issueid:10.2307/i392807",
+          "urn:jstor-journalid:10.2307/j101342"
+        ],
+        "format": [
+          "Abbyy GZ",
+          "Animated GIF",
+          "Archive BitTorrent",
+          "DjVu",
+          "DjVuTXT",
+          "Djvu XML",
+          "JPEG Thumb",
+          "Metadata",
+          "Scandata",
+          "Single Page Processed JP2 ZIP",
+          "Text PDF"
+        ],
+        "identifier": "jstor-4243370",
+        "imagecount": 8,
+        "indexflag": [
+          "index",
+          "nonoindex"
+        ],
+        "item_size": 3995228,
+        "language": "eng",
+        "mediatype": "texts",
+        "month": 1,
+        "oai_updatedate": [
+          "2013-03-22T23:45:17Z",
+          "2026-01-03T18:55:54Z"
+        ],
+        "publicdate": "2013-03-22T23:45:17Z",
+        "publisher": "The Virginia Magazine of History and Biography",
+        "source": "http://www.jstor.org/stable/10.2307/4243370",
+        "stripped_tags": [
+          "a href=\"/search.php?query=collection%3Ajstor_virghistbiog%20AND%20volume%3A22\" rel=\"ugc nofollow\"",
+          "a href=\"/search.php?query=collection%3Ajstor_virghistbiog\" rel=\"ugc nofollow\"",
+          "a href=\"http://www.jstor.org/stable/10.2307/4243370\" rel=\"ugc nofollow\"",
+          "a href=\"/download/jstor-4243370/10.2307_4243370.xml\" rel=\"ugc nofollow\"",
+          "a href=\"https://archive.org/metadata/jstor-4243370\" rel=\"ugc nofollow\""
+        ],
+        "subject": "genealogy",
+        "title": "The Proby Family of England and of Hampton and Norfolk, Virginia (Concluded)",
+        "volume": "22",
+        "week": 0,
+        "year": 1914
+      }
+    ]
+  }
+}

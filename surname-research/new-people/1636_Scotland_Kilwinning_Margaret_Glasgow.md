@@ -15,3 +15,7 @@
 == Research Notes ==
 The printed Glasgow testament index records “Margaret, in Byris of Kilwinning” on 8 November 1636. This may be Glasgow-1100, who was baptised in 1610 and married by 1632, but the index gives no spouse, kin, occupation or link to Byris. The date is the index entry date, not a proved death date. Identity remains unresolved pending the underlying testament.
 ```
+
+## Queue source review — 30 September 2026
+
+The independently inspected index confirms Margaret Glasgow in Byris, Kilwynning, on 8 November 1636, without an age, husband or parents. Glasgow-1100, Glasgow-3598 and Glasgow-3186 remain compatible. Glasgow-1100’s father George was already directly proved by the 1633 burgess clause; this index is not a father upgrade. Original CC9/7/27 remains uninspected, and its recording date is not an exact death date. [Independently inspected printed index, p.196/PDF206](https://www.electricscotland.com/history/records/scottishrecordso07scotuoft.pdf#page=206).

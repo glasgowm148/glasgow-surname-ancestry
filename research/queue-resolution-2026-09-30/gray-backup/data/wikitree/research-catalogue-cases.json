@@ -1,0 +1,1932 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-09-28",
+  "cases": {
+    "Borland-1479": {
+      "status": "include",
+      "profile_id": "Borland-1479",
+      "reason": "Historical Irvine parent with sourced 1736 and 1738 baptism findings and the Robert Glasgow merge context, reviewed 27 September 2026."
+    },
+    "Hewitt-8271": {
+      "status": "include",
+      "profile_id": "Hewitt-8271",
+      "reason": "Historical public profile with maintained findings documenting the Hewitt-9718 duplicate merge, reviewed 23 September 2026."
+    },
+    "Glasgow-4342": {
+      "status": "include",
+      "profile_id": "Glasgow-4342",
+      "reason": "Historical public profile with a sourced Ballymena birth index entry, reviewed 23 September 2026."
+    },
+    "Alexander-22578": {
+      "status": "include",
+      "profile_id": "Alexander-22578",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Averns-99": {
+      "status": "include",
+      "profile_id": "Averns-99",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Bowen-14056": {
+      "status": "include",
+      "profile_id": "Bowen-14056",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Bowen-15419": {
+      "status": "include",
+      "profile_id": "Bowen-15419",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Bristo-27": {
+      "status": "include",
+      "profile_id": "Bristo-27",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Burr-5654": {
+      "status": "include",
+      "profile_id": "Burr-5654",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Burr-5655": {
+      "status": "include",
+      "profile_id": "Burr-5655",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Cartwright-3620": {
+      "status": "withheld",
+      "reason": "private or living excluded"
+    },
+    "Castles-359": {
+      "status": "include",
+      "profile_id": "Castles-359",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Child-2372": {
+      "status": "include",
+      "profile_id": "Child-2372",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Chinery-112": {
+      "status": "include",
+      "profile_id": "Chinery-112",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Clare-2101": {
+      "status": "include",
+      "profile_id": "Clare-2101",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Clarkson-3550": {
+      "status": "include",
+      "profile_id": "Clarkson-3550",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Clarkson-985": {
+      "status": "include",
+      "profile_id": "Clarkson-985",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Cochrane-4358": {
+      "status": "include",
+      "profile_id": "Cochrane-4358",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Crawford-30330": {
+      "status": "include",
+      "profile_id": "Crawford-30330",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Cushnehan-2": {
+      "status": "include",
+      "profile_id": "Cushnehan-2",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Dowdells-2": {
+      "status": "withheld",
+      "reason": "private or living excluded"
+    },
+    "Drylay-8": {
+      "status": "include",
+      "profile_id": "Drylay-8",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Eadie-646": {
+      "status": "include",
+      "profile_id": "Eadie-646",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Edstoun-4": {
+      "status": "include",
+      "profile_id": "Edstoun-4",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "FamilySearch-KHCM-4ZF": {
+      "status": "include_record",
+      "profile_id": "record-janet-kirkwood-1799",
+      "reason": "Historic baptism subject; candidate excluded and WikiTree identity unresolved. No person creation authorized or queued.",
+      "record": {
+        "supplement_id": "janet-kirkwood-1799",
+        "person": "Janet Kirkwood",
+        "profile_id": "",
+        "family_group": "Kirkintilloch Kirkwood identity research",
+        "year": "1799",
+        "filter_year": 1799,
+        "region": "Scotland",
+        "record_location": "Kirkintilloch, Dunbartonshire, Scotland",
+        "association": "Baptism of Janet Kirkwood, 25 May 1799, daughter of John Kirkwood and Margaret Blackwood",
+        "note": "FamilySearch KHCM-4ZF is the researched subject. Kirkwood-804 is a different candidate: 1801 Bo’ness baptism to Alexander Kirkwood and Mary Wilson. No compatible WikiTree identity established; keep on HOLD.",
+        "source_title": "Scotland Births and Baptisms: Janet Kirkwood, Kirkintilloch, 25 May 1799",
+        "source_url": "https://www.familysearch.org/ark:/61903/1:1:XYZM-SBV",
+        "source_type": "derivative transcript",
+        "source_status": "Confirmed transcript; WikiTree identity unresolved",
+        "evidence": "Documented",
+        "record_precision": "place",
+        "location_basis": "Baptism record; not a proved birthplace"
+      }
+    },
+    "FamilySearch-M9H7-2TF-John-Glasgow-1648": {
+      "status": "include_record",
+      "profile_id": "record-john-glasgow-edinburgh-1648",
+      "reason": "Verified historic apprenticeship occurrence; identity unresolved among chronologically possible WikiTree profiles. Keep visible as a record dossier without creating or attaching a profile.",
+      "record": {
+        "supplement_id": "john-glasgow-edinburgh-1648",
+        "person": "John Glasgow",
+        "profile_id": "",
+        "family_group": "",
+        "year": "1648",
+        "filter_year": 1648,
+        "region": "Scotland",
+        "record_location": "Edinburgh, Scotland",
+        "association": "Apprenticeship entry for John Glasgow under the printed Glasgow heading, dated 12 January 1648; apprentice to William Blackwood",
+        "note": "The entry calls John the son of late Thomas G.; the father's surname is abbreviated. It gives no age or vital details, and no residence is established.",
+        "source_title": "Register of Apprentices of the City of Edinburgh, 1583–1666: John Glasgow, 12 January 1648",
+        "source_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM7-53ZS-V?view=fullText&keywords=Glasgow&searchForm=advanced&lang=en&groupId=M9H7-2TF",
+        "source_type": "published apprenticeship-register transcription",
+        "source_status": "The FamilySearch scan was checked against printed page 75; it names the apprentice and identifies his father as Thomas G., described as a maltman and burgess of Glasgow. The underlying apprenticeship register was not examined; identity remains unresolved.",
+        "evidence": "Documented occurrence",
+        "record_precision": "city",
+        "location_basis": "Source grouping only; Edinburgh is the register location and is not a stated birthplace or death place.",
+        "birth_date": "",
+        "birth_status": "unknown"
+      }
+    },
+    "Gardner-29435": {
+      "status": "include",
+      "profile_id": "Gardner-29435",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Gardner-29437": {
+      "status": "include",
+      "profile_id": "Gardner-29437",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Glasgow-1503": {
+      "status": "include",
+      "profile_id": "Glasgow-1503",
+      "reason": "Historical Larne profile with maintained source-backed findings; retained separately after the false Henry Glads catalogue link was withdrawn on 13 September 2026."
+    },
+    "Glasgow-2291": {
+      "status": "covered",
+      "profile_id": "Glasgow-1146",
+      "reason": "merge pending existing profile"
+    },
+    "Glasgow-2869": {
+      "status": "covered",
+      "profile_id": "Glasgow-1134",
+      "reason": "canonical redirect or duplicate"
+    },
+    "Glasgow-3019": {
+      "status": "covered",
+      "profile_id": "Glasgow-1086",
+      "reason": "canonical redirect or duplicate"
+    },
+    "Glasgow-3098": {
+      "status": "covered",
+      "profile_id": "Glasgow-1150",
+      "reason": "canonical redirect or duplicate"
+    },
+    "Glasgow-3115": {
+      "status": "internal",
+      "reason": "placeholder stub"
+    },
+    "Glasgow-3119": {
+      "status": "covered",
+      "profile_id": "Glasgow-1314",
+      "reason": "canonical redirect or duplicate"
+    },
+    "Glasgow-3479": {
+      "status": "covered",
+      "profile_id": "Glasgow-2474",
+      "reason": "merged into the documented 1716 Irvine Robert Glasgow profile on 27 September 2026"
+    },
+    "Glasgow-3472": {
+      "status": "internal",
+      "reason": "placeholder stub"
+    },
+    "Glasgow-3515": {
+      "status": "covered",
+      "profile_id": "Glasgow-2453",
+      "reason": "canonical redirect or duplicate"
+    },
+    "Glasgow-3608": {
+      "status": "withheld",
+      "reason": "private or living excluded"
+    },
+    "Glasgow-3654": {
+      "status": "covered",
+      "profile_id": "Glasgow-2454",
+      "reason": "duplicate review pending"
+    },
+    "Glasgow-3968": {
+      "status": "covered",
+      "profile_id": "Glasgow-3967",
+      "reason": "canonical redirect or duplicate"
+    },
+    "Glasgow-4031": {
+      "status": "include",
+      "profile_id": "Glasgow-4031",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Glasgow-933": {
+      "status": "withheld",
+      "reason": "private or living excluded"
+    },
+    "Glassford-289": {
+      "status": "include",
+      "profile_id": "Glassford-289",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Glassfuird-2": {
+      "status": "include",
+      "profile_id": "Glassfuird-2",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Gold-2231": {
+      "status": "include",
+      "profile_id": "Gold-2231",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Guil-15": {
+      "status": "include",
+      "profile_id": "Guil-15",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Hamilton-44031": {
+      "status": "include",
+      "profile_id": "Hamilton-44031",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Hamilton-44032": {
+      "status": "internal",
+      "reason": "noncatalogue note or heading review"
+    },
+    "Hamilton-44033": {
+      "status": "internal",
+      "reason": "noncatalogue note or heading review"
+    },
+    "Hammond-17711": {
+      "status": "include",
+      "profile_id": "Hammond-17711",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Herbison-475": {
+      "status": "include",
+      "profile_id": "Herbison-475",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Hilley-135": {
+      "status": "include",
+      "profile_id": "Hilley-135",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Hilley-79": {
+      "status": "internal",
+      "reason": "noncatalogue note or heading review"
+    },
+    "Howe-15840": {
+      "status": "include",
+      "profile_id": "Howe-15840",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Hughes-22851": {
+      "status": "withheld",
+      "reason": "private or living excluded"
+    },
+    "Kaine-91": {
+      "status": "include",
+      "profile_id": "Kaine-91",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Kerr-14419": {
+      "status": "include",
+      "profile_id": "Kerr-14419",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Kerr-14420": {
+      "status": "include",
+      "profile_id": "Kerr-14420",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Leenders-98": {
+      "status": "include",
+      "profile_id": "Leenders-98",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Little-6307": {
+      "status": "include",
+      "profile_id": "Little-6307",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Little-6308": {
+      "status": "include",
+      "profile_id": "Little-6308",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Mackenzie-3390": {
+      "status": "include",
+      "profile_id": "Mackenzie-3390",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "McCracken-4211": {
+      "status": "include",
+      "profile_id": "McCracken-4211",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "McDougall-3892": {
+      "status": "include",
+      "profile_id": "McDougall-3892",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "McGregor-7704": {
+      "status": "include",
+      "profile_id": "McGregor-7704",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Patton-11260": {
+      "status": "include",
+      "profile_id": "Patton-11260",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Patton-11261": {
+      "status": "include",
+      "profile_id": "Patton-11261",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Penman-2289": {
+      "status": "include",
+      "profile_id": "Penman-2289",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Perkins-26318": {
+      "status": "include",
+      "profile_id": "Perkins-26318",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Perkins-26319": {
+      "status": "include",
+      "profile_id": "Perkins-26319",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Prime-785": {
+      "status": "include",
+      "profile_id": "Prime-785",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Prime-954": {
+      "status": "include",
+      "profile_id": "Prime-954",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Prime-955": {
+      "status": "include",
+      "profile_id": "Prime-955",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Prime-956": {
+      "status": "include",
+      "profile_id": "Prime-956",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Prime-957": {
+      "status": "include",
+      "profile_id": "Prime-957",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Prime-958": {
+      "status": "include",
+      "profile_id": "Prime-958",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Sarah-Vaux-9KZM-PL3": {
+      "status": "covered",
+      "profile_id": "Bowen-15419",
+      "reason": "public safe source identity case without wikitree profile"
+    },
+    "Shannon-4518": {
+      "status": "include",
+      "profile_id": "Shannon-4518",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Shaw-37533": {
+      "status": "withheld",
+      "reason": "private or living excluded"
+    },
+    "Stevenson-14736": {
+      "status": "include",
+      "profile_id": "Stevenson-14736",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Swift-7403": {
+      "status": "include",
+      "profile_id": "Swift-7403",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Swift-7404": {
+      "status": "include",
+      "profile_id": "Swift-7404",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Threepland-1": {
+      "status": "include",
+      "profile_id": "Threepland-1",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Unknown-764457": {
+      "status": "include",
+      "profile_id": "Unknown-764457",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Unknown-765121": {
+      "status": "include",
+      "profile_id": "Unknown-765121",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Unknown-765128": {
+      "status": "include",
+      "profile_id": "Unknown-765128",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "White-98526": {
+      "status": "include",
+      "profile_id": "White-98526",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Young-64866": {
+      "status": "include",
+      "profile_id": "Young-64866",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Young-78755": {
+      "status": "include",
+      "profile_id": "Young-78755",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "Young-78888": {
+      "status": "include",
+      "profile_id": "Young-78888",
+      "reason": "Historical public profile and source-backed maintained findings reviewed 10 September 2026."
+    },
+    "dump-audit": {
+      "status": "internal",
+      "reason": "internal or record handoff"
+    },
+    "record-john-glasgow-c83933de0f": {
+      "status": "internal",
+      "reason": "internal or record handoff"
+    },
+    "record-philip-glasco-junior-01982f4970": {
+      "status": "internal",
+      "reason": "internal or record handoff"
+    },
+    "Glasgow-4091": {
+      "status": "covered",
+      "profile_id": "Glasgow-3475",
+      "reason": "Exact duplicate death registration; merged into Glasgow-3475 on 26 September 2026."
+    },
+    "Glasgow-4092": {
+      "status": "include",
+      "profile_id": "Glasgow-4092",
+      "reason": "Glasgow-surname profile created from maintained research, 17 September 2026; sourced biography and findings in the case folder."
+    },
+    "Glasgow-4093": {
+      "status": "include",
+      "profile_id": "Glasgow-4093",
+      "reason": "Glasgow-surname profile created from maintained research, 17 September 2026; sourced biography and findings in the case folder."
+    },
+    "Glasgow-4179": {
+      "status": "covered",
+      "profile_id": "Glasgow-951",
+      "reason": "Current uncertain Hugh parentage, distinct Scottish John and completed Rose merge are visibly integrated in Alexander’s Larne study and the affected existing Hugh/Scottish John dossiers."
+    },
+    "Allan-6611": {
+      "status": "covered",
+      "profile_id": "Glasgow-951",
+      "reason": "Current uncertain Hugh parentage, distinct Scottish John and completed Rose merge are visibly integrated in Alexander’s Larne study and the affected existing Hugh/Scottish John dossiers."
+    },
+    "Allan-8249": {
+      "status": "covered",
+      "profile_id": "Glasgow-951",
+      "reason": "Current uncertain Hugh parentage, distinct Scottish John and completed Rose merge are visibly integrated in Alexander’s Larne study and the affected existing Hugh/Scottish John dossiers."
+    },
+    "larne-proof-2026-09-21": {
+      "status": "covered",
+      "profile_id": "Glasgow-951",
+      "reason": "New original Larne/Kilwaughter proof and catalogue targets integrated in the Larne reconstruction, family branch and affected person dossiers."
+    },
+    "Glasgow-4180": {
+      "status": "include",
+      "profile_id": "Glasgow-4180",
+      "reason": "New public historical Larne profile; original records and explicitly uncertain parentage reviewed 21 September 2026."
+    },
+    "Glasgow-4181": {
+      "status": "include",
+      "profile_id": "Glasgow-4181",
+      "reason": "New public historical Larne profile; original records and explicitly uncertain parentage reviewed 21 September 2026."
+    },
+    "McGowan-3525": {
+      "status": "include",
+      "profile_id": "McGowan-3525",
+      "reason": "GRONI death index exact date integrated into the public historical profile dossier, 23 September 2026."
+    },
+    "Glasgow-3889": {
+      "status": "include",
+      "profile_id": "Glasgow-3889",
+      "reason": "GRONI death index exact date integrated into the public historical profile dossier, 23 September 2026."
+    },
+    "Glasgow-4182": {
+      "status": "pending",
+      "profile_id": "Glasgow-4182",
+      "reason": "Live profile created from reviewed GRONI death-index evidence; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4183": {
+      "status": "pending",
+      "profile_id": "Glasgow-4183",
+      "reason": "Live profile created from reviewed GRONI death-index evidence; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4184": {
+      "status": "pending",
+      "profile_id": "Glasgow-4184",
+      "reason": "Live profile created from reviewed GRONI death-index evidence; public metadata capture is pending before catalogue inclusion."
+    },
+    "Unknown-766785": {
+      "status": "pending",
+      "profile_id": "Unknown-766785",
+      "reason": "Live profile created from reviewed GRONI death-index evidence; public metadata capture is pending before catalogue inclusion."
+    },
+    "Unknown-766786": {
+      "status": "pending",
+      "profile_id": "Unknown-766786",
+      "reason": "Live profile created from reviewed GRONI death-index evidence; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4185": {
+      "status": "pending",
+      "profile_id": "Glasgow-4185",
+      "reason": "Live profile created from reviewed GRONI death-index evidence; public metadata capture is pending before catalogue inclusion."
+    },
+    "Unknown-766788": {
+      "status": "pending",
+      "profile_id": "Unknown-766788",
+      "reason": "Live profile created from reviewed GRONI death-index evidence; public metadata capture is pending before catalogue inclusion."
+    },
+    "Unknown-766789": {
+      "status": "pending",
+      "profile_id": "Unknown-766789",
+      "reason": "Live profile created from reviewed GRONI death-index evidence; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4186": {
+      "status": "pending",
+      "profile_id": "Glasgow-4186",
+      "reason": "Live profile created from reviewed GRONI death-index evidence; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4187": {
+      "status": "pending",
+      "profile_id": "Glasgow-4187",
+      "reason": "Live profile created from reviewed GRONI death-index evidence; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4188": {
+      "status": "pending",
+      "profile_id": "Glasgow-4188",
+      "reason": "Live profile created from reviewed GRONI death-index evidence; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4189": {
+      "status": "pending",
+      "profile_id": "Glasgow-4189",
+      "reason": "Live profile created from reviewed GRONI death-index evidence; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4190": {
+      "status": "pending",
+      "profile_id": "Glasgow-4190",
+      "reason": "Live profile created from reviewed GRONI death-index evidence; public metadata capture is pending before catalogue inclusion."
+    },
+    "Unknown-766790": {
+      "status": "pending",
+      "profile_id": "Unknown-766790",
+      "reason": "Live profile created from reviewed GRONI death-index evidence; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4191": {
+      "status": "pending",
+      "profile_id": "Glasgow-4191",
+      "reason": "Live profile created from reviewed GRONI death-index evidence; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4192": {
+      "status": "pending",
+      "profile_id": "Glasgow-4192",
+      "reason": "Live profile created from reviewed GRONI death-index evidence; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4194": {
+      "status": "pending",
+      "profile_id": "Glasgow-4194",
+      "reason": "Canonical profile after WikiTree redirected Unknown-766791; Live profile created from reviewed GRONI death-index evidence; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4193": {
+      "status": "pending",
+      "profile_id": "Glasgow-4193",
+      "reason": "Canonical profile after WikiTree redirected Unknown-766792; Live profile created from reviewed GRONI death-index evidence; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4195": {
+      "status": "pending",
+      "profile_id": "Glasgow-4195",
+      "reason": "Canonical profile after WikiTree redirected Unknown-766793; Live profile created from reviewed GRONI death-index evidence; public metadata capture is pending before catalogue inclusion."
+    },
+    "Unknown-766797": {
+      "status": "pending",
+      "profile_id": "Unknown-766797",
+      "reason": "Live profile created from reviewed GRONI death-index evidence; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4196": {
+      "status": "pending",
+      "profile_id": "Glasgow-4196",
+      "reason": "Live profile created from reviewed GRONI death-index evidence; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4197": {
+      "status": "pending",
+      "profile_id": "Glasgow-4197",
+      "reason": "Live profile created from reviewed GRONI death-index evidence; public metadata capture is pending before catalogue inclusion."
+    },
+    "Unknown-766798": {
+      "status": "pending",
+      "profile_id": "Unknown-766798",
+      "reason": "Live profile created from reviewed GRONI death-index evidence; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4198": {
+      "status": "pending",
+      "profile_id": "Glasgow-4198",
+      "reason": "Live profile created from reviewed GRONI death-index evidence; public metadata capture is pending before catalogue inclusion."
+    },
+    "Unknown-766800": {
+      "status": "pending",
+      "profile_id": "Unknown-766800",
+      "reason": "Live profile created from reviewed GRONI death-index evidence; public metadata capture is pending before catalogue inclusion."
+    },
+    "Unknown-766801": {
+      "status": "pending",
+      "profile_id": "Unknown-766801",
+      "reason": "Live profile created from reviewed GRONI death-index evidence; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4199": {
+      "status": "pending",
+      "profile_id": "Glasgow-4199",
+      "reason": "Live profile created from reviewed GRONI death-index evidence; public metadata capture is pending before catalogue inclusion."
+    },
+    "Unknown-766802": {
+      "status": "pending",
+      "profile_id": "Unknown-766802",
+      "reason": "Live profile created from reviewed GRONI death-index evidence; public metadata capture is pending before catalogue inclusion."
+    },
+    "Unknown-766805": {
+      "status": "pending",
+      "profile_id": "Unknown-766805",
+      "reason": "Live profile created from reviewed GRONI death-index evidence; public metadata capture is pending before catalogue inclusion."
+    },
+    "Unknown-766806": {
+      "status": "pending",
+      "profile_id": "Unknown-766806",
+      "reason": "Live profile created from reviewed GRONI death-index evidence; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4200": {
+      "status": "pending",
+      "profile_id": "Glasgow-4200",
+      "reason": "Live profile created from reviewed GRONI death-index evidence; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4201": {
+      "status": "pending",
+      "profile_id": "Glasgow-4201",
+      "reason": "Live profile created from reviewed GRONI death-index evidence; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4202": {
+      "status": "pending",
+      "profile_id": "Glasgow-4202",
+      "reason": "Live profile created from reviewed GRONI death-index evidence; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4203": {
+      "status": "pending",
+      "profile_id": "Glasgow-4203",
+      "reason": "Live profile created from reviewed GRONI death-index evidence; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4204": {
+      "status": "pending",
+      "profile_id": "Glasgow-4204",
+      "reason": "Live profile created from reviewed GRONI death-index evidence; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4205": {
+      "status": "pending",
+      "profile_id": "Glasgow-4205",
+      "reason": "Live profile created from reviewed GRONI death-index evidence; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4206": {
+      "status": "pending",
+      "profile_id": "Glasgow-4206",
+      "reason": "Live profile created from reviewed GRONI death-index evidence; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4207": {
+      "status": "pending",
+      "profile_id": "Glasgow-4207",
+      "reason": "Live profile created from reviewed GRONI death-index evidence; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4208": {
+      "status": "pending",
+      "profile_id": "Glasgow-4208",
+      "reason": "Live profile created from reviewed GRONI death-index evidence; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4209": {
+      "status": "pending",
+      "profile_id": "Glasgow-4209",
+      "reason": "Live profile created from reviewed GRONI death-index evidence; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4210": {
+      "status": "pending",
+      "profile_id": "Glasgow-4210",
+      "reason": "Live profile created from reviewed GRONI death-index evidence; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4211": {
+      "status": "pending",
+      "profile_id": "Glasgow-4211",
+      "reason": "Live profile created from reviewed GRONI death-index evidence; public metadata capture is pending before catalogue inclusion."
+    },
+    "Mitchell-58907": {
+      "status": "pending",
+      "profile_id": "Mitchell-58907",
+      "reason": "Live Belfast mother profile created from the supplied GRONI birth-index family group; public WikiTree metadata capture is pending before catalogue inclusion."
+    },
+    "Moore-107968": {
+      "status": "pending",
+      "profile_id": "Moore-107968",
+      "reason": "Live Belfast mother profile created from the supplied GRONI birth-index family group; public WikiTree metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4212": {
+      "status": "pending",
+      "profile_id": "Glasgow-4212",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4213": {
+      "status": "pending",
+      "profile_id": "Glasgow-4213",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4214": {
+      "status": "pending",
+      "profile_id": "Glasgow-4214",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4215": {
+      "status": "pending",
+      "profile_id": "Glasgow-4215",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4216": {
+      "status": "pending",
+      "profile_id": "Glasgow-4216",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4217": {
+      "status": "pending",
+      "profile_id": "Glasgow-4217",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4218": {
+      "status": "pending",
+      "profile_id": "Glasgow-4218",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4219": {
+      "status": "pending",
+      "profile_id": "Glasgow-4219",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4220": {
+      "status": "pending",
+      "profile_id": "Glasgow-4220",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4221": {
+      "status": "pending",
+      "profile_id": "Glasgow-4221",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4222": {
+      "status": "pending",
+      "profile_id": "Glasgow-4222",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4223": {
+      "status": "pending",
+      "profile_id": "Glasgow-4223",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4224": {
+      "status": "pending",
+      "profile_id": "Glasgow-4224",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4225": {
+      "status": "pending",
+      "profile_id": "Glasgow-4225",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4226": {
+      "status": "pending",
+      "profile_id": "Glasgow-4226",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4227": {
+      "status": "pending",
+      "profile_id": "Glasgow-4227",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4228": {
+      "status": "pending",
+      "profile_id": "Glasgow-4228",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4229": {
+      "status": "pending",
+      "profile_id": "Glasgow-4229",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4230": {
+      "status": "pending",
+      "profile_id": "Glasgow-4230",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4231": {
+      "status": "pending",
+      "profile_id": "Glasgow-4231",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4232": {
+      "status": "pending",
+      "profile_id": "Glasgow-4232",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4233": {
+      "status": "pending",
+      "profile_id": "Glasgow-4233",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4234": {
+      "status": "pending",
+      "profile_id": "Glasgow-4234",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4235": {
+      "status": "pending",
+      "profile_id": "Glasgow-4235",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4236": {
+      "status": "pending",
+      "profile_id": "Glasgow-4236",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4237": {
+      "status": "pending",
+      "profile_id": "Glasgow-4237",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4238": {
+      "status": "pending",
+      "profile_id": "Glasgow-4238",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4239": {
+      "status": "include",
+      "profile_id": "Glasgow-4239",
+      "reason": "Canonical profile for Eveline Glasgow's 1887 Belfast birth, after exact duplicate Glasgow-4240 was merged on 26 September 2026."
+    },
+    "Glasgow-4240": {
+      "status": "covered",
+      "profile_id": "Glasgow-4239",
+      "reason": "Exact duplicate birth registration; merged into Glasgow-4239 on 26 September 2026."
+    },
+    "Glasgow-4241": {
+      "status": "pending",
+      "profile_id": "Glasgow-4241",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4242": {
+      "status": "pending",
+      "profile_id": "Glasgow-4242",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4243": {
+      "status": "pending",
+      "profile_id": "Glasgow-4243",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4244": {
+      "status": "pending",
+      "profile_id": "Glasgow-4244",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4245": {
+      "status": "pending",
+      "profile_id": "Glasgow-4245",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4246": {
+      "status": "pending",
+      "profile_id": "Glasgow-4246",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4247": {
+      "status": "pending",
+      "profile_id": "Glasgow-4247",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4248": {
+      "status": "pending",
+      "profile_id": "Glasgow-4248",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4249": {
+      "status": "pending",
+      "profile_id": "Glasgow-4249",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4250": {
+      "status": "pending",
+      "profile_id": "Glasgow-4250",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4251": {
+      "status": "pending",
+      "profile_id": "Glasgow-4251",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4252": {
+      "status": "pending",
+      "profile_id": "Glasgow-4252",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4253": {
+      "status": "pending",
+      "profile_id": "Glasgow-4253",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4254": {
+      "status": "pending",
+      "profile_id": "Glasgow-4254",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4255": {
+      "status": "pending",
+      "profile_id": "Glasgow-4255",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4256": {
+      "status": "pending",
+      "profile_id": "Glasgow-4256",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4257": {
+      "status": "pending",
+      "profile_id": "Glasgow-4257",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4258": {
+      "status": "pending",
+      "profile_id": "Glasgow-4258",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4259": {
+      "status": "pending",
+      "profile_id": "Glasgow-4259",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4260": {
+      "status": "pending",
+      "profile_id": "Glasgow-4260",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4261": {
+      "status": "pending",
+      "profile_id": "Glasgow-4261",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4262": {
+      "status": "pending",
+      "profile_id": "Glasgow-4262",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4263": {
+      "status": "pending",
+      "profile_id": "Glasgow-4263",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4264": {
+      "status": "pending",
+      "profile_id": "Glasgow-4264",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4265": {
+      "status": "pending",
+      "profile_id": "Glasgow-4265",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4266": {
+      "status": "pending",
+      "profile_id": "Glasgow-4266",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4267": {
+      "status": "pending",
+      "profile_id": "Glasgow-4267",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4268": {
+      "status": "pending",
+      "profile_id": "Glasgow-4268",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4269": {
+      "status": "include",
+      "profile_id": "Glasgow-4269",
+      "reason": "Checked Open, non-living public profile captured 30 September 2026. Strong same-record identification with inspected 1867 Dirraw/Ballymoney birth entry 214: Mary Ellen, mother Mary Glasgow, Lisnagaver. Original reads 14 February; current GRONI index citation gives 17 February. Complete sourced correction is pending."
+    },
+    "Glasgow-4270": {
+      "status": "pending",
+      "profile_id": "Glasgow-4270",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4271": {
+      "status": "pending",
+      "profile_id": "Glasgow-4271",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4272": {
+      "status": "pending",
+      "profile_id": "Glasgow-4272",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4273": {
+      "status": "pending",
+      "profile_id": "Glasgow-4273",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4274": {
+      "status": "pending",
+      "profile_id": "Glasgow-4274",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4275": {
+      "status": "pending",
+      "profile_id": "Glasgow-4275",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4276": {
+      "status": "pending",
+      "profile_id": "Glasgow-4276",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4277": {
+      "status": "pending",
+      "profile_id": "Glasgow-4277",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4278": {
+      "status": "pending",
+      "profile_id": "Glasgow-4278",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4279": {
+      "status": "pending",
+      "profile_id": "Glasgow-4279",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4280": {
+      "status": "pending",
+      "profile_id": "Glasgow-4280",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4281": {
+      "status": "pending",
+      "profile_id": "Glasgow-4281",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4282": {
+      "status": "pending",
+      "profile_id": "Glasgow-4282",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4283": {
+      "status": "pending",
+      "profile_id": "Glasgow-4283",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4284": {
+      "status": "pending",
+      "profile_id": "Glasgow-4284",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4285": {
+      "status": "pending",
+      "profile_id": "Glasgow-4285",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4286": {
+      "status": "pending",
+      "profile_id": "Glasgow-4286",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4287": {
+      "status": "pending",
+      "profile_id": "Glasgow-4287",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4288": {
+      "status": "pending",
+      "profile_id": "Glasgow-4288",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4289": {
+      "status": "pending",
+      "profile_id": "Glasgow-4289",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4290": {
+      "status": "pending",
+      "profile_id": "Glasgow-4290",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4291": {
+      "status": "pending",
+      "profile_id": "Glasgow-4291",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4292": {
+      "status": "pending",
+      "profile_id": "Glasgow-4292",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4293": {
+      "status": "pending",
+      "profile_id": "Glasgow-4293",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4294": {
+      "status": "pending",
+      "profile_id": "Glasgow-4294",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4295": {
+      "status": "pending",
+      "profile_id": "Glasgow-4295",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4296": {
+      "status": "pending",
+      "profile_id": "Glasgow-4296",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4297": {
+      "status": "pending",
+      "profile_id": "Glasgow-4297",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4298": {
+      "status": "pending",
+      "profile_id": "Glasgow-4298",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4299": {
+      "status": "pending",
+      "profile_id": "Glasgow-4299",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4300": {
+      "status": "pending",
+      "profile_id": "Glasgow-4300",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4301": {
+      "status": "pending",
+      "profile_id": "Glasgow-4301",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4302": {
+      "status": "pending",
+      "profile_id": "Glasgow-4302",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4303": {
+      "status": "pending",
+      "profile_id": "Glasgow-4303",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4304": {
+      "status": "pending",
+      "profile_id": "Glasgow-4304",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4305": {
+      "status": "pending",
+      "profile_id": "Glasgow-4305",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4306": {
+      "status": "pending",
+      "profile_id": "Glasgow-4306",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4307": {
+      "status": "pending",
+      "profile_id": "Glasgow-4307",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4308": {
+      "status": "pending",
+      "profile_id": "Glasgow-4308",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4309": {
+      "status": "pending",
+      "profile_id": "Glasgow-4309",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4310": {
+      "status": "pending",
+      "profile_id": "Glasgow-4310",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4311": {
+      "status": "pending",
+      "profile_id": "Glasgow-4311",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4312": {
+      "status": "pending",
+      "profile_id": "Glasgow-4312",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4313": {
+      "status": "pending",
+      "profile_id": "Glasgow-4313",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4314": {
+      "status": "pending",
+      "profile_id": "Glasgow-4314",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4315": {
+      "status": "pending",
+      "profile_id": "Glasgow-4315",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4316": {
+      "status": "pending",
+      "profile_id": "Glasgow-4316",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4317": {
+      "status": "pending",
+      "profile_id": "Glasgow-4317",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4318": {
+      "status": "pending",
+      "profile_id": "Glasgow-4318",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4319": {
+      "status": "pending",
+      "profile_id": "Glasgow-4319",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4320": {
+      "status": "pending",
+      "profile_id": "Glasgow-4320",
+      "reason": "GRONI birth profile created; public metadata capture is pending before catalogue inclusion."
+    },
+    "Glasgow-4101": {
+      "status": "include",
+      "profile_id": "Glasgow-4101",
+      "reason": "Public historical profile with a maintained source draft and a reviewed uncertain gender correction, 26 September 2026."
+    },
+    "Glasgow-4102": {
+      "status": "include",
+      "profile_id": "Glasgow-4102",
+      "reason": "Public historical profile with a maintained source draft and a reviewed uncertain gender correction, 26 September 2026."
+    },
+    "Glasgow-4103": {
+      "status": "include",
+      "profile_id": "Glasgow-4103",
+      "reason": "Public historical profile with a maintained source draft and a reviewed uncertain gender correction, 26 September 2026."
+    },
+    "Glasgow-4104": {
+      "status": "include",
+      "profile_id": "Glasgow-4104",
+      "reason": "Public historical profile with a maintained source draft and a reviewed uncertain gender correction, 26 September 2026."
+    },
+    "Glasgow-4105": {
+      "status": "include",
+      "profile_id": "Glasgow-4105",
+      "reason": "Public historical profile with a maintained source draft and a reviewed uncertain gender correction, 26 September 2026."
+    },
+    "Glasgow-4108": {
+      "status": "include",
+      "profile_id": "Glasgow-4108",
+      "reason": "Public historical profile with a maintained source draft and a reviewed uncertain gender correction, 26 September 2026."
+    },
+    "Glasgow-4109": {
+      "status": "include",
+      "profile_id": "Glasgow-4109",
+      "reason": "Public historical profile with a maintained source draft and a reviewed uncertain gender correction, 26 September 2026."
+    },
+    "Glasgow-4110": {
+      "status": "include",
+      "profile_id": "Glasgow-4110",
+      "reason": "Public historical profile with a maintained source draft and a reviewed uncertain gender correction, 26 September 2026."
+    },
+    "Glasgow-4111": {
+      "status": "include",
+      "profile_id": "Glasgow-4111",
+      "reason": "Public historical profile with a maintained source draft and a reviewed uncertain gender correction, 26 September 2026."
+    },
+    "Glasgow-4112": {
+      "status": "include",
+      "profile_id": "Glasgow-4112",
+      "reason": "Public historical profile with a maintained source draft and a reviewed uncertain gender correction, 26 September 2026."
+    },
+    "Glasgow-4115": {
+      "status": "include",
+      "profile_id": "Glasgow-4115",
+      "reason": "Public historical profile with a maintained source draft and a reviewed uncertain gender correction, 26 September 2026."
+    },
+    "Glasgow-4116": {
+      "status": "include",
+      "profile_id": "Glasgow-4116",
+      "reason": "Public historical profile with a maintained source draft and a reviewed uncertain gender correction, 26 September 2026."
+    },
+    "Glasgow-4119": {
+      "status": "include",
+      "profile_id": "Glasgow-4119",
+      "reason": "Public historical profile with a maintained source draft and a reviewed uncertain gender correction, 26 September 2026."
+    },
+    "Glasgow-4120": {
+      "status": "include",
+      "profile_id": "Glasgow-4120",
+      "reason": "Public historical profile with a maintained source draft and a reviewed uncertain gender correction, 26 September 2026."
+    },
+    "Glasgow-4122": {
+      "status": "include",
+      "profile_id": "Glasgow-4122",
+      "reason": "Public historical profile with a maintained source draft and a reviewed uncertain gender correction, 26 September 2026."
+    },
+    "Glasgow-4123": {
+      "status": "include",
+      "profile_id": "Glasgow-4123",
+      "reason": "Public historical profile with a maintained source draft and a reviewed uncertain gender correction, 26 September 2026."
+    },
+    "Glasgow-4124": {
+      "status": "include",
+      "profile_id": "Glasgow-4124",
+      "reason": "Public historical profile with a maintained source draft and a reviewed uncertain gender correction, 26 September 2026."
+    },
+    "Glasgow-4125": {
+      "status": "include",
+      "profile_id": "Glasgow-4125",
+      "reason": "Public historical profile with a maintained source draft and a reviewed uncertain gender correction, 26 September 2026."
+    },
+    "Glasgow-4126": {
+      "status": "include",
+      "profile_id": "Glasgow-4126",
+      "reason": "Public historical profile with a maintained source draft and a reviewed uncertain gender correction, 26 September 2026."
+    },
+    "Glasgow-4127": {
+      "status": "include",
+      "profile_id": "Glasgow-4127",
+      "reason": "Public historical profile with a maintained source draft and a reviewed uncertain gender correction, 26 September 2026."
+    },
+    "Glasgow-4128": {
+      "status": "include",
+      "profile_id": "Glasgow-4128",
+      "reason": "Public historical profile with a maintained source draft and a reviewed uncertain gender correction, 26 September 2026."
+    },
+    "Glasgow-4129": {
+      "status": "include",
+      "profile_id": "Glasgow-4129",
+      "reason": "Public historical profile with a maintained source draft and a reviewed uncertain gender correction, 26 September 2026."
+    },
+    "Glasgow-4130": {
+      "status": "include",
+      "profile_id": "Glasgow-4130",
+      "reason": "Public historical profile with a maintained source draft and a reviewed uncertain gender correction, 26 September 2026."
+    },
+    "Glasgow-4132": {
+      "status": "include",
+      "profile_id": "Glasgow-4132",
+      "reason": "Public historical profile with a maintained source draft and a reviewed uncertain gender correction, 26 September 2026."
+    },
+    "Glasgow-4133": {
+      "status": "include",
+      "profile_id": "Glasgow-4133",
+      "reason": "Public historical profile with a maintained source draft and a reviewed uncertain gender correction, 26 September 2026."
+    },
+    "Glasgow-4134": {
+      "status": "include",
+      "profile_id": "Glasgow-4134",
+      "reason": "Public historical profile with a maintained source draft and a reviewed uncertain gender correction, 26 September 2026."
+    },
+    "Glasgow-4137": {
+      "status": "include",
+      "profile_id": "Glasgow-4137",
+      "reason": "Public historical profile with a maintained source draft and a reviewed uncertain gender correction, 26 September 2026."
+    },
+    "Glasgow-4138": {
+      "status": "include",
+      "profile_id": "Glasgow-4138",
+      "reason": "Public historical profile with a maintained source draft and a reviewed uncertain gender correction, 26 September 2026."
+    },
+    "Glasgow-4139": {
+      "status": "include",
+      "profile_id": "Glasgow-4139",
+      "reason": "Public historical profile with a maintained source draft and a reviewed uncertain gender correction, 26 September 2026."
+    },
+    "Glasgow-4141": {
+      "status": "covered",
+      "profile_id": "Glasgow-1406",
+      "reason": "Merged into Glasgow-1406 on WikiTree on 27 September 2026; source evidence and uncertainty retained in the surviving case."
+    },
+    "Glasgow-4142": {
+      "status": "include",
+      "profile_id": "Glasgow-4142",
+      "reason": "Public historical profile with a maintained source draft and a reviewed uncertain gender correction, 26 September 2026."
+    },
+    "Glasgow-4158": {
+      "status": "include",
+      "profile_id": "Glasgow-4158",
+      "reason": "Public historical Irvine parent profile with a reviewed possible duplicate pairing, 26 September 2026."
+    },
+    "Glasgow-4164": {
+      "status": "covered",
+      "profile_id": "Glasgow-4158",
+      "reason": "Merged into Glasgow-4158 on WikiTree on 27 September 2026; source evidence and uncertainty retained in the surviving case."
+    },
+    "Glasgow-4166": {
+      "status": "covered",
+      "profile_id": "Glasgow-1929",
+      "reason": "Merged into Glasgow-1929 on 27 September 2026; public research is on the surviving dossier."
+    },
+    "Glasgow-4167": {
+      "status": "covered",
+      "profile_id": "Glasgow-4166",
+      "reason": "Merged into Glasgow-4166 on WikiTree on 27 September 2026; source evidence and uncertainty retained in the surviving case."
+    },
+    "Glasgow-4168": {
+      "status": "include",
+      "profile_id": "Glasgow-4168",
+      "reason": "Public historical Libberton parent profile with a reviewed possible duplicate pairing, 26 September 2026."
+    },
+    "Glasgow-4169": {
+      "status": "covered",
+      "profile_id": "Glasgow-4168",
+      "reason": "Merged into Glasgow-4168 on WikiTree on 27 September 2026; source evidence and uncertainty retained in the surviving case."
+    },
+    "Glasgow-4095": {
+      "status": "include",
+      "profile_id": "Glasgow-4095",
+      "reason": "Public pre-1600 Corsoun testament daughter with evidence-led same-name identity comparison, reviewed 26 September 2026."
+    },
+    "Glasgow-4096": {
+      "status": "covered",
+      "profile_id": "Glasgow-3183",
+      "reason": "Merged on WikiTree 27 September 2026; current public assessment is on the surviving profile."
+    },
+    "Glasgow-4097": {
+      "status": "covered",
+      "profile_id": "Glasgow-3336",
+      "reason": "Merged on WikiTree 27 September 2026; probable Corsoun daughter to Edinburgh bride identity is assessed on the surviving profile."
+    },
+    "Stevinsoun-2": {
+      "status": "include",
+      "profile_id": "Stevinsoun-2",
+      "reason": "Public pre-1600 testament wife and proved mother with corrected age estimate and live family link, reviewed 26 September 2026."
+    },
+    "Glasgow-4007": {
+      "status": "covered",
+      "profile_id": "Glasgow-4006",
+      "reason": "Merged WikiTree redirect: erroneous William profile was merged into record-defined Robert Glasgow-4006; confirmed 26 September 2026."
+    },
+    "Willie-202": {
+      "status": "include",
+      "profile_id": "Willie-202",
+      "reason": "Public historical mother profile with documented Willie-296 duplicate merge and corrected baptism evidence, reviewed 26 September 2026."
+    },
+    "Willie-296": {
+      "status": "covered",
+      "profile_id": "Willie-202",
+      "reason": "Confirmed WikiTree merge redirect to older Willie-202, same Marie Glasgow 1688 Kilwinning baptism."
+    },
+    "Glasgow-3145": {
+      "status": "covered",
+      "profile_id": "Glasgow-1604",
+      "reason": "Merged into Glasgow-1604 on WikiTree on 27 September 2026; source evidence and uncertainty retained in the surviving case."
+    },
+    "Glasgow-1604": {
+      "status": "include",
+      "profile_id": "Glasgow-1604",
+      "reason": "Historical profile and surviving subject of a reviewed WikiTree duplicate merge on 27 September 2026."
+    },
+    "Glasgow-1406": {
+      "status": "include",
+      "profile_id": "Glasgow-1406",
+      "reason": "Historical profile and surviving subject of a reviewed WikiTree duplicate merge on 27 September 2026."
+    },
+    "Glasgow-117": {
+      "status": "covered",
+      "profile_id": "Glasgow-60",
+      "reason": "Merged into Glasgow-60 on WikiTree on 27 September 2026; historical evidence and uncertainty retained in the surviving case."
+    },
+    "Glasgow-60": {
+      "status": "include",
+      "profile_id": "Glasgow-60",
+      "reason": "Historical profile and surviving subject of a reviewed WikiTree duplicate merge on 27 September 2026."
+    },
+    "Glasgow-3295": {
+      "status": "covered",
+      "profile_id": "Glasgow-2441",
+      "reason": "Merged into Glasgow-2441 on WikiTree on 27 September 2026; historical evidence and uncertainty retained in the surviving case."
+    },
+    "Glasgow-2441": {
+      "status": "include",
+      "profile_id": "Glasgow-2441",
+      "reason": "Historical profile and surviving subject of a reviewed WikiTree duplicate merge on 27 September 2026."
+    },
+    "Glasgow-2453": {
+      "status": "covered",
+      "profile_id": "Glasgow-1087",
+      "reason": "Merged into Glasgow-1087 on WikiTree on 27 September 2026; historical evidence and uncertainty retained in the surviving case."
+    },
+    "Glasgow-1087": {
+      "status": "include",
+      "profile_id": "Glasgow-1087",
+      "reason": "Historical profile and surviving subject of a reviewed WikiTree duplicate merge on 27 September 2026."
+    },
+    "Glasgow-116": {
+      "status": "include",
+      "profile_id": "Glasgow-116",
+      "reason": "Historical profile with sourced duplicate-identity assessment, held because one profile has another manager; reviewed 27 September 2026."
+    },
+    "Glasgow-2613": {
+      "status": "include",
+      "profile_id": "Glasgow-2613",
+      "reason": "Historical profile with sourced duplicate-identity assessment, held because one profile has another manager; reviewed 27 September 2026."
+    },
+    "Glasgow-3645": {
+      "status": "include",
+      "profile_id": "Glasgow-3645",
+      "reason": "Historical profile with sourced duplicate-identity assessment, held because one profile has another manager; reviewed 27 September 2026."
+    },
+    "Glasgow-3789": {
+      "status": "include",
+      "profile_id": "Glasgow-3789",
+      "reason": "Historical profile with sourced duplicate-identity assessment, held because one profile has another manager; reviewed 27 September 2026."
+    },
+    "Glasgow-4149": {
+      "status": "covered",
+      "profile_id": "Glasgow-3338",
+      "reason": "Merged into Glasgow-3338 on WikiTree on 27 September 2026; source evidence and uncertainty retained in the surviving case."
+    },
+    "Glasgow-3338": {
+      "status": "include",
+      "profile_id": "Glasgow-3338",
+      "reason": "Historical profile and surviving subject of a reviewed WikiTree duplicate merge on 27 September 2026."
+    },
+    "Glasgow-4178": {
+      "status": "covered",
+      "profile_id": "Glasgow-3105",
+      "reason": "Merged into Glasgow-3105 on WikiTree on 27 September 2026; source evidence and uncertainty retained in the surviving case."
+    },
+    "Glasgow-3105": {
+      "status": "include",
+      "profile_id": "Glasgow-3105",
+      "reason": "Historical profile and surviving subject of a reviewed WikiTree duplicate merge on 27 September 2026."
+    },
+    "McGechan-24": {
+      "status": "covered",
+      "profile_id": "McEachin-120",
+      "reason": "Merged into McEachin-120 on 27 September 2026; public research is on the surviving dossier."
+    },
+    "McEachin-120": {
+      "status": "include",
+      "profile_id": "McEachin-120",
+      "reason": "Surviving historical profile from a source-preserving WikiTree merge on 27 September 2026."
+    },
+    "Glasgow-1929": {
+      "status": "include",
+      "profile_id": "Glasgow-1929",
+      "reason": "Surviving historical profile from a source-preserving WikiTree merge on 27 September 2026."
+    },
+    "Glasgow-4061": {
+      "status": "covered",
+      "profile_id": "Glasgow-3193",
+      "reason": "Merged into Glasgow-3193 on 27 September 2026; public research is on the surviving dossier."
+    },
+    "Glasgow-3193": {
+      "status": "include",
+      "profile_id": "Glasgow-3193",
+      "reason": "Surviving historical profile from a source-preserving WikiTree merge on 27 September 2026."
+    },
+    "Glasgow-3337": {
+      "status": "covered",
+      "profile_id": "Glasgow-3077",
+      "reason": "Merged into Glasgow-3077 on 27 September 2026; public research is on the surviving dossier."
+    },
+    "Glasgow-3077": {
+      "status": "include",
+      "profile_id": "Glasgow-3077",
+      "reason": "Surviving historical profile from a source-preserving WikiTree merge on 27 September 2026."
+    },
+    "Glasgow-3919": {
+      "status": "covered",
+      "profile_id": "Glasgow-1096",
+      "reason": "Merged into Glasgow-1096 on 27 September 2026; public research is on the surviving dossier."
+    },
+    "Glasgow-1096": {
+      "status": "include",
+      "profile_id": "Glasgow-1096",
+      "reason": "Surviving historical profile from a source-preserving WikiTree merge on 27 September 2026."
+    },
+    "Glasgow-3015": {
+      "status": "covered",
+      "profile_id": "Glasgow-1084",
+      "reason": "Merged on WikiTree 27 September 2026; current public assessment is on the surviving profile."
+    },
+    "Glasgow-1084": {
+      "status": "include",
+      "profile_id": "Glasgow-1084",
+      "reason": "Surviving profile after evidence-led WikiTree merge, reviewed 27 September 2026."
+    },
+    "Glasgow-3054": {
+      "status": "covered",
+      "profile_id": "Glasgow-2875",
+      "reason": "Merged on WikiTree 27 September 2026; current public assessment is on the surviving profile."
+    },
+    "Glasgow-2875": {
+      "status": "include",
+      "profile_id": "Glasgow-2875",
+      "reason": "Surviving profile after evidence-led WikiTree merge, reviewed 27 September 2026."
+    },
+    "Glasgow-3912": {
+      "status": "covered",
+      "profile_id": "Glasgow-1521",
+      "reason": "Merged on WikiTree 27 September 2026; current public assessment is on the surviving profile."
+    },
+    "Glasgow-1521": {
+      "status": "include",
+      "profile_id": "Glasgow-1521",
+      "reason": "Surviving profile after evidence-led WikiTree merge, reviewed 27 September 2026."
+    },
+    "Glasgow-3490": {
+      "status": "covered",
+      "profile_id": "Glasgow-3481",
+      "reason": "Merged on WikiTree 27 September 2026; current public assessment is on the surviving profile."
+    },
+    "Glasgow-3481": {
+      "status": "include",
+      "profile_id": "Glasgow-3481",
+      "reason": "Surviving profile after evidence-led WikiTree merge, reviewed 27 September 2026."
+    },
+    "Glasgow-3183": {
+      "status": "include",
+      "profile_id": "Glasgow-3183",
+      "reason": "Surviving profile after evidence-led WikiTree merge, reviewed 27 September 2026."
+    },
+    "Adamson-3318": {
+      "status": "include",
+      "profile_id": "Adamson-3318",
+      "reason": "Historical public profile father relationship reviewed 28 September 2026."
+    },
+    "Allen-77808": {
+      "status": "include",
+      "profile_id": "Allen-77808",
+      "reason": "Historical public profile father relationship reviewed 28 September 2026."
+    },
+    "Bryse-10": {
+      "status": "include",
+      "profile_id": "Bryse-10",
+      "reason": "Historical public profile father relationship reviewed 28 September 2026."
+    },
+    "Bryse-11": {
+      "status": "include",
+      "profile_id": "Bryse-11",
+      "reason": "Historical public profile father relationship reviewed 28 September 2026."
+    },
+    "Bryse-13": {
+      "status": "include",
+      "profile_id": "Bryse-13",
+      "reason": "Historical public profile father relationship reviewed 28 September 2026."
+    },
+    "Campbell-73041": {
+      "status": "include",
+      "profile_id": "Campbell-73041",
+      "reason": "Historical public profile father relationship reviewed 28 September 2026."
+    },
+    "Craig-19072": {
+      "status": "include",
+      "profile_id": "Craig-19072",
+      "reason": "Historical public profile father relationship reviewed 28 September 2026."
+    },
+    "Cunningham-22081": {
+      "status": "include",
+      "profile_id": "Cunningham-22081",
+      "reason": "Historical public profile father relationship reviewed 28 September 2026."
+    },
+    "Fawson-39": {
+      "status": "include",
+      "profile_id": "Fawson-39",
+      "reason": "Historical public profile father relationship reviewed 28 September 2026."
+    },
+    "Fawson-40": {
+      "status": "include",
+      "profile_id": "Fawson-40",
+      "reason": "Historical public profile father relationship reviewed 28 September 2026."
+    },
+    "Glasgow-4151": {
+      "status": "include",
+      "profile_id": "Glasgow-4151",
+      "reason": "Historical public profile father relationship reviewed 28 September 2026."
+    },
+    "Glasgow-4153": {
+      "status": "include",
+      "profile_id": "Glasgow-4153",
+      "reason": "Historical public profile father relationship reviewed 28 September 2026."
+    },
+    "Glassfuird-1": {
+      "status": "include",
+      "profile_id": "Glassfuird-1",
+      "reason": "Historical public profile father relationship reviewed 28 September 2026."
+    },
+    "Herbertson-132": {
+      "status": "include",
+      "profile_id": "Herbertson-132",
+      "reason": "Historical public profile father relationship reviewed 28 September 2026."
+    },
+    "Herbison-440": {
+      "status": "include",
+      "profile_id": "Herbison-440",
+      "reason": "Historical public profile father relationship reviewed 28 September 2026."
+    },
+    "Hutcheson-1648": {
+      "status": "include",
+      "profile_id": "Hutcheson-1648",
+      "reason": "Historical public profile father relationship reviewed 28 September 2026."
+    },
+    "Hutcheson-1649": {
+      "status": "include",
+      "profile_id": "Hutcheson-1649",
+      "reason": "Historical public profile father relationship reviewed 28 September 2026."
+    },
+    "Hutcheson-1652": {
+      "status": "include",
+      "profile_id": "Hutcheson-1652",
+      "reason": "Historical public profile father relationship reviewed 28 September 2026."
+    },
+    "Hutcheson-1654": {
+      "status": "include",
+      "profile_id": "Hutcheson-1654",
+      "reason": "Historical public profile father relationship reviewed 28 September 2026."
+    },
+    "Hutcheson-1655": {
+      "status": "include",
+      "profile_id": "Hutcheson-1655",
+      "reason": "Historical public profile father relationship reviewed 28 September 2026."
+    },
+    "Hutcheson-1650": {
+      "status": "include",
+      "profile_id": "Hutcheson-1650",
+      "reason": "Historical public profile father relationship reviewed 28 September 2026."
+    },
+    "Hutcheson-1647": {
+      "status": "include",
+      "profile_id": "Hutcheson-1647",
+      "reason": "Historical public profile father relationship reviewed 28 September 2026."
+    },
+    "Johnstoun-30": {
+      "status": "include",
+      "profile_id": "Johnstoun-30",
+      "reason": "Historical public profile father relationship reviewed 28 September 2026."
+    },
+    "Johnstoun-31": {
+      "status": "include",
+      "profile_id": "Johnstoun-31",
+      "reason": "Historical public profile father relationship reviewed 28 September 2026."
+    },
+    "Johnstoun-32": {
+      "status": "include",
+      "profile_id": "Johnstoun-32",
+      "reason": "Historical public profile father relationship reviewed 28 September 2026."
+    },
+    "Johnstoun-33": {
+      "status": "include",
+      "profile_id": "Johnstoun-33",
+      "reason": "Historical public profile father relationship reviewed 28 September 2026."
+    },
+    "Johnstoun-47": {
+      "status": "include",
+      "profile_id": "Johnstoun-47",
+      "reason": "Historical public profile father relationship reviewed 28 September 2026."
+    },
+    "Johnstoun-48": {
+      "status": "include",
+      "profile_id": "Johnstoun-48",
+      "reason": "Historical public profile father relationship reviewed 28 September 2026."
+    },
+    "Montgomery-24360": {
+      "status": "include",
+      "profile_id": "Montgomery-24360",
+      "reason": "Historical public profile father relationship reviewed 28 September 2026."
+    },
+    "Porteous-915": {
+      "status": "include",
+      "profile_id": "Porteous-915",
+      "reason": "Historical public profile father relationship reviewed 28 September 2026."
+    },
+    "Robertson-32083": {
+      "status": "include",
+      "profile_id": "Robertson-32083",
+      "reason": "Historical public profile father relationship reviewed 28 September 2026."
+    },
+    "Spreul-22": {
+      "status": "include",
+      "profile_id": "Spreul-22",
+      "reason": "Historical public profile father relationship reviewed 28 September 2026."
+    },
+    "Spreul-24": {
+      "status": "include",
+      "profile_id": "Spreul-24",
+      "reason": "Historical public profile father relationship reviewed 28 September 2026."
+    },
+    "Spreul-26": {
+      "status": "include",
+      "profile_id": "Spreul-26",
+      "reason": "Historical public profile father relationship reviewed 28 September 2026."
+    },
+    "Sprewel-11": {
+      "status": "include",
+      "profile_id": "Sprewel-11",
+      "reason": "Historical public profile father relationship reviewed 28 September 2026."
+    },
+    "Spreul-23": {
+      "status": "include",
+      "profile_id": "Spreul-23",
+      "reason": "Historical public profile father relationship reviewed 28 September 2026."
+    },
+    "Symington-722": {
+      "status": "include",
+      "profile_id": "Symington-722",
+      "reason": "Historical public profile father relationship reviewed 28 September 2026."
+    },
+    "Symington-724": {
+      "status": "include",
+      "profile_id": "Symington-724",
+      "reason": "Historical public profile father relationship reviewed 28 September 2026."
+    },
+    "Symington-721": {
+      "status": "include",
+      "profile_id": "Symington-721",
+      "reason": "Historical public profile father relationship reviewed 28 September 2026."
+    },
+    "Glasgow-4150": {
+      "status": "include",
+      "profile_id": "Glasgow-4150",
+      "reason": "Open historical Prescott shipbuilder; proved sibling group and reviewed uncertain father connection, 30 September 2026."
+    },
+    "Grey-2711": {
+      "status": "include",
+      "profile_id": "Grey-2711",
+      "reason": "Existing Open/non-living profile matched to the reviewed historical marriage or household; public biography and metadata checked 30 September 2026."
+    },
+    "Elder-5907": {
+      "status": "include",
+      "profile_id": "Elder-5907",
+      "reason": "Existing Open/non-living profile matched to the reviewed historical marriage or household; public biography and metadata checked 30 September 2026."
+    },
+    "Anderson-47669": {
+      "status": "include",
+      "profile_id": "Anderson-47669",
+      "reason": "Existing Open/non-living profile matched to the reviewed historical marriage or household; public biography and metadata checked 30 September 2026."
+    }
+  }
+}

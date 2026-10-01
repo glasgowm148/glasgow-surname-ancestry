@@ -165,6 +165,12 @@ def repair() -> Counter[str]:
     if page != original:
         PAGE.write_text(page, encoding="utf-8")
         changed["latest_research"] += 1
+    if (ROOT / 'research/latest-findings.json').exists():
+        try:
+            from tools.build_latest_findings import repair as repair_findings
+        except ModuleNotFoundError:
+            from build_latest_findings import repair as repair_findings
+        changed.update(repair_findings())
     return changed
 
 

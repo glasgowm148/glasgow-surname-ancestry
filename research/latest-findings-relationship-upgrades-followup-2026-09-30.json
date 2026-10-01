@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "audit_date": "2026-09-30",
+  "purpose": "Follow-up audit of saved historical research for genuine uncertain/unknown-to-certain relationship transitions omitted from the primary ledger.",
+  "ledger_audited": "research/latest-findings-relationship-upgrades.json",
+  "scope": "All maintained research dates and relationship types; no live edits or website changes.",
+  "coverage_note": {
+    "accepted_in_this_followup": "2 dated finding batches, 7 relationship transitions: Hamilton original census (19 August 2026; 2 sibling, 1 father, 1 mother) and Daniel Glasgow will/Neely marriage chain (17 July 2026 source review; 1 father, 1 sibling, 1 child).",
+    "known_combined_audit_state": "Root integration reports 3 findings, 9 transitions, and 2 father findings after combining this follow-up with the Prescott sibling finding and the Samuel edges.",
+    "additional_confirmed_batches_found": 0,
+    "limits": "The named June–September cases reviewed here yielded no further accepted transitions with recoverable prior status beyond those batches. Cases with direct kin wording but no dated prior status are listed as excluded or direct evidence; this is not a claim that every historical file has been exhaustively re-read."
+  },
+  "proposals": [
+    {
+      "finding_id": "hamilton-ballycraigargh-sibling-parent-1851",
+      "found_on": "2026-08-19",
+      "relationship_changes": [
+        {
+          "relationship": "sibling",
+          "subject": "Nancy Hamilton (Hamilton-44032)",
+          "relative": "Peggy Hamilton (Hamilton-25516)",
+          "before": "unknown",
+          "after": "certain",
+          "explanation": "The original 1851 Ballycraigargh census living return calls Nancy James Glasgow's unmarried sister-in-law; Peggy is James's wife. The paired mortality return calls Robert and Cathrin Hamilton James's father-in-law and mother-in-law. Nancy is therefore Peggy's sister and a daughter of Robert and Cathrin.",
+          "previous_status_provenance": [
+            "research/Hamilton-44032/findings.md:1-5 (new direct relationship finding; no earlier sourced relationship recorded)",
+            "research/Hamilton-25516/findings.md:5-16 (19 August 2026 assessment distinguishes the newly evidenced sibling/parent links from Peggy's still-uncertain maternity links)"
+          ],
+          "source_citations": [
+            "1851 Census of Ireland, Dunaghy parish, Ballycraigargh household 29, living return, image 251",
+            "1851 Census of Ireland, same household, mortality return, image 252"
+          ],
+          "source_urls": [
+            "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G94X-YD22",
+            "https://www.familysearch.org/ark:/61903/3:1:3QS7-L94X-Y621"
+          ],
+          "affected_profiles": ["Hamilton-44032", "Hamilton-25516", "Hamilton-44031", "Unknown-764457"]
+        },
+        {
+          "relationship": "sibling",
+          "subject": "Jane Hamilton (Hamilton-44033)",
+          "relative": "Peggy Hamilton (Hamilton-25516)",
+          "before": "unknown",
+          "after": "certain",
+          "explanation": "The original 1851 Ballycraigargh census living return calls Jane James Glasgow's unmarried sister-in-law; Peggy is James's wife. The paired mortality return calls Robert and Cathrin Hamilton James's father-in-law and mother-in-law. Jane is therefore Peggy's sister and a daughter of Robert and Cathrin.",
+          "previous_status_provenance": [
+            "research/Hamilton-44033/findings.md:1-5 (new direct relationship finding; no earlier sourced relationship recorded)",
+            "research/Hamilton-25516/findings.md:5-16 (19 August 2026 assessment distinguishes the newly evidenced sibling/parent links from Peggy's still-uncertain maternity links)"
+          ],
+          "source_citations": [
+            "1851 Census of Ireland, Dunaghy parish, Ballycraigargh household 29, living return, image 251",
+            "1851 Census of Ireland, same household, mortality return, image 252"
+          ],
+          "source_urls": [
+            "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G94X-YD22",
+            "https://www.familysearch.org/ark:/61903/3:1:3QS7-L94X-Y621"
+          ],
+          "affected_profiles": ["Hamilton-44033", "Hamilton-25516", "Hamilton-44031", "Unknown-764457"]
+        }
+      ],
+      "additional_parent_transitions": [
+        {
+          "relationship": "father",
+          "subject": "Peggy Hamilton (Hamilton-25516)",
+          "relative": "Robert Hamilton (Hamilton-44031)",
+          "before": "unknown",
+          "after": "certain",
+          "role": "father",
+          "source_basis": "The mortality return explicitly identifies Robert as James's father-in-law, while the living return identifies Peggy as James's wife."
+        },
+        {
+          "relationship": "mother",
+          "subject": "Peggy Hamilton (Hamilton-25516)",
+          "relative": "Cathrin Hamilton (Unknown-764457)",
+          "before": "unknown",
+          "after": "certain",
+          "role": "mother",
+          "source_basis": "The mortality return explicitly identifies Cathrin as James's mother-in-law, while the living return identifies Peggy as James's wife."
+        }
+      ],
+      "queue": "Add the four relationship transitions to the relationship-upgrade review; preserve Peggy's separate uncertain maternity links to the Glasgow children."
+    },
+    {
+      "finding_id": "daniel-glasgow-will-neely-family-1871-1888",
+      "found_on": "2026-07-17",
+      "classification": "historical direct-relationship backfill; source discovery/review date is 17 July 2026, while later September files reassess and consolidate the chain. Prior live confidence is not asserted where the maintained evidence does not record it.",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "David Glasgow (Glasgow-3905)",
+          "relative": "Daniel Glasgow (Glasgow-3896)",
+          "before": "unrecorded",
+          "after": "certain",
+          "explanation": "Daniel's original 1871 will calls David Glasgow of the City of London his son and leaves him the residue. The maintained case explicitly says this supersedes the prior profile statement that no record named Daniel as David's father.",
+          "previous_status_provenance": ["research/Glasgow-3896/findings.md:5-6,55 (explicit prior no-record statement and direct will resolution)", "research/Glasgow-3905/findings.md:189 (person-specific review)"],
+          "source_citations": ["Original registered will of Daniel Glasgow of Kilrea, proved 1871"],
+          "affected_profiles": ["Glasgow-3905", "Glasgow-3896"]
+        },
+        {
+          "relationship": "sibling",
+          "subject": "Daniel Glasgow (Glasgow-3896)",
+          "relative": "Thomas Glasgow (Glasgow-987)",
+          "before": "unrecorded",
+          "after": "certain",
+          "explanation": "The original will calls Thomas Glasgow Daniel's late brother; Daniel Neely's original 1888 marriage names Thomas as his father, identifying the Lisnagaver family in the same chain.",
+          "previous_status_provenance": ["research/Glasgow-3896/findings.md:5-6,63-64 (relationship described as newly proved from the will and marriage)"],
+          "source_citations": ["Original registered will of Daniel Glasgow of Kilrea, proved 1871", "Original civil marriage return, 28 June 1888"],
+          "affected_profiles": ["Glasgow-3896", "Glasgow-987"]
+        },
+        {
+          "relationship": "child",
+          "role": "father",
+          "subject": "Daniel Neely Glasgow (Glasgow-2413)",
+          "relative": "Thomas Glasgow (Glasgow-987)",
+          "before": "unrecorded",
+          "after": "certain",
+          "explanation": "Daniel Neely's original 28 June 1888 marriage return names Thomas Glasgow, farmer, as his father; the uncle's will independently identifies the same Daniel as his nephew and Thomas as his brother.",
+          "previous_status_provenance": ["research/Glasgow-2413/findings.md:8-19,38-39 (5 September master review calls the father link proved; direct record chain)"],
+          "source_citations": ["Original civil marriage return, 28 June 1888", "Original registered will of Daniel Glasgow of Kilrea, proved 1871"],
+          "affected_profiles": ["Glasgow-2413", "Glasgow-987", "Glasgow-3896"]
+        }
+      ],
+      "direct_evidence_without_enum": [
+        {"statement": "Daniel Glasgow's 1871 will calls Daniel Neely Glasgow his nephew.", "sources": ["research/Glasgow-3896/findings.md:5-8,55-58"]}
+      ],
+      "queue": "Review the direct father/son and sibling transitions as one family-chain batch. Retain the nephew statement as direct evidence without counting it as a relationship-change row. Do not extend the chain to Alexander Glasgow-951 or the unproved parents of Daniel and Thomas."
+    }
+  ],
+  "artificial_exclusions": [
+    {
+      "finding_id": "hamilton-ballycraigargh-sibling-parent-1851",
+      "issue": "The primary ledger's exclusion groups cover later 2026 index/transcript batches but omit this 19 August 2026 original-census case. Treating it as absent because the short finding files were created or expanded later would miss a dated, direct relationship resolution."
+    }
+  ],
+  "reviewed_non_upgrades": [
+    "Glasgow-1027's Ninian-to-Robert parentage was already recorded as certain in its maintained conclusion and is not a new audit transition.",
+    "Glasgow-3193's Corsankell father edge is explicitly confident/uncertain by profile identity scope, not a certain profile-level upgrade.",
+    "Baptism/transcript rows that say to preserve uncertain relationships or add supporting evidence do not qualify without a dated prior-status transition.",
+    "Glasgow-1143/1144's 21 September deed is direct corroboration of an already maintained James-as-Robert relationship, not a newly documented transition.",
+    "Boyd-18548/Mary Jane's 12 September marriage and birth records establish spouse, father and mother links, but the maintained text does not give a recoverable prior unknown/uncertain status for those exact edges; exclude from the accepted ledger.",
+    "The 19 August Ballycregagh Boyd son record confirms James as father while Peggy remains uncertain; it is not a new certain mother transition.",
+    "Glasgow-1096's 28 September John/Marion common-father conclusions are explicitly confident/probable rather than certain, so they do not qualify.",
+    "Glasgow-3449's 23 September death correction concerns date/place certainty, not a relationship transition.",
+    "The 15 September 1869 C298 deed's Mary Black-as-Robert's-sister statement is direct collateral evidence, but the maintained files do not document a prior unknown/uncertain status for that exact edge; retain as an audit lead, not an accepted upgrade."
+  ],
+  "limitations": "This is an audit of recoverable maintained research text and dated case updates, not a live WikiTree relationship-status audit. No browser or external search was used."
+}

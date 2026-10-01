@@ -37,6 +37,33 @@ visible research section in the same task.
 
 ## Current update paths
 
+- Latest findings: record each substantive new concrete finding or supported
+  correction in `research/latest-findings.json`, using its actual research
+  discovery date, source citations, affected public people, assessment and
+  remaining limits. Group a shared record across profiles into one finding.
+  Exclude unsuccessful searches, speculative candidates and UI/build updates;
+  never infer a discovery date from file modification time. Run
+  `.venv/bin/python tools/build_latest_findings.py` after the affected dossiers
+  or studies are synchronized. The release and catalogue research pipelines
+  also rebuild `/latest-findings/`. The existing `/changes/` history remains
+  available for website updates and broader case reviews.
+  Every named subject must have a checked existing/candidate profile link or
+  a complete sourced public draft after a proper duplicate check. Keep plausible
+  matches unless concrete evidence conflicts; missing fields or missing extra
+  corroboration alone do not rule them out. Consolidate compatible records and
+  reuse existing drafts. For an actual uncertain/unknown-to-certain relationship
+  change, record `relationship_changes` with the relationship, subject, relative,
+  before/after status, explanation and internal `previous_status_provenance`.
+  Do not count previously certain links or ordinary source confirmations.
+  Synchronize and rebuild after every coherent batch; this remains an agent
+  workflow rather than a background watcher.
+  Consolidated public draft handoffs are maintained in
+  `research/latest-findings-subjects/subjects.json`; the findings builder invokes
+  `tools/build_research_subject_drafts.py` before validating links. Use
+  `people[].draft_url` for an additional evidence draft alongside a directly
+  linked candidate profile. Update any superseded unmatched assessment in its
+  maintained record review and public study, retaining dated history.
+
 - Person findings: `research/<ID>/findings.md`. Use the headings supported by the
   project skill: current conclusion, source findings, identity/relationship
   assessments and unresolved/priority actions. The full catalogue builder reads
@@ -134,3 +161,29 @@ Exclude credentials, restricted captures, raw sensitive DNA data and private
 living-person information. Incomplete research may be visible as an explicitly
 labelled lead or open question with its evidence limits; never make a pending
 identity or parentage look established merely to populate the website.
+
+## Catalogue research views and historical confidence audit
+
+The catalogue Table and Map use the same filtered profile set. Map points retain
+their recorded precision; unmapped profiles and broad country locations must be
+identified explicitly. Branch maps precede long research panels, and clicking
+the map background dismisses previews. Profile comparisons retain aligned current
+and replacement columns with red removals and green additions.
+
+After each coherent research batch, run `tools/build_research_queue.py` alongside
+latest-findings synchronization. It consolidates held OPR identities, public
+subject drafts, older creation drafts, pending profile amendments and open
+studies in `/catalogue/#research-queue`. Reconcile completed amendments and
+superseded drafts; maintain `research/research-queue-overrides.json` for dated
+source drafts whose recommendation has been superseded. Preserve the original
+evidence and direct readers to the current subject account.
+
+The requested 30 September historical audit is maintained in
+`research/historical-relationship-audit-2026-09-30.json` and its Markdown report.
+`tools/backfill_relationship_status_audit.py` preserves actual saved grades and
+source provenance; `tools/build_relationship_audit.py` renders the public account
+at `/research/relationship-audit/`. The reconciled ledger records 38 changes:
+14 uncertain/unknown to certain and 24 previously ungraded to certain. These are
+historical confidence reviews, not 38 new record discoveries. Already confident
+relationships without a recoverable prior grade are excluded from this count.
+Release finalization refreshes both the audit and central queue automatically.

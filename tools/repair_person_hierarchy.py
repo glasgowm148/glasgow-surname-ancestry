@@ -34,7 +34,7 @@ except ModuleNotFoundError:
 
 ROOT = Path(__file__).resolve().parents[1]
 WEB = ROOT / "www"
-PRESENTATION_VERSION = "26"
+PRESENTATION_VERSION = "34"
 _PRIVACY_CACHE = None
 
 def _public_projection(value):
@@ -47,8 +47,8 @@ def _public_projection(value):
         _PRIVACY_CACHE = from_sources()
     return _PRIVACY_CACHE.project(value)
 
-ASSET = f"/assets/repair/person-hierarchy.css?v={PRESENTATION_VERSION}"
 _INDEX_CACHE: dict[str, dict] | None = None
+_PROFILE_UPDATE_CACHE: dict[str, dict] | None = None
 
 CSS = r"""
 .person-hierarchy .dossier-header{padding:12px 0 28px;border-bottom:1px solid var(--g-line,#cbd7c5)}
@@ -146,7 +146,185 @@ CSS = r"""
 @media(max-width:680px){.person-hierarchy .biography-content .biography-table{display:block;width:100%;font-size:.9rem}.person-hierarchy .biography-content .biography-table thead{display:none}.person-hierarchy .biography-content .biography-table tbody{display:block;width:100%}.person-hierarchy .biography-content .biography-table tr{display:block;width:100%;padding:10px 0;border-bottom:1px solid #d5ded1}.person-hierarchy .biography-content .biography-table td{display:block;border:0;padding:5px 10px;min-width:0!important}.person-hierarchy .biography-content .biography-table td::before{content:attr(data-label);display:block;color:#657463;font-size:.68rem;font-weight:800;letter-spacing:.04em;text-transform:uppercase;margin-bottom:2px}}
 .person-hierarchy .record-excerpt{margin:25px 0;padding:16px;border:1px solid #c6d6c5;border-radius:7px;background:#f7f8f0;min-width:0}.person-hierarchy .record-excerpt>h3{margin:0 0 12px;font-size:1.05rem}.person-hierarchy .record-controls{display:flex;flex-wrap:wrap;gap:9px 18px;align-items:center;margin-bottom:12px;font-size:.8rem}.person-hierarchy .record-controls label{display:flex;align-items:center;gap:6px;cursor:pointer;min-height:36px}.person-hierarchy .record-controls input{width:18px;height:18px;accent-color:#315a43}.person-hierarchy .record-viewport{max-width:100%;overflow:auto;border:1px solid #d2d2c1;background:#eee9dc}.person-hierarchy .record-stage{position:relative;width:100%;line-height:0}.person-hierarchy .record-stage img{display:block;width:100%;height:auto;max-width:none}.person-hierarchy .record-guides-layer{display:block;position:absolute;inset:0;pointer-events:none}.person-hierarchy .record-highlight{display:none}.person-hierarchy .record-highlight.is-active{display:block}.person-hierarchy .record-controls select{max-width:100%;padding:7px;border:1px solid #9cab94;border-radius:4px;background:#fffefa;color:#304b37;font:inherit}.person-hierarchy .record-controls label:has(select){flex-wrap:wrap;min-width:0;max-width:100%}.person-hierarchy .record-excerpt:has(.record-enlarge:checked) .record-stage{width:max(100%,var(--record-width))}.person-hierarchy .record-highlight{position:absolute;border:2px solid #a85012;background:rgba(255,213,82,.12)}.person-hierarchy .record-highlight b{position:absolute;left:0;top:0;background:#8e3f0d;color:#fff;font:700 11px/15px Arial,sans-serif;padding:0 3px;transform:translateY(-100%)}.person-hierarchy .record-excerpt figcaption{font-size:.9rem;line-height:1.6}.person-hierarchy .record-excerpt h4{margin:15px 0 4px;font-size:.82rem;color:#35523d}.person-hierarchy .record-excerpt p{margin:6px 0}.person-hierarchy .record-provenance{font-size:.76rem;color:#617064}.person-hierarchy .record-legend{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:4px 18px;font-size:.78rem}.person-hierarchy .record-reading{border-left:3px solid #b6c8af;padding-left:12px}.person-hierarchy .record-viewport:focus-visible{outline:2px solid #315a43;outline-offset:3px}@media(max-width:680px){.person-hierarchy .record-excerpt{padding:10px}.person-hierarchy .record-controls{gap:4px 12px}.person-hierarchy .record-controls label{width:100%}}
 
+.person-hierarchy .supporting-research .evidence-group{margin:9px 0;background:#f5f7ef;border:1px solid #d8e1d2;border-radius:6px}
+.person-hierarchy .supporting-research summary>span{font-weight:650}.person-hierarchy .supporting-research summary>small{display:block;margin:4px 0 0 18px;line-height:1.55;font-size:.84rem;overflow-wrap:anywhere}
+.person-hierarchy .evidence-group-body{padding:6px 14px 14px}.person-hierarchy .evidence-group-body .biography-section{padding:0;border:0}.person-hierarchy .evidence-group-body .biography-disclosure{margin:8px 0;background:#fffefa;border:1px solid #dce3d5;border-radius:4px}
+.person-hierarchy .evidence-group-body .biography-content{padding:12px 16px}.person-hierarchy .account-section .biography-content>p:first-child{margin-top:0}.person-hierarchy .account-section .biography-content .biography-table caption{display:none}.person-hierarchy .account-section .biography-table{font-size:.9rem}
+.person-hierarchy .reading-guide-actions{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}.person-hierarchy .reading-guide-actions[hidden]{display:none}.person-hierarchy .reading-guide-actions button{padding:8px 12px;border:1px solid #c4d2bf;border-radius:5px;background:#f0f4e9;color:#315a43;cursor:pointer}.person-hierarchy .supporting-research summary:focus-visible{outline:2px solid #315a43;outline-offset:2px}
+@media(max-width:680px){.person-hierarchy .evidence-group-body{padding:4px 8px 8px}.person-hierarchy .evidence-group-body .biography-content{padding:10px}.person-hierarchy .supporting-research summary{padding:12px}.person-hierarchy .supporting-research summary>small{margin-left:0}}
+@media(max-width:680px){.person-hierarchy .account-section .biography-content .biography-table{display:table;table-layout:fixed}.person-hierarchy .account-section .biography-content .biography-table thead{display:table-header-group}.person-hierarchy .account-section .biography-content .biography-table tbody{display:table-row-group}.person-hierarchy .account-section .biography-content .biography-table tr{display:table-row}.person-hierarchy .account-section .biography-content .biography-table th,.person-hierarchy .account-section .biography-content .biography-table td{display:table-cell;padding:9px 8px;border-bottom:1px solid #d5ded1}.person-hierarchy .account-section .biography-content .biography-table th:first-child{width:34%}.person-hierarchy .account-section .biography-content .biography-table td::before{display:none}}
 """
+
+
+CSS += (ROOT / "tools/person_account.css").read_text(encoding="utf-8")
+CSS += r"""
+.person-hierarchy .profile-update-panel{margin:28px 0;padding:20px;border:2px solid #9ab38f;border-radius:9px;background:#f6f9f0;box-shadow:0 2px 8px rgba(49,90,67,.08)}
+.person-hierarchy .profile-update-panel h2{margin-top:0}.person-hierarchy .profile-update-panel textarea{box-sizing:border-box;width:100%;max-width:100%;font:13px/1.5 ui-monospace,SFMono-Regular,Menlo,monospace;white-space:pre-wrap;overflow:auto}
+.person-hierarchy .profile-update-panel textarea{min-height:16rem;padding:12px;border:1px solid #b6c8af;border-radius:5px;background:#fffefa;color:#26372a;resize:vertical}
+.person-hierarchy .profile-diff-scroll{max-width:100%;max-height:60vh;min-height:350px;overflow:auto;overscroll-behavior-inline:contain;border:1px solid #d0dac9;border-radius:5px;background:#fffefa}.person-hierarchy .profile-update-diff{min-width:640px;background:#fffefa;color:#26372a;font:13px/1.5 ui-monospace,SFMono-Regular,Menlo,monospace}.person-hierarchy .profile-diff-header,.person-hierarchy .profile-diff-row{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr)}.person-hierarchy .profile-diff-header{position:sticky;top:0;z-index:1;border-bottom:1px solid #d0dac9;background:#edf3e8;color:#45634d;font:700 11px/1.4 var(--g-sans,Arial,sans-serif);letter-spacing:.04em;text-transform:uppercase}.person-hierarchy .profile-diff-header>span{padding:9px 12px}.person-hierarchy .profile-diff-header>span+span,.person-hierarchy .profile-diff-cell+.profile-diff-cell{border-left:1px solid #d0dac9}.person-hierarchy .profile-diff-cell{display:grid;grid-template-columns:3.1em minmax(0,1fr);gap:8px;min-height:1.5em;padding:3px 10px;white-space:pre-wrap;overflow-wrap:anywhere}.person-hierarchy .profile-diff-row+.profile-diff-row{border-top:1px solid #eef1eb}.person-hierarchy .profile-diff-line-number{color:#87948f;text-align:right;user-select:none}.person-hierarchy .profile-diff-text{min-width:0}.person-hierarchy .profile-diff-side-label{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}.person-hierarchy .profile-diff-row.is-removed .profile-diff-cell:first-child,.person-hierarchy .profile-diff-row.is-changed .profile-diff-cell:first-child{background:#f9e7e5;color:#7d2d2b}.person-hierarchy .profile-diff-row.is-added .profile-diff-cell:last-child,.person-hierarchy .profile-diff-row.is-changed .profile-diff-cell:last-child{background:#e4f3e8;color:#236541}.person-hierarchy .profile-diff-row.is-removed .profile-diff-cell:last-child,.person-hierarchy .profile-diff-row.is-added .profile-diff-cell:first-child{background:#f2f4f3;color:#9aa49f}.person-hierarchy .profile-diff-row.is-removed .profile-diff-cell:last-child .profile-diff-text,.person-hierarchy .profile-diff-row.is-added .profile-diff-cell:first-child .profile-diff-text{visibility:hidden}
+.person-hierarchy .profile-current-capture{margin:16px 0}.person-hierarchy .profile-current-capture summary{cursor:pointer;font-weight:650}.person-hierarchy .profile-capture-note{font-size:.82rem;color:#5c6b5c}
+.person-hierarchy .profile-update-panel .copy-wikitree{margin:8px 0;padding:8px 12px;border:1px solid #75936d;border-radius:5px;background:#eaf2df;color:#294d35;cursor:pointer}.person-hierarchy .profile-update-panel .copy-wikitree:focus-visible{outline:2px solid #315a43;outline-offset:2px}
+@media(max-width:680px){.person-hierarchy .profile-update-panel{padding:13px}.person-hierarchy .profile-update-panel .profile-update-diff{min-width:680px;font-size:12px}.person-hierarchy .profile-diff-side-label{position:static;width:auto;height:auto;margin:0;overflow:visible;clip:auto;white-space:nowrap;grid-column:1/-1;color:#687771;font:700 10px/1.3 var(--g-sans,Arial,sans-serif);letter-spacing:.04em;text-transform:uppercase}.person-hierarchy .profile-diff-cell{grid-template-columns:3em minmax(0,1fr);gap:3px 7px}.person-hierarchy .profile-diff-cell .profile-diff-line-number{grid-column:1}.person-hierarchy .profile-diff-cell .profile-diff-text{grid-column:2;grid-row:2}.person-hierarchy .profile-update-panel textarea{min-height:12rem}}
+"""
+ASSET = f"/assets/repair/person-hierarchy.css?v={PRESENTATION_VERSION}-{hashlib.sha256(CSS.encode()).hexdigest()[:10]}"
+
+# The hierarchy renderer runs after the catalogue builder.  The public dossier
+# keeps only update metadata and the proposed text, while the saved capture
+# remains in the private evidence store.  Load that store here so replacing the
+# old main element does not discard the reviewable current profile and diff.
+def _profile_update_data(profile_id: str, dossier: dict) -> dict | None:
+    global _PROFILE_UPDATE_CACHE
+    if _PROFILE_UPDATE_CACHE is None:
+        _PROFILE_UPDATE_CACHE = {}
+        try:
+            from build_research_catalog import _load_profile_updates, _load_wikitree_evidence
+        except ModuleNotFoundError:
+            from tools.build_research_catalog import _load_profile_updates, _load_wikitree_evidence
+        try:
+            _PROFILE_UPDATE_CACHE.update(
+                _load_profile_updates(_load_wikitree_evidence())
+            )
+        except (OSError, ValueError, json.JSONDecodeError):
+            # A stale or partially captured queue must not prevent the public
+            # research account from rendering.  The dossier fallback below
+            # still exposes any already-materialised draft safely.
+            _PROFILE_UPDATE_CACHE = {}
+    stored = dossier.get("wikitree_update") or dossier.get("wikitree_comparison") or {}
+    # A completed comparison is deliberately preferred to a stale queue entry
+    # for the same profile; the queue can retain historical completion metadata.
+    if dossier.get("wikitree_comparison") and not dossier.get("wikitree_comparison", {}).get("pending", True):
+        update = None
+    else:
+        update = _PROFILE_UPDATE_CACHE.get(profile_id)
+    if update:
+        return update
+    draft = str(stored.get("proposed_wikitext") or stored.get("draft_wikitext") or "")
+    if not draft:
+        return None
+    return {
+        **stored,
+        "profile_id": stored.get("profile_id") or profile_id,
+        "profile_url": stored.get("profile_url") or dossier.get("wikitree_url") or f"https://www.wikitree.com/wiki/{profile_id}",
+        "proposed_wikitext": draft,
+        "remote_wikitext": str(stored.get("remote_wikitext") or ""),
+        "manual_update": bool(stored.get("manual_update")) or not stored.get("remote_wikitext"),
+        "capture_fallback": not bool(stored.get("remote_wikitext")),
+        "pending": bool(stored.get("pending", "wikitree_update" in dossier)),
+    }
+
+
+def _profile_update_panel(update: dict | None) -> str:
+    """Render the pending update outside the archive, retaining the live capture."""
+    if not update:
+        return ""
+    try:
+        from build_research_catalog import _profile_update_html
+    except ModuleNotFoundError:
+        from tools.build_research_catalog import _profile_update_html
+    normalised = {
+        **update,
+        "proposed_wikitext": update.get("proposed_wikitext") or update.get("draft_wikitext") or "",
+    }
+    panel = BeautifulSoup(_profile_update_html(normalised), "html.parser")
+    section = panel.select_one("#wikitree-update")
+    if section is None:
+        return ""
+    if not update.get("pending", True):
+        for node in section.select(".kicker"):
+            if "Needs updated on WikiTree" in node.get_text():
+                node.string = "WikiTree profile and prepared draft"
+        for node in section.find_all(string=lambda value: value and "Needs updated on WikiTree" in value):
+            node.replace_with(str(node).replace("Needs updated on WikiTree", "WikiTree profile and prepared draft"))
+        section["class"] = list(dict.fromkeys((section.get("class") or []) + ["profile-comparison-panel"]))
+    if update.get("capture_fallback"):
+        note = section.select_one(".workbench-audit")
+        if note:
+            note.append(" The saved public dossier contains the proposed text; the private current biography capture was unavailable during this render.")
+    remote = str(update.get("remote_wikitext") or "")
+    if remote:
+        current = BeautifulSoup(
+            '<details class="profile-current-capture"><summary>Current captured WikiTree biography</summary>'
+            '<p class="profile-capture-note">Read-only capture used for the comparison above.</p>'
+            '<textarea id="profile-update-current" class="profile-draft profile-current-text" rows="28" readonly aria-label="Current captured WikiTree biography"></textarea></details>',
+            "html.parser",
+        )
+        current.select_one("textarea").string = remote
+        anchor = section.select_one(".workbench-audit") or section.find()
+        if anchor:
+            anchor.insert_after(current)
+    return str(panel)
+
+
+def _legacy_profile_update(text: str, profile_id: str) -> dict | None:
+    """Recover complete biographies from a pre-split rendered comparison."""
+    soup = BeautifulSoup(text, "html.parser")
+    section = soup.select_one("#wikitree-update.profile-update-panel")
+    diff = section.select_one(".profile-update-diff") if section else None
+    if diff is None or diff.name != "pre":
+        return None
+    current_node = section.select_one("#profile-update-current, .profile-current-text")
+    draft_node = section.select_one("#profile-update-draft")
+    current = current_node.get_text() if current_node else ""
+    draft = draft_node.get_text() if draft_node else ""
+    if not draft:
+        return None
+    if not current:
+        current_lines, replacement_lines = [], []
+        for line in diff.get_text().splitlines():
+            if line.startswith("  "):
+                value = line[2:]
+                current_lines.append(value)
+                replacement_lines.append(value)
+            elif line.startswith("- "):
+                current_lines.append(line[2:])
+            elif line.startswith("+ "):
+                replacement_lines.append(line[2:])
+        current = "\n".join(current_lines)
+        if not draft:
+            draft = "\n".join(replacement_lines)
+    audit = section.select_one(".workbench-audit")
+    audit_text = audit.get_text(" ", strip=True) if audit else ""
+    captured = ""
+    revision = ""
+    match = re.search(r"captured\s+(.+?)\s+·\s+(.+?)(?:\.|$)", audit_text)
+    if match:
+        captured, revision = match.groups()
+    link = audit.select_one("a[href]") if audit else None
+    summary_node = section.select_one(".lede")
+    return {
+        "profile_id": profile_id,
+        "profile_url": link.get("href") if link else f"https://www.wikitree.com/wiki/{profile_id}",
+        "summary": summary_node.get_text(" ", strip=True) if summary_node else "",
+        "remote_wikitext": current,
+        "proposed_wikitext": draft,
+        "remote_captured_at": captured,
+        "remote_revision": revision,
+        "pending": "profile-comparison-panel" not in (section.get("class") or []),
+    }
+
+
+def _insert_profile_update_markup(text: str, markup: str) -> str:
+    """Insert a recovered comparison when the structured dossier lost it."""
+    soup = BeautifulSoup(text, "html.parser")
+    panel = BeautifulSoup(markup, "html.parser").select_one("#wikitree-update")
+    if panel is None:
+        return text
+    overview = soup.select_one("#overview")
+    if overview is not None:
+        overview.insert_after(panel)
+    else:
+        main = soup.select_one("main")
+        if main is None:
+            return text
+        main.insert(0, panel)
+    if not soup.select_one('script[src*="/people/profile-update.js"]'):
+        script = soup.new_tag("script", src="/people/profile-update.js", defer=True)
+        soup.body.append(script)
+    return str(soup)
+
+
+def _insert_migrated_profile_update(text: str, update: dict) -> str:
+    return _insert_profile_update_markup(text, _profile_update_panel(update))
 
 
 def _safe_slug(value: str) -> str:
@@ -935,7 +1113,7 @@ def _sources_html(rows: list[dict], sources: list[dict], source_by_record: dict[
     for source in sources:
         used_links = []
         for claim in dict.fromkeys(claims.get(source["key"], [])):
-            used_links.append(_a(f"#{claim}", "Claim: " + claim.removeprefix("record-")))
+            used_links.append(_a(f"#{claim}", "Evidence: " + claim.removeprefix("record-")))
         origin = _a(source["url"], "Open cited record or transcription", True) if source["url"] else ('<span class="source-claims">Correspondence summary; raw message withheld</span>' if source.get("private") else '<span class="source-claims">Public image or transcription link not available</span>')
         timeline_href = f"#timeline-{_safe_slug(source['record_id'])}"
         timeline_link = "" if str(source["record_id"]).startswith("correspondence") else f' · {_a(timeline_href, "Back to chronology")}'
@@ -1064,6 +1242,171 @@ def _record_excerpt_html(profile_id: str, excerpt_id: str) -> str:
     return f'<figure class="record-excerpt" id="{ident}" style="--record-width:{min(width, 1600)}px"><h3>{title}</h3><div class="record-controls">{guide_control}<label><input class="record-enlarge" type="checkbox" aria-controls="{ident}-image"> Enlarge excerpt</label>{_a(href, "Open image at full size")}</div><div class="record-viewport" tabindex="0" aria-label="Scrollable original record excerpt"><div class="record-stage" id="{ident}-image"><img src="{href}" alt="{alt}" width="{width}" height="{height}" loading="lazy"><div class="record-guides-layer" aria-hidden="true">{"".join(boxes)}</div></div></div><figcaption><p class="record-provenance">{escape(attribution)} · {origin}{context_link}. Original pixels; reading guides are removable.</p>{"".join(body)}</figcaption></figure>'
 
 
+def _header_record_html(profile_id: str, item: dict) -> str:
+    """Preview an approved original excerpt, linked to its full reading."""
+    if not isinstance(item, dict) or not item.get("excerpt_id"):
+        return ""
+    rendered = BeautifulSoup(_record_excerpt_html(profile_id, str(item["excerpt_id"])), "html.parser")
+    figure = rendered.select_one("figure.record-excerpt")
+    picture = rendered.select_one(".record-stage img")
+    if figure is None or picture is None:
+        return ""
+    picture["loading"] = "eager"
+    target = "#" + figure["id"]
+    caption = str(item.get("caption") or picture.get("alt") or "Original record")
+    return f'<figure class="header-record"><a href="{escape(target)}" aria-label="Read the original record">{picture}</a><figcaption>{_a(target, caption)}</figcaption></figure>'
+
+
+def _account_family_map(body: str, item: dict, profile_id: str) -> str:
+    """Connect the couple to the existing child account without duplicating facts."""
+    if not isinstance(item, dict) or not item.get("couple_markdown"):
+        return body
+    parsed = BeautifulSoup(body, "html.parser")
+    table = parsed.select_one(".biography-table-wrap table")
+    if table is None:
+        return body
+    rows = table.select("tbody tr")
+    if not rows or any(len(row.select("td")) != 2 for row in rows):
+        return body
+    children = []
+    for row in rows:
+        title, account = row.select("td")
+        children.append(f'<li><div class="family-child-name">{title.decode_contents()}</div><div class="family-child-record">{account.decode_contents()}</div></li>')
+    couple = _safe_markdown_html(str(item["couple_markdown"]), f"/research/{profile_id}/")
+    caption = escape(str(item.get("caption") or "Documented children"))
+    diagram = BeautifulSoup(f'<figure class="account-family-map"><div class="family-couple">{couple}</div><figcaption>{caption}</figcaption><ul class="family-children">{"".join(children)}</ul></figure>', "html.parser")
+    table.find_parent(class_="biography-table-wrap").replace_with(diagram.figure)
+    return str(parsed)
+
+
+def _account_record_trail(item: dict, profile_id: str) -> str:
+    """A short, maintained chronology; every date keeps its evidence and qualifier."""
+    if not isinstance(item, dict) or not isinstance(item.get("records"), list):
+        return ""
+    entries = []
+    for record in item["records"]:
+        if not isinstance(record, dict) or not all(record.get(key) for key in ("year", "title", "markdown")):
+            continue
+        detail = _safe_markdown_html(str(record["markdown"]), f"/research/{profile_id}/")
+        entries.append(f'<li><span class="trail-year">{escape(str(record["year"]))}</span><h3>{escape(str(record["title"]))}</h3><div>{detail}</div></li>')
+    if not entries:
+        return ""
+    return f'<section id="record-trail" class="dossier-section account-record-trail"><div class="section-heading"><span class="account-eyebrow">The documentary trail</span><h2>{escape(str(item.get("title") or "A life in records"))}</h2></div><ol>{"".join(entries)}</ol></section>'
+
+
+def _account_snippets(body: str, blocks: list, profile_id: str) -> str:
+    """Put short, labelled readings beside approved original pixels and provenance."""
+    if not isinstance(blocks, list):
+        return body
+    parsed = BeautifulSoup(body, "html.parser")
+    for block in blocks:
+        if not isinstance(block, dict) or not block.get("id"):
+            continue
+        snippets = []
+        for item in block.get("items") or []:
+            if not isinstance(item, dict) or not all(item.get(key) for key in ("excerpt_id", "title", "quote", "quote_label", "reading")):
+                continue
+            original = BeautifulSoup(_record_excerpt_html(profile_id, str(item["excerpt_id"])), "html.parser")
+            figure, picture = original.select_one("figure.record-excerpt"), original.select_one(".record-stage img")
+            source = original.select_one(".record-provenance a[href]")
+            # Reuse the original publication gate; never preview a withheld scan.
+            if figure is None or picture is None or source is None:
+                continue
+            target = "#" + figure["id"]
+            quote = "<br>".join(escape(line) for line in str(item["quote"]).splitlines())
+            reading = _safe_markdown_html(str(item["reading"]), f"/research/{profile_id}/")
+            caption = escape(str(item.get("source_label") or "Original record"))
+            provenance = escape(original.select_one(".record-provenance").get_text(" ", strip=True), quote=True)
+            snippets.append(f'<figure class="source-snippet" data-excerpt="{escape(str(item["excerpt_id"]))}"><a class="snippet-image" href="{escape(target)}" aria-label="Read the full excerpt: {escape(str(item["title"]), quote=True)}">{picture}</a><figcaption><h3>{escape(str(item["title"]))}</h3><span class="snippet-label">{escape(str(item["quote_label"]))}</span><blockquote>{quote}</blockquote><div class="snippet-reading">{reading}</div><p class="snippet-source"><a href="{escape(str(source["href"]), quote=True)}" title="{provenance}" target="_blank" rel="noopener">{caption}</a> · {_a(target, "Full reading & image")}</p></figcaption></figure>')
+        marker = next((p for p in parsed.find_all("p") if p.get_text().strip() == "{{snippets:" + str(block["id"]) + "}}"), None)
+        rendered = BeautifulSoup('<div class="source-spread' + (' source-spread-paired' if len(snippets) > 1 else '') + '">' + ''.join(snippets) + '</div>', "html.parser")
+        if marker:
+            marker.replace_with(rendered.div)
+        elif snippets:
+            parsed.append(rendered.div)
+    return str(parsed)
+
+
+def _account_journey(items: list) -> str:
+    """A brief reading route from recorded household to tested relationships."""
+    if not isinstance(items, list):
+        return ""
+    steps = []
+    for item in items:
+        if not isinstance(item, dict) or not all(item.get(key) for key in ("target", "title", "description")):
+            continue
+        steps.append(f'<li><a href="#{escape(_safe_slug(str(item["target"])))}"><strong>{escape(str(item["title"]))}</strong><span>{escape(str(item["description"]))}</span></a></li>')
+    return '<nav class="account-journey" aria-label="Follow the evidence"><ol>' + ''.join(steps) + '</ol></nav>' if steps else ""
+
+
+def _account_visuals(body: str, blocks: list, profile_id: str, editorial: dict) -> str:
+    """Render sourced visual arguments in the account, outside the source notebook."""
+    if not isinstance(blocks, list) or not blocks:
+        return body
+    visuals = []
+    for block in blocks:
+        if not isinstance(block, dict):
+            continue
+        kind = block.get("kind")
+        if kind == "figure":
+            original = next((section for section in editorial.get("biography_sections", []) if section.get("id") == block.get("section_id")), {})
+            figure = next((figure for figure in original.get("figures", []) if figure.get("file") == block.get("file")), None)
+            if figure:
+                visuals.append((str(block.get("slot") or ""), '<div class="account-locator">' + _biography_figure_html(profile_id, figure) + '</div>'))
+            continue
+        if kind not in {"chain", "cards", "branch", "peers", "kinship", "households", "paths", "metrics", "shares"}:
+            continue
+        items = block.get("nodes")
+        if not isinstance(items, list):
+            continue
+        nodes = []
+        for node in items:
+            if not isinstance(node, dict) or not node.get("title"):
+                continue
+            state = node.get("state") if node.get("state") in {"documented", "probable", "open", "disfavoured", "weak"} else "open"
+            label = f'<span class="evidence-state" data-state="{state}">{escape(str(node["label"]))}</span>' if node.get("label") else ""
+            text = _safe_markdown_html(str(node.get("markdown") or ""), f"/research/{profile_id}/")
+            extra = ""
+            if kind == "kinship" and node.get("parent_title") and node.get("parent_markdown") and node.get("kin_word"):
+                label = f'<span class="kin-word"><small>Nancy’s word in her will</small><q>{escape(str(node["kin_word"]))}</q></span>'
+                parent = _safe_markdown_html(str(node["parent_markdown"]), f"/research/{profile_id}/")
+                extra = f'<div class="kin-parent"><span>Follow the named relative into Irish records</span><h4>{escape(str(node["parent_title"]))}</h4>{parent}</div>'
+            if node.get("test_markdown"):
+                test = _safe_markdown_html(str(node["test_markdown"]), f"/research/{profile_id}/")
+                extra += f'<div class="theory-test"><strong>What would distinguish it?</strong>{test}</div>'
+            if kind == "shares":
+                total, parts = node.get("total"), node.get("parts")
+                if type(total) is int and type(parts) is int and 1 <= parts <= total <= 24:
+                    units = ''.join(f'<i class="share-unit{" share-filled" if n < parts else ""}"></i>' for n in range(total))
+                    extra = f'<div class="share-strip" role="img" aria-label="{parts} of {total} equal parts"><span aria-hidden="true">{units}</span></div>' + extra
+            if kind == "paths" and node.get("continuation_title") and node.get("continuation_markdown"):
+                onward = _safe_markdown_html(str(node["continuation_markdown"]), f"/research/{profile_id}/")
+                onward_state = node.get("continuation_state") if node.get("continuation_state") in {"documented", "probable", "open", "disfavoured", "weak"} else "open"
+                onward_label = f'<span class="evidence-state" data-state="{onward_state}">{escape(str(node["continuation_label"]))}</span>' if node.get("continuation_label") else ""
+                nodes.append(f'<li class="evidence-path"><div class="path-origin">{label}<h3>{escape(str(node["title"]))}</h3>{text}</div><div class="path-continuation" data-state="{onward_state}">{onward_label}<h3>{escape(str(node["continuation_title"]))}</h3>{onward}</div></li>')
+            else:
+                nodes.append(f'<li data-state="{state}">{label}<h3>{escape(str(node["title"]))}</h3><div>{text}</div>{extra}</li>')
+        if not nodes:
+            continue
+        caption = f'<figcaption>{escape(str(block["caption"]))}</figcaption>' if block.get("caption") else ""
+        root = f'<div class="branch-root">{escape(str(block["root"]))}</div>' if block.get("root") else ""
+        note = _safe_markdown_html(str(block.get("note") or ""), f"/research/{profile_id}/")
+        tag = "ol" if kind == "chain" else "ul"
+        # Each optional slot replaces a marker in the narrative, allowing a diagram
+        # to sit beside the claim it explains without changing the source notebook.
+        visuals.append((str(block.get("slot") or ""), f'<figure class="account-visual visual-{kind}">{caption}{root}<{tag}>{"".join(nodes)}</{tag}>' + (f'<div class="visual-note">{note}</div>' if note else "") + '</figure>'))
+    parsed = BeautifulSoup(body, "html.parser")
+    for slot in dict.fromkeys(slot for slot, _ in visuals):
+        token = '{{visuals' + (':' + slot if slot else '') + '}}'
+        marker = next((p for p in parsed.find_all("p") if p.get_text().strip() == token), None)
+        rendered = BeautifulSoup('<div class="account-visuals">' + ''.join(html for key, html in visuals if key == slot) + '</div>', "html.parser")
+        if marker:
+            marker.replace_with(rendered.div)
+        else:
+            parsed.append(rendered.div)
+    return str(parsed)
+
+
 def _biography_sections_html(profile_id: str, editorial: dict, used_ids: set[str]) -> list[tuple[str, str, str, dict]]:
     """Render authored narrative sections as part of the current dossier view."""
     rendered_sections = []
@@ -1128,7 +1471,10 @@ def _biography_sections_html(profile_id: str, editorial: dict, used_ids: set[str
                         cell["data-label"] = headers[index]
             wrapper = soup.new_tag("div", attrs={"class": "biography-table-wrap"})
             table.wrap(wrapper)
-        rendered_sections.append((section_id, title, str(soup), item.get("reading_summary") or {}))
+        reading_summary = item.get("reading_summary") or {}
+        if isinstance(reading_summary, str):
+            reading_summary = {"finding": reading_summary}
+        rendered_sections.append((section_id, title, str(soup), reading_summary))
     return rendered_sections
 
 
@@ -1136,7 +1482,7 @@ def _research_note_anchor(path: str, title: str) -> str:
     return "research-note-" + hashlib.sha256((path.lstrip("/") + "|" + title).encode()).hexdigest()[:12]
 
 
-def _archive_html(profile_id: str, dossier: dict, editorial: dict, supplements: str = "") -> str:
+def _archive_html(profile_id: str, dossier: dict, editorial: dict, supplements: str = "", *, include_prepared_draft: bool = True) -> str:
     findings, blocks = dossier.get("research_findings") or [], []
     superseded = editorial.get("superseded_interpretations") or []
     for finding in findings:
@@ -1152,7 +1498,7 @@ def _archive_html(profile_id: str, dossier: dict, editorial: dict, supplements: 
             rendered = _safe_markdown_html(markdown_text, base_url)
             anchor = _research_note_anchor(source_path, title)
             blocks.append(f'<details id="{anchor}"><summary>{escape(category.title())}: {escape(title)}</summary><div class="archive-copy">{rendered}<details class="archive-original"><summary>Original Markdown</summary><pre>{escape(markdown_text)}</pre></details></div></details>')
-    update = dossier.get("wikitree_update") or {}; draft = update.get("draft_wikitext") or ""
+    update = dossier.get("wikitree_update") or dossier.get("wikitree_comparison") or {}; draft = update.get("draft_wikitext") or update.get("proposed_wikitext") or ""
     automated = dossier.get("potential_parentage") or {}
     reviewed_candidates = {c["score_profile_id"]: c for c in editorial.get("parent_candidates", []) if c.get("score_profile_id")}
     candidates = []
@@ -1182,10 +1528,10 @@ def _archive_html(profile_id: str, dossier: dict, editorial: dict, supplements: 
         parts.append('<details><summary>Resolved corrections and editorial issues</summary><div class="archive-body">' + "".join(correction_blocks) + '</div></details>')
     if blocks: parts.append('<details><summary>Research notes and earlier assessments</summary><div class="archive-body">' + "".join(blocks) + '</div></details>')
     if candidates: parts.append('<details><summary>Automated parent comparison (research aid, not a recommendation)</summary><div class="archive-copy"><p>Stored scores are preserved for audit only. They are not probabilities or genealogical evidence, and a reviewed exclusion remains excluded.</p><ul>' + "".join(f'<li>{escape(line)}</li>' for line in candidates) + '</ul></div></details>')
-    if draft: parts.append(f'<details><summary>Prepared WikiTree copy/export</summary><div class="archive-copy"><button class="copy-wikitree" data-copy-wikitree="wikitree-export">Copy WikiTree text</button><textarea id="wikitree-export" aria-label="Original WikiTree export" rows="24" readonly>{escape(draft)}</textarea></div></details>')
+    if draft and include_prepared_draft: parts.append(f'<details><summary>Prepared WikiTree copy/export</summary><div class="archive-copy"><button class="copy-wikitree" data-copy-wikitree="wikitree-export">Copy WikiTree text</button><textarea id="wikitree-export" aria-label="Original WikiTree export" rows="24" readonly>{escape(draft)}</textarea></div></details>')
     slug = str(dossier.get("catalogue_id") or profile_id).casefold()
-    parts.append(f'<details><summary>Structured dossier and technical data</summary><div class="archive-copy"><p><a href="/people/{escape(slug)}.json">Machine-readable dossier</a> · <a href="/people/{escape(slug)}.network.json">Family network</a></p><pre class="archive-json">{escape(raw_json)}</pre></div></details>')
-    return '<details id="archive-tools" class="dossier-archive"><summary><span>Archive and research tools<small>Earlier assessments, imports, comparisons and exports</small></span></summary><div class="archive-body">' + "".join(parts) + '</div></details>'
+    parts.append(f'<details><summary>Research data and downloads</summary><div class="archive-copy"><p><a href="/people/{escape(slug)}.json">Person data (JSON)</a> · <a href="/people/{escape(slug)}.network.json">Family network</a></p><pre class="archive-json">{escape(raw_json)}</pre></div></details>')
+    return '<details id="archive-tools" class="dossier-archive"><summary><span>Earlier notes and research tools<small>Earlier assessments, imports, comparisons and exports</small></span></summary><div class="archive-body">' + "".join(parts) + '</div></details>'
 
 
 def render_person_dossier(profile_id: str) -> str:
@@ -1200,9 +1546,23 @@ def render_person_dossier(profile_id: str) -> str:
     valid_groups = isinstance(groups, list) and all(isinstance(group, dict) and isinstance(group.get("id"), str) and isinstance(group.get("title"), str) and isinstance(group.get("purpose"), str) and isinstance(group.get("section_ids"), list) and all(isinstance(sid, str) for sid in group.get("section_ids")) for group in groups)
     covered = [sid for group in groups for sid in group["section_ids"]] if valid_groups else []
     valid_summaries = all(isinstance(item.get("reading_summary"), dict) and all(isinstance(item["reading_summary"].get(key), str) and item["reading_summary"].get(key) for key in ("question", "finding", "purpose")) for item in editorial.get("biography_sections") or [])
-    valid_guide = isinstance(guide, dict) and guide.get("mode") == "summary-disclosures" and isinstance(guide.get("hypothesis"), str) and isinstance(guide.get("current_answer"), str) and bool(guide["hypothesis"]) and bool(guide["current_answer"]) and valid_groups and len({group["id"] for group in groups}) == len(groups) and len(covered) == len(section_ids) and len(set(covered)) == len(covered) and set(covered) == set(section_ids) and valid_summaries
+    account_sections = (guide or {}).get("account_sections") if isinstance(guide, dict) else None
+    valid_account = isinstance(account_sections, list) and bool(account_sections) and all(isinstance(item, dict) and all(isinstance(item.get(key), str) and item[key].strip() for key in ("id", "title", "markdown")) for item in account_sections)
+    compact = isinstance(guide, dict) and guide.get("mode") == "compact-account" and valid_account
+    # A newly added evidence section must not turn a compact page into a wall
+    # of expanded research just because its group has not yet been assigned.
+    if compact and valid_groups and len(set(covered)) == len(covered) and set(covered).issubset(section_ids):
+        missing = [sid for sid in section_ids if sid not in covered]
+        if missing:
+            guide = dict(guide)
+            groups = [*groups, {"id": "additional-evidence", "title": "Further evidence", "purpose": "Additional record findings and their limits.", "section_ids": missing}]
+            guide["groups"] = groups
+            covered += missing
+    valid_guide = isinstance(guide, dict) and (guide.get("mode") == "summary-disclosures" or compact) and isinstance(guide.get("hypothesis"), str) and isinstance(guide.get("current_answer"), str) and bool(guide["hypothesis"]) and bool(guide["current_answer"]) and valid_groups and len({group["id"] for group in groups}) == len(groups) and len(covered) == len(section_ids) and len(set(covered)) == len(covered) and set(covered) == set(section_ids) and (valid_summaries or compact)
     if not valid_guide:
         guide = None
+        compact = False
+    notebook = compact and guide.get("evidence_layout") == "source-notebook"
     rows = _record_rows(dossier.get("id") or profile_id)
     source_by_record, sources = _record_source_map(rows)
     name = dossier.get("name") or model.get("name") or profile_id
@@ -1223,6 +1583,8 @@ def render_person_dossier(profile_id: str) -> str:
     death_place = place_labels.get("death", death_place)
     assessment_date = editorial.get("assessment_date") or ""
     wiki = dossier.get("wikitree_url") or ""
+    profile_update = _profile_update_data(profile_id, dossier)
+    profile_update_panel = _profile_update_panel(profile_update)
     opening = editorial.get("opening") or ""
     position = editorial.get("position") or {"answer": "No maintained assessment is recorded.", "points": []}
     def fact_value(date_value, place_value):
@@ -1237,7 +1599,7 @@ def render_person_dossier(profile_id: str) -> str:
     facts = ''.join(f'<div class="dossier-fact"><strong>{escape(label)}</strong><span>{escape(str(value))}</span></div>' for label, value in fact_entries if value)
     slug = str(dossier.get("catalogue_id") or profile_id).casefold()
     family_anchor = _safe_slug(editorial.get("family_section") or "family") if authored else "family"
-    actions = ([ _a(wiki, "View on WikiTree", True) ] if wiki else []) + [_a(f"/people/{slug}.html#{family_anchor}", "Explore family"), _a("#archive-tools", "Research/export tools")]
+    actions = ([ _a(wiki, "View on WikiTree", True) ] if wiki else []) + [_a(f"/people/{slug}.html#{family_anchor}", "Explore family"), _a("#archive-tools", "Earlier notes and downloads")]
     family_body = _family_html(dossier.get("id") or profile_id, dossier, model, index, editorial, source_by_record)
     parent_body = _parent_comparison_html(editorial, dossier)
     evidence_body = _evidence_questions(editorial, rows, source_by_record)
@@ -1259,19 +1621,60 @@ def render_person_dossier(profile_id: str) -> str:
         state_note = '<p class="relation-note assessment-state">Assessment status: no maintained assessment is present in the published research model.</p>'
     section_nav = '<a href="#overview">Overview</a>'
     toc_nav = '<a href="#overview">Overview</a>'
+    if profile_update_panel:
+        section_nav += '<a href="#wikitree-update">WikiTree comparison</a>'
+        toc_nav += '<a href="#wikitree-update">WikiTree comparison</a>'
     summary = opening or str(position.get("answer") or "")
     guide_html = ""
-    if guide:
+    if guide and not compact:
         guide_html = '<div class="reading-guide-intro"><p>Choose a question below; open its full evidence.</p><p><strong>Main hypothesis:</strong> ' + escape(str(guide.get("hypothesis") or "")) + '</p><p><strong>Current answer:</strong> ' + escape(str(guide.get("current_answer") or "")) + '</p><div class="reading-guide-actions" data-reading-controls hidden><button type="button" data-reading-expand>Expand all</button><button type="button" data-reading-collapse>Collapse all</button></div><noscript><p>JavaScript is disabled; open linked sections manually to reveal their evidence.</p></noscript></div>'
-    sections = ['<section id="overview" class="dossier-section"><h2>Current position</h2><p class="dossier-lede">' + escape(summary) + '</p>' + guide_html + state_note + f'<div class="dossier-facts">{facts}</div></section>']
+    overview_title = "What we know" if compact else "Biography and research notes"
+    overview_facts = "" if compact else f'<div class="dossier-facts">{facts}</div>'
+    journey = _account_journey(guide.get("journey")) if compact else ""
+    sections = [f'<section id="overview" class="dossier-section"><h2>{overview_title}</h2><p class="dossier-lede">' + escape(summary) + '</p>' + guide_html + state_note + overview_facts + journey + '</section>']
+    if profile_update_panel:
+        sections.append(profile_update_panel)
+    used_ids = {"overview", "family", "evidence", "parent-candidates", "timeline", "research", "sources", "archive-tools", "full-research", "record-trail"}
+    if compact:
+        account_nav = {item["id"]: item.get("nav_title") or item["title"] for item in account_sections}
+        account_options = {item["id"]: item for item in account_sections}
+        for section_id, title, body, _ in _biography_sections_html(profile_id, {"biography_sections": account_sections}, used_ids):
+            nav_title = account_nav.get(section_id) or title
+            section_nav += f'<a href="#{escape(section_id)}">{escape(nav_title)}</a>'
+            toc_nav += f'<a href="#{escape(section_id)}">{escape(nav_title)}</a>'
+            options = account_options.get(section_id) or {}
+            body = _account_family_map(body, options.get("family_map"), profile_id)
+            body = _account_snippets(body, options.get("snippets"), profile_id)
+            body = _account_visuals(body, options.get("visuals"), profile_id, editorial)
+            eyebrow = f'<span class="account-eyebrow">{escape(str(options["eyebrow"]))}</span>' if options.get("eyebrow") else ""
+            section_class = ' account-illustrated' if options.get("visuals") else ''
+            transition = _safe_markdown_html(str(options.get("transition") or ""), f"/research/{profile_id}/")
+            transition = f'<div class="account-transition">{transition}</div>' if transition else ""
+            sections.append(f'<section id="{escape(section_id)}" class="dossier-section account-section{section_class}"><div class="section-heading">{eyebrow}<h2>{escape(title)}</h2></div><div class="biography-content">{body}</div>{transition}</section>')
+            if options.get("record_trail_after"):
+                trail = _account_record_trail(guide.get("record_trail"), profile_id)
+                if trail:
+                    sections.append(trail)
+                    section_nav += '<a href="#record-trail">Life in records</a>'
+                    toc_nav += '<a href="#record-trail">Life in records</a>'
     biography_sections = _biography_sections_html(
         dossier.get("id") or profile_id, editorial,
-        {"overview", "family", "evidence", "parent-candidates", "timeline", "research", "sources", "archive-tools"},
+        used_ids,
     )
     nav_titles = {item.get("id"): item.get("nav_title") for item in editorial.get("biography_sections", [])}
     group_by_section = {sid: group for group in (guide or {}).get("groups", []) for sid in group.get("section_ids", [])}
     emitted_groups = set()
+    evidence_groups = defaultdict(dict)
     for section_id, title, body, reading_summary in biography_sections:
+        if compact:
+            preview = " ".join(str(reading_summary.get(key) or "") for key in ("finding", "purpose")).strip() or "Open the full evidence and its limitations."
+            reading_title = str(reading_summary.get("title") or title)
+            if notebook:
+                content = f'<h3>{escape(title)}</h3><div class="biography-content">{body}</div>'
+            else:
+                content = f'<details class="biography-disclosure"><summary><span>{escape(reading_title)}</span><small>{escape(preview)}</small></summary><div class="biography-content">{body}</div></details>'
+            evidence_groups[group_by_section[section_id]["id"]][section_id] = f'<section id="{escape(section_id)}" class="dossier-section biography-section">{content}</section>'
+            continue
         nav_title = nav_titles.get(section_id) or title
         section_nav += f'<a href="#{escape(section_id)}">{escape(nav_title)}</a>'
         toc_nav += f'<a href="#{escape(section_id)}">{escape(nav_title)}</a>'
@@ -1285,6 +1688,19 @@ def render_person_dossier(profile_id: str) -> str:
         else:
             content = f'<div class="biography-content">{body}</div>'
         sections.append(f'<section id="{escape(section_id)}" class="dossier-section biography-section">{group_html}<h2>{escape(title)}</h2>{content}</section>')
+    if compact:
+        if notebook:
+            group_details = ''.join(f'<section id="reading-group-{escape(group["id"])}" class="notebook-group"><h2>{escape(group["title"])}</h2>{"".join(evidence_groups[group["id"]][sid] for sid in group["section_ids"])}</section>' for group in guide["groups"])
+        else:
+            group_details = ''.join(f'<details id="reading-group-{escape(group["id"])}" class="evidence-group"><summary><span>{escape(group["title"])}</span><small>{escape(group["purpose"])}</small></summary><div class="evidence-group-body">{"".join(evidence_groups[group["id"]][sid] for sid in group["section_ids"])}</div></details>' for group in guide["groups"])
+        controls = '<div class="reading-guide-actions" data-reading-controls hidden><button type="button" data-reading-expand>Read all evidence</button><button type="button" data-reading-collapse>Close evidence</button></div>'
+        if notebook:
+            sections.append('<section id="full-research" class="dossier-section supporting-research"><h2>Source notebook</h2><p>The argument is shown above. This notebook retains the complete transcriptions, record tables, searches and detailed analysis.</p><details id="source-notebook" class="source-notebook"><summary>Read the complete source notebook <span>' + str(len(biography_sections)) + ' studies · original records and citations</span></summary>' + group_details + '</details></section>')
+        else:
+            sections.append('<section id="full-research" class="dossier-section supporting-research"><h2>Full research and records</h2><p>Open a topic for the original records, competing explanations and detailed reasoning.</p>' + controls + '<div class="evidence-grid">' + group_details + '</div><noscript><p>Open each topic manually to read its evidence.</p></noscript></section>')
+        research_label = "Source notebook" if notebook else "Full research"
+        section_nav += f'<a href="#full-research">{research_label}</a>'
+        toc_nav += f'<a href="#full-research">{research_label}</a>'
     supplements = []
     if authored:
         # Preserve existing deep links and unique supporting material without
@@ -1313,23 +1729,50 @@ def render_person_dossier(profile_id: str) -> str:
         section_nav += '<a href="#timeline">Timeline</a>'; toc_nav += '<a href="#timeline">Life and records</a>'
         sections.append(f'<section id="timeline" class="dossier-section"><h2>Life and records</h2><details class="section-details"><summary><span>Explore the dated records<small>Chronology, roles and locations</small></span></summary>{timeline_body}</details></section>')
     if has_research:
-        section_nav += '<a href="#research">Research</a>'; toc_nav += '<a href="#research">Research still needed</a>'
-        sections.append(f'<section id="research" class="dossier-section"><h2>Research still needed</h2><details class="section-details"><summary><span>Research priorities and completed searches<small>Open questions, searches and next evidence</small></span></summary>{research_body}</details></section>')
+        section_nav += '<a href="#research">Research</a>'; toc_nav += '<a href="#research">Further research</a>'
+        sections.append(f'<section id="research" class="dossier-section"><h2>Further research</h2><details class="section-details"><summary><span>Research priorities and completed searches<small>Open questions and next records to check</small></span></summary>{research_body}</details></section>')
     if has_sources:
         section_nav += '<a href="#sources">Sources</a>'; toc_nav += '<a href="#sources">Sources</a>'
-        sections.append(f'<section id="sources" class="dossier-section"><h2>Sources</h2><details class="section-details"><summary><span>Browse {len(sources)} source records<small>Citations, provenance and limitations</small></span></summary>{sources_body}</details></section>')
-    section_nav += '<a href="#archive-tools">Archive and tools</a>'; toc_nav += '<a href="#archive-tools">Archive and tools</a>'
+        sections.append(f'<section id="sources" class="dossier-section"><h2>Sources</h2><details class="section-details"><summary><span>Browse {len(sources)} source records<small>References and source limitations</small></span></summary>{sources_body}</details></section>')
+    archive_title = "Earlier notes and tools" if compact else "Archive and tools"
+    section_nav += f'<a href="#archive-tools">{archive_title}</a>'; toc_nav += f'<a href="#archive-tools">{archive_title}</a>'
     locality = editorial.get("principal_locality") or birth_place or death_place or ""
     life = " – ".join(value for value in (str(birth), str(death)) if value != "Date not established") or "Dates not established"
     qualifier = (model_vitals.get("birth") or {}).get("qualifier")
     if qualifier and birth.endswith(f" ({qualifier})") and death.endswith(f" ({qualifier})"):
         life = birth.removesuffix(f" ({qualifier})") + " – " + death
-    script = '''<script>(function(){var printing=false;function openHash(){var id;try{id=decodeURIComponent(location.hash.slice(1));}catch(e){return;}var target=document.getElementById(id);if(!target)return;for(var node=target;node;node=node.parentElement){if(node.tagName==="DETAILS")node.open=true;}if(target.matches(".dossier-section")){var d=target.querySelector(":scope > .biography-disclosure");if(d)d.open=true;}requestAnimationFrame(function(){target.scrollIntoView({block:"start"});});}function all(open){document.querySelectorAll(".dossier-reading details").forEach(function(d){d.open=open;});}function printOpen(){if(printing)return;printing=true;document.querySelectorAll(".person-dossier-readable[data-dossier-presentation] .dossier-reading details").forEach(function(d){d.dataset.printWasOpen=d.open?"1":"0";d.open=true;});}function printRestore(){if(!printing)return;document.querySelectorAll(".person-dossier-readable[data-dossier-presentation] .dossier-reading details").forEach(function(d){d.open=d.dataset.printWasOpen==="1";d.removeAttribute("data-print-was-open");});printing=false;}function init(){openHash();var c=document.querySelector("[data-reading-controls]");if(c){c.hidden=false;c.querySelector("[data-reading-expand]").onclick=function(){all(true)};c.querySelector("[data-reading-collapse]").onclick=function(){all(false)}}}if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",init);else init();window.addEventListener("hashchange",openHash);window.addEventListener("beforeprint",printOpen);window.addEventListener("afterprint",printRestore);})();</script>'''
+    life = editorial.get("life_summary") or life
+    script = '''<script>(function(){var printing=false;function openHash(){var id;try{id=decodeURIComponent(location.hash.slice(1));}catch(e){return;}var target=document.getElementById(id);if(!target)return;for(var node=target;node;node=node.parentElement){if(node.tagName==="DETAILS")node.open=true;}if(target.matches(".dossier-section")){var d=target.querySelector(":scope > .biography-disclosure");if(d)d.open=true;}requestAnimationFrame(function(){target.scrollIntoView({block:"start"});});}function all(open){var root=document.querySelector(".supporting-research")||document.querySelector(".dossier-reading");if(root)root.querySelectorAll("details").forEach(function(d){d.open=open;});}function printOpen(){if(printing)return;printing=true;document.querySelectorAll(".person-dossier-readable[data-dossier-presentation] .dossier-reading details").forEach(function(d){d.dataset.printWasOpen=d.open?"1":"0";d.open=true;});}function printRestore(){if(!printing)return;document.querySelectorAll(".person-dossier-readable[data-dossier-presentation] .dossier-reading details").forEach(function(d){d.open=d.dataset.printWasOpen==="1";d.removeAttribute("data-print-was-open");});printing=false;}function init(){openHash();var c=document.querySelector("[data-reading-controls]");if(c){c.hidden=false;c.querySelector("[data-reading-expand]").onclick=function(){all(true)};c.querySelector("[data-reading-collapse]").onclick=function(){all(false)}}}if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",init);else init();window.addEventListener("hashchange",openHash);window.addEventListener("beforeprint",printOpen);window.addEventListener("afterprint",printRestore);})();</script>'''
+    if profile_update_panel:
+        script += '<script src="/people/profile-update.js" defer></script>'
     locality_href = editorial.get("principal_locality_href") or ""
     locality_value = _a(locality_href, str(locality)) if locality and locality_href else escape(str(locality))
     locality_html = f'<p class="dossier-locality">{locality_value}</p>' if locality else ""
     assessment_meta = f'<span>Research assessment: <time>{escape(str(assessment_date))}</time></span>' if assessment_date else ""
-    return f'''<nav class="crumb"><a href="/catalogue/">People catalogue</a> / {escape(name)}</nav><article class="person-dossier-readable" data-dossier-presentation="{PRESENTATION_VERSION}"><header class="dossier-header"><p class="kicker">Person dossier · {escape(profile_id)}</p><h1>{escape(name)}</h1><p class="dossier-life">{escape(life)}</p>{locality_html}<div class="dossier-meta">{assessment_meta}{DOSSIER_GUIDE_META}</div><div class="dossier-actions">{"".join(actions)}</div></header><nav class="dossier-nav" aria-label="On this page">{section_nav}</nav><div class="dossier-layout"><aside class="dossier-toc" aria-label="Dossier contents">{toc_nav}</aside><div class="dossier-reading">{"".join(sections)}{_archive_html(profile_id, dossier, editorial, "".join(supplements))}</div></div></article>{script}'''
+    identity = f'<p class="kicker">Biography · {escape(profile_id)}</p><h1>{escape(name)}</h1><p class="dossier-life">{escape(life)}</p>{locality_html}'
+    meta_html = f'<div class="dossier-meta">{assessment_meta}{DOSSIER_GUIDE_META}</div>'
+    actions_html = f'<div class="dossier-actions">{"".join(actions)}</div>'
+    header = identity + meta_html + actions_html
+    layout_attribute = ""
+    if compact:
+        layout_attribute = ' data-reading-layout="compact"'
+        actions_html = f'<div class="dossier-actions">{"".join(actions[:-1])}</div>'
+        if guide.get("identity_kicker"):
+            identity = identity.replace(f'Biography · {escape(profile_id)}', escape(str(guide["identity_kicker"])))
+        finding = '<div class="header-finding"><span>Current finding</span>' + _safe_markdown_html(str(guide["header_finding"]), f"/research/{profile_id}/") + '</div>' if guide.get("header_finding") else ''
+        header = f'<div class="dossier-identity">{identity}{finding}{actions_html}' + ('' if notebook else meta_html) + '</div>' + _header_record_html(profile_id, editorial.get("header_record") or {})
+        if isinstance(guide.get("primary_nav"), list):
+            nav = BeautifulSoup(section_nav, "html.parser")
+            selected = set(str(value) for value in guide["primary_nav"])
+            section_nav = ''.join(str(link) for link in nav.select("a") if link.get("href", "").removeprefix("#") in selected)
+    reader_tools = ''
+    if compact:
+        reader_tools = '<details class="reader-tools" data-reading-tools hidden><summary>Family tree, map and other views <span>Open research tools</span></summary></details>'
+        # The site creates its selection controls after parsing the person page.
+        # Move the original controls intact; existing IDs and handlers survive.
+        script += '''<script>(function(){function place(){var target=document.querySelector("[data-reading-tools]"),context=document.getElementById("r-context");if(!target||!context)return false;target.hidden=false;if(!target.contains(context))target.appendChild(context);return true;}function init(){if(place())return;var observer=new MutationObserver(function(){if(place())observer.disconnect();});observer.observe(document.getElementById("g-page")||document.body,{childList:true,subtree:true});}if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",init);else init();})();</script>'''
+    admin = f'<div class="study-admin">{meta_html}</div>' if notebook else ''
+    return f'''<nav class="crumb"><a href="/catalogue/">People</a> / {escape(name)}</nav><article class="person-dossier-readable" data-dossier-presentation="{PRESENTATION_VERSION}"{layout_attribute}><header class="dossier-header">{header}</header><nav class="dossier-nav" aria-label="On this page">{section_nav}</nav><div class="dossier-layout"><aside class="dossier-toc" aria-label="On this page">{toc_nav}</aside><div class="dossier-reading">{"".join(sections)}{reader_tools}{admin}{_archive_html(profile_id, dossier, editorial, "".join(supplements), include_prepared_draft=not bool(profile_update_panel))}</div></div></article>{script}'''
 
 
 def _ensure_unified_person_shell(soup: BeautifulSoup, profile_id: str) -> BeautifulSoup:
@@ -1384,7 +1827,7 @@ def _replace_main(text: str, profile_id: str) -> str:
     soup.body["class"] = list(dict.fromkeys((soup.body.get("class") or []) + ["person-hierarchy"]))
     soup.body["data-r-person"] = profile_id
     soup.body["data-g-path"] = f"/people/{profile_id.casefold()}.html"
-    name_node = replacement.select_one("h1")
+    name_node = main.select_one("h1")
     name = name_node.get_text(" ", strip=True) if name_node else profile_id
     bar_label = soup.select_one(".g-bar .g-crumbs strong")
     if bar_label:
@@ -1419,7 +1862,21 @@ def revise(text: str, profile_id_hint: str = ""):
     profile_id = match.group(1) if match else profile_id_hint
     if not profile_id: return text, False
     if not (WEB / "people" / f"{profile_id.casefold()}.json").exists(): return text, False
+    source = BeautifulSoup(text, "html.parser")
+    source_panel = source.select_one("#wikitree-update.profile-update-panel")
+    source_diff = source_panel.select_one(".profile-update-diff") if source_panel else None
+    preserved_panel = str(source_panel) if source_diff is not None and source_diff.name != "pre" else None
+    legacy_update = _legacy_profile_update(text, profile_id)
     updated = _replace_main(text, profile_id)
+    if legacy_update:
+        rendered = BeautifulSoup(updated, "html.parser")
+        panel = rendered.select_one("#wikitree-update")
+        if panel is None or panel.select_one(".profile-update-diff") is None:
+            updated = _insert_migrated_profile_update(updated, legacy_update)
+    elif preserved_panel:
+        rendered = BeautifulSoup(updated, "html.parser")
+        if rendered.select_one("#wikitree-update") is None:
+            updated = _insert_profile_update_markup(updated, preserved_panel)
     return updated, updated != text
 
 
@@ -1464,6 +1921,14 @@ def repair(profile_ids=None):
                 if dossier.get("presentation") != payload:
                     dossier["presentation"] = payload
                     json_path.write_text(json.dumps(dossier, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
+    # Presentation is the approved public narrative source for catalogue Bio
+    # search. Run after every dossier has been materialized, including a full
+    # catalogue build whose initial dossiers precede this repair pass.
+    try:
+        from tools.catalogue_location_search import refresh_search_indexes
+    except ModuleNotFoundError:
+        from catalogue_location_search import refresh_search_indexes
+    counts["catalogue_location_search"] = refresh_search_indexes(WEB.parent)
     return counts
 
 

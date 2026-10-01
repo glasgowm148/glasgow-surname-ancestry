@@ -1,0 +1,3802 @@
+{
+  "schema_version": 1,
+  "resolved_on": "2026-09-30",
+  "lane": "older-records",
+  "scope": "All 18 owned unresolved IDs: 17 compatible candidates and one without a compatible profile; no live WikiTree writes.",
+  "counts": {
+    "owned_items": 18,
+    "canonical_workitems": 17,
+    "source_attribution_corrections": 1,
+    "duplicate_workitems_consolidated": 1,
+    "complete_sourced_subject_drafts": 1,
+    "remaining_candidate_workitems": 17,
+    "confirmed_profile_identity_upgrades": 0,
+    "father_relationship_upgrades": 0,
+    "no_profile_to_compatible_candidate_recoveries": 1,
+    "complete_sourced_companion_drafts": 1,
+    "canonical_person_event_groups": 13,
+    "restored_sparse_candidates": 2,
+    "new_status_rows": {
+      "compatible_candidate": 17,
+      "duplicate_workitem": 1
+    }
+  },
+  "source_ledger": {
+    "apprentice75": {
+      "title": "Grant, Register of Apprentices of the City of Edinburgh, 1583–1666 (1906)",
+      "url": "https://archive.org/details/scottishrecordso28scotuoft/page/n86/mode/1up",
+      "reading": "Under the printed Gray heading, John is son to late Thomas G., maltman and burgess of Glasgow, with William Blackwood, merchant, 12 January 1648. Ditto marks inherit Gray. Glasgow identifies the father’s city.",
+      "evidence_level": "visually_inspected_printed_transcription",
+      "inspected_on": "2026-09-30",
+      "capture": "research/queue-resolution-2026-09-30/older-captures/apprentices-printed75.jpg",
+      "page_reference": "printed75; IA scan n86"
+    },
+    "apprentice71": {
+      "title": "Grant, Edinburgh Apprentices, Glasgow heading",
+      "url": "https://archive.org/details/scottishrecordso28scotuoft/page/n82/mode/1up",
+      "reading": "The actual Glasgow heading lists Archibald, son of William, 23 October 1639, and James, son of Robert, 16 June 1641. No John1648 appears under Glasgow.",
+      "evidence_level": "visually_inspected_printed_transcription",
+      "inspected_on": "2026-09-30",
+      "capture": "research/queue-resolution-2026-09-30/older-captures/apprentices-printed71.jpg",
+      "page_reference": "printed71; IA scan n82"
+    },
+    "gray1613": {
+      "title": "Anderson, Burgesses and Guild Brethren of Glasgow,1573–1750",
+      "url": "https://archive.org/details/scottishrecordso43scotuoft/page/n57/mode/1up",
+      "reading": "29 July 1613: Thomas Gray, maltman, admitted burgess and guild brother as son and heir of deceased Gilbert Gray.",
+      "evidence_level": "visually_inspected_printed_transcription",
+      "inspected_on": "2026-09-30",
+      "capture": "research/queue-resolution-2026-09-30/older-captures/burgesses-p44-verified.jpg",
+      "page_reference": "printed44; IA scan n57"
+    },
+    "gray1646": {
+      "title": "Anderson, Burgesses and Guild Brethren of Glasgow,1573–1750",
+      "url": "https://archive.org/details/scottishrecordso43scotuoft/page/n131/mode/1up",
+      "reading": "7 May 1646: James Gray, maltman, admitted burgess and guild brother as eldest lawful son of deceased Thomas Gray, maltman, burgess and guild brother. George Kinkaid, maltman, admitted the same day through marriage to Margaret, lawful daughter of the same deceased Thomas Gray.",
+      "evidence_level": "visually_inspected_printed_transcription",
+      "inspected_on": "2026-09-30",
+      "capture": "research/queue-resolution-2026-09-30/older-captures/burgesses-p118-verified.jpg",
+      "page_reference": "printed118; IA scan n131"
+    },
+    "mathy1551": {
+      "title": "Renwick, Abstracts of Protocols of Town Clerks of Glasgow,vol1,protocol71",
+      "url": "https://archive.org/details/abstractsofproto01glas/page/n60/mode/1up",
+      "reading": "3 February 1550/51: John Hawstoune, son and heir of late Thomas Hawstoune, citizen, sells a barn at Powdrait to David Mathy and Mergaret Androsoune, expressly his spouse, and their lawful heirs. Boundaries: Peter Adam west, James Hyndschaw east, street north, Malindin or burn south.",
+      "evidence_level": "visually_inspected_printed_abstract",
+      "inspected_on": "2026-09-30",
+      "capture": "research/queue-resolution-2026-09-30/older-captures/abstractsofproto01glas-p27.jpg",
+      "page_reference": "printed27; IA scan n60"
+    },
+    "mathy1554": {
+      "title": "Renwick, Abstracts of Protocols,vol1,protocols183–184",
+      "url": "https://archive.org/details/abstractsofproto01glas/page/n96/mode/1up",
+      "reading": "10 May 1554: David Mathy and Robert Glesgw are expressly comburgesses among witnesses to John Androsoune’s sasine as heir of father Patrick. Protocol184 is the same-day act with the same witnesses. No Mathy/Glesgw kinship clause.",
+      "evidence_level": "visually_inspected_printed_abstract",
+      "inspected_on": "2026-09-30",
+      "capture": "research/queue-resolution-2026-09-30/older-captures/abstractsofproto01glas-p63.jpg",
+      "page_reference": "printed63; IA scan n96"
+    },
+    "mathy1554b": {
+      "title": "Renwick, Abstracts of Protocols,vol1,protocol189",
+      "url": "https://archive.org/details/abstractsofproto01glas/page/n98/mode/1up",
+      "reading": "4 July 1554: David Mathy witnesses the transaction involving Beatrix Stark and John Stene, heir of Richard Allane. The witness is alive on this date; joining him to the 1550/51 purchaser remains probable.",
+      "evidence_level": "visually_inspected_printed_abstract",
+      "inspected_on": "2026-09-30",
+      "capture": "research/queue-resolution-2026-09-30/older-captures/abstractsofproto01glas-p65.jpg",
+      "page_reference": "printed65; IA scan n98"
+    },
+    "bridge1582": {
+      "title": "Renwick, Abstracts of Protocols,vol8,protocol2370",
+      "url": "https://archive.org/details/abstractsprotoc00scogoog/page/n60/mode/2up",
+      "reading": "18 January 1581/82: Archibald Herbertsoun, fisher, is named as the western adjoining owner on the south side of Briggait; Ninian Schyre east, little common green south. Boundary tenure does not establish personal survival.",
+      "evidence_level": "visually_inspected_printed_abstract",
+      "inspected_on": "2026-09-30",
+      "capture": "research/queue-resolution-2026-09-30/older-captures/abstractsprotoc00scogoog-leaf60.jpg",
+      "page_reference": "printed36–37; IA scans n60–61"
+    },
+    "deed1729": {
+      "title": "Princess Anne County Deeds and Wills Book4 Part1,1724–1735,DGS7645780",
+      "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-99PX-F3DX",
+      "reading": "Daniel Glasco/Glascow, Norfolk planter, wife Mary, purchaser Richard Linton, 100 acres from Henry Slade’s 330-acre patent. The upper endorsement expressly says Daniel came into court and acknowledged the act on 3 September 1729. Earlier William title recital remains partly unread.",
+      "evidence_level": "visually_inspected_original_limited_resolution",
+      "inspected_on": "2026-09-30",
+      "capture": "research/pre-1700-2026-09-30/deed-reading/F3DX-right-enlarged.png",
+      "page_reference": "manuscript207; upper recording crop"
+    },
+    "will1730": {
+      "title": "McIntosh, Abstracts of Norfolk County Wills,1710–1753",
+      "url": "https://www.familysearch.org/library/books/viewer/166084/",
+      "reading": "Richard Johnson’s will dated 26 February 1729/30, proved 18 September 1730. Witnesses Richard Linton, Daneill Glasco, John Moy. The abstract is printed page 122. Witness date does not prove survival to probate.",
+      "evidence_level": "visually_inspected_printed_abstract",
+      "inspected_on": "2026-09-30",
+      "capture": "research/pre-1700-2026-09-30/virginia/mcintosh1710-1753-image122-reconstructed.png",
+      "page_reference": "PRINTED122, not112"
+    },
+    "betham1673": {
+      "title": "NLI Genealogical Office MS225,Betham Prerogative will pedigrees",
+      "url": "https://catalogue.nli.ie/Record/vtls000540633",
+      "reading": "Archibald Glasgow of Rathmalton, Donegal, clerk, will dated April1673. Margaret is expressly his only daughter, married to an unnamed Cairns, with son Thomas Cairns. A possible subsequent Nisbet marriage on the right is not asserted from uncertain reading. The daughter’s existing-profile identity remains unresolved.",
+      "evidence_level": "visually_inspected_derivative_manuscript",
+      "inspected_on": "2026-09-30",
+      "capture": "research/pre-1700-2026-09-30/betham/ms225-image097.jpg",
+      "page_reference": "written90; viewerimage97; originalwill uninspected"
+    },
+    "testamentindex": {
+      "title": "Scottish Record Society, Commissariot of Glasgow Register of Testaments,1547–1800",
+      "url": "https://www.electricscotland.com/history/records/scottishrecordso07scotuoft.pdf#page=206",
+      "reading": "John in Rashlie, parish Kilbryde, 17 April 1643; Margaret in Byris, Kilwynning, 8 November 1636. No kin or ages. Adjacent John sailor in Saltcoats1637 and John in Boog/Steivinstoun1685 are separate entries.",
+      "evidence_level": "visually_inspected_printed_index",
+      "inspected_on": "2026-09-30",
+      "capture": "research/queue-resolution-2026-09-30/older-captures/glasgow-testaments-printed196.png",
+      "page_reference": "printed196; PDF206"
+    },
+    "marriage1860": {
+      "title": "FamilySearch, Scotland Civil Registration,1855–1875,1881,1891",
+      "url": "https://www.familysearch.org/ark:/61903/1:1:6TLK-6T1J",
+      "reading": "9 November 1860, Old Monkland: bride Mary Thomson,37, parents Robert Thomson and Mary Glasgon Thomson. Groom William Sneddon,45, widower and collier, parents Robert Sneddon and Mary Gray Sneddon. Fresh index inspected by parent; image availability requires a center/affiliate library after sign-in. Original uninspected.",
+      "evidence_level": "fresh_inspected_index_original_restricted",
+      "inspected_on": "2026-09-30",
+      "capture": "research/queue-resolution-2026-09-30/older-captures/familysearch-sneddon-thomson-1860-index.txt",
+      "page_reference": "related groom6TLK-6T18; father6TLK-6T16; mother6TLK-6T1F; bridefather6TLK-6T1V; bridemother6TLK-6T1K"
+    },
+    "censusages": {
+      "title": "ScotlandsPeople, Census Returns Guide",
+      "url": "https://www.scotlandspeople.gov.uk/guides/census-returns",
+      "reading": "1841 census adult ages were usually rounded down to the nearest five. Age30 normally means30–34 in1841, not a birth in1815.",
+      "evidence_level": "official_method_guide",
+      "inspected_on": "2026-09-30"
+    }
+  },
+  "rows": [
+    {
+      "id": "subject-bridgegait-herbertsoun-1582-archibald-herbertsoun",
+      "name": "Archibald Herbertsoun",
+      "canonical_person_event_group": "bridgegait-fisher-herbison475",
+      "prior_status": "compatible_candidate",
+      "prior_profile_ids": [
+        "Herbison-475"
+      ],
+      "new_status": "compatible_candidate",
+      "profile_ids": [
+        "Herbison-475"
+      ],
+      "disposition": "qualified_probable_occurrence",
+      "identity_assessment": "The 18 January 1581/82 Bridgegait boundary names Archibald Herbertsoun, fisher. His name, craft and street probably identify Herbison-475, the record-proved husband of Isobella Glasgow. The boundary describes property, supplies no new kinship, and does not prove either spouse was then alive. The last proved personal appearance remains 19 December 1573.",
+      "source_ids": [
+        "bridge1582"
+      ],
+      "prior_source_citations": [
+        {
+          "title": "Archibald Herbertsoun, fisher: Bridgegait boundary",
+          "url": "https://archive.org/details/abstractsprotoc00scogoog/page/n60/mode/2up"
+        }
+      ],
+      "search_scope": {
+        "prior_audit": "research/queue-match-audit-2026-09-30/older-drafts.json",
+        "queries": [
+          {
+            "query": {
+              "FirstName": "Archibald",
+              "LastName": "Herbertsoun"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 0,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 0,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "Archibald",
+              "LastName": "Herbison"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 7,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 7,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "Archibald",
+              "LastName": "Herbertson"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 8,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 4,
+            "all_pages_returned": true
+          }
+        ],
+        "capture_files": [
+          "research/queue-match-audit-2026-09-30/older-drafts-searches.json",
+          "research/queue-match-audit-2026-09-30/older-drafts-more-searches.json"
+        ],
+        "note": "Prior live pagination reviewed as recorded; fresh original/transcription and candidate-biography checks distinguish source fact from profile identity."
+      },
+      "concrete_exclusions": [],
+      "father_relationship_upgrades": [],
+      "precise_patches": [
+        "Publish the probable Herbison-475 property occurrence; retain after 19 December 1573 as the last proved life boundary and make no parent changes."
+      ],
+      "affected_site_surfaces": [
+        "research/latest-findings.json",
+        "research/latest-findings-subjects/subjects.json",
+        "research/research-queue-matches.json",
+        "www/latest-findings/",
+        "www/people/herbison-475.json"
+      ],
+      "public_paragraph": "The 18 January 1581/82 Bridgegait boundary names Archibald Herbertsoun, fisher. His name, craft and street probably identify Herbison-475, the record-proved husband of Isobella Glasgow. The boundary describes property, supplies no new kinship, and does not prove either spouse was then alive. The last proved personal appearance remains 19 December 1573.",
+      "prior_assessment_provenance": {
+        "dated_on": "2026-09-30",
+        "path": "research/queue-match-audit-2026-09-30/older-drafts.json",
+        "id": "subject-bridgegait-herbertsoun-1582-archibald-herbertsoun",
+        "father_upgrade_eligibility": "No profile identity or father certainty upgrade proved; prior assessments retained."
+      }
+    },
+    {
+      "id": "subject-norfolk-daniel-1729-1730-daniel-glasco",
+      "name": "Daniel Glasco",
+      "canonical_person_event_group": "norfolk-daniel-mary-linton-1729-1730",
+      "prior_status": "compatible_candidate",
+      "prior_profile_ids": [
+        "Glasgow-3322"
+      ],
+      "new_status": "compatible_candidate",
+      "profile_ids": [
+        "Glasgow-3322"
+      ],
+      "disposition": "compatible_identity_pending",
+      "identity_assessment": "Daniel Glasco/Glascow, Norfolk planter, and his wife Mary conveyed 100 acres from Henry Slade’s 330-acre patent to Richard Linton. The upper endorsement expressly says Daniel came into court and acknowledged the act on 3 September 1729, proving him alive then. Daneill Glasco and Richard Linton also witnessed Richard Johnson’s will dated 26 February 1729/30; McIntosh’s abstract is printed page 122. Glasgow-3322, Mary Gamon’s husband in 1693, remains compatible, but the two estates have no proved continuous title chain.",
+      "source_ids": [
+        "deed1729",
+        "will1730"
+      ],
+      "prior_source_citations": [
+        {
+          "title": "Princess Anne County, Deeds and Wills Book4 Part1 (1724–1735), manuscript p.207, DGS7645780",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-99PX-F3DX"
+        },
+        {
+          "title": "Unidentified Daneill Glasco witnesses a Norfolk will",
+          "url": "https://www.familysearch.org/library/books/viewer/166084/"
+        }
+      ],
+      "search_scope": {
+        "prior_audit": "research/queue-match-audit-2026-09-30/older-drafts.json",
+        "queries": [
+          {
+            "query": {
+              "FirstName": "Daniel",
+              "LastName": "Glasco"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 60,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 44,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "Daniel",
+              "LastName": "Glasgow"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 20,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 17,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "Daniel",
+              "LastName": "Glasscock"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 15,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 13,
+            "all_pages_returned": true
+          }
+        ],
+        "capture_files": [
+          "research/queue-match-audit-2026-09-30/older-drafts-searches.json",
+          "research/queue-match-audit-2026-09-30/older-drafts-more-searches.json"
+        ],
+        "note": "Prior live pagination reviewed as recorded; fresh original/transcription and candidate-biography checks distinguish source fact from profile identity."
+      },
+      "concrete_exclusions": [],
+      "father_relationship_upgrades": [],
+      "precise_patches": [
+        "Correct the Daniel court-appearance life boundary to 3 September 1729 and the will abstract to printed page 122; retain Glasgow-3322 with the identity qualification."
+      ],
+      "affected_site_surfaces": [
+        "research/latest-findings.json",
+        "research/latest-findings-subjects/subjects.json",
+        "research/research-queue-matches.json",
+        "www/latest-findings/",
+        "www/people/glasgow-3322.json"
+      ],
+      "public_paragraph": "Daniel Glasco/Glascow, Norfolk planter, and his wife Mary conveyed 100 acres from Henry Slade’s 330-acre patent to Richard Linton. The upper endorsement expressly says Daniel came into court and acknowledged the act on 3 September 1729, proving him alive then. Daneill Glasco and Richard Linton also witnessed Richard Johnson’s will dated 26 February 1729/30; McIntosh’s abstract is printed page 122. Glasgow-3322, Mary Gamon’s husband in 1693, remains compatible, but the two estates have no proved continuous title chain.",
+      "prior_assessment_provenance": {
+        "dated_on": "2026-09-30",
+        "path": "research/queue-match-audit-2026-09-30/older-drafts.json",
+        "id": "subject-norfolk-daniel-1729-1730-daniel-glasco",
+        "father_upgrade_eligibility": "No profile identity or father certainty upgrade proved; prior assessments retained."
+      },
+      "new_record_facts": [
+        "Daniel personally appeared and acknowledged the deed in court on 3 September 1729; this supplies a proved life boundary.",
+        "McIntosh’s Richard Johnson will abstract is printed page 122, not 112."
+      ]
+    },
+    {
+      "id": "subject-glasgow-mathy-burgesses-1554-david-mathy",
+      "name": "David Mathy",
+      "canonical_person_event_group": "david-mathy-glasgow-burgess-1551-1554",
+      "prior_status": "no_compatible_profile",
+      "prior_profile_ids": [],
+      "new_status": "compatible_candidate",
+      "profile_ids": [
+        "Matthew-330"
+      ],
+      "disposition": "compatible_candidate_recovered_complete_sourced_draft",
+      "identity_assessment": "David Mathy and Mergaret Androsoune, expressly his spouse, bought a barn at Powdrait, Glasgow, on 3 February 1550/51. David Mathy and Robert Glesgw were expressly fellow burgesses witnessing a sasine on 10 May 1554; David also witnessed an act on 4 July 1554. The name and city make the purchaser and witness probably the same man, but the later acts do not repeat the spouse. No kinship with Robert is stated. David Matthew-330 is a weak compatible variant candidate: its only 1701 death assertion is GEDCOM-derived, so it cannot be excluded. The complete sourced draft remains on HOLD against that candidate, with purchaser/witness identity qualified.",
+      "source_ids": [
+        "mathy1551",
+        "mathy1554",
+        "mathy1554b"
+      ],
+      "prior_source_citations": [
+        {
+          "title": "Inspected historical source",
+          "url": "https://archive.org/details/abstractsofproto01glas"
+        }
+      ],
+      "search_scope": {
+        "prior_audit": "research/queue-match-audit-2026-09-30/older-drafts.json",
+        "queries": [
+          {
+            "query": {
+              "FirstName": "David",
+              "LastName": "Mathy"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 16,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 4,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "David",
+              "LastName": "Mathie"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 168,
+                "status": 0
+              },
+              {
+                "start": 100,
+                "total": 168,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 110,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "David",
+              "LastName": "Mathison"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 580,
+                "status": 0
+              },
+              {
+                "start": 100,
+                "total": 580,
+                "status": 0
+              },
+              {
+                "start": 200,
+                "total": 580,
+                "status": 0
+              },
+              {
+                "start": 300,
+                "total": 580,
+                "status": 0
+              },
+              {
+                "start": 400,
+                "total": 580,
+                "status": 0
+              },
+              {
+                "start": 500,
+                "total": 580,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 340,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "David",
+              "LastName": "Mathieson"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 574,
+                "status": 0
+              },
+              {
+                "start": 100,
+                "total": 574,
+                "status": 0
+              },
+              {
+                "start": 200,
+                "total": 574,
+                "status": 0
+              },
+              {
+                "start": 300,
+                "total": 574,
+                "status": 0
+              },
+              {
+                "start": 400,
+                "total": 574,
+                "status": 0
+              },
+              {
+                "start": 500,
+                "total": 574,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 337,
+            "all_pages_returned": true
+          }
+        ],
+        "capture_files": [
+          "research/queue-match-audit-2026-09-30/older-drafts-searches.json",
+          "research/queue-match-audit-2026-09-30/older-drafts-more-searches.json"
+        ],
+        "note": "Prior live pagination reviewed as recorded; fresh original/transcription and candidate-biography checks distinguish source fact from profile identity."
+      },
+      "concrete_exclusions": [
+        {
+          "profile_id": "Matthew-32",
+          "reason": "Spouse Curley-37 biography records an 1883 Victoria marriage; a different generation."
+        },
+        {
+          "profile_id": "Matthews-625",
+          "reason": "Spouse born 1911; a different generation."
+        }
+      ],
+      "father_relationship_upgrades": [],
+      "precise_patches": [
+        "Keep the complete David Mathy draft on HOLD with weak compatible Matthew-330, restored because the imported 1701 death is unsupported. Record the expressly named spouse separately with Anderson-3241 as a sparse candidate. Qualify the purchaser/witness lifetime as probable."
+      ],
+      "affected_site_surfaces": [
+        "research/latest-findings.json",
+        "research/latest-findings-subjects/subjects.json",
+        "research/research-queue-matches.json",
+        "www/latest-findings/",
+        "www/people/matthew-330.json"
+      ],
+      "public_paragraph": "David Mathy and Mergaret Androsoune, expressly his spouse, bought a barn at Powdrait, Glasgow, on 3 February 1550/51. David Mathy and Robert Glesgw were expressly fellow burgesses witnessing a sasine on 10 May 1554; David also witnessed an act on 4 July 1554. The name and city make the purchaser and witness probably the same man, but the later acts do not repeat the spouse. No kinship with Robert is stated. David Matthew-330 is a weak compatible variant candidate: its only 1701 death assertion is GEDCOM-derived, so it cannot be excluded. The complete sourced draft remains on HOLD against that candidate, with purchaser/witness identity qualified.",
+      "prior_assessment_provenance": {
+        "dated_on": "2026-09-30",
+        "path": "research/queue-match-audit-2026-09-30/older-drafts.json",
+        "id": "subject-glasgow-mathy-burgesses-1554-david-mathy",
+        "father_upgrade_eligibility": "No profile identity or father certainty upgrade proved; prior assessments retained."
+      },
+      "companion_subject": {
+        "name": "Mergaret Androsoune",
+        "canonical_group": "margaret-androsoune-david-mathy-1551",
+        "status": "compatible_candidate",
+        "profile_ids": [
+          "Anderson-3241"
+        ],
+        "public_paragraph": "Mergaret Androsoune is expressly David Mathy’s spouse in the 3 February 1550/51 Glasgow barn purchase. No age, birthplace, parents, children or death is stated. Anderson-3241 is a sparse compatible candidate with unknown dates, Scotland locality and an unsupported John Kelman spouse; no record proves identity or a conflict. The spouse clause is certain for the documentary couple, while her existing-profile identity remains unresolved.",
+        "search_scope": {
+          "capture": "research/queue-resolution-2026-09-30/older-captures/mathy-spouse-searches.json",
+          "method": "FirstName=Margaret and BirthLocation=Scotland; Anderson and Andersone first100 results only (807 and738 reported); Androsoune0/0; Andersoun1/1. Locally retained Open/nonliving profiles with known birth<=1551 and known death>=1551; unknown dates retained. This is a bounded search, not a no-profile determination.",
+          "biographies": "research/queue-resolution-2026-09-30/older-captures/mathy-spouse-biographies.json"
+        },
+        "concrete_exclusions": [],
+        "father_relationship_upgrades": [],
+        "wikitext": "== Biography ==\nMergaret Androsoune was expressly described as the spouse of David Mathy when the couple bought a barn at Powdrait, Glasgow, from John Hawstoune on 3 February 1550/51.<ref>Robert Renwick, ed., ''Abstracts of Protocols of the Town Clerks of Glasgow'', vol.1, protocol71, [https://archive.org/details/abstractsofproto01glas/page/n60/mode/1up p.27]; page image inspected 30 September 2026. Printed abstract; underlying protocol manuscript uninspected.</ref>\n\n== Research Notes ==\nThe record names the spouses and their lawful heirs collectively; it does not identify any children or parents. It gives no birth or death date. [[Anderson-3241|Margaret Anderson]] is a sparse compatible candidate, not a proved match. Her unsupported John Kelman spouse does not establish a conflict. The David Mathy burgess witness in 1554 is probably the same husband by name and city, but the later acts do not name Mergaret. Keep the household and profile identity qualifications explicit.\n\n== Sources ==\n<references />\n",
+        "minimum_fields": {
+          "recorded_name": "Mergaret Androsoune",
+          "first_name": "Margaret (recorded Mergaret)",
+          "last_name_at_birth": "Unknown; Androsoune is the recorded surname, not independently established maiden name",
+          "birth": "Before 3 February 1550/51; exact date and natal place unknown",
+          "death": "Unknown; recorded in the 3 February1550/51 transaction, not a death record",
+          "spouse": "David Mathy, directly named; existing profile identity unresolved",
+          "parents": "Unknown",
+          "children": "None individually identified; collective lawful-heirs clause is not a list of children"
+        }
+      },
+      "restored_candidates": [
+        {
+          "profile_id": "Matthew-330",
+          "reason": "Fresh biography has only a GEDCOM import, unknown birth and no spouse. The 1701 death is unsupported and cannot exclude the 1551/1554 man."
+        }
+      ],
+      "new_record_facts": [
+        "David Mathy and Mergaret Androsoune are expressly spouses on 3 February 1550/51.",
+        "David Mathy is an expressly named comburgess with Robert Glesgw on 10 May 1554 and witness on 4 July 1554; identification with the purchaser is probable."
+      ]
+    },
+    {
+      "id": "draft-1820-ireland-londonderry-elizabeth-d-1893-170-1020-14-497",
+      "name": "Elizabeth Glasgow",
+      "canonical_person_event_group": "elizabeth-glasgow-londonderry-death-1893",
+      "prior_status": "compatible_candidate",
+      "prior_profile_ids": [
+        "Glasgow-3033"
+      ],
+      "new_status": "compatible_candidate",
+      "profile_ids": [
+        "Glasgow-3033"
+      ],
+      "disposition": "compatible_identity_pending",
+      "identity_assessment": "Elizabeth Glasgow’s supplied death index records 15 November 1893, age 73, Londonderry registration district. Glasgow-3033, born at Gorbals on 23 May 1819 to James Glasgow and Jean Cunninghame, remains compatible. No record yet joins her Scottish family to this Irish death, and the death surname does not establish her birth surname. Keep the candidate and the draft on HOLD; the original death entry remains uninspected.",
+      "source_ids": [],
+      "prior_source_citations": [
+        {
+          "title": "Source citation retained in complete original draft",
+          "url": "https://geni.nidirect.gov.uk/search/death"
+        }
+      ],
+      "search_scope": {
+        "prior_audit": "research/queue-match-audit-2026-09-30/older-drafts.json",
+        "queries": [
+          {
+            "query": {
+              "FirstName": "Elizabeth",
+              "LastName": "Glasgow",
+              "DeathDate": "1893-11-15"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 75,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 75,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "Elizabeth",
+              "LastName": "Glasgow",
+              "BirthDate": "1820"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 0,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 0,
+            "all_pages_returned": true
+          }
+        ],
+        "capture_files": [
+          "research/queue-match-audit-2026-09-30/older-drafts-searches.json",
+          "research/queue-match-audit-2026-09-30/older-drafts-more-searches.json"
+        ],
+        "note": "Prior live pagination reviewed as recorded; fresh original/transcription and candidate-biography checks distinguish source fact from profile identity."
+      },
+      "concrete_exclusions": [],
+      "father_relationship_upgrades": [],
+      "precise_patches": [
+        "Change the death draft from READY TO CREATE to HOLD against Glasgow-3033 and preserve unknown birth surname and uninspected original status."
+      ],
+      "affected_site_surfaces": [
+        "research/latest-findings.json",
+        "research/latest-findings-subjects/subjects.json",
+        "research/research-queue-matches.json",
+        "www/latest-findings/",
+        "www/people/glasgow-3033.json",
+        "www/new-people/"
+      ],
+      "maintained_draft_path": "surname-research/new-people/1820_Ireland_Londonderry_Elizabeth_D-1893-170-1020-14-497.md",
+      "public_paragraph": "Elizabeth Glasgow’s supplied death index records 15 November 1893, age 73, Londonderry registration district. Glasgow-3033, born at Gorbals on 23 May 1819 to James Glasgow and Jean Cunninghame, remains compatible. No record yet joins her Scottish family to this Irish death, and the death surname does not establish her birth surname. Keep the candidate and the draft on HOLD; the original death entry remains uninspected.",
+      "prior_assessment_provenance": {
+        "dated_on": "2026-09-30",
+        "path": "research/queue-match-audit-2026-09-30/older-drafts.json",
+        "id": "draft-1820-ireland-londonderry-elizabeth-d-1893-170-1020-14-497",
+        "father_upgrade_eligibility": "No profile identity or father certainty upgrade proved; prior assessments retained."
+      }
+    },
+    {
+      "id": "draft-1677-scotland-register-of-deeds-hugh-glasgow",
+      "name": "Hugh Glasgow, preacher of the gospel, indexed 1677",
+      "canonical_person_event_group": "hugh-glasgow-preacher-deed-1677",
+      "prior_status": "compatible_candidate",
+      "prior_profile_ids": [
+        "Glasgow-1603",
+        "Glasgow-1066",
+        "Glasgow-3109"
+      ],
+      "new_status": "compatible_candidate",
+      "profile_ids": [
+        "Glasgow-1603",
+        "Glasgow-1066",
+        "Glasgow-3109"
+      ],
+      "disposition": "compatible_identity_source_hold",
+      "identity_assessment": "The 1677 deed index identifies Hugh Glasgow, preacher of the gospel, as grantee in an act recorded on 8 March 1677, Durie Office volume 42, page 148 (RD3/42). Glasgow-1603, Glasgow-1066 and Glasgow-3109 remain compatible; absent ministry details and unsupported imported ages do not exclude them. The original deed must supply the parties, residence or kin before an identity or relationship can be resolved. The recording date is not a death date.",
+      "source_ids": [],
+      "prior_source_citations": [
+        {
+          "title": "Source citation retained in complete original draft",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS39-S9V2-4?view=fullText&keywords=HUGH+Glasgow&searchForm=simple&lang=en&groupId=M9QN-ZQ3"
+        },
+        {
+          "title": "Source citation retained in complete original draft",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS39-S9V2-4?view=fullText&keywords=HUGH+Glasgow&searchForm=simple&lang=en&groupId=M9QN-ZQ3."
+        }
+      ],
+      "search_scope": {
+        "prior_audit": "research/queue-match-audit-2026-09-30/older-drafts.json",
+        "queries": [
+          {
+            "query": {
+              "FirstName": "Hugh",
+              "LastName": "Glasgow"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 52,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 47,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "Hew",
+              "LastName": "Glasgow"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 52,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 47,
+            "all_pages_returned": true
+          }
+        ],
+        "capture_files": [
+          "research/queue-match-audit-2026-09-30/older-drafts-searches.json",
+          "research/queue-match-audit-2026-09-30/older-drafts-more-searches.json"
+        ],
+        "note": "Prior live pagination reviewed as recorded; fresh original/transcription and candidate-biography checks distinguish source fact from profile identity."
+      },
+      "concrete_exclusions": [],
+      "father_relationship_upgrades": [],
+      "precise_patches": [
+        "Correct Hew-1066 links to Glasgow-1066 and retain all three candidates pending RD3/42 page 148."
+      ],
+      "affected_site_surfaces": [
+        "research/latest-findings.json",
+        "research/latest-findings-subjects/subjects.json",
+        "research/research-queue-matches.json",
+        "www/latest-findings/",
+        "www/people/glasgow-1603.json",
+        "www/people/glasgow-1066.json",
+        "www/people/glasgow-3109.json",
+        "www/new-people/"
+      ],
+      "maintained_draft_path": "surname-research/new-people/1677_Scotland_Register_of_Deeds_Hugh_Glasgow.md",
+      "public_paragraph": "The 1677 deed index identifies Hugh Glasgow, preacher of the gospel, as grantee in an act recorded on 8 March 1677, Durie Office volume 42, page 148 (RD3/42). Glasgow-1603, Glasgow-1066 and Glasgow-3109 remain compatible; absent ministry details and unsupported imported ages do not exclude them. The original deed must supply the parties, residence or kin before an identity or relationship can be resolved. The recording date is not a death date.",
+      "prior_assessment_provenance": {
+        "dated_on": "2026-09-30",
+        "path": "research/queue-match-audit-2026-09-30/older-drafts.json",
+        "id": "draft-1677-scotland-register-of-deeds-hugh-glasgow",
+        "father_upgrade_eligibility": "No profile identity or father certainty upgrade proved; prior assessments retained."
+      }
+    },
+    {
+      "id": "subject-didup-james-1674-james-glasgow",
+      "name": "James Glasgow",
+      "canonical_person_event_group": "james-glasgow-didup-inquest-1674",
+      "prior_status": "compatible_candidate",
+      "prior_profile_ids": [
+        "Glasgow-3105",
+        "Glasgow-3969",
+        "Glasgow-3172",
+        "Glasgow-3971",
+        "Glasgow-3107",
+        "Glasgow-1496"
+      ],
+      "new_status": "compatible_candidate",
+      "profile_ids": [
+        "Glasgow-3105",
+        "Glasgow-3969",
+        "Glasgow-3172",
+        "Glasgow-3971",
+        "Glasgow-3107",
+        "Glasgow-1496"
+      ],
+      "disposition": "compatible_identity_pending",
+      "identity_assessment": "James Glasgow in Didup is named in the 11 June 1674 Irvine inquest for Robert Hunter of Hunterstoun. The subject and older draft describe the same occurrence. Glasgow-3105, Glasgow-3969, Glasgow-3172, Glasgow-3971, Glasgow-3107 and Glasgow-1496 all remain plausible; the extract gives no age, occupation or kin. Consolidate the queue work and preserve the six candidates. The attempted independent book download failed, so no new original inspection is claimed.",
+      "source_ids": [],
+      "prior_source_citations": [
+        {
+          "title": "Shaw, Some Family Papers of the Hunters of Hunterston, printed p.62 entry89",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM7-J962-6"
+        }
+      ],
+      "search_scope": {
+        "prior_audit": "research/queue-match-audit-2026-09-30/older-drafts.json",
+        "queries": [
+          {
+            "query": {
+              "FirstName": "James",
+              "LastName": "Glasgow",
+              "BirthLocation": "Ayrshire"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 19,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 19,
+            "all_pages_returned": true
+          }
+        ],
+        "capture_files": [
+          "research/queue-match-audit-2026-09-30/older-drafts-searches.json",
+          "research/queue-match-audit-2026-09-30/older-drafts-more-searches.json"
+        ],
+        "note": "Prior live pagination reviewed as recorded; fresh original/transcription and candidate-biography checks distinguish source fact from profile identity."
+      },
+      "concrete_exclusions": [
+        {
+          "profile_id": "Glasgow-3104",
+          "reason": "Baptism in 1689 is after adult 1674 occurrence."
+        },
+        {
+          "profile_id": "Glasgow-1932",
+          "reason": "Baptism in 1707 is after adult 1674 occurrence."
+        }
+      ],
+      "father_relationship_upgrades": [],
+      "precise_patches": [
+        "Use one canonical Didup subject with all six candidates and qualify the uninspected independent book source."
+      ],
+      "affected_site_surfaces": [
+        "research/latest-findings.json",
+        "research/latest-findings-subjects/subjects.json",
+        "research/research-queue-matches.json",
+        "www/latest-findings/",
+        "www/people/glasgow-3105.json",
+        "www/people/glasgow-3969.json",
+        "www/people/glasgow-3172.json",
+        "www/people/glasgow-3971.json",
+        "www/people/glasgow-3107.json",
+        "www/people/glasgow-1496.json"
+      ],
+      "public_paragraph": "James Glasgow in Didup is named in the 11 June 1674 Irvine inquest for Robert Hunter of Hunterstoun. The subject and older draft describe the same occurrence. Glasgow-3105, Glasgow-3969, Glasgow-3172, Glasgow-3971, Glasgow-3107 and Glasgow-1496 all remain plausible; the extract gives no age, occupation or kin. Consolidate the queue work and preserve the six candidates. The attempted independent book download failed, so no new original inspection is claimed.",
+      "prior_assessment_provenance": {
+        "dated_on": "2026-09-30",
+        "path": "research/queue-match-audit-2026-09-30/older-drafts.json",
+        "id": "subject-didup-james-1674-james-glasgow",
+        "father_upgrade_eligibility": "No profile identity or father certainty upgrade proved; prior assessments retained."
+      }
+    },
+    {
+      "id": "draft-1674-scotland-didup-james-glasgow",
+      "name": "James Glasgow in Didup, named 1674",
+      "canonical_person_event_group": "james-glasgow-didup-inquest-1674",
+      "prior_status": "compatible_candidate",
+      "prior_profile_ids": [
+        "Glasgow-3105",
+        "Glasgow-3969",
+        "Glasgow-3172",
+        "Glasgow-3971",
+        "Glasgow-3107",
+        "Glasgow-1496"
+      ],
+      "new_status": "duplicate_workitem",
+      "profile_ids": [
+        "Glasgow-3105",
+        "Glasgow-3969",
+        "Glasgow-3172",
+        "Glasgow-3971",
+        "Glasgow-3107",
+        "Glasgow-1496"
+      ],
+      "disposition": "duplicate_workitem_consolidated",
+      "identity_assessment": "This older James Glasgow draft duplicates the subject’s 11 June 1674 Didup inquest occurrence. Consolidate it into subject-didup-james-1674-james-glasgow, retaining its dated source provenance and existing stable link where applicable. It supplies no second person, independent event or additional relationship evidence.",
+      "source_ids": [],
+      "prior_source_citations": [
+        {
+          "title": "Source citation retained in complete original draft",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM7-J962-6?view=fullText&keywords=Glasgow&searchForm=advanced&lang=en&groupId=M9QY-96Q"
+        },
+        {
+          "title": "Source citation retained in complete original draft",
+          "url": "https://www.scottishrecordsociety.org.uk/publications/old-series/"
+        },
+        {
+          "title": "Source citation retained in complete original draft",
+          "url": "https://www.seekingmyroots.com/members/files/G003230.pdf"
+        },
+        {
+          "title": "Source citation retained in complete original draft",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM7-J962-6?view=fullText&keywords=Glasgow&searchForm=advanced&lang=en&groupId=M9QY-96Q."
+        }
+      ],
+      "search_scope": {
+        "prior_audit": "research/queue-match-audit-2026-09-30/older-drafts.json",
+        "queries": [
+          {
+            "query": {
+              "FirstName": "James",
+              "LastName": "Glasgow",
+              "BirthLocation": "Ayrshire"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 19,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 19,
+            "all_pages_returned": true
+          }
+        ],
+        "capture_files": [
+          "research/queue-match-audit-2026-09-30/older-drafts-searches.json",
+          "research/queue-match-audit-2026-09-30/older-drafts-more-searches.json"
+        ],
+        "note": "Prior live pagination reviewed as recorded; fresh original/transcription and candidate-biography checks distinguish source fact from profile identity."
+      },
+      "concrete_exclusions": [
+        {
+          "profile_id": "Glasgow-3104",
+          "reason": "Baptism in 1689 is after adult 1674 occurrence."
+        },
+        {
+          "profile_id": "Glasgow-1932",
+          "reason": "Baptism in 1707 is after adult 1674 occurrence."
+        }
+      ],
+      "father_relationship_upgrades": [],
+      "precise_patches": [
+        "Consolidate this duplicate queue item into the existing Didup subject while retaining provenance."
+      ],
+      "affected_site_surfaces": [
+        "research/latest-findings.json",
+        "research/latest-findings-subjects/subjects.json",
+        "research/research-queue-matches.json",
+        "www/latest-findings/",
+        "www/people/glasgow-3105.json",
+        "www/people/glasgow-3969.json",
+        "www/people/glasgow-3172.json",
+        "www/people/glasgow-3971.json",
+        "www/people/glasgow-3107.json",
+        "www/people/glasgow-1496.json",
+        "www/new-people/"
+      ],
+      "maintained_draft_path": "surname-research/new-people/1674_Scotland_Didup_James_Glasgow.md",
+      "canonical_workitem_id": "subject-didup-james-1674-james-glasgow",
+      "public_paragraph": "This older James Glasgow draft duplicates the subject’s 11 June 1674 Didup inquest occurrence. Consolidate it into subject-didup-james-1674-james-glasgow, retaining its dated source provenance and existing stable link where applicable. It supplies no second person, independent event or additional relationship evidence.",
+      "prior_assessment_provenance": {
+        "dated_on": "2026-09-30",
+        "path": "research/queue-match-audit-2026-09-30/older-drafts.json",
+        "id": "draft-1674-scotland-didup-james-glasgow",
+        "father_upgrade_eligibility": "No profile identity or father certainty upgrade proved; prior assessments retained."
+      }
+    },
+    {
+      "id": "draft-1815-ireland-omagh-john-d-1871-209-1025-2-489",
+      "name": "John Glasgow",
+      "canonical_person_event_group": "john-glasgow-omagh-death-1871",
+      "prior_status": "compatible_candidate",
+      "prior_profile_ids": [
+        "Glasgow-3140"
+      ],
+      "new_status": "compatible_candidate",
+      "profile_ids": [
+        "Glasgow-3140"
+      ],
+      "disposition": "compatible_identity_pending",
+      "identity_assessment": "John Glasgow’s supplied death index records 30 September 1871, age 56, Omagh registration district. Glasgow-3140, the reconstructed Armagh husband of Elizabeth Fee born about 1813, remains compatible; the 1882 Armagh death is a competing candidate. The American Robert/Catherine-family John is separately Glasgow-4055 and cannot exclude Glasgow-3140 through the earlier conflation. Compare original death residence, occupation and informant before attaching either death.",
+      "source_ids": [],
+      "prior_source_citations": [
+        {
+          "title": "Source citation retained in complete original draft",
+          "url": "https://geni.nidirect.gov.uk/search/death"
+        }
+      ],
+      "search_scope": {
+        "prior_audit": "research/queue-match-audit-2026-09-30/older-drafts.json",
+        "queries": [
+          {
+            "query": {
+              "FirstName": "John",
+              "LastName": "Glasgow",
+              "BirthDate": "1626"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 3,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 2,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "John",
+              "LastName": "Glasgow",
+              "BirthDate": "1616"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 2,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 1,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "John",
+              "LastName": "Glasgow",
+              "DeathDate": "1643"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 13,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 12,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "John",
+              "LastName": "Glasgow",
+              "DeathDate": "1871-09-30"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 120,
+                "status": 0
+              },
+              {
+                "start": 100,
+                "total": 120,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 119,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "John",
+              "LastName": "Glasgow",
+              "BirthDate": "1815"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 7,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 6,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "Jon",
+              "LastName": "Glasgow",
+              "DeathDate": "1641"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 13,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 12,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "John",
+              "LastName": "Glasgow",
+              "BirthLocation": "Duddingston"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 2,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 2,
+            "all_pages_returned": true
+          }
+        ],
+        "capture_files": [
+          "research/queue-match-audit-2026-09-30/older-drafts-searches.json",
+          "research/queue-match-audit-2026-09-30/older-drafts-more-searches.json"
+        ],
+        "note": "Prior live pagination reviewed as recorded; fresh original/transcription and candidate-biography checks distinguish source fact from profile identity."
+      },
+      "concrete_exclusions": [],
+      "father_relationship_upgrades": [],
+      "precise_patches": [
+        "Change READY TO CREATE to HOLD against Glasgow-3140; record the competing 1882 death and remove American-family conflation as an exclusion."
+      ],
+      "affected_site_surfaces": [
+        "research/latest-findings.json",
+        "research/latest-findings-subjects/subjects.json",
+        "research/research-queue-matches.json",
+        "www/latest-findings/",
+        "www/people/glasgow-3140.json",
+        "www/new-people/"
+      ],
+      "maintained_draft_path": "surname-research/new-people/1815_Ireland_Omagh_John_D-1871-209-1025-2-489.md",
+      "public_paragraph": "John Glasgow’s supplied death index records 30 September 1871, age 56, Omagh registration district. Glasgow-3140, the reconstructed Armagh husband of Elizabeth Fee born about 1813, remains compatible; the 1882 Armagh death is a competing candidate. The American Robert/Catherine-family John is separately Glasgow-4055 and cannot exclude Glasgow-3140 through the earlier conflation. Compare original death residence, occupation and informant before attaching either death.",
+      "prior_assessment_provenance": {
+        "dated_on": "2026-09-30",
+        "path": "research/queue-match-audit-2026-09-30/older-drafts.json",
+        "id": "draft-1815-ireland-omagh-john-d-1871-209-1025-2-489",
+        "father_upgrade_eligibility": "No profile identity or father certainty upgrade proved; prior assessments retained."
+      }
+    },
+    {
+      "id": "draft-1643-scotland-rashlie-kilbride-john-glasgow",
+      "name": "John Glasgow in Rashlie, Kilbride, 1643",
+      "canonical_person_event_group": "john-glasgow-rashlie-testament-1643",
+      "prior_status": "compatible_candidate",
+      "prior_profile_ids": [
+        "Glasgow-1030",
+        "Glasgow-1561",
+        "Glasgow-1084",
+        "Glasgow-1088",
+        "Glasgow-1604"
+      ],
+      "new_status": "compatible_candidate",
+      "profile_ids": [
+        "Glasgow-1030",
+        "Glasgow-1561",
+        "Glasgow-1084",
+        "Glasgow-1088",
+        "Glasgow-1604"
+      ],
+      "disposition": "compatible_identity_source_hold",
+      "identity_assessment": "The independently inspected testament index confirms John Glasgow in Rashlie, parish of Kilbryde, on 17 April 1643, but supplies no age or family. Glasgow-1030, Glasgow-1561, Glasgow-1084 (redirecting to Glasgow-3015), Glasgow-1088 and Glasgow-1604 (redirecting to Glasgow-3145) remain compatible. Keep this separate from the 1637 Saltcoats sailor and the 1685 Boog/Steivinstoun John. Original CC9/7/28 remains uninspected.",
+      "source_ids": [
+        "testamentindex"
+      ],
+      "prior_source_citations": [
+        {
+          "title": "Source citation retained in complete original draft",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS8K-D98V?view=fullText&keywords=Glasgow&searchForm=advanced&lang=en&groupId=M97N-2NT"
+        },
+        {
+          "title": "Source citation retained in complete original draft",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS8K-D98V?view=fullText&keywords=Glasgow&searchForm=advanced&lang=en&groupId=M97N-2NT."
+        }
+      ],
+      "search_scope": {
+        "prior_audit": "research/queue-match-audit-2026-09-30/older-drafts.json",
+        "queries": [
+          {
+            "query": {
+              "FirstName": "John",
+              "LastName": "Glasgow",
+              "BirthDate": "1626"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 3,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 2,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "John",
+              "LastName": "Glasgow",
+              "BirthDate": "1616"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 2,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 1,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "John",
+              "LastName": "Glasgow",
+              "DeathDate": "1643"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 13,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 12,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "John",
+              "LastName": "Glasgow",
+              "DeathDate": "1871-09-30"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 120,
+                "status": 0
+              },
+              {
+                "start": 100,
+                "total": 120,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 119,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "John",
+              "LastName": "Glasgow",
+              "BirthDate": "1815"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 7,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 6,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "Jon",
+              "LastName": "Glasgow",
+              "DeathDate": "1641"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 13,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 12,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "John",
+              "LastName": "Glasgow",
+              "BirthLocation": "Duddingston"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 2,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 2,
+            "all_pages_returned": true
+          }
+        ],
+        "capture_files": [
+          "research/queue-match-audit-2026-09-30/older-drafts-searches.json",
+          "research/queue-match-audit-2026-09-30/older-drafts-more-searches.json"
+        ],
+        "note": "Prior live pagination reviewed as recorded; fresh original/transcription and candidate-biography checks distinguish source fact from profile identity."
+      },
+      "concrete_exclusions": [],
+      "father_relationship_upgrades": [],
+      "precise_patches": [
+        "Keep the Rashlie draft on HOLD with canonical redirected candidate links; seek the CC9/7/28 household; do not combine neighboring index entries."
+      ],
+      "affected_site_surfaces": [
+        "research/latest-findings.json",
+        "research/latest-findings-subjects/subjects.json",
+        "research/research-queue-matches.json",
+        "www/latest-findings/",
+        "www/people/glasgow-1030.json",
+        "www/people/glasgow-1561.json",
+        "www/people/glasgow-1084.json",
+        "www/people/glasgow-1088.json",
+        "www/people/glasgow-1604.json",
+        "www/new-people/"
+      ],
+      "maintained_draft_path": "surname-research/new-people/1643_Scotland_Rashlie_Kilbride_John_Glasgow.md",
+      "public_paragraph": "The independently inspected testament index confirms John Glasgow in Rashlie, parish of Kilbryde, on 17 April 1643, but supplies no age or family. Glasgow-1030, Glasgow-1561, Glasgow-1084 (redirecting to Glasgow-3015), Glasgow-1088 and Glasgow-1604 (redirecting to Glasgow-3145) remain compatible. Keep this separate from the 1637 Saltcoats sailor and the 1685 Boog/Steivinstoun John. Original CC9/7/28 remains uninspected.",
+      "prior_assessment_provenance": {
+        "dated_on": "2026-09-30",
+        "path": "research/queue-match-audit-2026-09-30/older-drafts.json",
+        "id": "draft-1643-scotland-rashlie-kilbride-john-glasgow",
+        "father_upgrade_eligibility": "No profile identity or father certainty upgrade proved; prior assessments retained."
+      }
+    },
+    {
+      "id": "draft-1648-scotland-edinburgh-john-glasgow",
+      "name": "John Gray",
+      "canonical_person_event_group": "john-gray-apprentice-1648-thomas-gray-maltman",
+      "prior_status": "compatible_candidate",
+      "prior_profile_ids": [
+        "Glasgow-1604",
+        "Glasgow-3610"
+      ],
+      "new_status": "compatible_candidate",
+      "profile_ids": [
+        "Gray-42340"
+      ],
+      "disposition": "source_attribution_corrected_identity_pending",
+      "identity_assessment": "Page-image inspection corrects the 12 January 1648 apprentice to John Gray, expressly son of the late Thomas Gray, maltman and burgess of Glasgow; the surname heading is Gray. The actual Glasgow heading appears on printed page 71. The 1646 burgess entries name James and Margaret as children of deceased Thomas Gray, maltman, strongly supporting the same record family; the 1613 Thomas Gray, son and heir of Gilbert, is a probable earlier occurrence. Gray-42340 is a compatible John candidate, with Gray-16804, Gray-25428 and Gray-32315 as weaker leads; Gray-44891 is a compatible Thomas candidate. Existing profile identity remains unresolved. Retire all Glasgow event and father claims while preserving the stable corrected dossier.",
+      "source_ids": [
+        "apprentice75",
+        "apprentice71",
+        "gray1613",
+        "gray1646"
+      ],
+      "prior_source_citations": [
+        {
+          "title": "Source citation retained in complete original draft",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM7-53ZS-V?view=fullText&keywords=Glasgow&searchForm=advanced&lang=en&groupId=M9H7-2TF"
+        },
+        {
+          "title": "Source citation retained in complete original draft",
+          "url": "https://archive.org/details/scottishrecordso28scotuoft/page/75/mode/1up"
+        },
+        {
+          "title": "Source citation retained in complete original draft",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM7-53ZS-V?view=fullText&keywords=Glasgow&searchForm=advanced&lang=en&groupId=M9H7-2TF."
+        }
+      ],
+      "search_scope": {
+        "prior_audit": "research/queue-match-audit-2026-09-30/older-drafts.json",
+        "queries": [
+          {
+            "query": {
+              "FirstName": "John",
+              "LastName": "Glasgow",
+              "BirthDate": "1626"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 3,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 2,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "John",
+              "LastName": "Glasgow",
+              "BirthDate": "1616"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 2,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 1,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "John",
+              "LastName": "Glasgow",
+              "DeathDate": "1643"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 13,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 12,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "John",
+              "LastName": "Glasgow",
+              "DeathDate": "1871-09-30"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 120,
+                "status": 0
+              },
+              {
+                "start": 100,
+                "total": 120,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 119,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "John",
+              "LastName": "Glasgow",
+              "BirthDate": "1815"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 7,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 6,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "Jon",
+              "LastName": "Glasgow",
+              "DeathDate": "1641"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 13,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 12,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "John",
+              "LastName": "Glasgow",
+              "BirthLocation": "Duddingston"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 2,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 2,
+            "all_pages_returned": true
+          }
+        ],
+        "capture_files": [
+          "research/queue-match-audit-2026-09-30/older-drafts-searches.json",
+          "research/queue-match-audit-2026-09-30/older-drafts-more-searches.json"
+        ],
+        "note": "Prior live pagination reviewed as recorded; fresh original/transcription and candidate-biography checks distinguish source fact from profile identity.",
+        "fresh_queries": [
+          {
+            "capture": "research/queue-resolution-2026-09-30/older-captures/gray-search-John-Gray.json",
+            "query": {},
+            "start": 0,
+            "total": 63,
+            "returned_open_nonliving": 32,
+            "limit": 100
+          },
+          {
+            "capture": "research/queue-resolution-2026-09-30/older-captures/gray-search-John-Grey.json",
+            "query": {},
+            "start": 0,
+            "total": 55,
+            "returned_open_nonliving": 27,
+            "limit": 100
+          },
+          {
+            "capture": "research/queue-resolution-2026-09-30/older-captures/gray-search-Thomas-Gray.json",
+            "query": {},
+            "start": 0,
+            "total": 18,
+            "returned_open_nonliving": 11,
+            "limit": 100
+          },
+          {
+            "capture": "research/queue-resolution-2026-09-30/older-captures/gray-additional-searches.json",
+            "query": {
+              "FirstName": "John",
+              "LastName": "Gray",
+              "BirthLocation": "Glasgow"
+            },
+            "start": 0,
+            "total": 30,
+            "returned_open_nonliving": 29,
+            "limit": 100
+          },
+          {
+            "capture": "research/queue-resolution-2026-09-30/older-captures/gray-additional-searches.json",
+            "query": {
+              "FirstName": "John",
+              "LastName": "Grey",
+              "BirthLocation": "Scotland"
+            },
+            "start": 0,
+            "total": 708,
+            "returned_open_nonliving": 100,
+            "limit": 100
+          },
+          {
+            "capture": "research/queue-resolution-2026-09-30/older-captures/gray-additional-searches.json",
+            "query": {
+              "FirstName": "Thomas",
+              "LastName": "Gray",
+              "BirthLocation": "Glasgow"
+            },
+            "start": 0,
+            "total": 6,
+            "returned_open_nonliving": 6,
+            "limit": 100
+          },
+          {
+            "capture": "research/queue-resolution-2026-09-30/older-captures/gray-additional-searches.json",
+            "query": {
+              "FirstName": "Thomas",
+              "LastName": "Gray",
+              "DeathDate": "1646"
+            },
+            "start": 0,
+            "total": 68,
+            "returned_open_nonliving": 61,
+            "limit": 100
+          }
+        ]
+      },
+      "concrete_exclusions": [
+        {
+          "profile_ids": [
+            "Glasgow-1604",
+            "Glasgow-3145",
+            "Glasgow-3610",
+            "Glasgow-1103"
+          ],
+          "reason": "The documentary surname is Gray. These Glasgow event/father attributions are retired, not lifetime identifications."
+        },
+        {
+          "profile_ids": [
+            "Gray-25383"
+          ],
+          "reason": "The Brechin baptism names father Patrick and mother Jean Ogilvie, conflicting with the Thomas father clause."
+        },
+        {
+          "profile_ids": [
+            "Grey-1220"
+          ],
+          "reason": "The documented Howick family identifies Edward Grey and Catherine Le Strange, conflicting with Thomas of Glasgow."
+        }
+      ],
+      "father_relationship_upgrades": [],
+      "precise_patches": [
+        "Correct the stable 1648 dossier title and account to John Gray; use compatible_candidate with Gray-42340 and separate weaker candidate leads; remove every current Glasgow/Thomas Glasgow attribution. Preserve historical dated snapshots with explicit supersession."
+      ],
+      "affected_site_surfaces": [
+        "research/latest-findings.json",
+        "research/latest-findings-subjects/subjects.json",
+        "research/research-queue-matches.json",
+        "www/latest-findings/",
+        "www/people/glasgow-1604.json",
+        "www/people/glasgow-3610.json",
+        "www/new-people/",
+        "www/map/data/records.csv",
+        "data/wikitree/catalogue-profile-audit.json",
+        "data/wikitree/profile-evidence.json",
+        "data/wikitree/research-catalogue-cases.json",
+        "research/record-john-glasgow-edinburgh-1648/findings.md",
+        "surname-research/indexes/early-profiles.md",
+        "surname-research/indexes/researched-profiles.md",
+        "surname-research/to-update.md",
+        "surname-research/pre-1700/evidence-register.md",
+        "tools/audit_missing_wikitree_profiles.py"
+      ],
+      "maintained_draft_path": "surname-research/new-people/1648_Scotland_Edinburgh_John_Glasgow.md",
+      "corrected_subject_candidates": [
+        "Gray-42340",
+        "Gray-16804",
+        "Gray-25428",
+        "Gray-32315"
+      ],
+      "corrected_father_candidates": [
+        "Gray-44891"
+      ],
+      "candidate_comparisons": [
+        {
+          "profile_id": "Gray-42340",
+          "assessment": "Kirkintilloch John, estimated 1620–1635, father in 1657. The asserted Andrew parent is unsupported; no concrete age/locality exclusion."
+        },
+        {
+          "profile_id": "Gray-16804",
+          "assessment": "Estimated Glasgow 1600–1665; sparse trees and unknown father. Estimated age weakens identity but does not exclude an older apprentice."
+        },
+        {
+          "profile_id": "Gray-25428",
+          "assessment": "Monikie John, estimated 1630, married Margaret Watt in 1649; no Glasgow bridge, but compatible generation."
+        },
+        {
+          "profile_id": "Gray-32315",
+          "assessment": "Dysart John, married Elspet Dine in 1630; the earlier adult marriage makes this a weaker apprentice identity, not a categorical exclusion."
+        },
+        {
+          "profile_id": "Gray-44891",
+          "assessment": "Glasgow Thomas, husband of Geills Lytbodie, father of Jean in 1633, with Jon1625 and John1631 listed. Obtain original birth/parent sources and distinguish the two sons; unsupported Robert/Katherine parent and 1600 birth assertions do not exclude him."
+        }
+      ],
+      "public_paragraph": "Page-image inspection corrects the 12 January 1648 apprentice to John Gray, expressly son of the late Thomas Gray, maltman and burgess of Glasgow; the surname heading is Gray. The actual Glasgow heading appears on printed page 71. The 1646 burgess entries name James and Margaret as children of deceased Thomas Gray, maltman, strongly supporting the same record family; the 1613 Thomas Gray, son and heir of Gilbert, is a probable earlier occurrence. Gray-42340 is a compatible John candidate, with Gray-16804, Gray-25428 and Gray-32315 as weaker leads; Gray-44891 is a compatible Thomas candidate. Existing profile identity remains unresolved. Retire all Glasgow event and father claims while preserving the stable corrected dossier.",
+      "prior_assessment_provenance": {
+        "dated_on": "2026-09-30",
+        "path": "research/queue-match-audit-2026-09-30/older-drafts.json",
+        "id": "draft-1648-scotland-edinburgh-john-glasgow",
+        "father_upgrade_eligibility": "No profile identity or father certainty upgrade proved; prior assessments retained."
+      },
+      "other_compatible_profile_ids": [
+        "Gray-16804",
+        "Gray-25428",
+        "Gray-32315"
+      ],
+      "new_record_facts": [
+        "The 1648 apprentice is John Gray, expressly son of late Thomas Gray; this corrects the source attribution.",
+        "Thomas Gray, maltman, son and heir of deceased Gilbert, is recorded in 1613; James and Margaret are expressly children of late Thomas Gray, maltman, in 1646. The cross-entry lifetime identity remains qualified."
+      ]
+    },
+    {
+      "id": "draft-1641-scotland-duddingston-jon-glasgow",
+      "name": "Jon Glasgow, Duddingston burial index, 1641",
+      "canonical_person_event_group": "jon-glasgow-duddingston-burial-1641",
+      "prior_status": "compatible_candidate",
+      "prior_profile_ids": [
+        "Glasgow-1559",
+        "Glasgow-3014"
+      ],
+      "new_status": "compatible_candidate",
+      "profile_ids": [
+        "Glasgow-1559",
+        "Glasgow-3014"
+      ],
+      "disposition": "compatible_identity_pending",
+      "identity_assessment": "The 23 August 1641 Duddingston burial indexes Jon Glasgow without an inspected parent clause. Glasgow-1559, baptised 4 April 1639 to John and Margaret Sluman, and Glasgow-3014, baptised 11 January 1638 to John and Helene Patoune, remain candidates. A suspected 15 January 1638 infant burial has not been proved to concern Glasgow-3014. Do not exclude or attach a death on that uncertain association.",
+      "source_ids": [],
+      "prior_source_citations": [
+        {
+          "title": "Source citation retained in complete original draft",
+          "url": "https://www.scotlandspeople.gov.uk/"
+        }
+      ],
+      "search_scope": {
+        "prior_audit": "research/queue-match-audit-2026-09-30/older-drafts.json",
+        "queries": [
+          {
+            "query": {
+              "FirstName": "John",
+              "LastName": "Glasgow",
+              "BirthDate": "1626"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 3,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 2,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "John",
+              "LastName": "Glasgow",
+              "BirthDate": "1616"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 2,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 1,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "John",
+              "LastName": "Glasgow",
+              "DeathDate": "1643"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 13,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 12,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "John",
+              "LastName": "Glasgow",
+              "DeathDate": "1871-09-30"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 120,
+                "status": 0
+              },
+              {
+                "start": 100,
+                "total": 120,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 119,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "John",
+              "LastName": "Glasgow",
+              "BirthDate": "1815"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 7,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 6,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "Jon",
+              "LastName": "Glasgow",
+              "DeathDate": "1641"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 13,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 12,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "John",
+              "LastName": "Glasgow",
+              "BirthLocation": "Duddingston"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 2,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 2,
+            "all_pages_returned": true
+          }
+        ],
+        "capture_files": [
+          "research/queue-match-audit-2026-09-30/older-drafts-searches.json",
+          "research/queue-match-audit-2026-09-30/older-drafts-more-searches.json"
+        ],
+        "note": "Prior live pagination reviewed as recorded; fresh original/transcription and candidate-biography checks distinguish source fact from profile identity."
+      },
+      "concrete_exclusions": [],
+      "father_relationship_upgrades": [],
+      "precise_patches": [
+        "Retain both child candidates and require an inspected burial household clause before a death attachment or exclusion."
+      ],
+      "affected_site_surfaces": [
+        "research/latest-findings.json",
+        "research/latest-findings-subjects/subjects.json",
+        "research/research-queue-matches.json",
+        "www/latest-findings/",
+        "www/people/glasgow-1559.json",
+        "www/people/glasgow-3014.json",
+        "www/new-people/"
+      ],
+      "maintained_draft_path": "surname-research/new-people/1641_Scotland_Duddingston_Jon_Glasgow.md",
+      "public_paragraph": "The 23 August 1641 Duddingston burial indexes Jon Glasgow without an inspected parent clause. Glasgow-1559, baptised 4 April 1639 to John and Margaret Sluman, and Glasgow-3014, baptised 11 January 1638 to John and Helene Patoune, remain candidates. A suspected 15 January 1638 infant burial has not been proved to concern Glasgow-3014. Do not exclude or attach a death on that uncertain association.",
+      "prior_assessment_provenance": {
+        "dated_on": "2026-09-30",
+        "path": "research/queue-match-audit-2026-09-30/older-drafts.json",
+        "id": "draft-1641-scotland-duddingston-jon-glasgow",
+        "father_upgrade_eligibility": "No profile identity or father certainty upgrade proved; prior assessments retained."
+      }
+    },
+    {
+      "id": "subject-rathmalton-1673-margaret-glasgow",
+      "name": "Margaret Glasgow",
+      "canonical_person_event_group": "margaret-glasgow-rathmalton-cairns-1673",
+      "prior_status": "compatible_candidate",
+      "prior_profile_ids": [
+        "Glasgow-3186"
+      ],
+      "new_status": "compatible_candidate",
+      "profile_ids": [
+        "Glasgow-3186"
+      ],
+      "disposition": "compatible_identity_pending",
+      "identity_assessment": "Betham’s manuscript pedigree of Archibald Glasgow, Rathmalton clerk, whose will was dated April 1673, expressly names Margaret as his only daughter, married to an unnamed Cairns, with son Thomas Cairns. This proves the documentary father–daughter pair. Glasgow-3186, wife of George Lyell in South Leith in 1633, remains a candidate because a later Cairns marriage is possible, but no marriage or household bridge is proved. The Scottish Archibald profile identity remains qualified; no profile father upgrade follows. Glasgow-1523’s cited 1638 baptism names father William Glasgow, a concrete father conflict; its guessed 1642 death is not evidence.",
+      "source_ids": [
+        "betham1673"
+      ],
+      "prior_source_citations": [
+        {
+          "title": "Archibald Glasgow’s will abstract names his eldest son Thomas",
+          "url": "https://catalogue.nli.ie/Record/vtls000540633"
+        }
+      ],
+      "search_scope": {
+        "prior_audit": "research/queue-match-audit-2026-09-30/older-drafts.json",
+        "queries": [
+          {
+            "query": {
+              "FirstName": "Margaret",
+              "LastName": "Glasgow",
+              "BirthDate": "1610"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 3,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 3,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "Margaret",
+              "LastName": "Glasgow",
+              "BirthLocation": "Kilwinning"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 9,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 9,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "Margaret",
+              "LastName": "Glasgow",
+              "BirthLocation": "Ireland"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 58,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 58,
+            "all_pages_returned": true
+          }
+        ],
+        "capture_files": [
+          "research/queue-match-audit-2026-09-30/older-drafts-searches.json",
+          "research/queue-match-audit-2026-09-30/older-drafts-more-searches.json"
+        ],
+        "note": "Prior live pagination reviewed as recorded; fresh original/transcription and candidate-biography checks distinguish source fact from profile identity."
+      },
+      "concrete_exclusions": [
+        {
+          "profile_id": "Glasgow-1523",
+          "reason": "The cited 15 February 1638 baptism names William Glasgow and Bessie Howie, a different documentary father from Archibald. Its estimated 1642 death is explicitly unsupported and is not an exclusion. Fresh profile/source citation inspected; original baptism uninspected."
+        }
+      ],
+      "father_relationship_upgrades": [],
+      "precise_patches": [
+        "Publish Margaret’s record father and Cairns family with the Glasgow-3186 identity qualification; make no father certainty change or uncertain Nisbet claim."
+      ],
+      "affected_site_surfaces": [
+        "research/latest-findings.json",
+        "research/latest-findings-subjects/subjects.json",
+        "research/research-queue-matches.json",
+        "www/latest-findings/",
+        "www/people/glasgow-3186.json"
+      ],
+      "public_paragraph": "Betham’s manuscript pedigree of Archibald Glasgow, Rathmalton clerk, whose will was dated April 1673, expressly names Margaret as his only daughter, married to an unnamed Cairns, with son Thomas Cairns. This proves the documentary father–daughter pair. Glasgow-3186, wife of George Lyell in South Leith in 1633, remains a candidate because a later Cairns marriage is possible, but no marriage or household bridge is proved. The Scottish Archibald profile identity remains qualified; no profile father upgrade follows. Glasgow-1523’s cited 1638 baptism names father William Glasgow, a concrete father conflict; its guessed 1642 death is not evidence.",
+      "prior_assessment_provenance": {
+        "dated_on": "2026-09-30",
+        "path": "research/queue-match-audit-2026-09-30/older-drafts.json",
+        "id": "subject-rathmalton-1673-margaret-glasgow",
+        "father_upgrade_eligibility": "No profile identity or father certainty upgrade proved; prior assessments retained."
+      }
+    },
+    {
+      "id": "draft-1636-scotland-kilwinning-margaret-glasgow",
+      "name": "Margaret Glasgow in Byris, Kilwinning, 1636",
+      "canonical_person_event_group": "margaret-glasgow-byris-testament-1636",
+      "prior_status": "compatible_candidate",
+      "prior_profile_ids": [
+        "Glasgow-1100",
+        "Glasgow-3598",
+        "Glasgow-3186"
+      ],
+      "new_status": "compatible_candidate",
+      "profile_ids": [
+        "Glasgow-1100",
+        "Glasgow-3598",
+        "Glasgow-3186"
+      ],
+      "disposition": "compatible_identity_source_hold",
+      "identity_assessment": "The independently inspected index confirms Margaret Glasgow in Byris, Kilwynning, on 8 November 1636, without an age, husband or parents. Glasgow-1100, Glasgow-3598 and Glasgow-3186 remain compatible. Glasgow-1100’s father George was already directly proved by the 1633 burgess clause; this index is not a father upgrade. Original CC9/7/27 remains uninspected, and its recording date is not an exact death date.",
+      "source_ids": [
+        "testamentindex"
+      ],
+      "prior_source_citations": [
+        {
+          "title": "Source citation retained in complete original draft",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS8K-D98V?view=fullText&keywords=Glasgow&searchForm=advanced&lang=en&groupId=M97N-2NT"
+        },
+        {
+          "title": "Source citation retained in complete original draft",
+          "url": "https://www.electricscotland.com/history/records/scottishrecordso07scotuoft.pdf#page=206"
+        }
+      ],
+      "search_scope": {
+        "prior_audit": "research/queue-match-audit-2026-09-30/older-drafts.json",
+        "queries": [
+          {
+            "query": {
+              "FirstName": "Margaret",
+              "LastName": "Glasgow",
+              "BirthDate": "1610"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 3,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 3,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "Margaret",
+              "LastName": "Glasgow",
+              "BirthLocation": "Kilwinning"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 9,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 9,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "Margaret",
+              "LastName": "Glasgow",
+              "BirthLocation": "Ireland"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 58,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 58,
+            "all_pages_returned": true
+          }
+        ],
+        "capture_files": [
+          "research/queue-match-audit-2026-09-30/older-drafts-searches.json",
+          "research/queue-match-audit-2026-09-30/older-drafts-more-searches.json"
+        ],
+        "note": "Prior live pagination reviewed as recorded; fresh original/transcription and candidate-biography checks distinguish source fact from profile identity."
+      },
+      "concrete_exclusions": [],
+      "father_relationship_upgrades": [],
+      "precise_patches": [
+        "Retain three candidates and seek the original testament household; do not count the already-certain George father as an upgrade."
+      ],
+      "affected_site_surfaces": [
+        "research/latest-findings.json",
+        "research/latest-findings-subjects/subjects.json",
+        "research/research-queue-matches.json",
+        "www/latest-findings/",
+        "www/people/glasgow-1100.json",
+        "www/people/glasgow-3598.json",
+        "www/people/glasgow-3186.json",
+        "www/new-people/"
+      ],
+      "maintained_draft_path": "surname-research/new-people/1636_Scotland_Kilwinning_Margaret_Glasgow.md",
+      "public_paragraph": "The independently inspected index confirms Margaret Glasgow in Byris, Kilwynning, on 8 November 1636, without an age, husband or parents. Glasgow-1100, Glasgow-3598 and Glasgow-3186 remain compatible. Glasgow-1100’s father George was already directly proved by the 1633 burgess clause; this index is not a father upgrade. Original CC9/7/27 remains uninspected, and its recording date is not an exact death date.",
+      "prior_assessment_provenance": {
+        "dated_on": "2026-09-30",
+        "path": "research/queue-match-audit-2026-09-30/older-drafts.json",
+        "id": "draft-1636-scotland-kilwinning-margaret-glasgow",
+        "father_upgrade_eligibility": "No profile identity or father certainty upgrade proved; prior assessments retained."
+      }
+    },
+    {
+      "id": "subject-norfolk-daniel-1729-1730-mary",
+      "name": "Mary",
+      "canonical_person_event_group": "norfolk-daniel-mary-linton-1729-1730",
+      "prior_status": "compatible_candidate",
+      "prior_profile_ids": [
+        "Gammon-934"
+      ],
+      "new_status": "compatible_candidate",
+      "profile_ids": [
+        "Gammon-934"
+      ],
+      "disposition": "compatible_identity_pending",
+      "identity_assessment": "Mary is expressly Daniel Glasco’s wife in the 1729 deed. Gammon-934 remains compatible with the 1693 John Gamon will’s daughter Mary, wife of Daniel Glasco. Her guessed 1699 death and inconsistent imported spouse field are unsupported and do not exclude her. The 1693 record proves that earlier Mary’s father, but no record yet proves that the 1729 wife is the same woman. Keep the candidate and the lifetime identity qualification together.",
+      "source_ids": [
+        "deed1729",
+        "will1730"
+      ],
+      "prior_source_citations": [
+        {
+          "title": "Princess Anne County, Deeds and Wills Book4 Part1 (1724–1735), manuscript p.207, DGS7645780",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-99PX-F3DX"
+        }
+      ],
+      "search_scope": {
+        "prior_audit": "research/queue-match-audit-2026-09-30/older-drafts.json",
+        "queries": [
+          {
+            "query": {
+              "FirstName": "Mary",
+              "LastName": "Gammon"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 1031,
+                "status": 0
+              },
+              {
+                "start": 100,
+                "total": 1031,
+                "status": 0
+              },
+              {
+                "start": 200,
+                "total": 1031,
+                "status": 0
+              },
+              {
+                "start": 300,
+                "total": 1031,
+                "status": 0
+              },
+              {
+                "start": 400,
+                "total": 1031,
+                "status": 0
+              },
+              {
+                "start": 500,
+                "total": 1031,
+                "status": 0
+              },
+              {
+                "start": 600,
+                "total": 1031,
+                "status": 0
+              },
+              {
+                "start": 700,
+                "total": 1031,
+                "status": 0
+              },
+              {
+                "start": 800,
+                "total": 1031,
+                "status": 0
+              },
+              {
+                "start": 900,
+                "total": 1031,
+                "status": 0
+              },
+              {
+                "start": 1000,
+                "total": 1031,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 776,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "Mary",
+              "LastName": "Gamon"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 896,
+                "status": 0
+              },
+              {
+                "start": 100,
+                "total": 896,
+                "status": 0
+              },
+              {
+                "start": 200,
+                "total": 896,
+                "status": 0
+              },
+              {
+                "start": 300,
+                "total": 896,
+                "status": 0
+              },
+              {
+                "start": 400,
+                "total": 896,
+                "status": 0
+              },
+              {
+                "start": 500,
+                "total": 896,
+                "status": 0
+              },
+              {
+                "start": 600,
+                "total": 896,
+                "status": 0
+              },
+              {
+                "start": 700,
+                "total": 896,
+                "status": 0
+              },
+              {
+                "start": 800,
+                "total": 896,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 673,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "Mary",
+              "LastName": "Thomson",
+              "BirthLocation": "Monkland"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 6,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 6,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "Mary",
+              "LastName": "Thomson",
+              "BirthDate": "1823"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 347,
+                "status": 0
+              },
+              {
+                "start": 100,
+                "total": 347,
+                "status": 0
+              },
+              {
+                "start": 200,
+                "total": 347,
+                "status": 0
+              },
+              {
+                "start": 300,
+                "total": 347,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 289,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "Mary",
+              "LastName": "Glasgon",
+              "BirthLocation": "Scotland"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 0,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 0,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "Mary",
+              "LastName": "Glasgow",
+              "BirthLocation": "Scotland"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 50,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 48,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "Mary",
+              "LastName": "Thomson",
+              "BirthLocation": "Lanark"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 9,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 9,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "Mary",
+              "LastName": "Glasgow",
+              "BirthLocation": "Lanark"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 0,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 0,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "Mary",
+              "LastName": "Glasgow",
+              "BirthDate": "1795"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 2,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 2,
+            "all_pages_returned": true
+          }
+        ],
+        "capture_files": [
+          "research/queue-match-audit-2026-09-30/older-drafts-searches.json",
+          "research/queue-match-audit-2026-09-30/older-drafts-more-searches.json"
+        ],
+        "note": "Prior live pagination reviewed as recorded; fresh original/transcription and candidate-biography checks distinguish source fact from profile identity."
+      },
+      "concrete_exclusions": [],
+      "father_relationship_upgrades": [],
+      "precise_patches": [
+        "Keep Gammon-934 as a linked candidate; state the earlier record father proof separately from the unproved 1729 lifetime identity."
+      ],
+      "affected_site_surfaces": [
+        "research/latest-findings.json",
+        "research/latest-findings-subjects/subjects.json",
+        "research/research-queue-matches.json",
+        "www/latest-findings/",
+        "www/people/gammon-934.json"
+      ],
+      "public_paragraph": "Mary is expressly Daniel Glasco’s wife in the 1729 deed. Gammon-934 remains compatible with the 1693 John Gamon will’s daughter Mary, wife of Daniel Glasco. Her guessed 1699 death and inconsistent imported spouse field are unsupported and do not exclude her. The 1693 record proves that earlier Mary’s father, but no record yet proves that the 1729 wife is the same woman. Keep the candidate and the lifetime identity qualification together.",
+      "prior_assessment_provenance": {
+        "dated_on": "2026-09-30",
+        "path": "research/queue-match-audit-2026-09-30/older-drafts.json",
+        "id": "subject-norfolk-daniel-1729-1730-mary",
+        "father_upgrade_eligibility": "No profile identity or father certainty upgrade proved; prior assessments retained."
+      }
+    },
+    {
+      "id": "subject-old-monkland-thomson-sneddon-1860-mary-glasgon-thomson",
+      "name": "Mary Glasgon Thomson",
+      "canonical_person_event_group": "old-monkland-sneddon-thomson-marriage-1860",
+      "prior_status": "compatible_candidate",
+      "prior_profile_ids": [
+        "Glasgow-4093",
+        "Glasgow-1351",
+        "Glasgow-1353",
+        "Glasgow-1453",
+        "Glasgow-1531"
+      ],
+      "new_status": "compatible_candidate",
+      "profile_ids": [
+        "Glasgow-4093",
+        "Glasgow-1351",
+        "Glasgow-1353",
+        "Glasgow-1453",
+        "Glasgow-1531"
+      ],
+      "disposition": "compatible_identity_pending",
+      "identity_assessment": "The 1860 marriage index names the bride’s mother Mary Glasgon Thomson. Glasgow-4093, Nancy’s daughter Mary Thompson in the 1892 New York probate, remains a candidate without an Irish–Scottish household bridge. Glasgow-1351, Glasgow-1353, Glasgow-1453 and Glasgow-1531 also remain candidates; their Scottish baptismal families have no proved Robert Thomson marriage connection. Do not transfer a Tannybrake widow’s age or identify Nancy as this mother. The original marriage image requires a FamilySearch center or affiliate library and was not inspected.",
+      "source_ids": [
+        "marriage1860"
+      ],
+      "prior_source_citations": [
+        {
+          "title": "Scottish civil marriage index: Mary Thomson",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:6TLK-6T1J"
+        },
+        {
+          "title": "Extracted marriage index: Old Monkland",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:XT1H-TBC"
+        }
+      ],
+      "search_scope": {
+        "prior_audit": "research/queue-match-audit-2026-09-30/older-drafts.json",
+        "queries": [
+          {
+            "query": {
+              "FirstName": "Mary",
+              "LastName": "Gammon"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 1031,
+                "status": 0
+              },
+              {
+                "start": 100,
+                "total": 1031,
+                "status": 0
+              },
+              {
+                "start": 200,
+                "total": 1031,
+                "status": 0
+              },
+              {
+                "start": 300,
+                "total": 1031,
+                "status": 0
+              },
+              {
+                "start": 400,
+                "total": 1031,
+                "status": 0
+              },
+              {
+                "start": 500,
+                "total": 1031,
+                "status": 0
+              },
+              {
+                "start": 600,
+                "total": 1031,
+                "status": 0
+              },
+              {
+                "start": 700,
+                "total": 1031,
+                "status": 0
+              },
+              {
+                "start": 800,
+                "total": 1031,
+                "status": 0
+              },
+              {
+                "start": 900,
+                "total": 1031,
+                "status": 0
+              },
+              {
+                "start": 1000,
+                "total": 1031,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 776,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "Mary",
+              "LastName": "Gamon"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 896,
+                "status": 0
+              },
+              {
+                "start": 100,
+                "total": 896,
+                "status": 0
+              },
+              {
+                "start": 200,
+                "total": 896,
+                "status": 0
+              },
+              {
+                "start": 300,
+                "total": 896,
+                "status": 0
+              },
+              {
+                "start": 400,
+                "total": 896,
+                "status": 0
+              },
+              {
+                "start": 500,
+                "total": 896,
+                "status": 0
+              },
+              {
+                "start": 600,
+                "total": 896,
+                "status": 0
+              },
+              {
+                "start": 700,
+                "total": 896,
+                "status": 0
+              },
+              {
+                "start": 800,
+                "total": 896,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 673,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "Mary",
+              "LastName": "Thomson",
+              "BirthLocation": "Monkland"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 6,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 6,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "Mary",
+              "LastName": "Thomson",
+              "BirthDate": "1823"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 347,
+                "status": 0
+              },
+              {
+                "start": 100,
+                "total": 347,
+                "status": 0
+              },
+              {
+                "start": 200,
+                "total": 347,
+                "status": 0
+              },
+              {
+                "start": 300,
+                "total": 347,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 289,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "Mary",
+              "LastName": "Glasgon",
+              "BirthLocation": "Scotland"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 0,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 0,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "Mary",
+              "LastName": "Glasgow",
+              "BirthLocation": "Scotland"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 50,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 48,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "Mary",
+              "LastName": "Thomson",
+              "BirthLocation": "Lanark"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 9,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 9,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "Mary",
+              "LastName": "Glasgow",
+              "BirthLocation": "Lanark"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 0,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 0,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "Mary",
+              "LastName": "Glasgow",
+              "BirthDate": "1795"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 2,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 2,
+            "all_pages_returned": true
+          }
+        ],
+        "capture_files": [
+          "research/queue-match-audit-2026-09-30/older-drafts-searches.json",
+          "research/queue-match-audit-2026-09-30/older-drafts-more-searches.json"
+        ],
+        "note": "Prior live pagination reviewed as recorded; fresh original/transcription and candidate-biography checks distinguish source fact from profile identity."
+      },
+      "concrete_exclusions": [],
+      "father_relationship_upgrades": [],
+      "precise_patches": [
+        "Retain all five mother candidates and exact indexed spelling; remove imported Tannybrake age and Nancy identification; mark original access restricted."
+      ],
+      "affected_site_surfaces": [
+        "research/latest-findings.json",
+        "research/latest-findings-subjects/subjects.json",
+        "research/research-queue-matches.json",
+        "www/latest-findings/",
+        "www/people/glasgow-4093.json",
+        "www/people/glasgow-1351.json",
+        "www/people/glasgow-1353.json",
+        "www/people/glasgow-1453.json",
+        "www/people/glasgow-1531.json"
+      ],
+      "public_paragraph": "The 1860 marriage index names the bride’s mother Mary Glasgon Thomson. Glasgow-4093, Nancy’s daughter Mary Thompson in the 1892 New York probate, remains a candidate without an Irish–Scottish household bridge. Glasgow-1351, Glasgow-1353, Glasgow-1453 and Glasgow-1531 also remain candidates; their Scottish baptismal families have no proved Robert Thomson marriage connection. Do not transfer a Tannybrake widow’s age or identify Nancy as this mother. The original marriage image requires a FamilySearch center or affiliate library and was not inspected.",
+      "prior_assessment_provenance": {
+        "dated_on": "2026-09-30",
+        "path": "research/queue-match-audit-2026-09-30/older-drafts.json",
+        "id": "subject-old-monkland-thomson-sneddon-1860-mary-glasgon-thomson",
+        "father_upgrade_eligibility": "No profile identity or father certainty upgrade proved; prior assessments retained."
+      }
+    },
+    {
+      "id": "subject-old-monkland-thomson-sneddon-1860-mary-thomson",
+      "name": "Mary Thomson",
+      "canonical_person_event_group": "old-monkland-sneddon-thomson-marriage-1860",
+      "prior_status": "compatible_candidate",
+      "prior_profile_ids": [
+        "Thomson-3009"
+      ],
+      "new_status": "compatible_candidate",
+      "profile_ids": [
+        "Thomson-3009"
+      ],
+      "disposition": "compatible_identity_pending",
+      "identity_assessment": "Mary Thomson, age 37, married William Sneddon on 9 November 1860; the fresh index names her parents Robert Thomson and Mary Glasgon Thomson. Thomson-3009 remains a disputed candidate because its estimated 1826 birth and James/Helen GEDCOM parents are unsupported. Thomson-13010 has record-based Andrew Thomson/Elizabeth Waddell parents and a distinct Abercrombie household, a concrete conflict with the indexed bride. Index parentage is not an existing-profile father upgrade, and the restricted original remains uninspected.",
+      "source_ids": [
+        "marriage1860"
+      ],
+      "prior_source_citations": [
+        {
+          "title": "Scottish civil marriage index: Mary Thomson",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:6TLK-6T1J"
+        },
+        {
+          "title": "Extracted marriage index: Old Monkland",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:XT1H-TBC"
+        }
+      ],
+      "search_scope": {
+        "prior_audit": "research/queue-match-audit-2026-09-30/older-drafts.json",
+        "queries": [
+          {
+            "query": {
+              "FirstName": "Mary",
+              "LastName": "Gammon"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 1031,
+                "status": 0
+              },
+              {
+                "start": 100,
+                "total": 1031,
+                "status": 0
+              },
+              {
+                "start": 200,
+                "total": 1031,
+                "status": 0
+              },
+              {
+                "start": 300,
+                "total": 1031,
+                "status": 0
+              },
+              {
+                "start": 400,
+                "total": 1031,
+                "status": 0
+              },
+              {
+                "start": 500,
+                "total": 1031,
+                "status": 0
+              },
+              {
+                "start": 600,
+                "total": 1031,
+                "status": 0
+              },
+              {
+                "start": 700,
+                "total": 1031,
+                "status": 0
+              },
+              {
+                "start": 800,
+                "total": 1031,
+                "status": 0
+              },
+              {
+                "start": 900,
+                "total": 1031,
+                "status": 0
+              },
+              {
+                "start": 1000,
+                "total": 1031,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 776,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "Mary",
+              "LastName": "Gamon"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 896,
+                "status": 0
+              },
+              {
+                "start": 100,
+                "total": 896,
+                "status": 0
+              },
+              {
+                "start": 200,
+                "total": 896,
+                "status": 0
+              },
+              {
+                "start": 300,
+                "total": 896,
+                "status": 0
+              },
+              {
+                "start": 400,
+                "total": 896,
+                "status": 0
+              },
+              {
+                "start": 500,
+                "total": 896,
+                "status": 0
+              },
+              {
+                "start": 600,
+                "total": 896,
+                "status": 0
+              },
+              {
+                "start": 700,
+                "total": 896,
+                "status": 0
+              },
+              {
+                "start": 800,
+                "total": 896,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 673,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "Mary",
+              "LastName": "Thomson",
+              "BirthLocation": "Monkland"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 6,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 6,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "Mary",
+              "LastName": "Thomson",
+              "BirthDate": "1823"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 347,
+                "status": 0
+              },
+              {
+                "start": 100,
+                "total": 347,
+                "status": 0
+              },
+              {
+                "start": 200,
+                "total": 347,
+                "status": 0
+              },
+              {
+                "start": 300,
+                "total": 347,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 289,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "Mary",
+              "LastName": "Glasgon",
+              "BirthLocation": "Scotland"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 0,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 0,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "Mary",
+              "LastName": "Glasgow",
+              "BirthLocation": "Scotland"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 50,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 48,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "Mary",
+              "LastName": "Thomson",
+              "BirthLocation": "Lanark"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 9,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 9,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "Mary",
+              "LastName": "Glasgow",
+              "BirthLocation": "Lanark"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 0,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 0,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "Mary",
+              "LastName": "Glasgow",
+              "BirthDate": "1795"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 2,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 2,
+            "all_pages_returned": true
+          }
+        ],
+        "capture_files": [
+          "research/queue-match-audit-2026-09-30/older-drafts-searches.json",
+          "research/queue-match-audit-2026-09-30/older-drafts-more-searches.json"
+        ],
+        "note": "Prior live pagination reviewed as recorded; fresh original/transcription and candidate-biography checks distinguish source fact from profile identity."
+      },
+      "concrete_exclusions": [
+        {
+          "profile_id": "Thomson-13010",
+          "reason": "Birth/deathcitations identifyAndrewThomson/ElizabethWaddell andAndrewAbercrombie household, conflictingwithRobert/Maryparentrecord."
+        }
+      ],
+      "father_relationship_upgrades": [],
+      "precise_patches": [
+        "Retain disputed Thomson-3009; cite exact indexed parents and original restriction; preserve the concrete Thomson-13010 exclusion."
+      ],
+      "affected_site_surfaces": [
+        "research/latest-findings.json",
+        "research/latest-findings-subjects/subjects.json",
+        "research/research-queue-matches.json",
+        "www/latest-findings/"
+      ],
+      "public_paragraph": "Mary Thomson, age 37, married William Sneddon on 9 November 1860; the fresh index names her parents Robert Thomson and Mary Glasgon Thomson. Thomson-3009 remains a disputed candidate because its estimated 1826 birth and James/Helen GEDCOM parents are unsupported. Thomson-13010 has record-based Andrew Thomson/Elizabeth Waddell parents and a distinct Abercrombie household, a concrete conflict with the indexed bride. Index parentage is not an existing-profile father upgrade, and the restricted original remains uninspected.",
+      "prior_assessment_provenance": {
+        "dated_on": "2026-09-30",
+        "path": "research/queue-match-audit-2026-09-30/older-drafts.json",
+        "id": "subject-old-monkland-thomson-sneddon-1860-mary-thomson",
+        "father_upgrade_eligibility": "No profile identity or father certainty upgrade proved; prior assessments retained."
+      }
+    },
+    {
+      "id": "subject-norfolk-daniel-1729-1730-richard-linton",
+      "name": "Richard Linton",
+      "canonical_person_event_group": "norfolk-daniel-mary-linton-1729-1730",
+      "prior_status": "compatible_candidate",
+      "prior_profile_ids": [
+        "Linton-898"
+      ],
+      "new_status": "compatible_candidate",
+      "profile_ids": [
+        "Linton-898",
+        "Linton-931"
+      ],
+      "disposition": "compatible_identity_pending",
+      "identity_assessment": "Richard Linton purchased the 1729 land and witnessed Richard Johnson’s will dated 26 February 1729/30 with Daneill Glasco. Linton-898 remains compatible: its estimated 1680 birth, missing death and sparse Virginia family context supply no concrete conflict. Linton-931 also remains a weaker compatible candidate because its 1722 birth is GEDCOM-derived. Linton-494 has cited Lancaster death/probate in 1665, a concrete conflict with the 1729 transaction. Keep the candidate; cite McIntosh’s printed page 122 and do not infer survival to probate.",
+      "source_ids": [
+        "deed1729",
+        "will1730"
+      ],
+      "prior_source_citations": [
+        {
+          "title": "Princess Anne County, Deeds and Wills Book4 Part1 (1724–1735), manuscript p.207, DGS7645780",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-99PX-F3DX"
+        }
+      ],
+      "search_scope": {
+        "prior_audit": "research/queue-match-audit-2026-09-30/older-drafts.json",
+        "queries": [
+          {
+            "query": {
+              "FirstName": "Richard",
+              "LastName": "Linton"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 125,
+                "status": 0
+              },
+              {
+                "start": 100,
+                "total": 125,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 82,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "Richard",
+              "LastName": "Lynton"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 91,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 57,
+            "all_pages_returned": true
+          }
+        ],
+        "capture_files": [
+          "research/queue-match-audit-2026-09-30/older-drafts-searches.json",
+          "research/queue-match-audit-2026-09-30/older-drafts-more-searches.json"
+        ],
+        "note": "Prior live pagination reviewed as recorded; fresh original/transcription and candidate-biography checks distinguish source fact from profile identity."
+      },
+      "concrete_exclusions": [
+        {
+          "profile_id": "Linton-494",
+          "reason": "Lancaster death and probate are cited for 1665; incompatible with 1729 adult deed/will occurrences. Fresh biography inspected; underlying cited register not newly inspected.",
+          "source": "https://familysearch.org/ark:/61903/1:1:FC9N-848"
+        }
+      ],
+      "father_relationship_upgrades": [],
+      "precise_patches": [
+        "Link Linton-898 and weaker Linton-931 in the deed/will accounts; the latter’s unsupported birth cannot exclude it. Retain sourced 1665 death exclusion for Linton-494; cite printed page 122 and make no survival-to-probate inference."
+      ],
+      "affected_site_surfaces": [
+        "research/latest-findings.json",
+        "research/latest-findings-subjects/subjects.json",
+        "research/research-queue-matches.json",
+        "www/latest-findings/"
+      ],
+      "public_paragraph": "Richard Linton purchased the 1729 land and witnessed Richard Johnson’s will dated 26 February 1729/30 with Daneill Glasco. Linton-898 remains compatible: its estimated 1680 birth, missing death and sparse Virginia family context supply no concrete conflict. Linton-931 also remains a weaker compatible candidate because its 1722 birth is GEDCOM-derived. Linton-494 has cited Lancaster death/probate in 1665, a concrete conflict with the 1729 transaction. Keep the candidate; cite McIntosh’s printed page 122 and do not infer survival to probate.",
+      "prior_assessment_provenance": {
+        "dated_on": "2026-09-30",
+        "path": "research/queue-match-audit-2026-09-30/older-drafts.json",
+        "id": "subject-norfolk-daniel-1729-1730-richard-linton",
+        "father_upgrade_eligibility": "No profile identity or father certainty upgrade proved; prior assessments retained."
+      },
+      "restored_candidates": [
+        {
+          "profile_id": "Linton-931",
+          "reason": "1722 birth is GEDCOM-only; no independently sourced childhood date excludes an adult 1729 transaction."
+        }
+      ]
+    },
+    {
+      "id": "subject-old-monkland-thomson-sneddon-1860-william-sneddon",
+      "name": "William Sneddon",
+      "canonical_person_event_group": "old-monkland-sneddon-thomson-marriage-1860",
+      "prior_status": "compatible_candidate",
+      "prior_profile_ids": [
+        "Sneddon-710"
+      ],
+      "new_status": "compatible_candidate",
+      "profile_ids": [
+        "Sneddon-710"
+      ],
+      "disposition": "compatible_identity_pending",
+      "identity_assessment": "The fresh 1860 index identifies William Sneddon, age 45, widower and collier, with parents Robert Sneddon and Mary Gray Sneddon. Sneddon-710 remains a candidate: its Pencaitland coal-mining household and wife Mary Wilson allow a later widowed marriage. However, age 30 in 1841 normally means 30–34, implying birth about 1806–1811 rather than the 1860 estimate of 1815. This is a material discrepancy. No record joins the indexed parents to Sneddon-710. Obtain the 1851/1861 census, first wife’s death and accessible original; do not attach Sneddon-92, whose recorded wife was Mary Snaddon, daughter of Richard Snaddon and Mary Hoggan.",
+      "source_ids": [
+        "marriage1860",
+        "censusages"
+      ],
+      "prior_source_citations": [
+        {
+          "title": "Scottish civil marriage index: Mary Thomson",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:6TLK-6T1J"
+        },
+        {
+          "title": "Extracted marriage index: Old Monkland",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:XT1H-TBC"
+        }
+      ],
+      "search_scope": {
+        "prior_audit": "research/queue-match-audit-2026-09-30/older-drafts.json",
+        "queries": [
+          {
+            "query": {
+              "FirstName": "William",
+              "LastName": "Sneddon",
+              "BirthLocation": "Monkland"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 3,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 3,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "William",
+              "LastName": "Sneddon",
+              "BirthDate": "1815"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 11,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 8,
+            "all_pages_returned": true
+          },
+          {
+            "query": {
+              "FirstName": "William",
+              "LastName": "Sneddon"
+            },
+            "pages": [
+              {
+                "start": 0,
+                "total": 1359,
+                "status": 0
+              },
+              {
+                "start": 100,
+                "total": 1359,
+                "status": 0
+              },
+              {
+                "start": 200,
+                "total": 1359,
+                "status": 0
+              },
+              {
+                "start": 300,
+                "total": 1359,
+                "status": 0
+              },
+              {
+                "start": 400,
+                "total": 1359,
+                "status": 0
+              },
+              {
+                "start": 500,
+                "total": 1359,
+                "status": 0
+              },
+              {
+                "start": 600,
+                "total": 1359,
+                "status": 0
+              },
+              {
+                "start": 700,
+                "total": 1359,
+                "status": 0
+              },
+              {
+                "start": 800,
+                "total": 1359,
+                "status": 0
+              },
+              {
+                "start": 900,
+                "total": 1359,
+                "status": 0
+              },
+              {
+                "start": 1000,
+                "total": 1359,
+                "status": 0
+              },
+              {
+                "start": 1100,
+                "total": 1359,
+                "status": 0
+              },
+              {
+                "start": 1200,
+                "total": 1359,
+                "status": 0
+              },
+              {
+                "start": 1300,
+                "total": 1359,
+                "status": 0
+              }
+            ],
+            "returned_open_nonliving": 1322,
+            "all_pages_returned": true
+          }
+        ],
+        "capture_files": [
+          "research/queue-match-audit-2026-09-30/older-drafts-searches.json",
+          "research/queue-match-audit-2026-09-30/older-drafts-more-searches.json"
+        ],
+        "note": "Prior live pagination reviewed as recorded; fresh original/transcription and candidate-biography checks distinguish source fact from profile identity.",
+        "fresh_queries": [
+          {
+            "capture": "research/queue-resolution-2026-09-30/older-captures/sneddon-parents-searches.json",
+            "query": {
+              "FirstName": "Robert",
+              "LastName": "Sneddon",
+              "BirthDate": "1780"
+            },
+            "start": 0,
+            "total": 0,
+            "returned_open_nonliving": 0,
+            "limit": 100
+          },
+          {
+            "capture": "research/queue-resolution-2026-09-30/older-captures/sneddon-parents-searches.json",
+            "query": {
+              "FirstName": "Robert",
+              "LastName": "Snedden",
+              "BirthDate": "1780"
+            },
+            "start": 0,
+            "total": 0,
+            "returned_open_nonliving": 0,
+            "limit": 100
+          },
+          {
+            "capture": "research/queue-resolution-2026-09-30/older-captures/sneddon-parents-searches.json",
+            "query": {
+              "FirstName": "Mary",
+              "LastName": "Gray",
+              "BirthDate": "1780",
+              "BirthLocation": "Scotland"
+            },
+            "start": 0,
+            "total": 2,
+            "returned_open_nonliving": 2,
+            "limit": 100
+          },
+          {
+            "capture": "research/queue-resolution-2026-09-30/older-captures/robert-sneddon-all-search.json",
+            "query": {
+              "action": "searchPerson",
+              "appId": "GlasgowSurnameResearch",
+              "FirstName": "Robert",
+              "LastName": "Sneddon",
+              "fields": "Id,Name,FirstName,LastNameAtBirth,BirthDate,DeathDate,BirthLocation,DeathLocation,Father,Mother,Privacy,IsLiving,Spouses",
+              "limit": 100,
+              "start": 0
+            },
+            "start": 0,
+            "total": 494,
+            "returned_open_nonliving": 93,
+            "limit": 100
+          },
+          {
+            "capture": "research/queue-resolution-2026-09-30/older-captures/robert-sneddon-all-search.json",
+            "query": {
+              "action": "searchPerson",
+              "appId": "GlasgowSurnameResearch",
+              "FirstName": "Robert",
+              "LastName": "Sneddon",
+              "fields": "Id,Name,FirstName,LastNameAtBirth,BirthDate,DeathDate,BirthLocation,DeathLocation,Father,Mother,Privacy,IsLiving,Spouses",
+              "limit": 100,
+              "start": 100
+            },
+            "start": 100,
+            "total": 494,
+            "returned_open_nonliving": 95,
+            "limit": 100
+          },
+          {
+            "capture": "research/queue-resolution-2026-09-30/older-captures/robert-sneddon-all-search.json",
+            "query": {
+              "action": "searchPerson",
+              "appId": "GlasgowSurnameResearch",
+              "FirstName": "Robert",
+              "LastName": "Sneddon",
+              "fields": "Id,Name,FirstName,LastNameAtBirth,BirthDate,DeathDate,BirthLocation,DeathLocation,Father,Mother,Privacy,IsLiving,Spouses",
+              "limit": 100,
+              "start": 200
+            },
+            "start": 200,
+            "total": 494,
+            "returned_open_nonliving": 96,
+            "limit": 100
+          },
+          {
+            "capture": "research/queue-resolution-2026-09-30/older-captures/robert-sneddon-all-search.json",
+            "query": {
+              "action": "searchPerson",
+              "appId": "GlasgowSurnameResearch",
+              "FirstName": "Robert",
+              "LastName": "Sneddon",
+              "fields": "Id,Name,FirstName,LastNameAtBirth,BirthDate,DeathDate,BirthLocation,DeathLocation,Father,Mother,Privacy,IsLiving,Spouses",
+              "limit": 100,
+              "start": 300
+            },
+            "start": 300,
+            "total": 494,
+            "returned_open_nonliving": 99,
+            "limit": 100
+          },
+          {
+            "capture": "research/queue-resolution-2026-09-30/older-captures/robert-sneddon-all-search.json",
+            "query": {
+              "action": "searchPerson",
+              "appId": "GlasgowSurnameResearch",
+              "FirstName": "Robert",
+              "LastName": "Sneddon",
+              "fields": "Id,Name,FirstName,LastNameAtBirth,BirthDate,DeathDate,BirthLocation,DeathLocation,Father,Mother,Privacy,IsLiving,Spouses",
+              "limit": 100,
+              "start": 400
+            },
+            "start": 400,
+            "total": 494,
+            "returned_open_nonliving": 79,
+            "limit": 100
+          }
+        ]
+      },
+      "concrete_exclusions": [],
+      "father_relationship_upgrades": [],
+      "precise_patches": [
+        "Add groom parents with exact FamilySearch index links and restriction; retain Sneddon-710 with the material age discrepancy and specific census/first-wife tests."
+      ],
+      "affected_site_surfaces": [
+        "research/latest-findings.json",
+        "research/latest-findings-subjects/subjects.json",
+        "research/research-queue-matches.json",
+        "www/latest-findings/"
+      ],
+      "public_paragraph": "The fresh 1860 index identifies William Sneddon, age 45, widower and collier, with parents Robert Sneddon and Mary Gray Sneddon. Sneddon-710 remains a candidate: its Pencaitland coal-mining household and wife Mary Wilson allow a later widowed marriage. However, age 30 in 1841 normally means 30–34, implying birth about 1806–1811 rather than the 1860 estimate of 1815. This is a material discrepancy. No record joins the indexed parents to Sneddon-710. Obtain the 1851/1861 census, first wife’s death and accessible original; do not attach Sneddon-92, whose recorded wife was Mary Snaddon, daughter of Richard Snaddon and Mary Hoggan.",
+      "prior_assessment_provenance": {
+        "dated_on": "2026-09-30",
+        "path": "research/queue-match-audit-2026-09-30/older-drafts.json",
+        "id": "subject-old-monkland-thomson-sneddon-1860-william-sneddon",
+        "father_upgrade_eligibility": "No profile identity or father certainty upgrade proved; prior assessments retained."
+      },
+      "new_record_facts": [
+        "The fresh 1860 marriage index names groom parents Robert Sneddon and Mary Gray Sneddon. The original is restricted and uninspected."
+      ]
+    }
+  ],
+  "fresh_search_scope": [
+    {
+      "capture": "research/queue-resolution-2026-09-30/older-captures/gray-search-John-Gray.json",
+      "query": {},
+      "start": 0,
+      "total": 63,
+      "returned_open_nonliving": 32,
+      "limit": 100
+    },
+    {
+      "capture": "research/queue-resolution-2026-09-30/older-captures/gray-search-John-Grey.json",
+      "query": {},
+      "start": 0,
+      "total": 55,
+      "returned_open_nonliving": 27,
+      "limit": 100
+    },
+    {
+      "capture": "research/queue-resolution-2026-09-30/older-captures/gray-search-Thomas-Gray.json",
+      "query": {},
+      "start": 0,
+      "total": 18,
+      "returned_open_nonliving": 11,
+      "limit": 100
+    },
+    {
+      "capture": "research/queue-resolution-2026-09-30/older-captures/gray-additional-searches.json",
+      "query": {
+        "FirstName": "John",
+        "LastName": "Gray",
+        "BirthLocation": "Glasgow"
+      },
+      "start": 0,
+      "total": 30,
+      "returned_open_nonliving": 29,
+      "limit": 100
+    },
+    {
+      "capture": "research/queue-resolution-2026-09-30/older-captures/gray-additional-searches.json",
+      "query": {
+        "FirstName": "John",
+        "LastName": "Grey",
+        "BirthLocation": "Scotland"
+      },
+      "start": 0,
+      "total": 708,
+      "returned_open_nonliving": 100,
+      "limit": 100
+    },
+    {
+      "capture": "research/queue-resolution-2026-09-30/older-captures/gray-additional-searches.json",
+      "query": {
+        "FirstName": "Thomas",
+        "LastName": "Gray",
+        "BirthLocation": "Glasgow"
+      },
+      "start": 0,
+      "total": 6,
+      "returned_open_nonliving": 6,
+      "limit": 100
+    },
+    {
+      "capture": "research/queue-resolution-2026-09-30/older-captures/gray-additional-searches.json",
+      "query": {
+        "FirstName": "Thomas",
+        "LastName": "Gray",
+        "DeathDate": "1646"
+      },
+      "start": 0,
+      "total": 68,
+      "returned_open_nonliving": 61,
+      "limit": 100
+    },
+    {
+      "capture": "research/queue-resolution-2026-09-30/older-captures/sneddon-parents-searches.json",
+      "query": {
+        "FirstName": "Robert",
+        "LastName": "Sneddon",
+        "BirthDate": "1780"
+      },
+      "start": 0,
+      "total": 0,
+      "returned_open_nonliving": 0,
+      "limit": 100
+    },
+    {
+      "capture": "research/queue-resolution-2026-09-30/older-captures/sneddon-parents-searches.json",
+      "query": {
+        "FirstName": "Robert",
+        "LastName": "Snedden",
+        "BirthDate": "1780"
+      },
+      "start": 0,
+      "total": 0,
+      "returned_open_nonliving": 0,
+      "limit": 100
+    },
+    {
+      "capture": "research/queue-resolution-2026-09-30/older-captures/sneddon-parents-searches.json",
+      "query": {
+        "FirstName": "Mary",
+        "LastName": "Gray",
+        "BirthDate": "1780",
+        "BirthLocation": "Scotland"
+      },
+      "start": 0,
+      "total": 2,
+      "returned_open_nonliving": 2,
+      "limit": 100
+    },
+    {
+      "capture": "research/queue-resolution-2026-09-30/older-captures/robert-sneddon-all-search.json",
+      "query": {
+        "action": "searchPerson",
+        "appId": "GlasgowSurnameResearch",
+        "FirstName": "Robert",
+        "LastName": "Sneddon",
+        "fields": "Id,Name,FirstName,LastNameAtBirth,BirthDate,DeathDate,BirthLocation,DeathLocation,Father,Mother,Privacy,IsLiving,Spouses",
+        "limit": 100,
+        "start": 0
+      },
+      "start": 0,
+      "total": 494,
+      "returned_open_nonliving": 93,
+      "limit": 100
+    },
+    {
+      "capture": "research/queue-resolution-2026-09-30/older-captures/robert-sneddon-all-search.json",
+      "query": {
+        "action": "searchPerson",
+        "appId": "GlasgowSurnameResearch",
+        "FirstName": "Robert",
+        "LastName": "Sneddon",
+        "fields": "Id,Name,FirstName,LastNameAtBirth,BirthDate,DeathDate,BirthLocation,DeathLocation,Father,Mother,Privacy,IsLiving,Spouses",
+        "limit": 100,
+        "start": 100
+      },
+      "start": 100,
+      "total": 494,
+      "returned_open_nonliving": 95,
+      "limit": 100
+    },
+    {
+      "capture": "research/queue-resolution-2026-09-30/older-captures/robert-sneddon-all-search.json",
+      "query": {
+        "action": "searchPerson",
+        "appId": "GlasgowSurnameResearch",
+        "FirstName": "Robert",
+        "LastName": "Sneddon",
+        "fields": "Id,Name,FirstName,LastNameAtBirth,BirthDate,DeathDate,BirthLocation,DeathLocation,Father,Mother,Privacy,IsLiving,Spouses",
+        "limit": 100,
+        "start": 200
+      },
+      "start": 200,
+      "total": 494,
+      "returned_open_nonliving": 96,
+      "limit": 100
+    },
+    {
+      "capture": "research/queue-resolution-2026-09-30/older-captures/robert-sneddon-all-search.json",
+      "query": {
+        "action": "searchPerson",
+        "appId": "GlasgowSurnameResearch",
+        "FirstName": "Robert",
+        "LastName": "Sneddon",
+        "fields": "Id,Name,FirstName,LastNameAtBirth,BirthDate,DeathDate,BirthLocation,DeathLocation,Father,Mother,Privacy,IsLiving,Spouses",
+        "limit": 100,
+        "start": 300
+      },
+      "start": 300,
+      "total": 494,
+      "returned_open_nonliving": 99,
+      "limit": 100
+    },
+    {
+      "capture": "research/queue-resolution-2026-09-30/older-captures/robert-sneddon-all-search.json",
+      "query": {
+        "action": "searchPerson",
+        "appId": "GlasgowSurnameResearch",
+        "FirstName": "Robert",
+        "LastName": "Sneddon",
+        "fields": "Id,Name,FirstName,LastNameAtBirth,BirthDate,DeathDate,BirthLocation,DeathLocation,Father,Mother,Privacy,IsLiving,Spouses",
+        "limit": 100,
+        "start": 400
+      },
+      "start": 400,
+      "total": 494,
+      "returned_open_nonliving": 79,
+      "limit": 100
+    }
+  ],
+  "method_notes": [
+    "Decisive readings were verified from source images: Gray surname heading and father clauses, Mathy spouse, Bridgegait boundary, Betham pedigree, independent testament index and Norfolk will abstract.",
+    "Original 1677 deed, 1643/1636 testaments, 1641 burial, Irish deaths and restricted 1860 marriage remain uninspected.",
+    "Didup independent book download timed out; no fresh original inspection claimed.",
+    "QMD lexical searches for Thomas Glasgow maltman and Robert Sneddon Mary Gray returned no results.",
+    "All saved API profiles and relatives were filtered to Open (Privacy60), non-living people.",
+    "Record-level Gray parentage and Rathmalton father–daughter proof are separated from unresolved profile identity. No uncertain-to-certain WikiTree father upgrade is supported.",
+    "Historical snapshots remain dated provenance; current source attributions and public stable links require explicit supersession."
+  ],
+  "integration_ownership": "Parent owns registry, latest-findings, shared JSON, website and tools. Agent applied the separately authorized maintained Markdown corrections.",
+  "capture_manifest": [
+    {
+      "path": "research/queue-resolution-2026-09-30/older-captures/abstractsofproto01glas-leaf94.jpg",
+      "sha256": "8e17d9bd364b9fe99b3f79f28346ed029ed48c112c23b6a61bcb9682e49d78f1",
+      "bytes": 434091
+    },
+    {
+      "path": "research/queue-resolution-2026-09-30/older-captures/abstractsofproto01glas-metadata.json",
+      "sha256": "7c7c387840fe1dc7d795283b00014a2db5848910ee8aafc7afb35384c30901a7",
+      "bytes": 24364
+    },
+    {
+      "path": "research/queue-resolution-2026-09-30/older-captures/abstractsofproto01glas-p27.jpg",
+      "sha256": "0f94c7e4ffa8286ccddd91782ebb411e7920e51f518ebebde3c6ddcca736e526",
+      "bytes": 443768
+    },
+    {
+      "path": "research/queue-resolution-2026-09-30/older-captures/abstractsofproto01glas-p63.jpg",
+      "sha256": "97926b40d5aa585aeb56b67a7428a386346d575b0877cd5f013fe6c3b5cca052",
+      "bytes": 433134
+    },
+    {
+      "path": "research/queue-resolution-2026-09-30/older-captures/abstractsofproto01glas-p65.jpg",
+      "sha256": "dc923a401f8128d4ec666159673efeb07d79405aebfa5f2fd341369f876c4d19",
+      "bytes": 429057
+    },
+    {
+      "path": "research/queue-resolution-2026-09-30/older-captures/abstractsofproto01glas-scandata.xml",
+      "sha256": "0eb2b53d9b165c159d7df70f82b21bd52d0373203fb51ee16ecc775b4ae9e8c5",
+      "bytes": 81484
+    },
+    {
+      "path": "research/queue-resolution-2026-09-30/older-captures/abstractsofproto01glas.txt",
+      "sha256": "6a9c1404fdca64ec71d414ec5a987cc502c3193bea37c6806834fb2042d19b0b",
+      "bytes": 362212
+    },
+    {
+      "path": "research/queue-resolution-2026-09-30/older-captures/abstractsprotoc00robegoog-metadata.json",
+      "sha256": "42c9404f1bfcab566fa6ff4f2212e5fe0a476748711b84b252769dc5ca104c88",
+      "bytes": 5737
+    },
+    {
+      "path": "research/queue-resolution-2026-09-30/older-captures/abstractsprotoc00robegoog.txt",
+      "sha256": "d56195bf64cd3756f005a4ddfe71dfd1e549fba7883d92c1dfad2c2b9007cec0",
+      "bytes": 459161
+    },
+    {
+      "path": "research/queue-resolution-2026-09-30/older-captures/abstractsprotoc00scogoog-leaf60.jpg",
+      "sha256": "3eeb26ba9b1507336ce78a5ac83cb892932c37c726cab6b9ac60ae7b7084025b",
+      "bytes": 1771638
+    },
+    {
+      "path": "research/queue-resolution-2026-09-30/older-captures/abstractsprotoc00scogoog-leaf61.jpg",
+      "sha256": "0b920860e6f0d787d925075296c02b014bda441d62240bfa7f219f9304faaff0",
+      "bytes": 1758390
+    },
+    {
+      "path": "research/queue-resolution-2026-09-30/older-captures/abstractsprotoc00scogoog-metadata.json",
+      "sha256": "8b82f974142b88c018f1f930545f8aa62fb8fb246d524142f9309b79f292598c",
+      "bytes": 5817
+    },
+    {
+      "path": "research/queue-resolution-2026-09-30/older-captures/abstractsprotoc00scogoog-scandata.xml",
+      "sha256": "313c8fda893245a373df683cd12f0c45499cf1689de6dd6fe1701f9c754c4248",
+      "bytes": 55010
+    },
+    {
+      "path": "research/queue-resolution-2026-09-30/older-captures/abstractsprotoc00scogoog.txt",
+      "sha256": "6cc3ba6810c534aa65510d396ebae87f518ab6b5de76b8542d2181df5f5e6f56",
+      "bytes": 436262
+    },
+    {
+      "path": "research/queue-resolution-2026-09-30/older-captures/abstractsprotoc06scogoog-metadata.json",
+      "sha256": "3e52f6c61cda42c69e5f5354ffd0616b939b7801060df0d9e247f1535fb7e4ef",
+      "bytes": 5497
+    },
+    {
+      "path": "research/queue-resolution-2026-09-30/older-captures/abstractsprotoc06scogoog.txt",
+      "sha256": "560b7f7041a91a564c69d6353a6b205ef0f23d88a7b9cd015100ac30a10bca1d",
+      "bytes": 370508
+    },
+    {
+      "path": "research/queue-resolution-2026-09-30/older-captures/apprentices-leaf101.jpg",
+      "sha256": "305c35c244230561002fc5973d54ffc0468eb039ab7fb52b2ba40fa72be9c984",
+      "bytes": 1199066
+    },
+    {
+      "path": "research/queue-resolution-2026-09-30/older-captures/apprentices-leaf97.jpg",
+      "sha256": "8ed95d5ee30f183c7e2b00023bbbe14e06926576970489a7222063887c0932d3",
+      "bytes": 1192663
+    },
+    {
+      "path": "research/queue-resolution-2026-09-30/older-captures/apprentices-printed71.jpg",
+      "sha256": "5bcf9f78d8b6ad09448a042216ef8046b182da4dfd87a947775060a23e4074e4",
+      "bytes": 1007723
+    },
+    {
+      "path": "research/queue-resolution-2026-09-30/older-captures/apprentices-printed75.jpg",
+      "sha256": "d2e02138116f2944ae123d4907d766e11902381a7a0d16b960e0bdb4b05fcbe9",
+      "bytes": 1229083
+    },
+    {
+      "path": "research/queue-resolution-2026-09-30/older-captures/burgesses-p118-verified.jpg",
+      "sha256": "2e699182bf942dc7088784c8275e35811bc2492b41c0a0cc116b09d936b476c4",
+      "bytes": 627680
+    },
+    {
+      "path": "research/queue-resolution-2026-09-30/older-captures/burgesses-p118.jpg",
+      "sha256": "6ad62b6f1f9d04a07f25a717acb105930ada696a79bd799f3fc24dac7ec9f59b",
+      "bytes": 533176
+    },
+    {
+      "path": "research/queue-resolution-2026-09-30/older-captures/burgesses-p44-verified.jpg",
+      "sha256": "c0abff34fb8f1b82ac90f9a52bb8773bf0560af0fc531bd1b127504b1a62b42d",
+      "bytes": 503155
+    },
+    {
+      "path": "research/queue-resolution-2026-09-30/older-captures/burgesses-p44.jpg",
+      "sha256": "40a024ac679dc676d5c6f078aa0533307ff8cf2cae5973e059e053c9ccff3252",
+      "bytes": 621481
+    },
+    {
+      "path": "research/queue-resolution-2026-09-30/older-captures/burgesses-scandata.xml",
+      "sha256": "798a1014badf52a32c36e71a76a87c2c65fdb815e01854cadace4abbfa9bd44c",
+      "bytes": 309707
+    },
+    {
+      "path": "research/queue-resolution-2026-09-30/older-captures/chroniclesofmalt00doui-metadata.json",
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "bytes": 2
+    },
+    {
+      "path": "research/queue-resolution-2026-09-30/older-captures/familysearch-sneddon-thomson-1860-index.txt",
+      "sha256": "6f4883b13e2af61e7a6a44e8400096b744695a9c8686b088cebcc2011a3db072",
+      "bytes": 6061
+    },
+    {
+      "path": "research/queue-resolution-2026-09-30/older-captures/glasgow-testament-index.pdf",
+      "sha256": "df9d89fd154dee748a32e94adc83814ed75e7467ba6b1537559fcd81ab554e70",
+      "bytes": 37393338
+    },
+    {
+      "path": "research/queue-resolution-2026-09-30/older-captures/glasgow-testament-p205-207.txt",
+      "sha256": "237bb4d551102130ac1f94f89e9673a5dce8b188691d414c657bc877c31ba106",
+      "bytes": 9516
+    },
+    {
+      "path": "research/queue-resolution-2026-09-30/older-captures/glasgow-testaments-printed196.png",
+      "sha256": "dfe2650d893b8e0a12570fa62143feb931f7690af99b6aea882134707135e19f",
+      "bytes": 674446
+    },
+    {
+      "path": "research/queue-resolution-2026-09-30/older-captures/gray-additional-biographies.json",
+      "sha256": "2bca3c2ccff7b1586ff1ee48bf9bb39d9fdd1e0c83af93a438dba29fb4236fd0",
+      "bytes": 14190
+    },
+    {
+      "path": "research/queue-resolution-2026-09-30/older-captures/gray-additional-searches.json",
+      "sha256": "28f63719d6774cff8b2c0475cccea3a81a2ae346198b592aeab42fa06da34f0b",
+      "bytes": 135384
+    },
+    {
+      "path": "research/queue-resolution-2026-09-30/older-captures/gray-profile-biographies.json",
+      "sha256": "07ed10a0b3ef26d2b83aa2efcb6485bb927b24abb6379838897f2fb76200764c",
+      "bytes": 21076
+    },
+    {
+      "path": "research/queue-resolution-2026-09-30/older-captures/gray-profile-candidates.json",
+      "sha256": "ca42ce3bbb8bcdbb468946a9ba083b6017e912df2c244ffaf836464ef52d0336",
+      "bytes": 15468
+    },
+    {
+      "path": "research/queue-resolution-2026-09-30/older-captures/gray-search-John-Gray.json",
+      "sha256": "b24a69cdd81f401ac35fbcbc50ced63b084ea091d1255bae617f7b75ce24289e",
+      "bytes": 19685
+    },
+    {
+      "path": "research/queue-resolution-2026-09-30/older-captures/gray-search-John-Grey.json",
+      "sha256": "ab43040e3e959a39ad86e6159d68f31c7ca88698e4d74c373497d9fa299751ae",
+      "bytes": 16531
+    },
+    {
+      "path": "research/queue-resolution-2026-09-30/older-captures/gray-search-Thomas-Gray.json",
+      "sha256": "d276e094be4a620aba690a4471d84090ac5d5b35397a7f13d6b54df36c315814",
+      "bytes": 6836
+    },
+    {
+      "path": "research/queue-resolution-2026-09-30/older-captures/gray44891-children.json",
+      "sha256": "241aa260c0c41cc3b5b13772c7ffec93782900c8a533a6ae16a29aa6fa8f9e3d",
+      "bytes": 3896
+    },
+    {
+      "path": "research/queue-resolution-2026-09-30/older-captures/linton-exclusion-biographies.json",
+      "sha256": "837f2936c20a6f5fe47faa4800b34505471939ff06d7fe673ff4a3ea543b3e97",
+      "bytes": 12669
+    },
+    {
+      "path": "research/queue-resolution-2026-09-30/older-captures/margaret1523-recheck.json",
+      "sha256": "17a017317c52b90d48f0eb7581c1ec93435f7ed0697c718487b3b12f56a1a1f5",
+      "bytes": 1396
+    },
+    {
+      "path": "research/queue-resolution-2026-09-30/older-captures/mathy-spouse-biographies.json",
+      "sha256": "ca53d3dda9bfcd455d4fc247072439478ba779ec25ba3288b1a4df941ee5fafc",
+      "bytes": 2857
+    },
+    {
+      "path": "research/queue-resolution-2026-09-30/older-captures/mathy-spouse-searches.json",
+      "sha256": "699e5b5b3785748d1401ed6d70432c77b1aa5ff40344cad8c52595b1e638dc35",
+      "bytes": 3849
+    },
+    {
+      "path": "research/queue-resolution-2026-09-30/older-captures/matthew330-recheck.json",
+      "sha256": "92213db4e4c8c3c83c8a72da6aea15e7dae588c381442e42fcf2b5138c72285d",
+      "bytes": 1019
+    },
+    {
+      "path": "research/queue-resolution-2026-09-30/older-captures/robert-sneddon-all-search.json",
+      "sha256": "aa322a837cb17770e6ae68b31d28ff0273ec5ec8cd344c12543d8fc8954f4c7e",
+      "bytes": 339839
+    },
+    {
+      "path": "research/queue-resolution-2026-09-30/older-captures/scottishrecordso28scotuoft-metadata.json",
+      "sha256": "372656aec45b511486d66fe45a50b903fcfe729f7cb4367a7f9c956102a671f4",
+      "bytes": 32421
+    },
+    {
+      "path": "research/queue-resolution-2026-09-30/older-captures/scottishrecordso28scotuoft.txt",
+      "sha256": "d5a492c0128dbbc61490b1299dc94bf3fc17731fd83daea2abda6391c179638c",
+      "bytes": 754657
+    },
+    {
+      "path": "research/queue-resolution-2026-09-30/older-captures/scottishrecordso43scotuoft-metadata.json",
+      "sha256": "4b9e2ce5b2dfdf94b91ac83dd2b2b528baeb2ef854e27388dadcc2c11bbc7b78",
+      "bytes": 64649
+    },
+    {
+      "path": "research/queue-resolution-2026-09-30/older-captures/scottishrecordso43scotuoft.txt",
+      "sha256": "bc21dbf7745495446391a11af7acd222c4dd2e0fa05defd64c0a8c75cc668b0c",
+      "bytes": 2213749
+    },
+    {
+      "path": "research/queue-resolution-2026-09-30/older-captures/sneddon-parent-candidates.json",
+      "sha256": "7c2574a59f26b48eebe008c25b03880ddf66a7d764a0d6f35807ba9375a35972",
+      "bytes": 51914
+    },
+    {
+      "path": "research/queue-resolution-2026-09-30/older-captures/sneddon-parents-searches.json",
+      "sha256": "1cddcc53acbd2700ce81c322e7fa0ae6bc94801c369796a0244790f321612a8e",
+      "bytes": 2124
+    },
+    {
+      "path": "research/queue-resolution-2026-09-30/older-captures/somefamilypapers00shaw-metadata.json",
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "bytes": 2
+    }
+  ]
+}

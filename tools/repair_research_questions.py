@@ -15,7 +15,7 @@ WEB = ROOT / 'www'
 QUESTIONS = (
     ('glasgow-951', 'Alexander Glasgow', 'c.1811',
      'Who were Alexander of Lisnagaver\'s parents?',
-     'Probable father (evaluation of 23 September 2026): John Glasgow, farmer, named in John-867’s 1846 marriage. Nancy Glasgow’s 1892 Plattsburgh probate citation serves Alexander’s children as heirs, in the same class as her named niece and nephew. Every sibling branch with a recorded birth surname is Glasgow, which points to a shared father. No record names Alexander’s father directly. Nancy’s probate petition and heir schedule are the decisive test, and his mother is unknown. The Larne reconstruction remains the wider-origin question.'),
+     'Probable father (reviewed 29 September 2026): John Glasgow, farmer, named in John-867’s 1846 marriage. Nancy Glasgow’s 1892 Plattsburgh probate citation serves Alexander’s children as heirs, in the same class as her named niece and nephew. Every sibling branch with a recorded birth surname is Glasgow, which points to a shared father. No record names Alexander’s father directly. The new death notice gives Nancy about 75, conflicting with her will’s age. Glenleslie’s Nancy died in 1847 and is a different woman. Independent sibling parent statements, the Scottish Mary Thomson–Sneddon candidate and the docketed 1894 appraisal offer further tests; the petition remains valuable. His mother is unknown. The Larne reconstruction remains the wider-origin question.'),
     ('glasgow-822', 'John Glasgow', '1767',
      'Can the Bible John be identified with the Inishrush householder, and who were his parents?',
      'The 1831 identity is probable. John’s possible brotherhood with Adam makes the Larne James-1509 hypothesis testable alongside older Adam and Maria from the naming pattern. His nine-child Bible weakens direct fatherhood of Alexander, not collateral kinship.'),
@@ -27,6 +27,10 @@ QUESTIONS = (
 # Additional main workstreams drawn from the maintained Name Study, Early
 # Ireland and Saltmarket free-space research, rather than tree connectivity.
 ADDITIONAL_QUESTIONS = (
+    ('Donegal: Ramelton & Lifford', 'Archibald’s named eldest son',
+     'Is the Thomas named in Archibald’s April 1673 will the later Lifford/Raphoe man?',
+     'Betham GO MS 225 p. 90/image 97 explicitly names Thomas Glasgow as eldest son of Archibald of Rathmalton. The son-to-Lifford identity is strongly probable, but the abstract gives no residence or estate. The new Lifford purchase transcript and shared Hamill title-group context strengthen the regional setting without proving inheritance or parentage. The live father field remains uncertain.',
+     '/branches/research-irish-belfast-donegal/#ramelton'),
     ('Larne, Inishrush & South Carolina', 'Where Alexander’s paternal family joins',
      'Was James of Larne Adam’s father, and was Tennessee Robert Archibald’s missing son?',
      'The two family reconstructions fit without making Robert the Irish men’s father. Compare the Larne 1762 marriage and William’s 1815 will with Archibald’s 1818 adult-heir receipts; each can name a missing connection. John Glasgow, farmer, is Alexander’s probable father, and his Desertoghill identity is unproved. Neither missing names nor a whole-haplogroup age settles the Larne joining generation.',
@@ -37,7 +41,7 @@ ADDITIONAL_QUESTIONS = (
      '/research/transcriptions/john-1577/#associated-fragment'),
     ('Ayrshire & St Vincent', 'The Montgreenan trust and family',
      'Which existing child profiles match the people named in Robert Glasgow’s trust and succession papers?',
-     'UCL’s published archival research reports children John and Emilia and identifies Anne as his natural daughter. This challenges the older childlessness account. The original trust, distinct Emilia/Amelia identities and suggested relationships in the enslaved household still need examination.',
+     'The current profiles John Glasgow-2952 and Anne Glasgow-2874 represent the named Montgreenan son and Robertson wife. Amelia Wilson-3789 is John’s sister and is distinct from his housekeeper Theobalds-120. The trust’s Emilia identification remains qualified; original trust, maternal claims and inferred household relationships still need examination.',
      '/people/glasgow-1076.html'),
     ('Early Scottish records', 'The early burgh connection',
      'Do the Stirling, alias-Smith and Saltmarket records describe the same John, and how does William fit?',
@@ -74,9 +78,12 @@ ADDITIONAL_QUESTIONS = (
 # person's presentation.json research tasks); an empty value is published as
 # "Not yet identified" rather than filled with a guess.
 QUESTION_ACTIONS = {
+    'Archibald’s named eldest son': ('Open · father clause found, identity strongly probable',
+                    'A distinctive estate, relative or associate linking the named 1673 son to the Lifford adult.',
+                    'NAI PRCT/1/1, microfilm MFGS/41/1 (accessible; G index and Glas* transcript matches checked without locating the particular will); PRONI deed recitals and Cairns/M’Auley collateral records.'),
     'glasgow-951': ('Open · probable father, not proved',
-                    'A probate petition or heir schedule stating each cited person’s relationship to Nancy Glasgow.',
-                    'Clinton County Surrogate’s Court probate file for Nancy Glasgow (d. 1891): petition and affidavit/schedule of heirs and next of kin.'),
+                    'A relationship-bearing estate schedule or independent parent statement in a reconstructed sibling branch.',
+                    'Nancy’s probate petition/heir schedule and 1894 appraisal; Mary Thomson–Sneddon’s family and Ann Glasgow McClelland’s own death.'),
     'glasgow-822': ('Open · 1831 identity probable',
                     'A kin term, transfer, residence or family admission linking the two Inishrush households.',
                     'Drimbolg congregation admissions and session records for John and Adam Glasgow.'),
@@ -89,7 +96,7 @@ QUESTION_ACTIONS = {
     'Margaret\'s surname and the associated testament': ('Open · kin clause partly transcribed',
                     'The complete kin clause, and the archive’s explanation of how strip 396A maps to image 276.',
                     'The supplementary strip 396A with Andro Huchesoun’s confirmation (image 276).'),
-    'The Montgreenan trust and family': ('Open',
+    'The Montgreenan trust and family': ('Partly resolved · John and Anne linked',
                     '',
                     'Robert Glasgow’s original trust and succession papers.'),
     'The early burgh connection': ('Open · proposed identities possible', '', ''),
@@ -162,7 +169,7 @@ def repair():
     )
     def render_study(region, title, question, context, url):
         sources = STUDY_SOURCES.get(title, ())
-        action = 'Open FamilySearch index &rarr;' if url.startswith('https://www.familysearch.org/') else 'Read the maintained research &rarr;'
+        action = 'Open FamilySearch index &rarr;' if url.startswith('https://www.familysearch.org/') else 'Read the research notes &rarr;'
         source_markup = (
             '<p class="repair-question-sources"><strong>Sources:</strong> '
             + ' · '.join(f'<a href="{escape(source_url, quote=True)}">{escape(label)}</a>' for label, source_url in sources)
@@ -178,19 +185,19 @@ def repair():
     wider_markup = ''.join(render_study(*study) for study in ADDITIONAL_QUESTIONS)
     section = (
         '<section id="open-questions" aria-labelledby="open-questions-title">'
-        '<div class="repair-question-lead"><span class="r-kicker">The roots we are researching</span>'
-        '<h2 id="open-questions-title">Main open<br>research questions</h2>'
-        '<p class="repair-question-intro">The main open questions across the maintained family studies and free-space research. Proposed identities and family links remain separate from documented relationships.</p>'
-        f'<a class="repair-question-focus" href="/people/{slug}.html"><span class="r-kicker">{escape(date)} &middot; The nearest question</span>'
+        '<div class="repair-question-lead"><span class="r-kicker">Unresolved family history</span>'
+        '<h2 id="open-questions-title">Open questions</h2>'
+        '<p class="repair-question-intro">Read what we know about each family, why a relationship is still uncertain and which record could help resolve it.</p>'
+        f'<a class="repair-question-focus" href="/people/{slug}.html"><span class="r-kicker">{escape(date)} &middot; Featured question</span>'
         f'<h3>{escape(name)}</h3><p>{escape(question)}</p><span>Follow the evidence &rarr;</span></a>'
         f'<div class="repair-question-focus-actions">{question_actions(slug)}</div>'
         f'<p class="evidence-guide-link"><a href="{evidence_labels.GUIDE_URL}">{evidence_labels.GUIDE_LABEL}</a>'
         '<span> What the status labels mean.</span></p></div>'
-        '<div class="repair-question-trails"><div class="repair-question-trails-head"><span>Other roots under review</span><p>Each trail records what is known and what remains unproved.</p></div>'
+        '<div class="repair-question-trails"><div class="repair-question-trails-head"><span>Other ancestors being researched</span><p>Each study explains what is known and what still needs proof.</p></div>'
         f'{trails_markup}</div><div class="repair-question-wider">'
-        '<div class="repair-question-wider-head"><h3>Beyond the nearest roots</h3>'
+        '<div class="repair-question-wider-head"><h3>More family questions</h3>'
         '<p>Identity, parentage and the missing links between documented households.</p>'
-        '<a class="r-button" href="/branches/#research-studies">Explore the evidence-led research groups &rarr;</a></div>'
+        '<a class="r-button" href="/branches/#research-studies">Browse family studies &rarr;</a></div>'
         f'<div class="repair-question-study-grid">{wider_markup}</div></div></section>'
     )
     path = WEB / 'research/index.html'
@@ -200,30 +207,32 @@ def repair():
     else:
         page = page.replace('</header><div class="repair-research-grid">', '</header>' + section + '<div class="repair-research-grid">', 1)
     style = '''<style id="open-questions-style">
-#open-questions{scroll-margin-top:100px;display:grid;grid-template-columns:1.15fr 1fr;gap:44px;margin:28px 0 42px;padding:37px 38px;background:#e7ebdd;border:1px solid #d6ddc8}
+#open-questions{scroll-margin-top:100px;display:grid;grid-template-columns:1.15fr 1fr;gap:24px;margin:28px 0 42px;padding:0;background:transparent;border:0}
 #open-questions h2{font:500 36px/1.13 var(--g-serif);letter-spacing:-.025em;margin:8px 0 14px;color:#30452d}
 #open-questions h3{font:500 25px/1.15 var(--g-serif);letter-spacing:-.015em;margin:7px 0;color:#30452d}
+.repair-question-lead,.repair-question-trails,.repair-question-wider{align-self:start;background:#e7ebdd;border:1px solid #d6ddc8;padding:30px 32px;min-width:0}
 .repair-question-intro{max-width:510px;margin:0 0 24px;color:#53634a;font:15px/1.58 var(--g-sans)}
 .repair-question-focus{display:block;max-width:510px;padding:18px 0 2px;border-top:1px solid #bac8a6;color:inherit;text-decoration:none}
 .repair-question-focus>p{margin:0 0 13px;color:#40523c;font:16px/1.5 var(--g-serif)}
 .repair-question-focus>span:last-child,.repair-question-arrow{font:700 10px/1.3 var(--g-sans);letter-spacing:.08em;text-transform:uppercase;color:#496844}
-.repair-question-trails{border-left:1px solid #bac8a6;padding-left:26px}
+.repair-question-trails{display:grid;align-content:start;gap:0}
 .repair-question-trails-head{padding:2px 0 14px;border-bottom:1px solid #cbd5bf}
 .repair-question-trails-head>span{font:700 10px/1.3 var(--g-sans);letter-spacing:.11em;text-transform:uppercase;color:#496844}
 .repair-question-trails-head p{margin:6px 0 0;color:#66745c;font:12px/1.45 var(--g-sans)}
-.repair-question-trail{display:block;padding:20px 0 18px;border-bottom:1px solid #cbd5bf;color:inherit;text-decoration:none}
+.repair-question-trail{display:block;margin-top:16px;padding:18px 20px 14px;background:#f8faf4;border:1px solid #cbd5bf;border-bottom:0;color:inherit;text-decoration:none}
 .repair-question-trail p{max-width:400px;margin:0 0 13px;color:#40523c;font:15px/1.45 var(--g-serif)}
+.repair-question-trail-actions{padding:0 20px 17px;background:#f8faf4;border:1px solid #cbd5bf;border-top:0}
 .repair-question-focus:hover h3,.repair-question-trail:hover h3{text-decoration:underline;text-decoration-color:#758b69;text-underline-offset:4px}
-.repair-question-wider{grid-column:1/-1;border-top:1px solid #bac8a6;padding-top:26px;min-width:0}
+.repair-question-wider{grid-column:1/-1}
 .repair-question-wider-head{margin-bottom:24px}.repair-question-wider-head p{color:#53634a;max-width:680px}
-.repair-question-study-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:26px 40px}
-.repair-question-study{border-top:1px solid #cbd5bf;padding-top:20px;min-width:0}
+.repair-question-study-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.repair-question-study{background:#f8faf4;border:1px solid #cbd5bf;padding:20px;min-width:0}
 .repair-question-study h3 a{color:inherit;text-decoration:none}.repair-question-study h3 a:hover{text-decoration:underline}
 .repair-question-study>p{font:14px/1.6 var(--g-sans);color:#53634a;max-width:510px}
 .repair-question-study>p.repair-question-prompt{font:18px/1.4 var(--g-serif);color:#30452d}
 .repair-question-study>a{display:inline-block;margin:7px 0 12px;text-underline-offset:4px}
 @media(max-width:720px){.repair-question-study-grid{grid-template-columns:1fr;gap:18px}.repair-question-wider{padding-top:20px}}
-@media(max-width:720px){#open-questions{grid-template-columns:1fr;gap:23px;margin:18px -1px 32px;padding:24px 22px}#open-questions h2{font-size:32px}.repair-question-trails{border-left:0;border-top:1px solid #bac8a6;padding:18px 0 0}.repair-question-focus{max-width:none}.repair-question-trail{padding:17px 0}.repair-question-trail h3{font-size:23px}}
+@media(max-width:720px){#open-questions{grid-template-columns:1fr;gap:16px;margin:18px -1px 32px}#open-questions h2{font-size:32px}.repair-question-lead,.repair-question-trails,.repair-question-wider{padding:24px 22px}.repair-question-focus{max-width:none}.repair-question-trail{padding:17px 18px 13px}.repair-question-trail-actions{padding:0 18px 16px}.repair-question-trail h3{font-size:23px}}
 </style>'''
     if 'id="open-questions-style"' in page:
         page = re.sub(r'<style id="open-questions-style">.*?</style>', style, page, count=1, flags=re.S)

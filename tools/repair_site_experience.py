@@ -18,6 +18,60 @@ TOPICS = (
     ('other-family-places', 'Other places & unresolved locations', {'other'}, 'Browse families connected with other countries or with places still to be identified. Their people and records remain available while locations are researched.'),
 )
 
+# A local study belongs to its geographic subject. Overseas records of its
+# members describe migration, not additional locations of the study itself.
+LOCALITY_TOPICS = {
+    'lisnagaver-rasharkin': ['early-ireland'],
+    'larne-kilwaughter': ['early-ireland'],
+    'early-scottish-records': ['scottish-families'],
+}
+BRANCH_NAV_RE = r'<nav\b(?=[^>]*\bclass="experience-branch-nav")(?=[^>]*\baria-label="Related regions and local studies")[^>]*>.*?</nav>'
+
+
+def branch_topic_ids(branch, countries):
+    if branch['kind'] == 'place':
+        return list(LOCALITY_TOPICS[branch['id']])
+    return [id for id, _, keys, _ in TOPICS if keys & countries]
+
+
+def branch_navigation(branch, branches, hubs):
+    parents = [h for h in hubs if h['id'] in branch['topic_ids']]
+    localities = [b for b in branches if b['kind'] == 'place' and b['id'] != branch['id'] and set(b['topic_ids']) & set(branch['topic_ids'])]
+    links = '<a href="/branches/">All families &amp; places</a>' + ''.join(f'<a href="{h["url"]}">{escape(h["label"])}</a>' for h in parents)
+    navigation = f'<nav class="experience-branch-nav" aria-label="Related regions and local studies"><p>Explore the wider records</p><div class="r-actions">{links}</div>'
+    if localities:
+        navigation += '<p>Other local studies in these regions</p><div class="r-actions">' + ''.join(f'<a href="{b["url"]}">{escape(b["label"])}</a>' for b in localities) + '</div>'
+    return navigation + '</nav>'
+
+
+def repair_local_study_navigation(changed):
+    """Refresh study links without rebuilding biographies or memberships."""
+    path = WEB / 'assets/research/branches.json'
+    branches = json.loads(path.read_text())
+    for branch in branches:
+        if branch['kind'] == 'place':
+            branch['topic_ids'] = branch_topic_ids(branch, set())
+    hubs = [b for b in branches if b['kind'] == 'region']
+    for branch in branches:
+        relative = f'branches/{branch["id"]}/index.html'
+        page = (WEB / relative).read_text()
+        if branch['kind'] == 'region':
+            local = [b for b in branches if b['kind'] == 'place' and branch['id'] in b['topic_ids']]
+            section = '<section><h2>Choose a local study</h2>' + cards(local) + '</section>' if local else ''
+            page = re.sub(r'<section><h2>Choose a local study</h2>.*?</section>', lambda _: section, page, count=1, flags=re.S)
+        else:
+            page = re.sub(BRANCH_NAV_RE, lambda _: branch_navigation(branch, branches, hubs), page, count=1, flags=re.S)
+        update(relative, page, changed)
+    update('assets/research/branches.json', json.dumps(branches, ensure_ascii=False, separators=(',', ':')) + '\n', changed)
+    directory_path = WEB / 'assets/research/branches-directory.json'
+    directory = json.loads(directory_path.read_text())
+    for group in directory['groups']:
+        if group['kind'] == 'place':
+            group['regions'] = list(LOCALITY_TOPICS[group['id']])
+            group['region'] = group['regions'][0]
+    update('assets/research/branches-directory.json', json.dumps(directory, ensure_ascii=False, indent=2) + '\n', changed)
+
+
 # Local studies are evidence-defined, not exported-tree branches.  The former
 # Larne list followed uncertain father links through Glenleslie into Rasharkin;
 # these reviewed memberships keep only locally documented people and members of
@@ -355,7 +409,7 @@ def repair_branches(changed):
     for b in branches:
         associated = [r for member in b['members'] for r in by_person[member]]
         countries = {r['country'] for r in associated} | set(b.get('countries', {}))
-        b['topic_ids'] = [id for id, _, keys, _ in TOPICS if keys & countries]
+        b['topic_ids'] = branch_topic_ids(b, countries)
         if b['id'] in curated:
             b['description'] = curated[b['id']]
         elif b['description'].startswith('A connected family group,') or b.get('descriptionSource') == 'catalogue':
@@ -377,15 +431,9 @@ def repair_branches(changed):
         core_version = '3.1-repair-2' if b['id'] in LOCAL_FAMILIES else '3.1-repair-1'
         page = re.sub(r'/assets/research/core\.js\?v=3\.1-repair-[12]', f'/assets/research/core.js?v={core_version}', page, count=1)
         page = re.sub(r'(<header class="r-page-head">[\s\S]*?<p class="r-lead">)[\s\S]*?(</p>)', lambda m: m[1] + escape(b['description']) + m[2], page, count=1)
-        parents = [h for h in hubs if h['id'] in b['topic_ids']]
-        localities = [x for x in branches if x['kind'] == 'place' and x['id'] != b['id'] and set(x['topic_ids']) & set(b['topic_ids'])]
-        links = '<a href="/branches/">All families &amp; places</a>' + ''.join(f'<a href="{h["url"]}">{escape(h["label"])}</a>' for h in parents)
-        navigation = f'<nav class="experience-branch-nav" aria-label="Related regions and local studies"><p>Explore the wider records</p><div class="r-actions">{links}</div>'
-        if localities:
-            navigation += '<p>Other local studies in these regions</p><div class="r-actions">' + ''.join(f'<a href="{x["url"]}">{escape(x["label"])}</a>' for x in localities) + '</div>'
-        navigation += '</nav>'
-        if 'class="experience-branch-nav"' in page:
-            page = re.sub(r'<nav class="experience-branch-nav"[\s\S]*?</nav>', lambda _: navigation, page, count=1)
+        navigation = branch_navigation(b, branches, hubs)
+        if re.search(BRANCH_NAV_RE, page, flags=re.S):
+            page = re.sub(BRANCH_NAV_RE, lambda _: navigation, page, count=1, flags=re.S)
         else:
             page = page.replace('</header><div class="r-inline r-group-stats">', '</header>' + navigation + '<div class="r-inline r-group-stats">', 1)
         page = page.replace('<span class="r-kicker">Not recorded</span>', '<span class="r-kicker">Research assessment</span>')
@@ -486,4 +534,13 @@ def repair():
 
 
 if __name__ == '__main__':
-    print(dict(repair()))
+    import argparse
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--local-studies-only', action='store_true', help='Refresh geographic study navigation only')
+    args = parser.parse_args()
+    if args.local_studies_only:
+        changed = Counter()
+        repair_local_study_navigation(changed)
+        print(dict(changed))
+    else:
+        print(dict(repair()))

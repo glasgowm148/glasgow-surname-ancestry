@@ -1,3 +1,6 @@
+<!-- profile-match-review-20260930 -->
+**Current identity review, 30 September 2026:** The supplied index records AGNES Glasgow and PATRIK PAUL/FR 40 (FR 40) at Kirknewton and East Calder on 1670-07-08. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group.
+
 # HOLD — Agnes Glasgow, Kirknewton and East Calder, 1670
 
 - **Status:** HOLD — no compatible identified adult profile.

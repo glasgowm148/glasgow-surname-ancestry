@@ -1,4 +1,4 @@
-# READY TO CREATE — Elizabeth Glasgow
+# HOLD — compatible existing candidate — Elizabeth Glasgow
 
 - First name: Elizabeth
 - Last name at birth: Unknown
@@ -20,6 +20,10 @@ She was born about 1820, as estimated from the reported age.
 
 == Research Notes ==
 Her birth surname is not shown in the death index; Glasgow is the surname recorded at death.
+
+== Research Notes ==
+Identity review, 30 September 2026: Elizabeth Glasgow’s supplied death index records 15 November 1893, age 73, Londonderry registration district. Glasgow-3033, born at Gorbals on 23 May 1819 to James Glasgow and Jean Cunninghame, remains compatible. No record yet joins her Scottish family to this Irish death, and the death surname does not establish her birth surname. Keep the candidate and the draft on HOLD; the original death entry remains uninspected.
+The indexed event is established only at supplied-index level; the original death entry remains uninspected. Candidate: [[Glasgow-3033|Glasgow-3033]].
 
 == Sources ==
 <references />

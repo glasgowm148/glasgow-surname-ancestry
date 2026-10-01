@@ -18,13 +18,13 @@ def records_body(records: list[dict]) -> str:
     quality_names = {'original': 'Original', 'derivative': 'Index / transcription', 'secondary': 'Secondary', 'tree_only': 'Tree / profile only', 'unknown': 'Unclassified'}
     quality_totals = ''.join(f'<li><span>{label}</span><strong>{qualities[key]:,}</strong></li>' for key, label in quality_names.items())
     return f'''<header class="records-hero">
-<div><p class="records-eyebrow">The documentary archive</p><h1>Research records</h1><p class="records-intro">Find the records behind a person, a place or a family story.</p></div>
-<div class="records-total"><strong>{len(records):,}</strong><span>mapped associations</span></div>
+<div><p class="records-eyebrow">Historical records</p><h1>Research records</h1><p class="records-intro">Find the records behind a person, a place or a family story.</p></div>
+<div class="records-total"><strong>{len(records):,}</strong><span>record entries</span></div>
 </header>
 <div class="records-status-strip" aria-label="Citation coverage">
-<div><span class="record-status-dot explicit" aria-hidden="true"></span><strong>{statuses['explicit']:,}</strong><span>Explicit source links</span></div>
-<div><span class="record-status-dot candidate" aria-hidden="true"></span><strong>{statuses['candidate']:,}</strong><span>Candidate matches</span></div>
-<div><span class="record-status-dot unresolved" aria-hidden="true"></span><strong>{statuses['unresolved']:,}</strong><span>Citations unresolved</span></div>
+<div><span class="record-status-dot explicit" aria-hidden="true"></span><strong>{statuses['explicit']:,}</strong><span>Source cited</span></div>
+<div><span class="record-status-dot candidate" aria-hidden="true"></span><strong>{statuses['candidate']:,}</strong><span>Possible source matches</span></div>
+<div><span class="record-status-dot unresolved" aria-hidden="true"></span><strong>{statuses['unresolved']:,}</strong><span>Citation needed</span></div>
 </div>
 <p id="records-scope" class="records-scope" hidden></p>
 <section class="record-search-panel" aria-labelledby="records-search-heading">
@@ -37,15 +37,15 @@ def records_body(records: list[dict]) -> str:
 <label><span>From year</span><input id="record-from" type="number" placeholder="Any" aria-label="From year"></label>
 <label><span>To year</span><input id="record-to" type="number" placeholder="Any" aria-label="To year"></label>
 <label><span>Source quality</span><select id="record-quality"><option value="">All qualities</option><option value="original">Original</option><option value="derivative">Index / transcription</option><option value="secondary">Secondary</option><option value="tree_only">Tree / profile only</option><option value="unknown">Unclassified</option></select></label>
-<label><span>Citation status</span><select id="r-record-citation"><option value="">All statuses</option><option value="explicit">Explicit source</option><option value="candidate">Candidate match</option><option value="unresolved">Citation unresolved</option></select></label>
+<label><span>Citation status</span><select id="r-record-citation"><option value="">All statuses</option><option value="explicit">Source cited</option><option value="candidate">Possible source match</option><option value="unresolved">Citation needed</option></select></label>
 </div>
-<div class="records-filter-footer"><span>Dates and places describe the mapped association.</span><button id="record-reset" type="button">Clear filters</button></div>
+<div class="records-filter-footer"><span>Dates and places refer to the person’s recorded event.</span><button id="record-reset" type="button">Clear filters</button></div>
 </section>
 <div class="records-results-toolbar"><p id="record-count" role="status" aria-live="polite">Loading records…</p><label class="records-sort"><span>Sort by</span><select id="record-sort"><option value="date-asc">Oldest first</option><option value="date-desc">Newest first</option><option value="name">Person name</option></select></label></div>
 <noscript><p class="records-empty">Enable JavaScript to search records, or <a href="/data/records-index.json">download the complete records index</a>.</p></noscript>
 <div id="record-results" class="record-results" aria-label="Record results"></div>
 <details class="records-method"><summary>Understanding the sources</summary><div>
-<p>These entries are mapped associations with people, not a count of distinct original documents. An <strong>explicit source</strong> was attached directly to the association. A <strong>candidate match</strong> was matched from that person’s captured citations by record type, year and place; it remains a lead until inspected. <strong>Unresolved</strong> means a sufficiently specific citation has not been found.</p>
+<p>Each entry links a person to an event or record. One document may have entries for several people. <strong>Source cited</strong> means a source reference is attached to the entry. A <strong>possible source match</strong> was found among that person’s saved citations using record type, year and place; it needs checking against the record. <strong>Citation needed</strong> means no sufficiently specific reference has been found.</p>
 <ul class="records-quality-totals">{quality_totals}</ul>
 <p><a href="/data/source-review.csv">Download the source-review queue →</a></p></div></details>'''
 

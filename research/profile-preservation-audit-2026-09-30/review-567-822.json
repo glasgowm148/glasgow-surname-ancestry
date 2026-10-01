@@ -1,0 +1,223 @@
+{
+  "audit_date": "2026-09-30",
+  "scope": [
+    "Glasgow-567",
+    "Glasgow-822"
+  ],
+  "method": "Compared each changed live passage against complete effective proposed text; inspected raw maintained drafts, owned findings and relevant queue rows. Reconciled against fresh baseline, not previous capture. No live edits, browser calls or new historical research.",
+  "profiles": [
+    {
+      "id": "Glasgow-567",
+      "status": "RECONCILED; original proposed replacement fails preservation audit; managed by Little-4631, outside requesting account scope",
+      "draft_path": "research/Glasgow-567/Glasgow-567.md",
+      "reconciled_path": "research/profile-preservation-audit-2026-09-30/Glasgow-567-reconciled.wiki",
+      "omitted_details": [
+        {
+          "passage": "Born circa 1586, likely in Scotland, with BirthEst reference",
+          "loss": "Entire calculation and citation disappear. It explains the age-based estimate and explicitly distinguishes it from a birth record.",
+          "reconciliation": "Preserve complete BirthEst citation and circa-1586/Scotland account as a labelled Research Note; make neither a recorded fact."
+        },
+        {
+          "passage": "Edinburgh capital-city, administrative and religious context; only confirmed event",
+          "loss": "Historical narrative context removed; identification through the Little family reduced.",
+          "reconciliation": "Preserve the paragraph and complete Catharine1611 reference."
+        },
+        {
+          "passage": "Child/father/mother list",
+          "loss": "Core maternity remains, but Johne Little display dates abt.1580-aft.1612 disappear.",
+          "reconciliation": "Preserve full list, links and supplied date label; co-parenthood is proved, marriage is not."
+        },
+        {
+          "passage": "High Kirk (St Giles'), St Cuthbert's or Canongate Kirk",
+          "loss": "Specific church hypotheses all removed.",
+          "reconciliation": "Preserve all three in Research Notes as suggestions lacking a church-specific cited record; do not assert a likely baptismal church."
+        },
+        {
+          "passage": "FamilySearch profile 9VM1-52D conflation warning",
+          "loss": "The tree identity and warning disappear completely.",
+          "reconciliation": "Preserve the ID and attributed possible conflation; add its accessible FamilySearch tree link without treating tree records as identity proof."
+        },
+        {
+          "passage": "Johnstoun children 1617–1627; Marione, Margaret, James and Catharine",
+          "loss": "Proposed retains Daniell and Archebald sources but drops date range and four additional named children associated with the FamilySearch profile.",
+          "reconciliation": "Preserve the complete paragraph, including the source-list attribution and all names."
+        },
+        {
+          "passage": "1596 versus 1586 birth estimates",
+          "loss": "Proposed drops both competing calculations and their age assumptions.",
+          "reconciliation": "Preserve circa 1586 => about 25 at 1611 and circa 1596 => about 20 at 1616 / about 15 at 1611; label both conjectural, insufficient to separate identities."
+        },
+        {
+          "passage": "John Wilson (Wilson-126696), 1590 date label, South Leith/Midlothian adjacency",
+          "loss": "Marriage and source remain, but Wilson profile link and location context disappear.",
+          "reconciliation": "Preserve full source paragraph and Wilson-126696 link."
+        },
+        {
+          "passage": "Barbara-1102 baptism 29 June 1617; George Glasgow and Margaret Steuart",
+          "loss": "Proposed keeps exclusion and citation but drops exact baptism date and both parents.",
+          "reconciliation": "Preserve exact date, parents and citation; explicitly exclude her from being the 1611 adult mother."
+        },
+        {
+          "passage": "Research Notes defining record, conflation, three/four contemporaries, birth estimates, unknown origin",
+          "loss": "Some ideas survive implicitly, but named conflation and numerical/age explanations disappear.",
+          "reconciliation": "Preserve summary notes; describe three/four as a prior record interpretation, because distinct adult identities are unresolved."
+        },
+        {
+          "passage": "No linked marriage or death record",
+          "loss": "Not substantively lost: proposed preserves non-establishment of marriage and death.",
+          "reconciliation": "Preserve explicit negative state, qualified to records securely linked so far."
+        }
+      ],
+      "intentional_replacements": [
+        {
+          "from": "'''Barbara Glasgow''' was born circa 1586, likely in Scotland.",
+          "to": "'''Barbara Glasgow''' is documented as the mother of [[Little-6307|Catharine Little]], born 9 September and baptised 29 September 1611 in Edinburgh parish, Midlothian.",
+          "why": "Lead with the indexed defining event. The full conjectural birth account and its original citation remain in Research Notes."
+        },
+        {
+          "from": "This baptism likely took place at one of the main churches serving Edinburgh parish at the time",
+          "to": "The High Kirk (St Giles'), St Cuthbert's and Canongate Kirk have been suggested as possible baptismal churches. No cited record identifies the church, and the suggestion remains unverified.",
+          "why": "The current cited source identifies the parish, not an individual church; preserve the hypothesis without treating it as evidence."
+        },
+        {
+          "from": "several women shared this name",
+          "to": "The maternity, Wilson marriage and Johnstoun marriage may represent different adult women or successive events in one woman's life; continuity has not been proved.",
+          "why": "Retain disambiguation evidence while avoiding an unevidenced decision that all adult records represent different people."
+        },
+        {
+          "from": "At least three, possibly four, women named Barbara Glasgow were living/marrying/having children",
+          "to": "The records have been interpreted as at least three, possibly four, Barbara Glasgows ... the number of distinct adult women remains unresolved.",
+          "why": "Preserve the numerical account with its correct uncertainty; 1617 child is chronologically excluded from the 1611 mother."
+        },
+        {
+          "from": "Preserve those links, and any currently populated date or location, as uncertain pending a supported replacement; do not clear them solely because the evidence is weak.",
+          "to": "William Glasgow and Margaret Herbesoun are possible parents whose relationship to Barbara remains unproved.",
+          "why": "Remove editor instructions from biography; no relationship field changes are made or authorized by this audit."
+        },
+        {
+          "from": "Do not merge this adult Barbara ... without continuity evidence.",
+          "to": "The maternity, Wilson marriage and Johnstoun marriage may represent different adult women or successive events in one woman's life; continuity has not been proved.",
+          "why": "Replace commands with durable historical uncertainty."
+        },
+        {
+          "from": "The published Edinburgh marriage register has no Barbara Glasgow/Johne Little marriage",
+          "to": "No Barbara Glasgow/Johne Little marriage has been identified in the published Edinburgh marriage register for 1595–1700.",
+          "why": "A negative search cannot establish that the pair never married."
+        }
+      ],
+      "harmless_formatting_losses": [
+        "Replace deprecated {{One Name Study|name=Glasgow}} with [[Category:Glasgow Name Study]].",
+        "Keep only {{Estimated Date|Birth}}, avoiding the extra generic Estimated Date injected into effective proposal.",
+        "Promote Research Notes to a native level-two heading; normalize whitespace."
+      ],
+      "new_material_integrated": [
+        "Unproved William-3522/Herbison-439 parent hypothesis; George-1099-specific protocol evidence with original-source URLs from maintained research.",
+        "Ninian-3188 family/collateral hypothesis and occupational/locality grounds from owned findings, kept possible.",
+        "South Leith 20 September versus 26 November 1611 date conflict, requiring original-entry review."
+      ],
+      "already_in_current": [
+        "1611 child and both co-parents; no established marriage, death or parentage.",
+        "Johnstoun, Wilson and 1617 Barbara separation evidence and FamilySearch citations.",
+        "Circa-1586 estimate explicitly labelled as genealogical estimation, not a birth record; summary must not imply current text pretends otherwise."
+      ],
+      "queue_discrepancies": [
+        "to-update.md older row 606 still says detach William-3522 and Herbison-439 and remove unsupported death; latest row 868 and maintained findings instead preserve uncertain links/fields. Older instruction is stale.",
+        "Live structured BirthDate is 1585 (guess), while narrative estimation says circa 1586; DeathDate 1627 and Edinburgh death location are guesses, not established by linked records. Father is currently confident (20), not already uncertain. No structured changes made."
+      ],
+      "recommended_summary": "Clarify Barbara’s documented 1611 maternity and unresolved parents and marriage; preserve birth-estimate reasoning, namesake records, FamilySearch conflation warning and all citations. Add the protocol evidence and cautiously stated family hypotheses.",
+      "limitations": [
+        "No original entries, church records or external URLs were freshly inspected.",
+        "Ninian occupational relationships and negative marriage-search details are taken from maintained findings; their original-source citations are not provided in the owned draft. Verify those precise sources before any live use.",
+        "Outside requesting manager scope; reconciled full replacement is a review artifact, not permission for a live rewrite."
+      ],
+      "verification": {
+        "current_characters": 5566,
+        "effective_proposed_characters": 3519,
+        "reconciled_characters": 8485,
+        "missing_current_urls": [],
+        "missing_current_wikitree_links": [],
+        "missing_current_named_reference_ids": [],
+        "sha256": "df5c6a422147a6098b2d695db256805bd07ca2a039ab75cc17b35c9684ca7d39",
+        "substantive_comparison": "Manual passage-by-passage review above, not inferred from length or source-set checks."
+      }
+    },
+    {
+      "id": "Glasgow-822",
+      "status": "RECONCILED; effective proposal preserves all live substance, with research-source and wording corrections; managed by Weir-2957, outside requesting account scope",
+      "draft_path": "research/Glasgow-822/Glasgow-822.md",
+      "reconciled_path": "research/profile-preservation-audit-2026-09-30/Glasgow-822-reconciled.wiki",
+      "omitted_details": [],
+      "passage_review": [
+        "Birth 10 April 1767, Ireland; 21 May 1798 Mary Arthur marriage and nine-child Ireland sequence: unchanged.",
+        "Inishrush bees recollection: unchanged.",
+        "1833 deed, 1840 census, Arthur’s care (nothing undone) and 1850 household: unchanged.",
+        "Covenanter tradition including Sabbath whistling, prayer/salvation and for righteousness and life quotation: unchanged.",
+        "23 December 1851 death and Scotch Covenanter burial: unchanged.",
+        "All nine linked children, dates, James’s placeless 1823 death, John’s 1836 Ohio death and spouse/settlement details: unchanged.",
+        "1831 four-male/four-female candidate, conditional 1831–1833 migration, rejected 1830 Richland head, Adam-1475 Kilbirnie/Irvine descent hypothesis: preserved.",
+        "Every distinct current source, named reference, URL and WikiTree link: preserved."
+      ],
+      "intentional_replacements": [
+        {
+          "from": "His household contained four males and four females, all Presbyterian.",
+          "to": "His household contained four males and four females, described in the Torrens transcription as all Presbyterian.",
+          "why": "Owned findings explicitly say MacAfee and Torrens disagree about the denomination column. Preserve the current source reading as attributed, add unresolved original-return check, avoid silently choosing a new denomination."
+        },
+        {
+          "from": "The citation is retained to document the rejected identification, but should not be used as evidence that he was in Ohio by 1830.",
+          "to": "This rejected identification supplies no evidence that he was in Ohio by 1830.",
+          "why": "Keep rejection and complete source without narrating editorial preservation."
+        },
+        {
+          "from": "it cannot create or attach them",
+          "to": "it does not identify either parent",
+          "why": "Convert proposed editor commands about hypothetical Adam/Maria to historical evidence language."
+        },
+        {
+          "from": "<ref name=\"JohnCurrent\">The cited Bible, 1831 census and Y-DNA project results provide context, not a parental statement.</ref>",
+          "to": "<ref name=\"JohnRegister\" /><ref name=\"Census1831\" /><ref name=\"JohnCurrent\">[https://www.familytreedna.com/groups/glasgow/about Glasgow Surname Project at FamilyTreeDNA]. Project groupings and participant pedigrees provide context for a paternal-line hypothesis, not a statement of John's parentage.</ref>",
+          "why": "Replace vague pseudo-citation with accessible original source links/references, retaining JohnCurrent reference ID."
+        }
+      ],
+      "harmless_formatting_losses": [
+        "Effective proposed text removes blank lines after Biography, Research Notes and Sources headings; no substantive loss.",
+        "Add Glasgow Name Study category.",
+        "Link proposed Alexander mention to Glasgow-951 using already identified maintained research; no identity change."
+      ],
+      "new_material_integrated": [
+        "McKeown Bible: grandson’s Inishrush birth 17 April 1821 and Rev. Joseph Orr baptism.",
+        "Drimbolg John Glasgow 1809 occurrence and 1827 eldership, supportive but not proof of precise identity.",
+        "Larne/Inishrush collateral hypotheses, older Adam/Maria naming lead, James-1509 candidate, and limited Y-DNA implications; all unresolved.",
+        "Additional deed limitation note; duplicate HTTP/HTTPS occurrences refer to same source, retained."
+      ],
+      "already_in_current": [
+        "James’s 20 April 1823 death has no Ohio attribution in the current child list.",
+        "The 1830 Richland man is already expressly rejected because aged 40–49 versus John’s 63.",
+        "1833 deed is already the earliest secure Ohio evidence.",
+        "Conditional 1831–1833 migration and Glasgow-3927 identity ambiguity already present."
+      ],
+      "queue_discrepancies": [
+        "Latest to-update.md row 871 calls placeless-1823 and 1830-household corrections pending; fresh current text already includes both. They are preservation checks, not new amendments.",
+        "Summary should describe the genuinely missing McKeown/Drimbolg and reconstruction evidence, plus denomination-source qualification.",
+        "No claim that current John is missing children, bee recollection, care quotation, Covenanter material, citations or Adam-1475 hypothesis is warranted."
+      ],
+      "recommended_summary": "Add the independent 1821 McKeown Bible and Drimbolg evidence and explain unresolved Larne/Inishrush kinship and DNA limits; qualify conflicting 1831 denomination transcriptions while preserving the existing migration corrections, family details, quotations and sources.",
+      "limitations": [
+        "No original Bible pages, church extract, census return or external URL freshly inspected.",
+        "Maintained findings support the additions; precise kinship and Glasgow-3927 identity remain unproved.",
+        "Structured birthplace is Inishrush but current narrative says Ireland; the cited derivative source places Rose’s birth at Inishrush, not securely John’s own birth. No structured birthplace change or confidence upgrade made.",
+        "Outside requesting manager scope; reconciled full replacement is a review artifact, not permission for a live rewrite."
+      ],
+      "verification": {
+        "current_characters": 5103,
+        "effective_proposed_characters": 7301,
+        "reconciled_characters": 7646,
+        "missing_current_urls": [],
+        "missing_current_wikitree_links": [],
+        "missing_current_named_reference_ids": [],
+        "sha256": "102ad2f77403f33a94370a4fde5ff9b8f6e44e278078c32e50e4d373ec692dd7",
+        "substantive_comparison": "Manual passage-by-passage review above, not inferred from length or source-set checks."
+      }
+    }
+  ]
+}

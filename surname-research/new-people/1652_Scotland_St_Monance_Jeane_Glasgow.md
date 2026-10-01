@@ -1,3 +1,6 @@
+<!-- profile-match-review-20260930 -->
+**Current identity review, 30 September 2026:** The supplied index records JEANE Glasgow and ROBERT ALIESONE/FR 91 AND 92 (FR 92) at St Monance on 1652-05-28. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group.
+
 # HOLD — Jeane Glasgow, St Monance, 1652
 
 - **Status:** HOLD — [[Glasgow-1163|Jeane Glasgow]] is too young to identify safely; no other compatible profile.

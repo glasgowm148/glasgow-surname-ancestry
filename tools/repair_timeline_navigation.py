@@ -65,15 +65,19 @@ JS = '''(() => {
   function jump(hash, push = false) {
     let target;
     try { target = document.getElementById(decodeURIComponent(hash.slice(1))); } catch (_) { return false; }
-    if (!target || !target.matches('.timeline-row, .timeline-snp-anchor')) return false;
+    if (!target || !target.matches('[id]') || !target.closest('.timeline-container')) return false;
     if (target.closest('.deep-hidden')) document.getElementById('deepToggle')?.click();
+    const row = target.closest('.timeline-row');
+    row?.querySelectorAll('details').forEach(disclosure => {
+      if (disclosure.contains(target)) disclosure.open = true;
+    });
     let period = periods[0];
     for (const candidate of periods) {
       if (candidate.target === target || (candidate.target.compareDocumentPosition(target) & Node.DOCUMENT_POSITION_FOLLOWING)) period = candidate;
     }
     select(period);
-    target.closest('.timeline-row')?.classList.add('visible');
-    if (push && location.hash !== hash) history.pushState(null, '', hash);
+    row?.classList.add('visible');
+    if (push && location.hash !== hash) history.pushState(null, '', location.pathname + location.search + hash);
     window.scrollTo({top:window.scrollY + target.getBoundingClientRect().top - offset(), behavior:'instant'});
     target.setAttribute('tabindex', '-1');
     target.focus({preventScroll:true});
@@ -106,6 +110,11 @@ JS = '''(() => {
   if (document.readyState === 'complete') ready(); else addEventListener('load', ready, {once:true});
 })();\n'''
 
+# Long panels stay available without making every timeline stop a wall of text.
+DISCLOSURE_CSS = '''
+.g-kind-timeline .timeline-disclosure{display:block;margin:0;border-top:1px solid rgba(74,103,75,.22)}.g-kind-timeline .timeline-disclosure>summary{display:flex;align-items:center;justify-content:space-between;gap:12px;cursor:pointer;list-style:none;padding:12px 16px;color:#315f48;background:rgba(241,245,232,.42);font:600 11px/1.35 var(--g-sans);letter-spacing:.04em;text-transform:uppercase}.g-kind-timeline .timeline-disclosure>summary::-webkit-details-marker{display:none}.g-kind-timeline .timeline-disclosure>summary::after{content:'Show more';flex:0 0 auto;color:#617855;font:600 10px/1 var(--g-sans);letter-spacing:.04em;text-transform:none}.g-kind-timeline .timeline-disclosure[open]>summary::after{content:'Show less'}.g-kind-timeline .timeline-disclosure>summary:focus-visible{outline:2px solid #315f48;outline-offset:-2px}.g-kind-timeline .timeline-card-disclosure>.card-body{border-top:0}.g-kind-timeline .timeline-branch-disclosure{margin-top:20px;border:1px solid var(--gold-dim);border-radius:8px;overflow:hidden}.g-kind-timeline .timeline-branch-disclosure>summary{background:rgba(241,245,232,.68)}.g-kind-timeline .timeline-branch-disclosure>#branch-map{margin-top:0;border:0;border-radius:0}.g-kind-timeline .timeline-sisters-disclosure{margin:0 -2rem -2rem;border-top:1px solid var(--border-base)}.g-kind-timeline .timeline-sisters-disclosure>.sisters-section{border-top:0}.g-kind-timeline .timeline-disclosure .card-body{padding-top:1.5rem}@media(max-width:600px){.g-kind-timeline .timeline-disclosure>summary{padding:11px 12px;font-size:10px}.g-kind-timeline .timeline-sisters-disclosure{margin:0 -1.5rem -1.5rem}}
+'''
+
 # Generated pages have appeared with both compact and pretty-printed variants of
 # this strip.  Its class is its identity; it must never survive on the Timeline.
 SHARED_REFERENCES = re.compile(
@@ -129,6 +138,89 @@ def without_shared_references(page):
     return str(soup)
 
 
+def _wrap_disclosure(element, label, key, soup, extra_class):
+    """Wrap one existing panel while leaving its ids and descendants untouched."""
+    if element.parent and element.parent.name == 'details':
+        return False
+    details = soup.new_tag(
+        'details',
+        attrs={
+            'class': f'timeline-disclosure {extra_class}'.strip(),
+            'data-timeline-disclosure': key,
+        },
+    )
+    summary = soup.new_tag('summary', attrs={'class': 'timeline-disclosure-summary'})
+    summary.string = label
+    element.wrap(details)
+    details.insert(0, summary)
+    return True
+
+
+def collapse_large_timeline_sections(page):
+    """Add native, closed disclosures to the few timeline panels that dominate the page.
+
+    This is deliberately content-aware rather than position-based: rerunning the repair
+    leaves existing details alone and all original ids remain on their original nodes.
+    """
+    soup = BeautifulSoup(page, 'html.parser')
+
+    # The nested FT20271 tree is the largest single visual and is useful on demand.
+    branch_map = soup.select_one('#branch-map')
+    if branch_map:
+        row = branch_map.find_parent(class_='timeline-row')
+        branch_id = row.get('id') if row else 'timeline'
+        _wrap_disclosure(
+            branch_map,
+            f'Show full branch map for {branch_id}',
+            f'{branch_id.lower()}-branch-map',
+            soup,
+            'timeline-branch-disclosure',
+        )
+
+    # Keep the card header and evidence label visible, while making very long narrative
+    # or genetic panels opt-in. Short cards remain immediately readable in sequence.
+    for card in soup.select('.timeline-row .card'):
+        body = card.find(class_='card-body', recursive=False)
+        if not body or (body.parent and body.parent.name == 'details'):
+            continue
+        if len(body.get_text(' ', strip=True)) < 1800:
+            continue
+        row = card.find_parent(class_='timeline-row')
+        row_id = row.get('id') if row else 'timeline'
+        context = card.select_one('.context-label')
+        kind = context.get_text(' ', strip=True) if context else 'panel'
+        label = f'Show full {kind.lower()} for {row_id}'
+        _wrap_disclosure(
+            body,
+            label,
+            f'{row_id.lower()}-{"dna" if "genetic" in kind.lower() else "history"}',
+            soup,
+            'timeline-card-disclosure',
+        )
+
+    # Sister branches are the next largest repeated block. Two or more branches (or
+    # one unusually long branch note) get a compact summary, preserving any anchors.
+    for sisters in soup.select('.timeline-row .sisters-section'):
+        if sisters.parent and sisters.parent.name == 'details':
+            continue
+        rows = sisters.select('.sis-row')
+        if len(rows) < 2 and len(sisters.get_text(' ', strip=True)) < 400:
+            continue
+        row = sisters.find_parent(class_='timeline-row')
+        row_id = row.get('id') if row else 'timeline'
+        heading = sisters.select_one('.sis-head')
+        label = heading.get_text(' ', strip=True) if heading else 'Sister branches'
+        _wrap_disclosure(
+            sisters,
+            f'Show {label.lower()} for {row_id}',
+            f'{row_id.lower()}-sister-branches',
+            soup,
+            'timeline-sisters-disclosure',
+        )
+
+    return str(soup)
+
+
 def repair():
     changed = Counter()
     page_path = WEB / "timeline/index.html"
@@ -136,6 +228,7 @@ def repair():
     page = without_shared_references(page)
     from repair_timeline_claims import calibrate
     page = calibrate(page)
+    page = collapse_large_timeline_sections(page)
     for snp in ('s14827', 'ft4811', 'ftc49014', 'ft32941', 'ft25406', 'fta30932', 'ft20271', 'fte32242'):
         page = page.replace('href="/dna/r-' + snp + '/"', 'href="#R-' + snp.upper() + '"')
     page = re.sub(r'<nav\b[^>]*\bclass="[^"]*\bg-timeline-jumps\b[^"]*"[^>]*>.*?</nav>', NAV, page, count=1, flags=re.S)
@@ -149,7 +242,7 @@ def repair():
     if page != page_path.read_text(encoding="utf-8"):
         page_path.write_text(page, encoding="utf-8")
         changed["timeline_navigation"] += 1
-    update("assets/timeline/timeline-nav.css", CSS + '\n.g-kind-timeline .timeline-row,.g-kind-timeline .timeline-snp-anchor{scroll-margin-top:var(--timeline-jump-offset,205px);transform:none!important}.timeline-evidence-status{margin:12px 0;padding:10px 12px;border-left:3px solid #809775;background:#f0f4e8;font-size:12px;line-height:1.5}.timeline-evidence-status strong{display:block;color:#35523e}.timeline-document-links{font-size:12px;line-height:1.8}.timeline-document-links a{display:inline-block;margin-right:12px}\n', changed)
+    update("assets/timeline/timeline-nav.css", CSS + DISCLOSURE_CSS + '\n.g-kind-timeline .timeline-row,.g-kind-timeline .timeline-snp-anchor{scroll-margin-top:var(--timeline-jump-offset,205px);transform:none!important}.timeline-evidence-status{margin:12px 0;padding:10px 12px;border-left:3px solid #809775;background:#f0f4e8;font-size:12px;line-height:1.5}.timeline-evidence-status strong{display:block;color:#35523e}.timeline-document-links{font-size:12px;line-height:1.8}.timeline-document-links a{display:inline-block;margin-right:12px}\n', changed)
     update("assets/timeline/timeline-nav.js", JS, changed)
     return changed
 

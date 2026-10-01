@@ -37,7 +37,7 @@ class SourcesPageTests(unittest.TestCase):
             for note in ('Reviewed 127 index results.', '55 supplied results.', 'Seven entries; some unresolved.', '72 matches, 22 leads and 53 new profiles.', '241 leads. Originals remain unverified.'):
                 self.assertIn(note, page)
             self.assertIn('href="/sources/s-one/"', page)
-            self.assertIn('1 linked person · 1 citation · 1 record association', page)
+            self.assertIn('1 linked person · 1 citation · 1 record entry', page)
             self.assertIn('href="/sources/browse/"', page)
             self.assertEqual(1, page.count('src="/assets/v3/sources.js?v='))
             self.assertEqual(1, page.count('href="/assets/v3/source-library.css?v='))

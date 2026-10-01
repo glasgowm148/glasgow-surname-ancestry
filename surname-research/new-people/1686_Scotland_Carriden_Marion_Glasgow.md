@@ -1,3 +1,6 @@
+<!-- profile-match-review-20260930 -->
+**Current identity review, 30 September 2026:** The supplied index records MARION Glasgow and JOHN GRAY/FR 67 (FR 67) at Carriden on 1686-09-30. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group.
+
 # HOLD — Marion Glasgow, Carriden, 1686
 
 - **Status:** HOLD; [[Glasgow-3025|Marion Glasgow]] is a possible same-name candidate but has no Carriden, spouse, parent or witness bridge.

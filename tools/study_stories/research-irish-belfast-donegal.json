@@ -2,22 +2,309 @@
   "id": "research-irish-belfast-donegal",
   "kicker": "Irish occurrence study",
   "title": "Belfast & Donegal",
-  "standfirst": "Belfast maritime material, Raphoe legal and property records, and a Killybegs account preserve distinct Glasgow occurrences. They are not a reconstructed founder family.",
-  "status": {"label": "Separate documentary occurrences", "tone": "supported"},
-  "facts": [{"value": "1667–1728", "label": "record span"}, {"value": "3", "label": "indexed people"}, {"value": "3", "label": "distinct settings"}, {"value": "0", "label": "proved family links"}],
-  "question": "Do any contemporary records connect the Belfast and Donegal people to one another or to Antrim?",
-  "answer": "No reviewed record supplies a father–son, collateral or identity bridge. Captain James at Belfast, Thomas in the Raphoe district and James in a Killybegs account must remain separate documentary clusters until a source names a relationship.",
-  "chapters": [
-    {"id": "belfast", "period": "1667–1686", "title": "A Belfast shipmaster", "body": ["PRONI maritime material identifies Captain James Glasgow or Glascow as a Belfast-associated shipmaster active by 1667. In 1669/70, James Glasco, mariner, was admitted and sworn a free commoner of Belfast.", "A 1686 Belfast will extract is a lead for further reading, not a proved death date; no inspected source names James's parents, spouse or children."], "cluster": "belfast", "evidence": [{"label": "Belfast Town Book, p. 271", "url": "https://archive.org/details/townbookofcorpor00belf/page/271/mode/2up"}, {"label": "NLI catalogue for T/828/15", "url": "https://sources.nli.ie/Record/MS_UR_012684"}]},
-    {"id": "raphoe", "period": "1684–1701", "title": "Thomas in the Raphoe legal network", "body": ["Thomas Glasgow appears in a Raphoe-linked court case in 1684, at Lifford in the 1689 attainder list, and in Ballindrait and Shannon property transactions from 1692 to 1695.", "A 1701 Exchequer entry is a high-confidence continuation. These records show a documented adult actor, not his birth, family or beneficial ownership of every property named."], "cluster": "raphoe", "evidence": [{"label": "State of the Protestants of Ireland", "url": "https://quod.lib.umich.edu/e/eebo/a47446.0001.001/1%3A6?rgn=div1&view=fulltext"}, {"label": "1701 Exchequer bill-book image", "url": "https://search.findmypast.co.uk/record?id=IRE%2FCOURT%2FEXCHEQUER%2F007635145%2F00152&parentid=IRE%2FCOURT%2FEXCHEQUER%2F0001527519"}]},
-    {"id": "killybegs", "period": "1728", "title": "A Killybegs account occurrence", "body": ["A parliamentary table lists James Glasgow in Killybegs collector-account material under 1728.", "The accounting date is not his birth or death date, and no record joins him to Thomas or Captain James."], "cluster": "killybegs", "evidence": [{"label": "Killybegs collector accounts, printed p. 201", "url": "https://archive.org/details/parliamentarypa27commgoog/page/200/mode/1up"}]},
-    {"id": "keep-separate", "period": "current assessment", "title": "Three settings, no pedigree", "body": ["Thomas and the Killybegs James are an adjacent-generation Donegal comparison, not a proved relationship. Belfast and east Antrim share a regional corridor, but the evidence does not identify Captain James with the Kilwaughter householder.", "Each cluster needs its own original records before any connection can be claimed."], "cluster": "connections", "evidence": [{"label": "Early Ireland overview", "url": "https://www.wikitree.com/wiki/Space:Glasgow_Branches_in_Early_Ireland"}]}
+  "standfirst": "A 1673 will abstract now names Archibald of Ramelton’s eldest son Thomas and only daughter Margaret. Matching that son to Thomas of Lifford remains strongly probable; the Belfast and Killybegs occurrences remain separate.",
+  "status": {
+    "label": "Separate documentary occurrences",
+    "tone": "supported"
+  },
+  "facts": [
+    {
+      "value": "1641–1728",
+      "label": "record span"
+    },
+    {
+      "value": "4",
+      "label": "indexed people"
+    },
+    {
+      "value": "1",
+      "label": "explicit father–son clause"
+    },
+    {
+      "value": "Open",
+      "label": "son-to-Lifford identity"
+    }
   ],
-  "clusters": [{"id": "belfast", "title": "Captain James of Belfast", "place": "Belfast", "period": "1667–1686", "status": "proved", "status_label": "Documented maritime occurrence", "summary": "A shipmaster and free commoner occurrence is securely associated with Belfast.", "boundary": "The will extract has not been read for relatives or date type, and no family is established.", "people": ["glasgow-3172"]}, {"id": "raphoe", "title": "Thomas in Raphoe, Ballindrait and Shannon", "place": "County Donegal", "period": "1684–1701", "status": "proved", "status_label": "Documented legal and property actor", "summary": "Court, attainder and deed evidence supports a continuing adult Donegal actor.", "boundary": "The records do not state his birth, spouse, children or relationship to other Glasgows.", "people": ["glasgow-3556"]}, {"id": "killybegs", "title": "James in Killybegs accounts", "place": "Killybegs, County Donegal", "period": "1728", "status": "proved", "status_label": "Documented account occurrence", "summary": "The parliamentary table places James in collector-account material.", "boundary": "It is not a death record and names no kin.", "people": ["glasgow-3001"]}, {"id": "connections", "title": "Unproved regional comparisons", "place": "Belfast, Donegal and east Antrim", "period": "seventeenth–eighteenth centuries", "status": "unresolved", "status_label": "No relationship record", "summary": "Geography and chronology provide research leads only.", "boundary": "No source connects the three settings or attaches them to Kilwaughter.", "people": []}],
-  "links": [{"from": "raphoe", "to": "killybegs", "status": "hypothesis", "label": "Adjacent-generation Donegal comparison without stated kinship"}, {"from": "belfast", "to": "connections", "status": "unresolved", "label": "No bridge to east Antrim or Donegal"}],
-  "ladder": {"proved": ["Captain James was a Belfast maritime actor.", "Thomas was active in Raphoe-linked legal and property records.", "A Killybegs account names James under 1728."], "supported": ["Thomas's records form a high-confidence continuing Donegal identity through 1701."], "hypothesis": ["Thomas and the Killybegs James may be related across an adjacent generation."], "unresolved": ["Any parent-child, collateral or identity bridge between Belfast, Raphoe and Killybegs."]},
-  "gaps": [{"title": "Read the Belfast will extract and maritime records", "why": "They may name Captain James's associates or relatives and clarify the 1686 date.", "where": "PRONI MIC19/2 and T/828/15", "url": "https://sources.nli.ie/Record/MS_UR_012684", "priority": "high"}, {"title": "Trace Thomas through probate and Betham material", "why": "A probate or family record could resolve his origins and succession.", "where": "Donegal under Glasgow surname variants", "url": "https://apps.proni.gov.uk/ProniNames_IE/SearchPage.aspx", "priority": "high"}, {"title": "Identify the Killybegs collector record", "why": "The underlying account may clarify James's role and associates.", "where": "Killybegs collector accounts", "url": "https://archive.org/details/parliamentarypa27commgoog/page/200/mode/1up", "priority": "medium"}],
-  "timeline": [{"year": 1669, "label": "James Glasco admitted Belfast free commoner", "status": "proved", "cluster": "belfast", "url": "https://archive.org/details/townbookofcorpor00belf/page/271/mode/2up"}, {"year": 1684, "label": "Thomas defendant in Raphoe-linked court case", "status": "proved", "cluster": "raphoe", "url": "https://search.findmypast.co.uk/record?id=IRE%2FCOURT%2FEXCHEQUER%2F007635147%2F00191&parentid=IRE%2FCOURT%2FEXCHEQUER%2F0001584141"}, {"year": 1689, "label": "Thomas of Lifford named in attainder list", "status": "proved", "cluster": "raphoe", "url": "https://quod.lib.umich.edu/e/eebo/a47446.0001.001/1%3A6?rgn=div1&view=fulltext"}, {"year": 1693, "label": "Thomas in Ballindrait property transactions", "status": "proved", "cluster": "raphoe", "url": "https://apps.proni.gov.uk/"}, {"year": 1701, "label": "Thomas Glasgow, Esq., Exchequer plaintiff", "status": "proved", "cluster": "raphoe", "url": "https://search.findmypast.co.uk/record?id=IRE%2FCOURT%2FEXCHEQUER%2F007635145%2F00152&parentid=IRE%2FCOURT%2FEXCHEQUER%2F0001527519"}, {"year": 1728, "label": "James named in Killybegs collector accounts", "status": "proved", "cluster": "killybegs", "url": "https://archive.org/details/parliamentarypa27commgoog/page/200/mode/1up"}],
-  "related": [{"label": "Larne & Kilwaughter study", "url": "/branches/larne-kilwaughter/"}, {"label": "Early Ireland overview", "url": "https://www.wikitree.com/wiki/Space:Glasgow_Branches_in_Early_Ireland"}],
-  "sources_note": "Public-safe working notes: research/Glasgow-3172/findings.md, research/Glasgow-3556/findings.md and research/Glasgow-3001/findings.md."
+  "question": "Is Archibald of Ramelton’s named eldest son the Thomas documented at Lifford and Raphoe?",
+  "answer": "Betham’s pre-destruction abstract of Archibald Glasgow’s April 1673 will explicitly names Thomas Glasgow as eldest son. Identifying him with Thomas of Lifford is strongly probable, but the abstract gives no residence or estate for the son. The attached father field remains uncertain pending a distinguishing connection. No source joins Captain James or the Killybegs James to this household.",
+  "chapters": [
+    {
+      "id": "belfast",
+      "period": "1667–1686",
+      "title": "A Belfast shipmaster",
+      "body": [
+        "PRONI maritime material identifies Captain James Glasgow or Glascow as a Belfast-associated shipmaster active by 1667. In 1669/70, James Glasco, mariner, was admitted and sworn a free commoner of Belfast.",
+        "A 1686 Belfast will extract is a lead for further reading, not a proved death date; no inspected source names James's parents, spouse or children."
+      ],
+      "cluster": "belfast",
+      "evidence": [
+        {
+          "label": "Belfast Town Book, p. 271",
+          "url": "https://archive.org/details/townbookofcorpor00belf/page/271/mode/2up"
+        },
+        {
+          "label": "NLI catalogue for T/828/15",
+          "url": "https://sources.nli.ie/Record/MS_UR_012684"
+        }
+      ]
+    },
+    {
+      "id": "ramelton",
+      "period": "1641–1677",
+      "title": "An Irish father and his named son",
+      "body": [
+        "The newly inspected Betham manuscript names Archibald Glasgow of Rathmalton, County Donegal, clerk; Elizabeth (surname provisionally M’Auley); Thomas Glasgow, eldest son; and Margaret, only daughter. The exact clerical designation and residence identify the Irish testator confidently.",
+        "April 1673 is the will date, not death or probate. The separate will index gives probate in 1677. Betham’s manuscript is a genealogical abstract derived from the will, not the complete original.",
+        "The named son fits the later Lifford/Raphoe man strongly, but a specific relative, associate or estate bridge is still required. Archibald’s proposed identity with the 1614 Scottish child and Thomas’s proposed fatherhood of Nathaniel remain separate, unresolved questions."
+      ],
+      "cluster": "ramelton",
+      "evidence": [
+        {
+          "label": "Betham GO MS 225, p. 90, image 97",
+          "url": "https://catalogue.nli.ie/Record/vtls000540633"
+        }
+      ]
+    },
+    {
+      "id": "raphoe",
+      "period": "1684–1701",
+      "title": "Thomas in the Raphoe legal network",
+      "body": [
+        "Thomas Glasgow appears in a Raphoe-linked court case in 1684, at Lifford in the 1689 attainder list, and in Ballindrait and Shannon property transactions from 1692 to 1695.",
+        "A 1701 Exchequer entry is a high-confidence continuation. These records show a documented adult actor, not his birth, family or beneficial ownership of every property named."
+      ],
+      "cluster": "raphoe",
+      "evidence": [
+        {
+          "label": "State of the Protestants of Ireland",
+          "url": "https://quod.lib.umich.edu/e/eebo/a47446.0001.001/1%3A6?rgn=div1&view=fulltext"
+        },
+        {
+          "label": "1701 Exchequer bill-book image",
+          "url": "https://search.findmypast.co.uk/record?id=IRE%2FCOURT%2FEXCHEQUER%2F007635145%2F00152&parentid=IRE%2FCOURT%2FEXCHEQUER%2F0001527519"
+        }
+      ]
+    },
+    {
+      "id": "killybegs",
+      "period": "1728",
+      "title": "A Killybegs account occurrence",
+      "body": [
+        "A parliamentary table lists James Glasgow in Killybegs collector-account material under 1728.",
+        "The accounting date is not his birth or death date, and no record joins him to Thomas or Captain James."
+      ],
+      "cluster": "killybegs",
+      "evidence": [
+        {
+          "label": "Killybegs collector accounts, printed p. 201",
+          "url": "https://archive.org/details/parliamentarypa27commgoog/page/200/mode/1up"
+        }
+      ]
+    },
+    {
+      "id": "keep-separate",
+      "period": "current assessment",
+      "title": "A named household and separate regional occurrences",
+      "body": [
+        "Archibald’s fatherhood of a son Thomas is explicit. The son’s identification with the Lifford man remains strongly probable; the abstract names neither Nathaniel nor the Killybegs James.",
+        "Belfast and east Antrim share a regional corridor, but Captain James is not identified with the Kilwaughter householder. No source connects the wider occurrences into one founder family."
+      ],
+      "cluster": "connections",
+      "evidence": [
+        {
+          "label": "Early Ireland overview",
+          "url": "https://www.wikitree.com/wiki/Space:Glasgow_Branches_in_Early_Ireland"
+        }
+      ]
+    }
+  ],
+  "clusters": [
+    {
+      "id": "belfast",
+      "title": "Captain James of Belfast",
+      "place": "Belfast",
+      "period": "1667–1686",
+      "status": "proved",
+      "status_label": "Documented maritime occurrence",
+      "summary": "A shipmaster and free commoner occurrence is securely associated with Belfast.",
+      "boundary": "The will extract has not been read for relatives or date type, and no family is established.",
+      "people": [
+        "glasgow-3172"
+      ]
+    },
+    {
+      "id": "ramelton",
+      "title": "Archibald of Ramelton’s household",
+      "place": "Rathmalton/Ramelton, County Donegal",
+      "period": "1641–1677",
+      "status": "proved",
+      "status_label": "Named household in a will abstract",
+      "summary": "Betham names eldest son Thomas and only daughter Margaret in the April 1673 will abstract.",
+      "boundary": "The son-to-Lifford identity is strongly probable; Scottish parentage and further descendants remain unproved.",
+      "people": [
+        "glasgow-1101"
+      ]
+    },
+    {
+      "id": "raphoe",
+      "title": "Thomas in Raphoe, Ballindrait and Shannon",
+      "place": "County Donegal",
+      "period": "1684–1701",
+      "status": "proved",
+      "status_label": "Documented legal and property actor",
+      "summary": "Court, attainder and deed evidence supports a continuing adult Donegal actor.",
+      "boundary": "The adult’s birth and descendants remain unknown. Matching him to Archibald’s now-documented eldest son is strongly probable, not yet certain.",
+      "people": [
+        "glasgow-3556"
+      ]
+    },
+    {
+      "id": "killybegs",
+      "title": "James in Killybegs accounts",
+      "place": "Killybegs, County Donegal",
+      "period": "1728",
+      "status": "proved",
+      "status_label": "Documented account occurrence",
+      "summary": "The parliamentary table places James in collector-account material.",
+      "boundary": "It is not a death record and names no kin.",
+      "people": [
+        "glasgow-3001"
+      ]
+    },
+    {
+      "id": "connections",
+      "title": "Unproved regional comparisons",
+      "place": "Belfast, Donegal and east Antrim",
+      "period": "seventeenth–eighteenth centuries",
+      "status": "unresolved",
+      "status_label": "No relationship record",
+      "summary": "Geography and chronology provide research leads only.",
+      "boundary": "No source connects the three settings or attaches them to Kilwaughter.",
+      "people": []
+    }
+  ],
+  "links": [
+    {
+      "from": "ramelton",
+      "to": "raphoe",
+      "status": "supported",
+      "label": "Eldest-son identity strongly probable; father field remains uncertain"
+    },
+    {
+      "from": "raphoe",
+      "to": "killybegs",
+      "status": "hypothesis",
+      "label": "Adjacent-generation Donegal comparison without stated kinship"
+    },
+    {
+      "from": "belfast",
+      "to": "connections",
+      "status": "unresolved",
+      "label": "No bridge to east Antrim or Donegal"
+    }
+  ],
+  "ladder": {
+    "proved": [
+      "Archibald of Rathmalton’s will abstract explicitly names eldest son Thomas and only daughter Margaret.",
+      "Captain James was a Belfast maritime actor.",
+      "Thomas was active in Raphoe-linked legal and property records.",
+      "A Killybegs account names James under 1728."
+    ],
+    "supported": [
+      "Thomas's records form a high-confidence continuing Donegal identity through 1701.",
+      "The named son is strongly probably Thomas of Lifford/Raphoe; the identity bridge is still incomplete."
+    ],
+    "hypothesis": [
+      "Thomas and the Killybegs James may be related across an adjacent generation."
+    ],
+    "unresolved": [
+      "A distinguishing household or estate connection between the 1673 son and Thomas of Lifford.",
+      "Any parent-child, collateral or identity bridge between Belfast, Raphoe and Killybegs."
+    ]
+  },
+  "gaps": [
+    {
+      "title": "Read the Belfast will extract and maritime records",
+      "why": "They may name Captain James's associates or relatives and clarify the 1686 date.",
+      "where": "PRONI MIC19/2 and T/828/15",
+      "url": "https://sources.nli.ie/Record/MS_UR_012684",
+      "priority": "high"
+    },
+    {
+      "title": "Identify the named eldest son in the registered will or deeds",
+      "why": "Betham supplies the father clause; one distinctive estate or relative could establish the son-to-Lifford identity. The surviving 1664–1684 book is accessible: its G index and all nine Glas* transcript matches were checked without locating Archibald. This does not establish absence from the entire manuscript.",
+      "where": "NAI PRCT/1/1, microfilm MFGS/41/1 (1664–1684); PRONI deeds and collateral Cairns/M’Auley records",
+      "url": "https://www.familysearch.org/en/search/catalog/232751",
+      "priority": "high"
+    },
+    {
+      "title": "Identify the Killybegs collector record",
+      "why": "The underlying account may clarify James's role and associates.",
+      "where": "Killybegs collector accounts",
+      "url": "https://archive.org/details/parliamentarypa27commgoog/page/200/mode/1up",
+      "priority": "medium"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1669,
+      "label": "James Glasco admitted Belfast free commoner",
+      "status": "proved",
+      "cluster": "belfast",
+      "url": "https://archive.org/details/townbookofcorpor00belf/page/271/mode/2up"
+    },
+    {
+      "year": 1673,
+      "label": "Archibald’s will names Thomas as eldest son",
+      "status": "proved",
+      "cluster": "ramelton",
+      "url": "https://catalogue.nli.ie/Record/vtls000540633"
+    },
+    {
+      "year": 1684,
+      "label": "Thomas defendant in Raphoe-linked court case",
+      "status": "proved",
+      "cluster": "raphoe",
+      "url": "https://search.findmypast.co.uk/record?id=IRE%2FCOURT%2FEXCHEQUER%2F007635147%2F00191&parentid=IRE%2FCOURT%2FEXCHEQUER%2F0001584141"
+    },
+    {
+      "year": 1689,
+      "label": "Thomas of Lifford named in attainder list",
+      "status": "proved",
+      "cluster": "raphoe",
+      "url": "https://quod.lib.umich.edu/e/eebo/a47446.0001.001/1%3A6?rgn=div1&view=fulltext"
+    },
+    {
+      "year": 1693,
+      "label": "Thomas in Ballindrait property transactions",
+      "status": "proved",
+      "cluster": "raphoe",
+      "url": "https://apps.proni.gov.uk/"
+    },
+    {
+      "year": 1701,
+      "label": "Thomas Glasgow, Esq., Exchequer plaintiff",
+      "status": "proved",
+      "cluster": "raphoe",
+      "url": "https://search.findmypast.co.uk/record?id=IRE%2FCOURT%2FEXCHEQUER%2F007635145%2F00152&parentid=IRE%2FCOURT%2FEXCHEQUER%2F0001527519"
+    },
+    {
+      "year": 1728,
+      "label": "James named in Killybegs collector accounts",
+      "status": "proved",
+      "cluster": "killybegs",
+      "url": "https://archive.org/details/parliamentarypa27commgoog/page/200/mode/1up"
+    }
+  ],
+  "related": [
+    {
+      "label": "Larne & Kilwaughter study",
+      "url": "/branches/larne-kilwaughter/"
+    },
+    {
+      "label": "Early Ireland overview",
+      "url": "https://www.wikitree.com/wiki/Space:Glasgow_Branches_in_Early_Ireland"
+    }
+  ],
+  "sources_note": "Public-safe maintained findings: research/Glasgow-1101/findings.md, research/Glasgow-3556/findings.md, research/Glasgow-3172/findings.md and research/Glasgow-3001/findings.md. Betham GO MS 225, p. 90/image 97 inspected 30 September 2026; father attachment remains uncertain."
 }

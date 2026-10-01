@@ -10,7 +10,8 @@ function draw(){
  const {width:w,height:h}=canvas.getBoundingClientRect();if(w<1||h<1)return;
  const dpr=Math.min(devicePixelRatio||1,2);canvas.width=w*dpr;canvas.height=h*dpr;
  const c=canvas.getContext('2d');c.scale(dpr,dpr);
- const b=data.bounds,k=Math.min((w-24)/b.w,(h-24)/b.h),ox=(w-b.w*k)/2-b.x*k,oy=(h-b.h*k)/2-b.y*k;
+ const scale=Number.parseFloat(getComputedStyle(canvas).getPropertyValue('--canopy-scale'))||1;
+ const b=data.bounds,k=Math.min((w-24)/b.w,(h-24)/b.h)*scale,ox=(w-b.w*k)/2-b.x*k,oy=(h-b.h*k)/2-b.y*k;
  c.lineWidth=.65;c.globalAlpha=.28;
  for(const e of data.edges){let a,z;if(e.length>=4){a=[e[0],e[1]];z=[e[2],e[3]]}else{a=data.nodes[e[0]];z=data.nodes[e[1]]}if(!a||!z)continue;c.strokeStyle=colour(e[4]||a[2]);c.beginPath();c.moveTo(ox+a[0]*k,oy+a[1]*k);c.lineTo(ox+z[0]*k,oy+z[1]*k);c.stroke()}
  c.globalAlpha=.94;

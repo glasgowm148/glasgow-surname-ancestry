@@ -1,4 +1,4 @@
-> **READY TO CREATE — the shipbuilder is a distinct Prescott man with no compatible WikiTree profile. His 1849 will resolves the apparent death-year conflict and identifies merchant [[Glasgow-4010|Samuel Glasgow]] as his brother, not his son.**
+> **RETIRED CREATION DRAFT — Robert is the existing profile Glasgow-4150. Use [the complete existing-profile replacement](Glasgow-4150.md) for current pending work. Historical source text is preserved below.**
 
 # Robert Glasgow, shipbuilder of Prescott, Canada West
 

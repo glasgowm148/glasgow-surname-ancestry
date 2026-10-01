@@ -81,3 +81,13 @@ Source: [1912 Belfast and Ulster Directory, Rasharkin](https://lennonwylie.co.uk
 The **1912 Belfast and Ulster Directory** lists **Peter McCaughern** as a **grocer and farmer** among the inhabitants of Rasharkin. This exact occupation and locality combination is absent from the full catalogue. It may be relevant to the later Rasharkin McCaughern probate network, but the directory gives no age, address or family relationship, so this Peter must not be merged with the Peter McCaughern of the 1916 Dreen probate cluster without further evidence.
 
 Source: [1912 Belfast and Ulster Directory, Rasharkin](https://lennonwylie.co.uk/PT191214.htm), inhabitants, accessed 17 September 2026.
+
+
+## Source findings
+
+<!-- queue-profile-match-review-20260930 -->
+### Collateral profile matching — 30 September 2026
+
+The 1886 John Elder–Annie Patterson marriage account has an existing groom profile, Elder-5907, whose public biography cites the same date, place, occupation and fathers. His possible 1912 grocer occurrence is kept separate from the distinct older 1842 John Elder household. This identity match does not establish a relationship to the named witnesses or to Mary Glasgow.
+
+Current public profile biographies were checked alongside the maintained historical record accounts. The complete record-specific review is published in the [profile matching audit](https://glasgow.phenotype.dev/research/profile-matches/).

@@ -1,0 +1,7 @@
+#!/bin/sh
+set -eu
+RUNTIME='/Users/m/Library/Application Support/genealogy-tools'
+export QMD_CONFIG_DIR="$RUNTIME/qmd"
+export INDEX_PATH="$RUNTIME/qmd/index.sqlite"
+export XDG_CACHE_HOME="$RUNTIME/qmd-cache"
+exec "$RUNTIME/node/node_modules/.bin/qmd" "$@"

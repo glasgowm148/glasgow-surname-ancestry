@@ -1,3 +1,6 @@
+<!-- profile-match-review-20260930 -->
+**Current identity review, 30 September 2026:** The supplied index records ----- Glasgow and MARGARET /FR 801 GROOM SURNAME ASSUMED (FR 801) at Strathblane on 1679-07-24. The groom has no given name and his Glasgow surname is explicitly assumed; Margaret has no surname. Neither entry defines a searchable distinct person. Preserve one documentary account; do not invent a child, parents or independent profiles.
+
 # HOLD — unnamed Glasgow subject, Strathblane 1679
 
 ```wikitext

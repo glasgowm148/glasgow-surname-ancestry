@@ -1,0 +1,792 @@
+{
+  "record": "https://catalogue.nli.ie/Record/vtls000541127",
+  "manuscript": "NLI GO MS236",
+  "series": "Betham New Series Volume 14 H-J",
+  "catalogueDate": "1814",
+  "microfilm": "POS1221\u20131222",
+  "writtenPages": [
+    296,
+    297
+  ],
+  "viewerImage": 151,
+  "accessed": "2026-09-30",
+  "capture": "observed IAB pageAssets; full spread assembled at12.5%, focused100% crop; no synthetic letters",
+  "sourceDimensions": [
+    6328,
+    4542
+  ],
+  "cropSourceRectangle": [
+    1960,
+    1800,
+    3240,
+    3000
+  ],
+  "assets": [
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/full/198,/0/default.jpg",
+      "file": "ms236-p296-tiles/9f08c52336c6ad79.jpg",
+      "sha256": "6555f5a4c5a6c0cd186898b0f5c7e7edb0613a4b328d0347d2db5455d4f8d2ba"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/0,0,4096,4096/pct:6.25/0/default.jpg",
+      "file": "ms236-p296-tiles/a1b4e1e0142028f4.jpg",
+      "sha256": "ce67ec794ad602733f42038a3cb1db737d53495ea1dbe0da84252f85d3f9ed06"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/4096,0,2232,4096/pct:6.25/0/default.jpg",
+      "file": "ms236-p296-tiles/39c533f125638905.jpg",
+      "sha256": "85f47e6b35d759b19c9433edac8582559b829e9a2d80fe629cad50056df69d44"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/0,4096,4096,446/pct:6.25/0/default.jpg",
+      "file": "ms236-p296-tiles/c3aa43f59cf68f77.jpg",
+      "sha256": "92e25aa2bcf290b426b3870540a445bd9f41b3a138f952bf46e13d7e0331dc18"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/4096,4096,2232,446/pct:6.25/0/default.jpg",
+      "file": "ms236-p296-tiles/473fedaf1e429f99.jpg",
+      "sha256": "16a760fdce09c2d082fdd5f4ecb2b493e051886e06de7485a05c33781af494ae"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/2048,2048,2048,2048/pct:12.5/0/default.jpg",
+      "file": "ms236-p296-tiles/015a0134834fffdb.jpg",
+      "sha256": "ef4b717e4b16a7956e6df7957bd2e4bc820e75e96c7443c5318917f1567f488f"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/2048,0,2048,2048/pct:12.5/0/default.jpg",
+      "file": "ms236-p296-tiles/027281ba4154a2d2.jpg",
+      "sha256": "995686854d41b042108628ec094107055aa8fc7c45317aa3674ce3e68dbba4e4"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/2048,4096,2048,446/pct:12.5/0/default.jpg",
+      "file": "ms236-p296-tiles/f8c4cb4a0cb660df.jpg",
+      "sha256": "0fa400e78281aae47af719e72041d3bfee1229ece08226dc8058698b981862a2"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/4096,2048,2048,2048/pct:12.5/0/default.jpg",
+      "file": "ms236-p296-tiles/48944d0ebd06bcd1.jpg",
+      "sha256": "dc9b4ade032ffb0f9c11dbe9d0d3261e50ea99897155cd55c10054719649cd99"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/0,2048,2048,2048/pct:12.5/0/default.jpg",
+      "file": "ms236-p296-tiles/b91557ca3fa50d40.jpg",
+      "sha256": "d01221fc9dbec63b8cd4c0f3c92c4a9da6ca2ff0c6040b566bc37fac51337d82"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/4096,0,2048,2048/pct:12.5/0/default.jpg",
+      "file": "ms236-p296-tiles/dd8e263562f0a548.jpg",
+      "sha256": "bf6f1d4cf6daedc95fa7d65cd89e45659dfe7008362bfab5ef9f58ea719e8593"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/0,0,2048,2048/pct:12.5/0/default.jpg",
+      "file": "ms236-p296-tiles/05d597eed71374da.jpg",
+      "sha256": "7f34ac72934f873043de8a3f1aac2a45fa7d8cdb0db28e3d08ff68bed3e11fb3"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/4096,4096,2048,446/pct:12.5/0/default.jpg",
+      "file": "ms236-p296-tiles/7236e2f3f311d0e7.jpg",
+      "sha256": "1b5188dbd9a6e4d3d259e874d09330eb0b9d67556d143c887d5ed669dd04df1a"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/0,4096,2048,446/pct:12.5/0/default.jpg",
+      "file": "ms236-p296-tiles/c4e5155d33939c71.jpg",
+      "sha256": "b08171aa6c8588b58b61cd07e4b871439f44bd5e6e8debb39b11a870797df9f8"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/6144,2048,184,2048/pct:12.5/0/default.jpg",
+      "file": "ms236-p296-tiles/43feb5fd3a307925.jpg",
+      "sha256": "5aaf059760ece65bfcaeef0013528c406787c7d7637863a65aa59f75ece8a037"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/6144,0,184,2048/pct:12.5/0/default.jpg",
+      "file": "ms236-p296-tiles/512708184acd005e.jpg",
+      "sha256": "ee3c4a49551f5af01628b75ab78bb1e449c29bc6e91f63e0b0c74ff51688cb75"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/6144,4096,184,446/pct:12.5/0/default.jpg",
+      "file": "ms236-p296-tiles/470020e69850ee83.jpg",
+      "sha256": "4609156630e2dcf10de95e9c931b9c04435fd25ba61f0a1e6292cb0fed4a459e"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/3072,2048,1024,1024/pct:25/0/default.jpg",
+      "file": "ms236-p296-tiles/f0150eeca2bd272b.jpg",
+      "sha256": "849513b5b338c4a0be2f55906e0897c80f1a6d315546d28c3ad92c34829067d4"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/2048,2048,1024,1024/pct:25/0/default.jpg",
+      "file": "ms236-p296-tiles/419e1a9bd56bacb6.jpg",
+      "sha256": "92b529245f690c3fc2e5ded507f039207f23cc9ad05196d8ecc8552842f30ddf"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/3072,1024,1024,1024/pct:25/0/default.jpg",
+      "file": "ms236-p296-tiles/24e9ee42ae55d1a1.jpg",
+      "sha256": "8bd8613f323a4e24253701232bd284c39deda0d2802deefcb0017540ded78c63"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/2048,1024,1024,1024/pct:25/0/default.jpg",
+      "file": "ms236-p296-tiles/acf09cf4728d8fc1.jpg",
+      "sha256": "a4be568148d31b5fabb4d07180943584a61664988b366b078072a00b1cfa50d3"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/3072,3072,1024,1024/pct:25/0/default.jpg",
+      "file": "ms236-p296-tiles/315819489cab4aa6.jpg",
+      "sha256": "98127f459a15c4ba0f141ff4fcad8b62e2b06245fa760080855b223e9f0e9d1c"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/2048,3072,1024,1024/pct:25/0/default.jpg",
+      "file": "ms236-p296-tiles/239483051fc6d8d4.jpg",
+      "sha256": "a41fe10e3f06452bbd8613a3248379d7a0393459165da7e58cac001e1c523275"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/4096,2048,1024,1024/pct:25/0/default.jpg",
+      "file": "ms236-p296-tiles/7b6e91d05ad321bd.jpg",
+      "sha256": "a7f05b4d411cefa3f84fbfdd43a73ccf6aff51628aa359c1621b7595a1f07bbb"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/4096,1024,1024,1024/pct:25/0/default.jpg",
+      "file": "ms236-p296-tiles/7ac6a9f7bc8cb8d6.jpg",
+      "sha256": "baad04ff38ccbc8cf5bb790dd2a4fec8b095dd4411c9120f18555e8e4235bd62"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/1024,2048,1024,1024/pct:25/0/default.jpg",
+      "file": "ms236-p296-tiles/5ec6d18f8542d372.jpg",
+      "sha256": "814543caba571afada35087c4bcb6e019d6b5ecac0083c233dae123b292e36a1"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/1024,1024,1024,1024/pct:25/0/default.jpg",
+      "file": "ms236-p296-tiles/4307b39086a774ce.jpg",
+      "sha256": "38d2410e380b935ac6a6f73dc291e4371511eee85079bc4fdd0923d3af21190d"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/4096,3072,1024,1024/pct:25/0/default.jpg",
+      "file": "ms236-p296-tiles/4ed88384d17a13f8.jpg",
+      "sha256": "607b31e14e636a0030035afeae7d0f3f6a776e7987419007b9a7e539bd28a39f"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/1024,3072,1024,1024/pct:25/0/default.jpg",
+      "file": "ms236-p296-tiles/0b1fa02b2aa0a26a.jpg",
+      "sha256": "2e708bdcf98613083680064662e74967f467787ece8b67c7bbba6a7068651db3"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/3072,2048,512,512/pct:50/0/default.jpg",
+      "file": "ms236-p296-tiles/fafd76e631ff0bc7.jpg",
+      "sha256": "826686f52ea867c49af220fc135816a23801d63a2455ebfc696f607f93af88c5"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/2560,2048,512,512/pct:50/0/default.jpg",
+      "file": "ms236-p296-tiles/4ad0f39a9af3ed24.jpg",
+      "sha256": "0fb9c2373ec5de04fdb5d28a0d0bccfb8a024707706c56d6b44d9196343936dc"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/3072,1536,512,512/pct:50/0/default.jpg",
+      "file": "ms236-p296-tiles/08a49d808cd3569a.jpg",
+      "sha256": "0dc88e8147ac6d3994d3286890257feef10c7c60aff7bd938096fdceaa232061"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/3072,2560,512,512/pct:50/0/default.jpg",
+      "file": "ms236-p296-tiles/d6e99aa6d7fc4f80.jpg",
+      "sha256": "f94d05723bd2721c9538227d8ab0d8dbb68d387b35b2356eebfa863aebc7df3f"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/2560,1536,512,512/pct:50/0/default.jpg",
+      "file": "ms236-p296-tiles/dc20bd4cd8c6be78.jpg",
+      "sha256": "0cdbb0e1de445c8637fd7bb9dc9f12d8aab9cb23c6d5478deec240ca720f2a44"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/2560,2560,512,512/pct:50/0/default.jpg",
+      "file": "ms236-p296-tiles/0c1ce37ebaf9f48e.jpg",
+      "sha256": "a783e27006c52f9b5db980734a695864937ac3380a7c352a2e439e152e644da2"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/3584,2048,512,512/pct:50/0/default.jpg",
+      "file": "ms236-p296-tiles/4170ffdbe9ff4cfd.jpg",
+      "sha256": "774a79e9ffb7d7946abe202a779f99f91c99474c8965979c13db4974086ab86d"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/3584,1536,512,512/pct:50/0/default.jpg",
+      "file": "ms236-p296-tiles/c0f104ef38180237.jpg",
+      "sha256": "d25c77727d4eaf7e70139078a87ed79a8e10fef9d7aacdeb20122cfdf80572cd"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/2048,2048,512,512/pct:50/0/default.jpg",
+      "file": "ms236-p296-tiles/61675b04a0963b04.jpg",
+      "sha256": "86db76614a47ef210d2990a7e1928c48b21ca2bb7477f2022e3e3f773a2457df"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/3584,2560,512,512/pct:50/0/default.jpg",
+      "file": "ms236-p296-tiles/90075ad20908d809.jpg",
+      "sha256": "066066904a92b3b3fdf05719a3840c851da81c34ab01956bd11ba93b363a5c20"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/2048,1536,512,512/pct:50/0/default.jpg",
+      "file": "ms236-p296-tiles/db67936a8119d98c.jpg",
+      "sha256": "925196cfad2162f1eb7547e3579b17e8c95c907a3622dca86f0b56078d071a1e"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/2048,2560,512,512/pct:50/0/default.jpg",
+      "file": "ms236-p296-tiles/c24fa9d4cd7fea63.jpg",
+      "sha256": "0df60c4854d6d7a82d900e4b7fe012d17207580837eb05ecf96dbc6b9a0fdbf8"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/4096,2048,512,512/pct:50/0/default.jpg",
+      "file": "ms236-p296-tiles/4c0e8711c67dab2e.jpg",
+      "sha256": "e2180b8a7ce1b9c1878c05f3e541fa036071a52f833f869920844768864bfc48"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/4096,1536,512,512/pct:50/0/default.jpg",
+      "file": "ms236-p296-tiles/51bb217fa95efab8.jpg",
+      "sha256": "a815b8fca235f128300ca5d26f3cc9db4f0cece249399b4bfdda9155f6072736"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/4096,2560,512,512/pct:50/0/default.jpg",
+      "file": "ms236-p296-tiles/9bd1317e5c51e56e.jpg",
+      "sha256": "ffeefe8f6290bba46dbe9781a9e3553fa956e9998a4831f95aa96c40116b7114"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/1536,2048,512,512/pct:50/0/default.jpg",
+      "file": "ms236-p296-tiles/8198edae5319aa9a.jpg",
+      "sha256": "2d15e3ddc1aeafd1646085a626e21b2ebaf2331f86da2c2bc857f53d0032481c"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/1536,1536,512,512/pct:50/0/default.jpg",
+      "file": "ms236-p296-tiles/19f8734bae4c681b.jpg",
+      "sha256": "d4805a3740a7156dab692fb973882da10e4e495b6dc1db7083c38fc9c25b449b"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/1536,2560,512,512/pct:50/0/default.jpg",
+      "file": "ms236-p296-tiles/6bed4597dbe3bffe.jpg",
+      "sha256": "86608819b132ce750b8f6010486324dc22fd87077a7ca0908b351e3508f9a5d5"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/3072,2048,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/dcbba6622efd6f56.jpg",
+      "sha256": "92effcfafea0ba5708f2c8200d34c9205a915a75a2cb3a78964c2ea57092ccd7"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/3072,2304,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/47e60f82af6e466e.jpg",
+      "sha256": "274dbbda260e5d536a938562b90d6d209fb6c9fe5e8980a0f1ef4527fa7e95b2"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/2816,2048,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/c7a89cc62ed07bd8.jpg",
+      "sha256": "b0da77359deb287c78e28dbd17ff3fd21878a0366b6ad20c78a76c76d865845d"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/2816,2304,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/9a5974598cde58f7.jpg",
+      "sha256": "df2c299c8bab402d29da26949385bf03941ef1bfdd97469d7e90a621256a77b6"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/3328,2048,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/fd44dfbb4325c58d.jpg",
+      "sha256": "48deeb013657ba9607c6027a154851a08d9e057fe199789c579e66be33ccaa2c"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/3328,2304,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/9789f83fa53c059a.jpg",
+      "sha256": "bc009567fb1018a56d55656f47ba63759d7bdccf2b96423f5e402201d458adf0"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/4608,2048,512,512/pct:50/0/default.jpg",
+      "file": "ms236-p296-tiles/508326482966d5f3.jpg",
+      "sha256": "cc663014658a79a66f98645b3647ff4985d001b2018c21b683978988bc50076b"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/4608,1536,512,512/pct:50/0/default.jpg",
+      "file": "ms236-p296-tiles/c01360d8abb78753.jpg",
+      "sha256": "c471fb5f513267ecb5a8616f4a080ed175d37d7b44de1639c29d9f222ec34907"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/5120,2048,1024,1024/pct:25/0/default.jpg",
+      "file": "ms236-p296-tiles/f07a3ef9f2144a35.jpg",
+      "sha256": "154be37dc7045c8a3a76d0ead02edad072c0bffc921a698da86ae4870fe77404"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/5120,1024,1024,1024/pct:25/0/default.jpg",
+      "file": "ms236-p296-tiles/4ec5b5e696c01ac7.jpg",
+      "sha256": "a4a25b227a1a56ee9cf67c8e0ec95020afca144af16dec2ae50208f44f0bacce"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/0,2048,1024,1024/pct:25/0/default.jpg",
+      "file": "ms236-p296-tiles/b3c3a2eebfb45d05.jpg",
+      "sha256": "8fc3612b02f5d78c9aa84b8040884f703a693f1c29294f42acae958c1a8299e1"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/0,1024,1024,1024/pct:25/0/default.jpg",
+      "file": "ms236-p296-tiles/71148f5195b10731.jpg",
+      "sha256": "e510c010f190a6cd78d4511695eda6a2629dceaccab21dba4c3e97b20d4bd014"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/4608,2560,512,512/pct:50/0/default.jpg",
+      "file": "ms236-p296-tiles/a65ed5a462860a01.jpg",
+      "sha256": "91301da620b8632135559f678718c502732466051d1d0a704a6b10555d3bbda8"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/1024,2048,512,512/pct:50/0/default.jpg",
+      "file": "ms236-p296-tiles/f63d2874adafaab7.jpg",
+      "sha256": "7c080bdc9079528ed2bc626366ef0b8864fee36955b268865c1d6c85612263a3"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/1024,1536,512,512/pct:50/0/default.jpg",
+      "file": "ms236-p296-tiles/c01f399101d894a1.jpg",
+      "sha256": "bc599e7ac0de2b3b6f7b436af061d5a4e9fbbd562faea918a4fe4a3fa5f0dfda"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/1024,2560,512,512/pct:50/0/default.jpg",
+      "file": "ms236-p296-tiles/e9aef120f6de3e15.jpg",
+      "sha256": "f9dd0f810492352d95cb23205def468a455c781df5be4f2f44992f0d8621fe99"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/5120,2048,512,512/pct:50/0/default.jpg",
+      "file": "ms236-p296-tiles/db3b96867d6eb093.jpg",
+      "sha256": "e65b8fe2463be7bdbb6c2b355382ca5f47a2d03e3654cf34211525efd54b3b00"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/5120,1536,512,512/pct:50/0/default.jpg",
+      "file": "ms236-p296-tiles/f23fb773af5e08f3.jpg",
+      "sha256": "fd14d4f3d5641648b845e7e61b95c6141a82d370fbd418d15e77aba97c53df4d"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/5120,2560,512,512/pct:50/0/default.jpg",
+      "file": "ms236-p296-tiles/56f1162be899e920.jpg",
+      "sha256": "bd302d25d07d1a9c9e1fbbd409138401e19943db9e6b511fb7faa8bd06e0df6f"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/512,2048,512,512/pct:50/0/default.jpg",
+      "file": "ms236-p296-tiles/1471abcc4eb8e262.jpg",
+      "sha256": "ee26c0188f44dacef106bb7d40a40ec566ca167afbb6e624a4dca5e309499bf6"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/512,1536,512,512/pct:50/0/default.jpg",
+      "file": "ms236-p296-tiles/b6bd5d9e5538ded1.jpg",
+      "sha256": "3c86060c6fcc583f80e759c053872c489ced312d6c69c7f3822878ebdfa6ce14"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/512,2560,512,512/pct:50/0/default.jpg",
+      "file": "ms236-p296-tiles/f25db41138fa4a2d.jpg",
+      "sha256": "7dd7f2ecd89aa551510b436e467b9686818bb2459372a47cf3a8b1dadb139fad"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/3072,1792,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/4280b672de47280c.jpg",
+      "sha256": "dd575149a5c5a6b97eb29ac861a66d43ae7ee1a3435f126d8d2bf40829dc85df"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/2816,1792,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/359e9737f93f25a7.jpg",
+      "sha256": "c1e49513a91c88a0834e37895cc62f1035fe0d0405993ee353107fc010b34627"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/3072,2560,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/b0e687c246af0d45.jpg",
+      "sha256": "2298a220cc3d655ec3da179cdfdb4023f844d7e3cdd1b8f36ce8d5dfb9aa8e0d"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/3328,1792,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/7466677790bd5477.jpg",
+      "sha256": "5f616c844f40bdf79e69627db13ede2ef2ead5efcc409134be33bf71ea6eb847"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/2816,2560,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/3a88252a1a3c4520.jpg",
+      "sha256": "354c5db81373990fef8db4e639ecce6ca03e5717bb314396520a9ecd65b06d49"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/2560,2048,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/44b09567eda339e2.jpg",
+      "sha256": "d24abf8990f130175fd531dfcd8548e19d9dbceb972308ab21f932ef0efc7b96"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/2560,2304,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/31c852601fd2dcc2.jpg",
+      "sha256": "a79c590003c7cf20b1ac4e3f85f32b7abb58ad29e3f1e22af49cc1f08beb901d"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/3328,2560,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/b7a692c86e0125cb.jpg",
+      "sha256": "fe14a358540479c19c66ce33d39ba34bfb41ee2ecabc50d6dbd47aa0762d33aa"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/3584,2048,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/1173df0e85a6b8a4.jpg",
+      "sha256": "fc91fe184e9d7278491d41fe7e40e784d1c315cbf025b9bcea4f63ef4211d423"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/3584,2304,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/ff5d920d32d37794.jpg",
+      "sha256": "7cae406240f369ef4f1998846e17db59d14c0444db52d8dfcbb527e897cabddc"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/2560,1792,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/362306fbe8d76c21.jpg",
+      "sha256": "3b21949610006eaeeeaab67588f72191fdbc5c39d8e8369badb85d31bb37a222"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/3072,1536,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/d60adb53e54ba3d1.jpg",
+      "sha256": "43a2437175d2b480b50367dba375b7c0f51d8e117bab757757c961c39ca7acbc"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/2560,2560,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/7f179d511df9c52d.jpg",
+      "sha256": "f3f8e50a2e9f7db7ef79494d4b75b9d041c9dad069511e25f9907981b1235035"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/2816,1536,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/60cc062c2d6f00f7.jpg",
+      "sha256": "3227a8e5bd831530ad481f857a9ee5680b90778011acd79831b553f16a3b7e3c"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/3584,1792,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/a5eaaef3b7398fb6.jpg",
+      "sha256": "069474465e3b967c56481ee3f8e44ee005f34b4c60064157c25c0df523793391"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/3328,1536,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/79e6b46368e21f2d.jpg",
+      "sha256": "efa91b2481ae4b759e3a96a4152cedf5c2da684f27aeaeb4f0497aeec16b29f0"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/3072,2816,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/14673b0cca3a84d0.jpg",
+      "sha256": "e6bd9ea4b021495415a8a4054e214e102c88db0fd5d221d22b24f521648cebac"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/3584,2560,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/4af0ae11dc78a2ab.jpg",
+      "sha256": "913920eaa15859da27b2f2d7bbf6c3d3a152731c37aac6912befe59e0f68c408"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/2816,2816,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/32696521864bf6d3.jpg",
+      "sha256": "544428b764c543336009e143c415875d39ad39d5f1b7c57b9fd163dfe6bdbe1b"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/3328,2816,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/7634c189ca0717e1.jpg",
+      "sha256": "41c97b6822a20eef0b168baa2e8d97f30ad9736ac95b9a8eb032ee28687ab608"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/2304,2048,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/bee2fbfa68b185e9.jpg",
+      "sha256": "aff10a33ed804adda93900a728976afc3142e5232698e02aca42a60c34912d43"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/2304,2304,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/5a6671ae69abe651.jpg",
+      "sha256": "100ebdd75360843ffbb8f07838bd9cbec2909778a975cbaf11dc08c8d1ec47e2"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/2560,1536,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/6e4796b0bb9d5063.jpg",
+      "sha256": "14d3431abcbeaa3f9bbac4a8202b06f0b502a7693fee1ab8c84344de5082acb6"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/3840,2048,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/9857b45f8f321aa2.jpg",
+      "sha256": "b74c857322ba6d2d44016dd052dd0fc99b4a08588de3046f888afebac7055a73"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/2304,1792,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/953117924d9f7abc.jpg",
+      "sha256": "8454216de91792c74c1bac5a18aeccd63afe70daf7df02f2df7cd346d465cc8b"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/3584,1536,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/283260ed96505fff.jpg",
+      "sha256": "f58d462618e44eda489114f3bda46f3bc34947b03bf87741de29c1a489d9a5e8"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/3840,2304,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/dbbd67392fe0ad97.jpg",
+      "sha256": "a20fe64e093dd34a2f655741908489b0b2adcc6b3ec6551e5abd334b8ae3140d"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/2560,2816,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/070fc25422087da7.jpg",
+      "sha256": "93c584c0993df247de13388ca1480090bac320cf0b50a77f14aaeb41a01e8eba"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/2304,2560,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/da9b668c264bae51.jpg",
+      "sha256": "5c7df991cfeb182a573324b68718b9ecd8aeb7bb99577f336cfc2717770c2a28"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/3584,2816,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/1906642c560a8b2b.jpg",
+      "sha256": "30155f979a0212693a4842d197f1049c05fa73bbe6792ab9411b5fb90a52ef4a"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/3840,1792,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/a432d7c691afe186.jpg",
+      "sha256": "e75114ea148308f4813b7dfbc1ea9f250bfe901c6a9053150e8ca1bf9b721848"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/3840,2560,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/6a13add3b646b1fa.jpg",
+      "sha256": "f6f2650fe4cce247e4e0643b00a4a35ab799bbbd000f1fa5f9082dbaffcfc136"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/2304,1536,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/194adb4c9ece009f.jpg",
+      "sha256": "b60c8b9aaaf5fce1d56fd75b74522afc6d0e72397cdf0db32520424eeb797d10"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/2048,2048,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/f0258bfb82380fcf.jpg",
+      "sha256": "28fbe383829033010eb564ac8f547c7f1d9e14e35582e7e0c04bb8eb162ce2ae"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/2304,2816,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/1757dcc7193f3260.jpg",
+      "sha256": "3354c5c37485cb4910ccdbf0c2c4a4e1a56a2fde9b482130f73b2250ae29fee1"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/2048,2304,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/07f0828a782e610e.jpg",
+      "sha256": "0bd67e32adc8e60c8d528d1b80b142db5263eb8ae58560eec4af8c5917c5da49"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/3840,1536,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/762d9b6a86196059.jpg",
+      "sha256": "164f8fe5cef93b1c8402f32537b8d3deda2a92eda6a3962a5a442abdde93095d"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/3840,2816,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/5c41369ffe022658.jpg",
+      "sha256": "626e579463abfdbde1b509afbbe639f6124cb7ff83a96f58583aceb5f23e94b1"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/2048,1792,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/2f4163b2c9dece39.jpg",
+      "sha256": "175d3b07867986566f953c044aa1002e866d5030a46a0468dcb0fa2e2b52f215"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/4096,2048,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/78785375cae59623.jpg",
+      "sha256": "939da05009a49af9a1c992c6419178c371911ebf6ef026670210d8c9d2272d20"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/4096,2304,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/6518f10a0bd23464.jpg",
+      "sha256": "c3ea540fc3ab0d6e748add8cc31f5745fe14738a7163d261681ee753e14d5972"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/2048,2560,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/c089cefd49246e5a.jpg",
+      "sha256": "0f5efaf98c7957f0620ee0c07cbe3e9cc950f6046767b808ad7f19aa8d23ea22"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/4096,1792,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/4e0299fc8cf8c252.jpg",
+      "sha256": "3ce92e115bdfd7a32f7565ef3fea17004c47b887d618f2883f4baba9266103f7"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/4096,2560,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/4310e5b6cd050bca.jpg",
+      "sha256": "098d7d25cf84b121d8366a2a6424122a674f1d8227c9f0b3e23d8d42f3858874"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/2048,1536,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/0f7328b2d9fdcf62.jpg",
+      "sha256": "7bb2b93a7ca12b760e779c59ca29aeaa8276b6d40a387a09b2a02ff8e6b16deb"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/2048,2816,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/085cb7ecb3134732.jpg",
+      "sha256": "6cca90c8130e2f148fa4fe25157e74160e83632f85f2c744adf2fa0037c866c2"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/4096,1536,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/8998e16ec9cbe55e.jpg",
+      "sha256": "63a5c2015955e20f25702cd4556c75d6a8452f0bd7011289e8be2eb50dffd1dc"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/1792,2048,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/73b78ac6df90d2c5.jpg",
+      "sha256": "2d612c5eb7b3970f83f50a0e32ca560f120439394b87f383f82067d9c3449495"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/1792,2304,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/1427af607cb1ae54.jpg",
+      "sha256": "4b9cbfe61764fc1fe98bbccc725e6e38f55c2bc0aa1bbe9acc3677ed122aaac4"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/4096,2816,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/34aeef508d689c87.jpg",
+      "sha256": "20acdfff79b8b9f8bd90e63bbfe6644055fc2159c7045908ef46f73dc39d1fca"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/1792,1792,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/50a1207e3d16fe59.jpg",
+      "sha256": "2fbee75c7ccfd178a84b52dd6cbbe064561697f2e4816d08a01f1e0fda35757a"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/1792,2560,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/a3b8001a22cf077f.jpg",
+      "sha256": "d80e08965c586f4a455a38a329da65ed3139481dabe33297a0d237645b8a8f78"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/4352,2048,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/571d6eacd30a1910.jpg",
+      "sha256": "e0fe6a24a2d63ae585a8851690590836dabdbe1d440b33c351282756d5d896c7"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/4352,2304,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/56b4b614323b0c27.jpg",
+      "sha256": "45adeee72139a36de28840ba98ea9cb3a9ece677ada57f274e6257103c5eff48"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/4352,1792,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/da17820478dcae03.jpg",
+      "sha256": "ddb7c96d2d801b7872473f113b5c5553355cfb4580d9a02167faaed8be44543d"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/4352,2560,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/f8ba7b71d709ae53.jpg",
+      "sha256": "ed28c00cc612e8fa942d03f4f3688fb3ef96617e366cca515175df0b77cb33c9"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/1792,1536,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/7f546b2ce40e7a4c.jpg",
+      "sha256": "d2ed4a7fa979ccfe2b23af227f6bda8a7fb5d5dde4a2cf674191b028a65be4a2"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/1792,2816,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/384586743ea756f4.jpg",
+      "sha256": "cb4d77f6adba7e64aa640e6af8e56f709f57b62c4be5767f20b3e581341b04ea"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/4352,1536,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/34bf4f9d810f71bf.jpg",
+      "sha256": "a3322043570a21ae49fefb352a6cedeb24d59948eb9b01f33110418ed566ba06"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/4352,2816,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/6aa98af8409a6149.jpg",
+      "sha256": "ec9c979faced1da05db88c92042eff8fd4bb198eba166899aae047bf617efbbe"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/1536,2048,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/de3b6f24ffe25601.jpg",
+      "sha256": "7b37f52d2d297404d2e9125f15573b50cc96d833b20ff8aa7956e5443a647757"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/1536,2304,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/6da3752c95ebdeca.jpg",
+      "sha256": "7e78c36eec1ae69eebb87ba41b25e01e55fde729fefad7346cdaf7c2dd025a1c"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/1536,1792,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/7cf8090d83f987bc.jpg",
+      "sha256": "bcef82a0fcde205560b75cdb5f0810d30e152e8d3bd20e1b83af858d1443331f"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/1536,2560,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/f866040f49025603.jpg",
+      "sha256": "f40f04571a2258abade7cb8330d68c0b1438f66c8077522651f2e87a36f38666"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/4608,2048,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/28fb49709180c791.jpg",
+      "sha256": "2518b83bb65e53c2c17b05bf1dd95af918c32b42d9f5fe8ce63b45983df7b7de"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/4608,2304,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/8b8695cf1bffbf53.jpg",
+      "sha256": "ef6fa0f871eb764cb47e73e78e8decb7fd189f10bac04e883cd78b9866df400c"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/4608,1792,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/3db4440a63e6227e.jpg",
+      "sha256": "c76cfaa2f999e446e919736b2ab3d3bcae8cf402d583ffec83a1e698f5646ebd"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/1536,1536,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/9fe53add0f7c08a3.jpg",
+      "sha256": "03c39d07a43d31c87417a8d9a45d12e2059519d6fb7d9b9d59f57ea669259552"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/4608,2560,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/1f362cdc943d3ef6.jpg",
+      "sha256": "12f82b5b66ae551e04cf2cebab9376a776f75851f128ab437f0be83f74fcc6d1"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/1536,2816,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/46cd3d050545c960.jpg",
+      "sha256": "acc222fe1a50221fe95f48b70c985c48d1eccb1d2eb5cef49e29fa02c9e2af42"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/4608,1536,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/c7327c60f6416293.jpg",
+      "sha256": "0ff6e28594df8fa7c597fa8763b56116cf39c1b4e56b71d9bd8098d0ba4181f4"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/4608,2816,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/12c21014e75834fe.jpg",
+      "sha256": "2ab65dce00a619b21f1876ec2ee97933d3d4fb5534503283facc8cda0ef25570"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/1280,2048,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/d3e4e8fa06c5a22e.jpg",
+      "sha256": "0466ce0873d256a368d4759ecfc43b88e27087002d43f125c672d47b87b529d4"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/1280,2304,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/95a09f4462e4f54c.jpg",
+      "sha256": "c24559ada1afec681df4478fec594d1d79610ff5e251737f473613bf4eb8f048"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/1280,1792,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/20845a1fd539801d.jpg",
+      "sha256": "bbe2ad4c2f3427d538403952f491520127f9976725b58a262ddb8825432e0a39"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/1280,2560,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/0fbad3a6b68ca3f4.jpg",
+      "sha256": "7d0a079b3b8fcbc2889875b2a0ed7fe88746ae6cf1b52eb3bef32df31d183ac0"
+    },
+    {
+      "url": "https://catalogue.nli.ie/IIIF/000550000/000541127/vtls000541127_151.jp2/4864,2304,256,256/pct:100/0/default.jpg",
+      "file": "ms236-p296-tiles/3e71b63603887e6f.jpg",
+      "sha256": "de80c7a06b02c26492558f62a1dcf0853972ca347b58b47137923b6ba7ba9202"
+    }
+  ],
+  "derivedImages": [
+    {
+      "file": "ms236-p296-297-image151.jpg",
+      "resolution": "12.5% whole spread"
+    },
+    {
+      "file": "ms236-p296-glascoe-high.png",
+      "resolution": "100% crop",
+      "sourceRectangle": [
+        1960,
+        1800,
+        3240,
+        3000
+      ]
+    },
+    {
+      "file": "ms236-p296-james-glasgow.png",
+      "resolution": "25% crop enlarged4x",
+      "assemblyRectangle": [
+        485,
+        700,
+        800,
+        870
+      ]
+    },
+    {
+      "file": "ms236-p296-johnston-will.png",
+      "resolution": "50% partial crop",
+      "assemblyRectangle": [
+        250,
+        900,
+        1620,
+        1980
+      ]
+    }
+  ]
+}

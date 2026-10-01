@@ -13,3 +13,7 @@ Glasgow-3645 cites the 1867 Ardrossan death-index entry naming Amelia Glasgow, a
 ## Unresolved questions
 
 - Compare the underlying original vital record with both biographies before changing another member’s profile.
+
+## Source findings — profile matching, 30 September 2026
+
+The current public biography cites the 17 December 1804 Kilbirnie marriage to Andrew Wilson and Paisley baptisms naming the mother as both Amelia and Emilia. UCL’s [Amelia Theobalds account](https://www.ucl.ac.uk/lbs/person/view/2146662589) explicitly distinguishes John Glasgow’s sister Amelia Wilson from his housekeeper, [Amelia Theobalds-120](https://www.wikitree.com/wiki/Theobalds-120). Link this existing Wilson profile as the sister; the trust beneficiary Emilia remains a qualified identification. The earlier Glasgow-3645 duplicate assessment remains unchanged; no merge or live save was made.

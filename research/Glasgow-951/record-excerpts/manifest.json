@@ -355,6 +355,38 @@
       "reviewed_date": "2026-09-13",
       "review_status": "Original image and separate annotation proof visually reviewed",
       "publication_status": "approved"
+    },
+    {
+      "id": "nancy1891-death",
+      "title": "Nancy Glasgow: death and funeral notice, November 1891",
+      "archive": "NYS Historic Newspapers",
+      "source_title": "Plattsburgh Sentinel, 6 November 1891, p. 8",
+      "source_url": "https://www.nyshistoricnewspapers.org/?a=d&d=plts18911106-01.1.8",
+      "source_type": "contemporary newspaper death notice",
+      "source_status": "original image visually inspected",
+      "record_reference": "Plattsburgh Sentinel, 6 November 1891, p. 8, death notices",
+      "transcription": "In Plattsburgh, October 31, 1891, NANCY GLASGOW, aged about 75 years. Funeral was held on Monday afternoon at the Peristrome Presbyterian church.",
+      "analysis": "Independently corroborates Nancy’s death date and American funeral context. Age about 75 implies birth about 1815–16, conflicting with her will’s about-68 age in January 1889.",
+      "uncertainties": "Both ages are approximate. The notice names no relatives or Irish birthplace and does not establish Alexander’s parentage.",
+      "source_file": "research/Glasgow-4070/record-excerpts/plattsburgh-sentinel-1891-11-06-p8.pdf",
+      "source_pixel_dimensions": [
+        3397,
+        5000
+      ],
+      "rotation_degrees": 0,
+      "crop_box": [
+        2853,
+        3534,
+        3311,
+        3624
+      ],
+      "file": "nancy1891-death.png",
+      "width": 458,
+      "height": 90,
+      "image_sha256": "d51b9ce812b0ba7f43b69656b0bbf8bf9cb402f7695392b28e36de9748bad646",
+      "reviewed_date": "2026-09-29",
+      "review_status": "Original PDF page and crop visually reviewed",
+      "publication_status": "approved"
     }
   ]
 }

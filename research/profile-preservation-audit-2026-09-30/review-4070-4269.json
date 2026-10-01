@@ -1,0 +1,203 @@
+{
+  "audit_date": "2026-09-30",
+  "scope": [
+    "Glasgow-4070",
+    "Glasgow-4093",
+    "Glasgow-4150",
+    "Glasgow-4269"
+  ],
+  "reviews": [
+    {
+      "id": "Glasgow-4070",
+      "baseline_draft_path": "research/Glasgow-4070/research-update-2026-09-29.wiki",
+      "reconciled_draft_path": "research/profile-preservation-audit-2026-09-30/Glasgow-4070-reconciled.wiki",
+      "disposition": "reconciled_full_replacement_prepared",
+      "substantive_removed_passages": [
+        {
+          "passage": "Opening estimate born about 1820\u20131821; died before January 1892, probably 31 October 1891.",
+          "assessment": "Supported correction. Will-based birth estimate survives alongside conflicting census/death ages. Before-14-January-1892 statement remains. Approved inspected 1891 notice gives exact death."
+        },
+        {
+          "passage": "John-867 label abt.1801-1895 replaced silently by abt.1801-1885.",
+          "assessment": "Conflict lost in proposal. Reconciled text restores attributed 20 June 1895 memorial and associated 24 June 1885 civil date, with full citations and unresolved identity/date assessment."
+        }
+      ],
+      "intentional_corrections": [
+        "Qualified John-867 conflicting dates; no claim that the memorial reading was corrected.",
+        "Kept new death notice, funeral, approximate age conflict and original docket appraisal chronology.",
+        "Removed empty Research Notes heading and transient New heading; all prior narrative and hypotheses otherwise retained."
+      ],
+      "formatting_only_losses": "Blank lines/heading spacing; all original valid templates/category remain. 4070 empty Research Notes heading removed; 4269 proposed Estimated Date removed as unsupported.",
+      "preservation_checks": {
+        "all_original_complete_citation_bodies_preserved": true,
+        "all_original_external_urls_preserved": true,
+        "all_original_profile_links_preserved": true,
+        "manual_review": "Reviewed every changed/removed substantive passage; full names, quotations, amounts, linked kin, relationships, source limitations and working hypotheses preserved or specifically qualified.",
+        "original_distinct_complete_citation_count": 8,
+        "single_biography_sources_references_sections_verified": true,
+        "named_reference_uses_resolve": true
+      },
+      "queue_review": {
+        "already_present": [
+          "Complete will, witnesses, executor, amounts, legacies, relatives and probate citation",
+          "Walworth censuses and probate-index/petition trail",
+          "Qualified sibling/common-father hypotheses"
+        ],
+        "pending": [
+          "Newspaper death notice",
+          "Inspected docket and 1894 appraisal chronology",
+          "John-867 date conflict"
+        ],
+        "stale_reason": "Summary mentions dated parentage tests, but proposal does not add them. Use narrower recommended summary; qualifications are already present."
+      },
+      "recommended_summary": "Add the inspected 1891 death notice and 1894 docket chronology; preserve conflicting ages and John-867 memorial/civil dates without changing parentage.",
+      "evidence_paths": [
+        "research/Glasgow-4070/findings.md",
+        "research/Glasgow-867/findings.md",
+        "research/Glasgow-951/findings.md"
+      ],
+      "live_edit": false
+    },
+    {
+      "id": "Glasgow-4093",
+      "baseline_draft_path": "research/Glasgow-4093/research-update-2026-09-29.wiki",
+      "reconciled_draft_path": "research/profile-preservation-audit-2026-09-30/Glasgow-4093-reconciled.wiki",
+      "disposition": "reconciled_full_replacement_prepared",
+      "substantive_removed_passages": [
+        {
+          "passage": "New York citation had to be directed to heirs/next of kin, so Mary was a deceased sister and daughter of sibling group's father.",
+          "assessment": "Intentional supported qualification: preserve heirs/next-of-kin reasoning, probable-sister hypothesis and uncertain father; citation does not expressly state siblinghood/full siblinghood. Approved 21 September assessment supports this."
+        }
+      ],
+      "intentional_corrections": [
+        "Preserved every quotation and original citation.",
+        "Preserved exact Tannybrake candidate date/age/husband/place; qualified uninspected source.",
+        "Removed editor commands while retaining uncertain father/unknown mother and no established dates.",
+        "Added groom age45, widower/collier already recorded in maintained Scottish index finding."
+      ],
+      "formatting_only_losses": "Blank lines/heading spacing; all original valid templates/category remain. 4070 empty Research Notes heading removed; 4269 proposed Estimated Date removed as unsupported.",
+      "preservation_checks": {
+        "all_original_complete_citation_bodies_preserved": true,
+        "all_original_external_urls_preserved": true,
+        "all_original_profile_links_preserved": true,
+        "manual_review": "Reviewed every changed/removed substantive passage; full names, quotations, amounts, linked kin, relationships, source limitations and working hypotheses preserved or specifically qualified.",
+        "original_distinct_complete_citation_count": 1,
+        "single_biography_sources_references_sections_verified": true,
+        "named_reference_uses_resolve": true
+      },
+      "queue_review": {
+        "already_present": [
+          "Mary Thompson child group, full citation, uncertain John-4090, unknown mother",
+          "Tannybrake candidate"
+        ],
+        "pending": [
+          "Scottish indexed candidate, image access limitation, conditional age test",
+          "Qualify categorical probate sisterhood/common-father claim"
+        ],
+        "stale_reason": null
+      },
+      "recommended_summary": "Add indexed Thomson\u2013Sneddon candidate and conditional age comparison; preserve probate-defined identity and uncertain parentage without assigning Scottish household.",
+      "evidence_paths": [
+        "research/Glasgow-4093/findings.md"
+      ],
+      "live_edit": false
+    },
+    {
+      "id": "Glasgow-4150",
+      "baseline_draft_path": "research/Glasgow-4150/Glasgow-4150.md",
+      "reconciled_draft_path": "research/profile-preservation-audit-2026-09-30/Glasgow-4150-reconciled.wiki",
+      "disposition": "reconciled_full_replacement_prepared",
+      "substantive_removed_passages": [
+        {
+          "passage": "One Tree export/project index/live WikiTree name results reviewed August and September 2026; no compatible Prescott shipbuilder found.",
+          "assessment": "Exact historical scope/dates lost from proposal; restored in revised draft with current profile existence explicit."
+        },
+        {
+          "passage": "Create Robert unconnected; sibling link to Samuel in biographies until parents identified.",
+          "assessment": "Intentionally retired obsolete creation instruction; documented siblings and unproved parentage remain. Alexander hypothesis retains uncertainty."
+        }
+      ],
+      "intentional_corrections": [
+        "Preserved all will, deed, heritage, property-history, census sources and original linked duplicate candidates.",
+        "Restored duplicate-check scope/dates; repaired malformed proposal sentence.",
+        "Converted creation-field/deathplace editor instructions into enduring qualified evidence statements.",
+        "Kept Daniel/Thomas first-mention links; added Samuel link; uncertain father hypothesis and separate Rosanna maternity remain."
+      ],
+      "formatting_only_losses": "Blank lines/heading spacing; all original valid templates/category remain. 4070 empty Research Notes heading removed; 4269 proposed Estimated Date removed as unsupported.",
+      "preservation_checks": {
+        "all_original_complete_citation_bodies_preserved": true,
+        "all_original_external_urls_preserved": true,
+        "all_original_profile_links_preserved": true,
+        "manual_review": "Reviewed every changed/removed substantive passage; full names, quotations, amounts, linked kin, relationships, source limitations and working hypotheses preserved or specifically qualified.",
+        "original_distinct_complete_citation_count": 7,
+        "single_biography_sources_references_sections_verified": true,
+        "named_reference_uses_resolve": true
+      },
+      "queue_review": {
+        "already_present": [
+          "Sibling will/deed evidence",
+          "Samuel brother not son",
+          "1856 local-history death/1835 house chronology",
+          "1842 census limitation"
+        ],
+        "pending": [
+          "Uncertain Alexander-3904 connection",
+          "Brother first-mention links",
+          "Retire obsolete creation instruction"
+        ],
+        "stale_reason": "Sibling evidence is already in current text: preserved basis, not a new discovery."
+      },
+      "recommended_summary": "Preserve complete will/deed/census/duplicate-check account, link documented brothers and explain Alexander-3904 as uncertain inherited father hypothesis.",
+      "evidence_paths": [
+        "research/Glasgow-4150/findings.md"
+      ],
+      "live_edit": false
+    },
+    {
+      "id": "Glasgow-4269",
+      "baseline_draft_path": "research/Glasgow-4269/civil-birth-update-2026-09-30.wiki",
+      "reconciled_draft_path": "research/profile-preservation-audit-2026-09-30/Glasgow-4269-reconciled.wiki",
+      "disposition": "reconciled_full_replacement_prepared",
+      "substantive_removed_passages": [
+        {
+          "passage": "Mary Glasgow born17February1867, Ballymoney registration.",
+          "assessment": "Supported original-record correction. Original GRONI name/date/district/reference/full citation survive in Research Notes; index discrepancy unresolved. Inspected original entry214 gives Mary Ellen,14February,Lisnagaver."
+        }
+      ],
+      "intentional_corrections": [
+        "Removed inappropriate Estimated Date sticker: exact birth is documented and no estimated vital date in replacement.",
+        "Kept Ireland Native supported by original.",
+        "Kept GRONI conflicting date and every citation detail.",
+        "Mother Mary/informant Ann documented, candidate profile links qualified; no father invented."
+      ],
+      "formatting_only_losses": "Blank lines/heading spacing; all original valid templates/category remain. 4070 empty Research Notes heading removed; 4269 proposed Estimated Date removed as unsupported.",
+      "preservation_checks": {
+        "all_original_complete_citation_bodies_preserved": true,
+        "all_original_external_urls_preserved": true,
+        "all_original_profile_links_preserved": true,
+        "manual_review": "Reviewed every changed/removed substantive passage; full names, quotations, amounts, linked kin, relationships, source limitations and working hypotheses preserved or specifically qualified.",
+        "original_distinct_complete_citation_count": 1,
+        "single_biography_sources_references_sections_verified": true,
+        "named_reference_uses_resolve": true
+      },
+      "queue_review": {
+        "already_present": [
+          "GRONI index17February1867/reference"
+        ],
+        "pending": [
+          "Ellen middle name",
+          "14February/Lisnagaver original-record correction",
+          "Documented mother/informant without certain candidate attachment",
+          "Preserve derivative-date conflict"
+        ],
+        "stale_reason": null
+      },
+      "recommended_summary": "Correct Mary Glasgow to Mary Ellen Glasgow, born 14 February 1867 at Lisnagaver, County Antrim, Ireland, from inspected original Dirraw/Ballymoney birth entry 214. Preserve conflicting GRONI index citation (17 February), document mother Mary Glasgow and informant Ann Glasgow, and keep their candidate profile identifications qualified. No father is recorded.",
+      "evidence_paths": [
+        "research/Glasgow-4269/findings.md"
+      ],
+      "live_edit": false
+    }
+  ],
+  "limits": "No live edits, browsing, new research or confidence upgrades. Only batch-directory drafts/report written; orchestrator owns maintained inputs and site integration."
+}

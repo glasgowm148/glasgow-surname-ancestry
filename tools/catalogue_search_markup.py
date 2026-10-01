@@ -42,8 +42,8 @@ SOURCE_QUALITY_OPTIONS = (
 
 def hero_html(total: int) -> str:
     return (
-        '<section class="catalogue-hero catalogue-hero-compact"><div><h1>Research catalogue</h1>\n'
-        f'<p class="lede">Search {total:,} historical people connected with the Glasgow surname.</p></div>'
+        '<section class="catalogue-hero catalogue-hero-compact"><div><h1>Find a person</h1>\n'
+        f'<p class="lede">Search {total:,} historical people connected with the Glasgow surname. Open a name for family details, sources and research notes.</p></div>'
         f'<p class="catalogue-total"><strong id="catalogue-total">{total:,}</strong> people in catalogue</p></section>'
     )
 
@@ -124,15 +124,15 @@ def search_panel_html(cluster_options: str, record_type_options: str, region_opt
     )
     places_panel = (
         '<div class="catalogue-panel-grid">'
-        '<label><span>Location applies to</span><select id="catalogue-location-type"><option value="">Any record</option><option value="birth">Birth</option><option value="death">Death</option></select></label>'
+        '<label><span>Location applies to</span><select id="catalogue-location-type"><option value="">Any</option><option value="record">Any record</option><option value="birth">Birth</option><option value="marriage">Marriage</option><option value="death">Death</option><option value="bio">Bio</option></select></label>'
         '<label><span>Location</span><input id="catalogue-location" type="search" placeholder="Place name" autocomplete="off"></label>'
         f'<label><span>Country or region</span><select id="catalogue-region"><option value="">Any region</option>{region_options}</select></label>'
-        '<label><span>Exclude death location</span><input id="catalogue-death-exclude" type="search" placeholder="e.g. USA" autocomplete="off"></label>'
-        '</div>'
+        '<label><span>Exclude location</span><input id="catalogue-death-exclude" type="search" placeholder="e.g. USA" autocomplete="off"></label>'
+        '</div><p class="catalogue-panel-note">Any searches all recorded places and public biography text. Exclude location uses the same selection; separate places with commas.</p>'
     )
     evidence_panel = (
         '<div class="catalogue-panel-grid catalogue-panel-grid-1">'
-        f'<label><span>Research cluster</span><select id="catalogue-cluster"><option value="">Any cluster</option>{cluster_options}</select></label>'
+        f'<label><span>Family or research group</span><select id="catalogue-cluster"><option value="">Any group</option>{cluster_options}</select></label>'
         f'<label><span>Record type</span><select id="catalogue-record-type"><option value="">Any record type</option>{record_type_options}</select></label>'
         f'<label><span>Source quality</span><select id="catalogue-source-quality"><option value="">Any quality</option>{SOURCE_QUALITY_OPTIONS}</select></label>'
         '</div>'
@@ -191,9 +191,15 @@ def _select_options(page: str, select_id: str) -> str:
     return re.sub(r'<option value="([^"]*)">([^<]*)</option>', lambda m: f'<option value="{m[1]}">{m[2]}</option>', options)
 
 
+def _statistics_section(page: str):
+    # The old pane contains nested sections; the compact summary does not.
+    compact = re.search(r'<section\b(?=[^>]*\bid="statistics")(?=[^>]*\bclass="[^"]*\bcatalogue-statistics-compact\b)[^>]*>.*?</section>', page, re.S)
+    return compact or re.search(r'<section\b(?=[^>]*\bid="statistics")[^>]*>.*?</details>(?:\s*</details>)?\s*</section>', page, re.S)
+
+
 def place_statistics_above_search(page: str) -> str:
     """Keep the research overview before the catalogue search controls."""
-    stats = re.search(r'<section (?:class="catalogue-statistics" id="statistics"|id="statistics"[^>]*)>.*?</details></section>', page, flags=re.S)
+    stats = _statistics_section(page)
     if not stats or 'id="catalogue-search-panel"' not in page:
         return page
     panel_start = page.rfind('<section', 0, page.index('id="catalogue-search-panel"'))
@@ -203,6 +209,25 @@ def place_statistics_above_search(page: str) -> str:
     page = page[:stats.start()] + page[stats.end():]
     panel_start = page.rfind('<section', 0, page.index('id="catalogue-search-panel"'))
     return page[:panel_start] + block + '\n' + page[panel_start:]
+
+
+def compact_statistics(page: str) -> str:
+    """Show the counts directly and send readers to the full Statistics page."""
+    block = _statistics_section(page)
+    if not block:
+        return page
+    summary = re.search(r'<div class="statistics-summary">.*?</div>\s*</div>', block[0], re.S)
+    refreshed = re.search(r'<p class="catalogue-refresh">.*?</p>', block[0], re.S)
+    if not summary:
+        raise ValueError('Catalogue statistics summary missing')
+    compact = (
+        '<section id="statistics" class="catalogue-statistics catalogue-statistics-compact" aria-labelledby="catalogue-statistics-title">'
+        '<div class="catalogue-statistics-heading"><div><h2 id="catalogue-statistics-title">Catalogue statistics</h2>'
+        + (refreshed[0] if refreshed else '') + '</div>'
+        '<a class="catalogue-statistics-link" href="/statistics/">View all statistics →</a></div>'
+        + summary[0] + '</section>'
+    )
+    return page[:block.start()] + compact + page[block.end():]
 
 
 def apply_layout(page: str) -> str:
@@ -219,6 +244,7 @@ def apply_layout(page: str) -> str:
     page = page[:panel_start] + new_panel + page[panel_end:]
     page = page.replace(hero.group(0), hero_html(total), 1)
     page = place_statistics_above_search(page)
+    page = compact_statistics(page)
     # The evidence legend follows the shared vocabulary (tools/evidence_labels.py).
     try:
         from build_research_catalog import _catalogue_legend_html
@@ -226,9 +252,12 @@ def apply_layout(page: str) -> str:
         from tools.build_research_catalog import _catalogue_legend_html
     page = re.sub(r'<section class="catalogue-legend">.*?</section>', lambda _: _catalogue_legend_html(), page, count=1, flags=re.S)
     # Start downloading the search index with the page, not after the script runs.
-    preload = '<link rel="preload" href="/data/catalogue-search-index.json" as="fetch" crossorigin="anonymous">'
-    if preload not in page:
-        page = page.replace("</head>", preload + "</head>", 1)
+    preloads = (
+        '<link rel="preload" href="/data/catalogue-search-index.json" as="fetch" crossorigin="anonymous">',
+    )
+    missing_preloads = ''.join(preload for preload in preloads if preload.split(' href="', 1)[1].split('"', 1)[0] not in page)
+    if missing_preloads:
+        page = page.replace("</head>", missing_preloads + "</head>", 1)
     # New markup needs the matching script and stylesheet, not a cached copy.
     return re.sub(r'(people/(?:search\.js|catalogue\.css)\?v=)[^"\'\s<>]+', lambda m: m[1] + CATALOGUE_ASSET_VERSION, page)
 

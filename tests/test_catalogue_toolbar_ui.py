@@ -120,9 +120,10 @@ def main() -> None:
         page.get_by_role("radio", name="Male", exact=True).check()
         settle(page)
         split_rows = rows(page)
+        split_total = result_total(page)
         assert params(page)["first"] == "James" and params(page)["last"] == "Glasgow" and params(page)["gender"] == "male"
         load(page, "first=james&last=glasgow&gender=male")
-        assert rows(page) == split_rows and result_total(page) == 235 and len(split_rows) == 50
+        assert rows(page) == split_rows and result_total(page) == split_total and len(split_rows) == min(50, split_total)
         assert page.input_value("#catalogue-first-name") == "james"
         assert page.is_checked('input[name=catalogue-gender][value=male]')
 
@@ -182,15 +183,15 @@ def main() -> None:
         assert set(chips(page)) == {"Child: James", "Sibling: Mary"}
 
         # Chips: meaningful labels, reopen their panel, remove only one condition.
-        load(page, "dateType=birth&from=1800&to=1830&location=Antrim&excludeDeath=USA")
-        assert chips(page) == ["Birth: 1800–1830", "Location: Antrim", "Death location excludes: USA"], chips(page)
+        load(page, "dateType=birth&from=1800&to=1830&location=Antrim&excludeLocation=USA")
+        assert chips(page) == ["Birth: 1800–1830", "Any location: Antrim", "Exclude location: USA"], chips(page)
         assert len(rows(page)) > 0
-        page.get_by_role("button", name="Remove filter: Location: Antrim").click()
+        page.get_by_role("button", name="Remove filter: Any location: Antrim").click()
         settle(page)
         after_remove = rows(page)
-        assert "location" not in params(page) and params(page)["excludeDeath"] == "USA" and params(page)["from"] == "1800"
+        assert "location" not in params(page) and params(page)["excludeLocation"] == "USA" and params(page)["from"] == "1800"
         assert page.evaluate("document.activeElement.textContent") == "×"
-        load(page, "dateType=birth&from=1800&to=1830&excludeDeath=USA")
+        load(page, "dateType=birth&from=1800&to=1830&excludeLocation=USA")
         assert rows(page) == after_remove
         page.get_by_role("button", name="Birth: 1800–1830", exact=True).click()
         assert open_panels(page) == ["dates"]
@@ -307,7 +308,7 @@ def main() -> None:
         box = page.locator("#catalogue-filter-panel-filters").bounding_box()
         assert box["x"] >= 0 and box["x"] + box["width"] <= 1440
 
-        # Narrow screens: the same panels become a sheet; the table scrolls horizontally.
+        # Narrow screens: the same panels become a sheet; the table remains visible and scrollable.
         mobile = browser.new_page(viewport={"width": 390, "height": 844})
         mobile.on("pageerror", lambda error: errors.append(str(error)))
         load(mobile, "q=Alexander&region=Ireland", path="/catalogue/")

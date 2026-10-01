@@ -126,7 +126,7 @@ def repair():
             content = f'<p>{len(rows):,} entries. Page {i + 1} of {count}. These links work without JavaScript; search filters remain available on the <a href="/{name}/">interactive page</a>.</p><nav aria-label="Index pages" style="overflow-wrap:anywhere;line-height:2">{nav}</nav><ul>{"".join(links)}</ul>'
             destination = WEB / url.lstrip('/') / 'index.html' if url.endswith('/') else WEB / url.lstrip('/')
             write(destination, page(template, 'Browse people' if name == 'catalogue' else 'Browse family groups', content, url))
-        block(WEB / name / 'index.html', 'static-browse', f'<p><a href="/{name}/browse/">Browse all {"people" if name == "catalogue" else "family groups"} without JavaScript</a> · <a href="/data/">Small data downloads and freshness manifest</a></p>')
+        block(WEB / name / 'index.html', 'static-browse', f'<p><a href="/{name}/browse/">Browse {"the name index" if name == "catalogue" else "family groups"}</a> · <a href="/data/">Download research data</a></p>')
     return Counter(research_access=1, index_chunks=sum(len(d['chunks']) for d in datasets))
 
 

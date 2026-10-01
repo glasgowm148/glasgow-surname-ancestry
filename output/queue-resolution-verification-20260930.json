@@ -1,0 +1,40 @@
+{
+  "reviewed_unresolved": 107,
+  "lane_rows": 109,
+  "original_worklist": 140,
+  "total_reviews": 141,
+  "current_match_counts": {
+    "already_linked": 13,
+    "research_question": 14,
+    "compatible_candidate": 79,
+    "superseded": 1,
+    "matched": 6,
+    "no_compatible_profile": 23,
+    "unnamed_record": 4,
+    "partly_matched": 1
+  },
+  "father_upgrades": 0,
+  "confirmed_adult_identity_upgrades": 0,
+  "new_findings": 21,
+  "latest_findings": 516,
+  "source_handoffs": 138,
+  "grouped_cases": 89,
+  "grouping_preserves_all_items": true,
+  "tests_passed": 20,
+  "pending_amendments": 11,
+  "managed_amendments": 8,
+  "wikitree_saves": 0,
+  "production_uploaded": false,
+  "desktop_screenshot": "output/queue-resolution-findings-20260930.png",
+  "mobile_screenshot": "output/queue-resolution-mobile-20260930.png",
+  "archive": {
+    "path": "/Users/m/wikitree-api-scrape/www/glasgow-site-20260930-230811.tar.gz",
+    "bytes": 144006593,
+    "decimal_mb": 144.01,
+    "sha256": "b4110ceaa1317b482e0378bf6fa0f6800b797cbea9f19bc2af06a121d26940f6",
+    "selected_files": 9,
+    "selected_hashes": "passed",
+    "gzip_integrity": "passed",
+    "rootless": true
+  }
+}

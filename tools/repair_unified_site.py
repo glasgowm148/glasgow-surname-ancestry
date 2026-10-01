@@ -659,7 +659,7 @@ def restore_archival_snapshots() -> Counter[str]:
 
 
 def build_free_space_directory() -> Counter[str]:
-    """Regenerate the metadata-only directory without rebuilding the catalogue."""
+    """Regenerate the full local reading edition without rebuilding the catalogue."""
     builder = runpy.run_path(str(ROOT / "tools/build_free_space_site.py"))["build"]
     builder()
     return Counter({"free_space_directory": 1})
@@ -694,11 +694,12 @@ def repair_project_routes() -> Counter[str]:
     research_path = WEB / "research/index.html"
     research = research_path.read_text(encoding="utf-8")
     before = research
+    research = re.sub(r"Browse \d+ WikiTree project pages", f"Browse {free_count} local research editions", research)
     if not re.search(r'<div class="repair-research-grid".*?href="/free-space/"', research, re.S):
         card = (
             '<a class="repair-research-card" href="/free-space/">'
             '<h2>Free-space research library</h2>'
-            f'<p>Browse {free_count} WikiTree project pages covering early bearers, records, family cases and DNA.</p>'
+            f'<p>Browse {free_count} local research editions covering early bearers, records, family cases and DNA.</p>'
             '<span>Browse the pages →</span></a>'
         )
         research, count = re.subn(
@@ -710,7 +711,7 @@ def repair_project_routes() -> Counter[str]:
         )
         if count != 1:
             raise ValueError("Could not locate Research-page card grid")
-    research = re.sub(r'Browse \d+ WikiTree project pages', f'Browse {free_count} WikiTree project pages', research, count=1)
+    research = re.sub(r'Browse \d+ WikiTree project pages', f'Browse {free_count} local research editions', research, count=1)
     research_nav_marker = '<nav class="v3-view-nav" aria-label="Section views"><a href="/research/">Research</a><a href="/free-space/">'
     if research_nav_marker not in research:
         research = research.replace(
@@ -736,7 +737,7 @@ def repair_free_space_search() -> Counter[str]:
     worker_path = WEB / "assets/research/search-worker.js"
     worker = worker_path.read_text(encoding="utf-8")
     before = worker
-    static_entry = '["Free-space Library","/free-space/","WikiTree project pages, record studies and research notes"],'
+    static_entry = '["Free-space Library","/free-space/","Full local research studies, sources and WikiTree comparisons"],'
     if static_entry not in worker:
         worker = worker.replace(
             '["Research","/research/","Research findings, unresolved links and comparison tools"],',
@@ -744,11 +745,12 @@ def repair_free_space_search() -> Counter[str]:
             1,
         )
     old_slice = "const rows=kind==='page'?pages.map(([name,url,sub],i)=>({id:'page-'+i,name,url,sub,kind,search:sub})):(await load('/assets/v3/search-'+{person:'people',record:'records',place:'places'}[kind]+'.json')).map(([id,name,url,sub,search])=>({id,name,url,sub,search,kind}))"
-    new_slice = "const rows=kind==='page'?[...pages.map(([name,url,sub],i)=>({id:'page-'+i,name,url,sub,kind,search:sub})),...(await load('/assets/research/free-space-index.json')).map(r=>({id:'free-space-'+r.wikitreeId,name:r.title,url:r.viewUrl,sub:'Free-space page · '+r.category+(r.location?' · '+r.location:''),kind,search:[r.wikitreeId,r.category,r.location,r.startDate,r.endDate,...r.tags].join(' ')}))]:(await load('/assets/v3/search-'+{person:'people',record:'records',place:'places'}[kind]+'.json')).map(([id,name,url,sub,search])=>({id,name,url,sub,search,kind}))"
+    new_slice = "const rows=kind==='page'?[...pages.map(([name,url,sub],i)=>({id:'page-'+i,name,url,sub,kind,search:sub})),...(await load('/assets/research/free-space-index.json')).map(r=>({id:'free-space-'+r.wikitreeId,name:r.title,url:r.url||r.viewUrl,sub:'Free-space page · '+r.category+(r.location?' · '+r.location:''),kind,search:[r.wikitreeId,r.category,r.location,r.startDate,r.endDate,...r.tags].join(' ')}))]:(await load('/assets/v3/search-'+{person:'people',record:'records',place:'places'}[kind]+'.json')).map(([id,name,url,sub,search])=>({id,name,url,sub,search,kind}))"
     if old_slice in worker:
         worker = worker.replace(old_slice, new_slice, 1)
     elif "free-space-index.json" not in worker:
         raise ValueError("Could not locate the global-search page slice")
+    worker = worker.replace("name:r.title,url:r.viewUrl", "name:r.title,url:r.url||r.viewUrl")
     if worker != before:
         worker_path.write_text(worker, encoding="utf-8")
         changed["free_space_worker"] += 1
@@ -756,7 +758,7 @@ def repair_free_space_search() -> Counter[str]:
     site_path = WEB / "assets/unified/site.js"
     site = site_path.read_text(encoding="utf-8")
     before = site
-    static_object = '{"name":"Free-space Library","url":"/free-space/","icon":"desk","meta":"WikiTree project pages, record studies and research notes","search":"free space pages WikiTree research library"},'
+    static_object = '{"name":"Free-space Library","url":"/free-space/","icon":"desk","meta":"Full local research studies, sources and WikiTree comparisons","search":"free space pages WikiTree research library"},'
     if static_object not in site:
         site = site.replace(
             '{"name":"Research","url":"/research/","icon":"desk","meta":"Research findings, unresolved links and comparison tools","search":"Research findings, unresolved links and comparison tools"},',
@@ -773,7 +775,7 @@ def repair_free_space_search() -> Counter[str]:
         loader = (
             "function loadFreeSpace(){return freeSpacePromise??=fetch('/assets/research/free-space-index.json')"
             ".then(r=>{if(!r.ok)throw Error('Free-space index unavailable');return r.json()})"
-            ".then(rows=>rows.map(r=>({name:r.title,url:r.viewUrl,icon:'arrow',meta:'Free-space page · '+r.category"
+            ".then(rows=>rows.map(r=>({name:r.title,url:r.url||r.viewUrl,icon:'arrow',meta:'Free-space page · '+r.category"
             "+(r.location?' · '+r.location:''),search:[r.wikitreeId,r.category,r.location,r.startDate,r.endDate,...r.tags].join(' '),"
             "kind:'page',key:norm([r.title,r.wikitreeId,r.category,r.location,r.startDate,r.endDate,...r.tags].join(' ')),"
             "titleKey:norm(r.title)}))).catch(e=>{freeSpacePromise=null;throw e})}\n"
@@ -781,6 +783,7 @@ def repair_free_space_search() -> Counter[str]:
         if marker not in site:
             raise ValueError("Could not locate the fallback global-search loader insertion point")
         site = site.replace(marker, loader + marker, 1)
+    site = site.replace("name:r.title,url:r.viewUrl", "name:r.title,url:r.url||r.viewUrl")
     old_jobs = "if(tab==='all'||tab==='pages')jobs.push(Promise.resolve(pages));"
     new_jobs = "if(tab==='all'||tab==='pages'){jobs.push(Promise.resolve(pages));jobs.push(loadFreeSpace())}"
     if old_jobs in site:

@@ -36,3 +36,7 @@ Two existing Duddingston children are possible matches: [[Glasgow-1559|John Glas
 ## Required next evidence
 
 Inspect Duddingston OPR 684/60/24 and transcribe every visible name, age, relationship, residence and marginal notation. Then compare it with 684/60/16 (15 January 1638, JON / other JOHNE GLASGOW) and the two existing birth records.
+
+## Queue source review — 30 September 2026
+
+The 23 August 1641 Duddingston burial indexes Jon Glasgow without an inspected parent clause. Glasgow-1559, baptised 4 April 1639 to John and Margaret Sluman, and Glasgow-3014, baptised 11 January 1638 to John and Helene Patoune, remain candidates. A suspected 15 January 1638 infant burial has not been proved to concern Glasgow-3014. Do not exclude or attach a death on that uncertain association.

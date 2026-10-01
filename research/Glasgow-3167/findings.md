@@ -164,3 +164,13 @@ FamilySearch also incorrectly normalises Samuel's Ballymoney registration place 
 The 1911 Gortereghy census browse lists three separate Elder households: Alexander Elder, aged 40, with wife Mary, brother Robert, 34, and sister Margaret, 25; Joseph Elder, aged 79, with niece Ellen, 38; and William Elder, aged 40, with sister Elizabeth, 50. The exact household comparison is absent from the catalogue. It is relevant to Robert Elder's case because it shows that several Elder households occupied the same townland, so the Robert Elder who married [[Glasgow-3167|Mary Glasgow]] must not be identified with another local Robert solely from surname, place or occupation. The source is a derivative census presentation; original 1911 forms remain needed for final verification.
 
 Source: [Down the Road, Gortereghy 1911 census browse](https://downtheroad.dev/de/census?county=Antrim&tab=browse&townland=Gortereghy&year=1911), accessed 17 September 2026.
+
+
+## Source findings
+
+<!-- queue-profile-match-review-20260930 -->
+### Collateral profile matching — 30 September 2026
+
+Mary Ellen’s 1867 birth now has an existing child-profile destination: Glasgow-4269 cites the same Ballymoney register entry 214. The original says 14 February and Mary Ellen; the index/profile says 17 February and Mary. A correction is drafted, not saved. Mary-3167 remains a compatible mother identification and Ann-438 a compatible informant identification; neither is newly proved by the profile match.
+
+Current public profile biographies were checked alongside the maintained historical record accounts. The complete record-specific review is published in the [profile matching audit](https://glasgow.phenotype.dev/research/profile-matches/).

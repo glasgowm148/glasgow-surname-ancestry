@@ -470,8 +470,10 @@ class ResearchCatalogueTest(unittest.TestCase):
         # (build_research_catalog.sync_generated_marriage_statistics).
         people = json.loads((WEB / "data" / "people.json").read_text(encoding="utf-8"))["people"]
         expected = [(surname, count) for surname, count, _ in _marriage_surname_values(people)[:24]]
-        for relative in ("catalogue.html", "catalogue/index.html"):
+        for relative in ("data/catalogue-statistics.json", "statistics/index.html"):
             html = (WEB / relative).read_text(encoding="utf-8")
+            if relative.endswith(".json"):
+                html = json.loads(html)["html"]
             panel = re.search(
                 r'<section class="statistics-panel"><h3>Surnames joined by marriage to Glasgow</h3>.*?</section>', html
             )
@@ -815,11 +817,16 @@ Corrected assessment.
         self.assertNotIn("across documentary records and WikiTree", catalogue_html)
         statistics_start = re.search(r'<section\b[^>]*\bid="statistics"', catalogue_html).start()
         search_start = re.search(r'<section\b[^>]*\bid="catalogue-search-panel"', catalogue_html).start()
-        # The search header follows the page title; statistics follow the results.
+        # Compact counts stay visible above search; full charts have their own page.
         self.assertLess(search_start, catalogue_html.index('id="catalogue-results"'))
-        self.assertLess(catalogue_html.index('id="catalogue-results"'), statistics_start)
-        statistics_html = catalogue_html[statistics_start:catalogue_html.index('<section class="wikitree-update-preview"')]
-        self.assertIn('<p class="catalogue-refresh">Updated ', statistics_html)
+        self.assertLess(statistics_start, search_start)
+        statistics_summary = catalogue_html[statistics_start:catalogue_html.index('</section>', statistics_start)]
+        self.assertIn('catalogue-statistics-compact', statistics_summary)
+        self.assertNotIn('<details', statistics_summary)
+        self.assertNotIn('id="statistics-detail"', catalogue_html)
+        self.assertIn('href="/statistics/"', statistics_summary)
+        self.assertIn('<p class="catalogue-refresh">Updated ', statistics_summary)
+        statistics_html = (WEB / "statistics/index.html").read_text(encoding="utf-8")
         self.assertIn('/catalogue/?marriageSurname=Smith#catalogue-results', statistics_html)
         cunningham = dict((s, c) for s, c, _ in _marriage_surname_values(people))["Cunningham"]
         self.assertRegex(
@@ -834,7 +841,10 @@ Corrected assessment.
         self.assertIn('id="catalogue-filter-panel-dates"', catalogue_html)
         self.assertIn('id="catalogue-filter-panel-places"', catalogue_html)
         self.assertNotIn('<legend>Dates &amp; places</legend>', catalogue_html)
-        self.assertGreaterEqual(catalogue_html.count('<option value="">Any record</option>'), 2)
+        self.assertGreaterEqual(catalogue_html.count('<option value="">Any record</option>'), 1)
+        self.assertIn('<option value="record">Any record</option>', catalogue_html)
+        self.assertIn('<option value="marriage">Marriage</option>', catalogue_html)
+        self.assertIn('<option value="bio">Bio</option>', catalogue_html)
         self.assertNotIn('id="catalogue-missing-parents"', catalogue_html)
         primary_filters_end = catalogue_html.index('id="catalogue-search-clear"')
         for gender in ("both", "male", "female"):
@@ -880,10 +890,11 @@ Corrected assessment.
             "catalogue-region", "catalogue-record-type", "catalogue-source-quality",
             "catalogue-missing-profile", "catalogue-exact-name", "Exact name spelling",
             "About this catalogue, privacy and data downloads",
-            "Catalogue statistics", "Open detailed statistics pane", "Most frequent given names",
-            "Surnames joined by marriage to Glasgow", "Largest exported family branches",
+            "Catalogue statistics", "View all statistics",
         ):
             self.assertIn(text, catalogue_html)
+        for title in ("Most frequent given names", "Surnames joined by marriage to Glasgow", "Largest exported family branches"):
+            self.assertIn(title, statistics_html)
         self.assertLess(
             catalogue_html.index("Profiles with strong candidate matches"),
             catalogue_html.index("Explore the research"),
@@ -958,10 +969,10 @@ Corrected assessment.
         self.assertIn("glascow|glasgo|glascoe", search_js)
         self.assertIn("not a family branch", search_js)
         self.assertIn("catalogue-location-path-group", search_js)
-        self.assertIn("catalogue-relation-confidence", search_js)
+        self.assertIn("catalogue-relation-status", search_js)
         self.assertIn("relationHtml(person.father,true)", search_js)
         self.assertIn("filters.dateType==='birth'?[person.birth_year]", search_js)
-        self.assertIn("filters.locationType==='birth'?person._birthLocation", search_js)
+        self.assertIn("marriage:person._marriageLocation,bio:person._biography,record:person._recordLocation", search_js)
         self.assertNotIn("Family branch / earliest ancestor", search_js)
         self.assertNotIn("sortHeader('recorded','Recorded in')", search_js)
         self.assertNotIn("sortHeader('cluster','Cluster')", search_js)

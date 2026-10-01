@@ -1,0 +1,29 @@
+{
+  "id": "glasgow-4070-death-notice-20260929",
+  "subject": "Glasgow-4070",
+  "status": "approved",
+  "reviewed": "2026-09-29",
+  "basis": "Original Plattsburgh Sentinel, 6 November 1891, p. 8, visually inspected; compared with Nancy’s original January 1889 will age.",
+  "source_url": "https://www.nyshistoricnewspapers.org/?a=d&d=plts18911106-01.1.8",
+  "summary": "Contemporary notice corroborates 31 October 1891 death at Plattsburgh and reports about 75; birth-age conflict with the will remains unresolved.",
+  "vitals": {
+    "birth": {
+      "date": null,
+      "display_date": "Birth year unresolved",
+      "place": null,
+      "status": "uncertain",
+      "label": "Conflicting approximate ages",
+      "note": "Death notice says about 75 in October 1891; will says about 68 in January 1889. These are alternative estimates, not proved endpoints of a birth interval. Maintained census indexes report 30 in 1860, 50 in 1870 and 65 in 1880, implying further estimates; these ages do not define a proved birth interval.",
+      "source_url": "https://www.nyshistoricnewspapers.org/?a=d&d=plts18911106-01.1.8"
+    },
+    "death": {
+      "date": "1891-10-31",
+      "display_date": "31 October 1891",
+      "place": "Plattsburgh, Clinton County, New York",
+      "status": "certain",
+      "country": "united_states",
+      "source_url": "https://www.nyshistoricnewspapers.org/?a=d&d=plts18911106-01.1.8",
+      "note": "Original contemporary death notice gives exact date and town; independently agrees with cemetery transcription."
+    }
+  }
+}

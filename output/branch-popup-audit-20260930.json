@@ -1,0 +1,121 @@
+{
+  "pages": [
+    {
+      "path": "www/branches/australasian-families/index.html",
+      "areas": 10,
+      "names": [
+        "Queensland",
+        "Victoria",
+        "Auckland",
+        "New South Wales",
+        "Waikato",
+        "Canterbury",
+        "Manawatu-Wanganui",
+        "Wellington",
+        "Otago",
+        "Taranaki"
+      ]
+    },
+    {
+      "path": "www/branches/early-ireland/index.html",
+      "areas": 5,
+      "names": [
+        "Cookstown, Killycurragh & Moneymore",
+        "Larne & Kilwaughter",
+        "Lisnagaver, Rasharkin & Kilrea",
+        "Dunaghy & Glenleslie",
+        "Inishrush & Tamlaght O'Crilly"
+      ]
+    },
+    {
+      "path": "www/branches/english-welsh-families/index.html",
+      "areas": 10,
+      "names": [
+        "Lancashire",
+        "Durham",
+        "Northumberland",
+        "Middlesex",
+        "Hampshire",
+        "Leicestershire",
+        "Westmorland",
+        "Devon",
+        "Lincolnshire",
+        "Warwickshire"
+      ]
+    },
+    {
+      "path": "www/branches/index.html",
+      "areas": 8,
+      "names": [
+        "Glasgow burgh",
+        "Cookstown, Killycurragh & Moneymore",
+        "Larne & Kilwaughter",
+        "Lisnagaver, Rasharkin & Kilrea",
+        "Dunaghy & Glenleslie",
+        "Inishrush & Tamlaght O'Crilly",
+        "Stevenston, Kilwinning & Kilbirnie",
+        "Calder & Inveresk"
+      ]
+    },
+    {
+      "path": "www/branches/north-american-families/index.html",
+      "areas": 10,
+      "names": [
+        "Ontario",
+        "South Carolina",
+        "Michigan",
+        "Illinois",
+        "Pennsylvania",
+        "Ohio",
+        "Tennessee",
+        "Virginia",
+        "Alabama",
+        "North Carolina"
+      ]
+    },
+    {
+      "path": "www/branches/other-family-places/index.html",
+      "areas": 10,
+      "names": [
+        "South Africa",
+        "Portugal",
+        "Saint Vincent and the Grenadines",
+        "India",
+        "France",
+        "Barbados",
+        "Cuba",
+        "Guernsey",
+        "Guyana",
+        "Italy"
+      ]
+    },
+    {
+      "path": "www/branches/scottish-families/index.html",
+      "areas": 3,
+      "names": [
+        "Glasgow burgh",
+        "Stevenston, Kilwinning & Kilbirnie",
+        "Calder & Inveresk"
+      ]
+    }
+  ],
+  "fixed": "Select the dedicated area name before the enclosing h3; render the people count in its own paragraph; constrain popup width on narrow screens.",
+  "interactive_maps_checked": 7,
+  "area_popups_checked": 56,
+  "browser_checks": "All 56 popup titles and separate counts matched their list entries; actual pointer hover switched between Larne and Cookstown correctly; Cookstown mobile390 popup stayed inside its figure with no body overflow; no console warnings/errors.",
+  "tests_passed": 8,
+  "versioned_asset_pages_updated": 4802,
+  "screenshot": "output/branch-popup-fixed-20260930.png",
+  "production_upload": "pending",
+  "queued_design_work": "Still deferred; no queued redesign tasks implemented.",
+  "archive": {
+    "path": "/Users/m/wikitree-api-scrape/www/glasgow-site-20260930-173313.tar.gz",
+    "bytes": 140389867,
+    "decimal_mb": 140.39,
+    "members": 79051,
+    "rootless": true,
+    "selected_hashes_verified": 9,
+    "sha256": "e3fbe5ac5616bccce18b599c802e3f3754448441e940cabb866ffe6ae3891fc0",
+    "release_checks": "totals, Atlas destinations, publication boundaries, asset versions, gzip integrity passed"
+  }
+}

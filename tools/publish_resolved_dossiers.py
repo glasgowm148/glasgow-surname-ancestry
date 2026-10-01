@@ -213,7 +213,26 @@ def resolve(dossier, assessments, shared_assessments=()):
                 current = resolved
                 found = True
         if not found:
-            raise ValueError(f"Shared assertion {aid} has no relationship on {dossier['id']}")
+            # Explicit reviewed record kinship can be absent from WikiTree's
+            # parent-derived family links. Publish it as a research edge,
+            # preserving the unmodified imported tree underneath.
+            if not assessment.get('allow_new_relationship'):
+                raise ValueError(f"Shared assertion {aid} has no relationship on {dossier['id']}")
+            others = [person for person in assessment['people']
+                      if person.casefold() != dossier['id'].casefold()]
+            if len(others) != 1:
+                raise ValueError(f"Shared assertion {aid} must identify one relative")
+            other = others[0]
+            current = shared_relationship(dossier['id'], {'id': other}, [assessment])
+            groups = {'father': 'parents', 'mother': 'parents', 'son': 'children',
+                      'daughter': 'children', 'child': 'children', 'sibling': 'siblings', 'spouse': 'spouses'}
+            group = groups.get(current.get('relationship'))
+            if not group or not assessment.get('source_ids'):
+                raise ValueError(f"Shared assertion {aid} needs a supported family role and sources")
+            current.update(id=other, name=assessment.get('profile_names', {}).get(other, other),
+                           url=f'/people/{other.lower()}.html',
+                           wikitree_url=f'https://www.wikitree.com/wiki/{other}')
+            result.setdefault('relationships', {}).setdefault(group, []).append(current)
         # Status, role, interpretation and citations come from the same reviewed
         # pair and its explicit viewing-person perspective, not a UI override.
         claim = {k: deepcopy(current[k]) for k in (

@@ -1,0 +1,46 @@
+{
+  "checked_on": "2026-09-30",
+  "findings": 460,
+  "linked_people": 537,
+  "unlinked_people": 0,
+  "reviewed_identity_rows": 53,
+  "public_draft_groups": 30,
+  "sourced_subject_handoffs": 84,
+  "superseded_opr_assessments": 19,
+  "relationship_upgrade_findings": 1,
+  "sibling_upgrades": 2,
+  "father_upgrades": 0,
+  "focused_tests_passed": 18,
+  "browser_checks": [
+    "desktop 1440",
+    "mobile 390 and 320 without body overflow",
+    "relationship filter and date verified",
+    "father filter accurate empty state",
+    "profile and draft links",
+    "native sourced draft disclosure",
+    "no console warnings/errors"
+  ],
+  "homepage_map_before_alexander": true,
+  "production_upload": "pending",
+  "screenshot": "output/latest-findings-relationship-upgrades-20260930.png",
+  "archive": {
+    "path": "www/glasgow-site-20260930-162417.tar.gz",
+    "bytes": 138868165,
+    "decimal_mb": 138.87,
+    "sha256": "257f6f25c32ff0e054a4aa625520dde42608c5eeb8ee78eb99b4dff73f67778c",
+    "members": 79047,
+    "checked_files": {
+      "assets/repair/latest-findings.css": "e05636c65f6706f7750d616cb88df17c97268584fb1afbffbfb4622dffc98523",
+      "assets/repair/latest-findings.js": "4eb671397442be34ca7571bfcfc65b32ef0f15356d3d5502ae4a37689b2d3b1e",
+      "branches/scottish-families/index.html": "28d9022353f1cdf2adcd801d9eba295c16ff3038d60756b7022435973976e002",
+      "index.html": "c57042898f8fa0ef72f2d0152cd814f3d901d72777dee8f945fb85a724f1ba9b",
+      "latest-findings/index.html": "ae67e80d84690052290ebe4ca62c6522d31bd199ab209f97ad31d7e1953c5755",
+      "research/subjects/norfolk-daniel-1729-1730/index.html": "d4bf321d228e12f6acc19b799019342f68ebcc1c45f4d47f0d5170614661668d",
+      "research/subjects/norfolk-daniel-1729-1730/subjects.json": "00653d6ac4ef0764de1410da9e7cd524bd300bca0cd5c921228e7bfdbdd29300",
+      "research/subjects/opr-marion-marriages/index.html": "472966a8aac2ed8a90aa990edad724dd0999ed1a960e414ef65bff115c5d0840",
+      "research/subjects/opr-marion-marriages/subjects.json": "34d2d22b64f8f1a08eb7c22bf18ed78a653e1606f346dab01b015cf8e1fab6fa"
+    },
+    "release_manifest_verified": true,
+    "release_checks": "totals, Atlas destinations, publication boundary, asset versions and gzip integrity passed"
+  }
+}

@@ -4,7 +4,7 @@ Last updated: 2026-09-10
 
 ## Current conclusion
 
-The statement that Robert died “without issue” cannot stand without qualification: [UCL's summary of his 1803 trust](https://wwwdepts-live.ucl.ac.uk/lbs/person/view/2146643739) reports reputed natural children John and Emilia, and identifies Anne as a natural daughter in the Robertson succession. The original trust is not yet read here, so it does not prove that the existing WikiTree children are those people.
+The statement that Robert died “without issue” cannot stand without qualification: [UCL's summary of his 1803 trust](https://wwwdepts-live.ucl.ac.uk/lbs/person/view/2146643739) reports reputed natural children John and Emilia, and identifies Anne as a natural daughter in the Robertson succession. The original trust is not yet read here. The 30 September profile review now links the record-defined John and Anne to their existing profiles; the Emilia identification and independent verification of the trust remain qualified.
 
 Robert Glasgow of Montgreenan held Mount Grenan and Sans Souci on St Vincent. Smith documents Houstoun & Co finance, wealth extracted from enslaved labour, the 1802 purchase of Montgreenan and construction of the later house c.1810–17.
 
@@ -29,9 +29,9 @@ Preserve the live profile's Kilbirnie OPR baptism (18 October 1747, Ref 10/116),
 
 | Subject | Evidence now | Status |
 | --- | --- | --- |
-| John | Trust calls him Robert's reputed natural mulatto son. | **HOLD** against [John Glasgow (Glasgow-2952)](https://www.wikitree.com/wiki/Glasgow-2952); original trust and profile evidence need comparison. |
+| John | Trust calls him Robert's reputed natural mulatto son. | **Matched existing profile:** [John Glasgow (Glasgow-2952)](https://www.wikitree.com/wiki/Glasgow-2952). Its current biography identifies the same father and reproduces the same trust clause. Independent trust verification remains outstanding. |
 | Emilia | Trust calls her Robert's reputed natural daughter. | **HOLD**; do not equate with Amelia Theobalds or [Amelia (Glasgow) Wilson (Glasgow-3789)](https://www.wikitree.com/wiki/Glasgow-3789). |
-| Anne | UCL summary identifies Anne as natural daughter and Robert Robertson's wife. | **HOLD** against [Anne Glasgow (Glasgow-2874)](https://www.wikitree.com/wiki/Glasgow-2874); the trust must establish whether this is the same woman. |
+| Anne | UCL summary identifies Anne as natural daughter and Robert Robertson's wife. | **Matched existing profile:** [Anne Glasgow (Glasgow-2874)](https://www.wikitree.com/wiki/Glasgow-2874). Its current biography identifies Montgreenan as her father and Robert Robertson as her husband, the same succession couple in the published account. Original-record and maternal claims remain separate checks. |
 | Robert and James, sons of late James | Named as James Glasgow's reputed natural sons. | Collateral subjects; do not attach to Robert 1076 or create profiles. |
 | Mary, Adam, Eve, Peter and James in register material | T71 records remain to be read. | **HOLD**; no proof they were John's family or that surname establishes descent. |
 
@@ -39,7 +39,7 @@ Preserve the live profile's Kilbirnie OPR baptism (18 October 1747, Ref 10/116),
 
 1. Read and transcribe **SC6/44/4** and **SC6/44/4/1**, preserving execution, death, confirmation and registration dates separately.
 2. Read **T71/493 pp.591–592** and **T71/495 p.54**, transcribing headings, owners, names, ages and transfer language exactly.
-3. Duplicate-audit John, Emilia and Anne against the three existing child profiles only after the originals are available. No new-person drafts.
+3. Retain the checked John and Anne profile matches. Compare Emilia against the distinct Wilson sister and Theobalds housekeeper using the trust and John’s will; no new-person draft is needed merely because that record identity is unsettled.
 4. Public wording: **the 1803 trust reports reputed natural children; its relationship to the existing child profiles remains unresolved.**
 
 ## Recommended WikiTree update
@@ -51,3 +51,11 @@ replacement adds exact bequests and archive references, identifies the
 Emilia/Amelia question and separates death from registration. It preserves
 family attachments and does not claim that the original manuscripts have been
 inspected. The complete native draft is `Montgreenan_household_audit.wiki`.
+
+## Current profile matching — 30 September 2026
+
+Read-only live API biographies were checked for John Glasgow-2952, Anne Glasgow-2874 and Amelia Glasgow Wilson-3789. John’s biography explicitly names Robert of Montgreenan and quotes the same 1803 son clause. Anne’s biography names that father and her husband Robert Robertson-30564. These existing profiles represent the two named subjects in the maintained family account; an absent newly inspected original is not a reason to leave their names unmatched. This does not independently prove every date, maternal identity or relationship assertion on their profiles.
+
+Amelia Wilson-3789 is identified by the cited 1804 Kilbirnie marriage and Paisley baptisms using both Amelia and Emilia. UCL’s Amelia Theobalds account explicitly distinguishes John’s sister Amelia Wilson from his housekeeper Amelia Theobalds-120. The trust’s Emilia remains qualified because UCL also records a speculative Theobalds identification. Keep both possible interpretations visible and do not merge these two women.
+
+Sources: current public WikiTree biographies, captured 30 September; UCL LBS, [Amelia Theobalds](https://www.ucl.ac.uk/lbs/person/view/2146662589), inspected 30 September, citing British Library EAP1013/1/4; the maintained UCL Montgreenan and Robertson succession references above. No original trust image or live profile edit was made in this batch.

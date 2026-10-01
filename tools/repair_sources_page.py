@@ -23,12 +23,12 @@ def source_row(row: dict) -> str:
     if row.get('from') is not None and row.get('to') is not None and row['to'] != row['from']:
         date += '–' + str(row['to'])
     basis = row.get('basis') or 'Catalogue citation'
-    basis_label = {'exact source URL': 'Linked source URL', 'citation text within this dossier': 'Dossier citation', 'explicit archive volume and image/page': 'Archive reference'}.get(basis, basis)
+    basis_label = {'exact source URL': 'Linked source URL', 'citation text within this dossier': 'Citation on person’s page', 'explicit archive volume and image/page': 'Archive reference'}.get(basis, basis)
     people = len(row.get('members') or [])
     citations, records = row.get('citations') or 0, row.get('records') or 0
-    availability = 'Image available' if row.get('image') else 'Transcription available' if row.get('transcription') else 'Citation & linked evidence'
+    availability = 'Image available' if row.get('image') else 'Transcription available' if row.get('transcription') else 'Citation and related records'
     url = '/sources/' + escape(row['id'], quote=True) + '/'
-    return f'''<article class="v3-source-row"><div class="v3-source-date">{escape(date)}<small>{'Reviewed event date' if row.get('date_basis') == 'reviewed event date' else 'Associated dates'}</small></div><div><span class="r-kicker" title="{escape(basis, quote=True)}">{escape(basis_label)}</span><h3><a href="{url}">{escape(row['title'])}</a></h3><p>{people:,} linked {'person' if people == 1 else 'people'} · {citations:,} {'citation' if citations == 1 else 'citations'} · {records:,} record {'association' if records == 1 else 'associations'}</p></div><span class="v3-source-availability">{availability}</span></article>'''
+    return f'''<article class="v3-source-row"><div class="v3-source-date">{escape(date)}<small>{'Reviewed event date' if row.get('date_basis') == 'reviewed event date' else 'Associated dates'}</small></div><div><span class="r-kicker" title="{escape(basis, quote=True)}">{escape(basis_label)}</span><h3><a href="{url}">{escape(row['title'])}</a></h3><p>{people:,} linked {'person' if people == 1 else 'people'} · {citations:,} {'citation' if citations == 1 else 'citations'} · {records:,} record {'entry' if records == 1 else 'entries'}</p></div><span class="v3-source-availability">{availability}</span></article>'''
 
 
 def source_body(rows: list[dict], original: str) -> str:
@@ -42,7 +42,7 @@ def source_body(rows: list[dict], original: str) -> str:
     media_summary = f'<span><strong>{media:,}</strong> with an image or text</span>' if media else '<span>References and catalogue citations</span>'
     initial = sorted(rows, key=lambda row: (row.get('from') if row.get('from') is not None else 9999, row['title'].casefold()))[:24]
     summary = f'1–{len(initial)} of {len(rows):,} source items' if initial else 'No source items published.'
-    return f'''<header class="sources-hero"><div><p class="sources-eyebrow">The documentary archive</p><h1>Source library</h1><p class="sources-intro">Search archive references and citations. Follow a source into the people and evidence it connects.</p></div><div class="sources-total"><strong>{len(rows):,}</strong><span>linked source items</span></div></header>
+    return f'''<header class="sources-hero"><div><p class="sources-eyebrow">Source references</p><h1>Sources</h1><p class="sources-intro">Find the references used in our research, including census returns, parish registers, wills and family accounts. Open a reference to see the people and records linked to it.</p></div><div class="sources-total"><strong>{len(rows):,}</strong><span>linked source items</span></div></header>
 <div class="sources-coverage"><span><strong>{shared:,}</strong> linked to multiple people</span>{media_summary}<a href="#sources-collections">Reviewed collections ↓</a></div>
 <form class="v3-source-search sources-search-panel" id="v3-source-search" action="/sources/browse/" method="get">
 <div class="sources-search-fields"><label><span>Find a source</span><input id="v3-source-q" name="q" type="search" placeholder="Name, archive reference, place or record type…"></label><label><span>Availability</span><select id="v3-source-kind" name="kind"><option value="all">All source items</option><option value="shared">Linked to multiple people</option><option value="image">Image or text available</option></select></label><button class="r-button primary" type="submit">Search</button></div>
@@ -52,8 +52,8 @@ def source_body(rows: list[dict], original: str) -> str:
 <noscript><p class="repair-static-note">The source listing and linked evidence work without JavaScript. <a href="/sources/browse/">Browse the complete index</a>; filtering requires JavaScript.</p></noscript>
 <div id="v3-source-results" aria-label="Source items" data-summary="{summary}">{''.join(source_row(row) for row in initial)}</div>
 <nav id="v3-source-pages" class="r-pagination" aria-label="Source pages"><a class="r-button" href="/sources/browse/">Browse the complete source index →</a></nav>
-<div class="repair-source-links"><a href="/sources/browse/">Browse without JavaScript</a><a href="/records/">Search record associations →</a></div></section>
-<aside class="sources-collections" id="sources-collections" aria-labelledby="sources-collections-heading"><p class="sources-eyebrow">Explore the research</p><h2 id="sources-collections-heading">Reviewed collections</h2><p class="sources-collections-intro">Focused reviews of parish and civil indexes. Each review explains its evidence and open questions.</p>{''.join(notices)}<div class="sources-method"><strong>What is a source item?</strong><p>A linked citation or archive reference in the catalogue. It may be a lead, an index entry or a published extract; an item is not necessarily a distinct original document.</p></div></aside></div>'''
+<div class="repair-source-links"><a href="/sources/browse/">Browse the full source index</a><a href="/records/">Find records by person →</a></div></section>
+<aside class="sources-collections" id="sources-collections" aria-labelledby="sources-collections-heading"><p class="sources-eyebrow">Explore the research</p><h2 id="sources-collections-heading">Reviewed collections</h2><p class="sources-collections-intro">Focused reviews of parish and civil indexes. Each review explains its evidence and open questions.</p>{''.join(notices)}<div class="sources-method"><strong>Records and sources: what is the difference?</strong><p>A record tells us about a person or event. A source reference tells us where the information came from. This list includes original records, indexes, transcriptions, WikiTree profiles and research notes. Some references are still leads to check; several may refer to the same document. Use Records by person to find the events linked to each person.</p></div></aside></div>'''
 
 
 def repair(web: Path | None = None) -> Counter:

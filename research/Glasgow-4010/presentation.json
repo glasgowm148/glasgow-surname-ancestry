@@ -1,0 +1,39 @@
+{
+  "assessment_date": "2026-09-30",
+  "opening": "Samuel Glasgow of Prescott belongs to the documented sibling group with Daniel Glasgow of Kilrea and Thomas Glasgow of Lisnagaver. The original 1849 will and 1861 conveyance establish their identities and brotherhood. Alexander Glasgow-3904 is a supported uncertain father hypothesis through Thomas and Daniel’s existing family tradition.",
+  "position": {
+    "answer": "The Prescott–Kilrea–Lisnagaver brotherhood is established. Connect Robert and Samuel to Alexander-3904 as uncertain father through that group; the documents do not directly name a parent.",
+    "points": [
+      "Original will and deed identity evidence already appears on the live sibling biographies.",
+      "The existing family tradition names Alexander as Thomas’s father; compatible chronology supports the same uncertain attachment across the proved brothers.",
+      "Rosanna’s maternity is assessed separately. The uncertain father connection is pending WikiTree work, not a newly certain relationship."
+    ]
+  },
+  "family_reasons": {
+    "Glasgow-987": "Proved brother through the original will and deed, identifying Thomas of Lisnagaver.",
+    "Glasgow-3896": "Proved brother through the original will and deed, identifying Daniel, Kilrea watchmaker.",
+    "Glasgow-3904": "Uncertain father hypothesis inherited through proved brothers and descendant testimony; not directly named in the deeds."
+  },
+  "record_rows": [
+    {
+      "record_id": "prescott-will-1849",
+      "association": "Robert Glasgow’s will",
+      "date": "9 October 1849",
+      "place": "Prescott, Canada West",
+      "source_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWY9-S",
+      "status": "Original registered copy inspected 8 September 2026",
+      "note": "Names Robert’s brothers Daniel, Samuel, John and Thomas, sister Mary and brother James’s children. Does not call James deceased.",
+      "role": "Direct sibling evidence"
+    },
+    {
+      "record_id": "prescott-deed-b465",
+      "association": "B465, Daniel and Thomas conveyances to Samuel",
+      "date": "30 July 1861",
+      "place": "Kilrea; Lisnagaver; Prescott",
+      "source_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWB8-D",
+      "status": "Original inspected 13 September 2026",
+      "note": "Places, trades and wives identify the Irish brothers with Robert’s beneficiaries.",
+      "role": "Sibling identity bridge"
+    }
+  ]
+}
