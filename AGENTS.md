@@ -4,6 +4,7 @@
 - Read only the files and documentation the task needs. Use referenced project docs when their subject applies instead of loading them before every change.
 - Verify with the smallest meaningful checks for the change. Fix failures caused by the work and rerun affected checks; expand testing only when the change, a failure, or unresolved risk justifies it.
 - Keep prompts, updates, handoffs and final responses concise while preserving decisions, evidence and material limitations.
+- Before ending each turn that changes project files, verify the completed work and commit that turn's changes with a concise, descriptive Conventional Commit message. Commit completed coherent batches separately when helpful. Do not push; the owner handles pushes. Do not create empty commits or include unrelated pre-existing changes. The orchestrator owns staging and commits for delegated work; report any failed check or commit blocker explicitly.
 - When the owner queues follow-up work after an active batch, finish and verify the active batch first. Record the later requests separately; do not start their implementation or delegation early.
 - When the user explicitly corrects a repeatable workflow or quality rule governed by a project-owned skill, update the applicable `SKILL.md` during the same task so the correction persists.
 - Keep durable corrections narrowly scoped. Do not automatically modify system, third-party, unrelated, or non-writable skills, and do not encode one-off preferences as universal rules.

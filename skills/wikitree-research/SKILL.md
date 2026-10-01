@@ -7,6 +7,8 @@ description: Conduct evidence-led WikiTree research, profile and relationship in
 
 Verify each claimed identity, relationship, date, and place against the underlying record. Distinguish documented facts, evidence-based inferences, and hypotheses.
 
+- Before ending a turn that changes project files, verify and commit the completed changes with a concise, descriptive Conventional Commit message. Commit coherent batches separately when useful; never push, create empty commits, or include unrelated pre-existing changes. The orchestrator stages and commits delegated work. Report verification or commit blockers explicitly.
+
 - Complete the active research/profile/site-integration batch before starting separately queued follow-up work. If the owner says later requests come afterwards, save them in the project queue and finish the current evidence, drafts, synchronization, verification and package first.
 
 - Keep `/latest-findings/` current during research: after every coherent batch, update `research/latest-findings.json` and the affected person/study accounts, then rebuild the findings page before moving on or handing off. Every named research subject needs a checked existing profile, explicitly linked compatible candidate, or complete sourced public draft. Check names, chronology, places and relatives properly; reject a plausible match only for concrete conflicting evidence, not missing fields or an unproved additional bridge. Consolidate compatible records and reuse drafts. Record genuine relationship upgrades with their evidenced previous uncertain/unknown status and new certain status; already-certain links and newly found supporting sources are not upgrades. Follow the routed references for exact ledger/draft fields and publication.
