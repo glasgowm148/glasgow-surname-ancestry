@@ -159,7 +159,7 @@ def deployed_checks(base_url: str) -> list[str]:
 def page_matches(body: bytes, heading: str, person_id: str | None = None) -> bool:
     parsed = PageSemantics()
     parsed.feed(body.decode("utf-8", "replace"))
-    return heading in " ".join(parsed.h1) and (person_id is None or person_id in parsed.person_ids)
+    return heading in " ".join(" ".join(parsed.h1).split()) and (person_id is None or person_id in parsed.person_ids)
 
 
 def main() -> int:

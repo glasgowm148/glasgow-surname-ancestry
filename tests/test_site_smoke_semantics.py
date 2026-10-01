@@ -8,6 +8,10 @@ from tools import check_public_catalogue as catalogue
 
 
 class SiteSmokeSemanticsTests(unittest.TestCase):
+    def test_catalogue_heading_probe_handles_line_breaks_and_inline_markup(self):
+        body = b'<h1>Free-space<br> research <em>library</em></h1>'
+        self.assertTrue(catalogue.page_matches(body, 'Free-space research library'))
+
     def test_changed_wording_keeps_structural_page_check(self):
         body = b'<title>New wording</title><h1>Alexander Glasgow</h1><main data-r-person="Glasgow-951">Updated</main>'
         self.assertTrue(smoke.page_matches(body, "Alexander Glasgow", "Glasgow-951"))

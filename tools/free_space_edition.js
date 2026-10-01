@@ -30,6 +30,14 @@
     search: normal(element.dataset.search), category: element.dataset.category,
     importance: Number(element.dataset.importance)
   }));
+  const collections = document.getElementById('fsp-collections');
+  const panel = document.getElementById('fsp-results-panel');
+  const refine = document.getElementById('fsp-refine');
+  const collectionsButton = document.getElementById('fsp-show-collections');
+  const listButton = document.getElementById('fsp-show-list');
+  const library = document.getElementById('library');
+  const collectionCount = collections.querySelectorAll('.fsp-collection').length;
+  let view = 'collections';
   const pageSize = 12;
   let pageNumber = 1;
   let timer;
@@ -51,11 +59,16 @@
       card.element.dataset.fspMatch = String(matched.has(card));
       results.append(card.element);
     }
-    count.textContent = matches.length === 1 ? '1 study' : matches.length ? `${start + 1}–${Math.min(start + pageSize, matches.length)} of ${matches.length} studies` : '0 studies';
+    collections.hidden = view !== 'collections';
+    panel.hidden = view === 'collections';
+    refine.hidden = view === 'collections';
+    collectionsButton.setAttribute('aria-pressed', String(view === 'collections'));
+    listButton.setAttribute('aria-pressed', String(view === 'list'));
+    count.textContent = view === 'collections' ? `${collectionCount} collections · ${cards.length} studies` : matches.length === 1 ? '1 study' : matches.length ? `${start + 1}–${Math.min(start + pageSize, matches.length)} of ${matches.length} studies` : '0 studies';
     empty.hidden = matches.length !== 0;
-    heading.textContent = topic || 'All studies';
-    description.textContent = topics.find(button => button.dataset.fspTopic === topic)?.dataset.description || 'Browse the full collection, or choose a topic to narrow your reading.';
-    topics.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.fspTopic === topic)));
+    heading.textContent = view === 'collections' ? 'Explore the collections' : topic || 'All studies';
+    description.textContent = view === 'collections' ? 'Start with a principal study, then follow the related records and family questions.' : topics.find(button => button.dataset.fspTopic === topic)?.dataset.description || 'Browse the full collection, or choose a topic to narrow your reading.';
+    topics.forEach(button => button.setAttribute('aria-pressed', String(view === 'list' && button.dataset.fspTopic === topic)));
     pagination.hidden = totalPages < 2;
     previous.disabled = pageNumber === 1;
     next.disabled = pageNumber === totalPages;
@@ -66,11 +79,13 @@
       if (topic) params.set('topic', topic);
       if (order.value !== 'importance') params.set('order', order.value);
       if (pageNumber > 1) params.set('page', pageNumber);
-      history.replaceState(null, '', location.pathname + (params.size ? '?' + params : '') + location.hash);
+      if (view === 'list' && !params.size) params.set('view', 'all');
+      const fragment = view === 'list' && location.hash.startsWith('#collection-') ? '#library' : location.hash;
+      history.replaceState(null, '', location.pathname + (params.size ? '?' + params : '') + fragment);
     }
   }
 
-  function filter() { clearTimeout(timer); pageNumber = 1; render(); }
+  function filter() { clearTimeout(timer); view = 'list'; pageNumber = 1; render(); }
   function reset() { q.value = ''; category.value = ''; order.value = 'importance'; filter(); q.focus(); }
   q.addEventListener('input', () => { clearTimeout(timer); timer = setTimeout(filter, 80); });
   category.addEventListener('change', filter);
@@ -81,6 +96,8 @@
   topics.forEach(button => button.addEventListener('click', () => {
     category.value = button.dataset.fspTopic;
     filter();
+    q.focus({ preventScroll: true });
+    library.scrollIntoView({ block: 'start' });
   }));
   function turnPage(delta) {
     clearTimeout(timer);
@@ -89,7 +106,7 @@
     // Keep focus on a usable control when the last/first page disables its button.
     const focusTarget = delta > 0 ? (next.disabled ? previous : next) : (previous.disabled ? next : previous);
     focusTarget.focus({ preventScroll: true });
-    document.querySelector('.fsp-listing').scrollIntoView({ block: 'start' });
+    library.scrollIntoView({ block: 'start' });
   }
   previous.addEventListener('click', () => turnPage(-1));
   next.addEventListener('click', () => turnPage(1));
@@ -102,8 +119,17 @@
     order.value = params.get('order') === 'title' ? 'title' : 'importance';
     pageNumber = /^\d+$/.test(params.get('page') || '') ? Number(params.get('page')) : 1;
     if (!Number.isSafeInteger(pageNumber)) pageNumber = 1;
+    view = q.value.trim() || category.value || params.get('order') === 'title' || params.has('page') || params.get('view') === 'all' ? 'list' : 'collections';
     render(false);
   }
+  collectionsButton.addEventListener('click', () => {
+    clearTimeout(timer); q.value = ''; category.value = ''; order.value = 'importance'; pageNumber = 1; view = 'collections'; render();
+  });
+  listButton.addEventListener('click', () => { view = 'list'; render(); });
+  document.querySelectorAll('[data-fsp-collection-anchor]').forEach(link => link.addEventListener('click', () => {
+    clearTimeout(timer); q.value = ''; category.value = ''; order.value = 'importance'; pageNumber = 1; view = 'collections'; render();
+  }));
+  document.querySelector('.fsp-hero-action').addEventListener('click', () => collectionsButton.click());
   addEventListener('popstate', restore);
   restore();
 })();

@@ -259,36 +259,72 @@ TOPICS = {
 }
 
 
+COLLECTIONS = (
+    ('Early and medieval', 'early', 'Early names & surname origins', '1175–1500'),
+    ('Scotland and records', 'scotland', 'Scotland in the records', 'Wills · protocol books · local history'),
+    ('Ireland and migration', 'ireland', 'Irish branches & migration', 'Ulster · settlement · family movements'),
+    ('Families and case studies', 'families', 'Families & open questions', 'People · identities · possible parents'),
+    ('DNA and haplogroups', 'dna', 'DNA alongside the documents', 'Y-DNA · haplogroups · genetic studies'),
+    ('Project and methods', 'methods', 'The project & its methods', 'Research guides · scope · sources'),
+)
+
+COLLECTION_ICONS = {
+    'early': '<path d="M12 38h24M16 38V20l8-12 8 12v18M16 20h16M22 38V28h4v10M22 20v-6h4v6M8 38h4V26H8v12m28 0h4V26h-4"/>',
+    'scotland': '<path d="M9 10h23l7 7v23H9V10m23 0v8h7M15 24h18M15 29h18M15 34h11"/>',
+    'ireland': '<circle cx="13" cy="15" r="5"/><circle cx="35" cy="34" r="5"/><path d="M13 20v6c0 8 17-5 17 3M27 24l3 5-5 2"/>',
+    'families': '<circle cx="24" cy="10" r="5"/><circle cx="11" cy="35" r="5"/><circle cx="37" cy="35" r="5"/><path d="M24 15v8M11 30v-7h26v7"/>',
+    'dna': '<path d="M13 7c0 13 22 21 22 34M35 7c0 13-22 21-22 34M14 10h20M18 17h12M18 31h12M14 38h20"/>',
+    'methods': '<path d="M24 13c-5-5-12-5-17-3v27c5-2 12-2 17 3 5-5 12-5 17-3V10c-5-2-12-2-17 3v27M12 17l7 1m-7 6 7 1m10-7 7-1m-7 8 7-1"/>',
+}
+
+
+def collection_icon(slug):
+    return f'<svg class="fsp-collection-icon" viewBox="0 0 48 48" aria-hidden="true" focusable="false">{COLLECTION_ICONS[slug]}</svg>'
+
+
+def study_preview(page):
+    """Use the existing conclusion, keeping its qualifications, or a public excerpt."""
+    return page['summary']['conclusion'] if page.get('summary') else excerpt((ROOT / page['editionFile']).read_text())
+
+
+def display_title(page):
+    title = page['title'].replace("''", '')
+    if page['wikitreeId'].startswith('Space:Bearers of'):
+        return 'Medieval name bearers, c.1175–1500'
+    return title
+
+
 def directory_main(pages, cards):
-    """Give readers starting points, then a compact, searchable library."""
     categories = [c for c in TOPICS if any(p['category'] == c for p in pages)]
-    counts = {c: sum(p['category'] == c for p in pages) for c in categories}
     options = ''.join(f'<option value="{escape(c, quote=True)}">{escape(c)}</option>' for c in categories)
-    topics = ''.join(
-        f'<button type="button" data-fsp-topic="{escape(c, quote=True)}" data-description="{escape(TOPICS[c], quote=True)}" aria-pressed="false">'
-        f'<span>{escape(c)}</span><span class="fsp-topic-count">{counts[c]}</span></button>'
-        for c in categories
-    )
-    starts = (
-        ('Space:Glasgow Name Study', 'The surname project', 'Begin with the name study, its historical scope and the main research routes.'),
-        ("Space:Bearers of the ''de Glasgu'' Name and the Emergence of the Glasgow Surname, c.1175–1500", 'The earliest name bearers', 'Explore the medieval occurrences, original records and limits of the evidence.'),
-        ('Space:Glasgow Wills & Testaments', 'Wills & testaments', 'Follow the documentary studies through estates, named relatives and source references.'),
-    )
-    featured = []
-    for pid, label, description in starts:
-        page = next((p for p in pages if key(p['wikitreeId']) == key(pid)), None)
-        if page:
-            featured.append(f'<a class="fsp-feature" href="{page["url"]}"><span class="fsp-feature-number" aria-hidden="true">0{len(featured)+1}</span><h3>{escape(label)}</h3><p>{escape(description)}</p><span class="fsp-feature-link">Read the study <span aria-hidden="true">↗</span></span></a>')
+    overview = next(p for p in pages if p['wikitreeId'] == 'Space:Glasgow Name Study')
+    shelves = []
+    quicklinks = []
+    for number, (category, slug, label, scope) in enumerate(COLLECTIONS, 1):
+        studies = [p for p in pages if p['category'] == category and p['bodyStatus'] != 'Blank source']
+        if category == 'Project and methods':
+            studies = [p for p in studies if p is not overview]
+        if not studies:
+            continue
+        lead = studies[0]
+        count = sum(p['category'] == category for p in pages)
+        links = ''.join(f'<li><a href="{p["url"]}">{escape(display_title(p))}<span aria-hidden="true">↗</span></a></li>' for p in studies[1:3])
+        assessment = f'<span class="fsp-assessment">{escape(lead["summary"]["confidence"])}</span>' if lead.get('summary') else ''
+        shelves.append(f'''<section class="fsp-collection fsp-collection-{slug}" id="collection-{slug}" aria-labelledby="collection-{slug}-title">
+<div class="fsp-collection-head"><div class="fsp-collection-emblem">{collection_icon(slug)}</div><div><span class="fsp-collection-scope">{escape(scope)}</span><h3 id="collection-{slug}-title">{escape(label)}</h3></div><span class="fsp-collection-total"><strong>{count}</strong> studies</span></div>
+<div class="fsp-collection-body"><div class="fsp-lead-study"><span class="fsp-small-label">Principal study</span><h4><a href="{lead['url']}" title="{escape(lead['title'].replace(chr(39)*2, ''), quote=True)}">{escape(display_title(lead))}</a></h4>{assessment}<p>{escape(study_preview(lead))}</p><a class="fsp-study-action" href="{lead['url']}">Read the study <span aria-hidden="true">→</span></a></div><div class="fsp-collection-more"><span class="fsp-small-label">Continue reading</span><ul>{links}</ul><button type="button" class="fsp-collection-button" data-fsp-topic="{escape(category, quote=True)}" data-description="{escape(TOPICS[category], quote=True)}" aria-pressed="false">Browse all {count} studies <span aria-hidden="true">→</span></button></div></div></section>''')
+        if slug in ('early', 'scotland', 'ireland', 'dna'):
+            quicklabels = {'early': 'Early names', 'scotland': 'Scottish records', 'ireland': 'Irish branches', 'dna': 'DNA studies'}
+            quicklinks.append(f'<a href="#collection-{slug}" data-fsp-collection-anchor="{slug}">{collection_icon(slug)}<span>{quicklabels[slug]}<small>{count} studies</small></span><span aria-hidden="true">↓</span></a>')
     return f'''<main class="r-main fsp-main fsp-directory" id="main">
-<header class="fsp-hero"><div><span class="r-kicker">WikiTree studies · local second edition</span><h1>Free-space research library</h1><p>Explore the Glasgow surname through people, places and original records. Full studies, with their sources and research questions, in one place.</p><a class="fsp-browse-link" href="#library">Browse all studies <span aria-hidden="true">↓</span></a></div><aside class="fsp-library-mark" aria-label="Library coverage"><strong>{len(pages)}</strong><span>studies &amp; record collections</span><p>From medieval name bearers<br>to family and DNA studies</p></aside></header>
-<section class="fsp-start" aria-labelledby="fsp-start-title"><div class="fsp-section-heading"><h2 id="fsp-start-title">Start here</h2><p>Three routes into the research</p></div><div class="fsp-featured">{''.join(featured)}</div></section>
-<section class="fsp-library" id="library" aria-labelledby="fsp-library-title"><aside class="fsp-browse"><h2>Browse by topic</h2><div class="fsp-topics" aria-label="Choose a research topic"><button type="button" data-fsp-topic="" aria-pressed="true"><span>All studies</span><span class="fsp-topic-count">{len(pages)}</span></button>{topics}</div><p class="fsp-edition-note">A complete local reading edition. Every study links to its original WikiTree page, with drafts and comparisons available.<br><a href="#edition-updates">About the two editions <span aria-hidden="true">↓</span></a></p></aside>
-<div class="fsp-listing"><div class="fsp-section-heading fsp-list-heading"><div><span class="r-kicker">The library</span><h2 id="fsp-library-title">All studies</h2></div><p id="fsp-count" class="fsp-count" aria-live="polite">{len(pages)} studies</p></div><p class="fsp-topic-description" id="fsp-topic-description">Browse the full collection, or choose a topic to narrow your reading.</p>
-<form class="fsp-controls" role="search" aria-label="Search the research library"><label>Search studies<input id="fsp-search" type="search" placeholder="Family, place, record or year…" aria-controls="fsp-results"></label><label>Topic<select id="fsp-category"><option value="">All topics</option>{options}</select></label><label>Sort by<select id="fsp-order"><option value="importance">Importance first</option><option value="title">Title A–Z</option></select></label><button class="r-button quiet" id="fsp-clear" type="button">Reset</button></form>
-<noscript><p class="fsp-edition-note">All {len(pages)} studies are listed below. Enable JavaScript to search, filter and browse shorter pages.</p></noscript>
-<div class="fsp-grid" id="fsp-results">{''.join(cards)}</div><div id="fsp-empty" class="g-empty" hidden><h3>No studies found</h3><p>Try a broader name, a different topic or fewer words.</p><button class="r-button quiet" type="button" data-fsp-reset>Reset filters</button></div>
-<nav class="fsp-pagination" id="fsp-pagination" aria-label="Study result pages" hidden><button type="button" id="fsp-prev">← Previous</button><span id="fsp-page-status" aria-live="polite"></span><button type="button" id="fsp-next">Next →</button></nav></div></section>
-<section class="fsp-updates" id="edition-updates"><details><summary>About this edition &amp; WikiTree updates</summary><div><p><strong>A second edition, kept alongside WikiTree.</strong> These pages preserve the maintained local research and its citations. Confidence belongs to each source and conclusion; a research narrative does not establish every relationship it discusses.</p><p>WikiTree changes are pulled into a comparison, never over an edited local study. Matching text can be marked current; changes on one side can be reviewed for transfer. If both versions changed, both remain available until the differences are resolved.</p><p>Each reading page provides its full local WikiTree draft. Checked remote text and a diff appear after a successful pull. A remote access failure is recorded explicitly. Saving a reviewed draft on WikiTree remains a separate action.</p></div></details></section></main>'''
+<header class="fsp-hero"><div class="fsp-hero-intro"><span class="fsp-eyebrow">The Glasgow surname project</span><h1>Free-space<br> research library</h1><p>People, places and records behind the Glasgow surname. Follow a family, explore a collection, or begin with the earliest names.</p><div class="fsp-hero-bottom"><a href="#library" class="fsp-hero-action">Explore the collections <span aria-hidden="true">↓</span></a><span>{len(pages)} studies · {len(shelves)} collections</span></div></div><aside class="fsp-overview"><span class="fsp-small-label">Begin with the overview</span><h2><a href="{overview['url']}">Glasgow<br> Name Study</a></h2><p>The story of the name, its historical forms and the main research routes — from medieval occurrences to families around the world.</p><a href="{overview['url']}" class="fsp-study-action">Open the name study <span aria-hidden="true">↗</span></a><div class="fsp-paper-lines" aria-hidden="true"></div></aside></header>
+<nav class="fsp-quicklinks" aria-label="Reading routes">{''.join(quicklinks)}</nav>
+<section class="fsp-library" id="library" aria-labelledby="fsp-library-title"><div class="fsp-section-heading"><div><span class="fsp-small-label">Find your next study</span><h2 id="fsp-library-title">Explore the collections</h2></div><p id="fsp-count" class="fsp-count" aria-live="polite">{len(shelves)} collections · {len(pages)} studies</p></div><p class="fsp-topic-description" id="fsp-topic-description">Start with a principal study, then follow the related records and family questions.</p>
+<form class="fsp-controls" role="search" aria-label="Search the research library"><div class="fsp-search-row"><label class="fsp-search-label"><span class="sr-only">Search studies</span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10" cy="10" r="6"/><path d="m15 15 5 5"/></svg><input id="fsp-search" type="search" placeholder="Search all {len(pages)} studies: a family, place, record or year…" aria-controls="fsp-results"></label><div class="fsp-view-switch" aria-label="Library view"><button type="button" id="fsp-show-collections" aria-pressed="true">Collections</button><button type="button" id="fsp-show-list" aria-pressed="false">Study list</button></div></div><div class="fsp-refine" id="fsp-refine"><label>Topic<select id="fsp-category"><option value="">All topics</option>{options}</select></label><label>Sort by<select id="fsp-order"><option value="importance">Importance first</option><option value="title">Title A–Z</option></select></label><button id="fsp-clear" type="button">Reset filters</button></div></form>
+<div class="fsp-collections" id="fsp-collections">{''.join(shelves)}</div>
+<div class="fsp-results-panel" id="fsp-results-panel"><noscript><p class="fsp-edition-note">All {len(pages)} studies are listed below. Enable JavaScript to search and browse shorter pages.</p><style>.fsp-view-switch,.fsp-refine,.fsp-collection-button{{display:none}}</style></noscript><h2 class="fsp-print-title">Research studies</h2><div class="fsp-grid" id="fsp-results">{''.join(cards)}</div><div id="fsp-empty" class="g-empty" hidden><h3>No studies found</h3><p>Try a broader name, a different topic or fewer words.</p><button type="button" data-fsp-reset>Clear filters</button></div><nav class="fsp-pagination" id="fsp-pagination" aria-label="Study result pages" hidden><button type="button" id="fsp-prev">← Previous</button><span id="fsp-page-status" aria-live="polite"></span><button type="button" id="fsp-next">Next →</button></nav></div></section>
+<aside class="fsp-edition-strip"><span class="fsp-edition-seal" aria-hidden="true">II</span><p><strong>A second edition, kept alongside WikiTree.</strong><br>Full studies and original references, with local corrections preserved. Each study links to its WikiTree edition, draft and available comparisons.</p><a href="#edition-updates">About this edition <span aria-hidden="true">↓</span></a></aside>
+<section class="fsp-updates" id="edition-updates"><details><summary>WikiTree updates &amp; edition comparisons</summary><div><p>Confidence belongs to each source and conclusion; a research narrative does not establish every relationship it discusses.</p><p>WikiTree changes are pulled into a comparison, never over an edited local study. Matching text can be marked current; changes on one side can be reviewed for transfer. If both versions changed, both remain available until the differences are resolved.</p><p>Each reading page provides its full local WikiTree draft. Checked remote text and a diff appear after a successful pull. A remote access failure is recorded explicitly. Saving a reviewed draft on WikiTree remains a separate action.</p></div></details></section></main>'''
 
 
 def build_site(source,pages,studies):
