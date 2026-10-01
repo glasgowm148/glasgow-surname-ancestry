@@ -4,6 +4,8 @@
 
 Maintained public-safe text lives in `research/free-space-pages/edition/`, with category, priority, source hashes and mappings in `edition.json`. The first build projects the maintained originals. Subsequent local edits survive source refreshes and repeated builds. Edit local text or original maintained sources, then rebuild. Principal studies come first; readers can filter by category/search and sort alphabetically. Global site search opens local editions.
 
+The library layout leads with three reading routes: the surname project, medieval name bearers, and wills and testaments. A topic sidebar shows collection counts and the selected topic; compact study rows retain complete titles, descriptions and available dates/places. Search includes recorded years as well as names, places and topics. Results show 12 studies per page, with search, topic, sort and page restored from the URL. All 85 entries remain readable without JavaScript; printing includes every matching study across result pages. Edition/update notes are folded below the library, and direct links open them. Study bodies, citations, source comparisons and complete local drafts are retained.
+
 ## WikiTree reconciliation
 
 The API is read-only: [WikiTree getProfile documentation](https://github.com/wikitree/wikitree-api/blob/main/getProfile.md). The tool checks public metadata and requests public edit-source text. No credentials or live writes are used.

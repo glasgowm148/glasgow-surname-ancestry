@@ -122,7 +122,7 @@ def deployed_checks(base_url: str) -> list[str]:
         "catalogue.html": lambda body: page_matches(body, "Find a person"),
         "records/": lambda body: page_matches(body, "Research records"),
         "places/": lambda body: page_matches(body, "Research places"),
-        "free-space/": lambda body: page_matches(body, "Free-space research pages"),
+        "free-space/": lambda body: page_matches(body, "Free-space research library"),
         "compare.html": lambda body: page_matches(body, "Compare two people"),
         "data/compare-index.js": lambda body: b"window.glasgowCompareDossiers=" in body,
         "people/compare.js": lambda body: b"bundled comparison data" in body,

@@ -280,7 +280,7 @@ def repair():
         page = page.replace('aria-label="Interactive family atlas"', 'aria-label="Interactive family tree"')
         page = page.replace('aria-label="Atlas views"', 'aria-label="Family tree views"')
         page = page.replace('Move around the family canvas', 'Move around the family tree')
-        titles = {'branches/index.html': 'Families and places', 'free-space/index.html': 'WikiTree Free-Space Pages',
+        titles = {'branches/index.html': 'Families and places', 'free-space/index.html': 'Free-space research library',
                   'coverage/index.html': 'What the site includes', 'statistics/index.html': 'Family history statistics',
                   'sources/index.html': 'Sources', 'records/index.html': 'Records by person'}
         title = titles.get(path.relative_to(WEB).as_posix())

@@ -270,3 +270,9 @@ are still required. No host configuration or Git push was performed.
 
 Evidence: `artifacts/site-followup-live-http-20261001.json` and
 `artifacts/site-followup-live-browser-20261001.json`.
+
+## Free-space library redesign — 1 October 2026
+
+The library now has three starting routes, a topic sidebar with selected states, compact study rows, year-aware search and 12-study pagination with shareable URLs. Mobile layouts and printing preserve access to all matching studies. All 85 reading bodies, citations, comparisons and complete drafts match the previous bundle unchanged. Six focused tests and 92 browser checks pass at 320/390/1440 px; the legacy parity test is skipped because `www_old` is unavailable. Local entry-point, publication-boundary, release-total and asset-version checks pass. Shared generated changes are limited to cache versions.
+
+Verified upload bundle: `www/glasgow-site-20261001-215445.tar.gz`, 148,098,794 bytes (148.10 decimal MB), 79,444 rootless members. All 86 Free-space HTML pages and both assets match local files and the embedded release manifest; gzip integrity passes. SHA-256: `097a7d5edca652eeef0e845e0313446697d1c01c505f231b2926d2db90d101c0`. Verification: `output/playwright/free-space-release-verification.json`. Supersedes the 13:55 package. Production upload remains pending.
