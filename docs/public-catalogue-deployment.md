@@ -244,7 +244,7 @@ browser fixture cases pass. The real isolated Nginx verification passes
 eleven cache/status cases plus a conditional 304. The wider genealogy
 suite was not rerun for these style/configuration changes.
 
-The site fixes are prepared locally, pending the owner's upload. Live
+The owner subsequently uploaded the site fixes; verification follows below. Live
 cache headers remain unresolved: there is no confirmed connection to this
 site's origin, and the available Cloudflare dashboard is signed out.
 The Nginx includes above are ready to apply if the origin uses Nginx;
@@ -254,3 +254,19 @@ No production upload, host change, Git push or WikiTree edit was performed.
 Verification: `artifacts/site-followup-release-verification-20261001.json`,
 `artifacts/site-followup-quality-20261001.json` and
 `output/playwright/site-quality-compare-mobile.png`.
+
+## Follow-up production verification — 1 October 2026, 14:49 UTC
+
+After the owner's upload, all five sampled pages/stylesheets return HTTP
+200 with gzip and match the current local release after decompression.
+All nine browser cases pass for the tree, places and an actual Gray
+comparison at 320/390/1440 px. No page errors, serious/critical accessibility
+violations or horizontal overflow were observed; maximum CLS is 0.0341
+and blocking time 194 ms. These are scoped lab measurements.
+
+All five responses still omit `Cache-Control`. Applying and verifying the
+appropriate origin/CDN policy remains the next priority; hosting details
+are still required. No host configuration or Git push was performed.
+
+Evidence: `artifacts/site-followup-live-http-20261001.json` and
+`artifacts/site-followup-live-browser-20261001.json`.
