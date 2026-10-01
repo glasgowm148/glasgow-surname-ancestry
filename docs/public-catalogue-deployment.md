@@ -135,3 +135,51 @@ No production deployment or Git push was performed. Production caching still req
 Latest verified upload bundle: `www/glasgow-site-20261001-121650.tar.gz`, 149,136,681 bytes (149.14 decimal MB). SHA-256: `8f105cf1c446769e34c335a502b5d9827f7eb7e750b0f21fd2338ca908187a9c`. All 79,443 public files match the internal release manifest; eight affected pages/assets also match current local files. Verification: `artifacts/site-suite-release-verification.json`. Superseded bundles are preserved outside the public root in `archive/site-releases/`.
 
 The final full suite runs 406 tests with zero failures/errors; six archived-migration checks require the unavailable `www_old` reference and remain skipped. Lint, data validation, dependency checks, all 18 browser gates, release totals, Atlas destinations and publication boundaries pass. This release includes corrected date qualifications, refreshed map/comparison data, accurate work-queue counts, retained merge redirects and the smaller identity resolver index. No push, live profile edit or production deployment was performed.
+
+## Production verification — 1 October 2026
+
+After the owner reported the upload, read-only checks against
+`https://glasgow.phenotype.dev/` confirmed all 16 sampled pages, scripts,
+stylesheets, packed datasets and source fragments match the local release
+byte for byte after gzip decoding. The public catalogue checker and release
+smoke checker pass. All sampled requests return 200 over HTTPS; three
+conditional requests return 304. Versioned asset URLs work.
+
+Browser checks covered 320, 390 and 1440 px. Search returned the expected
+385 Alexander matches, with 50 on the first page; initial search readiness
+was 530–771 ms in fresh, unthrottled browser contexts. Filters, findings
+pagination (including without JavaScript), source deep links, the filtered
+map and merged-profile redirects work. The newly added Gray candidates
+compare successfully. The copy handler passes all 167,286 characters of
+Alexander's revised biography to the Clipboard API with the same SHA256 as
+the maintained draft. That check intercepted the API argument rather than
+altering the owner's operating-system clipboard.
+
+The initial 18-page browser run passed all checks except one 320 px tree
+layout-shift measurement of 0.106 (limit 0.10). Three isolated repeat runs
+measured 0.068, so retain this as an intermittent concern rather than claim
+the original run was fully green. No horizontal overflow or JavaScript
+page errors were observed. Additional records, places, comparisons and
+filtered-map checks passed at 390 and 1440 px apart from the comparison
+button's contrast finding below.
+
+Remaining work:
+
+- The host omits `Cache-Control` on all 16 samples, including versioned
+  assets and hash-named fragments. Gzip and conditional revalidation work,
+  and Cloudflare serves some cache hits, but the supplied `.htaccess` and
+  `_headers` policies are not visible in live responses. Configure the
+  origin/CDN to revalidate HTML and unversioned data, and serve content-hash
+  asset URLs with `public, max-age=31536000, immutable`; verify actual
+  responses after applying the rules.
+- `#compare-submit` fails WCAG text contrast at both tested widths. Its
+  text colour needs correction in the maintained stylesheet and a new
+  verified release before the owner uploads it.
+
+Evidence: `artifacts/site-live-release-http-20261001.json`,
+`artifacts/site-live-quality-20261001.json`,
+`artifacts/site-live-tree-cls-20261001.json`,
+`artifacts/site-live-secondary-20261001.json`, and screenshots under
+`output/playwright/site-live-*-20261001.png`. These are lab observations,
+not production field measurements. No host configuration, site content,
+Git push or WikiTree edit was performed during verification.
