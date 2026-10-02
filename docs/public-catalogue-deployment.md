@@ -4,6 +4,28 @@ The generated `www/` directory is the complete website root. No hosting credenti
 
 The catalogue's maintained stylesheet is `tools/catalogue-light.css`. Both the catalogue builder and unified-site repair copy it to `www/people/catalogue.css`; a full catalogue build also restores the unified light `/catalogue/` shell. `tools/check_public_catalogue.py` flags a dark stylesheet or a reverted catalogue shell before release. Package a new archive after presentation changes so old CSS cache URLs and old bundles are not reused.
 
+## Current live release — 2 October 2026
+
+All findings from the delegated site audit are fixed and deployed to `https://glasgow.phenotype.dev/`. The maintained changes are listed in `docs/site-reader-audit.md`; implementation commit: `1160fe1f`. No Git push or live WikiTree edit was performed.
+
+Verified release: `www/glasgow-site-20261002-135909.tar.gz`, **148,779,924 bytes (148.78 decimal MB)**. Its 79,457 public files all match the local tree and embedded manifest; there are 79,458 rootless archive members. Gzip integrity passes. SHA-256: `1be3acb66a69f97856c4caf407d9b066a2f79aa0b5356a74abf434555f0cdc03`. This supersedes the earlier packages and pending-publication notes below.
+
+Validation passed:
+
+- 73 focused unit tests, 16 navigation/smoke tests, scoped Ruff and JavaScript syntax checks; deployment and smoke tests also passed after their final adjustments.
+- 733 generated-content checks, release totals, Atlas destinations, publication boundaries and asset versions.
+- 27 local browser cases at 320/390/1440 px, including serious/critical accessibility gates; maximum CLS 0.0921 and blocking time 139 ms. The catalogue update badge now has 6.87:1 contrast.
+- 26 journey checks at 1440/390 px both locally and on production. Five reader routes also passed desktop/mobile visual review. All 85 Free-space reading bodies retain their prior content.
+- Live smoke and catalogue probes; 20 sampled live pages/assets match the local release byte for byte. A final rsync dry-run reports no remaining changes.
+
+The original Nginx vhost and complete served tree were backed up under `/var/backups/glasgow/20261002-site-audit/` (`nginx.conf` and gzip-tested `site-before.tar.gz`). That private server backup is retained for rollback. Uploads preserve the server's file ownership rather than copying Mac user/group IDs; obsolete public export remnants and macOS metadata are removed by the reviewed release exclusions.
+
+Nginx now includes `/etc/nginx/conf.d/glasgow-cache-map.conf` in its HTTP context and `/etc/nginx/snippets/glasgow-cache-headers.conf` in this site's existing vhost. `nginx -t` and reload succeeded. Public Cloudflare responses confirm revalidation for HTML/unversioned data, one-year immutable caching for versioned assets and hash-named payloads, `no-store` on a missing versioned asset, and retained immutable policy on a conditional 304. Existing routing and TLS configuration are preserved.
+
+The first post-upload smoke run stopped solely because its expected heading still said “The family atlas”; the maintained page correctly says “The family tree”. The check was corrected and passes. No content rollback or additional upload was needed.
+
+Evidence: `output/playwright/site-fixes-20261002/`, especially `bundle-verification.json`, `quality-local-final.json`, `journeys-live.log`, `http-live.json`, `smoke-live-final.log`, `catalogue-live.log`, `deploy-readback.log` and `nginx-install.log`. These are scoped verification results, not a new review of historical evidence or production field-performance measurements.
+
 ## Release
 
 1. If source data changed, rebuild with `.venv/bin/python tools/build_family_map.py`. For presentation-only changes, preserve the existing generated datasets.

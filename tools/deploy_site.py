@@ -123,7 +123,8 @@ def rsync_command(site_root: Path, target: str, dry_run: bool = True) -> list[st
     validate_release_tree(site_root)
     # Excluded files must also disappear from the public destination. Ordinary
     # --delete protects excluded old archives/raw assets on the receiver.
-    command = ["rsync", "-az", "--delete", "--delete-excluded", "--itemize-changes", "--safe-links"]
+    # Mac user/group IDs must not replace the serving host's ownership.
+    command = ["rsync", "-az", "--no-owner", "--no-group", "--delete", "--delete-excluded", "--itemize-changes", "--safe-links"]
     if dry_run:
         command.append("--dry-run")
     for pattern in EXCLUDE_PATTERNS:
