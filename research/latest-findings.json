@@ -3,6 +3,31 @@
   "scope": "Explicitly dated, recoverable new concrete record findings and supported factual corrections. Dates and explicit date ranges are research retrieval, supplied-record review or original-reading dates stated in the maintained evidence, not the dates of historical events or file modification. Undated historical conclusions, pure confirmations, speculative parent rankings, negative searches and routine profile/build activity are excluded. This is a recoverable dated history, not an exhaustive account of all past research.",
   "findings": [
     {
+      "id": "james-glasgow-prosperity-1740",
+      "found_on": "2026-10-02",
+      "kind": "biographical",
+      "finding": "James Glasgow is named in the Greenock arrival list headed “Greenock, August 12”: “The Prosperity of Irvine, James Glasgow, from Northcopen.” The item was published in The Caledonian Mercury on 18 August 1740, page 3.",
+      "status": "confirmed",
+      "qualification": "The ship–homeport–master–origin format supports reading James as the shipmaster. No age, relatives or personal residence are stated. Irvine is the ship’s homeport and Greenock the reporting locality; neither proves James’s birthplace. Northcopen is retained without an unverified modern-place identification. HOLD — one documentary occurrence, four compatible Irvine candidates. The original confirms the surname reading; it does not select a profile. No family relationship or profile occupation is changed.",
+      "people": [
+        {
+          "name": "James Glasgow, master of the Prosperity of Irvine",
+          "url": "/research/subjects/newspapers-early-glasgow/#james-glasgow-prosperity"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Caledonian Mercury, 18 August 1740, page 3, Greenock shipping list",
+          "url": "https://www.newspapers.com/image/394559372/"
+        }
+      ],
+      "detail_url": "/branches/scottish-families/#newspaper-394559372",
+      "provenance": [
+        "surname-research/indexes/glasgow-newspaper-review.json",
+        "surname-research/new-people/1740_Scotland_Greenock_James_Glasgow.md"
+      ]
+    },
+    {
       "id": "profile-matches-irish-households-20260930",
       "found_on": "2026-09-30",
       "kind": "biographical",

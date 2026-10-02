@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "reviewed_on": "2026-09-30",
+  "reviewed_on": "2026-10-02",
   "groups": [
     {
       "slug": "rathmalton-1673",
@@ -6797,6 +6797,75 @@
                 "Anderson-3241"
               ],
               "assessment": "Mergaret Androsoune is expressly David Mathy’s spouse in the 3 February 1550/51 Glasgow barn purchase. No age, birthplace, parents, children or death is stated. Anderson-3241 is a sparse compatible candidate with unknown dates, Scotland locality and an unsupported John Kelman spouse; no record proves identity or a conflict. The spouse clause is certain for the documentary couple, while her existing-profile identity remains unresolved."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "newspapers-early-glasgow",
+      "title": "James Glasgow’s 1740 shipping record",
+      "introduction": "An original newspaper occurrence with compatible existing Irvine profiles. See the Scottish families chronological newspaper review for the full early batch and its limits.",
+      "people": [
+        {
+          "anchor": "james-glasgow-prosperity",
+          "name": "James Glasgow, master of the Prosperity of Irvine",
+          "status": "HOLD — compatible profiles linked",
+          "identity_note": "HOLD — one documentary occurrence, four compatible Irvine candidates. The original confirms the surname reading; it does not select a profile. No family relationship or profile occupation is changed.",
+          "minimum_fields": "Given name James; LNAB Glasgow; male inferred from given name and shipping context. Exact birth/death dates and places unknown. Recorded in the Greenock shipping report dated 12 August 1740. Likely shipmaster of the Prosperity of Irvine; no parents, spouse or children stated. Leave birth location blank rather than converting a ship homeport into a birthplace.",
+          "facts": [
+            {
+              "finding_id": "james-glasgow-prosperity-1740",
+              "finding": "James Glasgow is named in the Greenock arrival list headed “Greenock, August 12”: “The Prosperity of Irvine, James Glasgow, from Northcopen.” The item was published in The Caledonian Mercury on 18 August 1740, page 3.",
+              "qualification": "The ship–homeport–master–origin format supports reading James as the shipmaster. No age, relatives or personal residence are stated. Irvine is the ship’s homeport and Greenock the reporting locality; neither proves James’s birthplace. Northcopen is retained without an unverified modern-place identification.",
+              "sources": [
+                {
+                  "title": "The Caledonian Mercury, 18 August 1740, page 3, Greenock shipping list",
+                  "url": "https://www.newspapers.com/image/394559372/"
+                }
+              ]
+            }
+          ],
+          "candidates": [
+            {
+              "id": "Glasgow-4158",
+              "reason": "Adult Irvine father named with Margaret Rae in 1721 and Marion Rae in 1723; plausible chronology and locality. Glasgow-4164 was merged into this profile on 27 September 2026. No occupation or shipping bridge is documented."
+            },
+            {
+              "id": "Glasgow-4100",
+              "reason": "Baptized at Irvine on 19 August 1711, son of John Glasgow and Isabell Kelle/Kyle. About 29 in 1740; no later-life or occupational bridge establishes identity."
+            },
+            {
+              "id": "Glasgow-4129",
+              "reason": "Baptized at Irvine on 11 April 1721, son of Glasgow-4158 and Margaret Rae. About 19 in 1740; youth alone does not exclude him, and no shipping bridge is known."
+            },
+            {
+              "id": "Glasgow-4157",
+              "reason": "Adult Irvine father with Helen Nasmith, with children recorded in 1741, 1743 and 1747. Compatible time and place; no occupational bridge establishes identity."
+            }
+          ],
+          "duplicate_check": [
+            "Live WikiTree searchPerson FirstName=James, LastName=Glasgow reviewed on 2 October 2026; all 308 returned matches captured across offsets 0, 100, 200 and 300. Only Open, non-living historical candidate data used in the public assessment.",
+            "Live getBio reviewed for Glasgow-4158, Glasgow-4100, Glasgow-4129 and Glasgow-4157. These four Irvine profiles remain compatible; no exclusive identification was found. Other same-name historical profiles without a proven locality bridge were not categorically excluded.",
+            "No separate surname person is inferred from the 39 city/vessel matched pages. Do not create a new profile from this occurrence until duplicate review resolves the compatible candidates.",
+            "No uncertain-to-certain relationship change follows from this shipping report."
+          ],
+          "next_test": "Search other Prosperity of Irvine voyages, port/customs records, masters’ bonds and Irvine parish/merchant records for an occupation, relative or address linking this master to a candidate. Continue uncaptured Glascow results, other variants and later issues in chronological batches.",
+          "draft_sources": [
+            "surname-research/new-people/1740_Scotland_Greenock_James_Glasgow.md"
+          ],
+          "wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\n'''James Glasgow''' appears in a shipping report headed ''Greenock, August 12'', published on 18 August 1740. The arrival list reads: “The Prosperity of Irvine, James Glasgow, from Northcopen.”<ref>''The Caledonian Mercury'', 18 August 1740, page 3, Greenock shipping list. [https://www.newspapers.com/image/394559372/ Newspapers.com image 394559372], original scan inspected 2 October 2026.</ref>\n\nThe list places his name in the position used for a ship's master. The report therefore supports identifying him as the master of the ''Prosperity of Irvine''. No age, relatives or personal residence is given. His birth and death remain unknown.\n\n== Research Notes ==\nThis is a documentary-person evidence draft on HOLD, not a finding that a new person needs to be created. [[Glasgow-4158]], [[Glasgow-4100]], [[Glasgow-4129]] and [[Glasgow-4157]] are compatible Irvine candidates after live profile review on 2 October 2026. The first is an adult father in 1721/1723; the second and third were baptized in 1711 and 1721; the fourth is a father with Helen Nasmith in 1741–1747. No occupational or family bridge selects one of them. Other historical namesakes have not been excluded solely for missing locality fields.\n\n“Irvine” describes the vessel's homeport; “Greenock” is the reporting locality. Neither establishes James's birthplace or residence. “Northcopen” is retained as printed, without an unverified modern-place identification. No parent, spouse or child should be attached from this report.\n\n== Sources ==\n<references />\n",
+          "record_matches": [
+            {
+              "finding_id": "james-glasgow-prosperity-1740",
+              "status": "compatible_candidate",
+              "profile_ids": [
+                "Glasgow-4158",
+                "Glasgow-4100",
+                "Glasgow-4129",
+                "Glasgow-4157"
+              ],
+              "assessment": "HOLD — one documentary occurrence, four compatible Irvine candidates. The original confirms the surname reading; it does not select a profile. No family relationship or profile occupation is changed."
             }
           ]
         }

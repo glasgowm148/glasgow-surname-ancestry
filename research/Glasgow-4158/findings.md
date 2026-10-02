@@ -1,6 +1,6 @@
 # James Glasgow (Glasgow-4158): parent identity review
 
-Last updated: 2026-09-26
+Last updated: 2026-10-02
 
 ## Current conclusion — 27 September 2026
 
@@ -21,3 +21,15 @@ A parish baptism at Irvine, Ayrshire names James Glasgow and Margaret Rae as par
 ## Unresolved questions
 
 - Inspect the original baptisms for residence, occupation, witnesses or marginal notes, and search intervening marriage/burial entries to determine whether this father was the same person as Glasgow-4164. Do not infer that Margaret Rae and Marion Rae are the same woman or that one man remarried solely from the matching father name.
+
+## Source findings — newspaper review, 2 October 2026
+
+James Glasgow is named in the Greenock arrival list headed “Greenock, August 12”: “The Prosperity of Irvine, James Glasgow, from Northcopen.” The item was published in The Caledonian Mercury on 18 August 1740, page 3. [Original newspaper scan](https://www.newspapers.com/image/394559372/). The ship–homeport–master–origin format supports reading James as the shipmaster. No age, relatives or personal residence are stated. Irvine is the ship’s homeport and Greenock the reporting locality; neither proves James’s birthplace. Northcopen is retained without an unverified modern-place identification.
+
+## Identity assessment — 1740 shipmaster candidate
+
+Adult Irvine father named with Margaret Rae in 1721 and Marion Rae in 1723; plausible chronology and locality. Glasgow-4164 was merged into this profile on 27 September 2026. No occupation or shipping bridge is documented. This is a possible association only. HOLD — one documentary occurrence, four compatible Irvine candidates. The original confirms the surname reading; it does not select a profile. No family relationship or profile occupation is changed. [Consolidated source account and candidate review](https://glasgow.phenotype.dev/research/subjects/newspapers-early-glasgow/#james-glasgow-prosperity).
+
+## Next records — newspaper identity
+
+Search other Prosperity of Irvine voyages, port/customs records, masters’ bonds and Irvine parish/merchant records for an occupation, relative or address linking this master to a candidate. Continue uncaptured Glascow results, other variants and later issues in chronological batches.

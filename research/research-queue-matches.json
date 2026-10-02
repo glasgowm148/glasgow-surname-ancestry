@@ -11925,6 +11925,26 @@
       "source_refs": [
         "research/queue-resolution-2026-09-30/older-records.json"
       ]
+    },
+    "subject-newspapers-early-glasgow-james-glasgow-prosperity": {
+      "id": "subject-newspapers-early-glasgow-james-glasgow-prosperity",
+      "status": "compatible_candidate",
+      "profile_ids": [
+        "Glasgow-4158",
+        "Glasgow-4100",
+        "Glasgow-4129",
+        "Glasgow-4157"
+      ],
+      "assessment": "Original 1740 shipping passage inspected. Four live Irvine biographies remain compatible; no occupation, age or family bridge identifies the master. Keep one consolidated occurrence on HOLD and do not create or amend a profile from the report alone.",
+      "reviewed_on": "2026-10-02",
+      "source_refs": [
+        "surname-research/indexes/glasgow-newspaper-review.json",
+        "surname-research/new-people/1740_Scotland_Greenock_James_Glasgow.md"
+      ],
+      "searches_performed": [
+        "All 308 live searchPerson James Glasgow returns captured across offsets 0, 100, 200, 300; historical Open non-living candidates considered.",
+        "Live getBio compared for the four Irvine candidates; other namesakes not excluded merely for missing locality fields."
+      ]
     }
   },
   "summary": {

@@ -12,3 +12,15 @@ James Glasgow was baptised at Irvine, Ayrshire, on 11 Apr 1721. The parish regis
 ## Unresolved questions
 
 - Check the underlying record image, where available, for any explicit sex evidence. Keep the name-based field uncertain unless stronger evidence is found.
+
+## Source findings — newspaper review, 2 October 2026
+
+James Glasgow is named in the Greenock arrival list headed “Greenock, August 12”: “The Prosperity of Irvine, James Glasgow, from Northcopen.” The item was published in The Caledonian Mercury on 18 August 1740, page 3. [Original newspaper scan](https://www.newspapers.com/image/394559372/). The ship–homeport–master–origin format supports reading James as the shipmaster. No age, relatives or personal residence are stated. Irvine is the ship’s homeport and Greenock the reporting locality; neither proves James’s birthplace. Northcopen is retained without an unverified modern-place identification.
+
+## Identity assessment — 1740 shipmaster candidate
+
+Baptized at Irvine on 11 April 1721, son of Glasgow-4158 and Margaret Rae. About 19 in 1740; youth alone does not exclude him, and no shipping bridge is known. This is a possible association only. HOLD — one documentary occurrence, four compatible Irvine candidates. The original confirms the surname reading; it does not select a profile. No family relationship or profile occupation is changed. [Consolidated source account and candidate review](https://glasgow.phenotype.dev/research/subjects/newspapers-early-glasgow/#james-glasgow-prosperity).
+
+## Next records — newspaper identity
+
+Search other Prosperity of Irvine voyages, port/customs records, masters’ bonds and Irvine parish/merchant records for an occupation, relative or address linking this master to a candidate. Continue uncaptured Glascow results, other variants and later issues in chronological batches.

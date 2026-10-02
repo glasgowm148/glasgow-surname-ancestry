@@ -969,6 +969,8 @@ def main() -> int:
         changed.update(opr_marriages["repair"]())
         opr_births = runpy.run_path(str(ROOT / "tools/publish_opr_birth_review.py"))
         changed.update(opr_births["repair"]())
+        newspapers = runpy.run_path(str(ROOT / "tools/publish_newspaper_review.py"))
+        changed.update(newspapers["repair"]())
         changed.update(repair_analytics(WEB))
         access = runpy.run_path(str(ROOT / 'tools/publish_research_release.py'))
         access['publish']()

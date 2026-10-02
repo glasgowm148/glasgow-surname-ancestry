@@ -1,5 +1,11 @@
 # WikiTree work queue
 
+## Early newspaper batch — 2 October 2026
+
+| Documentary entry | Status | Handoff |
+| --- | --- | --- |
+| James Glasgow, master-position entry for the Prosperity of Irvine; Greenock report, 12 August 1740, published 18 August | **HOLD — compatible Irvine profiles Glasgow-4158, Glasgow-4100, Glasgow-4129 and Glasgow-4157; identity unresolved.** No live profile occupation, vital field or family change is authorized by this occurrence alone. | [Complete evidence draft](new-people/1740_Scotland_Greenock_James_Glasgow.md) · [Chronological review](indexes/glasgow-newspaper-review.json) · [Public source account](https://glasgow.phenotype.dev/research/subjects/newspapers-early-glasgow/#james-glasgow-prosperity) |
+
 ## Alexander and Nancy Glasgow — 29 September 2026
 
 New original evidence and competing parentage tests are synchronized locally. John Glasgow, farmer, remains Alexander's probable father; no family-link upgrade is proposed. Nancy's contemporary death notice confirms 31 October 1891 at Plattsburgh, adds the Peristrome funeral and reports about 75, conflicting with her will's age. Complete additive drafts preserve the captured live biographies and citations:
