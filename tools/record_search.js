@@ -12,16 +12,39 @@
   const dataUrl=new URL('../data/records-index.json',document.currentScript?.src||location.href);
   const normalise=value=>String(value||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/\b(?:glasco|glascow|glasgo|glascoe|glassco|glassgow|glasow|glasoe|glassgo|glasko)\b/g,'glasgow');
   const esc=value=>String(value==null?'':value).replace(/[&<>"]/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[char]));
-  const params=new URLSearchParams(location.search);
+  let params=new URLSearchParams(location.search);
   controls.query.value=params.get('q')||'';
   ['from','to','region','category','quality','status','sort'].forEach(key=>{if(controls[key])controls[key].value=params.get(key)||controls[key].value||'';});
-  let records=[],page=Math.max(0,(Number(params.get('page'))||1)-1),scopeIds=null,scopeLabel='',loaded=false;
+  const countryRegions={scotland:['Scotland','Scotland / England'],ireland:['Ireland'],america:['United States'],canada:['Canada'],oceania:['Australia','New Zealand'],england:['England','Wales','Scotland / England'],australia:['Australia'],nz:['New Zealand'],'new-zealand':['New Zealand'],newzealand:['New Zealand'],'new zealand':['New Zealand'],wales:['Wales']};
+  const selectedCountry=()=>String(params.get('country')||'').trim().toLowerCase();
+  const knownRegions=new Set(Object.values(countryRegions).flat());
+  const inheritedRegions=countryRegions[selectedCountry()];
+  if(!params.has('region')&&inheritedRegions?.length===1)controls.region.value=inheritedRegions[0];
+  let records=[],page=Math.max(0,(Number(params.get('page'))||1)-1),scopeIds=null,scopeLabel='',loaded=false,scopeSerial=0,scopeBusy=false;
   const canonical=value=>window.GlasgowResearch?.canonical?.(value)||String(value||'').toLowerCase();
+  async function syncScope(){
+    const serial=++scopeSerial,R=window.GlasgowResearch,context=R?.context();scopeBusy=true;scopeIds=new Set();
+    params=new URLSearchParams(location.search);
+    try{
+      const ids=context&&['person','branch'].includes(context.kind)?await R.scopeIds(context):null;
+      if(serial!==scopeSerial)return;
+      scopeIds=ids;scopeLabel=context?.name||params.get('place')||'';
+      const scope=document.querySelector('#records-scope');
+      if(scope){scope.hidden=!scopeLabel;scope.textContent=scopeLabel?`Showing records for ${scopeLabel}.`:'';}
+    }finally{if(serial===scopeSerial)scopeBusy=false;}
+  }
   function badge(value,kind='evidence'){const status=String(value||'unknown').replaceAll('_','-');const labels={unknown:kind==='evidence'?'Evidence unassessed':'Unclassified',derivative:'Index / transcription',tree_only:'Tree / profile only',candidate:'Possible source match',unresolved:'Citation needed',explicit:'Source cited'};return `<span class="evidence-badge evidence-${esc(status)}">${esc(labels[value]||String(value||'unknown').replaceAll('_',' '))}</span>`;}
   function pager(total){const pages=Math.ceil(total/pageSize);return pages<2?'':`<nav class="record-pagination" aria-label="Record result pages"><button type="button" data-record-page="${page-1}" ${page===0?'disabled':''}>Previous</button><span>Page ${page+1} of ${pages}</span><button type="button" data-record-page="${page+1}" ${page>=pages-1?'disabled':''}>Next</button></nav>`;}
   function updateUrl(){const next=new URLSearchParams();['person','branch','place','scope','country'].forEach(key=>{if(params.has(key))next.set(key,params.get(key));});Object.entries(controls).forEach(([key,control])=>{if(control?.value.trim())next.set(key==='query'?'q':key,control.value.trim());});if(page)next.set('page',page+1);history.replaceState(null,'',`${location.pathname}${next.size?`?${next}`:''}`);}
   function render(){
-    if(!loaded)return;
+    if(!loaded||scopeBusy)return;
+    const country=selectedCountry(),regions=countryRegions[country];
+    if(country&&country!=='other'&&!Object.hasOwn(countryRegions,country)){
+      count.textContent='Unsupported country filter';
+      const clear=new URL(location.href);clear.searchParams.delete('country');
+      out.innerHTML=`<p class="notice">The country filter “${esc(params.get('country'))}” is not supported. <a href="${esc(clear.pathname+clear.search+clear.hash)}">Remove this filter</a>.</p>`;
+      return;
+    }
     const terms=normalise(controls.query.value).trim().split(/\s+/).filter(Boolean);
     let from=parseInt(controls.from.value,10),to=parseInt(controls.to.value,10);
     if(!Number.isFinite(from)) from=null;if(!Number.isFinite(to)) to=null;
@@ -32,6 +55,7 @@
       if(from!==null&&(record.filter_year===null||record.filter_year<from)) return false;
       if(to!==null&&(record.filter_year===null||record.filter_year>to)) return false;
       if(controls.region.value&&record.region!==controls.region.value) return false;
+      if(country&&(regions?!regions.includes(record.region):country==='other'&&knownRegions.has(record.region))) return false;
       if(controls.category.value&&!String(record.record_category||'').includes(controls.category.value)) return false;
       if(controls.quality.value&&record.supporting_source_quality!==controls.quality.value) return false;
       if(controls.status.value&&record.supporting_source_status!==controls.status.value) return false;
@@ -68,10 +92,8 @@
         await timed(R.ready);
         const context=R.context(),key=params.has('branch')?'branch':'person';
         if(!context||context.kind!==key||canonical(context.id)!==canonical(params.get(key)))throw Error('The selected research scope could not be found.');
-        scopeIds=await timed(R.scopeIds(context));scopeLabel=context.name;
-      }else if(params.has('place'))scopeLabel=params.get('place');
-      const scope=document.querySelector('#records-scope');
-      if(scope){scope.hidden=!scopeLabel;scope.textContent=scopeLabel?`Showing records for ${scopeLabel}.`:'';}
+      }
+      await timed(syncScope());
       const response=await fetch(dataUrl,{signal:controller.signal});
       if(!response.ok)throw Error(`Record data could not be loaded (${response.status}).`);
       const data=await response.json();
@@ -83,6 +105,11 @@
       out.querySelector('#record-retry')?.addEventListener('click',load);
     }finally{clearTimeout(timer)}
   }
+  document.addEventListener('glasgow:context',()=>{
+    page=0;count.textContent='Updating record scope…';out.innerHTML='';
+    const pending=syncScope(),serial=scopeSerial;
+    pending.then(()=>{if(serial===scopeSerial)render();}).catch(error=>{if(serial!==scopeSerial)return;count.textContent='Record search unavailable';out.innerHTML=`<p class="notice">${esc(error.message)}</p>`;});
+  });
   Object.values(controls).forEach(control=>control?.addEventListener(control.tagName==='SELECT'?'change':'input',()=>{page=0;render();}));
   reset?.addEventListener('click',()=>{Object.values(controls).forEach(control=>{if(control)control.value='';});if(controls.sort)controls.sort.value='date-asc';page=0;render();controls.query.focus();});
   load();

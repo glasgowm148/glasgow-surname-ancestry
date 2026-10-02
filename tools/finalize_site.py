@@ -21,7 +21,15 @@ def finalize(site_root=ROOT/'www'):
     from tools.catalogue_theme import write_catalogue_css
     from tools.repair_person_hierarchy import CSS as person_css
     from tools.site_analytics import with_analytics
-    counts=Counter(build_search(site_root))
+    from tools.repair_release_readiness import snapshot, about_dates
+    from datetime import date
+    from tools.publish_reviewed_collections import publish as publish_collections
+    counts=Counter(publish_collections(site_root))
+    health_path=site_root/'health.json'
+    generated=date.fromisoformat(json.loads(health_path.read_text())['generated']) if health_path.exists() else None
+    manifest_path=site_root/'data/manifest.json'
+    manifest=json.loads(manifest_path.read_text()) if manifest_path.exists() else {}
+    counts.update(build_search(site_root))
     build_atlas(site_root)
     write_catalogue_css(site_root/'people/catalogue.css')
     (site_root/'assets/repair/person-hierarchy.css').write_text(person_css)
@@ -31,10 +39,12 @@ def finalize(site_root=ROOT/'www'):
         if not path.exists():continue
         before=path.read_text();after=apply_layout(before)
         if after!=before:path.write_text(after)
-    copies={'people/search.js':'catalogue_search.js','people/profile-update.js':'profile_update.js','assets/research/branches-directory.js':'branches_directory.js','assets/research/core.js':'site_sources/performance/core.js','assets/research/search-worker.js':'site_sources/performance/search-worker.js','assets/unified/site-metrics.js':'site_metrics.js'}
+    copies={'people/search.js':'catalogue_search.js','people/profile-update.js':'profile_update.js','records/search.js':'record_search.js','assets/research/branches-directory.js':'branches_directory.js','assets/research/core.js':'site_sources/performance/core.js','assets/unified/site-metrics.js':'site_metrics.js'}
     for dest,src in copies.items():
         path=site_root/dest;content=(ROOT/'tools'/src).read_text()
         if not path.exists() or path.read_text()!=content:path.parent.mkdir(parents=True,exist_ok=True);path.write_text(content)
+    from tools.site_search import install_search
+    counts.update(install_search(site_root))
     # No raw research or per-person private metadata enters this public hash map.
     paths=set()
     for folder in ['data','assets/research','assets/v3']:
@@ -54,6 +64,10 @@ def finalize(site_root=ROOT/'www'):
         # Supplied reference editions have exact publication approval; their
         # original presentation is preserved apart from existing cache versions.
         reference = path.relative_to(site_root).parts[0]=='reference'
+        if generated and not reference:
+            after=snapshot(after,generated)
+            if path.relative_to(site_root).as_posix()=='about/index.html':
+                after=about_dates(after,generated,manifest)
         tree = 'g-kind-tree' in after
         if reference or not tree:
             after=re.sub(r'<link\b[^>]*href="/assets/unified/performance\.css[^>]*>', '', after)
@@ -75,6 +89,8 @@ def finalize(site_root=ROOT/'www'):
         if not stale:break
     if stamp(site_root,write=False)[1]:raise ValueError('Asset versions did not settle')
     write_cache_rules(site_root)
+    from tools.site_sitemap import build_sitemap
+    counts.update(build_sitemap(site_root))
     return dict(counts)
 
 

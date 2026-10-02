@@ -49,11 +49,23 @@ def public_text(text, policy, page_id=''):
     return result,removed
 
 
+def sentence_excerpt(text, limit=270):
+    """Prefer whole sentences; otherwise truncate at a word boundary visibly."""
+    text = ' '.join(text.split())
+    if len(text) <= limit:
+        return text
+    head = text[:limit - 1]
+    endings = list(re.finditer(r'[.!?](?:[”\"\']?)(?=\s|$)', head))
+    if endings:
+        return head[:endings[-1].end()] + '…'
+    return head.rsplit(' ', 1)[0].rstrip(',;:—–-') + '…'
+
+
 def excerpt(text):
     for block in re.split(r"\n\s*\n",text):
         if block.lstrip().startswith(('[[Category:','{{','<small>','{|','=','*','#','<references')):continue
         plain=mw.parse(block).strip_code().strip()
-        if len(plain)>85:return " ".join(plain.split())[:270]
+        if len(plain)>85:return sentence_excerpt(plain)
     return 'A historical research account with its original source references.'
 
 
@@ -234,10 +246,17 @@ class Renderer:
         return str(soup)
 
 
-def shell_page(shell,main,title,path):
+def shell_page(shell,main,title,path,description=None):
     from tools.site_analytics import with_analytics
     soup=BeautifulSoup(shell,'html.parser')
     soup.title.string=title+' · Glasgow surname archive'
+    for tag in soup.select('meta[name="description"],link[rel="canonical"]'):
+        tag.decompose()
+    soup.head.append(soup.new_tag('meta', attrs={'name': 'description', 'content': description or f'{title}: Glasgow surname research, source references and current questions.'}))
+    canonical = '/' + path.lstrip('/')
+    if canonical.endswith('index.html'):
+        canonical = canonical[:-len('index.html')]
+    soup.head.append(soup.new_tag('link', rel='canonical', href='https://glasgow.phenotype.dev' + canonical))
     for old in soup.select('link[href*="/assets/free-space/"],script[src*="/assets/free-space/"]'):old.decompose()
     soup.head.append(soup.new_tag('link',rel='stylesheet',href='/assets/free-space/site.css?v=edition'))
     soup.body.append(soup.new_tag('script',defer='',src='/assets/free-space/site.js?v=edition'))
@@ -268,6 +287,16 @@ COLLECTIONS = (
     ('Project and methods', 'methods', 'The project & its methods', 'Research guides · scope · sources'),
 )
 
+# Reader introductions to existing studies, separate from full evidence warnings.
+COLLECTION_PREVIEWS = {
+    'early': 'Read the medieval name occurrences and the explicit father–son statements. The records do not establish one continuous medieval pedigree.',
+    'scotland': 'Begin with the structured Glasgow burgh protocol index: property transactions, named spouses and family statements. The wider notebook preserves older leads and theories that still need checking.',
+    'ireland': 'Follow the early Ulster households and the Archibald–Thomas father statement. Identifying that son with the Lifford adult remains strongly probable; wider family connections are unresolved.',
+    'families': 'Compare the proposed parents of John Glasgow, born about 1751 in County Antrim. Robert of Kilwaughter and James remain candidates; no inspected record states the proposed relationships.',
+    'dna': 'Compare Y-DNA paternal groups with documented father-to-son lines. Shared ancestry and estimated branch ages do not by themselves identify a missing named ancestor.',
+    'methods': 'Use the research directory to choose a person, place, record group or family question, then follow its evidence and current assessment.',
+}
+
 COLLECTION_ICONS = {
     'early': '<path d="M12 38h24M16 38V20l8-12 8 12v18M16 20h16M22 38V28h4v10M22 20v-6h4v6M8 38h4V26H8v12m28 0h4V26h-4"/>',
     'scotland': '<path d="M9 10h23l7 7v23H9V10m23 0v8h7M15 24h18M15 29h18M15 34h11"/>',
@@ -284,7 +313,7 @@ def collection_icon(slug):
 
 def study_preview(page):
     """Use the existing conclusion, keeping its qualifications, or a public excerpt."""
-    return page['summary']['conclusion'] if page.get('summary') else excerpt((ROOT / page['editionFile']).read_text())
+    return sentence_excerpt(page['summary']['conclusion']) if page.get('summary') else excerpt((ROOT / page['editionFile']).read_text())
 
 
 def display_title(page):
@@ -312,7 +341,7 @@ def directory_main(pages, cards):
         assessment = f'<span class="fsp-assessment">{escape(lead["summary"]["confidence"])}</span>' if lead.get('summary') else ''
         shelves.append(f'''<section class="fsp-collection fsp-collection-{slug}" id="collection-{slug}" aria-labelledby="collection-{slug}-title">
 <div class="fsp-collection-head"><div class="fsp-collection-emblem">{collection_icon(slug)}</div><div><span class="fsp-collection-scope">{escape(scope)}</span><h3 id="collection-{slug}-title">{escape(label)}</h3></div><span class="fsp-collection-total"><strong>{count}</strong> studies</span></div>
-<div class="fsp-collection-body"><div class="fsp-lead-study"><span class="fsp-small-label">Principal study</span><h4><a href="{lead['url']}" title="{escape(lead['title'].replace(chr(39)*2, ''), quote=True)}">{escape(display_title(lead))}</a></h4>{assessment}<p>{escape(study_preview(lead))}</p><a class="fsp-study-action" href="{lead['url']}">Read the study <span aria-hidden="true">→</span></a></div><div class="fsp-collection-more"><span class="fsp-small-label">Continue reading</span><ul>{links}</ul><button type="button" class="fsp-collection-button" data-fsp-topic="{escape(category, quote=True)}" data-description="{escape(TOPICS[category], quote=True)}" aria-pressed="false">Browse all {count} studies <span aria-hidden="true">→</span></button></div></div></section>''')
+<div class="fsp-collection-body"><div class="fsp-lead-study"><span class="fsp-small-label">Principal study</span><h4><a href="{lead['url']}" title="{escape(lead['title'].replace(chr(39)*2, ''), quote=True)}">{escape(display_title(lead))}</a></h4>{assessment}<p>{escape(COLLECTION_PREVIEWS[slug])}</p><a class="fsp-study-action" href="{lead['url']}">Read the study <span aria-hidden="true">→</span></a></div><div class="fsp-collection-more"><span class="fsp-small-label">Continue reading</span><ul>{links}</ul><button type="button" class="fsp-collection-button" data-fsp-topic="{escape(category, quote=True)}" data-description="{escape(TOPICS[category], quote=True)}" aria-pressed="false">Browse all {count} studies <span aria-hidden="true">→</span></button></div></div></section>''')
         if slug in ('early', 'scotland', 'ireland', 'dna'):
             quicklabels = {'early': 'Early names', 'scotland': 'Scottish records', 'ireland': 'Irish branches', 'dna': 'DNA studies'}
             quicklinks.append(f'<a href="#collection-{slug}" data-fsp-collection-anchor="{slug}">{collection_icon(slug)}<span>{quicklabels[slug]}<small>{count} studies</small></span><span aria-hidden="true">↓</span></a>')
@@ -332,7 +361,7 @@ def build_site(source,pages,studies):
     cards=[];index=[]
     for p in pages:
         summary=p.get('summary');description=summary['conclusion'] if summary else (excerpt((ROOT/p['editionFile']).read_text()) if p['bodyStatus']!='Blank source' else 'The saved WikiTree source is blank; related complete studies are linked on its reading page.')
-        description=description[:270]+('…' if len(description)>270 else '')
+        description=sentence_excerpt(description)
         search=' '.join((p['title'],p['category'],p['wikitreeId'],p.get('location',''),p.get('startDate',''),p.get('endDate',''),' '.join(p.get('tags',[])),description)).casefold()
         dates='–'.join(dict.fromkeys(str(p.get(k,'')) for k in ('startDate','endDate') if p.get(k)))
         facts=''.join(f'<span>{escape(value)}</span>' for value in (dates,p.get('location',''),p['bodyStatus'] if p['bodyStatus']=='Blank source' else '') if value)
@@ -362,10 +391,11 @@ def build_site(source,pages,studies):
             diff_html='<details><summary>Last retrieved WikiTree text and proposed changes</summary><label>Last retrieved WikiTree text<textarea readonly>'+escape(remote)+'</textarea></label><pre>'+escape(difference or 'The public reading texts match.')+'</pre></details>'
         sync_panel=f'<section class="fsp-sync" id="wikitree-comparison"><h2>WikiTree and this edition</h2><p><strong>{escape(status)}</strong></p><p>Saved source: {escape(p["capturedAt"][:10])}. '+(f'Last checked: {escape(sync["checkedAt"])}. ' if sync.get('checkedAt') else '')+'Local corrections are preserved; differences are reviewed before either edition is replaced.</p><p><a href="'+escape(p['viewUrl'],quote=True)+'" rel="noopener">Open the WikiTree page ↗</a> · <a href="/free-space/#edition-updates">How updates are reconciled</a></p>'+diff_html+'<details><summary>Complete local WikiTree draft</summary><p>This is the public-safe local text, ready for review. A live WikiTree save is a separate action.</p><label>Local replacement text<textarea readonly>'+escape(source_text)+'</textarea></label></details></section>'
         main=f'<main class="r-main fsp-main" id="main"><header class="r-page-head"><span class="r-kicker">{escape(p["category"])}</span><h1>{escape(p["title"].replace(chr(39)*2,""))}</h1><p>A maintained local edition of the research, with the original sources and assessments.</p><nav class="r-actions"><a href="/free-space/">← Research library</a><a href="{escape(p["viewUrl"],quote=True)}" rel="noopener">WikiTree edition ↗</a><a href="#wikitree-comparison">Compare editions</a></nav></header>{position}{notice}<div class="fsp-reading-layout"><aside class="fsp-contents"><details open><summary>On this page</summary><ol>{contents}</ol></details></aside><article class="fsp-reading">{body}{sync_panel}</article></div></main>'
-        target=web/p['url'].strip('/')/'index.html';target.parent.mkdir(parents=True,exist_ok=True);target.write_text(shell_page(shell,main,p['title'],p['url']+'index.html'))
+        meta_description = p['title'].replace(chr(39)*2, '') + ': ' + description
+        target=web/p['url'].strip('/')/'index.html';target.parent.mkdir(parents=True,exist_ok=True);target.write_text(shell_page(shell,main,p['title'],p['url']+'index.html',meta_description))
         index.append({k:p.get(k,'') for k in ('wikitreeId','title','viewUrl','category','editDate','verifiedDate','startDate','endDate','location','tags','url','importance','bodyStatus')}|{'availability':'Local reading edition','summaryUrl':p['url'],'syncStatus':status})
     main=directory_main(pages,cards)
-    target=web/'free-space/index.html';target.parent.mkdir(parents=True,exist_ok=True);target.write_text(shell_page(shell,main,'Free-space research library','/free-space/index.html'))
+    target=web/'free-space/index.html';target.parent.mkdir(parents=True,exist_ok=True);target.write_text(shell_page(shell,main,'Free-space research library','/free-space/index.html','Browse Glasgow surname studies by topic: medieval names, Scottish records, Irish families, open questions and Y-DNA, with full local research and source references.'))
     (web/'assets/research/free-space-index.json').write_text(json.dumps(index,ensure_ascii=False,separators=(',',':')))
     for suffix in ('css','js'):
         dest=web/'assets/free-space'/('site.'+suffix);dest.parent.mkdir(parents=True,exist_ok=True);dest.write_text((ROOT/'tools'/('free_space_edition.'+suffix)).read_text())

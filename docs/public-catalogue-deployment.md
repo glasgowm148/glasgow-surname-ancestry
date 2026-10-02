@@ -1,6 +1,6 @@
 # Public catalogue deployment
 
-The generated `www/` directory is the complete website root. No hosting credentials or deployment configuration are stored in this repository.
+The generated `www/` directory is the complete website root. No hosting credentials are stored in this repository. The owner confirmed the SSH deployment target on 2 October 2026: `root@23.88.104.255:/var/www/glasgow`, using the existing local SSH key. This is a real directory, not an atomic-release symlink; review the rsync dry-run and retain a private server backup before uploading.
 
 The catalogue's maintained stylesheet is `tools/catalogue-light.css`. Both the catalogue builder and unified-site repair copy it to `www/people/catalogue.css`; a full catalogue build also restores the unified light `/catalogue/` shell. `tools/check_public_catalogue.py` flags a dark stylesheet or a reverted catalogue shell before release. Package a new archive after presentation changes so old CSS cache URLs and old bundles are not reused.
 
@@ -15,7 +15,7 @@ The catalogue's maintained stylesheet is `tools/catalogue-light.css`. Both the c
 
 Preparing local files or passing local checks is not a production deployment. The host upload remains a separate authorized manual step.
 
-After any targeted data or page update, run `.venv/bin/python tools/publish_research_release.py` before packaging. This resolves approved structured assessments while retaining imported provenance, renders source evidence into static HTML, and refreshes the small indexes and `/data/manifest.json`. The unified presentation repair also runs this finalization step. The manifest's build fingerprint and assembly timestamp describe the exported data; its research date is independently derived from dated findings and reviews. Full `people.json` remains explicitly labelled as an imported snapshot. Free-space summary inputs live in `research/free-space-pages/public-study-summaries.json` and are published by `tools/build_free_space_site.py`.
+After any targeted data or page update, run `.venv/bin/python -m tools.publish_research_release` before packaging. This resolves approved structured assessments while retaining imported provenance, renders source evidence into static HTML, and refreshes the small indexes and `/data/manifest.json`. The unified presentation repair also runs this finalization step. The manifest's build fingerprint and assembly timestamp describe the exported data; its research date is independently derived from dated findings and reviews. Full `people.json` remains explicitly labelled as an imported snapshot. Free-space summary inputs live in `research/free-space-pages/public-study-summaries.json` and are published by `tools/build_free_space_site.py`.
 
 For server reuploads, place the finished bundle at `www/glasgow-site-YYYYMMDD-HHMMSS.tar.gz`. Assemble it outside `www/` first, excluding earlier `glasgow-site-*.tar.gz` bundles and macOS metadata, then move the verified archive into `www/`. Put the website contents directly at archive root so extraction updates the server's document root without adding a nested `www/` directory. Report the exact byte size and decimal MB; label binary MiB explicitly.
 

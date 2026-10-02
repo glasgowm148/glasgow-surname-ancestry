@@ -46,6 +46,7 @@ class PageSemantics(HTMLParser):
         self.title = ""
         self.h1: list[str] = []
         self.person_ids: list[str] = []
+        self.body_classes: set[str] = set()
         self._title = False
         self._h1 = False
 
@@ -53,6 +54,8 @@ class PageSemantics(HTMLParser):
         values = dict(attrs)
         self._title |= tag == "title"
         self._h1 |= tag == "h1"
+        if tag == 'body':
+            self.body_classes.update(values.get('class', '').split())
         if values.get("data-r-person"):
             self.person_ids.append(values["data-r-person"])
 
@@ -79,7 +82,7 @@ def local_checks() -> list[str]:
         if ":root{color-scheme:light;" not in css or "color-scheme:dark" in css or "#07100e" in css:
             failures.append("catalogue stylesheet has lost its maintained light palette")
     catalogue_path = WEB / "catalogue/index.html"
-    if not catalogue_path.exists() or 'class="g-unified g-kind-catalogue' not in catalogue_path.read_text(encoding="utf-8"):
+    if not catalogue_path.exists() or not catalogue_shell_matches(catalogue_path.read_text(encoding="utf-8")):
         failures.append("catalogue route has lost its unified light shell")
     try:
         health = json.loads((WEB / "health.json").read_text(encoding="utf-8"))
@@ -113,6 +116,12 @@ def local_checks() -> list[str]:
             if not target.exists():
                 failures.append(f"{relative}: missing link target {link}")
     return failures
+
+
+def catalogue_shell_matches(page: str) -> bool:
+    parsed = PageSemantics()
+    parsed.feed(page)
+    return {'g-unified', 'g-kind-catalogue'}.issubset(parsed.body_classes)
 
 
 def deployed_checks(base_url: str) -> list[str]:

@@ -2,6 +2,7 @@
 import json
 from pathlib import Path
 import tempfile
+import subprocess
 import unittest
 from unittest.mock import patch
 
@@ -21,6 +22,9 @@ RECORDS = [{'record_id': 'r1', 'person': 'Jane Glasgow', 'region': 'Ireland',
 
 
 class RecordsPageTests(unittest.TestCase):
+    def test_scope_events_and_inherited_country_change_rendered_results(self):
+        subprocess.run(['node', 'tests/record_search_context.js'], cwd=Path(__file__).resolve().parents[1], check=True, capture_output=True, text=True)
+
     def check_assets(self, page):
         self.assertEqual(page.count('src="/records/search.js?v='), 1)
         self.assertEqual(page.count('href="/records/records.css?v='), 1)

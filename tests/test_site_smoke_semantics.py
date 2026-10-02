@@ -8,6 +8,10 @@ from tools import check_public_catalogue as catalogue
 
 
 class SiteSmokeSemanticsTests(unittest.TestCase):
+    def test_catalogue_shell_uses_body_class_tokens_not_class_order(self):
+        self.assertTrue(catalogue.catalogue_shell_matches('<body class="v3-site g-kind-catalogue g-unified">'))
+        self.assertFalse(catalogue.catalogue_shell_matches('<body class="g-unified g-kind-about"><p>class="g-unified g-kind-catalogue"</p>'))
+
     def test_catalogue_heading_probe_handles_line_breaks_and_inline_markup(self):
         body = b'<h1>Free-space<br> research <em>library</em></h1>'
         self.assertTrue(catalogue.page_matches(body, 'Free-space research library'))

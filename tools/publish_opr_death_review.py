@@ -189,21 +189,25 @@ def replace_section(path: Path, section: str) -> None:
     path.write_text(text, encoding="utf-8")
 
 
-def repair() -> dict[str, int]:
+def repair(*, qualify_person: bool = True, web: Path | None = None) -> dict[str, int]:
     data = load()
-    qualify_glasgow_3056()
-    PUBLIC.parent.mkdir(parents=True, exist_ok=True)
+    public_path = web / 'data/scotlandspeople-opr-deaths-to-1700.json' if web else PUBLIC
+    family_path = web / 'branches/scottish-families/index.html' if web else FAMILY
+    sources_path = web / 'sources/index.html' if web else SOURCES
+    if qualify_person:
+        qualify_glasgow_3056()
+    public_path.parent.mkdir(parents=True, exist_ok=True)
     public = {k: data.get(k) for k in ("reviewed_at", "source_title", "source_url", "query", "conclusion", "rows")}
-    PUBLIC.write_text(json.dumps(public, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    replace_section(FAMILY, render_section(data))
-    family = FAMILY.read_text(encoding="utf-8")
+    public_path.write_text(json.dumps(public, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    replace_section(family_path, render_section(data))
+    family = family_path.read_text(encoding="utf-8")
     jump = '<p id="opr-deaths-jump"><a href="#opr-deaths-to-1700">Review the seven Glasgow death and burial entries through 1700</a></p>'
     if 'id="opr-deaths-jump"' not in family:
         family, count = re.subn(r'(</h1>)', lambda m: m[0] + "\n" + jump, family, count=1, flags=re.I)
         if not count:
             raise RuntimeError(f"No h1 in {FAMILY}")
-        FAMILY.write_text(family, encoding="utf-8")
-    sources = SOURCES.read_text(encoding="utf-8")
+        family_path.write_text(family, encoding="utf-8")
+    sources = sources_path.read_text(encoding="utf-8")
     note = '<p id="opr-deaths-to-1700-discovery">The <a href="/branches/scottish-families/#opr-deaths-to-1700">Scotland’s People OPR deaths and burials review</a> compares all seven supplied entries through 1700 with existing profiles, distinguishing confirmed citations, probable matches and unresolved identities. <a href="/data/scotlandspeople-opr-deaths-to-1700.json">Download the reviewed index (JSON)</a>.</p>'
     if "id=\"opr-deaths-to-1700-discovery\"" in sources:
         sources = re.sub(r'<p id="opr-deaths-to-1700-discovery">.*?</p>', note, sources, count=1, flags=re.S)
@@ -212,7 +216,7 @@ def repair() -> dict[str, int]:
         if not pos:
             raise RuntimeError(f"No h1 in {SOURCES}")
         sources = sources[:pos.end()] + "\n" + note + sources[pos.end():]
-    SOURCES.write_text(sources, encoding="utf-8")
+    sources_path.write_text(sources, encoding="utf-8")
     return {"opr_death_review_rows": len(data.get("rows", []))}
 
 

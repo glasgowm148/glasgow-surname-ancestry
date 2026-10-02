@@ -37,14 +37,14 @@ def documentary_drafts(data: dict) -> list[dict]:
     return drafts
 
 
-def render(data: dict) -> str:
+def render(data: dict, web: Path = WEB) -> str:
     drafts_by_row = {n: e for e in data.get("documentary_drafts", []) for n in e["rows"]}
     body = []
     for row in data["rows"]:
         links = []
         for ident in row.get("profile_ids", []):
             slug = str(ident).lower()
-            href = f"/people/{slug}.html" if (WEB / "people" / f"{slug}.html").exists() else f"https://www.wikitree.com/wiki/{ident}"
+            href = f"/people/{slug}.html" if (web / "people" / f"{slug}.html").exists() else f"https://www.wikitree.com/wiki/{ident}"
             links.append(f'<a href="{escape(href, quote=True)}">{escape(str(ident))}</a>')
         if row["row"] in drafts_by_row:
             entry = drafts_by_row[row["row"]]
@@ -61,21 +61,22 @@ def render(data: dict) -> str:
     return f'''{START}<section id="opr-births-to-1700" class="opr-birth-review" aria-labelledby="opr-births-heading"><h2 id="opr-births-heading">Scotland’s People OPR births and baptisms through 1700</h2><p>{escape(data["conclusion"])}</p><p>Source: <a href="{escape(data["source_url"], quote=True)}">{escape(data["source_title"])}</a>. {escape(data["query"])} Reviewed {escape(data["reviewed_at"])} from the supplied index text; original register images have not been inspected for this batch.</p><p>The supplied BirthDate column is an index date, not automatic proof of a birthday. The same reference/date may represent different readings or multiple children; it is not an automatic duplicate-person or twins decision. Exact references are transcribed from the source. Indexed parent text is retained as supplied.</p><p><a href="/data/scotlandspeople-opr-births-to-1700.json">Download the reviewed index (JSON)</a></p><label for="opr-birth-filter">Find a person, parent, parish or status</label><input id="opr-birth-filter" type="search" aria-controls="opr-birth-table"><p id="opr-birth-count" role="status">{len(body)} of {len(body)} index results</p><div class="opr-birth-table-wrap" tabindex="0"><table id="opr-birth-table"><caption>Reviewed births and baptisms index leads</caption><thead><tr><th scope="col">Indexed child</th><th scope="col">Indexed parents/other</th><th scope="col">Date and reference</th><th scope="col">Parish</th><th scope="col">Profiles</th><th scope="col">Assessment</th><th scope="col">Next action</th></tr></thead><tbody>{''.join(body)}</tbody></table></div>{draft_section}</section><style>.opr-birth-review{{margin:2rem 0}}.opr-birth-table-wrap{{overflow-x:auto}}.opr-birth-review table{{border-collapse:collapse;min-width:70rem;width:100%}}.opr-birth-review th,.opr-birth-review td{{border:1px solid #ccd6c5;padding:.6rem;text-align:left;vertical-align:top}}.opr-birth-review th{{background:#e1f0b4}}.opr-birth-review tr[hidden]{{display:none}}.opr-birth-draft{{border:1px solid #ccd6c5;padding:1rem;margin:.75rem 0}}.opr-birth-draft textarea{{width:100%;box-sizing:border-box}}</style><script>(()=>{{const i=document.getElementById('opr-birth-filter'),rs=[...document.querySelectorAll('#opr-birth-table tbody tr')],open=()=>{{const d=document.getElementById(location.hash.slice(1));if(d&&d.classList.contains('opr-birth-draft'))d.open=true}};addEventListener('hashchange',open);open();i.addEventListener('input',()=>{{const ts=i.value.toLowerCase().trim().split(/\\s+/).filter(Boolean),n=rs.filter(r=>{{r.hidden=!ts.every(t=>r.textContent.toLowerCase().includes(t));return !r.hidden}}).length;document.getElementById('opr-birth-count').textContent=`${{n}} of ${{rs.length}} index results`}})}})();</script>{END}'''
 
 
-def repair() -> dict[str, int]:
+def repair(web: Path = WEB) -> dict[str, int]:
     data = json.loads(SOURCE.read_text(encoding="utf-8"))
     if len(data["rows"]) != 127 or any(not r.get("status") for r in data["rows"]):
         raise ValueError("Every supplied birth row must have a reviewed status before publication")
     data["documentary_drafts"] = documentary_drafts(data)
     data.pop("new_drafts", None)
-    page = WEB / "branches/scottish-families/index.html"
-    text = page.read_text(encoding="utf-8"); section = render(data)
+    page = web / "branches/scottish-families/index.html"
+    text = page.read_text(encoding="utf-8"); section = render(data, web)
     pattern = re.compile(re.escape(START) + r".*?" + re.escape(END), re.S)
     text = pattern.sub(lambda _: section, text, count=1) if pattern.search(text) else text.replace("</main>", section + "\n</main>", 1)
     if 'id="opr-births-jump"' not in text:
         text = re.sub(r"(</h1>)", r'\1\n<p id="opr-births-jump"><a href="#opr-births-to-1700">Review the 127 births and baptisms through 1700</a></p>', text, count=1, flags=re.I)
     page.write_text(text, encoding="utf-8")
-    (WEB / "data/scotlandspeople-opr-births-to-1700.json").write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    sources = WEB / "sources/index.html"; st = sources.read_text(encoding="utf-8")
+    (web / "data").mkdir(parents=True, exist_ok=True)
+    (web / "data/scotlandspeople-opr-births-to-1700.json").write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    sources = web / "sources/index.html"; st = sources.read_text(encoding="utf-8")
     note = '<p id="opr-births-discovery"><a href="/branches/scottish-families/#opr-births-to-1700">Scotland’s People OPR births and baptisms through 1700</a>: reviewed 127 supplied index results. <a href="/data/scotlandspeople-opr-births-to-1700.json">Download the reviewed index</a>.</p>'
     st = re.sub(r'<p id="opr-births-discovery">.*?</p>', note, st, count=1, flags=re.S) if 'id="opr-births-discovery"' in st else re.sub(r"(</h1>)", r"\1\n" + note, st, count=1, flags=re.I)
     sources.write_text(st, encoding="utf-8")
@@ -83,7 +84,7 @@ def repair() -> dict[str, int]:
         cards = ''.join(f'<li><a href="/branches/scottish-families/#{escape(e["id"])}">{escape(e["title"])}</a> — <strong>{escape(e["status"])}</strong>: {escape(e["assessment"])}</li>' for e in data["documentary_drafts"])
         queue = QUEUE_START + '<section id="opr-birth-identity-drafts" class="r-section"><h2>OPR birth identities awaiting profiles</h2><p>These documentary identities use unique birth markers and remain unconfirmed until resolved.</p><ul>' + cards + '</ul></section>' + QUEUE_END
         for relative in ("catalogue.html", "catalogue/index.html"):
-            target = WEB / relative
+            target = web / relative
             ct = target.read_text(encoding="utf-8")
             cp = re.compile(re.escape(QUEUE_START) + r".*?" + re.escape(QUEUE_END), re.S)
             ct = cp.sub(lambda _: queue, ct, count=1) if cp.search(ct) else ct.replace("</main>", queue + "\n</main>", 1)

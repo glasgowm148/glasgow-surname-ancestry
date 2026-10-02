@@ -24,6 +24,7 @@ KINDS = {'relationship': 'Family relationships', 'vital': 'Dates & places',
          'property': 'Land & property', 'biographical': 'Life details',
          'record': 'New records', 'dna': 'DNA findings'}
 STATUSES = {'confirmed': 'Confirmed', 'qualified': 'Qualified'}
+FINDING_LABELS = {'confirmed': 'Finding supported', 'qualified': 'Finding qualified'}
 RELATIONSHIPS = {'father': 'Father', 'mother': 'Mother', 'spouse': 'Spouse',
                  'sibling': 'Sibling', 'child': 'Child', 'grandparent': 'Grandparent'}
 CHANGE_FIELDS = ('relationship', 'subject', 'relative', 'before', 'after', 'explanation')
@@ -95,7 +96,11 @@ def row_html(item):
             external = person['url'].startswith('https://')
             attrs = ' target="_blank" rel="noopener noreferrer"' if external else ''
             label = f'<a href="{esc(person["url"])}"{attrs}>{label}' + (' ↗' if external else '') + '</a>'
-        details = ''.join(f'<small>{esc(person[key])}</small>' for key in ('id', 'role') if person.get(key))
+        details = f'<small>{esc(person["id"])}</small>' if person.get('id') else ''
+        if person.get('role'):
+            identity_role = bool(person.get('id')) and bool(re.search(r'identity|candidate|identification|match', person['role'], re.I))
+            prefix = 'Profile identification: ' if identity_role else ''
+            details += f'<small class="lf-person-assessment">{prefix}{esc(person["role"])}</small>'
         if person.get('draft_url') and person['draft_url'] != person.get('url'):
             details += f'<small><a href="{esc(person["draft_url"])}">Evidence draft</a></small>'
         return f'<li>{label}{details}</li>'
@@ -138,7 +143,7 @@ def row_html(item):
             f'<td data-label="Found"><a class="lf-date" href="{item.get("_page_url", "/latest-findings/")}#finding-{esc(item["id"])}"><time datetime="{item["found_on"]}">{label}</time></a></td>'
             f'<td data-label="People"><ul class="lf-people">{people}</ul></td>'
             f'<td data-label="Finding"><span class="lf-kind">{KINDS[item["kind"]]}</span><p class="lf-fact">{esc(item["finding"])}</p>{significance}</td>'
-            f'<td data-label="Assessment"><span class="lf-status lf-{item["status"]}">{STATUSES[item["status"]]}</span>{qualification}{changes_html}</td>'
+            f'<td data-label="Finding assessment"><span class="lf-status lf-{item["status"]}">{FINDING_LABELS[item["status"]]}</span>{qualification}{changes_html}</td>'
             f'<td data-label="Evidence"><ul class="lf-sources">{sources}</ul><a class="lf-case" href="{esc(item["detail_url"])}"{case_attributes}>{case_label}</a></td></tr>')
 
 
@@ -151,6 +156,7 @@ def render_main(rows, total=None, page_number=1):
 <header class="lf-intro"><p class="r-kicker">What we have learned</p><h1>Latest findings</h1>
 <p class="lf-lede">New records and supported corrections from the Glasgow research, newest first.</p>
 <p>Dates show when evidence was found or reviewed. Each finding gives its sources and what remains uncertain.</p>
+<p>The finding assessment applies to the statement in that row. A supported record fact does not confirm its identification with a linked WikiTree profile. Profile identification limits appear beside the person and in the research.</p>
 <p>Use Assessment to find relationships that became certain. <a href="/research/relationship-audit/">Read the historical audit and counts →</a></p></header>
 <section class="lf-content" aria-labelledby="lf-table-title"><h2 id="lf-table-title" class="lf-sr-only">Dated research findings</h2>
 <form class="lf-controls" id="lf-controls" role="search">
@@ -160,10 +166,10 @@ def render_main(rows, total=None, page_number=1):
 <div><label for="lf-order">Order</label><select id="lf-order"><option value="newest">Newest first</option><option value="oldest">Oldest first</option></select></div>
 <button type="reset" class="lf-reset">Reset</button></form>
 <div class="lf-table-heading"><p id="lf-count" role="status" aria-live="polite">{(page_number-1)*50+1}–{(page_number-1)*50+len(rows)} of {total:,} findings · newest first</p>
-<p class="lf-key"><span class="lf-status lf-confirmed">Confirmed</span> Supported fact or correction <span class="lf-status lf-qualified">Qualified</span> Evidence or identification has a stated limit</p></div>
+<p class="lf-key"><span class="lf-status lf-confirmed">Finding supported</span> Supported fact or correction <span class="lf-status lf-qualified">Finding qualified</span> The finding has a stated evidence or identification limit</p></div>
 <div class="lf-table-wrap"><table class="lf-table"><caption class="lf-sr-only">Concrete findings ordered by research discovery date, newest first. Evidence and limitations accompany each finding.</caption>
 <colgroup><col class="lf-col-date"><col class="lf-col-people"><col class="lf-col-finding"><col class="lf-col-assessment"><col class="lf-col-evidence"></colgroup>
-<thead><tr><th scope="col">Found</th><th scope="col">People</th><th scope="col">Finding</th><th scope="col">Assessment</th><th scope="col">Evidence</th></tr></thead>
+<thead><tr><th scope="col">Found</th><th scope="col">People</th><th scope="col">Finding</th><th scope="col">Finding assessment</th><th scope="col">Evidence</th></tr></thead>
 <tbody id="lf-rows">{''.join(row_html(row) for row in rows)}</tbody></table></div>
 <noscript><style>.lf-controls{{display:none}}</style></noscript>
 <p class="lf-empty" id="lf-empty" hidden>No findings match those filters. Try another name or place, or reset the filters.</p>

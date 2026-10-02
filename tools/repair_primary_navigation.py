@@ -212,8 +212,24 @@ def _root_relative_markup(markup: str, base_url: str) -> str:
 def repair_reader_shell_page(page: str, relative: Path, template: str | None = None) -> str:
     """Put a legacy public reader page inside the maintained shared shell."""
     metadata = _reader_metadata(page, relative)
-    if not metadata or re.search(r'\bid="g-navigation"(?=\s|>)', page):
+    if not metadata:
         return page
+    if re.search(r'\bid="g-navigation"(?=\s|>)', page):
+        # Stable reader routes may already have the correct rail but retain
+        # the resources template's old page kind. Preserve everything else.
+        if relative.as_posix() not in READER_SHELL_ROUTES:
+            return page
+        section = _reader_section(relative)
+        kind = 'catalogue' if section == '/catalogue/' else 'research' if section == '/research/' else 'about'
+        def normalise_kind(match):
+            classes = match[3].split()
+            expected = 'g-kind-' + kind
+            if expected in classes and sum(c.startswith('g-kind-') for c in classes) == 1:
+                return match[0]
+            classes = [c for c in classes if not c.startswith('g-kind-')]
+            classes.append(expected)
+            return match[1] + match[2] + ' '.join(classes) + match[2]
+        return re.sub(r'(<body\b[^>]*\bclass=)(["\'])(.*?)(?:\2)', normalise_kind, page, count=1, flags=re.I | re.S)
     old_main = re.search(r'<main\b[\s\S]*?</main>', page, re.I)
     shell = template if template is not None else (WEB / 'resources' / 'index.html').read_text(encoding='utf-8')
     shell_main = re.search(r'<main\b[\s\S]*?</main>', shell, re.I)

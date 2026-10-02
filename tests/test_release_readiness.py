@@ -43,6 +43,20 @@ class ReleaseReadinessTests(unittest.TestCase):
         self.assertIn('<time datetime=', first)
         self.assertIn('Read the case and evidence', first)
 
+    def test_snapshot_without_title_and_about_dates(self):
+        helper = module()
+        generated = helper.release_data()[2]
+        page = '<a class="g-snapshot-link" href="/status/">Catalogue · old</a>'
+        fixed = helper.snapshot(page, generated)
+        self.assertIn('Catalogue · 27 Sep 2026', fixed)
+        self.assertEqual(helper.snapshot(fixed, generated), fixed)
+        about = '<table><tr><td>Research catalogue</td><td>People</td><td>Old</td></tr><tr><td>Family tree</td><td>Tree</td><td>2026-09-06</td></tr></table>'
+        fixed = helper.about_dates(about, generated, {'latest_research_update':'2026-09-30'})
+        self.assertIn('<td>27 September 2026</td>', fixed)
+        self.assertIn('<td>2026-09-06</td>', fixed)
+        self.assertIn('Latest dated person research or review: 2026-09-30', fixed)
+        self.assertEqual(helper.about_dates(fixed, generated, {'latest_research_update':'2026-09-30'}), fixed)
+
     def test_scoped_stylesheet_insertion_is_idempotent(self):
         helper = module()
         page = "<html><head></head><body class=\"example\"></body></html>"

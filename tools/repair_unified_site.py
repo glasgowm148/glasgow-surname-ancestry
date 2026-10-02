@@ -732,73 +732,12 @@ def repair_project_routes() -> Counter[str]:
 
 
 def repair_free_space_search() -> Counter[str]:
-    """Include free-space metadata in both global-search implementations."""
-    changed: Counter[str] = Counter()
-    worker_path = WEB / "assets/research/search-worker.js"
-    worker = worker_path.read_text(encoding="utf-8")
-    before = worker
-    static_entry = '["Free-space Library","/free-space/","Full local research studies, sources and WikiTree comparisons"],'
-    if static_entry not in worker:
-        worker = worker.replace(
-            '["Research","/research/","Research findings, unresolved links and comparison tools"],',
-            '["Research","/research/","Research findings, unresolved links and comparison tools"],' + static_entry,
-            1,
-        )
-    old_slice = "const rows=kind==='page'?pages.map(([name,url,sub],i)=>({id:'page-'+i,name,url,sub,kind,search:sub})):(await load('/assets/v3/search-'+{person:'people',record:'records',place:'places'}[kind]+'.json')).map(([id,name,url,sub,search])=>({id,name,url,sub,search,kind}))"
-    new_slice = "const rows=kind==='page'?[...pages.map(([name,url,sub],i)=>({id:'page-'+i,name,url,sub,kind,search:sub})),...(await load('/assets/research/free-space-index.json')).map(r=>({id:'free-space-'+r.wikitreeId,name:r.title,url:r.url||r.viewUrl,sub:'Free-space page · '+r.category+(r.location?' · '+r.location:''),kind,search:[r.wikitreeId,r.category,r.location,r.startDate,r.endDate,...r.tags].join(' ')}))]:(await load('/assets/v3/search-'+{person:'people',record:'records',place:'places'}[kind]+'.json')).map(([id,name,url,sub,search])=>({id,name,url,sub,search,kind}))"
-    if old_slice in worker:
-        worker = worker.replace(old_slice, new_slice, 1)
-    elif "free-space-index.json" not in worker:
-        raise ValueError("Could not locate the global-search page slice")
-    worker = worker.replace("name:r.title,url:r.viewUrl", "name:r.title,url:r.url||r.viewUrl")
-    if worker != before:
-        worker_path.write_text(worker, encoding="utf-8")
-        changed["free_space_worker"] += 1
-
-    site_path = WEB / "assets/unified/site.js"
-    site = site_path.read_text(encoding="utf-8")
-    before = site
-    static_object = '{"name":"Free-space Library","url":"/free-space/","icon":"desk","meta":"Full local research studies, sources and WikiTree comparisons","search":"free space pages WikiTree research library"},'
-    if static_object not in site:
-        site = site.replace(
-            '{"name":"Research","url":"/research/","icon":"desk","meta":"Research findings, unresolved links and comparison tools","search":"Research findings, unresolved links and comparison tools"},',
-            '{"name":"Research","url":"/research/","icon":"desk","meta":"Research findings, unresolved links and comparison tools","search":"Research findings, unresolved links and comparison tools"},' + static_object,
-            1,
-        )
-    site = site.replace(
-        "let peoplePromise,placesPromise,recordsPromise,people=[],",
-        "let peoplePromise,placesPromise,recordsPromise,freeSpacePromise,people=[],",
-        1,
-    )
-    if "function loadFreeSpace()" not in site:
-        marker = "function matchScore(p,q,terms)"
-        loader = (
-            "function loadFreeSpace(){return freeSpacePromise??=fetch('/assets/research/free-space-index.json')"
-            ".then(r=>{if(!r.ok)throw Error('Free-space index unavailable');return r.json()})"
-            ".then(rows=>rows.map(r=>({name:r.title,url:r.url||r.viewUrl,icon:'arrow',meta:'Free-space page · '+r.category"
-            "+(r.location?' · '+r.location:''),search:[r.wikitreeId,r.category,r.location,r.startDate,r.endDate,...r.tags].join(' '),"
-            "kind:'page',key:norm([r.title,r.wikitreeId,r.category,r.location,r.startDate,r.endDate,...r.tags].join(' ')),"
-            "titleKey:norm(r.title)}))).catch(e=>{freeSpacePromise=null;throw e})}\n"
-        )
-        if marker not in site:
-            raise ValueError("Could not locate the fallback global-search loader insertion point")
-        site = site.replace(marker, loader + marker, 1)
-    site = site.replace("name:r.title,url:r.viewUrl", "name:r.title,url:r.url||r.viewUrl")
-    old_jobs = "if(tab==='all'||tab==='pages')jobs.push(Promise.resolve(pages));"
-    new_jobs = "if(tab==='all'||tab==='pages'){jobs.push(Promise.resolve(pages));jobs.push(loadFreeSpace())}"
-    if old_jobs in site:
-        site = site.replace(old_jobs, new_jobs, 1)
-    elif "jobs.push(loadFreeSpace())" not in site:
-        raise ValueError("Could not locate the fallback page-search job")
-    site = site.replace(
-        "People, places and source associations are included in All.",
-        "People, places, source associations and free-space pages are included in All.",
-        1,
-    )
-    if site != before:
-        site_path.write_text(site, encoding="utf-8")
-        changed["free_space_fallback_search"] += 1
-    return changed
+    """Install the maintained shared search and its unique public route registry."""
+    try:
+        from tools.site_search import install_search
+    except ModuleNotFoundError:
+        from site_search import install_search
+    return Counter(install_search(WEB))
 
 
 def _resolve_public_target(page: Path, href: str, base: str) -> Path | None:

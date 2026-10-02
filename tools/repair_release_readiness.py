@@ -38,12 +38,28 @@ def snapshot(page: str, generated: date) -> str:
     label = generated.strftime("Catalogue · %d %b %Y").replace(" 0", " ")
     title = generated.strftime("Catalogue snapshot: %d %B %Y").replace(" 0", " ")
     title += ". Tree and DNA have separate snapshot dates."
-    return re.sub(
-        r'(<a\b(?=[^>]*\bclass="[^"]*\bg-snapshot-link\b[^"]*")[^>]*\btitle=")[^"]*("[^>]*>).*?</a>',
-        lambda match: match[1] + escape(title, quote=True) + match[2] + label + "</a>",
-        page,
-        flags=re.S,
-    )
+    def replace(match):
+        opening = re.sub(r'\s+title=["\'][^"\']*["\']', '', match[1])
+        return opening[:-1] + f' title="{escape(title, quote=True)}">{label}</a>'
+    return re.sub(r'(<a\b(?=[^>]*\bclass="[^"]*\bg-snapshot-link\b[^"]*")[^>]*>).*?</a>',
+                  replace, page, flags=re.S)
+
+
+def about_dates(page: str, generated: date, manifest: dict) -> str:
+    """Keep the catalogue compilation distinct from review and other snapshots."""
+    label = generated.strftime('%d %B %Y').lstrip('0')
+    page = re.sub(r'(<tr>\s*<td>Research catalogue</td><td>.*?</td><td>).*?(</td>)',
+                  lambda m: m[1] + label + m[2], page, count=1, flags=re.S)
+    start, end = '<!-- catalogue-dates:start -->', '<!-- catalogue-dates:end -->'
+    latest = manifest.get('latest_research_update')
+    summary = f'<p>Catalogue compiled {label}.'
+    if latest:
+        summary += f' Latest dated person research or review: {escape(latest)}.'
+    summary += ' Individual findings retain their own dates; the family tree and DNA editions have separate dates above. <a href="/data/">Release assembly and data details →</a></p>'
+    block = start + summary + end
+    if start in page:
+        return re.sub(re.escape(start) + r'.*?' + re.escape(end), lambda _: block, page, flags=re.S)
+    return page.replace('</table>', '</table>' + block, 1)
 
 
 def add_css(page: str) -> str:

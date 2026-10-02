@@ -48,7 +48,8 @@ class NavigationCompletionTests(unittest.TestCase):
             self.assertIn('class="g-footer"', repaired)
             self.assertIn(marker, repaired)
             self.assertIn('href="/about/"', repaired)
-            self.assertNotIn('<base href=', repaired)
+            if 'id="g-navigation"' not in original:
+                self.assertNotIn('<base href=', repaired)
             if route != 'privacy/index.html':
                 self.assertIn('href="/people/catalogue.css', repaired)
             else:
@@ -108,8 +109,18 @@ class NavigationCompletionTests(unittest.TestCase):
             self.assertIn('id="g-navigation"', repaired, route)
             self.assertIn('id="catalogue-filters"', repaired, route)
             self.assertIn('<form', repaired, route)
-            self.assertNotIn('<base ', repaired, route)
+            if 'id="g-navigation"' not in original:
+                self.assertNotIn('<base ', repaired, route)
             self.assertEqual(repaired, NAV.repair_reader_shell_page(repaired, Path(route)))
+
+    def test_existing_catalogue_reader_corrects_page_kind_without_rebuilding_shell(self):
+        original = '<html><body class="g-unified g-kind-about v3-site custom"><aside id="g-navigation">Preserved rail</aside><main><form id="catalogue-filters">Filters</form></main></body></html>'
+        for route in ('catalogue.html','catalogue/index.html','catalogue/advanced.html'):
+            corrected = NAV.repair_reader_shell_page(original, Path(route))
+            self.assertIn('g-kind-catalogue', corrected)
+            self.assertNotIn('g-kind-about', corrected)
+            self.assertEqual(original.replace('g-unified g-kind-about v3-site custom','g-unified v3-site custom g-kind-catalogue'), corrected)
+            self.assertEqual(corrected, NAV.repair_reader_shell_page(corrected, Path(route)))
 
     def test_reader_shell_covers_public_people_readers_and_skips_merges(self):
         for route, section in (
@@ -124,7 +135,8 @@ class NavigationCompletionTests(unittest.TestCase):
             self.assertIn(section, repaired, route)
             self.assertIn('<main', repaired, route)
             self.assertIn('/people/catalogue.css', repaired, route)
-            self.assertNotIn('<base ', repaired, route)
+            if 'id="g-navigation"' not in original:
+                self.assertNotIn('<base ', repaired, route)
             self.assertEqual(repaired, NAV.repair_reader_shell_page(repaired, Path(route)))
 
         merged = (ROOT / "www/people/glasgow-3983.html").read_text(encoding="utf-8")

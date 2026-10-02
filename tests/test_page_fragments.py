@@ -4,6 +4,16 @@ from tempfile import TemporaryDirectory
 from tools.page_fragments import optimize_page
 
 class PageFragmentsTests(unittest.TestCase):
+    def test_standalone_reader_does_not_inherit_homepage_redirect(self):
+        with TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            html = '<html><head><script data-clean-index-redirect="">location.replace("/")</script></head><body><main><details><summary>Evidence</summary><p>' + 'x' * 60000 + '</p></details></main></body></html>'
+            _, stats = optimize_page(html, 'people/test.html', root)
+            self.assertEqual(stats['extracted'], 1)
+            reader = next((root / 'people/research-material').glob('*/index.html')).read_text()
+            self.assertNotIn('data-clean-index-redirect', reader)
+            self.assertIn('Back to original page', reader)
+
     def test_large_details_and_idempotence(self):
         with TemporaryDirectory() as tmp:
             root = Path(tmp); html = '<details id="research-note-a"><summary>Sources</summary><p>' + "e" * 60000 + "</p></details>"

@@ -1740,7 +1740,8 @@ def render_person_dossier(profile_id: str) -> str:
         sections.append(f'<section id="research" class="dossier-section"><h2>Further research</h2><details class="section-details"><summary><span>Research priorities and completed searches<small>Open questions and next records to check</small></span></summary>{research_body}</details></section>')
     if has_sources:
         section_nav += '<a href="#sources">Sources</a>'; toc_nav += '<a href="#sources">Sources</a>'
-        sections.append(f'<section id="sources" class="dossier-section"><h2>Sources</h2><details class="section-details"><summary><span>Browse {len(sources)} source records<small>References and source limitations</small></span></summary>{sources_body}</details></section>')
+        source_note = _safe_markdown_html(str(editorial.get("source_note_markdown") or ""), f"/research/{profile_id}/")
+        sections.append(f'<section id="sources" class="dossier-section"><h2>Sources</h2>{source_note}<details class="section-details"><summary><span>Browse {len(sources)} source records<small>References and source limitations</small></span></summary>{sources_body}</details></section>')
     archive_title = "Earlier notes and tools" if compact else "Archive and tools"
     section_nav += f'<a href="#archive-tools">{archive_title}</a>'; toc_nav += f'<a href="#archive-tools">{archive_title}</a>'
     locality = editorial.get("principal_locality") or birth_place or death_place or ""

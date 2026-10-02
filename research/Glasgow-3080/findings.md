@@ -2,6 +2,10 @@
 
 Last updated: 2026-09-10
 
+## Current conclusion
+
+A reviewed Scotland’s People index entry records William Glasgow at Leith South on 15 October 1660, with ARCHBALD GLASGOW/AGNES WATSON in the parents/other field. It matches the existing child-record account and supplies a complete index locator. The original image was not inspected; the combined births and baptisms collection does not establish that this was his birthday. Identifying the named parents with attached adult profiles, or this child with a later adult, still needs separate evidence. No new event or relationship is established by this supporting citation.
+
 
 <!-- opr-birth-review-row-16 -->
 ## Source findings

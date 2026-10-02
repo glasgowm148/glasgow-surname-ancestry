@@ -8,6 +8,21 @@ from tools.publish_clean_urls import publish_clean_urls
 
 
 class PublishCleanUrlsTest(unittest.TestCase):
+    def test_normalized_redirect_is_replaced_and_existing_readers_keep_their_route(self):
+        with tempfile.TemporaryDirectory() as directory:
+            web = Path(directory)
+            inherited = '<script data-clean-index-redirect="">location.replace("/")</script>'
+            (web / 'catalogue.html').write_text('<html><head>' + inherited + '</head></html>')
+            reader = web / 'people/research-material/person-123/index.html'
+            reader.parent.mkdir(parents=True)
+            reader.write_text('<html><head>' + inherited + '</head><main>Complete evidence</main></html>')
+            publish_clean_urls(web)
+            page = (web / 'catalogue/index.html').read_text()
+            self.assertIn('location.replace("/catalogue"+location.search+location.hash)', page)
+            self.assertEqual(page.count('data-clean-index-redirect'), 1)
+            self.assertNotIn('data-clean-index-redirect', reader.read_text())
+            self.assertIn('Complete evidence', reader.read_text())
+
     def test_legacy_html_remains_portable(self):
         with tempfile.TemporaryDirectory() as directory:
             web = Path(directory)

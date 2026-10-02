@@ -69,7 +69,7 @@ def _with_index_redirect(text: str, clean: str) -> str:
     )
     if marker in text:
         return re.sub(
-            rf'<script\s+{marker}>.*?</script>', script, text, count=1, flags=re.I | re.S
+            rf'<script\b(?=[^>]*\b{marker}(?:\s|=|>))[^>]*>.*?</script>', script, text, count=1, flags=re.I | re.S
         )
     return text.replace("<head>", f"<head>\n  {script}", 1)
 
@@ -127,6 +127,12 @@ def _with_compare_shell(source: str, web_dir: Path) -> str:
 
 
 def publish_clean_urls(web_dir: Path = WEB_DIR) -> None:
+    # Standalone research readers inherit a dossier shell, never its redirect.
+    for reader in (web_dir / 'people/research-material').glob('*/index.html'):
+        original = reader.read_text(encoding='utf-8')
+        repaired = re.sub(r'<script\b(?=[^>]*\bdata-clean-index-redirect(?:\s|=|>))[^>]*>.*?</script>', '', original, flags=re.I | re.S)
+        if repaired != original:
+            reader.write_text(repaired, encoding='utf-8')
     for legacy, clean in PAGE_ROUTES.items():
         source = web_dir / legacy
         if not source.exists():

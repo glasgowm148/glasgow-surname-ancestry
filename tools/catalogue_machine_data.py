@@ -504,7 +504,9 @@ def _assessment_claim(assessment: dict, people_by_id: dict[str, dict]) -> tuple[
     evidence_id = _stable_id("E", "relationship-assessment", a, assessment["relationship"], b, assessment["basis"])
     evidence = {
         "id": evidence_id, "claim_ids": [claim_id], "record_type": _record_type(assessment["basis"]),
-        "date": str(_year(assessment["basis"]) or "") or None, "place": None, "subjects": [a, b],
+        # A narrative can contain profile IDs, archive references and several
+        # unrelated years. Only an explicitly supplied event date is a date.
+        "date": assessment.get("event_date") or None, "place": None, "subjects": [a, b],
         "assertion": assessment["basis"],
         "evidence_status": "direct" if assessment["status"] == "proved" else "circumstantial",
         "source_quality": _source_quality(

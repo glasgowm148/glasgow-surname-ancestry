@@ -18,6 +18,7 @@ def publish(*, render_people=True):
     runpy.run_path(str(ROOT / 'tools/repair_public_dna.py'))['repair']()
     runpy.run_path(str(ROOT / 'tools/withhold_licensed_assets.py'))['withhold']()
     repair_privacy(ROOT / 'www')
+    runpy.run_path(str(ROOT / 'tools/repair_assessment_dates.py'))['repair'](ROOT / 'www')
     runpy.run_path(str(ROOT / 'tools/repair_claim_status.py'))['repair'](ROOT / 'www')
     runpy.run_path(str(ROOT / 'tools/publish_resolved_dossiers.py'))['publish']()
     runpy.run_path(str(ROOT / 'tools/repair_evidence_source_links.py'))['repair']()

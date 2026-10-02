@@ -1,5 +1,22 @@
 # Reader wording and navigation audit — 29 September 2026
 
+## Follow-up audit repairs — 2 October 2026
+
+The delegated audit fixes are maintained in the builders and shared assets:
+
+- Record searches react immediately to person/family changes and honour inherited country scope. Unknown countries show a recoverable error rather than unrelated results.
+- Global search reserves results for each category, reports complete counts, includes Latest findings and deduplicates old page names. The worker remains compatible with already-open pages during deployment.
+- Explicit catalogue and research-reader index URLs retain their destination and query. Existing catalogue shells recover their correct page class; update badges meet text-contrast requirements.
+- Reviewed OPR birth/death sections and downloads survive finalization. William Glasgow's existing parish-index evidence is visible at the start of his biography, with the uninspected original-image limitation retained.
+- Finding confidence and profile-identification qualifications are labelled separately. Research questions expose their missing connection while keeping evidence and technical archive targets available in disclosures.
+- Free-space introductions end cleanly, studies have individual descriptions and canonical URLs, and all 85 reading bodies remain unchanged from the previous release.
+- Assessment prose cannot supply structured event dates. False years inferred from profile identifiers are removed from public evidence, events, source ranges and static readers; original prose, prior values and real dated evidence remain preserved.
+- Catalogue snapshot dates agree across readers. The sitemap includes approved public research routes and excludes private, living, duplicate and fragment-only pages.
+
+Regression workflow: run `tools/check_site_audit_fixes.js` through Playwright CLI against the currently open local or production origin, alongside the generated-content and browser quality gates in `docs/site-experience-checks.md`. It covers actual family switching, country scope, search categories, aliases, redirects, OPR downloads and the corrected evidence readers. Screenshots and logs are under `output/playwright/site-fixes-20261002/`. Publication details and final verification are recorded in `docs/public-catalogue-deployment.md`.
+
+The following entries retain the earlier audit history.
+
 The critique identified two connected problems: abstract software language and
 too many competing ways into the research. The site should read as family
 history research, with clear routes to people, relatives, records and sources.

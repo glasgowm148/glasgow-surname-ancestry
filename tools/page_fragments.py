@@ -112,6 +112,7 @@ def _reader_page(source: BeautifulSoup, body: str, path: str, original: str) -> 
     doc = BeautifulSoup(str(source), "html.parser")
     if doc.head:
         for old in doc.select('head base'): old.decompose()
+        for old in doc.select('script[data-clean-index-redirect]'): old.decompose()
         base=doc.new_tag('base',href='/' + Path(original).parent.as_posix().strip('./') + '/');doc.head.insert(0,base)
         if doc.title: doc.title.string='Research material · '+doc.title.get_text()
         canonical=doc.select_one('link[rel=canonical]')

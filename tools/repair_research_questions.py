@@ -117,7 +117,25 @@ QUESTION_ACTIONS = {
 }
 
 
-def question_actions(key):
+MISSING_CONNECTIONS = {
+    'glasgow-951': 'John Glasgow, farmer, is Alexander’s probable father. A separate family record is needed to test that inference; his mother remains unknown.',
+    'glasgow-822': 'The missing link is between the Bible family and the recorded Inishrush households, before working back to John’s parents.',
+    'glasgow-591': 'The Scottish candidate needs a recorded connection to the Tyrone family. The migration and father–son line are still unproved.',
+    'Archibald’s named eldest son': 'The will names Archibald’s son Thomas. The remaining question is whether he is the later Thomas at Lifford.',
+    'Where Alexander’s paternal family joins': 'The missing connections are between the Larne, Inishrush and South Carolina families; the matching reconstructions need named family evidence.',
+    "Margaret's surname and the associated testament": 'The remaining passage may help identify Margaret, but neither its complete family wording nor its connection to John’s record is settled.',
+    'The Montgreenan trust and family': 'John and Anne are linked. Other people named in the trust, including Emilia, still need their identities and family connections checked.',
+    'The early burgh connection': 'The same-name Johns may be different men. Their identities and William’s place in the family need separate tests.',
+    'The burgh-to-Corsankell bridge': 'Both households have their own evidence. The missing link is a record connecting the Glasgow burgh family to Corsankell.',
+    "The minister's identity and parents": 'The Kilwinning man’s identification as the Kilbirnie minister and his parents are still unresolved.',
+    'The East Antrim bridge': 'Robert’s relationship to James is documented in 1764. The missing generations back to the seventeenth-century bearers and Scotland remain open.',
+    'Which household became which family?': 'The earlier records name local households. They do not yet establish how those households connect to the later families.',
+    'Five Glasgow entries (1601–1677)': 'Five record occurrences need individual identity checks. They are not necessarily five distinct people or established matches to existing profiles.',
+    'Where the paternal branches meet': 'The DNA comparison needs a documented father-to-son chain connecting a tested line to a named family.',
+}
+
+
+def question_actions(key, context_html=''):
     """Render status, resolution and record target; never invent a missing value."""
     status, resolve, record = QUESTION_ACTIONS.get(key, ('Open', '', ''))
     unknown = f'<span class="question-unknown">{escape(evidence_labels.NOT_YET_IDENTIFIED)}</span>'
@@ -125,8 +143,11 @@ def question_actions(key):
         f'<div><dt>{escape(evidence_labels.QUESTION_FIELDS[field])}</dt><dd>{escape(value) if value else unknown}</dd></div>'
         for field, value in (('resolve', resolve), ('record', record))
     )
+    missing = MISSING_CONNECTIONS.get(key, '')
     return (f'<p class="repair-question-status"><span class="question-status question-open">{escape(status)}</span></p>'
-            f'<dl class="question-actions">{rows}</dl>')
+            f'<p class="repair-question-missing">{escape(missing)}</p>'
+            f'<details class="repair-question-details"><summary>Evidence and next records to check</summary>'
+            f'{context_html}<dl class="question-actions">{rows}</dl></details>')
 
 
 STUDY_SOURCES = {
@@ -164,8 +185,8 @@ def repair():
         f'<span class="r-kicker">{escape(trail_date)} &middot; Open question</span>'
         f'<h3>{escape(trail_name)}</h3><p>{escape(trail_question)}</p>'
         f'<span class="repair-question-arrow" aria-hidden="true">Read the evidence &rarr;</span></a>'
-        f'<div class="repair-question-trail-actions">{question_actions(trail_slug)}</div>'
-        for trail_slug, trail_name, trail_date, trail_question, _ in trails
+        f'<div class="repair-question-trail-actions">{question_actions(trail_slug, "<p>" + escape(trail_context) + "</p>")}</div>'
+        for trail_slug, trail_name, trail_date, trail_question, trail_context in trails
     )
     def render_study(region, title, question, context, url):
         sources = STUDY_SOURCES.get(title, ())
@@ -178,7 +199,7 @@ def repair():
         return (
             f'<article class="repair-question-study"><span class="r-kicker">{escape(region)}</span>'
             f'<h3><a href="{escape(url, quote=True)}">{escape(title)}</a></h3>'
-            f'<p class="repair-question-prompt">{escape(question)}</p>{question_actions(title)}<p>{escape(context)}</p>{source_markup}'
+            f'<p class="repair-question-prompt">{escape(question)}</p>{question_actions(title, "<p>" + escape(context) + "</p>" + source_markup)}'
             f'<a class="repair-question-arrow" href="{escape(url, quote=True)}">{action}</a></article>'
         )
 
@@ -190,7 +211,7 @@ def repair():
         '<p class="repair-question-intro">Read what we know about each family, why a relationship is still uncertain and which record could help resolve it.</p>'
         f'<a class="repair-question-focus" href="/people/{slug}.html"><span class="r-kicker">{escape(date)} &middot; Featured question</span>'
         f'<h3>{escape(name)}</h3><p>{escape(question)}</p><span>Follow the evidence &rarr;</span></a>'
-        f'<div class="repair-question-focus-actions">{question_actions(slug)}</div>'
+        f'<div class="repair-question-focus-actions">{question_actions(slug, "<p>" + escape(context) + "</p>")}</div>'
         f'<p class="evidence-guide-link"><a href="{evidence_labels.GUIDE_URL}">{evidence_labels.GUIDE_LABEL}</a>'
         '<span> What the status labels mean.</span></p></div>'
         '<div class="repair-question-trails"><div class="repair-question-trails-head"><span>Other ancestors being researched</span><p>Each study explains what is known and what still needs proof.</p></div>'
