@@ -7,6 +7,8 @@ description: Conduct evidence-led WikiTree research, profile and relationship in
 
 Verify each claimed identity, relationship, date, and place against the underlying record. Distinguish documented facts, evidence-based inferences, and hypotheses.
 
+- For newspaper surname research, verify that the inspected passage names a person with the surname before retaining it as a surname record. “Of Glasgow”, city datelines, destinations and vessel names are search exclusions, not Glasgow people. A quoted forename/surname search or OCR match alone is insufficient. Keep temporary reading captures and exclusion logs separate from retained surname sources; report inspected hits, retained surname records and unresolved readings separately. Do not exclude an entire page merely because it also contains a Glasgow place reference.
+
 - Before ending a turn that changes project files, verify and commit the completed changes with a concise, descriptive Conventional Commit message. Commit coherent batches separately when useful; never push, create empty commits, or include unrelated pre-existing changes. The orchestrator stages and commits delegated work. Report verification or commit blockers explicitly.
 
 - Complete the active research/profile/site-integration batch before starting separately queued follow-up work. If the owner says later requests come afterwards, save them in the project queue and finish the current evidence, drafts, synchronization, verification and package first.

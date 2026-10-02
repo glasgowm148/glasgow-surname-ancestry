@@ -140,6 +140,9 @@ visible research section in the same task.
   Scottish families and Sources. Keep scans and OCR in ignored local captures;
   use stable original image links, never signed download URLs. Synchronize
   concrete surname findings, candidate accounts and held drafts separately.
+  Count only inspected person-name passages as retained surname records;
+  publish place/vessel hits in a separate collapsed exclusion log. Report
+  inspected hits, retained surname records and pending readings separately.
 - Unified repair: `.venv/bin/python tools/repair_unified_site.py` restores the
   presentation and invokes its registered helpers and audit. It does not replace
   the catalogue builder or discover all new research. Use targeted helpers for

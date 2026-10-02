@@ -39,6 +39,7 @@ def publish(*, render_people=True):
     runpy.run_path(str(ROOT / 'tools/build_latest_findings.py'))['repair']()
     runpy.run_path(str(ROOT / 'tools/build_relationship_audit.py'))['build']()
     runpy.run_path(str(ROOT / 'tools/build_research_queue.py'))['build']()
+    runpy.run_path(str(ROOT / 'tools/publish_newspaper_review.py'))['repair']()
     # Rendering old imported dossiers must not overwrite merge redirects.
     runpy.run_path(str(ROOT / 'tools/publish_wikitree_redirect_aliases.py'))['publish']()
     repair_privacy(ROOT / 'www')
