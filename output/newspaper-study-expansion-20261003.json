@@ -1,0 +1,34 @@
+{
+  "batch": "newspaper-study-expansion-2026-10-03",
+  "candidate_pages_visually_inspected": 28,
+  "new_retained_surname_pages": 9,
+  "new_retained_place_pages": 1,
+  "public_catalogue_counts": {
+    "inspected_pages": 50,
+    "retained_surname_records": 10,
+    "retained_place_study_records": 1,
+    "excluded_place_or_vessel_hits": 39,
+    "pending_readings": 0
+  },
+  "person_accounts_verified": 7,
+  "new_findings": 6,
+  "tests_passed": 29,
+  "ui_viewports": [
+    1440,
+    390
+  ],
+  "console_errors": 0,
+  "privacy_filter_applied": true,
+  "publication_boundary_failures": 0,
+  "archive": "/Users/m/wikitree-api-scrape/www/glasgow-site-20261003-134628.tar.gz",
+  "archive_bytes": 150228451,
+  "archive_decimal_mb": 150.23,
+  "archive_sha256": "d092d5c3f5eb2893bd809091b798e3e9e12896fc74fbf64597cb22549ae35f96",
+  "manifest_files_verified": 79473,
+  "selected_local_hashes_verified": 22,
+  "originals_archive": "artifacts/newspapers-20261003-verified.zip",
+  "originals_archive_bytes": 35323830,
+  "original_pages_hash_verified": 10,
+  "live_wikitree_saved": false,
+  "production_deployed": false
+}

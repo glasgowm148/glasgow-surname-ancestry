@@ -273,10 +273,10 @@
     },
     "Glasgow-951": {
       "current_sha256": "8004524a605468400e2cb155818c8cf22d7726bccd9e82c50338b9d3f06ee2de",
-      "proposed_sha256": "c449066de6f756afe85e5c06ccc7648ee0fce0707a62dce66009a3f119629a75",
+      "proposed_sha256": "53199b4deef0f29e29dc0616212cd93e365cc05aac0e607456ee704c11de85b8",
       "all_substantive_passages_accounted_for": true,
       "current_characters": 164330,
-      "proposed_characters": 167286,
+      "proposed_characters": 168634,
       "missing_source_urls": [],
       "draft_path": "research/Glasgow-951/research-update-2026-09-29.wiki",
       "review": {
@@ -297,7 +297,15 @@
       "current_full_reference_bodies": 108,
       "all_full_reference_bodies_retained_verbatim": true,
       "current_profile_links": 72,
-      "missing_profile_links": []
+      "missing_profile_links": [],
+      "additive_review_2026_10_03": {
+        "reviewed_on": "2026-10-03",
+        "previous_proposed_sha256": "c449066de6f756afe85e5c06ccc7648ee0fce0707a62dce66009a3f119629a75",
+        "assessment": "Complete effective replacement compared with the previously audited replacement. Six inserted lines add the inspected 1829 application and qualified 1861 occurrence; every earlier line remains verbatim in order. The saved current biography fingerprint is unchanged. Original references, profile links and prior uncertainty remain. New newspaper passages were visually checked; candidate identities and application/admission distinction are explicit. No fresh live capture or live save is claimed.",
+        "inserted_lines": 6,
+        "all_prior_proposed_lines_retained_verbatim": true,
+        "live_saved": false
+      }
     },
     "Glasgow-1101": {
       "current_sha256": "c12ea86c71635cf3f5c1eed12b368a5f065d330b2480c835ff2e8cd5a3edb667",

@@ -1,14 +1,14 @@
 {
-  "reviewed_at": "2026-10-02",
-  "title": "Early Glasgow surname records in newspapers",
-  "scope": "40 unique search-hit pages inspected, indexed 26 January 1690–27 July 1749; 1 surname record retained and 39 place/vessel matches excluded.",
-  "conclusion": "The retained surname record names James Glasgow in the Prosperity of Irvine arrival reported at Greenock on 12 August 1740, published 18 August. The other 39 inspected search-hit pages name places or vessels in their matched passages and are excluded from the surname record count. Four Irvine James profiles remain compatible; no profile identification is proved.",
+  "reviewed_at": "2026-10-03",
+  "title": "Glasgow surname and research-study newspaper records",
+  "scope": "The original 40 early pages (1690–1749), plus ten inspected pages selected for Montgreenan, Lisnagaver–Rasharkin and Larne–Kilwaughter studies. Wider searches covered 1690–1900, oldest first; large searches were sampled, not exhausted.",
+  "conclusion": "The first early review retained James Glasgow’s 1740 shipping occurrence. Expanded study searches add nine surname pages and one separately labelled place record: Montgreenan family and estate notices, the original 1829 Lisnagaver freehold application, a Lisnagaver incident in 1861, and a Larne–Kilwaughter mill auction in 1804.",
   "limitations": [
-    "This is an initial selected batch, not an exhaustive archive search or proof of the earliest Glasgow surname in print.",
-    "The 20 quoted searches used indexed dates 1690–1749 and oldest-first ordering. Only the first page selected from each spelling-variant search was inspected; Glascow captured 20 of 76 result rows.",
-    "Search OCR misses long-s and spelling variants. Zero-row captures were not independently validated as exhaustive negative searches.",
-    "Dates are Newspapers.com indexed issue dates; two pages contain later printed dates. Source readings were checked against the scans. Exclusions concern the matched passages, not every word of the issues.",
-    "Ship homeports and arrival places do not establish the master’s birthplace or residence. Northcopen is retained as printed."
+    "Inspected catalogue pages and retained surname pages are different counts. The place-study notice is not surname evidence.",
+    "The 1829 page is the original of a previously known derivative extract, not a second independent occurrence.",
+    "The newspaper marriage date is 22 February 1802; the maintained OPR citation gives 23 February. The 1835 appeal heading varies between reports.",
+    "Large keyword searches remain incomplete; OCR can join unrelated columns or miss a surname. No new founding-family connection or live WikiTree edit is claimed.",
+    "Licensed scans and reading captures remain private; stable original image links are published."
   ],
   "rows": [
     {
@@ -576,6 +576,185 @@
       "reading": "St. Andrew of Glasgow",
       "assessment": "Vessel importing tobacco from Maryland.",
       "profile_ids": []
+    },
+    {
+      "image_id": "393025725",
+      "date": "1802-03-01",
+      "paper": "The Caledonian Mercury",
+      "page": 3,
+      "source_url": "https://www.newspapers.com/image/393025725/",
+      "queries": [
+        "Montgreenan Glasgow"
+      ],
+      "status": "confirmed surname",
+      "reading": "At Dunlop-house, on the 22d ult. Robert Glasgow of Montgreenan, Esq. to Miss Rachel Dunlop, daughter of the late John Dunlop of Dunlop, Esq.",
+      "assessment": "The notice explicitly names Rachel’s father. Dunlop-2144 is a checked compatible John of Dunlop, whose biography lists Rachel’s 1769 baptism. Newspaper date is 22 February; the maintained OPR citation gives 23 February. Preserve both pending original-register comparison. No mother is stated.",
+      "profile_ids": [
+        "Glasgow-1076",
+        "Dunlop-2189",
+        "Dunlop-2144"
+      ],
+      "reviewed_on": "2026-10-03"
+    },
+    {
+      "image_id": "393033305",
+      "date": "1802-09-11",
+      "paper": "The Caledonian Mercury",
+      "page": 1,
+      "source_url": "https://www.newspapers.com/image/393033305/",
+      "queries": [
+        "Montgreenan Glasgow"
+      ],
+      "status": "confirmed surname",
+      "reading": "Ayrshire list of game licences issued by the Sheriff’s Clerk between 12 July and 2 September 1802: Glasgow, Robert, Esq. of Montgreenan.",
+      "assessment": "Contemporary use of the estate designation by 2 September 1802. It supports the 1802 Montgreenan association, without dating the purchase or establishing a family relationship.",
+      "profile_ids": [
+        "Glasgow-1076"
+      ],
+      "reviewed_on": "2026-10-03"
+    },
+    {
+      "image_id": "393042846",
+      "date": "1806-09-22",
+      "paper": "The Caledonian Mercury",
+      "page": 2,
+      "source_url": "https://www.newspapers.com/image/393042846/",
+      "queries": [
+        "Montgreenan Glasgow"
+      ],
+      "status": "confirmed surname",
+      "reading": "Game licences and deputations issued by the Sheriff Clerk of Ayrshire: Glasgow, Robert, Esq. of Montgreenan. A gamekeeper deputation also names Robert Glasgow of Montgreenan as principal.",
+      "assessment": "List covers 17 July–6 September 1806. Supports continued Montgreenan estate association; a deputation is an appointment of a gamekeeper, not kinship.",
+      "profile_ids": [
+        "Glasgow-1076"
+      ],
+      "reviewed_on": "2026-10-03"
+    },
+    {
+      "image_id": "392082759",
+      "date": "1808-01-25",
+      "paper": "The Morning Chronicle",
+      "page": 2,
+      "source_url": "https://www.newspapers.com/image/392082759/",
+      "queries": [
+        "Montgreenan Glasgow"
+      ],
+      "status": "confirmed surname",
+      "reading": "County of Ayr, Ayr, 13 January 1808: Robert Morris of Craig, for himself, and as authorised by Mr. Glasgow of Montgreenan.",
+      "assessment": "The county meeting debated trial by jury in civil cases. Montgreenan’s Glasgow was represented by an authorised attendee; this does not place him physically at the meeting. Name, estate and chronology fit Robert-1076.",
+      "profile_ids": [
+        "Glasgow-1076"
+      ],
+      "reviewed_on": "2026-10-03"
+    },
+    {
+      "image_id": "393027340",
+      "date": "1827-12-19",
+      "paper": "Aberdeen Journal, and General Advertiser for the North of Scotland",
+      "page": 4,
+      "source_url": "https://www.newspapers.com/image/393027340/",
+      "queries": [
+        "Montgreenan Glasgow"
+      ],
+      "status": "confirmed surname",
+      "reading": "At Rome, on the 22d ult. Mrs Robertson Glasgow, of Montgreenan, of a daughter.",
+      "assessment": "Reports a daughter born 22 November 1827 at Rome. Exact date, place and family designation support Charlotte Glasgow-3003’s recorded birth, but the notice does not give the child’s forename or the mother’s forename. Anne-2874 is the checked Montgreenan succession wife.",
+      "profile_ids": [
+        "Glasgow-2874",
+        "Glasgow-3003"
+      ],
+      "reviewed_on": "2026-10-03"
+    },
+    {
+      "image_id": "390582445",
+      "date": "1829-06-05",
+      "paper": "Belfast News-Letter",
+      "page": 4,
+      "source_url": "https://www.newspapers.com/image/390582445/",
+      "queries": [
+        "Glasgow Lisnagaver"
+      ],
+      "status": "confirmed surname",
+      "reading": "County of Antrim: List of Persons applying to Register their Freeholds, under 10 Geo. IV, cap. 8. No. 2324: Alex. Glasgow, Lisnagaver — Lands — Kilconway, townland of Lisnagaver.",
+      "assessment": "Original page now inspected; replaces the earlier access-blocked heading/extract assessment. This is an application, not proof of admission. No age or relative is stated. Alexander-951 and older Alexander-3904 remain compatible; conflicting age estimates prevent an automatic identification. The property is Lisnagaver; Kilconway is the barony.",
+      "profile_ids": [
+        "Glasgow-951",
+        "Glasgow-3904"
+      ],
+      "reviewed_on": "2026-10-03"
+    },
+    {
+      "image_id": "396909317",
+      "date": "1835-08-26",
+      "paper": "The Morning Post",
+      "page": 4,
+      "source_url": "https://www.newspapers.com/image/396909317/",
+      "queries": [
+        "Montgreenan Glasgow"
+      ],
+      "status": "confirmed surname",
+      "reading": "Hugh Allan v. Trustees of Robert Glasgow: the report calls Mrs Robertson Glasgow the late Robert’s natural daughter and first heir under his 1818 entail. It reports his death in 1827 and a supplementary entail and trust dated 23 June 1821, involving Seafield near Ayr.",
+      "assessment": "Contemporary account of the 25 August hearing, independently supporting Anne’s daughter/heir description and the 1827 death year. It does not verify 19 April. Hugh Allan-8034, the profile-defined nephew, is a compatible appellant candidate; older Allan-8028 has no death recorded but would be 109. Neither identity is proved. These later deeds are distinct from the uninspected 1803 trust.",
+      "profile_ids": [
+        "Glasgow-1076",
+        "Glasgow-2874",
+        "Allan-8034",
+        "Allan-8028"
+      ],
+      "reviewed_on": "2026-10-03"
+    },
+    {
+      "image_id": "392120204",
+      "date": "1835-09-03",
+      "paper": "The Morning Chronicle",
+      "page": 4,
+      "source_url": "https://www.newspapers.com/image/392120204/",
+      "queries": [
+        "Montgreenan Glasgow"
+      ],
+      "status": "confirmed surname",
+      "reading": "House of Lords appeals: the report reproduces clauses of Glasgow’s settlement and says Lord Brougham recommended reversing the judgment below; judgment reversed accordingly. The heading appears to read Henry Allen v. Trustees of R. Glasgow.",
+      "assessment": "Reports the Wednesday judgment, 2 September 1835. The estate, Seafield dispute and counsel identify the same litigation as the 26 August report, whose appellant is Hugh Allan. Preserve the discrepant heading; compare the original court papers before resolving the name. Reported deed extracts are not an inspection of the original deed.",
+      "profile_ids": [
+        "Glasgow-1076",
+        "Glasgow-2874",
+        "Allan-8034",
+        "Allan-8028"
+      ],
+      "reviewed_on": "2026-10-03"
+    },
+    {
+      "image_id": "387764534",
+      "date": "1861-01-07",
+      "paper": "Belfast News-Letter",
+      "page": 4,
+      "source_url": "https://www.newspapers.com/image/387764534/",
+      "queries": [
+        "Glasgow Lisnagaver"
+      ],
+      "status": "confirmed surname",
+      "reading": "Shocking catastrophe at Rasharkin: Robt. Glasgow, described as a neighbour at Lisnagaver, warned James M’Caughern about a dangerous gable before it fell; Glasgow narrowly escaped while leaving the doorway and raised the alarm.",
+      "assessment": "Genuine Glasgow surname in a local incident. Robert-938 and Robert-3449 remain compatible candidates; no age, parents, occupation or link to a valuation holding is stated. A later Scottish death does not exclude Robert-938 being in Ireland in 1861.",
+      "profile_ids": [
+        "Glasgow-938",
+        "Glasgow-3449"
+      ],
+      "reviewed_on": "2026-10-03"
+    },
+    {
+      "image_id": "393045533",
+      "date": "1804-09-10",
+      "paper": "The Caledonian Mercury",
+      "page": 1,
+      "source_url": "https://www.newspapers.com/image/393045533/",
+      "queries": [
+        "Glasgow Kilwaughter"
+      ],
+      "status": "place study",
+      "reading": "Auction advertised for 22 September at the Donegall Arms, Belfast: Larne corn and wheat mills, Kilwaughter corn mill, and Inver flour mills, with machinery, lands and lease interests in James Holmes & Co.’s possession.",
+      "assessment": "Place-study evidence only. Different mill interests were held under the heirs of the Marquis of Antrim and under the Marquis of Donegall. The passage names no Glasgow surname and does not connect the Glasgow families to these mills or to a seventeenth-century glassworks.",
+      "profile_ids": [],
+      "reviewed_on": "2026-10-03"
     }
   ]
 }

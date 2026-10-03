@@ -36,3 +36,7 @@ All 180 complete existing reference bodies are retained verbatim. Every current 
 Full per-profile reviews and before/after fingerprints: [preservation-review.json](preservation-review.json). Initial shortened drafts, queues and research notes are retained under `before-reconciliation/`; initial effective biographies are in `baseline.json`.
 
 Public research summaries were also reconciled to retain broad historical DNA conclusions without individual kit numbers or personal tester comparisons. The original internal notes are preserved in the audit backup. This presentation correction does not remove evidence from any of the eleven complete biography drafts.
+
+## Glasgow-951 additive review — 3 October 2026
+
+The full effective replacement was compared with the previously fingerprinted replacement. Exactly six lines were inserted before Sources; every prior line remains verbatim and in order, with no deletions or replacements. The current captured biography hash is unchanged. The new 1829 application and qualified 1861 Lisnagaver occurrence retain competing identities and add original newspaper references. Their passages were visually inspected. The proposed fingerprint was renewed only after this comparison; no fresh live capture or live save is claimed. The preserved full-biography audit remains the basis for earlier passages.

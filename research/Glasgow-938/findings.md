@@ -45,3 +45,17 @@ The alleged 27 November 1902 death has a copied Camlachie reference **644/2/849*
 The 1911 Gortereghy census browse lists **James Graham**, aged 26, as head of household with **Etta Graham**, aged 23, as his wife. This exact household is absent from the associated Glasgow-938/Jane Graham catalogue. Because Jane Graham, wife of [[Glasgow-938|Robert Glasgow]], was resident at Gortereghy before her 1866 marriage, the household is a useful local Graham-family lead, but no record yet connects James or Etta to Jane's parents or siblings. The source is a derivative census presentation and requires the original 1911 forms for final verification.
 
 Source: [Down the Road, Gortereghy 1911 census browse](https://downtheroad.dev/de/census?county=Antrim&tab=browse&townland=Gortereghy&year=1911), accessed 17 September 2026.
+
+## Newspaper original review — 3 October 2026
+
+## Source findings
+
+[Belfast News-Letter, 7 January 1861, p.4](https://www.newspapers.com/image/387764534/), “Shocking catastrophe at Rasharkin”, describes **Robt. Glasgow** as a neighbour at **Lisnagaver**. He warned James M’Caughern about a dangerous gable before the house collapsed, narrowly escaped in the doorway and raised the alarm. The original passage was inspected 3 October 2026. It states no Glasgow age, parents or occupation.
+
+## Identity assessment
+
+[Robert Glasgow-938](https://www.wikitree.com/wiki/Glasgow-938) and [Robert Glasgow-3449](https://www.wikitree.com/wiki/Glasgow-3449) remain compatible candidates. Robert-938’s later Scottish death is not a conflict with Irish residence in 1861. The notice does not establish that its man was either candidate, the Gortereghy valuation holder, or a relative of the named M’Caughern household.
+
+## Priority actions
+
+Compare the coroner’s inquest and subsequent reporting for an age, address or family identifier. Do not attach the incident or a property holding as a certain profile fact.

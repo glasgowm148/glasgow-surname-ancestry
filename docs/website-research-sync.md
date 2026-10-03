@@ -136,12 +136,12 @@ visible research section in the same task.
 - Early newspaper review: maintain
   `surname-research/indexes/glasgow-newspaper-review.json`, then run
   `.venv/bin/python tools/publish_newspaper_review.py`. This publishes inspected
-  passage readings, city/vessel exclusions and qualified profile candidates to
+  passage readings, separately labelled relevant place-study notices, city/vessel exclusions and qualified profile candidates to
   Scottish families and Sources. Keep scans and OCR in ignored local captures;
   use stable original image links, never signed download URLs. Synchronize
   concrete surname findings, candidate accounts and held drafts separately.
   Count only inspected person-name passages as retained surname records;
-  publish place/vessel hits in a separate collapsed exclusion log. Report
+  publish irrelevant place/vessel hits in a separate collapsed exclusion log. Relevant locality notices use `place study`, have their own visible table and count, and must never be counted as surname records. Report
   inspected hits, retained surname records and pending readings separately.
 - Unified repair: `.venv/bin/python tools/repair_unified_site.py` restores the
   presentation and invokes its registered helpers and audit. It does not replace

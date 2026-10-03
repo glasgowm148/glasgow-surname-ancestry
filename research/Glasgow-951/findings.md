@@ -2162,6 +2162,18 @@ A second origin model remains useful: the two **Hugh Glasgow householders record
 
 ### Supplied research-output review, 13 September 2026
 
+### The 1829 Lisnagaver original — inspected 3 October 2026
+
+The [Belfast News-Letter, 5 June 1829, p.4, original image](https://www.newspapers.com/image/390582445/) is now inspected through free access. The heading reads **County of Antrim — List of Persons applying to Register their FREEHOLDS**, at ensuing special sessions at Ballymoney for the division of Ballymena, under **10 Geo. IV, cap. 8**, entered by the Clerk of the Peace. Row **2324** reads **Alex. Glasgow, Lisnagaver**; the freehold description is **Lands — Kilconway, townland of Lisnagaver**. Kilconway is the barony, not a different residence. No age or relative is stated; the individual value at the far edge cannot be read securely. The list records an **application**, not successful registration or completed qualification.
+
+This resolves the previous access gap and the nature/location of the record. It is the underlying page of the already-known MyHeritage/BNA occurrence, **not a second independent record**. [Alexander-951](https://www.wikitree.com/wiki/Glasgow-951) and the older [Alexander-3904](https://www.wikitree.com/wiki/Glasgow-3904) remain compatible candidates. The 1851 age makes Alexander-951 about 18 here; the probable 1888 death age makes him about 25. A formal freehold application requires closer comparison with the statute and session registration record, but does not itself choose between the birth estimates or name an older man as Alexander’s father. No parent ranking, birth estimate or relationship confidence is changed.
+
+The next records are the registration proceedings/minutes for applicant 2324 and a clearer value column, followed by the statutory qualification applicable to this application. The original confirms the co-listing of Robert Elder of Gortaragh, Arthur O’Neil of Tehorney, Henry and James Wallace of Culmore, James Tomb of Ballymaconly and James Elder of Drumcon; co-listing is not kinship or proof of adjoining holdings.
+
+### Earlier extract review — retained history, superseded where noted
+
+The following 13 September account accurately records the then-available derivative extracts. Its statements that the full image was unread/access-blocked and that registration context was only provisional are superseded by the 3 October original reading above. Its identity and age cautions remain in force.
+
 ### The reported 1829 occurrence: an age and identity test
 
 The original newspaper alert of **12 September 2025** was inspected directly on 13 September 2026. Its [MyHeritage result, 12021-100828509](https://www.myheritage.com/research/record-12021-100828509-/alexander-glasgow-in-united-kingdom-names-stories-in-newspapers-from-oldnewscom), does quote **“Alex. Glasgow, Lisnagaver”** from the **Belfast News-Letter, 5 June 1829**. The [British Newspaper Archive issue index](https://www.britishnewspaperarchive.com/image-viewer?issue=BL%2F0000038%2F18290605&page=0004&article=015) independently locates the Lisnagaver entry in **page 4, article 015**. Its OCR mangles Glasgow, explaining why a surname search missed the article while a townland search found it. These are two derivative extracts of one newspaper occurrence, not two independent historical records.
@@ -3254,3 +3266,18 @@ No marriage in the export identifies Robert's daughters Mary Jane or Ann.
 The collateral Gortereghy review now links Neal Anderson’s 1893 marriage and 1901/1911 household to Anderson-47669. John Elder’s 1886 Rasharkin marriage matches Elder-5907, with his 1912 grocer/postmaster occurrence still compatible and the 1842 groom reviewed separately. These matched collateral profiles do not establish Alexander’s father or a Glasgow relationship.
 
 Current public profile biographies were checked alongside the maintained historical record accounts. The complete record-specific review is published in the [profile matching audit](https://glasgow.phenotype.dev/research/profile-matches/).
+
+
+## Newspaper original review — 3 October 2026
+
+## Source findings
+
+[Belfast News-Letter, 7 January 1861, p.4](https://www.newspapers.com/image/387764534/), “Shocking catastrophe at Rasharkin”, describes **Robt. Glasgow** as a neighbour at **Lisnagaver**. He warned James M’Caughern about a dangerous gable before the house collapsed, narrowly escaped in the doorway and raised the alarm. The original passage was inspected 3 October 2026. It states no Glasgow age, parents or occupation.
+
+## Identity assessment
+
+[Robert Glasgow-938](https://www.wikitree.com/wiki/Glasgow-938) and [Robert Glasgow-3449](https://www.wikitree.com/wiki/Glasgow-3449) remain compatible candidates. Robert-938’s later Scottish death is not a conflict with Irish residence in 1861. The notice does not establish that its man was either candidate, the Gortereghy valuation holder, or a relative of the named M’Caughern household.
+
+## Priority actions
+
+Compare the coroner’s inquest and subsequent reporting for an age, address or family identifier. Do not attach the incident or a property holding as a certain profile fact.

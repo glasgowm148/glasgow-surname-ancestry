@@ -528,7 +528,7 @@ def render(branch, group, families, authored, registry, rows, geo):
     return str(page)
 
 
-def repair():
+def repair(study_ids=None):
     groups = runpy.run_path(str(ROOT/'tools/repair_research_groups.py'))
     curated = {g['id']:g for g in groups['GROUPS']+groups['IRISH_GROUPS']}
     local = runpy.run_path(str(ROOT/'tools/repair_site_experience.py'))['LOCAL_FAMILIES']
@@ -539,6 +539,7 @@ def repair():
     geo = {'helper':helper,**{name:json.loads((helper['TERRITORY_DIR']/f'{name}.geojson').read_text())['features'] for name in ('territories','counties')}}
     counts = Counter()
     for b in branches:
+        if study_ids and b['id'] not in study_ids: continue
         if b['id'] not in curated and b['id'] not in ('larne-kilwaughter','lisnagaver-rasharkin','early-scottish-records'): continue
         path = WEB/'branches'/b['id']/'index.html'
         original = path.read_text()

@@ -1,14 +1,14 @@
 # Findings: [Robert Glasgow of Montgreenan (Glasgow-1076)](https://www.wikitree.com/wiki/Glasgow-1076)
 
-Last updated: 2026-09-10
+Last updated: 2026-10-03
 
 ## Current conclusion
 
-The statement that Robert died “without issue” cannot stand without qualification: [UCL's summary of his 1803 trust](https://wwwdepts-live.ucl.ac.uk/lbs/person/view/2146643739) reports reputed natural children John and Emilia, and identifies Anne as a natural daughter in the Robertson succession. The original trust is not yet read here. The 30 September profile review now links the record-defined John and Anne to their existing profiles; the Emilia identification and independent verification of the trust remain qualified.
+The statement that Robert died “without issue” cannot stand without qualification: [UCL's summary of his 1803 trust](https://wwwdepts-live.ucl.ac.uk/lbs/person/view/2146643739) reports reputed natural children John and Emilia, and identifies Anne as a natural daughter in the Robertson succession. The original trust is not yet read here. The inspected 1835 appeal report independently calls Mrs Robertson Glasgow Robert’s natural daughter and first estate heir. The 30 September profile review now links the record-defined John and Anne to their existing profiles; the Emilia identification and independent verification of the trust remain qualified.
 
 Robert Glasgow of Montgreenan held Mount Grenan and Sans Souci on St Vincent. Smith documents Houstoun & Co finance, wealth extracted from enslaved labour, the 1802 purchase of Montgreenan and construction of the later house c.1810–17.
 
-The current WikiTree profile gives death on 19 April 1827 at Kilwinning. A related UCL successor entry calls him “d. 1828” while citing an October 1828 registration. This may be registration rather than death, but the Scottish papers must resolve it; do not change the date from this audit alone.
+The current WikiTree profile gives death on 19 April 1827 at Kilwinning. A related UCL successor entry calls him “d. 1828” while citing an October 1828 registration. The contemporary 1835 appeal report now supports death in 1827; the exact day still needs the Scottish papers. Do not substitute an 1828 registration for death.
 
 ## Current WikiTree capture and source preservation
 
@@ -59,3 +59,19 @@ Read-only live API biographies were checked for John Glasgow-2952, Anne Glasgow-
 Amelia Wilson-3789 is identified by the cited 1804 Kilbirnie marriage and Paisley baptisms using both Amelia and Emilia. UCL’s Amelia Theobalds account explicitly distinguishes John’s sister Amelia Wilson from his housekeeper Amelia Theobalds-120. The trust’s Emilia remains qualified because UCL also records a speculative Theobalds identification. Keep both possible interpretations visible and do not merge these two women.
 
 Sources: current public WikiTree biographies, captured 30 September; UCL LBS, [Amelia Theobalds](https://www.ucl.ac.uk/lbs/person/view/2146662589), inspected 30 September, citing British Library EAP1013/1/4; the maintained UCL Montgreenan and Robertson succession references above. No original trust image or live profile edit was made in this batch.
+
+## Newspaper original review — 3 October 2026
+
+## Source findings
+
+**Marriage notice and father, 1 March 1802.** The [Caledonian Mercury, p.3](https://www.newspapers.com/image/393025725/) reports Robert of Montgreenan’s marriage at Dunlop-house on **22 February 1802** to [Rachel Dunlop (Dunlop-2189)](https://www.wikitree.com/wiki/Dunlop-2189), daughter of the late John Dunlop of Dunlop. [John Dunlop-2144](https://www.wikitree.com/wiki/Dunlop-2144), 1707–1785, is a compatible checked profile: its public biography includes Rachel’s 17 May 1769 baptism to Mr Dunlop of Dunlop. This is a newspaper-confirmed father clause and a strong profile match; it supplies no mother. The maintained OPR citation gives **23 February**. Keep both readings pending inspection of the register, rather than silently replacing the date.
+
+**Estate and civic role.** The [11 September 1802 Mercury, p.1](https://www.newspapers.com/image/393033305/) lists Robert Glasgow, Esq. of Montgreenan among Ayrshire game licences issued between 12 July and 2 September. The [22 September 1806 Mercury, p.2](https://www.newspapers.com/image/393042846/) again lists him, covering 17 July–6 September, and names him as a gamekeeper’s principal. These establish use of the estate designation by the stated list dates, not a purchase date. The [Morning Chronicle, 25 January 1808, p.2](https://www.newspapers.com/image/392082759/) reports the Ayr county meeting of 13 January on trial by jury in civil cases; he was represented by an authorised attendee, not necessarily present personally.
+
+**Family and settlement litigation, 1835.** The [Morning Post, 26 August 1835, p.4](https://www.newspapers.com/image/396909317/) reports the 25 August hearing of **Hugh Allan v. Trustees of Robert Glasgow**. It expressly calls Mrs Robertson Glasgow Robert’s **natural daughter**, first called to succession under his **1818 entail**. This independent contemporary report supports the identification of [Anne Glasgow-2874](https://www.wikitree.com/wiki/Glasgow-2874) as his daughter and estate heir; it does not name her mother. It reports Robert’s death in **1827**, supporting that year without proving 19 April. It describes a supplementary entail and trust of **23 June 1821**, later purchases and **Seafield near Ayr**, and the dispute over selling Seafield and reinvesting its price. These later deeds are distinct from the 1803 trust; its John and Emilia clauses remain uninspected.
+
+The [Morning Chronicle, 3 September 1835, p.4](https://www.newspapers.com/image/392120204/) reports the Wednesday judgment (2 September), prints settlement clauses and records that judgment below was reversed. Its heading appears to name **Henry Allen**, unlike the first report’s Hugh Allan. Retain that discrepancy until original court papers establish the name. [Hugh Allan-8034](https://www.wikitree.com/wiki/Allan-8034), born 1768 to Anna Glasgow-3005 and Hugh Allan-8028, is a compatible candidate: the profiles place him as Robert’s nephew and he would be 67. This is not proof he was the appellant or of the precise heir-at-law relationship. The elder [Hugh Allan-8028](https://www.wikitree.com/wiki/Allan-8028) has no recorded death but would be 109, making him a weaker candidate. No relationship or profile merge follows.
+
+## Priority actions
+
+Compare the original Dunlop register with the 22/23 February marriage dates. Locate the 1818 and 23 June 1821 settlement papers and the 1832–1835 appeal, separately from SC6/44/4’s 1803 trust. Test the appellant against the Allan family records; do not convert a name match into a nephew identification. No live WikiTree change or relationship-confidence promotion was made in this batch.

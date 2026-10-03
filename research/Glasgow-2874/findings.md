@@ -11,3 +11,15 @@ The current profile identifies Robert of Montgreenan as Anne’s father and Robe
 ## Unresolved questions
 
 Read the original trust and relevant family records to test facts beyond the profile identification. No relationship confidence was promoted and no WikiTree save was made.
+
+## Newspaper original review — 3 October 2026
+
+## Source findings
+
+The [Morning Post, 26 August 1835, p.4](https://www.newspapers.com/image/396909317/), in the Montgreenan settlement appeal, explicitly calls Mrs Robertson Glasgow the late Robert Glasgow’s **natural daughter** and first heir under his 1818 entail. This independently supports Anne’s father-and-heir description; her mother is not stated. The [Morning Chronicle, 3 September 1835, p.4](https://www.newspapers.com/image/392120204/) reports judgment reversed in the Seafield dispute. The reported clauses do not replace inspection of the original 1803 trust or the 1818/1821 deeds.
+
+The [Aberdeen Journal, 19 December 1827, p.4](https://www.newspapers.com/image/393027340/) reports that Mrs Robertson Glasgow of Montgreenan had a daughter at Rome on **22 November 1827**. The child is unnamed in the notice; date, place and family match the profile-defined [Charlotte Glasgow-3003](https://www.wikitree.com/wiki/Glasgow-3003).
+
+## Unresolved questions
+
+The original maternal, marriage and trust evidence remains to be compared. No live family attachment or confidence status was changed.

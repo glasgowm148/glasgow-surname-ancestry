@@ -356,7 +356,7 @@ def directory_main(pages, cards):
 <section class="fsp-updates" id="edition-updates"><details><summary>WikiTree updates &amp; edition comparisons</summary><div><p>Confidence belongs to each source and conclusion; a research narrative does not establish every relationship it discusses.</p><p>WikiTree changes are pulled into a comparison, never over an edited local study. Matching text can be marked current; changes on one side can be reviewed for transfer. If both versions changed, both remain available until the differences are resolved.</p><p>Each reading page provides its full local WikiTree draft. Checked remote text and a diff appear after a successful pull. A remote access failure is recorded explicitly. Saving a reviewed draft on WikiTree remains a separate action.</p></div></details></section></main>'''
 
 
-def build_site(source,pages,studies):
+def build_site(source,pages,studies,page_ids=None):
     pages=prepare(pages,source,studies);web=ROOT/'www';shell=(web/'research/index.html').read_text();state=json.loads(STATE.read_text()) if STATE.exists() else {'pages':{}}
     cards=[];index=[]
     for p in pages:
@@ -367,6 +367,9 @@ def build_site(source,pages,studies):
         facts=''.join(f'<span>{escape(value)}</span>' for value in (dates,p.get('location',''),p['bodyStatus'] if p['bodyStatus']=='Blank source' else '') if value)
         cards.append(f'<article class="fsp-card" data-category="{escape(p["category"],quote=True)}" data-search="{escape(search,quote=True)}" data-importance="{p["importance"]}"><div class="fsp-card-title"><span class="r-kicker">{escape(p["category"])}</span><h3><a href="{p["url"]}">{escape(p["title"].replace(chr(39)*2,""))}</a></h3><div class="fsp-facts">{facts}</div></div><div class="fsp-card-description"><p>{escape(description)}</p><a class="fsp-read-link" href="{p["url"]}">Read the study <span aria-hidden="true">→</span></a></div></article>')
         sync=state.get('pages',{}).get(p['wikitreeId'],{})
+        index.append({k:p.get(k,'') for k in ('wikitreeId','title','viewUrl','category','editDate','verifiedDate','startDate','endDate','location','tags','url','importance','bodyStatus')}|{'availability':'Local reading edition','summaryUrl':p['url'],'syncStatus':sync.get('status','Not checked against current WikiTree text')})
+        if page_ids and p['wikitreeId'] not in page_ids:
+            continue
         source_text=(ROOT/p['editionFile']).read_text();renderer=Renderer(pages);body=renderer.render(source_text)
         for vi,variant in enumerate(p.get('variantFiles',[]),1):
             variant_text,variant_removed=public_text((ROOT/variant).read_text(),from_sources(),p['wikitreeId'])
@@ -393,7 +396,6 @@ def build_site(source,pages,studies):
         main=f'<main class="r-main fsp-main" id="main"><header class="r-page-head"><span class="r-kicker">{escape(p["category"])}</span><h1>{escape(p["title"].replace(chr(39)*2,""))}</h1><p>A maintained local edition of the research, with the original sources and assessments.</p><nav class="r-actions"><a href="/free-space/">← Research library</a><a href="{escape(p["viewUrl"],quote=True)}" rel="noopener">WikiTree edition ↗</a><a href="#wikitree-comparison">Compare editions</a></nav></header>{position}{notice}<div class="fsp-reading-layout"><aside class="fsp-contents"><details open><summary>On this page</summary><ol>{contents}</ol></details></aside><article class="fsp-reading">{body}{sync_panel}</article></div></main>'
         meta_description = p['title'].replace(chr(39)*2, '') + ': ' + description
         target=web/p['url'].strip('/')/'index.html';target.parent.mkdir(parents=True,exist_ok=True);target.write_text(shell_page(shell,main,p['title'],p['url']+'index.html',meta_description))
-        index.append({k:p.get(k,'') for k in ('wikitreeId','title','viewUrl','category','editDate','verifiedDate','startDate','endDate','location','tags','url','importance','bodyStatus')}|{'availability':'Local reading edition','summaryUrl':p['url'],'syncStatus':status})
     main=directory_main(pages,cards)
     target=web/'free-space/index.html';target.parent.mkdir(parents=True,exist_ok=True);target.write_text(shell_page(shell,main,'Free-space research library','/free-space/index.html','Browse Glasgow surname studies by topic: medieval names, Scottish records, Irish families, open questions and Y-DNA, with full local research and source references.'))
     (web/'assets/research/free-space-index.json').write_text(json.dumps(index,ensure_ascii=False,separators=(',',':')))
