@@ -16804,6 +16804,36 @@
       "provenance": [
         "research/newspapers-2026-10-03.md"
       ]
+    },
+    {
+      "id": "kilrea-daniel-belfast-death-notices-1871",
+      "found_on": "2026-10-03",
+      "kind": "record",
+      "finding": "Two Belfast death notices place Daniel Glasgow at Church Street, Kilrea, at his death on 16 October 1871 and give age 73, conflicting with age 75 in the civil register.",
+      "status": "qualified",
+      "qualification": "Daniel-3896 is identified by name, locality and exact death date. The newspapers repeat one notice, so their ages are not independent. Retain both attributed ages; no relationship upgrade.",
+      "people": [
+        {
+          "id": "Glasgow-3896",
+          "name": "Daniel Glasgow",
+          "url": "https://www.wikitree.com/wiki/Glasgow-3896",
+          "role": "Identified deceased"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Belfast Evening Telegraph, 21 October 1871, p.3",
+          "url": "https://www.newspapers.com/image/1267991526/"
+        },
+        {
+          "title": "Belfast News-Letter, 21 October 1871, p.1",
+          "url": "https://www.newspapers.com/image/388271252/"
+        }
+      ],
+      "detail_url": "/people/glasgow-3896.html",
+      "provenance": [
+        "research/newspapers-lisnagaver-rasharkin-2026-10-03.md"
+      ]
     }
   ]
 }

@@ -1,14 +1,15 @@
 {
   "reviewed_at": "2026-10-03",
   "title": "Glasgow surname and research-study newspaper records",
-  "scope": "The original 40 early pages (1690–1749), plus ten inspected pages selected for Montgreenan, Lisnagaver–Rasharkin and Larne–Kilwaughter studies. Wider searches covered 1690–1900, oldest first; large searches were sampled, not exhausted.",
-  "conclusion": "The first early review retained James Glasgow’s 1740 shipping occurrence. Expanded study searches add nine surname pages and one separately labelled place record: Montgreenan family and estate notices, the original 1829 Lisnagaver freehold application, a Lisnagaver incident in 1861, and a Larne–Kilwaughter mill auction in 1804.",
+  "scope": "The original 40 early pages (1690–1749), plus ten inspected pages selected for Montgreenan, Lisnagaver–Rasharkin and Larne–Kilwaughter studies. Wider searches covered 1690–1900, oldest first; large searches were sampled, not exhausted. A further locality batch searched Lisnagaver/Rasharkin spelling variants, named Glasgows and neighbouring places, chiefly 1690–1900 with selected later Lisnagaver checks through 1955; 54 selected result-page passages were read. Large searches were sampled; the curated catalogue adds only the two retained Daniel notices.",
+  "conclusion": "The first early review retained James Glasgow’s 1740 shipping occurrence. Expanded study searches add nine surname pages and one separately labelled place record: Montgreenan family and estate notices, the original 1829 Lisnagaver freehold application, a Lisnagaver incident in 1861, and a Larne–Kilwaughter mill auction in 1804. A further locality search adds two appearances of Daniel Glasgow of Kilrea’s 1871 death notice: Church Street residence and an age of 73, conflicting with 75 in the civil register. No additional secure Alex/Robt occurrence at Lisnagaver was established in this bounded batch.",
   "limitations": [
     "Inspected catalogue pages and retained surname pages are different counts. The place-study notice is not surname evidence.",
     "The 1829 page is the original of a previously known derivative extract, not a second independent occurrence.",
     "The newspaper marriage date is 22 February 1802; the maintained OPR citation gives 23 February. The 1835 appeal heading varies between reports.",
     "Large keyword searches remain incomplete; OCR can join unrelated columns or miss a surname. No new founding-family connection or live WikiTree edit is claimed.",
-    "Licensed scans and reading captures remain private; stable original image links are published."
+    "Licensed scans and reading captures remain private; stable original image links are published.",
+    "The 1871 Belfast death notices repeat one notice and are not independent confirmations of age. One attempted source download returned HTTP 429; that passage remains unread. Nearby surname hits without an established connection were not added to the local family account."
   ],
   "rows": [
     {
@@ -754,6 +755,40 @@
       "reading": "Auction advertised for 22 September at the Donegall Arms, Belfast: Larne corn and wheat mills, Kilwaughter corn mill, and Inver flour mills, with machinery, lands and lease interests in James Holmes & Co.’s possession.",
       "assessment": "Place-study evidence only. Different mill interests were held under the heirs of the Marquis of Antrim and under the Marquis of Donegall. The passage names no Glasgow surname and does not connect the Glasgow families to these mills or to a seventeenth-century glassworks.",
       "profile_ids": [],
+      "reviewed_on": "2026-10-03"
+    },
+    {
+      "image_id": "1267991526",
+      "date": "1871-10-21",
+      "paper": "Belfast Evening Telegraph",
+      "page": "3",
+      "source_url": "https://www.newspapers.com/image/1267991526/",
+      "queries": [
+        "\"Daniel Glasgow\" Kilrea"
+      ],
+      "status": "confirmed surname",
+      "reading": "Daniel Glasgow; died 16 October; residence Church Street, Kilrea; age 73.",
+      "assessment": "Identified as Glasgow-3896 by name, place and exact death date. Same notice in two papers; age 73 conflicts with civil-register age 75. No kin or parents stated.",
+      "profile_ids": [
+        "Glasgow-3896"
+      ],
+      "reviewed_on": "2026-10-03"
+    },
+    {
+      "image_id": "388271252",
+      "date": "1871-10-21",
+      "paper": "Belfast News-Letter",
+      "page": "1",
+      "source_url": "https://www.newspapers.com/image/388271252/",
+      "queries": [
+        "\"Daniel Glasgow\" Kilrea"
+      ],
+      "status": "confirmed surname",
+      "reading": "Daniel Glasgow; died 16 October; residence Church Street, Kilrea; age 73.",
+      "assessment": "Identified as Glasgow-3896 by name, place and exact death date. Same notice in two papers; age 73 conflicts with civil-register age 75. No kin or parents stated.",
+      "profile_ids": [
+        "Glasgow-3896"
+      ],
       "reviewed_on": "2026-10-03"
     }
   ]

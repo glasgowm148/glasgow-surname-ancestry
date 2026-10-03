@@ -1,0 +1,37 @@
+{
+  "batch": "Lisnagaver-Rasharkin newspaper expansion 2026-10-03",
+  "distinct_query_windows": 81,
+  "selected_hit_passages_read": 54,
+  "new_retained_surname_pages": 2,
+  "new_distinct_events": 1,
+  "new_findings": 1,
+  "public_catalogue_counts": {
+    "inspected_pages": 52,
+    "retained_surname_records": 12,
+    "retained_place_study_records": 1,
+    "excluded_place_or_vessel_hits": 39,
+    "pending_readings": 0
+  },
+  "profile_study_latest_verified": true,
+  "ui_viewports": [
+    1280,
+    390
+  ],
+  "mobile_document_width": 390,
+  "console_errors": 0,
+  "complete_current_chars_verified": 20680,
+  "complete_replacement_chars_verified": 21424,
+  "complete_additive_amendment": true,
+  "publication_boundary_failures": 0,
+  "archive": "/Users/m/wikitree-api-scrape/www/glasgow-site-20261003-235723.tar.gz",
+  "archive_bytes": 150321204,
+  "archive_decimal_mb": 150.32,
+  "archive_sha256": "73f6c6ebd65ef6dbe75e52636190d9978be36a8e8ee2e433c253912f4b8594c1",
+  "manifest_files_verified": 79478,
+  "selected_local_hashes_verified": 8,
+  "private_source_zip": "artifacts/newspapers-lisnagaver-rasharkin-20261003.zip",
+  "private_source_zip_bytes": 7716684,
+  "originals_hash_verified": 2,
+  "live_wikitree_saved": false,
+  "production_deployed": false
+}
