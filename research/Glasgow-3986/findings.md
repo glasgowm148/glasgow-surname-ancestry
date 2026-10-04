@@ -8,6 +8,8 @@ Last updated: 2026-09-13
 
 ## Current conclusion
 
+James Glasgow of Larne appears in a December 1830 freehold-registration application for houses and land worth £10 yearly. Glasgow-3986 is a strong compatible candidate, but no record joins the applicant to the provisional 1795 merchant / 1797 junior sequence or establishes his parents or children. The Larne–Lisnagaver link remains unproved.
+
 [Compare the Larne, Inishrush and American family reconstruction](/people/glasgow-951.html#larne-reconstruction), including the alternative immediate-parent routes and their source tests.
 
 James is a possible son of the ropemaker [James Glasgow (Glasgow-1509)](https://www.wikitree.com/wiki/Glasgow-1509).
@@ -31,6 +33,17 @@ a baptism, marriage, will or lease succession is recovered, the uncertain
 attachment should remain explicitly provisional.
 
 ## Source findings
+
+### Newspaper continuation, 4 October 2026
+
+James Glasgow of Larne is no.16 among persons applying to register freeholds at the Carrickfergus General Quarter Sessions on 13 January 1831. His December 1830 entry describes houses and land in Upper Glenarm, townland of Larne, with a yearly value of £10.
+
+This is an application published on 24 December 1830, not proof that registration succeeded. Glasgow-3986 is the strongest compatible local candidate, but the notice gives no age, occupation, relatives or bridge to the 1795 merchant or 1797 junior. It does not connect Larne to Lisnagaver.
+
+[Belfast News-Letter, 24 December 1830, p.3, County Antrim freehold-registration applications](https://www.newspapers.com/image/390574399/)
+
+[Full record account](/research/subjects/newspapers-irish-1800-1850/#james-larne-freeholder).
+
 
 | Source | Finding | Assessment |
 | --- | --- | --- |
@@ -119,3 +132,7 @@ was inspected in this batch.
    Lisnagaver leases and Alexander's documented household. County-level overlap
    and repeated given names remain leads; retain the present weak candidate
    assessment until a record supplies the connection.
+
+## Live profile comparison, 4 October 2026
+
+The live Family section now names James Glasgow-1509 as father. The biography still describes the former William-1505 attachment. The earlier 13 September note that a live relationship change was unverified is historical and superseded by this readback. No new parent change or relationship-confidence upgrade was made in this batch; the freehold notice names no relatives.

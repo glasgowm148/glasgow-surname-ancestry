@@ -12120,11 +12120,11 @@
         "Glasgow-3444",
         "Glasgow-2981"
       ],
-      "assessment": "This is a procedural report, not a final judgment or proof of James’s residence. Identity with the Belfast tobacco seller and regional namesakes is unproved. Associates are recorded in context, without inferred kinship.",
+      "assessment": "This is a procedural report, not a final judgment or proof of James’s residence. Identity with the Belfast tobacco seller and regional namesakes is unproved. Associates are recorded in context, without inferred kinship. The name is James Glasgow, not the automated index’s combined William James Glasgow. No residence, occupation or kin is stated. This remains an unassigned legal occurrence; identity with the 1820 Exchequer plaintiff is unproved.",
       "reviewed_on": "2026-10-04",
       "source_refs": [
         "research/newspapers-1800-1850-followup-2026-10-04.md",
-        "research/newspapers-1834-benjamin-glasgow-cookstown-candidate-inventory-2026-10-04.json"
+        "research/newspapers-james-1828-1831-2026-10-04.md"
       ],
       "searches_performed": [
         "Bounded search of public historical catalogue names, dates and locality records on 4 October 2026; specific candidate comparisons below. Missing details do not exclude a profile. External duplicate checking is incomplete.",
@@ -12139,11 +12139,11 @@
         "Glasgow-3444",
         "Glasgow-2981"
       ],
-      "assessment": "The repeated name, trade and contact support one seller account. No age or relatives are stated. North Street is the sample/contact location, not explicitly James’s home or owned premises. Do not connect him to William the Belfast grocer or the 1820 plaintiff merely by surname or town. Regional compatible profiles remain unresolved.",
+      "assessment": "The repeated name, trade and contact support one seller account. No age or relatives are stated. North Street is the sample/contact location, not explicitly James’s home or owned premises. Do not connect him to William the Belfast grocer or the 1820 plaintiff merely by surname or town. Regional compatible profiles remain unresolved. Former occupancy is explicit; ownership, trade and residence are not. The surname is certain, but identity with the 1822–23 tobacco seller, William the grocer or another James remains unproved.",
       "reviewed_on": "2026-10-04",
       "source_refs": [
         "research/newspapers-1800-1850-followup-2026-10-04.md",
-        "research/newspapers-1834-benjamin-glasgow-cookstown-candidate-inventory-2026-10-04.json"
+        "research/newspapers-james-1828-1831-2026-10-04.md"
       ],
       "searches_performed": [
         "Bounded search of public historical catalogue names, dates and locality records on 4 October 2026; specific candidate comparisons below. Missing details do not exclude a profile. External duplicate checking is incomplete.",
@@ -12196,10 +12196,11 @@
       "profile_ids": [
         "Glasgow-1780"
       ],
-      "assessment": "James McClure Glasgow-1780 (1805–1890) is a strong compatible candidate: his live biography expressly names the Royal Belfast Academical Institution and mathematical distinction. That current-profile statement is a comparison, not a newly inspected primary education source. The newspaper’s James has no age or relatives. Co-occurrence with Adam does not independently prove siblinghood; other namesakes are not excluded merely for missing fields.",
+      "assessment": "James McClure Glasgow-1780 (1805–1890) remains a strong compatible candidate. His checked live biography names Institution education and mathematics. New originals extend the student trail to 1828, where Jas. Glasgow is associated with Broughshane, and to the 1830 mathematics/logic awards. The two 1828 name forms probably name one student; the shared Institution supports later continuity. No full middle name, age or relatives is stated. The Society secretary is compared separately; neither identity nor siblinghood is made certain by these notices.",
       "reviewed_on": "2026-10-04",
       "source_refs": [
-        "research/newspapers-1800-1850-continuation-2026-10-04.md"
+        "research/newspapers-1800-1850-continuation-2026-10-04.md",
+        "research/newspapers-james-1828-1831-2026-10-04.md"
       ],
       "searches_performed": [
         "Bounded historical Irish catalogue and local profile-note comparison on 4 October 2026; Adam-1781/3373/1622/3902 and James-1780 checked. Live biographies of Adam-1781 and James-1780 read; broader external duplicate checking remains incomplete.",
@@ -12225,6 +12226,41 @@
         "The uncle role alone does not prove a brother relationship. Counsel’s separate reference to the deceased owner’s sons supports the qualified brother inference; the uncle’s family side remains unstated.",
         "1842 hospital, 1854 rescue and 1861 sale notices do not state an age or family. They remain unassigned between same-name Cookstown men rather than being forced into this biography.",
         "The 1846 Claggan notice names a Cookstown collector/donor but no trade, age or family; this remains unassigned between same-name accounts, including the later uncle/merchant and younger partner. It does not identify an Inishrush Glasgow."
+      ]
+    },
+    "subject-newspapers-irish-1800-1850-james-larne-freeholder": {
+      "id": "subject-newspapers-irish-1800-1850-james-larne-freeholder",
+      "status": "compatible_candidate",
+      "profile_ids": [
+        "Glasgow-3986"
+      ],
+      "assessment": "This is an application published on 24 December 1830, not proof that registration succeeded. Glasgow-3986 is the strongest compatible local candidate, but the notice gives no age, occupation, relatives or bridge to the 1795 merchant or 1797 junior. It does not connect Larne to Lisnagaver. The older Larne tanner Glasgow-3991 died in 1812 according to a published monument transcription; the ropemaker Glasgow-1509 has a reported 1802 death with probate-index support. These older accounts are not assigned to the applicant. The notice adds no proof to Glasgow-3986’s possible parentage or connection to Alexander at Lisnagaver.",
+      "reviewed_on": "2026-10-04",
+      "source_refs": [
+        "research/newspapers-james-1828-1831-2026-10-04.md"
+      ],
+      "searches_performed": [
+        "Original newspaper passage and heading/columns read on 4 October 2026.",
+        "Bounded local historical catalogue and maintained case comparison; external duplicate checking is incomplete. Missing fields alone do not exclude a candidate."
+      ]
+    },
+    "subject-newspapers-irish-1800-1850-james-belfast-juvenile": {
+      "id": "subject-newspapers-irish-1800-1850-james-belfast-juvenile",
+      "status": "compatible_candidate",
+      "profile_ids": [
+        "Glasgow-1780",
+        "Glasgow-3986",
+        "Glasgow-3444",
+        "Glasgow-2981"
+      ],
+      "assessment": "The repeated society and associates support one society account. The same Walter Moffat appears in the 1828 Institution report, making James-1780 a compatible student/ministry-network candidate; this does not prove that the society secretary is the college student. The newspaper does not call James the president, chair or minister.",
+      "reviewed_on": "2026-10-04",
+      "source_refs": [
+        "research/newspapers-james-1828-1831-2026-10-04.md"
+      ],
+      "searches_performed": [
+        "Original newspaper passage and heading/columns read on 4 October 2026.",
+        "Bounded local historical catalogue and maintained case comparison; external duplicate checking is incomplete. Missing fields alone do not exclude a candidate."
       ]
     }
   },

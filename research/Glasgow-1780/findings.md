@@ -4,6 +4,17 @@ Last updated: 2026-10-04
 
 ## Source findings
 
+### Newspaper continuation, 4 October 2026
+
+The 2 May 1828 Belfast Institution College Department awards list Jas. Glasgow, Broughshane, for proficiency in the junior mathematical class, and James Glasgow for daily examinations and exercises in Logic and Belles Lettres. The 1 May 1830 Belfast College report awards James Glasgow, Institution, senior-course voluntary mathematics and the premium on the third book of Locke’s Essay.
+
+The shared name and institution support a student sequence, with the two 1828 forms probably one student. Glasgow-1780 is a strong compatible candidate; none of these passages gives age, full middle name, parents or spouse. No sibling relationship is established by the notices.
+
+[Belfast News-Letter, 9 May 1828, p.3, Belfast Institution College Department, awards on 2 May](https://www.newspapers.com/image/390546969/) · [Belfast News-Letter, 7 May 1830, p.2, Belfast College report dated 1 May](https://www.newspapers.com/image/390568607/)
+
+[Full record account](/research/subjects/newspapers-irish-1800-1850/#james-belfast-college).
+
+
 | Source | Finding | Assessment |
 | --- | --- | --- |
 | [James McClure Glasgow missionary journal, 1857-1862](https://revjamesmcclureglasgow.blogspot.com/) | James repeatedly writes of `my brother Adam`, identifies Adam's moves from Belfast to New Zealand, and reports an encouraging letter from `my brother Robert in Victoria`. | First-person direct evidence that James, Adam Dickey Glasgow, and Robert Glasgow of Victoria were brothers. Saved [journal capture](sources/james_mcclure_glasgow_journal.html). |
@@ -34,5 +45,7 @@ Check the original Institution admissions/staff and examination records, and the
 
 
 ## Current conclusion
+
+James McClure Glasgow remains the strongest compatible candidate for the 1828–1831 Broughshane / Belfast Institution student sequence. The new awards strengthen the education trail; the Society secretary comparison is still unproved. Ages, full middle name and relatives are absent, and no family relationship is upgraded.
 
 The 1831 Belfast College notice supplies a specific advanced-mathematics examination occurrence for James Glasgow, Institution. This profile is a strong compatible candidate, agreeing with its checked live Education section, but the newspaper names no age or relatives. Co-occurrence with Adam does not independently prove their sibling relationship; that relationship has separate journal evidence. See the [qualified newspaper account](/research/subjects/newspapers-irish-1800-1850/#james-belfast-college).

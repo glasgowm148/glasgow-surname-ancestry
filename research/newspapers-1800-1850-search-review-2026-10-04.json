@@ -35,12 +35,12 @@
       "date_start": 1800,
       "date_end": 1850,
       "reported_entries": 95,
-      "retrieved_entries": 10,
-      "unique_image_count": 10,
+      "retrieved_entries": 20,
+      "unique_image_count": 20,
       "end_of_results": false,
-      "previews_screened": 10,
-      "triage": "First-preview surname/city/vessel triage; original-page review only for selected passages. Additional matches and unloaded entries remain.",
-      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/john-ni-review.json"
+      "previews_screened": 20,
+      "triage": "Twenty first previews screened; next ten are city, parish or shipping matches. The earlier ambiguous 1834 signature was resolved on original 390552388 as John Gemmill, Glasgow city, not a surname.",
+      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/next-john-ni.json"
     },
     {
       "query": "\"James Glasgow\"",
@@ -48,12 +48,12 @@
       "date_start": 1800,
       "date_end": 1850,
       "reported_entries": 153,
-      "retrieved_entries": 10,
-      "unique_image_count": 10,
+      "retrieved_entries": 20,
+      "unique_image_count": 19,
       "end_of_results": false,
-      "previews_screened": 10,
-      "triage": "First-preview surname/city/vessel triage; original-page review only for selected passages. Additional matches and unloaded entries remain.",
-      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/james-ni-review.json"
+      "previews_screened": 19,
+      "triage": "First twenty result positions triaged; nineteen first previews readable and one whole-page crime thumbnail too small (duplicate image 390549197). New original readings retained for lease, prizes, jury, Larne and Juvenile Society notices. A cross-column steamer hit excluded at preview stage. Additional highlights not exhausted.",
+      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/next-james-ni.json"
     },
     {
       "query": "\"Alexander Glasgow\"",
@@ -561,17 +561,96 @@
       "previews_screened": 1,
       "triage": "Promising William Glasgow collection notice; original required to establish locality and surname context.",
       "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/continued-inishrush-ni.json"
+    },
+    {
+      "query": "\"Jane Glasgow\"",
+      "collection": "Northern Ireland",
+      "date_start": 1800,
+      "date_end": 1850,
+      "reported_entries": 24,
+      "retrieved_entries": 24,
+      "unique_image_count": 24,
+      "end_of_results": true,
+      "previews_screened": 24,
+      "triage": "All 24 first previews are ships or Glasgow city. No Jane surname retained. Additional carousel highlights not exhausted.",
+      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/next-jane-ni.json"
+    },
+    {
+      "query": "\"Jane Glasgow\"",
+      "collection": "Ireland",
+      "date_start": 1800,
+      "date_end": 1850,
+      "reported_entries": 52,
+      "retrieved_entries": 10,
+      "unique_image_count": 10,
+      "end_of_results": false,
+      "previews_screened": 10,
+      "triage": "First ten previews are Jane ship / Glasgow city occurrences; no surname retained. Remaining 42 result entries and carousel highlights not screened.",
+      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/next-jane-ie.json"
+    },
+    {
+      "query": "\"Joseph Glasgow\"",
+      "collection": "Ireland",
+      "date_start": 1800,
+      "date_end": 1850,
+      "reported_entries": 5,
+      "retrieved_entries": 5,
+      "unique_image_count": 5,
+      "end_of_results": true,
+      "previews_screened": 5,
+      "triage": "Five first previews show Joseph Wood, Joseph Adams, Joseph Boyce or ships, rather than a verified Glasgow surname. Cropped secondary match contexts remain untested; no surname retained.",
+      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/next-joseph-ie.json"
+    },
+    {
+      "query": "\"Henry Glasgow\"",
+      "collection": "Ireland",
+      "date_start": 1800,
+      "date_end": 1850,
+      "reported_entries": 7,
+      "retrieved_entries": 7,
+      "unique_image_count": 7,
+      "end_of_results": true,
+      "previews_screened": 7,
+      "triage": "All seven first previews are Henry ships, or King Henry of Glasgow, not a surname. Carousel highlights not exhausted.",
+      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/next-henry-ie.json"
+    },
+    {
+      "query": "\"Joseph Glasgow\"",
+      "collection": "Northern Ireland",
+      "date_start": 1800,
+      "date_end": 1850,
+      "reported_entries": 0,
+      "retrieved_entries": 0,
+      "unique_image_count": 0,
+      "end_of_results": true,
+      "previews_screened": 0,
+      "triage": "No good matches in this date/publication filter; OCR absence is not proof of absence.",
+      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/next-joseph-ni.json"
+    },
+    {
+      "query": "\"Henry Glasgow\"",
+      "collection": "Northern Ireland",
+      "date_start": 1800,
+      "date_end": 1850,
+      "reported_entries": 7,
+      "retrieved_entries": 7,
+      "unique_image_count": 7,
+      "end_of_results": true,
+      "previews_screened": 7,
+      "triage": "All seven first previews concern Glasgow city, churches or ships (Henry Robertson, Henry Cole, Rev Henry Rainey, or vessels), not a Glasgow surname. Carousel highlights not exhausted.",
+      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/next-henry-ni.json"
     }
   ],
-  "query_history_count": 58,
+  "query_history_count": 66,
   "limitations": [
-    "43 distinct queries: 21 quoted catalogue names in each Irish collection plus one contextual Inishrush query; 62 other given-name forms per collection remain unqueried in this interval.",
-    "Retrieved result entries are not retained people. The first preview per stated entry was screened; additional page highlights are not presumed excluded.",
+    "49 distinct queries: 24 quoted catalogue names in each Irish collection plus one contextual Inishrush query; 59 other given-name forms per collection remain unqueried in this interval.",
+    "Retrieved result entries are not retained people. Only the stated readable first previews were screened; blank or too-small previews and additional page highlights are not presumed excluded.",
     "William Northern Ireland includes an AI duplicate of the James jury page; only20 readable previews were screened. Robert has4 blank previews; Alexander has2 blank previews.",
     "Large result sets were sampled oldest-first, not exhausted. Exact-name OCR misses, line divisions, abbreviations and spelling variants remain.",
     "Samuel Northern Ireland’s first preview is city/company context; advancing to the second highlight did not provide a distinct readable preview.",
     "Original captures and screenshots remain private. No live WikiTree edits or production deployment.",
-    "Continuation: 95 entries retrieved, 81 readable first previews screened; six originals verified. Nine Adam and five Nancy lazy previews were blank; larger Margaret sets and additional highlights remain. Location selection was verified after using the previously observed Northern Ireland URL filter."
+    "Continuation: 95 entries retrieved, 81 readable first previews screened; six originals verified. Nine Adam and five Nancy lazy previews were blank; larger Margaret sets and additional highlights remain. Location selection was verified after using the previously observed Northern Ireland URL filter.",
+    "James continuation: 73 additional entries retrieved, 72 additional readable first previews, seven new original surname pages and one original city exclusion. James/John NI reached twenty entries each; Jane Ireland reached ten of 52. Five smaller first-preview result sets reached the end, without exhausting their page carousels."
   ],
   "catalogue_names_not_yet_quoted_in_Northern_Ireland": [
     "Abigail",
@@ -600,15 +679,12 @@
     "Hannah",
     "Harriette",
     "Helen",
-    "Henry",
     "Isaac",
     "Isabella",
-    "Jane",
     "Jean",
     "Jemima",
     "Jessy",
     "Johanna",
-    "Joseph",
     "Julia",
     "Lavinia",
     "Letita",
@@ -664,15 +740,12 @@
     "Hannah",
     "Harriette",
     "Helen",
-    "Henry",
     "Isaac",
     "Isabella",
-    "Jane",
     "Jean",
     "Jemima",
     "Jessy",
     "Johanna",
-    "Joseph",
     "Julia",
     "Lavinia",
     "Letita",
@@ -717,15 +790,22 @@
     "390542489",
     "390553900",
     "390555182",
-    "390561508"
+    "390561508",
+    "390544933",
+    "390546969",
+    "390549197",
+    "390568607",
+    "390573239",
+    "390574399",
+    "390543442"
   ],
   "reviewed_original_pending_context": [
     "390548642"
   ],
   "coverage_totals": {
-    "distinct_queries": 43,
-    "retrieved_entries": 345,
-    "readable_first_previews_screened": 324,
-    "newly_resolved_original_pages": 16
+    "distinct_queries": 49,
+    "retrieved_entries": 418,
+    "readable_first_previews_screened": 396,
+    "newly_resolved_original_pages": 23
   }
 }
