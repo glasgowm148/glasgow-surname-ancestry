@@ -665,7 +665,7 @@
       "kind": "record",
       "finding": "The printed testament index records Margaret Glasgow in Byris of Kilwinning on 8 November 1636; this date belongs to Margaret, rather than the adjacent Mary entry.",
       "status": "qualified",
-      "qualification": "Documented review range22–23 September2026; exact discovery day is not recorded. Complete printed page visually checked. Testament registration is not a death date; identification with Margaret-1100 is possible only, and the original testament was not inspected.",
+      "qualification": "Documented review range22–23 September 2026; exact discovery day is not recorded. Complete printed page visually checked. Testament registration is not a death date; identification with Margaret-1100 is possible only, and the original testament was not inspected.",
       "people": [
         {
           "id": "Glasgow-1100",
@@ -692,7 +692,7 @@
       "kind": "record",
       "finding": "The printed testament index records John Glasgow in Rashie, parish of Kilbride, on 17 April 1643.",
       "status": "qualified",
-      "qualification": "Documented review range22–23 September2026; exact discovery day is not recorded. Printed heading and ditto marks establish Glasgow as the surname. This is an index/registration date, not stated death. Original testament uninspected; John-1030 is a possible match only.",
+      "qualification": "Documented review range22–23 September 2026; exact discovery day is not recorded. Printed heading and ditto marks establish Glasgow as the surname. This is an index/registration date, not stated death. Original testament uninspected; John-1030 is a possible match only.",
       "people": [
         {
           "id": "Glasgow-1030",
@@ -745,7 +745,7 @@
       "kind": "record",
       "finding": "The 11 June 1674 Irvine inquest for Robert Hunter of Hunterstoun’s service as heir includes James Glasgow in Didup.",
       "status": "qualified",
-      "qualification": "Documented review range22–23 September2026; exact discovery day is not recorded. Printed retour extract inspected; underlying original uninspected. FamilySearch’s Linlithgow1546–1564 title is a catalogue mismatch. The extract gives James no age, trade, relatives or vital date.",
+      "qualification": "Documented review range22–23 September 2026; exact discovery day is not recorded. Printed retour extract inspected; underlying original uninspected. FamilySearch’s Linlithgow1546–1564 title is a catalogue mismatch. The extract gives James no age, trade, relatives or vital date.",
       "people": [
         {
           "name": "James Glasgow",
@@ -815,7 +815,7 @@
       "kind": "record",
       "finding": "The deed index names Hugh Glasgow, preacher of the gospel, as grantee in a deed recorded on 8 March 1677, Durie Office volume42 page148 (RD3/42).",
       "status": "qualified",
-      "qualification": "Documented review range22–23 September2026; exact discovery day is not recorded. Printed row alignment visually checked; underlying deed uninspected. Recording date is not necessarily execution or death. Hugh-1603 is a possible identity; Hew-1066 and Glasgow-3109 remain alternatives.",
+      "qualification": "Documented review range22–23 September 2026; exact discovery day is not recorded. Printed row alignment visually checked; underlying deed uninspected. Recording date is not necessarily execution or death. Hugh-1603 is a possible identity; Hew-1066 and Glasgow-3109 remain alternatives.",
       "people": [
         {
           "id": "Glasgow-1603",
@@ -5574,7 +5574,7 @@
       "kind": "relationship",
       "finding": "The Ayrshire sasine index records Agnes Glasgow, spouse of John Logan/Logane, in Milneburne, Stevenston, recorded on 29 June 1601, volume1 folio94.",
       "status": "qualified",
-      "qualification": "Documented review range22–23 September2026; exact discovery day is not recorded. Printed index image inspected; underlying sasine RS11/1 folio94 uninspected. Spouse and locality support a probable match to Agnes-3178, not a proved identity.",
+      "qualification": "Documented review range22–23 September 2026; exact discovery day is not recorded. Printed index image inspected; underlying sasine RS11/1 folio94 uninspected. Spouse and locality support a probable match to Agnes-3178, not a proved identity.",
       "people": [
         {
           "id": "Glasgow-3178",
@@ -17961,6 +17961,168 @@
         "research/newspapers-james-1828-1831-2026-10-04.md",
         "surname-research/indexes/glasgow-newspaper-review.json"
       ]
+    },
+    {
+      "id": "james-glasgow-institution-teaching-1832-1834",
+      "kind": "biographical",
+      "finding": "James Glasgow, Institution, received the silver medal for general-certificate examinations in mathematics and natural philosophy at the College Department awards on 28 April 1832. On 11 December 1834 pupils presented Rev. James Glasgow with a watch on his resignation as principal assistant in the Institution’s Mathematical and Mercantile School. He was an assistant, not its principal.",
+      "qualification": "The institution, mathematical achievement, teaching and subsequent Castledawson ministry strongly support the James McClure Glasgow-1780 attribution; the notices do not supply his middle name or parents. The Society secretary comparison remains unproved. The 1834 newspaper’s Rev. title precedes the profile-stated 14 December licence; inspect the Presbytery register before changing that separate date.",
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 4 May 1832, p.3, Institution College Department awards of 28 April",
+          "url": "https://www.newspapers.com/image/390568466/"
+        },
+        {
+          "title": "Belfast News-Letter, 12 December 1834, p.2, Royal Institution—Mr Glasgow, assistant resignation",
+          "url": "https://www.newspapers.com/image/390561231/"
+        }
+      ],
+      "found_on": "2026-10-04",
+      "status": "confirmed",
+      "people": [
+        {
+          "name": "James Glasgow, Institution student / assistant and Castledawson minister, 1828–1848",
+          "url": "/research/subjects/newspapers-irish-1800-1850/#james-belfast-college"
+        }
+      ],
+      "detail_url": "/research/subjects/newspapers-irish-1800-1850/#james-belfast-college",
+      "provenance": "research/newspapers-james-career-family-2026-10-04.md"
+    },
+    {
+      "id": "james-glasgow-castledawson-call-ordination-1835",
+      "kind": "biographical",
+      "finding": "Castledawson’s unanimous call to Rev. James Glasgow had already been reported by 10 July 1835. His ordination to its pastoral charge took place on Tuesday 6 October 1835, reported on 16 October. The current James McClure Glasgow-1780 biography labels 6 October as his call date; a sourced correction is prepared locally.",
+      "qualification": "These ministry details converge with the checked profile career. The exact call date is unstated; 6 October is explicitly the ordination date. Rev. Mr Wallace of Rasharkin preached, Rev. Mr Rogers of Kilrea handled the defence of Presbyterian ordination, and Rev. Mr Elder of Finvoy offered the ordination prayer. Their presence is not kinship or proof that James lived in Rasharkin/Kilrea/Finvoy. No live edit was made.",
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 10 July 1835, p.2, Castledawson unanimous call",
+          "url": "https://www.newspapers.com/image/390571333/"
+        },
+        {
+          "title": "Belfast News-Letter, 16 October 1835, p.2, Castledawson ordination on 6 October",
+          "url": "https://www.newspapers.com/image/390573717/"
+        }
+      ],
+      "found_on": "2026-10-04",
+      "status": "confirmed",
+      "people": [
+        {
+          "name": "James Glasgow, Institution student / assistant and Castledawson minister, 1828–1848",
+          "url": "/research/subjects/newspapers-irish-1800-1850/#james-belfast-college"
+        }
+      ],
+      "detail_url": "/research/subjects/newspapers-irish-1800-1850/#james-belfast-college",
+      "provenance": "research/newspapers-james-career-family-2026-10-04.md"
+    },
+    {
+      "id": "margaret-jane-glasgow-rajkote-death-1841",
+      "kind": "vital",
+      "finding": "Margaret Jane, infant daughter of Rev. James Glasgow, missionary to Kattywar for the Presbyterian Church in Ireland, died at Rajkote, East Indies, on 11 June 1841, aged two months and 26 days. This agrees with Margaret Jane Glasgow-2898’s current death date and its 16 March birth chronology.",
+      "qualification": "Strong matching name, father, place and date support Glasgow-2898 and her already attached father Glasgow-1780. The notice does not name her mother or birthplace. Mary Wightman-3457 remains a mother hypothesis for this child pending a direct record or documented family bridge; the already recorded father is corroborated, not a new uncertain-to-certain relationship upgrade.",
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 10 September 1841, p.2, Margaret Jane Glasgow death notice",
+          "url": "https://www.newspapers.com/image/390562197/"
+        }
+      ],
+      "found_on": "2026-10-04",
+      "status": "confirmed",
+      "people": [
+        {
+          "name": "Margaret Jane Glasgow, Rajkote, 1841",
+          "url": "/research/subjects/newspapers-irish-1800-1850/#margaret-jane-rajkote"
+        }
+      ],
+      "detail_url": "/research/subjects/newspapers-irish-1800-1850/#margaret-jane-rajkote",
+      "provenance": "research/newspapers-james-career-family-2026-10-04.md"
+    },
+    {
+      "id": "james-glasgow-surat-daughter-birth-1848",
+      "kind": "vital",
+      "finding": "At Surat, East Indies, the wife of Rev. James Glasgow, Presbyterian Church in Ireland missionary, gave birth to a daughter on 22 February, reported on 11 April 1848. The child is unnamed; Annie Coulson Glasgow-2901, whose checked profile gives 1848 in India, is a compatible candidate.",
+      "qualification": "1848 is inferred from the contemporary notice’s February date. Neither child nor mother is named. The notice cannot alone make Annie’s exact birth date/place certain or establish Mary Wightman’s motherhood of another child. Her existing father/mother connections are not changed.",
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 11 April 1848, p.2, Surat birth on 22 February",
+          "url": "https://www.newspapers.com/image/390546223/"
+        }
+      ],
+      "found_on": "2026-10-04",
+      "status": "confirmed",
+      "people": [
+        {
+          "name": "Unnamed Glasgow daughter, Surat, 1848 (Annie candidate)",
+          "url": "/research/subjects/newspapers-irish-1800-1850/#surat-daughter-1848"
+        }
+      ],
+      "detail_url": "/research/subjects/newspapers-irish-1800-1850/#surat-daughter-1848",
+      "provenance": "research/newspapers-james-career-family-2026-10-04.md"
+    },
+    {
+      "id": "james-glasgow-larne-demerara-death-1839",
+      "kind": "vital",
+      "finding": "James Glasgow, Esq., a native of Larne, died on 13 June 1839 at Bank Hall, Wakenham, Demerara, according to an August Belfast notice. Wakenham is retained as printed; the modern place identification requires a separate check.",
+      "qualification": "No age, parents, spouse or occupation is stated. Larne describes origin, not necessarily his last Irish residence. The 1830 Larne freeholder and earlier merchant are unproved comparisons. Known Larne profiles Glasgow-3986 (reported death 1831), Glasgow-3991 (1812) and Glasgow-1509 (1802) conflict in death chronology and are not assigned to this death. Check their underlying dates before proposing a correction or duplicate.",
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 13 August 1839, p.3, James Glasgow of Larne, Demerara death",
+          "url": "https://www.newspapers.com/image/390552249/"
+        }
+      ],
+      "found_on": "2026-10-04",
+      "status": "confirmed",
+      "people": [
+        {
+          "name": "James Glasgow, Larne native who died in Demerara, 1839",
+          "url": "/research/subjects/newspapers-irish-1800-1850/#james-larne-demerara"
+        }
+      ],
+      "detail_url": "/research/subjects/newspapers-irish-1800-1850/#james-larne-demerara",
+      "provenance": "research/newspapers-james-career-family-2026-10-04.md"
+    },
+    {
+      "id": "james-glasgow-kilrea-acquittal-1836",
+      "kind": "biographical",
+      "finding": "James Glasgow was among the men indicted after a procession and alleged riot at Kilrea on 13 July 1835. The procession count was set aside under the amnesty; the trial proceeded on the riot charge and the jury immediately acquitted the prisoners.",
+      "qualification": "The court report establishes an accused surname bearer and acquittal, not a conviction, residence, occupation or kinship. Regional James Glasgow candidates remain unassigned. No connection to Alexander or Robert of Lisnagaver is supplied.",
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 25 March 1836, p.1, Kilrea Orangemen, indictment and acquittal",
+          "url": "https://www.newspapers.com/image/390543681/"
+        }
+      ],
+      "found_on": "2026-10-04",
+      "status": "confirmed",
+      "people": [
+        {
+          "name": "James Glasgow, Kilrea procession case, 1835–1836",
+          "url": "/research/subjects/newspapers-irish-1800-1850/#james-kilrea-acquittal"
+        }
+      ],
+      "detail_url": "/research/subjects/newspapers-irish-1800-1850/#james-kilrea-acquittal",
+      "provenance": "research/newspapers-james-career-family-2026-10-04.md"
+    },
+    {
+      "id": "john-glasgow-cookstown-coffee-agent-1850",
+      "kind": "biographical",
+      "finding": "John Glasgow is listed at Cookstown among retail agents for John Cassell’s coffees in November 1850. The search had matched adjacent James Small of Ballymoney; the original agent list reads John Glasgow.",
+      "qualification": "John Glasgow-2058, later described as a merchant in his son’s 1856 marriage, is compatible by name, trade and district. The advertisement gives no age, exact address or relatives, so it does not prove that identification or identify Benjamin’s grandparents. Other local Johns remain comparisons; no parent or brother is attached from this advertisement.",
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 5 November 1850, p.3, John Cassell coffee agents, Cookstown",
+          "url": "https://www.newspapers.com/image/390563426/"
+        }
+      ],
+      "found_on": "2026-10-04",
+      "status": "confirmed",
+      "people": [
+        {
+          "name": "John Glasgow, Cookstown coffee agent, 1850",
+          "url": "/research/subjects/newspapers-irish-1800-1850/#john-cookstown-coffee"
+        }
+      ],
+      "detail_url": "/research/subjects/newspapers-irish-1800-1850/#john-cookstown-coffee",
+      "provenance": "research/newspapers-james-career-family-2026-10-04.md"
     }
   ]
 }

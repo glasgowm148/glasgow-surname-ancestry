@@ -1,0 +1,23 @@
+{
+  "profile_id": "Glasgow-1780",
+  "reviewed_on": "2026-10-04",
+  "status": "pending_live_application",
+  "current_readback": "Current public editable wikitext re-read4October2026 without changes; exact match to saved biography.",
+  "basis": "Two inspected contemporary Castledawson reports distinguish call reported by10July1835 from ordination6October1835. Existing licensing date retained; no family certainty change.",
+  "current_sha256": "0bd2f44b59ae285288986cce693c9291ab344c8c55e8f83eeb452a19fca6715f",
+  "replacement_sha256": "debcbe3d10ac8b760a0a7b2d2d5bd85924ad3cece5471255c5e37b47f6a7aeb2",
+  "current_chars": 9256,
+  "replacement_chars": 9940,
+  "exact_replacement": {
+    "old": "He was called to the Presbyterian congregation of Castledawson on 6 October 1835.",
+    "new": "His unanimous call to the Presbyterian congregation of Castledawson had been reported by 10 July 1835; the exact call date is unstated.<ref name=\"CastledawsonCall1835\">[https://www.newspapers.com/image/390571333/ Belfast News-Letter, 10 July 1835, p.2], original report of the unanimous call, inspected 4 October 2026.</ref> He was ordained to its pastoral charge on 6 October 1835.<ref name=\"CastledawsonOrdination1835\">[https://www.newspapers.com/image/390573717/ Belfast News-Letter, 16 October 1835, p.2], original ordination report stating Tuesday 6 October, inspected 4 October 2026.</ref>"
+  },
+  "all_other_wikitext_preserved": true,
+  "draft_path": "research/Glasgow-1780/Glasgow-1780.md",
+  "sources": [
+    "research/newspapers-james-career-family-2026-10-04.md",
+    "https://www.newspapers.com/image/390571333/",
+    "https://www.newspapers.com/image/390573717/"
+  ],
+  "additional_markup": "Preserve project categorization with explicit Glasgow Name Study category, as required for a complete replacement draft; review comment records preservation scope."
+}

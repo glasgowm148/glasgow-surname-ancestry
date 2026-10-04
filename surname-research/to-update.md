@@ -710,7 +710,7 @@ duplicate-prevention history.
 | Profile | Result |
 | --- | --- |
 | [David Glasgow (1824), Glasgow-3899, Coleraine, County Londonderry](https://www.wikitree.com/wiki/Glasgow-3899) | **Complete:** Daniel's will proof, father assessment, exact death and probate are present. |
-| [James McClure Glasgow (1805), Glasgow-1780, Clough, County Antrim](https://www.wikitree.com/wiki/Glasgow-1780) | **Complete:** journal-proved brothers and mother's reported death date are present. |
+| [James McClure Glasgow (1805), Glasgow-1780, Clough, County Antrim](https://www.wikitree.com/wiki/Glasgow-1780) | **OPEN:** correct Castledawson call/ordination: call reported by 10 July 1835, ordination6 October 1835; [originals and exact amendment](../research/Glasgow-1780/findings.md). [Replacement draft](../research/Glasgow-1780/Glasgow-1780.md). Prior journal-proved brothers and mother's reported death-date amendment remain complete. |
 | [Ninian Glasgow (about 1550), Glasgow-3188, Glasgow, Lanarkshire](https://www.wikitree.com/wiki/Glasgow-3188) | **DONE — APPLIED LIVE 17 SEPTEMBER 2026:** the 1613 testament's direct spouse, son, brother and sister clauses added; `flesher` corrected to fisher; William treated only as a possible son and the exact clothing wording as insecure. [Complete draft](../research/Glasgow-3188/Glasgow-3188.md). |
 | [Robert Glasgow (1814), Glasgow-1656, Ballymena/Clough, County Antrim](https://www.wikitree.com/wiki/Glasgow-1656) | **Complete:** structured death is now 3 February 1875 and the evidence is present. |
 | [Robert Glasgow (about 1583), Glasgow-1027, Glasgow, Lanarkshire](https://www.wikitree.com/wiki/Glasgow-1027) | **Complete:** parent proof, cordiner identity, same-name caution and family reconstruction are present. |

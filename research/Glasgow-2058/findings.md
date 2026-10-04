@@ -5,9 +5,21 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
+The November 1850 Cookstown coffee agent John Glasgow is compatible with the merchant John Glasgow-2058. The advertisement gives no age, address or relatives, so the identity and any ancestral link remain unproved. His already recorded sons do not identify the newspaper agent by themselves.
+
 John Glasgow is directly named as Benjamin-2059’s father and as a merchant in the original 15 April 1856 Cookstown marriage entry. Benjamin, age 20, is also a merchant resident in Cookstown. This confirms an already-confident father attachment; it is not a relationship upgrade. John’s approximate birth, Killycurragh association and connection through Henry remain as previously attributed. The Drapersfield mill notices do not identify John’s parents.
 
 ## Source findings
+
+### Newspaper career/family continuation, 4 October 2026
+
+John Glasgow is listed at Cookstown among retail agents for John Cassell’s coffees in November 1850. The search had matched adjacent James Small of Ballymoney; the original agent list reads John Glasgow.
+
+John Glasgow-2058, later described as a merchant in his son’s 1856 marriage, is compatible by name, trade and district. The advertisement gives no age, exact address or relatives, so it does not prove that identification or identify Benjamin’s grandparents. Other local Johns remain comparisons; no parent or brother is attached from this advertisement.
+
+[Belfast News-Letter, 5 November 1850, p.3, John Cassell coffee agents, Cookstown](https://www.newspapers.com/image/390563426/)
+
+[Complete qualified newspaper account](/research/subjects/newspapers-irish-1800-1850/#john-cookstown-coffee).
 
 | Source | Finding | Assessment |
 | --- | --- | --- |

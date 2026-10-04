@@ -1936,7 +1936,7 @@
             "Glasgow-1604",
             "Glasgow-3610"
           ],
-          "assessment": "John apprentice on12January1648 is directly son of late Thomas G., maltman and burgess of Glasgow. Glasgow-1604/merged3145 remains an unsourced scaffold with uncertain Hugh/James parent alternatives, not a proved father conflict. Glasgow-3610 now has before1629 estimated birth and no father: its formerly exact1626birth and William father were removed26September. Neither can be excluded by those superseded assertions. Glasgow-3331 represents the Quothquan testament son of John and has an explicit, though transcription-qualified, different father context; do not transfer that event automatically.",
+          "assessment": "John apprentice on 12 January 1648 is directly son of late Thomas G., maltman and burgess of Glasgow. Glasgow-1604/merged3145 remains an unsourced scaffold with uncertain Hugh/James parent alternatives, not a proved father conflict. Glasgow-3610 now has before 1629 estimated birth and no father: its formerly exact1626birth and William father were removed26 September. Neither can be excluded by those superseded assertions. Glasgow-3331 represents the Quothquan testament son of John and has an explicit, though transcription-qualified, different father context; do not transfer that event automatically.",
           "reviewed_on": "2026-09-30",
           "source_refs": [
             "research/queue-match-audit-2026-09-30/older-drafts.json"
@@ -12196,15 +12196,15 @@
       "profile_ids": [
         "Glasgow-1780"
       ],
-      "assessment": "James McClure Glasgow-1780 (1805–1890) remains a strong compatible candidate. His checked live biography names Institution education and mathematics. New originals extend the student trail to 1828, where Jas. Glasgow is associated with Broughshane, and to the 1830 mathematics/logic awards. The two 1828 name forms probably name one student; the shared Institution supports later continuity. No full middle name, age or relatives is stated. The Society secretary is compared separately; neither identity nor siblinghood is made certain by these notices.",
+      "assessment": "The Institution mathematics/student/assistant sequence, Castledawson call and ordination, and Indian missionary family notices converge strongly on the checked career of James McClure Glasgow-1780. The early notices lack his middle name and parents; the Society secretary remains a separate qualified comparison. The current biography’s 6 October 1835 call is corrected locally to ordination; the call had been reported by 10 July. No parent or sibling relationship is upgraded.",
       "reviewed_on": "2026-10-04",
       "source_refs": [
-        "research/newspapers-1800-1850-continuation-2026-10-04.md",
-        "research/newspapers-james-1828-1831-2026-10-04.md"
+        "research/newspapers-james-career-family-2026-10-04.md"
       ],
       "searches_performed": [
         "Bounded historical Irish catalogue and local profile-note comparison on 4 October 2026; Adam-1781/3373/1622/3902 and James-1780 checked. Live biographies of Adam-1781 and James-1780 read; broader external duplicate checking remains incomplete.",
-        "Original page passages and the two educational report headings inspected. Same-page co-occurrence is not a new sibling proof, and an existing biography claim is not a substitute for its primary source."
+        "Original page passages and the two educational report headings inspected. Same-page co-occurrence is not a new sibling proof, and an existing biography claim is not a substitute for its primary source.",
+        "4 October: current live James-1780 biography and exact editable wikitext re-read without saving; family profiles Margaret-2898 and Annie-2901 checked. Three separate early James record roles and the Larne death remain unjoined unless a source bridges them."
       ]
     },
     "subject-william-glasgow-irish-newspapers-cookstown-uncle": {
@@ -12261,6 +12261,81 @@
       "searches_performed": [
         "Original newspaper passage and heading/columns read on 4 October 2026.",
         "Bounded local historical catalogue and maintained case comparison; external duplicate checking is incomplete. Missing fields alone do not exclude a candidate."
+      ]
+    },
+    "subject-newspapers-irish-1800-1850-james-larne-demerara": {
+      "id": "subject-newspapers-irish-1800-1850-james-larne-demerara",
+      "status": "no_compatible_profile",
+      "profile_ids": [],
+      "assessment": "No age, parents, spouse or occupation is stated. Larne describes origin, not necessarily his last Irish residence. The 1830 Larne freeholder and earlier merchant are unproved comparisons. Known Larne profiles Glasgow-3986 (reported death 1831), Glasgow-3991 (1812) and Glasgow-1509 (1802) conflict in death chronology and are not assigned to this death. Check their underlying dates before proposing a correction or duplicate.",
+      "reviewed_on": "2026-10-04",
+      "source_refs": [
+        "research/newspapers-james-career-family-2026-10-04.md"
+      ],
+      "searches_performed": [
+        "Bounded Irish 1800–1850 catalogue and Larne case comparison: 3986 reported death 1831,3991 death 1812,1509 death 1802 conflict with this notice; 1780/3444/2981 later recorded deaths also conflict. These are identity conflicts to investigate, not authority to change their dates.",
+        "No global WikiTree duplicate search; unnamed relatives and absent ages cannot exclude further candidates."
+      ]
+    },
+    "subject-newspapers-irish-1800-1850-surat-daughter-1848": {
+      "id": "subject-newspapers-irish-1800-1850-surat-daughter-1848",
+      "status": "compatible_candidate",
+      "profile_ids": [
+        "Glasgow-2901"
+      ],
+      "assessment": "1848 is inferred from the contemporary notice’s February date. Neither child nor mother is named. The notice cannot alone make Annie’s exact birth date/place certain or establish Mary Wightman’s motherhood of another child. Her existing father/mother connections are not changed.",
+      "reviewed_on": "2026-10-04",
+      "source_refs": [
+        "research/newspapers-james-career-family-2026-10-04.md"
+      ],
+      "searches_performed": [
+        "Live Annie-2901 and James-1780 family read 4 October; local historical catalogue metadata checked. No complete external duplicate search."
+      ]
+    },
+    "subject-newspapers-irish-1800-1850-john-cookstown-coffee": {
+      "id": "subject-newspapers-irish-1800-1850-john-cookstown-coffee",
+      "status": "compatible_candidate",
+      "profile_ids": [
+        "Glasgow-2058",
+        "Glasgow-1968"
+      ],
+      "assessment": "John Glasgow-2058, later described as a merchant in his son’s 1856 marriage, is compatible by name, trade and district. The advertisement gives no age, exact address or relatives, so it does not prove that identification or identify Benjamin’s grandparents. Other local Johns remain comparisons; no parent or brother is attached from this advertisement.",
+      "reviewed_on": "2026-10-04",
+      "source_refs": [
+        "research/newspapers-james-career-family-2026-10-04.md"
+      ],
+      "searches_performed": [
+        "Live Glasgow-2058 biography/family read4 October; approved historical Irish catalogue local Johns checked. Other adult Johns2056/1967/2537/1699 are not excluded merely by absent trade fields; broader duplicate check remains incomplete."
+      ]
+    },
+    "subject-newspapers-irish-1800-1850-margaret-jane-rajkote": {
+      "id": "subject-newspapers-irish-1800-1850-margaret-jane-rajkote",
+      "status": "matched",
+      "profile_ids": [
+        "Glasgow-2898"
+      ],
+      "assessment": "Strong matching name, father, place and date support Glasgow-2898 and her already attached father Glasgow-1780. The notice does not name her mother or birthplace. Mary Wightman-3457 remains a mother hypothesis for this child pending a direct record or documented family bridge; the already recorded father is corroborated, not a new uncertain-to-certain relationship upgrade.",
+      "reviewed_on": "2026-10-04",
+      "source_refs": [
+        "research/newspapers-james-career-family-2026-10-04.md"
+      ],
+      "searches_performed": [
+        "Live Glasgow-2898 and James-1780 family/biography read 4 October 2026; exact original obituary inspected. No mother is named."
+      ]
+    },
+    "subject-newspapers-irish-1800-1850-james-kilrea-acquittal": {
+      "id": "subject-newspapers-irish-1800-1850-james-kilrea-acquittal",
+      "status": "compatible_candidate",
+      "profile_ids": [
+        "Glasgow-2981"
+      ],
+      "assessment": "The court report establishes an accused surname bearer and acquittal, not a conviction, residence, occupation or kinship. Regional James Glasgow candidates remain unassigned. No connection to Alexander or Robert of Lisnagaver is supplied.",
+      "reviewed_on": "2026-10-04",
+      "source_refs": [
+        "research/newspapers-james-career-family-2026-10-04.md"
+      ],
+      "searches_performed": [
+        "Bounded regional catalogue namesake comparison; no source identifies the accused with a profile. The later Larne/Demerara, Castledawson and Belfast roles remain separate identity questions."
       ]
     }
   },

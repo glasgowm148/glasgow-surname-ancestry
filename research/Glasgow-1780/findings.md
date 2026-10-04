@@ -4,6 +4,34 @@ Last updated: 2026-10-04
 
 ## Source findings
 
+### Newspaper career/family continuation, 4 October 2026
+
+James Glasgow, Institution, received the silver medal for general-certificate examinations in mathematics and natural philosophy at the College Department awards on 28 April 1832. On 11 December 1834 pupils presented Rev. James Glasgow with a watch on his resignation as principal assistant in the Institution’s Mathematical and Mercantile School. He was an assistant, not its principal.
+
+The institution, mathematical achievement, teaching and subsequent Castledawson ministry strongly support the James McClure Glasgow-1780 attribution; the notices do not supply his middle name or parents. The Society secretary comparison remains unproved. The 1834 newspaper’s Rev. title precedes the profile-stated 14 December licence; inspect the Presbytery register before changing that separate date.
+
+[Belfast News-Letter, 4 May 1832, p.3, Institution College Department awards of 28 April](https://www.newspapers.com/image/390568466/) · [Belfast News-Letter, 12 December 1834, p.2, Royal Institution—Mr Glasgow, assistant resignation](https://www.newspapers.com/image/390561231/)
+
+Castledawson’s unanimous call to Rev. James Glasgow had already been reported by 10 July 1835. His ordination to its pastoral charge took place on Tuesday 6 October 1835, reported on 16 October. The current James McClure Glasgow-1780 biography labels 6 October as his call date; a sourced correction is prepared locally.
+
+These ministry details converge with the checked profile career. The exact call date is unstated; 6 October is explicitly the ordination date. Rev. Mr Wallace of Rasharkin preached, Rev. Mr Rogers of Kilrea handled the defence of Presbyterian ordination, and Rev. Mr Elder of Finvoy offered the ordination prayer. Their presence is not kinship or proof that James lived in Rasharkin/Kilrea/Finvoy. No live edit was made.
+
+[Belfast News-Letter, 10 July 1835, p.2, Castledawson unanimous call](https://www.newspapers.com/image/390571333/) · [Belfast News-Letter, 16 October 1835, p.2, Castledawson ordination on 6 October](https://www.newspapers.com/image/390573717/)
+
+Margaret Jane, infant daughter of Rev. James Glasgow, missionary to Kattywar for the Presbyterian Church in Ireland, died at Rajkote, East Indies, on 11 June 1841, aged two months and 26 days. This agrees with Margaret Jane Glasgow-2898’s current death date and its 16 March birth chronology.
+
+Strong matching name, father, place and date support Glasgow-2898 and her already attached father Glasgow-1780. The notice does not name her mother or birthplace. Mary Wightman-3457 remains a mother hypothesis for this child pending a direct record or documented family bridge; the already recorded father is corroborated, not a new uncertain-to-certain relationship upgrade.
+
+[Belfast News-Letter, 10 September 1841, p.2, Margaret Jane Glasgow death notice](https://www.newspapers.com/image/390562197/)
+
+At Surat, East Indies, the wife of Rev. James Glasgow, Presbyterian Church in Ireland missionary, gave birth to a daughter on 22 February, reported on 11 April 1848. The child is unnamed; Annie Coulson Glasgow-2901, whose checked profile gives 1848 in India, is a compatible candidate.
+
+1848 is inferred from the contemporary notice’s February date. Neither child nor mother is named. The notice cannot alone make Annie’s exact birth date/place certain or establish Mary Wightman’s motherhood of another child. Her existing father/mother connections are not changed.
+
+[Belfast News-Letter, 11 April 1848, p.2, Surat birth on 22 February](https://www.newspapers.com/image/390546223/)
+
+[Complete qualified newspaper account](/research/subjects/newspapers-irish-1800-1850/#james-belfast-college).
+
 ### Newspaper continuation, 4 October 2026
 
 The 2 May 1828 Belfast Institution College Department awards list Jas. Glasgow, Broughshane, for proficiency in the junior mathematical class, and James Glasgow for daily examinations and exercises in Logic and Belles Lettres. The 1 May 1830 Belfast College report awards James Glasgow, Institution, senior-course voluntary mathematics and the premium on the third book of Locke’s Essay.
@@ -45,6 +73,8 @@ Check the original Institution admissions/staff and examination records, and the
 
 
 ## Current conclusion
+
+Inspected Institution, Castledawson and Indian missionary notices strongly support James McClure Glasgow’s career sequence. The sourced local amendment corrects 6 October 1835 from call to ordination; the call had been reported by 10 July. Margaret Jane’s obituary corroborates an already recorded daughter; the Surat daughter remains a compatible Annie identification. No family certainty is upgraded.
 
 James McClure Glasgow remains the strongest compatible candidate for the 1828–1831 Broughshane / Belfast Institution student sequence. The new awards strengthen the education trail; the Society secretary comparison is still unproved. Ages, full middle name and relatives are absent, and no family relationship is upgraded.
 

@@ -48,12 +48,12 @@
       "date_start": 1800,
       "date_end": 1850,
       "reported_entries": 153,
-      "retrieved_entries": 20,
-      "unique_image_count": 19,
-      "end_of_results": false,
-      "previews_screened": 19,
-      "triage": "First twenty result positions triaged; nineteen first previews readable and one whole-page crime thumbnail too small (duplicate image 390549197). New original readings retained for lease, prizes, jury, Larne and Juvenile Society notices. A cross-column steamer hit excluded at preview stage. Additional highlights not exhausted.",
-      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/next-james-ni.json"
+      "retrieved_entries": 153,
+      "unique_image_count": 151,
+      "end_of_results": true,
+      "previews_screened": 151,
+      "triage": "All 153 entries loaded oldest first; 151 first previews screened, two duplicate whole-page AI crime thumbnails too small. Repeated James Burns of Glasgow city shipping ads dominated later pages. Nine additional selected originals inspected; every carousel highlight remains unexhausted.",
+      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/full-james-ni.json"
     },
     {
       "query": "\"Alexander Glasgow\"",
@@ -641,7 +641,7 @@
       "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/next-henry-ni.json"
     }
   ],
-  "query_history_count": 66,
+  "query_history_count": 67,
   "limitations": [
     "49 distinct queries: 24 quoted catalogue names in each Irish collection plus one contextual Inishrush query; 59 other given-name forms per collection remain unqueried in this interval.",
     "Retrieved result entries are not retained people. Only the stated readable first previews were screened; blank or too-small previews and additional page highlights are not presumed excluded.",
@@ -650,7 +650,8 @@
     "Samuel Northern Ireland’s first preview is city/company context; advancing to the second highlight did not provide a distinct readable preview.",
     "Original captures and screenshots remain private. No live WikiTree edits or production deployment.",
     "Continuation: 95 entries retrieved, 81 readable first previews screened; six originals verified. Nine Adam and five Nancy lazy previews were blank; larger Margaret sets and additional highlights remain. Location selection was verified after using the previously observed Northern Ireland URL filter.",
-    "James continuation: 73 additional entries retrieved, 72 additional readable first previews, seven new original surname pages and one original city exclusion. James/John NI reached twenty entries each; Jane Ireland reached ten of 52. Five smaller first-preview result sets reached the end, without exhausting their page carousels."
+    "James continuation: 73 additional entries retrieved, 72 additional readable first previews, seven new original surname pages and one original city exclusion. James/John NI reached twenty entries each; Jane Ireland reached ten of 52. Five smaller first-preview result sets reached the end, without exhausting their page carousels.",
+    "James NI continuation adds133retrieved/132 readable first previews; same distinct query, not another unique search. Nine new original surname pages integrated;151 of153 first previews screened,not all carousel highlights."
   ],
   "catalogue_names_not_yet_quoted_in_Northern_Ireland": [
     "Abigail",
@@ -797,15 +798,24 @@
     "390568607",
     "390573239",
     "390574399",
-    "390543442"
+    "390543442",
+    "390568466",
+    "390561231",
+    "390571333",
+    "390573717",
+    "390562197",
+    "390546223",
+    "390552249",
+    "390543681",
+    "390563426"
   ],
   "reviewed_original_pending_context": [
     "390548642"
   ],
   "coverage_totals": {
     "distinct_queries": 49,
-    "retrieved_entries": 418,
-    "readable_first_previews_screened": 396,
-    "newly_resolved_original_pages": 23
+    "retrieved_entries": 551,
+    "readable_first_previews_screened": 528,
+    "newly_resolved_original_pages": 32
   }
 }
