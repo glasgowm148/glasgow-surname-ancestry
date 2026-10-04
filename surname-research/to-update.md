@@ -1272,7 +1272,10 @@ Source-backed profile amendments are prepared locally, with complete captured te
 
 The maintained mill-family drafts now preserve the explicit Benjamin–Robert father relationship, the 1864 Wilhelmina Pike marriage and 1891 daughter’s marriage. Existing-profile attachment remains HOLD. [Associated relatives](../research/newspapers-pre1900-associates-2026-10-04.md) have complete evidence drafts outside the Glasgow-only creation directory. [Relationship review](../research/newspapers-pre1900-relationships-2026-10-04.md) and [coverage ledger](../research/newspapers-pre1900-coverage-2026-10-04.md) distinguish proposed changes from completed live work. No live profile was saved.
 
-## Early Irish newspaper identity checks — 4 October 2026
+## Early newspaper identity checks — 4 October 2026
+
+- [John Glascow, London chairman, 1779](new-people/1779_England_London_John_Glascow.md): **HOLD** — post-shooting newspaper evidence connected to the 7 April 1779 Martha Ray event; the March provider date conflicts with the April event, exact publication date is unresolved and no profile match is established.
+- [John Glasco, charged at Bow Street, 1799](new-people/1799_England_London_John_Glasco.md): **HOLD** — alleged wounding and committal reported by *The Times*; no conviction, origin or profile match established, and do not join to the 1779 chairman.
 
 - [Dublin Glasco watchmaker](new-people/1779_Ireland_Dublin_Glasco_watchmaker.md): HOLD. The original 1779 and 1780 notices bridge Christ-Church-lane to 20 Ormond Quay; no first name or kin, and no live family amendment justified. Compatible Thomas candidates remain unassigned.
 - [William captain](new-people/1792_Ireland_Belfast_shipping_captain_william.md): April Rotterdam service now precedes the existing Oporto/Bordeaux notices. Larne profile identity remains HOLD; no parent change.

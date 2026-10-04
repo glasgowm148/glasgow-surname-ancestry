@@ -6805,7 +6805,7 @@
     {
       "slug": "newspapers-early-glasgow",
       "title": "Early Glasgow and Glasco newspaper records",
-      "introduction": "Verified original records, compatible profiles and consolidated evidence drafts. The Dublin address change connects an existing trade cluster; John’s Nottingham identity and William’s Larne identity remain qualified. The chronological review records the search coverage and its limits.",
+      "introduction": "Verified original records, compatible profiles and consolidated evidence drafts. The Dublin address change connects an existing trade cluster; John’s Nottingham identity and William’s Larne identity remain qualified. The chronological review records the search coverage and its limits. Two London John Glascow/Glasco passages are retained separately pending identity review; neither states Irish origin. The 1779 provider date conflicts with the reported event.",
       "people": [
         {
           "anchor": "james-glasgow-prosperity",
@@ -7025,6 +7025,140 @@
                 "Glasco-173"
               ],
               "assessment": "All sixteen original advertisements were inspected and saved; they repeat the same address change from 5 October 1779 through 4 April 1780. No first name or kin is stated. The address supports continuity with the existing Thomas Glasco trade cluster, but does not identify a WikiTree profile."
+            }
+          ]
+        },
+        {
+          "anchor": "john-glascow-london-witness-1779",
+          "name": "John Glascow, London chairman",
+          "status": "HOLD — identity unresolved",
+          "identity_note": "The original Derby Mercury passage names John Glascow, described as a chairman, giving evidence after the Martha Ray shooting in Covent Garden. The provider label of 19 March 1779 is incompatible with the shooting on 7 April 1779, independently dated in the Old Bailey original. Exact publication date and personal identity remain unresolved; no Irish origin is stated.",
+          "minimum_fields": "John Glascow; male; adult chairman in London. Birth, death, residence, parents, spouse, children and origin unknown.",
+          "facts": [
+            {
+              "finding_id": "john-glascow-london-witness-1779",
+              "finding": "John Glascow, a chairman, said he saw a man in black running with pistols after Martha Ray was shot in Covent Garden.",
+              "qualification": "The Old Bailey indictment specifies that Martha Ray was shot on 7 April 1779 (printed p.207); that is the event date, not the indictment or newspaper publication date. The newspaper describes evidence after the shooting, not established trial testimony. Its March provider label is incorrect.",
+              "sources": [
+                {
+                  "title": "Derby Mercury, provider-labelled 19 March 1779, p.2",
+                  "url": "https://www.newspapers.com/image/394231375/"
+                },
+                {
+                  "title": "Old Bailey original, printed p.207",
+                  "url": "https://www.dhi.ac.uk/san/ob/1770s/177904040005.gif"
+                },
+                {
+                  "title": "Old Bailey Proceedings, James Hackman record t17790404-3; event dating only",
+                  "url": "https://www.oldbaileyonline.org/record/t17790404-3"
+                }
+              ]
+            }
+          ],
+          "candidates": [
+            {
+              "id": "Glasgow-549",
+              "reason": "Catalogue estimate c.1735, County Londonderry; adult chronology fits 1779. A profile-reported death c.1785 would conflict with the 1799 record if established, but its basis has not been checked here. Retain as a conditional lead, not an identification."
+            },
+            {
+              "id": "Glasgow-4179",
+              "reason": "Profile lead c.1747, Larne, County Antrim. Chronology is compatible; no London, occupation or kin bridge is known. Irish birthplace does not exclude a later London period."
+            },
+            {
+              "id": "Glasgow-2990",
+              "reason": "Profile lead c.1750, Derryloran, County Tyrone. Chronology is compatible; no London, occupation or kin bridge is known."
+            },
+            {
+              "id": "Glasgow-1146",
+              "reason": "Profile lead c.1756, County Antrim, with later death reported in South Carolina. Chronology is compatible; that later locality does not exclude an intervening London period. No occupational or family bridge is known."
+            }
+          ],
+          "duplicate_check": [
+            "Bounded local review covered the public people catalogue and early Irish target inventory, including John Glasgow, Glasco and Glascow variants and London links; no unique profile match was established. This was not an exhaustive live WikiTree audit.",
+            "Retain the listed Irish namesakes as compatible or conditional search leads, not identified people. Their catalogue birthplaces and missing London fields do not exclude a later London period. Dates derived from profile/tree leads require original-source checks.",
+            "Glasgow-1657 has a recorded 1766 birth, implying about 13 in 1779: weaker fit for the apparent adult chairman context, subject to verification of that birth-date basis."
+          ],
+          "next_test": "Search London directories, Old Bailey associated records, watch or licensing records, and newspapers for residence, employer, signature or kin.",
+          "draft_sources": [
+            "surname-research/new-people/1779_England_London_John_Glascow.md"
+          ],
+          "wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nJohn Glascow, described as a chairman, appears in a newspaper report of evidence given after the shooting of Martha Ray in Covent Garden, London. He supported John Welsh’s account and said that he saw a man in black running with pistols.<ref>[https://www.newspapers.com/image/394231375/ Derby Mercury, p.2], original passage inspected 4 October 2026. The provider label of 19 March 1779 conflicts with the event and must not be treated as a verified publication date.</ref>\n\n== Research Notes ==\nThe Old Bailey indictment of James Hackman specifies that Martha Ray was shot on 7 April 1779, on printed page 207.<ref>[https://www.dhi.ac.uk/san/ob/1770s/177904040005.gif Old Bailey Proceedings, original printed p.207], inspected 4 October 2026; [https://www.oldbaileyonline.org/record/t17790404-3 associated record t17790404-3]. This dates the shooting, not this newspaper’s publication or the indictment.</ref> The newspaper’s exact publication date remains unresolved. It reports evidence after the shooting; John’s participation in the trial is not established by the inspected trial record.\n\nThis documentary-person draft remains on HOLD after a bounded review of the local public catalogue and early Irish target inventory. Birth, death, residence, kin and origin remain unknown. No unique WikiTree profile match was established; a wider live duplicate check is still needed. The 1799 John Glasco record is not joined to this account: neither shared identity nor separate identity is proved.\n\nCompatible or conditional catalogue leads are [[Glasgow-549]], [[Glasgow-4179]], [[Glasgow-2990]], [[Glasgow-1146]]. These are chronology/name leads, not identifications; their reported dates require source checks, and none supplies a London occupation or kin bridge. No birthplace or family should be assigned from these newspaper records.\n\n== Sources ==\n<references />",
+          "record_matches": [
+            {
+              "finding_id": "john-glascow-london-witness-1779",
+              "status": "HOLD",
+              "profile_ids": [
+                "Glasgow-549",
+                "Glasgow-4179",
+                "Glasgow-2990",
+                "Glasgow-1146"
+              ],
+              "assessment": "No unique profile match after bounded local catalogue and target-inventory review; retain as a documentary-person draft."
+            }
+          ]
+        },
+        {
+          "anchor": "john-glasco-london-1799",
+          "name": "John Glasco, charged at Bow Street",
+          "status": "HOLD — identity unresolved",
+          "identity_note": "The Times reports John Glasco, Esq., self-described officer on the Staff, charged with wounding a patrolman and committed at Bow Street in 1799. Allegation and committal are not conviction; origin and identity remain unknown.",
+          "minimum_fields": "John Glasco; male; adult; self-described officer on the Staff. Birth, death, residence, parents, spouse, children and origin unknown.",
+          "facts": [
+            {
+              "finding_id": "john-glasco-bow-street-1799",
+              "finding": "John Glasco, Esq., said he was an officer on the Staff and was brought before the Bow Street magistrate charged with wounding patrolman John Smith. The reported incident occurred on Tuesday night after the play in Covent Garden; Glasco was committed.",
+              "qualification": "Allegation and committal are not conviction. Military status is self-reported and unconfirmed; no Irish origin or kin is stated.",
+              "sources": [
+                {
+                  "title": "The Times, 2 May 1799, p.3, Public Office, Bow Street",
+                  "url": "https://www.newspapers.com/image/32820363/"
+                }
+              ]
+            }
+          ],
+          "candidates": [
+            {
+              "id": "Glasgow-549",
+              "reason": "Catalogue estimate c.1735, County Londonderry; adult chronology fits 1779. A profile-reported death c.1785 would conflict with the 1799 record if established, but its basis has not been checked here. Retain as a conditional lead, not an identification."
+            },
+            {
+              "id": "Glasgow-4179",
+              "reason": "Profile lead c.1747, Larne, County Antrim. Chronology is compatible; no London, occupation or kin bridge is known. Irish birthplace does not exclude a later London period."
+            },
+            {
+              "id": "Glasgow-2990",
+              "reason": "Profile lead c.1750, Derryloran, County Tyrone. Chronology is compatible; no London, occupation or kin bridge is known."
+            },
+            {
+              "id": "Glasgow-1146",
+              "reason": "Profile lead c.1756, County Antrim, with later death reported in South Carolina. Chronology is compatible; that later locality does not exclude an intervening London period. No occupational or family bridge is known."
+            },
+            {
+              "id": "Glasgow-1657",
+              "reason": "Profile records birth 1766 and later Cross, Ballymoney association. Adult chronology fits 1799. No London, military-service or kin bridge is known; birth-date basis was not re-audited in this batch."
+            }
+          ],
+          "duplicate_check": [
+            "Bounded local review covered the public people catalogue and early Irish target inventory, including John Glasgow, Glasco and Glascow variants and London links; no unique profile match was established. This was not an exhaustive live WikiTree audit. Do not join this record to the 1779 chairman.",
+            "Retain the listed Irish namesakes as compatible or conditional search leads, not identified people. Their catalogue birthplaces and missing London fields do not exclude a later London period. Dates derived from profile/tree leads require original-source checks."
+          ],
+          "next_test": "Search Bow Street examination and committal records, army lists, London directories and later proceedings for identity, residence, service and outcome.",
+          "draft_sources": [
+            "surname-research/new-people/1799_England_London_John_Glasco.md"
+          ],
+          "wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nJohn Glasco, Esq., was reported before the Bow Street magistrate in May 1799. He said that he was an officer on the Staff and was charged with wounding John Smith, a patrolman, in an incident on Tuesday night after the play in the Covent Garden piazza. The report says that Glasco was committed.<ref>[https://www.newspapers.com/image/32820363/ The Times, 2 May 1799, p.3], Public Office, Bow Street, original inspected 4 October 2026.</ref>\n\nThe report records an allegation and committal, not a conviction. The claimed military status is not independently confirmed.\n\n== Research Notes ==\nThis documentary-person draft remains on HOLD. No birth, death, kin, residence or Irish origin is stated. No existing WikiTree profile is linked uniquely after a bounded local duplicate review. This record is not joined to the 1779 John Glascow chairman.\n\nCompatible or conditional catalogue leads are [[Glasgow-549]], [[Glasgow-4179]], [[Glasgow-2990]], [[Glasgow-1146]], [[Glasgow-1657]]. These are chronology/name leads, not identifications; their reported dates require source checks, and none supplies a London occupation or kin bridge. No birthplace or family should be assigned from these newspaper records.\n\n== Sources ==\n<references />",
+          "record_matches": [
+            {
+              "finding_id": "john-glasco-bow-street-1799",
+              "status": "HOLD",
+              "profile_ids": [
+                "Glasgow-549",
+                "Glasgow-4179",
+                "Glasgow-2990",
+                "Glasgow-1146",
+                "Glasgow-1657"
+              ],
+              "assessment": "No unique profile match after bounded local catalogue and target-inventory review. Retain separately from the 1779 record pending an identity bridge; this does not prove that they were different men."
             }
           ]
         }
