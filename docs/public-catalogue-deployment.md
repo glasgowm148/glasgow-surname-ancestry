@@ -4,7 +4,19 @@ The generated `www/` directory is the complete website root. No hosting credenti
 
 The catalogue's maintained stylesheet is `tools/catalogue-light.css`. Both the catalogue builder and unified-site repair copy it to `www/people/catalogue.css`; a full catalogue build also restores the unified light `/catalogue/` shell. `tools/check_public_catalogue.py` flags a dark stylesheet or a reverted catalogue shell before release. Package a new archive after presentation changes so old CSS cache URLs and old bundles are not reused.
 
-## Current live release — Census coverage, 4 October 2026
+## Current live release — Newspaper continuation, 4 October 2026
+
+Six further original surname notices from 1811–1850 and their approved inline clippings are deployed: senior Royal Artillery George (1811/1819), George Mark (1825), Edward George (1825), Benjamin's surgery degree report (1825), and John the Cookstown tea/coffee agent (1850). The degree report remains explicitly in conflict with the university index's 1826 entry. Military identities and family connections remain qualified. Eight candidate dossiers, five consolidated subject accounts, Sources year pages, Latest findings and the held queue are synchronized. No WikiTree save or relationship upgrade occurred.
+
+The newspaper review contains 325 catalogued pages: 168 inspected, including 112 surname pages, one place-study page and 55 exclusions; 157 await reading. The live saved-clipping filter returns 55 of 113 retained pages. The 1800–1850 coverage log records 59 distinct quoted queries, 758 retrieved result entries, 735 readable first previews and 45 newly resolved original pages across the continuing search. Larger result sets and unqueried names remain incomplete; these totals do not claim exhaustive coverage.
+
+Implementation commits: `2143cc9b` and `609c7601`. The first upload preflight rejected three serialized analytics tags; those tags were restored to the canonical form and the complete publication-boundary audit passed before upload. All 47 focused tests, release totals, Atlas destinations and asset versions pass. Production smoke/catalogue probes pass, all 25 sampled live pages/data/assets match local bytes, and the final rsync dry-run reports no changes. The live degree card and clipping filter were checked in Chrome; desktop and local mobile reading have no horizontal overflow. Evidence: `artifacts/newspapers-degree-military-20261004/`.
+
+Verified bundle: `www/glasgow-site-20261004-202017.tar.gz`, **162,550,262 bytes (162.550262 decimal MB)**; 80,067 public files and 80,068 rootless members. Every archive and local file matches its embedded manifest; gzip integrity passes. SHA-256: `6df5a9a42f03e5006bf01599117a83f9b740dbfd10053ab2b79982d90fb161e1`. This supersedes the 18:54 census package and the intermediate 20:14 package, which predates the analytics repair.
+
+The prior live site is retained in the gzip-tested private server backup `/var/backups/glasgow/20261004-newspaper-degree-military/site-before.tar.gz` (151,735,157 bytes). The reviewed upload has no deletions and preserves host ownership and hosting configuration. No Git push was performed.
+
+## Previous live release — Census coverage, 4 October 2026
 
 The census collection correction is deployed. Citation access/review dates, archive identifiers and emigrants' birthplaces had left valid references outside their enumeration-year groups or under the wrong country. All 2,668 collected census references are preserved; 2,531 now have supported year groups, up from 791. The remaining 137 have visible unresolved-year routes. Shared citations retain each explicitly supported census year. Hash-pinned citation reviews handle a small set of ambiguous titles; census substitutes retain their proper record names. This release adds no new original-image readings or identity/relationship conclusions.
 
