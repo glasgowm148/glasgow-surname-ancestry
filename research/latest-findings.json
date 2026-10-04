@@ -17244,6 +17244,38 @@
       "provenance": [
         "surname-research/indexes/glasgow-newspaper-review.json"
       ]
+    },
+    {
+      "id": "newspapers-jane-graham-robert-glasgow-1892",
+      "found_on": "2026-10-04",
+      "kind": "biographical",
+      "finding": "The 6 January 1892 Belfast News-Letter names Jane Graham as wife of Robert Glasgow: she died 28 December at 534 Gallowgate, Glasgow, aged 51. The notice also says “formerly of Rasharkin.”",
+      "status": "confirmed",
+      "qualification": "Original enlarged passage inspected. Name, husband, exact address and date strongly match Graham-21720 and spouse Glasgow-938; December 1891 is the preceding month. The Rasharkin wording follows Robert’s name and is not assigned exclusively to Jane. Supporting an existing marriage, not a new parent confidence change. No live save.",
+      "people": [
+        {
+          "id": "Graham-21720",
+          "name": "Jane (Graham) Glasgow",
+          "url": "/people/graham-21720.html"
+        },
+        {
+          "id": "Glasgow-938",
+          "name": "Robert Glasgow",
+          "url": "/people/glasgow-938.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 6 January 1892, page 1, GRAHAM death notice",
+          "url": "https://www.newspapers.com/image/388125998/"
+        }
+      ],
+      "detail_url": "/people/graham-21720.html#research",
+      "provenance": [
+        "research/Graham-21720/findings.md",
+        "research/Glasgow-938/findings.md",
+        "surname-research/indexes/glasgow-newspaper-review.json"
+      ]
     }
   ]
 }

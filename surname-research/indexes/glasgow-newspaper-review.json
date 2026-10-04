@@ -1,7 +1,7 @@
 {
   "reviewed_at": "2026-10-04",
   "title": "Glasgow surname and research-study newspaper records",
-  "scope": "The original 40 early pages (1690–1749), plus ten inspected pages selected for Montgreenan, Lisnagaver–Rasharkin and Larne–Kilwaughter studies. Wider searches covered 1690–1900, oldest first; large searches were sampled, not exhausted. A further locality batch searched Lisnagaver/Rasharkin spelling variants, named Glasgows and neighbouring places, chiefly 1690–1900 with selected later Lisnagaver checks through 1955; 54 selected result-page passages were read. Large searches were sampled; the curated catalogue adds only the two retained Daniel notices. The 4 October William batch loaded all 100 Northern Ireland exact-name result entries for 1690–1869 (98 unique pages), reviewed 71 saved search snippets, the supplied captures and selected original viewer passages. Eighteen curated surname pages were retained, including two later identity/family checks. This is not a claim that every passage on all 98 pages was read. An additional Ireland-country search returned 134 entries; its earliest inspected passage was a city false match and that corpus remains incomplete. A bounded 4 October coverage scan recorded worldwide Glasgow 1600–1899 (raw total 6,975,711; first page surveyed), Glasgow 1600–1749 (2,591; first ten surveyed), and fully loaded exact-name result sets for John, James, William, Hugh, Alexander, Andrew, Samuel, David, Adam, Thomas and George; only six newly inspected George vessel passages were added as exclusions. The pre-1900 Northern Ireland Benjamin query loaded all 157 result pages and saved all 166 thumbnail highlights. Root visually screened every highlight and fully read selected family notices. Full passage/identity review remains pending for 148 newly catalogued pages.",
+  "scope": "The original 40 early pages (1690–1749), plus ten inspected pages selected for Montgreenan, Lisnagaver–Rasharkin and Larne–Kilwaughter studies. Wider searches covered 1690–1900, oldest first; large searches were sampled, not exhausted. A further locality batch searched Lisnagaver/Rasharkin spelling variants, named Glasgows and neighbouring places, chiefly 1690–1900 with selected later Lisnagaver checks through 1955; 54 selected result-page passages were read. Large searches were sampled; the curated catalogue adds only the two retained Daniel notices. The 4 October William batch loaded all 100 Northern Ireland exact-name result entries for 1690–1869 (98 unique pages), reviewed 71 saved search snippets, the supplied captures and selected original viewer passages. Eighteen curated surname pages were retained, including two later identity/family checks. This is not a claim that every passage on all 98 pages was read. An additional Ireland-country search returned 134 entries; its earliest inspected passage was a city false match and that corpus remains incomplete. A bounded 4 October coverage scan recorded worldwide Glasgow 1600–1899 (raw total 6,975,711; first page surveyed), Glasgow 1600–1749 (2,591; first ten surveyed), and fully loaded exact-name result sets for John, James, William, Hugh, Alexander, Andrew, Samuel, David, Adam, Thomas and George; only six newly inspected George vessel passages were added as exclusions. The pre-1900 Northern Ireland Benjamin query loaded all 157 result pages and saved all 166 thumbnail highlights. Root visually screened every highlight and fully read selected family notices. Full passage/identity review remains pending for 148 newly catalogued pages. A further original-page check resolves two early Andrew hits and the 1881 city match as exclusions, and retains the 1892 Jane Graham–Robert Glasgow death notice. Early Mary (seven), Margaret (ten) and Elizabeth (one) query sets also reached end of results. Nine newly catalogued Margaret pages are pending; additional query occurrences on existing pages are not presumed excluded by another passage’s city/vessel reading.",
   "conclusion": "The first early review retained James Glasgow’s 1740 shipping occurrence. Expanded study searches add nine surname pages and one separately labelled place record: Montgreenan family and estate notices, the original 1829 Lisnagaver freehold application, a Lisnagaver incident in 1861, and a Larne–Kilwaughter mill auction in 1804. A further locality search adds two appearances of Daniel Glasgow of Kilrea’s 1871 death notice: Church Street residence and an age of 73, conflicting with 75 in the civil register. No additional secure Alex/Robt occurrence at Lisnagaver was established in this bounded batch. The William review distinguishes the 1858 Cookstown witness uncle from co-plaintiff William, corroborates the Drapersfield partners, and strongly separates their Benjamin from Benjamin-2059 using a current July 1870 action. The original 1856 marriage confirms that Benjamin-2059 and his father John were Cookstown merchants. William-3814 is a strong candidate for the 1856 retired merchant; John’s parents remain unknown. The 1792 master, 1793 delegate and 1820 grocer are verified documentary roles with qualified household matches. Further original readings name Robert as the mill Benjamin’s father, add his 1864 Wilhelmina Pike marriage, and bridge Drapersfield to Hull through daughter Margaret George’s 1891 marriage. The separate Cookstown editor Henry’s 1897 notice supports existing family links; infant John’s 1857 notice recovers George as his middle name.",
   "limitations": [
     "Inspected catalogue pages and retained surname pages are different counts. The place-study notice is not surname evidence.",
@@ -15,7 +15,7 @@
     "Belfast News-Letter gives the Ohio elder’s age as 55; attributed Belfast Mercury gives 56. The 1875 Parsonstown notice is outside the pre-1870 window.",
     "The supplied 1821 meeting signature and 1828 jury occurrence are James Glasgow, not William; the coffee agent is only B. Glasgow. Blank/duplicate crops do not add events.",
     "Ireland-country results are separately indexed from Northern Ireland. The wider 134-entry result set and alternative OCR spellings have not been exhausted.",
-    "The 4 October worldwide and 1600–1749 coverage totals are raw search metadata with only the stated first page/first ten surveyed. Exact-name retrieval was complete for the listed queries, but passage inspection was partial for William, Andrew and Thomas; two Andrew IDs remain pending review. Same-name queries are not exhaustive surname coverage because OCR variants, women’s notices and non-English forms may be missed."
+    "The 4 October worldwide and 1600–1749 coverage totals are raw search metadata with only the stated first page/first ten surveyed. Exact-name retrieval was complete for the listed queries, but passage inspection was partial for William, Andrew and Thomas; both outstanding Andrew IDs are now resolved as vessel/city passages. Nine newly catalogued Margaret pages remain pending original passage review; additional Margaret and Elizabeth matches on two existing pages remain uninspected. Same-name queries are not exhaustive surname coverage because OCR variants, women’s notices and non-English forms may be missed."
   ],
   "rows": [
     {
@@ -3699,6 +3699,195 @@
         "reason": "Full original page shows unrelated adjacent columns; no person named Richard Glasgow."
       },
       "review_method": "full original viewer exclusion"
+    },
+    {
+      "image_id": "394351818",
+      "date": "1733-08-30",
+      "paper": "The Caledonian Mercury",
+      "page": 3,
+      "queries": [
+        "Andrew Glasgow"
+      ],
+      "status": "place or ship",
+      "reading": "The St. Andrew of Glasgow, Capt. Brown",
+      "assessment": "Original page names the vessel St. Andrew, wrecked after the hurricane at St. Christopher’s. Andrew is a ship name, not a Glasgow forename.",
+      "profile_ids": [],
+      "source_url": "https://www.newspapers.com/image/394351818/",
+      "reviewed_on": "2026-10-04"
+    },
+    {
+      "image_id": "394287685",
+      "date": "1748-02-08",
+      "paper": "The Caledonian Mercury",
+      "page": 4,
+      "queries": [
+        "Andrew Glasgow"
+      ],
+      "status": "place or ship",
+      "reading": "Mr. Andrew Millar Merchant in Glasgow; Mr. Andrew Millar, Glasgow",
+      "assessment": "Original lost-letter advertisement names Andrew Millar. Glasgow is the merchant’s city, not his surname.",
+      "profile_ids": [],
+      "source_url": "https://www.newspapers.com/image/394287685/",
+      "reviewed_on": "2026-10-04"
+    },
+    {
+      "image_id": "388260153",
+      "date": "1881-11-08",
+      "paper": "Belfast News-Letter",
+      "page": 1,
+      "queries": [
+        "Glasgow Lisnagaver"
+      ],
+      "status": "place or ship",
+      "reading": "James Lennox, of Glasgow, in Scotland, is plaintiff; Hugh M’Cann of Ballymena is defendant.",
+      "assessment": "Original incumbrance notice gives Lennox’s city, not a Glasgow surname. The Lisnagaver notice on the same page concerns Thomas Stott and John Hamilton and is a separate proceeding.",
+      "profile_ids": [],
+      "source_url": "https://www.newspapers.com/image/388260153/",
+      "reviewed_on": "2026-10-04"
+    },
+    {
+      "image_id": "388125998",
+      "date": "1892-01-06",
+      "paper": "Belfast News-Letter",
+      "page": 1,
+      "queries": [
+        "\"Robert Glasgow\" Rasharkin"
+      ],
+      "status": "confirmed surname",
+      "reading": "GRAHAM: Jane Graham, wife of Robert Glasgow, died 28 December at 534 Gallowgate, Glasgow, aged 51; “formerly of Rasharkin.”",
+      "assessment": "Original enlarged notice strongly matches Jane Graham-21720 and spouse Robert Glasgow-938 on name, spouse, exact address and death date 28 December 1891. Supporting an existing marriage, not a parent confidence upgrade. The Rasharkin phrase follows Robert’s name; do not assign it exclusively to Jane.",
+      "profile_ids": [
+        "Graham-21720",
+        "Glasgow-938"
+      ],
+      "source_url": "https://www.newspapers.com/image/388125998/",
+      "reviewed_on": "2026-10-04"
+    },
+    {
+      "image_id": "394383940",
+      "date": "1740-02-26",
+      "paper": "The Derby Mercury",
+      "page": "3",
+      "source_url": "https://www.newspapers.com/image/394383940/",
+      "queries": [
+        "Margaret Glasgow"
+      ],
+      "status": "reading pending",
+      "reading": "Search preview saved; original matched passage and identity not yet assessed.",
+      "assessment": "Captured while completing the worldwide 1600–1749 exact-name query. No surname-person or family identification is asserted.",
+      "profile_ids": []
+    },
+    {
+      "image_id": "394545459",
+      "date": "1740-06-16",
+      "paper": "The Caledonian Mercury",
+      "page": "3",
+      "source_url": "https://www.newspapers.com/image/394545459/",
+      "queries": [
+        "Margaret Glasgow"
+      ],
+      "status": "reading pending",
+      "reading": "Search preview saved; original matched passage and identity not yet assessed.",
+      "assessment": "Captured while completing the worldwide 1600–1749 exact-name query. No surname-person or family identification is asserted.",
+      "profile_ids": []
+    },
+    {
+      "image_id": "394547173",
+      "date": "1740-06-23",
+      "paper": "The Caledonian Mercury",
+      "page": "3",
+      "source_url": "https://www.newspapers.com/image/394547173/",
+      "queries": [
+        "Margaret Glasgow"
+      ],
+      "status": "reading pending",
+      "reading": "Search preview saved; original matched passage and identity not yet assessed.",
+      "assessment": "Captured while completing the worldwide 1600–1749 exact-name query. No surname-person or family identification is asserted.",
+      "profile_ids": []
+    },
+    {
+      "image_id": "394549842",
+      "date": "1740-06-30",
+      "paper": "The Caledonian Mercury",
+      "page": "4",
+      "source_url": "https://www.newspapers.com/image/394549842/",
+      "queries": [
+        "Margaret Glasgow"
+      ],
+      "status": "reading pending",
+      "reading": "Search preview saved; original matched passage and identity not yet assessed.",
+      "assessment": "Captured while completing the worldwide 1600–1749 exact-name query. No surname-person or family identification is asserted.",
+      "profile_ids": []
+    },
+    {
+      "image_id": "394242935",
+      "date": "1741-02-16",
+      "paper": "The Caledonian Mercury",
+      "page": "2",
+      "source_url": "https://www.newspapers.com/image/394242935/",
+      "queries": [
+        "Margaret Glasgow"
+      ],
+      "status": "reading pending",
+      "reading": "Search preview saved; original matched passage and identity not yet assessed.",
+      "assessment": "Captured while completing the worldwide 1600–1749 exact-name query. No surname-person or family identification is asserted.",
+      "profile_ids": []
+    },
+    {
+      "image_id": "404017174",
+      "date": "1741-02-21",
+      "paper": "The Newcastle Weekly Courant",
+      "page": "2",
+      "source_url": "https://www.newspapers.com/image/404017174/",
+      "queries": [
+        "Margaret Glasgow"
+      ],
+      "status": "reading pending",
+      "reading": "Search preview saved; original matched passage and identity not yet assessed.",
+      "assessment": "Captured while completing the worldwide 1600–1749 exact-name query. No surname-person or family identification is asserted.",
+      "profile_ids": []
+    },
+    {
+      "image_id": "394384868",
+      "date": "1742-01-12",
+      "paper": "The Caledonian Mercury",
+      "page": "3",
+      "source_url": "https://www.newspapers.com/image/394384868/",
+      "queries": [
+        "Margaret Glasgow"
+      ],
+      "status": "reading pending",
+      "reading": "Search preview saved; original matched passage and identity not yet assessed.",
+      "assessment": "Captured while completing the worldwide 1600–1749 exact-name query. No surname-person or family identification is asserted.",
+      "profile_ids": []
+    },
+    {
+      "image_id": "394292967",
+      "date": "1743-06-16",
+      "paper": "The Caledonian Mercury",
+      "page": "3",
+      "source_url": "https://www.newspapers.com/image/394292967/",
+      "queries": [
+        "Margaret Glasgow"
+      ],
+      "status": "reading pending",
+      "reading": "Search preview saved; original matched passage and identity not yet assessed.",
+      "assessment": "Captured while completing the worldwide 1600–1749 exact-name query. No surname-person or family identification is asserted.",
+      "profile_ids": []
+    },
+    {
+      "image_id": "394308623",
+      "date": "1743-08-16",
+      "paper": "The Caledonian Mercury",
+      "page": "4",
+      "source_url": "https://www.newspapers.com/image/394308623/",
+      "queries": [
+        "Margaret Glasgow"
+      ],
+      "status": "reading pending",
+      "reading": "Search preview saved; original matched passage and identity not yet assessed.",
+      "assessment": "Captured while completing the worldwide 1600–1749 exact-name query. No surname-person or family identification is asserted.",
+      "profile_ids": []
     }
   ]
 }

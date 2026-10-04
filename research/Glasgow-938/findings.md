@@ -1,6 +1,6 @@
 # Findings: Glasgow-938
 
-Last updated: 2026-09-13
+Last updated: 2026-10-04
 
 ## Current conclusion
 
@@ -15,6 +15,8 @@ The identification is strong but still inferential because the valuation gives
 no age or relative.
 
 The Scottish continuation needs an original-record bridge. Precise child-birth references are now available, but neither image was read in the 13 September follow-up. This limitation does not weaken the direct Irish father–son evidence above.
+
+The newly inspected 6 January 1892 newspaper names Jane Graham as Robert Glasgow's wife, gives her death on 28 December at 534 Gallowgate, aged 51, and associates the couple with Rasharkin. This strongly matches the existing Jane profile's exact death date/address and supports the existing spouse connection. The wider Scottish identity bridge and the separate 1861 neighbour identification retain their earlier qualifications.
 
 ## Source findings
 
@@ -59,3 +61,7 @@ Source: [Down the Road, Gortereghy 1911 census browse](https://downtheroad.dev/d
 ## Priority actions
 
 Compare the coroner’s inquest and subsequent reporting for an age, address or family identifier. Do not attach the incident or a property holding as a certain profile fact.
+
+## Source findings
+
+[Belfast News-Letter, 6 January 1892, p.1](https://www.newspapers.com/image/388125998/), GRAHAM death notice: Jane Graham, wife of Robert Glasgow, died on 28 December at her residence, 534 Gallowgate, Glasgow, aged 51; the notice says “formerly of Rasharkin” after Robert's name. Original enlarged passage inspected 4 October 2026. The live [Jane profile](https://www.wikitree.com/wiki/Graham-21720) agrees on spouse, exact address, death date 28 December 1891 and age. This is supporting evidence for an existing marriage, not a parent confidence upgrade; the location wording is not assigned exclusively to Jane.

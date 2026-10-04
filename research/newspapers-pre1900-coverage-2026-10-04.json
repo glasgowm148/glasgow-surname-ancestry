@@ -49,7 +49,11 @@
     "David Glasgow": 0,
     "Adam Glasgow": 0,
     "Thomas Glasgow": 6,
-    "George Glasgow": 6
+    "George Glasgow": 6,
+    "Robert Glasgow": 1,
+    "Mary Glasgow": 7,
+    "Margaret Glasgow": 10,
+    "Elizabeth Glasgow": 1
   },
   "reviewed_exclusions": [
     {
@@ -83,11 +87,23 @@
     {
       "image_id": "1265902958",
       "reason": "Richard in one boat-sale advertisement; Glasgow is Fitzpatrick’s patent-agency city in the next column. Original viewer excludes the surname interpretation."
+    },
+    {
+      "image_id": "394351818",
+      "reason": "Original page names the vessel St. Andrew, wrecked after the hurricane at St. Christopher’s. Andrew is a ship name, not a Glasgow forename."
+    },
+    {
+      "image_id": "394287685",
+      "reason": "Original lost-letter advertisement names Andrew Millar. Glasgow is the merchant’s city, not his surname."
+    },
+    {
+      "image_id": "388260153",
+      "reason": "Original incumbrance notice gives Lennox’s city, not a Glasgow surname. The Lisnagaver notice on the same page concerns Thomas Stott and John Hamilton and is a separate proceeding."
     }
   ],
   "limits": [
     "Worldwide and 1600–1749 totals are raw metadata with only the stated first page/first ten surveyed.",
-    "Exact-name retrieval was complete for listed queries, but passage inspection was partial for William, Andrew and Thomas; two Andrew IDs remain pending review.",
+    "Exact-name retrieval was complete for listed queries; previously catalogued William, Andrew and Thomas readings are retained, and the two outstanding Andrew original passages are now resolved as exclusions. This is not a full-page transcription of every result.",
     "Same-name searches are not exhaustive surname coverage because OCR variants, women’s notices and non-English forms may be missed."
   ],
   "source": "Newspapers.com search result metadata and visually inspected viewer passages; private query metadata remains under .cache/newspapers/2026-10-04/global-scan/.",
@@ -106,7 +122,8 @@
     "387828785",
     "388748472",
     "388105260",
-    "390568458"
+    "390568458",
+    "388125998"
   ],
   "relationship_recommendations": [
     {
@@ -123,10 +140,46 @@
     }
   ],
   "private_capture_archive": {
-    "path": "artifacts/newspapers-pre1900-20261004.zip",
-    "file_count": 279,
-    "bytes": 14780865,
-    "sha256": "a32ed26d5599b96b543642875fb7a221c483e8afdc743696f3f5cbd2f328d9a5",
+    "path": "artifacts/newspapers-pre1900-20261004-followup.zip",
+    "file_count": 298,
+    "bytes": 20239107,
+    "sha256": "b88d8a9f441a6bdf1c9506920a06d3cb22c759fc655af85b95904ba26b8123d9",
     "crc_and_hashes_verified": true
+  },
+  "followup_original_review": [
+    "394351818",
+    "394287685",
+    "388260153",
+    "387764534",
+    "388125998"
+  ],
+  "additional_early_pending_pages": [
+    "394383940",
+    "394545459",
+    "394547173",
+    "394549842",
+    "394242935",
+    "404017174",
+    "394384868",
+    "394292967",
+    "394308623"
+  ],
+  "additional_query_passages_pending_on_existing_pages": [
+    {
+      "image_id": "394568822",
+      "query": "Margaret Glasgow",
+      "existing_review": "Thomas vessel passage only"
+    },
+    {
+      "image_id": "394465685",
+      "query": "Elizabeth Glasgow",
+      "existing_review": "George vessel passage only"
+    }
+  ],
+  "exact_name_retrieval_scope": {
+    "region": "worldwide",
+    "date_start": 1600,
+    "date_end": 1749,
+    "passage_review_complete": false
   }
 }
