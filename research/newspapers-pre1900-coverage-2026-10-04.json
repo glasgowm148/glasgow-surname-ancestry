@@ -1,0 +1,132 @@
+{
+  "reviewed_on": "2026-10-04",
+  "scope": "Bounded Newspapers.com coverage scan for Glasgow surname research, 1600–1899.",
+  "coverage": {
+    "worldwide_glasgow_1600_1899_raw_total": 6975711,
+    "worldwide_glasgow_1600_1899_pages_surveyed": 1,
+    "glasgow_1600_1749_raw_total": 2591,
+    "glasgow_1600_1749_pages_surveyed": 10,
+    "benjamin_northern_ireland_1600_1899": {
+      "retrieval_complete": true,
+      "result_pages": 157,
+      "thumbnail_highlights": 166,
+      "passage_review_complete": false,
+      "thumbnail_screening_complete": true
+    },
+    "lisnagaver_1600_1899": {
+      "retrieval_complete": true,
+      "result_pages": 12,
+      "passage_review_complete": false,
+      "saved_snippet_count": 36
+    },
+    "robert_glasgow_rasharkin_1600_1899": {
+      "retrieval_complete": true,
+      "result_pages": 8,
+      "passage_review_complete": false,
+      "saved_snippet_count": 25
+    },
+    "glasgow_rasharkin_1600_1899": {
+      "retrieval_complete": false,
+      "result_pages_surveyed": 10,
+      "raw_total": 2278,
+      "passage_review_complete": false
+    },
+    "benjamin_worldwide_1600_1899": {
+      "retrieval_complete": false,
+      "result_pages_surveyed": 10,
+      "raw_total": 4064,
+      "passage_review_complete": false
+    }
+  },
+  "exact_name_retrieval": {
+    "John Glasgow": 1,
+    "James Glasgow": 1,
+    "William Glasgow": 7,
+    "Hugh Glasgow": 0,
+    "Alexander Glasgow": 0,
+    "Andrew Glasgow": 10,
+    "Samuel Glasgow": 0,
+    "David Glasgow": 0,
+    "Adam Glasgow": 0,
+    "Thomas Glasgow": 6,
+    "George Glasgow": 6
+  },
+  "reviewed_exclusions": [
+    {
+      "image_id": "404062478",
+      "reason": "ship John of Glasgow, 64 guns; already excluded"
+    },
+    {
+      "image_id": "394251393",
+      "reason": "Prince George of Glasgow vessel"
+    },
+    {
+      "image_id": "394258944",
+      "reason": "Prince George of Glasgow vessel"
+    },
+    {
+      "image_id": "394268065",
+      "reason": "Prince George of Glasgow vessel"
+    },
+    {
+      "image_id": "394457700",
+      "reason": "Prince George of Glasgow vessel"
+    },
+    {
+      "image_id": "394465685",
+      "reason": "Prince George of Glasgow vessel"
+    },
+    {
+      "image_id": "394250507",
+      "reason": "George of Glasgow vessel"
+    },
+    {
+      "image_id": "1265902958",
+      "reason": "Richard in one boat-sale advertisement; Glasgow is Fitzpatrick’s patent-agency city in the next column. Original viewer excludes the surname interpretation."
+    }
+  ],
+  "limits": [
+    "Worldwide and 1600–1749 totals are raw metadata with only the stated first page/first ten surveyed.",
+    "Exact-name retrieval was complete for listed queries, but passage inspection was partial for William, Andrew and Thomas; two Andrew IDs remain pending review.",
+    "Same-name searches are not exhaustive surname coverage because OCR variants, women’s notices and non-English forms may be missed."
+  ],
+  "source": "Newspapers.com search result metadata and visually inspected viewer passages; private query metadata remains under .cache/newspapers/2026-10-04/global-scan/.",
+  "relationship_assessment_changes": [
+    {
+      "relationship": "Record-defined Benjamin, son of Robert Glasgow",
+      "prior_assessment": "Father clause ambiguous between plaintiffs",
+      "new_assessment": "Certain documentary father–son statement in Benjamin’s named testimony",
+      "source_url": "https://www.newspapers.com/image/390574459/",
+      "profile_identity": "Qualified; no existing-profile parent change",
+      "reviewed_on": "2026-10-04"
+    }
+  ],
+  "new_retained_pages": [
+    "387824879",
+    "387828785",
+    "388748472",
+    "388105260",
+    "390568458"
+  ],
+  "relationship_recommendations": [
+    {
+      "subject": "Glasgow-2542",
+      "relationship": "father",
+      "current_parent": "Glasgow-2059",
+      "prior": "previously ungraded in live public family display",
+      "proposed": "Confident",
+      "status": "proposed only; not saved",
+      "basis": [
+        "390568458",
+        "Find a Grave photo 234244706: Benjamin death 8 February 1870 and his son John death 4 August 1857 aged six months"
+      ]
+    }
+  ],
+  "private_capture_archive": {
+    "path": "artifacts/newspapers-pre1900-20261004.zip",
+    "file_count": 279,
+    "bytes": 14780865,
+    "sha256": "a32ed26d5599b96b543642875fb7a221c483e8afdc743696f3f5cbd2f328d9a5",
+    "crc_and_hashes_verified": true
+  }
+}

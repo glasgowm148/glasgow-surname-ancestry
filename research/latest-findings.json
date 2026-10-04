@@ -16954,10 +16954,10 @@
       "id": "drapersfield-two-williams-and-benjamin-1858",
       "found_on": "2026-10-04",
       "kind": "record",
-      "finding": "The Cookstown mill case names co-plaintiff William Glasgow and a second William, uncle of the plaintiffs. Drapersfield Benjamin’s current July 1870 action postdates Benjamin-2059’s death.",
+      "finding": "The named witness Benjamin Glasgow identifies the late Robert Glasgow as his father, says he managed his father’s mill from 1850, and dates Robert’s death to 1856. Wm. Glasgow senior was Benjamin’s uncle.",
       "significance": "Separates documented people and preserves the source limits before any WikiTree change.",
       "status": "qualified",
-      "qualification": "Robert Glasgow is called father of the singular present plaintiff, unspecified. The partners are not expressly called brothers. The evidence does not identify John-2058’s parents.",
+      "qualification": "Certain documentary father–son relationship; identification of Robert with Glasgow-2656 or Glasgow-3941 remains qualified. Counsel’s reference to Robert’s sons supports a qualified brother inference for co-plaintiff William. The uncle’s paternal or maternal side and all mothers are unstated. No parents are established for John Glasgow-2058.",
       "people": [
         {
           "name": "William Glasgow, uncle in the Cookstown mill case",
@@ -17005,7 +17005,12 @@
       "detail_url": "/research/subjects/william-glasgow-irish-newspapers/#cookstown-uncle",
       "provenance": [
         "research/william-glasgow-irish-newspapers-2026-10-04.md"
-      ]
+      ],
+      "prior_assessment": {
+        "qualification": "Robert Glasgow is called father of the singular present plaintiff, unspecified. The partners are not expressly called brothers. The evidence does not identify John-2058’s parents.",
+        "reviewed_on": "2026-10-04",
+        "superseded_by": "Named-witness paragraph visually inspected on 4 October 2026"
+      }
     },
     {
       "id": "william-cookstown-retirement-candidate-1856",
@@ -17099,6 +17104,145 @@
       "detail_url": "/research/subjects/william-glasgow-irish-newspapers/#william-alexander-parsonstown",
       "provenance": [
         "research/william-glasgow-irish-newspapers-2026-10-04.md"
+      ]
+    },
+    {
+      "id": "wg-glasgow-dromara-call-1896",
+      "found_on": "2026-10-04",
+      "kind": "biographical",
+      "finding": "W. G. Glasgow, B.A., a student of Tyrone Presbytery, accepted the unanimous First Dromara call at the Cookstown meeting of 28 January.",
+      "status": "qualified",
+      "qualification": "Strong match to Rev. William George Glasgow-2135 by initials, qualification, church and the live profile’s December 1896 Dromara marriage. This is acceptance of a call, not proof of ordination or parentage.",
+      "people": [
+        {
+          "id": "Glasgow-2135",
+          "name": "William George Glasgow",
+          "url": "/people/glasgow-2135.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 30 January 1896, p.6",
+          "url": "https://www.newspapers.com/image/387824879/"
+        }
+      ],
+      "detail_url": "/branches/scottish-families/#newspaper-387824879",
+      "provenance": [
+        "research/Glasgow-2135/findings.md",
+        "surname-research/indexes/glasgow-newspaper-review.json"
+      ]
+    },
+    {
+      "id": "benjamin-drapersfield-pike-marriage-1864",
+      "found_on": "2026-10-04",
+      "kind": "biographical",
+      "finding": "Benjamin Glasgow of Drapersfield, Cookstown, married Wilhelmina, eldest daughter of Richard Pike, Esq., of Beechgrove, Dungannon, at Dungannon on 16 February 1864.",
+      "status": "confirmed",
+      "qualification": "The original notice gives his wife and her father but no groom age or father. It belongs to the consolidated Drapersfield account; do not assign Wilhelmina as mother of every later child without further evidence.",
+      "people": [
+        {
+          "name": "Benjamin Glasgow of Drapersfield",
+          "url": "/research/subjects/william-glasgow-irish-newspapers/#benjamin-drapersfield"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 18 February 1864, p.2",
+          "url": "https://www.newspapers.com/image/387828785/"
+        }
+      ],
+      "detail_url": "/research/subjects/william-glasgow-irish-newspapers/#benjamin-drapersfield",
+      "provenance": [
+        "surname-research/indexes/glasgow-newspaper-review.json"
+      ]
+    },
+    {
+      "id": "drapersfield-benjamin-hull-daughter-1891",
+      "found_on": "2026-10-04",
+      "kind": "biographical",
+      "finding": "Margaret George Glasgow, eldest daughter of Benjamin Glasgow of Hull, formerly Drapersfield, Cookstown, married W. Brooke Broadbent, formerly Manchester, in New York on 5 October 1891.",
+      "status": "confirmed",
+      "qualification": "This directly bridges the father’s Hull and Drapersfield locations. The bride’s mother and age are unstated; W. is not expanded. Do not automatically identify every Hull namesake or preacher.",
+      "people": [
+        {
+          "name": "Margaret George Glasgow, daughter of Drapersfield Benjamin",
+          "url": "/research/subjects/newspapers-pre1900-20261004/#margaret-george"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 16 October 1891, p.1",
+          "url": "https://www.newspapers.com/image/388748472/"
+        }
+      ],
+      "detail_url": "/research/subjects/newspapers-pre1900-20261004/#margaret-george",
+      "provenance": [
+        "surname-research/indexes/glasgow-newspaper-review.json"
+      ]
+    },
+    {
+      "id": "henry-glasgow-marriage-second-son-1897",
+      "found_on": "2026-10-04",
+      "kind": "biographical",
+      "finding": "Henry Little Glasgow married on 16 March 1897 at Ballywillan Presbyterian Church. The contemporary notice names him second son of the late Benjamin of Cookstown, editor of the Mid-Ulster Mail and Dungannon News, and brother of Rev. W. G. Glasgow, B.A., Dromara.",
+      "status": "confirmed",
+      "qualification": "Strong profile match on name, occupation, wedding date and brother. The live profile’s attributed 1950 obituary calls him third son; preserve the discrepancy. Existing family support, not a newly certain live parent link.",
+      "people": [
+        {
+          "id": "Glasgow-2131",
+          "name": "Henry Little Glasgow",
+          "url": "/people/glasgow-2131.html"
+        },
+        {
+          "id": "Glasgow-2135",
+          "name": "William George Glasgow",
+          "url": "/people/glasgow-2135.html"
+        },
+        {
+          "id": "Glasgow-2059",
+          "name": "Benjamin Glasgow",
+          "url": "/people/glasgow-2059.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 19 March 1897, p.1",
+          "url": "https://www.newspapers.com/image/388105260/"
+        }
+      ],
+      "detail_url": "/people/glasgow-2131.html",
+      "provenance": [
+        "surname-research/indexes/glasgow-newspaper-review.json"
+      ]
+    },
+    {
+      "id": "john-george-glasgow-infant-1857",
+      "found_on": "2026-10-04",
+      "kind": "biographical",
+      "finding": "John George Glasgow, infant son of Benjamin Glasgow of Cookstown, died 4 August 1857 aged six months.",
+      "status": "confirmed",
+      "qualification": "Strong match to John-2542. The inspected gravestone calls John son of the Benjamin who died 8 February 1870, identifying father-2059. George is a new middle name; proposed previously ungraded father link → Confident remains unsaved. Mother is not named in the newspaper.",
+      "people": [
+        {
+          "id": "Glasgow-2542",
+          "name": "John George Glasgow",
+          "url": "/people/glasgow-2542.html"
+        },
+        {
+          "id": "Glasgow-2059",
+          "name": "Benjamin Glasgow",
+          "url": "/people/glasgow-2059.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 6 August 1857, p.2",
+          "url": "https://www.newspapers.com/image/390568458/"
+        }
+      ],
+      "detail_url": "/people/glasgow-2542.html",
+      "provenance": [
+        "surname-research/indexes/glasgow-newspaper-review.json"
       ]
     }
   ]

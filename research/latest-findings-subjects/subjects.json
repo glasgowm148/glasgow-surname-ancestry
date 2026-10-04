@@ -6874,7 +6874,7 @@
     {
       "slug": "william-glasgow-irish-newspapers",
       "title": "William Glasgows in Irish newspapers: the people and their records",
-      "introduction": "The Cookstown mill report contains two Williams: a co-plaintiff and an uncle. The Drapersfield Benjamin was still acting in July 1870, after Benjamin-2059’s death. These accounts keep roles and compatible candidates visible without assuming that each role is a separate new person. The 1792 shipmaster, 1793 Kildress delegate and 1820 Belfast grocer remain unjoined; the 1875 Parsonstown marriage is a later family lead. All new-person drafts remain on HOLD until identity and duplicate checks resolve them.",
+      "introduction": "Benjamin’s named testimony now proves Robert as his father, with death in 1856, and identifies Wm. Glasgow senior as his uncle. The co-plaintiff William’s brother relationship and the existing-profile identities remain qualified. The separate John-son Benjamin-2059 died before the Drapersfield Benjamin’s current July 1870 action. All unresolved drafts remain on HOLD.",
       "people": [
         {
           "anchor": "captain-william",
@@ -7001,8 +7001,8 @@
           "anchor": "cookstown-uncle",
           "name": "William Glasgow, uncle in the Cookstown mill case",
           "status": "HOLD — identity or record assignment remains unresolved",
-          "identity_note": "William Glasgow, retired merchant at Loy (Glasgow-3814) is a strong compatible candidate for the retirement report and a possible identity for the uncle. William Glasgow of Montober (Glasgow-585) remains another uncle candidate. No father, mother, spouse or brother should be attached from these notices alone.",
-          "minimum_fields": "William Glasgow; adult witness in 1858; exact dates unknown. Cookstown is an uncertain birth-location suggestion from his family/business context. Uncle of the two plaintiffs; no parents or spouse named.",
+          "identity_note": "The named witness Benjamin Glasgow identifies the late Robert Glasgow as his father, says he managed his father’s mill from 1850, and dates Robert’s death to 1856. Wm. Glasgow senior was Benjamin’s uncle. Certain documentary father–son relationship; identification of Robert with Glasgow-2656 or Glasgow-3941 remains qualified. Counsel’s reference to Robert’s sons supports a qualified brother inference for co-plaintiff William. The uncle’s paternal or maternal side and all mothers are unstated. No parents are established for John Glasgow-2058.",
+          "minimum_fields": "William Glasgow senior; adult witness in 1858; exact dates and birthplace unknown. Benjamin’s uncle, distinguished from the younger William plaintiff. Paternal/maternal side unstated; no parents or spouse named.",
           "facts": [
             {
               "finding_id": "cookstown-uncle-1858",
@@ -7025,6 +7025,17 @@
                   "url": "https://www.newspapers.com/image/390544967/"
                 }
               ]
+            },
+            {
+              "finding_id": "benjamin-robert-mill-testimony-1858",
+              "finding": "The named witness Benjamin Glasgow identifies the late Robert Glasgow as his father, says he managed his father’s mill from 1850, and dates Robert’s death to 1856. Wm. Glasgow senior was Benjamin’s uncle.",
+              "qualification": "Certain documentary father–son relationship; identification of Robert with Glasgow-2656 or Glasgow-3941 remains qualified. Counsel’s reference to Robert’s sons supports a qualified brother inference for co-plaintiff William. The uncle’s paternal or maternal side and all mothers are unstated. No parents are established for John Glasgow-2058.",
+              "sources": [
+                {
+                  "title": "Belfast News-Letter, 22 July 1858, p.3, Benjamin’s sworn testimony",
+                  "url": "https://www.newspapers.com/image/390574459/"
+                }
+              ]
             }
           ],
           "candidates": [
@@ -7040,18 +7051,33 @@
           "duplicate_check": [
             "William-1675 died in Ohio in 1855 and cannot be the living 1858 witness or 1856 recipient.",
             "William-1969’s captured biography places him at Auburn and then Michigan from 1842; it does not fit a continuing Cookstown merchant life.",
-            "An uncle shared by two plaintiffs does not prove that the plaintiffs were brothers or had the same father.",
+            "The uncle role alone does not prove a brother relationship. Counsel’s separate reference to the deceased owner’s sons supports the qualified brother inference; the uncle’s family side remains unstated.",
             "1842 hospital, 1854 rescue and 1861 sale notices do not state an age or family. They remain unassigned between same-name Cookstown men rather than being forced into this biography."
           ],
-          "next_test": "Locate the will or probate of William-3814 and mill/title deeds naming Benjamin, William or Robert.",
-          "wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nWilliam Glasgow gave evidence in the Cookstown mill dispute of Benjamin and William Glasgow against John Sloan in July 1858. He was described as uncle of the plaintiffs, distinguishing him from his same-name nephew who was a plaintiff.<ref>[https://www.newspapers.com/image/390574459/ Belfast News-Letter, 22 July 1858, p.3].</ref> A Cookstown merchant named William Glasgow had retired on 1 January 1856 and was presented with a silver ewer and cake basket by commercial friends in Belfast; his identity with the witness remains unproved.<ref>[https://www.newspapers.com/image/390544967/ Belfast News-Letter, 4 January 1856, p.1].</ref>\n\n== Research Notes ==\n[[Glasgow-3814|William Glasgow, retired merchant at Loy]] is a strong compatible candidate for the retirement report and a possible identity for the uncle. [[Glasgow-585|William Glasgow of Montober]] remains another uncle candidate. No father, mother, spouse or brother should be attached from these notices alone.\n\n== Sources ==\n<references />"
+          "next_test": "Identify the mill’s Robert through title, probate or lease records and compare the candidates before any profile relationship attachment. Review the competing father named by Benjamin-2566’s 1876 marriage original; do not reparent that profile from this mill report alone.",
+          "wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nWilliam Glasgow gave evidence in the Cookstown mill dispute of Benjamin and William Glasgow against John Sloan in July 1858. He was described as uncle of the plaintiffs, distinguishing him from his same-name nephew who was a plaintiff.<ref>[https://www.newspapers.com/image/390574459/ Belfast News-Letter, 22 July 1858, p.3].</ref> A Cookstown merchant named William Glasgow had retired on 1 January 1856 and was presented with a silver ewer and cake basket by commercial friends in Belfast; his identity with the witness remains unproved.<ref>[https://www.newspapers.com/image/390544967/ Belfast News-Letter, 4 January 1856, p.1].</ref>\n\n== Research Notes ==\nThe named witness Benjamin Glasgow identifies the late Robert Glasgow as his father, says he managed his father’s mill from 1850, and dates Robert’s death to 1856. Wm. Glasgow senior was Benjamin’s uncle. Certain documentary father–son relationship; identification of Robert with Glasgow-2656 or Glasgow-3941 remains qualified. Counsel’s reference to Robert’s sons supports a qualified brother inference for co-plaintiff William. The uncle’s paternal or maternal side and all mothers are unstated. No parents are established for John Glasgow-2058.\n\nIdentify the mill’s Robert through title, probate or lease records and compare the candidates before any profile relationship attachment. Review the competing father named by Benjamin-2566’s 1876 marriage original; do not reparent that profile from this mill report alone.\n\n[[Glasgow-3814|Glasgow-3814]]: Inspected 1883 death entry identifies a bachelor aged 87, retired merchant, at Loy, Cookstown. Occupation, locality and chronology make him a strong retirement candidate and a compatible uncle candidate; no kinship bridge yet. [[Glasgow-585|Glasgow-585]]: Montober William (c.1804–1898) is old enough for the uncle role. His farmer household is known, but there is no inspected mill or merchant connection; no concrete kinship conflict has been established.\n\n== Sources ==\n<references />\n",
+          "prior_identity_review": {
+            "status": "HOLD — identity or record assignment remains unresolved",
+            "identity_note": "William Glasgow, retired merchant at Loy (Glasgow-3814) is a strong compatible candidate for the retirement report and a possible identity for the uncle. William Glasgow of Montober (Glasgow-585) remains another uncle candidate. No father, mother, spouse or brother should be attached from these notices alone.",
+            "candidates": [
+              {
+                "id": "Glasgow-3814",
+                "reason": "Inspected 1883 death entry identifies a bachelor aged 87, retired merchant, at Loy, Cookstown. Occupation, locality and chronology make him a strong retirement candidate and a compatible uncle candidate; no kinship bridge yet."
+              },
+              {
+                "id": "Glasgow-585",
+                "reason": "Montober William (c.1804–1898) is old enough for the uncle role. His farmer household is known, but there is no inspected mill or merchant connection; no concrete kinship conflict has been established."
+              }
+            ],
+            "next_test": "Locate the will or probate of William-3814 and mill/title deeds naming Benjamin, William or Robert."
+          }
         },
         {
           "anchor": "cookstown-william-partner",
           "name": "William Glasgow, co-plaintiff and Drapersfield mill partner",
           "status": "HOLD — identity or record assignment remains unresolved",
-          "identity_note": "The two partners shared an uncle, but the report does not expressly say that they were brothers. William Glasgow of Killycurragh (Glasgow-1737) is chronologically compatible; its David father attachment is a comparison to test, not a reason to assign the newspaper’s ambiguous Robert clause.",
-          "minimum_fields": "William Glasgow; adult mill partner in 1858; dates unknown. Cookstown/Drapersfield is an uncertain birth-location suggestion from his business, not a stated birthplace. Uncle William named; relationship to business partner Benjamin beyond their shared uncle unstated.",
+          "identity_note": "The named witness Benjamin Glasgow identifies the late Robert Glasgow as his father, says he managed his father’s mill from 1850, and dates Robert’s death to 1856. Wm. Glasgow senior was Benjamin’s uncle. Certain documentary father–son relationship; identification of Robert with Glasgow-2656 or Glasgow-3941 remains qualified. Counsel’s reference to Robert’s sons supports a qualified brother inference for co-plaintiff William. The uncle’s paternal or maternal side and all mothers are unstated. No parents are established for John Glasgow-2058.",
+          "minimum_fields": "William Glasgow; mill partner and co-plaintiff in 1858. Exact dates and age unknown; counsel says one plaintiff was a minor without naming which. Cookstown/Drapersfield is business context, not a birthplace. A brother relationship with Benjamin is qualified from counsel’s reference to the sons. No existing William profile is identified; mother unknown.",
           "facts": [
             {
               "finding_id": "drapersfield-william-1858",
@@ -7089,28 +7115,50 @@
                   "url": "https://www.newspapers.com/image/387904527/"
                 }
               ]
+            },
+            {
+              "finding_id": "benjamin-robert-mill-testimony-1858",
+              "finding": "The named witness Benjamin Glasgow identifies the late Robert Glasgow as his father, says he managed his father’s mill from 1850, and dates Robert’s death to 1856. Wm. Glasgow senior was Benjamin’s uncle.",
+              "qualification": "Certain documentary father–son relationship; identification of Robert with Glasgow-2656 or Glasgow-3941 remains qualified. Counsel’s reference to Robert’s sons supports a qualified brother inference for co-plaintiff William. The uncle’s paternal or maternal side and all mothers are unstated. No parents are established for John Glasgow-2058.",
+              "sources": [
+                {
+                  "title": "Belfast News-Letter, 22 July 1858, p.3, Benjamin’s sworn testimony",
+                  "url": "https://www.newspapers.com/image/390574459/"
+                }
+              ]
             }
           ],
           "candidates": [
             {
               "id": "Glasgow-1737",
-              "reason": "William born about 1824 at Killycurragh is adult by 1858. His captured father is David; this would conflict only if the report’s unspecified Robert father refers to William. It must not be used to exclude him before that ambiguity is resolved."
+              "reason": "William-1737 is an adult-period Killycurragh namesake whose reported father David competes with the qualified mill-brother inference. No direct record identifies the partner with this profile; retain the comparison and verify its parent source."
             }
           ],
           "duplicate_check": [
             "Checked captured William-1737, William-585, William-3814 and William-1969 biographies for dates, family and occupation. No confirmed business partner identity found.",
             "The uncle is a separately named witness; do not merge the two Williams.",
-            "The 1858 report calls Robert father of the singular present plaintiff without naming which plaintiff; no paternal link is assigned to this William."
+            "Benjamin’s named testimony proves Robert as his father. William’s brother relationship remains qualified from counsel’s reference to the sons; no existing William profile is identified."
           ],
-          "next_test": "Find a marriage, death or mill deed naming this William’s father and his relationship to Benjamin.",
-          "wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nWilliam Glasgow and Benjamin Glasgow operated a mill near Cookstown and brought a watercourse action against John Sloan in 1858. A second William Glasgow testified as their uncle.<ref>[https://www.newspapers.com/image/390574459/ Belfast News-Letter, 22 July 1858, p.3].</ref><ref>[https://www.newspapers.com/image/390575046/ Belfast News-Letter, 23 July 1858, p.4].</ref> In January 1864 Benjamin and William Glasgow of Drapersfield Mills offered premises formerly occupied by the late Robert Glasgow. A 1866 court report mentions a cheque drawn by the partners.<ref>[https://www.newspapers.com/image/387805714/ Belfast News-Letter, 19 January 1864, p.2].</ref><ref>[https://www.newspapers.com/image/387904527/ Belfast News-Letter, 11 August 1866, p.4].</ref>\n\n== Research Notes ==\nThe two partners shared an uncle, but the report does not expressly say that they were brothers. [[Glasgow-1737|William Glasgow of Killycurragh]] is chronologically compatible; its David father attachment is a comparison to test, not a reason to assign the newspaper’s ambiguous Robert clause.\n\n== Sources ==\n<references />"
+          "next_test": "Identify the mill’s Robert through title, probate or lease records and compare the candidates before any profile relationship attachment. Review the competing father named by Benjamin-2566’s 1876 marriage original; do not reparent that profile from this mill report alone.",
+          "wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nWilliam Glasgow and Benjamin Glasgow operated a mill near Cookstown and brought a watercourse action against John Sloan in 1858. A second William Glasgow testified as their uncle.<ref>[https://www.newspapers.com/image/390574459/ Belfast News-Letter, 22 July 1858, p.3].</ref><ref>[https://www.newspapers.com/image/390575046/ Belfast News-Letter, 23 July 1858, p.4].</ref> In January 1864 Benjamin and William Glasgow of Drapersfield Mills offered premises formerly occupied by the late Robert Glasgow. A 1866 court report mentions a cheque drawn by the partners.<ref>[https://www.newspapers.com/image/387805714/ Belfast News-Letter, 19 January 1864, p.2].</ref><ref>[https://www.newspapers.com/image/387904527/ Belfast News-Letter, 11 August 1866, p.4].</ref>\n\n== Research Notes ==\nThe named witness Benjamin Glasgow identifies the late Robert Glasgow as his father, says he managed his father’s mill from 1850, and dates Robert’s death to 1856. Wm. Glasgow senior was Benjamin’s uncle. Certain documentary father–son relationship; identification of Robert with Glasgow-2656 or Glasgow-3941 remains qualified. Counsel’s reference to Robert’s sons supports a qualified brother inference for co-plaintiff William. The uncle’s paternal or maternal side and all mothers are unstated. No parents are established for John Glasgow-2058.\n\nIdentify the mill’s Robert through title, probate or lease records and compare the candidates before any profile relationship attachment. Review the competing father named by Benjamin-2566’s 1876 marriage original; do not reparent that profile from this mill report alone.\n\n[[Glasgow-1737|Glasgow-1737]]: William-1737 is an adult-period Killycurragh namesake whose reported father David competes with the qualified mill-brother inference. No direct record identifies the partner with this profile; retain the comparison and verify its parent source.\n\n== Sources ==\n<references />\n",
+          "prior_identity_review": {
+            "status": "HOLD — identity or record assignment remains unresolved",
+            "identity_note": "The two partners shared an uncle, but the report does not expressly say that they were brothers. William Glasgow of Killycurragh (Glasgow-1737) is chronologically compatible; its David father attachment is a comparison to test, not a reason to assign the newspaper’s ambiguous Robert clause.",
+            "candidates": [
+              {
+                "id": "Glasgow-1737",
+                "reason": "William born about 1824 at Killycurragh is adult by 1858. His captured father is David; this would conflict only if the report’s unspecified Robert father refers to William. It must not be used to exclude him before that ambiguity is resolved."
+              }
+            ],
+            "next_test": "Find a marriage, death or mill deed naming this William’s father and his relationship to Benjamin."
+          }
         },
         {
           "anchor": "benjamin-drapersfield",
           "name": "Benjamin Glasgow, Drapersfield merchant",
           "status": "HOLD — identity or record assignment remains unresolved",
-          "identity_note": "He is strongly distinguished from Benjamin Glasgow, son of John (Glasgow-2059), whose recorded death was 8 February 1870. The July report describes a current action, not a repeated advertisement. Benjamin Glasgow, son of George (Glasgow-2566) remains a compatible candidate with no documented mill bridge. The 1858 father clause is ambiguous between the plaintiffs.",
-          "minimum_fields": "Benjamin Glasgow; adult mill partner in 1858; living in July 1870. Exact birth/death dates unknown. Cookstown/Drapersfield is an uncertain birth-location suggestion from documented business/residence. Uncle William named; father clause unresolved.",
+          "identity_note": "The named witness Benjamin Glasgow identifies the late Robert Glasgow as his father, says he managed his father’s mill from 1850, and dates Robert’s death to 1856. Wm. Glasgow senior was Benjamin’s uncle. Certain documentary father–son relationship; identification of Robert with Glasgow-2656 or Glasgow-3941 remains qualified. Counsel’s reference to Robert’s sons supports a qualified brother inference for co-plaintiff William. The uncle’s paternal or maternal side and all mothers are unstated. No parents are established for John Glasgow-2058. The 1864 marriage names wife Wilhelmina Pike; the 1891 daughter’s notice explicitly bridges Hull and Drapersfield. These strengthen the consolidated family account while existing-profile identity remains HOLD.",
+          "minimum_fields": "Benjamin Glasgow; mill partner and named witness in 1858; managed his father’s mill from 1850; living in July 1870. Birth and death dates unknown. Cookstown/Drapersfield is documented business/residence context, not a proved birthplace. Father Robert explicitly named and deceased in 1856; mother unknown. Wm. Glasgow senior was his uncle; existing-profile identities remain unresolved. Married Wilhelmina Pike on 16 February 1864 at Dungannon. Father of Margaret George; described as of Hull in 1891. Margaret’s mother is not named.",
           "facts": [
             {
               "finding_id": "benjamin-mill-1858",
@@ -7148,33 +7196,98 @@
                   "url": "https://www.newspapers.com/image/387881589/"
                 }
               ]
+            },
+            {
+              "finding_id": "benjamin-robert-mill-testimony-1858",
+              "finding": "The named witness Benjamin Glasgow identifies the late Robert Glasgow as his father, says he managed his father’s mill from 1850, and dates Robert’s death to 1856. Wm. Glasgow senior was Benjamin’s uncle.",
+              "qualification": "Certain documentary father–son relationship; identification of Robert with Glasgow-2656 or Glasgow-3941 remains qualified. Counsel’s reference to Robert’s sons supports a qualified brother inference for co-plaintiff William. The uncle’s paternal or maternal side and all mothers are unstated. No parents are established for John Glasgow-2058.",
+              "sources": [
+                {
+                  "title": "Belfast News-Letter, 22 July 1858, p.3, Benjamin’s sworn testimony",
+                  "url": "https://www.newspapers.com/image/390574459/"
+                }
+              ]
+            },
+            {
+              "finding_id": "benjamin-drapersfield-pike-marriage-1864",
+              "finding": "Benjamin Glasgow of Drapersfield, Cookstown, married Wilhelmina, eldest daughter of Richard Pike, Esq., of Beechgrove, Dungannon, at Dungannon on 16 February 1864.",
+              "qualification": "The original notice gives his wife and her father but no groom age or father. It belongs to the consolidated Drapersfield account; do not assign Wilhelmina as mother of every later child without further evidence.",
+              "sources": [
+                {
+                  "title": "Belfast News-Letter, 18 February 1864, p.2",
+                  "url": "https://www.newspapers.com/image/387828785/"
+                }
+              ]
+            },
+            {
+              "finding_id": "drapersfield-benjamin-hull-daughter-1891",
+              "finding": "Margaret George Glasgow, eldest daughter of Benjamin Glasgow of Hull, formerly Drapersfield, Cookstown, married W. Brooke Broadbent, formerly Manchester, in New York on 5 October 1891.",
+              "qualification": "This directly bridges the father’s Hull and Drapersfield locations. The bride’s mother and age are unstated; W. is not expanded. Do not automatically identify every Hull namesake or preacher.",
+              "sources": [
+                {
+                  "title": "Belfast News-Letter, 16 October 1891, p.1",
+                  "url": "https://www.newspapers.com/image/388748472/"
+                }
+              ]
             }
           ],
           "candidates": [
             {
               "id": "Glasgow-2566",
-              "reason": "Benjamin, son of farmer George, married Adelaide Smyth in 1876 and was living at Killycurragh. He is chronologically compatible with the Drapersfield man; no trade or mill bridge was found. The ambiguous 1858 father clause does not yet exclude him."
+              "reason": "Benjamin-2566’s reported 1876 marriage at Killycurragh names farmer George as father, a competing family to verify in the original. No mill bridge is proved. Retain HOLD pending that concrete source check; do not substitute Robert into the profile."
+            },
+            {
+              "id": "Glasgow-3412",
+              "reason": "Lower-ranked historical namesake. Live biography checked 4 October 2026: born 1805 in Scotland, surgery graduate in 1826, no death or family recorded. Different trade and chronology weaken the comparison but do not establish a documented exclusion."
             }
           ],
           "duplicate_check": [
             "Benjamin-2059 is confirmed as John’s son by the original 1856 marriage register; his recorded death in February 1870 conflicts with the Drapersfield man’s contemporary July action.",
             "Benjamin-3150 was born in Ohio in 1841 to William-1675 and Nancy; that life course gives no Cookstown mill bridge.",
-            "The Robert clause might refer to Benjamin or William. It is not a proof of Benjamin’s father.",
-            "No mother, wife or children can be assigned from these business notices."
+            "Benjamin’s named 1858 testimony establishes Robert as father. The 1864 and 1891 original notices add wife Wilhelmina and daughter Margaret George; mothers remain unstated.",
+            "Benjamin-2566’s reported George father is a competing assessment whose original 1876 marriage must be checked; retain it as a candidate while that comparison is unverified."
           ],
-          "next_test": "Inspect Drapersfield deeds and Benjamin’s own civil marriage/death or probate to distinguish him from Benjamin-2566.",
-          "wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nBenjamin Glasgow was a Cookstown mill partner of William Glasgow. Their 1858 action concerned interference with the River Ardtrea water supply. Benjamin had sought weir levels from John Sloan in 1856.<ref>[https://www.newspapers.com/image/390574459/ Belfast News-Letter, 22 July 1858, p.3].</ref><ref>[https://www.newspapers.com/image/390575046/ Belfast News-Letter, 23 July 1858, p.4].</ref> He appears as Benjamin Glasgow, Esq., of Drapersfield in a December 1869 property advertisement and in a July 1870 account of land made available for the Cookstown celebration.<ref>[https://www.newspapers.com/image/388287498/ Belfast News-Letter, 22 December 1869, p.2].</ref><ref>[https://www.newspapers.com/image/387881589/ Belfast News-Letter, 15 July 1870, p.4].</ref>\n\n== Research Notes ==\nHe is strongly distinguished from [[Glasgow-2059|Benjamin Glasgow, son of John]], whose recorded death was 8 February 1870. The July report describes a current action, not a repeated advertisement. [[Glasgow-2566|Benjamin Glasgow, son of George]] remains a compatible candidate with no documented mill bridge. The 1858 father clause is ambiguous between the plaintiffs.\n\n== Sources ==\n<references />"
+          "next_test": "Inspect the 16 February 1864 civil marriage and Drapersfield mill/deed records for groom age, occupation and father’s identity; compare Hull censuses. Do not assign Margaret’s mother from the marriage sequence alone.",
+          "wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nBenjamin Glasgow was a Cookstown mill partner of William Glasgow. Their 1858 action concerned interference with the River Ardtrea water supply. Benjamin had sought weir levels from John Sloan in 1856.<ref>[https://www.newspapers.com/image/390574459/ Belfast News-Letter, 22 July 1858, p.3].</ref><ref>[https://www.newspapers.com/image/390575046/ Belfast News-Letter, 23 July 1858, p.4].</ref> He appears as Benjamin Glasgow, Esq., of Drapersfield in a December 1869 property advertisement and in a July 1870 account of land made available for the Cookstown celebration.<ref>[https://www.newspapers.com/image/388287498/ Belfast News-Letter, 22 December 1869, p.2].</ref><ref>[https://www.newspapers.com/image/387881589/ Belfast News-Letter, 15 July 1870, p.4].</ref>\n\nBenjamin Glasgow of Drapersfield, Cookstown, married Wilhelmina, eldest daughter of Richard Pike, Esq., of Beechgrove, Dungannon, at Dungannon on 16 February 1864.<ref>[https://www.newspapers.com/image/387828785/ Belfast News-Letter, 18 February 1864, p.2].</ref>\n\nMargaret George Glasgow, eldest daughter of Benjamin Glasgow of Hull, formerly Drapersfield, Cookstown, married W. Brooke Broadbent, formerly Manchester, in New York on 5 October 1891.<ref>[https://www.newspapers.com/image/388748472/ Belfast News-Letter, 16 October 1891, p.1].</ref>\n\nIn his named testimony, Benjamin said Robert was his father, that he managed his father’s mill from 1850 and that Robert died in 1856. William Glasgow senior was his uncle.<ref>[https://www.newspapers.com/image/390574459/ Belfast News-Letter, 22 July 1858, p.3], Benjamin’s evidence.</ref>\n\n== Research Notes ==\nThe named witness Benjamin Glasgow identifies the late Robert Glasgow as his father, says he managed his father’s mill from 1850, and dates Robert’s death to 1856. Wm. Glasgow senior was Benjamin’s uncle. Certain documentary father–son relationship; identification of Robert with Glasgow-2656 or Glasgow-3941 remains qualified. Counsel’s reference to Robert’s sons supports a qualified brother inference for co-plaintiff William. The uncle’s paternal or maternal side and all mothers are unstated. No parents are established for John Glasgow-2058. The 1864 marriage names wife Wilhelmina Pike; the 1891 daughter’s notice explicitly bridges Hull and Drapersfield. These strengthen the consolidated family account while existing-profile identity remains HOLD.\n\nInspect the 16 February 1864 civil marriage and Drapersfield mill/deed records for groom age, occupation and father’s identity; compare Hull censuses. Do not assign Margaret’s mother from the marriage sequence alone.\n\n[[Glasgow-2566|Glasgow-2566]]: Benjamin-2566’s reported 1876 marriage at Killycurragh names farmer George as father, a competing family to verify in the original. No mill bridge is proved. Retain HOLD pending that concrete source check; do not substitute Robert into the profile. [[Glasgow-3412|Glasgow-3412]]: Lower-ranked historical namesake. Live biography checked 4 October 2026: born 1805 in Scotland, surgery graduate in 1826, no death or family recorded. Different trade and chronology weaken the comparison but do not establish a documented exclusion.\n\n== Sources ==\n<references />\n",
+          "prior_identity_review": {
+            "status": "HOLD — identity or record assignment remains unresolved",
+            "identity_note": "He is strongly distinguished from Benjamin Glasgow, son of John (Glasgow-2059), whose recorded death was 8 February 1870. The July report describes a current action, not a repeated advertisement. Benjamin Glasgow, son of George (Glasgow-2566) remains a compatible candidate with no documented mill bridge. The 1858 father clause is ambiguous between the plaintiffs.",
+            "candidates": [
+              {
+                "id": "Glasgow-2566",
+                "reason": "Benjamin, son of farmer George, married Adelaide Smyth in 1876 and was living at Killycurragh. He is chronologically compatible with the Drapersfield man; no trade or mill bridge was found. The ambiguous 1858 father clause does not yet exclude him."
+              }
+            ],
+            "next_test": "Inspect Drapersfield deeds and Benjamin’s own civil marriage/death or probate to distinguish him from Benjamin-2566."
+          },
+          "related_drafts": [
+            {
+              "relationship": "Father named in testimony",
+              "name": "Robert Glasgow, Glasgow and Woods mill partner",
+              "url": "/research/subjects/william-glasgow-irish-newspapers/#robert-mill"
+            },
+            {
+              "relationship": "Wife",
+              "name": "Wilhelmina Pike",
+              "url": "/research/subjects/newspapers-pre1900-20261004/#wilhelmina-pike"
+            },
+            {
+              "relationship": "Daughter",
+              "name": "Margaret George Glasgow, daughter of Drapersfield Benjamin",
+              "url": "/research/subjects/newspapers-pre1900-20261004/#margaret-george"
+            }
+          ]
         },
         {
           "anchor": "robert-mill",
           "name": "Robert Glasgow, Glasgow and Woods mill partner",
           "status": "HOLD — identity or record assignment remains unresolved",
-          "identity_note": "Do not attach Robert to either plaintiff until the singular father reference is resolved. Robert Glasgow of Coltrim (Glasgow-3941) is an adult-period candidate, with no evidence yet joining his land records to this firm.",
-          "minimum_fields": "Robert Glasgow; adult mill partner in 1842; exact birth/death dates unknown. Cookstown district is an uncertain birth-location suggestion from his business. Father of one of the two 1858 plaintiffs, unspecified. James Woods was his business partner.",
+          "identity_note": "The named witness Benjamin Glasgow identifies the late Robert Glasgow as his father, says he managed his father’s mill from 1850, and dates Robert’s death to 1856. Wm. Glasgow senior was Benjamin’s uncle. Certain documentary father–son relationship; identification of Robert with Glasgow-2656 or Glasgow-3941 remains qualified. Counsel’s reference to Robert’s sons supports a qualified brother inference for co-plaintiff William. The uncle’s paternal or maternal side and all mothers are unstated. No parents are established for John Glasgow-2058.",
+          "minimum_fields": "Robert Glasgow; adult Glasgow and Woods mill partner in 1842, father of Benjamin by explicit named testimony; died in 1856, exact day unstated in the newspaper. Birthplace and wife unknown. Cookstown district is business context, not a proved birthplace. A father link to co-plaintiff William remains qualified; profile identification with Robert-2656 or Robert-3941 unproved.",
           "facts": [
             {
               "finding_id": "robert-mill-1842",
-              "finding": "The 1858 report recalls an 1842 action by Robert Glasgow and James Woods trading as Glasgow and Woods; Robert is described as father of the present plaintiff, singular.",
+              "finding": "The 1858 report recalls an 1842 action by Robert Glasgow and James Woods trading as Glasgow and Woods; Benjamin’s named testimony explicitly identifies Robert as his father and dates his death to 1856.",
               "qualification": "",
               "sources": [
                 {
@@ -7193,22 +7306,56 @@
                   "url": "https://www.newspapers.com/image/387805714/"
                 }
               ]
+            },
+            {
+              "finding_id": "benjamin-robert-mill-testimony-1858",
+              "finding": "The named witness Benjamin Glasgow identifies the late Robert Glasgow as his father, says he managed his father’s mill from 1850, and dates Robert’s death to 1856. Wm. Glasgow senior was Benjamin’s uncle.",
+              "qualification": "Certain documentary father–son relationship; identification of Robert with Glasgow-2656 or Glasgow-3941 remains qualified. Counsel’s reference to Robert’s sons supports a qualified brother inference for co-plaintiff William. The uncle’s paternal or maternal side and all mothers are unstated. No parents are established for John Glasgow-2058.",
+              "sources": [
+                {
+                  "title": "Belfast News-Letter, 22 July 1858, p.3, Benjamin’s sworn testimony",
+                  "url": "https://www.newspapers.com/image/390574459/"
+                }
+              ]
             }
           ],
           "candidates": [
             {
               "id": "Glasgow-3941",
               "reason": "Robert of Coltrim appears in a Drapers’ Company lease in 1820, tithe in 1827 and census in 1831. The adult period fits, but Coltrim is distinct from Cookstown/Drapersfield and no mill partnership or father bridge is documented."
+            },
+            {
+              "id": "Glasgow-2656",
+              "reason": "Live profile checked 4 October 2026: death 20 August 1856 at Tullyveagh, Cookstown, fits the testimony’s 1856 father death and district. Its family-tree and wills-index lead require original/source review; mill identity and Margaret George’s motherhood remain unproved."
             }
           ],
           "duplicate_check": [
             "Robert-550’s recorded eighteenth-century death cannot fit an active 1842 plaintiff; later associated-estate record spans do not extend the man’s life.",
             "Robert-587 was born in 1830 and cannot be the adult 1842 partner.",
             "Robert-1171’s captured biography places him in a long American mercantile/agricultural life, without an 1842 Cookstown bridge.",
-            "The firm and house records can be compared within one family study without assuming that all Roberts are one person."
+            "The firm and house records can be compared within one family study without assuming that all Roberts are one person.",
+            "Robert-2656’s maintained Tullyveigh probate/death occurrence is already identified. His death year matches the newspaper father, but no inspected record joins him to this mill."
           ],
-          "next_test": "Find the 1842 court papers and Glasgow and Woods deeds; establish which 1858 plaintiff was Robert’s son.",
-          "wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nRobert Glasgow and James Woods traded as Glasgow and Woods and brought an earlier mill-water action in 1842. A July 1858 report recalls that action and calls Robert the father of the present plaintiff, without specifying Benjamin or William.<ref>[https://www.newspapers.com/image/390574459/ Belfast News-Letter, 22 July 1858, p.3].</ref> A January 1864 advertisement by Benjamin and William Glasgow concerns premises formerly the residence of the late Robert Glasgow; identification with the earlier partner remains to be demonstrated.<ref>[https://www.newspapers.com/image/387805714/ Belfast News-Letter, 19 January 1864, p.2].</ref>\n\n== Research Notes ==\nDo not attach Robert to either plaintiff until the singular father reference is resolved. [[Glasgow-3941|Robert Glasgow of Coltrim]] is an adult-period candidate, with no evidence yet joining his land records to this firm.\n\n== Sources ==\n<references />"
+          "next_test": "Compare the 1864 civil marriage, 1842 court papers and mill deeds with Robert-2656 of Tullyveagh. The PRONI pre-1858 index says its original documents do not survive; do not assume a will can supply missing family details.",
+          "wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nRobert Glasgow and James Woods traded as Glasgow and Woods and brought an earlier mill-water action in 1842. A July 1858 report recalls that action and explicitly identifies Robert as Benjamin’s father in Benjamin’s named testimony.<ref>[https://www.newspapers.com/image/390574459/ Belfast News-Letter, 22 July 1858, p.3].</ref> A January 1864 advertisement by Benjamin and William Glasgow concerns premises formerly the residence of the late Robert Glasgow; identification with the earlier partner remains to be demonstrated.<ref>[https://www.newspapers.com/image/387805714/ Belfast News-Letter, 19 January 1864, p.2].</ref>\n\nIn his named testimony, Benjamin said Robert was his father, that he managed his father’s mill from 1850 and that Robert died in 1856. William Glasgow senior was his uncle.<ref>[https://www.newspapers.com/image/390574459/ Belfast News-Letter, 22 July 1858, p.3], Benjamin’s evidence.</ref>\n\n== Research Notes ==\nThe named witness Benjamin Glasgow identifies the late Robert Glasgow as his father, says he managed his father’s mill from 1850, and dates Robert’s death to 1856. Wm. Glasgow senior was Benjamin’s uncle. Certain documentary father–son relationship; identification of Robert with Glasgow-2656 or Glasgow-3941 remains qualified. Counsel’s reference to Robert’s sons supports a qualified brother inference for co-plaintiff William. The uncle’s paternal or maternal side and all mothers are unstated. No parents are established for John Glasgow-2058.\n\nCompare the 1864 civil marriage, 1842 court papers and mill deeds with Robert-2656 of Tullyveagh. The PRONI pre-1858 index says its original documents do not survive; do not assume a will can supply missing family details.\n\n[[Glasgow-3941|Glasgow-3941]]: Robert of Coltrim appears in a Drapers’ Company lease in 1820, tithe in 1827 and census in 1831. The adult period fits, but Coltrim is distinct from Cookstown/Drapersfield and no mill partnership or father bridge is documented. [[Glasgow-2656|Glasgow-2656]]: Live profile checked 4 October 2026: death 20 August 1856 at Tullyveagh, Cookstown, fits the testimony’s 1856 father death and district. Its family-tree and wills-index lead require original/source review; mill identity and Margaret George’s motherhood remain unproved.\n\n== Sources ==\n<references />\n",
+          "prior_identity_review": {
+            "status": "HOLD — identity or record assignment remains unresolved",
+            "identity_note": "Do not attach Robert to either plaintiff until the singular father reference is resolved. Robert Glasgow of Coltrim (Glasgow-3941) is an adult-period candidate, with no evidence yet joining his land records to this firm.",
+            "candidates": [
+              {
+                "id": "Glasgow-3941",
+                "reason": "Robert of Coltrim appears in a Drapers’ Company lease in 1820, tithe in 1827 and census in 1831. The adult period fits, but Coltrim is distinct from Cookstown/Drapersfield and no mill partnership or father bridge is documented."
+              }
+            ],
+            "next_test": "Find the 1842 court papers and Glasgow and Woods deeds; establish which 1858 plaintiff was Robert’s son."
+          },
+          "related_drafts": [
+            {
+              "relationship": "Son",
+              "name": "Benjamin Glasgow, Drapersfield merchant",
+              "url": "/research/subjects/william-glasgow-irish-newspapers/#benjamin-drapersfield"
+            }
+          ]
         },
         {
           "anchor": "william-alexander-parsonstown",
@@ -7265,6 +7412,167 @@
           ],
           "next_test": "Inspect the civil marriage entry for ages, occupation, exact address and witnesses before profile creation.",
           "wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nEmma Glasgow, daughter of the late William Alexander Glasgow, married William Treacy at St Thomas’s Church, Belfast, on 4 September 1875. William was the second son of Robert Treacy. Both bride and groom were described as of Parsonstown.<ref>[https://www.newspapers.com/image/1265675182/ Belfast Evening Telegraph, 4 September 1875, p.2].</ref>\n\n== Research Notes ==\nThe newspaper establishes the marriage and named father but supplies no ages or mother. This draft shares its source with her father’s evidence draft and does not imply any link to the Cookstown families.\n\n== Sources ==\n<references />"
+        }
+      ]
+    },
+    {
+      "slug": "newspapers-pre1900-20261004",
+      "title": "Further pre-1900 newspaper records",
+      "introduction": "Verified surname passages, family links and checked profile comparisons. The search is incomplete; captured thumbnails are distinguished from fully read original passages.",
+      "people": [
+        {
+          "anchor": "wilhelmina-pike",
+          "name": "Wilhelmina Pike",
+          "status": "HOLD — associate identity unresolved",
+          "identity_note": "Recorded relative in the consolidated Drapersfield family account; no live profile proposed. See the source-backed draft and stated duplicate-search limits.",
+          "minimum_fields": "Wilhelmina Pike; dates and birthplace unknown; wife of Drapersfield Benjamin from 16 February 1864; father Richard Pike; mother unknown.",
+          "facts": [
+            {
+              "finding_id": "benjamin-drapersfield-pike-marriage-1864",
+              "finding": "Benjamin Glasgow of Drapersfield, Cookstown, married Wilhelmina, eldest daughter of Richard Pike, Esq., of Beechgrove, Dungannon, at Dungannon on 16 February 1864.",
+              "qualification": "The original notice gives his wife and her father but no groom age or father. It belongs to the consolidated Drapersfield account; do not assign Wilhelmina as mother of every later child without further evidence.",
+              "sources": [
+                {
+                  "title": "Belfast News-Letter, 18 February 1864, p.2",
+                  "url": "https://www.newspapers.com/image/387828785/"
+                }
+              ]
+            }
+          ],
+          "candidates": [],
+          "duplicate_check": [
+            "Wilhelmina Pike: bounded local QMD exact-name query returned no match. Richard Pike and Broadbent namesakes remain unsearched; no exhaustive duplicate audit is claimed."
+          ],
+          "next_test": "Inspect civil marriage and census originals before creating a profile.",
+          "draft_sources": [
+            "research/newspapers-pre1900-associates-2026-10-04.md"
+          ],
+          "wikitext": "== Biography ==\nWilhelmina Pike, eldest daughter of Richard Pike, Esq., of Beechgrove, Dungannon, married Benjamin Glasgow of Drapersfield, Cookstown, at Dungannon on 16 February 1864.<ref>[https://www.newspapers.com/image/387828785/ Belfast News-Letter, 18 February 1864, p.2], marriage notice; original passage inspected 4 October 2026.</ref>\n\n== Research Notes ==\nBirth, death and mother's identity are unknown. The 1891 notice naming Benjamin's daughter Margaret George does not identify her mother. Compare the original civil marriage and census before creating a profile or assigning children. A bounded search of locally indexed public profiles returned no Wilhelmina Pike match; external duplicate checking remains incomplete.\n\n== Sources ==\n<references />\n",
+          "related_drafts": [
+            {
+              "relationship": "Husband",
+              "name": "Benjamin Glasgow, Drapersfield merchant",
+              "url": "/research/subjects/william-glasgow-irish-newspapers/#benjamin-drapersfield"
+            },
+            {
+              "relationship": "Father",
+              "name": "Richard Pike of Beechgrove",
+              "url": "/research/subjects/newspapers-pre1900-20261004/#richard-pike"
+            }
+          ]
+        },
+        {
+          "anchor": "richard-pike",
+          "name": "Richard Pike of Beechgrove",
+          "status": "HOLD — associate identity unresolved",
+          "identity_note": "Recorded relative in the consolidated Drapersfield family account; no live profile proposed. See the source-backed draft and stated duplicate-search limits.",
+          "minimum_fields": "Richard Pike; dates and birthplace unknown; of Beechgrove, Dungannon, in 1864; father of Wilhelmina; wife unknown.",
+          "facts": [
+            {
+              "finding_id": "benjamin-drapersfield-pike-marriage-1864",
+              "finding": "Benjamin Glasgow of Drapersfield, Cookstown, married Wilhelmina, eldest daughter of Richard Pike, Esq., of Beechgrove, Dungannon, at Dungannon on 16 February 1864.",
+              "qualification": "The original notice gives his wife and her father but no groom age or father. It belongs to the consolidated Drapersfield account; do not assign Wilhelmina as mother of every later child without further evidence.",
+              "sources": [
+                {
+                  "title": "Belfast News-Letter, 18 February 1864, p.2",
+                  "url": "https://www.newspapers.com/image/387828785/"
+                }
+              ]
+            }
+          ],
+          "candidates": [],
+          "duplicate_check": [
+            "Wilhelmina Pike: bounded local QMD exact-name query returned no match. Richard Pike and Broadbent namesakes remain unsearched; no exhaustive duplicate audit is claimed."
+          ],
+          "next_test": "Inspect civil marriage and census originals before creating a profile.",
+          "draft_sources": [
+            "research/newspapers-pre1900-associates-2026-10-04.md"
+          ],
+          "wikitext": "== Biography ==\nRichard Pike, Esq., of Beechgrove, Dungannon, was named as father of Wilhelmina in her 16 February 1864 marriage to Benjamin Glasgow of Drapersfield.<ref>[https://www.newspapers.com/image/387828785/ Belfast News-Letter, 18 February 1864, p.2].</ref>\n\n== Research Notes ==\nHis dates, birthplace and wife are unstated. Keep this record account on HOLD until Richard Pike namesakes and the original civil marriage are compared.\n\n== Sources ==\n<references />\n",
+          "related_drafts": [
+            {
+              "relationship": "Daughter",
+              "name": "Wilhelmina Pike",
+              "url": "/research/subjects/newspapers-pre1900-20261004/#wilhelmina-pike"
+            }
+          ]
+        },
+        {
+          "anchor": "brooke-broadbent",
+          "name": "W. Brooke Broadbent",
+          "status": "HOLD — associate identity unresolved",
+          "identity_note": "Recorded relative in the consolidated Drapersfield family account; no live profile proposed. See the source-backed draft and stated duplicate-search limits.",
+          "minimum_fields": "Forename W. only; Brooke Broadbent; dates, birthplace and parents unknown; formerly Manchester; married Margaret George at New York on 5 October 1891.",
+          "facts": [
+            {
+              "finding_id": "drapersfield-benjamin-hull-daughter-1891",
+              "finding": "Margaret George Glasgow, eldest daughter of Benjamin Glasgow of Hull, formerly Drapersfield, Cookstown, married W. Brooke Broadbent, formerly Manchester, in New York on 5 October 1891.",
+              "qualification": "This directly bridges the father’s Hull and Drapersfield locations. The bride’s mother and age are unstated; W. is not expanded. Do not automatically identify every Hull namesake or preacher.",
+              "sources": [
+                {
+                  "title": "Belfast News-Letter, 16 October 1891, p.1",
+                  "url": "https://www.newspapers.com/image/388748472/"
+                }
+              ]
+            }
+          ],
+          "candidates": [],
+          "duplicate_check": [
+            "Wilhelmina Pike: bounded local QMD exact-name query returned no match. Richard Pike and Broadbent namesakes remain unsearched; no exhaustive duplicate audit is claimed."
+          ],
+          "next_test": "Inspect civil marriage and census originals before creating a profile.",
+          "draft_sources": [
+            "research/newspapers-pre1900-associates-2026-10-04.md"
+          ],
+          "wikitext": "== Biography ==\nW. Brooke Broadbent, formerly of Manchester, married Margaret George Glasgow at the residence of George Herbert Marks, 305 West Eighty-second Street, New York, on 5 October 1891. Margaret was eldest daughter of Benjamin Glasgow of Hull, formerly of Drapersfield, Cookstown.<ref>[https://www.newspapers.com/image/388748472/ Belfast News-Letter, 16 October 1891, p.1], Broadbent–Glasgow marriage notice; original inspected 4 October 2026.</ref>\n\n== Research Notes ==\nThe forename represented by W., birth, death and parents are unknown. No existing Broadbent profile has been identified or rejected. Compare the New York marriage and English censuses before creating a profile.\n\n== Sources ==\n<references />\n",
+          "related_drafts": [
+            {
+              "relationship": "Wife",
+              "name": "Margaret George Glasgow, daughter of Drapersfield Benjamin",
+              "url": "/research/subjects/newspapers-pre1900-20261004/#margaret-george"
+            }
+          ]
+        },
+        {
+          "anchor": "margaret-george",
+          "name": "Margaret George Glasgow, daughter of Drapersfield Benjamin",
+          "status": "HOLD — existing-profile identity unresolved",
+          "identity_note": "The original names Benjamin of Hull, formerly Drapersfield, as her father. This supports a connected draft with the existing Drapersfield Benjamin and Robert family account. Her mother is unstated.",
+          "minimum_fields": "Margaret George Glasgow; birth, birthplace and death unknown; eldest daughter of Benjamin of Hull, formerly Drapersfield; married W. Brooke Broadbent at New York on 5 October 1891; mother unknown.",
+          "facts": [
+            {
+              "finding_id": "drapersfield-benjamin-hull-daughter-1891",
+              "finding": "Margaret George Glasgow, eldest daughter of Benjamin Glasgow of Hull, formerly Drapersfield, Cookstown, married W. Brooke Broadbent, formerly Manchester, in New York on 5 October 1891.",
+              "qualification": "This directly bridges the father’s Hull and Drapersfield locations. The bride’s mother and age are unstated; W. is not expanded. Do not automatically identify every Hull namesake or preacher.",
+              "sources": [
+                {
+                  "title": "Belfast News-Letter, 16 October 1891, p.1",
+                  "url": "https://www.newspapers.com/image/388748472/"
+                }
+              ]
+            }
+          ],
+          "candidates": [],
+          "duplicate_check": [
+            "Bounded QMD exact-name search Margaret George Glasgow returned no public-profile match. This does not exhaust external profiles, spelling variants or Broadbent married-name searches."
+          ],
+          "next_test": "Inspect the New York marriage and Hull censuses for age, mother and an existing-profile match. Preserve the documented father in the connected family draft; do not invent a mother.",
+          "draft_sources": [
+            "surname-research/new-people/1891_United_States_New_York_Margaret_George_Glasgow.md"
+          ],
+          "wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nMargaret George Glasgow, eldest daughter of Benjamin Glasgow of Hull, formerly Drapersfield, Cookstown, married W. Brooke Broadbent, formerly Manchester, in New York on 5 October 1891.<ref>[https://www.newspapers.com/image/388748472/ Belfast News-Letter, 16 October 1891, p.1], original marriage notice inspected 4 October 2026.</ref>\n\n== Research Notes ==\nBirth, birthplace, death and mother are unknown. Her father’s identity belongs to the consolidated Drapersfield family draft, whose Robert father is known from the 1858 mill testimony. Existing-profile identification remains on HOLD. Wilhelmina Pike was Benjamin’s wife from 1864, but this notice does not establish her as Margaret’s mother. W. Brooke Broadbent’s forename is not expanded. The bounded local exact-name search returned no matching profile; external duplicate checking remains incomplete.\n\n== Sources ==\n<references />\n",
+          "related_drafts": [
+            {
+              "relationship": "Father",
+              "name": "Benjamin Glasgow, Drapersfield merchant",
+              "url": "/research/subjects/william-glasgow-irish-newspapers/#benjamin-drapersfield"
+            },
+            {
+              "relationship": "Husband",
+              "name": "W. Brooke Broadbent",
+              "url": "/research/subjects/newspapers-pre1900-20261004/#brooke-broadbent"
+            }
+          ]
         }
       ]
     }

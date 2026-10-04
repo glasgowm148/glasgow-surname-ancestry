@@ -16,16 +16,17 @@
     },
     "Glasgow-2058": {
       "current_sha256": "b90361ce337f6d6a75ada5afde858db666606b2c5eb7362c16fcedd324a07fda",
-      "proposed_sha256": "c33cd61ff1598b41d91c5f5be2c75a3614ed0707185179b36e22298dc494081b",
+      "proposed_sha256": "cedda0f5632803816187f93ca6059c0650938b7635f4322f596b2312a0591d7b",
       "all_substantive_passages_accounted_for": true,
       "additive_equality_verified": true,
-      "method": "Removing only the exact saved addition reproduces the complete captured biography byte for byte.",
+      "method": "The revised exact saved addition was removed from the complete source draft, reproducing the entire captured biography byte for byte. Only the mill-case assessment within that addition changed; every existing historical statement and citation remains intact.",
       "current_chars": 2536,
-      "proposed_chars": 3634,
+      "proposed_chars": 3943,
       "addition_path": "research/william-newspaper-profile-drafts-2026-10-04/Glasgow-2058.addition.wiki",
-      "saved_complete_proposed_sha256": "e87ce8708fe0acace29722b6e6aa2bc4e700fad9e99cde2e580b0ae04f8fe2e6",
-      "effective_proposed_chars": 3634,
-      "site_normalization": "Existing catalogue formatter adds study category/estimated-date templates, removes redundant study template and adjusts only adjacent blank lines. Every historical statement, relative, link and source remains intact. Saved source draft retains original text and one exact addition."
+      "saved_complete_proposed_sha256": "bef65dfba660115400ca4feb8ffa9993bbcd6bbcce52ec206983e364450a3216",
+      "effective_proposed_chars": 3943,
+      "site_normalization": "Existing catalogue formatter adds study category/estimated-date templates, removes redundant study template and adjusts only adjacent blank lines. Every historical statement, relative, link and source remains intact. Saved source draft retains original text and one exact addition.",
+      "reviewed_on": "2026-10-04"
     },
     "Glasgow-2059": {
       "current_sha256": "ecf4f7325213e7535aa1be6a13614374f9240f3518322acfff71d11d8626d02b",
@@ -42,16 +43,17 @@
     },
     "Glasgow-3814": {
       "current_sha256": "3fb55ff106713fc256befdde90aa5d330a930d4f51ed921f481cd09a33019dcf",
-      "proposed_sha256": "ac751f5bf52f1077e34d833278d02a3691f1998eac1432f5d1ee17f1010489c9",
+      "proposed_sha256": "c579f7423775cc8969288177e6472b187e3bbb53c6889e5b7d12ce3d3a8d7c88",
       "all_substantive_passages_accounted_for": true,
       "additive_equality_verified": true,
-      "method": "Removing only the exact saved addition reproduces the complete captured biography byte for byte.",
+      "method": "The revised exact saved addition was removed from the complete source draft, reproducing the entire captured biography byte for byte. Only the mill-case assessment within that addition changed; every existing historical statement and citation remains intact.",
       "current_chars": 654,
-      "proposed_chars": 1809,
+      "proposed_chars": 1937,
       "addition_path": "research/william-newspaper-profile-drafts-2026-10-04/Glasgow-3814.addition.wiki",
-      "saved_complete_proposed_sha256": "a7c3e406a96a0edd5cc860ccb4e9e60b2a523463a3c9278af78db64bfbbbc196",
-      "effective_proposed_chars": 1859,
-      "site_normalization": "Existing catalogue formatter adds study category/estimated-date templates, removes redundant study template and adjusts only adjacent blank lines. Every historical statement, relative, link and source remains intact. Saved source draft retains original text and one exact addition."
+      "saved_complete_proposed_sha256": "d03e2bce36fafd798f740c4054f0c22f7e2d558183a44f64e7cc19889d2d91ac",
+      "effective_proposed_chars": 1987,
+      "site_normalization": "Existing catalogue formatter adds study category/estimated-date templates, removes redundant study template and adjusts only adjacent blank lines. Every historical statement, relative, link and source remains intact. Saved source draft retains original text and one exact addition.",
+      "reviewed_on": "2026-10-04"
     },
     "Glasgow-2915": {
       "current_sha256": "5fb31af5eecdee38f1d0cbfc6c73abc074b415b37120977d7dfdd4c8da3736c0",

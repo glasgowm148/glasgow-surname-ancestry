@@ -48,7 +48,7 @@ def render(data: dict) -> str:
     places = groups["place study"]
     exclusions = groups["place or ship"]
     pending = groups["reading pending"]
-    counts = f'{len(data["rows"])} pages in the reviewed catalogue · {len(records)} surname records retained · {len(places)} place-study records · {len(exclusions)} place/vessel hits excluded · {len(pending)} readings pending.'
+    counts = f'{len(data["rows"])} catalogued pages · {len(records)} surname records retained · {len(places)} place-study records · {len(exclusions)} place/vessel hits excluded · {len(pending)} readings pending.'
     retained_table = table(records, "Retained Glasgow surname records") if records else '<p>No surname record confirmed in this batch.</p>'
     places_table = ('<h3>Records for place studies</h3><p>These inspected notices concern places in our studies. They are separate from surname evidence and do not establish a Glasgow family connection.</p>' + table(places, "Retained place-study records — not surname evidence")) if places else ''
     exclusions_table = ('<details class="early-newspaper-exclusions"><summary>Excluded search hits (' + str(len(exclusions)) + ') — places and vessels</summary><p>These passages do not name people with the Glasgow surname and are not retained surname records. The log prevents repeating these false matches.</p>' + table(exclusions, "Excluded search hits — not surname records") + '</details>') if exclusions else ''
@@ -91,7 +91,8 @@ def repair() -> dict[str, int]:
     public["rows"] = [{key: row[key] for key in PUBLIC_ROW_FIELDS if key in row}
                       for row in data["rows"]]
     public["counts"] = {
-        "inspected_pages": len(public["rows"]),
+        "catalogued_pages": len(public["rows"]),
+        "inspected_pages": sum(row["status"] != "reading pending" for row in public["rows"]),
         "retained_surname_records": sum(row["status"] == "confirmed surname" for row in public["rows"]),
         "retained_place_study_records": sum(row["status"] == "place study" for row in public["rows"]),
         "excluded_place_or_vessel_hits": sum(row["status"] == "place or ship" for row in public["rows"]),
@@ -115,7 +116,7 @@ def repair() -> dict[str, int]:
     else:
         text = text.replace("</h1>", "</h1>" + note, 1)
     sources.write_text(text, encoding="utf-8")
-    return {"newspaper_pages_inspected": len(data["rows"]),
+    return {"newspaper_pages_inspected": public["counts"]["inspected_pages"],
             "newspaper_surname_records": sum(row["status"] == "confirmed surname" for row in data["rows"]),
             "newspaper_place_study_records": sum(row["status"] == "place study" for row in data["rows"])}
 

@@ -1,21 +1,21 @@
 # Findings: [Robert Glasgow Esq (Glasgow-2656), born 1798, birthplace unknown](https://www.wikitree.com/wiki/Glasgow-2656)
 
-Record every useful result and negative search here as it is found.
-Do not treat an unsourced tree or naming pattern as proof.
-
 ## Current conclusion
 
-The 1856 Tullyveigh probate occurrence is an exact existing-profile match to
-[[Glasgow-2656|Robert Glasgow Esq]]. The live profile already cites the same
-PRONI entry and exact 20 August 1856 death. The earlier Loy, Dunnabraggy and
-other Tyrone occurrences grouped on the old catalogue page are not proved to
-be this man and remain separate unresolved records.
+The maintained PRONI Tullyveigh probate occurrence is already an exact match to this profile and its 20 August 1856 death. Earlier Loy, Dunnabraggy and other Tyrone occurrences remain separate unresolved records.
+
+Robert of Tullyveagh is a strong compatible candidate for Benjamin's father in the 1858 Cookstown mill case. The original report names Benjamin as Robert's son and says Robert died in 1856. The live profile, checked 4 October 2026, records Robert's death at Tullyveagh, Cookstown, on 20 August 1856, marriage to Margaret George in 1829 and no children. Its biography cites an unsourced family tree; a profile comment supplies a pre-1858 wills-index lead. Those details are comparison evidence, not an inspected identity bridge.
 
 ## Source findings
 
 | Source | Finding | Assessment |
 | --- | --- | --- |
 | [PRONI Names, Pre-1858 Wills and Admons search](https://apps.proni.gov.uk/ProniNames_IE/SearchPage.aspx), Robert Glasgow Esq, Tullyveigh, probate 1856 | Gives Tullyveigh, probate year 1856 and the profile-cited death date 20 August 1856. | Exact match for the Tullyveigh component; supplies no bridge to the earlier Loy or Dunnabraggy men. |
+| [Belfast News-Letter, 22 July 1858, p.3, water-course case](https://www.newspapers.com/image/390574459/) | The named witness Benjamin Glasgow says he was son of the late Robert Glasgow, managed his father's mill from 1850, and that his father died in 1856. His uncle was Wm. Glasgow senior. | Certain documentary father–son relationship; Robert-2656's identity remains qualified. |
+
+## Unresolved questions
+
+Compare Benjamin's 16 February 1864 marriage to Wilhelmina Pike and the Glasgow and Woods mill's title or lease with this Robert. The maintained PRONI index says its original documents do not survive; do not expect an original will to supply a family bridge. Robert-3941 of Coltrim remains a lower-ranked compatible candidate. Do not attach Benjamin to this profile until the mill identity is established. Margaret George is not proved Benjamin's mother by this notice. Benjamin's daughter Margaret George is named in an 1891 notice, but repeating a name does not establish her grandmother. The co-plaintiff William's brother relationship is supported by counsel's reference to Robert's sons but remains qualified; the senior uncle's paternal or maternal side is unstated.
 
 ## Recommended action
 

@@ -55,10 +55,14 @@ def build():
             family_links = ', '.join(escape(r['relationship']) + ': ' +
                                     f'<a href="https://www.wikitree.com/wiki/{escape(r["id"])}">{escape(r["id"])}</a>'
                                     for r in person.get('related_profiles', []))
+            draft_links = ', '.join(escape(r['relationship']) + ': ' +
+                                   f'<a href="{escape(r["url"], quote=True)}">{escape(r["name"])}</a>'
+                                   for r in person.get('related_drafts', []))
             sections.append(f'<section id="{anchor}" class="subject-person"><h2>{escape(person["name"])}</h2>'
                             f'<p><strong>{escape(person["status"])}</strong> — {escape(person["identity_note"])}</p>'
                             f'<p><strong>Record fields:</strong> {escape(person["minimum_fields"])}</p>' + facts +
                             ('<p><strong>Identified family in this record:</strong> ' + family_links + '</p>' if family_links else '') +
+                            ('<p><strong>Family evidence drafts:</strong> ' + draft_links + '</p>' if draft_links else '') +
                             ('<h3>Matched WikiTree profile</h3><ul>' + candidates + '</ul>' if matched else '<h3>Compatible WikiTree candidates</h3><ul>' + candidates + '</ul>' if candidates else '') +
                             ('<details><summary>Matches by record</summary><ul>' + matches + '</ul></details>' if matches else '') +
                             '<details><summary>Duplicate check and relationship limits</summary><ul>' + check + '</ul></details>' +
