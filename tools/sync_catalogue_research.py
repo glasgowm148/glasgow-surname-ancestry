@@ -14,10 +14,12 @@ from bs4 import BeautifulSoup
 try:
     import build_research_catalog as catalogue
     from public_privacy import from_sources, public_capture
+    from site_html import read_html
     from repair_person_hierarchy import _profile_update_panel, _replace_main, revise, render_person_dossier
 except ModuleNotFoundError:
     from tools import build_research_catalog as catalogue
     from tools.public_privacy import from_sources, public_capture
+    from tools.site_html import read_html
     from tools.repair_person_hierarchy import _profile_update_panel, _replace_main, revise, render_person_dossier
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -307,7 +309,7 @@ def main():
         findings = catalogue._load_research_findings(identifiers)
         update = updates.get(ident)
         html_path = path.with_suffix(".html")
-        soup = BeautifulSoup(html_path.read_text(encoding="utf-8"), "html.parser")
+        soup = BeautifulSoup(read_html(html_path, site_root=WEB), "html.parser")
         comparison = comparisons.get(ident)
         issues = discrepancies(dossier, soup, findings, update, by_slug[slug], links, comparison)
         checked += 1
