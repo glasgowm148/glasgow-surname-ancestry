@@ -4,7 +4,17 @@ The generated `www/` directory is the complete website root. No hosting credenti
 
 The catalogue's maintained stylesheet is `tools/catalogue-light.css`. Both the catalogue builder and unified-site repair copy it to `www/people/catalogue.css`; a full catalogue build also restores the unified light `/catalogue/` shell. `tools/check_public_catalogue.py` flags a dark stylesheet or a reverted catalogue shell before release. Package a new archive after presentation changes so old CSS cache URLs and old bundles are not reused.
 
-## Current live release — 4 October 2026
+## Current live release — Sources library, 4 October 2026
+
+The organised Sources library is deployed at `https://glasgow.phenotype.dev/sources/`. It preserves all 15,656 collected reference items, with 470 collection pages grouped by record type, country and year or period. Coverage guides explain surviving holdings, losses and record limitations, with original repository links. The newspaper collection includes 49 inline excerpts beside reviewed notices and a gallery of 16 distinct supplied clippings; three gallery items remain explicitly pending exact original image links. These counts overlap; 53 distinct approved clipping images are published.
+
+Implementation commit: `eed58953`. Verified release: `www/glasgow-site-20261004-172236.tar.gz`, **161,343,337 bytes (161.343337 decimal MB)**. All 80,033 public files match the local tree and embedded manifest; the archive contains 80,034 rootless members and passes gzip integrity. SHA-256: `84e1d8760c2357fdd1acd54be78d4e9b3ece6da0856ce8d438b9ac694c194cb4`.
+
+The prepared release passed 22 focused tests and desktop/mobile source checks. Deployment reran release totals, Atlas destinations, publication boundaries and asset-version checks, then uploaded with `tools/deploy_site.py --execute --no-stamp` to preserve the settled release. Production smoke and catalogue probes pass. All 70 sampled served pages/assets, including every one of the 53 clipping images, match local SHA-256 hashes. Browser checks confirm the Sources overview, 1851 Irish Census collection and original links, clipping gallery, desktop/mobile name/year/clipping filters, and the old family-page newspaper anchor redirect. At 390 pixels, controls and the loaded clipping fit without horizontal overflow; the temporary viewport override was reset. No browser errors were recorded.
+
+The previous served tree is retained in the gzip-tested private backup `/var/backups/glasgow/20261004-sources-library/site-before.tar.gz` (140,230,921 bytes). The reviewed rsync upload preserves server ownership and had no deletions. The final rsync dry-run reports no changes. Hosting configuration is unchanged. Verification logs and screenshots: `artifacts/sources-live-deploy-20261004/`. This is a completed production deployment; Git pushes remain the owner's responsibility.
+
+## Previous live release — Search filters, 4 October 2026
 
 The search filter menus are repaired and deployed to `https://glasgow.phenotype.dev/catalogue/`. The toolbar's horizontal scrolling clipped every descendant menu to a 40-pixel strip and scrolled the buttons out of view when a field received focus. Filter buttons now wrap with visible overflow; complete panels, including Gender and exact-name spelling, remain accessible. The maintained rule is in `tools/catalogue-light.css`. This release also publishes the research updates already prepared locally through 4 October and supersedes the earlier packages and pending-publication notes below.
 
