@@ -25,6 +25,7 @@ Verify each claimed identity, relationship, date, and place against the underlyi
 - Preserve the agreed homepage order: reading guide, study map, then Alexander's research example. Label the full-tree control "Whole tree" and keep local tree tabs and the section submenu ordered Whole tree, Branch cards, Timeline, Y-DNA (Map follows in the submenu). Apply these rules after restoring older research markup as well as during presentation repairs.
 
 - Complete website presentation fixes with a fresh verified `www/glasgow-site-YYYYMMDD-HHMMSS.tar.gz` for the owner's server upload. Follow `docs/public-catalogue-deployment.md`, report the archive path and exact byte size plus decimal MB, and distinguish packaging from live deployment.
+- When verifying search filters, open every panel on desktop and mobile and check that its lower controls remain visible or reachable by scrolling within the panel. Check actual pointer visibility and operation, including Gender; DOM presence alone does not detect menus clipped by an ancestor.
 
 - For a documented sibling pair sharing the paternal surname, a proved father of one sibling can support a confident inferred father for the other when chronology fits and no concrete alternative parentage or conflicting evidence is known. Do not keep that father link uncertain solely because the record omits “full” before “sister” or “brother”. Explain the combined evidence as an inference; assess maternity separately and do not turn an unsupported half-sibling possibility into an active competing hypothesis.
 

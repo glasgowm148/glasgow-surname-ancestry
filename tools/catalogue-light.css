@@ -310,10 +310,11 @@ html.catalogue-sheet-open{overflow:hidden}
 @media(max-width:480px){.catalogue-result-view-tabs{width:100%;margin-top:6px}.catalogue-result-view-tabs button{flex:1}.catalogue-map-summary{padding:10px}.catalogue-map-stage{min-height:340px}.catalogue-map-canvas{height:340px}}
 @media(forced-colors:active){.catalogue-result-view-tabs,.catalogue-map-view,.catalogue-map-sidebar,.catalogue-map-location,.catalogue-map-popup{border-color:CanvasText;background:Canvas;color:CanvasText}.catalogue-result-view-tabs button[aria-selected=true]{background:Highlight;color:HighlightText}}
 
-/* Search comes first; scope horizontal scrolling to its own controls/results. */
+/* Filter buttons wrap; only the results table needs horizontal scrolling.
+   A scrolling toolbar clips its descendant menus and scrolls when fields focus. */
 #catalogue-results{min-height:640px}.catalogue-statistics-fold summary{cursor:pointer;padding:12px;font-weight:600}
 .catalogue-toolbar-layout,.catalogue-search,.catalogue-results,.catalogue-query-row,.catalogue-filter-bar{min-width:0;max-width:100%;box-sizing:border-box}
-.catalogue-filter-bar{contain:inline-size;overflow-x:auto;overflow-y:clip}.catalogue-results-table-scroll{max-width:100%;min-width:0}
+.catalogue-filter-bar{contain:inline-size;overflow:visible}.catalogue-results-table-scroll{max-width:100%;min-width:0}
 @media(max-width:720px){.catalogue-filter-bar{flex-wrap:wrap;overflow:visible;contain:none}.catalogue-filter-item{flex:0 1 auto}.catalogue-results{max-width:100%;overflow-x:clip}.catalogue-result-toolbar{min-width:0}}
 
 .catalogue-results .catalogue-result-table-wrap{min-width:0;width:100%;max-width:100%}

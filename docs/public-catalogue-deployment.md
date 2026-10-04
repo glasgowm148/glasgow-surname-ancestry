@@ -4,7 +4,17 @@ The generated `www/` directory is the complete website root. No hosting credenti
 
 The catalogue's maintained stylesheet is `tools/catalogue-light.css`. Both the catalogue builder and unified-site repair copy it to `www/people/catalogue.css`; a full catalogue build also restores the unified light `/catalogue/` shell. `tools/check_public_catalogue.py` flags a dark stylesheet or a reverted catalogue shell before release. Package a new archive after presentation changes so old CSS cache URLs and old bundles are not reused.
 
-## Current live release — 2 October 2026
+## Current live release — 4 October 2026
+
+The search filter menus are repaired and deployed to `https://glasgow.phenotype.dev/catalogue/`. The toolbar's horizontal scrolling clipped every descendant menu to a 40-pixel strip and scrolled the buttons out of view when a field received focus. Filter buttons now wrap with visible overflow; complete panels, including Gender and exact-name spelling, remain accessible. The maintained rule is in `tools/catalogue-light.css`. This release also publishes the research updates already prepared locally through 4 October and supersedes the earlier packages and pending-publication notes below.
+
+Verified release: `www/glasgow-site-20261004-013540.tar.gz`, **150,335,474 bytes (150.335474 decimal MB)**. All 79,493 public files match both the local tree and embedded manifest; the archive contains 79,494 rootless members and passes gzip integrity. SHA-256: `6555fa2291077e4f0a6fd8f756eb466a414de4aba3de9dafed43994793024b6c`.
+
+Validation passed: 14 focused unit tests; catalogue checks; release totals, Atlas destinations, publication boundaries and asset versions; local and live smoke checks. Browser checks opened all seven menus locally at desktop, tablet and mobile widths, and on production at 1200 and 390 pixels. A 320 × 568 production check confirms the lower Name controls scroll within the sheet and remain clickable. Every visible control passed pointer-access checks, with no horizontal page overflow or browser errors. Female filtering returns the expected 2,637 people. Six served pages/assets match local SHA-256 hashes; the CSS URL uses `v=b459b98b00` with immutable caching. The final rsync dry-run reports no changes.
+
+The previous served tree is retained in the gzip-tested private backup `/var/backups/glasgow/20261004-search-filters/site-before.tar.gz`. The reviewed rsync upload preserves host ownership and had no deletions. Evidence and desktop/mobile screenshots: `artifacts/search-filter-fix-20261004/`. The completed changes are committed locally; the owner handles Git pushes.
+
+## Previous live release — 2 October 2026
 
 All findings from the delegated site audit are fixed and deployed to `https://glasgow.phenotype.dev/`. The maintained changes are listed in `docs/site-reader-audit.md`; implementation commit: `1160fe1f`. No Git push or live WikiTree edit was performed.
 
