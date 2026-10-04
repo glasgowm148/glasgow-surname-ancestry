@@ -255,7 +255,9 @@ def newspaper_card(row, clips, web, group=None):
             alternative_excerpts.append(f'<li>{e(item["date"])} · {e(item["paper"])}: <a href="{e(excerpt["url"])}">{e(excerpt.get("caption_note", "Open alternate issue excerpt"))}</a></li>')
     if alternative_excerpts:
         alternatives += '<details class="sc-newspaper-duplicates"><summary>Alternative saved issue excerpts</summary><ul>' + ''.join(alternative_excerpts) + '</ul></details>'
-    return f'<article class="sc-newspaper" id="newspaper-{ident}" data-year="{years}" data-paper="{e(papers, quote=True)}" data-country="{country}" data-clip="{int(bool(clip_entries))}" data-group-size="{len(group)}">{aliases}<header><span class="sc-status">{e(row["status"])}</span><h3>{e(issue_dates)} · {e(row["paper"])} · p. {e(str(row.get("page", "?")))}</h3><a href="{e(row["source_url"], quote=True)}">Original newspaper page ↗</a>{alternatives}</header>{media}<div class="sc-newspaper-reading"><p><strong>Reading:</strong> {e(row.get("reading", ""))}</p><p><strong>Assessment:</strong> {e(row.get("assessment", ""))}</p><p>{profile_links(profile_view, web)}</p>{missing}</div></article>'
+    if media:
+        media = '<div class="sc-newspaper-media">' + media + '</div>'
+    return f'<article class="sc-newspaper" id="newspaper-{ident}" data-year="{years}" data-paper="{e(papers, quote=True)}" data-country="{country}" data-clip="{int(bool(clip_entries))}" data-group-size="{len(group)}"><header>{aliases}<span class="sc-status">{e(row["status"])}</span><h3>{e(issue_dates)} · {e(row["paper"])} · p. {e(str(row.get("page", "?")))}</h3><a href="{e(row["source_url"], quote=True)}">Original newspaper page ↗</a>{alternatives}</header>{media}<div class="sc-newspaper-reading"><p><strong>Reading:</strong> {e(row.get("reading", ""))}</p><p><strong>Assessment:</strong> {e(row.get("assessment", ""))}</p><p>{profile_links(profile_view, web)}</p>{missing}</div></article>'
 
 
 def newspaper_country(paper):

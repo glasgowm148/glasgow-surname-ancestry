@@ -3,3 +3,5 @@
 .sc-newspaper-duplicates{margin-top:.7rem;padding:.45rem .7rem;background:#f4f7f1;border:1px solid #d7e0d0;border-radius:5px;font-size:.8rem}.sc-newspaper-duplicates summary{cursor:pointer;font-weight:600}.sc-newspaper-duplicates ul{margin:.4rem 0;padding-left:1.2rem}.sc-identity-label{font-weight:700;color:#506740}
 .sc-newspaper-supplements{grid-column:1/-1;margin:.5rem 0;padding:.5rem .7rem;background:#f4f7f1;border:1px solid #d7e0d0;border-radius:5px}.sc-newspaper-supplements summary{cursor:pointer;font-weight:600}.sc-newspaper-supplements figure{display:inline-block;vertical-align:top;width:min(48%,28rem);margin:.6rem .5rem .2rem 0}.sc-newspaper-supplements figure img{max-height:520px}
 .sc-profile-matches{display:grid;gap:.35rem;margin-top:.35rem}.sc-profile-match{display:block}.sc-profile-match a{font-weight:600}.sc-draft{margin-top:.2rem}
+
+.sc-newspaper-media{min-width:0}.sc-newspaper-media .sc-newspaper-supplements figure{display:block;width:100%;box-sizing:border-box;margin:.6rem 0 .2rem}
