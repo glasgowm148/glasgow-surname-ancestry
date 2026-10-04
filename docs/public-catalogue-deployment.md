@@ -4,7 +4,19 @@ The generated `www/` directory is the complete website root. No hosting credenti
 
 The catalogue's maintained stylesheet is `tools/catalogue-light.css`. Both the catalogue builder and unified-site repair copy it to `www/people/catalogue.css`; a full catalogue build also restores the unified light `/catalogue/` shell. `tools/check_public_catalogue.py` flags a dark stylesheet or a reverted catalogue shell before release. Package a new archive after presentation changes so old CSS cache URLs and old bundles are not reused.
 
-## Current live release — Sources library, 4 October 2026
+## Current live release — Census coverage, 4 October 2026
+
+The census collection correction is deployed. Citation access/review dates, archive identifiers and emigrants' birthplaces had left valid references outside their enumeration-year groups or under the wrong country. All 2,668 collected census references are preserved; 2,531 now have supported year groups, up from 791. The remaining 137 have visible unresolved-year routes. Shared citations retain each explicitly supported census year. Hash-pinned citation reviews handle a small set of ambiguous titles; census substitutes retain their proper record names. This release adds no new original-image readings or identity/relationship conclusions.
+
+Irish year pages now contain: 1831 — 5 references / 8 linked people; 1851 — 25 / 76; 1901 — 92 / 193; 1911 — 73 / 157. Scottish 1841 increases from 4 to 24 references and 1851 from 6 to 23. Census cards show named, searchable public people and separate reference/person totals. These are catalogue associations, including spouses and relatives, rather than unique households, verified surname enumerations or a complete archive search.
+
+Implementation commits: `614d2e20` and `55df3365`. Verified bundle: `www/glasgow-site-20261004-185428.tar.gz`, **161,744,890 bytes (161.744890 decimal MB)**. All 80,058 local public files match the embedded manifest; the archive has 80,059 rootless members and passes gzip integrity. SHA-256: `a1cffd8316ce3023b0114f58845cf140f223166a15a55ffe7f321382f8dd0627`.
+
+All 33 focused tests, JavaScript syntax, release totals, Atlas destinations, publication boundaries and asset versions pass. Production smoke/catalogue probes pass; all 18 sampled pages/assets match the local release byte for byte. Browser checks confirm the live 1851 totals, named-person search, pagination and mobile filter controls with no horizontal overflow at 390 pixels. The temporary viewport override was reset. The newspaper saved-clipping filter still returns 49 of 107 retained pages. No browser errors were recorded. Final rsync dry-run: no changes.
+
+The previous Sources release is retained in the gzip-tested private server backup `/var/backups/glasgow/20261004-census-sources/site-before.tar.gz` (151,328,763 bytes). Reviewed deletions remove only obsolete collection pages; every source reference and individual reader remains. Deployment preserves host ownership and existing hosting configuration. Verification, before/after counts and screenshots: `artifacts/census-sources-live-20261004/`. No Git push was performed.
+
+## Previous live release — Sources library, 4 October 2026
 
 The organised Sources library is deployed at `https://glasgow.phenotype.dev/sources/`. It preserves all 15,656 collected reference items, with 470 collection pages grouped by record type, country and year or period. Coverage guides explain surviving holdings, losses and record limitations, with original repository links. The newspaper collection includes 49 inline excerpts beside reviewed notices and a gallery of 16 distinct supplied clippings; three gallery items remain explicitly pending exact original image links. These counts overlap; 53 distinct approved clipping images are published.
 
