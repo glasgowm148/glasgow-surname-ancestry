@@ -125,6 +125,14 @@ class SourceCollectionIndexTest(unittest.TestCase):
         root = fixture({"title": "1851 Census of Ireland", "citations": [{"person": "Glasgow-951", "name": "Alexander Glasgow"}]}, {"id": "s-test", "title": "1851 Census of Ireland", "members": ["glasgow-951"], "citations": 1})
         self.assertEqual(build_index(root)[0]["people"], [{"id": "glasgow-951", "name": "Alexander Glasgow"}])
 
+    def test_explicit_year_field_requires_census_place_context(self):
+        item = build_index(fixture({"title": "Source: S123 Year: 1920; Census Place: North Dakota; Birth date: 1911"}))[0]
+        self.assertEqual(item['years'], [1920])
+
+    def test_french_canadian_census_title_keeps_its_record_year(self):
+        item = build_index(fixture({"title": '"Recensement du Canada de 1911," database, accessed 2022; citing Census, Canada'}))[0]
+        self.assertEqual(item['years'], [1911])
+
 
 if __name__ == "__main__":
     unittest.main()

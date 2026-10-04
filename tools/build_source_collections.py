@@ -377,6 +377,8 @@ def repair(web=None):
                 group = [r for r in subset if year in r.get('years', [])]
                 adjective = {'Ireland':'Irish', 'Scotland':'Scottish', 'England':'England', 'United States':'United States'}.get(country, country)
                 heading = f'{year} {adjective} Census' if category == 'census' else f'{country} newspapers, {year}'
+                if category == 'census':
+                    heading = {('Ireland',1740): '1740 Irish Protestant householders', ('Ireland',1766): '1766 Irish religious census', ('Canada',1793): '1793 Nova Scotia poll-tax returns', ('England',1939): '1939 England & Wales Register'}.get((country,year), heading)
                 body = hero(heading, description, len(group), people_count(group) if category == 'census' else None) + f'<p><a href="/sources/{route}/">← All {country} {title.lower()}</a></p>' + guide(config, category, country, year)
                 if category == 'census': body += census_summary(group)
                 if category == 'newspapers': body += newspaper_body(newspaper, clips, web, country, year)

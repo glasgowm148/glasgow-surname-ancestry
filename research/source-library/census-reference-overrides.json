@@ -1,0 +1,62 @@
+{
+  "reviewed": "2026-10-04",
+  "scope": "Classification checked against already-public citation titles and named record links. No new original-image reading, surname census total or identity upgrade is asserted. Changed citation titles require renewed review.",
+  "sources": [
+    {
+      "id": "s-35a4a7abf12bea10",
+      "years": [
+        1740
+      ],
+      "countries": [
+        "Ireland"
+      ],
+      "basis": "Explicit date in the quoted partial Protestant-householder census title.",
+      "title_sha256": "af50e0074c91876d75eaf461caad44f119da368df081695ad548051e5098fedc"
+    },
+    {
+      "id": "s-9ec790b53959842c",
+      "years": [
+        1740
+      ],
+      "countries": [
+        "Ireland"
+      ],
+      "basis": "Ulster Protestant-householder census title and explicit year; a census substitute.",
+      "title_sha256": "4d76efc7486bebfd2e2893370f8e6f8a0038cc0065ab8176c10a6290c82f83a6"
+    },
+    {
+      "id": "s-094ac587d6a59fe5",
+      "years": [
+        1793
+      ],
+      "countries": [
+        "Canada"
+      ],
+      "basis": "Explicit return year beside W. Glasgow at Antigonish; original Nova Scotia poll-tax return URL. This is a census substitute.",
+      "title_sha256": "10c0eb6c163e69d003238e7d72314666b033f1887819c67d66fe736ccc76f3c2"
+    },
+    {
+      "id": "s-5eb41505f6fc1ad7",
+      "years": [
+        1901,
+        1911
+      ],
+      "countries": [
+        "Ireland"
+      ],
+      "basis": "Explicit years beside Mary Elder and Robert J. Elder households in the shared citation.",
+      "title_sha256": "1ebef5a149c81f6f8c8f11e80dcc7c93f738ae4fc241ccddf607f83715eec839"
+    },
+    {
+      "id": "s-0154858a246e40f8",
+      "years": [
+        1911
+      ],
+      "countries": [
+        "Ireland"
+      ],
+      "basis": "Explicit year beside the Robert J. Elder household in Gortahar.",
+      "title_sha256": "fd70d5b64948d45dd46e3e1fd5024a637704901822ff403cbfae3102c6957150"
+    }
+  ]
+}

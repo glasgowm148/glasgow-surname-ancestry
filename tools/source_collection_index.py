@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+from hashlib import sha256
 import re
 from pathlib import Path
 from urllib.parse import urlparse
@@ -85,6 +86,8 @@ def _census_metadata(doc: dict) -> tuple[list[int], list[str]]:
     for pattern in (
         r"(?<!\d)(1\d{3}|20\d{2})\s+(?:[A-Za-z’'-]+\s+){0,6}(?:census|enumeration)\b",
         r"\b(?:census|enumeration)(?:\s+of)?(?:\s+(?:Ireland|Scotland|England|Wales|United|States|Federal|Canada|Australia|New|Zealand|Irish|Scottish|and))*[, :“\"]+(1\d{3}|20\d{2})(?!\d)",
+        r"\bYear:\s*(1\d{3}|20\d{2});\s*Census Place\b",
+        r"\bRecensement\s+du\s+Canada\s+de\s+(1\d{3}|20\d{2})(?!\d)",
     ):
         years.update(int(y) for y in re.findall(pattern, title, re.I))
     url = str(doc.get("url") or "")
@@ -164,6 +167,8 @@ def _values(doc: dict, field: str) -> list[str]:
 def build_index(web: Path) -> list[dict]:
     """Return normalized public source items from the generated public assets."""
     root = Path(web)
+    override_path = Path(__file__).resolve().parents[1] / 'research/source-library/census-reference-overrides.json'
+    overrides = {r['id']: r for r in json.loads(override_path.read_text())['sources']} if override_path.exists() else {}
     rows = json.loads((root / "assets/v3/source-index.json").read_text(encoding="utf-8"))
     result = []
     for row in rows:
@@ -180,6 +185,13 @@ def build_index(web: Path) -> list[dict]:
             countries.append("Scotland")
         year, year_basis = _years(doc, text, categories)
         census_years, census_countries = _census_metadata(doc) if "census" in categories else ([], [])
+        if row['id'] in overrides:
+            override = overrides[row['id']]
+            if sha256(str(doc.get('title') or '').encode()).hexdigest() != override['title_sha256']:
+                raise ValueError('Census citation override needs review: ' + row['id'])
+            census_years, census_countries = override['years'], override['countries']
+            year = census_years[0] if len(census_years) == 1 else None
+            year_basis = 'reviewed citation title'
         if census_countries:
             countries = census_countries
         people = {}
