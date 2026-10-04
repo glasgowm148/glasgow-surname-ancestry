@@ -2,9 +2,19 @@
 
 ## Current conclusion
 
-John was the husband of [Jane (Unknown) Glasgow (Unknown-764117)](https://www.wikitree.com/wiki/Unknown-764117) and father of seven children named in the 1888 Hillsdale histories. [William (Glasgow-1969)](https://www.wikitree.com/wiki/Glasgow-1969) and [John Jr. (Glasgow-1967)](https://www.wikitree.com/wiki/Glasgow-1967) are already identified profiles. The other five children remain unlinked pending identifying records.
+John was the husband of [Jane (Unknown) Glasgow (Unknown-764117)](https://www.wikitree.com/wiki/Unknown-764117) and father of seven children named in the 1888 Hillsdale histories. [William (Glasgow-1969)](https://www.wikitree.com/wiki/Glasgow-1969) and [John Jr. (Glasgow-1967)](https://www.wikitree.com/wiki/Glasgow-1967) are already identified profiles. The other five children remain unlinked pending identifying records. The 1831 Loughinsholin freeholder is a compatible chronology comparison; no land qualification identifies him with this profile, and the Drummeen tithe/probate attribution remains unproved.
 
 ## Source findings
+
+### Loughinsholin freeholder comparison, 4 October 2026
+
+The 16 August 1831 declaration lists Robert Glasgow and John Glasgow among freeholders of the barony printed Loughinshollen (modern Loughinsholin), County Londonderry, supporting Sir Robert Bateson. They are co-signatories; no kinship, occupation, age or individual townland is given. Castledawson and 4 July 1831 refer to the opposing meeting discussed in the declaration, not their homes or their signing date.
+
+Glasgow-1968 is a compatible chronology comparison, but the 1827 Drummeen tithe subject is itself unproved as that profile. Glasgow-2058, Glasgow-3927 (an indexed freeholder with uncertain locality), Glasgow-2990 and Glasgow-4090 remain adult regional comparisons. No same-name co-signature establishes descent, brotherhood or identity with the Cookstown merchant. The declaration concerns a holding in the barony, not necessarily residence there.
+
+[Belfast News-Letter, 16 August 1831, p.3, Loughinshollen freeholders’ declaration](https://www.newspapers.com/image/390548642/)
+
+[Complete held comparison](/research/subjects/newspapers-irish-1800-1850/#john-loughinsholin-freeholder).
 
 | Source | Finding | Assessment |
 | --- | --- | --- |

@@ -7958,7 +7958,7 @@
     {
       "slug": "newspapers-irish-1800-1850",
       "title": "Irish Glasgow newspaper records, 1800–1850",
-      "introduction": "Catalogue-led quoted-name searches, oldest first: 32 new original surname pages in the 1800–1850 expansion. The latest nine add Institution mathematics/teaching, Castledawson’s call and ordination, missionary family notices, a Larne native’s Demerara death, a Kilrea acquittal and a Cookstown coffee agent. Current profile assignments and unproved namesake connections are qualified; no new relationship certainty is claimed.",
+      "introduction": "Catalogue-led quoted-name searches, oldest first: 39 new original surname pages in the 1800–1850 expansion. The latest seven pages add Robert and John as Loughinsholin freeholders, a Dundrum subscription-list John, the Cookstown merchant’s tea/coffee agency from September 1848, and a Drogheda sub-constable. Namesake identities are qualified; co-signatures and advertisements supply no new family certainty.",
       "people": [
         {
           "anchor": "benjamin-surgeon",
@@ -8736,11 +8736,34 @@
         },
         {
           "anchor": "john-cookstown-coffee",
-          "name": "John Glasgow, Cookstown coffee agent, 1850",
+          "name": "John Glasgow, Cookstown merchant and tea/coffee agent, 1848–1850",
           "status": "HOLD — compatible merchant Glasgow-2058",
-          "identity_note": "John Glasgow-2058, later described as a merchant in his son’s 1856 marriage, is compatible by name, trade and district. The advertisement gives no age, exact address or relatives, so it does not prove that identification or identify Benjamin’s grandparents. Other local Johns remain comparisons; no parent or brother is attached from this advertisement.",
-          "minimum_fields": "John Glasgow; Cookstown retail agent for John Cassell coffees, November 1850; age, address and relatives unstated.",
+          "identity_note": "Glasgow-2058 is compatible by name, Cookstown district and the merchant occupation independently recorded in Benjamin-2059’s 1856 marriage. None of these advertisements names relatives, age or street address. Repeated agent lists are advertisements for one trading role, not independent family proofs. John’s parents remain unknown. Glasgow-1968 remains a weaker comparison: his family histories give migration to Michigan in 1844 or 1848; the Drummeen tithe and 1850/1851 probate leads are not securely assigned to him, and probate year is not a death date.",
+          "minimum_fields": "John Glasgow; merchant and retail agent at Cookstown by September 1848, tea/coffee agent in February 1849 and coffee agent in November 1850; age, street address and relatives unstated.",
           "facts": [
+            {
+              "finding_id": "john-glasgow-cookstown-tea-coffee-agent-1848-1850",
+              "finding": "John Glasgow, explicitly called a merchant at Cookstown, appears among John Cassell coffee agents on 30 September 1848, and again in February 1849. A separate 2 February 1849 advertisement appoints him there as agent for the Russian Company’s Caravan Tea and Arabian Coffee. This extends the inspected Cookstown agency sequence to 1848–1850.",
+              "qualification": "Glasgow-2058 is compatible by name, Cookstown district and the merchant occupation independently recorded in Benjamin-2059’s 1856 marriage. None of these advertisements names relatives, age or street address. Repeated agent lists are advertisements for one trading role, not independent family proofs. John’s parents remain unknown. Glasgow-1968 remains a weaker comparison: his family histories give migration to Michigan in 1844 or 1848; the Drummeen tithe and 1850/1851 probate leads are not securely assigned to him, and probate year is not a death date.",
+              "sources": [
+                {
+                  "title": "The Sligo Champion, 30 September 1848, p.3, John Cassell coffee agents",
+                  "url": "https://www.newspapers.com/image/1256974148/"
+                },
+                {
+                  "title": "Belfast News-Letter, 2 February 1849, p.3, Russian Company tea and coffee agents",
+                  "url": "https://www.newspapers.com/image/390559166/"
+                },
+                {
+                  "title": "Belfast News-Letter, 20 February 1849, p.3, John Cassell coffee agents",
+                  "url": "https://www.newspapers.com/image/390559823/"
+                },
+                {
+                  "title": "Impartial Reporter and Farmers’ Journal, 22 February 1849, p.3, John Cassell coffee agents",
+                  "url": "https://www.newspapers.com/image/1257358494/"
+                }
+              ]
+            },
             {
               "finding_id": "john-glasgow-cookstown-coffee-agent-1850",
               "finding": "John Glasgow is listed at Cookstown among retail agents for John Cassell’s coffees in November 1850. The search had matched adjacent James Small of Ballymoney; the original agent list reads John Glasgow.",
@@ -8760,17 +8783,208 @@
             },
             {
               "id": "Glasgow-1968",
-              "reason": "Other local John identified as a potential match by 2058’s live notes. Drumeen1850 probate lead needs exact death date/source verification before a November agent assignment."
+              "reason": "Other John comparison; the 1844/1848 Michigan migration in his family histories weakens a later Irish assignment. Tithe/probate leads are unproved identity links; probate year alone does not date death."
             }
           ],
           "duplicate_check": [
             "Live Glasgow-2058 biography/family read4 October; approved historical Irish catalogue local Johns checked. Other adult Johns2056/1967/2537/1699 are not excluded merely by absent trade fields; broader duplicate check remains incomplete."
           ],
-          "next_test": "Read Cookstown directories, Cassell agent ledgers and local probate/merchant records to establish the agent’s address and family. No grandparents are named by this notice.",
+          "next_test": "Identify the merchant’s street address through directories, licences, deeds and probate. Seek a record linking the agent directly to Benjamin-2059 or Henry-1735 before assigning him to their father.",
           "draft_sources": [
-            "research/newspapers-james-career-family-2026-10-04.md"
+            "research/newspapers-james-career-family-2026-10-04.md",
+            "research/newspapers-john-freeholders-2026-10-04.md"
           ],
-          "wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nJohn Glasgow is listed at Cookstown among retail agents for John Cassell’s coffees in November 1850. The search had matched adjacent James Small of Ballymoney; the original agent list reads John Glasgow. <ref>[https://www.newspapers.com/image/390563426/ Belfast News-Letter, 5 November 1850, p.3, John Cassell coffee agents, Cookstown], original inspected 4 October 2026.</ref>\n\n== Research Notes ==\nJohn Glasgow-2058, later described as a merchant in his son’s 1856 marriage, is compatible by name, trade and district. The advertisement gives no age, exact address or relatives, so it does not prove that identification or identify Benjamin’s grandparents. Other local Johns remain comparisons; no parent or brother is attached from this advertisement.\n\nRead Cookstown directories, Cassell agent ledgers and local probate/merchant records to establish the agent’s address and family. No grandparents are named by this notice.\n\n== Sources ==\n<references />\n"
+          "wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nJohn Glasgow, explicitly called a merchant at Cookstown, appears among John Cassell coffee agents on 30 September 1848, and again in February 1849. A separate 2 February 1849 advertisement appoints him there as agent for the Russian Company’s Caravan Tea and Arabian Coffee. This extends the inspected Cookstown agency sequence to 1848–1850. <ref>[https://www.newspapers.com/image/1256974148/ The Sligo Champion, 30 September 1848, p.3, John Cassell coffee agents], original inspected 4 October 2026.</ref><ref>[https://www.newspapers.com/image/390559166/ Belfast News-Letter, 2 February 1849, p.3, Russian Company tea and coffee agents], original inspected 4 October 2026.</ref><ref>[https://www.newspapers.com/image/390559823/ Belfast News-Letter, 20 February 1849, p.3, John Cassell coffee agents], original inspected 4 October 2026.</ref><ref>[https://www.newspapers.com/image/1257358494/ Impartial Reporter and Farmers’ Journal, 22 February 1849, p.3, John Cassell coffee agents], original inspected 4 October 2026.</ref>\n\nThe inspected 5 November 1850 Belfast agent list continues the Cookstown coffee agency.<ref>[https://www.newspapers.com/image/390563426/ Belfast News-Letter, 5 November 1850, p.3], original inspected 4 October 2026.</ref>\n\n== Research Notes ==\nGlasgow-2058 is compatible by name, Cookstown district and the merchant occupation independently recorded in Benjamin-2059’s 1856 marriage. None of these advertisements names relatives, age or street address. Repeated agent lists are advertisements for one trading role, not independent family proofs. John’s parents remain unknown. Glasgow-1968 remains a weaker comparison: his family histories give migration to Michigan in 1844 or 1848; the Drummeen tithe and 1850/1851 probate leads are not securely assigned to him, and probate year is not a death date.\n\nIdentify the merchant’s street address through directories, licences, deeds and probate. Seek a record linking the agent directly to Benjamin-2059 or Henry-1735 before assigning him to their father.\n\n== Sources ==\n<references />\n"
+        },
+        {
+          "anchor": "robert-loughinsholin-freeholder",
+          "name": "Robert Glasgow, Loughinsholin freeholder, 1831",
+          "status": "HOLD — identity unassigned; compatible comparisons",
+          "identity_note": "Robert Glasgow-3941, the Coltrim land occupier documented in 1820–1831, is a strong compatible regional candidate; the newspaper lacks a townland or family bridge to prove it. Glasgow-2656 of the Cookstown district remains another adult comparison. Glasgow-12 has an Ohio record sequence and is a weaker comparison despite Moneymore origin; the newspaper does not resolve his travel or retained Irish property. No Robert is identified as John’s father or brother, or as the surgeon’s father, from this signature.",
+          "minimum_fields": "Robert Glasgow; named freeholder in Loughinsholin barony, County Londonderry, August 1831; birth, death and family unknown.",
+          "facts": [
+            {
+              "finding_id": "robert-glasgow-loughinsholin-freeholder-1831",
+              "finding": "The 16 August 1831 declaration lists Robert Glasgow and John Glasgow among freeholders of the barony printed Loughinshollen (modern Loughinsholin), County Londonderry, supporting Sir Robert Bateson. They are co-signatories; no kinship, occupation, age or individual townland is given. Castledawson and 4 July 1831 refer to the opposing meeting discussed in the declaration, not their homes or their signing date.",
+              "qualification": "Robert Glasgow-3941, the Coltrim land occupier documented in 1820–1831, is a strong compatible regional candidate; the newspaper lacks a townland or family bridge to prove it. Glasgow-2656 of the Cookstown district remains another adult comparison. Glasgow-12 has an Ohio record sequence and is a weaker comparison despite Moneymore origin; the newspaper does not resolve his travel or retained Irish property. No Robert is identified as John’s father or brother, or as the surgeon’s father, from this signature.",
+              "sources": [
+                {
+                  "title": "Belfast News-Letter, 16 August 1831, p.3, Loughinshollen freeholders’ declaration",
+                  "url": "https://www.newspapers.com/image/390548642/"
+                }
+              ]
+            }
+          ],
+          "candidates": [
+            {
+              "id": "Glasgow-3941",
+              "reason": "Coltrim lease, tithe and census land context in 1820–1831; compatible, not identified."
+            },
+            {
+              "id": "Glasgow-2656",
+              "reason": "Adult in the Cookstown district; holding in this barony unproved."
+            },
+            {
+              "id": "Glasgow-12",
+              "reason": "Moneymore origin, but documented Ohio context; weak comparison requiring an Irish property/travel bridge."
+            }
+          ],
+          "duplicate_check": [
+            "Reviewed approved public historical catalogue metadata and maintained findings on 4 October 2026. Candidates are qualified comparisons; no complete duplicate exclusion is claimed."
+          ],
+          "next_test": "Inspect Loughinsholin electoral registers, Bateson election papers and estate leases for a townland or qualification matching the named signer.",
+          "draft_sources": [
+            "research/newspapers-john-freeholders-2026-10-04.md"
+          ],
+          "wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe 16 August 1831 declaration lists Robert Glasgow and John Glasgow among freeholders of the barony printed Loughinshollen (modern Loughinsholin), County Londonderry, supporting Sir Robert Bateson. They are co-signatories; no kinship, occupation, age or individual townland is given. Castledawson and 4 July 1831 refer to the opposing meeting discussed in the declaration, not their homes or their signing date. <ref>[https://www.newspapers.com/image/390548642/ Belfast News-Letter, 16 August 1831, p.3, Loughinshollen freeholders’ declaration], original inspected 4 October 2026.</ref>\n\n== Research Notes ==\nRobert Glasgow-3941, the Coltrim land occupier documented in 1820–1831, is a strong compatible regional candidate; the newspaper lacks a townland or family bridge to prove it. Glasgow-2656 of the Cookstown district remains another adult comparison. Glasgow-12 has an Ohio record sequence and is a weaker comparison despite Moneymore origin; the newspaper does not resolve his travel or retained Irish property. No Robert is identified as John’s father or brother, or as the surgeon’s father, from this signature.\n\nPossible identities: [[Glasgow-3941|Glasgow-3941]], [[Glasgow-2656|Glasgow-2656]], [[Glasgow-12|Glasgow-12]]. These comparisons are not established identifications.\n\nInspect Loughinsholin electoral registers, Bateson election papers and estate leases for a townland or qualification matching the named signer.\n\n== Sources ==\n<references />\n",
+          "related_drafts": [
+            {
+              "relationship": "co-signatory; kinship unproved",
+              "name": "John Glasgow, Loughinsholin freeholder, 1831",
+              "url": "/research/subjects/newspapers-irish-1800-1850/#john-loughinsholin-freeholder"
+            }
+          ]
+        },
+        {
+          "anchor": "john-loughinsholin-freeholder",
+          "name": "John Glasgow, Loughinsholin freeholder, 1831",
+          "status": "HOLD — identity unassigned; compatible comparisons",
+          "identity_note": "Glasgow-1968 is a compatible chronology comparison, but the 1827 Drummeen tithe subject is itself unproved as that profile. Glasgow-2058, Glasgow-3927 (an indexed freeholder with uncertain locality), Glasgow-2990 and Glasgow-4090 remain adult regional comparisons. No same-name co-signature establishes descent, brotherhood or identity with the Cookstown merchant. The declaration concerns a holding in the barony, not necessarily residence there.",
+          "minimum_fields": "John Glasgow; named freeholder in Loughinsholin barony, County Londonderry, August 1831; birth, death and family unknown.",
+          "facts": [
+            {
+              "finding_id": "john-glasgow-loughinsholin-freeholder-1831",
+              "finding": "The 16 August 1831 declaration lists Robert Glasgow and John Glasgow among freeholders of the barony printed Loughinshollen (modern Loughinsholin), County Londonderry, supporting Sir Robert Bateson. They are co-signatories; no kinship, occupation, age or individual townland is given. Castledawson and 4 July 1831 refer to the opposing meeting discussed in the declaration, not their homes or their signing date.",
+              "qualification": "Glasgow-1968 is a compatible chronology comparison, but the 1827 Drummeen tithe subject is itself unproved as that profile. Glasgow-2058, Glasgow-3927 (an indexed freeholder with uncertain locality), Glasgow-2990 and Glasgow-4090 remain adult regional comparisons. No same-name co-signature establishes descent, brotherhood or identity with the Cookstown merchant. The declaration concerns a holding in the barony, not necessarily residence there.",
+              "sources": [
+                {
+                  "title": "Belfast News-Letter, 16 August 1831, p.3, Loughinshollen freeholders’ declaration",
+                  "url": "https://www.newspapers.com/image/390548642/"
+                }
+              ]
+            }
+          ],
+          "candidates": [
+            {
+              "id": "Glasgow-1968",
+              "reason": "Adult chronology fits; association with the Drummeen tithe/probate subject is unproved."
+            },
+            {
+              "id": "Glasgow-2058",
+              "reason": "Adult regional merchant comparison, no identified barony holding."
+            },
+            {
+              "id": "Glasgow-3927",
+              "reason": "County Londonderry indexed freeholder; record locality and identity unresolved."
+            },
+            {
+              "id": "Glasgow-2990",
+              "reason": "Adult Derryloran comparison; precise holding and identity unknown."
+            },
+            {
+              "id": "Glasgow-4090",
+              "reason": "Adult County Londonderry comparison; no specific Loughinsholin qualification."
+            }
+          ],
+          "duplicate_check": [
+            "Reviewed approved public historical catalogue metadata and maintained findings on 4 October 2026. Candidates are qualified comparisons; no complete duplicate exclusion is claimed."
+          ],
+          "next_test": "Find the signer’s land qualification, then compare townland, leases and household records; assess each John independently.",
+          "draft_sources": [
+            "research/newspapers-john-freeholders-2026-10-04.md"
+          ],
+          "wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe 16 August 1831 declaration lists Robert Glasgow and John Glasgow among freeholders of the barony printed Loughinshollen (modern Loughinsholin), County Londonderry, supporting Sir Robert Bateson. They are co-signatories; no kinship, occupation, age or individual townland is given. Castledawson and 4 July 1831 refer to the opposing meeting discussed in the declaration, not their homes or their signing date. <ref>[https://www.newspapers.com/image/390548642/ Belfast News-Letter, 16 August 1831, p.3, Loughinshollen freeholders’ declaration], original inspected 4 October 2026.</ref>\n\n== Research Notes ==\nGlasgow-1968 is a compatible chronology comparison, but the 1827 Drummeen tithe subject is itself unproved as that profile. Glasgow-2058, Glasgow-3927 (an indexed freeholder with uncertain locality), Glasgow-2990 and Glasgow-4090 remain adult regional comparisons. No same-name co-signature establishes descent, brotherhood or identity with the Cookstown merchant. The declaration concerns a holding in the barony, not necessarily residence there.\n\nPossible identities: [[Glasgow-1968|Glasgow-1968]], [[Glasgow-2058|Glasgow-2058]], [[Glasgow-3927|Glasgow-3927]], [[Glasgow-2990|Glasgow-2990]], [[Glasgow-4090|Glasgow-4090]]. These comparisons are not established identifications.\n\nFind the signer’s land qualification, then compare townland, leases and household records; assess each John independently.\n\n== Sources ==\n<references />\n",
+          "related_drafts": [
+            {
+              "relationship": "co-signatory; kinship unproved",
+              "name": "Robert Glasgow, Loughinsholin freeholder, 1831",
+              "url": "/research/subjects/newspapers-irish-1800-1850/#robert-loughinsholin-freeholder"
+            }
+          ]
+        },
+        {
+          "anchor": "john-dundrum-subscription",
+          "name": "John Glasgow, Dundrum subscription-list context, 1840",
+          "status": "HOLD — identity unassigned; compatible comparisons",
+          "identity_note": "The list supplies no age, occupation, exact address, relatives or individual subscription amount. Dundrum identifies the collection context; it is not an explicit statement of John’s residence. Glasgow-2058, Glasgow-1968 and Glasgow-2056 survive as chronology comparisons only; none has a checked Dublin or Dundrum bridge. No identification or religious affiliation is inferred from the political subscription.",
+          "minimum_fields": "John Glasgow; personal name in Edward Byrne’s Dundrum collection list, October 1840; individual residence, age, occupation and family unknown.",
+          "facts": [
+            {
+              "finding_id": "john-glasgow-dundrum-subscription-1840",
+              "finding": "John Glasgow occurs in the Loyal National Repeal Association subscription report, under “Per Mr. Edward Byrne, Dundrum,” published on 19 October 1840. This is a personal surname occurrence in a named collection list.",
+              "qualification": "The list supplies no age, occupation, exact address, relatives or individual subscription amount. Dundrum identifies the collection context; it is not an explicit statement of John’s residence. Glasgow-2058, Glasgow-1968 and Glasgow-2056 survive as chronology comparisons only; none has a checked Dublin or Dundrum bridge. No identification or religious affiliation is inferred from the political subscription.",
+              "sources": [
+                {
+                  "title": "Freeman’s Journal and Daily Commercial Advertiser, 19 October 1840, p.4, Loyal National Repeal Association subscriptions",
+                  "url": "https://www.newspapers.com/image/1050137248/"
+                }
+              ]
+            }
+          ],
+          "candidates": [
+            {
+              "id": "Glasgow-2058",
+              "reason": "Adult chronology comparison; no Dundrum connection established."
+            },
+            {
+              "id": "Glasgow-1968",
+              "reason": "Adult chronology comparison before either proposed Michigan migration; no Dundrum bridge."
+            },
+            {
+              "id": "Glasgow-2056",
+              "reason": "Born about 1812 in the catalogue; adult chronology comparison, no Dublin bridge."
+            }
+          ],
+          "duplicate_check": [
+            "Reviewed approved public historical catalogue metadata and maintained findings on 4 October 2026. Candidates are qualified comparisons; no complete duplicate exclusion is claimed."
+          ],
+          "next_test": "Check adjacent dated subscription reports and Dundrum/Dublin directories for an address or trade identifying John.",
+          "draft_sources": [
+            "research/newspapers-john-freeholders-2026-10-04.md"
+          ],
+          "wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nJohn Glasgow occurs in the Loyal National Repeal Association subscription report, under “Per Mr. Edward Byrne, Dundrum,” published on 19 October 1840. This is a personal surname occurrence in a named collection list. <ref>[https://www.newspapers.com/image/1050137248/ Freeman’s Journal and Daily Commercial Advertiser, 19 October 1840, p.4, Loyal National Repeal Association subscriptions], original inspected 4 October 2026.</ref>\n\n== Research Notes ==\nThe list supplies no age, occupation, exact address, relatives or individual subscription amount. Dundrum identifies the collection context; it is not an explicit statement of John’s residence. Glasgow-2058, Glasgow-1968 and Glasgow-2056 survive as chronology comparisons only; none has a checked Dublin or Dundrum bridge. No identification or religious affiliation is inferred from the political subscription.\n\nPossible identities: [[Glasgow-2058|Glasgow-2058]], [[Glasgow-1968|Glasgow-1968]], [[Glasgow-2056|Glasgow-2056]]. These comparisons are not established identifications.\n\nCheck adjacent dated subscription reports and Dundrum/Dublin directories for an address or trade identifying John.\n\n== Sources ==\n<references />\n"
+        },
+        {
+          "anchor": "john-drogheda-constable",
+          "name": "John Glasgow, Drogheda sub-constable, 1850",
+          "status": "HOLD — identity unassigned; compatible comparisons",
+          "identity_note": "Occupation and police station are explicit; age, birthplace, relatives and exact service dates are unstated. Glasgow-2056, Glasgow-2537 and Glasgow-867 are adult chronology comparisons only, with no checked constabulary connection. An administrative Drogheda probate label on a different John lead is not evidence of Drogheda residence or police service. Royal Irish Constabulary service records and local directories are the next identity tests.",
+          "minimum_fields": "John Glasgow; male; sub-constable, Drogheda police, October 1850; birth/death, parents and spouse unstated.",
+          "facts": [
+            {
+              "finding_id": "john-glasgow-drogheda-subconstable-1850",
+              "finding": "Sub-constable John Glasgow, explicitly of the Drogheda police, appears in a court report on 19 October 1850. He found the prisoner running away with a bag of meal in an oatmeal-theft case. John is the police witness, not the accused.",
+              "qualification": "Occupation and police station are explicit; age, birthplace, relatives and exact service dates are unstated. Glasgow-2056, Glasgow-2537 and Glasgow-867 are adult chronology comparisons only, with no checked constabulary connection. An administrative Drogheda probate label on a different John lead is not evidence of Drogheda residence or police service. Royal Irish Constabulary service records and local directories are the next identity tests.",
+              "sources": [
+                {
+                  "title": "The Drogheda Argus and Leinster Journal, 19 October 1850, p.2, court theft report",
+                  "url": "https://www.newspapers.com/image/1259561281/"
+                }
+              ]
+            }
+          ],
+          "candidates": [
+            {
+              "id": "Glasgow-2056",
+              "reason": "Born about 1812; age fits police service, occupation and station unproved."
+            },
+            {
+              "id": "Glasgow-2537",
+              "reason": "Born about 1815; age fits police service, occupation and station unproved."
+            },
+            {
+              "id": "Glasgow-867",
+              "reason": "Born about 1801; adult comparison, no checked police career or Louth record."
+            }
+          ],
+          "duplicate_check": [
+            "Reviewed approved public historical catalogue metadata and maintained findings on 4 October 2026. Candidates are qualified comparisons; no complete duplicate exclusion is claimed."
+          ],
+          "next_test": "Inspect constabulary general registers and Drogheda directories for service number, age, native county and appointment/transfer dates.",
+          "draft_sources": [
+            "research/newspapers-john-freeholders-2026-10-04.md"
+          ],
+          "wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nSub-constable John Glasgow, explicitly of the Drogheda police, appears in a court report on 19 October 1850. He found the prisoner running away with a bag of meal in an oatmeal-theft case. John is the police witness, not the accused. <ref>[https://www.newspapers.com/image/1259561281/ The Drogheda Argus and Leinster Journal, 19 October 1850, p.2, court theft report], original inspected 4 October 2026.</ref>\n\n== Research Notes ==\nOccupation and police station are explicit; age, birthplace, relatives and exact service dates are unstated. Glasgow-2056, Glasgow-2537 and Glasgow-867 are adult chronology comparisons only, with no checked constabulary connection. An administrative Drogheda probate label on a different John lead is not evidence of Drogheda residence or police service. Royal Irish Constabulary service records and local directories are the next identity tests.\n\nPossible identities: [[Glasgow-2056|Glasgow-2056]], [[Glasgow-2537|Glasgow-2537]], [[Glasgow-867|Glasgow-867]]. These comparisons are not established identifications.\n\nInspect constabulary general registers and Drogheda directories for service number, age, native county and appointment/transfer dates.\n\n== Sources ==\n<references />\n"
         }
       ]
     }

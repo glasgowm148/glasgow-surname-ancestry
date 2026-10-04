@@ -7,10 +7,20 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 This profile correctly represents the otherwise unidentified Robert Glasgow
 documented at Coltrim from 1820 through 1831. Nothing presently identifies his
-parents, wife or children, or proves that he was the Glenleslie Robert
+parents, wife or children. The 1831 Loughinsholin freeholder is a strong compatible candidate, but no townland or family detail proves that identity. Nothing proves that he was the Glenleslie Robert
 `Glasgow-1367`, the 1827 Dunnabraggy occupier or the 1834 Lisnagaver occupier.
 
 ## Source findings
+
+### Loughinsholin freeholder comparison, 4 October 2026
+
+The 16 August 1831 declaration lists Robert Glasgow and John Glasgow among freeholders of the barony printed Loughinshollen (modern Loughinsholin), County Londonderry, supporting Sir Robert Bateson. They are co-signatories; no kinship, occupation, age or individual townland is given. Castledawson and 4 July 1831 refer to the opposing meeting discussed in the declaration, not their homes or their signing date.
+
+Robert Glasgow-3941, the Coltrim land occupier documented in 1820–1831, is a strong compatible regional candidate; the newspaper lacks a townland or family bridge to prove it. Glasgow-2656 of the Cookstown district remains another adult comparison. Glasgow-12 has an Ohio record sequence and is a weaker comparison despite Moneymore origin; the newspaper does not resolve his travel or retained Irish property. No Robert is identified as John’s father or brother, or as the surgeon’s father, from this signature.
+
+[Belfast News-Letter, 16 August 1831, p.3, Loughinshollen freeholders’ declaration](https://www.newspapers.com/image/390548642/)
+
+[Complete held comparison](/research/subjects/newspapers-irish-1800-1850/#robert-loughinsholin-freeholder).
 
 | Source | Finding | Assessment |
 | --- | --- | --- |

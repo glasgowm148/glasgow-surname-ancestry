@@ -12299,10 +12299,11 @@
         "Glasgow-2058",
         "Glasgow-1968"
       ],
-      "assessment": "John Glasgow-2058, later described as a merchant in his son’s 1856 marriage, is compatible by name, trade and district. The advertisement gives no age, exact address or relatives, so it does not prove that identification or identify Benjamin’s grandparents. Other local Johns remain comparisons; no parent or brother is attached from this advertisement.",
+      "assessment": "Glasgow-2058 is compatible by name, Cookstown district and the merchant occupation independently recorded in Benjamin-2059’s 1856 marriage. None of these advertisements names relatives, age or street address. Repeated agent lists are advertisements for one trading role, not independent family proofs. John’s parents remain unknown. Glasgow-1968 remains a weaker comparison: his family histories give migration to Michigan in 1844 or 1848; the Drummeen tithe and 1850/1851 probate leads are not securely assigned to him, and probate year is not a death date.",
       "reviewed_on": "2026-10-04",
       "source_refs": [
-        "research/newspapers-james-career-family-2026-10-04.md"
+        "research/newspapers-james-career-family-2026-10-04.md",
+        "research/newspapers-john-freeholders-2026-10-04.md"
       ],
       "searches_performed": [
         "Live Glasgow-2058 biography/family read4 October; approved historical Irish catalogue local Johns checked. Other adult Johns2056/1967/2537/1699 are not excluded merely by absent trade fields; broader duplicate check remains incomplete."
@@ -12336,6 +12337,76 @@
       ],
       "searches_performed": [
         "Bounded regional catalogue namesake comparison; no source identifies the accused with a profile. The later Larne/Demerara, Castledawson and Belfast roles remain separate identity questions."
+      ]
+    },
+    "subject-newspapers-irish-1800-1850-robert-loughinsholin-freeholder": {
+      "id": "subject-newspapers-irish-1800-1850-robert-loughinsholin-freeholder",
+      "status": "compatible_candidate",
+      "profile_ids": [
+        "Glasgow-3941",
+        "Glasgow-2656",
+        "Glasgow-12"
+      ],
+      "assessment": "Robert Glasgow-3941, the Coltrim land occupier documented in 1820–1831, is a strong compatible regional candidate; the newspaper lacks a townland or family bridge to prove it. Glasgow-2656 of the Cookstown district remains another adult comparison. Glasgow-12 has an Ohio record sequence and is a weaker comparison despite Moneymore origin; the newspaper does not resolve his travel or retained Irish property. No Robert is identified as John’s father or brother, or as the surgeon’s father, from this signature.",
+      "reviewed_on": "2026-10-04",
+      "source_refs": [
+        "research/newspapers-john-freeholders-2026-10-04.md"
+      ],
+      "searches_performed": [
+        "Reviewed approved public historical catalogue metadata and maintained findings on 4 October 2026. Candidates are qualified comparisons; no complete duplicate exclusion is claimed."
+      ]
+    },
+    "subject-newspapers-irish-1800-1850-john-loughinsholin-freeholder": {
+      "id": "subject-newspapers-irish-1800-1850-john-loughinsholin-freeholder",
+      "status": "compatible_candidate",
+      "profile_ids": [
+        "Glasgow-1968",
+        "Glasgow-2058",
+        "Glasgow-3927",
+        "Glasgow-2990",
+        "Glasgow-4090"
+      ],
+      "assessment": "Glasgow-1968 is a compatible chronology comparison, but the 1827 Drummeen tithe subject is itself unproved as that profile. Glasgow-2058, Glasgow-3927 (an indexed freeholder with uncertain locality), Glasgow-2990 and Glasgow-4090 remain adult regional comparisons. No same-name co-signature establishes descent, brotherhood or identity with the Cookstown merchant. The declaration concerns a holding in the barony, not necessarily residence there.",
+      "reviewed_on": "2026-10-04",
+      "source_refs": [
+        "research/newspapers-john-freeholders-2026-10-04.md"
+      ],
+      "searches_performed": [
+        "Reviewed approved public historical catalogue metadata and maintained findings on 4 October 2026. Candidates are qualified comparisons; no complete duplicate exclusion is claimed."
+      ]
+    },
+    "subject-newspapers-irish-1800-1850-john-dundrum-subscription": {
+      "id": "subject-newspapers-irish-1800-1850-john-dundrum-subscription",
+      "status": "compatible_candidate",
+      "profile_ids": [
+        "Glasgow-2058",
+        "Glasgow-1968",
+        "Glasgow-2056"
+      ],
+      "assessment": "The list supplies no age, occupation, exact address, relatives or individual subscription amount. Dundrum identifies the collection context; it is not an explicit statement of John’s residence. Glasgow-2058, Glasgow-1968 and Glasgow-2056 survive as chronology comparisons only; none has a checked Dublin or Dundrum bridge. No identification or religious affiliation is inferred from the political subscription.",
+      "reviewed_on": "2026-10-04",
+      "source_refs": [
+        "research/newspapers-john-freeholders-2026-10-04.md"
+      ],
+      "searches_performed": [
+        "Reviewed approved public historical catalogue metadata and maintained findings on 4 October 2026. Candidates are qualified comparisons; no complete duplicate exclusion is claimed."
+      ]
+    },
+    "subject-newspapers-irish-1800-1850-john-drogheda-constable": {
+      "id": "subject-newspapers-irish-1800-1850-john-drogheda-constable",
+      "status": "compatible_candidate",
+      "profile_ids": [
+        "Glasgow-2056",
+        "Glasgow-2537",
+        "Glasgow-867"
+      ],
+      "assessment": "Occupation and police station are explicit; age, birthplace, relatives and exact service dates are unstated. Glasgow-2056, Glasgow-2537 and Glasgow-867 are adult chronology comparisons only, with no checked constabulary connection. An administrative Drogheda probate label on a different John lead is not evidence of Drogheda residence or police service. Royal Irish Constabulary service records and local directories are the next identity tests.",
+      "reviewed_on": "2026-10-04",
+      "source_refs": [
+        "research/newspapers-john-freeholders-2026-10-04.md"
+      ],
+      "searches_performed": [
+        "Reviewed approved public historical catalogue metadata and maintained findings on 4 October 2026. Candidates are qualified comparisons; no complete duplicate exclusion is claimed."
       ]
     }
   },

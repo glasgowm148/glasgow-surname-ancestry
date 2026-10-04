@@ -35,12 +35,12 @@
       "date_start": 1800,
       "date_end": 1850,
       "reported_entries": 95,
-      "retrieved_entries": 20,
-      "unique_image_count": 20,
-      "end_of_results": false,
-      "previews_screened": 20,
-      "triage": "Twenty first previews screened; next ten are city, parish or shipping matches. The earlier ambiguous 1834 signature was resolved on original 390552388 as John Gemmill, Glasgow city, not a surname.",
-      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/next-john-ni.json"
+      "retrieved_entries": 95,
+      "unique_image_count": 95,
+      "end_of_results": true,
+      "previews_screened": 95,
+      "triage": "All first previews screened oldest-first. Selected original passages verified; repeated merchant advertisements are one role, not separate people. Additional carousel highlights remain unexhausted.",
+      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/full-john-ni.json"
     },
     {
       "query": "\"James Glasgow\"",
@@ -308,12 +308,12 @@
       "date_start": 1800,
       "date_end": 1850,
       "reported_entries": 109,
-      "retrieved_entries": 10,
-      "unique_image_count": 10,
-      "end_of_results": false,
-      "previews_screened": 10,
-      "triage": "First-preview surname/city/vessel triage; original-page review only for selected passages. Additional matches and unloaded entries remain.",
-      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/john-ie.json"
+      "retrieved_entries": 109,
+      "unique_image_count": 109,
+      "end_of_results": true,
+      "previews_screened": 109,
+      "triage": "All first previews screened oldest-first. Selected original passages verified; repeated merchant advertisements are one role, not separate people. Additional carousel highlights remain unexhausted.",
+      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/full-john-ie.json"
     },
     {
       "query": "\"James Glasgow\"",
@@ -641,7 +641,7 @@
       "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/next-henry-ni.json"
     }
   ],
-  "query_history_count": 67,
+  "query_history_count": 69,
   "limitations": [
     "49 distinct queries: 24 quoted catalogue names in each Irish collection plus one contextual Inishrush query; 59 other given-name forms per collection remain unqueried in this interval.",
     "Retrieved result entries are not retained people. Only the stated readable first previews were screened; blank or too-small previews and additional page highlights are not presumed excluded.",
@@ -651,7 +651,8 @@
     "Original captures and screenshots remain private. No live WikiTree edits or production deployment.",
     "Continuation: 95 entries retrieved, 81 readable first previews screened; six originals verified. Nine Adam and five Nancy lazy previews were blank; larger Margaret sets and additional highlights remain. Location selection was verified after using the previously observed Northern Ireland URL filter.",
     "James continuation: 73 additional entries retrieved, 72 additional readable first previews, seven new original surname pages and one original city exclusion. James/John NI reached twenty entries each; Jane Ireland reached ten of 52. Five smaller first-preview result sets reached the end, without exhausting their page carousels.",
-    "James NI continuation adds133retrieved/132 readable first previews; same distinct query, not another unique search. Nine new original surname pages integrated;151 of153 first previews screened,not all carousel highlights."
+    "James NI continuation adds133retrieved/132 readable first previews; same distinct query, not another unique search. Nine new original surname pages integrated;151 of153 first previews screened,not all carousel highlights.",
+    "John continuation: both collections fully retrieved (Northern Ireland 95, Ireland 109) and all first previews screened; adds 174 entries/previews to earlier samples. Seven selected original surname pages verified. The 1831 freeholders’ context is resolved. A damaged 1849 marriage passage remains unassigned/pending; additional carousel highlights and 59 other given forms per collection remain."
   ],
   "catalogue_names_not_yet_quoted_in_Northern_Ireland": [
     "Abigail",
@@ -807,15 +808,22 @@
     "390546223",
     "390552249",
     "390543681",
-    "390563426"
+    "390563426",
+    "390548642",
+    "1256974148",
+    "390559166",
+    "390559823",
+    "1257358494",
+    "1050137248",
+    "1259561281"
   ],
   "reviewed_original_pending_context": [
-    "390548642"
+    "1050134301"
   ],
   "coverage_totals": {
     "distinct_queries": 49,
-    "retrieved_entries": 551,
-    "readable_first_previews_screened": 528,
-    "newly_resolved_original_pages": 32
+    "retrieved_entries": 725,
+    "readable_first_previews_screened": 702,
+    "newly_resolved_original_pages": 39
   }
 }
