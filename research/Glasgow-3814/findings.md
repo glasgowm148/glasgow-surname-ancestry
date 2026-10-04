@@ -13,7 +13,7 @@ The inspected 1883 civil death return identifies William as a bachelor aged 87, 
 | --- | --- | --- |
 | [Cookstown civil death return, 4 July 1883, printed p.300, entry 244](https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1883/06356/4823575.pdf) | 4 July 1883, Loy, Cookstown; bachelor 87, retired merchant; Sarah Bridget present at death and informant. | Direct original, printed p.300 entry 244; confirms profile facts. |
 | [Belfast News-Letter, 4 January 1856, p.1](https://www.newspapers.com/image/390544967/) | William Glasgow, Esq., of Cookstown retired on 1 January 1856; commercial friends presented a silver ewer and cake basket at the Imperial Hotel, Belfast. | Strong compatible candidate, not a confirmed identification. |
-| [Belfast News-Letter, 22 July 1858, p.3](https://www.newspapers.com/image/390574459/) | William Glasgow was uncle of the two plaintiffs; a separate same-name plaintiff also appears. | Possible uncle identity; family bridge still missing. |
+| [Belfast News-Letter, 22 July 1858, p.3](https://www.newspapers.com/image/390574459/) | Benjamin’s evidence says “witness’s uncle, Mr. Glasgow, sen.”; William is a separate case-context identification. A same-name William co-plaintiff also appears; his brother relationship remains qualified. | Possible uncle identity; family bridge still missing. |
 
 ## Unresolved questions — reviewed 4 October 2026
 

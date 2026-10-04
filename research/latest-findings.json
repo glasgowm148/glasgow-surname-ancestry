@@ -16642,7 +16642,7 @@
       "id": "montgreenan-estate-civic-1802-1808",
       "found_on": "2026-10-03",
       "kind": "biographical",
-      "finding": "Game lists establish Robert Glasgow’s Montgreenan designation by 2 September 1802 and again in 1806. The County of Ayr meeting of 13 January 1808 records him as represented by an authorised attendee.",
+      "finding": "Game lists establish Robert Glasgow’s Montgreenan designation by 7 September 1802 and again in 1806. The County of Ayr meeting of 13 January 1808 records him as represented by an authorised attendee.",
       "status": "qualified",
       "qualification": "Licences and representation do not date the purchase, place Robert personally at the meeting or establish kinship.",
       "people": [
@@ -16809,7 +16809,7 @@
       "id": "kilrea-daniel-belfast-death-notices-1871",
       "found_on": "2026-10-03",
       "kind": "record",
-      "finding": "Two Belfast death notices place Daniel Glasgow at Church Street, Kilrea, at his death on 16 October 1871 and give age 73, conflicting with age 75 in the civil register.",
+      "finding": "Two Belfast death notices place Daniel Glasgow at Church Street, Kilrea, at his death on 16 October 1871. The Telegraph gives age 75, corroborating the civil register; the News-Letter gives 73. The earlier both-73 reading was corrected by original-capture review on 4 October 2026.",
       "status": "qualified",
       "qualification": "Daniel-3896 is identified by name, locality and exact death date. The newspapers repeat one notice, so their ages are not independent. Retain both attributed ages; no relationship upgrade.",
       "people": [
@@ -16974,7 +16974,7 @@
       "id": "drapersfield-two-williams-and-benjamin-1858",
       "found_on": "2026-10-04",
       "kind": "record",
-      "finding": "The named witness Benjamin Glasgow identifies the late Robert Glasgow as his father, says he managed his father’s mill from 1850, and dates Robert’s death to 1856. Wm. Glasgow senior was Benjamin’s uncle.",
+      "finding": "The named witness Benjamin Glasgow identifies the late Robert Glasgow as his father, says he managed his father’s mill from 1850, and dates Robert’s death to 1856. Benjamin’s evidence describes a companion as “witness’s uncle, Mr. Glasgow, sen.”; identification as William belongs to the separate case context, not this quotation.",
       "significance": "Separates documented people and preserves the source limits before any WikiTree change.",
       "status": "qualified",
       "qualification": "Certain documentary father–son relationship; identification of Robert with Glasgow-2656 or Glasgow-3941 remains qualified. Counsel’s reference to Robert’s sons supports a qualified brother inference for co-plaintiff William. The uncle’s paternal or maternal side and all mothers are unstated. No parents are established for John Glasgow-2058.",
@@ -18382,6 +18382,79 @@
       ],
       "detail_url": "/people/glasgow-3932.html",
       "provenance": "research/Glasgow-3932/findings.md"
+    },
+    {
+      "id": "philip-glasco-younger-wife-death-1765",
+      "kind": "biographical",
+      "finding": "A 1765 original death column names the unnamed wife of Philip Glasco junior, the Christ-church-lane watchmaker.",
+      "qualification": "The younger designation, trade and address make Glasgow-3932 a probable match. If correct, this indicates an earlier wife before the 1768 Teresa Plunkett marriage. Her given and maiden names, and exact death day, are unstated; no parent or named-spouse change follows.",
+      "sources": [
+        {
+          "title": "The Public Register, or, Freeman’s Journal, 28 September 1765, p.3",
+          "url": "https://www.newspapers.com/image/1050029120/"
+        }
+      ],
+      "found_on": "2026-10-04",
+      "status": "confirmed",
+      "people": [
+        {
+          "name": "Philip Glasco junior",
+          "id": "Glasgow-3932",
+          "url": "/people/glasgow-3932.html"
+        }
+      ],
+      "detail_url": "/people/glasgow-3932.html",
+      "provenance": "research/Glasgow-3932/findings.md"
+    },
+    {
+      "id": "nicholas-glasco-southwark-1746",
+      "kind": "biographical",
+      "finding": "The 1746 newspaper roster names Nicholas Glasco among rebel-army officers reported committed to New Gaol, Southwark.",
+      "qualification": "This is committal reporting, not conviction or individual rank. No compatible historical profile was found in the bounded local lookup; origin, dates and family remain unknown. Printed Glasco is retained without assuming a Glasgow-family identity. Issue date follows provider metadata; masthead date not separately checked.",
+      "sources": [
+        {
+          "title": "Weekly Worcester Journal, 20 June 1746, p.4",
+          "url": "https://www.newspapers.com/image/1214317653/"
+        }
+      ],
+      "found_on": "2026-10-04",
+      "status": "confirmed",
+      "people": [
+        {
+          "name": "Nicholas Glasco",
+          "url": "/research/subjects/newspapers-early-glasgow/#nicholas-glasco-southwark",
+          "draft_url": "/research/subjects/newspapers-early-glasgow/#nicholas-glasco-southwark"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-1214317653",
+      "provenance": "surname-research/new-people/1746_England_Southwark_Nicholas_Glasco.md"
+    },
+    {
+      "id": "daniel-kilrea-newspaper-age-correction-20261004",
+      "kind": "biographical",
+      "finding": "The original Evening Telegraph death notice for Daniel Glasgow prints 75, agreeing with civil registration. The News-Letter prints 73.",
+      "qualification": "Both notices identify the Church Street, Kilrea death on 16 October 1871. This corrects the earlier both-73 reading; keep the News-Letter discrepancy. No new parent or other relationship follows.",
+      "sources": [
+        {
+          "title": "Belfast Evening Telegraph, 21 October 1871, p.3",
+          "url": "https://www.newspapers.com/image/1267991526/"
+        },
+        {
+          "title": "Belfast News-Letter, 21 October 1871, p.1",
+          "url": "https://www.newspapers.com/image/388271252/"
+        }
+      ],
+      "found_on": "2026-10-04",
+      "status": "confirmed",
+      "people": [
+        {
+          "name": "Daniel Glasgow",
+          "id": "Glasgow-3896",
+          "url": "/people/glasgow-3896.html"
+        }
+      ],
+      "detail_url": "/people/glasgow-3896.html",
+      "provenance": "research/Glasgow-3896/findings.md"
     }
   ]
 }

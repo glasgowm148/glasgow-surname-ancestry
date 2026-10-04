@@ -12,25 +12,34 @@ WEB = ROOT / "www"
 SOURCE = ROOT / "surname-research/indexes/glasgow-newspaper-review.json"
 START, END = "<!-- early-newspapers:start -->", "<!-- early-newspapers:end -->"
 PUBLIC_ROW_FIELDS = ("image_id", "date", "paper", "page", "source_url", "queries",
-                     "status", "reading", "assessment", "profile_ids", "draft_url", "reviewed_on")
+                     "status", "reading", "assessment", "profile_ids", "profile_matches", "draft_url", "reviewed_on")
 
 
-def profile_links(ids: list[str]) -> str:
+def profile_links(ids: list[str], matches: list[dict] | None = None) -> str:
     links = []
+    matches = matches or []
     for ident in ids or []:
         ident = str(ident).strip()
         if not ident:
             continue
         slug = ident.lower()
         href = f"/people/{slug}.html" if (WEB / "people" / f"{slug}.html").exists() else f"https://www.wikitree.com/wiki/{ident}"
-        links.append(f'<a href="{escape(href, quote=True)}">{escape(ident)}</a>')
+        match = next((item for item in matches if str(item.get("profile_id") or item.get("id")) == ident), None)
+        if match:
+            confidence = str(match.get("confidence") or "unknown").casefold()
+            if confidence not in {"strong", "probable", "possible", "unknown", "excluded"}: confidence = "unknown"
+            role = f' · {escape(str(match["role"]))}' if match.get("role") else ""
+            basis = f' — {escape(str(match["basis"]))}' if match.get("basis") else ""
+            links.append(f'<a href="{escape(href, quote=True)}">{escape(ident)}</a> <span class="sc-confidence-{confidence}">{confidence}{role}{basis}</span>')
+        else:
+            links.append(f'<a href="{escape(href, quote=True)}">{escape(ident)}</a> <span class="sc-confidence-possible">possible candidate; identity unresolved</span>')
     return ", ".join(links) or "—"
 
 
 def render(data: dict) -> str:
     groups = {status: [] for status in ("confirmed surname", "place study", "place or ship", "reading pending")}
     for row in sorted(data["rows"], key=lambda item: (item.get("date", ""), item.get("image_id", ""))):
-        links = [profile_links(row.get("profile_ids", []))]
+        links = [profile_links(row.get("profile_ids", []), row.get("profile_matches", []))]
         if row.get("draft_url"):
             links.append(f'<a href="{escape(str(row["draft_url"]), quote=True)}">Research draft</a>')
         issue = f'{row.get("date", "—")} · {row.get("paper", "—")} · p. {row.get("page", "—")}'

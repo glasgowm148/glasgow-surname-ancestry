@@ -4,7 +4,8 @@ import json
 from pathlib import Path
 import unittest
 from bs4 import BeautifulSoup
-from tools.build_source_collections import ROOT, WEB, TYPES, guide, newspaper_body, newspaper_card
+from tools.build_source_collections import ROOT, WEB, TYPES, guide, newspaper_body, newspaper_card, newspaper_groups, newspaper_country, profile_links
+from tools.publish_newspaper_review import PUBLIC_ROW_FIELDS, render as render_newspaper_review
 
 
 class SourceCollectionsTests(unittest.TestCase):
@@ -73,16 +74,22 @@ class SourceCollectionsTests(unittest.TestCase):
         soup = BeautifulSoup(page, 'html.parser')
         records = soup.select('#newspaper-records .sc-newspaper')
         retained = [r for r in self.newspapers['rows'] if r['status'] in ('confirmed surname','place study')]
-        self.assertEqual(len(records),len(retained))
-        self.assertEqual(len(soup.select('.sc-newspaper')), len(self.newspapers['rows']))
-        self.assertEqual([x['data-year'] for x in records], sorted(x['data-year'] for x in records))
+        self.assertEqual(len(records), len(newspaper_groups(retained)))
+        expected_cards = sum(len(newspaper_groups([r for r in self.newspapers['rows'] if r['status'] == status])) for status in ('confirmed surname', 'place study', 'place or ship', 'reading pending'))
+        self.assertEqual(len(soup.select('.sc-newspaper')), expected_cards)
+        years = [x['data-year'] for x in records]
+        self.assertEqual(years, sorted(years, key=lambda value: int(value.split(',')[0])))
         for row in self.newspapers['rows']:
             node = soup.find(id='newspaper-'+str(row['image_id']))
             self.assertIsNotNone(node)
-            self.assertIn(row['assessment'], node.get_text())
-            self.assertIsNotNone(node.find('a',href=row['source_url']))
+            article = node.find_parent('article') or node
+            self.assertIn(row['assessment'], article.get_text())
+            self.assertIsNotNone(article.find('a',href=row['source_url']))
         self.assertIn('not confirmed surname records',page)
-        self.assertEqual(len(soup.select('figure img')), self.pages['inline_newspaper_excerpts'])
+        manifest = json.loads((ROOT/'research/source-library/newspaper-clippings.json').read_text())
+        approved_paths = [a['public_path'] for a in manifest['assets']] + [extra['public_path'] for a in manifest['assets'] for extra in a.get('additional_excerpts', [])]
+        reachable = {node.get('src', '').lstrip('/') for node in soup.select('figure img')} | {node.get('href', '').lstrip('/') for node in soup.select('a[href]')}
+        self.assertTrue(set(approved_paths) <= reachable)
 
     def test_only_hash_approved_bounded_clips_are_public(self):
         manifest = json.loads((ROOT/'research/source-library/newspaper-clippings.json').read_text())
@@ -116,14 +123,112 @@ class SourceCollectionsTests(unittest.TestCase):
             if status != 'confirmed surname':
                 self.assertNotIn('Saved excerpt pending', card)
 
+    def test_identical_readings_group_but_keep_issue_anchors_and_links(self):
+        rows = [
+            {'image_id': 'a', 'date': '1800-01-01', 'paper': 'Paper A', 'page': 1,
+             'status': 'confirmed surname', 'reading': 'Same notice.', 'source_url': 'https://a'},
+            {'image_id': 'b', 'date': '1801-01-01', 'paper': 'Paper B', 'page': 2,
+             'status': 'confirmed surname', 'reading': 'Same notice.', 'source_url': 'https://b'},
+            {'image_id': 'c', 'date': '1802-01-01', 'paper': 'Paper C', 'page': 3,
+             'status': 'confirmed surname', 'reading': 'Different notice', 'source_url': 'https://c'},
+        ]
+        groups = newspaper_groups(rows)
+        self.assertEqual([[r['image_id'] for r in g] for g in groups], [['a', 'b'], ['c']])
+        html = newspaper_card(rows[0], {}, WEB, groups[0])
+        self.assertEqual(html.count('<article'), 1)
+        self.assertIn('id="newspaper-b"', html)
+        self.assertIn('https://a', html)
+        self.assertIn('https://b', html)
+        self.assertIn('Repeated notice — 2 original issues', html)
+
+    def test_profile_links_use_candidate_label_without_inventing_identity(self):
+        row = {'profile_ids': ['Glasgow-2375'], 'assessment': 'Compatible candidate; identity remains unresolved.'}
+        html = newspaper_card({**row, 'image_id':'x', 'date':'1800-01-01', 'paper':'Paper', 'page':1,
+                               'status':'confirmed surname', 'reading':'A reading', 'source_url':'https://x'}, {}, WEB)
+        self.assertIn('possible candidate; identity unresolved', html)
+        self.assertIn('Aaron Glasgow', html)
+
+    def test_profile_confidence_requires_curated_match_and_keeps_roles(self):
+        base = {'image_id':'x', 'date':'1800-01-01', 'paper':'Paper', 'page':1,
+                'status':'confirmed surname', 'reading':'A reading', 'source_url':'https://x',
+                'profile_ids':['Glasgow-2375'], 'assessment':'Not the same person; strong match is conditional.'}
+        fallback = newspaper_card(base, {}, WEB)
+        self.assertIn('possible candidate; identity unresolved', fallback)
+        self.assertNotIn('sc-confidence-strong', fallback)
+        curated = dict(base, profile_matches=[{'profile_id':'Glasgow-2375', 'confidence':'probable',
+                                                'role':'record subject', 'basis':'checked chronology'}])
+        checked = newspaper_card(curated, {}, WEB)
+        self.assertIn('probable', checked)
+        self.assertIn('record subject', checked)
+        self.assertIn('checked chronology', checked)
+
+    def test_profile_candidates_show_recorded_life_dates(self):
+        html = profile_links({'profile_ids': ['Glasgow-951', 'Glasgow-3904']}, WEB)
+        self.assertIn('b. c. 1811; d. 1888', html)
+        self.assertIn('b. c. 1770; d. ?', html)
+        self.assertIn('href="/people/glasgow-951.html"', html)
+
+    def test_excluded_curated_candidate_is_labeled_without_promoting_identity(self):
+        html = profile_links({'profile_ids': ['Glasgow-951'], 'profile_matches': [{'profile_id': 'Glasgow-951', 'confidence': 'excluded', 'role': 'comparison name', 'basis': 'conflicting chronology'}]}, WEB)
+        self.assertIn('sc-confidence-excluded', html)
+        self.assertIn('conflicting chronology', html)
+
+    def test_publisher_preserves_curated_profile_match_fields_for_cards(self):
+        self.assertIn('profile_matches', PUBLIC_ROW_FIELDS)
+        data = {'rows': [{'image_id': 'x', 'date': '1746-01-01', 'paper': 'Weekly Worcester Journal',
+                          'page': 1, 'source_url': 'https://www.newspapers.com/image/123/',
+                          'status': 'confirmed surname', 'reading': 'A reading', 'assessment': 'Checked.',
+                          'profile_ids': ['Glasgow-2375'], 'profile_matches': [{'profile_id': 'Glasgow-2375',
+                          'confidence': 'probable', 'role': 'record subject', 'basis': 'dated place match'}]}],
+                'limitations': [], 'conclusion': '', 'scope': '', 'reviewed_at': ''}
+        html = render_newspaper_review(data)
+        self.assertIn('probable', html)
+        self.assertIn('record subject', html)
+        self.assertIn('dated place match', html)
+        self.assertEqual(newspaper_country('Weekly Worcester Journal'), 'England')
+
+    def test_group_keeps_each_assessment_and_uses_selected_clip_metadata(self):
+        rows = [
+            {'image_id':'a', 'date':'1800-01-01', 'paper':'A', 'page':1, 'status':'confirmed surname',
+             'reading':'Same', 'source_url':'https://a', 'assessment':'First assessment.'},
+            {'image_id':'b', 'date':'1801-01-01', 'paper':'B', 'page':2, 'status':'confirmed surname',
+             'reading':'Same', 'source_url':'https://b', 'assessment':'Second assessment.'},
+        ]
+        clips = {'b': {'url':'/b.png', 'width':10, 'height':10, 'caption_note':'B crop.'}}
+        html = newspaper_card(rows[0], clips, WEB, rows)
+        self.assertIn('Source reference: B · 1801-01-01 · p. 2', html)
+        self.assertIn('First assessment.', html)
+        self.assertIn('Second assessment.', html)
+        self.assertEqual(html.count('<figure>'), 1)
+
+    def test_selected_issue_supplements_are_visible_and_alternate_crops_are_links(self):
+        rows = [{'image_id':'a', 'date':'1800-01-01', 'paper':'A', 'page':1, 'status':'confirmed surname',
+                 'reading':'Same', 'source_url':'https://a', 'assessment':'A.'},
+                {'image_id':'b', 'date':'1801-01-01', 'paper':'B', 'page':2, 'status':'confirmed surname',
+                 'reading':'Same', 'source_url':'https://b', 'assessment':'B.'}]
+        clips = {'a': {'url':'/a.png', 'width':10, 'height':10, 'caption_note':'opening',
+                       'additional_excerpts':[{'url':'/a-more.png', 'width':10, 'height':10, 'caption_note':'continuation'}]},
+                 'b': {'url':'/b.png', 'width':10, 'height':10, 'caption_note':'alternate'}}
+        html = newspaper_card(rows[0], clips, WEB, rows)
+        self.assertIn('Additional excerpts from this issue', html)
+        self.assertIn('/a-more.png', html)
+        self.assertIn('alternate', html)
+        self.assertEqual(html.count('<figure>'), 2)
+
     def test_all_retained_pre1800_pages_have_visible_excerpts(self):
         soup = BeautifulSoup((WEB/'sources/newspapers/index.html').read_text(), 'html.parser')
         early = [r for r in self.newspapers['rows'] if r['status']=='confirmed surname' and r['date'][:4].isdigit() and int(r['date'][:4])<1800]
         self.assertTrue(early)
-        for row in early:
+        manifest = json.loads((ROOT/'research/source-library/newspaper-clippings.json').read_text())
+        clips = {str(a['image_id']): a for a in manifest['assets']}
+        clips.update({str(a['image_id']): a for a in manifest['assets'] for a in a.get('additional_excerpts', [])})
+        for row in [r for r in self.newspapers['rows'] if r['status'] in ('confirmed surname','place study')]:
             card = soup.find(id='newspaper-'+str(row['image_id']))
-            self.assertIsNotNone(card.find('img'), row['image_id'])
-            self.assertNotIn('Saved excerpt pending', card.get_text())
+            article = card.find_parent('article') or card
+            if str(row['image_id']) in clips:
+                self.assertTrue(article.find('img', src='/' + clips[str(row['image_id'])]['public_path']) or article.find('a', href='/' + clips[str(row['image_id'])]['public_path']), row['image_id'])
+            if row in early:
+                self.assertNotIn('Saved excerpt pending', article.get_text())
         cargo = soup.find(id='newspaper-72017846')
         self.assertEqual(len(cargo.select('figure img')), 2)
         self.assertEqual(len({img['src'] for img in cargo.select('figure img')}), 2)

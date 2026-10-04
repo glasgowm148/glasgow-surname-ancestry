@@ -2211,6 +2211,18 @@
       "end_of_results": true,
       "triage": "No good exact matches. Earlier broad AnnGlasgow highlight remains unread.",
       "source_capture": "artifacts/pre1800-variants-20261004/coverage.md"
+    },
+    {
+      "query": "\"Glafco\"",
+      "collection": "Worldwide",
+      "date_start": 1600,
+      "date_end": 1799,
+      "reported_entries": 28,
+      "retrieved_entries": 27,
+      "previews_screened": 27,
+      "end_of_results": true,
+      "triage": "All27 unique loaded preview cards screened; displayed total28 differs. Newly inspected1746 Nicholas and1765 unnamed Mrs.Glasco retained. Other promising previews still require original inspection; this does not establish exhaustive coverage.",
+      "source_capture": "artifacts/pre1800-root-20261004/glafco-28-cards.json"
     }
   ],
   "new_original_passages": {
@@ -2246,7 +2258,9 @@
       "1050048882",
       "394231375",
       "32820363",
-      "1050148115"
+      "1050148115",
+      "1214317653",
+      "1050029120"
     ],
     "excluded_passage_image_ids": [
       "41038726",
@@ -2276,7 +2290,8 @@
     "A temporary provider connection search pause occurred; queries stopped until the page recovered. No current access blocker.",
     "Licensed page pixels and raw reading captures stay in the private cache; this review is not a QMD indexing authorization.",
     "Worldwide exact-name John Glasco returned zero although broader Glasco found the verified 1799 original. Query totals and completed retrieval do not establish complete surname coverage.",
-    "Parallel continuation on 4 October 2026: worldwide Glascow loaded 180 of 306 results before a provider result-loader failure; the later Glafco search showed 21 previews, all loaded, but not all originals were inspected. Search counts changed between observations. Abbreviation zero results do not establish absence. Pre-1800 completeness has not been established across all digitised newspapers or all highlights."
+    "Parallel continuation on 4 October 2026: worldwide Glascow loaded 180 of 306 results before a provider result-loader failure; the later Glafco search showed 21 previews, all loaded, but not all originals were inspected. Search counts changed between observations. Abbreviation zero results do not establish absence. Pre-1800 completeness has not been established across all digitised newspapers or all highlights.",
+    "Latest worldwide Glafco continuation displayed28 matches and yielded27 unique preview cards at the end of results. Two further originals inspected and retained; additional jury,passenger,Manasses and JamesOmagh previews are pending original verification. Ten Mac-launcher Luna workers failed during startup before research; no findings or completeness credit were assigned to them."
   ],
   "search_pause_history": [
     {

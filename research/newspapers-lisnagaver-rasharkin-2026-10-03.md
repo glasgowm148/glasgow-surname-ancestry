@@ -2,7 +2,7 @@
 
 ## Result
 
-Two new retained surname pages represent one death notice for [Daniel Glasgow-3896](https://www.wikitree.com/wiki/Glasgow-3896), the proved brother of Thomas of Lisnagaver. Both give 16 October 1871, Church Street, Kilrea, and age 73. The civil register gives 75. The street was already in the valuation evidence; the notice corroborates residence there at death. It supplies no new relatives or parentage.
+Two new retained surname pages represent one death notice for [Daniel Glasgow-3896](https://www.wikitree.com/wiki/Glasgow-3896), the proved brother of Thomas of Lisnagaver. Both give 16 October 1871 and Church Street, Kilrea. The Telegraph gives age 75, corroborating the civil register; the News-Letter gives age 73. Fresh visual review on 4 October 2026 corrects the prior assessment that both gave 73. The street was already in the valuation evidence; the notice corroborates residence there at death. It supplies no new relatives or parentage.
 
 - [Belfast Evening Telegraph, 21 October 1871, p.3](https://www.newspapers.com/image/1267991526/).
 - [Belfast News-Letter, 21 October 1871, p.1](https://www.newspapers.com/image/388271252/).

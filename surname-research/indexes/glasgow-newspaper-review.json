@@ -21,7 +21,8 @@
     "1800–1850 coverage is first-preview triage of 48 quoted-name queries plus one contextual query, not all 83 forms or every match. No new profile relationship is marked certain or saved live. Name, occupation and locality support qualified comparison, not automatic profile attachment.",
     "James NI153 entries were fully retrieved;151 first previews read,two whole-page crime duplicates too small. Every page carousel was not exhausted. New nine originals are privately captured; current profile call/ordination correction is locally queued, not saved live.",
     "John NI 95 and Ireland 109 first previews were all screened; their repeated merchant advertisements are not independent family confirmations. A separate damaged 1849 marriage reading stays pending. Co-signatories are not necessarily relatives; Castledawson 4 July is the opposing meeting, not their residence/signing date. Probate-office locality and grant year do not prove residence or date of death.",
-    "Parallel continuation on 4 October 2026: worldwide Glascow loaded 180 of 306 results before a provider result-loader failure; the later Glafco search showed 21 previews, all loaded, but not all originals were inspected. Search counts changed between observations. Abbreviation zero results do not establish absence. Pre-1800 completeness has not been established across all digitised newspapers or all highlights."
+    "Parallel continuation on 4 October 2026: worldwide Glascow loaded 180 of 306 results before a provider result-loader failure; the later Glafco search showed 21 previews, all loaded, but not all originals were inspected. Search counts changed between observations. Abbreviation zero results do not establish absence. Pre-1800 completeness has not been established across all digitised newspapers or all highlights.",
+    "The expanded long-s variant search displayed 28 matches but 27 unique preview cards were retrieved. Newly inspected 1746 and 1765 originals are retained; other previews remain leads. Complete pre-1800 coverage has not been established."
   ],
   "rows": [
     {
@@ -697,7 +698,27 @@
         "Dunlop-2189",
         "Dunlop-2144"
       ],
-      "reviewed_on": "2026-10-03"
+      "reviewed_on": "2026-10-03",
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-1076",
+          "confidence": "strong",
+          "role": "bridegroom",
+          "basis": "Name and Montgreenan designation agree with the checked marriage."
+        },
+        {
+          "profile_id": "Dunlop-2189",
+          "confidence": "strong",
+          "role": "bride",
+          "basis": "Name, spouse and father of Dunlop agree; preserve the 22/23 February date discrepancy."
+        },
+        {
+          "profile_id": "Dunlop-2144",
+          "confidence": "probable",
+          "role": "bride’s father",
+          "basis": "Compatible John of Dunlop lists Rachel’s 1769 baptism; newspaper names her father."
+        }
+      ]
     },
     {
       "image_id": "393033305",
@@ -709,12 +730,20 @@
         "Montgreenan Glasgow"
       ],
       "status": "confirmed surname",
-      "reading": "Ayrshire list of game licences issued by the Sheriff’s Clerk between 12 July and 2 September 1802: Glasgow, Robert, Esq. of Montgreenan.",
-      "assessment": "Contemporary use of the estate designation by 2 September 1802. It supports the 1802 Montgreenan association, without dating the purchase or establishing a family relationship.",
+      "reading": "Ayrshire list of game licences issued by the Sheriff’s Clerk between 27 July and 7 September 1802: Glasgow, Robert, Esq. of Montgreenan.",
+      "assessment": "Contemporary use of the estate designation by 7 September 1802. It supports the 1802 Montgreenan association, without dating the purchase or establishing a family relationship.",
       "profile_ids": [
         "Glasgow-1076"
       ],
-      "reviewed_on": "2026-10-03"
+      "reviewed_on": "2026-10-03",
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-1076",
+          "confidence": "strong",
+          "role": "Montgreenan estate holder",
+          "basis": "Name, distinctive estate designation and chronology agree with the checked Montgreenan account."
+        }
+      ]
     },
     {
       "image_id": "393042846",
@@ -727,11 +756,19 @@
       ],
       "status": "confirmed surname",
       "reading": "Game licences and deputations issued by the Sheriff Clerk of Ayrshire: Glasgow, Robert, Esq. of Montgreenan. A gamekeeper deputation also names Robert Glasgow of Montgreenan as principal.",
-      "assessment": "List covers 17 July–6 September 1806. Supports continued Montgreenan estate association; a deputation is an appointment of a gamekeeper, not kinship.",
+      "assessment": "List covers 17 July–10 September 1806. Supports continued Montgreenan estate association; a deputation is an appointment of a gamekeeper, not kinship.",
       "profile_ids": [
         "Glasgow-1076"
       ],
-      "reviewed_on": "2026-10-03"
+      "reviewed_on": "2026-10-03",
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-1076",
+          "confidence": "strong",
+          "role": "Montgreenan estate holder",
+          "basis": "Name, distinctive estate designation and chronology agree with the checked Montgreenan account."
+        }
+      ]
     },
     {
       "image_id": "392082759",
@@ -748,7 +785,15 @@
       "profile_ids": [
         "Glasgow-1076"
       ],
-      "reviewed_on": "2026-10-03"
+      "reviewed_on": "2026-10-03",
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-1076",
+          "confidence": "strong",
+          "role": "Montgreenan estate holder",
+          "basis": "Name, distinctive estate designation and chronology agree with the checked Montgreenan account."
+        }
+      ]
     },
     {
       "image_id": "393027340",
@@ -784,7 +829,21 @@
         "Glasgow-951",
         "Glasgow-3904"
       ],
-      "reviewed_on": "2026-10-03"
+      "reviewed_on": "2026-10-03",
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-951",
+          "confidence": "possible",
+          "role": "freeholder applicant",
+          "basis": "Lisnagaver fits; conflicting age estimates leave two compatible Alexanders."
+        },
+        {
+          "profile_id": "Glasgow-3904",
+          "confidence": "possible",
+          "role": "alternative applicant",
+          "basis": "The older Alexander also fits; this notice states no age or relatives."
+        }
+      ]
     },
     {
       "image_id": "396909317",
@@ -869,12 +928,20 @@
         "\"Daniel Glasgow\" Kilrea"
       ],
       "status": "confirmed surname",
-      "reading": "Daniel Glasgow; died 16 October; residence Church Street, Kilrea; age 73.",
-      "assessment": "Identified as Glasgow-3896 by name, place and exact death date. Same notice in two papers; age 73 conflicts with civil-register age 75. No kin or parents stated.",
+      "reading": "Daniel Glasgow; died 16 October; residence Church Street, Kilrea; age 75.",
+      "assessment": "Identified as Glasgow-3896 by name, place and exact death date. Two appearances of the same death notice; the Telegraph gives age 75, agreeing with the civil register, while the News-Letter gives age 73. The prior both-73 reading was corrected by original-capture review on 4 October 2026. No kin or parents stated.",
       "profile_ids": [
         "Glasgow-3896"
       ],
-      "reviewed_on": "2026-10-03"
+      "reviewed_on": "2026-10-04",
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-3896",
+          "confidence": "strong",
+          "role": "deceased subject",
+          "basis": "Name, Church Street, Kilrea and exact 16 October 1871 death date agree; newspaper ages differ."
+        }
+      ]
     },
     {
       "image_id": "388271252",
@@ -887,11 +954,19 @@
       ],
       "status": "confirmed surname",
       "reading": "Daniel Glasgow; died 16 October; residence Church Street, Kilrea; age 73.",
-      "assessment": "Identified as Glasgow-3896 by name, place and exact death date. Same notice in two papers; age 73 conflicts with civil-register age 75. No kin or parents stated.",
+      "assessment": "Identified as Glasgow-3896 by name, place and exact death date. Two appearances of the same death notice; the Telegraph gives age 75, agreeing with the civil register, while the News-Letter gives age 73. The prior both-73 reading was corrected by original-capture review on 4 October 2026. No kin or parents stated.",
       "profile_ids": [
         "Glasgow-3896"
       ],
-      "reviewed_on": "2026-10-03"
+      "reviewed_on": "2026-10-04",
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-3896",
+          "confidence": "strong",
+          "role": "deceased subject",
+          "basis": "Name, Church Street, Kilrea and exact 16 October 1871 death date agree; newspaper ages differ."
+        }
+      ]
     },
     {
       "image_id": "72015499",
@@ -1054,7 +1129,15 @@
         "Glasgow-1675"
       ],
       "draft_url": "",
-      "reviewed_on": "2026-10-04"
+      "reviewed_on": "2026-10-04",
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-1675",
+          "confidence": "strong",
+          "role": "deceased Ohio emigrant",
+          "basis": "Sandusky death, Killycurragh origin and First Cookstown connection agree; preserve the reported 55/56 age discrepancy."
+        }
+      ]
     },
     {
       "image_id": "390544967",
@@ -1073,7 +1156,15 @@
         "Glasgow-3814"
       ],
       "draft_url": "/research/subjects/william-glasgow-irish-newspapers/#cookstown-uncle",
-      "reviewed_on": "2026-10-04"
+      "reviewed_on": "2026-10-04",
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-3814",
+          "confidence": "probable",
+          "role": "retiring Cookstown merchant",
+          "basis": "Age, locality and merchant trade fit; the later senior-uncle identity is still unproved."
+        }
+      ]
     },
     {
       "image_id": "390574459",
@@ -1086,7 +1177,7 @@
         "supplied screenshots and identity checks"
       ],
       "status": "confirmed surname",
-      "reading": "The named witness Benjamin Glasgow identifies the late Robert Glasgow as his father, says he managed his father’s mill from 1850, and dates Robert’s death to 1856. Wm. Glasgow senior was Benjamin’s uncle.",
+      "reading": "The named witness Benjamin Glasgow identifies the late Robert Glasgow as his father, says he managed his father’s mill from 1850, and dates Robert’s death to 1856. Benjamin’s evidence describes a companion as “witness’s uncle, Mr. Glasgow, sen.”; identification as William belongs to the separate case context, not this quotation.",
       "assessment": "Certain documentary father–son relationship; identification of Robert with Glasgow-2656 or Glasgow-3941 remains qualified. Counsel’s reference to Robert’s sons supports a qualified brother inference for co-plaintiff William. The uncle’s paternal or maternal side and all mothers are unstated. No parents are established for John Glasgow-2058.",
       "profile_ids": [
         "Glasgow-3814",
@@ -1100,7 +1191,33 @@
         "reviewed_on": "2026-10-04",
         "assessment": "Two distinct Williams. Robert is father of singular present plaintiff, unspecified between Benjamin and William. Does not prove parents of John-2058.",
         "superseded_by": "Full-viewer reading of the named witness paragraph, 4 October 2026"
-      }
+      },
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-3814",
+          "confidence": "possible",
+          "role": "senior uncle candidate",
+          "basis": "Older Cookstown merchant is compatible; no bridge proves his identity as the senior uncle."
+        },
+        {
+          "profile_id": "Glasgow-1737",
+          "confidence": "possible",
+          "role": "William co-plaintiff",
+          "basis": "Keep co-plaintiff separate from the senior uncle."
+        },
+        {
+          "profile_id": "Glasgow-2656",
+          "confidence": "possible",
+          "role": "Robert father candidate",
+          "basis": "Father–son statement is explicit; exact Robert profile remains unresolved."
+        },
+        {
+          "profile_id": "Glasgow-3941",
+          "confidence": "possible",
+          "role": "conditional father candidate",
+          "basis": "Recorded 1831 death is uncertain. If correct, it conflicts with the witness’s 1856 father-death statement; compare original records."
+        }
+      ]
     },
     {
       "image_id": "390575046",
@@ -1205,7 +1322,21 @@
         "Glasgow-2566"
       ],
       "draft_url": "/research/subjects/william-glasgow-irish-newspapers/#benjamin-drapersfield",
-      "reviewed_on": "2026-10-04"
+      "reviewed_on": "2026-10-04",
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-2059",
+          "confidence": "excluded",
+          "role": "different Benjamin",
+          "basis": "Died 8 February 1870, before the reported July 1870 action; retained as a comparison only."
+        },
+        {
+          "profile_id": "Glasgow-2566",
+          "confidence": "possible",
+          "role": "Benjamin acting at Drapersfield",
+          "basis": "Chronology fits; trade and family identity remain unproved."
+        }
+      ]
     },
     {
       "image_id": "1265675182",
@@ -1549,7 +1680,21 @@
         "Glasgow-2059"
       ],
       "reviewed_on": "2026-10-04",
-      "review_method": "original viewer passage"
+      "review_method": "original viewer passage",
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-2542",
+          "confidence": "strong",
+          "role": "infant subject",
+          "basis": "Name, father, age and death date agree with the checked gravestone."
+        },
+        {
+          "profile_id": "Glasgow-2059",
+          "confidence": "strong",
+          "role": "father",
+          "basis": "The gravestone identifies the Benjamin who died 8 February 1870."
+        }
+      ]
     },
     {
       "image_id": "390574720",
@@ -3667,7 +3812,27 @@
         "Glasgow-2059"
       ],
       "reviewed_on": "2026-10-04",
-      "review_method": "original viewer passage"
+      "review_method": "original viewer passage",
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-2131",
+          "confidence": "strong",
+          "role": "bridegroom",
+          "basis": "Name, occupation, wedding date and minister brother agree."
+        },
+        {
+          "profile_id": "Glasgow-2135",
+          "confidence": "strong",
+          "role": "brother",
+          "basis": "The named Rev. W. G. Glasgow, Dromara agrees with the checked minister."
+        },
+        {
+          "profile_id": "Glasgow-2059",
+          "confidence": "strong",
+          "role": "late father",
+          "basis": "The Cookstown father agrees with the maintained family; this supports an existing link."
+        }
+      ]
     },
     {
       "image_id": "387824879",
@@ -3685,7 +3850,15 @@
       "profile_ids": [
         "Glasgow-2135"
       ],
-      "reviewed_on": "2026-10-04"
+      "reviewed_on": "2026-10-04",
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-2135",
+          "confidence": "strong",
+          "role": "minister accepting call",
+          "basis": "Initials, B.A., Dromara and the checked 1896 marriage agree."
+        }
+      ]
     },
     {
       "image_id": "1265902958",
@@ -3771,7 +3944,21 @@
         "Glasgow-938"
       ],
       "source_url": "https://www.newspapers.com/image/388125998/",
-      "reviewed_on": "2026-10-04"
+      "reviewed_on": "2026-10-04",
+      "profile_matches": [
+        {
+          "profile_id": "Graham-21720",
+          "confidence": "strong",
+          "role": "deceased wife",
+          "basis": "Name, spouse, 534 Gallowgate and 28 December 1891 agree."
+        },
+        {
+          "profile_id": "Glasgow-938",
+          "confidence": "strong",
+          "role": "husband",
+          "basis": "Named spouse agrees with the checked address and family."
+        }
+      ]
     },
     {
       "image_id": "394383940",
@@ -5114,7 +5301,21 @@
         "Glasgow-1780"
       ],
       "draft_url": "/research/subjects/newspapers-irish-1800-1850/#margaret-jane-rajkote",
-      "reviewed_on": "2026-10-04"
+      "reviewed_on": "2026-10-04",
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-2898",
+          "confidence": "strong",
+          "role": "infant subject",
+          "basis": "Name, missionary father, Rajkote and exact death date agree."
+        },
+        {
+          "profile_id": "Glasgow-1780",
+          "confidence": "strong",
+          "role": "father",
+          "basis": "The notice names the missionary James; the existing father link is corroborated."
+        }
+      ]
     },
     {
       "image_id": "390546223",
@@ -5467,6 +5668,55 @@
       "assessment": "The rare name, younger designation, trade, address and bride agree with the existing Philip junior evidence draft and compatible profile Glasgow-3932. This original corroborates the marriage reported in the Public Gazetteer extraction dated 17 September 1768; it does not itself supply that exact wedding date or prove his father. Keep him separate from the elder Philip and the later surname-only watchmaker. OCR Glafco represents printed Glasco.",
       "profile_ids": [
         "Glasgow-3932"
+      ],
+      "reviewed_on": "2026-10-04",
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-3932",
+          "confidence": "probable",
+          "role": "younger watchmaker bridegroom",
+          "basis": "Rare name, younger designation, trade, address and bride agree with the maintained account."
+        }
+      ]
+    },
+    {
+      "image_id": "1214317653",
+      "date": "1746-06-20",
+      "paper": "Weekly Worcester Journal",
+      "page": 4,
+      "source_url": "https://www.newspapers.com/image/1214317653/",
+      "queries": [
+        "\"Glafco\""
+      ],
+      "status": "confirmed surname",
+      "reading": "Nicholas Glasco appears in the list of officers in the rebel army reported committed to New Gaol, Southwark.",
+      "assessment": "Original roster inspected. Printed Glasco is retained as a surname variant; no Glasgow-family or Irish identity is established. This reports committal, not conviction or an individual rank. No compatible historical profile found in the bounded local lookup; a complete documentary draft is linked. Issue date follows provider metadata; masthead date has not been separately checked.",
+      "profile_ids": [],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#nicholas-glasco-southwark",
+      "reviewed_on": "2026-10-04"
+    },
+    {
+      "image_id": "1050029120",
+      "date": "1765-09-28",
+      "paper": "The Public Register, or, Freeman's Journal",
+      "page": 3,
+      "source_url": "https://www.newspapers.com/image/1050029120/",
+      "queries": [
+        "\"Glafco\""
+      ],
+      "status": "confirmed surname",
+      "reading": "The death column reports Mrs. Glasco, wife of Mr. Philip Glasco, junior, watchmaker, in Christ-church-lane. Her given and maiden names are not printed.",
+      "assessment": "The same junior designation, trade and Dublin lane make Glasgow-3932 a probable match to the younger Philip who married Teresa Plunkett in 1768. If the identification is correct, this records an earlier unnamed wife; do not identify her as Teresa or infer parents. The issue supplies a latest date for her death, not an exact day.",
+      "profile_ids": [
+        "Glasgow-3932"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-3932",
+          "confidence": "probable",
+          "role": "husband of deceased unnamed wife",
+          "basis": "Junior designation, watchmaking trade and Christ-church-lane agree; 1768 marriage follows her death."
+        }
       ],
       "reviewed_on": "2026-10-04"
     }

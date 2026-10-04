@@ -1,10 +1,10 @@
 # HOLD — William Glasgow, uncle in the Cookstown mill case
 
-Reviewed 4 October 2026. The named witness Benjamin Glasgow identifies the late Robert Glasgow as his father, says he managed his father’s mill from 1850, and dates Robert’s death to 1856. Wm. Glasgow senior was Benjamin’s uncle. Certain documentary father–son relationship; identification of Robert with Glasgow-2656 or Glasgow-3941 remains qualified. Counsel’s reference to Robert’s sons supports a qualified brother inference for co-plaintiff William. The uncle’s paternal or maternal side and all mothers are unstated. No parents are established for John Glasgow-2058.
+Reviewed 4 October 2026. The named witness Benjamin Glasgow identifies the late Robert Glasgow as his father, says he managed his father’s mill from 1850, and dates Robert’s death to 1856. Benjamin’s evidence describes a companion as “witness’s uncle, Mr. Glasgow, sen.”; identification as William belongs to the separate case context, not this quotation. Certain documentary father–son relationship; identification of Robert with Glasgow-2656 or Glasgow-3941 remains qualified. Counsel’s reference to Robert’s sons supports a qualified brother inference for co-plaintiff William. The uncle’s paternal or maternal side and all mothers are unstated. No parents are established for John Glasgow-2058.
 
 ## Minimum creation fields
 
-William Glasgow senior; adult witness in 1858; exact dates and birthplace unknown. Benjamin’s uncle, distinguished from the younger William plaintiff. Paternal/maternal side unstated; no parents or spouse named.
+Senior Glasgow; identified as William in separate case context. Benjamin’s witness sentence says “witness’s uncle, Mr. Glasgow, sen.” without a forename. Adult in 1858; exact dates and birthplace unknown; distinct from the younger William plaintiff. Paternal/maternal side unstated; no parents or spouse named.
 
 ## Duplicate check
 
@@ -25,10 +25,10 @@ Identify the mill’s Robert through title, probate or lease records and compare
 ```text
 [[Category:Glasgow Name Study]]
 == Biography ==
-William Glasgow gave evidence in the Cookstown mill dispute of Benjamin and William Glasgow against John Sloan in July 1858. He was described as uncle of the plaintiffs, distinguishing him from his same-name nephew who was a plaintiff.<ref>[https://www.newspapers.com/image/390574459/ Belfast News-Letter, 22 July 1858, p.3].</ref> A Cookstown merchant named William Glasgow had retired on 1 January 1856 and was presented with a silver ewer and cake basket by commercial friends in Belfast; his identity with the witness remains unproved.<ref>[https://www.newspapers.com/image/390544967/ Belfast News-Letter, 4 January 1856, p.1].</ref>
+The case account identifies a senior William Glasgow separately from the William co-plaintiff in the July 1858 mill dispute. Benjamin’s evidence calls his companion “witness’s uncle, Mr. Glasgow, sen.”, without a forename in that sentence; extending the uncle relationship to co-plaintiff William depends on the qualified brother inference.<ref>[https://www.newspapers.com/image/390574459/ Belfast News-Letter, 22 July 1858, p.3].</ref> A Cookstown merchant named William Glasgow had retired on 1 January 1856 and was presented with a silver ewer and cake basket by commercial friends in Belfast; his identity with the witness remains unproved.<ref>[https://www.newspapers.com/image/390544967/ Belfast News-Letter, 4 January 1856, p.1].</ref>
 
 == Research Notes ==
-The named witness Benjamin Glasgow identifies the late Robert Glasgow as his father, says he managed his father’s mill from 1850, and dates Robert’s death to 1856. Wm. Glasgow senior was Benjamin’s uncle. Certain documentary father–son relationship; identification of Robert with Glasgow-2656 or Glasgow-3941 remains qualified. Counsel’s reference to Robert’s sons supports a qualified brother inference for co-plaintiff William. The uncle’s paternal or maternal side and all mothers are unstated. No parents are established for John Glasgow-2058.
+The named witness Benjamin Glasgow identifies the late Robert Glasgow as his father, says he managed his father’s mill from 1850, and dates Robert’s death to 1856. Benjamin’s evidence describes a companion as “witness’s uncle, Mr. Glasgow, sen.”; identification as William belongs to the separate case context, not this quotation. Certain documentary father–son relationship; identification of Robert with Glasgow-2656 or Glasgow-3941 remains qualified. Counsel’s reference to Robert’s sons supports a qualified brother inference for co-plaintiff William. The uncle’s paternal or maternal side and all mothers are unstated. No parents are established for John Glasgow-2058.
 
 Identify the mill’s Robert through title, probate or lease records and compare the candidates before any profile relationship attachment. Review the competing father named by Benjamin-2566’s 1876 marriage original; do not reparent that profile from this mill report alone.
 
