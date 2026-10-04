@@ -97,6 +97,31 @@ class PersonDossierPresentationTests(unittest.TestCase):
         self.assertEqual("current biography", result["Glasgow-1"]["draft_wikitext"])
         self.assertFalse(result["Glasgow-1"]["pending"])
 
+    def test_completed_comparison_withholds_private_paragraphs(self):
+        from tools.public_privacy import PublicPrivacy
+        from tools.sync_catalogue_research import completed_comparisons
+
+        biography = "Historical source and family.\n\nPrivate relative [[Example-200]]."
+        evidence = {"profiles": {"Example-100": {"privacy": 60, "biography_wikitext": biography}}}
+        policy = PublicPrivacy({"Example-200": {"birth_date": "1950-01-01"}})
+        result = completed_comparisons(evidence, {"completed_live_profiles": ["Example-100"]}, policy)
+        expected = "Historical source and family.\n\nPrivate family details withheld."
+        self.assertEqual(expected, result["Example-100"]["remote_wikitext"])
+        self.assertEqual(expected, result["Example-100"]["draft_wikitext"])
+        self.assertEqual(biography, evidence["profiles"]["Example-100"]["biography_wikitext"])
+
+    def test_completed_comparison_omits_restricted_or_living_subjects(self):
+        from tools.public_privacy import PublicPrivacy
+        from tools.sync_catalogue_research import completed_comparisons
+
+        evidence = {"profiles": {
+            "Example-100": {"privacy": 35, "biography_wikitext": "Restricted biography"},
+            "Example-200": {"privacy": 60, "biography_wikitext": "Living biography"},
+        }}
+        policy = PublicPrivacy({"Example-200": {"birth_date": "1950-01-01"}})
+        result = completed_comparisons(evidence, {"completed_live_profiles": list(evidence["profiles"])}, policy)
+        self.assertEqual({}, result)
+
     def test_biography_sections_are_visible_navigable_and_label_their_own_tables(self):
         """Authored narrative belongs in the reading flow, including its evidence table."""
         from tools.repair_person_hierarchy import render_person_dossier

@@ -13,9 +13,11 @@ from bs4 import BeautifulSoup
 
 try:
     import build_research_catalog as catalogue
+    from public_privacy import from_sources, public_capture
     from repair_person_hierarchy import _profile_update_panel, _replace_main, revise, render_person_dossier
 except ModuleNotFoundError:
     from tools import build_research_catalog as catalogue
+    from tools.public_privacy import from_sources, public_capture
     from tools.repair_person_hierarchy import _profile_update_panel, _replace_main, revise, render_person_dossier
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -57,8 +59,9 @@ def update_data(update):
     }
 
 
-def completed_comparisons(evidence, queue_payload):
+def completed_comparisons(evidence, queue_payload, policy=None):
     """Materialise a read-only current-vs-draft comparison for completed work."""
+    policy = policy or from_sources(evidence)
     profiles = evidence.get("profiles", {})
     reopened = set(queue_payload.get("reopened_completed_profiles", []))
     entries = queue_payload.get("entries", {})
@@ -66,6 +69,8 @@ def completed_comparisons(evidence, queue_payload):
     comparisons = {}
     for profile_id in sorted(completed):
         capture = profiles.get(profile_id) or {}
+        if profile_id.casefold() in policy.blocked or not public_capture(capture):
+            continue
         current = str(capture.get("biography_wikitext") or "").strip()
         if not current:
             continue
@@ -75,7 +80,7 @@ def completed_comparisons(evidence, queue_payload):
             revision = catalogue._format_profile_timestamp(revision)
         except (AttributeError, TypeError, ValueError):
             revision = str(revision)
-        comparisons[profile_id] = {
+        comparisons[profile_id] = policy.project({
             "profile_id": profile_id,
             "remote_wikitext": current,
             "draft_wikitext": current,
@@ -85,7 +90,7 @@ def completed_comparisons(evidence, queue_payload):
             "pending": False,
             "significance": int(spec.get("significance") or 0),
             "profile_url": capture.get("profile_url") or f"https://www.wikitree.com/wiki/{profile_id}",
-        }
+        })
     return comparisons
 
 
