@@ -1279,3 +1279,13 @@ The maintained mill-family drafts now preserve the explicit Benjamin–Robert fa
 
 - [Dublin Glasco watchmaker](new-people/1779_Ireland_Dublin_Glasco_watchmaker.md): HOLD. The original 1779 and 1780 notices bridge Christ-Church-lane to 20 Ormond Quay; no first name or kin, and no live family amendment justified. Compatible Thomas candidates remain unassigned.
 - [William captain](new-people/1792_Ireland_Belfast_shipping_captain_william.md): April Rotterdam service now precedes the existing Oporto/Bordeaux notices. Larne profile identity remains HOLD; no parent change.
+
+## Military newspaper held identities — 4 October 2026
+
+Three complete source drafts remain HOLD; no WikiTree family/merge changes justified.
+
+- [George Glasgow, senior Royal Artillery officer, 1811–1819](new-people/1811_United_Kingdom_Royal_Artillery_George_Glasgow.md): Read Royal Artillery service/commission and brevet lists with identifying details; establish whether both notices describe the same man before assigning an existing profile.
+- [George Mark Glasgow, Royal Artillery First Lieutenant, 1825](new-people/1825_United_Kingdom_Royal_Artillery_George_Mark_Glasgow.md): Check Royal Artillery officer/service registers, the 1846 Madeline marriage and 1833 Clement Stuart christening originals; compare fathers, age, wife and station before any merge or family change.
+- [Edward George Glasgow, 49th/84th Regiment Lieutenant, 1825](new-people/1825_United_Kingdom_84th_Regiment_Edward_George_Glasgow.md): Search quoted full name, 49th and 84th service/commission lists and pension records for age, family and death before profile creation.
+
+Benjamin-3412: resolve the 1825 newspaper / 1826 university degree discrepancy before assigning the Cookstown surgeon. John-2058: a further 1850 agency source, identity still compatible rather than proved.

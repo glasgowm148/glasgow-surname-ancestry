@@ -58,3 +58,9 @@ Profile prose and trees remain leads; inspect the cited record before treating a
 ### External source links present
 
 - None detected outside WikiTree and sponsored Ancestry links.
+
+## Source findings — Cassell tea and coffee, 4 October 2026
+
+John Cassell coffee and five-shilling tea advertisement: COOKSTOWN—John Glasgow, among the appointed agents. A further original advertisement in the 1848–1850 Cookstown trading sequence, including Cassell tea as well as coffee. Repeated advertisements do not provide independent family proof. John Glasgow-2058 remains compatible by name, locality and merchant occupation; no age, address, parents or uncle link appears.
+
+[Belfast News-Letter, 22 February 1850, p.3](https://www.newspapers.com/image/390556388/) · [Consolidated Cookstown merchant account](/research/subjects/newspapers-irish-1800-1850/#john-cookstown-coffee).

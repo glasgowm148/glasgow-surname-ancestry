@@ -70,3 +70,7 @@ Continue quoted catalogue names and earliest unloaded pages; inspect the 1831 Ro
 ## Continued review, 4 October 2026
 
 The [continuation](newspapers-1800-1850-continuation-2026-10-04.md) adds six original surname pages for Adam D. Glasgow, James of the Institution, and an unassigned Cookstown William. Current cumulative coverage: 43 distinct queries (42 quoted-name and one contextual), 345 entries retrieved, 324 readable first previews screened, 16 originals newly resolved. 62 catalogue forms per collection remain unqueried; larger sets and additional highlights are incomplete. No family certainty changes or live edits.
+
+## Later degree comparison — 4 October 2026
+
+The [7 May 1825 degree report](https://www.newspapers.com/image/1050085983/) now conflicts in year with the university index’s 1826 Master of Surgery entry. Preserve the original earlier assessment above as review history, but use the [current consolidated account](/research/subjects/newspapers-irish-1800-1850/#benjamin-surgeon) and [dated continuation](newspapers-degree-military-agents-2026-10-04.md) for the unresolved date/identity question. A later separate award is not established.

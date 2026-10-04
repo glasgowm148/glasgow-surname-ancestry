@@ -2,11 +2,11 @@
 
 ## Current conclusion
 
-The official University of Glasgow index confirms Benjamin Glasgow’s Master of Surgery in 1826. The 1834 death notice is a strong compatible surgeon/name/chronology match, not a proved identity: it names a Cookstown Robert father and death at New Orleans in 1833, after Vera Cruz. No birth year, father or overseas history appears in the University index.
+The official University of Glasgow index lists Benjamin Glasgow’s Master of Surgery in 1826, but an original 7 May 1825 newspaper degree report now supplies a competing date. Preserve both pending register comparison. The 1834 death notice is a strong compatible surgeon/name/chronology match, not a proved identity: it names a Cookstown Robert father and death at New Orleans in 1833, after Vera Cruz. No birth year, father or overseas history appears in the University index.
 
-## Identity assessment — Irish newspaper extension,4 October 2026
+## Identity assessment — Irish newspaper extension, 4 October 2026
 
-The official University of Glasgow index confirms Benjamin Glasgow’s Master of Surgery in 1826. The 1834 death notice is a strong compatible surgeon/name/chronology match, not a proved identity: it names a Cookstown Robert father and death at New Orleans in 1833, after Vera Cruz. No birth year, father or overseas history appears in the University index.
+The official University of Glasgow index lists Benjamin Glasgow’s Master of Surgery in 1826, but an original 7 May 1825 newspaper degree report now supplies a competing date. Preserve both pending register comparison. The 1834 death notice is a strong compatible surgeon/name/chronology match, not a proved identity: it names a Cookstown Robert father and death at New Orleans in 1833, after Vera Cruz. No birth year, father or overseas history appears in the University index.
 
 [Belfast News-Letter, 20 May 1834, p. 3, Benjamin Glasgow death notice](https://www.newspapers.com/image/390554297/)
 
@@ -19,3 +19,9 @@ The official University of Glasgow index confirms Benjamin Glasgow’s Master of
 ## Next records to check — newspaper identity
 
 Resolve the documentary person’s identity before changing WikiTree facts or relationships. Original source readings, compatible alternatives and discriminating tests are retained in the linked account.
+
+## Source findings — degree report, 4 October 2026
+
+Benjamin Glasgow is listed under Masters in Surgery in a Glasgow University report stating that gentlemen from Ireland were admitted to degrees during the session. The inspected 7 May 1825 newspaper reports Benjamin Glasgow among Masters in Surgery admitted during the session, whereas the official University index (rechecked 4 October 2026) gives 1826. These are competing dates; do not assume a later separate award or silently correct either. Register/issue comparison and namesake checking are required. The notice says gentlemen from Ireland, not Cookstown birth or Robert’s son.
+
+[Freeman’s Journal, 7 May 1825, p.2](https://www.newspapers.com/image/1050085983/) · [Connected evidence account](/research/subjects/newspapers-irish-1800-1850/#benjamin-surgeon). No parent or death attachment follows.

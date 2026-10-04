@@ -7958,13 +7958,13 @@
     {
       "slug": "newspapers-irish-1800-1850",
       "title": "Irish Glasgow newspaper records, 1800–1850",
-      "introduction": "Catalogue-led quoted-name searches, oldest first: 39 new original surname pages in the 1800–1850 expansion. The latest seven pages add Robert and John as Loughinsholin freeholders, a Dundrum subscription-list John, the Cookstown merchant’s tea/coffee agency from September 1848, and a Drogheda sub-constable. Namesake identities are qualified; co-signatures and advertisements supply no new family certainty.",
+      "introduction": "Catalogue-led quoted-name searches, oldest first: 45 new original surname pages in the 1800–1850 expansion. The latest six add Benjamin’s 1825 degree report (conflicting with the university’s 1826 index), senior George Royal Artillery notices, George Mark’s return from half-pay, Edward George’s49th/84th transfer and another Cookstown John coffee/tea agency notice. Irish publication does not establish Irish origin; profile and family identities remain qualified.",
       "people": [
         {
           "anchor": "benjamin-surgeon",
           "name": "Benjamin Glasgow, surgeon of Vera Cruz and New Orleans",
           "status": "HOLD — compatible candidates; profile identity unresolved",
-          "identity_note": "The inferred death year is 1833. No age or mother is given. The documented father–son relationship is certain; profile identification remains on HOLD. Glasgow-3412 is a strong compatible candidate. The University of Glasgow index lists Benjamin Glasgow’s Master of Surgery in 1826, without father, birthplace or overseas details. This surgeon cannot be the mill Benjamin living in 1858/1870 or John’s merchant son living in 1856.",
+          "identity_note": "The inferred death year is 1833. No age or mother is given. The documented father–son relationship is certain; profile identification remains on HOLD. Glasgow-3412 is a strong compatible candidate. The University of Glasgow index lists Benjamin Glasgow’s Master of Surgery in 1826, without father, birthplace or overseas details. This surgeon cannot be the mill Benjamin living in 1858/1870 or John’s merchant son living in 1856. The inspected 7 May 1825 newspaper reports Benjamin Glasgow among Masters in Surgery admitted during the session, whereas the official University index (rechecked 4 October 2026) gives 1826. These are competing dates; do not assume a later separate award or silently correct either. Register/issue comparison and namesake checking are required. The notice says gentlemen from Ireland, not Cookstown birth or Robert’s son.",
           "minimum_fields": "Benjamin Glasgow; surgeon; adult by 1833; death 26 November 1833 inferred from notice published 1834, New Orleans. Formerly Vera Cruz. Birth, birthplace, mother and spouse unknown; father Robert of Cookstown, deceased by 20 May 1834. Do not import candidate’s 1805 birth as proved.",
           "facts": [
             {
@@ -7985,23 +7985,43 @@
                   "url": "https://universitystory.gla.ac.uk/people?search=&surname=Glas&forename=Benjamin"
                 }
               ]
+            },
+            {
+              "finding_id": "benjamin-glasgow-surgery-degree-report-1825",
+              "finding": "Benjamin Glasgow is listed under Masters in Surgery in a Glasgow University report stating that gentlemen from Ireland were admitted to degrees during the session.",
+              "qualification": "The newspaper reports a degree by May 1825; the university index, rechecked 4 October 2026, lists Benjamin Glasgow in 1826. Preserve the discrepancy: different dates, an index or printing error, or a namesake remain possible. Strong compatible candidate Glasgow-3412 and the Cookstown/New Orleans surgeon account; no father, hometown, age or overseas career appears here.",
+              "sources": [
+                {
+                  "title": "Freeman’s Journal, 7 May 1825, p.2, Glasgow University degrees",
+                  "url": "https://www.newspapers.com/image/1050085983/"
+                },
+                {
+                  "title": "Freeman’s Journal, 23 May 1834, p.4, surgeon death notice",
+                  "url": "https://www.newspapers.com/image/1050049974/"
+                },
+                {
+                  "title": "University of Glasgow Story, Benjamin Glasgow, indexed graduation 1826",
+                  "url": "https://universitystory.gla.ac.uk/people?search=&surname=Glas&forename=Benjamin"
+                }
+              ]
             }
           ],
           "candidates": [
             {
               "id": "Glasgow-3412",
-              "reason": "Live profile checked 4 October 2026: birth 1805 and surgery graduation 1826, no parents or death. The official University of Glasgow index independently confirms Benjamin Glasgow’s Master of Surgery in 1826, but gives no birth year/place, father or overseas career. Exact name, profession and chronology make a strong compatible candidate; the Cookstown/New Orleans bridge remains unproved."
+              "reason": "Live profile checked 4 October 2026: birth 1805 and surgery graduation 1826, no parents or death. The official University of Glasgow index independently confirms Benjamin Glasgow’s Master of Surgery in 1826, but gives no birth year/place, father or overseas career. Exact name, profession and chronology make a strong compatible candidate; the Cookstown/New Orleans bridge remains unproved. The inspected 7 May 1825 newspaper reports Benjamin Glasgow among Masters in Surgery admitted during the session, whereas the official University index (rechecked 4 October 2026) gives 1826. These are competing dates; do not assume a later separate award or silently correct either. Register/issue comparison and namesake checking are required. The notice says gentlemen from Ireland, not Cookstown birth or Robert’s son."
             }
           ],
           "duplicate_check": [
             "Bounded search of public historical catalogue names, dates and locality records on 4 October 2026; specific candidate comparisons below. Missing details do not exclude a profile. External duplicate checking is incomplete.",
             "Original newspaper context read, not an OCR/thumbnail-only surname assignment. Documentary relationships remain separate from profile identities."
           ],
-          "next_test": "Seek 1826 matriculation/degree papers with age, father or origin, and 1833 New Orleans death/burial or Vera Cruz medical records. Resolve identity before adding death or a father to Glasgow-3412.",
+          "next_test": "Compare the 1825 newspaper with original degree/matriculation registers and the university index’s 1826 entry; then seek father, hometown or overseas details to connect the graduate and Cookstown surgeon.",
           "draft_sources": [
-            "research/newspapers-1800-1850-followup-2026-10-04.md"
+            "research/newspapers-1800-1850-followup-2026-10-04.md",
+            "research/newspapers-degree-military-agents-2026-10-04.md"
           ],
-          "wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nBenjamin Glasgow, Esq., surgeon, formerly of Vera Cruz, Mexico, died in the prime of life at New Orleans on 26 November last, according to a notice published 20 May 1834. He was son of the late Mr Robert Glasgow of Cookstown, County Tyrone.<ref>[https://www.newspapers.com/image/390554297/ Belfast News-Letter, 20 May 1834, p. 3, Benjamin Glasgow death notice], original inspected 4 October 2026.</ref> A Dublin notice published 23 May repeats the surgeon, New Orleans and father details.<ref>[https://www.newspapers.com/image/1050049974/ Freeman’s Journal and Daily Commercial Advertiser, 23 May 1834, p. 4, Benjamin Glasgow death notice], original inspected 4 October 2026.</ref>\n\n== Research Notes ==\nThe inferred death year is 1833. No age or mother is given. The documented father–son relationship is certain; profile identification remains on HOLD. Glasgow-3412 is a strong compatible candidate. The University of Glasgow index lists Benjamin Glasgow’s Master of Surgery in 1826, without father, birthplace or overseas details.<ref>[https://universitystory.gla.ac.uk/people?search=&surname=Glas&forename=Benjamin University of Glasgow Story, Benjamin Glasgow, Master of Surgery, graduation 1826], official index checked 4 October 2026.</ref> This surgeon cannot be the mill Benjamin living in 1858/1870 or John’s merchant son living in 1856.\n\n[[Glasgow-3412|Glasgow-3412]]: Live profile checked 4 October 2026: birth 1805 and surgery graduation 1826, no parents or death. The official University of Glasgow index independently confirms Benjamin Glasgow’s Master of Surgery in 1826, but gives no birth year/place, father or overseas career. Exact name, profession and chronology make a strong compatible candidate; the Cookstown/New Orleans bridge remains unproved.\n\nSeek 1826 matriculation/degree papers with age, father or origin, and 1833 New Orleans death/burial or Vera Cruz medical records. Resolve identity before adding death or a father to Glasgow-3412.\n\n== Sources ==\n<references />\n",
+          "wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nBenjamin Glasgow, Esq., surgeon, formerly of Vera Cruz, Mexico, died in the prime of life at New Orleans on 26 November last, according to a notice published 20 May 1834. He was son of the late Mr Robert Glasgow of Cookstown, County Tyrone.<ref>[https://www.newspapers.com/image/390554297/ Belfast News-Letter, 20 May 1834, p. 3, Benjamin Glasgow death notice], original inspected 4 October 2026.</ref> A Dublin notice published 23 May repeats the surgeon, New Orleans and father details.<ref>[https://www.newspapers.com/image/1050049974/ Freeman’s Journal and Daily Commercial Advertiser, 23 May 1834, p. 4, Benjamin Glasgow death notice], original inspected 4 October 2026.</ref>\n\n== Research Notes ==\nThe inferred death year is 1833. No age or mother is given. The documented father–son relationship is certain; profile identification remains on HOLD. Glasgow-3412 is a strong compatible candidate. The University of Glasgow index lists Benjamin Glasgow’s Master of Surgery in 1826, without father, birthplace or overseas details.<ref>[https://universitystory.gla.ac.uk/people?search=&surname=Glas&forename=Benjamin University of Glasgow Story, Benjamin Glasgow, Master of Surgery, graduation 1826], official index checked 4 October 2026.</ref> This surgeon cannot be the mill Benjamin living in 1858/1870 or John’s merchant son living in 1856.\n\n[[Glasgow-3412|Glasgow-3412]]: Live profile checked 4 October 2026: birth 1805 and surgery graduation 1826, no parents or death. The official University of Glasgow index independently confirms Benjamin Glasgow’s Master of Surgery in 1826, but gives no birth year/place, father or overseas career. Exact name, profession and chronology make a strong compatible candidate; the Cookstown/New Orleans bridge remains unproved.\n\nSeek 1826 matriculation/degree papers with age, father or origin, and 1833 New Orleans death/burial or Vera Cruz medical records. Resolve identity before adding death or a father to Glasgow-3412.\n\n== Sources ==\n<references />\n\n\nThe 7 May 1825 newspaper lists Benjamin Glasgow among Masters in Surgery at Glasgow University, in a report describing gentlemen from Ireland admitted to degrees during the session.<ref>[https://www.newspapers.com/image/1050085983/ Freeman’s Journal, 7 May 1825, p.2], original inspected 4 October 2026.</ref> The inspected 7 May 1825 newspaper reports Benjamin Glasgow among Masters in Surgery admitted during the session, whereas the official University index (rechecked 4 October 2026) gives 1826. These are competing dates; do not assume a later separate award or silently correct either. Register/issue comparison and namesake checking are required. The notice says gentlemen from Ireland, not Cookstown birth or Robert’s son.",
           "related_drafts": [
             {
               "relationship": "Father named in death notice",
@@ -8774,6 +8794,17 @@
                   "url": "https://www.newspapers.com/image/390563426/"
                 }
               ]
+            },
+            {
+              "finding_id": "john-cookstown-cassell-tea-coffee-1850",
+              "finding": "John Cassell coffee and five-shilling tea advertisement: COOKSTOWN—John Glasgow, among the appointed agents.",
+              "qualification": "A further original advertisement in the 1848–1850 Cookstown trading sequence, including Cassell tea as well as coffee. Repeated advertisements do not provide independent family proof. John Glasgow-2058 remains compatible by name, locality and merchant occupation; no age, address, parents or uncle link appears.",
+              "sources": [
+                {
+                  "title": "Belfast News-Letter, 22 February 1850, p.3, Cassell tea and coffee agents",
+                  "url": "https://www.newspapers.com/image/390556388/"
+                }
+              ]
             }
           ],
           "candidates": [
@@ -8794,7 +8825,7 @@
             "research/newspapers-james-career-family-2026-10-04.md",
             "research/newspapers-john-freeholders-2026-10-04.md"
           ],
-          "wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nJohn Glasgow, explicitly called a merchant at Cookstown, appears among John Cassell coffee agents on 30 September 1848, and again in February 1849. A separate 2 February 1849 advertisement appoints him there as agent for the Russian Company’s Caravan Tea and Arabian Coffee. This extends the inspected Cookstown agency sequence to 1848–1850. <ref>[https://www.newspapers.com/image/1256974148/ The Sligo Champion, 30 September 1848, p.3, John Cassell coffee agents], original inspected 4 October 2026.</ref><ref>[https://www.newspapers.com/image/390559166/ Belfast News-Letter, 2 February 1849, p.3, Russian Company tea and coffee agents], original inspected 4 October 2026.</ref><ref>[https://www.newspapers.com/image/390559823/ Belfast News-Letter, 20 February 1849, p.3, John Cassell coffee agents], original inspected 4 October 2026.</ref><ref>[https://www.newspapers.com/image/1257358494/ Impartial Reporter and Farmers’ Journal, 22 February 1849, p.3, John Cassell coffee agents], original inspected 4 October 2026.</ref>\n\nThe inspected 5 November 1850 Belfast agent list continues the Cookstown coffee agency.<ref>[https://www.newspapers.com/image/390563426/ Belfast News-Letter, 5 November 1850, p.3], original inspected 4 October 2026.</ref>\n\n== Research Notes ==\nGlasgow-2058 is compatible by name, Cookstown district and the merchant occupation independently recorded in Benjamin-2059’s 1856 marriage. None of these advertisements names relatives, age or street address. Repeated agent lists are advertisements for one trading role, not independent family proofs. John’s parents remain unknown. Glasgow-1968 remains a weaker comparison: his family histories give migration to Michigan in 1844 or 1848; the Drummeen tithe and 1850/1851 probate leads are not securely assigned to him, and probate year is not a death date.\n\nIdentify the merchant’s street address through directories, licences, deeds and probate. Seek a record linking the agent directly to Benjamin-2059 or Henry-1735 before assigning him to their father.\n\n== Sources ==\n<references />\n"
+          "wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nJohn Glasgow, explicitly called a merchant at Cookstown, appears among John Cassell coffee agents on 30 September 1848, and again in February 1849. A separate 2 February 1849 advertisement appoints him there as agent for the Russian Company’s Caravan Tea and Arabian Coffee. This extends the inspected Cookstown agency sequence to 1848–1850. <ref>[https://www.newspapers.com/image/1256974148/ The Sligo Champion, 30 September 1848, p.3, John Cassell coffee agents], original inspected 4 October 2026.</ref><ref>[https://www.newspapers.com/image/390559166/ Belfast News-Letter, 2 February 1849, p.3, Russian Company tea and coffee agents], original inspected 4 October 2026.</ref><ref>[https://www.newspapers.com/image/390559823/ Belfast News-Letter, 20 February 1849, p.3, John Cassell coffee agents], original inspected 4 October 2026.</ref><ref>[https://www.newspapers.com/image/1257358494/ Impartial Reporter and Farmers’ Journal, 22 February 1849, p.3, John Cassell coffee agents], original inspected 4 October 2026.</ref>\n\nThe inspected 5 November 1850 Belfast agent list continues the Cookstown coffee agency.<ref>[https://www.newspapers.com/image/390563426/ Belfast News-Letter, 5 November 1850, p.3], original inspected 4 October 2026.</ref>\n\n== Research Notes ==\nGlasgow-2058 is compatible by name, Cookstown district and the merchant occupation independently recorded in Benjamin-2059’s 1856 marriage. None of these advertisements names relatives, age or street address. Repeated agent lists are advertisements for one trading role, not independent family proofs. John’s parents remain unknown. Glasgow-1968 remains a weaker comparison: his family histories give migration to Michigan in 1844 or 1848; the Drummeen tithe and 1850/1851 probate leads are not securely assigned to him, and probate year is not a death date.\n\nIdentify the merchant’s street address through directories, licences, deeds and probate. Seek a record linking the agent directly to Benjamin-2059 or Henry-1735 before assigning him to their father.\n\n== Sources ==\n<references />\n\n\nAn advertisement on 22 February 1850 lists John Glasgow as Cookstown agent for John Cassell’s coffee and five-shilling tea.<ref>[https://www.newspapers.com/image/390556388/ Belfast News-Letter, 22 February 1850, p.3], original inspected 4 October 2026.</ref> It gives no relatives or exact address; profile identification remains qualified."
         },
         {
           "anchor": "robert-loughinsholin-freeholder",
@@ -8985,6 +9016,136 @@
             "research/newspapers-john-freeholders-2026-10-04.md"
           ],
           "wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nSub-constable John Glasgow, explicitly of the Drogheda police, appears in a court report on 19 October 1850. He found the prisoner running away with a bag of meal in an oatmeal-theft case. John is the police witness, not the accused. <ref>[https://www.newspapers.com/image/1259561281/ The Drogheda Argus and Leinster Journal, 19 October 1850, p.2, court theft report], original inspected 4 October 2026.</ref>\n\n== Research Notes ==\nOccupation and police station are explicit; age, birthplace, relatives and exact service dates are unstated. Glasgow-2056, Glasgow-2537 and Glasgow-867 are adult chronology comparisons only, with no checked constabulary connection. An administrative Drogheda probate label on a different John lead is not evidence of Drogheda residence or police service. Royal Irish Constabulary service records and local directories are the next identity tests.\n\nPossible identities: [[Glasgow-2056|Glasgow-2056]], [[Glasgow-2537|Glasgow-2537]], [[Glasgow-867|Glasgow-867]]. These comparisons are not established identifications.\n\nInspect constabulary general registers and Drogheda directories for service number, age, native county and appointment/transfer dates.\n\n== Sources ==\n<references />\n"
+        },
+        {
+          "anchor": "george-senior-artillery",
+          "name": "George Glasgow, senior Royal Artillery officer, 1811–1819",
+          "status": "HOLD — newspaper person verified; profile identity unresolved",
+          "identity_note": "The 1811 Royal Artillery George and the 1819 brevet appointee are compatible as one career sequence, but identity is inferred, not stated. Glasgow-3611 (1777–1857), Glasgow-1529 (estimated 1769, death unknown), and Glasgow-3345 (1792, death unknown) remain weak local name/chronology comparisons without a military bridge; dates are profile leads, not newly inspected vital records. The 1811 colonel role makes younger comparisons less persuasive, without supplying an exact age. No profile is assigned. The 1713 Keady ruling elder called R.E. is not identified as a Royal Engineer by these notices.",
+          "minimum_fields": "George Glasgow; Royal Artillery officer, listed under Colonels 1811 and Major-General taking Lieutenant-General brevet rank 1819. Birth/death/family/station unknown.",
+          "facts": [
+            {
+              "finding_id": "george-senior-artillery-1811-06-10",
+              "finding": "The military list under COLONELS names George Glasgow, of the royal artillery; the name wraps across two lines.",
+              "qualification": "The surname and Royal Artillery association were checked at increased magnification. Do not take the adjacent rank caption as an appointment date or promotion grade. Continuity with the 1819 Royal Artillery George is compatible but inferred. Neither this list nor its Irish publication proves Irish birth, residence or family.",
+              "sources": [
+                {
+                  "title": "Freeman’s Journal, 1811-06-10, p.4",
+                  "url": "https://www.newspapers.com/image/1050144942/"
+                }
+              ]
+            },
+            {
+              "finding_id": "george-senior-artillery-1819-09-06",
+              "finding": "Military Promotions, War Office August 30: Major-General George Glasgow appears among Royal Artillery officers appointed to take rank by brevet as Lieutenant-Generals.",
+              "qualification": "30 August 1819 is inferred from the contemporary September publication. This is brevet rank; no kin, age, birthplace or station is stated. The 1811 Royal Artillery name is a supported career comparison, not proved personal continuity. Younger George Mark and Edward George officers remain separate accounts.",
+              "sources": [
+                {
+                  "title": "Freeman’s Journal, 1819-09-06, p.4",
+                  "url": "https://www.newspapers.com/image/1050057308/"
+                }
+              ]
+            }
+          ],
+          "candidates": [
+            {
+              "id": "Glasgow-3611",
+              "reason": "Weak name/chronology comparison only; public dossier checked locally, no military bridge or record identity proved."
+            },
+            {
+              "id": "Glasgow-1529",
+              "reason": "Weak name/chronology comparison only; public dossier checked locally, no military bridge or record identity proved."
+            },
+            {
+              "id": "Glasgow-3345",
+              "reason": "Weak name/chronology comparison only; public dossier checked locally, no military bridge or record identity proved."
+            }
+          ],
+          "duplicate_check": [
+            "Public historical catalogue exact-name and chronology comparison on 4 October 2026; live George Mark profiles3127/3785 and linked1536 inspected. No exact Edward George candidate found. External duplicate checking is incomplete.",
+            "Namesakes with absent occupation or family fields are not excluded merely for missing corroboration. No parent, spouse or child relationship is changed."
+          ],
+          "next_test": "Read Royal Artillery service/commission and brevet lists with identifying details; establish whether both notices describe the same man before assigning an existing profile.",
+          "draft_sources": [
+            "research/newspapers-degree-military-agents-2026-10-04.md",
+            "surname-research/new-people/1811_United_Kingdom_Royal_Artillery_George_Glasgow.md"
+          ],
+          "wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe military list under COLONELS names George Glasgow, of the royal artillery; the name wraps across two lines.<ref>[https://www.newspapers.com/image/1050144942/ Freeman’s Journal, 1811-06-10, p.4], original inspected 4 October 2026.</ref>\n\nMilitary Promotions, War Office August 30: Major-General George Glasgow appears among Royal Artillery officers appointed to take rank by brevet as Lieutenant-Generals.<ref>[https://www.newspapers.com/image/1050057308/ Freeman’s Journal, 1819-09-06, p.4], original inspected 4 October 2026.</ref>\n\n== Research Notes ==\nThe 1811 Royal Artillery George and the 1819 brevet appointee are compatible as one career sequence, but identity is inferred, not stated. Glasgow-3611 (1777–1857), Glasgow-1529 (estimated 1769, death unknown), and Glasgow-3345 (1792, death unknown) remain weak local name/chronology comparisons without a military bridge; dates are profile leads, not newly inspected vital records. The 1811 colonel role makes younger comparisons less persuasive, without supplying an exact age. No profile is assigned. The 1713 Keady ruling elder called R.E. is not identified as a Royal Engineer by these notices.\n\nBirth, death, parents and spouse are unknown from these notices. Irish newspaper publication is not evidence of Irish birth or residence. Do not connect the officers to one another or to Lisnagaver, Rasharkin or Cookstown without evidence.\n\n== Sources ==\n<references />"
+        },
+        {
+          "anchor": "george-mark-artillery",
+          "name": "George Mark Glasgow, Royal Artillery First Lieutenant, 1825",
+          "status": "HOLD — newspaper person verified; profile identity unresolved",
+          "identity_note": "Glasgow-3127 is a strong compatible Royal Artillery candidate: its live biography says Captain, father of Madeline and deceased by 1846, but its Sources section is empty. Glasgow-3785 (1795 Quebec–1851 Kingston) remains an exact-name chronology comparison without a military bridge. Glasgow-1536 (Barony birth/baptism 26 October 1804) is an explicitly linked weaker comparison in 3127; the newspaper supplies no parentage bridge. The 1833 Clement Stuart christening and 1851 death-duty citations on 3785, and the 1846 late-father claim on 3127, need underlying originals before reconciling these profiles. The senior 1819 George is not assigned to this younger officer.",
+          "minimum_fields": "George Mark Glasgow; First Lieutenant, Royal Regiment of Artillery; returned from half-pay February 1825. No proved birth/death location, family or Irish origin.",
+          "facts": [
+            {
+              "finding_id": "george-mark-artillery-1825-02-16",
+              "finding": "Office of Ordnance, February 7: First Lieutenant George Mark Glasgow, from half-pay, to be First Lieutenant in the Royal Regiment of Artillery, vice Forster.",
+              "qualification": "A return from half-pay to a post at the same rank, not a promotion from Second Lieutenant. 7 February 1825 is inferred from the contemporary issue. Glasgow-3127 has a matching Royal Artillery captain biography, but its live Sources section is empty; Glasgow-3785 is an exact-name chronology candidate and Glasgow-1536 a weaker linked comparison. No family identity, birth date, nationality or station is proved.",
+              "sources": [
+                {
+                  "title": "Freeman’s Journal, 1825-02-16, p.3",
+                  "url": "https://www.newspapers.com/image/1050087237/"
+                }
+              ]
+            }
+          ],
+          "candidates": [
+            {
+              "id": "Glasgow-3127",
+              "reason": "Strong compatible exact full name and Royal Artillery career; current live biography checked, underlying captain/daughter/death evidence absent from its Sources section."
+            },
+            {
+              "id": "Glasgow-3785",
+              "reason": "Exact full name, 1795 birth and 1851 death are chronologically compatible with 1825 service; live profile checked. No independently inspected military bridge."
+            },
+            {
+              "id": "Glasgow-1536",
+              "reason": "Live 3127 explicitly proposes this Barony George as a possible identity; 1804 birth/baptism fits age at 1825 service. No Mark or army evidence in the checked profile; parents remain unassigned."
+            }
+          ],
+          "duplicate_check": [
+            "Public historical catalogue exact-name and chronology comparison on 4 October 2026; live George Mark profiles3127/3785 and linked1536 inspected. No exact Edward George candidate found. External duplicate checking is incomplete.",
+            "Namesakes with absent occupation or family fields are not excluded merely for missing corroboration. No parent, spouse or child relationship is changed."
+          ],
+          "next_test": "Check Royal Artillery officer/service registers, the 1846 Madeline marriage and 1833 Clement Stuart christening originals; compare fathers, age, wife and station before any merge or family change.",
+          "draft_sources": [
+            "research/newspapers-degree-military-agents-2026-10-04.md",
+            "surname-research/new-people/1825_United_Kingdom_Royal_Artillery_George_Mark_Glasgow.md"
+          ],
+          "wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nOffice of Ordnance, February 7: First Lieutenant George Mark Glasgow, from half-pay, to be First Lieutenant in the Royal Regiment of Artillery, vice Forster.<ref>[https://www.newspapers.com/image/1050087237/ Freeman’s Journal, 1825-02-16, p.3], original inspected 4 October 2026.</ref>\n\n== Research Notes ==\nGlasgow-3127 is a strong compatible Royal Artillery candidate: its live biography says Captain, father of Madeline and deceased by 1846, but its Sources section is empty. Glasgow-3785 (1795 Quebec–1851 Kingston) remains an exact-name chronology comparison without a military bridge. Glasgow-1536 (Barony birth/baptism 26 October 1804) is an explicitly linked weaker comparison in 3127; the newspaper supplies no parentage bridge. The 1833 Clement Stuart christening and 1851 death-duty citations on 3785, and the 1846 late-father claim on 3127, need underlying originals before reconciling these profiles. The senior 1819 George is not assigned to this younger officer.\n\nBirth, death, parents and spouse are unknown from these notices. Irish newspaper publication is not evidence of Irish birth or residence. Do not connect the officers to one another or to Lisnagaver, Rasharkin or Cookstown without evidence.\n\n== Sources ==\n<references />"
+        },
+        {
+          "anchor": "edward-george-army",
+          "name": "Edward George Glasgow, 49th/84th Regiment Lieutenant, 1825",
+          "status": "HOLD — newspaper person verified; profile identity unresolved",
+          "identity_note": "No exact Edward George Glasgow entry found in the public historical catalogue; the search was bounded, not a complete external duplicate audit. The full printed name distinguishes this Lieutenant from George Mark. No relative, birthplace or station is supplied. Reuse this full account for later 49th/84th notices rather than create one person per appointment.",
+          "minimum_fields": "Edward George Glasgow; Lieutenant formerly on half-pay of the 49th Regiment, appointed among84th Regiment Lieutenants by 20 April 1825. Birth/death/family/station unknown.",
+          "facts": [
+            {
+              "finding_id": "edward-george-army-1825-04-20",
+              "finding": "84th Regiment: Lieutenant Edward George Glasgow, from the half-pay of the 49th Regiment, is listed among appointments to Lieutenants.",
+              "qualification": "The complete name and shared 84th Regiment heading were read in one column. No exact Edward George Glasgow profile found in the bounded public historical catalogue; external duplicate checking remains incomplete. No Irish origin or relationship to the other officers is supplied.",
+              "sources": [
+                {
+                  "title": "Freeman’s Journal, 1825-04-20, p.3",
+                  "url": "https://www.newspapers.com/image/1050085864/"
+                }
+              ]
+            }
+          ],
+          "candidates": [],
+          "duplicate_check": [
+            "Public historical catalogue exact-name and chronology comparison on 4 October 2026; live George Mark profiles3127/3785 and linked1536 inspected. No exact Edward George candidate found. External duplicate checking is incomplete.",
+            "Namesakes with absent occupation or family fields are not excluded merely for missing corroboration. No parent, spouse or child relationship is changed."
+          ],
+          "next_test": "Search quoted full name, 49th and84th service/commission lists and pension records for age, family and death before profile creation.",
+          "draft_sources": [
+            "research/newspapers-degree-military-agents-2026-10-04.md",
+            "surname-research/new-people/1825_United_Kingdom_84th_Regiment_Edward_George_Glasgow.md"
+          ],
+          "wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\n84th Regiment: Lieutenant Edward George Glasgow, from the half-pay of the 49th Regiment, is listed among appointments to Lieutenants.<ref>[https://www.newspapers.com/image/1050085864/ Freeman’s Journal, 1825-04-20, p.3], original inspected 4 October 2026.</ref>\n\n== Research Notes ==\nNo exact Edward George Glasgow entry found in the public historical catalogue; the search was bounded, not a complete external duplicate audit. The full printed name distinguishes this Lieutenant from George Mark. No relative, birthplace or station is supplied. Reuse this full account for later 49th/84th notices rather than create one person per appointment.\n\nBirth, death, parents and spouse are unknown from these notices. Irish newspaper publication is not evidence of Irish birth or residence. Do not connect the officers to one another or to Lisnagaver, Rasharkin or Cookstown without evidence.\n\n== Sources ==\n<references />"
         }
       ]
     }
