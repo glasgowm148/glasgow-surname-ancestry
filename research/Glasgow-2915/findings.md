@@ -18,11 +18,13 @@ New evidence reviewed 4 October 2026: The 16 January 1793 Kildress reform meetin
 | [PRONI Name Search](https://apps.proni.gov.uk/ProniNames_IE/SearchPage.aspx), pre-1858 wills and administrations | A Glasgow-surname search returned 47 entries. One is a 17 December 1770 Armagh diocesan will index for William Glasgow of Killycurragh, County Tyrone; the original no longer exists. Killycurragh is in Derryloran parish near Cookstown. | Direct index evidence for an older same-name man in the exact district. A William born about 1760 cannot safely be identified as the 1770 testator without contrary proof of the birth estimate. |
 | [Registry of Deeds Index Project surname search](https://www.irishdeedsindex.net/search/index.php), 30 Aug 2026 | No indexed deed named Cross, Derryloran or Moneymore. Later Cookstown memorials name Robert Glasgow junior, gent. (1817, [memorial 488398](https://www.irishdeedsindex.net/mem.php?memorial=488398)) and John Glasgow senior of Gortin with John Glasgow junior, Cookstown grocer (1825, [memorial 548981](https://www.irishdeedsindex.net/mem.php?memorial=548981)). | Collateral locality leads only. The volunteer index is incomplete, and neither abstract states kinship to this William or Margaret Mitchell. |
 
+| [Northern Star, 23 January 1793, p.2](https://www.newspapers.com/image/72019090/) | William Glasgow and Hugh Faulkner elected reform delegates; William subsequently took the chair at the Kildress meeting of 16 January 1793. | Direct surname occurrence; compatible profile candidate only. |
+| [Northern Star, 26 January 1793, p.4](https://www.newspapers.com/image/72019250/) | Repeats the same 16 January Kildress meeting resolutions, naming William as delegate and subsequent chairman. | Same notice, not independent family evidence. |
+
 ## Live update (2026-08-30)
 
 The public biography now records the Derryloran/Cookstown register gap and the
 unproved father and spouse links. No person or location was changed.
-| [Northern Star, 23 January 1793, p.2](https://www.newspapers.com/image/72019090/) | William Glasgow and Hugh Faulkner elected reform delegates; William subsequently took the chair at the Kildress meeting of 16 January 1793. | Direct surname occurrence; compatible profile candidate only. |
 
 ## Unresolved questions — reviewed 4 October 2026
 

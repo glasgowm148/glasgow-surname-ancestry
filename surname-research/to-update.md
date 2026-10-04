@@ -1263,9 +1263,16 @@ Source-backed profile amendments are prepared locally, with complete captured te
 
 ## Further pre-1900 newspaper review — 4 October 2026
 
+- [John Glasgow, Nottingham merchant/storekeeper, 1760](new-people/1760_United_States_Nottingham_John_Glasgow.md): **HOLD** — signed Cecil County vendue/store notice; Glasgow-2870 and Glasgow-2871 remain compatible candidates, with Glasgow-2871 the stronger occupational fit. No kin or Irish-origin inference.
+
 - [Retired Richard false-match draft](../research/newspaper-exclusions/1899_Belfast_Richard_Glasgow_false_match.md): full viewer reading shows a cross-column forename/city match; removed from the creation queue. No person or relationship was established.
 - [Margaret George Glasgow](new-people/1891_United_States_New_York_Margaret_George_Glasgow.md): **HOLD**, documented daughter of Benjamin of Hull, formerly Drapersfield; retain the connected family draft and leave her mother unknown.
 - [John George Glasgow-2542](../research/Glasgow-2542/findings.md): add middle name George and contemporary death notice; proposed existing father-2059 **previously ungraded → Confident**, using newspaper and inspected gravestone. Unsaved; no mother confidence change.
 - [Henry Little Glasgow-2131](../research/Glasgow-2131/findings.md) and [William George Glasgow-2135](../research/Glasgow-2135/findings.md): supporting 1897 sibling/father notice and 1896 Dromara call; preserve second/third-son discrepancy. No reparenting.
 
 The maintained mill-family drafts now preserve the explicit Benjamin–Robert father relationship, the 1864 Wilhelmina Pike marriage and 1891 daughter’s marriage. Existing-profile attachment remains HOLD. [Associated relatives](../research/newspapers-pre1900-associates-2026-10-04.md) have complete evidence drafts outside the Glasgow-only creation directory. [Relationship review](../research/newspapers-pre1900-relationships-2026-10-04.md) and [coverage ledger](../research/newspapers-pre1900-coverage-2026-10-04.md) distinguish proposed changes from completed live work. No live profile was saved.
+
+## Early Irish newspaper identity checks — 4 October 2026
+
+- [Dublin Glasco watchmaker](new-people/1779_Ireland_Dublin_Glasco_watchmaker.md): HOLD. The original 1779 and 1780 notices bridge Christ-Church-lane to 20 Ormond Quay; no first name or kin, and no live family amendment justified. Compatible Thomas candidates remain unassigned.
+- [William captain](new-people/1792_Ireland_Belfast_shipping_captain_william.md): April Rotterdam service now precedes the existing Oporto/Bordeaux notices. Larne profile identity remains HOLD; no parent change.

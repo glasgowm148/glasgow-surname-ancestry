@@ -38,3 +38,7 @@ pedigree.
 
 Keep the 1779–1783 watchmaker on the Dublin Glasco watchmaker free-space cluster
 until a direct identity bridge is found.
+
+## Identity assessment — 4 October 2026 newspaper review
+
+The [5 October 1779 original advertisement](https://www.newspapers.com/image/1050086381/) and [4 April 1780 repeat](https://www.newspapers.com/image/1050049040/) name only Glasco, watch and clock maker, moving from Christ-Church-lane to 20 Ormond Quay near the market. The address supports the existing 1779–1783 Thomas trade cluster, but the newspaper gives no first name, spouse, parents or children and does not assign the event to this profile. Keep Glasco-143, Glasco-144 and Glasco-173 compatible under their current limits. See the [consolidated sourced draft](/research/subjects/newspapers-early-glasgow/#dublin-glasco-watchmaker). No relationship change is proposed.

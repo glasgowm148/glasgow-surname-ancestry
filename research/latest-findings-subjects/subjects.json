@@ -6804,8 +6804,8 @@
     },
     {
       "slug": "newspapers-early-glasgow",
-      "title": "James Glasgow’s 1740 shipping record",
-      "introduction": "An original newspaper occurrence with compatible existing Irvine profiles. See the Scottish families chronological newspaper review for the full early batch and its limits.",
+      "title": "Early Glasgow and Glasco newspaper records",
+      "introduction": "Verified original records, compatible profiles and consolidated evidence drafts. The Dublin address change connects an existing trade cluster; John’s Nottingham identity and William’s Larne identity remain qualified. The chronological review records the search coverage and its limits.",
       "people": [
         {
           "anchor": "james-glasgow-prosperity",
@@ -6868,6 +6868,165 @@
               "assessment": "HOLD — one documentary occurrence, four compatible Irvine candidates. The original confirms the surname reading; it does not select a profile. No family relationship or profile occupation is changed."
             }
           ]
+        },
+        {
+          "anchor": "john-glasgow-nottingham-1760",
+          "name": "John Glasgow, Nottingham merchant and vendue attendee",
+          "status": "HOLD — compatible profiles linked",
+          "identity_note": "A signed 1760 advertisement names John Glasgow in a Cecil County vendue and planned Nottingham store. Glasgow-2870 and Glasgow-2871 remain compatible; Glasgow-2871 has the stronger merchant fit. No kin or origin is stated.",
+          "minimum_fields": "Given name John; LNAB Glasgow; male inferred from the notice. Adult merchant or storekeeper in the Nottingham area in 1760. Exact dates, places, kin and origin unknown.",
+          "facts": [
+            {
+              "finding_id": "john-glasgow-nottingham-vendue-1760",
+              "finding": "John Glasgow signed a notice for a 2 September 1760 public vendue for creditors of deceased William Graham, including a 200-acre patent tract on the Susquehanna near Shepard's Ferry in Cecil County, Maryland; he also intended to open a store in Nottingham by 1 September.",
+              "qualification": "The notice names no kin or origin. It does not establish Irish birth or migration.",
+              "sources": [
+                {
+                  "title": "Pennsylvania Gazette, 14 August 1760, p.3, image 39404812",
+                  "url": "https://www.newspapers.com/image/39404812/"
+                }
+              ]
+            }
+          ],
+          "candidates": [
+            {
+              "id": "Glasgow-2870",
+              "reason": "Born 1722 at Libberton and died 1769 at Nottingham; compatible chronology and locality, but no occupational bridge."
+            },
+            {
+              "id": "Glasgow-2871",
+              "reason": "Born 1738 and died 1792 in Chester County; merchant context is the stronger occupational fit, but the notice does not identify him."
+            }
+          ],
+          "duplicate_check": [
+            "Bounded public catalogue search (4797 records) and live biography review of Glasgow-2870 and Glasgow-2871 completed 4 October 2026; not exhaustive.",
+            "Both candidates remain compatible; missing fields do not exclude either."
+          ],
+          "next_test": "Compare Cecil and Chester deeds, probate and Nottingham store records for an address, signature, estate or associate distinguishing the candidates.",
+          "record_matches": [
+            {
+              "finding_id": "john-glasgow-nottingham-vendue-1760",
+              "status": "compatible_candidate",
+              "profile_ids": [
+                "Glasgow-2870",
+                "Glasgow-2871"
+              ],
+              "assessment": "HOLD — Glasgow-2870 and Glasgow-2871 remain compatible candidates; Glasgow-2871 has the stronger merchant occupational fit. No family or origin assignment follows."
+            }
+          ],
+          "wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nJohn Glasgow signed an advertisement published in the ''Pennsylvania Gazette'' on 14 August 1760. He announced a public vendue on 2 September for creditors of deceased William Graham, including a 200-acre patent tract on the Susquehanna, about two miles from Shepard's Ferry in Cecil County, Maryland. The land had about 60 acres cleared, and the notice said John intended to open a store in Nottingham by 1 September, selling for ready money or short credit.<ref>[https://www.newspapers.com/image/39404812/ ''Pennsylvania Gazette'', 14 August 1760, p.3], original page image inspected 4 October 2026.</ref>\n\n== Research Notes ==\nThis is a documentary-person evidence draft on HOLD. [[Glasgow-2870]] and [[Glasgow-2871]] remain compatible candidates after a bounded public catalogue search and live biography review; Glasgow-2871 has the stronger merchant occupational fit. The record gives no kin or origin and does not establish an Irish birth or migration. Compare Cecil and Chester deeds, probate and Nottingham store records to distinguish the candidates.\n\n== Sources ==\n<references />"
+        },
+        {
+          "anchor": "dublin-glasco-watchmaker",
+          "name": "Glasco, Dublin watch and clock maker",
+          "status": "HOLD — first name and profile assignment unresolved",
+          "identity_note": "All sixteen original advertisements were inspected and saved; they repeat the same address change from 5 October 1779 through 4 April 1780. No first name or kin is stated. The address supports continuity with the existing Thomas Glasco trade cluster, but does not identify a WikiTree profile.",
+          "minimum_fields": "Surname Glasco as printed; first name unknown; male from his in the advertisement; adult watch and clock maker trading in Dublin in 1779–1780. Birth, death, origin and family unknown.",
+          "facts": [
+            {
+              "finding_id": "dublin-glasco-watchmaker-move-1779",
+              "finding": "A watch and clock maker advertising only as Glasco moved from Christ-Church-lane to 20 Ormond Quay, near the market. Original notices inspected on 5 October 1779 and 4 April 1780 state the same move.",
+              "qualification": "All sixteen original advertisements were inspected and saved; they repeat the same address change from 5 October 1779 through 4 April 1780. No first name or kin is stated. The address supports continuity with the existing Thomas Glasco trade cluster, but does not identify a WikiTree profile.",
+              "sources": [
+                {
+                  "title": "Public Register, or Freeman's Journal, Tuesday, 5 October 1779, p.1",
+                  "url": "https://www.newspapers.com/image/1050086381/"
+                },
+                {
+                  "title": "Public Register, or Freeman's Journal, Thursday, 7 October 1779, p.1",
+                  "url": "https://www.newspapers.com/image/1050086390/"
+                },
+                {
+                  "title": "Public Register, or Freeman's Journal, Tuesday, 12 October 1779, p.2",
+                  "url": "https://www.newspapers.com/image/1050086411/"
+                },
+                {
+                  "title": "Public Register, or Freeman's Journal, Thursday, 14 October 1779, p.3",
+                  "url": "https://www.newspapers.com/image/1050086421/"
+                },
+                {
+                  "title": "Public Register, or Freeman's Journal, Saturday, 16 October 1779, p.3",
+                  "url": "https://www.newspapers.com/image/1050086430/"
+                },
+                {
+                  "title": "Public Register, or Freeman's Journal, Saturday, 23 October 1779, p.1",
+                  "url": "https://www.newspapers.com/image/1050086450/"
+                },
+                {
+                  "title": "Public Register, or Freeman's Journal, Thursday, 11 November 1779, p.4",
+                  "url": "https://www.newspapers.com/image/1050086512/"
+                },
+                {
+                  "title": "Public Register, or Freeman's Journal, Tuesday, 23 November 1779, p.3",
+                  "url": "https://www.newspapers.com/image/1050086545/"
+                },
+                {
+                  "title": "Public Register, or Freeman's Journal, Saturday, 4 December 1779, p.4",
+                  "url": "https://www.newspapers.com/image/1050119902/"
+                },
+                {
+                  "title": "Public Register, or Freeman's Journal, Tuesday, 21 December 1779, p.1",
+                  "url": "https://www.newspapers.com/image/1050048548/"
+                },
+                {
+                  "title": "Public Register, or Freeman's Journal, Thursday, 23 December 1779, p.4",
+                  "url": "https://www.newspapers.com/image/1050048569/"
+                },
+                {
+                  "title": "Public Register, or Freeman's Journal, Saturday, 5 February 1780, p.2",
+                  "url": "https://www.newspapers.com/image/1050048725/"
+                },
+                {
+                  "title": "Public Register, or Freeman's Journal, Saturday, 19 February 1780, p.4",
+                  "url": "https://www.newspapers.com/image/1050048807/"
+                },
+                {
+                  "title": "Public Register, or Freeman's Journal, Saturday, 26 February 1780, p.2",
+                  "url": "https://www.newspapers.com/image/1050048846/"
+                },
+                {
+                  "title": "Public Register, or Freeman's Journal, Saturday, 4 March 1780, p.3",
+                  "url": "https://www.newspapers.com/image/1050048882/"
+                },
+                {
+                  "title": "Public Register, or Freeman's Journal, Tuesday, 4 April 1780, p.4",
+                  "url": "https://www.newspapers.com/image/1050049040/"
+                }
+              ]
+            }
+          ],
+          "candidates": [
+            {
+              "id": "Glasco-143",
+              "reason": "Existing Thomas candidate for the 1779–1783 trade cluster. Birth c.1766 is an unsupported estimate and conflicts with adult trade in 1779; it cannot securely exclude identity."
+            },
+            {
+              "id": "Glasco-144",
+              "reason": "Thomas, 1773 Dublin marriage groom, remains compatible by chronology and place. No cited record identifies him as the watchmaker."
+            },
+            {
+              "id": "Glasco-173",
+              "reason": "Thomas, father in a 1760 Dublin baptism, remains compatible by chronology and place; no trade/address bridge has been established."
+            }
+          ],
+          "duplicate_check": [
+            "Reviewed the public historical catalogue and QMD notes for Dublin watchmakers and the two addresses. Reuse the existing trade cluster; this is not a new person per advertisement.",
+            "The known Philip junior died in 1770 and elder Philip died in 1772, so neither deceased watchmaker can be this living 1779 advertiser. The Scottish Philip profile identity remains separately unproved."
+          ],
+          "next_test": "Inspect an address-bearing directory, guild entry, probate, marriage or burial that supplies the advertiser’s first name and family; compare the existing 1779 Thomas marriage extract and 1783 directory.",
+          "wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nGlasco, whose first name is unknown, was a watch and clock maker in Dublin. A notice advertised his move from Christ-Church-lane to 20 Ormond Quay, near the market, by 5 October 1779; the same move was advertised on 4 April 1780.<ref>[https://www.newspapers.com/image/1050086381/ Public Register, or Freeman's Journal, 5 October 1779, p.1], original inspected 4 October 2026.</ref><ref>[https://www.newspapers.com/image/1050049040/ Public Register, or Freeman's Journal, 4 April 1780, p.4], original inspected 4 October 2026.</ref>\n\nThe same surname-only address-change advertisement is repeated in all sixteen inspected issues between 5 October 1779 and 4 April 1780.<ref>[https://www.newspapers.com/image/1050086390/ Public Register, or Freeman's Journal, Thursday, 7 October 1779, p.1].</ref><ref>[https://www.newspapers.com/image/1050086411/ Public Register, or Freeman's Journal, Tuesday, 12 October 1779, p.2].</ref><ref>[https://www.newspapers.com/image/1050086421/ Public Register, or Freeman's Journal, Thursday, 14 October 1779, p.3].</ref><ref>[https://www.newspapers.com/image/1050086430/ Public Register, or Freeman's Journal, Saturday, 16 October 1779, p.3].</ref><ref>[https://www.newspapers.com/image/1050086450/ Public Register, or Freeman's Journal, Saturday, 23 October 1779, p.1].</ref><ref>[https://www.newspapers.com/image/1050086512/ Public Register, or Freeman's Journal, Thursday, 11 November 1779, p.4].</ref><ref>[https://www.newspapers.com/image/1050086545/ Public Register, or Freeman's Journal, Tuesday, 23 November 1779, p.3].</ref><ref>[https://www.newspapers.com/image/1050119902/ Public Register, or Freeman's Journal, Saturday, 4 December 1779, p.4].</ref><ref>[https://www.newspapers.com/image/1050048548/ Public Register, or Freeman's Journal, Tuesday, 21 December 1779, p.1].</ref><ref>[https://www.newspapers.com/image/1050048569/ Public Register, or Freeman's Journal, Thursday, 23 December 1779, p.4].</ref><ref>[https://www.newspapers.com/image/1050048725/ Public Register, or Freeman's Journal, Saturday, 5 February 1780, p.2].</ref><ref>[https://www.newspapers.com/image/1050048807/ Public Register, or Freeman's Journal, Saturday, 19 February 1780, p.4].</ref><ref>[https://www.newspapers.com/image/1050048846/ Public Register, or Freeman's Journal, Saturday, 26 February 1780, p.2].</ref><ref>[https://www.newspapers.com/image/1050048882/ Public Register, or Freeman's Journal, Saturday, 4 March 1780, p.3].</ref>\n\n== Research Notes ==\nThe notices give no first name, birth, death or kin. The addresses fit the existing Thomas Glasco watchmaker cluster, but do not prove identity with [[Glasco-143]], [[Glasco-144]] or [[Glasco-173]]. Retain compatible candidates and do not create or amend family relationships from this notice.\n\n== Sources ==\n<references />",
+          "record_matches": [
+            {
+              "finding_id": "dublin-glasco-watchmaker-move-1779",
+              "status": "HOLD",
+              "profile_ids": [
+                "Glasco-143",
+                "Glasco-144",
+                "Glasco-173"
+              ],
+              "assessment": "All sixteen original advertisements were inspected and saved; they repeat the same address change from 5 October 1779 through 4 April 1780. No first name or kin is stated. The address supports continuity with the existing Thomas Glasco trade cluster, but does not identify a WikiTree profile."
+            }
+          ]
         }
       ]
     },
@@ -6884,6 +7043,33 @@
           "minimum_fields": "William Glasgow; male; adult shipmaster in 1792. Exact birth/death dates and personal residence unknown. Leave birth/death locations blank: the voyage ports and ship name do not establish them.",
           "facts": [
             {
+              "finding_id": "william-captain-rotterdam-1792",
+              "finding": "A Belfast notice dated 18 April 1792 advertises the brig William for Rotterdam and back to Belfast, naming William Glasgow as master and stating that the vessel would sail in eight days; freight enquiries were directed to Narcissus Batt.",
+              "qualification": "The surname is divided across two printed lines and indexed as Glascow. Same vessel, master and freight contact support continuity with the later Glasgow advertisements; no kin or personal residence is stated.",
+              "sources": [
+                {
+                  "title": "Northern Star, 21 April 1792, p.1",
+                  "url": "https://www.newspapers.com/image/72014483/"
+                },
+                {
+                  "title": "Northern Star, 25 April 1792, p.1",
+                  "url": "https://www.newspapers.com/image/72014572/"
+                },
+                {
+                  "title": "Northern Star, 28 April 1792, p.3",
+                  "url": "https://www.newspapers.com/image/72014689/"
+                },
+                {
+                  "title": "Northern Star, 2 May 1792, p.4",
+                  "url": "https://www.newspapers.com/image/72014781/"
+                },
+                {
+                  "title": "Northern Star, 5 May 1792, p.1",
+                  "url": "https://www.newspapers.com/image/72014784/"
+                }
+              ]
+            },
+            {
               "finding_id": "william-captain-1792",
               "finding": "Advertisements name Wm. Glasgow as master of the brig William, sailing from Belfast to Oporto and Bordeaux in 1792.",
               "qualification": "",
@@ -6893,19 +7079,43 @@
                   "url": "https://www.newspapers.com/image/72015499/"
                 },
                 {
+                  "title": "Northern Star, 28 July 1792, p.5",
+                  "url": "https://www.newspapers.com/image/72015521/"
+                },
+                {
                   "title": "Northern Star, 12 December 1792, p.1",
                   "url": "https://www.newspapers.com/image/72017846/"
+                },
+                {
+                  "title": "Northern Star, 1 August 1792, p.1",
+                  "url": "https://www.newspapers.com/image/72015527/"
+                },
+                {
+                  "title": "Northern Star, 5 December 1792, p.2",
+                  "url": "https://www.newspapers.com/image/72017668/"
+                },
+                {
+                  "title": "Northern Star, 8 December 1792, p.1",
+                  "url": "https://www.newspapers.com/image/72017751/"
                 }
               ]
             },
             {
               "finding_id": "captain-glasgow-1796",
-              "finding": "A January 1796 hemp and flax advertisement names Captain Glasgow of the brig William returning from Petersburg. Forename is not stated in this later advertisement; continuity with the 1792 master is probable, not proved.",
+              "finding": "January 1796 hemp and flax advertisements report the brig William as arrived from Petersburg, with clean hemp, twelve head of flax and codilla for M'Crackens & Co. Captain Glasgow is named, but his forename is not stated; continuity with the 1792 master is probable, not proved.",
               "qualification": "Forename is not stated in this later advertisement; continuity with the 1792 master is probable, not proved.",
               "sources": [
                 {
                   "title": "Northern Star, 7 January 1796, p.3",
                   "url": "https://www.newspapers.com/image/61256880/"
+                },
+                {
+                  "title": "Northern Star, 11 January 1796, p.1",
+                  "url": "https://www.newspapers.com/image/61256896/"
+                },
+                {
+                  "title": "Northern Star, 14 January 1796, p.1",
+                  "url": "https://www.newspapers.com/image/61256932/"
                 }
               ]
             }
@@ -6918,11 +7128,11 @@
           ],
           "duplicate_check": [
             "Checked the full captured Larne biography and its inherited captain suggestion. The new advertisements substantiate a real named captain, but do not prove his household identity.",
-            "William-1505 died in 1783 and cannot be the 1792 master.",
+            "Glasgow-1505 (William) died in 1783 and cannot be the 1792 master.",
             "The captain and 1793 Kildress delegate are documentary roles, not proved separate people; do not create duplicates from these drafts."
           ],
           "next_test": "Inspect the Larne will dated 6 December 1815, PRONI D300/1/5/49, for ship interests or an occupation.",
-          "wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nWilliam Glasgow was master of the brig ''William'' in 1792. Notices advertised voyages from Belfast to Oporto and Bordeaux.<ref>[https://www.newspapers.com/image/72015499/ Northern Star, 28 July 1792, p.1].</ref><ref>[https://www.newspapers.com/image/72017846/ Northern Star, 12 December 1792, p.1].</ref> A 1796 notice for the same vessel names Captain Glasgow, whose forename is unstated.<ref>[https://www.newspapers.com/image/61256880/ Northern Star, 7 January 1796, p.3].</ref>\n\n== Research Notes ==\nThe possible identity with [[Glasgow-3324|William Glasgow of Larne]] remains on HOLD. The inspected advertisements fit the occupational suggestion already attached to that profile, but do not state family or personal residence.\n\n== Sources ==\n<references />"
+          "wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nWilliam Glasgow was master of the brig ''William'' in 1792. A Belfast notice dated 18 April advertised the vessel ''For Rotterdam and back to Belfast'', naming William Glasgow as master and stating that she would sail in eight days; freight enquiries were directed to Narcissus Batt.<ref>[https://www.newspapers.com/image/72014483/ Northern Star, 21 April 1792, p.1].</ref> Later notices advertised voyages from Belfast to Oporto and Bordeaux.<ref>[https://www.newspapers.com/image/72015499/ Northern Star, 28 July 1792, p.1].</ref><ref>[https://www.newspapers.com/image/72015521/ Northern Star, 28 July 1792, p.5].</ref><ref>[https://www.newspapers.com/image/72017846/ Northern Star, 12 December 1792, p.1].</ref> A notice dated 25 July 1792 also reports the same Oporto/Belfast service.<ref>[https://www.newspapers.com/image/72015527/ Northern Star, 1 August 1792, p.1].</ref> January 1796 notices report the ''William'' as arrived from Petersburg with clean hemp, twelve head of flax and codilla for M'Crackens & Co.; the forename is unstated.<ref>[https://www.newspapers.com/image/61256880/ Northern Star, 7 January 1796, p.3].</ref><ref>[https://www.newspapers.com/image/61256896/ Northern Star, 11 January 1796, p.1].</ref><ref>[https://www.newspapers.com/image/61256932/ Northern Star, 14 January 1796, p.1].</ref> Continuity with the 1792 master is probable, not proved.\n\nThe Rotterdam advertisement dated 18 April is repeated in the 25 April 1792 issue.<ref>[https://www.newspapers.com/image/72014572/ Northern Star, 25 April 1792, p.1].</ref>\nThe Rotterdam advertisement dated 18 April is repeated in the 28 April 1792 issue.<ref>[https://www.newspapers.com/image/72014689/ Northern Star, 28 April 1792, p.3].</ref>\nThe Rotterdam advertisement dated 18 April is repeated in the 2 May 1792 issue.<ref>[https://www.newspapers.com/image/72014781/ Northern Star, 2 May 1792, p.4].</ref>\nThe Rotterdam advertisement dated 18 April is repeated in the 5 May 1792 issue.<ref>[https://www.newspapers.com/image/72014784/ Northern Star, 5 May 1792, p.1].</ref>\nA Bordeaux and return notice dated 4 December names Wm. Glasgow as master and Narcissus Batt as freight contact.<ref>[https://www.newspapers.com/image/72017668/ Northern Star, 5 December 1792, p.2].</ref>\nA Bordeaux and return notice dated 4 December names Wm. Glasgow as master and Narcissus Batt as freight contact.<ref>[https://www.newspapers.com/image/72017751/ Northern Star, 8 December 1792, p.1].</ref>\n\n== Research Notes ==\nThe possible identity with [[Glasgow-3324|William Glasgow of Larne]] remains on HOLD. The inspected advertisements fit the occupational suggestion already attached to that profile, but do not state family or personal residence.\n\n== Sources ==\n<references />"
         },
         {
           "anchor": "kildress-william",
@@ -6939,6 +7149,10 @@
                 {
                   "title": "Northern Star, 23 January 1793, p.2",
                   "url": "https://www.newspapers.com/image/72019090/"
+                },
+                {
+                  "title": "Northern Star, 26 January 1793, p.4, repeated Kildress resolutions",
+                  "url": "https://www.newspapers.com/image/72019250/"
                 }
               ]
             }
@@ -6955,7 +7169,7 @@
             "The delegate could also be another William, including the shipmaster; no source joins or separates those roles."
           ],
           "next_test": "Look for delegate correspondence, Kildress leases and signatures that identify his residence or family.",
-          "wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nWilliam Glasgow attended the Kildress church meeting on 16 January 1793. He and Hugh Faulkner were appointed delegates to the Dungannon meeting on parliamentary reform. When David Richardson left the chair, William took it and signed the meeting’s thanks resolution.<ref>[https://www.newspapers.com/image/72019090/ Northern Star, 23 January 1793, p.2].</ref>\n\n== Research Notes ==\n[[Glasgow-2915|William Glasgow]] is a compatible candidate by period and district. The notice does not establish that profile’s father, wife or birthplace.\n\n== Sources ==\n<references />"
+          "wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nWilliam Glasgow attended the Kildress church meeting on 16 January 1793. He and Hugh Faulkner were appointed delegates to the Dungannon meeting on parliamentary reform. When David Richardson left the chair, William took it and signed the meeting’s thanks resolution.<ref>[https://www.newspapers.com/image/72019090/ Northern Star, 23 January 1793, p.2].</ref>\n\nThe same meeting resolutions were repeated on 26 January.<ref>[https://www.newspapers.com/image/72019250/ Northern Star, 26 January 1793, p.4, repeated Kildress resolutions].</ref>\n\n== Research Notes ==\n[[Glasgow-2915|William Glasgow]] is a compatible candidate by period and district. The notice does not establish that profile’s father, wife or birthplace.\n\n== Sources ==\n<references />"
         },
         {
           "anchor": "belfast-grocer",

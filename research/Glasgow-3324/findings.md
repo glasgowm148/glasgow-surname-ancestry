@@ -37,7 +37,7 @@ catalogue descriptions are public, but the will clauses and renewal recitals
 have not been inspected online. A copy order or archive visit is required; see
 PRONI's [digitised-records inventory](https://www.proni.gov.uk/publications/digitised-and-born-digital-records-available-ecatalogue).
 
-New evidence reviewed 4 October 2026: Two inspected 1792 Northern Star advertisements name Wm. Glasgow as master of the brig William on Belfast voyages to Oporto and Bordeaux. They substantiate a real named captain corresponding to the inherited occupational suggestion, but do not prove that he was this Larne household’s William. The profile’s dated family monument and 1815 will remain the appropriate identity tests.
+New evidence reviewed 4 October 2026: Inspected April–December 1792 Northern Star advertisements name Wm. Glasgow as master of the brig William on Belfast voyages to Rotterdam, Oporto and Bordeaux. They substantiate a real named captain corresponding to the inherited occupational suggestion, but do not prove that he was this Larne household’s William. The profile’s dated family monument and 1815 will remain the appropriate identity tests.
 
 ## Source findings
 
@@ -89,3 +89,7 @@ Profile prose and trees remain leads; inspect the cited record before treating a
 ## Priority actions
 
 Read Jane Stewart’s administration and the earlier mortgage recited in 548257. Compare the 1824 Elizabeth renewal with this widow and William’s 1815 will without assuming the same property: the assignment is on the south side of Newtown, while the 1779/1832 James–Anne–Jane tenement is on the north side. Preserve these title chains separately.
+
+## Identity assessment — 4 October 2026 early newspaper review
+
+The earliest newly inspected notice is [Northern Star, 21 April 1792, p.1](https://www.newspapers.com/image/72014483/), dated Belfast 18 April: William Glasgow is master of the brig William for Rotterdam and back to Belfast, with freight enquiries to Narcissus Batt. Four inspected copies run through 5 May. Two December copies corroborate the Bordeaux service; three January 1796 notices name Captain Glasgow on an arrival from Petersburg, without a forename. These give an occupation and voyages, not a Larne household or kinship. The [complete source account and HOLD draft](/research/subjects/william-glasgow-irish-newspapers/#captain-william) retains all original links. No family attachment changes.

@@ -44,3 +44,7 @@ The full public person drafts are at /research/subjects/william-glasgow-irish-ne
 ## Verified local release
 
 Upload archive: `glasgow-site-20261004-011343.tar.gz`, 150,336,671 bytes (150.34 decimal MB). All 79,493 files match the manifest and 20 affected file hashes match local files. Private originals: `artifacts/newspapers-william-glasgow-20261004.zip`, 7,679,471 bytes, verified. Public-safe queue specifications are saved with the six complete proposals; the local aggregate queue remains ignored. No deployment or WikiTree save.
+
+## Pre-1800 catalogue-led review — 4 October 2026
+
+The [21 April 1792 original](https://www.newspapers.com/image/72014483/) adds Rotterdam and return to Belfast, with William Glasgow master and Narcissus Batt as freight contact. Its notice date is 18 April; four original copies extend through 5 May. Original 5 and 8 December copies repeat the Bordeaux notice. January 1796 Captain Glasgow appearances repeat the arrival FROM Petersburg, with no first name. The [26 January 1793 Kildress copy](https://www.newspapers.com/image/72019250/) repeats the 16 January meeting report. Reuse the existing master and delegate drafts; no household identity or family link is resolved. Full links and qualified candidate assessments are maintained in research/latest-findings-subjects/subjects.json.

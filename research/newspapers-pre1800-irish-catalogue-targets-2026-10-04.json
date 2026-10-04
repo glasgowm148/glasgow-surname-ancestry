@@ -1,0 +1,5167 @@
+{
+  "scope": "Glasgow surname catalogue records before 1800 associated with Ireland; includes explicitly labelled birth/export leads and estimated chronology",
+  "targets": [
+    {
+      "id": "glasgow-3172",
+      "profile_ids": [
+        "Glasgow-3172"
+      ],
+      "name": "James Glasgow",
+      "first_names": [
+        "James"
+      ],
+      "birth": "c. 1640",
+      "birth_location": "Scotland",
+      "earliest": 1600.0,
+      "records": [
+        {
+          "year": "c.1600–1686",
+          "filter_year": 1600.0,
+          "region": "Ireland",
+          "record_location": "Belfast",
+          "evidence": "Documented occurrence",
+          "association": "PRONI maritime records and 1686 will",
+          "note": "PRONI MIC19/2 identifies Captain James Glasgow/Glascow as a Belfast-associated shipmaster; T/828/15 is a 1686 Belfast will extract. No relatives are yet identified.",
+          "priority": "documented historical occurrence"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-1101",
+      "profile_ids": [
+        "Glasgow-1101"
+      ],
+      "name": "Archibald Glasgow",
+      "first_names": [
+        "Archibald"
+      ],
+      "birth": "before 1614-06-19",
+      "birth_location": "Glasgow, Lanarkshire, Scotland",
+      "earliest": 1641.0,
+      "records": [
+        {
+          "year": "1641",
+          "filter_year": 1641.0,
+          "region": "Ireland",
+          "record_location": "Killea civil parish County Donegal",
+          "evidence": "Probable same Irish cleric",
+          "association": "Rector of Killea",
+          "note": "Leslie records Archibald Glasgow as rector of Killea in 1641. The career fits the Scottish-baptised M.A., but no Irish record identifies his birthplace or father.",
+          "priority": "historical secondary/reconstruction"
+        },
+        {
+          "year": "1654",
+          "filter_year": 1654.0,
+          "region": "Ireland",
+          "record_location": "Faughanvale civil parish County Londonderry",
+          "evidence": "Probable same Irish cleric",
+          "association": "Recorded at Faughanvale",
+          "note": "The clerical record places Archibald at Faughanvale. The wider Irish career is coherent, but identity with the Scottish-baptised M.A. remains circumstantial.",
+          "priority": "historical secondary/reconstruction"
+        },
+        {
+          "year": "1660",
+          "filter_year": 1660.0,
+          "region": "Ireland",
+          "record_location": "Taboyne — Taughboyne civil parish County Donegal",
+          "evidence": "Probable same Irish cleric",
+          "association": "Assistant at Taboyne",
+          "note": "The record's Taboyne is mapped to Taughboyne parish. The wider Irish career is coherent, but identity with the Scottish-baptised M.A. remains circumstantial.",
+          "priority": "historical secondary/reconstruction"
+        },
+        {
+          "year": "Apr 1661",
+          "filter_year": 1661.0,
+          "region": "Ireland",
+          "record_location": "Aughnish parish and townland",
+          "evidence": "Probable same Irish cleric",
+          "association": "Rector and vicar of Aughnish",
+          "note": "The appointment names Archibald Glasgow. The Irish clerical career is coherent, but identity with the Glasgow-baptised M.A. remains circumstantial.",
+          "priority": "historical secondary/reconstruction"
+        },
+        {
+          "year": "Apr 1661",
+          "filter_year": 1661.0,
+          "region": "Ireland",
+          "record_location": "Clondavaddog civil parish",
+          "evidence": "Probable same Irish cleric",
+          "association": "Rector and vicar of Clondevaddock",
+          "note": "The appointment names Archibald Glasgow. The Irish clerical career is coherent, but identity with the Glasgow-baptised M.A. remains circumstantial.",
+          "priority": "historical secondary/reconstruction"
+        },
+        {
+          "year": "1661",
+          "filter_year": 1661.0,
+          "region": "Ireland",
+          "record_location": "Killea civil parish County Donegal",
+          "evidence": "Probable same Irish cleric",
+          "association": "Reinstated as rector of Killea",
+          "note": "The clerical record says Archibald was reinstated in 1661. It is probably the same Irish cleric recorded there in 1641.",
+          "priority": "historical secondary/reconstruction"
+        },
+        {
+          "year": "Apr 1661",
+          "filter_year": 1661.0,
+          "region": "Ireland",
+          "record_location": "Tullyfern civil parish",
+          "evidence": "Probable same Irish cleric",
+          "association": "Rector and vicar of Tullyfern",
+          "note": "The appointment names Archibald Glasgow. The Irish clerical career is coherent, but identity with the Glasgow-baptised M.A. remains circumstantial.",
+          "priority": "historical secondary/reconstruction"
+        },
+        {
+          "year": "1665",
+          "filter_year": 1665.0,
+          "region": "Ireland",
+          "record_location": "County Donegal — exact locality unproved",
+          "evidence": "Possible namesake occurrence",
+          "association": "Possible Donegal hearth-money roll entry",
+          "note": "A 1665 Donegal hearth-roll occurrence may be the cleric, but the available summary does not establish identity or a smaller locality.",
+          "priority": "historical secondary/reconstruction"
+        },
+        {
+          "year": "1675/76",
+          "filter_year": 1675.0,
+          "region": "Ireland",
+          "record_location": "Ramelton",
+          "evidence": "Highly probable same Irish cleric",
+          "association": "Archibald Glasgow of Ramelton named as bond obligee",
+          "note": "PRONI D1825/A/2 names Archibald of Ramelton. The matching 1677 Rathmalton will names Archibald Glasgow, clerk; the name, place, occupation and dates make these two records almost certainly the same man.",
+          "priority": "historical secondary/reconstruction"
+        },
+        {
+          "year": "1677",
+          "filter_year": 1677.0,
+          "region": "Ireland",
+          "record_location": "Ramelton",
+          "evidence": "Highly probable same Irish cleric",
+          "association": "Prerogative will proved for Archibald Glasgow of Rathmalton clerk",
+          "note": "The published will index names Archibald Glasgow of Rathmalton, County Donegal, clerk. This is almost certainly the 1675/76 Ramelton bond-holder; the abstract has not yet supplied any wife or children.",
+          "priority": "historical secondary/reconstruction"
+        },
+        {
+          "year": "1679",
+          "filter_year": 1679.0,
+          "region": "Ireland",
+          "record_location": "Ramelton",
+          "evidence": "Probable duplicate probate index entry",
+          "association": "Prerogative probate indexed at Rathmatton, County Donegal",
+          "note": "The uncommon name and residence strongly indicate the same Archibald as the 1677 Rathmalton will; the two-year discrepancy remains unresolved.",
+          "priority": "documented historical occurrence"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-3961",
+      "profile_ids": [
+        "Glasgow-3961"
+      ],
+      "name": "Elizabeth Glasgow",
+      "first_names": [
+        "Elizabeth"
+      ],
+      "birth": "c. 1650",
+      "birth_location": "County Antrim, Ireland",
+      "earliest": 1650.0,
+      "records": [
+        {
+          "year": "before 1651",
+          "filter_year": 1650.0,
+          "region": "Ireland",
+          "record_location": "County Antrim — exact locality unproved",
+          "evidence": "Recent WikiTree profile lead",
+          "association": "Recent-edit profile location: County Antrim — exact locality unproved",
+          "note": "Added from the 6 August 2026 recent-edit reconciliation; profile fields are research leads, not source evidence.",
+          "priority": "birth/export/tree lead"
+        },
+        {
+          "year": "1669",
+          "filter_year": 1669.0,
+          "region": "Ireland",
+          "record_location": "Glenarm Town",
+          "evidence": "Documented occurrence",
+          "association": "Hearth-money return, Glenarm Town",
+          "note": "Relationship to the Larne and Kilwaughter householders is not stated.",
+          "priority": "documented historical occurrence"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-3001",
+      "profile_ids": [
+        "Glasgow-3001"
+      ],
+      "name": "James Glasgow",
+      "first_names": [
+        "James"
+      ],
+      "birth": "c. 1650",
+      "birth_location": "Scotland",
+      "earliest": 1650.0,
+      "records": [
+        {
+          "year": "c.1650–1728",
+          "filter_year": 1650.0,
+          "region": "Ireland",
+          "record_location": "Killybegs",
+          "evidence": "Documented occurrence",
+          "association": "Killybegs collector account entered under 1728",
+          "note": "A parliamentary account directly names James at Killybegs. The date is an accounting date, not proof of birth or death, and no record links him to Thomas of Raphoe.",
+          "priority": "documented historical occurrence"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-3970",
+      "profile_ids": [
+        "Glasgow-3970"
+      ],
+      "name": "Robert Glaskow",
+      "first_names": [
+        "Robert"
+      ],
+      "birth": "before 1625",
+      "birth_location": "",
+      "earliest": 1653.0,
+      "records": [
+        {
+          "year": "1653",
+          "filter_year": 1653.0,
+          "region": "Ireland",
+          "record_location": "Larne",
+          "evidence": "Documented occurrence",
+          "association": "Reported as living at Larne in a deposition",
+          "note": "The record proves the separate Larne identity; it does not connect him to the Scottish Robert-1078 or later Kilwaughter householders.",
+          "priority": "documented historical occurrence"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-591",
+      "profile_ids": [
+        "Glasgow-591"
+      ],
+      "name": "William Glasgow",
+      "first_names": [
+        "William"
+      ],
+      "birth": "c. 1656",
+      "birth_location": "Glasgow, Scotland",
+      "earliest": 1656.0,
+      "records": [
+        {
+          "year": "c.1656",
+          "filter_year": 1656.0,
+          "region": "Ireland",
+          "record_location": "Northern Ireland region — exact county unproved",
+          "evidence": "Traditional / profile lead",
+          "association": "Traditional Scotland-to-Ireland migration",
+          "note": "A late family history says the ancestor remained in 'northern Ireland' after the 1689 campaign; it names no county and does not prove his relationship to Hugh-548.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-3984",
+      "profile_ids": [
+        "Glasgow-3984"
+      ],
+      "name": "John Glasgow",
+      "first_names": [
+        "John"
+      ],
+      "birth": "before 1664",
+      "birth_location": "Ireland",
+      "earliest": 1664.0,
+      "records": [
+        {
+          "year": "b. 1664",
+          "filter_year": 1664.0,
+          "region": "Ireland",
+          "record_location": "County Antrim — exact locality unproved",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birthplace: Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links.",
+          "priority": "birth/export/tree lead"
+        },
+        {
+          "year": "1685",
+          "filter_year": 1685.0,
+          "region": "Ireland",
+          "record_location": "Magherabeg — indexed Maghrebegg",
+          "evidence": "Probate index",
+          "association": "Probate residence: Maghrebegg",
+          "note": "No record connects John to the later Moneymore family.",
+          "priority": "documented historical occurrence"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-4009",
+      "profile_ids": [
+        "Glasgow-4009"
+      ],
+      "name": "Robert Glasgow",
+      "first_names": [
+        "Robert"
+      ],
+      "birth": "before 1664",
+      "birth_location": "Belfast, County Antrim, Ireland",
+      "earliest": 1664.0,
+      "records": [
+        {
+          "year": "b. 1664",
+          "filter_year": 1664.0,
+          "region": "Ireland",
+          "record_location": "Belfast",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birthplace: Belfast, County Antrim, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links.",
+          "priority": "birth/export/tree lead"
+        },
+        {
+          "year": "1685",
+          "filter_year": 1685.0,
+          "region": "Ireland",
+          "record_location": "Belfast",
+          "evidence": "Probate index",
+          "association": "Probate residence: Belfast",
+          "note": "Robert-1078 is chronologically possible, but the index supplies no identifying relationship or occupation.",
+          "priority": "documented historical occurrence"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-1081",
+      "profile_ids": [
+        "Glasgow-1081"
+      ],
+      "name": "James Glascho",
+      "first_names": [
+        "James"
+      ],
+      "birth": "before 1651",
+      "birth_location": "Larne, County Antrim, Ireland",
+      "earliest": 1669.0,
+      "records": [
+        {
+          "year": "1669",
+          "filter_year": 1669.0,
+          "region": "Ireland",
+          "record_location": "Demesne townland, Kilwaughter",
+          "evidence": "Documented occurrence",
+          "association": "Hearth-money return, Kilwaughter Demesne",
+          "note": "The later Kilwaughter James is a probable repeated identity; no relationship to the separate Drummaul Glass households is stated.",
+          "priority": "documented historical occurrence"
+        },
+        {
+          "year": "1700–1727",
+          "filter_year": 1700.0,
+          "region": "Ireland",
+          "record_location": "Kilwaughter",
+          "evidence": "Probable repeated identity",
+          "association": "Meeting-house overseer, session member and will-index occurrence",
+          "note": "The 1700 actor, the man recorded dead in 1726 and the 1727 testator are probably one man.",
+          "priority": "historical secondary/reconstruction"
+        },
+        {
+          "year": "1700",
+          "filter_year": 1700.0,
+          "region": "Ireland",
+          "record_location": "Kilwaughter",
+          "evidence": "Probable repeated identity",
+          "association": "Kilwaughter district overseer",
+          "note": "Directly named in the published congregational transcript; identity with the 1669 householder remains probable.",
+          "priority": "historical secondary/reconstruction"
+        },
+        {
+          "year": "1721",
+          "filter_year": 1721.0,
+          "region": "Ireland",
+          "record_location": "Kilwaughter",
+          "evidence": "Probable repeated identity",
+          "association": "Named in Kilwaughter session list",
+          "note": "Probably the same James as the 1700 overseer and 1727 testator.",
+          "priority": "historical secondary/reconstruction"
+        },
+        {
+          "year": "1722",
+          "filter_year": 1722.0,
+          "region": "Ireland",
+          "record_location": "Kilwaughter",
+          "evidence": "Probable repeated identity",
+          "association": "Presbytery commissioner",
+          "note": "Probably the same James as the 1721 session member.",
+          "priority": "historical secondary/reconstruction"
+        },
+        {
+          "year": "1726",
+          "filter_year": 1726.0,
+          "region": "Ireland",
+          "record_location": "Kilwaughter",
+          "evidence": "Probable repeated identity",
+          "association": "Marked deceased in congregational list",
+          "note": "Strongly matches the 1727 Kilwater will-index entry.",
+          "priority": "historical secondary/reconstruction"
+        },
+        {
+          "year": "1727",
+          "filter_year": 1727.0,
+          "region": "Ireland",
+          "record_location": "Kilwaughter",
+          "evidence": "Documented occurrence",
+          "association": "Connor diocesan will index",
+          "note": "Indexed as James Glasgow of Kilwater; the original will does not survive.",
+          "priority": "documented historical occurrence"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-3913",
+      "profile_ids": [
+        "Glasgow-3913"
+      ],
+      "name": "John / Jo Glascho",
+      "first_names": [
+        "John"
+      ],
+      "birth": "c. 1650",
+      "birth_location": "Demesne townland, Kilwaughter (estimated)",
+      "earliest": 1669.0,
+      "records": [
+        {
+          "year": "1669",
+          "filter_year": 1669.0,
+          "region": "Ireland",
+          "record_location": "Demesne townland, Kilwaughter",
+          "evidence": "Documented occurrence",
+          "association": "Hearth-money return, Kilwaughter Demesne",
+          "note": "No inspected record states his relationship to James or the later families.",
+          "priority": "documented historical occurrence"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-1026",
+      "profile_ids": [
+        "Glasgow-1026"
+      ],
+      "name": "William Walter Glasgow",
+      "first_names": [
+        "William"
+      ],
+      "birth": "c. 1660",
+      "birth_location": "Kirknewton, Linlithgowshire, Scotland",
+      "earliest": 1671.0,
+      "records": [
+        {
+          "year": "9 Sep 1671",
+          "filter_year": 1671.0,
+          "region": "Ireland",
+          "record_location": "County Tyrone — exact locality unproved",
+          "evidence": "Traditional / profile lead",
+          "association": "Profile-stated migration to County Tyrone",
+          "note": "The Scottish baptism is documented separately; the Irish migration and descendants remain unproved.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-3171",
+      "profile_ids": [
+        "Glasgow-3171"
+      ],
+      "name": "George Glasgow",
+      "first_names": [
+        "George"
+      ],
+      "birth": "before 1676-12-22",
+      "birth_location": "St John parish — Fishamble Street Dublin (estimated)",
+      "earliest": 1676.0,
+      "records": [
+        {
+          "year": "22 Dec 1676",
+          "filter_year": 1676.0,
+          "region": "Ireland",
+          "record_location": "St John parish — Fishamble Street Dublin",
+          "evidence": "Documented occurrence",
+          "association": "Church of Ireland burial register",
+          "note": "IrishGenealogy record DU-CI-BU-127347 identifies the diocesan area as Dublin and the parochial area as St. John; book number and entry number are not recorded, page 74. No relative is named.",
+          "priority": "documented historical occurrence"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-2249",
+      "profile_ids": [
+        "Glasgow-2249"
+      ],
+      "name": "Janet Glasgow Woodside",
+      "first_names": [
+        "Janet"
+      ],
+      "birth": "c. 1678",
+      "birth_location": "Ireland",
+      "earliest": 1678.0,
+      "records": [
+        {
+          "year": "c.1678",
+          "filter_year": 1678.0,
+          "region": "Ireland",
+          "record_location": "Ireland — exact locality unproved",
+          "evidence": "Profile location lead",
+          "association": "Profile-stated Irish birth",
+          "note": "The profile gives Ireland only; no county or smaller locality is supplied.",
+          "priority": "historical secondary/reconstruction"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-3990",
+      "profile_ids": [
+        "Glasgow-3990"
+      ],
+      "name": "John Glasgow",
+      "first_names": [
+        "John"
+      ],
+      "birth": "c. 1680",
+      "birth_location": "Kilwaughter, County Antrim, Ireland",
+      "earliest": 1680.0,
+      "records": [
+        {
+          "year": "b. 1680",
+          "filter_year": 1680.0,
+          "region": "Ireland",
+          "record_location": "County Antrim — exact locality unproved",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birthplace: Kilwaughter, County Antrim, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-635",
+      "profile_ids": [
+        "Glasgow-635"
+      ],
+      "name": "Reverend James Patrick Glasgow",
+      "first_names": [
+        "James"
+      ],
+      "birth": "c. 1680 (estimated)",
+      "birth_location": "Ireland",
+      "earliest": 1680.0,
+      "records": [
+        {
+          "year": "c.1680",
+          "filter_year": 1680.0,
+          "region": "Ireland",
+          "record_location": "Ireland — exact locality unproved",
+          "evidence": "Contradicted profile lead",
+          "association": "Profile-stated Irish birth",
+          "note": "The Maryland ministry is documented, but an authoritative biography calls him a native of Scotland; no Irish event has been found.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-551",
+      "profile_ids": [
+        "Glasgow-551"
+      ],
+      "name": "John Glasgow",
+      "first_names": [
+        "John"
+      ],
+      "birth": "c. 1681",
+      "birth_location": "Scotland",
+      "earliest": 1681.0,
+      "records": [
+        {
+          "year": "c.1681",
+          "filter_year": 1681.0,
+          "region": "Ireland",
+          "record_location": "County Tyrone — exact locality unproved",
+          "evidence": "Traditional / profile lead",
+          "association": "Profile-stated migration to County Tyrone",
+          "note": "The profile gives no parish or record proving the migration or relationship to Hugh-548.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-2917",
+      "profile_ids": [
+        "Glasgow-2917"
+      ],
+      "name": "Charles James Glasgow",
+      "first_names": [
+        "Charles"
+      ],
+      "birth": "1686-10-10",
+      "birth_location": "Glencorse, Midlothian, Scotland",
+      "earliest": 1686.0,
+      "records": [
+        {
+          "year": "10 Oct 1686",
+          "filter_year": 1686.0,
+          "region": "Ireland",
+          "record_location": "Cross, County Londonderry",
+          "evidence": "Unproved migration claim",
+          "association": "Scottish baptism plus profile migration claim",
+          "note": "The 1686 South Leith baptism is documented. No record proves that child migrated to Cross or fathered James-2916.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-3556",
+      "profile_ids": [
+        "Glasgow-3556"
+      ],
+      "name": "Thomas Glasgow",
+      "first_names": [
+        "Thomas"
+      ],
+      "birth": "before 1671",
+      "birth_location": "Lifford, Clonleigh, County Donegal, Ireland",
+      "earliest": 1689.0,
+      "records": [
+        {
+          "year": "1689",
+          "filter_year": 1689.0,
+          "region": "Ireland",
+          "record_location": "Lifford County Donegal",
+          "evidence": "Documented occurrence",
+          "association": "Thomas Glasgow of Lifford Esq named in attainder list",
+          "note": "William King's 1691 publication names Thomas Glasgow of Lifford, County Donegal, Esq., in the 1689 attainder list. It gives no wife, parents or children.",
+          "priority": "documented historical occurrence"
+        },
+        {
+          "year": "1692–1695",
+          "filter_year": 1692.0,
+          "region": "Ireland",
+          "record_location": "Ballindrait — Raphoe North",
+          "evidence": "Documented occurrence",
+          "association": "PRONI deeds 1692–1695",
+          "note": "Thomas is directly recorded at Ballindroight/Ballindrait and Shannon in the Raphoe area. No record names his relatives or connects him to Archibald or Nathaniel Glasgow.",
+          "priority": "documented historical occurrence"
+        },
+        {
+          "year": "1692",
+          "filter_year": 1692.0,
+          "region": "Ireland",
+          "record_location": "Dublin, Ireland",
+          "evidence": "Documented",
+          "association": "Court Record 02/03/1692",
+          "note": "Transcript-validated Glasgow-surname record. IDs: IRE/COURT/CHANCERY/0000106395, IRE/COURT/EXCHEQUER/0001527519, IRE/COURT/EXCHEQUER/0001584141. Separate events/people are not merged without evidence.",
+          "priority": "documented historical occurrence"
+        },
+        {
+          "year": "26 May 1694",
+          "filter_year": 1694.0,
+          "region": "Ireland",
+          "record_location": "Shannon locality — Clonleigh parish",
+          "evidence": "Documented occurrence",
+          "association": "Described as of Shannon in PRONI D1939/18/11/16",
+          "note": "The bond calls Thomas of Shannon. Modern Shannon Lower and Shannon Middle form the named locality in Clonleigh parish; the record does not distinguish the subdivision.",
+          "priority": "documented historical occurrence"
+        }
+      ]
+    },
+    {
+      "id": "mangan-824",
+      "profile_ids": [
+        "Mangan-824"
+      ],
+      "name": "Catherine (Mangan) Glasco",
+      "first_names": [
+        "Catherine"
+      ],
+      "birth": "1690",
+      "birth_location": "County Kildare, Ireland",
+      "earliest": 1690.0,
+      "records": [
+        {
+          "year": "b. 1690",
+          "filter_year": 1690.0,
+          "region": "Ireland",
+          "record_location": "County Kildare — exact locality unproved",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birthplace: County Kildare, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-3966",
+      "profile_ids": [
+        "Glasgow-3966"
+      ],
+      "name": "George Glasgow R.E",
+      "first_names": [
+        "George"
+      ],
+      "birth": "before 1693",
+      "birth_location": "Ireland — exact locality unproved (estimated)",
+      "earliest": 1693.0,
+      "records": [
+        {
+          "year": "b. 1693",
+          "filter_year": 1693.0,
+          "region": "Ireland",
+          "record_location": "Armagh",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated death place: County Armagh, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links.",
+          "priority": "birth/export/tree lead"
+        },
+        {
+          "year": "1724",
+          "filter_year": 1724.0,
+          "region": "Ireland",
+          "record_location": "Ireland — exact locality unproved",
+          "evidence": "Probate index",
+          "association": "Irish probate; residence not recorded",
+          "note": "No residence or relationship permits a cluster assignment.",
+          "priority": "documented historical occurrence"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-3920",
+      "profile_ids": [
+        "Glasgow-3920"
+      ],
+      "name": "Patrick Glasco",
+      "first_names": [
+        "Patrick"
+      ],
+      "birth": "1694",
+      "birth_location": "Kilclone, County Meath, Ireland",
+      "earliest": 1694.0,
+      "records": [
+        {
+          "year": "c.1694–1754",
+          "filter_year": 1694.0,
+          "region": "Ireland",
+          "record_location": "Kilclone, County Meath",
+          "evidence": "Memorial-supported family",
+          "association": "Kilclone memorial family",
+          "note": "The published inscription names Patrick as father of James and, through James's wording, of Richard and William. This is an explicit family group.",
+          "priority": "documented historical occurrence"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-3942",
+      "profile_ids": [
+        "Glasgow-3942"
+      ],
+      "name": "Katherine Glasgow",
+      "first_names": [
+        "Katherine"
+      ],
+      "birth": "c. 1695",
+      "birth_location": "Dublin (estimated)",
+      "earliest": 1695.0,
+      "records": [
+        {
+          "year": "d. 3 Nov 1713",
+          "filter_year": 1695.0,
+          "region": "Ireland",
+          "record_location": "Dublin",
+          "evidence": "Recent WikiTree profile lead",
+          "association": "Recent-edit profile location: Dublin",
+          "note": "Added from the 6 August 2026 recent-edit reconciliation; profile fields are research leads, not source evidence.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-3967",
+      "profile_ids": [
+        "Glasgow-3967"
+      ],
+      "name": "James Glasgow",
+      "first_names": [
+        "James"
+      ],
+      "birth": "before 1678",
+      "birth_location": "Duneane, County Antrim, Ireland",
+      "earliest": 1698.0,
+      "records": [
+        {
+          "year": "1698",
+          "filter_year": 1698.0,
+          "region": "Ireland",
+          "record_location": "Randalstown / Drummaul congregational association",
+          "evidence": "Documented church-office occurrence",
+          "association": "Ruling elder listed beside William Taylor",
+          "note": "The Synod pairing establishes congregational representation but not James's residence or family.",
+          "priority": "documented historical occurrence"
+        },
+        {
+          "year": "1703",
+          "filter_year": 1703.0,
+          "region": "Ireland",
+          "record_location": "Randalstown / Drummaul congregational association",
+          "evidence": "Documented church-office occurrence",
+          "association": "Ruling elder again listed beside William Taylor",
+          "note": "The repeated pairing strongly supports identity with the 1698 elder but gives no residence or descendants.",
+          "priority": "documented historical occurrence"
+        },
+        {
+          "year": "1705",
+          "filter_year": 1705.0,
+          "region": "Ireland",
+          "record_location": "Duneane congregational association",
+          "evidence": "Probable repeated identity",
+          "association": "Ruling elder listed beside James Scott",
+          "note": "Probably the same elder as 1698/1703; the change of representative does not prove that James moved to Duneane.",
+          "priority": "historical secondary/reconstruction"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-1502",
+      "profile_ids": [
+        "Glasgow-1502"
+      ],
+      "name": "Robert Glasgow",
+      "first_names": [
+        "Robert"
+      ],
+      "birth": "c. 1675",
+      "birth_location": "County Antrim, Ireland",
+      "earliest": 1699.0,
+      "records": [
+        {
+          "year": "1699–1700",
+          "filter_year": 1699.0,
+          "region": "Ireland",
+          "record_location": "Kilwaughter",
+          "evidence": "Documented occurrence",
+          "association": "Kilwaughter congregational bondsman and representative",
+          "note": "Keep distinct from Robert born about 1710 unless a record resolves the identity.",
+          "priority": "documented historical occurrence"
+        },
+        {
+          "year": "1699",
+          "filter_year": 1699.0,
+          "region": "Ireland",
+          "record_location": "Kilwaughter",
+          "evidence": "Documented occurrence",
+          "association": "Kilwaughter congregational stipend bondsman",
+          "note": "Named as the adult bondsman who carried the congregation's bonds to Presbytery.",
+          "priority": "documented historical occurrence"
+        },
+        {
+          "year": "1700",
+          "filter_year": 1700.0,
+          "region": "Ireland",
+          "record_location": "Kilwaughter",
+          "evidence": "Documented occurrence",
+          "association": "Meeting-house land and building work",
+          "note": "Named in the Kilwaughter congregation's land and meeting-house arrangements.",
+          "priority": "documented historical occurrence"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-1025",
+      "profile_ids": [
+        "Glasgow-1025"
+      ],
+      "name": "James Glasgow",
+      "first_names": [
+        "James"
+      ],
+      "birth": "c. 1700",
+      "birth_location": "County Tyrone, Ireland",
+      "earliest": 1700.0,
+      "records": [
+        {
+          "year": "c.1700",
+          "filter_year": 1700.0,
+          "region": "Ireland",
+          "record_location": "Moneymore",
+          "evidence": "Traditional / profile lead",
+          "association": "Tyrone → Moneymore profile tradition",
+          "note": "Group 2 root profile; the location and family structure still require source-level auditing.",
+          "priority": "birth/export/tree lead"
+        },
+        {
+          "year": "1759",
+          "filter_year": 1759.0,
+          "region": "Ireland",
+          "record_location": "Drumearn townland",
+          "evidence": "Strong probate-profile match",
+          "association": "Probate residence: Drumearn, County Tyrone",
+          "note": "The year and exact residence match James-1025's reported 1759 death.",
+          "priority": "documented historical occurrence"
+        },
+        {
+          "year": "1759",
+          "filter_year": 1759.0,
+          "region": "Ireland",
+          "record_location": "Drumearn townland",
+          "evidence": "Archive research lead",
+          "association": "Armagh Consistory Court probate series",
+          "note": "Derryloran fell within Armagh's jurisdiction; film 100911 item 4 contains the will index and film 100958 item 2 the administration-bond index.",
+          "priority": "historical secondary/reconstruction"
+        },
+        {
+          "year": "1767",
+          "filter_year": 1767.0,
+          "region": "Ireland",
+          "record_location": "Cookstown estate area",
+          "evidence": "Archive research lead",
+          "association": "Stewart of Killymoon estate survey near Cookstown",
+          "note": "NLI MS 9627 may identify the post-1759/1766 tenant succession; the UHF public tenant-index search returned no Glasgow result, so the manuscript and spelling variants remain to be inspected.",
+          "priority": "historical secondary/reconstruction"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-1499",
+      "profile_ids": [
+        "Glasgow-1499"
+      ],
+      "name": "Hugh Glasgow",
+      "first_names": [
+        "Hugh"
+      ],
+      "birth": "c. 1705",
+      "birth_location": "Larne, County Antrim, Ireland",
+      "earliest": 1705.0,
+      "records": [
+        {
+          "year": "c.1705–1767",
+          "filter_year": 1705.0,
+          "region": "Ireland",
+          "record_location": "Larne",
+          "evidence": "Working household",
+          "association": "New Town / Larne household",
+          "note": "The household is supported in the derivative church chronology; parentage remains unknown.",
+          "priority": "historical secondary/reconstruction"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-3959",
+      "profile_ids": [
+        "Glasgow-3959"
+      ],
+      "name": "John Glasgow",
+      "first_names": [
+        "John"
+      ],
+      "birth": "c. 1705",
+      "birth_location": "County Antrim, Ireland",
+      "earliest": 1705.0,
+      "records": [
+        {
+          "year": "c. 1705",
+          "filter_year": 1705.0,
+          "region": "Ireland",
+          "record_location": "County Antrim — exact locality unproved",
+          "evidence": "Recent WikiTree profile lead",
+          "association": "Recent-edit profile location: County Antrim — exact locality unproved",
+          "note": "Added from the 6 August 2026 recent-edit reconciliation; profile fields are research leads, not source evidence.",
+          "priority": "birth/export/tree lead"
+        },
+        {
+          "year": "1733",
+          "filter_year": 1733.0,
+          "region": "Ireland",
+          "record_location": "Kilroot",
+          "evidence": "Unassigned same-name probate index",
+          "association": "Connor administration-bond index — unassigned occurrence",
+          "note": "Inspected Connor Diocesan Administration Bonds index for John Glasgow, Kilroot, 1733. It names no administrator, relative, occupation or exact death date and does not identify a particular Glasgow family.",
+          "priority": "documented historical occurrence"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-548",
+      "profile_ids": [
+        "Glasgow-548"
+      ],
+      "name": "Hugh Glasgow",
+      "first_names": [
+        "Hugh"
+      ],
+      "birth": "c. 1706",
+      "birth_location": "County Tyrone, Ireland",
+      "earliest": 1706.0,
+      "records": [
+        {
+          "year": "c.1706",
+          "filter_year": 1706.0,
+          "region": "Ireland",
+          "record_location": "County Tyrone — exact locality unproved",
+          "evidence": "Traditional / profile lead",
+          "association": "Traditional County Tyrone origin",
+          "note": "Late family history calls him husband of Margaret McCullough and father of John, Robert and Hugh; no inspected record places him at Inishrush.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-3960",
+      "profile_ids": [
+        "Glasgow-3960"
+      ],
+      "name": "John Glasgow",
+      "first_names": [
+        "John"
+      ],
+      "birth": "c. 1705",
+      "birth_location": "County Leitrim, Ireland",
+      "earliest": 1706.0,
+      "records": [
+        {
+          "year": "before 1707",
+          "filter_year": 1706.0,
+          "region": "Ireland",
+          "record_location": "County Leitrim — exact locality unproved",
+          "evidence": "Recent WikiTree profile lead",
+          "association": "Recent-edit profile location: County Leitrim — exact locality unproved",
+          "note": "Added from the 6 August 2026 recent-edit reconciliation; profile fields are research leads, not source evidence.",
+          "priority": "birth/export/tree lead"
+        },
+        {
+          "year": "30 May 1728",
+          "filter_year": 1728.0,
+          "region": "Ireland",
+          "record_location": "Gortaggle townland — Annaduff parish",
+          "evidence": "Documented occurrence",
+          "association": "Registry of Deeds memorial 38213",
+          "note": "John Glasgow, gentleman of Gortigillagh, was a witness to the agreement. No party was identified as his relative. Logainm's 1715 Gortogill/Cortogill spelling makes modern Gortaggle the strong locality match.",
+          "priority": "documented historical occurrence"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-1136",
+      "profile_ids": [
+        "Glasgow-1136"
+      ],
+      "name": "Nathaniel Glasgow M.A.",
+      "first_names": [
+        "Nathaniel"
+      ],
+      "birth": "c. 1690",
+      "birth_location": "Glasgow, Lanarkshire, Scotland",
+      "earliest": 1706.0,
+      "records": [
+        {
+          "year": "before 1707",
+          "filter_year": 1706.0,
+          "region": "Ireland",
+          "record_location": "Keady sub-townland — Eskaheen",
+          "evidence": "Documented later biographical locality",
+          "association": "Native of Keady County Donegal",
+          "note": "Sherling identifies Nathaniel as a native of Keady. Logainm identifies Donegal's Keady as a sub-townland of Eskaheen; the point uses the parent townland centre because no separate Keady boundary is mapped.",
+          "priority": "documented historical occurrence"
+        },
+        {
+          "year": "3 Feb 1721",
+          "filter_year": 1721.0,
+          "region": "Ireland",
+          "record_location": "Ballyjamesduff County Cavan",
+          "evidence": "Later congregational history",
+          "association": "Reported installation at Ballyjamesduff",
+          "note": "Later congregational histories place Nathaniel at Ballyjamesduff; this part of his ministry is less directly evidenced than his 1732 Golen installation.",
+          "priority": "historical secondary/reconstruction"
+        },
+        {
+          "year": "5 Apr 1732",
+          "filter_year": 1732.0,
+          "region": "Ireland",
+          "record_location": "Golen congregation — later Fintona",
+          "evidence": "Contemporary Synod record",
+          "association": "Installed at Golen by Monaghan Presbytery",
+          "note": "The printed Synod minutes state that Mr Glasgow was installed at Golen on 5 April 1732; congregational history identifies Golen as the congregation later known as Fintona.",
+          "priority": "documented historical occurrence"
+        },
+        {
+          "year": "Apr 1743",
+          "filter_year": 1743.0,
+          "region": "Ireland",
+          "record_location": "Golen congregation — later Fintona",
+          "evidence": "Contemporary Synod record",
+          "association": "Death reported by Monaghan Presbytery",
+          "note": "The Synod minutes report that Nathaniel Glasgow died in April 1743. His ministry continued at Golen, later Fintona; the minutes do not state his burial place.",
+          "priority": "documented historical occurrence"
+        },
+        {
+          "year": "18 Jun 1745",
+          "filter_year": 1745.0,
+          "region": "Ireland",
+          "record_location": "Golen congregation — later Fintona",
+          "evidence": "Contemporary Synod record",
+          "association": "Poor widow Glasgow returned for support",
+          "note": "The 1745 Synod list names only the widow's surname. In context she is probably Nathaniel's widow, but neither her forename nor residence is stated.",
+          "priority": "documented historical occurrence"
+        },
+        {
+          "year": "1746",
+          "filter_year": 1746.0,
+          "region": "Ireland",
+          "record_location": "Golen congregation — later Fintona",
+          "evidence": "Strong probate-profile match",
+          "association": "Clogher probate; residence Cavan, Donaghcavey",
+          "note": "Donaghcavey contains Fintona, Nathaniel's last congregation; the rare name place and delayed probate strongly identify the minister who died in 1743.",
+          "priority": "documented historical occurrence"
+        },
+        {
+          "year": "21 Jun 1748",
+          "filter_year": 1748.0,
+          "region": "Ireland",
+          "record_location": "Golen congregation — later Fintona",
+          "evidence": "Contemporary Synod record",
+          "association": "Synod support granted to the children of Mr Glasgow deceased",
+          "note": "The plural wording proves at least two children. Their names, ages, guardian and residence are not given; context identifies the deceased minister as Nathaniel.",
+          "priority": "documented historical occurrence"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-1504",
+      "profile_ids": [
+        "Glasgow-1504"
+      ],
+      "name": "James Glasgow",
+      "first_names": [
+        "James"
+      ],
+      "birth": "c. 1707",
+      "birth_location": "County Antrim, Ireland",
+      "earliest": 1707.0,
+      "records": [
+        {
+          "year": "c.1707",
+          "filter_year": 1707.0,
+          "region": "Ireland",
+          "record_location": "Kilwaughter",
+          "evidence": "Working household",
+          "association": "Larne / Kilwaughter household; marriage dated 1727",
+          "note": "Marriage and children form a working nuclear household; parentage remains unknown.",
+          "priority": "historical secondary/reconstruction"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-3943",
+      "profile_ids": [
+        "Glasgow-3943"
+      ],
+      "name": "Thomas Glasgow",
+      "first_names": [
+        "Thomas"
+      ],
+      "birth": "c. 1707",
+      "birth_location": "County Dublin — exact locality unproved (estimated)",
+      "earliest": 1707.0,
+      "records": [
+        {
+          "year": "d. 6 Oct 1725",
+          "filter_year": 1707.0,
+          "region": "Ireland",
+          "record_location": "County Dublin — exact locality unproved",
+          "evidence": "Recent WikiTree profile lead",
+          "association": "Recent-edit profile location: County Dublin — exact locality unproved",
+          "note": "Added from the 6 August 2026 recent-edit reconciliation; profile fields are research leads, not source evidence.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-1505",
+      "profile_ids": [
+        "Glasgow-1505"
+      ],
+      "name": "William Glasgow",
+      "first_names": [
+        "William"
+      ],
+      "birth": "c. 1708",
+      "birth_location": "County Antrim, Ireland",
+      "earliest": 1708.0,
+      "records": [
+        {
+          "year": "c.1708–1783",
+          "filter_year": 1708.0,
+          "region": "Ireland",
+          "record_location": "Larne",
+          "evidence": "Working adult",
+          "association": "Larne adult",
+          "note": "Gravestone- and will-backed adult; parentage remains unknown.",
+          "priority": "historical secondary/reconstruction"
+        },
+        {
+          "year": "1736",
+          "filter_year": 1736.0,
+          "region": "Ireland",
+          "record_location": "Larne",
+          "evidence": "Documented occurrence",
+          "association": "Registry of Deeds memorial 62131",
+          "note": "Named in a Larne deed concerning tenements and gardens near the road from Newtown to the mill; registered 1737.",
+          "priority": "documented historical occurrence"
+        },
+        {
+          "year": "1783",
+          "filter_year": 1783.0,
+          "region": "Ireland",
+          "record_location": "Larne",
+          "evidence": "Strong probate-profile match",
+          "association": "Belfast probate; residence Larne",
+          "note": "The name residence and year match William-1505's reported death at Larne.",
+          "priority": "documented historical occurrence"
+        }
+      ]
+    },
+    {
+      "id": "unknown-763010",
+      "profile_ids": [
+        "Unknown-763010"
+      ],
+      "name": "Ann Glasgow",
+      "first_names": [
+        "Ann"
+      ],
+      "birth": "1711",
+      "birth_location": "County Antrim",
+      "earliest": 1711.0,
+      "records": [
+        {
+          "year": "b. 1711",
+          "filter_year": 1711.0,
+          "region": "Ireland",
+          "record_location": "County Antrim — exact locality unproved",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birthplace: County Antrim",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-1143",
+      "profile_ids": [
+        "Glasgow-1143"
+      ],
+      "name": "Robert Glasgow",
+      "first_names": [
+        "Robert"
+      ],
+      "birth": "c. 1710",
+      "birth_location": "County Antrim, Ireland",
+      "earliest": 1711.0,
+      "records": [
+        {
+          "year": "c.1710–after 1772",
+          "filter_year": 1711.0,
+          "region": "Ireland",
+          "record_location": "Kilwaughter",
+          "evidence": "Documented nuclear family",
+          "association": "Kilwaughter family",
+          "note": "The family and later migration branch are secure from Robert downward; connection to the 1669 roots is unproved.",
+          "priority": "documented historical occurrence"
+        },
+        {
+          "year": "c.1710–after 1772",
+          "filter_year": 1711.0,
+          "region": "Ireland",
+          "record_location": "Kilwaughter",
+          "evidence": "Candidate paternal genetic relative",
+          "association": "Private family details withheld.",
+          "note": "The tester's earliest-ancestor label closely matches Glasgow-1143 and the kit belongs to the older distinctive Glasgow Y-STR cluster. It has not taken Big Y, so this is strong candidate cluster evidence rather than confirmed shared downstream-SNP proof.",
+          "priority": "birth/export/tree lead"
+        },
+        {
+          "year": "13 Feb 1738",
+          "filter_year": 1738.0,
+          "region": "Ireland",
+          "record_location": "Ballykeel — Kilwaughter",
+          "evidence": "Documented associated-lives record",
+          "association": "Registry of Deeds memorial 74015",
+          "note": "William Agnew leased Robert 63 acres at Ballykeel and 15 at Upper Ballyheel; Rachel is explicitly Robert's wife but James junior is only a named life.",
+          "priority": "documented historical occurrence"
+        },
+        {
+          "year": "1738",
+          "filter_year": 1738.0,
+          "region": "Ireland",
+          "record_location": "Ballykeel, County Antrim, Ireland",
+          "evidence": "Documented",
+          "association": "Residence/Migration 1738",
+          "note": "Transcript-validated Glasgow-surname record. IDs: US/GPC/00345374. Separate events/people are not merged without evidence.",
+          "priority": "documented historical occurrence"
+        },
+        {
+          "year": "17 Jun 1741",
+          "filter_year": 1741.0,
+          "region": "Ireland",
+          "record_location": "Ballyboley — Larne parish",
+          "evidence": "Documented occurrence",
+          "association": "Witness to Registry memorial 76724",
+          "note": "Robert Glasgow, farmer of Killwaughter, witnessed William Agnew's Ballyboly lease.",
+          "priority": "documented historical occurrence"
+        }
+      ]
+    },
+    {
+      "id": "glasco-146",
+      "profile_ids": [
+        "Glasco-146"
+      ],
+      "name": "Phillip Glasco",
+      "first_names": [
+        "Phillip"
+      ],
+      "birth": "c. 1715",
+      "birth_location": "",
+      "earliest": 1715.0,
+      "records": [
+        {
+          "year": "b. 1715",
+          "filter_year": 1715.0,
+          "region": "Ireland",
+          "record_location": "County Dublin, Ireland",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated death place: County Dublin, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-2916",
+      "profile_ids": [
+        "Glasgow-2916"
+      ],
+      "name": "James Glasgow",
+      "first_names": [
+        "James"
+      ],
+      "birth": "1719",
+      "birth_location": "Londonderry, County Londonderry, Ireland",
+      "earliest": 1719.0,
+      "records": [
+        {
+          "year": "1719–1785",
+          "filter_year": 1719.0,
+          "region": "Ireland",
+          "record_location": "Londonderry / Derry",
+          "evidence": "Unproved profile reconstruction",
+          "association": "Profile-stated Londonderry birth",
+          "note": "No inspected record connects James to Charles-2917, Cross, or the Moneymore family. Grouped only to show the existing reconstruction.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-2988",
+      "profile_ids": [
+        "Glasgow-2988"
+      ],
+      "name": "James Glasgow",
+      "first_names": [
+        "James"
+      ],
+      "birth": "c. 1720",
+      "birth_location": "Derryloran, Cookstown, County Tyrone, Ireland",
+      "earliest": 1720.0,
+      "records": [
+        {
+          "year": "c.1720",
+          "filter_year": 1720.0,
+          "region": "Ireland",
+          "record_location": "Derryloran civil parish",
+          "evidence": "Profile location lead",
+          "association": "Profile-stated Derryloran birth",
+          "note": "The profile belongs to the local candidate set but is not identified with a particular 1740 or 1766 householder.",
+          "priority": "historical secondary/reconstruction"
+        },
+        {
+          "year": "1740",
+          "filter_year": 1740.0,
+          "region": "Ireland",
+          "record_location": "Derryloran civil parish",
+          "evidence": "Documented occurrence / candidate cluster link",
+          "association": "Four households in Protestant return",
+          "note": "The return contains two James and two William Glasgow households. Derryloran is about 8 km from Moneymore and the names fit that reconstruction, but no household is identified with a profile and no relationship is stated.",
+          "priority": "documented historical occurrence"
+        },
+        {
+          "year": "c.1750",
+          "filter_year": 1750.0,
+          "region": "Ireland",
+          "record_location": "Corvanaghan townland — Kildress parish",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birth: Corvanaghan, County Tyrone, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources.",
+          "priority": "birth/export/tree lead"
+        },
+        {
+          "year": "1794",
+          "filter_year": 1794.0,
+          "region": "Ireland",
+          "record_location": "Drummond — Derryloran/Cookstown candidate",
+          "evidence": "Probable locality match",
+          "association": "Probate residence: Drummon, County Tyrone",
+          "note": "The pin represents Drummond in the Derryloran/Cookstown locality; the modernization remains provisional.",
+          "priority": "historical secondary/reconstruction"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-3925",
+      "profile_ids": [
+        "Glasgow-3925"
+      ],
+      "name": "Richard Glasgow",
+      "first_names": [
+        "Richard"
+      ],
+      "birth": "c. 1720 (estimated)",
+      "birth_location": "Kilclone, County Meath, Ireland",
+      "earliest": 1720.0,
+      "records": [
+        {
+          "year": "est. b. 1720",
+          "filter_year": 1720.0,
+          "region": "Ireland",
+          "record_location": "Kilclone, County Meath, Ireland",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birthplace: Kilclone, County Meath, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links. Birth year is estimated as 18 years before the earliest marriage, or otherwise 18 years before death.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-3926",
+      "profile_ids": [
+        "Glasgow-3926"
+      ],
+      "name": "William Glasgow",
+      "first_names": [
+        "William"
+      ],
+      "birth": "c. 1720 (estimated)",
+      "birth_location": "Kilclone, County Meath, Ireland",
+      "earliest": 1720.0,
+      "records": [
+        {
+          "year": "est. b. 1720",
+          "filter_year": 1720.0,
+          "region": "Ireland",
+          "record_location": "Kilclone, County Meath, Ireland",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birthplace: Kilclone, County Meath, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links. Birth year is estimated as 18 years before the earliest marriage, or otherwise 18 years before death.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-1024",
+      "profile_ids": [
+        "Glasgow-1024"
+      ],
+      "name": "James Glasgow II",
+      "first_names": [
+        "James"
+      ],
+      "birth": "c. 1722",
+      "birth_location": "Moneymore, County Londonderry, Ireland",
+      "earliest": 1721.0,
+      "records": [
+        {
+          "year": "c.1721",
+          "filter_year": 1721.0,
+          "region": "Ireland",
+          "record_location": "Moneymore",
+          "evidence": "Traditional / profile lead",
+          "association": "Conflicted Moneymore-labelled tradition",
+          "note": "Possible duplicate of, or close collateral to, the Group 1 James born c.1719.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-2425",
+      "profile_ids": [
+        "Glasgow-2425"
+      ],
+      "name": "Robert Glasgow",
+      "first_names": [
+        "Robert"
+      ],
+      "birth": "c. 1724",
+      "birth_location": "Moneymore, County Galway, Ireland",
+      "earliest": 1724.0,
+      "records": [
+        {
+          "year": "c.1724",
+          "filter_year": 1724.0,
+          "region": "Ireland",
+          "record_location": "Moneymore",
+          "evidence": "Conflicted profile location lead",
+          "association": "Profile-stated Moneymore birth",
+          "note": "The profile says Moneymore, County Galway; Moneymore is in County Londonderry, so the county label is treated as an error.",
+          "priority": "historical secondary/reconstruction"
+        }
+      ]
+    },
+    {
+      "id": "harkness-1149",
+      "profile_ids": [
+        "Harkness-1149"
+      ],
+      "name": "Mary (Harkness) Glasgow",
+      "first_names": [
+        "Mary"
+      ],
+      "birth": "c. 1725",
+      "birth_location": "County Londonderry, Ireland",
+      "earliest": 1725.0,
+      "records": [
+        {
+          "year": "b. 1725",
+          "filter_year": 1725.0,
+          "region": "Ireland",
+          "record_location": "County Londonderry — exact locality unproved",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birthplace: County Londonderry, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-3962",
+      "profile_ids": [
+        "Glasgow-3962"
+      ],
+      "name": "Unknown Glasgow",
+      "first_names": [
+        "William"
+      ],
+      "birth": "c. 1725",
+      "birth_location": "County Tyrone, Ireland",
+      "earliest": 1725.0,
+      "records": [
+        {
+          "year": "18 May 1725",
+          "filter_year": 1725.0,
+          "region": "Ireland",
+          "record_location": "Cavankilgreen townland",
+          "evidence": "Documented occurrence",
+          "association": "Occupier recited in Registry memorial 71498",
+          "note": "An unnamed Glasgow was in possession of part of Cavankilgreen. This is the same townland as William Glasgow's 1746 appearance, but the record does not prove they were the same person.",
+          "priority": "documented historical occurrence"
+        },
+        {
+          "year": "c. 1725",
+          "filter_year": 1725.0,
+          "region": "Ireland",
+          "record_location": "County Tyrone — exact locality unproved",
+          "evidence": "Recent WikiTree profile lead",
+          "association": "Recent-edit profile location: County Tyrone — exact locality unproved",
+          "note": "Added from the 6 August 2026 recent-edit reconciliation; profile fields are research leads, not source evidence.",
+          "priority": "birth/export/tree lead"
+        },
+        {
+          "year": "22 Jan 1746",
+          "filter_year": 1746.0,
+          "region": "Ireland",
+          "record_location": "Cavankilgreen townland",
+          "evidence": "Documented occurrence",
+          "association": "Registry of Deeds memorial 113381",
+          "note": "William Glasgow, farmer, witnessed a Cavankilgreen lease. He is a plausible candidate for the unnamed 1725 occupier, but identity is not proved.",
+          "priority": "documented historical occurrence"
+        },
+        {
+          "year": "1770",
+          "filter_year": 1770.0,
+          "region": "Ireland",
+          "record_location": "Killycurragh townland — Oritor/Derryloran",
+          "evidence": "Probable locality match",
+          "association": "Probate residence: Killycoragh, County Tyrone",
+          "note": "Killycoragh is represented by Killycurragh in the later Oritor cluster; identity with James-1025's attached son William is unproved.",
+          "priority": "historical secondary/reconstruction"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-1492",
+      "profile_ids": [
+        "Glasgow-1492"
+      ],
+      "name": "Samuel Glasgow",
+      "first_names": [
+        "Samuel"
+      ],
+      "birth": "c. 1726",
+      "birth_location": "Moneymore, County Londonderry, Ireland",
+      "earliest": 1726.0,
+      "records": [
+        {
+          "year": "c.1726",
+          "filter_year": 1726.0,
+          "region": "Ireland",
+          "record_location": "Moneymore",
+          "evidence": "Traditional / profile lead",
+          "association": "Attached son of James-1025",
+          "note": "Merged from a former separate-candidate group; underlying parentage evidence still needs citation.",
+          "priority": "birth/export/tree lead"
+        },
+        {
+          "year": "1753",
+          "filter_year": 1753.0,
+          "region": "Ireland",
+          "record_location": "Drogheda",
+          "evidence": "Probate index",
+          "association": "Drogheda probate; residence Drumgeerah",
+          "note": "The historical residence spelling has not been matched securely; the pin represents the probate registry.",
+          "priority": "documented historical occurrence"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-3325",
+      "profile_ids": [
+        "Glasgow-3325"
+      ],
+      "name": "Jean Glasgow",
+      "first_names": [
+        "Jean"
+      ],
+      "birth": "1728",
+      "birth_location": "Kilwaughter, Larne, County Antrim, Ireland",
+      "earliest": 1728.0,
+      "records": [
+        {
+          "year": "1728",
+          "filter_year": 1728.0,
+          "region": "Ireland",
+          "record_location": "Kilwaughter",
+          "evidence": "Documented derivative register",
+          "association": "Child of James Glasgow and Sarah Murray",
+          "note": "The derivative congregation-register chronology places Jean in this household in 1728; inspect PRONI MIC/1B/6 for the exact entry.",
+          "priority": "documented historical occurrence"
+        }
+      ]
+    },
+    {
+      "id": "glasco-148",
+      "profile_ids": [
+        "Glasco-148"
+      ],
+      "name": "James Glasco",
+      "first_names": [
+        "James"
+      ],
+      "birth": "1730",
+      "birth_location": "County Dublin, Ireland",
+      "earliest": 1730.0,
+      "records": [
+        {
+          "year": "b. 1730",
+          "filter_year": 1730.0,
+          "region": "Ireland",
+          "record_location": "County Dublin, Ireland",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birthplace: County Dublin, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-1970",
+      "profile_ids": [
+        "Glasgow-1970"
+      ],
+      "name": "James Glasgow",
+      "first_names": [
+        "James"
+      ],
+      "birth": "c. 1730",
+      "birth_location": "Scotland",
+      "earliest": 1730.0,
+      "records": [
+        {
+          "year": "c.1730",
+          "filter_year": 1730.0,
+          "region": "Ireland",
+          "record_location": "Cookstown",
+          "evidence": "Profile location lead",
+          "association": "Profile-stated Cookstown association",
+          "note": "Born in Scotland according to the profile; no record connects him to a particular Derryloran household.",
+          "priority": "historical secondary/reconstruction"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-3924",
+      "profile_ids": [
+        "Glasgow-3924"
+      ],
+      "name": "James Glasgow",
+      "first_names": [
+        "James"
+      ],
+      "birth": "c. 1730",
+      "birth_location": "Kilclone, County Meath, Ireland",
+      "earliest": 1730.0,
+      "records": [
+        {
+          "year": "b. 1730",
+          "filter_year": 1730.0,
+          "region": "Ireland",
+          "record_location": "Kilclone, County Meath, Ireland",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birthplace: Kilclone, County Meath, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-3326",
+      "profile_ids": [
+        "Glasgow-3326"
+      ],
+      "name": "William Glasgow",
+      "first_names": [
+        "William"
+      ],
+      "birth": "1730",
+      "birth_location": "Kilwaughter, Larne, County Antrim, Ireland",
+      "earliest": 1730.0,
+      "records": [
+        {
+          "year": "1730",
+          "filter_year": 1730.0,
+          "region": "Ireland",
+          "record_location": "Kilwaughter",
+          "evidence": "Documented derivative register",
+          "association": "Child of James Glasgow and Sarah Murray",
+          "note": "The derivative congregation-register chronology places William in this household in 1730; inspect PRONI MIC/1B/6 for the exact entry.",
+          "priority": "documented historical occurrence"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-1144",
+      "profile_ids": [
+        "Glasgow-1144"
+      ],
+      "name": "James Glasgow",
+      "first_names": [
+        "James"
+      ],
+      "birth": "1731-05-24",
+      "birth_location": "Kilwaughter, Larne, County Antrim, Ireland",
+      "earliest": 1731.0,
+      "records": [
+        {
+          "year": "24 May 1731",
+          "filter_year": 1731.0,
+          "region": "Ireland",
+          "record_location": "Kilwaughter",
+          "evidence": "Documented derivative register",
+          "association": "Son of Robert Glasgow and Rachel Wilson",
+          "note": "The derivative congregation-register chronology gives the exact date and parents; deed and equity evidence independently corroborate the household.",
+          "priority": "documented historical occurrence"
+        },
+        {
+          "year": "17 May 1747",
+          "filter_year": 1747.0,
+          "region": "Ireland",
+          "record_location": "Kilwaughter",
+          "evidence": "Unresolved namesake",
+          "association": "Former session member in discipline entry",
+          "note": "The record does not establish whether this was the older 1699 actor or Robert married to Rachel Wilson.",
+          "priority": "historical secondary/reconstruction"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-1506",
+      "profile_ids": [
+        "Glasgow-1506"
+      ],
+      "name": "Jean Glasgow",
+      "first_names": [
+        "Jean"
+      ],
+      "birth": "c. 1731",
+      "birth_location": "County Antrim, Ireland",
+      "earliest": 1731.0,
+      "records": [
+        {
+          "year": "1731",
+          "filter_year": 1731.0,
+          "region": "Ireland",
+          "record_location": "New Town — Larne",
+          "evidence": "Documented derivative register",
+          "association": "Child of Hugh Glasgow at New Town / Larne",
+          "note": "The derivative congregation-register chronology records Jean in Hugh's New Town household in 1731.",
+          "priority": "documented historical occurrence"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-3327",
+      "profile_ids": [
+        "Glasgow-3327"
+      ],
+      "name": "Helen Glasgow",
+      "first_names": [
+        "Helen"
+      ],
+      "birth": "1732",
+      "birth_location": "Kilwaughter, Larne, County Antrim, Ireland",
+      "earliest": 1732.0,
+      "records": [
+        {
+          "year": "1732",
+          "filter_year": 1732.0,
+          "region": "Ireland",
+          "record_location": "Kilwaughter",
+          "evidence": "Documented derivative register",
+          "association": "Child of James Glasgow and Sarah Murray",
+          "note": "The derivative congregation-register chronology records Hellen/Helen in this household in 1732; inspect PRONI MIC/1B/6 for the exact spelling.",
+          "priority": "documented historical occurrence"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-1500",
+      "profile_ids": [
+        "Glasgow-1500"
+      ],
+      "name": "Ann Taggard Glasgow",
+      "first_names": [
+        "Ann"
+      ],
+      "birth": "1733-11-15",
+      "birth_location": "County Antrim, Ireland",
+      "earliest": 1733.0,
+      "records": [
+        {
+          "year": "15 Nov 1733",
+          "filter_year": 1733.0,
+          "region": "Ireland",
+          "record_location": "Kilwaughter",
+          "evidence": "Documented derivative register",
+          "association": "Daughter of Robert Glasgow and Rachel Wilson",
+          "note": "The derivative congregation-register chronology gives the exact date and parents; the 1817 equity case independently identifies Ann in the household.",
+          "priority": "documented historical occurrence"
+        }
+      ]
+    },
+    {
+      "id": "mccullough-1964",
+      "profile_ids": [
+        "McCullough-1964"
+      ],
+      "name": "Margaret McCullough",
+      "first_names": [
+        "Margaret"
+      ],
+      "birth": "c. 1715",
+      "birth_location": "",
+      "earliest": 1733.0,
+      "records": [
+        {
+          "year": "1733",
+          "filter_year": 1733.0,
+          "region": "Ireland",
+          "record_location": "Portglenone — regional family-tradition reference",
+          "evidence": "Approximate location",
+          "association": "Traditional wife of Hugh Glasgow",
+          "note": "Placed near Portglenone only through the late family account; exact farm not identified.",
+          "priority": "historical secondary/reconstruction"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-549",
+      "profile_ids": [
+        "Glasgow-549"
+      ],
+      "name": "John Glasgow",
+      "first_names": [
+        "John"
+      ],
+      "birth": "c. 1735",
+      "birth_location": "County Londonderry, Ireland",
+      "earliest": 1735.0,
+      "records": [
+        {
+          "year": "c.1735",
+          "filter_year": 1735.0,
+          "region": "Ireland",
+          "record_location": "County Londonderry — exact locality unproved",
+          "evidence": "Traditional / profile lead",
+          "association": "Traditional son of Hugh-548",
+          "note": "Possible direct father of Adam and John, but no record gives his residence or identifies a child.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-1507",
+      "profile_ids": [
+        "Glasgow-1507"
+      ],
+      "name": "Rose Glasgow",
+      "first_names": [
+        "Rose"
+      ],
+      "birth": "c. 1735",
+      "birth_location": "County Antrim, Ireland",
+      "earliest": 1735.0,
+      "records": [
+        {
+          "year": "1735",
+          "filter_year": 1735.0,
+          "region": "Ireland",
+          "record_location": "New Town — Larne",
+          "evidence": "Documented derivative register",
+          "association": "Child of Hugh Glasgow at New Town / Larne",
+          "note": "The derivative congregation-register chronology records Rose in Hugh's New Town household in 1735.",
+          "priority": "documented historical occurrence"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-2426",
+      "profile_ids": [
+        "Glasgow-2426"
+      ],
+      "name": "William Glasgow",
+      "first_names": [
+        "William"
+      ],
+      "birth": "c. 1735",
+      "birth_location": "Moneymore, Galway, Connacht, Ireland",
+      "earliest": 1735.0,
+      "records": [
+        {
+          "year": "c.1735",
+          "filter_year": 1735.0,
+          "region": "Ireland",
+          "record_location": "Moneymore",
+          "evidence": "Conflicted profile location lead",
+          "association": "Profile-stated Moneymore birth",
+          "note": "The profile says Moneymore, County Galway; Moneymore is in County Londonderry, so the county label is treated as an error.",
+          "priority": "historical secondary/reconstruction"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-1508",
+      "profile_ids": [
+        "Glasgow-1508"
+      ],
+      "name": "Mary Glasgow",
+      "first_names": [
+        "Mary"
+      ],
+      "birth": "c. 1736",
+      "birth_location": "County Antrim, Ireland",
+      "earliest": 1736.0,
+      "records": [
+        {
+          "year": "1736",
+          "filter_year": 1736.0,
+          "region": "Ireland",
+          "record_location": "New Town — Larne",
+          "evidence": "Documented derivative register",
+          "association": "Child of Hugh Glasgow at New Town / Larne",
+          "note": "The derivative congregation-register chronology records Mary in Hugh's New Town household in 1736.",
+          "priority": "documented historical occurrence"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-1509",
+      "profile_ids": [
+        "Glasgow-1509"
+      ],
+      "name": "James Glasgow",
+      "first_names": [
+        "James"
+      ],
+      "birth": "1737",
+      "birth_location": "County Antrim, Ireland",
+      "earliest": 1737.0,
+      "records": [
+        {
+          "year": "1737",
+          "filter_year": 1737.0,
+          "region": "Ireland",
+          "record_location": "New Town — Larne",
+          "evidence": "Documented derivative register",
+          "association": "Child of Hugh Glasgow at New Town / Larne",
+          "note": "The derivative congregation-register chronology records James in Hugh's New Town household in 1737; later occupation and probate evidence is separately mapped.",
+          "priority": "documented historical occurrence"
+        },
+        {
+          "year": "14 May 1766",
+          "filter_year": 1766.0,
+          "region": "Ireland",
+          "record_location": "Larne",
+          "evidence": "Documented occurrence",
+          "association": "Registry of Deeds memorial 204122",
+          "note": "Named as a ropemaker of Larne in an assignment registered in 1775.",
+          "priority": "documented historical occurrence"
+        }
+      ]
+    },
+    {
+      "id": "crosier-512",
+      "profile_ids": [
+        "Crosier-512"
+      ],
+      "name": "Mary (Crosier) Glasgow",
+      "first_names": [
+        "Mary"
+      ],
+      "birth": "c. 1737",
+      "birth_location": "Ireland",
+      "earliest": 1737.0,
+      "records": [
+        {
+          "year": "b. 1737",
+          "filter_year": 1737.0,
+          "region": "Ireland",
+          "record_location": "County Antrim — exact locality unproved",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birthplace: Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-550",
+      "profile_ids": [
+        "Glasgow-550"
+      ],
+      "name": "Robert Glasgow",
+      "first_names": [
+        "Robert"
+      ],
+      "birth": "c. 1737",
+      "birth_location": "County Londonderry, Ireland",
+      "earliest": 1737.0,
+      "records": [
+        {
+          "year": "c.1737",
+          "filter_year": 1737.0,
+          "region": "Ireland",
+          "record_location": "County Londonderry — exact locality unproved",
+          "evidence": "Traditional / profile lead",
+          "association": "Traditional son of Hugh-548",
+          "note": "Possible direct father of Adam and John; profile dates and residence are unsupported.",
+          "priority": "birth/export/tree lead"
+        },
+        {
+          "year": "1786–1788",
+          "filter_year": 1786.0,
+          "region": "Ireland",
+          "record_location": "Loy townland",
+          "evidence": "Documented occurrence / candidate cluster link",
+          "association": "Cookstown estate rent roll",
+          "note": "Listed under Loy at an annual rent of £4 10s. Loy is in Derryloran beside Cookstown, but no relationship to James-1025 is stated.",
+          "priority": "documented historical occurrence"
+        },
+        {
+          "year": "1796",
+          "filter_year": 1796.0,
+          "region": "Ireland",
+          "record_location": "Loy townland",
+          "evidence": "Probable repeated identity / candidate cluster link",
+          "association": "Registered freeholder of Loy",
+          "note": "Probably the same Robert as the 1786–1788 rent-roll tenant; no relationship to James-1025 is stated.",
+          "priority": "historical secondary/reconstruction"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-1501",
+      "profile_ids": [
+        "Glasgow-1501"
+      ],
+      "name": "Rachel Glasgow",
+      "first_names": [
+        "Rachel"
+      ],
+      "birth": "1738-11-08",
+      "birth_location": "County Antrim, Ireland",
+      "earliest": 1738.0,
+      "records": [
+        {
+          "year": "8 Nov 1738",
+          "filter_year": 1738.0,
+          "region": "Ireland",
+          "record_location": "Kilwaughter",
+          "evidence": "Documented derivative register",
+          "association": "Daughter of Robert Glasgow and Rachel Wilson",
+          "note": "The derivative congregation-register chronology gives the exact date and parents; the 1817 pleading implies she died before her mother in 1742 unless omitted for a legal reason.",
+          "priority": "documented historical occurrence"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-540",
+      "profile_ids": [
+        "Glasgow-540"
+      ],
+      "name": "Hugh Glasgow",
+      "first_names": [
+        "Hugh"
+      ],
+      "birth": "1739",
+      "birth_location": "County Londonderry, Ireland",
+      "earliest": 1739.0,
+      "records": [
+        {
+          "year": "c.1739",
+          "filter_year": 1739.0,
+          "region": "Ireland",
+          "record_location": "Portglenone — regional family-tradition reference",
+          "evidence": "Traditional / profile lead",
+          "association": "Traditional son of Hugh-548",
+          "note": "Younger emigrant Hugh; the late account places his family farm only 'not far from' Portglenone, and his will weakens direct fatherhood of Adam.",
+          "priority": "birth/export/tree lead"
+        },
+        {
+          "year": "by 1780",
+          "filter_year": 1780.0,
+          "region": "Ireland",
+          "record_location": "Portglenone — regional family-tradition reference",
+          "evidence": "Approximate location",
+          "association": "Family farm 'not far from' Portglenone",
+          "note": "W. M. Glasgow's late account follows the younger Hugh and says that his son John was born on the family farm in 1780; it gives regional geography, not the farm's exact location.",
+          "priority": "historical secondary/reconstruction"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-1655",
+      "profile_ids": [
+        "Glasgow-1655"
+      ],
+      "name": "Abigail Glasgow Anderson",
+      "first_names": [
+        "Abigail"
+      ],
+      "birth": "c. 1740",
+      "birth_location": "Ireland",
+      "earliest": 1740.0,
+      "records": [
+        {
+          "year": "c.1740–1811",
+          "filter_year": 1740.0,
+          "region": "Ireland",
+          "record_location": "Ireland — exact locality unproved",
+          "evidence": "Profile location lead",
+          "association": "Profile-stated Irish birth",
+          "note": "The profile gives Ireland only before her later Kentucky residence.",
+          "priority": "historical secondary/reconstruction"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-3328",
+      "profile_ids": [
+        "Glasgow-3328"
+      ],
+      "name": "Christian Glasgow",
+      "first_names": [
+        "Christian"
+      ],
+      "birth": "1740",
+      "birth_location": "Kilwaughter, Larne, County Antrim, Ireland",
+      "earliest": 1740.0,
+      "records": [
+        {
+          "year": "1740",
+          "filter_year": 1740.0,
+          "region": "Ireland",
+          "record_location": "Kilwaughter",
+          "evidence": "Documented derivative register",
+          "association": "Child of James Glasgow and Sarah Murray",
+          "note": "The derivative congregation-register chronology places Christian in this household in 1740; inspect PRONI MIC/1B/6 for the exact entry and sex.",
+          "priority": "documented historical occurrence"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-3931",
+      "profile_ids": [
+        "Glasgow-3931"
+      ],
+      "name": "Hugh Glasgow",
+      "first_names": [
+        "Hugh"
+      ],
+      "birth": "before 1722",
+      "birth_location": "Tamlaght, County Londonderry, Ireland",
+      "earliest": 1740.0,
+      "records": [
+        {
+          "year": "1740",
+          "filter_year": 1740.0,
+          "region": "Ireland",
+          "record_location": "Tamlaght O'Crilly civil parish",
+          "evidence": "Documented",
+          "association": "Householder, entry 1195",
+          "note": "Distinct 1740 household. Relationship to the later Hugh and Inishrush families is unresolved.",
+          "priority": "documented historical occurrence"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-2989",
+      "profile_ids": [
+        "Glasgow-2989"
+      ],
+      "name": "James Glasgow",
+      "first_names": [
+        "James"
+      ],
+      "birth": "1740",
+      "birth_location": "Derryloran, Cookstown, County Tyrone, Ireland",
+      "earliest": 1740.0,
+      "records": [
+        {
+          "year": "1740",
+          "filter_year": 1740.0,
+          "region": "Ireland",
+          "record_location": "Derryloran civil parish",
+          "evidence": "Profile location lead",
+          "association": "Profile-stated Derryloran birth",
+          "note": "The profile is a candidate for the local population but is not identified with either 1766 Drumearn James or any 1740 householder.",
+          "priority": "historical secondary/reconstruction"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-3305",
+      "profile_ids": [
+        "Glasgow-3305"
+      ],
+      "name": "James Glasgow",
+      "first_names": [
+        "James"
+      ],
+      "birth": "c. 1740",
+      "birth_location": "Moneymore, County Londonderry, Ireland",
+      "earliest": 1740.0,
+      "records": [
+        {
+          "year": "c.1740",
+          "filter_year": 1740.0,
+          "region": "Ireland",
+          "record_location": "Moneymore",
+          "evidence": "Traditional / profile lead",
+          "association": "Moneymore-labelled candidate",
+          "note": "Parentage remains unproved.",
+          "priority": "birth/export/tree lead"
+        },
+        {
+          "year": "1766",
+          "filter_year": 1766.0,
+          "region": "Ireland",
+          "record_location": "Drumearn townland",
+          "evidence": "Documented occurrence / candidate cluster link",
+          "association": "Religious census householders",
+          "note": "The census places James and John at Drumearn in Derryloran, the locality attached to the James-1025 tradition. They must be later namesakes or descendants if James-1025 died in 1759; the return gives no relationship.",
+          "priority": "documented historical occurrence"
+        }
+      ]
+    },
+    {
+      "id": "glasco-147",
+      "profile_ids": [
+        "Glasco-147"
+      ],
+      "name": "Phillip Glasco",
+      "first_names": [
+        "Phillip"
+      ],
+      "birth": "1740",
+      "birth_location": "",
+      "earliest": 1740.0,
+      "records": [
+        {
+          "year": "b. 1740",
+          "filter_year": 1740.0,
+          "region": "Ireland",
+          "record_location": "County Dublin, Ireland",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated death place: County Dublin, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-3175",
+      "profile_ids": [
+        "Glasgow-3175"
+      ],
+      "name": "Samuel Glasgow",
+      "first_names": [
+        "Samuel"
+      ],
+      "birth": "1740",
+      "birth_location": "Ulster, Ireland",
+      "earliest": 1740.0,
+      "records": [
+        {
+          "year": "1740–1801",
+          "filter_year": 1740.0,
+          "region": "Ireland",
+          "record_location": "Ulster — exact county unproved",
+          "evidence": "Profile location lead",
+          "association": "Profile-stated Ulster birth",
+          "note": "The profile supplies the historic province of Ulster only before his later Pennsylvania residence.",
+          "priority": "historical secondary/reconstruction"
+        }
+      ]
+    },
+    {
+      "id": "glasco-173",
+      "profile_ids": [
+        "Glasco-173"
+      ],
+      "name": "Thomas Glasco",
+      "first_names": [
+        "Thomas"
+      ],
+      "birth": "before 1742",
+      "birth_location": "Dublin",
+      "earliest": 1742.0,
+      "records": [
+        {
+          "year": "b. 1742",
+          "filter_year": 1742.0,
+          "region": "Ireland",
+          "record_location": "Dublin",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birthplace: Dublin",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-3945",
+      "profile_ids": [
+        "Glasgow-3945"
+      ],
+      "name": "Elizabeth Glasgow",
+      "first_names": [
+        "Elizabeth"
+      ],
+      "birth": "1744-02-12",
+      "birth_location": "County Dublin, Ireland",
+      "earliest": 1744.0,
+      "records": [
+        {
+          "year": "12 Feb 1744",
+          "filter_year": 1744.0,
+          "region": "Ireland",
+          "record_location": "County Dublin — exact locality unproved",
+          "evidence": "Recent WikiTree profile lead",
+          "association": "Recent-edit profile location: County Dublin — exact locality unproved",
+          "note": "Added from the 6 August 2026 recent-edit reconciliation; profile fields are research leads, not source evidence.",
+          "priority": "birth/export/tree lead"
+        },
+        {
+          "year": "1765",
+          "filter_year": 1765.0,
+          "region": "Ireland",
+          "record_location": "Lanesborough / Lanesboro",
+          "evidence": "Probate index",
+          "association": "Leitrim probate; residence Lanesborough",
+          "note": "The alternate surname is preserved exactly; no Glasgow relationship is stated.",
+          "priority": "documented historical occurrence"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-1510",
+      "profile_ids": [
+        "Glasgow-1510"
+      ],
+      "name": "Hugh Glasgow",
+      "first_names": [
+        "Hugh"
+      ],
+      "birth": "c. 1745",
+      "birth_location": "County Antrim",
+      "earliest": 1745.0,
+      "records": [
+        {
+          "year": "1745–1756",
+          "filter_year": 1745.0,
+          "region": "Ireland",
+          "record_location": "New Town — Larne",
+          "evidence": "Documented derivative register",
+          "association": "Son of Hugh Glasgow at New Town / Larne",
+          "note": "The derivative chronology places Hugh in the household in 1745 and reports death aged eleven in 1756; inspect the register and reported St Cedma inscription.",
+          "priority": "documented historical occurrence"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-4179",
+      "profile_ids": [
+        "Glasgow-4179"
+      ],
+      "name": "John Glasgow",
+      "first_names": [
+        "John"
+      ],
+      "birth": "c. 1747",
+      "birth_location": "Larne, County Antrim, Ireland",
+      "earliest": 1747.0,
+      "records": [
+        {
+          "year": "b. 1747",
+          "filter_year": 1747.0,
+          "region": "Ireland",
+          "record_location": "County Antrim — exact locality unproved",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birthplace: Larne, County Antrim, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "braccan-2",
+      "profile_ids": [
+        "Braccan-2"
+      ],
+      "name": "Mary Glasco",
+      "first_names": [
+        "Mary"
+      ],
+      "birth": "before 1747",
+      "birth_location": "County Dublin, Ireland",
+      "earliest": 1747.0,
+      "records": [
+        {
+          "year": "b. 1747",
+          "filter_year": 1747.0,
+          "region": "Ireland",
+          "record_location": "County Dublin, Ireland",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birthplace: County Dublin, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-1241",
+      "profile_ids": [
+        "Glasgow-1241"
+      ],
+      "name": "Mary Glascow",
+      "first_names": [
+        "Philip"
+      ],
+      "birth": "c. 1711-06-03",
+      "birth_location": "Uphall, West Lothian, Scotland",
+      "earliest": 1747.0,
+      "records": [
+        {
+          "year": "1747",
+          "filter_year": 1747.0,
+          "region": "Ireland",
+          "record_location": "Dublin",
+          "evidence": "Probate index",
+          "association": "Probate residence: Dublin",
+          "note": "No parish occupation or relationship connects Mary to the Dublin watchmaker family.",
+          "priority": "documented historical occurrence"
+        },
+        {
+          "year": "8 May 1750",
+          "filter_year": 1750.0,
+          "region": "Ireland",
+          "record_location": "Christ Church district — Dublin",
+          "evidence": "Documented occurrence",
+          "association": "Marriage reported in Dublin Courant",
+          "note": "Eminent watchmaker of Christchurch Lane; married the widow Mangan of County Kildare.",
+          "priority": "documented historical occurrence"
+        },
+        {
+          "year": "2 Feb 1760",
+          "filter_year": 1760.0,
+          "region": "Ireland",
+          "record_location": "Christ Church district — Dublin",
+          "evidence": "Documented occurrence",
+          "association": "Death reported in Faulkner's Dublin Journal",
+          "note": "Wife of Philip senior; the report confirms the household remained in Christchurch Lane.",
+          "priority": "documented historical occurrence"
+        },
+        {
+          "year": "1764–1798",
+          "filter_year": 1764.0,
+          "region": "Ireland",
+          "record_location": "Christ Church / Trinity Lane district — Dublin",
+          "evidence": "Catalogue-only occurrence",
+          "association": "Rebellion Papers financial file 620/42/15",
+          "note": "The catalogue exposes Glasco bills and accounts and a Trinity Lane assignment, but no forename or family relationship.",
+          "priority": "historical secondary/reconstruction"
+        },
+        {
+          "year": "1772",
+          "filter_year": 1772.0,
+          "region": "Ireland",
+          "record_location": "Christ Church district — Dublin",
+          "evidence": "Documented occurrence",
+          "association": "Dublin Gazette death and will index",
+          "note": "The elder eminent watchmaker died in Dublin and had a 1772 Prerogative Court will index entry.",
+          "priority": "documented historical occurrence"
+        },
+        {
+          "year": "1772",
+          "filter_year": 1772.0,
+          "region": "Ireland",
+          "record_location": "Dublin",
+          "evidence": "Probate index",
+          "association": "Probate residence: Dublin",
+          "note": "The date and city strongly match Philip senior's death and will; the Scottish-baptised profile remains only a candidate for that Dublin watchmaker.",
+          "priority": "documented historical occurrence"
+        },
+        {
+          "year": "1777",
+          "filter_year": 1777.0,
+          "region": "Ireland",
+          "record_location": "Dublin",
+          "evidence": "Probate index",
+          "association": "Probate residence: Dublin",
+          "note": "This may be a later action for Philip senior indexed in 1772; the Scottish-baptised profile remains only a candidate for that Dublin watchmaker.",
+          "priority": "documented historical occurrence"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-3991",
+      "profile_ids": [
+        "Glasgow-3991"
+      ],
+      "name": "James Glasgow",
+      "first_names": [
+        "James"
+      ],
+      "birth": "1748",
+      "birth_location": "Larne, County Antrim, Ireland",
+      "earliest": 1748.0,
+      "records": [
+        {
+          "year": "b. 1748",
+          "filter_year": 1748.0,
+          "region": "Ireland",
+          "record_location": "County Antrim — exact locality unproved",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birthplace: Larne, County Antrim, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-12",
+      "profile_ids": [
+        "Glasgow-12"
+      ],
+      "name": "Robert Glasgow",
+      "first_names": [
+        "Robert"
+      ],
+      "birth": "1749-02",
+      "birth_location": "Moneymore, County Londonderry, Ireland",
+      "earliest": 1749.0,
+      "records": [
+        {
+          "year": "c.1749",
+          "filter_year": 1749.0,
+          "region": "Ireland",
+          "record_location": "Moneymore",
+          "evidence": "Traditional / profile lead",
+          "association": "Moneymore-associated emigrant",
+          "note": "Requires a separate identity audit.",
+          "priority": "birth/export/tree lead"
+        },
+        {
+          "year": "1749–1839",
+          "filter_year": 1749.0,
+          "region": "Ireland",
+          "record_location": "Moneymore",
+          "evidence": "Paternal genetic identity lead",
+          "association": "Private family details withheld.",
+          "note": "Private family details withheld.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-649",
+      "profile_ids": [
+        "Glasgow-649"
+      ],
+      "name": "Arthur Glasgow",
+      "first_names": [
+        "Arthur"
+      ],
+      "birth": "c. 1750",
+      "birth_location": "Moneymore, County Londonderry, Ireland",
+      "earliest": 1750.0,
+      "records": [
+        {
+          "year": "c.1750",
+          "filter_year": 1750.0,
+          "region": "Ireland",
+          "record_location": "Moneymore",
+          "evidence": "Traditional / profile lead",
+          "association": "Possible wider collateral",
+          "note": "Moneymore origin is disputed.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-3124",
+      "profile_ids": [
+        "Glasgow-3124"
+      ],
+      "name": "James Glasgow",
+      "first_names": [
+        "James"
+      ],
+      "birth": "c. 1750",
+      "birth_location": "County Leitrim, Ireland",
+      "earliest": 1750.0,
+      "records": [
+        {
+          "year": "c.1750",
+          "filter_year": 1750.0,
+          "region": "Ireland",
+          "record_location": "County Leitrim — exact locality unproved",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birth: County Leitrim, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources.",
+          "priority": "birth/export/tree lead"
+        },
+        {
+          "year": "30 Apr 1765",
+          "filter_year": 1765.0,
+          "region": "Ireland",
+          "record_location": "Ballyshannon",
+          "evidence": "Probable repeated identity",
+          "association": "Registry of Deeds memorial 206114",
+          "note": "The memorial names only Mr Glasgow as the previous adjoining occupier of Samuel Parke's Ballyshannon tenement. He is probably James Glasgow, gentleman of nearby Lareen, who served as trustee for the same Samuel Parke family in 1775; the omitted forename prevents conclusive identification.",
+          "priority": "historical secondary/reconstruction"
+        },
+        {
+          "year": "27 May 1775",
+          "filter_year": 1775.0,
+          "region": "Ireland",
+          "record_location": "Lareen townland — Rossinver parish",
+          "evidence": "Documented occurrence / probable repeated identity",
+          "association": "Trustee in Registry memorial 209151",
+          "note": "James Glasgow, gentleman of Larine, was trustee to the Parke–Clarke settlement. He is probably the unnamed Mr Glasgow formerly adjoining Samuel Parke's Ballyshannon property in 1765: the same Parke family is involved and Lareen is about 5.7 km away. Logainm's Laryn/Larin forms identify modern Lareen.",
+          "priority": "documented historical occurrence"
+        },
+        {
+          "year": "1782",
+          "filter_year": 1782.0,
+          "region": "Ireland",
+          "record_location": "Aghadunvane townland County Leitrim",
+          "evidence": "Probate index",
+          "association": "Probate residence: Aghadonvane, County Leitrim",
+          "note": "The residence maps securely to modern Aghadunvane; no relationship is stated.",
+          "priority": "documented historical occurrence"
+        }
+      ]
+    },
+    {
+      "id": "unknown-763421",
+      "profile_ids": [
+        "Unknown-763421"
+      ],
+      "name": "Jane Glasgow",
+      "first_names": [
+        "Jane"
+      ],
+      "birth": "1750",
+      "birth_location": "Larne, County Antrim, Ireland",
+      "earliest": 1750.0,
+      "records": [
+        {
+          "year": "b. 1750",
+          "filter_year": 1750.0,
+          "region": "Ireland",
+          "record_location": "County Antrim — exact locality unproved",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birthplace: Larne, County Antrim, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-2990",
+      "profile_ids": [
+        "Glasgow-2990"
+      ],
+      "name": "John Glasgow",
+      "first_names": [
+        "John"
+      ],
+      "birth": "c. 1750",
+      "birth_location": "Derryloran, Cookstown, County Tyrone, Ireland",
+      "earliest": 1750.0,
+      "records": [
+        {
+          "year": "c.1750",
+          "filter_year": 1750.0,
+          "region": "Ireland",
+          "record_location": "Derryloran civil parish",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birth: Derryloran, Cookstown, County Tyrone, Ireland.",
+          "note": "One-Tree export profile fields are search leads, not sources. Attached parent profile(s): Glasgow-2988.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-3932",
+      "profile_ids": [
+        "Glasgow-3932"
+      ],
+      "name": "Phillip Glasgow",
+      "first_names": [
+        "Phillip"
+      ],
+      "birth": "before 1750",
+      "birth_location": "County Dublin, Ireland",
+      "earliest": 1750.0,
+      "records": [
+        {
+          "year": "b. 1750",
+          "filter_year": 1750.0,
+          "region": "Ireland",
+          "record_location": "County Dublin, Ireland",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birthplace: County Dublin, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links.",
+          "priority": "birth/export/tree lead"
+        },
+        {
+          "year": "17 Sep 1768",
+          "filter_year": 1768.0,
+          "region": "Ireland",
+          "record_location": "Christ Church district — Dublin",
+          "evidence": "Documented occurrence",
+          "association": "Marriage reported in Public Gazetteer",
+          "note": "Watchmaker of Christchurch Yard; married Teresa Plunkett of Church Street.",
+          "priority": "documented historical occurrence"
+        },
+        {
+          "year": "22 Dec 1770",
+          "filter_year": 1770.0,
+          "region": "Ireland",
+          "record_location": "Christ Church district — Dublin",
+          "evidence": "Documented occurrence",
+          "association": "Death reported in Dublin Mercury",
+          "note": "The younger watchmaker died in Christ Church Lane.",
+          "priority": "documented historical occurrence"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-1022",
+      "profile_ids": [
+        "Glasgow-1022"
+      ],
+      "name": "John Glasgow",
+      "first_names": [
+        "John"
+      ],
+      "birth": "1751",
+      "birth_location": "County Antrim, Ireland",
+      "earliest": 1751.0,
+      "records": [
+        {
+          "year": "c.1751–c.1852",
+          "filter_year": 1751.0,
+          "region": "Ireland",
+          "record_location": "Glenleslie townland",
+          "evidence": "Working offshoot",
+          "association": "Glenleslie / Lisnagaver locality",
+          "note": "Possible descendant of the wider East Antrim cohort; no record makes Robert Glasgow his father.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasco-144",
+      "profile_ids": [
+        "Glasco-144"
+      ],
+      "name": "Thomas Glasco",
+      "first_names": [
+        "Thomas"
+      ],
+      "birth": "1753",
+      "birth_location": "Dublin",
+      "earliest": 1753.0,
+      "records": [
+        {
+          "year": "b. 1753",
+          "filter_year": 1753.0,
+          "region": "Ireland",
+          "record_location": "Dublin",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birthplace: Dublin",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-3593",
+      "profile_ids": [
+        "Glasgow-3593"
+      ],
+      "name": "David Glasgow",
+      "first_names": [
+        "David"
+      ],
+      "birth": "before 1755",
+      "birth_location": "Rathdowney, Queen's County, Ireland",
+      "earliest": 1755.0,
+      "records": [
+        {
+          "year": "c.1755",
+          "filter_year": 1755.0,
+          "region": "Ireland",
+          "record_location": "Rathdowney townland — County Laois",
+          "evidence": "One-Tree relational context",
+          "association": "Parent of Margaret-3594 and Thomas-3592",
+          "note": "One-Tree attaches David as father of two profiles whose births are placed at Rathdowney. The point represents family context; the export does not directly state David's residence or birthplace.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "king-67628",
+      "profile_ids": [
+        "King-67628"
+      ],
+      "name": "Mary (King) Glasco",
+      "first_names": [
+        "Mary"
+      ],
+      "birth": "1755",
+      "birth_location": "County Dublin, Ireland",
+      "earliest": 1755.0,
+      "records": [
+        {
+          "year": "b. 1755",
+          "filter_year": 1755.0,
+          "region": "Ireland",
+          "record_location": "County Dublin, Ireland",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birthplace: County Dublin, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "duffy-6026",
+      "profile_ids": [
+        "Duffy-6026"
+      ],
+      "name": "Ann (Duffy) Glasco",
+      "first_names": [
+        "Ann"
+      ],
+      "birth": "1756",
+      "birth_location": "Dublin",
+      "earliest": 1756.0,
+      "records": [
+        {
+          "year": "b. 1756",
+          "filter_year": 1756.0,
+          "region": "Ireland",
+          "record_location": "Dublin",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birthplace: Dublin",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "barclay-56",
+      "profile_ids": [
+        "Barclay-56"
+      ],
+      "name": "Rosannah (Barclay) Glasgow",
+      "first_names": [
+        "Rosannah"
+      ],
+      "birth": "1756",
+      "birth_location": "Londonderry, County Londonderry, Ireland",
+      "earliest": 1756.0,
+      "records": [
+        {
+          "year": "b. 1756",
+          "filter_year": 1756.0,
+          "region": "Ireland",
+          "record_location": "County Londonderry — exact locality unproved",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birthplace: Londonderry, County Londonderry, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "blair-3693",
+      "profile_ids": [
+        "Blair-3693"
+      ],
+      "name": "Sarah (Blair) Glasgow",
+      "first_names": [
+        "Sarah"
+      ],
+      "birth": "c. 1757",
+      "birth_location": "Ireland",
+      "earliest": 1757.0,
+      "records": [
+        {
+          "year": "b. 1757",
+          "filter_year": 1757.0,
+          "region": "Ireland",
+          "record_location": "County Antrim — exact locality unproved",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birthplace: Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-3902",
+      "profile_ids": [
+        "Glasgow-3902"
+      ],
+      "name": "Adam Glasgow",
+      "first_names": [
+        "Adam"
+      ],
+      "birth": "c. 1758",
+      "birth_location": "Inishrush (estimated)",
+      "earliest": 1758.0,
+      "records": [
+        {
+          "year": "c.1758",
+          "filter_year": 1758.0,
+          "region": "Ireland",
+          "record_location": "Inishrush",
+          "evidence": "Derived age evidence",
+          "association": "Birth year calculated from gravestone age",
+          "note": "The gravestone supports the approximate year but does not state a birthplace; the point represents Adam's documented later home at Inishrush.",
+          "priority": "historical secondary/reconstruction"
+        },
+        {
+          "year": "1799",
+          "filter_year": 1799.0,
+          "region": "Ireland",
+          "record_location": "County Londonderry — exact locality unproved",
+          "evidence": "Documented occurrence / identity unproved",
+          "association": "Pro-Union declaration",
+          "note": "The original newspaper prints no address or ditto mark after Adam Glasco. He may be Glasgow-3902 of Inishrush, but the entry proves only a County Londonderry adult and cannot be mapped more precisely.",
+          "priority": "documented historical occurrence"
+        }
+      ]
+    },
+    {
+      "id": "glasco-169",
+      "profile_ids": [
+        "Glasco-169"
+      ],
+      "name": "Ann Glasco",
+      "first_names": [
+        "Ann"
+      ],
+      "birth": "before 1758",
+      "birth_location": "County Dublin, Ireland",
+      "earliest": 1758.0,
+      "records": [
+        {
+          "year": "b. 1758",
+          "filter_year": 1758.0,
+          "region": "Ireland",
+          "record_location": "County Dublin, Ireland",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birthplace: County Dublin, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "ford-28175",
+      "profile_ids": [
+        "Ford-28175"
+      ],
+      "name": "Anne (Ford) Glasgow",
+      "first_names": [
+        "Anne"
+      ],
+      "birth": "before 1759",
+      "birth_location": "Rathdowney, Queen's County, Ireland",
+      "earliest": 1759.0,
+      "records": [
+        {
+          "year": "b. 1759",
+          "filter_year": 1759.0,
+          "region": "Ireland",
+          "record_location": "Rathdowney townland — County Laois",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birthplace: Rathdowney, Queen's County, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-1543",
+      "profile_ids": [
+        "Glasgow-1543"
+      ],
+      "name": "Joseph Glasgow",
+      "first_names": [
+        "Joseph"
+      ],
+      "birth": "c. 1760",
+      "birth_location": "Moneymore, County Londonderry, Ireland",
+      "earliest": 1760.0,
+      "records": [
+        {
+          "year": "b. 1760",
+          "filter_year": 1760.0,
+          "region": "Ireland",
+          "record_location": "County Londonderry — exact locality unproved",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birthplace: Moneymore, County Londonderry, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasco-149",
+      "profile_ids": [
+        "Glasco-149"
+      ],
+      "name": "Margaret Glasco",
+      "first_names": [
+        "Margaret"
+      ],
+      "birth": "1760",
+      "birth_location": "County Dublin, Ireland",
+      "earliest": 1760.0,
+      "records": [
+        {
+          "year": "b. 1760",
+          "filter_year": 1760.0,
+          "region": "Ireland",
+          "record_location": "County Dublin, Ireland",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birthplace: County Dublin, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-2915",
+      "profile_ids": [
+        "Glasgow-2915"
+      ],
+      "name": "William Glasgow",
+      "first_names": [
+        "William"
+      ],
+      "birth": "1760",
+      "birth_location": "Scotland",
+      "earliest": 1760.0,
+      "records": [
+        {
+          "year": "c.1760",
+          "filter_year": 1760.0,
+          "region": "Ireland",
+          "record_location": "Cookstown",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated later Irish event: Cookstown, County Tyrone, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources. Attached parent profile(s): Glasgow-2916.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasco-150",
+      "profile_ids": [
+        "Glasco-150"
+      ],
+      "name": "Philip Glasco",
+      "first_names": [
+        "Philip"
+      ],
+      "birth": "1762",
+      "birth_location": "County Dublin, Ireland",
+      "earliest": 1762.0,
+      "records": [
+        {
+          "year": "b. 1762",
+          "filter_year": 1762.0,
+          "region": "Ireland",
+          "record_location": "County Dublin, Ireland",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birthplace: County Dublin, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-1983",
+      "profile_ids": [
+        "Glasgow-1983"
+      ],
+      "name": "Robert Glasgow",
+      "first_names": [
+        "Robert"
+      ],
+      "birth": "c. 1763",
+      "birth_location": "Ireland",
+      "earliest": 1763.0,
+      "records": [
+        {
+          "year": "c.1763",
+          "filter_year": 1763.0,
+          "region": "Ireland",
+          "record_location": "County Antrim — exact locality unproved",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birth: Ireland",
+          "note": "Robert's own profile gives Ireland only. His attached father James-1144 is placed at Kilwaughter and his attached brother John-1146 states County Antrim, so the county placement is contextual rather than proved.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-3324",
+      "profile_ids": [
+        "Glasgow-3324"
+      ],
+      "name": "William Glasgow",
+      "first_names": [
+        "William"
+      ],
+      "birth": "1763",
+      "birth_location": "Larne, County Antrim, Ireland",
+      "earliest": 1763.0,
+      "records": [
+        {
+          "year": "1763–1816",
+          "filter_year": 1763.0,
+          "region": "Ireland",
+          "record_location": "Larne",
+          "evidence": "Profile location lead",
+          "association": "Larne-labelled profile",
+          "note": "The profile supplies Larne but no more granular Irish location.",
+          "priority": "historical secondary/reconstruction"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-1146",
+      "profile_ids": [
+        "Glasgow-1146"
+      ],
+      "name": "John Glasgow",
+      "first_names": [
+        "John"
+      ],
+      "birth": "c. 1756",
+      "birth_location": "County Antrim, Ireland",
+      "earliest": 1765.0,
+      "records": [
+        {
+          "year": "c.1765",
+          "filter_year": 1765.0,
+          "region": "Ireland",
+          "record_location": "County Antrim — exact locality unproved",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birth: County Antrim, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources. Attached parent profile(s): Glasgow-1144, Crosier-512.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "mitchell-48576",
+      "profile_ids": [
+        "Mitchell-48576"
+      ],
+      "name": "Margaret Glasgow",
+      "first_names": [
+        "Margaret"
+      ],
+      "birth": "1765",
+      "birth_location": "Ballynasollus, Kildress, Cookstown, County Tyrone, Ireland",
+      "earliest": 1765.0,
+      "records": [
+        {
+          "year": "b. 1765",
+          "filter_year": 1765.0,
+          "region": "Ireland",
+          "record_location": "Kildress civil parish",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birthplace: Ballynasollus, Kildress, Cookstown, County Tyrone, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-1657",
+      "profile_ids": [
+        "Glasgow-1657"
+      ],
+      "name": "John Glasgow",
+      "first_names": [
+        "John"
+      ],
+      "birth": "1766",
+      "birth_location": "County Antrim, Ireland",
+      "earliest": 1766.0,
+      "records": [
+        {
+          "year": "1766–1836",
+          "filter_year": 1766.0,
+          "region": "Ireland",
+          "record_location": "Cross townland, Ballymoney parish",
+          "evidence": "Record-supported later profile",
+          "association": "Cross, Ballymoney, County Antrim",
+          "note": "The broader cluster is associated with Cross, Racavan, Broughshane and Clough; its connection to East Antrim is unresolved.",
+          "priority": "documented historical occurrence"
+        }
+      ]
+    },
+    {
+      "id": "glasco-170",
+      "profile_ids": [
+        "Glasco-170"
+      ],
+      "name": "Manasses Glasco",
+      "first_names": [
+        "Manasses"
+      ],
+      "birth": "before 1766",
+      "birth_location": "Monkstown, County Dublin, Ireland",
+      "earliest": 1766.0,
+      "records": [
+        {
+          "year": "b. 1766",
+          "filter_year": 1766.0,
+          "region": "Ireland",
+          "record_location": "Monkstown, County Dublin, Ireland",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birthplace: Monkstown, County Dublin, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasco-143",
+      "profile_ids": [
+        "Glasco-143"
+      ],
+      "name": "Thomas Glasco",
+      "first_names": [
+        "Thomas"
+      ],
+      "birth": "1766",
+      "birth_location": "Dublin, Ireland",
+      "earliest": 1766.0,
+      "records": [
+        {
+          "year": "b. 1766",
+          "filter_year": 1766.0,
+          "region": "Ireland",
+          "record_location": "Dublin, Ireland",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birthplace: Dublin, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-822",
+      "profile_ids": [
+        "Glasgow-822"
+      ],
+      "name": "John Glasgow",
+      "first_names": [
+        "John"
+      ],
+      "birth": "1767-04-10",
+      "birth_location": "Ireland",
+      "earliest": 1767.0,
+      "records": [
+        {
+          "year": "10 Apr 1767",
+          "filter_year": 1767.0,
+          "region": "Ireland",
+          "record_location": "Inishrush",
+          "evidence": "Primary family record",
+          "association": "Birth entered in family Bible",
+          "note": "The Bible supplies the exact date but no birthplace or parents; the point represents his strongly supported Inishrush family context.",
+          "priority": "documented historical occurrence"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-3992",
+      "profile_ids": [
+        "Glasgow-3992"
+      ],
+      "name": "Ann Glasgow",
+      "first_names": [
+        "Ann"
+      ],
+      "birth": "1768",
+      "birth_location": "Larne, County Antrim, Ireland",
+      "earliest": 1768.0,
+      "records": [
+        {
+          "year": "b. 1768",
+          "filter_year": 1768.0,
+          "region": "Ireland",
+          "record_location": "County Antrim — exact locality unproved",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birthplace: Larne, County Antrim, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-4031",
+      "profile_ids": [
+        "Glasgow-4031"
+      ],
+      "name": "John Glasgow",
+      "first_names": [
+        "John"
+      ],
+      "birth": "before 1768",
+      "birth_location": "",
+      "earliest": 1768.0,
+      "records": [
+        {
+          "year": "b. 1768",
+          "filter_year": 1768.0,
+          "region": "Ireland",
+          "record_location": "Armagh",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated marriage place: County Armagh, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-4014",
+      "profile_ids": [
+        "Glasgow-4014"
+      ],
+      "name": "Nathaniel Glasgow",
+      "first_names": [
+        "Nathaniel"
+      ],
+      "birth": "before 1768",
+      "birth_location": "Drumgreenagh, County Armagh, Ireland",
+      "earliest": 1768.0,
+      "records": [
+        {
+          "year": "b. 1768",
+          "filter_year": 1768.0,
+          "region": "Ireland",
+          "record_location": "Armagh",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birthplace: Drumgreenagh, County Armagh, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-4030",
+      "profile_ids": [
+        "Glasgow-4030"
+      ],
+      "name": "Mary Arter",
+      "first_names": [
+        "Mary"
+      ],
+      "birth": "before 1769",
+      "birth_location": "County Londonderry, Ireland",
+      "earliest": 1769.0,
+      "records": [
+        {
+          "year": "b. 1769",
+          "filter_year": 1769.0,
+          "region": "Ireland",
+          "record_location": "County Londonderry — exact locality unproved",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birthplace: County Londonderry, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasco-174",
+      "profile_ids": [
+        "Glasco-174"
+      ],
+      "name": "Phillip Glasco",
+      "first_names": [
+        "Phillip"
+      ],
+      "birth": "1769",
+      "birth_location": "Dublin, County Dublin, Ireland",
+      "earliest": 1769.0,
+      "records": [
+        {
+          "year": "b. 1769",
+          "filter_year": 1769.0,
+          "region": "Ireland",
+          "record_location": "Dublin, County Dublin, Ireland",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birthplace: Dublin, County Dublin, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-1189",
+      "profile_ids": [
+        "Glasgow-1189"
+      ],
+      "name": "Robert Glasgow",
+      "first_names": [
+        "Robert"
+      ],
+      "birth": "c. 1769",
+      "birth_location": "Tyrone, Ireland",
+      "earliest": 1769.0,
+      "records": [
+        {
+          "year": "c.1769",
+          "filter_year": 1769.0,
+          "region": "Ireland",
+          "record_location": "County Tyrone — exact locality unproved",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birth: Tyrone, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-4180",
+      "profile_ids": [
+        "Glasgow-4180"
+      ],
+      "name": "Hugh Glasgow",
+      "first_names": [
+        "Hugh"
+      ],
+      "birth": "c. 1770",
+      "birth_location": "Larne, County Antrim, Ireland",
+      "earliest": 1770.0,
+      "records": [
+        {
+          "year": "b. 1770",
+          "filter_year": 1770.0,
+          "region": "Ireland",
+          "record_location": "County Antrim — exact locality unproved",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birthplace: Larne, County Antrim, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-2539",
+      "profile_ids": [
+        "Glasgow-2539"
+      ],
+      "name": "John Glasgow",
+      "first_names": [
+        "John"
+      ],
+      "birth": "before 1771",
+      "birth_location": "County Tyrone, Ireland",
+      "earliest": 1771.0,
+      "records": [
+        {
+          "year": "c.1771",
+          "filter_year": 1771.0,
+          "region": "Ireland",
+          "record_location": "County Tyrone — exact locality unproved",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birth: County Tyrone, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "stewart-72380",
+      "profile_ids": [
+        "Stewart-72380"
+      ],
+      "name": "Elizabeth Glasgow",
+      "first_names": [
+        "Elizabeth"
+      ],
+      "birth": "c. 1772",
+      "birth_location": "County Antrim, Ireland.",
+      "earliest": 1772.0,
+      "records": [
+        {
+          "year": "b. 1772",
+          "filter_year": 1772.0,
+          "region": "Ireland",
+          "record_location": "County Antrim — exact locality unproved",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birthplace: County Antrim, Ireland.",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-4090",
+      "profile_ids": [
+        "Glasgow-4090"
+      ],
+      "name": "John Glasgow",
+      "first_names": [
+        "John"
+      ],
+      "birth": "before 1772",
+      "birth_location": "Desertoghill, County Londonderry, Ireland",
+      "earliest": 1772.0,
+      "records": [
+        {
+          "year": "b. 1772",
+          "filter_year": 1772.0,
+          "region": "Ireland",
+          "record_location": "County Londonderry — exact locality unproved",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birthplace: Desertoghill, County Londonderry, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-1982",
+      "profile_ids": [
+        "Glasgow-1982"
+      ],
+      "name": "Wilson Crossier Glasgow",
+      "first_names": [
+        "Wilson"
+      ],
+      "birth": "c. 1772",
+      "birth_location": "Kilwaughter, Larne, County Antrim, Ireland",
+      "earliest": 1772.0,
+      "records": [
+        {
+          "year": "c.1772",
+          "filter_year": 1772.0,
+          "region": "Ireland",
+          "record_location": "Kilwaughter",
+          "evidence": "Profile location lead",
+          "association": "Profile birth location: Kilwaughter, Larne, County Antrim",
+          "note": "Kilwaughter-labelled project profile; later emigrant.",
+          "priority": "historical secondary/reconstruction"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-3986",
+      "profile_ids": [
+        "Glasgow-3986"
+      ],
+      "name": "James Glasgow",
+      "first_names": [
+        "James"
+      ],
+      "birth": "1773",
+      "birth_location": "Larne, County Antrim, Ireland",
+      "earliest": 1773.0,
+      "records": [
+        {
+          "year": "b. 1773",
+          "filter_year": 1773.0,
+          "region": "Ireland",
+          "record_location": "County Antrim — exact locality unproved",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birthplace: Larne, County Antrim, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "mcclure-6341",
+      "profile_ids": [
+        "McClure-6341"
+      ],
+      "name": "Jane (McClure) Glasgow",
+      "first_names": [
+        "Jane"
+      ],
+      "birth": "c. 1773",
+      "birth_location": "Antrim, County Antrim, Ireland",
+      "earliest": 1773.0,
+      "records": [
+        {
+          "year": "b. 1773",
+          "filter_year": 1773.0,
+          "region": "Ireland",
+          "record_location": "County Antrim — exact locality unproved",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birthplace: Antrim, County Antrim, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-3977",
+      "profile_ids": [
+        "Glasgow-3977"
+      ],
+      "name": "Margaret Kinard",
+      "first_names": [
+        "Margaret"
+      ],
+      "birth": "1773",
+      "birth_location": "County Antrim, Ireland",
+      "earliest": 1773.0,
+      "records": [
+        {
+          "year": "b. 1773",
+          "filter_year": 1773.0,
+          "region": "Ireland",
+          "record_location": "County Antrim — exact locality unproved",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birthplace: County Antrim, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-3594",
+      "profile_ids": [
+        "Glasgow-3594"
+      ],
+      "name": "Margaret Glasgow",
+      "first_names": [
+        "Margaret"
+      ],
+      "birth": "1774-07-05",
+      "birth_location": "Rathdowney, Queen's County, Ireland",
+      "earliest": 1774.0,
+      "records": [
+        {
+          "year": "5 Jul 1774",
+          "filter_year": 1774.0,
+          "region": "Ireland",
+          "record_location": "Rathdowney townland — County Laois",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birth: Rathdowney, Queen's County, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources. Attached parent profile(s): Glasgow-3593, Ford-28175.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "arthur-2480",
+      "profile_ids": [
+        "Arthur-2480"
+      ],
+      "name": "Mary Arthur",
+      "first_names": [
+        "Mary"
+      ],
+      "birth": "1774-03-25",
+      "birth_location": "Ireland",
+      "earliest": 1774.0,
+      "records": [
+        {
+          "year": "25 Mar 1774",
+          "filter_year": 1774.0,
+          "region": "Ireland",
+          "record_location": "Ireland — exact locality unproved",
+          "evidence": "Primary family record",
+          "association": "Birth entered in family Bible",
+          "note": "The Bible supplies the exact date but no birthplace or parents.",
+          "priority": "documented historical occurrence"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-1190",
+      "profile_ids": [
+        "Glasgow-1190"
+      ],
+      "name": "Elizabeth Glasgow",
+      "first_names": [
+        "Elizabeth"
+      ],
+      "birth": "1775",
+      "birth_location": "Ireland",
+      "earliest": 1775.0,
+      "records": [
+        {
+          "year": "c.1775",
+          "filter_year": 1775.0,
+          "region": "Ireland",
+          "record_location": "County Tyrone — exact locality unproved",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birth: Ireland",
+          "note": "Her own profile gives Ireland only; her husband Robert-1189 states Tyrone, and a compiled family study describes Robert and Betsy as County Tyrone migrants.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-1968",
+      "profile_ids": [
+        "Glasgow-1968"
+      ],
+      "name": "John Glasgow",
+      "first_names": [
+        "John"
+      ],
+      "birth": "c. 1778",
+      "birth_location": "Cookstown, County Tyrone, Ireland",
+      "earliest": 1775.0,
+      "records": [
+        {
+          "year": "c.1775",
+          "filter_year": 1775.0,
+          "region": "Ireland",
+          "record_location": "Cookstown",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birth: Cookstown, County Tyrone, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources. Attached parent profile(s): Glasgow-1970, Mitchell-34480.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-3978",
+      "profile_ids": [
+        "Glasgow-3978"
+      ],
+      "name": "Rachel McCrackin",
+      "first_names": [
+        "Rachel"
+      ],
+      "birth": "1775",
+      "birth_location": "County Antrim, Ireland",
+      "earliest": 1775.0,
+      "records": [
+        {
+          "year": "b. 1775",
+          "filter_year": 1775.0,
+          "region": "Ireland",
+          "record_location": "County Antrim — exact locality unproved",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birthplace: County Antrim, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-3444",
+      "profile_ids": [
+        "Glasgow-3444"
+      ],
+      "name": "James Glasgow",
+      "first_names": [
+        "James"
+      ],
+      "birth": "1776",
+      "birth_location": "Cookstown, Tyrone, Ireland",
+      "earliest": 1776.0,
+      "records": [
+        {
+          "year": "c.1776",
+          "filter_year": 1776.0,
+          "region": "Ireland",
+          "record_location": "Cookstown",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birth: Cookstown, Tyrone, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-3904",
+      "profile_ids": [
+        "Glasgow-3904"
+      ],
+      "name": "Older Alexander Glasgow",
+      "first_names": [
+        "Alexander"
+      ],
+      "birth": "c. 1770",
+      "birth_location": "Lisnagaver, Rasharkin, County Antrim, Ireland",
+      "earliest": 1777.0,
+      "records": [
+        {
+          "year": "born before c.1778",
+          "filter_year": 1777.0,
+          "region": "Ireland",
+          "record_location": "Killoquin electoral division",
+          "evidence": "Reconstructed parent generation",
+          "association": "Working parent of the Killoquin sibling cluster",
+          "note": "Late descendant testimony names Alexander and Rosanna; no contemporary parent record has been identified.",
+          "priority": "historical secondary/reconstruction"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-3592",
+      "profile_ids": [
+        "Glasgow-3592"
+      ],
+      "name": "Thomas Glasgow",
+      "first_names": [
+        "Thomas"
+      ],
+      "birth": "1777-05-01",
+      "birth_location": "Rathdowney, Queen's County, Ireland",
+      "earliest": 1777.0,
+      "records": [
+        {
+          "year": "1 May 1777",
+          "filter_year": 1777.0,
+          "region": "Ireland",
+          "record_location": "Rathdowney townland — County Laois",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birth: Rathdowney, Queen's County, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources. Attached parent profile(s): Glasgow-3593, Ford-28175.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-2057",
+      "profile_ids": [
+        "Glasgow-2057"
+      ],
+      "name": "Ann Glasgow Little",
+      "first_names": [
+        "Ann"
+      ],
+      "birth": "c. 1779",
+      "birth_location": "County Tyrone, Ireland",
+      "earliest": 1779.0,
+      "records": [
+        {
+          "year": "c.1779",
+          "filter_year": 1779.0,
+          "region": "Ireland",
+          "record_location": "Drumearn townland",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated later Irish event: Drumearn, Derryloran, County Tyrone, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-506",
+      "profile_ids": [
+        "Glasgow-506"
+      ],
+      "name": "Euphemia Glasgow",
+      "first_names": [
+        "Euphemia"
+      ],
+      "birth": "before 1780",
+      "birth_location": "Kells, County Antrim, Ireland",
+      "earliest": 1779.0,
+      "records": [
+        {
+          "year": "before 1780–1825",
+          "filter_year": 1779.0,
+          "region": "Ireland",
+          "record_location": "Kells, County Antrim",
+          "evidence": "Unsourced profile family",
+          "association": "Kells, County Antrim",
+          "note": "WikiTree attaches Euphemia as wife of James Armstrong and mother of their Kells-area children, but gives no parents or source connecting her to another Glasgow cluster.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "unknown-761034",
+      "profile_ids": [
+        "Unknown-761034"
+      ],
+      "name": "Rosanna Unknown",
+      "first_names": [
+        "Rosanna"
+      ],
+      "birth": "c. 1774",
+      "birth_location": "County Antrim, Ireland",
+      "earliest": 1779.0,
+      "records": [
+        {
+          "year": "born before c.1780",
+          "filter_year": 1779.0,
+          "region": "Ireland",
+          "record_location": "Killoquin electoral division",
+          "evidence": "Reconstructed parent generation",
+          "association": "Working parent of the Killoquin sibling cluster",
+          "note": "Her surname is not established as Shaw.",
+          "priority": "historical secondary/reconstruction"
+        }
+      ]
+    },
+    {
+      "id": "ryan-23770",
+      "profile_ids": [
+        "Ryan-23770"
+      ],
+      "name": "Johanna (Ryan) Glasgow",
+      "first_names": [
+        "Johanna"
+      ],
+      "birth": "1780",
+      "birth_location": "County Tipperary, Ireland",
+      "earliest": 1780.0,
+      "records": [
+        {
+          "year": "b. 1780",
+          "filter_year": 1780.0,
+          "region": "Ireland",
+          "record_location": "County Tipperary — exact locality unproved",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birthplace: County Tipperary, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-209",
+      "profile_ids": [
+        "Glasgow-209"
+      ],
+      "name": "John Glasgow",
+      "first_names": [
+        "John"
+      ],
+      "birth": "1780-04-28",
+      "birth_location": "County Londonderry, Ireland",
+      "earliest": 1780.0,
+      "records": [
+        {
+          "year": "1780",
+          "filter_year": 1780.0,
+          "region": "Ireland",
+          "record_location": "Portglenone — regional family-tradition reference",
+          "evidence": "Approximate location",
+          "association": "Born on the family farm 'not far from' Portglenone",
+          "note": "Likely Hugh-540's will-named son; distinct from John born 1767.",
+          "priority": "historical secondary/reconstruction"
+        }
+      ]
+    },
+    {
+      "id": "glasco-66",
+      "profile_ids": [
+        "Glasco-66"
+      ],
+      "name": "Mary (Glasco) Hames",
+      "first_names": [
+        "Mary"
+      ],
+      "birth": "before 1781-12-05",
+      "birth_location": "St Michan's, Dublin city, Dublin, Ireland",
+      "earliest": 1781.0,
+      "records": [
+        {
+          "year": "b. 1781",
+          "filter_year": 1781.0,
+          "region": "Ireland",
+          "record_location": "St Michan's, Dublin city, Dublin, Ireland",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birthplace: St Michan's, Dublin city, Dublin, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasco-171",
+      "profile_ids": [
+        "Glasco-171"
+      ],
+      "name": "Rosetta Glasco",
+      "first_names": [
+        "Rosetta"
+      ],
+      "birth": "c. 1782",
+      "birth_location": "Monkstown, County Dublin, Ireland",
+      "earliest": 1782.0,
+      "records": [
+        {
+          "year": "b. 1782",
+          "filter_year": 1782.0,
+          "region": "Ireland",
+          "record_location": "Monkstown, County Dublin, Ireland",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birthplace: Monkstown, County Dublin, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "unknown-540856",
+      "profile_ids": [
+        "Unknown-540856"
+      ],
+      "name": "Catherine (Unknown) Glasgow",
+      "first_names": [
+        "Catherine"
+      ],
+      "birth": "c. 1783",
+      "birth_location": "County Antrim, Ireland",
+      "earliest": 1783.0,
+      "records": [
+        {
+          "year": "b. 1783",
+          "filter_year": 1783.0,
+          "region": "Ireland",
+          "record_location": "County Antrim — exact locality unproved",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birthplace: County Antrim, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "unknown-764117",
+      "profile_ids": [
+        "Unknown-764117"
+      ],
+      "name": "Jane Glasgow",
+      "first_names": [
+        "Jane"
+      ],
+      "birth": "c. 1783",
+      "birth_location": "Cookstown, County Tyrone, Ireland",
+      "earliest": 1783.0,
+      "records": [
+        {
+          "year": "b. 1783",
+          "filter_year": 1783.0,
+          "region": "Ireland",
+          "record_location": "Cookstown",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birthplace: Cookstown, County Tyrone, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-3946",
+      "profile_ids": [
+        "Glasgow-3946"
+      ],
+      "name": "John Glasgow",
+      "first_names": [
+        "John"
+      ],
+      "birth": "1784",
+      "birth_location": "",
+      "earliest": 1784.0,
+      "records": [
+        {
+          "year": "1784–1871",
+          "filter_year": 1784.0,
+          "region": "Ireland",
+          "record_location": "County Tipperary — exact locality unproved",
+          "evidence": "Recent WikiTree profile lead",
+          "association": "Recent-edit profile location: County Tipperary — exact locality unproved",
+          "note": "Added from the 6 August 2026 recent-edit reconciliation; profile fields are research leads, not source evidence.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "unknown-719762",
+      "profile_ids": [
+        "Unknown-719762"
+      ],
+      "name": "Elizabeth (Unknown) Glasgow",
+      "first_names": [
+        "Elizabeth"
+      ],
+      "birth": "1785",
+      "birth_location": "Ireland",
+      "earliest": 1785.0,
+      "records": [
+        {
+          "year": "b. 1785",
+          "filter_year": 1785.0,
+          "region": "Ireland",
+          "record_location": "County Antrim — exact locality unproved",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birthplace: Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-544",
+      "profile_ids": [
+        "Glasgow-544"
+      ],
+      "name": "Alexander Glasgow",
+      "first_names": [
+        "Alexander"
+      ],
+      "birth": "c. 1786-02-26",
+      "birth_location": "Ireland",
+      "earliest": 1786.0,
+      "records": [
+        {
+          "year": "26 Feb 1786",
+          "filter_year": 1786.0,
+          "region": "Ireland",
+          "record_location": "Portglenone — regional family-tradition reference",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birth: Ireland",
+          "note": "The late family history places this household's farm in County Londonderry 'not far from' Portglenone and says the family emigrated together in 1796; it does not state Alexander's exact birthplace.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "unknown-695647",
+      "profile_ids": [
+        "Unknown-695647"
+      ],
+      "name": "Elizabeth (Unknown) Glasgow",
+      "first_names": [
+        "Elizabeth"
+      ],
+      "birth": "1786",
+      "birth_location": "Ireland",
+      "earliest": 1786.0,
+      "records": [
+        {
+          "year": "b. 1786",
+          "filter_year": 1786.0,
+          "region": "Ireland",
+          "record_location": "County Antrim — exact locality unproved",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birthplace: Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-539",
+      "profile_ids": [
+        "Glasgow-539"
+      ],
+      "name": "Hugh Glasgow",
+      "first_names": [
+        "Hugh"
+      ],
+      "birth": "1786-07-25",
+      "birth_location": "County Down, Ireland",
+      "earliest": 1786.0,
+      "records": [
+        {
+          "year": "c.1786",
+          "filter_year": 1786.0,
+          "region": "Ireland",
+          "record_location": "Portglenone — regional family-tradition reference",
+          "evidence": "Approximate location",
+          "association": "Younger Hugh-540 generation",
+          "note": "Mapped regionally from the same late family-farm tradition.",
+          "priority": "historical secondary/reconstruction"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-543",
+      "profile_ids": [
+        "Glasgow-543"
+      ],
+      "name": "Nancy Glasgow Cunningham",
+      "first_names": [
+        "Nancy"
+      ],
+      "birth": "c. 1786",
+      "birth_location": "Ireland",
+      "earliest": 1786.0,
+      "records": [
+        {
+          "year": "c.1786",
+          "filter_year": 1786.0,
+          "region": "Ireland",
+          "record_location": "Portglenone — regional family-tradition reference",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birth: Ireland",
+          "note": "The late family history places this household's farm in County Londonderry 'not far from' Portglenone and says the family emigrated together in 1796; it does not state Nancy's exact birthplace.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-2824",
+      "profile_ids": [
+        "Glasgow-2824"
+      ],
+      "name": "Alexander Glasgow",
+      "first_names": [
+        "Alexander"
+      ],
+      "birth": "c. 1787",
+      "birth_location": "Ireland",
+      "earliest": 1787.0,
+      "records": [
+        {
+          "year": "c.1787",
+          "filter_year": 1787.0,
+          "region": "Ireland",
+          "record_location": "Ireland — exact locality unproved",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birth: Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-2058",
+      "profile_ids": [
+        "Glasgow-2058"
+      ],
+      "name": "John Glasgow",
+      "first_names": [
+        "John"
+      ],
+      "birth": "before 1788",
+      "birth_location": "Killycurragh, Derryloran, County Tyrone, Ireland",
+      "earliest": 1788.0,
+      "records": [
+        {
+          "year": "c.1788",
+          "filter_year": 1788.0,
+          "region": "Ireland",
+          "record_location": "Killycurragh townland — Oritor/Derryloran",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birth: Killycurragh, Derryloran, County Tyrone, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-2972",
+      "profile_ids": [
+        "Glasgow-2972"
+      ],
+      "name": "David Glasgow",
+      "first_names": [
+        "David"
+      ],
+      "birth": "1789",
+      "birth_location": "Ireland",
+      "earliest": 1789.0,
+      "records": [
+        {
+          "year": "c.1789",
+          "filter_year": 1789.0,
+          "region": "Ireland",
+          "record_location": "Ireland — exact locality unproved",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birth: Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-3958",
+      "profile_ids": [
+        "Glasgow-3958"
+      ],
+      "name": "Jemima (Glasgow) Montgomery",
+      "first_names": [
+        "Jemima"
+      ],
+      "birth": "before 1790",
+      "birth_location": "County Leitrim, Ireland",
+      "earliest": 1789.0,
+      "records": [
+        {
+          "year": "before 1790",
+          "filter_year": 1789.0,
+          "region": "Ireland",
+          "record_location": "County Leitrim — exact locality unproved",
+          "evidence": "Recent WikiTree profile lead",
+          "association": "Recent-edit profile location: County Leitrim — exact locality unproved",
+          "note": "Added from the 6 August 2026 recent-edit reconciliation; profile fields are research leads, not source evidence.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "unknown-729355",
+      "profile_ids": [
+        "Unknown-729355"
+      ],
+      "name": "Sarah (Unknown) Glasgow",
+      "first_names": [
+        "Sarah"
+      ],
+      "birth": "1789",
+      "birth_location": "Ireland",
+      "earliest": 1789.0,
+      "records": [
+        {
+          "year": "b. 1789",
+          "filter_year": 1789.0,
+          "region": "Ireland",
+          "record_location": "County Antrim — exact locality unproved",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birthplace: Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "warwick-2388",
+      "profile_ids": [
+        "Warwick-2388"
+      ],
+      "name": "Ann (Warwick) Glasgow",
+      "first_names": [
+        "Ann"
+      ],
+      "birth": "1790",
+      "birth_location": "Ireland",
+      "earliest": 1790.0,
+      "records": [
+        {
+          "year": "b. 1790",
+          "filter_year": 1790.0,
+          "region": "Ireland",
+          "record_location": "County Antrim — exact locality unproved",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birthplace: Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-3906",
+      "profile_ids": [
+        "Glasgow-3906"
+      ],
+      "name": "Eliza Glasgow",
+      "first_names": [
+        "Eliza"
+      ],
+      "birth": "c. 1790",
+      "birth_location": "Inishrush, Tamlaght O’Crilly, County Londonderry",
+      "earliest": 1790.0,
+      "records": [
+        {
+          "year": "c.1790–1814",
+          "filter_year": 1790.0,
+          "region": "Ireland",
+          "record_location": "St Nossonus — Tamlaght O'Crilly Lower graveyard",
+          "evidence": "Documented",
+          "association": "Named on family gravestone",
+          "note": "Gravestone-proved daughter of Adam and Rose.",
+          "priority": "documented historical occurrence"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-3477",
+      "profile_ids": [
+        "Glasgow-3477"
+      ],
+      "name": "Letitia Glasgow",
+      "first_names": [
+        "Letita"
+      ],
+      "birth": "1790",
+      "birth_location": "Tamlaght O'Crilly civil parish (estimated)",
+      "earliest": 1790.0,
+      "records": [
+        {
+          "year": "c.1790",
+          "filter_year": 1790.0,
+          "region": "Ireland",
+          "record_location": "Tamlaght O'Crilly civil parish",
+          "evidence": "Traditional / profile lead",
+          "association": "Wider Inishrush–Tamlaght candidate",
+          "note": "Could be from Adam's wider generation, but no inspected record identifies her as his daughter.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-2908",
+      "profile_ids": [
+        "Glasgow-2908"
+      ],
+      "name": "Samuel Glasgow",
+      "first_names": [
+        "Samuel"
+      ],
+      "birth": "c. 1790",
+      "birth_location": "County Londonderry, Ireland",
+      "earliest": 1790.0,
+      "records": [
+        {
+          "year": "c.1789–1791",
+          "filter_year": 1790.0,
+          "region": "Ireland",
+          "record_location": "County Londonderry — exact locality unproved",
+          "evidence": "Derived age and birthplace evidence",
+          "association": "Reported born in County Londonderry",
+          "note": "The 1851 census reports age 60 and County Londonderry birth; the 1875 death reports age 85. No source places Samuel at Inishrush.",
+          "priority": "historical secondary/reconstruction"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-546",
+      "profile_ids": [
+        "Glasgow-546"
+      ],
+      "name": "Robert Glasgow",
+      "first_names": [
+        "Robert"
+      ],
+      "birth": "1791-09-17",
+      "birth_location": "Ireland",
+      "earliest": 1791.0,
+      "records": [
+        {
+          "year": "17 Sep 1791",
+          "filter_year": 1791.0,
+          "region": "Ireland",
+          "record_location": "Portglenone — regional family-tradition reference",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birth: Ireland",
+          "note": "The late family history places this household's farm in County Londonderry 'not far from' Portglenone and says the family emigrated together in 1796; it does not state Robert's exact birthplace.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-971",
+      "profile_ids": [
+        "Glasgow-971"
+      ],
+      "name": "Alexander Glasgow Esq",
+      "first_names": [
+        "Alexander"
+      ],
+      "birth": "1792-11-01",
+      "birth_location": "Barony, Lanarkshire, Scotland",
+      "earliest": 1792.0,
+      "records": [
+        {
+          "year": "1 Nov 1792",
+          "filter_year": 1792.0,
+          "region": "Ireland",
+          "record_location": "County Cork — exact locality unproved",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated later Irish event: County Cork, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources. Attached parent profile(s): Glasgow-1348.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-2054",
+      "profile_ids": [
+        "Glasgow-2054"
+      ],
+      "name": "Samuel Glasgow",
+      "first_names": [
+        "Samuel"
+      ],
+      "birth": "c. 1792",
+      "birth_location": "County Tyrone, Ireland",
+      "earliest": 1792.0,
+      "records": [
+        {
+          "year": "c.1792",
+          "filter_year": 1792.0,
+          "region": "Ireland",
+          "record_location": "Gortin townland — Oritor/Derryloran",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated later Irish event: Gortin, Derryloran, Cookstown, County Tyrone, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources. Attached parent profile(s): Glasgow-2539.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-4011",
+      "profile_ids": [
+        "Glasgow-4011"
+      ],
+      "name": "Elizabeth Glasgow",
+      "first_names": [
+        "Elizabeth"
+      ],
+      "birth": "before 1794",
+      "birth_location": "Drumgreenagh, County Armagh",
+      "earliest": 1794.0,
+      "records": [
+        {
+          "year": "b. 1794",
+          "filter_year": 1794.0,
+          "region": "Ireland",
+          "record_location": "Armagh",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birthplace: Drumgreenagh, County Armagh",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-2880",
+      "profile_ids": [
+        "Glasgow-2880"
+      ],
+      "name": "Elizabeth Glasgow",
+      "first_names": [
+        "Elizabeth"
+      ],
+      "birth": "c. 1794",
+      "birth_location": "County Tyrone Oregon Londonderry, Ireland",
+      "earliest": 1794.0,
+      "records": [
+        {
+          "year": "c.1794",
+          "filter_year": 1794.0,
+          "region": "Ireland",
+          "record_location": "Tamlaght O'Crilly civil parish",
+          "evidence": "Traditional / profile lead",
+          "association": "Wider Inishrush–Tamlaght candidate",
+          "note": "Similar to Eliza Glasgow but cannot be the same woman because the gravestone Eliza died aged 24.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-3135",
+      "profile_ids": [
+        "Glasgow-3135"
+      ],
+      "name": "Henry Glasgow",
+      "first_names": [
+        "Henry"
+      ],
+      "birth": "before 1794",
+      "birth_location": "Killycurragh, Derryloran, County Tyrone, Ireland",
+      "earliest": 1794.0,
+      "records": [
+        {
+          "year": "c.1794",
+          "filter_year": 1794.0,
+          "region": "Ireland",
+          "record_location": "Killycurragh townland — Oritor/Derryloran",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birth: Killycurragh, Derryloran, County Tyrone, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-3903",
+      "profile_ids": [
+        "Glasgow-3903"
+      ],
+      "name": "James Glasgow",
+      "first_names": [
+        "James"
+      ],
+      "birth": "1794",
+      "birth_location": "Inishrush, Tamlaght O’Crilly, County Londonderry",
+      "earliest": 1794.0,
+      "records": [
+        {
+          "year": "c.1794",
+          "filter_year": 1794.0,
+          "region": "Ireland",
+          "record_location": "St Nossonus — Tamlaght O'Crilly Lower graveyard",
+          "evidence": "Documented",
+          "association": "Named on family gravestone",
+          "note": "Gravestone-proved son of Adam and Rose.",
+          "priority": "documented historical occurrence"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-3439",
+      "profile_ids": [
+        "Glasgow-3439"
+      ],
+      "name": "John Glasgow",
+      "first_names": [
+        "John"
+      ],
+      "birth": "1794",
+      "birth_location": "Derrynoose, Armagh, Ireland",
+      "earliest": 1794.0,
+      "records": [
+        {
+          "year": "c.1794",
+          "filter_year": 1794.0,
+          "region": "Ireland",
+          "record_location": "Derrynoose civil parish — County Armagh",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birth: Derrynoose, Armagh, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "miller-37219",
+      "profile_ids": [
+        "Miller-37219"
+      ],
+      "name": "Margaret (Miller) Glasgow",
+      "first_names": [
+        "Margaret"
+      ],
+      "birth": "c. 1794",
+      "birth_location": "Ireland",
+      "earliest": 1794.0,
+      "records": [
+        {
+          "year": "b. 1794",
+          "filter_year": 1794.0,
+          "region": "Ireland",
+          "record_location": "County Antrim — exact locality unproved",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birthplace: Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "mccormack-3356",
+      "profile_ids": [
+        "McCormack-3356"
+      ],
+      "name": "Ann (McCormack) Glasgow",
+      "first_names": [
+        "Ann"
+      ],
+      "birth": "c. 1795-10",
+      "birth_location": "Cookstown, County Tyrone, Ireland",
+      "earliest": 1795.0,
+      "records": [
+        {
+          "year": "b. 1795",
+          "filter_year": 1795.0,
+          "region": "Ireland",
+          "record_location": "Cookstown",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birthplace: Cookstown, County Tyrone, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-3896",
+      "profile_ids": [
+        "Glasgow-3896"
+      ],
+      "name": "Daniel Glasgow",
+      "first_names": [
+        "Daniel"
+      ],
+      "birth": "c. 1796",
+      "birth_location": "Kilrea (estimated)",
+      "earliest": 1795.0,
+      "records": [
+        {
+          "year": "c.1795/96–1871",
+          "filter_year": 1795.0,
+          "region": "Ireland",
+          "record_location": "Kilrea",
+          "evidence": "Proved relationship",
+          "association": "Of Kilrea; will proves Thomas was his brother",
+          "note": "Daniel's original will calls Thomas his late brother and Daniel Neely Glasgow his nephew.",
+          "priority": "documented historical occurrence"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-2074",
+      "profile_ids": [
+        "Glasgow-2074"
+      ],
+      "name": "Edward Glasgow",
+      "first_names": [
+        "Edward"
+      ],
+      "birth": "c. 1795",
+      "birth_location": "Cookstown, County Tyrone, Ireland",
+      "earliest": 1795.0,
+      "records": [
+        {
+          "year": "c.1795",
+          "filter_year": 1795.0,
+          "region": "Ireland",
+          "record_location": "Cookstown",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birth: Cookstown, County Tyrone, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-3126",
+      "profile_ids": [
+        "Glasgow-3126"
+      ],
+      "name": "James Glasgow",
+      "first_names": [
+        "James"
+      ],
+      "birth": "1795",
+      "birth_location": "Ireland",
+      "earliest": 1795.0,
+      "records": [
+        {
+          "year": "c.1795",
+          "filter_year": 1795.0,
+          "region": "Ireland",
+          "record_location": "Ireland — exact locality unproved",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birth: Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-3443",
+      "profile_ids": [
+        "Glasgow-3443"
+      ],
+      "name": "John Glasgow",
+      "first_names": [
+        "John"
+      ],
+      "birth": "1795",
+      "birth_location": "Ireland",
+      "earliest": 1795.0,
+      "records": [
+        {
+          "year": "c.1795",
+          "filter_year": 1795.0,
+          "region": "Ireland",
+          "record_location": "Ireland — exact locality unproved",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birth: Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-3927",
+      "profile_ids": [
+        "Glasgow-3927"
+      ],
+      "name": "John Glasgow",
+      "first_names": [
+        "John"
+      ],
+      "birth": "c. 1767",
+      "birth_location": "Inishrush, Tamlaght O'Crilly, County Londonderry, Ireland",
+      "earliest": 1796.0,
+      "records": [
+        {
+          "year": "1796",
+          "filter_year": 1796.0,
+          "region": "Ireland",
+          "record_location": "Desertoghill civil parish",
+          "evidence": "Documented occurrence / candidate cluster link",
+          "association": "1796 flax-premium entry 2070: John Glasgow, Desertoghill [Desartoghill], Coleraine barony, two wheels.",
+          "note": "Identity with Glasgow-822 or the father of John-867 remains unproved. Two wheels are a premium, not a household inventory. The companion North Antrim extract cannot establish absence in Larne/Kilwaughter.",
+          "priority": "documented historical occurrence"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-3814",
+      "profile_ids": [
+        "Glasgow-3814"
+      ],
+      "name": "William Glasgow",
+      "first_names": [
+        "William"
+      ],
+      "birth": "c. 1796",
+      "birth_location": "County Tyrone, Ireland",
+      "earliest": 1796.0,
+      "records": [
+        {
+          "year": "c.1796",
+          "filter_year": 1796.0,
+          "region": "Ireland",
+          "record_location": "Loy townland",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated later Irish event: Loy, County Tyrone, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-3449",
+      "profile_ids": [
+        "Glasgow-3449"
+      ],
+      "name": "Robert Glasgow",
+      "first_names": [
+        "Robert"
+      ],
+      "birth": "1797",
+      "birth_location": "Ballymoney, Antrim, Londonderry (Derry), Ireland",
+      "earliest": 1797.0,
+      "records": [
+        {
+          "year": "1797–1868",
+          "filter_year": 1797.0,
+          "region": "Ireland",
+          "record_location": "Ballymoney",
+          "evidence": "Profile location lead",
+          "association": "Ballymoney",
+          "note": "Likely part of a later Ballymoney-area family; exact relationship within Group 7 requires profile-level proof.",
+          "priority": "historical secondary/reconstruction"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-3987",
+      "profile_ids": [
+        "Glasgow-3987"
+      ],
+      "name": "Jane Shutter Glasgow",
+      "first_names": [
+        "Jane"
+      ],
+      "birth": "after 1798-07",
+      "birth_location": "County Antrim, Ireland.",
+      "earliest": 1798.0,
+      "records": [
+        {
+          "year": "b. 1798",
+          "filter_year": 1798.0,
+          "region": "Ireland",
+          "record_location": "County Antrim — exact locality unproved",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birthplace: County Antrim, Ireland.",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-4056",
+      "profile_ids": [
+        "Glasgow-4056"
+      ],
+      "name": "John Glasgow",
+      "first_names": [
+        "John"
+      ],
+      "birth": "before 1798",
+      "birth_location": "County Antrim, Ireland",
+      "earliest": 1798.0,
+      "records": [
+        {
+          "year": "b. 1798",
+          "filter_year": 1798.0,
+          "region": "Ireland",
+          "record_location": "County Antrim — exact locality unproved",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birthplace: County Antrim, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources; relationships are shown only where the export supplies parent links.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-822-arthur-2480",
+      "profile_ids": [
+        "Glasgow-822",
+        "Arthur-2480"
+      ],
+      "name": "John Glasgow and Mary Arthur",
+      "first_names": [
+        "John",
+        "Mary"
+      ],
+      "birth": "1767-04-10 / 1774-03-25",
+      "birth_location": "Ireland",
+      "earliest": 1798.0,
+      "records": [
+        {
+          "year": "21 May 1798",
+          "filter_year": 1798.0,
+          "region": "Ireland",
+          "record_location": "Inishrush",
+          "evidence": "Primary family record",
+          "association": "Marriage entered in family Bible",
+          "note": "The Bible supplies the exact date but no place witnesses or parents; the point represents the couple's documented Inishrush context by 1799.",
+          "priority": "documented historical occurrence"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-2656",
+      "profile_ids": [
+        "Glasgow-2656"
+      ],
+      "name": "Robert Glasgow Esq",
+      "first_names": [
+        "Robert"
+      ],
+      "birth": "c. 1798",
+      "birth_location": "Tullyveagh townland County Tyrone (estimated)",
+      "earliest": 1798.0,
+      "records": [
+        {
+          "year": "c.1798",
+          "filter_year": 1798.0,
+          "region": "Ireland",
+          "record_location": "Tullyveagh townland — County Tyrone",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated later Irish event: Tullyveagh, Cookstown, County Tyrone, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-2544",
+      "profile_ids": [
+        "Glasgow-2544"
+      ],
+      "name": "Francis Glasgow",
+      "first_names": [
+        "Francis"
+      ],
+      "birth": "c. 1799",
+      "birth_location": "County Tyrone, Ireland",
+      "earliest": 1799.0,
+      "records": [
+        {
+          "year": "c.1799",
+          "filter_year": 1799.0,
+          "region": "Ireland",
+          "record_location": "County Tyrone — exact locality unproved",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birth: County Tyrone, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources. Attached parent profile(s): Glasgow-2539.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-1702",
+      "profile_ids": [
+        "Glasgow-1702"
+      ],
+      "name": "James Glasgow",
+      "first_names": [
+        "James"
+      ],
+      "birth": "before 1799-08-21",
+      "birth_location": "County Tyrone, Ireland",
+      "earliest": 1799.0,
+      "records": [
+        {
+          "year": "21 Aug 1799",
+          "filter_year": 1799.0,
+          "region": "Ireland",
+          "record_location": "St Luran's Church — Derryloran",
+          "evidence": "Documented parent-child record / candidate cluster link",
+          "association": "St Luran baptism",
+          "note": "The Derryloran register names the child James and parents William and Mary Glasgow. Identity with Glasgow-1702 is a strong candidate, but the baptism does not connect William to James-1025.",
+          "priority": "documented historical occurrence"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-1779",
+      "profile_ids": [
+        "Glasgow-1779"
+      ],
+      "name": "Jane Glasgow Armstrong",
+      "first_names": [
+        "Jane"
+      ],
+      "birth": "c. 1799",
+      "birth_location": "County Antrim, Ireland",
+      "earliest": 1799.0,
+      "records": [
+        {
+          "year": "c.1799",
+          "filter_year": 1799.0,
+          "region": "Ireland",
+          "record_location": "County Antrim — exact locality unproved",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birth: County Antrim, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources. Attached parent profile(s): Glasgow-1657, McClure-6341.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-821",
+      "profile_ids": [
+        "Glasgow-821"
+      ],
+      "name": "Rose Glasgow",
+      "first_names": [
+        "Rose"
+      ],
+      "birth": "1799-03-04",
+      "birth_location": "Ireland",
+      "earliest": 1799.0,
+      "records": [
+        {
+          "year": "4 Mar 1799",
+          "filter_year": 1799.0,
+          "region": "Ireland",
+          "record_location": "Inishrush",
+          "evidence": "Derivative family record",
+          "association": "Born at Inishrush",
+          "note": "The descendant family register places John and Mary Glasgow's eldest daughter's birth at Inishrush; this is not a contemporary civil or church entry.",
+          "priority": "historical secondary/reconstruction"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-1675",
+      "profile_ids": [
+        "Glasgow-1675"
+      ],
+      "name": "William Glasgow",
+      "first_names": [
+        "William"
+      ],
+      "birth": "1799-03-28",
+      "birth_location": "Killycurragh, Derryloran, Cookstown, County Tyrone, Ireland",
+      "earliest": 1799.0,
+      "records": [
+        {
+          "year": "28 Mar 1799",
+          "filter_year": 1799.0,
+          "region": "Ireland",
+          "record_location": "Killycurragh townland — Oritor/Derryloran",
+          "evidence": "One-Tree profile lead",
+          "association": "Profile-stated birth: Killycurragh, Derryloran, Cookstown, County Tyrone, Ireland",
+          "note": "One-Tree export profile fields are search leads, not sources.",
+          "priority": "birth/export/tree lead"
+        }
+      ]
+    }
+  ]
+}

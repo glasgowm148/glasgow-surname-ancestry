@@ -25,6 +25,8 @@ Look for delegate correspondence, Kildress leases and signatures that identify h
 == Biography ==
 William Glasgow attended the Kildress church meeting on 16 January 1793. He and Hugh Faulkner were appointed delegates to the Dungannon meeting on parliamentary reform. When David Richardson left the chair, William took it and signed the meeting’s thanks resolution.<ref>[https://www.newspapers.com/image/72019090/ Northern Star, 23 January 1793, p.2].</ref>
 
+The same meeting resolutions were repeated on 26 January.<ref>[https://www.newspapers.com/image/72019250/ Northern Star, 26 January 1793, p.4, repeated Kildress resolutions].</ref>
+
 == Research Notes ==
 [[Glasgow-2915|William Glasgow]] is a compatible candidate by period and district. The notice does not establish that profile’s father, wife or birthplace.
 
