@@ -1,6 +1,6 @@
 # Pre-1800 newspaper follow-up — 4 October 2026
 
-The catalogue-led pass now covers all 51 given-name forms in both separately indexed Irish collections, oldest first, bounded 1600–1799. The remaining 48 quoted canonical-name searches returned no results. Eighteen further worldwide name/spelling searches bring the maintained review to 137 query records. Worldwide results are collateral leads, not evidence of Irish origins.
+The catalogue-led pass now covers all 51 given-name forms in both separately indexed Irish collections, oldest first, bounded 1600–1799. The remaining 48 quoted canonical-name searches returned no results. Eighteen further worldwide name/spelling searches initially brought the maintained review to 137 query records; the urgent continuation brings it to 156 query records. Worldwide results are collateral leads, not evidence of Irish origins.
 
 ## Current findings
 
@@ -17,4 +17,16 @@ The [Kentucky Gazette Extraordinary, 7 March 1798, p.5](https://www.newspapers.c
 
 The worldwide Glasco set reached 25 entries, 24 unique images, including sixteen already-inspected Dublin watchmaker advertisements. The quoted John Glasco query nevertheless returned zero: an observed exact-name OCR miss. Mary Glascow retrieves John Glascow beside Mary Anderson, not a woman called Mary Glascow. First-preview screening and completed result retrieval do not mean every additional highlight has been read. One Ann highlight was obscured; further women’s-query highlights, abbreviations and spellings remain to check.
 
-No relationship amendment follows from this batch. Original snippets remain in the private local cache and updated ZIP; only safe summaries and stable original links are published locally. See the maintained query review and curated newspaper index for exact query progress and passage status.
+No relationship amendment follows from this batch. Full original captures remain in the private local cache. Visually checked bounded clippings are published inline beside safe summaries and stable original links. See the maintained query review and curated newspaper index for exact query progress and passage status.
+
+## Urgent continuation and excerpt audit
+
+Sixteen quoted abbreviation searches (Wm., Jas., Jno., Thos., Robt., Saml., Nathl., Benj.) in both Irish collections add fifteen zero results and one previously retained William sailing advertisement. Nine earliest pending shipping passages are now verified city/vessel exclusions. Worldwide Glascow loading stopped at 180 of 306 results with a provider loader failure; Glafco displayed 21 previews in the later observation, versus an earlier 28. Original verification remains selective.
+
+A newly inspected [20 September 1768 marriage report, p.3](https://www.newspapers.com/image/1050148115/) names Philip Glasco the younger and Teresa Plunkett, compatible with [Glasgow-3932](https://www.wikitree.com/wiki/Glasgow-3932). The original corroborates the existing marriage account without proving his father. The cargo notice on [12 December 1792, p.1](https://www.newspapers.com/image/72017846/) and the [1796 provider-date conflict](https://www.newspapers.com/image/61256880/) are now recorded separately. The 1760 John Glasgow notice says his Nottingham store was planned by the end of September, correcting the earlier 1 September reading.
+
+Pre-1800 completeness is still an active audit, not an exhaustive claim. Reviewed original passages and approved excerpts are recorded separately from partial result screening.
+
+### Completed preservation batch
+
+All 37 currently retained pre-1800 newspaper pages now have 40 approved inline excerpts (including a separate cargo notice and larger Kildress reading supplements). The complete clipping manifest contains 90 pages and 93 excerpts. Each source and public asset hash, and each pre-1800 year-page image, has been checked. The 1 August 1792 Oporto advertisement itself is dated 23 July, correcting the earlier 25 July transcription. Twenty-four retained later pages still need an excerpt; unresolved search leads and city/vessel exclusions are separately labelled. These counts describe preserved reviewed records, not an exhaustive search of every early newspaper.

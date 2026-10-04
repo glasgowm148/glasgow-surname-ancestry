@@ -10,6 +10,9 @@ reviewed record yet proves that the baptised child migrated to Dublin.
 
 ## Source findings
 
+The [original Freeman’s Journal marriage report, 20 September 1768,p. 3](https://www.newspapers.com/image/1050148115/), inspected 4 October 2026, names Phil. Glasco the younger, watchmaker of Christ-church-lane, and Teresa Plunkett of Church-street. It corroborates the younger Philip’s marriage recorded in the Public Gazetteer extraction; it does not name his father or establish the elder’s Scottish identity. The original and profile assessment are now visible under [Glasgow-3932](/people/glasgow-3932.html).
+
+
 | Source | Finding | Assessment |
 | --- | --- | --- |
 | [Dublin Courant extraction, 8 May 1750](https://eddiesextracts.com/extracts1700/dc1719_52.html) | Philip Glasco senior, eminent watchmaker of Christchurch Lane, had married the widow Mangan of County Kildare. | Directly reported contemporary event in a modern newspaper extraction; original issue still preferred. |

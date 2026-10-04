@@ -7,7 +7,7 @@ Glasgow-2871 remains a compatible candidate for the documentary John Glasgow who
 ## Source findings
 
 - The notice announces a public vendue on 2 September 1760 for creditors of deceased William Graham, including a 200-acre patent tract on the Susquehanna about two miles from Shepard's Ferry in Cecil County, Maryland; about 60 acres were cleared.
-- John Glasgow signed the notice and stated that he intended to open a store in Nottingham by 1 September, selling for ready money or short credit.
+- John Glasgow signed the notice and stated that he intended to open a store in Nottingham by the end of September, selling for ready money or short credit.
 - Source: [Pennsylvania Gazette, 14 August 1760, p.3, image 39404812](https://www.newspapers.com/image/39404812/), original inspected 4 October 2026.
 
 ## Identity and relationship assessment

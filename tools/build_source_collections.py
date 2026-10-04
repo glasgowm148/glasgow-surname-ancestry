@@ -144,10 +144,20 @@ def newspaper_card(row, clips, web):
     clip = clips.get(ident)
     media = ''
     if clip:
-        note = e(clip.get('caption_note','Saved excerpt.'))
-        media = f'<figure><a href="{clip["url"]}"><img src="{clip["url"]}" width="{clip["width"]}" height="{clip["height"]}" loading="lazy" alt="Newspaper excerpt for {e(row["date"], quote=True)}; reading and assessment follow"></a><figcaption>{note} Source reference: {e(row["paper"])} · {e(row["date"])} · p. {e(str(row.get("page", "?")))}. Open for full size; inspect the <a href="{e(row["source_url"], quote=True)}">original page</a> for context.</figcaption></figure>'
+        for excerpt in [clip] + clip.get('additional_excerpts', []):
+            note = e(excerpt.get('caption_note','Saved excerpt.'))
+            media += f'<figure><a href="{excerpt["url"]}"><img src="{excerpt["url"]}" width="{excerpt["width"]}" height="{excerpt["height"]}" loading="lazy" alt="Newspaper excerpt for {e(row["date"], quote=True)}; reading and assessment follow"></a><figcaption>{note} Source reference: {e(row["paper"])} · {e(row["date"])} · p. {e(str(row.get("page", "?")))}. Open for full size; inspect the <a href="{e(row["source_url"], quote=True)}">original page</a> for context.</figcaption></figure>'
+    missing = ''
+    if not clip:
+        if row['status'] in ('confirmed surname', 'place study'):
+            message = 'Saved excerpt pending; the inspected reading and original page are linked here.'
+        elif row['status'] == 'reading pending':
+            message = 'Unverified search lead; the original passage still needs inspection.'
+        else:
+            message = 'City or vessel reference; excluded from surname evidence.'
+        missing = f'<p class="sc-muted">{message}</p>'
     country = newspaper_country(row['paper'])
-    return f'<article class="sc-newspaper" id="newspaper-{ident}" data-year="{row["date"][:4]}" data-paper="{e(row["paper"], quote=True)}" data-country="{country}" data-clip="{int(bool(clip))}"><header><span class="sc-status">{e(row["status"])}</span><h3>{e(row["date"])} · {e(row["paper"])} · p. {e(str(row.get("page", "?")))}</h3><a href="{e(row["source_url"], quote=True)}">Original newspaper page ↗</a></header>{media}<div class="sc-newspaper-reading"><p><strong>Reading:</strong> {e(row.get("reading", ""))}</p><p><strong>Assessment:</strong> {e(row.get("assessment", ""))}</p><p>{profile_links(row, web)}</p>{"<p class=\"sc-muted\">Inline excerpt not saved; follow the original page link.</p>" if not clip else ""}</div></article>'
+    return f'<article class="sc-newspaper" id="newspaper-{ident}" data-year="{row["date"][:4]}" data-paper="{e(row["paper"], quote=True)}" data-country="{country}" data-clip="{int(bool(clip))}"><header><span class="sc-status">{e(row["status"])}</span><h3>{e(row["date"])} · {e(row["paper"])} · p. {e(str(row.get("page", "?")))}</h3><a href="{e(row["source_url"], quote=True)}">Original newspaper page ↗</a></header>{media}<div class="sc-newspaper-reading"><p><strong>Reading:</strong> {e(row.get("reading", ""))}</p><p><strong>Assessment:</strong> {e(row.get("assessment", ""))}</p><p>{profile_links(row, web)}</p>{missing}</div></article>'
 
 
 def newspaper_country(paper):
@@ -179,8 +189,8 @@ def load_clips(web):
     manifest = json.loads(manifest_path.read_text())
     result = {}
     retained = {str(r['image_id']) for r in json.loads((ROOT / 'surname-research/indexes/glasgow-newspaper-review.json').read_text())['rows'] if r['status'] in ('confirmed surname', 'place study')}
-    for item in manifest['assets']:
-        if str(item['image_id']) not in retained: raise ValueError('Clip is not an inspected retained record')
+    def approved_excerpt(item, ident):
+        if ident not in retained: raise ValueError('Clip is not an inspected retained record')
         source = ROOT / item['source_path']
         target = web / item['public_path']
         if source.exists():
@@ -188,7 +198,11 @@ def load_clips(web):
             target.parent.mkdir(parents=True, exist_ok=True)
             if not target.exists(): shutil.copyfile(source, target)
         if not target.exists() or sha256(target.read_bytes()).hexdigest() != item['sha256']: raise ValueError('Public clip does not match approval')
-        result[str(item['image_id'])] = {'url': '/' + item['public_path'], 'width': item['width'], 'height': item['height'], 'caption_note':item.get('caption_note','Saved excerpt.')}
+        return {'url': '/' + item['public_path'], 'width': item['width'], 'height': item['height'], 'caption_note':item.get('caption_note','Saved excerpt.')}
+    for item in manifest['assets']:
+        ident = str(item['image_id'])
+        result[ident] = approved_excerpt(item, ident)
+        result[ident]['additional_excerpts'] = [approved_excerpt(extra, ident) for extra in item.get('additional_excerpts', [])]
     return result
 
 
@@ -333,7 +347,7 @@ def repair(web=None):
         if people is not None: total += f' · {people:,} linked catalogue people'
         return '<header class="sc-hero"><p class="sc-eyebrow">The source library</p><h1>' + e(title) + '</h1><p>' + e(intro) + '</p>' + (f'<span class="sc-total">{total}</span>' if total else '') + '</header>'
     tiles = ''.join(f'<a class="sc-tile" href="/sources/{key}/"><span>{counts[key]:,} references</span><h2>{e(title)}</h2><p>{e(description)}</p></a>' for key,(title,description) in TYPES.items())
-    featured = '<section><h2>Start with a reviewed collection</h2><div class="sc-featured">' + ''.join(f'<a href="{url}">{label}<span>{description}</span></a>' for url,label,description in [('/sources/newspapers/?clip=1#newspaper-records','Saved newspaper clippings',f'{len(clips)} saved excerpts linked to reviewed notices, with identity limits'),('/sources/census/ireland/1851/','1851 Irish Census','Surviving fragments, local references and the records lost in 1922'),('/sources/census/ireland/1831/','1831 Irish Census','Derry householders and religious counts; not a list of every person'),('/sources/deaths/ireland/civil-1864-1900/','Irish civil deaths, 1864–1900','241 index leads, qualified matches and original-record checks'),('/sources/births/scotland/opr-to-1700/','Scottish parish registers through 1700','Reviewed births, baptisms, parents and unresolved identities')]) + '</div></section>'
+    featured = '<section><h2>Start with a reviewed collection</h2><div class="sc-featured">' + ''.join(f'<a href="{url}">{label}<span>{description}</span></a>' for url,label,description in [('/sources/newspapers/?clip=1#newspaper-records','Saved newspaper clippings',f'{len(clips)} reviewed pages with saved excerpts and identity limits'),('/sources/census/ireland/1851/','1851 Irish Census','Surviving fragments, local references and the records lost in 1922'),('/sources/census/ireland/1831/','1831 Irish Census','Derry householders and religious counts; not a list of every person'),('/sources/deaths/ireland/civil-1864-1900/','Irish civil deaths, 1864–1900','241 index leads, qualified matches and original-record checks'),('/sources/births/scotland/opr-to-1700/','Scottish parish registers through 1700','Reviewed births, baptisms, parents and unresolved identities')]) + '</div></section>'
     intro = '<p class="sc-callout">This library brings together original-record references, indexes, transcripts and family accounts. Counts describe our collected references, not unique people or complete archival holdings. Country and year groups are navigation aids; uncertain or missing dates remain visible. Each item opens its evidence, linked profiles and the recorded provider link. A profile citation is labelled as a family account.</p>'
     page('', 'Sources', hero('Sources', 'Follow the record, its people and the original source.', len(rows)) + featured + '<section><h2>Browse by record type</h2><div class="sc-type-grid">' + tiles + '</div></section>' + intro + '<p><a href="/sources/browse/">Complete reference index</a> · <a href="/records/">Records by person</a> · <a href="/research/transcriptions/">Wills & transcriptions</a></p>')
     for category, (title, description) in TYPES.items():
@@ -406,7 +420,8 @@ def repair(web=None):
         if re.fullmatch(r'/sources/[a-z-]+/[a-z-]+/[a-z0-9-]+/', obsolete):
             target = web / obsolete.lstrip('/') / 'index.html'
             if target.exists(): target.unlink(); stats['retired_pages'] += 1
-    stats['manifest'] += write(web / 'assets/sources/collection-pages.json', json.dumps({'reference_items':len(rows), 'reference_counts':dict(counts), 'inline_newspaper_excerpts':len(clips), 'pages':written}, indent=2) + '\n')
+    excerpt_count = sum(1 + len(clip.get('additional_excerpts', [])) for clip in clips.values())
+    stats['manifest'] += write(web / 'assets/sources/collection-pages.json', json.dumps({'reference_items':len(rows), 'reference_counts':dict(counts), 'inline_newspaper_excerpts':excerpt_count, 'newspaper_pages_with_excerpts':len(clips), 'pages':written}, indent=2) + '\n')
     return dict(stats)
 
 if __name__ == '__main__': print(repair())

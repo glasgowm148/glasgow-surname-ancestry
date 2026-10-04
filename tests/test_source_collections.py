@@ -4,7 +4,7 @@ import json
 from pathlib import Path
 import unittest
 from bs4 import BeautifulSoup
-from tools.build_source_collections import ROOT, WEB, TYPES, guide, newspaper_body
+from tools.build_source_collections import ROOT, WEB, TYPES, guide, newspaper_body, newspaper_card
 
 
 class SourceCollectionsTests(unittest.TestCase):
@@ -89,7 +89,8 @@ class SourceCollectionsTests(unittest.TestCase):
         self.assertIn('explicitly requested', manifest['authorization'])
         approved=set()
         supplied=json.loads((ROOT/'research/source-library/supplied-newspaper-clippings.json').read_text())
-        for clip in manifest['assets']+supplied['assets']:
+        all_clips = manifest['assets'] + supplied['assets'] + [extra for clip in manifest['assets'] for extra in clip.get('additional_excerpts', [])]
+        for clip in all_clips:
             self.assertTrue(clip['source_path'].startswith('research/source-library/newspaper-clippings/'))
             self.assertLess(clip['width'],1000)
             source=ROOT/clip['source_path'];public=WEB/clip['public_path']
@@ -101,6 +102,32 @@ class SourceCollectionsTests(unittest.TestCase):
         self.assertEqual(len(gallery.select('main figure img')),16)
         self.assertEqual(sum(not a['image_id'] for a in supplied['assets']),3)
         self.assertIn('exact image ID pending',gallery.get_text())
+
+    def test_search_logs_do_not_claim_missing_retained_excerpts(self):
+        row = dict(self.newspapers['rows'][0])
+        for status, message in [
+            ('reading pending', 'Unverified search lead'),
+            ('place or ship', 'excluded from surname evidence'),
+            ('confirmed surname', 'Saved excerpt pending'),
+        ]:
+            row['status'] = status
+            card = newspaper_card(row, {}, WEB)
+            self.assertIn(message, card)
+            if status != 'confirmed surname':
+                self.assertNotIn('Saved excerpt pending', card)
+
+    def test_all_retained_pre1800_pages_have_visible_excerpts(self):
+        soup = BeautifulSoup((WEB/'sources/newspapers/index.html').read_text(), 'html.parser')
+        early = [r for r in self.newspapers['rows'] if r['status']=='confirmed surname' and r['date'][:4].isdigit() and int(r['date'][:4])<1800]
+        self.assertTrue(early)
+        for row in early:
+            card = soup.find(id='newspaper-'+str(row['image_id']))
+            self.assertIsNotNone(card.find('img'), row['image_id'])
+            self.assertNotIn('Saved excerpt pending', card.get_text())
+        cargo = soup.find(id='newspaper-72017846')
+        self.assertEqual(len(cargo.select('figure img')), 2)
+        self.assertEqual(len({img['src'] for img in cargo.select('figure img')}), 2)
+        self.assertIn('Separate cargo advertisement', cargo.get_text())
 
     def test_parish_and_civil_collections_keep_full_tables(self):
         for kind,n in [('births',127),('marriages',55),('deaths',7)]:
