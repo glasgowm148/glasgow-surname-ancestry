@@ -5,13 +5,18 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
-No sourced conclusion recorded yet.
+John Glasgow is directly named as Benjamin-2059’s father and as a merchant in the original 15 April 1856 Cookstown marriage entry. Benjamin, age 20, is also a merchant resident in Cookstown. This confirms an already-confident father attachment; it is not a relationship upgrade. John’s approximate birth, Killycurragh association and connection through Henry remain as previously attributed. The Drapersfield mill notices do not identify John’s parents.
 
 ## Source findings
 
 | Source | Finding | Assessment |
 | --- | --- | --- |
-| _Add a URL, archive reference, or local artifact_ | _State exactly what the source establishes_ | _Direct, indirect, negative, or exclusionary evidence_ |
+| [Cookstown civil marriage return, 15 April 1856, printed p.273, entry 43](https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1856/09507/5445820.pdf) | Benjamin Glasgow, 20, bachelor merchant, Cookstown; father John Glasgow, merchant. Jane Little, full-age spinster, Oritor Craigs; father George Little, farmer. Witnesses John Potter and George Potter. | Direct inspected register, printed p.273 entry 43; father named, no grandparents. |
+| [Belfast News-Letter, 22 July 1858, p.3](https://www.newspapers.com/image/390574459/) | Robert is father of singular present plaintiff, unspecified between Benjamin and William; another William is uncle of plaintiffs. | Does not identify John or prove his parents. |
+
+## Unresolved questions — reviewed 4 October 2026
+
+Who were John’s parents? Follow his own merchant/deed/probate records. The mill case’s father and uncle belong to an unresolved family group and cannot fill John’s missing parents.
 
 ## Public profile scrape review (2026-07-22)
 

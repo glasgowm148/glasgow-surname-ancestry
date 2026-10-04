@@ -7,6 +7,8 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 No inspected record proves that William Glasgow, reportedly born about 1760, was the son of [[Glasgow-2916]] or that he married Margaret Mitchell at Cookstown. The principal surviving Derryloran and Cookstown church registers listed by PRONI begin too late to record a 1760 baptism. The chain is therefore a research hypothesis, not a sourced lineage; preserve the present attachments until positive replacement evidence is found.
 
+New evidence reviewed 4 October 2026: The 16 January 1793 Kildress reform meeting named an adult William Glasgow as delegate and subsequent chairman. This William’s reported c.1760 date and Cookstown district make him compatible with that role, but the record gives no age, precise residence, wife or father. It does not cure the existing father/spouse evidence gap.
+
 ## Source findings
 
 | Source | Finding | Assessment |
@@ -20,6 +22,11 @@ No inspected record proves that William Glasgow, reportedly born about 1760, was
 
 The public biography now records the Derryloran/Cookstown register gap and the
 unproved father and spouse links. No person or location was changed.
+| [Northern Star, 23 January 1793, p.2](https://www.newspapers.com/image/72019090/) | William Glasgow and Hugh Faulkner elected reform delegates; William subsequently took the chair at the Kildress meeting of 16 January 1793. | Direct surname occurrence; compatible profile candidate only. |
+
+## Unresolved questions — reviewed 4 October 2026
+
+Identify the delegate’s residence and signature through Kildress leases and reform correspondence; keep the father and Margaret Mitchell links at their existing uncertainty.
 
 ## Public profile scrape review (2026-07-22)
 

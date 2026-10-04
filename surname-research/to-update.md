@@ -1244,3 +1244,19 @@ Current profile links, compatible candidates and consolidated sourced HOLD draft
 | [Samuel Glasgow (Glasgow-4010)](https://www.wikitree.com/wiki/Glasgow-4010) | **REOPEN** | Same uncertain father connection and sourced explanation. Existing sibling will/deed biography already live. [Replacement draft](../research/Glasgow-4010/Glasgow-4010.md) |
 
 Fresh public captures verify Thomas-987 and Daniel-3896’s original sibling evidence already live. Their earlier completions are retained. These proposed father attachments remain uncertain and do not count as newly certain relationships.
+
+## Irish newspaper William identities — 4 October 2026
+
+Complete evidence drafts remain **HOLD** pending identity; these are documentary roles, not nine proved distinct people. The two 1858 Williams are distinguished by the record. No live edit or relationship upgrade.
+
+- [William Glasgow, master of the brig William](new-people/1792_Ireland_Belfast_shipping_captain_william.md): HOLD — identity or record assignment remains unresolved.
+- [William Glasgow, Kildress reform delegate](new-people/1793_Ireland_Kildress_kildress_william.md): HOLD — identity or record assignment remains unresolved.
+- [William Glasgow, Belfast grocer](new-people/1820_Ireland_Belfast_belfast_grocer.md): HOLD — identity or record assignment remains unresolved.
+- [William Glasgow, uncle in the Cookstown mill case](new-people/1858_Ireland_Cookstown_cookstown_uncle.md): HOLD — identity or record assignment remains unresolved.
+- [William Glasgow, co-plaintiff and Drapersfield mill partner](new-people/1858_Ireland_Cookstown_cookstown_william_partner.md): HOLD — identity or record assignment remains unresolved.
+- [Benjamin Glasgow, Drapersfield merchant](new-people/1858_Ireland_Cookstown_benjamin_drapersfield.md): HOLD — identity or record assignment remains unresolved.
+- [Robert Glasgow, Glasgow and Woods mill partner](new-people/1858_Ireland_Cookstown_robert_mill.md): HOLD — identity or record assignment remains unresolved.
+- [William Alexander Glasgow, Emma’s father](new-people/1875_Ireland_Parsonstown_william_alexander_parsonstown.md): HOLD — identity or record assignment remains unresolved.
+- [Emma Glasgow, wife of William Treacy](new-people/1875_Ireland_Parsonstown_emma_parsonstown.md): HOLD — identity or record assignment remains unresolved.
+
+Source-backed profile amendments are prepared locally, with complete captured text preserved: [Glasgow-1675](../research/william-newspaper-profile-drafts-2026-10-04/Glasgow-1675.wiki), [Glasgow-2058](../research/william-newspaper-profile-drafts-2026-10-04/Glasgow-2058.wiki), [Glasgow-2059](../research/william-newspaper-profile-drafts-2026-10-04/Glasgow-2059.wiki), [Glasgow-3814](../research/william-newspaper-profile-drafts-2026-10-04/Glasgow-3814.wiki), [Glasgow-2915](../research/william-newspaper-profile-drafts-2026-10-04/Glasgow-2915.wiki), [Glasgow-3324](../research/william-newspaper-profile-drafts-2026-10-04/Glasgow-3324.wiki). Their identity hypotheses stay qualified; no live save.

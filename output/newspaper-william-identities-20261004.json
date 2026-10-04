@@ -1,0 +1,67 @@
+{
+  "batch": "Irish William Glasgow newspaper identities, 4 October 2026",
+  "northern_ireland_loaded_result_entries": 100,
+  "northern_ireland_unique_result_pages": 98,
+  "saved_snippets_reviewed": 71,
+  "new_retained_surname_pages": 18,
+  "new_findings": 8,
+  "complete_public_hold_drafts": 9,
+  "source_preserving_profile_proposals": 6,
+  "relationship_upgrades": 0,
+  "ireland_country_loaded_entries": 134,
+  "ireland_country_review": "Incomplete; no exhaustive Irish-corpus claim.",
+  "public_catalogue_counts": {
+    "inspected_pages": 70,
+    "retained_surname_records": 30,
+    "retained_place_study_records": 1,
+    "excluded_place_or_vessel_hits": 39,
+    "pending_readings": 0
+  },
+  "ui_checks": [
+    "Desktop/mobile subject page and expanded complete draft",
+    "Desktop/mobile profile comparison, complete 1155/2509-character current/replacement copy",
+    "Cookstown study, source links and explicit unknown parents",
+    "Latest findings: eight dated 4 Oct 2026 rows",
+    "Newspaper review: count, source and qualification"
+  ],
+  "ui_viewports": [
+    1200,
+    390
+  ],
+  "mobile_document_width": 375,
+  "source_preservation_and_loader_hashes": "passed",
+  "release_totals": "passed",
+  "atlas_destinations": "passed",
+  "publication_boundary_failures": 0,
+  "asset_versions": "passed",
+  "public_archive": "/Users/m/wikitree-api-scrape/www/glasgow-site-20261004-011343.tar.gz",
+  "archive_bytes": 150336671,
+  "archive_decimal_mb": 150.336671,
+  "archive_sha256": "604e8ed664457bf7c52b273c8ff0cb7e12068f9834d70f34e197f366a220ee6d",
+  "manifest_files_verified": 79493,
+  "affected_file_hashes_verified": 20,
+  "private_source_archive": {
+    "archive": "/Users/m/wikitree-api-scrape/artifacts/newspapers-william-glasgow-20261004.zip",
+    "bytes": 7679471,
+    "sha256": "1eee523428f327bd62cb4662bc43a5f787c60b27324b2bfdf41d0ba1b2e6124a",
+    "stored_file_count": 93,
+    "counts": {
+      "screenshots": 20,
+      "search_snippets": 71,
+      "source_pdfs": 2,
+      "safe_manifest": 1
+    },
+    "verification": {
+      "zip_test": "passed",
+      "stored_file_hashes": "passed",
+      "source_manifest": "safe basename/bytes/SHA256/source_urls metadata only"
+    },
+    "source_urls_policy": "Only stable Newspapers.com /image/IDs and the two inspected public IrishGenealogy civil-register PDF URLs; no browser/auth/cookie dumps."
+  },
+  "live_wikitree_saved": false,
+  "production_deployed": false,
+  "diff_check_preserved_source_exceptions": {
+    "research/william-newspaper-profile-drafts-2026-10-04/Glasgow-2059.wiki": "Only inherited trailing spaces in exact copied source lines; source equality verified.",
+    "research/william-newspaper-profile-drafts-2026-10-04/Glasgow-3324.wiki": "Only inherited trailing spaces in exact copied source lines; source equality verified."
+  }
+}

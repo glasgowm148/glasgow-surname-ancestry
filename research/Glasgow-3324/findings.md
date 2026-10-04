@@ -37,6 +37,8 @@ catalogue descriptions are public, but the will clauses and renewal recitals
 have not been inspected online. A copy order or archive visit is required; see
 PRONI's [digitised-records inventory](https://www.proni.gov.uk/publications/digitised-and-born-digital-records-available-ecatalogue).
 
+New evidence reviewed 4 October 2026: Two inspected 1792 Northern Star advertisements name Wm. Glasgow as master of the brig William on Belfast voyages to Oporto and Bordeaux. They substantiate a real named captain corresponding to the inherited occupational suggestion, but do not prove that he was this Larne household’s William. The profile’s dated family monument and 1815 will remain the appropriate identity tests.
+
 ## Source findings
 
 | Source | Finding | Assessment |
@@ -54,6 +56,12 @@ The monument-derived household is:
 | Jane Shutter Glasgow `Glasgow-3987` | Died 21 April 1799 aged nine months; called William's daughter. | Proved daughter. |
 | Eliza Glasgow `Glasgow-3988` | Died 25 April 1839 aged 37; called daughter of William and Elizabeth. | Proved daughter; probably the derivative 1802 Elizabeth entry, pending the original register. |
 | Mary Glasgow `Glasgow-3989` | Died 18 October 1844 aged 37; called daughter of William and Elizabeth. | Proved daughter. The Mary employed as First Larne Presbyterian sexton in 1829 is a plausible but unproved identity match. |
+| [Northern Star, 28 July 1792, p.1](https://www.newspapers.com/image/72015499/) | Wm. Glasgow, master of brig William, advertised Oporto voyage from Belfast in July 1792. | Direct name and occupation; personal residence/family unstated. |
+| [Northern Star, 12 December 1792, p.1](https://www.newspapers.com/image/72017846/) | Same named master and vessel advertised Bordeaux voyage in December 1792. | Direct repeated occupational evidence, not proof of household identity. |
+
+## Unresolved questions — reviewed 4 October 2026
+
+Read the Larne will, PRONI D300/1/5/49 dated 6 December 1815, for vessel ownership or captain occupation before identifying the advertisements with this household.
 
 ## Public profile scrape review (2026-07-22)
 

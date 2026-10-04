@@ -1,0 +1,46 @@
+# William Glasgows in Irish newspapers — 4 October 2026
+
+The Cookstown mill report contains two Williams: a co-plaintiff and an uncle. The Drapersfield Benjamin was still acting in July 1870, after Benjamin-2059’s death. These accounts keep roles and compatible candidates visible without assuming that each role is a separate new person. The 1792 shipmaster, 1793 Kildress delegate and 1820 Belfast grocer remain unjoined; the 1875 Parsonstown marriage is a later family lead. All new-person drafts remain on HOLD until identity and duplicate checks resolve them.
+
+## Current conclusion
+
+The original 1856 register confirms Benjamin-2059 as John-2058’s merchant son. The Drapersfield Benjamin’s current July 1870 action follows Benjamin-2059’s February death and strongly separates them. The 1858 father clause does not name which plaintiff was Robert’s son. It cannot establish John’s parents. William-3814 is a strong retirement candidate; his uncle identity remains unproved.
+
+## Scope and limits
+
+All 100 result entries in the Northern Ireland exact-name search (98 unique pages) were loaded, with 71 saved snippets reviewed alongside 20 supplied captures and selected original viewer passages. Eighteen curated surname pages were retained; this is not a count of full pages transcribed. Repeated advertisements are not additional people or independent family evidence. The separate Ireland-country search returned 134 entries and remains incomplete; its earliest inspected hit was William Kelly of the city Glasgow. Original-source download attempts for one newspaper page returned HTTP 429; the UI remained readable. Licensed scans and raw captures stay private.
+
+## Source findings
+
+| Original issue | Passage and assessment |
+| --- | --- |
+| [1792-07-28 Northern Star p.1](https://www.newspapers.com/image/72015499/) | Wm. Glasgow, master of brig William; Oporto voyage. Actual surname-bearing master, not merely ship name William. Larne candidate unproved. |
+| [1792-12-12 Northern Star p.1](https://www.newspapers.com/image/72017846/) | Wm. Glasgow, master of brig William; Bordeaux voyage. Same vessel and named master; household still unproved. |
+| [1793-01-23 Northern Star p.2](https://www.newspapers.com/image/72019090/) | William Glasgow, Kildress delegate and subsequent chairman; meeting 16 January 1793. Candidate Glasgow-2915; no father or wife in notice. |
+| [1796-01-07 Northern Star p.3](https://www.newspapers.com/image/61256880/) | Captain Glasgow of brig William returned from Petersburg with hemp and flax. Surname is a captain’s name. William is the vessel name here; his forename is unstated. Probable continuity with named 1792 master. |
+| [1820-06-16 The Irishman p.3](https://www.newspapers.com/image/61258642/) | William Glasgow signed Belfast banks confidence notice dated 15 June 1820. Compatible with Belfast grocer; signature alone does not establish that identity. |
+| [1820-11-03 The Irishman p.1](https://www.newspapers.com/image/61259418/) | William Glasgow removed from Rosemary Street to shop and stores at 34 Smith Street, Belfast; teas, sugars and groceries; notice dated 30 October. Documented Belfast grocer; no inspected bridge to Cookstown men. |
+| [1842-12-27 Belfast News-Letter p.3](https://www.newspapers.com/image/390563307/) | William Glasgow received £5 from executors of Mrs Margaret Lynd, Cookstown, bequeathed for the Fever Hospital. No age, family or business address; remains unassigned among Cookstown Williams. |
+| [1854-01-06 Belfast News-Letter p.2](https://www.newspapers.com/image/390542069/) | Mr William Glasgow rescued a child whose clothes were burning at Cookstown, rolling it in snow. The child is unnamed and no relationship to William is stated. No age/family identification for William. |
+| [1855-04-02 Belfast News-Letter p.2](https://www.newspapers.com/image/390549257/) | William Glasgow died 21 January at Sandusky City, Ohio, age 55; formerly Killycurragh near Cookstown; ruling elder at First Cookstown before emigration. Identified as Glasgow-1675. Preserve News-Letter age 55 alongside attributed Mercury age 56; not living uncle in 1858. |
+| [1856-01-04 Belfast News-Letter p.1](https://www.newspapers.com/image/390544967/) | William Glasgow Esq., Cookstown, retired from business; presentation at Imperial Hotel, Belfast, 1 January: silver ewer and cake basket. Retired merchant Glasgow-3814 is a strong compatible candidate; kinship to 1858 partners remains unproved. |
+| [1858-07-22 Belfast News-Letter p.3](https://www.newspapers.com/image/390574459/) | Benjamin and William Glasgow v John Sloan; mill-water dispute, River Ardtrea. Earlier Glasgow and Woods firm: Robert Glasgow and James Woods. William Glasgow, uncle of plaintiffs, testified. Two distinct Williams. Robert is father of singular present plaintiff, unspecified between Benjamin and William. Does not prove parents of John-2058. |
+| [1858-07-23 Belfast News-Letter p.4](https://www.newspapers.com/image/390575046/) | Continuation of Benjamin and William Glasgow v John Sloan; Benjamin approached Sloan about levels in 1856; jury awarded 6d damages and 6d costs. Confirms same named partners; no ages or additional parental identification. |
+| [1861-08-19 Belfast News-Letter p.2](https://www.newspapers.com/image/387928206/) | Tin Tenement, Main Street, and Monrush town parks for sale at Cookstown; apply to Mr William Glasgow, Cookstown; notice dated 15 August 1861. Unassigned same-name contact. No kinship or proof that William owned the entire property. |
+| [1864-01-19 Belfast News-Letter p.2](https://www.newspapers.com/image/387805714/) | House occupied by Joseph M’Cormick, formerly residence of late Robert Glasgow; apply to Benjamin and William Glasgow, Drapersfield Mills, Cookstown; notice dated 16 January. Partners named. The former occupant Robert died before 16 January 1864, but identity with 1842 partner still requires a bridge. |
+| [1866-08-11 Belfast News-Letter p.4](https://www.newspapers.com/image/387904527/) | Cheque for £71 12s 7d drawn by Benjamin and William Glasgow in favour of John Finlay junior, mentioned in William Adair case. Business partnership confirmed; age and relatives unstated. William Adair is another person. |
+| [1869-12-22 Belfast News-Letter p.2](https://www.newspapers.com/image/388287498/) | Benjamin Glasgow Esq., Drapersfield, Cookstown, contact for Eary House and lands auction, estate of late William Magee. Contact, not explicitly executor. Matches the documented Drapersfield business context. |
+| [1870-07-15 Belfast News-Letter p.4](https://www.newspapers.com/image/387881589/) | Benjamin Glasgow Esq., of Drapersfield, granted use of a field for the 12 July Cookstown gathering. Later identity control: current action after Benjamin-2059’s February death strongly distinguishes the two Benjamins. |
+| [1875-09-04 Belfast Evening Telegraph p.2](https://www.newspapers.com/image/1265675182/) | William Treacy, second son of Robert Treacy, married Emma, daughter of late William Alexander Glasgow, 4 September, St Thomas’s Church, Belfast; both of Parsonstown. Later family lead, outside pre-1870 publication window. William groom is Treacy, not Glasgow. |
+
+## Supplied captures
+
+Three narrow crops are blank; the two coffee advertisements repeat B. Glasgow of Cookstown (no forename proved). The 1821 meeting and 1828 jury passages name James Glasgow, not William. The 1855 Glengall Street entry is Wm. Ridgeway, not Glasgow. The 1877 Magherafelt donation is later than the requested window and its original page has not been recovered. The Parsonstown crop was recovered as Belfast Evening Telegraph, 4 September 1875, p.2; William groom is Treacy and the late father is William Alexander Glasgow.
+
+## Public integration and next tests
+
+The full public person drafts are at /research/subjects/william-glasgow-irish-newspapers/. The newspaper review, Derryloran/Cookstown study, affected person findings and Latest findings are synchronized locally. All new-person drafts remain HOLD; documentary roles may be the same person unless a source distinguishes them. Main tests are the retired merchant’s will, the mill title deeds and 1842 proceedings, Larne’s 1815 will and Belfast street directories. No parents, mothers or common ancestors are invented. No production publication or WikiTree save.
+
+## Verified local release
+
+Upload archive: `glasgow-site-20261004-011343.tar.gz`, 150,336,671 bytes (150.34 decimal MB). All 79,493 files match the manifest and 20 affected file hashes match local files. Private originals: `artifacts/newspapers-william-glasgow-20261004.zip`, 7,679,471 bytes, verified. Public-safe queue specifications are saved with the six complete proposals; the local aggregate queue remains ignored. No deployment or WikiTree save.

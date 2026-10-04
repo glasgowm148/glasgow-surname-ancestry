@@ -1,15 +1,20 @@
 {
-  "reviewed_at": "2026-10-03",
+  "reviewed_at": "2026-10-04",
   "title": "Glasgow surname and research-study newspaper records",
-  "scope": "The original 40 early pages (1690–1749), plus ten inspected pages selected for Montgreenan, Lisnagaver–Rasharkin and Larne–Kilwaughter studies. Wider searches covered 1690–1900, oldest first; large searches were sampled, not exhausted. A further locality batch searched Lisnagaver/Rasharkin spelling variants, named Glasgows and neighbouring places, chiefly 1690–1900 with selected later Lisnagaver checks through 1955; 54 selected result-page passages were read. Large searches were sampled; the curated catalogue adds only the two retained Daniel notices.",
-  "conclusion": "The first early review retained James Glasgow’s 1740 shipping occurrence. Expanded study searches add nine surname pages and one separately labelled place record: Montgreenan family and estate notices, the original 1829 Lisnagaver freehold application, a Lisnagaver incident in 1861, and a Larne–Kilwaughter mill auction in 1804. A further locality search adds two appearances of Daniel Glasgow of Kilrea’s 1871 death notice: Church Street residence and an age of 73, conflicting with 75 in the civil register. No additional secure Alex/Robt occurrence at Lisnagaver was established in this bounded batch.",
+  "scope": "The original 40 early pages (1690–1749), plus ten inspected pages selected for Montgreenan, Lisnagaver–Rasharkin and Larne–Kilwaughter studies. Wider searches covered 1690–1900, oldest first; large searches were sampled, not exhausted. A further locality batch searched Lisnagaver/Rasharkin spelling variants, named Glasgows and neighbouring places, chiefly 1690–1900 with selected later Lisnagaver checks through 1955; 54 selected result-page passages were read. Large searches were sampled; the curated catalogue adds only the two retained Daniel notices. The 4 October William batch loaded all 100 Northern Ireland exact-name result entries for 1690–1869 (98 unique pages), reviewed 71 saved search snippets, the supplied captures and selected original viewer passages. Eighteen curated surname pages were retained, including two later identity/family checks. This is not a claim that every passage on all 98 pages was read. An additional Ireland-country search returned 134 entries; its earliest inspected passage was a city false match and that corpus remains incomplete.",
+  "conclusion": "The first early review retained James Glasgow’s 1740 shipping occurrence. Expanded study searches add nine surname pages and one separately labelled place record: Montgreenan family and estate notices, the original 1829 Lisnagaver freehold application, a Lisnagaver incident in 1861, and a Larne–Kilwaughter mill auction in 1804. A further locality search adds two appearances of Daniel Glasgow of Kilrea’s 1871 death notice: Church Street residence and an age of 73, conflicting with 75 in the civil register. No additional secure Alex/Robt occurrence at Lisnagaver was established in this bounded batch. The William review distinguishes the 1858 Cookstown witness uncle from co-plaintiff William, corroborates the Drapersfield partners, and strongly separates their Benjamin from Benjamin-2059 using a current July 1870 action. The original 1856 marriage confirms that Benjamin-2059 and his father John were Cookstown merchants. William-3814 is a strong candidate for the 1856 retired merchant; John’s parents remain unknown. The 1792 master, 1793 delegate and 1820 grocer are verified documentary roles with qualified household matches.",
   "limitations": [
     "Inspected catalogue pages and retained surname pages are different counts. The place-study notice is not surname evidence.",
     "The 1829 page is the original of a previously known derivative extract, not a second independent occurrence.",
     "The newspaper marriage date is 22 February 1802; the maintained OPR citation gives 23 February. The 1835 appeal heading varies between reports.",
     "Large keyword searches remain incomplete; OCR can join unrelated columns or miss a surname. No new founding-family connection or live WikiTree edit is claimed.",
     "Licensed scans and reading captures remain private; stable original image links are published.",
-    "The 1871 Belfast death notices repeat one notice and are not independent confirmations of age. One attempted source download returned HTTP 429; that passage remains unread. Nearby surname hits without an established connection were not added to the local family account."
+    "The 1871 Belfast death notices repeat one notice and are not independent confirmations of age. One attempted source download returned HTTP 429; that passage remains unread. Nearby surname hits without an established connection were not added to the local family account.",
+    "The 1858 father clause is singular and does not specify which plaintiff was Robert’s son; the two plaintiffs are not expressly called brothers.",
+    "Cookstown notices lacking age or relatives are not automatically assigned to the uncle or younger partner.",
+    "Belfast News-Letter gives the Ohio elder’s age as 55; attributed Belfast Mercury gives 56. The 1875 Parsonstown notice is outside the pre-1870 window.",
+    "The supplied 1821 meeting signature and 1828 jury occurrence are James Glasgow, not William; the coffee agent is only B. Glasgow. Blank/duplicate crops do not add events.",
+    "Ireland-country results are separately indexed from Northern Ireland. The wider 134-entry result set and alternative OCR spellings have not been exhausted."
   ],
   "rows": [
     {
@@ -790,6 +795,330 @@
         "Glasgow-3896"
       ],
       "reviewed_on": "2026-10-03"
+    },
+    {
+      "image_id": "72015499",
+      "date": "1792-07-28",
+      "paper": "Northern Star",
+      "page": "1",
+      "source_url": "https://www.newspapers.com/image/72015499/",
+      "queries": [
+        "\"William Glasgow\"",
+        "supplied screenshots and identity checks"
+      ],
+      "status": "confirmed surname",
+      "reading": "Wm. Glasgow, master of brig William; Oporto voyage.",
+      "assessment": "Actual surname-bearing master, not merely ship name William. Larne candidate unproved.",
+      "profile_ids": [
+        "Glasgow-3324"
+      ],
+      "draft_url": "/research/subjects/william-glasgow-irish-newspapers/#captain-william",
+      "reviewed_on": "2026-10-04"
+    },
+    {
+      "image_id": "72017846",
+      "date": "1792-12-12",
+      "paper": "Northern Star",
+      "page": "1",
+      "source_url": "https://www.newspapers.com/image/72017846/",
+      "queries": [
+        "\"William Glasgow\"",
+        "supplied screenshots and identity checks"
+      ],
+      "status": "confirmed surname",
+      "reading": "Wm. Glasgow, master of brig William; Bordeaux voyage.",
+      "assessment": "Same vessel and named master; household still unproved.",
+      "profile_ids": [
+        "Glasgow-3324"
+      ],
+      "draft_url": "/research/subjects/william-glasgow-irish-newspapers/#captain-william",
+      "reviewed_on": "2026-10-04"
+    },
+    {
+      "image_id": "72019090",
+      "date": "1793-01-23",
+      "paper": "Northern Star",
+      "page": "2",
+      "source_url": "https://www.newspapers.com/image/72019090/",
+      "queries": [
+        "\"William Glasgow\"",
+        "supplied screenshots and identity checks"
+      ],
+      "status": "confirmed surname",
+      "reading": "William Glasgow, Kildress delegate and subsequent chairman; meeting 16 January 1793.",
+      "assessment": "Candidate Glasgow-2915; no father or wife in notice.",
+      "profile_ids": [
+        "Glasgow-2915"
+      ],
+      "draft_url": "/research/subjects/william-glasgow-irish-newspapers/#kildress-william",
+      "reviewed_on": "2026-10-04"
+    },
+    {
+      "image_id": "61256880",
+      "date": "1796-01-07",
+      "paper": "Northern Star",
+      "page": "3",
+      "source_url": "https://www.newspapers.com/image/61256880/",
+      "queries": [
+        "\"William Glasgow\"",
+        "supplied screenshots and identity checks"
+      ],
+      "status": "confirmed surname",
+      "reading": "Captain Glasgow of brig William returned from Petersburg with hemp and flax.",
+      "assessment": "Surname is a captain’s name. William is the vessel name here; his forename is unstated. Probable continuity with named 1792 master.",
+      "profile_ids": [
+        "Glasgow-3324"
+      ],
+      "draft_url": "/research/subjects/william-glasgow-irish-newspapers/#captain-william",
+      "reviewed_on": "2026-10-04"
+    },
+    {
+      "image_id": "61258642",
+      "date": "1820-06-16",
+      "paper": "The Irishman",
+      "page": "3",
+      "source_url": "https://www.newspapers.com/image/61258642/",
+      "queries": [
+        "\"William Glasgow\"",
+        "supplied screenshots and identity checks"
+      ],
+      "status": "confirmed surname",
+      "reading": "William Glasgow signed Belfast banks confidence notice dated 15 June 1820.",
+      "assessment": "Compatible with Belfast grocer; signature alone does not establish that identity.",
+      "profile_ids": [],
+      "draft_url": "/research/subjects/william-glasgow-irish-newspapers/#belfast-grocer",
+      "reviewed_on": "2026-10-04"
+    },
+    {
+      "image_id": "61259418",
+      "date": "1820-11-03",
+      "paper": "The Irishman",
+      "page": "1",
+      "source_url": "https://www.newspapers.com/image/61259418/",
+      "queries": [
+        "\"William Glasgow\"",
+        "supplied screenshots and identity checks"
+      ],
+      "status": "confirmed surname",
+      "reading": "William Glasgow removed from Rosemary Street to shop and stores at 34 Smith Street, Belfast; teas, sugars and groceries; notice dated 30 October.",
+      "assessment": "Documented Belfast grocer; no inspected bridge to Cookstown men.",
+      "profile_ids": [],
+      "draft_url": "/research/subjects/william-glasgow-irish-newspapers/#belfast-grocer",
+      "reviewed_on": "2026-10-04"
+    },
+    {
+      "image_id": "390563307",
+      "date": "1842-12-27",
+      "paper": "Belfast News-Letter",
+      "page": "3",
+      "source_url": "https://www.newspapers.com/image/390563307/",
+      "queries": [
+        "\"William Glasgow\"",
+        "supplied screenshots and identity checks"
+      ],
+      "status": "confirmed surname",
+      "reading": "William Glasgow received £5 from executors of Mrs Margaret Lynd, Cookstown, bequeathed for the Fever Hospital.",
+      "assessment": "No age, family or business address; remains unassigned among Cookstown Williams.",
+      "profile_ids": [],
+      "draft_url": "/research/subjects/william-glasgow-irish-newspapers/#cookstown-uncle",
+      "reviewed_on": "2026-10-04"
+    },
+    {
+      "image_id": "390542069",
+      "date": "1854-01-06",
+      "paper": "Belfast News-Letter",
+      "page": "2",
+      "source_url": "https://www.newspapers.com/image/390542069/",
+      "queries": [
+        "\"William Glasgow\"",
+        "supplied screenshots and identity checks"
+      ],
+      "status": "confirmed surname",
+      "reading": "Mr William Glasgow rescued a child whose clothes were burning at Cookstown, rolling it in snow.",
+      "assessment": "The child is unnamed and no relationship to William is stated. No age/family identification for William.",
+      "profile_ids": [],
+      "draft_url": "/research/subjects/william-glasgow-irish-newspapers/#cookstown-uncle",
+      "reviewed_on": "2026-10-04"
+    },
+    {
+      "image_id": "390549257",
+      "date": "1855-04-02",
+      "paper": "Belfast News-Letter",
+      "page": "2",
+      "source_url": "https://www.newspapers.com/image/390549257/",
+      "queries": [
+        "\"William Glasgow\"",
+        "supplied screenshots and identity checks"
+      ],
+      "status": "confirmed surname",
+      "reading": "William Glasgow died 21 January at Sandusky City, Ohio, age 55; formerly Killycurragh near Cookstown; ruling elder at First Cookstown before emigration.",
+      "assessment": "Identified as Glasgow-1675. Preserve News-Letter age 55 alongside attributed Mercury age 56; not living uncle in 1858.",
+      "profile_ids": [
+        "Glasgow-1675"
+      ],
+      "draft_url": "",
+      "reviewed_on": "2026-10-04"
+    },
+    {
+      "image_id": "390544967",
+      "date": "1856-01-04",
+      "paper": "Belfast News-Letter",
+      "page": "1",
+      "source_url": "https://www.newspapers.com/image/390544967/",
+      "queries": [
+        "\"William Glasgow\"",
+        "supplied screenshots and identity checks"
+      ],
+      "status": "confirmed surname",
+      "reading": "William Glasgow Esq., Cookstown, retired from business; presentation at Imperial Hotel, Belfast, 1 January: silver ewer and cake basket.",
+      "assessment": "Retired merchant Glasgow-3814 is a strong compatible candidate; kinship to 1858 partners remains unproved.",
+      "profile_ids": [
+        "Glasgow-3814"
+      ],
+      "draft_url": "/research/subjects/william-glasgow-irish-newspapers/#cookstown-uncle",
+      "reviewed_on": "2026-10-04"
+    },
+    {
+      "image_id": "390574459",
+      "date": "1858-07-22",
+      "paper": "Belfast News-Letter",
+      "page": "3",
+      "source_url": "https://www.newspapers.com/image/390574459/",
+      "queries": [
+        "\"William Glasgow\"",
+        "supplied screenshots and identity checks"
+      ],
+      "status": "confirmed surname",
+      "reading": "Benjamin and William Glasgow v John Sloan; mill-water dispute, River Ardtrea. Earlier Glasgow and Woods firm: Robert Glasgow and James Woods. William Glasgow, uncle of plaintiffs, testified.",
+      "assessment": "Two distinct Williams. Robert is father of singular present plaintiff, unspecified between Benjamin and William. Does not prove parents of John-2058.",
+      "profile_ids": [
+        "Glasgow-3814",
+        "Glasgow-1737"
+      ],
+      "draft_url": "/research/subjects/william-glasgow-irish-newspapers/#cookstown-william-partner",
+      "reviewed_on": "2026-10-04"
+    },
+    {
+      "image_id": "390575046",
+      "date": "1858-07-23",
+      "paper": "Belfast News-Letter",
+      "page": "4",
+      "source_url": "https://www.newspapers.com/image/390575046/",
+      "queries": [
+        "\"William Glasgow\"",
+        "supplied screenshots and identity checks"
+      ],
+      "status": "confirmed surname",
+      "reading": "Continuation of Benjamin and William Glasgow v John Sloan; Benjamin approached Sloan about levels in 1856; jury awarded 6d damages and 6d costs.",
+      "assessment": "Confirms same named partners; no ages or additional parental identification.",
+      "profile_ids": [],
+      "draft_url": "/research/subjects/william-glasgow-irish-newspapers/#benjamin-drapersfield",
+      "reviewed_on": "2026-10-04"
+    },
+    {
+      "image_id": "387928206",
+      "date": "1861-08-19",
+      "paper": "Belfast News-Letter",
+      "page": "2",
+      "source_url": "https://www.newspapers.com/image/387928206/",
+      "queries": [
+        "\"William Glasgow\"",
+        "supplied screenshots and identity checks"
+      ],
+      "status": "confirmed surname",
+      "reading": "Tin Tenement, Main Street, and Monrush town parks for sale at Cookstown; apply to Mr William Glasgow, Cookstown; notice dated 15 August 1861.",
+      "assessment": "Unassigned same-name contact. No kinship or proof that William owned the entire property.",
+      "profile_ids": [],
+      "draft_url": "/research/subjects/william-glasgow-irish-newspapers/#cookstown-uncle",
+      "reviewed_on": "2026-10-04"
+    },
+    {
+      "image_id": "387805714",
+      "date": "1864-01-19",
+      "paper": "Belfast News-Letter",
+      "page": "2",
+      "source_url": "https://www.newspapers.com/image/387805714/",
+      "queries": [
+        "\"William Glasgow\"",
+        "supplied screenshots and identity checks"
+      ],
+      "status": "confirmed surname",
+      "reading": "House occupied by Joseph M’Cormick, formerly residence of late Robert Glasgow; apply to Benjamin and William Glasgow, Drapersfield Mills, Cookstown; notice dated 16 January.",
+      "assessment": "Partners named. The former occupant Robert died before 16 January 1864, but identity with 1842 partner still requires a bridge.",
+      "profile_ids": [],
+      "draft_url": "/research/subjects/william-glasgow-irish-newspapers/#cookstown-william-partner",
+      "reviewed_on": "2026-10-04"
+    },
+    {
+      "image_id": "387904527",
+      "date": "1866-08-11",
+      "paper": "Belfast News-Letter",
+      "page": "4",
+      "source_url": "https://www.newspapers.com/image/387904527/",
+      "queries": [
+        "\"William Glasgow\"",
+        "supplied screenshots and identity checks"
+      ],
+      "status": "confirmed surname",
+      "reading": "Cheque for £71 12s 7d drawn by Benjamin and William Glasgow in favour of John Finlay junior, mentioned in William Adair case.",
+      "assessment": "Business partnership confirmed; age and relatives unstated. William Adair is another person.",
+      "profile_ids": [],
+      "draft_url": "/research/subjects/william-glasgow-irish-newspapers/#cookstown-william-partner",
+      "reviewed_on": "2026-10-04"
+    },
+    {
+      "image_id": "388287498",
+      "date": "1869-12-22",
+      "paper": "Belfast News-Letter",
+      "page": "2",
+      "source_url": "https://www.newspapers.com/image/388287498/",
+      "queries": [
+        "\"William Glasgow\"",
+        "supplied screenshots and identity checks"
+      ],
+      "status": "confirmed surname",
+      "reading": "Benjamin Glasgow Esq., Drapersfield, Cookstown, contact for Eary House and lands auction, estate of late William Magee.",
+      "assessment": "Contact, not explicitly executor. Matches the documented Drapersfield business context.",
+      "profile_ids": [],
+      "draft_url": "/research/subjects/william-glasgow-irish-newspapers/#benjamin-drapersfield",
+      "reviewed_on": "2026-10-04"
+    },
+    {
+      "image_id": "387881589",
+      "date": "1870-07-15",
+      "paper": "Belfast News-Letter",
+      "page": "4",
+      "source_url": "https://www.newspapers.com/image/387881589/",
+      "queries": [
+        "\"William Glasgow\"",
+        "supplied screenshots and identity checks"
+      ],
+      "status": "confirmed surname",
+      "reading": "Benjamin Glasgow Esq., of Drapersfield, granted use of a field for the 12 July Cookstown gathering.",
+      "assessment": "Later identity control: current action after Benjamin-2059’s February death strongly distinguishes the two Benjamins.",
+      "profile_ids": [
+        "Glasgow-2059",
+        "Glasgow-2566"
+      ],
+      "draft_url": "/research/subjects/william-glasgow-irish-newspapers/#benjamin-drapersfield",
+      "reviewed_on": "2026-10-04"
+    },
+    {
+      "image_id": "1265675182",
+      "date": "1875-09-04",
+      "paper": "Belfast Evening Telegraph",
+      "page": "2",
+      "source_url": "https://www.newspapers.com/image/1265675182/",
+      "queries": [
+        "\"William Glasgow\"",
+        "supplied screenshots and identity checks"
+      ],
+      "status": "confirmed surname",
+      "reading": "William Treacy, second son of Robert Treacy, married Emma, daughter of late William Alexander Glasgow, 4 September, St Thomas’s Church, Belfast; both of Parsonstown.",
+      "assessment": "Later family lead, outside pre-1870 publication window. William groom is Treacy, not Glasgow.",
+      "profile_ids": [],
+      "draft_url": "/research/subjects/william-glasgow-irish-newspapers/#william-alexander-parsonstown",
+      "reviewed_on": "2026-10-04"
     }
   ]
 }

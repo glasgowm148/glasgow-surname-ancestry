@@ -2,24 +2,285 @@
   "id": "research-irish-derryloran",
   "kicker": "Irish locality study",
   "title": "Derryloran & Cookstown",
-  "standfirst": "The 1740 return records four Glasgow households in Derryloran; a 1766 return shows a larger local presence. Neither return says which later Cookstown family belonged to which house.",
-  "status": {"label": "Documented locality cluster", "tone": "supported"},
-  "facts": [{"value": "1740–1766", "label": "documented returns"}, {"value": "4", "label": "householders in 1740"}, {"value": "5", "label": "households in 1766"}, {"value": "3", "label": "profile leads under review"}],
+  "standfirst": "The 1740 return records four Glasgow households in Derryloran; a 1766 return shows a larger local presence. Neither return says which later Cookstown family belonged to which house. Nineteenth-century records now distinguish John’s merchant son Benjamin from the Drapersfield mill family; neither is assigned to an earlier return household.",
+  "status": {
+    "label": "Documented locality cluster",
+    "tone": "supported"
+  },
+  "facts": [
+    {
+      "value": "1740–1766",
+      "label": "documented returns"
+    },
+    {
+      "value": "4",
+      "label": "householders in 1740"
+    },
+    {
+      "value": "5",
+      "label": "households in 1766"
+    },
+    {
+      "value": "3",
+      "label": "profile leads under review"
+    }
+  ],
   "question": "Can later Cookstown profiles be matched to a specific 1740 householder?",
   "answer": "The returns firmly establish a Glasgow population in Derryloran, but they give no ages, spouses, children or relationships. The later James and William profiles remain leads within the wider Tyrone setting, not identified 1740 householders.",
   "chapters": [
-    {"id": "return-1740", "period": "1740", "title": "Four same-name householders", "body": ["The Protestant-householders return lists two James Glasgo and two William Glasgow or Glascy householders in Derryloran.", "Repeated forenames make this a useful parish cluster, but do not distinguish fathers, sons, brothers or unrelated men."], "cluster": "returns", "evidence": [{"label": "1740 Ulster religious returns", "url": "https://www.billmacafee.com/1740returns/1740religiousreturnsulstername.pdf"}]},
-    {"id": "return-1766", "period": "1766", "title": "A wider parish presence", "body": ["The Derryloran religious return lists two James Glasgo and John at Drumearn, Samuel at Gortein, and William at Killycurry.", "It records five definite households across three townlands, while leaving their identities and relationships unstated."], "cluster": "returns", "evidence": [{"label": "Derryloran religious return, IHP/1/665", "url": "https://virtualtreasury.ie/item/NAI-IHP-1-665"}]},
-    {"id": "later-leads", "period": "later eighteenth century", "title": "Later profiles remain unassigned", "body": ["James of Corvanaghan, William of a reported Cookstown family, and the Mitchell-family reconstruction are geographically or chronologically relevant leads.", "Corvanaghan is in Kildress, not Derryloran; no reviewed record maps any of these profiles to a named Derryloran return household."], "cluster": "later-leads", "evidence": [{"label": "Cookstown family account, p. 263", "url": "https://archive.org/details/bad0928.0001.001.umich.edu/page/263/mode/1up"}]}
+    {
+      "id": "return-1740",
+      "period": "1740",
+      "title": "Four same-name householders",
+      "body": [
+        "The Protestant-householders return lists two James Glasgo and two William Glasgow or Glascy householders in Derryloran.",
+        "Repeated forenames make this a useful parish cluster, but do not distinguish fathers, sons, brothers or unrelated men."
+      ],
+      "cluster": "returns",
+      "evidence": [
+        {
+          "label": "1740 Ulster religious returns",
+          "url": "https://www.billmacafee.com/1740returns/1740religiousreturnsulstername.pdf"
+        }
+      ]
+    },
+    {
+      "id": "return-1766",
+      "period": "1766",
+      "title": "A wider parish presence",
+      "body": [
+        "The Derryloran religious return lists two James Glasgo and John at Drumearn, Samuel at Gortein, and William at Killycurry.",
+        "It records five definite households across three townlands, while leaving their identities and relationships unstated."
+      ],
+      "cluster": "returns",
+      "evidence": [
+        {
+          "label": "Derryloran religious return, IHP/1/665",
+          "url": "https://virtualtreasury.ie/item/NAI-IHP-1-665"
+        }
+      ]
+    },
+    {
+      "id": "later-leads",
+      "period": "later eighteenth century",
+      "title": "Later profiles remain unassigned",
+      "body": [
+        "James of Corvanaghan, William of a reported Cookstown family, and the Mitchell-family reconstruction are geographically or chronologically relevant leads.",
+        "Corvanaghan is in Kildress, not Derryloran; no reviewed record maps any of these profiles to a named Derryloran return household."
+      ],
+      "cluster": "later-leads",
+      "evidence": [
+        {
+          "label": "Cookstown family account, p. 263",
+          "url": "https://archive.org/details/bad0928.0001.001.umich.edu/page/263/mode/1up"
+        }
+      ]
+    },
+    {
+      "id": "kildress-1793",
+      "period": "1793",
+      "title": "A neighbouring Kildress delegate",
+      "body": [
+        "The original Northern Star report names William Glasgow as a reform delegate at the 16 January Kildress meeting and as its subsequent chairman. William-2915 is old enough and geographically compatible, but the notice names no parents or wife.",
+        "Kildress is a neighbouring parish; this occurrence does not identify a Derryloran return householder."
+      ],
+      "cluster": "later-leads",
+      "evidence": [
+        {
+          "label": "Northern Star, 23 January 1793, p.2",
+          "url": "https://www.newspapers.com/image/72019090/"
+        },
+        {
+          "label": "William’s evidence and candidate comparison",
+          "url": "/research/subjects/william-glasgow-irish-newspapers/#kildress-william"
+        }
+      ]
+    },
+    {
+      "id": "merchant-families",
+      "period": "1855–1870",
+      "title": "John’s Benjamin and the Drapersfield partners",
+      "body": [
+        "Benjamin-2059’s original 1856 marriage records him as a 20-year-old merchant of Cookstown and his father John as a merchant. This supports the existing father attachment; it does not identify John’s parents or specifically give Killycurragh as Benjamin’s residence.",
+        "The 1858 mill case names partners Benjamin and William, another William as their uncle, and the earlier Robert Glasgow and James Woods firm. Robert is father of the singular present plaintiff, without specifying which. A shared uncle does not by itself prove that the partners were brothers.",
+        "Benjamin Glasgow of Drapersfield granted land for the July 1870 gathering, after Benjamin-2059’s recorded February death. That current action strongly distinguishes the mill merchant from John’s son. William-3814, a retired bachelor merchant at Loy in 1883, is a strong candidate for the 1856 retirement notice and a possible uncle; the family link still needs a will or deed.",
+        "William-1675’s Ohio death notice gives age 55 rather than the attributed Mercury age 56. His 1855 death excludes him as the living 1858 uncle."
+      ],
+      "cluster": "merchant-families",
+      "evidence": [
+        {
+          "label": "Cookstown civil marriage return, 15 April 1856, printed p.273, entry 43",
+          "url": "https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1856/09507/5445820.pdf"
+        },
+        {
+          "label": "Belfast News-Letter, 22 July 1858, p.3",
+          "url": "https://www.newspapers.com/image/390574459/"
+        },
+        {
+          "label": "Belfast News-Letter, 15 July 1870, p.4",
+          "url": "https://www.newspapers.com/image/387881589/"
+        },
+        {
+          "label": "Cookstown civil death return, 4 July 1883, printed p.300, entry 244",
+          "url": "https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1883/06356/4823575.pdf"
+        },
+        {
+          "label": "Belfast News-Letter, 2 April 1855, p.2",
+          "url": "https://www.newspapers.com/image/390549257/"
+        },
+        {
+          "label": "Named people, complete drafts and identity tests",
+          "url": "/research/subjects/william-glasgow-irish-newspapers/"
+        }
+      ]
+    }
   ],
   "clusters": [
-    {"id": "returns", "title": "Derryloran return households", "place": "Derryloran parish, County Tyrone", "period": "1740 and 1766", "status": "proved", "status_label": "Documented local households", "summary": "The two returns establish repeated Glasgow household occurrences in the parish.", "boundary": "They name neither relationships nor a link to later profiles.", "people": []},
-    {"id": "later-leads", "title": "Cookstown and Kildress profile leads", "place": "County Tyrone", "period": "about 1720–1766", "status": "unresolved", "status_label": "Identity leads", "summary": "Three maintained profiles represent possible members of the wider Tyrone population.", "boundary": "No source identifies them with any 1740 Derryloran householder; Kildress must remain separate.", "people": ["glasgow-2988", "glasgow-2915", "glasgow-1970"]}
+    {
+      "id": "returns",
+      "title": "Derryloran return households",
+      "place": "Derryloran parish, County Tyrone",
+      "period": "1740 and 1766",
+      "status": "proved",
+      "status_label": "Documented local households",
+      "summary": "The two returns establish repeated Glasgow household occurrences in the parish.",
+      "boundary": "They name neither relationships nor a link to later profiles.",
+      "people": []
+    },
+    {
+      "id": "later-leads",
+      "title": "Cookstown and Kildress profile leads",
+      "place": "County Tyrone",
+      "period": "about 1720–1766",
+      "status": "unresolved",
+      "status_label": "Identity leads",
+      "summary": "Three maintained profiles represent possible members of the wider Tyrone population.",
+      "boundary": "No source identifies them with any 1740 Derryloran householder; Kildress must remain separate.",
+      "people": [
+        "glasgow-2988",
+        "glasgow-2915",
+        "glasgow-1970"
+      ]
+    },
+    {
+      "id": "merchant-families",
+      "title": "Cookstown merchant and mill families",
+      "place": "Cookstown, Drapersfield and Loy, County Tyrone",
+      "period": "1842–1883",
+      "status": "unresolved",
+      "status_label": "Documented roles; family assignments under review",
+      "summary": "The original records distinguish two Williams in the mill case and strongly separate the living Drapersfield Benjamin from Benjamin-2059.",
+      "boundary": "No inspected record identifies John-2058’s parents or assigns a later merchant to a 1740 household.",
+      "people": [
+        "glasgow-2058",
+        "glasgow-2059",
+        "glasgow-3814",
+        "glasgow-1675"
+      ]
+    }
   ],
-  "links": [{"from": "returns", "to": "later-leads", "status": "unresolved", "label": "No record assigns a later profile to a return household"}],
-  "ladder": {"proved": ["Four Derryloran Glasgow households occur in 1740.", "Five Glasgow households occur in the 1766 Derryloran return."], "supported": ["The returns define a substantial local population worth following through later records."], "hypothesis": ["Later Cookstown reconstructions may belong to this wider Tyrone setting."], "unresolved": ["Which named person, if any, was each 1740 or 1766 householder?"]},
-  "gaps": [{"title": "Follow each return householder", "why": "A lease, church, tax, probate or estate record could add relatives or continuity.", "where": "Derryloran and Cookstown repositories", "url": "https://www.proni.gov.uk/publications/proni-guide-church-records", "priority": "high"}, {"title": "Inspect Cookstown family notes", "why": "They may test the reported Mitchell wife and son John.", "where": "PRONI D1413/3a-b", "url": "https://apps.proni.gov.uk/ProniNames_IE/SearchPage.aspx", "priority": "high"}, {"title": "Keep Kildress distinct", "why": "It prevents Corvanaghan from being silently treated as Derryloran evidence.", "where": "IHP/1/667", "url": "https://virtualtreasury.ie/item/NAI-IHP-1-667", "priority": "medium"}],
-  "timeline": [{"year": 1740, "label": "Two James and two William households in Derryloran", "status": "proved", "cluster": "returns", "url": "https://www.billmacafee.com/1740returns/1740religiousreturnsulstername.pdf"}, {"year": 1759, "label": "Will-index entry for James of Drumearn", "status": "unresolved", "cluster": "later-leads", "url": "https://apps.proni.gov.uk/ProniNames_IE/SearchPage.aspx"}, {"year": 1766, "label": "Five Glasgow households in the Derryloran return", "status": "proved", "cluster": "returns", "url": "https://virtualtreasury.ie/item/NAI-IHP-1-665"}, {"year": 1794, "label": "Will-index lead for James of Drummond", "status": "hypothesis", "cluster": "later-leads", "url": "https://apps.proni.gov.uk/ProniNames_IE/SearchPage.aspx"}],
-  "related": [{"label": "Moneymore study", "url": "/branches/research-irish-moneymore/"}, {"label": "Early Ireland overview", "url": "https://www.wikitree.com/wiki/Space:Glasgow_Branches_in_Early_Ireland"}],
-  "sources_note": "Public-safe working notes: research/Glasgow-2988/findings.md, research/Glasgow-2915/findings.md and research/Glasgow-1970/findings.md."
+  "links": [
+    {
+      "from": "returns",
+      "to": "later-leads",
+      "status": "unresolved",
+      "label": "No record assigns a later profile to a return household"
+    }
+  ],
+  "ladder": {
+    "proved": [
+      "Four Derryloran Glasgow households occur in 1740.",
+      "Five Glasgow households occur in the 1766 Derryloran return.",
+      "Benjamin-2059’s 1856 marriage names his father John; both are merchants.",
+      "The 1858 mill case contains a co-plaintiff William and a distinct witness uncle William."
+    ],
+    "supported": [
+      "The returns define a substantial local population worth following through later records.",
+      "The July 1870 Drapersfield Benjamin is strongly distinguished from Benjamin-2059, who died in February.",
+      "William-3814 is a strong compatible candidate for the 1856 retired merchant."
+    ],
+    "hypothesis": [
+      "Later Cookstown reconstructions may belong to this wider Tyrone setting."
+    ],
+    "unresolved": [
+      "Which named person, if any, was each 1740 or 1766 householder?",
+      "Which plaintiff was Robert Glasgow’s son, and who was their uncle William?",
+      "Who were John-2058’s parents? The mill notice does not answer this."
+    ]
+  },
+  "gaps": [
+    {
+      "title": "Follow each return householder",
+      "why": "A lease, church, tax, probate or estate record could add relatives or continuity.",
+      "where": "Derryloran and Cookstown repositories",
+      "url": "https://www.proni.gov.uk/publications/proni-guide-church-records",
+      "priority": "high"
+    },
+    {
+      "title": "Inspect Cookstown family notes",
+      "why": "They may test the reported Mitchell wife and son John.",
+      "where": "PRONI D1413/3a-b",
+      "url": "https://apps.proni.gov.uk/ProniNames_IE/SearchPage.aspx",
+      "priority": "high"
+    },
+    {
+      "title": "Keep Kildress distinct",
+      "why": "It prevents Corvanaghan from being silently treated as Derryloran evidence.",
+      "where": "IHP/1/667",
+      "url": "https://virtualtreasury.ie/item/NAI-IHP-1-667",
+      "priority": "medium"
+    },
+    {
+      "title": "Identify the Drapersfield family",
+      "why": "Mill deeds, 1842 proceedings or a retired merchant’s will could identify the two Williams and name the partner who was Robert’s son.",
+      "where": "Cookstown deeds/probate; William-3814’s 1883 estate",
+      "url": "https://apps.proni.gov.uk/ProniNames_IE/SearchPage.aspx",
+      "priority": "high"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1740,
+      "label": "Two James and two William households in Derryloran",
+      "status": "proved",
+      "cluster": "returns",
+      "url": "https://www.billmacafee.com/1740returns/1740religiousreturnsulstername.pdf"
+    },
+    {
+      "year": 1759,
+      "label": "Will-index entry for James of Drumearn",
+      "status": "unresolved",
+      "cluster": "later-leads",
+      "url": "https://apps.proni.gov.uk/ProniNames_IE/SearchPage.aspx"
+    },
+    {
+      "year": 1766,
+      "label": "Five Glasgow households in the Derryloran return",
+      "status": "proved",
+      "cluster": "returns",
+      "url": "https://virtualtreasury.ie/item/NAI-IHP-1-665"
+    },
+    {
+      "year": 1794,
+      "label": "Will-index lead for James of Drummond",
+      "status": "hypothesis",
+      "cluster": "later-leads",
+      "url": "https://apps.proni.gov.uk/ProniNames_IE/SearchPage.aspx"
+    }
+  ],
+  "related": [
+    {
+      "label": "Moneymore study",
+      "url": "/branches/research-irish-moneymore/"
+    },
+    {
+      "label": "Early Ireland overview",
+      "url": "https://www.wikitree.com/wiki/Space:Glasgow_Branches_in_Early_Ireland"
+    },
+    {
+      "label": "William Glasgow newspaper people and drafts",
+      "url": "/research/subjects/william-glasgow-irish-newspapers/"
+    }
+  ],
+  "sources_note": "Public-safe working notes: research/Glasgow-2988/findings.md, research/Glasgow-2915/findings.md and research/Glasgow-1970/findings.md. Current newspaper batch: research/william-glasgow-irish-newspapers-2026-10-04.md; original image and civil-register citations appear with each conclusion."
 }

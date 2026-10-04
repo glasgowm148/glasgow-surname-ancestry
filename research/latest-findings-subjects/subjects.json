@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "reviewed_on": "2026-10-02",
+  "reviewed_on": "2026-10-04",
   "groups": [
     {
       "slug": "rathmalton-1673",
@@ -6868,6 +6868,403 @@
               "assessment": "HOLD — one documentary occurrence, four compatible Irvine candidates. The original confirms the surname reading; it does not select a profile. No family relationship or profile occupation is changed."
             }
           ]
+        }
+      ]
+    },
+    {
+      "slug": "william-glasgow-irish-newspapers",
+      "title": "William Glasgows in Irish newspapers: the people and their records",
+      "introduction": "The Cookstown mill report contains two Williams: a co-plaintiff and an uncle. The Drapersfield Benjamin was still acting in July 1870, after Benjamin-2059’s death. These accounts keep roles and compatible candidates visible without assuming that each role is a separate new person. The 1792 shipmaster, 1793 Kildress delegate and 1820 Belfast grocer remain unjoined; the 1875 Parsonstown marriage is a later family lead. All new-person drafts remain on HOLD until identity and duplicate checks resolve them.",
+      "people": [
+        {
+          "anchor": "captain-william",
+          "name": "William Glasgow, master of the brig William",
+          "status": "HOLD — identity or record assignment remains unresolved",
+          "identity_note": "The possible identity with William Glasgow of Larne (Glasgow-3324) remains on HOLD. The inspected advertisements fit the occupational suggestion already attached to that profile, but do not state family or personal residence.",
+          "minimum_fields": "William Glasgow; male; adult shipmaster in 1792. Exact birth/death dates and personal residence unknown. Leave birth/death locations blank: the voyage ports and ship name do not establish them.",
+          "facts": [
+            {
+              "finding_id": "william-captain-1792",
+              "finding": "Advertisements name Wm. Glasgow as master of the brig William, sailing from Belfast to Oporto and Bordeaux in 1792.",
+              "qualification": "",
+              "sources": [
+                {
+                  "title": "Northern Star, 28 July 1792, p.1",
+                  "url": "https://www.newspapers.com/image/72015499/"
+                },
+                {
+                  "title": "Northern Star, 12 December 1792, p.1",
+                  "url": "https://www.newspapers.com/image/72017846/"
+                }
+              ]
+            },
+            {
+              "finding_id": "captain-glasgow-1796",
+              "finding": "A January 1796 hemp and flax advertisement names Captain Glasgow of the brig William returning from Petersburg. Forename is not stated in this later advertisement; continuity with the 1792 master is probable, not proved.",
+              "qualification": "Forename is not stated in this later advertisement; continuity with the 1792 master is probable, not proved.",
+              "sources": [
+                {
+                  "title": "Northern Star, 7 January 1796, p.3",
+                  "url": "https://www.newspapers.com/image/61256880/"
+                }
+              ]
+            }
+          ],
+          "candidates": [
+            {
+              "id": "Glasgow-3324",
+              "reason": "Larne William (c.1763–1816) has an inherited suggestion that he captained the William. Age and coastal locality fit the inspected 1792 advertisements. Neither advertisement names his wife or Larne residence."
+            }
+          ],
+          "duplicate_check": [
+            "Checked the full captured Larne biography and its inherited captain suggestion. The new advertisements substantiate a real named captain, but do not prove his household identity.",
+            "William-1505 died in 1783 and cannot be the 1792 master.",
+            "The captain and 1793 Kildress delegate are documentary roles, not proved separate people; do not create duplicates from these drafts."
+          ],
+          "next_test": "Inspect the Larne will dated 6 December 1815, PRONI D300/1/5/49, for ship interests or an occupation.",
+          "wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nWilliam Glasgow was master of the brig ''William'' in 1792. Notices advertised voyages from Belfast to Oporto and Bordeaux.<ref>[https://www.newspapers.com/image/72015499/ Northern Star, 28 July 1792, p.1].</ref><ref>[https://www.newspapers.com/image/72017846/ Northern Star, 12 December 1792, p.1].</ref> A 1796 notice for the same vessel names Captain Glasgow, whose forename is unstated.<ref>[https://www.newspapers.com/image/61256880/ Northern Star, 7 January 1796, p.3].</ref>\n\n== Research Notes ==\nThe possible identity with [[Glasgow-3324|William Glasgow of Larne]] remains on HOLD. The inspected advertisements fit the occupational suggestion already attached to that profile, but do not state family or personal residence.\n\n== Sources ==\n<references />"
+        },
+        {
+          "anchor": "kildress-william",
+          "name": "William Glasgow, Kildress reform delegate",
+          "status": "HOLD — identity or record assignment remains unresolved",
+          "identity_note": "William Glasgow (Glasgow-2915) is a compatible candidate by period and district. The notice does not establish that profile’s father, wife or birthplace.",
+          "minimum_fields": "William Glasgow; adult in January 1793; dates unknown. Kildress, County Tyrone is an uncertain birth-location suggestion from this local meeting, not a recorded birthplace. No family named.",
+          "facts": [
+            {
+              "finding_id": "william-kildress-1793",
+              "finding": "At Kildress church on 16 January 1793, the meeting appointed Hugh Faulkner and William Glasgow as delegates to the Dungannon parliamentary-reform meeting. William subsequently took the chair and signed its thanks resolution.",
+              "qualification": "",
+              "sources": [
+                {
+                  "title": "Northern Star, 23 January 1793, p.2",
+                  "url": "https://www.newspapers.com/image/72019090/"
+                }
+              ]
+            }
+          ],
+          "candidates": [
+            {
+              "id": "Glasgow-2915",
+              "reason": "Reported c.1760 Cookstown William is old enough and geographically compatible. The notice gives no spouse, father or precise residence, so this is a candidate rather than an identification."
+            }
+          ],
+          "duplicate_check": [
+            "Checked the captured Cookstown William biography and its unproved father/spouse links.",
+            "William-585 (born about 1804) cannot be the adult delegate in 1793.",
+            "The delegate could also be another William, including the shipmaster; no source joins or separates those roles."
+          ],
+          "next_test": "Look for delegate correspondence, Kildress leases and signatures that identify his residence or family.",
+          "wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nWilliam Glasgow attended the Kildress church meeting on 16 January 1793. He and Hugh Faulkner were appointed delegates to the Dungannon meeting on parliamentary reform. When David Richardson left the chair, William took it and signed the meeting’s thanks resolution.<ref>[https://www.newspapers.com/image/72019090/ Northern Star, 23 January 1793, p.2].</ref>\n\n== Research Notes ==\n[[Glasgow-2915|William Glasgow]] is a compatible candidate by period and district. The notice does not establish that profile’s father, wife or birthplace.\n\n== Sources ==\n<references />"
+        },
+        {
+          "anchor": "belfast-grocer",
+          "name": "William Glasgow, Belfast grocer",
+          "status": "HOLD — identity or record assignment remains unresolved",
+          "identity_note": "No specific household match has been established. The Belfast shopkeeper must not be merged with the Cookstown merchants solely because they share name and trade.",
+          "minimum_fields": "William Glasgow; male; adult grocer at Belfast in 1820. Dates unknown. Belfast is an uncertain birth-location suggestion based on his documented shop, not a stated birthplace. Shop and stores: 34 Smith Street after moving from Rosemary Street.",
+          "facts": [
+            {
+              "finding_id": "william-belfast-grocer-1820",
+              "finding": "William Glasgow advertised his removal from Rosemary Street to shop and stores at 34 Smith Street, Belfast, offering teas, sugars and groceries; the notice was dated 30 October 1820.",
+              "qualification": "",
+              "sources": [
+                {
+                  "title": "The Irishman, 3 November 1820, p.1",
+                  "url": "https://www.newspapers.com/image/61259418/"
+                }
+              ]
+            },
+            {
+              "finding_id": "william-bank-signatory-1820",
+              "finding": "William Glasgow appears among signatories to the Belfast banks confidence notice dated 15 June 1820. The banks signature is compatible with the grocer but does not itself name an occupation or address.",
+              "qualification": "The banks signature is compatible with the grocer but does not itself name an occupation or address.",
+              "sources": [
+                {
+                  "title": "The Irishman, 16 June 1820, p.3",
+                  "url": "https://www.newspapers.com/image/61258642/"
+                }
+              ]
+            }
+          ],
+          "candidates": [],
+          "duplicate_check": [
+            "Searched locally known public historical Glasgow profiles, including William name, Belfast residence and merchant/grocer/captain text. No specific matching household was established.",
+            "Belfast Williams born in 1810 or 1827 do not fit an adult shopkeeper in 1820 on their recorded chronology.",
+            "Larne William-3324 died in 1816 and cannot be this grocer. Missing profile fields alone were not treated as exclusions.",
+            "The grocer might be a later Cookstown merchant, but no inspected record bridges those addresses."
+          ],
+          "next_test": "Follow Belfast directories and Rosemary Street/Smith Street leases for a family or later address.",
+          "wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nWilliam Glasgow traded as a grocer in Belfast. A notice dated 30 October 1820 announced his move from Rosemary Street to shop and stores at 34 Smith Street, with teas, sugars and other groceries for sale.<ref>[https://www.newspapers.com/image/61259418/ The Irishman, 3 November 1820, p.1].</ref> A Belfast banks notice also lists a William Glasgow among its June 1820 signatories; the signature does not independently identify the grocer.<ref>[https://www.newspapers.com/image/61258642/ The Irishman, 16 June 1820, p.3].</ref>\n\n== Research Notes ==\nNo specific household match has been established. The Belfast shopkeeper must not be merged with the Cookstown merchants solely because they share name and trade.\n\n== Sources ==\n<references />"
+        },
+        {
+          "anchor": "cookstown-uncle",
+          "name": "William Glasgow, uncle in the Cookstown mill case",
+          "status": "HOLD — identity or record assignment remains unresolved",
+          "identity_note": "William Glasgow, retired merchant at Loy (Glasgow-3814) is a strong compatible candidate for the retirement report and a possible identity for the uncle. William Glasgow of Montober (Glasgow-585) remains another uncle candidate. No father, mother, spouse or brother should be attached from these notices alone.",
+          "minimum_fields": "William Glasgow; adult witness in 1858; exact dates unknown. Cookstown is an uncertain birth-location suggestion from his family/business context. Uncle of the two plaintiffs; no parents or spouse named.",
+          "facts": [
+            {
+              "finding_id": "cookstown-uncle-1858",
+              "finding": "The 1858 mill case names William Glasgow as uncle of the plaintiffs Benjamin and William Glasgow. The witness uncle and the co-plaintiff William therefore represent two Williams.",
+              "qualification": "",
+              "sources": [
+                {
+                  "title": "Belfast News-Letter, 22 July 1858, p.3",
+                  "url": "https://www.newspapers.com/image/390574459/"
+                }
+              ]
+            },
+            {
+              "finding_id": "cookstown-retirement-1856",
+              "finding": "William Glasgow of Cookstown retired from business and received a silver ewer and cake basket at the Imperial Hotel, Belfast, on 1 January 1856. This merchant could be the later uncle; the retirement report does not state the nephews or an age.",
+              "qualification": "This merchant could be the later uncle; the retirement report does not state the nephews or an age.",
+              "sources": [
+                {
+                  "title": "Belfast News-Letter, 4 January 1856, p.1",
+                  "url": "https://www.newspapers.com/image/390544967/"
+                }
+              ]
+            }
+          ],
+          "candidates": [
+            {
+              "id": "Glasgow-3814",
+              "reason": "Inspected 1883 death entry identifies a bachelor aged 87, retired merchant, at Loy, Cookstown. Occupation, locality and chronology make him a strong retirement candidate and a compatible uncle candidate; no kinship bridge yet."
+            },
+            {
+              "id": "Glasgow-585",
+              "reason": "Montober William (c.1804–1898) is old enough for the uncle role. His farmer household is known, but there is no inspected mill or merchant connection; no concrete kinship conflict has been established."
+            }
+          ],
+          "duplicate_check": [
+            "William-1675 died in Ohio in 1855 and cannot be the living 1858 witness or 1856 recipient.",
+            "William-1969’s captured biography places him at Auburn and then Michigan from 1842; it does not fit a continuing Cookstown merchant life.",
+            "An uncle shared by two plaintiffs does not prove that the plaintiffs were brothers or had the same father.",
+            "1842 hospital, 1854 rescue and 1861 sale notices do not state an age or family. They remain unassigned between same-name Cookstown men rather than being forced into this biography."
+          ],
+          "next_test": "Locate the will or probate of William-3814 and mill/title deeds naming Benjamin, William or Robert.",
+          "wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nWilliam Glasgow gave evidence in the Cookstown mill dispute of Benjamin and William Glasgow against John Sloan in July 1858. He was described as uncle of the plaintiffs, distinguishing him from his same-name nephew who was a plaintiff.<ref>[https://www.newspapers.com/image/390574459/ Belfast News-Letter, 22 July 1858, p.3].</ref> A Cookstown merchant named William Glasgow had retired on 1 January 1856 and was presented with a silver ewer and cake basket by commercial friends in Belfast; his identity with the witness remains unproved.<ref>[https://www.newspapers.com/image/390544967/ Belfast News-Letter, 4 January 1856, p.1].</ref>\n\n== Research Notes ==\n[[Glasgow-3814|William Glasgow, retired merchant at Loy]] is a strong compatible candidate for the retirement report and a possible identity for the uncle. [[Glasgow-585|William Glasgow of Montober]] remains another uncle candidate. No father, mother, spouse or brother should be attached from these notices alone.\n\n== Sources ==\n<references />"
+        },
+        {
+          "anchor": "cookstown-william-partner",
+          "name": "William Glasgow, co-plaintiff and Drapersfield mill partner",
+          "status": "HOLD — identity or record assignment remains unresolved",
+          "identity_note": "The two partners shared an uncle, but the report does not expressly say that they were brothers. William Glasgow of Killycurragh (Glasgow-1737) is chronologically compatible; its David father attachment is a comparison to test, not a reason to assign the newspaper’s ambiguous Robert clause.",
+          "minimum_fields": "William Glasgow; adult mill partner in 1858; dates unknown. Cookstown/Drapersfield is an uncertain birth-location suggestion from his business, not a stated birthplace. Uncle William named; relationship to business partner Benjamin beyond their shared uncle unstated.",
+          "facts": [
+            {
+              "finding_id": "drapersfield-william-1858",
+              "finding": "Benjamin and William Glasgow were co-plaintiffs in the River Ardtrea mill-water dispute against John Sloan; another William was their uncle.",
+              "qualification": "",
+              "sources": [
+                {
+                  "title": "Belfast News-Letter, 22 July 1858, p.3",
+                  "url": "https://www.newspapers.com/image/390574459/"
+                },
+                {
+                  "title": "Belfast News-Letter, 23 July 1858, p.4",
+                  "url": "https://www.newspapers.com/image/390575046/"
+                }
+              ]
+            },
+            {
+              "finding_id": "drapersfield-letting-1864",
+              "finding": "Benjamin and William Glasgow, Drapersfield Mills, Cookstown, advertised premises occupied by Joseph M’Cormick and formerly the residence of the late Robert Glasgow. The advertisement was dated 16 January 1864.",
+              "qualification": "",
+              "sources": [
+                {
+                  "title": "Belfast News-Letter, 19 January 1864, p.2",
+                  "url": "https://www.newspapers.com/image/387805714/"
+                }
+              ]
+            },
+            {
+              "finding_id": "drapersfield-cheque-1866",
+              "finding": "A court report describes a cheque for £71 12s 7d drawn by Benjamin and William Glasgow in favour of John Finlay junior.",
+              "qualification": "",
+              "sources": [
+                {
+                  "title": "Belfast News-Letter, 11 August 1866, p.4",
+                  "url": "https://www.newspapers.com/image/387904527/"
+                }
+              ]
+            }
+          ],
+          "candidates": [
+            {
+              "id": "Glasgow-1737",
+              "reason": "William born about 1824 at Killycurragh is adult by 1858. His captured father is David; this would conflict only if the report’s unspecified Robert father refers to William. It must not be used to exclude him before that ambiguity is resolved."
+            }
+          ],
+          "duplicate_check": [
+            "Checked captured William-1737, William-585, William-3814 and William-1969 biographies for dates, family and occupation. No confirmed business partner identity found.",
+            "The uncle is a separately named witness; do not merge the two Williams.",
+            "The 1858 report calls Robert father of the singular present plaintiff without naming which plaintiff; no paternal link is assigned to this William."
+          ],
+          "next_test": "Find a marriage, death or mill deed naming this William’s father and his relationship to Benjamin.",
+          "wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nWilliam Glasgow and Benjamin Glasgow operated a mill near Cookstown and brought a watercourse action against John Sloan in 1858. A second William Glasgow testified as their uncle.<ref>[https://www.newspapers.com/image/390574459/ Belfast News-Letter, 22 July 1858, p.3].</ref><ref>[https://www.newspapers.com/image/390575046/ Belfast News-Letter, 23 July 1858, p.4].</ref> In January 1864 Benjamin and William Glasgow of Drapersfield Mills offered premises formerly occupied by the late Robert Glasgow. A 1866 court report mentions a cheque drawn by the partners.<ref>[https://www.newspapers.com/image/387805714/ Belfast News-Letter, 19 January 1864, p.2].</ref><ref>[https://www.newspapers.com/image/387904527/ Belfast News-Letter, 11 August 1866, p.4].</ref>\n\n== Research Notes ==\nThe two partners shared an uncle, but the report does not expressly say that they were brothers. [[Glasgow-1737|William Glasgow of Killycurragh]] is chronologically compatible; its David father attachment is a comparison to test, not a reason to assign the newspaper’s ambiguous Robert clause.\n\n== Sources ==\n<references />"
+        },
+        {
+          "anchor": "benjamin-drapersfield",
+          "name": "Benjamin Glasgow, Drapersfield merchant",
+          "status": "HOLD — identity or record assignment remains unresolved",
+          "identity_note": "He is strongly distinguished from Benjamin Glasgow, son of John (Glasgow-2059), whose recorded death was 8 February 1870. The July report describes a current action, not a repeated advertisement. Benjamin Glasgow, son of George (Glasgow-2566) remains a compatible candidate with no documented mill bridge. The 1858 father clause is ambiguous between the plaintiffs.",
+          "minimum_fields": "Benjamin Glasgow; adult mill partner in 1858; living in July 1870. Exact birth/death dates unknown. Cookstown/Drapersfield is an uncertain birth-location suggestion from documented business/residence. Uncle William named; father clause unresolved.",
+          "facts": [
+            {
+              "finding_id": "benjamin-mill-1858",
+              "finding": "Benjamin Glasgow and William Glasgow were mill partners and plaintiffs in the 1858 watercourse action. Benjamin had approached John Sloan about weir levels in 1856.",
+              "qualification": "",
+              "sources": [
+                {
+                  "title": "Belfast News-Letter, 22 July 1858, p.3",
+                  "url": "https://www.newspapers.com/image/390574459/"
+                },
+                {
+                  "title": "Belfast News-Letter, 23 July 1858, p.4",
+                  "url": "https://www.newspapers.com/image/390575046/"
+                }
+              ]
+            },
+            {
+              "finding_id": "benjamin-eary-1869",
+              "finding": "Benjamin Glasgow, Esq., Drapersfield, Cookstown, was a contact for the auction of Eary House and lands from the estate of the late William Magee. The advertisement does not explicitly call Benjamin an executor.",
+              "qualification": "The advertisement does not explicitly call Benjamin an executor.",
+              "sources": [
+                {
+                  "title": "Belfast News-Letter, 22 December 1869, p.2",
+                  "url": "https://www.newspapers.com/image/388287498/"
+                }
+              ]
+            },
+            {
+              "finding_id": "benjamin-field-1870",
+              "finding": "A contemporary July 1870 report credits Benjamin Glasgow of Drapersfield with granting use of a field for the 12 July Cookstown gathering. This postdates Benjamin-2059’s recorded death on 8 February 1870 and strongly supports a separate person.",
+              "qualification": "This postdates Benjamin-2059’s recorded death on 8 February 1870 and strongly supports a separate person.",
+              "sources": [
+                {
+                  "title": "Belfast News-Letter, 15 July 1870, p.4",
+                  "url": "https://www.newspapers.com/image/387881589/"
+                }
+              ]
+            }
+          ],
+          "candidates": [
+            {
+              "id": "Glasgow-2566",
+              "reason": "Benjamin, son of farmer George, married Adelaide Smyth in 1876 and was living at Killycurragh. He is chronologically compatible with the Drapersfield man; no trade or mill bridge was found. The ambiguous 1858 father clause does not yet exclude him."
+            }
+          ],
+          "duplicate_check": [
+            "Benjamin-2059 is confirmed as John’s son by the original 1856 marriage register; his recorded death in February 1870 conflicts with the Drapersfield man’s contemporary July action.",
+            "Benjamin-3150 was born in Ohio in 1841 to William-1675 and Nancy; that life course gives no Cookstown mill bridge.",
+            "The Robert clause might refer to Benjamin or William. It is not a proof of Benjamin’s father.",
+            "No mother, wife or children can be assigned from these business notices."
+          ],
+          "next_test": "Inspect Drapersfield deeds and Benjamin’s own civil marriage/death or probate to distinguish him from Benjamin-2566.",
+          "wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nBenjamin Glasgow was a Cookstown mill partner of William Glasgow. Their 1858 action concerned interference with the River Ardtrea water supply. Benjamin had sought weir levels from John Sloan in 1856.<ref>[https://www.newspapers.com/image/390574459/ Belfast News-Letter, 22 July 1858, p.3].</ref><ref>[https://www.newspapers.com/image/390575046/ Belfast News-Letter, 23 July 1858, p.4].</ref> He appears as Benjamin Glasgow, Esq., of Drapersfield in a December 1869 property advertisement and in a July 1870 account of land made available for the Cookstown celebration.<ref>[https://www.newspapers.com/image/388287498/ Belfast News-Letter, 22 December 1869, p.2].</ref><ref>[https://www.newspapers.com/image/387881589/ Belfast News-Letter, 15 July 1870, p.4].</ref>\n\n== Research Notes ==\nHe is strongly distinguished from [[Glasgow-2059|Benjamin Glasgow, son of John]], whose recorded death was 8 February 1870. The July report describes a current action, not a repeated advertisement. [[Glasgow-2566|Benjamin Glasgow, son of George]] remains a compatible candidate with no documented mill bridge. The 1858 father clause is ambiguous between the plaintiffs.\n\n== Sources ==\n<references />"
+        },
+        {
+          "anchor": "robert-mill",
+          "name": "Robert Glasgow, Glasgow and Woods mill partner",
+          "status": "HOLD — identity or record assignment remains unresolved",
+          "identity_note": "Do not attach Robert to either plaintiff until the singular father reference is resolved. Robert Glasgow of Coltrim (Glasgow-3941) is an adult-period candidate, with no evidence yet joining his land records to this firm.",
+          "minimum_fields": "Robert Glasgow; adult mill partner in 1842; exact birth/death dates unknown. Cookstown district is an uncertain birth-location suggestion from his business. Father of one of the two 1858 plaintiffs, unspecified. James Woods was his business partner.",
+          "facts": [
+            {
+              "finding_id": "robert-mill-1842",
+              "finding": "The 1858 report recalls an 1842 action by Robert Glasgow and James Woods trading as Glasgow and Woods; Robert is described as father of the present plaintiff, singular.",
+              "qualification": "",
+              "sources": [
+                {
+                  "title": "Belfast News-Letter, 22 July 1858, p.3",
+                  "url": "https://www.newspapers.com/image/390574459/"
+                }
+              ]
+            },
+            {
+              "finding_id": "robert-house-1864",
+              "finding": "The 1864 partners’ letting notice calls the former occupant Robert Glasgow late. Probably relevant to the same mill family, but it does not explicitly identify him as the 1842 partner; do not yet enter this as that partner’s death bound.",
+              "qualification": "Probably relevant to the same mill family, but it does not explicitly identify him as the 1842 partner; do not yet enter this as that partner’s death bound.",
+              "sources": [
+                {
+                  "title": "Belfast News-Letter, 19 January 1864, p.2",
+                  "url": "https://www.newspapers.com/image/387805714/"
+                }
+              ]
+            }
+          ],
+          "candidates": [
+            {
+              "id": "Glasgow-3941",
+              "reason": "Robert of Coltrim appears in a Drapers’ Company lease in 1820, tithe in 1827 and census in 1831. The adult period fits, but Coltrim is distinct from Cookstown/Drapersfield and no mill partnership or father bridge is documented."
+            }
+          ],
+          "duplicate_check": [
+            "Robert-550’s recorded eighteenth-century death cannot fit an active 1842 plaintiff; later associated-estate record spans do not extend the man’s life.",
+            "Robert-587 was born in 1830 and cannot be the adult 1842 partner.",
+            "Robert-1171’s captured biography places him in a long American mercantile/agricultural life, without an 1842 Cookstown bridge.",
+            "The firm and house records can be compared within one family study without assuming that all Roberts are one person."
+          ],
+          "next_test": "Find the 1842 court papers and Glasgow and Woods deeds; establish which 1858 plaintiff was Robert’s son.",
+          "wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nRobert Glasgow and James Woods traded as Glasgow and Woods and brought an earlier mill-water action in 1842. A July 1858 report recalls that action and calls Robert the father of the present plaintiff, without specifying Benjamin or William.<ref>[https://www.newspapers.com/image/390574459/ Belfast News-Letter, 22 July 1858, p.3].</ref> A January 1864 advertisement by Benjamin and William Glasgow concerns premises formerly the residence of the late Robert Glasgow; identification with the earlier partner remains to be demonstrated.<ref>[https://www.newspapers.com/image/387805714/ Belfast News-Letter, 19 January 1864, p.2].</ref>\n\n== Research Notes ==\nDo not attach Robert to either plaintiff until the singular father reference is resolved. [[Glasgow-3941|Robert Glasgow of Coltrim]] is an adult-period candidate, with no evidence yet joining his land records to this firm.\n\n== Sources ==\n<references />"
+        },
+        {
+          "anchor": "william-alexander-parsonstown",
+          "name": "William Alexander Glasgow, Emma’s father",
+          "status": "HOLD — identity or record assignment remains unresolved",
+          "identity_note": "The marrying couple were described as of Parsonstown. The notice does not state William Alexander’s age, occupation, wife or precise residence. This is a separate family lead outside the pre-1870 publication window.",
+          "minimum_fields": "William Alexander Glasgow; male; father of Emma; died before 4 September 1875. Birth date and both vital locations unknown. Parsonstown identifies the marrying couple’s locality, not explicitly her late father’s birthplace or death place.",
+          "facts": [
+            {
+              "finding_id": "william-alexander-emma-1875",
+              "finding": "Emma’s marriage notice names her late father as William Alexander Glasgow; she married William, second son of Robert Treacy, at St Thomas’s Church, Belfast, on 4 September 1875. Both spouses were of Parsonstown.",
+              "qualification": "",
+              "sources": [
+                {
+                  "title": "Belfast Evening Telegraph, 4 September 1875, p.2",
+                  "url": "https://www.newspapers.com/image/1265675182/"
+                }
+              ]
+            }
+          ],
+          "candidates": [],
+          "duplicate_check": [
+            "Searched locally known public historical profiles for William Alexander Glasgow, Emma Glasgow, Parsonstown/Birr and Treacy links. No exact matching household found.",
+            "Emma-1743 was born in 1886 and cannot be this bride. Other Emma profiles have different documented fathers.",
+            "This 1875 notice does not itself establish a pre-1870 occurrence of William Alexander. Do not turn the groom William Treacy into a William Glasgow."
+          ],
+          "next_test": "Find Emma’s 1875 civil marriage entry and Parsonstown directories/probate for her father.",
+          "wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nWilliam Alexander Glasgow was the father of Emma Glasgow. He was already deceased when Emma married William Treacy at St Thomas’s Church, Belfast, on 4 September 1875.<ref>[https://www.newspapers.com/image/1265675182/ Belfast Evening Telegraph, 4 September 1875, p.2].</ref>\n\n== Research Notes ==\nThe marrying couple were described as of Parsonstown. The notice does not state William Alexander’s age, occupation, wife or precise residence. This is a separate family lead outside the pre-1870 publication window.\n\n== Sources ==\n<references />"
+        },
+        {
+          "anchor": "emma-parsonstown",
+          "name": "Emma Glasgow, wife of William Treacy",
+          "status": "HOLD — identity or record assignment remains unresolved",
+          "identity_note": "The newspaper establishes the marriage and named father but supplies no ages or mother. This draft shares its source with her father’s evidence draft and does not imply any link to the Cookstown families.",
+          "minimum_fields": "Emma Glasgow; female; married 4 September 1875, St Thomas’s Church, Belfast; residence Parsonstown. Dates of birth/death unknown. Parsonstown is an uncertain birth-location suggestion from stated residence. Father William Alexander Glasgow, deceased; spouse William Treacy, son of Robert.",
+          "facts": [
+            {
+              "finding_id": "emma-treacy-1875",
+              "finding": "Emma, daughter of the late William Alexander Glasgow, married William, second son of Robert Treacy, on 4 September 1875 at St Thomas’s Church, Belfast; Rev. T. J. Welland officiated. Both spouses were of Parsonstown.",
+              "qualification": "",
+              "sources": [
+                {
+                  "title": "Belfast Evening Telegraph, 4 September 1875, p.2",
+                  "url": "https://www.newspapers.com/image/1265675182/"
+                }
+              ]
+            }
+          ],
+          "candidates": [],
+          "duplicate_check": [
+            "Checked public historical Emma profiles and surname/spouse/locality text. No compatible exact household selected.",
+            "Emma-1743 was not born until 1886; Emma-2743 has documented father James J. Glasgow and Barnett spouse; Emma-2771 has documented father Robert, not William Alexander.",
+            "William Treacy and Robert Treacy are recorded here as relatives/associates, not Glasgow-surname creation drafts."
+          ],
+          "next_test": "Inspect the civil marriage entry for ages, occupation, exact address and witnesses before profile creation.",
+          "wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nEmma Glasgow, daughter of the late William Alexander Glasgow, married William Treacy at St Thomas’s Church, Belfast, on 4 September 1875. William was the second son of Robert Treacy. Both bride and groom were described as of Parsonstown.<ref>[https://www.newspapers.com/image/1265675182/ Belfast Evening Telegraph, 4 September 1875, p.2].</ref>\n\n== Research Notes ==\nThe newspaper establishes the marriage and named father but supplies no ages or mother. This draft shares its source with her father’s evidence draft and does not imply any link to the Cookstown families.\n\n== Sources ==\n<references />"
         }
       ]
     }
