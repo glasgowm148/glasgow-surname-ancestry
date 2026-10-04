@@ -1,0 +1,9 @@
+# Maintained Sources library
+
+Build with `.venv/bin/python -m tools.build_source_collections`. Source-type, country and supported year/period pages derive only from already-public source references. Classification is a navigation aid, not an evidence or identity upgrade. WikiTree IDs and unrelated life-event dates must never become source years. Ambiguous years and types remain available, and reference counts are not unique records or archival totals.
+
+`coverage.json` supplies primary-repository guidance on holdings, destruction, gaps and access. The reviewed parish tables render from their existing maintained ledgers. `legacy-collections/groni-death-matches.html` preserves the migrated public assessment and refreshes when the source publisher supplies a new full section. Family pages retain substantive conclusions; their source tables and tools move to Sources. Old newspaper and parish-record anchors lead to the new collections.
+
+The user explicitly requested inline historical newspaper clippings on 4 October 2026. The two clipping manifests approve exact, visually checked excerpt pixels under `newspaper-clippings/`, with SHA256, provenance and dimensions. They do not approve full browser captures, full scanned pages, OCR exports or other licensed sources. The primary manifest has 49 excerpts linked to previously reviewed notices. The supplied gallery preserves 16 distinct useful screenshots, including three awaiting exact original image links; three nearly blank screenshots and one duplicate coffee crop add no evidence. Crops without an issue heading cannot establish their own edition. No new identity or relationship is assigned from the unlinked supplied clippings.
+
+The source repair, newspaper publisher and release finalizer invoke this builder when its public prerequisites exist, including on a fresh site without a collection manifest. Local rebuilding and creating an upload archive do not publish production.

@@ -25,6 +25,9 @@ def finalize(site_root=ROOT/'www'):
     from datetime import date
     from tools.publish_reviewed_collections import publish as publish_collections
     counts=Counter(publish_collections(site_root))
+    from tools.build_source_collections import repair as repair_source_collections, ready as source_collections_ready
+    if source_collections_ready(site_root):
+        counts.update(repair_source_collections(site_root))
     health_path=site_root/'health.json'
     generated=date.fromisoformat(json.loads(health_path.read_text())['generated']) if health_path.exists() else None
     manifest_path=site_root/'data/manifest.json'

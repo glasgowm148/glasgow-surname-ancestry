@@ -104,6 +104,12 @@ def repair(web: Path | None = None) -> Counter:
     if page != original:
         path.write_text(page, encoding='utf-8')
         changed['source_library_page'] += 1
+    try:
+        from tools.build_source_collections import repair as repair_collections, ready
+    except ModuleNotFoundError:
+        from build_source_collections import repair as repair_collections, ready
+    if ready(web):
+        changed.update(repair_collections(web))
     return changed
 
 

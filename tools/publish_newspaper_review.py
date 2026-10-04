@@ -116,6 +116,12 @@ def repair() -> dict[str, int]:
     else:
         text = text.replace("</h1>", "</h1>" + note, 1)
     sources.write_text(text, encoding="utf-8")
+    try:
+        from tools.build_source_collections import repair as repair_collections, ready
+    except ModuleNotFoundError:
+        from build_source_collections import repair as repair_collections, ready
+    if ready(WEB):
+        repair_collections(WEB)
     return {"newspaper_pages_inspected": public["counts"]["inspected_pages"],
             "newspaper_surname_records": sum(row["status"] == "confirmed surname" for row in data["rows"]),
             "newspaper_place_study_records": sum(row["status"] == "place study" for row in data["rows"])}

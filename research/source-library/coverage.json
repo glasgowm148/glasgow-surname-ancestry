@@ -1,0 +1,216 @@
+{
+  "descriptions": {
+    "archival_availability": "National or archive-level survival and access; it is not a count of people represented in this project.",
+    "index_vs_original": "An index or transcript is a finding aid. Treat an original, certified copy, or digitised image as separate evidence and record which was inspected.",
+    "absence": "A missing search result cannot establish that an event or person did not exist; coverage, jurisdiction, spelling, loss and indexing must be checked first.",
+    "local_counts": "Any row totals in project datasets are local collection counts and must not be presented as archival survival totals."
+  },
+  "jurisdictions": {
+    "Ireland": "Coverage and repository custody differ between all-island records and the separate jurisdictions after partition in 1922; some will-calendar series divide earlier.",
+    "Scotland": "National Records of Scotland (NRS) and ScotlandsPeople provide the principal national record access.",
+    "England": "England and Wales civil registration and census guidance is administered through the GRO and The National Archives.",
+    "United States": "The National Archives holds federal census records; survival varies by census year.",
+    "Canada": "Use Library and Archives Canada census and civil-registration guidance; this file makes no completeness claim beyond verified collections below.",
+    "Australia": "Use the relevant state or territory archive/registrar; this file makes no national completeness claim.",
+    "New Zealand": "Use Archives New Zealand and the Registrar-General; this file makes no national completeness claim."
+  },
+  "collections": {
+    "census/ireland/1821-1851": {
+      "title": "Irish census survivals and substitutes, 1821–1851",
+      "paragraphs": [
+        "Most 1821, 1831, 1841 and 1851 returns were destroyed in the 1922 fire. Surviving original fragments include Antrim 1851; Belfast one ward 1851; Dublin city heads-of-household index 1851; Fermanagh 1821/1841/1851; Cavan 1821/1841; Cork 1841; Galway 1821; Offaly 1821; Meath 1821; Waterford 1841; and Londonderry/Derry 1831 with 1834 revisions.",
+        "The Derry 1831 material includes names of householders and counts by religion and sex, with 1834 revisions. It is not a person-by-person list of every household member. Search transcripts are finding aids; verify the scanned return and record omissions."
+      ],
+      "links": [
+        {
+          "title": "NAI census records 1821–1891",
+          "url": "https://nationalarchives.ie/collections/search-the-census/census-records-1821-1891/"
+        },
+        {
+          "title": "NAI census history",
+          "url": "https://nationalarchives.ie/collections/search-the-census/about-the-census-collections/history-of-irish-census-records/"
+        },
+        {
+          "title": "NAI family-history sources guide",
+          "url": "https://www.nationalarchives.ie/wp-content/uploads/2019/03/Family_History_Sources_NAI.pdf"
+        }
+      ]
+    },
+    "census/ireland/1861-1891": {
+      "title": "Irish census losses, 1861–1891",
+      "paragraphs": [
+        "No individual household returns survive for 1861, 1871, 1881 or 1891: 1861/1871 were destroyed after analysis and 1881/1891 were pulped during the First World War."
+      ],
+      "links": [
+        {
+          "title": "NAI census records 1821–1891",
+          "url": "https://nationalarchives.ie/collections/search-the-census/census-records-1821-1891/"
+        }
+      ]
+    },
+    "census/ireland/1901-1911": {
+      "title": "Irish census household returns, 1901 and 1911",
+      "paragraphs": [
+        "These are the only complete surviving pre-Independence Irish census records; original household returns survive across all 32 counties and are searchable with images. A project sample remains a local count, not a national count."
+      ],
+      "links": [
+        {
+          "title": "NAI census portal",
+          "url": "https://census.nationalarchives.ie/"
+        }
+      ]
+    },
+    "census/ireland/1926": {
+      "title": "Irish Free State census, 1926",
+      "paragraphs": [
+        "The 1926 Irish Free State census is now available through the National Archives of Ireland. It covers the Free State, not all 32 counties. The 1901/1911 search form is separate from the 1926 service; follow the official 1926 link. This project has not yet collected references from that release."
+      ],
+      "links": [
+        {
+          "title": "NAI census search",
+          "url": "https://nationalarchives.ie/collections/search-the-census/"
+        }
+      ]
+    },
+    "census/scotland/1841-1921": {
+      "title": "Scottish census records",
+      "paragraphs": [
+        "The open Scottish census series runs from 1841 to 1921 at ten-year intervals. The available images are enumerators’ transcript books made from household schedules; the original household schedules were destroyed. Some 1841 books are missing."
+      ],
+      "links": [
+        {
+          "title": "NRS census records",
+          "url": "https://www.nrscotland.gov.uk/learning-and-events/research-guides/census-records/"
+        },
+        {
+          "title": "ScotlandsPeople census returns",
+          "url": "https://www.scotlandspeople.gov.uk/guides/census-returns"
+        }
+      ]
+    },
+    "civil/ireland/bmd": {
+      "title": "Irish civil births, marriages and deaths",
+      "paragraphs": [
+        "Civil indexes and images online cover births 1864–1925; marriages 1845–1950 (non-Roman Catholic from 1845, Roman Catholic from 1864); deaths generally 1871–1975, with earlier death material being added or patchy. An index hit is not itself an inspected register image."
+      ],
+      "links": [
+        {
+          "title": "Irish Genealogy FAQ",
+          "url": "https://www.irishgenealogy.ie/faq/"
+        },
+        {
+          "title": "Irish Genealogy search",
+          "url": "https://www.irishgenealogy.ie/search-form-v2/"
+        }
+      ]
+    },
+    "civil/scotland/statutory": {
+      "title": "Scottish statutory BMD registers",
+      "paragraphs": [
+        "Compulsory civil registration began in 1855. Statutory births, deaths and marriages are index-linked digital images through ScotlandsPeople, with online privacy cutoffs; certificates or official extracts are distinct from indexes."
+      ],
+      "links": [
+        {
+          "title": "NRS statutory registers",
+          "url": "https://www.nrscotland.gov.uk/learning-and-events/research-guides/statutory-registers-of-births-deaths-and-marriages/"
+        }
+      ]
+    },
+    "church/scotland/opr": {
+      "title": "Scottish Old Parish Registers",
+      "paragraphs": [
+        "OPRs cover 1553–1854 and contain Church of Scotland baptisms/births, banns/marriages and deaths/burials. Survival and registration are uneven; some parishes begin late or have no surviving records."
+      ],
+      "links": [
+        {
+          "title": "NRS OPR coverage",
+          "url": "https://www.nrscotland.gov.uk/learning-and-events/research-guides/coverage-of-the-old-parish-registers/"
+        },
+        {
+          "title": "NRS OPR guide",
+          "url": "https://www.nrscotland.gov.uk/learning-and-events/research-guides/old-parish-registers/"
+        }
+      ]
+    },
+    "civil/england-wales/bmd": {
+      "title": "England and Wales civil registration",
+      "paragraphs": [
+        "The GRO holds registered births, marriages and deaths from 1 July 1837. Its public index lists basic details; certificates, PDFs and online images are separate access products. Parish registers are needed for earlier research."
+      ],
+      "links": [
+        {
+          "title": "GRO ordering guide",
+          "url": "https://www.gov.uk/government/publications/how-to-order-and-pay-for-certificates/how-to-order-and-pay-for-civil-registration-records-accessible"
+        },
+        {
+          "title": "GRO family-history guidance",
+          "url": "https://www.gov.uk/research-family-history"
+        }
+      ]
+    },
+    "census/england-wales/1841-1921": {
+      "title": "England and Wales census records",
+      "paragraphs": [
+        "The National Archives guides access to censuses 1841–1921 through official partners and archive holdings. The 1931 census was destroyed by fire in 1942; no 1941 census was taken."
+      ],
+      "links": [
+        {
+          "title": "The National Archives census guide",
+          "url": "https://www.nationalarchives.gov.uk/help-with-your-research/research-guides/census-records/"
+        }
+      ]
+    },
+    "probate/ireland/1858-1922": {
+      "title": "Irish probate and testamentary records",
+      "paragraphs": [
+        "Before 1857 the Church of Ireland held testamentary jurisdiction; from 1858 civil probate registries issued grants. Calendars are finding aids and an entry does not prove the underlying will survives; the 1922 fire destroyed many originals."
+      ],
+      "links": [
+        {
+          "title": "NAI testamentary records",
+          "url": "https://nationalarchives.ie/collections/court-records/testamentary-records/"
+        },
+        {
+          "title": "NAI will calendars",
+          "url": "https://willcalendars.nationalarchives.ie/search/cwa/home.jsp"
+        }
+      ]
+    },
+    "land/ireland/tithe-1823-1837": {
+      "title": "Irish Tithe Applotment Books",
+      "paragraphs": [
+        "Compiled 1823–1837, generally listing occupiers of productive/tithable agricultural holdings, acreage/value and tithe. They usually identify occupiers rather than all household members and do not systematically cover urban land."
+      ],
+      "links": [
+        {
+          "title": "NAI Tithe Applotment Books",
+          "url": "https://titheapplotmentbooks.nationalarchives.ie/search/tab/aboutmore.jsp"
+        }
+      ]
+    },
+    "land/ireland/griffiths-1847-1864": {
+      "title": "Irish Primary Valuation (Griffith’s Valuation)",
+      "paragraphs": [
+        "Published 1847–1864, this property valuation lists occupiers, lessors and property amount/value. It is an occupancy/property source and should not be treated as a household census."
+      ],
+      "links": [
+        {
+          "title": "NAI family-history sources guide",
+          "url": "https://www.nationalarchives.ie/wp-content/uploads/2019/03/Family_History_Sources_NAI.pdf"
+        }
+      ]
+    },
+    "census/united-states/1890": {
+      "title": "United States 1890 census",
+      "paragraphs": [
+        "Most population schedules were destroyed in the 1921 Commerce Department fire. Fragments survive for parts of 10 states and Washington, DC, plus separate Union veterans/widows schedules; fragments cannot support national absence claims."
+      ],
+      "links": [
+        {
+          "title": "US National Archives 1890 census",
+          "url": "https://www.archives.gov/research/census/1890"
+        }
+      ]
+    }
+  }
+}

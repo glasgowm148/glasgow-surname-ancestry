@@ -139,7 +139,12 @@
         make('/statistics/', 'Statistics'),
       ];
       if (root === '/sources/') return [
-        make('/sources/', 'Source references'),
+        make('/sources/', 'All source types'),
+        make('/sources/newspapers/', 'Newspapers'),
+        make('/sources/census/', 'Census'),
+        make('/sources/births/', 'Births & baptisms'),
+        make('/sources/marriages/', 'Marriages & banns'),
+        make('/sources/deaths/', 'Deaths & burials'),
         make('/records/', 'Records by person'),
         make('/research/transcriptions/', 'Wills & transcriptions'),
       ];

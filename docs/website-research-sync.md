@@ -137,7 +137,7 @@ visible research section in the same task.
   `surname-research/indexes/glasgow-newspaper-review.json`, then run
   `.venv/bin/python tools/publish_newspaper_review.py`. This publishes inspected
   passage readings, separately labelled relevant place-study notices, city/vessel exclusions and qualified profile candidates to
-  Scottish families and Sources. Keep scans and OCR in ignored local captures;
+  the Sources newspaper collection and a linked Scottish-family summary. Keep full scans, browser context and OCR in ignored local captures; explicitly requested historical excerpts may be published only after visual checking and hash-pinned approval in `research/source-library/newspaper-clippings.json`;
   use stable original image links, never signed download URLs. Synchronize
   concrete surname findings, candidate accounts and held drafts separately.
   Count only inspected person-name passages as retained surname records;
@@ -197,3 +197,7 @@ at `/research/relationship-audit/`. The reconciled ledger records 38 changes:
 historical confidence reviews, not 38 new record discoveries. Already confident
 relationships without a recoverable prior grade are excluded from this count.
 Release finalization refreshes both the audit and central queue automatically.
+
+### Sources collection organisation
+
+`research/source-library/coverage.json` maintains source-type and jurisdiction guides with primary-repository citations. `tools/build_source_collections.py` derives country/year/type browsing from already-public source references, retains uncertain years and category overlap, and moves reviewed newspaper/parish/civil tables into their own Sources subpages. It preserves linked family conclusions and original-provider access. `research/source-library/legacy-collections/` retains the migrated GRONI public assessment; newly rendered branch audits refresh that maintained section before migration. The release finalizer rebuilds these pages after reviewed-collection publishers, so later releases keep the organisation. Counts describe local references and reviewed rows, never whole-archive coverage. Missing provider links are labelled, not invented. Rebuild with `.venv/bin/python -m tools.build_source_collections`, then run the normal release finalizer and checks.
