@@ -4,7 +4,21 @@ The generated `www/` directory is the complete website root. No hosting credenti
 
 The catalogue's maintained stylesheet is `tools/catalogue-light.css`. Both the catalogue builder and unified-site repair copy it to `www/people/catalogue.css`; a full catalogue build also restores the unified light `/catalogue/` shell. `tools/check_public_catalogue.py` flags a dark stylesheet or a reverted catalogue shell before release. Package a new archive after presentation changes so old CSS cache URLs and old bundles are not reused.
 
-## Current live release — Newspaper continuation, 4 October 2026
+## Current live release — Pre-1800 newspaper clippings, 4 October 2026
+
+All 37 currently retained pre-1800 newspaper pages now display 40 approved inline excerpts, including the separate December 1792 cargo advertisement and larger Kildress reading supplements. The full reviewed collection has 90 pages with 93 excerpts, up from 55 pages. Twenty-four retained later pages still need an excerpt. Pending search leads and city/vessel exclusions have separate explanatory messages. Each pre-1800 crop was visually checked and every approved source/public image hash and year-page image passed the preservation audit.
+
+The newly inspected 20 September 1768 original names Philip Glasco the younger and Teresa Plunkett, corroborating compatible candidate Glasgow-3932 without proving his father. The John Glasgow Nottingham store notice is corrected to the end of September; the 1 August 1792 Oporto notice itself is dated 23 July. The Derby Mercury March/April conflict and the January 1796 issue/advertisement date conflict remain visible. Candidate dossiers, subject accounts, Sources, Latest findings and the held queue are synchronized. No live WikiTree save or relationship upgrade occurred.
+
+The review contains 326 catalogued pages: 178 inspected, including 113 surname pages, one place-study page and 64 exclusions; 148 await reading. The pre-1800 log has 156 query records. All 51 catalogue-led Irish name forms and the 16 abbreviation queries are recorded, but worldwide Glascow loading stopped at 180 of 306 results and further highlights remain unread. These counts do not establish exhaustive newspaper coverage.
+
+Implementation commit: `71688860`. All 26 focused tests, release totals, Atlas destinations, publication boundaries and asset versions pass. Production smoke and catalogue probes pass. All 100 checked live pages/data/assets, including all 93 primary-manifest excerpt images, match local bytes. The live year filter and Philip marriage clipping were visually checked in Chrome. Final rsync dry-run: no changes. Evidence and screenshot: `artifacts/pre1800-root-20261004/`.
+
+Verified bundle: `www/glasgow-site-20261004-225627.tar.gz`, **166,851,637 bytes (166.851637 decimal MB)**; 80,106 public files and 80,107 rootless members. Every archive file matches the embedded manifest and current local bytes; gzip integrity passes. SHA-256: `087d54f014b7c5ddc5fb92b7bb246ccd04703209529cd53edb1619bc06f13384`.
+
+The prior live site is retained in the gzip-tested private server backup `/var/backups/glasgow/20261004-pre1800-clippings/site-before.tar.gz` (152,538,968 bytes). The reviewed upload has no deletions and preserves host ownership and hosting configuration. No Git push was performed. Agent-created tabs were closed after their jobs; the final Chrome inventory has four tabs. The project skill now requires prompt cleanup while allowing multiple active working tabs.
+
+## Previous live release — Newspaper continuation, 4 October 2026
 
 Six further original surname notices from 1811–1850 and their approved inline clippings are deployed: senior Royal Artillery George (1811/1819), George Mark (1825), Edward George (1825), Benjamin's surgery degree report (1825), and John the Cookstown tea/coffee agent (1850). The degree report remains explicitly in conflict with the university index's 1826 entry. Military identities and family connections remain qualified. Eight candidate dossiers, five consolidated subject accounts, Sources year pages, Latest findings and the held queue are synchronized. No WikiTree save or relationship upgrade occurred.
 
