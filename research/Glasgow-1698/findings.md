@@ -25,3 +25,15 @@ a record identifying Samuel's parents or siblings before attaching the
 Killycurragh family. Build Adelaide's documentary chain from civil, church,
 census and probate records, then compare the genetic match only after both
 descent paths are proved.
+
+## Identity assessment — Irish newspaper extension,4 October 2026
+
+Samuel Glasgow, farmer examined at Moneymore, is quoted on tenant right in 1845. This profile’s Killycurragh farmer and 1857 probate account, checked live4 October 2026, fits occupation/district/chronology but does not bridge to the witness. No family or residence change is warranted.
+
+[Freeman’s Journal and Daily Commercial Advertiser, 19 March 1845, p. 1, Ulster tenant-right discussion](https://www.newspapers.com/image/1050103241/)
+
+[Connected source account and full held draft](/research/subjects/newspapers-irish-1800-1850/#samuel-moneymore)
+
+## Next records to check — newspaper identity
+
+Resolve the documentary person’s identity before changing WikiTree facts or relationships. Original source readings, compatible alternatives and discriminating tests are retained in the linked account.

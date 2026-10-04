@@ -37,3 +37,19 @@ Profile prose and trees remain leads; inspect the cited record before treating a
 ### External source links present
 
 - None detected outside WikiTree and sponsored Ancestry links.
+
+## Identity assessment — Irish newspaper extension,4 October 2026
+
+The father of the surgeon Benjamin was already described as late by20 May 1834, incompatible with this Robert’s20 August 1856 death and the mill testimony’s 1856 father death. Do not identify those fathers. The living 1836 inn contact and 1840 Academy chairman are compatible Cookstown comparisons, with no identity bridge; they do not prove inn ownership or children.
+
+[Belfast News-Letter, 20 May 1834, p. 3, Benjamin Glasgow death notice](https://www.newspapers.com/image/390554297/)
+
+[Belfast News-Letter, 18 October 1836, p. 3, King’s Arms Inn letting](https://www.newspapers.com/image/390551780/)
+
+[Belfast News-Letter, 30 October 1840, p. 2, Cookstown Academy](https://www.newspapers.com/image/390563103/)
+
+[Connected source account and full held draft](/research/subjects/newspapers-irish-1800-1850/#robert-cookstown-contacts)
+
+## Next records to check — newspaper identity
+
+Resolve the documentary person’s identity before changing WikiTree facts or relationships. Original source readings, compatible alternatives and discriminating tests are retained in the linked account.

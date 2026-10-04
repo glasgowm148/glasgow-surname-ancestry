@@ -445,5 +445,63 @@
     "Inspect Larne will D300/1/5/49 for captain identity.",
     "Recover coffee agent B. Glasgow and 1877 Magherafelt notice original pages if pursuing later records.",
     "Review remaining Ireland-country results and OCR variants before claiming an exhaustive Irish survey."
-  ]
+  ],
+  "followup_1800_1850": {
+    "reviewed_on": "2026-10-04",
+    "surgeon_family": {
+      "id": "cookstown-benjamin-surgeon-death-1833",
+      "kind": "family",
+      "finding": "Benjamin Glasgow, surgeon, formerly of Vera Cruz, Mexico, died at New Orleans on 26 November last, according to a May 1834 notice. He was son of the late Robert Glasgow of Cookstown, County Tyrone. A Dublin notice repeats the surgeon, New Orleans and father details.",
+      "qualification": "1833 is inferred from “last” in the 1834 publication; no age or mother is stated. Both notices concern one death, not independent witnesses. Glasgow-3412 is a strong compatible surgery-graduate candidate, not a proved identity. The father was dead by 20 May 1834, distinct from the mill father who died in 1856. Robert-3941 remains compatible by chronology only. No existing-profile father confidence is upgraded.",
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 20 May 1834, p.3, Benjamin Glasgow death notice",
+          "url": "https://www.newspapers.com/image/390554297/"
+        },
+        {
+          "title": "Freeman’s Journal and Daily Commercial Advertiser, 23 May 1834, p.4, Benjamin Glasgow death notice",
+          "url": "https://www.newspapers.com/image/1050049974/"
+        }
+      ],
+      "anchors": [
+        "benjamin-surgeon",
+        "robert-surgeon-father"
+      ]
+    },
+    "mill_candidate_correction": "4 October 2026 correction: the 1834 surgeon notice makes Glasgow-3412 a strong candidate for a Benjamin who died in 1833, rather than a surviving mill partner. If that surgeon identification is correct, the 1858/1870 mill activity is a concrete death-date conflict. Keep the surgeon and mill documentary accounts separate; Glasgow-3412’s surgeon identity itself remains qualified.",
+    "contacts": {
+      "id": "cookstown-robert-inn-academy-1836-1840",
+      "kind": "biographical",
+      "finding": "Robert Glasgow was the named Cookstown contact for letting the King’s Arms Inn in October 1836. A 1840 Cookstown Academy advertisement names Robert Glasgow as chairman of its superintending committee and an applicant contact for a teacher.",
+      "qualification": "The notices name roles, not his age or family. The 1836 contact is not explicitly described as innkeeper or owner. The Academy is not described as a Sunday school. Consolidated as a same-name Cookstown research account; identity between the notices, the mill partner, Robert-2656 and Robert-3941 remains unproved. Neither notice identifies the already-deceased father of the surgeon.",
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 18 October 1836, p.3, King’s Arms Inn letting",
+          "url": "https://www.newspapers.com/image/390551780/"
+        },
+        {
+          "title": "Belfast News-Letter, 30 October 1840, p.2, Cookstown Academy",
+          "url": "https://www.newspapers.com/image/390563103/"
+        }
+      ],
+      "anchors": [
+        "robert-cookstown-contacts"
+      ]
+    },
+    "school_donor": {
+      "id": "cookstown-benjamin-school-donor-1850",
+      "kind": "biographical",
+      "finding": "Master Benjamin Glasgow of Cookstown is listed for one shilling towards support of scholars in the agricultural school in June 1850.",
+      "qualification": "A donor list, not proof that Benjamin attended the school. “Master” supplies no exact age. Benjamin-2059 (reported born about 1835) and Benjamin-2566 (about 1840) are compatible young catalogue namesakes; assignment to either, or to the Drapersfield Benjamin, is unresolved. The surgeon who died in 1833 is excluded.",
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 28 June 1850, p.2, agricultural-school scholars’ support",
+          "url": "https://www.newspapers.com/image/390559842/"
+        }
+      ],
+      "anchors": [
+        "benjamin-school-donor"
+      ]
+    }
+  }
 }

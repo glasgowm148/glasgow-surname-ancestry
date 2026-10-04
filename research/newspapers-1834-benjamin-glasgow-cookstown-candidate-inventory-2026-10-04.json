@@ -1,0 +1,154 @@
+{
+  "reviewed_on": "2026-10-04",
+  "scope": "Bounded public historical catalogue comparison for the1833 surgeon and his named father. Root inspected the newspaper; exported profile dates are leads unless independently sourced. Undated nonhistorical accounts are excluded without retaining personal details.",
+  "newspaper_record": {
+    "image_id": "390554297",
+    "date": "1834-05-20",
+    "page": 3,
+    "source_url": "https://www.newspapers.com/image/390554297/",
+    "reading": "Benjamin Glasgow Esq., surgeon, late of Vera Cruz, Mexico, died at New Orleans on 26 November last (1833), son of the late Mr Robert Glasgow of Cookstown, County Tyrone.",
+    "source_grade": "original newspaper passage read; documentary occurrence and named-father clause, not a proved WikiTree identity.",
+    "additional_source": {
+      "title": "Freeman’s Journal and Daily Commercial Advertiser, 23 May 1834, p.4, Benjamin Glasgow death notice",
+      "url": "https://www.newspapers.com/image/1050049974/"
+    }
+  },
+  "benjamin_candidates": [
+    {
+      "map_key": "Glasgow-3412",
+      "name": "Benjamin Glasgow",
+      "birth": "1805",
+      "death": "",
+      "birth_location": "Scotland, United Kingdom",
+      "death_location": "",
+      "source_pointer": "www/data/people.json#/people/445",
+      "assessment": "Live profile checked4October2026: birth1805 and surgery graduation1826, no parents or death. The official University of Glasgow index independently confirms Benjamin Glasgow’s Master of Surgery in1826, but gives no birth year/place, father or overseas career. Exact name, profession and chronology make a strong compatible candidate; the Cookstown/New Orleans bridge remains unproved."
+    }
+  ],
+  "incompatible_comparisons": [
+    {
+      "map_key": "Glasco-38",
+      "name": "Benjamin Douglas Thomas Glasco",
+      "birth": "1860-05-07",
+      "death": "1944-09-29",
+      "birth_location": "Morgan County, Indiana, United States",
+      "death_location": "Athens, Gentry, Missouri, United States",
+      "source_pointer": "www/data/people.json#/people/439",
+      "assessment": "Recorded birth is too late for the adult surgeon who died in1833; profile field/source grade retained, not a proved identity."
+    },
+    {
+      "map_key": "Glasgow-2637",
+      "name": "Benjamin Franklin Glasgow",
+      "birth": "1827-04-27",
+      "death": "1897-05-03",
+      "birth_location": "Blair, Pennsylvania, United States",
+      "death_location": "Calvin, Union Township, Huntingdon, Pennsylvania, United States",
+      "source_pointer": "www/data/people.json#/people/440",
+      "assessment": "Recorded birth is too late for the adult surgeon who died in1833; profile field/source grade retained, not a proved identity."
+    },
+    {
+      "map_key": "Glasco-16",
+      "name": "Benjamin Glasco",
+      "birth": "c. 1869-11",
+      "death": "",
+      "birth_location": "Illinois, United States",
+      "death_location": "",
+      "source_pointer": "www/data/people.json#/people/443",
+      "assessment": "Recorded birth is too late for the adult surgeon who died in1833; profile field/source grade retained, not a proved identity."
+    },
+    {
+      "map_key": "Glasgow-3150",
+      "name": "Benjamin Glasgow",
+      "birth": "1841-07-10",
+      "death": "1916-05-17",
+      "birth_location": "Ireland, United Kingdom",
+      "death_location": "Belle Center, Logan County, Ohio, United States",
+      "source_pointer": "www/data/people.json#/people/446",
+      "assessment": "Recorded birth is too late for the adult surgeon who died in1833; profile field/source grade retained, not a proved identity."
+    },
+    {
+      "map_key": "Glasgow-2059",
+      "name": "Benjamin Glasgow",
+      "birth": "c. 1835",
+      "death": "1870-02-08",
+      "birth_location": "Killycurragh, Derryloran, County Tyrone, Ireland, United Kingdom",
+      "death_location": "Cookstown SRD, County Tyrone, Ireland, United Kingdom",
+      "source_pointer": "www/data/people.json#/people/447",
+      "assessment": "Recorded birth is too late for the adult surgeon who died in1833; profile field/source grade retained, not a proved identity."
+    },
+    {
+      "map_key": "Glasgow-2566",
+      "name": "Benjamin Glasgow",
+      "birth": "c. 1840",
+      "death": "before 1901",
+      "birth_location": "",
+      "death_location": "Ireland, United Kingdom",
+      "source_pointer": "www/data/people.json#/people/448",
+      "assessment": "Recorded birth is too late for the adult surgeon who died in1833; profile field/source grade retained, not a proved identity."
+    },
+    {
+      "map_key": "Glassgo-4",
+      "name": "Benjamin Glassgo",
+      "birth": "c. 1858",
+      "death": "",
+      "birth_location": "North Carolina, United States",
+      "death_location": "",
+      "source_pointer": "www/data/people.json#/people/449",
+      "assessment": "Recorded birth is too late for the adult surgeon who died in1833; profile field/source grade retained, not a proved identity."
+    },
+    {
+      "map_key": "Glasco-112",
+      "name": "Benjamin Johnson Glasco",
+      "birth": "1843-04-25",
+      "death": "1925-03-10",
+      "birth_location": "Pennsylvania, United States",
+      "death_location": "Philadelphia, Pennsylvania, United States",
+      "source_pointer": "www/data/people.json#/people/450",
+      "assessment": "Recorded birth is too late for the adult surgeon who died in1833; profile field/source grade retained, not a proved identity."
+    },
+    {
+      "map_key": "Glasgow-66",
+      "name": "Benjamin M. Glasgow",
+      "birth": "c. 1827",
+      "death": "",
+      "birth_location": "Virginia, United States (estimated)",
+      "death_location": "",
+      "source_pointer": "www/data/people.json#/people/451",
+      "assessment": "Recorded birth is too late for the adult surgeon who died in1833; profile field/source grade retained, not a proved identity."
+    }
+  ],
+  "robert_comparisons": [
+    {
+      "id": "Glasgow-2656",
+      "assessment": "Death20August1856 and1858 mill testimony that the mill father died in1856 conflict with the father already described as late inMay1834. Do not identify these fathers.",
+      "sources": [
+        "https://www.newspapers.com/image/390574459/",
+        "https://www.wikitree.com/wiki/Glasgow-2656"
+      ]
+    },
+    {
+      "id": "Glasgow-3941",
+      "assessment": "Coltrim occupier documented1820–1831, bornbefore1776. Chronology compatible with deathafter1831 butbyMay1834; no Cookstown, surgeon or kin bridge identifies him. Retain as a possible candidate only.",
+      "source_pointer": "www/people/glasgow-3941.json"
+    }
+  ],
+  "live_profile_review": [
+    {
+      "id": "Glasgow-3412",
+      "source": "https://www.wikitree.com/wiki/Glasgow-3412",
+      "finding": "Live historical biography gives birth 1805 and Master of Surgery 1826. The official University index was inspected on 4 October 2026 and confirms the degree/year/name, but supplies no birth, father or overseas identity bridge."
+    }
+  ],
+  "limitations": [
+    "This is a bounded catalogue comparison, not an exhaustive live duplicate audit.",
+    "No family amendment is authorized solely by a shared name and town; the newspaper directly names the documentary father but profile identities remain to be resolved."
+  ],
+  "institutional_verification": {
+    "source": {
+      "title": "University of Glasgow Story, Benjamin Glasgow, Master of Surgery, graduation 1826",
+      "url": "https://universitystory.gla.ac.uk/people?search=&surname=Glas&forename=Benjamin"
+    },
+    "reading": "Benjamin Glasgow; Graduate; Master of Surgery; graduation1826. No birth year/place, father or address shown.",
+    "reviewed_on": "2026-10-04"
+  }
+}

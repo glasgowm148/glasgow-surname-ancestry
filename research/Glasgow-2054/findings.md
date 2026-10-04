@@ -32,3 +32,15 @@ Profile prose and trees remain leads; inspect the cited record before treating a
 ### External source links present
 
 - [Samuel Glasgow, 1865, Cookstown, 73](https://civilrecords.irishgenealogy.ie/churchrecords/details-civil/04fcae22291153)
+
+## Identity assessment — Irish newspaper extension,4 October 2026
+
+Samuel Glasgow, farmer examined at Moneymore, is quoted on tenant right in 1845. This profile’s Gortin/Cookstown farming chronology is compatible; the source gives neither home townland nor relatives, so no assignment or family amendment is made. Live profile checked4 October 2026; its later valuation account is a comparison lead, not an original land record inspected in this batch.
+
+[Freeman’s Journal and Daily Commercial Advertiser, 19 March 1845, p. 1, Ulster tenant-right discussion](https://www.newspapers.com/image/1050103241/)
+
+[Connected source account and full held draft](/research/subjects/newspapers-irish-1800-1850/#samuel-moneymore)
+
+## Next records to check — newspaper identity
+
+Resolve the documentary person’s identity before changing WikiTree facts or relationships. Original source readings, compatible alternatives and discriminating tests are retained in the linked account.

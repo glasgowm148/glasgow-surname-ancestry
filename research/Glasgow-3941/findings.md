@@ -32,3 +32,19 @@ Profile prose and trees remain leads; inspect the cited record before treating a
 ### External source links present
 
 - None detected outside WikiTree and sponsored Ancestry links.
+
+## Identity assessment — Irish newspaper extension,4 October 2026
+
+The surgeon’s father Robert was dead by20 May 1834. The Coltrim occupier documented through 1831 is compatible by chronology, but no surgeon-son or Cookstown bridge identifies him. He also remains a possible living 1836/1840 contact or 1856 mill father because his death is unknown; these are alternative assignments, not simultaneous established identities. Do not attach the surgeon or mill son until the relevant identity is proved.
+
+[Belfast News-Letter, 20 May 1834, p. 3, Benjamin Glasgow death notice](https://www.newspapers.com/image/390554297/)
+
+[Belfast News-Letter, 18 October 1836, p. 3, King’s Arms Inn letting](https://www.newspapers.com/image/390551780/)
+
+[Belfast News-Letter, 30 October 1840, p. 2, Cookstown Academy](https://www.newspapers.com/image/390563103/)
+
+[Connected source account and full held draft](/research/subjects/newspapers-irish-1800-1850/#robert-surgeon-father)
+
+## Next records to check — newspaper identity
+
+Resolve the documentary person’s identity before changing WikiTree facts or relationships. Original source readings, compatible alternatives and discriminating tests are retained in the linked account.

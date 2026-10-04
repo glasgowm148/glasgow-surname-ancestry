@@ -19,3 +19,7 @@ The current batch does not justify reparenting an existing WikiTree profile. It 
 The uncertain → certain transition above concerns **people named in the original record**. It is not an upgrade of an existing WikiTree parent link. The previous assessment and source basis remain preserved in the maintained subject and source data.
 
 All 157 Northern Ireland “Benjamin Glasgow” result pages and 166 thumbnail highlights were saved privately and visually screened. Six new original-verified surname pages are retained across this task; 157 pages (148 Benjamin search pages and nine early Margaret search pages) still need complete passage and identity review. The worldwide scan is incomplete; the coverage ledger records exactly which queries reached their end. The uncertain → certain record assessment and the proposed previously ungraded → Confident profile marking are recorded separately.
+
+## 1800–1850 follow-up,4October2026
+
+The surgeon’s1834 notice proves a documentary Benjamin–Robert father–son pair. Surgeon identity with Glasgow-3412 is strong but qualified; father identity with Glasgow-3941 is compatible only by chronology. Robert-2656/died1856 conflicts with the father already late in1834. No existing WikiTree parent should be changed yet. No relationship-confidence upgrade is counted. See the [connected family account](/research/subjects/newspapers-irish-1800-1850/#benjamin-surgeon).

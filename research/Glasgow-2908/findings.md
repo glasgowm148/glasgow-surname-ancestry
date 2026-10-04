@@ -100,3 +100,15 @@ Profile prose and trees remain leads; inspect the cited record before treating a
 - [National Archives of Ireland, 1851 census](https://www.census.nationalarchives.ie/pages/1851/Antrim/Kilconway/Rasharkin/Lisnagaver/34/)
 - [Civil death register of Samuel Glasgow](https://www.irishgenealogy.ie/view/?record_id=cide-7225943)
 - [Civil marriage register of John Glasgow and Margaret Garvin](https://www.irishgenealogy.ie/view/?record_id=cima-3156063)
+
+## Identity assessment — Irish newspaper extension,4 October 2026
+
+The 1845 Samuel farmer examined at Moneymore is only a weaker regional namesake comparison. This profile’s later Lisnagaver census and civil death describe a County Londonderry-born man and a weaver; they do not bridge to Moneymore. Different later occupation does not by itself exclude a match. No Lisnagaver appearance or relationship is established by this newspaper.
+
+[Freeman’s Journal and Daily Commercial Advertiser, 19 March 1845, p. 1, Ulster tenant-right discussion](https://www.newspapers.com/image/1050103241/)
+
+[Connected source account and full held draft](/research/subjects/newspapers-irish-1800-1850/#samuel-moneymore)
+
+## Next records to check — newspaper identity
+
+Resolve the documentary person’s identity before changing WikiTree facts or relationships. Original source readings, compatible alternatives and discriminating tests are retained in the linked account.
