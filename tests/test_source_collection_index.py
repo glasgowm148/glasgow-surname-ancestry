@@ -89,6 +89,42 @@ class SourceCollectionIndexTest(unittest.TestCase):
         item = build_index(root)[0]
         self.assertIsNone(item["year"])
 
+    def test_census_access_date_and_archive_numbers_do_not_hide_enumeration(self):
+        root = fixture({"title": '1851 Census: "1851 Scotland Census", accessed 11 July 2026; Roll 1114; born 1813'})
+        item = build_index(root)[0]
+        self.assertEqual(item["years"], [1851])
+        self.assertEqual(item["year"], 1851)
+        self.assertEqual(item["countries"], ["Scotland"])
+
+    def test_enumeration_district_and_database_date_are_not_census_years(self):
+        root = fixture({"title": '1910 Census: "1910 United States Federal Census" Date: 2006; Enumeration District: 1266; Year: 1910; Born in Ireland'})
+        item = build_index(root)[0]
+        self.assertEqual(item["years"], [1910])
+        self.assertEqual(item["countries"], ["United States"])
+
+    def test_unresolved_census_does_not_use_access_date_or_roll_number(self):
+        item = build_index(fixture({"title": "Census source; accessed 2026; Roll 1114"}))[0]
+        self.assertIsNone(item["year"])
+        self.assertEqual(item["years"], [])
+
+    def test_original_nai_household_url_supplies_enumeration_year(self):
+        item = build_index(fixture({"title": "Alexander Glasgow household, accessed 2026", "url": "https://www.census.nationalarchives.ie/pages/1851/Antrim/Rasharkin/Lisnagaver/35/"}))[0]
+        self.assertEqual(item["years"], [1851])
+        self.assertEqual(item["countries"], ["Ireland"])
+
+    def test_shared_census_reference_keeps_both_explicit_years(self):
+        item = build_index(fixture({"title": "1901 Census of Ireland and 1911 Census of Ireland, accessed 2026"}))[0]
+        self.assertIsNone(item["year"])
+        self.assertEqual(item["years"], [1901, 1911])
+
+    def test_access_note_does_not_hide_later_census_in_shared_reference(self):
+        item = build_index(fixture({"title": "1901 Census of Ireland, accessed 10 August 2026; 1911 Census of Ireland"}))[0]
+        self.assertEqual(item["years"], [1901, 1911])
+
+    def test_linked_census_person_keeps_public_name_for_search(self):
+        root = fixture({"title": "1851 Census of Ireland", "citations": [{"person": "Glasgow-951", "name": "Alexander Glasgow"}]}, {"id": "s-test", "title": "1851 Census of Ireland", "members": ["glasgow-951"], "citations": 1})
+        self.assertEqual(build_index(root)[0]["people"], [{"id": "glasgow-951", "name": "Alexander Glasgow"}])
+
 
 if __name__ == "__main__":
     unittest.main()

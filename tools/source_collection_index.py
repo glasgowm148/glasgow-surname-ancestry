@@ -77,11 +77,44 @@ _DATE_TYPES = {
 }
 
 
+def _census_metadata(doc: dict) -> tuple[list[int], list[str]]:
+    """Use enumeration titles/URLs, never access dates, roll numbers or birthplaces."""
+    title = re.sub(r"\b[A-Za-z][A-Za-z'-]*-\d+\b", "", str(doc.get("title") or ""))
+    title = re.sub(r"\b(?:accessed|reviewed|retrieved)\b\s*:?\s*(?:\d{4}-\d{2}-\d{2}|\d{1,2}\s+[a-z]+\s+\d{4}|[a-z]+\s+\d{1,2},?\s+\d{4}|\d{4})", "", title, flags=re.I)
+    years = set()
+    for pattern in (
+        r"(?<!\d)(1\d{3}|20\d{2})\s+(?:[A-Za-z’'-]+\s+){0,6}(?:census|enumeration)\b",
+        r"\b(?:census|enumeration)(?:\s+of)?(?:\s+(?:Ireland|Scotland|England|Wales|United|States|Federal|Canada|Australia|New|Zealand|Irish|Scottish|and))*[, :“\"]+(1\d{3}|20\d{2})(?!\d)",
+    ):
+        years.update(int(y) for y in re.findall(pattern, title, re.I))
+    url = str(doc.get("url") or "")
+    if re.search(r"census|nationalarchives\.ie|downtheroad\.dev", url, re.I):
+        years.update(int(y) for y in re.findall(r"(?:/pages/|[?&#](?:census_year|year)=)(1\d{3}|20\d{2})(?!\d)", url, re.I))
+    names = {
+        "Ireland": r"Ireland|Irish", "Scotland": r"Scotland|Scottish",
+        "England": r"England(?: and Wales)?|English|England & Wales",
+        "United States": r"United States(?: Federal)?|U\.?S\.?A?\.?",
+        "Canada": r"Canada|Canadian", "Australia": r"Australia|Australian",
+        "New Zealand": r"New Zealand",
+    }
+    countries = []
+    for country, pattern in names.items():
+        if re.search(rf"\b(?:{pattern})(?:[\s,]+[A-Za-z’'-]+){{0,3}}[\s,]+census\b|\bcensus(?:\s+of)?[\s,:“\"]+(?:{pattern})\b", title, re.I):
+            countries.append(country)
+    if not countries and re.search(r"(?:census\.)?nationalarchives\.ie", url):
+        countries = ["Ireland"]
+    return sorted(years), countries
+
+
 def _years(doc: dict, text: str, categories: list[str]) -> tuple[int | None, str]:
     if re.search(r"\bwikitree\b|profile export|tree-only|family tree", _classification_text(doc), re.I):
         return None, "unknown"
+    if "census" in categories:
+        census_years, _ = _census_metadata(doc)
+        if census_years:
+            return (census_years[0], "source title") if len(census_years) == 1 else (None, "multiple census years")
     title = re.sub(r"\b[A-Za-z][A-Za-z'-]*-\d+\b", "", str(doc.get("title") or ""))
-    title_years = [int(x) for x in _YEAR.findall(title)]
+    title_years = [] if "census" in categories else [int(x) for x in _YEAR.findall(title)]
     if len(set(title_years)) == 1:
         return title_years[0], "source title"
     if title_years:
@@ -146,10 +179,21 @@ def build_index(web: Path) -> list[dict]:
         if any(re.search(r"^glasgow(?:,|\s|$)", place, re.I) for place in places) and "Scotland" not in countries:
             countries.append("Scotland")
         year, year_basis = _years(doc, text, categories)
+        census_years, census_countries = _census_metadata(doc) if "census" in categories else ([], [])
+        if census_countries:
+            countries = census_countries
+        people = {}
+        for key in ("citations", "records", "events"):
+            entries = doc.get(key) or []
+            for entry in entries if isinstance(entries, list) else []:
+                if isinstance(entry, dict) and entry.get("person") and entry.get("name"):
+                    people[str(entry["person"]).lower()] = str(entry["name"])
         result.append({
             "id": row["id"], "title": row.get("title") or doc.get("title") or "",
             "categories": categories, "year": year, "year_basis": year_basis,
+            "years": census_years or ([year] if year else []),
             "countries": countries, "places": places, "members": row.get("members") or [],
+            "people": [{"id": ident, "name": people.get(ident.lower(), ident)} for ident in row.get("members") or []],
             "records": row.get("records") or 0, "citations": row.get("citations") or 0,
             "image": bool(row.get("image") or doc.get("image")),
             "transcription": bool(row.get("transcription") or doc.get("transcription")),

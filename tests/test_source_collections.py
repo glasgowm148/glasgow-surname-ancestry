@@ -38,9 +38,35 @@ class SourceCollectionsTests(unittest.TestCase):
         page = (WEB/'sources/census/ireland/1851/index.html').read_text()
         for term in ('1851 Irish Census', 'one Belfast ward', 'Fermanagh', 'heads-of-household index', '1922', 'deaths since 1841', 'National Archives', 'Original / provider link'):
             self.assertIn(term, page)
-        expected = [r['id'] for r in self.rows if 'census' in r['categories'] and 'Ireland' in r['countries'] and r['year']==1851]
+        expected = [r['id'] for r in self.rows if 'census' in r['categories'] and 'Ireland' in r['countries'] and 1851 in r.get('years', [])]
         self.assertTrue(expected)
         for ident in expected: self.assertIn('/sources/'+ident+'/', page)
+
+    def test_census_year_pages_include_shared_references_and_linked_people(self):
+        census = [r for r in self.rows if 'census' in r['categories']]
+        for row in census:
+            for country in row['countries']:
+                country = country.lower().replace(' ', '-')
+                for year in row.get('years', []) or ['undated']:
+                    path = WEB/f'sources/census/{country}/{year}/index.html'
+                    self.assertTrue(path.exists(), str(path))
+                    self.assertIn('/sources/'+row['id']+'/', path.read_text())
+        ireland = [r for r in census if 'Ireland' in r['countries'] and 1851 in r.get('years', [])]
+        people = {p['id'] for row in ireland for p in row['people']}
+        page = (WEB/'sources/census/ireland/1851/index.html').read_text()
+        self.assertIn(f'{len(ireland)} reference items · {len(people)} linked catalogue people', page)
+        self.assertIn('Alexander Glasgow', page)
+        self.assertIn('not a complete surname search', page)
+
+    def test_census_access_dates_and_emigrant_birthplaces_do_not_create_year_pages(self):
+        census = [r for r in self.rows if 'census' in r['categories']]
+        overseas = next(r for r in census if r['id']=='s-4b3536e47ecee8f9')
+        self.assertEqual(overseas['years'], [1920])
+        self.assertEqual(overseas['countries'], ['United States'])
+        scottish = next(r for r in census if r['id']=='s-2e89040aaf680d40')
+        self.assertEqual(scottish['years'], [1841])
+        self.assertIn(scottish['id'], (WEB/'sources/census/scotland/1841/index.html').read_text())
+        self.assertFalse((WEB/'sources/census/ireland/2026/index.html').exists())
 
     def test_newspaper_review_preserves_all_rows_and_uncertainty(self):
         page = (WEB/'sources/newspapers/index.html').read_text()

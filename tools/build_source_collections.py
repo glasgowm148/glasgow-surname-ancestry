@@ -70,19 +70,32 @@ def display_title(row):
 
 
 def card(row):
-    year = str(row['year']) if row['year'] else 'Year unresolved'
+    year = ', '.join(map(str, row.get('years') or [])) or 'Year unresolved'
     detail = f'/sources/{row["id"]}/'
     original = row.get('original_url')
     label = 'Profile / family account' if row['original_kind'] == 'profile' else 'Original / provider link'
     origin = f'<a href="{e(original, quote=True)}">{label} ↗</a>' if original else '<span>Original link not recorded; see the citation</span>'
     places = ' · '.join(row['places'][:2])
-    return f'<article class="sc-reference"><div class="sc-year">{e(year)}<small>{e(row["year_basis"])}</small></div><div><h3><a href="{detail}">{e(display_title(row))}</a></h3><p>{len(row["members"])} linked people · {row["citations"]} citations</p>{("<p>Linked record places: " + e(places) + "</p>") if places else ""}<div class="sc-record-links"><a href="{detail}">Evidence & people</a>{origin}</div></div></article>'
+    people = census_people_links(row, detail) if 'census' in row['categories'] else ''
+    return f'<article class="sc-reference"><div class="sc-year">{e(year)}<small>{e(row["year_basis"])}</small></div><div><h3><a href="{detail}">{e(display_title(row))}</a></h3><p>{len(row["members"])} linked people · {row["citations"]} citations</p>{people}{("<p>Linked record places: " + e(places) + "</p>") if places else ""}<div class="sc-record-links"><a href="{detail}">Evidence & people</a>{origin}</div></div></article>'
+
+
+def census_people_links(row, fallback):
+    return '<p class="sc-census-people">People linked to this reference: ' + ' · '.join(
+        f'<a href="{e(person.get("url") or fallback, quote=True)}">{e(person["name"])}</a>'
+        for person in row.get('people', [])) + '</p>' if row.get('people') else ''
+
+
+def census_summary(rows):
+    people = {p['id']: p for row in rows for p in row.get('people', [])}
+    dated = sum(bool(row.get('years')) for row in rows)
+    return f'<section class="sc-census-summary"><h2>People in the collected census references</h2><p><strong>{len(rows):,} reference items · {len(people):,} linked catalogue people</strong>. Several citations may describe the same household; one return can name several people. Linked people include spouses and relatives and are not a verified count of Glasgow surname entries. This is our collected evidence, not a complete surname search of the surviving census.</p><p>{dated:,} references have a supported census year; {len(rows)-dated:,} remain unresolved. Years come from the enumeration title or original census URL; access dates, birth years and archive numbers are excluded. Countries identify the census jurisdiction where stated, rather than a person’s birthplace.</p></section>'
 
 
 def browser(rows, category, country='', year='', period=''):
     rows = sorted(rows, key=lambda r: (r['year'] or 9999, r['title'].casefold(), r['id']))
     opts = ''.join(f'<option>{e(v)}</option>' for v in COUNTRIES)
-    years = sorted({r['year'] for r in rows if r['year']})
+    years = sorted({y for r in rows for y in r.get('years', [])})
     yearopts = '<option value="undated">Year unresolved</option>' + ''.join(f'<option value="{y}">{y}</option>' for y in years)
     initial = ''.join(card(r) for r in rows[:24])
     rest = '<details class="sc-static-index"><summary>Complete collection index — all reference links</summary><ul>' + ''.join(f'<li><a href="/sources/{e(r["id"])}/">{e(display_title(r))}</a></li>' for r in rows) + '</ul></details>'
@@ -274,7 +287,11 @@ def repair(web=None):
     web = web or WEB
     config = json.loads((INPUT / 'coverage.json').read_text())
     rows = build_index(web)
-    for row in rows: row['display_title'] = display_title(row)
+    for row in rows:
+        row['display_title'] = display_title(row)
+        for person in row.get('people', []):
+            local = '/people/' + person['id'].lower() + '.html'
+            person['url'] = local if (web / local.lstrip('/')).exists() else '/sources/' + row['id'] + '/'
     counts = Counter(c for r in rows for c in r['categories'])
     clips = load_clips(web)
     supplied = supplied_clippings(web)
@@ -309,8 +326,12 @@ def repair(web=None):
         out = out.replace('</body>', f'<script defer src="/assets/sources/collections.js?v={jv}"></script></body>', 1)
         stats['pages'] += write(web / path.lstrip('/') / 'index.html', out)
         written.append(path)
-    def hero(title, intro, count=None):
-        return '<header class="sc-hero"><p class="sc-eyebrow">The source library</p><h1>' + e(title) + '</h1><p>' + e(intro) + '</p>' + (f'<span class="sc-total">{count:,} collected reference items</span>' if count is not None else '') + '</header>'
+    def people_count(group):
+        return len({ident for row in group for ident in row['members']})
+    def hero(title, intro, count=None, people=None):
+        total = f'{count:,} collected reference items' if count is not None else ''
+        if people is not None: total += f' · {people:,} linked catalogue people'
+        return '<header class="sc-hero"><p class="sc-eyebrow">The source library</p><h1>' + e(title) + '</h1><p>' + e(intro) + '</p>' + (f'<span class="sc-total">{total}</span>' if total else '') + '</header>'
     tiles = ''.join(f'<a class="sc-tile" href="/sources/{key}/"><span>{counts[key]:,} references</span><h2>{e(title)}</h2><p>{e(description)}</p></a>' for key,(title,description) in TYPES.items())
     featured = '<section><h2>Start with a reviewed collection</h2><div class="sc-featured">' + ''.join(f'<a href="{url}">{label}<span>{description}</span></a>' for url,label,description in [('/sources/newspapers/?clip=1#newspaper-records','Saved newspaper clippings',f'{len(clips)} saved excerpts linked to reviewed notices, with identity limits'),('/sources/census/ireland/1851/','1851 Irish Census','Surviving fragments, local references and the records lost in 1922'),('/sources/census/ireland/1831/','1831 Irish Census','Derry householders and religious counts; not a list of every person'),('/sources/deaths/ireland/civil-1864-1900/','Irish civil deaths, 1864–1900','241 index leads, qualified matches and original-record checks'),('/sources/births/scotland/opr-to-1700/','Scottish parish registers through 1700','Reviewed births, baptisms, parents and unresolved identities')]) + '</div></section>'
     intro = '<p class="sc-callout">This library brings together original-record references, indexes, transcripts and family accounts. Counts describe our collected references, not unique people or complete archival holdings. Country and year groups are navigation aids; uncertain or missing dates remain visible. Each item opens its evidence, linked profiles and the recorded provider link. A profile citation is labelled as a family account.</p>'
@@ -327,7 +348,8 @@ def repair(web=None):
                 return f'{reviewed} retained pages · {count} references'
             return f'{count:,} references'
         countrylinks = '<section><h2>By country & location</h2><div class="sc-location-links">' + ''.join(f'<a href="/sources/{category}/{slug(c)}/">{c} <span>{country_count(c)}</span></a>' for c in countries) + '</div><p>Use the collection search for a county, parish, townland or address. Newspaper country groups identify the place of publication; the subject may have lived elsewhere.</p></section>'
-        body = hero(title, description, len(selected)) + countrylinks
+        body = hero(title, description, len(selected), people_count(selected) if category == 'census' else None) + countrylinks
+        if category == 'census': body += census_summary(selected)
         if category == 'newspapers':
             body += '<p><a href="/sources/newspapers/supplied-clippings/">Browse all 16 distinct supplied clippings</a>, including three still awaiting exact original-page links.</p>'
             inspected = len(newspaper['rows']) - review_counts['reading pending']
@@ -337,27 +359,33 @@ def repair(web=None):
         for country in countries:
             subset = [r for r in selected if country in r['countries']]
             route = category + '/' + slug(country)
-            exact_years = sorted({r['year'] for r in subset if r['year']}) if category == 'census' else []
+            exact_years = sorted({y for r in subset for y in r.get('years', [])}) if category == 'census' else []
             if category == 'census' and country == 'Ireland': exact_years = sorted(set(exact_years + [1821,1831,1841,1851,1861,1871,1881,1891,1901,1911,1926]))
             if category == 'census' and country == 'United States': exact_years = sorted(set(exact_years + [1890]))
             if category == 'newspapers': exact_years = sorted({int(r['date'][:4]) for r in newspaper['rows'] if newspaper_country(r['paper']) == country and r['status'] in ('confirmed surname','place study')})
             if exact_years:
-                subdivisions = '<h2>By record year</h2><div class="sc-location-links">' + ''.join(f'<a href="/sources/{route}/{y}/">{y}</a>' for y in exact_years) + '</div>'
+                subdivisions = '<h2>By record year</h2><div class="sc-location-links">' + ''.join(f'<a href="/sources/{route}/{y}/">{y}<span>{sum(y in r.get("years",[]) for r in subset)} references</span></a>' if category == 'census' else f'<a href="/sources/{route}/{y}/">{y}</a>' for y in exact_years) + (f'<a href="/sources/{route}/undated/">Year unresolved<span>{sum(not r.get("years") for r in subset)} references</span></a>' if category == 'census' and any(not r.get('years') for r in subset) else '') + '</div>'
             else:
                 subdivisions = '<h2>By record period</h2><div class="sc-location-links">' + ''.join(f'<a href="/sources/{route}/{p}/">{label}</a>' for p,(label,lo,hi) in PERIODS.items() if any((r['year'] is None if lo is None else r['year'] is not None and lo <= r['year'] <= hi) for r in subset)) + '</div>'
             speciallinks = '<div class="sc-location-links">' + ''.join(f'<a href="/sources/{key}/">{e("Old Parish Registers through 1700" if "opr-to-1700" in key else "GRONI death match review" if "groni" in key else "Civil deaths 1864–1900")}</a>' for key in sections if key.startswith(route + '/')) + '</div>'
-            body = hero(f'{country}: {title}', description, len(subset)) + subdivisions + speciallinks + guide(config, category, country)
+            body = hero(f'{country}: {title}', description, len(subset), people_count(subset) if category == 'census' else None) + subdivisions + speciallinks + guide(config, category, country)
+            if category == 'census': body += census_summary(subset)
             if category == 'newspapers': body += newspaper_body(newspaper, clips, web, country)
             body += browser(subset, category, country)
             page(route, f'{country}: {title}', body)
             for year in exact_years:
-                group = [r for r in subset if r['year'] == year]
+                group = [r for r in subset if year in r.get('years', [])]
                 adjective = {'Ireland':'Irish', 'Scotland':'Scottish', 'England':'England', 'United States':'United States'}.get(country, country)
                 heading = f'{year} {adjective} Census' if category == 'census' else f'{country} newspapers, {year}'
-                body = hero(heading, description, len(group)) + f'<p><a href="/sources/{route}/">← All {country} {title.lower()}</a></p>' + guide(config, category, country, year)
+                body = hero(heading, description, len(group), people_count(group) if category == 'census' else None) + f'<p><a href="/sources/{route}/">← All {country} {title.lower()}</a></p>' + guide(config, category, country, year)
+                if category == 'census': body += census_summary(group)
                 if category == 'newspapers': body += newspaper_body(newspaper, clips, web, country, year)
                 body += browser(group, category, country, year=year)
                 page(route + '/' + str(year), heading, body)
+            if category == 'census' and exact_years and any(not r.get('years') for r in subset):
+                group = [r for r in subset if not r.get('years')]
+                title_undated = f'{country}: census year unresolved'
+                page(route + '/undated', title_undated, hero(title_undated, 'Collected census references whose enumeration year is not established.', len(group)) + census_summary(group) + browser(group, category, country, year='undated'))
             if not exact_years:
                 for period,(label,lo,hi) in PERIODS.items():
                     group = [r for r in subset if (r['year'] is None if lo is None else r['year'] is not None and lo <= r['year'] <= hi)]
