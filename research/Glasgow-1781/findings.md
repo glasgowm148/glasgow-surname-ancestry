@@ -34,3 +34,20 @@ service and New Zealand migration are now present.
 
 Verified live **19 August 2026**: the structured birthplace is now **Ballymena,
 County Antrim, Ireland**, marked uncertain.
+
+
+## Source findings: Newspaper education and Belfast ministry, 4 October 2026
+
+Adam D. Glasgow of Broughshane appears in the Royal Belfast Academical Institution school prizes in June 1830 and Belfast College examinations reported in May 1831. The 1831 report also names James Glasgow, Institution, in voluntary advanced mathematical examinations. Sources: [Belfast News-Letter, 29 June 1830, p.3, Royal Belfast Academical Institution School Department](https://www.newspapers.com/image/390569859/), [Belfast News-Letter, 6 May 1831, p.3, Belfast College report dated 30 April](https://www.newspapers.com/image/390545285/).
+
+Adam D. Glasgow resigned as an assistant in the Royal Belfast Institution’s Mathematical and Mercantile School in December 1836. Rev. Adam D. Glasgow received a unanimous call to Berry Street Presbyterian Church, Belfast, in January 1840 and was its newly ordained minister at a congregational presentation on 5 March. Sources: [Belfast News-Letter, 10 January 1837, p.2, resignation presentation on 22 December 1836](https://www.newspapers.com/image/390542489/), [Belfast News-Letter, 17 January 1840, p.2, Berry Street ministerial call](https://www.newspapers.com/image/390553900/), [Belfast News-Letter, 10 March 1840, p.2, Berry Street soiree on 5 March](https://www.newspapers.com/image/390555182/).
+
+## Identity and relationship assessment: October newspaper review
+
+Adam Dickie Glasgow-1781 (1815–1863), Presbyterian minister with a documented Belfast period, is the strongest compatible profile. Repeated Adam D. and the Institution setting support a consolidated education/teaching account; continuity into the Berry Street ministry is a supported inference. The inspected notices do not give Dickie in full, age, parents or later migration. The older Inishrush Adams remain separate namesake comparisons; no family link is upgraded.
+
+No existing parent or sibling certainty changes from these notices. See the [complete qualified newspaper account](/research/subjects/newspapers-irish-1800-1850/#adam-belfast-education-ministry) and maintained review `research/newspapers-1800-1850-continuation-2026-10-04.md`.
+
+## Unresolved and priority actions: newspaper review
+
+Check the original Institution admissions/staff and examination records, and the Berry Street call/ordination minutes, before upgrading the profile assignment.

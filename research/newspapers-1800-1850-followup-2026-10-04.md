@@ -65,3 +65,8 @@ All seven documentary subjects have complete sourced held drafts and checked com
 434 historical catalogue targets, 83 given-name forms;30 distinct priority searches (15 names in each collection), 250 result entries retrieved, 243 readable first previews scanned. Ten original surname pages newly resolved (nine newly catalogued, one pending 1850 page completed). Large queries and 68 other forms per collection remain.
 
 Continue quoted catalogue names and earliest unloaded pages; inspect the 1831 Robert/John address heading and family identities, 1836 repeated inn advertisements, further Academy notices, 1825 Benjamin Dublin lead and early George/George Mark military notices. Private original screenshots and snippets are separate from public summaries. No exhaustive pre 1850 claim, live edit or deployment.
+
+
+## Continued review, 4 October 2026
+
+The [continuation](newspapers-1800-1850-continuation-2026-10-04.md) adds six original surname pages for Adam D. Glasgow, James of the Institution, and an unassigned Cookstown William. Current cumulative coverage: 43 distinct queries (42 quoted-name and one contextual), 345 entries retrieved, 324 readable first previews screened, 16 originals newly resolved. 62 catalogue forms per collection remain unqueried; larger sets and additional highlights are incomplete. No family certainty changes or live edits.

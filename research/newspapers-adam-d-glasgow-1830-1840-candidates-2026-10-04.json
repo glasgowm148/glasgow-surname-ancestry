@@ -1,0 +1,35 @@
+{
+  "reviewed_on": "2026-10-04",
+  "source_basis": "research/newspapers-1800-1850-continuation-2026-10-04.md",
+  "scope": "Bounded historical Irish catalogue/local notes plus live Adam-1781 and James-1780 biographies; no exhaustive external duplicate search.",
+  "adam_candidates": [
+    {
+      "id": "Glasgow-1781",
+      "reason": "Strong compatible candidate: 1815 Ballymena birth, Presbyterian ministry and earlier Belfast period; live biography checked 4 October 2026. College and ordination records should test the full-name bridge."
+    },
+    {
+      "id": "Glasgow-3373",
+      "reason": "Born 7 July 1804; chronologically compatible namesake, later in Illinois. No institution/ministry bridge is established; missing corroboration is not an exclusion."
+    },
+    {
+      "id": "Glasgow-1622",
+      "reason": "Born before 1794; father and farmer in the 1851 Inishrush marriage evidence. A weaker namesake comparison with no institution/ministry bridge."
+    },
+    {
+      "id": "Glasgow-3902",
+      "reason": "Inishrush landholder, c.1758–1844, distinct documented household. A much older namesake comparison, not an assigned student or minister; no unsupported family bridge."
+    }
+  ],
+  "james_candidates": [
+    {
+      "id": "Glasgow-1780",
+      "reason": "Strong compatible candidate: current biography explicitly records Institution education and mathematics, with 1834 licensing. His documented brother is Adam Dickie Glasgow. The dated newspaper occurrence remains a qualified assignment."
+    }
+  ],
+  "live_profile_comparisons": {
+    "Glasgow-1781": "Checked Ballymena 1815 birth, Presbyterian ministry, prior Belfast and 1863 death; no inspected college/ordination source in the live account.",
+    "Glasgow-1780": "Checked Clough 1805 birth, Institution education/mathematics in current Education section, 1834 licensing and documented Adam brother. Education source not newly read."
+  },
+  "conclusion": "Strong compatible assignments remain qualified. Newspaper co-occurrence gives no new sibling or parent proof.",
+  "relationship_changes": []
+}

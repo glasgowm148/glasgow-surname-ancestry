@@ -17754,6 +17754,97 @@
         "surname-research/indexes/glasgow-newspaper-review.json",
         "research/newspapers-1800-1850-followup-2026-10-04.md"
       ]
+    },
+    {
+      "id": "belfast-glasgow-college-prizes-1830-1831",
+      "kind": "biographical",
+      "finding": "Adam D. Glasgow of Broughshane appears in the Royal Belfast Academical Institution school prizes in June 1830 and Belfast College examinations reported in May 1831. The 1831 report also names James Glasgow, Institution, in voluntary advanced mathematical examinations.",
+      "qualification": "Adam Dickie Glasgow-1781 and James McClure Glasgow-1780 are strong compatible candidates. James’s checked live biography names the Institution and mathematics, but its underlying education source was not newly read. The newspaper gives no ages or parents and does not call these men brothers. Their already documented sibling relationship is a comparison, not a new relationship upgrade.",
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 29 June 1830, p.3, Royal Belfast Academical Institution School Department",
+          "url": "https://www.newspapers.com/image/390569859/"
+        },
+        {
+          "title": "Belfast News-Letter, 6 May 1831, p.3, Belfast College report dated 30 April",
+          "url": "https://www.newspapers.com/image/390545285/"
+        }
+      ],
+      "found_on": "2026-10-04",
+      "status": "confirmed",
+      "people": [
+        {
+          "name": "Adam D. Glasgow, Broughshane student and Belfast teacher/minister",
+          "url": "/research/subjects/newspapers-irish-1800-1850/#adam-belfast-education-ministry"
+        },
+        {
+          "name": "James Glasgow, Belfast College mathematics examinee, 1831",
+          "url": "/research/subjects/newspapers-irish-1800-1850/#james-belfast-college"
+        }
+      ],
+      "detail_url": "/research/subjects/newspapers-irish-1800-1850/#adam-belfast-education-ministry",
+      "provenance": [
+        "research/newspapers-1800-1850-continuation-2026-10-04.md",
+        "surname-research/indexes/glasgow-newspaper-review.json"
+      ]
+    },
+    {
+      "id": "adam-d-glasgow-teaching-ministry-1836-1840",
+      "kind": "biographical",
+      "finding": "Adam D. Glasgow resigned as an assistant in the Royal Belfast Institution’s Mathematical and Mercantile School in December 1836. Rev. Adam D. Glasgow received a unanimous call to Berry Street Presbyterian Church, Belfast, in January 1840 and was its newly ordained minister at a congregational presentation on 5 March.",
+      "qualification": "The repeated name and institutional setting support the education/teaching continuity; the ministerial continuation and attribution to Adam Dickie Glasgow-1781 remain qualified. The newspaper does not spell out Dickie or identify parents. 5 March is the presentation date, not a proved ordination date.",
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 10 January 1837, p.2, resignation presentation on 22 December 1836",
+          "url": "https://www.newspapers.com/image/390542489/"
+        },
+        {
+          "title": "Belfast News-Letter, 17 January 1840, p.2, Berry Street ministerial call",
+          "url": "https://www.newspapers.com/image/390553900/"
+        },
+        {
+          "title": "Belfast News-Letter, 10 March 1840, p.2, Berry Street soiree on 5 March",
+          "url": "https://www.newspapers.com/image/390555182/"
+        }
+      ],
+      "found_on": "2026-10-04",
+      "status": "confirmed",
+      "people": [
+        {
+          "name": "Adam D. Glasgow, Broughshane student and Belfast teacher/minister",
+          "url": "/research/subjects/newspapers-irish-1800-1850/#adam-belfast-education-ministry"
+        }
+      ],
+      "detail_url": "/research/subjects/newspapers-irish-1800-1850/#adam-belfast-education-ministry",
+      "provenance": [
+        "research/newspapers-1800-1850-continuation-2026-10-04.md",
+        "surname-research/indexes/glasgow-newspaper-review.json"
+      ]
+    },
+    {
+      "id": "william-glasgow-claggan-collection-1846",
+      "kind": "biographical",
+      "finding": "Wm. Glasgow appears among Cookstown collectors and again among Cookstown donors in the 10-shillings-each list for the new Claggan Presbyterian Church, opened on 15 October 1846.",
+      "qualification": "Cookstown is supplied by the shared group punctuation; the separate Inishrush entry concerns James M’Caw. No age, trade or kin is stated. The occurrence is unassigned among the same-name Cookstown accounts and does not identify the later uncle or younger mill partner.",
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 10 November 1846, p.4, Claggan Presbyterian Church opening",
+          "url": "https://www.newspapers.com/image/390561508/"
+        }
+      ],
+      "found_on": "2026-10-04",
+      "status": "confirmed",
+      "people": [
+        {
+          "name": "William Glasgow, Cookstown collector/donor; identity unresolved",
+          "url": "/research/subjects/william-glasgow-irish-newspapers/#cookstown-uncle"
+        }
+      ],
+      "detail_url": "/research/subjects/william-glasgow-irish-newspapers/#cookstown-uncle",
+      "provenance": [
+        "research/newspapers-1800-1850-continuation-2026-10-04.md",
+        "surname-research/indexes/glasgow-newspaper-review.json"
+      ]
     }
   ]
 }
