@@ -4,7 +4,13 @@ The generated `www/` directory is the complete website root. No hosting credenti
 
 The catalogue's maintained stylesheet is `tools/catalogue-light.css`. Both the catalogue builder and unified-site repair copy it to `www/people/catalogue.css`; a full catalogue build also restores the unified light `/catalogue/` shell. `tools/check_public_catalogue.py` flags a dark stylesheet or a reverted catalogue shell before release. Package a new archive after presentation changes so old CSS cache URLs and old bundles are not reused.
 
-## Current live release — Pre-1800 priority closure, 5 October 2026
+## Current live release — Irish 1800–1850 continuation, 5 October 2026
+
+The live catalogue retains 375 pages: 374 surname pages and one place-study page, with 432 approved bounded PNG excerpts. The 296 confirmed pre-1800 surname pages are unchanged. This release adds qualified Irish 1800–1850 evidence. The 1841 Belfast notice for Rev. A. J. Glasgow leaves the second initial unresolved: Adam Dickie Glasgow remains possible, with conflicting contemporary initials; James McClure Glasgow has a concrete Bombay chronology conflict. The repeated 1849 Cookstown Russian Company notice for John Glasgow remains qualified (profile 2058). Issue-specific James Glasgow corrections preserve the distinctions among the underlying notices. These are documentary assessments, not established identity or relationship claims.
+
+Research commit: `86ecf007`. All 61 focused tests pass; release totals, Atlas destinations, publication boundaries and asset versions also pass. The reviewed dry-run has zero deletions and production smoke passes. All 694 checked live files match local bytes; the fourth-batch live hash record is `artifacts/pre1850-continuation-20261005/fourth-batch-live-hashes.json`. The live 1849 card was checked in Chrome. Evidence: `artifacts/pre1850-continuation-20261005/fourth-batch-*`. The previous downloadable bundle remains unchanged. No Git push or live WikiTree edit was performed.
+
+## Previous live release — Pre-1800 priority closure, 5 October 2026
 
 The live catalogue retains 296 pre-1800 surname pages, grouped into 155 distinct readings; every confirmed pre-1800 page has a saved clipping. Across all years, 373 retained pages display 429 approved bounded PNG excerpts. The recorded Irish broad/name/abbreviation priority queries, selected worldwide name audits and refreshed Glascow tail are closed for their displayed result sets. This is documented query closure, not proof of every surviving or unindexed newspaper mention. The 1800–1850 Irish extension follows.
 
