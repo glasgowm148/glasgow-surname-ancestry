@@ -85,3 +85,26 @@
  .v3-records .records-sort select { width:132px; }
  .v3-records .record-card h3,.v3-records .record-person { font-size:21px; }
 }
+
+
+/* Records as a table (stacks into cards on narrow screens). */
+.v3-records .records-table{width:100%;border-collapse:collapse;font-size:14px;line-height:1.45;background:#fff;border:1px solid #d6dfcd;border-radius:8px;overflow:hidden;margin-top:8px}
+.v3-records .records-table thead th{position:sticky;top:0;z-index:1;background:#eef3e8;text-align:left;font-size:11.5px;letter-spacing:.07em;text-transform:uppercase;color:#4b5f3f;padding:9px 10px;border-bottom:1px solid #cfd9c4;white-space:nowrap}
+.v3-records .records-table th button{all:unset;cursor:pointer}.v3-records .records-table th button::after{content:" ↕";opacity:.35}.v3-records .records-table th[aria-sort=ascending] button::after{content:" ↑";opacity:1}.v3-records .records-table th[aria-sort=descending] button::after{content:" ↓";opacity:1}
+.v3-records .records-table td{padding:9px 10px;border-bottom:1px solid #e4e9de;vertical-align:top}
+.v3-records .records-table tbody tr:nth-child(even){background:#fafbf8}.v3-records .records-table tbody tr:hover{background:#f2f6ed}
+.v3-records .records-table .rt-year{width:64px;font-weight:700;color:#3f5534;font-variant-numeric:tabular-nums;white-space:nowrap}
+.v3-records .records-table .record-person{font-size:15px}.v3-records .records-table .record-person a{font-family:Georgia,'Times New Roman',serif;font-weight:700;color:#26401f}
+.v3-records .records-table .rt-assoc{display:block;font-size:13px;color:#5a6450;margin-top:2px}
+.v3-records .records-table .rt-type{width:130px;color:#4f5948;font-size:13px}
+.v3-records .records-table .rt-place{width:150px;font-size:13px;overflow-wrap:anywhere}.v3-records .rt-dim{color:#a3a99a}
+.v3-records .records-table .rt-evidence{width:150px}.v3-records .records-table .badge-row{display:flex;flex-direction:column;align-items:flex-start;gap:3px;margin:0}
+.v3-records .records-table .evidence-badge{font-size:11px;padding:1px 7px}
+.v3-records .records-table .rt-src{width:84px;font-size:13px}.v3-records .records-table .rt-src summary{cursor:pointer;color:#405b33;font-weight:600}
+.v3-records .records-table .rt-src details[open]{position:relative}.v3-records .records-table .rt-src details[open]>p{width:min(360px,70vw);margin:6px 0 0 -280px;padding:8px 10px;background:#fbfcf9;border:1px solid #d6dfcd;border-radius:6px;overflow-wrap:anywhere}
+@media(max-width:760px){.v3-records .records-table,.v3-records .records-table tbody,.v3-records .records-table tr,.v3-records .records-table td{display:block;width:auto}
+.v3-records .records-table{border:0;background:transparent}.v3-records .records-table thead tr{display:flex;gap:6px;padding:4px 0}.v3-records .records-table thead th{position:static;border:1px solid #cfd9c4;border-radius:999px;padding:4px 10px;background:#fff}.v3-records .records-table thead th:not(:has(button)){display:none}
+.v3-records .records-table tbody tr{display:grid;grid-template-columns:56px minmax(0,1fr);gap:4px 10px;margin:8px 0;padding:12px;border:1px solid #d6dfcd;border-radius:8px;background:#fff!important}
+.v3-records .records-table td{padding:0;border:0}.v3-records .records-table .rt-year{grid-row:1/span 5}.v3-records .records-table td:not(.rt-year){grid-column:2;width:auto}
+.v3-records .records-table .badge-row{flex-direction:row;flex-wrap:wrap}.v3-records .records-table .rt-src details[open]>p{width:auto;margin:6px 0 0}}
+.v3-records .records-table .rt-src details{margin:0}.v3-records .records-table .record-person{font-family:inherit}

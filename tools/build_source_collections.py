@@ -92,14 +92,38 @@ def display_title(row):
 
 
 def card(row):
-    year = ', '.join(map(str, row.get('years') or [])) or 'Year unresolved'
+    """One reference as a table row (stacks into a card on narrow screens)."""
+    years = row.get('years') or []
+    year = ', '.join(map(str, years)) or '—'
+    basis = '' if row.get('year_basis') in ('', 'unknown', None) else row['year_basis']
     detail = f'/sources/{row["id"]}/'
     original = row.get('original_url')
-    label = 'Profile / family account' if row['original_kind'] == 'profile' else 'Original / provider link'
-    origin = f'<a href="{e(original, quote=True)}">{label} ↗</a>' if original else '<span>Original link not recorded; see the citation</span>'
-    places = ' · '.join(row['places'][:2])
-    people = census_people_links(row, detail) if 'census' in row['categories'] else ''
-    return f'<article class="sc-reference"><div class="sc-year">{e(year)}<small>{e(row["year_basis"])}</small></div><div><h3><a href="{detail}">{e(display_title(row))}</a></h3><p>{len(row["members"])} linked people · {row["citations"]} citations</p>{people}{("<p>Linked record places: " + e(places) + "</p>") if places else ""}<div class="sc-record-links"><a href="{detail}">Evidence & people</a>{origin}</div></div></article>'
+    if original:
+        label = 'Family account ↗' if row['original_kind'] == 'profile' else 'Original ↗'
+        origin = f'<a class="sc-src sc-src-{"profile" if row["original_kind"] == "profile" else "original"}" href="{e(original, quote=True)}">{label}</a>'
+    else:
+        origin = '<span class="sc-src sc-src-none" title="Original link not recorded; see the citation">No link</span>'
+    people = row.get('people') or []
+    shown = ''.join(f'<a href="{e(p.get("url") or detail, quote=True)}">{e(p["name"])}</a>' for p in people[:3])
+    more = f'<a class="sc-more" href="{detail}">+{len(people) - 3} more</a>' if len(people) > 3 else ''
+    if not people and row.get('members'):
+        shown = f'<a href="{detail}">{len(row["members"])} linked</a>'
+    places = row.get('places') or []
+    place = e(places[0]) + (f' <small>+{len(places) - 1}</small>' if len(places) > 1 else '') if places else '<span class="sc-dim">—</span>'
+    return (f'<tr class="sc-ref-row"><td class="sc-c-year" data-label="Year">{e(year)}'
+            + (f'<small>{e(basis)}</small>' if basis else '') + '</td>'
+            f'<td class="sc-c-title" data-label="Record"><a href="{detail}">{e(display_title(row))}</a></td>'
+            f'<td class="sc-c-people" data-label="People">{shown or "<span class=sc-dim>—</span>"}{more}</td>'
+            f'<td class="sc-c-place" data-label="Place">{place}</td>'
+            f'<td class="sc-c-src" data-label="Source">{origin}</td></tr>')
+
+
+REF_TABLE_HEAD = ('<table class="sc-ref-table"><thead><tr>'
+                  '<th scope="col" class="sc-c-year"><button type="button" data-sort="year">Year</button></th>'
+                  '<th scope="col" class="sc-c-title"><button type="button" data-sort="title">Record</button></th>'
+                  '<th scope="col" class="sc-c-people"><button type="button" data-sort="people">People</button></th>'
+                  '<th scope="col" class="sc-c-place">Place</th>'
+                  '<th scope="col" class="sc-c-src">Source</th></tr></thead><tbody>')
 
 
 def census_people_links(row, fallback):
@@ -119,9 +143,9 @@ def browser(rows, category, country='', year='', period=''):
     opts = ''.join(f'<option>{e(v)}</option>' for v in COUNTRIES)
     years = sorted({y for r in rows for y in r.get('years', [])})
     yearopts = '<option value="undated">Year unresolved</option>' + ''.join(f'<option value="{y}">{y}</option>' for y in years)
-    initial = ''.join(card(r) for r in rows[:24])
+    initial = (REF_TABLE_HEAD + ''.join(card(r) for r in rows[:50]) + '</tbody></table>') if rows else ''
     rest = '<details class="sc-static-index"><summary>Complete collection index — all reference links</summary><ul>' + ''.join(f'<li><a href="/sources/{e(r["id"])}/">{e(display_title(r))}</a></li>' for r in rows) + '</ul></details>'
-    return f'''<section class="sc-browser" data-category="{category}" data-country="{e(country, quote=True)}" data-year="{year}" data-period="{period}"><h2>Collected references <span class="sc-count-badge">{len(rows):,}</span></h2><p>Reference items in this project, not the total surviving archive. A reference can appear in several types or locations; several references can concern the same record. Countries are inferred from source descriptions and recorded places, so check the citation. Undated and ambiguous items remain available.</p><form class="sc-filters"><label>Search within this collection<input type="search" name="q" placeholder="Name, parish, townland, archive reference…"></label><label>Country / jurisdiction<select name="country"><option value="">All / unresolved</option>{opts}</select></label><label>Record year<select name="year"><option value="">All / unresolved</option>{yearopts}</select></label><label>Source link<select name="availability"><option value="">All references</option><option value="original">Original / provider link recorded</option><option value="none">Original link missing</option></select></label><button type="reset">Clear filters</button></form><p class="sc-result-count" role="status">{len(rows):,} reference items · earliest first</p><div class="sc-results">{initial or '<p>No reference item assigned to this collection yet. This does not mean the archive has no relevant records.</p>'}</div><nav class="sc-pager" aria-label="Reference pages"></nav>{rest}<noscript><p>Open the complete collection index above to see every reference without JavaScript.</p></noscript></section>'''
+    return f'''<section class="sc-browser" data-category="{category}" data-country="{e(country, quote=True)}" data-year="{year}" data-period="{period}"><h2>Collected references <span class="sc-count-badge">{len(rows):,}</span></h2><p>Reference items in this project, not the total surviving archive. A reference can appear in several types or locations; several references can concern the same record. Countries are inferred from source descriptions and recorded places, so check the citation. Undated and ambiguous items remain available.</p><form class="sc-filters"><label>Search within this collection<input type="search" name="q" placeholder="Name, parish, townland, archive reference…"></label><label>Country / jurisdiction<select name="country"><option value="">All / unresolved</option>{opts}</select></label><label>Record year<select name="year"><option value="">All / unresolved</option>{yearopts}</select></label><label>Source link<select name="availability"><option value="">All references</option><option value="original">Original / provider link recorded</option><option value="none">Original link missing</option></select></label><label class="sc-page-size">Show<select name="size"><option>25</option><option selected>50</option><option>100</option></select></label><button type="reset">Clear filters</button></form><p class="sc-result-count" role="status">{len(rows):,} reference items · earliest first</p><div class="sc-results">{initial or '<p>No reference item assigned to this collection yet. This does not mean the archive has no relevant records.</p>'}</div><nav class="sc-pager" aria-label="Reference pages"></nav>{rest}<noscript><p>Open the complete collection index above to see every reference without JavaScript.</p></noscript></section>'''
 
 
 def guide(config, category, country='', year=None):
