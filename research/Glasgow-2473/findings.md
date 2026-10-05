@@ -58,3 +58,15 @@ Robert Glasgow, master of the snow John and Archibald, of Glasgow, is reported a
 ## Next questions
 
 Inspect original ship registers, port entries and the 1738 Irvine Burgh Catalogue item; compare signatures, vessel ownership and family identifiers.
+
+## Current conclusion — additional newspaper originals, 5 October 2026
+
+Robert Glasgow, Edinburgh prisoner report, 1767: Uncertain birth before 7 January 1703 at Edinburgh permits an older adult in 1767. This upper birth bound is not an exact baptism or age; no court or banishment identity bridge. Two compatible Scottish profiles remain weak possibilities. No identity with the 1772 Robert son of Andrew at Calder, Maryland sale participant or Montgreenan man is established. No family or life-date change follows.
+
+## Source findings
+
+An Edinburgh city-gaol report names Robert Glasgow among prisoners convicted of theft and reports their sentence of public exposure and banishment from the city and liberties forever. Original inspected. The notice reports conviction and sentence; it does not establish later removal or identity with any other Robert Glasgow. Two compatible Scottish profiles remain weak possibilities. No identity with the 1772 Robert son of Andrew at Calder, Maryland sale participant or Montgreenan man is established. [The Caledonian Mercury, 1767-12-21, p.3](https://www.newspapers.com/image/395727807/)
+
+## Next questions
+
+Search Edinburgh court, police, and banishment records for the named Glasſgow and compare age, occupation, and residence.

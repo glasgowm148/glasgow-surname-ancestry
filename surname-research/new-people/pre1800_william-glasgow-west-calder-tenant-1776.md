@@ -1,4 +1,4 @@
-# William Glasgow, Cleugh-head and Clovenfordsyke tenancy notices,1774–1777
+# William Glasgow, Cleugh-head and Clovenfordsyke tenancy notices, 1774–1777
 
 HOLD — documented record; profile assignment qualified
 

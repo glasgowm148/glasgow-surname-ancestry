@@ -199,3 +199,15 @@ These are images of the registered memorial, not the separately executed lease.
 ## Live profile update — 21 September 2026, further records
 
 Saved and verified the original-deed source additions and their identity limits. No structured family or vital fields changed. [Complete saved biography](pre1710-record-update-2026-09-21.wiki).
+
+## Current conclusion — additional newspaper originals, 5 October 2026
+
+Robert Glasgow, Cecil County plantation notice, 1786: Estimated birth c. 1710 in County Antrim and estimated death c. 1772; the stated death estimate predates the 1786 notice and is a material conflict if accurate. Since it is estimated and no underlying source was checked here, retain as an unlikely lead rather than treating it as a certain exclusion. Glasgow-395 is the strongest bounded regional/chronological lead, with no plantation, Hartshorn or personal identity bridge. Glasgow-2425 remains a weak possible namesake. Glasgow-1143’s estimated c. 1772 death is a material chronology tension, not a certain exclusion without its underlying source. No joining to the Scottish Roberts is warranted. No family or life-date change follows.
+
+## Source findings
+
+A notice dated North Susquehanna hundred, Cecil county, Maryland, 10 February 1786 offers a 260-acre plantation for public vendue on 10 March, with immediate possession given by Robert Glasgow and Joshua Hartshorn. Two issues repeat one proposed sale. Robert’s precise role is unstated: owner, agent or another participant is not resolved. No completed sale or relationship to Hartshorn is proved. Glasgow-395 is the strongest bounded regional/chronological lead, with no plantation, Hartshorn or personal identity bridge. Glasgow-2425 remains a weak possible namesake. Glasgow-1143’s estimated c. 1772 death is a material chronology tension, not a certain exclusion without its underlying source. No joining to the Scottish Roberts is warranted. [The Pennsylvania Gazette, 1786-02-15, p.1](https://www.newspapers.com/image/41024006/), [The Pennsylvania Gazette, 1786-03-01, p.4](https://www.newspapers.com/image/41024088/)
+
+## Next questions
+
+Inspect Maryland land, tax, probate, and newspaper records for Robert Glasgow and Joshua Hartshorn in Cecil/Harford Counties around 1786; establish the named Robert's role and life chronology.

@@ -11,3 +11,27 @@ Andrew Glasgow is a named signatory in a Leith and St Anthony’s journeymen-soc
 ## Next questions
 
 Inspect original Leith society minutes, preses lists, trade records, and St Anthony’s/Leith registers for occupation, residence and family identifiers.
+
+## Current conclusion — additional newspaper originals, 5 October 2026
+
+Robert Glasgow and father Andrew, miller at Calder, 1772: Public vitals give uncertain birth in 1720 at Kirknewton/East Calder, allowing adult fatherhood in 1772. The profile has no recorded miller occupation or proved relationship to the newspaper Robert; its sibling relationship to Glasgow-1445 is tree-derived only. The notice explicitly names Robert’s father Andrew. Compatible existing Robert and Andrew profiles remain possible assignments only. Robert-1445’s tree-only father James and sibling Andrew-3052 are unverified leads; no parent replacement follows from identifying only the documentary family. Calder alone does not distinguish East from West Calder. No family or life-date change follows.
+
+## Source findings
+
+Robert Glasgow is listed as son of Andrew Glasgow, miller at Calder, in an Edinburgh magistrates’ notice dated 28 November 1772. The notice offers one guinea for discovery within the city/liberties of listed persons previously banished or bound to leave. The printed father–son statement is documentary family evidence; it does not prove a particular robbery conviction, apprehension, reward payment or identity with the 1767 prisoner. Neither existing Wiki Tree profile is identified. The notice explicitly names Robert’s father Andrew. Compatible existing Robert and Andrew profiles remain possible assignments only. Robert-1445’s tree-only father James and sibling Andrew-3052 are unverified leads; no parent replacement follows from identifying only the documentary family. Calder alone does not distinguish East from West Calder. [The Caledonian Mercury, 1772-11-28, p.3](https://www.newspapers.com/image/395731868/)
+
+## Next questions
+
+Seek parish, land, kirk-session, or occupational records naming the miller Andrew at Calder and his children; check Edinburgh records for the listed Robert.
+
+## Current conclusion — explicit Calder father–son statement, identity unresolved, 5 October 2026
+
+The notice explicitly names Robert’s father Andrew. Compatible existing Robert and Andrew profiles remain possible assignments only. Robert-1445’s tree-only father James and sibling Andrew-3052 are unverified leads; no parent replacement follows from identifying only the documentary family. Calder alone does not distinguish East from West Calder.
+
+Robert Glasgow is listed as son of Andrew Glasgow, miller at Calder, in an Edinburgh magistrates’ notice dated 28 November 1772. The notice offers one guinea for discovery within the city/liberties of listed persons previously banished or bound to leave. The printed father–son statement is documentary family evidence; it does not prove a particular robbery conviction, apprehension, reward payment or identity with the 1767 prisoner. Neither existing Wiki Tree profile is identified. The notice explicitly names Robert’s father Andrew. Compatible existing Robert and Andrew profiles remain possible assignments only. Robert-1445’s tree-only father James and sibling Andrew-3052 are unverified leads; no parent replacement follows from identifying only the documentary family. Calder alone does not distinguish East from West Calder. [The Caledonian Mercury, 1772-11-28, p.3](https://www.newspapers.com/image/395731868/), [The Caledonian Mercury, 1772-11-30, p.3](https://www.newspapers.com/image/395732022/)
+
+## Current conclusion — Kirkgate/Leith merchant contact, 1790, 5 October 2026
+
+No existing Andrew is identified. Three local candidates and other compatible chronological namesakes remain unresolved; missing records and uncertain bounds do not establish exclusions. The Leith notice does not prove family links or a particular society role. Same full name and Leith locality permit a provisional documentary cluster with the 1790 merchant. No occupation is transferred to the 1779 signatory, no tax office is inferred and personal continuity remains unproved.
+
+Andrew Glasgow, merchant in Kirkgate, Leith, is named as a contact where impost warrants may be obtained. A contact named in the NOTA of a liquor-impost notice; not a charge against Andrew or proof he held an official tax office. Same notice repeated in two issues. Name and Leith locality permit comparison with the 1779 society signatory, without proving personal continuity or family. [The Edinburgh Advertiser, 1790-12-07, p.3](https://www.newspapers.com/image/601818940/), [The Edinburgh Advertiser, 1790-12-10, p.2](https://www.newspapers.com/image/601819059/)

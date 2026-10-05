@@ -91,3 +91,9 @@ Robert Glasgow, Esq. of Montgreenan, is named in a lodged claim for enrolment on
 ## Next questions
 
 Inspect original commission and medical-service records, Loudoun subscription minutes and Ayr freeholder enrolment outcome; establish continuity and identifiers before upgrading profile facts.
+
+## Current conclusion — additional Montgreenan freeholder-claim notice, 5 October 2026
+
+Glasgow-1076 is a probable candidate for the exact Montgreenan designation, consistent with a prior independently reviewed 1802 record. The 1785 surgeon and 1793 Loudoun doctor are compatible earlier contexts; their identity with him is inferred, not explicitly linked. No family relationship is proved.
+
+Robert Glasgow, Esq. of Montgreenan, is named in a lodged claim for enrolment on Ayr’s roll of freeholders. Two original issues name the Montgreenan claimant before the forthcoming Michaelmas head-court; claim acceptance is not proved. Source-specific datelines are retained in the issue cards (earlier 6 August notice read as 3 August; 8 August notice dated 2 August). Glasgow-1076 is a probable candidate for the exact Montgreenan designation, consistent with a prior independently reviewed 1802 record. The 1785 surgeon and 1793 Loudoun doctor are compatible earlier contexts; their identity with him is inferred, not explicitly linked. No family relationship is proved. [The Edinburgh Advertiser, 1799-08-06, p.2](https://www.newspapers.com/image/601821728/), [The Caledonian Mercury, 1799-08-08, p.1](https://www.newspapers.com/image/395726257/)
