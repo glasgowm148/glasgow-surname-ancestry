@@ -39,7 +39,7 @@ The Derby Mercury, 22 May 1761, p.3, [original image](https://www.newspapers.com
 
 ## Identity and relationship assessments — newspaper review
 
-Samuel’s defence describes Holbourn work, time abroad and High Wickham residence; those are attributed statements. Henry Ward attributes a statement about an unnamed mother in South-street. No birth date, origin or family identity is established. The 1740 Ulster birth and 1801 Pennsylvania death remain uncertain; military commutation and the exact 21 May respite date require their own sources. A complete proposed qualification and original-record citations are queued locally; no live profile was edited.
+Samuel’s defence describes Holbourn work, time abroad and High Wickham residence; those are attributed statements. Henry Ward attributes a statement about an unnamed mother in South-street. No birth date, origin or family identity is established. The 1740 Ulster birth and 1801 Pennsylvania death remain uncertain; Military commutation requires its own source. The complete 22 May Public Advertiser paragraph and separate issue masthead now support 21 May as the reported royal-review day. A complete proposed qualification and original-record citations are queued locally; no live profile was edited.
 
 ## Current conclusion — additional original newspapers, 5 October 2026
 
@@ -52,3 +52,7 @@ Uncertain 1740 Ulster birth and 1801 Hanover Township, Washington County death a
 ## Next questions
 
 Find local original land, service, office or household records to bridge the named person to this family. Current family assessments retain their existing uncertainty.
+
+## Date qualification resolved — additional original, 5 October 2026
+
+The [https://www.newspapers.com/image/34424820/ Public Advertiser, 22 May 1761, p.3] says the report of seven Newgate malefactors was made to the King at St James’s “Yesterday”, and reports Samuel’s respite. A [separate page-1 masthead](https://www.newspapers.com/image/34424813/) is Friday, 22 May 1761, supporting 21 May as the reported royal-review day. This does not verify military commutation or pardon conditions. [https://www.newspapers.com/image/1212389396/ Berrow’s Worcester Journal, 14 May 1761, p.1] reports Samuel among two capital convictions; its manslaughter defendant is William Smith, not Samuel. [https://www.newspapers.com/image/34424864/ Public Advertiser, 26 May 1761, p.4] advertises printed trial proceedings listing Samuel’s horse-stealing case; it is not a new trial. All three original passages were inspected 5 October 2026. The exact cited-case association remains strong; ancestral identity stays unresolved.

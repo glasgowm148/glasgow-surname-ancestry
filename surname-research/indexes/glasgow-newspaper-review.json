@@ -25,7 +25,9 @@
     "The expanded long-s variant search displayed 28 matches but 27 unique preview cards were retrieved. Newly inspected 1746 and 1765 originals are retained; other previews remain leads. Complete pre-1800 coverage has not been established.",
     "5 October 2026 batch: 9 additionalpre 1800 surname pages with excerpts. WorldwideGlascow loading gaps and external-worker capture failures remain unresolved; query cards and OCR/no-match results are not verified absences. Date boundaries in profile indexes are not actual event years.",
     "By 5 October 2026, all 27 unique retrieved worldwide Glafco original pages were examined: 12 confirmed surname pages, 12 non-surname contexts and three ambiguous single-name/alias notices. The displayed total of 28 versus 27 cards remains unexplained. Glascow narrower queries retrieved further metadata but not every original. Confirmed surname pages and saved excerpts are integrated; no exhaustive pre-1800 claim is made.",
-    "5 October 2026 third batch: thirty additional original surname pages and two contextual headings saved. All nineteen Glafcoe cards and thirteen Samuel Glafgow cards were checked on originals; reprints remain separately cited but repeated readings share cards. Broader Glascow retrieval and additional highlights still prevent an exhaustive pre-1800 claim."
+    "5 October 2026 third batch: thirty additional original surname pages and two contextual headings saved. All nineteen Glafcoe cards and thirteen Samuel Glafgow cards were checked on originals; reprints remain separately cited but repeated readings share cards. Broader Glascow retrieval and additional highlights still prevent an exhaustive pre-1800 claim.",
+    "Additional 5 October Glascow checks cover twenty-four distinct originals from the eighty-five-card narrower export, plus two outside-export 1752 address reprints. One initial-only personal name, A. Glascow, was recaptured and retained after reviewing Dutch list syntax; other inspected passages were city, port, route or title uses. The two previously catalogued export IDs and uninspected remainder are separate. These checks do not establish global completeness.",
+    "The four worldwide quoted Glafcow full-name searches yielded eighteen cards on seventeen distinct original pages; all inspected, with ten surname pages retained and seven inspected false passages. Samuel-query postal/committee hits name James and John respectively. Earlier preview-only limitations for this packet are resolved by the original rechecks; additional page highlights and other OCR variants are not claimed exhausted."
   ],
   "rows": [
     {
@@ -6309,8 +6311,8 @@
         "\"Glascow\""
       ],
       "status": "confirmed surname",
-      "reading": "Samuel Glascow, for stealing a gelding described as the property of Mr Serjeant Heywood, and Thomas Andrews, separately described as convicted of an unnatural crime, were respited during His Majesty’s pleasure.",
-      "assessment": "The unnatural-crime description applies to Thomas Andrews. The exact Old Bailey case links strongly to the case cited on Glasgow-3175; the profile’s Ulster birth, Pennsylvania death and ancestry are not proved by that case. The notice reports respite, not execution or military commutation.",
+      "reading": "Samuel Glascow, for horse-stealing, and Thomas Andrews, for a separate offence, were reported respited during His Majesty’s pleasure.",
+      "assessment": "The unnatural-crime description applies to Thomas Andrews. The exact Old Bailey case links strongly to the case cited on Glasgow-3175; the profile’s Ulster birth, Pennsylvania death and ancestry are not proved by that case. The notice reports respite, not execution or military commutation. The Public Advertiser’s complete 22 May report and separate issue masthead now support 21 May as the reported royal-review day; this does not verify pardon conditions.",
       "profile_ids": [
         "Glasgow-3175",
         "Glasgow-1492"
@@ -7141,6 +7143,432 @@
       "reading": "The inspected match uses Glasgow as a port heading; Samuel is in adjacent shipping text, not a Glasgow surname.",
       "assessment": "Original opened and screened in the Samuel worldwide batch. Exclusion applies to this inspected passage only.",
       "profile_ids": [],
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "1335425007",
+      "date": "1794-06-26",
+      "paper": "Rotterdamse courant",
+      "page": 2,
+      "source_url": "https://www.newspapers.com/image/1335425007/",
+      "queries": [
+        "\"Glascow\""
+      ],
+      "status": "confirmed surname",
+      "reading": "A. Glascow from Glasgow is named with H. Jurriens from Riga and J. Mark from Königsbergen in a shipping-arrival report for 24 June 1794, under the Rotterdam dateline of 25 June.",
+      "assessment": "Personal initial-and-surname reading supported by the parallel named entries and arrival-list syntax. Maritime-master role is probable, not expressly assigned to A. in this passage. The following commanded-by name is P. L. Markwaarden, a separate entry, not J. Mark. The given name, gender, vessel, residence, birthplace and family are unknown; the Glasgow port does not identify personal origin. All profile leads are weak, without a maritime or event bridge.",
+      "profile_ids": [
+        "Glasgow-3313",
+        "Glasgow-2468",
+        "Glasgow-3165"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-3313",
+          "confidence": "possible",
+          "role": "Weak initial-and-chronology lead",
+          "basis": "Adult in 1794; Irvine is a plausible Scottish coastal context, but neither the profile nor its reviewed source summary records a maritime occupation or this Rotterdam occurrence. No identity bridge. Initial A. is not expanded; no likely profile identified."
+        },
+        {
+          "profile_id": "Glasgow-2468",
+          "confidence": "possible",
+          "role": "Weak initial-and-chronology lead",
+          "basis": "Adult in 1794 with an Ayrshire locality; no maritime occupation, Rotterdam link, or identifying family context is recorded. Do not infer master status from geography. Initial A. is not expanded; no likely profile identified."
+        },
+        {
+          "profile_id": "Glasgow-3165",
+          "confidence": "possible",
+          "role": "Weak initial-and-chronology lead",
+          "basis": "Chronologically adult in 1794, with a later reported Scottish death. The captured public profile cites an October 1819 Blackwood’s Magazine result but supplies no occupation or event bridge. The title ‘Esq’ is not maritime evidence. Initial A. is not expanded; no likely profile identified."
+        }
+      ],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#a-glascow-dutch-arrival-1794",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "1212389396",
+      "date": "1761-05-14",
+      "paper": "Berrow’s Worcester Journal",
+      "page": 1,
+      "source_url": "https://www.newspapers.com/image/1212389396/",
+      "queries": [
+        "\"Samuel Glafcow\""
+      ],
+      "status": "confirmed surname",
+      "reading": "Samuel Glascow is one of two prisoners reported capitally convicted at the Old Bailey; his charge is stealing a bay gelding belonging to Mr Serjeant Haywood.",
+      "assessment": "The manslaughter verdict belongs to William Smith, a separate defendant. The relative trial-day statement has no saved dateline; no 13 May trial date is inferred. This is a newspaper report of the case, not a separate trial or proof of ancestral identity.",
+      "profile_ids": [
+        "Glasgow-3175",
+        "Glasgow-1492"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-3175",
+          "confidence": "strong",
+          "role": "Exact case association; person unresolved",
+          "basis": "Existing profile cites the identical Old Bailey case. This identifies the cited case, not the Ulster/Pennsylvania ancestor or family."
+        },
+        {
+          "profile_id": "Glasgow-1492",
+          "confidence": "possible",
+          "role": "Unresolved namesake",
+          "basis": "Separate 1766 Gorteen record has no age or family bridge to this London defendant."
+        }
+      ],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#samuel-glascow-old-bailey",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "34424820",
+      "date": "1761-05-22",
+      "paper": "The Public Advertiser",
+      "page": 3,
+      "source_url": "https://www.newspapers.com/image/34424820/",
+      "queries": [
+        "\"Samuel Glafcow\""
+      ],
+      "status": "confirmed surname",
+      "reading": "Samuel Glascow, for horse-stealing, and Thomas Andrews, for a separate offence, were reported respited during His Majesty’s pleasure.",
+      "assessment": "The complete paragraph says “Yesterday” the report of seven Newgate malefactors was made to the King at St James’s. A separate original page-1 masthead reads Friday, 22 May 1761, supporting 21 May as the reported royal-review day. Respite is reported, not proof of pardon conditions, military service or ancestral identity. Thomas Andrews’s offence is not Samuel’s.",
+      "profile_ids": [
+        "Glasgow-3175",
+        "Glasgow-1492"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-3175",
+          "confidence": "strong",
+          "role": "Exact case association; person unresolved",
+          "basis": "Existing profile cites the identical Old Bailey case. This identifies the cited case, not the Ulster/Pennsylvania ancestor or family."
+        },
+        {
+          "profile_id": "Glasgow-1492",
+          "confidence": "possible",
+          "role": "Unresolved namesake",
+          "basis": "Separate 1766 Gorteen record has no age or family bridge to this London defendant."
+        }
+      ],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#samuel-glascow-old-bailey",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "34424864",
+      "date": "1761-05-26",
+      "paper": "The Public Advertiser",
+      "page": 4,
+      "source_url": "https://www.newspapers.com/image/34424864/",
+      "queries": [
+        "\"Samuel Glafcow\""
+      ],
+      "status": "confirmed surname",
+      "reading": "A one-shilling advertisement for printed Old Bailey trial proceedings lists Samuel Glascow’s horse-stealing case among its contents.",
+      "assessment": "This is a publication notice, not another trial, conviction or respite. The other defendants’ crimes are separate. The case association does not identify an Ulster or Pennsylvania family.",
+      "profile_ids": [
+        "Glasgow-3175",
+        "Glasgow-1492"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-3175",
+          "confidence": "strong",
+          "role": "Exact case association; person unresolved",
+          "basis": "Existing profile cites the identical Old Bailey case. This identifies the cited case, not the Ulster/Pennsylvania ancestor or family."
+        },
+        {
+          "profile_id": "Glasgow-1492",
+          "confidence": "possible",
+          "role": "Unresolved namesake",
+          "basis": "Separate 1766 Gorteen record has no age or family bridge to this London defendant."
+        }
+      ],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#samuel-glascow-old-bailey",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "39395391",
+      "date": "1757-04-07",
+      "paper": "The Pennsylvania Gazette",
+      "page": 1,
+      "source_url": "https://www.newspapers.com/image/39395391/",
+      "queries": [
+        "\"James Glafcow\""
+      ],
+      "status": "confirmed surname",
+      "reading": "James Glascow, Fogs Manor, is listed among letters remaining in the Philadelphia post office.",
+      "assessment": "Fogs Manor is preserved as printed. “Phil. Co.” is in the separate left-hand A column and is not assigned to James in the right-hand G column. Postal addressee only; occupation, exact jurisdiction and family are unstated. No identity bridge to the 1777 master or Irish James records.",
+      "profile_ids": [
+        "Glasgow-4124",
+        "Glasgow-3944",
+        "Glasgow-2988",
+        "Glasgow-1024"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-4124",
+          "confidence": "possible",
+          "role": "Possible identity; no record bridge",
+          "basis": "Before-1733 James Glasgow mariner/surgeon of Swift of Sheerness is chronologically compatible and occupationally relevant. The ship, route, region, and 44-year documentary gap provide no demonstrated identity link. The postal entry states no maritime occupation."
+        },
+        {
+          "profile_id": "Glasgow-3944",
+          "confidence": "possible",
+          "role": "Possible identity; no record bridge",
+          "basis": "Birth before 1726 and no recorded death permit an adult shipmaster occurrence in 1777; profile otherwise lacks corroborating details. The postal entry states no maritime occupation."
+        },
+        {
+          "profile_id": "Glasgow-2988",
+          "confidence": "possible",
+          "role": "Possible identity; no record bridge",
+          "basis": "Estimated c.1720 birth is chronologically plausible; no death or maritime evidence recorded. The postal entry states no maritime occupation."
+        },
+        {
+          "profile_id": "Glasgow-1024",
+          "confidence": "possible",
+          "role": "Possible identity; no record bridge",
+          "basis": "Estimated c.1722 birth is chronologically plausible; death date absent. Irish location is not a concrete contradiction. The postal entry states no maritime occupation."
+        }
+      ],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#james-glascow-fogs-manor-1757",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "34421452",
+      "date": "1777-05-14",
+      "paper": "The Public Advertiser",
+      "page": 2,
+      "source_url": "https://www.newspapers.com/image/34421452/",
+      "queries": [
+        "\"James Glafcow\""
+      ],
+      "status": "confirmed surname",
+      "reading": "Greenwich Packet: James Glascow, master; James Young, owner; from Philadelphia to Winyew, Carolina; with rum, bread, flour and porter.",
+      "assessment": "A vessel list headed “By the Orpheus and Daphne”; the master and owner are distinct people. Destination spelling is retained as read without modern normalization. No identity bridge to the 1757 postal addressee or Irish James records.",
+      "profile_ids": [
+        "Glasgow-4124",
+        "Glasgow-3944",
+        "Glasgow-2988",
+        "Glasgow-1024"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-4124",
+          "confidence": "possible",
+          "role": "Possible identity; no record bridge",
+          "basis": "Before-1733 James Glasgow mariner/surgeon of Swift of Sheerness is chronologically compatible and occupationally relevant. The ship, route, region, and 44-year documentary gap provide no demonstrated identity link."
+        },
+        {
+          "profile_id": "Glasgow-3944",
+          "confidence": "possible",
+          "role": "Possible identity; no record bridge",
+          "basis": "Birth before 1726 and no recorded death permit an adult shipmaster occurrence in 1777; profile otherwise lacks corroborating details."
+        },
+        {
+          "profile_id": "Glasgow-2988",
+          "confidence": "possible",
+          "role": "Possible identity; no record bridge",
+          "basis": "Estimated c.1720 birth is chronologically plausible; no death or maritime evidence recorded."
+        },
+        {
+          "profile_id": "Glasgow-1024",
+          "confidence": "possible",
+          "role": "Possible identity; no record bridge",
+          "basis": "Estimated c.1722 birth is chronologically plausible; death date absent. Irish location is not a concrete contradiction."
+        }
+      ],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#james-glascow-greenwich-packet-1777",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "396765804",
+      "date": "1777-05-17",
+      "paper": "The Ipswich Journal",
+      "page": 1,
+      "source_url": "https://www.newspapers.com/image/396765804/",
+      "queries": [
+        "\"James Glafcow\""
+      ],
+      "status": "confirmed surname",
+      "reading": "Greenwich Packet: James Glascow, master; James Young, owner; from Philadelphia to Winyew, Carolina; with rum, bread, flour and porter.",
+      "assessment": "Reprint of the same Greenwich Packet report; preserve this issue and original crop while sharing one event card. The column begins in continuation; a separate heading is not asserted for this crop. Destination spelling is uncertain.",
+      "profile_ids": [
+        "Glasgow-4124",
+        "Glasgow-3944",
+        "Glasgow-2988",
+        "Glasgow-1024"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-4124",
+          "confidence": "possible",
+          "role": "Possible identity; no record bridge",
+          "basis": "Before-1733 James Glasgow mariner/surgeon of Swift of Sheerness is chronologically compatible and occupationally relevant. The ship, route, region, and 44-year documentary gap provide no demonstrated identity link."
+        },
+        {
+          "profile_id": "Glasgow-3944",
+          "confidence": "possible",
+          "role": "Possible identity; no record bridge",
+          "basis": "Birth before 1726 and no recorded death permit an adult shipmaster occurrence in 1777; profile otherwise lacks corroborating details."
+        },
+        {
+          "profile_id": "Glasgow-2988",
+          "confidence": "possible",
+          "role": "Possible identity; no record bridge",
+          "basis": "Estimated c.1720 birth is chronologically plausible; no death or maritime evidence recorded."
+        },
+        {
+          "profile_id": "Glasgow-1024",
+          "confidence": "possible",
+          "role": "Possible identity; no record bridge",
+          "basis": "Estimated c.1722 birth is chronologically plausible; death date absent. Irish location is not a concrete contradiction."
+        }
+      ],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#james-glascow-greenwich-packet-1777",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "971522063",
+      "date": "1777-05-19",
+      "paper": "The Gloucester Journal",
+      "page": 1,
+      "source_url": "https://www.newspapers.com/image/971522063/",
+      "queries": [
+        "\"James Glafcow\""
+      ],
+      "status": "confirmed surname",
+      "reading": "Greenwich Packet: James Glascow, master; James Young, owner; from Philadelphia to Winyew, Carolina; with rum, bread, flour and porter.",
+      "assessment": "Reprint of the same Greenwich Packet report under “By the Orpheus and Daphne”; the master and owner are distinct people. Destination spelling is uncertain and not normalized. No family or 1757 postal identity established.",
+      "profile_ids": [
+        "Glasgow-4124",
+        "Glasgow-3944",
+        "Glasgow-2988",
+        "Glasgow-1024"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-4124",
+          "confidence": "possible",
+          "role": "Possible identity; no record bridge",
+          "basis": "Before-1733 James Glasgow mariner/surgeon of Swift of Sheerness is chronologically compatible and occupationally relevant. The ship, route, region, and 44-year documentary gap provide no demonstrated identity link."
+        },
+        {
+          "profile_id": "Glasgow-3944",
+          "confidence": "possible",
+          "role": "Possible identity; no record bridge",
+          "basis": "Birth before 1726 and no recorded death permit an adult shipmaster occurrence in 1777; profile otherwise lacks corroborating details."
+        },
+        {
+          "profile_id": "Glasgow-2988",
+          "confidence": "possible",
+          "role": "Possible identity; no record bridge",
+          "basis": "Estimated c.1720 birth is chronologically plausible; no death or maritime evidence recorded."
+        },
+        {
+          "profile_id": "Glasgow-1024",
+          "confidence": "possible",
+          "role": "Possible identity; no record bridge",
+          "basis": "Estimated c.1722 birth is chronologically plausible; death date absent. Irish location is not a concrete contradiction."
+        }
+      ],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#james-glascow-greenwich-packet-1777",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "39401494",
+      "date": "1773-04-28",
+      "paper": "The Pennsylvania Gazette",
+      "page": 1,
+      "source_url": "https://www.newspapers.com/image/39401494/",
+      "queries": [
+        "\"John Glafcow\""
+      ],
+      "status": "confirmed surname",
+      "reading": "John Glascow is an adjoining landholder in a West-Nottingham Township, Chester County execution-sale notice for 22½ acres, late Michael Dintz’s estate, bounded by Abraham Bunting, John Glascow and others.",
+      "assessment": "Planned sale 11 May at one o’clock on the premises; Henry Hayes, sheriff; notice dated 28 April 1773. John is the neighbouring landholder, not the deceased estate owner, buyer or executor. Sale completion is unproved.",
+      "profile_ids": [
+        "Glasgow-2871",
+        "Glasgow-4027"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-2871",
+          "confidence": "possible",
+          "role": "Possible identity; no record bridge",
+          "basis": "Adult at the 1776 roster date and later located in Chester County, Pennsylvania. His listed parents are John Glasgow (Glasgow-2870) and Mary Cranmer; that father died in 1769, so the candidate is not excluded. No source ties this son to the 1776 appointment roster or establishes that his surname spelling was Glafcow."
+        },
+        {
+          "profile_id": "Glasgow-4027",
+          "confidence": "possible",
+          "role": "Possible identity; no record bridge",
+          "basis": "Potentially alive and adult in August 1776; a Pennsylvania location and compatible time range make him worth comparing. The death qualifier permits death either before or after the roster date, so it is not a concrete exclusion. Public tree lists parents James Glasgow II (Glasgow-1024) and Mary Harkness, but this tree relationship is unmarked/uncertain and supplies no link to the roster."
+        }
+      ],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#john-glascow-chester-county",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "39401765",
+      "date": "1773-05-05",
+      "paper": "The Pennsylvania Gazette",
+      "page": 5,
+      "source_url": "https://www.newspapers.com/image/39401765/",
+      "queries": [
+        "\"John Glafcow\""
+      ],
+      "status": "confirmed surname",
+      "reading": "John Glascow is an adjoining landholder in a West-Nottingham Township, Chester County execution-sale notice for 22½ acres, late Michael Dintz’s estate, bounded by Abraham Bunting, John Glascow and others.",
+      "assessment": "Supplement reprint of the same notice dated 28 April, retaining the planned 11 May sale. Distinct issue, shared event card. John is an adjoining landholder; no completed purchase, estate ownership or relationship is inferred.",
+      "profile_ids": [
+        "Glasgow-2871",
+        "Glasgow-4027"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-2871",
+          "confidence": "possible",
+          "role": "Possible identity; no record bridge",
+          "basis": "Adult at the 1776 roster date and later located in Chester County, Pennsylvania. His listed parents are John Glasgow (Glasgow-2870) and Mary Cranmer; that father died in 1769, so the candidate is not excluded. No source ties this son to the 1776 appointment roster or establishes that his surname spelling was Glafcow."
+        },
+        {
+          "profile_id": "Glasgow-4027",
+          "confidence": "possible",
+          "role": "Possible identity; no record bridge",
+          "basis": "Potentially alive and adult in August 1776; a Pennsylvania location and compatible time range make him worth comparing. The death qualifier permits death either before or after the roster date, so it is not a concrete exclusion. Public tree lists parents James Glasgow II (Glasgow-1024) and Mary Harkness, but this tree relationship is unmarked/uncertain and supplies no link to the roster."
+        }
+      ],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#john-glascow-chester-county",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "39398635",
+      "date": "1776-08-28",
+      "paper": "The Pennsylvania Gazette",
+      "page": 3,
+      "source_url": "https://www.newspapers.com/image/39398635/",
+      "queries": [
+        "\"Samuel Glafcow\""
+      ],
+      "status": "confirmed surname",
+      "reading": "John Glascow is appointed to provide for distressed families of Associators in actual service by the Chester County Committee of Inspection and Observation, in a resolution dated 13 August 1776.",
+      "assessment": "Full heading and roster inspected. William Evans is chairman. This establishes an appointment, not that John was a soldier, Associator, recipient or relative of anyone listed. Same-name/county context with the 1773 land notice is compatible, but personal identity across the two events is unproved.",
+      "profile_ids": [
+        "Glasgow-2871",
+        "Glasgow-4027"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-2871",
+          "confidence": "possible",
+          "role": "Possible identity; no record bridge",
+          "basis": "Adult at the 1776 roster date and later located in Chester County, Pennsylvania. His listed parents are John Glasgow (Glasgow-2870) and Mary Cranmer; that father died in 1769, so the candidate is not excluded. No source ties this son to the 1776 appointment roster or establishes that his surname spelling was Glafcow."
+        },
+        {
+          "profile_id": "Glasgow-4027",
+          "confidence": "possible",
+          "role": "Possible identity; no record bridge",
+          "basis": "Potentially alive and adult in August 1776; a Pennsylvania location and compatible time range make him worth comparing. The death qualifier permits death either before or after the roster date, so it is not a concrete exclusion. Public tree lists parents James Glasgow II (Glasgow-1024) and Mary Harkness, but this tree relationship is unmarked/uncertain and supplies no link to the roster."
+        }
+      ],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#john-glascow-chester-county",
       "reviewed_on": "2026-10-05"
     }
   ]

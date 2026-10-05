@@ -71,3 +71,27 @@ No merger is justified yet. The Corvanaghan occurrence remains important because
 ## Birth-estimate audit - 21 August 2026
 
 The live structured birth was corrected to **about 1720, uncertain**. The 1740 Protestant return identifies James as a householder and defines this profile's identity but supplies no birth year. The earlier `before` value remains only a strict chronological boundary, not the most useful estimated birth. No biography, relationship, source or other structured field was changed in this audit.
+
+## Current conclusion — pre-1800 original newspapers, 5 October 2026
+
+James Glascow, Fogs Manor postal addressee: possible, weaker. Estimated c.1720 birth is chronologically plausible; no death or maritime evidence recorded. The postal record states no occupation. No existing person is identified. The postal addressee, 1777 shipmaster and Irish James occurrences remain separate; the record gives no maritime occupation. No parent, spouse or migration amendment follows.
+
+## Source findings
+
+James Glascow, Fogs Manor, is listed among letters remaining in the Philadelphia post office. Fogs Manor is preserved as printed. “Phil. Co.” is in the separate left-hand A column and is not assigned to James in the right-hand G column. Postal addressee only; occupation, exact jurisdiction and family are unstated. No identity bridge to the 1777 master or Irish James records. [The Pennsylvania Gazette, 1757-04-07, p.1](https://www.newspapers.com/image/39395391/)
+
+## Next questions
+
+Identify the historical Fogs Manor address from contemporary postal, land and tax records; compare original family evidence before assigning a profile.
+
+## Current conclusion — pre-1800 original newspapers, 5 October 2026
+
+James Glascow, master of Greenwich Packet: possible, weaker. Estimated c.1720 birth is chronologically plausible; no death or maritime evidence recorded. Glasgow-4124 is a possible occupational comparison with a 1733 mariner record, separated by 44 years. No likely identity is proved, and no link to the 1757 addressee or Irish James records is established. No parent, spouse or migration amendment follows.
+
+## Source findings
+
+Greenwich Packet: James Glascow, master; James Young, owner; from Philadelphia to Winyew, Carolina; with rum, bread, flour and porter. Three issues preserve the same vessel-list passage. The visible heading is “By the Orpheus and Daphne”; no overall heading or explicit genre label was found in the inspected area. The purpose of the list remains unresolved. The destination spelling is uncertain and not normalized. The owner is James Young, not James Glascow. [The Public Advertiser, 1777-05-14, p.2](https://www.newspapers.com/image/34421452/), [The Ipswich Journal, 1777-05-17, p.1](https://www.newspapers.com/image/396765804/), [The Gloucester Journal, 1777-05-19, p.1](https://www.newspapers.com/image/971522063/)
+
+## Next questions
+
+Check the report’s overall heading, prize/admiralty records and original vessel/master papers. Bridge to any profile by residence, signatures or family evidence.

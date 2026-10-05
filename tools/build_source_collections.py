@@ -222,7 +222,7 @@ def newspaper_card(row, clips, web, group=None):
         media = f'<figure><a href="{excerpt["url"]}"><img src="{excerpt["url"]}" width="{excerpt["width"]}" height="{excerpt["height"]}" loading="lazy" alt="Newspaper excerpt for {e(clip_row["date"], quote=True)}; reading and assessment follow"></a><figcaption>{note} Source reference: {e(clip_row["paper"])} · {e(clip_row["date"])} · p. {e(str(clip_row.get("page", "?")))}. Open for full size; inspect the <a href="{e(clip_row["source_url"], quote=True)}">original page</a> for context.</figcaption></figure>'
         supplements = clip.get('additional_excerpts', [])
         if supplements:
-            figures = ''.join(f'<figure><a href="{e(ex["url"])}"><img src="{e(ex["url"])}" width="{ex["width"]}" height="{ex["height"]}" loading="lazy" alt="Supplemental newspaper excerpt from {e(clip_row["date"], quote=True)}"></a><figcaption>{e(ex.get("caption_note", "Supplemental excerpt."))}</figcaption></figure>' for ex in supplements)
+            figures = ''.join(f'<figure><a href="{e(ex["url"])}"><img src="{e(ex["url"])}" width="{ex["width"]}" height="{ex["height"]}" loading="lazy" alt="Supplemental newspaper excerpt from {e(clip_row["date"], quote=True)}"></a><figcaption>{e(ex.get("caption_note", "Supplemental excerpt."))} <a href="{e(ex.get("source_url") or clip_row["source_url"], quote=True)}">Original excerpt page ↗</a></figcaption></figure>' for ex in supplements)
             media += f'<details class="sc-newspaper-supplements"><summary>Additional excerpts from this issue — {len(supplements)}</summary>{figures}</details>'
     missing = ''
     if not clip:
@@ -274,9 +274,9 @@ def newspaper_country(paper):
     # Publication location, never the subject's place of residence.
     if re.search(r'belfast|irishman|dublin|sligo|derry|impartial reporter|freeman|northern star|drogheda|leinster', paper, re.I): return 'Ireland'
     if re.search(r'caledonian|edinburgh|scotland|scots|fife|aberdeen', paper, re.I): return 'Scotland'
-    if re.search(r'ohio|pitts|pennsyl|virginia|new york|american|washington|maryland|^aurora general advertiser$', paper, re.I): return 'United States'
-    if re.search(r'london|england|newcastle|ipswich|derby|worcester|weekly worcester|morning chronicle|morning post|gloucester journal|salisbury journal|western flying post|sherborne|^public ledger or daily register of commerce and intelligence$|^the times$', paper, re.I): return 'England'
-    if re.search(r'ha[ae]rlem|leydse|gravenhaeg', paper, re.I): return 'Netherlands'
+    if re.search(r'ohio|pitts|pennsyl|virginia|new york|american|washington|maryland|south[- ]carolina|^aurora general advertiser$', paper, re.I): return 'United States'
+    if re.search(r'london|england|newcastle|ipswich|derby|worcester|weekly worcester|morning chronicle|morning post|gloucester journal|salisbury journal|western flying post|sherborne|^(?:the )?public advertiser$|^public ledger or daily register of commerce and intelligence$|^the times$', paper, re.I): return 'England'
+    if re.search(r'ha[ae]rlem|leydse|gravenhaeg|rotterdam', paper, re.I): return 'Netherlands'
     return 'Unresolved'
 
 
@@ -310,7 +310,7 @@ def load_clips(web):
             target.parent.mkdir(parents=True, exist_ok=True)
             if not target.exists(): shutil.copyfile(source, target)
         if not target.exists() or sha256(target.read_bytes()).hexdigest() != item['sha256']: raise ValueError('Public clip does not match approval')
-        return {'url': '/' + item['public_path'], 'width': item['width'], 'height': item['height'], 'caption_note':item.get('caption_note','Saved excerpt.')}
+        return {'url': '/' + item['public_path'], 'width': item['width'], 'height': item['height'], 'caption_note':item.get('caption_note','Saved excerpt.'), 'source_url':item.get('source_url','')}
     for item in manifest['assets']:
         ident = str(item['image_id'])
         result[ident] = approved_excerpt(item, ident)

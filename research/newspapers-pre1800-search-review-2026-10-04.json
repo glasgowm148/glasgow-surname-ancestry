@@ -2700,6 +2700,102 @@
       "triage": "No good matches in requested Ireland + 1600–1799 scope. No candidate result in requested scope; no numeric zero total asserted. Originals checked: 0.",
       "limitations": "Exact OCR query and filter scope only; counts are not people or independent events. No surname absence or global completeness inferred.",
       "search_url": "https://www.newspapers.com/search/results/?country=ie&date-start=1600&date-end=1799&keyword=%22Andrew+Glasgow%22&sort=paper-date-asc"
+    },
+    {
+      "query": "\"Glafcow\"",
+      "collection": "Worldwide",
+      "date_start": 1600,
+      "date_end": 1799,
+      "reviewed_on": "2026-10-05",
+      "reported_entries": 398,
+      "retrieved_entries": 40,
+      "triage": "Oldest forty previews screened; four ambiguous original pages checked, all place/title usages. No surname original retained in this bounded broad pass.",
+      "limitations": "Incomplete after forty of 398 provider matches; preview exclusions do not mean every original was checked. Full-name variants are recorded separately.",
+      "search_url": "https://www.newspapers.com/search/results/?keyword=%22Glafcow%22&date-start=1600&date-end=1799&sort=paper-date-asc"
+    },
+    {
+      "query": "\"Samuel Glafcow\"",
+      "collection": "Worldwide",
+      "date_start": 1600,
+      "date_end": 1799,
+      "reviewed_on": "2026-10-05",
+      "reported_entries": 5,
+      "retrieved_entries": 5,
+      "originals_checked": 5,
+      "confirmed_surname_image_ids": [
+        "1212389396",
+        "34424820",
+        "34424864",
+        "39395391",
+        "39398635"
+      ],
+      "excluded_passage_image_ids": [],
+      "triage": "All retrieved original-page passages checked. Some queries retrieved a different forename; acceptance follows the original named person, not the query. Four searches together retrieved eighteen cards on seventeen distinct original pages: ten surname pages and seven false passages.",
+      "limitations": "Complete for these provider-retrieved query cards, not all possible OCR spellings, highlights or newspapers. No global absence inferred; only inspected false passages are excluded.",
+      "search_url": "https://www.newspapers.com/search/results/?keyword=%22Samuel%20Glafcow%22&date-start=1600&date-end=1799&sort=paper-date-asc"
+    },
+    {
+      "query": "\"James Glafcow\"",
+      "collection": "Worldwide",
+      "date_start": 1600,
+      "date_end": 1799,
+      "reviewed_on": "2026-10-05",
+      "reported_entries": 7,
+      "retrieved_entries": 7,
+      "originals_checked": 7,
+      "confirmed_surname_image_ids": [
+        "34421452",
+        "39395391",
+        "396765804",
+        "971522063"
+      ],
+      "excluded_passage_image_ids": [
+        "1033322116",
+        "605075660",
+        "605080163"
+      ],
+      "triage": "All retrieved original-page passages checked. Some queries retrieved a different forename; acceptance follows the original named person, not the query. Four searches together retrieved eighteen cards on seventeen distinct original pages: ten surname pages and seven false passages.",
+      "limitations": "Complete for these provider-retrieved query cards, not all possible OCR spellings, highlights or newspapers. No global absence inferred; only inspected false passages are excluded.",
+      "search_url": "https://www.newspapers.com/search/results/?keyword=%22James%20Glafcow%22&date-start=1600&date-end=1799&sort=paper-date-asc"
+    },
+    {
+      "query": "\"John Glafcow\"",
+      "collection": "Worldwide",
+      "date_start": 1600,
+      "date_end": 1799,
+      "reviewed_on": "2026-10-05",
+      "reported_entries": 5,
+      "retrieved_entries": 5,
+      "originals_checked": 5,
+      "confirmed_surname_image_ids": [
+        "39401494",
+        "39401765"
+      ],
+      "excluded_passage_image_ids": [
+        "39396106",
+        "39402236",
+        "39402368"
+      ],
+      "triage": "All retrieved original-page passages checked. Some queries retrieved a different forename; acceptance follows the original named person, not the query. Four searches together retrieved eighteen cards on seventeen distinct original pages: ten surname pages and seven false passages.",
+      "limitations": "Complete for these provider-retrieved query cards, not all possible OCR spellings, highlights or newspapers. No global absence inferred; only inspected false passages are excluded.",
+      "search_url": "https://www.newspapers.com/search/results/?keyword=%22John%20Glafcow%22&date-start=1600&date-end=1799&sort=paper-date-asc"
+    },
+    {
+      "query": "\"William Glafcow\"",
+      "collection": "Worldwide",
+      "date_start": 1600,
+      "date_end": 1799,
+      "reviewed_on": "2026-10-05",
+      "reported_entries": 1,
+      "retrieved_entries": 1,
+      "originals_checked": 1,
+      "confirmed_surname_image_ids": [],
+      "excluded_passage_image_ids": [
+        "489004871"
+      ],
+      "triage": "All retrieved original-page passages checked. Some queries retrieved a different forename; acceptance follows the original named person, not the query. Four searches together retrieved eighteen cards on seventeen distinct original pages: ten surname pages and seven false passages.",
+      "limitations": "Complete for these provider-retrieved query cards, not all possible OCR spellings, highlights or newspapers. No global absence inferred; only inspected false passages are excluded.",
+      "search_url": "https://www.newspapers.com/search/results/?keyword=%22William%20Glafcow%22&date-start=1600&date-end=1799&sort=paper-date-asc"
     }
   ],
   "new_original_passages": {
@@ -2767,14 +2863,32 @@
       "41048973",
       "584905489",
       "32751669",
-      "32751719"
+      "32751719",
+      "1335425007",
+      "1212389396",
+      "34424820",
+      "34424864",
+      "39395391",
+      "34421452",
+      "396765804",
+      "971522063",
+      "39401494",
+      "39401765",
+      "39398635"
     ],
     "excluded_passage_image_ids": [
       "41038726",
       "1050085826",
       "1050070395",
       "1050075444",
-      "1050045285"
+      "1050045285",
+      "1033322116",
+      "39396106",
+      "39402236",
+      "39402368",
+      "489004871",
+      "605075660",
+      "605080163"
     ],
     "exclusion_limit": "Only the inspected passages are excluded, not every query highlight on those pages.",
     "curated_index": "surname-research/indexes/glasgow-newspaper-review.json",
@@ -2801,7 +2915,9 @@
     "External Luna browser workers launched5October could read metadata but failed visual capture or result retrieval; these attempts add no verified surname coverage. Working browser workers recaptured original queues independently. Ten task workers were launched/assigned, with one database-lock startup retried; workers are counted as productive only for actual completed work.",
     "By 5 October 2026, all 27 unique retrieved worldwide Glafco original pages were examined: 12 confirmed surname pages, 12 non-surname contexts and three ambiguous single-name/alias notices. The displayed total of 28 versus 27 cards remains unexplained. Glascow narrower queries retrieved further metadata but not every original. Confirmed surname pages and saved excerpts are integrated; no exhaustive pre-1800 claim is made.",
     "A second seven-worker Mac/OpenCode wave stalled in startup without tool calls; it adds no research credit. The three working browser agents continue bounded searches.",
-    "5 October 2026 third batch: thirty additional original surname pages and two contextual headings saved. All nineteen Glafcoe cards and thirteen Samuel Glafgow cards were checked on originals; reprints remain separately cited but repeated readings share cards. Broader Glascow retrieval and additional highlights still prevent an exhaustive pre-1800 claim."
+    "5 October 2026 third batch: thirty additional original surname pages and two contextual headings saved. All nineteen Glafcoe cards and thirteen Samuel Glafgow cards were checked on originals; reprints remain separately cited but repeated readings share cards. Broader Glascow retrieval and additional highlights still prevent an exhaustive pre-1800 claim.",
+    "Additional 5 October Glascow checks cover twenty-four distinct originals from the eighty-five-card narrower export, plus two outside-export 1752 address reprints. One initial-only personal name, A. Glascow, was recaptured and retained after reviewing Dutch list syntax; other inspected passages were city, port, route or title uses. The two previously catalogued export IDs and uninspected remainder are separate. These checks do not establish global completeness.",
+    "The four worldwide quoted Glafcow full-name searches yielded eighteen cards on seventeen distinct original pages; all inspected, with ten surname pages retained and seven inspected false passages. Samuel-query postal/committee hits name James and John respectively. Earlier preview-only limitations for this packet are resolved by the original rechecks; additional page highlights and other OCR variants are not claimed exhausted."
   ],
   "search_pause_history": [
     {

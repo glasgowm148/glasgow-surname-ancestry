@@ -43,3 +43,15 @@ The transcript-validated baptism record for **Andrew Glasgow**, 26 Oct 1746, Kil
 
 Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
 <!-- END FMP-GLASGOW-fmp-glasgow-68a770ae7cfe -->
+
+## Current conclusion — initial-only newspaper lead, 5 October 2026
+
+This is a weak chronological candidate for A. Glascow in a June 1794 Dutch shipping report. Adult in 1794 with an Ayrshire locality; no maritime occupation, Rotterdam link, or identifying family context is recorded. Do not infer master status from geography. No forename expansion, maritime occupation, migration or family relationship is established for this profile.
+
+## Source findings
+
+[Rotterdamse courant, 26 June 1794, p.2](https://www.newspapers.com/image/1335425007/), original and separate arrival-heading/name excerpts inspected. The entry names A. Glascow from Glasgow; the departure port does not prove personal residence or birth.
+
+## Next questions
+
+Check the full shipping sequence, Dutch arrival registers and Glasgow customs/master lists to identify vessel and given name. Compare signatures and family evidence before profile assignment or creation.
