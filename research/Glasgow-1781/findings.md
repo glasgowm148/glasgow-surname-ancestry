@@ -53,3 +53,9 @@ No existing parent or sibling certainty changes from these notices. See the [com
 ## Unresolved and priority actions: newspaper review
 
 Check the original Institution admissions/staff and examination records, and the Berry Street call/ordination minutes, before upgrading the profile assignment.
+
+## Current conclusion — Rev. A. J. Glasgow Belfast speech, 1841 (possible candidate; initial conflict), 5 October 2026
+
+The newspaper establishes an adult clergyman called “Rev. A. J. Glasgow” speaking in Belfast on 8 April 1841. It supplies no forename expansion, age, congregation, family, birthplace or residence. Glasgow-1781 is possible but materially conflicted by J here versus Adam D. in other checked records. Glasgow-1780 is unlikely because his family is documented in Bombay, with a daughter born there 23 days before the speech. No candidate is identified; no family link is proposed.
+
+At an entertainment for Robert L. Rogers on retiring as teacher of elocution, his class met at the Royal Temperance Hotel, Waring Street, Belfast, and during the session in Rev. Dr. Cooke’s Church. On Thursday 8 April 1841, the Rev. A. J. Glasgow spoke on elocution’s importance for candidates for the sacred ministry. Identity unresolved. The printed name is Rev. A. J. Glasgow, with no expanded forename, age, congregation, kin or birthplace. Glasgow-1781 is possible despite the material printed-J / other-notice D conflict; Glasgow-1780 is unlikely given the documented Bombay chronology. [Belfast News-Letter, 20 April 1841, p.2; report of event on 8 April](https://www.newspapers.com/image/390557883/)

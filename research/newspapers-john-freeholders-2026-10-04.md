@@ -47,3 +47,9 @@ Glasgow-1968’s maintained family account dates migration to Michigan to 1844 o
 Cumulative 1800–1850:49 distinct queries,725 retrieved entries,702 readable first previews and 39 newly resolved original surname pages. Exact names miss OCR divisions and variants.59 other given-name forms per collection remain unqueried. All counts are search entries/pages, not unique people. A 31 December 1849 Freeman’s marriage passage on image 1050134301 has damaged surname/location text and remains pending, not confirmed surname evidence.
 
 Next: inspect additional John highlights, unread James Ireland results, electoral qualifications for 1831 and constabulary service registers for 1850. Stable original links and qualified conclusions are public; licensed scans remain private and excluded from the local research index. Local catalogue/latest findings/held queue synchronized; no production deployment or live WikiTree save.
+
+## Continuation, 5 October 2026
+
+The 13 April 1849 Belfast News-Letter repeats the Russian Company agency advertisement and explicitly lists Mr John Glasgow, Merchant, at Cookstown. The full bounded advertisement and a larger agent-list detail are saved. It joins the existing Cookstown trading subject, with Glasgow-2058 still a compatible candidate; no relatives or new parentage are established. [Original, p.3](https://www.newspapers.com/image/390562652/).
+
+The previously pending 31 December 1849 marriage paragraph is resolved as a locality occurrence. Both selected highlights refer to Glasgow city; the damaged Ferg… surname ending remains unexpanded. This resolves that selected passage, not all text on its newspaper page. [Original, p.4](https://www.newspapers.com/image/1050134301/). Additional search carousel work remains in progress.

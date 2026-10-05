@@ -36,7 +36,7 @@ At Surat, East Indies, the wife of Rev. James Glasgow, Presbyterian Church in Ir
 
 The 2 May 1828 Belfast Institution College Department awards list Jas. Glasgow, Broughshane, for proficiency in the junior mathematical class, and James Glasgow for daily examinations and exercises in Logic and Belles Lettres. The 1 May 1830 Belfast College report awards James Glasgow, Institution, senior-course voluntary mathematics and the premium on the third book of Locke’s Essay.
 
-The shared name and institution support a student sequence, with the two 1828 forms probably one student. Glasgow-1780 is a strong compatible candidate; none of these passages gives age, full middle name, parents or spouse. No sibling relationship is established by the notices.
+The two 1828 entries are distinct mentions; whether they refer to one student or two remains unresolved. Glasgow-1780 remains a strong compatible candidate for the wider Institution, teaching and ministry sequence, but this award list alone does not establish the 1828 identity. These notices give no age, full middle name, parents or spouse; they establish no sibling relationship.
 
 [Belfast News-Letter, 9 May 1828, p.3, Belfast Institution College Department, awards on 2 May](https://www.newspapers.com/image/390546969/) · [Belfast News-Letter, 7 May 1830, p.2, Belfast College report dated 1 May](https://www.newspapers.com/image/390568607/)
 
@@ -76,6 +76,6 @@ Check the original Institution admissions/staff and examination records, and the
 
 Inspected Institution, Castledawson and Indian missionary notices strongly support James McClure Glasgow’s career sequence. The sourced local amendment corrects 6 October 1835 from call to ordination; the call had been reported by 10 July. Margaret Jane’s obituary corroborates an already recorded daughter; the Surat daughter remains a compatible Annie identification. No family certainty is upgraded.
 
-James McClure Glasgow remains the strongest compatible candidate for the 1828–1831 Broughshane / Belfast Institution student sequence. The new awards strengthen the education trail; the Society secretary comparison is still unproved. Ages, full middle name and relatives are absent, and no family relationship is upgraded.
+James McClure Glasgow remains the strongest compatible candidate for the wider Belfast Institution and ministry sequence. The 1828 awards include two distinct James entries, one identifying Jas. Glasgow with Broughshane; whether they name the same student is unresolved. The new awards strengthen the education trail; the Society secretary comparison is still unproved. The newspaper gives no age, full middle name, parents or spouse; no family relationship is upgraded.
 
 The 1831 Belfast College notice supplies a specific advanced-mathematics examination occurrence for James Glasgow, Institution. This profile is a strong compatible candidate, agreeing with its checked live Education section, but the newspaper names no age or relatives. Co-occurrence with Adam does not independently prove their sibling relationship; that relationship has separate journal evidence. See the [qualified newspaper account](/research/subjects/newspapers-irish-1800-1850/#james-belfast-college).

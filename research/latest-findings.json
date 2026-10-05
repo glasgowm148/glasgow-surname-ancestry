@@ -17849,8 +17849,8 @@
     {
       "id": "james-glasgow-belfast-college-1828-1830",
       "kind": "biographical",
-      "finding": "The 2 May 1828 Belfast Institution College Department awards list Jas. Glasgow, Broughshane, for proficiency in the junior mathematical class, and James Glasgow for daily examinations and exercises in Logic and Belles Lettres. The 1 May 1830 Belfast College report awards James Glasgow, Institution, senior-course voluntary mathematics and the premium on the third book of Locke’s Essay.",
-      "qualification": "The shared name and institution support a student sequence, with the two 1828 forms probably one student. Glasgow-1780 is a strong compatible candidate; none of these passages gives age, full middle name, parents or spouse. No sibling relationship is established by the notices.",
+      "finding": "The 2 May 1828 award list separately names Jas. Glasgow of Broughshane in the Junior Division and James Glasgow in the Logic and Belles Lettres section. The 1 May 1830 report lists James Glasgow of the Institution for senior-course voluntary mathematics and a premium for the third book of Locke’s Essay.",
+      "qualification": "The two 1828 entries are distinct mentions; whether they refer to one student or two remains unresolved. Glasgow-1780 remains a strong compatible candidate for the wider Institution, teaching and ministry sequence, but this award list alone does not establish the 1828 identity. These notices give no age, full middle name, parents or spouse; they establish no sibling relationship.",
       "sources": [
         {
           "title": "Belfast News-Letter, 9 May 1828, p.3, Belfast Institution College Department, awards on 2 May",
@@ -18215,7 +18215,7 @@
     {
       "id": "john-glasgow-cookstown-tea-coffee-agent-1848-1850",
       "kind": "biographical",
-      "finding": "John Glasgow, explicitly called a merchant at Cookstown, appears among John Cassell coffee agents on 30 September 1848, and again in February 1849. A separate 2 February 1849 advertisement appoints him there as agent for the Russian Company’s Caravan Tea and Arabian Coffee. This extends the inspected Cookstown agency sequence to 1848–1850.",
+      "finding": "John Glasgow, explicitly called a merchant at Cookstown, appears among John Cassell coffee agents on 30 September 1848, and again in February 1849. A separate 2 February 1849 advertisement appoints him there as agent for the Russian Company’s Caravan Tea and Arabian Coffee. This extends the inspected Cookstown agency sequence to 1848–1850. The Russian Company agent list is repeated on 13 April 1849, again explicitly calling John a merchant at Cookstown.",
       "qualification": "Glasgow-2058 is compatible by name, Cookstown district and the merchant occupation independently recorded in Benjamin-2059’s 1856 marriage. None of these advertisements names relatives, age or street address. Repeated agent lists are advertisements for one trading role, not independent family proofs. John’s parents remain unknown. Glasgow-1968 remains a weaker comparison: his family histories give migration to Michigan in 1844 or 1848; the Drummeen tithe and 1850/1851 probate leads are not securely assigned to him, and probate year is not a death date.",
       "sources": [
         {
@@ -18233,6 +18233,10 @@
         {
           "title": "Impartial Reporter and Farmers’ Journal, 22 February 1849, p.3, John Cassell coffee agents",
           "url": "https://www.newspapers.com/image/1257358494/"
+        },
+        {
+          "title": "Belfast News-Letter, 1849-04-13, p.3",
+          "url": "https://www.newspapers.com/image/390562652/"
         }
       ],
       "found_on": "2026-10-04",
@@ -18244,7 +18248,10 @@
         }
       ],
       "detail_url": "/research/subjects/newspapers-irish-1800-1850/#john-cookstown-coffee",
-      "provenance": "research/newspapers-john-freeholders-2026-10-04.md"
+      "provenance": [
+        "research/newspapers-john-freeholders-2026-10-04.md",
+        "surname-research/new-people/1848_Ireland_Cookstown_John_Glasgow.md"
+      ]
     },
     {
       "id": "benjamin-glasgow-surgery-degree-report-1825",
@@ -20872,6 +20879,31 @@
       "provenance": [
         "surname-research/indexes/glasgow-newspaper-review.json",
         "surname-research/new-people/pre1800_george-glasgow-second-lieutenant-1774.md"
+      ]
+    },
+    {
+      "id": "rev-aj-glasgow-belfast-speech-1841",
+      "found_on": "2026-10-05",
+      "kind": "biographical",
+      "finding": "At an entertainment for Robert L. Rogers on retiring as teacher of elocution, his class met at the Royal Temperance Hotel, Waring Street, Belfast, and during the session in Rev. Dr. Cooke’s Church. On Thursday 8 April 1841, the Rev. A. J. Glasgow spoke on elocution’s importance for candidates for the sacred ministry.",
+      "status": "confirmed",
+      "qualification": "The newspaper establishes an adult clergyman called “Rev. A. J. Glasgow” speaking in Belfast on 8 April 1841. It supplies no forename expansion, age, congregation, family, birthplace or residence. Glasgow-1781 is possible but materially conflicted by J here versus Adam D. in other checked records. Glasgow-1780 is unlikely because his family is documented in Bombay, with a daughter born there 23 days before the speech. No candidate is identified; no family link is proposed.",
+      "people": [
+        {
+          "name": "Rev. A. J. Glasgow, Belfast speech (1841)",
+          "url": "/research/subjects/newspapers-irish-1800-1850/#rev-aj-glasgow-belfast-speech-1841"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 20 April 1841, p.2; report of event on 8 April",
+          "url": "https://www.newspapers.com/image/390557883/"
+        }
+      ],
+      "detail_url": "/research/subjects/newspapers-irish-1800-1850/#rev-aj-glasgow-belfast-speech-1841",
+      "provenance": [
+        "surname-research/indexes/glasgow-newspaper-review.json",
+        "surname-research/new-people/1841_Ireland_Belfast_A_J_Glasgow.md"
       ]
     }
   ]
