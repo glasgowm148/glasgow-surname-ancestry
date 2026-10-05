@@ -12,7 +12,7 @@ WEB = ROOT / "www"
 SOURCE = ROOT / "surname-research/indexes/glasgow-newspaper-review.json"
 START, END = "<!-- early-newspapers:start -->", "<!-- early-newspapers:end -->"
 PUBLIC_ROW_FIELDS = ("image_id", "date", "paper", "page", "source_url", "queries",
-                     "status", "reading", "assessment", "profile_ids", "profile_matches", "draft_url", "reviewed_on")
+                     "status", "reading", "assessment", "profile_ids", "profile_matches", "draft_url", "subject_links", "reviewed_on")
 
 
 def profile_links(ids: list[str], matches: list[dict] | None = None) -> str:

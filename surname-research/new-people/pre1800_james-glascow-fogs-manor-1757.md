@@ -20,7 +20,7 @@ The separate A-column “Phil. Co.” is not assigned to the right G-column entr
 [[Glasgow-1024]]: possible, weaker. Estimated c.1722 birth is chronologically plausible; death date absent. Irish location is not a concrete contradiction. The postal record states no occupation.
 [[Glasgow-2868]]: low / unresolved chronology tension. Exact birth 14 Feb 1720; death c.1784 estimated in Cecil County, Maryland. A 1777 master record precedes estimated death and is not a hard contradiction, but this profile’s Maryland trajectory and approximate death deserve review before any association. The postal record states no occupation.
 [[Glasgow-1144]]: possible but weak. Exact birth 24 May 1731 in Kilwaughter; estimated death c.1793 in Newberry, South Carolina. Chronologically alive in 1777 on current qualifiers, but no evidence for a maritime or Pennsylvania connection; estimated death does not exclude. The postal record states no occupation.
-[[Glasgow-1025]]: Weak compatible 1757 chronological lead: estimated c.1700 birth and exact 17 January 1759 death allow the postal date; no address bridge. His death excludes the 1777 active master.
+[[Glasgow-1025]]: Weak compatible 1757 chronological lead: estimated c.1700 birth and exact 17 January 1759 death allow the postal date; no address bridge. Its exact 1759 death field would conflict with the 1777 active master if correctly attributed; the underlying probate identity remains unresolved.
 
 Identify the historical Fogs Manor address from contemporary postal, land and tax records; compare original family evidence before assigning a profile.
 

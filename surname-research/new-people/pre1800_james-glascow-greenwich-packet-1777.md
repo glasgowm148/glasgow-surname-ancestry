@@ -11,7 +11,7 @@ Greenwich Packet: James Glascow, master; James Young, owner; from Philadelphia t
 Glasgow-4124 is a possible occupational comparison with a 1733 mariner record, separated by 44 years. No likely identity is proved, and no link to the 1757 addressee or Irish James records is established.
 
 Three distinct issues are one reprinted report, not three people.
-Glasgow-1025’s exact January 1759 death excludes that profile as this active 1777 master. Other chronologically compatible James profiles are not excluded for missing occupations.
+Glasgow-1025 records an exact January 1759 death, which would conflict with the active 1777 master if correctly attributed; the underlying probate identity is unresolved. Other chronologically compatible James profiles are not excluded for missing occupations.
 Glasgow-1970, Glasgow-1509 and Glasgow-804 remain weak chronological comparisons without maritime evidence.
 
 [[Glasgow-4124]]: possible, strongest occupation-context lead. Before-1733 James Glasgow mariner/surgeon of Swift of Sheerness is chronologically compatible and occupationally relevant. The ship, route, region, and 44-year documentary gap provide no demonstrated identity link.

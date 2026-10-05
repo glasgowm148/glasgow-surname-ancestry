@@ -189,7 +189,10 @@ def profile_links(row, web):
             out.append(f'<span class="sc-profile-match sc-confidence-{label}"><a href="{e(href, quote=True)}">{e(name)} ({e(ident)})</a>{e(dates)}: {label}{role}{basis}</span>')
         else:
             out.append(f'<span class="sc-profile-match sc-confidence-possible"><a href="{e(href, quote=True)}">{e(name)} ({e(ident)})</a>{e(dates)}: possible candidate; identity unresolved</span>')
-    draft = f'<a href="{e(row["draft_url"], quote=True)}">Research draft (documentary subject)</a>' if row.get('draft_url') else ''
+    subjects = row.get('subject_links') or []
+    draft = ' · '.join(f'<a href="{e(subject["url"], quote=True)}">{e(subject["name"])} — research draft</a>' for subject in subjects)
+    if not draft and row.get('draft_url'):
+        draft = f'<a href="{e(row["draft_url"], quote=True)}">Research draft (documentary subject)</a>'
     if not out: return ('No profile assigned; identity remains unresolved.' + (f' {draft}' if draft else ''))
     return '<span class="sc-identity-label">Profile assessment:</span><div class="sc-profile-matches">' + ''.join(out) + (f'<span class="sc-profile-match sc-draft">{draft}</span>' if draft else '') + '</div>'
 
@@ -255,6 +258,11 @@ def newspaper_card(row, clips, web, group=None):
                 best_matches[pid] = match
     profile_view['profile_matches'] = list(best_matches.values())
     profile_view['draft_url'] = row.get('draft_url') or next((item.get('draft_url') for item in group if item.get('draft_url')), None)
+    subjects = {}
+    for item in group:
+        for subject in item.get('subject_links', []):
+            subjects.setdefault(subject['url'], subject)
+    profile_view['subject_links'] = list(subjects.values())
     profile_view['assessment'] = row.get('assessment', '')
     if len(group) > 1:
         assessments = ''.join(f'<li>{e(item["date"])} · {e(item["paper"])}: {e(item.get("assessment", ""))}</li>' for item in group)
@@ -274,8 +282,8 @@ def newspaper_country(paper):
     # Publication location, never the subject's place of residence.
     if re.search(r'belfast|irishman|dublin|sligo|derry|impartial reporter|freeman|northern star|drogheda|leinster', paper, re.I): return 'Ireland'
     if re.search(r'caledonian|edinburgh|scotland|scots|fife|aberdeen', paper, re.I): return 'Scotland'
-    if re.search(r'ohio|pitts|pennsyl|virginia|new york|american|washington|maryland|south[- ]carolina|^aurora general advertiser$', paper, re.I): return 'United States'
-    if re.search(r'london|england|newcastle|ipswich|derby|worcester|weekly worcester|morning chronicle|morning post|gloucester journal|salisbury journal|western flying post|sherborne|^(?:the )?public advertiser$|^public ledger or daily register of commerce and intelligence$|^the times$', paper, re.I): return 'England'
+    if re.search(r'ohio|pitts|pennsyl|virginia|new york|american|washington|maryland|south[- ]carolina|columbian herald|^(?:the )?independent gazetteer$|^aurora general advertiser$', paper, re.I): return 'United States'
+    if re.search(r'london|england|newcastle|ipswich|derby|worcester|weekly worcester|morning chronicle|morning post|gloucester journal|salisbury journal|western flying post|sherborne|^(?:the )?(?:public advertiser|daily gazetteer)$|^public ledger or daily register of commerce and intelligence$|^the times$', paper, re.I): return 'England'
     if re.search(r'ha[ae]rlem|leydse|gravenhaeg|rotterdam', paper, re.I): return 'Netherlands'
     return 'Unresolved'
 

@@ -178,3 +178,15 @@ Locally reviewed original-register image captures:
 [opening](../larne-proof-2026-09-21/sources/fs-33Q6-original.png),
 [continuation](../larne-proof-2026-09-21/sources/fs-33QZ-original.png).
 These are images of the registered memorial, not the separately executed lease.
+
+## Current conclusion — postal and certificate originals, 5 October 2026
+
+James Glasgow, Charlestown postal addressee, 1775: Born 24 May 1731, Kilwaughter, County Antrim, exact; death c.1793, Newberry, South Carolina, estimated. A James Glasgow with a South Carolina location and a 1775 will is chronologically compatible with the Charleston addressee, but the will does not bridge him to the letter list. The estimated c.1793 death is not evidence he lived to December 1789; it also is not a precise death boundary excluding the 1789 entry. The profile's exact birth and Newberry family are distinct from Glasgow-804's; the catalogue calls them similar, which does not establish identity or justify combining their family evidence. Glasgow-804 and Glasgow-1144 have compatible South Carolina context, but no letter-list identity bridge. Their family evidence remains separate. No connection to co-listed Ezekiel, the Philadelphia addressee or the Greenwich Packet master is proved. No relationship change follows.
+
+## Source findings
+
+James Glasgow and Ezekiel Glasgow appear in the list of letters remaining in Charlestown’s General Post Office, dated 21 August 1775. Alphabetical entries printed surname first: Glasgow James, followed by a small 2 marker, and Glasgow Ezekiel. The marker is not read as an age. Letter-list appearance alone proves no kinship, occupation, continuous residence or identity with later James records. [The South-Carolina and American General Gazette, 1775-08-25, p.1](https://www.newspapers.com/image/605068969/)
+
+## Next questions
+
+Compare original local tax, land, probate and institutional records, preserving the list’s stated role; check plausible catalogue profiles before an identity or relationship change.

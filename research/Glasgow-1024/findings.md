@@ -196,3 +196,15 @@ Greenwich Packet: James Glascow, master; James Young, owner; from Philadelphia t
 ## Next questions
 
 Check the report’s overall heading, prize/admiralty records and original vessel/master papers. Bridge to any profile by residence, signatures or family evidence.
+
+## Current conclusion — postal and certificate originals, 5 October 2026
+
+James Glasgow, Edinburgh game certificate, 1789: Birth c.1722, estimated, County Londonderry; death date not recorded. Chronologically possible, but no Edinburgh/certificate bridge is documented. This Edinburgh certificate holder remains separate from the other James records. Glasgow-4124 and other chronologically compatible profiles have no certificate bridge. Glasgow-804’s exact recorded May 1788 death conflicts with an issued-since-September-1789 certificate if the death is correctly attributed; Glasgow-1144’s estimated c.1793 death is not a precise boundary. No relationship change follows.
+
+## Source findings
+
+James Glasgow, Esq., Edinburgh, appears in the Mid-Lothian game-duty list of certificates issued since 8 September 1789. Entry reads Glasgow, James, Esq; Edinburgh. The list concerns issued game certificates, not a dated shooting event or a family relationship. Date scope is the list heading, not an exact certificate date. The clipping has a disclosed contrast adjustment, without reconstruction. [The Edinburgh Advertiser, 1789-12-11, p.8](https://www.newspapers.com/image/601822968/)
+
+## Next questions
+
+Compare original local tax, land, probate and institutional records, preserving the list’s stated role; check plausible catalogue profiles before an identity or relationship change.

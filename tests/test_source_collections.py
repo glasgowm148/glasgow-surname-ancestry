@@ -148,6 +148,19 @@ class SourceCollectionsTests(unittest.TestCase):
         self.assertIn('possible candidate; identity unresolved', html)
         self.assertIn('Aaron Glasgow', html)
 
+    def test_repeated_multi_person_notice_keeps_both_subject_drafts(self):
+        base = {'image_id': 'x', 'date': '1775-08-25', 'paper': 'Paper', 'page': 1,
+                'status': 'confirmed surname', 'reading': 'James and Ezekiel Glasgow',
+                'source_url': 'https://x', 'profile_ids': [], 'assessment': 'Identity unresolved.',
+                'subject_links': [{'name': 'James Glasgow', 'url': '/research/subjects/#james'}]}
+        second = {**base, 'image_id': 'y', 'source_url': 'https://y',
+                  'subject_links': [{'name': 'Ezekiel Glasgow', 'url': '/research/subjects/#ezekiel'}]}
+        html = newspaper_card(base, {}, WEB, [base, second])
+        self.assertIn('href="/research/subjects/#james"', html)
+        self.assertIn('href="/research/subjects/#ezekiel"', html)
+        self.assertIn('No profile assigned; identity remains unresolved.', html)
+        self.assertEqual(html.count('<article'), 1)
+
     def test_profile_confidence_requires_curated_match_and_keeps_roles(self):
         base = {'image_id':'x', 'date':'1800-01-01', 'paper':'Paper', 'page':1,
                 'status':'confirmed surname', 'reading':'A reading', 'source_url':'https://x',

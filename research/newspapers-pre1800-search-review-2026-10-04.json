@@ -2796,6 +2796,161 @@
       "triage": "All retrieved original-page passages checked. Some queries retrieved a different forename; acceptance follows the original named person, not the query. Four searches together retrieved eighteen cards on seventeen distinct original pages: ten surname pages and seven false passages.",
       "limitations": "Complete for these provider-retrieved query cards, not all possible OCR spellings, highlights or newspapers. No global absence inferred; only inspected false passages are excluded.",
       "search_url": "https://www.newspapers.com/search/results/?keyword=%22William%20Glafcow%22&date-start=1600&date-end=1799&sort=paper-date-asc"
+    },
+    {
+      "query": "\"William Glafgow\"",
+      "collection": "Worldwide",
+      "date_start": 1600,
+      "date_end": 1799,
+      "reviewed_on": "2026-10-05",
+      "reported_entries": 131,
+      "retrieved_entries": 20,
+      "preview_entries_screened": 20,
+      "originals_checked": 4,
+      "confirmed_surname_image_ids": [
+        "39390517",
+        "39399295",
+        "39405824"
+      ],
+      "previously_catalogued_positive_image_ids": [
+        "1050136699"
+      ],
+      "unclassified_personal_name_image_ids": [
+        "605422631"
+      ],
+      "triage": "First twenty result cards screened; only accepted positives and separately recorded exclusions have an original inspection credited. Five new positive originals rechecked with full entry/heading/dateline context.",
+      "limitations": "Search ranks beyond twenty remain unread. Some false-looking previews were not original-inspected. The enslaved man named only Glasgow is not William Glasgow; William Saunders is a separate former owner.",
+      "search_url": "https://www.newspapers.com/search/results/?keyword=%22William%20Glafgow%22&date-start=1600&date-end=1799&sort=paper-date-asc"
+    },
+    {
+      "query": "\"James Glafgow\"",
+      "collection": "Worldwide",
+      "date_start": 1600,
+      "date_end": 1799,
+      "reviewed_on": "2026-10-05",
+      "reported_entries": 130,
+      "retrieved_entries": 20,
+      "preview_entries_screened": 20,
+      "originals_checked": 2,
+      "confirmed_surname_image_ids": [
+        "1142270617",
+        "1142271259"
+      ],
+      "previously_catalogued_positive_image_ids": [],
+      "unclassified_personal_name_image_ids": [],
+      "triage": "First twenty result cards screened; only accepted positives and separately recorded exclusions have an original inspection credited. Five new positive originals rechecked with full entry/heading/dateline context.",
+      "limitations": "Search ranks beyond twenty remain unread. Some false-looking previews were not original-inspected. The enslaved man named only Glasgow is not William Glasgow; William Saunders is a separate former owner.",
+      "search_url": "https://www.newspapers.com/search/results/?keyword=%22James%20Glafgow%22&date-start=1600&date-end=1799&sort=paper-date-asc"
+    },
+    {
+      "query": "\"Robert Glafgow\"",
+      "collection": "Worldwide",
+      "date_start": 1600,
+      "date_end": 1799,
+      "reviewed_on": "2026-10-05",
+      "reported_entries": 43,
+      "retrieved_entries": 20,
+      "preview_entries_screened": 20,
+      "confirmed_surname_image_ids": [
+        "1212017118",
+        "39398244",
+        "971274921",
+        "971486582",
+        "979343886"
+      ],
+      "triage": "First twenty cards screened. Robert original checks: five positives plus four false passages. Thomas: three prior Irish original checks reused and three supplemental originals checked, including James/Ezekiel postal names and James game certificate.",
+      "limitations": "Remaining ranks and other highlights unread. Most false-looking previews were not original-inspected. Acceptance follows actual named person regardless searched forename.",
+      "search_url": "https://www.newspapers.com/search/results/?keyword=%22Robert%20Glafgow%22&date-start=1600&date-end=1799&sort=paper-date-asc"
+    },
+    {
+      "query": "\"Thomas Glafgow\"",
+      "collection": "Worldwide",
+      "date_start": 1600,
+      "date_end": 1799,
+      "reviewed_on": "2026-10-05",
+      "reported_entries": 29,
+      "retrieved_entries": 20,
+      "preview_entries_screened": 20,
+      "confirmed_surname_image_ids": [
+        "601822968",
+        "605068969"
+      ],
+      "triage": "First twenty cards screened. Robert original checks: five positives plus four false passages. Thomas: three prior Irish original checks reused and three supplemental originals checked, including James/Ezekiel postal names and James game certificate.",
+      "limitations": "Remaining ranks and other highlights unread. Most false-looking previews were not original-inspected. Acceptance follows actual named person regardless searched forename.",
+      "search_url": "https://www.newspapers.com/search/results/?keyword=%22Thomas%20Glafgow%22&date-start=1600&date-end=1799&sort=paper-date-asc"
+    },
+    {
+      "query": "\"Mary Glafgow\"",
+      "collection": "Worldwide",
+      "date_start": 1600,
+      "date_end": 1799,
+      "reviewed_on": "2026-10-05",
+      "reported_entries": 30,
+      "retrieved_entries": 30,
+      "preview_entries_screened": 20,
+      "originals_checked": 8,
+      "confirmed_surname_image_ids": [],
+      "triage": "Initial first twenty cards; original-inspected exclusions distinguished in private review packet from preview-only vessel/place leads.",
+      "limitations": "Later ranks were not reviewed in this initial packet; no surname absence inferred.",
+      "search_url": "https://www.newspapers.com/search/results/?keyword=%22Mary%20Glafgow%22&date-start=1600&date-end=1799&sort=paper-date-asc"
+    },
+    {
+      "query": "\"Ann Glafgow\"",
+      "collection": "Worldwide",
+      "date_start": 1600,
+      "date_end": 1799,
+      "reviewed_on": "2026-10-05",
+      "reported_entries": 45,
+      "retrieved_entries": 20,
+      "preview_entries_screened": 20,
+      "originals_checked": 2,
+      "confirmed_surname_image_ids": [],
+      "triage": "Initial first twenty cards; original-inspected exclusions distinguished in private review packet from preview-only vessel/place leads.",
+      "limitations": "Later ranks were not reviewed in this initial packet; no surname absence inferred.",
+      "search_url": "https://www.newspapers.com/search/results/?keyword=%22Ann%20Glafgow%22&date-start=1600&date-end=1799&sort=paper-date-asc"
+    },
+    {
+      "query": "\"Mary Glafgow\"",
+      "collection": "Worldwide",
+      "date_start": 1600,
+      "date_end": 1799,
+      "reviewed_on": "2026-10-05",
+      "reported_entries": 30,
+      "retrieved_entries": 10,
+      "preview_entries_screened": 10,
+      "ranks_reviewed": [
+        21,
+        30
+      ],
+      "originals_checked": 2,
+      "confirmed_surname_image_ids": [],
+      "triage": "Remaining provider result ranks screened; original-inspected positives and false passages distinguished from preview-only vessel/place context.",
+      "limitations": "All returned cards for this exact query have now been screened across two packets; most false-looking previews were not opened. This does not exhaust all Glasgow OCR spellings or surnames.",
+      "search_url": "https://www.newspapers.com/search/results/?keyword=%22Mary%20Glafgow%22&date-start=1600&date-end=1799&sort=paper-date-asc"
+    },
+    {
+      "query": "\"Ann Glafgow\"",
+      "collection": "Worldwide",
+      "date_start": 1600,
+      "date_end": 1799,
+      "reviewed_on": "2026-10-05",
+      "reported_entries": 45,
+      "retrieved_entries": 25,
+      "preview_entries_screened": 25,
+      "ranks_reviewed": [
+        21,
+        45
+      ],
+      "originals_checked": 4,
+      "confirmed_surname_image_ids": [
+        "604128637",
+        "1034014648",
+        "39957255",
+        "604128661"
+      ],
+      "triage": "Remaining provider result ranks screened; original-inspected positives and false passages distinguished from preview-only vessel/place context.",
+      "limitations": "All returned cards for this exact query have now been screened across two packets; most false-looking previews were not opened. This does not exhaust all Glasgow OCR spellings or surnames.",
+      "search_url": "https://www.newspapers.com/search/results/?keyword=%22Ann%20Glafgow%22&date-start=1600&date-end=1799&sort=paper-date-asc"
     }
   ],
   "new_original_passages": {
@@ -2874,7 +3029,23 @@
       "971522063",
       "39401494",
       "39401765",
-      "39398635"
+      "39398635",
+      "39399295",
+      "39390517",
+      "39405824",
+      "1142270617",
+      "1142271259",
+      "971486582",
+      "979343886",
+      "39398244",
+      "971274921",
+      "1212017118",
+      "605068969",
+      "601822968",
+      "604128637",
+      "1034014648",
+      "39957255",
+      "604128661"
     ],
     "excluded_passage_image_ids": [
       "41038726",
@@ -2917,7 +3088,9 @@
     "A second seven-worker Mac/OpenCode wave stalled in startup without tool calls; it adds no research credit. The three working browser agents continue bounded searches.",
     "5 October 2026 third batch: thirty additional original surname pages and two contextual headings saved. All nineteen Glafcoe cards and thirteen Samuel Glafgow cards were checked on originals; reprints remain separately cited but repeated readings share cards. Broader Glascow retrieval and additional highlights still prevent an exhaustive pre-1800 claim.",
     "Additional 5 October Glascow checks cover twenty-four distinct originals from the eighty-five-card narrower export, plus two outside-export 1752 address reprints. One initial-only personal name, A. Glascow, was recaptured and retained after reviewing Dutch list syntax; other inspected passages were city, port, route or title uses. The two previously catalogued export IDs and uninspected remainder are separate. These checks do not establish global completeness.",
-    "The four worldwide quoted Glafcow full-name searches yielded eighteen cards on seventeen distinct original pages; all inspected, with ten surname pages retained and seven inspected false passages. Samuel-query postal/committee hits name James and John respectively. Earlier preview-only limitations for this packet are resolved by the original rechecks; additional page highlights and other OCR variants are not claimed exhausted."
+    "The four worldwide quoted Glafcow full-name searches yielded eighteen cards on seventeen distinct original pages; all inspected, with ten surname pages retained and seven inspected false passages. Samuel-query postal/committee hits name James and John respectively. Earlier preview-only limitations for this packet are resolved by the original rechecks; additional page highlights and other OCR variants are not claimed exhausted.",
+    "Six worldwide quoted Glafgow full-name searches screened the first twenty cards each. Twelve new surname issue pages are retained after original inspection, including other forenames found by the Thomas query. Larger result sets, remaining ranks and other OCR spellings are incomplete; preview-only place/vessel triage is not counted as original inspection. Glasgow alone in the 1742 enslaved-person notice is unclassified hereditary surname, not William Glasgow.",
+    "Worldwide Mary Glafgow (30 cards) and Ann Glafgow (45 cards) exact-query previews are now screened to their displayed ends. Four original surname-only shipmaster pages from the Ann query are retained, with two near-verbatim passenger reports merged in one card. Most vessel/place previews remain preview-only; no global surname absence claimed."
   ],
   "search_pause_history": [
     {
