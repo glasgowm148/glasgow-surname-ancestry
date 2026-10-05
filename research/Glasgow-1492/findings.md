@@ -33,3 +33,15 @@ The [Derby Mercury, 22 May 1761, p.3](https://www.newspapers.com/image/394296948
 ## Identity and relationship assessments — newspaper review
 
 This profile’s separate 1766 Gorteen Samuel Glasco occurrence supplies no age or family bridge to the defendant. Preserve the existing Irish assessment and uncertainty; no relationship change is supported.
+
+## Current conclusion — additional original newspapers, 5 October 2026
+
+Estimated c.1726 Moneymore birth and c.1824 United States death allow these dates. The separate 1766 Gorteen occurrence does not establish American migration or identity. These are possible identities, not proved matches. The 1770 Whitpain boundary notices, 1777 Maryland recall and 1791 Washington justice commission are separate contexts. The 1794 Old Style London pen-cutter death has no supported match and conditionally conflicts with this profile’s later death estimate. No parent, spouse or migration amendment follows.
+
+## Source findings — additional original newspapers
+
+[Whitpain notice](https://www.newspapers.com/image/39398014/); [Maryland recall](https://www.newspapers.com/image/590968568/); [Washington commission list and saved heading](https://www.newspapers.com/image/584905489/); [London death claim and saved heading](https://www.newspapers.com/image/32751669/). Originals inspected 5 October 2026.
+
+## Next questions
+
+Find local original land, service, office or household records to bridge the named person to this family. Current family assessments retain their existing uncertainty.

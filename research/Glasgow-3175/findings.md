@@ -40,3 +40,15 @@ The Derby Mercury, 22 May 1761, p.3, [original image](https://www.newspapers.com
 ## Identity and relationship assessments — newspaper review
 
 Samuel’s defence describes Holbourn work, time abroad and High Wickham residence; those are attributed statements. Henry Ward attributes a statement about an unnamed mother in South-street. No birth date, origin or family identity is established. The 1740 Ulster birth and 1801 Pennsylvania death remain uncertain; military commutation and the exact 21 May respite date require their own sources. A complete proposed qualification and original-record citations are queued locally; no live profile was edited.
+
+## Current conclusion — additional original newspapers, 5 October 2026
+
+Uncertain 1740 Ulster birth and 1801 Hanover Township, Washington County death are chronologically compatible. Strongest contextual candidate for the 1791 county office; no land or service identity bridge. These are possible identities, not proved matches. The 1770 Whitpain boundary notices, 1777 Maryland recall and 1791 Washington justice commission are separate contexts. The 1794 Old Style London pen-cutter death has no supported match and conditionally conflicts with this profile’s later death estimate. No parent, spouse or migration amendment follows.
+
+## Source findings — additional original newspapers
+
+[Whitpain notice](https://www.newspapers.com/image/39398014/); [Maryland recall](https://www.newspapers.com/image/590968568/); [Washington commission list and saved heading](https://www.newspapers.com/image/584905489/); [London death claim and saved heading](https://www.newspapers.com/image/32751669/). Originals inspected 5 October 2026.
+
+## Next questions
+
+Find local original land, service, office or household records to bridge the named person to this family. Current family assessments retain their existing uncertainty.

@@ -24,7 +24,8 @@
     "Parallel continuation on 4 October 2026: worldwide Glascow loaded 180 of 306 results before a provider result-loader failure; the later Glafco search showed 21 previews, all loaded, but not all originals were inspected. Search counts changed between observations. Abbreviation zero results do not establish absence. Pre-1800 completeness has not been established across all digitised newspapers or all highlights.",
     "The expanded long-s variant search displayed 28 matches but 27 unique preview cards were retrieved. Newly inspected 1746 and 1765 originals are retained; other previews remain leads. Complete pre-1800 coverage has not been established.",
     "5 October 2026 batch: 9 additionalpre 1800 surname pages with excerpts. WorldwideGlascow loading gaps and external-worker capture failures remain unresolved; query cards and OCR/no-match results are not verified absences. Date boundaries in profile indexes are not actual event years.",
-    "By 5 October 2026, all 27 unique retrieved worldwide Glafco original pages were examined: 12 confirmed surname pages, 12 non-surname contexts and three ambiguous single-name/alias notices. The displayed total of 28 versus 27 cards remains unexplained. Glascow narrower queries retrieved further metadata but not every original. Confirmed surname pages and saved excerpts are integrated; no exhaustive pre-1800 claim is made."
+    "By 5 October 2026, all 27 unique retrieved worldwide Glafco original pages were examined: 12 confirmed surname pages, 12 non-surname contexts and three ambiguous single-name/alias notices. The displayed total of 28 versus 27 cards remains unexplained. Glascow narrower queries retrieved further metadata but not every original. Confirmed surname pages and saved excerpts are integrated; no exhaustive pre-1800 claim is made.",
+    "5 October 2026 third batch: thirty additional original surname pages and two contextual headings saved. All nineteen Glafcoe cards and thirteen Samuel Glafgow cards were checked on originals; reprints remain separately cited but repeated readings share cards. Broader Glascow retrieval and additional highlights still prevent an exhaustive pre-1800 claim."
   ],
   "rows": [
     {
@@ -6369,6 +6370,777 @@
         }
       ],
       "draft_url": "/research/subjects/newspapers-early-glasgow/#william-glasgow-lady-forbes",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "971516263",
+      "date": "1747-04-28",
+      "paper": "Gloucester Journal",
+      "page": 1,
+      "source_url": "https://www.newspapers.com/image/971516263/",
+      "queries": [
+        "\"Glafcoe\""
+      ],
+      "status": "confirmed surname",
+      "reading": "Major Glascoe, lately discharged at London, is reported as chief major in Lord Ogilvy’s projected regiment of thirteen companies, on English pay. Officers are said to be quartered near Holland.",
+      "assessment": "Probable contextual association with Nicholas in the 1746 proceedings; no forename or independent military-service bridge. The pay wording is not interpreted as British army service.",
+      "profile_ids": [],
+      "profile_matches": [],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#nicholas-glasco-southwark",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "35690357",
+      "date": "1760-04-18",
+      "paper": "Public Ledger or Daily Register of Commerce and Intelligence",
+      "page": 2,
+      "source_url": "https://www.newspapers.com/image/35690357/",
+      "queries": [
+        "\"Glafcoe\""
+      ],
+      "status": "confirmed surname",
+      "reading": "William Glascoe is among prisoners reported sentenced to transportation after Old Bailey trials, for stealing a sack of malt from a warehouse, valued in the newspaper at £4 10s.",
+      "assessment": "Strong candidate case match to William Glascow, Old Bailey session 16 April 1760, t17600416-27. The newspaper’s “Yesterday” and values differ from the proceedings; the session date is not asserted as the exact individual trial day. Sentence does not prove an actual voyage or Maryland arrival.",
+      "profile_ids": [],
+      "profile_matches": [],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#william-glascoe-old-bailey-1760",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "39392109",
+      "date": "1775-10-25",
+      "paper": "Pennsylvania Gazette",
+      "page": 1,
+      "source_url": "https://www.newspapers.com/image/39392109/",
+      "queries": [
+        "\"Glafcoe\""
+      ],
+      "status": "confirmed surname",
+      "reading": "A Lancaster Goal notice dated 13 October says John M’Connel, about 35, imprisoned as a suspected runaway servant, claims to belong to William Glascoe in Maryland, about forty miles from Baltimore.",
+      "assessment": "William is the attributed master, not the jailed man. John Carson belongs to a separate prisoner’s account. No link to the 1760 defendant, a shipmaster, or a family is proved.",
+      "profile_ids": [],
+      "profile_matches": [],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#william-glascoe-maryland-1775",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "1050062764",
+      "date": "1787-10-09",
+      "paper": "Freeman’s Journal",
+      "page": 4,
+      "source_url": "https://www.newspapers.com/image/1050062764/",
+      "queries": [
+        "\"Glafcoe\""
+      ],
+      "status": "confirmed surname",
+      "reading": "Mrs Glascoe’s shop on Ormond Quay, Dublin, is reported with shutters taken down and several panes broken. Passers-by alarmed the house; she requested police protection, which the paper says was refused.",
+      "assessment": "Reported attempted robbery on the preceding Saturday, around one to two in the morning. No given name or husband is supplied; neither Dublin candidate is identified.",
+      "profile_ids": [
+        "Duffy-6026",
+        "King-67628"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Duffy-6026",
+          "confidence": "possible",
+          "role": "Possible identity; no bridge established",
+          "basis": "Ann (Duffy) Glasco has an uncertain 1756 Dublin birth and a recorded Thomas Glasco spouse. No Ormond Quay shop, given-name or household bridge."
+        },
+        {
+          "profile_id": "King-67628",
+          "confidence": "possible",
+          "role": "Possible identity; no bridge established",
+          "basis": "Mary (King) Glasco has an uncertain 1755 County Dublin birth and a recorded Thomas Glasco spouse. No Ormond Quay shop, given-name or household bridge."
+        }
+      ],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#mrs-glascoe-ormond-quay",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "586545170",
+      "date": "1799-09-13",
+      "paper": "Aurora General Advertiser",
+      "page": 2,
+      "source_url": "https://www.newspapers.com/image/586545170/",
+      "queries": [
+        "\"Glafcoe\""
+      ],
+      "status": "confirmed surname",
+      "reading": "Nathaniel R. Glascoe is named in the Kingsessing township committee to act with the county committee and carry the preceding resolutions into effect.",
+      "assessment": "Full named paragraph recaptured and checked. Long s is normalized in Glascoe and Kingsessing. The full resolutions and political purpose have not been examined; no age or family is stated.",
+      "profile_ids": [],
+      "profile_matches": [],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#nathaniel-r-glascoe-kingsessing",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "1214317674",
+      "date": "1746-06-27",
+      "paper": "The Weekly Worcester Journal",
+      "page": 2,
+      "source_url": "https://www.newspapers.com/image/1214317674/",
+      "queries": [
+        "\"Glafcoe\""
+      ],
+      "status": "confirmed surname",
+      "reading": "Nicholas Glascoe, who styles himself Major Glascoe, now a Prisoner in the New Goal, and one of the Rebels principal Engineers, was the Person who rais'd the Battery against the Hazard Sloop of War, and imprison'd the late Captain of that Sloop, and his Officers; for which he will be tried.",
+      "assessment": "Reprint of the June Nicholas Glascoe allegation and self-styled rank. Original issue retained; neither guilt nor official rank is established.",
+      "profile_ids": [],
+      "profile_matches": [],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#nicholas-glasco-southwark",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "1248442280",
+      "date": "1746-06-30",
+      "paper": "Salisbury Journal (The Salisbury Journal, or Weekly Advertiser)",
+      "page": 2,
+      "source_url": "https://www.newspapers.com/image/1248442280/",
+      "queries": [
+        "\"Glafcoe\""
+      ],
+      "status": "confirmed surname",
+      "reading": "Nicholas Glascoe, who styles himself Major Glascoe, now a Prisoner in the New Goal, and one of the Rebels principal Engineers, was the Person who rais'd the Battery against the Hazard Sloop of War, and imprison'd the late Captain of that Sloop, and his Officers; for which he will be tried.",
+      "assessment": "Reprint of the June Nicholas Glascoe allegation and self-styled rank. Original issue retained; neither guilt nor official rank is established.",
+      "profile_ids": [],
+      "profile_matches": [],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#nicholas-glasco-southwark",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "979338930",
+      "date": "1746-06-30",
+      "paper": "The Western Flying Post; or, Sherborne and Yeovil Mercury (The Sherborne Mercury, or Weekly Advertiser)",
+      "page": 2,
+      "source_url": "https://www.newspapers.com/image/979338930/",
+      "queries": [
+        "\"Glafcoe\""
+      ],
+      "status": "confirmed surname",
+      "reading": "Nicholas Glascoe is listed among officers in the rebel army reported committed to New Gaol, Southwark.",
+      "assessment": "Reported committal, not conviction. This roster lists Alexander Low junior after Nicholas; its wording is not copied from the earlier Worcester roster.",
+      "profile_ids": [],
+      "profile_matches": [],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#nicholas-glasco-southwark",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "1214317998",
+      "date": "1746-08-22",
+      "paper": "The Weekly Worcester Journal",
+      "page": 4,
+      "source_url": "https://www.newspapers.com/image/1214317998/",
+      "queries": [
+        "\"Glafcoe\""
+      ],
+      "status": "confirmed surname",
+      "reading": "An indictment list for High Treason at St Margaret’s Hill, Southwark, includes “5. Nicholas Glascoe, Maj. in ditto. He raised the Battery against the Hazard Sloop (which was commanded by Capt. Hill) and took her.”",
+      "assessment": "Reprinted indictment list, not proof of guilt. Each issue and clipping is preserved; repeated text is presented together.",
+      "profile_ids": [],
+      "profile_matches": [],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#nicholas-glasco-southwark",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "394540938",
+      "date": "1746-08-22",
+      "paper": "The Derby Mercury",
+      "page": 4,
+      "source_url": "https://www.newspapers.com/image/394540938/",
+      "queries": [
+        "\"Glafcoe\""
+      ],
+      "status": "confirmed surname",
+      "reading": "An indictment list for High Treason at St Margaret’s Hill, Southwark, includes “5. Nicholas Glascoe, Maj. in ditto. He raised the Battery against the Hazard Sloop (which was commanded by Capt. Hill) and took her.”",
+      "assessment": "Reprinted indictment list, not proof of guilt. Each issue and clipping is preserved; repeated text is presented together.",
+      "profile_ids": [],
+      "profile_matches": [],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#nicholas-glasco-southwark",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "1248442315",
+      "date": "1746-09-01",
+      "paper": "Salisbury Journal (The Salisbury Journal, or Weekly Advertiser)",
+      "page": 1,
+      "source_url": "https://www.newspapers.com/image/1248442315/",
+      "queries": [
+        "\"Glafcoe\""
+      ],
+      "status": "confirmed surname",
+      "reading": "An indictment list for High Treason at St Margaret’s Hill, Southwark, includes “5. Nicholas Glascoe, Maj. in ditto. He raised the Battery against the Hazard Sloop (which was commanded by Capt. Hill) and took her.”",
+      "assessment": "Reprinted indictment list, not proof of guilt. Each issue and clipping is preserved; repeated text is presented together.",
+      "profile_ids": [],
+      "profile_matches": [],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#nicholas-glasco-southwark",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "979338997",
+      "date": "1746-09-01",
+      "paper": "The Western Flying Post; or, Sherborne and Yeovil Mercury (The Sherborne Mercury, or Weekly Advertiser)",
+      "page": 2,
+      "source_url": "https://www.newspapers.com/image/979338997/",
+      "queries": [
+        "\"Glafcoe\""
+      ],
+      "status": "confirmed surname",
+      "reading": "An indictment list for High Treason at St Margaret’s Hill, Southwark, includes “5. Nicholas Glascoe, Maj. in ditto. He raised the Battery against the Hazard Sloop (which was commanded by Capt. Hill) and took her.”",
+      "assessment": "Reprinted indictment list, not proof of guilt. Each issue and clipping is preserved; repeated text is presented together. Scan blemish affects a few characters; the name and relevant allegation are legible.",
+      "profile_ids": [],
+      "profile_matches": [],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#nicholas-glasco-southwark",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "971384823",
+      "date": "1746-09-02",
+      "paper": "The Gloucester Journal",
+      "page": 2,
+      "source_url": "https://www.newspapers.com/image/971384823/",
+      "queries": [
+        "\"Glafcoe\""
+      ],
+      "status": "confirmed surname",
+      "reading": "An indictment list for High Treason at St Margaret’s Hill, Southwark, includes “5. Nicholas Glascoe, Maj. in ditto. He raised the Battery against the Hazard Sloop (which was commanded by Capt. Hill) and took her.”",
+      "assessment": "Reprinted indictment list, not proof of guilt. Each issue and clipping is preserved; repeated text is presented together.",
+      "profile_ids": [],
+      "profile_matches": [],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#nicholas-glasco-southwark",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "1334222061",
+      "date": "1746-09-21",
+      "paper": "S Gravenhaegse Courant",
+      "page": 1,
+      "source_url": "https://www.newspapers.com/image/1334222061/",
+      "queries": [
+        "\"Glafcoe\""
+      ],
+      "status": "confirmed surname",
+      "reading": "A Dutch London report dated 16 September lists Nicolas Glascoe among named officers or prisoners in the 1746 proceedings.",
+      "assessment": "Original Dutch passage verified. This is a cautious English summary of the named list; detailed legal wording has not been translated or equated with the English indictment notice.",
+      "profile_ids": [],
+      "profile_matches": [],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#nicholas-glasco-southwark",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "979339079",
+      "date": "1746-11-17",
+      "paper": "The Western Flying Post; or, Sherborne and Yeovil Mercury",
+      "page": 2,
+      "source_url": "https://www.newspapers.com/image/979339079/",
+      "queries": [
+        "\"Glafcoe\""
+      ],
+      "status": "confirmed surname",
+      "reading": "A Southwark report says Major Glascoe was acquitted by direction of the court after witnesses were examined and counsel opened the cartel signed at Francfort. A translated portion of the cartel follows.",
+      "assessment": "Likely the Nicholas case, without a forename in this passage. The articles are preserved in the excerpt but their complete legal effect has not been assessed. No conviction is stated.",
+      "profile_ids": [],
+      "profile_matches": [],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#nicholas-glasco-southwark",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "971385255",
+      "date": "1746-11-18",
+      "paper": "The Gloucester Journal",
+      "page": 2,
+      "source_url": "https://www.newspapers.com/image/971385255/",
+      "queries": [
+        "\"Glafcoe\""
+      ],
+      "status": "confirmed surname",
+      "reading": "A Southwark report says Major Glascoe was acquitted by direction of the court after witnesses were examined and counsel opened the cartel signed at Francfort. A translated portion of the cartel follows.",
+      "assessment": "Likely the Nicholas case, without a forename in this passage. The articles are preserved in the excerpt but their complete legal effect has not been assessed. No conviction is stated.",
+      "profile_ids": [],
+      "profile_matches": [],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#nicholas-glasco-southwark",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "1334158733",
+      "date": "1746-12-01",
+      "paper": "Opregte Haarlemsche Courant",
+      "page": 1,
+      "source_url": "https://www.newspapers.com/image/1334158733/",
+      "queries": [
+        "\"Glafcoe\""
+      ],
+      "status": "confirmed surname",
+      "reading": "A Dutch report names Nicolas Glascoe, major in Lord Ogilvie’s second battalion, as French-born and formerly a lieutenant in Dillon’s Regiment in French service; it reports an order to treat him as a prisoner of war.",
+      "assessment": "Working English summary of the original Dutch. The passage does not give a birth date, relatives or the specific French town named in other reports.",
+      "profile_ids": [],
+      "profile_matches": [],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#nicholas-glasco-southwark",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "1214319476",
+      "date": "1747-05-08",
+      "paper": "The Weekly Worcester Journal",
+      "page": 2,
+      "source_url": "https://www.newspapers.com/image/1214319476/",
+      "queries": [
+        "\"Glafcoe\""
+      ],
+      "status": "confirmed surname",
+      "reading": "The King has granted English Pay to the Regiment which Lord Ogilvy is raising, to be composed only of English and Scotch Men. Sir William Gordon of Park is appointed lieutenant-colonel, and “Mr Glascoe Major.”",
+      "assessment": "Reprint of the Ogilvy regiment report. No forename; Nicholas is a probable contextual candidate, not a proved identification. English pay is not interpreted as British service.",
+      "profile_ids": [],
+      "profile_matches": [],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#nicholas-glasco-southwark",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "39398014",
+      "date": "1770-02-01",
+      "paper": "The Pennsylvania Gazette",
+      "page": 3,
+      "source_url": "https://www.newspapers.com/image/39398014/",
+      "queries": [
+        "\"Samuel Glafgow\""
+      ],
+      "status": "confirmed surname",
+      "reading": "Samuel Glasgow is an adjoining landowner in a Whitpain Township execution-sale notice for about fifty acres, late Isaac Williams’s estate, bounded by John Saunders, Samuel Glasgow, John Eldridge and Thomas Blackledge.",
+      "assessment": "A boundary name, not the deceased estate owner, buyer or executor. February and August notices concern the same described estate; their planned sale dates differ, preserved in each issue assessment. Planned sale: 17 February 1770, at Abraham Wentz’s house. No completed sale is established.",
+      "profile_ids": [
+        "Glasgow-3175",
+        "Glasgow-1134",
+        "Glasgow-1492"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-3175",
+          "confidence": "possible",
+          "role": "Possible identity; no bridge established",
+          "basis": "Uncertain 1740 Ulster birth and 1801 Hanover Township, Washington County death are chronologically compatible. Strongest contextual candidate for the 1791 county office; no land or service identity bridge."
+        },
+        {
+          "profile_id": "Glasgow-1134",
+          "confidence": "possible",
+          "role": "Possible identity; no bridge established",
+          "basis": "Estimated c.1749 Cecil County, Maryland birth and c.1834 Ohio death. Strongest contextual candidate for the Maryland regiment; no service, land or Washington office bridge."
+        },
+        {
+          "profile_id": "Glasgow-1492",
+          "confidence": "possible",
+          "role": "Possible identity; no bridge established",
+          "basis": "Estimated c.1726 Moneymore birth and c.1824 United States death allow these dates. The separate 1766 Gorteen occurrence does not establish American migration or identity."
+        }
+      ],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#samuel-glasgow-whitpain",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "39398170",
+      "date": "1770-02-15",
+      "paper": "The Pennsylvania Gazette",
+      "page": 2,
+      "source_url": "https://www.newspapers.com/image/39398170/",
+      "queries": [
+        "\"Samuel Glafgow\""
+      ],
+      "status": "confirmed surname",
+      "reading": "Samuel Glasgow is an adjoining landowner in a Whitpain Township execution-sale notice for about fifty acres, late Isaac Williams’s estate, bounded by John Saunders, Samuel Glasgow, John Eldridge and Thomas Blackledge.",
+      "assessment": "A boundary name, not the deceased estate owner, buyer or executor. February and August notices concern the same described estate; their planned sale dates differ, preserved in each issue assessment. Planned sale: 17 February 1770, at Abraham Wentz’s house. No completed sale is established.",
+      "profile_ids": [
+        "Glasgow-3175",
+        "Glasgow-1134",
+        "Glasgow-1492"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-3175",
+          "confidence": "possible",
+          "role": "Possible identity; no bridge established",
+          "basis": "Uncertain 1740 Ulster birth and 1801 Hanover Township, Washington County death are chronologically compatible. Strongest contextual candidate for the 1791 county office; no land or service identity bridge."
+        },
+        {
+          "profile_id": "Glasgow-1134",
+          "confidence": "possible",
+          "role": "Possible identity; no bridge established",
+          "basis": "Estimated c.1749 Cecil County, Maryland birth and c.1834 Ohio death. Strongest contextual candidate for the Maryland regiment; no service, land or Washington office bridge."
+        },
+        {
+          "profile_id": "Glasgow-1492",
+          "confidence": "possible",
+          "role": "Possible identity; no bridge established",
+          "basis": "Estimated c.1726 Moneymore birth and c.1824 United States death allow these dates. The separate 1766 Gorteen occurrence does not establish American migration or identity."
+        }
+      ],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#samuel-glasgow-whitpain",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "39400791",
+      "date": "1770-07-12",
+      "paper": "The Pennsylvania Gazette",
+      "page": 3,
+      "source_url": "https://www.newspapers.com/image/39400791/",
+      "queries": [
+        "\"Samuel Glafgow\""
+      ],
+      "status": "confirmed surname",
+      "reading": "Samuel Glasgow is a boundary landowner for thirty acres, part of a fifty-acre Whitpain Township tract, late Isaac Williams’s estate, also bounded by John Saunders and John Eldridge. A sale is advertised for 9 August at William Lawrence’s house in Plymouth Township.",
+      "assessment": "Three issue appearances of one notice. The separate Limerick property’s 7 August sale does not apply here. No completed sale, occupation or kinship is established.",
+      "profile_ids": [
+        "Glasgow-3175",
+        "Glasgow-1134",
+        "Glasgow-1492"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-3175",
+          "confidence": "possible",
+          "role": "Possible identity; no bridge established",
+          "basis": "Uncertain 1740 Ulster birth and 1801 Hanover Township, Washington County death are chronologically compatible. Strongest contextual candidate for the 1791 county office; no land or service identity bridge."
+        },
+        {
+          "profile_id": "Glasgow-1134",
+          "confidence": "possible",
+          "role": "Possible identity; no bridge established",
+          "basis": "Estimated c.1749 Cecil County, Maryland birth and c.1834 Ohio death. Strongest contextual candidate for the Maryland regiment; no service, land or Washington office bridge."
+        },
+        {
+          "profile_id": "Glasgow-1492",
+          "confidence": "possible",
+          "role": "Possible identity; no bridge established",
+          "basis": "Estimated c.1726 Moneymore birth and c.1824 United States death allow these dates. The separate 1766 Gorteen occurrence does not establish American migration or identity."
+        }
+      ],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#samuel-glasgow-whitpain",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "39400983",
+      "date": "1770-07-19",
+      "paper": "The Pennsylvania Gazette",
+      "page": 5,
+      "source_url": "https://www.newspapers.com/image/39400983/",
+      "queries": [
+        "\"Samuel Glafgow\""
+      ],
+      "status": "confirmed surname",
+      "reading": "Samuel Glasgow is a boundary landowner for thirty acres, part of a fifty-acre Whitpain Township tract, late Isaac Williams’s estate, also bounded by John Saunders and John Eldridge. A sale is advertised for 9 August at William Lawrence’s house in Plymouth Township.",
+      "assessment": "Three issue appearances of one notice. The separate Limerick property’s 7 August sale does not apply here. No completed sale, occupation or kinship is established.",
+      "profile_ids": [
+        "Glasgow-3175",
+        "Glasgow-1134",
+        "Glasgow-1492"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-3175",
+          "confidence": "possible",
+          "role": "Possible identity; no bridge established",
+          "basis": "Uncertain 1740 Ulster birth and 1801 Hanover Township, Washington County death are chronologically compatible. Strongest contextual candidate for the 1791 county office; no land or service identity bridge."
+        },
+        {
+          "profile_id": "Glasgow-1134",
+          "confidence": "possible",
+          "role": "Possible identity; no bridge established",
+          "basis": "Estimated c.1749 Cecil County, Maryland birth and c.1834 Ohio death. Strongest contextual candidate for the Maryland regiment; no service, land or Washington office bridge."
+        },
+        {
+          "profile_id": "Glasgow-1492",
+          "confidence": "possible",
+          "role": "Possible identity; no bridge established",
+          "basis": "Estimated c.1726 Moneymore birth and c.1824 United States death allow these dates. The separate 1766 Gorteen occurrence does not establish American migration or identity."
+        }
+      ],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#samuel-glasgow-whitpain",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "39401146",
+      "date": "1770-07-26",
+      "paper": "The Pennsylvania Gazette",
+      "page": 6,
+      "source_url": "https://www.newspapers.com/image/39401146/",
+      "queries": [
+        "\"Samuel Glafgow\""
+      ],
+      "status": "confirmed surname",
+      "reading": "Samuel Glasgow is a boundary landowner for thirty acres, part of a fifty-acre Whitpain Township tract, late Isaac Williams’s estate, also bounded by John Saunders and John Eldridge. A sale is advertised for 9 August at William Lawrence’s house in Plymouth Township.",
+      "assessment": "Three issue appearances of one notice. The separate Limerick property’s 7 August sale does not apply here. No completed sale, occupation or kinship is established.",
+      "profile_ids": [
+        "Glasgow-3175",
+        "Glasgow-1134",
+        "Glasgow-1492"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-3175",
+          "confidence": "possible",
+          "role": "Possible identity; no bridge established",
+          "basis": "Uncertain 1740 Ulster birth and 1801 Hanover Township, Washington County death are chronologically compatible. Strongest contextual candidate for the 1791 county office; no land or service identity bridge."
+        },
+        {
+          "profile_id": "Glasgow-1134",
+          "confidence": "possible",
+          "role": "Possible identity; no bridge established",
+          "basis": "Estimated c.1749 Cecil County, Maryland birth and c.1834 Ohio death. Strongest contextual candidate for the Maryland regiment; no service, land or Washington office bridge."
+        },
+        {
+          "profile_id": "Glasgow-1492",
+          "confidence": "possible",
+          "role": "Possible identity; no bridge established",
+          "basis": "Estimated c.1726 Moneymore birth and c.1824 United States death allow these dates. The separate 1766 Gorteen occurrence does not establish American migration or identity."
+        }
+      ],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#samuel-glasgow-whitpain",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "39401453",
+      "date": "1770-08-16",
+      "paper": "The Pennsylvania Gazette",
+      "page": 3,
+      "source_url": "https://www.newspapers.com/image/39401453/",
+      "queries": [
+        "\"Samuel Glafgow\""
+      ],
+      "status": "confirmed surname",
+      "reading": "Samuel Glasgow is an adjoining landowner in a Whitpain Township execution-sale notice for about fifty acres, late Isaac Williams’s estate, bounded by John Saunders, Samuel Glasgow, John Eldridge and Thomas Blackledge.",
+      "assessment": "A boundary name, not the deceased estate owner, buyer or executor. February and August notices concern the same described estate; their planned sale dates differ, preserved in each issue assessment. Planned sale: 28 August 1770, at Abraham Wentz’s house. No completed sale is established.",
+      "profile_ids": [
+        "Glasgow-3175",
+        "Glasgow-1134",
+        "Glasgow-1492"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-3175",
+          "confidence": "possible",
+          "role": "Possible identity; no bridge established",
+          "basis": "Uncertain 1740 Ulster birth and 1801 Hanover Township, Washington County death are chronologically compatible. Strongest contextual candidate for the 1791 county office; no land or service identity bridge."
+        },
+        {
+          "profile_id": "Glasgow-1134",
+          "confidence": "possible",
+          "role": "Possible identity; no bridge established",
+          "basis": "Estimated c.1749 Cecil County, Maryland birth and c.1834 Ohio death. Strongest contextual candidate for the Maryland regiment; no service, land or Washington office bridge."
+        },
+        {
+          "profile_id": "Glasgow-1492",
+          "confidence": "possible",
+          "role": "Possible identity; no bridge established",
+          "basis": "Estimated c.1726 Moneymore birth and c.1824 United States death allow these dates. The separate 1766 Gorteen occurrence does not establish American migration or identity."
+        }
+      ],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#samuel-glasgow-whitpain",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "39401610",
+      "date": "1770-08-23",
+      "paper": "The Pennsylvania Gazette",
+      "page": 6,
+      "source_url": "https://www.newspapers.com/image/39401610/",
+      "queries": [
+        "\"Samuel Glafgow\""
+      ],
+      "status": "confirmed surname",
+      "reading": "Samuel Glasgow is an adjoining landowner in a Whitpain Township execution-sale notice for about fifty acres, late Isaac Williams’s estate, bounded by John Saunders, Samuel Glasgow, John Eldridge and Thomas Blackledge.",
+      "assessment": "A boundary name, not the deceased estate owner, buyer or executor. February and August notices concern the same described estate; their planned sale dates differ, preserved in each issue assessment. Planned sale: 28 August 1770, at Abraham Wentz’s house. No completed sale is established.",
+      "profile_ids": [
+        "Glasgow-3175",
+        "Glasgow-1134",
+        "Glasgow-1492"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-3175",
+          "confidence": "possible",
+          "role": "Possible identity; no bridge established",
+          "basis": "Uncertain 1740 Ulster birth and 1801 Hanover Township, Washington County death are chronologically compatible. Strongest contextual candidate for the 1791 county office; no land or service identity bridge."
+        },
+        {
+          "profile_id": "Glasgow-1134",
+          "confidence": "possible",
+          "role": "Possible identity; no bridge established",
+          "basis": "Estimated c.1749 Cecil County, Maryland birth and c.1834 Ohio death. Strongest contextual candidate for the Maryland regiment; no service, land or Washington office bridge."
+        },
+        {
+          "profile_id": "Glasgow-1492",
+          "confidence": "possible",
+          "role": "Possible identity; no bridge established",
+          "basis": "Estimated c.1726 Moneymore birth and c.1824 United States death allow these dates. The separate 1766 Gorteen occurrence does not establish American migration or identity."
+        }
+      ],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#samuel-glasgow-whitpain",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "590968568",
+      "date": "1777-10-23",
+      "paper": "Maryland Gazette",
+      "page": 2,
+      "source_url": "https://www.newspapers.com/image/590968568/",
+      "queries": [
+        "\"Samuel Glafgow\""
+      ],
+      "status": "confirmed surname",
+      "reading": "A notice dated Baltimore, 19 October 1777, signed Joseph Ford, orders absent soldiers of the First Maryland Regiment, including Samuel Glasgow, to return by 10 November. It threatens apprehension and punishment as deserters and offers influence toward pardons.",
+      "assessment": "Samuel is in the final group without an assigned company. Captain Murray’s heading applies to a preceding group. This is a recall and allegation, not proof of adjudicated desertion, punishment or return.",
+      "profile_ids": [
+        "Glasgow-3175",
+        "Glasgow-1134",
+        "Glasgow-1492"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-3175",
+          "confidence": "possible",
+          "role": "Possible identity; no bridge established",
+          "basis": "Uncertain 1740 Ulster birth and 1801 Hanover Township, Washington County death are chronologically compatible. Strongest contextual candidate for the 1791 county office; no land or service identity bridge."
+        },
+        {
+          "profile_id": "Glasgow-1134",
+          "confidence": "possible",
+          "role": "Possible identity; no bridge established",
+          "basis": "Estimated c.1749 Cecil County, Maryland birth and c.1834 Ohio death. Strongest contextual candidate for the Maryland regiment; no service, land or Washington office bridge."
+        },
+        {
+          "profile_id": "Glasgow-1492",
+          "confidence": "possible",
+          "role": "Possible identity; no bridge established",
+          "basis": "Estimated c.1726 Moneymore birth and c.1824 United States death allow these dates. The separate 1766 Gorteen occurrence does not establish American migration or identity."
+        }
+      ],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#samuel-glasgow-maryland-regiment",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "41048973",
+      "date": "1777-11-06",
+      "paper": "Maryland Gazette",
+      "page": 2,
+      "source_url": "https://www.newspapers.com/image/41048973/",
+      "queries": [
+        "\"Samuel Glafgow\""
+      ],
+      "status": "confirmed surname",
+      "reading": "A notice dated Baltimore, 19 October 1777, signed Joseph Ford, orders absent soldiers of the First Maryland Regiment, including Samuel Glasgow, to return by 10 November. It threatens apprehension and punishment as deserters and offers influence toward pardons.",
+      "assessment": "Samuel is in the final group without an assigned company. Captain Murray’s heading applies to a preceding group. This is a recall and allegation, not proof of adjudicated desertion, punishment or return.",
+      "profile_ids": [
+        "Glasgow-3175",
+        "Glasgow-1134",
+        "Glasgow-1492"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-3175",
+          "confidence": "possible",
+          "role": "Possible identity; no bridge established",
+          "basis": "Uncertain 1740 Ulster birth and 1801 Hanover Township, Washington County death are chronologically compatible. Strongest contextual candidate for the 1791 county office; no land or service identity bridge."
+        },
+        {
+          "profile_id": "Glasgow-1134",
+          "confidence": "possible",
+          "role": "Possible identity; no bridge established",
+          "basis": "Estimated c.1749 Cecil County, Maryland birth and c.1834 Ohio death. Strongest contextual candidate for the Maryland regiment; no service, land or Washington office bridge."
+        },
+        {
+          "profile_id": "Glasgow-1492",
+          "confidence": "possible",
+          "role": "Possible identity; no bridge established",
+          "basis": "Estimated c.1726 Moneymore birth and c.1824 United States death allow these dates. The separate 1766 Gorteen occurrence does not establish American migration or identity."
+        }
+      ],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#samuel-glasgow-maryland-regiment",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "584905489",
+      "date": "1791-09-21",
+      "paper": "Aurora General Advertiser",
+      "page": 2,
+      "source_url": "https://www.newspapers.com/image/584905489/",
+      "queries": [
+        "\"Samuel Glafgow\""
+      ],
+      "status": "confirmed surname",
+      "reading": "Samuel Glasgow is listed under Washington in the names of Pennsylvania justices of the peace in commission on 1 September 1791.",
+      "assessment": "The separate saved heading establishes office and date. Glasgow-3175 is the strongest contextual candidate through his uncertain Hanover Township, Washington County death locality. Identity, tenure and family are not proved.",
+      "profile_ids": [
+        "Glasgow-3175",
+        "Glasgow-1134",
+        "Glasgow-1492"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-3175",
+          "confidence": "possible",
+          "role": "Possible identity; no bridge established",
+          "basis": "Uncertain 1740 Ulster birth and 1801 Hanover Township, Washington County death are chronologically compatible. Strongest contextual candidate for the 1791 county office; no land or service identity bridge."
+        },
+        {
+          "profile_id": "Glasgow-1134",
+          "confidence": "possible",
+          "role": "Possible identity; no bridge established",
+          "basis": "Estimated c.1749 Cecil County, Maryland birth and c.1834 Ohio death. Strongest contextual candidate for the Maryland regiment; no service, land or Washington office bridge."
+        },
+        {
+          "profile_id": "Glasgow-1492",
+          "confidence": "possible",
+          "role": "Possible identity; no bridge established",
+          "basis": "Estimated c.1726 Moneymore birth and c.1824 United States death allow these dates. The separate 1766 Gorteen occurrence does not establish American migration or identity."
+        }
+      ],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#samuel-glasgow-washington-justice",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "32751669",
+      "date": "1795-07-14",
+      "paper": "The Times",
+      "page": 1,
+      "source_url": "https://www.newspapers.com/image/32751669/",
+      "queries": [
+        "\"Samuel Glafgow\""
+      ],
+      "status": "confirmed surname",
+      "reading": "Samuel Glasgow, pen-cutter, formerly of Shaftesbury Place, Aldersgate Street, and afterwards Webber Street, Surrey Road, is item 70 in an Amicable Society notice concerning deaths in 1794 (Old Style).",
+      "assessment": "Heading dated 10 July 1795, printed 14 and 15 July. Preserve Old Style wording; no exact death day is given. This reported London death conditionally conflicts with the later uncertain or estimated deaths of the American candidates. No supported identity match.",
+      "profile_ids": [],
+      "profile_matches": [],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#samuel-glasgow-london-amicable",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "32751719",
+      "date": "1795-07-15",
+      "paper": "The Times",
+      "page": 1,
+      "source_url": "https://www.newspapers.com/image/32751719/",
+      "queries": [
+        "\"Samuel Glafgow\""
+      ],
+      "status": "confirmed surname",
+      "reading": "Samuel Glasgow, pen-cutter, formerly of Shaftesbury Place, Aldersgate Street, and afterwards Webber Street, Surrey Road, is item 70 in an Amicable Society notice concerning deaths in 1794 (Old Style).",
+      "assessment": "Heading dated 10 July 1795, printed 14 and 15 July. Preserve Old Style wording; no exact death day is given. This reported London death conditionally conflicts with the later uncertain or estimated deaths of the American candidates. No supported identity match.",
+      "profile_ids": [],
+      "profile_matches": [],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#samuel-glasgow-london-amicable",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "34411230",
+      "date": "1775-11-24",
+      "paper": "The Public Advertiser",
+      "page": 4,
+      "source_url": "https://www.newspapers.com/image/34411230/",
+      "queries": [
+        "\"Samuel Glafgow\""
+      ],
+      "status": "place or ship",
+      "reading": "The inspected match uses Glasgow as a port heading; Samuel is in adjacent shipping text, not a Glasgow surname.",
+      "assessment": "Original opened and screened in the Samuel worldwide batch. Exclusion applies to this inspected passage only.",
+      "profile_ids": [],
       "reviewed_on": "2026-10-05"
     }
   ]

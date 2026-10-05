@@ -18,6 +18,10 @@ In May 1747 a notice names Mr Glascoe as major in Lord Ogilvy’s new regiment. 
 
 No parents, spouse, children, birth date, death date or Irish origin is established.
 
+Further original issues preserve June rosters, indictment reprints and Dutch reports, along with acquittal reports containing translated cartel articles. These are related issue appearances; no independent family identity follows. <ref>[https://www.newspapers.com/image/979338930/ The Western Flying Post; or, Sherborne and Yeovil Mercury (The Sherborne Mercury, or Weekly Advertiser), 1746-06-30, p.2], original passage inspected 5 October 2026.</ref><ref>[https://www.newspapers.com/image/1334222061/ S Gravenhaegse Courant, 1746-09-21, p.1], original passage inspected 5 October 2026.</ref><ref>[https://www.newspapers.com/image/979339079/ The Western Flying Post; or, Sherborne and Yeovil Mercury, 1746-11-17, p.2], original passage inspected 5 October 2026.</ref><ref>[https://www.newspapers.com/image/971385255/ The Gloucester Journal, 1746-11-18, p.2], original passage inspected 5 October 2026.</ref><ref>[https://www.newspapers.com/image/1334158733/ Opregte Haarlemsche Courant, 1746-12-01, p.1], original passage inspected 5 October 2026.</ref>
+
+The Gloucester Journal of 28 April 1747 describes Major Glascoe as lately discharged at London and chief major in Lord Ogilvy’s projected regiment. Nicholas is a probable contextual candidate; no forename is given, and English pay is not interpreted as British military service.<ref>[https://www.newspapers.com/image/971516263/ Gloucester Journal, 28 April 1747, p.1], original passage inspected 5 October 2026.</ref>
+
 == Research Notes ==
 The rare full name, Southwark proceedings and Hazard episode support a probable association across the 1746 reports. French birth and service are reported defence evidence. They do not establish an Irish origin, a Glasgow-family connection or relatives. The May 1747 appointment lacks a forename.
 
