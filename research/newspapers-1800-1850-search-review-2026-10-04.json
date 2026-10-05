@@ -769,9 +769,44 @@
       "previews_screened": 0,
       "triage": "No good matches. OCR absence is not proof of absence.",
       "source_capture": ".cache/newspapers/2026-10-04/continued/zero-queries.json"
+    },
+    {
+      "query": "\"Glasco\"",
+      "collection": "Ireland",
+      "date_start": 1800,
+      "date_end": 1850,
+      "reviewed_on": "2026-10-05",
+      "reported_entries": 19,
+      "retrieved_entries": 19,
+      "unique_image_count": 19,
+      "previews_screened": 19,
+      "preview_positions_screened": 21,
+      "end_of_results": true,
+      "originals_checked": 19,
+      "triage": "All 19 displayed cards and 21 primary/alternate positions screened through End; all 19 originals checked. Seventeen retained page references comprise 13 personal-name references (not necessarily 13 distinct people) and four repeated Glasco firm-mark pages (one watch description, not four people). The two Talbot Glascock pages are excluded false hits.",
+      "limitations": "Exact quoted Glasco query and Ireland collection only; this does not claim archive-wide completeness."
+    },
+    {
+      "query": "Glasgow Rasharkin",
+      "collection": "Northern Ireland",
+      "date_start": 1800,
+      "date_end": 1850,
+      "reviewed_on": "2026-10-05",
+      "reported_entries": 197,
+      "retrieved_entries": 197,
+      "unique_image_count": 197,
+      "previews_screened": 197,
+      "preview_positions_screened": 1229,
+      "end_of_results": true,
+      "originals_checked": 37,
+      "original_positions_checked": 47,
+      "original_review_pages": 32,
+      "additional_candidate_pages": 5,
+      "triage": "All 197 primary cards and 1,032 alternate positions (1,229 total) visually reviewed through End. The final original-position review resolves all 47 captured ordinal positions across 32 pages as place, vessel, or other passage context; five additional previously checked candidate pages bring the reviewed original-page set to the dynamically counted union. Three flags concern contextual wording only; no personal Glasgow surname remains unresolved in the reviewed passages. The selected 4 April 1837 minister occurrence and the 7 February 1837 Charles Bryson/Glasgow city exclusion remain separately recorded.",
+      "limitations": "Northern Ireland quoted/name-plus-locality displayed result set only. This does not claim archive-wide completeness or prove absence outside the reviewed matched passages."
     }
   ],
-  "query_history_count": 82,
+  "query_history_count": 84,
   "limitations": [
     "49 distinct queries: 24 quoted catalogue names in each Irish collection plus one contextual Inishrush query; 59 other given-name forms per collection remain unqueried in this interval.",
     "Retrieved result entries are not retained people. Only the stated readable first previews were screened; blank or too-small previews and additional page highlights are not presumed excluded.",
@@ -784,7 +819,8 @@
     "James NI continuation adds133retrieved/132 readable first previews; same distinct query, not another unique search. Nine new original surname pages integrated;151 of153 first previews screened,not all carousel highlights.",
     "John continuation: both collections fully retrieved (Northern Ireland 95, Ireland 109) and all first previews screened; adds 174 entries/previews to earlier samples. Seven selected original surname pages verified. The 1831 freeholders’ context is resolved. A damaged 1849 marriage passage remains unassigned/pending; additional carousel highlights and 59 other given forms per collection remain.",
     "Degree/military/agent continuation: six new originals and ten new distinct quoted queries. Existing George and Benjamin first previews rechecked without double counting retrieval. Wilson remains sampled at ten entries in each collection; all additional carousel highlights and unqueried names remain open. The newspaper1825/university1826 Benjamin degree discrepancy is unresolved. Irish publication does not prove military subjects’ Irish ancestry.",
-    "5 October continuation: original 1050134301 was resolved as a place, not a personal Glasgow occurrence; additional Ireland-query carousel positions remain unexhausted. A separate Belfast 1841 Rev. A. J. Glasgow is confirmed as a documentary subject, with identity unresolved."
+    "5 October continuation: original 1050134301 was resolved as a place, not a personal Glasgow occurrence; additional Ireland-query carousel positions remain unexhausted. A separate Belfast 1841 Rev. A. J. Glasgow is confirmed as a documentary subject, with identity unresolved.",
+    "5 October fifth-batch proposal: 18 new newspaper pages integrated across 1800–1850, comprising 13 personal-name page references, four repeated Glasco firm-mark pages for one watch description, and one Castledawson minister mention. These 18 pages do not imply 18 distinct people. The 19-card quoted Ireland Glasco query is original-checked. For the 197-card Northern Ireland Glasgow Rasharkin displayed result set, all 1,229 preview positions and 47 captured original positions across 32 pages were reviewed, plus five prior candidate pages (page union counted dynamically); this is not archive-wide completeness."
   ],
   "catalogue_names_not_yet_quoted_in_Northern_Ireland": [
     "Abigail",
@@ -945,13 +981,31 @@
     "1050085864",
     "390556388",
     "390557883",
-    "390562652"
+    "390562652",
+    "1050127957",
+    "1050128500",
+    "1050129060",
+    "1050129538",
+    "1050078150",
+    "1050080149",
+    "1050086323",
+    "1050127796",
+    "1050043397",
+    "1050083649",
+    "1050130719",
+    "1259428783",
+    "1050087340",
+    "1050145535",
+    "1050145680",
+    "1050131561",
+    "1050126480",
+    "390545495"
   ],
   "reviewed_original_pending_context": [],
   "coverage_totals": {
-    "distinct_queries": 59,
-    "retrieved_entries": 758,
-    "readable_first_previews_screened": 735,
-    "newly_resolved_original_pages": 47
+    "distinct_queries": 61,
+    "retrieved_entries": 974,
+    "readable_first_previews_screened": 951,
+    "newly_resolved_original_pages": 65
   }
 }

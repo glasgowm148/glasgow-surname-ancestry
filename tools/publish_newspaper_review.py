@@ -57,10 +57,10 @@ def render(data: dict) -> str:
     places = groups["place study"]
     exclusions = groups["place or ship"]
     pending = groups["reading pending"]
-    counts = f'{len(data["rows"])} catalogued pages · {len(records)} surname records retained · {len(places)} place-study records · {len(exclusions)} place/vessel hits excluded · {len(pending)} readings pending.'
+    counts = f'{len(data["rows"])} catalogued pages · {len(records)} surname records retained · {len(places)} place-study records · {len(exclusions)} place/vessel/other-name hits excluded · {len(pending)} readings pending.'
     retained_table = table(records, "Retained Glasgow surname records") if records else '<p>No surname record confirmed in this batch.</p>'
     places_table = ('<h3>Records for place studies</h3><p>These inspected notices concern places in our studies. They are separate from surname evidence and do not establish a Glasgow family connection.</p>' + table(places, "Retained place-study records — not surname evidence")) if places else ''
-    exclusions_table = ('<details class="early-newspaper-exclusions"><summary>Excluded search hits (' + str(len(exclusions)) + ') — places and vessels</summary><p>These passages do not name people with the Glasgow surname and are not retained surname records. The log prevents repeating these false matches.</p>' + table(exclusions, "Excluded search hits — not surname records") + '</details>') if exclusions else ''
+    exclusions_table = ('<details class="early-newspaper-exclusions"><summary>Excluded search hits (' + str(len(exclusions)) + ') — places, vessels and other-surname OCR matches</summary><p>These passages are place or vessel references or OCR matches to other surnames; they do not establish a person with the Glasgow surname and are not retained surname records.</p>' + table(exclusions, "Excluded search hits — not surname records") + '</details>') if exclusions else ''
     pending_table = ('<details><summary>Readings still pending (' + str(len(pending)) + ')</summary>' + table(pending, "Unresolved search hits") + '</details>') if pending else ''
     limitations = " ".join(str(item) for item in data.get("limitations", []))
     return f'''{START}

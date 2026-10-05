@@ -20,7 +20,7 @@ ROOT = Path(__file__).resolve().parents[1]
 WEB = ROOT / 'www'
 INPUT = ROOT / 'research/source-library'
 TYPES = {
-    'newspapers': ('Newspapers', 'Reported events, notices, advertisements and letters. OCR matches need visual checking; Glasgow the city and named vessels are excluded from surname evidence.'),
+    'newspapers': ('Newspapers', 'Reported events, notices, advertisements and letters. OCR matches need visual checking; place names, vessels and matches to other surnames are excluded from Glasgow surname evidence.'),
     'census': ('Census', 'Households and population returns, arranged by census year and jurisdiction. Coverage and the meaning of a household relationship vary by census.'),
     'births': ('Births & baptisms', 'Civil births and parish baptisms. Baptism and registration dates must be distinguished from the date of birth.'),
     'marriages': ('Marriages & banns', 'Civil marriages, church marriages and proclamations of banns. Banns alone do not prove that a wedding took place.'),
@@ -234,7 +234,7 @@ def newspaper_card(row, clips, web, group=None):
         elif row['status'] == 'reading pending':
             message = 'Unverified search lead; the original passage still needs inspection.'
         else:
-            message = 'City or vessel reference; excluded from surname evidence.'
+            message = 'Place, vessel or other-surname OCR match; excluded from surname evidence.'
         missing = f'<p class="sc-muted">{message}</p>'
     aliases = ''.join(f'<span id="newspaper-{e(str(item["image_id"]))}" data-source-target="/sources/newspapers/#newspaper-{e(str(item["image_id"]))}"></span>' for item in group[1:])
     alternatives = ''
@@ -309,7 +309,7 @@ def newspaper_body(data, clips, web, country='', year=None):
     controls = '<form class="sc-newspaper-filters sc-filters"><label>Find a name or place<input type="search" name="q" placeholder="Lisnagaver, Rasharkin, William…"></label><label>Year<select name="year"><option value="">All years</option>' + ''.join(f'<option>{v}</option>' for v in sorted({r['date'][:4] for r in retained})) + '</select></label><label>Newspaper<select name="paper"><option value="">All papers</option>' + ''.join(f'<option>{e(v)}</option>' for v in sorted({r['paper'] for r in retained})) + '</select></label><label>Clippings<select name="clip"><option value="">All records</option><option value="1">Saved clippings</option></select></label><button type="reset">Clear filters</button></form>'
     groups = newspaper_groups(retained)
     body = f'<section id="newspaper-records"><h2>Reviewed newspaper records</h2><p>{len(retained)} retained pages, {len(groups)} distinct notice readings; {sum(str(r["image_id"]) in clips for r in retained)} have saved inline excerpts. Ordered earliest first. A passage may identify more than one person. “Place study” records remain separate from surname evidence.</p>{controls}<p id="sc-newspaper-count" role="status">{len(retained)} retained pages · {len(groups)} distinct notice readings</p><div class="sc-newspaper-list">' + ''.join(newspaper_card(g[0], clips, web, g) for g in groups) + '</div></section>'
-    for status, title in [('reading pending', 'Unresolved search hits'), ('place or ship', 'Excluded city and vessel matches')]:
+    for status, title in [('reading pending', 'Unresolved search hits'), ('place or ship', 'Excluded place, vessel and other-name matches')]:
         group = [r for r in rows if r['status'] == status]
         groups = newspaper_groups(group)
         body += f'<details class="sc-review-log"><summary>{title} — {len(group)} pages · {len(groups)} distinct readings</summary><p>These are search leads or exclusions, not confirmed surname records.</p>' + ''.join(newspaper_card(g[0], {}, web, g) for g in groups) + '</details>'
@@ -500,7 +500,7 @@ def repair(web=None):
         if category == 'newspapers':
             body += '<p><a href="/sources/newspapers/supplied-clippings/">Browse all 16 distinct supplied clippings</a>, including three still awaiting exact original-page links.</p>'
             inspected = len(newspaper['rows']) - review_counts['reading pending']
-            body += f'<section class="sc-coverage"><h2>Coverage & limits</h2><p>{len(newspaper["rows"])} pages catalogued · {inspected} original passages reviewed · {review_counts["confirmed surname"]} surname pages retained · {review_counts["place study"]} place-study page · {review_counts["place or ship"]} city/vessel pages excluded · {review_counts["reading pending"]} readings pending. Searches are selective and incomplete; these totals do not measure all newspaper holdings or all Glasgow mentions.</p><p>OCR hits and highlighted search words are leads. Saved excerpts may show only part of a notice; inspect the original page before treating a reading or namesake as proved. Missing issues, uneven digitisation, spelling variants and poor OCR can hide a relevant record. Free promotional access is temporary; original links may later require a subscription.</p><details><summary>Search coverage and detailed qualifications</summary><p>' + e(newspaper['scope']) + '</p><p>' + e(' '.join(newspaper['limitations'])) + '</p></details></section>' + newspaper_body(newspaper, clips, web)
+            body += f'<section class="sc-coverage"><h2>Coverage & limits</h2><p>{len(newspaper["rows"])} pages catalogued · {inspected} original passages reviewed · {review_counts["confirmed surname"]} surname pages retained · {review_counts["place study"]} place-study page · {review_counts["place or ship"]} place/vessel/other-name pages excluded · {review_counts["reading pending"]} readings pending. Searches are selective and incomplete; these totals do not measure all newspaper holdings or all Glasgow mentions.</p><p>OCR hits and highlighted search words are leads. Saved excerpts may show only part of a notice; inspect the original page before treating a reading or namesake as proved. Missing issues, uneven digitisation, spelling variants and poor OCR can hide a relevant record. Free promotional access is temporary; original links may later require a subscription.</p><details><summary>Search coverage and detailed qualifications</summary><p>' + e(newspaper['scope']) + '</p><p>' + e(' '.join(newspaper['limitations'])) + '</p></details></section>' + newspaper_body(newspaper, clips, web)
         body += browser(selected, category)
         page(category, title, body)
         for country in countries:

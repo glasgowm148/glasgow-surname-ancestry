@@ -119,7 +119,7 @@ class SourceCollectionsTests(unittest.TestCase):
         row = dict(self.newspapers['rows'][0])
         for status, message in [
             ('reading pending', 'Unverified search lead'),
-            ('place or ship', 'excluded from surname evidence'),
+            ('place or ship', 'other-surname OCR match; excluded from surname evidence'),
             ('confirmed surname', 'Saved excerpt pending'),
         ]:
             row['status'] = status
@@ -127,6 +127,21 @@ class SourceCollectionsTests(unittest.TestCase):
             self.assertIn(message, card)
             if status != 'confirmed surname':
                 self.assertNotIn('Saved excerpt pending', card)
+
+    def test_other_surname_ocr_exclusions_keep_the_existing_status_bucket(self):
+        data = {'reviewed_at':'2026-10-05', 'title':'Review', 'scope':'Bounded sample.',
+                'conclusion':'', 'limitations':[], 'rows':[{
+                    'image_id':'other-name', 'date':'1840-01-01', 'paper':'Paper', 'page':1,
+                    'source_url':'https://www.newspapers.com/image/123/', 'status':'place or ship',
+                    'reading':'The OCR hit is for Talbot Glascock, not Glasgow.',
+                    'assessment':'Other-surname OCR match; excluded from Glasgow surname evidence.'
+                }]}
+        html = render_newspaper_review(data)
+        self.assertIn('places, vessels and other-surname OCR matches', html)
+        self.assertIn('place/vessel/other-name hits excluded', html)
+        self.assertIn('<strong>place or ship</strong>', html)
+        self.assertIn('Talbot Glascock', html)
+        self.assertNotIn('Retained Glasgow surname records</caption>', html)
 
     def test_identical_readings_group_but_keep_issue_anchors_and_links(self):
         rows = [

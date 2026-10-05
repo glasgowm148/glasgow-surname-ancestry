@@ -36,3 +36,7 @@ The notices give no first name, birth, death or kin. The addresses fit the exist
 ```
 
 Public account: /research/subjects/newspapers-early-glasgow/#dublin-glasco-watchmaker
+
+## 1811 watch-mark reference — separate firm evidence
+
+The 11 March 1811 robbery-and-reward notice lists a gold double-cased watch stolen from Peter and Semple’s shop at 108 Grafton Street, marked “Glasco and Son, Dublin.” Three nearby issues repeat the same watch description, which bears the number 3203. This is an object/firm mark only: it does not date manufacture, prove activity of the 1779–1780 watchmaker, name a maker, or establish kinship. See the four linked original newspaper pages at https://www.newspapers.com/image/1050127957/, https://www.newspapers.com/image/1050128500/, https://www.newspapers.com/image/1050129060/, https://www.newspapers.com/image/1050129538/.

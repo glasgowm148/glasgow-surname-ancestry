@@ -154,3 +154,29 @@ John Glasgow is named under Allegheny Township in a township-grouped list accomp
 ## Next questions
 
 Inspect local tax, probate, land and original list/meeting records; compare the candidates’ own source evidence before attaching any occurrence.
+
+## Current conclusion — military and medical notices, 1816–1839; identity unresolved, 5 October 2026
+
+Eight inspected newspaper notices document successive military-medical roles or status changes under the names J. Glasco, John Glasco, and Glasco. The 1816 J. Glasco to 1822 John Glasco connection is probable because the 1822 notice places John on half-pay of the 59 th Foot; it is not explicit. The August 1826 notice calls a retiring surgeon “John Glasco, sen.”, while the December 1836 notice names Staff-Surgeon John Glasco appointed at Liverpool after employment in Grenada. The senior 1826 retiree may be a different man from the later staff surgeon. The 1838 Liverpool subscription and 1839 half-pay retirement are compatible with a later career sequence but do not resolve all links. No existing profile is assigned.
+
+The 59th Foot: Assistant Surgeon J. Glasco was to be surgeon vice Hagan, deceased; the appointment entry is dated 8 February 1816. The entry date is 8 February, not a reported date of Hagan’s death. The issue was published on 28 February. Only the initial J. is printed. [Freeman's Journal and Daily Commercial Advertiser, 1816-02-28, p.3](https://www.newspapers.com/image/1050078150/)
+
+The 60th Foot: Surgeon John Glasco, from half-pay of the 59th Foot, was to be surgeon vice William Burgess Marle, who exchanged. The full name and prior 59th Foot half-pay provide a probable career link to the 1816 J. Glasco, not explicit identity proof. [Freeman's Journal and Daily Commercial Advertiser, 1822-10-02, p.4](https://www.newspapers.com/image/1050080149/)
+
+Under Hospital Staff, “To be Deputy Inspectors of Hospitals by Brevet,” the notice names Staff-Surgeon John Glasco. Appointment wording is explicit. The precise effective/commission date is not established; the issue date is the safe date. [Freeman's Journal and Daily Commercial Advertiser, 1825-06-21, p.3](https://www.newspapers.com/image/1050086323/)
+
+For the 60th Foot, Assistant Surgeon John Winterscale from the 71st Foot was to be surgeon vice Glasco, promoted; this replacement entry is dated 20 April 1826. The source shows Glasco promoted from the 60th Foot surgeon post but does not specify the promotion destination. [Freeman's Journal and Daily Commercial Advertiser, 1826-05-16, p.3](https://www.newspapers.com/image/1050127796/)
+
+Under Hospital Staff, Surgeon Alexander Melville, M.D., from the 25th Foot, was appointed vice John Glasco, sen., who retires upon half-pay. The printed surname wraps across a line. The qualifier “sen.” is explicit and material; do not assume this retiree is the John Glasco reported in 1836–1839. Effective date is not established beyond the notice/issue dates. [Freeman's Journal and Daily Commercial Advertiser, 1826-08-18, p.1](https://www.newspapers.com/image/1050043397/)
+
+Staff-Surgeon John Glasco, lately employed at Grenada, was appointed Surgeon of the Liverpool Recruiting District in the room of Staff-Surgeon Elliott, removed to Barbadoes. Full name, prior Grenada employment and Liverpool appointment are explicit. Relationship to the senior 1826 retiree remains unresolved. [Freeman's Journal and Daily Commercial Advertiser, 1836-12-30, p.1](https://www.newspapers.com/image/1050083649/)
+
+A £1 Curran Monument subscription list includes “Staff-Surgeon Glasco, Liverpool.” Surname only; compatible with the 1836 Liverpool appointment, but a contribution list is not a service record or independent continuity proof. [Freeman's Journal and Daily Commercial Advertiser, 1838-08-31, p.2](https://www.newspapers.com/image/1050130719/)
+
+Under Hospital Staff, Surgeon A. Sinclair, M.D., from the 25th Foot, was appointed vice John Glasco, who retires upon half-pay. Full name and retirement upon half-pay are stated; exact effective date was not seen. Links among this John, the 1836–1838 staff surgeon and the senior 1826 retiree remain qualified. [The Drogheda Argus and Leinster Journal, 1839-09-28, p.4](https://www.newspapers.com/image/1259428783/)
+
+## Current conclusion — J. Glasco Dublin parish appeal signatory, 1838, 5 October 2026
+
+This proves a signatory association with the appeal only. It does not establish occupation, age, family, residence, contribution amount or attendance. The 27 November issue is a reprint of the same planned event (“THIS DAY”), not proof of a second act.
+
+A request by parishioners of St Andrew’s parish in Dublin, including St Mark’s, St Peter’s and St Anne’s, sought a meeting at the Corn Exchange Rooms at 3 p.m. on 27 November 1838 to arrange collection for O’Connell’s Annuity. J. Glasco signed the appeal. This proves a signatory association with the appeal only. It does not establish occupation, age, family, residence, contribution amount or attendance. The 27 November issue is a reprint of the same planned event (“THIS DAY”), not proof of a second act. [Freeman's Journal and Daily Commercial Advertiser, 1838-11-26, p.1](https://www.newspapers.com/image/1050145535/), [Freeman's Journal and Daily Commercial Advertiser, 1838-11-27, p.1](https://www.newspapers.com/image/1050145680/)

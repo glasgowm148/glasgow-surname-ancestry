@@ -99,3 +99,7 @@ admissions and assistant staff lists; Berry Street call/ordination minutes;
 the still-pending 1831 Robert/John signature heading; and the earliest unread
 James/John results. Search Inishrush surname variants and notice text separately
 before treating the missing quoted Nancy notice as an absence of records.
+
+### Additional Draperstown ordination report — 4 April 1837
+
+The report describes the ordination of Rev. Samuel Smith to the Draperstown congregation by the Presbytery of Magherafelt on Tuesday 28 March 1837. After the service, the congregation entertained the Presbytery and friends at dinner. In its account of the gathering, it names Rev. J. Glasgow of Castledawson among the other speakers. The printed name is Rev. J. Glasgow, not an expanded full name. Castledawson and the ministerial context make James McClure Glasgow-1780 a probable compatible candidate for this record within the already supported career sequence; the newspaper alone does not establish that full identity. The report does not change the pending call-date or ordination-date review, and no family relationship is inferred. [Belfast News-Letter, 1837-04-04, p.4](https://www.newspapers.com/image/390545495/).

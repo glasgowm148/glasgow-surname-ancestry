@@ -5,3 +5,4 @@
 .sc-profile-matches{display:grid;gap:.35rem;margin-top:.35rem}.sc-profile-match{display:block}.sc-profile-match a{font-weight:600}.sc-draft{margin-top:.2rem}
 
 .sc-newspaper-media{min-width:0}.sc-newspaper-media .sc-newspaper-supplements figure{display:block;width:100%;box-sizing:border-box;margin:.6rem 0 .2rem}
+@media(max-width:540px){.sc-newspaper-supplements figure{display:block;width:100%;max-width:100%;box-sizing:border-box;margin:.6rem 0 .2rem}}
