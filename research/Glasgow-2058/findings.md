@@ -11,6 +11,13 @@ John Glasgow is directly named as Benjamin-2059’s father and as a merchant in 
 
 ## Source findings
 
+### Further Cookstown advertisement issues and Dundrum scan, 5 October 2026
+
+Two further John Cassell coffee advertisements expressly list “Cookstown—John Glasgow, merchant”: [Sligo Champion, 28 July 1849, p. 3](https://www.newspapers.com/image/1256975114/) and [3 November 1849, p. 1](https://www.newspapers.com/image/1256975442/). A later [Fermanagh Mail, 5 September 1850, p. 3](https://www.newspapers.com/image/1369100894/) names John at Cookstown in the agent list without the merchant title. These repeated commercial notices document the same role and give no age, street address or relatives. Glasgow-2058 remains a possible match by district and later merchant evidence; Glasgow-1968 remains the weaker comparison because the reported Michigan migration weakens a later Irish attribution. No identity or family relationship is upgraded.
+
+An independently inspected alternate scan of the 19 October 1840 Dundrum subscription list again names John Glasgow under collector Edward Byrne. It is the same passage already retained from image 1050137248, not another event; Dundrum is collection context, and the list gives no age, relatives or individual amount. None of the candidate profiles has a checked Dundrum identity bridge. [Freeman’s Journal, 19 October 1840, p. 4](https://www.newspapers.com/image/1380778107/).
+
+
 
 ### Cookstown coffee notices, 5 October 2026
 

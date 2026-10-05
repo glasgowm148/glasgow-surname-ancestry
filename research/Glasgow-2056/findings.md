@@ -6,6 +6,11 @@ John Glasgow of Killycurragh is ruled out as a name-and-age identification of th
 
 ## Source findings
 
+### Further Cookstown advertisement issues and Dundrum scan, 5 October 2026
+
+An independently inspected alternate scan of the 19 October 1840 Dundrum subscription list again names John Glasgow under collector Edward Byrne. It is the same passage already retained from image 1050137248, not another event; Dundrum is collection context, and the list gives no age, relatives or individual amount. None of the candidate profiles has a checked Dundrum identity bridge. [Freeman’s Journal, 19 October 1840, p. 4](https://www.newspapers.com/image/1380778107/).
+
+
 [General Register Office of Ireland, civil marriage of John Glasgow and Matilda Little, 1850](https://irishgenealogy.ie/files/civil/marriage_returns/marriages_1850/09386/5399841.pdf): John was a farmer of Killycurragh and named his father as Henry Glasgow, farmer.
 
 ## Recommended profile update
