@@ -202,3 +202,9 @@ James Glasgow and Andrew Doyle, styled chairmen, are named among persons examine
 ## Next questions
 
 Inspect original inquest and trial testimony for residence and occupation; compare namesakes only when an identifier bridges them.
+
+## Current conclusion — Oxford Hackman witness reprint, 5 October 2026
+
+James is a named witness in one reprinted report, with no checked profile identified. The postal and shipmaster James subjects remain separate; no kinship or travel history is established.
+
+James Glasgow and Andrew Doyle, styled chairmen, are named among persons examined in the Hackman/Miss Ray affair; Glasgow reportedly removed the pistol and gave it to Halliburton. The Hackman/Miss Ray report names James Glasgow and Andrew Doyle as chairmen among those examined, and says Glasgow took the pistol from Hackman and gave it to constable Halliburton. Chairmen is preserved without expanding the occupation. Two original issues reprint one account; reported testimony is not a separate trial verdict or proof of family identity. James is a named witness in one reprinted report, with no checked profile identified. The postal and shipmaster James subjects remain separate; no kinship or travel history is established. [Gloucester Journal, 1779-04-12, p.3](https://www.newspapers.com/image/970974651/), [Berrow's Worcester Journal, 1779-04-15, p.1](https://www.newspapers.com/image/1211966255/), [Jackson’s Oxford Journal, 1779-04-10, p.3](https://www.newspapers.com/image/396539533/)

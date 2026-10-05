@@ -73,3 +73,15 @@ Compare original Cecil County tax, land and probate records and Philadelphia pos
 These are three independently retained entries, consolidated as an unresolved name study. They may concern different men. No continuous Cecil County residence or identity with the 1775 Maryland William Glascoe, Lady Forbes master, or an Irish William is proved. A fourth retained entry in the 1771 Charles-Town list remains a compatible unresolved name occurrence, without a bridge to the earlier entries or the separately listed John.
 
 William Glasgow is separately listed in the Charles-Town, Maryland, post-office letters notice headed 1 October 1771, beside an entry for John Glasgow of West Nottingham. William has no separately established locality in this line. Sydney George is the next named addressee, with Cecil County attached to Sydney. Colisting does not prove kinship with John, a continuous Maryland residence, letter collection or that William was still alive. [Maryland Gazette, 1771-10-24, p.3](https://www.newspapers.com/image/41041559/)
+
+## Current conclusion — additional newspaper originals, 5 October 2026
+
+Captain Glasgow, vessel William at New-York, 1758: Uncertain 1730 Kilwaughter birth permits an adult in 1758. Personal forename is unknown in the notice; no maritime, voyage or family bridge. The master’s forename remains unknown: William is the vessel. The 1738/1754 Robert shipmaster candidate and older William namesakes are compatible comparisons, without a voyage or individual bridge. Do not identify this man with the 1792 Belfast captain solely by surname. No family or life-date change follows.
+
+## Source findings
+
+A shipping report states: William Glasgow, from London, at New-York. Adjacent entries pair vessel and master names, including The Nancy, Maxwell. Thus William is read as the vessel and Glasgow as its master’s surname; no personal forename is supplied. London and New-York are voyage context, not proved personal residence. The report supplies no exact arrival day, age, family or bridge to later masters. The master’s forename remains unknown: William is the vessel. The 1738/1754 Robert shipmaster candidate and older William namesakes are compatible comparisons, without a voyage or individual bridge. Do not identify this man with the 1792 Belfast captain solely by surname. [The Public Advertiser, 1758-02-18, p.1](https://www.newspapers.com/image/34419759/)
+
+## Next questions
+
+Inspect vessel William registers and London/New-York clearances for master’s full name, age or owners; compare independently named masters only with an individual bridge.

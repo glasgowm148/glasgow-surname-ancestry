@@ -84,3 +84,15 @@ The brig Ann is listed cleared out with Glasgow as master and Georgetown as dest
 ## Next questions
 
 Inspect brig Ann ownership, port entry/clearance, passenger and shipping registers around 1788; seek the captain’s forename and signatures before linking him to the Larne family or another master.
+
+## Current conclusion — additional newspaper originals, 5 October 2026
+
+Captain Glasgow, vessel William at New-York, 1758: Recorded 1716 Irvine birth and prior 1738 shipmaster study make a compatible occupational candidate. This 1758 notice supplies no personal forename or vessel identity bridge. The master’s forename remains unknown: William is the vessel. The 1738/1754 Robert shipmaster candidate and older William namesakes are compatible comparisons, without a voyage or individual bridge. Do not identify this man with the 1792 Belfast captain solely by surname. No family or life-date change follows.
+
+## Source findings
+
+A shipping report states: William Glasgow, from London, at New-York. Adjacent entries pair vessel and master names, including The Nancy, Maxwell. Thus William is read as the vessel and Glasgow as its master’s surname; no personal forename is supplied. London and New-York are voyage context, not proved personal residence. The report supplies no exact arrival day, age, family or bridge to later masters. The master’s forename remains unknown: William is the vessel. The 1738/1754 Robert shipmaster candidate and older William namesakes are compatible comparisons, without a voyage or individual bridge. Do not identify this man with the 1792 Belfast captain solely by surname. [The Public Advertiser, 1758-02-18, p.1](https://www.newspapers.com/image/34419759/)
+
+## Next questions
+
+Inspect vessel William registers and London/New-York clearances for master’s full name, age or owners; compare independently named masters only with an individual bridge.

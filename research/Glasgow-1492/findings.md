@@ -45,3 +45,15 @@ Estimated c.1726 Moneymore birth and c.1824 United States death allow these date
 ## Next questions
 
 Find local original land, service, office or household records to bridge the named person to this family. Current family assessments retain their existing uncertainty.
+
+## Current conclusion — earlier 1761 Old Bailey reports, 5 October 2026
+
+Glasgow-3175 cites the identical Old Bailey case. That is a strong case association, not independent proof that the London defendant was the Ulster-born Pennsylvania ancestor.
+
+Samuel Glascow is one of two prisoners reported capitally convicted at the Old Bailey; his charge is stealing a bay gelding belonging to Mr Serjeant Haywood. The manslaughter verdict belongs to William Smith, a separate defendant. The relative trial-day statement has no saved dateline; no 13 May trial date is inferred. This is a newspaper report of the case, not a separate trial or proof of ancestral identity. [Berrow’s Worcester Journal, 1761-05-14, p.1](https://www.newspapers.com/image/1212389396/), [The Derby Mercury, 1761-05-08, p.2](https://www.newspapers.com/image/394296692/), [Jackson's Oxford Journal, 1761-05-09, p.2](https://www.newspapers.com/image/396510014/)
+
+## Current conclusion — military roster company correction and consolidation, 5 October 2026
+
+Samuel appears in the final unassigned group. Capt. Murray’s company belongs to William Wood, Thomas Kenady and William Langley immediately before the dash. The notice is dated 19 October 1777, sets 10 November as rendezvous, threatens punishment for failure and offers influence toward pardons. No adjudicated desertion, return, punishment, actual pardon or 1761 military commutation is proved. Three archive page URLs preserve one reprinted notice, including two scans labelled 23 October. Glasgow-1134 is the strongest contextual candidate through his estimated Cecil County birth; service identity remains possible, not proved. The other American candidates remain compatible.
+
+A notice dated Baltimore, 19 October 1777, signed Joseph Ford, orders absent soldiers of the First Maryland Regiment, including Samuel Glasgow, to return by 10 November. It threatens apprehension and punishment as deserters and offers influence toward pardons. Samuel appears in the final unassigned group. Capt. Murray’s company belongs to William Wood, Thomas Kenady and William Langley immediately before the dash. The notice is dated 19 October 1777, sets 10 November as rendezvous, threatens punishment for failure and offers influence toward pardons. No adjudicated desertion, return, punishment, actual pardon or 1761 military commutation is proved. Three archive page URLs preserve one reprinted notice, including two scans labelled 23 October. [Maryland Gazette, 1777-10-23, p.2](https://www.newspapers.com/image/590968568/), [Maryland Gazette, 1777-11-06, p.2](https://www.newspapers.com/image/41048973/), [Maryland Gazette, 1777-10-23, p.2](https://www.newspapers.com/image/41048937/)

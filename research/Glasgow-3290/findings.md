@@ -23,3 +23,15 @@ James Glasgow, Marsh creek, appears in a Carlisle names/address list reprinted i
 ## Next questions
 
 Inspect Marsh Creek tax, land, probate and postal records and the original evidence behind candidate identities; seek a family identifier or signature.
+
+## Current conclusion — additional newspaper originals, 5 October 2026
+
+James Glasgow, Wilmington tannery sale advertiser,1782: Uncertain 1758 Cecil Marylandbirth permits an adult advertiser in 1782; no tanyard, Whitlock or Christiana Bridge identity bridge. The signed Wilmington/Christiana Bridge advertiser remains unidentified. Two Cecil County chronological/regional James profiles are compatible, without a property or individual bridge. The North Carolina secretary is another adult namesake but has a different documentary region; do not merge him solely because Wilmington is also a North Carolina place. No family or life-date change follows.
+
+## Source findings
+
+James Glasgow, at Christiana Bridge in Newcastle county, advertises for private sale the former Charles Whitlock tanyard in the borough of Wilmington; notice dated 5 August 1782. Five issues repeat one private-sale advertisement dated 5 August 1782. James is the signed advertiser/contact; ownership, tanning occupation, completed sale, age and kinship are not proved. Printed places are borough of Wilmington and Christiana Bridge, Newcastle county; Delaware identification is a geographical interpretation, not the Philadelphia paper’s locality. The signed Wilmington/Christiana Bridge advertiser remains unidentified. Two Cecil County chronological/regional James profiles are compatible, without a property or individual bridge. The North Carolina secretary is another adult namesake but has a different documentary region; do not merge him solely because Wilmington is also a North Carolina place. [The Pennsylvania Journal, or, Weekly Advertiser, 1782-08-14, p.4](https://www.newspapers.com/image/1033849411/), [The Pennsylvania Journal, or, Weekly Advertiser, 1782-08-17, p.4](https://www.newspapers.com/image/1033849460/), [The Pennsylvania Journal, or, Weekly Advertiser, 1782-08-24, p.4](https://www.newspapers.com/image/1033849561/), [The Pennsylvania Journal, or, Weekly Advertiser, 1782-08-31, p.1](https://www.newspapers.com/image/1033849627/), [The Pennsylvania Journal, or, Weekly Advertiser, 1782-09-11, p.4](https://www.newspapers.com/image/1033849802/)
+
+## Next questions
+
+Inspect Wilmington/New Castle deeds, tannery title and Charles Whitlock estate records, Christiana Bridge tax lists, and the candidates’ own family evidence for an individual bridge.

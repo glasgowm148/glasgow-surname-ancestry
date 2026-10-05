@@ -159,3 +159,21 @@ The [Public Register / Freeman’s Journal, 23 January 1768, p.2](https://www.ne
 ## Identity and relationship assessments — newspaper review
 
 The vessel’s Glasgow designation does not identify the master’s birthplace, home or family. Existing baptism, Larne and family conclusions remain qualified as previously assessed. Find ownership, master and port-clearance records; do not merge with the unnamed captain of the brig William in 1796.
+
+## Current conclusion — additional newspaper originals, 5 October 2026
+
+Captain Glasgow, vessel William at New-York, 1758: Estimatedc.1708/1783 Larne lifespan permits an adult in 1758. William is this candidate’s name, not a forename established by the vessel; no individual voyage bridge. The master’s forename remains unknown: William is the vessel. The 1738/1754 Robert shipmaster candidate and older William namesakes are compatible comparisons, without a voyage or individual bridge. Do not identify this man with the 1792 Belfast captain solely by surname. No family or life-date change follows.
+
+## Source findings
+
+A shipping report states: William Glasgow, from London, at New-York. Adjacent entries pair vessel and master names, including The Nancy, Maxwell. Thus William is read as the vessel and Glasgow as its master’s surname; no personal forename is supplied. London and New-York are voyage context, not proved personal residence. The report supplies no exact arrival day, age, family or bridge to later masters. The master’s forename remains unknown: William is the vessel. The 1738/1754 Robert shipmaster candidate and older William namesakes are compatible comparisons, without a voyage or individual bridge. Do not identify this man with the 1792 Belfast captain solely by surname. [The Public Advertiser, 1758-02-18, p.1](https://www.newspapers.com/image/34419759/)
+
+## Next questions
+
+Inspect vessel William registers and London/New-York clearances for master’s full name, age or owners; compare independently named masters only with an individual bridge.
+
+## Current conclusion — Lady Forbes parallel casualty report, 5 October 2026
+
+The newspaper explicitly names William Glasgow as master. Glasgow as the vessel’s home port supplies no personal birthplace or family identity.
+
+William Glasgow is named as master of the Lady Forbes in the Sutton shipping casualty report. The paper reports the crew saved. A Scottish vessel designation does not establish the master’s residence or origin. [The Public Register, or, Freeman's Journal, 1768-01-23, p.2](https://www.newspapers.com/image/1050136699/), [The Caledonian Mercury, 1768-02-06, p.2](https://www.newspapers.com/image/395700744/)

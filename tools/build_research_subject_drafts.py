@@ -17,7 +17,7 @@ except ModuleNotFoundError:
 ROOT = Path(__file__).resolve().parents[1]
 INPUT = ROOT / 'research/latest-findings-subjects/subjects.json'
 SAFE_KEY = re.compile(r'^[a-z0-9]+(?:-[a-z0-9]+)*$')
-PUBLIC_PERSON_FIELDS = ('anchor', 'name', 'status', 'identity_note', 'minimum_fields',
+PUBLIC_PERSON_FIELDS = ('anchor', 'anchor_aliases', 'name', 'status', 'identity_note', 'minimum_fields',
                         'facts', 'candidates', 'duplicate_check', 'next_test', 'wikitext', 'record_matches', 'related_profiles')
 
 
@@ -37,6 +37,11 @@ def build():
             if not SAFE_KEY.fullmatch(anchor) or anchor in seen:
                 raise ValueError('Unsafe or duplicate person anchor')
             seen.add(anchor)
+            aliases = person.get('anchor_aliases', [])
+            for alias in aliases:
+                if not SAFE_KEY.fullmatch(alias) or alias in seen:
+                    raise ValueError('Unsafe or duplicate person anchor alias')
+                seen.add(alias)
             if not person['facts'] or not all(f.get('sources') for f in person['facts']):
                 raise ValueError('A person handoff needs sourced record evidence')
             if not all(heading in person['wikitext'] for heading in ('== Biography ==', '== Sources ==', '<references />')):
@@ -58,7 +63,8 @@ def build():
             draft_links = ', '.join(escape(r['relationship']) + ': ' +
                                    f'<a href="{escape(r["url"], quote=True)}">{escape(r["name"])}</a>'
                                    for r in person.get('related_drafts', []))
-            sections.append(f'<section id="{anchor}" class="subject-person"><h2>{escape(person["name"])}</h2>'
+            alias_links = ''.join(f'<span id="{alias}" aria-hidden="true"></span>' for alias in aliases)
+            sections.append(alias_links + f'<section id="{anchor}" class="subject-person"><h2>{escape(person["name"])}</h2>'
                             f'<p><strong>{escape(person["status"])}</strong> — {escape(person["identity_note"])}</p>'
                             f'<p><strong>Record fields:</strong> {escape(person["minimum_fields"])}</p>' + facts +
                             ('<p><strong>Identified family in this record:</strong> ' + family_links + '</p>' if family_links else '') +
