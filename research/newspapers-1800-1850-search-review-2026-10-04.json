@@ -272,12 +272,81 @@
       "date_start": 1800,
       "date_end": 1850,
       "reported_entries": 33,
-      "retrieved_entries": 10,
-      "unique_image_count": 10,
-      "end_of_results": false,
-      "previews_screened": 10,
-      "triage": "First-preview surname/city/vessel triage; original-page review only for selected passages. Additional matches and unloaded entries remain.",
-      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/william-ie.json"
+      "retrieved_entries": 33,
+      "unique_image_count": 33,
+      "end_of_results": true,
+      "previews_screened": 33,
+      "triage": "All 67 captured preview positions across 33 cards reviewed. Root inspected the three pending original pages: image 1050082425 places William Burnes under Dublin and Glasgow over separate names; 1050117565 identifies Glasgow as William Jamieson’s locality; 1259430217 is a vessel William bound for Glasgow. No Glasgow surname finding is supported by these three passages.",
+      "source_capture": "artifacts/pre1850-continuation-20261005/phase-1850-root/william-ie-full-ranks1-15-position-review.json",
+      "preview_positions_screened": 67,
+      "query_status": "all 33 reported result cards captured; all 67 preview positions and three flagged original pages reviewed; bounded query review complete",
+      "bounded_scope": "Exact quoted query “William Glasgow”, Ireland collection, 1800–1850 inclusive; End reached after 33 cards. All captured preview positions and flagged original contexts reviewed. This closes only this exact query capture.",
+      "capture_packets": [
+        "artifacts/pre1850-continuation-20261005/phase-1850-root/william-ie-full-ranks1-15-position-review.json",
+        "artifacts/pre1850-continuation-20261005/phase-1850-root/william-ie-full-ranks16-30-position-review.json",
+        "artifacts/pre1850-continuation-20261005/phase-1850-root/william-ie-full-ranks26-33-position-review.json"
+      ],
+      "review_packets": [
+        "artifacts/pre1850-continuation-20261005/phase-1850-common-ni/william-ie-review-1-8.json",
+        "artifacts/pre1850-continuation-20261005/phase-1850-gap-a/william-ie-review-9-15.json",
+        "artifacts/pre1850-continuation-20261005/phase-1850-common-ni-tail/william-ie-review-16-25.json",
+        "artifacts/pre1850-continuation-20261005/phase-1850-john-ie/william-ie-review-26-33.json"
+      ],
+      "originals_inspected": [
+        {
+          "image_id": "1050082425",
+          "source_url": "https://www.newspapers.com/image/1050082425/",
+          "date": "1836-08-05",
+          "paper": "Freeman’s Journal and Daily Commercial Advertiser",
+          "page": 1,
+          "original_checked": true,
+          "reading": "Directors of the Dublin and Glasgow sailing company: William Burnes under Dublin. Glasgow is a separate heading above Alexander Downie, James Campbell and Patrick Adair Black.",
+          "disposition": "city",
+          "positions_resolved": [
+            1,
+            2
+          ],
+          "proof": "william-ie-1050082425-original.png"
+        },
+        {
+          "image_id": "1050117565",
+          "date": "1843-08-17",
+          "paper": "Freeman’s Journal and Daily Commercial Advertiser",
+          "page": 4,
+          "source_url": "https://www.newspapers.com/image/1050117565/",
+          "original_checked": true,
+          "reading": "Births: on the 11th instant, the lady of William Jamieson Esq., Glasgow, of a daughter. Jamieson is the surname; Glasgow is his locality. William MacDowall is a separate earlier birth notice.",
+          "disposition": "place or ship",
+          "positions_resolved": [
+            1,
+            2
+          ]
+        },
+        {
+          "image_id": "1259430217",
+          "date": "1844-01-06",
+          "paper": "The Drogheda Argus and Leinster Journal",
+          "page": 2,
+          "source_url": "https://www.newspapers.com/image/1259430217/",
+          "original_checked": true,
+          "reading": "Drogheda exports for week ending 6 January 1844: William, Glasgow—100 loads oatmeal, J. & R. Morton. The table names a vessel William and destination Glasgow, followed by cargo and merchant.",
+          "disposition": "place or ship",
+          "positions_resolved": [
+            1
+          ]
+        }
+      ],
+      "review_audit": "artifacts/pre1850-continuation-20261005/phase-1850-common-ie-heavy/william-ie-position-audit.json",
+      "prior_partial_coverage": {
+        "reported_entries": 33,
+        "retrieved_entries": 10,
+        "unique_image_count": 10,
+        "end_of_results": false,
+        "previews_screened": 10,
+        "triage": "First-preview surname/city/vessel triage; original-page review only for selected passages. Additional matches and unloaded entries remain.",
+        "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/william-ie.json"
+      },
+      "distinct_original_pages_added": 3
     },
     {
       "query": "\"Robert Glasgow\"",
@@ -285,12 +354,79 @@
       "date_start": 1800,
       "date_end": 1850,
       "reported_entries": 25,
-      "retrieved_entries": 10,
-      "unique_image_count": 10,
-      "end_of_results": false,
-      "previews_screened": 10,
-      "triage": "First-preview surname/city/vessel triage; original-page review only for selected passages. Additional matches and unloaded entries remain.",
-      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/robert-ie.json"
+      "retrieved_entries": 25,
+      "unique_image_count": 24,
+      "end_of_results": true,
+      "previews_screened": 25,
+      "triage": "All 45 visible positions across 25 cards reviewed. Three early shipping passages were checked in their originals and identify Robert as a vessel and Glasgow as a port. Rank 12, image 1050049974, is the previously retained Benjamin Glasgow notice (reported 26 Nov 1833); ranks 21–22 reuse image 401331272, already checked and counted in the George review. No additional original page is counted.",
+      "source_capture": "https://www.newspapers.com/search/results/?country=ie&date-end=1850&date-start=1800&keyword=%22Robert+Glasgow%22&sort=paper-date-asc",
+      "preview_positions_screened": 45,
+      "query_status": "all 25 reported cards and 45 preview positions reviewed; three flagged shipping originals resolved, previously retained surname page reconciled, and repeated Montgreenan page deduplicated",
+      "bounded_scope": "Exact quoted query “Robert Glasgow”, Ireland collection, 1800–1850 inclusive; End reached after 25 cards. All captured preview positions reviewed; the three flagged shipping pages resolve as vessel/port entries, and the two already counted surname pages are not counted again.",
+      "capture_packets": [
+        "phase-1850-root/robert-ie-full-ranks1-10-position-review.json",
+        "phase-1850-root/robert-ie-full-ranks11-25-position-review.json",
+        "phase-1850-root/robert-ie-full-ranks22-22-position-review.json",
+        "phase-1850-root/robert-ie-full-ranks23-25-position-review.json"
+      ],
+      "review_packets": [
+        "phase-1850-common-ni/robert-ie-review1-10.json",
+        "phase-1850-gap-a/robert-ie-review11-25.json"
+      ],
+      "originals_pending": [],
+      "originals_inspected": [
+        {
+          "image_id": "1050121301",
+          "date": "1817-03-26",
+          "paper": "Freeman’s Journal and Daily Commercial Advertiser",
+          "page": 4,
+          "original_checked": true,
+          "source_url": "https://www.newspapers.com/image/1050121301/",
+          "positions_resolved": [
+            1
+          ],
+          "disposition": "place or ship",
+          "reading": "Import and export, 24 March: British invoice list. Robert is the vessel, Glasgow and Greenock are ports, followed by wheat, potatoes and other cargo."
+        },
+        {
+          "image_id": "1050108194",
+          "date": "1817-07-31",
+          "paper": "Freeman’s Journal and Daily Commercial Advertiser",
+          "page": 4,
+          "original_checked": true,
+          "source_url": "https://www.newspapers.com/image/1050108194/",
+          "positions_resolved": [
+            1
+          ],
+          "disposition": "place or ship",
+          "reading": "Imports and exports, 28 July, British outvoice: Robert, Glasgow—argol, potters’ gum, muslin and other goods. Vessel and destination in shipping table."
+        },
+        {
+          "image_id": "1050068811",
+          "date": "1818-07-23",
+          "paper": "Freeman’s Journal and Daily Commercial Advertiser",
+          "page": 3,
+          "original_checked": true,
+          "source_url": "https://www.newspapers.com/image/1050068811/",
+          "positions_resolved": [
+            1,
+            2
+          ],
+          "disposition": "place or ship",
+          "reading": "British invoice, 20 July: vessel Robert for Glasgow and Greenock followed by a cargo list. Both highlighted positions are the same shipping line."
+        }
+      ],
+      "originals_already_counted": [
+        {
+          "image_id": "1050049974",
+          "context": "Benjamin Glasgow notice; retained existing record; Robert query rank 12."
+        },
+        {
+          "image_id": "401331272",
+          "context": "Montgreenan marriage notice, already checked and counted in George review; Robert query ranks 21–22."
+        }
+      ],
+      "distinct_original_pages_added": 3
     },
     {
       "query": "\"Benjamin Glasgow\"",
@@ -350,12 +486,48 @@
       "date_start": 1800,
       "date_end": 1850,
       "reported_entries": 13,
-      "retrieved_entries": 10,
-      "unique_image_count": 10,
-      "end_of_results": false,
-      "previews_screened": 10,
-      "triage": "First-preview surname/city/vessel triage; original-page review only for selected passages. Additional matches and unloaded entries remain.",
-      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/alexander-ie.json"
+      "retrieved_entries": 13,
+      "unique_image_count": 13,
+      "end_of_results": true,
+      "previews_screened": 13,
+      "triage": "Original is a Port of Sligo arrivals list: vessel Alexander, Glasgow; Glasgow is the port.",
+      "source_capture": "https://www.newspapers.com/search/results/?country=ie&date-end=1850&date-start=1800&keyword=%22Alexander+Glasgow%22&sort=paper-date-asc",
+      "preview_positions_screened": 23,
+      "query_status": "all reported cards, all visible preview positions, and the flagged original page reviewed; the apparent match resolves to shipping/person-plus-port context, not a Glasgow surname",
+      "bounded_scope": "Exact quoted query \"Alexander Glasgow\", Ireland collection, 1800–1850 inclusive; all reported cards and visible preview positions were reviewed, with the flagged original page checked. This closes only this exact query capture.",
+      "capture_packets": [
+        "phase-1850-root/alexander-ie-full-ranks1-13-position-review.json"
+      ],
+      "review_packets": [
+        "phase-1850-john-ni/alexander-ie-independent-recheck-1-13.json"
+      ],
+      "originals_pending": [],
+      "originals_inspected": [
+        {
+          "image_id": "1261033566",
+          "date": "1839-12-21",
+          "paper": "The Sligo Champion",
+          "page": 3,
+          "original_checked": true,
+          "source_url": "https://www.newspapers.com/image/1261033566/",
+          "positions_resolved": [
+            1
+          ],
+          "disposition": "place or ship",
+          "reading": "Port of Sligo ARRIVED list: vessel Alexander, Glasgow, a dated arrival entry among vessels and ports. Glasgow is the port, not a personal surname. The faded text remains unenhanced."
+        }
+      ],
+      "review_audit": null,
+      "prior_partial_coverage": {
+        "reported_entries": 13,
+        "retrieved_entries": 10,
+        "unique_image_count": 10,
+        "end_of_results": false,
+        "previews_screened": 10,
+        "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/alexander-ie.json"
+      },
+      "distinct_original_pages_added": 1,
+      "original_resolution": "phase-1850-root/alexander-ie-1261033566-original-resolution.json"
     },
     {
       "query": "\"Thomas Glasgow\"",
@@ -363,12 +535,51 @@
       "date_start": 1800,
       "date_end": 1850,
       "reported_entries": 20,
-      "retrieved_entries": 10,
-      "unique_image_count": 10,
-      "end_of_results": false,
-      "previews_screened": 10,
-      "triage": "First-preview surname/city/vessel triage; original-page review only for selected passages. Additional matches and unloaded entries remain.",
-      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/thomas-ie.json"
+      "retrieved_entries": 20,
+      "unique_image_count": 20,
+      "end_of_results": true,
+      "previews_screened": 20,
+      "triage": "Original identifies Captain A. Thomas, from Glasgow; Thomas is a surname in the passage and Glasgow the departure port.",
+      "source_capture": "https://www.newspapers.com/search/results/?country=ie&date-end=1850&date-start=1800&keyword=%22Thomas+Glasgow%22&sort=paper-date-asc",
+      "preview_positions_screened": 37,
+      "query_status": "all reported cards, all visible preview positions, and the flagged original page reviewed; the apparent match resolves to shipping/person-plus-port context, not a Glasgow surname",
+      "bounded_scope": "Exact quoted query \"Thomas Glasgow\", Ireland collection, 1800–1850 inclusive; all reported cards and visible preview positions were reviewed, with the flagged original page checked. This closes only this exact query capture.",
+      "capture_packets": [
+        "phase-1850-root/thomas-ie-full-ranks1-10-position-review.json",
+        "phase-1850-root/thomas-ie-full-ranks11-20-position-review.json"
+      ],
+      "review_packets": [
+        "phase-1850-common-ni-tail/thomas-ie-review-1-10.json",
+        "phase-1850-gap-a/thomas-ie-review-11-20.json"
+      ],
+      "originals_pending": [],
+      "originals_inspected": [
+        {
+          "image_id": "1050123293",
+          "date": "1842-06-16",
+          "paper": "Freeman’s Journal and Daily Commercial Advertiser",
+          "page": 2,
+          "original_checked": true,
+          "source_url": "https://www.newspapers.com/image/1050123293/",
+          "positions_resolved": [
+            1,
+            2
+          ],
+          "disposition": "place or ship",
+          "reading": "Loss of the barque Isabella: Captain A. Thomas, from Glasgow, with 54 passengers; she sailed from Glasgow on 1 April. Thomas is a separate surname and Glasgow the departure port."
+        }
+      ],
+      "review_audit": null,
+      "prior_partial_coverage": {
+        "reported_entries": 20,
+        "retrieved_entries": 10,
+        "unique_image_count": 10,
+        "end_of_results": false,
+        "previews_screened": 10,
+        "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/thomas-ie.json"
+      },
+      "distinct_original_pages_added": 1,
+      "original_resolution": "phase-1850-root/thomas-ie-1050123293-original-resolution.json"
     },
     {
       "query": "\"John Glasgow\"",
@@ -388,13 +599,462 @@
       "collection": "Ireland",
       "date_start": 1800,
       "date_end": 1850,
-      "reported_entries": 29,
-      "retrieved_entries": 10,
-      "unique_image_count": 10,
-      "end_of_results": false,
-      "previews_screened": 10,
-      "triage": "First-preview surname/city/vessel triage; original-page review only for selected passages. Additional matches and unloaded entries remain.",
-      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/james-ie.json"
+      "reported_entries": 60,
+      "retrieved_entries": 60,
+      "unique_image_count": 60,
+      "end_of_results": true,
+      "previews_screened": 60,
+      "triage": "The 15 original pages yield 14 positive source pages: 11 Cookstown merchant notices, an 1823 jury list, an 1840 marriage notice, and an 1842 missionary designation. The 1848 Sligo entry is a vessel/master/port line. Merchant occurrences remain unassigned; candidate assessments in the marriage and missionary records retain their stated probability and no co-occurrence-based kinship claim is made.",
+      "source_capture": "https://www.newspapers.com/search/results/?country=ie&date-end=1850&date-start=1800&keyword=%22James+Glasgow%22&sort=paper-date-asc",
+      "preview_positions_screened": 102,
+      "query_status": "all 60 cards, 102 visible preview positions and all 15 selected original pages reviewed; all 14 positive source pages are present in the maintained source index, and the remaining page resolves as shipping context",
+      "bounded_scope": "Exact quoted query “James Glasgow”, Ireland, 1800–1850 inclusive; End after 60 cards. All 102 visible preview positions and 15 selected originals checked. The 14 positive pages were verified present in the maintained source index; one checked shipping false positive was excluded. Candidate identity remains qualified in the source notes.",
+      "capture_packets": [
+        "phase-1850-root/james-ie-full-ranks1-10-position-review.json",
+        "phase-1850-root/james-ie-full-ranks11-20-position-review.json",
+        "phase-1850-root/james-ie-full-ranks21-30-position-review.json",
+        "phase-1850-root/james-ie-full-ranks31-40-position-review.json",
+        "phase-1850-root/james-ie-full-ranks41-50-position-review.json",
+        "phase-1850-root/james-ie-full-ranks51-60-position-review.json"
+      ],
+      "review_packets": [
+        "phase-1850-john-ni/james-ie-independent-review-1-10.json",
+        "phase-1850-john-ni/james-ie-independent-review-11-20.json",
+        "phase-1850-common-ie-short/james-ie-review-21-30.json",
+        "phase-1850-gap-a/james-ie-review-31-40.json",
+        "phase-1850-common-ni-tail/james-ie-review-41-50.json",
+        "phase-1850-common-ie-short/james-ie-review-51-60.json"
+      ],
+      "originals_pending": [],
+      "originals_inspected": [
+        {
+          "image_id": "1050060364",
+          "original_checked": true,
+          "disposition": "confirmed surname",
+          "date": "1823-11-03",
+          "paper": "Freeman's Journal and Daily Commercial Advertiser",
+          "page": 3,
+          "positions_resolved": [
+            1
+          ],
+          "reading": "“The following were the Jury” list includes James Glasgow. The preceding passage names Robert Thompson of Newry, Rev. Mr Walsh of Ballymena, and Mr Barbour of Lisburn as parties in cause and cross-cause.",
+          "interpretation": "James Glasgow is a juror in this reported trial. Newry, Ballymena, and Lisburn attach to named parties, not to Glasgow. No age, occupation, residence, kinship, or profile identity is stated. The 1823 occurrence is compatible with, but does not establish identity with, the 1828 Belfast petty-jury occurrence or 1820 Exchequer plaintiff. The inspected capture does not show a court heading or venue.",
+          "original_capture_path": "/Users/m/wikitree-api-scrape/artifacts/pre1850-continuation-20261005/phase-1850-root/james-ie-1050060364-original.png",
+          "original_capture_sha256": "f7febb896f31bb36514bdeafc41cec9f4cfd1423dbc64826fe150781087e6367",
+          "original_capture_dimensions_px": [
+            1664,
+            1189
+          ],
+          "provider_capture_metadata": "/Users/m/wikitree-api-scrape/artifacts/pre1850-continuation-20261005/phase-1850-root/james-ie-1050060364-original-provider.txt",
+          "reviewed_image_region": "Crop at origin (410,300), bounds (410,300,1032,760); parties/cause paragraph and complete jury list.",
+          "crop_path": "/Users/m/wikitree-api-scrape/artifacts/pre1850-continuation-20261005/phase-1850-john-ni/james-1823-jury-context-crop.png",
+          "crop_sha256": "76286d40d6085fcd1a7e63bcdcd04877907e24862bcf651fad0cfb3fa38562de",
+          "crop_dimensions_px": [
+            622,
+            460
+          ],
+          "crop_bounds_px": [
+            410,
+            300,
+            1032,
+            760
+          ]
+        },
+        {
+          "image_id": "1050113101",
+          "date": "1840-07-01",
+          "paper": "Freeman's Journal and Daily Commercial Advertiser",
+          "page": 2,
+          "positions": [],
+          "resolution": "Under MARRIAGES: On Saturday last, the Rev. James Glasgow, of Castledawson, in the county Derry, to Miss Mary Wightman, of Belfast. Saturday last is inferred as 27 June 1840; 27 June was Saturday. James McClure Glasgow-1780 is the strongest profile match because his existing checked biography gives the same bride and marriage date in Belfast, and his documented ministry was at Castledawson.",
+          "disposition": "confirmed_surname_person",
+          "original_checked": true,
+          "candidate_assessment": "Strongest match: Glasgow-1780. The notice does not give the groom's middle name.",
+          "original_capture": "james-ie-1050113101-original.png",
+          "provider_capture": "james-ie-1050113101-original-provider.txt",
+          "excerpt_capture": "../phase-1850-john-ie/james-ie-1050113101-marriage-crop.png",
+          "excerpt_sha256": "8a5b42bbdb5b1161ad70b10a7561ff0f8a1193bebe48bbd4589c678c85f0cfb2",
+          "capture_dimensions": {
+            "width": 1664,
+            "height": 1189
+          },
+          "excerpt_dimensions": {
+            "width": 725,
+            "height": 157
+          },
+          "issue_header_in_excerpt": false,
+          "note": "Saved viewer screenshot contains its yellow search-result overlay across the name line; it is preserved, not altered. Paper/date/page were read from viewer/provider metadata, outside the crop."
+        },
+        {
+          "image_id": "1050136610",
+          "date": "1842-01-14",
+          "paper": "Freeman's Journal and Daily Commercial Advertiser",
+          "page": 1,
+          "positions": [],
+          "resolution": "Under Designation of Four Missionaries of the General Assembly: the Presbytery of Belfast set apart four ministers as fellow-labourers of the Gospel in Hindostan with the Rev. James Glasgow, viz. the Rev. Adam Glasgow, James M'Kee, Robert Montgomery, and James Henry Spears. Service: Wednesday at Dr Cooke's church, May Street, Belfast. James Glasgow-1780 is a probable candidate for the missionary James; Adam Glasgow-1781 is a possible candidate for Rev. Adam. Co-occurrence establishes no kinship.",
+          "disposition": "probable_surname_person",
+          "original_checked": true,
+          "candidate_assessments": {
+            "James Glasgow": {
+              "profile": "Glasgow-1780",
+              "confidence": "probable"
+            },
+            "Adam Glasgow": {
+              "profile": "Glasgow-1781",
+              "confidence": "possible"
+            }
+          },
+          "original_capture": "james-ie-1050136610-original.png",
+          "provider_capture": "james-ie-1050136610-original-provider.txt",
+          "excerpt_capture": "../phase-1850-john-ie/james-ie-1050136610-missionary-crop.png",
+          "capture_dimensions": {
+            "width": 1664,
+            "height": 1189
+          },
+          "excerpt_dimensions": {
+            "width": 610,
+            "height": 243
+          },
+          "issue_header_in_excerpt": false,
+          "note": "Saved viewer screenshot contains its yellow search-result overlay across the James-name line; it is preserved, not altered. Full paper title/date/page were read from viewer/provider metadata, outside the crop. The paragraph is the missionary designation, not the adjacent Repeal text."
+        },
+        {
+          "image_id": "1256973358",
+          "original_checked": true,
+          "disposition": "place or ship",
+          "date": "1848-02-12",
+          "paper": "The Sligo Champion",
+          "page": 3,
+          "positions_resolved": [
+            1
+          ],
+          "reading": "Port of Sligo, Sailed: 6th—Effort, James, Glasgow, oats. Vessel Effort, master James, destination Glasgow; no Glasgow surname."
+        },
+        {
+          "image_id": "1256974996",
+          "date": "1849-06-23",
+          "paper": "The Sligo Champion",
+          "page": 1,
+          "original_checked": true,
+          "source_url": "https://www.newspapers.com/image/1256974996/",
+          "positions_resolved": [
+            1,
+            2
+          ],
+          "disposition": "confirmed surname",
+          "reading": "John Cassell’s five-shilling tea, sold by the following agents: Cookstown—James Glasgow, merchant. James is printed here; this is distinct from notices which print John Glasgow, and does not prove they are the same person.",
+          "identity_status": "unassigned"
+        },
+        {
+          "image_id": "1256975013",
+          "original_url": "https://www.newspapers.com/image/1256975013/",
+          "source": "The Sligo Champion",
+          "issue_date": "1849-06-30",
+          "printed_date": "Saturday, June 30, 1849",
+          "printed_page": 1,
+          "provider_location": "Sligo, Sligo, Ireland",
+          "collection": "Newspapers.com Northern Ireland",
+          "transcription": "Cookstown.—James Glasgow, merchant.",
+          "context": "Town-by-town directory/agents listing; the Cookstown entry names James Glasgow as a merchant.",
+          "assessment": "Clear original-page evidence of a person named James Glasgow identified as a merchant in the Cookstown listing. Supports the printed occupation and town association only; does not establish birth or residence.",
+          "provider_metadata_file": "artifacts/pre1850-continuation-20261005/phase-1850-root/james-ie-1256975013-original-provider.txt",
+          "original_capture_file": "artifacts/pre1850-continuation-20261005/phase-1850-root/james-ie-1256975013-original.png",
+          "original_dimensions_px": [
+            1664,
+            1189
+          ],
+          "approved_crop_file": "artifacts/pre1850-continuation-20261005/phase-1850-root/james-ie-1256975013-approved-crop.png",
+          "crop_bbox_px_xyxy": [
+            650,
+            590,
+            980,
+            645
+          ],
+          "crop_dimensions_px": [
+            330,
+            55
+          ],
+          "crop_method": "Direct pixel crop from saved original page capture; no rescaling or image enhancement."
+        },
+        {
+          "image_id": "1369100143",
+          "date": "1849-08-23",
+          "paper": "The Fermanagh Mail, and Enniskillen Chronicle",
+          "page": 1,
+          "original_checked": true,
+          "source_url": "https://www.newspapers.com/image/1369100143/",
+          "positions_resolved": [
+            1
+          ],
+          "disposition": "confirmed surname",
+          "reading": "Agents list: Cookstown—James Glasgow, merchant. Same printed first name, locality and trade as the 23 June Sligo advertisement; repeat appearance, not a proven profile match."
+        },
+        {
+          "image_id": "1369100155",
+          "original_url": "https://www.newspapers.com/image/1369100155/",
+          "source": "The Fermanagh Mail, and Enniskillen Chronicle",
+          "issue_date": "1849-08-30",
+          "printed_date": "Thursday, August 30, 1849",
+          "printed_page": 1,
+          "provider_location": "Enniskillen, County Fermanagh, Ireland",
+          "collection": "Newspapers.com Northern Ireland",
+          "transcription": "Cookstown.—James Glasgow, merchant.",
+          "context": "Town-by-town directory/agents listing; the Cookstown entry names James Glasgow as a merchant.",
+          "assessment": "Clear original-page evidence of a person named James Glasgow identified as a merchant in the Cookstown listing. Supports the printed occupation and town association only; does not establish birth or residence.",
+          "provider_metadata_file": "artifacts/pre1850-continuation-20261005/phase-1850-root/james-ie-1369100155-original-provider.txt",
+          "original_capture_file": "artifacts/pre1850-continuation-20261005/phase-1850-root/james-ie-1369100155-original.png",
+          "original_dimensions_px": [
+            1664,
+            1189
+          ],
+          "approved_crop_file": "artifacts/pre1850-continuation-20261005/phase-1850-root/james-ie-1369100155-approved-crop.png",
+          "crop_bbox_px_xyxy": [
+            650,
+            590,
+            980,
+            645
+          ],
+          "crop_dimensions_px": [
+            330,
+            55
+          ],
+          "crop_method": "Direct pixel crop from saved original page capture; no rescaling or image enhancement."
+        },
+        {
+          "image_id": "1369100180",
+          "issue": "The Fermanagh Mail, and Enniskillen Chronicle",
+          "date": "1849-09-13",
+          "page": 1,
+          "provider_text": "artifacts/pre1850-continuation-20261005/phase-1850-root/james-ie-1369100180-original-provider.txt",
+          "source_image": "artifacts/pre1850-continuation-20261005/phase-1850-root/james-ie-1369100180-original.png",
+          "approved_faithful_crop": "artifacts/pre1850-continuation-20261005/phase-1850-root/1369100180-approved-crop.png",
+          "crop_pixels": [
+            680,
+            602,
+            980,
+            652
+          ],
+          "visible_reading": "Cookstown — James Glasgow, merchant.",
+          "context": "Agent list associated with Cassell tea (heading/context confirmed by root-owned checks); not an independent directory. The next Caledon entry is a different agent/name.",
+          "disposition": "positive_person_surname_with_merchant_role_in_advertising_agent_list",
+          "reading_confidence": "High for “Cookstown — James Glasgow, merchant”; original screenshot/provider metadata confirms issue date and page."
+        },
+        {
+          "image_id": "1369100191",
+          "issue": "The Fermanagh Mail, and Enniskillen Chronicle",
+          "date": "1849-09-20",
+          "page": 1,
+          "provider_text": "artifacts/pre1850-continuation-20261005/phase-1850-root/james-ie-1369100191-original-provider.txt",
+          "source_image": "artifacts/pre1850-continuation-20261005/phase-1850-root/james-ie-1369100191-original.png",
+          "approved_faithful_crop": "artifacts/pre1850-continuation-20261005/phase-1850-root/1369100191-approved-crop.png",
+          "crop_pixels": [
+            680,
+            600,
+            980,
+            650
+          ],
+          "visible_reading": "Cookstown — James Glasgow, merchant.",
+          "context": "Agent list associated with Cassell tea (heading/context confirmed by root-owned checks); not an independent directory. The next Caledon entry is a different agent/name.",
+          "disposition": "positive_person_surname_with_merchant_role_in_advertising_agent_list",
+          "reading_confidence": "High for “Cookstown — James Glasgow, merchant”; original screenshot/provider metadata confirms issue date and page."
+        },
+        {
+          "image_id": "1369100202",
+          "source_title": "The Fermanagh Mail, and Enniskillen Chronicle",
+          "issue_date": "1849-09-27",
+          "page": 1,
+          "source_location": "Enniskillen, County Fermanagh, Ireland",
+          "provider_capture_metadata": "james-ie-1369100202-original-provider.txt",
+          "original_capture_path": "/Users/m/wikitree-api-scrape/artifacts/pre1850-continuation-20261005/phase-1850-root/james-ie-1369100202-original.png",
+          "original_capture_sha256": "4e4d199170335b95c75e452f896f5abf2420fcf15c3d9b9baf39bbd3a7a6aac9",
+          "original_capture_dimensions_px": [
+            1664,
+            1189
+          ],
+          "reviewed_image_region": "Cookstown/J. Glasgow row within the town-indexed agent list in the newspaper advertisement; neighboring Cookstown/Castledawson and other town entries retained.",
+          "transcription": "Cookstown—James Glasgow, merchant. (Adjacent entries include Castledawson—John Wilson, post office; Castledawson—Andrew Johnstone; Carlow—Thomas Edwards, stationer.)",
+          "interpretation": "The entry names James Glasgow as a merchant associated with Cookstown in a town-organized agents/trade list. The same wording appears in two consecutive weekly issues, 27 September and 4 October 1849. It supports a Cookstown merchant identity for a person styled James Glasgow; it does not establish family relationships or any further biographical details.",
+          "confidence": "high for visible row and page/date; moderate for advertisement function from surrounding page layout",
+          "approved_bounded_crop_path": "/Users/m/wikitree-api-scrape/artifacts/pre1850-continuation-20261005/phase-1850-root/james-ie-1369100202-approved-crop.png",
+          "crop_bounds_px": [
+            720,
+            480,
+            1040,
+            760
+          ],
+          "crop_dimensions_px": [
+            320,
+            280
+          ],
+          "crop_sha256": "80224e8af4d581c0f857efac4c1b75305219998ff31acedb100ea8cf3b890ae3"
+        },
+        {
+          "image_id": "1369100214",
+          "source_title": "The Fermanagh Mail, and Enniskillen Chronicle",
+          "issue_date": "1849-10-04",
+          "page": 1,
+          "source_location": "Enniskillen, County Fermanagh, Ireland",
+          "provider_capture_metadata": "james-ie-1369100214-original-provider.txt",
+          "original_capture_path": "/Users/m/wikitree-api-scrape/artifacts/pre1850-continuation-20261005/phase-1850-root/james-ie-1369100214-original.png",
+          "original_capture_sha256": "509433f5d5fd886dad1179cf9fa3da9cd0eb04c16e959cb83ab92de258fba0e6",
+          "original_capture_dimensions_px": [
+            1664,
+            1189
+          ],
+          "reviewed_image_region": "Cookstown/J. Glasgow row within the town-indexed agent list in the newspaper advertisement; neighboring Cookstown/Castledawson and other town entries retained.",
+          "transcription": "Cookstown—James Glasgow, merchant. (Adjacent entries include Castledawson—John Wilson, post office; Castledawson—Andrew Johnstone; Carlow—Thomas Edwards, stationer.)",
+          "interpretation": "The entry names James Glasgow as a merchant associated with Cookstown in a town-organized agents/trade list. The same wording appears in two consecutive weekly issues, 27 September and 4 October 1849. It supports a Cookstown merchant identity for a person styled James Glasgow; it does not establish family relationships or any further biographical details.",
+          "confidence": "high for visible row and page/date; moderate for advertisement function from surrounding page layout",
+          "approved_bounded_crop_path": "/Users/m/wikitree-api-scrape/artifacts/pre1850-continuation-20261005/phase-1850-root/james-ie-1369100214-approved-crop.png",
+          "crop_bounds_px": [
+            720,
+            480,
+            1040,
+            760
+          ],
+          "crop_dimensions_px": [
+            320,
+            280
+          ],
+          "crop_sha256": "e098e1609471bf42ad9ab5b8f109e1f73d3c02b36ea49a67a85c5a6dce7cd02d"
+        },
+        {
+          "image_id": "1369100225",
+          "date": "1849-10-11",
+          "paper": "The Fermanagh Mail, and Enniskillen Chronicle",
+          "page": 1,
+          "original_checked": true,
+          "source_url": "https://www.newspapers.com/image/1369100225/",
+          "positions_resolved": [
+            1
+          ],
+          "disposition": "confirmed surname",
+          "reading": "Cookstown—James Glasgow, merchant.",
+          "identity_status": "unassigned"
+        },
+        {
+          "image_id": "1369100236",
+          "date": "1849-10-18",
+          "paper": "The Fermanagh Mail, and Enniskillen Chronicle",
+          "page": 1,
+          "original_checked": true,
+          "source_url": "https://www.newspapers.com/image/1369100236/",
+          "positions_resolved": [
+            1
+          ],
+          "disposition": "confirmed surname",
+          "reading": "Cookstown—James Glasgow, merchant.",
+          "identity_status": "unassigned"
+        },
+        {
+          "image_id": "1369100248",
+          "date": "1849-10-25",
+          "paper": "The Fermanagh Mail, and Enniskillen Chronicle",
+          "page": 1,
+          "original_checked": true,
+          "source_url": "https://www.newspapers.com/image/1369100248/",
+          "positions_resolved": [
+            1
+          ],
+          "disposition": "confirmed surname",
+          "reading": "Cookstown—James Glasgow, merchant.",
+          "identity_status": "unassigned"
+        }
+      ],
+      "originals_captured_checked_ids": [
+        "1050060364",
+        "1050113101",
+        "1050136610",
+        "1256973358",
+        "1256974996",
+        "1256975013",
+        "1369100143",
+        "1369100155",
+        "1369100180",
+        "1369100191",
+        "1369100202",
+        "1369100214",
+        "1369100225",
+        "1369100236",
+        "1369100248"
+      ],
+      "original_resolution_ids_validated": [
+        "1050060364",
+        "1050113101",
+        "1050136610",
+        "1256973358",
+        "1256974996",
+        "1256975013",
+        "1369100143",
+        "1369100155",
+        "1369100180",
+        "1369100191",
+        "1369100202",
+        "1369100214",
+        "1369100225",
+        "1369100236",
+        "1369100248"
+      ],
+      "original_resolution_json_pending_ids": [],
+      "catalogue_integration_pending": [],
+      "merchant_original_ids": [
+        "1256974996",
+        "1256975013",
+        "1369100143",
+        "1369100155",
+        "1369100180",
+        "1369100191",
+        "1369100202",
+        "1369100214",
+        "1369100225",
+        "1369100236",
+        "1369100248"
+      ],
+      "shipping_false_positive_original_id": "1256973358",
+      "catalogue_integration_completed_root_reported": [
+        "1050060364",
+        "1050113101",
+        "1050136610",
+        "1256974996",
+        "1256975013",
+        "1369100143",
+        "1369100155",
+        "1369100180",
+        "1369100191",
+        "1369100202",
+        "1369100214",
+        "1369100225",
+        "1369100236",
+        "1369100248"
+      ],
+      "catalogue_integration_status": "Closed against the current maintained source index: 11 Cookstown merchant pages, the 1823 jury page, 1840 marriage page, and 1842 missionary page are present. The 1848 shipping page is checked and excluded as a vessel/port false positive.",
+      "distinct_original_pages_added": 15,
+      "maintained_source_index_check": {
+        "path": "research/source-library/newspaper-clippings.json",
+        "checked_against_current_assets": true,
+        "positive_image_ids_present": [
+          "1050060364",
+          "1050113101",
+          "1050136610",
+          "1256974996",
+          "1256975013",
+          "1369100143",
+          "1369100155",
+          "1369100180",
+          "1369100191",
+          "1369100202",
+          "1369100214",
+          "1369100225",
+          "1369100236",
+          "1369100248"
+        ],
+        "positive_page_count_present": 14,
+        "reviewed_negative_image_ids_not_retained_as_clippings": [
+          "1256973358"
+        ],
+        "negative_disposition": "Original page checked: vessel Effort, master James, destination Glasgow; excluded from positive clipping asset index.",
+        "integration_state": "All 14 positive source pages are present in the maintained source-library asset index. The one checked shipping false positive is resolved and intentionally not retained as a positive clipping."
+      }
     },
     {
       "query": "\"David Glasgow\"",
@@ -402,12 +1062,44 @@
       "date_start": 1800,
       "date_end": 1850,
       "reported_entries": 33,
-      "retrieved_entries": 10,
-      "unique_image_count": 10,
-      "end_of_results": false,
-      "previews_screened": 10,
-      "triage": "First-preview surname/city/vessel triage; original-page review only for selected passages. Additional matches and unloaded entries remain.",
-      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/david-ie.json"
+      "retrieved_entries": 33,
+      "unique_image_count": 33,
+      "end_of_results": true,
+      "previews_screened": 33,
+      "triage": "All 72 visible positions across 33 cards reviewed. The only personal/ambiguous lead, image 1050060256, was checked in its original: both highlights read David Hutcheson, merchant, Glasgow, to Jane Dempster; Hutcheson is the surname and Glasgow the residence. Other reviewed hits are shipping/place, firm-city, or unrelated-person contexts.",
+      "source_capture": "https://www.newspapers.com/search/results/?country=ie&date-end=1850&date-start=1800&keyword=%22David+Glasgow%22&sort=paper-date-asc",
+      "preview_positions_screened": 72,
+      "query_status": "all 33 reported cards and 72 visible preview positions reviewed; only candidate original checked and resolved as a person from Glasgow, not David Glasgow",
+      "bounded_scope": "Exact quoted query “David Glasgow”, Ireland collection, 1800–1850 inclusive; End reached after 33 cards and every captured preview position reviewed. The flagged original page resolves to David Hutcheson of Glasgow; this closes only this exact query capture.",
+      "capture_packets": [
+        "phase-1850-root/david-ie-full-ranks1-10-ranks1-10-position-review.json",
+        "phase-1850-root/david-ie-full-ranks11-20-position-review.json",
+        "phase-1850-root/david-ie-full-ranks21-30-position-review.json",
+        "phase-1850-root/david-ie-full-ranks31-33-position-review.json"
+      ],
+      "review_packets": [
+        "phase-1850-gap-b/david-ie-ranks1-10-offline-review.json",
+        "phase-1850-variants/david-ie-review-11-20.json",
+        "phase-1850-gap-b/david-ie-ranks21-30-offline-review.json",
+        "phase-1850-variants/david-ie-review-31-33.json"
+      ],
+      "originals_pending": [],
+      "originals_inspected": [
+        {
+          "image_id": "1050060256",
+          "original_checked": true,
+          "disposition": "place or ship",
+          "date": "1829-08-25",
+          "paper": "Freeman's Journal and Daily Commercial Advertiser",
+          "page": 4,
+          "positions_resolved": [
+            1,
+            2
+          ],
+          "reading": "August18 atBonkleManseBerwickshire, MrDavidHutcheson, merchant,Glasgow,toJane,daughterlateJohnDempstermerchant,sameplace. Hutcheson is surname, Glasgow residence city; both highlights sameparagraph."
+        }
+      ],
+      "distinct_original_pages_added": 1
     },
     {
       "query": "\"Andrew Glasgow\"",
@@ -415,12 +1107,25 @@
       "date_start": 1800,
       "date_end": 1850,
       "reported_entries": 20,
-      "retrieved_entries": 10,
-      "unique_image_count": 10,
-      "end_of_results": false,
-      "previews_screened": 10,
-      "triage": "First-preview surname/city/vessel triage; original-page review only for selected passages. Additional matches and unloaded entries remain.",
-      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/andrew-ie.json"
+      "retrieved_entries": 20,
+      "unique_image_count": 20,
+      "end_of_results": true,
+      "previews_screened": 20,
+      "triage": "All 40 visible positions across 20 cards reviewed. The matches are place, vessel, shipping, or other-person contexts; no personal Glasgow surname passage was found in the reviewed previews and no original check was requested.",
+      "source_capture": "https://www.newspapers.com/search/results/?country=ie&date-end=1850&date-start=1800&keyword=%22Andrew+Glasgow%22&sort=paper-date-asc",
+      "preview_positions_screened": 40,
+      "query_status": "all 20 reported cards and all 40 visible preview positions reviewed; no original-page check needed",
+      "bounded_scope": "Exact quoted query “Andrew Glasgow”, Ireland collection, 1800–1850 inclusive; End reached after 20 cards and every captured preview position reviewed. This closes only this exact query capture.",
+      "capture_packets": [
+        "phase-1850-root/andrew-ie-full-ranks1-10-position-review.json",
+        "phase-1850-root/andrew-ie-full-ranks11-20-position-review.json"
+      ],
+      "review_packets": [
+        "phase-1850-common-ni/andrew-ie-review-1-20.json"
+      ],
+      "originals_pending": [],
+      "originals_inspected": [],
+      "distinct_original_pages_added": 0
     },
     {
       "query": "\"George Glasgow\"",
@@ -428,12 +1133,75 @@
       "date_start": 1800,
       "date_end": 1850,
       "reported_entries": 199,
-      "retrieved_entries": 10,
-      "unique_image_count": 10,
-      "end_of_results": false,
-      "previews_screened": 10,
-      "triage": "First-preview surname/city/vessel triage; original-page review only for selected passages. Additional matches and unloaded entries remain. Reinspection: Earliest ten first previews: 1810 too faint; 1811,1819 and three1825 military surname leads; five city/George Street previews. Larger set and carousel highlights incomplete.",
-      "source_capture": ".cache/newspapers/2026-10-04/continued/quoted-searches.json"
+      "retrieved_entries": 199,
+      "unique_image_count": 199,
+      "end_of_results": true,
+      "previews_screened": 199,
+      "triage": "All 393 visible preview positions across the 199 exact-query result cards were reviewed; each rank is represented once, and all 199 cards have distinct page IDs. Six root resolution packets and three previously retained originals resolve every flagged original-check lead; one of the six packet IDs was already in the ledger baseline, so five pages add to the original-page count. Findings remain bounded to these captured results and are not archive-wide completeness or absence claims.",
+      "source_capture": "artifacts/pre1850-continuation-20261005/phase-1850-root/george-ie-full-ranks1-30-position-review.json",
+      "preview_positions_screened": 393,
+      "originals_inspected": [
+        "1050057308",
+        "1050085864",
+        "1050087237",
+        "1050121684",
+        "1050134797",
+        "1050144942",
+        "1259429197",
+        "401331272",
+        "60324711"
+      ],
+      "original_match_highlight_indices_checked": {
+        "1050144942": [
+          1
+        ],
+        "60324711": [
+          1,
+          2
+        ],
+        "1050134797": [
+          1
+        ],
+        "1050121684": [
+          1,
+          2
+        ],
+        "401331272": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "1259429197": [
+          1,
+          2
+        ]
+      },
+      "bounded_scope": "Newspapers.com exact query “George Glasgow”, Ireland collection, 1800–1850 inclusive; End reached after 199 cards. Every displayed preview position on the 199 captured cards was reviewed. This scope does not cover unreturned OCR matches or other query formulations.",
+      "capture_packets": [
+        "artifacts/pre1850-continuation-20261005/phase-1850-root/george-ie-full-ranks1-30-position-review.json",
+        "artifacts/pre1850-continuation-20261005/phase-1850-root/george-ie-full-ranks121-150-position-review.json",
+        "artifacts/pre1850-continuation-20261005/phase-1850-root/george-ie-full-ranks147-161-position-review.json",
+        "artifacts/pre1850-continuation-20261005/phase-1850-root/george-ie-full-ranks162-176-position-review.json",
+        "artifacts/pre1850-continuation-20261005/phase-1850-root/george-ie-full-ranks177-191-position-review.json",
+        "artifacts/pre1850-continuation-20261005/phase-1850-root/george-ie-full-ranks188-188-position-review.json",
+        "artifacts/pre1850-continuation-20261005/phase-1850-root/george-ie-full-ranks189-199-position-review.json",
+        "artifacts/pre1850-continuation-20261005/phase-1850-root/george-ie-full-ranks192-192-position-review.json",
+        "artifacts/pre1850-continuation-20261005/phase-1850-root/george-ie-full-ranks193-199-position-review.json",
+        "artifacts/pre1850-continuation-20261005/phase-1850-root/george-ie-full-ranks31-60-position-review.json",
+        "artifacts/pre1850-continuation-20261005/phase-1850-root/george-ie-full-ranks61-90-position-review.json",
+        "artifacts/pre1850-continuation-20261005/phase-1850-root/george-ie-full-ranks91-120-position-review.json"
+      ],
+      "review_audit": "artifacts/pre1850-continuation-20261005/phase-1850-common-ie-heavy/eighth-george-ie-position-audit.json",
+      "prior_partial_coverage": {
+        "reported_entries": 199,
+        "retrieved_entries": 10,
+        "unique_image_count": 10,
+        "end_of_results": false,
+        "previews_screened": 10,
+        "triage": "First-preview surname/city/vessel triage; original-page review only for selected passages. Additional matches and unloaded entries remain. Reinspection: Earliest ten first previews: 1810 too faint; 1811,1819 and three1825 military surname leads; five city/George Street previews. Larger set and carousel highlights incomplete.",
+        "source_capture": ".cache/newspapers/2026-10-04/continued/quoted-searches.json"
+      }
     },
     {
       "query": "\"Elizabeth Glasgow\"",
@@ -441,12 +1209,33 @@
       "date_start": 1800,
       "date_end": 1850,
       "reported_entries": 44,
-      "retrieved_entries": 10,
-      "unique_image_count": 10,
-      "end_of_results": false,
-      "previews_screened": 10,
-      "triage": "First-preview surname/city/vessel triage; original-page review only for selected passages. Additional matches and unloaded entries remain.",
-      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/elizabeth-ie.json"
+      "retrieved_entries": 44,
+      "unique_image_count": 44,
+      "end_of_results": true,
+      "previews_screened": 44,
+      "triage": "All 84 visible positions across 44 cards reviewed. The audits identify shipping, vessel, cargo, port, trade, or textile-product contexts; no Glasgow-surname person or unresolved ambiguous hit was found in these previews. No original page was needed.",
+      "source_capture": "https://www.newspapers.com/search/results/?country=ie&date-end=1850&date-start=1800&keyword=%22Elizabeth+Glasgow%22&sort=paper-date-asc",
+      "preview_positions_screened": 84,
+      "preview_positions_captured": 84,
+      "query_status": "all 44 reported cards and all 84 visible preview positions reviewed to End; all reviewed matches are nonpersonal context and no original follow-up remains",
+      "bounded_scope": "Exact quoted query “Elizabeth Glasgow”, Ireland collection, 1800–1850 inclusive; End reached after 44 cards and all captured preview positions reviewed. This is bounded preview triage, not an archive-wide absence claim.",
+      "capture_packets": [
+        "phase-1850-root/elizabeth-ie-full-ranks1-10-position-review.json",
+        "phase-1850-root/elizabeth-ie-full-ranks11-20-position-review.json",
+        "phase-1850-root/elizabeth-ie-full-ranks21-30-position-review.json",
+        "phase-1850-root/elizabeth-ie-full-ranks31-40-position-review.json",
+        "phase-1850-root/elizabeth-ie-full-ranks41-44-position-review.json"
+      ],
+      "review_packets": [
+        "phase-1850-common-ni-tail/elizabeth-ie-review-1-10.json",
+        "phase-1850-gap-a/elizabeth-ie-review-11-20.json",
+        "phase-1850-gap-b/elizabeth-ie-ranks21-30-offline-review.json",
+        "phase-1850-variants/elizabeth-ie-review-31-40.json",
+        "phase-1850-gap-b/elizabeth-ie-ranks41-44-offline-review.json"
+      ],
+      "originals_pending": [],
+      "originals_inspected": [],
+      "distinct_original_pages_added": 0
     },
     {
       "query": "\"Mary Glasgow\"",
@@ -532,12 +1321,30 @@
       "date_start": 1800,
       "date_end": 1850,
       "reported_entries": 39,
-      "retrieved_entries": 10,
-      "unique_image_count": 10,
-      "end_of_results": false,
-      "previews_screened": 10,
-      "triage": "Ten earliest readable first previews were shipping/port references; later entries remain unreviewed.",
-      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/continued-margaret-ireland.json"
+      "retrieved_entries": 39,
+      "unique_image_count": 39,
+      "end_of_results": true,
+      "previews_screened": 39,
+      "triage": "All 66 visible positions across 39 cards reviewed. Audits classify the matches as shipping, trade, vessel, Glasgow city/locality or unrelated-person context; no personal Glasgow surname lead or unresolved ambiguity remains in the reviewed previews. No original check was needed.",
+      "source_capture": "https://www.newspapers.com/search/results/?country=ie&date-end=1850&date-start=1800&keyword=%22Margaret+Glasgow%22&sort=paper-date-asc",
+      "preview_positions_screened": 66,
+      "query_status": "all 39 reported cards and all 66 visible preview positions reviewed; no Glasgow-surname person lead or original follow-up remains in this bounded capture",
+      "bounded_scope": "Exact quoted query “Margaret Glasgow”, Ireland collection, 1800–1850 inclusive; End reached after 39 cards and every visible position reviewed. Preview-only bounded result; no archive-wide absence inference.",
+      "capture_packets": [
+        "phase-1850-root/margaret-ie-full-ranks1-10-position-review.json",
+        "phase-1850-root/margaret-ie-full-ranks11-20-position-review.json",
+        "phase-1850-root/margaret-ie-full-ranks21-30-position-review.json",
+        "phase-1850-root/margaret-ie-full-ranks31-39-position-review.json"
+      ],
+      "review_packets": [
+        "phase-1850-variants/margaret-ie-review-1-10.json",
+        "phase-1850-common-ni-tail/margaret-ie-review-11-20.json",
+        "phase-1850-gap-b/margaret-ie-ranks21-30-offline-review.json",
+        "phase-1850-variants/margaret-ie-review-31-39.json"
+      ],
+      "originals_pending": [],
+      "originals_inspected": [],
+      "distinct_original_pages_added": 0
     },
     {
       "query": "\"Adam Glasgow\"",
@@ -755,12 +1562,42 @@
       "date_start": 1800,
       "date_end": 1850,
       "reported_entries": 27,
-      "retrieved_entries": 10,
-      "unique_image_count": 10,
-      "end_of_results": false,
-      "previews_screened": 10,
-      "triage": "Ten earliest first previews: Wilson as captain, Wilson Street or Wilsons of Glasgow type-foundry; none a Glasgow surname occurrence. Seventeen entries remain unloaded.",
-      "source_capture": ".cache/newspapers/2026-10-04/continued/quoted-searches.json"
+      "retrieved_entries": 27,
+      "unique_image_count": 27,
+      "end_of_results": true,
+      "previews_screened": 27,
+      "triage": "All 46 visible positions across 27 cards independently reviewed. Root checked rank 20, image 1256972548: vessel Glasgow, master Wilson, destination Glasgow. Remaining hits are shipping, place or other-person contexts; no Glasgow surname passage was identified in these captures.",
+      "source_capture": "https://www.newspapers.com/search/results/?country=ie&date-end=1850&date-start=1800&keyword=%22Wilson+Glasgow%22&sort=paper-date-asc",
+      "preview_positions_screened": 46,
+      "preview_positions_captured": 46,
+      "query_status": "all 27 reported cards and all 46 visible preview positions reviewed; flagged original page resolves as vessel/city context",
+      "bounded_scope": "Exact quoted query “Wilson Glasgow”, Ireland collection, 1800–1850 inclusive; End reached after 27 cards and all captured positions reviewed. This closes only this exact query capture.",
+      "capture_packets": [
+        "phase-1850-root/wilson-ie-full-ranks1-10-position-review.json",
+        "phase-1850-root/wilson-ie-full-ranks11-20-position-review.json",
+        "phase-1850-root/wilson-ie-full-ranks21-27-position-review.json"
+      ],
+      "review_packets": [
+        "phase-1850-john-ni/wilson-ie-independent-review-1-10.json",
+        "phase-1850-gap-a/wilson-ie-review-11-20.json",
+        "phase-1850-john-ni/wilson-ie-independent-review-21-27.json"
+      ],
+      "originals_pending": [],
+      "originals_inspected": [
+        {
+          "image_id": "1256972548",
+          "original_checked": true,
+          "disposition": "place or ship",
+          "date": "1842-06-11",
+          "paper": "The Sligo Champion",
+          "page": 3,
+          "positions_resolved": [
+            1
+          ],
+          "reading": "Shipping Intelligence, Sailed: 8th—Glasgow, Wilson, Glasgow; general cargo—wind S E. Vessel Glasgow, master Wilson, destination Glasgow; no Glasgow surname."
+        }
+      ],
+      "distinct_original_pages_added": 1
     },
     {
       "query": "\"Wilson Glasgow\"",
@@ -1353,7 +2190,14 @@
     "5 October fifth-batch proposal: 18 new newspaper pages integrated across 1800–1850, comprising 13 personal-name page references, four repeated Glasco firm-mark pages for one watch description, and one Castledawson minister mention. These 18 pages do not imply 18 distinct people. The 19-card quoted Ireland Glasco query is original-checked. For the 197-card Northern Ireland Glasgow Rasharkin displayed result set, all 1,229 preview positions and 47 captured original positions across 32 pages were reviewed, plus five prior candidate pages (page union counted dynamically); this is not archive-wide completeness.",
     "5 October sixth-batch proposal: 23 new exact quoted query pairs (1800–1850) plus completion of the existing Andrew Glasgow/Northern Ireland query. Andrew reached End after 65 cards; all 129 displayed positions were reviewed across 64 unique page IDs, with rank 10/11 sharing image 390554818. Original 390561448 resolves two clipped matches as St Andrew’s parish in Glasgow. New zero-result rows record only their exact bounded UI states. Other queries, variants, and archive mentions remain outside this coverage.",
     "Seven NI name queries were closed only within their captured 1800–1850 exact-search results; no archive-wide absence or completeness claim is made.",
-    "Margaret Glasgow (Belfast News-Letter, 23 Aug 1850, p.3) remains a named but unlinked occurrence because surname function is unresolved."
+    "Margaret Glasgow (Belfast News-Letter, 23 Aug 1850, p.3) remains a named but unlinked occurrence because surname function is unresolved.",
+    "George Ireland continuation: End reached after 199 reported/retrieved cards; all 393 visible positions reviewed on 199 distinct page IDs. Six original-resolution packets and three earlier retained originals were reconciled; 1050144942 was already counted, so five distinct original pages are newly added. Query-specific bounds only.",
+    "Ninth batch adds completed card/preview audits for two exact Ireland queries, but original checks remain for one passage each; query capture bounds do not establish catalogue-wide completeness or a surname absence.",
+    "Tenth batch closes the Andrew, Robert, Thomas, and Alexander exact Ireland captures after review and resolves the noted original passages. James has 60 cards/102 positions reviewed but original and catalogue-retention checks remain; Wilson has 27 cards captured, ranks 1–20 reviewed, and ranks 21–27 still awaiting preview review.",
+    "Eleventh batch completes Wilson and David Ireland preview/original checks. James Ireland has all 60 cards, 102 positions, and 15 selected original pages checked; the canonical JSON for page 1050060364 and catalogue integration for three positive pages remain pending. Merchant notices are repeated records and do not establish distinct people.",
+    "Twelfth batch closes Margaret Ireland’s 39-card/66-position exact query review with no personal Glasgow surname lead in those previews. James’s jury resolution is now validated; root reports the jury and 11 merchant pages integrated, while marriage and missionary source integration remains pending.",
+    "Thirteenth batch verifies all 14 positive James Glasgow source pages in the maintained clipping index and records the checked 1848 shipping false positive as excluded. Catalogue integration is complete for this query; candidate identities remain qualified as stated in the sources.",
+    "Fourteenth batch closes the 44-card Elizabeth Ireland exact query: all 84 captured preview positions reached and reviewed; the reviewed snippets are shipping/vessel/trade or product contexts, with no personal Glasgow surname lead. This does not establish archive-wide absence."
   ],
   "catalogue_names_not_yet_quoted_in_Northern_Ireland": [
     "Abigail",
@@ -1364,7 +2208,6 @@
     "Anna",
     "Anne",
     "Annie",
-    "Arthur",
     "Betty",
     "Bridget",
     "Catherine",
@@ -1384,31 +2227,21 @@
     "Isaac",
     "Isabella",
     "Jean",
-    "Jemima",
     "Jessy",
-    "Johanna",
     "Julia",
-    "Lavinia",
     "Letita",
     "Letitia",
-    "Margret",
-    "Maria",
-    "Martha",
-    "Mary Ann",
     "Mary Anne",
-    "Mary Jane",
     "Maryanne",
     "Matilda",
     "Nelson",
     "Netta",
     "Peggy",
     "Phillip",
-    "Rachel",
     "Rosanna",
     "Rosannah",
     "Rosetta",
-    "Sally",
-    "Sarah"
+    "Sally"
   ],
   "catalogue_names_not_yet_quoted_in_Ireland": [
     "Abigail",
@@ -1440,75 +2273,30 @@
     "Isabella",
     "Jean",
     "Jemima",
-    "Jessy",
-    "Johanna",
     "Julia",
     "Lavinia",
     "Letita",
     "Letitia",
-    "Margret",
-    "Maria",
-    "Martha",
-    "Mary Ann",
-    "Mary Anne",
-    "Mary Jane",
-    "Maryanne",
-    "Matilda",
     "Michael",
     "Nelson",
     "Netta",
     "Peggy",
     "Phillip",
-    "Rachel",
     "Rosanna",
     "Rosannah",
     "Rosetta",
     "Sally",
-    "Sarah",
     "Silas"
   ],
   "newly_resolved_original_images": [
-    "1050043397",
-    "1050049974",
-    "1050057308",
-    "1050078150",
-    "1050080149",
-    "1050083649",
-    "1050085864",
-    "1050085983",
-    "1050086323",
-    "1050087237",
-    "1050087340",
-    "1050094002",
-    "1050098145",
-    "1050100236",
-    "1050100680",
-    "1050103241",
-    "1050104431",
-    "1050111505",
-    "1050113149",
-    "1050114888",
-    "1050126480",
-    "1050127796",
-    "1050127957",
-    "1050128500",
-    "1050129060",
-    "1050129538",
-    "1050130719",
-    "1050131561",
-    "1050137248",
-    "1050144942",
-    "1050145535",
-    "1050145680",
-    "1256971291",
-    "1256974148",
-    "1257358494",
-    "1257358629",
-    "1259428783",
-    "1259430976",
-    "1259561281",
-    "1261014751",
-    "1261041604",
+    "60316370",
+    "60320174",
+    "60324711",
+    "61258711",
+    "61259036",
+    "61260054",
+    "61261904",
+    "61569114",
     "390542489",
     "390543080",
     "390543442",
@@ -1558,21 +2346,99 @@
     "390573717",
     "390574399",
     "390581476",
-    "60316370",
-    "60320174",
-    "61258711",
-    "61259036",
-    "61260054",
-    "61261904",
-    "61569114"
+    "401331272",
+    "1050043397",
+    "1050049974",
+    "1050057308",
+    "1050060256",
+    "1050060364",
+    "1050068811",
+    "1050078150",
+    "1050080149",
+    "1050082425",
+    "1050083649",
+    "1050085864",
+    "1050085983",
+    "1050086323",
+    "1050087237",
+    "1050087340",
+    "1050094002",
+    "1050098145",
+    "1050100236",
+    "1050100680",
+    "1050103241",
+    "1050104431",
+    "1050108194",
+    "1050111505",
+    "1050113101",
+    "1050113149",
+    "1050114888",
+    "1050117565",
+    "1050121301",
+    "1050121684",
+    "1050123293",
+    "1050126480",
+    "1050127796",
+    "1050127957",
+    "1050128500",
+    "1050129060",
+    "1050129538",
+    "1050130719",
+    "1050131561",
+    "1050134797",
+    "1050136610",
+    "1050137248",
+    "1050144942",
+    "1050145535",
+    "1050145680",
+    "1256971291",
+    "1256972548",
+    "1256973358",
+    "1256974148",
+    "1256974996",
+    "1256975013",
+    "1257358494",
+    "1257358629",
+    "1259428783",
+    "1259429197",
+    "1259430217",
+    "1259430976",
+    "1259561281",
+    "1261014751",
+    "1261033566",
+    "1261041604",
+    "1369100143",
+    "1369100155",
+    "1369100180",
+    "1369100191",
+    "1369100202",
+    "1369100214",
+    "1369100225",
+    "1369100236",
+    "1369100248"
   ],
   "reviewed_original_pending_context": [],
   "coverage_totals": {
     "distinct_queries": 85,
-    "retrieved_entries": 1190,
-    "readable_first_previews_screened": 1167,
-    "newly_resolved_original_pages": 97,
-    "preview_positions_screened_for_this_batch": 360
+    "retrieved_entries": 1593,
+    "readable_first_previews_screened": 1570,
+    "newly_resolved_original_pages": 127,
+    "seventh_batch_preview_positions_screened": 360,
+    "eighth_batch_preview_positions_screened": 393,
+    "william_ie_batch_preview_positions_screened": 67,
+    "thomas_ie_batch_preview_positions_screened": 37,
+    "alexander_ie_batch_preview_positions_screened": 23,
+    "tenth_batch_preview_positions_reviewed": 222,
+    "tenth_batch_additional_preview_positions_vs_prior_first_previews": 182,
+    "tenth_batch_unreviewed_captured_positions": 11,
+    "preview_positions_reviewed_cumulative_batches": 1265,
+    "eleventh_batch_new_preview_positions_reviewed": 73,
+    "eleventh_batch_unreviewed_captured_positions": 0,
+    "twelfth_batch_preview_positions_reviewed": 66,
+    "twelfth_batch_additional_preview_positions_vs_prior_first_previews": 56,
+    "fourteenth_batch_preview_positions_reviewed": 84,
+    "fourteenth_batch_additional_preview_positions_vs_prior_first_previews": 74,
+    "fourteenth_batch_unreviewed_captured_positions": 0
   },
   "seventh_original_evidence": [
     {
@@ -1985,5 +2851,1685 @@
       "390581476"
     ],
     "original_evidence_records_added": 13
+  },
+  "eighth_batch": {
+    "query_pairs_completed": 1,
+    "cards_completed": 199,
+    "distinct_page_ids": 199,
+    "preview_positions_reviewed": 393,
+    "original_pages_already_counted": [
+      "1050057308",
+      "1050085864",
+      "1050087237",
+      "1050144942"
+    ],
+    "three_explicitly_reused_prior_clippings": [
+      "1050057308",
+      "1050085864",
+      "1050087237"
+    ],
+    "new_verified_original_pages": 5,
+    "new_verified_original_ids": [
+      "1050121684",
+      "1050134797",
+      "1259429197",
+      "401331272",
+      "60324711"
+    ],
+    "entity_duplicate_ranks": [],
+    "excluded_from_carousel_count": "Robert Glasgow original-search matches were not added; original-page highlight indices are evidence metadata and do not increase the 393 captured George Glasgow preview-position count."
+  },
+  "william_ie_batch": {
+    "query_pairs_completed_for_capture_review": 1,
+    "result_cards": 33,
+    "unique_page_ids": 33,
+    "preview_positions_reviewed": 67,
+    "distinct_original_pages_added": 3,
+    "original_checks_pending_ids": [],
+    "query_status": "capture, all preview positions, and all flagged original contexts reviewed; no Glasgow surname conclusion supported",
+    "duplicate_result_entities": [],
+    "resolved_original_ids": [
+      "1050082425",
+      "1050117565",
+      "1259430217"
+    ]
+  },
+  "william_ie_followup_inventory": {
+    "remaining_ledger_partial_queries_sorted_smallest_displayed_count_first": [
+      {
+        "query": "\"Johanna Glasgow\"",
+        "collection": "Northern Ireland",
+        "reported_entries": 0,
+        "retrieved_entries": 0,
+        "remaining_reported_entries": 0,
+        "previews_screened": 0,
+        "end_of_results": null,
+        "source_capture": "artifacts/pre1850-continuation-20261005/phase-1850-root/johanna-ni-query.json",
+        "state": "ledger pair incomplete"
+      },
+      {
+        "query": "\"Lavinia Glasgow\"",
+        "collection": "Northern Ireland",
+        "reported_entries": 0,
+        "retrieved_entries": 0,
+        "remaining_reported_entries": 0,
+        "previews_screened": 0,
+        "end_of_results": null,
+        "source_capture": "artifacts/pre1850-continuation-20261005/phase-1850-root/lavinia-ni-query.json",
+        "state": "ledger pair incomplete"
+      },
+      {
+        "query": "\"Margret Glasgow\"",
+        "collection": "Northern Ireland",
+        "reported_entries": 0,
+        "retrieved_entries": 0,
+        "remaining_reported_entries": 0,
+        "previews_screened": 0,
+        "end_of_results": null,
+        "source_capture": "artifacts/pre1850-continuation-20261005/phase-1850-root/margret-ni-query.json",
+        "state": "ledger pair incomplete"
+      },
+      {
+        "query": "\"Martha Glasgow\"",
+        "collection": "Northern Ireland",
+        "reported_entries": 0,
+        "retrieved_entries": 0,
+        "remaining_reported_entries": 0,
+        "previews_screened": 0,
+        "end_of_results": null,
+        "source_capture": "artifacts/pre1850-continuation-20261005/phase-1850-root/martha-ni-query.json",
+        "state": "ledger pair incomplete"
+      },
+      {
+        "query": "\"Mary Jane Glasgow\"",
+        "collection": "Northern Ireland",
+        "reported_entries": 0,
+        "retrieved_entries": 0,
+        "remaining_reported_entries": 0,
+        "previews_screened": 0,
+        "end_of_results": null,
+        "source_capture": "artifacts/pre1850-continuation-20261005/phase-1850-root/mary-jane-ni-query.json",
+        "state": "ledger pair incomplete"
+      },
+      {
+        "query": "\"Alexander Glasgow\"",
+        "collection": "Ireland",
+        "reported_entries": 13,
+        "retrieved_entries": 10,
+        "remaining_reported_entries": 3,
+        "previews_screened": 10,
+        "end_of_results": false,
+        "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/alexander-ie.json",
+        "state": "ledger pair incomplete"
+      },
+      {
+        "query": "\"Andrew Glasgow\"",
+        "collection": "Ireland",
+        "reported_entries": 20,
+        "retrieved_entries": 10,
+        "remaining_reported_entries": 10,
+        "previews_screened": 10,
+        "end_of_results": false,
+        "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/andrew-ie.json",
+        "state": "ledger pair incomplete"
+      },
+      {
+        "query": "\"Thomas Glasgow\"",
+        "collection": "Ireland",
+        "reported_entries": 20,
+        "retrieved_entries": 10,
+        "remaining_reported_entries": 10,
+        "previews_screened": 10,
+        "end_of_results": false,
+        "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/thomas-ie.json",
+        "state": "ledger pair incomplete"
+      },
+      {
+        "query": "\"Robert Glasgow\"",
+        "collection": "Ireland",
+        "reported_entries": 25,
+        "retrieved_entries": 10,
+        "remaining_reported_entries": 15,
+        "previews_screened": 10,
+        "end_of_results": false,
+        "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/robert-ie.json",
+        "state": "ledger pair incomplete"
+      },
+      {
+        "query": "\"Wilson Glasgow\"",
+        "collection": "Ireland",
+        "reported_entries": 27,
+        "retrieved_entries": 10,
+        "remaining_reported_entries": 17,
+        "previews_screened": 10,
+        "end_of_results": false,
+        "source_capture": ".cache/newspapers/2026-10-04/continued/quoted-searches.json",
+        "state": "ledger pair incomplete"
+      },
+      {
+        "query": "\"James Glasgow\"",
+        "collection": "Ireland",
+        "reported_entries": 29,
+        "retrieved_entries": 10,
+        "remaining_reported_entries": 19,
+        "previews_screened": 10,
+        "end_of_results": false,
+        "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/james-ie.json",
+        "state": "ledger pair incomplete"
+      },
+      {
+        "query": "\"David Glasgow\"",
+        "collection": "Ireland",
+        "reported_entries": 33,
+        "retrieved_entries": 10,
+        "remaining_reported_entries": 23,
+        "previews_screened": 10,
+        "end_of_results": false,
+        "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/david-ie.json",
+        "state": "ledger pair incomplete"
+      },
+      {
+        "query": "\"Margaret Glasgow\"",
+        "collection": "Ireland",
+        "reported_entries": 39,
+        "retrieved_entries": 10,
+        "remaining_reported_entries": 29,
+        "previews_screened": 10,
+        "end_of_results": false,
+        "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/continued-margaret-ireland.json",
+        "state": "ledger pair incomplete"
+      },
+      {
+        "query": "\"Elizabeth Glasgow\"",
+        "collection": "Ireland",
+        "reported_entries": 44,
+        "retrieved_entries": 10,
+        "remaining_reported_entries": 34,
+        "previews_screened": 10,
+        "end_of_results": false,
+        "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/elizabeth-ie.json",
+        "state": "ledger pair incomplete"
+      },
+      {
+        "query": "\"Jane Glasgow\"",
+        "collection": "Ireland",
+        "reported_entries": 52,
+        "retrieved_entries": 10,
+        "remaining_reported_entries": 42,
+        "previews_screened": 10,
+        "end_of_results": false,
+        "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/next-jane-ie.json",
+        "state": "ledger pair incomplete"
+      },
+      {
+        "query": "\"Mary Glasgow\"",
+        "collection": "Ireland",
+        "reported_entries": 52,
+        "retrieved_entries": 10,
+        "remaining_reported_entries": 42,
+        "previews_screened": 10,
+        "end_of_results": false,
+        "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/mary-ie.json",
+        "state": "ledger pair incomplete"
+      }
+    ],
+    "offledger_observed_but_unintegrated_query_states_sorted_smallest_displayed_count_first": [
+      {
+        "query": "\"Abigail Glasgow\"",
+        "name": "Abigail",
+        "collection": "Ireland",
+        "reported_cards": 0,
+        "retrieved_cards": 0,
+        "positions_total": null,
+        "positions_reviewed": 0,
+        "status": "Observed no-good-matches (0 cards), but reconcile inherited 1-page/2-position unsaved note; do not infer absence.",
+        "source": "phase-1850-gap-a/query-inventory-audit.json"
+      },
+      {
+        "query": "\"Jessy Glasgow\"",
+        "name": "Jessy",
+        "collection": "Northern Ireland",
+        "reported_cards": 0,
+        "retrieved_cards": 0,
+        "positions_total": 0,
+        "positions_reviewed": 0,
+        "status": "prior zero-result report; explicit End state pending confirmation",
+        "source": "phase-1850-gap-b/query-inventory-audit.json"
+      },
+      {
+        "query": "\"Julia Glasgow\"",
+        "name": "Julia",
+        "collection": "Ireland",
+        "reported_cards": 0,
+        "retrieved_cards": 0,
+        "positions_total": 0,
+        "positions_reviewed": 0,
+        "status": "prior zero-result report; explicit End state pending confirmation",
+        "source": "phase-1850-gap-b/query-inventory-audit.json"
+      },
+      {
+        "query": "\"Lavinia Glasgow\"",
+        "name": "Lavinia",
+        "collection": "Ireland",
+        "reported_cards": 0,
+        "retrieved_cards": 0,
+        "positions_total": 0,
+        "positions_reviewed": 0,
+        "status": "prior zero-result report; explicit End state pending confirmation",
+        "source": "phase-1850-gap-b/query-inventory-audit.json"
+      },
+      {
+        "query": "\"Letita Glasgow\"",
+        "name": "Letita",
+        "collection": "Ireland",
+        "reported_cards": 0,
+        "retrieved_cards": 0,
+        "positions_total": 0,
+        "positions_reviewed": 0,
+        "status": "prior zero-result report; explicit End state pending confirmation",
+        "source": "phase-1850-gap-b/query-inventory-audit.json"
+      },
+      {
+        "query": "\"Letitia Glasgow\"",
+        "name": "Letitia",
+        "collection": "Ireland",
+        "reported_cards": 0,
+        "retrieved_cards": 0,
+        "positions_total": 0,
+        "positions_reviewed": 0,
+        "status": "prior zero-result report; explicit End state pending confirmation",
+        "source": "phase-1850-gap-b/query-inventory-audit.json"
+      },
+      {
+        "query": "\"Netta Glasgow\"",
+        "name": "Netta",
+        "collection": "Ireland",
+        "reported_cards": 0,
+        "retrieved_cards": 0,
+        "positions_total": 0,
+        "positions_reviewed": 0,
+        "status": "prior zero-result report; explicit End state pending confirmation",
+        "source": "phase-1850-gap-b/query-inventory-audit.json"
+      },
+      {
+        "query": "\"Phillip Glasgow\"",
+        "name": "Phillip",
+        "collection": "Ireland",
+        "reported_cards": 0,
+        "retrieved_cards": 0,
+        "positions_total": 0,
+        "positions_reviewed": 0,
+        "status": "prior zero-result report; explicit End state pending confirmation",
+        "source": "phase-1850-gap-b/query-inventory-audit.json"
+      },
+      {
+        "query": "\"Michael Glasgow\"",
+        "name": "Michael",
+        "collection": "Ireland",
+        "reported_cards": 3,
+        "retrieved_cards": 3,
+        "positions_total": 6,
+        "positions_reviewed": 0,
+        "status": "cards reported/loaded; preview and alternate review pending",
+        "source": "phase-1850-gap-b/query-inventory-audit.json"
+      },
+      {
+        "query": "\"Nelson Glasgow\"",
+        "name": "Nelson",
+        "collection": "Ireland",
+        "reported_cards": 6,
+        "retrieved_cards": 6,
+        "positions_total": 10,
+        "positions_reviewed": 0,
+        "status": "cards reported/loaded; preview and alternate review pending",
+        "source": "phase-1850-gap-b/query-inventory-audit.json"
+      },
+      {
+        "query": "\"Peggy Glasgow\"",
+        "name": "Peggy",
+        "collection": "Ireland",
+        "reported_cards": 6,
+        "retrieved_cards": 6,
+        "positions_total": 10,
+        "positions_reviewed": 0,
+        "status": "cards reported/loaded; preview and alternate review pending",
+        "source": "phase-1850-gap-b/query-inventory-audit.json"
+      },
+      {
+        "query": "\"Adelaide Glasgow\"",
+        "name": "Adelaide",
+        "collection": "Ireland",
+        "reported_cards": 22,
+        "retrieved_cards": 22,
+        "positions_total": 47,
+        "positions_reviewed": 18,
+        "status": "Loaded to End; 18/47 positions visually screened; 29 pending.",
+        "source": "phase-1850-gap-a/query-inventory-audit.json"
+      }
+    ],
+    "catalogue_name_forms_without_exact_ledger_pairs": {
+      "Ireland": [
+        "Abigail",
+        "Adelaide",
+        "Alice",
+        "Allen",
+        "Ann",
+        "Anna",
+        "Anne",
+        "Annie",
+        "Arthur",
+        "Betty",
+        "Bridget",
+        "Catherine",
+        "Charles",
+        "Christian",
+        "Edward",
+        "Eleanor",
+        "Eliza",
+        "Ellin",
+        "Esther",
+        "Euphemia",
+        "Fanny",
+        "Frances",
+        "Hannah",
+        "Harriette",
+        "Helen",
+        "Isaac",
+        "Isabella",
+        "Jean",
+        "Jemima",
+        "Julia",
+        "Lavinia",
+        "Letita",
+        "Letitia",
+        "Michael",
+        "Nelson",
+        "Netta",
+        "Peggy",
+        "Phillip",
+        "Rosanna",
+        "Rosannah",
+        "Rosetta",
+        "Sally",
+        "Silas"
+      ],
+      "Northern Ireland": [
+        "Abigail",
+        "Adelaide",
+        "Alice",
+        "Allen",
+        "Ann",
+        "Anna",
+        "Anne",
+        "Annie",
+        "Betty",
+        "Bridget",
+        "Catherine",
+        "Charles",
+        "Christian",
+        "Edward",
+        "Eleanor",
+        "Eliza",
+        "Ellin",
+        "Esther",
+        "Euphemia",
+        "Fanny",
+        "Frances",
+        "Hannah",
+        "Harriette",
+        "Helen",
+        "Isaac",
+        "Isabella",
+        "Jean",
+        "Jessy",
+        "Julia",
+        "Letita",
+        "Letitia",
+        "Mary Anne",
+        "Maryanne",
+        "Matilda",
+        "Nelson",
+        "Netta",
+        "Peggy",
+        "Phillip",
+        "Rosanna",
+        "Rosannah",
+        "Rosetta",
+        "Sally"
+      ]
+    },
+    "name_forms_explicitly_unsearched_in_audited_local_inventories_sorted_alphabetically": {
+      "Ireland": [
+        "Alice",
+        "Allen",
+        "Ann",
+        "Anna",
+        "Anne",
+        "Annie",
+        "Arthur",
+        "Betty",
+        "Bridget",
+        "Catherine",
+        "Charles",
+        "Christian",
+        "Edward",
+        "Eleanor",
+        "Eliza",
+        "Ellin",
+        "Esther",
+        "Euphemia",
+        "Fanny",
+        "Frances",
+        "Hannah",
+        "Harriette",
+        "Helen",
+        "Isaac",
+        "Isabella",
+        "Jean",
+        "Jemima",
+        "Rosanna",
+        "Rosannah",
+        "Rosetta",
+        "Sally",
+        "Silas"
+      ],
+      "Northern Ireland": [
+        "Abigail",
+        "Adelaide",
+        "Alice",
+        "Allen",
+        "Ann",
+        "Anna",
+        "Anne",
+        "Annie",
+        "Betty",
+        "Bridget",
+        "Catherine",
+        "Charles",
+        "Christian",
+        "Edward",
+        "Eleanor",
+        "Eliza",
+        "Ellin",
+        "Esther",
+        "Euphemia",
+        "Fanny",
+        "Frances",
+        "Hannah",
+        "Harriette",
+        "Helen",
+        "Isaac",
+        "Isabella",
+        "Jean",
+        "Julia",
+        "Letita",
+        "Letitia",
+        "Mary Anne",
+        "Maryanne",
+        "Matilda",
+        "Nelson",
+        "Netta",
+        "Peggy",
+        "Phillip",
+        "Rosanna",
+        "Rosannah",
+        "Rosetta",
+        "Sally"
+      ]
+    },
+    "note": "Off-ledger states are kept distinct from ledger pairs. Zero-card observations with pending End/conflict are not closed negatives. William Ireland capture/preview review is complete, but three original checks are still open."
+  },
+  "ninth_batch": {
+    "query_pairs_completed_for_capture_review": 2,
+    "cards_completed": 33,
+    "distinct_page_ids_by_query": {
+      "Thomas Glasgow (Ireland)": 20,
+      "Alexander Glasgow (Ireland)": 13
+    },
+    "preview_positions_reviewed": 60,
+    "original_pages_added": 3,
+    "original_pages_pending": 2,
+    "records": [
+      {
+        "query": "\"Thomas Glasgow\"",
+        "collection": "Ireland",
+        "cards_captured": 20,
+        "captured_ranks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "distinct_preview_image_ids": [
+          "60323831",
+          "60324508",
+          "60325070",
+          "1050075515",
+          "1050083110",
+          "1050090849",
+          "1050096499",
+          "1050112960",
+          "1050118215",
+          "1050120062",
+          "1050123293",
+          "1050133953",
+          "1050148170",
+          "1256971308",
+          "1259393914",
+          "1259393952",
+          "1259394110",
+          "1259394207",
+          "1259430825",
+          "1261042264"
+        ],
+        "preview_positions": 37,
+        "end_of_results": true,
+        "capture_packets": [
+          "phase-1850-root/thomas-ie-full-ranks1-10-position-review.json",
+          "phase-1850-root/thomas-ie-full-ranks11-20-position-review.json"
+        ],
+        "review_packets": [
+          "phase-1850-common-ni-tail/thomas-ie-review-1-10.json",
+          "phase-1850-gap-a/thomas-ie-review-11-20.json"
+        ],
+        "original_pending_ids": [
+          "1050123293"
+        ]
+      },
+      {
+        "query": "\"Alexander Glasgow\"",
+        "collection": "Ireland",
+        "cards_captured": 13,
+        "captured_ranks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "distinct_preview_image_ids": [
+          "61570263",
+          "61570305",
+          "401329950",
+          "1050116067",
+          "1050118330",
+          "1050142343",
+          "1256973252",
+          "1256973277",
+          "1256973326",
+          "1256973348",
+          "1256975430",
+          "1259426291",
+          "1261033566"
+        ],
+        "preview_positions": 23,
+        "end_of_results": true,
+        "capture_packets": [
+          "phase-1850-root/alexander-ie-full-ranks1-13-position-review.json"
+        ],
+        "review_packets": [
+          "phase-1850-john-ni/alexander-ie-independent-recheck-1-13.json"
+        ],
+        "original_pending_ids": [
+          "1261033566"
+        ]
+      }
+    ],
+    "exclusions_and_qualifiers": {
+      "Thomas": "rank 10/image 1050123293 remains pending original inspection",
+      "Alexander": "rank 4/image 1261033566 remains pending original inspection; independent full-position recheck agrees",
+      "Robert": "image 1050049974 is already catalogued as the Benjamin surgeon passage (26 Nov 1833); no new original page counted"
+    },
+    "remaining_ledger_partial_queries_sorted_smallest_displayed_count_first": [
+      {
+        "query": "\"Johanna Glasgow\"",
+        "collection": "Northern Ireland",
+        "reported_entries": 0,
+        "retrieved_entries": 0,
+        "remaining_reported_entries": 0,
+        "previews_screened": 0,
+        "end_of_results": null,
+        "source_capture": "artifacts/pre1850-continuation-20261005/phase-1850-root/johanna-ni-query.json",
+        "state": "ledger pair incomplete"
+      },
+      {
+        "query": "\"Lavinia Glasgow\"",
+        "collection": "Northern Ireland",
+        "reported_entries": 0,
+        "retrieved_entries": 0,
+        "remaining_reported_entries": 0,
+        "previews_screened": 0,
+        "end_of_results": null,
+        "source_capture": "artifacts/pre1850-continuation-20261005/phase-1850-root/lavinia-ni-query.json",
+        "state": "ledger pair incomplete"
+      },
+      {
+        "query": "\"Margret Glasgow\"",
+        "collection": "Northern Ireland",
+        "reported_entries": 0,
+        "retrieved_entries": 0,
+        "remaining_reported_entries": 0,
+        "previews_screened": 0,
+        "end_of_results": null,
+        "source_capture": "artifacts/pre1850-continuation-20261005/phase-1850-root/margret-ni-query.json",
+        "state": "ledger pair incomplete"
+      },
+      {
+        "query": "\"Martha Glasgow\"",
+        "collection": "Northern Ireland",
+        "reported_entries": 0,
+        "retrieved_entries": 0,
+        "remaining_reported_entries": 0,
+        "previews_screened": 0,
+        "end_of_results": null,
+        "source_capture": "artifacts/pre1850-continuation-20261005/phase-1850-root/martha-ni-query.json",
+        "state": "ledger pair incomplete"
+      },
+      {
+        "query": "\"Mary Jane Glasgow\"",
+        "collection": "Northern Ireland",
+        "reported_entries": 0,
+        "retrieved_entries": 0,
+        "remaining_reported_entries": 0,
+        "previews_screened": 0,
+        "end_of_results": null,
+        "source_capture": "artifacts/pre1850-continuation-20261005/phase-1850-root/mary-jane-ni-query.json",
+        "state": "ledger pair incomplete"
+      },
+      {
+        "query": "\"Andrew Glasgow\"",
+        "collection": "Ireland",
+        "reported_entries": 20,
+        "retrieved_entries": 10,
+        "remaining_reported_entries": 10,
+        "previews_screened": 10,
+        "end_of_results": false,
+        "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/andrew-ie.json",
+        "state": "ledger pair incomplete"
+      },
+      {
+        "query": "\"Robert Glasgow\"",
+        "collection": "Ireland",
+        "reported_entries": 25,
+        "retrieved_entries": 10,
+        "remaining_reported_entries": 15,
+        "previews_screened": 10,
+        "end_of_results": false,
+        "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/robert-ie.json",
+        "state": "ledger pair incomplete"
+      },
+      {
+        "query": "\"Wilson Glasgow\"",
+        "collection": "Ireland",
+        "reported_entries": 27,
+        "retrieved_entries": 10,
+        "remaining_reported_entries": 17,
+        "previews_screened": 10,
+        "end_of_results": false,
+        "source_capture": ".cache/newspapers/2026-10-04/continued/quoted-searches.json",
+        "state": "ledger pair incomplete"
+      },
+      {
+        "query": "\"James Glasgow\"",
+        "collection": "Ireland",
+        "reported_entries": 29,
+        "retrieved_entries": 10,
+        "remaining_reported_entries": 19,
+        "previews_screened": 10,
+        "end_of_results": false,
+        "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/james-ie.json",
+        "state": "ledger pair incomplete"
+      },
+      {
+        "query": "\"David Glasgow\"",
+        "collection": "Ireland",
+        "reported_entries": 33,
+        "retrieved_entries": 10,
+        "remaining_reported_entries": 23,
+        "previews_screened": 10,
+        "end_of_results": false,
+        "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/david-ie.json",
+        "state": "ledger pair incomplete"
+      },
+      {
+        "query": "\"Margaret Glasgow\"",
+        "collection": "Ireland",
+        "reported_entries": 39,
+        "retrieved_entries": 10,
+        "remaining_reported_entries": 29,
+        "previews_screened": 10,
+        "end_of_results": false,
+        "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/continued-margaret-ireland.json",
+        "state": "ledger pair incomplete"
+      },
+      {
+        "query": "\"Elizabeth Glasgow\"",
+        "collection": "Ireland",
+        "reported_entries": 44,
+        "retrieved_entries": 10,
+        "remaining_reported_entries": 34,
+        "previews_screened": 10,
+        "end_of_results": false,
+        "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/elizabeth-ie.json",
+        "state": "ledger pair incomplete"
+      },
+      {
+        "query": "\"Jane Glasgow\"",
+        "collection": "Ireland",
+        "reported_entries": 52,
+        "retrieved_entries": 10,
+        "remaining_reported_entries": 42,
+        "previews_screened": 10,
+        "end_of_results": false,
+        "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/next-jane-ie.json",
+        "state": "ledger pair incomplete"
+      },
+      {
+        "query": "\"Mary Glasgow\"",
+        "collection": "Ireland",
+        "reported_entries": 52,
+        "retrieved_entries": 10,
+        "remaining_reported_entries": 42,
+        "previews_screened": 10,
+        "end_of_results": false,
+        "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/mary-ie.json",
+        "state": "ledger pair incomplete"
+      }
+    ],
+    "smallest_remaining_query_list": [
+      {
+        "collection": "Northern Ireland",
+        "query": "\"Johanna Glasgow\"",
+        "reported_entries": 0,
+        "retrieved_entries": 0,
+        "previews_screened": 0,
+        "end_of_results": null
+      },
+      {
+        "collection": "Northern Ireland",
+        "query": "\"Lavinia Glasgow\"",
+        "reported_entries": 0,
+        "retrieved_entries": 0,
+        "previews_screened": 0,
+        "end_of_results": null
+      },
+      {
+        "collection": "Northern Ireland",
+        "query": "\"Margret Glasgow\"",
+        "reported_entries": 0,
+        "retrieved_entries": 0,
+        "previews_screened": 0,
+        "end_of_results": null
+      },
+      {
+        "collection": "Northern Ireland",
+        "query": "\"Martha Glasgow\"",
+        "reported_entries": 0,
+        "retrieved_entries": 0,
+        "previews_screened": 0,
+        "end_of_results": null
+      },
+      {
+        "collection": "Northern Ireland",
+        "query": "\"Mary Jane Glasgow\"",
+        "reported_entries": 0,
+        "retrieved_entries": 0,
+        "previews_screened": 0,
+        "end_of_results": null
+      },
+      {
+        "collection": "Ireland",
+        "query": "\"Andrew Glasgow\"",
+        "reported_entries": 20,
+        "retrieved_entries": 10,
+        "previews_screened": 10,
+        "end_of_results": false
+      },
+      {
+        "collection": "Ireland",
+        "query": "\"Robert Glasgow\"",
+        "reported_entries": 25,
+        "retrieved_entries": 10,
+        "previews_screened": 10,
+        "end_of_results": false
+      },
+      {
+        "collection": "Ireland",
+        "query": "\"Wilson Glasgow\"",
+        "reported_entries": 27,
+        "retrieved_entries": 10,
+        "previews_screened": 10,
+        "end_of_results": false
+      }
+    ],
+    "offledger_observed_but_unintegrated_query_states": [
+      {
+        "query": "\"Abigail Glasgow\"",
+        "name": "Abigail",
+        "collection": "Ireland",
+        "reported_cards": 0,
+        "retrieved_cards": 0,
+        "positions_total": null,
+        "positions_reviewed": 0,
+        "status": "Observed no-good-matches (0 cards), but reconcile inherited 1-page/2-position unsaved note; do not infer absence.",
+        "source": "phase-1850-gap-a/query-inventory-audit.json"
+      },
+      {
+        "query": "\"Jessy Glasgow\"",
+        "name": "Jessy",
+        "collection": "Northern Ireland",
+        "reported_cards": 0,
+        "retrieved_cards": 0,
+        "positions_total": 0,
+        "positions_reviewed": 0,
+        "status": "prior zero-result report; explicit End state pending confirmation",
+        "source": "phase-1850-gap-b/query-inventory-audit.json"
+      },
+      {
+        "query": "\"Julia Glasgow\"",
+        "name": "Julia",
+        "collection": "Ireland",
+        "reported_cards": 0,
+        "retrieved_cards": 0,
+        "positions_total": 0,
+        "positions_reviewed": 0,
+        "status": "prior zero-result report; explicit End state pending confirmation",
+        "source": "phase-1850-gap-b/query-inventory-audit.json"
+      },
+      {
+        "query": "\"Lavinia Glasgow\"",
+        "name": "Lavinia",
+        "collection": "Ireland",
+        "reported_cards": 0,
+        "retrieved_cards": 0,
+        "positions_total": 0,
+        "positions_reviewed": 0,
+        "status": "prior zero-result report; explicit End state pending confirmation",
+        "source": "phase-1850-gap-b/query-inventory-audit.json"
+      },
+      {
+        "query": "\"Letita Glasgow\"",
+        "name": "Letita",
+        "collection": "Ireland",
+        "reported_cards": 0,
+        "retrieved_cards": 0,
+        "positions_total": 0,
+        "positions_reviewed": 0,
+        "status": "prior zero-result report; explicit End state pending confirmation",
+        "source": "phase-1850-gap-b/query-inventory-audit.json"
+      },
+      {
+        "query": "\"Letitia Glasgow\"",
+        "name": "Letitia",
+        "collection": "Ireland",
+        "reported_cards": 0,
+        "retrieved_cards": 0,
+        "positions_total": 0,
+        "positions_reviewed": 0,
+        "status": "prior zero-result report; explicit End state pending confirmation",
+        "source": "phase-1850-gap-b/query-inventory-audit.json"
+      },
+      {
+        "query": "\"Netta Glasgow\"",
+        "name": "Netta",
+        "collection": "Ireland",
+        "reported_cards": 0,
+        "retrieved_cards": 0,
+        "positions_total": 0,
+        "positions_reviewed": 0,
+        "status": "prior zero-result report; explicit End state pending confirmation",
+        "source": "phase-1850-gap-b/query-inventory-audit.json"
+      },
+      {
+        "query": "\"Phillip Glasgow\"",
+        "name": "Phillip",
+        "collection": "Ireland",
+        "reported_cards": 0,
+        "retrieved_cards": 0,
+        "positions_total": 0,
+        "positions_reviewed": 0,
+        "status": "prior zero-result report; explicit End state pending confirmation",
+        "source": "phase-1850-gap-b/query-inventory-audit.json"
+      },
+      {
+        "query": "\"Michael Glasgow\"",
+        "name": "Michael",
+        "collection": "Ireland",
+        "reported_cards": 3,
+        "retrieved_cards": 3,
+        "positions_total": 6,
+        "positions_reviewed": 0,
+        "status": "cards reported/loaded; preview and alternate review pending",
+        "source": "phase-1850-gap-b/query-inventory-audit.json"
+      },
+      {
+        "query": "\"Nelson Glasgow\"",
+        "name": "Nelson",
+        "collection": "Ireland",
+        "reported_cards": 6,
+        "retrieved_cards": 6,
+        "positions_total": 10,
+        "positions_reviewed": 0,
+        "status": "cards reported/loaded; preview and alternate review pending",
+        "source": "phase-1850-gap-b/query-inventory-audit.json"
+      },
+      {
+        "query": "\"Peggy Glasgow\"",
+        "name": "Peggy",
+        "collection": "Ireland",
+        "reported_cards": 6,
+        "retrieved_cards": 6,
+        "positions_total": 10,
+        "positions_reviewed": 0,
+        "status": "cards reported/loaded; preview and alternate review pending",
+        "source": "phase-1850-gap-b/query-inventory-audit.json"
+      },
+      {
+        "query": "\"Adelaide Glasgow\"",
+        "name": "Adelaide",
+        "collection": "Ireland",
+        "reported_cards": 22,
+        "retrieved_cards": 22,
+        "positions_total": 47,
+        "positions_reviewed": 18,
+        "status": "Loaded to End; 18/47 positions visually screened; 29 pending.",
+        "source": "phase-1850-gap-a/query-inventory-audit.json"
+      }
+    ]
+  },
+  "tenth_batch": {
+    "query_pairs_added_or_advanced": 4,
+    "cumulative_query_pairs_preserved": 85,
+    "retrieved_entries_added": 92,
+    "primary_previews_added": 85,
+    "full_query_capture_and_review": {
+      "Andrew Glasgow (Ireland)": {
+        "cards": 20,
+        "positions": 40,
+        "distinct_page_ids": 20,
+        "End": true,
+        "disposition": "all preview review negative for personal Glasgow surname; no original needed"
+      },
+      "Robert Glasgow (Ireland)": {
+        "cards": 25,
+        "positions": 45,
+        "distinct_page_ids": 24,
+        "End": true,
+        "disposition": "three inspected originals are shipping negatives; rank 12 retained surname original and ranks 21–22 reuse already-counted page 401331272"
+      },
+      "Thomas Glasgow (Ireland)": {
+        "cards": 20,
+        "positions": 37,
+        "End": true,
+        "original": "1050123293 resolved as Captain A. Thomas from Glasgow; Glasgow is port"
+      },
+      "Alexander Glasgow (Ireland)": {
+        "cards": 13,
+        "positions": 23,
+        "End": true,
+        "original": "1261033566 resolved as vessel Alexander, Glasgow port"
+      }
+    },
+    "partial_review": {
+      "James Glasgow (Ireland)": {
+        "cards": 60,
+        "positions_captured_and_reviewed": 102,
+        "End": true,
+        "originals_pending": [
+          "1050060364",
+          "1050113101",
+          "1050136610",
+          "1256973358",
+          "1256974996",
+          "1369100143"
+        ]
+      },
+      "Wilson Glasgow (Ireland)": {
+        "cards": 27,
+        "positions_captured": 46,
+        "positions_reviewed": 35,
+        "positions_pending_review": 11,
+        "End": true,
+        "original_pending": "1256972548"
+      }
+    },
+    "new_unique_original_pages_added": [
+      "1050068811",
+      "1050108194",
+      "1050121301",
+      "1050123293",
+      "1261033566"
+    ],
+    "original_pages_already_counted_not_readded": [
+      "1050049974",
+      "401331272"
+    ],
+    "open_original_checks": [
+      {
+        "image_id": "1050060364",
+        "source_url": "https://www.newspapers.com/image/1050060364/",
+        "query": "\"James Glasgow\"",
+        "collection": "Ireland",
+        "status": "root original inspection pending",
+        "reason": "James rank 6 candidate is not yet in the maintained source catalogue; root original check pending."
+      },
+      {
+        "image_id": "1050113101",
+        "source_url": "https://www.newspapers.com/image/1050113101/",
+        "query": "\"James Glasgow\"",
+        "collection": "Ireland",
+        "status": "root original inspection pending",
+        "reason": "James rank 20 Rev. James Glasgow marriage notice; root original check pending."
+      },
+      {
+        "image_id": "1050136610",
+        "source_url": "https://www.newspapers.com/image/1050136610/",
+        "query": "\"James Glasgow\"",
+        "collection": "Ireland",
+        "status": "root original inspection pending",
+        "reason": "James rank 28 Rev. James Glasgow notice; root original check pending."
+      },
+      {
+        "image_id": "1256973358",
+        "source_url": "https://www.newspapers.com/image/1256973358/",
+        "query": "\"James Glasgow\"",
+        "collection": "Ireland",
+        "status": "root original inspection pending",
+        "reason": "James rank 48 ambiguous commercial list; root original check pending."
+      },
+      {
+        "image_id": "1256974996",
+        "source_url": "https://www.newspapers.com/image/1256974996/",
+        "query": "\"James Glasgow\"",
+        "collection": "Ireland",
+        "status": "root original inspection pending",
+        "reason": "James rank 50 Cookstown merchant entry; root original check pending."
+      },
+      {
+        "image_id": "1369100143",
+        "source_url": "https://www.newspapers.com/image/1369100143/",
+        "query": "\"James Glasgow\"",
+        "collection": "Ireland",
+        "status": "root original inspection pending",
+        "reason": "James rank 52 representative of repeated Cookstown merchant entries; root original check pending."
+      },
+      {
+        "image_id": "1256972548",
+        "source_url": "https://www.newspapers.com/image/1256972548/",
+        "query": "\"Wilson Glasgow\"",
+        "collection": "Ireland",
+        "status": "root original inspection pending",
+        "reason": "Wilson rank 20 ambiguous shipping/cargo list; root original check pending."
+      }
+    ],
+    "limitations": "Exact quoted query captures only. James original/context and catalogue retention checks remain pending; Wilson ranks 21–27 have not yet been visually reviewed. No archive completeness or query-wide absence claim.",
+    "remaining_incomplete_work_sorted_by_reported_count": [
+      {
+        "collection": "Northern Ireland",
+        "query": "\"Johanna Glasgow\"",
+        "reported_entries": 0,
+        "retrieved_entries": 0,
+        "previews_screened": 0,
+        "end_of_results": null
+      },
+      {
+        "collection": "Northern Ireland",
+        "query": "\"Lavinia Glasgow\"",
+        "reported_entries": 0,
+        "retrieved_entries": 0,
+        "previews_screened": 0,
+        "end_of_results": null
+      },
+      {
+        "collection": "Northern Ireland",
+        "query": "\"Margret Glasgow\"",
+        "reported_entries": 0,
+        "retrieved_entries": 0,
+        "previews_screened": 0,
+        "end_of_results": null
+      },
+      {
+        "collection": "Northern Ireland",
+        "query": "\"Martha Glasgow\"",
+        "reported_entries": 0,
+        "retrieved_entries": 0,
+        "previews_screened": 0,
+        "end_of_results": null
+      },
+      {
+        "collection": "Northern Ireland",
+        "query": "\"Mary Jane Glasgow\"",
+        "reported_entries": 0,
+        "retrieved_entries": 0,
+        "previews_screened": 0,
+        "end_of_results": null
+      },
+      {
+        "collection": "Ireland",
+        "query": "\"Wilson Glasgow\"",
+        "reported_entries": 27,
+        "retrieved_entries": 27,
+        "previews_screened": 20,
+        "preview_positions_screened": 35,
+        "captured_positions_pending_review": 11,
+        "original_checks_pending": 1,
+        "end_of_results": true
+      },
+      {
+        "collection": "Ireland",
+        "query": "\"David Glasgow\"",
+        "reported_entries": 33,
+        "retrieved_entries": 10,
+        "previews_screened": 10,
+        "end_of_results": false
+      },
+      {
+        "collection": "Ireland",
+        "query": "\"Margaret Glasgow\"",
+        "reported_entries": 39,
+        "retrieved_entries": 10,
+        "previews_screened": 10,
+        "end_of_results": false
+      },
+      {
+        "collection": "Ireland",
+        "query": "\"Elizabeth Glasgow\"",
+        "reported_entries": 44,
+        "retrieved_entries": 10,
+        "previews_screened": 10,
+        "end_of_results": false
+      },
+      {
+        "collection": "Ireland",
+        "query": "\"Jane Glasgow\"",
+        "reported_entries": 52,
+        "retrieved_entries": 10,
+        "previews_screened": 10,
+        "end_of_results": false
+      },
+      {
+        "collection": "Ireland",
+        "query": "\"Mary Glasgow\"",
+        "reported_entries": 52,
+        "retrieved_entries": 10,
+        "previews_screened": 10,
+        "end_of_results": false
+      },
+      {
+        "collection": "Ireland",
+        "query": "\"James Glasgow\"",
+        "reported_entries": 60,
+        "retrieved_entries": 60,
+        "previews_screened": 60,
+        "preview_positions_screened": 102,
+        "original_checks_pending": 6,
+        "end_of_results": true,
+        "captured_positions_pending_review": 0,
+        "original_context_checks_pending": 0,
+        "canonical_resolution_json_pending": 1,
+        "catalogue_integration_pending": 3
+      }
+    ]
+  },
+  "eleventh_batch": {
+    "query_pairs_preserved": 85,
+    "queries_advanced_or_closed": 3,
+    "retrieved_entries_added": 23,
+    "primary_previews_added": 30,
+    "new_validated_original_ids": [
+      "1050060256",
+      "1050113101",
+      "1050136610",
+      "1256972548",
+      "1256973358",
+      "1256974996",
+      "1256975013",
+      "1369100143",
+      "1369100155",
+      "1369100180",
+      "1369100191",
+      "1369100202",
+      "1369100214",
+      "1369100225",
+      "1369100236",
+      "1369100248"
+    ],
+    "new_unique_original_pages": 16,
+    "Wilson Glasgow (Ireland)": {
+      "cards": 27,
+      "positions": 46,
+      "reviewed_positions": 46,
+      "End": true,
+      "resolution": "1256972548 is vessel Glasgow, master Wilson, destination Glasgow"
+    },
+    "David Glasgow (Ireland)": {
+      "cards": 33,
+      "positions": 72,
+      "reviewed_positions": 72,
+      "End": true,
+      "resolution": "1050060256 names David Hutcheson, merchant, Glasgow; both hits are city context"
+    },
+    "James Glasgow (Ireland)": {
+      "cards": 60,
+      "positions": 102,
+      "reviewed_positions": 102,
+      "End": true,
+      "required_original_pages": 15,
+      "validated_resolution_ids": 14,
+      "validated_resolution_ids_pending_canonical_json": [
+        "1050060364"
+      ],
+      "catalogue_integration_pending": 3,
+      "merchant_original_pages": 11,
+      "nonmerchant_pages": [
+        "1823 jury",
+        "1840 marriage",
+        "1842 missionary",
+        "1848 shipping negative"
+      ]
+    },
+    "original_id_deduplication": "Only validated resolution-JSON IDs were added; all captured-page IDs were deduplicated against the tenth proposal. 1050060364 is excluded pending canonical resolution JSON.",
+    "integration_status": "Private proposal only. Root owns applying the 11 merchant records and the three positive personal-name records; the three positives remain marked catalogue-integration-pending.",
+    "limitations": "Exact quoted query captures only; no archive-wide completeness or surname-absence claims.",
+    "remaining_work_sorted_by_reported_count": [
+      {
+        "collection": "Northern Ireland",
+        "query": "\"Johanna Glasgow\"",
+        "reported_entries": 0,
+        "retrieved_entries": 0,
+        "previews_screened": 0,
+        "end_of_results": null
+      },
+      {
+        "collection": "Northern Ireland",
+        "query": "\"Lavinia Glasgow\"",
+        "reported_entries": 0,
+        "retrieved_entries": 0,
+        "previews_screened": 0,
+        "end_of_results": null
+      },
+      {
+        "collection": "Northern Ireland",
+        "query": "\"Margret Glasgow\"",
+        "reported_entries": 0,
+        "retrieved_entries": 0,
+        "previews_screened": 0,
+        "end_of_results": null
+      },
+      {
+        "collection": "Northern Ireland",
+        "query": "\"Martha Glasgow\"",
+        "reported_entries": 0,
+        "retrieved_entries": 0,
+        "previews_screened": 0,
+        "end_of_results": null
+      },
+      {
+        "collection": "Northern Ireland",
+        "query": "\"Mary Jane Glasgow\"",
+        "reported_entries": 0,
+        "retrieved_entries": 0,
+        "previews_screened": 0,
+        "end_of_results": null
+      },
+      {
+        "collection": "Ireland",
+        "query": "\"Margaret Glasgow\"",
+        "reported_entries": 39,
+        "retrieved_entries": 10,
+        "previews_screened": 10,
+        "end_of_results": false
+      },
+      {
+        "collection": "Ireland",
+        "query": "\"Elizabeth Glasgow\"",
+        "reported_entries": 44,
+        "retrieved_entries": 10,
+        "previews_screened": 10,
+        "end_of_results": false
+      },
+      {
+        "collection": "Ireland",
+        "query": "\"Jane Glasgow\"",
+        "reported_entries": 52,
+        "retrieved_entries": 10,
+        "previews_screened": 10,
+        "end_of_results": false
+      },
+      {
+        "collection": "Ireland",
+        "query": "\"Mary Glasgow\"",
+        "reported_entries": 52,
+        "retrieved_entries": 10,
+        "previews_screened": 10,
+        "end_of_results": false
+      },
+      {
+        "collection": "Ireland",
+        "query": "\"James Glasgow\"",
+        "reported_entries": 60,
+        "retrieved_entries": 60,
+        "previews_screened": 60,
+        "preview_positions_screened": 102,
+        "original_checks_pending": 6,
+        "end_of_results": true,
+        "captured_positions_pending_review": 0,
+        "original_context_checks_pending": 0,
+        "canonical_resolution_json_pending": 0,
+        "catalogue_integration_pending": 2
+      }
+    ]
+  },
+  "twelfth_batch": {
+    "query_pairs_preserved": 85,
+    "queries_completed_or_updated": 2,
+    "retrieved_entries_added": 29,
+    "primary_previews_added": 29,
+    "Margaret Glasgow (Ireland)": {
+      "cards": 39,
+      "positions": 66,
+      "distinct_preview_image_ids": 39,
+      "End": true,
+      "review": "all preview positions reviewed; negative surname-person triage; no original follow-up"
+    },
+    "James Glasgow (Ireland)": {
+      "cards": 60,
+      "positions": 102,
+      "selected_original_pages": 15,
+      "newly_validated_original_id": "1050060364",
+      "source_pages_root_reports_integrated": 12,
+      "source_pages_pending_root_integration": [
+        "1050113101",
+        "1050136610"
+      ],
+      "merchant_pages": 11,
+      "jury_page": "1050060364",
+      "shipping_negative": "1256973358"
+    },
+    "new_validated_original_ids": [
+      "1050060364"
+    ],
+    "catalogue_integration_boundary": "Root reports the 11 merchant rows and jury page applied. This proposal does not edit maintained sources; marriage and missionary remain root-owned integration items.",
+    "limitations": "Only exact quoted result sets through End; Margaret’s negative disposition is limited to the reviewed 66 preview positions and is not an archive-wide absence claim.",
+    "remaining_work_sorted_by_reported_count": [
+      {
+        "collection": "Northern Ireland",
+        "query": "\"Johanna Glasgow\"",
+        "reported_entries": 0,
+        "retrieved_entries": 0,
+        "previews_screened": 0,
+        "end_of_results": null
+      },
+      {
+        "collection": "Northern Ireland",
+        "query": "\"Lavinia Glasgow\"",
+        "reported_entries": 0,
+        "retrieved_entries": 0,
+        "previews_screened": 0,
+        "end_of_results": null
+      },
+      {
+        "collection": "Northern Ireland",
+        "query": "\"Margret Glasgow\"",
+        "reported_entries": 0,
+        "retrieved_entries": 0,
+        "previews_screened": 0,
+        "end_of_results": null
+      },
+      {
+        "collection": "Northern Ireland",
+        "query": "\"Martha Glasgow\"",
+        "reported_entries": 0,
+        "retrieved_entries": 0,
+        "previews_screened": 0,
+        "end_of_results": null
+      },
+      {
+        "collection": "Northern Ireland",
+        "query": "\"Mary Jane Glasgow\"",
+        "reported_entries": 0,
+        "retrieved_entries": 0,
+        "previews_screened": 0,
+        "end_of_results": null
+      },
+      {
+        "collection": "Ireland",
+        "query": "\"Elizabeth Glasgow\"",
+        "reported_entries": 44,
+        "retrieved_entries": 10,
+        "previews_screened": 10,
+        "end_of_results": false
+      },
+      {
+        "collection": "Ireland",
+        "query": "\"Jane Glasgow\"",
+        "reported_entries": 52,
+        "retrieved_entries": 10,
+        "previews_screened": 10,
+        "end_of_results": false
+      },
+      {
+        "collection": "Ireland",
+        "query": "\"Mary Glasgow\"",
+        "reported_entries": 52,
+        "retrieved_entries": 10,
+        "previews_screened": 10,
+        "end_of_results": false
+      },
+      {
+        "collection": "Ireland",
+        "query": "\"James Glasgow\"",
+        "reported_entries": 60,
+        "retrieved_entries": 60,
+        "previews_screened": 60,
+        "preview_positions_screened": 102,
+        "original_checks_pending": 6,
+        "end_of_results": true,
+        "captured_positions_pending_review": 0,
+        "original_context_checks_pending": 0,
+        "canonical_resolution_json_pending": 0,
+        "catalogue_integration_pending": 2
+      }
+    ]
+  },
+  "thirteenth_batch": {
+    "query_pairs_preserved": 85,
+    "new_query_pairs": 0,
+    "James_original_pages_checked": 15,
+    "positive_pages_in_maintained_source_index": 14,
+    "reviewed_negative_pages_excluded": 1,
+    "positive_page_ids": [
+      "1050060364",
+      "1050113101",
+      "1050136610",
+      "1256974996",
+      "1256975013",
+      "1369100143",
+      "1369100155",
+      "1369100180",
+      "1369100191",
+      "1369100202",
+      "1369100214",
+      "1369100225",
+      "1369100236",
+      "1369100248"
+    ],
+    "negative_page_ids": [
+      "1256973358"
+    ],
+    "remaining_work_sorted_by_reported_count": [
+      {
+        "collection": "Northern Ireland",
+        "query": "\"Johanna Glasgow\"",
+        "reported_entries": 0,
+        "retrieved_entries": 0,
+        "previews_screened": 0,
+        "end_of_results": null
+      },
+      {
+        "collection": "Northern Ireland",
+        "query": "\"Lavinia Glasgow\"",
+        "reported_entries": 0,
+        "retrieved_entries": 0,
+        "previews_screened": 0,
+        "end_of_results": null
+      },
+      {
+        "collection": "Northern Ireland",
+        "query": "\"Margret Glasgow\"",
+        "reported_entries": 0,
+        "retrieved_entries": 0,
+        "previews_screened": 0,
+        "end_of_results": null
+      },
+      {
+        "collection": "Northern Ireland",
+        "query": "\"Martha Glasgow\"",
+        "reported_entries": 0,
+        "retrieved_entries": 0,
+        "previews_screened": 0,
+        "end_of_results": null
+      },
+      {
+        "collection": "Northern Ireland",
+        "query": "\"Mary Jane Glasgow\"",
+        "reported_entries": 0,
+        "retrieved_entries": 0,
+        "previews_screened": 0,
+        "end_of_results": null
+      },
+      {
+        "collection": "Ireland",
+        "query": "\"Elizabeth Glasgow\"",
+        "reported_entries": 44,
+        "retrieved_entries": 10,
+        "previews_screened": 10,
+        "end_of_results": false
+      },
+      {
+        "collection": "Ireland",
+        "query": "\"Jane Glasgow\"",
+        "reported_entries": 52,
+        "retrieved_entries": 10,
+        "previews_screened": 10,
+        "end_of_results": false
+      },
+      {
+        "collection": "Ireland",
+        "query": "\"Mary Glasgow\"",
+        "reported_entries": 52,
+        "retrieved_entries": 10,
+        "previews_screened": 10,
+        "end_of_results": false
+      }
+    ],
+    "Elizabeth_status": "capture in progress; existing partial ledger state preserved, no closure claimed",
+    "scope": "Private coverage proposal. Root owns copying into the maintained ledger and any subsequent build."
+  },
+  "fourteenth_batch": {
+    "query_pairs_preserved": 85,
+    "new_query_pairs": 0,
+    "retrieved_entries_added": 34,
+    "primary_previews_added": 34,
+    "Elizabeth Glasgow (Ireland)": {
+      "cards": 44,
+      "distinct_preview_page_ids": 44,
+      "positions": 84,
+      "all_positions_reviewed": true,
+      "End": true,
+      "originals_needed": 0,
+      "finding": "bounded preview set contains shipping/vessel/cargo/port/trade/textile contexts, no Glasgow-surname person lead"
+    },
+    "James closure_preserved": {
+      "selected_originals_checked": 15,
+      "positive_assets_verified_in_maintained_index": 14,
+      "checked_negative_excluded": [
+        "1256973358"
+      ],
+      "catalogue_integration_pending": 0
+    },
+    "remaining_work_sorted_by_reported_count": [
+      {
+        "collection": "Northern Ireland",
+        "query": "\"Johanna Glasgow\"",
+        "reported_entries": 0,
+        "retrieved_entries": 0,
+        "previews_screened": 0,
+        "end_of_results": null
+      },
+      {
+        "collection": "Northern Ireland",
+        "query": "\"Lavinia Glasgow\"",
+        "reported_entries": 0,
+        "retrieved_entries": 0,
+        "previews_screened": 0,
+        "end_of_results": null
+      },
+      {
+        "collection": "Northern Ireland",
+        "query": "\"Margret Glasgow\"",
+        "reported_entries": 0,
+        "retrieved_entries": 0,
+        "previews_screened": 0,
+        "end_of_results": null
+      },
+      {
+        "collection": "Northern Ireland",
+        "query": "\"Martha Glasgow\"",
+        "reported_entries": 0,
+        "retrieved_entries": 0,
+        "previews_screened": 0,
+        "end_of_results": null
+      },
+      {
+        "collection": "Northern Ireland",
+        "query": "\"Mary Jane Glasgow\"",
+        "reported_entries": 0,
+        "retrieved_entries": 0,
+        "previews_screened": 0,
+        "end_of_results": null
+      },
+      {
+        "collection": "Ireland",
+        "query": "\"Jane Glasgow\"",
+        "reported_entries": 52,
+        "retrieved_entries": 10,
+        "previews_screened": 10,
+        "end_of_results": false
+      },
+      {
+        "collection": "Ireland",
+        "query": "\"Mary Glasgow\"",
+        "reported_entries": 52,
+        "retrieved_entries": 10,
+        "previews_screened": 10,
+        "end_of_results": false
+      }
+    ],
+    "scope": "Private cumulative proposal; Elizabeth exact-query capture only, no archive-wide absence claim."
   }
 }

@@ -21244,6 +21244,144 @@
       ],
       "detail_url": "/research/subjects/newspapers-irish-1800-1850/#montgreenan-double-marriage-1847",
       "provenance": "research/newspapers-irish-1847-montgreenan-marriages.md"
+    },
+    {
+      "id": "james-glasgow-cookstown-cassell-tea-1849",
+      "kind": "biographical",
+      "finding": "Eleven Irish newspaper issues from 23 June to 25 October 1849 name James Glasgow as a Cookstown merchant in John Cassell agent lists. The 23 June notice specifies five-shilling tea; later issues repeat the same name, town and occupation.",
+      "qualification": "The eleven verified newspaper appearances document the commercial role. They give no age, family, exact address or profile identity. Glasgow-3444 and Glasgow-3196 remain compatible candidates only; no identity or relationship is assigned. Do not conflate this James with John Glasgow, Cookstown agent.",
+      "sources": [
+        {
+          "title": "The Sligo Champion, 1849-06-23, p. 1, Cookstown James Glasgow agent-list entry",
+          "url": "https://www.newspapers.com/image/1256974996/"
+        },
+        {
+          "title": "The Sligo Champion, 1849-06-30, p. 1, Cookstown James Glasgow agent-list entry",
+          "url": "https://www.newspapers.com/image/1256975013/"
+        },
+        {
+          "title": "The Fermanagh Mail, and Enniskillen Chronicle, 1849-08-23, p. 1, Cookstown James Glasgow agent-list entry",
+          "url": "https://www.newspapers.com/image/1369100143/"
+        },
+        {
+          "title": "The Fermanagh Mail, and Enniskillen Chronicle, 1849-08-30, p. 1, Cookstown James Glasgow agent-list entry",
+          "url": "https://www.newspapers.com/image/1369100155/"
+        },
+        {
+          "title": "The Fermanagh Mail, and Enniskillen Chronicle, 1849-09-13, p. 1, Cookstown James Glasgow agent-list entry",
+          "url": "https://www.newspapers.com/image/1369100180/"
+        },
+        {
+          "title": "The Fermanagh Mail, and Enniskillen Chronicle, 1849-09-20, p. 1, Cookstown James Glasgow agent-list entry",
+          "url": "https://www.newspapers.com/image/1369100191/"
+        },
+        {
+          "title": "The Fermanagh Mail, and Enniskillen Chronicle, 1849-09-27, p. 1, Cookstown James Glasgow agent-list entry",
+          "url": "https://www.newspapers.com/image/1369100202/"
+        },
+        {
+          "title": "The Fermanagh Mail, and Enniskillen Chronicle, 1849-10-04, p. 1, Cookstown James Glasgow agent-list entry",
+          "url": "https://www.newspapers.com/image/1369100214/"
+        },
+        {
+          "title": "The Fermanagh Mail, and Enniskillen Chronicle, 1849-10-11, p. 1, Cookstown James Glasgow agent-list entry",
+          "url": "https://www.newspapers.com/image/1369100225/"
+        },
+        {
+          "title": "The Fermanagh Mail, and Enniskillen Chronicle, 1849-10-18, p. 1, Cookstown James Glasgow agent-list entry",
+          "url": "https://www.newspapers.com/image/1369100236/"
+        },
+        {
+          "title": "The Fermanagh Mail, and Enniskillen Chronicle, 1849-10-25, p. 1, Cookstown James Glasgow agent-list entry",
+          "url": "https://www.newspapers.com/image/1369100248/"
+        }
+      ],
+      "found_on": "2026-10-05",
+      "status": "confirmed",
+      "people": [
+        {
+          "name": "James Glasgow, Cookstown merchant and John Cassell tea agent, 1849",
+          "url": "/research/subjects/newspapers-irish-1800-1850/#james-cookstown-cassell-tea"
+        }
+      ],
+      "detail_url": "/research/subjects/newspapers-irish-1800-1850/#james-cookstown-cassell-tea",
+      "provenance": "artifacts/pre1850-continuation-20261005/phase-1850-common-ie-short/james-cookstown-merchant-issue-queue.json"
+    },
+    {
+      "id": "james-glasgow-irish-trial-jury-1823",
+      "found_on": "2026-10-05",
+      "kind": "record",
+      "finding": "A report in the Freeman’s Journal and Daily Commercial Advertiser states that the parties in cause and cross-cause included Robert Thompson of Newry, the Rev. Mr Walsh of Ballymena, and Mr Barbour of Lisburn; it then says “The following were the Jury” and lists James Glasgow.",
+      "status": "confirmed",
+      "qualification": "The original page confirms James Glasgow’s jury role in this reported trial. The newspaper issue is from Dublin, but the inspected passage does not show a court heading or venue. Newry, Ballymena and Lisburn describe other named parties, not the juror. No age, occupation, residence, kinship, or profile identity is supplied. The occurrence is compatible with, but not proved to be the same person as, the James Glasgow on the 1828 Belfast petty jury; identity with the 1820 Exchequer plaintiff is also unproved.",
+      "people": [
+        {
+          "name": "James Glasgow, juror in a reported trial, 1823; identity unresolved",
+          "url": "/research/subjects/newspapers-irish-1800-1850/#james-exchequer"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Freeman's Journal and Daily Commercial Advertiser, 3 November 1823, p. 3, trial report and jury list",
+          "url": "https://www.newspapers.com/image/1050060364/"
+        }
+      ],
+      "detail_url": "/research/subjects/newspapers-irish-1800-1850/#james-exchequer",
+      "provenance": [
+        "research/latest-findings-subjects/subjects.json",
+        "artifacts/pre1850-continuation-20261005/phase-1850-root/james-ie-1050060364-original-provider.txt"
+      ]
+    },
+    {
+      "id": "james-glasgow-mary-wightman-marriage-1840",
+      "found_on": "2026-10-05",
+      "kind": "vital",
+      "finding": "Under MARRIAGES, the 1 July 1840 notice reports that “On Saturday last, the Rev. James Glasgow, of Castledawson, in the county Derry,” married Miss Mary Wightman of Belfast.",
+      "status": "confirmed",
+      "qualification": "The event date is inferred as 27 June 1840 from “Saturday last”; that date was Saturday. James McClure Glasgow-1780 is the strongest profile match because his checked biography records marriage to Mary Wightman on the same date in Belfast and his documented ministry was at Castledawson. The newspaper does not give his middle name.",
+      "people": [
+        {
+          "id": "Glasgow-1780",
+          "name": "James McClure Glasgow",
+          "url": "/people/glasgow-1780.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Freeman’s Journal and Daily Commercial Advertiser, 1 July 1840, p.2, marriage notice",
+          "url": "https://www.newspapers.com/image/1050113101/"
+        }
+      ],
+      "detail_url": "/research/subjects/newspapers-irish-1800-1850/#james-belfast-college",
+      "provenance": "research/newspapers-james-career-family-2026-10-04.md"
+    },
+    {
+      "id": "james-glasgow-missionary-designation-1842",
+      "found_on": "2026-10-05",
+      "kind": "record",
+      "finding": "The report “Designation of Four Missionaries of the General Assembly” says that the Presbytery of Belfast set apart four ministers as fellow-labourers in Hindostan with Rev. James Glasgow: Rev. Adam Glasgow, James M’Kee, Robert Montgomery, and James Henry Spears. The service was held Wednesday at Dr Cooke’s church, May Street, Belfast.",
+      "status": "qualified",
+      "qualification": "James McClure Glasgow-1780 is a probable compatible candidate for Rev. James Glasgow from his documented Presbyterian Church in Ireland missionary career. Adam Dickie Glasgow-1781 is a possible compatible candidate for Rev. Adam Glasgow from his checked minister profile, but the newspaper supplies no middle name or other identifying bridge. These co-mentioned ministers are not thereby shown to be relatives. This is a missionary report, separate from the adjacent Repeal Association text.",
+      "people": [
+        {
+          "id": "Glasgow-1780",
+          "name": "James McClure Glasgow",
+          "url": "/people/glasgow-1780.html"
+        },
+        {
+          "id": "Glasgow-1781",
+          "name": "Adam Dickie Glasgow",
+          "url": "/people/glasgow-1781.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Freeman’s Journal and Daily Commercial Advertiser, 14 January 1842, p.1, designation of four missionaries",
+          "url": "https://www.newspapers.com/image/1050136610/"
+        }
+      ],
+      "detail_url": "/research/subjects/newspapers-irish-1800-1850/#james-belfast-college",
+      "provenance": "research/newspapers-james-career-family-2026-10-04.md"
     }
   ]
 }
