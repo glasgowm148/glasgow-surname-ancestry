@@ -4,7 +4,15 @@ The generated `www/` directory is the complete website root. No hosting credenti
 
 The catalogue's maintained stylesheet is `tools/catalogue-light.css`. Both the catalogue builder and unified-site repair copy it to `www/people/catalogue.css`; a full catalogue build also restores the unified light `/catalogue/` shell. `tools/check_public_catalogue.py` flags a dark stylesheet or a reverted catalogue shell before release. Package a new archive after presentation changes so old CSS cache URLs and old bundles are not reused.
 
-## Current live release — seventh newspaper continuation, 5 October 2026
+## Current live release — newspaper card presentation, 5 October 2026
+
+This release clarifies each newspaper card's documentary target and separates source-based relationship tags from candidate hypotheses. The relationship filter restores all 20 readings across 21 pages; the combined Parents & children + 1772 filters to one reading across two pages, with Robert/Andrew targets and uncertainty badges intact. “Place not stated” renders without duplicated wording. Current catalogue totals remain 415 source pages (414 surname-reference pages and one place-study page); the 296 pre-1800 surname pages and the seventh release's research conclusions are unchanged.
+
+Implementation commit: `019d2c04`. All 75 focused tests passed; release checks and production smoke passed. The deploy log records 576 changed regular paths. A read-only production check verified HTTP 200 and matching SHA-256 for all 1,060 unique paths: those 576 changed files plus all 484 newspaper excerpt PNGs referenced by the source routes. Evidence: `artifacts/newspaper-card-ui-20261005/live-hash-proof.json` and `live-hash-summary.json`. Chrome verifies the relationship-filter behavior and documentary target presentation; screenshots: `live-relationship-cards.png` and `live-parent-child-cards.png` in the same directory.
+
+Verified bundle: `www/glasgow-site-20261005-172808.tar.gz`, 269,817,450 bytes (269.817 decimal MB); 80,577 payload members plus the embedded manifest. Every member matches the manifest and current local `www/`; gzip integrity passes. SHA-256: `75bf6e6d2ae783d7655b79d015a751981893d14ade646b6fdad45263dba2da22`. Proof: `artifacts/newspaper-card-ui-20261005/bundle-proof.json`. The pre-upload server backup `/var/backups/glasgow/20261005-newspaper-card-ui/site-before.tar.gz` is 259,612,312 bytes and gzip-checked; proof: `artifacts/newspaper-card-ui-20261005/backup-proof.json`. No Git push or live WikiTree edit was performed.
+
+## Previous live release — seventh newspaper continuation, 5 October 2026
 
 The live catalogue retains 415 source pages: 414 surname-reference pages and one place-study page. The maintained source library references 480 bounded newspaper excerpt PNGs, including one pending item. The 296 pre-1800 surname pages are unchanged. The 1800–1850 ledger records 85 quoted query pairs, 1,593 retrieved entries, 1,570 screened primary previews and 127 original-page reviews. These are bounded query-workload counts, not unique people or archive-wide completeness.
 
