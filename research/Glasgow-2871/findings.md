@@ -63,3 +63,15 @@ John Glasgow, Kensing- / ton, is an addressee in letters remaining at Philadelph
 ## Next questions
 
 Check original Philadelphia/Kensington tax, directories, land and probate records, and candidate sources; seek an identifier beyond the name.
+
+## Current conclusion — additional newspaper originals, 5 October 2026
+
+John Glasgow, Carlisle postal addressee, 1793: Pennsylvania regional/age comparison only. Exact 1792 death permits posthumous mail; no Carlisle or William Brown bridge. Identity remains unresolved. Compatible candidates have chronology only, without an individual place, occupation or family bridge. These three John contexts may involve different men; the two Allegheny reprints are one list. No family or life-date change follows.
+
+## Source findings
+
+John Glasgow, care of William Brown, Esq., is an addressee in the Carlisle post-office list headed 1 January 1793. Care of is a mailing direction, not kinship, residence, occupation or proof the addressee was alive. Glasgow-2871 remains another weak Pennsylvania regional comparison, with recorded 1792 death allowing possible posthumous mail. Identity remains unresolved. Compatible candidates have chronology only, without an individual place, occupation or family bridge. These three John contexts may involve different men; the two Allegheny reprints are one list. [The Carlisle Gazette, and the Western Repository of Knowledge, 1793-03-06, p.1](https://www.newspapers.com/image/1033763029/)
+
+## Next questions
+
+Inspect local tax, probate, land and original list/meeting records; compare the candidates’ own source evidence before attaching any occurrence.

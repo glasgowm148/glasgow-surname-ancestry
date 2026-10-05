@@ -208,6 +208,22 @@ class SourceCollectionsTests(unittest.TestCase):
         self.assertIn('dated place match', html)
         self.assertEqual(newspaper_country('Weekly Worcester Journal'), 'England')
 
+    def test_new_american_papers_reach_country_and_year_routes(self):
+        papers = [
+            'The North-Carolina Journal', 'North-Carolina Journal',
+            'The State Gazette of North-Carolina', 'State Gazette of North Carolina',
+            'Weekly Raleigh Register', 'Raleigh Minerva', 'Newbern Gazette',
+            "Kline's Carlisle Weekly Gazette", 'Kentucky Gazette',
+            'The Encyclopedian Instructor',
+            'The Carlisle Gazette, and the Western Repository of Knowledge',
+            'The North Carolina Gazette, or, Impartial Intelligencer, and Weekly General Advertiser',
+            'North-Carolina Gazette and Wilmington Weekly Post-Boy',
+        ]
+        for paper in papers:
+            with self.subTest(paper=paper):
+                self.assertEqual(newspaper_country(paper), 'United States')
+        self.assertEqual(newspaper_country('An unreviewed Carlisle paper'), 'Unresolved')
+
     def test_group_keeps_each_assessment_and_uses_selected_clip_metadata(self):
         rows = [
             {'image_id':'a', 'date':'1800-01-01', 'paper':'A', 'page':1, 'status':'confirmed surname',

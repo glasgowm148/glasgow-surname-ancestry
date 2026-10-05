@@ -282,7 +282,7 @@ def newspaper_country(paper):
     # Publication location, never the subject's place of residence.
     if re.search(r'belfast|irishman|dublin|sligo|derry|impartial reporter|freeman|northern star|drogheda|leinster', paper, re.I): return 'Ireland'
     if re.search(r'caledonian|edinburgh|scotland|scots|fife|aberdeen', paper, re.I): return 'Scotland'
-    if re.search(r'ohio|pitts|pennsyl|virginia|new york|american|washington|maryland|south[- ]carolina|columbian herald|^(?:the )?independent gazetteer$|^aurora general advertiser$', paper, re.I): return 'United States'
+    if re.search(r'ohio|pitts|pennsyl|virginia|new york|american|washington|maryland|(?:north|south)[- ]carolina|newbern|raleigh|^kentucky gazette$|^(?:the )?encyclopedian instructor$|^kline.s carlisle weekly gazette$|^the carlisle gazette, and the western repository of knowledge$|columbian herald|^(?:the )?independent gazetteer$|^aurora general advertiser$', paper, re.I): return 'United States'
     if re.search(r'london|england|newcastle|ipswich|derby|worcester|weekly worcester|morning chronicle|morning post|gloucester journal|salisbury journal|western flying post|sherborne|^(?:the )?(?:public advertiser|daily gazetteer)$|^public ledger or daily register of commerce and intelligence$|^the times$', paper, re.I): return 'England'
     if re.search(r'ha[ae]rlem|leydse|gravenhaeg|rotterdam', paper, re.I): return 'Netherlands'
     return 'Unresolved'

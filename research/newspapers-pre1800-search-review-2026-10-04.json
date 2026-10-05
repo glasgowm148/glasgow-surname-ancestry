@@ -3294,6 +3294,128 @@
       "confirmed_surname_image_ids": [],
       "triage": "No positive surname original retained; three original nonmatches and three unread targets remain unresolved.",
       "limitations": "Preview-only exclusions are not original-verified negatives; later ranks in progress. Provider result count changed from93 to92."
+    },
+    {
+      "query": "\"Alexander Glafgow\"",
+      "collection": "Worldwide",
+      "date_start": 1600,
+      "date_end": 1799,
+      "reviewed_on": "2026-10-05",
+      "reported_entries": 48,
+      "retrieved_entries": 48,
+      "preview_entries_screened": 48,
+      "originals_checked": 8,
+      "confirmed_surname_image_ids": [],
+      "triage": "No verified person-surname occurrence found in this search. All 48 result cards were retrieved and preview-screened; eight originals were inspected. Remaining exclusions were clear place, vessel, port, or unrelated-surname snippets and were not individually opened.",
+      "limitations": "Exact quoted OCR query only; preview-only dismissals are not original-verified negatives or a global absence claim."
+    },
+    {
+      "query": "\"Andrew Glafgow\"",
+      "collection": "Worldwide",
+      "date_start": 1600,
+      "date_end": 1799,
+      "reviewed_on": "2026-10-05",
+      "reported_entries": 38,
+      "retrieved_entries": 38,
+      "preview_entries_screened": 38,
+      "originals_checked": 4,
+      "confirmed_surname_image_ids": [
+        "601805253"
+      ],
+      "triage": "One new verified person-name issue occurrence, Andrew Glasgow, in the 1779 Edinburgh Advertiser. Thirty-eight matches were loaded and preview-screened; four originals inspected (three exclusions and the positive). The 33 preview-only dismissals were clear shipping, locality, trade-directory, or unrelated-given/surname contexts; no claim is made that every original was checked.",
+      "limitations": "Exact quoted OCR query only; preview-only dismissals are not original-verified negatives or a global absence claim."
+    },
+    {
+      "query": "\"James Glafgow\"",
+      "collection": "Worldwide",
+      "date_start": 1600,
+      "date_end": 1799,
+      "reviewed_on": "2026-10-05",
+      "reported_entries": 130,
+      "retrieved_entries": 30,
+      "preview_entries_screened": 25,
+      "originals_checked": 18,
+      "ranks_reviewed": [
+        101,
+        130
+      ],
+      "confirmed_surname_image_ids": [
+        "55230363",
+        "593171969",
+        "55411407",
+        "59123711",
+        "59123714",
+        "59123730",
+        "59183269",
+        "584304066",
+        "59183268",
+        "59183273",
+        "584304080",
+        "59123741",
+        "59183270",
+        "66181214",
+        "66181232",
+        "66181274",
+        "55650665"
+      ],
+      "triage": "Remaining originals accepted with clean excerpts. Three April 1 postal reprints, one replacement event, duplicate archive scans and attributed allegation/response/trial debate distinguished.",
+      "limitations": "Five cards were original-checked directly rather than preview-screened. Remaining city/port previews not all original-inspected. This exact query does not exhaust the surname."
+    },
+    {
+      "query": "\"James Glafgow\"",
+      "collection": "Worldwide",
+      "date_start": 1600,
+      "date_end": 1799,
+      "reviewed_on": "2026-10-05",
+      "reported_entries": 130,
+      "retrieved_entries": 30,
+      "preview_entries_screened": 30,
+      "ranks_reviewed": [
+        71,
+        100
+      ],
+      "confirmed_surname_image_ids": [
+        "56018161",
+        "55395393",
+        "55395474",
+        "1033874474",
+        "1033874483",
+        "1033874491",
+        "66180042",
+        "66180058",
+        "66180229",
+        "66180258",
+        "66180273",
+        "66180487",
+        "66180641",
+        "467046163",
+        "1043526013"
+      ],
+      "triage": "Known postal and petition leads now saved, including corrected Newbern target crop and Marsh creek entries. Rank 86 original is James Wright, Glasgow locality.",
+      "limitations": "Overlapping original-review passes include reused positives; no unverified aggregate original count is asserted. Rank 71 remains unresolved and rank 76 preview-only. No global absence claim."
+    },
+    {
+      "query": "\"John Glafgow\"",
+      "collection": "Worldwide",
+      "date_start": 1600,
+      "date_end": 1799,
+      "reviewed_on": "2026-10-05",
+      "reported_entries": 93,
+      "retrieved_entries": 33,
+      "preview_entries_screened": 33,
+      "originals_checked": 7,
+      "ranks_reviewed": [
+        61,
+        93
+      ],
+      "confirmed_surname_image_ids": [
+        "1033763029",
+        "601860386",
+        "587806805",
+        "1140587856"
+      ],
+      "triage": "Four surname pages across three contexts; headings distinguish Carlisle postal and Kirkliston subscription, with Huntingdon County township context.",
+      "limitations": "Twenty-six previews not original-inspected, including one unresolved cooccurrence. Provider total previously92; all displayed cards screened across slices, not every original or variant."
     }
   ],
   "new_original_passages": {
@@ -3474,7 +3596,30 @@
       "39406491",
       "39391550",
       "41041559",
-      "39396485"
+      "39396485",
+      "66181214",
+      "66181232",
+      "66181274",
+      "55230363",
+      "55650665",
+      "59123730",
+      "59183269",
+      "584304066",
+      "59183268",
+      "59183273",
+      "584304080",
+      "59123741",
+      "59183270",
+      "55395393",
+      "55395474",
+      "1033874474",
+      "1033874483",
+      "1033874491",
+      "1033763029",
+      "601860386",
+      "587806805",
+      "1140587856",
+      "601805253"
     ],
     "excluded_passage_image_ids": [
       "41038726",
@@ -3525,7 +3670,8 @@
     "William Glafgow ranks41–70 add thirteen surname issue pages and two distinct passages on already retained issues. Belfast captain forenames come only from independently named sailing notices, not the vessel William. A Falmouth master remains a separate qualified subject. Later query ranks remain in progress.",
     "Another23 surname issue pages extend the William query through rank101 and James through rank70; North Carolina records include explicit Secretary of State reports. Reprints remain one event, candidates are not elected winners, and the February1793 shipping passage reports embargo rather than capture. Broader OCR/name coverage remains incomplete.",
     "Recovered1790sThomasGlafgow tail now has complete retained James Raleigh and Thomas Kentucky original excerpts; the latter has separate native viewer heading and entry crops. Most other tail cards remain preview-only. Seven Ireland-filtered JohnGlafgow cards rechecked to displayed end, allalreadyretained; global93-card query separatelyunderreview.",
-    "Thirty-two additional original surname pages are integrated with readable approved excerpts, candidate assessments and subject drafts. William’s131-card OCR query is screened to displayed end. James later ranks and John tail remain in progress; other OCR spellings and broader surname searches are not exhaustive."
+    "Thirty-two additional original surname pages are integrated with readable approved excerpts, candidate assessments and subject drafts. William’s131-card OCR query is screened to displayed end. James later ranks and John tail remain in progress; other OCR spellings and broader surname searches are not exhaustive.",
+    "Twenty-three further pre-1800 surname page URLs are integrated, including duplicate archive copies retained under merged readings. William, James and John quoted Glafgow cards are screened to displayed ends; unresolved originals, preview-only dismissals, unqueried forms and broader spellings prevent an exhaustive-worldwide claim. No family certainty upgrade or live WikiTree save follows."
   ],
   "search_pause_history": [
     {
