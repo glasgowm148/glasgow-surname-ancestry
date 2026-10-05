@@ -3,6 +3,54 @@
   "scope": "Explicitly dated, recoverable new concrete record findings and supported factual corrections. Dates and explicit date ranges are research retrieval, supplied-record review or original-reading dates stated in the maintained evidence, not the dates of historical events or file modification. Undated historical conclusions, pure confirmations, speculative parent rankings, negative searches and routine profile/build activity are excluded. This is a recoverable dated history, not an exhaustive account of all past research.",
   "findings": [
     {
+      "id": "james-glasgow-belfast-college-castledawson-india-1829-1842",
+      "found_on": "2026-10-05",
+      "kind": "biographical",
+      "finding": "Original-checked Belfast News-Letter passages name James Glasgow as a Belfast College essay award recipient in 1829; Rev. James Glasgow of Castledawson at a Bellaghy ordination in 1836 and among missionaries set apart for India in 1840; a source of a letter reported in 1841; the signer of a Rajkote letter dated 14 August 1841; and the first Moderator of the first Indian Presbytery in 1842.",
+      "status": "qualified",
+      "qualification": "The 1829 student is only a possible match to Glasgow-1780. The Castledawson and missionary passages are probable matches within the established career sequence, but these notices do not give James’s middle name. The 1836 ordination date (15 March) is inferred from “15th ult.”; the issue date is 5 April. The 1841 May report gives no letter date; the October letter is dated 14 August. The separate Adam Glasgow passages on the 1840 and 1842 issues do not establish kinship. “Brother missionary” describes colleague Alexander Kerr, not a biological brother. No family certainty changes.",
+      "people": [
+        {
+          "id": "Glasgow-1780",
+          "name": "James McClure Glasgow",
+          "url": "/people/glasgow-1780.html",
+          "role": "Probable candidate for the Castledawson and India missionary passages; possible match for the 1829 Belfast College student",
+          "draft_url": "/research/subjects/newspapers-irish-1800-1850/#james-belfast-college"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 5 May 1829, p. 3, Belfast College essay premium",
+          "url": "https://www.newspapers.com/image/390581832/"
+        },
+        {
+          "title": "Belfast News-Letter, 5 April 1836, p. 4, Bellaghy ordination",
+          "url": "https://www.newspapers.com/image/390544149/"
+        },
+        {
+          "title": "Belfast News-Letter, 14 July 1840, p. 1, India missionary appointment",
+          "url": "https://www.newspapers.com/image/390559244/"
+        },
+        {
+          "title": "Belfast News-Letter, 25 May 1841, p. 4, India mission letter report",
+          "url": "https://www.newspapers.com/image/390558896/"
+        },
+        {
+          "title": "Belfast News-Letter, 19 October 1841, p. 2, Rajkote letter on Alexander Kerr",
+          "url": "https://www.newspapers.com/image/390563026/"
+        },
+        {
+          "title": "Belfast News-Letter, 29 July 1842, p. 2, first Indian Presbytery moderator",
+          "url": "https://www.newspapers.com/image/390558014/"
+        }
+      ],
+      "detail_url": "/research/subjects/newspapers-irish-1800-1850/#james-belfast-college",
+      "provenance": [
+        "artifacts/pre1850-continuation-20261005/phase-1850-variants/james-ni-integration-proposal.json",
+        "research/Glasgow-1780/findings.md"
+      ]
+    },
+    {
       "id": "james-glasgow-prosperity-1740",
       "found_on": "2026-10-02",
       "kind": "biographical",
