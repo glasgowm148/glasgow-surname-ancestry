@@ -270,9 +270,22 @@ def newspaper_card(row, clips, web, group=None):
     alternative_excerpts = []
     for item, item_clip in clip_entries[1:]:
         for excerpt in [item_clip] + item_clip.get('additional_excerpts', []):
-            alternative_excerpts.append(f'<li>{e(item["date"])} · {e(item["paper"])}: <a href="{e(excerpt["url"])}">{e(excerpt.get("caption_note", "Open alternate issue excerpt"))}</a></li>')
+            issue_date = excerpt.get('date') or item.get('date', '')
+            issue_paper = excerpt.get('paper') or item.get('paper', '')
+            issue_page = excerpt.get('page') or item.get('page', '?')
+            source_url = excerpt.get('source_url') or item.get('source_url', '')
+            note = e(excerpt.get('caption_note', 'Saved alternate issue excerpt.'))
+            alt = e(f'Newspaper excerpt from {issue_date}; {issue_paper}, page {issue_page}')
+            alternative_excerpts.append(
+                f'<figure><a href="{e(excerpt["url"], quote=True)}">'
+                f'<img src="{e(excerpt["url"], quote=True)}" width="{excerpt["width"]}" '
+                f'height="{excerpt["height"]}" loading="lazy" alt="{alt}"></a>'
+                f'<figcaption>{note} Source reference: {e(issue_paper)} · {e(issue_date)} · '
+                f'p. {e(str(issue_page))}. Open for full size; inspect the '
+                f'<a href="{e(source_url, quote=True)}">original page</a> for context.</figcaption></figure>'
+            )
     if alternative_excerpts:
-        alternatives += '<details class="sc-newspaper-duplicates"><summary>Alternative saved issue excerpts</summary><ul>' + ''.join(alternative_excerpts) + '</ul></details>'
+        alternatives += '<details class="sc-newspaper-duplicates sc-newspaper-supplements"><summary>Alternative saved issue excerpts</summary>' + ''.join(alternative_excerpts) + '</details>'
     if media:
         media = '<div class="sc-newspaper-media">' + media + '</div>'
     return f'<article class="sc-newspaper" id="newspaper-{ident}" data-year="{years}" data-paper="{e(papers, quote=True)}" data-country="{country}" data-clip="{int(bool(clip_entries))}" data-group-size="{len(group)}"><header>{aliases}<span class="sc-status">{e(row["status"])}</span><h3>{e(issue_dates)} · {e(row["paper"])} · p. {e(str(row.get("page", "?")))}</h3><a href="{e(row["source_url"], quote=True)}">Original newspaper page ↗</a>{alternatives}</header>{media}<div class="sc-newspaper-reading"><p><strong>Reading:</strong> {e(row.get("reading", ""))}</p><p><strong>Assessment:</strong> {e(row.get("assessment", ""))}</p><p>{profile_links(profile_view, web)}</p>{missing}</div></article>'

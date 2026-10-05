@@ -4,7 +4,7 @@ import json
 from pathlib import Path
 import unittest
 from bs4 import BeautifulSoup
-from tools.build_source_collections import ROOT, WEB, TYPES, guide, newspaper_body, newspaper_card, newspaper_groups, newspaper_country, profile_links
+from tools.build_source_collections import ROOT, WEB, TYPES, guide, load_clips, newspaper_body, newspaper_card, newspaper_groups, newspaper_country, profile_links
 from tools.publish_newspaper_review import PUBLIC_ROW_FIELDS, render as render_newspaper_review
 
 
@@ -88,8 +88,13 @@ class SourceCollectionsTests(unittest.TestCase):
         self.assertIn('not confirmed surname records',page)
         manifest = json.loads((ROOT/'research/source-library/newspaper-clippings.json').read_text())
         approved_paths = [a['public_path'] for a in manifest['assets']] + [extra['public_path'] for a in manifest['assets'] for extra in a.get('additional_excerpts', [])]
-        reachable = {node.get('src', '').lstrip('/') for node in soup.select('figure img')} | {node.get('href', '').lstrip('/') for node in soup.select('a[href]')}
-        self.assertTrue(set(approved_paths) <= reachable)
+        rebuilt = BeautifulSoup(newspaper_body(self.newspapers, load_clips(WEB), WEB), 'html.parser')
+        rendered_images = {node.get('src', '').lstrip('/') for node in rebuilt.select('figure img')}
+        self.assertTrue(set(approved_paths) <= rendered_images)
+        rendered_cards = rebuilt.select('#newspaper-records article.sc-newspaper')
+        self.assertEqual(len(rendered_cards), len(newspaper_groups(retained)))
+        for card in rendered_cards:
+            self.assertEqual(len(card.select('.sc-newspaper-reading > p strong')), 2)
 
     def test_only_hash_approved_bounded_clips_are_public(self):
         manifest = json.loads((ROOT/'research/source-library/newspaper-clippings.json').read_text())
@@ -238,7 +243,7 @@ class SourceCollectionsTests(unittest.TestCase):
         self.assertIn('Second assessment.', html)
         self.assertEqual(html.count('<figure>'), 1)
 
-    def test_selected_issue_supplements_are_visible_and_alternate_crops_are_links(self):
+    def test_selected_and_alternative_issue_crops_are_inline_figures(self):
         rows = [{'image_id':'a', 'date':'1800-01-01', 'paper':'A', 'page':1, 'status':'confirmed surname',
                  'reading':'Same', 'source_url':'https://a', 'assessment':'A.'},
                 {'image_id':'b', 'date':'1801-01-01', 'paper':'B', 'page':2, 'status':'confirmed surname',
@@ -249,8 +254,21 @@ class SourceCollectionsTests(unittest.TestCase):
         html = newspaper_card(rows[0], clips, WEB, rows)
         self.assertIn('Additional excerpts from this issue', html)
         self.assertIn('/a-more.png', html)
-        self.assertIn('alternate', html)
-        self.assertEqual(html.count('<figure>'), 2)
+        soup = BeautifulSoup(html, 'html.parser')
+        disclosure = next(d for d in soup.select('details')
+                          if 'Alternative saved issue excerpts' in d.summary.get_text())
+        self.assertIsNotNone(disclosure)
+        alt_img = disclosure.select_one('figure img')
+        self.assertEqual(alt_img['src'], '/b.png')
+        self.assertEqual(alt_img['loading'], 'lazy')
+        caption = disclosure.select_one('figcaption')
+        self.assertIn('B · 1801-01-01 · p. 2', caption.get_text(' ', strip=True))
+        self.assertEqual(caption.find('a', href='https://b').get_text(), 'original page')
+        self.assertEqual(len(soup.select('article')), 1)
+        self.assertEqual(len(soup.select('article .sc-newspaper-reading p strong')), 2)
+        self.assertEqual(soup.select_one('.sc-newspaper-reading').get_text().count('Same'), 1)
+        self.assertEqual(len(soup.select('figure')), 3)
+        self.assertEqual({img['src'] for img in soup.select('figure img')}, {'/a.png', '/a-more.png', '/b.png'})
 
     def test_all_retained_pre1800_pages_have_visible_excerpts(self):
         soup = BeautifulSoup((WEB/'sources/newspapers/index.html').read_text(), 'html.parser')
