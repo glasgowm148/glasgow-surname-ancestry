@@ -4,7 +4,15 @@ The generated `www/` directory is the complete website root. No hosting credenti
 
 The catalogue's maintained stylesheet is `tools/catalogue-light.css`. Both the catalogue builder and unified-site repair copy it to `www/people/catalogue.css`; a full catalogue build also restores the unified light `/catalogue/` shell. `tools/check_public_catalogue.py` flags a dark stylesheet or a reverted catalogue shell before release. Package a new archive after presentation changes so old CSS cache URLs and old bundles are not reused.
 
-## Current live release — Pre-1800 newspaper sprint, 5 October 2026
+## Current live release — Newspaper continuation, 5 October 2026
+
+The collection now retains 246 pre-1800 surname pages, grouped into 137 distinct readings. Across all years, 323 retained pages display 377 approved bounded PNG excerpts. Sources, year/country routes, consolidated subjects, 15 candidate dossiers, Latest findings and the held queue are synchronized. New evidence includes the 1758 vessel William’s unnamed Glasgow master, William Allen Glasgow’s 1795 engineer commission, earlier Samuel Old Bailey reports, 1774–1777 West Calder tenancy notices, two North Carolina secretary proclamations and repeated Wilmington tannery advertisements. Duplicate Samuel regiment accounts are consolidated, their incoming anchor preserved, and the mistaken assignment to Captain Murray’s company withdrawn. Candidate identifications remain qualified; no live WikiTree save or relationship upgrade occurred.
+
+Research commit: `896148d8`. All 61 focused tests pass; release totals, Atlas destinations, publication boundaries and asset versions pass. The reviewed upload has zero deletions; production smoke passes. All 600 checked live files match local bytes, including every 377 excerpt, affected profile readers/data and newspaper country/year pages. The new officer card was visually checked in Chrome. Evidence: `artifacts/pre1850-continuation-20261005/first-batch-*`. Pre-1800 variant and alternate-hit checks continue; the 1800–1850 extension remains outstanding. Displayed provider totals, retrieved cards and actually read previews are recorded separately.
+
+This batch was uploaded directly using the existing authorized SSH target. The previous verified downloadable bundle below represents the preceding release; a fresh complete bundle will be prepared after the continuing research batches. The retained server rollback backup remains `/var/backups/glasgow/20261005-pre1800-sprint/site-before.tar.gz`. No Git push was performed.
+
+## Previous live release — Pre-1800 newspaper sprint, 5 October 2026
 
 The pre-1800 personal-surname collection has increased from 39 to 225 retained original page URLs, grouped into 130 distinct notice readings. Reprints and duplicate archive scans retain their original links and excerpts without being counted as independent events or corroboration. Across all years, 302 retained pages display 355 visually approved bounded PNG excerpts, including supplementary headings and context. The all-years presentation has 202 distinct readings. All retained pages have an inline excerpt; original links remain available for fuller context.
 
