@@ -24,7 +24,7 @@ const nf=document.querySelector('.sc-newspaper-filters');if(nf){
    const hit=terms.every(t=>c.textContent.toLowerCase().includes(t))&&(!nf.elements.year?.value||years.includes(nf.elements.year.value))&&(!nf.elements.paper?.value||papers.includes(nf.elements.paper.value))&&clipHit&&evidenceHit(evFilter)&&separateIdentityHit;
    c.hidden=!hit;if(hit){n++;pages+=Number(c.dataset.groupSize||1)}
   }
-  count.textContent=`${n} of ${cards.length} distinct notice readings · ${pages} source pages · earliest first`;
+  count.textContent=`${n} of ${cards.length} distinct notice readings · ${pages} source ${pages===1?'page':'pages'} · earliest first`;
  }
  nf.addEventListener('submit',ev=>ev.preventDefault());nf.addEventListener('input',filter);nf.addEventListener('change',filter);nf.addEventListener('reset',()=>setTimeout(filter,0));filter()
 }
