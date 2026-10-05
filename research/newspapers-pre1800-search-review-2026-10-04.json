@@ -3053,6 +3053,147 @@
       "triage": "No exact quoted hits returned in this bounded query; this is not evidence of absence from newspapers or alternate spellings.",
       "limitations": "No exact quoted hits returned in this bounded query; this is not evidence of absence from newspapers or alternate spellings.",
       "search_url": "https://www.newspapers.com/search/results/?keyword=%22Ezekiel%20Glafgow%22&date-start=1600&date-end=1799&sort=paper-date-asc"
+    },
+    {
+      "query": "\"William Glafgow\"",
+      "collection": "Worldwide",
+      "date_start": 1600,
+      "date_end": 1799,
+      "reviewed_on": "2026-10-05",
+      "reported_entries": 131,
+      "retrieved_entries": 30,
+      "preview_entries_screened": 30,
+      "originals_checked": 17,
+      "ranks_reviewed": [
+        41,
+        70
+      ],
+      "confirmed_surname_image_ids": [
+        "1034014372",
+        "72012833",
+        "72013663",
+        "72014445",
+        "72015437",
+        "72015451",
+        "72015480",
+        "72015527",
+        "72015583",
+        "72015837",
+        "72016002",
+        "72016067",
+        "72017601",
+        "72017846",
+        "72017937"
+      ],
+      "triage": "Fifteen positive issue pages: thirteen new, two existing pages have newly saved distinct passages. Seventeen originals inspected; later ranks remain pending.",
+      "limitations": "Remaining false-looking previews were not all original-inspected; no global surname exhaustion. The 1788 American newspaper prints an Amsterdam list for 1787; it is not an Irish Northern Star issue."
+    },
+    {
+      "query": "\"William Glafgow\"",
+      "collection": "Worldwide",
+      "date_start": 1600,
+      "date_end": 1799,
+      "reviewed_on": "2026-10-05",
+      "reported_entries": 131,
+      "retrieved_entries": 31,
+      "preview_entries_screened": 31,
+      "originals_checked": 10,
+      "ranks_reviewed": [
+        71,
+        101
+      ],
+      "confirmed_surname_image_ids": [
+        "72018049",
+        "72018143",
+        "72018327",
+        "72018438",
+        "72018546",
+        "72018636",
+        "72019314",
+        "72019727",
+        "72022133",
+        "72023508"
+      ],
+      "triage": "Ten newly saved original surname pages; two already retained pages reused. Nineteen remaining previews not original-inspected.",
+      "limitations": "Later ranks102–131 remain in progress; embargo wording corrected against the underlying passage, not a captured-ship claim."
+    },
+    {
+      "query": "\"James Glafgow\"",
+      "collection": "Worldwide",
+      "date_start": 1600,
+      "date_end": 1799,
+      "reviewed_on": "2026-10-05",
+      "reported_entries": 130,
+      "retrieved_entries": 30,
+      "preview_entries_screened": 30,
+      "originals_checked": 14,
+      "ranks_reviewed": [
+        41,
+        70
+      ],
+      "confirmed_surname_image_ids": [
+        "604128613",
+        "55578590",
+        "39934415",
+        "1034014506",
+        "1033759470",
+        "96046987",
+        "55579319",
+        "39935175",
+        "1034010137",
+        "55583318",
+        "602495286",
+        "773748049"
+      ],
+      "triage": "Twelve positive original issue pages fully clipped; prior source download limit handled through original-viewer screenshots. Two false cooccurrences original-inspected.",
+      "limitations": "Remaining previews not all original-inspected; later ranks71–130 in progress."
+    },
+    {
+      "query": "\"Thomas Glafgow\"",
+      "collection": "Worldwide",
+      "date_start": 1790,
+      "date_end": 1799,
+      "reviewed_on": "2026-10-05",
+      "reported_entries": 15,
+      "retrieved_entries": 15,
+      "preview_entries_screened": 15,
+      "originals_checked": 2,
+      "ranks_reviewed": [
+        21,
+        29
+      ],
+      "confirmed_surname_image_ids": [
+        "66180042",
+        "1181678638"
+      ],
+      "triage": "Failed full-query tail recovered through date filter. James Raleigh and Thomas Kentucky postal originals integrated, each with complete contextual clippings.",
+      "limitations": "Seven tail previews not original-inspected; this recovery does not establish absence. Six early1790 cards were reused."
+    },
+    {
+      "query": "\"Thomas Glasgow\"",
+      "collection": "Worldwide",
+      "date_start": 1600,
+      "date_end": 1799,
+      "reviewed_on": "2026-10-05",
+      "reported_entries": 13,
+      "retrieved_entries": 13,
+      "preview_entries_screened": 13,
+      "originals_checked": 1,
+      "triage": "One Virginia Gazette1753 original is merchants in Glasgow and Thomas Donald, not Thomas Glasgow. No positive original verified in this bounded exact query.",
+      "limitations": "Most remaining cards are previews only; one1798 viewer not legible. Original packet retained privately."
+    },
+    {
+      "query": "\"John Glafgow\"",
+      "collection": "Ireland",
+      "date_start": 1600,
+      "date_end": 1799,
+      "reviewed_on": "2026-10-05",
+      "reported_entries": 7,
+      "retrieved_entries": 7,
+      "preview_entries_screened": 7,
+      "originals_checked": 0,
+      "triage": "Displayed seven cards already in earlier Ireland packet, allreused; no omitted latercards atprovider Endofresults.",
+      "limitations": "No new original reading. Separate worldwide query reports93 cards and remains incomplete; Ireland query end is not global exhaustion."
     }
   ],
   "new_original_passages": {
@@ -3164,7 +3305,44 @@
       "32859455",
       "601815997",
       "601821728",
-      "61260706"
+      "61260706",
+      "1034014372",
+      "72012833",
+      "72013663",
+      "72014445",
+      "72015437",
+      "72015451",
+      "72015480",
+      "72015583",
+      "72015837",
+      "72016002",
+      "72016067",
+      "72017601",
+      "72017937",
+      "72018049",
+      "72018143",
+      "72018327",
+      "72018438",
+      "72018546",
+      "72018636",
+      "72019314",
+      "72019727",
+      "72022133",
+      "72023508",
+      "604128613",
+      "55578590",
+      "39934415",
+      "1034014506",
+      "1033759470",
+      "96046987",
+      "55579319",
+      "39935175",
+      "1034010137",
+      "55583318",
+      "602495286",
+      "773748049",
+      "66180042",
+      "1181678638"
     ],
     "excluded_passage_image_ids": [
       "41038726",
@@ -3211,7 +3389,10 @@
     "Six worldwide quoted Glafgow full-name searches screened the first twenty cards each. Twelve new surname issue pages are retained after original inspection, including other forenames found by the Thomas query. Larger result sets, remaining ranks and other OCR spellings are incomplete; preview-only place/vessel triage is not counted as original inspection. Glasgow alone in the 1742 enslaved-person notice is unclassified hereditary surname, not William Glasgow.",
     "Worldwide Mary Glafgow (30 cards) and Ann Glafgow (45 cards) exact-query previews are now screened to their displayed ends. Four original surname-only shipmaster pages from the Ann query are retained, with two near-verbatim passenger reports merged in one card. Most vessel/place previews remain preview-only; no global surname absence claimed.",
     "Thomas Glafgow continuation could not reliably retrieve ranks21–29: provider count changed from29 to26 and pagination failed. Tail remains incomplete. Ezekiel Glafgow returned no cards; this is an OCR query result, not evidence of absence.",
-    "Seventeen additional surname originals from William/James ranks21–40 and Robert ranks21–43 are integrated. Nine tenant issues preserve two sale stages; the two Hackman witness reports are one reprint group. Robert exact-query cards are screened to displayed end. William/James later ranks, failed Thomas pagination and broader spellings remain incomplete."
+    "Seventeen additional surname originals from William/James ranks21–40 and Robert ranks21–43 are integrated. Nine tenant issues preserve two sale stages; the two Hackman witness reports are one reprint group. Robert exact-query cards are screened to displayed end. William/James later ranks, failed Thomas pagination and broader spellings remain incomplete.",
+    "William Glafgow ranks41–70 add thirteen surname issue pages and two distinct passages on already retained issues. Belfast captain forenames come only from independently named sailing notices, not the vessel William. A Falmouth master remains a separate qualified subject. Later query ranks remain in progress.",
+    "Another23 surname issue pages extend the William query through rank101 and James through rank70; North Carolina records include explicit Secretary of State reports. Reprints remain one event, candidates are not elected winners, and the February1793 shipping passage reports embargo rather than capture. Broader OCR/name coverage remains incomplete.",
+    "Recovered1790sThomasGlafgow tail now has complete retained James Raleigh and Thomas Kentucky original excerpts; the latter has separate native viewer heading and entry crops. Most other tail cards remain preview-only. Seven Ireland-filtered JohnGlafgow cards rechecked to displayed end, allalreadyretained; global93-card query separatelyunderreview."
   ],
   "search_pause_history": [
     {

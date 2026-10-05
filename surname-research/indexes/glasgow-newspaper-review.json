@@ -30,7 +30,9 @@
     "The four worldwide quoted Glafcow full-name searches yielded eighteen cards on seventeen distinct original pages; all inspected, with ten surname pages retained and seven inspected false passages. Samuel-query postal/committee hits name James and John respectively. Earlier preview-only limitations for this packet are resolved by the original rechecks; additional page highlights and other OCR variants are not claimed exhausted.",
     "Six worldwide quoted Glafgow full-name searches screened the first twenty cards each. Twelve new surname issue pages are retained after original inspection, including other forenames found by the Thomas query. Larger result sets, remaining ranks and other OCR spellings are incomplete; preview-only place/vessel triage is not counted as original inspection. Glasgow alone in the 1742 enslaved-person notice is unclassified hereditary surname, not William Glasgow.",
     "Worldwide Mary Glafgow (30 cards) and Ann Glafgow (45 cards) exact-query previews are now screened to their displayed ends. Four original surname-only shipmaster pages from the Ann query are retained, with two near-verbatim passenger reports merged in one card. Most vessel/place previews remain preview-only; no global surname absence claimed.",
-    "Seventeen additional surname originals from William/James ranks21–40 and Robert ranks21–43 are integrated. Nine tenant issues preserve two sale stages; the two Hackman witness reports are one reprint group. Robert exact-query cards are screened to displayed end. William/James later ranks, failed Thomas pagination and broader spellings remain incomplete."
+    "Seventeen additional surname originals from William/James ranks21–40 and Robert ranks21–43 are integrated. Nine tenant issues preserve two sale stages; the two Hackman witness reports are one reprint group. Robert exact-query cards are screened to displayed end. William/James later ranks, failed Thomas pagination and broader spellings remain incomplete.",
+    "William Glafgow ranks41–70 add thirteen surname issue pages and two distinct passages on already retained issues. Belfast captain forenames come only from independently named sailing notices, not the vessel William. A Falmouth master remains a separate qualified subject. Later query ranks remain in progress.",
+    "Another23 surname issue pages extend the William query through rank101 and James through rank70; North Carolina records include explicit Secretary of State reports. Reprints remain one event, candidates are not elected winners, and the February1793 shipping passage reports embargo rather than capture. Broader OCR/name coverage remains incomplete."
   ],
   "rows": [
     {
@@ -1003,16 +1005,25 @@
       "source_url": "https://www.newspapers.com/image/72017846/",
       "queries": [
         "\"William Glasgow\"",
-        "supplied screenshots and identity checks"
+        "supplied screenshots and identity checks",
+        "\"William Glafgow\" ranks41–70"
       ],
       "status": "confirmed surname",
-      "reading": "Wm. Glasgow, master of brig William; Bordeaux voyage. A separate cargo advertisement says the William, Capt. Glasgow, arrived from Bourdeaux for Hugh Crawford & Co.; that notice is dated Belfast, 3 December 1792.",
-      "assessment": "Same vessel and named master; household still unproved. Two separate notices on this page are preserved inline; the captain/master identification remains the existing qualified shipping cluster.",
+      "reading": "Wm. Glasgow, master of brig William; Bordeaux voyage. A separate cargo advertisement says the William, Capt. Glasgow, arrived from Bourdeaux for Hugh Crawford & Co.; that notice is dated Belfast, 3 December 1792. James Hamill advertises French apples, almonds and other goods arrived per the William, Captain Glasgow, from Bordeaux; notice dated 7 December 1792.",
+      "assessment": "Same vessel and named master; household still unproved. Two separate notices on this page are preserved inline; the captain/master identification remains the existing qualified shipping cluster. Separate cargo passage preserved inline; These notices name the vessel William and Captain Glasgow; no captain forename is stated in them. Independently inspected 1792 sailing advertisements explicitly name Wm./William Glasgow as master of the same brig, supporting probable continuity. Vessel names and voyage ports do not establish personal residence or kinship. Long-s typography is normalized to s.",
       "profile_ids": [
         "Glasgow-3324"
       ],
       "draft_url": "/research/subjects/william-glasgow-irish-newspapers/#captain-william",
-      "reviewed_on": "2026-10-04"
+      "reviewed_on": "2026-10-05",
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-3324",
+          "confidence": "possible",
+          "role": "Identity candidate; qualification below",
+          "basis": "Larne maritime candidate remains unresolved; the named 1792 master supplies the forename, while these cargo notices state captain surname only. Same brig and routes support probable continuity, not proved identity."
+        }
+      ]
     },
     {
       "image_id": "72019090",
@@ -4290,16 +4301,25 @@
       "source_url": "https://www.newspapers.com/image/72015527/",
       "queries": [
         "Glasgow",
-        "William Glasgow"
+        "William Glasgow",
+        "\"William Glafgow\" ranks41–70"
       ],
       "status": "confirmed surname",
-      "reading": "Wm. Glasgow, master of brig William, Oporto and back to Belfast; notice dated 23 July.",
-      "assessment": "Original inspected. Same service as existing July notice; no age, personal residence or kin. Rechecked 4 October: the notice itself reads 23 July; the earlier 25 July transcription was incorrect.",
+      "reading": "Wm. Glasgow, master of brig William, Oporto and back to Belfast; notice dated 23 July. Hugh and John Henderson advertise black soap, vinegar and French barley from the William, Captain Glasgow, from Rotterdam; notice dated 18 July 1792.",
+      "assessment": "Original inspected. Same service as existing July notice; no age, personal residence or kin. Rechecked 4 October: the notice itself reads 23 July; the earlier 25 July transcription was incorrect. Separate cargo passage preserved inline; These notices name the vessel William and Captain Glasgow; no captain forename is stated in them. Independently inspected 1792 sailing advertisements explicitly name Wm./William Glasgow as master of the same brig, supporting probable continuity. Vessel names and voyage ports do not establish personal residence or kinship. Long-s typography is normalized to s.",
       "profile_ids": [
         "Glasgow-3324"
       ],
-      "reviewed_on": "2026-10-04",
-      "draft_url": "/research/subjects/william-glasgow-irish-newspapers/#captain-william"
+      "reviewed_on": "2026-10-05",
+      "draft_url": "/research/subjects/william-glasgow-irish-newspapers/#captain-william",
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-3324",
+          "confidence": "possible",
+          "role": "Identity candidate; qualification below",
+          "basis": "Larne maritime candidate remains unresolved; the named 1792 master supplies the forename, while these cargo notices state captain surname only. Same brig and routes support probable continuity, not proved identity."
+        }
+      ]
     },
     {
       "image_id": "61256896",
@@ -8776,6 +8796,975 @@
         }
       ],
       "draft_url": "/research/subjects/newspapers-early-glasgow/#robert-glasgow-cookstown-reward-1796",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "1034014372",
+      "date": "1788-05-06",
+      "paper": "Poulson’s American Daily Advertiser",
+      "page": 3,
+      "source_url": "https://www.newspapers.com/image/1034014372/",
+      "queries": [
+        "\"William Glafgow\""
+      ],
+      "status": "confirmed surname",
+      "reading": "William Glasgow is named as master of the Falmouth, from Baltimore, in an Amsterdam-arrivals entry dated 10 June 1787, printed in a newspaper issue of 6 May 1788.",
+      "assessment": "Provider labels the collection Poulson’s American Daily Advertiser; the contemporary masthead title has not been independently checked. The heading explicitly covers Amsterdam arrivals in 1787. June 10 is the listed 1787 arrival date; 6 May 1788 is the later newspaper issue date. Falmouth is the vessel, Baltimore its listed origin, and William Glasgow its named master. Another entry names a vessel Glasgow with Thomas Johnson as master; that is not a Glasgow surname person. Printed long-s is normalized to s. The named master is a documented subject. Glasgow-3324, the Larne maritime candidate, is possible by name, age and occupation only. No record here links him to Larne, the Belfast brig William, the Ann or a family. Do not combine those masters solely by name.",
+      "profile_ids": [
+        "Glasgow-3324"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-3324",
+          "confidence": "possible",
+          "role": "Identity candidate; qualification below",
+          "basis": "Name and adult maritime chronology fit; Larne and the Belfast brig William are not stated in this Falmouth record."
+        }
+      ],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#william-glasgow-falmouth-master-1787",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "72012833",
+      "date": "1792-01-18",
+      "paper": "Northern Star",
+      "page": 4,
+      "source_url": "https://www.newspapers.com/image/72012833/",
+      "queries": [
+        "\"William Glafgow\" ranks41–70"
+      ],
+      "status": "confirmed surname",
+      "reading": "Hugh Crawford & Co. advertise rum landing from the Cochrane, Captain Burns, and goods from the William, Captain Glasgow, from Rotterdam; notice dated 18 January 1792.",
+      "assessment": "These notices name the vessel William and Captain Glasgow; no captain forename is stated in them. Independently inspected 1792 sailing advertisements explicitly name Wm./William Glasgow as master of the same brig, supporting probable continuity. Vessel names and voyage ports do not establish personal residence or kinship. Long-s typography is normalized to s.",
+      "profile_ids": [
+        "Glasgow-3324"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-3324",
+          "confidence": "possible",
+          "role": "Identity candidate; qualification below",
+          "basis": "Larne maritime candidate remains unresolved; the named 1792 master supplies the forename, while these cargo notices state captain surname only. Same brig and routes support probable continuity, not proved identity."
+        }
+      ],
+      "draft_url": "/research/subjects/william-glasgow-irish-newspapers/#captain-william",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "72013663",
+      "date": "1792-03-10",
+      "paper": "Northern Star",
+      "page": 3,
+      "source_url": "https://www.newspapers.com/image/72013663/",
+      "queries": [
+        "\"William Glafgow\" ranks41–70"
+      ],
+      "status": "confirmed surname",
+      "reading": "Hugh Kearns & Co. advertise imported goods per the William, Captain Glasgow, from Rotterdam; notice dated Belfast, 9 March 1792.",
+      "assessment": "These notices name the vessel William and Captain Glasgow; no captain forename is stated in them. Independently inspected 1792 sailing advertisements explicitly name Wm./William Glasgow as master of the same brig, supporting probable continuity. Vessel names and voyage ports do not establish personal residence or kinship. Long-s typography is normalized to s.",
+      "profile_ids": [
+        "Glasgow-3324"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-3324",
+          "confidence": "possible",
+          "role": "Identity candidate; qualification below",
+          "basis": "Larne maritime candidate remains unresolved; the named 1792 master supplies the forename, while these cargo notices state captain surname only. Same brig and routes support probable continuity, not proved identity."
+        }
+      ],
+      "draft_url": "/research/subjects/william-glasgow-irish-newspapers/#captain-william",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "72014445",
+      "date": "1792-04-18",
+      "paper": "Northern Star",
+      "page": 3,
+      "source_url": "https://www.newspapers.com/image/72014445/",
+      "queries": [
+        "\"William Glafgow\" ranks41–70"
+      ],
+      "status": "confirmed surname",
+      "reading": "The Belfast shipping arrivals list pairs the vessel William with master Glasgow, from Oporto.",
+      "assessment": "These notices name the vessel William and Captain Glasgow; no captain forename is stated in them. Independently inspected 1792 sailing advertisements explicitly name Wm./William Glasgow as master of the same brig, supporting probable continuity. Vessel names and voyage ports do not establish personal residence or kinship. Long-s typography is normalized to s.",
+      "profile_ids": [
+        "Glasgow-3324"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-3324",
+          "confidence": "possible",
+          "role": "Identity candidate; qualification below",
+          "basis": "Larne maritime candidate remains unresolved; the named 1792 master supplies the forename, while these cargo notices state captain surname only. Same brig and routes support probable continuity, not proved identity."
+        }
+      ],
+      "draft_url": "/research/subjects/william-glasgow-irish-newspapers/#captain-william",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "72015437",
+      "date": "1792-07-18",
+      "paper": "Northern Star",
+      "page": 3,
+      "source_url": "https://www.newspapers.com/image/72015437/",
+      "queries": [
+        "\"William Glafgow\" ranks41–70"
+      ],
+      "status": "confirmed surname",
+      "reading": "J. and A. Cranston advertise smalts and other goods; Hugh and John Henderson advertise black soap, vinegar and French barley; both notices name the William, Captain Glasgow, from Rotterdam and are dated 18 July 1792.",
+      "assessment": "These notices name the vessel William and Captain Glasgow; no captain forename is stated in them. Independently inspected 1792 sailing advertisements explicitly name Wm./William Glasgow as master of the same brig, supporting probable continuity. Vessel names and voyage ports do not establish personal residence or kinship. Long-s typography is normalized to s.",
+      "profile_ids": [
+        "Glasgow-3324"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-3324",
+          "confidence": "possible",
+          "role": "Identity candidate; qualification below",
+          "basis": "Larne maritime candidate remains unresolved; the named 1792 master supplies the forename, while these cargo notices state captain surname only. Same brig and routes support probable continuity, not proved identity."
+        }
+      ],
+      "draft_url": "/research/subjects/william-glasgow-irish-newspapers/#captain-william",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "72015451",
+      "date": "1792-07-21",
+      "paper": "Northern Star",
+      "page": 1,
+      "source_url": "https://www.newspapers.com/image/72015451/",
+      "queries": [
+        "\"William Glafgow\" ranks41–70"
+      ],
+      "status": "confirmed surname",
+      "reading": "J. and A. Cranston advertise smalts and other goods; Hugh and John Henderson advertise black soap, vinegar and French barley; both notices name the William, Captain Glasgow, from Rotterdam and are dated 18 July 1792.",
+      "assessment": "These notices name the vessel William and Captain Glasgow; no captain forename is stated in them. Independently inspected 1792 sailing advertisements explicitly name Wm./William Glasgow as master of the same brig, supporting probable continuity. Vessel names and voyage ports do not establish personal residence or kinship. Long-s typography is normalized to s.",
+      "profile_ids": [
+        "Glasgow-3324"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-3324",
+          "confidence": "possible",
+          "role": "Identity candidate; qualification below",
+          "basis": "Larne maritime candidate remains unresolved; the named 1792 master supplies the forename, while these cargo notices state captain surname only. Same brig and routes support probable continuity, not proved identity."
+        }
+      ],
+      "draft_url": "/research/subjects/william-glasgow-irish-newspapers/#captain-william",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "72015480",
+      "date": "1792-07-25",
+      "paper": "Northern Star",
+      "page": 1,
+      "source_url": "https://www.newspapers.com/image/72015480/",
+      "queries": [
+        "\"William Glafgow\" ranks41–70"
+      ],
+      "status": "confirmed surname",
+      "reading": "Hugh and John Henderson advertise black soap, vinegar and French barley from the William, Captain Glasgow, from Rotterdam; notice dated 18 July 1792.",
+      "assessment": "These notices name the vessel William and Captain Glasgow; no captain forename is stated in them. Independently inspected 1792 sailing advertisements explicitly name Wm./William Glasgow as master of the same brig, supporting probable continuity. Vessel names and voyage ports do not establish personal residence or kinship. Long-s typography is normalized to s.",
+      "profile_ids": [
+        "Glasgow-3324"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-3324",
+          "confidence": "possible",
+          "role": "Identity candidate; qualification below",
+          "basis": "Larne maritime candidate remains unresolved; the named 1792 master supplies the forename, while these cargo notices state captain surname only. Same brig and routes support probable continuity, not proved identity."
+        }
+      ],
+      "draft_url": "/research/subjects/william-glasgow-irish-newspapers/#captain-william",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "72015583",
+      "date": "1792-08-08",
+      "paper": "Northern Star",
+      "page": 1,
+      "source_url": "https://www.newspapers.com/image/72015583/",
+      "queries": [
+        "\"William Glafgow\" ranks41–70"
+      ],
+      "status": "confirmed surname",
+      "reading": "Hugh and John Henderson advertise black soap, vinegar and French barley from the William, Captain Glasgow, from Rotterdam; notice dated 18 July 1792.",
+      "assessment": "These notices name the vessel William and Captain Glasgow; no captain forename is stated in them. Independently inspected 1792 sailing advertisements explicitly name Wm./William Glasgow as master of the same brig, supporting probable continuity. Vessel names and voyage ports do not establish personal residence or kinship. Long-s typography is normalized to s.",
+      "profile_ids": [
+        "Glasgow-3324"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-3324",
+          "confidence": "possible",
+          "role": "Identity candidate; qualification below",
+          "basis": "Larne maritime candidate remains unresolved; the named 1792 master supplies the forename, while these cargo notices state captain surname only. Same brig and routes support probable continuity, not proved identity."
+        }
+      ],
+      "draft_url": "/research/subjects/william-glasgow-irish-newspapers/#captain-william",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "72015837",
+      "date": "1792-09-15",
+      "paper": "Northern Star",
+      "page": 3,
+      "source_url": "https://www.newspapers.com/image/72015837/",
+      "queries": [
+        "\"William Glafgow\" ranks41–70"
+      ],
+      "status": "confirmed surname",
+      "reading": "Davison, Graham & Co. advertise pot ashes from the London Packet, James Kearney, master, and a further arrival per the William, Captain Glasgow, from Oporto, alongside their usual stock of old red port wines; notice dated 14 September 1792.",
+      "assessment": "These notices name the vessel William and Captain Glasgow; no captain forename is stated in them. Independently inspected 1792 sailing advertisements explicitly name Wm./William Glasgow as master of the same brig, supporting probable continuity. Vessel names and voyage ports do not establish personal residence or kinship. Long-s typography is normalized to s.",
+      "profile_ids": [
+        "Glasgow-3324"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-3324",
+          "confidence": "possible",
+          "role": "Identity candidate; qualification below",
+          "basis": "Larne maritime candidate remains unresolved; the named 1792 master supplies the forename, while these cargo notices state captain surname only. Same brig and routes support probable continuity, not proved identity."
+        }
+      ],
+      "draft_url": "/research/subjects/william-glasgow-irish-newspapers/#captain-william",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "72016002",
+      "date": "1792-09-26",
+      "paper": "Northern Star",
+      "page": 4,
+      "source_url": "https://www.newspapers.com/image/72016002/",
+      "queries": [
+        "\"William Glafgow\" ranks41–70"
+      ],
+      "status": "confirmed surname",
+      "reading": "Davison, Graham & Co. advertise pot ashes from the London Packet, James Kearney, master, and a further arrival per the William, Captain Glasgow, from Oporto, alongside their usual stock of old red port wines; notice dated 14 September 1792.",
+      "assessment": "These notices name the vessel William and Captain Glasgow; no captain forename is stated in them. Independently inspected 1792 sailing advertisements explicitly name Wm./William Glasgow as master of the same brig, supporting probable continuity. Vessel names and voyage ports do not establish personal residence or kinship. Long-s typography is normalized to s.",
+      "profile_ids": [
+        "Glasgow-3324"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-3324",
+          "confidence": "possible",
+          "role": "Identity candidate; qualification below",
+          "basis": "Larne maritime candidate remains unresolved; the named 1792 master supplies the forename, while these cargo notices state captain surname only. Same brig and routes support probable continuity, not proved identity."
+        }
+      ],
+      "draft_url": "/research/subjects/william-glasgow-irish-newspapers/#captain-william",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "72016067",
+      "date": "1792-10-03",
+      "paper": "Northern Star",
+      "page": 1,
+      "source_url": "https://www.newspapers.com/image/72016067/",
+      "queries": [
+        "\"William Glafgow\" ranks41–70"
+      ],
+      "status": "confirmed surname",
+      "reading": "Davison, Graham & Co. advertise pot ashes from the London Packet, James Kearney, master, and a further arrival per the William, Captain Glasgow, from Oporto, alongside their usual stock of old red port wines; notice dated 14 September 1792.",
+      "assessment": "These notices name the vessel William and Captain Glasgow; no captain forename is stated in them. Independently inspected 1792 sailing advertisements explicitly name Wm./William Glasgow as master of the same brig, supporting probable continuity. Vessel names and voyage ports do not establish personal residence or kinship. Long-s typography is normalized to s.",
+      "profile_ids": [
+        "Glasgow-3324"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-3324",
+          "confidence": "possible",
+          "role": "Identity candidate; qualification below",
+          "basis": "Larne maritime candidate remains unresolved; the named 1792 master supplies the forename, while these cargo notices state captain surname only. Same brig and routes support probable continuity, not proved identity."
+        }
+      ],
+      "draft_url": "/research/subjects/william-glasgow-irish-newspapers/#captain-william",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "72017601",
+      "date": "1792-12-01",
+      "paper": "Northern Star",
+      "page": 3,
+      "source_url": "https://www.newspapers.com/image/72017601/",
+      "queries": [
+        "\"William Glafgow\" ranks41–70"
+      ],
+      "status": "confirmed surname",
+      "reading": "Shipping intelligence reports the William, Captain Glasgow, arrived from Bordeaux.",
+      "assessment": "These notices name the vessel William and Captain Glasgow; no captain forename is stated in them. Independently inspected 1792 sailing advertisements explicitly name Wm./William Glasgow as master of the same brig, supporting probable continuity. Vessel names and voyage ports do not establish personal residence or kinship. Long-s typography is normalized to s.",
+      "profile_ids": [
+        "Glasgow-3324"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-3324",
+          "confidence": "possible",
+          "role": "Identity candidate; qualification below",
+          "basis": "Larne maritime candidate remains unresolved; the named 1792 master supplies the forename, while these cargo notices state captain surname only. Same brig and routes support probable continuity, not proved identity."
+        }
+      ],
+      "draft_url": "/research/subjects/william-glasgow-irish-newspapers/#captain-william",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "72017937",
+      "date": "1792-12-15",
+      "paper": "Northern Star",
+      "page": 1,
+      "source_url": "https://www.newspapers.com/image/72017937/",
+      "queries": [
+        "\"William Glafgow\" ranks41–70"
+      ],
+      "status": "confirmed surname",
+      "reading": "Hugh and John Henderson advertise prunes, French plums, almonds and other goods arrived per the William, Captain Glasgow, from Bordeaux; notice dated 5 December 1792.",
+      "assessment": "These notices name the vessel William and Captain Glasgow; no captain forename is stated in them. Independently inspected 1792 sailing advertisements explicitly name Wm./William Glasgow as master of the same brig, supporting probable continuity. Vessel names and voyage ports do not establish personal residence or kinship. Long-s typography is normalized to s.",
+      "profile_ids": [
+        "Glasgow-3324"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-3324",
+          "confidence": "possible",
+          "role": "Identity candidate; qualification below",
+          "basis": "Larne maritime candidate remains unresolved; the named 1792 master supplies the forename, while these cargo notices state captain surname only. Same brig and routes support probable continuity, not proved identity."
+        }
+      ],
+      "draft_url": "/research/subjects/william-glasgow-irish-newspapers/#captain-william",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "72018049",
+      "date": "1792-12-19",
+      "paper": "Northern Star",
+      "page": 1,
+      "source_url": "https://www.newspapers.com/image/72018049/",
+      "queries": [
+        "\"William Glafgow\" ranks71–101"
+      ],
+      "status": "confirmed surname",
+      "reading": "Hugh and John Henderson advertise prunes, French plums, almonds and other goods arrived per the William, Captain Glasgow, from Bordeaux; notice dated 5 December 1792.",
+      "assessment": "Repeated Henderson advertisement dated 5 December 1792. The William is the vessel; this notice supplies only Captain Glasgow’s surname. Continuity with the separately named 1792 master is probable, not proved. The later issue date does not date another arrival.",
+      "profile_ids": [
+        "Glasgow-3324"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-3324",
+          "confidence": "possible",
+          "role": "Identity candidate; qualification below",
+          "basis": "Larne maritime candidate remains unresolved. Same vessel/routes or the explicitly named Jean master supply compatible context, without a personal household bridge."
+        }
+      ],
+      "draft_url": "/research/subjects/william-glasgow-irish-newspapers/#captain-william",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "72018143",
+      "date": "1792-12-22",
+      "paper": "Northern Star",
+      "page": 1,
+      "source_url": "https://www.newspapers.com/image/72018143/",
+      "queries": [
+        "\"William Glafgow\" ranks71–101"
+      ],
+      "status": "confirmed surname",
+      "reading": "Hugh and John Henderson advertise prunes, French plums, almonds and other goods arrived per the William, Captain Glasgow, from Bordeaux; notice dated 5 December 1792.",
+      "assessment": "Repeated Henderson advertisement dated 5 December 1792. The William is the vessel; this notice supplies only Captain Glasgow’s surname. Continuity with the separately named 1792 master is probable, not proved. The later issue date does not date another arrival.",
+      "profile_ids": [
+        "Glasgow-3324"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-3324",
+          "confidence": "possible",
+          "role": "Identity candidate; qualification below",
+          "basis": "Larne maritime candidate remains unresolved. Same vessel/routes or the explicitly named Jean master supply compatible context, without a personal household bridge."
+        }
+      ],
+      "draft_url": "/research/subjects/william-glasgow-irish-newspapers/#captain-william",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "72018327",
+      "date": "1792-12-26",
+      "paper": "Northern Star",
+      "page": 4,
+      "source_url": "https://www.newspapers.com/image/72018327/",
+      "queries": [
+        "\"William Glafgow\" ranks71–101"
+      ],
+      "status": "confirmed surname",
+      "reading": "Hugh and John Henderson advertise prunes, French plums, almonds and other goods arrived per the William, Captain Glasgow, from Bordeaux; notice dated 5 December 1792.",
+      "assessment": "Repeated Henderson advertisement dated 5 December 1792. The William is the vessel; this notice supplies only Captain Glasgow’s surname. Continuity with the separately named 1792 master is probable, not proved. The later issue date does not date another arrival.",
+      "profile_ids": [
+        "Glasgow-3324"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-3324",
+          "confidence": "possible",
+          "role": "Identity candidate; qualification below",
+          "basis": "Larne maritime candidate remains unresolved. Same vessel/routes or the explicitly named Jean master supply compatible context, without a personal household bridge."
+        }
+      ],
+      "draft_url": "/research/subjects/william-glasgow-irish-newspapers/#captain-william",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "72018438",
+      "date": "1793-01-02",
+      "paper": "Northern Star",
+      "page": 1,
+      "source_url": "https://www.newspapers.com/image/72018438/",
+      "queries": [
+        "\"William Glafgow\" ranks71–101"
+      ],
+      "status": "confirmed surname",
+      "reading": "Hugh and John Henderson advertise prunes, French plums, almonds and other goods arrived per the William, Captain Glasgow, from Bordeaux; notice dated 5 December 1792.",
+      "assessment": "Repeated Henderson advertisement dated 5 December 1792. The William is the vessel; this notice supplies only Captain Glasgow’s surname. Continuity with the separately named 1792 master is probable, not proved. The later issue date does not date another arrival.",
+      "profile_ids": [
+        "Glasgow-3324"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-3324",
+          "confidence": "possible",
+          "role": "Identity candidate; qualification below",
+          "basis": "Larne maritime candidate remains unresolved. Same vessel/routes or the explicitly named Jean master supply compatible context, without a personal household bridge."
+        }
+      ],
+      "draft_url": "/research/subjects/william-glasgow-irish-newspapers/#captain-william",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "72018546",
+      "date": "1793-01-05",
+      "paper": "Northern Star",
+      "page": 1,
+      "source_url": "https://www.newspapers.com/image/72018546/",
+      "queries": [
+        "\"William Glafgow\" ranks71–101"
+      ],
+      "status": "confirmed surname",
+      "reading": "Hugh and John Henderson advertise prunes, French plums, almonds and other goods arrived per the William, Captain Glasgow, from Bordeaux; notice dated 5 December 1792.",
+      "assessment": "Repeated Henderson advertisement dated 5 December 1792. The William is the vessel; this notice supplies only Captain Glasgow’s surname. Continuity with the separately named 1792 master is probable, not proved. The later issue date does not date another arrival.",
+      "profile_ids": [
+        "Glasgow-3324"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-3324",
+          "confidence": "possible",
+          "role": "Identity candidate; qualification below",
+          "basis": "Larne maritime candidate remains unresolved. Same vessel/routes or the explicitly named Jean master supply compatible context, without a personal household bridge."
+        }
+      ],
+      "draft_url": "/research/subjects/william-glasgow-irish-newspapers/#captain-william",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "72018636",
+      "date": "1793-01-09",
+      "paper": "Northern Star",
+      "page": 1,
+      "source_url": "https://www.newspapers.com/image/72018636/",
+      "queries": [
+        "\"William Glafgow\" ranks71–101"
+      ],
+      "status": "confirmed surname",
+      "reading": "Hugh and John Henderson advertise prunes, French plums, almonds and other goods arrived per the William, Captain Glasgow, from Bordeaux; notice dated 5 December 1792.",
+      "assessment": "Repeated Henderson advertisement dated 5 December 1792. The William is the vessel; this notice supplies only Captain Glasgow’s surname. Continuity with the separately named 1792 master is probable, not proved. The later issue date does not date another arrival.",
+      "profile_ids": [
+        "Glasgow-3324"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-3324",
+          "confidence": "possible",
+          "role": "Identity candidate; qualification below",
+          "basis": "Larne maritime candidate remains unresolved. Same vessel/routes or the explicitly named Jean master supply compatible context, without a personal household bridge."
+        }
+      ],
+      "draft_url": "/research/subjects/william-glasgow-irish-newspapers/#captain-william",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "72019314",
+      "date": "1793-01-30",
+      "paper": "Northern Star",
+      "page": 4,
+      "source_url": "https://www.newspapers.com/image/72019314/",
+      "queries": [
+        "\"William Glafgow\" ranks71–101"
+      ],
+      "status": "confirmed surname",
+      "reading": "William Glasgow, Kildress delegate and subsequent chairman; meeting 16 January 1793.",
+      "assessment": "Repeated Kildress resolutions; meeting date is 16 January 1793 from the earlier complete headed original, not the 30 January issue date. This bounded passage names Hugh Faulkner and William Glasgow as delegates and Glasgow taking the chair. No spouse, parent or birthplace is given.",
+      "profile_ids": [
+        "Glasgow-2915"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-2915",
+          "confidence": "possible",
+          "role": "Identity candidate; qualification below",
+          "basis": "Cookstown/Tyrone candidate is compatible; no Kildress family or identity bridge."
+        }
+      ],
+      "draft_url": "/research/subjects/william-glasgow-irish-newspapers/#kildress-william",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "72019727",
+      "date": "1793-02-20",
+      "paper": "Northern Star",
+      "page": 3,
+      "source_url": "https://www.newspapers.com/image/72019727/",
+      "queries": [
+        "\"William Glafgow\" ranks71–101"
+      ],
+      "status": "confirmed surname",
+      "reading": "Shipping intelligence says the William, Captain Glasgow, belonging to Belfast, sailed from Bordeaux on the 3rd instant; an embargo order from Paris arrived there the following day, detaining four British and thirty-three Dutch vessels.",
+      "assessment": "The original reports an embargo, not capture of the William. The account does not explicitly say whether this vessel was among those detained after departure. The 3rd instant is relative to the report; no new exact voyage day is assigned. Captain forename unstated; continuity with the named 1792 master remains probable.",
+      "profile_ids": [
+        "Glasgow-3324"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-3324",
+          "confidence": "possible",
+          "role": "Identity candidate; qualification below",
+          "basis": "Larne maritime candidate remains unresolved. Same vessel/routes or the explicitly named Jean master supply compatible context, without a personal household bridge."
+        }
+      ],
+      "draft_url": "/research/subjects/william-glasgow-irish-newspapers/#captain-william",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "72022133",
+      "date": "1793-09-21",
+      "paper": "Northern Star",
+      "page": 3,
+      "source_url": "https://www.newspapers.com/image/72022133/",
+      "queries": [
+        "\"William Glafgow\" ranks71–101"
+      ],
+      "status": "confirmed surname",
+      "reading": "Shipping intelligence names William Glasgow as master of the Jean, from Belfast, arrived safe at Oporto on the 5th instant and expected ready to sail in twenty-one days.",
+      "assessment": "Jean is a different vessel from the brig William. Same named master, Belfast and Oporto support compatible continuity, not a proved identity or vessel renaming. Expected departure is not a completed voyage.",
+      "profile_ids": [
+        "Glasgow-3324"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-3324",
+          "confidence": "possible",
+          "role": "Identity candidate; qualification below",
+          "basis": "Larne maritime candidate remains unresolved. Same vessel/routes or the explicitly named Jean master supply compatible context, without a personal household bridge."
+        }
+      ],
+      "draft_url": "/research/subjects/william-glasgow-irish-newspapers/#captain-william",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "72023508",
+      "date": "1793-12-12",
+      "paper": "Northern Star",
+      "page": 3,
+      "source_url": "https://www.newspapers.com/image/72023508/",
+      "queries": [
+        "\"William Glafgow\" ranks71–101"
+      ],
+      "status": "confirmed surname",
+      "reading": "A shipping list names Jean, William Glasgow, ditto, where the preceding entry establishes ditto as master.",
+      "assessment": "Explicit personal name and master role; Jean remains a different vessel. No family, personal residence, age or completed voyage is supplied.",
+      "profile_ids": [
+        "Glasgow-3324"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-3324",
+          "confidence": "possible",
+          "role": "Identity candidate; qualification below",
+          "basis": "Larne maritime candidate remains unresolved. Same vessel/routes or the explicitly named Jean master supply compatible context, without a personal household bridge."
+        }
+      ],
+      "draft_url": "/research/subjects/william-glasgow-irish-newspapers/#captain-william",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "604128613",
+      "date": "1788-01-07",
+      "paper": "The Columbian Herald, or Independent Courier of North-America",
+      "page": 2,
+      "source_url": "https://www.newspapers.com/image/604128613/",
+      "queries": [
+        "\"James Glafgow\" ranks41–70"
+      ],
+      "status": "confirmed surname",
+      "reading": "James Glasgow is named with Kingston Lodge No.3 and as Grand Secretary among elected and installed North Carolina Grand Lodge officers, at a Tarborough convention on 9–11 December 1787.",
+      "assessment": "Newbern report dated 20 December 1787, printed 7 January 1788. W. is the roster’s Masonic style, not an inferred first-name initial. Membership and office are reported; no family is supplied. Glasgow-634 is a probable candidate for the explicit North Carolina Secretary of State records, matching the existing sourced public study. The Masonic officer, Dobbs candidate, Contentney and Raleigh addressee records form a compatible regional cluster; cross-record identity is inferred and remains qualified. Name, titles and locality do not prove spouse, parents or children.",
+      "profile_ids": [
+        "Glasgow-634"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-634",
+          "confidence": "possible",
+          "role": "Identity candidate; qualification below",
+          "basis": "Compatible North Carolina name, period and region; no postal, Masonic or election identity bridge to Glasgow-634 is established."
+        }
+      ],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#james-glasgow-north-carolina-records-1787-1795",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "55578590",
+      "date": "1788-03-27",
+      "paper": "The State Gazette of North-Carolina",
+      "page": 3,
+      "source_url": "https://www.newspapers.com/image/55578590/",
+      "queries": [
+        "\"James Glafgow\" ranks41–70"
+      ],
+      "status": "confirmed surname",
+      "reading": "James Glasgow, Contentney, is an addressee in letters remaining at Newbern post office, notice dated 19 March 1788.",
+      "assessment": "Original place spelling Contentney retained. The letters would be returned if not collected by 5 April; no proof of collection, family or permanent residence. Contentney is a geographic qualifier, not another person. Glasgow-634 is a probable candidate for the explicit North Carolina Secretary of State records, matching the existing sourced public study. The Masonic officer, Dobbs candidate, Contentney and Raleigh addressee records form a compatible regional cluster; cross-record identity is inferred and remains qualified. Name, titles and locality do not prove spouse, parents or children.",
+      "profile_ids": [
+        "Glasgow-634"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-634",
+          "confidence": "possible",
+          "role": "Identity candidate; qualification below",
+          "basis": "Compatible North Carolina name, period and region; no postal, Masonic or election identity bridge to Glasgow-634 is established."
+        }
+      ],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#james-glasgow-north-carolina-records-1787-1795",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "39934415",
+      "date": "1788-05-13",
+      "paper": "Independent Gazetteer",
+      "page": 2,
+      "source_url": "https://www.newspapers.com/image/39934415/",
+      "queries": [
+        "\"James Glafgow\" ranks41–70"
+      ],
+      "status": "confirmed surname",
+      "reading": "A Newbern report dated 16 April 1788 lists James Glasgow among Dobbs County candidates supposed to favor the federal constitution for the Hillsborough convention.",
+      "assessment": "Candidate and supposed political stance are the report’s language. No election victory is proved. Four issues reprint the same report; they are one event, not independent confirmations. Glasgow-634 is a probable candidate for the explicit North Carolina Secretary of State records, matching the existing sourced public study. The Masonic officer, Dobbs candidate, Contentney and Raleigh addressee records form a compatible regional cluster; cross-record identity is inferred and remains qualified. Name, titles and locality do not prove spouse, parents or children.",
+      "profile_ids": [
+        "Glasgow-634"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-634",
+          "confidence": "possible",
+          "role": "Identity candidate; qualification below",
+          "basis": "Compatible North Carolina name, period and region; no postal, Masonic or election identity bridge to Glasgow-634 is established."
+        }
+      ],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#james-glasgow-north-carolina-records-1787-1795",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "1034014506",
+      "date": "1788-05-12",
+      "paper": "Poulson's American Daily Advertiser",
+      "page": "2",
+      "source_url": "https://www.newspapers.com/image/1034014506/",
+      "queries": [
+        "\"James Glafgow\" ranks41–70"
+      ],
+      "status": "confirmed surname",
+      "reading": "A Newbern report dated 16 April 1788 lists James Glasgow among Dobbs County candidates supposed to favor the federal constitution for the Hillsborough convention.",
+      "assessment": "Candidate and supposed political stance are the report’s language. No election victory is proved. Four issues reprint the same report; they are one event, not independent confirmations. Provider collection label retained; contemporary masthead title has not been independently checked. Glasgow-634 is a probable candidate for the explicit North Carolina Secretary of State records, matching the existing sourced public study. The Masonic officer, Dobbs candidate, Contentney and Raleigh addressee records form a compatible regional cluster; cross-record identity is inferred and remains qualified. Name, titles and locality do not prove spouse, parents or children.",
+      "profile_ids": [
+        "Glasgow-634"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-634",
+          "confidence": "possible",
+          "role": "Identity candidate; qualification below",
+          "basis": "Compatible North Carolina name, period and region; no postal, Masonic or election identity bridge to Glasgow-634 is established."
+        }
+      ],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#james-glasgow-north-carolina-records-1787-1795",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "1033759470",
+      "date": "1788-05-21",
+      "paper": "The Carlisle Gazette, and the Western Repository of Knowledge",
+      "page": "3",
+      "source_url": "https://www.newspapers.com/image/1033759470/",
+      "queries": [
+        "\"James Glafgow\" ranks41–70"
+      ],
+      "status": "confirmed surname",
+      "reading": "A Newbern report dated 16 April 1788 lists James Glasgow among Dobbs County candidates supposed to favor the federal constitution for the Hillsborough convention.",
+      "assessment": "Candidate and supposed political stance are the report’s language. No election victory is proved. Four issues reprint the same report; they are one event, not independent confirmations. Glasgow-634 is a probable candidate for the explicit North Carolina Secretary of State records, matching the existing sourced public study. The Masonic officer, Dobbs candidate, Contentney and Raleigh addressee records form a compatible regional cluster; cross-record identity is inferred and remains qualified. Name, titles and locality do not prove spouse, parents or children.",
+      "profile_ids": [
+        "Glasgow-634"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-634",
+          "confidence": "possible",
+          "role": "Identity candidate; qualification below",
+          "basis": "Compatible North Carolina name, period and region; no postal, Masonic or election identity bridge to Glasgow-634 is established."
+        }
+      ],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#james-glasgow-north-carolina-records-1787-1795",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "96046987",
+      "date": "1788-06-07",
+      "paper": "Pittsburgh Weekly Gazette",
+      "page": "2",
+      "source_url": "https://www.newspapers.com/image/96046987/",
+      "queries": [
+        "\"James Glafgow\" ranks41–70"
+      ],
+      "status": "confirmed surname",
+      "reading": "A Newbern report dated 16 April 1788 lists James Glasgow among Dobbs County candidates supposed to favor the federal constitution for the Hillsborough convention.",
+      "assessment": "Candidate and supposed political stance are the report’s language. No election victory is proved. Four issues reprint the same report; they are one event, not independent confirmations. Glasgow-634 is a probable candidate for the explicit North Carolina Secretary of State records, matching the existing sourced public study. The Masonic officer, Dobbs candidate, Contentney and Raleigh addressee records form a compatible regional cluster; cross-record identity is inferred and remains qualified. Name, titles and locality do not prove spouse, parents or children.",
+      "profile_ids": [
+        "Glasgow-634"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-634",
+          "confidence": "possible",
+          "role": "Identity candidate; qualification below",
+          "basis": "Compatible North Carolina name, period and region; no postal, Masonic or election identity bridge to Glasgow-634 is established."
+        }
+      ],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#james-glasgow-north-carolina-records-1787-1795",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "55579319",
+      "date": "1788-12-04",
+      "paper": "The State Gazette of North-Carolina",
+      "page": "3",
+      "source_url": "https://www.newspapers.com/image/55579319/",
+      "queries": [
+        "\"James Glafgow\" ranks41–70"
+      ],
+      "status": "confirmed surname",
+      "reading": "James Glasgow, Esq., is reported chosen Secretary of State of North Carolina.",
+      "assessment": "The preceding councillors’ election is dated Tuesday the 11th ultimo; the separate secretary sentence does not explicitly assign that day to him. Issue date is 4 December 1788. No exact appointment day or household is inferred. Glasgow-634 is a probable candidate for the explicit North Carolina Secretary of State records, matching the existing sourced public study. The Masonic officer, Dobbs candidate, Contentney and Raleigh addressee records form a compatible regional cluster; cross-record identity is inferred and remains qualified. Name, titles and locality do not prove spouse, parents or children.",
+      "profile_ids": [
+        "Glasgow-634"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-634",
+          "confidence": "probable",
+          "role": "Identity candidate; qualification below",
+          "basis": "Existing sourced public study identifies the North Carolina Secretary of State; this explicit state-office report is a probable identity match, without new family proof."
+        }
+      ],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#james-glasgow-north-carolina-records-1787-1795",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "39935175",
+      "date": "1788-12-23",
+      "paper": "The Independent Gazetteer",
+      "page": "2",
+      "source_url": "https://www.newspapers.com/image/39935175/",
+      "queries": [
+        "\"James Glafgow\" ranks41–70"
+      ],
+      "status": "confirmed surname",
+      "reading": "A Fayetteville Grand Lodge report names James Glasgow, Esq., as elected Grand Senior Warden for the ensuing year.",
+      "assessment": "The report says the lodge met on the 18th ultimo; its precise meeting date needs the complete dated report header or minutes. The two papers reprint one appointment report, not independent elections. Masonic role is distinct from Secretary of State. Glasgow-634 is a probable candidate for the explicit North Carolina Secretary of State records, matching the existing sourced public study. The Masonic officer, Dobbs candidate, Contentney and Raleigh addressee records form a compatible regional cluster; cross-record identity is inferred and remains qualified. Name, titles and locality do not prove spouse, parents or children.",
+      "profile_ids": [
+        "Glasgow-634"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-634",
+          "confidence": "possible",
+          "role": "Identity candidate; qualification below",
+          "basis": "Compatible North Carolina name, period and region; no postal, Masonic or election identity bridge to Glasgow-634 is established."
+        }
+      ],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#james-glasgow-north-carolina-records-1787-1795",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "1034010137",
+      "date": "1788-12-24",
+      "paper": "Poulson's American Daily Advertiser",
+      "page": "3",
+      "source_url": "https://www.newspapers.com/image/1034010137/",
+      "queries": [
+        "\"James Glafgow\" ranks41–70"
+      ],
+      "status": "confirmed surname",
+      "reading": "A Fayetteville Grand Lodge report names James Glasgow, Esq., as elected Grand Senior Warden for the ensuing year.",
+      "assessment": "The report says the lodge met on the 18th ultimo; its precise meeting date needs the complete dated report header or minutes. The two papers reprint one appointment report, not independent elections. Masonic role is distinct from Secretary of State. Provider collection label retained; contemporary masthead title has not been independently checked. Glasgow-634 is a probable candidate for the explicit North Carolina Secretary of State records, matching the existing sourced public study. The Masonic officer, Dobbs candidate, Contentney and Raleigh addressee records form a compatible regional cluster; cross-record identity is inferred and remains qualified. Name, titles and locality do not prove spouse, parents or children.",
+      "profile_ids": [
+        "Glasgow-634"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-634",
+          "confidence": "possible",
+          "role": "Identity candidate; qualification below",
+          "basis": "Compatible North Carolina name, period and region; no postal, Masonic or election identity bridge to Glasgow-634 is established."
+        }
+      ],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#james-glasgow-north-carolina-records-1787-1795",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "55583318",
+      "date": "1789-12-17",
+      "paper": "The State Gazette of North-Carolina",
+      "page": "3",
+      "source_url": "https://www.newspapers.com/image/55583318/",
+      "queries": [
+        "\"James Glafgow\" ranks41–70"
+      ],
+      "status": "confirmed surname",
+      "reading": "An Edenton report dated 17 December 1789 names James Glasgow as Deputy Grand Master among North Carolina Grand Lodge officers appointed for the ensuing year.",
+      "assessment": "Contemporary office report; actual appointment minutes and cross-record identity are not independently checked. The newspaper report date is not an exact appointment day. Glasgow-634 is a probable candidate for the explicit North Carolina Secretary of State records, matching the existing sourced public study. The Masonic officer, Dobbs candidate, Contentney and Raleigh addressee records form a compatible regional cluster; cross-record identity is inferred and remains qualified. Name, titles and locality do not prove spouse, parents or children.",
+      "profile_ids": [
+        "Glasgow-634"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-634",
+          "confidence": "possible",
+          "role": "Identity candidate; qualification below",
+          "basis": "Compatible North Carolina name, period and region; no postal, Masonic or election identity bridge to Glasgow-634 is established."
+        }
+      ],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#james-glasgow-north-carolina-records-1787-1795",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "602495286",
+      "date": "1792-01-25",
+      "paper": "The North American",
+      "page": "1",
+      "source_url": "https://www.newspapers.com/image/602495286/",
+      "queries": [
+        "\"James Glafgow\" ranks41–70"
+      ],
+      "status": "confirmed surname",
+      "reading": "A Newbern report dated 31 December names the Honorable James Glasgow as appointed Secretary of State by the North Carolina legislature.",
+      "assessment": "Two issues dated 25 January 1792 reprint the same report. The reported Thursday last is not converted into an exact appointment date; year context suggests the preceding December. No family is stated. Provider collection label retained; contemporary masthead title has not been independently checked. Glasgow-634 is a probable candidate for the explicit North Carolina Secretary of State records, matching the existing sourced public study. The Masonic officer, Dobbs candidate, Contentney and Raleigh addressee records form a compatible regional cluster; cross-record identity is inferred and remains qualified. Name, titles and locality do not prove spouse, parents or children.",
+      "profile_ids": [
+        "Glasgow-634"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-634",
+          "confidence": "probable",
+          "role": "Identity candidate; qualification below",
+          "basis": "Existing sourced public study identifies the North Carolina Secretary of State; this explicit state-office report is a probable identity match, without new family proof."
+        }
+      ],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#james-glasgow-north-carolina-records-1787-1795",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "773748049",
+      "date": "1792-01-25",
+      "paper": "The Pennsylvania Herald, and York General Advertiser",
+      "page": "2",
+      "source_url": "https://www.newspapers.com/image/773748049/",
+      "queries": [
+        "\"James Glafgow\" ranks41–70"
+      ],
+      "status": "confirmed surname",
+      "reading": "A Newbern report dated 31 December names the Honorable James Glasgow as appointed Secretary of State by the North Carolina legislature.",
+      "assessment": "Two issues dated 25 January 1792 reprint the same report. The reported Thursday last is not converted into an exact appointment date; year context suggests the preceding December. No family is stated. Glasgow-634 is a probable candidate for the explicit North Carolina Secretary of State records, matching the existing sourced public study. The Masonic officer, Dobbs candidate, Contentney and Raleigh addressee records form a compatible regional cluster; cross-record identity is inferred and remains qualified. Name, titles and locality do not prove spouse, parents or children.",
+      "profile_ids": [
+        "Glasgow-634"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-634",
+          "confidence": "probable",
+          "role": "Identity candidate; qualification below",
+          "basis": "Existing sourced public study identifies the North Carolina Secretary of State; this explicit state-office report is a probable identity match, without new family proof."
+        }
+      ],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#james-glasgow-north-carolina-records-1787-1795",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "66180042",
+      "date": "1795-10-26",
+      "paper": "The North-Carolina Journal",
+      "page": 4,
+      "source_url": "https://www.newspapers.com/image/66180042/",
+      "queries": [
+        "\"Thomas Glafgow\" 1790–1799"
+      ],
+      "status": "confirmed surname",
+      "reading": "Hon. James Glasgow, Raleigh, is an addressee in a post-office letters list dated 1 October 1795.",
+      "assessment": "Issue date 26 October 1795 differs from the list’s 1 October dateline. Thomas Banks is a separate addressee; this is not Thomas Glasgow. Raleigh is a geographic qualifier; no family or letter collection is proved. Glasgow-634 is a probable candidate for the explicit North Carolina Secretary of State records, matching the existing sourced public study. The Masonic officer, Dobbs candidate, Contentney and Raleigh addressee records form a compatible regional cluster; cross-record identity is inferred and remains qualified. Name, titles and locality do not prove spouse, parents or children.",
+      "profile_ids": [
+        "Glasgow-634"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-634",
+          "confidence": "possible",
+          "role": "Identity candidate; qualification below",
+          "basis": "Compatible North Carolina name, period and region; no postal, Masonic or election identity bridge to Glasgow-634 is established."
+        }
+      ],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#james-glasgow-north-carolina-records-1787-1795",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "1181678638",
+      "date": "1799-01-24",
+      "paper": "Kentucky Gazette",
+      "page": 3,
+      "source_url": "https://www.newspapers.com/image/1181678638/",
+      "queries": [
+        "\"Thomas Glafgow\" 1790–1799"
+      ],
+      "status": "confirmed surname",
+      "reading": "Thomas Glasgow, Kentucky, is named in a list of letters remaining at the Lexington post office, printed 24 January 1799.",
+      "assessment": "Thomas is a named addressee, and Kentucky the geographic qualifier. The Lexington post-office heading is preserved separately. The notice says uncollected letters would be returned after three months; no collection, occupation, age, household or exact residence is proved. No existing profile is identified. Glasgow-3592 and Glasgow-1620 are weak chronology-only comparisons with no Kentucky or correspondence bridge. Other compatible namesakes remain open; a birthplace or absent migration field is not an exclusion.",
+      "profile_ids": [
+        "Glasgow-3592",
+        "Glasgow-1620"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-3592",
+          "confidence": "possible",
+          "role": "Identity candidate; qualification below",
+          "basis": "Recorded exact 1 May 1777 Rathdowney birth permits age21 in1799; Irish birthplace and inherited family provide no Kentucky or postal identity bridge."
+        },
+        {
+          "profile_id": "Glasgow-1620",
+          "confidence": "possible",
+          "role": "Identity candidate; qualification below",
+          "basis": "Recorded exact 8 September1761 Currie birth permits adulthood; estimated c.1834 Midlothian death is not exact, and no Kentucky bridge is supplied."
+        }
+      ],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#thomas-glasgow-kentucky-postal-1799",
       "reviewed_on": "2026-10-05"
     }
   ]

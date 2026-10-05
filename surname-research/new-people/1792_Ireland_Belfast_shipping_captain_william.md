@@ -1,48 +1,52 @@
-# HOLD — William Glasgow, master of the brig William
+# William Glasgow, master of the brig William
 
-Reviewed 4 October 2026. The possible identity with [[Glasgow-3324|William Glasgow of Larne]] remains on HOLD. The inspected advertisements fit the occupational suggestion already attached to that profile, but do not state family or personal residence.
+HOLD — identity or record assignment remains unresolved
 
-## Identity assessment — 1792–1796 Belfast shipping newspaper
+[[Category:Glasgow Name Study]]
 
-William Glasgow; male; adult shipmaster in 1792. Exact birth/death dates and personal residence unknown. Leave birth/death locations blank: the voyage ports and ship name do not establish them.
+== Biography ==
+A Belfast notice dated 18 April 1792 advertises the brig William for Rotterdam and back to Belfast, naming William Glasgow as master and stating that the vessel would sail in eight days; freight enquiries were directed to Narcissus Batt. The surname is divided across two printed lines and indexed as Glascow. Same vessel, master and freight contact support continuity with the later Glasgow advertisements; no kin or personal residence is stated.<ref>[https://www.newspapers.com/image/72014483/ Northern Star, 21 April 1792, p.1].</ref><ref>[https://www.newspapers.com/image/72014572/ Northern Star, 25 April 1792, p.1].</ref><ref>[https://www.newspapers.com/image/72014689/ Northern Star, 28 April 1792, p.3].</ref><ref>[https://www.newspapers.com/image/72014781/ Northern Star, 2 May 1792, p.4].</ref><ref>[https://www.newspapers.com/image/72014784/ Northern Star, 5 May 1792, p.1].</ref>
 
-## Source findings — 4 October 2026 review
+Advertisements name Wm. Glasgow as master of the brig William, sailing from Belfast to Oporto and Bordeaux in 1792. <ref>[https://www.newspapers.com/image/72015499/ Northern Star, 28 July 1792, p.1].</ref><ref>[https://www.newspapers.com/image/72015521/ Northern Star, 28 July 1792, p.5].</ref><ref>[https://www.newspapers.com/image/72017846/ Northern Star, 12 December 1792, p.1].</ref><ref>[https://www.newspapers.com/image/72015527/ Northern Star, 1 August 1792, p.1].</ref><ref>[https://www.newspapers.com/image/72017668/ Northern Star, 5 December 1792, p.2].</ref><ref>[https://www.newspapers.com/image/72017751/ Northern Star, 8 December 1792, p.1].</ref>
 
-- Checked the full captured Larne biography and its inherited captain suggestion. The new advertisements substantiate a real named captain, but do not prove his household identity.
-- Glasgow-1505 (William) died in 1783 and cannot be the 1792 master.
-- The captain and 1793 Kildress delegate are documentary roles, not proved separate people; do not create duplicates from these drafts.
+January 1796 hemp and flax advertisements report the brig William as arrived from Petersburg, with clean hemp, twelve head of flax and codilla for M'Crackens & Co. Captain Glasgow is named, but his forename is not stated; continuity with the 1792 master is probable, not proved. Forename is not stated in this later advertisement; continuity with the 1792 master is probable, not proved. The provider labels image 61256880 as 7 January 1796, but its advertisement is dated Belfast, 11 January 1796; the exact publication date needs a masthead check.<ref>[https://www.newspapers.com/image/61256880/ Northern Star, 7 January 1796, p.3].</ref><ref>[https://www.newspapers.com/image/61256896/ Northern Star, 11 January 1796, p.1].</ref><ref>[https://www.newspapers.com/image/61256932/ Northern Star, 14 January 1796, p.1].</ref>
 
-- [Glasgow-3324](https://www.wikitree.com/wiki/Glasgow-3324): Larne William (c.1763–1816) has an inherited suggestion that he captained the William. Age and coastal locality fit the inspected 1792 advertisements. Neither advertisement names his wife or Larne residence.
+A separate Hugh Crawford & Co. advertisement on the 12 December 1792 page says the William, Capt. Glasgow, had arrived from Bourdeaux; the notice is dated Belfast, 3 December 1792. The same page’s sailing advertisement names Wm. Glasgow as master. Vessel, surname and port support continuity within the existing shipping cluster; the cargo notice alone gives no forename or kin. Two separate excerpts are displayed in Sources.<ref>[https://www.newspapers.com/image/72017846/ Northern Star, 12 December 1792, p.1; cargo notice dated 3 December].</ref>
 
-## Next identity test
+Hugh Crawford & Co. advertise rum landing from the Cochrane, Captain Burns, and goods from the William, Captain Glasgow, from Rotterdam; notice dated 18 January 1792. These notices name the vessel William and Captain Glasgow; no captain forename is stated in them. Independently inspected 1792 sailing advertisements explicitly name Wm./William Glasgow as master of the same brig, supporting probable continuity. Vessel names and voyage ports do not establish personal residence or kinship. Long-s typography is normalized to s.<ref>[https://www.newspapers.com/image/72012833/ Northern Star, 1792-01-18, p.4].</ref>
+
+Hugh Kearns & Co. advertise imported goods per the William, Captain Glasgow, from Rotterdam; notice dated Belfast, 9 March 1792. These notices name the vessel William and Captain Glasgow; no captain forename is stated in them. Independently inspected 1792 sailing advertisements explicitly name Wm./William Glasgow as master of the same brig, supporting probable continuity. Vessel names and voyage ports do not establish personal residence or kinship. Long-s typography is normalized to s.<ref>[https://www.newspapers.com/image/72013663/ Northern Star, 1792-03-10, p.3].</ref>
+
+The Belfast shipping arrivals list pairs the vessel William with master Glasgow, from Oporto. These notices name the vessel William and Captain Glasgow; no captain forename is stated in them. Independently inspected 1792 sailing advertisements explicitly name Wm./William Glasgow as master of the same brig, supporting probable continuity. Vessel names and voyage ports do not establish personal residence or kinship. Long-s typography is normalized to s.<ref>[https://www.newspapers.com/image/72014445/ Northern Star, 1792-04-18, p.3].</ref>
+
+J. and A. Cranston advertise smalts and other goods; Hugh and John Henderson advertise black soap, vinegar and French barley; both notices name the William, Captain Glasgow, from Rotterdam and are dated 18 July 1792. These notices name the vessel William and Captain Glasgow; no captain forename is stated in them. Independently inspected 1792 sailing advertisements explicitly name Wm./William Glasgow as master of the same brig, supporting probable continuity. Vessel names and voyage ports do not establish personal residence or kinship. Long-s typography is normalized to s.<ref>[https://www.newspapers.com/image/72015437/ Northern Star, 1792-07-18, p.3].</ref><ref>[https://www.newspapers.com/image/72015451/ Northern Star, 1792-07-21, p.1].</ref>
+
+Hugh and John Henderson advertise black soap, vinegar and French barley from the William, Captain Glasgow, from Rotterdam; notice dated 18 July 1792. These notices name the vessel William and Captain Glasgow; no captain forename is stated in them. Independently inspected 1792 sailing advertisements explicitly name Wm./William Glasgow as master of the same brig, supporting probable continuity. Vessel names and voyage ports do not establish personal residence or kinship. Long-s typography is normalized to s.<ref>[https://www.newspapers.com/image/72015480/ Northern Star, 1792-07-25, p.1].</ref><ref>[https://www.newspapers.com/image/72015527/ Northern Star, 1792-08-01, p.1].</ref><ref>[https://www.newspapers.com/image/72015583/ Northern Star, 1792-08-08, p.1].</ref>
+
+Davison, Graham & Co. advertise pot ashes from the London Packet, James Kearney, master, and a further arrival per the William, Captain Glasgow, from Oporto, alongside their usual stock of old red port wines; notice dated 14 September 1792. These notices name the vessel William and Captain Glasgow; no captain forename is stated in them. Independently inspected 1792 sailing advertisements explicitly name Wm./William Glasgow as master of the same brig, supporting probable continuity. Vessel names and voyage ports do not establish personal residence or kinship. Long-s typography is normalized to s.<ref>[https://www.newspapers.com/image/72015837/ Northern Star, 1792-09-15, p.3].</ref><ref>[https://www.newspapers.com/image/72016002/ Northern Star, 1792-09-26, p.4].</ref><ref>[https://www.newspapers.com/image/72016067/ Northern Star, 1792-10-03, p.1].</ref>
+
+Shipping intelligence reports the William, Captain Glasgow, arrived from Bordeaux. These notices name the vessel William and Captain Glasgow; no captain forename is stated in them. Independently inspected 1792 sailing advertisements explicitly name Wm./William Glasgow as master of the same brig, supporting probable continuity. Vessel names and voyage ports do not establish personal residence or kinship. Long-s typography is normalized to s.<ref>[https://www.newspapers.com/image/72017601/ Northern Star, 1792-12-01, p.3].</ref>
+
+James Hamill advertises French apples, almonds and other goods arrived per the William, Captain Glasgow, from Bordeaux; notice dated 7 December 1792. These notices name the vessel William and Captain Glasgow; no captain forename is stated in them. Independently inspected 1792 sailing advertisements explicitly name Wm./William Glasgow as master of the same brig, supporting probable continuity. Vessel names and voyage ports do not establish personal residence or kinship. Long-s typography is normalized to s.<ref>[https://www.newspapers.com/image/72017846/ Northern Star, 1792-12-12, p.1].</ref>
+
+Hugh and John Henderson advertise prunes, French plums, almonds and other goods arrived per the William, Captain Glasgow, from Bordeaux; notice dated 5 December 1792. These notices name the vessel William and Captain Glasgow; no captain forename is stated in them. Independently inspected 1792 sailing advertisements explicitly name Wm./William Glasgow as master of the same brig, supporting probable continuity. Vessel names and voyage ports do not establish personal residence or kinship. Long-s typography is normalized to s.<ref>[https://www.newspapers.com/image/72017937/ Northern Star, 1792-12-15, p.1].</ref><ref>[https://www.newspapers.com/image/72018049/ Northern Star, 1792-12-19, p.1].</ref><ref>[https://www.newspapers.com/image/72018143/ Northern Star, 1792-12-22, p.1].</ref><ref>[https://www.newspapers.com/image/72018327/ Northern Star, 1792-12-26, p.4].</ref><ref>[https://www.newspapers.com/image/72018438/ Northern Star, 1793-01-02, p.1].</ref><ref>[https://www.newspapers.com/image/72018546/ Northern Star, 1793-01-05, p.1].</ref><ref>[https://www.newspapers.com/image/72018636/ Northern Star, 1793-01-09, p.1].</ref>
+
+Shipping intelligence says the William, Captain Glasgow, belonging to Belfast, sailed from Bordeaux on the 3rd instant; an embargo order from Paris arrived there the following day, detaining four British and thirty-three Dutch vessels. The original reports an embargo, not capture of the William. The account does not explicitly say whether this vessel was among those detained after departure. The 3rd instant is relative to the report; no new exact voyage day is assigned. Captain forename unstated; continuity with the named 1792 master remains probable.<ref>[https://www.newspapers.com/image/72019727/ Northern Star, 1793-02-20, p.3].</ref>
+
+Shipping intelligence names William Glasgow as master of the Jean, from Belfast, arrived safe at Oporto on the 5th instant and expected ready to sail in twenty-one days. Jean is a different vessel from the brig William. Same named master, Belfast and Oporto support compatible continuity, not a proved identity or vessel renaming. Expected departure is not a completed voyage.<ref>[https://www.newspapers.com/image/72022133/ Northern Star, 1793-09-21, p.3].</ref>
+
+A shipping list names Jean, William Glasgow, ditto, where the preceding entry establishes ditto as master. Explicit personal name and master role; Jean remains a different vessel. No family, personal residence, age or completed voyage is supplied.<ref>[https://www.newspapers.com/image/72023508/ Northern Star, 1793-12-12, p.3].</ref>
+
+== Research Notes ==
+The possible identity with William Glasgow of Larne (Glasgow-3324) remains on HOLD. The inspected advertisements fit the occupational suggestion already attached to that profile, but do not state family or personal residence. Additional cargo and arrival notices name only Captain Glasgow; continuity with the separately named 1792 master is probable, not proved.
+
+Checked the full captured Larne biography and its inherited captain suggestion. The new advertisements substantiate a real named captain, but do not prove his household identity.
+
+Glasgow-1505 (William) died in 1783 and cannot be the 1792 master.
+
+The captain and 1793 Kildress delegate are documentary roles, not proved separate people; do not create duplicates from these drafts.
 
 Inspect the Larne will dated 6 December 1815, PRONI D300/1/5/49, for ship interests or an occupation.
 
-## Complete sourced WikiTree evidence draft
-
-```text
-[[Category:Glasgow Name Study]]
-== Biography ==
-William Glasgow was master of the brig ''William'' in 1792. A Belfast notice dated 18 April advertised the vessel ''For Rotterdam and back to Belfast'', naming William Glasgow as master and stating that she would sail in eight days; freight enquiries were directed to Narcissus Batt.<ref>[https://www.newspapers.com/image/72014483/ Northern Star, 21 April 1792, p.1].</ref> Later notices advertised voyages from Belfast to Oporto and Bordeaux.<ref>[https://www.newspapers.com/image/72015499/ Northern Star, 28 July 1792, p.1].</ref><ref>[https://www.newspapers.com/image/72015521/ Northern Star, 28 July 1792, p.5].</ref><ref>[https://www.newspapers.com/image/72017846/ Northern Star, 12 December 1792, p.1].</ref> The same Oporto/Belfast notice dated 23 July 1792 appears again on 1 August.<ref>[https://www.newspapers.com/image/72015527/ Northern Star, 1 August 1792, p.1].</ref> January 1796 notices report the ''William'' as arrived from Petersburg with clean hemp, twelve head of flax and codilla for M'Crackens & Co.; the forename is unstated.<ref>[https://www.newspapers.com/image/61256880/ Northern Star, 7 January 1796, p.3].</ref><ref>[https://www.newspapers.com/image/61256896/ Northern Star, 11 January 1796, p.1].</ref><ref>[https://www.newspapers.com/image/61256932/ Northern Star, 14 January 1796, p.1].</ref> Continuity with the 1792 master is probable, not proved.
-
-The Rotterdam advertisement dated 18 April is repeated in the 25 April 1792 issue.<ref>[https://www.newspapers.com/image/72014572/ Northern Star, 25 April 1792, p.1].</ref>
-The Rotterdam advertisement dated 18 April is repeated in the 28 April 1792 issue.<ref>[https://www.newspapers.com/image/72014689/ Northern Star, 28 April 1792, p.3].</ref>
-The Rotterdam advertisement dated 18 April is repeated in the 2 May 1792 issue.<ref>[https://www.newspapers.com/image/72014781/ Northern Star, 2 May 1792, p.4].</ref>
-The Rotterdam advertisement dated 18 April is repeated in the 5 May 1792 issue.<ref>[https://www.newspapers.com/image/72014784/ Northern Star, 5 May 1792, p.1].</ref>
-A Bordeaux and return notice dated 4 December names Wm. Glasgow as master and Narcissus Batt as freight contact.<ref>[https://www.newspapers.com/image/72017668/ Northern Star, 5 December 1792, p.2].</ref>
-A Bordeaux and return notice dated 4 December names Wm. Glasgow as master and Narcissus Batt as freight contact.<ref>[https://www.newspapers.com/image/72017751/ Northern Star, 8 December 1792, p.1].</ref>
-
-== Research Notes ==
-The possible identity with [[Glasgow-3324|William Glasgow of Larne]] remains on HOLD. The inspected advertisements fit the occupational suggestion already attached to that profile, but do not state family or personal residence.
-
 == Sources ==
 <references />
-```
-
-Public account: /research/subjects/william-glasgow-irish-newspapers/#captain-william
-
-## Additional original passages checked 4 October 2026
-
-A separate cargo advertisement on [Northern Star, 12 December 1792, p.1](https://www.newspapers.com/image/72017846/) reports the William, Capt. Glasgow, arrived from Bourdeaux for Hugh Crawford & Co.; it is dated Belfast, 3 December 1792. The sailing and cargo notices are preserved separately in Sources. Vessel, surname and port support the existing master cluster, without supplying new kin or a unique profile identity.
-
-Date warning: [image 61256880](https://www.newspapers.com/image/61256880/) is labelled 7 January 1796 by the provider, while its hemp/flax advertisement reads Belfast, 11 January 1796. Preserve both dates pending a masthead check; do not silently convert the provider label into a confirmed publication date.

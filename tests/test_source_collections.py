@@ -251,8 +251,10 @@ class SourceCollectionsTests(unittest.TestCase):
             if row in early:
                 self.assertNotIn('Saved excerpt pending', article.get_text())
         cargo = soup.find(id='newspaper-72017846')
-        self.assertEqual(len(cargo.select('figure img')), 2)
-        self.assertEqual(len({img['src'] for img in cargo.select('figure img')}), 2)
+        cargo_asset = next(a for a in manifest['assets'] if str(a['image_id']) == '72017846')
+        expected_cargo_excerpts = 1 + len(cargo_asset.get('additional_excerpts', []))
+        self.assertEqual(len(cargo.select('figure img')), expected_cargo_excerpts)
+        self.assertEqual(len({img['src'] for img in cargo.select('figure img')}), expected_cargo_excerpts)
         self.assertIn('Separate cargo advertisement', cargo.get_text())
 
     def test_parish_and_civil_collections_keep_full_tables(self):

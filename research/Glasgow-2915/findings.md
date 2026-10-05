@@ -43,3 +43,7 @@ Profile prose and trees remain leads; inspect the cited record before treating a
 ### External source links present
 
 - None detected outside WikiTree and sponsored Ancestry links.
+
+## Current conclusion — additional 1792–1793 newspaper originals, 5 October 2026
+
+William Glasgow, Kildress delegate and subsequent chairman; meeting 16 January 1793. Repeated Kildress resolutions; meeting date is 16 January 1793 from the earlier complete headed original, not the 30 January issue date. This bounded passage names Hugh Faulkner and William Glasgow as delegates and Glasgow taking the chair. No spouse, parent or birthplace is given. [Northern Star, 1793-01-30, p.4](https://www.newspapers.com/image/72019314/)
