@@ -11,6 +11,11 @@ John Glasgow is directly named as Benjamin-2059’s father and as a merchant in 
 
 ## Source findings
 
+
+### Cookstown coffee notices, 5 October 2026
+
+Further coffee-only advertisements on 17 August and 4 October 1850 list Cookstown—John Glasgow among the agents. Neither calls him a merchant or names relatives; they are repeated commercial notices, not independent family proof. Glasgow-2058 remains a possible identity comparison; Glasgow-1968 remains the weaker comparison with reported Michigan migration. These issues do not identify a profile or change family relationships. [The Sligo Champion, 1850-08-17, p.3, John Cassell coffee agents](https://www.newspapers.com/image/1256976506/) · [Belfast News-Letter, 1850-10-04, p.3, John Cassell coffee agents](https://www.newspapers.com/image/390562655/)
+
 ### Earlier tea and coffee agencies, 4 October 2026
 
 John Glasgow, explicitly called a merchant at Cookstown, appears among John Cassell coffee agents on 30 September 1848, and again in February 1849. A separate 2 February 1849 advertisement appoints him there as agent for the Russian Company’s Caravan Tea and Arabian Coffee. This extends the inspected Cookstown agency sequence to 1848–1850.

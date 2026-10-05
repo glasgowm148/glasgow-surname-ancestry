@@ -6,6 +6,11 @@ John was the husband of [Jane (Unknown) Glasgow (Unknown-764117)](https://www.wi
 
 ## Source findings
 
+
+### Cookstown coffee notices, 5 October 2026
+
+Further coffee-only advertisements on 17 August and 4 October 1850 list Cookstown—John Glasgow among the agents. Neither calls him a merchant or names relatives; they are repeated commercial notices, not independent family proof. Glasgow-2058 remains a possible identity comparison; Glasgow-1968 remains the weaker comparison with reported Michigan migration. These issues do not identify a profile or change family relationships. [The Sligo Champion, 1850-08-17, p.3, John Cassell coffee agents](https://www.newspapers.com/image/1256976506/) · [Belfast News-Letter, 1850-10-04, p.3, John Cassell coffee agents](https://www.newspapers.com/image/390562655/)
+
 ### Loughinsholin freeholder comparison, 4 October 2026
 
 The 16 August 1831 declaration lists Robert Glasgow and John Glasgow among freeholders of the barony printed Loughinshollen (modern Loughinsholin), County Londonderry, supporting Sir Robert Bateson. They are co-signatories; no kinship, occupation, age or individual townland is given. Castledawson and 4 July 1831 refer to the opposing meeting discussed in the declaration, not their homes or their signing date.
