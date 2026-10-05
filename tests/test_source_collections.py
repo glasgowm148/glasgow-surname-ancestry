@@ -297,6 +297,18 @@ class SourceCollectionsTests(unittest.TestCase):
         self.assertIn('sc-confidence-excluded', html)
         self.assertIn('conflicting chronology', html)
 
+    def test_unlikely_candidate_keeps_its_grade_and_reason_in_both_views(self):
+        row = {'profile_ids': ['Glasgow-951'], 'profile_matches': [{
+            'profile_id': 'Glasgow-951', 'confidence': 'unlikely',
+            'role': 'comparison only', 'basis': 'Estimated death precedes this notice.'}]}
+        for compact in (False, True):
+            html = profile_links(row, WEB, compact=compact)
+            self.assertIn('sc-confidence-unlikely', html)
+            self.assertIn('Estimated death precedes this notice.', html)
+            self.assertNotIn('sc-confidence-unknown', html)
+        from tools.publish_newspaper_review import profile_links as publisher_links
+        self.assertIn('sc-confidence-unlikely', publisher_links(row['profile_ids'], row['profile_matches']))
+
     def test_publisher_preserves_curated_profile_match_fields_for_cards(self):
         self.assertIn('profile_matches', PUBLIC_ROW_FIELDS)
         data = {'rows': [{'image_id': 'x', 'date': '1746-01-01', 'paper': 'Weekly Worcester Journal',

@@ -50,3 +50,4 @@
 @media(max-width:650px){.sc-newspaper{grid-template-columns:minmax(0,1fr);gap:.85rem}.sc-newspaper-media,.sc-newspaper-reading{grid-column:1/-1}.sc-newspaper-media{grid-row:auto}.sc-newspaper-reading{padding-inline:.1rem}.sc-record-year{font-size:1.45rem}.sc-targets{grid-template-columns:minmax(0,1fr)}}
 .sc-birth-kind{display:inline-block;margin-left:.3rem;padding:.08rem .35rem;border:1px solid #d9d5c6;border-radius:4px;background:#fbf8ef;color:#665d40;font-size:.7rem;font-weight:600}
 .sc-confidence-possible .sc-confidence-badge{background:#fbf5e7;color:#705b29;border-color:#e4d6b5}.sc-confidence-unknown .sc-confidence-badge{background:#f3f3ef;color:#60645a}.sc-confidence-strong .sc-confidence-badge,.sc-confidence-probable .sc-confidence-badge{background:#e8f0df;color:#345129}
+.sc-confidence-unlikely .sc-confidence-badge,.sc-confidence-excluded .sc-confidence-badge{background:#f8eeea;color:#805046;border-color:#e5c9c0}

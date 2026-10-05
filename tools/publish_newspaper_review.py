@@ -27,7 +27,7 @@ def profile_links(ids: list[str], matches: list[dict] | None = None) -> str:
         match = next((item for item in matches if str(item.get("profile_id") or item.get("id")) == ident), None)
         if match:
             confidence = str(match.get("confidence") or "unknown").casefold()
-            if confidence not in {"strong", "probable", "possible", "unknown", "excluded"}: confidence = "unknown"
+            if confidence not in {"strong", "probable", "possible", "unlikely", "unknown", "excluded"}: confidence = "unknown"
             role = f' · {escape(str(match["role"]))}' if match.get("role") else ""
             basis = f' — {escape(str(match["basis"]))}' if match.get("basis") else ""
             links.append(f'<a href="{escape(href, quote=True)}">{escape(ident)}</a> <span class="sc-confidence-{confidence}">{confidence}{role}{basis}</span>')

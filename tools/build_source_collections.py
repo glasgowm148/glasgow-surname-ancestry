@@ -185,7 +185,7 @@ def profile_links(row, web, compact=False):
         match = next((m for m in matches if (m.get('profile_id') or m.get('id')) == ident), None)
         if match:
             confidence = str(match.get('confidence') or 'unknown').casefold()
-            label = confidence if confidence in {'strong', 'probable', 'possible', 'unknown', 'excluded'} else 'unknown'
+            label = confidence if confidence in {'strong', 'probable', 'possible', 'unlikely', 'unknown', 'excluded'} else 'unknown'
             role = f' · {e(match["role"])}' if match.get('role') else ''
             basis = f' — {e(match["basis"])}' if match.get('basis') else ''
             if compact:
