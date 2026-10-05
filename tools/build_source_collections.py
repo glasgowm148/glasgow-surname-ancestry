@@ -212,6 +212,19 @@ def newspaper_groups(rows):
     return list(groups.values())
 
 
+def checked_pending_newspaper_ids(rows):
+    """Return pending rows whose original page was checked, without changing their status."""
+    return {str(row['image_id']) for row in rows
+            if row.get('status') == 'reading pending' and row.get('source_original_checked') is True}
+
+
+def newspaper_originals_reviewed_count(rows, checked_pending_ids=()):
+    """Count inspected originals, including checked rows still pending classification."""
+    checked_pending_ids = {str(ident) for ident in checked_pending_ids}
+    return sum(1 for row in rows if row.get('status') != 'reading pending'
+               or str(row.get('image_id')) in checked_pending_ids)
+
+
 def newspaper_card(row, clips, web, group=None):
     ident = str(row['image_id'])
     group = group or [row]
@@ -232,7 +245,10 @@ def newspaper_card(row, clips, web, group=None):
         if row['status'] in ('confirmed surname', 'place study'):
             message = 'Saved excerpt pending; the inspected reading and original page are linked here.'
         elif row['status'] == 'reading pending':
-            message = 'Unverified search lead; the original passage still needs inspection.'
+            if row.get('source_original_checked') is True:
+                message = 'Original passage inspected; no approved excerpt is saved, and surname classification remains pending.'
+            else:
+                message = 'Unverified search lead; the original passage still needs inspection.'
         else:
             message = 'Place, vessel or other-surname OCR match; excluded from surname evidence.'
         missing = f'<p class="sc-muted">{message}</p>'
@@ -312,7 +328,8 @@ def newspaper_body(data, clips, web, country='', year=None):
     for status, title in [('reading pending', 'Unresolved search hits'), ('place or ship', 'Excluded place, vessel and other-name matches')]:
         group = [r for r in rows if r['status'] == status]
         groups = newspaper_groups(group)
-        body += f'<details class="sc-review-log"><summary>{title} — {len(group)} pages · {len(groups)} distinct readings</summary><p>These are search leads or exclusions, not confirmed surname records.</p>' + ''.join(newspaper_card(g[0], {}, web, g) for g in groups) + '</details>'
+        available_clips = clips if status == 'reading pending' else {}
+        body += f'<details class="sc-review-log"><summary>{title} — {len(group)} pages · {len(groups)} distinct readings</summary><p>These are search leads or exclusions, not confirmed surname records.</p>' + ''.join(newspaper_card(g[0], available_clips, web, g) for g in groups) + '</details>'
     return body
 
 
@@ -321,9 +338,12 @@ def load_clips(web):
     if not manifest_path.exists(): return {}
     manifest = json.loads(manifest_path.read_text())
     result = {}
-    retained = {str(r['image_id']) for r in json.loads((ROOT / 'surname-research/indexes/glasgow-newspaper-review.json').read_text())['rows'] if r['status'] in ('confirmed surname', 'place study')}
+    review_rows = json.loads((ROOT / 'surname-research/indexes/glasgow-newspaper-review.json').read_text())['rows']
+    retained = {str(r['image_id']) for r in review_rows if r['status'] in ('confirmed surname', 'place study')}
+    checked_pending = checked_pending_newspaper_ids(review_rows)
     def approved_excerpt(item, ident):
-        if ident not in retained: raise ValueError('Clip is not an inspected retained record')
+        if ident not in retained and ident not in checked_pending:
+            raise ValueError('Clip is not an inspected retained record or an original-checked pending record')
         source = ROOT / item['source_path']
         target = web / item['public_path']
         if source.exists():
@@ -499,7 +519,8 @@ def repair(web=None):
         if category == 'census': body += census_summary(selected)
         if category == 'newspapers':
             body += '<p><a href="/sources/newspapers/supplied-clippings/">Browse all 16 distinct supplied clippings</a>, including three still awaiting exact original-page links.</p>'
-            inspected = len(newspaper['rows']) - review_counts['reading pending']
+            checked_pending = checked_pending_newspaper_ids(json.loads((ROOT / 'surname-research/indexes/glasgow-newspaper-review.json').read_text())['rows'])
+            inspected = newspaper_originals_reviewed_count(newspaper['rows'], checked_pending)
             body += f'<section class="sc-coverage"><h2>Coverage & limits</h2><p>{len(newspaper["rows"])} pages catalogued · {inspected} original passages reviewed · {review_counts["confirmed surname"]} surname pages retained · {review_counts["place study"]} place-study page · {review_counts["place or ship"]} place/vessel/other-name pages excluded · {review_counts["reading pending"]} readings pending. Searches are selective and incomplete; these totals do not measure all newspaper holdings or all Glasgow mentions.</p><p>OCR hits and highlighted search words are leads. Saved excerpts may show only part of a notice; inspect the original page before treating a reading or namesake as proved. Missing issues, uneven digitisation, spelling variants and poor OCR can hide a relevant record. Free promotional access is temporary; original links may later require a subscription.</p><details><summary>Search coverage and detailed qualifications</summary><p>' + e(newspaper['scope']) + '</p><p>' + e(' '.join(newspaper['limitations'])) + '</p></details></section>' + newspaper_body(newspaper, clips, web)
         body += browser(selected, category)
         page(category, title, body)

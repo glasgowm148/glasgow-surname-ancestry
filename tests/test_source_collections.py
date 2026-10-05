@@ -2,10 +2,24 @@
 import hashlib
 import json
 from pathlib import Path
+import struct
+import tempfile
 import unittest
+from unittest.mock import patch
+import zlib
 from bs4 import BeautifulSoup
-from tools.build_source_collections import ROOT, WEB, TYPES, guide, load_clips, newspaper_body, newspaper_card, newspaper_groups, newspaper_country, profile_links
+from tools.build_source_collections import ROOT, WEB, TYPES, guide, load_clips, newspaper_body, newspaper_card, newspaper_groups, newspaper_country, newspaper_originals_reviewed_count, profile_links
 from tools.publish_newspaper_review import PUBLIC_ROW_FIELDS, render as render_newspaper_review
+
+
+def test_png(width=549, height=83):
+    def chunk(kind, data):
+        return (struct.pack('>I', len(data)) + kind + data
+                + struct.pack('>I', zlib.crc32(kind + data) & 0xffffffff))
+    header = struct.pack('>IIBBBBB', width, height, 8, 6, 0, 0, 0)
+    row = b'\x00' + b'\xff\xff\xff\xff' * width
+    return (b'\x89PNG\r\n\x1a\n' + chunk(b'IHDR', header)
+            + chunk(b'IDAT', zlib.compress(row * height)) + chunk(b'IEND', b''))
 
 
 class SourceCollectionsTests(unittest.TestCase):
@@ -127,6 +141,72 @@ class SourceCollectionsTests(unittest.TestCase):
             self.assertIn(message, card)
             if status != 'confirmed surname':
                 self.assertNotIn('Saved excerpt pending', card)
+
+    def test_original_checked_pending_clip_is_inline_but_not_retained(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            source_path = 'research/source-library/newspaper-clippings/123.png'
+            source = root / source_path
+            source.parent.mkdir(parents=True)
+            source.write_bytes(test_png())
+            digest = hashlib.sha256(source.read_bytes()).hexdigest()
+            original = {
+                'image_id': '123', 'date': '1850-08-23', 'paper': 'Belfast News-Letter',
+                'page': 3, 'source_url': 'https://www.newspapers.com/image/123/',
+                'status': 'reading pending', 'source_original_checked': True,
+            }
+            review_path = root / 'surname-research/indexes/glasgow-newspaper-review.json'
+            review_path.parent.mkdir(parents=True)
+            review_path.write_text(json.dumps({'rows': [original]}))
+            input_dir = root / 'research/source-library'
+            input_dir.mkdir(parents=True, exist_ok=True)
+            (input_dir / 'newspaper-clippings.json').write_text(json.dumps({'assets': [{
+                'image_id': '123', 'source_path': source_path,
+                'public_path': f'assets/sources/newspapers/123-{digest[:12]}.png',
+                'sha256': digest, 'width': 549, 'height': 83,
+                'source_url': original['source_url'], 'date': original['date'],
+                'paper': original['paper'], 'page': original['page'],
+                'caption_note': 'Faithful bounded excerpt.',
+            }]}))
+            public_row = {**original, 'reading': 'Margaret Glasgow; eldest daughter of Rev. J. G. M’Gowan.',
+                          'assessment': 'Original checked; surname function unresolved; not a confirmed surname.'}
+            with patch('tools.build_source_collections.ROOT', root), patch('tools.build_source_collections.INPUT', input_dir):
+                clips = load_clips(root / 'www')
+                rendered = BeautifulSoup(newspaper_body({'rows': [public_row]}, clips, root / 'www'), 'html.parser')
+                reviewed = newspaper_originals_reviewed_count([public_row], {'123'})
+            self.assertEqual(reviewed, 1)
+            self.assertEqual(sum(r['status'] in ('confirmed surname', 'place study') for r in [public_row]), 0)
+            self.assertIn('0 retained pages', rendered.get_text())
+            self.assertEqual(len(rendered.select('#newspaper-records article.sc-newspaper')), 0)
+            pending = rendered.select('details.sc-review-log article.sc-newspaper')
+            self.assertEqual(len(pending), 1)
+            self.assertEqual(pending[0].select_one('figure img')['src'], '/' + f'assets/sources/newspapers/123-{digest[:12]}.png')
+            self.assertIn('surname function unresolved', pending[0].get_text())
+            self.assertIn('reading pending', pending[0].get_text())
+
+    def test_unchecked_pending_and_excluded_rows_cannot_use_approved_clips(self):
+        for status, original_checked in [('reading pending', False), ('place or ship', True)]:
+            with self.subTest(status=status, original_checked=original_checked), tempfile.TemporaryDirectory() as tmp:
+                root = Path(tmp)
+                source_path = 'research/source-library/newspaper-clippings/456.png'
+                source = root / source_path
+                source.parent.mkdir(parents=True)
+                source.write_bytes(test_png())
+                digest = hashlib.sha256(source.read_bytes()).hexdigest()
+                row = {'image_id': '456', 'status': status, 'source_original_checked': original_checked}
+                review_path = root / 'surname-research/indexes/glasgow-newspaper-review.json'
+                review_path.parent.mkdir(parents=True)
+                review_path.write_text(json.dumps({'rows': [row]}))
+                input_dir = root / 'research/source-library'
+                input_dir.mkdir(parents=True, exist_ok=True)
+                (input_dir / 'newspaper-clippings.json').write_text(json.dumps({'assets': [{
+                    'image_id': '456', 'source_path': source_path,
+                    'public_path': f'assets/sources/newspapers/456-{digest[:12]}.png',
+                    'sha256': digest, 'width': 549, 'height': 83,
+                }]}))
+                with patch('tools.build_source_collections.ROOT', root), patch('tools.build_source_collections.INPUT', input_dir):
+                    with self.assertRaisesRegex(ValueError, 'not an inspected retained record'):
+                        load_clips(root / 'www')
 
     def test_other_surname_ocr_exclusions_keep_the_existing_status_bucket(self):
         data = {'reviewed_at':'2026-10-05', 'title':'Review', 'scope':'Bounded sample.',
