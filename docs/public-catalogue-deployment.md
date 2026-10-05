@@ -4,7 +4,17 @@ The generated `www/` directory is the complete website root. No hosting credenti
 
 The catalogue's maintained stylesheet is `tools/catalogue-light.css`. Both the catalogue builder and unified-site repair copy it to `www/people/catalogue.css`; a full catalogue build also restores the unified light `/catalogue/` shell. `tools/check_public_catalogue.py` flags a dark stylesheet or a reverted catalogue shell before release. Package a new archive after presentation changes so old CSS cache URLs and old bundles are not reused.
 
-## Current live release — Newspaper families and notices, 5 October 2026
+## Current live release — Pre-1800 priority closure, 5 October 2026
+
+The live catalogue retains 296 pre-1800 surname pages, grouped into 155 distinct readings; every confirmed pre-1800 page has a saved clipping. Across all years, 373 retained pages display 429 approved bounded PNG excerpts. The recorded Irish broad/name/abbreviation priority queries, selected worldwide name audits and refreshed Glascow tail are closed for their displayed result sets. This is documented query closure, not proof of every surviving or unindexed newspaper mention. The 1800–1850 Irish extension follows.
+
+Twenty-six George Glasgow original pages are integrated into four qualified documentary subjects: Manchester patent, Glasgow merchant/Nethermains property, Royal Artillery reports and the separate unassigned 1774 appointment. Private-sale, adjournment and judicial-sale notices retain distinct terms; damaged margins remain visible and qualified. The complete 1795 War Office notice announces an army-major appointment. Existing-profile identities, cross-record continuity and family links remain qualified; no live WikiTree save or relationship upgrade occurred. Sources/year/country pages, subjects, five affected candidate dossiers/comparisons, Latest findings and the held queue are synchronized.
+
+Research commit: `4599242a`. All 61 focused tests pass, as do release totals, Atlas destinations, publication boundaries and asset versions. The reviewed SSH upload has zero deletions and production smoke passes. All 682 checked live files match local bytes, including every approved excerpt and affected profile readers/data. The live 1795 army-major card was visually checked in Chrome. Evidence: `artifacts/pre1850-continuation-20261005/third-batch-*`.
+
+The previous downloadable bundle represents the preceding release; a fresh complete bundle follows continuing research batches. The retained server rollback remains `/var/backups/glasgow/20261005-pre1800-sprint/site-before.tar.gz`. No Git push was performed.
+
+## Previous live release — Newspaper families and notices, 5 October 2026
 
 The live collection retains 270 pre-1800 surname pages, grouped into 144 distinct readings. Across all years, 347 retained pages display 403 approved bounded PNG excerpts. Every confirmed pre-1800 page has a saved clipping. Sources and year/country pages, consolidated subjects, 14 affected candidate dossiers/comparisons, Latest findings and the held queue are synchronized. New documentary families name Robert as son of Andrew, miller at Calder (1772), and James as son of David in the Kelso militia ballot (1798). Profile assignments remain possible; no live WikiTree save or relationship certainty upgrade occurred. The three new Robert contexts remain separate. Sixteen 1782 tannery issues and three distinct 1785 issues form two reading groups; Leith merchant notices and a rescued 1798 Secretary chest paragraph are integrated.
 
