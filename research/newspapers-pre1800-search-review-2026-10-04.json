@@ -3194,6 +3194,106 @@
       "originals_checked": 0,
       "triage": "Displayed seven cards already in earlier Ireland packet, allreused; no omitted latercards atprovider Endofresults.",
       "limitations": "No new original reading. Separate worldwide query reports93 cards and remains incomplete; Ireland query end is not global exhaustion."
+    },
+    {
+      "query": "\"William Glafgow\"",
+      "collection": "Worldwide",
+      "date_start": 1600,
+      "date_end": 1799,
+      "reviewed_on": "2026-10-05",
+      "reported_entries": 131,
+      "retrieved_entries": 30,
+      "preview_entries_screened": 30,
+      "originals_checked": 27,
+      "ranks_reviewed": [
+        102,
+        131
+      ],
+      "confirmed_surname_image_ids": [
+        "61260098",
+        "61258955",
+        "61258985",
+        "61258993",
+        "61259009",
+        "61259057",
+        "61259369",
+        "61259519",
+        "61259959",
+        "61259973",
+        "61259988",
+        "61260443",
+        "61261058"
+      ],
+      "triage": "Final exact OCR-query slice: thirteen positive pages saved; fourteen original nonmatches and three preview-only exclusions.",
+      "limitations": "All 131 displayed cards across the William query have been screened, not every original or every surname variant worldwide. Four Northern Star issue ranges checked separately."
+    },
+    {
+      "query": "\"James Glafgow\"",
+      "collection": "Worldwide",
+      "date_start": 1600,
+      "date_end": 1799,
+      "reviewed_on": "2026-10-05",
+      "reported_entries": 130,
+      "retrieved_entries": 6,
+      "preview_entries_screened": 6,
+      "originals_checked": 6,
+      "ranks_reviewed": [
+        88,
+        93
+      ],
+      "confirmed_surname_image_ids": [
+        "66180058",
+        "66180229",
+        "66180258",
+        "66180273",
+        "66180487",
+        "66180641"
+      ],
+      "triage": "Six postal originals saved; heading datelines retained separately from issue dates, including anomalous printed January1795 in1796 issues.",
+      "limitations": "Other ranks71–130 remain under original review; no global absence claim."
+    },
+    {
+      "query": "\"John Glafgow\"",
+      "collection": "Worldwide",
+      "date_start": 1600,
+      "date_end": 1799,
+      "reviewed_on": "2026-10-05",
+      "reported_entries": 93,
+      "retrieved_entries": 30,
+      "preview_entries_screened": 30,
+      "originals_checked": 11,
+      "ranks_reviewed": [
+        1,
+        30
+      ],
+      "confirmed_surname_image_ids": [
+        "39389283",
+        "1033731085",
+        "39406491",
+        "39391550",
+        "39396485",
+        "41041559"
+      ],
+      "triage": "Six surname pages retained with clean bounded crops; remaining original checks include nonmatches and reused prior reviews.",
+      "limitations": "No global completion; query count changed in next slice. Most clear city/ship previews not original-inspected."
+    },
+    {
+      "query": "\"John Glafgow\"",
+      "collection": "Worldwide",
+      "date_start": 1600,
+      "date_end": 1799,
+      "reviewed_on": "2026-10-05",
+      "reported_entries": 92,
+      "retrieved_entries": 30,
+      "preview_entries_screened": 30,
+      "originals_checked": 6,
+      "ranks_reviewed": [
+        31,
+        60
+      ],
+      "confirmed_surname_image_ids": [],
+      "triage": "No positive surname original retained; three original nonmatches and three unread targets remain unresolved.",
+      "limitations": "Preview-only exclusions are not original-verified negatives; later ranks in progress. Provider result count changed from93 to92."
     }
   ],
   "new_original_passages": {
@@ -3342,7 +3442,39 @@
       "602495286",
       "773748049",
       "66180042",
-      "1181678638"
+      "1181678638",
+      "61260098",
+      "61258955",
+      "61258985",
+      "61258993",
+      "61259009",
+      "61259057",
+      "61259369",
+      "61259519",
+      "61259959",
+      "61259973",
+      "61259988",
+      "61260443",
+      "61261058",
+      "56018161",
+      "66180058",
+      "66180229",
+      "66180258",
+      "66180273",
+      "66180487",
+      "66180641",
+      "467046163",
+      "1043526013",
+      "593171969",
+      "55411407",
+      "59123711",
+      "59123714",
+      "39389283",
+      "1033731085",
+      "39406491",
+      "39391550",
+      "41041559",
+      "39396485"
     ],
     "excluded_passage_image_ids": [
       "41038726",
@@ -3392,7 +3524,8 @@
     "Seventeen additional surname originals from William/James ranks21–40 and Robert ranks21–43 are integrated. Nine tenant issues preserve two sale stages; the two Hackman witness reports are one reprint group. Robert exact-query cards are screened to displayed end. William/James later ranks, failed Thomas pagination and broader spellings remain incomplete.",
     "William Glafgow ranks41–70 add thirteen surname issue pages and two distinct passages on already retained issues. Belfast captain forenames come only from independently named sailing notices, not the vessel William. A Falmouth master remains a separate qualified subject. Later query ranks remain in progress.",
     "Another23 surname issue pages extend the William query through rank101 and James through rank70; North Carolina records include explicit Secretary of State reports. Reprints remain one event, candidates are not elected winners, and the February1793 shipping passage reports embargo rather than capture. Broader OCR/name coverage remains incomplete.",
-    "Recovered1790sThomasGlafgow tail now has complete retained James Raleigh and Thomas Kentucky original excerpts; the latter has separate native viewer heading and entry crops. Most other tail cards remain preview-only. Seven Ireland-filtered JohnGlafgow cards rechecked to displayed end, allalreadyretained; global93-card query separatelyunderreview."
+    "Recovered1790sThomasGlafgow tail now has complete retained James Raleigh and Thomas Kentucky original excerpts; the latter has separate native viewer heading and entry crops. Most other tail cards remain preview-only. Seven Ireland-filtered JohnGlafgow cards rechecked to displayed end, allalreadyretained; global93-card query separatelyunderreview.",
+    "Thirty-two additional original surname pages are integrated with readable approved excerpts, candidate assessments and subject drafts. William’s131-card OCR query is screened to displayed end. James later ranks and John tail remain in progress; other OCR spellings and broader surname searches are not exhaustive."
   ],
   "search_pause_history": [
     {

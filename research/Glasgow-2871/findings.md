@@ -31,3 +31,35 @@ John Glascow is appointed to provide for distressed families of Associators in a
 ## Next questions
 
 Inspect original Chester County land, tax and committee papers, township residence and signatures; compare the records behind Glasgow-2871 and Glasgow-4027 before linking the subjects.
+
+## Current conclusion — additional newspaper originals, 5 October 2026
+
+John Glasgow, Nottingham/Chester postal and near-Oxford book records, 1758–1771: Compatible adult/Chester County namesake, especially for 1771 after the elder’s recorded 1769 death; no individual postal or book-agent bridge. The earlier Nottingham/Chester County/near-Oxford entries fit Glasgow-2870 as a probable candidate; Glasgow-2871 remains possible. This is a qualified regional documentary cluster, potentially more than one John. A postal list does not prove the addressee alive: the elder’s recorded May 1769 death does not absolutely exclude posthumous mail in 1771. No parent, spouse or child is proved by these notices. No family or life-date change follows.
+
+## Source findings
+
+John Glasgow, Nottingham, is an addressee in letters remaining at Philadelphia post office. Postal-office and address context retained; an addressee is not proof of residence, letter collection, occupation, household or continued life. Nearby addressees and their localities are separate. The earlier Nottingham/Chester County/near-Oxford entries fit Glasgow-2870 as a probable candidate; Glasgow-2871 remains possible. This is a qualified regional documentary cluster, potentially more than one John. A postal list does not prove the addressee alive: the elder’s recorded May 1769 death does not absolutely exclude posthumous mail in 1771. No parent, spouse or child is proved by these notices. [The Pennsylvania Gazette, 1758-01-12, p.1](https://www.newspapers.com/image/39389283/)
+
+John Glasgow, in Nottingham Township, Chester County, is an addressee in letters remaining at Chester post office. Postal-office and address context retained; an addressee is not proof of residence, letter collection, occupation, household or continued life. Nearby addressees and their localities are separate. The earlier Nottingham/Chester County/near-Oxford entries fit Glasgow-2870 as a probable candidate; Glasgow-2871 remains possible. This is a qualified regional documentary cluster, potentially more than one John. A postal list does not prove the addressee alive: the elder’s recorded May 1769 death does not absolutely exclude posthumous mail in 1771. No parent, spouse or child is proved by these notices. [The Pennsylvania Journal, or, Weekly Advertiser, 1765-10-17, p.1](https://www.newspapers.com/image/1033731085/)
+
+John Glasgow, Nottingham, is an addressee in letters remaining at Chester post office. Postal-office and address context retained; an addressee is not proof of residence, letter collection, occupation, household or continued life. Nearby addressees and their localities are separate. The earlier Nottingham/Chester County/near-Oxford entries fit Glasgow-2870 as a probable candidate; Glasgow-2871 remains possible. This is a qualified regional documentary cluster, potentially more than one John. A postal list does not prove the addressee alive: the elder’s recorded May 1769 death does not absolutely exclude posthumous mail in 1771. No parent, spouse or child is proved by these notices. [The Pennsylvania Gazette, 1765-11-28, p.4](https://www.newspapers.com/image/39406491/)
+
+John Glasgow near Oxford is listed among people taking in subscriptions for De Jure Regni; advertisement dated 22 May 1766. The notice explicitly says subscriptions are taken in by the named people: John is a listed subscription collector/agent, not a proved paying subscriber. Oxford is preserved without assigning a modern jurisdiction; locality comparison is qualified. The earlier Nottingham/Chester County/near-Oxford entries fit Glasgow-2870 as a probable candidate; Glasgow-2871 remains possible. This is a qualified regional documentary cluster, potentially more than one John. A postal list does not prove the addressee alive: the elder’s recorded May 1769 death does not absolutely exclude posthumous mail in 1771. No parent, spouse or child is proved by these notices. [The Pennsylvania Gazette, 1766-05-29, p.4](https://www.newspapers.com/image/39391550/)
+
+John Glasgow, in West Nottingham, Chester County, and William Glasgow are separate addressees in the Charles-Town, Maryland, post-office list headed 1 October 1771. Postal-office and address context retained; an addressee is not proof of residence, letter collection, occupation, household or continued life. Nearby addressees and their localities are separate. The original heading says Charles-Town, Maryland, not Anne Arundel County. Sydney George is a separate next addressee; Cecil County accompanies Sydney, not a newly established address for William. The earlier Nottingham/Chester County/near-Oxford entries fit Glasgow-2870 as a probable candidate; Glasgow-2871 remains possible. This is a qualified regional documentary cluster, potentially more than one John. A postal list does not prove the addressee alive: the elder’s recorded May 1769 death does not absolutely exclude posthumous mail in 1771. No parent, spouse or child is proved by these notices. [Maryland Gazette, 1771-10-24, p.3](https://www.newspapers.com/image/41041559/)
+
+## Next questions
+
+Check the family Bible/migration/probate evidence behind Glasgow-2870 and Glasgow-2871, original Chester County tax and land records, and book-subscription accounts for individual identifiers.
+
+## Current conclusion — additional newspaper originals, 5 October 2026
+
+John Glasgow, Kensing-/ton postal entry, 1769: Chronological/regional namesake; no identifying Kensing-/ton bridge. No existing profile is identified. Nottingham candidates Glasgow-2870 and Glasgow-2871 are compatible namesakes without a place or postal bridge; the elder’s earlier recorded death does not absolutely exclude posthumous mail. Keep this separate from the Nottingham cluster. No family or life-date change follows.
+
+## Source findings
+
+John Glasgow, Kensing- / ton, is an addressee in letters remaining at Philadelphia post office. Original Philadelphia post-office heading and entry saved separately. The place is printed across lines as Kensing- / ton; no individual, residence, life status or link to the Nottingham cluster is established. No existing profile is identified. Nottingham candidates Glasgow-2870 and Glasgow-2871 are compatible namesakes without a place or postal bridge; the elder’s earlier recorded death does not absolutely exclude posthumous mail. Keep this separate from the Nottingham cluster. [The Pennsylvania Gazette, 1769-10-26, p.1](https://www.newspapers.com/image/39396485/)
+
+## Next questions
+
+Check original Philadelphia/Kensington tax, directories, land and probate records, and candidate sources; seek an identifier beyond the name.

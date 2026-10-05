@@ -56,3 +56,9 @@ William Glasgow is listed among letters remaining in the Philadelphia post offic
 ## Next questions
 
 Compare original Cecil County tax, land and probate records and Philadelphia postal notices; seek signatures or family identifiers before joining these entries.
+
+## Current conclusion — 1771 William postal entry, 5 October 2026
+
+These are three independently retained entries, consolidated as an unresolved name study. They may concern different men. No continuous Cecil County residence or identity with the 1775 Maryland William Glascoe, Lady Forbes master, or an Irish William is proved. A fourth retained entry in the 1771 Charles-Town list remains a compatible unresolved name occurrence, without a bridge to the earlier entries or the separately listed John.
+
+William Glasgow is separately listed in the Charles-Town, Maryland, post-office letters notice headed 1 October 1771, beside an entry for John Glasgow of West Nottingham. William has no separately established locality in this line. Sydney George is the next named addressee, with Cecil County attached to Sydney. Colisting does not prove kinship with John, a continuous Maryland residence, letter collection or that William was still alive. [Maryland Gazette, 1771-10-24, p.3](https://www.newspapers.com/image/41041559/)
