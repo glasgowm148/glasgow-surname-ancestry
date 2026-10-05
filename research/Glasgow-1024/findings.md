@@ -15,9 +15,9 @@ The death about 1831 is not merely uncertain: it is unsupported and should be re
 | Date | Pedigree development |
 |---|---|
 | 1990 | Faris calls Robert a son of “James Glasgow of Moneymore”; the accessible summary supplies no father vital dates. |
-| 1995 | World Family Tree 6075 supplies James c.1722, Mary c.1727, marriage c.1748 and three sons, but no death for either parent. |
+| 1995 | World Family Tree 6075 supplies James c. 1722, Mary c. 1727, marriage c. 1748 and three sons, but no death for either parent. |
 | 2010 | Earliest recovered WeRelate copy still has no death event. |
-| Later | Unsourced 1803 and then c.1831 deaths appear in online trees. |
+| Later | Unsourced 1803 and then c. 1831 deaths appear in online trees. |
 
 The strongest specific source of 1831 contamination is [Glasgow-4024](https://www.wikitree.com/wiki/Glasgow-4024), the Cookstown man buried on 13 March 1831 aged 40. This cannot prove how the error arose, but it proves that the nearby exact-name burial belongs to another generation.
 
@@ -91,10 +91,10 @@ Live verification on 21 August 2026 confirmed that the revised WikiTree biograph
 | --- | --- | --- |
 | [Glasgow-1024](https://www.wikitree.com/wiki/Glasgow-1024) | Faris's late description of Robert as a son of “James Glasgow of Moneymore”; later compiled 1722/Mary Harkness pedigree | Target identity; vital dates, wife and migration remain unproved |
 | [Glasgow-3137](https://www.wikitree.com/wiki/Glasgow-3137) | Original 1766 Kildress return names Protestant householder James Glasgow at Corvanaghan | Strongest documented local candidate; the record gives no age, wife, children or later history |
-| [Glasgow-2988](https://www.wikitree.com/wiki/Glasgow-2988) | Estimated c.1720 profile with a Cookstown-area association | Cannot be ruled out, but has no uniquely identifying record; its use of the Corvanaghan occurrence duplicates Glasgow-3137 |
+| [Glasgow-2988](https://www.wikitree.com/wiki/Glasgow-2988) | Estimated c. 1720 profile with a Cookstown-area association | Cannot be ruled out, but has no uniquely identifying record; its use of the Corvanaghan occurrence duplicates Glasgow-3137 |
 | [Glasgow-1970](https://www.wikitree.com/wiki/Glasgow-1970) | The 1879 Hillsdale history says James and his Mitchell wife migrated from Scotland to northern Ireland about 1750 and settled near Cookstown | Plausible separate family reconstruction and possible candidate; no record links it specifically to Corvanaghan or Moneymore |
 | [Glasgow-1025](https://www.wikitree.com/wiki/Glasgow-1025) | 1759 estate/probate index for James Glasgow of Drumearn | Unlikely to be the later emigrant if the estate proceeding followed his death |
-| [Glasgow-2989](https://www.wikitree.com/wiki/Glasgow-2989) | Estimated c.1740 Derryloran profile, attached to Glasgow-2988 | Tree relationship only; could instead represent either 1766 Drumearn householder or another man |
+| [Glasgow-2989](https://www.wikitree.com/wiki/Glasgow-2989) | Estimated c. 1740 Derryloran profile, attached to Glasgow-2988 | Tree relationship only; could instead represent either 1766 Drumearn householder or another man |
 | [Glasgow-3444](https://www.wikitree.com/wiki/Glasgow-3444) and [Glasgow-3986](https://www.wikitree.com/wiki/Glasgow-3986) | Born 1776 Cookstown and 1773 Larne respectively | Later generation; excluded as Robert's father |
 | Early Augusta/Cecil James | American deed references from 1747–1753 | Cannot be Robert's father without evidence of return travel because Robert said he was born in Ireland in 1749 |
 
@@ -167,3 +167,8 @@ The James results were inspected rather than assigned by name alone. They
 belong to already-separated men in Larne and the Aghadonvane/Leitrim-Donegal
 network, including the Larne ropemaker and farmer and James of Aghadonvane.
 Examples include the [1766 Larne ropemaker deed](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJW-J9XP-J), the [1776 Aghadonvane mortgage](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJW-N9YN-4), the [1780 Aghadonvane transaction](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJW-P9LW-G), and the [1778 Larne farmer affidavit](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSH3-9WVP-C). None names Moneymore, Derryloran, Cookstown, Kilrea, Mary Harkness, or the emigrant sibling group. No result can therefore be assigned to Glasgow-1024.
+
+
+## Source findings
+
+5 October 2026 candidate review: Estimated birth c. 1722 and Moneymore context are compatible; neither identifies the Omagh publican. [James Glasco of Omagh’s 1786 marriage and 1793 business notices](/research/subjects/newspapers-early-glasgow/#james-glasco-omagh) are retained as documentary evidence. This profile is a possible candidate; no spouse, parent, occupation or place is attached. The 1786 groom and 1793 contact are probably the same man, with no proved profile bridge.

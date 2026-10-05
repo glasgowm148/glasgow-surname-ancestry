@@ -38,6 +38,7 @@ TYPES = {
 COUNTRIES = ['Ireland', 'Scotland', 'England', 'United States', 'Canada', 'Australia', 'New Zealand', 'Netherlands']
 PERIODS = {'before-1800': ('Before 1800', 0, 1799), '1800-1849': ('1800–1849', 1800, 1849), '1850-1899': ('1850–1899', 1850, 1899), '1900-1949': ('1900–1949', 1900, 1949), '1950-onwards': ('1950 onwards', 1950, 9999), 'undated': ('Year unresolved', None, None)}
 _PEOPLE_INDEX_CACHE = {}
+_PROFILE_VITALS_CACHE = {}
 
 
 def profile_life_dates(person):
@@ -50,7 +51,7 @@ def profile_life_dates(person):
         if value is None: return '?'
         value = str(value)
         uncertain = status.casefold() in {'estimated', 'approximate', 'uncertain', 'about'}
-        if uncertain and not re.match(r'^(?:c\.?|about|abt\.?|circa)\s', value, re.I):
+        if uncertain and not re.match(r'^(?:c\.?|about|abt\.?|circa|before|after)\s', value, re.I):
             return 'c. ' + value
         return value
     bstatus = (vitals.get('birth') or {}).get('status') or person.get('birth_status', '')
@@ -169,6 +170,15 @@ def profile_links(row, web):
         href = local if (web / local.lstrip('/')).exists() else 'https://www.wikitree.com/wiki/' + ident
         person = people.get(ident, {})
         name = person.get('name') or ident
+        dossier_path = web / 'people' / (ident.lower() + '.json')
+        if dossier_path.exists():
+            try:
+                key = (str(dossier_path), dossier_path.stat().st_mtime_ns)
+                if key not in _PROFILE_VITALS_CACHE:
+                    _PROFILE_VITALS_CACHE[key] = json.loads(dossier_path.read_text()).get('vitals', {})
+                person = {**person, 'reviewed_vitals': _PROFILE_VITALS_CACHE[key]}
+            except (OSError, ValueError):
+                pass
         dates = profile_life_dates(person)
         match = next((m for m in matches if (m.get('profile_id') or m.get('id')) == ident), None)
         if match:

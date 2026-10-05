@@ -44,6 +44,9 @@ placeholder `Glasgow-3905`.
 
 ## Source findings
 
+5 October 2026: this profile remains a possible County Londonderry contemporary of the John Glasco listed 24 September 1799. The [original roster and 1798 Dublin comparison](/research/subjects/newspapers-early-glasgow/#john-glasco-irish-rosters) do not identify him or establish a family relationship. The 1799 list category is unresolved; do not call him a juror or freeholder.
+
+
 | Source | Finding | Evidence effect |
 | --- | --- | --- |
 | John and Mary Glasgow family Bible, images saved as [page 1](sources/john_glasgow_bible_1.jpeg) and [page 2](sources/john_glasgow_bible_2.jpeg) | Records John's birth on 10 April 1767, Mary's birth on 25 March 1774, their marriage on 21 May 1798, nine children, and son James's death on 20 April 1823. The death entry gives **no place**. | Primary family evidence. It disproves the derivative claim that the Bible places the family in Ohio in 1823. |

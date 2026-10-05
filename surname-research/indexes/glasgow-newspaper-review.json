@@ -1,8 +1,8 @@
 {
-  "reviewed_at": "2026-10-04",
+  "reviewed_at": "2026-10-05",
   "title": "Glasgow surname and research-study newspaper records",
   "scope": "Pre-1800 priority continuation: 51 full-name forms previously queried in both Irish collections, plus 16 abbreviation queries; worldwide spelling checks and extra original highlights remain bounded and incomplete. Nine earliest unresolved shipping passages are now excluded. A direct 1768 Philip Glasco marriage report is retained. The separate 1800–1850 log records 59 distinct queries, 758 retrieved entries, 735 readable first previews and 45 newly resolved original pages; later work remains incomplete.",
-  "conclusion": "The original 1768 marriage report identifies Phil. Glasco the younger, a Dublin watchmaker, and Teresa Plunkett. The existing Philip junior profile is compatible; no father relationship is upgraded. Pre-1800 source excerpts are being completed individually, with separate notices on the same page preserved separately. John’s 1760 Nottingham store was planned by the end of September, correcting the earlier 1 September reading. The 1796 hemp/flax page has a provider-date conflict. Existing Irish family and Cookstown conclusions retain their prior qualifications.",
+  "conclusion": "Verified Glasgow/Glasco/Glascow surname passages are retained with original links, approved excerpts and record-specific identity assessments. Repeated readings share one card while every issue is preserved. The 1786 Omagh marriage and 1793 business contact probably concern one James Glasco; no existing-profile identity or family attachment is proved. Wider pre 1800 searches remain incomplete.",
   "limitations": [
     "Inspected catalogue pages and retained surname pages are different counts. The place-study notice is not surname evidence.",
     "The 1829 page is the original of a previously known derivative extract, not a second independent occurrence.",
@@ -22,7 +22,8 @@
     "James NI153 entries were fully retrieved;151 first previews read,two whole-page crime duplicates too small. Every page carousel was not exhausted. New nine originals are privately captured; current profile call/ordination correction is locally queued, not saved live.",
     "John NI 95 and Ireland 109 first previews were all screened; their repeated merchant advertisements are not independent family confirmations. A separate damaged 1849 marriage reading stays pending. Co-signatories are not necessarily relatives; Castledawson 4 July is the opposing meeting, not their residence/signing date. Probate-office locality and grant year do not prove residence or date of death.",
     "Parallel continuation on 4 October 2026: worldwide Glascow loaded 180 of 306 results before a provider result-loader failure; the later Glafco search showed 21 previews, all loaded, but not all originals were inspected. Search counts changed between observations. Abbreviation zero results do not establish absence. Pre-1800 completeness has not been established across all digitised newspapers or all highlights.",
-    "The expanded long-s variant search displayed 28 matches but 27 unique preview cards were retrieved. Newly inspected 1746 and 1765 originals are retained; other previews remain leads. Complete pre-1800 coverage has not been established."
+    "The expanded long-s variant search displayed 28 matches but 27 unique preview cards were retrieved. Newly inspected 1746 and 1765 originals are retained; other previews remain leads. Complete pre-1800 coverage has not been established.",
+    "5 October 2026 batch: 9 additionalpre 1800 surname pages with excerpts. WorldwideGlascow loading gaps and external-worker capture failures remain unresolved; query cards and OCR/no-match results are not verified absences. Date boundaries in profile indexes are not actual event years."
   ],
   "rows": [
     {
@@ -5719,6 +5720,383 @@
         }
       ],
       "reviewed_on": "2026-10-04"
+    },
+    {
+      "date": "1780-12-12",
+      "paper": "The Public Register, or, Freeman's Journal",
+      "page": 6,
+      "source_url": "https://www.newspapers.com/image/1050050300/",
+      "image_id": "1050050300",
+      "queries": [
+        "\"Glafco\""
+      ],
+      "status": "confirmed surname",
+      "reading": "Michael Rogers, for assaulting the Rev. Manasses Glasco, ordered to pay ten guineas, to be distributed in public charities by the prosecutor.",
+      "assessment": "The original directly supports the clerical title Rev. for Manasses Glasco in 1780. Glasco-170 is a probable match to the Monkstown family account; his recorded birth BEFORE 1766 is a boundary, not a 1766 birth. The notice names no relatives or parish appointment. No relationship is upgraded.",
+      "profile_ids": [
+        "Glasco-170"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasco-170",
+          "confidence": "probable",
+          "role": "Reverend named as assault victim",
+          "basis": "Distinctive full name, clerical title, Dublin setting and chronology agree with the existing Manasses account. This does not prove his Monkstown appointment or family relationships."
+        }
+      ],
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "date": "1786-09-05",
+      "paper": "The Public Register, or, Freeman's Journal",
+      "page": 3,
+      "source_url": "https://www.newspapers.com/image/1050075355/",
+      "image_id": "1050075355",
+      "queries": [
+        "\"Glafco\""
+      ],
+      "status": "confirmed surname",
+      "reading": "Mr. James Glasco, of Omagh, publican, aged 61, to Miss Jane Murray, of same place, aged 16.",
+      "assessment": "James is an Omagh publican, aged 61, marrying Jane Murray, aged 16. The report implies approximate birth c.1724–1725 and c.1769–1770 respectively; no exact ceremony day is printed. The 1793 Omagh contact is probably the same man. Glasgow-3944 is the leading compatible profile, with surviving alternatives; no profile identity, parent or new spouse attachment is proved.",
+      "profile_ids": [
+        "Glasgow-3944",
+        "Glasgow-1024",
+        "Glasgow-2988",
+        "Glasco-148",
+        "Glasgow-1970"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-3944",
+          "confidence": "possible",
+          "role": "candidate for Omagh groom",
+          "basis": "Birth before 1726 fits the reported age; the 1744 Dublin baptism names James Glasco and Cathrine. No source bridges Dublin to Omagh."
+        },
+        {
+          "profile_id": "Glasgow-1024",
+          "confidence": "possible",
+          "role": "candidate for Omagh groom",
+          "basis": "Estimated birth c.1722 and Moneymore context are compatible; neither identifies the Omagh publican."
+        },
+        {
+          "profile_id": "Glasgow-2988",
+          "confidence": "possible",
+          "role": "candidate for Omagh groom",
+          "basis": "Estimated birth c.1720 and Tyrone context leave a possible namesake; age differs and no Omagh bridge is known."
+        },
+        {
+          "profile_id": "Glasco-148",
+          "confidence": "possible",
+          "role": "candidate for Omagh groom",
+          "basis": "Uncertain 1730 birth conflicts with the reported age by about five years; Dublin carpenter context supplies no Omagh bridge, but the date is not firm."
+        },
+        {
+          "profile_id": "Glasgow-1970",
+          "confidence": "possible",
+          "role": "candidate for Omagh groom",
+          "basis": "Estimated birth c.1730 and Cookstown connection leave a weaker possibility with an age discrepancy."
+        }
+      ],
+      "reviewed_on": "2026-10-05",
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#james-glasco-omagh"
+    },
+    {
+      "date": "1798-05-29",
+      "paper": "The Public Register, or, Freeman's Journal",
+      "page": 4,
+      "source_url": "https://www.newspapers.com/image/1214061848/",
+      "image_id": "1214061848",
+      "queries": [
+        "\"Glafco\""
+      ],
+      "status": "confirmed surname",
+      "reading": "John Glasco is listed PRESENT in the Black-Rock Association, Half Barony of Rathdown, County Dublin, meeting on 8 May 1798 to carry the county proclamation into effect.",
+      "assessment": "This is an association attendance list, not a jury. His age, relatives and occupation are absent. The 1799 Londonderry namesake has not been linked to this attendee; different locations alone do not exclude shared identity.",
+      "profile_ids": [],
+      "profile_matches": [],
+      "reviewed_on": "2026-10-05",
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#john-glasco-irish-rosters"
+    },
+    {
+      "date": "1799-09-24",
+      "paper": "The Public Register, or, Freeman's Journal",
+      "page": 2,
+      "source_url": "https://www.newspapers.com/image/1214179229/",
+      "image_id": "1214179229",
+      "queries": [
+        "\"Glafco\""
+      ],
+      "status": "confirmed surname",
+      "reading": "John Glasco appears in the continued roster; the previous page has the heading COUNTY OF LONDONDERRY.",
+      "assessment": "The linked previous-page heading supplies county context. The list category remains unresolved; do not label him a juror, freeholder or militiaman. The separate UNION paragraph concerning Grand Jurors does not classify this later roster. No bridge to the 1798 Dublin attendee is established.",
+      "profile_ids": [
+        "Glasgow-3927",
+        "Glasgow-4090",
+        "Glasgow-822"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-3927",
+          "confidence": "possible",
+          "role": "candidate for 1799 Londonderry roster bearer",
+          "basis": "Estimated 1767 birth at Inishrush, County Londonderry, fits an adult contemporary; no roster bridge."
+        },
+        {
+          "profile_id": "Glasgow-4090",
+          "confidence": "possible",
+          "role": "candidate for 1799 Londonderry roster bearer",
+          "basis": "Birth before 1772 at Desertoghill, County Londonderry, is compatible; the boundary is not an exact birth year."
+        },
+        {
+          "profile_id": "Glasgow-822",
+          "confidence": "possible",
+          "role": "candidate for 1799 Londonderry roster bearer",
+          "basis": "Recorded 1767 Irish birth and Inishrush connections are compatible; no direct link to this roster or Dublin association."
+        }
+      ],
+      "reviewed_on": "2026-10-05",
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#john-glasco-irish-rosters"
+    },
+    {
+      "date": "1766-06-17",
+      "paper": "The Public Register, or, Freeman's Journal",
+      "page": 2,
+      "image_id": "1050032001",
+      "source_url": "https://www.newspapers.com/image/1050032001/",
+      "queries": [
+        "\"Glafco\""
+      ],
+      "status": "confirmed surname",
+      "profile_ids": [],
+      "profile_matches": [],
+      "reviewed_on": "2026-10-05",
+      "reading": "Mr. Glasco sailed in the King of Prussia, Barry, for Parkgate.",
+      "assessment": "A surname-only passenger occurrence. No forename, age, residence or family is stated. The two 1766 passenger notices may concern the same person, but no identity or return journey is proved.",
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#glasco-passengers-1766"
+    },
+    {
+      "date": "1766-08-23",
+      "paper": "The Public Register, or, Freeman's Journal",
+      "page": 3,
+      "image_id": "1050032672",
+      "source_url": "https://www.newspapers.com/image/1050032672/",
+      "queries": [
+        "\"Glafco\""
+      ],
+      "status": "confirmed surname",
+      "profile_ids": [],
+      "profile_matches": [],
+      "reviewed_on": "2026-10-05",
+      "reading": "Glasco appears among the passengers who arrived in the Fortescue-packet from Holyhead; the paragraph is headed 22.",
+      "assessment": "A surname-only passenger occurrence. No forename, age, residence or family is stated. The two 1766 passenger notices may concern the same person, but no identity or return journey is proved.",
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#glasco-passengers-1766"
+    },
+    {
+      "date": "1793-05-11",
+      "paper": "The Northern Star",
+      "page": 1,
+      "image_id": "72021067",
+      "source_url": "https://www.newspapers.com/image/72021067/",
+      "queries": [
+        "\"Glafco\""
+      ],
+      "status": "confirmed surname",
+      "profile_ids": [
+        "Glasgow-3944",
+        "Glasgow-1024",
+        "Glasgow-2988",
+        "Glasco-148",
+        "Glasgow-1970"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-3944",
+          "confidence": "possible",
+          "role": "candidate for Omagh shipping contact",
+          "basis": "Birth before 1726 fits the reported age; the 1744 Dublin baptism names James Glasco and Cathrine. No source bridges Dublin to Omagh."
+        },
+        {
+          "profile_id": "Glasgow-1024",
+          "confidence": "possible",
+          "role": "candidate for Omagh shipping contact",
+          "basis": "Estimated birth c.1722 and Moneymore context are compatible; neither identifies the Omagh publican."
+        },
+        {
+          "profile_id": "Glasgow-2988",
+          "confidence": "possible",
+          "role": "candidate for Omagh shipping contact",
+          "basis": "Estimated birth c.1720 and Tyrone context leave a possible namesake; age differs and no Omagh bridge is known."
+        },
+        {
+          "profile_id": "Glasco-148",
+          "confidence": "possible",
+          "role": "candidate for Omagh shipping contact",
+          "basis": "Uncertain 1730 birth conflicts with the reported age by about five years; Dublin carpenter context supplies no Omagh bridge, but the date is not firm."
+        },
+        {
+          "profile_id": "Glasgow-1970",
+          "confidence": "possible",
+          "role": "candidate for Omagh shipping contact",
+          "basis": "Estimated birth c.1730 and Cookstown connection leave a weaker possibility with an age discrepancy."
+        }
+      ],
+      "reviewed_on": "2026-10-05",
+      "reading": "For Newcastle and Philadelphia: the Hope, master Abner Lowell; freight or passage contact Mr. James Glasco, Omagh. Notice dated Londonderry, 25 April 1793, signed Robert Burnside.",
+      "assessment": "Named Omagh business contact, probably the 1786 publican. He is not stated to be a passenger or emigrant. The 11 and 18 May copies carry the same maintained notice reading; the 25 May copy adds a sailing delay and remains distinct. All profile candidates are possible, with no proved connection.",
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#james-glasco-omagh"
+    },
+    {
+      "date": "1793-05-18",
+      "paper": "The Northern Star",
+      "page": 4,
+      "image_id": "72021086",
+      "source_url": "https://www.newspapers.com/image/72021086/",
+      "queries": [
+        "\"Glafco\""
+      ],
+      "status": "confirmed surname",
+      "profile_ids": [
+        "Glasgow-3944",
+        "Glasgow-1024",
+        "Glasgow-2988",
+        "Glasco-148",
+        "Glasgow-1970"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-3944",
+          "confidence": "possible",
+          "role": "candidate for Omagh shipping contact",
+          "basis": "Birth before 1726 fits the reported age; the 1744 Dublin baptism names James Glasco and Cathrine. No source bridges Dublin to Omagh."
+        },
+        {
+          "profile_id": "Glasgow-1024",
+          "confidence": "possible",
+          "role": "candidate for Omagh shipping contact",
+          "basis": "Estimated birth c.1722 and Moneymore context are compatible; neither identifies the Omagh publican."
+        },
+        {
+          "profile_id": "Glasgow-2988",
+          "confidence": "possible",
+          "role": "candidate for Omagh shipping contact",
+          "basis": "Estimated birth c.1720 and Tyrone context leave a possible namesake; age differs and no Omagh bridge is known."
+        },
+        {
+          "profile_id": "Glasco-148",
+          "confidence": "possible",
+          "role": "candidate for Omagh shipping contact",
+          "basis": "Uncertain 1730 birth conflicts with the reported age by about five years; Dublin carpenter context supplies no Omagh bridge, but the date is not firm."
+        },
+        {
+          "profile_id": "Glasgow-1970",
+          "confidence": "possible",
+          "role": "candidate for Omagh shipping contact",
+          "basis": "Estimated birth c.1730 and Cookstown connection leave a weaker possibility with an age discrepancy."
+        }
+      ],
+      "reviewed_on": "2026-10-05",
+      "reading": "For Newcastle and Philadelphia: the Hope, master Abner Lowell; freight or passage contact Mr. James Glasco, Omagh. Notice dated Londonderry, 25 April 1793, signed Robert Burnside.",
+      "assessment": "Named Omagh business contact, probably the 1786 publican. He is not stated to be a passenger or emigrant. The 11 and 18 May copies carry the same maintained notice reading; the 25 May copy adds a sailing delay and remains distinct. All profile candidates are possible, with no proved connection.",
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#james-glasco-omagh"
+    },
+    {
+      "date": "1793-05-25",
+      "paper": "The Northern Star",
+      "page": 1,
+      "image_id": "72021100",
+      "source_url": "https://www.newspapers.com/image/72021100/",
+      "queries": [
+        "\"Glafco\""
+      ],
+      "status": "confirmed surname",
+      "profile_ids": [
+        "Glasgow-3944",
+        "Glasgow-1024",
+        "Glasgow-2988",
+        "Glasco-148",
+        "Glasgow-1970"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-3944",
+          "confidence": "possible",
+          "role": "candidate for Omagh shipping contact",
+          "basis": "Birth before 1726 fits the reported age; the 1744 Dublin baptism names James Glasco and Cathrine. No source bridges Dublin to Omagh."
+        },
+        {
+          "profile_id": "Glasgow-1024",
+          "confidence": "possible",
+          "role": "candidate for Omagh shipping contact",
+          "basis": "Estimated birth c.1722 and Moneymore context are compatible; neither identifies the Omagh publican."
+        },
+        {
+          "profile_id": "Glasgow-2988",
+          "confidence": "possible",
+          "role": "candidate for Omagh shipping contact",
+          "basis": "Estimated birth c.1720 and Tyrone context leave a possible namesake; age differs and no Omagh bridge is known."
+        },
+        {
+          "profile_id": "Glasco-148",
+          "confidence": "possible",
+          "role": "candidate for Omagh shipping contact",
+          "basis": "Uncertain 1730 birth conflicts with the reported age by about five years; Dublin carpenter context supplies no Omagh bridge, but the date is not firm."
+        },
+        {
+          "profile_id": "Glasgow-1970",
+          "confidence": "possible",
+          "role": "candidate for Omagh shipping contact",
+          "basis": "Estimated birth c.1730 and Cookstown connection leave a weaker possibility with an age discrepancy."
+        }
+      ],
+      "reviewed_on": "2026-10-05",
+      "reading": "For Newcastle and Philadelphia: the Hope, master Abner Lowell; freight or passage contact Mr. James Glasco, Omagh. Notice dated Londonderry, 25 April 1793, signed Robert Burnside. The sailing is put off until the 25th instant.",
+      "assessment": "Named Omagh business contact, probably the 1786 publican. He is not stated to be a passenger or emigrant. The 11 and 18 May copies carry the same maintained notice reading; the 25 May copy adds a sailing delay and remains distinct. All profile candidates are possible, with no proved connection.",
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#james-glasco-omagh"
+    },
+    {
+      "image_id": "1033318528",
+      "date": "1728-11-07",
+      "paper": "The American Weekly Mercury",
+      "page": 2,
+      "source_url": "https://www.newspapers.com/image/1033318528/",
+      "queries": [
+        "\"Glafco\""
+      ],
+      "status": "place or ship",
+      "reading": "Brigt. Mary, James Giles for Glasco: outward shipping destination, not a person surnamed Glasgow.",
+      "assessment": "Original highlighted context visually inspected; excluded from surname evidence. Private context capture retained.",
+      "profile_ids": [],
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "1033322855",
+      "date": "1734-07-11",
+      "paper": "The American Weekly Mercury",
+      "page": 3,
+      "source_url": "https://www.newspapers.com/image/1033322855/",
+      "queries": [
+        "\"Glafco\""
+      ],
+      "status": "place or ship",
+      "reading": "Snow Port-Glasco, David Blair for Ireland: vessel name, not a person. Provider issue date is used; internal price-list dating differs.",
+      "assessment": "Original highlighted context visually inspected; excluded from surname evidence. Private context capture retained.",
+      "profile_ids": [],
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "1033323008",
+      "date": "1735-03-27",
+      "paper": "The American Weekly Mercury",
+      "page": 1,
+      "source_url": "https://www.newspapers.com/image/1033323008/",
+      "queries": [
+        "\"Glafco\""
+      ],
+      "status": "place or ship",
+      "reading": "Glasco appears between Gibraltar and Jamaica in a port-count table: place, not a surname.",
+      "assessment": "Original highlighted context visually inspected; excluded from surname evidence. Private context capture retained.",
+      "profile_ids": [],
+      "reviewed_on": "2026-10-05"
     }
   ]
 }

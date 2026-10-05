@@ -8,6 +8,9 @@ parish, but it does not identify this James or name his children.
 
 ## Source findings
 
+5 October 2026 candidate review: Estimated birth c. 1720 and Tyrone context leave a possible namesake; age differs and no Omagh bridge is known. [James Glasco of Omagh’s 1786 marriage and 1793 business notices](/research/subjects/newspapers-early-glasgow/#james-glasco-omagh) are retained as documentary evidence. This profile is a possible candidate; no spouse, parent, occupation or place is attached. The 1786 groom and 1793 contact are probably the same man, with no proved profile bridge.
+
+
 | Source | Finding | Assessment |
 | --- | --- | --- |
 | W. Macafee, [1740 Ulster religious returns, records 14391, 14393, 14466 and 14571, PDF p. 119](https://www.billmacafee.com/1740returns/1740religiousreturnsulstername.pdf) | Two James and two William Glasgow householders in Derryloran. | Direct for the four households; identity with James-2988 unproved. |
@@ -37,7 +40,7 @@ Profile prose and trees remain leads; inspect the cited record before treating a
 
 The 1766 Corvanaghan occurrence cannot uniquely identify this profile. The original Kildress return is National Archives of Ireland `IHP/1/667`, not the Derryloran return `IHP/1/665`. It names Protestant householder James Glasgow at Corvanaghan and supplies no age, wife, children or occupation. WikiTree already represents that record with [Glasgow-3137](https://www.wikitree.com/wiki/Glasgow-3137).
 
-Glasgow-2988 may be the same man as Glasgow-3137, but the profile's c.1720 birth, Derryloran/Cookstown placement and attached sons [Glasgow-2989](https://www.wikitree.com/wiki/Glasgow-2989) and [Glasgow-2990](https://www.wikitree.com/wiki/Glasgow-2990) are not established by the Kildress return.
+Glasgow-2988 may be the same man as Glasgow-3137, but the profile's c. 1720 birth, Derryloran/Cookstown placement and attached sons [Glasgow-2989](https://www.wikitree.com/wiki/Glasgow-2989) and [Glasgow-2990](https://www.wikitree.com/wiki/Glasgow-2990) are not established by the Kildress return.
 
 Glasgow-2988 is also a credible possible duplicate of [Glasgow-1024](https://www.wikitree.com/wiki/Glasgow-1024), the profile representing the reported father “James Glasgow of Moneymore.” Corvanaghan lies about nine miles west of Moneymore, the chronology is compatible, and no post-1766 Irish record has been identified for the Corvanaghan householder. These facts prevent exclusion but do not establish identity.
 
@@ -50,7 +53,7 @@ The 1826 Kildress tithe list includes David and John Glasgow at Muntober, John a
 `Glasgow-3137` was merged into this profile on 20 August 2026. Both profiles
 represented the Protestant James Glasgow at Corvanaghan in the 1766 Kildress
 return. The merged biography preserves the original return and its direct
-archive links. The c.1720 birth, Derryloran origin and attached sons remain
+archive links. The c. 1720 birth, Derryloran origin and attached sons remain
 uncertain; they are not supplied by the census.
 
 ## Comparison with the Cookstown Mitchell family — 20 August 2026

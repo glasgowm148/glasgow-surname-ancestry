@@ -55,6 +55,9 @@ County Tyrone collection item and is not an open Inishrush target.
 
 ## Source findings
 
+5 October 2026: this profile remains a possible County Londonderry contemporary of the John Glasco listed 24 September 1799. The [original roster and 1798 Dublin comparison](/research/subjects/newspapers-early-glasgow/#john-glasco-irish-rosters) do not identify him or establish a family relationship. The 1799 list category is unresolved; do not call him a juror or freeholder.
+
+
 | Source | Finding | Assessment |
 | --- | --- | --- |
 | [Belfast News-Letter, 14 April 1772](https://arborealis.ca/records/newspapers/kilrea-news/1770-1779/) | A Hugh Glasgow appears in the 6 April declaration of people described as inhabitants of Tamlaght O'Crilly who surrendered arms to Henry Ellis of Inishrush. The same local list includes Thos. Mulhollan and James Berkley. | This is the clearest older record of a Glasgow–Mulhollan–Berkley local network in the district. It does not state relationships or exact townlands. |

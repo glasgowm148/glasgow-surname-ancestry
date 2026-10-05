@@ -168,6 +168,14 @@ class SourceCollectionsTests(unittest.TestCase):
         self.assertIn('b. c. 1770; d. ?', html)
         self.assertIn('href="/people/glasgow-951.html"', html)
 
+    def test_candidate_dates_preserve_dossier_boundaries(self):
+        html = profile_links({'profile_ids': ['Glasco-170', 'Glasco-148', 'Glasgow-3944']}, WEB)
+        self.assertIn('b. before 1766; d. before 1784', html)
+        self.assertIn('d. after 1793', html)
+        self.assertIn('b. before 1726', html)
+        self.assertNotIn('c. before', html)
+        self.assertNotIn('c. after', html)
+
     def test_excluded_curated_candidate_is_labeled_without_promoting_identity(self):
         html = profile_links({'profile_ids': ['Glasgow-951'], 'profile_matches': [{'profile_id': 'Glasgow-951', 'confidence': 'excluded', 'role': 'comparison name', 'basis': 'conflicting chronology'}]}, WEB)
         self.assertIn('sc-confidence-excluded', html)

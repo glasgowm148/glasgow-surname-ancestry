@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "approved_on": "2026-10-04",
+  "approved_on": "2026-10-05",
   "authorization": "User explicitly requested saved historical newspaper clippings inline in the Sources section on 4 October 2026. Visually checked bounded excerpts and the supplied matching historical clippings are approved here; full page/browser captures and OCR remain private.",
   "assets": [
     {
@@ -2101,6 +2101,138 @@
       "paper": "The Public Register, or, Freeman's Journal",
       "page": 3,
       "caption_note": "Complete Deaths paragraph naming the unnamed wife of Philip Glasco junior, watchmaker, in Christ-church-lane. Exact death day and her given/maiden names are not stated."
+    },
+    {
+      "image_id": "1050050300",
+      "public_path": "assets/sources/newspapers/1050050300-10687f515936.png",
+      "sha256": "10687f51593672ffb4d8641a099df5b88bd13a9f2b0daa75eaaa62058fa66abc",
+      "width": 760,
+      "height": 720,
+      "source_path": "research/source-library/newspaper-clippings/1050050300.png",
+      "source_url": "https://www.newspapers.com/image/1050050300/",
+      "date": "1780-12-12",
+      "paper": "The Public Register, or, Freeman's Journal",
+      "page": 6,
+      "caption_note": "Visually checked bounded original excerpt; long s is conventionally transcribed as s. Issue date follows provider metadata unless the notice supplies a separate event date."
+    },
+    {
+      "image_id": "1050075355",
+      "public_path": "assets/sources/newspapers/1050075355-cb8d06db4051.png",
+      "sha256": "cb8d06db4051b65fa7acec2b2be716b6b253b2d2349eb501212f9c5838d718b8",
+      "width": 690,
+      "height": 460,
+      "source_path": "research/source-library/newspaper-clippings/1050075355.png",
+      "source_url": "https://www.newspapers.com/image/1050075355/",
+      "date": "1786-09-05",
+      "paper": "The Public Register, or, Freeman's Journal",
+      "page": 3,
+      "caption_note": "Visually checked bounded original excerpt; long s is conventionally transcribed as s. Issue date follows provider metadata unless the notice supplies a separate event date."
+    },
+    {
+      "image_id": "1214061848",
+      "public_path": "assets/sources/newspapers/1214061848-5b237e3fd299.png",
+      "sha256": "5b237e3fd299f06d0690ad94480e549e07021d59475216f802f218a20091a0a1",
+      "width": 640,
+      "height": 900,
+      "source_path": "research/source-library/newspaper-clippings/1214061848.png",
+      "source_url": "https://www.newspapers.com/image/1214061848/",
+      "date": "1798-05-29",
+      "paper": "The Public Register, or, Freeman's Journal",
+      "page": 4,
+      "caption_note": "Visually checked bounded original excerpt; long s is conventionally transcribed as s. Issue date follows provider metadata unless the notice supplies a separate event date."
+    },
+    {
+      "image_id": "1214179229",
+      "public_path": "assets/sources/newspapers/1214179229-7e6decce66ec.png",
+      "sha256": "7e6decce66ec05a7c839299e57bfa98d9d5fd1fb243ede0b390df4880494f368",
+      "width": 480,
+      "height": 600,
+      "source_path": "research/source-library/newspaper-clippings/1214179229.png",
+      "source_url": "https://www.newspapers.com/image/1214179229/",
+      "date": "1799-09-24",
+      "paper": "The Public Register, or, Freeman's Journal",
+      "page": 2,
+      "caption_note": "Visually checked bounded original excerpt; long s is conventionally transcribed as s. Issue date follows provider metadata unless the notice supplies a separate event date.",
+      "additional_excerpts": [
+        {
+          "image_id": "1214179229",
+          "public_path": "assets/sources/newspapers/1214179229-heading-315f85b31ae5.png",
+          "sha256": "315f85b31ae5c2260d6033699a82ba847686a33cf7ef705143f6de76c659594f",
+          "width": 760,
+          "height": 600,
+          "source_path": "research/source-library/newspaper-clippings/1214179229-heading.png",
+          "source_url": "https://www.newspapers.com/image/1214179229/",
+          "date": "1799-09-24",
+          "paper": "The Public Register, or, Freeman's Journal",
+          "page": 2,
+          "caption_note": "Previous-page COUNTY OF LONDONDERRY heading, image 1214179139, p.1: https://www.newspapers.com/image/1214179139/. It does not establish the roster category."
+        }
+      ]
+    },
+    {
+      "image_id": "1050032001",
+      "public_path": "assets/sources/newspapers/1050032001-819ebe4e7bf3.png",
+      "sha256": "819ebe4e7bf3a859a8ca8d9b54227f11e739219ed088501f158cfca089ab481c",
+      "width": 880,
+      "height": 245,
+      "source_path": "research/source-library/newspaper-clippings/1050032001.png",
+      "source_url": "https://www.newspapers.com/image/1050032001/",
+      "date": "1766-06-17",
+      "paper": "The Public Register, or, Freeman's Journal",
+      "page": 2,
+      "caption_note": "Visually checked bounded original excerpt; long s is conventionally transcribed as s. Issue date follows provider metadata unless the notice supplies a separate event date."
+    },
+    {
+      "image_id": "1050032672",
+      "public_path": "assets/sources/newspapers/1050032672-9bb6989716fc.png",
+      "sha256": "9bb6989716fc45cc7d0a5eb24d1c24b49ba0fd9dda688b97d68d537b325ba5ab",
+      "width": 950,
+      "height": 440,
+      "source_path": "research/source-library/newspaper-clippings/1050032672.png",
+      "source_url": "https://www.newspapers.com/image/1050032672/",
+      "date": "1766-08-23",
+      "paper": "The Public Register, or, Freeman's Journal",
+      "page": 3,
+      "caption_note": "Visually checked bounded original excerpt; long s is conventionally transcribed as s. Issue date follows provider metadata unless the notice supplies a separate event date."
+    },
+    {
+      "image_id": "72021067",
+      "public_path": "assets/sources/newspapers/72021067-8e6c2d8cbd69.png",
+      "sha256": "8e6c2d8cbd69bf211cfc78e059bd2112790d57587ee0d87fa150abd0e6139452",
+      "width": 950,
+      "height": 763,
+      "source_path": "research/source-library/newspaper-clippings/72021067.png",
+      "source_url": "https://www.newspapers.com/image/72021067/",
+      "date": "1793-05-11",
+      "paper": "The Northern Star",
+      "page": 1,
+      "caption_note": "Visually checked bounded original excerpt; long s is conventionally transcribed as s. Issue date follows provider metadata unless the notice supplies a separate event date."
+    },
+    {
+      "image_id": "72021086",
+      "public_path": "assets/sources/newspapers/72021086-fef3d1ad4adc.png",
+      "sha256": "fef3d1ad4adcad364e95a282359ae563d02566235af76e0e3fe0cc4fc508a166",
+      "width": 950,
+      "height": 722,
+      "source_path": "research/source-library/newspaper-clippings/72021086.png",
+      "source_url": "https://www.newspapers.com/image/72021086/",
+      "date": "1793-05-18",
+      "paper": "The Northern Star",
+      "page": 4,
+      "caption_note": "Visually checked bounded original excerpt; long s is conventionally transcribed as s. Issue date follows provider metadata unless the notice supplies a separate event date."
+    },
+    {
+      "image_id": "72021100",
+      "public_path": "assets/sources/newspapers/72021100-ff84d6632f71.png",
+      "sha256": "ff84d6632f71bd0114d3165acf88344cc5ac743685dc5be56d149ce7e7d3f1d9",
+      "width": 660,
+      "height": 735,
+      "source_path": "research/source-library/newspaper-clippings/72021100.png",
+      "source_url": "https://www.newspapers.com/image/72021100/",
+      "date": "1793-05-25",
+      "paper": "The Northern Star",
+      "page": 1,
+      "caption_note": "Visually checked bounded original excerpt; long s is conventionally transcribed as s. Issue date follows provider metadata unless the notice supplies a separate event date."
     }
   ]
 }

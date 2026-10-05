@@ -9,6 +9,9 @@ The 1879 ''History of Hillsdale County, Michigan'' describes James Glasgow and s
 
 ## Source findings
 
+5 October 2026 candidate review: Estimated birth c. 1730 and Cookstown connection leave a weaker possibility with an age discrepancy. [James Glasco of Omagh’s 1786 marriage and 1793 business notices](/research/subjects/newspapers-early-glasgow/#james-glasco-omagh) are retained as documentary evidence. This profile is a possible candidate; no spouse, parent, occupation or place is attached. The 1786 groom and 1793 contact are probably the same man, with no proved profile bridge.
+
+
 | Source | Finding | Assessment |
 | --- | --- | --- |
 | [National Archives of Ireland `IHP/1/667`](https://virtualtreasury.ie/item/NAI-IHP-1-667) | Names Protestant householder James Glasgow at Corvanaghan in 1766. | Does not identify him as Glasgow-1970. |
