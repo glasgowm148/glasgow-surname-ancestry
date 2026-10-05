@@ -2951,6 +2951,108 @@
       "triage": "Remaining provider result ranks screened; original-inspected positives and false passages distinguished from preview-only vessel/place context.",
       "limitations": "All returned cards for this exact query have now been screened across two packets; most false-looking previews were not opened. This does not exhaust all Glasgow OCR spellings or surnames.",
       "search_url": "https://www.newspapers.com/search/results/?keyword=%22Ann%20Glafgow%22&date-start=1600&date-end=1799&sort=paper-date-asc"
+    },
+    {
+      "query": "\"William Glafgow\"",
+      "collection": "Worldwide",
+      "date_start": 1600,
+      "date_end": 1799,
+      "reviewed_on": "2026-10-05",
+      "reported_entries": 131,
+      "retrieved_entries": 20,
+      "preview_entries_screened": 20,
+      "originals_checked": 13,
+      "ranks_reviewed": [
+        21,
+        40
+      ],
+      "confirmed_surname_image_ids": [
+        "41048937",
+        "601811451",
+        "601811628",
+        "601812065",
+        "601812638",
+        "601812762",
+        "601813064",
+        "601813385",
+        "601813701",
+        "601813994"
+      ],
+      "triage": "Promising or ambiguous surname passages original-inspected and all positive issue clips saved; repeated notices grouped without dropping issue provenance.",
+      "limitations": "Most false-looking previews were not original-inspected. William and James have later ranks unread; Robert exact-query cards now screened to displayed end, not global surname exhaustion."
+    },
+    {
+      "query": "\"James Glafgow\"",
+      "collection": "Worldwide",
+      "date_start": 1600,
+      "date_end": 1799,
+      "reviewed_on": "2026-10-05",
+      "reported_entries": 130,
+      "retrieved_entries": 20,
+      "preview_entries_screened": 20,
+      "originals_checked": 8,
+      "ranks_reviewed": [
+        21,
+        40
+      ],
+      "confirmed_surname_image_ids": [
+        "1211966255",
+        "39403087",
+        "970974651"
+      ],
+      "triage": "Promising or ambiguous surname passages original-inspected and all positive issue clips saved; repeated notices grouped without dropping issue provenance.",
+      "limitations": "Most false-looking previews were not original-inspected. William and James have later ranks unread; Robert exact-query cards now screened to displayed end, not global surname exhaustion."
+    },
+    {
+      "query": "\"Robert Glafgow\"",
+      "collection": "Worldwide",
+      "date_start": 1600,
+      "date_end": 1799,
+      "reviewed_on": "2026-10-05",
+      "reported_entries": 43,
+      "retrieved_entries": 23,
+      "preview_entries_screened": 23,
+      "originals_checked": 6,
+      "ranks_reviewed": [
+        21,
+        43
+      ],
+      "confirmed_surname_image_ids": [
+        "32859455",
+        "601815997",
+        "601821728",
+        "61260706"
+      ],
+      "triage": "Promising or ambiguous surname passages original-inspected and all positive issue clips saved; repeated notices grouped without dropping issue provenance.",
+      "limitations": "Most false-looking previews were not original-inspected. William and James have later ranks unread; Robert exact-query cards now screened to displayed end, not global surname exhaustion."
+    },
+    {
+      "query": "\"Thomas Glafgow\"",
+      "collection": "Worldwide",
+      "date_start": 1600,
+      "date_end": 1799,
+      "reviewed_on": "2026-10-05",
+      "reported_entries": 26,
+      "retrieved_entries": 0,
+      "originals_checked": 0,
+      "confirmed_surname_image_ids": [],
+      "triage": "pagination inconsistent/error; incomplete",
+      "limitations": "Attempted ranks 21–29. Current page rendered 13 distinct cards (IDs 1034011656,1144139208,40482913,1050056059,69882508,601804561,601804758,1033779813,1050104243,601815928,601822968,66180042,1181678638), while showing 26 matches. These rank/order/count differ from the prior saved ledger (29 matches; its first visible card 605064643). Show more results failed with site toast “Search results failed to load. Please try again.” Retry returned End of results without cards. Therefore ranks 21–29 were not reliably retrieved or screened; no absence inferred. Current visible cards are outside the requested tail and were not original checked in this pass.",
+      "search_url": "https://www.newspapers.com/search/results/?keyword=%22Thomas%20Glafgow%22&date-start=1600&date-end=1799&sort=paper-date-asc"
+    },
+    {
+      "query": "\"Ezekiel Glafgow\"",
+      "collection": "Worldwide",
+      "date_start": 1600,
+      "date_end": 1799,
+      "reviewed_on": "2026-10-05",
+      "reported_entries": 0,
+      "retrieved_entries": 0,
+      "originals_checked": 0,
+      "confirmed_surname_image_ids": [],
+      "triage": "No exact quoted hits returned in this bounded query; this is not evidence of absence from newspapers or alternate spellings.",
+      "limitations": "No exact quoted hits returned in this bounded query; this is not evidence of absence from newspapers or alternate spellings.",
+      "search_url": "https://www.newspapers.com/search/results/?keyword=%22Ezekiel%20Glafgow%22&date-start=1600&date-end=1799&sort=paper-date-asc"
     }
   ],
   "new_original_passages": {
@@ -3045,7 +3147,24 @@
       "604128637",
       "1034014648",
       "39957255",
-      "604128661"
+      "604128661",
+      "601811451",
+      "601811628",
+      "601812065",
+      "601812638",
+      "601812762",
+      "601813064",
+      "601813385",
+      "601813701",
+      "601813994",
+      "41048937",
+      "39403087",
+      "970974651",
+      "1211966255",
+      "32859455",
+      "601815997",
+      "601821728",
+      "61260706"
     ],
     "excluded_passage_image_ids": [
       "41038726",
@@ -3090,7 +3209,9 @@
     "Additional 5 October Glascow checks cover twenty-four distinct originals from the eighty-five-card narrower export, plus two outside-export 1752 address reprints. One initial-only personal name, A. Glascow, was recaptured and retained after reviewing Dutch list syntax; other inspected passages were city, port, route or title uses. The two previously catalogued export IDs and uninspected remainder are separate. These checks do not establish global completeness.",
     "The four worldwide quoted Glafcow full-name searches yielded eighteen cards on seventeen distinct original pages; all inspected, with ten surname pages retained and seven inspected false passages. Samuel-query postal/committee hits name James and John respectively. Earlier preview-only limitations for this packet are resolved by the original rechecks; additional page highlights and other OCR variants are not claimed exhausted.",
     "Six worldwide quoted Glafgow full-name searches screened the first twenty cards each. Twelve new surname issue pages are retained after original inspection, including other forenames found by the Thomas query. Larger result sets, remaining ranks and other OCR spellings are incomplete; preview-only place/vessel triage is not counted as original inspection. Glasgow alone in the 1742 enslaved-person notice is unclassified hereditary surname, not William Glasgow.",
-    "Worldwide Mary Glafgow (30 cards) and Ann Glafgow (45 cards) exact-query previews are now screened to their displayed ends. Four original surname-only shipmaster pages from the Ann query are retained, with two near-verbatim passenger reports merged in one card. Most vessel/place previews remain preview-only; no global surname absence claimed."
+    "Worldwide Mary Glafgow (30 cards) and Ann Glafgow (45 cards) exact-query previews are now screened to their displayed ends. Four original surname-only shipmaster pages from the Ann query are retained, with two near-verbatim passenger reports merged in one card. Most vessel/place previews remain preview-only; no global surname absence claimed.",
+    "Thomas Glafgow continuation could not reliably retrieve ranks21–29: provider count changed from29 to26 and pagination failed. Tail remains incomplete. Ezekiel Glafgow returned no cards; this is an OCR query result, not evidence of absence.",
+    "Seventeen additional surname originals from William/James ranks21–40 and Robert ranks21–43 are integrated. Nine tenant issues preserve two sale stages; the two Hackman witness reports are one reprint group. Robert exact-query cards are screened to displayed end. William/James later ranks, failed Thomas pagination and broader spellings remain incomplete."
   ],
   "search_pause_history": [
     {

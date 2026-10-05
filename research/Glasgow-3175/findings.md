@@ -56,3 +56,15 @@ Find local original land, service, office or household records to bridge the nam
 ## Date qualification resolved — additional original, 5 October 2026
 
 The [https://www.newspapers.com/image/34424820/ Public Advertiser, 22 May 1761, p.3] says the report of seven Newgate malefactors was made to the King at St James’s “Yesterday”, and reports Samuel’s respite. A [separate page-1 masthead](https://www.newspapers.com/image/34424813/) is Friday, 22 May 1761, supporting 21 May as the reported royal-review day. This does not verify military commutation or pardon conditions. [https://www.newspapers.com/image/1212389396/ Berrow’s Worcester Journal, 14 May 1761, p.1] reports Samuel among two capital convictions; its manslaughter defendant is William Smith, not Samuel. [https://www.newspapers.com/image/34424864/ Public Advertiser, 26 May 1761, p.4] advertises printed trial proceedings listing Samuel’s horse-stealing case; it is not a new trial. All three original passages were inspected 5 October 2026. The exact cited-case association remains strong; ancestral identity stays unresolved.
+
+## Current conclusion — additional newspaper originals, 5 October 2026
+
+Samuel Glasgow, first Maryland regiment rendezvous notice, 1777: Uncertain 1740/1801 lifespan fits, but neither the family identity nor the London-case link identifies this Maryland soldier. Glasgow-1134 is a possible Maryland/age candidate. Glasgow-3175 is a compatible chronological comparison, but its Ulster/Pennsylvania identity and link to the London defendant remain unresolved. This roster does not prove the 1761 military-commutation claim. No family or life-date change follows.
+
+## Source findings
+
+Samuel Glasgow is listed with Capt. Murray’s company among soldiers of the first Maryland regiment ordered to rendezvous in a Baltimore notice. Notice dated Baltimore, 19 October 1777, signed Joseph Ford, captain in the first Maryland regiment, orders listed soldiers to rendezvous on the 10th of next month. It threatens deserter punishment for failing to attend and offers to seek pardons for those returning after absence without leave. It does not establish an existing desertion conviction; William Davis is a separate following person. Glasgow-1134 is a possible Maryland/age candidate. Glasgow-3175 is a compatible chronological comparison, but its Ulster/Pennsylvania identity and link to the London defendant remain unresolved. This roster does not prove the 1761 military-commutation claim. [Maryland Gazette, 1777-10-23, p.2](https://www.newspapers.com/image/41048937/)
+
+## Next questions
+
+Inspect original company rolls, enlistments, discharge or pardon papers for identifying details before attaching him to a profile or joining him to the London case.

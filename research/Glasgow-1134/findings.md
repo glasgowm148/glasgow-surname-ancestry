@@ -39,3 +39,15 @@ Estimated c.1749 Cecil County, Maryland birth and c.1834 Ohio death. Strongest c
 ## Next questions
 
 Find local original land, service, office or household records to bridge the named person to this family. Current family assessments retain their existing uncertainty.
+
+## Current conclusion — additional newspaper originals, 5 October 2026
+
+Samuel Glasgow, first Maryland regiment rendezvous notice, 1777: Estimated c.1749 Cecil County birth fits a Maryland soldier in 1777; no company or service bridge. Glasgow-1134 is a possible Maryland/age candidate. Glasgow-3175 is a compatible chronological comparison, but its Ulster/Pennsylvania identity and link to the London defendant remain unresolved. This roster does not prove the 1761 military-commutation claim. No family or life-date change follows.
+
+## Source findings
+
+Samuel Glasgow is listed with Capt. Murray’s company among soldiers of the first Maryland regiment ordered to rendezvous in a Baltimore notice. Notice dated Baltimore, 19 October 1777, signed Joseph Ford, captain in the first Maryland regiment, orders listed soldiers to rendezvous on the 10th of next month. It threatens deserter punishment for failing to attend and offers to seek pardons for those returning after absence without leave. It does not establish an existing desertion conviction; William Davis is a separate following person. Glasgow-1134 is a possible Maryland/age candidate. Glasgow-3175 is a compatible chronological comparison, but its Ulster/Pennsylvania identity and link to the London defendant remain unresolved. This roster does not prove the 1761 military-commutation claim. [Maryland Gazette, 1777-10-23, p.2](https://www.newspapers.com/image/41048937/)
+
+## Next questions
+
+Inspect original company rolls, enlistments, discharge or pardon papers for identifying details before attaching him to a profile or joining him to the London case.

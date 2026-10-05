@@ -52,3 +52,15 @@ list.
 Obtain estate 1055, box 43, package 98. Administrator bonds, sale receipts and
 distributions may name the three daughters or their husbands and settle whether
 James was a son.
+
+## Current conclusion — additional newspaper originals, 5 October 2026
+
+Robert Glasgow, Cookstown reward subscriber, 1796: Estimated c.1763 Irish birth fits age, but later South Carolina household context supplies no Cookstown link. Glasgow-1189 is a possible local/age candidate, with no Cookstown bridge. Glasgow-1983 is a weaker Irish-born namesake with a South Carolina household context. Neither identity, kinship nor residence is proved. No family or life-date change follows.
+
+## Source findings
+
+Robert Glasgow pledges two guineas in a Cookstown reward subscription after a shot was fired at a soldier standing sentinel. Issue dated 12 December 1796; reported Cookstown dateline is 2 December. The original notice recounts Tuesday morning, 29 November, and pledges a reward for discovery/conviction after a shot at a soldier standing sentinel. Two guineas is the sum pledged by Robert, not proof of payment or the assailant’s identity. His residence and family are unstated. Glasgow-1189 is a possible local/age candidate, with no Cookstown bridge. Glasgow-1983 is a weaker Irish-born namesake with a South Carolina household context. Neither identity, kinship nor residence is proved. [The Northern Star, 1796-12-12, p.1](https://www.newspapers.com/image/61260706/)
+
+## Next questions
+
+Find original Cookstown subscribers, estate and tax records and family identifiers; compare the candidates’ own source records before assigning the subscriber.

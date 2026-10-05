@@ -75,3 +75,19 @@ The [Morning Chronicle, 3 September 1835, p.4](https://www.newspapers.com/image/
 ## Priority actions
 
 Compare the original Dunlop register with the 22/23 February marriage dates. Locate the 1818 and 23 June 1821 settlement papers and the 1832–1835 appeal, separately from SC6/44/4’s 1803 trust. Test the appellant against the Allan family records; do not convert a name match into a nephew identification. No live WikiTree change or relationship-confidence promotion was made in this batch.
+
+## Current conclusion — additional newspaper originals, 5 October 2026
+
+Robert Glasgow, St Vincent appointment and Ayrshire records, 1785–1799: Exact Montgreenan designation agrees with the prior checked 1802 record; earlier St Vincent/doctor contexts fit, but cross-record identity remains inferred. Glasgow-1076 is a probable candidate for the exact Montgreenan designation, consistent with a prior independently reviewed 1802 record. The 1785 surgeon and 1793 Loudoun doctor are compatible earlier contexts; their identity with him is inferred, not explicitly linked. No family relationship is proved. No family or life-date change follows.
+
+## Source findings
+
+Robert Glasgow, formerly a hospital mate in the West Indies, is announced for appointment as surgeon to the forces on St Vincent. Appointment notice. It proves a named Robert Glasgow formerly served as hospital mate in the West Indies and was appointed surgeon to forces on St Vincent; it gives no age, relatives, or birth origin. Glasgow-1076 is a probable candidate for the exact Montgreenan designation, consistent with a prior independently reviewed 1802 record. The 1785 surgeon and 1793 Loudoun doctor are compatible earlier contexts; their identity with him is inferred, not explicitly linked. No family relationship is proved. [The Times, 1785-12-12, p.2](https://www.newspapers.com/image/32859455/)
+
+Dr Robert Glasgow at Loudoun is listed among subscribers after an Ayrshire heritors’ meeting. The issue is dated 9 April 1793; the original does not establish the meeting date or that the listed assessment was paid. Loudoun is printed as the person’s location/designation. Glasgow-1076 is a probable candidate for the exact Montgreenan designation, consistent with a prior independently reviewed 1802 record. The 1785 surgeon and 1793 Loudoun doctor are compatible earlier contexts; their identity with him is inferred, not explicitly linked. No family relationship is proved. [The Edinburgh Advertiser, 1793-04-09, p.3](https://www.newspapers.com/image/601815997/)
+
+Robert Glasgow, Esq. of Montgreenan, is named in a lodged claim for enrolment on Ayr’s roll of freeholders. Issue dated 6 August; notice is dated Ayr, 3 August 1799. It reports a claim before the forthcoming Michaelmas head-court, not acceptance or completed enrolment. Glasgow-1076 is a probable candidate for the exact Montgreenan designation, consistent with a prior independently reviewed 1802 record. The 1785 surgeon and 1793 Loudoun doctor are compatible earlier contexts; their identity with him is inferred, not explicitly linked. No family relationship is proved. [The Edinburgh Advertiser, 1799-08-06, p.2](https://www.newspapers.com/image/601821728/)
+
+## Next questions
+
+Inspect original commission and medical-service records, Loudoun subscription minutes and Ayr freeholder enrolment outcome; establish continuity and identifiers before upgrading profile facts.
