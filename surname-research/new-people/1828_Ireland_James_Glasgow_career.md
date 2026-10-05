@@ -39,3 +39,11 @@ Check Institution admission/examination registers for full name, age and home; r
 == Sources ==
 <references />
 ```
+
+### 1842 India missionary surname reference — 5 April 1842
+
+The 5 April 1842 Belfast News-Letter passage invokes “Glasgow in India” in a comparison of missionary and clerical conduct in the Indies and Ireland. It names no forename and describes no particular event.
+
+The surrounding passage treats Glasgow as an individual missionary in India, not a place. James McClure Glasgow-1780 is a probable contextual candidate because his documented missionary career places him in India in this period; this surname-only comparison does not identify him by forename or independently prove the profile assignment, origin, or any family relationship.
+
+[Belfast News-Letter, 5 April 1842, p.1](https://www.newspapers.com/image/390554509/).

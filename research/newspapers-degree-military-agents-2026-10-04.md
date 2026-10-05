@@ -1,6 +1,6 @@
 # Irish newspaper continuation: degrees, officers and Cookstown agents
 
-Originals inspected 4 October 2026 in logged-in Chrome. Six verified surname passages and bounded approved clippings; ten new quoted queries. No live WikiTree edits or relationship upgrades.
+Originals inspected 4–5 October 2026. Seven verified surname passages and bounded approved clippings; ten new quoted queries. No live WikiTree edits or relationship upgrades.
 
 ## benjamin-1825
 
@@ -25,6 +25,8 @@ The surname and Royal Artillery association were checked at increased magnificat
 [Freeman’s Journal, 1825-02-16, p.3](https://www.newspapers.com/image/1050087237/). Office of Ordnance, February 7: First Lieutenant George Mark Glasgow, from half-pay, to be First Lieutenant in the Royal Regiment of Artillery, vice Forster.
 
 A return from half-pay to a post at the same rank, not a promotion from Second Lieutenant. 7 February 1825 is inferred from the contemporary issue. Glasgow-3127 has a matching Royal Artillery captain biography, but its live Sources section is empty; Glasgow-3785 is an exact-name chronology candidate and Glasgow-1536 a weaker linked comparison. No family identity, birth date, nationality or station is proved.
+
+The Office of Ordnance list dated 16 January 1837, published on 24 January, reports First Lieutenant George Mark Glasgow appointed a Second Captain in the Royal Regiment of Artillery, vice Freer; the following First Lieutenant list names 2d Lieut. George Carter Evelegh, vice Glasgow. This is a separate same-name career occurrence; continuity with the 1825 notice is unproved. The page heading identifies the order as Office of Ordnance, 16 January; the issue was published 24 January. The passage confirms an Artillery career entry for this name, not a profile identity or Irish origin, residence, or family.
 
 ## edward-george-1825
 

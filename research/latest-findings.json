@@ -18237,6 +18237,10 @@
         {
           "title": "Belfast News-Letter, 1849-04-13, p.3",
           "url": "https://www.newspapers.com/image/390562652/"
+        },
+        {
+          "title": "Impartial Reporter and Farmers’ Journal, 31 May 1849, p.3, John Cassell agents",
+          "url": "https://www.newspapers.com/image/1257358629/"
         }
       ],
       "found_on": "2026-10-04",
@@ -18354,6 +18358,10 @@
         {
           "title": "Belfast News-Letter, 1850-02-22, p.3",
           "url": "https://www.newspapers.com/image/390556388/"
+        },
+        {
+          "title": "Belfast News-Letter, 8 March 1850, p.3, John Cassell coffee and tea agents",
+          "url": "https://www.newspapers.com/image/390556799/"
         }
       ],
       "found_on": "2026-10-04",
@@ -21105,6 +21113,58 @@
         "research/newspapers-1800-1850-continuation-2026-10-04.md",
         "research/newspapers-james-1828-1831-2026-10-04.md",
         "research/newspapers-james-career-family-2026-10-04.md"
+      ]
+    },
+    {
+      "id": "george-mark-glasgow-artillery-second-captain-1837-01-24",
+      "found_on": "2026-10-05",
+      "kind": "biographical",
+      "finding": "The Office of Ordnance list dated 16 January 1837, published on 24 January, reports First Lieutenant George Mark Glasgow appointed a Second Captain in the Royal Regiment of Artillery, vice Freer; the following First Lieutenant list names 2d Lieut. George Carter Evelegh, vice Glasgow. This is a separate same-name career occurrence; continuity with the 1825 notice is unproved.",
+      "status": "confirmed",
+      "qualification": "The original names the Artillery officer and reports the appointment; it does not establish continuity with the 1825 notice or identity with any WikiTree profile. Glasgow-3127 is a compatible candidate from earlier local profile review; Glasgow-3785 remains an exact-name chronological alternative and Glasgow-1536 a weaker linked comparison. No birthplace, Irish origin/residence, family relationship, or profile biography field is inferred or changed.",
+      "people": [
+        {
+          "id": "Glasgow-3127",
+          "name": "George Mark Glasgow, possible Glasgow-3127 profile match",
+          "url": "https://www.wikitree.com/wiki/Glasgow-3127",
+          "draft_url": "/research/subjects/newspapers-irish-1800-1850/#george-mark-artillery"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 24 January 1837, p. 1 (Office of Ordnance list dated 16 January)",
+          "url": "https://www.newspapers.com/image/390543080/"
+        }
+      ],
+      "detail_url": "https://www.wikitree.com/wiki/Glasgow-3127",
+      "provenance": "research/newspapers-degree-military-agents-2026-10-04.md"
+    },
+    {
+      "id": "james-mcclure-glasgow-india-clerical-conduct-1842",
+      "found_on": "2026-10-05",
+      "kind": "record",
+      "finding": "The 5 April 1842 Belfast News-Letter passage invokes “Glasgow in India” in a comparison of missionary and clerical conduct in the Indies and Ireland. It names no forename and describes no particular event.",
+      "status": "confirmed",
+      "qualification": "The surrounding passage treats Glasgow as an individual missionary in India, not a place. James McClure Glasgow-1780 is a probable contextual candidate because his documented missionary career places him in India in this period; this surname-only comparison does not identify him by forename or independently prove the profile assignment, origin, or any family relationship.",
+      "people": [
+        {
+          "name": "James Glasgow, Institution student / assistant and Castledawson minister, 1828–1848",
+          "url": "/research/subjects/newspapers-irish-1800-1850/#james-belfast-college"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 5 April 1842, p.1",
+          "url": "https://www.newspapers.com/image/390554509/"
+        }
+      ],
+      "detail_url": "/research/subjects/newspapers-irish-1800-1850/#james-belfast-college",
+      "provenance": [
+        "surname-research/indexes/glasgow-newspaper-review.json",
+        "research/source-library/newspaper-clippings.json",
+        "research/latest-findings-subjects/subjects.json",
+        "surname-research/new-people/1828_Ireland_James_Glasgow_career.md",
+        "research/Glasgow-1780/findings.md"
       ]
     }
   ]

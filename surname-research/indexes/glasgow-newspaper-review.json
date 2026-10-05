@@ -15498,6 +15498,138 @@
       "profile_ids": [],
       "profile_matches": [],
       "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "390543080",
+      "date": "1837-01-24",
+      "paper": "Belfast News-Letter",
+      "page": "1",
+      "source_url": "https://www.newspapers.com/image/390543080/",
+      "queries": [
+        "\"George Glasgow\""
+      ],
+      "status": "confirmed surname",
+      "reading": "Under the Office of Ordnance heading dated 16 January: ‘TO BE SECOND CAPTAINS—1st Lieut. George Mark Glasgow, vice Freer’; then ‘TO BE FIRST LIEUTENANTS—2d Lieut. George Carter Evelegh, vice Glasgow.’",
+      "assessment": "The notice reports George Mark Glasgow appointed Second Captain from First Lieutenant, vice Freer; the following appointment of George Carter Evelegh as First Lieutenant, vice Glasgow, is consistent with the vacancy. The order is dated 16 January 1837 and was published 24 January. Glasgow-3127 is compatible with a previously reviewed profile biography reporting captain rank; Glasgow-3785 remains an exact-name chronological alternative and Glasgow-1536 a weaker linked comparison. Continuity with the 1825 notice and identity with any WikiTree profile remain unproved. The newspaper does not identify a birthplace, Irish residence/origin, or family relationship.",
+      "profile_ids": [
+        "Glasgow-3127",
+        "Glasgow-3785",
+        "Glasgow-1536"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-3127",
+          "confidence": "possible",
+          "role": "compatible candidate",
+          "basis": "Exact full name and compatible officer chronology; previous local profile review reports captain rank, but this notice does not identify the profile."
+        },
+        {
+          "profile_id": "Glasgow-3785",
+          "confidence": "possible",
+          "role": "alternative candidate",
+          "basis": "Exact full name and compatible lifespan; no military bridge in the reviewed local notes."
+        },
+        {
+          "profile_id": "Glasgow-1536",
+          "confidence": "possible",
+          "role": "weaker linked comparison",
+          "basis": "A linked Barony George with compatible age; this notice supplies no Mark or family bridge."
+        }
+      ],
+      "draft_url": "/research/subjects/newspapers-irish-1800-1850/#george-mark-artillery",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "390556799",
+      "date": "1850-03-08",
+      "paper": "Belfast News-Letter",
+      "page": "3",
+      "source_url": "https://www.newspapers.com/image/390556799/",
+      "queries": [
+        "\"John Glasgow\""
+      ],
+      "status": "confirmed surname",
+      "reading": "Cassell coffee and five-shilling tea agents: “COOKSTOWN—John Glasgow.” George Nesbitt at Ballyshane is a separate agent.",
+      "assessment": "One Cookstown merchant/agent in a repeated Cassell advertisement; same documentary subject, with no proven profile identity or kinship.",
+      "profile_ids": [
+        "Glasgow-2058",
+        "Glasgow-1968"
+      ],
+      "draft_url": "/research/subjects/newspapers-irish-1800-1850/#john-cookstown-coffee",
+      "reviewed_on": "2026-10-05",
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-2058",
+          "confidence": "possible",
+          "role": "compatible candidate",
+          "basis": "Checked live profile records father of Benjamin-2059 and Henry-1735, and a 1856 merchant occupation. Name/trade/district fit; no newspaper kin bridge. The advertisement does not prove this identity."
+        },
+        {
+          "profile_id": "Glasgow-1968",
+          "confidence": "possible",
+          "role": "weaker comparison",
+          "basis": "Other John comparison; the 1844/1848 Michigan migration in his family histories weakens a later Irish assignment. Tithe/probate leads are unproved identity links; probate year alone does not date death. The advertisement does not prove this identity."
+        }
+      ]
+    },
+    {
+      "image_id": "1257358629",
+      "date": "1849-05-31",
+      "paper": "Impartial Reporter and Farmers’ Journal",
+      "page": "3",
+      "source_url": "https://www.newspapers.com/image/1257358629/",
+      "queries": [
+        "\"John Glasgow\""
+      ],
+      "status": "confirmed surname",
+      "reading": "Cassell agents list: “Cookstown—Jno. Glasgow, merchant”; “Coleraine—John Wilson” is a separate entry. Heading names John Cassell, London, and T.P. Goodbody & Co. wholesale agents and consignees.",
+      "assessment": "One Cookstown merchant/agent in a repeated Cassell advertisement; same documentary subject, with no proven profile identity or kinship.",
+      "profile_ids": [
+        "Glasgow-2058",
+        "Glasgow-1968"
+      ],
+      "draft_url": "/research/subjects/newspapers-irish-1800-1850/#john-cookstown-coffee",
+      "reviewed_on": "2026-10-05",
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-2058",
+          "confidence": "possible",
+          "role": "compatible candidate",
+          "basis": "Checked live profile records father of Benjamin-2059 and Henry-1735, and a 1856 merchant occupation. Name/trade/district fit; no newspaper kin bridge. The advertisement does not prove this identity."
+        },
+        {
+          "profile_id": "Glasgow-1968",
+          "confidence": "possible",
+          "role": "weaker comparison",
+          "basis": "Other John comparison; the 1844/1848 Michigan migration in his family histories weakens a later Irish assignment. Tithe/probate leads are unproved identity links; probate year alone does not date death. The advertisement does not prove this identity."
+        }
+      ]
+    },
+    {
+      "image_id": "390554509",
+      "date": "1842-04-05",
+      "paper": "Belfast News-Letter",
+      "page": 1,
+      "source_url": "https://www.newspapers.com/image/390554509/",
+      "queries": [
+        "\"Wilson Glasgow\""
+      ],
+      "status": "confirmed surname",
+      "reading": "The 5 April 1842 Belfast News-Letter passage invokes “Glasgow in India” in a comparison of missionary and clerical conduct in the Indies and Ireland. It names no forename and describes no particular event.",
+      "assessment": "The surrounding passage treats Glasgow as an individual missionary in India, not a place. James McClure Glasgow-1780 is a probable contextual candidate because his documented missionary career places him in India in this period; this surname-only comparison does not identify him by forename or independently prove the profile assignment, origin, or any family relationship.",
+      "profile_ids": [
+        "Glasgow-1780"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-1780",
+          "confidence": "probable",
+          "role": "Probable contextual candidate only; surname-only source, no forename proof",
+          "basis": "The source explicitly refers to a missionary Glasgow in India. James McClure Glasgow-1780 has a documented India mission during the relevant period; the article does not print his forename, so this is a probable context match only."
+        }
+      ],
+      "draft_url": "/research/subjects/newspapers-irish-1800-1850/#james-belfast-college",
+      "reviewed_on": "2026-10-05"
     }
   ]
 }

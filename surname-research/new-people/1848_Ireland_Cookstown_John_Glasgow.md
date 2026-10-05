@@ -21,5 +21,7 @@ Live Glasgow-2058 biography/family read 4 October; approved historical Irish cat
 
 Identify the merchant’s street address through directories, licences, deeds and probate. Seek a record linking the agent directly to Benjamin-2059 or Henry-1735 before assigning him to their father.
 
+Further Cassell advertisements repeat the same Cookstown agent: on 31 May 1849, “Jno. Glasgow, merchant,” and on 8 March 1850, “John Glasgow,” among coffee and tea agents. These are separate issues documenting one continuing trading role, not separate people or independent family proof. The notices give no kinship or address. <ref>[https://www.newspapers.com/image/1257358629/ Impartial Reporter and Farmers’ Journal, 31 May 1849, p.3, John Cassell agents].</ref><ref>[https://www.newspapers.com/image/390556799/ Belfast News-Letter, 8 March 1850, p.3, John Cassell coffee and tea agents].</ref>
+
 == Sources ==
 <references />
