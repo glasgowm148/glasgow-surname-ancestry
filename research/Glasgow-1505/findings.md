@@ -147,3 +147,15 @@ Saved and verified the original-deed source additions and their identity limits.
 ## Verified live joint-lease update — 21 September 2026
 
 The 1736 source corrections and new 1757 assignment reference were saved through the browser and read back exactly from WikiTree. Family fields remain unchanged. [Complete saved biography](joint-lease-update-2026-09-21.wiki); [verification](../larne-pre1710-2026-09-21/continuation-live-verification.json).
+
+## Current conclusion — newspaper review, 5 October 2026
+
+This is a chronologically compatible candidate for William Glasgow, the Lady Forbes master in January 1768; no identity bridge is established.
+
+## Source findings — newspaper review
+
+The [Public Register / Freeman’s Journal, 23 January 1768, p.2](https://www.newspapers.com/image/1050136699/) explicitly names William Glasgow as master of the Lady Forbes, driven ashore near Sutton while carrying rum for Waterford, with the crew saved.
+
+## Identity and relationship assessments — newspaper review
+
+The vessel’s Glasgow designation does not identify the master’s birthplace, home or family. Existing baptism, Larne and family conclusions remain qualified as previously assessed. Find ownership, master and port-clearance records; do not merge with the unnamed captain of the brig William in 1796.

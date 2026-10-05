@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "reviewed_on": "2026-10-04",
+  "reviewed_on": "2026-10-05",
   "groups": [
     {
       "slug": "rathmalton-1673",
@@ -7164,10 +7164,10 @@
         },
         {
           "anchor": "nicholas-glasco-southwark",
-          "name": "Nicholas Glasco",
+          "name": "Nicholas Glasco / Glascoe",
           "status": "HOLD — documentary person; profile identity unresolved",
-          "identity_note": "The 1746 roster names Nicholas Glasco among officers in the rebel army reported committed to New Gaol, Southwark. His surname spelling is preserved; no Glasgow-family or Irish origin is inferred.",
-          "minimum_fields": "Name Nicholas Glasco; named in 1746 Southwark committal report. Birth, death, individual rank, residence and family unknown.",
+          "identity_note": "The June Southwark committal and later Nicholas Glascoe reports probably describe the same uncommon named officer. The newspaper sequence reports allegations, indictment and acquittal; it does not establish a Glasgow-family or Irish origin.",
+          "minimum_fields": "Name Nicholas Glasco/Glascoe; reported in Southwark proceedings in 1746. French birth at Saint-Germain-en-Laye and service in Dillon’s Regiment are reported defence evidence. Birth date, death and family unknown. The unnamed 1747 Mr Glascoe is a probable contextual candidate.",
           "facts": [
             {
               "finding_id": "nicholas-glasco-southwark-1746",
@@ -7179,19 +7179,72 @@
                   "url": "https://www.newspapers.com/image/1214317653/"
                 }
               ]
+            },
+            {
+              "finding": "June reports call Nicholas a self-styled Major and allege that he raised the battery against the Hazard sloop.",
+              "qualification": "Reprints of one report; neither establishes guilt or an official military appointment.",
+              "sources": [
+                {
+                  "title": "The Derby Mercury, 1746-06-27, p.1",
+                  "url": "https://www.newspapers.com/image/394536822/"
+                },
+                {
+                  "title": "The Newcastle Weekly Courant, 1746-06-28, p.1",
+                  "url": "https://www.newspapers.com/image/404059808/"
+                }
+              ]
+            },
+            {
+              "finding": "An August report lists Nicholas among persons indicted for High Treason; a November report announces his pending trial.",
+              "qualification": "Indictment and scheduling are distinct from a conviction.",
+              "sources": [
+                {
+                  "title": "The Newcastle Weekly Courant, 1746-08-23, p.2",
+                  "url": "https://www.newspapers.com/image/404060798/"
+                },
+                {
+                  "title": "The Derby Mercury, 1746-11-07, p.3",
+                  "url": "https://www.newspapers.com/image/394542827/"
+                }
+              ]
+            },
+            {
+              "finding": "November reports say Nicholas was acquitted after defence evidence of French birth at Saint-Germain-en-Laye and service as a lieutenant in Dillon’s Regiment, and ordered detained as a French prisoner.",
+              "qualification": "Reported evidence and outcome; underlying trial, French birth and military records still need inspection. The saved Caledonian excerpt does not contain the full cartel articles.",
+              "sources": [
+                {
+                  "title": "The Newcastle Weekly Courant, 1746-11-08, p.3",
+                  "url": "https://www.newspapers.com/image/404061824/"
+                },
+                {
+                  "title": "The Caledonian Mercury, 1746-11-17, p.2",
+                  "url": "https://www.newspapers.com/image/394462695/"
+                }
+              ]
+            },
+            {
+              "finding": "A May 1747 notice names Mr Glascoe as major in a regiment being raised by Lord Ogilvy.",
+              "qualification": "The shared Ogilvy context makes Nicholas a probable candidate; no forename is given and continuity is unproved.",
+              "sources": [
+                {
+                  "title": "The Newcastle Weekly Courant, 1747-05-09, p.1",
+                  "url": "https://www.newspapers.com/image/404076485/"
+                }
+              ]
             }
           ],
           "candidates": [],
           "duplicate_check": [
             "Bounded local public-catalogue/QMD lookup on 4 October 2026 for Nicholas Glasgow, Nicholas Glasco and Nicholas Glascow found no compatible historical profile.",
             "Nicholas Miller Glasgow-2642 (1906–1940, Pennsylvania) and John Nicholas Glasgow-1949 (born 1842, Tennessee) are chronologically incompatible. This is not a complete external duplicate check.",
-            "No family connection, Irish origin or Glasgow identification is established."
+            "No family connection, Irish origin or Glasgow identification is established.",
+            "The additional spelling Glascoe and reported French origin strengthen the documentary case account; they supply no checked compatible WikiTree profile or family identification. The prior no-rank observation applies only to the 20 June roster."
           ],
-          "next_test": "Check original gaol, legal and military records for the 1746 Southwark prisoners; look for age, home locality and relatives before creating or attaching a profile.",
+          "next_test": "Locate the original 1746 trial and prisoner-exchange record, French Dillon/Ogilvy military papers and Saint-Germain-en-Laye baptism evidence. Establish age and relatives; test whether the May 1747 Mr Glascoe is Nicholas.",
           "draft_sources": [
             "surname-research/new-people/1746_England_Southwark_Nicholas_Glasco.md"
           ],
-          "wikitext": "[[Category:Glasgow Name Study]]\n\n== Biography ==\nNicholas Glasco is named in a 20 June 1746 report in the ''Weekly Worcester Journal'' among officers in the rebel army committed to New Gaol, Southwark. The notice lists him between John Duncan and Alexander M'Laughlan. It gives no rank for Nicholas individually and does not state a conviction, birthplace, residence, relatives, occupation, or dates of birth or death.<ref>[https://www.newspapers.com/image/1214317653/ ''Weekly Worcester Journal'', 20 June 1746, p.4], original roster inspected 4 October 2026. Date follows provider metadata; masthead date has not been separately checked.</ref>\n\n== Research Notes ==\nThe record preserves the spelling Glasco. It is not automatically a Glasgow family identification. The phrase “rebel army” describes the newspaper's group label; this entry does not establish Nicholas's individual rank or guilt. A bounded local lookup of Nicholas Glasgow, Nicholas Glasco and Nicholas Glascow found no compatible historical profile. Later North American profiles were not treated as candidates.\n\nNo parents, spouse, children, birthplace, Irish origin, or Glasgow connection is established. Further work would require the underlying gaol, legal, military, or related 1746 records.\n\n== Sources ==\n<references />\n"
+          "wikitext": "[[Category:Glasgow Name Study]]\n\n== Biography ==\nNicholas Glasco is named in a 20 June 1746 report in the ''Weekly Worcester Journal'' among officers in the rebel army committed to New Gaol, Southwark. The notice lists him between John Duncan and Alexander M'Laughlan. It gives no rank for Nicholas individually and does not state a conviction, birthplace, residence, relatives, occupation, or dates of birth or death.<ref>[https://www.newspapers.com/image/1214317653/ ''Weekly Worcester Journal'', 20 June 1746, p.4], original roster inspected 4 October 2026. Date follows provider metadata; masthead date has not been separately checked.</ref>\n\n\nThe 27 and 28 June reports describe Nicholas Glascoe as a self-styled major and allege a role in the attack on the Hazard sloop. These are allegations, not a finding of guilt.<ref>[https://www.newspapers.com/image/394536822/ The Derby Mercury, 1746-06-27, p.1], original passage visually inspected 5 October 2026; issue metadata supplied by Newspapers.com.</ref><ref>[https://www.newspapers.com/image/404059808/ The Newcastle Weekly Courant, 1746-06-28, p.1], original passage visually inspected 5 October 2026; issue metadata supplied by Newspapers.com.</ref>\n\nAn August report lists Nicholas among persons indicted for high treason, while the 7 November paper announces the pending trial.<ref>[https://www.newspapers.com/image/404060798/ The Newcastle Weekly Courant, 1746-08-23, p.2], original passage visually inspected 5 October 2026; issue metadata supplied by Newspapers.com.</ref><ref>[https://www.newspapers.com/image/394542827/ The Derby Mercury, 1746-11-07, p.3], original passage visually inspected 5 October 2026; issue metadata supplied by Newspapers.com.</ref>\n\nThe 8 and 17 November reports say he was acquitted, with defence evidence identifying him as a French native born at Saint-Germain-en-Laye and a lieutenant in Dillon’s Regiment. They report an order to detain him as a French prisoner. The Caledonian account also mentions a Not Guilty verdict and removal of his bolts; the saved excerpt stops before the full cartel articles. These reports require comparison with the underlying legal and military records.<ref>[https://www.newspapers.com/image/404061824/ The Newcastle Weekly Courant, 1746-11-08, p.3], original passage visually inspected 5 October 2026; issue metadata supplied by Newspapers.com.</ref><ref>[https://www.newspapers.com/image/394462695/ The Caledonian Mercury, 1746-11-17, p.2], original passage visually inspected 5 October 2026; issue metadata supplied by Newspapers.com.</ref>\n\nIn May 1747 a notice names Mr Glascoe as major in Lord Ogilvy’s new regiment. Nicholas is a probable contextual candidate, but the missing forename and unproved continuity prevent a firm identification.<ref>[https://www.newspapers.com/image/404076485/ The Newcastle Weekly Courant, 1747-05-09, p.1], original passage visually inspected 5 October 2026; issue metadata supplied by Newspapers.com.</ref>\n\nNo parents, spouse, children, birth date, death date or Irish origin is established.\n\n== Research Notes ==\nThe rare full name, Southwark proceedings and Hazard episode support a probable association across the 1746 reports. French birth and service are reported defence evidence. They do not establish an Irish origin, a Glasgow-family connection or relatives. The May 1747 appointment lacks a forename.\n\n== Sources ==\n<references />\n"
         },
         {
           "anchor": "james-glasco-omagh",
@@ -7383,6 +7436,146 @@
             "surname-research/new-people/pre1800_glasco-passengers-1766.md"
           ],
           "wikitext": "[[Category:Glasgow Name Study]]\n\n== Biography ==\nA newspaper shipping paragraph published on 17 June 1766 names Mr. Glasco among those who sailed in the King of Prussia, Barry, for Parkgate.<ref>[https://www.newspapers.com/image/1050032001/ Freeman’s Journal, 17 June 1766, p.2], original inspected 5 October 2026.</ref>\n\nA paragraph headed 22 in the 23 August 1766 issue lists Glasco among passengers who arrived in the Fortescue-packet from Holyhead.<ref>[https://www.newspapers.com/image/1050032672/ Freeman’s Journal, 23 August 1766, p.3], original inspected 5 October 2026.</ref> Neither notice gives his forename or family. They may describe different people.\n\n== Research Notes ==\nTwo surname-only passenger notices are recorded together without assuming they describe one person or a return journey. No parent or existing-profile relationship is changed.\n\n== Sources ==\n<references />\n"
+        },
+        {
+          "anchor": "samuel-glascow-old-bailey",
+          "name": "Samuel Glascow, Old Bailey defendant",
+          "status": "HOLD — exact case association; ancestral identity unresolved",
+          "identity_note": "Glasgow-3175 cites the identical Old Bailey case. That is a strong case association, not independent proof that the London defendant was the Ulster-born Pennsylvania ancestor.",
+          "minimum_fields": "Samuel Glascow; Old Bailey trial 6 May 1761; newspaper respite reported 22 May. Birth date, origin, later life and family unresolved.",
+          "facts": [
+            {
+              "finding": "The Derby Mercury reports Samuel’s respite after the gelding-theft case.",
+              "qualification": "The unnatural-crime description concerns Thomas Andrews, not Samuel. Respite does not establish execution or military commutation.",
+              "sources": [
+                {
+                  "title": "The Derby Mercury, 1761-05-22, p.3",
+                  "url": "https://www.newspapers.com/image/394296948/"
+                }
+              ]
+            },
+            {
+              "finding": "The original Old Bailey trial records the gelding indictment, Guilty verdict and death sentence; an associated catalogue entry describes a conditional pardon.",
+              "qualification": "The trial, newspaper respite and pardon metadata are different records. Pardon conditions and later military service have not been verified.",
+              "sources": [
+                {
+                  "title": "Old Bailey Proceedings, t17610506-1, 6 May 1761",
+                  "url": "https://www.oldbaileyonline.org/record/t17610506-1"
+                },
+                {
+                  "title": "Old Bailey associated-record catalogue, ar_9141_29053",
+                  "url": "https://www.oldbaileyonline.org/record/ar_9141_29053"
+                }
+              ]
+            }
+          ],
+          "candidates": [
+            {
+              "id": "Glasgow-3175",
+              "reason": "Captured profile cites the identical Old Bailey/Digital Panopticon case obpt17610506-1-defend30. Strong case association only; ancestral identity and later life remain unproved."
+            },
+            {
+              "id": "Glasgow-1492",
+              "reason": "A separate 1766 Gorteen Samuel Glasco occurrence has no age or relatives linking it to the London defendant."
+            }
+          ],
+          "duplicate_check": [
+            "The captured Glasgow-3175 biography cites the unique case ID obpt17610506-1-defend30. Its uncertain 1740 Ulster birth and 1801 Pennsylvania death require a separate identity bridge.",
+            "Other chronological namesakes remain unresolved; neither this case nor the 1766 Gorteen return proves parents or migration."
+          ],
+          "next_test": "Inspect TNA SP 44/87 f.68 and related pardon/service papers; bridge the London defendant to any Ulster or Pennsylvania family before treating the profile identity as proved.",
+          "draft_sources": [
+            "surname-research/new-people/pre1800_samuel-glascow-old-bailey.md"
+          ],
+          "wikitext": "[[Category:Glasgow Name Study]]\n\n== Biography ==\nSamuel Glascow was tried at the Old Bailey on 6 May 1761 for stealing a bay-coloured gelding valued at £10, property of William Hayward, serjeant at law, on 24 April. The trial records a Guilty verdict and death sentence.<ref>[https://www.oldbaileyonline.org/record/t17610506-1 Old Bailey Proceedings, t17610506-1, 6 May 1761], original transcript inspected 5 October 2026.</ref> The Derby Mercury on 22 May reports a respite during His Majesty’s pleasure, describing the owner as Mr Serjeant Heywood. The adjacent unnatural-crime statement concerns Thomas Andrews, not Samuel.<ref>[https://www.newspapers.com/image/394296948/ The Derby Mercury, 1761-05-22, p.3], original passage visually inspected 5 October 2026; issue metadata supplied by Newspapers.com.</ref>\n\nIn his defence Samuel said he had worked nine years in a Holbourn shop with John Steed and Thomas Bartlet, spent five years abroad, returned to England twelve months earlier, and lived nine months at High Wickham. He described buying tools and hair to set up business there. Witness Henry Ward attributed to him a statement that his unnamed mother lived in South-street. These are attributed statements, not independently verified residence or kinship records. No birth date or origin is supplied by the inspected trial.\n\nAssociated Old Bailey catalogue metadata lists a conditional pardon dated 6 May 1761, TNA SP 44/87 f.68; the archival document and its conditions have not been inspected.<ref>[https://www.oldbaileyonline.org/record/ar_9141_29053 Old Bailey associated-record catalogue, ar_9141_29053], inspected 5 October 2026.</ref>\n\n== Research Notes ==\n[[Glasgow-3175]] cites the same case identifier, obpt17610506-1-defend30. Its 1740 Ulster birth and 1801 Pennsylvania death remain uncertain, and the case association alone does not connect that ancestor or his family to the defendant. The inspected sources do not establish military commutation, execution, or an exact respite date of 21 May. [[Glasgow-1492]] remains an unresolved namesake through a separate 1766 Gorteen occurrence.\n\n== Sources ==\n<references />\n"
+        },
+        {
+          "anchor": "william-glasgow-lady-forbes",
+          "name": "William Glasgow, master of the Lady Forbes",
+          "status": "HOLD — documentary person; profile identity unresolved",
+          "identity_note": "The newspaper explicitly names William Glasgow as master. Glasgow as the vessel’s home port supplies no personal birthplace or family identity.",
+          "minimum_fields": "Name William Glasgow; master of Lady Forbes in January 1768; vessel driven ashore near Sutton while carrying rum for Waterford; crew reported saved. Age and family unknown.",
+          "facts": [
+            {
+              "finding": "William Glasgow is named as master of the Lady Forbes in the Sutton shipping casualty report.",
+              "qualification": "The paper reports the crew saved. A Scottish vessel designation does not establish the master’s residence or origin.",
+              "sources": [
+                {
+                  "title": "The Public Register, or, Freeman's Journal, 1768-01-23, p.2",
+                  "url": "https://www.newspapers.com/image/1050136699/"
+                }
+              ]
+            }
+          ],
+          "candidates": [
+            {
+              "id": "Glasgow-4120",
+              "reason": "Birth before 3 February 1723; Irvine baptism. Chronologically compatible, but no master, vessel or maritime identity bridge."
+            },
+            {
+              "id": "Glasgow-4101",
+              "reason": "Birth before 12 June 1733; Dundonald baptism. Chronologically compatible, but no master, vessel or maritime identity bridge."
+            },
+            {
+              "id": "Glasgow-1505",
+              "reason": "Older Larne William, estimated birth and death; alive in this period as a working hypothesis. No Lady Forbes connection is established."
+            }
+          ],
+          "duplicate_check": [
+            "Bounded public-catalogue check found chronologically compatible William profiles at Irvine, Dundonald and Larne, without a maritime identity bridge.",
+            "The brig William in a 1796 Belfast advertisement has an unnamed Glasgow captain: William there is the vessel’s name. No shared identity is proved."
+          ],
+          "next_test": "Find Lady Forbes ownership, master, port-clearance and casualty records around January 1768; look for age, domicile and family before assigning this notice.",
+          "draft_sources": [
+            "surname-research/new-people/pre1800_william-glasgow-lady-forbes.md"
+          ],
+          "wikitext": "[[Category:Glasgow Name Study]]\n\n== Biography ==\nWilliam Glasgow is named as master of the Lady Forbes in a newspaper report published 23 January 1768. The vessel is described separately as “of Glasgow,” carrying rum for Waterford and driven ashore near Sutton; the crew were reported saved.<ref>[https://www.newspapers.com/image/1050136699/ The Public Register, or, Freeman's Journal, 1768-01-23, p.2], original passage visually inspected 5 October 2026; issue metadata supplied by Newspapers.com.</ref>\n\n== Research Notes ==\nThe notice supplies no age, residence, birthplace, parents, spouse or children. Chronologically compatible William profiles remain candidates only. No evidence connects the master to [[Glasgow-4120]], [[Glasgow-4101]] or [[Glasgow-1505]]. The 1796 brig William advertisement does not name its captain William: that is the ship’s name.\n\n== Sources ==\n<references />\n"
+        },
+        {
+          "anchor": "thomas-glascoe-tinicum",
+          "name": "Thomas Glascoe of Tinicum Island",
+          "status": "HOLD — documentary person; profile identity unresolved",
+          "identity_note": "Thomas signs the theft notice as subscriber. William Steel is the alleged thief. No local catalogue profile has a proved Tinicum or Delaware connection.",
+          "minimum_fields": "Name Thomas Glascoe; subscriber living at Tinicum Island according to an April 1799 notice; age, birth, death and relatives unknown.",
+          "facts": [
+            {
+              "finding": "Thomas reports $115 stolen from his Tinicum Island house on 31 March 1799; the April 9 notice is reprinted on April 11.",
+              "qualification": "One underlying notice, two issue appearances. The original reward is $20 for recovery of the money or $15 for the thief only.",
+              "sources": [
+                {
+                  "title": "Aurora General Advertiser, 1799-04-09, p.3",
+                  "url": "https://www.newspapers.com/image/586542475/"
+                },
+                {
+                  "title": "Aurora General Advertiser, 1799-04-11, p.1",
+                  "url": "https://www.newspapers.com/image/586542512/"
+                }
+              ]
+            }
+          ],
+          "candidates": [
+            {
+              "id": "Glasco-173",
+              "reason": "Chronologically compatible Thomas Glasco profile; no Tinicum or Delaware identity bridge is established."
+            },
+            {
+              "id": "Glasco-144",
+              "reason": "Chronologically compatible Thomas Glasco profile; no Tinicum or Delaware identity bridge is established."
+            },
+            {
+              "id": "Glasco-143",
+              "reason": "Chronologically compatible Thomas Glasco profile; no Tinicum or Delaware identity bridge is established."
+            }
+          ],
+          "duplicate_check": [
+            "Bounded local public-profile check found Thomas Glasco namesakes, but no proved Tinicum/Delaware identity. Scottish and Irish namesakes without a demonstrated conflict remain unresolved.",
+            "A death date stated only as after a seventeenth-century date is a lower bound, not an exclusion by 1799. Extremely early birth estimates make some namesakes weak chronological candidates. No family or inheritance inference is justified."
+          ],
+          "next_test": "Check Delaware County Pennsylvania tax, land, probate and church records for Tinicum residents around 1799; connect the subscriber to an age, household and spelling variants.",
+          "draft_sources": [
+            "surname-research/new-people/pre1800_thomas-glascoe-tinicum.md"
+          ],
+          "wikitext": "[[Category:Glasgow Name Study]]\n\n== Biography ==\nThomas Glascoe signed a STOP THIEF notice dated 9 April 1799, reporting $115 stolen from his house on Tinicum Island, within four miles of old Chester on the Delaware, on 31 March. He accused a man calling himself William Steel and offered $20 for recovery of the money, or $15 for the thief only. The notice appeared on 9 April and was reprinted on 11 April.<ref>[https://www.newspapers.com/image/586542475/ Aurora General Advertiser, 1799-04-09, p.3], original passage visually inspected 5 October 2026; issue metadata supplied by Newspapers.com.</ref><ref>[https://www.newspapers.com/image/586542512/ Aurora General Advertiser, 1799-04-11, p.1], original passage visually inspected 5 October 2026; issue metadata supplied by Newspapers.com.</ref>\n\n== Research Notes ==\nThomas is the advertiser and reported victim, not the alleged thief. The notice states his residence but no age, birth, death, spouse, parents or children. Chronologically compatible Thomas Glasco profiles in Dublin remain possible namesakes; no migration or Delaware identity bridge has been found. Reprints represent one reported event. No inheritance or family relationship is established.\n\n== Sources ==\n<references />\n"
         }
       ]
     },

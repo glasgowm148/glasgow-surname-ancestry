@@ -21,3 +21,15 @@ of Kildress and must not be used as a second Derryloran occurrence.
 Retain the Gorteen occurrence as a possible match, explicitly labelled
 unidentified. Do not use it to make the current father attachment certain and
 remove any wording that combines Gorteen and Whitehill as one man's movements.
+
+## Current conclusion — newspaper review, 5 October 2026
+
+Samuel Glascow’s 1761 London case is an unresolved namesake comparison, not a match to this profile.
+
+## Source findings — newspaper review
+
+The [Derby Mercury, 22 May 1761, p.3](https://www.newspapers.com/image/394296948/) reports respite after gelding theft. Its exact case is the case already cited on Glasgow-3175.
+
+## Identity and relationship assessments — newspaper review
+
+This profile’s separate 1766 Gorteen Samuel Glasco occurrence supplies no age or family bridge to the defendant. Preserve the existing Irish assessment and uncertainty; no relationship change is supported.

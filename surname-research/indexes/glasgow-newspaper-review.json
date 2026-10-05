@@ -23,7 +23,8 @@
     "John NI 95 and Ireland 109 first previews were all screened; their repeated merchant advertisements are not independent family confirmations. A separate damaged 1849 marriage reading stays pending. Co-signatories are not necessarily relatives; Castledawson 4 July is the opposing meeting, not their residence/signing date. Probate-office locality and grant year do not prove residence or date of death.",
     "Parallel continuation on 4 October 2026: worldwide Glascow loaded 180 of 306 results before a provider result-loader failure; the later Glafco search showed 21 previews, all loaded, but not all originals were inspected. Search counts changed between observations. Abbreviation zero results do not establish absence. Pre-1800 completeness has not been established across all digitised newspapers or all highlights.",
     "The expanded long-s variant search displayed 28 matches but 27 unique preview cards were retrieved. Newly inspected 1746 and 1765 originals are retained; other previews remain leads. Complete pre-1800 coverage has not been established.",
-    "5 October 2026 batch: 9 additionalpre 1800 surname pages with excerpts. WorldwideGlascow loading gaps and external-worker capture failures remain unresolved; query cards and OCR/no-match results are not verified absences. Date boundaries in profile indexes are not actual event years."
+    "5 October 2026 batch: 9 additionalpre 1800 surname pages with excerpts. WorldwideGlascow loading gaps and external-worker capture failures remain unresolved; query cards and OCR/no-match results are not verified absences. Date boundaries in profile indexes are not actual event years.",
+    "By 5 October 2026, all 27 unique retrieved worldwide Glafco original pages were examined: 12 confirmed surname pages, 12 non-surname contexts and three ambiguous single-name/alias notices. The displayed total of 28 versus 27 cards remains unexplained. Glascow narrower queries retrieved further metadata but not every original. Confirmed surname pages and saved excerpts are integrated; no exhaustive pre-1800 claim is made."
   ],
   "rows": [
     {
@@ -6096,6 +6097,278 @@
       "reading": "Glasco appears between Gibraltar and Jamaica in a port-count table: place, not a surname.",
       "assessment": "Original highlighted context visually inspected; excluded from surname evidence. Private context capture retained.",
       "profile_ids": [],
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "394536822",
+      "date": "1746-06-27",
+      "paper": "The Derby Mercury",
+      "page": 1,
+      "source_url": "https://www.newspapers.com/image/394536822/",
+      "queries": [
+        "\"Glascoe\""
+      ],
+      "status": "confirmed surname",
+      "reading": "Nicholas Glascoe, who styles himself Major Glascoe, now a Prisoner in the New Goal, and one of the Rebels principal Engineers, was the Person who rais'd the Battery against the Hazard Sloop of War, and imprison'd the late Captain of that Sloop, and his Officers; for which he will be tried.",
+      "assessment": "Reported allegation and self-styled rank; no conviction is established. Probably the Nicholas Glasco in the 20 June Southwark committal report.",
+      "profile_ids": [],
+      "profile_matches": [],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#nicholas-glasco-southwark",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "404059808",
+      "date": "1746-06-28",
+      "paper": "The Newcastle Weekly Courant",
+      "page": 1,
+      "source_url": "https://www.newspapers.com/image/404059808/",
+      "queries": [
+        "\"Glascoe\""
+      ],
+      "status": "confirmed surname",
+      "reading": "Nicholas Glascoe, who styles himself Major Glascoe, now a Prisoner in the New Goal, and one of the Rebels principal Engineers, was the Person who rais'd the Battery against the Hazard Sloop of War, and imprison'd the late Captain of that Sloop, and his Officers; for which he will be tried.",
+      "assessment": "Reprint of the June report, preserved as a second issue appearance of the same text.",
+      "profile_ids": [],
+      "profile_matches": [],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#nicholas-glasco-southwark",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "404060798",
+      "date": "1746-08-23",
+      "paper": "The Newcastle Weekly Courant",
+      "page": 2,
+      "source_url": "https://www.newspapers.com/image/404060798/",
+      "queries": [
+        "\"Glascoe\""
+      ],
+      "status": "confirmed surname",
+      "reading": "An indictment list for High Treason at St Margaret’s Hill, Southwark, includes “5. Nicholas Glascoe, Maj. in ditto. He raised the Battery against the Hazard Sloop (which was commanded by Capt. Hill) and took her.”",
+      "assessment": "The preceding list identifies Ogilvy’s Regiment. An indictment is reported; it does not establish guilt. Same uncommon name and Hazard episode support the Nicholas case association.",
+      "profile_ids": [],
+      "profile_matches": [],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#nicholas-glasco-southwark",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "394542827",
+      "date": "1746-11-07",
+      "paper": "The Derby Mercury",
+      "page": 3,
+      "source_url": "https://www.newspapers.com/image/394542827/",
+      "queries": [
+        "\"Glascoe\""
+      ],
+      "status": "confirmed surname",
+      "reading": "The Court adjourned until nine o’clock, when the trial of Major Glascoe, who raised the battery against the Hazard Sloop and took her, and who calls himself a French Officer, was to come on first.",
+      "assessment": "Trial scheduling report; neither a verdict nor independent proof of French military service.",
+      "profile_ids": [],
+      "profile_matches": [],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#nicholas-glasco-southwark",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "404061824",
+      "date": "1746-11-08",
+      "paper": "The Newcastle Weekly Courant",
+      "page": 3,
+      "source_url": "https://www.newspapers.com/image/404061824/",
+      "queries": [
+        "\"Glascoe\""
+      ],
+      "status": "confirmed surname",
+      "reading": "Nicholas Glascoe, described as a Major in Lord Ogilvie’s Second Battalion, was tried. Defence evidence described him as a lieutenant in Dillon’s Regiment in French service and a native of France, born at St Germain’s en lay. The paper reports acquittal and an order to detain him as a French prisoner.",
+      "assessment": "Reported defence evidence and outcome, requiring comparison with original legal and military records. The paper does not identify relatives or a birth date. The 17 November reprint adds a Not Guilty verdict and removal of his bolts; the saved excerpt stops before the full cartel articles.",
+      "profile_ids": [],
+      "profile_matches": [],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#nicholas-glasco-southwark",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "394462695",
+      "date": "1746-11-17",
+      "paper": "The Caledonian Mercury",
+      "page": 2,
+      "source_url": "https://www.newspapers.com/image/394462695/",
+      "queries": [
+        "\"Glascoe\""
+      ],
+      "status": "confirmed surname",
+      "reading": "Nicholas Glascoe, described as a Major in Lord Ogilvie’s Second Battalion, was tried. Defence evidence described him as a lieutenant in Dillon’s Regiment in French service and a native of France, born at St Germain’s en lay. The paper reports acquittal and an order to detain him as a French prisoner.",
+      "assessment": "Reprinted trial account. The following paragraph adds a Not Guilty verdict and removal of his bolts, then introduces cartel articles. Their full terms are outside the saved excerpt and are not inferred.",
+      "profile_ids": [],
+      "profile_matches": [],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#nicholas-glasco-southwark",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "404076485",
+      "date": "1747-05-09",
+      "paper": "The Newcastle Weekly Courant",
+      "page": 1,
+      "source_url": "https://www.newspapers.com/image/404076485/",
+      "queries": [
+        "\"Glascoe\""
+      ],
+      "status": "confirmed surname",
+      "reading": "The King has granted English Pay to the Regiment which Lord Ogilvy is raising, to be composed only of English and Scotch Men. Sir William Gordon of Park is appointed lieutenant-colonel, and “Mr Glascoe Major.”",
+      "assessment": "Surname and appointment context are clear. Nicholas is a probable contextual identification from the Ogilvy association, but the notice supplies no forename or family; his identity remains unresolved.",
+      "profile_ids": [],
+      "profile_matches": [],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#nicholas-glasco-southwark",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "586542475",
+      "date": "1799-04-09",
+      "paper": "Aurora General Advertiser",
+      "page": 3,
+      "source_url": "https://www.newspapers.com/image/586542475/",
+      "queries": [
+        "\"Glascoe\""
+      ],
+      "status": "confirmed surname",
+      "reading": "STOP THIEF. Thomas Glascoe reports $115 stolen from his house at Tinicum Island, within four miles of old Chester on the Delaware, on 31 March 1799, by a person calling himself William Steel. Reward: $20 if the money is recovered, or $15 for the thief only. Notice dated April 9.",
+      "assessment": "Thomas is the subscriber and reported victim; William Steel is the alleged thief. The notice states Thomas’s location but gives no age or family. Reward checked visually as twenty dollars, not fifty.",
+      "profile_ids": [
+        "Glasco-173",
+        "Glasco-144",
+        "Glasco-143"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasco-173",
+          "confidence": "possible",
+          "role": "Unresolved identity candidate",
+          "basis": "Chronologically compatible Thomas Glasco profile; no Tinicum or Delaware identity bridge is established."
+        },
+        {
+          "profile_id": "Glasco-144",
+          "confidence": "possible",
+          "role": "Unresolved identity candidate",
+          "basis": "Chronologically compatible Thomas Glasco profile; no Tinicum or Delaware identity bridge is established."
+        },
+        {
+          "profile_id": "Glasco-143",
+          "confidence": "possible",
+          "role": "Unresolved identity candidate",
+          "basis": "Chronologically compatible Thomas Glasco profile; no Tinicum or Delaware identity bridge is established."
+        }
+      ],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#thomas-glascoe-tinicum",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "586542512",
+      "date": "1799-04-11",
+      "paper": "Aurora General Advertiser",
+      "page": 1,
+      "source_url": "https://www.newspapers.com/image/586542512/",
+      "queries": [
+        "\"Glascoe\""
+      ],
+      "status": "confirmed surname",
+      "reading": "STOP THIEF. Thomas Glascoe reports $115 stolen from his house at Tinicum Island, within four miles of old Chester on the Delaware, on 31 March 1799, by a person calling himself William Steel. Reward: $20 if the money is recovered, or $15 for the thief only. Notice dated April 9.",
+      "assessment": "Reprint of the notice dated April 9, representing one reported theft in two issue appearances. No independent second event or profile identification.",
+      "profile_ids": [
+        "Glasco-173",
+        "Glasco-144",
+        "Glasco-143"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasco-173",
+          "confidence": "possible",
+          "role": "Unresolved identity candidate",
+          "basis": "Chronologically compatible Thomas Glasco profile; no Tinicum or Delaware identity bridge is established."
+        },
+        {
+          "profile_id": "Glasco-144",
+          "confidence": "possible",
+          "role": "Unresolved identity candidate",
+          "basis": "Chronologically compatible Thomas Glasco profile; no Tinicum or Delaware identity bridge is established."
+        },
+        {
+          "profile_id": "Glasco-143",
+          "confidence": "possible",
+          "role": "Unresolved identity candidate",
+          "basis": "Chronologically compatible Thomas Glasco profile; no Tinicum or Delaware identity bridge is established."
+        }
+      ],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#thomas-glascoe-tinicum",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "394296948",
+      "date": "1761-05-22",
+      "paper": "The Derby Mercury",
+      "page": 3,
+      "source_url": "https://www.newspapers.com/image/394296948/",
+      "queries": [
+        "\"Glascow\""
+      ],
+      "status": "confirmed surname",
+      "reading": "Samuel Glascow, for stealing a gelding described as the property of Mr Serjeant Heywood, and Thomas Andrews, separately described as convicted of an unnatural crime, were respited during His Majesty’s pleasure.",
+      "assessment": "The unnatural-crime description applies to Thomas Andrews. The exact Old Bailey case links strongly to the case cited on Glasgow-3175; the profile’s Ulster birth, Pennsylvania death and ancestry are not proved by that case. The notice reports respite, not execution or military commutation.",
+      "profile_ids": [
+        "Glasgow-3175",
+        "Glasgow-1492"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-3175",
+          "confidence": "strong",
+          "role": "Exact case cited on profile; person identity requires a bridge",
+          "basis": "Captured profile cites the identical Old Bailey/Digital Panopticon case obpt17610506-1-defend30. Strong case association only; ancestral identity and later life remain unproved."
+        },
+        {
+          "profile_id": "Glasgow-1492",
+          "confidence": "possible",
+          "role": "Unresolved identity candidate",
+          "basis": "A separate 1766 Gorteen Samuel Glasco occurrence has no age or relatives linking it to the London defendant."
+        }
+      ],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#samuel-glascow-old-bailey",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "1050136699",
+      "date": "1768-01-23",
+      "paper": "The Public Register, or, Freeman's Journal",
+      "page": 2,
+      "source_url": "https://www.newspapers.com/image/1050136699/",
+      "queries": [
+        "\"William Glafgow\""
+      ],
+      "status": "confirmed surname",
+      "reading": "“The Lady Forbes, of Glasgow, William Glasgow, Master, with Rum for Waterford, was drove on Shore near Sutton, but the Crew were saved.”",
+      "assessment": "William Glasgow is explicitly the master’s personal name; “of Glasgow” separately describes the vessel. Personal origin, age and family are unstated. No identification with the unnamed Glasgow captain of the brig William in 1796 is justified.",
+      "profile_ids": [
+        "Glasgow-4120",
+        "Glasgow-4101",
+        "Glasgow-1505"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-4120",
+          "confidence": "possible",
+          "role": "Unresolved identity candidate",
+          "basis": "Birth before 3 February 1723; Irvine baptism. Chronologically compatible, but no master, vessel or maritime identity bridge."
+        },
+        {
+          "profile_id": "Glasgow-4101",
+          "confidence": "possible",
+          "role": "Unresolved identity candidate",
+          "basis": "Birth before 12 June 1733; Dundonald baptism. Chronologically compatible, but no master, vessel or maritime identity bridge."
+        },
+        {
+          "profile_id": "Glasgow-1505",
+          "confidence": "possible",
+          "role": "Unresolved identity candidate",
+          "basis": "Older Larne William, estimated birth and death; alive in this period as a working hypothesis. No Lady Forbes connection is established."
+        }
+      ],
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#william-glasgow-lady-forbes",
       "reviewed_on": "2026-10-05"
     }
   ]

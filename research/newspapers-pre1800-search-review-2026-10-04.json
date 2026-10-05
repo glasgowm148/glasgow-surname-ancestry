@@ -2272,8 +2272,8 @@
         "590947154",
         "605189320"
       ],
-      "triage": "Agent reports preview triage across this narrower range. One new original surname lead: Samuel Glascow, Derby Mercury, 22 May 1761, image394296948; capture and integration pending.",
-      "limitations": "Loaded cards, reported matches and accessible preview positions are different counts. New cards lack complete metadata export; missing cards and OCR variants prevent exhaustive coverage."
+      "triage": "Agent reports preview triage across this narrower range. One new original surname lead: Samuel Glascow, Derby Mercury, 22 May 1761, image394296948; original clipped and integrated 5 October 2026.",
+      "limitations": "New-card metadata export is now saved for 85 additional cards across narrower date ranges. Preview triage is partial; provider counts and cards differ. OCR variants and unread highlights still prevent exhaustive coverage."
     },
     {
       "query": "\"Glascow\"",
@@ -2287,8 +2287,8 @@
         "605065009",
         "404023244"
       ],
-      "triage": "Agent reports preview triage across this narrower range. One new original surname lead: Samuel Glascow, Derby Mercury, 22 May 1761, image394296948; capture and integration pending.",
-      "limitations": "Loaded cards, reported matches and accessible preview positions are different counts. New cards lack complete metadata export; missing cards and OCR variants prevent exhaustive coverage."
+      "triage": "Agent reports preview triage across this narrower range. One new original surname lead: Samuel Glascow, Derby Mercury, 22 May 1761, image394296948; original clipped and integrated 5 October 2026.",
+      "limitations": "New-card metadata export is now saved for 85 additional cards across narrower date ranges. Preview triage is partial; provider counts and cards differ. OCR variants and unread highlights still prevent exhaustive coverage."
     },
     {
       "query": "\"Glascow\"",
@@ -2369,8 +2369,8 @@
         "394367040",
         "32815643"
       ],
-      "triage": "Agent reports preview triage across this narrower range. One new original surname lead: Samuel Glascow, Derby Mercury, 22 May 1761, image394296948; capture and integration pending.",
-      "limitations": "Loaded cards, reported matches and accessible preview positions are different counts. New cards lack complete metadata export; missing cards and OCR variants prevent exhaustive coverage."
+      "triage": "Agent reports preview triage across this narrower range. One new original surname lead: Samuel Glascow, Derby Mercury, 22 May 1761, image394296948; original clipped and integrated 5 October 2026.",
+      "limitations": "New-card metadata export is now saved for 85 additional cards across narrower date ranges. Preview triage is partial; provider counts and cards differ. OCR variants and unread highlights still prevent exhaustive coverage."
     },
     {
       "query": "\"Manasses Glasco\"",
@@ -2404,6 +2404,160 @@
       "retrieved_entries": 0,
       "triage": "Rendered No good matches; no numeric filtered total exposed. The long-s OCR spelling Glafco has not been covered by this query.",
       "limitations": "This is not proof of surname absence. A known1780ManassesGlasco original exists under OCRGlafco."
+    },
+    {
+      "query": "\"William Glafgow\"",
+      "collection": "Ireland",
+      "date_start": 1600,
+      "date_end": 1799,
+      "reviewed_on": "2026-10-05",
+      "reported_entries": null,
+      "retrieved_entries": 2,
+      "triage": "Original-page screening recorded in the private Irish long-s proposal; William’s 1768 master notice retained.",
+      "limitations": "Four preview-only results are not counted as original exclusions."
+    },
+    {
+      "query": "\"James Glafgow\"",
+      "collection": "Ireland",
+      "date_start": 1600,
+      "date_end": 1799,
+      "reviewed_on": "2026-10-05",
+      "reported_entries": null,
+      "retrieved_entries": 4,
+      "triage": "Original-page screening recorded in the private Irish long-s proposal; William’s 1768 master notice retained.",
+      "limitations": "Four preview-only results are not counted as original exclusions."
+    },
+    {
+      "query": "\"John Glafgow\"",
+      "collection": "Ireland",
+      "date_start": 1600,
+      "date_end": 1799,
+      "reviewed_on": "2026-10-05",
+      "reported_entries": null,
+      "retrieved_entries": 7,
+      "triage": "Original-page screening recorded in the private Irish long-s proposal; William’s 1768 master notice retained.",
+      "limitations": "Four preview-only results are not counted as original exclusions."
+    },
+    {
+      "query": "\"Robert Glafgow\"",
+      "collection": "Ireland",
+      "date_start": 1600,
+      "date_end": 1799,
+      "reviewed_on": "2026-10-05",
+      "reported_entries": null,
+      "retrieved_entries": 1,
+      "triage": "Original-page screening recorded in the private Irish long-s proposal; William’s 1768 master notice retained.",
+      "limitations": "Four preview-only results are not counted as original exclusions."
+    },
+    {
+      "query": "\"Alexander Glafgow\"",
+      "collection": "Ireland",
+      "date_start": 1600,
+      "date_end": 1799,
+      "reviewed_on": "2026-10-05",
+      "reported_entries": 4,
+      "retrieved_entries": 4,
+      "triage": "Alexander: four previews, three original vessel/place exclusions, one preview-only. Other four queries returned zero in scope.",
+      "limitations": "Zero is an OCR query result, not surname absence; unopened preview is not a verified exclusion."
+    },
+    {
+      "query": "\"Samuel Glafgow\"",
+      "collection": "Ireland",
+      "date_start": 1600,
+      "date_end": 1799,
+      "reviewed_on": "2026-10-05",
+      "reported_entries": 0,
+      "retrieved_entries": 0,
+      "triage": "Alexander: four previews, three original vessel/place exclusions, one preview-only. Other four queries returned zero in scope.",
+      "limitations": "Zero is an OCR query result, not surname absence; unopened preview is not a verified exclusion."
+    },
+    {
+      "query": "\"Hugh Glafgow\"",
+      "collection": "Ireland",
+      "date_start": 1600,
+      "date_end": 1799,
+      "reviewed_on": "2026-10-05",
+      "reported_entries": 0,
+      "retrieved_entries": 0,
+      "triage": "Alexander: four previews, three original vessel/place exclusions, one preview-only. Other four queries returned zero in scope.",
+      "limitations": "Zero is an OCR query result, not surname absence; unopened preview is not a verified exclusion."
+    },
+    {
+      "query": "\"Adam Glafgow\"",
+      "collection": "Ireland",
+      "date_start": 1600,
+      "date_end": 1799,
+      "reviewed_on": "2026-10-05",
+      "reported_entries": 0,
+      "retrieved_entries": 0,
+      "triage": "Alexander: four previews, three original vessel/place exclusions, one preview-only. Other four queries returned zero in scope.",
+      "limitations": "Zero is an OCR query result, not surname absence; unopened preview is not a verified exclusion."
+    },
+    {
+      "query": "\"Joseph Glafgow\"",
+      "collection": "Ireland",
+      "date_start": 1600,
+      "date_end": 1799,
+      "reviewed_on": "2026-10-05",
+      "reported_entries": 0,
+      "retrieved_entries": 0,
+      "triage": "Alexander: four previews, three original vessel/place exclusions, one preview-only. Other four queries returned zero in scope.",
+      "limitations": "Zero is an OCR query result, not surname absence; unopened preview is not a verified exclusion."
+    },
+    {
+      "query": "\"Manaffes Glafco\"",
+      "collection": "Ireland",
+      "date_start": 1600,
+      "date_end": 1799,
+      "reviewed_on": "2026-10-05",
+      "reported_entries": 1,
+      "retrieved_entries": 1,
+      "triage": "Manaffes Glafco retrieves the visually verified 1780 Rev. Manasses Glasco notice; other strings returned zero in scope.",
+      "limitations": "Direct modern-letter phrase searches miss the known original; no surname-absence inference."
+    },
+    {
+      "query": "\"Manaffes Glasco\"",
+      "collection": "Ireland",
+      "date_start": 1600,
+      "date_end": 1799,
+      "reviewed_on": "2026-10-05",
+      "reported_entries": 0,
+      "retrieved_entries": 0,
+      "triage": "Manaffes Glafco retrieves the visually verified 1780 Rev. Manasses Glasco notice; other strings returned zero in scope.",
+      "limitations": "Direct modern-letter phrase searches miss the known original; no surname-absence inference."
+    },
+    {
+      "query": "\"Manasses Glafco\"",
+      "collection": "Ireland",
+      "date_start": 1600,
+      "date_end": 1799,
+      "reviewed_on": "2026-10-05",
+      "reported_entries": 0,
+      "retrieved_entries": 0,
+      "triage": "Manaffes Glafco retrieves the visually verified 1780 Rev. Manasses Glasco notice; other strings returned zero in scope.",
+      "limitations": "Direct modern-letter phrase searches miss the known original; no surname-absence inference."
+    },
+    {
+      "query": "\"Nicholas Glafco\"",
+      "collection": "Ireland",
+      "date_start": 1600,
+      "date_end": 1799,
+      "reviewed_on": "2026-10-05",
+      "reported_entries": 0,
+      "retrieved_entries": 0,
+      "triage": "Manaffes Glafco retrieves the visually verified 1780 Rev. Manasses Glasco notice; other strings returned zero in scope.",
+      "limitations": "Direct modern-letter phrase searches miss the known original; no surname-absence inference."
+    },
+    {
+      "query": "\"Glascoe\"",
+      "collection": "Worldwide",
+      "date_start": 1600,
+      "date_end": 1799,
+      "reviewed_on": "2026-10-05",
+      "reported_entries": 11,
+      "retrieved_entries": 10,
+      "triage": "Ten search cards screened: nine unique newspaper pages and one derivative crime metadata card. Nine originals saved and catalogued; no metadata entity is counted as a page.",
+      "limitations": "Provider match count, cards and unique original pages are distinct totals; this one spelling does not establish exhaustive coverage."
     }
   ],
   "new_original_passages": {
@@ -2472,8 +2626,9 @@
     "Licensed page pixels and raw reading captures stay in the private cache; this review is not a QMD indexing authorization.",
     "Worldwide exact-name John Glasco returned zero although broader Glasco found the verified 1799 original. Query totals and completed retrieval do not establish complete surname coverage.",
     "Parallel continuation on 4 October 2026: worldwide Glascow loaded 180 of 306 results before a provider result-loader failure; the later Glafco search showed 21 previews, all loaded, but not all originals were inspected. Search counts changed between observations. Abbreviation zero results do not establish absence. Pre-1800 completeness has not been established across all digitised newspapers or all highlights.",
-    "Latest worldwide Glafco continuation displayed28 matches and yielded27 unique preview cards at the end of results. Two further originals inspected and retained; additional jury,passenger,Manasses and JamesOmagh previews are pending original verification. Ten Mac-launcher Luna workers failed during startup before research; no findings or completeness credit were assigned to them.",
-    "External Luna browser workers launched5October could read metadata but failed visual capture or result retrieval; these attempts add no verified surname coverage. Working browser workers recaptured original queues independently. Ten task workers were launched/assigned, with one database-lock startup retried; workers are counted as productive only for actual completed work."
+    "External Luna browser workers launched5October could read metadata but failed visual capture or result retrieval; these attempts add no verified surname coverage. Working browser workers recaptured original queues independently. Ten task workers were launched/assigned, with one database-lock startup retried; workers are counted as productive only for actual completed work.",
+    "By 5 October 2026, all 27 unique retrieved worldwide Glafco original pages were examined: 12 confirmed surname pages, 12 non-surname contexts and three ambiguous single-name/alias notices. The displayed total of 28 versus 27 cards remains unexplained. Glascow narrower queries retrieved further metadata but not every original. Confirmed surname pages and saved excerpts are integrated; no exhaustive pre-1800 claim is made.",
+    "A second seven-worker Mac/OpenCode wave stalled in startup without tool calls; it adds no research credit. The three working browser agents continue bounded searches."
   ],
   "search_pause_history": [
     {
