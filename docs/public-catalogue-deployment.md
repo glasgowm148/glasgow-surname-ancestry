@@ -4,7 +4,15 @@ The generated `www/` directory is the complete website root. No hosting credenti
 
 The catalogue's maintained stylesheet is `tools/catalogue-light.css`. Both the catalogue builder and unified-site repair copy it to `www/people/catalogue.css`; a full catalogue build also restores the unified light `/catalogue/` shell. `tools/check_public_catalogue.py` flags a dark stylesheet or a reverted catalogue shell before release. Package a new archive after presentation changes so old CSS cache URLs and old bundles are not reused.
 
-## Current live release — Newspaper continuation, 5 October 2026
+## Current live release — Newspaper families and notices, 5 October 2026
+
+The live collection retains 270 pre-1800 surname pages, grouped into 144 distinct readings. Across all years, 347 retained pages display 403 approved bounded PNG excerpts. Every confirmed pre-1800 page has a saved clipping. Sources and year/country pages, consolidated subjects, 14 affected candidate dossiers/comparisons, Latest findings and the held queue are synchronized. New documentary families name Robert as son of Andrew, miller at Calder (1772), and James as son of David in the Kelso militia ballot (1798). Profile assignments remain possible; no live WikiTree save or relationship certainty upgrade occurred. The three new Robert contexts remain separate. Sixteen 1782 tannery issues and three distinct 1785 issues form two reading groups; Leith merchant notices and a rescued 1798 Secretary chest paragraph are integrated.
+
+Research commit: `b17052cb`. All 61 focused tests pass; release totals, Atlas destinations, publication boundaries and asset versions pass. The reviewed upload contains zero deletions and production smoke passes. All 643 checked live files match local bytes, including every approved excerpt, affected profile readers/data and newspaper country/year pages. The live Calder family card and clipping were checked in Chrome; proof is saved under `artifacts/pre1850-continuation-20261005/second-batch-*`. George and refreshed Glascow pre-1800 closure results are still being integrated before the 1800–1850 phase.
+
+This batch was uploaded directly to the authorized SSH target. The previous downloadable bundle represents the preceding release; a fresh complete bundle follows the continuing research batches. The retained server rollback backup remains `/var/backups/glasgow/20261005-pre1800-sprint/site-before.tar.gz`. No Git push was performed.
+
+## Previous live release — Newspaper continuation, 5 October 2026
 
 The collection now retains 246 pre-1800 surname pages, grouped into 137 distinct readings. Across all years, 323 retained pages display 377 approved bounded PNG excerpts. Sources, year/country routes, consolidated subjects, 15 candidate dossiers, Latest findings and the held queue are synchronized. New evidence includes the 1758 vessel William’s unnamed Glasgow master, William Allen Glasgow’s 1795 engineer commission, earlier Samuel Old Bailey reports, 1774–1777 West Calder tenancy notices, two North Carolina secretary proclamations and repeated Wilmington tannery advertisements. Duplicate Samuel regiment accounts are consolidated, their incoming anchor preserved, and the mistaken assignment to Captain Murray’s company withdrawn. Candidate identifications remain qualified; no live WikiTree save or relationship upgrade occurred.
 
