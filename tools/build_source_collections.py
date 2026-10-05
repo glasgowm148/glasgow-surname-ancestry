@@ -222,8 +222,11 @@ def newspaper_target_header(row, group):
               'reading pending': 'reading pending', 'place or ship': 'Excluded match'}[row['status']]
     tags = evidence_tags(row, group)
     chips = ''.join(f'<span class="sc-evidence-tag">{e(TAG_LABELS[tag])}</span>' for tag in TAG_LABELS if tag in tags)
+    identity = identity_status(row, group)
+    reprint = f'<span class="sc-reprint">Printed in {len(group)} issues</span>' if len(group) > 1 else ''
     return (f'<div class="sc-card-topline"><span class="sc-record-year">{e(year_label)}</span>'
-            f'<span class="sc-status">{status}</span><span class="sc-record-kind">{e(target["record_type"])}</span></div>'
+            f'<span class="sc-status">{status}</span><span class="sc-record-kind">{e(target["record_type"])}</span>{reprint}'
+            f'<span class="sc-identity-pill sc-identity-{identity}">{IDENTITY_LABELS[identity]}</span></div>'
             f'<div class="sc-targets">{"".join(people)}</div>'
             + (f'<div class="sc-evidence-tags" aria-label="Evidence in this notice">{chips}</div>' if chips else ''))
 
@@ -241,6 +244,39 @@ def newspaper_groups(rows):
         if not key[1]: key = (row.get('status'), str(row['image_id']))
         groups.setdefault(key, []).append(row)
     return list(groups.values())
+
+
+NEWSPAPER_EVENTS = [
+    # Navigation groups derived only from each card's curated record type.
+    ('family', 'Births, marriages & deaths', r'death|died|obituar|marriage|married|wedding|birth|inquest|funeral|bequest'),
+    ('court', 'Courts & crime', r'court|crimin|trial|prison|indict|jury|magistrat|judgment|reprieve|custody|runaway|testimony|theft'),
+    ('land', 'Land, property & sales', r'\bland|property|vendue|freehold|sale\b|conveyance'),
+    ('shipping', 'Shipping & passengers', r'\bship|passenger|vessel|cargo|clearance'),
+    ('post', 'Post-office letter lists', r'post-office|post office'),
+    ('service', 'Military & official posts', r'military|militia|army|regiment|government|official|proclamation|\btax|patent'),
+    ('church', 'Church, education & societies', r'church|ordination|chaplain|clergy|congregational|missionar|mission\b|school|college|universit|educat|society|fraternal|certificate|roster'),
+    ('trade', 'Trade & advertisements', r'advert|business|trade|commercial|goods|partnership|book|subscription|agent'),
+    ('news', 'News, politics & meetings', r'news|politic|parliament|legislat|petition|meeting|committee|commissioner|editorial|report|list|notice'),
+]
+NEWSPAPER_EVENT_LABELS = dict((key, label) for key, label, _ in NEWSPAPER_EVENTS) | {'other': 'Other notices'}
+IDENTITY_LABELS = {'strong': 'Strong match', 'probable': 'Probable match', 'possible': 'Possible match', 'unassigned': 'No profile yet'}
+
+
+def newspaper_event(record_type):
+    """Broad event group for filtering; the curated record type remains on the card."""
+    if record_type.casefold() == 'newspaper notice':
+        return 'other'
+    return next((key for key, _, pattern in NEWSPAPER_EVENTS if re.search(pattern, record_type, re.I)), 'other')
+
+
+def surname_variants(names):
+    """Printed surname spellings in the documentary target names (display aid only)."""
+    found = []
+    for name in names:
+        for match in re.findall(r'\bGla[sz]\w*', name):
+            word = match.capitalize()
+            if word not in found: found.append(word)
+    return found
 
 
 def checked_pending_newspaper_ids(rows):
@@ -343,12 +379,15 @@ def newspaper_card(row, clips, web, group=None):
     tags = ' '.join(sorted(evidence_tags(row, group)))
     identity = identity_status(row, group)
     heading = newspaper_target_header(row, group)
-    return (f'<article class="sc-newspaper" id="newspaper-{ident}" data-year="{years}" data-paper="{e(papers, quote=True)}" data-country="{country}" data-clip="{int(bool(clip_entries))}" data-group-size="{len(group)}" data-evidence="{e(tags, quote=True)}" data-identity="{identity}">'
+    target = target_for(row)
+    event = newspaper_event(target['record_type'])
+    variants = ' '.join(surname_variants([person['name'] for person in target['people']]))
+    return (f'<article class="sc-newspaper" id="newspaper-{ident}" data-year="{years}" data-paper="{e(papers, quote=True)}" data-country="{country}" data-clip="{int(bool(clip_entries))}" data-group-size="{len(group)}" data-evidence="{e(tags, quote=True)}" data-identity="{identity}" data-event="{event}" data-variant="{e(variants, quote=True)}">'
             f'<header class="sc-card-header">{aliases}{heading}<p class="sc-issue">Published {e(issue_dates)} · {e(row["paper"])} · p. {e(str(row.get("page", "?")))}</p></header>'
             f'{media}<div class="sc-newspaper-reading"><h4>What the notice says</h4><p>{e(row.get("reading", ""))}</p>'
             f'<details class="sc-assessment"><summary>Evidence and identity limits</summary><p>{e(row.get("assessment", ""))}</p></details>'
             f'<section class="sc-match-block"><h4>Who this may be</h4>{profile_links(profile_view, web, compact=True)}</section>{missing}</div>'
-            f'<footer class="sc-card-footer"><a href="{e(row["source_url"], quote=True)}">Original newspaper page ↗</a>{alternatives}</footer></article>')
+            f'<footer class="sc-card-footer"><a href="{e(row["source_url"], quote=True)}">Original newspaper page ↗</a><a class="sc-permalink" href="/sources/newspapers/#newspaper-{ident}">Link to this notice</a>{alternatives}</footer></article>')
 
 
 def newspaper_country(paper):
@@ -373,7 +412,16 @@ def newspaper_body(data, clips, web, country='', year=None):
                     ('matched', 'Probable / strong profile matches'), ('unassigned', 'No profile assigned')]
     controls = '<form class="sc-newspaper-filters sc-filters"><label>Find a name or place<input type="search" name="q" placeholder="Lisnagaver, Rasharkin, William…"></label><label>Year<select name="year"><option value="">All years</option>' + ''.join(f'<option>{v}</option>' for v in sorted({r['date'][:4] for r in retained})) + '</select></label><label>Newspaper<select name="paper"><option value="">All papers</option>' + ''.join(f'<option>{e(v)}</option>' for v in sorted({r['paper'] for r in retained})) + '</select></label><label>Clippings<select name="clip">' + ''.join(f'<option value="{value}">{label}</option>' for value, label in clip_options) + '</select></label><label>Profile match<select name="identity"><option value="">All assessments</option><option value="matched">Probable / strong</option><option value="possible">Possible / unresolved</option><option value="unassigned">No profile assigned</option></select></label><button type="reset">Clear filters</button></form>'
     groups = newspaper_groups(retained)
-    body = f'<section id="newspaper-records"><h2>Reviewed newspaper records</h2><p>{len(retained)} retained pages, {len(groups)} distinct notice readings; {sum(str(r["image_id"]) in clips for r in retained)} have saved inline excerpts. Ordered earliest first. Cards lead with the person named in the notice; profile candidates are assessed separately.</p><p class="sc-card-guide">Birth cutoffs labelled “by c.” are estimates, usually assuming an adult professional was at least 18; open the birth note for the basis. A relationship filter identifies family wording in the notice, not a proved match to a WikiTree family.</p>{controls}<p id="sc-newspaper-count" role="status">{len(retained)} retained pages · {len(groups)} distinct notice readings</p><div class="sc-newspaper-list">' + ''.join(newspaper_card(g[0], clips, web, g) for g in groups) + '</div></section>'
+    events = json.dumps([[key, label] for key, label in NEWSPAPER_EVENT_LABELS.items()], separators=(',', ':'))
+    tools = ('<div class="sc-np-tools" hidden><div class="sc-np-views" role="tablist" aria-label="Arrange notices">'
+             '<button type="button" role="tab" data-view="notices" aria-selected="true">Notices</button>'
+             '<button type="button" role="tab" data-view="people" aria-selected="false">By person</button></div>'
+             '<label class="sc-np-density"><input type="checkbox" name="expanded"> Show full cards</label></div>'
+             '<div class="sc-np-timeline" hidden></div><div class="sc-np-facets" hidden></div>')
+    body = (f'<section id="newspaper-records" data-events="{e(events, quote=True)}"><h2>Reviewed newspaper notices</h2>'
+            f'<p>{len(groups)} distinct notices from {len(retained)} retained pages, earliest first. Reprints of the same notice are merged; {sum(str(r["image_id"]) in clips for r in retained)} pages have saved inline excerpts. Open a notice for its clipping, reading and profile assessment.</p>'
+            '<details class="sc-card-guide"><summary>How to read these notices</summary><p>Cards lead with the person named in the notice; profile candidates are assessed separately. Birth cutoffs labelled “by c.” are estimates, usually assuming an adult professional was at least 18; open the birth note for the basis. Event groups are broad navigation aids built from each notice’s record type. A relationship filter identifies family wording in the notice, not a proved match to a WikiTree family.</p></details>'
+            f'{controls}{tools}<p id="sc-newspaper-count" role="status">{len(groups)} distinct notices · {len(retained)} retained pages</p><div class="sc-newspaper-list">' + ''.join(newspaper_card(g[0], clips, web, g) for g in groups) + '</div><div class="sc-np-people" hidden></div></section>')
     for status, title in [('reading pending', 'Unresolved search hits'), ('place or ship', 'Excluded place, vessel and other-name matches')]:
         group = [r for r in rows if r['status'] == status]
         groups = newspaper_groups(group)
@@ -545,8 +593,9 @@ def repair(web=None):
         written.append(path)
     def people_count(group):
         return len({ident for row in group for ident in row['members']})
-    def hero(title, intro, count=None, people=None):
+    def hero(title, intro, count=None, people=None, total_text=None):
         total = f'{count:,} collected reference items' if count is not None else ''
+        if total_text: total = total_text
         if people is not None: total += f' · {people:,} linked catalogue people'
         return '<header class="sc-hero"><p class="sc-eyebrow">The source library</p><h1>' + e(title) + '</h1><p>' + e(intro) + '</p>' + (f'<span class="sc-total">{total}</span>' if total else '') + '</header>'
     tiles = ''.join(f'<a class="sc-tile" href="/sources/{key}/"><span>{counts[key]:,} references</span><h2>{e(title)}</h2><p>{e(description)}</p></a>' for key,(title,description) in TYPES.items())
@@ -561,17 +610,22 @@ def repair(web=None):
         def country_count(country):
             count = sum(country in r['countries'] for r in selected)
             if category == 'newspapers':
-                reviewed = sum(newspaper_country(r['paper']) == country and r['status'] in ('confirmed surname','place study') for r in newspaper['rows'])
-                return f'{reviewed} retained pages · {count} references'
+                notices = len(newspaper_groups([r for r in newspaper['rows'] if newspaper_country(r['paper']) == country and r['status'] in ('confirmed surname','place study')]))
+                return f'{notices} notices' if notices else f'{count} other references'
             return f'{count:,} references'
         countrylinks = '<section><h2>By country & location</h2><div class="sc-location-links">' + ''.join(f'<a href="/sources/{category}/{slug(c)}/">{c} <span>{country_count(c)}</span></a>' for c in countries) + '</div><p>Use the collection search for a county, parish, townland or address. Newspaper country groups identify the place of publication; the subject may have lived elsewhere.</p></section>'
-        body = hero(title, description, len(selected), people_count(selected) if category == 'census' else None) + countrylinks
+        np_total = None
+        if category == 'newspapers':
+            np_retained = [r for r in newspaper['rows'] if r['status'] in ('confirmed surname','place study')]
+            np_total = f'{len(newspaper_groups(np_retained)):,} distinct notices · {len(np_retained):,} newspaper pages'
+        body = hero(title, description, len(selected), people_count(selected) if category == 'census' else None, np_total) + (countrylinks if category != 'newspapers' else '')
         if category == 'census': body += census_summary(selected)
         if category == 'newspapers':
-            body += '<p><a href="/sources/newspapers/supplied-clippings/">Browse all 16 distinct supplied clippings</a>, including three still awaiting exact original-page links.</p>'
             checked_pending = checked_pending_newspaper_ids(json.loads((ROOT / 'surname-research/indexes/glasgow-newspaper-review.json').read_text())['rows'])
             inspected = newspaper_originals_reviewed_count(newspaper['rows'], checked_pending)
-            body += f'<section class="sc-coverage"><h2>Coverage & limits</h2><p>{len(newspaper["rows"])} pages catalogued · {inspected} original passages reviewed · {review_counts["confirmed surname"]} surname pages retained · {review_counts["place study"]} place-study page · {review_counts["place or ship"]} place/vessel/other-name pages excluded · {review_counts["reading pending"]} readings pending. Searches are selective and incomplete; these totals do not measure all newspaper holdings or all Glasgow mentions.</p><p>OCR hits and highlighted search words are leads. Saved excerpts may show only part of a notice; inspect the original page before treating a reading or namesake as proved. Missing issues, uneven digitisation, spelling variants and poor OCR can hide a relevant record. Free promotional access is temporary; original links may later require a subscription.</p><details><summary>Search coverage and detailed qualifications</summary><p>' + e(newspaper['scope']) + '</p><p>' + e(' '.join(newspaper['limitations'])) + '</p></details></section>' + newspaper_body(newspaper, clips, web)
+            body += newspaper_body(newspaper, clips, web) + countrylinks
+            body += '<p><a href="/sources/newspapers/supplied-clippings/">Browse all 16 distinct supplied clippings</a>, including three still awaiting exact original-page links.</p>'
+            body += f'<details class="sc-coverage"><summary><h2>Coverage, method & limits</h2></summary><p>{len(newspaper["rows"])} pages catalogued · {inspected} original passages reviewed · {review_counts["confirmed surname"]} surname pages retained · {review_counts["place study"]} place-study page · {review_counts["place or ship"]} place/vessel/other-name pages excluded · {review_counts["reading pending"]} readings pending. Searches are selective and incomplete; these totals do not measure all newspaper holdings or all Glasgow mentions.</p><p>OCR hits and highlighted search words are leads. Saved excerpts may show only part of a notice; inspect the original page before treating a reading or namesake as proved. Missing issues, uneven digitisation, spelling variants and poor OCR can hide a relevant record. Free promotional access is temporary; original links may later require a subscription.</p><details><summary>Search coverage and detailed qualifications</summary><p>' + e(newspaper['scope']) + '</p><p>' + e(' '.join(newspaper['limitations'])) + '</p></details></details>' 
         body += browser(selected, category)
         page(category, title, body)
         for country in countries:
