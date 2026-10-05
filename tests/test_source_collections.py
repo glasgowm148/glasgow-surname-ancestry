@@ -108,7 +108,9 @@ class SourceCollectionsTests(unittest.TestCase):
         rendered_cards = rebuilt.select('#newspaper-records article.sc-newspaper')
         self.assertEqual(len(rendered_cards), len(newspaper_groups(retained)))
         for card in rendered_cards:
-            self.assertEqual(len(card.select('.sc-newspaper-reading > p strong')), 2)
+            self.assertIn('What the notice says', card.get_text())
+            self.assertIn('Evidence and identity limits', card.get_text())
+            self.assertIsNotNone(card.select_one('.sc-assessment p'))
 
     def test_only_hash_approved_bounded_clips_are_public(self):
         manifest = json.loads((ROOT/'research/source-library/newspaper-clippings.json').read_text())
@@ -383,7 +385,8 @@ class SourceCollectionsTests(unittest.TestCase):
         self.assertIn('B · 1801-01-01 · p. 2', caption.get_text(' ', strip=True))
         self.assertEqual(caption.find('a', href='https://b').get_text(), 'original page')
         self.assertEqual(len(soup.select('article')), 1)
-        self.assertEqual(len(soup.select('article .sc-newspaper-reading p strong')), 2)
+        self.assertIn('What the notice says', soup.get_text())
+        self.assertIsNotNone(soup.select_one('.sc-assessment p'))
         self.assertEqual(soup.select_one('.sc-newspaper-reading').get_text().count('Same'), 1)
         self.assertEqual(len(soup.select('figure')), 3)
         self.assertEqual({img['src'] for img in soup.select('figure img')}, {'/a.png', '/a-more.png', '/b.png'})

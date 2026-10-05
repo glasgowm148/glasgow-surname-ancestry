@@ -13,8 +13,10 @@ from urllib.parse import urlparse, unquote
 
 try:
     from tools.source_collection_index import build_index
+    from tools.newspaper_card_targets import target_for, evidence_tags, identity_status, load_targets, TAG_LABELS
 except ModuleNotFoundError:
     from source_collection_index import build_index
+    from newspaper_card_targets import target_for, evidence_tags, identity_status, load_targets, TAG_LABELS
 
 ROOT = Path(__file__).resolve().parents[1]
 WEB = ROOT / 'www'
@@ -149,7 +151,7 @@ def guide(config, category, country='', year=None):
     return '<section class="sc-coverage"><h2>Coverage, survival & limitations</h2>' + ''.join(sections) + '<p><strong>Reading the evidence:</strong> an index, transcript, provider search page and original image are different sources. A recorded image link does not mean its reading or identity match is confirmed. Inspect the assessment and source page before changing a family relationship. Repository guides checked 4 October 2026.</p></section>'
 
 
-def profile_links(row, web):
+def profile_links(row, web, compact=False):
     out = []
     people = {}
     people_path = web / 'data/people-index.json'
@@ -186,15 +188,44 @@ def profile_links(row, web):
             label = confidence if confidence in {'strong', 'probable', 'possible', 'unknown', 'excluded'} else 'unknown'
             role = f' · {e(match["role"])}' if match.get('role') else ''
             basis = f' — {e(match["basis"])}' if match.get('basis') else ''
-            out.append(f'<span class="sc-profile-match sc-confidence-{label}"><a href="{e(href, quote=True)}">{e(name)} ({e(ident)})</a>{e(dates)}: {label}{role}{basis}</span>')
+            if compact:
+                reason = f'<details class="sc-profile-basis"><summary>Why this candidate?</summary><p>{e(match.get("basis", "Evidence basis not recorded."))}</p></details>'
+                out.append(f'<div class="sc-profile-match sc-confidence-{label}"><div class="sc-profile-head"><a href="{e(href, quote=True)}">{e(name)} ({e(ident)})</a><span class="sc-confidence-badge">{label}</span></div><span class="sc-profile-vitals">{e(dates)}{role}</span>{reason}</div>')
+            else:
+                out.append(f'<span class="sc-profile-match sc-confidence-{label}"><a href="{e(href, quote=True)}">{e(name)} ({e(ident)})</a>{e(dates)}: {label}{role}{basis}</span>')
         else:
-            out.append(f'<span class="sc-profile-match sc-confidence-possible"><a href="{e(href, quote=True)}">{e(name)} ({e(ident)})</a>{e(dates)}: possible candidate; identity unresolved</span>')
+            if compact:
+                out.append(f'<div class="sc-profile-match sc-confidence-possible"><div class="sc-profile-head"><a href="{e(href, quote=True)}">{e(name)} ({e(ident)})</a><span class="sc-confidence-badge">possible</span></div><span class="sc-profile-vitals">{e(dates)} · possible candidate; identity unresolved</span></div>')
+            else:
+                out.append(f'<span class="sc-profile-match sc-confidence-possible"><a href="{e(href, quote=True)}">{e(name)} ({e(ident)})</a>{e(dates)}: possible candidate; identity unresolved</span>')
     subjects = row.get('subject_links') or []
     draft = ' · '.join(f'<a href="{e(subject["url"], quote=True)}">{e(subject["name"])} — research draft</a>' for subject in subjects)
     if not draft and row.get('draft_url'):
         draft = f'<a href="{e(row["draft_url"], quote=True)}">Research draft (documentary subject)</a>'
     if not out: return ('No profile assigned; identity remains unresolved.' + (f' {draft}' if draft else ''))
-    return '<span class="sc-identity-label">Profile assessment:</span><div class="sc-profile-matches">' + ''.join(out) + (f'<span class="sc-profile-match sc-draft">{draft}</span>' if draft else '') + '</div>'
+    return ('' if compact else '<span class="sc-identity-label">Profile assessment:</span>') + '<div class="sc-profile-matches">' + ''.join(out) + (f'<span class="sc-profile-match sc-draft">{draft}</span>' if draft else '') + '</div>'
+
+
+def newspaper_target_header(row, group):
+    target = target_for(row)
+    people = []
+    for person in target['people']:
+        basis = (f'<details class="sc-target-basis"><summary>Birth estimate / source</summary><p>{e(person["birth_basis"])}</p></details>'
+                 if person['birth_basis'] else '')
+        facts = f'<p class="sc-target-details">{e(" · ".join(person["details"]))}</p>' if person['details'] else ''
+        estimate = ' <small class="sc-birth-kind">adult estimate</small>' if re.search(r'assum', person['birth_basis'], re.I) else ''
+        birth = f'<span class="sc-target-birth">{e(person["birth_label"])}{estimate}</span>' if row['status'] != 'place study' else ''
+        people.append(f'<div class="sc-target"><h3 class="sc-target-name">{e(person["name"])}</h3><p class="sc-target-meta"><span class="sc-target-place">{e(person["place"])}</span>{birth}</p>{facts}{basis}</div>')
+    years = sorted({item['date'][:4] for item in group})
+    year_label = years[0] if len(years) == 1 else years[0] + '–' + years[-1]
+    status = {'confirmed surname': 'Verified surname passage', 'place study': 'Place study',
+              'reading pending': 'reading pending', 'place or ship': 'Excluded match'}[row['status']]
+    tags = evidence_tags(row, group)
+    chips = ''.join(f'<span class="sc-evidence-tag">{e(TAG_LABELS[tag])}</span>' for tag in TAG_LABELS if tag in tags)
+    return (f'<div class="sc-card-topline"><span class="sc-record-year">{e(year_label)}</span>'
+            f'<span class="sc-status">{status}</span><span class="sc-record-kind">{e(target["record_type"])}</span></div>'
+            f'<div class="sc-targets">{"".join(people)}</div>'
+            + (f'<div class="sc-evidence-tags" aria-label="Evidence in this notice">{chips}</div>' if chips else ''))
 
 
 def normalized_newspaper_reading(row):
@@ -281,8 +312,13 @@ def newspaper_card(row, clips, web, group=None):
     profile_view['subject_links'] = list(subjects.values())
     profile_view['assessment'] = row.get('assessment', '')
     if len(group) > 1:
-        assessments = ''.join(f'<li>{e(item["date"])} · {e(item["paper"])}: {e(item.get("assessment", ""))}</li>' for item in group)
-        alternatives += f'<details class="sc-newspaper-duplicates"><summary>Per-issue assessments</summary><ul>{assessments}</ul></details>'
+        # Repeated identical reasons add no information; show only distinct assessments.
+        distinct = {}
+        for item in group:
+            distinct.setdefault(' '.join(item.get('assessment', '').split()), []).append(item)
+        if len(distinct) > 1:
+            assessments = ''.join(f'<li>{e(", ".join(item["date"] for item in items))}: {e(reason)}</li>' for reason, items in distinct.items())
+            alternatives += f'<details class="sc-newspaper-duplicates"><summary>Different issue assessments</summary><ul>{assessments}</ul></details>'
     alternative_excerpts = []
     for item, item_clip in clip_entries[1:]:
         for excerpt in [item_clip] + item_clip.get('additional_excerpts', []):
@@ -304,7 +340,15 @@ def newspaper_card(row, clips, web, group=None):
         alternatives += '<details class="sc-newspaper-duplicates sc-newspaper-supplements"><summary>Alternative saved issue excerpts</summary>' + ''.join(alternative_excerpts) + '</details>'
     if media:
         media = '<div class="sc-newspaper-media">' + media + '</div>'
-    return f'<article class="sc-newspaper" id="newspaper-{ident}" data-year="{years}" data-paper="{e(papers, quote=True)}" data-country="{country}" data-clip="{int(bool(clip_entries))}" data-group-size="{len(group)}"><header>{aliases}<span class="sc-status">{e(row["status"])}</span><h3>{e(issue_dates)} · {e(row["paper"])} · p. {e(str(row.get("page", "?")))}</h3><a href="{e(row["source_url"], quote=True)}">Original newspaper page ↗</a>{alternatives}</header>{media}<div class="sc-newspaper-reading"><p><strong>Reading:</strong> {e(row.get("reading", ""))}</p><p><strong>Assessment:</strong> {e(row.get("assessment", ""))}</p><p>{profile_links(profile_view, web)}</p>{missing}</div></article>'
+    tags = ' '.join(sorted(evidence_tags(row, group)))
+    identity = identity_status(row, group)
+    heading = newspaper_target_header(row, group)
+    return (f'<article class="sc-newspaper" id="newspaper-{ident}" data-year="{years}" data-paper="{e(papers, quote=True)}" data-country="{country}" data-clip="{int(bool(clip_entries))}" data-group-size="{len(group)}" data-evidence="{e(tags, quote=True)}" data-identity="{identity}">'
+            f'<header class="sc-card-header">{aliases}{heading}<p class="sc-issue">Published {e(issue_dates)} · {e(row["paper"])} · p. {e(str(row.get("page", "?")))}</p></header>'
+            f'{media}<div class="sc-newspaper-reading"><h4>What the notice says</h4><p>{e(row.get("reading", ""))}</p>'
+            f'<details class="sc-assessment"><summary>Evidence and identity limits</summary><p>{e(row.get("assessment", ""))}</p></details>'
+            f'<section class="sc-match-block"><h4>Who this may be</h4>{profile_links(profile_view, web, compact=True)}</section>{missing}</div>'
+            f'<footer class="sc-card-footer"><a href="{e(row["source_url"], quote=True)}">Original newspaper page ↗</a>{alternatives}</footer></article>')
 
 
 def newspaper_country(paper):
@@ -322,9 +366,14 @@ def newspaper_body(data, clips, web, country='', year=None):
     if country: rows = [r for r in rows if newspaper_country(r['paper']) == country]
     if year: rows = [r for r in rows if r['date'].startswith(str(year))]
     retained = [r for r in rows if r['status'] in ('confirmed surname', 'place study')]
-    controls = '<form class="sc-newspaper-filters sc-filters"><label>Find a name or place<input type="search" name="q" placeholder="Lisnagaver, Rasharkin, William…"></label><label>Year<select name="year"><option value="">All years</option>' + ''.join(f'<option>{v}</option>' for v in sorted({r['date'][:4] for r in retained})) + '</select></label><label>Newspaper<select name="paper"><option value="">All papers</option>' + ''.join(f'<option>{e(v)}</option>' for v in sorted({r['paper'] for r in retained})) + '</select></label><label>Clippings<select name="clip"><option value="">All records</option><option value="1">Saved clippings</option></select></label><button type="reset">Clear filters</button></form>'
+    clip_options = [('', 'All records'), ('1', 'Saved clippings'), ('relationships', 'Records with relationships'),
+                    ('spouse', 'Spouses & marriages'), ('parent-child', 'Parents & children'),
+                    ('siblings', 'Siblings'), ('other-kin', 'Other kin'), ('occupation', 'Occupations & trade'),
+                    ('residence', 'Places & addresses'), ('birth', 'Birth records'), ('death', 'Death records'),
+                    ('matched', 'Probable / strong profile matches'), ('unassigned', 'No profile assigned')]
+    controls = '<form class="sc-newspaper-filters sc-filters"><label>Find a name or place<input type="search" name="q" placeholder="Lisnagaver, Rasharkin, William…"></label><label>Year<select name="year"><option value="">All years</option>' + ''.join(f'<option>{v}</option>' for v in sorted({r['date'][:4] for r in retained})) + '</select></label><label>Newspaper<select name="paper"><option value="">All papers</option>' + ''.join(f'<option>{e(v)}</option>' for v in sorted({r['paper'] for r in retained})) + '</select></label><label>Clippings<select name="clip">' + ''.join(f'<option value="{value}">{label}</option>' for value, label in clip_options) + '</select></label><label>Profile match<select name="identity"><option value="">All assessments</option><option value="matched">Probable / strong</option><option value="possible">Possible / unresolved</option><option value="unassigned">No profile assigned</option></select></label><button type="reset">Clear filters</button></form>'
     groups = newspaper_groups(retained)
-    body = f'<section id="newspaper-records"><h2>Reviewed newspaper records</h2><p>{len(retained)} retained pages, {len(groups)} distinct notice readings; {sum(str(r["image_id"]) in clips for r in retained)} have saved inline excerpts. Ordered earliest first. A passage may identify more than one person. “Place study” records remain separate from surname evidence.</p>{controls}<p id="sc-newspaper-count" role="status">{len(retained)} retained pages · {len(groups)} distinct notice readings</p><div class="sc-newspaper-list">' + ''.join(newspaper_card(g[0], clips, web, g) for g in groups) + '</div></section>'
+    body = f'<section id="newspaper-records"><h2>Reviewed newspaper records</h2><p>{len(retained)} retained pages, {len(groups)} distinct notice readings; {sum(str(r["image_id"]) in clips for r in retained)} have saved inline excerpts. Ordered earliest first. Cards lead with the person named in the notice; profile candidates are assessed separately.</p><p class="sc-card-guide">Birth cutoffs labelled “by c.” are estimates, usually assuming an adult professional was at least 18; open the birth note for the basis. A relationship filter identifies family wording in the notice, not a proved match to a WikiTree family.</p>{controls}<p id="sc-newspaper-count" role="status">{len(retained)} retained pages · {len(groups)} distinct notice readings</p><div class="sc-newspaper-list">' + ''.join(newspaper_card(g[0], clips, web, g) for g in groups) + '</div></section>'
     for status, title in [('reading pending', 'Unresolved search hits'), ('place or ship', 'Excluded place, vessel and other-name matches')]:
         group = [r for r in rows if r['status'] == status]
         groups = newspaper_groups(group)
@@ -469,6 +518,7 @@ def repair(web=None):
     old_manifest = web / 'assets/sources/collection-pages.json'
     old_pages = json.loads(old_manifest.read_text()).get('pages', []) if old_manifest.exists() else []
     stats = Counter()
+    stats['targets'] += write(web / 'data/newspaper-targets.json', json.dumps({'targets': load_targets()}, ensure_ascii=False, separators=(',', ':')) + '\n')
     index_path = web / 'assets/sources/collection-index.json'
     stats['index'] += write(index_path, json.dumps(rows, ensure_ascii=False, separators=(',', ':')) + '\n')
     css = Path(__file__).with_name('source_collections.css').read_text() + '\n'
