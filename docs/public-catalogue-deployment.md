@@ -4,7 +4,15 @@ The generated `www/` directory is the complete website root. No hosting credenti
 
 The catalogue's maintained stylesheet is `tools/catalogue-light.css`. Both the catalogue builder and unified-site repair copy it to `www/people/catalogue.css`; a full catalogue build also restores the unified light `/catalogue/` shell. `tools/check_public_catalogue.py` flags a dark stylesheet or a reverted catalogue shell before release. Package a new archive after presentation changes so old CSS cache URLs and old bundles are not reused.
 
-## Current live release — newspaper card presentation, 5 October 2026
+## Current live release — eighth Irish newspaper continuation, 5 October 2026
+
+The catalogue now retains 421 newspaper pages: 420 surname records and one place-study page, with 264 distinct notice readings. The clip registry contains 488 approved excerpt images; 296 pre-1800 surname pages remain unchanged. Seven new Latest findings and 421 documentary newspaper targets are synchronized. The 1800–1850 ledger records 85 quoted query pairs, 1,677 retrieved entries, 1,660 readable primary previews and 145 distinct original pages checked. These are bounded query-workload counts, not unique people or archive-wide completeness.
+
+Research commit: `c666bafc`. All 75 focused tests pass, with 17 affected tests rerun after the final corrections. Release gates and production smoke pass; asset stamping reports zero changes and the reviewed deploy has no deletions. The live probe compared all 182 changed public regular files against the previous UI release bundle and checked all 492 unique newspaper PNG URLs referenced by current source pages. All 666 unique paths returned HTTP 200 and matched local SHA-256. Proof: `artifacts/pre1850-continuation-20261005/eighth-batch-live-hashes.json` and `eighth-batch-live-hash-summary.json`. Chrome verifies the Anne family card's inline crop and candidate labels; screenshot: `artifacts/pre1850-continuation-20261005/phase-1850-root/eighth-live-jane-family-card.png`.
+
+Verified bundle: `www/glasgow-site-20261005-184342.tar.gz`, 271,590,187 bytes (271.590 decimal MB); 80,587 payload members plus the embedded manifest. Every member matches the manifest and current local `www/`; gzip integrity passes. SHA-256: `290621008638d6d6979f21012661dfae3a61d3b6bb52e5d11f5187aaca3550e9`. Proof: `artifacts/pre1850-continuation-20261005/eighth-bundle-proof.json`. The pre-upload server backup `/var/backups/glasgow/20261005-eighth-newspaper/site-before.tar.gz` is 259,770,097 bytes and gzip-checked. No Git push or live WikiTree edit was performed.
+
+## Previous live release — newspaper card presentation, 5 October 2026
 
 This release clarifies each newspaper card's documentary target and separates source-based relationship tags from candidate hypotheses. The relationship filter restores all 20 readings across 21 pages; the combined Parents & children + 1772 filters to one reading across two pages, with Robert/Andrew targets and uncertainty badges intact. “Place not stated” renders without duplicated wording. Current catalogue totals remain 415 source pages (414 surname-reference pages and one place-study page); the 296 pre-1800 surname pages and the seventh release's research conclusions are unchanged.
 
