@@ -18282,8 +18282,8 @@
     {
       "id": "george-glasgow-artillery-career-1811-1819",
       "kind": "biographical",
-      "finding": "The military list under COLONELS names George Glasgow, of the royal artillery; the name wraps across two lines. Military Promotions, War Office August 30: Major-General George Glasgow appears among Royal Artillery officers appointed to take rank by brevet as Lieutenant-Generals.",
-      "qualification": "The surname and Royal Artillery association were checked at increased magnification. Do not take the adjacent rank caption as an appointment date or promotion grade. Continuity with the 1819 Royal Artillery George is compatible but inferred. Neither this list nor its Irish publication proves Irish birth, residence or family. 30 August 1819 is inferred from the contemporary September publication. This is brevet rank; no kin, age, birthplace or station is stated. The 1811 Royal Artillery name is a supported career comparison, not proved personal continuity. Younger George Mark and Edward George officers remain separate accounts.",
+      "finding": "The printed heading reads ‘To be MAJOR-GENERALS in the Army / COLONELS’; under the COLONELS subheading the military list names George Glasgow, of the royal artillery, with the name wrapping across two lines. Military Promotions, War Office August 30: Major-General George Glasgow appears among Royal Artillery officers appointed to take rank by brevet as Lieutenant-Generals.",
+      "qualification": "The surname and Royal Artillery association were checked at increased magnification. The printed heading reads ‘To be MAJOR-GENERALS in the Army / COLONELS’; George Glasgow is listed under the COLONELS subheading. The page supplies list-heading context but no individually stated order date. Continuity with the 1819 Royal Artillery George is compatible but inferred. Neither this list nor its Irish publication proves Irish birth, residence or family. 30 August 1819 is inferred from the contemporary September publication. This is brevet rank; no kin, age, birthplace or station is stated. The 1811 Royal Artillery name is a supported career comparison, not proved personal continuity. Younger George Mark and Edward George officers remain separate accounts.",
       "sources": [
         {
           "title": "Freeman’s Journal, 1811-06-10, p.4",
@@ -18314,6 +18314,10 @@
         {
           "title": "Freeman’s Journal, 1825-02-16, p.3",
           "url": "https://www.newspapers.com/image/1050087237/"
+        },
+        {
+          "title": "The Waterford Mirror, 14 February 1825, p. 3 (reprint of the War Office appointment)",
+          "url": "https://www.newspapers.com/image/60324711/"
         }
       ],
       "found_on": "2026-10-04",
@@ -21134,6 +21138,10 @@
         {
           "title": "Belfast News-Letter, 24 January 1837, p. 1 (Office of Ordnance list dated 16 January)",
           "url": "https://www.newspapers.com/image/390543080/"
+        },
+        {
+          "title": "Freeman’s Journal and Daily Commercial Advertiser, 21 January 1837, p. 2 (reprint of Office of Ordnance order dated 16 January)",
+          "url": "https://www.newspapers.com/image/1050121684/"
         }
       ],
       "detail_url": "https://www.wikitree.com/wiki/Glasgow-3127",
@@ -21166,6 +21174,76 @@
         "surname-research/new-people/1828_Ireland_James_Glasgow_career.md",
         "research/Glasgow-1780/findings.md"
       ]
+    },
+    {
+      "id": "edward-george-glasgow-84th-regiment-1826-06-20",
+      "found_on": "2026-10-05",
+      "kind": "biographical",
+      "finding": "The 84th Regiment list reports Lieutenant John James Peck from the 89th Foot appointed vice Edward George Glasgow, who retires upon half-pay in the 18th Light Dragoons.",
+      "status": "confirmed",
+      "qualification": "The original names Edward George Glasgow and states the 84th Regiment vacancy and half-pay destination. The full name and regiment are compatible with the 1825 Edward George notice, but continuity is not independently identified. No profile identity, birthplace, Irish origin/residence, family, or vital fact is established.",
+      "people": [
+        {
+          "name": "Edward George Glasgow, 49th/84th Regiment Lieutenant",
+          "url": "/research/subjects/newspapers-irish-1800-1850/#edward-george-army"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Freeman’s Journal and Daily Commercial Advertiser, 20 June 1826, p. 1",
+          "url": "https://www.newspapers.com/image/1050134797/"
+        }
+      ],
+      "detail_url": "/research/subjects/newspapers-irish-1800-1850/#edward-george-army",
+      "provenance": "research/newspapers-degree-military-agents-2026-10-04.md"
+    },
+    {
+      "id": "paisley-montgreenan-double-marriage-1847",
+      "found_on": "2026-10-05",
+      "kind": "biographical",
+      "finding": "A marriage notice in the 2 September 1847 issue reports two weddings at Paisley on the 25th ult: George Sherbrooke Airey, Royal Navy lieutenant, to Anne, second daughter of the late Robert Glasgow; and Rev George Drake to Charlotte Maria Cecilia, youngest daughter of the late Robert Glasgow of Montgreenan, Ayr. The date 25 August 1847 is inferred from ‘25th ult’.",
+      "status": "confirmed",
+      "qualification": "The original confirms both marriages and explicitly names Robert Glasgow as father of Anne and Charlotte; it does not assign its Robert, Anne, Charlotte or George Drake to modern WikiTree identities. Robertson-30564 is the probable father candidate, supported by the combination of linked Montgreenan succession/family evidence, the 1847 notice naming a youngest daughter Charlotte Maria Cecilia of Montgreenan, and the 1827 notice placing an unnamed daughter of Mrs Robertson Glasgow at Rome; a profile-cited transcription on Mary Glasgow-3021 also lists Robert Glasgow with Charlotte (10), though the census has not been independently checked. The newspaper notices do not themselves prove the father-to-profile assignment. Glasgow-1076 remains a weaker possible alternative: the 1835 appeal identifies Mrs Robertson Glasgow as his natural daughter and first heir, and his reported 1827 death does not conflict with an 1847 report describing the father as late. No reviewed evidence definitively excludes Glasgow-1076; Glasgow-3000 is a possible Anne match, Glasgow-3003 a strong compatible Charlotte match, and Drake-13873 a probable Rev George Drake match. Existing profile relationship claims remain tree-only/unknown; profile relationship upgrades are pending identity review, not applied. No mother is named, and no Irish origin is stated. No compatible Airey profile was found in the bounded approved local lookup.",
+      "people": [
+        {
+          "id": "Robertson-30564",
+          "name": "Robert Robertson, later Robert Glasgow (probable candidate)",
+          "url": "https://www.wikitree.com/wiki/Robertson-30564",
+          "draft_url": "/research/subjects/newspapers-irish-1800-1850/#montgreenan-double-marriage-1847"
+        },
+        {
+          "id": "Glasgow-3000",
+          "name": "Anne Glasgow (possible candidate)",
+          "url": "https://www.wikitree.com/wiki/Glasgow-3000",
+          "draft_url": "/research/subjects/newspapers-irish-1800-1850/#montgreenan-double-marriage-1847"
+        },
+        {
+          "id": "Glasgow-3003",
+          "name": "Charlotte Marie Cecilia Glasgow/Drake (strong compatible candidate)",
+          "url": "https://www.wikitree.com/wiki/Glasgow-3003",
+          "draft_url": "/research/subjects/newspapers-irish-1800-1850/#montgreenan-double-marriage-1847"
+        },
+        {
+          "id": "Drake-13873",
+          "name": "Rev George Drake (probable candidate)",
+          "url": "https://www.wikitree.com/wiki/Drake-13873",
+          "draft_url": "/research/subjects/newspapers-irish-1800-1850/#montgreenan-double-marriage-1847"
+        },
+        {
+          "id": "Glasgow-1076",
+          "name": "Robert Glasgow of Montgreenan (weaker possible alternative)",
+          "url": "https://www.wikitree.com/wiki/Glasgow-1076",
+          "draft_url": "/research/subjects/newspapers-irish-1800-1850/#montgreenan-double-marriage-1847"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Freeman’s Journal and Daily Commercial Advertiser, 2 September 1847, p. 4, marriages",
+          "url": "https://www.newspapers.com/image/401331272/"
+        }
+      ],
+      "detail_url": "/research/subjects/newspapers-irish-1800-1850/#montgreenan-double-marriage-1847",
+      "provenance": "research/newspapers-irish-1847-montgreenan-marriages.md"
     }
   ]
 }

@@ -5580,15 +5580,35 @@
         "\"George Glasgow\""
       ],
       "status": "confirmed surname",
-      "reading": "The military list under COLONELS names George Glasgow, of the royal artillery; the name wraps across two lines.",
-      "assessment": "The surname and Royal Artillery association were checked at increased magnification. Do not take the adjacent rank caption as an appointment date or promotion grade. Continuity with the 1819 Royal Artillery George is compatible but inferred. Neither this list nor its Irish publication proves Irish birth, residence or family.",
+      "reading": "The military list under COLONELS names George Glasgow, of the royal artillery; the name wraps across two lines. The printed section heading reads ‘To be MAJOR-GENERALS in the Army / COLONELS.’",
+      "assessment": "The surname and Royal Artillery association were checked at increased magnification. The printed heading reads ‘To be MAJOR-GENERALS in the Army / COLONELS’; George Glasgow is named under the COLONELS subheading. The page supplies list-heading context but no individually stated order date. Continuity with the 1819 Royal Artillery George is compatible but inferred. Neither this list nor its Irish publication proves Irish birth, residence or family.",
       "profile_ids": [
         "Glasgow-3611",
         "Glasgow-1529",
         "Glasgow-3345"
       ],
       "draft_url": "/research/subjects/newspapers-irish-1800-1850/#george-senior-artillery",
-      "reviewed_on": "2026-10-04"
+      "reviewed_on": "2026-10-04",
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-3611",
+          "confidence": "possible",
+          "role": "weak comparison",
+          "basis": "Local chronology/name comparison only; no Royal Artillery identity bridge."
+        },
+        {
+          "profile_id": "Glasgow-1529",
+          "confidence": "possible",
+          "role": "weak comparison",
+          "basis": "Local chronology/name comparison only; no Royal Artillery identity bridge."
+        },
+        {
+          "profile_id": "Glasgow-3345",
+          "confidence": "possible",
+          "role": "weak comparison",
+          "basis": "Local chronology/name comparison only; no Royal Artillery identity bridge."
+        }
+      ]
     },
     {
       "image_id": "1050057308",
@@ -15630,6 +15650,169 @@
       ],
       "draft_url": "/research/subjects/newspapers-irish-1800-1850/#james-belfast-college",
       "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "60324711",
+      "date": "1825-02-14",
+      "paper": "The Waterford Mirror",
+      "page": "3",
+      "source_url": "https://www.newspapers.com/image/60324711/",
+      "queries": [
+        "\"George Glasgow\""
+      ],
+      "status": "confirmed surname",
+      "reading": "From the London Gazette, War Office Feb. 7, Royal Regiment of Artillery: First Lieutenant George Mark Glasgow, from half pay, to be First Lieutenant, vice Forster. Reprint of the same appointment reported in Freeman’s Journal on 16 February 1825; not an additional appointment.",
+      "assessment": "From the London Gazette, War Office Feb. 7, Royal Regiment of Artillery: First Lieutenant George Mark Glasgow, from half pay, to be First Lieutenant, vice Forster. Reprint of the same appointment reported in Freeman’s Journal on 16 February 1825; not an additional appointment. The repeated notice is consolidated with the existing dated appointment; it does not independently identify a WikiTree profile or establish Irish origin, residence, or family.",
+      "profile_ids": [
+        "Glasgow-3127",
+        "Glasgow-3785",
+        "Glasgow-1536"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-3127",
+          "confidence": "possible",
+          "role": "compatible candidate",
+          "basis": "Exact name and Royal Artillery career are compatible with prior local profile review, but this reprint is not independent identity evidence."
+        },
+        {
+          "profile_id": "Glasgow-3785",
+          "confidence": "possible",
+          "role": "alternative candidate",
+          "basis": "Exact-name chronology alternative; no military bridge is established by this reprint."
+        },
+        {
+          "profile_id": "Glasgow-1536",
+          "confidence": "possible",
+          "role": "weaker linked comparison",
+          "basis": "Existing linked Barony comparison; this reprint supplies no Mark or family bridge."
+        }
+      ],
+      "draft_url": "/research/subjects/newspapers-irish-1800-1850/#george-mark-artillery",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "1050134797",
+      "date": "1826-06-20",
+      "paper": "Freeman’s Journal and Daily Commercial Advertiser",
+      "page": "1",
+      "source_url": "https://www.newspapers.com/image/1050134797/",
+      "queries": [
+        "\"George Glasgow\""
+      ],
+      "status": "confirmed surname",
+      "reading": "84th ditto: Lieutenant John James Peck from the 89th Foot to be Lieutenant, vice Edward George Glasgow, who retires upon half-pay 18th Light Dragoons. Same full name and 84th Regiment as the 1825 notice; career continuity is plausible, not independently identified.",
+      "assessment": "84th ditto: Lieutenant John James Peck from the 89th Foot to be Lieutenant, vice Edward George Glasgow, who retires upon half-pay 18th Light Dragoons. Same full name and 84th Regiment as the 1825 notice; career continuity is plausible, not independently identified. The 1825 and 1826 entries plausibly concern one career subject, but no profile is identified; no Irish origin, residence, or family is stated.",
+      "profile_ids": [],
+      "profile_matches": [],
+      "draft_url": "/research/subjects/newspapers-irish-1800-1850/#edward-george-army",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "1050121684",
+      "date": "1837-01-21",
+      "paper": "Freeman’s Journal and Daily Commercial Advertiser",
+      "page": "2",
+      "source_url": "https://www.newspapers.com/image/1050121684/",
+      "queries": [
+        "\"George Glasgow\""
+      ],
+      "status": "confirmed surname",
+      "reading": "Office of Ordnance list dated 16 January: First Lieutenant George Mark Glasgow, vice Freer, to be Second Captain; the next list names Second Lieutenant George Carter Evelegh, vice Glasgow. Reprint of the same order/promotion reported in Belfast News-Letter on 24 January 1837; one event, not an additional appointment.",
+      "assessment": "Office of Ordnance list dated 16 January: First Lieutenant George Mark Glasgow, vice Freer, to be Second Captain; the next list names Second Lieutenant George Carter Evelegh, vice Glasgow. Reprint of the same order/promotion reported in Belfast News-Letter on 24 January 1837; one event, not an additional appointment. The repeated notice is consolidated with the existing dated appointment; it does not independently identify a WikiTree profile or establish Irish origin, residence, or family.",
+      "profile_ids": [
+        "Glasgow-3127",
+        "Glasgow-3785",
+        "Glasgow-1536"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-3127",
+          "confidence": "possible",
+          "role": "compatible candidate",
+          "basis": "Exact name and Royal Artillery career are compatible with prior local profile review, but this reprint is not independent identity evidence."
+        },
+        {
+          "profile_id": "Glasgow-3785",
+          "confidence": "possible",
+          "role": "alternative candidate",
+          "basis": "Exact-name chronology alternative; no military bridge is established by this reprint."
+        },
+        {
+          "profile_id": "Glasgow-1536",
+          "confidence": "possible",
+          "role": "weaker linked comparison",
+          "basis": "Existing linked Barony comparison; this reprint supplies no Mark or family bridge."
+        }
+      ],
+      "draft_url": "/research/subjects/newspapers-irish-1800-1850/#george-mark-artillery",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "401331272",
+      "date": "1847-09-02",
+      "paper": "Freeman’s Journal and Daily Commercial Advertiser",
+      "page": 4,
+      "source_url": "https://www.newspapers.com/image/401331272/",
+      "queries": [],
+      "status": "confirmed surname",
+      "reading": "Marriage notice reports that on 25th ult at Paisley George Sherbrooke Airey, Esq., Lieutenant in the Royal Navy, son of the late Lieutenant-General Sir George Airey, married Anne, second daughter of the late Robert Glasgow, Esq.; at the same time Rev George Drake, son of Rev John Drake, rector of Stourton, married Charlotte Maria Cecilia, youngest daughter of the late Robert Glasgow, Esq., of Montgreenan, county Ayr. Original passage visually checked. 25 August 1847 is inferred from ‘25th ult’ and the 2 September issue date.",
+      "assessment": "The notice directly reports the two marriages and names the two brides as daughters of the same late Robert Glasgow; it explicitly places the latter Robert at Montgreenan, Ayr. Robertson-30564 is a probable candidate for this Robert because his local profile account says he inherited Montgreenan, took the Glasgow surname in 1828, and died in 1845; do not conflate him with Glasgow-1076 (1747–1827). Anne Glasgow-3000 is a possible daughter match; Charlotte Glasgow-3003 is a strong compatible match by her distinctive names and existing Drake profile link; Rev George Drake-13873 is a probable match. No compatible George Sherbrooke Airey profile was found in the bounded approved local lookup. Record-level father and marriage claims are separate from assigning the record people to profiles; profile-level relationship transitions remain pending, with prior local status unknown/tree-only. The notice names no mothers and says nothing about Irish origin.",
+      "profile_ids": [
+        "Robertson-30564",
+        "Glasgow-3000",
+        "Glasgow-3003",
+        "Drake-13873"
+      ],
+      "profile_matches": [
+        {
+          "profile_id": "Robertson-30564",
+          "confidence": "probable",
+          "role": "probable Robert Glasgow of Montgreenan profile match",
+          "basis": "Local profile identifies Robert Robertson as later Robert Glasgow and heir to Montgreenan; died 1845. Kept distinct from Glasgow-1076 (1747–1827)."
+        },
+        {
+          "profile_id": "Glasgow-3000",
+          "confidence": "possible",
+          "role": "possible Anne daughter profile match",
+          "basis": "Local profile lists her as daughter of Robertson-30564 and sister of Charlotte-3003; birth c.1805 is compatible, but the notice supplies no age or later surname."
+        },
+        {
+          "profile_id": "Glasgow-3003",
+          "confidence": "strong",
+          "role": "Strong compatible Charlotte profile match; identity not certain",
+          "basis": "Distinctive Charlotte Marie Cecilia / Maria Cecilia name and current Drake surname agree; profile birth in 1827 and existing spouse link to Drake-13873 fit the notice."
+        },
+        {
+          "profile_id": "Drake-13873",
+          "confidence": "probable",
+          "role": "probable Rev George Drake profile match",
+          "basis": "Profile is Rev George Drake, born about 1825 in Rome; tree already links him as spouse of Charlotte-3003. Local spouse claim is currently unknown/tree-only, so source comparison is needed."
+        }
+      ],
+      "draft_url": "/research/subjects/newspapers-irish-1800-1850/#montgreenan-double-marriage-1847",
+      "reviewed_on": "2026-10-05"
+    },
+    {
+      "image_id": "390561540",
+      "date": "1850-08-23",
+      "paper": "Belfast News-Letter",
+      "page": 3,
+      "source_url": "https://www.newspapers.com/image/390561540/",
+      "queries": [
+        "Margaret Glasgow"
+      ],
+      "status": "reading pending",
+      "reading": "On the 16th instant, in the Presbyterian Church, Orritor, by the Rev. M. M’Murray, Waringstown, county Down, Mr. David Brown, Wellbrook, county Tyrone, to Margaret Glasgow, eldest daughter of the Rev. J. G. M’Gowan, Orritor.",
+      "assessment": "Original page visually checked. The notice names the bride “Margaret Glasgow” and calls her the eldest daughter of Rev. J. G. M’Gowan, Orritor. It does not establish whether Glasgow is a birth surname, a prior married surname, or a middle/given name with the father’s surname omitted. No profile or subject match is established; this remains pending and is not counted as a confirmed Glasgow-surname record.",
+      "profile_ids": [],
+      "profile_matches": [],
+      "draft_url": null,
+      "subject_links": [],
+      "reviewed_on": "2026-10-05",
+      "source_original_checked": true,
+      "surname_function": "unknown",
+      "surname_record_countable": false
     }
   ]
 }

@@ -107,3 +107,12 @@ The report describes the ordination of Rev. Samuel Smith to the Draperstown cong
 ## Glasgow in India: clerical-conduct reference, 1842
 
 The 5 April 1842 Belfast News-Letter passage invokes “Glasgow in India” in a comparison of missionary and clerical conduct in the Indies and Ireland. It names no forename and describes no particular event. The surrounding passage treats Glasgow as an individual missionary in India, not a place. James McClure Glasgow-1780 is a probable contextual candidate because his documented missionary career places him in India in this period; this surname-only comparison does not identify him by forename or independently prove the profile assignment, origin, or any family relationship. [Belfast News-Letter, 5 April 1842, p.1](https://www.newspapers.com/image/390554509/).
+<!-- margaret-glasgow-1850:start -->
+
+## Orritor marriage notice: Margaret Glasgow, 23 August 1850
+
+The *Belfast News-Letter* reports a marriage at the Presbyterian Church, Orritor, on 16 August 1850: Mr David Brown of Wellbrook, County Tyrone, married “Margaret Glasgow, eldest daughter of the Rev. J. G. M’Gowan, Orritor.” The original passage has been checked and a bounded excerpt is approved below in Sources. The notice does not establish whether Glasgow is a birth surname, a prior married surname, or a middle/given name with the father’s surname omitted. The occurrence remains pending surname classification; it is not counted as a confirmed Glasgow-surname record. No profile or parent link is proposed.
+
+[Belfast News-Letter, 23 August 1850, p. 3](https://www.newspapers.com/image/390561540/)
+
+<!-- margaret-glasgow-1850:end -->

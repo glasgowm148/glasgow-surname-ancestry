@@ -12,7 +12,7 @@ WEB = ROOT / "www"
 SOURCE = ROOT / "surname-research/indexes/glasgow-newspaper-review.json"
 START, END = "<!-- early-newspapers:start -->", "<!-- early-newspapers:end -->"
 PUBLIC_ROW_FIELDS = ("image_id", "date", "paper", "page", "source_url", "queries",
-                     "status", "reading", "assessment", "profile_ids", "profile_matches", "draft_url", "subject_links", "reviewed_on")
+                     "status", "reading", "assessment", "profile_ids", "profile_matches", "draft_url", "subject_links", "reviewed_on", "source_original_checked")
 
 
 def profile_links(ids: list[str], matches: list[dict] | None = None) -> str:
@@ -88,6 +88,24 @@ def replace_marked(text: str, section: str) -> str:
     return text.replace("</main>", section + "\n</main>", 1)
 
 
+def build_public_data(data: dict) -> dict:
+    """Project reviewed rows and counts for publication without changing status buckets."""
+    public = {key: data[key] for key in ("reviewed_at", "title", "scope", "conclusion", "limitations", "rows")}
+    public["rows"] = [{key: row[key] for key in PUBLIC_ROW_FIELDS if key in row}
+                      for row in data["rows"]]
+    rows = public["rows"]
+    public["counts"] = {
+        "catalogued_pages": len(rows),
+        "inspected_pages": sum(row["status"] != "reading pending"
+                                or row.get("source_original_checked") is True for row in rows),
+        "retained_surname_records": sum(row["status"] == "confirmed surname" for row in rows),
+        "retained_place_study_records": sum(row["status"] == "place study" for row in rows),
+        "excluded_place_or_vessel_hits": sum(row["status"] == "place or ship" for row in rows),
+        "pending_readings": sum(row["status"] == "reading pending" for row in rows),
+    }
+    return public
+
+
 def repair() -> dict[str, int]:
     data = json.loads(SOURCE.read_text(encoding="utf-8"))
     required = {"reviewed_at", "title", "scope", "conclusion", "limitations", "rows"}
@@ -96,17 +114,7 @@ def repair() -> dict[str, int]:
     allowed = {"confirmed surname", "place study", "place or ship", "reading pending"}
     if any(row.get("status") not in allowed for row in data["rows"]):
         raise ValueError("every newspaper row needs an allowed reviewed status")
-    public = {key: data[key] for key in ("reviewed_at", "title", "scope", "conclusion", "limitations", "rows")}
-    public["rows"] = [{key: row[key] for key in PUBLIC_ROW_FIELDS if key in row}
-                      for row in data["rows"]]
-    public["counts"] = {
-        "catalogued_pages": len(public["rows"]),
-        "inspected_pages": sum(row["status"] != "reading pending" for row in public["rows"]),
-        "retained_surname_records": sum(row["status"] == "confirmed surname" for row in public["rows"]),
-        "retained_place_study_records": sum(row["status"] == "place study" for row in public["rows"]),
-        "excluded_place_or_vessel_hits": sum(row["status"] == "place or ship" for row in public["rows"]),
-        "pending_readings": sum(row["status"] == "reading pending" for row in public["rows"]),
-    }
+    public = build_public_data(data)
     for row in public["rows"]:
         if not re.fullmatch(r"https://www\.newspapers\.com/image/\d+/", row.get("source_url", "")):
             raise ValueError("use stable original image links without browser credentials")

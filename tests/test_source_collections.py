@@ -9,7 +9,7 @@ from unittest.mock import patch
 import zlib
 from bs4 import BeautifulSoup
 from tools.build_source_collections import ROOT, WEB, TYPES, guide, load_clips, newspaper_body, newspaper_card, newspaper_groups, newspaper_country, newspaper_originals_reviewed_count, profile_links
-from tools.publish_newspaper_review import PUBLIC_ROW_FIELDS, render as render_newspaper_review
+from tools.publish_newspaper_review import PUBLIC_ROW_FIELDS, build_public_data, render as render_newspaper_review
 
 
 def test_png(width=549, height=83):
@@ -143,6 +143,7 @@ class SourceCollectionsTests(unittest.TestCase):
                 self.assertNotIn('Saved excerpt pending', card)
 
     def test_original_checked_pending_clip_is_inline_but_not_retained(self):
+        self.assertIn('source_original_checked', PUBLIC_ROW_FIELDS)
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
             source_path = 'research/source-library/newspaper-clippings/123.png'
@@ -307,6 +308,28 @@ class SourceCollectionsTests(unittest.TestCase):
         self.assertIn('record subject', html)
         self.assertIn('dated place match', html)
         self.assertEqual(newspaper_country('Weekly Worcester Journal'), 'England')
+
+    def test_publisher_counts_checked_pending_original_without_retaining_surname(self):
+        self.assertIn('source_original_checked', PUBLIC_ROW_FIELDS)
+        data = {
+            'reviewed_at': '2026-10-05', 'title': 'Review', 'scope': 'Bounded sample.',
+            'conclusion': '', 'limitations': [],
+            'rows': [
+                {'image_id': 'confirmed', 'status': 'confirmed surname'},
+                {'image_id': 'place', 'status': 'place study'},
+                {'image_id': 'excluded', 'status': 'place or ship'},
+                {'image_id': 'checked-pending', 'status': 'reading pending', 'source_original_checked': True},
+                {'image_id': 'unchecked-pending', 'status': 'reading pending', 'source_original_checked': False},
+            ],
+        }
+        public = build_public_data(data)
+        checked = next(row for row in public['rows'] if row['image_id'] == 'checked-pending')
+        self.assertIs(checked['source_original_checked'], True)
+        self.assertEqual(public['counts'], {
+            'catalogued_pages': 5, 'inspected_pages': 4,
+            'retained_surname_records': 1, 'retained_place_study_records': 1,
+            'excluded_place_or_vessel_hits': 1, 'pending_readings': 2,
+        })
 
     def test_new_american_papers_reach_country_and_year_routes(self):
         papers = [

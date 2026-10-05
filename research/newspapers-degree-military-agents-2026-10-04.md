@@ -12,7 +12,7 @@ The newspaper reports a degree by May 1825; the university index, rechecked 4 Oc
 
 [Freeman’s Journal, 1811-06-10, p.4](https://www.newspapers.com/image/1050144942/). The military list under COLONELS names George Glasgow, of the royal artillery; the name wraps across two lines.
 
-The surname and Royal Artillery association were checked at increased magnification. Do not take the adjacent rank caption as an appointment date or promotion grade. Continuity with the 1819 Royal Artillery George is compatible but inferred. Neither this list nor its Irish publication proves Irish birth, residence or family.
+The surname and Royal Artillery association were checked at increased magnification. The printed heading reads ‘To be MAJOR-GENERALS in the Army / COLONELS’; George Glasgow is named under the COLONELS subheading. The page supplies list-heading context but no individually stated order date. Continuity with the 1819 Royal Artillery George is compatible but inferred. Neither this list nor its Irish publication proves Irish birth, residence or family.
 
 ## george-1819
 
@@ -24,11 +24,17 @@ The surname and Royal Artillery association were checked at increased magnificat
 
 [Freeman’s Journal, 1825-02-16, p.3](https://www.newspapers.com/image/1050087237/). Office of Ordnance, February 7: First Lieutenant George Mark Glasgow, from half-pay, to be First Lieutenant in the Royal Regiment of Artillery, vice Forster.
 
-A return from half-pay to a post at the same rank, not a promotion from Second Lieutenant. 7 February 1825 is inferred from the contemporary issue. Glasgow-3127 has a matching Royal Artillery captain biography, but its live Sources section is empty; Glasgow-3785 is an exact-name chronology candidate and Glasgow-1536 a weaker linked comparison. No family identity, birth date, nationality or station is proved.
+A return from half-pay to a post at the same rank, not a promotion from Second Lieutenant.
 
-The Office of Ordnance list dated 16 January 1837, published on 24 January, reports First Lieutenant George Mark Glasgow appointed a Second Captain in the Royal Regiment of Artillery, vice Freer; the following First Lieutenant list names 2d Lieut. George Carter Evelegh, vice Glasgow. This is a separate same-name career occurrence; continuity with the 1825 notice is unproved. The page heading identifies the order as Office of Ordnance, 16 January; the issue was published 24 January. The passage confirms an Artillery career entry for this name, not a profile identity or Irish origin, residence, or family.
+The Waterford Mirror reprinted this same War Office appointment on 14 February 1825, p. 3 ([https://www.newspapers.com/image/60324711/ image]); it is not an independent appointment. 7 February 1825 is inferred from the contemporary issue. Glasgow-3127 has a matching Royal Artillery captain biography, but its live Sources section is empty; Glasgow-3785 is an exact-name chronology candidate and Glasgow-1536 a weaker linked comparison. No family identity, birth date, nationality or station is proved.
+
+The Office of Ordnance list dated 16 January 1837, published on 24 January, reports First Lieutenant George Mark Glasgow appointed a Second Captain in the Royal Regiment of Artillery, vice Freer; the following First Lieutenant list names 2d Lieut. George Carter Evelegh, vice Glasgow.
+
+The Freeman’s Journal also printed the same 16 January order on 21 January 1837, p. 2 ([https://www.newspapers.com/image/1050121684/ image]); this is a reprint, not an additional appointment. This is a separate same-name career occurrence; continuity with the 1825 notice is unproved. The page heading identifies the order as Office of Ordnance, 16 January; the issue was published 24 January. The passage confirms an Artillery career entry for this name, not a profile identity or Irish origin, residence, or family.
 
 ## edward-george-1825
+
+[Freeman’s Journal, 1826-06-20, p.1](https://www.newspapers.com/image/1050134797/). The 84th Regiment list appoints Lieutenant John James Peck from the 89th Foot vice Edward George Glasgow, who retires upon half-pay, 18th Light Dragoons. The full name and regiment are compatible with the 1825 Edward George notice, but continuity remains unproved; no profile, origin or family is identified.
 
 [Freeman’s Journal, 1825-04-20, p.3](https://www.newspapers.com/image/1050085864/). 84th Regiment: Lieutenant Edward George Glasgow, from the half-pay of the 49th Regiment, is listed among appointments to Lieutenants.
 
