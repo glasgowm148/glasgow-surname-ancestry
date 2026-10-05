@@ -1,6 +1,6 @@
 # Findings: Glasgow-1780
 
-Last updated: 2026-10-04
+Last updated: 2026-10-05
 
 ## Source findings
 
@@ -97,3 +97,9 @@ The surrounding passage treats Glasgow as an individual missionary in India, not
 The 1 July 1840 Freeman’s Journal marriage notice records the Rev. James Glasgow of Castledawson marrying Miss Mary Wightman of Belfast on “Saturday last,” inferred as 27 June. The exact bride/date match and Castledawson context make James McClure Glasgow-1780 the strongest profile match; the notice does not name his middle name. [Freeman’s Journal and Daily Commercial Advertiser, 1 July 1840, p.2](https://www.newspapers.com/image/1050113101/).
 
 A 14 January 1842 report records the Presbytery of Belfast setting apart four ministers as fellow-labourers in Hindostan with Rev. James Glasgow: Rev. Adam Glasgow, James M’Kee, Robert Montgomery, and James Henry Spears. James-1780 is a probable compatible candidate from his documented missionary career. Adam Dickie Glasgow-1781 is a possible compatible candidate for the separately named Rev. Adam Glasgow, but the source gives no middle name or identity bridge. Their co-occurrence does not establish kinship. [Freeman’s Journal and Daily Commercial Advertiser, 14 January 1842, p.1](https://www.newspapers.com/image/1050136610/).
+
+## Identity and relationship assessment — Belfast missionary notices, 1840–1842 (5 October 2026)
+
+The 21 August 1840 Belfast News-Letter report of a Townsend-street soiree separately names “the Rev. James Glasgow, Missionary to India” among speakers. This is compatible with James McClure Glasgow-1780’s documented missionary career, but it does not supply “McClure” or uniquely identify the profile. The 14 January 1842 Belfast News-Letter missionary-designation report names Rev. Adam Glasgow and explicitly says he was “brother of the Rev. Jas. Glasgow.” This corroborates the separate first-person missionary-journal and Knox Church history evidence for the Adam/James sibling relationship; the newspaper does not itself identify the profile IDs, and no relationship-status change is proposed. The same designation service also appears in the Freeman’s Journal that day, so report independence is not assumed. The Adam/James co-occurrence in the 1840 soiree does not itself establish kinship.
+
+Sources: [Belfast News-Letter, 21 August 1840, p.2](https://www.newspapers.com/image/390560975/); [14 January 1842, p.2](https://www.newspapers.com/image/390552341/).

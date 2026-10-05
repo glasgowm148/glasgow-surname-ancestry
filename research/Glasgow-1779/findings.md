@@ -1,5 +1,7 @@
 # Findings: [Jane Armstrong (Glasgow-1779), born 1799, County Antrim, Ireland](https://www.wikitree.com/wiki/Glasgow-1779)
 
+Last updated: 2026-10-05
+
 Record every useful result and negative search here as it is found.
 Do not treat an unsourced tree or naming pattern as proof.
 
@@ -26,3 +28,8 @@ Profile prose and trees remain leads; inspect the cited record before treating a
 ### External source links present
 
 - None detected outside WikiTree and sponsored Ancestry links.
+
+<!-- anne-armstrong-antrim-assizes-1838 -->
+## Identity assessment — 1838 Antrim Assizes comparison
+
+[Freeman’s Journal and Daily Commercial Advertiser, 27 July 1838, p. 3](https://www.newspapers.com/image/1050122635/) names Jane Glasgow as mother of the deceased Anne Armstrong. Glasgow-1779 is a weaker alternative by name, County Antrim context and chronology: the captured profile describes Jane Armstrong (Glasgow), born about 1799 in County Antrim, but reports an uncertain 1837 death from a Racavan burying-ground memorial transcription. That creates an unresolved chronology conflict with the 1838 notice. Retain this only as a qualified alternative pending verification of the memorial and identity; no attachment or certainty change follows.

@@ -25,8 +25,8 @@
       "retrieved_entries": 16,
       "unique_image_count": 16,
       "end_of_results": true,
-      "previews_screened": 12,
-      "triage": "First-preview surname/city/vessel triage; original-page review only for selected passages. Additional matches and unloaded entries remain.",
+      "previews_screened": 16,
+      "triage": "First-preview surname/city/vessel triage; original-page review only for selected passages. Additional matches and unloaded entries remain. Discrepancy audit verified all 16 readable primary previews; prior ledger count 12 was stale.",
       "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/robert-ni-review.json"
     },
     {
@@ -64,8 +64,8 @@
       "retrieved_entries": 12,
       "unique_image_count": 12,
       "end_of_results": true,
-      "previews_screened": 10,
-      "triage": "First-preview surname/city/vessel triage; original-page review only for selected passages. Additional matches and unloaded entries remain.",
+      "previews_screened": 12,
+      "triage": "First-preview surname/city/vessel triage; original-page review only for selected passages. Additional matches and unloaded entries remain. Discrepancy audit verified all 12 readable primary previews; prior ledger count 10 was stale.",
       "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/alexander-ni-review.json"
     },
     {
@@ -1243,12 +1243,129 @@
       "date_start": 1800,
       "date_end": 1850,
       "reported_entries": 52,
-      "retrieved_entries": 10,
-      "unique_image_count": 10,
-      "end_of_results": false,
-      "previews_screened": 10,
-      "triage": "First-preview surname/city/vessel triage; original-page review only for selected passages. Additional matches and unloaded entries remain.",
-      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/mary-ie.json"
+      "retrieved_entries": 52,
+      "unique_image_count": 52,
+      "end_of_results": true,
+      "previews_screened": 52,
+      "triage": "Best Match loaded all 52/52 result cards through End; six rank-range audits visually reviewed all 91 match positions. Five flagged original pages (eight exact-hit positions) resolve as vessel/port/place context or another person’s surname/locality; no personal Mary Glasgow occurrence is confirmed among these query matches. This is bounded to the exact result set and inspected passages, not page-wide or archive-wide absence.",
+      "source_capture": "artifacts/pre1850-continuation-20261005/phase-1850-root/mary-ie-loaded52-metadata.json",
+      "preview_positions_screened": 91,
+      "preview_positions_captured": 91,
+      "query_status": "All 52/52 provider cards and 91/91 captured match positions reviewed; End true. All five flagged original pages/eight match positions resolve without a confirmed personal Mary Glasgow occurrence. Query closure only; other names and query pairs remain open.",
+      "bounded_scope": "Exact quoted query “Mary Glasgow”, Ireland collection, 1800–1850 inclusive. Best Match returned all 52 reported cards through End. All 91 captured match positions and all five flagged original pages (eight exact-hit positions) were reviewed. No personal Mary Glasgow occurrence is confirmed in these query results; this makes no page-wide or archive-wide absence claim.",
+      "capture_packets": [
+        "artifacts/pre1850-continuation-20261005/phase-1850-root/mary-ie-loaded52-metadata.json",
+        "phase-1850-root/mary-ie-loaded52-metadata.json",
+        "phase-1850-gap-a/mary-ie-review-ranks1-10.json",
+        "phase-1850-gap-b/mary-ie-ranks11-20-offline-review.json",
+        "phase-1850-common-ie-short/mary-ie-ranks21-30-position-audit.json",
+        "phase-1850-common-ni-tail/mary-ie-review-31-40.json",
+        "phase-1850-variants/mary-ie-review-41-50.json",
+        "phase-1850-gap-b/mary-ie-ranks51-52-offline-review.json",
+        "phase-1850-root/mary-ie-1050125312-resolution.json",
+        "phase-1850-root/mary-ie-1050068113-resolution.json",
+        "phase-1850-root/mary-ie-1050067836-resolution.json",
+        "phase-1850-root/mary-ie-385171754-resolution.json",
+        "phase-1850-root/mary-ie-1259392877-resolution.json"
+      ],
+      "review_packets": [
+        "phase-1850-root/mary-ie-loaded52-metadata.json",
+        "phase-1850-gap-a/mary-ie-review-ranks1-10.json",
+        "phase-1850-gap-b/mary-ie-ranks11-20-offline-review.json",
+        "phase-1850-common-ie-short/mary-ie-ranks21-30-position-audit.json",
+        "phase-1850-common-ni-tail/mary-ie-review-31-40.json",
+        "phase-1850-variants/mary-ie-review-41-50.json",
+        "phase-1850-gap-b/mary-ie-ranks51-52-offline-review.json",
+        "phase-1850-root/mary-ie-1050125312-resolution.json",
+        "phase-1850-root/mary-ie-1050068113-resolution.json",
+        "phase-1850-root/mary-ie-1050067836-resolution.json",
+        "phase-1850-root/mary-ie-385171754-resolution.json",
+        "phase-1850-root/mary-ie-1259392877-resolution.json"
+      ],
+      "originals_inspected": [
+        {
+          "image_id": "1050125312",
+          "source_url": "https://www.newspapers.com/image/1050125312/",
+          "source": "Freeman’s Journal and Daily Commercial Advertiser",
+          "date": "1839-01-31",
+          "page": "2",
+          "positions_checked": 2,
+          "classification": "place or church",
+          "reading": "The marriage notice names Robert Kilgour, Esq., of Glasgow, marrying Miss M. Lee at St Mary’s Church. Mary is part of the church’s name; Glasgow is Kilgour’s locality.",
+          "resolution_file": "artifacts/pre1850-continuation-20261005/phase-1850-root/mary-ie-1050125312-resolution.json",
+          "limits": "This resolves only the two exact query match passages, not all surnames elsewhere on the page."
+        },
+        {
+          "image_id": "1050068113",
+          "source_url": "https://www.newspapers.com/image/1050068113/",
+          "source": "Freeman’s Journal and Daily Commercial Advertiser",
+          "date": "1818-05-19",
+          "page": "4",
+          "positions_checked": 1,
+          "classification": "place or ship",
+          "reading": "British Invoice, May 15: Mary, Glasgow and Greenock, followed by pig iron, fire clay and other cargo. Mary is the vessel; Glasgow and Greenock are ports.",
+          "resolution_file": "artifacts/pre1850-continuation-20261005/phase-1850-root/mary-ie-1050068113-resolution.json",
+          "limits": "Only the exact query passage resolved; no page-wide surname absence claimed."
+        },
+        {
+          "image_id": "1050067836",
+          "source_url": "https://www.newspapers.com/image/1050067836/",
+          "source": "Freeman’s Journal and Daily Commercial Advertiser",
+          "date": "1818-04-22",
+          "page": "4",
+          "positions_checked": 1,
+          "classification": "place or ship",
+          "reading": "IMPORTS AND EXPORTS, April 20: British Invoice—Mary, Glasgow—stationery, printing types and other cargo. Mary is a vessel and stationery is goods, not a person’s profession.",
+          "resolution_file": "artifacts/pre1850-continuation-20261005/phase-1850-root/mary-ie-1050067836-resolution.json",
+          "limits": "Only the exact query passage resolved; no page-wide surname absence claimed."
+        },
+        {
+          "image_id": "385171754",
+          "source_url": "https://www.newspapers.com/image/385171754/",
+          "source": "Freeman’s Journal and Daily Commercial Advertiser",
+          "date": "1837-08-04",
+          "page": "3",
+          "positions_checked": 2,
+          "classification": "place or other name",
+          "reading": "The marriage notice names Rev. Robert M’Corkle marrying Mary, second daughter of late Ninian Bannatyne, merchant of Glasgow, and niece of David Bannatyne of Limerick. Mary is a Bannatyne; Glasgow is her father’s locality.",
+          "resolution_file": "artifacts/pre1850-continuation-20261005/phase-1850-root/mary-ie-385171754-resolution.json",
+          "limits": "Only the two exact query passages resolved; no page-wide surname absence claimed."
+        },
+        {
+          "image_id": "1259392877",
+          "source_url": "https://www.newspapers.com/image/1259392877/",
+          "source": "The Drogheda Argus and Leinster Journal",
+          "date": "1847-10-23",
+          "page": "2",
+          "positions_checked": 2,
+          "classification": "place or ship",
+          "reading": "DROGHEDA EXPORTS lists Mary Frances, Glasgow—400 cwt oatmeal, J & R Morton. The surrounding rows follow the same vessel/port/cargo format; Mary Frances is the vessel and Glasgow the destination.",
+          "resolution_file": "artifacts/pre1850-continuation-20261005/phase-1850-root/mary-ie-1259392877-resolution.json",
+          "limits": "Both exact query match passages resolved; no page-wide absence of surnames asserted."
+        }
+      ],
+      "originals_pending": [],
+      "original_pages_checked": 5,
+      "original_positions_checked": 8,
+      "distinct_original_pages_added": 5,
+      "personal_occurrences": [],
+      "prior_coverage_reconciliation": {
+        "ledger_at_start_of_sixteenth_batch": {
+          "reported_entries": 52,
+          "retrieved_entries": 10,
+          "unique_image_count": 10,
+          "previews_screened": 10,
+          "end_of_results": false,
+          "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/mary-ie.json"
+        },
+        "raw_cache_conflict": {
+          "path": "artifacts/pre1850-continuation-20261005/phase-1850-gap-a/mary-ie-existing-inventory.json",
+          "cache_file_preview_count": 0,
+          "cache_file_triage": "Pending preview screening.",
+          "later_ledger_preview_count": 10,
+          "reconciliation": "The old cache snapshot reported zero screened previews while later 85-pair ledger/inventory records carried 10/52 as screened. The fresh Best Match capture now records 52/52 distinct cards through End; six rank-range audits review all 91 preview positions. Current fields use the new capture and complete review, while this object preserves both prior values."
+        }
+      }
     },
     {
       "query": "\"Adam Glasgow\"",
@@ -1273,8 +1390,72 @@
       "unique_image_count": 16,
       "end_of_results": true,
       "previews_screened": 11,
-      "triage": "Eleven readable first previews were vessel/port references; five blank lazy previews remain unscreened.",
-      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/continued-nancy-ireland.json"
+      "triage": "Eleven readable first previews screened; five blank lazy primary previews remain blank and are not counted as screened. The five corresponding original match pages were separately checked (seven exact-match positions); each inspected passage is shipping/export context with vessel/consignment Nancy and Glasgow as port/destination. This is passage-level classification only, not page-wide absence.",
+      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/continued-nancy-ireland.json",
+      "originals_inspected": [
+        {
+          "image_id": "1050104268",
+          "source_url": null,
+          "original_resolution_file": "artifacts/pre1850-continuation-20261005/phase-1850-variants/nancy-ie-1050104268-resolution.json",
+          "positions_checked": 1,
+          "disposition": "vessel/shipping/export context; Glasgow is port/destination, not personal surname",
+          "scope": "Only the identified exact-match passage(s) were inspected; no page-wide absence claim.",
+          "source": "Freeman's Journal and Daily Commercial Advertiser",
+          "date": "Monday, 30 July 1849",
+          "page": 4,
+          "passage": "Under “July 28—Arrived,” the list includes “Nancy, Glasgow, pig iron”; nearby entries name other vessels, origins/ports, and cargoes."
+        },
+        {
+          "image_id": "1050111521",
+          "source_url": "https://www.newspapers.com/image/1050111521/",
+          "original_resolution_file": "artifacts/pre1850-continuation-20261005/phase-1850-root/nancy-ie-1050111521-original-resolution.json",
+          "positions_checked": 2,
+          "disposition": "vessel/shipping/export context; Glasgow is port/destination, not personal surname",
+          "scope": "Only the identified exact-match passage(s) were inspected; no page-wide absence claim.",
+          "source": "Freeman’s Journal and Daily Commercial Advertiser",
+          "date": "1850-04-23",
+          "page": 4,
+          "passage": "“Nancy, Glasgow, general cargo” in the April 22 arrivals list; both exact-match positions highlight the same printed entry."
+        },
+        {
+          "image_id": "1050113523",
+          "source_url": "https://www.newspapers.com/image/1050113523/",
+          "original_resolution_file": "artifacts/pre1850-continuation-20261005/phase-1850-root/nancy-ie-1050113523-original-resolution.json",
+          "positions_checked": 1,
+          "disposition": "vessel/shipping/export context; Glasgow is port/destination, not personal surname",
+          "scope": "Only the identified exact-match passage(s) were inspected; no page-wide absence claim.",
+          "source": "Freeman’s Journal and Daily Commercial Advertiser",
+          "date": "1845-10-13",
+          "page": 4,
+          "passage": "“Sailed, Nancy, Glasgow, Elizabeth and Johanna, Westport, Rebecca, Liverpool, and Adam, Derry, general cargoes; Caroline, Liverpool, grain; Royal William, steamer, Belfast; Vanguard, steamer, Glasgow; Jupiter, steamer, Cork; Eclipse, steamer, Waterford; Royal Adelaide, Duchess of Kent, Hibernia, and Ballinasloe, steamers, Liverpool; Emma, Liverpool, wine. Seven vessels in ballast.”"
+        },
+        {
+          "image_id": "1050134999",
+          "source_url": null,
+          "original_resolution_file": "artifacts/pre1850-continuation-20261005/phase-1850-root/nancy-ie-1050134999-original-resolution.json",
+          "positions_checked": 1,
+          "disposition": "vessel/shipping/export context; Glasgow is port/destination, not personal surname",
+          "scope": "Only the identified exact-match passage(s) were inspected; no page-wide absence claim.",
+          "source": "Freeman’s Journal and Daily Commercial Advertiser, Monday 26 April 1847, p. 4",
+          "date": "1847-04-26",
+          "page": 4,
+          "passage": "Under “PIER HEAD, DUBLIN” and “April 23—Arrived,” the list reads in sequence: “Gipsey, Norfolk, and Olive Branch, Vigo, Indian corn; Nancy, Glasgow, general cargo; Ballinasloe, steamer, Liverpool; Wm. Pitt, Liverpool, salt; four colliers.”"
+        },
+        {
+          "image_id": "1259393177",
+          "source_url": "https://www.newspapers.com/image/1259393177/",
+          "original_resolution_file": "artifacts/pre1850-continuation-20261005/phase-1850-root/nancy-ie-1259393177-original-resolution.json",
+          "positions_checked": 2,
+          "disposition": "vessel/shipping/export context; Glasgow is port/destination, not personal surname",
+          "scope": "Only the identified exact-match passage(s) were inspected; no page-wide absence claim.",
+          "source": "The Drogheda Argus and Leinster Journal",
+          "date": "1848-02-26",
+          "page": 3,
+          "passage": "Both highlighted positions resolve to the Drogheda exports line “Nancy, for Glasgow.” The table records an export/route entry, with Glasgow as destination; the phrase does not identify a person named Nancy Glasgow.",
+          "qualification": "“vessel/consignment label” is qualified; the export-list line itself does not explicitly label the Nancy as a vessel."
+        }
+      ],
+      "original_positions_checked": 7
     },
     {
       "query": "\"Ellen Glasgow\"",
@@ -1356,8 +1537,77 @@
       "unique_image_count": 26,
       "end_of_results": true,
       "previews_screened": 18,
-      "triage": "18 readable first previews: educational/Rev. Adam (D.) Glasgow leads, plus city references; nine blank previews not screened. Originals pending.",
-      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/continued-adam-ni.json"
+      "triage": "18 of 27 primary previews were readable and screened; nine primary previews remain blank and are not counted as screened. Original-page checks now resolve the blank-card evidence (six new distinct original pages; one image was already checked in the Robert query), and two additional blank-primary IDs have readable alternate-position vessel context. Original reading does not convert a blank primary preview into a screened primary preview.",
+      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/continued-adam-ni.json",
+      "originals_pending": [],
+      "originals_inspected": [
+        {
+          "image_id": "390560975",
+          "original_checked": true,
+          "source_url": "https://www.newspapers.com/image/390560975/",
+          "disposition": "confirmed surname",
+          "reading": "“Congregational and Sabbath-School Soiree, in connection with the Presbyterian Church, Townsend-street,” held on the evening of the 18th inst. (18 August 1840). The devotional exercises were conducted, the report says, by “the Rev. Adam Glasgow, of Berry-street,” among other ministers.",
+          "resolution_file": "phase-1850-root/adam-ni-390560975-original-resolution.json",
+          "date": "1840-08-21",
+          "paper": "Belfast News-Letter",
+          "page": 2
+        },
+        {
+          "image_id": "390556571",
+          "original_checked": true,
+          "source_url": "https://www.newspapers.com/image/390556571/",
+          "disposition": "confirmed surname",
+          "reading": "At a meeting held in the Rev. Dr. Hanna’s Church, Rosemary-street, on the evening of Wednesday, 10 March 1841, with a deputation from the Edinburgh Anti-Patronage Society present, a clergy list names “Rev. Adam Glasgow” among those on and around the platform. “Malone” follows Rev. Joseph M’Kenzie; it is not given as Adam Glasgow’s locality.",
+          "resolution_file": "phase-1850-root/adam-ni-390556571-original-resolution.json",
+          "date": "1841-03-12",
+          "paper": "Belfast News-Letter",
+          "page": 3
+        },
+        {
+          "image_id": "390552100",
+          "original_checked": true,
+          "source_url": "https://www.newspapers.com/image/390552100/",
+          "disposition": "confirmed surname",
+          "reading": "Under “MARRIED”: “On the 30th ult. by the Rev. Dr. Cooke, at the house of the lady’s uncle, Thomas Corbett, Esq. May-street, the Rev. Adam Glasgow to Miss Jane Thompson.”",
+          "resolution_file": "phase-1850-john-ni/adam-ni-390552100-original-resolution.json",
+          "date": "1842-01-04",
+          "paper": "Belfast News-Letter",
+          "page": 3
+        },
+        {
+          "image_id": "390552341",
+          "original_checked": true,
+          "source_url": "https://www.newspapers.com/image/390552341/",
+          "disposition": "confirmed surname",
+          "reading": "The Rev. Adam Glasgow is listed among four ministers set apart as missionaries to India. The report calls him “brother of the Rev. Jas. Glasgow.”",
+          "resolution_file": "phase-1850-root/adam-ni-390552341-original-resolution.json",
+          "date": "1842-01-14",
+          "paper": "Belfast News-Letter",
+          "page": 2
+        },
+        {
+          "image_id": "390560193",
+          "original_checked": true,
+          "source_url": "https://www.newspapers.com/image/390560193/",
+          "disposition": "personal_surname_positive",
+          "reading": "“General Assembly’s India Mission.—Yesterday evening, the usual monthly prayer meeting was held in the Rosemary-street Church, when two highly interesting letters from Rev. Adam Glasgow and Rev. Mr. Spier were read by Mr. Morgan.”",
+          "resolution_file": "phase-1850-root/adam-ni-390560193-original-resolution.json",
+          "date": "1843-03-28",
+          "paper": "Belfast News-Letter",
+          "page": 2
+        },
+        {
+          "image_id": "390559938",
+          "original_checked": true,
+          "source_url": "https://www.newspapers.com/image/390559938/",
+          "disposition": "different_person_plus_locality_false_positive",
+          "reading": "In the public examinations/distinctions list, “4th Class—Adam Turnbull (Glasgow).”",
+          "resolution_file": "phase-1850-root/adam-ni-390559938-original-resolution.json",
+          "date": "1850-07-02",
+          "paper": "Belfast News-Letter",
+          "page": 3
+        }
+      ]
     },
     {
       "query": "\"Nancy Glasgow\"",
@@ -1471,12 +1721,83 @@
       "date_start": 1800,
       "date_end": 1850,
       "reported_entries": 52,
-      "retrieved_entries": 10,
-      "unique_image_count": 10,
-      "end_of_results": false,
-      "previews_screened": 10,
-      "triage": "First ten previews are Jane ship / Glasgow city occurrences; no surname retained. Remaining 42 result entries and carousel highlights not screened.",
-      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/next-jane-ie.json"
+      "retrieved_entries": 52,
+      "unique_image_count": 52,
+      "end_of_results": true,
+      "previews_screened": 52,
+      "triage": "All 52 provider cards and 90 captured match positions were reviewed (Best Match order; failed Oldest-sort packet excluded). Six newly loaded cards contributed ten positions: nine shipping/vessel context and one confirmed personal occurrence on original 1050122635. Under Antrim Assizes, Jane Glasgow is named as mother of the deceased Anne Armstrong and as a witness; the report states Anne died 23 June 1838 at printed Bally-cluck and records a not-guilty verdict. Earlier original 60319517 is vessel/port context. Bounded catalogue audit completed: McClure-6341 is a compatible possible mother candidate; Glasgow-1779 is a weaker possible candidate with a reported 1837 death conflict. No identity is proved or live relationship changed.; no residence, age, spouse, maiden name, or Anne birth surname is inferred. No archive-wide absence claim.",
+      "source_capture": "artifacts/pre1850-continuation-20261005/phase-1850-root/jane-ie-best-match-loaded52-metadata.json",
+      "preview_positions_screened": 90,
+      "preview_positions_captured": 90,
+      "query_status": "All 52/52 provider cards and 90/90 captured positions reviewed; End true in Best Match order. Original 1050122635 confirms one personal occurrence; Bounded catalogue audit completed: McClure-6341 is a compatible possible mother candidate; Glasgow-1779 is a weaker possible candidate with a reported 1837 death conflict. No identity is proved or live relationship changed.",
+      "bounded_scope": "Exact quoted query “Jane Glasgow”, Ireland collection, 1800–1850 inclusive. Best Match returned all 52 reported cards and End; all 90 captured match positions reviewed. Original 1050122635 names Jane as mother of the deceased Anne Armstrong and as a witness, under Antrim Assizes. Printed locality is Bally-cluck; no residence, age, spouse, maiden name, or Anne birth surname is inferred. Bounded catalogue audit completed: McClure-6341 is a compatible possible mother candidate; Glasgow-1779 is a weaker possible candidate with a reported 1837 death conflict. No identity is proved or live relationship changed. No archive-wide absence claim.",
+      "capture_packets": [
+        "phase-1850-root/jane-ie-full-ranks1-10-position-review.json",
+        "phase-1850-root/jane-ie-full-ranks11-20-position-review.json",
+        "phase-1850-root/jane-ie-full-ranks21-30-position-review.json",
+        "phase-1850-root/jane-ie-full-ranks31-40-position-review.json",
+        "phase-1850-root/jane-ie-full-ranks41-46-position-review.json",
+        "phase-1850-root/jane-ie-best-match-loaded52-metadata.json",
+        "phase-1850-gap-b/jane-ie-best-tail-review.json"
+      ],
+      "review_packets": [
+        "phase-1850-variants/jane-ie-review-1-10.json",
+        "phase-1850-gap-a/jane-ie-review-11-20.json",
+        "phase-1850-gap-b/jane-ie-ranks21-30-offline-review.json",
+        "phase-1850-variants/jane-ie-review-31-40.json",
+        "phase-1850-variants/jane-ie-review-41-46.json",
+        "phase-1850-gap-b/jane-ie-best-tail-review.json"
+      ],
+      "originals_pending": [],
+      "originals_inspected": [
+        {
+          "image_id": "60319517",
+          "date": "1823-11-15",
+          "paper": "The Waterford Mirror",
+          "page": 3,
+          "original_checked": true,
+          "source_url": "https://www.newspapers.com/image/60319517/",
+          "positions_resolved": [
+            1,
+            2
+          ],
+          "disposition": "place or ship",
+          "reading": "Port News—Passage November14, Sailed14th: Jane, Howard, Glasgow, marbleblocks. VesselJane, masterHoward, destinationGlasgow. Both highlights same passage; no Glasgow surname."
+        },
+        {
+          "image_id": "1050122635",
+          "date": "1838-07-27",
+          "paper": "Freeman's Journal and Daily Commercial Advertiser",
+          "page": "3",
+          "source_url": "https://www.newspapers.com/image/1050122635/",
+          "original_page_capture": "/Users/m/wikitree-api-scrape/artifacts/pre1850-continuation-20261005/phase-1850-root/jane-ie-1050122635-original-position1.png",
+          "provider_metadata": "artifacts/pre1850-continuation-20261005/phase-1850-root/jane-ie-1050122635-original-metadata.txt",
+          "original_checked": true,
+          "positions_resolved": [
+            1
+          ],
+          "classification": "confirmed surname",
+          "reading": "Under Antrim Assizes, Jane Glasgow is named as the mother of the deceased Anne Armstrong. Euphemia Armstrong is named as mother of John Armstrong, who was married to Anne. The report says Anne died on 23 June at printed Bally-cluck; the manslaughter defendant William M’Gowan was found not guilty.",
+          "context": "The passage concerns William McGowan, charged with inflicting wounds on Anne Armstrong, who died during an operation. Jane Glasgow is expressly identified as the deceased’s mother and a witness.",
+          "decision": "A person named Jane Glasgow is confirmed in the original page. This page supports that named relationship and witness role only; matching her to a particular catalogue/profile person remains a separate profile audit.",
+          "canonical_resolution_json": "artifacts/pre1850-continuation-20261005/phase-1850-root/jane-ie-1050122635-resolution.json",
+          "original_resolution_file": "artifacts/pre1850-continuation-20261005/phase-1850-root/jane-ie-1050122635-resolution.json",
+          "approved_crop": "/Users/m/wikitree-api-scrape/artifacts/pre1850-continuation-20261005/phase-1850-root/1050122635-approved-crop.png",
+          "limits": "The record does not give Jane’s age, spouse, maiden name or residence; Anne’s birth surname is not expressly stated. Bally-cluck is preserved as printed; no modern townland match asserted.",
+          "identity_status": "Bounded catalogue audit completed: McClure-6341 is a compatible possible mother candidate; Glasgow-1779 is a weaker possible candidate with a reported 1837 death conflict. No identity is proved or live relationship changed.",
+          "profile_audit_file": "artifacts/pre1850-continuation-20261005/phase-1850-john-ie/anne-armstrong-1838-integration.json"
+        }
+      ],
+      "distinct_original_pages_added": 2,
+      "original_positions_checked": 1,
+      "personal_occurrences": [
+        {
+          "image_id": "1050122635",
+          "status": "confirmed in original",
+          "evidence": "Named as mother of deceased Anne Armstrong and as a witness",
+          "catalogue_profile_match": "Bounded catalogue audit completed: McClure-6341 is a compatible possible mother candidate; Glasgow-1779 is a weaker possible candidate with a reported 1837 death conflict. No identity is proved or live relationship changed."
+        }
+      ]
     },
     {
       "query": "\"Joseph Glasgow\"",
@@ -2197,7 +2518,11 @@
     "Eleventh batch completes Wilson and David Ireland preview/original checks. James Ireland has all 60 cards, 102 positions, and 15 selected original pages checked; the canonical JSON for page 1050060364 and catalogue integration for three positive pages remain pending. Merchant notices are repeated records and do not establish distinct people.",
     "Twelfth batch closes Margaret Ireland’s 39-card/66-position exact query review with no personal Glasgow surname lead in those previews. James’s jury resolution is now validated; root reports the jury and 11 merchant pages integrated, while marriage and missionary source integration remains pending.",
     "Thirteenth batch verifies all 14 positive James Glasgow source pages in the maintained clipping index and records the checked 1848 shipping false positive as excluded. Catalogue integration is complete for this query; candidate identities remain qualified as stated in the sources.",
-    "Fourteenth batch closes the 44-card Elizabeth Ireland exact query: all 84 captured preview positions reached and reviewed; the reviewed snippets are shipping/vessel/trade or product contexts, with no personal Glasgow surname lead. This does not establish archive-wide absence."
+    "Fourteenth batch closes the 44-card Elizabeth Ireland exact query: all 84 captured preview positions reached and reviewed; the reviewed snippets are shipping/vessel/trade or product contexts, with no personal Glasgow surname lead. This does not establish archive-wide absence.",
+    "Fifteenth batch updates Jane Glasgow, Ireland: only 46 of 52 reported cards were captured; all 80 captured positions were reviewed, but End was not reached. The one flagged original resolved as vessel/port context. Six reported cards remain outside the capture.",
+    "Adam Glasgow, Northern Ireland retains 18 readable primary previews screened out of 27 cards. Original-page checks of blank-primary cards are recorded separately and do not increase primary-preview screening counts; duplicate original 390563103 was previously counted in the Robert query.",
+    "The retrieved-versus-primary discrepancy audit corrected stale preview counts for Robert Glasgow (Northern Ireland) and Alexander Glasgow (Northern Ireland). Duplicate result rows and blank first previews remain distinct from readable unique primary previews.",
+    "Sixteenth batch supersedes the earlier partial Jane Ireland status: Best Match returned 52/52 cards, End true, and all 90 captured positions were reviewed; original 1050122635 confirms Jane as the mother of the deceased Anne Armstrong and as a witness, while catalogue-profile matching remains pending. Mary Ireland was updated from conflicting 10-screened ledger / 0-screened cache snapshots to a fresh 52/52-card, End-verified, 52-primary/91-position review; all five flagged originals/eight match positions resolve without a confirmed Mary Glasgow person. These are query-bounded findings; 62 exact name-form/collection pairs remain missing in the 132-pair audit snapshot, and other carousel-position reviews remain open."
   ],
   "catalogue_names_not_yet_quoted_in_Northern_Ireland": [
     "Abigail",
@@ -2415,14 +2740,32 @@
     "1369100214",
     "1369100225",
     "1369100236",
-    "1369100248"
+    "1369100248",
+    "60319517",
+    "390560975",
+    "390556571",
+    "390552100",
+    "390552341",
+    "390560193",
+    "390559938",
+    "1050104268",
+    "1050111521",
+    "1050113523",
+    "1050134999",
+    "1259393177",
+    "1050122635",
+    "1050125312",
+    "1050068113",
+    "1050067836",
+    "385171754",
+    "1259392877"
   ],
   "reviewed_original_pending_context": [],
   "coverage_totals": {
     "distinct_queries": 85,
-    "retrieved_entries": 1593,
-    "readable_first_previews_screened": 1570,
-    "newly_resolved_original_pages": 127,
+    "retrieved_entries": 1677,
+    "readable_first_previews_screened": 1660,
+    "newly_resolved_original_pages": 145,
     "seventh_batch_preview_positions_screened": 360,
     "eighth_batch_preview_positions_screened": 393,
     "william_ie_batch_preview_positions_screened": 67,
@@ -2431,14 +2774,21 @@
     "tenth_batch_preview_positions_reviewed": 222,
     "tenth_batch_additional_preview_positions_vs_prior_first_previews": 182,
     "tenth_batch_unreviewed_captured_positions": 11,
-    "preview_positions_reviewed_cumulative_batches": 1265,
+    "preview_positions_reviewed_cumulative_batches": 1436,
     "eleventh_batch_new_preview_positions_reviewed": 73,
     "eleventh_batch_unreviewed_captured_positions": 0,
     "twelfth_batch_preview_positions_reviewed": 66,
     "twelfth_batch_additional_preview_positions_vs_prior_first_previews": 56,
     "fourteenth_batch_preview_positions_reviewed": 84,
     "fourteenth_batch_additional_preview_positions_vs_prior_first_previews": 74,
-    "fourteenth_batch_unreviewed_captured_positions": 0
+    "fourteenth_batch_unreviewed_captured_positions": 0,
+    "fifteenth_batch_preview_positions_reviewed": 90,
+    "fifteenth_batch_additional_preview_positions_vs_prior_first_previews": 80,
+    "fifteenth_batch_unreviewed_captured_positions": 0,
+    "sixteenth_batch_preview_positions_reviewed": 91,
+    "sixteenth_batch_additional_preview_positions_vs_primary_previews": 39,
+    "sixteenth_batch_unreviewed_captured_positions": 0,
+    "query_row_unique_image_counts_sum": 1657
   },
   "seventh_original_evidence": [
     {
@@ -4531,5 +4881,348 @@
       }
     ],
     "scope": "Private cumulative proposal; Elizabeth exact-query capture only, no archive-wide absence claim."
+  },
+  "fifteenth_batch": {
+    "query_pairs_preserved": 85,
+    "new_query_pairs": 0,
+    "retrieved_entries_added": 42,
+    "primary_previews_added": 48,
+    "Jane Glasgow (Ireland)": {
+      "reported_cards": 52,
+      "captured_cards": 52,
+      "distinct_preview_page_ids": 52,
+      "positions": 90,
+      "all_captured_positions_reviewed": true,
+      "End": true,
+      "unretrieved_reported_cards": 0,
+      "original_pages_checked": 2,
+      "original_leads_pending_original_verification": 0,
+      "finding": "Original 60319517 is vessel/port; original 1050122635 confirms Jane as mother of deceased Anne Armstrong and witness. Catalogue-profile matching remains pending.",
+      "confirmed_personal_occurrences": 1,
+      "profile_identity_audit_pending": true
+    },
+    "Adam Glasgow (Northern Ireland)": {
+      "reported_cards": 27,
+      "primary_previews_screened": 18,
+      "blank_primary_previews_not_counted": 9,
+      "original_pages_reviewed": 6,
+      "new_distinct_original_pages": 6,
+      "prior_cross_query_original_ids_deduplicated": [
+        "390563103"
+      ],
+      "alternate_positions_do_not_change_primary_preview_count": true
+    },
+    "discrepancy_audit": {
+      "source": "phase-1850-common-ie-short/retrieved-primary-discrepancy-audit.json",
+      "reported_gap": 23,
+      "corrected_stale_primary_counts": {
+        "Robert Glasgow (Northern Ireland)": {
+          "from": 12,
+          "to": 16
+        },
+        "Alexander Glasgow (Northern Ireland)": {
+          "from": 10,
+          "to": 12
+        }
+      },
+      "unchanged_duplicate_rows_and_blank_preview distinctions preserved": true
+    },
+    "remaining_work_sorted_by_reported_count": [
+      {
+        "collection": "Northern Ireland",
+        "query": "\"Johanna Glasgow\"",
+        "reported_entries": 0,
+        "retrieved_entries": 0,
+        "previews_screened": 0,
+        "end_of_results": null
+      },
+      {
+        "collection": "Northern Ireland",
+        "query": "\"Lavinia Glasgow\"",
+        "reported_entries": 0,
+        "retrieved_entries": 0,
+        "previews_screened": 0,
+        "end_of_results": null
+      },
+      {
+        "collection": "Northern Ireland",
+        "query": "\"Margret Glasgow\"",
+        "reported_entries": 0,
+        "retrieved_entries": 0,
+        "previews_screened": 0,
+        "end_of_results": null
+      },
+      {
+        "collection": "Northern Ireland",
+        "query": "\"Martha Glasgow\"",
+        "reported_entries": 0,
+        "retrieved_entries": 0,
+        "previews_screened": 0,
+        "end_of_results": null
+      },
+      {
+        "collection": "Northern Ireland",
+        "query": "\"Mary Jane Glasgow\"",
+        "reported_entries": 0,
+        "retrieved_entries": 0,
+        "previews_screened": 0,
+        "end_of_results": null
+      },
+      {
+        "collection": "Ireland",
+        "query": "\"Jane Glasgow\"",
+        "reported_entries": 52,
+        "retrieved_entries": 52,
+        "previews_screened": 52,
+        "end_of_results": true,
+        "status": "query results and original passage complete; profile identity audit pending",
+        "original_pending": []
+      },
+      {
+        "collection": "Ireland",
+        "query": "\"Mary Glasgow\"",
+        "reported_entries": 52,
+        "retrieved_entries": 10,
+        "previews_screened": 10,
+        "end_of_results": false
+      }
+    ],
+    "scope": "Private cumulative proposal; Jane Ireland result coverage is complete in Best Match order (52/52, End true, 90 positions), with one personal original confirmed and profile identity pending. No archive-exhaustion claim.",
+    "discrepancy_rows": [
+      {
+        "query": "\"William Glasgow\"",
+        "collection": "Northern Ireland",
+        "retrieved": 21,
+        "primary_previews_screened_in_ledger": 20,
+        "gap": 1,
+        "capture": ".cache/newspapers/2026-10-04/irish-1800-1850/william-ni.json",
+        "resolution": "Resolved at primary-preview level in phase-1850-common-ni-tail/proposal.json: 20/20 unique result-card first previews reinspected readable. Provider returned 21 rows but only 20 unique images; rank 21 is duplicate image 390549197, already represented at rank 5. One extra result row, not one additional unique page.",
+        "review_packet": {
+          "primary_preview_cards_reinspected": 20,
+          "primary_preview_cards_blank_or_unreadable": 0,
+          "alternate_positions_screened": 1,
+          "alternate_positions_pending_minimum": 19,
+          "status": "pending; primary card review does not complete alternate-position review"
+        }
+      },
+      {
+        "query": "\"Robert Glasgow\"",
+        "collection": "Northern Ireland",
+        "retrieved": 16,
+        "primary_previews_screened_in_ledger": 12,
+        "gap": 4,
+        "capture": ".cache/newspapers/2026-10-04/irish-1800-1850/robert-ni-review.json",
+        "resolution": "Resolved at primary-preview level in phase-1850-common-ni-tail/proposal.json: all 16 unique images explicitly re-reviewed; no blank/unreadable primary. The 12 ledger value is stale. Alternate carousel review remains pending.",
+        "review_packet": {
+          "primary_preview_cards_reinspected": 16,
+          "primary_preview_cards_blank_or_unreadable": 0,
+          "alternate_positions_screened": 0,
+          "alternate_positions_pending_minimum": 5,
+          "status": "pending; primary card review does not complete alternate-position review"
+        }
+      },
+      {
+        "query": "\"James Glasgow\"",
+        "collection": "Northern Ireland",
+        "retrieved": 153,
+        "primary_previews_screened_in_ledger": 151,
+        "gap": 2,
+        "capture": ".cache/newspapers/2026-10-04/irish-1800-1850/full-james-ni.json",
+        "resolution": "No unscreened unique primary page: 153 result rows, 151 unique image IDs, and all 151 unique previews screened per ledger/capture. The two surplus result rows form duplicate pairs on already-screened pages: image 390549197 and image 390543681 (two rows each). Do not queue extra originals solely from the +2 arithmetic.",
+        "duplicate_image_ids": {
+          "390549197": 2,
+          "390543681": 2
+        }
+      },
+      {
+        "query": "\"Alexander Glasgow\"",
+        "collection": "Northern Ireland",
+        "retrieved": 12,
+        "primary_previews_screened_in_ledger": 10,
+        "gap": 2,
+        "capture": ".cache/newspapers/2026-10-04/irish-1800-1850/alexander-ni-review.json",
+        "resolution": "Resolved at primary-preview level in phase-1850-common-ni-tail/proposal.json: all 12 unique images explicitly re-reviewed; no blank/unreadable primary. The 10 ledger value is stale. Alternate carousel review remains pending.",
+        "review_packet": {
+          "primary_preview_cards_reinspected": 12,
+          "primary_preview_cards_blank_or_unreadable": 0,
+          "alternate_positions_screened": 0,
+          "alternate_positions_pending_minimum": 7,
+          "status": "pending; primary card review does not complete alternate-position review"
+        }
+      },
+      {
+        "query": "\"Nancy Glasgow\"",
+        "collection": "Ireland",
+        "retrieved": 16,
+        "primary_previews_screened_in_ledger": 11,
+        "gap": 5,
+        "capture": ".cache/newspapers/2026-10-04/irish-1800-1850/continued-nancy-ireland.json",
+        "resolution": "Unresolved five blank first previews; originals or fresh loaded preview needed to classify. These exact 5 rank cards account for the full gap.",
+        "unreviewed_cards": [
+          {
+            "rank": 12,
+            "image_id": "1050113523",
+            "paper": "Freeman's Journal and Daily Commercial Advertiser",
+            "page": "Page 4",
+            "date": "Monday, 13 October 1845",
+            "snippet_status": "blank lazy preview; not screened"
+          },
+          {
+            "rank": 13,
+            "image_id": "1050134999",
+            "paper": "Freeman's Journal and Daily Commercial Advertiser",
+            "page": "Page 4",
+            "date": "Monday, 26 April 1847",
+            "snippet_status": "blank lazy preview; not screened"
+          },
+          {
+            "rank": 14,
+            "image_id": "1259393177",
+            "paper": "The Drogheda Argus and Leinster Journal",
+            "page": "Page 3",
+            "date": "Saturday, 26 February 1848",
+            "snippet_status": "blank lazy preview; not screened"
+          },
+          {
+            "rank": 15,
+            "image_id": "1050104268",
+            "paper": "Freeman's Journal and Daily Commercial Advertiser",
+            "page": "Page 4",
+            "date": "Monday, 30 July 1849",
+            "snippet_status": "blank lazy preview; not screened"
+          },
+          {
+            "rank": 16,
+            "image_id": "1050111521",
+            "paper": "Freeman's Journal and Daily Commercial Advertiser",
+            "page": "Page 4",
+            "date": "Tuesday, 23 April 1850",
+            "snippet_status": "blank lazy preview; not screened"
+          }
+        ]
+      },
+      {
+        "query": "\"Adam Glasgow\"",
+        "collection": "Northern Ireland",
+        "retrieved": 27,
+        "primary_previews_screened_in_ledger": 18,
+        "gap": 9,
+        "capture": ".cache/newspapers/2026-10-04/irish-1800-1850/continued-adam-ni.json",
+        "resolution": "The detailed NI proposal re-reviewed 18/27 readable primaries; ranks 19–27 (9 cards) remain blank. Of the nine, 390563103 is already original-checked in Robert cross-query and 390563260 plus 390552842 have readable alternate-position vessel context in Margaret/Mary cross-query captures. Remaining Adam-specific unresolved blank first previews: ranks 19,22,23,24,26,27 (six IDs) pending reload/original review. Carousel positions still pending separately.",
+        "review_packet": {
+          "primary_preview_cards_reinspected": 18,
+          "primary_preview_cards_blank_or_unreadable": 9,
+          "alternate_positions_screened": 0,
+          "alternate_positions_pending_minimum": 20,
+          "status": "pending; primary card review does not complete alternate-position review"
+        },
+        "blank_ids": [
+          {
+            "rank": 19,
+            "image_id": "390560975"
+          },
+          {
+            "rank": 20,
+            "image_id": "390563103"
+          },
+          {
+            "rank": 21,
+            "image_id": "390563260"
+          },
+          {
+            "rank": 22,
+            "image_id": "390556571"
+          },
+          {
+            "rank": 23,
+            "image_id": "390552100"
+          },
+          {
+            "rank": 24,
+            "image_id": "390552341"
+          },
+          {
+            "rank": 25,
+            "image_id": "390552842"
+          },
+          {
+            "rank": 26,
+            "image_id": "390560193"
+          },
+          {
+            "rank": 27,
+            "image_id": "390559938"
+          }
+        ],
+        "dedup_cross_query_checked_ids": [
+          "390563103",
+          "390563260",
+          "390552842"
+        ],
+        "remaining_primary_unreadable_ids": [
+          "390560975",
+          "390556571",
+          "390552100",
+          "390552341",
+          "390560193",
+          "390559938"
+        ]
+      }
+    ],
+    "Nancy Ireland original follow-up": {
+      "query_pair_preserved": true,
+      "primary_previews_screened": 11,
+      "blank_primary_previews_still_not_counted": 5,
+      "distinct_original_pages_checked": 5,
+      "exact_match_positions_checked": 7,
+      "classification": "all five inspected passages are shipping/export context; Glasgow is a port/destination; no personal Nancy Glasgow reference in the inspected passages",
+      "query_bounds_already_end_verified": true
+    },
+    "Jane Glasgow (Ireland) original_match_positions_checked": 1,
+    "Jane Glasgow (Ireland) profile_followup": "Match confirmed person to catalogue/profile remains pending; no identity assertion made."
+  },
+  "sixteenth_batch": {
+    "query_pairs_preserved": 85,
+    "query_history_count_preserved": 107,
+    "new_query_pairs": 0,
+    "Mary Glasgow (Ireland)": {
+      "reported_cards": 52,
+      "captured_cards": 52,
+      "unique_image_ids": 52,
+      "End": true,
+      "readable_primary_previews_screened": 52,
+      "positions_reviewed": 91,
+      "rank_range_audits": 6,
+      "original_pages_checked": 5,
+      "original_match_positions_checked": 8,
+      "confirmed_personal_Mary_Glasgow_occurrences": 0,
+      "prior_ledger_primary_previews": 10,
+      "raw_cache_primary_previews": 0,
+      "baseline_conflict_reconciled_to_new_full_capture": true,
+      "scope": "Exact Ireland query/result set only; no archive-wide absence claim."
+    },
+    "Jane Glasgow (Ireland)": {
+      "cards": 52,
+      "positions": 90,
+      "End": true,
+      "original_page": "1050122635",
+      "status": "confirmed person named Jane Glasgow as mother of deceased Anne Armstrong and witness; identity match to a catalogue profile pending",
+      "exact_date": "1838-07-27",
+      "printed_locality": "Bally-cluck",
+      "court_header": "Antrim Assizes",
+      "no_inference": [
+        "Jane home/residence",
+        "Jane age",
+        "Jane spouse",
+        "Jane maiden name",
+        "Anne birth surname"
+      ]
+    },
+    "retrieved_entries_added_vs_fifteenth_ledger": 42,
+    "primary_previews_added_vs_fifteenth_ledger": 42,
+    "new_distinct_original_pages": 5,
+    "preview_positions_reviewed": 91,
+    "additional_positions_beyond_52_primary_previews": 39,
+    "scope": "Updates two existing Ireland query pairs only. No new query pairs, no query-wide negative outside exact result sets, and no archive-exhaustion claim."
   }
 }

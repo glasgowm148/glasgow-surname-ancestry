@@ -369,7 +369,7 @@ def newspaper_body(data, clips, web, country='', year=None):
     clip_options = [('', 'All records'), ('1', 'Saved clippings'), ('relationships', 'Records with relationships'),
                     ('spouse', 'Spouses & marriages'), ('parent-child', 'Parents & children'),
                     ('siblings', 'Siblings'), ('other-kin', 'Other kin'), ('occupation', 'Occupations & trade'),
-                    ('residence', 'Places & addresses'), ('birth', 'Birth records'), ('death', 'Death records'),
+                    ('residence', 'Places & addresses'), ('birth', 'Birth & age details'), ('death', 'Death notices & reports'),
                     ('matched', 'Probable / strong profile matches'), ('unassigned', 'No profile assigned')]
     controls = '<form class="sc-newspaper-filters sc-filters"><label>Find a name or place<input type="search" name="q" placeholder="Lisnagaver, Rasharkin, William…"></label><label>Year<select name="year"><option value="">All years</option>' + ''.join(f'<option>{v}</option>' for v in sorted({r['date'][:4] for r in retained})) + '</select></label><label>Newspaper<select name="paper"><option value="">All papers</option>' + ''.join(f'<option>{e(v)}</option>' for v in sorted({r['paper'] for r in retained})) + '</select></label><label>Clippings<select name="clip">' + ''.join(f'<option value="{value}">{label}</option>' for value, label in clip_options) + '</select></label><label>Profile match<select name="identity"><option value="">All assessments</option><option value="matched">Probable / strong</option><option value="possible">Possible / unresolved</option><option value="unassigned">No profile assigned</option></select></label><button type="reset">Clear filters</button></form>'
     groups = newspaper_groups(retained)

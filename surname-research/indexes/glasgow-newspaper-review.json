@@ -16267,6 +16267,196 @@
           "url": "/research/subjects/newspapers-irish-1800-1850/#james-belfast-college"
         }
       ]
+    },
+    {
+      "image_id": "390552100",
+      "date": "1842-01-04",
+      "paper": "Belfast News-Letter",
+      "page": "3",
+      "source_url": "https://www.newspapers.com/image/390552100/",
+      "queries": [
+        "\"Adam Glasgow\""
+      ],
+      "status": "confirmed surname",
+      "reading": "Under “MARRIED”: “On the 30th ult. by the Rev. Dr. Cooke, at the house of the lady’s uncle, Thomas Corbett, Esq. May-street, the Rev. Adam Glasgow to Miss Jane Thompson.”",
+      "assessment": "The notice records Rev. Adam Glasgow as groom and Miss Jane Thompson as bride, married on 30 December 1841 (derived from “30th ult.” in the 4 January 1842 issue). Thomas Corbett is described as the bride’s uncle; no parentage or family branch is stated. May-street identifies the house where the notice says the wedding took place, not Adam’s residence. This is compatible with, but does not prove, identification of the bride as the tree-linked Jane Fulton (Thompson) Glasgow or the groom as Glasgow-1781. Keep the profile/spouse matches qualified.",
+      "profile_ids": [
+        "Glasgow-1781",
+        "Thompson-100184"
+      ],
+      "draft_url": "/research/subjects/newspapers-irish-1800-1850/#adam-belfast-education-ministry",
+      "reviewed_on": "2026-10-05",
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-1781",
+          "confidence": "strong",
+          "role": "possible groom identity",
+          "basis": "The groom is a Rev. Adam Glasgow; name/date fit the documented Belfast minister sequence, but this notice gives no middle name or unique identifier."
+        },
+        {
+          "profile_id": "Thompson-100184",
+          "confidence": "possible",
+          "role": "possible bride identity",
+          "basis": "Jane Thompson matches the profile’s tree-linked spouse’s birth surname; that spouse link is unassessed and the notice gives no Fulton or unique identifier."
+        }
+      ]
+    },
+    {
+      "image_id": "390552341",
+      "date": "1842-01-14",
+      "paper": "Belfast News-Letter",
+      "page": "2",
+      "source_url": "https://www.newspapers.com/image/390552341/",
+      "queries": [
+        "\"Adam Glasgow\""
+      ],
+      "status": "confirmed surname",
+      "reading": "Under the designation of four missionaries to India, the report names the Rev. Adam Glasgow and says he was “brother of the Rev. Jas. Glasgow.” The ceremony is reported as a Belfast Presbytery service at Dr. Cooke’s church, May Street.",
+      "assessment": "The report explicitly describes the named Rev. Adam Glasgow as brother of Rev. Jas. Glasgow. This wording corroborates the already documented Adam/James sibling relationship in James McClure Glasgow’s first-person journal and the Knox Church history; do not treat this as an additional independent relationship or a certainty upgrade. Adam Dickie Glasgow-1781 and James McClure Glasgow-1780 remain compatible profile candidates, but the newspaper does not spell out either middle name or uniquely identify either person. This is a report of the same missionary-designation service also reported by the Freeman’s Journal on 14 January 1842; independence between reports is not assumed.",
+      "profile_ids": [
+        "Glasgow-1781",
+        "Glasgow-1780"
+      ],
+      "draft_url": "/research/subjects/newspapers-irish-1800-1850/#adam-belfast-education-ministry",
+      "reviewed_on": "2026-10-05",
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-1781",
+          "confidence": "probable",
+          "role": "possible Rev. Adam Glasgow",
+          "basis": "The reported India missionary designation and brother wording fit the existing documented Adam Dickie Glasgow missionary sequence; the notice does not supply Dickie."
+        },
+        {
+          "profile_id": "Glasgow-1780",
+          "confidence": "probable",
+          "role": "possible Rev. Jas. Glasgow",
+          "basis": "The named brother is compatible with the already documented James McClure Glasgow missionary; the notice does not supply McClure."
+        }
+      ]
+    },
+    {
+      "image_id": "390560193",
+      "date": "1843-03-28",
+      "paper": "Belfast News-Letter",
+      "page": "2",
+      "source_url": "https://www.newspapers.com/image/390560193/",
+      "queries": [
+        "\"Adam Glasgow\""
+      ],
+      "status": "confirmed surname",
+      "reading": "“General Assembly’s India Mission.—Yesterday evening, the usual monthly prayer meeting was held in the Rosemary-street Church, when two highly interesting letters from Rev. Adam Glasgow and Rev. Mr. Spier were read by Mr. Morgan.”",
+      "assessment": "The notice names Rev. Adam Glasgow as a letter author in the India Mission context. It gives no middle name, home locality, or unique identity bridge. The Belfast church is the meeting venue, not a stated residence or congregation for Adam. This is consistent with, but does not uniquely identify, Glasgow-1781.",
+      "profile_ids": [
+        "Glasgow-1781"
+      ],
+      "draft_url": "/research/subjects/newspapers-irish-1800-1850/#adam-belfast-education-ministry",
+      "reviewed_on": "2026-10-05",
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-1781",
+          "confidence": "probable",
+          "role": "possible letter author",
+          "basis": "The India Mission notice names Rev. Adam Glasgow as a letter author, consistent with the documented Glasgow-1781 missionary chronology; no middle name is supplied."
+        }
+      ]
+    },
+    {
+      "image_id": "390556571",
+      "date": "1841-03-12",
+      "paper": "Belfast News-Letter",
+      "page": "3",
+      "source_url": "https://www.newspapers.com/image/390556571/",
+      "queries": [
+        "\"Adam Glasgow\""
+      ],
+      "status": "confirmed surname",
+      "reading": "At a meeting in the Rev. Dr. Hanna’s Rosemary-street Church on the evening of Wednesday 10 March 1841, with an Edinburgh Anti-Patronage Society deputation present, a list of people “on and around the platform” names “Rev. Adam Glasgow” among the clergy. “Malone” follows Rev. Joseph M’Kenzie, not Adam Glasgow.",
+      "assessment": "The original page resolves both Adam Glasgow search positions. This report identifies Rev. Adam Glasgow among clergy at the meeting; it does not state his residence or uniquely identify him as Glasgow-1781. Malone belongs to Rev. Joseph M’Kenzie. The context crop is retained as a supplemental excerpt.",
+      "profile_ids": [
+        "Glasgow-1781"
+      ],
+      "draft_url": "/research/subjects/newspapers-irish-1800-1850/#adam-belfast-education-ministry",
+      "reviewed_on": "2026-10-05",
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-1781",
+          "confidence": "probable",
+          "role": "possible clergyman at meeting",
+          "basis": "The meeting report names Rev. Adam Glasgow among platform clergy in Belfast; no congregation, residence, middle name or unique identifier is supplied."
+        }
+      ]
+    },
+    {
+      "image_id": "390560975",
+      "date": "1840-08-21",
+      "paper": "Belfast News-Letter",
+      "page": "2",
+      "source_url": "https://www.newspapers.com/image/390560975/",
+      "queries": [
+        "\"Adam Glasgow\""
+      ],
+      "status": "confirmed surname",
+      "reading": "At a Congregational and Sabbath-School Soiree connected with the Presbyterian Church, Townsend-street, devotional exercises were conducted by “the Rev. Adam Glasgow, of Berry-street.”",
+      "assessment": "“Of Berry-street” is the printed church association for Rev. Adam Glasgow, not proof of residence. The name, church, and chronology strongly fit the existing qualified Glasgow-1781 Belfast minister candidate; the newspaper does not give Adam’s middle name or a unique profile bridge. A separate later passage names Rev. James Glasgow, Missionary to India; this is compatible with Glasgow-1780 but does not uniquely identify him. Their co-occurrence is not evidence of kinship.",
+      "profile_ids": [
+        "Glasgow-1781",
+        "Glasgow-1780"
+      ],
+      "draft_url": "/research/subjects/newspapers-irish-1800-1850/#james-belfast-college",
+      "reviewed_on": "2026-10-05",
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-1781",
+          "confidence": "strong",
+          "role": "possible Berry-street minister",
+          "basis": "The report names Rev. Adam Glasgow “of Berry-street,” matching the known Belfast minister sequence; this is church association, not residence, and no middle name is given."
+        },
+        {
+          "profile_id": "Glasgow-1780",
+          "confidence": "probable",
+          "role": "possible India missionary",
+          "basis": "A separate passage names Rev. James Glasgow as Missionary to India, compatible with James McClure Glasgow’s documented career but without a unique middle-name bridge."
+        }
+      ]
+    },
+    {
+      "image_id": "1050122635",
+      "date": "1838-07-27",
+      "paper": "Freeman’s Journal and Daily Commercial Advertiser",
+      "page": "3",
+      "source_url": "https://www.newspapers.com/image/1050122635/",
+      "queries": [
+        "\"Jane Glasgow\""
+      ],
+      "status": "confirmed surname",
+      "reading": "Under Antrim Assizes, Jane Glasgow is named as the mother of the deceased Anne Armstrong. Euphemia Armstrong is named as mother of John Armstrong, who was married to Anne. The report says Anne died on 23 June 1838 at printed Bally-cluck; the manslaughter defendant William M’Gowan was found not guilty.",
+      "assessment": "The original report directly establishes these named relationships, the printed locality and the acquittal. It does not give ages, Jane’s spouse or residence, or Anne’s birth surname. Retain Bally-cluck as printed. The checked catalogue supports compatible but unproved Jane Glasgow comparisons McClure-6341 and Glasgow-1779; neither is selected or attached. No concrete candidate was located for Anne, John or Euphemia.",
+      "profile_ids": [
+        "McClure-6341",
+        "Glasgow-1779"
+      ],
+      "reviewed_on": "2026-10-05",
+      "profile_matches": [
+        {
+          "profile_id": "McClure-6341",
+          "confidence": "possible",
+          "role": "Compatible candidate for Jane Glasgow; no source bridge",
+          "basis": "The public people catalogue gives Jane (McClure) Glasgow an estimated birth c.1773 in Antrim and an estimated death c.1858 at Racavan; its spouse John Glasgow and five listed children, including Jane (Glasgow) Armstrong, are unmarked WikiTree tree relationships with no evidence IDs. At roughly 65 in 1838, she remains an age- and region-compatible possible mother candidate. The report does not identify her as McClure-6341 or name Anne among the listed children; the unmarked family links are leads, not corroboration. Do not attach or change relationship certainty."
+        },
+        {
+          "profile_id": "Glasgow-1779",
+          "confidence": "possible",
+          "role": "Compatible alternate for Jane Glasgow; reported death-date conflict remains",
+          "basis": "The public profile and local dossier identify Jane (Glasgow) Armstrong, born about 1799 in County Antrim, as daughter of John Glasgow and Jane McClure. That name, region and chronology permit consideration as Anne’s mother, but the profile reports her death in 1837, based on a Racavan burying-ground memorial transcription, before the newspaper’s 1838 report. Retain as a qualified alternative because that profile chronology/source identification is not independently resolved; do not attach or upgrade a relationship."
+        }
+      ],
+      "subject_links": [
+        {
+          "name": "Anne Armstrong and her family, Antrim Assizes 1838",
+          "url": "/research/subjects/anne-armstrong-jane-glasgow-antrim-assizes-1838/#anne-armstrong"
+        }
+      ],
+      "draft_url": "/research/subjects/anne-armstrong-jane-glasgow-antrim-assizes-1838/#jane-glasgow-mother-anne"
     }
   ]
 }
