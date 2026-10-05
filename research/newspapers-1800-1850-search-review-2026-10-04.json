@@ -13,8 +13,241 @@
       "unique_image_count": 20,
       "end_of_results": true,
       "previews_screened": 20,
-      "triage": "First-preview surname/city/vessel triage; original-page review only for selected passages. Additional matches and unloaded entries remain.",
-      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/william-ni.json"
+      "triage": "Current 21-card, End-bounded run has 20 unique image IDs and 40 unique position slots reviewed (41 physical preview assets include one AI duplicate of image 390549197). Four personal William Glasgow positions match source IDs already retained with approved clips; no new original IDs are proposed. Remaining position contexts are city, vessel, other-name or AI-duplicate matches.",
+      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/william-ni.json",
+      "preview_positions_captured": 40,
+      "preview_positions_screened": 40,
+      "position_review_audit": {
+        "query": "\"William Glasgow\"",
+        "collection": "Northern Ireland",
+        "date_start": 1800,
+        "date_end": 1850,
+        "source_packets": [
+          "phase-1850-common-ni-tail/william-ni-position-audit.json",
+          "phase-1850-root/william-ni-loaded-end-metadata.json"
+        ],
+        "current_run_result_cards": 21,
+        "current_run_unique_source_images": 20,
+        "physical_preview_assets": 41,
+        "deduplicated_position_key_count": 40,
+        "position_keys": [
+          {
+            "image_id": "390541878",
+            "position": 1
+          },
+          {
+            "image_id": "390541878",
+            "position": 2
+          },
+          {
+            "image_id": "390549197",
+            "position": 1
+          },
+          {
+            "image_id": "390549197",
+            "position": 2
+          },
+          {
+            "image_id": "390550978",
+            "position": 1
+          },
+          {
+            "image_id": "390550978",
+            "position": 2
+          },
+          {
+            "image_id": "390551248",
+            "position": 1
+          },
+          {
+            "image_id": "390551248",
+            "position": 2
+          },
+          {
+            "image_id": "390551594",
+            "position": 1
+          },
+          {
+            "image_id": "390551594",
+            "position": 2
+          },
+          {
+            "image_id": "390552290",
+            "position": 1
+          },
+          {
+            "image_id": "390552290",
+            "position": 2
+          },
+          {
+            "image_id": "390552290",
+            "position": 3
+          },
+          {
+            "image_id": "390552290",
+            "position": 4
+          },
+          {
+            "image_id": "390554133",
+            "position": 1
+          },
+          {
+            "image_id": "390554133",
+            "position": 2
+          },
+          {
+            "image_id": "390555197",
+            "position": 1
+          },
+          {
+            "image_id": "390555197",
+            "position": 2
+          },
+          {
+            "image_id": "390556245",
+            "position": 1
+          },
+          {
+            "image_id": "390556245",
+            "position": 2
+          },
+          {
+            "image_id": "390560052",
+            "position": 1
+          },
+          {
+            "image_id": "390560052",
+            "position": 2
+          },
+          {
+            "image_id": "390562729",
+            "position": 1
+          },
+          {
+            "image_id": "390562729",
+            "position": 2
+          },
+          {
+            "image_id": "390562729",
+            "position": 3
+          },
+          {
+            "image_id": "390562729",
+            "position": 4
+          },
+          {
+            "image_id": "390563307",
+            "position": 1
+          },
+          {
+            "image_id": "390567046",
+            "position": 1
+          },
+          {
+            "image_id": "390567046",
+            "position": 2
+          },
+          {
+            "image_id": "390568023",
+            "position": 1
+          },
+          {
+            "image_id": "390568023",
+            "position": 2
+          },
+          {
+            "image_id": "390570042",
+            "position": 1
+          },
+          {
+            "image_id": "390570042",
+            "position": 2
+          },
+          {
+            "image_id": "390570562",
+            "position": 1
+          },
+          {
+            "image_id": "390570562",
+            "position": 2
+          },
+          {
+            "image_id": "61258642",
+            "position": 1
+          },
+          {
+            "image_id": "61258687",
+            "position": 1
+          },
+          {
+            "image_id": "61259418",
+            "position": 1
+          },
+          {
+            "image_id": "61262448",
+            "position": 1
+          },
+          {
+            "image_id": "61262448",
+            "position": 2
+          }
+        ],
+        "end_control_seen": true,
+        "ai_duplicate_asset": {
+          "image_id": "390549197",
+          "ordinal": 1,
+          "ranks": [
+            5,
+            6
+          ],
+          "disposition": "duplicate entity card; counted once"
+        },
+        "personal_surname_positive_positions": [
+          {
+            "image_id": "61258642",
+            "position": 1,
+            "rank": 1,
+            "date": "Friday, 16 June 1820",
+            "paper": "The Irishman",
+            "page": "3",
+            "reading": "William Glasgow appears in a Belfast banks confidence/signatories list.",
+            "status": "existing retained review row and approved clip reused"
+          },
+          {
+            "image_id": "61258687",
+            "position": 1,
+            "rank": 2,
+            "date": "Friday, 23 June 1820",
+            "paper": "The Irishman",
+            "page": "3",
+            "reading": "William Glasgow appears in the same kind of Belfast banks confidence list; this is a distinct issue/date from the 16 June result.",
+            "status": "existing retained review row and approved clip reused"
+          },
+          {
+            "image_id": "61259418",
+            "position": 1,
+            "rank": 3,
+            "date": "Friday, 3 November 1820",
+            "paper": "The Irishman",
+            "page": "1",
+            "reading": "Notice headed WILLIAM GLASGOW: moved from Rosemary Street to shop and stores at 34 Smith Street, Belfast; teas, sugars and groceries.",
+            "status": "existing retained review row and approved clip reused"
+          },
+          {
+            "image_id": "390563307",
+            "position": 1,
+            "rank": 13,
+            "date": "Tuesday, 27 December 1842",
+            "paper": "Belfast News-Letter",
+            "page": "3",
+            "reading": "William Glasgow received £5 from the executors of Mrs Margaret Lynd, Cookstown, for the Fever Hospital.",
+            "status": "existing retained review row and approved clip reused"
+          }
+        ],
+        "all_positive_ids_already_retained": true,
+        "new_original_ids_added": [],
+        "notes": "All 21 current cards/40 unique image-ID-position slots are reviewed to End. Four positive source IDs already have maintained review rows and approved clips; do not create source/original IDs from preview-only evidence."
+      }
     },
     {
       "query": "\"Robert Glasgow\"",
@@ -27,7 +260,144 @@
       "end_of_results": true,
       "previews_screened": 16,
       "triage": "First-preview surname/city/vessel triage; original-page review only for selected passages. Additional matches and unloaded entries remain. Discrepancy audit verified all 16 readable primary previews; prior ledger count 12 was stale.",
-      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/robert-ni-review.json"
+      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/robert-ni-review.json",
+      "preview_positions_captured": 27,
+      "preview_positions_screened": 27,
+      "position_review_audit": {
+        "query": "\"Robert Glasgow\"",
+        "collection": "Northern Ireland",
+        "date_start": 1800,
+        "date_end": 1850,
+        "source_packets": [
+          "phase-1850-gap-b/alternate-carousel-review/robert-ni-alternate-position-review.json + primary review"
+        ],
+        "search_url": "https://www.newspapers.com/search/results/?date-end=1850&date-start=1800&keyword=%22Robert+Glasgow%22&region=gb-nir",
+        "current_run_result_cards": 16,
+        "end_control_seen": true,
+        "no_matches_confirmed": false,
+        "deduplicated_position_key_count": 27,
+        "position_keys": [
+          {
+            "image_id": "390543186",
+            "position": 1
+          },
+          {
+            "image_id": "390543186",
+            "position": 2
+          },
+          {
+            "image_id": "390548642",
+            "position": 1
+          },
+          {
+            "image_id": "390551780",
+            "position": 1
+          },
+          {
+            "image_id": "390551780",
+            "position": 2
+          },
+          {
+            "image_id": "390551888",
+            "position": 1
+          },
+          {
+            "image_id": "390551988",
+            "position": 1
+          },
+          {
+            "image_id": "390552081",
+            "position": 1
+          },
+          {
+            "image_id": "390554297",
+            "position": 1
+          },
+          {
+            "image_id": "390556238",
+            "position": 1
+          },
+          {
+            "image_id": "390556238",
+            "position": 2
+          },
+          {
+            "image_id": "390562040",
+            "position": 1
+          },
+          {
+            "image_id": "390562040",
+            "position": 2
+          },
+          {
+            "image_id": "390562073",
+            "position": 1
+          },
+          {
+            "image_id": "390562073",
+            "position": 2
+          },
+          {
+            "image_id": "390563042",
+            "position": 1
+          },
+          {
+            "image_id": "390563042",
+            "position": 2
+          },
+          {
+            "image_id": "390563103",
+            "position": 1
+          },
+          {
+            "image_id": "390563103",
+            "position": 2
+          },
+          {
+            "image_id": "390563277",
+            "position": 1
+          },
+          {
+            "image_id": "390563277",
+            "position": 2
+          },
+          {
+            "image_id": "390563460",
+            "position": 1
+          },
+          {
+            "image_id": "390563460",
+            "position": 2
+          },
+          {
+            "image_id": "390563666",
+            "position": 1
+          },
+          {
+            "image_id": "390563666",
+            "position": 2
+          },
+          {
+            "image_id": "390569461",
+            "position": 1
+          },
+          {
+            "image_id": "390569461",
+            "position": 2
+          }
+        ],
+        "notes": "16 primary source positions plus all 11 second positions. Original-positive alternate is retained separately; no identity/profile assignment.",
+        "prior_maintained_card_count": 16,
+        "original_context_refs": [
+          {
+            "image_id": "390563666",
+            "positions": [
+              2
+            ],
+            "finding": "Original confirms Mr Robert Glasgow, Cookstown Academy committee chairman; already maintained, reuse."
+          }
+        ]
+      }
     },
     {
       "query": "\"John Glasgow\"",
@@ -53,7 +423,2352 @@
       "end_of_results": true,
       "previews_screened": 151,
       "triage": "All 153 entries loaded oldest first; 151 first previews screened, two duplicate whole-page AI crime thumbnails too small. Repeated James Burns of Glasgow city shipping ads dominated later pages. Nine additional selected originals inspected; every carousel highlight remains unexhausted.",
-      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/full-james-ni.json"
+      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/full-james-ni.json",
+      "preview_positions_captured": 274,
+      "preview_positions_screened": 274,
+      "position_review_audit": {
+        "query": "\"James Glasgow\"",
+        "collection": "Northern Ireland",
+        "date_start": 1800,
+        "date_end": 1850,
+        "source_packets": [
+          "phase-1850-root/james-ni-tail-current-cards.json; phase-1850-variants/james-ni-continuation-boundary.json; phase-1850-variants/james-ni-alternate-review-ranks001-075.json; phase-1850-variants/james-ni-tail-review-ranks79-153.json; phase-1850-variants/james-ni-original-followups.json"
+        ],
+        "search_url": "https://www.newspapers.com/search/results/?date-end=1850&date-start=1800&keyword=%22James+Glasgow%22&region=gb-nir&sort=paper-date-asc",
+        "current_run_result_cards": 153,
+        "end_control_seen": true,
+        "no_matches_confirmed": false,
+        "deduplicated_position_key_count": 274,
+        "position_keys": [
+          {
+            "image_id": "61258711",
+            "position": 1
+          },
+          {
+            "image_id": "61259036",
+            "position": 1
+          },
+          {
+            "image_id": "61259891",
+            "position": 1
+          },
+          {
+            "image_id": "61260054",
+            "position": 1
+          },
+          {
+            "image_id": "61261904",
+            "position": 1
+          },
+          {
+            "image_id": "61261978",
+            "position": 1
+          },
+          {
+            "image_id": "61261978",
+            "position": 2
+          },
+          {
+            "image_id": "61264439",
+            "position": 1
+          },
+          {
+            "image_id": "61264439",
+            "position": 2
+          },
+          {
+            "image_id": "390542144",
+            "position": 1
+          },
+          {
+            "image_id": "390542144",
+            "position": 2
+          },
+          {
+            "image_id": "390543442",
+            "position": 1
+          },
+          {
+            "image_id": "390543681",
+            "position": 1
+          },
+          {
+            "image_id": "390544149",
+            "position": 1
+          },
+          {
+            "image_id": "390544149",
+            "position": 2
+          },
+          {
+            "image_id": "390544662",
+            "position": 1
+          },
+          {
+            "image_id": "390544825",
+            "position": 1
+          },
+          {
+            "image_id": "390544933",
+            "position": 1
+          },
+          {
+            "image_id": "390545285",
+            "position": 1
+          },
+          {
+            "image_id": "390546077",
+            "position": 1
+          },
+          {
+            "image_id": "390546077",
+            "position": 2
+          },
+          {
+            "image_id": "390546223",
+            "position": 1
+          },
+          {
+            "image_id": "390546969",
+            "position": 1
+          },
+          {
+            "image_id": "390549185",
+            "position": 1
+          },
+          {
+            "image_id": "390549185",
+            "position": 2
+          },
+          {
+            "image_id": "390549197",
+            "position": 1
+          },
+          {
+            "image_id": "390549215",
+            "position": 1
+          },
+          {
+            "image_id": "390549215",
+            "position": 2
+          },
+          {
+            "image_id": "390551149",
+            "position": 1
+          },
+          {
+            "image_id": "390552249",
+            "position": 1
+          },
+          {
+            "image_id": "390553180",
+            "position": 1
+          },
+          {
+            "image_id": "390553349",
+            "position": 1
+          },
+          {
+            "image_id": "390554024",
+            "position": 1
+          },
+          {
+            "image_id": "390554711",
+            "position": 1
+          },
+          {
+            "image_id": "390554711",
+            "position": 2
+          },
+          {
+            "image_id": "390555032",
+            "position": 1
+          },
+          {
+            "image_id": "390555032",
+            "position": 2
+          },
+          {
+            "image_id": "390555226",
+            "position": 1
+          },
+          {
+            "image_id": "390555226",
+            "position": 2
+          },
+          {
+            "image_id": "390555423",
+            "position": 1
+          },
+          {
+            "image_id": "390555423",
+            "position": 2
+          },
+          {
+            "image_id": "390555619",
+            "position": 1
+          },
+          {
+            "image_id": "390555619",
+            "position": 2
+          },
+          {
+            "image_id": "390555851",
+            "position": 1
+          },
+          {
+            "image_id": "390555851",
+            "position": 2
+          },
+          {
+            "image_id": "390555992",
+            "position": 1
+          },
+          {
+            "image_id": "390556067",
+            "position": 1
+          },
+          {
+            "image_id": "390556067",
+            "position": 2
+          },
+          {
+            "image_id": "390556237",
+            "position": 1
+          },
+          {
+            "image_id": "390556237",
+            "position": 2
+          },
+          {
+            "image_id": "390556388",
+            "position": 1
+          },
+          {
+            "image_id": "390556388",
+            "position": 2
+          },
+          {
+            "image_id": "390556567",
+            "position": 1
+          },
+          {
+            "image_id": "390556567",
+            "position": 2
+          },
+          {
+            "image_id": "390556574",
+            "position": 1
+          },
+          {
+            "image_id": "390556799",
+            "position": 1
+          },
+          {
+            "image_id": "390556799",
+            "position": 2
+          },
+          {
+            "image_id": "390556991",
+            "position": 1
+          },
+          {
+            "image_id": "390556991",
+            "position": 2
+          },
+          {
+            "image_id": "390557053",
+            "position": 1
+          },
+          {
+            "image_id": "390557165",
+            "position": 1
+          },
+          {
+            "image_id": "390557165",
+            "position": 2
+          },
+          {
+            "image_id": "390557335",
+            "position": 1
+          },
+          {
+            "image_id": "390557335",
+            "position": 2
+          },
+          {
+            "image_id": "390557569",
+            "position": 1
+          },
+          {
+            "image_id": "390557569",
+            "position": 2
+          },
+          {
+            "image_id": "390557657",
+            "position": 1
+          },
+          {
+            "image_id": "390557739",
+            "position": 1
+          },
+          {
+            "image_id": "390557739",
+            "position": 2
+          },
+          {
+            "image_id": "390557739",
+            "position": 3
+          },
+          {
+            "image_id": "390557739",
+            "position": 4
+          },
+          {
+            "image_id": "390557739",
+            "position": 5
+          },
+          {
+            "image_id": "390557739",
+            "position": 6
+          },
+          {
+            "image_id": "390557739",
+            "position": 7
+          },
+          {
+            "image_id": "390557739",
+            "position": 8
+          },
+          {
+            "image_id": "390557739",
+            "position": 9
+          },
+          {
+            "image_id": "390557739",
+            "position": 10
+          },
+          {
+            "image_id": "390557739",
+            "position": 11
+          },
+          {
+            "image_id": "390557739",
+            "position": 12
+          },
+          {
+            "image_id": "390557777",
+            "position": 1
+          },
+          {
+            "image_id": "390557777",
+            "position": 2
+          },
+          {
+            "image_id": "390557967",
+            "position": 1
+          },
+          {
+            "image_id": "390557967",
+            "position": 2
+          },
+          {
+            "image_id": "390558014",
+            "position": 1
+          },
+          {
+            "image_id": "390558014",
+            "position": 2
+          },
+          {
+            "image_id": "390558144",
+            "position": 1
+          },
+          {
+            "image_id": "390558144",
+            "position": 2
+          },
+          {
+            "image_id": "390558348",
+            "position": 1
+          },
+          {
+            "image_id": "390558348",
+            "position": 2
+          },
+          {
+            "image_id": "390558488",
+            "position": 1
+          },
+          {
+            "image_id": "390558547",
+            "position": 1
+          },
+          {
+            "image_id": "390558547",
+            "position": 2
+          },
+          {
+            "image_id": "390558547",
+            "position": 3
+          },
+          {
+            "image_id": "390558547",
+            "position": 4
+          },
+          {
+            "image_id": "390558551",
+            "position": 1
+          },
+          {
+            "image_id": "390558551",
+            "position": 2
+          },
+          {
+            "image_id": "390558786",
+            "position": 1
+          },
+          {
+            "image_id": "390558786",
+            "position": 2
+          },
+          {
+            "image_id": "390558890",
+            "position": 1
+          },
+          {
+            "image_id": "390558896",
+            "position": 1
+          },
+          {
+            "image_id": "390558896",
+            "position": 2
+          },
+          {
+            "image_id": "390558970",
+            "position": 1
+          },
+          {
+            "image_id": "390558970",
+            "position": 2
+          },
+          {
+            "image_id": "390559002",
+            "position": 1
+          },
+          {
+            "image_id": "390559041",
+            "position": 1
+          },
+          {
+            "image_id": "390559041",
+            "position": 2
+          },
+          {
+            "image_id": "390559174",
+            "position": 1
+          },
+          {
+            "image_id": "390559174",
+            "position": 2
+          },
+          {
+            "image_id": "390559244",
+            "position": 1
+          },
+          {
+            "image_id": "390559244",
+            "position": 2
+          },
+          {
+            "image_id": "390559244",
+            "position": 3
+          },
+          {
+            "image_id": "390559314",
+            "position": 1
+          },
+          {
+            "image_id": "390559349",
+            "position": 1
+          },
+          {
+            "image_id": "390559349",
+            "position": 2
+          },
+          {
+            "image_id": "390559503",
+            "position": 1
+          },
+          {
+            "image_id": "390559537",
+            "position": 1
+          },
+          {
+            "image_id": "390559537",
+            "position": 2
+          },
+          {
+            "image_id": "390559686",
+            "position": 1
+          },
+          {
+            "image_id": "390559686",
+            "position": 2
+          },
+          {
+            "image_id": "390559854",
+            "position": 1
+          },
+          {
+            "image_id": "390559859",
+            "position": 1
+          },
+          {
+            "image_id": "390559859",
+            "position": 2
+          },
+          {
+            "image_id": "390560018",
+            "position": 1
+          },
+          {
+            "image_id": "390560018",
+            "position": 2
+          },
+          {
+            "image_id": "390560027",
+            "position": 1
+          },
+          {
+            "image_id": "390560063",
+            "position": 1
+          },
+          {
+            "image_id": "390560269",
+            "position": 1
+          },
+          {
+            "image_id": "390560269",
+            "position": 2
+          },
+          {
+            "image_id": "390560410",
+            "position": 1
+          },
+          {
+            "image_id": "390560410",
+            "position": 2
+          },
+          {
+            "image_id": "390560598",
+            "position": 1
+          },
+          {
+            "image_id": "390560598",
+            "position": 2
+          },
+          {
+            "image_id": "390560808",
+            "position": 1
+          },
+          {
+            "image_id": "390560808",
+            "position": 2
+          },
+          {
+            "image_id": "390560808",
+            "position": 3
+          },
+          {
+            "image_id": "390560808",
+            "position": 4
+          },
+          {
+            "image_id": "390560975",
+            "position": 1
+          },
+          {
+            "image_id": "390561040",
+            "position": 1
+          },
+          {
+            "image_id": "390561040",
+            "position": 2
+          },
+          {
+            "image_id": "390561040",
+            "position": 3
+          },
+          {
+            "image_id": "390561040",
+            "position": 4
+          },
+          {
+            "image_id": "390561231",
+            "position": 1
+          },
+          {
+            "image_id": "390561269",
+            "position": 1
+          },
+          {
+            "image_id": "390561269",
+            "position": 2
+          },
+          {
+            "image_id": "390561540",
+            "position": 1
+          },
+          {
+            "image_id": "390561540",
+            "position": 2
+          },
+          {
+            "image_id": "390561725",
+            "position": 1
+          },
+          {
+            "image_id": "390561725",
+            "position": 2
+          },
+          {
+            "image_id": "390561929",
+            "position": 1
+          },
+          {
+            "image_id": "390561929",
+            "position": 2
+          },
+          {
+            "image_id": "390562033",
+            "position": 1
+          },
+          {
+            "image_id": "390562033",
+            "position": 2
+          },
+          {
+            "image_id": "390562063",
+            "position": 1
+          },
+          {
+            "image_id": "390562063",
+            "position": 2
+          },
+          {
+            "image_id": "390562197",
+            "position": 1
+          },
+          {
+            "image_id": "390562410",
+            "position": 1
+          },
+          {
+            "image_id": "390562482",
+            "position": 1
+          },
+          {
+            "image_id": "390562482",
+            "position": 2
+          },
+          {
+            "image_id": "390562730",
+            "position": 1
+          },
+          {
+            "image_id": "390562730",
+            "position": 2
+          },
+          {
+            "image_id": "390563026",
+            "position": 1
+          },
+          {
+            "image_id": "390563026",
+            "position": 2
+          },
+          {
+            "image_id": "390563151",
+            "position": 1
+          },
+          {
+            "image_id": "390563151",
+            "position": 2
+          },
+          {
+            "image_id": "390563222",
+            "position": 1
+          },
+          {
+            "image_id": "390563426",
+            "position": 1
+          },
+          {
+            "image_id": "390563426",
+            "position": 2
+          },
+          {
+            "image_id": "390563707",
+            "position": 1
+          },
+          {
+            "image_id": "390563707",
+            "position": 2
+          },
+          {
+            "image_id": "390563707",
+            "position": 3
+          },
+          {
+            "image_id": "390563848",
+            "position": 1
+          },
+          {
+            "image_id": "390565329",
+            "position": 1
+          },
+          {
+            "image_id": "390565849",
+            "position": 1
+          },
+          {
+            "image_id": "390565849",
+            "position": 2
+          },
+          {
+            "image_id": "390565876",
+            "position": 1
+          },
+          {
+            "image_id": "390565950",
+            "position": 1
+          },
+          {
+            "image_id": "390565950",
+            "position": 2
+          },
+          {
+            "image_id": "390566060",
+            "position": 1
+          },
+          {
+            "image_id": "390566060",
+            "position": 2
+          },
+          {
+            "image_id": "390566145",
+            "position": 1
+          },
+          {
+            "image_id": "390566145",
+            "position": 2
+          },
+          {
+            "image_id": "390566204",
+            "position": 1
+          },
+          {
+            "image_id": "390566204",
+            "position": 2
+          },
+          {
+            "image_id": "390566259",
+            "position": 1
+          },
+          {
+            "image_id": "390566259",
+            "position": 2
+          },
+          {
+            "image_id": "390566424",
+            "position": 1
+          },
+          {
+            "image_id": "390566424",
+            "position": 2
+          },
+          {
+            "image_id": "390566517",
+            "position": 1
+          },
+          {
+            "image_id": "390566517",
+            "position": 2
+          },
+          {
+            "image_id": "390566541",
+            "position": 1
+          },
+          {
+            "image_id": "390566604",
+            "position": 1
+          },
+          {
+            "image_id": "390566604",
+            "position": 2
+          },
+          {
+            "image_id": "390566620",
+            "position": 1
+          },
+          {
+            "image_id": "390566620",
+            "position": 2
+          },
+          {
+            "image_id": "390566682",
+            "position": 1
+          },
+          {
+            "image_id": "390566682",
+            "position": 2
+          },
+          {
+            "image_id": "390566766",
+            "position": 1
+          },
+          {
+            "image_id": "390566766",
+            "position": 2
+          },
+          {
+            "image_id": "390566871",
+            "position": 1
+          },
+          {
+            "image_id": "390566871",
+            "position": 2
+          },
+          {
+            "image_id": "390566962",
+            "position": 1
+          },
+          {
+            "image_id": "390566962",
+            "position": 2
+          },
+          {
+            "image_id": "390567046",
+            "position": 1
+          },
+          {
+            "image_id": "390567046",
+            "position": 2
+          },
+          {
+            "image_id": "390567153",
+            "position": 1
+          },
+          {
+            "image_id": "390567153",
+            "position": 2
+          },
+          {
+            "image_id": "390567238",
+            "position": 1
+          },
+          {
+            "image_id": "390567238",
+            "position": 2
+          },
+          {
+            "image_id": "390567385",
+            "position": 1
+          },
+          {
+            "image_id": "390567385",
+            "position": 2
+          },
+          {
+            "image_id": "390567443",
+            "position": 1
+          },
+          {
+            "image_id": "390567443",
+            "position": 2
+          },
+          {
+            "image_id": "390567504",
+            "position": 1
+          },
+          {
+            "image_id": "390567504",
+            "position": 2
+          },
+          {
+            "image_id": "390567566",
+            "position": 1
+          },
+          {
+            "image_id": "390567566",
+            "position": 2
+          },
+          {
+            "image_id": "390567680",
+            "position": 1
+          },
+          {
+            "image_id": "390567680",
+            "position": 2
+          },
+          {
+            "image_id": "390567769",
+            "position": 1
+          },
+          {
+            "image_id": "390567769",
+            "position": 2
+          },
+          {
+            "image_id": "390567969",
+            "position": 1
+          },
+          {
+            "image_id": "390567969",
+            "position": 2
+          },
+          {
+            "image_id": "390568023",
+            "position": 1
+          },
+          {
+            "image_id": "390568023",
+            "position": 2
+          },
+          {
+            "image_id": "390568104",
+            "position": 1
+          },
+          {
+            "image_id": "390568104",
+            "position": 2
+          },
+          {
+            "image_id": "390568169",
+            "position": 1
+          },
+          {
+            "image_id": "390568169",
+            "position": 2
+          },
+          {
+            "image_id": "390568258",
+            "position": 1
+          },
+          {
+            "image_id": "390568258",
+            "position": 2
+          },
+          {
+            "image_id": "390568347",
+            "position": 1
+          },
+          {
+            "image_id": "390568347",
+            "position": 2
+          },
+          {
+            "image_id": "390568466",
+            "position": 1
+          },
+          {
+            "image_id": "390568466",
+            "position": 2
+          },
+          {
+            "image_id": "390568477",
+            "position": 1
+          },
+          {
+            "image_id": "390568477",
+            "position": 2
+          },
+          {
+            "image_id": "390568509",
+            "position": 1
+          },
+          {
+            "image_id": "390568509",
+            "position": 2
+          },
+          {
+            "image_id": "390568600",
+            "position": 1
+          },
+          {
+            "image_id": "390568600",
+            "position": 2
+          },
+          {
+            "image_id": "390568607",
+            "position": 1
+          },
+          {
+            "image_id": "390568607",
+            "position": 2
+          },
+          {
+            "image_id": "390568687",
+            "position": 1
+          },
+          {
+            "image_id": "390568687",
+            "position": 2
+          },
+          {
+            "image_id": "390568758",
+            "position": 1
+          },
+          {
+            "image_id": "390568758",
+            "position": 2
+          },
+          {
+            "image_id": "390568832",
+            "position": 1
+          },
+          {
+            "image_id": "390568832",
+            "position": 2
+          },
+          {
+            "image_id": "390568912",
+            "position": 1
+          },
+          {
+            "image_id": "390568912",
+            "position": 2
+          },
+          {
+            "image_id": "390568984",
+            "position": 1
+          },
+          {
+            "image_id": "390568984",
+            "position": 2
+          },
+          {
+            "image_id": "390569124",
+            "position": 1
+          },
+          {
+            "image_id": "390569124",
+            "position": 2
+          },
+          {
+            "image_id": "390569307",
+            "position": 1
+          },
+          {
+            "image_id": "390569307",
+            "position": 2
+          },
+          {
+            "image_id": "390569429",
+            "position": 1
+          },
+          {
+            "image_id": "390569429",
+            "position": 2
+          },
+          {
+            "image_id": "390569438",
+            "position": 1
+          },
+          {
+            "image_id": "390569711",
+            "position": 1
+          },
+          {
+            "image_id": "390569711",
+            "position": 2
+          },
+          {
+            "image_id": "390571333",
+            "position": 1
+          },
+          {
+            "image_id": "390573239",
+            "position": 1
+          },
+          {
+            "image_id": "390573348",
+            "position": 1
+          },
+          {
+            "image_id": "390573348",
+            "position": 2
+          },
+          {
+            "image_id": "390573717",
+            "position": 1
+          },
+          {
+            "image_id": "390574399",
+            "position": 1
+          },
+          {
+            "image_id": "390574750",
+            "position": 1
+          },
+          {
+            "image_id": "390575000",
+            "position": 1
+          },
+          {
+            "image_id": "390581832",
+            "position": 1
+          },
+          {
+            "image_id": "390581832",
+            "position": 2
+          },
+          {
+            "image_id": "390581832",
+            "position": 3
+          },
+          {
+            "image_id": "390583633",
+            "position": 1
+          },
+          {
+            "image_id": "390583633",
+            "position": 2
+          }
+        ],
+        "notes": "153 current cards / End true; 151 unique source images. All expected 274 unique image-ID/position slots are accounted and reviewed after deduplication. Duplicate cards at ranks13–14 image390549197 and ranks33–34 image390543681 are one source page each. The six verified positive original pages were integrated in maintained batch 7c4af1ea; this audit adds no source rows or people. The two multi-highlight originals retain both checked ordinals, with target and non-target contexts distinguished. For the last three cards, the provider text omitted the ‘1 of n matches’ count; packeted alternate-position review explicitly accounts for their #2 positions.",
+        "prior_maintained_card_count": 153,
+        "original_context_refs": [
+          {
+            "image_id": "390581832",
+            "positions": [
+              2,
+              3
+            ],
+            "search_rank": 15,
+            "reading": "In “Belfast College,” the award/list reports: “For Essays proposed to the Logic Class of last year;—1. On the Application of Testimony to Miraculous Events, James Glasgow, Belfast College.—2. On Poetical Sentiments and Language, illustrated by Examples, Elijah Aikin, Belfast.” Elsewhere on the same page “Cappilly, near Glasgow” is geographic; “James M’Clatchey” is a separate name.",
+            "status": "source rows integrated in maintained batch 7c4af1ea",
+            "position_disposition_note": "Original page has both target-person and separate geographic match positions."
+          },
+          {
+            "image_id": "390544149",
+            "positions": [
+              2
+            ],
+            "search_rank": 35,
+            "reading": "Under “ORDINATION AT BELLAGHY,” the notice says the Magherafelt Presbytery ordained Gilbert Kirker Wilson to Bellaghy and “The Rev. James Glasgow, of Castledawson, commenced the services” with a sermon. The same notice later says Rev. James Glasgow returned thanks. Publication date is 5 April; “15th ult.” places the ordination on 15 March 1836.",
+            "status": "source rows integrated in maintained batch 7c4af1ea",
+            "position_disposition_note": null
+          },
+          {
+            "image_id": "390559244",
+            "positions": [
+              2,
+              3
+            ],
+            "search_rank": 44,
+            "reading": "The Synod report says it “proceeded to set apart two Missionaries to India—namely, the Rev. James Glasgow, of Castledawson, and the Rev. Alexander Kerr, of Portaferry.” Another passage on the same page separately refers to “Messrs. Adam Glasgow and James Carr”; these are distinct people, not a James Glasgow match. No kinship is stated.",
+            "status": "source rows integrated in maintained batch 7c4af1ea",
+            "position_disposition_note": "Original page has the named target plus a separate non-target name/match."
+          },
+          {
+            "image_id": "390558896",
+            "positions": [
+              2
+            ],
+            "search_rank": 48,
+            "reading": "Under “THE GENERAL ASSEMBLY’S MISSIONARIES IN INDIA,” the report says a letter was received “from the Rev. James Glasgow, by Mrs. Wilson, of Townsend-street,” about the sale of two boxes of ladies’ work sent from Derry and Belfast to Bombay. It reports about 500 rupees (£50) realised.",
+            "status": "source rows integrated in maintained batch 7c4af1ea",
+            "position_disposition_note": null
+          },
+          {
+            "image_id": "390563026",
+            "positions": [
+              2
+            ],
+            "search_rank": 52,
+            "reading": "Under “GENERAL ASSEMBLY’S FOREIGN MISSION / SICKNESS AND DEATH OF THE REV. A. KERR,” a communication from Rev. James Glasgow is read concerning fellow missionary Alexander Kerr. It is dated “Rajkote, 14th August, 1841”; the closing signature reads James Glasgow. “Brother missionary” denotes a fellow worker in this passage; it does not establish biological kinship.",
+            "status": "source rows integrated in maintained batch 7c4af1ea",
+            "position_disposition_note": null
+          },
+          {
+            "image_id": "390558014",
+            "positions": [
+              2
+            ],
+            "search_rank": 55,
+            "reading": "Under “GENERAL ASSEMBLY’S INDIA MISSION,” the issue prints a letter from Rev. Adam Glasgow. A separate editorial passage says “The Rev. James Glasgow is much to be envied. The first Moderator of the first Indian Presbytery—he who stood alone among millions of heathens—will occupy an honoured page in the history of Christian missions.” The issue does not say Adam and James were related.",
+            "status": "source rows integrated in maintained batch 7c4af1ea",
+            "position_disposition_note": null
+          },
+          {
+            "image_id": "61261978",
+            "positions": [
+              2
+            ],
+            "reading": "Under “SAILED,” the line reads “11, James, Duggan, Glasgow, oatmeal.” The surrounding entries are sailings with vessel, master, destination and cargo. James is the vessel; Duggan is the captain; Glasgow is the port. No James Glasgow person is named.",
+            "status": "explicit_false_positive_vessel_place"
+          }
+        ],
+        "unresolved_original_position_leads": [
+          {
+            "image_id": "390561540",
+            "positions": [
+              1
+            ],
+            "query": "\"Margaret Glasgow\" / Northern Ireland",
+            "reason": "Separate query’s surname/name-role ambiguity remains pending; do not treat as a James hit."
+          }
+        ],
+        "unique_source_image_ids": 151,
+        "position_inventory_total_unique": 274,
+        "alternate_slot_keys_unique": 166,
+        "primary_slot_keys_unique": 151,
+        "overlap_primary_vs_alternate_slot_keys": 43,
+        "match_slots_explicitly_counted_in_current_card_text": 271,
+        "extra_slots_from_tail_position_packets_where_card_text_omits_count": [
+          {
+            "image_id": "390562063",
+            "position": 2
+          },
+          {
+            "image_id": "390562482",
+            "position": 2
+          },
+          {
+            "image_id": "390563426",
+            "position": 2
+          }
+        ],
+        "expected_match_slots_from_combined_card_and_tail_packet_evidence": 274,
+        "position_inventory": [
+          {
+            "image_id": "61258711",
+            "position": 1
+          },
+          {
+            "image_id": "61259036",
+            "position": 1
+          },
+          {
+            "image_id": "61259891",
+            "position": 1
+          },
+          {
+            "image_id": "61260054",
+            "position": 1
+          },
+          {
+            "image_id": "61261904",
+            "position": 1
+          },
+          {
+            "image_id": "61261978",
+            "position": 1
+          },
+          {
+            "image_id": "61261978",
+            "position": 2
+          },
+          {
+            "image_id": "61264439",
+            "position": 1
+          },
+          {
+            "image_id": "61264439",
+            "position": 2
+          },
+          {
+            "image_id": "390542144",
+            "position": 1
+          },
+          {
+            "image_id": "390542144",
+            "position": 2
+          },
+          {
+            "image_id": "390543442",
+            "position": 1
+          },
+          {
+            "image_id": "390543681",
+            "position": 1
+          },
+          {
+            "image_id": "390544149",
+            "position": 1
+          },
+          {
+            "image_id": "390544149",
+            "position": 2
+          },
+          {
+            "image_id": "390544662",
+            "position": 1
+          },
+          {
+            "image_id": "390544825",
+            "position": 1
+          },
+          {
+            "image_id": "390544933",
+            "position": 1
+          },
+          {
+            "image_id": "390545285",
+            "position": 1
+          },
+          {
+            "image_id": "390546077",
+            "position": 1
+          },
+          {
+            "image_id": "390546077",
+            "position": 2
+          },
+          {
+            "image_id": "390546223",
+            "position": 1
+          },
+          {
+            "image_id": "390546969",
+            "position": 1
+          },
+          {
+            "image_id": "390549185",
+            "position": 1
+          },
+          {
+            "image_id": "390549185",
+            "position": 2
+          },
+          {
+            "image_id": "390549197",
+            "position": 1
+          },
+          {
+            "image_id": "390549215",
+            "position": 1
+          },
+          {
+            "image_id": "390549215",
+            "position": 2
+          },
+          {
+            "image_id": "390551149",
+            "position": 1
+          },
+          {
+            "image_id": "390552249",
+            "position": 1
+          },
+          {
+            "image_id": "390553180",
+            "position": 1
+          },
+          {
+            "image_id": "390553349",
+            "position": 1
+          },
+          {
+            "image_id": "390554024",
+            "position": 1
+          },
+          {
+            "image_id": "390554711",
+            "position": 1
+          },
+          {
+            "image_id": "390554711",
+            "position": 2
+          },
+          {
+            "image_id": "390555032",
+            "position": 1
+          },
+          {
+            "image_id": "390555032",
+            "position": 2
+          },
+          {
+            "image_id": "390555226",
+            "position": 1
+          },
+          {
+            "image_id": "390555226",
+            "position": 2
+          },
+          {
+            "image_id": "390555423",
+            "position": 1
+          },
+          {
+            "image_id": "390555423",
+            "position": 2
+          },
+          {
+            "image_id": "390555619",
+            "position": 1
+          },
+          {
+            "image_id": "390555619",
+            "position": 2
+          },
+          {
+            "image_id": "390555851",
+            "position": 1
+          },
+          {
+            "image_id": "390555851",
+            "position": 2
+          },
+          {
+            "image_id": "390555992",
+            "position": 1
+          },
+          {
+            "image_id": "390556067",
+            "position": 1
+          },
+          {
+            "image_id": "390556067",
+            "position": 2
+          },
+          {
+            "image_id": "390556237",
+            "position": 1
+          },
+          {
+            "image_id": "390556237",
+            "position": 2
+          },
+          {
+            "image_id": "390556388",
+            "position": 1
+          },
+          {
+            "image_id": "390556388",
+            "position": 2
+          },
+          {
+            "image_id": "390556567",
+            "position": 1
+          },
+          {
+            "image_id": "390556567",
+            "position": 2
+          },
+          {
+            "image_id": "390556574",
+            "position": 1
+          },
+          {
+            "image_id": "390556799",
+            "position": 1
+          },
+          {
+            "image_id": "390556799",
+            "position": 2
+          },
+          {
+            "image_id": "390556991",
+            "position": 1
+          },
+          {
+            "image_id": "390556991",
+            "position": 2
+          },
+          {
+            "image_id": "390557053",
+            "position": 1
+          },
+          {
+            "image_id": "390557165",
+            "position": 1
+          },
+          {
+            "image_id": "390557165",
+            "position": 2
+          },
+          {
+            "image_id": "390557335",
+            "position": 1
+          },
+          {
+            "image_id": "390557335",
+            "position": 2
+          },
+          {
+            "image_id": "390557569",
+            "position": 1
+          },
+          {
+            "image_id": "390557569",
+            "position": 2
+          },
+          {
+            "image_id": "390557657",
+            "position": 1
+          },
+          {
+            "image_id": "390557739",
+            "position": 1
+          },
+          {
+            "image_id": "390557739",
+            "position": 2
+          },
+          {
+            "image_id": "390557739",
+            "position": 3
+          },
+          {
+            "image_id": "390557739",
+            "position": 4
+          },
+          {
+            "image_id": "390557739",
+            "position": 5
+          },
+          {
+            "image_id": "390557739",
+            "position": 6
+          },
+          {
+            "image_id": "390557739",
+            "position": 7
+          },
+          {
+            "image_id": "390557739",
+            "position": 8
+          },
+          {
+            "image_id": "390557739",
+            "position": 9
+          },
+          {
+            "image_id": "390557739",
+            "position": 10
+          },
+          {
+            "image_id": "390557739",
+            "position": 11
+          },
+          {
+            "image_id": "390557739",
+            "position": 12
+          },
+          {
+            "image_id": "390557777",
+            "position": 1
+          },
+          {
+            "image_id": "390557777",
+            "position": 2
+          },
+          {
+            "image_id": "390557967",
+            "position": 1
+          },
+          {
+            "image_id": "390557967",
+            "position": 2
+          },
+          {
+            "image_id": "390558014",
+            "position": 1
+          },
+          {
+            "image_id": "390558014",
+            "position": 2
+          },
+          {
+            "image_id": "390558144",
+            "position": 1
+          },
+          {
+            "image_id": "390558144",
+            "position": 2
+          },
+          {
+            "image_id": "390558348",
+            "position": 1
+          },
+          {
+            "image_id": "390558348",
+            "position": 2
+          },
+          {
+            "image_id": "390558488",
+            "position": 1
+          },
+          {
+            "image_id": "390558547",
+            "position": 1
+          },
+          {
+            "image_id": "390558547",
+            "position": 2
+          },
+          {
+            "image_id": "390558547",
+            "position": 3
+          },
+          {
+            "image_id": "390558547",
+            "position": 4
+          },
+          {
+            "image_id": "390558551",
+            "position": 1
+          },
+          {
+            "image_id": "390558551",
+            "position": 2
+          },
+          {
+            "image_id": "390558786",
+            "position": 1
+          },
+          {
+            "image_id": "390558786",
+            "position": 2
+          },
+          {
+            "image_id": "390558890",
+            "position": 1
+          },
+          {
+            "image_id": "390558896",
+            "position": 1
+          },
+          {
+            "image_id": "390558896",
+            "position": 2
+          },
+          {
+            "image_id": "390558970",
+            "position": 1
+          },
+          {
+            "image_id": "390558970",
+            "position": 2
+          },
+          {
+            "image_id": "390559002",
+            "position": 1
+          },
+          {
+            "image_id": "390559041",
+            "position": 1
+          },
+          {
+            "image_id": "390559041",
+            "position": 2
+          },
+          {
+            "image_id": "390559174",
+            "position": 1
+          },
+          {
+            "image_id": "390559174",
+            "position": 2
+          },
+          {
+            "image_id": "390559244",
+            "position": 1
+          },
+          {
+            "image_id": "390559244",
+            "position": 2
+          },
+          {
+            "image_id": "390559244",
+            "position": 3
+          },
+          {
+            "image_id": "390559314",
+            "position": 1
+          },
+          {
+            "image_id": "390559349",
+            "position": 1
+          },
+          {
+            "image_id": "390559349",
+            "position": 2
+          },
+          {
+            "image_id": "390559503",
+            "position": 1
+          },
+          {
+            "image_id": "390559537",
+            "position": 1
+          },
+          {
+            "image_id": "390559537",
+            "position": 2
+          },
+          {
+            "image_id": "390559686",
+            "position": 1
+          },
+          {
+            "image_id": "390559686",
+            "position": 2
+          },
+          {
+            "image_id": "390559854",
+            "position": 1
+          },
+          {
+            "image_id": "390559859",
+            "position": 1
+          },
+          {
+            "image_id": "390559859",
+            "position": 2
+          },
+          {
+            "image_id": "390560018",
+            "position": 1
+          },
+          {
+            "image_id": "390560018",
+            "position": 2
+          },
+          {
+            "image_id": "390560027",
+            "position": 1
+          },
+          {
+            "image_id": "390560063",
+            "position": 1
+          },
+          {
+            "image_id": "390560269",
+            "position": 1
+          },
+          {
+            "image_id": "390560269",
+            "position": 2
+          },
+          {
+            "image_id": "390560410",
+            "position": 1
+          },
+          {
+            "image_id": "390560410",
+            "position": 2
+          },
+          {
+            "image_id": "390560598",
+            "position": 1
+          },
+          {
+            "image_id": "390560598",
+            "position": 2
+          },
+          {
+            "image_id": "390560808",
+            "position": 1
+          },
+          {
+            "image_id": "390560808",
+            "position": 2
+          },
+          {
+            "image_id": "390560808",
+            "position": 3
+          },
+          {
+            "image_id": "390560808",
+            "position": 4
+          },
+          {
+            "image_id": "390560975",
+            "position": 1
+          },
+          {
+            "image_id": "390561040",
+            "position": 1
+          },
+          {
+            "image_id": "390561040",
+            "position": 2
+          },
+          {
+            "image_id": "390561040",
+            "position": 3
+          },
+          {
+            "image_id": "390561040",
+            "position": 4
+          },
+          {
+            "image_id": "390561231",
+            "position": 1
+          },
+          {
+            "image_id": "390561269",
+            "position": 1
+          },
+          {
+            "image_id": "390561269",
+            "position": 2
+          },
+          {
+            "image_id": "390561540",
+            "position": 1
+          },
+          {
+            "image_id": "390561540",
+            "position": 2
+          },
+          {
+            "image_id": "390561725",
+            "position": 1
+          },
+          {
+            "image_id": "390561725",
+            "position": 2
+          },
+          {
+            "image_id": "390561929",
+            "position": 1
+          },
+          {
+            "image_id": "390561929",
+            "position": 2
+          },
+          {
+            "image_id": "390562033",
+            "position": 1
+          },
+          {
+            "image_id": "390562033",
+            "position": 2
+          },
+          {
+            "image_id": "390562063",
+            "position": 1
+          },
+          {
+            "image_id": "390562063",
+            "position": 2
+          },
+          {
+            "image_id": "390562197",
+            "position": 1
+          },
+          {
+            "image_id": "390562410",
+            "position": 1
+          },
+          {
+            "image_id": "390562482",
+            "position": 1
+          },
+          {
+            "image_id": "390562482",
+            "position": 2
+          },
+          {
+            "image_id": "390562730",
+            "position": 1
+          },
+          {
+            "image_id": "390562730",
+            "position": 2
+          },
+          {
+            "image_id": "390563026",
+            "position": 1
+          },
+          {
+            "image_id": "390563026",
+            "position": 2
+          },
+          {
+            "image_id": "390563151",
+            "position": 1
+          },
+          {
+            "image_id": "390563151",
+            "position": 2
+          },
+          {
+            "image_id": "390563222",
+            "position": 1
+          },
+          {
+            "image_id": "390563426",
+            "position": 1
+          },
+          {
+            "image_id": "390563426",
+            "position": 2
+          },
+          {
+            "image_id": "390563707",
+            "position": 1
+          },
+          {
+            "image_id": "390563707",
+            "position": 2
+          },
+          {
+            "image_id": "390563707",
+            "position": 3
+          },
+          {
+            "image_id": "390563848",
+            "position": 1
+          },
+          {
+            "image_id": "390565329",
+            "position": 1
+          },
+          {
+            "image_id": "390565849",
+            "position": 1
+          },
+          {
+            "image_id": "390565849",
+            "position": 2
+          },
+          {
+            "image_id": "390565876",
+            "position": 1
+          },
+          {
+            "image_id": "390565950",
+            "position": 1
+          },
+          {
+            "image_id": "390565950",
+            "position": 2
+          },
+          {
+            "image_id": "390566060",
+            "position": 1
+          },
+          {
+            "image_id": "390566060",
+            "position": 2
+          },
+          {
+            "image_id": "390566145",
+            "position": 1
+          },
+          {
+            "image_id": "390566145",
+            "position": 2
+          },
+          {
+            "image_id": "390566204",
+            "position": 1
+          },
+          {
+            "image_id": "390566204",
+            "position": 2
+          },
+          {
+            "image_id": "390566259",
+            "position": 1
+          },
+          {
+            "image_id": "390566259",
+            "position": 2
+          },
+          {
+            "image_id": "390566424",
+            "position": 1
+          },
+          {
+            "image_id": "390566424",
+            "position": 2
+          },
+          {
+            "image_id": "390566517",
+            "position": 1
+          },
+          {
+            "image_id": "390566517",
+            "position": 2
+          },
+          {
+            "image_id": "390566541",
+            "position": 1
+          },
+          {
+            "image_id": "390566604",
+            "position": 1
+          },
+          {
+            "image_id": "390566604",
+            "position": 2
+          },
+          {
+            "image_id": "390566620",
+            "position": 1
+          },
+          {
+            "image_id": "390566620",
+            "position": 2
+          },
+          {
+            "image_id": "390566682",
+            "position": 1
+          },
+          {
+            "image_id": "390566682",
+            "position": 2
+          },
+          {
+            "image_id": "390566766",
+            "position": 1
+          },
+          {
+            "image_id": "390566766",
+            "position": 2
+          },
+          {
+            "image_id": "390566871",
+            "position": 1
+          },
+          {
+            "image_id": "390566871",
+            "position": 2
+          },
+          {
+            "image_id": "390566962",
+            "position": 1
+          },
+          {
+            "image_id": "390566962",
+            "position": 2
+          },
+          {
+            "image_id": "390567046",
+            "position": 1
+          },
+          {
+            "image_id": "390567046",
+            "position": 2
+          },
+          {
+            "image_id": "390567153",
+            "position": 1
+          },
+          {
+            "image_id": "390567153",
+            "position": 2
+          },
+          {
+            "image_id": "390567238",
+            "position": 1
+          },
+          {
+            "image_id": "390567238",
+            "position": 2
+          },
+          {
+            "image_id": "390567385",
+            "position": 1
+          },
+          {
+            "image_id": "390567385",
+            "position": 2
+          },
+          {
+            "image_id": "390567443",
+            "position": 1
+          },
+          {
+            "image_id": "390567443",
+            "position": 2
+          },
+          {
+            "image_id": "390567504",
+            "position": 1
+          },
+          {
+            "image_id": "390567504",
+            "position": 2
+          },
+          {
+            "image_id": "390567566",
+            "position": 1
+          },
+          {
+            "image_id": "390567566",
+            "position": 2
+          },
+          {
+            "image_id": "390567680",
+            "position": 1
+          },
+          {
+            "image_id": "390567680",
+            "position": 2
+          },
+          {
+            "image_id": "390567769",
+            "position": 1
+          },
+          {
+            "image_id": "390567769",
+            "position": 2
+          },
+          {
+            "image_id": "390567969",
+            "position": 1
+          },
+          {
+            "image_id": "390567969",
+            "position": 2
+          },
+          {
+            "image_id": "390568023",
+            "position": 1
+          },
+          {
+            "image_id": "390568023",
+            "position": 2
+          },
+          {
+            "image_id": "390568104",
+            "position": 1
+          },
+          {
+            "image_id": "390568104",
+            "position": 2
+          },
+          {
+            "image_id": "390568169",
+            "position": 1
+          },
+          {
+            "image_id": "390568169",
+            "position": 2
+          },
+          {
+            "image_id": "390568258",
+            "position": 1
+          },
+          {
+            "image_id": "390568258",
+            "position": 2
+          },
+          {
+            "image_id": "390568347",
+            "position": 1
+          },
+          {
+            "image_id": "390568347",
+            "position": 2
+          },
+          {
+            "image_id": "390568466",
+            "position": 1
+          },
+          {
+            "image_id": "390568466",
+            "position": 2
+          },
+          {
+            "image_id": "390568477",
+            "position": 1
+          },
+          {
+            "image_id": "390568477",
+            "position": 2
+          },
+          {
+            "image_id": "390568509",
+            "position": 1
+          },
+          {
+            "image_id": "390568509",
+            "position": 2
+          },
+          {
+            "image_id": "390568600",
+            "position": 1
+          },
+          {
+            "image_id": "390568600",
+            "position": 2
+          },
+          {
+            "image_id": "390568607",
+            "position": 1
+          },
+          {
+            "image_id": "390568607",
+            "position": 2
+          },
+          {
+            "image_id": "390568687",
+            "position": 1
+          },
+          {
+            "image_id": "390568687",
+            "position": 2
+          },
+          {
+            "image_id": "390568758",
+            "position": 1
+          },
+          {
+            "image_id": "390568758",
+            "position": 2
+          },
+          {
+            "image_id": "390568832",
+            "position": 1
+          },
+          {
+            "image_id": "390568832",
+            "position": 2
+          },
+          {
+            "image_id": "390568912",
+            "position": 1
+          },
+          {
+            "image_id": "390568912",
+            "position": 2
+          },
+          {
+            "image_id": "390568984",
+            "position": 1
+          },
+          {
+            "image_id": "390568984",
+            "position": 2
+          },
+          {
+            "image_id": "390569124",
+            "position": 1
+          },
+          {
+            "image_id": "390569124",
+            "position": 2
+          },
+          {
+            "image_id": "390569307",
+            "position": 1
+          },
+          {
+            "image_id": "390569307",
+            "position": 2
+          },
+          {
+            "image_id": "390569429",
+            "position": 1
+          },
+          {
+            "image_id": "390569429",
+            "position": 2
+          },
+          {
+            "image_id": "390569438",
+            "position": 1
+          },
+          {
+            "image_id": "390569711",
+            "position": 1
+          },
+          {
+            "image_id": "390569711",
+            "position": 2
+          },
+          {
+            "image_id": "390571333",
+            "position": 1
+          },
+          {
+            "image_id": "390573239",
+            "position": 1
+          },
+          {
+            "image_id": "390573348",
+            "position": 1
+          },
+          {
+            "image_id": "390573348",
+            "position": 2
+          },
+          {
+            "image_id": "390573717",
+            "position": 1
+          },
+          {
+            "image_id": "390574399",
+            "position": 1
+          },
+          {
+            "image_id": "390574750",
+            "position": 1
+          },
+          {
+            "image_id": "390575000",
+            "position": 1
+          },
+          {
+            "image_id": "390581832",
+            "position": 1
+          },
+          {
+            "image_id": "390581832",
+            "position": 2
+          },
+          {
+            "image_id": "390581832",
+            "position": 3
+          },
+          {
+            "image_id": "390583633",
+            "position": 1
+          },
+          {
+            "image_id": "390583633",
+            "position": 2
+          }
+        ],
+        "positive_originals_pending_integration": [],
+        "original_negative_resolutions": [
+          {
+            "image_id": "61261978",
+            "positions": [
+              2
+            ],
+            "reading": "Under “SAILED,” the line reads “11, James, Duggan, Glasgow, oatmeal.” The surrounding entries are sailings with vessel, master, destination and cargo. James is the vessel; Duggan is the captain; Glasgow is the port. No James Glasgow person is named.",
+            "status": "explicit_false_positive_vessel_place"
+          }
+        ],
+        "duplicate_result_image_ranks": [
+          {
+            "image_id": "390549197",
+            "ranks": [
+              13,
+              14
+            ]
+          },
+          {
+            "image_id": "390543681",
+            "ranks": [
+              33,
+              34
+            ]
+          }
+        ],
+        "positive_originals_integrated_in_maintained_batch": "7c4af1ea"
+      }
     },
     {
       "query": "\"Alexander Glasgow\"",
@@ -66,7 +2781,136 @@
       "end_of_results": true,
       "previews_screened": 12,
       "triage": "First-preview surname/city/vessel triage; original-page review only for selected passages. Additional matches and unloaded entries remain. Discrepancy audit verified all 12 readable primary previews; prior ledger count 10 was stale.",
-      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/alexander-ni-review.json"
+      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/alexander-ni-review.json",
+      "preview_positions_captured": 21,
+      "preview_positions_screened": 21,
+      "position_review_audit": {
+        "query": "\"Alexander Glasgow\"",
+        "collection": "Northern Ireland",
+        "date_start": 1800,
+        "date_end": 1850,
+        "source_packets": [
+          "phase-1850-gap-b/alternate-carousel-review/alexander-ni-alternate-position-review.json + existing primary review"
+        ],
+        "search_url": "https://www.newspapers.com/search/results/?date-end=1850&date-start=1800&keyword=%22Alexander+Glasgow%22&region=gb-nir",
+        "current_run_result_cards": 12,
+        "end_control_seen": true,
+        "no_matches_confirmed": false,
+        "deduplicated_position_key_count": 21,
+        "position_keys": [
+          {
+            "image_id": "390547870",
+            "position": 1
+          },
+          {
+            "image_id": "390547870",
+            "position": 2
+          },
+          {
+            "image_id": "390551753",
+            "position": 1
+          },
+          {
+            "image_id": "390551753",
+            "position": 2
+          },
+          {
+            "image_id": "390552731",
+            "position": 1
+          },
+          {
+            "image_id": "390552731",
+            "position": 2
+          },
+          {
+            "image_id": "390556694",
+            "position": 1
+          },
+          {
+            "image_id": "390556694",
+            "position": 2
+          },
+          {
+            "image_id": "390559123",
+            "position": 1
+          },
+          {
+            "image_id": "390559123",
+            "position": 2
+          },
+          {
+            "image_id": "390560819",
+            "position": 1
+          },
+          {
+            "image_id": "390560819",
+            "position": 2
+          },
+          {
+            "image_id": "390564380",
+            "position": 1
+          },
+          {
+            "image_id": "390564380",
+            "position": 2
+          },
+          {
+            "image_id": "390564435",
+            "position": 1
+          },
+          {
+            "image_id": "390564952",
+            "position": 1
+          },
+          {
+            "image_id": "390568607",
+            "position": 1
+          },
+          {
+            "image_id": "390568607",
+            "position": 2
+          },
+          {
+            "image_id": "390570138",
+            "position": 1
+          },
+          {
+            "image_id": "390588315",
+            "position": 1
+          },
+          {
+            "image_id": "390588315",
+            "position": 2
+          }
+        ],
+        "notes": "12 primary positions plus all 9 alternates, deduplicated by image ID and position. Two alternates have original context (ship/news and Alexander Rae with Glasgow locality); rank3 contains a separate possible James Glasgow mention, not an Alexander Glasgow hit.",
+        "prior_maintained_card_count": 12,
+        "original_context_refs": [
+          {
+            "image_id": "390588315",
+            "positions": [
+              2
+            ],
+            "finding": "Belfast ship-news arrival list; vessel/port context."
+          },
+          {
+            "image_id": "390556694",
+            "positions": [
+              2
+            ],
+            "finding": "Alexander Rae marriage notice; Glasgow is a place."
+          }
+        ],
+        "unresolved_original_position_leads": [
+          {
+            "image_id": "390568607",
+            "positions": [
+              2
+            ],
+            "finding": "Snippet separately shows “James Glasgow” and “Alexander Fleming”; cross-query lead only, not an Alexander Glasgow person."
+          }
+        ]
+      }
     },
     {
       "query": "\"Samuel Glasgow\"",
@@ -79,7 +2923,35 @@
       "end_of_results": true,
       "previews_screened": 1,
       "triage": "First-preview surname/city/vessel triage; original-page review only for selected passages. Additional matches and unloaded entries remain.",
-      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/samuel-ni.json"
+      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/samuel-ni.json",
+      "preview_positions_captured": 2,
+      "preview_positions_screened": 2,
+      "position_review_audit": {
+        "query": "\"Samuel Glasgow\"",
+        "collection": "Northern Ireland",
+        "date_start": 1800,
+        "date_end": 1850,
+        "source_packets": [
+          "phase-1850-john-ni/john-ni-quoted-four-query-review.json"
+        ],
+        "search_url": "https://www.newspapers.com/search/results/?region=gb-nir&date-start=1800&date-end=1850&keyword=%22Samuel+Glasgow%22&sort=paper-date-asc",
+        "current_run_result_cards": 1,
+        "end_control_seen": true,
+        "no_matches_confirmed": false,
+        "deduplicated_position_key_count": 2,
+        "position_keys": [
+          {
+            "image_id": "390574217",
+            "position": 1
+          },
+          {
+            "image_id": "390574217",
+            "position": 2
+          }
+        ],
+        "notes": "No Glasgow surname occurrence. Distinct words are a Glasgow office and Samuel Harris of Guernsey.",
+        "prior_maintained_card_count": 1
+      }
     },
     {
       "query": "\"Hugh Glasgow\"",
@@ -92,7 +2964,53 @@
       "end_of_results": true,
       "previews_screened": 1,
       "triage": "First-preview surname/city/vessel triage; original-page review only for selected passages. Additional matches and unloaded entries remain.",
-      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/hugh-ni-review.json"
+      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/hugh-ni-review.json",
+      "preview_positions_captured": 2,
+      "preview_positions_screened": 2,
+      "position_review_audit": {
+        "query": "\"Hugh Glasgow\"",
+        "collection": "Northern Ireland",
+        "date_start": 1800,
+        "date_end": 1850,
+        "source_packets": [
+          "phase-1850-john-ni/john-ni-quoted-four-query-review.json"
+        ],
+        "search_url": "https://www.newspapers.com/search/results/?region=gb-nir&date-start=1800&date-end=1850&keyword=%22Hugh+Glasgow%22&sort=paper-date-asc",
+        "current_run_result_cards": 1,
+        "end_control_seen": true,
+        "no_matches_confirmed": false,
+        "deduplicated_position_key_count": 2,
+        "position_keys": [
+          {
+            "image_id": "390582956",
+            "position": 1
+          },
+          {
+            "image_id": "390582956",
+            "position": 2
+          }
+        ],
+        "notes": "All result-card match positions reviewed; no new Glasgow-surname personal occurrence.",
+        "prior_maintained_card_count": 1,
+        "original_context_refs": [
+          {
+            "image_id": "390582956",
+            "positions": [
+              1
+            ],
+            "reading": "‘Dr. Burns, of Paisley, and Mr. Hugh, of Glasgow, were introduced to the meeting, as a deputation from the Scottish Missionary Society.’",
+            "status": "original_checked"
+          },
+          {
+            "image_id": "390582956",
+            "positions": [
+              2
+            ],
+            "reading": "The second highlight is the same meeting sentence: ‘Mr. Hugh, of Glasgow’; Glasgow identifies the deputation’s place association, not a surname.",
+            "status": "original_checked"
+          }
+        ]
+      }
     },
     {
       "query": "\"Thomas Glasgow\"",
@@ -105,7 +3023,145 @@
       "end_of_results": true,
       "previews_screened": 8,
       "triage": "First-preview surname/city/vessel triage; original-page review only for selected passages. Additional matches and unloaded entries remain.",
-      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/thomas-ni-review.json"
+      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/thomas-ni-review.json",
+      "preview_positions_captured": 17,
+      "preview_positions_screened": 17,
+      "position_review_audit": {
+        "query": "\"Thomas Glasgow\"",
+        "collection": "Northern Ireland",
+        "date_start": 1800,
+        "date_end": 1850,
+        "source_packets": [
+          "phase-1850-john-ni/john-ni-quoted-four-query-review.json"
+        ],
+        "search_url": "https://www.newspapers.com/search/results/?region=gb-nir&date-start=1800&date-end=1850&keyword=%22Thomas+Glasgow%22&sort=paper-date-asc",
+        "current_run_result_cards": 8,
+        "end_control_seen": true,
+        "no_matches_confirmed": false,
+        "deduplicated_position_key_count": 17,
+        "position_keys": [
+          {
+            "image_id": "390548320",
+            "position": 1
+          },
+          {
+            "image_id": "390548320",
+            "position": 2
+          },
+          {
+            "image_id": "390551949",
+            "position": 1
+          },
+          {
+            "image_id": "390551949",
+            "position": 2
+          },
+          {
+            "image_id": "390556119",
+            "position": 1
+          },
+          {
+            "image_id": "390556119",
+            "position": 2
+          },
+          {
+            "image_id": "390556634",
+            "position": 1
+          },
+          {
+            "image_id": "390556634",
+            "position": 2
+          },
+          {
+            "image_id": "390566995",
+            "position": 1
+          },
+          {
+            "image_id": "390566995",
+            "position": 2
+          },
+          {
+            "image_id": "390566995",
+            "position": 3
+          },
+          {
+            "image_id": "390567723",
+            "position": 1
+          },
+          {
+            "image_id": "390567723",
+            "position": 2
+          },
+          {
+            "image_id": "390568607",
+            "position": 1
+          },
+          {
+            "image_id": "390568607",
+            "position": 2
+          },
+          {
+            "image_id": "390569777",
+            "position": 1
+          },
+          {
+            "image_id": "390569777",
+            "position": 2
+          }
+        ],
+        "notes": "All result-card match positions reviewed; no new Glasgow-surname personal occurrence.",
+        "prior_maintained_card_count": 8,
+        "original_context_refs": [
+          {
+            "image_id": "390567723",
+            "positions": [
+              1
+            ],
+            "reading": "Separate hospital-donation notice: Rev. J. W. McCay received fourteen shillings from Mr. Thomas Fulton for hospital supplies.",
+            "status": "original_checked"
+          },
+          {
+            "image_id": "390567723",
+            "positions": [
+              2
+            ],
+            "reading": "Separate parliamentary debate passage reports on Glasgow’s industrial distress and employment; the word Glasgow is the city, not a person.",
+            "status": "original_checked"
+          },
+          {
+            "image_id": "390569777",
+            "positions": [
+              1
+            ],
+            "reading": "The poem ‘Oh! not upon so cold a shrine’ is attributed in the original as ‘BY MR. THOMAS ATKINSON, GLASGOW.’ Glasgow is the author’s place descriptor, not his surname.",
+            "status": "original_checked"
+          },
+          {
+            "image_id": "390569777",
+            "positions": [
+              2
+            ],
+            "reading": "The same original byline reads ‘MR. THOMAS ATKINSON, GLASGOW’; the second highlight is Glasgow as an author place descriptor.",
+            "status": "original_checked"
+          },
+          {
+            "image_id": "390556634",
+            "positions": [
+              1
+            ],
+            "reading": "Shipwreck report about the Isabella: ‘A. Thomas, from Glasgow, from Pictou, with 54 passengers and dry goods, was lost at Cape North’; the next sentence says she sailed from Glasgow on 1 April.",
+            "status": "original_checked"
+          },
+          {
+            "image_id": "390556634",
+            "positions": [
+              2
+            ],
+            "reading": "Second highlight is within the same Isabella shipwreck account, where Glasgow is a departure port.",
+            "status": "original_checked"
+          }
+        ]
+      }
     },
     {
       "query": "\"Daniel Glasgow\"",
@@ -131,7 +3187,31 @@
       "end_of_results": true,
       "previews_screened": 1,
       "triage": "First-preview surname/city/vessel triage; original-page review only for selected passages. Additional matches and unloaded entries remain.",
-      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/benjamin-ni-review.json"
+      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/benjamin-ni-review.json",
+      "preview_positions_captured": 1,
+      "preview_positions_screened": 1,
+      "position_review_audit": {
+        "query": "\"Benjamin Glasgow\"",
+        "collection": "Northern Ireland",
+        "date_start": 1800,
+        "date_end": 1850,
+        "source_packets": [
+          "phase-1850-john-ni/john-ni-quoted-four-query-review.json"
+        ],
+        "search_url": "https://www.newspapers.com/search/results/?region=gb-nir&date-start=1800&date-end=1850&keyword=%22Benjamin+Glasgow%22&sort=paper-date-asc",
+        "current_run_result_cards": 1,
+        "end_control_seen": true,
+        "no_matches_confirmed": false,
+        "deduplicated_position_key_count": 1,
+        "position_keys": [
+          {
+            "image_id": "390559842",
+            "position": 1
+          }
+        ],
+        "notes": "Existing retained, original-inspected 1850 donor notice; not counted as a new passage or identity assignment.",
+        "prior_maintained_card_count": 1
+      }
     },
     {
       "query": "\"David Glasgow\"",
@@ -439,7 +3519,68 @@
       "end_of_results": true,
       "previews_screened": 2,
       "triage": "1834 surgeon obituary already verified; cropped 1825 list requires original context.",
-      "source_capture": ".cache/newspapers/2026-10-04/continued/quoted-searches.json"
+      "source_capture": ".cache/newspapers/2026-10-04/continued/quoted-searches.json",
+      "preview_positions_captured": 3,
+      "preview_positions_screened": 3,
+      "position_review_audit": {
+        "query": "\"Benjamin Glasgow\"",
+        "collection": "Ireland",
+        "date_start": 1800,
+        "date_end": 1850,
+        "source_packets": [
+          "phase-1850-common-ni-tail/ireland-carousel-gaps/ireland-carousel-gaps-review.json"
+        ],
+        "search_url": "https://www.newspapers.com/search/results/?country=ie&date-end=1850&date-start=1800&keyword=%22Benjamin+Glasgow%22&sort=paper-date-asc",
+        "current_run_result_cards": 2,
+        "end_control_seen": true,
+        "no_matches_confirmed": false,
+        "deduplicated_position_key_count": 3,
+        "position_keys": [
+          {
+            "image_id": "1050049974",
+            "position": 1
+          },
+          {
+            "image_id": "1050085983",
+            "position": 1
+          },
+          {
+            "image_id": "1050085983",
+            "position": 2
+          }
+        ],
+        "notes": "Every position in current End-bounded result set was reviewed.",
+        "prior_maintained_card_count": 2,
+        "original_context_refs": [
+          {
+            "image_id": "1050085983",
+            "positions": [
+              1
+            ],
+            "original_review": "reviewed_original_same_passage",
+            "reading": "Benjamin Glasgow listed under Masters in Surgery in Glasgow University results notice."
+          },
+          {
+            "image_id": "1050085983",
+            "positions": [
+              2
+            ],
+            "original_review": "reviewed_original_same_passage",
+            "reading": "Same Benjamin Glasgow name in same notice; second highlight position resolves to same passage."
+          },
+          {
+            "image_id": "1050049974",
+            "positions": [
+              1
+            ],
+            "original_review": "existing_approved_clip_reuse",
+            "reading": "Previously retained 1834 surgeon obituary for Benjamin Glasgow; reuse existing reading and approved clip."
+          }
+        ],
+        "current_run_cards": 2,
+        "previous_maintained_retrieved_entries": 2,
+        "historic_card_discrepancy": null
+      }
     },
     {
       "query": "\"Daniel Glasgow\"",
@@ -465,7 +3606,75 @@
       "end_of_results": true,
       "previews_screened": 5,
       "triage": "First-preview surname/city/vessel triage; original-page review only for selected passages. Additional matches and unloaded entries remain.",
-      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/samuel-ie.json"
+      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/samuel-ie.json",
+      "preview_positions_captured": 8,
+      "preview_positions_screened": 8,
+      "position_review_audit": {
+        "query": "\"Samuel Glasgow\"",
+        "collection": "Ireland",
+        "date_start": 1800,
+        "date_end": 1850,
+        "source_packets": [
+          "phase-1850-common-ni-tail/ireland-carousel-gaps/ireland-carousel-gaps-review.json"
+        ],
+        "search_url": "https://www.newspapers.com/search/results/?country=ie&date-end=1850&date-start=1800&keyword=%22Samuel+Glasgow%22&sort=paper-date-asc",
+        "current_run_result_cards": 5,
+        "end_control_seen": true,
+        "no_matches_confirmed": false,
+        "deduplicated_position_key_count": 8,
+        "position_keys": [
+          {
+            "image_id": "1259393261",
+            "position": 1
+          },
+          {
+            "image_id": "1259393261",
+            "position": 2
+          },
+          {
+            "image_id": "1259560555",
+            "position": 1
+          },
+          {
+            "image_id": "1259560555",
+            "position": 2
+          },
+          {
+            "image_id": "1259560663",
+            "position": 1
+          },
+          {
+            "image_id": "1259560663",
+            "position": 2
+          },
+          {
+            "image_id": "1380776986",
+            "position": 1
+          },
+          {
+            "image_id": "1380777866",
+            "position": 1
+          }
+        ],
+        "notes": "Every position in current End-bounded result set was reviewed.",
+        "prior_maintained_card_count": 5,
+        "original_context_refs": [
+          {
+            "image_id": "1380777866",
+            "positions": [
+              1
+            ],
+            "original_review": "reviewed_original",
+            "reading": "Mr. Samuel Glasgow, described as “a highly intelligent farmer,” examined at Moneymore; tenant-right discussion."
+          }
+        ],
+        "duplicate_or_cross_query_notes": {
+          "1380777866": "Same 19 March 1845 Samuel notice as existing 1050103241; alternate archive copy, not a second event/person."
+        },
+        "current_run_cards": 5,
+        "previous_maintained_retrieved_entries": 5,
+        "historic_card_discrepancy": null
+      }
     },
     {
       "query": "\"Hugh Glasgow\"",
@@ -478,7 +3687,62 @@
       "end_of_results": true,
       "previews_screened": 3,
       "triage": "First-preview surname/city/vessel triage; original-page review only for selected passages. Additional matches and unloaded entries remain.",
-      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/hugh-ie.json"
+      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/hugh-ie.json",
+      "preview_positions_captured": 8,
+      "preview_positions_screened": 8,
+      "position_review_audit": {
+        "query": "\"Hugh Glasgow\"",
+        "collection": "Ireland",
+        "date_start": 1800,
+        "date_end": 1850,
+        "source_packets": [
+          "phase-1850-common-ni-tail/ireland-carousel-gaps/ireland-carousel-gaps-review.json"
+        ],
+        "search_url": "https://www.newspapers.com/search/results/?country=ie&date-end=1850&date-start=1800&keyword=%22Hugh+Glasgow%22&sort=paper-date-asc",
+        "current_run_result_cards": 3,
+        "end_control_seen": true,
+        "no_matches_confirmed": false,
+        "deduplicated_position_key_count": 8,
+        "position_keys": [
+          {
+            "image_id": "1259427941",
+            "position": 1
+          },
+          {
+            "image_id": "1259427941",
+            "position": 2
+          },
+          {
+            "image_id": "1380770291",
+            "position": 1
+          },
+          {
+            "image_id": "1380770291",
+            "position": 2
+          },
+          {
+            "image_id": "1380770291",
+            "position": 3
+          },
+          {
+            "image_id": "1380770291",
+            "position": 4
+          },
+          {
+            "image_id": "1380770816",
+            "position": 1
+          },
+          {
+            "image_id": "1380770816",
+            "position": 2
+          }
+        ],
+        "notes": "Every position in current End-bounded result set was reviewed.",
+        "prior_maintained_card_count": 3,
+        "current_run_cards": 3,
+        "previous_maintained_retrieved_entries": 3,
+        "historic_card_discrepancy": null
+      }
     },
     {
       "query": "\"Alexander Glasgow\"",
@@ -586,13 +3850,1070 @@
       "collection": "Ireland",
       "date_start": 1800,
       "date_end": 1850,
-      "reported_entries": 109,
-      "retrieved_entries": 109,
-      "unique_image_count": 109,
-      "end_of_results": true,
-      "previews_screened": 109,
-      "triage": "All first previews screened oldest-first. Selected original passages verified; repeated merchant advertisements are one role, not separate people. Original 1050134301 is resolved as locality, not surname. Additional carousel highlights remain unexhausted.",
-      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/full-john-ie.json"
+      "reported_entries": 108,
+      "retrieved_entries": 108,
+      "unique_image_count": 108,
+      "end_of_results": false,
+      "previews_screened": 108,
+      "triage": "Current bounded run reports 108 results. Oldest and newest sorts each yielded 60 cards; 12 image IDs overlap, leaving 108 unique current IDs. All 108 primary positions and 52 alternate positions across 46 multi-match cards (160 unique image-position slots) are accounted and reviewed. No physical End control was seen, so this is position-review completion for the captured reported union, not proof of archive-wide completeness. The historic 109-card run and its nine prior-only image IDs remain preserved in previous_run. Eight stale current-only preview captures were superseded by matched original checks: seven displayed reused unrelated shipping pixels and did not establish John Glasgow; the apparent Cookstown text on 1380771756 is absent from its original. The source-matched original 1380778107 is a repeated positive already retained as 1050137248, not a new finding. Three distinct Cookstown coffee-agent originals confirm John Glasgow and were integrated in research commit 1535085b; no profile identity is asserted here.",
+      "source_capture": "artifacts/pre1850-continuation-20261005/phase-1850-root/john-ie-current-cards.json; artifacts/pre1850-continuation-20261005/phase-1850-root/john-ie-newest-cards.json",
+      "preview_positions_captured": 160,
+      "preview_positions_screened": 160,
+      "position_review_audit": {
+        "query": "\"John Glasgow\"",
+        "collection": "Ireland",
+        "date_start": 1800,
+        "date_end": 1850,
+        "source_packets": [
+          "phase-1850-root/john-ie-current-cards.json",
+          "phase-1850-root/john-ie-newest-cards.json",
+          "phase-1850-common-ie-heavy/john-ie-combined-alternates-review.json",
+          "phase-1850-common-ie-heavy/john-ie-current-only-original-review.json",
+          "phase-1850-common-ie-heavy/john-ie-original-resolutions-proposal.json"
+        ],
+        "observed_search_ids": {
+          "oldest_sort": "a5e120c5-e7c2-419a-a7a0-a0c27ab806db",
+          "newest_sort": "62e635a6-2eab-42f3-800c-517c086eaffd"
+        },
+        "current_run_result_cards": 108,
+        "provider_reported_count": 108,
+        "oldest_sort_cards_captured": 60,
+        "newest_sort_cards_captured": 60,
+        "union_unique_image_ids": 108,
+        "sort_overlap_image_ids": 12,
+        "end_control_seen": false,
+        "position_capture_complete_without_physical_end": true,
+        "deduplicated_position_key_count": 160,
+        "position_keys": [
+          {
+            "image_id": "401349475",
+            "position": 1
+          },
+          {
+            "image_id": "401349475",
+            "position": 2
+          },
+          {
+            "image_id": "1050061996",
+            "position": 1
+          },
+          {
+            "image_id": "1050061996",
+            "position": 2
+          },
+          {
+            "image_id": "1050062011",
+            "position": 1
+          },
+          {
+            "image_id": "1050062011",
+            "position": 2
+          },
+          {
+            "image_id": "1050062026",
+            "position": 1
+          },
+          {
+            "image_id": "1050062026",
+            "position": 2
+          },
+          {
+            "image_id": "1050070253",
+            "position": 1
+          },
+          {
+            "image_id": "1050070253",
+            "position": 2
+          },
+          {
+            "image_id": "1050075838",
+            "position": 1
+          },
+          {
+            "image_id": "1050075838",
+            "position": 2
+          },
+          {
+            "image_id": "1050077369",
+            "position": 1
+          },
+          {
+            "image_id": "1050077369",
+            "position": 2
+          },
+          {
+            "image_id": "1050077419",
+            "position": 1
+          },
+          {
+            "image_id": "1050077419",
+            "position": 2
+          },
+          {
+            "image_id": "1050082241",
+            "position": 1
+          },
+          {
+            "image_id": "1050082241",
+            "position": 2
+          },
+          {
+            "image_id": "1050082387",
+            "position": 1
+          },
+          {
+            "image_id": "1050082387",
+            "position": 2
+          },
+          {
+            "image_id": "1050082396",
+            "position": 1
+          },
+          {
+            "image_id": "1050082396",
+            "position": 2
+          },
+          {
+            "image_id": "1050082413",
+            "position": 1
+          },
+          {
+            "image_id": "1050082413",
+            "position": 2
+          },
+          {
+            "image_id": "1050082658",
+            "position": 1
+          },
+          {
+            "image_id": "1050082658",
+            "position": 2
+          },
+          {
+            "image_id": "1050087266",
+            "position": 1
+          },
+          {
+            "image_id": "1050087266",
+            "position": 2
+          },
+          {
+            "image_id": "1050094426",
+            "position": 1
+          },
+          {
+            "image_id": "1050094426",
+            "position": 2
+          },
+          {
+            "image_id": "1050116067",
+            "position": 1
+          },
+          {
+            "image_id": "1050116067",
+            "position": 2
+          },
+          {
+            "image_id": "1050123916",
+            "position": 1
+          },
+          {
+            "image_id": "1050123916",
+            "position": 2
+          },
+          {
+            "image_id": "1050124693",
+            "position": 1
+          },
+          {
+            "image_id": "1050124693",
+            "position": 2
+          },
+          {
+            "image_id": "1050129023",
+            "position": 1
+          },
+          {
+            "image_id": "1050129023",
+            "position": 2
+          },
+          {
+            "image_id": "1050134301",
+            "position": 1
+          },
+          {
+            "image_id": "1050134301",
+            "position": 2
+          },
+          {
+            "image_id": "1050156168",
+            "position": 1
+          },
+          {
+            "image_id": "1050156168",
+            "position": 2
+          },
+          {
+            "image_id": "1050528859",
+            "position": 1
+          },
+          {
+            "image_id": "1050528859",
+            "position": 2
+          },
+          {
+            "image_id": "1050529070",
+            "position": 1
+          },
+          {
+            "image_id": "1050529070",
+            "position": 2
+          },
+          {
+            "image_id": "1256971521",
+            "position": 1
+          },
+          {
+            "image_id": "1256971570",
+            "position": 1
+          },
+          {
+            "image_id": "1256971587",
+            "position": 1
+          },
+          {
+            "image_id": "1256971652",
+            "position": 1
+          },
+          {
+            "image_id": "1256972762",
+            "position": 1
+          },
+          {
+            "image_id": "1256972762",
+            "position": 2
+          },
+          {
+            "image_id": "1256974148",
+            "position": 1
+          },
+          {
+            "image_id": "1256974196",
+            "position": 1
+          },
+          {
+            "image_id": "1256974220",
+            "position": 1
+          },
+          {
+            "image_id": "1256974245",
+            "position": 1
+          },
+          {
+            "image_id": "1256974267",
+            "position": 1
+          },
+          {
+            "image_id": "1256974605",
+            "position": 1
+          },
+          {
+            "image_id": "1256974629",
+            "position": 1
+          },
+          {
+            "image_id": "1256974655",
+            "position": 1
+          },
+          {
+            "image_id": "1256974679",
+            "position": 1
+          },
+          {
+            "image_id": "1256974705",
+            "position": 1
+          },
+          {
+            "image_id": "1256974751",
+            "position": 1
+          },
+          {
+            "image_id": "1256974768",
+            "position": 1
+          },
+          {
+            "image_id": "1256974837",
+            "position": 1
+          },
+          {
+            "image_id": "1256975114",
+            "position": 1
+          },
+          {
+            "image_id": "1256975114",
+            "position": 2
+          },
+          {
+            "image_id": "1256975156",
+            "position": 1
+          },
+          {
+            "image_id": "1256975180",
+            "position": 1
+          },
+          {
+            "image_id": "1256975231",
+            "position": 1
+          },
+          {
+            "image_id": "1256975252",
+            "position": 1
+          },
+          {
+            "image_id": "1256975300",
+            "position": 1
+          },
+          {
+            "image_id": "1256975324",
+            "position": 1
+          },
+          {
+            "image_id": "1256975380",
+            "position": 1
+          },
+          {
+            "image_id": "1256975442",
+            "position": 1
+          },
+          {
+            "image_id": "1256975442",
+            "position": 2
+          },
+          {
+            "image_id": "1256975467",
+            "position": 1
+          },
+          {
+            "image_id": "1256975926",
+            "position": 1
+          },
+          {
+            "image_id": "1256975926",
+            "position": 2
+          },
+          {
+            "image_id": "1256975960",
+            "position": 1
+          },
+          {
+            "image_id": "1256975960",
+            "position": 2
+          },
+          {
+            "image_id": "1256975993",
+            "position": 1
+          },
+          {
+            "image_id": "1256975993",
+            "position": 2
+          },
+          {
+            "image_id": "1256976021",
+            "position": 1
+          },
+          {
+            "image_id": "1256976021",
+            "position": 2
+          },
+          {
+            "image_id": "1256976042",
+            "position": 1
+          },
+          {
+            "image_id": "1256976042",
+            "position": 2
+          },
+          {
+            "image_id": "1256976084",
+            "position": 1
+          },
+          {
+            "image_id": "1256976084",
+            "position": 2
+          },
+          {
+            "image_id": "1256976111",
+            "position": 1
+          },
+          {
+            "image_id": "1256976111",
+            "position": 2
+          },
+          {
+            "image_id": "1256976482",
+            "position": 1
+          },
+          {
+            "image_id": "1256976654",
+            "position": 1
+          },
+          {
+            "image_id": "1256976680",
+            "position": 1
+          },
+          {
+            "image_id": "1256976706",
+            "position": 1
+          },
+          {
+            "image_id": "1256976728",
+            "position": 1
+          },
+          {
+            "image_id": "1256976750",
+            "position": 1
+          },
+          {
+            "image_id": "1259393786",
+            "position": 1
+          },
+          {
+            "image_id": "1259393802",
+            "position": 1
+          },
+          {
+            "image_id": "1259393819",
+            "position": 1
+          },
+          {
+            "image_id": "1259393837",
+            "position": 1
+          },
+          {
+            "image_id": "1259393852",
+            "position": 1
+          },
+          {
+            "image_id": "1259394105",
+            "position": 1
+          },
+          {
+            "image_id": "1259394105",
+            "position": 2
+          },
+          {
+            "image_id": "1259429851",
+            "position": 1
+          },
+          {
+            "image_id": "1259429851",
+            "position": 2
+          },
+          {
+            "image_id": "1259429851",
+            "position": 3
+          },
+          {
+            "image_id": "1259429851",
+            "position": 4
+          },
+          {
+            "image_id": "1259429902",
+            "position": 1
+          },
+          {
+            "image_id": "1259429902",
+            "position": 2
+          },
+          {
+            "image_id": "1259429929",
+            "position": 1
+          },
+          {
+            "image_id": "1259429929",
+            "position": 2
+          },
+          {
+            "image_id": "1259561281",
+            "position": 1
+          },
+          {
+            "image_id": "1261035645",
+            "position": 1
+          },
+          {
+            "image_id": "1261035645",
+            "position": 2
+          },
+          {
+            "image_id": "1261035645",
+            "position": 3
+          },
+          {
+            "image_id": "1369100365",
+            "position": 1
+          },
+          {
+            "image_id": "1369100376",
+            "position": 1
+          },
+          {
+            "image_id": "1369100389",
+            "position": 1
+          },
+          {
+            "image_id": "1369100401",
+            "position": 1
+          },
+          {
+            "image_id": "1369100416",
+            "position": 1
+          },
+          {
+            "image_id": "1369100433",
+            "position": 1
+          },
+          {
+            "image_id": "1369100448",
+            "position": 1
+          },
+          {
+            "image_id": "1369100463",
+            "position": 1
+          },
+          {
+            "image_id": "1369100480",
+            "position": 1
+          },
+          {
+            "image_id": "1369100494",
+            "position": 1
+          },
+          {
+            "image_id": "1369100510",
+            "position": 1
+          },
+          {
+            "image_id": "1369100525",
+            "position": 1
+          },
+          {
+            "image_id": "1369100830",
+            "position": 1
+          },
+          {
+            "image_id": "1369100846",
+            "position": 1
+          },
+          {
+            "image_id": "1369100862",
+            "position": 1
+          },
+          {
+            "image_id": "1369100881",
+            "position": 1
+          },
+          {
+            "image_id": "1369100894",
+            "position": 1
+          },
+          {
+            "image_id": "1369100894",
+            "position": 2
+          },
+          {
+            "image_id": "1369100894",
+            "position": 3
+          },
+          {
+            "image_id": "1369100910",
+            "position": 1
+          },
+          {
+            "image_id": "1369100926",
+            "position": 1
+          },
+          {
+            "image_id": "1369100936",
+            "position": 1
+          },
+          {
+            "image_id": "1369100960",
+            "position": 1
+          },
+          {
+            "image_id": "1369100976",
+            "position": 1
+          },
+          {
+            "image_id": "1369101019",
+            "position": 1
+          },
+          {
+            "image_id": "1369101038",
+            "position": 1
+          },
+          {
+            "image_id": "1369101054",
+            "position": 1
+          },
+          {
+            "image_id": "1380770291",
+            "position": 1
+          },
+          {
+            "image_id": "1380770291",
+            "position": 2
+          },
+          {
+            "image_id": "1380771756",
+            "position": 1
+          },
+          {
+            "image_id": "1380771756",
+            "position": 2
+          },
+          {
+            "image_id": "1380778107",
+            "position": 1
+          },
+          {
+            "image_id": "1380781325",
+            "position": 1
+          },
+          {
+            "image_id": "1380781325",
+            "position": 2
+          },
+          {
+            "image_id": "1380781461",
+            "position": 1
+          },
+          {
+            "image_id": "1380781461",
+            "position": 2
+          },
+          {
+            "image_id": "1380781461",
+            "position": 3
+          },
+          {
+            "image_id": "1380781461",
+            "position": 4
+          },
+          {
+            "image_id": "1380782247",
+            "position": 1
+          },
+          {
+            "image_id": "1380782247",
+            "position": 2
+          },
+          {
+            "image_id": "1380782497",
+            "position": 1
+          },
+          {
+            "image_id": "1380782497",
+            "position": 2
+          },
+          {
+            "image_id": "1380783413",
+            "position": 1
+          },
+          {
+            "image_id": "1380783413",
+            "position": 2
+          }
+        ],
+        "primary_positions": {
+          "current_unique_images": 108,
+          "prior_primary_images_reviewed": 100,
+          "current_only_primaries_original_checked": 8,
+          "current_only_original_page_checks": [
+            {
+              "image_id": "1380771756",
+              "positions": [
+                1
+              ],
+              "date": "1850-04-26",
+              "paper": "Freeman's Journal and Daily Commercial Advertiser",
+              "page": "4",
+              "status": "place/news contexts; preview mismatch; no personal John Glasgow established in inspected full-page passages",
+              "reading": "The full 26 Apr 1850 p.4 scan contradicts the preview pixels that appeared to show “Cookstown—John Glasgow.” The inspected Repeal-return passage includes “Glasgow, per Mr Michael Quinn…” (Glasgow collection locality); another news item describes an individual as a native of Sligo and of the city of Glasgow. Neither is the personal John Glasgow shown in the preview."
+            },
+            {
+              "image_id": "1380778107",
+              "positions": [
+                1
+              ],
+              "date": "1840-10-19",
+              "paper": "Freeman's Journal and Daily Commercial Advertiser",
+              "page": "4",
+              "status": "positive personal surname; matches existing retained finding, alternate scan",
+              "reading": "19 Oct 1840 p.4, Loyal National Repeal Association subscription report: “Per Mr Edward Byrne, Dundrum—… James Fannin, John Glasgow, John Lelas…” The page lists him within Byrne’s Dundrum collection report; no individual amount/address/occupation is assigned. This is the already-retained finding/source represented by image 1050137248; this alternate scan creates no new person or finding."
+            },
+            {
+              "image_id": "1380781325",
+              "positions": [
+                1
+              ],
+              "date": "1841-08-12",
+              "paper": "Freeman's Journal and Daily Commercial Advertiser",
+              "page": "4",
+              "status": "place; no personal John Glasgow in inspected hit context",
+              "reading": "12 Aug 1841 p.4 subscription report: “From Mr John Hagerty, Glasgow, 5l. 18s., from 127 Repealers”; it names John Hagerty and uses Glasgow as collection locality. It also says Glasgow Repealers took a deep interest. No Glasgow surname for John is supported by these passages."
+            },
+            {
+              "image_id": "1380781461",
+              "positions": [
+                1
+              ],
+              "date": "1841-09-01",
+              "paper": "Freeman's Journal and Daily Commercial Advertiser",
+              "page": "4",
+              "status": "place; no personal John Glasgow in inspected hit context",
+              "reading": "1 Sep 1841 p.4 Repeal subscription material includes “From Anderston, Glasgow…” and a separate list of named subscribers. Glasgow is the collection/place label, not the surname following John."
+            },
+            {
+              "image_id": "1380782247",
+              "positions": [
+                1
+              ],
+              "date": "1841-12-22",
+              "paper": "Freeman's Journal and Daily Commercial Advertiser",
+              "page": "4",
+              "status": "vessel/port; not a personal John Glasgow",
+              "reading": "22 Dec 1841 p.4 “PIER HEAD”: “Dec. 20.—Arrived, Eclipse…; … John, Douglas, Glasgow, general cargo; Rapid…” This is a shipping row (vessel John; Douglas and Glasgow are row fields), not a personal name."
+            },
+            {
+              "image_id": "1380782497",
+              "positions": [
+                1
+              ],
+              "date": "1842-01-31",
+              "paper": "Freeman's Journal and Daily Commercial Advertiser",
+              "page": "2",
+              "status": "place/business; no personal John Glasgow in inspected hit context",
+              "reading": "31 Jan 1842 p.2 Burns supper report refers to the “Glasgow Arms Inn, William-street, North.” Glasgow is part of an inn name/locality; no John Glasgow surname is supported by this passage."
+            },
+            {
+              "image_id": "1380783413",
+              "positions": [
+                1
+              ],
+              "date": "1842-06-11",
+              "paper": "Freeman's Journal and Daily Commercial Advertiser",
+              "page": "1",
+              "status": "publication attribution/place; no personal John Glasgow in inspected hit context",
+              "reading": "11 Jun 1842 p.1 article ends with attribution “—Glasgow Saturday Post.” Glasgow is part of the newspaper title/attribution, not a person surname in the inspected passage."
+            },
+            {
+              "image_id": "1380770291",
+              "positions": [
+                1
+              ],
+              "date": "1843-02-25",
+              "paper": "Freeman's Journal and Daily Commercial Advertiser",
+              "page": "4",
+              "status": "place/collection; no personal John Glasgow in inspected hit context",
+              "reading": "25 Feb 1843 p.4 subscription lists include “Mr William Daly, Glasgow” and “Glasgow, per Hugh Donaghy, R.W.” These identify the collection locality with named collectors, not a person John Glasgow."
+            },
+            {
+              "image_id": "1369100894",
+              "positions": [
+                3
+              ],
+              "date": "1850-09-05",
+              "paper": "The Fermanagh Mail, and Enniskillen Chronicle",
+              "page": 3,
+              "status": "confirmed surname/person; source rows integrated under commit 1535085b",
+              "reading": "John Cassell coffee advertisement appointed-agent list: “Cookstown—John Glasgow.” Applications directed to John Cassell in London or his Dublin depot. No occupation/kinship/address beyond agency town stated."
+            },
+            {
+              "image_id": "1256975442",
+              "positions": [
+                2
+              ],
+              "date": "1849-11-03",
+              "paper": "The Sligo Champion",
+              "page": 1,
+              "status": "confirmed surname/person; source rows integrated under commit 1535085b",
+              "reading": "“John Cassell’s Coffees” notice lists “Cookstown—John Glasgow, merchant” among the agents. No kinship stated."
+            },
+            {
+              "image_id": "1256975114",
+              "positions": [
+                2
+              ],
+              "date": "1849-07-28",
+              "paper": "The Sligo Champion",
+              "page": 3,
+              "status": "confirmed surname/person; source rows integrated under commit 1535085b",
+              "reading": "“Cookstown … John Glasgow, merchant” beneath John Cassell’s Coffees heading. Distinct original from the 1849-11-03 and 1850-09-05 notices."
+            },
+            {
+              "image_id": "1050134301",
+              "positions": [
+                2
+              ],
+              "status": "existing original resolution reused",
+              "reading": "Locality Glasgow in damaged marriage notice, not personal surname; root original resolution already exists."
+            }
+          ]
+        },
+        "alternate_positions": {
+          "unique_image_id_position_pairs": 52,
+          "multi_match_cards": 46,
+          "reviewed_all": true,
+          "duplicate_pair_across_sort_packets": [
+            {
+              "image_id": "1259394105",
+              "position": 2,
+              "deduplicated": true
+            }
+          ]
+        },
+        "historic_cache": {
+          "prior_cached_cards": 109,
+          "prior_only_image_ids_preserved": [
+            "1050102174",
+            "1050122040",
+            "1050126480",
+            "1050129645",
+            "1050132466",
+            "1050136608",
+            "1050137248",
+            "1050139554",
+            "1050140153"
+          ],
+          "current_vs_historic_difference_note": "Older 109-card cache is not interchangeable with the 108-result current dual-sort union; retain all nine prior-only IDs in historical ledger."
+        },
+        "original_context_refs": [
+          {
+            "image_id": "1380771756",
+            "positions": [
+              1
+            ],
+            "date": "1850-04-26",
+            "paper": "Freeman's Journal and Daily Commercial Advertiser",
+            "page": "4",
+            "status": "place/news contexts; preview mismatch; no personal John Glasgow established in inspected full-page passages",
+            "reading": "The full 26 Apr 1850 p.4 scan contradicts the preview pixels that appeared to show “Cookstown—John Glasgow.” The inspected Repeal-return passage includes “Glasgow, per Mr Michael Quinn…” (Glasgow collection locality); another news item describes an individual as a native of Sligo and of the city of Glasgow. Neither is the personal John Glasgow shown in the preview."
+          },
+          {
+            "image_id": "1380778107",
+            "positions": [
+              1
+            ],
+            "date": "1840-10-19",
+            "paper": "Freeman's Journal and Daily Commercial Advertiser",
+            "page": "4",
+            "status": "positive personal surname; matches existing retained finding, alternate scan",
+            "reading": "19 Oct 1840 p.4, Loyal National Repeal Association subscription report: “Per Mr Edward Byrne, Dundrum—… James Fannin, John Glasgow, John Lelas…” The page lists him within Byrne’s Dundrum collection report; no individual amount/address/occupation is assigned. This is the already-retained finding/source represented by image 1050137248; this alternate scan creates no new person or finding."
+          },
+          {
+            "image_id": "1380781325",
+            "positions": [
+              1
+            ],
+            "date": "1841-08-12",
+            "paper": "Freeman's Journal and Daily Commercial Advertiser",
+            "page": "4",
+            "status": "place; no personal John Glasgow in inspected hit context",
+            "reading": "12 Aug 1841 p.4 subscription report: “From Mr John Hagerty, Glasgow, 5l. 18s., from 127 Repealers”; it names John Hagerty and uses Glasgow as collection locality. It also says Glasgow Repealers took a deep interest. No Glasgow surname for John is supported by these passages."
+          },
+          {
+            "image_id": "1380781461",
+            "positions": [
+              1
+            ],
+            "date": "1841-09-01",
+            "paper": "Freeman's Journal and Daily Commercial Advertiser",
+            "page": "4",
+            "status": "place; no personal John Glasgow in inspected hit context",
+            "reading": "1 Sep 1841 p.4 Repeal subscription material includes “From Anderston, Glasgow…” and a separate list of named subscribers. Glasgow is the collection/place label, not the surname following John."
+          },
+          {
+            "image_id": "1380782247",
+            "positions": [
+              1
+            ],
+            "date": "1841-12-22",
+            "paper": "Freeman's Journal and Daily Commercial Advertiser",
+            "page": "4",
+            "status": "vessel/port; not a personal John Glasgow",
+            "reading": "22 Dec 1841 p.4 “PIER HEAD”: “Dec. 20.—Arrived, Eclipse…; … John, Douglas, Glasgow, general cargo; Rapid…” This is a shipping row (vessel John; Douglas and Glasgow are row fields), not a personal name."
+          },
+          {
+            "image_id": "1380782497",
+            "positions": [
+              1
+            ],
+            "date": "1842-01-31",
+            "paper": "Freeman's Journal and Daily Commercial Advertiser",
+            "page": "2",
+            "status": "place/business; no personal John Glasgow in inspected hit context",
+            "reading": "31 Jan 1842 p.2 Burns supper report refers to the “Glasgow Arms Inn, William-street, North.” Glasgow is part of an inn name/locality; no John Glasgow surname is supported by this passage."
+          },
+          {
+            "image_id": "1380783413",
+            "positions": [
+              1
+            ],
+            "date": "1842-06-11",
+            "paper": "Freeman's Journal and Daily Commercial Advertiser",
+            "page": "1",
+            "status": "publication attribution/place; no personal John Glasgow in inspected hit context",
+            "reading": "11 Jun 1842 p.1 article ends with attribution “—Glasgow Saturday Post.” Glasgow is part of the newspaper title/attribution, not a person surname in the inspected passage."
+          },
+          {
+            "image_id": "1380770291",
+            "positions": [
+              1
+            ],
+            "date": "1843-02-25",
+            "paper": "Freeman's Journal and Daily Commercial Advertiser",
+            "page": "4",
+            "status": "place/collection; no personal John Glasgow in inspected hit context",
+            "reading": "25 Feb 1843 p.4 subscription lists include “Mr William Daly, Glasgow” and “Glasgow, per Hugh Donaghy, R.W.” These identify the collection locality with named collectors, not a person John Glasgow."
+          },
+          {
+            "image_id": "1369100894",
+            "positions": [
+              3
+            ],
+            "date": "1850-09-05",
+            "paper": "The Fermanagh Mail, and Enniskillen Chronicle",
+            "page": 3,
+            "status": "confirmed surname/person; source rows integrated under commit 1535085b",
+            "reading": "John Cassell coffee advertisement appointed-agent list: “Cookstown—John Glasgow.” Applications directed to John Cassell in London or his Dublin depot. No occupation/kinship/address beyond agency town stated."
+          },
+          {
+            "image_id": "1256975442",
+            "positions": [
+              2
+            ],
+            "date": "1849-11-03",
+            "paper": "The Sligo Champion",
+            "page": 1,
+            "status": "confirmed surname/person; source rows integrated under commit 1535085b",
+            "reading": "“John Cassell’s Coffees” notice lists “Cookstown—John Glasgow, merchant” among the agents. No kinship stated."
+          },
+          {
+            "image_id": "1256975114",
+            "positions": [
+              2
+            ],
+            "date": "1849-07-28",
+            "paper": "The Sligo Champion",
+            "page": 3,
+            "status": "confirmed surname/person; source rows integrated under commit 1535085b",
+            "reading": "“Cookstown … John Glasgow, merchant” beneath John Cassell’s Coffees heading. Distinct original from the 1849-11-03 and 1850-09-05 notices."
+          },
+          {
+            "image_id": "1050134301",
+            "positions": [
+              2
+            ],
+            "status": "existing original resolution reused",
+            "reading": "Locality Glasgow in damaged marriage notice, not personal surname; root original resolution already exists."
+          }
+        ],
+        "notes": "All 52 alternate positions are reviewed and the 108 current primary positions are accounted. Oldest-sort Show more stalled after 60; newest-sort returned 60; their 12-image overlap yields 108, matching provider-reported count, but neither physical End control was seen. Do not set or imply current End. The eight current-only primary screenshot crops were rejected as mismatched/reused pixels and replaced by source-matched original checks. Preserve the maintained historical end_of_results/cache fields without treating them as evidence that this current retrieval reached End. Three confirmed coffee-agent passages await source-row integration; no profile identity is inferred.",
+        "original_person_leads_pending_root_integration": [],
+        "original_person_leads_integrated_commit": "1535085b",
+        "coffee_agent_source_integration_receipt": {
+          "commit": "1535085b",
+          "distinct_confirmed_original_pages": [
+            "1369100894",
+            "1256975442",
+            "1256975114"
+          ],
+          "source_rows_integrated": true
+        }
+      },
+      "physical_end_seen": false,
+      "previous_run": {
+        "reported_entries": 109,
+        "retrieved_entries": 109,
+        "unique_image_count": 109,
+        "end_of_results": true,
+        "previews_screened": 109,
+        "triage": "All first previews screened oldest-first. Selected original passages verified; repeated merchant advertisements are one role, not separate people. Original 1050134301 is resolved as locality, not surname. Additional carousel highlights remain unexhausted.",
+        "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/full-john-ie.json"
+      },
+      "current_run": {
+        "reported_entries": 108,
+        "retrieved_entries": 108,
+        "unique_image_count": 108,
+        "end_of_results": false,
+        "physical_end_seen": false,
+        "previews_screened": 108,
+        "oldest_sort_cards_captured": 60,
+        "newest_sort_cards_captured": 60,
+        "sort_overlap_image_ids": 12,
+        "union_unique_image_ids": 108,
+        "union_matches_provider_report": true,
+        "primary_positions_accounted": 108,
+        "alternate_positions_reviewed": 52,
+        "alternate_positions_spanning_cards": 46,
+        "unique_image_position_slots_reviewed": 160,
+        "position_review_audit_path": "position_review_audit (existing row field)",
+        "prior_historic_cache_only_image_ids": [
+          "1050102174",
+          "1050122040",
+          "1050126480",
+          "1050129645",
+          "1050132466",
+          "1050136608",
+          "1050137248",
+          "1050139554",
+          "1050140153"
+        ],
+        "prior_cache_only_count": 9,
+        "stale_preview_capture_audit": {
+          "preview_capture_assets_rejected": 8,
+          "reused_unrelated_shipping_pixels": 7,
+          "apparent_cookstown_preview_absent_from_matched_original": "1380771756",
+          "repeated_positive_not_new": "1380778107 duplicates already retained finding/source 1050137248",
+          "note": "Do not use stale/mismatched preview pixels as surname evidence; source-matched original checks govern."
+        },
+        "current_source_capture_paths": [
+          "artifacts/pre1850-continuation-20261005/phase-1850-root/john-ie-current-cards.json",
+          "artifacts/pre1850-continuation-20261005/phase-1850-root/john-ie-newest-cards.json",
+          "artifacts/pre1850-continuation-20261005/phase-1850-common-ie-heavy/john-ie-combined-alternates-review.json",
+          "artifacts/pre1850-continuation-20261005/phase-1850-common-ie-heavy/john-ie-current-only-original-review.json"
+        ],
+        "archive_claim": false,
+        "confirmed_cookstown_coffee_agent_originals_integrated": [
+          {
+            "image_id": "1369100894",
+            "position": 3,
+            "date": "1850-09-05",
+            "paper": "The Fermanagh Mail, and Enniskillen Chronicle",
+            "page": 3,
+            "reading": "John Cassell appointed-agent list includes Cookstown—John Glasgow; no occupation or kinship stated."
+          },
+          {
+            "image_id": "1256975442",
+            "position": 2,
+            "date": "1849-11-03",
+            "paper": "The Sligo Champion",
+            "page": 1,
+            "reading": "John Cassell coffee notice lists Cookstown—John Glasgow, merchant."
+          },
+          {
+            "image_id": "1256975114",
+            "position": 2,
+            "date": "1849-07-28",
+            "paper": "The Sligo Champion",
+            "page": 3,
+            "reading": "John Cassell coffee notice lists Cookstown—John Glasgow, merchant; distinct original page."
+          }
+        ],
+        "coffee_source_integration_commit": "1535085b"
+      }
     },
     {
       "query": "\"James Glasgow\"",
@@ -1378,7 +5699,56 @@
       "end_of_results": true,
       "previews_screened": 3,
       "triage": "Three first previews: one cross-column Adam/Glasgow lead and two port/shipping references; no surname retained.",
-      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/continued-adam-ireland.json"
+      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/continued-adam-ireland.json",
+      "preview_positions_captured": 5,
+      "preview_positions_screened": 5,
+      "position_review_audit": {
+        "query": "\"Adam Glasgow\"",
+        "collection": "Ireland",
+        "date_start": 1800,
+        "date_end": 1850,
+        "source_packets": [
+          "phase-1850-gap-b/alternate-carousel-review/adam-ie-alternate-position-review.json + primary review"
+        ],
+        "search_url": "https://www.newspapers.com/search/results/?country=ie&date-end=1850&date-start=1800&keyword=%22Adam+Glasgow%22",
+        "current_run_result_cards": 3,
+        "end_control_seen": true,
+        "no_matches_confirmed": false,
+        "deduplicated_position_key_count": 5,
+        "position_keys": [
+          {
+            "image_id": "1050101549",
+            "position": 1
+          },
+          {
+            "image_id": "1050129302",
+            "position": 1
+          },
+          {
+            "image_id": "1050129302",
+            "position": 2
+          },
+          {
+            "image_id": "1256972954",
+            "position": 1
+          },
+          {
+            "image_id": "1256972954",
+            "position": 2
+          }
+        ],
+        "notes": "Three previously reviewed primary positions plus both alternate positions; all shipping/place. Rank3 alternate was checked against the full original; no personal Adam Glasgow.",
+        "prior_maintained_card_count": 3,
+        "original_context_refs": [
+          {
+            "image_id": "1256972954",
+            "positions": [
+              2
+            ],
+            "finding": "Original resolves rank3 alternate as shipping/port context per packet."
+          }
+        ]
+      }
     },
     {
       "query": "\"Nancy Glasgow\"",
@@ -1455,7 +5825,172 @@
           "qualification": "“vessel/consignment label” is qualified; the export-list line itself does not explicitly label the Nancy as a vessel."
         }
       ],
-      "original_positions_checked": 7
+      "original_positions_checked": 7,
+      "preview_positions_captured": 29,
+      "preview_positions_screened": 29,
+      "position_review_audit": {
+        "query": "\"Nancy Glasgow\"",
+        "collection": "Ireland",
+        "date_start": 1800,
+        "date_end": 1850,
+        "source_packets": [
+          "phase-1850-ie-missing-exact/nancy/nancy-ie-position-review.json"
+        ],
+        "search_url": "https://www.newspapers.com/search/results/?country=ie&date-end=1850&date-start=1800&keyword=%22Nancy+Glasgow%22",
+        "current_run_result_cards": 16,
+        "end_control_seen": true,
+        "no_matches_confirmed": false,
+        "deduplicated_position_key_count": 29,
+        "position_keys": [
+          {
+            "image_id": "61411000",
+            "position": 1
+          },
+          {
+            "image_id": "61411000",
+            "position": 2
+          },
+          {
+            "image_id": "61411004",
+            "position": 1
+          },
+          {
+            "image_id": "61411004",
+            "position": 2
+          },
+          {
+            "image_id": "61411008",
+            "position": 1
+          },
+          {
+            "image_id": "61411008",
+            "position": 2
+          },
+          {
+            "image_id": "61411012",
+            "position": 1
+          },
+          {
+            "image_id": "61411012",
+            "position": 2
+          },
+          {
+            "image_id": "61411016",
+            "position": 1
+          },
+          {
+            "image_id": "61411016",
+            "position": 2
+          },
+          {
+            "image_id": "61411020",
+            "position": 1
+          },
+          {
+            "image_id": "61411020",
+            "position": 2
+          },
+          {
+            "image_id": "61411024",
+            "position": 1
+          },
+          {
+            "image_id": "61411024",
+            "position": 2
+          },
+          {
+            "image_id": "61411028",
+            "position": 1
+          },
+          {
+            "image_id": "61411028",
+            "position": 2
+          },
+          {
+            "image_id": "1050067259",
+            "position": 1
+          },
+          {
+            "image_id": "1050067259",
+            "position": 2
+          },
+          {
+            "image_id": "1050104268",
+            "position": 1
+          },
+          {
+            "image_id": "1050123095",
+            "position": 1
+          },
+          {
+            "image_id": "1050123095",
+            "position": 2
+          },
+          {
+            "image_id": "1050134999",
+            "position": 1
+          },
+          {
+            "image_id": "1256975299",
+            "position": 1
+          },
+          {
+            "image_id": "1256975299",
+            "position": 2
+          },
+          {
+            "image_id": "1259393177",
+            "position": 1
+          },
+          {
+            "image_id": "1259393177",
+            "position": 2
+          },
+          {
+            "image_id": "1380771669",
+            "position": 1
+          },
+          {
+            "image_id": "1380771669",
+            "position": 2
+          },
+          {
+            "image_id": "1380780168",
+            "position": 1
+          }
+        ],
+        "notes": "All 16 current result cards and 29 visible positions reviewed to End; shipping/export/ship-sale contexts only. Reuses three prior original checks and checks 1050067259 for both hits.",
+        "prior_maintained_card_count": 16,
+        "original_context_refs": [
+          {
+            "image_id": "1050134999",
+            "positions": [],
+            "status": "prior approved original review reused",
+            "reading": "“Pier Head, Dublin” arrivals: Nancy, Glasgow, general cargo."
+          },
+          {
+            "image_id": "1050104268",
+            "positions": [],
+            "status": "prior approved original review reused",
+            "reading": "“Pier Head, Dublin” arrivals: Nancy, Glasgow, pig iron."
+          },
+          {
+            "image_id": "1259393177",
+            "positions": [],
+            "status": "prior approved original review reused for both highlights",
+            "reading": "Drogheda exports: “Nancy, for Glasgow”; qualified commercial/vessel or consignment label, Glasgow destination."
+          },
+          {
+            "image_id": "1050067259",
+            "positions": [
+              1,
+              2
+            ],
+            "status": "new original checked in this task for both highlights",
+            "reading": "Under “KINGSTOWN HARBOUR,” May 25 arrival rows include “Nancy Archer, wheat, Glasgow”; the second hit is Glasgow in that port list. Vessel and destination, no Glasgow-surname person."
+          }
+        ]
+      }
     },
     {
       "query": "\"Ellen Glasgow\"",
@@ -1468,7 +6003,50 @@
       "end_of_results": true,
       "previews_screened": 3,
       "triage": "Three first previews: Glasgow city in marriage notice and two shipping references.",
-      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/continued-ellen-ireland.json"
+      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/continued-ellen-ireland.json",
+      "preview_positions_captured": 4,
+      "preview_positions_screened": 4,
+      "position_review_audit": {
+        "query": "\"Ellen Glasgow\"",
+        "collection": "Ireland",
+        "date_start": 1800,
+        "date_end": 1850,
+        "source_packets": [
+          "phase-1850-common-ni-tail/ireland-carousel-gaps/ireland-carousel-gaps-review.json"
+        ],
+        "search_url": "https://www.newspapers.com/search/results/?country=ie&date-end=1850&date-start=1800&keyword=%22Ellen+Glasgow%22&sort=paper-date-asc",
+        "current_run_result_cards": 2,
+        "end_control_seen": true,
+        "no_matches_confirmed": false,
+        "deduplicated_position_key_count": 4,
+        "position_keys": [
+          {
+            "image_id": "1050127116",
+            "position": 1
+          },
+          {
+            "image_id": "1050127116",
+            "position": 2
+          },
+          {
+            "image_id": "1380773650",
+            "position": 1
+          },
+          {
+            "image_id": "1380773650",
+            "position": 2
+          }
+        ],
+        "notes": "Current run 2 cards / 4 positions; prior maintained row/cache has 3 cards. Preserve discrepancy: missing historic card remains unresolved.",
+        "prior_maintained_card_count": 3,
+        "current_run_cards": 2,
+        "previous_maintained_retrieved_entries": 3,
+        "historic_card_discrepancy": {
+          "prior": 3,
+          "current": 2,
+          "resolution": "unresolved missing former card"
+        }
+      }
     },
     {
       "query": "\"Boyd Glasgow\"",
@@ -1481,7 +6059,62 @@
       "end_of_results": true,
       "previews_screened": 5,
       "triage": "Five first previews were shipping or publishers by city; no surname retained.",
-      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/continued-boyd-ireland.json"
+      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/continued-boyd-ireland.json",
+      "preview_positions_captured": 8,
+      "preview_positions_screened": 8,
+      "position_review_audit": {
+        "query": "\"Boyd Glasgow\"",
+        "collection": "Ireland",
+        "date_start": 1800,
+        "date_end": 1850,
+        "source_packets": [
+          "phase-1850-common-ni-tail/ireland-carousel-gaps/ireland-carousel-gaps-review.json"
+        ],
+        "search_url": "https://www.newspapers.com/search/results/?country=ie&date-end=1850&date-start=1800&keyword=%22Boyd+Glasgow%22&sort=paper-date-asc",
+        "current_run_result_cards": 5,
+        "end_control_seen": true,
+        "no_matches_confirmed": false,
+        "deduplicated_position_key_count": 8,
+        "position_keys": [
+          {
+            "image_id": "1050047258",
+            "position": 1
+          },
+          {
+            "image_id": "1050047258",
+            "position": 2
+          },
+          {
+            "image_id": "1050047354",
+            "position": 1
+          },
+          {
+            "image_id": "1050047354",
+            "position": 2
+          },
+          {
+            "image_id": "1050055760",
+            "position": 1
+          },
+          {
+            "image_id": "1050055760",
+            "position": 2
+          },
+          {
+            "image_id": "1380783111",
+            "position": 1
+          },
+          {
+            "image_id": "1380783268",
+            "position": 1
+          }
+        ],
+        "notes": "Every position in current End-bounded result set was reviewed.",
+        "prior_maintained_card_count": 5,
+        "current_run_cards": 5,
+        "previous_maintained_retrieved_entries": 5,
+        "historic_card_discrepancy": null
+      }
     },
     {
       "query": "\"Rose Glasgow\"",
@@ -1494,7 +6127,58 @@
       "end_of_results": true,
       "previews_screened": 4,
       "triage": "Four first previews were ships/Glasgow city or Lord Glasgow; no target-person surname retained.",
-      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/continued-rose-ireland.json"
+      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/continued-rose-ireland.json",
+      "preview_positions_captured": 7,
+      "preview_positions_screened": 7,
+      "position_review_audit": {
+        "query": "\"Rose Glasgow\"",
+        "collection": "Ireland",
+        "date_start": 1800,
+        "date_end": 1850,
+        "source_packets": [
+          "phase-1850-common-ni-tail/ireland-carousel-gaps/ireland-carousel-gaps-review.json"
+        ],
+        "search_url": "https://www.newspapers.com/search/results/?country=ie&date-end=1850&date-start=1800&keyword=%22Rose+Glasgow%22&sort=paper-date-asc",
+        "current_run_result_cards": 4,
+        "end_control_seen": true,
+        "no_matches_confirmed": false,
+        "deduplicated_position_key_count": 7,
+        "position_keys": [
+          {
+            "image_id": "1050060479",
+            "position": 1
+          },
+          {
+            "image_id": "1050060479",
+            "position": 2
+          },
+          {
+            "image_id": "1256971603",
+            "position": 1
+          },
+          {
+            "image_id": "1256971603",
+            "position": 2
+          },
+          {
+            "image_id": "1261042028",
+            "position": 1
+          },
+          {
+            "image_id": "1380778203",
+            "position": 1
+          },
+          {
+            "image_id": "1380778203",
+            "position": 2
+          }
+        ],
+        "notes": "Every position in current End-bounded result set was reviewed.",
+        "prior_maintained_card_count": 4,
+        "current_run_cards": 4,
+        "previous_maintained_retrieved_entries": 4,
+        "historic_card_discrepancy": null
+      }
     },
     {
       "query": "\"Margaret Glasgow\"",
@@ -1607,7 +6291,372 @@
           "paper": "Belfast News-Letter",
           "page": 3
         }
-      ]
+      ],
+      "preview_positions_captured": 57,
+      "preview_positions_screened": 57,
+      "position_review_audit": {
+        "query": "\"Adam Glasgow\"",
+        "collection": "Northern Ireland",
+        "date_start": 1800,
+        "date_end": 1850,
+        "source_packets": [
+          "phase-1850-john-ie/adam-ni-1800-1850/adam-ni-position-review.json"
+        ],
+        "search_url": "https://www.newspapers.com/search/results/?date-end=1850&date-start=1800&keyword=%22Adam+Glasgow%22&region=gb-nir&sort=paper-date-asc",
+        "current_run_result_cards": 27,
+        "end_control_seen": true,
+        "no_matches_confirmed": false,
+        "deduplicated_position_key_count": 57,
+        "position_keys": [
+          {
+            "image_id": "390542489",
+            "position": 1
+          },
+          {
+            "image_id": "390542489",
+            "position": 2
+          },
+          {
+            "image_id": "390545012",
+            "position": 1
+          },
+          {
+            "image_id": "390545012",
+            "position": 2
+          },
+          {
+            "image_id": "390545012",
+            "position": 3
+          },
+          {
+            "image_id": "390545012",
+            "position": 4
+          },
+          {
+            "image_id": "390545285",
+            "position": 1
+          },
+          {
+            "image_id": "390545285",
+            "position": 2
+          },
+          {
+            "image_id": "390545285",
+            "position": 3
+          },
+          {
+            "image_id": "390545285",
+            "position": 4
+          },
+          {
+            "image_id": "390546267",
+            "position": 1
+          },
+          {
+            "image_id": "390546267",
+            "position": 2
+          },
+          {
+            "image_id": "390546267",
+            "position": 3
+          },
+          {
+            "image_id": "390546267",
+            "position": 4
+          },
+          {
+            "image_id": "390546267",
+            "position": 5
+          },
+          {
+            "image_id": "390546267",
+            "position": 6
+          },
+          {
+            "image_id": "390552100",
+            "position": 1
+          },
+          {
+            "image_id": "390552341",
+            "position": 1
+          },
+          {
+            "image_id": "390552341",
+            "position": 2
+          },
+          {
+            "image_id": "390552842",
+            "position": 1
+          },
+          {
+            "image_id": "390552842",
+            "position": 2
+          },
+          {
+            "image_id": "390553900",
+            "position": 1
+          },
+          {
+            "image_id": "390553900",
+            "position": 2
+          },
+          {
+            "image_id": "390554024",
+            "position": 1
+          },
+          {
+            "image_id": "390554024",
+            "position": 2
+          },
+          {
+            "image_id": "390554024",
+            "position": 3
+          },
+          {
+            "image_id": "390554024",
+            "position": 4
+          },
+          {
+            "image_id": "390555182",
+            "position": 1
+          },
+          {
+            "image_id": "390555182",
+            "position": 2
+          },
+          {
+            "image_id": "390555219",
+            "position": 1
+          },
+          {
+            "image_id": "390556571",
+            "position": 1
+          },
+          {
+            "image_id": "390556571",
+            "position": 2
+          },
+          {
+            "image_id": "390559244",
+            "position": 1
+          },
+          {
+            "image_id": "390559938",
+            "position": 1
+          },
+          {
+            "image_id": "390559938",
+            "position": 2
+          },
+          {
+            "image_id": "390560193",
+            "position": 1
+          },
+          {
+            "image_id": "390560450",
+            "position": 1
+          },
+          {
+            "image_id": "390560975",
+            "position": 1
+          },
+          {
+            "image_id": "390563103",
+            "position": 1
+          },
+          {
+            "image_id": "390563260",
+            "position": 1
+          },
+          {
+            "image_id": "390566541",
+            "position": 1
+          },
+          {
+            "image_id": "390566541",
+            "position": 2
+          },
+          {
+            "image_id": "390566630",
+            "position": 1
+          },
+          {
+            "image_id": "390566630",
+            "position": 2
+          },
+          {
+            "image_id": "390566630",
+            "position": 3
+          },
+          {
+            "image_id": "390566630",
+            "position": 4
+          },
+          {
+            "image_id": "390569791",
+            "position": 1
+          },
+          {
+            "image_id": "390569791",
+            "position": 2
+          },
+          {
+            "image_id": "390569859",
+            "position": 1
+          },
+          {
+            "image_id": "390569859",
+            "position": 2
+          },
+          {
+            "image_id": "390569869",
+            "position": 1
+          },
+          {
+            "image_id": "390569869",
+            "position": 2
+          },
+          {
+            "image_id": "390569869",
+            "position": 3
+          },
+          {
+            "image_id": "390569869",
+            "position": 4
+          },
+          {
+            "image_id": "390572414",
+            "position": 1
+          },
+          {
+            "image_id": "390582666",
+            "position": 1
+          },
+          {
+            "image_id": "390582666",
+            "position": 2
+          }
+        ],
+        "notes": "All 57 captured highlight positions across 26 distinct image IDs are reviewed; End visible. Existing first-preview metric remains 18/27 readable (nine primary previews stay blank); do not convert original reads into readable first-preview counts. Original follow-up status is refreshed from the root-approved packet; four confirmed positive pages are integrated in f7ef2b62, one ambiguous page is a negative phrase-level resolution, and existing/shared page checks are reused.",
+        "prior_maintained_card_count": 27,
+        "original_context_refs": [
+          {
+            "image_id": "390560975",
+            "positions": [],
+            "status": "original checked / already represented in current query row"
+          },
+          {
+            "image_id": "390552100",
+            "positions": [],
+            "status": "original checked / already represented in current query row"
+          },
+          {
+            "image_id": "390552341",
+            "positions": [],
+            "status": "original checked / already represented in current query row"
+          },
+          {
+            "image_id": "390560193",
+            "positions": [],
+            "status": "original checked / already represented in current query row"
+          },
+          {
+            "image_id": "390559938",
+            "positions": [],
+            "status": "original checked / already represented in current query row"
+          },
+          {
+            "image_id": "390552842",
+            "positions": [
+              1,
+              2
+            ],
+            "status": "integrated in commit f7ef2b62",
+            "reading": "Original-supported marriage notice names Mr Adam Glasgow of Inishrush, county Derry, father of Nancy; the other highlighted passage names Rev. Adam Glasgow."
+          },
+          {
+            "image_id": "390560450",
+            "positions": [
+              1
+            ],
+            "status": "integrated in commit f7ef2b62",
+            "reading": "Marriage-related notice names Rev. Adam Glasgow among ministers/officiants; full proposal preserves bounded wording."
+          },
+          {
+            "image_id": "390563103",
+            "positions": [
+              1
+            ],
+            "status": "integrated in commit f7ef2b62",
+            "reading": "Original-supported soirée passage identifies Rev. Adam Glasgow."
+          },
+          {
+            "image_id": "390563260",
+            "positions": [
+              1
+            ],
+            "status": "integrated in commit f7ef2b62",
+            "reading": "Original-supported Town Mission annual meeting report identifies Rev. Adam Glasgow."
+          },
+          {
+            "image_id": "390566541",
+            "positions": [
+              1,
+              2
+            ],
+            "status": "original checked; false phrase-level pairing resolved",
+            "reading": "“Mr Adam of Scotland and Charles …” and a separate Glasgow occurrence; page does not name Adam Glasgow."
+          },
+          {
+            "image_id": "390559244",
+            "positions": [
+              1
+            ],
+            "status": "Adam clause/crops appended in commit f7ef2b62; existing James row preserved",
+            "reading": "Synod passage separately names Rev. Adam Glasgow with James Carr; James source row integrated in maintained batch 7c4af1ea."
+          },
+          {
+            "image_id": "390556571",
+            "positions": [
+              1,
+              2
+            ],
+            "status": "existing retained original review reused",
+            "reading": "Clergy/platform list on 12 March 1841 names Rev. Adam Glasgow."
+          }
+        ],
+        "unresolved_original_position_leads": [],
+        "unique_source_image_ids": 26,
+        "readable_primary_previews_screened": 18,
+        "blank_primary_previews_not_counted": 9,
+        "all_position_packet_items": 57,
+        "original_leads_from_packet": [
+          "390566541#1",
+          "#2",
+          "390556571#2",
+          "390552842#1",
+          "390560450#1",
+          "390563103#1"
+        ],
+        "resolved_with_original_or_existing_row": [
+          "390556571#2"
+        ],
+        "root_approved_original_integration_packet": "phase-1850-john-ie/adam-ni-1800-1850/adam-ni-integration-proposal.json",
+        "root_approved_original_integration_status": "Integrated under commit f7ef2b62: three new retained sources and two appended Adam clauses/crops; four positive-page pending count is zero.",
+        "root_approved_original_integration_commit": "f7ef2b62",
+        "root_approved_original_integration_receipt": {
+          "new_sources": [
+            "390552842",
+            "390560450",
+            "390563260"
+          ],
+          "appended_to_existing_sources": [
+            "390563103",
+            "390559244"
+          ],
+          "root_verified_new_inputs": 9
+        }
+      }
     },
     {
       "query": "\"Nancy Glasgow\"",
@@ -1713,7 +6762,235 @@
       "end_of_results": true,
       "previews_screened": 24,
       "triage": "All 24 first previews are ships or Glasgow city. No Jane surname retained. Additional carousel highlights not exhausted.",
-      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/next-jane-ni.json"
+      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/next-jane-ni.json",
+      "preview_positions_captured": 52,
+      "preview_positions_screened": 52,
+      "position_review_audit": {
+        "query": "\"Jane Glasgow\"",
+        "collection": "Northern Ireland",
+        "date_start": 1800,
+        "date_end": 1850,
+        "source_packets": [
+          "phase-1850-common-ie-short/jane-ni-full-24cards-review.json"
+        ],
+        "search_url": "https://www.newspapers.com/search/results/?region=gb-nir&date-start=1800&date-end=1850&keyword=%22Jane+Glasgow%22",
+        "current_run_result_cards": 24,
+        "end_control_seen": true,
+        "no_matches_confirmed": false,
+        "deduplicated_position_key_count": 52,
+        "position_keys": [
+          {
+            "image_id": "61257173",
+            "position": 1
+          },
+          {
+            "image_id": "61257173",
+            "position": 2
+          },
+          {
+            "image_id": "61258364",
+            "position": 1
+          },
+          {
+            "image_id": "61258364",
+            "position": 2
+          },
+          {
+            "image_id": "61259278",
+            "position": 1
+          },
+          {
+            "image_id": "61259278",
+            "position": 2
+          },
+          {
+            "image_id": "390541445",
+            "position": 1
+          },
+          {
+            "image_id": "390541445",
+            "position": 2
+          },
+          {
+            "image_id": "390544302",
+            "position": 1
+          },
+          {
+            "image_id": "390544302",
+            "position": 2
+          },
+          {
+            "image_id": "390544875",
+            "position": 1
+          },
+          {
+            "image_id": "390544875",
+            "position": 2
+          },
+          {
+            "image_id": "390549552",
+            "position": 1
+          },
+          {
+            "image_id": "390549552",
+            "position": 2
+          },
+          {
+            "image_id": "390551149",
+            "position": 1
+          },
+          {
+            "image_id": "390551149",
+            "position": 2
+          },
+          {
+            "image_id": "390551552",
+            "position": 1
+          },
+          {
+            "image_id": "390551552",
+            "position": 2
+          },
+          {
+            "image_id": "390553291",
+            "position": 1
+          },
+          {
+            "image_id": "390553291",
+            "position": 2
+          },
+          {
+            "image_id": "390555764",
+            "position": 1
+          },
+          {
+            "image_id": "390555764",
+            "position": 2
+          },
+          {
+            "image_id": "390557884",
+            "position": 1
+          },
+          {
+            "image_id": "390557884",
+            "position": 2
+          },
+          {
+            "image_id": "390558580",
+            "position": 1
+          },
+          {
+            "image_id": "390558580",
+            "position": 2
+          },
+          {
+            "image_id": "390560752",
+            "position": 1
+          },
+          {
+            "image_id": "390560752",
+            "position": 2
+          },
+          {
+            "image_id": "390562033",
+            "position": 1
+          },
+          {
+            "image_id": "390562033",
+            "position": 2
+          },
+          {
+            "image_id": "390562233",
+            "position": 1
+          },
+          {
+            "image_id": "390562233",
+            "position": 2
+          },
+          {
+            "image_id": "390565019",
+            "position": 1
+          },
+          {
+            "image_id": "390565019",
+            "position": 2
+          },
+          {
+            "image_id": "390567209",
+            "position": 1
+          },
+          {
+            "image_id": "390567209",
+            "position": 2
+          },
+          {
+            "image_id": "390568171",
+            "position": 1
+          },
+          {
+            "image_id": "390568171",
+            "position": 2
+          },
+          {
+            "image_id": "390569906",
+            "position": 1
+          },
+          {
+            "image_id": "390569906",
+            "position": 2
+          },
+          {
+            "image_id": "390570611",
+            "position": 1
+          },
+          {
+            "image_id": "390570611",
+            "position": 2
+          },
+          {
+            "image_id": "390570611",
+            "position": 3
+          },
+          {
+            "image_id": "390570611",
+            "position": 4
+          },
+          {
+            "image_id": "390570611",
+            "position": 5
+          },
+          {
+            "image_id": "390570611",
+            "position": 6
+          },
+          {
+            "image_id": "390570938",
+            "position": 1
+          },
+          {
+            "image_id": "390570938",
+            "position": 2
+          },
+          {
+            "image_id": "390572806",
+            "position": 1
+          },
+          {
+            "image_id": "390572806",
+            "position": 2
+          },
+          {
+            "image_id": "390573612",
+            "position": 1
+          },
+          {
+            "image_id": "390573612",
+            "position": 2
+          }
+        ],
+        "notes": "24 cards; 52 unique image-ID/position slots; all vessel/port/cargo/casualty contexts. Disabled End marker was visible. Reuses 24 parent-saved positions and adds 28 newly reviewed positions.",
+        "prior_maintained_card_count": 24
+      }
     },
     {
       "query": "\"Jane Glasgow\"",
@@ -1809,8 +7086,135 @@
       "unique_image_count": 5,
       "end_of_results": true,
       "previews_screened": 5,
-      "triage": "Five first previews show Joseph Wood, Joseph Adams, Joseph Boyce or ships, rather than a verified Glasgow surname. Cropped secondary match contexts remain untested; no surname retained.",
-      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/next-joseph-ie.json"
+      "triage": "Five cached cards reached End; all five primary previews had prior screening and all five secondary positions are now checked against matched native originals (10 distinct image-ID-position slots). Each secondary is a place, vessel, or other-name match; no Joseph Glasgow person is confirmed.",
+      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/next-joseph-ie.json",
+      "preview_positions_captured": 10,
+      "preview_positions_screened": 10,
+      "position_review_audit": {
+        "query": "\"Joseph Glasgow\"",
+        "collection": "Ireland",
+        "date_start": 1800,
+        "date_end": 1850,
+        "source_packets": [
+          "phase-1850-james-ni/joseph-ie-final-gap/joseph-ie-secondary-position-audit.json"
+        ],
+        "current_run_result_cards": 5,
+        "current_run_unique_source_images": 5,
+        "deduplicated_position_key_count": 10,
+        "position_keys": [
+          {
+            "image_id": "1050082436",
+            "position": 1
+          },
+          {
+            "image_id": "1050082436",
+            "position": 2
+          },
+          {
+            "image_id": "1050105532",
+            "position": 1
+          },
+          {
+            "image_id": "1050105532",
+            "position": 2
+          },
+          {
+            "image_id": "1050107685",
+            "position": 1
+          },
+          {
+            "image_id": "1050107685",
+            "position": 2
+          },
+          {
+            "image_id": "1050128358",
+            "position": 1
+          },
+          {
+            "image_id": "1050128358",
+            "position": 2
+          },
+          {
+            "image_id": "1259428943",
+            "position": 1
+          },
+          {
+            "image_id": "1259428943",
+            "position": 2
+          }
+        ],
+        "end_control_seen": true,
+        "end_basis": "cached search metadata in the audit; the position task itself is original-context review, not a fresh browser run",
+        "all_five_secondary_positions_original_checked": true,
+        "original_context_refs": [
+          {
+            "image_id": "1050105532",
+            "positions": [
+              2
+            ],
+            "date": "1809-05-08",
+            "paper": "Freeman's Journal and Daily Commercial Advertiser",
+            "page": "3",
+            "status": "other-name + city; not a Glasgow surname",
+            "reading": "“FANCY BRITISH MUSLINS. JOSEPH WOOD ... having returned from London and Glasgow ...” The named person is Joseph Wood; Glasgow is the city in his travel/trade context.",
+            "original_path": "artifacts/pre1850-continuation-20261005/phase-1850-root/final-gap-originals/1050105532-original.jpg",
+            "original_sha256": "31a011af8a89b23c73504e77f91855aa81479414fd937776ad78bfbe1ea19697"
+          },
+          {
+            "image_id": "1050107685",
+            "positions": [
+              2
+            ],
+            "date": "1809-05-20",
+            "paper": "Freeman's Journal and Daily Commercial Advertiser",
+            "page": "3",
+            "status": "other-name + city; not a Glasgow surname",
+            "reading": "The repeated “FANCY BRITISH MUSLINS” advertisement names JOSEPH WOOD and says he returned from LONDON and GLASGOW. Glasgow is a city in the advertisement, not a surname.",
+            "original_path": "artifacts/pre1850-continuation-20261005/phase-1850-root/final-gap-originals/1050107685-original.jpg",
+            "original_sha256": "0fb0a405999fc00a4ba2df70386c388ce43ed9f375f6785f8d48781a399bfdcb"
+          },
+          {
+            "image_id": "1050128358",
+            "positions": [
+              2
+            ],
+            "date": "1822-02-05",
+            "paper": "Freeman's Journal and Daily Commercial Advertiser",
+            "page": "4",
+            "status": "place/business address; not a Glasgow surname",
+            "reading": "“Joseph Adams, of the Leith and Glasgow Wharf, East Smithfield,” contracted for the passage of soldiers and their families from the River Thames to North Britain ports. “Glasgow Wharf” is a place/business address, not Joseph’s surname.",
+            "original_path": "artifacts/pre1850-continuation-20261005/phase-1850-root/final-gap-originals/1050128358-latest-native.jpg",
+            "original_sha256": "69e4e8bcf07e365c89115bd38f324aa85f31d1f6232e9d4550ec45270c2b884a"
+          },
+          {
+            "image_id": "1050082436",
+            "positions": [
+              2
+            ],
+            "date": "1836-08-06",
+            "paper": "Freeman's Journal and Daily Commercial Advertiser",
+            "page": "1",
+            "status": "other-name + city; not a Glasgow surname",
+            "reading": "A steamer advertisement is headed “STEAMER TO GLASGOW.” Its “DIRECTORS: Dublin” group includes Joseph Boyce. “Glasgow” is the heading for a separate list below; the layout does not read Joseph Boyce, Glasgow.",
+            "original_path": "artifacts/pre1850-continuation-20261005/phase-1850-root/final-gap-originals/1050082436-original.jpg",
+            "original_sha256": "ea9c68a1dea909ee71b14e7a8769766b48f9f436399103a1362e4a5c577dac76"
+          },
+          {
+            "image_id": "1259428943",
+            "positions": [
+              2
+            ],
+            "date": "1839-11-30",
+            "paper": "The Drogheda Argus and Leinster Journal",
+            "page": "3",
+            "status": "vessel/place; not a Glasgow surname",
+            "reading": "In the shipping-arrivals table, one entry reads “Glasgow, Williams, Liverpool, Goods”; another “Joras, Rowland, Glasgow, Goods.” In this vessel/master/port/cargo list, Glasgow appears as a vessel name in one row and the port in another. No Joseph occurs in either entry.",
+            "original_path": "artifacts/pre1850-continuation-20261005/phase-1850-root/final-gap-originals/1259428943-original.jpg",
+            "original_sha256": "e7b8727ac0ef2c3c02cbe2f886d17e4be9c8ba11622e0cf9a1bb7cb3461200fe"
+          }
+        ],
+        "summary": "All five secondary contexts are place, vessel, or other-name matches. No Joseph Glasgow surname is confirmed. No profile/origin inference."
+      }
     },
     {
       "query": "\"Henry Glasgow\"",
@@ -1823,7 +7227,86 @@
       "end_of_results": true,
       "previews_screened": 7,
       "triage": "All seven first previews are Henry ships, or King Henry of Glasgow, not a surname. Carousel highlights not exhausted.",
-      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/next-henry-ie.json"
+      "source_capture": ".cache/newspapers/2026-10-04/irish-1800-1850/next-henry-ie.json",
+      "preview_positions_captured": 14,
+      "preview_positions_screened": 14,
+      "position_review_audit": {
+        "query": "\"Henry Glasgow\"",
+        "collection": "Ireland",
+        "date_start": 1800,
+        "date_end": 1850,
+        "source_packets": [
+          "phase-1850-common-ni-tail/ireland-carousel-gaps/ireland-carousel-gaps-review.json"
+        ],
+        "search_url": "https://www.newspapers.com/search/results/?country=ie&date-end=1850&date-start=1800&keyword=%22Henry+Glasgow%22&sort=paper-date-asc",
+        "current_run_result_cards": 7,
+        "end_control_seen": true,
+        "no_matches_confirmed": false,
+        "deduplicated_position_key_count": 14,
+        "position_keys": [
+          {
+            "image_id": "60321847",
+            "position": 1
+          },
+          {
+            "image_id": "60321847",
+            "position": 2
+          },
+          {
+            "image_id": "1141698949",
+            "position": 1
+          },
+          {
+            "image_id": "1141698949",
+            "position": 2
+          },
+          {
+            "image_id": "1259391387",
+            "position": 1
+          },
+          {
+            "image_id": "1259391387",
+            "position": 2
+          },
+          {
+            "image_id": "1259428866",
+            "position": 1
+          },
+          {
+            "image_id": "1259428866",
+            "position": 2
+          },
+          {
+            "image_id": "1261004231",
+            "position": 1
+          },
+          {
+            "image_id": "1261004231",
+            "position": 2
+          },
+          {
+            "image_id": "1380774282",
+            "position": 1
+          },
+          {
+            "image_id": "1380774282",
+            "position": 2
+          },
+          {
+            "image_id": "1380785541",
+            "position": 1
+          },
+          {
+            "image_id": "1380785541",
+            "position": 2
+          }
+        ],
+        "notes": "Every position in current End-bounded result set was reviewed.",
+        "prior_maintained_card_count": 7,
+        "current_run_cards": 7,
+        "previous_maintained_retrieved_entries": 7,
+        "historic_card_discrepancy": null
+      }
     },
     {
       "query": "\"Joseph Glasgow\"",
@@ -1961,7 +7444,71 @@
       "end_of_results": true,
       "previews_screened": 4,
       "triage": "Four first previews: St Michael ship/port, Right Rev Michael with Glasgow locality (full name cropped), and John Glasgow Cookstown tea/coffee agent adjacent to Michael at Cootehill. No Michael Glasgow identified; John original selected. Reinspection: Preview screening pending.",
-      "source_capture": ".cache/newspapers/2026-10-04/continued/small-queries.json"
+      "source_capture": ".cache/newspapers/2026-10-04/continued/small-queries.json",
+      "preview_positions_captured": 8,
+      "preview_positions_screened": 8,
+      "position_review_audit": {
+        "query": "\"Michael Glasgow\"",
+        "collection": "Northern Ireland",
+        "date_start": 1800,
+        "date_end": 1850,
+        "source_packets": [
+          "phase-1850-gap-b/michael-ni-offline-review.json",
+          "phase-1850-gap-b/michael-390561923-original-resolution.json"
+        ],
+        "current_run_result_cards": 4,
+        "end_control_seen": true,
+        "deduplicated_position_key_count": 8,
+        "position_keys": [
+          {
+            "image_id": "390543002",
+            "position": 1
+          },
+          {
+            "image_id": "390543002",
+            "position": 2
+          },
+          {
+            "image_id": "390556388",
+            "position": 1
+          },
+          {
+            "image_id": "390556388",
+            "position": 2
+          },
+          {
+            "image_id": "390561923",
+            "position": 1
+          },
+          {
+            "image_id": "390561923",
+            "position": 2
+          },
+          {
+            "image_id": "390568532",
+            "position": 1
+          },
+          {
+            "image_id": "390568532",
+            "position": 2
+          }
+        ],
+        "original_context_refs": [
+          {
+            "image_id": "390561923",
+            "positions": [
+              1,
+              2
+            ],
+            "date": "1843-05-19",
+            "paper": "Belfast News-Letter",
+            "page": 1,
+            "status": "original checked; false phrase-level match",
+            "reading": "“The Right Rev. Michael Russell, D.D., Bishop of Glasgow.” The full original line identifies Russell as the surname; Glasgow is his bishopric/see, not his surname."
+          }
+        ],
+        "notes": "All four cards/eight positions reviewed; saved query state showed End. Original match on rank 2 positions 1–2 reads “The Right Rev. Michael Russell, D.D., Bishop of Glasgow”; surname Russell and Glasgow is his see, not surname. No Michael Glasgow person found in these captured positions."
+      }
     },
     {
       "query": "\"Philip Glasgow\"",
@@ -4693,7 +10240,27 @@
       "preview_positions_readable": 0,
       "query_status": "Zero good matches shown; End status not applicable.",
       "search_url": "https://www.newspapers.com/search/results/?country=gb&date-end=1850&date-start=1800&keyword=%22Adelaide+Glasgow%22&sort=paper-date-asc&region=gb-nir",
-      "no_good_matches": true
+      "no_good_matches": true,
+      "position_review_audit": {
+        "query": "\"Adelaide Glasgow\"",
+        "collection": "Northern Ireland",
+        "date_start": 1800,
+        "date_end": 1850,
+        "source_packets": [
+          "phase-1850-common-ni-tail/six-exact-query-capture-review.json"
+        ],
+        "search_url": "https://www.newspapers.com/search/results/?country=gb&date-end=1850&date-start=1800&keyword=%22Adelaide+Glasgow%22&sort=paper-date-asc&region=gb-nir",
+        "current_run_result_cards": 0,
+        "end_control_seen": null,
+        "no_matches_confirmed": true,
+        "deduplicated_position_key_count": 0,
+        "position_keys": [],
+        "notes": "No result cards were returned in the settled no-match UI.",
+        "existing_position_counts_match_packet": {
+          "captured": 0,
+          "screened": 0
+        }
+      }
     },
     {
       "query": "\"Alice Glasgow\"",
@@ -4722,7 +10289,96 @@
       "readable_card_count": 8,
       "preview_positions_readable": 17,
       "query_status": "8 cards / 17 positions reviewed; End true; no personal Glasgow surname occurrence identified.",
-      "search_url": "https://www.newspapers.com/search/results/?country=gb&date-end=1850&date-start=1800&keyword=%22Alice+Glasgow%22&region=gb-nir"
+      "search_url": "https://www.newspapers.com/search/results/?country=gb&date-end=1850&date-start=1800&keyword=%22Alice+Glasgow%22&region=gb-nir",
+      "position_review_audit": {
+        "query": "\"Alice Glasgow\"",
+        "collection": "Northern Ireland",
+        "date_start": 1800,
+        "date_end": 1850,
+        "source_packets": [
+          "phase-1850-common-ni-tail/six-exact-query-capture-review.json"
+        ],
+        "search_url": "https://www.newspapers.com/search/results/?country=gb&date-end=1850&date-start=1800&keyword=%22Alice+Glasgow%22&region=gb-nir",
+        "current_run_result_cards": 8,
+        "end_control_seen": true,
+        "no_matches_confirmed": false,
+        "deduplicated_position_key_count": 17,
+        "position_keys": [
+          {
+            "image_id": "390552552",
+            "position": 1
+          },
+          {
+            "image_id": "390552552",
+            "position": 2
+          },
+          {
+            "image_id": "390553632",
+            "position": 1
+          },
+          {
+            "image_id": "390553632",
+            "position": 2
+          },
+          {
+            "image_id": "390554120",
+            "position": 1
+          },
+          {
+            "image_id": "390554120",
+            "position": 2
+          },
+          {
+            "image_id": "390554711",
+            "position": 1
+          },
+          {
+            "image_id": "390554711",
+            "position": 2
+          },
+          {
+            "image_id": "390555341",
+            "position": 1
+          },
+          {
+            "image_id": "390555341",
+            "position": 2
+          },
+          {
+            "image_id": "390557699",
+            "position": 1
+          },
+          {
+            "image_id": "390557699",
+            "position": 2
+          },
+          {
+            "image_id": "390557699",
+            "position": 3
+          },
+          {
+            "image_id": "390559093",
+            "position": 1
+          },
+          {
+            "image_id": "390559093",
+            "position": 2
+          },
+          {
+            "image_id": "390560332",
+            "position": 1
+          },
+          {
+            "image_id": "390560332",
+            "position": 2
+          }
+        ],
+        "notes": "All captured positions reviewed; shipping/place context.",
+        "existing_position_counts_match_packet": {
+          "captured": 17,
+          "screened": 17
+        }
+      }
     },
     {
       "query": "\"Allen Glasgow\"",
@@ -4752,7 +10408,27 @@
       "preview_positions_readable": 0,
       "query_status": "Zero good matches shown; End status not applicable.",
       "search_url": "https://www.newspapers.com/search/results/?country=gb&date-end=1850&date-start=1800&keyword=%22Allen+Glasgow%22&region=gb-nir",
-      "no_good_matches": true
+      "no_good_matches": true,
+      "position_review_audit": {
+        "query": "\"Allen Glasgow\"",
+        "collection": "Northern Ireland",
+        "date_start": 1800,
+        "date_end": 1850,
+        "source_packets": [
+          "phase-1850-common-ni-tail/six-exact-query-capture-review.json"
+        ],
+        "search_url": "https://www.newspapers.com/search/results/?country=gb&date-end=1850&date-start=1800&keyword=%22Allen+Glasgow%22&region=gb-nir",
+        "current_run_result_cards": 0,
+        "end_control_seen": null,
+        "no_matches_confirmed": true,
+        "deduplicated_position_key_count": 0,
+        "position_keys": [],
+        "notes": "No result cards were returned in the settled no-match UI.",
+        "existing_position_counts_match_packet": {
+          "captured": 0,
+          "screened": 0
+        }
+      }
     },
     {
       "query": "\"Anna Glasgow\"",
@@ -4781,7 +10457,44 @@
       "readable_card_count": 2,
       "preview_positions_readable": 4,
       "query_status": "2 cards / 4 positions reviewed; End true; no personal Glasgow surname occurrence identified.",
-      "search_url": "https://www.newspapers.com/search/results/?country=gb&date-end=1850&date-start=1800&keyword=%22Anna+Glasgow%22&region=gb-nir"
+      "search_url": "https://www.newspapers.com/search/results/?country=gb&date-end=1850&date-start=1800&keyword=%22Anna+Glasgow%22&region=gb-nir",
+      "position_review_audit": {
+        "query": "\"Anna Glasgow\"",
+        "collection": "Northern Ireland",
+        "date_start": 1800,
+        "date_end": 1850,
+        "source_packets": [
+          "phase-1850-common-ni-tail/six-exact-query-capture-review.json"
+        ],
+        "search_url": "https://www.newspapers.com/search/results/?country=gb&date-end=1850&date-start=1800&keyword=%22Anna+Glasgow%22&region=gb-nir",
+        "current_run_result_cards": 2,
+        "end_control_seen": true,
+        "no_matches_confirmed": false,
+        "deduplicated_position_key_count": 4,
+        "position_keys": [
+          {
+            "image_id": "390549121",
+            "position": 1
+          },
+          {
+            "image_id": "390549121",
+            "position": 2
+          },
+          {
+            "image_id": "390555589",
+            "position": 1
+          },
+          {
+            "image_id": "390555589",
+            "position": 2
+          }
+        ],
+        "notes": "All captured positions reviewed; shipping/place context.",
+        "existing_position_counts_match_packet": {
+          "captured": 4,
+          "screened": 4
+        }
+      }
     },
     {
       "query": "\"Betty Glasgow\"",
@@ -4810,7 +10523,48 @@
       "readable_card_count": 2,
       "preview_positions_readable": 5,
       "query_status": "2 cards / 5 positions reviewed; End true; no personal Glasgow surname occurrence identified.",
-      "search_url": "https://www.newspapers.com/search/results/?country=gb&date-end=1850&date-start=1800&keyword=%22Betty+Glasgow%22&region=gb-nir"
+      "search_url": "https://www.newspapers.com/search/results/?country=gb&date-end=1850&date-start=1800&keyword=%22Betty+Glasgow%22&region=gb-nir",
+      "position_review_audit": {
+        "query": "\"Betty Glasgow\"",
+        "collection": "Northern Ireland",
+        "date_start": 1800,
+        "date_end": 1850,
+        "source_packets": [
+          "phase-1850-common-ni-tail/six-exact-query-capture-review.json"
+        ],
+        "search_url": "https://www.newspapers.com/search/results/?country=gb&date-end=1850&date-start=1800&keyword=%22Betty+Glasgow%22&region=gb-nir",
+        "current_run_result_cards": 2,
+        "end_control_seen": true,
+        "no_matches_confirmed": false,
+        "deduplicated_position_key_count": 5,
+        "position_keys": [
+          {
+            "image_id": "390561637",
+            "position": 1
+          },
+          {
+            "image_id": "390561637",
+            "position": 2
+          },
+          {
+            "image_id": "390563735",
+            "position": 1
+          },
+          {
+            "image_id": "390563735",
+            "position": 2
+          },
+          {
+            "image_id": "390563735",
+            "position": 3
+          }
+        ],
+        "notes": "All captured positions reviewed; shipping/place context.",
+        "existing_position_counts_match_packet": {
+          "captured": 5,
+          "screened": 5
+        }
+      }
     },
     {
       "query": "\"Bridget Glasgow\"",
@@ -4840,7 +10594,27 @@
       "preview_positions_readable": 0,
       "query_status": "Zero good matches shown; End status not applicable.",
       "search_url": "https://www.newspapers.com/search/results/?country=gb&date-end=1850&date-start=1800&keyword=%22Bridget+Glasgow%22&region=gb-nir",
-      "no_good_matches": true
+      "no_good_matches": true,
+      "position_review_audit": {
+        "query": "\"Bridget Glasgow\"",
+        "collection": "Northern Ireland",
+        "date_start": 1800,
+        "date_end": 1850,
+        "source_packets": [
+          "phase-1850-common-ni-tail/six-exact-query-capture-review.json"
+        ],
+        "search_url": "https://www.newspapers.com/search/results/?country=gb&date-end=1850&date-start=1800&keyword=%22Bridget+Glasgow%22&region=gb-nir",
+        "current_run_result_cards": 0,
+        "end_control_seen": null,
+        "no_matches_confirmed": true,
+        "deduplicated_position_key_count": 0,
+        "position_keys": [],
+        "notes": "No result cards were returned in the settled no-match UI.",
+        "existing_position_counts_match_packet": {
+          "captured": 0,
+          "screened": 0
+        }
+      }
     },
     {
       "query": "\"Julia Glasgow\"",
@@ -5681,8 +11455,8 @@
   "reviewed_original_pending_context": [],
   "coverage_totals": {
     "distinct_queries": 147,
-    "retrieved_entries": 1936,
-    "readable_first_previews_screened": 1919,
+    "retrieved_entries": 1935,
+    "readable_first_previews_screened": 1918,
     "newly_resolved_original_pages": 173,
     "seventh_batch_preview_positions_screened": 360,
     "eighth_batch_preview_positions_screened": 393,
@@ -5706,7 +11480,7 @@
     "sixteenth_batch_preview_positions_reviewed": 91,
     "sixteenth_batch_additional_preview_positions_vs_primary_previews": 39,
     "sixteenth_batch_unreviewed_captured_positions": 0,
-    "query_row_unique_image_counts_sum": 1916,
+    "query_row_unique_image_counts_sum": 1915,
     "query_history_count": 169,
     "seventeenth_batch_preview_positions_reviewed": 226,
     "seventeenth_batch_unreviewed_captured_positions": 0,
@@ -5727,7 +11501,17 @@
     "additional_ni_six_query_batch_positions": 49,
     "additional_ie_seven_query_batch_cards": 28,
     "additional_ie_seven_query_batch_positions": 52,
-    "additional_alt_positions_newly_reviewed": 46
+    "additional_alt_positions_newly_reviewed": 46,
+    "query_row_reported_entries_sum": 1938,
+    "query_row_retrieved_entries_sum": 1935,
+    "query_row_first_previews_screened_sum": 1918,
+    "query_row_unique_image_counts_rows": 141,
+    "query_row_unique_image_counts_missing_rows": 6,
+    "query_row_position_captures_sum": 1548,
+    "query_row_position_capture_rows": 88,
+    "query_row_position_screenings_sum": 4215,
+    "query_row_position_screening_rows": 130,
+    "query_row_sum_semantics": "Sums are across the 147 exact name-form/collection rows. Reported/retrieved entries and image counts can repeat the same issue across queries; these figures are not unique people, distinct archive pages, or query-history events. Unique-image values sum only the 141 rows where a value is maintained; six rows have no unique_image_count."
   },
   "seventh_original_evidence": [
     {
