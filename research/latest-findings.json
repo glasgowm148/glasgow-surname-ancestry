@@ -3,6 +3,45 @@
   "scope": "Explicitly dated, recoverable new concrete record findings and supported factual corrections. Dates and explicit date ranges are research retrieval, supplied-record review or original-reading dates stated in the maintained evidence, not the dates of historical events or file modification. Undated historical conclusions, pure confirmations, speculative parent rankings, negative searches and routine profile/build activity are excluded. This is a recoverable dated history, not an exhaustive account of all past research.",
   "findings": [
     {
+      "id": "adam-glasgow-belfast-ministry-notices-1840",
+      "found_on": "2026-10-05",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "Four original-checked Belfast News-Letter passages from 1840 name Rev. Adam Glasgow: as officiant at a James and Margaret Small marriage, as opening a Townsend-street Presbyterian soirée, among speakers at the Belfast Town Mission annual meeting, and among two Synod ministers accepted for India mission service with James Carr. The Synod report says Kathiawar or Guzerat was selected and gives a planned 4 August departure overland to Bombay.",
+      "qualification": "The notices give no middle name or unique identifier; the ministerial context is compatible with, but does not uniquely identify, Glasgow-1781. “Wednesday evening last” for the Town Mission meeting is retained as printed. The August journey is planned, not proof of departure. The separate Synod passage names James Carr, not James Glasgow, and establishes no kinship. The 1842 Nancy marriage notice is not included here because the same fact was already documented; it is added only as primary-source corroboration.",
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 7 August 1840, p. 3",
+          "url": "https://www.newspapers.com/image/390560450/"
+        },
+        {
+          "title": "Belfast News-Letter, 30 October 1840, p. 2",
+          "url": "https://www.newspapers.com/image/390563103/"
+        },
+        {
+          "title": "Belfast News-Letter, 6 November 1840, p. 2",
+          "url": "https://www.newspapers.com/image/390563260/"
+        },
+        {
+          "title": "Belfast News-Letter, 14 July 1840, p. 1",
+          "url": "https://www.newspapers.com/image/390559244/"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-1781",
+          "name": "Adam Dickie Glasgow",
+          "url": "/people/glasgow-1781.html",
+          "role": "Possible compatible candidate; the originals do not uniquely identify this profile."
+        }
+      ],
+      "detail_url": "/research/subjects/newspapers-irish-1800-1850/#adam-belfast-education-ministry",
+      "provenance": [
+        "artifacts/pre1850-continuation-20261005/phase-1850-john-ie/adam-ni-1800-1850/adam-ni-integration-proposal.json",
+        "research/Glasgow-1781/findings.md"
+      ]
+    },
+    {
       "id": "james-glasgow-belfast-college-castledawson-india-1829-1842",
       "found_on": "2026-10-05",
       "kind": "biographical",

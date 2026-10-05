@@ -4,6 +4,17 @@ Last updated: 2026-10-05
 
 ## Source findings
 
+### Belfast ministerial notices, 1840
+
+Marriage notice: on 25 July 1840 (reported as “25th ult.”), Mr James Small, of Lottery Cottage, county Armagh, married Miss Margaret Small of this town; the officiant was Rev. Adam Glasgow. Minister/officiant occurrence, not kinship. Keep adjacent London/St George’s wedding separate. Strongly compatible with Glasgow-1781, without unique identification. [Belfast News-Letter, 7 August 1840, p. 3](https://www.newspapers.com/image/390560450/).
+
+Separate soirée passage: at a Tuesday-evening meeting on 27 October at the New School-house connected with the Presbyterian Church, Townsend-street, Rev. Adam Glasgow opened the proceedings; Rev. Josias Wilson closed with prayer. Do not replace/remove the existing Cookstown Academy/Robert Glasgow reading on this same page. Keep both distinct passages in one page row and one clip asset, with Adam as an additional excerpt. Strongly compatible with Glasgow-1781; no kinship. [Belfast News-Letter, 30 October 1840, p. 2](https://www.newspapers.com/image/390563103/).
+
+Belfast Town Mission annual meeting in the new school-room, Fisherwick-place, was held “on Wednesday evening last”; Rev. Adam Glasgow is among listed speakers. Preserve relative date wording; do not infer 28 October. Separate anti-slavery meeting on page is unrelated. Strongly compatible with Glasgow-1781; no kinship. [Belfast News-Letter, 6 November 1840, p. 2](https://www.newspapers.com/image/390563260/).
+
+General Synod report separately says ordained Ministers Messrs Adam Glasgow and James Carr offered themselves for foreign mission in India and were accepted; initial field Kathiawar/Guzerat, planned departure 4 August overland to Bombay. This is James Carr, not James Glasgow in adjacent set-apart report. Parent is coordinating separate passage with James packet; append distinct Adam target/excerpt if needed. Planned departure is not proof journey occurred. [Belfast News-Letter, 14 July 1840, p. 1](https://www.newspapers.com/image/390559244/).
+
+
 | Source | Finding | Assessment |
 | --- | --- | --- |
 | [James McClure Glasgow missionary journal](https://revjamesmcclureglasgow.blogspot.com/) | James repeatedly calls Adam his brother, initially locating him in Belfast and later reporting Adam's arrival in New Zealand and congregation in Dunedin. | First-person direct evidence for the sibling relationship and migration sequence. The place details distinguish Adam Dickey Glasgow from Adam of Inishrush. The journal is archived under `research/Glasgow-1780/sources/`. |

@@ -135,6 +135,11 @@ Adam's son, Daniel would be Adam's possible grandson rather than his son.
 
 ## Source findings
 
+### Belfast News-Letter marriage notice, 1 February 1842
+
+A contemporaneous original notice independently confirms the same marriage and father wording: [Belfast News-Letter, 1 February 1842, p. 3](https://www.newspapers.com/image/390552842/), original checked 5 October 2026. The notice corroborates the already documented marriage/father link; no new birth, mother, or identity inference is added.
+
+
 The 1767 John's family record is important collateral evidence: his documented
 children include [Rose Ann Glasgow](https://www.wikitree.com/wiki/Glasgow-821),
 [Adam Glasgow](https://www.wikitree.com/wiki/Glasgow-3373),

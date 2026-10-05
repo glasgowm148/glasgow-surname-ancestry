@@ -9,6 +9,12 @@ Last updated: 2026-07-17
 | WikiTree API capture, 16 July 2026 | `Glasgow-3907` and spouse `Kyle-3461` each use guessed birth year about 1822; the attached marriage has no structured date. | The notice supports adding 14 January 1842 to the marriage. It does not support either guessed birth year. |
 | [Londonderry Sentinel marriage-notice transcriptions, 1829-1849](https://cotyrone.com/~inthenews/marriage-notices-1829-1831/) | An exact `GLASGOW`/`GLASCO` sweep found no other target-family notice in the seven period pages. | No sibling can be identified from this run. Coverage begins in September 1829 and the derivative pages are not complete registers, so the result is not evidence that Nancy's five older sisters were unmarried. |
 
+## Source findings
+
+### Belfast News-Letter marriage notice, 1 February 1842
+
+A contemporaneous original notice independently confirms the same marriage and father wording: [Belfast News-Letter, 1 February 1842, p. 3](https://www.newspapers.com/image/390552842/), original checked 5 October 2026. The notice corroborates the already documented marriage/father link; no new birth, mother, or identity inference is added.
+
 ## Current conclusion
 
 The marriage notice directly identifies Nancy as the sixth daughter of Adam

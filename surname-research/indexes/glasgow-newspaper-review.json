@@ -4845,17 +4845,27 @@
       "page": "2",
       "source_url": "https://www.newspapers.com/image/390563103/",
       "queries": [
-        "\"Robert Glasgow\""
+        "\"Robert Glasgow\"",
+        "\"Adam Glasgow\""
       ],
       "status": "confirmed surname",
-      "reading": "Cookstown Academy seeks a classical/commercial teacher; Mr Robert Glasgow, chairman of the superintending committee, is the Cookstown applicant contact. Dated 28 October 1840.",
-      "assessment": "The notices name roles, not his age or family. The 1836 contact is not explicitly described as innkeeper or owner. The Academy is not described as a Sunday school. Consolidated as a same-name Cookstown research account; identity between the notices, the mill partner, Robert-2656 and Robert-3941 remains unproved. Neither notice identifies the already-deceased father of the surgeon.",
+      "reading": "Cookstown Academy seeks a classical/commercial teacher; Mr Robert Glasgow, chairman of the superintending committee, is the Cookstown applicant contact. Dated 28 October 1840. A separate Townsend-street soirée passage says Rev. Adam Glasgow opened the proceedings on Tuesday evening, 27 October 1840; Rev. Josias Wilson closed with prayer. This is distinct from the Cookstown Academy passage about Robert Glasgow.",
+      "assessment": "The notices name roles, not his age or family. The 1836 contact is not explicitly described as innkeeper or owner. The Academy is not described as a Sunday school. Consolidated as a same-name Cookstown research account; identity between the notices, the mill partner, Robert-2656 and Robert-3941 remains unproved. Neither notice identifies the already-deceased father of the surgeon. The Adam Glasgow passage is a distinct occurrence; no kinship with James or Robert Glasgow is implied.",
       "profile_ids": [
         "Glasgow-2656",
-        "Glasgow-3941"
+        "Glasgow-3941",
+        "Glasgow-1781"
       ],
       "draft_url": "/research/subjects/newspapers-irish-1800-1850/#robert-cookstown-contacts",
-      "reviewed_on": "2026-10-04"
+      "reviewed_on": "2026-10-04",
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-1781",
+          "confidence": "possible",
+          "role": "separate Rev. Adam Glasgow passage",
+          "basis": "Belfast ministry and India mission context fit the existing Rev. Adam Dickie Glasgow dossier, but the notice supplies no middle name or unique identifier."
+        }
+      ]
     },
     {
       "image_id": "1050103241",
@@ -16768,13 +16778,15 @@
       "page": "1",
       "source_url": "https://www.newspapers.com/image/390559244/",
       "queries": [
-        "\"James Glasgow\""
+        "\"James Glasgow\"",
+        "\"Adam Glasgow\""
       ],
       "status": "confirmed surname",
-      "reading": "In the General Assembly report, “The Assembly then proceeded to set apart two Missionaries to India—namely, the Rev. James Glasgow, of Castledawson, and the Rev. Alexander Kerr, of Portadown.” They stated their motives and were set apart for the India mission. No exact meeting date is supplied in this excerpt. Elsewhere on the same page, a separate report says two Synod ministers, Messrs. Adam Glasgow and James Carr, offered for the Synod’s foreign mission to India; this is a distinct passage and establishes no relationship to James.",
-      "assessment": "Castledawson and India mission career are probable matches to Glasgow-1780 as a continuing subject; the printed source does not state a middle name. Do not describe this appointment as made by the Synod: the selected paragraph explicitly says the Assembly. Adam Glasgow in a separate earlier clause is a separate person occurrence; no kinship is inferred. The printed line breaks the place across lines as “Porta-/down,” read as Portadown. The place is printed across a line break as “Porta-/down,” read as Portadown.",
+      "reading": "In the General Assembly report, “The Assembly then proceeded to set apart two Missionaries to India—namely, the Rev. James Glasgow, of Castledawson, and the Rev. Alexander Kerr, of Portadown.” They stated their motives and were set apart for the India mission. No exact meeting date is supplied in this excerpt. Elsewhere on the same page, a separate report says two Synod ministers, Messrs. Adam Glasgow and James Carr, offered for the Synod’s foreign mission to India; this is a distinct passage and establishes no relationship to James. A separate General Synod report says ordained ministers Messrs. Adam Glasgow and James Carr offered themselves for the Synod’s foreign mission in India and were accepted; Kathiawar or Guzerat was selected as their first field, with a planned 4 August departure overland to Bombay. This is separate from the General Assembly passage about Rev. James Glasgow and Alexander Kerr.",
+      "assessment": "Castledawson and India mission career are probable matches to Glasgow-1780 as a continuing subject; the printed source does not state a middle name. Do not describe this appointment as made by the Synod: the selected paragraph explicitly says the Assembly. Adam Glasgow in a separate earlier clause is a separate person occurrence; no kinship is inferred. The printed line breaks the place across lines as “Porta-/down,” read as Portadown. The place is printed across a line break as “Porta-/down,” read as Portadown. The Adam Glasgow passage is a distinct occurrence; no kinship with James or Robert Glasgow is implied.",
       "profile_ids": [
-        "Glasgow-1780"
+        "Glasgow-1780",
+        "Glasgow-1781"
       ],
       "draft_url": "/research/subjects/newspapers-irish-1800-1850/#james-belfast-college",
       "reviewed_on": "2026-10-05",
@@ -16784,6 +16796,12 @@
           "confidence": "probable",
           "role": "named subject",
           "basis": "Castledawson and India mission career are probable matches to Glasgow-1780 as a continuing subject; the printed source does not state a middle name. Do not describe this appointment as made by the Synod: the selected paragraph explicitly says the Assembly. Adam Glasgow in a separate earlier clause is a separate person occurrence; no kinship is inferred."
+        },
+        {
+          "profile_id": "Glasgow-1781",
+          "confidence": "possible",
+          "role": "separate Rev. Adam Glasgow passage",
+          "basis": "Belfast ministry and India mission context fit the existing Rev. Adam Dickie Glasgow dossier, but the notice supplies no middle name or unique identifier."
         }
       ]
     },
@@ -16836,6 +16854,97 @@
           "confidence": "possible",
           "role": "named subject",
           "basis": "The named Belfast College student is a possible match to Glasgow-1780 by the broader education-to-ministry sequence only; this notice alone does not identify him as the later Castledawson minister."
+        }
+      ]
+    },
+    {
+      "image_id": "390552842",
+      "date": "1842-02-01",
+      "paper": "Belfast News-Letter",
+      "page": "3",
+      "source_url": "https://www.newspapers.com/image/390552842/",
+      "queries": [
+        "\"Adam Glasgow\""
+      ],
+      "status": "confirmed surname",
+      "reading": "Marriage notice: On 14 January 1842, Mr John Kyle of Tyanee married Nancy, sixth daughter of Mr Adam Glasgow of Inishrush, county Derry.",
+      "assessment": "Identifies the already documented Nancy Glasgow-3907 and father Adam Glasgow-3902; direct evidence for father-child relationship and marriage, with no age, mother, or place of marriage stated. Separate preceding notice uses Glasgow as Rev John Rogers’s place, not surname.",
+      "profile_ids": [
+        "Glasgow-3902",
+        "Glasgow-3907",
+        "Kyle-3461"
+      ],
+      "reviewed_on": "2026-10-05",
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-3907",
+          "confidence": "probable",
+          "role": "bride",
+          "basis": "The existing dossier already transcribes this same marriage and identifies Nancy Glasgow; this original independently confirms its wording."
+        },
+        {
+          "profile_id": "Glasgow-3902",
+          "confidence": "probable",
+          "role": "named father",
+          "basis": "The existing dossier already identifies Adam-3902 as Nancy’s father; this original confirms the printed father–daughter statement."
+        },
+        {
+          "profile_id": "Kyle-3461",
+          "confidence": "probable",
+          "role": "groom",
+          "basis": "Existing profile dossier records John Kyle of Tyanee and the same marriage; no new identity inference."
+        }
+      ]
+    },
+    {
+      "image_id": "390560450",
+      "date": "1840-08-07",
+      "paper": "Belfast News-Letter",
+      "page": "3",
+      "source_url": "https://www.newspapers.com/image/390560450/",
+      "queries": [
+        "\"Adam Glasgow\""
+      ],
+      "status": "confirmed surname",
+      "reading": "Marriage notice: on 25 July 1840 (reported as “25th ult.”), Mr James Small, of Lottery Cottage, county Armagh, married Miss Margaret Small of this town; the officiant was Rev. Adam Glasgow.",
+      "assessment": "Minister/officiant occurrence, not kinship. Keep adjacent London/St George’s wedding separate. Strongly compatible with Glasgow-1781, without unique identification.",
+      "profile_ids": [
+        "Glasgow-1781"
+      ],
+      "draft_url": "/research/subjects/newspapers-irish-1800-1850/#adam-belfast-education-ministry",
+      "reviewed_on": "2026-10-05",
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-1781",
+          "confidence": "possible",
+          "role": "named Rev. Adam Glasgow",
+          "basis": "Chronology and Belfast ministry/mission context fit the existing Rev. Adam Dickie Glasgow dossier, but these notices give no middle name or unique identifier."
+        }
+      ]
+    },
+    {
+      "image_id": "390563260",
+      "date": "1840-11-06",
+      "paper": "Belfast News-Letter",
+      "page": "2",
+      "source_url": "https://www.newspapers.com/image/390563260/",
+      "queries": [
+        "\"Adam Glasgow\""
+      ],
+      "status": "confirmed surname",
+      "reading": "Belfast Town Mission annual meeting in the new school-room, Fisherwick-place, was held “on Wednesday evening last”; Rev. Adam Glasgow is among listed speakers.",
+      "assessment": "Preserve relative date wording; do not infer 28 October. Separate anti-slavery meeting on page is unrelated. Strongly compatible with Glasgow-1781; no kinship.",
+      "profile_ids": [
+        "Glasgow-1781"
+      ],
+      "draft_url": "/research/subjects/newspapers-irish-1800-1850/#adam-belfast-education-ministry",
+      "reviewed_on": "2026-10-05",
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-1781",
+          "confidence": "possible",
+          "role": "named Rev. Adam Glasgow",
+          "basis": "Chronology and Belfast ministry/mission context fit the existing Rev. Adam Dickie Glasgow dossier, but these notices give no middle name or unique identifier."
         }
       ]
     }

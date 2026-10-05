@@ -2825,6 +2825,15 @@
             "Chairman of Cookstown Academy’s superintending committee and applicant contact for a classical/commercial teacher.",
             "Notice dated 28 October 1840."
           ]
+        },
+        {
+          "name": "Rev. Adam Glasgow",
+          "place": "Townsend-street Presbyterian Church soirée",
+          "birth_label": "Birth unknown",
+          "birth_basis": "",
+          "details": [
+            "Opened proceedings at the 27 October 1840 soirée; Rev. Josias Wilson closed with prayer."
+          ]
         }
       ],
       "record_type": "school advertisement",
@@ -2832,8 +2841,8 @@
         "occupation",
         "residence"
       ],
-      "summary": "Cookstown Academy seeks a classical/commercial teacher; Mr Robert Glasgow, chairman of the superintending committee, is the Cookstown applicant contact. Dated 28 October 1840.",
-      "reading_sha256": "7afc9ca2f47c1fafae5f55f4e3608dfd7f4b8473b7e0252c4df61d9acabae0f6"
+      "summary": "Cookstown Academy seeks a classical/commercial teacher; Mr Robert Glasgow, chairman of the superintending committee, is the Cookstown applicant contact. Dated 28 October 1840. Separate passage: Rev. Adam Glasgow opened the Townsend-street soirée; the Robert Glasgow academy notice remains a distinct passage.",
+      "reading_sha256": "79efdce2f8d0909ab9a57601df936ecb094eace1a34bcc0ef2c95f55b42c331e"
     },
     "390554509": {
       "people": [
@@ -8691,14 +8700,23 @@
           "details": [
             "The General Assembly set apart Rev. James Glasgow of Castledawson and Rev. Alexander Kerr of Portadown as missionaries to India. A separate earlier passage on the same issue names Rev. Adam Glasgow among Synod missionaries; the passages are distinct and do not imply kinship."
           ]
+        },
+        {
+          "name": "Rev. Adam Glasgow",
+          "place": "Synod foreign mission to India",
+          "birth_label": "Birth unknown",
+          "birth_basis": "",
+          "details": [
+            "Offered himself with James Carr for the Synod’s India mission and was accepted; Kathiawar or Guzerat was selected as the first field, with a planned departure overland to Bombay on 4 August."
+          ]
         }
       ],
       "record_type": "church/missionary appointment",
       "evidence_tags": [
         "occupation"
       ],
-      "summary": "The General Assembly set apart Rev. James Glasgow of Castledawson and Rev. Alexander Kerr of Portadown as missionaries to India. A separate earlier passage on the same issue names Rev. Adam Glasgow among Synod missionaries; the passages are distinct and do not imply kinship.",
-      "reading_sha256": "f8f65f767634c070ac93477f35af67db6d5056b9abd0834e18b46d7599afbe98"
+      "summary": "The General Assembly set apart Rev. James Glasgow of Castledawson and Rev. Alexander Kerr of Portadown as missionaries to India. A separate earlier passage on the same issue names Rev. Adam Glasgow among Synod missionaries; the passages are distinct and do not imply kinship. Separate Synod report: Adam Glasgow and James Carr were accepted for India mission service; distinct from the James Glasgow General Assembly passage.",
+      "reading_sha256": "d838840f053854d20784e53ef533bba4c6f024dbe80509ff476cbb25c678e786"
     },
     "390563026": {
       "people": [
@@ -8735,6 +8753,65 @@
       "evidence_tags": [],
       "summary": "An 1829 Belfast College premium list names James Glasgow, Belfast College, for an essay on the application of testimony to miraculous events. This is a student/award entry; identity with the later minister is possible, not established.",
       "reading_sha256": "533a494678498507f156401fa919d0fab25d9e575262d1f30354b622053fe186"
+    },
+    "390552842": {
+      "people": [
+        {
+          "name": "Nancy Glasgow",
+          "place": "Inishrush, county Derry (father’s stated place)",
+          "birth_label": "Birth unknown",
+          "birth_basis": "",
+          "details": [
+            "Married John Kyle of Tyanee on 14 January 1842 (date derived from “14th ult.”). Sixth daughter of Mr Adam Glasgow of Inishrush."
+          ]
+        }
+      ],
+      "record_type": "marriage notice",
+      "evidence_tags": [
+        "spouse",
+        "parent-child",
+        "residence"
+      ],
+      "summary": "Marriage notice names John Kyle of Tyanee and Nancy, sixth daughter of Mr Adam Glasgow of Inishrush, county Derry.",
+      "reading_sha256": "cab59eda74b69b27c5cd68cb996d3e83e0602b6a735806a1b07cbb3d6ad05689"
+    },
+    "390560450": {
+      "people": [
+        {
+          "name": "Rev. Adam Glasgow",
+          "place": "Belfast (paper context; event/officiant only)",
+          "birth_label": "Birth unknown",
+          "birth_basis": "",
+          "details": [
+            "Officiated at the marriage of James Small of Lottery Cottage, county Armagh, and Margaret Small of this town; notice says “25th ult.”"
+          ]
+        }
+      ],
+      "record_type": "marriage notice",
+      "evidence_tags": [
+        "occupation"
+      ],
+      "summary": "Rev. Adam Glasgow officiated at the marriage of James Small and Margaret Small; the notice reports 25 July 1840.",
+      "reading_sha256": "d85a57ea6b791eb3d9ab1bc0249d6b040a1df1f461f8fdce06ad956e7d997923"
+    },
+    "390563260": {
+      "people": [
+        {
+          "name": "Rev. Adam Glasgow",
+          "place": "Belfast Town Mission meeting, Fisherwick-place",
+          "birth_label": "Birth unknown",
+          "birth_basis": "",
+          "details": [
+            "Listed among speakers at the 13th annual Belfast Town Mission meeting held “on Wednesday evening last.”"
+          ]
+        }
+      ],
+      "record_type": "public meeting report",
+      "evidence_tags": [
+        "occupation"
+      ],
+      "summary": "The Belfast Town Mission annual-meeting report lists Rev. Adam Glasgow among the speakers; it preserves the event date as “Wednesday evening last.”",
+      "reading_sha256": "b962049244d25f5b03154c43bdbec42fb4cd4fa07e92891506b5c141bebedc1c"
     }
   }
 }
