@@ -24,6 +24,12 @@ except ModuleNotFoundError:
 
 ROOT = Path(__file__).resolve().parents[1]
 WEB = ROOT / "www"
+
+
+def public_findings(identifiers, policy):
+    """Apply the public boundary to maintained notes before dossier rendering."""
+    return policy.project(catalogue._load_research_findings(identifiers))
+
 CATEGORIES = {
     "conclusion": ("research-update", "Current research conclusion"),
     "sources": ("research-findings", "Case-file source findings"),
@@ -277,6 +283,7 @@ def main():
     parser.add_argument("--write", action="store_true", help="Refresh reviewed existing dossiers and queue presentation")
     args = parser.parse_args()
     evidence = catalogue._load_wikitree_evidence()
+    policy = from_sources(evidence)
     updates = catalogue._load_profile_updates(evidence)
     queue_payload = read_json(catalogue.PROFILE_UPDATE_QUEUE)
     comparisons = completed_comparisons(evidence, queue_payload)
@@ -306,7 +313,7 @@ def main():
             continue
         dossier = read_json(path)
         identifiers = list(dict.fromkeys([dossier["id"], *by_slug[slug].get("profile_ids", [])]))
-        findings = catalogue._load_research_findings(identifiers)
+        findings = public_findings(identifiers, policy)
         update = updates.get(ident)
         html_path = path.with_suffix(".html")
         soup = BeautifulSoup(read_html(html_path, site_root=WEB), "html.parser")
