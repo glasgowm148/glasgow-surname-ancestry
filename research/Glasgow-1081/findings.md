@@ -21,8 +21,8 @@ is stronger than a one-record coincidence. Their entries are consecutive in the
 use the same uncommon `Glascho` spelling. About thirty years later men named John and James
 represented Kilwaughter and served as its overseer respectively. This supports
 a persistent local family cluster, but neither man is explicitly identified as
-the earlier householder. **Close kinship remains probable as a working cluster
-assessment**, conditional on the identity continuity; neither source names a
+the earlier householder. **Close kinship is possible, not established** (lowered
+from probable on 6 October 2026; see the assessment below); neither source names a
 relationship or establishes brothers, father and son, cousins or another degree.
 
 The 1669 transcription distinguishes the Kilwaughter `Glascho` entries,
@@ -40,10 +40,11 @@ or descendants of this James without a bridging record.
 
 ## Relationship assessment
 
-- John Glasgow-3913 was probably a close relative. That assessment rests on
-  the same-name cluster in two independent record groups, not merely the adjacent
-  surname entries; continuity of the individuals and the exact relationship remain
-  unproved.
+- John Glasgow-3913 was possibly a close relative (lowered from probable on
+  6 October 2026). The evidence is the adjacent 1669 entries with the same uncommon
+  spelling; the men of 1700-01 are tied to the 1669 householders only by unproved
+  continuity and never appear in the same minute, so they are not an independent
+  second record group. The exact relationship is open.
 - Robert Glasgow-3970 at Larne in 1653 is a possible father or older relative only.
 - Robert-1502, Hugh-1503, James-1504, William-1505 and Robert-1143 belong to the
   later district cluster; none is proved as James's child.
@@ -96,3 +97,25 @@ Re-read on the page images of [volume 3, pp. 16-19](https://archive.org/details/
 The years are corrected from the 1699 and 1700 given in earlier notes. Porter himself adds "(1700)" to the heading of the stipend run ("May 12, 1699 (1700)"), and the weekdays written into the minutes fit 1700 and not 1699: 12 May 1700 was a Sunday ("two Sabbaths together, of which this is the first") and the Presbytery of "the 7th of this inst." fell on Tuesday 7 May 1700. The minute printed "Feb. 27, 1700" is 27 February 1700/01 by ordinary Old Style reckoning. The minute printed "May 29, 1700.—Thursday" belongs to the same continuous run: 29 May fell on a Wednesday in 1700 and a Thursday in 1701, and the run's other weekday clues after 25 March (13 April, a Sunday; 17 April, a Thursday) also fit 1701, so it is **probably Thursday 29 May 1701**. That is an inference from the weekdays; a wrong weekday in the copy cannot be excluded without the original or the 1826 printing.
 
 These extracts are a printed transcription (*The Christian Unitarian* 2, 1863, and 3, 1864) of a manuscript copy of the 1699-1701 Larne session record, which Porter believed was "made or procured" by Rev. Samuel Eccles for Rev. D. Davison, who printed extracts from it in the *Christian Moderator* (1826), pp. 207-245. Porter had not found the original and arranged the extracts "not chronologically, but according to subject", so they stand two removes from the minute book. The entries from 1721 onward are Porter's printed transcription of the session book then in his hands; whether that book is now within PRONI MIC/1B/6 is unverified.
+
+<!-- larne-kilwaughter-audit-2026-10-06:early-model -->
+## Identity assessment — one James or two, 6 October 2026
+
+Keep one profile; do not split. The records cannot decide whether the 1669 householder and the later officer were one man (unresolved).
+
+- The elder "James Glasgow (erased), deceased 1726", the James Glasgow who was a commissioner at Larne on 3 June 1722 and the 1727 Connor wills index entry "James Glasgow, Kilwater" are **probably one man** (inference): one James in the congregational record, a Kilwaughter place in the index, and a death year that fits the index year.
+- The overseer for Kilwochter of (probably) 29 May 1701 is probably the same man, but this is the weakest step: the session minutes for 1701-1721 are lost, and the identification rests on the same name and district and the absence of any recorded rival.
+- He is never marked senior or junior. That proves little: the clerks used such markers inconsistently, and this congregation shows same-name succession (a James Ramsay on the 1700 list and a James Ramsay constituted elder on 30 April 1721; two unmarked Robert Whites on the 1721 list).
+- If he was the 1669 householder he was about 53 or more in 1701, 74 or more in 1722 and about 78 at death. That is possible: the 1722 Presbytery met at Larne, so a commissioner did not have to travel. An unrecorded successor is also possible.
+
+Death: 1726, from the annotation "deceased 1726" against James Glasgow in the Larne session list (Porter's printed transcription); a will of James Glasgow of Kilwater is indexed in 1727 (Connor; original lost). This applies to the session elder. "Before 1651" for the birth is only a boundary from the 1669 roll.
+
+## Relationship assessment — John Glasgow-3913, 6 October 2026
+
+John Glasgow-3913 and James Glasgow-1081 were possibly close kin. The 1669 hearth-money roll (Macafee transcription, records 5347-5348) lists "Jo Glascho" and "James Glascho" consecutively at Kilwaughter Demesne with the same uncommon spelling. That is strong association evidence that the two households were connected, but it states no relationship and supports no particular degree: brother, father and son, uncle and nephew, and cousin are all open. Men named John (called "sen." in 1700) and James act for the Kilwochter district in 1700-01, never in the same minute; their identity with the 1669 householders is itself unproved, so they are not an independent second line of evidence. The assessment was "probable" until 6 October 2026 and was lowered because every element of it is association evidence (adjacency, spelling, place, recurring forenames). The sibling arrangement on WikiTree exists only through the uncertain shared father Glasgow-3970; it stays uncertain and nothing is detached.
+
+## Next records
+
+- PRONI MIC/1B/6: the first page of the session book begun in February 1721, for the exact wording and order of the list and any note of when James became an elder.
+- The *Christian Moderator* (1826), pp. 207-245, the earlier printing of the 1699-1701 extracts, to test the year of the overseer minute.
+- NRS GD154/525, /530 and /532 (Kilwaughter rentals c.1690-1708): a James and a John Glasgow as tenants, with any "elder", "younger" or successor wording, would test one James against two.

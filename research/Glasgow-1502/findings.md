@@ -182,3 +182,13 @@ The list Robert and the 1747 Robert are one man: the list covers every session m
 He is **probably Robert Glasgow-1143** (inference; no record states it). Robert Glasgow-1502, an adult bondsman in May 1700, would have been in his late sixties or older in 1747, while Robert-1143, married in 1729, was about forty and is documented at Kilwaughter in 1738/9, 1741 and 1764. A charge of fornication implies that the offender was unmarried when the offence was committed, or that it preceded a marriage. For Robert-1143 that fits only if his wife Rachel had died, which is known only from a derivative transcription of an 1817 pleading ("died in 1742"); it is consistent with the identification, not evidence for it. A third, otherwise unrecorded Robert cannot be excluded, because the session minutes for 1701-1721 are lost.
 
 No record securely attributable to Robert-1502 is known after 27 February 1700/01.
+
+<!-- larne-kilwaughter-audit-2026-10-06:early-model -->
+## Cluster placement — a competing hypothesis, 6 October 2026
+
+This is a hypothesis, not a finding, and no attachment should be moved on it. The records show two groups with no proved link between them:
+
+- a **Larne-town group**: Hugh Glasgow-1499, William Glasgow-1505 ("William Glasgow Major" in 1734) and perhaps James Glasgow-1504, joined only by the 1736 joint lease and the congregation;
+- a **Kilwaughter group**: Robert Glasgow-1143 and his proved son James.
+
+On locality alone, Robert-1143 fits a Kilwaughter father (the officer James, who died in 1726, or a John) at least as well as Robert of the South Side; locality cannot decide parentage. Every candidate father for each of the four men is possible and none rises higher. The present arrangement, with all four as sons of this Robert, is inherited from the Life's Weaving reconstruction, which itself called them "presumed brothers". A Dublin baptism of Hugh "Glasroe", son of "Wm Glasroe" and Jone, on 23 October 1704, is compatible in date with Hugh-1499 but has a different surname spelling and no bridge to Larne.

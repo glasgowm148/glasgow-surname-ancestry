@@ -1,6 +1,6 @@
 # Descendant audit: Robert Glaskow of Larne (Glasgow-3970)
 
-Last updated: 2026-08-31
+Last updated: 2026-10-06
 
 Live update applied 19 August 2026: the profile now states that the repeated
 1669 and about-1700 association makes Jo/John Glasgow-3913 and James
@@ -20,9 +20,10 @@ One relationship within the later group can now be ranked more firmly. Jo/John
 and James `Glascho` were consecutive Kilwaughter Demesne householders in 1669
 (original record numbers 5347-5348), then recur in the same district's
 congregational business about thirty years later. John represented Kilwaughter
-and James served as its overseer. This repeated association makes them probable
-close relatives, but it does not prove that they were brothers or that either
-was Robert's son.
+and James served as its overseer. This association makes close kinship between
+them possible (it was assessed as probable until 6 October 2026, and lowered because
+it rests on adjacency, spelling and locality alone); it does not prove that they
+were brothers or that either was Robert's son.
 
 The supposed grandson Hugh Glasgow-1499 does not add another supported branch.
 The published session-list transcription assigns `deceased 1726` to James
@@ -288,3 +289,10 @@ Glasgow-3970 therefore remain uncertain.
 ## Batch limits and next originals — 21 September 2026
 
 The manuscript-checked 1738 wife clause and 1741 farmer occurrence belong to the later Robert-1143 household; neither names a father or supplies a bridge from Robert Glaskow of Larne. A 1772 Wm Glasgow witness occurrence is likewise unassigned between later namesakes. The remaining direct tests are the on-site Kilwaughter rentals NRS GD154/514–515, /525, /530 and /532, PRONI T828/15, and MIC1B/6. Catalogue descriptions and surname association do not establish descent.
+
+<!-- larne-kilwaughter-audit-2026-10-06:early-model -->
+## Relationship assessment — the 1669 Kilwaughter pair, 6 October 2026
+
+John Glasgow-3913 and James Glasgow-1081 were possibly close kin. The 1669 hearth-money roll (Macafee transcription, records 5347-5348) lists "Jo Glascho" and "James Glascho" consecutively at Kilwaughter Demesne with the same uncommon spelling. That is strong association evidence that the two households were connected, but it states no relationship and supports no particular degree: brother, father and son, uncle and nephew, and cousin are all open. Men named John (called "sen." in 1700) and James act for the Kilwochter district in 1700-01, never in the same minute; their identity with the 1669 householders is itself unproved, so they are not an independent second line of evidence. The assessment was "probable" until 6 October 2026 and was lowered because every element of it is association evidence (adjacency, spelling, place, recurring forenames). The sibling arrangement on WikiTree exists only through the uncertain shared father Glasgow-3970; it stays uncertain and nothing is detached.
+
+Porter's Larne memoir, including the instalments covering the years before 1699 (*The Christian Unitarian* 2, pp. 270-280, 296-305, 329-336), contains no Glasgow in any spelling on the OCR text (not checked page by page on the images), so it adds nothing for Robert Glaskow of Larne in 1653 or for Elizabeth Glascho of Glenarm in 1669. Elizabeth has no recorded link to the Kilwaughter pair.

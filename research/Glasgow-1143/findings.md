@@ -231,3 +231,10 @@ The list Robert and the 1747 Robert are one man: the list covers every session m
 He is **probably Robert Glasgow-1143** (inference; no record states it). Robert Glasgow-1502, an adult bondsman in May 1700, would have been in his late sixties or older in 1747, while Robert-1143, married in 1729, was about forty and is documented at Kilwaughter in 1738/9, 1741 and 1764. A charge of fornication implies that the offender was unmarried when the offence was committed, or that it preceded a marriage. For Robert-1143 that fits only if his wife Rachel had died, which is known only from a derivative transcription of an 1817 pleading ("died in 1742"); it is consistent with the identification, not evidence for it. A third, otherwise unrecorded Robert cannot be excluded, because the session minutes for 1701-1721 are lost.
 
 No record securely attributable to Robert-1502 is known after 27 February 1700/01.
+
+<!-- larne-kilwaughter-audit-2026-10-06:junior -->
+## Identity assessment — "James Glasgow junior" in the 1738/9 lease, 6 October 2026
+
+"Jas Glasgow Junr" is one of the three lives in William Agnew's lease of Ballykeel to Robert Glasgow, dated 13 February 1738 (1738/9 by modern reckoning; Registry of Deeds memorial 74015, re-read on the saved register images). "Junior" most naturally distinguishes him from another James Glasgow known to the parties, usually a living one, but it does not prove one and it states no relationship. The memorial names no other James.
+
+The officer James Glasgow of Kilwaughter was dead by then ("deceased 1726"; will indexed 1727). The attested candidates for an older James alive in 1738-44 are James Glasgow-1504 (married 1727, children 1728-1740 in the derivative register chronology, residence unrecorded) and James Glasgow of Larne, who took a townparks lease on 30 August 1744 (PRONI D2977/3A/4/81/116, known from a catalogue line only); they may be one man. The word is not evidence of kinship between James-1504 and Robert Glasgow-1143.

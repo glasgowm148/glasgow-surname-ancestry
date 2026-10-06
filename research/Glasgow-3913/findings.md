@@ -5,10 +5,13 @@ Last updated: 2026-10-06
 ## Current conclusion
 
 John `Glascho` is directly recorded beside James `Glascho` at Kilwaughter Demesne
-in 1669. The association is repeated about thirty years later: John represented
-Kilwaughter while James was appointed its overseer in the same congregational
-record. Two independent record groups therefore make close kinship probable,
-but neither gives ages or a kin term. Brother, father-son and cousin remain open.
+in 1669, with the same uncommon spelling. That is strong association evidence that
+the two households were connected, but it states no relationship. Men named John
+and James acted for Kilwaughter in 1700-01, never in the same minute; their identity
+with the 1669 householders is unproved, so they are not an independent second line
+of evidence. Close kinship is therefore possible, not established (lowered from
+probable on 6 October 2026). Brother, father and son, uncle and nephew, and cousin
+all remain open.
 
 He is probably the John Glasgow called **senior** while representing Kilwaughter
 in congregational business in 1700 (printed under 1699 and 1700). Repeated place, name and associates support
@@ -90,3 +93,8 @@ These extracts are a printed transcription (*The Christian Unitarian* 2, 1863, a
 ## Identity assessment — 6 October 2026
 
 John Glasgow, sen., of 1700 is probably the Jo Glascho of the 1669 hearth-money roll: the same district, and a seniority that suits a man adult in 1669. He was alive on 17 May 1700. The unmarked John Glasgow of 27 February 1700/01, again for Kilwochter with Patrick Agnew, may be he or the younger namesake that "sen." implies, so a death after February 1701 is possible, not established. The younger John is not named as such anywhere in Porter. The Kilroot administration bond of 1733 (Kilroot is a different parish, near Carrickfergus) and John Glasgow-3959 of Ballyboggy (1740) remain possible candidates only, and the attachment of John Glasgow-3990 to this John is possible only.
+
+<!-- larne-kilwaughter-audit-2026-10-06:early-model -->
+## Relationship assessment — James Glasgow-1081, 6 October 2026
+
+John Glasgow-3913 and James Glasgow-1081 were possibly close kin. The 1669 hearth-money roll (Macafee transcription, records 5347-5348) lists "Jo Glascho" and "James Glascho" consecutively at Kilwaughter Demesne with the same uncommon spelling. That is strong association evidence that the two households were connected, but it states no relationship and supports no particular degree: brother, father and son, uncle and nephew, and cousin are all open. Men named John (called "sen." in 1700) and James act for the Kilwochter district in 1700-01, never in the same minute; their identity with the 1669 householders is itself unproved, so they are not an independent second line of evidence. The assessment was "probable" until 6 October 2026 and was lowered because every element of it is association evidence (adjacency, spelling, place, recurring forenames). The sibling arrangement on WikiTree exists only through the uncertain shared father Glasgow-3970; it stays uncertain and nothing is detached.
