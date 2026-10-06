@@ -1,6 +1,6 @@
 # Hugh Glasgow (Glasgow-1499): Larne elder and uncertain son John
 
-Last updated: 2026-10-06
+Last updated: 2026-10-07
 
 ## Current conclusion
 
@@ -60,3 +60,10 @@ The derivative Kilwaughter chronology lists a "Hugh1 Glasgow, d. 1726 (Record fo
 No change to the values. Hugh died on 8 July 1767 aged 62, so he was born between 9 July 1704 and 8 July 1705; his wife Ann died on 8 June 1786 aged 75, so she was born between 9 June 1710 and 8 June 1711 and was about 20 at the baptism of Jean in 1731. Source: the Larne monument as published in 1900 ([*Ulster Journal of Archaeology*, 2nd series, vol. 6, p. 47](https://archive.org/details/ulsterjournalofa06ulstiala/page/47/mode/1up)), re-read on the saved page image. The death should be shown as published from the monument, 8 July 1767, and the birth as the estimate; the catalogue currently shows the death as estimated.
 
 These are proposals for the WikiTree date fields and are queued for review; nothing has been changed on WikiTree.
+
+<!-- larne-kilwaughter-audit-2026-10-06:followup-routes -->
+## Relationship assessment — the route from Hugh to Alexander of Lisnagaver, 6 October 2026
+
+On WikiTree Hugh's line continues Hugh → John Glasgow-4179 of Larne → John Glasgow-4090, the record-defined John Glasgow, farmer, who is the probable father of Alexander Glasgow-951. Neither link is documented. Hugh → John-4179 is possible, on locality and generation only; the Larne monument does not name a son John. John-4179 → John, farmer, has no record and no uncertain flag, and a son of the 1769 marriage would be barely twenty at the birth of Samuel Glasgow-2908 about 1789 to 1791. Marking that second link uncertain is queued for review.
+
+Naming gives the route no support: Hugh, a recurring Larne forename, occurs nowhere among John farmer's probable children or documented grandchildren. The absence excludes nothing. No relationship is changed. [Full comparison](/people/glasgow-951.html#larne-reconstruction).

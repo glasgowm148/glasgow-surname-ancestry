@@ -1,6 +1,6 @@
 # Findings: [James Glasgow (Glasgow-1144), born 1731-05-24, Kilwaughter, Larne, County Antrim, Ireland](https://www.wikitree.com/wiki/Glasgow-1144)
 
-Last updated: 2026-10-06
+Last updated: 2026-10-07
 
 Record every useful result and negative search here as it is found.
 Do not treat an unsourced tree or naming pattern as proof.
@@ -231,3 +231,8 @@ James Glasgow and Andrew Doyle, styled chairmen, are named among persons examine
 **Children's birthplaces.** WikiTree gives Margaret (Glasgow-3977, born 1773) and Rachel (Glasgow-3978, born 1775) a County Antrim birthplace, marked uncertain. James is reported to have emigrated in late 1772 or 1773 and is recorded in South Carolina on 16 November 1774 (derivative chronology), so those birthplaces are unsupported and conflict with that chronology. They are the origin of the mistaken statement, now corrected in the newspaper notes above, that his children were still being born in County Antrim to 1775. Archibald (Glasgow-2304, born 1768/9) has the opposite problem: a South Carolina birthplace before the family emigrated.
 
 These are proposals for the WikiTree date fields and are queued for review; nothing has been changed on WikiTree.
+
+<!-- larne-kilwaughter-audit-2026-10-06:followup-dna -->
+## Next records — Y-DNA testing recommendation, 6 October 2026
+
+Neither Kilwaughter kit has an SNP result: the one reported for James 1731-1775 (Y-37) and the one reported for his father Robert c.1710 (Y-111). The recommendation of 6 October 2026 asks first, through the project administrator, which of James's sons each kit descends from, and whether either runs through Archibald Glasgow-2304. A kit that does is a test of the James J Glasgow-2738 hypothesis, not an independent line. The Robert c.1710 kit is the first to upgrade to Big Y-700, and this one the second if it descends through a different son. No result can name a father. [Full recommendation](/people/glasgow-951.html#next-research).

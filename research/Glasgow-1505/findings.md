@@ -1,6 +1,6 @@
 # Findings: [William Glasgow (Glasgow-1505), Larne, died about 1783](https://www.wikitree.com/wiki/Glasgow-1505)
 
-Last updated: 2026-10-06
+Last updated: 2026-10-07
 
 ## Current conclusion
 
@@ -209,3 +209,8 @@ This is a research lead only. An older William would be one candidate father to 
 **Death: after 6 January 1775**, when he swore the execution affidavit for a 1744 deed at Larne (project reading of the memorial image). A William Glasgow of Larne has a Connor probate-index entry in 1783 which may be his but is not uniquely so. The present "about 1708 to about 1783" rests on the unseen stone.
 
 These are proposals for the WikiTree date fields and are queued for review; nothing has been changed on WikiTree.
+
+<!-- larne-kilwaughter-audit-2026-10-06:followup-routes -->
+## Relationship assessment — William and the Lisnagaver family, 6 October 2026
+
+No record joins William to John Glasgow, farmer, the probable father of Alexander Glasgow-951. William as John farmer's father is unresolved, with no record. The older version of that route ran through John Glasgow-1022 of Glenleslie and needs John, farmer, to be that John, which is disfavoured: John-1022's 1851 household records a daughter Nancy who died in 1847 aged 36, while Nancy of Plattsburgh, Alexander's probable sister, lived to 1891. In the WikiTree snapshot of 28 September 2026 John-1022's father is John Glasgow-3959 of Ballyboggy (uncertain), so his earlier attachment to William is historical. No relationship is changed. [Full comparison](/people/glasgow-951.html#larne-reconstruction).

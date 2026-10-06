@@ -1,6 +1,6 @@
 # Findings: Robert Glasgow of Kilwaughter (Glasgow-1143)
 
-Last updated: 2026-10-06
+Last updated: 2026-10-07
 
 ## Live profile update — 30 August 2026
 
@@ -272,3 +272,12 @@ On the saved screenshots of FamilySearch images 542 and 543 the three lives read
 **Father status.** On WikiTree the link to Robert Glasgow-1502 carries no status, while the links of Hugh-1499, James-1504 and William-1505 to the same man are marked uncertain. Proposed: set it to uncertain and keep the attachment, because no evidenced replacement exists, and add to the biography: "No record names Robert's father. Robert Glasgow-1502 is recorded only for the South Side district in 1700-1701, while this Robert is documented at Kilwaughter. The attachment is a working hypothesis."
 
 These are proposals for the WikiTree date fields and are queued for review; nothing has been changed on WikiTree.
+
+<!-- larne-kilwaughter-audit-2026-10-06:followup-dna -->
+## Next records — Y-DNA testing recommendation, 6 October 2026
+
+The kit submitted for this Robert's line still has no SNP result, and neither has the kit reported for James 1731-1775. Nothing therefore places the documented Kilwaughter family inside R-FT20271, the branch shared by the lines of Alexander Glasgow-951 and James J Glasgow-2738.
+
+The recommendation of 6 October 2026 is, first and at no cost, to obtain through the project administrator the paper descent behind both kits. Robert's only documented son is James Glasgow-1144, so the question is through which of James's sons each kit runs, and whether either runs through Archibald Glasgow-2304. Then upgrade this line's kit to Big Y-700, and the second kit too if it descends through a different son of James-1144: agreement between two lines guards against a broken pedigree.
+
+A result that is FT25406-positive and FT20271-negative would put this family outside FT20271, assuming the testers' reported pedigrees are correct. A result inside FT20271 is consistent with any route and proves none. No result can name a father. [Full recommendation](/people/glasgow-951.html#next-research).

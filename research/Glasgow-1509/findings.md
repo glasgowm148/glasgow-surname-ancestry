@@ -1,6 +1,6 @@
 # Findings: [James Glasgow (Glasgow-1509), 1737–1802, Larne](https://www.wikitree.com/wiki/Glasgow-1509)
 
-Last updated: 2026-10-06
+Last updated: 2026-10-07
 
 ## Current conclusion
 
@@ -184,3 +184,10 @@ Both original occupation readings were independently checked. The Farmer wording
 **Death: 1802 as reported from that stone** (unverified); a James Glasgow of Larne has a Connor probate-index entry in 1803.
 
 These are proposals for the WikiTree date fields and are queued for review; nothing has been changed on WikiTree.
+
+<!-- larne-kilwaughter-audit-2026-10-06:followup-routes -->
+## Relationship assessment — the ropemaker and the Lisnagaver family, 6 October 2026
+
+The hypothesis of 13 September is unchanged: James as father of Adam Glasgow-3902 of Inishrush is a working hypothesis with no record. For the Lisnagaver family it is a collateral question. Adam, born 1757/8, is too young to be the father of John Glasgow, farmer, the probable father of Alexander Glasgow-951, if Samuel Glasgow-2908 (born about 1789 to 1791) was John farmer's son.
+
+The routes from James to Alexander through older Alexander Glasgow-3904 and younger James Glasgow-3986 are withdrawn as routes, because each puts a different man in John farmer's place. James himself as John farmer's father is unresolved: he was born before 27 October 1743, nothing names a son John, and the link is chronologically possible only. No relationship is changed. [Full comparison](/people/glasgow-951.html#larne-reconstruction).
