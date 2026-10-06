@@ -112,3 +112,8 @@ The 1845 Samuel farmer examined at Moneymore is only a weaker regional namesake 
 ## Next records to check — newspaper identity
 
 Resolve the documentary person’s identity before changing WikiTree facts or relationships. Original source readings, compatible alternatives and discriminating tests are retained in the linked account.
+
+<!-- nir-2026-10-06-ireland-1800-1829+ireland-1830-1839+ireland-1840-1849+ireland-1850-on+ireland-to-1799+us-to-1784 -->
+## Identity assessment — newspaper candidates withdrawn, 6 October 2026
+
+- [Freeman’s Journal and Daily Commercial Advertiser, 1845-03-19, p.1](https://www.newspapers.com/image/1050103241/): no longer a candidate for this profile. Freeman's Journal, 19 Mar 1845 (images 1050103241 and 1380777866): Samuel Glasgow, a farmer examined at Moneymore by the Devon Commission, describes reclamation on Sir Thomas Staples's land in his neighbourhood. Glasgow-2054 is a possible candidate, with Glasgow-1698 equally compatible.

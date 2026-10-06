@@ -31,3 +31,34 @@ The [Aberdeen Journal, 19 December 1827, p. 4](https://www.newspapers.com/image/
 ## Unresolved questions
 
 Find a named marriage, baptism, household or succession record that discriminates between the compatible Robert identities and links the newspaper’s Charlotte to this profile.
+
+<!-- nir-2026-10-06-ireland-1800-1829+ireland-1830-1839+ireland-1840-1849+ireland-1850-on+ireland-to-1799+us-to-1784 -->
+## Current conclusion — newspaper identity review, 6 October 2026
+
+- [Freeman’s Journal and Daily Commercial Advertiser, 1847-09-02, p.4](https://www.newspapers.com/image/401331272/): Charlotte Maria Cecilia (bride (youngest daughter)) — **strong** match. Distinctive forenames, the Drake married name, an existing spouse link to Rev George Drake, and a WikiTree father of Robertson-30564.
+
+## Relationship assessment — newspaper identity review, 6 October 2026
+
+- Glasgow-3003 — daughter of — Robertson-30564: **upgrade to confident** (WikiTree now: linked (prior review: status unknown/tree-only; not rechecked live)). 'Charlotte Maria Cecilia, youngest daughter of the late Robert Glasgow, Esq., of Montgreenan, county Ayr'. Both identities are strong. If the link is already confident, treat this as already_correct. ([Freeman’s Journal and Daily Commercial Advertiser, 1847-09-02, p.4](https://www.newspapers.com/image/401331272/))
+
+## Source findings
+
+### Newspaper identity review — 6 October 2026
+
+- Married Rev George Drake at Paisley on 25 Aug 1847. — Freeman's Journal 2 Sep 1847, image 401331272 ([Freeman’s Journal and Daily Commercial Advertiser, 1847-09-02, p.4](https://www.newspapers.com/image/401331272/))
+
+<!-- nir-2026-10-06-scotland-misc+us-1785-1799 -->
+## Current conclusion — newspaper identity review, 6 October 2026
+
+- [Aberdeen Journal, and General Advertiser for the North of Scotland, 1827-12-19, p.4](https://www.newspapers.com/image/393027340/): (unnamed) daughter born at Rome 22 Nov 1827 (child) — **strong** match. Exact date and place: Glasgow-3003 Charlotte Marie Cecilia Glasgow, born 22 Nov 1827 at Rome, daughter of Robert Robertson (Glasgow) and Anne Glasgow. No other child of the family was born at Rome on that day.
+
+## Relationship assessment — newspaper identity review, 6 October 2026
+
+- Glasgow-3003 — daughter of — Glasgow-2874: **upgrade to confident** (WikiTree now: linked, unmarked (no Mother confidence code on Glasgow-3003)). 'At Rome, on the 22d ult. Mrs Robertson Glasgow, of Montgreenan, of a daughter' (Aberdeen Journal 19 Dec 1827) - date and place identical to Charlotte's recorded birth; both identities strong. ([Aberdeen Journal, and General Advertiser for the North of Scotland, 1827-12-19, p.4](https://www.newspapers.com/image/393027340/))
+- Glasgow-3003 — daughter of — Robertson-30564 (Robert Robertson Glasgow): **research note only** (WikiTree now: linked, unmarked). The style 'Mrs Robertson Glasgow' identifies the mother as the wife of Robert Robertson Glasgow (Robertson-30564, already her spouse on WikiTree); the notice does not name the father, so it supports but does not by itself state paternity. Convention: a birth notice reading 'Mrs X, of a daughter' normally means the child of Mr and Mrs X, so the owner may upgrade this link if that convention is accepted. It is kept as a research note because the father is not named. ([Aberdeen Journal, and General Advertiser for the North of Scotland, 1827-12-19, p.4](https://www.newspapers.com/image/393027340/))
+
+## Source findings
+
+### Newspaper identity review — 6 October 2026
+
+- Birth at Rome on 22 Nov 1827 announced as a daughter of 'Mrs Robertson Glasgow, of Montgreenan'. — Aberdeen Journal, 19 Dec 1827 (https://www.newspapers.com/image/393027340/) ([Aberdeen Journal, and General Advertiser for the North of Scotland, 1827-12-19, p.4](https://www.newspapers.com/image/393027340/))

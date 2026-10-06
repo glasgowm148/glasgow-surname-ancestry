@@ -83,3 +83,8 @@ William's relevant household is at Kirknewton. The prior 61-point score arose
 mainly from distant descendant-name recurrence and a repeated Cunningham
 marriage surname; neither supplies a parent-child bridge. Keep John below the
 actionable threshold absent a same-parish or original relationship record.
+
+<!-- nir-2026-10-06-ireland-1800-1829+ireland-1830-1839+ireland-1840-1849+ireland-1850-on+ireland-to-1799+us-to-1784 -->
+## Relationship assessment — newspaper identity review, 6 October 2026
+
+- Glasgow-2867 (Robert Glasgow, master of John and Archibald) — son of — Glasgow-1026 (William Glasgow) and McCook-217 (Ann McCook): **research note only** (WikiTree now: linked uncertain (Father/Mother DataStatus 10, not confident)). The notice states no parentage at all ('the Snow John and Archibald, of Glasgow, Robert Glasgow, Master'). No inspected record supports the existing parent links; research/Glasgow-2867/findings.md concludes they are online-tree claims. Note only: the newspaper gives no support for these links. ([The Pennsylvania Gazette, 1754-03-19, p.2](https://www.newspapers.com/image/39398244/))

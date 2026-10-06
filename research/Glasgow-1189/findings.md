@@ -46,3 +46,8 @@ Robert Glasgow pledges two guineas in a Cookstown reward subscription after a sh
 ## Next questions
 
 Find original Cookstown subscribers, estate and tax records and family identifiers; compare the candidates’ own source records before assigning the subscriber.
+
+<!-- nir-2026-10-06-ireland-1800-1829+ireland-1830-1839+ireland-1840-1849+ireland-1850-on+ireland-to-1799+us-to-1784 -->
+## Identity assessment — newspaper candidates withdrawn, 6 October 2026
+
+- [The Northern Star, 1796-12-12, p.1](https://www.newspapers.com/image/61260706/): no longer a candidate for this profile. Northern Star 12 Dec 1796: Robert Glasgow pledges two guineas to the Cookstown reward subscription after a shot was fired at a sentinel on 29 Nov 1796. A newly found strongest candidate is Glasgow-3941, the only Robert Glasgow in the 1796 Tyrone Flax Growers' list (Lissan parish, next to Cookstown; later at Coltrim). He is possible, not proved. Glasgow-1983 is now unlikely (South Carolina household by 1785).

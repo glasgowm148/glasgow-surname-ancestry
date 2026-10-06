@@ -76,3 +76,13 @@ Search Edinburgh court, police, and banishment records for the named Glasſgow a
 
 - [The Gloucester Journal, 1751-07-16, p.2](https://www.newspapers.com/image/971486582/): no longer a candidate for this profile. July 1751 report that Robert Glasgow was among nine Old Bailey convicts sentenced to death for robbing Joseph Weedon. The Ordinary's Account shows he was a butcher aged 28, born at Chipping Ongar, Essex. All three Scottish candidates conflict, so he has no WikiTree profile and needs a new one.
 - [The Western Flying Post; or, Sherborne and Yeovil Mercury, 1751-07-29, p.2](https://www.newspapers.com/image/979343886/): no longer a candidate for this profile. July 1751 report that Robert Glasgow was ordered for execution. The Ordinary's Account confirms he was hanged at Tyburn on Monday 29 July 1751. He has no WikiTree profile; the new profile is flagged on group 971486582.
+
+<!-- nir-2026-10-06-ireland-1800-1829+ireland-1830-1839+ireland-1840-1849+ireland-1850-on+ireland-to-1799+us-to-1784 -->
+## Identity assessment — newspaper candidates withdrawn, 6 October 2026
+
+- [The Pennsylvania Gazette, 1754-03-19, p.2](https://www.newspapers.com/image/39398244/): no longer a candidate for this profile. One 1754 distress report (three printings) of Robert Glasgow, master of the snow John and Archibald of Glasgow, on a Virginia-to-Glasgow passage. WikiTree already has a documentary profile for exactly this shipmaster, Glasgow-2867, built on the Maryland Gazette printing of the same Antigua report; the notice adds no kin. Glasgow-2474 (Irvine shipmaster 1738) is a possible earlier/later identity of the same man (merge question), not a separate match.
+
+<!-- nir-2026-10-06-scotland-misc+us-1785-1799 -->
+## Identity assessment — newspaper candidates withdrawn, 6 October 2026
+
+- [The Caledonian Mercury, 1767-12-21, p.3](https://www.newspapers.com/image/395727807/): no longer a candidate for this profile. Dec 1767: Robert Glasgow, with George Garnock, Niel M'Kinnon and Donald M'Donald, sentenced in Edinburgh for theft to be walked through the city and banished. The 1772 banished-persons list repeats Garnoch and Mackinnon beside 'Robert Glasgow, son of Andrew Glasgow miller at Calder', so this is that man; he has no WikiTree profile.

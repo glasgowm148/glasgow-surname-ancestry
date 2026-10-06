@@ -20,3 +20,8 @@ the husband of Nancy, sixth daughter of Adam Glasgow of Inishrush. No record
 reviewed here supplies John's age, parents, occupation, children or later life.
 He remains separate from later Portglenone-area men of the same name unless a
 record also identifies wife Nancy Glasgow or the 1842 marriage.
+
+<!-- nir-2026-10-06-ireland-1800-1829+ireland-1830-1839+ireland-1840-1849+ireland-1850-on+ireland-to-1799+us-to-1784 -->
+## Current conclusion — newspaper identity review, 6 October 2026
+
+- [Belfast News-Letter, 1842-02-01, p.3](https://www.newspapers.com/image/390552842/): Mr John Kyle, of Tyanee (groom) — **strong** match. The profile already records John Kyle as Nancy-3907's husband; name and marriage agree.

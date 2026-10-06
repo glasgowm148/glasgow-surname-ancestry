@@ -1,6 +1,6 @@
 # Samuel Glascow, Old Bailey defendant
 
-HOLD — exact case association; ancestral identity unresolved
+READY TO CREATE — no compatible WikiTree profile (identity review 6 October 2026)
 
 [[Category:Glasgow Name Study]]
 
@@ -29,3 +29,19 @@ Inspect TNA SP 44/87 f.68 and related pardon/service papers; bridge the London d
 
 == Sources ==
 <references />
+
+## Identity review — 6 October 2026
+
+**READY TO CREATE** — duplicate search found no compatible WikiTree profile; the earlier namesake candidates are excluded for the concrete reasons below.
+
+The notices concern the Old Bailey defendant Samuel Glascow (t17610506-1), convicted of stealing Serjeant Hayward's bay gelding from Highbury Barn, Islington, in April 1761 and respited on 21 May 1761. Glasgow-3175 (Samuel, b.1740 'Ulster', d.1801 Hanover Twp, Washington Co., PA; wife Mary Stephenson) has the Digital Panopticon record pasted into its biography. That attachment is the only link, and it is not independent evidence. The trial itself argues against it. In his defence Samuel says he 'lived nine years in one shop in Holbourn, with John Steed and Thomas Bartlet', had 'been five years abroad', had come back to England twelve months before, lived nine months at High Wycombe and was buying tools and hair from a hair-merchant on Ludgate Hill 'to set up in business at High Wickham', and calls himself 'an honest young fellow'. That is a London/Buckinghamshire tradesman with roughly fifteen years of adult working history by 1761, which conflicts with the profile's 1740 Ulster birth: he would have been about 21. The trial gives no Irish link. Glasgow-1492 (Samuel, c.1726 Moneymore; 1766 Gorteen householder) has no London link. No English-born Samuel Glasgow/Glascow exists on WikiTree (searches 1700-1775). The 1761 London man is therefore probably not on WikiTree, and the Old Bailey material on Glasgow-3175 should be marked as an unproved namesake attachment.
+
+- [May 1761 reports that Samuel Glascow was capitally convicted at the Old Bailey for stealing Serjeant Hayward's bay gelding. His own trial testimony describes a Holborn/High Wycombe tradesman. That conflicts with Glasgow-3175 (an Ulster-born Pennsylvania settler), so the London man has no compatible ](https://www.newspapers.com/image/394296692/)
+- [May 1761 report that Samuel Glascow, horse-stealer, was respited during His Majesty's pleasure on 21 May 1761. This is the same London defendant; no compatible WikiTree profile (draft flagged on group 394296692).](https://www.newspapers.com/image/34424820/)
+- [May 1761 advertisement for the printed Old Bailey Proceedings listing Samuel Glascow's horse-stealing trial. This is the same London defendant; it adds no new fact.](https://www.newspapers.com/image/34424864/)
+
+Supporting records inspected:
+- [Old Bailey Proceedings t17610506-1, Samuel Glascow, theft of a bay gelding of Serjeant William Hayward, 6 May 1761; Guilty, Death](https://www.oldbaileyonline.org/record/t17610506-1)
+- [Digital Panopticon life obpt17610506-1-defend30 (respited 21 May 1761; conditional pardon, military service)](https://www.digitalpanopticon.org/life?id=obpt17610506-1-defend30)
+
+Searches: Old Bailey API full text t17610506-1 (defence statement read in full); wt.py profile Glasgow-3175, Glasgow-1492; profile-evidence.json biography of Glasgow-3175 and 1492; wt.py search Samuel Glasgow 1700-1735, 1735-1775; Samuel Glascow 1715-1745.; Same as group 394296692.

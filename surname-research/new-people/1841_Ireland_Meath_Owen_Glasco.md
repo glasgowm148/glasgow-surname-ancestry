@@ -31,3 +31,13 @@ Locate the original association membership/collection lists and historical townl
 == Sources ==
 <references />
 ```
+
+## Identity review — 6 October 2026
+
+No compatible WikiTree profile after a duplicate search; **READY TO CREATE** once the biography below is checked.
+
+See group 1050131561: no Owen Glasco/Glasgow/Glascoe in the local catalogue. Combine both occurrences into one draft after a live duplicate search. The layout does not securely attach Raddinstown to Owen.
+
+- [Freeman's Journal and Daily Commercial Advertiser, 1843-02-25, p.4](https://www.newspapers.com/image/1050126480/): Freeman's Journal, 25 Feb 1843: Owen Glasco is listed among Repeal members who each collected 20 Repealers, near the label 'Raddinstown County Meath'. Same Owen as in 1841; he has no WikiTree profile.
+
+Searches: As for 1050131561.

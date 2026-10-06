@@ -47,3 +47,15 @@ John Glasgow is named under Allegheny Township in a township-grouped list accomp
 ## Next questions
 
 Inspect local tax, probate, land and original list/meeting records; compare the candidates’ own source evidence before attaching any occurrence.
+
+<!-- nir-2026-10-06-ireland-1800-1829+ireland-1830-1839+ireland-1840-1849+ireland-1850-on+ireland-to-1799+us-to-1784 -->
+## Identity assessment — newspaper candidates withdrawn, 6 October 2026
+
+- [The Public Register, or, Freeman's Journal, 1799-09-24, p.2](https://www.newspapers.com/image/1214179229/): no longer a candidate for this profile. Public Register 24 Sep 1799: John Glasco in a continued roster under the heading COUNTY OF LONDONDERRY (list category unresolved). Several Londonderry John Glasgows are compatible. Glasgow-3927, whose 1831 census entry is itself spelled 'John Glasco', is listed first, but all remain possible.
+
+<!-- nir-2026-10-06-scotland-misc+us-1785-1799 -->
+## Identity assessment — newspaper candidates withdrawn, 6 October 2026
+
+- [The Edinburgh Advertiser, 1798-07-20, p.6](https://www.newspapers.com/image/601860386/): no longer a candidate for this profile. July 1798 Kirkliston voluntary subscriptions: 'John Glasgow, labourer, Millrig'. He is very probably John Glasgow (Glasgow-159), agricultural labourer, married at Kirkliston in 1785, with children baptised there 1786-1797.
+- [The Carlisle Gazette, and the Western Repository of Knowledge, 1793-03-06, p.1](https://www.newspapers.com/image/1033763029/): no longer a candidate for this profile. A Carlisle post-office list headed 1 January 1793 includes letters for John Glasgow, care of William Brown, Esq. No WikiTree profile can be identified. Cumberland County-born John Glasgow (Glasgow-3726) is a newly noted regional possibility; the earlier namesake comparisons are weak or unlikely.
+- [The North American (Philadelphia), 1799-09-10, p.3](https://www.newspapers.com/image/587806805/): no longer a candidate for this profile. John Glasgow is listed under Allegheny Township in a township-grouped list of Huntingdon County election-meeting participants (September 1799). Allegheny Township passed into Cambria County in 1804, where Glasgow-664 (John Glasgow, 1777–1845) was enumerated in Allegheny Township in 1820 and died at Glasgow, Cambria County. That makes Glasgow-664 a stronger possible match than before. An older John Glasgo, head of a Huntingdon County household in 1790, has no profile and competes.

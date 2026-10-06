@@ -22,3 +22,14 @@ Inspect Maryland land, tax, probate, and newspaper records for Robert Glasgow an
 
 == Sources ==
 <references />
+
+## Identity review — 6 October 2026
+
+No compatible WikiTree profile after a duplicate search; kept on **HOLD**.
+
+WikiTree searchPerson for Joshua Hartshorn and Joshua Hartshorne returned only two Norwich, Connecticut men (Hartshorn-659 b. 1748, Hartshorn-1373 b. 1710), with no Maryland connection. The 1790 Cecil County census transcription shows Hartshorn households (Maj. John and Thomas Hartshorn) in the county, consistent with a local family. A profile draft is not recommended from this bare business notice: he is not a Glasgow, and the notice states no kinship.
+
+- [The Pennsylvania Gazette, 1786-02-15, p.1](https://www.newspapers.com/image/41024006/): Robert Glasgow and Joshua Hartshorn were to give possession of a 260-acre plantation in North Susquehanna Hundred, Cecil County, Maryland, offered at vendue in March 1786. Neither man can be identified on WikiTree. The joint Glasgow–Hartshorn role is a research lead pointing to the Cecil County family of James Glasgow (Glasgow-2868) and Ann Hartshorne (Hartshorne-320), but it is not a relationship.
+- [USGenWeb Census Project, Maryland 1790 federal census index, file H (transcription)](https://www.us-census.org/pub/usgenweb/census/md/1790/index-h.txt)
+
+Searches: WikiTree searchPerson via API (filtered births 1700–1768): Robert Glasgow, Robert Glasco, Robert Glascoe; Joshua Hartshorn, Joshua Hartshorne (1700–1770). wt.py profile Hartshorne-320, Glasgow-2868. Captured biographies of Glasgow-395, Glasgow-2425, Glasgow-1143, Glasgow-12, Glasgow-550. Local wt.py grep 'Hartshorn'. USGenWeb Maryland 1790 census index files G and H, and the 1800 index file g1, grepped for Glasg/Glasco/Hartsh. WebSearch: '"Robert Glasgow" "Hartshorn" Cecil County Maryland'; '"Joshua Hartshorn" OR "Joshua Hartshorne" Cecil County Maryland 1780s Susquehanna'; '"Robert Glasgow" 1790 census Cecil County OR Harford County Maryland "Apphia"' (no direct hits).

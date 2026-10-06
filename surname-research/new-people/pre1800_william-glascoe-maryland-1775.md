@@ -14,3 +14,14 @@ Find the Lancaster jail register and Maryland tax, servant and land records. Est
 
 == Sources ==
 <references />
+
+## Identity review — 6 October 2026
+
+No compatible WikiTree profile after a duplicate search; kept on **HOLD**.
+
+'About forty miles from Baltimore' fits north-eastern Maryland (Cecil County's Charlestown/Elkton district, or Harford). A servant-holding William Glasgow there in 1775 fits the Cecil County William named among the children of James Glasgow Sr. (d. 1784) in Cecil probate (MSA SC 3520-17195) - the same unprofiled William as group 41041559 - but the claim comes from a jailed man and names no kin, so that identity is only possible. Duplicate searches for William Glasgow/Glascoe/Glasco/Glascow found no profile with any Maryland presence. Any profile draft should be the single Cecil County William proposed under group 41041559, not a second one.
+
+- [Pennsylvania Gazette, 1775-10-25, p.1](https://www.newspapers.com/image/39392109/): Lancaster jail notice, October 1775: John M'Connel, a suspected runaway servant, claims to belong to William Glascoe in Maryland, about forty miles from Baltimore. William is an attributed master only; no WikiTree William Glasgow/Glascoe has any Maryland record.
+- [MSA SC 3520-17195 Samuel Glasgow biography (Cecil County Glasgow family incl. William)](https://msa.maryland.gov/megafile/msa/speccol/sc3500/sc3520/017100/017195/html/17195bio.html)
+
+Searches: wt.py search William Glascoe/Glasco/Glascow/Glasgow 1700-1765; captured-biography text search for 'Glascoe'; MSA Biographical Series.

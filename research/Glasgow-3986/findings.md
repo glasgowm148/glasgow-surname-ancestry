@@ -136,3 +136,8 @@ was inspected in this batch.
 ## Live profile comparison, 4 October 2026
 
 The live Family section now names James Glasgow-1509 as father. The biography still describes the former William-1505 attachment. The earlier 13 September note that a live relationship change was unverified is historical and superseded by this readback. No new parent change or relationship-confidence upgrade was made in this batch; the freehold notice names no relatives.
+
+<!-- nir-2026-10-06-ireland-1800-1829+ireland-1830-1839+ireland-1840-1849+ireland-1850-on+ireland-to-1799+us-to-1784 -->
+## Current conclusion — newspaper identity review, 6 October 2026
+
+- [Belfast News-Letter, 1830-12-24, p.3](https://www.newspapers.com/image/390574399/): James Glasgow, of Larne (applicant to register a GBP10 freehold) — **possible** match. Name + Larne residence + adult property-holder in 1830 agree with Glasgow-3986 (Larne merchant/'junior' reconstruction of 1795-97, born c.1773, reported died 1831 from a St Cedma's tombstone). No age, occupation, relative or townland bridge; an 1831 death (month unknown) does not conflict with a January 1831 registration. A second Larne-born James (died Demerara 1839, group 390552249) was also an adult in 1830 and cannot be excluded. Sources: [WikiTree Glasgow-3986 live biography (API, 6 Oct 2026)](https://www.wikitree.com/wiki/Glasgow-3986)

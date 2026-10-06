@@ -289,3 +289,8 @@ This supersedes the earlier assessment that the 1888 deceased was merely a separ
 All four retired NAI tithe microsite links were replaced with the stable
 official NAI Family History Sources guide. The PRONI manuscript references and
 29 Irish-acre calculation were retained.
+
+<!-- nir-2026-10-06-ireland-1800-1829+ireland-1830-1839+ireland-1840-1849+ireland-1850-on+ireland-to-1799+us-to-1784 -->
+## Identity assessment — newspaper candidates withdrawn, 6 October 2026
+
+- [Belfast News-Letter, 1829-06-05, p.4](https://www.newspapers.com/image/390582445/): no longer a candidate for this profile. County Antrim freehold-registration applications, June 1829: No. 2324, Alex. Glasgow, Lisnagaver, barony of Kilconway. Two existing Lisnagaver Alexanders remain compatible, Glasgow-951 and the older Glasgow-3904, and the notice gives nothing that separates them.

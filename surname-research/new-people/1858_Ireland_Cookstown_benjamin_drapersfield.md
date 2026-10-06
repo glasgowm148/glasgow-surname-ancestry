@@ -45,3 +45,13 @@ Inspect the 16 February 1864 civil marriage and Drapersfield mill/deed records f
 ```
 
 Public account: /research/subjects/william-glasgow-irish-newspapers/#benjamin-drapersfield
+
+## Identity review — 6 October 2026
+
+No compatible WikiTree profile after a duplicate search; **READY TO CREATE** once the biography below is checked.
+
+WikiTree searches for William Broadbent 1855-1870 and Margaret Broadbent 1862-1872 found no Brooke Broadbent and no New York or Manchester man married to a Glasgow. A web search found nothing. A spouse draft is needed.
+
+- [Belfast News-Letter, 1891-10-16, p.1](https://www.newspapers.com/image/388748472/): Marriage notice (Belfast News-Letter, 16 Oct 1891): Margaret George Glasgow, eldest daughter of Benjamin Glasgow of Hull, formerly Drapersfield, Cookstown, married W. Brooke Broadbent, formerly of Manchester, in New York on 5 Oct 1891. She is Glasgow-4293 (b. 1867, mother Pike), daughter of Benjamin Glasgow-4340, so that father link can be confirmed. Broadbent needs a new profile.
+
+Searches: wt.py search Margaret Glasgow 1855-1875; William Broadbent 1855-1870; Margaret Broadbent 1862-1872; Benjamin Glasgow/Glascow/Glasco; API getRelatives 4293, 4340; bios 4293, 4247, 4294, 4249, 4318; wt.py grep Hull/Broadbent; WebSearch '"Brooke Broadbent" Glasgow 1891 New York married', 'Benjamin Glasgow Hull Cookstown OR Drapersfield OR Pike'.

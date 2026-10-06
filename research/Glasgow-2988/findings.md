@@ -112,3 +112,16 @@ Compare original local tax, land, probate and institutional records, preserving 
 ## Identity assessment — newspaper candidates withdrawn, 6 October 2026
 
 - [The Public Advertiser, 1777-05-14, p.2](https://www.newspapers.com/image/34421452/): no longer a candidate for this profile. 1777 prize list naming James Glascow as master of the Greenwich Packet (owner James Young), Philadelphia to Winyaw, South Carolina. He was a Philadelphia-trade master in wartime. Two dozen namesakes exist, none with any maritime or Philadelphia record, so he cannot be identified.
+
+<!-- nir-2026-10-06-ireland-1800-1829+ireland-1830-1839+ireland-1840-1849+ireland-1850-on+ireland-to-1799+us-to-1784 -->
+## Identity assessment — newspaper candidates withdrawn, 6 October 2026
+
+- [The Public Register, or, Freeman's Journal, 1786-09-05, p.3](https://www.newspapers.com/image/1050075355/): no longer a candidate for this profile. Freeman's Journal 5 Sep 1786 marriage: Mr. James Glasco of Omagh, publican, aged 61, to Miss Jane Murray of the same place, aged 16. Neither person has a compatible WikiTree profile with any Omagh link. All existing James namesakes are only possible, and the Dublin carpenter Glasco-148 is now unlikely. Recommend new profiles for James Glasco of Omagh (b. c.1725) and Jane Murray (b. c.1770), linked as spouses.
+- [The Northern Star, 1793-05-11, p.1](https://www.newspapers.com/image/72021067/): no longer a candidate for this profile. Northern Star 11 and 18 May 1793: the Hope (Abner Lowell master), Londonderry for Newcastle and Philadelphia; freight or passage enquiries to Mr. James Glasco, Omagh (notice signed by Robert Burnside, Londonderry, 25 Apr 1793). Very probably the 1786 Omagh publican. Same identity conclusion as group 1050075355: no existing profile is preferred, and a new profile draft is recommended.
+- [The Northern Star, 1793-05-25, p.1](https://www.newspapers.com/image/72021100/): no longer a candidate for this profile. Northern Star 25 May 1793: a repeat of the Hope advertisement with the sailing put off; contact still Mr. James Glasco, Omagh. Same conclusion as the 11 and 18 May copies.
+- [The Pennsylvania Gazette, 1757-04-07, p.1](https://www.newspapers.com/image/39395391/): no longer a candidate for this profile. James Glascow, 'Fogs Manor' (Fagg's Manor, Londonderry Township, Chester County), 1757 Philadelphia letter list. The Chester County tax index shows a James Glascow/Glasgo landholding in Londonderry Township 1739-1740 and taxed in East/West Nottingham 1747-1758, so the addressee is very likely that local man; no WikiTree profile is documented in Chester County. Glasgow-2868 (Cecil County, d. c.1784) is the only regionally compatible profile, still only possible.
+
+<!-- nir-2026-10-06-scotland-misc+us-1785-1799 -->
+## Identity assessment — newspaper candidates withdrawn, 6 October 2026
+
+- [The Edinburgh Advertiser, 1789-12-11, p.8](https://www.newspapers.com/image/601822968/): no longer a candidate for this profile. Dec 1789 Mid-Lothian game-certificate list: 'Glasgow, James, Esq; Edinburgh'. Best lead is James Glasgow (Glasgow-1142), St Vincent planter and brother of Robert of Montgreenan, who died in Calder parish near Edinburgh, but this is unproved.

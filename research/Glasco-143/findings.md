@@ -52,3 +52,13 @@ The [Aurora, 9 April 1799, p.3](https://www.newspapers.com/image/586542475/) and
 ## Identity and relationship assessments — newspaper review
 
 The notice supplies residence but no age, relatives or migration link to this Dublin profile. Thomas is the reported victim; William Steel is the alleged thief. Check Tinicum tax, land, church and probate records before assignment. No family amendment is supported.
+
+<!-- nir-2026-10-06-ireland-1800-1829+ireland-1830-1839+ireland-1840-1849+ireland-1850-on+ireland-to-1799+us-to-1784 -->
+## Identity assessment — newspaper candidates withdrawn, 6 October 2026
+
+- [The Public Register, or, Freeman's Journal, 1779-10-05, p.1](https://www.newspapers.com/image/1050086381/): no longer a candidate for this profile. A repeated 1779–80 Freeman's Journal advertisement: Glasco, watch and clock maker, moves from Christ-Church-lane to 20 Ormond Quay. Two other records point to Thomas Glasco as the advertiser: a July 1779 marriage of '[Thomas] Glasco of Christchurch-lane, watchmaker' to Miss Hynes of Ormond-quay (Saunders's News-Letter extraction; forename supplied by the extractor), and Watson's 1783 directory entry 'Glasco, Thomas, Watch maker, 20 Ormond quay'. Which WikiTree Thomas he is remains unproved.
+
+<!-- nir-2026-10-06-scotland-misc+us-1785-1799 -->
+## Identity assessment — newspaper candidates withdrawn, 6 October 2026
+
+- [Aurora General Advertiser, 1799-04-09, p.3](https://www.newspapers.com/image/586542475/): no longer a candidate for this profile. 'STOP THIEF': Thomas Glascoe reports $115 stolen from his house on Tinicum Island, near Chester on the Delaware, on 31 March 1799, by a man calling himself William Steel (notice dated 9 April 1799). No WikiTree profile fits this Thomas Glascoe; the Dublin-born Glasco profiles have no American record.

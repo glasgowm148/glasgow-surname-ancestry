@@ -41,3 +41,14 @@ Profile prose and trees remain leads; inspect the cited record before treating a
 
 - ["Deaths"](https://www.britishnewspaperarchive.co.uk/viewer/bl/0000784/18550404/021/0002)
 - [Memorial #191640771](https://www.findagrave.com/memorial/191640771)
+
+<!-- nir-2026-10-06-ireland-1800-1829+ireland-1830-1839+ireland-1840-1849+ireland-1850-on+ireland-to-1799+us-to-1784 -->
+## Current conclusion — newspaper identity review, 6 October 2026
+
+- [Belfast News-Letter, 1855-04-02, p.2](https://www.newspapers.com/image/390549257/): William Glasgow (deceased emigrant) — **strong** match. Exact death date 21 January 1855, Sandusky, Ohio, Killycurragh origin and First Cookstown eldership all agree with the live profile, which already cites the Belfast Mercury version (age 56). The duplicate search finds no other William Glasgow who died in Ohio in 1855. Sources: [WikiTree Glasgow-1675 (cites Belfast Mercury 4 Apr 1855, age 56)](https://www.wikitree.com/wiki/Glasgow-1675)
+
+## Source findings
+
+### Newspaper identity review — 6 October 2026
+
+- Add second citation: the Belfast News-Letter death notice gives age 55 (the Mercury gives 56); died 21 Jan 1855 at Sandusky City; formerly of Killycurragh near Cookstown; ruling elder of First Cookstown before emigrating. — Belfast News-Letter, 2 April 1855 (newspapers.com image 390549257) ([Belfast News-Letter, 1855-04-02, p.2](https://www.newspapers.com/image/390549257/))

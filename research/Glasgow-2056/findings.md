@@ -21,3 +21,9 @@ Add the civil marriage image and father. Note that this John is not currently id
 marriage image, correctly names Matilda Little, links Henry Glasgow, and explains
 why the Killycurragh farmer is not identified as the Glenleslie nephew. Existing
 structured relationships and locations were preserved.
+
+<!-- nir-2026-10-06-ireland-1800-1829+ireland-1830-1839+ireland-1840-1849+ireland-1850-on+ireland-to-1799+us-to-1784 -->
+## Identity assessment — newspaper candidates withdrawn, 6 October 2026
+
+- [Freeman’s Journal and Daily Commercial Advertiser, 1840-10-19, p.4](https://www.newspapers.com/image/1050137248/): no longer a candidate for this profile. Freeman's Journal, 19 Oct 1840 (images 1050137248 and 1380778107): John Glasgow appears in a Repeal Association subscription list 'Per Mr. Edward Byrne, Dundrum'. With no residence, age or kin, he cannot be identified.
+- [The Drogheda Argus and Leinster Journal, 1850-10-19, p.2](https://www.newspapers.com/image/1259561281/): no longer a candidate for this profile. Drogheda Argus court report (19 Oct 1850): Sub-constable John Glasgow of the Drogheda police caught an oatmeal thief. No existing WikiTree John fits a constable serving at Drogheda in 1850, and the obvious namesakes conflict.

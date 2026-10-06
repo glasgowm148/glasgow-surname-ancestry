@@ -37,3 +37,13 @@ Compatible or conditional catalogue leads are [[Glasgow-549]], [[Glasgow-4179]],
 == Sources ==
 <references />
 ```
+
+## Identity review — 6 October 2026
+
+Still **HOLD** — the notice gives too little to identify him or to distinguish him from namesakes.
+
+The rank is self-reported and unconfirmed, there is no forename-plus-office record, and no kin is named. The listed candidates are Ulster or Carolina farmers. Glasgow-1657 (Antrim, d.1836 Ballymoney, children 1799-1815) and Glasgow-1146 (d.1826 Newberry SC) were living as family heads elsewhere, and none shows military staff service. WikiTree searches for John Glasco/Glasgow 1740-1780 found no English or army candidate. Without an Army List match the man cannot be pinned down, and none was found online.
+
+- [1799 Bow Street report: John Glasco, Esq., claiming to be an officer on the Staff, was committed for wounding patrolman John Smith after the play at Covent Garden. He cannot be identified; no WikiTree candidate has any London or army-staff record.](https://www.newspapers.com/image/32820363/)
+
+Searches: WebSearch '"John Glasco" 1799 officer staff Bow Street patrol Covent Garden' (nothing relevant); Old Bailey API text search 'Glasco' (0 hits); wt.py profile Glasgow-1146, 1657, 2990, 4179, 549; wt.py search John Glasco 1740-1780.

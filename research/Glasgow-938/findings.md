@@ -65,3 +65,19 @@ Compare the coroner’s inquest and subsequent reporting for an age, address or 
 ## Source findings
 
 [Belfast News-Letter, 6 January 1892, p.1](https://www.newspapers.com/image/388125998/), GRAHAM death notice: Jane Graham, wife of Robert Glasgow, died on 28 December at her residence, 534 Gallowgate, Glasgow, aged 51; the notice says “formerly of Rasharkin” after Robert's name. Original enlarged passage inspected 4 October 2026. The live [Jane profile](https://www.wikitree.com/wiki/Graham-21720) agrees on spouse, exact address, death date 28 December 1891 and age. This is supporting evidence for an existing marriage, not a parent confidence upgrade; the location wording is not assigned exclusively to Jane.
+
+<!-- nir-2026-10-06-ireland-1800-1829+ireland-1830-1839+ireland-1840-1849+ireland-1850-on+ireland-to-1799+us-to-1784 -->
+## Current conclusion — newspaper identity review, 6 October 2026
+
+- [Belfast News-Letter, 1861-01-07, p.4](https://www.newspapers.com/image/387764534/): Robt. Glasgow (neighbour at Lisnagaver) — **probable** match. Glasgow-938 (b. c.1840) was in his father Alexander's Lisnagaver household in the 1851 census (age 10), and his 5 Apr 1866 civil marriage calls him a bachelor farmer of Lisnagaver. Lisnagaver residence is documented on both sides of 1861. Competitors: Glasgow-3449 (b. c.1797, married labourer, died in Ballymoney Workhouse 1868) is linked to Lisnagaver only by an unproved 1834 tithe candidacy; Robert Irvine Glasgow-3897 (b. 1827) belongs to Daniel's Kilrea family. Probable, not strong: no age or father is given. Sources: [WikiTree Glasgow-938 (1851 census Lisnagaver; 1866 marriage of Lisnagaver)](https://www.wikitree.com/wiki/Glasgow-938)
+- [Belfast News-Letter, 1892-01-06, p.1](https://www.newspapers.com/image/388125998/): Robert Glasgow (husband) — **strong** match. Spouse of Graham-21720 by their 5 Apr 1866 civil marriage (bachelor farmer of Lisnagaver, Rasharkin). He was in Glasgow from 1867 and died at 58 East Rose St, Glasgow, in 1902. 'Formerly of Rasharkin' fits. Sources: [WikiTree Glasgow-938](https://www.wikitree.com/wiki/Glasgow-938)
+
+## Relationship assessment — newspaper identity review, 6 October 2026
+
+- Glasgow-938 — neighbour of (not kin) — James M'Caughern: **research note only** (WikiTree now: not linked). The report describes Robt. Glasgow as a neighbour at Lisnagaver. Neighbour only; the surname similarity with Robert's mother is not evidence. ([Belfast News-Letter, 1861-01-07, p.4](https://www.newspapers.com/image/387764534/))
+
+## Source findings
+
+### Newspaper identity review — 6 October 2026
+
+- Probable: living at Lisnagaver, Rasharkin, January 1861, when as a neighbour he warned James M'Caughern of a falling gable and raised the alarm. — Belfast News-Letter, 7 Jan 1861 (newspapers.com image 387764534) ([Belfast News-Letter, 1861-01-07, p.4](https://www.newspapers.com/image/387764534/))

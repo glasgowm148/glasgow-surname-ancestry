@@ -1,6 +1,6 @@
 # Nicholas Glasco / Glascoe, Southwark proceedings
 
-HOLD — documentary person; profile identity unresolved
+READY TO CREATE — no compatible WikiTree profile (identity review 6 October 2026)
 
 [[Category:Glasgow Name Study]]
 
@@ -27,3 +27,14 @@ The rare full name, Southwark proceedings and Hazard episode support a probable 
 
 == Sources ==
 <references />
+
+## Identity review — 6 October 2026
+
+No compatible WikiTree profile after a duplicate search; **READY TO CREATE** once the biography below is checked.
+
+Hayes's Biographical Dictionary of Irishmen in France (via the Lyon in Mourning database) gives Nicholas Glascoe, born 1715 in France, lieutenant in Dillon's (Irish) regiment in French service, major in Lord Ogilvy's regiment in 1745-6, captured at Culloden and eventually allowed to return to France as a French officer - exactly the man in both Dutch reports. WikiTree searches for Nicolas/Nicholas under Glascoe, Glasgow, Glasgo, Glasco and Glass found no 18th-century candidate. New profile draft warranted (Glascoe spelling; Irish-French family; no parents known).
+
+- [Opregte Haarlemsche Courant, 1746-12-01, p.1](https://www.newspapers.com/image/1334158733/): Dutch report (Dec 1746) on Major Nicolas Glascoe of Ogilvy's 2nd battalion, French-born ex-lieutenant of Dillon's, to be treated as a prisoner of war. Same man as group 1334222061; no WikiTree profile.
+- [Lyon in Mourning database: Nicholas Glascoe (citing Richard Hayes, 'Biographical Dictionary of Irishmen in France: Part VI', Studies 32 no.126 (1943) p.250)](https://lyoninmourning.dhil.lib.sfu.ca/GLASM1.html)
+
+Searches: wt.py search Nicolas Glascoe; Nicholas Glasgow; Nicholas Glasgo; Nicholas Glascoe 1690-1730 (no compatible hits); WebSearch '"Nicholas Glascoe" OR "Nicholas Glasgoe" OR "Nicolas Glascoe" Ogilvy Dillon 1746 major'; WebFetch Lyon in Mourning db GLASM1.; 6 Oct 2026 re-run: wt.py search Nicholas + Glascoe/Glasgow/Glasco/Glascow found only 19th-20th-century or Glass/Glas namesakes.

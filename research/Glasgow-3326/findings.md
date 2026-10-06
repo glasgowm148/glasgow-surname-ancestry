@@ -90,3 +90,11 @@ Inspect vessel William registers and London/New-York clearances for master’s f
 ## Identity assessment — newspaper candidates withdrawn, 6 October 2026
 
 - [The Public Advertiser, 1758-02-18, p.1](https://www.newspapers.com/image/34419759/): no longer a candidate for this profile. 1758 shipping line 'William, Glasgow, from London, at New-York'. William is the vessel and Glasgow the master's surname; the master's forename is unknown, so he cannot be identified.
+
+<!-- nir-2026-10-06-ireland-1800-1829+ireland-1830-1839+ireland-1840-1849+ireland-1850-on+ireland-to-1799+us-to-1784 -->
+## Identity assessment — newspaper candidates withdrawn, 6 October 2026
+
+- [The Pennsylvania Gazette, 1759-08-09, p.1](https://www.newspapers.com/image/39399295/): no longer a candidate for this profile. William Glasgow, Cecil County, Philadelphia letter list 1759. No WikiTree William Glasgow has any documented Maryland or Cecil County presence; the four previously listed Williams are Scottish/Irish baptism or tree profiles, one of which (Glasgow-3326) is documented in Larne in 1772 and 1783. No match above possible.
+- [The Pennsylvania Gazette, 1763-02-24, p.1](https://www.newspapers.com/image/39390517/): no longer a candidate for this profile. William Glasgow, Philadelphia letter list February 1763, no place given. Name only; no WikiTree profile can be singled out.
+- [The Pennsylvania Gazette, 1765-10-10, p.4](https://www.newspapers.com/image/39405824/): no longer a candidate for this profile. William Glasgow, Philadelphia letter list October 1765, no place given. Name only; unidentifiable.
+- [Maryland Gazette, 1771-10-24, p.3](https://www.newspapers.com/image/41041559/): no longer a candidate for this profile. Charles-Town (Cecil County), Maryland letter list, 1 October 1771: John Glasgow in West Nottingham, Chester County, and a separate William Glasgow. Two Johns were taxed in West Nottingham in 1771 (landholder and inmate), so John is only possibly Glasgow-2871; Glasgow-2870 (d. 1769) is now unlikely. William has no WikiTree profile; the Cecil County William named among the children of James Glasgow Sr. (d. 1784) in Cecil probate is a plausible but unproved identity.

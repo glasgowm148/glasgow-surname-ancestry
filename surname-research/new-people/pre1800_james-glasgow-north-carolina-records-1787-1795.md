@@ -84,3 +84,13 @@ Compare original state appointment minutes, Grand Lodge membership/office record
 
 == Sources ==
 <references />
+
+## Identity review — 6 October 2026
+
+No compatible WikiTree profile after a duplicate search; kept on **HOLD**.
+
+WikiTree searchPerson for Muscadine Mathews and Musendine Matthews returned no profiles. He is a non-Glasgow associate with no stated kinship, so no draft is recommended for this lane.
+
+- [The North American, 1797-02-18, p.3](https://www.newspapers.com/image/467046163/): A petition dated Raleigh, 23 December 1796, by holders of western land entries is signed for them by James Glasgow, Muscadine Mathews and John Gray Blount. A US Senate committee report of March 1797 refers to 'the petition of J. Glasgow and others, relative to lands entered in the office of John Armstrong', which identifies the James Glasgow signer as Glasgow-634 (probable). The co-signers are not kin.
+
+Searches: As group 604128613: WikiTree searchPerson for James Glasgow/Glasco/Glascoe/Glascow (1700–1780); wt.py profile/local Glasgow-634; NCpedia (DNCB), Wikipedia, UNCA Speculation Lands biography; archive.org full texts of Battle's History of UNC vol. 1 and the 1889 UNC catalogue grepped for Glasgow. WikiTree searchPerson: John Blount (1740–1760; Blount-181 found), Muscadine Mathews, Musendine Matthews, Muscoe Mathews (none). UNCA bibliography entry for the US Senate report of 1 March 1797.

@@ -341,3 +341,8 @@ Profile prose and trees remain leads; inspect the cited record before treating a
 Both retired NAI tithe microsite links were replaced with the stable official
 NAI Family History Sources guide. The inspected PRONI manuscript images,
 folios, holding size and Irish-to-statute acreage calculation were retained.
+
+<!-- nir-2026-10-06-ireland-1800-1829+ireland-1830-1839+ireland-1840-1849+ireland-1850-on+ireland-to-1799+us-to-1784 -->
+## Current conclusion — newspaper identity review, 6 October 2026
+
+- [Belfast News-Letter, 1842-02-01, p.3](https://www.newspapers.com/image/390552842/): Mr Adam Glasgow, of Inishrush, county Derry (bride's father) — **probable** match. 'Of Inishrush' is a unique designation in 1842, and Adam-3902 (d. 1844) is already Nancy's linked father. The later Adam of Inishrush (Glasgow-2419, b. 1853) is excluded by chronology. His son Adam-1622 (b. c.1794) is a much weaker alternative. [Independent check 6 October 2026: downgrade — 'Of Inishrush' is not unique. Adam Glasgow-1622 is a separate, record-defined Adam (named as father of James, 38, farmer of Inishrush, in the 1851 marriage). The local findings keep him distinct, and his being 3902's son is 'not proved'. A sixth daughter marrying in 1842 fits Adam-1622 (b. by c.1792) at least as well as 3902 (b. c.1758, wife Rose b. 1767; Nancy's guessed 1822 birth is impossible for Rose). 3902 is favoured as the 1831 freeholder and 1833 sole tithe occupier, but a competitor survives.]

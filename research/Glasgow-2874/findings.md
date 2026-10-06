@@ -40,3 +40,18 @@ The original maternal, marriage and trust evidence remains to be compared. No li
 ## Recommended profile amendment — 6 October 2026
 
 Set father [Glasgow-1076](https://www.wikitree.com/wiki/Glasgow-1076) confident and add the natural-daughter, entail and mother-name evidence (mother as a research note until a profile exists). Not yet changed on WikiTree.
+
+<!-- nir-2026-10-06-scotland-misc+us-1785-1799 -->
+## Current conclusion — newspaper identity review, 6 October 2026
+
+- [Aberdeen Journal, and General Advertiser for the North of Scotland, 1827-12-19, p.4](https://www.newspapers.com/image/393027340/): Mrs Robertson Glasgow, of Montgreenan (mother) — **strong** match. Unique style: after Robert Glasgow of Montgreenan's death (19 Apr 1827) the estate passed to Anne and her husband Robert Robertson, who took the name Glasgow (Paterson: 'Mrs Robertson Glasgow, now proprietor ... resides at Pau'; UCL LBS). Glasgow-2874 is Anne, wife of Robertson-30564. Sources: [James Paterson, History of the County of Ayr, vol. II (1852), parish of Kilwinning: Cuninghame of Ashinyards / Martin of Ashinyards (Nethermains), Mountgreenan, Glasgow of Mountgreenan; parish of Dunlop (archive.org OCR)](https://archive.org/details/historyofcountyo02pateuoft/page/252/mode/2up); [UCL Legacies of British Slavery: Dr. Robert Glasgow](https://www.ucl.ac.uk/lbs/person/view/2146643739)
+
+## Relationship assessment — newspaper identity review, 6 October 2026
+
+- Glasgow-3003 — daughter of — Glasgow-2874: **upgrade to confident** (WikiTree now: linked, unmarked (no Mother confidence code on Glasgow-3003)). 'At Rome, on the 22d ult. Mrs Robertson Glasgow, of Montgreenan, of a daughter' (Aberdeen Journal 19 Dec 1827) - date and place identical to Charlotte's recorded birth; both identities strong. ([Aberdeen Journal, and General Advertiser for the North of Scotland, 1827-12-19, p.4](https://www.newspapers.com/image/393027340/))
+
+## Source findings
+
+### Newspaper identity review — 6 October 2026
+
+- Styled 'Mrs Robertson Glasgow, of Montgreenan' by Nov 1827; gave birth to a daughter at Rome on 22 Nov 1827. — Aberdeen Journal, 19 Dec 1827 (https://www.newspapers.com/image/393027340/) ([Aberdeen Journal, and General Advertiser for the North of Scotland, 1827-12-19, p.4](https://www.newspapers.com/image/393027340/))

@@ -1,0 +1,6 @@
+# Findings: [Glasgow-2873](https://www.wikitree.com/wiki/Glasgow-2873)
+
+<!-- nir-2026-10-06-ireland-1800-1829+ireland-1830-1839+ireland-1840-1849+ireland-1850-on+ireland-to-1799+us-to-1784 -->
+## Relationship assessment — newspaper identity review, 6 October 2026
+
+- Glasgow-2871 (John Glasgow, d. 1792) — father of — Glasgow-2873 (Hugh Glasgow, 1769-1818): **research note only** (WikiTree now: linked (relationship status not set)). Not stated in the notice. Supporting, not proving: tax-index succession of the West Nottingham 80-acre holding from John (1787-1791) to Hugh (1793-1799), and Gibson's statement that Hugh was born at Nottingham, where his father had settled. Existing link; record the tax succession as corroboration. ([The Pennsylvania Gazette, 1760-08-14, p.3](https://www.newspapers.com/image/39404812/))

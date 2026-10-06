@@ -21851,6 +21851,2776 @@
       "provenance": [
         "tmp/newspaper-research/out/england-verified-input.json"
       ]
+    },
+    {
+      "id": "newspaper-identity-1050029120",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "qualified",
+      "finding": "Freeman's Journal death column (issue of 28 Sep 1765) for Mrs. Glasco, wife of Mr. Philip Glasco junior, watchmaker, Christ-church-lane, Dublin. Philip junior is the younger Dublin watchmaker, who already exists twice on WikiTree: Glasco-147 (the better-connected profile, with wives Braccan-2 and Plunkett-2805) and the project-created duplicate Glasgow-3932, whose live biography has been overwritten with an unrelated 1827 Kilrea Robert Glasgow text. The deceased wife is already modelled as Braccan-2. No new relationship is needed; the action is a merge and data clean-up.",
+      "qualification": "Probable identification or uncertain relationship; see the profile findings for the evidence and remaining test.",
+      "sources": [
+        {
+          "title": "The Public Register, or, Freeman's Journal, 1765-09-28, p. 3",
+          "url": "https://www.newspapers.com/image/1050029120/"
+        },
+        {
+          "title": "Faulkner's Dublin Journal, 24–28 Sep 1765, Deaths: '24th, Mrs. GLASCO, Wife of Mr. Philip GLASCO, Junior, an eminent Watchmaker in Christchurch-lane' (Ireland Old News transcription)",
+          "url": "https://www.irelandoldnews.com/Dublin/1765/SEP.html"
+        },
+        {
+          "title": "Public Gazetteer extraction, 17 Sep 1768 (Philip Glasco Jnr, watchmaker, m. Teresa Plunkett)",
+          "url": "https://eddiesextracts.com/extracts1700/pg1758_74.html"
+        },
+        {
+          "title": "Prerogative/Diocesan will and intestacy index (PROI DKPRI 26), entries for 'Philip Glasco, the younger, Dublin, watchmaker' 1772, intestacy p.72, as quoted on WikiTree Glasco-147 and Mangan-824",
+          "url": "https://www.virtualtreasury.ie/item/PROI-DKPRI-26-7"
+        },
+        {
+          "title": "Faulkner's Dublin Journal, 24–28 Sep 1765 (Ireland Old News transcription), death on the '24th'",
+          "url": "https://www.irelandoldnews.com/Dublin/1765/SEP.html"
+        },
+        {
+          "title": "RC baptism of Phil Glascoe, 1762, SS Michael & John, Dublin, DU-RC-BA-46402 (irishgenealogy.ie index, as quoted on WikiTree Braccan-1)",
+          "url": "https://www.wikitree.com/wiki/Braccan-1"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasco-147",
+          "name": "Mr. Philip Glasco, junior, watchmaker, Christ-church-lane",
+          "url": "/people/glasco-147.html",
+          "role": "husband of the deceased (strong match)"
+        },
+        {
+          "id": "Braccan-2",
+          "name": "Mrs. Glasco (forename and maiden name not printed)",
+          "url": "/people/braccan-2.html",
+          "role": "deceased wife of Philip Glasco junior (probable match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-1050029120",
+      "provenance": [
+        "tmp/newspaper-research/out/ireland-to-1799.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-1050148115",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "confirmed",
+      "finding": "Freeman's Journal 20 Sep 1768 marriage of Mr. Phil. Glasco the younger, watchmaker of Christ-church-lane, to Miss Teresa Plunkett of Church-street. Both people already exist and are already linked as spouses on WikiTree: Glasco-147 and Plunkett-2805. Glasgow-3932 is a duplicate of the groom.",
+      "qualification": "",
+      "sources": [
+        {
+          "title": "The Public Register, or, Freeman's Journal, 1768-09-20, p. 3",
+          "url": "https://www.newspapers.com/image/1050148115/"
+        },
+        {
+          "title": "Public Gazetteer extraction, 17 Sep 1768",
+          "url": "https://eddiesextracts.com/extracts1700/pg1758_74.html"
+        },
+        {
+          "title": "WikiTree Plunkett-2805",
+          "url": "https://www.wikitree.com/wiki/Plunkett-2805"
+        },
+        {
+          "title": "WikiTree Plunkett-2805",
+          "url": "https://www.wikitree.com/wiki/Plunkett-2805"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasco-147",
+          "name": "Mr. Phil. Glasco the younger, of Christ-church-lane, watchmaker",
+          "url": "/people/glasco-147.html",
+          "role": "groom (strong match)"
+        },
+        {
+          "id": "Plunkett-2805",
+          "name": "Miss Teresa Plunkett, of Church-street",
+          "url": "https://www.wikitree.com/wiki/Plunkett-2805",
+          "role": "bride (strong match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-1050148115",
+      "provenance": [
+        "tmp/newspaper-research/out/ireland-to-1799.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-1050087237",
+      "found_on": "2026-10-06",
+      "kind": "relationship",
+      "status": "confirmed",
+      "finding": "February 1825 Ordnance notice: First Lieutenant George Mark Glasgow, from half-pay, to be First Lieutenant RA vice Forster. He is the George Mark Glasgow born at Quebec in 1795, later Captain RA, who died at Kingston, Canada West in 1851. His 1851 obituary calls him 'son of the late General Glasgow, of the same corps'. Glasgow-3785 is the match, Glasgow-3127 appears to be a duplicate of him, and a father link to the general (who has no profile yet) is supported. Relationship proposals for WikiTree review: Glasgow-3785 (George Mark Glasgow) son of Lt-Gen George Glasgow RA (d. 28 Oct 1820); no WikiTree profile yet (draft from groups 1050144942/1050057308) (add confident).",
+      "qualification": "",
+      "sources": [
+        {
+          "title": "Freeman’s Journal and Daily Commercial Advertiser, 1825-02-16, p. 3",
+          "url": "https://www.newspapers.com/image/1050087237/"
+        },
+        {
+          "title": "The Spectator, 1 March 1851, Deaths column (Internet Archive OCR, sim_spectator-uk_1851-03-01_24_1183)",
+          "url": "https://archive.org/details/sim_spectator-uk_1851-03-01_24_1183"
+        },
+        {
+          "title": "Gentleman's Magazine, April 1851, obituary (Internet Archive full-text hit)",
+          "url": "https://archive.org/details/sim_gentlemans-magazine_1851-04_35"
+        },
+        {
+          "title": "London Gazette 8 Feb 1825, issue 18106 (IA snippet: 'Dated 26th December 1824, First Lieutenant George Mark Glasgow, from half-pay, to be First Lieutenant')",
+          "url": "https://archive.org/details/london-gazette_1825-02-08_18106"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-3785",
+          "name": "George Mark Glasgow",
+          "url": "/people/glasgow-3785.html",
+          "role": "First Lieutenant, Royal Regiment of Artillery (from half-pay) (strong match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-1050087237",
+      "provenance": [
+        "tmp/newspaper-research/out/ireland-1800-1829.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-1050085983",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "qualified",
+      "finding": "May 1825 report of Glasgow University degrees conferred on gentlemen from Ireland lists Benjamin Glasgow as Master in Surgery. Glasgow-3412 is built solely on the university's record of this degree, so the match is probable: he is the only Benjamin Glasgow in the index, though it dates the degree 1826. The profile's 'born 1805 Scotland' is unsupported and contradicts 'from Ireland'.",
+      "qualification": "Probable identification or uncertain relationship; see the profile findings for the evidence and remaining test.",
+      "sources": [
+        {
+          "title": "Freeman’s Journal and Daily Commercial Advertiser, 1825-05-07, p. 2",
+          "url": "https://www.newspapers.com/image/1050085983/"
+        },
+        {
+          "title": "University of Glasgow Story people search: Benjamin Glasgow, Master of Surgery, graduation year 1826 (only Benjamin Glasgow in the index; fetched 6 Oct 2026)",
+          "url": "https://universitystory.gla.ac.uk/people?search=&surname=Glasgow&forename=Benjamin"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-3412",
+          "name": "Benjamin Glasgow",
+          "url": "/people/glasgow-3412.html",
+          "role": "Master in Surgery, University of Glasgow (session 1824-25 per notice) (probable match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-1050085983",
+      "provenance": [
+        "tmp/newspaper-research/out/ireland-1800-1829.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-390568607",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "qualified",
+      "finding": "1 May 1830 Belfast College premiums: James Glasgow 'of the Institution' won the senior voluntary mathematics award and a Locke's Essay (logic) premium. He is the student James McClure Glasgow (Glasgow-1780), whose RBAI mathematics career and General Certificate of 1832 are recorded independently in the Irish Presbyterian Fasti and the Dictionary of Ulster Biography; no relationship is stated.",
+      "qualification": "Probable identification or uncertain relationship; see the profile findings for the evidence and remaining test.",
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 1830-05-07, p. 2",
+          "url": "https://www.newspapers.com/image/390568607/"
+        },
+        {
+          "title": "J. McConnell, Fasti of the Irish Presbyterian Church 1613-1840 (archive.org full text), nos. 1122 (Adam Dickey Glasgow) and 1123 (James Glasgow)",
+          "url": "https://archive.org/details/bim_early-english-books-1641-1700_james-mcconnell-b_1613-1840_ia40330205-24"
+        },
+        {
+          "title": "Dictionary of Ulster Biography, Rev Dr James McClure Glasgow (1805-1890)",
+          "url": "https://www.newulsterbiography.co.uk/index.php/home/viewPerson/2198"
+        },
+        {
+          "title": "WikiTree Glasgow-1780 live profile (API, read 6 Oct 2026)",
+          "url": "https://www.wikitree.com/wiki/Glasgow-1780"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-1780",
+          "name": "James Glasgow (of the Institution)",
+          "url": "/people/glasgow-1780.html",
+          "role": "prize-winning student, Belfast Academical Institution college department (probable match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-390568607",
+      "provenance": [
+        "tmp/newspaper-research/out/ireland-1830-1839.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-390569859",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "confirmed",
+      "finding": "June 1830 RBAI school prize list: Adam D. Glasgow of Broughshane won trigonometry/astronomy and (as A. D. Glasgow) geometry and algebra prizes. He is Adam Dickey Glasgow (Glasgow-1781), later a Presbyterian minister and missionary; no relationship is stated in the notice.",
+      "qualification": "",
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 1830-06-29, p. 3",
+          "url": "https://www.newspapers.com/image/390569859/"
+        },
+        {
+          "title": "J. McConnell, Fasti of the Irish Presbyterian Church 1613-1840, no. 1122",
+          "url": "https://archive.org/details/bim_early-english-books-1641-1700_james-mcconnell-b_1613-1840_ia40330205-24"
+        },
+        {
+          "title": "WikiTree Glasgow-1781 live profile (API, read 6 Oct 2026)",
+          "url": "https://www.wikitree.com/wiki/Glasgow-1781"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-1781",
+          "name": "Adam D. Glasgow / A. D. Glasgow (Broughshane)",
+          "url": "/people/glasgow-1781.html",
+          "role": "school prize-winner, Royal Belfast Academical Institution (strong match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-390569859",
+      "provenance": [
+        "tmp/newspaper-research/out/ireland-1830-1839.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-390545285",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "qualified",
+      "finding": "Belfast College report of 30 April 1831 names Adam D. Glasgow of Broughshane (mathematics) and James Glasgow of the Institution (voluntary advanced mathematics). They are the brothers Adam Dickey Glasgow (Glasgow-1781) and James McClure Glasgow (Glasgow-1780); the notice does not call them brothers, and their sibling link is already on WikiTree and independently stated in the Fasti.",
+      "qualification": "Probable identification or uncertain relationship; see the profile findings for the evidence and remaining test.",
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 1831-05-06, p. 3",
+          "url": "https://www.newspapers.com/image/390545285/"
+        },
+        {
+          "title": "Fasti of the Irish Presbyterian Church 1613-1840, no. 1122",
+          "url": "https://archive.org/details/bim_early-english-books-1641-1700_james-mcconnell-b_1613-1840_ia40330205-24"
+        },
+        {
+          "title": "WikiTree Glasgow-1781 live profile",
+          "url": "https://www.wikitree.com/wiki/Glasgow-1781"
+        },
+        {
+          "title": "Fasti of the Irish Presbyterian Church 1613-1840, no. 1123",
+          "url": "https://archive.org/details/bim_early-english-books-1641-1700_james-mcconnell-b_1613-1840_ia40330205-24"
+        },
+        {
+          "title": "Dictionary of Ulster Biography, James McClure Glasgow",
+          "url": "https://www.newulsterbiography.co.uk/index.php/home/viewPerson/2198"
+        },
+        {
+          "title": "WikiTree Glasgow-1780 live profile",
+          "url": "https://www.wikitree.com/wiki/Glasgow-1780"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-1781",
+          "name": "Adam D. Glasgow (Broughshane)",
+          "url": "/people/glasgow-1781.html",
+          "role": "college prize-winner, mathematics (strong match)"
+        },
+        {
+          "id": "Glasgow-1780",
+          "name": "James Glasgow (Institution)",
+          "url": "/people/glasgow-1780.html",
+          "role": "college prize-winner, voluntary advanced mathematics (probable match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-390545285",
+      "provenance": [
+        "tmp/newspaper-research/out/ireland-1830-1839.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-390554297",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "qualified",
+      "finding": "Belfast News-Letter, 20 May 1834: Benjamin Glasgow, surgeon, formerly of Vera Cruz, died at New Orleans on 26 November 1833, son of the late Robert Glasgow of Cookstown. Benjamin is probably Glasgow-3412 (Glasgow University surgeon, 1825, 'Hibernus'); his father is not securely on WikiTree, so the parent link stays a research note.",
+      "qualification": "Probable identification or uncertain relationship; see the profile findings for the evidence and remaining test.",
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 1834-05-20, p. 3",
+          "url": "https://www.newspapers.com/image/390554297/"
+        },
+        {
+          "title": "W. Innes Addison, A Roll of the Graduates of the University of Glasgow 1727-1897 (1898): 'GLASGOW, BENJAMIN, C.M. 1825. \"Hibernus\" [Grad. Alb.]'",
+          "url": "https://archive.org/details/rollofgraduateso00addiuoft"
+        },
+        {
+          "title": "University of Glasgow Story, people search 'Glasgow' (Benjamin Glasgow, Master of Surgery, listed 1826)",
+          "url": "https://universitystory.gla.ac.uk/people?search=&surname=Glasgow&forename="
+        },
+        {
+          "title": "WikiTree Glasgow-3412 live profile (API, 6 Oct 2026)",
+          "url": "https://www.wikitree.com/wiki/Glasgow-3412"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-3412",
+          "name": "Benjamin Glasgow, surgeon",
+          "url": "/people/glasgow-3412.html",
+          "role": "deceased (d. New Orleans 26 Nov 1833) (probable match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-390554297",
+      "provenance": [
+        "tmp/newspaper-research/out/ireland-1830-1839.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-1050049974",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "qualified",
+      "finding": "Freeman's Journal, 23 May 1834, repeats the same death: Benjamin Glasgow, surgeon, died at New Orleans 26 November 1833, son of the late Mr Robert Glasgow of Cookstown. Same conclusions as the Belfast notice: Benjamin probably Glasgow-3412, father unidentified; this reprint is not an independent witness.",
+      "qualification": "Probable identification or uncertain relationship; see the profile findings for the evidence and remaining test.",
+      "sources": [
+        {
+          "title": "Freeman’s Journal and Daily Commercial Advertiser, 1834-05-23, p. 4",
+          "url": "https://www.newspapers.com/image/1050049974/"
+        },
+        {
+          "title": "Addison, Roll of the Graduates of the University of Glasgow (1898)",
+          "url": "https://archive.org/details/rollofgraduateso00addiuoft"
+        },
+        {
+          "title": "WikiTree Glasgow-3412 live profile",
+          "url": "https://www.wikitree.com/wiki/Glasgow-3412"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-3412",
+          "name": "Benjamin Glasgow, surgeon",
+          "url": "/people/glasgow-3412.html",
+          "role": "deceased (d. New Orleans 26 Nov 1833) (probable match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-1050049974",
+      "provenance": [
+        "tmp/newspaper-research/out/ireland-1830-1839.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-390544149",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "confirmed",
+      "finding": "At the ordination of Rev. Gilbert Kirker Wilson to Bellaghy on 15 March 1836, Rev. James Glasgow of Castledawson preached and later returned thanks. He is James McClure Glasgow (Glasgow-1780), minister of Castledawson 1835-40; no family relationship is stated.",
+      "qualification": "",
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 1836-04-05, p. 4",
+          "url": "https://www.newspapers.com/image/390544149/"
+        },
+        {
+          "title": "Fasti of the Irish Presbyterian Church 1613-1840, no. 1123",
+          "url": "https://archive.org/details/bim_early-english-books-1641-1700_james-mcconnell-b_1613-1840_ia40330205-24"
+        },
+        {
+          "title": "Dictionary of Ulster Biography, James McClure Glasgow",
+          "url": "https://www.newulsterbiography.co.uk/index.php/home/viewPerson/2198"
+        },
+        {
+          "title": "WikiTree Glasgow-1780 live profile",
+          "url": "https://www.wikitree.com/wiki/Glasgow-1780"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-1780",
+          "name": "Rev. James Glasgow, of Castledawson",
+          "url": "/people/glasgow-1780.html",
+          "role": "preacher at Bellaghy ordination (strong match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-390544149",
+      "provenance": [
+        "tmp/newspaper-research/out/ireland-1830-1839.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-390542489",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "confirmed",
+      "finding": "Belfast News-Letter, 10 January 1837: Adam D. Glasgow resigned as assistant in the RBAI Mathematical and Mercantile School and was presented with a Greek Lexicon by his class on 22 December 1836. He is Adam Dickey Glasgow (Glasgow-1781), who held the same kind of post his brother James had resigned in 1834; the notice states no relationship.",
+      "qualification": "",
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 1837-01-10, p. 2",
+          "url": "https://www.newspapers.com/image/390542489/"
+        },
+        {
+          "title": "Fasti of the Irish Presbyterian Church 1613-1840, no. 1122",
+          "url": "https://archive.org/details/bim_early-english-books-1641-1700_james-mcconnell-b_1613-1840_ia40330205-24"
+        },
+        {
+          "title": "WikiTree Glasgow-1781 live profile",
+          "url": "https://www.wikitree.com/wiki/Glasgow-1781"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-1781",
+          "name": "Adam D. Glasgow",
+          "url": "/people/glasgow-1781.html",
+          "role": "assistant, Mathematical and Mercantile School, Royal Belfast Institution (resigning) (strong match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-390542489",
+      "provenance": [
+        "tmp/newspaper-research/out/ireland-1830-1839.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-1050121684",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "qualified",
+      "finding": "Freeman's Journal, 21 January 1837, reprints the Ordnance list of 16 January: First Lieutenant George Mark Glasgow to be Second Captain, vice Freer. He is the Royal Artillery officer of Glasgow-3127 (probable), who is very probably also Glasgow-3785 (b. Quebec 1795, d. Kingston 1851) - a likely duplicate pair. No relationship stated.",
+      "qualification": "Probable identification or uncertain relationship; see the profile findings for the evidence and remaining test.",
+      "sources": [
+        {
+          "title": "Freeman’s Journal and Daily Commercial Advertiser, 1837-01-21, p. 2",
+          "url": "https://www.newspapers.com/image/1050121684/"
+        },
+        {
+          "title": "WikiTree Glasgow-3127 live biography (API 6 Oct 2026)",
+          "url": "https://www.wikitree.com/wiki/Glasgow-3127"
+        },
+        {
+          "title": "WikiTree Glasgow-3785 live profile",
+          "url": "https://www.wikitree.com/wiki/Glasgow-3785"
+        },
+        {
+          "title": "Dictionary of Canadian Biography, GLASGOW, GEORGE (Lt-Gen, Royal Artillery, d. 1820): nine surviving children, eight born in Canada",
+          "url": "https://www.biographi.ca/en/bio/glasgow_george_5E.html"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-3127",
+          "name": "George Mark Glasgow, 1st Lieutenant (Royal Artillery)",
+          "url": "/people/glasgow-3127.html",
+          "role": "promoted Second Captain, vice Freer (Office of Ordnance, 16 Jan 1837) (probable match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-1050121684",
+      "provenance": [
+        "tmp/newspaper-research/out/ireland-1830-1839.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-390543080",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "qualified",
+      "finding": "Belfast News-Letter, 24 January 1837: Office of Ordnance, 16 January - 1st Lieut. George Mark Glasgow to be Second Captain, vice Freer; 2nd Lieut. George Carter Evelegh to be First Lieutenant, vice Glasgow. Same promotion as the Freeman's Journal reprint; the officer is probably Glasgow-3127, itself probably a duplicate of Glasgow-3785. No relationship stated.",
+      "qualification": "Probable identification or uncertain relationship; see the profile findings for the evidence and remaining test.",
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 1837-01-24, p. 1",
+          "url": "https://www.newspapers.com/image/390543080/"
+        },
+        {
+          "title": "WikiTree Glasgow-3127 live biography",
+          "url": "https://www.wikitree.com/wiki/Glasgow-3127"
+        },
+        {
+          "title": "WikiTree Glasgow-3785 live profile",
+          "url": "https://www.wikitree.com/wiki/Glasgow-3785"
+        },
+        {
+          "title": "Dictionary of Canadian Biography, George Glasgow",
+          "url": "https://www.biographi.ca/en/bio/glasgow_george_5E.html"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-3127",
+          "name": "George Mark Glasgow, 1st Lieutenant (Royal Artillery)",
+          "url": "/people/glasgow-3127.html",
+          "role": "promoted Second Captain, vice Freer (probable match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-390543080",
+      "provenance": [
+        "tmp/newspaper-research/out/ireland-1830-1839.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-390545495",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "confirmed",
+      "finding": "At the dinner after Rev. Samuel Smith's ordination to Draperstown on 28 March 1837, 'Rev. J. Glasgow of Castledawson' was among the speakers. He is James McClure Glasgow (Glasgow-1780); no relationship is stated.",
+      "qualification": "",
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 1837-04-04, p. 4",
+          "url": "https://www.newspapers.com/image/390545495/"
+        },
+        {
+          "title": "Fasti of the Irish Presbyterian Church 1613-1840, no. 1123",
+          "url": "https://archive.org/details/bim_early-english-books-1641-1700_james-mcconnell-b_1613-1840_ia40330205-24"
+        },
+        {
+          "title": "Dictionary of Ulster Biography, James McClure Glasgow",
+          "url": "https://www.newulsterbiography.co.uk/index.php/home/viewPerson/2198"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-1780",
+          "name": "Rev. J. Glasgow, of Castledawson",
+          "url": "/people/glasgow-1780.html",
+          "role": "speaker at Draperstown ordination dinner (strong match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-390545495",
+      "provenance": [
+        "tmp/newspaper-research/out/ireland-1830-1839.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-1050122635",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "qualified",
+      "finding": "Antrim Assizes, July 1838: William M'Gowan, a man-midwife, was acquitted of the manslaughter of Anne Armstrong, who died in childbirth on 23 June 1838 at Bally-cluck (Ballyclug, beside Ballymena/Broughshane). Euphemia Armstrong was the mother of Anne's husband John Armstrong, and Jane Glasgow was Anne's mother. Jane Glasgow is probably the widow Jane (McClure) Glasgow (McClure-6341) of the Racavan/Broughshane family, and Anne is possibly her daughter Glasgow-1779 'Jane Armstrong', whose gravestone gives 1837 - so the notice may supply that daughter's husband and true death date.",
+      "qualification": "Probable identification or uncertain relationship; see the profile findings for the evidence and remaining test.",
+      "sources": [
+        {
+          "title": "Freeman’s Journal and Daily Commercial Advertiser, 1838-07-27, p. 3",
+          "url": "https://www.newspapers.com/image/1050122635/"
+        },
+        {
+          "title": "Racavan Burying-Ground, Broughshane, Glasgow memorial (thebraid.com transcription quoted on WikiTree Glasgow-1779 and McClure-6341; site offline): 'William Glasgow, who died 1823, aged 22. His father John Glasgow, 1836, aged 70. Jane Armstrong, daughter of the latter 1837, aged 38 And Jane, his widow 1858, aged 85'",
+          "url": "https://www.wikitree.com/wiki/Glasgow-1779"
+        },
+        {
+          "title": "Lewis, Topographical Dictionary of Ireland (1837), Ballyclug: manor court of Kearte covers Ballyclug and parts of Connor and Rathcaven (Racavan)",
+          "url": "https://test.visionofbritain.org.uk/place/27270"
+        },
+        {
+          "title": "WikiTree McClure-6341 live profile",
+          "url": "https://www.wikitree.com/wiki/McClure-6341"
+        }
+      ],
+      "people": [
+        {
+          "id": "McClure-6341",
+          "name": "Jane Glasgow",
+          "url": "/people/mcclure-6341.html",
+          "role": "mother of the deceased Anne Armstrong; witness (probable match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-1050122635",
+      "provenance": [
+        "tmp/newspaper-research/out/ireland-1830-1839.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-390553900",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "confirmed",
+      "finding": "Belfast News-Letter, 17 Jan 1840: Rev. Adam D. Glasgow gets a unanimous call to Berry Street Presbyterian Church, Belfast. The NZ Presbyterian register independently names Adam Dickie Glasgow as minister of Berry Street, so the subject is Glasgow-1781 (raised to strong).",
+      "qualification": "",
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 1840-01-17, p. 2",
+          "url": "https://www.newspapers.com/image/390553900/"
+        },
+        {
+          "title": "Presbyterian Church of New Zealand Archives, Register of ministers: Adam Dickie Glasgow (transcribed entry)",
+          "url": "https://www.presbyterian.org.nz/archives/Page165.htm"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-1781",
+          "name": "Rev. Adam D. Glasgow",
+          "url": "/people/glasgow-1781.html",
+          "role": "minister called to Berry Street, Belfast (strong match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-390553900",
+      "provenance": [
+        "tmp/newspaper-research/out/ireland-1840-1849.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-390555182",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "confirmed",
+      "finding": "Belfast News-Letter, 10 Mar 1840: a Berry Street soiree on 5 Mar presents a pulpit dress to the newly ordained Rev. Adam D. Glasgow. This is Glasgow-1781 (strong).",
+      "qualification": "",
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 1840-03-10, p. 2",
+          "url": "https://www.newspapers.com/image/390555182/"
+        },
+        {
+          "title": "Presbyterian Church of NZ register: Adam Dickie Glasgow",
+          "url": "https://www.presbyterian.org.nz/archives/Page165.htm"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-1781",
+          "name": "Rev. Adam D. Glasgow",
+          "url": "/people/glasgow-1781.html",
+          "role": "newly ordained minister of Berry Street (strong match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-390555182",
+      "provenance": [
+        "tmp/newspaper-research/out/ireland-1840-1849.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-390559244",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "qualified",
+      "finding": "Belfast News-Letter, 14 Jul 1840: the General Assembly sets apart Rev. James Glasgow of Castledawson and Rev. Alexander Kerr of Portadown as missionaries to India. A separate Synod passage says Adam Glasgow and James Carr offered themselves for India. James is Glasgow-1780 (strong) and Adam is Glasgow-1781 (probable). The notice states no kinship.",
+      "qualification": "Probable identification or uncertain relationship; see the profile findings for the evidence and remaining test.",
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 1840-07-14, p. 1",
+          "url": "https://www.newspapers.com/image/390559244/"
+        },
+        {
+          "title": "Dictionary of Ulster Biography",
+          "url": "https://www.newulsterbiography.co.uk/index.php/home/viewPerson/2198"
+        },
+        {
+          "title": "PHSI: PCI Foreign Mission in India",
+          "url": "https://presbyterianhistoryireland.com/history/pci-foreign-mission-india/"
+        },
+        {
+          "title": "Presbyterian Church of NZ register",
+          "url": "https://www.presbyterian.org.nz/archives/Page165.htm"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-1780",
+          "name": "Rev. James Glasgow, of Castledawson",
+          "url": "/people/glasgow-1780.html",
+          "role": "missionary set apart for India (strong match)"
+        },
+        {
+          "id": "Glasgow-1781",
+          "name": "Messrs. Adam Glasgow (ordained Synod minister offering for India)",
+          "url": "/people/glasgow-1781.html",
+          "role": "volunteer for the Synod's India mission (probable match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-390559244",
+      "provenance": [
+        "tmp/newspaper-research/out/ireland-1840-1849.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-390560450",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "qualified",
+      "finding": "Belfast News-Letter, 7 Aug 1840: Rev. Adam Glasgow officiated at the 25 July 1840 marriage of James Small of Lottery Cottage, Co. Armagh, and Margaret Small. The officiant is probably Glasgow-1781. No Glasgow kinship.",
+      "qualification": "Probable identification or uncertain relationship; see the profile findings for the evidence and remaining test.",
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 1840-08-07, p. 3",
+          "url": "https://www.newspapers.com/image/390560450/"
+        },
+        {
+          "title": "Presbyterian Church of NZ register",
+          "url": "https://www.presbyterian.org.nz/archives/Page165.htm"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-1781",
+          "name": "Rev. Adam Glasgow",
+          "url": "/people/glasgow-1781.html",
+          "role": "officiant (probable match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-390560450",
+      "provenance": [
+        "tmp/newspaper-research/out/ireland-1840-1849.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-390560975",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "confirmed",
+      "finding": "Belfast News-Letter, 21 Aug 1840: devotions at a Townsend Street soiree led by 'the Rev. Adam Glasgow, of Berry-street', with a separate mention of Rev. James Glasgow, Missionary to India. Adam is Glasgow-1781 and James is Glasgow-1780, both strong. No kinship stated.",
+      "qualification": "",
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 1840-08-21, p. 2",
+          "url": "https://www.newspapers.com/image/390560975/"
+        },
+        {
+          "title": "Dictionary of Ulster Biography",
+          "url": "https://www.newulsterbiography.co.uk/index.php/home/viewPerson/2198"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-1780",
+          "name": "Rev. James Glasgow, Missionary to India",
+          "url": "/people/glasgow-1780.html",
+          "role": "named missionary (strong match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-390560975",
+      "provenance": [
+        "tmp/newspaper-research/out/ireland-1840-1849.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-390563103",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "qualified",
+      "finding": "Belfast News-Letter, 30 Oct 1840: Mr Robert Glasgow is chairman of the Cookstown Academy committee, and a separate Townsend Street soiree on 27 Oct was opened by Rev. Adam Glasgow. Adam is Glasgow-1781 (probable). Robert is most plausibly Robert Glasgow Esq. of Tullyreagh (Glasgow-2656), but only possible.",
+      "qualification": "Probable identification or uncertain relationship; see the profile findings for the evidence and remaining test.",
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 1840-10-30, p. 2",
+          "url": "https://www.newspapers.com/image/390563103/"
+        },
+        {
+          "title": "Presbyterian Church of NZ register",
+          "url": "https://www.presbyterian.org.nz/archives/Page165.htm"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-1781",
+          "name": "Rev. Adam Glasgow",
+          "url": "/people/glasgow-1781.html",
+          "role": "opened Townsend Street soiree (probable match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-390563103",
+      "provenance": [
+        "tmp/newspaper-research/out/ireland-1840-1849.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-390563260",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "qualified",
+      "finding": "Belfast News-Letter, 6 Nov 1840: Rev. Adam Glasgow is among the speakers at the Belfast Town Mission annual meeting. Probably Glasgow-1781.",
+      "qualification": "Probable identification or uncertain relationship; see the profile findings for the evidence and remaining test.",
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 1840-11-06, p. 2",
+          "url": "https://www.newspapers.com/image/390563260/"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-1781",
+          "name": "Rev. Adam Glasgow",
+          "url": "/people/glasgow-1781.html",
+          "role": "speaker (probable match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-390563260",
+      "provenance": [
+        "tmp/newspaper-research/out/ireland-1840-1849.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-390558896",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "confirmed",
+      "finding": "Belfast News-Letter, 25 May 1841: a letter from Rev. James Glasgow of the India mission about selling ladies' work at Bombay. This is Glasgow-1780 (strong).",
+      "qualification": "",
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 1841-05-25, p. 4",
+          "url": "https://www.newspapers.com/image/390558896/"
+        },
+        {
+          "title": "Dictionary of Ulster Biography",
+          "url": "https://www.newulsterbiography.co.uk/index.php/home/viewPerson/2198"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-1780",
+          "name": "Rev. James Glasgow",
+          "url": "/people/glasgow-1780.html",
+          "role": "General Assembly missionary in India, letter writer (strong match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-390558896",
+      "provenance": [
+        "tmp/newspaper-research/out/ireland-1840-1849.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-390562197",
+      "found_on": "2026-10-06",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Belfast News-Letter, 10 Sep 1841: Margaret Jane, infant daughter of Rev. James Glasgow, missionary to Kattywar, died at Rajkote on 11 June 1841 aged 2 months 26 days. The child is Glasgow-2898 and the father Glasgow-1780 (already linked). Read with the 1840 marriage and the Dictionary of Ulster Biography, her mother is Mary Wightman-3457. That link is missing and is proposed as uncertain. Relationship proposals for WikiTree review: Glasgow-2898 daughter of Wightman-3457 (add uncertain).",
+      "qualification": "Probable identification or uncertain relationship; see the profile findings for the evidence and remaining test.",
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 1841-09-10, p. 2",
+          "url": "https://www.newspapers.com/image/390562197/"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-2898",
+          "name": "Glasgow-2898",
+          "url": "/people/glasgow-2898.html",
+          "role": "Named in relationship proposal"
+        },
+        {
+          "id": "Wightman-3457",
+          "name": "Wightman-3457",
+          "url": "/people/wightman-3457.html",
+          "role": "Named in relationship proposal"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-390562197",
+      "provenance": [
+        "tmp/newspaper-research/out/ireland-1840-1849.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-390563026",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "confirmed",
+      "finding": "Belfast News-Letter, 19 Oct 1841: a letter dated Rajkote 14 Aug 1841 and signed James Glasgow on the illness and death of Rev. Alexander Kerr. This is Glasgow-1780 (strong). 'Brother missionary' means colleague.",
+      "qualification": "",
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 1841-10-19, p. 2",
+          "url": "https://www.newspapers.com/image/390563026/"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-1780",
+          "name": "Rev. Mr. Glasgow / James Glasgow",
+          "url": "/people/glasgow-1780.html",
+          "role": "letter writer, Rajkot (strong match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-390563026",
+      "provenance": [
+        "tmp/newspaper-research/out/ireland-1840-1849.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-390552100",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "confirmed",
+      "finding": "Belfast News-Letter, 4 Jan 1842: Rev. Adam Glasgow married Miss Jane Thompson on 30 Dec 1841 at the house of her uncle Thomas Corbett, May Street, Belfast. The NZ register says Adam Dickie Glasgow of Berry Street married Jane Thompson of Co. Down (b. 1822), so both identities are strong: Glasgow-1781 and Thompson-100184, already linked as spouses.",
+      "qualification": "",
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 1842-01-04, p. 3",
+          "url": "https://www.newspapers.com/image/390552100/"
+        },
+        {
+          "title": "Presbyterian Church of NZ register",
+          "url": "https://www.presbyterian.org.nz/archives/Page165.htm"
+        }
+      ],
+      "people": [
+        {
+          "id": "Thompson-100184",
+          "name": "Miss Jane Thompson",
+          "url": "/people/thompson-100184.html",
+          "role": "bride (strong match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-390552100",
+      "provenance": [
+        "tmp/newspaper-research/out/ireland-1840-1849.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-1050136610",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "confirmed",
+      "finding": "Freeman's Journal, 14 Jan 1842: the Presbytery of Belfast designated four missionaries (Rev. Adam Glasgow, James M'Kee, Robert Montgomery and James Henry Spears) to join Rev. James Glasgow in Hindostan. Adam is Glasgow-1781 and James is Glasgow-1780, both strong. This report states no kinship.",
+      "qualification": "",
+      "sources": [
+        {
+          "title": "Freeman's Journal and Daily Commercial Advertiser, 1842-01-14, p. 1",
+          "url": "https://www.newspapers.com/image/1050136610/"
+        },
+        {
+          "title": "Presbyterian Church of NZ register",
+          "url": "https://www.presbyterian.org.nz/archives/Page165.htm"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-1780",
+          "name": "Rev. James Glasgow",
+          "url": "/people/glasgow-1780.html",
+          "role": "existing India missionary (strong match)"
+        },
+        {
+          "id": "Glasgow-1781",
+          "name": "Rev. Adam Glasgow",
+          "url": "/people/glasgow-1781.html",
+          "role": "missionary designated for India (strong match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-1050136610",
+      "provenance": [
+        "tmp/newspaper-research/out/ireland-1840-1849.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-390552341",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "confirmed",
+      "finding": "Belfast News-Letter, 14 Jan 1842: at the designation of four missionaries, Rev. Adam Glasgow is called 'brother of the Rev. Jas. Glasgow'. Both identities are strong, and the NZ register independently names Adam's brother as Dr James Glasgow. The brothers are already linked through shared parents.",
+      "qualification": "",
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 1842-01-14, p. 2",
+          "url": "https://www.newspapers.com/image/390552341/"
+        },
+        {
+          "title": "Presbyterian Church of NZ register",
+          "url": "https://www.presbyterian.org.nz/archives/Page165.htm"
+        },
+        {
+          "title": "Dictionary of Ulster Biography",
+          "url": "https://www.newulsterbiography.co.uk/index.php/home/viewPerson/2198"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-1781",
+          "name": "Rev. Adam Glasgow",
+          "url": "/people/glasgow-1781.html",
+          "role": "designated missionary (strong match)"
+        },
+        {
+          "id": "Glasgow-1780",
+          "name": "Rev. Jas. Glasgow",
+          "url": "/people/glasgow-1780.html",
+          "role": "named brother, missionary in India (strong match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-390552341",
+      "provenance": [
+        "tmp/newspaper-research/out/ireland-1840-1849.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-390552842",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "confirmed",
+      "finding": "Belfast News-Letter, 1 Feb 1842: John Kyle of Tyanee married Nancy, sixth daughter of Mr Adam Glasgow of Inishrush, Co. Derry, on 14 Jan 1842. Nancy Glasgow-3907, Adam Glasgow-3902 and John Kyle-3461 are already linked as daughter and father and as spouses. The Londonderry Sentinel of 29 Jan 1842 reports the same marriage.",
+      "qualification": "",
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 1842-02-01, p. 3",
+          "url": "https://www.newspapers.com/image/390552842/"
+        },
+        {
+          "title": "Londonderry Sentinel 29 Jan 1842 (transcription)",
+          "url": "https://cotyroneireland.com/surnames/glasgow.html"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-3907",
+          "name": "Nancy",
+          "url": "/people/glasgow-3907.html",
+          "role": "bride (strong match)"
+        },
+        {
+          "id": "Kyle-3461",
+          "name": "Mr John Kyle, of Tyanee",
+          "url": "/people/kyle-3461.html",
+          "role": "groom (strong match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-390552842",
+      "provenance": [
+        "tmp/newspaper-research/out/ireland-1840-1849.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-390558014",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "confirmed",
+      "finding": "Belfast News-Letter, 29 Jul 1842: an editorial praises Rev. James Glasgow as 'first Moderator of the first Indian Presbytery', and a separate letter by Rev. Adam Glasgow is dated Rajkote 16 May 1842. James is Glasgow-1780 and Adam is Glasgow-1781, both strong.",
+      "qualification": "",
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 1842-07-29, p. 2",
+          "url": "https://www.newspapers.com/image/390558014/"
+        },
+        {
+          "title": "Presbyterian Church of NZ register",
+          "url": "https://www.presbyterian.org.nz/archives/Page165.htm"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-1780",
+          "name": "Rev. James Glasgow",
+          "url": "/people/glasgow-1780.html",
+          "role": "first Moderator of the first Indian Presbytery (strong match)"
+        },
+        {
+          "id": "Glasgow-1781",
+          "name": "Rev. Adam Glasgow",
+          "url": "/people/glasgow-1781.html",
+          "role": "letter writer, Rajkote, 16 May 1842 (strong match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-390558014",
+      "provenance": [
+        "tmp/newspaper-research/out/ireland-1840-1849.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-390560193",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "confirmed",
+      "finding": "Belfast News-Letter, 28 Mar 1843: letters from Rev. Adam Glasgow and Rev. Mr. Spier were read at the India Mission prayer meeting. This is Glasgow-1781 (strong).",
+      "qualification": "",
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 1843-03-28, p. 2",
+          "url": "https://www.newspapers.com/image/390560193/"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-1781",
+          "name": "Rev. Adam Glasgow",
+          "url": "/people/glasgow-1781.html",
+          "role": "India mission letter writer (strong match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-390560193",
+      "provenance": [
+        "tmp/newspaper-research/out/ireland-1840-1849.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-401331272",
+      "found_on": "2026-10-06",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Freeman's Journal, 2 Sep 1847: a double wedding at Paisley on 25 Aug 1847. Lt George Sherbrooke Airey RN married Anne, second daughter, and Rev George Drake married Charlotte Maria Cecilia, youngest daughter, of the late Robert Glasgow Esq. of Montgreenan. The father is Robertson-30564 (strong): he died in 1845, his son lived to 1860, and Dr Robert Glasgow (d. 1827) had no issue. Charlotte-3003 is strong, Anne-3000 and Drake-13873 probable. Airey has no profile. Relationship proposals for WikiTree review: Glasgow-3003 daughter of Robertson-30564 (upgrade to confident); Glasgow-3000 daughter of Robertson-30564 (upgrade to confident); Glasgow-3000 spouse of George Sherbrooke Airey (no profile yet) (add confident).",
+      "qualification": "Probable identification or uncertain relationship; see the profile findings for the evidence and remaining test.",
+      "sources": [
+        {
+          "title": "Freeman’s Journal and Daily Commercial Advertiser, 1847-09-02, p. 4",
+          "url": "https://www.newspapers.com/image/401331272/"
+        },
+        {
+          "title": "Wikipedia: Montgreenan",
+          "url": "https://en.wikipedia.org/wiki/Montgreenan"
+        },
+        {
+          "title": "UCL LBS claim 15 Feb 1836",
+          "url": "https://www.ucl.ac.uk/lbs/claim/view/26620"
+        },
+        {
+          "title": "thepeerage p67979",
+          "url": "https://ftp.thepeerage.com/p67979.htm"
+        }
+      ],
+      "people": [
+        {
+          "id": "Robertson-30564",
+          "name": "the late Robert Glasgow, Esq., of Montgreenan, county Ayr",
+          "url": "/people/robertson-30564.html",
+          "role": "father of both brides (strong match)"
+        },
+        {
+          "id": "Glasgow-3000",
+          "name": "Anne",
+          "url": "/people/glasgow-3000.html",
+          "role": "bride (second daughter) (probable match)"
+        },
+        {
+          "id": "Glasgow-3003",
+          "name": "Glasgow-3003",
+          "url": "/people/glasgow-3003.html",
+          "role": "Named in relationship proposal"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-401331272",
+      "provenance": [
+        "tmp/newspaper-research/out/ireland-1840-1849.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-390546223",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "qualified",
+      "finding": "Belfast News-Letter, 11 Apr 1848: the wife of Rev. James Glasgow gave birth to a daughter at Surat on 22 Feb 1848. The child is probably Annie Coulson Glasgow-2901, the only daughter the Dictionary of Ulster Biography lists for 1848. Both parent links already exist.",
+      "qualification": "Probable identification or uncertain relationship; see the profile findings for the evidence and remaining test.",
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 1848-04-11, p. 2",
+          "url": "https://www.newspapers.com/image/390546223/"
+        },
+        {
+          "title": "Dictionary of Ulster Biography",
+          "url": "https://www.newulsterbiography.co.uk/index.php/home/viewPerson/2198"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-1780",
+          "name": "Rev. James Glasgow",
+          "url": "/people/glasgow-1780.html",
+          "role": "father (strong match)"
+        },
+        {
+          "id": "Wightman-3457",
+          "name": "the lady of Rev. James Glasgow",
+          "url": "/people/wightman-3457.html",
+          "role": "mother (probable match)"
+        },
+        {
+          "id": "Glasgow-2901",
+          "name": "unnamed daughter",
+          "url": "/people/glasgow-2901.html",
+          "role": "infant (probable match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-390546223",
+      "provenance": [
+        "tmp/newspaper-research/out/ireland-1840-1849.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-390568458",
+      "found_on": "2026-10-06",
+      "kind": "relationship",
+      "status": "confirmed",
+      "finding": "Death notice (Belfast News-Letter, 6 Aug 1857): John George Glasgow, infant son of Benjamin Glasgow of Cookstown, died 4 August 1857 aged six months. This is firmly Glasgow-2542, son of Benjamin-2059, and supports raising that father link (now uncertain) to confident. Relationship proposals for WikiTree review: Glasgow-2542 son of Glasgow-2059 (upgrade to confident).",
+      "qualification": "",
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 1857-08-06, p. 2",
+          "url": "https://www.newspapers.com/image/390568458/"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-2542",
+          "name": "Glasgow-2542",
+          "url": "/people/glasgow-2542.html",
+          "role": "Named in relationship proposal"
+        },
+        {
+          "id": "Glasgow-2059",
+          "name": "Glasgow-2059",
+          "url": "/people/glasgow-2059.html",
+          "role": "Named in relationship proposal"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-390568458",
+      "provenance": [
+        "tmp/newspaper-research/out/ireland-1850-on.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-390574459",
+      "found_on": "2026-10-06",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Court report (Belfast News-Letter, 22 July 1858): the witness Benjamin Glasgow says his late father Robert Glasgow died in 1856 and that he had managed Robert's mill since 1850; he calls a companion 'witness's uncle, Mr. Glasgow, sen.' Benjamin is probably the Drapersfield Benjamin, Glasgow-4340, and Robert probably Glasgow-2656, so a father link 4340 to 2656 can be added as uncertain. Relationship proposals for WikiTree review: Glasgow-4340 son of Glasgow-2656 (add uncertain).",
+      "qualification": "Probable identification or uncertain relationship; see the profile findings for the evidence and remaining test.",
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 1858-07-22, p. 3",
+          "url": "https://www.newspapers.com/image/390574459/"
+        },
+        {
+          "title": "WikiTree Glasgow-4340 (GRONI marriage index 16 Feb 1864 Dungannon; children with mother Pike)",
+          "url": "https://www.wikitree.com/wiki/Glasgow-4340"
+        },
+        {
+          "title": "Slater's 1846 Cookstown transcription",
+          "url": "https://www.cotyroneireland.com/slaterscookstown.html"
+        },
+        {
+          "title": "GRONI civil marriage index, Benjamin Glasgow and Pike, 16 Feb 1864, Dungannon, M/1864/T1/1447/2/35 (as cited on Glasgow-4340)",
+          "url": "https://geni.nidirect.gov.uk/search/marriage"
+        },
+        {
+          "title": "WikiTree Glasgow-2656 (PRONI pre-1858 wills index: Robert Glasgow Esq, Tullyveigh, d. 20/08/1856)",
+          "url": "https://www.wikitree.com/wiki/Glasgow-2656"
+        },
+        {
+          "title": "WikiTree George-14386 (BNL 13 Mar 1829 marriage to Mr Robert Glasgow of Cookstown)",
+          "url": "https://www.wikitree.com/wiki/George-14386"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-4340",
+          "name": "Benjamin Glasgow",
+          "url": "https://www.wikitree.com/wiki/Glasgow-4340",
+          "role": "witness and plaintiff, mill manager (probable match)"
+        },
+        {
+          "id": "Glasgow-2656",
+          "name": "Robert Glasgow (deceased)",
+          "url": "/people/glasgow-2656.html",
+          "role": "father of witness; mill owner, d. 1856 (probable match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-390574459",
+      "provenance": [
+        "tmp/newspaper-research/out/ireland-1850-on.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-390575046",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "qualified",
+      "finding": "Continuation of Benjamin and William Glasgow v John Sloan (Belfast News-Letter, 23 July 1858): Benjamin approached Sloan about levels in 1856, and the jury awarded 6d damages and 6d costs. Benjamin is probably Glasgow-4340. Partner William has no secure profile; he is probably Benjamin's brother but is not stated as such here.",
+      "qualification": "Probable identification or uncertain relationship; see the profile findings for the evidence and remaining test.",
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 1858-07-23, p. 4",
+          "url": "https://www.newspapers.com/image/390575046/"
+        },
+        {
+          "title": "WikiTree Glasgow-4340",
+          "url": "https://www.wikitree.com/wiki/Glasgow-4340"
+        },
+        {
+          "title": "GRONI marriage index M/1864/T1/1447/2/35",
+          "url": "https://geni.nidirect.gov.uk/search/marriage"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-4340",
+          "name": "Benjamin Glasgow",
+          "url": "https://www.wikitree.com/wiki/Glasgow-4340",
+          "role": "co-plaintiff (mill owner) (probable match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-390575046",
+      "provenance": [
+        "tmp/newspaper-research/out/ireland-1850-on.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-387764534",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "qualified",
+      "finding": "Accident report (Belfast News-Letter, 7 Jan 1861) from Rasharkin: Robert Glasgow, a neighbour at Lisnagaver, warned James M'Caughern about a dangerous gable, escaped its fall and raised the alarm. Robert is probably Glasgow-938, who lived at Lisnagaver in 1851 and 1866. James M'Caughern is unresolved. No kin are stated.",
+      "qualification": "Probable identification or uncertain relationship; see the profile findings for the evidence and remaining test.",
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 1861-01-07, p. 4",
+          "url": "https://www.newspapers.com/image/387764534/"
+        },
+        {
+          "title": "WikiTree Glasgow-938 (1851 census Lisnagaver; 1866 marriage of Lisnagaver)",
+          "url": "https://www.wikitree.com/wiki/Glasgow-938"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-938",
+          "name": "Robt. Glasgow",
+          "url": "/people/glasgow-938.html",
+          "role": "neighbour at Lisnagaver (probable match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-387764534",
+      "provenance": [
+        "tmp/newspaper-research/out/ireland-1850-on.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-387805714",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "qualified",
+      "finding": "Notice (Belfast News-Letter, 19 Jan 1864): the house occupied by Joseph M'Cormick, formerly the residence of the late Robert Glasgow, is offered; apply to Benjamin and William Glasgow, Drapersfield Mills, Cookstown. Benjamin is the Drapersfield Benjamin Glasgow-4340, and the late Robert is probably Glasgow-2656. No kinship is stated.",
+      "qualification": "Probable identification or uncertain relationship; see the profile findings for the evidence and remaining test.",
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 1864-01-19, p. 2",
+          "url": "https://www.newspapers.com/image/387805714/"
+        },
+        {
+          "title": "WikiTree Glasgow-2656",
+          "url": "https://www.wikitree.com/wiki/Glasgow-2656"
+        },
+        {
+          "title": "Slater's 1846 Cookstown transcription",
+          "url": "https://www.cotyroneireland.com/slaterscookstown.html"
+        },
+        {
+          "title": "WikiTree Glasgow-4340",
+          "url": "https://www.wikitree.com/wiki/Glasgow-4340"
+        },
+        {
+          "title": "GRONI marriage index M/1864/T1/1447/2/35",
+          "url": "https://geni.nidirect.gov.uk/search/marriage"
+        },
+        {
+          "title": "Belfast News-Letter, 18 Feb 1864, Glasgow-Pike marriage",
+          "url": "https://www.newspapers.com/image/387828785/"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-2656",
+          "name": "Robert Glasgow (late)",
+          "url": "/people/glasgow-2656.html",
+          "role": "former resident of the house (probable match)"
+        },
+        {
+          "id": "Glasgow-4340",
+          "name": "Benjamin Glasgow, Drapersfield Mills",
+          "url": "https://www.wikitree.com/wiki/Glasgow-4340",
+          "role": "contact/partner (strong match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-387805714",
+      "provenance": [
+        "tmp/newspaper-research/out/ireland-1850-on.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-387828785",
+      "found_on": "2026-10-06",
+      "kind": "relationship",
+      "status": "confirmed",
+      "finding": "Marriage notice (Belfast News-Letter, 18 Feb 1864): Benjamin Glasgow of Drapersfield, Cookstown, married Wilhelmina, eldest daughter of Richard Pike Esq. of Beechgrove, Dungannon, at Dungannon on 16 Feb 1864. The groom is Glasgow-4340. The bride is Wilhelmina Pike-9903 (Quaker birth 1842, eldest child of Richard Pike-9902). The 'Unknown Pike' Pike-17078 now married to 4340 is the same woman and should be merged into Pike-9903. Relationship proposals for WikiTree review: Glasgow-4340 spouse of Pike-9903 (add confident); Pike-9903 daughter of Pike-9902 (upgrade to confident).",
+      "qualification": "",
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 1864-02-18, p. 2",
+          "url": "https://www.newspapers.com/image/387828785/"
+        },
+        {
+          "title": "WikiTree Glasgow-4340",
+          "url": "https://www.wikitree.com/wiki/Glasgow-4340"
+        },
+        {
+          "title": "GRONI marriage index M/1864/T1/1447/2/35",
+          "url": "https://geni.nidirect.gov.uk/search/marriage"
+        },
+        {
+          "title": "WikiTree Glasgow-4247 (Richard b. 1865, mother Pike)",
+          "url": "https://www.wikitree.com/wiki/Glasgow-4247"
+        },
+        {
+          "title": "WikiTree Pike-9903",
+          "url": "https://www.wikitree.com/wiki/Pike-9903"
+        },
+        {
+          "title": "Ireland, Society of Friends (Quaker) Births, Grange MM ROB-GRANGE-1859: Wilhelmina Pike b. 11 Nov 1842, Torren Hill, parents Richard and Margaret (Findmypast transcription as cited on Pike-9903)",
+          "url": "https://www.wikitree.com/wiki/Pike-9903"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-4340",
+          "name": "Benjamin Glasgow of Drapersfield, Cookstown",
+          "url": "https://www.wikitree.com/wiki/Glasgow-4340",
+          "role": "groom (strong match)"
+        },
+        {
+          "id": "Pike-9903",
+          "name": "Wilhelmina (Pike), eldest daughter of Richard Pike",
+          "url": "https://www.wikitree.com/wiki/Pike-9903",
+          "role": "bride (strong match)"
+        },
+        {
+          "id": "Pike-9902",
+          "name": "Richard Pike, Esq., of Beechgrove, Dungannon",
+          "url": "https://www.wikitree.com/wiki/Pike-9902",
+          "role": "bride's father (strong match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-387828785",
+      "provenance": [
+        "tmp/newspaper-research/out/ireland-1850-on.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-387904527",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "qualified",
+      "finding": "Court report (Belfast News-Letter, 11 Aug 1866): a cheque for £71 12s 7d drawn by Benjamin and William Glasgow in favour of John Finlay junior is mentioned in the William Adair case. It is the Drapersfield partnership: Benjamin is probably Glasgow-4340, and William is unresolved. No kin are stated.",
+      "qualification": "Probable identification or uncertain relationship; see the profile findings for the evidence and remaining test.",
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 1866-08-11, p. 4",
+          "url": "https://www.newspapers.com/image/387904527/"
+        },
+        {
+          "title": "WikiTree Glasgow-4340",
+          "url": "https://www.wikitree.com/wiki/Glasgow-4340"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-4340",
+          "name": "Benjamin Glasgow",
+          "url": "https://www.wikitree.com/wiki/Glasgow-4340",
+          "role": "joint drawer of cheque (firm) (probable match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-387904527",
+      "provenance": [
+        "tmp/newspaper-research/out/ireland-1850-on.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-388287498",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "confirmed",
+      "finding": "Auction notice (Belfast News-Letter, 22 Dec 1869): Benjamin Glasgow Esq., Drapersfield, Cookstown, is the contact for Eary House and lands in the estate of the late William Magee. This is firmly Glasgow-4340; no kin are stated.",
+      "qualification": "",
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 1869-12-22, p. 2",
+          "url": "https://www.newspapers.com/image/388287498/"
+        },
+        {
+          "title": "WikiTree Glasgow-4340",
+          "url": "https://www.wikitree.com/wiki/Glasgow-4340"
+        },
+        {
+          "title": "Belfast News-Letter, 18 Feb 1864",
+          "url": "https://www.newspapers.com/image/387828785/"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-4340",
+          "name": "Benjamin Glasgow, Esq., Drapersfield, Cookstown",
+          "url": "https://www.wikitree.com/wiki/Glasgow-4340",
+          "role": "contact for estate auction (strong match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-388287498",
+      "provenance": [
+        "tmp/newspaper-research/out/ireland-1850-on.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-387881589",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "confirmed",
+      "finding": "Report (Belfast News-Letter, 15 July 1870): Benjamin Glasgow Esq. of Drapersfield lent a field for the 12 July gathering at Cookstown. This is firmly Glasgow-4340. Benjamin-2059 (died Feb 1870) is excluded, and Glasgow-2566, the earlier possible, is unlikely.",
+      "qualification": "",
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 1870-07-15, p. 4",
+          "url": "https://www.newspapers.com/image/387881589/"
+        },
+        {
+          "title": "WikiTree Glasgow-4340",
+          "url": "https://www.wikitree.com/wiki/Glasgow-4340"
+        },
+        {
+          "title": "WikiTree Glasgow-2566 (1876 marriage, bachelor, father George, farmer)",
+          "url": "https://www.wikitree.com/wiki/Glasgow-2566"
+        },
+        {
+          "title": "WikiTree Glasgow-4249 (b. 18 Aug 1876 Cookstown, mother Pike)",
+          "url": "https://www.wikitree.com/wiki/Glasgow-4249"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-4340",
+          "name": "Benjamin Glasgow, Esq., of Drapersfield",
+          "url": "https://www.wikitree.com/wiki/Glasgow-4340",
+          "role": "lent field for 12 July gathering (strong match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-387881589",
+      "provenance": [
+        "tmp/newspaper-research/out/ireland-1850-on.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-388748472",
+      "found_on": "2026-10-06",
+      "kind": "relationship",
+      "status": "confirmed",
+      "finding": "Marriage notice (Belfast News-Letter, 16 Oct 1891): Margaret George Glasgow, eldest daughter of Benjamin Glasgow of Hull, formerly Drapersfield, Cookstown, married W. Brooke Broadbent, formerly of Manchester, in New York on 5 Oct 1891. She is Glasgow-4293 (b. 1867, mother Pike), daughter of Benjamin Glasgow-4340, so that father link can be confirmed. Broadbent needs a new profile. Relationship proposals for WikiTree review: Glasgow-4293 daughter of Glasgow-4340 (upgrade to confident); Glasgow-4293 spouse of W. Brooke Broadbent (add confident).",
+      "qualification": "",
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 1891-10-16, p. 1",
+          "url": "https://www.newspapers.com/image/388748472/"
+        },
+        {
+          "title": "WikiTree Glasgow-4293 (GRONI birth index 1867, mother Pike)",
+          "url": "https://www.wikitree.com/wiki/Glasgow-4293"
+        },
+        {
+          "title": "WikiTree Glasgow-4340",
+          "url": "https://www.wikitree.com/wiki/Glasgow-4340"
+        },
+        {
+          "title": "WikiTree Glasgow-4340",
+          "url": "https://www.wikitree.com/wiki/Glasgow-4340"
+        },
+        {
+          "title": "GRONI marriage index M/1864/T1/1447/2/35",
+          "url": "https://geni.nidirect.gov.uk/search/marriage"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-4293",
+          "name": "Margaret George Glasgow",
+          "url": "https://www.wikitree.com/wiki/Glasgow-4293",
+          "role": "bride, eldest daughter of Benjamin Glasgow (strong match)"
+        },
+        {
+          "id": "Glasgow-4340",
+          "name": "Benjamin Glasgow of Hull, formerly Drapersfield, Cookstown",
+          "url": "https://www.wikitree.com/wiki/Glasgow-4340",
+          "role": "bride's father (strong match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-388748472",
+      "provenance": [
+        "tmp/newspaper-research/out/ireland-1850-on.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-388105260",
+      "found_on": "2026-10-06",
+      "kind": "relationship",
+      "status": "confirmed",
+      "finding": "Marriage notice (Belfast News-Letter, 19 Mar 1897): Henry Little Glasgow, second son of the late Benjamin Glasgow of Cookstown, editor of the Mid-Ulster Mail and Dungannon News, and brother of Rev. W. G. Glasgow, B.A., Dromara, married at Ballywillan Presbyterian Church on 16 March 1897. The notice firmly identifies Henry (Glasgow-2131), his father Benjamin-2059 and his brother W.G.-2135, and supports marking Henry's father link confident. Relationship proposals for WikiTree review: Glasgow-2131 son of Glasgow-2059 (upgrade to confident).",
+      "qualification": "",
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 1897-03-19, p. 1",
+          "url": "https://www.newspapers.com/image/388105260/"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-2131",
+          "name": "Glasgow-2131",
+          "url": "/people/glasgow-2131.html",
+          "role": "Named in relationship proposal"
+        },
+        {
+          "id": "Glasgow-2059",
+          "name": "Glasgow-2059",
+          "url": "/people/glasgow-2059.html",
+          "role": "Named in relationship proposal"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-388105260",
+      "provenance": [
+        "tmp/newspaper-research/out/ireland-1850-on.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-39398244",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "confirmed",
+      "finding": "One 1754 distress report (three printings) of Robert Glasgow, master of the snow John and Archibald of Glasgow, on a Virginia-to-Glasgow passage. WikiTree already has a documentary profile for exactly this shipmaster, Glasgow-2867, built on the Maryland Gazette printing of the same Antigua report; the notice adds no kin. Glasgow-2474 (Irvine shipmaster 1738) is a possible earlier/later identity of the same man (merge question), not a separate match.",
+      "qualification": "",
+      "sources": [
+        {
+          "title": "The Pennsylvania Gazette, 1754-03-19, p. 2",
+          "url": "https://www.newspapers.com/image/39398244/"
+        },
+        {
+          "title": "The Gloucester Journal, 1754-06-25, p. 2",
+          "url": "https://www.newspapers.com/image/971274921/"
+        },
+        {
+          "title": "Berrow’s Worcester Journal, 1754-06-27, p. 1",
+          "url": "https://www.newspapers.com/image/1212017118/"
+        },
+        {
+          "title": "WikiTree Glasgow-2867 biography citing The Maryland Gazette no. 466, 11 Apr 1754, MSA SC 2731 M1279 images 472-473 (Antigua report of 15 Feb 1754)",
+          "url": "https://www.wikitree.com/wiki/Glasgow-2867"
+        },
+        {
+          "title": "Ayrshire Archives, Irvine Burgh Catalogue (2017) IB2/14/71 p.148, Robert Glasgow master of Betty and Grizell, 4 Aug 1738 (cited in research/Glasgow-2474/findings.md)",
+          "url": "https://web.archive.org/web/20190919232657/https://ayrshirearchives.files.wordpress.com/2019/04/irvine-burgh-catalogue-2017-watermarked.pdf"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-2867",
+          "name": "Robert Glasgow",
+          "url": "/people/glasgow-2867.html",
+          "role": "master of the snow John and Archibald, of Glasgow (strong match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-39398244",
+      "provenance": [
+        "tmp/newspaper-research/out/us-to-1784.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-55455707",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "confirmed",
+      "finding": "Proclamation dated New Bern 10 Jan 1778 about the wrecked snow Diamond's cargo, signed 'James Glasgow, Sec'ry' by Governor Caswell's command. The signer is North Carolina's first Secretary of State, who is WikiTree Glasgow-634; the exact office makes this a strong match. No kin stated.",
+      "qualification": "",
+      "sources": [
+        {
+          "title": "The North-Carolina Weekly Gazette, 1778-01-16, p. 2",
+          "url": "https://www.newspapers.com/image/55455707/"
+        },
+        {
+          "title": "Carolana: Patriot Leaders in North Carolina - James Glasgow (Secretary of State elected late 1776, held office until 1799)",
+          "url": "https://www.carolana.com/NC/Revolution/patriot_leaders_nc_james_glasgow.html"
+        },
+        {
+          "title": "WikiTree Glasgow-634 biography (Secretary of State 1777-1798; NC marker F-66)",
+          "url": "https://www.wikitree.com/wiki/Glasgow-634"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-634",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-634.html",
+          "role": "Secretary of State of North Carolina, signing by the Governor's command (strong match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-55455707",
+      "provenance": [
+        "tmp/newspaper-research/out/us-to-1784.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-55455713",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "confirmed",
+      "finding": "Proclamation dated New Bern 14 Jan 1778 announcing the qualification of superior-court clerks, signed 'James Glasgow, Sec'ry' by Governor Caswell's command: North Carolina's Secretary of State, Glasgow-634 (strong). No kin stated.",
+      "qualification": "",
+      "sources": [
+        {
+          "title": "The North-Carolina Weekly Gazette, 1778-01-16, p. 3",
+          "url": "https://www.newspapers.com/image/55455713/"
+        },
+        {
+          "title": "Carolana: Patriot Leaders in North Carolina - James Glasgow",
+          "url": "https://www.carolana.com/NC/Revolution/patriot_leaders_nc_james_glasgow.html"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-634",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-634.html",
+          "role": "Secretary of State of North Carolina, signing by the Governor's command (strong match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-55455713",
+      "provenance": [
+        "tmp/newspaper-research/out/us-to-1784.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-601860386",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "qualified",
+      "finding": "July 1798 Kirkliston voluntary subscriptions: 'John Glasgow, labourer, Millrig'. He is very probably John Glasgow (Glasgow-159), agricultural labourer, married at Kirkliston in 1785, with children baptised there 1786-1797.",
+      "qualification": "Probable identification or uncertain relationship; see the profile findings for the evidence and remaining test.",
+      "sources": [
+        {
+          "title": "The Edinburgh Advertiser, 1798-07-20, p. 6",
+          "url": "https://www.newspapers.com/image/601860386/"
+        },
+        {
+          "title": "Newspapers.com original image 601860386",
+          "url": "https://www.newspapers.com/image/601860386/"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-159",
+          "name": "John Glasgow, labourer, Millrig (parish of Kirkliston)",
+          "url": "/people/glasgow-159.html",
+          "role": "subscriber (probable match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-601860386",
+      "provenance": [
+        "tmp/newspaper-research/out/scotland-misc.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-395735887",
+      "found_on": "2026-10-06",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Oct 1798 Roxburgh militia ballot, Kelso parish: 'James Glasgow, son to David Glasgow, [stocking-]weaver'. This is James Glasgow (Glasgow-1222, b. 25 Dec 1777 Kelso) and his father David (Glasgow-1218); the existing father-son link can be made confident. Relationship proposals for WikiTree review: Glasgow-1222 son of Glasgow-1218 (upgrade to confident).",
+      "qualification": "Probable identification or uncertain relationship; see the profile findings for the evidence and remaining test.",
+      "sources": [
+        {
+          "title": "The Caledonian Mercury, 1798-10-04, p. 1",
+          "url": "https://www.newspapers.com/image/395735887/"
+        },
+        {
+          "title": "Newspapers.com original image 395735887",
+          "url": "https://www.newspapers.com/image/395735887/"
+        },
+        {
+          "title": "Newspapers.com original image 395735887",
+          "url": "https://www.newspapers.com/image/395735887/"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-1222",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-1222.html",
+          "role": "balloted militiaman (son) (probable match)"
+        },
+        {
+          "id": "Glasgow-1218",
+          "name": "David Glasgow",
+          "url": "/people/glasgow-1218.html",
+          "role": "father; weaver (stocking-weaver?) at Kelso (probable match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-395735887",
+      "provenance": [
+        "tmp/newspaper-research/out/scotland-misc.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-601821728",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "confirmed",
+      "finding": "Aug 1799: Robert Glasgow, Esq. of Montgreenan, lodges a claim to be enrolled as a freeholder of Ayrshire. Glasgow-1076, strong; shows he was 'of Montgreenan' before 1802.",
+      "qualification": "",
+      "sources": [
+        {
+          "title": "The Edinburgh Advertiser, 1799-08-06, p. 2",
+          "url": "https://www.newspapers.com/image/601821728/"
+        },
+        {
+          "title": "The Caledonian Mercury, 1799-08-08, p. 1",
+          "url": "https://www.newspapers.com/image/395726257/"
+        },
+        {
+          "title": "James Paterson, History of the County of Ayr, vol. II (1852), parish of Kilwinning: Cuninghame of Ashinyards / Martin of Ashinyards (Nethermains), Mountgreenan, Glasgow of Mountgreenan; parish of Dunlop (archive.org OCR)",
+          "url": "https://archive.org/details/historyofcountyo02pateuoft/page/252/mode/2up"
+        },
+        {
+          "title": "UCL Legacies of British Slavery: Dr. Robert Glasgow",
+          "url": "https://www.ucl.ac.uk/lbs/person/view/2146643739"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-1076",
+          "name": "Robert Glasgow, Esq. of Montgreenan",
+          "url": "/people/glasgow-1076.html",
+          "role": "claimant for enrolment as freeholder (strong match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-601821728",
+      "provenance": [
+        "tmp/newspaper-research/out/scotland-misc.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-393025725",
+      "found_on": "2026-10-06",
+      "kind": "relationship",
+      "status": "confirmed",
+      "finding": "Marriage at Dunlop House, 22 Feb 1802, of Robert Glasgow of Montgreenan to Rachel Dunlop, daughter of the late John Dunlop of Dunlop. All three people are on WikiTree; the marriage is already linked, and Rachel's link to her father can be made confident. Relationship proposals for WikiTree review: Dunlop-2189 daughter of Dunlop-2144 (upgrade to confident).",
+      "qualification": "",
+      "sources": [
+        {
+          "title": "The Caledonian Mercury, 1802-03-01, p. 3",
+          "url": "https://www.newspapers.com/image/393025725/"
+        },
+        {
+          "title": "James Paterson, History of the County of Ayr, vol. II (1852), parish of Kilwinning: Cuninghame of Ashinyards / Martin of Ashinyards (Nethermains), Mountgreenan, Glasgow of Mountgreenan; parish of Dunlop (archive.org OCR)",
+          "url": "https://archive.org/details/historyofcountyo02pateuoft/page/252/mode/2up"
+        }
+      ],
+      "people": [
+        {
+          "id": "Dunlop-2144",
+          "name": "the late John Dunlop of Dunlop, Esq.",
+          "url": "https://www.wikitree.com/wiki/Dunlop-2144",
+          "role": "bride's father (deceased) (strong match)"
+        },
+        {
+          "id": "Dunlop-2189",
+          "name": "Dunlop-2189",
+          "url": "/people/dunlop-2189.html",
+          "role": "Named in relationship proposal"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-393025725",
+      "provenance": [
+        "tmp/newspaper-research/out/scotland-misc.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-393027340",
+      "found_on": "2026-10-06",
+      "kind": "relationship",
+      "status": "confirmed",
+      "finding": "Birth at Rome, 22 Nov 1827, of a daughter to Mrs Robertson Glasgow of Montgreenan. The mother is Anne (Glasgow) Robertson Glasgow (Glasgow-2874) and the child is Charlotte Marie Cecilia (Glasgow-3003, b. Rome 22 Nov 1827); the existing mother link can be made confident. Relationship proposals for WikiTree review: Glasgow-3003 daughter of Glasgow-2874 (upgrade to confident).",
+      "qualification": "",
+      "sources": [
+        {
+          "title": "Aberdeen Journal, and General Advertiser for the North of Scotland, 1827-12-19, p. 4",
+          "url": "https://www.newspapers.com/image/393027340/"
+        },
+        {
+          "title": "James Paterson, History of the County of Ayr, vol. II (1852), parish of Kilwinning: Cuninghame of Ashinyards / Martin of Ashinyards (Nethermains), Mountgreenan, Glasgow of Mountgreenan; parish of Dunlop (archive.org OCR)",
+          "url": "https://archive.org/details/historyofcountyo02pateuoft/page/252/mode/2up"
+        },
+        {
+          "title": "UCL Legacies of British Slavery: Dr. Robert Glasgow",
+          "url": "https://www.ucl.ac.uk/lbs/person/view/2146643739"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-2874",
+          "name": "Mrs Robertson Glasgow, of Montgreenan",
+          "url": "/people/glasgow-2874.html",
+          "role": "mother (strong match)"
+        },
+        {
+          "id": "Glasgow-3003",
+          "name": "(unnamed) daughter born at Rome 22 Nov 1827",
+          "url": "/people/glasgow-3003.html",
+          "role": "child (strong match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-393027340",
+      "provenance": [
+        "tmp/newspaper-research/out/scotland-misc.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-604128613",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "qualified",
+      "finding": "A Newbern report of 20 December 1787 lists James Glasgow, of Kingston Lodge No. 3, as Grand Secretary among the North Carolina Grand Lodge officers elected at Tarborough. Kingston (Kinston) was the Dobbs County seat where the Secretary of State lived 1777–81, so this is a probable match to Glasgow-634. No family is stated.",
+      "qualification": "Probable identification or uncertain relationship; see the profile findings for the evidence and remaining test.",
+      "sources": [
+        {
+          "title": "The Columbian Herald, or Independent Courier of North-America, 1788-01-07, p. 2",
+          "url": "https://www.newspapers.com/image/604128613/"
+        },
+        {
+          "title": "NCpedia, 'Glasgow, James' (Dictionary of North Carolina Biography, vol. 2, sketch by Charles R. Holloman)",
+          "url": "https://www.ncpedia.org/biography/glasgow-james"
+        },
+        {
+          "title": "Wikipedia, James Glasgow (first NC Secretary of State 1777–1798; Dobbs County Regiment colonel; lived at Harmony Hall, Kinston, 1777–1781)",
+          "url": "https://en.wikipedia.org/wiki/James_Glasgow"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-634",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-634.html",
+          "role": "Grand Secretary, North Carolina Grand Lodge; member of Kingston Lodge No. 3 (Dec 1787) (probable match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-604128613",
+      "provenance": [
+        "tmp/newspaper-research/out/us-1785-1799.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-55578590",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "qualified",
+      "finding": "A Newbern post-office list dated 19 March 1788 includes letters for 'James Glasgow, Contentney'. Contentnea Creek was the site of the Secretary of State's Fairfield plantation, so this is a probable match to Glasgow-634.",
+      "qualification": "Probable identification or uncertain relationship; see the profile findings for the evidence and remaining test.",
+      "sources": [
+        {
+          "title": "The State Gazette of North-Carolina, 1788-03-27, p. 3",
+          "url": "https://www.newspapers.com/image/55578590/"
+        },
+        {
+          "title": "NCpedia, 'Glasgow, James' (Dictionary of North Carolina Biography, vol. 2, sketch by Charles R. Holloman)",
+          "url": "https://www.ncpedia.org/biography/glasgow-james"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-634",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-634.html",
+          "role": "addressee, Newbern post office (Contentney) (probable match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-55578590",
+      "provenance": [
+        "tmp/newspaper-research/out/us-1785-1799.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-1034014506",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "qualified",
+      "finding": "A Newbern report of 16 April 1788 lists James Glasgow among the Dobbs County candidates supposed to favour the federal Constitution for the Hillsborough convention. This is a probable match to Glasgow-634, a Dobbs County resident. No family is stated.",
+      "qualification": "Probable identification or uncertain relationship; see the profile findings for the evidence and remaining test.",
+      "sources": [
+        {
+          "title": "Poulson's American Daily Advertiser, 1788-05-12, p. 2",
+          "url": "https://www.newspapers.com/image/1034014506/"
+        },
+        {
+          "title": "Independent Gazetteer, 1788-05-13, p. 2",
+          "url": "https://www.newspapers.com/image/39934415/"
+        },
+        {
+          "title": "The Carlisle Gazette, and the Western Repository of Knowledge, 1788-05-21, p. 3",
+          "url": "https://www.newspapers.com/image/1033759470/"
+        },
+        {
+          "title": "NCpedia, 'Glasgow, James' (Dictionary of North Carolina Biography, vol. 2, sketch by Charles R. Holloman)",
+          "url": "https://www.ncpedia.org/biography/glasgow-james"
+        },
+        {
+          "title": "Center for the Study of the American Constitution, 'Rioting in Dobbs County, N.C.' (1788 convention election; Federalist candidate Benjamin Sheppard)",
+          "url": "https://csac.history.wisc.edu/2020/11/03/rioting-in-dobbs-county-n-c/"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-634",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-634.html",
+          "role": "Dobbs County candidate, supposed Federalist, for the 1788 Hillsborough convention (probable match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-1034014506",
+      "provenance": [
+        "tmp/newspaper-research/out/us-1785-1799.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-55579319",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "confirmed",
+      "finding": "The State Gazette of North-Carolina, 4 December 1788, reports James Glasgow, Esq., chosen Secretary of State. This is the documented Secretary of State, Glasgow-634: a strong match.",
+      "qualification": "",
+      "sources": [
+        {
+          "title": "The State Gazette of North-Carolina, 1788-12-04, p. 3",
+          "url": "https://www.newspapers.com/image/55579319/"
+        },
+        {
+          "title": "NCpedia, 'Glasgow, James' (Dictionary of North Carolina Biography, vol. 2, sketch by Charles R. Holloman)",
+          "url": "https://www.ncpedia.org/biography/glasgow-james"
+        },
+        {
+          "title": "UNC Asheville Special Collections, Speculation Lands collection, biography of James Glasgow (Secretary of State; bibliography cites US Senate report of 1 March 1797 on 'the petition of J. Glasgow and others, relative to lands entered in the office of John Armstrong')",
+          "url": "http://toto.lib.unca.edu/findingaids/mss/speculation_lands/biographies/glasgow.htm"
+        },
+        {
+          "title": "Wikipedia, James Glasgow (first NC Secretary of State 1777–1798; Dobbs County Regiment colonel; lived at Harmony Hall, Kinston, 1777–1781)",
+          "url": "https://en.wikipedia.org/wiki/James_Glasgow"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-634",
+          "name": "James Glasgow, Esq.",
+          "url": "/people/glasgow-634.html",
+          "role": "chosen North Carolina Secretary of State (reported Dec 1788) (strong match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-55579319",
+      "provenance": [
+        "tmp/newspaper-research/out/us-1785-1799.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-39935175",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "qualified",
+      "finding": "A Fayetteville report (December 1788) names James Glasgow, Esq., Grand Senior Warden of the North Carolina Grand Lodge for the ensuing year. This is a probable match to Glasgow-634, continuing his 1787 Grand Secretary and 1789 Deputy Grand Master offices.",
+      "qualification": "Probable identification or uncertain relationship; see the profile findings for the evidence and remaining test.",
+      "sources": [
+        {
+          "title": "The Independent Gazetteer, 1788-12-23, p. 2",
+          "url": "https://www.newspapers.com/image/39935175/"
+        },
+        {
+          "title": "Poulson's American Daily Advertiser, 1788-12-24, p. 3",
+          "url": "https://www.newspapers.com/image/1034010137/"
+        },
+        {
+          "title": "NCpedia, 'Glasgow, James' (Dictionary of North Carolina Biography, vol. 2, sketch by Charles R. Holloman)",
+          "url": "https://www.ncpedia.org/biography/glasgow-james"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-634",
+          "name": "James Glasgow, Esq.",
+          "url": "/people/glasgow-634.html",
+          "role": "Grand Senior Warden, North Carolina Grand Lodge (elected Nov 1788, Fayetteville) (probable match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-39935175",
+      "provenance": [
+        "tmp/newspaper-research/out/us-1785-1799.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-55583318",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "qualified",
+      "finding": "An Edenton report of 17 December 1789 names James Glasgow Deputy Grand Master of the North Carolina Grand Lodge for the ensuing year. This is a probable match to Glasgow-634.",
+      "qualification": "Probable identification or uncertain relationship; see the profile findings for the evidence and remaining test.",
+      "sources": [
+        {
+          "title": "The State Gazette of North-Carolina, 1789-12-17, p. 3",
+          "url": "https://www.newspapers.com/image/55583318/"
+        },
+        {
+          "title": "NCpedia, 'Glasgow, James' (Dictionary of North Carolina Biography, vol. 2, sketch by Charles R. Holloman)",
+          "url": "https://www.ncpedia.org/biography/glasgow-james"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-634",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-634.html",
+          "role": "Deputy Grand Master, North Carolina Grand Lodge (Dec 1789) (probable match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-55583318",
+      "provenance": [
+        "tmp/newspaper-research/out/us-1785-1799.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-602495286",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "confirmed",
+      "finding": "A Newbern report of 31 December 1791, reprinted in Pennsylvania in January 1792, names the Hon. James Glasgow appointed Secretary of State by the North Carolina legislature. This is a strong match to Glasgow-634.",
+      "qualification": "",
+      "sources": [
+        {
+          "title": "The North American, 1792-01-25, p. 1",
+          "url": "https://www.newspapers.com/image/602495286/"
+        },
+        {
+          "title": "The Pennsylvania Herald, and York General Advertiser, 1792-01-25, p. 2",
+          "url": "https://www.newspapers.com/image/773748049/"
+        },
+        {
+          "title": "NCpedia, 'Glasgow, James' (Dictionary of North Carolina Biography, vol. 2, sketch by Charles R. Holloman)",
+          "url": "https://www.ncpedia.org/biography/glasgow-james"
+        },
+        {
+          "title": "UNC Asheville Special Collections, Speculation Lands collection, biography of James Glasgow (Secretary of State; bibliography cites US Senate report of 1 March 1797 on 'the petition of J. Glasgow and others, relative to lands entered in the office of John Armstrong')",
+          "url": "http://toto.lib.unca.edu/findingaids/mss/speculation_lands/biographies/glasgow.htm"
+        },
+        {
+          "title": "Wikipedia, James Glasgow (first NC Secretary of State 1777–1798; Dobbs County Regiment colonel; lived at Harmony Hall, Kinston, 1777–1781)",
+          "url": "https://en.wikipedia.org/wiki/James_Glasgow"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-634",
+          "name": "James Glasgow (the Honorable)",
+          "url": "/people/glasgow-634.html",
+          "role": "appointed North Carolina Secretary of State by the legislature (Dec 1791) (strong match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-602495286",
+      "provenance": [
+        "tmp/newspaper-research/out/us-1785-1799.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-66180042",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "qualified",
+      "finding": "A Raleigh post-office list dated 1 October 1795 includes the Hon. James Glasgow. The honorific and Raleigh (seat of the Secretary of State's office from 1794) make this a probable match to Glasgow-634.",
+      "qualification": "Probable identification or uncertain relationship; see the profile findings for the evidence and remaining test.",
+      "sources": [
+        {
+          "title": "The North-Carolina Journal, 1795-10-26, p. 4",
+          "url": "https://www.newspapers.com/image/66180042/"
+        },
+        {
+          "title": "The North-Carolina Journal, 1795-11-02, p. 4",
+          "url": "https://www.newspapers.com/image/66180058/"
+        },
+        {
+          "title": "NCpedia, 'Glasgow, James' (Dictionary of North Carolina Biography, vol. 2, sketch by Charles R. Holloman)",
+          "url": "https://www.ncpedia.org/biography/glasgow-james"
+        },
+        {
+          "title": "UNC Asheville Special Collections, Speculation Lands collection, biography of James Glasgow (Secretary of State; bibliography cites US Senate report of 1 March 1797 on 'the petition of J. Glasgow and others, relative to lands entered in the office of John Armstrong')",
+          "url": "http://toto.lib.unca.edu/findingaids/mss/speculation_lands/biographies/glasgow.htm"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-634",
+          "name": "Hon. James Glasgow",
+          "url": "/people/glasgow-634.html",
+          "role": "addressee, Raleigh post office (Oct 1795) (probable match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-66180042",
+      "provenance": [
+        "tmp/newspaper-research/out/us-1785-1799.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-66180229",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "qualified",
+      "finding": "A Raleigh post-office list, printed in January–February 1796 under a heading dated 1 January 1795, includes James Glasgow, Esq. This is a probable match to Glasgow-634.",
+      "qualification": "Probable identification or uncertain relationship; see the profile findings for the evidence and remaining test.",
+      "sources": [
+        {
+          "title": "The North-Carolina Journal, 1796-01-11, p. 3",
+          "url": "https://www.newspapers.com/image/66180229/"
+        },
+        {
+          "title": "The North-Carolina Journal, 1796-01-25, p. 4",
+          "url": "https://www.newspapers.com/image/66180258/"
+        },
+        {
+          "title": "The North-Carolina Journal, 1796-02-01, p. 4",
+          "url": "https://www.newspapers.com/image/66180273/"
+        },
+        {
+          "title": "NCpedia, 'Glasgow, James' (Dictionary of North Carolina Biography, vol. 2, sketch by Charles R. Holloman)",
+          "url": "https://www.ncpedia.org/biography/glasgow-james"
+        },
+        {
+          "title": "UNC Asheville Special Collections, Speculation Lands collection, biography of James Glasgow (Secretary of State; bibliography cites US Senate report of 1 March 1797 on 'the petition of J. Glasgow and others, relative to lands entered in the office of John Armstrong')",
+          "url": "http://toto.lib.unca.edu/findingaids/mss/speculation_lands/biographies/glasgow.htm"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-634",
+          "name": "James Glasgow, Esq.",
+          "url": "/people/glasgow-634.html",
+          "role": "addressee, Raleigh post office (list headed 1 Jan 1795, printed 1796) (probable match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-66180229",
+      "provenance": [
+        "tmp/newspaper-research/out/us-1785-1799.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-66180487",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "qualified",
+      "finding": "A Raleigh post-office list dated 1 April 1796 includes Col. James Glasgow, at Raleigh. The colonelcy matches Glasgow-634's Dobbs militia rank, so this is a probable match.",
+      "qualification": "Probable identification or uncertain relationship; see the profile findings for the evidence and remaining test.",
+      "sources": [
+        {
+          "title": "The North-Carolina Journal, 1796-05-16, p. 4",
+          "url": "https://www.newspapers.com/image/66180487/"
+        },
+        {
+          "title": "NCpedia, 'Glasgow, James' (Dictionary of North Carolina Biography, vol. 2, sketch by Charles R. Holloman)",
+          "url": "https://www.ncpedia.org/biography/glasgow-james"
+        },
+        {
+          "title": "Wikipedia, James Glasgow (first NC Secretary of State 1777–1798; Dobbs County Regiment colonel; lived at Harmony Hall, Kinston, 1777–1781)",
+          "url": "https://en.wikipedia.org/wiki/James_Glasgow"
+        },
+        {
+          "title": "UNC Asheville Special Collections, Speculation Lands collection, biography of James Glasgow (Secretary of State; bibliography cites US Senate report of 1 March 1797 on 'the petition of J. Glasgow and others, relative to lands entered in the office of John Armstrong')",
+          "url": "http://toto.lib.unca.edu/findingaids/mss/speculation_lands/biographies/glasgow.htm"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-634",
+          "name": "Col. James Glasgow",
+          "url": "/people/glasgow-634.html",
+          "role": "addressee, Raleigh post office (Apr 1796) (probable match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-66180487",
+      "provenance": [
+        "tmp/newspaper-research/out/us-1785-1799.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-66180641",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "qualified",
+      "finding": "A Raleigh post-office list dated 1 July 1796 includes the Hon. James Glasgow. This is a probable match to Glasgow-634.",
+      "qualification": "Probable identification or uncertain relationship; see the profile findings for the evidence and remaining test.",
+      "sources": [
+        {
+          "title": "The North-Carolina Journal, 1796-07-25, p. 3",
+          "url": "https://www.newspapers.com/image/66180641/"
+        },
+        {
+          "title": "NCpedia, 'Glasgow, James' (Dictionary of North Carolina Biography, vol. 2, sketch by Charles R. Holloman)",
+          "url": "https://www.ncpedia.org/biography/glasgow-james"
+        },
+        {
+          "title": "UNC Asheville Special Collections, Speculation Lands collection, biography of James Glasgow (Secretary of State; bibliography cites US Senate report of 1 March 1797 on 'the petition of J. Glasgow and others, relative to lands entered in the office of John Armstrong')",
+          "url": "http://toto.lib.unca.edu/findingaids/mss/speculation_lands/biographies/glasgow.htm"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-634",
+          "name": "Hon. James Glasgow",
+          "url": "/people/glasgow-634.html",
+          "role": "addressee, Raleigh post office (July 1796) (probable match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-66180641",
+      "provenance": [
+        "tmp/newspaper-research/out/us-1785-1799.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-467046163",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "qualified",
+      "finding": "A petition dated Raleigh, 23 December 1796, by holders of western land entries is signed for them by James Glasgow, Muscadine Mathews and John Gray Blount. A US Senate committee report of March 1797 refers to 'the petition of J. Glasgow and others, relative to lands entered in the office of John Armstrong', which identifies the James Glasgow signer as Glasgow-634 (probable). The co-signers are not kin.",
+      "qualification": "Probable identification or uncertain relationship; see the profile findings for the evidence and remaining test.",
+      "sources": [
+        {
+          "title": "The North American, 1797-02-18, p. 3",
+          "url": "https://www.newspapers.com/image/467046163/"
+        },
+        {
+          "title": "The Washington Gazette, 1797-03-04, p. 3",
+          "url": "https://www.newspapers.com/image/1043526013/"
+        },
+        {
+          "title": "NCpedia, 'Glasgow, James' (Dictionary of North Carolina Biography, vol. 2, sketch by Charles R. Holloman)",
+          "url": "https://www.ncpedia.org/biography/glasgow-james"
+        },
+        {
+          "title": "UNC Asheville Special Collections, Speculation Lands collection, biography of James Glasgow (Secretary of State; bibliography cites US Senate report of 1 March 1797 on 'the petition of J. Glasgow and others, relative to lands entered in the office of John Armstrong')",
+          "url": "http://toto.lib.unca.edu/findingaids/mss/speculation_lands/biographies/glasgow.htm"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-634",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-634.html",
+          "role": "signatory for holders of western land entries (petition, Raleigh, 23 Dec 1796) (probable match)"
+        },
+        {
+          "id": "Blount-181",
+          "name": "John Gray Blount",
+          "url": "https://www.wikitree.com/wiki/Blount-181",
+          "role": "co-signatory of the petition (non-kin associate) (probable match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-467046163",
+      "provenance": [
+        "tmp/newspaper-research/out/us-1785-1799.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-66181214",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "qualified",
+      "finding": "A Raleigh post-office list headed 1 April, printed April–May 1797, includes James Glasgow, Esq. (marker 4). This is a probable match to Glasgow-634.",
+      "qualification": "Probable identification or uncertain relationship; see the profile findings for the evidence and remaining test.",
+      "sources": [
+        {
+          "title": "North-Carolina Journal, 1797-04-17, p. 3",
+          "url": "https://www.newspapers.com/image/66181214/"
+        },
+        {
+          "title": "North-Carolina Journal, 1797-04-24, p. 3",
+          "url": "https://www.newspapers.com/image/66181232/"
+        },
+        {
+          "title": "North-Carolina Journal, 1797-05-08, p. 4",
+          "url": "https://www.newspapers.com/image/66181274/"
+        },
+        {
+          "title": "NCpedia, 'Glasgow, James' (Dictionary of North Carolina Biography, vol. 2, sketch by Charles R. Holloman)",
+          "url": "https://www.ncpedia.org/biography/glasgow-james"
+        },
+        {
+          "title": "UNC Asheville Special Collections, Speculation Lands collection, biography of James Glasgow (Secretary of State; bibliography cites US Senate report of 1 March 1797 on 'the petition of J. Glasgow and others, relative to lands entered in the office of John Armstrong')",
+          "url": "http://toto.lib.unca.edu/findingaids/mss/speculation_lands/biographies/glasgow.htm"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-634",
+          "name": "James Glasgow, Esq.",
+          "url": "/people/glasgow-634.html",
+          "role": "addressee, Raleigh post office (Apr 1797) (probable match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-66181214",
+      "provenance": [
+        "tmp/newspaper-research/out/us-1785-1799.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-55230363",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "confirmed",
+      "finding": "An Edenton printing (1 February 1798) of the state proclamation about the State-House burglary reports that a chest belonging to James Glasgow, containing Secretary of State's office papers deposited for the land-warrant enquiry, was thrown from a window but not carried off. This is a strong match to Glasgow-634.",
+      "qualification": "",
+      "sources": [
+        {
+          "title": "State Gazette of North Carolina, 1798-02-01, p. 3",
+          "url": "https://www.newspapers.com/image/55230363/"
+        },
+        {
+          "title": "NCpedia, 'Glasgow, James' (Dictionary of North Carolina Biography, vol. 2, sketch by Charles R. Holloman)",
+          "url": "https://www.ncpedia.org/biography/glasgow-james"
+        },
+        {
+          "title": "UNC Asheville Special Collections, Speculation Lands collection, biography of James Glasgow (Secretary of State; bibliography cites US Senate report of 1 March 1797 on 'the petition of J. Glasgow and others, relative to lands entered in the office of John Armstrong')",
+          "url": "http://toto.lib.unca.edu/findingaids/mss/speculation_lands/biographies/glasgow.htm"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-634",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-634.html",
+          "role": "owner of the chest of Secretary of State's office papers (State-House burglary, Jan 1798) (strong match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-55230363",
+      "provenance": [
+        "tmp/newspaper-research/out/us-1785-1799.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-593170107",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "confirmed",
+      "finding": "A Halifax printing (8 February 1798) of the proclamation dated 21 January 1798 names James Glasgow, Esq., as owner of a chest of Secretary of State's office papers that thieves threw into the yard and left. This is the same event as group 55230363: a strong match to Glasgow-634.",
+      "qualification": "",
+      "sources": [
+        {
+          "title": "The North American, 1798-02-08, p. 2",
+          "url": "https://www.newspapers.com/image/593170107/"
+        },
+        {
+          "title": "NCpedia, 'Glasgow, James' (Dictionary of North Carolina Biography, vol. 2, sketch by Charles R. Holloman)",
+          "url": "https://www.ncpedia.org/biography/glasgow-james"
+        },
+        {
+          "title": "UNC Asheville Special Collections, Speculation Lands collection, biography of James Glasgow (Secretary of State; bibliography cites US Senate report of 1 March 1797 on 'the petition of J. Glasgow and others, relative to lands entered in the office of John Armstrong')",
+          "url": "http://toto.lib.unca.edu/findingaids/mss/speculation_lands/biographies/glasgow.htm"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-634",
+          "name": "James Glasgow, Esq.",
+          "url": "/people/glasgow-634.html",
+          "role": "owner of the chest of Secretary of State's office papers (proclamation dated 21 Jan 1798) (strong match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-593170107",
+      "provenance": [
+        "tmp/newspaper-research/out/us-1785-1799.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-55650665",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "confirmed",
+      "finding": "Newbern (8 Dec 1798) and Halifax (10 Dec 1798) reports say Wm. White of Lenoir was elected North Carolina Secretary of State in the room of James Glasgow, resigned. This is a strong match to Glasgow-634 and dates his resignation to before early December 1798.",
+      "qualification": "",
+      "sources": [
+        {
+          "title": "Newbern Gazette, 1798-12-08, p. 3",
+          "url": "https://www.newspapers.com/image/55650665/"
+        },
+        {
+          "title": "North American, 1798-12-24, p. 3",
+          "url": "https://www.newspapers.com/image/593171969/"
+        },
+        {
+          "title": "NCpedia, 'Glasgow, James' (Dictionary of North Carolina Biography, vol. 2, sketch by Charles R. Holloman)",
+          "url": "https://www.ncpedia.org/biography/glasgow-james"
+        },
+        {
+          "title": "UNC Asheville Special Collections, Speculation Lands collection, biography of James Glasgow (Secretary of State; bibliography cites US Senate report of 1 March 1797 on 'the petition of J. Glasgow and others, relative to lands entered in the office of John Armstrong')",
+          "url": "http://toto.lib.unca.edu/findingaids/mss/speculation_lands/biographies/glasgow.htm"
+        },
+        {
+          "title": "Wikipedia, James Glasgow (first NC Secretary of State 1777–1798; Dobbs County Regiment colonel; lived at Harmony Hall, Kinston, 1777–1781)",
+          "url": "https://en.wikipedia.org/wiki/James_Glasgow"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-634",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-634.html",
+          "role": "resigned North Carolina Secretary of State (reported Dec 1798) (strong match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-55650665",
+      "provenance": [
+        "tmp/newspaper-research/out/us-1785-1799.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-55411407",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "confirmed",
+      "finding": "A University of North Carolina notice dated 10 May 1799 names Mr. James Glasgow, Newbern, among the trustees forming the visitation committee for the 4 July examination. The University's own catalogue lists James Glasgow (of Glasgow County) as a trustee from 1790 to 1801, and Battle's history names the Secretary of State James Glasgow among trustees at examinations. This is a strong match to Glasgow-634.",
+      "qualification": "",
+      "sources": [
+        {
+          "title": "North-Carolina Gazette and Wilmington Weekly Post-Boy, 1799-06-13, p. 2",
+          "url": "https://www.newspapers.com/image/55411407/"
+        },
+        {
+          "title": "NCpedia, 'Glasgow, James' (Dictionary of North Carolina Biography, vol. 2, sketch by Charles R. Holloman)",
+          "url": "https://www.ncpedia.org/biography/glasgow-james"
+        },
+        {
+          "title": "Sketches of the History of the University of North Carolina ... Catalogue of Officers and Students, 1789–1889 (1889), trustee list: 'JAMES GLASGOW, Glasgow [county], [appointed] 1790, [term expired] 1801'",
+          "url": "https://archive.org/details/sketchesofhistor00univrich"
+        },
+        {
+          "title": "Kemp P. Battle, History of the University of North Carolina, vol. 1 (1907): trustees attending examination include 'the Secretary of State, James Glasgow'",
+          "url": "https://archive.org/details/historyofunivers01battuoft"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-634",
+          "name": "James Glasgow (Mr., Newbern)",
+          "url": "/people/glasgow-634.html",
+          "role": "UNC trustee; visitation committee for the 4 July 1799 examination (strong match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-55411407",
+      "provenance": [
+        "tmp/newspaper-research/out/us-1785-1799.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-59123711",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "confirmed",
+      "finding": "A commissioners' report printed in the Raleigh papers in December 1799 names James Glasgow, Esq., 'the late Secretary', and attributes irregular military land warrants to him. This is a strong match to Glasgow-634.",
+      "qualification": "",
+      "sources": [
+        {
+          "title": "Raleigh Minerva, 1799-12-17, p. 2",
+          "url": "https://www.newspapers.com/image/59123711/"
+        },
+        {
+          "title": "Weekly Raleigh Register, 1799-12-24, p. 4",
+          "url": "https://www.newspapers.com/image/584304066/"
+        },
+        {
+          "title": "Weekly Raleigh Register, 1799-12-24, p. 4",
+          "url": "https://www.newspapers.com/image/59183269/"
+        },
+        {
+          "title": "NCpedia, 'Glasgow, James' (Dictionary of North Carolina Biography, vol. 2, sketch by Charles R. Holloman)",
+          "url": "https://www.ncpedia.org/biography/glasgow-james"
+        },
+        {
+          "title": "UNC Asheville Special Collections, Speculation Lands collection, biography of James Glasgow (Secretary of State; bibliography cites US Senate report of 1 March 1797 on 'the petition of J. Glasgow and others, relative to lands entered in the office of John Armstrong')",
+          "url": "http://toto.lib.unca.edu/findingaids/mss/speculation_lands/biographies/glasgow.htm"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-634",
+          "name": "James Glasgow, Esq. (the late Secretary)",
+          "url": "/people/glasgow-634.html",
+          "role": "subject of the commissioners' land-warrant report (Dec 1799) (strong match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-59123711",
+      "provenance": [
+        "tmp/newspaper-research/out/us-1785-1799.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-59123714",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "confirmed",
+      "finding": "The Raleigh Minerva continuation of the commissioners' report (17 Dec 1799) alleges that James Glasgow handled a warrant and assignment involving soldier James Harrison and witness Samuel Holladay, and grants issued by the Secretary to himself. This is a strong match to Glasgow-634. Harrison and Holladay are not his kin.",
+      "qualification": "",
+      "sources": [
+        {
+          "title": "Raleigh Minerva, 1799-12-17, p. 3",
+          "url": "https://www.newspapers.com/image/59123714/"
+        },
+        {
+          "title": "NCpedia, 'Glasgow, James' (Dictionary of North Carolina Biography, vol. 2, sketch by Charles R. Holloman)",
+          "url": "https://www.ncpedia.org/biography/glasgow-james"
+        },
+        {
+          "title": "UNC Asheville Special Collections, Speculation Lands collection, biography of James Glasgow (Secretary of State; bibliography cites US Senate report of 1 March 1797 on 'the petition of J. Glasgow and others, relative to lands entered in the office of John Armstrong')",
+          "url": "http://toto.lib.unca.edu/findingaids/mss/speculation_lands/biographies/glasgow.htm"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-634",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-634.html",
+          "role": "subject of allegations: Harrison warrant, Holladay witness, grants to himself (Dec 1799) (strong match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-59123714",
+      "provenance": [
+        "tmp/newspaper-research/out/us-1785-1799.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-59123730",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "confirmed",
+      "finding": "A printed reply to the warrant accusations (Raleigh, late December 1799) reproduces a conveyance dated 20 July 1785 by which Francis Harrison, claiming as heir-at-law, purportedly transferred his rights in the military lands of Stephen and James Harrison to James Glasgow, witnessed by Samuel Holladay. This is a strong match to Glasgow-634. The kinship stated is among the Harrisons, not with Glasgow.",
+      "qualification": "",
+      "sources": [
+        {
+          "title": "Raleigh Minerva, 1799-12-24, p. 4",
+          "url": "https://www.newspapers.com/image/59123730/"
+        },
+        {
+          "title": "Weekly Raleigh Register, 1799-12-31, p. 4",
+          "url": "https://www.newspapers.com/image/584304080/"
+        },
+        {
+          "title": "Weekly Raleigh Register, 1799-12-31, p. 4",
+          "url": "https://www.newspapers.com/image/59183273/"
+        },
+        {
+          "title": "NCpedia, 'Glasgow, James' (Dictionary of North Carolina Biography, vol. 2, sketch by Charles R. Holloman)",
+          "url": "https://www.ncpedia.org/biography/glasgow-james"
+        },
+        {
+          "title": "UNC Asheville Special Collections, Speculation Lands collection, biography of James Glasgow (Secretary of State; bibliography cites US Senate report of 1 March 1797 on 'the petition of J. Glasgow and others, relative to lands entered in the office of John Armstrong')",
+          "url": "http://toto.lib.unca.edu/findingaids/mss/speculation_lands/biographies/glasgow.htm"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-634",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-634.html",
+          "role": "grantee in the reproduced 1785 Harrison conveyance (reply to warrant charges, Dec 1799) (strong match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-59123730",
+      "provenance": [
+        "tmp/newspaper-research/out/us-1785-1799.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-59183268",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "qualified",
+      "finding": "The Weekly Raleigh Register (24 Dec 1799) says it has seen Mr. Glasgow's reply to the land-fraud charges and will print it. No forename is given, but the same-issue context of the late Secretary's land-warrant case makes Glasgow-634 probable.",
+      "qualification": "Probable identification or uncertain relationship; see the profile findings for the evidence and remaining test.",
+      "sources": [
+        {
+          "title": "Weekly Raleigh Register, 1799-12-24, p. 3",
+          "url": "https://www.newspapers.com/image/59183268/"
+        },
+        {
+          "title": "NCpedia, 'Glasgow, James' (Dictionary of North Carolina Biography, vol. 2, sketch by Charles R. Holloman)",
+          "url": "https://www.ncpedia.org/biography/glasgow-james"
+        },
+        {
+          "title": "UNC Asheville Special Collections, Speculation Lands collection, biography of James Glasgow (Secretary of State; bibliography cites US Senate report of 1 March 1797 on 'the petition of J. Glasgow and others, relative to lands entered in the office of John Armstrong')",
+          "url": "http://toto.lib.unca.edu/findingaids/mss/speculation_lands/biographies/glasgow.htm"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-634",
+          "name": "Mr. Glasgow (forename unstated)",
+          "url": "/people/glasgow-634.html",
+          "role": "author of a reply to the land-fraud charges (announced Dec 1799) (probable match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-59183268",
+      "provenance": [
+        "tmp/newspaper-research/out/us-1785-1799.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-59123741",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "confirmed",
+      "finding": "A committee report (Raleigh Minerva, 31 Dec 1799) says that of those it considered offenders in the land-warrant matter, none had been arrested except James Glasgow. This is a strong match to Glasgow-634.",
+      "qualification": "",
+      "sources": [
+        {
+          "title": "Raleigh Minerva, 1799-12-31, p. 4",
+          "url": "https://www.newspapers.com/image/59123741/"
+        },
+        {
+          "title": "NCpedia, 'Glasgow, James' (Dictionary of North Carolina Biography, vol. 2, sketch by Charles R. Holloman)",
+          "url": "https://www.ncpedia.org/biography/glasgow-james"
+        },
+        {
+          "title": "UNC Asheville Special Collections, Speculation Lands collection, biography of James Glasgow (Secretary of State; bibliography cites US Senate report of 1 March 1797 on 'the petition of J. Glasgow and others, relative to lands entered in the office of John Armstrong')",
+          "url": "http://toto.lib.unca.edu/findingaids/mss/speculation_lands/biographies/glasgow.htm"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-634",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-634.html",
+          "role": "arrested in the land-warrant matter (reported Dec 1799) (strong match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-59123741",
+      "provenance": [
+        "tmp/newspaper-research/out/us-1785-1799.final.json"
+      ]
+    },
+    {
+      "id": "newspaper-identity-59183270",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "confirmed",
+      "finding": "A legislative debate report (Weekly Raleigh Register, 31 Dec 1799) mentions a proposed amendment to include James Glasgow's case, should it be thought proper to bring him to trial. This is a strong match to Glasgow-634, whose trial took place in 1800.",
+      "qualification": "",
+      "sources": [
+        {
+          "title": "Weekly Raleigh Register, 1799-12-31, p. 1",
+          "url": "https://www.newspapers.com/image/59183270/"
+        },
+        {
+          "title": "NCpedia, 'Glasgow, James' (Dictionary of North Carolina Biography, vol. 2, sketch by Charles R. Holloman)",
+          "url": "https://www.ncpedia.org/biography/glasgow-james"
+        },
+        {
+          "title": "UNC Asheville Special Collections, Speculation Lands collection, biography of James Glasgow (Secretary of State; bibliography cites US Senate report of 1 March 1797 on 'the petition of J. Glasgow and others, relative to lands entered in the office of John Armstrong')",
+          "url": "http://toto.lib.unca.edu/findingaids/mss/speculation_lands/biographies/glasgow.htm"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-634",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-634.html",
+          "role": "subject of a proposed trial provision (Dec 1799 legislative debate) (strong match)"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-59183270",
+      "provenance": [
+        "tmp/newspaper-research/out/us-1785-1799.final.json"
+      ]
     }
   ]
 }

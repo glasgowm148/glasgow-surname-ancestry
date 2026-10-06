@@ -34,3 +34,15 @@ No specific household match has been established. The Belfast shopkeeper must no
 ```
 
 Public account: /research/subjects/william-glasgow-irish-newspapers/#belfast-grocer
+
+## Identity review — 6 October 2026
+
+No compatible WikiTree profile after a duplicate search; **READY TO CREATE** once the biography below is checked.
+
+He is a named trader with two Belfast addresses, but no age, wife or kin is given. The 1819 Belfast directory lists only James Glasgow (grocer, 20 Rosemary Street; '(wholesale) 2 Rosemary Street' in the trades list), not William. William's Rosemary Street shop may therefore have been James's, or a short tenancy. The WikiTree Williams of the period are rural Antrim or Tyrone men, or died before 1820; none has a Belfast trade.
+
+- [The Irishman, 1820-11-03, p.1](https://www.newspapers.com/image/61259418/): November 1820 advertisement: William Glasgow, grocer, moved from Rosemary Street to 34 Smith Street, Belfast (teas, sugars, groceries). No WikiTree profile fits, so a profile for this Belfast grocer would be new. James Glasgow, a wholesale grocer of Rosemary Street in 1819, is a possible business or family connection, but the notice does not state one.
+- [Bradshaw's Belfast directory 1819, alphabetical names (Lennon Wylie transcription)](https://lennonwylie.co.uk/1819_Alphanames.htm)
+- [Pigot's 1824 directory, Belfast (Lennon Wylie transcription): no Glasgow entries](https://lennonwylie.co.uk/1824_Pigots_Belfast.htm)
+
+Searches: WikiTree searchPerson William Glasgow and William Glasco (birth 1750-1810): Glasgow-3324 (Larne, d. 1816), 2915, 2965 (Lincolnshire), 585, 1778 (d. 1823 aged 22, Racavan), 1387 (weaver, b. c.1810), 3545, 3814, 3678, 1675; none has a Belfast trade. Lennon Wylie Belfast directories 1805-1808, 1819 (names and trades) and 1824 Pigot searched for Glasgow/Glasco (python fetch). wt.py grep 'grocer', 'Smith Street', 'Rosemary'.

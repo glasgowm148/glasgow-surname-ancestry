@@ -22,3 +22,14 @@ Glasgow of Inishrush and as the wife of John Kyle of Tyanee on 14 January 1842.
 No record yet identifies her after the marriage or names a child. She remains
 separate from later women named Nancy Kyle unless an age, husband or relational
 record establishes continuity.
+
+<!-- nir-2026-10-06-ireland-1800-1829+ireland-1830-1839+ireland-1840-1849+ireland-1850-on+ireland-to-1799+us-to-1784 -->
+## Current conclusion — newspaper identity review, 6 October 2026
+
+- [Belfast News-Letter, 1842-02-01, p.3](https://www.newspapers.com/image/390552842/): Nancy (bride) — **strong** match. Nancy Glasgow of Inishrush, daughter of Adam-3902 and spouse of Kyle-3461. Her name, her father's name, Inishrush and the groom together form a record-level bridge, and there is no competing Nancy. Sources: [Londonderry Sentinel 29 Jan 1842 (transcription)](https://cotyroneireland.com/surnames/glasgow.html)
+
+## Source findings
+
+### Newspaper identity review — 6 October 2026
+
+- Married John Kyle of Tyanee on 14 Jan 1842. Described as the 'sixth daughter' of Adam Glasgow of Inishrush, so he had at least six daughters; only Eliza and Nancy are on WikiTree. — Belfast News-Letter 1 Feb 1842, image 390552842; Londonderry Sentinel 29 Jan 1842 ([Belfast News-Letter, 1842-02-01, p.3](https://www.newspapers.com/image/390552842/))

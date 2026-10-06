@@ -238,3 +238,16 @@ Next check: Daniel's burial or memorial and Church Street valuation revisions ma
 ### Age-reading correction — 4 October 2026
 
 Fresh visual inspection of the retained original captures corrects the 3 October assessment that both newspapers gave 73. The Evening Telegraph prints 75; the News-Letter prints 73. The Telegraph corroborates the civil age 75; the News-Letter discrepancy remains. No exact birth date or relationship changes follow.
+
+<!-- nir-2026-10-06-ireland-1800-1829+ireland-1830-1839+ireland-1840-1849+ireland-1850-on+ireland-to-1799+us-to-1784 -->
+## Current conclusion — newspaper identity review, 6 October 2026
+
+- [Belfast Evening Telegraph, 1871-10-21, p.3](https://www.newspapers.com/image/1267991526/): Daniel Glasgow (deceased, Church Street, Kilrea) — **strong** match. Glasgow-3896's original civil death return records Daniel Glasgow, watchmaker, widower, died at Kilrea on 16 Oct 1871, aged 75. Name, Kilrea, Church Street (Griffith's, per profile) and the exact date agree. The search for Daniel Glasgow born 1785-1805 returns only 3896. This issue gives age 75. Sources: [WikiTree Glasgow-3896 (civil death return 16 Oct 1871, age 75)](https://www.wikitree.com/wiki/Glasgow-3896)
+- [Belfast News-Letter, 1871-10-21, p.1](https://www.newspapers.com/image/388271252/): Daniel Glasgow (deceased, Church Street, Kilrea) — **strong** match. As group 1267991526 (exact date, Church Street, Kilrea, civil death return). This issue gives age 73, against 75 in the register and the Telegraph. Sources: [WikiTree Glasgow-3896](https://www.wikitree.com/wiki/Glasgow-3896)
+
+## Source findings
+
+### Newspaper identity review — 6 October 2026
+
+- Death notice: died 16 Oct 1871, Church Street, Kilrea, aged 75. — Belfast Evening Telegraph, 21 Oct 1871 (newspapers.com image 1267991526) ([Belfast Evening Telegraph, 1871-10-21, p.3](https://www.newspapers.com/image/1267991526/))
+- Death notice: died 16 Oct 1871, Church Street, Kilrea, aged 73 (variant age). — Belfast News-Letter, 21 Oct 1871 (newspapers.com image 388271252) ([Belfast News-Letter, 1871-10-21, p.1](https://www.newspapers.com/image/388271252/))

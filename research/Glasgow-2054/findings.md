@@ -44,3 +44,8 @@ Samuel Glasgow, farmer examined at Moneymore, is quoted on tenant right in 1845.
 ## Next records to check — newspaper identity
 
 Resolve the documentary person’s identity before changing WikiTree facts or relationships. Original source readings, compatible alternatives and discriminating tests are retained in the linked account.
+
+<!-- nir-2026-10-06-ireland-1800-1829+ireland-1830-1839+ireland-1840-1849+ireland-1850-on+ireland-to-1799+us-to-1784 -->
+## Current conclusion — newspaper identity review, 6 October 2026
+
+- [Freeman’s Journal and Daily Commercial Advertiser, 1845-03-19, p.1](https://www.newspapers.com/image/1050103241/): Samuel Glasgow (farmer examined at Moneymore) — **possible** match. The Staples estate centred on Lissan, between Cookstown and Moneymore. Glasgow-2054 (c.1792-1865, Gortin, Derryloran) was a Cookstown farmer whose son John-2537 died at Cluntyganny, Lissan, which slightly favours him. Glasgow-1698 (c.1800-1857, Killycurragh) is equally compatible. Glasgow-2908 (Lisnagaver, Rasharkin, Co. Antrim) lives far from Moneymore, so he is weaker, but no concrete conflict excludes him. The Devon Commission's witness heading, which usually gives residence and holding, was not retrieved.

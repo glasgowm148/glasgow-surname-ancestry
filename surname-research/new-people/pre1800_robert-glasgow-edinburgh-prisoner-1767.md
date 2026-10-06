@@ -19,3 +19,15 @@ Search Edinburgh court, police, and banishment records for the named Glasſgow a
 
 == Sources ==
 <references />
+
+## Identity review — 6 October 2026
+
+No compatible WikiTree profile after a duplicate search; **READY TO CREATE** once the biography below is checked.
+
+Record bridge between the two Edinburgh notices: the 21 Dec 1767 sentence banishes 'Robert Glasgow, George Garnock, Niel M'Kinnon and Donald M'Donald' (clip OCR), and the magistrates' list of banished persons of 28 Nov 1772 names, among others, 'Neil Mackinnon, son of Normand Mackinnon chairbearer', 'George Garnoch, son of John Garnoch serjeant in the 44th regiment' and 'Robert Glasgow, son of Andrew Glasgow miller at Calder' (clip OCR). Three of the four 1767 co-convicts reappear together as banished persons, so the 1767 prisoner is (probably) Robert son of Andrew Glasgow, miller at Calder. WikiTree: Glasgow-1445 (bapt. Kirknewton & East Calder by 13 Feb 1735) is christened to a father James per its cited baptism - conflicts with father Andrew (unlikely). Glasgow-2473 (bapt. Edinburgh 7 Jan 1703) is son of James Glasgow, shoemaker - conflicts (unlikely). Glasgow-1229 (Livingston, son of Abraham) - conflicts. No WikiTree Robert is a son of an Andrew. New profile draft warranted (Robert, son of Andrew Glasgow, miller at Calder; convicted of theft and banished from Edinburgh 1767).
+
+- [The Caledonian Mercury, 1767-12-21, p.3](https://www.newspapers.com/image/395727807/): Dec 1767: Robert Glasgow, with George Garnock, Niel M'Kinnon and Donald M'Donald, sentenced in Edinburgh for theft to be walked through the city and banished. The 1772 banished-persons list repeats Garnoch and Mackinnon beside 'Robert Glasgow, son of Andrew Glasgow miller at Calder', so this is that man; he has no WikiTree profile.
+- [Newspapers.com original image 395727807](https://www.newspapers.com/image/395727807/)
+- [Newspapers.com original image 395731868](https://www.newspapers.com/image/395731868/)
+
+Searches: tesseract OCR of saved clips www/assets/sources/newspapers/395727807-*.png and 395731868-*.png; local cohort filter Robert Glas* b.1700-1775 and Andrew Glas* b.1690-1775; wt.py search Robert Glasgow 1735-1755, Andrew Glasgow 1700-1730; wt.py local Glasgow-1445; bios of Glasgow-1445, 2473, 1229.; 6 Oct 2026: wt.py search Robert Glasgow 1720-1752 (12 hits; no Robert son of an Andrew) and Andrew Glasgow 1690-1730 (5 hits: 1336, 1931, 1313, 1239, 3052; none a miller); profile-evidence relations for 1445 (father James-1547), 1336, 1313, 3052 (self-described hypothetical) and 1229 (father Abraham).

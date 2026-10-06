@@ -18,3 +18,14 @@ The combined name, spouse, exact address and death date are a strong match. Pres
 ## Priority actions
 
 Add the newspaper citation and qualified Rasharkin association in a future additive profile amendment. Inspect the Scottish death original and the couple's original Scottish child births before resolving the wider Irish–Scottish identity bridge. No live save is authorized by this research assessment alone.
+
+<!-- nir-2026-10-06-ireland-1800-1829+ireland-1830-1839+ireland-1840-1849+ireland-1850-on+ireland-to-1799+us-to-1784 -->
+## Current conclusion — newspaper identity review, 6 October 2026
+
+- [Belfast News-Letter, 1892-01-06, p.1](https://www.newspapers.com/image/388125998/): Jane Graham (deceased wife) — **strong** match. Exact address 534 Gallowgate, exact date 28 Dec 1891 and age 51 agree with the ScotlandsPeople death entry cited on the profile, and the husband is named Robert Glasgow. No duplicate was found. Sources: [WikiTree Graham-21720 (Scottish statutory death 1891, Calton)](https://www.wikitree.com/wiki/Graham-21720)
+
+## Source findings
+
+### Newspaper identity review — 6 October 2026
+
+- Irish death notice: 'formerly of Rasharkin' (the phrase follows Robert's name and applies to the couple). — Belfast News-Letter, 6 Jan 1892 (newspapers.com image 388125998) ([Belfast News-Letter, 1892-01-06, p.1](https://www.newspapers.com/image/388125998/))

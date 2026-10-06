@@ -11,3 +11,8 @@ James Glasgow and Ezekiel Glasgow appear in the list of letters remaining in Cha
 ## Next questions
 
 Compare original local tax, land, probate and institutional records, preserving the list’s stated role; check plausible catalogue profiles before an identity or relationship change.
+
+<!-- nir-2026-10-06-ireland-1800-1829+ireland-1830-1839+ireland-1840-1849+ireland-1850-on+ireland-to-1799+us-to-1784 -->
+## Current conclusion — newspaper identity review, 6 October 2026
+
+- [The South-Carolina and American General Gazette, 1775-08-25, p.1](https://www.newspapers.com/image/605068969/): James Glasgow (letter addressee, Charlestown SC) — **possible** match. Glasgow-804 (b. 11 Nov 1735 Ayr; d. 19 May 1788 Newberry SC) has a 1769 South Carolina passenger-list index entry, so he was in the colony in 1775: compatible, no bridge. Glasgow-1144 (b. 1731 Kilwaughter; d. c.1793 Newberry) has children born in County Antrim in 1772, 1773 and 1775 on his own profile, so he was most likely still in Ireland in August 1775 - unlikely (letters can await an expected immigrant, so not excluded). Glasgow-634 was in North Carolina (weak).

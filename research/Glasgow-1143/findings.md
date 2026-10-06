@@ -211,3 +211,8 @@ A notice dated North Susquehanna hundred, Cecil county, Maryland, 10 February 17
 ## Next questions
 
 Inspect Maryland land, tax, probate, and newspaper records for Robert Glasgow and Joshua Hartshorn in Cecil/Harford Counties around 1786; establish the named Robert's role and life chronology.
+
+<!-- nir-2026-10-06-scotland-misc+us-1785-1799 -->
+## Identity assessment — newspaper candidates withdrawn, 6 October 2026
+
+- [The Pennsylvania Gazette, 1786-02-15, p.1](https://www.newspapers.com/image/41024006/): no longer a candidate for this profile. Robert Glasgow and Joshua Hartshorn were to give possession of a 260-acre plantation in North Susquehanna Hundred, Cecil County, Maryland, offered at vendue in March 1786. Neither man can be identified on WikiTree. The joint Glasgow–Hartshorn role is a research lead pointing to the Cecil County family of James Glasgow (Glasgow-2868) and Ann Hartshorne (Hartshorne-320), but it is not a relationship.

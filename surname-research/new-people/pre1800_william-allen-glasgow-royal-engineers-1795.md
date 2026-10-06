@@ -24,3 +24,14 @@ Inspect the original Gazette announcement, Royal Military Academy cadet admissio
 
 == Sources ==
 <references />
+
+## Identity review — 6 October 2026
+
+No compatible WikiTree profile after a duplicate search; **READY TO CREATE** once the biography below is checked.
+
+Roll of Officers of the Corps of Royal Engineers no. 267: Glasgow, William Allen, 2nd Lt 1 10 95, Lt 18 8 97; remarks column (row order: Handfield, Nicolls, Carmichael-Smyth, Landmann, Glasgow, Hayes) 'Died at Martinique, 3. 1 1798.' Exact name, rank and date as the notice. The earlier candidates are concretely excluded: Glasgow-2965 was living in Lincolnshire in 1841; Glasgow-2715 was a gamekeeper who died at Crawford in 1853; Glasgow-1463 was baptised in 1816. Exact-name William Allen Glasgows on WikiTree (2024, 2182, 2208) are 19th/20th-century Americans/Irish. New profile draft warranted (short-lived officer; parentage unknown).
+
+- [The Caledonian Mercury, 1795-10-15, p.4](https://www.newspapers.com/image/395720951/): Oct 1795: Gentleman Cadet William Allen Glasgow commissioned Second Lieutenant, Royal Engineers. The RE roll gives 2nd Lt 1 Oct 1795, Lt 18 Aug 1797, died at Martinique 3 Jan 1798. No WikiTree profile; the earlier candidates lived into the 1840s-50s.
+- [Roll of Officers of the Corps of Royal Engineers 1660-1898 (Edwards), no. 267 Glasgow, William Allen (archive.org OCR)](https://archive.org/details/roll-of-officers-of-the-corps-of-royal-engineers-r.-f.-edwards)
+
+Searches: archive.org advancedsearch 'roll officers corps royal engineers' -> Edwards/Connolly roll OCR, grep Glasgow; wt.py search 'William Allen' Glasgow; wt.py search William Glasgow 1765-1780; bios of 2965, 2715, 1463.; 6 Oct 2026 re-run: wt.py search 'William Allen' Glasgow (only 2024, 2182, 2208, all 19th-20th c.).

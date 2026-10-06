@@ -33,3 +33,13 @@ The marrying couple were described as of Parsonstown. The notice does not state 
 ```
 
 Public account: /research/subjects/william-glasgow-irish-newspapers/#william-alexander-parsonstown
+
+## Identity review — 6 October 2026
+
+No compatible WikiTree profile after a duplicate search; kept on **HOLD**.
+
+No Robert Treacy at Parsonstown was found. He is a non-Glasgow in-law and not needed for the study.
+
+- [Belfast Evening Telegraph, 1875-09-04, p.2](https://www.newspapers.com/image/1265675182/): Marriage notice (Belfast Evening Telegraph, 4 Sep 1875): William Treacy, second son of Robert Treacy, married Emma, daughter of the late William Alexander Glasgow, at St Thomas's, Belfast; both were of Parsonstown. Neither Emma nor her father is on WikiTree, so new profiles are needed.
+
+Searches: WikiTree API searchPerson: William + MiddleName Alexander + Glasgow; William Glasgow b. 1800-1830; Emma Glasgow (all, and 1840-1860); Emma Treacy; William Treacy 1840-1855; LastName Treacy BirthLocation Parsonstown (none). WebSearch '"William Alexander Glasgow" Parsonstown OR Birr OR "King's County"' (no relevant hit).

@@ -208,3 +208,13 @@ Inspect original inquest and trial testimony for residence and occupation; compa
 James is a named witness in one reprinted report, with no checked profile identified. The postal and shipmaster James subjects remain separate; no kinship or travel history is established.
 
 James Glasgow and Andrew Doyle, styled chairmen, are named among persons examined in the Hackman/Miss Ray affair; Glasgow reportedly removed the pistol and gave it to Halliburton. The Hackman/Miss Ray report names James Glasgow and Andrew Doyle as chairmen among those examined, and says Glasgow took the pistol from Hackman and gave it to constable Halliburton. Chairmen is preserved without expanding the occupation. Two original issues reprint one account; reported testimony is not a separate trial verdict or proof of family identity. James is a named witness in one reprinted report, with no checked profile identified. The postal and shipmaster James subjects remain separate; no kinship or travel history is established. [Gloucester Journal, 1779-04-12, p.3](https://www.newspapers.com/image/970974651/), [Berrow's Worcester Journal, 1779-04-15, p.1](https://www.newspapers.com/image/1211966255/), [Jackson’s Oxford Journal, 1779-04-10, p.3](https://www.newspapers.com/image/396539533/)
+
+<!-- nir-2026-10-06-ireland-1800-1829+ireland-1830-1839+ireland-1840-1849+ireland-1850-on+ireland-to-1799+us-to-1784 -->
+## Identity assessment — newspaper candidates withdrawn, 6 October 2026
+
+- [The South-Carolina and American General Gazette, 1775-08-25, p.1](https://www.newspapers.com/image/605068969/): no longer a candidate for this profile. James Glasgow and Ezekiel Glasgow in the Charlestown, South Carolina, General Post Office letter list of 21 August 1775. James is possibly the Ayr-born James of Newberry District (Glasgow-804, arrived South Carolina 1769); the Kilwaughter James (Glasgow-1144) is unlikely because his children were still being born in County Antrim to 1775. No WikiTree Ezekiel fits.
+
+<!-- nir-2026-10-06-scotland-misc+us-1785-1799 -->
+## Identity assessment — newspaper candidates withdrawn, 6 October 2026
+
+- [Jackson’s Oxford Journal, 1779-04-10, p.3](https://www.newspapers.com/image/396539533/): no longer a candidate for this profile. April 1779 reports of the Hackman/Martha Ray shooting name James Glasgow, chairman (sedan-chair carrier), who took the pistol and handed it to Halliburton. A London chairman with no identifying detail; no WikiTree profile can be assigned.

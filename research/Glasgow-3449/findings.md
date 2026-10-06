@@ -46,3 +46,8 @@ Death register image viewed on GRONI (D/1868/27/1005/2/324, Ballymoney entry 324
 ## Priority actions
 
 Compare the coroner’s inquest and subsequent reporting for an age, address or family identifier. Do not attach the incident or a property holding as a certain profile fact.
+
+<!-- nir-2026-10-06-ireland-1800-1829+ireland-1830-1839+ireland-1840-1849+ireland-1850-on+ireland-to-1799+us-to-1784 -->
+## Identity assessment — newspaper candidates withdrawn, 6 October 2026
+
+- [Belfast News-Letter, 1861-01-07, p.4](https://www.newspapers.com/image/387764534/): no longer a candidate for this profile. Accident report (Belfast News-Letter, 7 Jan 1861) from Rasharkin: Robert Glasgow, a neighbour at Lisnagaver, warned James M'Caughern about a dangerous gable, escaped its fall and raised the alarm. Robert is probably Glasgow-938, who lived at Lisnagaver in 1851 and 1866. James M'Caughern is unresolved. No kin are stated.

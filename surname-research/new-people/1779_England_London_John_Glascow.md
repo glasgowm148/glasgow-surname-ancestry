@@ -1,4 +1,4 @@
-# HOLD — John Glascow, London chairman
+# John Glascow, London chairman
 
 Reviewed 4 October 2026. The original Derby Mercury passage names John Glascow, described as a chairman, giving evidence after the Martha Ray shooting in Covent Garden. The provider label of 19 March 1779 is incompatible with the shooting on 7 April 1779, independently dated in the Old Bailey original. Exact publication date and personal identity remain unresolved; no Irish origin is stated.
 
@@ -36,3 +36,16 @@ Compatible or conditional catalogue leads are [[Glasgow-549]], [[Glasgow-4179]],
 == Sources ==
 <references />
 ```
+
+## Identity review — 6 October 2026
+
+**READY TO CREATE** — duplicate search found no compatible WikiTree profile; the earlier namesake candidates are excluded for the concrete reasons below.
+
+The listed candidates are all Ulster or Carolina men with households there. Glasgow-1146 (b.1756 Antrim, d.1826 Newberry SC), Glasgow-2990 (Derryloran c.1750), Glasgow-4179 (Larne c.1747, wife Rose Allan) and Glasgow-549 (Co. Londonderry 1735-1785) have no London presence. A Covent Garden chairman is a London resident. The Old Bailey trial of James Hackman (t17790404-3) was searched and does not name Glascow, so his evidence was probably given at the coroner's inquest, as the newspaper implies. WikiTree searchPerson for John Glasgow 1725-1760 and John Glasco 1740-1780 gives no English-resident candidate.
+
+- [1779 Derby Mercury report that John Glascow, a chairman (sedan-chair carrier), gave evidence after the Martha Ray shooting in Covent Garden. He is a London working man with no WikiTree profile.](https://www.newspapers.com/image/394231375/)
+
+Supporting records inspected:
+- [Old Bailey t17790404-3, trial of James Hackman for the murder of Martha Ray (searched; Glascow not named)](https://www.oldbaileyonline.org/record/t17790404-3)
+
+Searches: Old Bailey API 'Hackman' and full-text check of t17790404-3 for 'glas' or 'chairman' (none); wt.py profile Glasgow-1146, 2990, 4179, 549, 1657; wt.py search John Glasgow 1725-1760 and John Glasco 1740-1780.

@@ -1,0 +1,6 @@
+# Findings: [Glasgow-3726](https://www.wikitree.com/wiki/Glasgow-3726)
+
+<!-- nir-2026-10-06-scotland-misc+us-1785-1799 -->
+## Current conclusion — newspaper identity review, 6 October 2026
+
+- [The Carlisle Gazette, and the Western Repository of Knowledge, 1793-03-06, p.1](https://www.newspapers.com/image/1033763029/): John Glasgow (addressee, Carlisle post office, care of William Brown, Esq. (Jan 1793)) — **possible** match. The entry gives only the name and a care-of mailing direction ('care of William Brown, Esq.'). It states no residence, occupation or kin. Carlisle is the Cumberland County seat. Glasgow-3726 (John, b. 6 March 1764 Cumberland, Pennsylvania; d. 1833 Madison County, Kentucky, intestate) is the only WikiTree John recorded as born in Cumberland County and would have been 28. The match is name, county and age only, so it is possible. Glasgow-2871 (John, c.1738–3 April 1792, merchant of West Nottingham, buried at Rising Sun, Maryland) died nine months before the list. Mail can outlive its addressee, but his south-eastern Chester/York/Cecil locality offers no Carlisle link, so he is unlikely. Glasgow-4027 (d. 1779, Peters Township, Cumberland County) is dead and excluded. Glasgow-3927 (Inishrush, est. 1767) and Glasgow-4090 (Desertoghill, before 1772) are Irish-recorded with no migration evidenc

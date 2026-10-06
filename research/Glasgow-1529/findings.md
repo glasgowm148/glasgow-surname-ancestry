@@ -33,3 +33,17 @@ George Glasgow, gentleman, is reported appointed Second Lieutenant, vice Second 
 ## Next questions
 
 Inspect the contemporaneous Gazette appointment and regimental commission lists to identify the unit and officer before comparing the Royal Artillery career.
+
+<!-- nir-2026-10-06-ireland-1800-1829+ireland-1830-1839+ireland-1840-1849+ireland-1850-on+ireland-to-1799+us-to-1784 -->
+## Identity assessment — newspaper candidates withdrawn, 6 October 2026
+
+- [Freeman’s Journal and Daily Commercial Advertiser, 1811-06-10, p.4](https://www.newspapers.com/image/1050144942/): no longer a candidate for this profile. June 1811 brevet list naming Colonel George Glasgow of the Royal Artillery among the new major-generals. He is the artillery general George Glasgow who served in Canada and died in London on 28 Oct 1820, documented by the Dictionary of Canadian Biography. He has no WikiTree profile, and chronology excludes the three Scottish namesakes offered earlier.
+- [Freeman’s Journal and Daily Commercial Advertiser, 1819-09-06, p.4](https://www.newspapers.com/image/1050057308/): no longer a candidate for this profile. September 1819 War Office list naming Major-General George Glasgow of the Royal Artillery among brevet lieutenant-generals. He is the same man as in the 1811 notice: the Royal Artillery general George Glasgow (DCB), d. 1820, who has no WikiTree profile.
+
+<!-- nir-2026-10-06-scotland-misc+us-1785-1799 -->
+## Identity assessment — newspaper candidates withdrawn, 6 October 2026
+
+- [The Caledonian Mercury, 1771-09-07, p.1](https://www.newspapers.com/image/395686209/): no longer a candidate for this profile. Sept 1771: Second Lieutenant George Glasgow, Royal Artillery, to be First Lieutenant vice Francis Downman. This is an earlier RA officer, not the later Lt-Gen George Glasgow (only a cadet in 1771); no WikiTree profile.
+- [The Caledonian Mercury, 1774-09-24, p.2](https://www.newspapers.com/image/395693121/): no longer a candidate for this profile. Sept 1774: George Glasgow, gentleman, appointed Second Lieutenant vice Barnes. This is the future Lt-Gen George Glasgow RA (DCB: 2nd Lt 8 Sept 1774); he has no WikiTree profile.
+- [The Caledonian Mercury, 1793-10-05, p.2](https://www.newspapers.com/image/395737286/): no longer a candidate for this profile. Oct 1793: Captain-Lieutenant George Glasgow to be Captain, Royal Artillery, vice Wright (Ordnance 25 Sept). This is Lt-Gen George Glasgow RA (DCB: captain 25 Sept 1793); no WikiTree profile.
+- [The Caledonian Mercury, 1795-05-21, p.2](https://www.newspapers.com/image/395709939/): no longer a candidate for this profile. May 1795: Captain George Glasgow, artillery, made Major in the army. Probably Lt-Gen George Glasgow RA (DCB); the earlier RA George is a possible alternative. No WikiTree profile.

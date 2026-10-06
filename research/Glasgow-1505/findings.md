@@ -182,3 +182,13 @@ William Glasgow is named as master of the Lady Forbes in the Sutton shipping cas
 ## Identity assessment — newspaper candidates withdrawn, 6 October 2026
 
 - [The Public Advertiser, 1758-02-18, p.1](https://www.newspapers.com/image/34419759/): no longer a candidate for this profile. 1758 shipping line 'William, Glasgow, from London, at New-York'. William is the vessel and Glasgow the master's surname; the master's forename is unknown, so he cannot be identified.
+
+<!-- nir-2026-10-06-ireland-1800-1829+ireland-1830-1839+ireland-1840-1849+ireland-1850-on+ireland-to-1799+us-to-1784 -->
+## Identity assessment — newspaper candidates withdrawn, 6 October 2026
+
+- [The Public Register, or, Freeman's Journal, 1768-01-23, p.2](https://www.newspapers.com/image/1050136699/): no longer a candidate for this profile. Freeman's Journal 23 Jan 1768: the Lady Forbes, of Glasgow, William Glasgow master, carrying rum for Waterford, was driven ashore near Sutton and the crew were saved. The master is a real named William Glasgow. At least a dozen compatible William Glasgow profiles exist and nothing in the notice prefers one, so no identification is made.
+
+<!-- nir-2026-10-06-scotland-misc+us-1785-1799 -->
+## Identity assessment — newspaper candidates withdrawn, 6 October 2026
+
+- [The Caledonian Mercury, 1768-02-06, p.2](https://www.newspapers.com/image/395700744/): no longer a candidate for this profile. Jan/Feb 1768: William Glasgow, master of the Lady Forbes (of Glasgow) with rum for Waterford, driven ashore near Sutton, crew saved. No WikiTree William can be singled out.

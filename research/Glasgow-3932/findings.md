@@ -27,3 +27,20 @@ The uncertain father connection to Glasgow-1241 remains uncertain. The original 
 Find a burial, parish marriage, probate or guild record identifying the wife reported dead in 1765 and distinguishing the younger Philip’s marriages.
 
 Inspect the original Public Gazetteer marriage issue and Dublin Mercury death issue; compare the two Dublin Philip watchmakers with apprenticeship, guild, probate and parish records. Preserve the sourced full draft in 1770_Ireland_Dublin_Philip_Glasco.md. No live WikiTree relationship change follows from this corroborating notice.
+
+<!-- nir-2026-10-06-ireland-1800-1829+ireland-1830-1839+ireland-1840-1849+ireland-1850-on+ireland-to-1799+us-to-1784 -->
+## Relationship assessment — newspaper identity review, 6 October 2026
+
+- Glasgow-3932 — same person as (duplicate) — Glasco-147: **research note only** (WikiTree now: not linked (two separate profiles)). Both profiles represent Philip Glasco the younger, Dublin watchmaker: 'Philip Glasco, jun.' (1765), 'Phil. Glasco the younger' (1768), and 'Philip Glasco, the younger, Dublin, watchmaker' (1772 intestacy index). Propose a WikiTree merge. Do not add a spouse to Glasgow-3932 separately. Restore Glasgow-3932's biography first: the live bio is the Robert Glasgow (Kilrea, 1827) text. ([The Public Register, or, Freeman's Journal, 1765-09-28, p.3](https://www.newspapers.com/image/1050029120/))
+- Glasgow-3932 — spouse of (would duplicate) — Plunkett-2805: **research note only** (WikiTree now: not linked). Same marriage. Resolve by merging Glasgow-3932 with Glasco-147, not by adding a second spouse link. ([The Public Register, or, Freeman's Journal, 1768-09-20, p.3](https://www.newspapers.com/image/1050148115/))
+
+## Source findings
+
+### Newspaper identity review — 6 October 2026
+
+- DATA ERROR: the live biography (checked 6 Oct 2026) is the text for Robert Glasgow, b. 1 Sep 1827 Kilrea. Restore the Philip junior biography or merge into Glasco-147. — WikiTree API getProfile Glasgow-3932, 6 Oct 2026 ([The Public Register, or, Freeman's Journal, 1765-09-28, p.3](https://www.newspapers.com/image/1050029120/))
+
+## Identity assessment — newspaper candidates withdrawn, 6 October 2026
+
+- [The Public Register, or, Freeman's Journal, 1765-09-28, p.3](https://www.newspapers.com/image/1050029120/): no longer a candidate for this profile. Freeman's Journal death column (issue of 28 Sep 1765) for Mrs. Glasco, wife of Mr. Philip Glasco junior, watchmaker, Christ-church-lane, Dublin. Philip junior is the younger Dublin watchmaker, who already exists twice on WikiTree: Glasco-147 (the better-connected profile, with wives Braccan-2 and Plunkett-2805) and the project-created duplicate Glasgow-3932, whose live biography has been overwritten with an unrelated 1827 Kilrea Robert Glasgow text. The deceased wife is already modelled as Braccan-2. No new relationship is needed; the action is a merge and data clean-up.
+- [The Public Register, or, Freeman's Journal, 1768-09-20, p.3](https://www.newspapers.com/image/1050148115/): no longer a candidate for this profile. Freeman's Journal 20 Sep 1768 marriage of Mr. Phil. Glasco the younger, watchmaker of Christ-church-lane, to Miss Teresa Plunkett of Church-street. Both people already exist and are already linked as spouses on WikiTree: Glasco-147 and Plunkett-2805. Glasgow-3932 is a duplicate of the groom.

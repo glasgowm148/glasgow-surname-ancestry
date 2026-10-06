@@ -13,3 +13,12 @@ A contemporary marriage notice expressly identifies Rachel as daughter of the la
 ## Unresolved questions
 
 Compare the original marriage register and Rachel’s baptism. Check the compatible father profile against the parish family; do not infer a mother from his spouse alone.
+
+<!-- nir-2026-10-06-scotland-misc+us-1785-1799 -->
+## Current conclusion — newspaper identity review, 6 October 2026
+
+- [The Caledonian Mercury, 1802-03-01, p.3](https://www.newspapers.com/image/393025725/): Miss Rachel Dunlop (bride) — **strong** match. Name, father 'the late John Dunlop of Dunlop', spouse and place (Dunlop House) all agree; Paterson's Dunlop of Dunlop account names her. Born 17 May 1769, Dunlop. Sources: [James Paterson, History of the County of Ayr, vol. II (1852), parish of Kilwinning: Cuninghame of Ashinyards / Martin of Ashinyards (Nethermains), Mountgreenan, Glasgow of Mountgreenan; parish of Dunlop (archive.org OCR)](https://archive.org/details/historyofcountyo02pateuoft/page/252/mode/2up)
+
+## Relationship assessment — newspaper identity review, 6 October 2026
+
+- Dunlop-2189 — daughter of — Dunlop-2144: **upgrade to confident** (WikiTree now: linked, unmarked (no Father confidence code on Dunlop-2189)). 'Miss Rachel Dunlop, daughter of the late John Dunlop of Dunlop, Esq.' (marriage notice) + Paterson's Dunlop genealogy ('Rachel, the fourth, married to Robert Glasgow of Mount-greenan') + 1769 Dunlop baptism listed on Dunlop-2144. Both identities strong. ([The Caledonian Mercury, 1802-03-01, p.3](https://www.newspapers.com/image/393025725/))

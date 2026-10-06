@@ -11,3 +11,8 @@ James Glasgow and Ezekiel Glasgow appear in the list of letters remaining in Cha
 ## Next questions
 
 Compare original local tax, land, probate and institutional records, preserving the list’s stated role; check plausible catalogue profiles before an identity or relationship change.
+
+<!-- nir-2026-10-06-ireland-1800-1829+ireland-1830-1839+ireland-1840-1849+ireland-1850-on+ireland-to-1799+us-to-1784 -->
+## Identity assessment — newspaper candidates withdrawn, 6 October 2026
+
+- [The South-Carolina and American General Gazette, 1775-08-25, p.1](https://www.newspapers.com/image/605068969/): no longer a candidate for this profile. James Glasgow and Ezekiel Glasgow in the Charlestown, South Carolina, General Post Office letter list of 21 August 1775. James is possibly the Ayr-born James of Newberry District (Glasgow-804, arrived South Carolina 1769); the Kilwaughter James (Glasgow-1144) is unlikely because his children were still being born in County Antrim to 1775. No WikiTree Ezekiel fits.

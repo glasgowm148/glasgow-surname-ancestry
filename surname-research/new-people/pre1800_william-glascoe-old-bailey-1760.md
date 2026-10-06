@@ -1,6 +1,6 @@
 # William Glascoe / Glascow, 1760 defendant
 
-HOLD — documentary person; identity unresolved
+READY TO CREATE — no compatible WikiTree profile (identity review 6 October 2026)
 
 [[Category:Glasgow Name Study]]
 
@@ -16,3 +16,16 @@ The matching proceedings t17600416-27 name William Glascow, theft from Benjamin 
 
 == Sources ==
 <references />
+
+## Identity review — 6 October 2026
+
+**READY TO CREATE** — duplicate search found no compatible WikiTree profile; the earlier namesake candidates are excluded for the concrete reasons below.
+
+Old Bailey t17600416-27, William Glascow: stole a hempen sack and four bushels of malt from Benjamin Smith's warehouse in Durham Yard (Strand) on 15 March 1760. Smith says the prisoner 'got his bread under me', and the prisoner said he was drunk and confessed before Justice Cox. Verdict: Guilty 4s 10d; transportation. That makes him a London labourer working for a corn dealer. WikiTree searches for William Glasgow born 1700-1742 return only Scottish (Kirknewton, Kilwinning, Stevenston, Irvine, Ayrshire, Dundonald) and Irish (Larne, Kilwaughter, Tyrone, Moneymore) men, none with a London presence. Glascow, Glascoe and Glasco searches returned nothing further.
+
+- [1760 report that William Glascoe was sentenced to transportation for stealing a sack of malt. The Old Bailey trial (t17600416-27) shows a London warehouse labourer. No WikiTree profile fits, so a new one is needed.](https://www.newspapers.com/image/35690357/)
+
+Supporting records inspected:
+- [Old Bailey Proceedings t17600416-27, William Glascow, theft from a warehouse, 16 April 1760](https://www.oldbaileyonline.org/record/t17600416-27)
+
+Searches: Old Bailey API text search 'Glascow' (hit t17600416-27) and full text read; wt.py search William Glasgow 1700-1720 and 1720-1742; William Glascow / Glascoe 1700-1742 (no matches).

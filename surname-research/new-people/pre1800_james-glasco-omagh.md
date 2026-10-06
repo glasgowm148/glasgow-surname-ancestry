@@ -10,3 +10,13 @@ The 1786 groom and 1793 Omagh contact are probably the same documentary person. 
 
 == Sources ==
 <references />
+
+## Identity review — 6 October 2026
+
+No compatible WikiTree profile after a duplicate search; **READY TO CREATE** once the biography below is checked.
+
+Searches for Jane Murray, Jane Glasgow and Jane Glasco born 1762–1778 return only Scottish, American and Antrim women. None is at Omagh. Murphy-41989 (Jane Murphy/Glasgow, 1768–1786) and McClure-6341 (Jane McClure/Glasgow, Antrim) have different maiden names. She has no profile. Born c.1769–70 at or near Omagh.
+
+- [The Public Register, or, Freeman's Journal, 1786-09-05, p.3](https://www.newspapers.com/image/1050075355/): Freeman's Journal 5 Sep 1786 marriage: Mr. James Glasco of Omagh, publican, aged 61, to Miss Jane Murray of the same place, aged 16. Neither person has a compatible WikiTree profile with any Omagh link. All existing James namesakes are only possible, and the Dublin carpenter Glasco-148 is now unlikely. Recommend new profiles for James Glasco of Omagh (b. c.1725) and Jane Murray (b. c.1770), linked as spouses.
+
+Searches: wt.py search James Glasgow/Glasco/Glascoe 1715-1735; Jane Murray, Jane Glasgow, Jane Glasco 1762-1778; getRelatives and bio Glasgow-3944, Glasgow-1024, Glasgow-2988, Glasgow-1970, Glasgow-2916, Glasco-148; local grep 'Omagh'; web search '"Glasco" OR "Glasgow" Omagh 1786 publican "Jane Murray"' (no hit).

@@ -14,3 +14,9 @@ John Glascow is appointed to provide for distressed families of Associators in a
 ## Next questions
 
 Inspect original Chester County land, tax and committee papers, township residence and signatures; compare the records behind Glasgow-2871 and Glasgow-4027 before linking the subjects.
+
+<!-- nir-2026-10-06-ireland-1800-1829+ireland-1830-1839+ireland-1840-1849+ireland-1850-on+ireland-to-1799+us-to-1784 -->
+## Identity assessment — newspaper candidates withdrawn, 6 October 2026
+
+- [The Pennsylvania Gazette, 1773-04-28, p.1](https://www.newspapers.com/image/39401494/): no longer a candidate for this profile. John Glascow is the neighbouring landholder of Michael Dintz's 22.5-acre West Nottingham tract in an April 1773 sheriff's sale. The only John taxed as a West Nottingham landholder in 1773 is the continuing storekeeper/landholder whose holding passes to Hugh Glasgow in 1793, i.e. probably Glasgow-2871.
+- [The Pennsylvania Gazette, 1776-08-28, p.3](https://www.newspapers.com/image/39398635/): no longer a candidate for this profile. John Glascow is appointed (13 Aug 1776) by the Chester County Committee of Inspection to provide for distressed families of Associators. Several Johns were taxed in Chester County in 1775-76 (West Nottingham landholder, East Nottingham landholder, East Bradford freeman), so the appointee is only possibly the West Nottingham man, Glasgow-2871.

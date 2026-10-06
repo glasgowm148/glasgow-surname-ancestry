@@ -92,3 +92,18 @@ A judicial-sale notice offers Oxenward near Kilwinning, which belonged to George
 ## Next questions
 
 Inspect Glasgow partnership papers, Nethermains/Kilwinning titles, court-process and roup records, and the candidate’s original 1768 death evidence. Establish personal identifiers, legal ownership and sale outcomes independently.
+
+<!-- nir-2026-10-06-scotland-misc+us-1785-1799 -->
+## Relationship assessment — newspaper identity review, 6 October 2026
+
+- Glasgow-3312 — son of — Glasgow-1058 (George Glasgow) and Martin-103040 (Margaret Martin): **research note only** (WikiTree now: linked, unmarked (no Father/Mother confidence code)). Notices give no parentage. Paterson: Nethermains was held by Andrew Martin of Ashinyards; 'Margaret, married in 1728, to a Mr Glasgow' was a co-heiress (Paterson calls her Arthur Martin's daughter, which is chronologically doubtful - more likely Andrew's daughter). Indexed marriage George Glasgow & Margaret Martain, Kilwinning, 11 Jun 1728; George bapt. 19 Jul 1729 Kilwinning. This explains how a George Glasgow came to be 'of Nethermains' and supports the existing parent link, but the baptism itself (not inspected here) is the record that must carry the link. ([The Caledonian Mercury, 1768-06-04, p.3](https://www.newspapers.com/image/395710454/))
+
+## Identity assessment — newspaper candidates withdrawn, 6 October 2026
+
+- [The Leeds Intelligencer and Yorkshire General Advertiser, 1762-07-20, p.2](https://www.newspapers.com/image/404028614/): no longer a candidate for this profile. 1762 royal patent to George Glasgow of Manchester. The State Papers petition shows he was a working weaver of Manchester, joint patentee with Robert Elsden, a London weaver, for weaving quilted cloth in the loom. No WikiTree profile fits him, and the earlier link to the Glasgow merchant of Nethermains (Glasgow-3312) is now weak.
+- [The Caledonian Mercury, 1767-12-30, p.3](https://www.newspapers.com/image/395728376/): no longer a candidate for this profile. Dec 1767 partnership notice: George Glasgow, merchant in Glasgow, had given up management of the Incle Manufactory. He is the George Glasgow of Nethermains (Glasgow-3312), probable.
+- [The Caledonian Mercury, 1768-06-04, p.3](https://www.newspapers.com/image/395710454/): no longer a candidate for this profile. June-July 1768 sale of Nether-Mains and other Kilwinning lands 'belonging to George Glasgow, merchant in Glasgow'. Identified as Glasgow-3312 (probable) through the Commissariot entry 'George Glasgow, of Nethermains' and the Martin/Ashinyards descent of Nethermains; also shows Glasgow-3312's 1768 death date is doubtful.
+- [The Caledonian Mercury, 1777-06-23, p.3](https://www.newspapers.com/image/395682715/): no longer a candidate for this profile. June 1777 adjournment of the sale of Nether Mains 'belonging to George Glasgow'. Same owner as 1768: Glasgow-3312, probable.
+- [The Caledonian Mercury, 1777-07-26, p.3](https://www.newspapers.com/image/395686198/): no longer a candidate for this profile. July 1777 judicial sale (Lords of Council and Session) of Nether Mains and Littleward 'which belonged to George Glasgow'. Glasgow-3312, probable.
+- [The Caledonian Mercury, 1777-11-24, p.4](https://www.newspapers.com/image/395696322/): no longer a candidate for this profile. Nov 1777 adjourned judicial sale of Littleward, Fence and Oxenward, formerly of George Glasgow of Nethermains. Glasgow-3312, probable.
+- [The Caledonian Mercury, 1777-12-13, p.3](https://www.newspapers.com/image/395699045/): no longer a candidate for this profile. Dec 1777 judicial sale of Oxenward near Kilwinning, 'which belonged to George Glasgow of Nether Mains'. Glasgow-3312, probable.

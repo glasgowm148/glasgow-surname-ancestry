@@ -33,3 +33,14 @@ Compare original Cecil County tax, land and probate records and Philadelphia pos
 
 == Sources ==
 <references />
+
+## Identity review — 6 October 2026
+
+No compatible WikiTree profile after a duplicate search; **READY TO CREATE** once the biography below is checked.
+
+Charles-Town is the Cecil County, Maryland town at the head of the Chesapeake. MSA's Samuel Glasgow biography (SC 3520-17195), working from Cecil County probate, lists a William among the children of James Glasgow Sr. (d. 1784) and Ann of Cecil County (siblings Samuel, Ezekiel d. 1780, Adam d. 1782-83, James, Elizabeth Mary, Hannah) - the same family WikiTree has under Glasgow-2868/Hartshorne-320, but WikiTree has no William in it. That William is the most plausible addressee at a Cecil County post office in 1771, but the letter list gives no relative, so identity is possible only. No WikiTree William Glasgow/Glasco/Glascow/Glascoe has any Maryland presence (duplicate searches 1700-1765); the Scottish/Irish Williams (4101, 4120, 2426; 3326 documented in Larne 1772/1783) are namesakes only.
+
+- [Maryland Gazette, 1771-10-24, p.3](https://www.newspapers.com/image/41041559/): Charles-Town (Cecil County), Maryland letter list, 1 October 1771: John Glasgow in West Nottingham, Chester County, and a separate William Glasgow. Two Johns were taxed in West Nottingham in 1771 (landholder and inmate), so John is only possibly Glasgow-2871; Glasgow-2870 (d. 1769) is now unlikely. William has no WikiTree profile; the Cecil County William named among the children of James Glasgow Sr. (d. 1784) in Cecil probate is a plausible but unproved identity.
+- [Maryland State Archives Biographical Series, Samuel Glasgow, MSA SC 3520-17195 (Cecil County Glasgow family from probate)](https://msa.maryland.gov/megafile/msa/speccol/sc3500/sc3520/017100/017195/html/17195bio.html)
+
+Searches: Chester County 1765-1799 tax index (1771 West Nottingham Johns); wt.py search William Glasgow 1700-1765 and Glascoe/Glasco/Glascow variants; wt.py search John Glasgow 1700-1770 (US-located hits only Glasgow-4027, 3726, 822, 4031); MSA Biographical Series SC 3520-17195.

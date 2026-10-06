@@ -148,3 +148,18 @@ Consequently any current kinship bridge is hypothesis-only until a shared origin
 record is found.
 
 [^1]: [British Newspaper Archive search for “John and Archibald”](https://www.britishnewspaperarchive.com/search-newspapers/results?keywords=%22John+and+Archibald%22), OCR/search extract for the ''Belfast News-Letter'', 12 June 1739. The original newspaper image should be checked before treating the wording as a final transcription.
+
+<!-- nir-2026-10-06-ireland-1800-1829+ireland-1830-1839+ireland-1840-1849+ireland-1850-on+ireland-to-1799+us-to-1784 -->
+## Current conclusion — newspaper identity review, 6 October 2026
+
+- [The Pennsylvania Gazette, 1754-03-19, p.2](https://www.newspapers.com/image/39398244/): Robert Glasgow (master of the snow John and Archibald, of Glasgow) — **strong** match. Glasgow-2867 is a profile whose biography is specifically 'Robert Glasgow was master of the snow John and Archibald, a vessel described in 1754 as of Glasgow', citing The Maryland Gazette no. 466 (11 Apr 1754) reprint of the St John's, Antigua, 15 Feb 1754 report and the Dublin Gazette reprint - the same report as these Pennsylvania Gazette/Gloucester Journal/Berrow's printings (same vessel, master, voyage Virginia-Glasgow, gale of 24 Jan 1754, lightning, Antigua). Name + unique vessel command + same dated event = record-level identity. Caveat: 2867's parents (William Glasgow-1026 and Ann McCook-217, status code 10, not confident) and 'death 1754 (after)' are not supported by this or any inspected record (research/Glasgow-2867/findings.md says the parent and Glencorse links are unproved). Glasgow-2474 (bap. 1716 Irvine; Robert Glasgow master of Irvine ship Betty and Grizell 1738) is a co Sources: [WikiTree Glasgow-2867 biography citing The Maryland Gazette no. 466, 11 Apr 1754, MSA SC 2731 M1279 images 472-473 (Antigua report of 15 Feb 1754)](https://www.wikitree.com/wiki/Glasgow-2867); research/Glasgow-2867/findings.md (local): shipmaster is the only anchored fact; parents unproved; [Ayrshire Archives, Irvine Burgh Catalogue (2017) IB2/14/71 p.148, Robert Glasgow master of Betty and Grizell, 4 Aug 1738 (cited in research/Glasgow-2474/findings.md)](https://web.archive.org/web/20190919232657/https://ayrshirearchives.files.wordpress.com/2019/04/irvine-burgh-catalogue-2017-watermarked.pdf)
+
+## Relationship assessment — newspaper identity review, 6 October 2026
+
+- Glasgow-2867 (Robert Glasgow, master of John and Archibald) — son of — Glasgow-1026 (William Glasgow) and McCook-217 (Ann McCook): **research note only** (WikiTree now: linked uncertain (Father/Mother DataStatus 10, not confident)). The notice states no parentage at all ('the Snow John and Archibald, of Glasgow, Robert Glasgow, Master'). No inspected record supports the existing parent links; research/Glasgow-2867/findings.md concludes they are online-tree claims. Note only: the newspaper gives no support for these links. ([The Pennsylvania Gazette, 1754-03-19, p.2](https://www.newspapers.com/image/39398244/))
+
+## Source findings
+
+### Newspaper identity review — 6 October 2026
+
+- Same Antigua (15 Feb 1754) distress report also printed in The Pennsylvania Gazette 19 Mar 1754 p.2, The Gloucester Journal 25 Jun 1754 p.2 and Berrow's Worcester Journal 27 Jun 1754 p.1 - additional citations for the one anchored event. — https://www.newspapers.com/image/39398244/ ; https://www.newspapers.com/image/971274921/ ; https://www.newspapers.com/image/1212017118/ ([The Pennsylvania Gazette, 1754-03-19, p.2](https://www.newspapers.com/image/39398244/))

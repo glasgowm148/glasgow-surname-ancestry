@@ -69,3 +69,16 @@ Inspect brig Ann ownership, port entry/clearance, passenger and shipping registe
 ## Identity assessment — newspaper candidates withdrawn, 6 October 2026
 
 - [The Public Advertiser, 1777-05-14, p.2](https://www.newspapers.com/image/34421452/): no longer a candidate for this profile. 1777 prize list naming James Glascow as master of the Greenwich Packet (owner James Young), Philadelphia to Winyaw, South Carolina. He was a Philadelphia-trade master in wartime. Two dozen namesakes exist, none with any maritime or Philadelphia record, so he cannot be identified.
+
+<!-- nir-2026-10-06-ireland-1800-1829+ireland-1830-1839+ireland-1840-1849+ireland-1850-on+ireland-to-1799+us-to-1784 -->
+## Identity assessment — newspaper candidates withdrawn, 6 October 2026
+
+- [The Pennsylvania Gazette, 1757-04-07, p.1](https://www.newspapers.com/image/39395391/): no longer a candidate for this profile. James Glascow, 'Fogs Manor' (Fagg's Manor, Londonderry Township, Chester County), 1757 Philadelphia letter list. The Chester County tax index shows a James Glascow/Glasgo landholding in Londonderry Township 1739-1740 and taxed in East/West Nottingham 1747-1758, so the addressee is very likely that local man; no WikiTree profile is documented in Chester County. Glasgow-2868 (Cecil County, d. c.1784) is the only regionally compatible profile, still only possible.
+
+<!-- nir-2026-10-06-scotland-misc+us-1785-1799 -->
+## Identity assessment — newspaper candidates withdrawn, 6 October 2026
+
+- [The Edinburgh Advertiser, 1789-12-11, p.8](https://www.newspapers.com/image/601822968/): no longer a candidate for this profile. Dec 1789 Mid-Lothian game-certificate list: 'Glasgow, James, Esq; Edinburgh'. Best lead is James Glasgow (Glasgow-1142), St Vincent planter and brother of Robert of Montgreenan, who died in Calder parish near Edinburgh, but this is unproved.
+- [The Columbian Herald, or, The Independent Courier of North-America, 1788-01-28, p.2](https://www.newspapers.com/image/604128637/): no longer a candidate for this profile. A Charleston marine list of January 1788 enters the brig Ann inward from Larne, with a master surnamed Glasgow. The master's forename is not given and he cannot be identified on WikiTree. The Larne-born William Glasgow (Glasgow-3324) remains only a possible comparison.
+- [The Pennsylvania Journal, or, Weekly Advertiser, 1788-02-13, p.2](https://www.newspapers.com/image/1034014648/): no longer a candidate for this profile. Philadelphia papers of February 1788 reprint a report that the brig Ann, Capt. Glasgow, arrived from Larne with nearly 200 passengers in good health, praising the captain's humanity. This is the same surname-only master as the Charleston marine-list entries. He remains unidentified.
+- [The Columbian Herald, or, The Independent Courier of North-America, 1788-02-18, p.2](https://www.newspapers.com/image/604128661/): no longer a candidate for this profile. A Charleston marine list of February 1788 records the brig Ann cleared out for Georgetown, with master Glasgow. This is the same surname-only master as the January arrival from Larne, and he is unidentified.

@@ -1,5 +1,97 @@
 # WikiTree work queue
 
+
+## Newspaper identity review — 6 October 2026
+
+All 275 retained newspaper notices were re-researched against WikiTree (nine region/period lanes, each independently re-checked). Results are in each profile's `findings.md`, the Sources newspaper cards and Latest findings. Nothing has been changed on WikiTree.
+
+### Existing-profile amendments
+
+- [[Braccan-2]] — Newspaper identity review 6 Oct 2026. Add sourced facts: Died at Christ-church-lane, Dublin, on the 24th (September 1765) per Faulkner's transcription, and by 28 Sep 1765 per the Freeman's Journal. Described as wife o
+- [[Drake-13873]] — Newspaper identity review 6 Oct 2026. Add sourced facts: Son of Rev John Drake, rector of Stourton.
+- [[Dunlop-2144]] — Newspaper identity review 6 Oct 2026. Relationships: Dunlop-2189 daughter of Dunlop-2144 → upgrade to confident
+- [[Dunlop-2189]] — Newspaper identity review 6 Oct 2026. Relationships: Dunlop-2189 daughter of Dunlop-2144 → upgrade to confident
+- [[Glasco-147]] — Newspaper identity review 6 Oct 2026. Add sourced facts: Watchmaker of Christ-church-lane, Dublin, styled 'junior' in Sep 1765, when his wife died.; Married Teresa Plunkett, reported Sep 1768. Watchmaker of Christ-church-lane.
+- [[Glasco-170]] — Newspaper identity review 6 Oct 2026. Add sourced facts: Styled 'Rev.' in Dec 1780, when Michael Rogers was ordered to pay ten guineas, to be given to public charities, for assaulting him. This is his latest dated app
+- [[Glasgow-1076]] — Add the 1785 St Vincent staff-surgeon appointment (probable identification), the 1808 Ayr county meeting and the 1835 Allan v. Glasgow's Trustees appeal.
+- [[Glasgow-1140]] — Identify him as James Glasgow, minister of Edinburgh Castle (Fasti; 1737 and 1738 newspaper notices). Add the section below; set death date 9 Feb 1746 (Edinburgh, certain); set father Glasgow-1073 and mother Scott-40313 to confident.
+- [[Glasgow-1218]] — Newspaper identity review 6 Oct 2026. Relationships: Glasgow-1222 son of Glasgow-1218 → upgrade to confident Add sourced facts: Weaver (reading appears to be stocking-weaver) at Kelso in 1798.
+- [[Glasgow-1222]] — Newspaper identity review 6 Oct 2026. Relationships: Glasgow-1222 son of Glasgow-1218 → upgrade to confident Add sourced facts: Drawn by ballot for the Roxburgh County Militia from Kelso parish (notice dated Jedburgh 29 Sept 1798), described as son of David Glasgow; required to attend at
+- [[Glasgow-159]] — Newspaper identity review 6 Oct 2026. Add sourced facts: Listed as 'John Glasgow, labourer, Millrig' among the voluntary subscriptions in the parish of Kirkliston, July 1798.
+- [[Glasgow-1675]] — Add the inspected News-Letter death notice, preserving its age 55 beside the Mercury age 56 and excluding the deceased from the 1858 living-uncle role. Newspaper identity review 6 Oct 2026. Add sourced facts: Add second citation: the Belfast News-Letter death notice gives age 55 (the Mercury gives 56); died 21 Jan 1855 at Sandusky City; formerly of Killycurragh near 
+- [[Glasgow-1780]] — Pending Castledawson correction: call reported by 10 July 1835; ordination on 6 October 1835. Existing family and journal amendments remain complete. Newspaper identity review 6 Oct 2026. Add sourced facts: Probably the 'Jas. Glasgow of Broughshane' listed for proficiency in the Junior Division class at the Belfast Institution College Department prize distribution ; Educated in the collegiate depa
+- [[Glasgow-1781]] — Newspaper identity review 6 Oct 2026. Add sourced facts: Pupil at the Royal Belfast Academical Institution school, of Broughshane, June 1830: prizes in trigonometry/astronomy and geometry/algebra.; Of Broughshane in 1830-31 while a student at the Belfast Academical Institution (prizes in mathematics); Fasti gives birth 'near Clough, Co. Antrim, 1814' (prof; Assistant in the Mathematical and Mercan
+- [[Glasgow-2059]] — Add the original marriage occupations/residence and distinguish the Drapersfield Benjamin active after this profile’s February 1870 death. Preserve existing citations and qualified Killycurragh account. Newspaper identity review 6 Oct 2026. Relationships: Glasgow-2542 son of Glasgow-2059 → upgrade to confident; Glasgow-2131 son of Glasgow-2059 → upgrade to confident
+- [[Glasgow-2131]] — Newspaper identity review 6 Oct 2026. Relationships: Glasgow-2131 son of Glasgow-2059 → upgrade to confident Add sourced facts: Married 16 Mar 1897 at Ballywillan Presbyterian Church; described as second son of the late Benjamin Glasgow, Cookstown, editor of the Mid-Ulster Mail and Dunga
+- [[Glasgow-2135]] — Newspaper identity review 6 Oct 2026. Add sourced facts: B.A., student of Tyrone Presbytery; accepted the unanimous call of First Dromara at the Presbytery meeting at Cookstown, 28 Jan 1896.
+- [[Glasgow-2542]] — Newspaper identity review 6 Oct 2026. Relationships: Glasgow-2542 son of Glasgow-2059 → upgrade to confident Add sourced facts: Middle name George: 'John George Glasgow', infant son of Benjamin Glasgow, Cookstown, died 4 Aug 1857 aged six months.
+- [[Glasgow-2656]] — Newspaper identity review 6 Oct 2026. Relationships: Glasgow-4340 son of Glasgow-2656 → add uncertain Add sourced facts: Lead: a Robert Glasgow chaired the Cookstown Academy committee in Oct 1840. Identity with this profile is unproved.
+- [[Glasgow-2867]] — The spouse correction is complete. Replace Glasgow-2867 with the strong Glencorse candidate Glasgow-3011 in the father field of Christian-3492, John-3491 and James-2868 in controlled changes, retaining uncertain status and never leaving a father blank. Correct the biography's stale attached-wife sentence; retain the maritime evidence and all citations. Newspaper identity review 6 Oct 2026. Add sou
+- [[Glasgow-2874]] — Add the 1802 deed and 1835 House of Lords evidence below; set father Glasgow-1076 to confident (natural daughter by Mrs Anne Swan).
+- [[Glasgow-2898]] — Newspaper identity review 6 Oct 2026. Relationships: Glasgow-2898 daughter of Wightman-3457 → add uncertain Add sourced facts: Born c.16 Mar 1841 (from 'aged two months and twenty-six days'); died at Rajkot, Kathiawar, 11 June 1841.
+- [[Glasgow-2901]] — Newspaper identity review 6 Oct 2026. Add sourced facts: Probably born 22 Feb 1848 at Surat, India. The notice does not name the child; the identification rests on the Dictionary of Ulster Biography's list of daughter
+- [[Glasgow-3000]] — Newspaper identity review 6 Oct 2026. Relationships: Glasgow-3000 daughter of Robertson-30564 → upgrade to confident; Glasgow-3000 spouse of George Sherbrooke Airey (no profile yet) → add confident Add sourced facts: Married Lt George Sherbrooke Airey RN at Paisley on 25 Aug 1847; described as second daughter of the late Robert Glasgow Esq.
+- [[Glasgow-3003]] — Newspaper identity review 6 Oct 2026. Relationships: Glasgow-3003 daughter of Glasgow-2874 → upgrade to confident Add sourced facts: Birth at Rome on 22 Nov 1827 announced as a daughter of 'Mrs Robertson Glasgow, of Montgreenan'.
+- [[Glasgow-3127]] — Newspaper identity review 6 Oct 2026. Add sourced facts: First Lieutenant, Royal Artillery, promoted Second Captain vice Freer by Office of Ordnance order dated 16 January 1837 (George Carter Evelegh succeeding him as; Research note: Glasgow-3785 (George Mark Glasgow, 1795 Quebec - 1851 Kingston, Canada West) is very probably the same man; the 'died before 1846' estimate on 31; First Lieutenant, R
+- [[Glasgow-3412]] — Newspaper identity review 6 Oct 2026. Add sourced facts: Listed among Masters in Surgery in a Glasgow University degree report stating that gentlemen from Ireland were admitted to degrees during the 1824-25 session (t; Surgeon, formerly of Vera Cruz, Mexico; died at New Orleans on 26 November 1833; son of the late Robert Glasgow of Cookstown, County Tyrone.; Master of Surgery (C.M.), University of
+- [[Glasgow-3785]] — Newspaper identity review 6 Oct 2026. Relationships: Glasgow-3785 (George Mark Glasgow) son of Lt-Gen George Glasgow RA (d. 28 Oct 1820); no WikiTree profile yet (draft from groups 1050144942/1050057308) → add confident
+- [[Glasgow-3814]] — Add the strongly compatible 1856 retired-merchant candidate and possible 1858 uncle context, with the missing will/deed family bridge explicit. Newspaper identity review 6 Oct 2026. Add sourced facts: Linen and woollen draper, William Street, Cookstown, in 1846; retired from business by 1 Jan 1856, when he received a silver ewer and cake basket at the Imperia
+- [[Glasgow-3896]] — Add the two Belfast death notices of 21 October 1871, corroborating Church Street residence at death and stating newspaper age 73 alongside civil-register age 75. Preserve the complete captured biography; no parentage change. Newspaper identity review 6 Oct 2026. Add sourced facts: Death notice: died 16 Oct 1871, Church Street, Kilrea, aged 75.; Death notice: died 16 Oct 1871, Church Street, Kilre
+- [[Glasgow-3907]] — Newspaper identity review 6 Oct 2026. Add sourced facts: Married John Kyle of Tyanee on 14 Jan 1842. Described as the 'sixth daughter' of Adam Glasgow of Inishrush, so he had at least six daughters; only Eliza and Nan
+- [[Glasgow-4293]] — Newspaper identity review 6 Oct 2026. Relationships: Glasgow-4293 daughter of Glasgow-4340 → upgrade to confident; Glasgow-4293 spouse of W. Brooke Broadbent → add confident Add sourced facts: Full name Margaret George Glasgow; married W. Brooke Broadbent, formerly of Manchester, at New York, 5 Oct 1891.
+- [[Glasgow-4340]] — Newspaper identity review 6 Oct 2026. Relationships: Glasgow-4340 son of Glasgow-2656 → add uncertain; Glasgow-4340 spouse of Pike-9903 → add confident; Glasgow-4293 daughter of Glasgow-4340 → upgrade to confident Add sourced facts: Partner with William Glasgow in Drapersfield Mills, Cookstown, January 1864 (contacts for the house formerly the residence of the late Robert Glasgow).; Of Drapersfiel
+- [[Glasgow-938]] — Newspaper identity review 6 Oct 2026. Add sourced facts: Probable: living at Lisnagaver, Rasharkin, January 1861, when as a neighbour he warned James M'Caughern of a falling gable and raised the alarm.
+- [[Graham-21720]] — Newspaper identity review 6 Oct 2026. Add sourced facts: Irish death notice: 'formerly of Rasharkin' (the phrase follows Robert's name and applies to the couple).
+- [[McClure-6341]] — Newspaper identity review 6 Oct 2026. Add sourced facts: Probably the Jane Glasgow who gave evidence at the Antrim Assizes in July 1838 as mother of Anne Armstrong (d. 23 June 1838 at Ballyclug); alive and a widow in 
+- [[Pike-9902]] — Newspaper identity review 6 Oct 2026. Relationships: Pike-9903 daughter of Pike-9902 → upgrade to confident Add sourced facts: Styled 'Richard Pike, Esq., Beechgrove, Dungannon' in Feb 1864.
+- [[Pike-9903]] — Newspaper identity review 6 Oct 2026. Relationships: Glasgow-4340 spouse of Pike-9903 → add confident; Pike-9903 daughter of Pike-9902 → upgrade to confident Add sourced facts: Married Benjamin Glasgow of Drapersfield, Cookstown, at Dungannon, 16 Feb 1864; forename spelled Wilhelmina in the notice and the Quaker register (profile has '
+- [[Plunkett-2805]] — Newspaper identity review 6 Oct 2026. Add sourced facts: Of Church-street, Dublin, when she married Mr. Phil. Glasco the younger, watchmaker of Christ-church-lane. Marriage reported in the Freeman's Journal issue of 2
+- [[Robertson-30564]] — Newspaper identity review 6 Oct 2026. Relationships: Glasgow-3003 daughter of Robertson-30564 → upgrade to confident; Glasgow-3000 daughter of Robertson-30564 → upgrade to confident Add sourced facts: Dead by Aug 1847 ('the late Robert Glasgow, Esq., of Montgreenan'); his son inherited Montgreenan in 1845.
+- [[Thompson-100184]] — Newspaper identity review 6 Oct 2026. Add sourced facts: Married Rev. Adam Glasgow on 30 Dec 1841, May Street, Belfast; her uncle was Thomas Corbett Esq.
+- [[Wightman-3457]] — Newspaper identity review 6 Oct 2026. Relationships: Glasgow-2898 daughter of Wightman-3457 → add uncertain Add sourced facts: Described as 'of Belfast' at her marriage on 27 June 1840.
+
+### New-person and held drafts (updated or created)
+
+- `surname-research/new-people/1746_England_Southwark_Nicholas_Glasco.md` — READY TO CREATE
+- `surname-research/new-people/1779_England_London_John_Glascow.md` — HOLD
+- `surname-research/new-people/1799_England_London_John_Glasco.md` — HOLD
+- `surname-research/new-people/1811_United_Kingdom_Royal_Artillery_George_Glasgow.md` — HOLD
+- `surname-research/new-people/1816_Ireland_Military_John_Glasco.md` — HOLD
+- `surname-research/new-people/1820_Ireland_Belfast_belfast_grocer.md` — HOLD
+- `surname-research/new-people/1820_Ireland_Dublin_report_heading_James_Glasgow.md` — READY TO CREATE
+- `surname-research/new-people/1822_Ireland_Belfast_advertisement_location_James_Glasgow.md` — READY TO CREATE
+- `surname-research/new-people/1822_Ireland_at_Mr_James_M_Master_s_busines_James_Glasgow.md` — READY TO CREATE
+- `surname-research/new-people/1823_Ireland_North_Street_sample_location_c_James_Glasgow.md` — READY TO CREATE
+- `surname-research/new-people/1825_United_Kingdom_84th_Regiment_Edward_George_Glasgow.md` — HOLD
+- `surname-research/new-people/1826_Ireland_Place_not_stated_Edward_George_Glasgow.md` — READY TO CREATE
+- `surname-research/new-people/1828_Ireland_No_Rosemary_Street_Belfast_for_Mr_James_Glasgow.md` — READY TO CREATE
+- `surname-research/new-people/1838_Ireland_Antrim_Assizes_gave_evidence_John_Armstrong.md` — HOLD
+- `surname-research/new-people/1839_Ireland_Larne_Bank_Hall_Wakenham_Demer_James_Glasgow_Esq_native_of_Larne.md` — READY TO CREATE
+- `surname-research/new-people/1841_Ireland_Meath_Owen_Glasco.md` — HOLD
+- `surname-research/new-people/1842_Ireland_May_Street_Belfast_wedding_ven_Thomas_Corbett_Esq_May_street.md` — HOLD
+- `surname-research/new-people/1847_Ireland_Montgreenan_Ayrshire_George_Sherbrooke_Airey_Esq_Lieutenant_R.md` — READY TO CREATE
+- `surname-research/new-people/1858_Ireland_Cookstown_benjamin_drapersfield.md` — HOLD
+- `surname-research/new-people/1875_Ireland_Parsonstown_william_alexander_parsonstown.md` — HOLD
+- `surname-research/new-people/pre1800_george-glasgow-manchester-patent-1762.md` — HOLD
+- `surname-research/new-people/pre1800_george-glasgow-royal-artillery-1771-1795.md` — HOLD
+- `surname-research/new-people/pre1800_george-glasgow-second-lieutenant-1774.md` — HOLD
+- `surname-research/new-people/pre1800_james-glasco-omagh.md` — HOLD
+- `surname-research/new-people/pre1800_james-glasgow-marsh-creek-list-1795.md` — HOLD
+- `surname-research/new-people/pre1800_james-glasgow-north-carolina-records-1787-1795.md` — HOLD
+- `surname-research/new-people/pre1800_john-glasco-irish-rosters.md` — HOLD
+- `surname-research/new-people/pre1800_nathaniel-r-glascoe-kingsessing.md` — HOLD
+- `surname-research/new-people/pre1800_robert-andrew-glasgow-calder-family-1772.md` — HOLD
+- `surname-research/new-people/pre1800_robert-glasgow-cecil-plantation-notice-1786.md` — HOLD
+- `surname-research/new-people/pre1800_robert-glasgow-old-bailey-1751.md` — READY TO CREATE
+- `surname-research/new-people/pre1800_samuel-glascow-old-bailey.md` — READY TO CREATE
+- `surname-research/new-people/pre1800_samuel-glasgow-london-amicable.md` — READY TO CREATE
+- `surname-research/new-people/pre1800_thomas-glascoe-tinicum.md` — HOLD
+- `surname-research/new-people/pre1800_thomas-glasgow-kentucky-postal-1799.md` — HOLD
+- `surname-research/new-people/pre1800_william-allen-glasgow-royal-engineers-1795.md` — HOLD
+- `surname-research/new-people/pre1800_william-glascoe-maryland-1775.md` — HOLD
+- `surname-research/new-people/pre1800_william-glascoe-old-bailey-1760.md` — READY TO CREATE
+- `surname-research/new-people/pre1800_william-glasgow-postal-1759-1765.md` — HOLD
+
 ## Early newspaper batch — 2 October 2026
 
 | Documentary entry | Status | Handoff |

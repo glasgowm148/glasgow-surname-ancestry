@@ -37,3 +37,14 @@ Birth, death, parents and spouse are unknown from these notices. Irish newspaper
 == Sources ==
 <references />
 ```
+
+## Identity review — 6 October 2026
+
+No compatible WikiTree profile after a duplicate search; **READY TO CREATE** once the biography below is checked.
+
+DCB records that George Glasgow RA was 'gazetted a lieutenant-general on 12 Aug. 1819'. That matches the rank, corps and season of this War Office list, and only one Major-General George Glasgow existed in the RA. Identity with the 1811 colonel is therefore strong (same corps, consecutive brevet ranks per DCB), not just a compatible career inference. He has no WikiTree profile; Glasgow-1529, 3345 and 3611 are excluded as in group 1050144942.
+
+- [Freeman’s Journal and Daily Commercial Advertiser, 1819-09-06, p.4](https://www.newspapers.com/image/1050057308/): September 1819 War Office list naming Major-General George Glasgow of the Royal Artillery among brevet lieutenant-generals. He is the same man as in the 1811 notice: the Royal Artillery general George Glasgow (DCB), d. 1820, who has no WikiTree profile.
+- [Dictionary of Canadian Biography, 'GLASGOW, GEORGE' (vol. 5)](https://www.biographi.ca/en/bio/glasgow_george_5E.html)
+
+Searches: As for group 1050144942 (same subject): WikiTree searchPerson George Glasgow/Glasco/Glascow/Glascoe; DCB biography; Internet Archive full-text '"General Glasgow"'.

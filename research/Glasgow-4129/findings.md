@@ -24,3 +24,8 @@ Baptized at Irvine on 11 April 1721, son of Glasgow-4158 and Margaret Rae. About
 ## Next records — newspaper identity
 
 Search other Prosperity of Irvine voyages, port/customs records, masters’ bonds and Irvine parish/merchant records for an occupation, relative or address linking this master to a candidate. Continue uncaptured Glascow results, other variants and later issues in chronological batches.
+
+<!-- nir-2026-10-06-scotland-misc+us-1785-1799 -->
+## Identity assessment — newspaper candidates withdrawn, 6 October 2026
+
+- [The Caledonian Mercury, 1740-08-18, p.3](https://www.newspapers.com/image/394559372/): no longer a candidate for this profile. 1740 Greenock arrival of the Prosperity of Irvine, master James Glasgow, from 'Northcopen'. A real Irvine shipmaster, but several Irvine James Glasgows fit and nothing in the notice separates them; no relationship is stated.

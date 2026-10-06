@@ -47,3 +47,14 @@ Compare Army Lists, medical staff registers and half-pay rolls to determine whet
 == Sources ==
 <references />
 ```
+
+## Identity review — 6 October 2026
+
+No compatible WikiTree profile after a duplicate search; **READY TO CREATE** once the biography below is checked.
+
+Drew's Roll no. 2845: John Glasco, Staff 20 Apl. 1826, 'ret. h.p. 20 Sept. 1839', b. Sept 1783, BA TCD, d. Dinan 27 Apr 1869 - exact name, rank and retirement date. Same man as the 1836 Liverpool appointment (group 1050083649). No WikiTree profile; weak comparisons conflict concretely. New profile needed (one for the man).
+
+- [The Drogheda Argus and Leinster Journal, 1839-09-28, p.4](https://www.newspapers.com/image/1259428783/): Drogheda Argus, 28 September 1839: Surgeon A. Sinclair, M.D., from the 25th Foot, appointed to the Hospital Staff vice John Glasco, who retires upon half-pay. Drew's Roll dates this retirement 20 September 1839; the man has no WikiTree profile.
+- [Drew's Roll (Peterkin & Johnston 1917), no. 2845 John Glasco](https://archive.org/details/rollofcommission00ande)
+
+Searches: As group 1050083649.
