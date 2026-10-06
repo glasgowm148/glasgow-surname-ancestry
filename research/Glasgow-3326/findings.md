@@ -85,3 +85,8 @@ A shipping report states: William Glasgow, from London, at New-York. Adjacent en
 ## Next questions
 
 Inspect vessel William registers and London/New-York clearances for master’s full name, age or owners; compare independently named masters only with an individual bridge.
+
+<!-- newspaper-identity-review-2026-10-06 -->
+## Identity assessment — newspaper candidates withdrawn, 6 October 2026
+
+- [The Public Advertiser, 1758-02-18, p.1](https://www.newspapers.com/image/34419759/): no longer a candidate for this profile. 1758 shipping line 'William, Glasgow, from London, at New-York'. William is the vessel and Glasgow the master's surname; the master's forename is unknown, so he cannot be identified.

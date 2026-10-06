@@ -96,3 +96,10 @@ A shipping report states: William Glasgow, from London, at New-York. Adjacent en
 ## Next questions
 
 Inspect vessel William registers and London/New-York clearances for master’s full name, age or owners; compare independently named masters only with an individual bridge.
+
+<!-- newspaper-identity-review-2026-10-06 -->
+## Identity assessment — newspaper candidates withdrawn, 6 October 2026
+
+- [The Gloucester Journal, 1751-07-16, p.2](https://www.newspapers.com/image/971486582/): no longer a candidate for this profile. July 1751 report that Robert Glasgow was among nine Old Bailey convicts sentenced to death for robbing Joseph Weedon. The Ordinary's Account shows he was a butcher aged 28, born at Chipping Ongar, Essex. All three Scottish candidates conflict, so he has no WikiTree profile and needs a new one.
+- [The Western Flying Post; or, Sherborne and Yeovil Mercury, 1751-07-29, p.2](https://www.newspapers.com/image/979343886/): no longer a candidate for this profile. July 1751 report that Robert Glasgow was ordered for execution. The Ordinary's Account confirms he was hanged at Tyburn on Monday 29 July 1751. He has no WikiTree profile; the new profile is flagged on group 971486582.
+- [The Public Advertiser, 1758-02-18, p.1](https://www.newspapers.com/image/34419759/): no longer a candidate for this profile. 1758 shipping line 'William, Glasgow, from London, at New-York'. William is the vessel and Glasgow the master's surname; the master's forename is unknown, so he cannot be identified.

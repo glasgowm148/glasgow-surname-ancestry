@@ -13,3 +13,8 @@ James Glasgow, probationer, is reported ordained minister of the Castle in an Ed
 ## Next questions
 
 Inspect the original royal commission, Edinburgh presbytery ordination minutes and the 1722 letter; compare family and institutional identifiers before attaching a profile.
+
+<!-- newspaper-identity-review-2026-10-06 -->
+## Identity assessment — Edinburgh Castle notices, 6 October 2026
+
+The 1737–1738 Edinburgh Castle notices are now identified with [Glasgow-1140](https://www.wikitree.com/wiki/Glasgow-1140) (James, son of Rev. John Glasgow of Kilbirnie and Margaret Scott) from the Fasti entries for Edinburgh Castle and Kilbirnie. This profile is not that man; the 5 October candidate listing is withdrawn.

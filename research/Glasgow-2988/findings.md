@@ -107,3 +107,8 @@ James Glasgow, Esq., Edinburgh, appears in the Mid-Lothian game-duty list of cer
 ## Next questions
 
 Compare original local tax, land, probate and institutional records, preserving the list’s stated role; check plausible catalogue profiles before an identity or relationship change.
+
+<!-- newspaper-identity-review-2026-10-06 -->
+## Identity assessment — newspaper candidates withdrawn, 6 October 2026
+
+- [The Public Advertiser, 1777-05-14, p.2](https://www.newspapers.com/image/34421452/): no longer a candidate for this profile. 1777 prize list naming James Glascow as master of the Greenwich Packet (owner James Young), Philadelphia to Winyaw, South Carolina. He was a Philadelphia-trade master in wartime. Two dozen namesakes exist, none with any maritime or Philadelphia record, so he cannot be identified.

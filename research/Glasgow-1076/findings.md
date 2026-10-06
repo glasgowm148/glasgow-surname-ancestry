@@ -97,3 +97,21 @@ Inspect original commission and medical-service records, Loudoun subscription mi
 Glasgow-1076 is a probable candidate for the exact Montgreenan designation, consistent with a prior independently reviewed 1802 record. The 1785 surgeon and 1793 Loudoun doctor are compatible earlier contexts; their identity with him is inferred, not explicitly linked. No family relationship is proved.
 
 Robert Glasgow, Esq. of Montgreenan, is named in a lodged claim for enrolment on Ayr’s roll of freeholders. Two original issues name the Montgreenan claimant before the forthcoming Michaelmas head-court; claim acceptance is not proved. Source-specific datelines are retained in the issue cards (earlier 6 August notice read as 3 August; 8 August notice dated 2 August). Glasgow-1076 is a probable candidate for the exact Montgreenan designation, consistent with a prior independently reviewed 1802 record. The 1785 surgeon and 1793 Loudoun doctor are compatible earlier contexts; their identity with him is inferred, not explicitly linked. No family relationship is proved. [The Edinburgh Advertiser, 1799-08-06, p.2](https://www.newspapers.com/image/601821728/), [The Caledonian Mercury, 1799-08-08, p.1](https://www.newspapers.com/image/395726257/)
+
+<!-- newspaper-identity-review-2026-10-06 -->
+## Current conclusion — newspaper identity review, 6 October 2026
+
+Three further notices concern Robert Glasgow of Montgreenan. A 1785 Times notice appointing Robert Glasgow, formerly hospital mate in the West Indies, surgeon to the forces on St Vincent is probably him (probable, not strong): the St Andrews biographical register (from Johnston's Roll) gives Robert Glasgow M.D. 6 Dec 1779, hospital mate in the West Indies and staff surgeon St Vincent 1785, and Paterson's Ayrshire history says Robert of Montgreenan "gained a fortune in St Vincent's" and died at Mountgreenan House on 19 April 1827. A 1808 Ayr county meeting report names "Mr. Glasgow of Montgreenan" (strong). The 1835 appeal Allan v. Glasgow's Trustees concerns his 1818 entail; it identifies Anne, "Mrs Robertson Glasgow" ([Glasgow-2874](https://www.wikitree.com/wiki/Glasgow-2874)), as his natural daughter and heir and was brought by his heirs-at-law, the Allan and Smith sons of his sisters.
+
+## Source findings
+
+### Newspapers and supporting records — 6 October 2026
+
+- [The Times, 1785-12-12, p.2](https://www.newspapers.com/image/32859455/): Robert Glasgow, formerly hospital mate in the West Indies, appointed surgeon to the forces at St Vincent.
+- [The Morning Chronicle, 1808-01-25, p.2](https://www.newspapers.com/image/392082759/): Robert Morris of Craig acting "as authorised by Mr. Glasgow of Montgreenan" at the Ayr county meeting, 13 Jan 1808.
+- [The Morning Post, 1835-08-26, p.4](https://www.newspapers.com/image/396909317/); [The Morning Chronicle, 1835-09-03, p.4](https://www.newspapers.com/image/392120204/): the 1835 House of Lords appeal over his trust and entail.
+- [University of St Andrews Biographical Register, Robert Glasgow](https://arts.st-andrews.ac.uk/biographical-register/data/documents/1382128308); [Paterson, History of the County of Ayr, vol. 2](https://archive.org/details/historyofcountyo02pateuoft); [UCL Legacies of British Slavery, Dr Robert Glasgow](https://www.ucl.ac.uk/lbs/person/view/2146643739).
+
+## Identity assessment — 1785 surgeon, 6 October 2026
+
+Probable: the medical career, St Vincent appointment and the later St Vincent fortune agree, but no record yet states in one place that the staff surgeon and the laird of Montgreenan are the same man.

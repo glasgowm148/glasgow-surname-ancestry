@@ -57,3 +57,9 @@ Profile prose and trees remain leads; inspect the cited record before treating a
 
 - [https://www.virtualtreasury.ie/item/NAI-IHP-1-665](https://www.virtualtreasury.ie/item/NAI-IHP-1-665)
 - [https://www.virtualtreasury.ie/item/RCBL-MS-23](https://www.virtualtreasury.ie/item/RCBL-MS-23)
+
+<!-- newspaper-identity-review-2026-10-06 -->
+## Identity assessment — newspaper candidates withdrawn, 6 October 2026
+
+- [Derby Mercury, 1779 (exact publication date unresolved), p.2](https://www.newspapers.com/image/394231375/): no longer a candidate for this profile. 1779 Derby Mercury report that John Glascow, a chairman (sedan-chair carrier), gave evidence after the Martha Ray shooting in Covent Garden. He is a London working man with no WikiTree profile.
+- [The Times, 1799-05-02, p.3](https://www.newspapers.com/image/32820363/): no longer a candidate for this profile. 1799 Bow Street report: John Glasco, Esq., claiming to be an officer on the Staff, was committed for wounding patrolman John Smith after the play at Covent Garden. He cannot be identified; no WikiTree candidate has any London or army-staff record.

@@ -21712,6 +21712,145 @@
         "research/Glasgow-1779/findings.md",
         "research/McClure-6341/findings.md"
       ]
+    },
+    {
+      "id": "james-glasgow-edinburgh-castle-minister-1737",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "confirmed",
+      "finding": "James Glasgow, commissioned chaplain of Edinburgh Castle in 1737 and ordained its minister on 14 February 1738 (Daily Gazetteer reports), is James, son of Rev. John Glasgow of Kilbirnie and Margaret Scott. The Fasti names him M.A. Glasgow 1718, gives his death on 9 February 1746 aged about 48, and the Kilbirnie Fasti entry lists \"James, min. of Edinburgh Castle\" among the children of that second marriage.",
+      "qualification": "",
+      "sources": [
+        {
+          "title": "The Daily Gazetteer, 1737-11-03, p. 1",
+          "url": "https://www.newspapers.com/image/1142270617/"
+        },
+        {
+          "title": "The Daily Gazetteer, 1738-02-23, p. 1",
+          "url": "https://www.newspapers.com/image/1142271259/"
+        },
+        {
+          "title": "Fasti Ecclesiae Scoticanae, new ed., vol. 1 (1915), Edinburgh Castle",
+          "url": "https://archive.org/details/fastiecclesiaesc01scot"
+        },
+        {
+          "title": "Fasti Ecclesiae Scoticanae, new ed., vol. 3 (1920), Kilbirnie",
+          "url": "https://archive.org/details/fastiecclesiaesc03scot"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-1140",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-1140.html",
+          "role": "Minister of Edinburgh Castle"
+        },
+        {
+          "id": "Glasgow-1073",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-1073.html",
+          "role": "Father"
+        },
+        {
+          "id": "Scott-40313",
+          "name": "Margaret Scott",
+          "url": "/people/scott-40313.html",
+          "role": "Mother"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-1142270617",
+      "provenance": [
+        "research/Glasgow-1140/findings.md",
+        "tmp/newspaper-research/out/england-verified-input.json"
+      ]
+    },
+    {
+      "id": "montgreenan-entail-appeal-1835",
+      "found_on": "2026-10-06",
+      "kind": "relationship",
+      "status": "confirmed",
+      "finding": "The 1835 House of Lords appeal Allan v. Glasgow's Trustees, reported in the Morning Post and Morning Chronicle, concerns the 1818 entail of Robert Glasgow of Montgreenan and calls \"Mrs Robertson Glasgow\" his natural daughter and first heir. His 1802 deed, quoted in the 1846 House of Lords report, names \"Miss Anne Glasgow, my reputed natural daughter by Mrs. Anne Swan\". The appellants were his heirs-at-law, the Allan and Smith sons of his sisters.",
+      "qualification": "",
+      "sources": [
+        {
+          "title": "The Morning Post, 1835-08-26, p. 4",
+          "url": "https://www.newspapers.com/image/396909317/"
+        },
+        {
+          "title": "The Morning Chronicle, 1835-09-03, p. 4",
+          "url": "https://www.newspapers.com/image/392120204/"
+        },
+        {
+          "title": "David Allan and John Smith v. Anne Robertson Glasgow (HL 1846), transcription",
+          "url": "https://lawcarenigeria.com/david-allan-and-john-smith-v-anne-robertson-glasgow/"
+        },
+        {
+          "title": "UCL Legacies of British Slavery, claim 466",
+          "url": "https://www.ucl.ac.uk/lbs/claim/view/26620"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-1076",
+          "name": "Robert Glasgow of Montgreenan",
+          "url": "/people/glasgow-1076.html",
+          "role": "Father"
+        },
+        {
+          "id": "Glasgow-2874",
+          "name": "Anne (Glasgow) Robertson Glasgow",
+          "url": "/people/glasgow-2874.html",
+          "role": "Natural daughter and heir"
+        },
+        {
+          "id": "Allan-8034",
+          "name": "Hugh Allan",
+          "url": "https://www.wikitree.com/wiki/Allan-8034",
+          "role": "Probable appellant, nephew and heir-at-law"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-396909317",
+      "provenance": [
+        "research/Glasgow-2874/findings.md"
+      ]
+    },
+    {
+      "id": "london-old-bailey-glasgow-namesakes-1751-1799",
+      "found_on": "2026-10-06",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "The London court and police reports are about London men, not the earlier proposed Scottish or American namesakes: Robert Glasgow, hanged at Tyburn on 29 July 1751, was a butcher aged 28 born at Chipping Ongar, Essex (Ordinary's Account); Samuel Glascow, convicted of horse-stealing in 1761, was a Holborn/High Wycombe tradesman; William Glascoe (transported 1760) was a London warehouse labourer. The earlier strong association of Samuel with Glasgow-3175 is withdrawn.",
+      "qualification": "No compatible WikiTree profiles exist for these men; new-profile drafts are still to be written. The 1746 Jacobite officer Nicholas Glascoe (Dillon's and Ogilvy's regiments, acquitted November 1746) likewise has no profile.",
+      "sources": [
+        {
+          "title": "Old Bailey Proceedings Online",
+          "url": "https://www.oldbaileyonline.org/"
+        },
+        {
+          "title": "The Gloucester Journal, 1751-07-16, p. 2",
+          "url": "https://www.newspapers.com/image/971486582/"
+        },
+        {
+          "title": "The Derby Mercury, 1761-05-08, p. 2",
+          "url": "https://www.newspapers.com/image/394296692/"
+        },
+        {
+          "title": "Public Ledger or Daily Register of Commerce and Intelligence, 1760-04-18, p. 2",
+          "url": "https://www.newspapers.com/image/35690357/"
+        }
+      ],
+      "people": [
+        {
+          "id": "Glasgow-3175",
+          "name": "Samuel Glasgow",
+          "url": "/people/glasgow-3175.html",
+          "role": "Earlier candidate, now withdrawn"
+        }
+      ],
+      "detail_url": "/sources/newspapers/#newspaper-971486582",
+      "provenance": [
+        "tmp/newspaper-research/out/england-verified-input.json"
+      ]
     }
   ]
 }

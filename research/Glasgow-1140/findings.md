@@ -29,3 +29,25 @@ James Glasgow, probationer, is reported ordained minister of the Castle in an Ed
 ## Next questions
 
 Inspect the original royal commission, Edinburgh presbytery ordination minutes and the 1722 letter; compare family and institutional identifiers before attaching a profile.
+
+<!-- newspaper-identity-review-2026-10-06 -->
+## Current conclusion — newspaper identity review, 6 October 2026
+
+James Glasgow, minister of Edinburgh Castle, is this profile. The 1737 newspaper report of a royal commission making James Glasgow chaplain to the Edinburgh Castle garrison, and the 1738 report that James Glasgow, probationer, was ordained minister of the Castle, describe the man whom the Fasti records as JAMES GLASGOW, M.A. (Glasgow, 10 March 1718), commissioned by George II on 7 July 1737, ordained 14 February 1738, died 9 February 1746 aged about 48. The Fasti entry for his father's parish of Kilbirnie names him: John Glasgow, minister of Kilbirnie, married (2) Margaret Scott "and had issue — James, min. of Edinburgh Castle". That agrees with the Kilbirnie baptism of James, 17 March 1700, son of John Glasgow and Margaret Scot, which is this profile's recorded birth, and with the 1722 letter from his half-brother Robert of Paddockholm to "his brother James Glasgow, student of divinity at Glasgow". The 5 October assessment that left the Castle notices unidentified is superseded.
+
+## Source findings
+
+### Edinburgh Castle ministry — 6 October 2026
+
+- [The Daily Gazetteer, 1737-11-03, p.1](https://www.newspapers.com/image/1142270617/): royal commission as chaplain to the Edinburgh Castle garrison read in presbytery (Edinburgh, 21 Oct 1737 dateline).
+- [The Daily Gazetteer, 1738-02-23, p.1](https://www.newspapers.com/image/1142271259/): ordained minister of the Castle "last Tuesday" (14 Feb 1738), exactly the Fasti ordination date.
+- [Fasti Ecclesiae Scoticanae, new ed., vol. 1 (1915), Edinburgh Castle](https://archive.org/details/fastiecclesiaesc01scot): M.A. Glasgow 10 March 1718; commissioned 7 July 1737; ordained 14 Feb 1738; died 9 Feb 1746 aged about 48 (citing Munimenta Univ. Glasg. iii and the Edinburgh burial register).
+- [Fasti Ecclesiae Scoticanae, new ed., vol. 3 (1920), Kilbirnie](https://archive.org/details/fastiecclesiaesc03scot): under John Glasgow, minister of Kilbirnie: by Margaret Scott, issue "James, min. of Edinburgh Castle; Margaret; William; Samuel; Janet …; Elizabeth; Jean".
+
+## Relationship assessment — parents, 6 October 2026
+
+Father [Glasgow-1073](https://www.wikitree.com/wiki/Glasgow-1073) (Rev. John Glasgow of Kilbirnie) and mother [Scott-40313](https://www.wikitree.com/wiki/Scott-40313) (Margaret Scott) are attached on WikiTree as uncertain. The Fasti statement naming James of Edinburgh Castle as their son, combined with the matching Kilbirnie baptism, supports marking both links confident. The half-brother relationship to [Glasgow-1075](https://www.wikitree.com/wiki/Glasgow-1075) (Robert of Paddockholm, by the first wife Jean Cunningham) is already represented through the shared father.
+
+## Recommended profile amendment — 6 October 2026
+
+Add the Castle ministry (M.A. 1718, commission 7 July 1737, ordination 14 Feb 1738) and death on 9 February 1746 (aged about 48) with the Fasti and newspaper citations; set father and mother confident. Prepare the full replacement biography before saving; nothing has been changed on WikiTree yet.

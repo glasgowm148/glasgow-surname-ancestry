@@ -23,3 +23,20 @@ The [Aberdeen Journal, 19 December 1827, p.4](https://www.newspapers.com/image/3
 ## Unresolved questions
 
 The original maternal, marriage and trust evidence remains to be compared. No live family attachment or confidence status was changed.
+
+<!-- newspaper-identity-review-2026-10-06 -->
+## Current conclusion — newspaper identity review, 6 October 2026
+
+"Mrs Robertson Glasgow", named in the 1835 reports of the House of Lords appeal Hugh Allan v. the trustees of the late Robert Glasgow, is this Anne Glasgow, wife of [Robertson-30564](https://www.wikitree.com/wiki/Robertson-30564). The report calls her Robert Glasgow's natural daughter and first heir under his 1818 entail; Robert's 1802 trust deed, quoted in the 1846 House of Lords report, names "Miss Anne Glasgow, my reputed natural daughter by Mrs. Anne Swan". The father, [Glasgow-1076](https://www.wikitree.com/wiki/Glasgow-1076) (Robert Glasgow of Montgreenan), is attached on WikiTree as uncertain; these records support marking that link confident. Her mother Anne Swan has no WikiTree profile.
+
+## Source findings
+
+### Montgreenan entail litigation — 6 October 2026
+
+- [The Morning Post, 1835-08-26, p.4](https://www.newspapers.com/image/396909317/) and [The Morning Chronicle, 1835-09-03, p.4](https://www.newspapers.com/image/392120204/): Allan v. Glasgow's Trustees; the judgment against the appellant reversed on 1 September 1835.
+- [David Allan and John Smith v. Anne Robertson Glasgow (House of Lords, 1846), transcription](https://lawcarenigeria.com/david-allan-and-john-smith-v-anne-robertson-glasgow/): quotes the 1802 deed naming Anne as natural daughter by Mrs Anne Swan.
+- [UCL Legacies of British Slavery, claim 466 (St Vincent)](https://www.ucl.ac.uk/lbs/claim/view/26620) and [person 27300](https://www.ucl.ac.uk/lbs/person/view/27300): Robert Glasgow (late Robertson) and Anne his wife; marriage 2 Aug 1804.
+
+## Recommended profile amendment — 6 October 2026
+
+Set father [Glasgow-1076](https://www.wikitree.com/wiki/Glasgow-1076) confident and add the natural-daughter, entail and mother-name evidence (mother as a research note until a profile exists). Not yet changed on WikiTree.

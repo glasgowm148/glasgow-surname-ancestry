@@ -177,3 +177,8 @@ Inspect vessel William registers and London/New-York clearances for master’s f
 The newspaper explicitly names William Glasgow as master. Glasgow as the vessel’s home port supplies no personal birthplace or family identity.
 
 William Glasgow is named as master of the Lady Forbes in the Sutton shipping casualty report. The paper reports the crew saved. A Scottish vessel designation does not establish the master’s residence or origin. [The Public Register, or, Freeman's Journal, 1768-01-23, p.2](https://www.newspapers.com/image/1050136699/), [The Caledonian Mercury, 1768-02-06, p.2](https://www.newspapers.com/image/395700744/)
+
+<!-- newspaper-identity-review-2026-10-06 -->
+## Identity assessment — newspaper candidates withdrawn, 6 October 2026
+
+- [The Public Advertiser, 1758-02-18, p.1](https://www.newspapers.com/image/34419759/): no longer a candidate for this profile. 1758 shipping line 'William, Glasgow, from London, at New-York'. William is the vessel and Glasgow the master's surname; the master's forename is unknown, so he cannot be identified.

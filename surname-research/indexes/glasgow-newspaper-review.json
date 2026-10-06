@@ -1,5 +1,5 @@
 {
-  "reviewed_at": "2026-10-05",
+  "reviewed_at": "2026-10-06",
   "title": "Glasgow surname and research-study newspaper records",
   "scope": "Irish pre-1800 priority search completed for the documented accessible result sets: broad surname queries, catalogue-led quoted names and abbreviations, and bounded spelling checks. Supplemental worldwide quoted-name and Glascow audits are recorded. Every confirmed pre-1800 page has an inline clipping. The 1800–1850 Irish extension remains in progress.",
   "conclusion": "Original-verified Glasgow/Glasco/Glascow surname passages are retained with source links, approved excerpts and role-specific profile assessments. Identical readings share a card while every issue remains available. Documentary family statements are distinguished from uncertain existing-profile identities. The recorded pre-1800 priority queries are closed; later coverage is still being completed.",
@@ -771,19 +771,34 @@
       ],
       "status": "confirmed surname",
       "reading": "County of Ayr, Ayr, 13 January 1808: Robert Morris of Craig, for himself, and as authorised by Mr. Glasgow of Montgreenan.",
-      "assessment": "The county meeting debated trial by jury in civil cases. Montgreenan’s Glasgow was represented by an authorised attendee; this does not place him physically at the meeting. Name, estate and chronology fit Robert-1076.",
+      "assessment": "The county meeting debated trial by jury in civil cases. Montgreenan’s Glasgow was represented by an authorised attendee; this does not place him physically at the meeting. Name, estate and chronology fit Robert-1076. Identity review (6 October 2026): 1808 Ayr county meeting: Robert Morris of Craig acted 'as authorised by Mr. Glasgow of Montgreenan'. This is Robert Glasgow of Montgreenan (Glasgow-1076), strong.",
       "profile_ids": [
         "Glasgow-1076"
       ],
-      "reviewed_on": "2026-10-03",
+      "reviewed_on": "2026-10-06",
       "profile_matches": [
         {
           "profile_id": "Glasgow-1076",
           "confidence": "strong",
-          "role": "Montgreenan estate holder",
-          "basis": "Name, distinctive estate designation and chronology agree with the checked Montgreenan account."
+          "role": "Ayrshire heritor represented by proxy at county meeting",
+          "basis": "The unique territorial designation fits only one man. Robert Glasgow bought Montgreenan c.1800-02 and held it until his death on 19 April 1827 (Paterson; Wikipedia 'Montgreenan'; LBS). His successor Robert Robertson took the name Glasgow only after 1827. In Jan 1808 'Mr. Glasgow of Montgreenan' can only be Robert-1076."
         }
-      ]
+      ],
+      "prior_assessment": {
+        "assessment": "The county meeting debated trial by jury in civil cases. Montgreenan’s Glasgow was represented by an authorised attendee; this does not place him physically at the meeting. Name, estate and chronology fit Robert-1076.",
+        "profile_ids": [
+          "Glasgow-1076"
+        ],
+        "profile_matches": [
+          {
+            "profile_id": "Glasgow-1076",
+            "confidence": "strong",
+            "role": "Montgreenan estate holder",
+            "basis": "Name, distinctive estate designation and chronology agree with the checked Montgreenan account."
+          }
+        ],
+        "reviewed_on": "2026-10-03"
+      }
     },
     {
       "image_id": "393027340",
@@ -846,14 +861,44 @@
       ],
       "status": "confirmed surname",
       "reading": "Hugh Allan v. Trustees of Robert Glasgow: the report calls Mrs Robertson Glasgow the late Robert’s natural daughter and first heir under his 1818 entail. It reports his death in 1827 and a supplementary entail and trust dated 23 June 1821, involving Seafield near Ayr.",
-      "assessment": "Contemporary account of the 25 August hearing, independently supporting Anne’s daughter/heir description and the 1827 death year. It does not verify 19 April. Hugh Allan-8034, the profile-defined nephew, is a compatible appellant candidate; older Allan-8028 has no death recorded but would be 109. Neither identity is proved. These later deeds are distinct from the uninspected 1803 trust.",
+      "assessment": "Contemporary account of the 25 August hearing, independently supporting Anne’s daughter/heir description and the 1827 death year. It does not verify 19 April. Hugh Allan-8034, the profile-defined nephew, is a compatible appellant candidate; older Allan-8028 has no death recorded but would be 109. Neither identity is proved. These later deeds are distinct from the uninspected 1803 trust. Identity review (6 October 2026): Aug 1835 report of the Lords appeal Hugh Allan v. Trustees of Robert Glasgow. The late Robert is Glasgow of Montgreenan (1076, strong) and 'Mrs Robertson Glasgow', his natural daughter and heir, is Anne (2874, strong), so Anne's father link can be made confident. Hugh Allan is probably the nephew Allan-8034 (heir-at-law).",
       "profile_ids": [
-        "Glasgow-1076",
-        "Glasgow-2874",
         "Allan-8034",
-        "Allan-8028"
+        "Glasgow-1076",
+        "Glasgow-2874"
       ],
-      "reviewed_on": "2026-10-03"
+      "reviewed_on": "2026-10-06",
+      "prior_assessment": {
+        "assessment": "Contemporary account of the 25 August hearing, independently supporting Anne’s daughter/heir description and the 1827 death year. It does not verify 19 April. Hugh Allan-8034, the profile-defined nephew, is a compatible appellant candidate; older Allan-8028 has no death recorded but would be 109. Neither identity is proved. These later deeds are distinct from the uninspected 1803 trust.",
+        "profile_ids": [
+          "Glasgow-1076",
+          "Glasgow-2874",
+          "Allan-8034",
+          "Allan-8028"
+        ],
+        "profile_matches": [],
+        "reviewed_on": "2026-10-03"
+      },
+      "profile_matches": [
+        {
+          "profile_id": "Allan-8034",
+          "confidence": "probable",
+          "role": "appellant, heir-at-law of Robert Glasgow of Montgreenan",
+          "basis": "The Shaw & Maclean digest shows Allan v. Glasgow's Trustees (1 Sept 1835) was brought by 'the heir at law' against the trustees. The 1846 report names 'Hugh Allan and John Smith' as claimant heirs-at-law of Robert Glasgow of Mountgreenan. Paterson, Ayr II, lists Robert's sisters 'Ann, married to Hugh Allan, in Kilwinning, 23d December 1757' and 'Margaret ... married to Andrew Smith of Todholes ... 1764', which explains why the heirs-at-law are an Allan and a Smith (sons of sisters, as heirs-portioners). Allan-8034, Hugh b. 15 Jan 1768 Kilwinning, is on WikiTree as a son of Hugh Allan (Allan-80"
+        },
+        {
+          "profile_id": "Glasgow-1076",
+          "confidence": "strong",
+          "role": "the late entailer/truster whose settlement was litigated",
+          "basis": "Record-level bridge. The report's late Robert Glasgow died in 1827, made an 1818 entail and supplementary deeds dated 23 June 1821, and held Seafield near Ayr. The 1846 House of Lords report (David Allan and John Smith v. Anne Robertson Glasgow) concerns 'Robert Glasgow, of Mountgreenan, deceased', with the same 1818 entail, the 23 June 1821 deeds, a death in 1827 and 'a villa and lands adjoining, called Seafield', and recites the 1 Sept 1835 reversal. LBS claim 466 names trustees 'under deeds of release dated 22 and 23 June 1821' acting with Robert Glasgow (late Robertson) and Anne his wife. "
+        },
+        {
+          "profile_id": "Glasgow-2874",
+          "confidence": "strong",
+          "role": "natural daughter and first heir of entail of Robert Glasgow",
+          "basis": "The report calls Mrs Robertson Glasgow the late Robert's natural daughter and first heir under the 1818 entail. The 1846 report quotes Robert's 1802 deed: 'Miss Anne Glasgow, my reputed natural daughter by Mrs. Anne Swan', later the wife of Mr Robertson Glasgow, with the estate settled on her and her issue. LBS (claim 466 and person 27300) has Robert Robertson, later Glasgow, marrying Anne Glasgow on 2 Aug 1804, both claiming Mt Greenan. Paterson says the estate was left to a daughter 'married to Mr Robertson of Prenderguest' and that 'Mrs Robertson Glasgow, now proprietor ... resides at Pau'."
+        }
+      ]
     },
     {
       "image_id": "392120204",
@@ -866,14 +911,37 @@
       ],
       "status": "confirmed surname",
       "reading": "House of Lords appeals: the report reproduces clauses of Glasgow’s settlement and says Lord Brougham recommended reversing the judgment below; judgment reversed accordingly. The heading appears to read Henry Allen v. Trustees of R. Glasgow.",
-      "assessment": "Reports the Wednesday judgment, 2 September 1835. The estate, Seafield dispute and counsel identify the same litigation as the 26 August report, whose appellant is Hugh Allan. Preserve the discrepant heading; compare the original court papers before resolving the name. Reported deed extracts are not an inspection of the original deed.",
+      "assessment": "Reports the Wednesday judgment, 2 September 1835. The estate, Seafield dispute and counsel identify the same litigation as the 26 August report, whose appellant is Hugh Allan. Preserve the discrepant heading; compare the original court papers before resolving the name. Reported deed extracts are not an inspection of the original deed. Identity review (6 October 2026): Sept 1835 Morning Chronicle report of the House of Lords reversing the judgment in favour of the appellant against 'R. Glasgow's' trustees. R. Glasgow is Robert of Montgreenan (1076, strong). The heading's 'Henry Allen' is the same appellant as Hugh Allan.",
       "profile_ids": [
         "Glasgow-1076",
-        "Glasgow-2874",
-        "Allan-8034",
-        "Allan-8028"
+        "Allan-8034"
       ],
-      "reviewed_on": "2026-10-03"
+      "reviewed_on": "2026-10-06",
+      "prior_assessment": {
+        "assessment": "Reports the Wednesday judgment, 2 September 1835. The estate, Seafield dispute and counsel identify the same litigation as the 26 August report, whose appellant is Hugh Allan. Preserve the discrepant heading; compare the original court papers before resolving the name. Reported deed extracts are not an inspection of the original deed.",
+        "profile_ids": [
+          "Glasgow-1076",
+          "Glasgow-2874",
+          "Allan-8034",
+          "Allan-8028"
+        ],
+        "profile_matches": [],
+        "reviewed_on": "2026-10-03"
+      },
+      "profile_matches": [
+        {
+          "profile_id": "Glasgow-1076",
+          "confidence": "strong",
+          "role": "the late entailer/truster whose settlement was litigated",
+          "basis": "Same as group 396909317. The settlement of Robert Glasgow of Montgreenan (d.1827), with its 1818 entail, 23 June 1821 deeds and Seafield, is identified by the 1846 House of Lords report, the Shaw & Maclean digest and LBS claim 466."
+        },
+        {
+          "profile_id": "Allan-8034",
+          "confidence": "probable",
+          "role": "appellant, heir-at-law of Robert Glasgow of Montgreenan",
+          "basis": "Same appellant as group 396909317 (Hugh Allan, heir-at-law). 'Henry Allen' is a heading misprint: the estate, the Seafield dispute, the counsel and the 1 Sept 1835 reversal are identical. Grading and reasoning are as in that group."
+        }
+      ]
     },
     {
       "image_id": "387764534",
@@ -4689,15 +4757,22 @@
       ],
       "status": "confirmed surname",
       "reading": "John Glascow, described as a chairman, supported evidence after the Martha Ray shooting in Covent Garden and said he saw a man in black running with pistols.",
-      "assessment": "The original Derby Mercury passage names John Glascow, described as a chairman, giving evidence after the Martha Ray shooting in Covent Garden. The provider label of 19 March 1779 is incompatible with the shooting on 7 April 1779, independently dated in the Old Bailey original. Exact publication date and personal identity remain unresolved; no Irish origin is stated. Listed profiles are compatible or conditional name/chronology leads, not proved assignments.",
-      "profile_ids": [
-        "Glasgow-549",
-        "Glasgow-4179",
-        "Glasgow-2990",
-        "Glasgow-1146"
-      ],
-      "reviewed_on": "2026-10-04",
-      "draft_url": "/research/subjects/newspapers-early-glasgow/#john-glascow-london-witness-1779"
+      "assessment": "The original Derby Mercury passage names John Glascow, described as a chairman, giving evidence after the Martha Ray shooting in Covent Garden. The provider label of 19 March 1779 is incompatible with the shooting on 7 April 1779, independently dated in the Old Bailey original. Exact publication date and personal identity remain unresolved; no Irish origin is stated. Listed profiles are compatible or conditional name/chronology leads, not proved assignments. Identity review (6 October 2026): 1779 Derby Mercury report that John Glascow, a chairman (sedan-chair carrier), gave evidence after the Martha Ray shooting in Covent Garden. He is a London working man with no WikiTree profile. No compatible WikiTree profile after a duplicate search for: John Glascow (new-profile draft pending).",
+      "profile_ids": [],
+      "reviewed_on": "2026-10-06",
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#john-glascow-london-witness-1779",
+      "prior_assessment": {
+        "assessment": "The original Derby Mercury passage names John Glascow, described as a chairman, giving evidence after the Martha Ray shooting in Covent Garden. The provider label of 19 March 1779 is incompatible with the shooting on 7 April 1779, independently dated in the Old Bailey original. Exact publication date and personal identity remain unresolved; no Irish origin is stated. Listed profiles are compatible or conditional name/chronology leads, not proved assignments.",
+        "profile_ids": [
+          "Glasgow-549",
+          "Glasgow-4179",
+          "Glasgow-2990",
+          "Glasgow-1146"
+        ],
+        "profile_matches": [],
+        "reviewed_on": "2026-10-04"
+      },
+      "profile_matches": []
     },
     {
       "image_id": "32820363",
@@ -4710,16 +4785,23 @@
       ],
       "status": "confirmed surname",
       "reading": "John Glasco, Esq., said he was an officer on the Staff and was brought before the Bow Street magistrate charged with wounding patrolman John Smith. The reported incident occurred on Tuesday night after the play in Covent Garden; Glasco was committed.",
-      "assessment": "Allegation and committal are not conviction. Military status is self-reported and unconfirmed; no Irish origin or kin is stated. No unique profile match; no identity bridge to the 1779 chairman. Listed profiles are compatible or conditional name/chronology leads, not proved assignments.",
-      "profile_ids": [
-        "Glasgow-549",
-        "Glasgow-4179",
-        "Glasgow-2990",
-        "Glasgow-1146",
-        "Glasgow-1657"
-      ],
-      "reviewed_on": "2026-10-04",
-      "draft_url": "/research/subjects/newspapers-early-glasgow/#john-glasco-london-1799"
+      "assessment": "Allegation and committal are not conviction. Military status is self-reported and unconfirmed; no Irish origin or kin is stated. No unique profile match; no identity bridge to the 1779 chairman. Listed profiles are compatible or conditional name/chronology leads, not proved assignments. Identity review (6 October 2026): 1799 Bow Street report: John Glasco, Esq., claiming to be an officer on the Staff, was committed for wounding patrolman John Smith after the play at Covent Garden. He cannot be identified; no WikiTree candidate has any London or army-staff record.",
+      "profile_ids": [],
+      "reviewed_on": "2026-10-06",
+      "draft_url": "/research/subjects/newspapers-early-glasgow/#john-glasco-london-1799",
+      "prior_assessment": {
+        "assessment": "Allegation and committal are not conviction. Military status is self-reported and unconfirmed; no Irish origin or kin is stated. No unique profile match; no identity bridge to the 1779 chairman. Listed profiles are compatible or conditional name/chronology leads, not proved assignments.",
+        "profile_ids": [
+          "Glasgow-549",
+          "Glasgow-4179",
+          "Glasgow-2990",
+          "Glasgow-1146",
+          "Glasgow-1657"
+        ],
+        "profile_matches": [],
+        "reviewed_on": "2026-10-04"
+      },
+      "profile_matches": []
     },
     {
       "image_id": "1050085826",
@@ -5830,10 +5912,17 @@
       ],
       "status": "confirmed surname",
       "reading": "Nicholas Glasco appears in the list of officers in the rebel army reported committed to New Gaol, Southwark.",
-      "assessment": "Original roster inspected. Printed Glasco is retained as a surname variant; no Glasgow-family or Irish identity is established. This reports committal, not conviction or an individual rank. No compatible historical profile found in the bounded local lookup; a complete documentary draft is linked. Issue date follows provider metadata; masthead date has not been separately checked.",
+      "assessment": "Original roster inspected. Printed Glasco is retained as a surname variant; no Glasgow-family or Irish identity is established. This reports committal, not conviction or an individual rank. No compatible historical profile found in the bounded local lookup; a complete documentary draft is linked. Issue date follows provider metadata; masthead date has not been separately checked. Identity review (6 October 2026): 1746 Worcester roster of Jacobite officers committed to New Gaol, Southwark, naming Nicholas Glasco. He is Nicholas Glascoe/Glasgow, a French-born officer of Dillon's regiment and major in Ogilvy's; there is no WikiTree profile, so a new profile is needed. No compatible WikiTree profile after a duplicate search for: Nicholas Glasco (new-profile draft pending).",
       "profile_ids": [],
       "draft_url": "/research/subjects/newspapers-early-glasgow/#nicholas-glasco-southwark",
-      "reviewed_on": "2026-10-04"
+      "reviewed_on": "2026-10-06",
+      "prior_assessment": {
+        "assessment": "Original roster inspected. Printed Glasco is retained as a surname variant; no Glasgow-family or Irish identity is established. This reports committal, not conviction or an individual rank. No compatible historical profile found in the bounded local lookup; a complete documentary draft is linked. Issue date follows provider metadata; masthead date has not been separately checked.",
+        "profile_ids": [],
+        "profile_matches": [],
+        "reviewed_on": "2026-10-04"
+      },
+      "profile_matches": []
     },
     {
       "image_id": "1050029120",
@@ -6248,11 +6337,17 @@
       ],
       "status": "confirmed surname",
       "reading": "Nicholas Glascoe, who styles himself Major Glascoe, now a Prisoner in the New Goal, and one of the Rebels principal Engineers, was the Person who rais'd the Battery against the Hazard Sloop of War, and imprison'd the late Captain of that Sloop, and his Officers; for which he will be tried.",
-      "assessment": "Reported allegation and self-styled rank; no conviction is established. Probably the Nicholas Glasco in the 20 June Southwark committal report.",
+      "assessment": "Reported allegation and self-styled rank; no conviction is established. Probably the Nicholas Glasco in the 20 June Southwark committal report. Identity review (6 October 2026): June 1746 reprinted report that Nicholas Glascoe, self-styled Major and a principal rebel engineer, raised the battery against the Hazard sloop and would be tried. This is the same Nicholas as the TNA SP 36 records; no WikiTree profile. No compatible WikiTree profile after a duplicate search for: Nicholas Glascoe ('Major Glascoe') (new-profile draft pending).",
       "profile_ids": [],
       "profile_matches": [],
       "draft_url": "/research/subjects/newspapers-early-glasgow/#nicholas-glasco-southwark",
-      "reviewed_on": "2026-10-05"
+      "reviewed_on": "2026-10-06",
+      "prior_assessment": {
+        "assessment": "Reported allegation and self-styled rank; no conviction is established. Probably the Nicholas Glasco in the 20 June Southwark committal report.",
+        "profile_ids": [],
+        "profile_matches": [],
+        "reviewed_on": "2026-10-05"
+      }
     },
     {
       "image_id": "404059808",
@@ -6265,11 +6360,17 @@
       ],
       "status": "confirmed surname",
       "reading": "Nicholas Glascoe, who styles himself Major Glascoe, now a Prisoner in the New Goal, and one of the Rebels principal Engineers, was the Person who rais'd the Battery against the Hazard Sloop of War, and imprison'd the late Captain of that Sloop, and his Officers; for which he will be tried.",
-      "assessment": "Reprint of the June report, preserved as a second issue appearance of the same text.",
+      "assessment": "Reprint of the June report, preserved as a second issue appearance of the same text. Identity review (6 October 2026): June 1746 reprinted report that Nicholas Glascoe, self-styled Major and a principal rebel engineer, raised the battery against the Hazard sloop and would be tried. This is the same Nicholas as the TNA SP 36 records; no WikiTree profile. No compatible WikiTree profile after a duplicate search for: Nicholas Glascoe ('Major Glascoe') (new-profile draft pending).",
       "profile_ids": [],
       "profile_matches": [],
       "draft_url": "/research/subjects/newspapers-early-glasgow/#nicholas-glasco-southwark",
-      "reviewed_on": "2026-10-05"
+      "reviewed_on": "2026-10-06",
+      "prior_assessment": {
+        "assessment": "Reprint of the June report, preserved as a second issue appearance of the same text.",
+        "profile_ids": [],
+        "profile_matches": [],
+        "reviewed_on": "2026-10-05"
+      }
     },
     {
       "image_id": "404060798",
@@ -6282,11 +6383,17 @@
       ],
       "status": "confirmed surname",
       "reading": "An indictment list for High Treason at St Margaret’s Hill, Southwark, includes “5. Nicholas Glascoe, Maj. in ditto. He raised the Battery against the Hazard Sloop (which was commanded by Capt. Hill) and took her.”",
-      "assessment": "The preceding list identifies Ogilvy’s Regiment. An indictment is reported; it does not establish guilt. Same uncommon name and Hazard episode support the Nicholas case association.",
+      "assessment": "The preceding list identifies Ogilvy’s Regiment. An indictment is reported; it does not establish guilt. Same uncommon name and Hazard episode support the Nicholas case association. Identity review (6 October 2026): Reprinted Aug-Sep 1746 indictment list: '5. Nicholas Glascoe, Maj. in ditto' who took the Hazard sloop. Same man; no WikiTree profile. No compatible WikiTree profile after a duplicate search for: Nicholas Glascoe, Maj. (new-profile draft pending).",
       "profile_ids": [],
       "profile_matches": [],
       "draft_url": "/research/subjects/newspapers-early-glasgow/#nicholas-glasco-southwark",
-      "reviewed_on": "2026-10-05"
+      "reviewed_on": "2026-10-06",
+      "prior_assessment": {
+        "assessment": "The preceding list identifies Ogilvy’s Regiment. An indictment is reported; it does not establish guilt. Same uncommon name and Hazard episode support the Nicholas case association.",
+        "profile_ids": [],
+        "profile_matches": [],
+        "reviewed_on": "2026-10-05"
+      }
     },
     {
       "image_id": "394542827",
@@ -6299,11 +6406,17 @@
       ],
       "status": "confirmed surname",
       "reading": "The Court adjourned until nine o’clock, when the trial of Major Glascoe, who raised the battery against the Hazard Sloop and took her, and who calls himself a French Officer, was to come on first.",
-      "assessment": "Trial scheduling report; neither a verdict nor independent proof of French military service.",
+      "assessment": "Trial scheduling report; neither a verdict nor independent proof of French military service. Identity review (6 October 2026): Nov 1746 Derby Mercury: trial of Major Glascoe, who took the Hazard sloop and calls himself a French officer, to come on first. Probably Nicholas Glascoe from the unique Hazard detail; no WikiTree profile. No compatible WikiTree profile after a duplicate search for: Major Glascoe (forename not printed) (new-profile draft pending).",
       "profile_ids": [],
       "profile_matches": [],
       "draft_url": "/research/subjects/newspapers-early-glasgow/#nicholas-glasco-southwark",
-      "reviewed_on": "2026-10-05"
+      "reviewed_on": "2026-10-06",
+      "prior_assessment": {
+        "assessment": "Trial scheduling report; neither a verdict nor independent proof of French military service.",
+        "profile_ids": [],
+        "profile_matches": [],
+        "reviewed_on": "2026-10-05"
+      }
     },
     {
       "image_id": "404061824",
@@ -6316,11 +6429,17 @@
       ],
       "status": "confirmed surname",
       "reading": "Nicholas Glascoe, described as a Major in Lord Ogilvie’s Second Battalion, was tried. Defence evidence described him as a lieutenant in Dillon’s Regiment in French service and a native of France, born at St Germain’s en lay. The paper reports acquittal and an order to detain him as a French prisoner.",
-      "assessment": "Reported defence evidence and outcome, requiring comparison with original legal and military records. The paper does not identify relatives or a birth date. The 17 November reprint adds a Not Guilty verdict and removal of his bolts; the saved excerpt stops before the full cartel articles.",
+      "assessment": "Reported defence evidence and outcome, requiring comparison with original legal and military records. The paper does not identify relatives or a birth date. The 17 November reprint adds a Not Guilty verdict and removal of his bolts; the saved excerpt stops before the full cartel articles. Identity review (6 October 2026): Nov 1746 trial report: Nicholas Glascoe, Major in Ogilvie's 2nd battalion, proved a lieutenant in Dillon's and native of St Germain-en-Laye, was acquitted and detained as a French prisoner. TNA cabinet minute SP 36/89/2/32 (14 Nov 1746) independently records the acquittal. No WikiTree profile. No compatible WikiTree profile after a duplicate search for: Nicholas Glascoe (new-profile draft pending).",
       "profile_ids": [],
       "profile_matches": [],
       "draft_url": "/research/subjects/newspapers-early-glasgow/#nicholas-glasco-southwark",
-      "reviewed_on": "2026-10-05"
+      "reviewed_on": "2026-10-06",
+      "prior_assessment": {
+        "assessment": "Reported defence evidence and outcome, requiring comparison with original legal and military records. The paper does not identify relatives or a birth date. The 17 November reprint adds a Not Guilty verdict and removal of his bolts; the saved excerpt stops before the full cartel articles.",
+        "profile_ids": [],
+        "profile_matches": [],
+        "reviewed_on": "2026-10-05"
+      }
     },
     {
       "image_id": "394462695",
@@ -6333,11 +6452,17 @@
       ],
       "status": "confirmed surname",
       "reading": "Nicholas Glascoe, described as a Major in Lord Ogilvie’s Second Battalion, was tried. Defence evidence described him as a lieutenant in Dillon’s Regiment in French service and a native of France, born at St Germain’s en lay. The paper reports acquittal and an order to detain him as a French prisoner.",
-      "assessment": "Reprinted trial account. The following paragraph adds a Not Guilty verdict and removal of his bolts, then introduces cartel articles. Their full terms are outside the saved excerpt and are not inferred.",
+      "assessment": "Reprinted trial account. The following paragraph adds a Not Guilty verdict and removal of his bolts, then introduces cartel articles. Their full terms are outside the saved excerpt and are not inferred. Identity review (6 October 2026): Nov 1746 trial report: Nicholas Glascoe, Major in Ogilvie's 2nd battalion, proved a lieutenant in Dillon's and native of St Germain-en-Laye, was acquitted and detained as a French prisoner. TNA cabinet minute SP 36/89/2/32 (14 Nov 1746) independently records the acquittal. No WikiTree profile. No compatible WikiTree profile after a duplicate search for: Nicholas Glascoe (new-profile draft pending).",
       "profile_ids": [],
       "profile_matches": [],
       "draft_url": "/research/subjects/newspapers-early-glasgow/#nicholas-glasco-southwark",
-      "reviewed_on": "2026-10-05"
+      "reviewed_on": "2026-10-06",
+      "prior_assessment": {
+        "assessment": "Reprinted trial account. The following paragraph adds a Not Guilty verdict and removal of his bolts, then introduces cartel articles. Their full terms are outside the saved excerpt and are not inferred.",
+        "profile_ids": [],
+        "profile_matches": [],
+        "reviewed_on": "2026-10-05"
+      }
     },
     {
       "image_id": "404076485",
@@ -6350,11 +6475,17 @@
       ],
       "status": "confirmed surname",
       "reading": "The King has granted English Pay to the Regiment which Lord Ogilvy is raising, to be composed only of English and Scotch Men. Sir William Gordon of Park is appointed lieutenant-colonel, and “Mr Glascoe Major.”",
-      "assessment": "Surname and appointment context are clear. Nicholas is a probable contextual identification from the Ogilvy association, but the notice supplies no forename or family; his identity remains unresolved.",
+      "assessment": "Surname and appointment context are clear. Nicholas is a probable contextual identification from the Ogilvy association, but the notice supplies no forename or family; his identity remains unresolved. Identity review (6 October 2026): May 1747 report naming 'Mr Glascoe Major' in Lord Ogilvy's regiment under Sir William Gordon of Park. Probably Nicholas; no WikiTree profile. No compatible WikiTree profile after a duplicate search for: Mr Glascoe, Major (forename not printed) (new-profile draft pending).",
       "profile_ids": [],
       "profile_matches": [],
       "draft_url": "/research/subjects/newspapers-early-glasgow/#nicholas-glasco-southwark",
-      "reviewed_on": "2026-10-05"
+      "reviewed_on": "2026-10-06",
+      "prior_assessment": {
+        "assessment": "Surname and appointment context are clear. Nicholas is a probable contextual identification from the Ogilvy association, but the notice supplies no forename or family; his identity remains unresolved.",
+        "profile_ids": [],
+        "profile_matches": [],
+        "reviewed_on": "2026-10-05"
+      }
     },
     {
       "image_id": "586542475",
@@ -6447,27 +6578,33 @@
       ],
       "status": "confirmed surname",
       "reading": "Samuel Glascow, for horse-stealing, and Thomas Andrews, for a separate offence, were reported respited during His Majesty’s pleasure.",
-      "assessment": "The unnatural-crime description applies to Thomas Andrews. The exact Old Bailey case links strongly to the case cited on Glasgow-3175; the profile’s Ulster birth, Pennsylvania death and ancestry are not proved by that case. The notice reports respite, not execution or military commutation. The Public Advertiser’s complete 22 May report and separate issue masthead now support 21 May as the reported royal-review day; this does not verify pardon conditions.",
-      "profile_ids": [
-        "Glasgow-3175",
-        "Glasgow-1492"
-      ],
-      "profile_matches": [
-        {
-          "profile_id": "Glasgow-3175",
-          "confidence": "strong",
-          "role": "Exact case cited on profile; person identity requires a bridge",
-          "basis": "Captured profile cites the identical Old Bailey/Digital Panopticon case obpt17610506-1-defend30. Strong case association only; ancestral identity and later life remain unproved."
-        },
-        {
-          "profile_id": "Glasgow-1492",
-          "confidence": "possible",
-          "role": "Unresolved identity candidate",
-          "basis": "A separate 1766 Gorteen Samuel Glasco occurrence has no age or relatives linking it to the London defendant."
-        }
-      ],
+      "assessment": "The unnatural-crime description applies to Thomas Andrews. The exact Old Bailey case links strongly to the case cited on Glasgow-3175; the profile’s Ulster birth, Pennsylvania death and ancestry are not proved by that case. The notice reports respite, not execution or military commutation. The Public Advertiser’s complete 22 May report and separate issue masthead now support 21 May as the reported royal-review day; this does not verify pardon conditions. Identity review (6 October 2026): May 1761 report that Samuel Glascow, horse-stealer, was respited during His Majesty's pleasure on 21 May 1761. This is the same London defendant; no compatible WikiTree profile (draft flagged on group 394296692). No compatible WikiTree profile after a duplicate search for: Samuel Glascow (new-profile draft pending).",
+      "profile_ids": [],
+      "profile_matches": [],
       "draft_url": "/research/subjects/newspapers-early-glasgow/#samuel-glascow-old-bailey",
-      "reviewed_on": "2026-10-05"
+      "reviewed_on": "2026-10-06",
+      "prior_assessment": {
+        "assessment": "The unnatural-crime description applies to Thomas Andrews. The exact Old Bailey case links strongly to the case cited on Glasgow-3175; the profile’s Ulster birth, Pennsylvania death and ancestry are not proved by that case. The notice reports respite, not execution or military commutation. The Public Advertiser’s complete 22 May report and separate issue masthead now support 21 May as the reported royal-review day; this does not verify pardon conditions.",
+        "profile_ids": [
+          "Glasgow-3175",
+          "Glasgow-1492"
+        ],
+        "profile_matches": [
+          {
+            "profile_id": "Glasgow-3175",
+            "confidence": "strong",
+            "role": "Exact case cited on profile; person identity requires a bridge",
+            "basis": "Captured profile cites the identical Old Bailey/Digital Panopticon case obpt17610506-1-defend30. Strong case association only; ancestral identity and later life remain unproved."
+          },
+          {
+            "profile_id": "Glasgow-1492",
+            "confidence": "possible",
+            "role": "Unresolved identity candidate",
+            "basis": "A separate 1766 Gorteen Samuel Glasco occurrence has no age or relatives linking it to the London defendant."
+          }
+        ],
+        "reviewed_on": "2026-10-05"
+      }
     },
     {
       "image_id": "1050136699",
@@ -6520,11 +6657,17 @@
       ],
       "status": "confirmed surname",
       "reading": "Major Glascoe, lately discharged at London, is reported as chief major in Lord Ogilvy’s projected regiment of thirteen companies, on English pay. Officers are said to be quartered near Holland.",
-      "assessment": "Probable contextual association with Nicholas in the 1746 proceedings; no forename or independent military-service bridge. The pay wording is not interpreted as British army service.",
+      "assessment": "Probable contextual association with Nicholas in the 1746 proceedings; no forename or independent military-service bridge. The pay wording is not interpreted as British army service. Identity review (6 October 2026): April 1747 report: Major Glascoe, lately discharged at London, chief major in Lord Ogilvy's new regiment. Probably Nicholas: 'lately discharged at London' follows the Nov 1746 acquittal, and Hayes has him as major in Ogilvy's. No WikiTree profile. No compatible WikiTree profile after a duplicate search for: Major Glascoe (forename not printed) (new-profile draft pending).",
       "profile_ids": [],
       "profile_matches": [],
       "draft_url": "/research/subjects/newspapers-early-glasgow/#nicholas-glasco-southwark",
-      "reviewed_on": "2026-10-05"
+      "reviewed_on": "2026-10-06",
+      "prior_assessment": {
+        "assessment": "Probable contextual association with Nicholas in the 1746 proceedings; no forename or independent military-service bridge. The pay wording is not interpreted as British army service.",
+        "profile_ids": [],
+        "profile_matches": [],
+        "reviewed_on": "2026-10-05"
+      }
     },
     {
       "image_id": "35690357",
@@ -6537,11 +6680,17 @@
       ],
       "status": "confirmed surname",
       "reading": "William Glascoe is among prisoners reported sentenced to transportation after Old Bailey trials, for stealing a sack of malt from a warehouse, valued in the newspaper at £4 10s.",
-      "assessment": "Strong candidate case match to William Glascow, Old Bailey session 16 April 1760, t17600416-27. The newspaper’s “Yesterday” and values differ from the proceedings; the session date is not asserted as the exact individual trial day. Sentence does not prove an actual voyage or Maryland arrival.",
+      "assessment": "Strong candidate case match to William Glascow, Old Bailey session 16 April 1760, t17600416-27. The newspaper’s “Yesterday” and values differ from the proceedings; the session date is not asserted as the exact individual trial day. Sentence does not prove an actual voyage or Maryland arrival. Identity review (6 October 2026): 1760 report that William Glascoe was sentenced to transportation for stealing a sack of malt. The Old Bailey trial (t17600416-27) shows a London warehouse labourer. No WikiTree profile fits, so a new one is needed. No compatible WikiTree profile after a duplicate search for: William Glascoe (new-profile draft pending).",
       "profile_ids": [],
       "profile_matches": [],
       "draft_url": "/research/subjects/newspapers-early-glasgow/#william-glascoe-old-bailey-1760",
-      "reviewed_on": "2026-10-05"
+      "reviewed_on": "2026-10-06",
+      "prior_assessment": {
+        "assessment": "Strong candidate case match to William Glascow, Old Bailey session 16 April 1760, t17600416-27. The newspaper’s “Yesterday” and values differ from the proceedings; the session date is not asserted as the exact individual trial day. Sentence does not prove an actual voyage or Maryland arrival.",
+        "profile_ids": [],
+        "profile_matches": [],
+        "reviewed_on": "2026-10-05"
+      }
     },
     {
       "image_id": "39392109",
@@ -6621,11 +6770,17 @@
       ],
       "status": "confirmed surname",
       "reading": "Nicholas Glascoe, who styles himself Major Glascoe, now a Prisoner in the New Goal, and one of the Rebels principal Engineers, was the Person who rais'd the Battery against the Hazard Sloop of War, and imprison'd the late Captain of that Sloop, and his Officers; for which he will be tried.",
-      "assessment": "Reprint of the June Nicholas Glascoe allegation and self-styled rank. Original issue retained; neither guilt nor official rank is established.",
+      "assessment": "Reprint of the June Nicholas Glascoe allegation and self-styled rank. Original issue retained; neither guilt nor official rank is established. Identity review (6 October 2026): June 1746 reprinted report that Nicholas Glascoe, self-styled Major and a principal rebel engineer, raised the battery against the Hazard sloop and would be tried. This is the same Nicholas as the TNA SP 36 records; no WikiTree profile. No compatible WikiTree profile after a duplicate search for: Nicholas Glascoe ('Major Glascoe') (new-profile draft pending).",
       "profile_ids": [],
       "profile_matches": [],
       "draft_url": "/research/subjects/newspapers-early-glasgow/#nicholas-glasco-southwark",
-      "reviewed_on": "2026-10-05"
+      "reviewed_on": "2026-10-06",
+      "prior_assessment": {
+        "assessment": "Reprint of the June Nicholas Glascoe allegation and self-styled rank. Original issue retained; neither guilt nor official rank is established.",
+        "profile_ids": [],
+        "profile_matches": [],
+        "reviewed_on": "2026-10-05"
+      }
     },
     {
       "image_id": "1248442280",
@@ -6638,11 +6793,17 @@
       ],
       "status": "confirmed surname",
       "reading": "Nicholas Glascoe, who styles himself Major Glascoe, now a Prisoner in the New Goal, and one of the Rebels principal Engineers, was the Person who rais'd the Battery against the Hazard Sloop of War, and imprison'd the late Captain of that Sloop, and his Officers; for which he will be tried.",
-      "assessment": "Reprint of the June Nicholas Glascoe allegation and self-styled rank. Original issue retained; neither guilt nor official rank is established.",
+      "assessment": "Reprint of the June Nicholas Glascoe allegation and self-styled rank. Original issue retained; neither guilt nor official rank is established. Identity review (6 October 2026): June 1746 reprinted report that Nicholas Glascoe, self-styled Major and a principal rebel engineer, raised the battery against the Hazard sloop and would be tried. This is the same Nicholas as the TNA SP 36 records; no WikiTree profile. No compatible WikiTree profile after a duplicate search for: Nicholas Glascoe ('Major Glascoe') (new-profile draft pending).",
       "profile_ids": [],
       "profile_matches": [],
       "draft_url": "/research/subjects/newspapers-early-glasgow/#nicholas-glasco-southwark",
-      "reviewed_on": "2026-10-05"
+      "reviewed_on": "2026-10-06",
+      "prior_assessment": {
+        "assessment": "Reprint of the June Nicholas Glascoe allegation and self-styled rank. Original issue retained; neither guilt nor official rank is established.",
+        "profile_ids": [],
+        "profile_matches": [],
+        "reviewed_on": "2026-10-05"
+      }
     },
     {
       "image_id": "979338930",
@@ -6655,11 +6816,17 @@
       ],
       "status": "confirmed surname",
       "reading": "Nicholas Glascoe is listed among officers in the rebel army reported committed to New Gaol, Southwark.",
-      "assessment": "Reported committal, not conviction. This roster lists Alexander Low junior after Nicholas; its wording is not copied from the earlier Worcester roster.",
+      "assessment": "Reported committal, not conviction. This roster lists Alexander Low junior after Nicholas; its wording is not copied from the earlier Worcester roster. Identity review (6 October 2026): Sherborne Mercury roster of Jacobite officers committed to New Gaol, Southwark, including Nicholas Glascoe. Same man; no WikiTree profile. No compatible WikiTree profile after a duplicate search for: Nicholas Glascoe (new-profile draft pending).",
       "profile_ids": [],
       "profile_matches": [],
       "draft_url": "/research/subjects/newspapers-early-glasgow/#nicholas-glasco-southwark",
-      "reviewed_on": "2026-10-05"
+      "reviewed_on": "2026-10-06",
+      "prior_assessment": {
+        "assessment": "Reported committal, not conviction. This roster lists Alexander Low junior after Nicholas; its wording is not copied from the earlier Worcester roster.",
+        "profile_ids": [],
+        "profile_matches": [],
+        "reviewed_on": "2026-10-05"
+      }
     },
     {
       "image_id": "1214317998",
@@ -6672,11 +6839,17 @@
       ],
       "status": "confirmed surname",
       "reading": "An indictment list for High Treason at St Margaret’s Hill, Southwark, includes “5. Nicholas Glascoe, Maj. in ditto. He raised the Battery against the Hazard Sloop (which was commanded by Capt. Hill) and took her.”",
-      "assessment": "Reprinted indictment list, not proof of guilt. Each issue and clipping is preserved; repeated text is presented together.",
+      "assessment": "Reprinted indictment list, not proof of guilt. Each issue and clipping is preserved; repeated text is presented together. Identity review (6 October 2026): Reprinted Aug-Sep 1746 indictment list: '5. Nicholas Glascoe, Maj. in ditto' who took the Hazard sloop. Same man; no WikiTree profile. No compatible WikiTree profile after a duplicate search for: Nicholas Glascoe, Maj. (new-profile draft pending).",
       "profile_ids": [],
       "profile_matches": [],
       "draft_url": "/research/subjects/newspapers-early-glasgow/#nicholas-glasco-southwark",
-      "reviewed_on": "2026-10-05"
+      "reviewed_on": "2026-10-06",
+      "prior_assessment": {
+        "assessment": "Reprinted indictment list, not proof of guilt. Each issue and clipping is preserved; repeated text is presented together.",
+        "profile_ids": [],
+        "profile_matches": [],
+        "reviewed_on": "2026-10-05"
+      }
     },
     {
       "image_id": "394540938",
@@ -6689,11 +6862,17 @@
       ],
       "status": "confirmed surname",
       "reading": "An indictment list for High Treason at St Margaret’s Hill, Southwark, includes “5. Nicholas Glascoe, Maj. in ditto. He raised the Battery against the Hazard Sloop (which was commanded by Capt. Hill) and took her.”",
-      "assessment": "Reprinted indictment list, not proof of guilt. Each issue and clipping is preserved; repeated text is presented together.",
+      "assessment": "Reprinted indictment list, not proof of guilt. Each issue and clipping is preserved; repeated text is presented together. Identity review (6 October 2026): Reprinted Aug-Sep 1746 indictment list: '5. Nicholas Glascoe, Maj. in ditto' who took the Hazard sloop. Same man; no WikiTree profile. No compatible WikiTree profile after a duplicate search for: Nicholas Glascoe, Maj. (new-profile draft pending).",
       "profile_ids": [],
       "profile_matches": [],
       "draft_url": "/research/subjects/newspapers-early-glasgow/#nicholas-glasco-southwark",
-      "reviewed_on": "2026-10-05"
+      "reviewed_on": "2026-10-06",
+      "prior_assessment": {
+        "assessment": "Reprinted indictment list, not proof of guilt. Each issue and clipping is preserved; repeated text is presented together.",
+        "profile_ids": [],
+        "profile_matches": [],
+        "reviewed_on": "2026-10-05"
+      }
     },
     {
       "image_id": "1248442315",
@@ -6706,11 +6885,17 @@
       ],
       "status": "confirmed surname",
       "reading": "An indictment list for High Treason at St Margaret’s Hill, Southwark, includes “5. Nicholas Glascoe, Maj. in ditto. He raised the Battery against the Hazard Sloop (which was commanded by Capt. Hill) and took her.”",
-      "assessment": "Reprinted indictment list, not proof of guilt. Each issue and clipping is preserved; repeated text is presented together.",
+      "assessment": "Reprinted indictment list, not proof of guilt. Each issue and clipping is preserved; repeated text is presented together. Identity review (6 October 2026): Reprinted Aug-Sep 1746 indictment list: '5. Nicholas Glascoe, Maj. in ditto' who took the Hazard sloop. Same man; no WikiTree profile. No compatible WikiTree profile after a duplicate search for: Nicholas Glascoe, Maj. (new-profile draft pending).",
       "profile_ids": [],
       "profile_matches": [],
       "draft_url": "/research/subjects/newspapers-early-glasgow/#nicholas-glasco-southwark",
-      "reviewed_on": "2026-10-05"
+      "reviewed_on": "2026-10-06",
+      "prior_assessment": {
+        "assessment": "Reprinted indictment list, not proof of guilt. Each issue and clipping is preserved; repeated text is presented together.",
+        "profile_ids": [],
+        "profile_matches": [],
+        "reviewed_on": "2026-10-05"
+      }
     },
     {
       "image_id": "979338997",
@@ -6723,11 +6908,17 @@
       ],
       "status": "confirmed surname",
       "reading": "An indictment list for High Treason at St Margaret’s Hill, Southwark, includes “5. Nicholas Glascoe, Maj. in ditto. He raised the Battery against the Hazard Sloop (which was commanded by Capt. Hill) and took her.”",
-      "assessment": "Reprinted indictment list, not proof of guilt. Each issue and clipping is preserved; repeated text is presented together. Scan blemish affects a few characters; the name and relevant allegation are legible.",
+      "assessment": "Reprinted indictment list, not proof of guilt. Each issue and clipping is preserved; repeated text is presented together. Scan blemish affects a few characters; the name and relevant allegation are legible. Identity review (6 October 2026): Reprinted Aug-Sep 1746 indictment list: '5. Nicholas Glascoe, Maj. in ditto' who took the Hazard sloop. Same man; no WikiTree profile. No compatible WikiTree profile after a duplicate search for: Nicholas Glascoe, Maj. (new-profile draft pending).",
       "profile_ids": [],
       "profile_matches": [],
       "draft_url": "/research/subjects/newspapers-early-glasgow/#nicholas-glasco-southwark",
-      "reviewed_on": "2026-10-05"
+      "reviewed_on": "2026-10-06",
+      "prior_assessment": {
+        "assessment": "Reprinted indictment list, not proof of guilt. Each issue and clipping is preserved; repeated text is presented together. Scan blemish affects a few characters; the name and relevant allegation are legible.",
+        "profile_ids": [],
+        "profile_matches": [],
+        "reviewed_on": "2026-10-05"
+      }
     },
     {
       "image_id": "971384823",
@@ -6740,11 +6931,17 @@
       ],
       "status": "confirmed surname",
       "reading": "An indictment list for High Treason at St Margaret’s Hill, Southwark, includes “5. Nicholas Glascoe, Maj. in ditto. He raised the Battery against the Hazard Sloop (which was commanded by Capt. Hill) and took her.”",
-      "assessment": "Reprinted indictment list, not proof of guilt. Each issue and clipping is preserved; repeated text is presented together.",
+      "assessment": "Reprinted indictment list, not proof of guilt. Each issue and clipping is preserved; repeated text is presented together. Identity review (6 October 2026): Reprinted Aug-Sep 1746 indictment list: '5. Nicholas Glascoe, Maj. in ditto' who took the Hazard sloop. Same man; no WikiTree profile. No compatible WikiTree profile after a duplicate search for: Nicholas Glascoe, Maj. (new-profile draft pending).",
       "profile_ids": [],
       "profile_matches": [],
       "draft_url": "/research/subjects/newspapers-early-glasgow/#nicholas-glasco-southwark",
-      "reviewed_on": "2026-10-05"
+      "reviewed_on": "2026-10-06",
+      "prior_assessment": {
+        "assessment": "Reprinted indictment list, not proof of guilt. Each issue and clipping is preserved; repeated text is presented together.",
+        "profile_ids": [],
+        "profile_matches": [],
+        "reviewed_on": "2026-10-05"
+      }
     },
     {
       "image_id": "1334222061",
@@ -6774,11 +6971,17 @@
       ],
       "status": "confirmed surname",
       "reading": "A Southwark report says Major Glascoe was acquitted by direction of the court after witnesses were examined and counsel opened the cartel signed at Francfort. A translated portion of the cartel follows.",
-      "assessment": "Likely the Nicholas case, without a forename in this passage. The articles are preserved in the excerpt but their complete legal effect has not been assessed. No conviction is stated.",
+      "assessment": "Likely the Nicholas case, without a forename in this passage. The articles are preserved in the excerpt but their complete legal effect has not been assessed. No conviction is stated. Identity review (6 October 2026): Nov 1746 Southwark report: Major Glascoe acquitted by direction of the court on the Frankfurt cartel. This is Nicholas, by the Hazard/cartel context and TNA SP 36/89/2/32; no WikiTree profile. No compatible WikiTree profile after a duplicate search for: Major Glascoe (forename not printed) (new-profile draft pending).",
       "profile_ids": [],
       "profile_matches": [],
       "draft_url": "/research/subjects/newspapers-early-glasgow/#nicholas-glasco-southwark",
-      "reviewed_on": "2026-10-05"
+      "reviewed_on": "2026-10-06",
+      "prior_assessment": {
+        "assessment": "Likely the Nicholas case, without a forename in this passage. The articles are preserved in the excerpt but their complete legal effect has not been assessed. No conviction is stated.",
+        "profile_ids": [],
+        "profile_matches": [],
+        "reviewed_on": "2026-10-05"
+      }
     },
     {
       "image_id": "971385255",
@@ -6791,11 +6994,17 @@
       ],
       "status": "confirmed surname",
       "reading": "A Southwark report says Major Glascoe was acquitted by direction of the court after witnesses were examined and counsel opened the cartel signed at Francfort. A translated portion of the cartel follows.",
-      "assessment": "Likely the Nicholas case, without a forename in this passage. The articles are preserved in the excerpt but their complete legal effect has not been assessed. No conviction is stated.",
+      "assessment": "Likely the Nicholas case, without a forename in this passage. The articles are preserved in the excerpt but their complete legal effect has not been assessed. No conviction is stated. Identity review (6 October 2026): Nov 1746 Southwark report: Major Glascoe acquitted by direction of the court on the Frankfurt cartel. This is Nicholas, by the Hazard/cartel context and TNA SP 36/89/2/32; no WikiTree profile. No compatible WikiTree profile after a duplicate search for: Major Glascoe (forename not printed) (new-profile draft pending).",
       "profile_ids": [],
       "profile_matches": [],
       "draft_url": "/research/subjects/newspapers-early-glasgow/#nicholas-glasco-southwark",
-      "reviewed_on": "2026-10-05"
+      "reviewed_on": "2026-10-06",
+      "prior_assessment": {
+        "assessment": "Likely the Nicholas case, without a forename in this passage. The articles are preserved in the excerpt but their complete legal effect has not been assessed. No conviction is stated.",
+        "profile_ids": [],
+        "profile_matches": [],
+        "reviewed_on": "2026-10-05"
+      }
     },
     {
       "image_id": "1334158733",
@@ -6825,11 +7034,17 @@
       ],
       "status": "confirmed surname",
       "reading": "The King has granted English Pay to the Regiment which Lord Ogilvy is raising, to be composed only of English and Scotch Men. Sir William Gordon of Park is appointed lieutenant-colonel, and “Mr Glascoe Major.”",
-      "assessment": "Reprint of the Ogilvy regiment report. No forename; Nicholas is a probable contextual candidate, not a proved identification. English pay is not interpreted as British service.",
+      "assessment": "Reprint of the Ogilvy regiment report. No forename; Nicholas is a probable contextual candidate, not a proved identification. English pay is not interpreted as British service. Identity review (6 October 2026): May 1747 report naming 'Mr Glascoe Major' in Lord Ogilvy's regiment under Sir William Gordon of Park. Probably Nicholas; no WikiTree profile. No compatible WikiTree profile after a duplicate search for: Mr Glascoe, Major (forename not printed) (new-profile draft pending).",
       "profile_ids": [],
       "profile_matches": [],
       "draft_url": "/research/subjects/newspapers-early-glasgow/#nicholas-glasco-southwark",
-      "reviewed_on": "2026-10-05"
+      "reviewed_on": "2026-10-06",
+      "prior_assessment": {
+        "assessment": "Reprint of the Ogilvy regiment report. No forename; Nicholas is a probable contextual candidate, not a proved identification. English pay is not interpreted as British service.",
+        "profile_ids": [],
+        "profile_matches": [],
+        "reviewed_on": "2026-10-05"
+      }
     },
     {
       "image_id": "39398014",
@@ -7242,11 +7457,17 @@
       ],
       "status": "confirmed surname",
       "reading": "Samuel Glasgow, pen-cutter, formerly of Shaftesbury Place, Aldersgate Street, and afterwards Webber Street, Surrey Road, is item 70 in an Amicable Society notice concerning deaths in 1794 (Old Style).",
-      "assessment": "Heading dated 10 July 1795, printed 14 and 15 July. Preserve Old Style wording; no exact death day is given. This reported London death conditionally conflicts with the later uncertain or estimated deaths of the American candidates. No supported identity match.",
+      "assessment": "Heading dated 10 July 1795, printed 14 and 15 July. Preserve Old Style wording; no exact death day is given. This reported London death conditionally conflicts with the later uncertain or estimated deaths of the American candidates. No supported identity match. Identity review (6 October 2026): July 1795 Amicable Society notice listing Samuel Glasgow, pen-cutter, of Shaftesbury Place, Aldersgate Street, later Webber Street, Surrey Road, among members who died in 1794. He is a London tradesman with no WikiTree profile. No compatible WikiTree profile after a duplicate search for: Samuel Glasgow (new-profile draft pending).",
       "profile_ids": [],
       "profile_matches": [],
       "draft_url": "/research/subjects/newspapers-early-glasgow/#samuel-glasgow-london-amicable",
-      "reviewed_on": "2026-10-05"
+      "reviewed_on": "2026-10-06",
+      "prior_assessment": {
+        "assessment": "Heading dated 10 July 1795, printed 14 and 15 July. Preserve Old Style wording; no exact death day is given. This reported London death conditionally conflicts with the later uncertain or estimated deaths of the American candidates. No supported identity match.",
+        "profile_ids": [],
+        "profile_matches": [],
+        "reviewed_on": "2026-10-05"
+      }
     },
     {
       "image_id": "32751719",
@@ -7259,11 +7480,17 @@
       ],
       "status": "confirmed surname",
       "reading": "Samuel Glasgow, pen-cutter, formerly of Shaftesbury Place, Aldersgate Street, and afterwards Webber Street, Surrey Road, is item 70 in an Amicable Society notice concerning deaths in 1794 (Old Style).",
-      "assessment": "Heading dated 10 July 1795, printed 14 and 15 July. Preserve Old Style wording; no exact death day is given. This reported London death conditionally conflicts with the later uncertain or estimated deaths of the American candidates. No supported identity match.",
+      "assessment": "Heading dated 10 July 1795, printed 14 and 15 July. Preserve Old Style wording; no exact death day is given. This reported London death conditionally conflicts with the later uncertain or estimated deaths of the American candidates. No supported identity match. Identity review (6 October 2026): July 1795 Amicable Society notice listing Samuel Glasgow, pen-cutter, of Shaftesbury Place, Aldersgate Street, later Webber Street, Surrey Road, among members who died in 1794. He is a London tradesman with no WikiTree profile. No compatible WikiTree profile after a duplicate search for: Samuel Glasgow (new-profile draft pending).",
       "profile_ids": [],
       "profile_matches": [],
       "draft_url": "/research/subjects/newspapers-early-glasgow/#samuel-glasgow-london-amicable",
-      "reviewed_on": "2026-10-05"
+      "reviewed_on": "2026-10-06",
+      "prior_assessment": {
+        "assessment": "Heading dated 10 July 1795, printed 14 and 15 July. Preserve Old Style wording; no exact death day is given. This reported London death conditionally conflicts with the later uncertain or estimated deaths of the American candidates. No supported identity match.",
+        "profile_ids": [],
+        "profile_matches": [],
+        "reviewed_on": "2026-10-05"
+      }
     },
     {
       "image_id": "34411230",
@@ -7331,27 +7558,33 @@
       ],
       "status": "confirmed surname",
       "reading": "Samuel Glascow is one of two prisoners reported capitally convicted at the Old Bailey; his charge is stealing a bay gelding belonging to Mr Serjeant Haywood.",
-      "assessment": "The manslaughter verdict belongs to William Smith, a separate defendant. The relative trial-day statement has no saved dateline; no 13 May trial date is inferred. This is a newspaper report of the case, not a separate trial or proof of ancestral identity.",
-      "profile_ids": [
-        "Glasgow-3175",
-        "Glasgow-1492"
-      ],
-      "profile_matches": [
-        {
-          "profile_id": "Glasgow-3175",
-          "confidence": "strong",
-          "role": "Exact case association; person unresolved",
-          "basis": "Existing profile cites the identical Old Bailey case. This identifies the cited case, not the Ulster/Pennsylvania ancestor or family."
-        },
-        {
-          "profile_id": "Glasgow-1492",
-          "confidence": "possible",
-          "role": "Unresolved namesake",
-          "basis": "Separate 1766 Gorteen record has no age or family bridge to this London defendant."
-        }
-      ],
+      "assessment": "The manslaughter verdict belongs to William Smith, a separate defendant. The relative trial-day statement has no saved dateline; no 13 May trial date is inferred. This is a newspaper report of the case, not a separate trial or proof of ancestral identity. Identity review (6 October 2026): May 1761 reports that Samuel Glascow was capitally convicted at the Old Bailey for stealing Serjeant Hayward's bay gelding. His own trial testimony describes a Holborn/High Wycombe tradesman. That conflicts with Glasgow-3175 (an Ulster-born Pennsylvania settler), so the London man has no compatible profile. No compatible WikiTree profile after a duplicate search for: Samuel Glascow (new-profile draft pending).",
+      "profile_ids": [],
+      "profile_matches": [],
       "draft_url": "/research/subjects/newspapers-early-glasgow/#samuel-glascow-old-bailey",
-      "reviewed_on": "2026-10-05"
+      "reviewed_on": "2026-10-06",
+      "prior_assessment": {
+        "assessment": "The manslaughter verdict belongs to William Smith, a separate defendant. The relative trial-day statement has no saved dateline; no 13 May trial date is inferred. This is a newspaper report of the case, not a separate trial or proof of ancestral identity.",
+        "profile_ids": [
+          "Glasgow-3175",
+          "Glasgow-1492"
+        ],
+        "profile_matches": [
+          {
+            "profile_id": "Glasgow-3175",
+            "confidence": "strong",
+            "role": "Exact case association; person unresolved",
+            "basis": "Existing profile cites the identical Old Bailey case. This identifies the cited case, not the Ulster/Pennsylvania ancestor or family."
+          },
+          {
+            "profile_id": "Glasgow-1492",
+            "confidence": "possible",
+            "role": "Unresolved namesake",
+            "basis": "Separate 1766 Gorteen record has no age or family bridge to this London defendant."
+          }
+        ],
+        "reviewed_on": "2026-10-05"
+      }
     },
     {
       "image_id": "34424820",
@@ -7364,27 +7597,33 @@
       ],
       "status": "confirmed surname",
       "reading": "Samuel Glascow, for horse-stealing, and Thomas Andrews, for a separate offence, were reported respited during His Majesty’s pleasure.",
-      "assessment": "The complete paragraph says “Yesterday” the report of seven Newgate malefactors was made to the King at St James’s. A separate original page-1 masthead reads Friday, 22 May 1761, supporting 21 May as the reported royal-review day. Respite is reported, not proof of pardon conditions, military service or ancestral identity. Thomas Andrews’s offence is not Samuel’s.",
-      "profile_ids": [
-        "Glasgow-3175",
-        "Glasgow-1492"
-      ],
-      "profile_matches": [
-        {
-          "profile_id": "Glasgow-3175",
-          "confidence": "strong",
-          "role": "Exact case association; person unresolved",
-          "basis": "Existing profile cites the identical Old Bailey case. This identifies the cited case, not the Ulster/Pennsylvania ancestor or family."
-        },
-        {
-          "profile_id": "Glasgow-1492",
-          "confidence": "possible",
-          "role": "Unresolved namesake",
-          "basis": "Separate 1766 Gorteen record has no age or family bridge to this London defendant."
-        }
-      ],
+      "assessment": "The complete paragraph says “Yesterday” the report of seven Newgate malefactors was made to the King at St James’s. A separate original page-1 masthead reads Friday, 22 May 1761, supporting 21 May as the reported royal-review day. Respite is reported, not proof of pardon conditions, military service or ancestral identity. Thomas Andrews’s offence is not Samuel’s. Identity review (6 October 2026): May 1761 report that Samuel Glascow, horse-stealer, was respited during His Majesty's pleasure on 21 May 1761. This is the same London defendant; no compatible WikiTree profile (draft flagged on group 394296692). No compatible WikiTree profile after a duplicate search for: Samuel Glascow (new-profile draft pending).",
+      "profile_ids": [],
+      "profile_matches": [],
       "draft_url": "/research/subjects/newspapers-early-glasgow/#samuel-glascow-old-bailey",
-      "reviewed_on": "2026-10-05"
+      "reviewed_on": "2026-10-06",
+      "prior_assessment": {
+        "assessment": "The complete paragraph says “Yesterday” the report of seven Newgate malefactors was made to the King at St James’s. A separate original page-1 masthead reads Friday, 22 May 1761, supporting 21 May as the reported royal-review day. Respite is reported, not proof of pardon conditions, military service or ancestral identity. Thomas Andrews’s offence is not Samuel’s.",
+        "profile_ids": [
+          "Glasgow-3175",
+          "Glasgow-1492"
+        ],
+        "profile_matches": [
+          {
+            "profile_id": "Glasgow-3175",
+            "confidence": "strong",
+            "role": "Exact case association; person unresolved",
+            "basis": "Existing profile cites the identical Old Bailey case. This identifies the cited case, not the Ulster/Pennsylvania ancestor or family."
+          },
+          {
+            "profile_id": "Glasgow-1492",
+            "confidence": "possible",
+            "role": "Unresolved namesake",
+            "basis": "Separate 1766 Gorteen record has no age or family bridge to this London defendant."
+          }
+        ],
+        "reviewed_on": "2026-10-05"
+      }
     },
     {
       "image_id": "34424864",
@@ -7397,27 +7636,33 @@
       ],
       "status": "confirmed surname",
       "reading": "A one-shilling advertisement for printed Old Bailey trial proceedings lists Samuel Glascow’s horse-stealing case among its contents.",
-      "assessment": "This is a publication notice, not another trial, conviction or respite. The other defendants’ crimes are separate. The case association does not identify an Ulster or Pennsylvania family.",
-      "profile_ids": [
-        "Glasgow-3175",
-        "Glasgow-1492"
-      ],
-      "profile_matches": [
-        {
-          "profile_id": "Glasgow-3175",
-          "confidence": "strong",
-          "role": "Exact case association; person unresolved",
-          "basis": "Existing profile cites the identical Old Bailey case. This identifies the cited case, not the Ulster/Pennsylvania ancestor or family."
-        },
-        {
-          "profile_id": "Glasgow-1492",
-          "confidence": "possible",
-          "role": "Unresolved namesake",
-          "basis": "Separate 1766 Gorteen record has no age or family bridge to this London defendant."
-        }
-      ],
+      "assessment": "This is a publication notice, not another trial, conviction or respite. The other defendants’ crimes are separate. The case association does not identify an Ulster or Pennsylvania family. Identity review (6 October 2026): May 1761 advertisement for the printed Old Bailey Proceedings listing Samuel Glascow's horse-stealing trial. This is the same London defendant; it adds no new fact. No compatible WikiTree profile after a duplicate search for: Samuel Glascow (new-profile draft pending).",
+      "profile_ids": [],
+      "profile_matches": [],
       "draft_url": "/research/subjects/newspapers-early-glasgow/#samuel-glascow-old-bailey",
-      "reviewed_on": "2026-10-05"
+      "reviewed_on": "2026-10-06",
+      "prior_assessment": {
+        "assessment": "This is a publication notice, not another trial, conviction or respite. The other defendants’ crimes are separate. The case association does not identify an Ulster or Pennsylvania family.",
+        "profile_ids": [
+          "Glasgow-3175",
+          "Glasgow-1492"
+        ],
+        "profile_matches": [
+          {
+            "profile_id": "Glasgow-3175",
+            "confidence": "strong",
+            "role": "Exact case association; person unresolved",
+            "basis": "Existing profile cites the identical Old Bailey case. This identifies the cited case, not the Ulster/Pennsylvania ancestor or family."
+          },
+          {
+            "profile_id": "Glasgow-1492",
+            "confidence": "possible",
+            "role": "Unresolved namesake",
+            "basis": "Separate 1766 Gorteen record has no age or family bridge to this London defendant."
+          }
+        ],
+        "reviewed_on": "2026-10-05"
+      }
     },
     {
       "image_id": "39395391",
@@ -7477,41 +7722,47 @@
       ],
       "status": "confirmed surname",
       "reading": "Greenwich Packet: James Glascow, master; James Young, owner; from Philadelphia to Winyew, Carolina; with rum, bread, flour and porter.",
-      "assessment": "A vessel list headed “By the Orpheus and Daphne”; the master and owner are distinct people. Destination spelling is retained as read without modern normalization. No identity bridge to the 1757 postal addressee or Irish James records.",
-      "profile_ids": [
-        "Glasgow-4124",
-        "Glasgow-3944",
-        "Glasgow-2988",
-        "Glasgow-1024"
-      ],
-      "profile_matches": [
-        {
-          "profile_id": "Glasgow-4124",
-          "confidence": "possible",
-          "role": "Possible identity; no record bridge",
-          "basis": "Before-1733 James Glasgow mariner/surgeon of Swift of Sheerness is chronologically compatible and occupationally relevant. The ship, route, region, and 44-year documentary gap provide no demonstrated identity link."
-        },
-        {
-          "profile_id": "Glasgow-3944",
-          "confidence": "possible",
-          "role": "Possible identity; no record bridge",
-          "basis": "Birth before 1726 and no recorded death permit an adult shipmaster occurrence in 1777; profile otherwise lacks corroborating details."
-        },
-        {
-          "profile_id": "Glasgow-2988",
-          "confidence": "possible",
-          "role": "Possible identity; no record bridge",
-          "basis": "Estimated c.1720 birth is chronologically plausible; no death or maritime evidence recorded."
-        },
-        {
-          "profile_id": "Glasgow-1024",
-          "confidence": "possible",
-          "role": "Possible identity; no record bridge",
-          "basis": "Estimated c.1722 birth is chronologically plausible; death date absent. Irish location is not a concrete contradiction."
-        }
-      ],
+      "assessment": "A vessel list headed “By the Orpheus and Daphne”; the master and owner are distinct people. Destination spelling is retained as read without modern normalization. No identity bridge to the 1757 postal addressee or Irish James records. Identity review (6 October 2026): 1777 prize list naming James Glascow as master of the Greenwich Packet (owner James Young), Philadelphia to Winyaw, South Carolina. He was a Philadelphia-trade master in wartime. Two dozen namesakes exist, none with any maritime or Philadelphia record, so he cannot be identified.",
+      "profile_ids": [],
+      "profile_matches": [],
       "draft_url": "/research/subjects/newspapers-early-glasgow/#james-glascow-greenwich-packet-1777",
-      "reviewed_on": "2026-10-05"
+      "reviewed_on": "2026-10-06",
+      "prior_assessment": {
+        "assessment": "A vessel list headed “By the Orpheus and Daphne”; the master and owner are distinct people. Destination spelling is retained as read without modern normalization. No identity bridge to the 1757 postal addressee or Irish James records.",
+        "profile_ids": [
+          "Glasgow-4124",
+          "Glasgow-3944",
+          "Glasgow-2988",
+          "Glasgow-1024"
+        ],
+        "profile_matches": [
+          {
+            "profile_id": "Glasgow-4124",
+            "confidence": "possible",
+            "role": "Possible identity; no record bridge",
+            "basis": "Before-1733 James Glasgow mariner/surgeon of Swift of Sheerness is chronologically compatible and occupationally relevant. The ship, route, region, and 44-year documentary gap provide no demonstrated identity link."
+          },
+          {
+            "profile_id": "Glasgow-3944",
+            "confidence": "possible",
+            "role": "Possible identity; no record bridge",
+            "basis": "Birth before 1726 and no recorded death permit an adult shipmaster occurrence in 1777; profile otherwise lacks corroborating details."
+          },
+          {
+            "profile_id": "Glasgow-2988",
+            "confidence": "possible",
+            "role": "Possible identity; no record bridge",
+            "basis": "Estimated c.1720 birth is chronologically plausible; no death or maritime evidence recorded."
+          },
+          {
+            "profile_id": "Glasgow-1024",
+            "confidence": "possible",
+            "role": "Possible identity; no record bridge",
+            "basis": "Estimated c.1722 birth is chronologically plausible; death date absent. Irish location is not a concrete contradiction."
+          }
+        ],
+        "reviewed_on": "2026-10-05"
+      }
     },
     {
       "image_id": "396765804",
@@ -7524,41 +7775,47 @@
       ],
       "status": "confirmed surname",
       "reading": "Greenwich Packet: James Glascow, master; James Young, owner; from Philadelphia to Winyew, Carolina; with rum, bread, flour and porter.",
-      "assessment": "Reprint of the same Greenwich Packet report; preserve this issue and original crop while sharing one event card. The column begins in continuation; a separate heading is not asserted for this crop. Destination spelling is uncertain.",
-      "profile_ids": [
-        "Glasgow-4124",
-        "Glasgow-3944",
-        "Glasgow-2988",
-        "Glasgow-1024"
-      ],
-      "profile_matches": [
-        {
-          "profile_id": "Glasgow-4124",
-          "confidence": "possible",
-          "role": "Possible identity; no record bridge",
-          "basis": "Before-1733 James Glasgow mariner/surgeon of Swift of Sheerness is chronologically compatible and occupationally relevant. The ship, route, region, and 44-year documentary gap provide no demonstrated identity link."
-        },
-        {
-          "profile_id": "Glasgow-3944",
-          "confidence": "possible",
-          "role": "Possible identity; no record bridge",
-          "basis": "Birth before 1726 and no recorded death permit an adult shipmaster occurrence in 1777; profile otherwise lacks corroborating details."
-        },
-        {
-          "profile_id": "Glasgow-2988",
-          "confidence": "possible",
-          "role": "Possible identity; no record bridge",
-          "basis": "Estimated c.1720 birth is chronologically plausible; no death or maritime evidence recorded."
-        },
-        {
-          "profile_id": "Glasgow-1024",
-          "confidence": "possible",
-          "role": "Possible identity; no record bridge",
-          "basis": "Estimated c.1722 birth is chronologically plausible; death date absent. Irish location is not a concrete contradiction."
-        }
-      ],
+      "assessment": "Reprint of the same Greenwich Packet report; preserve this issue and original crop while sharing one event card. The column begins in continuation; a separate heading is not asserted for this crop. Destination spelling is uncertain. Identity review (6 October 2026): 1777 prize list naming James Glascow as master of the Greenwich Packet (owner James Young), Philadelphia to Winyaw, South Carolina. He was a Philadelphia-trade master in wartime. Two dozen namesakes exist, none with any maritime or Philadelphia record, so he cannot be identified.",
+      "profile_ids": [],
+      "profile_matches": [],
       "draft_url": "/research/subjects/newspapers-early-glasgow/#james-glascow-greenwich-packet-1777",
-      "reviewed_on": "2026-10-05"
+      "reviewed_on": "2026-10-06",
+      "prior_assessment": {
+        "assessment": "Reprint of the same Greenwich Packet report; preserve this issue and original crop while sharing one event card. The column begins in continuation; a separate heading is not asserted for this crop. Destination spelling is uncertain.",
+        "profile_ids": [
+          "Glasgow-4124",
+          "Glasgow-3944",
+          "Glasgow-2988",
+          "Glasgow-1024"
+        ],
+        "profile_matches": [
+          {
+            "profile_id": "Glasgow-4124",
+            "confidence": "possible",
+            "role": "Possible identity; no record bridge",
+            "basis": "Before-1733 James Glasgow mariner/surgeon of Swift of Sheerness is chronologically compatible and occupationally relevant. The ship, route, region, and 44-year documentary gap provide no demonstrated identity link."
+          },
+          {
+            "profile_id": "Glasgow-3944",
+            "confidence": "possible",
+            "role": "Possible identity; no record bridge",
+            "basis": "Birth before 1726 and no recorded death permit an adult shipmaster occurrence in 1777; profile otherwise lacks corroborating details."
+          },
+          {
+            "profile_id": "Glasgow-2988",
+            "confidence": "possible",
+            "role": "Possible identity; no record bridge",
+            "basis": "Estimated c.1720 birth is chronologically plausible; no death or maritime evidence recorded."
+          },
+          {
+            "profile_id": "Glasgow-1024",
+            "confidence": "possible",
+            "role": "Possible identity; no record bridge",
+            "basis": "Estimated c.1722 birth is chronologically plausible; death date absent. Irish location is not a concrete contradiction."
+          }
+        ],
+        "reviewed_on": "2026-10-05"
+      }
     },
     {
       "image_id": "971522063",
@@ -7571,41 +7828,47 @@
       ],
       "status": "confirmed surname",
       "reading": "Greenwich Packet: James Glascow, master; James Young, owner; from Philadelphia to Winyew, Carolina; with rum, bread, flour and porter.",
-      "assessment": "Reprint of the same Greenwich Packet report under “By the Orpheus and Daphne”; the master and owner are distinct people. Destination spelling is uncertain and not normalized. No family or 1757 postal identity established.",
-      "profile_ids": [
-        "Glasgow-4124",
-        "Glasgow-3944",
-        "Glasgow-2988",
-        "Glasgow-1024"
-      ],
-      "profile_matches": [
-        {
-          "profile_id": "Glasgow-4124",
-          "confidence": "possible",
-          "role": "Possible identity; no record bridge",
-          "basis": "Before-1733 James Glasgow mariner/surgeon of Swift of Sheerness is chronologically compatible and occupationally relevant. The ship, route, region, and 44-year documentary gap provide no demonstrated identity link."
-        },
-        {
-          "profile_id": "Glasgow-3944",
-          "confidence": "possible",
-          "role": "Possible identity; no record bridge",
-          "basis": "Birth before 1726 and no recorded death permit an adult shipmaster occurrence in 1777; profile otherwise lacks corroborating details."
-        },
-        {
-          "profile_id": "Glasgow-2988",
-          "confidence": "possible",
-          "role": "Possible identity; no record bridge",
-          "basis": "Estimated c.1720 birth is chronologically plausible; no death or maritime evidence recorded."
-        },
-        {
-          "profile_id": "Glasgow-1024",
-          "confidence": "possible",
-          "role": "Possible identity; no record bridge",
-          "basis": "Estimated c.1722 birth is chronologically plausible; death date absent. Irish location is not a concrete contradiction."
-        }
-      ],
+      "assessment": "Reprint of the same Greenwich Packet report under “By the Orpheus and Daphne”; the master and owner are distinct people. Destination spelling is uncertain and not normalized. No family or 1757 postal identity established. Identity review (6 October 2026): 1777 prize list naming James Glascow as master of the Greenwich Packet (owner James Young), Philadelphia to Winyaw, South Carolina. He was a Philadelphia-trade master in wartime. Two dozen namesakes exist, none with any maritime or Philadelphia record, so he cannot be identified.",
+      "profile_ids": [],
+      "profile_matches": [],
       "draft_url": "/research/subjects/newspapers-early-glasgow/#james-glascow-greenwich-packet-1777",
-      "reviewed_on": "2026-10-05"
+      "reviewed_on": "2026-10-06",
+      "prior_assessment": {
+        "assessment": "Reprint of the same Greenwich Packet report under “By the Orpheus and Daphne”; the master and owner are distinct people. Destination spelling is uncertain and not normalized. No family or 1757 postal identity established.",
+        "profile_ids": [
+          "Glasgow-4124",
+          "Glasgow-3944",
+          "Glasgow-2988",
+          "Glasgow-1024"
+        ],
+        "profile_matches": [
+          {
+            "profile_id": "Glasgow-4124",
+            "confidence": "possible",
+            "role": "Possible identity; no record bridge",
+            "basis": "Before-1733 James Glasgow mariner/surgeon of Swift of Sheerness is chronologically compatible and occupationally relevant. The ship, route, region, and 44-year documentary gap provide no demonstrated identity link."
+          },
+          {
+            "profile_id": "Glasgow-3944",
+            "confidence": "possible",
+            "role": "Possible identity; no record bridge",
+            "basis": "Birth before 1726 and no recorded death permit an adult shipmaster occurrence in 1777; profile otherwise lacks corroborating details."
+          },
+          {
+            "profile_id": "Glasgow-2988",
+            "confidence": "possible",
+            "role": "Possible identity; no record bridge",
+            "basis": "Estimated c.1720 birth is chronologically plausible; no death or maritime evidence recorded."
+          },
+          {
+            "profile_id": "Glasgow-1024",
+            "confidence": "possible",
+            "role": "Possible identity; no record bridge",
+            "basis": "Estimated c.1722 birth is chronologically plausible; death date absent. Irish location is not a concrete contradiction."
+          }
+        ],
+        "reviewed_on": "2026-10-05"
+      }
     },
     {
       "image_id": "39401494",
@@ -7858,41 +8121,56 @@
       ],
       "status": "confirmed surname",
       "reading": "James Glasgow, styled Clerk, is appointed chaplain to the garrison of Edinburgh Castle by a royal commission reported read in the presbytery.",
-      "assessment": "Full notice retained with Scotland section heading, Edinburgh dateline, preceding sentence, full appointment sentence and following paragraph start. Printed long-s glyph in Glasſgow is f-shaped and can produce OCR Glafgow; normalized surname reading Glasgow. 'Yesterday' refers to the Edinburgh Oct. 21 dateline; identity with the 1738 notice is not asserted. The 1737 and 1738 notices are a probable same-officeholder sequence, not a proved profile identity. Clerk is a clerical style, not evidence of a separate clerk occupation. Neither relative date is calculated from the newspaper issue date.",
+      "assessment": "Full notice retained with Scotland section heading, Edinburgh dateline, preceding sentence, full appointment sentence and following paragraph start. Printed long-s glyph in Glasſgow is f-shaped and can produce OCR Glafgow; normalized surname reading Glasgow. 'Yesterday' refers to the Edinburgh Oct. 21 dateline; identity with the 1738 notice is not asserted. The 1737 and 1738 notices are a probable same-officeholder sequence, not a proved profile identity. Clerk is a clerical style, not evidence of a separate clerk occupation. Neither relative date is calculated from the newspaper issue date. Identity review (6 October 2026): 1737 Edinburgh report that James Glasgow, Clerk, was commissioned chaplain to the Edinburgh Castle garrison. Fasti and the Kilbirnie Fasti entry identify the Castle minister as James, son of Rev. John Glasgow of Kilbirnie and Margaret Scott: Glasgow-1140, strong.",
       "profile_ids": [
-        "Glasgow-1140",
-        "Glasgow-1238",
-        "Glasgow-1316",
-        "Glasgow-1442"
+        "Glasgow-1140"
       ],
       "profile_matches": [
         {
           "profile_id": "Glasgow-1140",
-          "confidence": "possible",
-          "role": "Possible identity; no record bridge",
-          "basis": "Prior research describes a 1722 divinity student; original not rechecked and no Castle identity bridge."
-        },
-        {
-          "profile_id": "Glasgow-1238",
-          "confidence": "possible",
-          "role": "Possible identity; no record bridge",
-          "basis": "Compatible Scottish adult chronology; no clergy or Castle bridge."
-        },
-        {
-          "profile_id": "Glasgow-1316",
-          "confidence": "possible",
-          "role": "Possible identity; no record bridge",
-          "basis": "Compatible Scottish adult chronology; no clergy or Castle bridge."
-        },
-        {
-          "profile_id": "Glasgow-1442",
-          "confidence": "possible",
-          "role": "Possible identity; no record bridge",
-          "basis": "Before-1723 birth boundary permits adulthood; no clergy or Castle bridge."
+          "confidence": "strong",
+          "role": "appointee, chaplain/minister of Edinburgh Castle garrison",
+          "basis": "Fasti Ecclesiae Scoticanae, new ed., vol. 1 (1915), Edinburgh Castle: 'JAMES GLASGOW, M.A. (Glasgow, 10th March 1718); commissioned by George II. 7th July 1737; ord. 14th Feb. 1738; died 9th Feb. 1746, aged about 48'. The notice's commission read in presbytery on 20 Oct 1737 ('yesterday' in the Edinburgh 21 Oct report) follows that 7 July 1737 commission. Fasti vol. 3 (1920), Kilbirnie, under JOHN GLASGOW, minister 1688-1721: 'He marr. (1) Jean ... Cunningham ... and had issue - Robert of Puddockholme, ancestor of the Montgreenan family: (2) Margaret Scott, and had issue - James, min. of Edinb"
         }
       ],
       "draft_url": "/research/subjects/newspapers-early-glasgow/#james-glasgow-edinburgh-castle-1737-1738",
-      "reviewed_on": "2026-10-05"
+      "reviewed_on": "2026-10-06",
+      "prior_assessment": {
+        "assessment": "Full notice retained with Scotland section heading, Edinburgh dateline, preceding sentence, full appointment sentence and following paragraph start. Printed long-s glyph in Glasſgow is f-shaped and can produce OCR Glafgow; normalized surname reading Glasgow. 'Yesterday' refers to the Edinburgh Oct. 21 dateline; identity with the 1738 notice is not asserted. The 1737 and 1738 notices are a probable same-officeholder sequence, not a proved profile identity. Clerk is a clerical style, not evidence of a separate clerk occupation. Neither relative date is calculated from the newspaper issue date.",
+        "profile_ids": [
+          "Glasgow-1140",
+          "Glasgow-1238",
+          "Glasgow-1316",
+          "Glasgow-1442"
+        ],
+        "profile_matches": [
+          {
+            "profile_id": "Glasgow-1140",
+            "confidence": "possible",
+            "role": "Possible identity; no record bridge",
+            "basis": "Prior research describes a 1722 divinity student; original not rechecked and no Castle identity bridge."
+          },
+          {
+            "profile_id": "Glasgow-1238",
+            "confidence": "possible",
+            "role": "Possible identity; no record bridge",
+            "basis": "Compatible Scottish adult chronology; no clergy or Castle bridge."
+          },
+          {
+            "profile_id": "Glasgow-1316",
+            "confidence": "possible",
+            "role": "Possible identity; no record bridge",
+            "basis": "Compatible Scottish adult chronology; no clergy or Castle bridge."
+          },
+          {
+            "profile_id": "Glasgow-1442",
+            "confidence": "possible",
+            "role": "Possible identity; no record bridge",
+            "basis": "Before-1723 birth boundary permits adulthood; no clergy or Castle bridge."
+          }
+        ],
+        "reviewed_on": "2026-10-05"
+      }
     },
     {
       "image_id": "1142271259",
@@ -7905,41 +8183,56 @@
       ],
       "status": "confirmed surname",
       "reading": "James Glasgow, probationer, is reported ordained minister of the Castle in an Edinburgh-datelined notice.",
-      "assessment": "Full Scotland context retained, including dateline and complete Glasgow ordination sentence. The printed long-s glyph in Glasſgow is f-shaped and can produce OCR Glafgow; normalized surname reading Glasgow. Relative 'Last Tuesday' belongs to the Edinburgh Feb. 16 report, not the issue publication date. This notice is not linked to the 1737 appointment or to a profile here. The 1737 and 1738 notices are a probable same-officeholder sequence, not a proved profile identity. Clerk is a clerical style, not evidence of a separate clerk occupation. Neither relative date is calculated from the newspaper issue date.",
+      "assessment": "Full Scotland context retained, including dateline and complete Glasgow ordination sentence. The printed long-s glyph in Glasſgow is f-shaped and can produce OCR Glafgow; normalized surname reading Glasgow. Relative 'Last Tuesday' belongs to the Edinburgh Feb. 16 report, not the issue publication date. This notice is not linked to the 1737 appointment or to a profile here. The 1737 and 1738 notices are a probable same-officeholder sequence, not a proved profile identity. Clerk is a clerical style, not evidence of a separate clerk occupation. Neither relative date is calculated from the newspaper issue date. Identity review (6 October 2026): 1738 report that James Glasgow, probationer, was ordained minister of the Castle 'last Tuesday', which is 14 Feb 1738 exactly as in Fasti. He is the same man as the 1737 appointee: Glasgow-1140, strong.",
       "profile_ids": [
-        "Glasgow-1140",
-        "Glasgow-1238",
-        "Glasgow-1316",
-        "Glasgow-1442"
+        "Glasgow-1140"
       ],
       "profile_matches": [
         {
           "profile_id": "Glasgow-1140",
-          "confidence": "possible",
-          "role": "Possible identity; no record bridge",
-          "basis": "Prior research describes a 1722 divinity student; original not rechecked and no Castle identity bridge."
-        },
-        {
-          "profile_id": "Glasgow-1238",
-          "confidence": "possible",
-          "role": "Possible identity; no record bridge",
-          "basis": "Compatible Scottish adult chronology; no clergy or Castle bridge."
-        },
-        {
-          "profile_id": "Glasgow-1316",
-          "confidence": "possible",
-          "role": "Possible identity; no record bridge",
-          "basis": "Compatible Scottish adult chronology; no clergy or Castle bridge."
-        },
-        {
-          "profile_id": "Glasgow-1442",
-          "confidence": "possible",
-          "role": "Possible identity; no record bridge",
-          "basis": "Before-1723 birth boundary permits adulthood; no clergy or Castle bridge."
+          "confidence": "strong",
+          "role": "ordinand, minister of Edinburgh Castle",
+          "basis": "Fasti vol. 1: 'ord. 14th Feb. 1738'. The Edinburgh report dated Thursday 16 Feb 1738 (Old Style) says 'last Tuesday', and 14 Feb 1738 Julian was a Tuesday, so the date and office agree exactly. Fasti vol. 3 (Kilbirnie) names 'James, min. of Edinburgh Castle' as the son of Rev. John Glasgow and Margaret Scott, which is Glasgow-1140's baptism (Kilbirnie, 17 Mar 1700). The full argument and competitor eliminations are in group 1142270617."
         }
       ],
       "draft_url": "/research/subjects/newspapers-early-glasgow/#james-glasgow-edinburgh-castle-1737-1738",
-      "reviewed_on": "2026-10-05"
+      "reviewed_on": "2026-10-06",
+      "prior_assessment": {
+        "assessment": "Full Scotland context retained, including dateline and complete Glasgow ordination sentence. The printed long-s glyph in Glasſgow is f-shaped and can produce OCR Glafgow; normalized surname reading Glasgow. Relative 'Last Tuesday' belongs to the Edinburgh Feb. 16 report, not the issue publication date. This notice is not linked to the 1737 appointment or to a profile here. The 1737 and 1738 notices are a probable same-officeholder sequence, not a proved profile identity. Clerk is a clerical style, not evidence of a separate clerk occupation. Neither relative date is calculated from the newspaper issue date.",
+        "profile_ids": [
+          "Glasgow-1140",
+          "Glasgow-1238",
+          "Glasgow-1316",
+          "Glasgow-1442"
+        ],
+        "profile_matches": [
+          {
+            "profile_id": "Glasgow-1140",
+            "confidence": "possible",
+            "role": "Possible identity; no record bridge",
+            "basis": "Prior research describes a 1722 divinity student; original not rechecked and no Castle identity bridge."
+          },
+          {
+            "profile_id": "Glasgow-1238",
+            "confidence": "possible",
+            "role": "Possible identity; no record bridge",
+            "basis": "Compatible Scottish adult chronology; no clergy or Castle bridge."
+          },
+          {
+            "profile_id": "Glasgow-1316",
+            "confidence": "possible",
+            "role": "Possible identity; no record bridge",
+            "basis": "Compatible Scottish adult chronology; no clergy or Castle bridge."
+          },
+          {
+            "profile_id": "Glasgow-1442",
+            "confidence": "possible",
+            "role": "Possible identity; no record bridge",
+            "basis": "Before-1723 birth boundary permits adulthood; no clergy or Castle bridge."
+          }
+        ],
+        "reviewed_on": "2026-10-05"
+      }
     },
     {
       "image_id": "971486582",
@@ -7952,34 +8245,40 @@
       ],
       "status": "confirmed surname",
       "reading": "Robert Glasgow is reported among nine Old Bailey convicts receiving judgment of death, for highway robbery of Joseph Weedon’s gold ring, silver shoe buckles and other things.",
-      "assessment": "A conviction/sentence report. The Last Saturday trial reference has no saved report dateline; no exact trial date inferred. This is not proof of actual execution, death or family identity.",
-      "profile_ids": [
-        "Glasgow-2474",
-        "Glasgow-2473",
-        "Glasgow-3457"
-      ],
-      "profile_matches": [
-        {
-          "profile_id": "Glasgow-2474",
-          "confidence": "possible",
-          "role": "Possible identity; no record bridge",
-          "basis": "Possible; age 35, no concrete chronology conflict. The newspaper’s later execution order is a serious unresolved continuity issue, but execution itself is not established. A Findmypast baptism transcript records him at Irvine. Public research findings associate the adult Robert Glasgow-3479 with Irvine family entries and report an Irvine Burgh Catalogue entry (4 Aug 1738) naming Robert Glasgow master of the Irvine ship Betty and Grizell; the profile merge preserves that caveat. Earlier records are prior research context, not newly inspected originals."
-        },
-        {
-          "profile_id": "Glasgow-2473",
-          "confidence": "possible",
-          "role": "Possible identity; no record bridge",
-          "basis": "Chronologically possible (at least 48); no corroborating London evidence. Public source summary cites a Findmypast baptism transcript dated 7 Jan 1703 at Edinburgh; maintained vital preserves the before qualifier. Profile findings link the baptism to Edinburgh parents, but no relevant maritime or London criminal record was identified. Earlier records are prior research context, not newly inspected originals."
-        },
-        {
-          "profile_id": "Glasgow-3457",
-          "confidence": "possible",
-          "role": "Possible identity; no record bridge",
-          "basis": "Chronologically possible, about 27; no direct record linkage. Public dossier has a FamilySearch baptism citation for David Glasgow in 1744 and unverified tree spouse/child links; no occupational finding for Robert. Earlier records are prior research context, not newly inspected originals."
-        }
-      ],
+      "assessment": "A conviction/sentence report. The Last Saturday trial reference has no saved report dateline; no exact trial date inferred. This is not proof of actual execution, death or family identity. Identity review (6 October 2026): July 1751 report that Robert Glasgow was among nine Old Bailey convicts sentenced to death for robbing Joseph Weedon. The Ordinary's Account shows he was a butcher aged 28, born at Chipping Ongar, Essex. All three Scottish candidates conflict, so he has no WikiTree profile and needs a new one. No compatible WikiTree profile after a duplicate search for: Robert Glasgow (new-profile draft pending).",
+      "profile_ids": [],
+      "profile_matches": [],
       "draft_url": "/research/subjects/newspapers-early-glasgow/#robert-glasgow-old-bailey-1751",
-      "reviewed_on": "2026-10-05"
+      "reviewed_on": "2026-10-06",
+      "prior_assessment": {
+        "assessment": "A conviction/sentence report. The Last Saturday trial reference has no saved report dateline; no exact trial date inferred. This is not proof of actual execution, death or family identity.",
+        "profile_ids": [
+          "Glasgow-2474",
+          "Glasgow-2473",
+          "Glasgow-3457"
+        ],
+        "profile_matches": [
+          {
+            "profile_id": "Glasgow-2474",
+            "confidence": "possible",
+            "role": "Possible identity; no record bridge",
+            "basis": "Possible; age 35, no concrete chronology conflict. The newspaper’s later execution order is a serious unresolved continuity issue, but execution itself is not established. A Findmypast baptism transcript records him at Irvine. Public research findings associate the adult Robert Glasgow-3479 with Irvine family entries and report an Irvine Burgh Catalogue entry (4 Aug 1738) naming Robert Glasgow master of the Irvine ship Betty and Grizell; the profile merge preserves that caveat. Earlier records are prior research context, not newly inspected originals."
+          },
+          {
+            "profile_id": "Glasgow-2473",
+            "confidence": "possible",
+            "role": "Possible identity; no record bridge",
+            "basis": "Chronologically possible (at least 48); no corroborating London evidence. Public source summary cites a Findmypast baptism transcript dated 7 Jan 1703 at Edinburgh; maintained vital preserves the before qualifier. Profile findings link the baptism to Edinburgh parents, but no relevant maritime or London criminal record was identified. Earlier records are prior research context, not newly inspected originals."
+          },
+          {
+            "profile_id": "Glasgow-3457",
+            "confidence": "possible",
+            "role": "Possible identity; no record bridge",
+            "basis": "Chronologically possible, about 27; no direct record linkage. Public dossier has a FamilySearch baptism citation for David Glasgow in 1744 and unverified tree spouse/child links; no occupational finding for Robert. Earlier records are prior research context, not newly inspected originals."
+          }
+        ],
+        "reviewed_on": "2026-10-05"
+      }
     },
     {
       "image_id": "979343886",
@@ -7992,34 +8291,40 @@
       ],
       "status": "confirmed surname",
       "reading": "Robert Glasgow, condemned for robbing Joseph Weedon on the highway, is included among Newgate prisoners ordered for execution on Monday next.",
-      "assessment": "Same named case as the 16 July sentence report, but a different reported action. John Young is the prisoner reprieved for life. This execution order does not establish that Robert was executed. Relative Yesterday and Monday next are not converted to issue-based dates.",
-      "profile_ids": [
-        "Glasgow-2474",
-        "Glasgow-2473",
-        "Glasgow-3457"
-      ],
-      "profile_matches": [
-        {
-          "profile_id": "Glasgow-2474",
-          "confidence": "possible",
-          "role": "Possible identity; no record bridge",
-          "basis": "Possible; age 35, no concrete chronology conflict. The newspaper’s later execution order is a serious unresolved continuity issue, but execution itself is not established. A Findmypast baptism transcript records him at Irvine. Public research findings associate the adult Robert Glasgow-3479 with Irvine family entries and report an Irvine Burgh Catalogue entry (4 Aug 1738) naming Robert Glasgow master of the Irvine ship Betty and Grizell; the profile merge preserves that caveat. Earlier records are prior research context, not newly inspected originals."
-        },
-        {
-          "profile_id": "Glasgow-2473",
-          "confidence": "possible",
-          "role": "Possible identity; no record bridge",
-          "basis": "Chronologically possible (at least 48); no corroborating London evidence. Public source summary cites a Findmypast baptism transcript dated 7 Jan 1703 at Edinburgh; maintained vital preserves the before qualifier. Profile findings link the baptism to Edinburgh parents, but no relevant maritime or London criminal record was identified. Earlier records are prior research context, not newly inspected originals."
-        },
-        {
-          "profile_id": "Glasgow-3457",
-          "confidence": "possible",
-          "role": "Possible identity; no record bridge",
-          "basis": "Chronologically possible, about 27; no direct record linkage. Public dossier has a FamilySearch baptism citation for David Glasgow in 1744 and unverified tree spouse/child links; no occupational finding for Robert. Earlier records are prior research context, not newly inspected originals."
-        }
-      ],
+      "assessment": "Same named case as the 16 July sentence report, but a different reported action. John Young is the prisoner reprieved for life. This execution order does not establish that Robert was executed. Relative Yesterday and Monday next are not converted to issue-based dates. Identity review (6 October 2026): July 1751 report that Robert Glasgow was ordered for execution. The Ordinary's Account confirms he was hanged at Tyburn on Monday 29 July 1751. He has no WikiTree profile; the new profile is flagged on group 971486582. No compatible WikiTree profile after a duplicate search for: Robert Glasgow (new-profile draft pending).",
+      "profile_ids": [],
+      "profile_matches": [],
       "draft_url": "/research/subjects/newspapers-early-glasgow/#robert-glasgow-old-bailey-1751",
-      "reviewed_on": "2026-10-05"
+      "reviewed_on": "2026-10-06",
+      "prior_assessment": {
+        "assessment": "Same named case as the 16 July sentence report, but a different reported action. John Young is the prisoner reprieved for life. This execution order does not establish that Robert was executed. Relative Yesterday and Monday next are not converted to issue-based dates.",
+        "profile_ids": [
+          "Glasgow-2474",
+          "Glasgow-2473",
+          "Glasgow-3457"
+        ],
+        "profile_matches": [
+          {
+            "profile_id": "Glasgow-2474",
+            "confidence": "possible",
+            "role": "Possible identity; no record bridge",
+            "basis": "Possible; age 35, no concrete chronology conflict. The newspaper’s later execution order is a serious unresolved continuity issue, but execution itself is not established. A Findmypast baptism transcript records him at Irvine. Public research findings associate the adult Robert Glasgow-3479 with Irvine family entries and report an Irvine Burgh Catalogue entry (4 Aug 1738) naming Robert Glasgow master of the Irvine ship Betty and Grizell; the profile merge preserves that caveat. Earlier records are prior research context, not newly inspected originals."
+          },
+          {
+            "profile_id": "Glasgow-2473",
+            "confidence": "possible",
+            "role": "Possible identity; no record bridge",
+            "basis": "Chronologically possible (at least 48); no corroborating London evidence. Public source summary cites a Findmypast baptism transcript dated 7 Jan 1703 at Edinburgh; maintained vital preserves the before qualifier. Profile findings link the baptism to Edinburgh parents, but no relevant maritime or London criminal record was identified. Earlier records are prior research context, not newly inspected originals."
+          },
+          {
+            "profile_id": "Glasgow-3457",
+            "confidence": "possible",
+            "role": "Possible identity; no record bridge",
+            "basis": "Chronologically possible, about 27; no direct record linkage. Public dossier has a FamilySearch baptism citation for David Glasgow in 1744 and unverified tree spouse/child links; no occupational finding for Robert. Earlier records are prior research context, not newly inspected originals."
+          }
+        ],
+        "reviewed_on": "2026-10-05"
+      }
     },
     {
       "image_id": "39398244",
@@ -8817,20 +9122,35 @@
       ],
       "status": "confirmed surname",
       "reading": "Robert Glasgow, formerly a hospital mate in the West Indies, is announced for appointment as surgeon to the forces on St Vincent.",
-      "assessment": "Appointment notice. It proves a named Robert Glasgow formerly served as hospital mate in the West Indies and was appointed surgeon to forces on St Vincent; it gives no age, relatives, or birth origin. Glasgow-1076 is a probable candidate for the exact Montgreenan designation, consistent with a prior independently reviewed 1802 record. The 1785 surgeon and 1793 Loudoun doctor are compatible earlier contexts; their identity with him is inferred, not explicitly linked. No family relationship is proved.",
+      "assessment": "Appointment notice. It proves a named Robert Glasgow formerly served as hospital mate in the West Indies and was appointed surgeon to forces on St Vincent; it gives no age, relatives, or birth origin. Glasgow-1076 is a probable candidate for the exact Montgreenan designation, consistent with a prior independently reviewed 1802 record. The 1785 surgeon and 1793 Loudoun doctor are compatible earlier contexts; their identity with him is inferred, not explicitly linked. No family relationship is proved. Identity review (6 October 2026): 1785 Times notice: Robert Glasgow, formerly hospital mate in the West Indies, appointed surgeon to the forces on St Vincent. He is the army surgeon of Johnston's Roll, and probably the 'Dr Robert Glasgow' who made a St Vincent fortune and bought Montgreenan (Glasgow-1076).",
       "profile_ids": [
         "Glasgow-1076"
       ],
       "profile_matches": [
         {
           "profile_id": "Glasgow-1076",
-          "confidence": "possible",
-          "role": "Compatible earlier role; identity unproved",
-          "basis": "Exact Montgreenan designation agrees with the prior checked 1802 record; earlier St Vincent/doctor contexts fit, but cross-record identity remains inferred."
+          "confidence": "probable",
+          "role": "surgeon to the forces, St Vincent (formerly hospital mate, West Indies)",
+          "basis": "Several independent agreements. (1) The St Andrews Biographical Register, from Johnston's Roll of Commissioned Officers in the Medical Service no. 1067, gives Robert Glasgow M.A. and M.D. 6 Dec 1779, possibly an Edinburgh medical student 1767-70, Hospital Mate in the West Indies before 1785, Surgeon Staff St Vincent 1785, half-pay apothecary 1791, alive to at least 1825. That is the man in this notice. (2) Paterson, Ayr II, says Robert Glasgow (b.1747, son of Robert of Puddockholm) 'gained a fortune in St Vincent's' and died at Mountgreenan House on 19 April 1827. (3) UCL LBS styles the Montgr"
         }
       ],
       "draft_url": "/research/subjects/newspapers-early-glasgow/#robert-glasgow-montgreenan-records-1785-1799",
-      "reviewed_on": "2026-10-05"
+      "reviewed_on": "2026-10-06",
+      "prior_assessment": {
+        "assessment": "Appointment notice. It proves a named Robert Glasgow formerly served as hospital mate in the West Indies and was appointed surgeon to forces on St Vincent; it gives no age, relatives, or birth origin. Glasgow-1076 is a probable candidate for the exact Montgreenan designation, consistent with a prior independently reviewed 1802 record. The 1785 surgeon and 1793 Loudoun doctor are compatible earlier contexts; their identity with him is inferred, not explicitly linked. No family relationship is proved.",
+        "profile_ids": [
+          "Glasgow-1076"
+        ],
+        "profile_matches": [
+          {
+            "profile_id": "Glasgow-1076",
+            "confidence": "possible",
+            "role": "Compatible earlier role; identity unproved",
+            "basis": "Exact Montgreenan designation agrees with the prior checked 1802 record; earlier St Vincent/doctor contexts fit, but cross-record identity remains inferred."
+          }
+        ],
+        "reviewed_on": "2026-10-05"
+      }
     },
     {
       "image_id": "601815997",
@@ -11512,34 +11832,40 @@
       ],
       "status": "confirmed surname",
       "reading": "A shipping report states: William Glasgow, from London, at New-York.",
-      "assessment": "Adjacent entries pair vessel and master names, including The Nancy, Maxwell. Thus William is read as the vessel and Glasgow as its master’s surname; no personal forename is supplied. London and New-York are voyage context, not proved personal residence. The report supplies no exact arrival day, age, family or bridge to later masters. The master’s forename remains unknown: William is the vessel. The 1738/1754 Robert shipmaster candidate and older William namesakes are compatible comparisons, without a voyage or individual bridge. Do not identify this man with the 1792 Belfast captain solely by surname.",
-      "profile_ids": [
-        "Glasgow-2474",
-        "Glasgow-1505",
-        "Glasgow-3326"
-      ],
-      "profile_matches": [
-        {
-          "profile_id": "Glasgow-2474",
-          "confidence": "possible",
-          "role": "Identity candidate; qualification below",
-          "basis": "Recorded 1716 Irvine birth and prior 1738 shipmaster study make a compatible occupational candidate. This 1758 notice supplies no personal forename or vessel identity bridge."
-        },
-        {
-          "profile_id": "Glasgow-1505",
-          "confidence": "possible",
-          "role": "Identity candidate; qualification below",
-          "basis": "Estimatedc.1708/1783 Larne lifespan permits an adult in 1758. William is this candidate’s name, not a forename established by the vessel; no individual voyage bridge."
-        },
-        {
-          "profile_id": "Glasgow-3326",
-          "confidence": "possible",
-          "role": "Identity candidate; qualification below",
-          "basis": "Uncertain 1730 Kilwaughter birth permits an adult in 1758. Personal forename is unknown in the notice; no maritime, voyage or family bridge."
-        }
-      ],
+      "assessment": "Adjacent entries pair vessel and master names, including The Nancy, Maxwell. Thus William is read as the vessel and Glasgow as its master’s surname; no personal forename is supplied. London and New-York are voyage context, not proved personal residence. The report supplies no exact arrival day, age, family or bridge to later masters. The master’s forename remains unknown: William is the vessel. The 1738/1754 Robert shipmaster candidate and older William namesakes are compatible comparisons, without a voyage or individual bridge. Do not identify this man with the 1792 Belfast captain solely by surname. Identity review (6 October 2026): 1758 shipping line 'William, Glasgow, from London, at New-York'. William is the vessel and Glasgow the master's surname; the master's forename is unknown, so he cannot be identified.",
+      "profile_ids": [],
+      "profile_matches": [],
       "draft_url": "/research/subjects/newspapers-early-glasgow/#captain-glasgow-william-new-york-1758",
-      "reviewed_on": "2026-10-05"
+      "reviewed_on": "2026-10-06",
+      "prior_assessment": {
+        "assessment": "Adjacent entries pair vessel and master names, including The Nancy, Maxwell. Thus William is read as the vessel and Glasgow as its master’s surname; no personal forename is supplied. London and New-York are voyage context, not proved personal residence. The report supplies no exact arrival day, age, family or bridge to later masters. The master’s forename remains unknown: William is the vessel. The 1738/1754 Robert shipmaster candidate and older William namesakes are compatible comparisons, without a voyage or individual bridge. Do not identify this man with the 1792 Belfast captain solely by surname.",
+        "profile_ids": [
+          "Glasgow-2474",
+          "Glasgow-1505",
+          "Glasgow-3326"
+        ],
+        "profile_matches": [
+          {
+            "profile_id": "Glasgow-2474",
+            "confidence": "possible",
+            "role": "Identity candidate; qualification below",
+            "basis": "Recorded 1716 Irvine birth and prior 1738 shipmaster study make a compatible occupational candidate. This 1758 notice supplies no personal forename or vessel identity bridge."
+          },
+          {
+            "profile_id": "Glasgow-1505",
+            "confidence": "possible",
+            "role": "Identity candidate; qualification below",
+            "basis": "Estimatedc.1708/1783 Larne lifespan permits an adult in 1758. William is this candidate’s name, not a forename established by the vessel; no individual voyage bridge."
+          },
+          {
+            "profile_id": "Glasgow-3326",
+            "confidence": "possible",
+            "role": "Identity candidate; qualification below",
+            "basis": "Uncertain 1730 Kilwaughter birth permits an adult in 1758. Personal forename is unknown in the notice; no maritime, voyage or family bridge."
+          }
+        ],
+        "reviewed_on": "2026-10-05"
+      }
     },
     {
       "image_id": "395720951",
@@ -11592,27 +11918,33 @@
       ],
       "status": "confirmed surname",
       "reading": "Samuel Glascow is one of two prisoners reported capitally convicted at the Old Bailey; his charge is stealing a bay gelding belonging to Mr Serjeant Haywood.",
-      "assessment": "Two issues reprint the report that Samuel was capitally convicted for stealing Mr Serjeant Haywood’s bay gelding. The paragraph says Yesterday, but its own news dateline is outside these excerpts; do not derive a trial date from the issue day. Other defendants’ offences and punishments are separate. The existing Old Bailey case association does not identify an Ulster or Pennsylvania ancestor.",
-      "profile_ids": [
-        "Glasgow-3175",
-        "Glasgow-1492"
-      ],
-      "profile_matches": [
-        {
-          "profile_id": "Glasgow-3175",
-          "confidence": "possible",
-          "role": "Identity candidate; qualification below",
-          "basis": "Existing profile cites the identical Old Bailey case; strong case association, not independently proved identity with its Ulster/Pennsylvania ancestor."
-        },
-        {
-          "profile_id": "Glasgow-1492",
-          "confidence": "possible",
-          "role": "Identity candidate; qualification below",
-          "basis": "Compatible older Samuel chronology and separate Gorteen occurrence, without a London identity bridge."
-        }
-      ],
+      "assessment": "Two issues reprint the report that Samuel was capitally convicted for stealing Mr Serjeant Haywood’s bay gelding. The paragraph says Yesterday, but its own news dateline is outside these excerpts; do not derive a trial date from the issue day. Other defendants’ offences and punishments are separate. The existing Old Bailey case association does not identify an Ulster or Pennsylvania ancestor. Identity review (6 October 2026): May 1761 reports that Samuel Glascow was capitally convicted at the Old Bailey for stealing Serjeant Hayward's bay gelding. His own trial testimony describes a Holborn/High Wycombe tradesman. That conflicts with Glasgow-3175 (an Ulster-born Pennsylvania settler), so the London man has no compatible profile. No compatible WikiTree profile after a duplicate search for: Samuel Glascow (new-profile draft pending).",
+      "profile_ids": [],
+      "profile_matches": [],
       "draft_url": "/research/subjects/newspapers-early-glasgow/#samuel-glascow-old-bailey",
-      "reviewed_on": "2026-10-05"
+      "reviewed_on": "2026-10-06",
+      "prior_assessment": {
+        "assessment": "Two issues reprint the report that Samuel was capitally convicted for stealing Mr Serjeant Haywood’s bay gelding. The paragraph says Yesterday, but its own news dateline is outside these excerpts; do not derive a trial date from the issue day. Other defendants’ offences and punishments are separate. The existing Old Bailey case association does not identify an Ulster or Pennsylvania ancestor.",
+        "profile_ids": [
+          "Glasgow-3175",
+          "Glasgow-1492"
+        ],
+        "profile_matches": [
+          {
+            "profile_id": "Glasgow-3175",
+            "confidence": "possible",
+            "role": "Identity candidate; qualification below",
+            "basis": "Existing profile cites the identical Old Bailey case; strong case association, not independently proved identity with its Ulster/Pennsylvania ancestor."
+          },
+          {
+            "profile_id": "Glasgow-1492",
+            "confidence": "possible",
+            "role": "Identity candidate; qualification below",
+            "basis": "Compatible older Samuel chronology and separate Gorteen occurrence, without a London identity bridge."
+          }
+        ],
+        "reviewed_on": "2026-10-05"
+      }
     },
     {
       "image_id": "396510014",
@@ -11625,27 +11957,33 @@
       ],
       "status": "confirmed surname",
       "reading": "Samuel Glascow is one of two prisoners reported capitally convicted at the Old Bailey; his charge is stealing a bay gelding belonging to Mr Serjeant Haywood.",
-      "assessment": "Two issues reprint the report that Samuel was capitally convicted for stealing Mr Serjeant Haywood’s bay gelding. The paragraph says Yesterday, but its own news dateline is outside these excerpts; do not derive a trial date from the issue day. Other defendants’ offences and punishments are separate. The existing Old Bailey case association does not identify an Ulster or Pennsylvania ancestor.",
-      "profile_ids": [
-        "Glasgow-3175",
-        "Glasgow-1492"
-      ],
-      "profile_matches": [
-        {
-          "profile_id": "Glasgow-3175",
-          "confidence": "possible",
-          "role": "Identity candidate; qualification below",
-          "basis": "Existing profile cites the identical Old Bailey case; strong case association, not independently proved identity with its Ulster/Pennsylvania ancestor."
-        },
-        {
-          "profile_id": "Glasgow-1492",
-          "confidence": "possible",
-          "role": "Identity candidate; qualification below",
-          "basis": "Compatible older Samuel chronology and separate Gorteen occurrence, without a London identity bridge."
-        }
-      ],
+      "assessment": "Two issues reprint the report that Samuel was capitally convicted for stealing Mr Serjeant Haywood’s bay gelding. The paragraph says Yesterday, but its own news dateline is outside these excerpts; do not derive a trial date from the issue day. Other defendants’ offences and punishments are separate. The existing Old Bailey case association does not identify an Ulster or Pennsylvania ancestor. Identity review (6 October 2026): May 1761 reports that Samuel Glascow was capitally convicted at the Old Bailey for stealing Serjeant Hayward's bay gelding. His own trial testimony describes a Holborn/High Wycombe tradesman. That conflicts with Glasgow-3175 (an Ulster-born Pennsylvania settler), so the London man has no compatible profile. No compatible WikiTree profile after a duplicate search for: Samuel Glascow (new-profile draft pending).",
+      "profile_ids": [],
+      "profile_matches": [],
       "draft_url": "/research/subjects/newspapers-early-glasgow/#samuel-glascow-old-bailey",
-      "reviewed_on": "2026-10-05"
+      "reviewed_on": "2026-10-06",
+      "prior_assessment": {
+        "assessment": "Two issues reprint the report that Samuel was capitally convicted for stealing Mr Serjeant Haywood’s bay gelding. The paragraph says Yesterday, but its own news dateline is outside these excerpts; do not derive a trial date from the issue day. Other defendants’ offences and punishments are separate. The existing Old Bailey case association does not identify an Ulster or Pennsylvania ancestor.",
+        "profile_ids": [
+          "Glasgow-3175",
+          "Glasgow-1492"
+        ],
+        "profile_matches": [
+          {
+            "profile_id": "Glasgow-3175",
+            "confidence": "possible",
+            "role": "Identity candidate; qualification below",
+            "basis": "Existing profile cites the identical Old Bailey case; strong case association, not independently proved identity with its Ulster/Pennsylvania ancestor."
+          },
+          {
+            "profile_id": "Glasgow-1492",
+            "confidence": "possible",
+            "role": "Identity candidate; qualification below",
+            "basis": "Compatible older Samuel chronology and separate Gorteen occurrence, without a London identity bridge."
+          }
+        ],
+        "reviewed_on": "2026-10-05"
+      }
     },
     {
       "image_id": "395700744",

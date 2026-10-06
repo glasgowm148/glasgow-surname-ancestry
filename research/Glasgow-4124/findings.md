@@ -64,3 +64,8 @@ The brig Ann is listed cleared out with Glasgow as master and Georgetown as dest
 ## Next questions
 
 Inspect brig Ann ownership, port entry/clearance, passenger and shipping registers around 1788; seek the captain’s forename and signatures before linking him to the Larne family or another master.
+
+<!-- newspaper-identity-review-2026-10-06 -->
+## Identity assessment — newspaper candidates withdrawn, 6 October 2026
+
+- [The Public Advertiser, 1777-05-14, p.2](https://www.newspapers.com/image/34421452/): no longer a candidate for this profile. 1777 prize list naming James Glascow as master of the Greenwich Packet (owner James Young), Philadelphia to Winyaw, South Carolina. He was a Philadelphia-trade master in wartime. Two dozen namesakes exist, none with any maritime or Philadelphia record, so he cannot be identified.
