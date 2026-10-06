@@ -1,6 +1,6 @@
 # Findings: Glasgow-938
 
-Last updated: 2026-10-04
+Last updated: 2026-10-06
 
 ## Current conclusion
 
@@ -81,3 +81,10 @@ Compare the coroner’s inquest and subsequent reporting for an age, address or 
 ### Newspaper identity review — 6 October 2026
 
 - Probable: living at Lisnagaver, Rasharkin, January 1861, when as a neighbour he warned James M'Caughern of a falling gable and raised the alarm. — Belfast News-Letter, 7 Jan 1861 (newspapers.com image 387764534) ([Belfast News-Letter, 1861-01-07, p.4](https://www.newspapers.com/image/387764534/))
+
+<!-- glasgow-951-source-audit-2026-10-06 -->
+## Relationship assessment — Robert and the 1892 citation, 6 October 2026
+
+The [6 January 1892 notice](https://www.newspapers.com/image/388125998/) calls Jane Graham "wife of Robert Glasgow, formerly of Rasharkin". "Wife of", where a widow would be called relict or widow, indicates that Robert was living when she died on 28 December 1891. Nancy Glasgow's Clinton County citation, dated 14 January 1892, names James, Mary and Ann as the children of Alexander Glasgow and does not name Robert. The citation therefore omitted a living son of Alexander. Its lists reflect the petitioner's knowledge and cannot be read as complete; see the 6 October source audit in `research/Glasgow-951/findings.md`.
+
+The same notice joins the Robert Glasgow of 534 Gallowgate to Rasharkin through his wife's name, age and death, so the Scottish identity bridge no longer depends on the two unread Bridgeton birth images. Those images, and the original of his reported 1902 death, remain worth reading for dates and informants.

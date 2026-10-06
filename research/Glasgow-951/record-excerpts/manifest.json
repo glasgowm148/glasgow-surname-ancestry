@@ -177,7 +177,7 @@
       "record_reference": "Civil marriage register, Ballymoney Register Office, 13 October 1876, entry 191; Robert McCracken and Ann Glasgow; image 8097170.",
       "transcription": "Bride’s row (lower): **Lisnagaver / Parish / Rasharkin**; **Alexander Glasgow**; **Labourer**. The upper row belongs to Robert McCracken and names **William McCracken**, labourer.",
       "analysis": "The full entry identifies Ann as a full-age spinster of Lisnagaver. The father’s occupation is expressly labourer in 1876, twelve years before the Gortahar death. Alexander’s later description as a labourer therefore does not, by itself, distinguish that deceased man from the former Lisnagaver farmer.",
-      "uncertainties": "The father name and occupation are secure readings. This marriage supports Ann’s link to the Lisnagaver family but does not prove that she was the Nancy Glasgow who informed the 1888 death. The bride’s name and date are outside this focused crop and visible in the context crop and original entry.",
+      "uncertainties": "The father name and occupation are secure readings. This marriage supports Ann’s link to the Lisnagaver family. The 1888 informant, formerly read as Nancy and compared with Ann, is now read as Mary. The bride’s name and date are outside this focused crop and visible in the context crop and original entry.",
       "highlights": [
         {
           "label": "Ann’s residence: Lisnagaver",
@@ -291,16 +291,16 @@
     },
     {
       "id": "alex1888-informant",
-      "title": "The informant: Nancy Glasgow, daughter, at Gortahar",
+      "title": "The informant: Mary Glasgow, daughter, at Gortahar",
       "archive": "General Register Office of Ireland / IrishGenealogy.ie",
       "source_url": "https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1888/06179/4766466.pdf",
       "record_reference": "Civil death register, Dirraw, Ballymoney union, 1888, entry 348; informant column for Alexander Glasgow; image 4766466.",
-      "transcription": "**Nancy Glasgow**, her + mark; **daughter**; **present at death**; **Gortahar**.",
-      "analysis": "The register expressly identifies the informant as the deceased’s daughter, says she was present, and supplies Gortahar as her residence. These words are direct record evidence. The separate question is which later-recorded woman this Nancy was.",
-      "uncertainties": "Nancy is the maintained corrected reading of the tightly formed forename. It must not be silently replaced with Mary. Identification with Ann Glasgow, who married Robert McCracken in 1876, is unproved; a separate daughter remains possible. The “her mark” notation sits between the name lines and is preserved unchanged.",
+      "transcription": "**Mary Glasgow**, her + mark; **daughter**; **present at death**; **Gortahar**.",
+      "analysis": "The register expressly identifies the informant as the deceased’s daughter, says she was present, and supplies Gortahar as her residence. These words are direct record evidence. The forename reads Mary: it matches the registrar’s “Mary” in entries 345, 330 and 358 and differs from his “Nancy” in entry 355. Alexander’s daughter Mary, by then Mrs Elder of Gortahar, is the natural candidate.",
+      "uncertainties": "The forename was read as Mary on 24 August 2026, changed to Nancy on 13 September and corrected back to Mary on 6 October 2026 after comparison with the registrar’s other entries. The image is the registrar’s quarterly copy; the local register has not been viewed. The surname Glasgow is unexpected for a daughter married since 1871: a maiden-name entry, the wife Mary Glasgow with the relationship mis-entered, or the Mary Ellen Glasgow born in 1867 are the open readings. The “her mark” notation sits between the name lines and is preserved unchanged.",
       "highlights": [
         {
-          "label": "Nancy",
+          "label": "Mary",
           "x": 39,
           "y": 45,
           "width": 213,
@@ -352,7 +352,7 @@
       "width": 700,
       "height": 410,
       "image_sha256": "da7377174d526592aeb5872ebf53e961acd55fc46082be487d46488e3f7f396d",
-      "reviewed_date": "2026-09-13",
+      "reviewed_date": "2026-10-06",
       "review_status": "Original image and separate annotation proof visually reviewed",
       "publication_status": "approved"
     },

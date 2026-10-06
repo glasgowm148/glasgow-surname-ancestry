@@ -1,6 +1,6 @@
 # Findings: Glasgow-4071
 
-Last updated: 2026-09-21
+Last updated: 2026-10-06
 
 ## Current conclusion
 
@@ -37,7 +37,7 @@ to test the extended network and full/half relationships.
 ## Unresolved questions and next records
 
 1. GRONI image of the 1868 death (informant; whether James was living).
-2. James Anderson's own death (after 1868; search irishgenealogy deaths Ballymoney 1871–1900).
+2. James Anderson's own death: found 6 October 2026 (18 April 1888, Gortahar; see below).
 3. Elizabeth's marriage (c.1828–33, pre-registration): Rasharkin Presbyterian marriages begin 1845; Kilraughts/Ballymoney RP registers (PRONI CR5/32) are the surviving early source.
 
 ## Anderson household created on WikiTree, 17 September 2026
@@ -47,3 +47,20 @@ Sons of James Anderson (Anderson-104743) and Elizabeth (Glasgow) Anderson (Glasg
 ## Source findings — GRONI death image, 23 September 2026
 
 Death register image viewed on GRONI (D/1868/31/1005/2/25, Dirraw entry 25): married farmer's wife, 66, died 7 September 1868 at Gortahar of phthisis. Her husband James Anderson (his mark) was present at death. Registered 29 September 1868. Live profile updated 23 September 2026.
+
+<!-- glasgow-951-source-audit-2026-10-06 -->
+## Source findings
+
+### James Anderson's death — 6 October 2026
+
+[Civil death register, Dirraw registrar's district, 1888, entry 333](https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1888/06179/4766465.pdf): **James Anderson**, widower, retired farmer, reported age 94, died at **Gortahar on 18 April 1888** of debility of three years' standing, with no medical attendant. His son James Anderson of Gortahar, who signed by mark, was present at death and registered it on 4 May 1888. The image was read on 6 October 2026.
+
+The townland, widowed status, age, occupation and son's name identify him at high confidence as Elizabeth's husband (Anderson-104743). The entry does not name his late wife. The age implies birth about 1793–94. The informant is the son James (Anderson-104794), until now known only from the 1892 citation. Elizabeth's probable brother Alexander (Glasgow-951) died in the same townland on 16 May 1888.
+
+## Identity assessment — "Charlotte Glascow", baptism entry 138
+
+The [Rasharkin Presbyterian baptism transcription](https://genealogy.torrens.org/BannValley/church/RasharkinP/Baptisms_1834.html), entry 138, between entries dated March 1839 and August 1842, reads: Jane Anderson, daughter of Jas Anderson and **Charlotte Glascow**, Drumack. Entries 04 and 63 name James Anderson's wife at Drumack as Betty or Elisabeth Glascaw, and Elizabeth lived until 1868. A slip for Elizabeth is the likeliest explanation; a second Anderson–Glasgow couple at Drumack is not excluded. Do not add Jane as Elizabeth's daughter until the original register (PRONI MIC1P/292) has been read.
+
+## Recommended WikiTree update — 6 October 2026
+
+Add James Anderson's death to this profile's biography and to Anderson-104743 (death 18 April 1888, Gortahar; birth about 1793–94 from the reported age). Queued locally; not saved on WikiTree.

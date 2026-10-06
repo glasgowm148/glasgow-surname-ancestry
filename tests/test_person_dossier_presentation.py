@@ -357,8 +357,8 @@ class PersonDossierPresentationTests(unittest.TestCase):
         self.assertIn("upper row", death.select_one('[data-excerpt="robert1866-marriage"]').get_text())
         self.assertIn("lower row", death.select_one('[data-excerpt="ann1876-marriage"]').get_text())
         self.assertIn("does not establish the deceased’s identity", death.get_text())
-        self.assertIn("Nancy Glasgow", death.select_one('[data-excerpt="alex1888-informant"] blockquote').get_text())
-        self.assertIn("Ann’s identification as Nancy is unproved", death.get_text())
+        self.assertIn("Mary Glasgow", death.select_one('[data-excerpt="alex1888-informant"] blockquote').get_text())
+        self.assertIn("The 1888 informant reads Mary Glasgow, daughter", death.get_text())
         self.assertIn("names no relatives or Irish birthplace", soup.select_one('[data-excerpt="nancy1891-death"] .snippet-reading').get_text())
         for section in soup.select(".account-section"):
             self.assertNotIn("{{snippets:", section.get_text())
@@ -406,7 +406,7 @@ class PersonDossierPresentationTests(unittest.TestCase):
         expected = {
             "family-account": ["baggage agent", "County Antrim", "names neither Alexander nor Mary", "Samuel Elder", "Samuel Glasgow", "no father named", "no death or burial has been found"],
             "places-account": ["Archibald", "Cath Quinn", "CR5/32A/1", "has not been inspected"],
-            "death-account": ["Glenleslie", "72", "118", "1882", "weaker but not excluded", "Ann’s identification as Nancy is unproved"],
+            "death-account": ["Glenleslie", "72", "118", "1882", "weaker but not excluded", "The 1888 informant reads Mary Glasgow, daughter"],
             "parents-account": ["1829", "59", "land section supplies no occupier names", "Plantation measure", "14–15", "7–8"],
             "connections-account": ["express agent of Rochester", "James Glasco", "Eliza Jane", "Thomasina Montgomery", "John Black", "Mary Anne", "1875", "1900–09", "neither the fractions nor the common name"],
             "dna-account": ["genetic distance 3 at Y-111", "FT6135", "Untested", "two missing relationships", "1760", "1762", "only 12", "John Glasgow, farmer"],

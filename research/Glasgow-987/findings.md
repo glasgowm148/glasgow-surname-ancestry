@@ -1,6 +1,6 @@
 # Findings: Glasgow-987
 
-Last updated: 2026-09-13
+Last updated: 2026-10-06
 
 ## Assessment history — will and marriage review
 
@@ -222,3 +222,10 @@ The [original C298 deed, 15 September 1869](https://www.familysearch.org/ark:/61
 ### 17 September 2026: widow Mary Ann's remarriage and the Ballydonnelly mill (Source findings)
 
 A 30 March 1889 Exchequer judgment (creditor Robert Wilson, trading as Louden & Wilson, Belfast) describes the debtor as **Mary Ann Smith otherwise Glasgow, wife of John Smith, formerly of Rosedermot otherwise Rosedemate**, holding the Lisnagaver tenancy and the Ballydonnelly flax-mill plot (rent £1 1s 8d) under "the representative of the late Robert B. Harvey Esq." ([FamilySearch 3Q9M-CSKS-13HQ-D](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKS-13HQ-D)). This documents that Thomas's widow **Mary Ann (McCracken) Glasgow remarried a John Smith** and moved to Rosedermot, and confirms the Ballydonnelly flax mill was the Thomas branch's holding. Thomas himself died **21 June 1870** at Lisnagaver (Will Calendar and the 21 June index; a "24 May 1870" FamilySearch index entry is a divergent transcription). Full context: `research/Glasgow-951/research-log-2026-09-17-live.md`.
+
+<!-- glasgow-951-source-audit-2026-10-06 -->
+## Source findings
+
+### Kilrea school register — 6 October 2026
+
+The published [Kilrea Girls' National School register](https://genealogy.torrens.org/BannValley/church/KilreaCOI/NatSchoolGirls.html), entry 53, records in 1871 **Sarah Glasgow**, aged 9, residence "Ballyconley", parent or guardian "Widow"; the religion column is blank. Thomas died on 21 June 1870 and his widow Mary Ann later held the Ballydonnelly flax-mill plot. The entry probably records their daughter Sarah (Glasgow-3975) living with her mother at Ballydonnelly the year after Thomas died. It is the first record placing a Glasgow household in residence at Ballydonnelly, and bears on the "John Glasgow, late of Baladonly" of the 1892 citation. The townland spelling is the transcriber's, the original register has not been seen, and no father is named, so the identification is probable, not proved.

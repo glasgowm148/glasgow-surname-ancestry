@@ -1,6 +1,6 @@
 # Findings: Mary Glasgow (Glasgow-3167), wife of Robert Elder
 
-Last updated: 2026-09-17
+Last updated: 2026-10-06
 
 ## New identity and relationship lead: Lisnagaver birth, 14 February 1867
 
@@ -174,3 +174,12 @@ Source: [Down the Road, Gortereghy 1911 census browse](https://downtheroad.dev/d
 Mary Ellen’s 1867 birth now has an existing child-profile destination: Glasgow-4269 cites the same Ballymoney register entry 214. The original says 14 February and Mary Ellen; the index/profile says 17 February and Mary. A correction is drafted, not saved. Mary-3167 remains a compatible mother identification and Ann-438 a compatible informant identification; neither is newly proved by the profile match.
 
 Current public profile biographies were checked alongside the maintained historical record accounts. The complete record-specific review is published in the [profile matching audit](https://glasgow.phenotype.dev/research/profile-matches/).
+
+<!-- glasgow-951-source-audit-2026-10-06 -->
+## Identity assessment — the 1888 informant and the 1838 baptism, 6 October 2026
+
+**Mary probably registered her father's death.** [Death entry 348](https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1888/06179/4766466.pdf) (16 May 1888, Gortahar) names the informant as "Mary Glasgow, her mark, daughter, present at death, Gortahar". The forename was read as Nancy from 13 September to 6 October 2026; comparison with the registrar's other entries shows Mary. Mary Elder lived at Gortahar, where Jane Matilda was born in 1878, and she signed by mark as "Mary Elder, daughter" at [her mother's death in 1892](https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1892/06049/4723532.pdf). She was Mrs Elder in 1888, so the surname Glasgow needs explaining. Three readings remain open: a maiden-name entry; her mother, the wife Mary Glasgow, with the relationship mis-entered; or the Mary Ellen Glasgow born in 1867. The local register original (GRONI) has not been viewed.
+
+**Mary may be the unnamed child baptised in 1838.** She is absent from her parents' 1851 return, and a [search of the surviving 1851 returns](https://nationalarchives.ie/collections/search-the-census/search-results/#census_year=1851&surname__icontains=Glasgow&limit=100) on 6 October 2026 found no child Mary Glasgow of suitable age elsewhere in Rasharkin parish. Her ages (28 in 1871, 60 in 1901, 72 in 1911) place her birth between about 1838 and 1843. Her brothers' births about 1840–41 and in October 1843 leave the 1838 baptism (Glasgow-3940) as the open place. This is not proved; do not merge the profiles until the original register entry has been read. The Maryan aged 17 at Glenleslie in 1851 remains a separate, unproved identity.
+
+**A question to test, not a finding.** The daughter Mary, 28, in the 1901 Gortahar household has no located birth registration as an Elder. Whether she is the Mary Ellen born at Lisnagaver on [14 February 1867](https://www.irishgenealogy.ie/files/civil/birth_returns/births_1867/03501/2286677.pdf) (Glasgow-4269), with her age understated, has not been tested.

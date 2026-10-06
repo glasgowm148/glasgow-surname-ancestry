@@ -1,6 +1,86 @@
 # Findings: Glasgow-951
 
-Last updated: 2026-09-30
+Last updated: 2026-10-06
+
+<!-- glasgow-951-source-audit-2026-10-06 -->
+## Current conclusion — source audit, 6 October 2026
+
+**Result: the informant at the 1888 death reads Mary Glasgow, not Nancy, and the Gortahar death identification is stronger for it. No parent is newly proved.** This audit re-read the maintained records for Alexander and his probable siblings and ran new searches. It makes one correction, adds one new death record and draws two inferences the notes had not drawn. Two smaller records concern Thomas's family and the Anderson household.
+
+### The 1888 informant reads Mary
+
+[Death entry 348](https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1888/06179/4766466.pdf), Dirraw registrar's district, was compared on 6 October 2026 with other entries written by the same registrar, S. B. B. Keers, in the same weeks. The informant's forename matches his "Mary" in entry 345 on the same page (Mary Smith), in [entry 330](https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1888/06179/4766465.pdf) (Mary McCaw) and in [entry 358](https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1888/06179/4766467.pdf) (Mary McFall). It differs from his "Nancy" in entry 355 (Nancy McKay): the word has four letters ending "ary" and lacks the separate n and c of his Nancy. An independent blind reading of the cropped words also gave Mary; its only doubt was the compressed capital. The informant column therefore reads **Mary Glasgow, her mark, daughter, present at death, Gortahar**.
+
+The reading of 24 August 2026, "daughter Mary", was right. The change to Nancy on 13 September was the error. Every later statement that depends on it is superseded: the search for the identity of a daughter Nancy, the comparison with Ann (Glasgow-438), and the same-name comparison with Thomas's daughter Nancy (Glasgow-1362).
+
+Alexander's daughter Mary (Glasgow-3167) lived at Gortahar and is the natural candidate. She had been Mrs Elder since 14 June 1871, and the same registrar entered her as "Mary Elder, her mark, daughter" at [her mother's death on 17 February 1892](https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1892/06049/4723532.pdf). The surname Glasgow in 1888 therefore needs explaining. Three readings are possible:
+
+1. the daughter Mary was entered under her maiden surname;
+2. the informant was Alexander's wife Mary Glasgow, who was living, and "daughter" is a slip for "wife";
+3. the informant was Mary Ellen Glasgow (Glasgow-4269), born at Lisnagaver on [14 February 1867](https://www.irishgenealogy.ie/files/civil/birth_returns/births_1867/03501/2286677.pdf) to an unmarried Mary Glasgow, and "daughter" stands for a granddaughter. This needs her mother to be Alexander's daughter Mary, which is compatible but not proved.
+
+Each reading places the informant in the Lisnagaver family. The death identification no longer depends on an unidentified daughter. It remains probable: the entry names no wife or former address, and the reported age of 84 still conflicts with the 1851 census age. The online image is the registrar's quarterly copy. The local register held by GRONI has not been viewed; it would settle the forename and show whether the surname was written Glasgow or Elder. The comparison sheet is saved as `sources/alexander_glasgow_death_1888_informant_comparison.png`.
+
+### A new Gortahar death: James Anderson, 18 April 1888
+
+[Entry 333](https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1888/06179/4766465.pdf), on the page before Alexander's, records **James Anderson**, widower, retired farmer, reported age 94, who died at Gortahar on 18 April 1888 of debility of three years' standing, with no medical attendant. His son James Anderson of Gortahar, who signed by mark, was present and registered the death on 4 May 1888. Townland, widowed status, age, occupation and the son's name identify him at high confidence as the husband (Anderson-104743) of Elizabeth (Glasgow) Anderson (Glasgow-4071), who died at Gortahar in 1868. The entry does not name his late wife. It closes the open search for his death, gives a birth about 1793–94, and is a second record for the son James (Anderson-104794) named in the 1892 citation. Alexander died in the same townland four weeks later, so he spent his last years where his probable sister's family had long lived.
+
+### Robert was living when the 1892 citation left him out
+
+The [Belfast News-Letter of 6 January 1892](https://www.newspapers.com/image/388125998/), already held for Robert (Glasgow-938), announces the death on 28 December 1891 of Jane Graham, "wife of Robert Glasgow, formerly of Rasharkin", at 534 Gallowgate, Glasgow. "Wife of", where a widow would be called relict or widow, indicates that Robert was living. The Clinton County citation is dated 14 January 1892, eight days after the notice, and names only James, Mary and Ann as Alexander's children. It therefore omitted a living son.
+
+Two consequences follow. The citation's lists reflect what the petitioner knew and are incomplete even inside Alexander's own family, so the omission of Thomas's children carries less weight still. And the notice joins the Robert Glasgow of Gallowgate to Rasharkin through his wife's name, age and death, which largely makes the Scottish identity bridge that was listed as an open test. The original of his reported 1902 death is still worth reading.
+
+### The 1851 return omitted a living daughter
+
+The 1851 Lisnagaver house-35 return lists Alexander, Mary, Robert, James and Ann. The notes already record that daughter Mary is not in it. A search of the surviving 1851 returns on 6 October 2026 ([National Archives search, surname Glasgow](https://nationalarchives.ie/collections/search-the-census/search-results/#census_year=1851&surname__icontains=Glasgow&limit=100), 136 rows) found no child Mary Glasgow of suitable age anywhere in Rasharkin parish, and she is not among the household's absent members or its deaths since 1841. Mary was certainly living: she married in 1871 and appears in the 1901 and 1911 censuses. The return is therefore not a complete list of the couple's living children.
+
+This removes the ground for the statement that the unnamed child baptised in 1838 (Glasgow-3940) "probably died before 1841". That inference rested on the child's absence from the same return. Mary's later ages (28 in 1871, 60 in 1901, 72 in 1911) place her birth between about 1838 and 1843, and the baptism sequence leaves little room after 1840: Robert was born about 1840–41 and the second James on 9 October 1843. Mary is the leading candidate to be the 1838 child. That identification is not proved. The two profiles should not be merged without the original register entry (PRONI MIC1P/292, entry 106), which may give the forename or sex that the published transcription leaves blank. The search matched surnames containing "Glasgow"; other spellings were not run separately.
+
+### A Glasgow household at Ballydonnelly in 1871
+
+The published [Kilrea Girls' National School register](https://genealogy.torrens.org/BannValley/church/KilreaCOI/NatSchoolGirls.html), entry 53, records in 1871 **Sarah Glasgow**, aged 9, residence "Ballyconley", parent or guardian "Widow"; the religion column is blank. Thomas Glasgow (Glasgow-987) died on 21 June 1870, his widow Mary Ann later held the Ballydonnelly flax-mill plot, and their daughter Sarah (Glasgow-3975) married in 1885. The entry probably records that Sarah, living with her widowed mother at Ballydonnelly the year after Thomas died, and gives her a birth about 1861–62. It is the first record that places a Glasgow household in residence at Ballydonnelly, which bears on the citation's "John Glasgow, late of Baladonly". The townland spelling is the transcriber's, the original register has not been seen, and no father is named.
+
+### An unexplained "Charlotte Glascow" at Drumack
+
+The [Rasharkin Presbyterian baptism transcription](https://genealogy.torrens.org/BannValley/church/RasharkinP/Baptisms_1834.html) has an entry numbered 138, between entries dated March 1839 and August 1842: Jane Anderson, daughter of Jas Anderson and **Charlotte Glascow**, of Drumack. Entries 04 and 63 name the mother of James Anderson's children at Drumack as Betty or Elisabeth Glascaw, and Elizabeth lived until 1868. The notes cited the entry number once without its content. A slip for Elizabeth, by the clerk or the transcriber, is the likeliest explanation, but a second Anderson–Glasgow couple at Drumack is not excluded. The original register (PRONI MIC1P/292) should be read before the Anderson family is treated as settled, and Jane should not be added as Elizabeth's daughter until then.
+
+### Searches that found nothing
+
+- **New York State Death Index, 1891** ([archive.org](https://archive.org/details/New_York_State_Death_Index_1891)): the only Glasgow is Sarah, Newburgh, 14 October; the only Glasco is Julia, Newburgh. Nancy's death at Plattsburgh on 31 October 1891 is not indexed under either spelling, so no state certificate naming her parents is identified. The Plattsburgh town or village clerk's register is the remaining route.
+- **[PRONI Freeholders' Registers](https://apps.proni.gov.uk/freeholders/)**: 12 Glasgow rows, none in County Antrim. John Glasgow of "Drumcon" (D/834/1) is on a Loughinsholin, County Londonderry, page.
+- **Bann Valley transcriptions** (420 pages read by script, all Glasgow spellings): nothing further beyond the two entries above; the Patton and Speir marriages were already held.
+- **IrishGenealogy civil index, Glasgow, Ballymoney, 1864–1921** (37 rows): the rows not already in the notes belong to the Samuel Glasgow–Margaret Gallagher family of Mounthamilton and to Jane Glasgow of Lisheeghan (died Ballymoney workhouse 6 March 1890, aged 31; daughter Jane Matilda born 3 June 1888, died 1889). No link to Alexander's family is shown.
+- **Ordnance Survey Memoir emigrant lists**: Rasharkin is not covered; the Antrim lists exist only for Ahoghill, Drummaul, Duneane and Ballyscullion.
+- **Not done:** the New York State Historic Newspapers site was behind a browser verification page and was not searched further. The unread Clinton County results (76 of 96 for Nancy, 33 of 53 for `Glas*`) remain to be read.
+
+## Source findings
+
+### Source audit — 6 October 2026
+
+| Source | Finding | Assessment |
+| --- | --- | --- |
+| [Civil death register, Dirraw, 1888, entry 348](https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1888/06179/4766466.pdf) | Alexander Glasgow, married labourer, 84, died at Gortahar 16 May 1888; informant **Mary Glasgow**, her mark, daughter, present at death, Gortahar; registered 25 May. | Quarterly copy re-read against the registrar's other entries. Forename corrected from Nancy to Mary. Local original not viewed. |
+| [Same register, entries 330 and 333](https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1888/06179/4766465.pdf) | Entry 330 informant "Mary McCaw". Entry 333: James Anderson, widower, retired farmer, 94, died at Gortahar 18 April 1888; son James Anderson, his mark, present; registered 4 May. | Handwriting comparison, and a new death record for the husband of Elizabeth (Glasgow) Anderson, identified at high confidence. |
+| [Same register, entries 355 and 358](https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1888/06179/4766467.pdf) | Informants "Nancy McKay" (355) and "Mary McFall" (358). | Handwriting comparison only; neither person is connected to the family. |
+| [Civil death register, 1892, entry 234](https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1892/06049/4723532.pdf) | Mary Glasgow, widow, 89, died at Gortahar 17 February 1892 of gangrene of the foot; informant "Mary Elder, her mark, daughter". | Image read 6 October 2026; agrees with the maintained reading. Saved under `sources/`. |
+| [Civil marriage, 14 June 1871](https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1871/11341/8162804.pdf) | Robert Elder, 40, of Gortrighey, son of Nathaniel, and Mary Glasgow, 28, of Lisnagaver, daughter of Alex. Glasgow, farmer; witnesses William Graham and John Collins. | Image read 6 October 2026; agrees with the maintained reading. Saved under `sources/`. |
+| [Belfast News-Letter, 6 January 1892, p. 1](https://www.newspapers.com/image/388125998/) | Jane Graham, "wife of Robert Glasgow, formerly of Rasharkin", died 28 December at 534 Gallowgate, Glasgow, aged 51. | Already held. New inference: Robert was living eight days before the citation that omits him. |
+| [National Archives of Ireland, 1851 census search, surname Glasgow](https://nationalarchives.ie/collections/search-the-census/search-results/#census_year=1851&surname__icontains=Glasgow&limit=100) | 136 rows. Lisnagaver house 35: Alexander 40, Mary 40, Robert 10, James 7, Anne 4. No child Mary Glasgow of suitable age in Rasharkin parish. | Negative for Mary; shows the return is not a complete list of living children. Other spellings were not run separately. |
+| [Kilrea Girls' National School register, entry 53](https://genealogy.torrens.org/BannValley/church/KilreaCOI/NatSchoolGirls.html) | 1871: Sarah Glasgow, 9, "Ballyconley", "Widow". | Derivative transcription. Probably the daughter of Thomas (Glasgow-987). |
+| [Rasharkin Presbyterian baptisms, entry 138](https://genealogy.torrens.org/BannValley/church/RasharkinP/Baptisms_1834.html) | Jane Anderson, daughter of Jas Anderson and Charlotte Glascow, Drumack; between entries of 1839 and 1842. | Derivative transcription. The mother's forename is unexplained. |
+
+## Recommended corrections — source audit, 6 October 2026
+
+- Glasgow-951: replace "Nancy Glasgow" with "Mary Glasgow" as the 1888 informant and remove the open question about a daughter Nancy. The pending replacement draft carries the correction.
+- Glasgow-438: replace the research note that compares Ann with "Nancy Glasgow".
+- Glasgow-4071 and Anderson-104743: add James Anderson's death, 18 April 1888, Gortahar.
+- Glasgow-3940: withdraw "died before 1841" as a probable conclusion; note Mary (Glasgow-3167) as the leading candidate without merging.
+- Glasgow-3975: add the 1871 school entry as a probable record and review the birth estimate (about 1861–62).
+- Glasgow-3904: its note on the 1888 Gortahar death should say the informant was a daughter Mary.
+- View the local register original of entry 348 on GRONI. No credit was bought.
+
+No live WikiTree edit, message or purchase was made in this audit.
 
 ## Current conclusion and independent tests — 29 September 2026
 
@@ -47,7 +127,7 @@ A follow-up query for daughter Mary with parents Robert Thomson and Mary Glasgow
 
 **Lizzie of John's cited branch remains unidentified.** The 1880 West Troy census candidate, Irish-born domestic servant Lizzie Glasgow, aged 21, in James O. Wood's household ([FamilySearch MZCY-D41](https://www.familysearch.org/ark:/61903/1:1:MZCY-D41)), has no inspected parent statement. Public web index searches for Lizzie/Elizabeth Glasgow or Glascow at West Troy/Watervliet and with James Garvin found no independent parentage record. These are index misses, not searches of all civil registers. A namesake remains possible.
 
-**Next independent tests:** follow the Mary Thomson–Sneddon candidate into censuses and death indexes for birthplace and mother's parents; distinguish Ann Glasgow McClelland's own death from her sons' already known parent statements; verify Robert-938's alleged 1902 Scottish death and earlier household to test the 1892 omission; examine probate letters/minutes and the 1894 appraisal if accessible. A record naming one sibling's father is more useful than accumulating more neighbouring tenants. The petition is valuable but is not the only route to resolution. No email, message or live WikiTree edit was made in this review.
+**Next independent tests:** follow the Mary Thomson–Sneddon candidate into censuses and death indexes for birthplace and mother's parents; distinguish Ann Glasgow McClelland's own death from her sons' already known parent statements; confirm Robert-938's reported 1902 Scottish death from its original (the 6 January 1892 notice shows he was living when the citation omitted him; see the 6 October audit); examine probate letters/minutes and the 1894 appraisal if accessible. A record naming one sibling's father is more useful than accumulating more neighbouring tenants. The petition is valuable but is not the only route to resolution. No email, message or live WikiTree edit was made in this review.
 
 ## Source findings — free newspaper searches, 30 September 2026
 
@@ -69,7 +149,7 @@ The argument has three steps:
 
 **Consistency checks that support the reconstruction:** Samuel was born about 1790 in County Londonderry, and John-867 was born in County Antrim about 1801. This fits a father who moved across the Bann during the 1790s, and a Desertoghill occupier in 1796 would fit that move. It does not prove the Desertoghill identity. The 1834 Lisnagaver tithe pairs "Alexr" and "Robt" Glasgow, and the citation's brother Robert (daughters Mary Jane and Ann) gives a natural candidate for that co-tenant. The implied father's age at Alexander's c.1811 birth (roughly 40s) is compatible. The approximate c.1790–1815/21 span permits more than one wife but proves none; Nancy's conflicting age estimates are evaluated above.
 
-**What still counts against the conclusion or limits it:** (a) The citation reflects what the petitioner knew and is not a decree. The petition and heir schedule could correct it. (b) Alexander's son Robert-938 is omitted, and whether he was still alive in 1892 is unverified. (c) The Ballydonnelly residence and the unidentified "Lizzie" leave a small doubt about the John identification, although "James G." plus Ann make John-867 the clear match. (d) None of this excludes a different same-surname explanation. Thomas-987 and Daniel-3896 are not in Nancy's sibling group as reconstructed, so they would most naturally be Alexander's cousins rather than brothers. Their omission alone does not prove that. The older Alexander/Rosanna tradition, Robert-1367 and the unidentified 1834 Robert as *father* are weaker alternatives. None has a record placing Alexander in that man's family.
+**What still counts against the conclusion or limits it:** (a) The citation reflects what the petitioner knew and is not a decree. The petition and heir schedule could correct it. (b) Alexander's son Robert-938 is omitted although he was living in late December 1891 (corrected 6 October 2026), so the list is incomplete. (c) The Ballydonnelly residence and the unidentified "Lizzie" leave a small doubt about the John identification, although "James G." plus Ann make John-867 the clear match. (d) None of this excludes a different same-surname explanation. Thomas-987 and Daniel-3896 are not in Nancy's sibling group as reconstructed, so they would most naturally be Alexander's cousins rather than brothers. Their omission alone does not prove that. The older Alexander/Rosanna tradition, Robert-1367 and the unidentified 1834 Robert as *father* are weaker alternatives. None has a record placing Alexander in that man's family.
 
 **Recommended WikiTree position:** keep Glasgow-4090 attached as Alexander's father with uncertain status. The research notes should describe the relationship as probable, set out the three-step argument, and name the Clinton County petition as the decisive outstanding record. Make no change to mother or siblings. The most useful next records remain Nancy's probate packet (petition, heir schedule, affidavits of service), Robert-938's survival in 1892, and any Rasharkin/Desertoghill record naming John's children.
 
@@ -160,17 +240,18 @@ imported 6 November 1840 date remains unsupported. Mary’s 1871 marriage and An
 
 **16 May 1888 at Gortahar remains Alexander’s probable death and the
 best-supported located match.** Original entry 348 was inspected again on
-13 September: Alexander Glasgow, married labourer, 84; Nancy Glasgow, daughter,
-present at death, **of Gortahar**; registered 25 May. Nancy’s residence is stated.
-The age conflicts with the 1851 age by about seven years; her identity with Ann
-McCracken is not proved. Mary Elder’s Lisnagaver father-naming marriage, husband
+13 September and 6 October: Alexander Glasgow, married labourer, 84; Mary Glasgow,
+daughter, present at death, **of Gortahar**; registered 25 May. The forename was
+read as Nancy from 13 September until the 6 October comparison with the
+registrar’s other entries. The age conflicts with the 1851 age by about seven
+years. The informant fits Alexander’s daughter Mary, by then Mrs Elder of Gortahar. Mary Elder’s Lisnagaver father-naming marriage, husband
 Robert Elder’s succession to lot 25, the Elder family at Gortahar, and Mary
 Glasgow’s 17 February 1892 death there with daughter Mary Elder form the strongest
 indirect bridge. The 1892 record does not itself name the deceased husband.
 
 [Alexander of Glenleslie (Glasgow-2385)](https://www.wikitree.com/wiki/Glasgow-2385)
 is a real competing labourer namesake, but his c.1816 birth is a worse age fit
-and no located Gortahar/Nancy/Elder connection supports reassignment. He is a
+and no located Gortahar/Elder connection supports reassignment. He is a
 weaker alternative, not conclusively excluded. Older Alexander `Glasgow-3904`
 is a poor generational fit. No better positively evidenced claimant to the
 1888 death was found in this bounded review; no exhaustive new national death
@@ -205,7 +286,7 @@ The paired death ages imply Alexander and Mary were about seven and eight years 
 
 DNA inference is also tightened. Ancestral FT6135 results in suitable James M descendant lines would contradict simple inheritance under the supplied pedigrees, not logically exclude an earlier carrier followed by reversion. A displayed basal FT20271 label is not a complete downstream-negative audit. STR reconstruction and rounded private-variant averages reuse existing observations and do not independently validate them. No c.1750 common-ancestor date is adopted for Alexander. The next comparisons prioritise existing consented data, direct genotype/coverage checks and independently documented descendant branches.
 
-The outstanding discriminating work is Nancy’s later identity, the later life
+The outstanding discriminating work is the local register original of entry 348, the later life
 of the Glenleslie Alexander, a burial/notice explicitly joining the Gortahar man
 to Mary or Lisnagaver, the early PRONI family/society material and independent
 descendant-line comparisons. This task updates the local public account; live
@@ -473,7 +554,7 @@ uncertain, and Alexander is a possible brother or cousin of Thomas and Daniel.
   1883–1900 (DGS 8081205), with indexes, but image access currently requires
   sign-in. Those later films—not the now-searched famine-era register—are the
   relevant remaining test for Alexander or Mary after lot 25 changed hands.
-- **1888 daughter-informant Nancy — identity search unresolved.** The death
+- **1888 daughter-informant Nancy — identity search unresolved.** [Superseded 6 October 2026: the informant reads Mary Glasgow.] The death
   return supplies Nancy Glasgow’s residence as Gortahar but gives no age or married surname. Ann `Glasgow-438` is the
   strongest candidate because her 1876 marriage names father Alexander and
   Lisnagaver, but no later record calls her Nancy or places her at Gortahar.
@@ -506,6 +587,7 @@ The leading death identification is now the civil death at Gortahar on **16 May
 Nancy present. Mary Glasgow's death at Gortahar on **17 February 1892**, widow,
 with daughter Mary Elder informing, strongly joins those later deaths to the
 Lisnagaver family. Nancy may be daughter Ann, but that identity is not proved.
+[Corrected 6 October 2026: the informant reads Mary Glasgow.]
 The formerly maintained 27 February date for Mary was a transcription error,
 corrected against original entry 234 on 12 September 2026.
 
@@ -1165,7 +1247,7 @@ the original tithe page is now superseded by the manuscript findings below.
 | [Civil death index, Margaret Glasgow, 1867](https://www.irishgenealogy.ie/view/?record_id=cidenc-1045678) | An unassigned Margaret Glasgow died in Ballymoney registration district in the first quarter of 1867 aged 66 (group ID 1045678, vol. 4, p. 144). | Possible spouse-generation companion to the 1868 Robert, but there is no relationship evidence yet. Order only as a secondary check. |
 | [Original marriage of James Glasgow and Rosanna Barkley, 17 March 1851](../Glasgow-1622/sources/irishgenealogy_1851_james_glasgow_rosanna_barkley_marriage.pdf) | James, 38, farmer of Inishrush, named his father as Adam Glasgow, farmer. | Proves a local Adam-and-son-James unit in Alexander's generation. James could be Alexander's brother or cousin, but no record connects them; do not attach Alexander to Adam `Glasgow-1622`. |
 | PRONI revision books `VAL/12/B/4/16C` and `16D`; [1879-88 image](sources/proni_VAL-12-B-4-16C_lisnagaver_lot25.jpg), [1889-98 image](sources/proni_VAL-12-B-4-16D_lisnagaver_lot25.jpg) | Alexander was struck from lot 25 during the 1879-88 book. The annotations are dated 1881, 1882 and 1886; by the next book Robert Elder occupied the holding. Unlike John Glasgow's lot 24, lot 25 did not pass to an identifiable Glasgow successor. | New direct land evidence narrows the administrative change, but names no parent or heir. |
-| [Irish civil death index, 1864-87](https://www.irishgenealogy.ie/search/?church-or-civil=civil&firstname=Alexander&lastname=Glasgow&exact-matches-only=1&yearStart=1864&yearEnd=1887&event-death=1) | No Alexander Glasgow death was registered in Ballymoney district before 1888. The 1888 result was an 84-year-old labourer who died at Gortahar on 16 May, informed by daughter Nancy; [register image](sources/irish_civil_death_alexander_glasgow_gortahar_1888.pdf). | The best-supported located death match is Alexander-951, with a strong indirect family bridge; age and Nancy’s identity remain unresolved. The distinct Glenleslie Alexander-2385 is a weaker alternative, not conclusively excluded. Keep the 1888 date qualified as probable; the reviewed evidence does not justify reassignment. |
+| [Irish civil death index, 1864-87](https://www.irishgenealogy.ie/search/?church-or-civil=civil&firstname=Alexander&lastname=Glasgow&exact-matches-only=1&yearStart=1864&yearEnd=1887&event-death=1) | No Alexander Glasgow death was registered in Ballymoney district before 1888. The 1888 result was an 84-year-old labourer who died at Gortahar on 16 May, informed by daughter Mary (the forename was read as Nancy until 6 October 2026); [register image](sources/irish_civil_death_alexander_glasgow_gortahar_1888.pdf). | The best-supported located death match is Alexander-951, with a strong indirect family bridge; the age conflict remains, and the informant reads Mary Glasgow. The distinct Glenleslie Alexander-2385 is a weaker alternative, not conclusively excluded. Keep the 1888 date qualified as probable; the reviewed evidence does not justify reassignment. |
 | [Original marriage of Robert Elder and Mary Glasgow, 14 June 1871](https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1871/11341/8162804.pdf) | Robert, 40, bachelor and farmer of Gortereghy, named father Nathaniel Elder. Mary, **28**, spinster of Lisnagaver, named father Alexander Glasgow, farmer. Witnesses were William Graham and John Collins. | Direct father statement and land-network evidence. Mary’s age conflicts substantially with Maryan, 17 in 1851. Identity remains possible but unproved, rather than absolutely excluded by age alone; the witnesses do not supply a Glasgow kinship link. |
 | [Original birth of Jane Matilda Elder, 16 September 1878](https://www.irishgenealogy.ie/files/civil/birth_returns/births_1878/02945/2078820.pdf) | Jane Matilda was born at Gortahar to farmer Robert Elder and Mary Elder, whose maiden surname is entered as **Glass**; Robert informed as father. | Direct continuation of Alexander's daughter's family at Gortahar. Exact parents, place and middle initial identify the later Jane M. Elder at high confidence. The recorded surname form is retained rather than silently expanded. |
 | [Original death of Robert Elder, 18 November 1894](https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1894/05952/4691448.pdf) | Robert Elder, married farmer, aged 64, died at Gortahar; Mary Elder, widow, of Gortahar was present and registered the death that day. | High-confidence identification as the 1871 husband and direct explanation of Mary's widow status in 1901. The return does not explicitly call the informant his wife. |
@@ -1516,7 +1598,7 @@ Revised 21 September 2026. These are evidence assessments, not a fresh read of l
 - Do not identify the named father John with either Glenleslie John-1022 or Desertoghill John-4090 without a record bridge. Mary's marriage-age conflict is a separate identity problem.
 - Replace the false `1851, Glasgow, Scotland` death with the high-confidence
   **16 May 1888, Gortahar** identification, retaining the age conflict and
-  Nancy/Ann question in Research Notes. His son Robert, not Alexander, migrated
+  Nancy/Ann question in Research Notes [superseded 6 October 2026: the informant reads Mary]. His son Robert, not Alexander, migrated
   to Glasgow. Note that Gortahar was also the residence of his sister
   Elizabeth's Anderson sons in 1892.
 - Retain the correct cautions: Rosanna's surname is unknown, and the family
@@ -1909,7 +1991,7 @@ At that date no new evidence identified Alexander Glasgow (born about 1811)'s pa
 
 The 14 June 1871 civil marriage of Robert Elder and Mary Glasgow directly names Mary's father as **Alexr. Glasgow, farmer**, and gives Mary's residence as Lisnagaver. Mary was aged 28. This proves an additional daughter of Alexander Glasgow of Lisnagaver and supplies the bridge to the later Gortahar death records.
 
-Alexander Glasgow died at Gortahar on 16 May 1888, reportedly aged 84; his daughter **Nancy Glasgow** was present. The widow Mary Glasgow died there on 17 February 1892, reportedly aged 89; her daughter Mary Elder was present. Because Mary Elder's marriage identifies her father as Alexander of Lisnagaver, this death pair is now a strong match for [[Glasgow-951|Alexander Glasgow]] and Mary McCaughan. The formerly maintained 27 February date was a transcription error, corrected against original entry 234 on 12 September 2026. The death age suggests about 1804, while the 1851 census suggests about 1811, so the birth date remains estimated. Nancy's identity with married daughter Ann remains unproved.
+Alexander Glasgow died at Gortahar on 16 May 1888, reportedly aged 84; his daughter **Nancy Glasgow** was present. The widow Mary Glasgow died there on 17 February 1892, reportedly aged 89; her daughter Mary Elder was present. Because Mary Elder's marriage identifies her father as Alexander of Lisnagaver, this death pair is now a strong match for [[Glasgow-951|Alexander Glasgow]] and Mary McCaughan. The formerly maintained 27 February date was a transcription error, corrected against original entry 234 on 12 September 2026. The death age suggests about 1804, while the 1851 census suggests about 1811, so the birth date remains estimated. Nancy's identity with married daughter Ann remains unproved. [Corrected 6 October 2026: the informant reads Mary Glasgow; see the source audit at the top of this file.]
 
 PRONI revision books VAL/12/B/4/16A-C place John, Alexander and Thomas Glasgow on consecutive Lisnagaver holdings 24-26. In the 1879-1888 book Alexander is crossed out at holding 25, with subsequent change annotations from the 1880s. This fits a move away from Lisnagaver before the Gortahar death, but it does not prove kinship among the three occupiers.
 
@@ -1935,7 +2017,7 @@ The household evidence materially strengthens the identification of the Gortahar
 
 The original death return resolves the former index-only candidate. Robert Elder, married farmer, aged 64, died at Gortahar on 18 November 1894 of senile decay; Mary Elder, widow, of Gortahar was present and registered the death that day.<ref>[https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1894/05952/4691448.pdf General Register Office of Ireland, civil death register], Robert Elder, Gortahar, 18 November 1894, entry 12.</ref> Although the return does not explicitly call Mary his wife, the exact household place, compatible age and occupation, her same-day widow description and the continuing widow household identify him as the 1871 husband at high confidence.
 
-The Gortahar evidence also changes the assessment of the 1888 informant **Nancy Glasgow**. [[Glasgow-438|Ann Glasgow]] had married Robert McCracken in 1876 and would ordinarily have been recorded under her married surname. Nancy should therefore not presently be identified with Ann without another record. A separate daughter, perhaps born after 1851 or absent from Alexander's census household, is at least equally plausible.
+[Superseded 6 October 2026: the informant reads Mary Glasgow.] The Gortahar evidence also changes the assessment of the 1888 informant **Nancy Glasgow**. [[Glasgow-438|Ann Glasgow]] had married Robert McCracken in 1876 and would ordinarily have been recorded under her married surname. Nancy should therefore not presently be identified with Ann without another record. A separate daughter, perhaps born after 1851 or absent from Alexander's census household, is at least equally plausible.
 
 No new record directly names Alexander's parents. [[Glasgow-1367|Robert Glasgow]] remains the leading uncertain, place-based father candidate rather than a proved relationship.
 
@@ -3254,7 +3336,7 @@ No marriage in the export identifies Robert's daughters Mary Jane or Ann.
 ### ScotlandsPeople searches, 23 September 2026
 
 - Ann (Glasgow) McClelland: no female McClelland/McLelland death with other surname Glasgow, 1855–1900. The Ann McClelland/McLelland deaths of a suitable age with a recorded mother's maiden name don't fit. An Ann McCleland who died at Airdrie in 1879 aged 83 (no mother's maiden name recorded) is the only unexcluded Ann of suitable age, and a weak one. She may have died in Ireland.
-- **New:** Alexander's daughter Ann (Glasgow-438) died as Ann McCracken in 1898 in Calton, Glasgow, aged 49; mother's maiden name McCaughern (644/4 70). This supports "Nancy Glasgow, daughter" at the 1888 death being someone other than Ann.
+- **New:** Alexander's daughter Ann (Glasgow-438) died as Ann McCracken in 1898 in Calton, Glasgow, aged 49; mother's maiden name McCaughern (644/4 70). This supports "Nancy Glasgow, daughter" at the 1888 death being someone other than Ann. [Corrected 6 October 2026: the informant reads Mary Glasgow, so Ann is not in question.]
 - Female deaths with other surname Glasgow and surname Mc*, Thom*, And* or Dys*, 1855–1900: no Thompson, Anderson or Dysart sister found.
 
 

@@ -1,7 +1,7 @@
 {
   "resolution_state": "resolved",
-  "assessment_date": "2026-09-12",
-  "opening": "This is the unnamed child recorded in Rasharkin Presbyterian baptism entry 106, in the 1838 sequence, with parents Alex and Molly McAughern at Gortereagh. The maintained family reconstruction identifies them as Alexander Glasgow and Mary/Molly McCaughan. Both parent–child relationships are documented; the transcription supplies neither a forename nor exact birth and baptism dates. Death before 1841 remains an inference from the later census, not a located death record.",
+  "assessment_date": "2026-10-06",
+  "opening": "This is the unnamed child recorded in Rasharkin Presbyterian baptism entry 106, in the 1838 sequence, with parents Alex and Molly McAughern at Gortereagh. The maintained family reconstruction identifies them as Alexander Glasgow and Mary/Molly McCaughan. Both parent–child relationships are documented; the transcription supplies neither a forename nor exact birth and baptism dates. Death before 1841 was inferred from the 1851 census. That inference was withdrawn on 6 October 2026, because the same return omits a living daughter, Mary.",
   "evidence_questions": [
     {
       "id": "identity",
@@ -19,10 +19,10 @@
     },
     {
       "id": "death-boundary",
-      "title": "Why is an early death inferred?",
-      "answer": "The child is absent from the 1851 household and its reported absent members and deaths since 1841. That supports the retained before-1841 estimate, but omissions remain possible.",
+      "title": "Is an early death still inferred?",
+      "answer": "No. The child is absent from the 1851 household, its absent members and its deaths since 1841, but so is the daughter Mary, who was living. The absence no longer supports the before-1841 estimate.",
       "records": [],
-      "limitation": "No death or burial entry has been found. This inference does not identify the child with a later emigrant or supply an exact death date.",
+      "limitation": "No death or burial entry has been found. Mary (Glasgow-3167) is the leading candidate to be this child, but the transcription gives no forename and the identification is not proved.",
       "related_question": {
         "href": "/people/glasgow-951.html#question-family",
         "label": "Later household evidence"

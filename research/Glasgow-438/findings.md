@@ -1,6 +1,6 @@
 # Findings: [Ann (Glasgow) McCracken (Glasgow-438)](https://www.wikitree.com/wiki/Glasgow-438)
 
-Last updated: 2026-09-17
+Last updated: 2026-10-06
 
 ## New identity and relationship lead involving Ann Glasgow, 14 February 1867
 
@@ -28,15 +28,10 @@ names her father as **Alexander Glasgow, labourer**. This also corrects the
 profile's birthplace from Lisnagarvey/Lisburn to **Lisnagaver, County Antrim**.
 The occupational wording does not contradict Alexander's earlier description
 as a farmer; later records can describe the same man by changed work or status.
-The Nancy who informed Alexander's probable 1888 death may be Ann, but a focused
-free search found no record calling Ann Nancy or placing her at Gortahar. The
-death return explicitly places Nancy at **Gortahar**, but gives no age or
-married surname. It calls her Alexander's **daughter**. [Nancy Glasgow
-(Glasgow-1362)](https://www.wikitree.com/wiki/Glasgow-1362), Thomas Glasgow's
-daughter, is therefore not an equally simple identification: assigning her
-would require an error in the stated relationship or further identity evidence.
-Ann and an otherwise unidentified daughter remain possibilities; neither is
-proved, and the informant identity remains unresolved at low confidence.
+The informant at Alexander's probable 1888 death was read as Nancy Glasgow from
+13 September to 6 October 2026 and compared with Ann. The forename reads **Mary**
+(see the 6 October correction below), so Ann is not that informant and the
+comparison is withdrawn.
 
 Their only presently identified child, William James McCracken, was born at
 Lisnagaver on 21 September 1877. He died there the next day from debility from
@@ -112,7 +107,9 @@ men were brothers.
   who witnessed marriages in both Alexander's and Thomas's Glasgow families.
   One proved Marks family would create an independent witness-network bridge.
 
-## Death-informant correction — 13 September 2026
+## Death-informant reading — 13 September 2026 (superseded 6 October 2026)
+
+[Superseded: the informant reads Mary Glasgow; see the 6 October 2026 correction below.]
 
 Fresh visual inspection of [the original 1888 register](https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1888/06179/4766466.pdf),
 entry 348, corrects the earlier statement that Nancy had no recorded residence.
@@ -125,7 +122,7 @@ conflicts with his 1851 census age of 40.
 
 ## Source findings — Scottish death index, 23 September 2026
 
-The ScotlandsPeople statutory deaths index lists **Ann McCracken**, female, 49, died 1898 in Calton (Glasgow), reference 644/4 70, with other surname **Glasgow** and mother's maiden surname **McCaughern**. Her maiden name, her mother's maiden name (Mary McAughin/McCaughan) and her age (4 in 1851) identify her as Alexander-951's daughter. Her brother Robert-938 had settled in Calton. The register image (6 ScotlandsPeople credits) has not been viewed. It should give the exact date, her husband's status, her parents and the informant. The live profile was updated with death year 1898 and place Calton, Glasgow, both certain. As a married McCracken living in Scotland, she is an unlikely match for the "Nancy Glasgow, daughter" who informed at the 1888 Gortahar death.
+The ScotlandsPeople statutory deaths index lists **Ann McCracken**, female, 49, died 1898 in Calton (Glasgow), reference 644/4 70, with other surname **Glasgow** and mother's maiden surname **McCaughern**. Her maiden name, her mother's maiden name (Mary McAughin/McCaughan) and her age (4 in 1851) identify her as Alexander-951's daughter. Her brother Robert-938 had settled in Calton. The register image (6 ScotlandsPeople credits) has not been viewed. It should give the exact date, her husband's status, her parents and the informant. The live profile was updated with death year 1898 and place Calton, Glasgow, both certain. The 1888 Gortahar informant, then read as "Nancy Glasgow, daughter", is now read as Mary Glasgow (6 October 2026), so Ann is not in question.
 
 
 ## Source findings
@@ -136,3 +133,10 @@ The ScotlandsPeople statutory deaths index lists **Ann McCracken**, female, 49, 
 The 1867 Lisnagaver Mary Ellen birth is matched to the existing record-defined child Glasgow-4269. Ann Glasgow is the named informant. Identification with this Ann-438 remains compatible, not established; presence at a birth is not proof of kinship. The original entry 214 reads 14 February; a correction to the current 17 February index-based profile is pending.
 
 Current public profile biographies were checked alongside the maintained historical record accounts. The complete record-specific review is published in the [profile matching audit](https://glasgow.phenotype.dev/research/profile-matches/).
+
+<!-- glasgow-951-source-audit-2026-10-06 -->
+## Death-informant correction — 6 October 2026
+
+The informant in [death entry 348](https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1888/06179/4766466.pdf) reads **Mary Glasgow**, her mark, daughter, present at death, Gortahar. The forename matches the registrar's "Mary" in entries 345, 330 and 358 and differs from his "Nancy" in entry 355. The 24 August reading was right and the 13 September change to Nancy was the error. Ann is therefore not the informant, and no "Nancy" alias needs to be found for her. The informant was most probably her sister Mary (Glasgow-3167), by then Mrs Elder of Gortahar. Details are in the 6 October source audit in `research/Glasgow-951/findings.md`.
+
+The live profile's research note still says that "Nancy Glasgow" registered the death. A replacement paragraph is queued locally; nothing has been saved on WikiTree.

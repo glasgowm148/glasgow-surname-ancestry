@@ -1,6 +1,6 @@
 # Findings: Glasgow-4070
 
-Last updated: 2026-09-29
+Last updated: 2026-10-06
 
 ## Current conclusion and new evidence — 29 September 2026
 
@@ -53,8 +53,8 @@ Consequences:
 - The older Alexander-and-Rosanna tradition remains unsupported, but omission
   of Thomas-987's children does not disprove it or exclude Thomas, Daniel-3896
   or Robert-1367 categorically. The list's completeness is untested; the
-  maintained reconstruction itself has an unexplained omission of Alexander's
-  son Robert (whose later Scottish survival needs original-record verification).
+  citation itself omits Alexander's son Robert, who was living in December 1891
+  (Belfast News-Letter, 6 January 1892; see the 6 October 2026 assessment below).
   A person outside Nancy's sibling group could still be Alexander's half-sibling.
   This review supports no automatic parent replacement or removal.
 
@@ -109,3 +109,17 @@ Records for the proposed sibling branches (these records identify people; they d
 ## Live correction applied — 21 September 2026
 
 [Live Glasgow-4070](https://www.wikitree.com/wiki/Glasgow-4070): Qualified the probable sibling network, withdrew unsupported exclusions and the claimed identification with Glasgow-1022, and marked the existing father relationship uncertain. Preserved the attached father and all vital values. The save acknowledgement, public rendering and complete saved biography were verified. This correction is complete on WikiTree; the underlying research questions remain open.
+
+<!-- glasgow-951-source-audit-2026-10-06 -->
+## Relationship assessment — completeness of the citation, 6 October 2026
+
+Alexander's son Robert (Glasgow-938) was living when the citation was drawn: the [Belfast News-Letter of 6 January 1892](https://www.newspapers.com/image/388125998/) calls Jane Graham "wife of Robert Glasgow, formerly of Rasharkin", eight days before the citation of 14 January. The citation names only James, Mary and Ann as Alexander's children. It therefore left out a living member of a branch it did list, so its lists reflect partial knowledge and omissions from it carry little weight. The inclusion of Alexander's children still supports the sibling reading.
+
+James Anderson, husband of the probable sister Elizabeth (Glasgow-4071), died at Gortahar on 18 April 1888, reported age 94 ([entry 333](https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1888/06179/4766465.pdf)). His sons David, James and Samuel are the Gortahar Andersons of the citation.
+
+## Source findings
+
+### Searches that found nothing — 6 October 2026
+
+- [New York State Death Index, 1891](https://archive.org/details/New_York_State_Death_Index_1891): the only Glasgow is Sarah, Newburgh, 14 October; the only Glasco is Julia, Newburgh. Nancy's death at Plattsburgh on 31 October 1891 is not indexed under either spelling, so no state death certificate naming her parents is identified. The Plattsburgh town or village clerk's register is the remaining route.
+- New York State Historic Newspapers: the site was behind a browser verification page on 6 October 2026 and was not searched further. Of the earlier Clinton County result lists, 76 of 96 Nancy results and 33 of 53 `Glas*` results remain unread.

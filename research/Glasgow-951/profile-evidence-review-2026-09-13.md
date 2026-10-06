@@ -1,5 +1,7 @@
 # Alexander Glasgow — full evidence account
 
+> **Superseded in part, 6 October 2026.** The informant in death entry 348 reads **Mary Glasgow**, not Nancy. The reading of 24 August was right. Statements below about Nancy's identity are kept as history only; see the source audit at the top of `research/Glasgow-951/findings.md`.
+
 ## Alexander’s life in its local setting
 
 Alexander’s records describe a family rooted in a small part of County Antrim, with children whose later lives lead beyond it. His clearest surviving household is at Lisnagaver in 1851: an Antrim-born farmer, his wife Mary, and three children. Earlier baptisms recover the beginnings of that family; later marriages and the Elder tenancy connect it to the next generation. The probable Gortahar death completes the broad outline, with the last identity link still open.

@@ -273,10 +273,10 @@
     },
     "Glasgow-951": {
       "current_sha256": "8004524a605468400e2cb155818c8cf22d7726bccd9e82c50338b9d3f06ee2de",
-      "proposed_sha256": "53199b4deef0f29e29dc0616212cd93e365cc05aac0e607456ee704c11de85b8",
+      "proposed_sha256": "81506a54781dc573a54eca7edcf441fbf8632d527c34d54b6c8411645ad8aa3c",
       "all_substantive_passages_accounted_for": true,
       "current_characters": 164330,
-      "proposed_characters": 168634,
+      "proposed_characters": 172027,
       "missing_source_urls": [],
       "draft_path": "research/Glasgow-951/research-update-2026-09-29.wiki",
       "review": {
@@ -304,6 +304,18 @@
         "assessment": "Complete effective replacement compared with the previously audited replacement. Six inserted lines add the inspected 1829 application and qualified 1861 occurrence; every earlier line remains verbatim in order. The saved current biography fingerprint is unchanged. Original references, profile links and prior uncertainty remain. New newspaper passages were visually checked; candidate identities and application/admission distinction are explicit. No fresh live capture or live save is claimed.",
         "inserted_lines": 6,
         "all_prior_proposed_lines_retained_verbatim": true,
+        "live_saved": false
+      },
+      "correction_review_2026_10_06": {
+        "reviewed_on": "2026-10-06",
+        "previous_proposed_sha256": "53199b4deef0f29e29dc0616212cd93e365cc05aac0e607456ee704c11de85b8",
+        "assessment": "Complete effective replacement compared line by line with the replacement audited on 3 October. 20 existing lines are changed and 6 lines inserted (4 of them blank); no line is removed. The changes correct the 1888 informant’s forename from Nancy to Mary wherever it was stated, withdraw the comparison with Ann, and add James Anderson’s 1888 Gortahar death, Robert’s survival at the January 1892 citation and the daughter omitted from the 1851 return. Every reference definition, profile link and source URL of the earlier replacement remains; four references are added. The saved current biography fingerprint is unchanged. No fresh live capture or live save is claimed.",
+        "changed_lines": 20,
+        "inserted_lines": 6,
+        "removed_lines": 0,
+        "all_prior_reference_definitions_retained": true,
+        "all_prior_profile_links_retained": true,
+        "all_prior_source_urls_retained": true,
         "live_saved": false
       }
     },

@@ -1,6 +1,6 @@
 # Findings: Sarah Glasgow (Glasgow-3975), wife of Charles Taylor
 
-Last updated: 2026-09-13
+Last updated: 2026-10-06
 
 ## Current conclusion
 
@@ -38,3 +38,14 @@ now needed.
 - The younger Sarah's later identity has not yet been traced. A 1901/1911
   household and any later marriage or death should confirm whether she remained
   at Lisnagaver through January 1914.
+
+<!-- glasgow-951-source-audit-2026-10-06 -->
+## Source findings
+
+### Kilrea school register — 6 October 2026
+
+The published [Kilrea Girls' National School register](https://genealogy.torrens.org/BannValley/church/KilreaCOI/NatSchoolGirls.html), entry 53, records in 1871 **Sarah Glasgow**, aged 9, residence "Ballyconley", parent or guardian "Widow"; the religion column is blank. Sarah's father Thomas (Glasgow-987) died on 21 June 1870, and his widow Mary Ann later held the Ballydonnelly flax-mill plot. The entry probably records this Sarah, living with her widowed mother the year after her father died. It gives a birth about 1861–62. The townland spelling is the transcriber's, the original register has not been seen, and no father is named, so the identification is probable, not proved.
+
+## Recommended WikiTree update — 6 October 2026
+
+Add the school entry as a probable record and review the birth estimate: age 9 in 1871 and her mother's residence point to an Irish birth about 1861–62. Not saved on WikiTree.

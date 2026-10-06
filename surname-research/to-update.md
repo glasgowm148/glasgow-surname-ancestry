@@ -1,5 +1,18 @@
 # WikiTree work queue
 
+## Glasgow-951 source audit — 6 October 2026
+
+Findings from a re-read of Alexander Glasgow's records are in the top section of `research/Glasgow-951/findings.md` and in the related profiles' findings. Nothing has been changed on WikiTree.
+
+- [[Glasgow-951]] — Correct the 1888 death informant from Nancy to Mary Glasgow and drop the daughter-Nancy question; add James Anderson's Gortahar death and Robert's survival in January 1892 to the parentage notes. Carried in the pending replacement draft.
+- [[Glasgow-438]] — Replace the research note saying that "Nancy Glasgow" registered Alexander's death; the informant reads Mary.
+- [[Glasgow-4071]] — Add husband James Anderson's death, 18 April 1888, Gortahar, reported age 94, son James informant.
+- [[Anderson-104743]] — Add death 18 April 1888, Gortahar (widower, retired farmer, 94); birth about 1793–94. Not in the public catalogue; manual edit.
+- [[Glasgow-3940]] — Withdraw "died before 1841"; note Mary (Glasgow-3167) as the leading candidate, without merging. Review the death date field.
+- [[Glasgow-3904]] — Completed profile: any note on the 1888 Gortahar death should say daughter Mary, not Nancy. Research note only.
+- [[Glasgow-3975]] — Add the 1871 Kilrea school entry (probable); review the birth estimate, about 1861–62.
+- [[Glasgow-3167]] — Research note: probable informant at her father's 1888 death; possible identity with the 1838 child. No merge.
+
 
 ## Newspaper identity review — 6 October 2026
 

@@ -1,6 +1,6 @@
 # Findings: [Alexander Glasgow (Glasgow-2385), born 1816, Dunaghy, County Antrim, Ireland](https://www.wikitree.com/wiki/Glasgow-2385)
 
-Last updated: 2026-09-13
+Last updated: 2026-10-06
 
 ## Current conclusion
 
@@ -57,12 +57,13 @@ The retired Glenleslie household URL was replaced on WikiTree with the migrated
 ## Gortahar death-candidate comparison — 13 September 2026
 
 The original [16 May 1888 Alexander Glasgow death at Gortahar](https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1888/06179/4766466.pdf),
-entry 348, describes a married labourer aged 84, informed by daughter Nancy
-Glasgow of Gortahar. This man could not be distinguished from the Glenleslie
+entry 348, describes a married labourer aged 84, informed by daughter Mary
+Glasgow of Gortahar (the forename was read as Nancy until 6 October 2026). This man could not be distinguished from the Glenleslie
 Alexander by occupation alone. However, the Glenleslie man's 1851 age of 35
 implies about 72 in 1888, a larger discrepancy than the seven-year discrepancy
 for [Alexander Glasgow-951](https://www.wikitree.com/wiki/Glasgow-951). No located
-record connects Glasgow-2385 to Nancy, Gortahar or the Elder household.
+record connects Glasgow-2385 to Gortahar or the Elder household, or gives him a
+daughter Mary.
 
 Glasgow-951 remains the best-supported probable identification because his
 daughter Mary married Robert Elder of the later Gortahar family, Robert

@@ -60,7 +60,7 @@
       "status": "answered"
     },
     {
-      "answer": "The Gortahar 16 May 1888 death is the probable best-supported match, with a seven-year census/death age conflict and unproved Nancy/Ann identity. The original gives Nancy’s Gortahar residence. Glenleslie Glasgow-2385 is a weaker real alternative; no reassignment is justified.",
+      "answer": "The Gortahar 16 May 1888 death is the probable best-supported match, with a seven-year census/death age conflict. The informant reads Mary Glasgow, daughter, of Gortahar (corrected from Nancy on 6 October 2026), which fits Alexander’s daughter Mary Elder. Glenleslie Glasgow-2385 is a weaker real alternative; no reassignment is justified.",
       "id": "conflicts",
       "question": "What conflicts or same-name conflations must be resolved?",
       "status": "partly_answered"
@@ -125,10 +125,10 @@
     },
     {
       "priority": 7,
-      "question": "7. Which Alexander died, and who was Nancy?",
-      "action": "Original John Martin Glascow–Mary Gibson marriage, **10 November 1870**, [reported index](https://www.familysearch.org/ark:/61903/1:1:QGYQ-ZW9Z); follow Ann McCracken from son William James’s **21 September 1877 Lisnagaver birth** and seek Nancy/Ann records at Gortahar, 1877–1901",
+      "question": "7. Which Alexander died, and which Mary reported it?",
+      "action": "Original John Martin Glascow–Mary Gibson marriage, **10 November 1870**, [reported index](https://www.familysearch.org/ark:/61903/1:1:QGYQ-ZW9Z); view the local register original of death entry 348 (GRONI) and trace Mary Ellen Glasgow, born at Lisnagaver on **14 February 1867**",
       "status": "The marriage remains a profile-derived lead; original access blocked. Nancy has no independent link to either family. Ignore the copied contradictory Coleraine/County Offaly location.",
-      "discriminating_outcomes": "A compatible father Alexander and Glenleslie context would locate the rival’s later family. An explicit Nancy/Ann alias or parents would distinguish the two households. Neither a common name nor an unmarked father-deceased field proves identity or survival. Verify Mary Ann Martin’s alleged 1882 death and any remarriage before using marital status to exclude her husband.",
+      "discriminating_outcomes": "A compatible father Alexander and Glenleslie context would locate the rival’s later family. The local original would show whether the informant was entered as Glasgow or Elder; a daughter Mary in the Glenleslie family would reopen the comparison. Neither a common name nor an unmarked father-deceased field proves identity or survival. Verify Mary Ann Martin’s alleged 1882 death and any remarriage before using marital status to exclude her husband.",
       "assessed": "2026-09-13"
     },
     {
@@ -276,6 +276,18 @@
         "Ann Glasgow McClelland own death",
         "Robert-938 alleged 1902 death and 1892 survival",
         "Nancy 1894 appraisal and probate letters/minutes if accessible"
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "subject": "Source audit of the maintained records",
+      "conclusion": "The 1888 informant reads Mary Glasgow, not Nancy; the Gortahar death identification is strengthened. James Anderson died at Gortahar on 18 April 1888. Robert-938 was living when the January 1892 citation omitted him. The 1851 return omits the living daughter Mary, so the 1838 child is no longer presumed dead and may be Mary. No parent is newly proved; no correspondence, purchase or live edit.",
+      "findings_section": "Current conclusion — source audit, 6 October 2026",
+      "next_tests": [
+        "Local register original of death entry 348 (GRONI): informant forename and surname",
+        "Original Rasharkin register, PRONI MIC1P/292, entries 106 and 138",
+        "Later records of Mary Ellen Glasgow, born 14 February 1867",
+        "Plattsburgh town or village clerk’s death register, 31 October 1891"
       ]
     }
   ]

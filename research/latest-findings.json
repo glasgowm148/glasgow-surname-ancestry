@@ -3,6 +3,221 @@
   "scope": "Explicitly dated, recoverable new concrete record findings and supported factual corrections. Dates and explicit date ranges are research retrieval, supplied-record review or original-reading dates stated in the maintained evidence, not the dates of historical events or file modification. Undated historical conclusions, pure confirmations, speculative parent rankings, negative searches and routine profile/build activity are excluded. This is a recoverable dated history, not an exhaustive account of all past research.",
   "findings": [
     {
+      "id": "alexander-glasgow-1888-informant-reads-mary",
+      "found_on": "2026-10-06",
+      "kind": "record",
+      "finding": "The informant at Alexander Glasgow’s death at Gortahar on 16 May 1888 reads Mary Glasgow, daughter, not Nancy. The forename matches the registrar’s “Mary” in three nearby entries and differs from his “Nancy” in a fourth.",
+      "status": "qualified",
+      "qualification": "Read from the registrar’s quarterly copy; the local register original has not been viewed. Alexander’s daughter Mary was Mrs Elder by 1888, so the surname Glasgow is unexplained: a maiden-name entry, his wife Mary with the relationship mis-entered, or Mary Ellen Glasgow (born 1867) remain possible. All three belong to the Lisnagaver family. No live WikiTree change.",
+      "people": [
+        {
+          "id": "Glasgow-951",
+          "name": "Alexander Glasgow",
+          "url": "/people/glasgow-951.html"
+        },
+        {
+          "id": "Glasgow-3167",
+          "name": "Mary Glasgow",
+          "url": "/people/glasgow-3167.html"
+        },
+        {
+          "id": "Glasgow-438",
+          "name": "Anna Glasgow",
+          "url": "/people/glasgow-438.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Civil death register, Dirraw, 1888, entry 348 (Alexander Glasgow)",
+          "url": "https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1888/06179/4766466.pdf"
+        },
+        {
+          "title": "Same register, entries 330 and 333 (comparison page)",
+          "url": "https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1888/06179/4766465.pdf"
+        },
+        {
+          "title": "Same register, entries 355 and 358 (comparison page)",
+          "url": "https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1888/06179/4766467.pdf"
+        }
+      ],
+      "detail_url": "/people/glasgow-951.html#death-assessment",
+      "provenance": [
+        "research/Glasgow-951/findings.md",
+        "research/Glasgow-438/findings.md",
+        "research/Glasgow-3167/findings.md"
+      ]
+    },
+    {
+      "id": "james-anderson-gortahar-death-1888",
+      "found_on": "2026-10-06",
+      "kind": "vital",
+      "finding": "James Anderson, widower and retired farmer, died at Gortahar on 18 April 1888, reported age 94. His son James was present and registered the death on 4 May.",
+      "status": "qualified",
+      "qualification": "The entry does not name his late wife. Townland, widowed status, age, occupation and the son’s name identify him at high confidence as the husband of Elizabeth (Glasgow) Anderson, who died at Gortahar in 1868. No live WikiTree change.",
+      "people": [
+        {
+          "id": "Glasgow-4071",
+          "name": "Elizabeth Anderson",
+          "url": "/people/glasgow-4071.html"
+        },
+        {
+          "id": "Anderson-104743",
+          "name": "James Anderson",
+          "url": "https://www.wikitree.com/wiki/Anderson-104743"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Civil death register, Dirraw, 1888, entry 333 (James Anderson)",
+          "url": "https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1888/06179/4766465.pdf"
+        }
+      ],
+      "detail_url": "/people/glasgow-4071.html",
+      "provenance": [
+        "research/Glasgow-4071/findings.md",
+        "research/Glasgow-951/findings.md"
+      ]
+    },
+    {
+      "id": "robert-glasgow-living-when-1892-citation-omitted-him",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "finding": "Robert Glasgow, son of Alexander of Lisnagaver, was living in late December 1891, yet the New York citation of 14 January 1892 names only James, Mary and Ann as Alexander’s children. The citation omitted a living son.",
+      "status": "qualified",
+      "qualification": "Inferred from the death notice of his wife, which calls her “wife of Robert Glasgow, formerly of Rasharkin”; the notice was already held. It shows that the citation’s lists are incomplete. It changes no parent.",
+      "people": [
+        {
+          "id": "Glasgow-938",
+          "name": "Robert Glasgow",
+          "url": "/people/glasgow-938.html"
+        },
+        {
+          "id": "Glasgow-951",
+          "name": "Alexander Glasgow",
+          "url": "/people/glasgow-951.html"
+        },
+        {
+          "id": "Glasgow-4070",
+          "name": "Nancy Glasgow",
+          "url": "/people/glasgow-4070.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Belfast News-Letter, 6 January 1892, page 1, GRAHAM death notice",
+          "url": "https://www.newspapers.com/image/388125998/"
+        },
+        {
+          "title": "Plattsburgh Sentinel, 26 February 1892, page 6, citation in the estate of Nancy Glasgow",
+          "url": "https://www.nyshistoricnewspapers.org/?a=d&d=plts18920226-01.1.6"
+        }
+      ],
+      "detail_url": "/people/glasgow-938.html",
+      "provenance": [
+        "research/Glasgow-938/findings.md",
+        "research/Glasgow-951/findings.md",
+        "research/Glasgow-4070/findings.md"
+      ]
+    },
+    {
+      "id": "mary-glasgow-omitted-from-1851-return",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "finding": "Alexander Glasgow’s 1851 Lisnagaver return omits his daughter Mary, who was living, and no child Mary Glasgow of suitable age appears elsewhere in the surviving Rasharkin returns. The unnamed child baptised in 1838 is no longer presumed to have died before 1841, and Mary is the leading candidate to be that child.",
+      "status": "qualified",
+      "qualification": "Mary’s identity with the 1838 child is not proved. The original register entry has not been read and the profiles are not merged. The census search matched the surname Glasgow only.",
+      "people": [
+        {
+          "id": "Glasgow-3940",
+          "name": "Unknown Glasgow",
+          "url": "/people/glasgow-3940.html"
+        },
+        {
+          "id": "Glasgow-3167",
+          "name": "Mary Glasgow",
+          "url": "/people/glasgow-3167.html"
+        },
+        {
+          "id": "Glasgow-951",
+          "name": "Alexander Glasgow",
+          "url": "/people/glasgow-951.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "National Archives of Ireland, 1851 census search, surname Glasgow",
+          "url": "https://nationalarchives.ie/collections/search-the-census/search-results/#census_year=1851&surname__icontains=Glasgow&limit=100"
+        },
+        {
+          "title": "Rasharkin Presbyterian baptism transcription, entry 106",
+          "url": "https://genealogy.torrens.org/BannValley/church/RasharkinP/Baptisms_1834.html"
+        }
+      ],
+      "detail_url": "/people/glasgow-3940.html",
+      "provenance": [
+        "research/Glasgow-3940/findings.md",
+        "research/Glasgow-3167/findings.md",
+        "research/Glasgow-951/findings.md"
+      ]
+    },
+    {
+      "id": "sarah-glasgow-kilrea-school-1871",
+      "found_on": "2026-10-06",
+      "kind": "record",
+      "finding": "The Kilrea Girls’ National School register for 1871 lists Sarah Glasgow, aged 9, of “Ballyconley”, parent “Widow”.",
+      "status": "qualified",
+      "qualification": "Published transcription; the original has not been seen and no father is named. Probably Sarah, daughter of Thomas Glasgow of Lisnagaver (died 1870), whose widow held the Ballydonnelly mill plot.",
+      "people": [
+        {
+          "id": "Glasgow-3975",
+          "name": "Sarah (Glasgow) Taylor",
+          "url": "/people/glasgow-3975.html"
+        },
+        {
+          "id": "Glasgow-987",
+          "name": "Thomas Glasgow",
+          "url": "/people/glasgow-987.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Kilrea Girls’ National School register, entry 53 (Bann Valley transcription)",
+          "url": "https://genealogy.torrens.org/BannValley/church/KilreaCOI/NatSchoolGirls.html"
+        }
+      ],
+      "detail_url": "/people/glasgow-3975.html",
+      "provenance": [
+        "research/Glasgow-3975/findings.md",
+        "research/Glasgow-987/findings.md"
+      ]
+    },
+    {
+      "id": "jane-anderson-charlotte-glascow-baptism-entry-138",
+      "found_on": "2026-10-06",
+      "kind": "record",
+      "finding": "Rasharkin Presbyterian baptism entry 138 records Jane Anderson, daughter of Jas Anderson and Charlotte Glascow of Drumack, between entries of 1839 and 1842.",
+      "status": "qualified",
+      "qualification": "Published transcription. Other entries name James Anderson’s wife at Drumack as Betty or Elisabeth; a slip for Elizabeth is likely but unconfirmed. Jane is not added as Elizabeth’s daughter.",
+      "people": [
+        {
+          "id": "Glasgow-4071",
+          "name": "Elizabeth Anderson",
+          "url": "/people/glasgow-4071.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Rasharkin Presbyterian baptism transcription, entry 138",
+          "url": "https://genealogy.torrens.org/BannValley/church/RasharkinP/Baptisms_1834.html"
+        }
+      ],
+      "detail_url": "/people/glasgow-4071.html",
+      "provenance": [
+        "research/Glasgow-4071/findings.md",
+        "research/Glasgow-951/findings.md"
+      ]
+    },
+    {
       "id": "adam-glasgow-belfast-ministry-notices-1840",
       "found_on": "2026-10-05",
       "kind": "record",
@@ -5629,7 +5844,7 @@
       "kind": "vital",
       "finding": "The Scottish death index records Ann McCracken in 1898 at Calton, Glasgow, aged 49, with mother’s maiden surname McCaughern (644/4 70).",
       "status": "qualified",
-      "qualification": "Index only; original death certificate uninspected. Supports the later identity of Alexander’s daughter Ann; it does not identify “Nancy Glasgow, daughter” at Alexander’s death.",
+      "qualification": "Index only; original death certificate uninspected. Supports the later identity of Alexander’s daughter Ann; the informant at Alexander’s 1888 death, once read as Nancy and compared with Ann, is now read as Mary.",
       "people": [
         {
           "id": "Glasgow-438",
