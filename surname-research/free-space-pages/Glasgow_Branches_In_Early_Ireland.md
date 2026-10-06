@@ -60,7 +60,7 @@ The coloured symbols identify clusters only; they do not indicate evidence stren
 |-
 | 🟨 '''G. Bann Valley–Killoquin'''
 | [[Glasgow-3896|Daniel]] and [[Glasgow-987|Thomas]] proved brothers; linked Lisnagaver households
-| [[Glasgow-951|Alexander]] is a possible brother or cousin; the older parent generation is reconstructed
+| [[Glasgow-951|Alexander]] is a possible brother or cousin of Daniel and Thomas. His probable father is John Glasgow, farmer ([[Glasgow-4090]]), who is named as the father of Alexander's probable brother John ([[Glasgow-867]]) in John's 1846 marriage; John farmer's own parents are unknown
 | ✅ core relationship / ⚠️ wider topology
 |-
 | 🟧 '''H. Broughshane–Racavan–Clough'''
@@ -233,9 +233,9 @@ Treat the 1772 name as an unassigned documentary occurrence. It neither proves s
 |-
 | → C5. Glenleslie working offshoot
 | [[Glasgow-1022|John Glasgow (c.1751)]]
-| Glenleslie / Lisnagaver
+| Glenleslie
 | Unknown
-| ❓ Possible descendant of the wider east-Antrim cohort; no record makes [[Glasgow-1143|Robert Glasgow]] his father.
+| ❓ Possible descendant of the wider east-Antrim cohort; no record makes [[Glasgow-1143|Robert Glasgow]] his father. He is not identified with John Glasgow, farmer, of the Lisnagaver family (disfavoured).
 |}
 
 The 1669 John at Kilwaughter is represented by [[Glasgow-3913|John Glasgow]], with parents, spouse and children unknown. [[Glasgow-1498|John Glasgow of Cavers]] is documented as a Cavers-parish Covenanter prisoner and survivor of the 1679 shipwreck, but the prisoner list gives no Irish destination.<ref name="CaversPrisoner">John H. Thomson, editor, ''A Cloud of Witnesses'', appendix, prisoner list under “Parish of Cavers”; [https://media.sabda.org/alkitab-8/LIBRARY/THO_CLWT.PDF digital copy], PDF p. 646, accessed 17 July 2026. The appendix marks wreck survivors with an asterisk.</ref> No record connects the two men.

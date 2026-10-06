@@ -45,6 +45,31 @@
       ]
     },
     {
+      "id": "congregation-1700",
+      "period": "1700–1727",
+      "title": "Three heads of household and a session elder",
+      "body": [
+        "Classon Porter’s printed extracts from the Larne session record name John Glasgow, sen., as stipend bondsman for Kilwaughter and Robert Glasgow for the South Side on 17 May 1700, and James Glasgow as overseer for Kilwaughter, probably on 29 May 1701. The extracts are printed under 1699 and 1700; the weekdays written into the minutes fix the years. They come from a manuscript copy of the session record, not the original.",
+        "No Glasgow is among the twenty elders listed from Mr Ogilvie’s ordination in November 1700. James Glasgow stands on the session list that opens the 1721 book, was a commissioner when the Presbytery met at Larne in 1722 and is marked “deceased 1726”; a will of James Glasgow of Kilwater is indexed in 1727. Those four are probably one man. Whether he was the James of the 1669 hearth-money roll cannot be decided: one long life and a same-name successor are both possible.",
+        "No record states how these men were related to each other, to the 1669 householders or to the men born about 1700–1710. That John and James of 1669 were close kin is possible, on consecutive entries with the same uncommon spelling; brother is no better supported than any other degree. In the printed General Synod rolls no Glasgow represented Larne in any year from 1694 to 1720; the ruling elder James Glasgow of 1698, 1703 and 1705 sat beside the ministers of Drumaul and Duneane."
+      ],
+      "cluster": "early-households",
+      "evidence": [
+        {
+          "label": "Porter, vol. 2 p. 411",
+          "url": "https://archive.org/details/christianunitari0002unse/page/411/mode/1up"
+        },
+        {
+          "label": "Porter, vol. 3 p. 197",
+          "url": "https://archive.org/details/christianunitari0003unse/page/197/mode/1up"
+        },
+        {
+          "label": "Synod of Ulster, 1703 roll",
+          "url": "https://archive.org/details/recordsofgeneral01pres/page/64/mode/1up"
+        }
+      ]
+    },
+    {
       "id": "newtown-households",
       "period": "1736–1768",
       "title": "Larne property, but not kinship",
@@ -69,7 +94,7 @@
       "period": "1729–1775",
       "title": "A documented Kilwaughter father and son",
       "body": [
-        "The register chronology and later equity material reconstruct Robert Glasgow and Rachel Wilson’s household at Kilwaughter. The 1738 lease associates Robert, Rachel and James junior, but does not call James a son.",
+        "The register chronology and later equity material reconstruct Robert Glasgow and Rachel Wilson’s household at Kilwaughter. The lease of 13 February 1738/9 associates Robert, Rachel and James junior, but does not call James a son; “junior” points to an older namesake and states no relationship.",
         "The original 1764 Ballykeel lease does: its continuation calls him “Jas Glasgow son of the sd Robt”."
       ],
       "cluster": "robert-rachel",
@@ -150,7 +175,7 @@
       "status": "proved",
       "status_label": "Documented local occurrences",
       "summary": "A deposition and hearth-money roll record four named Glasgow/Glaskow occurrences in east Antrim.",
-      "boundary": "They are separate record occurrences, not a proved founding family.",
+      "boundary": "They are separate record occurrences, not a proved founding family. That John and James of 1669 were close kin is possible, not established.",
       "people": [
         "glasgow-3970",
         "glasgow-3961",
@@ -281,7 +306,7 @@
       "status": "hypothesis",
       "status_label": "Collateral comparison lead",
       "summary": "Adam’s family is a meaningful collateral comparison because the ages can fit a Larne father hypothesis.",
-      "boundary": "No document names Adam’s father or joins him to Larne; alternative local origins remain open.",
+      "boundary": "No document names Adam’s father or joins him to Larne; alternative local origins remain open. Adam, born 1757/8, is too young to be the father of John Glasgow, farmer, if Samuel (born about 1790) was John farmer’s son, so this comparison does not by itself connect the Lisnagaver family.",
       "people": [
         "glasgow-3902"
       ]
@@ -331,16 +356,21 @@
       "The Larne monument names James-3991 as a son of elder Hugh-1499."
     ],
     "supported": [
-      "Robert and Rachel’s Kilwaughter household, and James and Mary Crosier’s South Carolina continuation, are supported by concordant register, will and equity material."
+      "Robert and Rachel’s Kilwaughter household, and James and Mary Crosier’s South Carolina continuation, are supported by concordant register, will and equity material.",
+      "The Larne session elder James Glasgow, the 1722 commissioner, the James “deceased 1726” and the 1727 Kilwater will index entry are probably one man."
     ],
     "hypothesis": [
       "Archibald’s missing boy may be Tennessee Robert, a possible father of James J.",
       "The Larne ropemaker James may be Adam of Inishrush’s father.",
-      "James-3991 → Hugh-4180 → Mary-4181 is a low-confidence estate-based working chain."
+      "James-3991 → Hugh-4180 → Mary-4181 is a low-confidence estate-based working chain.",
+      "John and James Glascho of 1669 were possibly close kin; the degree is open.",
+      "Hugh, James, William and Robert, born about 1700–1710, are attached to Robert of the South Side as a working arrangement; every candidate father for each is only possible."
     ],
     "unresolved": [
       "No bridge joins the 1653/1669 householders to the later Kilwaughter family.",
-      "Mary’s possible identity with William’s daughter remains conflicted by the 1843 and 1844 death evidence."
+      "Mary’s possible identity with William’s daughter remains conflicted by the 1843 and 1844 death evidence.",
+      "Whether the James of the 1669 hearth-money roll and the officer who died in 1726 were one man.",
+      "No record joins Alexander Glasgow of Lisnagaver to this family; the connection is an indirect Y-DNA one, and no Kilwaughter kit has an SNP result."
     ]
   },
   "gaps": [
@@ -401,6 +431,20 @@
       "status": "proved",
       "cluster": "early-households",
       "url": "/branches/larne-kilwaughter/#larne-original-evidence"
+    },
+    {
+      "year": 1700,
+      "label": "John Glasgow, sen., and Robert Glasgow are stipend bondsmen for Kilwaughter and the South Side",
+      "status": "supported",
+      "cluster": "early-households",
+      "url": "https://archive.org/details/christianunitari0002unse/page/412/mode/1up"
+    },
+    {
+      "year": 1726,
+      "label": "James Glasgow, session elder, is marked deceased; a Kilwater will is indexed in 1727",
+      "status": "supported",
+      "cluster": "early-households",
+      "url": "https://archive.org/details/christianunitari0003unse/page/197/mode/1up"
     },
     {
       "year": 1729,

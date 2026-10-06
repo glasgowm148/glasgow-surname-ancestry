@@ -29,11 +29,13 @@ Corsankell-Stevenston-Kilwinning branch and treats John-3375 as a duplicate test
 
 The public Lisnagaver–Rasharkin and Larne–Kilwaughter studies use reviewed
 locality evidence and specifically supported household links, not every person
-reachable through the exported WikiTree pedigree. In particular, the possible
-William of Larne → John of Glenleslie → John of Lisnagaver route remains an open
-research question. It does not place John of Lisnagaver or his Rasharkin
-descendants in the Larne locality group unless an original record proves that
-bridge.
+reachable through the exported WikiTree pedigree. No record joins John of
+Lisnagaver or his Rasharkin descendants to the Larne locality group. Their only
+connection is indirect (a Y-DNA branch shared with the line of James J Glasgow),
+and the probable father of the Lisnagaver siblings, John Glasgow, farmer, has no
+recorded parent. The earlier William of Larne → John of Glenleslie → John of
+Lisnagaver route is superseded (audit of 6 October 2026): John of Glenleslie is a
+disfavoured identity for John Glasgow, farmer.
 
 ## WikiTree transfer status
 

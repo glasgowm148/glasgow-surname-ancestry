@@ -317,7 +317,7 @@ def local_family_section(branch_id, people):
             f'<p class="local-family-boundary"><strong>Still open:</strong> {escape(family["boundary"])}</p></article>'
         )
     scope = ('Membership is based on documented Larne, Glenarm or Kilwaughter evidence and specifically supported family links. '
-             'The possible William of Larne → John of Glenleslie → John of Lisnagaver route remains a research hypothesis and does not place Rasharkin people in this locality group.'
+             'No record joins Alexander of Lisnagaver (Glasgow-951) to this family. The only connection is indirect: his line shares the Y-DNA branch FT20271 with the line of James J Glasgow, which is attached to Kilwaughter through two unproved generations, and the same branch also contains Scottish and Moneymore lines. His probable father, John Glasgow, farmer, has no recorded parent, so no Larne or Kilwaughter man is a documented ancestor of the Rasharkin households, and the DNA connection does not place Rasharkin people in this locality group.'
              if branch_id == 'larne-kilwaughter' else
              'Families are grouped by records from Lisnagaver, Rasharkin and their immediate Bann Valley network. Proved households are kept distinct where the relationship between them is still unknown.')
     synthesis = ''

@@ -484,7 +484,7 @@ def render(branch, group, families, authored, registry, rows, geo):
         chapters += f'<article class="sp-chapter" id="chapter-{esc(c.get("id",str(i)))}"><div class="sp-period">{esc(c.get("period"))}</div><div><h3>{esc(c.get("title"))}</h3>'+''.join(f'<p>{inline(p)}</p>' for p in c.get('body') or [])+'<div class="sp-chips">'+''.join(link(e.get('label','Source'),e.get('url')) for e in c.get('evidence') or [])+'</div></div></article>'
     if chapters: body += section('story','Reading the evidence',chapters)
     scope = ('Membership is based on documented Larne, Glenarm or Kilwaughter evidence and specifically supported family links. '
-             'The possible William of Larne → John of Glenleslie → John of Lisnagaver route remains a research hypothesis and does not place Rasharkin people in this locality group.'
+             'No record joins Alexander of Lisnagaver (Glasgow-951) to this family. The only connection is indirect: his line shares the Y-DNA branch FT20271 with the line of James J Glasgow, which is attached to Kilwaughter through two unproved generations, and the same branch also contains Scottish and Moneymore lines. His probable father, John Glasgow, farmer, has no recorded parent, so no Larne or Kilwaughter man is a documented ancestor of the Rasharkin households, and the DNA connection does not place Rasharkin people in this locality group.'
              if sid == 'larne-kilwaughter' else '')
     cards = '<div id="local-family-overview">'+(f'<p>{esc(scope)}</p>' if scope else '')+'<div class="sp-cluster-grid">'
     for c in story.get('clusters') or []:
