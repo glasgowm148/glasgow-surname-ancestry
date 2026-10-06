@@ -1,6 +1,6 @@
 # Findings: Glasgow-3904
 
-Last updated: 2026-10-06
+Last updated: 2026-10-07
 
 ## Current conclusion
 
@@ -61,7 +61,7 @@ The three proposed children do not have equal support:
 
 The 13 September catalogue review gives this older Alexander a coherent possible place **beside Adam of Inishrush**, rather than necessarily beneath him. If James of Larne (Glasgow-1509), reportedly born in 1737, fathered Adam about 1758 and this Alexander about 1770, the intervals are about 21 and 33 years. Adam born about 1758 would instead be only twelve at a 1770 Alexander birth, while Rose born about 1767 would be three. Their dates are estimates, but the sibling or cousin version avoids the extra conditions needed for an Adam-to-Alexander parent link. No record yet proves James as either man's father. [Full sourced comparison](/people/glasgow-951.html#larne-reconstruction).
 
-The proposed chain James-1509 → older Alexander-3904 → younger Alexander-951 accommodates the late account naming Alexander and Rosanna as Thomas's parents, if younger Alexander shared that family. It remains distinct from James-1509 → younger James-3986 → Alexander-951, an age-compatible alternative using an existing younger Larne man. Extending the latter to Thomas and Daniel would require reassessing the parent-name testimony; their proved brotherhood does not itself name their father.
+The chain James-1509 → older Alexander-3904 → younger Alexander-951 was proposed on 13 September to accommodate the late account naming Alexander and Rosanna as Thomas's parents, if younger Alexander shared that family. It stood beside James-1509 → younger James-3986 → Alexander-951. Both were withdrawn as routes on 6 October 2026, because Alexander-951's probable father is John Glasgow, farmer, and each chain puts a different man in his place (see the assessment of that date below). Thomas and Daniel's proved brotherhood does not itself name their father.
 
 The American branch is Robert-1143 → James-1144 → Archibald-2304 → possible Robert-2769 → possible James J-2738. The first two connections have concordant record support. The missing boy in Archibald's 1800 household, Robert's South Carolina birth and James J's later chronology give the next two a positive household-and-migration fit. Robert is proposed only as James J's father. The earlier hypothetical transatlantic common-father comparison is irrelevant to this model and is withdrawn.
 
@@ -294,3 +294,14 @@ official NAI Family History Sources guide. The PRONI manuscript references and
 ## Identity assessment — newspaper candidates withdrawn, 6 October 2026
 
 - [Belfast News-Letter, 1829-06-05, p.4](https://www.newspapers.com/image/390582445/): no longer a candidate for this profile. County Antrim freehold-registration applications, June 1829: No. 2324, Alex. Glasgow, Lisnagaver, barony of Kilconway. Two existing Lisnagaver Alexanders remain compatible, Glasgow-951 and the older Glasgow-3904, and the notice gives nothing that separates them.
+
+<!-- larne-kilwaughter-audit-2026-10-06:followup-routes -->
+## Relationship assessment — the Larne route through this Alexander is withdrawn, 6 October 2026
+
+Alexander Glasgow-951's probable father is John Glasgow, farmer, named as the father of John Glasgow-867 in the 1846 marriage record. Any Larne connection for Alexander-951 must therefore join above John, not replace him. The chain James-1509 → this Alexander → Alexander-951 put this Alexander in John's place, and it is withdrawn as a route.
+
+This Alexander and Rosanna remain a weaker rival parent hypothesis for Alexander-951. It rests on the late account naming them as Thomas's parents and on Alexander-951 having shared that family, which no record states.
+
+Whether this Alexander could instead be John farmer's father is not decided by chronology: his birth "about 1770" is only an estimate, derived from Daniel's birth about 1795-96. No record suggests the relationship.
+
+His possible place beside Adam of Inishrush, as a brother or cousin, is unchanged: a working comparison with no record. No WikiTree relationship is changed. [Full comparison](/people/glasgow-951.html#larne-reconstruction).

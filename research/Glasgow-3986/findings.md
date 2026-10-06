@@ -4,7 +4,7 @@
 
 This Larne man is not [James Glasgow (Glasgow-4024)](https://www.wikitree.com/wiki/Glasgow-4024) of Cookstown, buried at St Luran's on 13 March 1831 aged 40. The reported age implies birth about 1790–1791, and the locality and burial context also differ. The Cookstown man was created separately, unconnected. See the [burial transcript](https://www.cotyroneireland.com/churchrecord/saintluran1830-1849.html).
 
-Last updated: 2026-10-06
+Last updated: 2026-10-07
 
 ## Current conclusion
 
@@ -83,12 +83,15 @@ documented network is at Lisnagaver and nearby Rasharkin townlands. No inspected
 deed, baptism, will, lease or family record links the men. The score ranks the
 lead and is not a probability or evidence of fatherhood.
 
-As a possible son of the older Larne ropemaker `Glasgow-1509`, James is a useful
-alternative later-generation route to Alexander `Glasgow-951`, separate from the
-older Alexander `Glasgow-3904` tradition. His age can accommodate fatherhood in
-the relevant generation, but there is no naming-based probability and no bridge
-from Larne to Lisnagaver. The hypothesis does not establish a father, permit a
-merge, or alter any attachment.
+As a possible son of the older Larne ropemaker `Glasgow-1509`, James was treated
+on 13 September as an alternative later-generation route to Alexander
+`Glasgow-951`, separate from the older Alexander `Glasgow-3904` tradition. That
+route was withdrawn on 6 October 2026: Alexander's probable father is John
+Glasgow, farmer, and this James, reported born about 1773, is too young to be
+John farmer's father if Samuel Glasgow (born about 1789 to 1791) was John
+farmer's son. He remains only a weak rival for Alexander's father, with no
+bridge from Larne to Lisnagaver. The hypothesis does not establish a father,
+permit a merge, or alter any attachment.
 
 ## Source findings: bounded route search — 13 September 2026
 

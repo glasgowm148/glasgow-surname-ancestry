@@ -1,6 +1,6 @@
 # Findings: Glasgow-987
 
-Last updated: 2026-10-06
+Last updated: 2026-10-07
 
 ## Assessment history — will and marriage review
 
@@ -229,3 +229,8 @@ A 30 March 1889 Exchequer judgment (creditor Robert Wilson, trading as Louden & 
 ### Kilrea school register — 6 October 2026
 
 The published [Kilrea Girls' National School register](https://genealogy.torrens.org/BannValley/church/KilreaCOI/NatSchoolGirls.html), entry 53, records in 1871 **Sarah Glasgow**, aged 9, residence "Ballyconley", parent or guardian "Widow"; the religion column is blank. Thomas died on 21 June 1870 and his widow Mary Ann later held the Ballydonnelly flax-mill plot. The entry probably records their daughter Sarah (Glasgow-3975) living with her mother at Ballydonnelly the year after Thomas died. It is the first record placing a Glasgow household in residence at Ballydonnelly, and bears on the "John Glasgow, late of Baladonly" of the 1892 citation. The townland spelling is the transcriber's, the original register has not been seen, and no father is named, so the identification is probable, not proved.
+
+<!-- larne-kilwaughter-audit-2026-10-06:followup-neely -->
+## Relationship assessment — the Neely name in the 1846 marriage, 6 October 2026
+
+The civil marriage of John Glasgow-867 of Lisnagaver and Margaret Garvin on 16 November 1846 was witnessed by James Garvin and Wm Neely; the bride lived at Rockfield, Desertoghill. Thomas's son was named Daniel Neely Glasgow. The shared Neely name is an association only and establishes no relationship between John-867 and Thomas.

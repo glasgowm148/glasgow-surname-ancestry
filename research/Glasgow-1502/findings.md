@@ -3,7 +3,7 @@
 Record every useful result and negative search here as it is found.
 Do not treat an unsourced tree or naming pattern as proof.
 
-Last updated: 2026-10-06
+Last updated: 2026-10-07
 
 ## Current conclusion
 
@@ -143,11 +143,11 @@ Robert's sons therefore remains an unproved tree reconstruction.
 
 ## Birth-estimate audit - 21 August 2026
 
-The live structured birth was corrected to **about 1675, uncertain**. The 1699-1700 records identify Robert as an adult actor but supply no birth year. The earlier `before` value remains only a strict chronological boundary, not the most useful estimated birth. No biography, relationship, source or other structured field was changed in this audit.
+The live structured birth was corrected to **about 1675, uncertain**. The records then dated 1699-1700 (re-dated to 1700-1701 on 6 October 2026; see below) identify Robert as an adult actor but supply no birth year. The earlier `before` value remains only a strict chronological boundary, not the most useful estimated birth. No biography, relationship, source or other structured field was changed in this audit.
 
 ## Batch evidence update — 21 September 2026
 
-The 1738 Ballykeel lease has now been checked in manuscript: it names Rachel Glasgow otherwise Wilson as Robert's wife and James Glasgow junior, but no father for Robert and no son clause for James. The 1741 Ballyboly lease likewise now confirms Robert Glasgow of Kilwaughter as a farmer and witness, with his proof of execution on 21 April 1743 and registration on 13 June 1743. These records concern the later Robert-1143 household and do not bridge the older Robert-1502 to any listed child. The strongest next originals remain NRS GD154/514–515, /525, /530 and /532, PRONI T828/15, and MIC1B/6.
+The Ballykeel lease of 13 February 1738/9 has now been checked in manuscript: it names Rachel Glasgow otherwise Wilson as Robert's wife and James Glasgow junior, but no father for Robert and no son clause for James. The 1741 Ballyboly lease likewise now confirms Robert Glasgow of Kilwaughter as a farmer and witness, with his proof of execution on 21 April 1743 and registration on 13 June 1743. These records concern the later Robert-1143 household and do not bridge the older Robert-1502 to any listed child. The strongest next originals remain NRS GD154/514–515, /525, /530 and /532, PRONI T828/15, and MIC1B/6.
 
 <!-- larne-kilwaughter-audit-2026-10-06:porter-dates -->
 ## Source findings

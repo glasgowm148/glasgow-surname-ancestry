@@ -1,12 +1,16 @@
 # Descendant audit: Robert Glaskow of Larne (Glasgow-3970)
 
-Last updated: 2026-10-06
+Last updated: 2026-10-07
 
 Live update applied 19 August 2026: the profile now states that the repeated
 1669 and about-1700 association makes Jo/John Glasgow-3913 and James
 Glasgow-1081 probable close relatives without proving an exact kinship. Both
 attached father links remain uncertain, and Larne is retained as an uncertain
 death-place estimate rather than removed.
+
+On 6 October 2026 the catalogue lowered that assessment to "possibly close
+kin" (see the current conclusion and the assessment of that date below). The
+live profile still carries the earlier wording; the change is queued for review.
 
 ## Current conclusion
 
@@ -177,7 +181,7 @@ The published [Agnew family papers](https://archive.org/stream/hereditarysheri01
 trace superior ownership of Ballykeel through an assignment to Patrick Agnew in
 1622, confirmation to the younger Patrick in 1636, active estate management in
 1645, a 1673 Kilwaughter lease, transfer of the Lochnaw interest in 1708, and
-the later 1738 lease to Robert Glasgow. The printed 1645 extract names no
+the later 1738/9 lease to Robert Glasgow. The printed 1645 extract names no
 Glasgow but is explicitly incomplete. This clarifies the superior title; it
 does not identify the missing Glasgow tenant succession.
 

@@ -1,6 +1,6 @@
 # Findings: [James J Glasgow (Glasgow-2738)](https://www.wikitree.com/wiki/Glasgow-2738)
 
-Last updated: 2026-09-13
+Last updated: 2026-10-07
 
 ## Current conclusion
 
@@ -97,3 +97,18 @@ evidence fit, but no parent-child record has been found.
    for Robert, Nancy or a sibling as bondsman, witness, neighbour or grantor.
 3. Pontotoc County probate, deeds and court minutes after James's 1860 census
    appearance, especially any instrument signed by his adult children.
+
+<!-- larne-kilwaughter-audit-2026-10-06:followup-dna -->
+## Relationship assessment — the Kilwaughter chain and Y-DNA, 6 October 2026
+
+The paper chain is graded as before. Robert Glasgow-1143 had a son James (proved by the 1764 lease, "Jas Glasgow son of the sd Robt"), and that son is James Glasgow-1144 of South Carolina on probable to strong evidence (the 1817 pleadings and sworn answer, known from derivative transcriptions). James-1144 → Archibald Glasgow-2304 is probable. Archibald → Robert Glasgow-2769 is possible, on an age fit to the under-ten boy of 1800 only, and Robert-2769 → James J is possible. James J's tie to the documented Kilwaughter family is therefore at most possible.
+
+Y-DNA does not yet test that chain. James J's line is in R-FT20271 with the line of Alexander Glasgow-951, but neither Kilwaughter kit (reported Robert c.1710; reported James 1731-1775) has an SNP result, so nothing places the documented Kilwaughter family inside FT20271. The same branch also holds the reported William c.1655 and Robert-12 (Moneymore) lines.
+
+The testing recommendation of 6 October 2026 bears on James J in three ways:
+
+- First, at no cost, obtain the direct FT6135 call, with coverage, for James J's kit, and ask whether either Kilwaughter kit descends through Archibald. One that does is a test of this hypothesis, not an independent line.
+- If a Kilwaughter kit proves to be FT25406-positive and FT20271-negative, the documented Kilwaughter family is outside FT20271 and James J's proposed descent through James-1144 and Archibald is contradicted, assuming the testers' reported pedigrees are correct.
+- A new SNP or private variant shared only between a Kilwaughter kit and James J's kit would support his Kilwaughter descent. It would not prove Robert-2769 or Archibald as his father or grandfather; Archibald's estate 647 is the record test.
+
+No relationship is changed. [Full recommendation](/people/glasgow-951.html#next-research).

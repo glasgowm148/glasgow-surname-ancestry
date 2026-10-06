@@ -1,6 +1,6 @@
 # Findings: Robert Glasgow (Glasgow-1078), baptised 1618, Glasgow
 
-Last updated: 2026-09-10
+Last updated: 2026-10-07
 
 
 ## Current conclusion
@@ -174,6 +174,10 @@ negative result, not proof that the 1618 Robert stayed in Scotland.
   the two Ireland residents not recoverable from the printed roll footnotes.
 - NRS GD154/505-534 and early PRONI D282 Kilwaughter tenant succession.
 - PRONI T/808/14889, 1666 County Antrim subsidy roll.
+- The PRONI eCatalogue descriptions for `D282/2` to `D282/12` and `T/808/14889`
+  could not be obtained in the Larne & Kilwaughter audit of 6 October 2026. That
+  was an access failure, not a negative result: look each up by its exact
+  reference and save the description verbatim.
 
 ## 1666 shipmaster disposition
 

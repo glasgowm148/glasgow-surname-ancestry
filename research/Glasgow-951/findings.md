@@ -1,6 +1,6 @@
 # Findings: Glasgow-951
 
-Last updated: 2026-10-06
+Last updated: 2026-10-07
 
 <!-- glasgow-951-source-audit-2026-10-06 -->
 ## Current conclusion — source audit, 6 October 2026
@@ -2212,7 +2212,7 @@ James was a **Belfast ropemaker** when he took the [1760 Larne ropewalk lease](h
 | [William (3324)](/people/glasgow-3324.html), about 1763 | 26 | The strongest existing child hypothesis: William's daughter **Jane Shutter** supplies distinctive support for descent from James and Janet Shutter. William's own household is established by the [published monument](https://archive.org/stream/ulsterjournalofa06ulstiala/ulsterjournalofa06ulstiala_djvu.txt). |
 | [John of Inishrush, later Ohio (822)](/people/glasgow-822.html), 1767 | 30 | John and Adam have a substantial Inishrush family association and may be brothers. Making James their common father is an additional hypothesis; John's own naming sequence also supports an alternative older Adam. |
 | [Older Alexander (3904)](/people/glasgow-3904.html), estimated about 1770 | 33 | A coherent possible brother of Adam. His own existence and family are reconstructed principally from the later Thomas-parent tradition; no record names James as his father. |
-| [Younger James of Larne (3986)](/people/glasgow-3986.html), about 1773 | 36 | An already identified possible son, associated with the 1795 merchant and 1797 junior records. He supplies an alternative route to Alexander's generation without inventing another unnamed James. |
+| [Younger James of Larne (3986)](/people/glasgow-3986.html), about 1773 | 36 | An already identified possible son, associated with the 1795 merchant and 1797 junior records. He was treated on 13 September as an alternative route to Alexander's generation; that route was withdrawn on 6 October 2026 (see the next section). |
 | [Robert of Glenleslie (1367)](/people/glasgow-1367.html), about 1779 | 42 | Fits chronologically as another possible child in the broader reconstruction. No record makes him James's son, and he is not securely identified with the Lisnagaver tithe occupier. |
 
 **The 1762 marriage is the main household condition.** It postdates Adam's estimated birth by about four years. If James fathered Adam, Adam could belong to an earlier relationship, a premarital birth, or a chronology needing correction. None is established. Janet Shutter must not acquire maternity merely because she was James's later reported wife. The original marriage and earlier Belfast records could distinguish these possibilities.

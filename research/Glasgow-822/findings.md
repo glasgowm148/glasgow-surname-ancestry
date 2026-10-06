@@ -1,6 +1,6 @@
 # Findings: Glasgow-822
 
-Last updated: 2026-09-13
+Last updated: 2026-10-07
 
 ## Current conclusion and tree action
 
@@ -222,3 +222,12 @@ A request by parishioners of St Andrew’s parish in Dublin, including St Mark�
 - [Freeman's Journal and Daily Commercial Advertiser, 1838-08-31, p.2](https://www.newspapers.com/image/1050130719/): no longer a candidate for this profile. Freeman's Journal, 31 August 1838: 'Staff-Surgeon Glasco, Liverpool' subscribed GBP1 to the Curran Monument. This is the same army surgeon John Glasco (Drew's Roll no. 2845), then Surgeon of the Liverpool Recruiting District; he has no WikiTree profile.
 - [Freeman's Journal and Daily Commercial Advertiser, 1838-11-26, p.1](https://www.newspapers.com/image/1050145535/): no longer a candidate for this profile. Freeman's Journal, 26-27 November 1838: J. Glasco signed the St Andrew's parish (Dublin) requisition for a Corn Exchange meeting to collect O'Connell's Annuity. Initial only, no occupation or address beyond the parish; not identifiable on WikiTree. The staff surgeon John Glasco was posted at Liverpool at this time and is not indicated.
 - [The Drogheda Argus and Leinster Journal, 1839-09-28, p.4](https://www.newspapers.com/image/1259428783/): no longer a candidate for this profile. Drogheda Argus, 28 September 1839: Surgeon A. Sinclair, M.D., from the 25th Foot, appointed to the Hospital Staff vice John Glasco, who retires upon half-pay. Drew's Roll dates this retirement 20 September 1839; the man has no WikiTree profile.
+
+<!-- larne-kilwaughter-audit-2026-10-06:followup-routes -->
+## Relationship assessment — Larne routes and Y-DNA priority, 6 October 2026
+
+The conditional extension above is unchanged: James Glasgow-1509 as father of Adam, and so possibly of John, is a working hypothesis with no record.
+
+The audit of 6 October 2026 withdrew the earlier routes from Larne to Alexander Glasgow-951 through older Alexander Glasgow-3904 and younger James Glasgow-3986. Alexander's probable father is John Glasgow, farmer, and any Larne connection must join above him. The Inishrush comparison therefore does not by itself connect the Lisnagaver family.
+
+The Inishrush Y-DNA kit has no SNP result and its pedigree is unverified. In the testing recommendation of the same date it is a lower priority for a Big Y upgrade than the two Kilwaughter kits. No relationship is changed. [Recommendation](/people/glasgow-951.html#next-research).

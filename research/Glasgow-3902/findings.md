@@ -1,6 +1,6 @@
 # Findings: Glasgow-3902
 
-Last updated: 2026-09-13
+Last updated: 2026-10-07
 
 ## Current conclusion
 
@@ -121,7 +121,7 @@ After correction and rebuild, the five displayed automated father leads are
 (32), [James Glasgow](https://www.wikitree.com/wiki/Glasgow-1025)
 (32), and [Adam Glasgow](https://www.wikitree.com/wiki/Glasgow-1475)
 (30). None is a strong result after source review:
-James-1024 has no record connecting his family to Adam; Robert-1143's 1738 lease,
+James-1024 has no record connecting his family to Adam; Robert-1143's 1738/9 lease,
 congregational chronology and 1817 equity evidence define a Kilwaughter family
 whose surviving children were James and Ann; Hugh-548 is a late-tradition family
 head whose three reported sons do not include Adam; James-1025 belongs to the
@@ -346,3 +346,12 @@ folios, holding size and Irish-to-statute acreage calculation were retained.
 ## Current conclusion — newspaper identity review, 6 October 2026
 
 - [Belfast News-Letter, 1842-02-01, p.3](https://www.newspapers.com/image/390552842/): Mr Adam Glasgow, of Inishrush, county Derry (bride's father) — **probable** match. 'Of Inishrush' is a unique designation in 1842, and Adam-3902 (d. 1844) is already Nancy's linked father. The later Adam of Inishrush (Glasgow-2419, b. 1853) is excluded by chronology. His son Adam-1622 (b. c.1794) is a much weaker alternative. [Independent check 6 October 2026: downgrade — 'Of Inishrush' is not unique. Adam Glasgow-1622 is a separate, record-defined Adam (named as father of James, 38, farmer of Inishrush, in the 1851 marriage). The local findings keep him distinct, and his being 3902's son is 'not proved'. A sixth daughter marrying in 1842 fits Adam-1622 (b. by c.1792) at least as well as 3902 (b. c.1758, wife Rose b. 1767; Nancy's guessed 1822 birth is impossible for Rose). 3902 is favoured as the 1831 freeholder and 1833 sole tithe occupier, but a competitor survives.]
+
+<!-- larne-kilwaughter-audit-2026-10-06:followup-routes -->
+## Relationship assessment — Adam and the Lisnagaver family, 6 October 2026
+
+The ropemaker hypothesis above is unchanged: James Glasgow-1509 as Adam's father is a working hypothesis with no record.
+
+It does not by itself connect the Lisnagaver family. Alexander Glasgow-951's probable father is John Glasgow, farmer. Adam was born between 1 July 1757 and 30 June 1758 by the Tamlaght stone as transcribed (died 30 June 1844 aged 86), so he is too young to be John farmer's father if Samuel Glasgow-2908, born about 1789 to 1791, was John farmer's son. The earlier routes to Alexander through older Alexander Glasgow-3904 and younger James Glasgow-3986 are withdrawn as routes; any Larne connection must join above John. The comparison of the ropemaker with Adam is a collateral question.
+
+No relationship is changed. [Full comparison](/people/glasgow-951.html#larne-reconstruction).

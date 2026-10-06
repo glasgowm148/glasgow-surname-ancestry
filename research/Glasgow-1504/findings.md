@@ -1,6 +1,6 @@
 # Findings: [James Glasgow (Glasgow-1504), Kilwaughter/Larne](https://www.wikitree.com/wiki/Glasgow-1504)
 
-Last updated: 2026-10-06
+Last updated: 2026-10-07
 
 ## Current conclusion
 
@@ -72,3 +72,8 @@ The officer James Glasgow of Kilwaughter was dead by then ("deceased 1726"; will
 **Birth: about 1706 or earlier** (estimate): he married in August 1727 (derivative chronology) and is assumed to have been 21 or over; the present "about 1707" makes him a groom of 20. His wife Sarah Murray (Murray-20395, shown as born about 1710) is better put at **about 1711 or earlier**: married August 1727, assumed at least 16.
 
 These are proposals for the WikiTree date fields and are queued for review; nothing has been changed on WikiTree.
+
+<!-- larne-kilwaughter-audit-2026-10-06:followup-proni -->
+## Next records — PRONI catalogue descriptions, 6 October 2026
+
+The PRONI eCatalogue description for `D2977/3A/4/81/116`, the lease of 30 August 1744 to James Glasgow of Larne, could not be obtained in the audit of 6 October 2026. That was an access failure, not a negative result. Until the entry is looked up by its exact reference and saved verbatim, the statement about it in the source table remains a second-hand catalogue line.

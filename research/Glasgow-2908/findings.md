@@ -1,6 +1,6 @@
 # Findings: Glasgow-2908
 
-Last updated: 2026-09-06
+Last updated: 2026-10-07
 
 ## Current answer
 
@@ -8,8 +8,8 @@ The 5 September master review confirms the proof chain but refines its limits:
 the census directly proves Samuel's brotherhood to John `Glasgow-867`; John's
 marriage directly names his own father as John Glasgow, farmer. Samuel probably
 shared that father on the ordinary meaning of brother, but no record identifies
-the older man as `Glasgow-1022`. That profile link must remain uncertain, and no
-mother should be inferred.
+the older man as `Glasgow-1022`. That profile link is superseded (see the
+assessment of 6 October 2026 below), and no mother should be inferred.
 
 Samuel Glasgow of Lisnagaver was **not a son of Adam Glasgow** on the best
 available direct evidence. The 1851 census explicitly calls Samuel the brother
@@ -117,3 +117,10 @@ Resolve the documentary person’s identity before changing WikiTree facts or re
 ## Identity assessment — newspaper candidates withdrawn, 6 October 2026
 
 - [Freeman’s Journal and Daily Commercial Advertiser, 1845-03-19, p.1](https://www.newspapers.com/image/1050103241/): no longer a candidate for this profile. Freeman's Journal, 19 Mar 1845 (images 1050103241 and 1380777866): Samuel Glasgow, a farmer examined at Moneymore by the Devon Commission, describes reclamation on Sir Thomas Staples's land in his neighbourhood. Glasgow-2054 is a possible candidate, with Glasgow-1698 equally compatible.
+
+<!-- larne-kilwaughter-audit-2026-10-06:followup-routes -->
+## Relationship assessment — superseded attachment and birth range, 6 October 2026
+
+In the WikiTree snapshot of 28 September 2026 Samuel is attached, as an uncertain son, to John Glasgow-4090, the record-defined John Glasgow, farmer; John Glasgow-867 is attached to the same man. The earlier question of a link to John Glasgow-1022 of Glenleslie is superseded. John-1022's father in that snapshot is John Glasgow-3959 of Ballyboggy (uncertain), and John-1022 is a disfavoured identity for John, farmer: his 1851 Glenleslie household records a daughter Nancy who died in 1847 aged 36, while Nancy of Plattsburgh, Alexander Glasgow-951's probable sister, lived to 1891.
+
+Samuel was born about 1789 to 1791, by his age of 60 in the 1851 return and of 85 at his death on 17 August 1875. If he was John farmer's son, as the 1851 "brother" entry implies, John farmer was born about 1770 or earlier. That bound is what makes younger James Glasgow-3986 of Larne and Adam Glasgow-3902 of Inishrush too young to be John farmer's father. No record names John farmer's father, and no relationship is changed.

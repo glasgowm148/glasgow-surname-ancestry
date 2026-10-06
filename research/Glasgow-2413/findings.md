@@ -1,6 +1,6 @@
 # Findings: [Daniel Glasgow (Glasgow-2413), born 1870, Lisnagaver, Killoquin, Rasharkin, County Antrim, Ireland](https://www.wikitree.com/wiki/Glasgow-2413)
 
-Last updated: 2026-09-12
+Last updated: 2026-10-07
 
 Record every useful result and negative search here as it is found.
 Do not treat an unsourced tree or naming pattern as proof.
@@ -75,3 +75,8 @@ Profile prose and trees remain leads; inspect the cited record before treating a
 - [[1]](https://civilrecords.irishgenealogy.ie/churchrecords/images/marriage_returns/marriages_1888/10763/5925382.pdf)
 - [original marriage return](https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1888/10763/5925382.pdf)
 - [IrishGenealogy.ie index](https://www.irishgenealogy.ie/view/?record_id=cima-2455742)
+
+<!-- larne-kilwaughter-audit-2026-10-06:followup-neely -->
+## Relationship assessment — the Neely name in the 1846 marriage, 6 October 2026
+
+Wm Neely witnessed the civil marriage of John Glasgow-867 of Lisnagaver and Margaret Garvin on 16 November 1846, with James Garvin. Daniel's middle name is the only link. It is an association and establishes no relationship between John-867 and Daniel's father, Thomas Glasgow-987.
