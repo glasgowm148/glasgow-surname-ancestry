@@ -149,7 +149,7 @@ born about 1655, to be his father.
 
 ## New documentary result downstream
 
-- Registry memorial 74015 (13 February 1738) names Rachel, formerly Wilson, as
+- Registry memorial 74015 (13 February 1738/9) names Rachel, formerly Wilson, as
   wife of Robert Glasgow of Kilwaughter.
 - A derivative transcription of the surviving Larne/Kilwaughter register records
   Robert and Rachel as parents of James (1731), Ann (1733) and Rachel (1738).

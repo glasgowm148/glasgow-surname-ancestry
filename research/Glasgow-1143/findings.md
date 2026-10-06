@@ -72,7 +72,7 @@ not a particular father, grandfather or paper pedigree.
 | Source | Finding | Assessment |
 | --- | --- | --- |
 | [Findmypast image and Tepper index entry](https://search.findmypast.co.uk/record?id=US%2FGPC%2FIMAGES%2F9780806308548-002%2F0315&parentid=US%2FGPC%2F00345374), record `US/GPC/00345374` | “Glasgow, Robt., Ballykeel, Co. Ant. Lease. Hill Docts. 1738. (O.D.).” | High-confidence corroboration of this Kilwaughter Robert's 1738 Ballykeel lease. The United States label belongs to the derivative collection, not the event. |
-| [Registry memorial 74015, original opening](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJW-B9MS) and [continuation](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJW-B99B), vol. 105, pp. 301–302 | The manuscript names Robert Glasgow, James Glasgow junior and Rachel Glasgow otherwise Wilson, wife to Robert. | Original-checked evidence for Robert’s wife; `junior` is not a son clause and Robert’s father is unnamed. |
+| [Registry memorial 74015, original opening](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJW-B9MS) and [continuation](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJW-B99B), vol. 105, pp. 301–302 | The manuscript names Robert Glasgow, `Jas Glasgow Junr` and `Rachel Glasgow otherwise Wilson Wife to the sd Robt Glasgow` as the three lives. Lease dated 13 February 1738 (1738/9 by modern reckoning); registered 22 May 1742. See the 6 October 2026 re-reading below. | Original-checked evidence for Robert’s wife; `junior` is not a son clause and Robert’s father is unnamed. |
 | [Archived Kilwaughter chronology](https://web.archive.org/web/20101124184247id_/http://lifesweaving.com/Glasgow/Kilwaughter/Timeline.html), derived from PRONI `MIC/1B/6` | Marriage in November 1729; James born 24 May 1731, Ann 15 November 1733 and Rachel 8 November 1738 to Robert and Rachel. | Direct relationship statements in a derivative register transcription; inspect the microfilm. |
 | [Registry memorial 76724, original image](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSH3-S4ML), lease 17 June 1741 | Robert Glasgow of Kilwaughter, farmer, witnessed the Ballyboly lease and proved execution on 21 April 1743; it registered 13 June 1743. | Original-checked occupation and residence; no kinship statement. |
 | [1817 equity complaint](https://web.archive.org/web/20101124184247id_/http://www.lifesweaving.com/Glasgow/Paper_Complaint.html) | Rachel Glasgow died in 1742 leaving James and Ann. | Direct relationship statement in a transcription of an original court pleading. |
@@ -168,10 +168,11 @@ estimated at thirty-one acres and a half, with half the office houses and
 associated appurtenances, held under William Agnew of Kilwaughter.
 
 The continuation expressly includes `Jas Glasgow son of the sd Robt` among the
-lease lives, alongside Robert Glasgow the grantor and Elinor Jones otherwise
+lease lives, alongside Robert Glasgow the grantor and Elinor [surname not
+legible on the saved screenshot; the FamilySearch machine text reads Jones] otherwise
 Agnew, daughter of William Agnew. **This is direct contemporary father–son
 wording**, rather than an inference from the `James Glasgow junior` life in
-memorial 74015 (1738). Read in the same Ballykeel tenure and independently
+memorial 74015 (13 February 1738/9). Read in the same Ballykeel tenure and independently
 documented household, it corroborates Robert-1143 as father of James-1144.
 The memorial itself gives James no age, birthplace, mother or later American
 residence: those identity details still depend on the register and other records.
@@ -183,10 +184,13 @@ a bridge to Robert-1502 or James-1081.
 
 The deed and memorial were witnessed by James Shutter and Hugh Kennedy; the
 continuation records James Shutter's affidavit at Carrickfergus on **29 March
-1766**. The recorded registration is **18 April 1766**. The reviewed screenshots
-independently expose the lease-day and kinship wording; the memorial number and
-registration date are from the accompanying main-task header reading, since the
-opening screenshot is cropped at its left edge.
+1766**. The registration was probably on **18 April 1766**: the memorial's own
+margin note lies outside the saved screenshot of image 542, the neighbouring memorials
+159660 and 159663 were registered on 18 April 1766, and the FamilySearch machine text
+reads "13th". The reviewed screenshots independently expose the lease-day and kinship
+wording; the memorial number is from the accompanying main-task header reading, since the
+opening screenshot is cropped at its left edge. Re-check the margin of image 542 at full
+resolution before quoting the day as certain.
 
 Sources: Registry of Deeds memorial 159661, pp.415–416, FamilySearch images
 [542, 3Q9M-CSH3-33Q6-L](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSH3-33Q6-L)
@@ -238,3 +242,22 @@ No record securely attributable to Robert-1502 is known after 27 February 1700/0
 "Jas Glasgow Junr" is one of the three lives in William Agnew's lease of Ballykeel to Robert Glasgow, dated 13 February 1738 (1738/9 by modern reckoning; Registry of Deeds memorial 74015, re-read on the saved register images). "Junior" most naturally distinguishes him from another James Glasgow known to the parties, usually a living one, but it does not prove one and it states no relationship. The memorial names no other James.
 
 The officer James Glasgow of Kilwaughter was dead by then ("deceased 1726"; will indexed 1727). The attested candidates for an older James alive in 1738-44 are James Glasgow-1504 (married 1727, children 1728-1740 in the derivative register chronology, residence unrecorded) and James Glasgow of Larne, who took a townparks lease on 30 August 1744 (PRONI D2977/3A/4/81/116, known from a catalogue line only); they may be one man. The word is not evidence of kinship between James-1504 and Robert Glasgow-1143.
+
+<!-- larne-kilwaughter-audit-2026-10-06:deeds -->
+## Source findings
+
+### Memorial 74015 re-read in full — 6 October 2026
+
+Registry of Deeds memorial 74015 ([opening, p. 301](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJW-B9MS); [continuation, p. 302](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJW-B99B)), re-read on the saved register images and checked by a second reader:
+
+- **Date:** "the Thirteenth day of Febry One Thousd seven hundd & thirty eight". Irish deeds before 1752 reckoned the year from 25 March, so this is 13 February 1738/9 (1739 by modern reckoning).
+- **Parties:** William Agnew of Kilwaughter, Esq., and "Robt Glasgow", who is given no residence or occupation.
+- **Lands:** "the Sixty three Acres of Land comonly called lower Ballykeel & fifteen Acres of Upper Balleykeel part of the Lands of Kilwaughter". No bounds or neighbours are given.
+- **Lives:** "Robt Glasgow Jas Glasgow Junr Rachel Glasgow otherwise Wilson Wife to the sd Robt Glasgow & the surv.rs & surv.r of them". Persons to be added later are provided for separately. James is named once, second, with no "son", age or residence. No other Glasgow is a party, witness or signatory.
+- **Rent:** £14 17s sterling, with sixpence in the pound receiver's fees.
+- **Witnesses:** to the deed, Pat Taylor of Kilwaughter and James Smith of Larne; to the memorial, Pat Taylor and John Campbell of Belfast.
+- **Affidavit:** Pat Taylor, sworn 12 April 1742 at Carrickfergus before Thomas Marlay. **Registered** 22 May 1742 at 10 a.m. (margin note).
+
+### Memorial 159661 re-read — 6 October 2026
+
+On the saved screenshots of FamilySearch images 542 and 543 the three lives read "Robt Glasgow Grantor", "Jas Glasgow son of the sd Robt" and "Elinor [surname] otherwise Agnew Daur of the aforesd Wm Agnew". The surname is not legible at the saved resolution (its first letter looks more like N than J); "Jones" is the FamilySearch machine reading. The memorial's registration note is outside the cropped screenshot, so 18 April 1766 is probable, not confirmed. A re-reading of the witnesses gave Wm Blair of Larne and James Shutter to the deed, and James Shutter and a Larne merchant whose surname is uncertain (Hugh Hanford or Kennedy) to the memorial; that also needs the full-resolution image. The father-and-son wording is unaffected.

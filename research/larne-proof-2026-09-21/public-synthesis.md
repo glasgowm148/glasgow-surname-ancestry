@@ -1,6 +1,6 @@
 ## New original evidence — 21 September 2026
 
-The [20 December 1764 Ballykeel lease](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSH3-33Q6-L), memorial 159661, explicitly names **“Jas Glasgow son of the sd Robt”** on its [continuation](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSH3-33QZ-Y). Robert of Ballykeel/Kilwaughter leased Hugh Shannon half the lower farm, about 31½ acres. Both original images were inspected. This directly strengthens [Robert-1143](/people/glasgow-1143.html) → [James-1144](/people/glasgow-1144.html); Robert's father and the connection to the 1653/1669 householders remain unproved. The third life is Elinor Jones otherwise Agnew, the landlord's daughter.
+The [20 December 1764 Ballykeel lease](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSH3-33Q6-L), memorial 159661, explicitly names **“Jas Glasgow son of the sd Robt”** on its [continuation](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSH3-33QZ-Y). Robert of Ballykeel/Kilwaughter leased Hugh Shannon half the lower farm, about 31½ acres. Both original images were inspected. This directly strengthens [Robert-1143](/people/glasgow-1143.html) → [James-1144](/people/glasgow-1144.html); Robert's father and the connection to the 1653/1669 householders remain unproved. The third life is Elinor [surname unclear on the saved image; machine-read Jones] otherwise Agnew, the landlord's daughter.
 
 | Further record | New finding and boundary |
 | --- | --- |
@@ -50,7 +50,7 @@ Mary's probable identification with the census wife supplies the estimated birth
 
 ### Earlier Larne checks — 21 September 2026
 
-The manuscript 1738 Ballykeel lease confirms Rachel Glasgow otherwise Wilson as Robert’s wife, but calls James only `junior`; it does not identify Robert’s father. The 1741 Ballyboly lease confirms Robert Glasgow of Kilwaughter, farmer, as witness and his 21 April 1743 proof of execution. A 12 May 1772 deed names Wm Glasgow of Larne as a witness, without enough detail to distinguish William-1505 from William-3326. These are dated locality records, not evidence for the unproved 1653/1669 bridge.
+The manuscript Ballykeel lease of 13 February 1738 (1738/9 by modern reckoning; registered 22 May 1742) confirms Rachel Glasgow otherwise Wilson as Robert’s wife, but calls James only `junior`; it does not identify Robert’s father. The 1741 Ballyboly lease confirms Robert Glasgow of Kilwaughter, farmer, as witness and his 21 April 1743 proof of execution. A 12 May 1772 deed names Wm Glasgow of Larne as a witness, without enough detail to distinguish William-1505 from William-3326. These are dated locality records, not evidence for the unproved 1653/1669 bridge.
 
 Sources: [1738 opening](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJW-B9MS), [continuation](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJW-B99B), [1741 memorial](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSH3-S4ML), [1772 witness deed](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSH3-SQLT-3).
 

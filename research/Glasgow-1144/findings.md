@@ -151,10 +151,11 @@ estimated at thirty-one acres and a half, with half the office houses and
 associated appurtenances, held under William Agnew of Kilwaughter.
 
 The continuation expressly includes `Jas Glasgow son of the sd Robt` among the
-lease lives, alongside Robert Glasgow the grantor and Elinor Jones otherwise
+lease lives, alongside Robert Glasgow the grantor and Elinor [surname not
+legible on the saved screenshot; the FamilySearch machine text reads Jones] otherwise
 Agnew, daughter of William Agnew. **This is direct contemporary father–son
 wording**, rather than an inference from the `James Glasgow junior` life in
-memorial 74015 (1738). Read in the same Ballykeel tenure and independently
+memorial 74015 (13 February 1738/9). Read in the same Ballykeel tenure and independently
 documented household, it corroborates Robert-1143 as father of James-1144.
 The memorial itself gives James no age, birthplace, mother or later American
 residence: those identity details still depend on the register and other records.
@@ -166,10 +167,13 @@ a bridge to Robert-1502 or James-1081.
 
 The deed and memorial were witnessed by James Shutter and Hugh Kennedy; the
 continuation records James Shutter's affidavit at Carrickfergus on **29 March
-1766**. The recorded registration is **18 April 1766**. The reviewed screenshots
-independently expose the lease-day and kinship wording; the memorial number and
-registration date are from the accompanying main-task header reading, since the
-opening screenshot is cropped at its left edge.
+1766**. The registration was probably on **18 April 1766**: the memorial's own
+margin note lies outside the saved screenshot of image 542, the neighbouring memorials
+159660 and 159663 were registered on 18 April 1766, and the FamilySearch machine text
+reads "13th". The reviewed screenshots independently expose the lease-day and kinship
+wording; the memorial number is from the accompanying main-task header reading, since the
+opening screenshot is cropped at its left edge. Re-check the margin of image 542 at full
+resolution before quoting the day as certain.
 
 Sources: Registry of Deeds memorial 159661, pp.415–416, FamilySearch images
 [542, 3Q9M-CSH3-33Q6-L](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSH3-33Q6-L)
