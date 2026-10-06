@@ -1326,8 +1326,11 @@ unknown R-FT20271 direct paternal ancestor
 +-- James M Glasgow-193 branch -> FTE32242
     +-- son William Allen Glasgow-2182 line -> 999763
     +-- son Samuel Lyle Glasgow-192 line -> 478604
-+-- probable broader cluster: Robert Glasgow-1143, c.1710-aft.1772 -> 254947 (Y-111 only)
 ```
+
+Not placed: kit `254947` (reported Robert c.1710 to after 1772; Y-111 only) and kit `B835762` (reported James
+1731-1775; Y-37 only) have no SNP result. The project groups them by STR in its FT25406 group and they display
+R-M269. Whether they belong under FT20271 is untested.
 
 The FTE32242 lines are downstream of FT20271 rather than merely similar STR
 matches, so they form a genuine paternal cousin branch. On the supplied
@@ -1351,9 +1354,9 @@ FTE32242 and converge one generation lower at James M. `Glasgow-193`, through
 different sons. If those descendant pedigrees are correct and `200475` is
 genuinely negative for FTE32242, the SNP marks the James-193 branch rather than
 Robert-12 generally. A Big Y upgrade of
-Kilwaughter kit `254947` or `B835762`, followed by private-variant comparison,
-is the fastest way to learn which tested line is closest to the documented
-Kilwaughter men.
+Kilwaughter kit `254947` or `B835762` would first show whether the documented
+Kilwaughter family is under FT20271 at all; see the testing recommendation of
+6 October 2026 below.
 
 This also rules out treating broad surname proximity as enough. The same public
 project contains Glasgow/Glasco men on unrelated Y branches. Only the men under
@@ -3385,3 +3388,31 @@ Compare the coroner’s inquest and subsequent reporting for an age, address or 
 **The live WikiTree tree contains a Larne route that no page described.** In the repository's snapshots of 28 and 30 September 2026, Alexander's father is John Glasgow-4090 (uncertain), whose father is John Glasgow-4179 of Larne with no status set, whose father is Hugh Glasgow-1499 (uncertain). No record supports the 4090 to 4179 link. It is proposed to be marked uncertain, not detached, because no evidenced replacement exists.
 
 **Grades on the James J chain** (unchanged): Robert-1143 had a son James (proved by the 1764 lease); that son is James-1144 of South Carolina (probable to strong, on derivative transcriptions of the 1817 pleadings); James-1144 to Archibald-2304 probable; Archibald to Robert-2769 possible; Robert-2769 to James J possible. Alexander's tie to the documented Kilwaughter family is therefore at most possible.
+
+<!-- larne-kilwaughter-audit-2026-10-06:dna -->
+## Priority actions — Y-DNA
+
+### Y-DNA testing recommendation — 6 October 2026
+
+Nothing yet places the documented Kilwaughter family inside R-FT20271. Kits 254947 (reported Robert c.1710; Y-111) and B835762 (reported James 1731-1775; Y-37) have no SNP result: the project groups them by STR in its FT25406 group and they display R-M269. Alexander's line and James J's line are both FT20271, but that branch also holds the reported William c.1655 and Robert-12 (Moneymore) lines, and James J's own descent from Kilwaughter has two unproved generations.
+
+**1. First, at no cost.** Through the project administrator, and with the testers' consent, obtain:
+
+- the direct FT6135 call, with coverage, in kit 1002232 (James J) and in the William-c.1655 and James M son-line Big Y kits;
+- the paper descent behind kits 254947 and B835762. Robert-1143's only documented son is James-1144, so ask through which of James-1144's sons each runs;
+- whether either runs through Archibald, which would make it a test of the James J hypothesis rather than an independent line.
+
+Confirm that each tester is willing to upgrade and that a usable sample is held.
+
+**2. Upgrade kit 254947 to Big Y-700.** If budget allows, upgrade B835762 too, preferably if it descends through a different son of James-1144: agreement between two lines guards against a broken pedigree. A single-SNP or panel test for FT20271, if offered when ordering (not confirmed), is an acceptable screen for inside or outside FT20271 only.
+
+**3. Reading the outcomes**, assuming the testers' reported pedigrees are correct (a disagreement between the two kits points first to a pedigree break):
+
+- **FT25406-positive and FT20271-negative:** the documented Kilwaughter family is outside FT20271. The ancestor shared by Alexander's line and James J's is then not a male-line descendant of Robert-1143, and James J's proposed descent through James-1144 and Archibald is contradicted. Larne men not shown to be Robert-1143's kin (Hugh-1499, William-1505, James-1509) remain untested.
+- **FT20271-positive:** the same cluster as Alexander and James J. That is consistent with any route and proves none.
+- **FT6135, only if FT20271-positive, and read under a simple inheritance model:** derived places the Kilwaughter line with the Robert-12 lines, with Alexander's line branching earlier; ancestral places it on Alexander's side of that split. Either reading needs James J's own FT6135 call.
+- **Private variants:** a new SNP or private variant shared only with kit 1002232 supports James J's Kilwaughter descent, but does not prove Robert-2769 or Archibald as his father or grandfather (Archibald's estate 647 is the record test). A variant shared only with Alexander's line makes that line the Kilwaughter family's nearer relative.
+
+**4. What no result can show.** No result can name Alexander's father or grandfather, confirm John Glasgow, farmer, as his father, or identify which Larne man was the joining ancestor; SNP age estimates carry ranges of a century or more. The Inishrush kit (N18544) is a lower priority. A male-line comparator from John-867 would test the John-farmer brotherhood directly, but none is known.
+
+The public-page placements cited here are summarised readings of 6 October 2026 and should be confirmed on the [project page](https://www.familytreedna.com/public/Glasgow?iframe=ydna-results-overview) before ordering.
