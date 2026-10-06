@@ -695,3 +695,26 @@ No identity match is established for John in Rashie. Glasgow-4061 is no longer l
 ## Dated source correction — 30 September 2026: 1648 John is Gray
 
 Page-image inspection corrects the 12 January 1648 apprentice to John Gray, expressly son of the late Thomas Gray, maltman and burgess of Glasgow; the surname heading is Gray. The actual Glasgow heading appears on printed page 71. The 1646 burgess entries name James and Margaret as children of deceased Thomas Gray, maltman, strongly supporting the same record family; the 1613 Thomas Gray, son and heir of Gilbert, is a probable earlier occurrence. Gray-42340 is a compatible John candidate, with Gray-16804, Gray-25428 and Gray-32315 as weaker leads; Gray-44891 is a compatible Thomas candidate. Existing profile identity remains unresolved. Retire all Glasgow event and father claims while preserving the stable corrected dossier. The earlier 22–23 September search account is retained as dated provenance; its six Glasgow surname occurrences are corrected to five because the 1648 apprentice is Gray. [Apprentice, printed p.75](https://archive.org/details/scottishrecordso28scotuoft/page/n86/mode/1up); [actual Glasgow heading, p.71](https://archive.org/details/scottishrecordso28scotuoft/page/n82/mode/1up); [Thomas1613, printed p.44](https://archive.org/details/scottishrecordso43scotuoft/page/n57/mode/1up); [James/Margaret1646, printed p.118](https://archive.org/details/scottishrecordso43scotuoft/page/n131/mode/1up). [Corrected stable dossier](../../research/record-john-glasgow-edinburgh-1648/findings.md).
+
+## Pre-1500 open-source sweep — 6 October 2026
+
+**Result: no new pre-1500 Glasgow bearer.** All personal-byname hits in the volumes below are already in the 28-entry medieval register (c.1175–1506). The full OCR text of each public-domain Internet Archive volume was searched for `Glasg*`, `Glasc[uo]*`, `Glescu*` and `Glesg*`. Office, see, diocese, burgh, barony and place-of-issue uses were excluded, and every surviving forename-plus-Glasgow hit was read in context. OCR search does not replace the page images, so these are negatives for the printed calendars and editions only.
+
+Searched with nothing new:
+
+- *Exchequer Rolls of Scotland* I–VIII, X and XII. Vol. I's “Johanni de Glasgu, pro mensa” (7s. 6d.) is the existing 1343 John. Vol. III's entries are the existing 1394 Malcolm son of John and William the physician (index pp. 342, 356, 427).
+- Bain, *Calendar of Documents Relating to Scotland* I–V. Vol. II's Holyrood juror “John of Glasgow” is the existing 1299 John.
+- *Registrum Magni Sigilli* II (1424–1513), and the 1814 *RMS* (1306–1424).
+- *Calendar of Entries in the Papal Registers*: Papal Letters I (part 2) and II (to 1342), and Petitions to the Pope I (1342–1419; OCR here, index also checked on BHO), which give only the existing 1384 Matthew, the 1394 William (pp. 589 and 613) and Master John (pp. 600 and 631).
+- *Munimenta Alme Universitatis Glasguensis* I–III. These have no pre-1500 bearer; Stephanus Glasgw was incorporated 24 Oct 1556, and Stevin Glasgw occurs in a Dowhill rental. Both are leads for [[Glasgow-1029]], not checked here.
+- *Early Records of the University of St Andrews* (1413–1579), and *Accounts of the Lord High Treasurer* I (1473–98).
+- Marwick, *Charters and Documents relating to the City of Glasgow* I, and the Lanark burgh extracts.
+- The Aberdeen council register I and Aberdeen charters, and the *Calendar of Ancient Records of Dublin* I.
+- *Liber Protocollorum M. Cuthberti Simonis* (1499–1513). No forename-plus-Glasgow hit survived; the hits are the archbishop, chapter, diocese or city. So the OCR does not show the burgh family before 1513; a page-image check of the index would confirm it.
+- *Registrum Episcopatus Glasguensis* I–II, *Liber Collegii Nostre Domine* (the existing John de Glasgu of 1447/55 and the Saltmarket John and William), and Pitcairn's *Criminal Trials* I (the existing Alan Glasgw).
+
+Exclusions confirmed:
+
+- Bain, *CDS* IV, Wardrobe messenger payments, 28 and 30 August 1301: “Roberto Scot de Glasgu” and “Willelmo Scot de Glasgu”, carrying the king's letters to the sheriff of Roxburgh. These are men surnamed **Scot** of Glasgow, not Glasgow bearers, although the calendar index lists them as “Robert, of Glasgow” and “William, of Glasgow”.
+
+Not searchable in this pass (no public OCR text, or lending-only): *Calendar of Scottish Supplications to Rome* I–V, Papal Letters III–XV, *Exchequer Rolls* IX and XI, *Acta Facultatis Artium* (Dunlop), Edinburgh burgh extracts 1403–1528, CIRCLE (Irish chancery letters), England's Immigrants 1330–1550, and the TNA Discovery catalogue. These remain the best places to look for further pre-1500 bearers.
