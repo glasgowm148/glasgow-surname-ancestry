@@ -65,3 +65,10 @@ unrecovered memorial are the records capable of extending the line.
 "Jas Glasgow Junr" is one of the three lives in William Agnew's lease of Ballykeel to Robert Glasgow, dated 13 February 1738 (1738/9 by modern reckoning; Registry of Deeds memorial 74015, re-read on the saved register images). "Junior" most naturally distinguishes him from another James Glasgow known to the parties, usually a living one, but it does not prove one and it states no relationship. The memorial names no other James.
 
 The officer James Glasgow of Kilwaughter was dead by then ("deceased 1726"; will indexed 1727). The attested candidates for an older James alive in 1738-44 are James Glasgow-1504 (married 1727, children 1728-1740 in the derivative register chronology, residence unrecorded) and James Glasgow of Larne, who took a townparks lease on 30 August 1744 (PRONI D2977/3A/4/81/116, known from a catalogue line only); they may be one man. The word is not evidence of kinship between James-1504 and Robert Glasgow-1143.
+
+<!-- larne-kilwaughter-audit-2026-10-06:vitals -->
+## Recommended correction — vital dates, 6 October 2026
+
+**Birth: about 1706 or earlier** (estimate): he married in August 1727 (derivative chronology) and is assumed to have been 21 or over; the present "about 1707" makes him a groom of 20. His wife Sarah Murray (Murray-20395, shown as born about 1710) is better put at **about 1711 or earlier**: married August 1727, assumed at least 16.
+
+These are proposals for the WikiTree date fields and are queued for review; nothing has been changed on WikiTree.

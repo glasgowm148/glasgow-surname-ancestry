@@ -22,3 +22,10 @@ Locate Hugh’s will or administration and trace the bride’s half shares in Ne
 ## Live creation — 21 September 2026
 
 Created as Glasgow-4180 after the recorded duplicate review; father James Glasgow-3991 marked uncertain. No mother assigned. The duplicate audit and approved draft are retained in [1843_Ireland_Larne_Hugh_Glasgow.md](1843_Ireland_Larne_Hugh_Glasgow.md).
+
+<!-- larne-kilwaughter-audit-2026-10-06:vitals -->
+## Recommended correction — vital dates, 6 October 2026
+
+**The date shown is a model estimate, not a recorded date.** "About 1770" is a generation estimate for the Hugh Glasgow who was dead by February 1843; no record gives his age.
+
+These are proposals for the WikiTree date fields and are queued for review; nothing has been changed on WikiTree.

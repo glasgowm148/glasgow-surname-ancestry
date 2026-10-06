@@ -1,6 +1,6 @@
 # John Glasgow (Glasgow-4179): provisional father comparison
 
-Last updated: 2026-09-21
+Last updated: 2026-10-06
 
 ## Current conclusion
 
@@ -44,3 +44,10 @@ All five profiles were verified as managed by M Glasgow. Connected Hugh-1499 as 
 
 - [Derby Mercury, 1779 (exact publication date unresolved), p.2](https://www.newspapers.com/image/394231375/): no longer a candidate for this profile. 1779 Derby Mercury report that John Glascow, a chairman (sedan-chair carrier), gave evidence after the Martha Ray shooting in Covent Garden. He is a London working man with no WikiTree profile.
 - [The Times, 1799-05-02, p.3](https://www.newspapers.com/image/32820363/): no longer a candidate for this profile. 1799 Bow Street report: John Glasco, Esq., claiming to be an officer on the Staff, was committed for wounding patrolman John Smith after the play at Covent Garden. He cannot be identified; no WikiTree candidate has any London or army-staff record.
+
+<!-- larne-kilwaughter-audit-2026-10-06:vitals -->
+## Recommended correction — vital dates, 6 October 2026
+
+**The date shown is a model estimate, not a recorded date.** "About 1747" follows the derivative chronology's 1745-48 range for the John Glasgow who married Rose Allan in 1769; no baptism is recorded.
+
+These are proposals for the WikiTree date fields and are queued for review; nothing has been changed on WikiTree.

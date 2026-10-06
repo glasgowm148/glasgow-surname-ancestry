@@ -1,6 +1,6 @@
 # Findings: [Robert Glasgow (Glasgow-2769), Tennessee](https://www.wikitree.com/wiki/Glasgow-2769)
 
-Last updated: 2026-09-13
+Last updated: 2026-10-06
 
 ## Current conclusion
 
@@ -117,3 +117,10 @@ The inaccessible archive.ph family page was replaced with the current
 FamilySearch reconstruction for Robert Glasgow, KNQV-6LF. It is described as a
 derivative research lead; the original census, militia and land records remain
 the documentary basis.
+
+<!-- larne-kilwaughter-audit-2026-10-06:vitals -->
+## Recommended correction — vital dates, 6 October 2026
+
+**Death: after 1850.** His last record is the 1850 Giles County census; no death record has been found, so the present "about 1860" has no basis and should read "after 1850".
+
+These are proposals for the WikiTree date fields and are queued for review; nothing has been changed on WikiTree.

@@ -53,3 +53,10 @@ The 1736 source corrections and new 1757 assignment reference were saved through
 ## Unresolved
 
 The derivative Kilwaughter chronology lists a "Hugh1 Glasgow, d. 1726 (Record found in Old Presbyterian Church Record Book)". Porter's printed list does not support a Hugh who died in 1726. The first page of the 1721 session book (presumably within PRONI MIC/1B/6) should be read to rule out a second 1726 Glasgow entry before the merger of the former Glasgow-1503 into this profile is treated as closed.
+
+<!-- larne-kilwaughter-audit-2026-10-06:vitals -->
+## Recommended correction — vital dates, 6 October 2026
+
+No change to the values. Hugh died on 8 July 1767 aged 62, so he was born between 9 July 1704 and 8 July 1705; his wife Ann died on 8 June 1786 aged 75, so she was born between 9 June 1710 and 8 June 1711 and was about 20 at the baptism of Jean in 1731. Source: the Larne monument as published in 1900 ([*Ulster Journal of Archaeology*, 2nd series, vol. 6, p. 47](https://archive.org/details/ulsterjournalofa06ulstiala/page/47/mode/1up)), re-read on the saved page image. The death should be shown as published from the monument, 8 July 1767, and the birth as the estimate; the catalogue currently shows the death as estimated.
+
+These are proposals for the WikiTree date fields and are queued for review; nothing has been changed on WikiTree.

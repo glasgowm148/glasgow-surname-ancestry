@@ -1,6 +1,6 @@
 # Findings: [James Glasgow (Glasgow-3991), about 1748-1812, Larne](https://www.wikitree.com/wiki/Glasgow-3991)
 
-Last updated: 2026-08-11
+Last updated: 2026-10-06
 
 ## Current conclusion
 
@@ -54,3 +54,14 @@ Both original occupation readings were independently checked. The Farmer wording
 ## Uncertain son Hugh, deceased by 1843 — 21 September 2026
 
 [Hugh Glasgow-4180](/people/glasgow-4180.html), the deceased testator named in the [1843 marriage settlement](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJW-F3BZ), is attached as James’s uncertain son. Naming and generation fit are compatibility only: neither the monument nor the settlement names Hugh as James’s son. No mother is inferred. Hugh’s possible fatherhood of [Mary Glasgow-4181](/people/glasgow-4181.html) is a separate low-confidence hypothesis.
+
+<!-- larne-kilwaughter-audit-2026-10-06:vitals -->
+## Recommended correction — vital dates, 6 October 2026
+
+From the Larne monument as published in 1900 ([*Ulster Journal of Archaeology*, 2nd series, vol. 6, p. 47](https://archive.org/details/ulsterjournalofa06ulstiala/page/47/mode/1up)), re-read on the saved page image:
+
+- **James:** died 14 April 1812 aged 64, so born 15 April 1747 to 14 April 1748.
+- **His wife Jane** (WikiTree Unknown-763421, shown there as born 1750): "his wife Jane Glasgow died 21st July 1820 aged 79 years", so **born 22 July 1740 to 21 July 1741** and died 21 July 1820. The 1750 birth year has no stated basis and is about ten years too late.
+- **Ann** (Glasgow-3992): died 25 May 1832 aged 64, so born 26 May 1767 to 25 May 1768. The stone calls her the daughter of "the last named", Jane; on these dates James was 19 to 21 and Jane 25 to 27 at Ann's birth, so James's fatherhood of Ann is inferred from the shared stone and surname.
+
+These are proposals for the WikiTree date fields and are queued for review; nothing has been changed on WikiTree.

@@ -98,3 +98,10 @@ John Glasgow, sen., of 1700 is probably the Jo Glascho of the 1669 hearth-money 
 ## Relationship assessment — James Glasgow-1081, 6 October 2026
 
 John Glasgow-3913 and James Glasgow-1081 were possibly close kin. The 1669 hearth-money roll (Macafee transcription, records 5347-5348) lists "Jo Glascho" and "James Glascho" consecutively at Kilwaughter Demesne with the same uncommon spelling. That is strong association evidence that the two households were connected, but it states no relationship and supports no particular degree: brother, father and son, uncle and nephew, and cousin are all open. Men named John (called "sen." in 1700) and James act for the Kilwochter district in 1700-01, never in the same minute; their identity with the 1669 householders is itself unproved, so they are not an independent second line of evidence. The assessment was "probable" until 6 October 2026 and was lowered because every element of it is association evidence (adjacency, spelling, place, recurring forenames). The sibling arrangement on WikiTree exists only through the uncertain shared father Glasgow-3970; it stays uncertain and nothing is detached.
+
+<!-- larne-kilwaughter-audit-2026-10-06:vitals -->
+## Recommended correction — vital dates, 6 October 2026
+
+**Birth: about 1648 or earlier** (estimate; no age recorded). He was a householder at Kilwaughter Demesne in the 1669 hearth-money roll and is assumed to have been at least 21. If he is the "John Glasgow, sen." of 1700 (probable, not proved), a birth much before about 1630 is unlikely. The present "about 1650", set in the birth-estimate audit of 21 August 2026, would make him a householder at 19.
+
+These are proposals for the WikiTree date fields and are queued for review; nothing has been changed on WikiTree.

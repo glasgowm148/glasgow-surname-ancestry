@@ -23,3 +23,10 @@ Locate Hugh’s will and Mary’s marriage or burial register. Compare the origi
 ## Duplicate review and live creation — 21 September 2026
 
 Created as Glasgow-4181; father Hugh Glasgow-4180 explicitly uncertain, no mother. The creation-form candidate Mary Glasgow-3021 was inspected: Robert (Robertson) Glasgow and Anne family, France 1804 with Scottish/1841 Leamington household, and no demonstrated Larne estate match. She was not merged. The possible duplicate Mary Glasgow-3989 remains open. Complete draft retained in [1843_Ireland_Larne_Mary_Glasgow.md](1843_Ireland_Larne_Mary_Glasgow.md).
+
+<!-- larne-kilwaughter-audit-2026-10-06:vitals -->
+## Recommended correction — vital dates, 6 October 2026
+
+**Hold both sets of dates until the duplicate question is settled.** Mary Glasgow-4181's dates come from the 1851 census household of John McGavock (a retrospective death table: wife Mary, aged 37, died autumn 1843), and her identification with the February 1843 bride is provisional. Mary Glasgow-3989's come from the Larne monument as published in 1900: "MARY who died 18th Octr 1844 aged 37 years". The one-year difference in the death year, at the same age, is part of the open question whether they are one woman.
+
+These are proposals for the WikiTree date fields and are queued for review; nothing has been changed on WikiTree.

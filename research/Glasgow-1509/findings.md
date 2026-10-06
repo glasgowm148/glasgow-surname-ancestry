@@ -1,6 +1,6 @@
 # Findings: [James Glasgow (Glasgow-1509), 1737–1802, Larne](https://www.wikitree.com/wiki/Glasgow-1509)
 
-Last updated: 2026-09-13
+Last updated: 2026-10-06
 
 ## Current conclusion
 
@@ -175,3 +175,12 @@ Two assignments by James Glasgow, ropemaker, to John Hill share the date **28 Ma
 - [Memorial 173108, opening, image 259](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJW-DDD6), with [continuation p. 513, image 260](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJW-DDDL), concerns a messuage held on a 60-year lease at £5 2s 6d yearly. Its witness James Glasgow is explicitly **Farmer**, repeated in the affidavit; John Houston, merchant, also witnesses this instrument.
 
 Both original occupation readings were independently checked. The Farmer wording does not overturn the Tanner reading in the other deed. Whether the two witnesses were the same man with different descriptions or namesakes remains unresolved. The farmer is not assigned to the tanner or to the South Carolina settler from this record alone; neither assignment supplies kinship.
+
+<!-- larne-kilwaughter-audit-2026-10-06:vitals -->
+## Recommended correction — vital dates, 6 October 2026
+
+**Birth: before 27 October 1743** (sworn "aged upwards of thirty years" on that date in a Registry of Deeds affidavit; project reading); by about 1740 if he is the ropemaker who set up a rope-walk at Larne in January 1761. The year 1737 comes from a derivative chronology and a reported St Cedma's stone that has not been seen. The Larne monument has Hugh and Ann's son James born in 1747/8 and living to 1812, so a James born to them in 1737 must have died young if the register entry is right; the ropemaker's identity with that child is unproved.
+
+**Death: 1802 as reported from that stone** (unverified); a James Glasgow of Larne has a Connor probate-index entry in 1803.
+
+These are proposals for the WikiTree date fields and are queued for review; nothing has been changed on WikiTree.

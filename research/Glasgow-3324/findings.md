@@ -3,7 +3,7 @@
 Record every useful result and negative search here as it is found.
 Do not treat an unsourced tree or naming pattern as proof.
 
-Last updated: 2026-08-11
+Last updated: 2026-10-06
 
 ## Current conclusion
 
@@ -209,3 +209,10 @@ Northern Star original masthead confirms the indexed date for page 61256880 as t
 ## Current conclusion — newspaper identity review, 6 October 2026
 
 - [Poulson’s American Daily Advertiser, 1788-05-06, p.3](https://www.newspapers.com/image/1034014372/): William Glasgow (master of the Falmouth, from Baltimore, arrived Amsterdam 1787) — **possible** match. The entry gives the forename, the vessel (Falmouth), its origin (Baltimore) and the destination (Amsterdam), with no residence or kin. Glasgow-3324 (William, Larne, c.1763–1816) would have been about 24. A Wm. Glasgow commanded the Belfast brig William on European voyages (Rotterdam, Oporto, Bordeaux) in 1792–1799, according to his local findings, but that captain is not proved to be him, and nothing links either to a Baltimore vessel. The other William profiles of suitable age are Scottish or Irish baptisms with no seafaring record (Glasgow-1430, 1231, 1223, 1124, 1320, 1385, 2915, 3326, 4139). Glasgow-357 (William, 1757–1805, Currituck, North Carolina) is an American namesake, with no maritime or Baltimore link. Possible only.
+
+<!-- larne-kilwaughter-audit-2026-10-06:vitals -->
+## Recommended correction — vital dates, 6 October 2026
+
+**Death: 5 October 1816, aged 53**; **birth: October 1762 to October 1763** by that age. Source: the Larne monument as published in 1900 ([*Ulster Journal of Archaeology*, 2nd series, vol. 6, p. 47](https://archive.org/details/ulsterjournalofa06ulstiala/page/47/mode/1up)). The year values are sound; the day is available.
+
+These are proposals for the WikiTree date fields and are queued for review; nothing has been changed on WikiTree.

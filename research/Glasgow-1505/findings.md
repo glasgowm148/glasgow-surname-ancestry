@@ -200,3 +200,12 @@ William Glasgow is named as master of the Lady Forbes in the Sutton shipping cas
 On the page image of [Porter, vol. 3 p. 230](https://archive.org/details/christianunitari0003unse/page/230/mode/1up) "Major" is printed in roman type directly after the surname, with no comma before it. In these printed minutes ranks come before a name ("Capt. Patrick Agnew", "Captain Shaw") and words that distinguish namesakes come after it ("John Kerr, sen.", "Robert Mea, jun.", "Alex. Miller, Elder", "Alex. Miller, younger"). "Major" may therefore mean "the elder" (possible; a rank, a byname or a copying slip cannot be excluded). If so, a second William Glasgow was known in the congregation in 1734, not necessarily an adult.
 
 This is a research lead only. An older William would be one candidate father to test for the men born about 1700-1710, beside the Dublin "Wm Glasroe" of the 1704 baptism. The derivative chronology's two gravestone-derived birth years for William (1699 and 1708) are unverified.
+
+<!-- larne-kilwaughter-audit-2026-10-06:vitals -->
+## Recommended correction — vital dates, 6 October 2026
+
+**Birth: about 1713 or earlier** (estimate; adult by 1734, when the pall was lodged with "William Glasgow Major"). A derivative chronology reports gravestone-derived years of 1699 and 1708; the stone has not been seen, and the 1900 article on the Larne armorial stones does not print it (that article covers armorial stones only, so its silence proves little).
+
+**Death: after 6 January 1775**, when he swore the execution affidavit for a 1744 deed at Larne (project reading of the memorial image). A William Glasgow of Larne has a Connor probate-index entry in 1783 which may be his but is not uniquely so. The present "about 1708 to about 1783" rests on the unseen stone.
+
+These are proposals for the WikiTree date fields and are queued for review; nothing has been changed on WikiTree.

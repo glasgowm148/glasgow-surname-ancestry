@@ -25,3 +25,10 @@ Profile prose and trees remain leads; inspect the cited record before treating a
 ### External source links present
 
 - None detected outside WikiTree and sponsored Ancestry links.
+
+<!-- larne-kilwaughter-audit-2026-10-06:vitals -->
+## Recommended correction — vital dates, 6 October 2026
+
+**The date shown is a model estimate, not a recorded date.** "About 1735" is the year of the baptism reported in the derivative register chronology; the original register (PRONI MIC/1B/6) has not been read.
+
+These are proposals for the WikiTree date fields and are queued for review; nothing has been changed on WikiTree.

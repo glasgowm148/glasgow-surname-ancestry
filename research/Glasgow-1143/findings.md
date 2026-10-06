@@ -261,3 +261,14 @@ Registry of Deeds memorial 74015 ([opening, p. 301](https://www.familysearch.org
 ### Memorial 159661 re-read — 6 October 2026
 
 On the saved screenshots of FamilySearch images 542 and 543 the three lives read "Robt Glasgow Grantor", "Jas Glasgow son of the sd Robt" and "Elinor [surname] otherwise Agnew Daur of the aforesd Wm Agnew". The surname is not legible at the saved resolution (its first letter looks more like N than J); "Jones" is the FamilySearch machine reading. The memorial's registration note is outside the cropped screenshot, so 18 April 1766 is probable, not confirmed. A re-reading of the witnesses gave Wm Blair of Larne and James Shutter to the deed, and James Shutter and a Larne merchant whose surname is uncertain (Hugh Hanford or Kennedy) to the memorial; that also needs the full-resolution image. The father-and-son wording is unaffected.
+
+<!-- larne-kilwaughter-audit-2026-10-06:vitals -->
+## Recommended correction — vital dates and father status, 6 October 2026
+
+**Birth: about 1708 or earlier** (estimate; no record gives his age). He married Rachel Wilson in November 1729 (groom assumed 21 or over; derivative chronology), was principal lessee of Ballykeel in February 1738/9 and, on the derivative chronology, an elder from the early 1730s. No earlier limit is recorded; he was alive on 20 December 1764 and probably in April 1772, so a birth much before about 1690 is unlikely. The present "about 1710" was the compiler's estimate from the marriage year and makes him a groom of 19.
+
+**Death: after 20 December 1764**, when he granted a lease of half of Ballykeel in which he was a named life (memorial 159661, saved register images); probably after April 1772, if he is the Robert Glasgow printed next to James Glasgow and Hugh Shannon in the Larne, Kilwaughter and Raloo declaration in the *Belfast News-Letter* of 7 April 1772. The 1 April date and the Kilwaughter heading of that declaration are known only second-hand, from a derivative note citing PRONI T808/15082. No record of his death has been found; the present "about 1772" is a last sighting, not a death estimate.
+
+**Father status.** On WikiTree the link to Robert Glasgow-1502 carries no status, while the links of Hugh-1499, James-1504 and William-1505 to the same man are marked uncertain. Proposed: set it to uncertain and keep the attachment, because no evidenced replacement exists, and add to the biography: "No record names Robert's father. Robert Glasgow-1502 is recorded only for the South Side district in 1700-1701, while this Robert is documented at Kilwaughter. The attachment is a working hypothesis."
+
+These are proposals for the WikiTree date fields and are queued for review; nothing has been changed on WikiTree.

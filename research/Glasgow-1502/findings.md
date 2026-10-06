@@ -192,3 +192,10 @@ This is a hypothesis, not a finding, and no attachment should be moved on it. Th
 - a **Kilwaughter group**: Robert Glasgow-1143 and his proved son James.
 
 On locality alone, Robert-1143 fits a Kilwaughter father (the officer James, who died in 1726, or a John) at least as well as Robert of the South Side; locality cannot decide parentage. Every candidate father for each of the four men is possible and none rises higher. The present arrangement, with all four as sons of this Robert, is inherited from the Life's Weaving reconstruction, which itself called them "presumed brothers". A Dublin baptism of Hugh "Glasroe", son of "Wm Glasroe" and Jone, on 23 October 1704, is compatible in date with Hugh-1499 but has a different surname spelling and no bridge to Larne.
+
+<!-- larne-kilwaughter-audit-2026-10-06:vitals -->
+## Recommended correction — vital dates, 6 October 2026
+
+**Birth: before about 1679** (a boundary, not an estimate of the year): he was an adult stipend bondsman in May 1700. The present "about 1675" should be worded as that boundary.
+
+These are proposals for the WikiTree date fields and are queued for review; nothing has been changed on WikiTree.

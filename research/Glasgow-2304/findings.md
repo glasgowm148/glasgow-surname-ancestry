@@ -1,6 +1,6 @@
 # Findings: Archibald Glasgow (Glasgow-2304)
 
-Last updated: 2026-09-13
+Last updated: 2026-10-06
 
 ## Current conclusion
 
@@ -86,3 +86,10 @@ chance of naming Robert directly or excluding him from a complete heir group.
 ## Parentage inference correction — 13 September 2026
 
 The common-father comparison is withdrawn: it tested a scenario that was not proposed. The actual Robert-to-James-J hypothesis is compatible with an earlier Irish collateral connection and has positive census, birthplace and migration support. Neither a fixed joining generation nor the two uncertain American parent links has been proved. See [the current reconstruction](/people/glasgow-951.html#larne-reconstruction). No structured relationship has been changed.
+
+<!-- larne-kilwaughter-audit-2026-10-06:vitals -->
+## Recommended correction — vital dates, 6 October 2026
+
+**Keep birth about 1769, with its basis stated:** aged 49 at death on 22 July 1818, on the Gilder's Creek stone as transcribed (born July 1768 to July 1769; read through a summarising fetch, to be confirmed on the page). **Birthplace:** the present South Carolina birthplace conflicts with a birth in 1768/9, before his father's reported emigration in late 1772 or 1773. No record gives his birthplace; mark it as unsupported and do not blank it without an evidenced replacement.
+
+These are proposals for the WikiTree date fields and are queued for review; nothing has been changed on WikiTree.

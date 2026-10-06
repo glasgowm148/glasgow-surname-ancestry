@@ -1,6 +1,6 @@
 # Findings: [James Glasgow (Glasgow-1144), born 1731-05-24, Kilwaughter, Larne, County Antrim, Ireland](https://www.wikitree.com/wiki/Glasgow-1144)
 
-Last updated: 2026-09-21
+Last updated: 2026-10-06
 
 Record every useful result and negative search here as it is found.
 Do not treat an unsourced tree or naming pattern as proof.
@@ -216,9 +216,18 @@ James Glasgow and Andrew Doyle, styled chairmen, are named among persons examine
 <!-- nir-2026-10-06-ireland-1800-1829+ireland-1830-1839+ireland-1840-1849+ireland-1850-on+ireland-to-1799+us-to-1784 -->
 ## Identity assessment — newspaper candidates withdrawn, 6 October 2026
 
-- [The South-Carolina and American General Gazette, 1775-08-25, p.1](https://www.newspapers.com/image/605068969/): no longer a candidate for this profile. James Glasgow and Ezekiel Glasgow in the Charlestown, South Carolina, General Post Office letter list of 21 August 1775. James is possibly the Ayr-born James of Newberry District (Glasgow-804, arrived South Carolina 1769); the Kilwaughter James (Glasgow-1144) is unlikely because his children were still being born in County Antrim to 1775. No WikiTree Ezekiel fits.
+- [The South-Carolina and American General Gazette, 1775-08-25, p.1](https://www.newspapers.com/image/605068969/): no longer a candidate for this profile. James Glasgow and Ezekiel Glasgow in the Charlestown, South Carolina, General Post Office letter list of 21 August 1775. James is possibly the Ayr-born James of Newberry District (Glasgow-804, arrived South Carolina 1769); the Kilwaughter James (Glasgow-1144), reported to have emigrated in late 1772 or 1773 and recorded in South Carolina on 16 November 1774 (derivative chronology), is equally compatible. Nothing links either man to the letter list, so the entry is unassigned. (Corrected 6 October 2026: an earlier note wrongly said his children were still being born in County Antrim to 1775.) No WikiTree Ezekiel fits.
 
 <!-- nir-2026-10-06-scotland-misc+us-1785-1799 -->
 ## Identity assessment — newspaper candidates withdrawn, 6 October 2026
 
 - [Jackson’s Oxford Journal, 1779-04-10, p.3](https://www.newspapers.com/image/396539533/): no longer a candidate for this profile. April 1779 reports of the Hackman/Martha Ray shooting name James Glasgow, chairman (sedan-chair carrier), who took the pistol and handed it to Halliburton. A London chairman with no identifying detail; no WikiTree profile can be assigned.
+
+<!-- larne-kilwaughter-audit-2026-10-06:vitals -->
+## Recommended correction — death date and children's birthplaces, 6 October 2026
+
+**Death: before 13 July 1793**, when his will, dated 17 October 1775, was proved (Newberry, Will Book A, p. 194; known through a derivative transcription). No death date is recorded; the present "about 1793" should read "before 13 July 1793".
+
+**Children's birthplaces.** WikiTree gives Margaret (Glasgow-3977, born 1773) and Rachel (Glasgow-3978, born 1775) a County Antrim birthplace, marked uncertain. James is reported to have emigrated in late 1772 or 1773 and is recorded in South Carolina on 16 November 1774 (derivative chronology), so those birthplaces are unsupported and conflict with that chronology. They are the origin of the mistaken statement, now corrected in the newspaper notes above, that his children were still being born in County Antrim to 1775. Archibald (Glasgow-2304, born 1768/9) has the opposite problem: a South Carolina birthplace before the family emigrated.
+
+These are proposals for the WikiTree date fields and are queued for review; nothing has been changed on WikiTree.

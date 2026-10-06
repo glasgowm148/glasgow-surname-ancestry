@@ -1,6 +1,6 @@
 # Findings: [Glasgow-3931 (Glasgow-3931), birth unknown, birthplace unknown](https://www.wikitree.com/wiki/Glasgow-3931)
 
-Last updated: 2026-09-08
+Last updated: 2026-10-06
 
 Record every useful result and negative search here as it is found.
 Do not treat an unsourced tree or naming pattern as proof.
@@ -56,3 +56,10 @@ Profile prose and trees remain leads; inspect the cited record before treating a
 ## Birth-estimate audit - 21 August 2026
 
 The live structured birth was corrected to **about 1720, uncertain**. The 1740 Protestant return identifies Hugh as a householder but supplies no birth year. The earlier `before` value remains only a strict chronological boundary, not the most useful estimated birth. No biography, relationship, source or other structured field was changed in this audit.
+
+<!-- larne-kilwaughter-audit-2026-10-06:vitals -->
+## Recommended correction — vital dates, 6 October 2026
+
+**Birth: about 1719 or earlier** (estimate): he was a householder in the 1740 Protestant householders' return and is assumed to have been at least 21. A value of "about 1720" would make him a householder at 20.
+
+These are proposals for the WikiTree date fields and are queued for review; nothing has been changed on WikiTree.

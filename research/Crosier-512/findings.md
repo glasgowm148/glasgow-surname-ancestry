@@ -1,6 +1,6 @@
 # Findings: Mary, wife of James Glasgow (Crosier-512)
 
-Last updated: 2026-08-09
+Last updated: 2026-10-06
 
 ## Current conclusion
 
@@ -20,3 +20,10 @@ and exact parentage as unproved.
 | --- | --- | --- |
 | James Glasgow's will, dated 17 October 1775 | Names wife Mary and six children. | Direct derivative will transcription for spouse and household; no birth surname or parents. |
 | *John Glasgow et al. v. Robert Glasgow*, 1817-1818 | Says Mary was a daughter of another of Archibald Wilson's sisters. | Direct derivative litigation evidence for her maternal Wilson connection and first-cousin relationship to James; exact mother unnamed. |
+
+<!-- larne-kilwaughter-audit-2026-10-06:vitals -->
+## Recommended correction — vital dates, 6 October 2026
+
+**Keep birth about 1737, with its basis stated:** aged 85 at death on 10 October 1822, on the Gilder's Creek stone as transcribed (born October 1736 to October 1737). The transcription was read through a summarising fetch and should be confirmed on the page.
+
+These are proposals for the WikiTree date fields and are queued for review; nothing has been changed on WikiTree.

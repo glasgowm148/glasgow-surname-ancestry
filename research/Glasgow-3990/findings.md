@@ -1,6 +1,6 @@
 # Findings: John Glasgow (Glasgow-3990), unidentified younger namesake
 
-Last updated: 2026-09-21
+Last updated: 2026-10-06
 
 ## Current conclusion
 
@@ -59,3 +59,10 @@ proposed family links remain uncertain. See [exact detail and access audit](../l
 ## Live profile update — 21 September 2026
 
 Saved and read back the precise 1733 administration-bond description, lost-original limit and uncertain father–son discussion. Existing family attachments remain unchanged and uncertain. [Complete saved biography](pre1710-record-update-2026-09-21.wiki).
+
+<!-- larne-kilwaughter-audit-2026-10-06:vitals -->
+## Recommended correction — vital dates, 6 October 2026
+
+**Birth "about 1680" is an unevidenced estimate.** No record of this man's age exists, and no record securely identifies him: he stands for the younger John implied by "John Glasgow, sen." in 1700.
+
+These are proposals for the WikiTree date fields and are queued for review; nothing has been changed on WikiTree.

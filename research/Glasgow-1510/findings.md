@@ -1,6 +1,6 @@
 # Findings: [Hugh Glasgow (Glasgow-1510), born 1745, County Antrim](https://www.wikitree.com/wiki/Glasgow-1510)
 
-Last updated: 2026-08-09
+Last updated: 2026-10-06
 
 Record every useful result and negative search here as it is found.
 Do not treat an unsourced tree or naming pattern as proof.
@@ -31,3 +31,10 @@ Profile prose and trees remain leads; inspect the cited record before treating a
 ### External source links present
 
 - None detected outside WikiTree and sponsored Ancestry links.
+
+<!-- larne-kilwaughter-audit-2026-10-06:vitals -->
+## Recommended correction — vital dates, 6 October 2026
+
+**Death: 30 November 1756, aged eleven**, as "Hugh ye Last" on the Larne monument as published in 1900 ([*Ulster Journal of Archaeology*, 2nd series, vol. 6, p. 47](https://archive.org/details/ulsterjournalofa06ulstiala/page/47/mode/1up)); **birth: December 1744 to November 1745** by that age. The derivative register chronology's 1745 agrees.
+
+These are proposals for the WikiTree date fields and are queued for review; nothing has been changed on WikiTree.

@@ -4,7 +4,7 @@
 
 This Larne man is not [James Glasgow (Glasgow-4024)](https://www.wikitree.com/wiki/Glasgow-4024) of Cookstown, buried at St Luran's on 13 March 1831 aged 40. The reported age implies birth about 1790–1791, and the locality and burial context also differ. The Cookstown man was created separately, unconnected. See the [burial transcript](https://www.cotyroneireland.com/churchrecord/saintluran1830-1849.html).
 
-Last updated: 2026-09-13
+Last updated: 2026-10-06
 
 ## Current conclusion
 
@@ -141,3 +141,10 @@ The live Family section now names James Glasgow-1509 as father. The biography st
 ## Current conclusion — newspaper identity review, 6 October 2026
 
 - [Belfast News-Letter, 1830-12-24, p.3](https://www.newspapers.com/image/390574399/): James Glasgow, of Larne (applicant to register a GBP10 freehold) — **possible** match. Name + Larne residence + adult property-holder in 1830 agree with Glasgow-3986 (Larne merchant/'junior' reconstruction of 1795-97, born c.1773, reported died 1831 from a St Cedma's tombstone). No age, occupation, relative or townland bridge; an 1831 death (month unknown) does not conflict with a January 1831 registration. A second Larne-born James (died Demerara 1839, group 390552249) was also an adult in 1830 and cannot be excluded. Sources: [WikiTree Glasgow-3986 live biography (API, 6 Oct 2026)](https://www.wikitree.com/wiki/Glasgow-3986)
+
+<!-- larne-kilwaughter-audit-2026-10-06:vitals -->
+## Recommended correction — vital dates, 6 October 2026
+
+**Birth: before about 1774**, if he is the James Glasgow of Larne, merchant, who witnessed a release on 16 April 1795 (assumed 21 or over); the reported 1773 comes from an unrecovered memorial account. **Death: after December 1830**, if he is the James Glasgow of Larne who applied to register a freehold that month; the reported 1831 is unchecked, and the Cookstown burial of 13 March 1831 aged 40 is a different man.
+
+These are proposals for the WikiTree date fields and are queued for review; nothing has been changed on WikiTree.

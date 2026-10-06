@@ -1,6 +1,6 @@
 # Findings: Rachel (Glasgow) McCrackin (Glasgow-3978)
 
-Last updated: 2026-08-13
+Last updated: 2026-10-06
 
 ## Current conclusion
 
@@ -61,3 +61,10 @@ William aged 14 in 1768.
 stale draft. Add husband Robert, the cemetery dates, and Ruth and Pulauski;
 leave Cyrus uncertain. Mary's birth surname remains unproved despite the
 current `Crosier-512` attachment.
+
+<!-- larne-kilwaughter-audit-2026-10-06:vitals -->
+## Recommended correction — birthplace, 6 October 2026
+
+**Birthplace.** The County Antrim birthplace (uncertain) for Rachel, born 1775, conflicts with her father's reported emigration in late 1772 or 1773 and his presence in South Carolina on 16 November 1774 (derivative chronology). No record gives her birthplace. Mark it as unsupported; do not blank it without an evidenced replacement. The same applies to her sister Margaret (Glasgow-3977, born 1773).
+
+These are proposals for the WikiTree date fields and are queued for review; nothing has been changed on WikiTree.

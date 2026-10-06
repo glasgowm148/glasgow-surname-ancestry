@@ -1,6 +1,6 @@
 # Findings: [Rachel Glasgow (Wilson-78088), born 1680, birthplace unknown](https://www.wikitree.com/wiki/Wilson-78088)
 
-Last updated: 2026-08-09
+Last updated: 2026-10-06
 
 Record every useful result and negative search here as it is found.
 Do not treat an unsourced tree or naming pattern as proof.
@@ -34,3 +34,12 @@ later people to her as children. It does not identify Robert Glasgow-1143's fath
 The litigation conflicts on Archibald's death year, about 1792 versus 1795, and
 on whether Ann Glasgow Shannon predeceased or survived him. Preserve both
 versions until the original equity file and Irish estate papers are inspected.
+
+<!-- larne-kilwaughter-audit-2026-10-06:vitals -->
+## Recommended correction — vital dates, 6 October 2026
+
+**Birth: about 1690 to 1712** (estimate; no record gives her age). She married Robert Glasgow in November 1729 and was the mother of James (baptised 24 May 1731) and Ann (15 November 1733), dates known only from a derivative register chronology. The later limit assumes she was at least about 17 at marriage; the earlier limit assumes she was no older than about 48 at the baptism of Rachel on 8 November 1738 (about 1685 if that child was not hers). The present value, "about 1680", is an unsourced placeholder: the captured WikiTree stub reads "Janet was born about 1680", and it would make her 51, 53 and 58 at the three baptisms.
+
+**Death: 1742**, the year given in the 1817 South Carolina equity complaint, a pleading made 75 years later and known to this project only through a derivative transcription. No contemporary record of her death has been found. The death place is not recorded; Kilwaughter is assumed from the family's residence.
+
+These are proposals for the WikiTree date fields and are queued for review; nothing has been changed on WikiTree.

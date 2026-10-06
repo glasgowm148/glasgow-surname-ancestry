@@ -25,3 +25,10 @@ Map `record-jane-glasgow-a13c12e502` and the 1873 GRONI index entry to
 Glasgow-4013. The live WikiTree profile now carries the 4 September 1873 death
 date. Keep unconnected; no parent, spouse, child or exact death address is
 established by these indexes.
+
+<!-- larne-kilwaughter-audit-2026-10-06:vitals -->
+## Recommended correction — vital dates, 6 October 2026
+
+**Unresolved identity, no date change yet.** The "before 1826" birth bound comes only from the 1844 Larne entry in the pre-1858 wills and administrations index; the 1873 Larne death (index age 50) would give a birth about 1823. That index normally names the person whose estate is being dealt with, so if the 1844 to 1846 entries are hers she died by about 1844 and the 1873 death belongs to another Jane. The profile cannot carry both. Read the PRONI index detail and the 1873 death certificate before changing either date.
+
+These are proposals for the WikiTree date fields and are queued for review; nothing has been changed on WikiTree.
