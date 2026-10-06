@@ -51,3 +51,8 @@ All five profiles were verified as managed by M Glasgow. Connected Hugh-1499 as 
 **The date shown is a model estimate, not a recorded date.** "About 1747" follows the derivative chronology's 1745-48 range for the John Glasgow who married Rose Allan in 1769; no baptism is recorded.
 
 These are proposals for the WikiTree date fields and are queued for review; nothing has been changed on WikiTree.
+
+<!-- larne-kilwaughter-audit-2026-10-06:routes -->
+## Relationship assessment — John Glasgow-4090, 6 October 2026
+
+John Glasgow-4090 (John Glasgow, farmer, the probable father of Alexander Glasgow-951) is attached to this John as a son on WikiTree, with no status set. No record supports that link, and a son of the 1769 marriage would be barely twenty at the birth of Samuel Glasgow about 1790. It is proposed to be marked uncertain and kept, because no evidenced replacement exists. The link from this John to Hugh Glasgow-1499 stays uncertain (possible, on locality and generation only): Hugh as a forename occurs nowhere among John farmer's probable children or documented grandchildren, which gives the route no support and excludes nothing.

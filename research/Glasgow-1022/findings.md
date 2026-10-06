@@ -351,3 +351,8 @@ All obsolete NAI census links on the profile were migrated: the 1831 John and
 Robert search now uses the current Lissane results; Lisnagaver John uses record
 ID 43289; Glenleslie Robert uses ID 31234. Existing transcriptions and original
 civil records remain cited.
+
+<!-- larne-kilwaughter-audit-2026-10-06:routes -->
+## Relationship assessment — superseded attachments, 6 October 2026
+
+In the WikiTree snapshot of 28 September 2026, John Glasgow-1022's father is John Glasgow-3959 of Ballyboggy (uncertain), and John Glasgow-867 and Samuel Glasgow-2908 are attached to John Glasgow-4090, the record-defined John Glasgow, farmer. John-1022 is a disfavoured identity for that father: his 1851 Glenleslie household records a daughter Nancy who died in 1847 aged 36, while Nancy of Plattsburgh, Alexander Glasgow-951's probable sister, lived to 1891. The attachment to William Glasgow-1505 of Larne described above is historical, and the "William of Larne → John of Glenleslie → John of Lisnagaver" route no longer describes either the tree or the research.

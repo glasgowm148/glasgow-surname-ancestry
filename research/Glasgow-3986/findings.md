@@ -15,9 +15,12 @@ James Glasgow of Larne appears in a December 1830 freehold-registration applicat
 James is a possible son of the ropemaker [James Glasgow (Glasgow-1509)](https://www.wikitree.com/wiki/Glasgow-1509).
 That is a reasonable working hypothesis: a birth about 1773 falls
 about eleven years after the reported 1762 James Glasgow-Janet Shutter marriage.
-Separately, he is now the leading identified candidate for the possible father
-named James in Alexander `Glasgow-951`'s parentage research, but no record yet
-connects the Larne and Lisnagaver households.
+Separately, he was briefly (13 September 2026) the leading named candidate for a
+possible father James of Alexander `Glasgow-951`. That hypothesis rested on naming
+and generation only. The 951 research now holds John Glasgow, farmer, as Alexander's
+probable father, so James is only a weak rival; if Samuel Glasgow (born about 1790)
+was John farmer's son, James, reported born about 1773, is also too young to be John
+farmer's father. No record connects the Larne and Lisnagaver households.
 
 His earlier placement as a direct son of William `Glasgow-1505`, born about
 1708, produced a roughly 65-year generational gap. Direct fatherhood is possible,
