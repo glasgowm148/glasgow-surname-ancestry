@@ -1,25 +1,26 @@
-# Findings: [Robert Glasgow (Glasgow-1502), active 1699-1700, County Antrim, Ireland](https://www.wikitree.com/wiki/Glasgow-1502)
+# Findings: [Robert Glasgow (Glasgow-1502), active 1700-1701, County Antrim, Ireland](https://www.wikitree.com/wiki/Glasgow-1502)
 
 Record every useful result and negative search here as it is found.
 Do not treat an unsourced tree or naming pattern as proof.
 
-Last updated: 2026-08-11
+Last updated: 2026-10-06
 
 ## Current conclusion
 
-The profile conflates an older Robert active in 1699-1700 with
+The profile conflates an older Robert active in 1700-1701 with
 [Robert Glasgow (Glasgow-1143), born about 1710, Kilwaughter, County Antrim](https://www.wikitree.com/wiki/Glasgow-1143),
 who was still living in 1772. The older Robert must have been born before about
-1678 if he was an adult congregational representative in 1699. No reviewed
+1679 if he was an adult stipend bondsman in May 1700. No reviewed
 record makes James Glasgow his father or Hugh, James, William and the younger
 Robert his sons. All four listed child relationships are therefore
 **tree-only and unproved**, not merely awaiting citation cleanup.
 
 There is also a material locality problem with the current reconstruction.
-The complete 1699-1700 congregational extracts consistently assign the older
-Robert to the **South Side**, while **John Glasgow senior** represented
-Kilwaughter in 1699-1700 and **James Glasgow** was appointed Kilwaughter's
-overseer in May 1700. This does not prove that Robert could not later have lived
+The complete 1700-1701 congregational extracts (printed under 1699 and 1700;
+see the 6 October 2026 re-reading below) consistently assign the older
+Robert to the **South Side**, while **John Glasgow senior** acted for
+Kilwaughter in 1700 and **James Glasgow** was appointed Kilwaughter's
+overseer, probably on 29 May 1701. This does not prove that Robert could not later have lived
 at Kilwaughter or fathered the four men, but it removes the supposed same-place
 bridge on which the attachment has largely depended.
 
@@ -50,8 +51,8 @@ but do not uniquely determine kinship.
 
 | Source | Finding | Assessment |
 | --- | --- | --- |
-| [Classon Porter, "Congregational Memoirs: Larne and Kilwaughter," *The Christian Unitarian* 2 (1863), pp. 409-414](https://archive.org/details/christianunitari0002unse) | Robert Glasgow acted as stipend bondsman in 1699, was appointed to take the bonds to Presbytery, and took part in land and meeting-house work in 1700. | Direct published transcript for an adult Robert in 1699-1700; supports birth before about 1678. |
-| [Porter, *The Christian Unitarian* 2-3](https://archive.org/details/christianunitari0003unse), complete Glasgow-name audit | On 17 May 1699 `John Glasgow, sen.` represented Kilwaughter, while `Robert Glasgow` represented South Side. On 27 February 1700 John again represented Kilwaughter and Robert the south side; on 29 May 1700 James was made Kilwaughter overseer. | The transcript contains no father, son, brother, uncle or heir wording. More importantly, it does not place Robert in the Kilwaughter district occupied by the alleged sons. |
+| [Classon Porter, "Congregational Memoirs: Larne and Kilwaughter," *The Christian Unitarian* 2 (1863), pp. 409-414](https://archive.org/details/christianunitari0002unse) | Robert Glasgow was stipend bondsman for the South Side on 17 May 1700, was one of four appointed on 26 May 1700 to produce the bonds to the Presbytery, and on 27 February 1700/01 was named for the south side to view land and to serve on the repairs committee. The minutes are printed under 1699 and 1700; the corrected years are explained in the 6 October 2026 re-reading below. | Printed transcription of a manuscript copy of the session record, for an adult Robert in 1700-1701; supports birth before about 1679. |
+| [Porter, *The Christian Unitarian* 2-3](https://archive.org/details/christianunitari0003unse), complete Glasgow-name audit | On 17 May 1700 `John Glasgow, sen.` was bondsman for Kilwochter, while `Robert Glasgow` was bondsman for the South Side. On 27 February 1700/01 John again acted for Kilwochter and Robert for the south side. James was made overseer for Kilwochter at the minute printed `May 29, 1700.—Thursday`, probably Thursday 29 May 1701. | The transcript contains no father, son, brother, uncle or heir wording. More importantly, it does not place Robert in the Kilwaughter district occupied by the alleged sons. |
 | [Porter, *The Christian Unitarian* 3 (1864)](https://archive.org/details/christianunitari0003unse) | The later session list includes a Robert Glasgow marked `turned out`; an entry of 17 May 1747 explains that a former session member Robert refused public satisfaction after an accusation of fornication. | The 1747 man could be the older actor or the younger Robert who married in 1729. The record does not resolve identity. |
 | [Archived original Early Glasgows account](https://web.archive.org/web/20101124184247/http://lifesweaving.com/Glasgow/Kilwaughter/TheirStory2.html) and [its source notes](https://web.archive.org/web/20101101160236id_/http://lifesweaving.com/Glasgow/Kilwaughter/sources.html) | Says the older Robert is only `a candidate to be the father` of Robert born about 1710; says the four men `may be brothers` and later calls them `presumed brothers`. The notes also say that treating two James occurrences as one person was done `for present labeling purposes`. | This is the apparent source of the online pedigree, but its author explicitly presented the relationships as a working reconstruction, not a record-derived conclusion. The fictionalised narrative cannot upgrade those admissions into evidence. |
 | Registry of Deeds memorial 63221, 12 March 1736; image-derived transcript held in the project | Hugh and William Glasgow of Larne jointly leased two tenements. The named lives were George II, Frederick Prince of Wales and William Duke of Cumberland. | Direct association only. The memorial gives no kin term and its lives cannot be interpreted as sons or successors. |
@@ -128,7 +129,7 @@ proved child of Robert-1502. Plausible WikiTree attachments may remain as workin
 hypotheses when marked uncertain; the absence of a relationship source should be
 explicit on both sides of every edge. Corrective detachment is warranted only if
 contradictory evidence or a materially better placement emerges. The profile
-also needs a prominent warning that the older 1699-1700 Robert and younger
+also needs a prominent warning that the older 1700-1701 Robert and younger
 Robert-1143 are distinct evidence clusters.
 
 Status: **unresolved; archive-level proof target identified.**
@@ -147,3 +148,22 @@ The live structured birth was corrected to **about 1675, uncertain**. The 1699-1
 ## Batch evidence update — 21 September 2026
 
 The 1738 Ballykeel lease has now been checked in manuscript: it names Rachel Glasgow otherwise Wilson as Robert's wife and James Glasgow junior, but no father for Robert and no son clause for James. The 1741 Ballyboly lease likewise now confirms Robert Glasgow of Kilwaughter as a farmer and witness, with his proof of execution on 21 April 1743 and registration on 13 June 1743. These records concern the later Robert-1143 household and do not bridge the older Robert-1502 to any listed child. The strongest next originals remain NRS GD154/514–515, /525, /530 and /532, PRONI T828/15, and MIC1B/6.
+
+<!-- larne-kilwaughter-audit-2026-10-06:porter-dates -->
+## Source findings
+
+### Porter's extracts re-read on the page images — 6 October 2026
+
+Classon Porter's "Congregational Memoirs: Larne and Kilwaughter" was re-read on the page images of [volume 2, pp. 410-414](https://archive.org/details/christianunitari0002unse/page/411/mode/1up) and [volume 3, pp. 16-19](https://archive.org/details/christianunitari0003unse/page/16/mode/1up). Robert Glasgow appears three times, always for the South Side:
+
+- **17 May 1700:** "James Callwell and Robert Glasgow for South Side, for £10" among the stipend bondsmen, in the run Porter heads "May 12, 1699 (1700)" (vol. 2 p. 412).
+- **26 May 1700:** one of four "appointed to produce the bonds" to the Presbytery (vol. 2 p. 413).
+- **27 February 1700/01** (printed "Feb. 27, 1700"): named for the south side to view land, and with James Callwell "for south side of the water" on the repairs committee (vol. 3 p. 16).
+
+The years are corrected from the 1699 and 1700 given in earlier notes. Porter himself adds "(1700)" to the heading of the stipend run ("May 12, 1699 (1700)"), and the weekdays written into the minutes fit 1700 and not 1699: 12 May 1700 was a Sunday ("two Sabbaths together, of which this is the first") and the Presbytery of "the 7th of this inst." fell on Tuesday 7 May 1700. The minute printed "Feb. 27, 1700" is 27 February 1700/01 by ordinary Old Style reckoning. The minute printed "May 29, 1700.—Thursday" belongs to the same continuous run: 29 May fell on a Wednesday in 1700 and a Thursday in 1701, and the run's other weekday clues after 25 March (13 April, a Sunday; 17 April, a Thursday) also fit 1701, so it is **probably Thursday 29 May 1701**. That is an inference from the weekdays; a wrong weekday in the copy cannot be excluded without the original or the 1826 printing.
+
+These extracts are a printed transcription (*The Christian Unitarian* 2, 1863, and 3, 1864) of a manuscript copy of the 1699-1701 Larne session record, which Porter believed was "made or procured" by Rev. Samuel Eccles for Rev. D. Davison, who printed extracts from it in the *Christian Moderator* (1826), pp. 207-245. Porter had not found the original and arranged the extracts "not chronologically, but according to subject", so they stand two removes from the minute book. The entries from 1721 onward are Porter's printed transcription of the session book then in his hands; whether that book is now within PRONI MIC/1B/6 is unverified.
+
+## Relationship assessment — 6 October 2026
+
+The uncertain attachments of Hugh Glasgow-1499, James Glasgow-1504 and William Glasgow-1505 to this Robert are kept. Each parent link is possible: no record supports or excludes it. Robert appears only for the South Side, while John senior and James act for Kilwochter. No record names the four younger men together or calls any of them brothers.

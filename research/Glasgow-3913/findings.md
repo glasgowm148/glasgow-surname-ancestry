@@ -1,6 +1,6 @@
 # Findings: John Glasgow (Glasgow-3913), Kilwaughter
 
-Last updated: 2026-09-21
+Last updated: 2026-10-06
 
 ## Current conclusion
 
@@ -11,7 +11,7 @@ record. Two independent record groups therefore make close kinship probable,
 but neither gives ages or a kin term. Brother, father-son and cousin remain open.
 
 He is probably the John Glasgow called **senior** while representing Kilwaughter
-in congregational business in 1699-1701. Repeated place, name and associates support
+in congregational business in 1700 (printed under 1699 and 1700). Repeated place, name and associates support
 continuity, but no record explicitly links the appearances. `Senior` establishes a
 younger namesake, not a father-son relationship.
 
@@ -30,7 +30,7 @@ Scottish Robert `Glasgow-1078` remains separate absent a cross-channel identity 
 | Source | Finding | Assessment |
 | --- | --- | --- |
 | PRONI `T/307/A`; W. Macafee, [1669 Antrim Hearth Money Roll](https://www.billmacafee.com/1660shearthmoneyrolls/1669hearthmoneyrollsantrim.pdf), records 5347-5348 | `Jo Glascho` was a Kilwaughter Demesne householder immediately before James `Glascho`. | Direct residence and association; no stated relationship. |
-| Classon Porter, *Congregational Memoirs—Larne and Kilwaughter*, 1699-1701 extracts | `John Glasgow, sen.` represented Kilwaughter, served as bondsman and took part in congregational property business. | Probable continuation of the 1669 householder; proves a younger namesake was distinguished, not his identity or relationship. |
+| Classon Porter, *Congregational Memoirs—Larne and Kilwaughter*, 1699-1701 extracts (printed transcription of a manuscript copy) | `John Glasgow, sen.` was one of four sent to the Presbytery on 3 March 1700, sat on the meeting-house committee in April 1700 and was bondsman for Kilwochter with Patrick Agnew on 17 May 1700. An unmarked John Glasgow acted for Kilwochter with Patrick Agnew on 27 February 1700/01. | Probable continuation of the 1669 householder; proves a younger namesake was distinguished, not his identity or relationship. |
 | [PRONI Name Search](https://apps.proni.gov.uk/ProniNames_IE/SearchPage.aspx), Connor Diocesan Administration Bonds, inspected 21 September 2026 | John Glasgow, Kilroot, 1733; all occupation, notes, reference and other descriptive fields blank. | Official index detail, not an original bond. PRONI states that the originals do not exist and no further information survives in this index. No kinship or exact death date; identity remains unproved. |
 | PRONI `D2223/15/56` and 1740 Protestant Householders' Return | John `Glasgow-3959` held a Ballyboggy three-life lease with James Wier and is strongly identifiable with `Joh Glask` in the return. | Documented alternative candidate; no Kilwaughter bridge. |
 | NRS [GD154/514](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD154%2f514&st=1&tc=y&tl=n&tn=n&tp=n&k=&ko=a&r=GD154%2f5&ro=s&df=&dt=&di=y), [515](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD154%2f515&st=1&tc=y&tl=n&tn=n&tp=n&k=&ko=a&r=GD154%2f5&ro=s&df=&dt=&di=y), [525](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD154%2f525&st=1&tc=y&tl=n&tn=n&tp=n&k=&ko=a&r=GD154%2f5&ro=s&df=&dt=&di=y), [530](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD154%2f530&st=1&tc=y&tl=n&tn=n&tp=n&k=&ko=a&r=GD154%2f5&ro=s&df=&dt=&di=y), [532](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD154%2f532&st=1&tc=y&tl=n&tn=n&tp=n&k=&ko=a&r=GD154%2f5&ro=s&df=&dt=&di=y) | Open, on-site Kilwaghter tenant-list/rental/rent-roll files spanning c.1653, c.1690, Nov. 1692 and 1693-1708 (with 2, 3 and 8 items in the latter three groups). | Catalogue content names no Glasgow and has no image/transcription. Inspect under `Kilwaghter`, `Kilwaughter`, `Kilwaugheter` and Glasgow spelling variants; a tenant occurrence alone would not prove John senior's identity or kinship. |
@@ -70,3 +70,23 @@ estate or church evidence, not inspection of a surviving bond linked by this ind
 The 1733 deceased-estate occurrence should not be identified with the man personally
 co-leasing Ballyboggy in 1740 without resolving that chronological conflict. All
 proposed family links remain uncertain. See [exact detail and access audit](../larne-pre1710-2026-09-21/john-kilroot.md).
+
+<!-- larne-kilwaughter-audit-2026-10-06:porter-dates -->
+## Source findings
+
+### Porter's extracts re-read on the page images — 6 October 2026
+
+Re-read on the page images of [volume 2, pp. 410-414](https://archive.org/details/christianunitari0002unse/page/411/mode/1up) and [volume 3, pp. 16-19](https://archive.org/details/christianunitari0003unse/page/16/mode/1up):
+
+- **3 March 1700** (in the run headed "Feb. 25, 1699 (1700)"): "Appointed James Callwell, Samuel Smeally, Wm. Hare, and John Glasgow, sen., to goe to next Presbytery" (vol. 2 p. 411). The Presbytery extract that follows names him without "sen.".
+- **April 1700** (printed "April, 1699"): one of five, with Patrick Agnew, asked to settle the dimensions of the new meeting-house (vol. 2 p. 414).
+- **17 May 1700:** "Mr. Patrick Agnew and John Glasgow, sen., for Kilwochter, binds for £8 sterling" (vol. 2 p. 412).
+- **27 February 1700/01** (printed "Feb. 27, 1700"): "John Glasgow and Robert White, for Kilwochter" to view land, and "Mr. Patrick Agnew and John Glasgow, for Kilwochter" on the repairs committee (vol. 3 p. 16). He is not called "sen." here.
+
+The years are corrected from the 1699 and 1700 given in earlier notes. Porter himself adds "(1700)" to the heading of the stipend run ("May 12, 1699 (1700)"), and the weekdays written into the minutes fit 1700 and not 1699: 12 May 1700 was a Sunday ("two Sabbaths together, of which this is the first") and the Presbytery of "the 7th of this inst." fell on Tuesday 7 May 1700. The minute printed "Feb. 27, 1700" is 27 February 1700/01 by ordinary Old Style reckoning. The minute printed "May 29, 1700.—Thursday" belongs to the same continuous run: 29 May fell on a Wednesday in 1700 and a Thursday in 1701, and the run's other weekday clues after 25 March (13 April, a Sunday; 17 April, a Thursday) also fit 1701, so it is **probably Thursday 29 May 1701**. That is an inference from the weekdays; a wrong weekday in the copy cannot be excluded without the original or the 1826 printing.
+
+These extracts are a printed transcription (*The Christian Unitarian* 2, 1863, and 3, 1864) of a manuscript copy of the 1699-1701 Larne session record, which Porter believed was "made or procured" by Rev. Samuel Eccles for Rev. D. Davison, who printed extracts from it in the *Christian Moderator* (1826), pp. 207-245. Porter had not found the original and arranged the extracts "not chronologically, but according to subject", so they stand two removes from the minute book. The entries from 1721 onward are Porter's printed transcription of the session book then in his hands; whether that book is now within PRONI MIC/1B/6 is unverified.
+
+## Identity assessment — 6 October 2026
+
+John Glasgow, sen., of 1700 is probably the Jo Glascho of the 1669 hearth-money roll: the same district, and a seniority that suits a man adult in 1669. He was alive on 17 May 1700. The unmarked John Glasgow of 27 February 1700/01, again for Kilwochter with Patrick Agnew, may be he or the younger namesake that "sen." implies, so a death after February 1701 is possible, not established. The younger John is not named as such anywhere in Porter. The Kilroot administration bond of 1733 (Kilroot is a different parish, near Carrickfergus) and John Glasgow-3959 of Ballyboggy (1740) remain possible candidates only, and the attachment of John Glasgow-3990 to this John is possible only.

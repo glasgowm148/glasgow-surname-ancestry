@@ -1,6 +1,6 @@
 # Hugh Glasgow (Glasgow-1499): Larne elder and uncertain son John
 
-Last updated: 2026-09-21
+Last updated: 2026-10-06
 
 ## Current conclusion
 
@@ -42,3 +42,14 @@ Inspect MIC/1B/6 and the 1751/1767 renewal lives; the 1736 date and memorial 632
 ## Verified live joint-lease update — 21 September 2026
 
 The 1736 source corrections and new 1757 assignment reference were saved through the browser and read back exactly from WikiTree. Family fields remain unchanged. [Complete saved biography](joint-lease-update-2026-09-21.wiki); [verification](../larne-pre1710-2026-09-21/continuation-live-verification.json).
+
+<!-- larne-kilwaughter-audit-2026-10-06:porter-dates -->
+## Source findings
+
+### Session list re-read on the page image — 6 October 2026
+
+[Porter, vol. 3 p. 197](https://archive.org/details/christianunitari0003unse/page/197/mode/1up), re-read on the page image: "Hugh Glasgow (erased), dead July 8, 1767" is the 26th of the thirty elders on the list of the Larne session from 1721 to 1769 (Porter's "thirty-one names" include the minister). The only Glasgow death the list assigns to 1726 is James's: "James Glasgow (erased), deceased 1726".
+
+## Unresolved
+
+The derivative Kilwaughter chronology lists a "Hugh1 Glasgow, d. 1726 (Record found in Old Presbyterian Church Record Book)". Porter's printed list does not support a Hugh who died in 1726. The first page of the 1721 session book (presumably within PRONI MIC/1B/6) should be read to rule out a second 1726 Glasgow entry before the merger of the former Glasgow-1503 into this profile is treated as closed.
