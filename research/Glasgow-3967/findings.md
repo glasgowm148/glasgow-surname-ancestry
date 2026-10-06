@@ -1,13 +1,15 @@
 # Findings: James Glasgow (Glasgow-3967), Randalstown/Duneane ruling elder
 
-Last updated: 2026-08-13
+Last updated: 2026-10-06
 
 ## Current conclusion
 
 The published General Synod records directly place a ruling elder James
 Glasgow beside William Taylor in 1698 and 1703, and a man of the same name and
 office beside James Scott in 1705. The first two appearances are near-certainly
-one man; the 1705 occurrence is probably the same man. The Synod entries record
+one man; that the 1705 occurrence is the same man is possible, not established
+(lowered from probable on 6 October 2026, because it rests on the name, the office
+and neighbouring parishes only). The Synod entries record
 representatives, not residences. Taylor also appears with different elders in
 later Synods, so Robert King's appearance beside Taylor in 1705 does **not**
 prove that James moved to Duneane or permanently changed congregations.
@@ -66,7 +68,7 @@ index searches for children born about 1695–1720 cannot resolve this family.
 Use this wording in place of any claim that James moved to Duneane:
 
 ```text
-The James Glasgow appearing beside James Scott of Duneane in 1705 is probably
+The James Glasgow appearing beside James Scott of Duneane in 1705 is possibly
 the same man as William Taylor's elder in 1698 and 1703. The Synod entries list
 ministerial and elder representatives; they do not record James's residence.
 William Taylor appeared with different elders in later Synods, so the change
@@ -82,3 +84,30 @@ transferred congregations.
 - The two Glasgow-family histories and later typescript additions in PRONI `D2003/MIC128`, looking specifically for the parents of [[Glasgow-1657|John Glasgow]] of Bannside.
 
 Children of `Glasgow-3967` remain **unknown; none proved**.
+
+<!-- larne-kilwaughter-audit-2026-10-06:synod -->
+## Source findings
+
+### Synod rolls re-read on the page images — 6 October 2026
+
+*Records of the General Synod of Ulster*, vol. 1 (Belfast, 1890), Antrim presbytery lists, read on the page images by two readers:
+
+- **1 June 1698** ([p. 27](https://archive.org/details/recordsofgeneral01pres/page/27/mode/1up)) and **1 June 1703** ([p. 64](https://archive.org/details/recordsofgeneral01pres/page/64/mode/1up)): James Glasgow is printed as the ruling elder beside William Taylor, whom the Synod records as ordained "at Drumaul, May 26, '97" (p. 18). The roll names no congregation or residence for the elder. That he was the Drumaul (Randalstown) congregation's elder is probable, an inference from the pairing of minister and elder.
+- **5 June 1705** ([p. 91](https://archive.org/details/recordsofgeneral01pres/page/91/mode/1up)): James Glasgow is printed as ruling elder beside James Scott, minister of Duneane (Killen, *History of Congregations*). Scott's other printed elders were James Rainey (1697), Wm Mundale (1698), James Stewart (1703), William Munnel (1704), John Hill (1706), Alexr Neilson (1707), James Steuart (1708) and James Anderson (1710).
+
+Bolton's "Randalstown" and "Dunean" are index labels taken from the ministers; the Synod prints no locality for the elder. "Iron-Works", in the 1697 list of congregations for the new Presbytery of Connor (p. 24), is probably Drumaul: the list has no Drumaul, and Killen quotes the 1656 minute placing Drumaul's preaching-house "at the iron-works". The Synod text itself never equates the two.
+
+## Identity assessment — the Synod elder and James Glasgow of Kilwaughter, 6 October 2026
+
+The Synod elder of 1698 and 1703 is **probably not** James Glasgow of Kilwaughter (Glasgow-1081). In 1703 Larne's own elder, James Caldwell, sat beside Ogilvie while this James sat beside Taylor of Drumaul. Porter's list of "The Session of Enver, alias Lairn, from the tyme of the ordination of Rev. Mr. Ogilvie" ([*The Christian Unitarian* 3, pp. 18-19](https://archive.org/details/christianunitari0003unse/page/18/mode/1up); November 1700; a printed transcription of a manuscript copy) names twenty elders and no Glasgow, and the Kilwaughter James first appears as an elder on the list that opens the 1721 session book. That list does not cover 1698-99 or 1702-1720, so this supports keeping the two men apart without settling it. The 1705 man is less securely separated.
+
+The Synod text gives no age, birth, death, residence or parentage for him.
+
+## Recommended correction — WikiTree fields, 6 October 2026
+
+Queued for review; nothing has been changed on WikiTree.
+
+- **Dates.** Keep birth "before 1678" and death "after 1705". "After 1705" is directly supported (last printed 5 June 1705). "Before 1678" is an estimate from the office held in 1698; say so in the biography.
+- **Father.** Keep the link to Glasgow-1081 flagged uncertain. No record supports it; it rests on the shared name alone. Detaching it without an evidenced replacement would break the project rule on attached people, so the choice to detach is the owner's.
+- **Birthplace.** Leave "Duneane" in place but state in the biography that no record gives a birthplace and that Duneane comes only from the 1705 row beside James Scott; mark it uncertain if it is not already.
+- **Occupation.** He was a ruling elder, not a minister; the catalogue page currently shows "minister".

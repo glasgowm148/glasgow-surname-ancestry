@@ -119,3 +119,14 @@ John Glasgow-3913 and James Glasgow-1081 were possibly close kin. The 1669 heart
 - PRONI MIC/1B/6: the first page of the session book begun in February 1721, for the exact wording and order of the list and any note of when James became an elder.
 - The *Christian Moderator* (1826), pp. 207-245, the earlier printing of the 1699-1701 extracts, to test the year of the overseer minute.
 - NRS GD154/525, /530 and /532 (Kilwaughter rentals c.1690-1708): a James and a John Glasgow as tenants, with any "elder", "younger" or successor wording, would test one James against two.
+
+<!-- larne-kilwaughter-audit-2026-10-06:synod -->
+## Source findings
+
+### No Glasgow represented Larne at the General Synod — 6 October 2026
+
+In the printed General Synod rolls the ruling elder on the Larne minister's row is: 1694 "from Larne, Rob: Neilson" ([p. 12](https://archive.org/details/recordsofgeneral01pres/page/12/mode/1up)); 1703 James Caldwell (beside Ogilvie, [p. 64](https://archive.org/details/recordsofgeneral01pres/page/64/mode/1up)); 1704 Sam: Smily (p. 75); 1706 John Gordon (p. 106); 1707 Robert Neilson (p. 124); 1708 Robt Ker (p. 141); 1709 none printed (p. 168); 1710 Robt Kerr (p. 188); 1711 William Murray (p. 218); 1712 Ja: Lyle (p. 248); 1715 Ja: Lyle (beside Hud, p. 346); 1716 Rob: Ker (p. 385); 1718 James Lyle (beside Clugston, p. 449); 1719 Rob: Ker (p. 482); 1720 John Tarbett (p. 513). There is no Larne row in 1697 and 1698 (the congregation was vacant; the 1698 row "Wm Leeck - Wm Adair" is probably Ballymena's, Leech being "of Belly-manogh" in 1712), in 1705 (Ogilvie is not on the roll) or in 1713, 1714 and 1717 (vacant). Getty's "Enver" rows, 1715-1720, print Ja: Whyte, Ja: Boyd, James Jackson, John McCullogh, Ja: Jackson and Samuel Smely. The 1691 and 1692 lists name no Larne elder, and the Synods of 1699 to 1702 print no names.
+
+**No Glasgow of any forename is printed as Larne's elder in any of these years**, or anywhere in the Antrim presbytery lists from 1691 to 1720 (every year checked on the page images) or the Belfast presbytery lists (checked on the images except 1703, part of 1706, 1710, 1719 and 1720, which are OCR only). From 1721 the rolls print ministers and elders in separate columns, so no elder can be tied to Larne; no Glasgow appears in the Antrim lists of 1721-1732 (1721 on the image, later years OCR only). Each congregation sent one elder, so this shows only that no Glasgow represented Larne at Synod in the years printed. It does not show that no Glasgow sat on the Larne session: Porter's session list has James Glasgow an elder by 1721.
+
+The ruling elder James Glasgow printed in the Antrim lists in 1698, 1703 and 1705 sat beside the ministers of Drumaul and Duneane, not Larne, and is represented separately as Glasgow-3967; he is probably not this James.
