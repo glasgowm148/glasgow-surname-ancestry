@@ -1,5 +1,62 @@
 # WikiTree work queue
 
+## Larne & Kilwaughter audit — 6 October 2026
+
+Proposed WikiTree changes from the audit of the Larne & Kilwaughter branch. Each was re-checked by an independent verifier; the wording and evidence are in the named profile's `findings.md` (sections dated 6 October 2026). Nothing has been changed on WikiTree. No parent or place is to be cleared without an evidenced replacement.
+
+### Relationship status
+
+- [[Glasgow-1143]] — Set the father link to Glasgow-1502 to uncertain (it has no status; the other three sons' links are uncertain). Keep the attachment. Add the caution that Robert-1502 is recorded only for the South Side in 1700-1701.
+- [[Glasgow-4090]] — After confirming the live state, set the father link to Glasgow-4179 to uncertain; keep it. Lead the biography with the 1846 marriage record that defines the profile, move the 1796 Desertoghill entry to a "Possible identity" section, and mark the Desertoghill birthplace and "before 1772" as uncertain.
+- [[Glasgow-3967]] — Keep the dates and keep the father link to Glasgow-1081 flagged uncertain. No record supports that link; whether to detach it is the owner's decision. Note that the Duneane birthplace rests only on the 1705 Synod row, that the 1705 elder is only possibly the man of 1698 and 1703, and that he was a ruling elder, not a minister.
+
+### Biography wording
+
+- [[Glasgow-1081]] — Replace "probable close relatives" (John-3913) with the "possibly close kin" wording; give the overseer appointment as probably 29 May 1701; add the session-list, 1722 commissioner and Synod notes; state that one James or two is unresolved. Do not split.
+- [[Glasgow-3913]] — Same kinship wording; "John Glasgow, sen." dated 3 March, April and 17 May 1700; birth about 1648 or earlier.
+- [[Glasgow-3970]] — Same kinship wording for his two attached sons.
+- [[Glasgow-1502]] — Active 1700-1701 (not 1699-1700), South Side only; birth before about 1679; the 1747 session Robert is probably Robert-1143.
+- [[Glasgow-1505]] — Cite the 1739/40, 1741 and 1743 mortcloth receipts to the derivative account, not Porter; "Major" may mean "the elder"; birth about 1713 or earlier, death after 6 January 1775.
+- [[Glasgow-1144]] — Death before 13 July 1793; memorial 159661's third life is "Elinor [surname unclear] otherwise Agnew" and its registration is probably 18 April 1766.
+- [[Glasgow-1504]] — Add the "James Glasgow junior" note (1738/9); birth about 1706 or earlier.
+
+### Dates and places
+
+- [[Wilson-78088]] — Birth about 1690 to 1712 (the present 1680 is an unsourced placeholder); death 1742 as given in the 1817 pleading.
+- [[Glasgow-1143]] — Birth about 1708 or earlier; death after 20 December 1764, probably after April 1772.
+- [[Glasgow-3961]] — Birth about 1648 or earlier.
+- [[Unknown-763421]] — Jane, wife of James Glasgow-3991: born 22 July 1740 to 21 July 1741, died 21 July 1820 (Larne monument).
+- [[Glasgow-1499]] — Show the death, 8 July 1767, as recorded on the monument, not as an estimate.
+- [[Glasgow-1506]] — Death 8 January 1733/4 (monument, "Jane ye first"), if she is that child.
+- [[Glasgow-1510]] — Death 30 November 1756 aged eleven; born December 1744 to November 1745.
+- [[Glasgow-3324]] — Death 5 October 1816 aged 53.
+- [[Glasgow-3991]] — Born 15 April 1747 to 14 April 1748.
+- [[Glasgow-3992]] — Born 26 May 1767 to 25 May 1768.
+- [[Glasgow-1509]] — Born before 27 October 1743; the 1737 and 1802 dates rest on an unseen stone.
+- [[Glasgow-3986]] — Born before about 1774; alive December 1830; 1773 and 1831 are unchecked.
+- [[Glasgow-1983]] — Born about September or October 1762 (stone age), not 1763.
+- [[Murray-20395]] — Birth about 1711 or earlier.
+- [[Glasgow-2769]] — Death after 1850; "about 1860" has no basis.
+- [[Glasgow-3931]] — Birth about 1719 or earlier.
+- [[Glasgow-3977]] — County Antrim birthplace (1773) conflicts with her father's emigration; mark unsupported, do not blank.
+- [[Glasgow-3978]] — County Antrim birthplace (1775) conflicts with her father's emigration; mark unsupported, do not blank.
+- [[Glasgow-2304]] — South Carolina birthplace conflicts with a birth in 1768/9; mark unsupported, do not blank.
+
+### Research notes only, no field change
+
+- [[Glasgow-4013]] — The 1844 probate-index entry and the 1873 death cannot both be hers; resolve before changing dates.
+- [[Glasgow-4181]] — Possible duplicate of Glasgow-3989; death years differ by one. Hold both.
+- [[Glasgow-3989]] — Possible duplicate of Glasgow-4181. Hold both.
+- [[Glasgow-3986]] — Now only a weak rival father for Alexander-951.
+- [[Glasgow-1022]] — The William-1505 attachment is historical; not identified with John Glasgow, farmer.
+- [[Glasgow-867]] — Add the 1846 witnesses James Garvin and Wm Neely and the bride's residence.
+- [[Glasgow-4179]] — Note that the son link from Glasgow-4090 has no record.
+
+### Drafts
+
+- [[Glasgow-951]] — The pending replacement draft (`research/Glasgow-951/research-update-2026-09-29.wiki`) still carries the "Two routes to Alexander" table and the James-3986 "alternative route" row. Replace them with the John-farmer wording now on the catalogue page before pasting, and recompute the draft's preservation fingerprint.
+- Free-space page "Glasgow Branches in Early Ireland" — the local draft now states Alexander's probable father and no longer places John of Glenleslie at Lisnagaver.
+
 ## Glasgow-951 source audit — 6 October 2026
 
 Findings from a re-read of Alexander Glasgow's records are in the top section of `research/Glasgow-951/findings.md` and in the related profiles' findings. Nothing has been changed on WikiTree.

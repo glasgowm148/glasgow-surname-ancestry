@@ -3,6 +3,351 @@
   "scope": "Explicitly dated, recoverable new concrete record findings and supported factual corrections. Dates and explicit date ranges are research retrieval, supplied-record review or original-reading dates stated in the maintained evidence, not the dates of historical events or file modification. Undated historical conclusions, pure confirmations, speculative parent rankings, negative searches and routine profile/build activity are excluded. This is a recoverable dated history, not an exhaustive account of all past research.",
   "findings": [
     {
+      "id": "larne-session-extracts-belong-to-1700-1701",
+      "found_on": "2026-10-06",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "The Larne session minutes naming John Glasgow, sen., Robert Glasgow and James Glasgow belong to 1700 and 1701, not 1699 and 1700. John and Robert were stipend bondsmen for Kilwaughter and the South Side on 17 May 1700; James was made overseer for Kilwaughter probably on Thursday 29 May 1701.",
+      "qualification": "Porter prints the minutes under 1699 and 1700 from a manuscript copy of the session record. He corrects the stipend run to 1700 himself and the weekdays confirm it; the 1701 date for James is an inference from the weekdays. The minutes state no relationship between the three men. No live WikiTree change.",
+      "people": [
+        {
+          "id": "Glasgow-3913",
+          "name": "John / Jo Glascho",
+          "url": "/people/glasgow-3913.html"
+        },
+        {
+          "id": "Glasgow-1502",
+          "name": "Robert Glasgow",
+          "url": "/people/glasgow-1502.html"
+        },
+        {
+          "id": "Glasgow-1081",
+          "name": "James Glascho",
+          "url": "/people/glasgow-1081.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Porter, Congregational Memoirs: Larne and Kilwaughter, The Christian Unitarian 2 (1863), pp. 410-414",
+          "url": "https://archive.org/details/christianunitari0002unse/page/411/mode/1up"
+        },
+        {
+          "title": "The same, The Christian Unitarian 3 (1864), pp. 16-19",
+          "url": "https://archive.org/details/christianunitari0003unse/page/16/mode/1up"
+        }
+      ],
+      "detail_url": "/people/glasgow-1502.html",
+      "provenance": [
+        "research/Glasgow-1502/findings.md",
+        "research/Glasgow-3913/findings.md",
+        "research/Glasgow-1081/findings.md"
+      ]
+    },
+    {
+      "id": "larne-session-robert-of-1747-probably-kilwaughter-robert",
+      "found_on": "2026-10-06",
+      "kind": "biographical",
+      "status": "qualified",
+      "finding": "The Robert Glasgow marked “turned out” on the Larne session list of 1721-1769 and the Robert Glasgow of the discipline minute of 17 May 1747 are one man, probably Robert Glasgow of Kilwaughter (Glasgow-1143) and not the Robert of 1700-01.",
+      "qualification": "Porter’s footnote ties the list note to the 1747 minute. The identification rests on age (the older Robert would have been in his late sixties or more) and Kilwaughter residence; no record states it, and a third Robert cannot be excluded. No live WikiTree change.",
+      "people": [
+        {
+          "id": "Glasgow-1143",
+          "name": "Robert Glasgow",
+          "url": "/people/glasgow-1143.html"
+        },
+        {
+          "id": "Glasgow-1502",
+          "name": "Robert Glasgow",
+          "url": "/people/glasgow-1502.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Porter, The Christian Unitarian 3 (1864), p. 197 (session list)",
+          "url": "https://archive.org/details/christianunitari0003unse/page/197/mode/1up"
+        },
+        {
+          "title": "The same, p. 231 (minute of 17 May 1747)",
+          "url": "https://archive.org/details/christianunitari0003unse/page/231/mode/1up"
+        }
+      ],
+      "detail_url": "/people/glasgow-1143.html",
+      "provenance": [
+        "research/Glasgow-1143/findings.md",
+        "research/Glasgow-1502/findings.md"
+      ]
+    },
+    {
+      "id": "ballykeel-lease-74015-dated-1738-9-registered-1742",
+      "found_on": "2026-10-06",
+      "kind": "property",
+      "status": "confirmed",
+      "finding": "William Agnew’s lease of Ballykeel to Robert Glasgow is dated 13 February 1738 Old Style (1739 by modern reckoning) and was registered on 22 May 1742. Its three lives are Robert, “Jas Glasgow Junr” and Rachel “otherwise Wilson Wife to the sd Robt Glasgow”; it names no second James and gives Robert no residence.",
+      "qualification": "Read on the saved register images of memorial 74015 by two readers. “Junior” points to an older namesake and states no relationship. No live WikiTree change.",
+      "people": [
+        {
+          "id": "Glasgow-1143",
+          "name": "Robert Glasgow",
+          "url": "/people/glasgow-1143.html"
+        },
+        {
+          "id": "Glasgow-1144",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-1144.html"
+        },
+        {
+          "id": "Wilson-78088",
+          "name": "Rachel Wilson",
+          "url": "/people/wilson-78088.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Registry of Deeds memorial 74015, opening (p. 301)",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJW-B9MS"
+        },
+        {
+          "title": "The same, continuation (p. 302)",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJW-B99B"
+        }
+      ],
+      "detail_url": "/people/glasgow-1143.html",
+      "provenance": [
+        "research/Glasgow-1143/findings.md"
+      ]
+    },
+    {
+      "id": "robert-glasgow-kilwaughter-alive-1764-birth-by-1708",
+      "found_on": "2026-10-06",
+      "kind": "vital",
+      "status": "qualified",
+      "finding": "Robert Glasgow of Kilwaughter was alive on 20 December 1764, when he leased half of Ballykeel to Hugh Shannon, and probably in April 1772. “About 1772” is a last sighting, not a death estimate, and “about 1710” would make him a groom of 19; about 1708 or earlier fits the records.",
+      "qualification": "No record gives his age or his death. The 1772 declaration’s date and Kilwaughter heading are known only second-hand. The WikiTree dates are queued for review, not changed.",
+      "people": [
+        {
+          "id": "Glasgow-1143",
+          "name": "Robert Glasgow",
+          "url": "/people/glasgow-1143.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Registry of Deeds memorial 159661, image 542",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSH3-33Q6-L"
+        },
+        {
+          "title": "The same, image 543",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSH3-33QZ-Y"
+        }
+      ],
+      "detail_url": "/people/glasgow-1143.html",
+      "provenance": [
+        "research/Glasgow-1143/findings.md"
+      ]
+    },
+    {
+      "id": "rachel-wilson-birth-about-1680-unsupported",
+      "found_on": "2026-10-06",
+      "kind": "vital",
+      "status": "qualified",
+      "finding": "Rachel Wilson’s birth “about 1680” has no source and would make her 51, 53 and 58 at the baptisms of her children in 1731, 1733 and 1738. The records allow about 1690 to 1712.",
+      "qualification": "An estimate: it assumes a bride of at least about 17 in November 1729 and a mother of no more than about 48 in November 1738. The marriage and baptisms are known from a derivative register chronology. The WikiTree date is queued for review, not changed.",
+      "people": [
+        {
+          "id": "Wilson-78088",
+          "name": "Rachel Wilson",
+          "url": "/people/wilson-78088.html"
+        },
+        {
+          "id": "Glasgow-1143",
+          "name": "Robert Glasgow",
+          "url": "/people/glasgow-1143.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Registry of Deeds memorial 74015, continuation (Rachel as Robert’s wife, 1738/9)",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJW-B99B"
+        }
+      ],
+      "detail_url": "/people/wilson-78088.html",
+      "provenance": [
+        "research/Wilson-78088/findings.md"
+      ]
+    },
+    {
+      "id": "jane-wife-of-james-glasgow-larne-born-1740-41",
+      "found_on": "2026-10-06",
+      "kind": "vital",
+      "status": "qualified",
+      "finding": "Jane, wife of James Glasgow of Larne, died on 21 July 1820 aged 79 according to the Larne monument, so she was born in 1740 or 1741, not 1750.",
+      "qualification": "From the transcription of the monument published in 1900, re-read on the page image; the stone itself has not been seen. The WikiTree date is queued for review, not changed.",
+      "people": [
+        {
+          "id": "Unknown-763421",
+          "name": "Jane Glasgow",
+          "url": "/people/unknown-763421.html"
+        },
+        {
+          "id": "Glasgow-3991",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-3991.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ulster Journal of Archaeology, 2nd series, vol. 6 (1900), p. 47",
+          "url": "https://archive.org/details/ulsterjournalofa06ulstiala/page/47/mode/1up"
+        }
+      ],
+      "detail_url": "/people/glasgow-3991.html",
+      "provenance": [
+        "research/Glasgow-3991/findings.md"
+      ]
+    },
+    {
+      "id": "william-glasgow-major-pall-1734-only-entry-in-porter",
+      "found_on": "2026-10-06",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "Porter prints one pall entry for William Glasgow: in 1734 the new pall “was to be lodged with William Glasgow Major”. The mortcloth receipts of 1739/40, 1741 and 1743 are not in Porter; they come from a derivative account of the session book.",
+      "qualification": "“Major” may mean “the elder” (possible only). The later receipts stay unverified until PRONI MIC/1B/6 is read. No live WikiTree change.",
+      "people": [
+        {
+          "id": "Glasgow-1505",
+          "name": "William Glasgow",
+          "url": "/people/glasgow-1505.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Porter, The Christian Unitarian 3 (1864), p. 230",
+          "url": "https://archive.org/details/christianunitari0003unse/page/230/mode/1up"
+        }
+      ],
+      "detail_url": "/people/glasgow-1505.html",
+      "provenance": [
+        "research/Glasgow-1505/findings.md"
+      ]
+    },
+    {
+      "id": "synod-elder-james-glasgow-sat-with-drumaul-and-duneane",
+      "found_on": "2026-10-06",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "The ruling elder James Glasgow of the General Synod rolls is printed beside William Taylor of Drumaul in 1698 and 1703 and beside James Scott of Duneane in 1705; Larne’s own elder in 1703 was James Caldwell. He is probably not James Glasgow of Kilwaughter.",
+      "qualification": "The rolls print no congregation for an elder. That the 1705 elder is the man of 1698 and 1703 is possible, not established. No Glasgow is printed as Larne’s elder in any roll from 1694 to 1720, which shows only who represented Larne at Synod. No live WikiTree change.",
+      "people": [
+        {
+          "id": "Glasgow-3967",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-3967.html"
+        },
+        {
+          "id": "Glasgow-1081",
+          "name": "James Glascho",
+          "url": "/people/glasgow-1081.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Records of the General Synod of Ulster, vol. 1, p. 27 (1698)",
+          "url": "https://archive.org/details/recordsofgeneral01pres/page/27/mode/1up"
+        },
+        {
+          "title": "The same, p. 64 (1703)",
+          "url": "https://archive.org/details/recordsofgeneral01pres/page/64/mode/1up"
+        },
+        {
+          "title": "The same, p. 91 (1705)",
+          "url": "https://archive.org/details/recordsofgeneral01pres/page/91/mode/1up"
+        }
+      ],
+      "detail_url": "/people/glasgow-3967.html",
+      "provenance": [
+        "research/Glasgow-3967/findings.md",
+        "research/larne-pre1710-2026-09-21/synod-evidence.md"
+      ]
+    },
+    {
+      "id": "john-and-james-glascho-1669-kinship-lowered-to-possible",
+      "found_on": "2026-10-06",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "The assessment that John and James Glascho of Kilwaughter Demesne (1669) were probably close kin is lowered to possible.",
+      "qualification": "The evidence is consecutive hearth-roll entries with the same uncommon spelling. The men named John and James of 1700-01 never appear in the same minute and are tied to the 1669 householders only by unproved continuity. Brother, father and son, uncle and nephew, and cousin are all open. Nothing is detached on WikiTree.",
+      "people": [
+        {
+          "id": "Glasgow-3913",
+          "name": "John / Jo Glascho",
+          "url": "/people/glasgow-3913.html"
+        },
+        {
+          "id": "Glasgow-1081",
+          "name": "James Glascho",
+          "url": "/people/glasgow-1081.html"
+        },
+        {
+          "id": "Glasgow-3970",
+          "name": "Robert Glaskow",
+          "url": "/people/glasgow-3970.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "1669 County Antrim hearth-money roll, Macafee transcription, records 5347-5348",
+          "url": "https://www.billmacafee.com/1660shearthmoneyrolls/1669hearthmoneyrollsantrim.pdf"
+        }
+      ],
+      "detail_url": "/people/glasgow-1081.html",
+      "provenance": [
+        "research/Glasgow-1081/findings.md",
+        "research/Glasgow-3913/findings.md",
+        "research/Glasgow-3970/findings.md"
+      ]
+    },
+    {
+      "id": "alexander-glasgow-larne-routes-run-through-john-farmer",
+      "found_on": "2026-10-06",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "No record joins Alexander Glasgow of Lisnagaver to Larne or Kilwaughter. The possible Larne routes are redrawn to join above his probable father, John Glasgow, farmer; the earlier routes through older Alexander and younger James of Larne are withdrawn.",
+      "qualification": "John Glasgow, farmer, stays probable, not proved. On WikiTree, John-4090 is attached to John-4179 of Larne with no uncertain flag and no supporting record (snapshots of 28 and 30 September 2026); marking it uncertain is queued for review. The only connection to Kilwaughter is an indirect Y-DNA one, and no Kilwaughter kit has an SNP result.",
+      "people": [
+        {
+          "id": "Glasgow-951",
+          "name": "Alexander Glasgow",
+          "url": "/people/glasgow-951.html"
+        },
+        {
+          "id": "Glasgow-4090",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-4090.html"
+        },
+        {
+          "id": "Glasgow-4179",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-4179.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Civil marriage of John Glasgow and Margaret Garvin, 16 November 1846",
+          "url": "https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1846/09306/5369439.pdf"
+        },
+        {
+          "title": "Public Glasgow Y-DNA project results",
+          "url": "https://www.familytreedna.com/public/Glasgow?iframe=ydna-results-overview"
+        }
+      ],
+      "detail_url": "/people/glasgow-951.html#larne-reconstruction",
+      "provenance": [
+        "research/Glasgow-951/findings.md",
+        "research/Glasgow-4090/findings.md"
+      ]
+    },
+    {
       "id": "alexander-glasgow-1888-informant-reads-mary",
       "found_on": "2026-10-06",
       "kind": "record",
