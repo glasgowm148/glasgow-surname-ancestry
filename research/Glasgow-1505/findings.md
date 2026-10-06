@@ -1,13 +1,14 @@
 # Findings: [William Glasgow (Glasgow-1505), Larne, died about 1783](https://www.wikitree.com/wiki/Glasgow-1505)
 
-Last updated: 2026-09-21
+Last updated: 2026-10-06
 
 ## Current conclusion
 
 William is a real, distinct older Larne man. A published transcript of the
 Larne and Kilwaughter congregational accounts probably identifies him as
-`William Glasgow Major` when the mortcloth was lodged with him in 1734, and
-records William handling mortcloth money in 1739/40, 1741 and 1743. Registry
+`William Glasgow Major` when the mortcloth was lodged with him in 1734. A
+derivative account of the session book (not Porter) has William handling
+mortcloth money in 1739/40, 1741 and 1743. Registry
 memorial 62131 independently places William as an adjoining Larne occupier in
 March 1736. These adult occurrences cannot belong to [William Glasgow-3326](https://www.wikitree.com/wiki/Glasgow-3326),
 born in 1730.
@@ -45,7 +46,7 @@ reported shared memorial is unresolved.
 
 | Source | Finding | Assessment |
 | --- | --- | --- |
-| [Classon Porter, "Congregational Memoirs: Larne and Kilwaughter," *The Christian Unitarian* 3 (1864)](https://archive.org/stream/christianunitari0003unse/christianunitari0003unse_djvu.txt) | The congregation's mortcloth was lodged with `William Glasgow Major` in 1734; later accounts name William handling mortcloth receipts in 1739/40, 1741 and 1743. | Probable continuous occurrence of the older William. `Major` may distinguish an elder namesake; it is not evidence of military rank. |
+| [Classon Porter, "Congregational Memoirs: Larne and Kilwaughter," *The Christian Unitarian* 3 (1864)](https://archive.org/stream/christianunitari0003unse/christianunitari0003unse_djvu.txt) | In 1734 the new pall bought with Robert Mairns's legacy "was to be lodged with William Glasgow Major" (p. 230; re-read on the page image, 6 October 2026). Porter prints no later William Glasgow entry: he says only that "There are various annual settlements for the pall-money recorded in the Session Book. The last is dated July 25, 1759." The mortcloth receipts of 1739/40, 1741 and 1743 come from the Life's Weaving account, a derivative of the session book known here only second-hand, and stay unverified until PRONI MIC/1B/6 is read. | One printed occurrence of the older William in 1734. For `Major` see the 6 October 2026 note below. |
 | Connor probate-index transcription, 1783; searchable through [PRONI Name Search](https://apps.proni.gov.uk/ProniNames_IE/SearchPage.aspx) | William Glasgow, Larne, 1783. | Possible match, but not uniquely distinguishable from William-3962; no relatives or exact death date survive. |
 | 1766 Derryloran religious return | William Glasgow appears at Killycurry. No James is listed with him there. | A separate Tyrone occurrence unless a migration bridge is found. |
 | Irish probate index, 1770 | William Glasgow of Killycoragh, County Tyrone; probably the later Oritor/Killycurragh locality. | Same-name Tyrone candidate only; not evidence that he was James-1025's son or William-1505. |
@@ -192,3 +193,10 @@ William Glasgow is named as master of the Lady Forbes in the Sutton shipping cas
 ## Identity assessment — newspaper candidates withdrawn, 6 October 2026
 
 - [The Caledonian Mercury, 1768-02-06, p.2](https://www.newspapers.com/image/395700744/): no longer a candidate for this profile. Jan/Feb 1768: William Glasgow, master of the Lady Forbes (of Glasgow) with rum for Waterford, driven ashore near Sutton, crew saved. No WikiTree William can be singled out.
+
+<!-- larne-kilwaughter-audit-2026-10-06:william-major -->
+## Identity assessment — "William Glasgow Major", 6 October 2026
+
+On the page image of [Porter, vol. 3 p. 230](https://archive.org/details/christianunitari0003unse/page/230/mode/1up) "Major" is printed in roman type directly after the surname, with no comma before it. In these printed minutes ranks come before a name ("Capt. Patrick Agnew", "Captain Shaw") and words that distinguish namesakes come after it ("John Kerr, sen.", "Robert Mea, jun.", "Alex. Miller, Elder", "Alex. Miller, younger"). "Major" may therefore mean "the elder" (possible; a rank, a byname or a copying slip cannot be excluded). If so, a second William Glasgow was known in the congregation in 1734, not necessarily an adult.
+
+This is a research lead only. An older William would be one candidate father to test for the men born about 1700-1710, beside the Dublin "Wm Glasroe" of the 1704 baptism. The derivative chronology's two gravestone-derived birth years for William (1699 and 1708) are unverified.

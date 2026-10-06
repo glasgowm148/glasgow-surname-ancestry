@@ -1,6 +1,6 @@
 # Findings: Robert Glasgow of Kilwaughter (Glasgow-1143)
 
-Last updated: 2026-09-21
+Last updated: 2026-10-06
 
 ## Live profile update — 30 August 2026
 
@@ -81,7 +81,7 @@ not a particular father, grandfather or paper pedigree.
 | [Robert's amended sworn answer, 18 June 1818](https://web.archive.org/web/20101104165918id_/http://lifesweaving.com/Glasgow/Paper_Answer.html) | Says Archibald Wilson's real estate descended through six sisters and identifies Robert as the eldest male heir of one sister, “Rachel his paternal grandmother.” | Direct grandparent and collateral-line statement in a derivative transcription. It also makes Archibald Rachel's brother and thus James's maternal uncle. |
 | [Irish administrator's letter, 1 October 1817](https://web.archive.org/web/20101124215951id_/http://lifesweaving.com/Glasgow/Paper_Admin.html) | Discusses Robert's brother and sisters, Archibald's six sisters, and inheritance through Rachel's line. | Contemporary family/estate explanation preserved as a derivative transcription; inspect the original letter. |
 | [James Glasgow's 1775 will](https://web.archive.org/web/20101124184337id_/http://lifesweaving.com/Glasgow/Paper_JGlasgowWill.html) | Names wife Mary and children Robert, John, Archibald, Wilson, Margaret and Rachel. | Independently corroborates the South Carolina household in the later litigation, but names neither James's parents nor Mary's birth surname. |
-| Classon Porter, 17 May 1747 session transcription | Robert Glasgow, formerly a session member, was accused of fornication and refused public satisfaction. | Real disciplinary record, but it names no woman or child. It supplies no evidence that John-1022 was Robert's son; same-name ambiguity with an older Robert remains. |
+| Classon Porter, 17 May 1747 session transcription | Robert Glasgow, formerly a session member, was accused of fornication and refused public satisfaction. | Real disciplinary record, but it names no woman or child. It supplies no evidence that John-1022 was Robert's son. The Robert of this minute is probably this Robert, on age; no record states it. See the 6 October 2026 identity assessment below. |
 | [Archived 1772 petition notes](https://web.archive.org/web/20101124184109/http://lifesweaving.com/Glasgow/Kilwaughter/sources.html), citing PRONI `T808/15082` | Petition dated **1 April 1772** lists Robert, James and Hugh Shannon consecutively under Kilwaughter; John Glasgow appears under Larne. | Strong family/FAN grouping and latest persuasive occurrence for Robert. The 7 April date is newspaper publication, not petition date; the petition states no kinship. |
 
 ## Conflict warning
@@ -216,3 +216,18 @@ Inspect Maryland land, tax, probate, and newspaper records for Robert Glasgow an
 ## Identity assessment — newspaper candidates withdrawn, 6 October 2026
 
 - [The Pennsylvania Gazette, 1786-02-15, p.1](https://www.newspapers.com/image/41024006/): no longer a candidate for this profile. Robert Glasgow and Joshua Hartshorn were to give possession of a 260-acre plantation in North Susquehanna Hundred, Cecil County, Maryland, offered at vendue in March 1786. Neither man can be identified on WikiTree. The joint Glasgow–Hartshorn role is a research lead pointing to the Cecil County family of James Glasgow (Glasgow-2868) and Ann Hartshorne (Hartshorne-320), but it is not a relationship.
+
+<!-- larne-kilwaughter-audit-2026-10-06:robert-1747 -->
+## Source findings
+
+### The session-list Robert and the minute of 17 May 1747 — re-read on the page images, 6 October 2026
+
+[Porter, vol. 3 p. 197](https://archive.org/details/christianunitari0003unse/page/197/mode/1up): the list of the Larne session from 1721 to 1769 has one Robert Glasgow, "Robert Glasgow (erased), turned out", 21st of the thirty elders and after Capt. Patrick Agnew, who was constituted on 20 June 1721. Porter's footnote ties the note to "a minute of May 17, 1747". [Vol. 3 p. 231](https://archive.org/details/christianunitari0003unse/page/231/mode/1up): "1747, May 17 ... the resolution of Robert Glasgow, who formerly was a member of the Session, and is now guilty of fornication, and refuseth to give public satisfaction, but offereth to do it only before the Session."
+
+## Identity assessment — the Robert of the session list and of 1747, 6 October 2026
+
+The list Robert and the 1747 Robert are one man: the list covers every session member from 1721 to 1769, names one Robert, and Porter links its note to the 1747 minute. From his place on the list he was probably made an elder between mid-1721 and 1747 (inference from list order).
+
+He is **probably Robert Glasgow-1143** (inference; no record states it). Robert Glasgow-1502, an adult bondsman in May 1700, would have been in his late sixties or older in 1747, while Robert-1143, married in 1729, was about forty and is documented at Kilwaughter in 1738/9, 1741 and 1764. A charge of fornication implies that the offender was unmarried when the offence was committed, or that it preceded a marriage. For Robert-1143 that fits only if his wife Rachel had died, which is known only from a derivative transcription of an 1817 pleading ("died in 1742"); it is consistent with the identification, not evidence for it. A third, otherwise unrecorded Robert cannot be excluded, because the session minutes for 1701-1721 are lost.
+
+No record securely attributable to Robert-1502 is known after 27 February 1700/01.
