@@ -100,8 +100,10 @@ FEEDBACK_SCRIPT = """<script>(()=>{const p=new URLSearchParams(location.search).
 
 def render_feedback_body() -> str:
     if identity.CONTACT_URL:
-        send = (f'<p>Send it by {identity.contact_link_html("sending a correction")}. '
-                'Photographs or scans of records are welcome.</p>'
+        email = identity.contact_email()
+        route = (f'Email it to {identity.contact_link_html(email)}.' if email
+                 else f'Send it with {identity.contact_link_html("the correction form")}.')
+        send = (f'<p>{route} Photographs or scans of records are welcome.</p>'
                 f'<div class="actions">{identity.contact_link_html("Send a correction", "button")}</div>')
     else:
         send = (

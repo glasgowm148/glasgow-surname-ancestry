@@ -90,10 +90,21 @@ class OwnerAndCorrectionTests(unittest.TestCase):
                 mock.patch.object(site_identity, "CONTACT_URL", "mailto:corrections@example.org"):
             self.assertIn("run by A. Researcher", site_identity.who_runs_this_html())
             self.assertIn('href="mailto:corrections@example.org">Send a correction</a>', site_identity.contact_link_html())
-            self.assertIn('href="mailto:corrections@example.org"', about_pages.render_feedback_body())
+            body = about_pages.render_feedback_body()
+            self.assertIn('Email it to <a href="mailto:corrections@example.org">corrections@example.org</a>.', body)
+            self.assertIn('href="mailto:corrections@example.org">Send a correction</a>', body)
+            self.assertNotIn("being set up", body)
             footer = site_identity.footer_html()
             self.assertIn("run by A. Researcher", footer)
             self.assertIn('href="mailto:corrections@example.org"', footer)
+
+    def test_a_form_contact_route_is_not_described_as_email(self):
+        with mock.patch.object(site_identity, "OWNER_NAME", "A. Researcher"), \
+                mock.patch.object(site_identity, "CONTACT_URL", "https://forms.example.org/correct"):
+            self.assertIsNone(site_identity.contact_email())
+            body = about_pages.render_feedback_body()
+            self.assertIn('Send it with <a href="https://forms.example.org/correct"', body)
+            self.assertNotIn("Email it to", body)
 
     def test_footer_agrees_with_the_menu(self):
         footer = site_identity.footer_html()

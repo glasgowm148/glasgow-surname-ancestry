@@ -3,12 +3,11 @@
 Every builder that prints the site's name, a page-title suffix, the footer or
 the "who runs this" line reads it from here, so the site keeps one name.
 
-Owner decision pending (7 October 2026): ``OWNER_NAME`` and ``CONTACT_URL``
-are deliberately ``None`` until the owner says what name and contact route he
-wants published.  While they are unset, pages print honest text (what a
-correction should contain and that a direct contact route is being set up)
-and never a dead button.  Set both values here and rebuild; nothing else needs
-to change.
+Owner decision (7 October 2026): the owner asked for his name and email
+address to be published as the correction route.  ``OWNER_NAME`` and
+``CONTACT_URL`` hold them.  If either is ever set back to ``None``, pages print
+honest text (what a correction should contain and where to raise it) and never
+a dead button.  Change the values here and rebuild; nothing else needs to change.
 """
 from __future__ import annotations
 
@@ -24,10 +23,10 @@ FOOTER_SUMMARY = "Family history research, with sources and notes on uncertain r
 SITE_URL = "https://glasgow.phenotype.dev"
 TITLE_SEPARATOR = " · "
 
-# Who runs the site and where corrections go.  Leave as None until the owner
-# chooses; do not invent a name or an address.
-OWNER_NAME: str | None = None
-CONTACT_URL: str | None = None  # e.g. "mailto:…" or a hosted form URL
+# Who runs the site and where corrections go.  Set by the owner on 7 October
+# 2026; do not invent or change a name or an address without his say-so.
+OWNER_NAME: str | None = "Mark Glasgow"
+CONTACT_URL: str | None = "mailto:markglasgow@gmail.com"  # "mailto:…" or a hosted form URL
 
 # Related projects.  "Glasgow Name Study" always means the WikiTree study,
 # never this site.
@@ -106,6 +105,13 @@ def owner_sentence() -> str:
             "The name of the person who runs it is not yet published here.")
 
 
+def contact_email() -> str | None:
+    """The published email address when the contact route is an email link."""
+    if CONTACT_URL and CONTACT_URL.startswith("mailto:"):
+        return CONTACT_URL[len("mailto:"):].split("?", 1)[0] or None
+    return None
+
+
 def contact_link_html(label: str = "Send a correction", css_class: str = "") -> str:
     """A working link: the contact route when set, else the correction guide."""
     cls = f' class="{escape(css_class, quote=True)}"' if css_class else ""
@@ -126,7 +132,12 @@ def who_runs_this_html(heading_level: int = 2, heading_id: str = "who-runs-this"
     if not include_contact:
         pass
     elif CONTACT_URL:
-        paragraphs.append(f"To send a correction, a record or a photograph: {contact_link_html()}.")
+        email = contact_email()
+        if email:
+            paragraphs.append("Corrections, records and photographs are welcome. "
+                              f"Email {contact_link_html(email)}.")
+        else:
+            paragraphs.append(f"Corrections, records and photographs are welcome: {contact_link_html()}.")
     else:
         paragraphs.append(
             "A direct contact route for corrections is being set up. Until it is ready, "
