@@ -96,12 +96,12 @@ def area_for(*texts):
 
 
 def status_for(branch, curated):
-    if branch["kind"] == "family":
-        return "WikiTree family group"
-    if branch["kind"] == "place":
-        return "Local research study"
-    status = curated.get(branch["id"], {}).get("status", "Evidence-led study")
-    return {"Evidence-led study": "Family study", "Locality / record cluster": "People recorded in the same area"}.get(status, status)
+    """The card label, from the shared vocabulary in tools/study_place_links.py."""
+    try:
+        from study_place_links import study_type
+    except ModuleNotFoundError:
+        from tools.study_place_links import study_type
+    return study_type(branch, curated.get(branch["id"], {}).get("status"))
 
 
 def family_summary(branch, place):
@@ -298,7 +298,7 @@ def rank_territories(territories):
 
 
 def _evidence_line(m):
-    people = f'{m["people"]:,} people listed' + (f' ({m["leads"]:,} unreviewed profile lead{"s" if m["leads"] != 1 else ""})' if m["leads"] else '')
+    people = f'{m["people"]:,} people listed' + (f' ({m["leads"]:,} from the family tree, not yet checked against records)' if m["leads"] else '')
     return escape(f'{m["dossiers"]} people with research notes · {m["sourced"]} records and saved source material · {people}')
 
 
@@ -420,14 +420,15 @@ def static_main(directory):
     for region in regions:
         families = [group for group in groups if group["kind"] == "family" and region["id"] in group["regions"]]
         items = ''.join(f'<li data-group-id="{escape(group["id"], quote=True)}"><a href="{escape(group["url"], quote=True)}">{escape(group["label"])}</a> · {group["people"]} people · {group["from"] or "?"}–{group["to"] or "?"}</li>' for group in families)
-        family_sections.append(f'<details><summary>Family groups in {escape(region["label"])} ({len(families)})</summary><ul>{items}</ul></details>')
+        family_sections.append(f'<details><summary>WikiTree tree groups in {escape(region["label"])} ({len(families)})</summary><ul>{items}</ul></details>')
     return f'''<main class="r-main" id="main"><header class="r-page-head"><span class="r-kicker">Families &amp; places</span><h1>Families and places</h1><p class="r-lead">Choose a place or family to read its history, see the records and find the questions still open.</p></header>
 {study_map(groups)}
 <section id="bd-find" class="bd-find" hidden><label for="bd-q">Find a study or family</label><input id="bd-q" type="search" placeholder="A person, family or place" autocomplete="off"><p id="bd-count" role="status"></p></section>
-<section id="experience-regions"><span class="r-kicker">Browse by place</span><h2>Start with a region</h2><div class="bd-region-grid">{region_cards}</div></section>
+<section id="experience-regions"><span class="r-kicker">Browse by place</span><h2>Start with a region</h2><p class="bd-region-note">A person with records in more than one region is counted in each, so these numbers add up to more than the number of people on the site.</p><div class="bd-region-grid">{region_cards}</div></section>
+<section id="places-link"><span class="r-kicker">Browse by place</span><h2>Places A–Z</h2><p>Every town, parish and townland where someone in the catalogue is recorded has its own page, with the family studies that include people recorded there. <a href="/places/">Browse all places →</a></p></section>
 <section id="research-studies"><span class="r-kicker">Family and place studies</span><h2>Scotland studies</h2>{grouped_cards(scottish)}</section>
 <section id="irish-research-studies"><span class="r-kicker">Family and place studies</span><h2>Ireland &amp; Ulster studies</h2>{grouped_cards(irish)}</section>
-<section id="connected-families"><span class="r-kicker">Browse recorded family groups</span><h2>Family groups from WikiTree</h2><p>These groups follow recorded tree links, some of which have not been checked against the records. See each person’s research notes before relying on a relationship.</p>{''.join(family_sections)}<p><a href="/branches/browse/">Browse all family groups</a></p></section></main>'''
+<section id="connected-families"><span class="r-kicker">From the WikiTree family tree</span><h2>WikiTree tree groups</h2><p>These groups follow links in the WikiTree family tree. They are not studies, and many of their links have not been checked against records. See each person’s research notes before relying on a relationship.</p>{''.join(family_sections)}<p><a href="/branches/browse/">Browse all WikiTree tree groups</a></p></section></main>'''
 
 
 def repair():
@@ -518,7 +519,10 @@ def _home_study_map(groups, css: str, script: str) -> int:
     anchor = re.search(r'<section class="(?:reader-intro|v3-home-hero)"[^>]*>.*?</section>', text, flags=re.S)
     if not anchor:
         raise ValueError("homepage opening section not found")
-    text = text[:anchor.end()] + section + text[anchor.end():]
+    # Keep the reader guide ("How to use this site") directly under the opening.
+    guide = re.match(r'\s*<aside class="reader-start"[^>]*>.*?</aside>', text[anchor.end():], flags=re.S)
+    end = anchor.end() + (guide.end() if guide else 0)
+    text = text[:end] + section + text[end:]
     text = re.sub(r'<link rel="stylesheet" href="/assets/research/branches-directory\.css\?v=\d+">', "", text)
     text = text.replace("</head>", css + "</head>", 1)
     text = re.sub(r'<script defer src="/assets/research/branches-(?:map|directory)\.js\?v=\d+"></script>', "", text)

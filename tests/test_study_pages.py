@@ -85,7 +85,9 @@ class StudyPagesTests(unittest.TestCase):
         soup = BeautifulSoup(renderer.connections(story),'html.parser')
         self.assertEqual(1,len(soup.select('.sp-edge')))
         self.assertEqual(3,len(soup.select('.sp-node-band')))
-        self.assertFalse(soup.details.has_attr('open'))
+        # The links are listed in words and open by default (site audit S3-09): the diagram's labels are not hover-only.
+        self.assertTrue(soup.details.has_attr('open'))
+        self.assertIn('Earlier → Later', soup.details.text)
         nodes = soup.select('.sp-node > rect:first-of-type')
         self.assertLess(float(nodes[0]['y']),float(nodes[1]['y']))
         self.assertEqual('',renderer.connections({'clusters':story['clusters'],'links':[]}))

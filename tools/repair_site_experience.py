@@ -423,9 +423,21 @@ def repair_branches(changed):
         years = [r['y'] for r in rs if r.get('y') is not None]
         hubs.append(dict(id=id, label=label, kind='region', root='', rootId='', members=members, count=len(members), record_count=len(rs), review_count=sum(bool(people.get(p, {}).get('reviewed')) for p in members), countries=dict(Counter(people[p]['country'] for p in members if p in people)), description=text, url=f'/branches/{id}/', **{'from':min(years) if years else None,'to':max(years) if years else None}))
     template = (WEB / 'branches/lisnagaver-rasharkin/index.html').read_text()
+    try:
+        import study_place_links
+    except ModuleNotFoundError:
+        from tools import study_place_links
+    places_by_person = study_place_links.person_places(study_place_links.load_records(WEB))
+    place_names = study_place_links.load_place_names(WEB)
+    place_exists = lambda slug: (WEB / 'places' / f'{slug}.html').is_file()
     for b in branches:
         relative = f"branches/{b['id']}/index.html"
         page = (WEB / relative).read_text()
+        if b['kind'] == 'family':
+            page = page.replace('<span class="r-kicker">Connected family group</span>', f'<span class="r-kicker">{study_place_links.TREE_GROUP}</span>', 1)
+            page = page.replace('Birth-country composition of this research group, not an inferred migration route.', 'Where the people in this group were born. This is not a migration route.', 1)
+            places = study_place_links.places_for_people(b['members'], places_by_person, place_exists=place_exists, names=place_names)
+            page = study_place_links.insert_group_places(page, study_place_links.render_group_places(places))
         css_version = '3.1-repair-2' if b['id'] in LOCAL_FAMILIES else '3.1-repair-1'
         page = re.sub(r'/assets/repair/site\.css\?v=3\.1-repair-[12]', f'/assets/repair/site.css?v={css_version}', page, count=1)
         core_version = '3.1-repair-2' if b['id'] in LOCAL_FAMILIES else '3.1-repair-1'
@@ -445,10 +457,10 @@ def repair_branches(changed):
         children = [b for b in branches if hub['id'] in b['topic_ids']]
         local = [b for b in children if b['kind'] == 'place']
         families = sorted((b for b in children if b['kind'] == 'family'), key=lambda b: -b['count'])
-        body = f'<main class="r-main" id="main"><header class="r-page-head"><span class="r-kicker">Regional research guide</span><h1>{escape(hub["label"])}</h1><p class="r-lead">{escape(hub["description"])}</p></header><nav class="experience-branch-nav" aria-label="Regional navigation"><div class="r-actions"><a href="/branches/">All families &amp; places</a><a href="/records/?branch={hub["id"]}">Explore these records</a><a href="/map/?branch={hub["id"]}">See these families on the map</a></div></nav>'
+        body = f'<main class="r-main" id="main"><header class="r-page-head"><span class="r-kicker">{study_place_links.REGION}</span><h1>{escape(hub["label"])}</h1><p class="r-lead">{escape(hub["description"])}</p></header><nav class="experience-branch-nav" aria-label="Regional navigation"><div class="r-actions"><a href="/branches/">All families &amp; places</a><a href="/records/?branch={hub["id"]}">Explore these records</a><a href="/map/?branch={hub["id"]}">See these families on the map</a></div></nav>'
         if local:
-            body += '<section><h2>Choose a local study</h2>' + cards(local) + '</section>'
-        body += '<section><h2>Explore the connected families</h2><p>These groups have people or records in this region. Appearing together here does not establish a relationship between the groups.</p>' + cards(families) + '</section></main>'
+            body += '<section><h2>Place studies in this region</h2>' + cards(local) + '</section>'
+        body += '<section><h2>WikiTree tree groups in this region</h2><p>These groups follow links in the WikiTree family tree and have people or records in this region. Many of their links have not been checked against records, and appearing together here does not establish a relationship between the groups.</p>' + cards(families) + '</section></main>'
         page = template.replace('lisnagaver-rasharkin', hub['id']).replace('Lisnagaver &amp; Rasharkin', escape(hub['label'])).replace('Lisnagaver & Rasharkin', escape(hub['label']))
         page = re.sub(r'/assets/repair/site\.css\?v=3\.1-repair-[12]', '/assets/repair/site.css?v=3.1-repair-1', page, count=1)
         page = re.sub(r'<main\b[\s\S]*?</main>', lambda _: body, page, count=1)
@@ -468,7 +480,10 @@ def repair_branches(changed):
     update('assets/v3/registry-packed.json', json.dumps(packed, ensure_ascii=False, separators=(',', ':')), changed)
     views = (WEB / 'assets/research/views.js').read_text()
     views = patch(views, "found=bs.filter(b=>(!kind.value||b.kind===kind.value)", "found=bs.filter(b=>b.kind!=='region'&&(!kind.value||b.kind===kind.value)")
-    views = patch(views, "b.kind==='place'?'Local research group':'Atlas family group'", "b.kind==='research'?'Evidence-led research group':b.kind==='place'?'Local research group':'Atlas family group'")
+    # One word per concept (site audit S3-04): the labels of tools/study_place_links.py.
+    group_labels = f"b.kind==='research'?'{study_place_links.FAMILY_STUDY}':b.kind==='place'?'{study_place_links.PLACE_STUDY}':'{study_place_links.TREE_GROUP}'"
+    views = views.replace("b.kind==='research'?'Evidence-led research group':b.kind==='place'?'Local research group':'Atlas family group'", group_labels)
+    views = patch(views, "b.kind==='place'?'Local research group':'Atlas family group'", group_labels)
     views = patch(views, "norm(b.label+' '+b.description)", "norm(b.label+' '+b.description+' '+(b.searchTerms||''))")
     update('assets/research/views.js', views, changed)
 

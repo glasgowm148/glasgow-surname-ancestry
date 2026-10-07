@@ -30,6 +30,12 @@ RELATIONSHIPS = {'father': 'Father', 'mother': 'Mother', 'spouse': 'Spouse',
 CHANGE_FIELDS = ('relationship', 'subject', 'relative', 'before', 'after', 'explanation')
 PUBLIC_FIELDS = ('id', 'found_on', 'found_from', 'kind', 'finding', 'significance', 'status',
                  'qualification', 'people', 'sources', 'detail_url', 'relationship_changes')
+SITE_URL = 'https://glasgow.phenotype.dev'
+FEED_URL = '/latest-findings/feed.xml'
+FEED_LINK = f'<link rel="alternate" type="application/atom+xml" title="Latest findings · Glasgow Surname Project" href="{FEED_URL}">'
+FEED_SIZE = 50
+# Per-subject export for other builders: read it with findings_for().
+SUBJECT_INDEX = 'data/findings-by-subject.json'
 
 
 def local_url(value, web):
@@ -107,6 +113,9 @@ def row_html(item):
     people = ''.join(person_html(person) for person in item['people'])
     if not people:
         people = '<li class="lf-unmatched">Unnamed record subject</li>'
+    studies = item.get('_studies') or []
+    study_links = ''.join(f'<li><span>{esc(s["type"])}:</span> <a href="{esc(s["url"])}">{esc(s["label"])}</a></li>' for s in studies)
+    study_html = f'<ul class="lf-studies" aria-label="Studies this finding concerns">{study_links}</ul>' if study_links else ''
     sources = ''.join(f'<li><a href="{esc(s["url"])}" target="_blank" rel="noopener noreferrer">'
                       f'{esc(s["title"])} <span aria-hidden="true">↗</span></a></li>' for s in item['sources'])
     day = date.fromisoformat(item['found_on'])
@@ -118,7 +127,8 @@ def row_html(item):
                        item.get('qualification', ''), KINDS[item['kind']],
                        *[p['name'] + ' ' + p.get('id', '') for p in item['people']],
                        *[' '.join(str(change[key]) for key in CHANGE_FIELDS) for change in item.get('relationship_changes', [])],
-                       *[s['title'] for s in item['sources']]]).casefold()
+                       *[s['title'] for s in item['sources']],
+                       *[s['label'] for s in studies], *item.get('_place_names', [])]).casefold()
     significance = f'<p class="lf-significance">{esc(item["significance"])}</p>' if item.get('significance') else ''
     qualification = f'<p>{esc(item["qualification"])}</p>' if item.get('qualification') else ''
     changes = item.get('relationship_changes', [])
@@ -139,16 +149,25 @@ def row_html(item):
     case_attributes = ' target="_blank" rel="noopener noreferrer"' if external_case else ''
     case_label = 'Open WikiTree profile ↗' if external_case else 'Read the research →'
     return (f'<tr id="finding-{esc(item["id"])}" data-date="{item["found_on"]}" '
-            f'data-kind="{item["kind"]}" data-status="{item["status"]}" data-relationship-upgrade="{upgrades}" data-change-count="{len(changes)}" data-ungraded-count="{sum(c["before"] == "unmarked" for c in changes)}" data-father-count="{sum(c["relationship"] == "father" for c in changes)}" data-father-ungraded-count="{sum(c["relationship"] == "father" and c["before"] == "unmarked" for c in changes)}" data-search="{esc(search)}">'
+            f'data-kind="{item["kind"]}" data-status="{item["status"]}" data-relationship-upgrade="{upgrades}" data-change-count="{len(changes)}" data-ungraded-count="{sum(c["before"] == "unmarked" for c in changes)}" data-father-count="{sum(c["relationship"] == "father" for c in changes)}" data-father-ungraded-count="{sum(c["relationship"] == "father" and c["before"] == "unmarked" for c in changes)}" data-studies="{esc(' '.join(s['id'] for s in studies))}" data-places="{esc(' '.join(p['slug'] for p in item.get('_places', [])))}" data-search="{esc(search)}">'
             f'<td data-label="Found"><a class="lf-date" href="{item.get("_page_url", "/latest-findings/")}#finding-{esc(item["id"])}"><time datetime="{item["found_on"]}">{label}</time></a></td>'
-            f'<td data-label="People"><ul class="lf-people">{people}</ul></td>'
+            f'<td data-label="People"><ul class="lf-people">{people}</ul>{study_html}</td>'
             f'<td data-label="Finding"><span class="lf-kind">{KINDS[item["kind"]]}</span><p class="lf-fact">{esc(item["finding"])}</p>{significance}</td>'
             f'<td data-label="Finding assessment"><span class="lf-status lf-{item["status"]}">{FINDING_LABELS[item["status"]]}</span>{qualification}{changes_html}</td>'
             f'<td data-label="Evidence"><ul class="lf-sources">{sources}</ul><a class="lf-case" href="{esc(item["detail_url"])}"{case_attributes}>{case_label}</a></td></tr>')
 
 
-def render_main(rows, total=None, page_number=1):
+def render_main(rows, total=None, page_number=1, studies=(), browse=False, places=()):
     total = len(rows) if total is None else total
+    place_options = ''.join(f'<option value="{escape(p["slug"], quote=True)}">{escape(p["name"])} ({p["count"]})</option>' for p in places)
+    place_filter = (f'<div><label for="lf-place">Place</label><select id="lf-place"><option value="">All places</option>{place_options}</select></div>'
+                    if place_options else '')
+    study_options = ''.join(f'<option value="{escape(s["id"], quote=True)}">{escape(s["label"])} ({s["count"]})</option>' for s in studies)
+    study_filter = (f'<div><label for="lf-study">Family or place study</label><select id="lf-study"><option value="">All studies</option>{study_options}</select></div>'
+                    if study_options else '')
+    routes = (' · <a href="/latest-findings/studies/">Findings by study</a> · <a href="/latest-findings/places/">Findings by place</a>'
+              if browse else '')
+    follow = f'<p class="lf-follow"><a href="{FEED_URL}">Follow new findings (Atom feed)</a>{routes}</p>'
     pages = max(1, (total + 49) // 50)
     page_url = lambda n: "/latest-findings/" if n == 1 else f"/latest-findings/page/{n}/"
     options = ''.join(f'<option value="{key}">{label}</option>' for key, label in KINDS.items())
@@ -157,13 +176,13 @@ def render_main(rows, total=None, page_number=1):
 <p class="lf-lede">New records and supported corrections from the Glasgow research, newest first.</p>
 <p>Dates show when evidence was found or reviewed. Each finding gives its sources and what remains uncertain.</p>
 <p>The finding assessment applies to the statement in that row. A supported record fact does not confirm its identification with a linked WikiTree profile. Profile identification limits appear beside the person and in the research.</p>
-<p>Use Assessment to find relationships that became certain. <a href="/research/relationship-audit/">Read the historical audit and counts →</a></p></header>
+<p>Use Assessment to find relationships that became certain. <a href="/research/relationship-audit/">Read the historical audit and counts →</a></p>{follow}</header>
 <section class="lf-content" aria-labelledby="lf-table-title"><h2 id="lf-table-title" class="lf-sr-only">Dated research findings</h2>
 <form class="lf-controls" id="lf-controls" role="search">
 <div class="lf-search"><label for="lf-query">Search findings</label><input type="search" id="lf-query" placeholder="Name, place, record or finding" autocomplete="off"></div>
 <div><label for="lf-kind">Finding type</label><select id="lf-kind"><option value="">All types</option>{options}</select></div>
 <div class="lf-assessment"><label for="lf-status">Assessment</label><select id="lf-status"><option value="">All findings</option><option value="confirmed">Confirmed</option><option value="qualified">Qualified</option><option value="relationship-certain">Relationships newly certain</option><option value="father-certain">Fathers newly certain</option><option value="relationship-ungraded">Previously ungraded → certain</option></select></div>
-<div><label for="lf-order">Order</label><select id="lf-order"><option value="newest">Newest first</option><option value="oldest">Oldest first</option></select></div>
+{study_filter}{place_filter}<div><label for="lf-order">Order</label><select id="lf-order"><option value="newest">Newest first</option><option value="oldest">Oldest first</option></select></div>
 <button type="reset" class="lf-reset">Reset</button></form>
 <div class="lf-table-heading"><p id="lf-count" role="status" aria-live="polite">{(page_number-1)*50+1}–{(page_number-1)*50+len(rows)} of {total:,} findings · newest first</p>
 <p class="lf-key"><span class="lf-status lf-confirmed">Finding supported</span> Supported fact or correction <span class="lf-status lf-qualified">Finding qualified</span> The finding has a stated evidence or identification limit</p></div>
@@ -176,6 +195,169 @@ def render_main(rows, total=None, page_number=1):
 <nav class="lf-pagination" id="lf-pagination" aria-label="Finding pages"><a id="lf-prev" href="{page_url(max(1,page_number-1))}" aria-disabled="{str(page_number==1).lower()}">← Previous</a><span id="lf-page">Page {page_number} of {pages}</span><a id="lf-next" href="{page_url(min(pages,page_number+1))}" aria-disabled="{str(page_number==pages).lower()}">Next →</a></nav>
 <p class="lf-context">Undated findings remain on the person and family pages. <a href="/changes/">Website change log →</a></p>
 </section></main>'''
+
+
+def _links_module():
+    try:
+        import study_place_links
+    except ModuleNotFoundError:
+        from tools import study_place_links
+    return study_place_links
+
+
+def attach_subjects(rows, web=WEB):
+    """Give each finding the people, studies and places it concerns.
+
+    People come from the finding's own profile links. Studies are the written
+    family and place studies that list one of those people (or that the finding
+    links directly). Places are those where one of those people is recorded.
+    Nothing is matched by name.
+    """
+    links = _links_module()
+    studies = links.load_studies(web)
+    curated = {s['id']: s for s in studies if s['kind'] in links.STUDY_KINDS}
+    index = links.studies_by_person(studies)
+    places_by_person = links.person_places(links.load_records(web))
+    names = links.load_place_names(web)
+    place_exists = lambda slug: (web / 'places' / f'{slug}.html').is_file()
+    for row in rows:
+        people = []
+        for person in row['people']:
+            match = re.fullmatch(r'/people/([a-z0-9][a-z0-9_.-]*)\.html', person.get('url', ''))
+            slug = match[1] if match else str(person.get('id') or '').lower()
+            if slug and slug not in people:
+                people.append(slug)
+        found = {s['id']: s for s in links.studies_for_people(people, index)}
+        for url in [row.get('detail_url', ''), *[p.get('url', '') for p in row['people']]]:
+            match = re.fullmatch(r'/branches/([a-z0-9-]+)/', url or '')
+            if match and match[1] in curated and match[1] not in found:
+                found[match[1]] = {k: v for k, v in curated[match[1]].items() if k != 'members'}
+        places = links.places_for_people(people, places_by_person, place_exists=place_exists, names=names)
+        row['_people'] = [slug for slug in people if (web / 'people' / f'{slug}.html').is_file()]
+        row['_studies'] = sorted(found.values(), key=lambda s: s['label'].casefold())
+        row['_places'] = places
+        row['_place_names'] = [p['name'] for p in places[:12]]
+    return rows
+
+
+def _summary(text, limit=220):
+    text = ' '.join(str(text).split())
+    return text if len(text) <= limit else text[:limit].rsplit(' ', 1)[0].rstrip(',;:') + '…'
+
+
+def subject_index(rows):
+    """The per-person, per-study and per-place export other builders read."""
+    data = {'schema_version': 1, 'findings': {}, 'people': {}, 'studies': {}, 'places': {}, 'study_pages': {}}
+    for row in rows:  # rows are newest first, so every list is newest first
+        data['findings'][row['id']] = {'date': row['found_on'], 'url': f"{row['_page_url']}#finding-{row['id']}",
+                                       'summary': _summary(row['finding']), 'kind': row['kind'], 'status': row['status']}
+        for key, values in (('people', row.get('_people', [])), ('studies', [s['id'] for s in row.get('_studies', [])]),
+                            ('places', [p['slug'] for p in row.get('_places', [])])):
+            for value in values:
+                data[key].setdefault(value, []).append(row['id'])
+    data['study_pages'] = {sid: f'/latest-findings/studies/{sid}/' for sid in sorted(data['studies'])}
+    return data
+
+
+def findings_for(subject, kind='people', web=WEB):
+    """Findings about one subject, newest first, from the published export.
+
+    ``kind`` is 'people' (a catalogue slug or WikiTree ID such as Glasgow-951),
+    'studies' (a study id such as larne-kilwaughter) or 'places' (a place slug).
+    Each item has id, date, url (into /latest-findings/), summary, kind and status.
+    """
+    path = Path(web) / SUBJECT_INDEX
+    if not path.is_file():
+        return []
+    data = json.loads(path.read_text(encoding='utf-8'))
+    key = str(subject).lower() if kind == 'people' else str(subject)
+    return [dict(data['findings'][fid], id=fid) for fid in data.get(kind, {}).get(key, []) if fid in data['findings']]
+
+
+def atom_feed(rows, size=FEED_SIZE):
+    """An Atom feed of the newest findings. Deterministic: no build timestamp."""
+    x = lambda value: escape(str(value), quote=True)
+    entries = []
+    for row in rows[:size]:
+        people = ', '.join(p['name'] for p in row['people']) or 'Unnamed record subject'
+        summary = row['finding'] + (f" Limits: {row['qualification']}" if row.get('qualification') else '') + f' People: {people}.'
+        entries.append(
+            f'<entry><title>{x(row["found_on"])}: {x(_summary(row["finding"], 110))}</title>'
+            f'<link rel="alternate" type="text/html" href="{SITE_URL}{x(row["_page_url"])}#finding-{x(row["id"])}"/>'
+            f'<id>tag:glasgow.phenotype.dev,2026:finding-{x(row["id"])}</id>'
+            f'<published>{row["found_on"]}T00:00:00Z</published><updated>{row["found_on"]}T00:00:00Z</updated>'
+            f'<category term="{x(row["kind"])}" label="{x(KINDS[row["kind"]])}"/>'
+            f'<summary type="text">{x(summary)}</summary></entry>')
+    updated = rows[0]['found_on'] if rows else '2026-01-01'
+    return ('<?xml version="1.0" encoding="utf-8"?>\n<feed xmlns="http://www.w3.org/2005/Atom">'
+            '<title>Latest findings · Glasgow Surname Project</title>'
+            '<subtitle>New records and supported corrections from the Glasgow surname research, newest first.</subtitle>'
+            f'<link rel="self" type="application/atom+xml" href="{SITE_URL}{FEED_URL}"/>'
+            f'<link rel="alternate" type="text/html" href="{SITE_URL}/latest-findings/"/>'
+            f'<id>{SITE_URL}/latest-findings/</id><updated>{updated}T00:00:00Z</updated>'
+            '<author><name>Glasgow Surname Project</name></author>' + ''.join(entries) + '</feed>\n')
+
+
+def _table(rows):
+    return ('<div class="lf-table-wrap"><table class="lf-table"><colgroup><col class="lf-col-date"><col class="lf-col-people"><col class="lf-col-finding"><col class="lf-col-assessment"><col class="lf-col-evidence"></colgroup>'
+            '<thead><tr><th scope="col">Found</th><th scope="col">People</th><th scope="col">Finding</th><th scope="col">Finding assessment</th><th scope="col">Evidence</th></tr></thead>'
+            f'<tbody>{"".join(row_html(row) for row in rows)}</tbody></table></div>')
+
+
+def render_study_findings(study, rows):
+    """A plain, followable page of the findings about one study (no JavaScript needed)."""
+    e = lambda value: escape(str(value), quote=True)
+    noun = 'finding' if len(rows) == 1 else 'findings'
+    return (f'<main id="main" class="latest-findings-page lf-subject-page"><header class="lf-intro"><p class="r-kicker">Latest findings · {e(study["type"])}</p>'
+            f'<h1>{e(study["label"])}: latest findings</h1>'
+            f'<p class="lf-lede">{len(rows)} dated {noun} about people in this study, newest first. <a href="{e(study["url"])}">Read the study →</a></p>'
+            f'<p class="lf-follow"><a href="/latest-findings/">All latest findings</a> · <a href="/latest-findings/studies/">Other studies</a> · <a href="{FEED_URL}">Follow new findings (Atom feed)</a></p></header>'
+            f'<section class="lf-content">{_table(rows)}</section></main>')
+
+
+def render_study_directory(studies):
+    e = lambda value: escape(str(value), quote=True)
+    items = ''.join(f'<li><a href="/latest-findings/studies/{e(s["id"])}/">{e(s["label"])}</a> <small>{e(s["type"])} · {s["count"]} finding{"s" if s["count"] != 1 else ""}</small></li>' for s in studies)
+    return ('<main id="main" class="latest-findings-page lf-subject-page"><header class="lf-intro"><p class="r-kicker">Latest findings</p><h1>Findings by study</h1>'
+            '<p class="lf-lede">Choose a family or place study to see the dated findings about the people it lists. A finding appears under every study that lists one of its people.</p>'
+            f'<p class="lf-follow"><a href="/latest-findings/">All latest findings</a> · <a href="/latest-findings/places/">Findings by place</a> · <a href="{FEED_URL}">Follow new findings (Atom feed)</a></p></header>'
+            f'<section class="lf-content"><ul class="lf-subject-list">{items}</ul></section></main>')
+
+
+def render_place_directory(rows):
+    """Findings grouped by the places where their people are recorded, as anchor lists."""
+    e = lambda value: escape(str(value), quote=True)
+    by_place, names = {}, {}
+    for row in rows:
+        for place in row.get('_places', []):
+            by_place.setdefault(place['slug'], []).append(row)
+            names[place['slug']] = place['name']
+    ordered = sorted(by_place, key=lambda slug: (names[slug].casefold(), slug))
+    jump = ' · '.join(f'<a href="#place-{e(slug)}">{e(names[slug])}</a> ({len(by_place[slug])})' for slug in ordered)
+    sections = ''.join(
+        f'<section class="lf-place" id="place-{e(slug)}"><h2><a href="/places/{e(slug)}.html">{e(names[slug])}</a></h2><ul>'
+        + ''.join(f'<li><a href="{e(r["_page_url"])}#finding-{e(r["id"])}"><time datetime="{r["found_on"]}">{e(r["found_on"])}</time></a> {e(_summary(r["finding"], 160))}</li>' for r in by_place[slug])
+        + '</ul></section>' for slug in ordered)
+    return ('<main id="main" class="latest-findings-page lf-subject-page"><header class="lf-intro"><p class="r-kicker">Latest findings</p><h1>Findings by place</h1>'
+            '<p class="lf-lede">Findings listed under each place where one of their people is recorded, newest first. A person recorded in several places appears under each of them; being listed under a place does not mean the finding happened there.</p>'
+            f'<p class="lf-follow"><a href="/latest-findings/">All latest findings</a> · <a href="/latest-findings/studies/">Findings by study</a> · <a href="{FEED_URL}">Follow new findings (Atom feed)</a></p></header>'
+            f'<section class="lf-content"><details class="lf-place-jump"><summary>Jump to a place ({len(ordered)})</summary><p>{jump}</p></details>{sections}</section></main>')
+
+
+def _write_if_changed(target, content, changed, key):
+    target.parent.mkdir(parents=True, exist_ok=True)
+    if not target.exists() or target.read_text(encoding='utf-8') != content:
+        target.write_text(content, encoding='utf-8')
+        changed[key] += 1
+
+
+def _subject_page(template, main, clean, title, description):
+    page = re.sub(r'<main\b[^>]*>.*?</main>', lambda _: main, template, count=1, flags=re.S)
+    page = re.sub(r'<title>.*?</title>', f'<title>{escape(title)} · Glasgow Surname Project</title>', page, count=1, flags=re.S)
+    page = re.sub(r'<meta\b[^>]*name="description"[^>]*>', f'<meta name="description" content="{escape(description, quote=True)}">', page, count=1)
+    page = page.replace('https://glasgow.phenotype.dev/latest-findings/"', f'https://glasgow.phenotype.dev{clean}/"', 1)
+    page = page.replace('data-g-path="/latest-findings/index.html"', f'data-g-path="{clean}/index.html"')
+    return _with_base(page, clean)
 
 
 def repair(web=WEB, ledger=LEDGER):
@@ -193,8 +375,17 @@ def repair(web=WEB, ledger=LEDGER):
         raise ValueError('The latest-findings page needs reviewed findings')
     for index, row in enumerate(rows):
         row['_page_url'] = '/latest-findings/' if index < 50 else f'/latest-findings/page/{index//50+1}/'
+    attach_subjects(rows, web)
+    subjects = subject_index(rows)
+    study_info = {s['id']: s for row in rows for s in row['_studies']}
+    study_options = sorted(({'id': sid, 'label': study_info[sid]['label'], 'type': study_info[sid]['type'], 'url': study_info[sid]['url'], 'count': len(ids)}
+                            for sid, ids in subjects['studies'].items()), key=lambda s: s['label'].casefold())
+    place_info = {p['slug']: p['name'] for row in rows for p in row['_places']}
+    place_options = sorted(({'slug': slug, 'name': place_info[slug], 'count': len(ids)} for slug, ids in subjects['places'].items()),
+                           key=lambda p: (p['name'].casefold(), p['slug']))
+    browse = bool(study_options or subjects['places'])
     page = (web / 'about/index.html').read_text(encoding='utf-8')
-    page, count = re.subn(r'<main\b[^>]*>.*?</main>', lambda _: render_main(rows[:50], len(rows)), page, count=1, flags=re.S)
+    page, count = re.subn(r'<main\b[^>]*>.*?</main>', lambda _: render_main(rows[:50], len(rows), 1, study_options, browse, place_options), page, count=1, flags=re.S)
     if count != 1:
         raise ValueError('The site template has no main element')
     page = re.sub(r'<title>.*?</title>', '<title>Latest findings · Glasgow Surname Project</title>', page, count=1, flags=re.S)
@@ -206,6 +397,8 @@ def repair(web=WEB, ledger=LEDGER):
         page = page.replace('</head>', canonical+'</head>', 1)
     page = page.replace('g-kind-about', 'g-kind-latest-findings').replace('data-g-path="/about/index.html"', 'data-g-path="/latest-findings/index.html"')
     page = page.replace('href="#g-page"', 'href="/latest-findings/#g-page"')
+    page = re.sub(r'<link\b[^>]*type="application/atom\+xml"[^>]*>', '', page)
+    page = page.replace('</head>', FEED_LINK + '</head>', 1)
     page = re.sub(r'(<div class="g-crumbs">.*?<strong>).*?(</strong>)', r'\1Latest findings\2', page, count=1, flags=re.S)
     page = re.sub(r'<nav class="v3-view-nav".*?</nav>', '', page, count=1, flags=re.S)
     page = NAV.sub(lambda _: render_primary_navigation(Path('latest-findings/index.html')), page, count=1)
@@ -237,7 +430,7 @@ def repair(web=WEB, ledger=LEDGER):
     data_path.write_text(json.dumps(manifest, ensure_ascii=False, separators=(',', ':')) + '\n')
     for start in range(0, len(rows), 50):
         number = start//50+1
-        rendered = re.sub(r'<main\b[^>]*>.*?</main>', lambda _:render_main(rows[start:start+50], len(rows), number), page, count=1, flags=re.S)
+        rendered = re.sub(r'<main\b[^>]*>.*?</main>', lambda _:render_main(rows[start:start+50], len(rows), number, study_options, browse, place_options), page, count=1, flags=re.S)
         rendered = rendered.replace('https://glasgow.phenotype.dev/latest-findings/', 'https://glasgow.phenotype.dev'+('/latest-findings/' if number == 1 else f'/latest-findings/page/{number}/'), 1)
         if number == 1:
             esc = lambda value: escape(str(value), quote=True)
@@ -247,6 +440,15 @@ def repair(web=WEB, ledger=LEDGER):
         target.parent.mkdir(parents=True, exist_ok=True)
         if not target.exists() or target.read_text() != rendered:
             target.write_text(rendered); changed['latest_findings'] += 1
+    _write_if_changed(web / 'latest-findings/feed.xml', atom_feed(rows), changed, 'latest_findings_feed')
+    _write_if_changed(web / SUBJECT_INDEX, json.dumps(subjects, ensure_ascii=False, separators=(',', ':')) + '\n', changed, 'latest_findings_subject_index')
+    if browse:
+        _write_if_changed(web / 'latest-findings/studies/index.html', _subject_page(page, render_study_directory(study_options), '/latest-findings/studies', 'Findings by study', 'Latest Glasgow genealogy findings, grouped by family and place study.'), changed, 'latest_findings_subject_pages')
+        _write_if_changed(web / 'latest-findings/places/index.html', _subject_page(page, render_place_directory(rows), '/latest-findings/places', 'Findings by place', 'Latest Glasgow genealogy findings, grouped by the places where their people are recorded.'), changed, 'latest_findings_subject_pages')
+        for study in study_options:
+            selected = [row for row in rows if any(s['id'] == study['id'] for s in row['_studies'])]
+            clean = f"/latest-findings/studies/{study['id']}"
+            _write_if_changed(web / clean.lstrip('/') / 'index.html', _subject_page(page, render_study_findings(study, selected), clean, f"{study['label']}: latest findings", f"Dated findings about people in the {study['label']} study."), changed, 'latest_findings_subject_pages')
     for stale in (web/'latest-findings/page').glob('*/index.html'):
         if stale.parent.name.isdigit() and int(stale.parent.name)>(len(rows)+49)//50:
             stale.unlink();changed['stale_finding_pages_removed']+=1

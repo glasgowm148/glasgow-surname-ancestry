@@ -46,11 +46,11 @@ ADDITIONAL_QUESTIONS = (
     ('Early Scottish records', 'The early burgh connection',
      'Do the Stirling, alias-Smith and Saltmarket records describe the same John, and how does William fit?',
      'The proposed identities remain possible; the Saltmarket-to-William succession is a separate probable connection. Neither establishes the entire exported early pedigree.',
-     "https://www.wikitree.com/wiki/Space:John%20de%20Glasgow%20alias%20Smith%20/%20John%20Glasgow%20of%20Saltmarket'"),
+     '/free-space/john-de-glasgow-alias-smith-john-glasgow-of-saltmarket-7ac174/'),
     ('Glasgow & Ayrshire', 'The burgh-to-Corsankell bridge',
      'How do the documented Corsankell households connect to the Glasgow burgh family?',
      'The proposed identification of Robert of Kilbride with the burgh fisher is an important test. Property succession and associates must establish the exact bridge; nearby Calder records do not establish it.',
-     'https://www.wikitree.com/wiki/Space:Glasgow%20Name%20Study'),
+     '/branches/research-corsankell-household/'),
     ('Kilbirnie & Kilwinning', 'The minister\'s identity and parents',
      'Is the Kilwinning John the minister of Kilbirnie, and who were his parents?',
      'A FamilySearch-catalogued handwritten genealogy names undated Georges of the Bog in Stevenson/Stevenston and the Bay in Kelvening/Kilwinning while asking about their connection to the minister. The Bay George might overlap the unsourced Glasgow-3120 profile, but the note does not identify either man or prove a pre-1700 date. The minister\'s identity and parentage still require contemporary parish, marriage and church records.',
@@ -62,7 +62,7 @@ ADDITIONAL_QUESTIONS = (
     ('Derryloran & Moneymore', 'Which household became which family?',
      'How do the 1740 and 1766 households map to the later named families?',
      'The records establish local occurrences, not all the inherited parent links. Conflicting attachments and place identifications need resolving; Kildress must not be folded into Derryloran without evidence.',
-     '/branches/larne-kilwaughter/#larne-original-evidence'),
+     '/branches/research-irish-derryloran/'),
     ('Early Scottish records', 'Five Glasgow entries (1601–1677)',
      'Can the five FamilySearch index and court-record occurrences from 1601–1677 be traced to identifiable people?',
      'The 1932 Ayrshire sasine index names Agnes Glasgow, spouse of John Logan/Logane, in Milneburne, Stevenston, recorded 29 June 1601; she is probably Glasgow-3178, but the underlying RS11/1 entry needs checking. Grant’s Glasgow testament index lists “Margaret, in Byris of Kilwinning,” dated 8 November 1636. Glasgow-1100 is chronologically possible, but the index gives no spouse or kin, and the date is not a proved death date. The same index lists “John, in Rashie” (AI transcript: Rashlic), parish of Kilbride, dated 17 April 1643. A 1674 Hunterston papers extract names “James Glasgow in Didup” in an inquest list, and the 1677 Register of Deeds index lists “Hugh Glasgow, preacher of the gospel.” These are five source-level occurrences, not necessarily five people. Several existing James profiles remain possible; Hugh may overlap with Glasgow-1603, Hew-1066 or Glasgow-3109. John is not Glasgow-4061; a raw Findmypast John Glasgow 1643 candidate may be the same testament, and the separate John in Bog of Steivinstoun entry dated 6 November 1685 is already recorded. Follow-up FamilySearch place filters for Ireland (17 cards), England (58), the United States, Wales and Canada (no results) found no new image-verified pre-1700 bearer. Promising Irish court, English probate, church, muster and guild items were FamilySearch Center/affiliate-library restricted; an accessible 1875 Irish deed transcription mentions James Glasgow at Glenarm but is not an early record.',
@@ -70,7 +70,7 @@ ADDITIONAL_QUESTIONS = (
     ('Documentary lines & Y-DNA', 'Where the paternal branches meet',
      'Where does a documented male Kilwaughter line sit among the tested paternal branches?',
      'A documented tester chain can connect the genetic comparison to a particular family. Shared SNPs can locate a branch, but cannot name the missing ancestor.',
-     'https://www.wikitree.com/wiki/Space:Glasgow%20Name%20Study'),
+     '/ydna/'),
 )
 
 # Status, what would resolve each question and the record to request or
@@ -135,6 +135,62 @@ MISSING_CONNECTIONS = {
 }
 
 
+# The people and studies each question is about. People are the profiles the
+# maintained question text or its research names; studies are the written
+# studies that list them or that the question links. Only existing pages are
+# linked (see subjects_html).
+QUESTION_SUBJECTS = {
+    'glasgow-951': (('glasgow-951', 'glasgow-867'), ('lisnagaver-rasharkin',)),
+    'glasgow-822': (('glasgow-822', 'glasgow-3902', 'glasgow-1509'), ('research-irish-inishrush-collateral',)),
+    'glasgow-591': (('glasgow-591',), ('research-irish-tamlaght',)),
+    'Archibald’s named eldest son': (('glasgow-1101',), ('research-irish-belfast-donegal',)),
+    'Where Alexander’s paternal family joins': (('glasgow-951', 'glasgow-1499', 'glasgow-1509', 'glasgow-1505'), ('larne-kilwaughter', 'lisnagaver-rasharkin')),
+    "Margaret's surname and the associated testament": (('glasgow-3181',), ('research-hirmenschelis-household',)),
+    'The Montgreenan trust and family': (('glasgow-1076', 'glasgow-2952', 'glasgow-2874', 'theobalds-120'), ()),
+    'The early burgh connection': (('glasgow-1093', 'glasgow-1098'), ('research-saltmarket-succession',)),
+    'The burgh-to-Corsankell bridge': (('glasgow-1168',), ('research-corsankell-household', 'research-glasgow-fishers')),
+    "The minister's identity and parents": (('glasgow-1073', 'glasgow-3120'), ('research-kilbirnie-minister',)),
+    'The East Antrim bridge': (('glasgow-1143', 'glasgow-1144'), ('larne-kilwaughter', 'research-irish-east-antrim')),
+    'Which household became which family?': ((), ('research-irish-derryloran', 'research-irish-moneymore')),
+    'Five Glasgow entries (1601–1677)': (('glasgow-3178', 'glasgow-1100'), ('early-scottish-records',)),
+    'Where the paternal branches meet': ((), ('larne-kilwaughter',)),
+}
+_SUBJECT_NAMES = None
+
+
+def _subject_names(web=None):
+    """Person and study names from the published registry and study list."""
+    global _SUBJECT_NAMES
+    if _SUBJECT_NAMES is None:
+        import json
+        web = web or WEB
+        people, studies = {}, {}
+        try:
+            people = {row['slug']: row.get('name') or row['slug'] for row in json.loads((web / 'assets/research/registry.json').read_text(encoding='utf-8'))}
+            studies = {row['id']: row.get('label') or row['id'] for row in json.loads((web / 'assets/research/branches.json').read_text(encoding='utf-8'))}
+        except (OSError, ValueError, KeyError, TypeError):
+            pass
+        _SUBJECT_NAMES = people, studies
+    return _SUBJECT_NAMES
+
+
+def subjects_html(key, web=None):
+    """'People' and 'Study' links for a question; empty when none exists."""
+    web = web or WEB
+    slugs, study_ids = QUESTION_SUBJECTS.get(key, ((), ()))
+    people, studies = _subject_names(web)
+    person_links = [f'<a href="/people/{escape(slug, quote=True)}.html">{escape(people[slug])}</a>'
+                    for slug in slugs if slug in people and (web / 'people' / f'{slug}.html').is_file()]
+    study_links = [f'<a href="/branches/{escape(sid, quote=True)}/">{escape(studies[sid])}</a>'
+                   for sid in study_ids if sid in studies and (web / 'branches' / sid / 'index.html').is_file()]
+    parts = []
+    if person_links:
+        parts.append('<span><strong>People:</strong> ' + ' · '.join(person_links) + '</span>')
+    if study_links:
+        parts.append('<span><strong>' + ('Study' if len(study_links) == 1 else 'Studies') + ':</strong> ' + ' · '.join(study_links) + '</span>')
+    return f'<p class="repair-question-subjects">{" ".join(parts)}</p>' if parts else ''
+
+
 def question_actions(key, context_html=''):
     """Render status, resolution and record target; never invent a missing value."""
     status, resolve, record = QUESTION_ACTIONS.get(key, ('Open', '', ''))
@@ -145,7 +201,7 @@ def question_actions(key, context_html=''):
     )
     missing = MISSING_CONNECTIONS.get(key, '')
     return (f'<p class="repair-question-status"><span class="question-status question-open">{escape(status)}</span></p>'
-            f'<p class="repair-question-missing">{escape(missing)}</p>'
+            f'<p class="repair-question-missing">{escape(missing)}</p>{subjects_html(key)}'
             f'<details class="repair-question-details"><summary>Evidence and next records to check</summary>'
             f'{context_html}<dl class="question-actions">{rows}</dl></details>')
 
@@ -190,7 +246,12 @@ def repair():
     )
     def render_study(region, title, question, context, url):
         sources = STUDY_SOURCES.get(title, ())
-        action = 'Open FamilySearch index &rarr;' if url.startswith('https://www.familysearch.org/') else 'Read the research notes &rarr;'
+        action = ('Open FamilySearch index &rarr;' if url.startswith('https://www.familysearch.org/')
+                  else 'Read the study &rarr;' if url.startswith('/branches/')
+                  else 'Read the person’s page &rarr;' if url.startswith('/people/')
+                  else 'Read the transcription &rarr;' if url.startswith('/research/transcriptions/')
+                  else 'Read the Y-DNA story &rarr;' if url.startswith('/ydna/')
+                  else 'Read the research notes &rarr;')
         source_markup = (
             '<p class="repair-question-sources"><strong>Sources:</strong> '
             + ' · '.join(f'<a href="{escape(source_url, quote=True)}">{escape(label)}</a>' for label, source_url in sources)
@@ -252,6 +313,7 @@ def repair():
 .repair-question-study>p{font:14px/1.6 var(--g-sans);color:#53634a;max-width:510px}
 .repair-question-study>p.repair-question-prompt{font:18px/1.4 var(--g-serif);color:#30452d}
 .repair-question-study>a{display:inline-block;margin:7px 0 12px;text-underline-offset:4px}
+.repair-question-subjects{margin:0 0 10px;font:13px/1.55 var(--g-sans);color:#53634a}.repair-question-subjects>span{display:block}.repair-question-subjects a{color:#496844;text-underline-offset:3px}
 @media(max-width:720px){.repair-question-study-grid{grid-template-columns:1fr;gap:18px}.repair-question-wider{padding-top:20px}}
 @media(max-width:720px){#open-questions{grid-template-columns:1fr;gap:16px;margin:18px -1px 32px}#open-questions h2{font-size:32px}.repair-question-lead,.repair-question-trails,.repair-question-wider{padding:24px 22px}.repair-question-focus{max-width:none}.repair-question-trail{padding:17px 18px 13px}.repair-question-trail-actions{padding:0 18px 16px}.repair-question-trail h3{font-size:23px}}
 </style>'''

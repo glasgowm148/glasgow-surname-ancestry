@@ -17,12 +17,109 @@ WEB = ROOT / 'www'
 STORIES = ROOT / 'tools/study_stories'
 sys.path.insert(0, str(ROOT / 'tools'))
 import evidence_labels  # noqa: E402  (shared public vocabulary)
+import study_place_links  # noqa: E402  (study <-> place links and group vocabulary)
+import site_identity  # noqa: E402  (one site name in page titles)
 
 # Study tone keys are unchanged; their public words come from the shared vocabulary.
 TONES = {key: value['label'] for key, value in evidence_labels.STUDY_TONES.items()}
 EVIDENCE_CSS = f'/assets/research/evidence.css?v={evidence_labels.VERSION}'
 GUIDE = (f'<p class="sp-caption sp-keep evidence-guide-link"><a href="{evidence_labels.GUIDE_URL}">{evidence_labels.GUIDE_LABEL}</a>'
-         '<span> What each label means, and why a research cluster does not prove kinship.</span></p>')
+         '<span> What each label means, and why a possible group does not prove kinship.</span></p>')
+GROUPS_NOTE = ('<p class="sp-caption sp-keep sp-groups-note">Each card is either a <strong>household</strong>, people whom a record documents together, '
+               'or a <strong>possible group</strong>, people studied together because they appear in the same records or place. '
+               'People in a possible group are not proved to be related; the label on each card gives the strength of the evidence.</p>')
+# Rules for the blocks added by the site audit (places, findings, grouped people,
+# review date). Written into each study page's head by repair(); the rest of the
+# study styling is /assets/research/study-page.css.
+LINKS_STYLE = ('<style id="sp-links-style">'
+               '.sp-place-list,.sp-findings{list-style:none;padding:0;margin:12px 0 22px}'
+               '.sp-place-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:0 25px}'
+               '.sp-place-list li,.sp-findings li{padding:9px 0;border-bottom:1px solid var(--sp-rule,#d6ddcf);font-size:13px;line-height:1.5}'
+               '.sp-place-list small{color:#697361;font-size:11px;margin-left:4px}'
+               '.sp-findings time{font-weight:600;margin-right:6px}'
+               '.sp-place-more summary{cursor:pointer;font-size:13px}'
+               '.sp-people-group{font:600 12px/1.3 var(--g-sans,sans-serif);letter-spacing:.06em;text-transform:uppercase;color:#4f6b45;margin:24px 0 0}'
+               '.sp-people-group+.sp-people{margin-top:6px}'
+               '.sp-reviewed{font-size:12px;color:#697361;margin:6px 0 0}'
+               '.sp-groups-note{max-width:680px}'
+               '</style>')
+MONTHS = ('January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December')
+
+
+def long_date(value):
+    """'2026-10-06' -> '6 October 2026'; anything else -> ''."""
+    match = re.fullmatch(r'(\d{4})-(\d{2})-(\d{2})', str(value or ''))
+    if not match or not 1 <= int(match[2]) <= 12:
+        return ''
+    return f'{int(match[3])} {MONTHS[int(match[2])-1]} {match[1]}'
+
+
+def target_label(url):
+    """Name a link by what it opens, not 'Consult the record' for everything."""
+    url = str(url or '')
+    if url.startswith(('http://', 'https://')):
+        return 'Open the source ↗'
+    if url.startswith('/sources/'):
+        return 'See the source →'
+    if url.startswith('/people/'):
+        return 'Read the person’s page →'
+    if url.startswith('/branches/'):
+        return 'Read the study →'
+    if url.startswith('/places/'):
+        return 'See the place →'
+    return 'Read the research →'
+
+
+def birth_key(slug, registry):
+    p = registry.get(slug, {})
+    y = year(p.get('from'))
+    return (y is None, y or 0, str(p.get('name', slug)).casefold(), slug)
+
+
+def people_list(members, clusters, registry):
+    """Everyone the study lists, grouped by household or group and ordered by date."""
+    members = list(dict.fromkeys(members))
+    member_set, placed, groups = set(members), set(), []
+    if len(clusters) > 1 or (clusters and set(clusters[0]['people']) != member_set):
+        for c in clusters:
+            people = [p for p in dict.fromkeys(c['people']) if p in member_set and p not in placed]
+            if people:
+                placed.update(people)
+                groups.append((c.get('title'), people))
+    rest = [p for p in members if p not in placed]
+    if rest:
+        groups.append(('Others in this study' if groups else None, rest))
+    html = ''
+    for title, people in groups:
+        ordered = sorted(people, key=lambda p: birth_key(p, registry))
+        heading = f'<h4 class="sp-people-group">{esc(title)}</h4>' if title else ''
+        html += heading+'<div class="sp-people">'+''.join('<div>'+person(p,registry,True)+'</div>' for p in ordered)+'</div>'
+    return '<div class="sp-all-people">'+html+'</div>'
+
+
+def story_date(path):
+    """When the study text was last changed: its last commit, as YYYY-MM-DD.
+
+    A story may instead carry its own "reviewed" date, which takes precedence.
+    """
+    import subprocess
+    try:
+        result = subprocess.run(['git', 'log', '-1', '--format=%cs', '--', str(path)], cwd=ROOT,
+                                capture_output=True, text=True, timeout=20, check=False)
+    except (OSError, subprocess.SubprocessError):
+        return ''
+    return result.stdout.strip() if long_date(result.stdout.strip()) else ''
+
+
+def findings_block(findings, page_url=None, limit=3):
+    """The newest dated findings about the people in this study."""
+    if not findings:
+        return ''
+    items = ''.join(f'<li><a href="{esc(f["url"])}"><time datetime="{esc(f["date"])}">{esc(long_date(f["date"]))}</time></a> {esc(f["summary"])}</li>' for f in findings[:limit])
+    more = f'<p class="sp-caption sp-keep"><a href="{esc(page_url)}">See every finding about people in this study ({len(findings)}) →</a></p>' if page_url else ''
+    return (f'<h3 class="sp-subhead" id="study-findings">Latest findings about this study ({len(findings)})</h3>'
+            f'<ul class="sp-findings">{items}</ul>{more}')
+
 
 
 def esc(value):
@@ -43,13 +140,54 @@ def link(label, url):
     return f'<a href="{esc(url)}">{esc(label)}</a>' if url else esc(label)
 
 
+# Set by repair(): the public registry, so that IDs in prose can be named.
+PEOPLE = {}
+SURNAME_IDS = ('Glasgow', 'Glasco', 'Glascow', 'Glasgo', 'Glaskow')
+ID_RE = re.compile(r'\b([A-Z][a-z]+)-(\d{1,5})\b')
+
+
+def id_slug(given, number):
+    """The catalogue slug for 'Glasgow-951' or the shorthand 'Alexander-951'.
+
+    A shorthand is accepted only when the registry's person of that number has
+    that first name, so an ID is never guessed from a name alone.
+    """
+    if given in SURNAME_IDS:
+        slug = f'{given.lower()}-{number}'
+        return slug if slug in PEOPLE else None
+    slug = f'glasgow-{number}'
+    name = str(PEOPLE.get(slug, {}).get('name') or '')
+    return slug if name.split()[:1] == [given] else None
+
+
+def name_ids(html, linked=True):
+    """Replace WikiTree IDs in already-escaped text with the person's name."""
+    def swap(m):
+        slug = id_slug(m[1], m[2])
+        if not slug:
+            return m[0]
+        name = esc(PEOPLE[slug].get('name') or m[0])
+        return f'<a href="/people/{slug}.html">{name}</a>' if linked else name
+    return ID_RE.sub(swap, html)
+
+
+def plain_names(text):
+    """Plain-text form of name_ids, for SVG titles and labels."""
+    return ID_RE.sub(lambda m: str(PEOPLE[slug].get('name') or m[0]) if (slug := id_slug(m[1], m[2])) else m[0], str(text or ''))
+
+
 def inline(value):
     value = str(value or '')
     parts, pos = [], 0
     for m in re.finditer(r'\[([^\]\n]+)\]\(([^\s)]+)\)|\*\*([^*]+)\*\*', value):
-        parts.extend([esc(value[pos:m.start()]), link(m[1], m[2]) if m[1] else '<strong>'+esc(m[3])+'</strong>'])
+        before = name_ids(esc(value[pos:m.start()]))
+        if m[1]:
+            url, label = safe_url(m[2]), name_ids(esc(m[1]), linked=False)
+            parts.extend([before, f'<a href="{esc(url)}">{label}</a>' if url else label])
+        else:
+            parts.extend([before, '<strong>'+name_ids(esc(m[3]))+'</strong>'])
         pos = m.end()
-    return ''.join(parts)+esc(value[pos:])
+    return ''.join(parts)+name_ids(esc(value[pos:]))
 
 
 def tone(value):
@@ -83,7 +221,7 @@ def section(key, title, body):
 
 def person(slug, registry, dates=False):
     p = registry.get(slug, {})
-    return link(p.get('name', slug), f'/people/{slug}.html')+(f'<small>{esc(p.get("life", "Dates not recorded"))}</small>' if dates else '')
+    return link(p.get('name', slug), f'/people/{slug}.html')+(f'<small>{esc(str(p.get("life") or "Dates not recorded").replace(" – Not recorded", " – ?").replace("Not recorded – ", "? – "))}</small>' if dates else '')
 
 
 def fallback(branch, group, families):
@@ -219,7 +357,7 @@ def _timeline_svg(events, lanes, width, wrap, variant):
                 stem = f'M{x:.1f},{y+8}V{base-10:.1f}'
             svg += f'<path d="{stem}" class="sp-stem"/><text x="{item["lx"]:.1f}" y="{base:.1f}" class="sp-event-label"><title>{esc(label)}</title>'
             svg += ''.join(f'<tspan x="{item["lx"]:.1f}" dy="{0 if i == 0 else line_h}">{esc(line)}</tspan>' for i, line in enumerate(item['lines']))+'</text>'
-    return f'<svg class="sp-timeline-{variant}" viewBox="0 0 {width} {height}" role="img" aria-label="Dated evidence by research cluster">{svg}</svg>'
+    return f'<svg class="sp-timeline-{variant}" viewBox="0 0 {width} {height}" role="img" aria-label="Dated evidence by household or group">{svg}</svg>'
 
 
 def timeline(story, rows):
@@ -418,9 +556,10 @@ def connections(story, rows=None):
             (px, py), (qx, qy) = pts[0], pts[1]
             lx, ly = (px+qx)/2, (py+qy)/2+4
         label = str(e.get('label') or 'Relationship under review')
-        short = textwrap.shorten(label, width=38, placeholder='…')
+        plain = plain_names(label)
+        short = textwrap.shorten(plain, width=38, placeholder='…')
         lx = max(margin+len(short)*3.2, min(width-margin-len(short)*3.2, lx))
-        svg += f'<g class="sp-edge-wrap sp-{e["status"]}"><path tabindex="0" data-from="{esc(e["from"])}" data-to="{esc(e["to"])}" d="{d}" class="sp-edge sp-{e["status"]}"><title>{esc(names[e["from"]])} → {esc(names[e["to"]])}: {esc(label)} ({TONES[e["status"]]})</title></path><text x="{lx:.1f}" y="{ly:.1f}" text-anchor="middle" class="sp-edge-label">{esc(short)}</text></g>'
+        svg += f'<g class="sp-edge-wrap sp-{e["status"]}"><path tabindex="0" data-from="{esc(e["from"])}" data-to="{esc(e["to"])}" d="{d}" class="sp-edge sp-{e["status"]}"><title>{esc(names[e["from"]])} → {esc(names[e["to"]])}: {esc(plain)} ({TONES[e["status"]]})</title></path><text x="{lx:.1f}" y="{ly:.1f}" text-anchor="middle" class="sp-edge-label">{esc(short)}</text></g>'
         entries += f'<li>{esc(names[e["from"]])} → {esc(names[e["to"]])}: {inline(label)} ({TONES[e["status"]]})</li>'
     nodes = ''
     for c in clusters:
@@ -432,10 +571,10 @@ def connections(story, rows=None):
             nodes += f'<text x="{x+18:.1f}" y="{yy+24+len(lines)*16+6:.1f}" class="sp-node-detail">{esc(textwrap.shorten(det, width=32, placeholder="…"))}</text>'
         nodes += '</g>'
     legend = ''.join(f'<span class="sp-key sp-{t}">{label}</span>' for t, label in TONES.items())
-    return (f'<h3 class="sp-subhead">How the clusters connect</h3><p class="sp-caption">Rows run from the earliest cluster at the top to the latest below. Hover or focus a line for the link it represents.</p>'
-            +('<p class="sp-caption sp-scroll-hint">Swipe sideways to see every cluster in the diagram.</p>' if width > 380 else '')+
-            f'<figure class="sp-connections"><div class="sp-scroll"><svg viewBox="0 0 {width:.0f} {height:.0f}" style="max-width:{width:.0f}px;--sp-natural:{width:.0f}px" role="img" aria-label="Research cluster connections">{svg}{nodes}</svg></div><figcaption>{legend}</figcaption></figure>{GUIDE}'
-            f'<details class="sp-link-list"><summary>Read every link ({len(links)})</summary><ul>{entries}</ul></details>')
+    return (f'<h3 class="sp-subhead">How the groups connect</h3><p class="sp-caption">Rows run from the earliest group at the top to the latest below. Every line is also described in words under the diagram.</p>'
+            +('<p class="sp-caption sp-scroll-hint">Swipe sideways to see every group in the diagram.</p>' if width > 380 else '')+
+            f'<figure class="sp-connections"><div class="sp-scroll"><svg viewBox="0 0 {width:.0f} {height:.0f}" style="max-width:{width:.0f}px;--sp-natural:{width:.0f}px" role="img" aria-label="Connections between households and groups">{svg}{nodes}</svg></div><figcaption>{legend}</figcaption></figure>{GUIDE}'
+            f'<details class="sp-link-list" open><summary>The links in words ({len(links)})</summary><ul>{entries}</ul></details>')
 
 
 def evidence_log(config, study_id):
@@ -449,7 +588,7 @@ def evidence_log(config, study_id):
     return '<div class="sp-evidence-log">'+''.join(f'<details {"open" if i==0 else ""}><summary>{esc(title)}</summary><div class="sp-log-body">{helper(body,f"/branches/{study_id}/")}</div></details>' for i,(title,body) in enumerate(entries))+'</div>'
 
 
-def render(branch, group, families, authored, registry, rows, geo):
+def render(branch, group, families, authored, registry, rows, geo, places=None, findings=None, findings_url=None, study_label=None):
     story = fallback(branch,group,families)
     story.update({k:v for k,v in (authored if isinstance(authored,dict) else {}).items() if v is not None})
     for key in ('clusters','chapters','timeline','links','gaps','facts','related'):
@@ -466,7 +605,7 @@ def render(branch, group, families, authored, registry, rows, geo):
         cid = c.get('id') if isinstance(c.get('id'),str) else None
         c['id'] = cid if cid and cid not in seen_ids else f'group-{i}'
         seen_ids.add(c['id'])
-        c['title'] = str(c.get('title') or 'Research cluster')
+        c['title'] = str(c.get('title') or 'Possible group')
         c['people'] = [p for p in c.get('people',[]) if isinstance(p,str)] if isinstance(c.get('people'),list) else []
     for t in TONES:
         values = story['ladder'].get(t)
@@ -476,7 +615,7 @@ def render(branch, group, families, authored, registry, rows, geo):
     place = group.get('place') or branch['label']
     status = story.get('status') or {'label':'Evidence-led study · connections under review','tone':'unresolved'}
     facts = story.get('facts') or [dict(value=period,label='record span'),dict(value=len(members),label='people in the study'),dict(value=len(rows),label='catalogue records')]
-    body = f'<section id="study-hero" class="sp-hero"><a class="sp-back" href="/branches/">← All families &amp; studies</a><p class="sp-kicker">{esc(story.get("kicker", "Evidence-led research study"))}</p><h1>{esc(story["title"])}</h1><p class="sp-standfirst">{inline(story.get("standfirst"))}</p><span class="sp-pill sp-{tone(status.get("tone"))}">{esc(status.get("label"))}</span> <a class="sp-evidence-guide" href="{evidence_labels.GUIDE_URL}">{evidence_labels.GUIDE_LABEL}</a><p class="sp-place">{esc(period)} · {esc(place)}</p><div class="sp-facts">'+''.join(f'<div><strong>{esc(f.get("value"))}</strong><span>{esc(f.get("label"))}</span></div>' for f in facts)+'</div></section>'
+    body = f'<section id="study-hero" class="sp-hero"><a class="sp-back" href="/branches/">← All families &amp; studies</a><p class="sp-kicker">{esc(study_label or story.get("kicker") or study_place_links.FAMILY_STUDY)}</p><h1>{esc(story["title"])}</h1><p class="sp-standfirst">{inline(story.get("standfirst"))}</p><span class="sp-pill sp-{tone(status.get("tone"))}">{esc(status.get("label"))}</span> <a class="sp-evidence-guide" href="{evidence_labels.GUIDE_URL}">{evidence_labels.GUIDE_LABEL}</a><p class="sp-place">{esc(period)} · {esc(place)}</p>'+(f'<p class="sp-reviewed sp-keep">Study last updated <time datetime="{esc(story["reviewed"])}">{esc(long_date(story["reviewed"]))}</time></p>' if long_date(story.get('reviewed')) else '')+'<div class="sp-facts">'+''.join(f'<div><strong>{esc(f.get("value"))}</strong><span>{esc(f.get("label"))}</span></div>' for f in facts)+'</div></section>'
     body += '<div class="sp-intro">'+section('question','The question at the heart of this study',f'<blockquote>{inline(story.get("question"))}</blockquote><p>{inline(story.get("answer"))}</p><aside class="sp-boundary"><strong>What this does not show</strong><p>{inline(story.get("boundary"))}</p></aside>')
     body += locator(sid,rows,geo)+'</div>'+timeline(story,rows)
     chapters = ''
@@ -491,16 +630,16 @@ def render(branch, group, families, authored, registry, rows, geo):
         people = c.get('people') or []
         chips = '<div class="sp-chips local-family-members">'+''.join(person(p,registry) for p in people)+'</div>'
         if len(people) > 12:
-            chips = f'<details><summary>{len(people)} people in this research group</summary>{chips}</details>'
-        cards += f'<article class="sp-cluster local-family-card sp-{tone(c.get("status"))}" id="cluster-{esc(c["id"])}"><span class="sp-pill">{esc(c.get("status_label") or TONES[tone(c.get("status"))])}</span><h3>{esc(c.get("title"))}</h3><p class="sp-caption">{esc(" · ".join(filter(None,[str(c.get("place") or ""),str(c.get("period") or "")])))}</p><p class="local-family-basis">{inline(c.get("summary"))}</p>'+chips+f'<p class="local-family-boundary sp-boundary{"" if c.get("boundary") else " sp-keep"}"><strong>Still open:</strong> {inline(c.get("boundary") or "No additional relationship is inferred from inclusion in this cluster.")}</p></article>'
+            chips = f'<details><summary>{len(people)} people in this group</summary>{chips}</details>'
+        cards += f'<article class="sp-cluster local-family-card sp-{tone(c.get("status"))}" id="cluster-{esc(c["id"])}"><span class="sp-pill">{esc(c.get("status_label") or TONES[tone(c.get("status"))])}</span><h3>{esc(c.get("title"))}</h3><p class="sp-caption">{esc(" · ".join(filter(None,[str(c.get("place") or ""),str(c.get("period") or "")])))}</p><p class="local-family-basis">{inline(c.get("summary"))}</p>'+chips+f'<p class="local-family-boundary sp-boundary{"" if c.get("boundary") else " sp-keep"}"><strong>Still open:</strong> {inline(c.get("boundary") or "No relationship is inferred from being listed in this group.")}</p></article>'
     if story['clusters'] and not (len(story['clusters']) == 1 and set(story['clusters'][0]['people']) == set(members)):
-        body += section('clusters','Households & research clusters',cards+'</div></div>'+connections(story, rows))
+        body += section('clusters','Households and possible groups',GROUPS_NOTE+cards+'</div></div>'+connections(story, rows))
     ladder = story.get('ladder') or {}
     if any(ladder.values()): body += section('ladder','How much can we say?',GUIDE+'<div class="sp-ladder">'+''.join(f'<article class="sp-{t}"><h3>{label}</h3><ul>'+''.join(f'<li>{inline(v)}</li>' for v in ladder.get(t) or [])+'</ul>'+('' if ladder.get(t) else '<p class="sp-empty sp-keep">No separate claim assigned at this level.</p>')+'</article>' for t,label in TONES.items())+'</div>')
     gaps = ''
     for i,g in enumerate(story.get('gaps') or []):
         if not any(g.get(k) for k in ('title','why','where','url')): continue
-        gaps += f'<article class="sp-gap"><span class="sp-number">{i+1:02}</span><div><span class="sp-kicker">{esc(g.get("priority","medium"))} priority</span><h3>{inline(g.get("title"))}</h3><p>{inline(g.get("why"))}</p><p>{inline(g.get("where"))}</p>{link("Consult the record →",g.get("url")) if g.get("url") else ""}</div></article>'
+        gaps += f'<article class="sp-gap"><span class="sp-number">{i+1:02}</span><div><span class="sp-kicker">{esc(g.get("priority","medium"))} priority</span><h3>{inline(g.get("title"))}</h3><p>{inline(g.get("why"))}</p><p>{inline(g.get("where"))}</p>{link(target_label(g.get("url")),g.get("url")) if g.get("url") else ""}</div></article>'
     if gaps: body += section('gaps','What would settle it','<div class="sp-gap-grid">'+gaps+'</div>')
     evidence = evidence_log(story.get('evidence_log'),sid)
     if sid == 'larne-kilwaughter':
@@ -508,7 +647,9 @@ def render(branch, group, families, authored, registry, rows, geo):
     earliest = sorted((p for p in members if year(registry.get(p,{}).get('from')) is not None), key=lambda p: year(registry[p]['from']))[:6]
     if earliest and len(members) > len(earliest):  # otherwise it repeats the full list
         evidence += '<h3 class="sp-subhead">Earliest entries</h3><p class="sp-caption">Ordered by the earliest catalogue date; approximate life dates are not necessarily dated source records.</p><div class="sp-people">'+''.join('<div>'+person(p,registry,True)+'</div>' for p in earliest)+'</div>'
-    evidence += '<h3 class="sp-subhead">People in this study</h3>'+('<div class="sp-people sp-all-people">'+''.join('<div>'+person(p,registry,True)+'</div>' for p in members)+'</div>' if members else '<p class="sp-caption sp-empty">No catalogue profiles are linked to this study yet; the evidence above rests on the cited records.</p>')
+    evidence += '<h3 class="sp-subhead">People in this study</h3>'+('<p class="sp-caption sp-keep">Grouped by household or group, earliest first.</p>'+people_list(members, story['clusters'], registry) if members else '<p class="sp-caption sp-empty">No catalogue profiles are linked to this study yet; the evidence above rests on the cited records.</p>')
+    evidence += study_place_links.render_study_places(places or [])
+    evidence += findings_block(findings or [], findings_url)
     evidence += '<h3 class="sp-subhead">Continue the research</h3><div class="sp-chips">'+link('Explore the records',f'/records/?branch={sid}')+link('Open the map',f'/map/?branch={sid}')+''.join(link(e.get('label','Related study'),e.get('url')) for e in story.get('related') or [])+'</div>'
     evidence += f'<p class="sp-caption">{inline(story.get("sources_note") or "Source provenance and individual uncertainties are retained in the linked profiles and dated record entries.")}</p>'
     from bs4 import BeautifulSoup
@@ -533,9 +674,16 @@ def repair(study_ids=None):
     curated = {g['id']:g for g in groups['GROUPS']+groups['IRISH_GROUPS']}
     local = runpy.run_path(str(ROOT/'tools/repair_site_experience.py'))['LOCAL_FAMILIES']
     registry = {p['slug']:p for p in json.loads((WEB/'assets/research/registry.json').read_text())}
+    PEOPLE.clear(); PEOPLE.update(registry)
     branches = json.loads((WEB/'assets/research/branches.json').read_text())
     with (WEB/'map/data/records.csv').open(encoding='utf-8-sig',newline='') as f: records = list(csv.DictReader(f))
     helper = runpy.run_path(str(ROOT/'tools/build_branches_directory.py'))
+    curated_status = runpy.run_path(str(ROOT/'tools/repair_family_browsing.py'))['status']
+    places_by_person = study_place_links.person_places(study_place_links.load_records(WEB))
+    place_names = study_place_links.load_place_names(WEB)
+    place_exists = lambda slug: (WEB/'places'/f'{slug}.html').is_file()
+    subjects_path = WEB/'data/findings-by-subject.json'
+    subjects = json.loads(subjects_path.read_text()) if subjects_path.is_file() else {}
     geo = {'helper':helper,**{name:json.loads((helper['TERRITORY_DIR']/f'{name}.geojson').read_text())['features'] for name in ('territories','counties')}}
     counts = Counter()
     for b in branches:
@@ -546,8 +694,14 @@ def repair(study_ids=None):
         story_path = STORIES/(b['id']+'.json')
         authored = json.loads(story_path.read_text()) if story_path.exists() else {}
         if authored and authored.get('id')!=b['id']: raise ValueError(f'Story ID mismatch: {story_path}')
+        if authored and not long_date(authored.get('reviewed')):
+            authored = {**authored, 'reviewed': story_date(story_path)}
         rows = [r for r in records if r.get('profile_id','').lower() in b.get('members',[])]
-        main = render(b,curated.get(b['id'],{}),local.get(b['id'],[]),authored,registry,rows,geo)
+        group = curated.get(b['id'],{})
+        label = study_place_links.study_type(b, curated_status(group) if group.get('boundary') else None)
+        places = study_place_links.places_for_people(b.get('members',[]), places_by_person, place_exists=place_exists, names=place_names)
+        found = [dict(subjects['findings'][fid], id=fid) for fid in (subjects.get('studies') or {}).get(b['id'], []) if fid in (subjects.get('findings') or {})]
+        main = render(b,group,local.get(b['id'],[]),authored,registry,rows,geo,places=places,findings=found,findings_url=(subjects.get('study_pages') or {}).get(b['id']),study_label=label)
         match = re.search(r'<main\b[^>]*>',original)
         if not match: raise ValueError(f'Missing main: {path}')
         tag = match[0]
@@ -558,6 +712,15 @@ def repair(study_ids=None):
         for ext,markup in [('css','<link rel="stylesheet" href="/assets/research/study-page.css?v=2"/>'),('js','<script defer src="/assets/research/study-page.js?v=2"></script>')]:
             updated = re.sub(rf'/assets/research/study-page\.{ext}\?v=[0-9A-Za-z._-]+', f'/assets/research/study-page.{ext}?v=2', updated)
             if f'/assets/research/study-page.{ext}' not in updated: updated = updated.replace('</head>',markup+'\n</head>')
+        updated = re.sub(r'<style id="sp-links-style">.*?</style>', '', updated, flags=re.S).replace('</head>', LINKS_STYLE+'</head>', 1)
+        title = site_identity.page_title(b.get('label') or authored.get('title') or b['id'])
+        updated = re.sub(r'<title>.*?</title>', lambda _: f'<title>{esc(title)}</title>', updated, count=1, flags=re.S)
+        summary = re.sub(r'\s+', ' ', re.sub(r'<[^>]+>|[*_`]', '', re.sub(r'\[([^\]]+)\]\([^)]*\)', r'\1', str(authored.get('standfirst') or b.get('description') or '')))).strip()
+        if summary:
+            meta = f'<meta name="description" content="{esc(textwrap.shorten(summary, width=200, placeholder="…"))}">'
+            updated, n = re.subn(r'<meta\b[^>]*\bname="description"[^>]*>', lambda _: meta, updated, count=1)
+            if not n:
+                updated = updated.replace('</title>', '</title>'+meta, 1)
         updated = re.sub(r'/assets/research/evidence\.css\?v=\w+', EVIDENCE_CSS, updated)
         if '/assets/research/evidence.css' not in updated:
             updated = updated.replace('</head>', f'<link rel="stylesheet" href="{EVIDENCE_CSS}"/>\n</head>', 1)

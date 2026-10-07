@@ -5691,12 +5691,40 @@ def _supporting_source_link(record: dict) -> str:
     return f'<p><a href="{escape(url, quote=True)}">Supporting source</a></p>'
 
 
+def _places_a_to_z(place_index: list[dict]) -> str:
+    """A static, crawlable A–Z of every place page for readers without JavaScript."""
+    by_letter = defaultdict(list)
+    for place in sorted(place_index, key=lambda item: (item["name"].casefold(), item["slug"])):
+        first = unicodedata.normalize("NFKD", place["name"].strip()[:1]).encode("ascii", "ignore").decode().upper()
+        by_letter[first if first.isalpha() else "#"].append(place)
+    letters = sorted(by_letter, key=lambda letter: (letter == "#", letter))
+    jump = "".join(f'<a href="#places-{"other" if letter == "#" else letter.lower()}">{escape(letter)}</a>' for letter in letters)
+    groups = "".join(
+        f'<section class="places-letter" id="places-{"other" if letter == "#" else letter.lower()}"><h3>{escape(letter)}</h3><ul class="places-a-z-list">'
+        + "".join(
+            f'<li><a href="{escape(place["url"], quote=True)}">{escape(place["name"])}</a> '
+            f'<small>{escape(place["region"])} · {place["people"]:,} {"person" if place["people"] == 1 else "people"}</small></li>'
+            for place in by_letter[letter]
+        ) + "</ul></section>"
+        for letter in letters
+    )
+    return (f'<section id="places-a-z" class="places-a-z"><h2>All places A–Z</h2>'
+            f'<nav class="places-jump" aria-label="Places by first letter">{jump}</nav>{groups}</section>')
+
+
 def _write_place_pages(
     public_records: list[dict],
     public_people: list[dict],
     location_to_slug: dict[str, str],
+    study_links=None,
 ) -> list[dict]:
     people_by_slug = {person["catalogue_id"]: person for person in public_people}
+    try:
+        from study_place_links import PlaceStudyLinks
+    except ModuleNotFoundError:
+        from tools.study_place_links import PlaceStudyLinks
+    # Families studied here: joined through the people recorded at the place.
+    place_links = PlaceStudyLinks(WEB_DIR) if study_links is None else study_links
     grouped = defaultdict(list)
     for record in public_records:
         if record.get("location_id"):
@@ -5745,10 +5773,11 @@ def _write_place_pages(
         )
         unresolved_links = " · ".join(
             f'<a href="/people/{person["catalogue_id"]}.html">{escape(person["name"])}</a>' for person in unresolved_people
-        ) or "No unresolved identity is flagged in the mapped associations."
+        ) or "No identity question is flagged for the people recorded here."
         map_query = quote(name)
-        body = f"""<nav class="crumb"><a href="/places/">Places</a> / {escape(name)}</nav><section class="place-hero-grid"><div><p class="kicker">Place research page</p><h1>{escape(name)}</h1><p class="lede">{escape(region)} · {len(records):,} mapped association{'s' if len(records) != 1 else ''}</p><div class="actions"><a class="button" href="/map/?display=table&amp;q={map_query}">View on map</a><a class="button secondary" href="/records/?place={quote(name)}">Search records here</a></div></div><div class="place-stats"><div class="place-stat"><strong>{len(people):,}</strong><span>People</span></div><div class="place-stat"><strong>{len(records):,}</strong><span>Associations</span></div><div class="place-stat"><strong>{years[0] if years else '—'}</strong><span>Earliest mapped year</span></div><div class="place-stat"><strong>{len(sources):,}</strong><span>Sources/provenance links</span></div></div></section>
-<section><h2>People recorded here</h2><div class="place-people">{people_links}</div></section><section><h2>Catalogued surnames</h2><p>{' · '.join(escape(surname) for surname in surnames) or 'No surname metadata available.'}</p></section><section><h2>Place timeline</h2><div class="timeline">{timeline}</div></section><section><h2>Unresolved identities</h2><p>{unresolved_links}</p></section><section><h2>Relevant sources and provenance</h2>{f'<ol class="source-list">{source_rows}</ol>' if source_rows else '<p class="empty-state">No structured source is linked.</p>'}</section>"""
+        families_here = place_links.html(list(people), records)
+        body = f"""<nav class="crumb"><a href="/places/">Places</a> / {escape(name)}</nav><section class="place-hero-grid"><div><p class="kicker">Place</p><h1>{escape(name)}</h1><p class="lede">{escape(region)} · {len(records):,} record{'s' if len(records) != 1 else ''} naming {len(people):,} {'person' if len(people) == 1 else 'people'}</p><div class="actions"><a class="button" href="/map/?display=table&amp;q={map_query}">View on map</a><a class="button secondary" href="/records/?place={quote(name)}">Search records here</a></div></div><div class="place-stats"><div class="place-stat"><strong>{len(people):,}</strong><span>People</span></div><div class="place-stat"><strong>{len(records):,}</strong><span>Records</span></div><div class="place-stat"><strong>{years[0] if years else '—'}</strong><span>Earliest record</span></div><div class="place-stat"><strong>{len(sources):,}</strong><span>Sources</span></div></div></section>
+<section><h2>People recorded here</h2><div class="place-people">{people_links}</div></section>{families_here}<section><h2>Surnames recorded here</h2><p>{' · '.join(escape(surname) for surname in surnames) or 'No surname is recorded.'}</p></section><section><h2>Records by date</h2><div class="timeline">{timeline}</div></section><section><h2>Identity not yet settled</h2><p>{unresolved_links}</p></section><section><h2>Sources</h2>{f'<ol class="source-list">{source_rows}</ol>' if source_rows else '<p class="empty-state">No source is linked to these records yet.</p>'}</section><p class="evidence-guide-link"><a href="/evidence/">How to read the evidence labels</a></p>"""
         place_schema = json.dumps({"@context": "https://schema.org", "@type": "Place", "name": name, "url": f"{SITE_URL}/places/{slug}.html"}, ensure_ascii=False).replace("</", "<\\/")
         (PLACES_DIR / f"{slug}.html").write_text(
             _page(name, f"Glasgow surname records and people associated with {name}.", body, f"/places/{slug}.html", f'<script type="application/ld+json">{place_schema}</script>'),
@@ -5761,7 +5790,7 @@ def _write_place_pages(
             "url": f"/places/{slug}.html",
         })
     (DATA_DIR / "places-index.json").write_text(json.dumps(place_index, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
-    place_body = f"""<p class="kicker">Townlands, parishes and mapped localities</p><h1>Research places</h1><p class="lede">Search {len(place_index):,} places associated with Glasgow surname people and records.</p><section class="place-search-panel"><div class="public-search-grid"><label><span>Place or surname</span><input id="place-query" type="search" placeholder="e.g. Lisnagaver, Weir or Antrim"></label><label><span>Region</span><select id="place-region"><option value="">Any region</option>{''.join(f'<option>{escape(region)}</option>' for region in sorted({place['region'] for place in place_index}))}</select></label><label><span>Earliest year</span><input id="place-from" type="number" placeholder="From"></label><label><span>Latest year</span><input id="place-to" type="number" placeholder="To"></label></div><p id="place-count" aria-live="polite">Loading places…</p></section><div id="place-results" class="place-results"></div>"""
+    place_body = f"""<p class="kicker">Townlands, parishes and mapped localities</p><h1>Research places</h1><p class="lede">Search {len(place_index):,} places associated with Glasgow surname people and records.</p><section class="place-search-panel"><div class="public-search-grid"><label><span>Place or surname</span><input id="place-query" type="search" placeholder="e.g. Lisnagaver, Weir or Antrim"></label><label><span>Region</span><select id="place-region"><option value="">Any region</option>{''.join(f'<option>{escape(region)}</option>' for region in sorted({place['region'] for place in place_index}))}</select></label><label><span>Earliest year</span><input id="place-from" type="number" placeholder="From"></label><label><span>Latest year</span><input id="place-to" type="number" placeholder="To"></label></div><p id="place-count" aria-live="polite">{len(place_index):,} places. Search above, or browse them all A–Z below.</p></section><div id="place-results" class="place-results"></div>{_places_a_to_z(place_index)}"""
     (PLACES_DIR / "index.html").write_text(
         _page("Research places", "Search townlands, parishes and mapped places in the Glasgow Surname Project.", place_body, "/places/", script='<script src="/places/search.js" defer></script>', asset_prefix="../"),
         encoding="utf-8",
