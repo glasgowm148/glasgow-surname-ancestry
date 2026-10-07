@@ -247,3 +247,23 @@ class EditorsPanelTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class WithheldUpdateTests(unittest.TestCase):
+    """A queued WikiTree update whose text names a withheld person is kept off the page."""
+
+    class _Policy:
+        @staticmethod
+        def contains_private_id(text):
+            return "Living-1" in text
+
+    def test_update_naming_a_withheld_person_is_not_rendered(self):
+        queued = {"Glasgow-1": {"profile_id": "Glasgow-1", "summary": "Add the lease.",
+                                "remote_wikitext": "Source to be added by [[Living-1|A Relative]].",
+                                "proposed_wikitext": "Biography."},
+                  "Glasgow-2": {"profile_id": "Glasgow-2", "summary": "Add the will.",
+                                "remote_wikitext": "Biography.", "proposed_wikitext": "Biography with the will."}}
+        with patch.object(renderer, "_PRIVACY_POLICY", self._Policy()), patch.object(renderer, "_PROFILE_UPDATE_CACHE", queued):
+            self.assertIsNone(renderer._profile_update_data("Glasgow-1", {}))
+            self.assertEqual("Add the will.", renderer._profile_update_data("Glasgow-2", {})["summary"])
+            self.assertEqual("", renderer._profile_update_panel(renderer._profile_update_data("Glasgow-1", {})))

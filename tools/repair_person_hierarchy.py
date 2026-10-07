@@ -200,6 +200,22 @@ ASSET = f"/assets/repair/person-hierarchy.css?v={PRESENTATION_VERSION}-{hashlib.
 # keeps only update metadata and the proposed text, while the saved capture
 # remains in the private evidence store.  Load that store here so replacing the
 # old main element does not discard the reviewable current profile and diff.
+_PRIVACY_POLICY = None
+
+
+def _update_names_withheld_person(update: dict) -> bool:
+    """True when a queued update's texts carry an identifier the site withholds."""
+    global _PRIVACY_POLICY
+    if _PRIVACY_POLICY is None:
+        try:
+            from public_privacy import from_sources
+        except ModuleNotFoundError:
+            from tools.public_privacy import from_sources
+        _PRIVACY_POLICY = from_sources()
+    texts = [str(update.get(key) or "") for key in ("summary", "remote_wikitext", "proposed_wikitext", "draft_wikitext")]
+    return _PRIVACY_POLICY.contains_private_id("\n".join(texts))
+
+
 def _profile_update_data(profile_id: str, dossier: dict) -> dict | None:
     global _PROFILE_UPDATE_CACHE
     if _PROFILE_UPDATE_CACHE is None:
@@ -224,6 +240,11 @@ def _profile_update_data(profile_id: str, dossier: dict) -> dict | None:
         update = None
     else:
         update = _PROFILE_UPDATE_CACHE.get(profile_id)
+    if update and _update_names_withheld_person(update):
+        # The captured profile text or the draft names a living person or a
+        # DNA tester: the queued change stays with the owner, off the page.
+        update = None
+        stored = {}
     if update:
         return update
     draft = str(stored.get("proposed_wikitext") or stored.get("draft_wikitext") or "")
@@ -402,7 +423,7 @@ def person_href(value: str | None, profile_id: str | None = None) -> str:
     local_path = path.split("#", 1)[0].split("?", 1)[0]
     if (local_path.startswith("/people/") and local_path.endswith(".html")
             and not (WEB / local_path.lstrip("/")).exists()
-            and profile_id and re.fullmatch(r"[A-Za-z][A-Za-z_'’\-]*-\d+", profile_id)):
+            and profile_id and re.fullmatch(r"[A-Za-z][A-Za-z_'’.\-]*-\d+", profile_id)):
         return "https://www.wikitree.com/wiki/" + profile_id
     return path
 
@@ -2690,6 +2711,12 @@ def revise(text: str, profile_id_hint: str = ""):
     source_diff = source_panel.select_one(".profile-update-diff") if source_panel else None
     preserved_panel = str(source_panel) if source_diff is not None and source_diff.name != "pre" else None
     legacy_update = _legacy_profile_update(text, profile_id)
+    # A panel is carried over from the old page only when it is fit to publish:
+    # one whose text names a living person or a DNA tester is dropped.
+    if preserved_panel and _update_names_withheld_person({"summary": source_panel.get_text(" ")}):
+        preserved_panel = None
+    if legacy_update and _update_names_withheld_person(legacy_update):
+        legacy_update = None
     updated = _replace_main(text, profile_id)
     if legacy_update:
         rendered = BeautifulSoup(updated, "html.parser")
