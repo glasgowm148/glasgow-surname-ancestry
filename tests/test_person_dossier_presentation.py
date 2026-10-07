@@ -266,7 +266,7 @@ class PersonDossierPresentationTests(unittest.TestCase):
         authored = json.loads((ROOT / "research/Glasgow-951/presentation.json").read_text())["biography_sections"]
         headings = [section.select_one("h2").get_text(" ", strip=True) for section in main.select(".dossier-reading > .dossier-section")]
         self.assertEqual(
-            ["What we know", "Mary and the six children", "A life in records", "A small Antrim neighbourhood", "Why the 1888 death is probable", "The case for John Glasgow", "The Irish–Canadian family", "DNA and the Larne hypotheses", "What could change the answer?", "Source notebook", "Sources"],
+            ["What we know", "Mary and the six children", "A life in records", "A small Antrim neighbourhood", "Why the 1888 death is probable", "The case for John Glasgow", "The Irish–Canadian family", "DNA and the Larne hypotheses", "What could change the answer?", "Connected pages", "Source notebook", "Sources"],
             headings,
         )
         for section in authored:

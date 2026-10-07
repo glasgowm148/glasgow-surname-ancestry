@@ -35,7 +35,7 @@ except ModuleNotFoundError:
 
 ROOT = Path(__file__).resolve().parents[1]
 WEB = ROOT / "www"
-PRESENTATION_VERSION = "35"
+PRESENTATION_VERSION = "36"
 _PRIVACY_CACHE = None
 
 def _public_projection(value):
@@ -175,6 +175,22 @@ CSS += r"""
 .person-hierarchy .note-table-scroll{max-width:100%;overflow-x:auto;margin:1em 0}.person-hierarchy .note-table-scroll table{border-collapse:collapse;font-size:.86rem;min-width:28rem}.person-hierarchy .note-table-scroll th,.person-hierarchy .note-table-scroll td{border:1px solid #d0dacb;padding:6px 8px;text-align:left;vertical-align:top;overflow-wrap:normal}.person-hierarchy .note-table-scroll th{background:#edf2e8}
 .person-hierarchy .finding-note{color:#617064;font-size:.88rem}.person-hierarchy .family-scope-note{max-width:74ch;color:#5b6b5d;font-size:.88rem}.person-hierarchy .panel-purpose{margin:4px 0 12px;max-width:74ch;color:#4f604f;font-size:.9rem}
 .person-hierarchy .archive-original-set h4{margin:14px 0 4px;font-size:.88rem}
+/* Connected pages: where else the site names this person (navigation, kept compact). */
+.person-hierarchy .connected-pages .connected-intro{margin:0 0 10px;max-width:74ch;color:#5b6b5d;font-size:.9rem}
+.person-hierarchy .connected-groups{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));gap:8px;align-items:start}
+.person-hierarchy .connected-group{margin:0;min-width:0;border:1px solid #d3ddce;border-radius:7px;background:#fffefa;overflow:hidden}
+.person-hierarchy .connected-group>summary{min-height:40px;padding:9px 13px;font-weight:650;font-size:.9rem}
+.person-hierarchy .connected-group>summary small{font-weight:400;white-space:nowrap}
+.person-hierarchy .connected-list{list-style:none;margin:0;padding:4px 13px 9px;font-size:.86rem;line-height:1.45}
+.person-hierarchy .connected-list li{padding:5px 0;border-top:1px solid #eef1ea;overflow-wrap:anywhere}.person-hierarchy .connected-list li:first-child{border-top:0}
+.person-hierarchy .connected-list time,.person-hierarchy .connected-list small{display:block;color:#687c67;font-size:.76rem}
+.person-hierarchy .connected-note{margin:6px 13px 0;color:#617064;font-size:.8rem;line-height:1.45}
+.person-hierarchy .connected-more{margin:0;border:0;background:transparent}.person-hierarchy .connected-more>summary{min-height:34px;padding:5px 0;font-size:.82rem;font-weight:600;background:transparent!important;border:0!important}.person-hierarchy .connected-more>.connected-list{padding:0}
+.person-hierarchy .finding-kicker{display:block;color:#687c67;font:700 .68rem/1.4 var(--g-sans,Arial,sans-serif);letter-spacing:.04em;text-transform:uppercase}
+.person-hierarchy .dossier-date-note{margin:6px 0;max-width:76ch;color:#e4d5b1!important;font-size:.88rem;line-height:1.5}.person-hierarchy .dossier-date-note a{color:inherit;text-decoration:underline;text-underline-offset:3px}
+.person-hierarchy .anchor-alias{display:block;height:0;overflow:hidden}
+@media(max-width:680px){.person-hierarchy .connected-group>summary{padding:9px 11px}.person-hierarchy .connected-list{padding:4px 11px 9px}}
+@media(min-width:681px){.person-hierarchy .dossier-header>.dossier-date-note{grid-column:1}}
 @media(max-width:680px){.person-hierarchy .finding-body{padding:4px 12px 12px;font-size:.95rem}.person-hierarchy .research-finding>summary{padding:11px 12px}.person-hierarchy .finding-contents{padding:9px 11px}}
 @media(max-width:680px){.person-hierarchy .profile-update-panel{padding:13px}.person-hierarchy .profile-update-panel .profile-update-diff{min-width:680px;font-size:12px}.person-hierarchy .profile-diff-side-label{position:static;width:auto;height:auto;margin:0;overflow:visible;clip:auto;white-space:nowrap;grid-column:1/-1;color:#687771;font:700 10px/1.3 var(--g-sans,Arial,sans-serif);letter-spacing:.04em;text-transform:uppercase}.person-hierarchy .profile-diff-cell{grid-template-columns:3em minmax(0,1fr);gap:3px 7px}.person-hierarchy .profile-diff-cell .profile-diff-line-number{grid-column:1}.person-hierarchy .profile-diff-cell .profile-diff-text{grid-column:2;grid-row:2}.person-hierarchy .profile-update-panel textarea{min-height:12rem}}
 """
@@ -876,7 +892,7 @@ def _family_html(profile_id: str, dossier: dict, model: dict, index: dict, edito
             source_links.extend(_a(link["href"], link["label"]) for link in relation.get("analysis_links", []))
             link_html = f'<div class="source-links">{" · ".join(source_links)}</div>' if source_links else ""
             claim_attr = f' data-claim-id="{escape(relation["claim_id"])}"' if relation.get("assertion_id") else ""
-            rendered.append(f'<tr data-state="{escape(_status_class(state))}"{claim_attr}><td>{person}<br><span class="relation-note">{escape(_family_dates(relation, index))}</span></td><td>{escape(relationship)}</td><td><span class="status-label status-{escape(_status_class(state))}">{escape(label)}</span></td><td>{escape(reason)}{link_html}</td></tr>')
+            rendered.append(f'<tr data-state="{escape(_status_class(state))}"{claim_attr}><td>{person}<br><span class="relation-note">{escape(_family_dates(relation, index))}</span></td><td>{escape(relationship)}</td><td>{evidence_labels.label_html(state, "state", css=f"status-label status-{_status_class(state)}", text=label)}</td><td>{escape(reason)}{link_html}</td></tr>')
         previews = []
         for item in values:
             relation = _assessed_relation(profile_id, item, key)
@@ -1760,6 +1776,71 @@ def _reader_title(title: str) -> str:
     return (value[:1].upper() + value[1:]) if value else (title or "Research note")
 
 
+_LEADING_HEADING = re.compile(r"\A(?:\s*<!--.*?-->)*\s*#{3,4}[ \t]+([^\n]+?)[ \t#]*(?:\n|\Z)", re.S)
+_RESEARCH_DATE = re.compile(r"\b(\d{1,2})\s+(" + "|".join(calendar.month_name[1:]) + r")\s+(20\d\d)\b|\b(20\d\d)-(\d\d)-(\d\d)\b")
+
+
+def _plain_heading(value: str) -> str:
+    """A Markdown heading as plain words: links, emphasis and code marks removed."""
+    value = _WIKI_LINK_TEXT.sub(lambda m: m.group(2) or m.group(3) or "", value)
+    value = re.sub(r"!?\[([^\]]*)\]\([^)]*\)", r"\1", value)
+    value = re.sub(r"[*_`]+", "", value)
+    value = re.sub(r"\s*\bfmp-glasgow-[0-9a-f]+\b", "", value)
+    return re.sub(r"\s{2,}", " ", value).strip(" —–-,:")
+
+
+def _finding_heading(markdown_text: str) -> tuple[str, str]:
+    """The section's own leading ``###`` heading, and the body without it ('' when none)."""
+    match = _LEADING_HEADING.match(markdown_text or "")
+    if not match:
+        return "", markdown_text
+    heading = _plain_heading(match.group(1))
+    if not heading:
+        return "", markdown_text
+    return heading, markdown_text[match.end():].lstrip("\n")
+
+
+def _research_date_in(markdown_text: str) -> str:
+    """The first date of this century in a section body (when the finding was made), as words."""
+    match = _RESEARCH_DATE.search(markdown_text or "")
+    if not match:
+        return ""
+    if match.group(1):
+        return f"{int(match.group(1))} {match.group(2)} {match.group(3)}"
+    return _reader_date_text(match.group(0))
+
+
+def _finding_labels(entries: list[dict]) -> dict[str, tuple[str, str, str]]:
+    """Per anchor: (visible label, small kicker, body markdown).
+
+    A section that opens with its own ``###`` heading is labelled by that
+    heading, with the category wording kept as a kicker. Otherwise, where
+    several sections share one heading, the date the finding was made is
+    added when the heading or body gives one. Anchors are never changed.
+    """
+    labels, plain = {}, []
+    for entry in entries:
+        title = _reader_title(entry["title"])
+        heading, body = _finding_heading(entry["markdown"])
+        if heading:
+            same = heading.casefold() == title.casefold()
+            labels[entry["anchor"]] = (heading, "" if same else title, body)
+        else:
+            labels[entry["anchor"]] = (title, "", entry["markdown"])
+            plain.append(entry)
+    counts = defaultdict(int)
+    for entry in plain:
+        counts[labels[entry["anchor"]][0].casefold()] += 1
+    for entry in plain:
+        title, kicker, body = labels[entry["anchor"]]
+        if counts[title.casefold()] < 2 or _title_date(entry["title"])[0]:
+            continue
+        found = _research_date_in(entry["markdown"])
+        if found:
+            labels[entry["anchor"]] = (f"{title}, {found}", kicker, body)
+    return labels
+
+
 def _wrap_tables(html: str) -> str:
     """Let wide tables scroll inside their own box on narrow screens."""
     if "<table" not in html:
@@ -1816,6 +1897,7 @@ def _research_findings_html(profile_id: str, dossier: dict, editorial: dict, ent
     }
     grouped["notes"] = [entry for entry in shown if entry["category"] not in {"conclusion", "sources", "assessment", "actions"}]
     opening_markdown = str(editorial.get("opening_markdown") or "").strip()
+    labels = _finding_labels(shown)
     budget = 0
     blocks, contents = [], []
     for key, heading, intro in _FINDING_GROUPS:
@@ -1829,7 +1911,7 @@ def _research_findings_html(profile_id: str, dossier: dict, editorial: dict, ent
         elif intro:
             blocks.append(f'<p class="finding-group-intro">{escape(intro)}</p>')
         for entry in items:
-            markdown_text = entry["markdown"]
+            title, kicker, markdown_text = labels[entry["anchor"]]
             note = ""
             if key == "summary" and len(items) == 1 and opening_markdown and opening_markdown in markdown_text:
                 # The first paragraph already opens the page; show the rest here.
@@ -1842,7 +1924,7 @@ def _research_findings_html(profile_id: str, dossier: dict, editorial: dict, ent
                        or (budget < _FINDINGS_OPEN_BUDGET and len(plain) <= _FINDING_LONG))
             if is_open:
                 budget += len(plain)
-            title = _reader_title(entry["title"])
+            kicker_html = f'<span class="finding-kicker">{escape(kicker)}</span>' if kicker else ""
             preview = ""
             if not is_open:
                 sentence = re.split(r"(?<=[.!?])\s", plain, maxsplit=1)[0]
@@ -1851,7 +1933,7 @@ def _research_findings_html(profile_id: str, dossier: dict, editorial: dict, ent
             contents.append(f'<li><a href="#{escape(entry["anchor"])}">{escape(title)}</a></li>')
             blocks.append(
                 f'<details class="research-finding" id="{escape(entry["anchor"])}" data-category="{escape(key)}"{" open" if is_open else ""}>'
-                f'<summary><span class="finding-title">{escape(title)}</span>{preview}</summary>'
+                f'<summary>{kicker_html}<span class="finding-title">{escape(title)}</span>{preview}</summary>'
                 f'<div class="finding-body">{note}{body}</div></details>'
             )
     revised = _findings_revised_text(dossier)
@@ -1862,10 +1944,193 @@ def _research_findings_html(profile_id: str, dossier: dict, editorial: dict, ent
             f'{revised_html}{contents_html}{"".join(blocks)}</section>')
 
 
-def _connected_pages_html(profile_id: str, dossier: dict) -> str:
-    """Hook for the 'Connected pages' block (family or study page, places,
-    source library, Latest findings).  Another lane builds the index it will
-    read; until then it renders nothing."""
+def _person_links(profile_id: str) -> dict:
+    """The reverse-link index entry for one person (``tools.build_backlinks``)."""
+    try:
+        from tools.build_backlinks import load_person_links
+    except ModuleNotFoundError:
+        from build_backlinks import load_person_links
+    try:
+        return load_person_links(profile_id) or {}
+    except (OSError, ValueError, KeyError):
+        return {}
+
+
+_CONNECTED_OPEN_LIMIT = 12   # entries in all groups together that still show without a click
+_CONNECTED_VISIBLE = {"studies": 6, "places": 6, "sources": 5, "findings": 3, "research": 5, "mentioned_by": 8}
+
+
+def _connected_list(items: list[str], visible: int, noun: str) -> str:
+    """A short list; anything beyond ``visible`` sits behind a 'Show N more' disclosure.
+
+    A single extra item is simply shown: a disclosure for one line saves nothing.
+    """
+    if len(items) <= visible + 1:
+        visible = len(items)
+    shown = "".join(f"<li>{item}</li>" for item in items[:visible])
+    rest = items[visible:]
+    if rest:
+        more = "".join(f"<li>{item}</li>" for item in rest)
+        shown += (f'<li><details class="connected-more"><summary>Show {len(rest)} more {escape(noun)}</summary>'
+                  f'<ul class="connected-list">{more}</ul></details></li>')
+    return f'<ul class="connected-list">{shown}</ul>'
+
+
+def _connected_pages_html(profile_id: str, dossier: dict, *, has_sources: bool = False) -> str:
+    """'Connected pages': the other pages of the site that name this person.
+
+    Read from the reverse-link index (``tools.build_backlinks``).  Prints
+    nothing when the index or the person is missing.  Each group is a
+    disclosure: all open when the block is small, closed to a count per group
+    when it is large, so it works without JavaScript and at phone width.
+    """
+    links = _person_links(dossier.get("id") or profile_id)
+
+    def entry(row: dict, extra: str = "") -> str:
+        title = str(row.get("title") or "").strip()
+        url = str(row.get("url") or "").strip()
+        if not title or not url:
+            return ""
+        return _a(url, title) + extra
+
+    groups = []  # (key, label, count text, items, note)
+    studies = [value for value in (entry(row) for row in links.get("studies") or []) if value]
+    if studies:
+        # Family-group pages come from member lists; any other study page may
+        # name the person only to discuss (or rule out) a connection.
+        discussed = any(not str(row.get("title") or "").startswith("Family group:") for row in links.get("studies") or [])
+        groups.append(("studies", "Family and study pages", f"{len(studies)} {'page' if len(studies) == 1 else 'pages'}", studies,
+                       "A study page may discuss this person without placing them in that family." if discussed else ""))
+    places = [value for value in (entry(row) for row in links.get("places") or []) if value]
+    if places:
+        groups.append(("places", "Places", f"{len(places)} {'place' if len(places) == 1 else 'places'}", places, ""))
+    sources = [value for value in (entry(row) for row in links.get("sources") or []) if value]
+    if sources:
+        total = max(int(links.get("sources_total") or 0), len(sources))
+        note = ""
+        if total > len(sources):
+            note = f"The first {len(sources)} of {total} source pages are listed here."
+            if has_sources:
+                note += ' Every record is listed under <a href="#sources">Sources</a> below.'
+        groups.append(("sources", "Sources", f"{total} source {'page' if total == 1 else 'pages'}", sources, note))
+    findings = []
+    for row in links.get("findings") or []:
+        date_text = _reader_date_text(row.get("date"))
+        stamp = f'<time datetime="{escape(str(row.get("date") or ""))}">{escape(date_text)}</time>' if date_text else ""
+        value = entry(row)
+        if value:
+            findings.append(stamp + value)
+    if findings:
+        groups.append(("findings", "Latest findings about this person", f"{len(findings)} {'finding' if len(findings) == 1 else 'findings'}", findings, ""))
+    research = [value for value in (entry(row) for row in links.get("research") or []) if value]
+    if research:
+        groups.append(("research", "Research and WikiTree study pages", f"{len(research)} {'page' if len(research) == 1 else 'pages'}", research, ""))
+    by_person: dict[str, dict] = {}
+    for row in links.get("mentioned_by") or []:
+        ident = str(row.get("id") or "").strip()
+        url = str(row.get("url") or "").strip()
+        if not ident or not url:
+            continue
+        person = by_person.setdefault(ident, {"name": str(row.get("name") or ident).strip(), "rows": []})
+        person["rows"].append(row)
+    mentions = []
+    names = defaultdict(int)
+    for person in by_person.values():
+        names[person["name"].casefold()] += 1
+    ordered = sorted(by_person.items(), key=lambda pair: (-len(pair[1]["rows"]), pair[1]["name"].casefold(), pair[0].casefold()))
+    section_total = 0
+    for ident, person in ordered:
+        rows = person["rows"]
+        section_total += len(rows)
+        first_url = str(rows[0].get("url") or "")
+        page_url = first_url.split("#", 1)[0]
+        in_research = [row for row in rows if not _ARCHIVAL_TITLE.match(str(row.get("section") or ""))]
+        href = first_url if len(rows) == 1 or not in_research else f"{page_url}#research-findings"
+        titles = "; ".join(dict.fromkeys(_reader_title(str(row.get("section") or "")) for row in rows))
+        label = person["name"] + (f" ({ident})" if names[person["name"].casefold()] > 1 else "")
+        count = f"{len(rows)} {'section' if len(rows) == 1 else 'sections'} of notes"
+        mentions.append(f'<a href="{escape(href, quote=True)}" title="{escape(titles, quote=True)}">{escape(label)}</a><small>{escape(count)}</small>')
+    if mentions:
+        people = f"{len(mentions)} {'person' if len(mentions) == 1 else 'people'}"
+        groups.append(("mentioned_by", "Mentioned in other people's research", people, mentions, ""))
+    if not groups:
+        return ""
+    size = sum(len(items) for _, _, _, items, _ in groups)
+    is_open = size <= _CONNECTED_OPEN_LIMIT
+    nouns = {"studies": "pages", "places": "places", "sources": "source pages", "findings": "findings",
+             "research": "pages", "mentioned_by": "people"}
+    blocks = []
+    for key, label, count, items, note in groups:
+        note_html = f'<p class="connected-note">{note}</p>' if note else ""
+        blocks.append(
+            f'<details class="connected-group" data-group="{escape(key)}"{" open" if is_open else ""}>'
+            f'<summary>{escape(label)} <small>{escape(count)}</small></summary>'
+            f'{note_html}{_connected_list(items, _CONNECTED_VISIBLE.get(key, 6), nouns.get(key, "pages"))}</details>'
+        )
+    name = str(dossier.get("name") or "").strip()
+    who = escape(name) if name and "withheld" not in name.casefold() else "this person"
+    intro = f"Other pages on this site that name {who}: family studies, places, source pages and other people's research."
+    if not is_open:
+        intro += " Open a group to see its pages."
+    return (f'<section id="connected-pages" class="dossier-section connected-pages"><h2>Connected pages</h2>'
+            f'<p class="connected-intro">{intro}</p><div class="connected-groups">{"".join(blocks)}</div></section>')
+
+
+_LEGACY_ANCHORS = (
+    # Older family-group pages link "Read the full case" to #research and
+    # "full relationship record" to #imported-identity; keep both landing.
+    ("research", ("research-findings", "overview")),
+    ("imported-identity", ("family", "overview")),
+)
+
+
+def _with_legacy_anchors(html: str) -> str:
+    """Add an empty anchor for an id older pages link to, beside its successor section."""
+    for alias, targets in _LEGACY_ANCHORS:
+        if f'id="{alias}"' in html:
+            continue
+        for target in targets:
+            start = html.find(f'id="{target}"')
+            if start < 0:
+                continue
+            tag_start = html.rfind("<", 0, start)
+            tag_end = html.find(">", start) + 1
+            insert_at = tag_end
+            if html.startswith("<details", tag_start):
+                summary_end = html.find("</summary>", tag_end)
+                if summary_end >= 0:
+                    insert_at = summary_end + len("</summary>")
+            html = html[:insert_at] + f'<span id="{alias}" class="anchor-alias" aria-hidden="true"></span>' + html[insert_at:]
+            break
+    return html
+
+
+_CORRECTION_FIELD = re.compile(r"\*\*(Birth|Death):\s*([^*]+?)\s*\*\*")
+
+
+def _recommended_date_note(entries: list[dict], vitals: dict) -> str:
+    """A plain note under the headline dates when the research recommends other vital dates.
+
+    Only for a published section whose heading begins 'Recommended correction'
+    and which states a ``**Birth: …**`` or ``**Death: …**`` proposal that
+    differs from the date the headline shows.  Quotes the proposal; changes
+    no data.
+    """
+    for entry in entries:
+        if entry.get("archival") or not re.match(r"\s*recommended correction\b", entry.get("title") or "", re.I):
+            continue
+        parts = []
+        for kind, proposal in _CORRECTION_FIELD.findall(entry.get("markdown") or ""):
+            proposal = re.sub(r"\s+", " ", proposal).strip().rstrip(".:;, ")
+            if not proposal or len(proposal) > 110:
+                continue
+            shown = str(((vitals or {}).get(kind.casefold()) or {}).get("date") or "").strip()
+            if proposal.casefold().replace("about ", "c. ") == shown.casefold():
+                continue
+            parts.append(f"the {kind.casefold()} as \u201c{escape(proposal)}\u201d")
+        if parts:
+            return (f'<p class="dossier-date-note">The research recommends recording {_join_words(list(dict.fromkeys(parts)))}. '
+                    f'<a href="#{escape(entry["anchor"])}">See the recommended correction</a>.</p>')
     return ""
 
 
@@ -2139,8 +2404,11 @@ def render_person_dossier(profile_id: str) -> str:
     overview_facts = "" if compact else f'<div class="dossier-facts">{facts}</div>'
     journey = _account_journey(guide.get("journey")) if compact else ""
     sections = [f'<section id="overview" class="dossier-section"><h2>{escape(overview_title)}</h2><p class="dossier-lede">' + lede_html + '</p>' + state_note + guide_html + overview_facts + journey + '</section>']
-    connected = _connected_pages_html(profile_id, dossier)
-    if connected:
+    connected = _connected_pages_html(profile_id, dossier, has_sources=has_sources)
+    if connected and not compact:
+        # After the opening, before the research: a reader sees at once where
+        # else the site names this person.  A story page keeps its narrative
+        # together and shows the block after the story (below).
         sections.append(connected)
         section_nav += '<a href="#connected-pages">Connected pages</a>'
         toc_nav += '<a href="#connected-pages">Connected pages</a>'
@@ -2168,6 +2436,10 @@ def render_person_dossier(profile_id: str) -> str:
                     sections.append(trail)
                     section_nav += '<a href="#record-trail">Life in records</a>'
                     toc_nav += '<a href="#record-trail">Life in records</a>'
+    if connected and compact:
+        sections.append(connected)
+        section_nav += '<a href="#connected-pages">Connected pages</a>'
+        toc_nav += '<a href="#connected-pages">Connected pages</a>'
     biography_sections = _biography_sections_html(
         dossier.get("id") or profile_id, editorial,
         used_ids,
@@ -2274,7 +2546,8 @@ def render_person_dossier(profile_id: str) -> str:
     locality_html = f'<p class="dossier-locality">{locality_value}</p>' if locality else ""
     assessment_meta = f'<span>Research last reviewed <time>{escape(_reader_date_text(assessment_date))}</time></span>' if assessment_date else ""
     kicker = f'{"Researched biography" if (has_findings or authored or compact) else "WikiTree profile"} · {profile_id}'
-    identity = f'<p class="kicker">{escape(kicker)}</p><h1>{escape(name)}</h1><p class="dossier-life">{escape(life)}</p>{locality_html}'
+    date_note = _recommended_date_note(finding_entries, {kind: (model_vitals.get(kind) or vitals.get(kind) or {}) for kind in ("birth", "death")})
+    identity = f'<p class="kicker">{escape(kicker)}</p><h1>{escape(name)}</h1><p class="dossier-life">{escape(life)}</p>{date_note}{locality_html}'
     meta_html = f'<div class="dossier-meta">{assessment_meta}{DOSSIER_GUIDE_META}</div>'
     actions_html = f'<div class="dossier-actions">{"".join(actions)}</div>'
     header = identity + meta_html + actions_html
@@ -2288,7 +2561,7 @@ def render_person_dossier(profile_id: str) -> str:
         header = f'<div class="dossier-identity">{identity}{finding}{actions_html}' + ('' if notebook else meta_html) + '</div>' + _header_record_html(profile_id, editorial.get("header_record") or {})
         if isinstance(guide.get("primary_nav"), list):
             nav = BeautifulSoup(section_nav, "html.parser")
-            selected = set(str(value) for value in guide["primary_nav"])
+            selected = set(str(value) for value in guide["primary_nav"]) | {"connected-pages"}
             section_nav = ''.join(str(link) for link in nav.select("a") if link.get("href", "").removeprefix("#") in selected)
     reader_tools = ''
     if compact:
@@ -2297,7 +2570,21 @@ def render_person_dossier(profile_id: str) -> str:
         # Move the original controls intact; existing IDs and handlers survive.
         script += '''<script>(function(){function place(){var target=document.querySelector("[data-reading-tools]"),context=document.getElementById("r-context");if(!target||!context)return false;target.hidden=false;if(!target.contains(context))target.appendChild(context);return true;}function init(){if(place())return;var observer=new MutationObserver(function(){if(place())observer.disconnect();});observer.observe(document.getElementById("g-page")||document.body,{childList:true,subtree:true});}if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",init);else init();})();</script>'''
     admin = f'<div class="study-admin">{meta_html}</div>' if notebook else ''
-    return f'''<nav class="crumb"><a href="/catalogue/">People</a> / {escape(name)}</nav><article class="person-dossier-readable" data-dossier-presentation="{PRESENTATION_VERSION}"{layout_attribute}><header class="dossier-header">{header}</header><nav class="dossier-nav" aria-label="On this page">{section_nav}</nav><div class="dossier-layout"><aside class="dossier-toc" aria-label="On this page">{toc_nav}</aside><div class="dossier-reading">{"".join(sections)}{reader_tools}{admin}{_archive_html(profile_id, dossier, editorial, "".join(supplements), include_prepared_draft=not bool(profile_update_panel), findings_shown=bool(findings_html))}</div></div></article>{script}'''
+    # The top bar carries the one breadcrumb (Home / People / name): no in-page crumb.
+    return f'''<article class="person-dossier-readable" data-dossier-presentation="{PRESENTATION_VERSION}"{layout_attribute}><header class="dossier-header">{header}</header><nav class="dossier-nav" aria-label="On this page">{section_nav}</nav><div class="dossier-layout"><aside class="dossier-toc" aria-label="On this page">{toc_nav}</aside><div class="dossier-reading">{_with_legacy_anchors("".join(sections) + reader_tools + admin + _archive_html(profile_id, dossier, editorial, "".join(supplements), include_prepared_draft=not bool(profile_update_panel), findings_shown=bool(findings_html)))}</div></div></article>{script}'''
+
+
+def _set_top_bar_crumbs(soup: BeautifulSoup, profile_id: str, name: str) -> None:
+    """Write the site's one breadcrumb (Home / People / name) into the top bar."""
+    crumbs = soup.select_one(".g-bar .g-crumbs")
+    if crumbs is None:
+        return
+    try:
+        from tools.repair_primary_navigation import render_breadcrumbs
+    except ModuleNotFoundError:
+        from repair_primary_navigation import render_breadcrumbs
+    markup = render_breadcrumbs(Path("people") / f"{profile_id.casefold()}.html", escape(name))
+    crumbs.replace_with(BeautifulSoup(markup, "html.parser"))
 
 
 def _ensure_unified_person_shell(soup: BeautifulSoup, profile_id: str) -> BeautifulSoup:
@@ -2329,10 +2616,9 @@ def _ensure_unified_person_shell(soup: BeautifulSoup, profile_id: str) -> Beauti
         template.head.append(tag)
     if not template.select_one('link[href^="/assets/repair/person-hierarchy.css"]'):
         template.head.append(template.new_tag("link", rel="stylesheet", href=ASSET))
-    crumbs = template.select_one(".g-bar .g-crumbs strong")
     name = main.select_one("h1")
-    if crumbs and name:
-        crumbs.string = name.get_text(" ", strip=True)
+    if name:
+        _set_top_bar_crumbs(template, profile_id, name.get_text(" ", strip=True))
     for link in template.select(".g-nav-link[aria-current]"):
         del link["aria-current"]
     people_link = template.select_one('.g-nav-link[href="/catalogue/"]')
@@ -2354,9 +2640,7 @@ def _replace_main(text: str, profile_id: str) -> str:
     soup.body["data-g-path"] = f"/people/{profile_id.casefold()}.html"
     name_node = main.select_one("h1")
     name = name_node.get_text(" ", strip=True) if name_node else profile_id
-    bar_label = soup.select_one(".g-bar .g-crumbs strong")
-    if bar_label:
-        bar_label.string = name
+    _set_top_bar_crumbs(soup, profile_id, name)
     for link in soup.select(".g-nav-link[aria-current]"):
         del link["aria-current"]
     people_link = soup.select_one('.g-nav-link[href="/catalogue/"]')
@@ -2407,6 +2691,12 @@ def revise(text: str, profile_id_hint: str = ""):
 
 def repair(profile_ids=None):
     global _INDEX_CACHE
+    if not profile_ids:  # a full pass; a single-person refresh reuses the current index
+        try:
+            from tools.build_backlinks import write_index
+        except ModuleNotFoundError:
+            from build_backlinks import write_index
+        write_index(WEB)
     publish(WEB)
     _refresh_reviewed_parentage(profile_ids)
     _INDEX_CACHE = None

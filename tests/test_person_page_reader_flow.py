@@ -187,6 +187,7 @@ class PageOrderTests(SiteCase):
             patch.object(renderer, "_research_html", return_value=""),
             patch.object(renderer, "_profile_update_data", return_value=None),
             patch.object(renderer, "_profile_update_panel", return_value=update_panel),
+            patch.object(renderer, "_person_links", return_value={}),
         ):
             return BeautifulSoup(renderer.render_person_dossier("Glasgow-1"), "html.parser")
 
