@@ -281,3 +281,12 @@ The kit submitted for this Robert's line still has no SNP result, and neither ha
 The recommendation of 6 October 2026 is, first and at no cost, to obtain through the project administrator the paper descent behind both kits. Robert's only documented son is James Glasgow-1144, so the question is through which of James's sons each kit runs, and whether either runs through Archibald Glasgow-2304. Then upgrade this line's kit to Big Y-700, and the second kit too if it descends through a different son of James-1144: agreement between two lines guards against a broken pedigree.
 
 A result that is FT25406-positive and FT20271-negative would put this family outside FT20271, assuming the testers' reported pedigrees are correct. A result inside FT20271 is consistent with any route and proves none. No result can name a father. [Full recommendation](/people/glasgow-951.html#next-research).
+
+<!-- repo-integration-audit-2026-10-07:L10-004 -->
+## Source findings — Y-STR comparison with the R-FT20271 lines, 12 August 2026
+
+A marker-only comparison of the 111-marker result reported for this Robert's line against reconstructed R-FT20271 anchors ([FamilyTreeDNA Glasgow Project public Y-STR table](https://www.familytreedna.com/public/Glasgow?iframe=yresults), with rows supplied by the project administrator) found it nine allele steps from the nearest anchor, the Robert c.1780 line (`Glasgow-2769`), and ten from both the Alexander `Glasgow-951` line and the reconstructed Robert `Glasgow-12` family. It carries DYS714=26, not the DYS714=27 shared by the Alexander and Robert c.1780 lines, and DYS19=14, DYS456=17 and DYS712=20, not the `Glasgow-12` family values of 15, 16 and 19. Seen as a derivative analysis of project-table values.
+
+The analysis grades the classification unresolved: a one-step margin between anchors decides nothing. The comparison shows no close STR pairing with any tested FT20271 line. It neither places nor excludes this line; only an SNP result can do that (see the testing recommendation of 6 October 2026 above).
+
+Recorded in `ydna/marker_only_classification.md` (12 August 2026); carried into this file on 7 October 2026.

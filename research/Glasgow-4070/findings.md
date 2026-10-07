@@ -147,3 +147,12 @@ FamilySearch full-text searches for Robert and James Dysart at Rasharkin found t
 All three were seen as FamilySearch full-text transcriptions, not original images. The source calls them geographic and contextual leads only. Next: compare these men with James Dysart's 1881 will and the Dysart baptisms at Granagh and Crushybracken (1837–1846) before naming any of them as Jane's children.
 
 Recorded in `research/nancy-glasgow-plattsburgh/full-text-search-2026-09-15.md` (15 September 2026); carried into this file on 7 October 2026.
+
+<!-- repo-integration-audit-2026-10-07:L06b-003 -->
+## Source findings — New Zealand residents named in the 1892 probate citation, 30 September 2026
+
+The probate citation in Nancy's estate, dated 14 January 1892 and printed in the *Plattsburgh Republican* (23 and 30 January and 13 February 1892; transcription in `sources/plattsburgh_republican_citation_1892_transcription.md`) and the [*Plattsburgh Sentinel*, 26 February 1892, p.6](https://www.nyshistoricnewspapers.org/?a=d&d=plts18920226-01.1.6), also names **Martha Dysart and Elizabeth Weir, "both of whom reside at Canterbury, New Zealand"**, and **Mary Jane, daughter of Jane Dysart, "supposed to be living at Canterbury, New Zealand"**. These complete the residences listed above (Rasharkin, Ballymena, Gortahar, West Troy).
+
+The citation lists them among the people cited as heirs or next of kin but does not state how Martha Dysart or Elizabeth Weir were related to Nancy; that they belong to Jane (Glasgow) Dysart's family is an inference. The profile draft links Mary Jane to Dysart-1845 (Mary Jane (Dysart) Hampton); that identification comes from the draft, not from the citation. Glasgow-951's findings record New Zealand indexes for a Mary Jane Dysart who married Christopher Hampton in 1871 and a Mary Jane Hampton who died in 1881, and leave her identity with the 1837 Rasharkin child unresolved; if she is the same woman, the citation's "supposed to be living" was out of date. The New Zealand entries are a lead for the Dysart branch, not evidence for Nancy's parentage.
+
+Recorded in `research/profile-preservation-audit-2026-09-30/Glasgow-4070-reconciled.wiki` (30 September 2026); carried into this file on 7 October 2026.

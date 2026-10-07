@@ -24,3 +24,12 @@ Glasgow-3127 is a strong compatible Royal Artillery candidate: its live biograph
 ## Relationship assessment — newspaper identity review, 6 October 2026
 
 - Glasgow-3785 (George Mark Glasgow) — son of (hypothesis) — Lt-Gen George Glasgow RA (d. 1820; no WikiTree profile) and Margaret Green: **research note only** (WikiTree now: not linked (father has no profile)). No record states it. Context only: DCB (father at Quebec from Oct 1794, eight children born in Canada) + 3785's Quebec birth 15 Feb 1795 + same RA corps. Needs the Quebec Anglican baptism (Holy Trinity, 1795). ([The Waterford Mirror, 1825-02-14, p.3](https://www.newspapers.com/image/60324711/))
+
+<!-- repo-integration-audit-2026-10-07:L06b-001 -->
+## Source findings — Royal Artillery promotion, 16 January 1837
+
+An Office of Ordnance list dated 16 January 1837 names First Lieutenant George Mark Glasgow, Royal Artillery, to be Second Captain, vice Freer; George Carter Evelegh succeeds him as First Lieutenant. It was reprinted in [Freeman’s Journal and Daily Commercial Advertiser, 21 January 1837, p.2](https://www.newspapers.com/image/1050121684/) and [Belfast News-Letter, 24 January 1837, p.1](https://www.newspapers.com/image/390543080/) (original newspaper images, read in the 6 October 2026 newspaper identity review). The notice gives no age, birthplace or family.
+
+The step fills the gap between the 1824–25 lieutenancy notices and the 1843 captaincy recorded above. The ledger grades the officer as probably Glasgow-3127 and very probably also this profile (a likely duplicate pair, merge not yet reviewed); the same promotion is recorded in [Glasgow-3127's findings](../Glasgow-3127/findings.md).
+
+Recorded in `research/latest-findings.json` (entry newspaper-identity-1050121684, 6 October 2026); carried into this file on 7 October 2026.

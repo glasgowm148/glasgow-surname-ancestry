@@ -56,3 +56,12 @@ admission proves George as father but does not name her mother.
 Barbara `Glasgow-567` is not a proved sister. The protocols establish George's
 parents but do not name Barbara; detach any sibling relationship inferred only
 from the shared surname.
+
+<!-- repo-integration-audit-2026-10-07:L08b-003 -->
+## Source findings — George Glasgw's land south of the market cross, 15 October 1599
+
+Robert Renwick, ed., *Abstracts of Protocols of the Town Clerks of Glasgow*, protocol 3586, 15 October 1599 (probably vol. 11, which holds protocol 3492 above; the copied text suggests about printed p. 138): Thomas Thomsone, cordiner, citizen, and Agnes Andro, spouses, sold to Henry Wilsone, merchant, a back tenement with hall, chamber and stable, on the west side of the street leading from the market cross to the South Nether Port, between the lands of the late John Craig on the east, "of George Glasgw on the west", of John Gilliane on the south and the common close on the north. Seen as OCR text of the printed abstract pasted into the owner's early notes; volume and page have not been rechecked.
+
+The entry gives no description of George. Its attribution to this George is **possible** only, on the same name, burgh and date: eleven months earlier protocol 3492 names George Glasgw, dwelling in Glasgow, in his marriage contract. The owner filed the extract with notes on his daughter Margaret. Check the volume and page in Renwick, and look for George's own title to the land, before relying on it.
+
+Recorded in `archive/dump/TheGlasgows.md` (Checkvist export, 10 March 2025); carried into this file on 7 October 2026.

@@ -18,7 +18,7 @@ record names no child. It therefore does not prove this father-son edge.
 | Thomson, *A Cloud of Witnesses*, local copy `../../surname-research/pre-1700/sources/thomson_cloud_of_witnesses.pdf` | John Glasgow of Cavers is listed without parents. | Does not support Glasgow-1498 as this man's son. |
 | FamilySearch `X11X-46N` | Names William Glasgo as Margaret's father at Hawick; does not name William's parents. | Does not support Glasgow-2731 as this man's son. |
 | Grant, *Commissariot Record of Lanark*, p. 38, local copy `../Glasgow-591/sources/commissariot_of_lanark_testament_index_1595-1800.pdf` | Indexes John Glasgow in Quodquen on 27 May 1650, 13 January 1662 and 25 March 1685. | At least three deceased estates; originals required to establish relationships and distinguish identities. |
-| NRS CC14/5/12, images 67–68 | The 1685 John of Quothquan had widow Jonet; no child is named. | Negative for using this testament to prove Glasgow-3331 as his son. The separate 1662 original remains the relevant test. |
+| NRS CC14/5/12, images 67–68 | The 1685 John of Quothquan had widow Jonet; no child is named. | Negative for using this testament to prove Glasgow-3331 as his son. The separate 1662 original, read on 10 September 2026, does not support the lawful-son reading either (see below). |
 
 ## Potential-father review — 10 August 2026
 
@@ -28,3 +28,12 @@ father. He belongs in the identity summary, not as an alternative potential
 father. The profile narrative says the 1662 testament names the younger John
 as lawful son and executor, but retains a palaeographic warning; this remains
 a source-verification question rather than an automated candidate.
+
+<!-- repo-integration-audit-2026-10-07:L03b-001 -->
+## Source findings — the 1662 Quothquan testament read from the original, 10 September 2026
+
+The original of John Glasgow's Lanark testament dative and inventory (National Records of Scotland, Lanark Commissary Court, CC14/5/6, images 138–139; [ScotlandsPeople wills](https://www.scotlandspeople.gov.uk/search-records/legal-records/wills); indexed 13 January 1662) was inspected in full on 10 September 2026 and re-read the same day. It concerns the late John Glasgow in Quodquen (Quothquan), Libberton parish, sheriffdom of Lanark, who died in 1661; the month is illegible. The giver-up in the executor-dative passage reads as **Thomas Glasgow** (moderate confidence); the words after his name, and his exact capacity, are unread. James Hamilton appears only as commissary of Lanark.
+
+Both reviews rejected the earlier reading 'John Glasgow lawfull sone' at the head of image 139: no kinship word is legible there. The original therefore does not support the profile narrative's statement, noted above, that this testament names the younger John as lawful son and executor. It supplies no parent–child relationship and no identity bridge to Glasgow-3331 or Glasgow-1086; the reviewers keep the 1650, 1661/62 and 1685 Quothquan Johns as separate record-defined people. Grade: unresolved. This is not proof that Glasgow-3331 was not the deceased's son.
+
+Recorded in `research/transcriptions/originals-2026-09-10-reread/john-lanark-1662.json` (10 September 2026); carried into this file on 7 October 2026.

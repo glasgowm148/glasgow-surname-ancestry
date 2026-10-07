@@ -173,3 +173,12 @@ Sources: [Belfast News-Letter, 21 August 1840, p.2](https://www.newspapers.com/i
 James Glasgow died on 30 June 1890 at Dunavon, Portadown, in Lurgan registration district. The civil registration describes him as an 85-year-old widower, Presbyterian minister and Doctor of Divinity, and records his son-in-law John Acheson as present at the death ([GRO Ireland register image](https://civilrecords.irishgenealogy.ie/churchrecords/images/deaths_returns/deaths_1890/06100/4740942.pdf); [GRONI death index](https://geni.nidirect.gov.uk/search/death), D/1890/176/1021/16/104). The age agrees with the 1805 birth, and the son-in-law description supports Harriet Glasgow's marriage to John Acheson. Cited in the reviewed biography; the image was not re-examined for this note. Grade: proved for the death.
 
 Recorded in `research/Glasgow-1780/Glasgow-1780.md` (4 October 2026); carried into this file on 7 October 2026.
+
+<!-- repo-integration-audit-2026-10-07:L06b-002 -->
+## Identity assessment — Rev. A. J. Glasgow, Belfast, 8 April 1841
+
+The [Belfast News-Letter, 20 April 1841, p.2](https://www.newspapers.com/image/390557883/) reports that at an entertainment for Robert L. Rogers, retiring teacher of elocution, held in Belfast on 8 April 1841, the Rev. A. J. Glasgow spoke on elocution for candidates for the ministry (original newspaper image). The report gives no forename, congregation, age or family.
+
+The review of 5 October 2026 grades James Glasgow-1780 as **unlikely** for this speaker. The Dictionary of Ulster Biography places him at Bombay from 26 February 1841, and his daughter Margaret Jane, who died at Rajkote on 11 June 1841 aged two months and 26 days (see the death notice above), was born about 16 March 1841, by inference in India. Adam Dickie Glasgow-1781 remains a possible but conflicted candidate (the printed J against D in other notices); the speaker is unidentified. This is a negative result for James, not a proof.
+
+Recorded in `research/latest-findings.json` (entry rev-aj-glasgow-belfast-speech-1841, 5 October 2026); carried into this file on 7 October 2026.

@@ -40,3 +40,12 @@ or address, and therefore does not establish this identity.
 Make no profile amendment without an independent sailor/London identifier.
 
 See the [graph-claim audit](../../surname-research/pre-1700/graph-claim-audit-2026-07-27.md).
+
+<!-- repo-integration-audit-2026-10-07:L03b-006 -->
+## Identity assessment — Hugh Glasgow, preacher of the gospel, 1677
+
+A printed Register of Deeds index (*Register of Deeds, 1677. Name and Designation*, vol. XVII, p. 80; FamilySearch item #007830797, Item 3, image 48, [Scotland. Land Records 1677](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS39-S9V2-4)) names Hugh Glasgow, preacher of the gospel, as grantee in a deed recorded on 8 March 1677 (Durie Office, vol. 42, p. 148; National Records of Scotland RD3/42). Seen as an index image; the deed itself has not been read. The full-text scan of 22–23 September 2026 lists this profile as one of several unresolved candidates, with Glasgow-1603 (where the entry is attached as a possible match) and Hew-1066.
+
+The entry gives no residence or family. It fits this profile only if the Irvine father of 1696 was already an adult in 1677. Inference: if this Hugh is the same man as Glasgow-1067, baptised in 1676, he cannot be the 1677 preacher. Grade: possible at most; nothing is attached here.
+
+Recorded in `surname-research/pre-1700/familysearch-full-text-glasgow-scotland-1699-2026-09-22.md` (22–23 September 2026); carried into this file on 7 October 2026.

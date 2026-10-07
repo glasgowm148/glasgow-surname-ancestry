@@ -26,3 +26,12 @@ Inspect the original Roxburgh militia ballot, substitute and muster lists, Kelso
 ### Newspaper identity review — 6 October 2026
 
 - Weaver (reading appears to be stocking-weaver) at Kelso in 1798. — The Caledonian Mercury, 4 Oct 1798 (https://www.newspapers.com/image/395735887/) ([The Caledonian Mercury, 1798-10-04, p.1](https://www.newspapers.com/image/395735887/))
+
+<!-- repo-integration-audit-2026-10-07:L08b-002 -->
+## Identity assessment — William (1786) and William Glass of Tristan da Cunha
+
+A Kelso local-history storyboard, [William Glass of Tristan da Cunha 1786–1853](http://www.kelsoconnections.co.uk/storyboards/storyboards_cunha.asp), copied into the owner's early notes, states that the founder of the Tristan da Cunha settlement was "born William Glasgow in Kelso on 11th May 1786 to David Glasgow and Janet Hood" and took the name William Glass when he enlisted as a gun-driver in the Royal Artillery. It says he stayed on Tristan when the garrison was withdrawn in 1817 and led the community until his death; the gravestone it quotes gives his death as 24 November 1853, aged 67. For fuller evidence it refers to Audrey Mitchell, "An Opaque Glass", *Borders Family History Society Magazine*, no. 60 (March 2006).
+
+This is a derivative account, seen only as a copy in the owner's notes; it cites no Kelso baptism or army record joining the two names. The live WikiTree profile Glasgow-1220 (Corporal William Glass, born 11 May 1786 at Kelso) is already linked to this David and to Janet (Glasgow-1219), on the strength of similar Kelso storyboards (live data captured in `research/Leenders-98/research_brief.md`). The 1786 Kelso child of David and Janet listed above makes the claim chronologically compatible, but the name change is **possible**, not proved, until the Kelso parish register entry, the Royal Artillery enlistment or discharge papers, and the Mitchell article are checked.
+
+Recorded in `archive/dump/TheGlasgows.md` (Checkvist export, 10 March 2025); carried into this file on 7 October 2026.

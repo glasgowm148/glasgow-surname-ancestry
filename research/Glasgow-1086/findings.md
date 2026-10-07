@@ -1,6 +1,6 @@
 # Findings: John Glasgow (Glasgow-1086), Quothquan testament 1685
 
-Last updated: 2026-09-10
+Last updated: 2026-10-07
 
 
 ## Current conclusion
@@ -27,7 +27,9 @@ proved.
   duplicate spouse. Rename only with the surname marked uncertain.
 - Preserve [[Glasgow-3296]] as uncertain father and [[Glasgow-3331]] and
   [[Glasgow-3332]] as uncertain children until CC14/5/6 or another record
-  supplies positive relationships. The 1685 testament proves none of them.
+  supplies positive relationships. The 1685 testament proves none of them, and
+  CC14/5/6, read from the original on 10 September 2026, names none of them
+  either (see below).
 - Keep this man distinct from John Glasgow in Boog of Stevenston, indexed 6
   November 1685.
 
@@ -75,3 +77,12 @@ The supplied index adds 26 June 1608 at Mid Calder to the existing year-only bir
 ## Priority action
 
 **Needs update on WikiTree:** the complete proposed biography records this comparison with prior sources and pending research retained. No structured date or relationship change is established by this index review.
+
+<!-- repo-integration-audit-2026-10-07:L03b-005 -->
+## Source findings — CC14/5/6 read: no child or parent named, 10 September 2026
+
+The record this file was waiting for has been read. John Glasgow's Lanark testament dative (National Records of Scotland, Lanark Commissary Court, CC14/5/6, images 138–139; indexed 13 January 1662) was inspected from the original images on 10 September 2026 and re-read the same day. It concerns John Glasgow in Quodquen, Libberton parish, who died in 1661 (month illegible). The giver-up in the executor-dative passage reads as Thomas Glasgow, whose descriptor and capacity are unread; the earlier 'lawful son' reading was rejected. No spouse, child or parent is securely named. The reviewers keep this 1661/62 John separate from the 1650 John (Glasgow-3296) and from the 1685 John of this profile, and assign the record to no WikiTree profile.
+
+For the uncertain links above this is a negative result: CC14/5/6 supplies no positive relationship for Glasgow-3296 as father or for Glasgow-3331 and Glasgow-3332 as children, and neither the 1650 testament (which names the 1650 John's sister Bessie) nor the 1685 testament names them. The links stay graded uncertain. The absence of a named relationship does not disprove them; any support must now come from another record.
+
+Recorded in `research/transcriptions/originals-2026-09-10-reread/john-lanark-1662.json` (10 September 2026); carried into this file on 7 October 2026.

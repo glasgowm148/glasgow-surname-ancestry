@@ -434,3 +434,12 @@ In [William Macafee's transcript of Griffith's Valuation for North and Mid Antri
 Margaret fits Robert's unmarried daughter, aged 50 in his 1851 Glenleslie household, to whom his will left the farm for life (see the current conclusion). The Griffith's entry is therefore probably that life holding, and it confirms that the elderly Robert did not move to Gortereghy. The Doonbought Robert is possibly the younger Robert (Glasgow-1049) of the 1851 Doonbought household. Both identifications are probable or possible, not proved; the Glenleslie valuation revision books would show the succession.
 
 Recorded in `research/Glasgow-1022/agent_gortereghy_cluster.md` (5 September 2026); carried into this file on 7 October 2026.
+
+<!-- repo-integration-audit-2026-10-07:L10-001 -->
+## Source findings — 1850 Troy candidate for Samuel in America, 13 August 2026
+
+A search for Robert's son Samuel `Glasgow-1052`, recorded in the original 1851 return as a linen weaver aged 30 living in America, found one weak candidate: the [1850 US census of Troy Fifth Ward, Rensselaer County, New York, household 2785](https://archive.org/download/populationschedu0584unix/page/n373.jpg) (original image) lists Samuel Glasgow, 30, farmer, born Ireland, with Jane, 23, and Martha Glasgow, 17.
+
+Age and Irish birth fit, but the occupation differs from the 1851 return and the schedule gives no County Antrim locator. The same Troy household is already represented on WikiTree by the separate profile [Glasgow-2417](../Glasgow-2417/findings.md), whose findings leave him unidentified and attach no family. Grade: possible candidate only. Do not merge Glasgow-2417 with Glasgow-1052 or attach him to Robert on this census alone (see the identity cautions above).
+
+Recorded in `handover.md` (13 August 2026); carried into this file on 7 October 2026.

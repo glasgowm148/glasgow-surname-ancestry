@@ -271,3 +271,12 @@ Recorded in `research/Glasgow-951/research-log-2026-09-17-live.md` (17 September
 All three were seen as online copies or transcriptions. The directory and the Church Street entry fit this Daniel, the Kilrea watchmaker who died in Church Street on 16 October 1871; the 1831 entry probably does too. The Claragh holding may be his or another Daniel's; its tenement details have not been compared.
 
 Recorded in `research/Glasgow-3896/Glasgow-3896.md` (profile draft, references accessed 16 July 2026) and `research/Glasgow-951/sources/agent_B_2026-09-17.md` (17 September 2026); carried into this file on 7 October 2026.
+
+<!-- repo-integration-audit-2026-10-07:L10-003 -->
+## Recommended correction — Kate, not Peter, present at Daniel's 1871 death, 7 October 2026
+
+A working handover of 13 August 2026 named **Peter Glasgow of Kilrea** as the person present at Daniel's death on 16 October 1871 and proposed further searches for him. The [original death register](https://www.irishgenealogy.ie/view/?record_id=cide-7256058), cited in the source table above and saved in `sources/`, names **Kate Glasgow** of Kilrea; the retained register page was inspected again for Glasgow-951 and also reads Kate. The Peter reading is superseded.
+
+The handover's bounded negative search (no adult Peter Glasgow marriage or death in the Irish civil indexes, 1845–1922, under the standard variants; only an infant Peter Glascow at Limerick in 1896) therefore concerns no one named in Daniel's death record, and there is no Peter of Kilrea to pursue on the strength of it. As before, the record states no relationship between Kate and Daniel.
+
+Recorded in `handover.md` (13 August 2026); carried into this file on 7 October 2026.

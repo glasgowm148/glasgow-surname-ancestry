@@ -1,6 +1,6 @@
 # Findings: [Robert Glasgow (Glasgow-12), born 1749, County Derry](https://www.wikitree.com/wiki/Glasgow-12)
 
-Last updated: 2026-08-19
+Last updated: 2026-10-07
 
 ## Current conclusion
 
@@ -76,3 +76,12 @@ the current parents certain merely to display the sibling group.
 
 Applied live on 19 August 2026. The sourced sibling evidence is present and
 both attached parent relationships are explicitly uncertain.
+
+<!-- repo-integration-audit-2026-10-07:L10-002 -->
+## Source findings — Y-STR family signature, 12 August 2026
+
+An all-against-all comparison of the 111-marker Y-STR results of the seven Big Y tests at R-FT20271 or its child R-FTE32242 ([FamilyTreeDNA Glasgow Project public Y-STR table](https://www.familytreedna.com/public/Glasgow?iframe=yresults), with rows supplied by the project administrator) found that all four tests descending from three of Robert's sons share **DYS19=15, DYS456=16 and DYS712=19**. The three other basal FT20271 lines carry 14, 17 and 20 at those markers. The reconstructed Y-111 haplotype for Robert's family is matched exactly by the probable John M. line and by one James M. line; the William line departs from it at one marker (DYS650) and the other James M. line at one (CDY). Seen as a derivative analysis of project-table values.
+
+The motif agrees with the documented descent through three sons, but it is an STR signature, not a named SNP branch. DYS712 mutates rapidly and any STR can recur or revert, so the signature cannot override SNP results: the probable John M. line and a James M. line are identical across the Y-111 panel, yet only the James M. test carries FTE32242.
+
+Recorded in `ydna/ft20271_str_network.md` (12 August 2026); carried into this file on 7 October 2026.

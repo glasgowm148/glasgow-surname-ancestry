@@ -93,3 +93,12 @@ him as born exactly in 1516 or use that boundary to reject the son William.
 ## Birth-estimate audit - 21 August 2026
 
 The live structured birth was corrected to **about 1510, uncertain**. John was an adult husband and property holder by 1534; the records supply no birth year. The earlier `before` value remains only a strict chronological boundary, not the most useful estimated birth. No biography, relationship, source or other structured field was changed in this audit.
+
+<!-- repo-integration-audit-2026-10-07:L03b-004 -->
+## Source findings — a further John Glesgw boundary, 6 August 1556
+
+In William Hegait's protocol 307 (Robert Renwick, ed., *Abstracts of Protocols of the Town Clerks of Glasgow*, vol. II, 1896, printed p. 15, 6 August 1556, [Internet Archive](https://archive.org/details/abstractsprotoc04robegoog); locate by printed page and protocol number), Allan Roger and Jonet Scheles, spouses, sold a back tenement and yard to Andrew Morsoune and Jonet Gilleis, spouses, bounded by John Glesgw's land on the east, Thomas Bargille's on the south and Richard Ros's on the west. No Glasgow is a party or witness. Seen as the printed abstract, not the manuscript. Protocol 402 (22 November 1557, cited above among 401–403) has Andrew Morsoune and John Glesgw as neighbours of the Bargilly piece, so the two entries probably describe the same neighbourhood.
+
+Like the 1554/55 and 1557 mentions above, this is a property reference only. The abstract does not itself identify the John Glesgw named; identity with this John is probable, by the same reasoning as those entries. A boundary can keep a former owner's name, so it proves neither that John was alive in 1556 nor any kinship.
+
+Recorded in `research/transcriptions/source-recovery-2026-09-10.md` (10 September 2026); carried into this file on 7 October 2026.
