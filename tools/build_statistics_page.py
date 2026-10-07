@@ -3,6 +3,10 @@
 from pathlib import Path
 import json
 import re
+try:
+    from tools.site_identity import SITE_NAME, page_title
+except ModuleNotFoundError:
+    from site_identity import SITE_NAME, page_title
 
 ROOT = Path(__file__).resolve().parents[1]
 WEB = ROOT / 'www'
@@ -66,11 +70,11 @@ def repair():
     panels = re.sub(r'href="(people/|places/)', r'href="/\1', panels)
     panels = panels.replace('/catalogue.html?', '/catalogue/?')
     current_summary = _current_catalogue_summary() or summary.group(0)
-    main = '''<main class="r-main statistics-page" id="main"><header class="v3-page-head statistics-page-head"><span class="r-kicker">The collection, at a glance</span><h1>Statistics from the<br>public historical catalogue.</h1><p>Counts are drawn from the maintained catalogue snapshot. They describe records and documented associations, not a proved single family tree.</p></header><section class="statistics-page-summary" aria-label="Catalogue summary">''' + current_summary + '''</section><section class="statistics-page-panels" aria-labelledby="statistics-detail-title"><div class="statistics-page-intro"><span class="r-kicker">Patterns in the collection</span><h2 id="statistics-detail-title">Places, names, branches and movement</h2><p>Each panel remains linked back to the relevant catalogue or place view.</p></div><div class="statistics-grid">''' + panels + '''</div><p class="statistics-caution">''' + caution + '''</p></section></main>'''
-    shell = re.sub(r'<title>.*?</title>', '<title>Catalogue statistics · Glasgow surname archive</title>', shell, count=1, flags=re.S)
-    shell = re.sub(r'<meta content="The Glasgow surname archive:[^"]*" name="description"\s*/?>', '<meta content="Statistics from the public historical catalogue: places, names, branches and recorded movement." name="description">', shell, count=1)
+    main = '''<main class="r-main statistics-page" id="main"><header class="v3-page-head statistics-page-head"><span class="r-kicker">The collection, at a glance</span><h1>Statistics from the<br>public historical catalogue.</h1><p>Counts are drawn from the maintained catalogue snapshot. They describe records and documented associations, not a proved single family tree. The headline totals are the same as on <a href="/about/">About</a> and <a href="/status/">Catalogue status</a>.</p></header><section class="statistics-page-summary" aria-label="Catalogue summary">''' + current_summary + '''</section><section class="statistics-page-panels" aria-labelledby="statistics-detail-title"><div class="statistics-page-intro"><span class="r-kicker">Patterns in the collection</span><h2 id="statistics-detail-title">Places, names, branches and movement</h2><p>Each panel remains linked back to the relevant catalogue or place view.</p></div><div class="statistics-grid">''' + panels + '''</div><p class="statistics-caution">''' + caution + '''</p></section></main>'''
+    shell = re.sub(r'<title>.*?</title>', lambda _: f'<title>{page_title("Statistics")}</title>', shell, count=1, flags=re.S)
+    shell = re.sub(r'<meta content="The Glasgow surname (?:archive|project):[^"]*" name="description"\s*/?>', '<meta content="Statistics from the public historical catalogue: places, names, branches and recorded movement." name="description">', shell, count=1)
     shell = shell.replace('data-g-path="/research/index.html"', 'data-g-path="/statistics/index.html"')
-    shell = shell.replace('<strong>Research</strong>', '<strong>Statistics</strong>', 1)
+    shell = shell.replace('<strong>Research</strong>', '<strong>Statistics</strong>', 1).replace('data-g-path="/research/index.html"', 'data-g-path="/statistics/index.html"')
     shell = re.sub(r'<nav class="v3-view-nav" aria-label="Section views">.*?</nav>', '', shell, count=1, flags=re.S)
     shell = re.sub(r'<main class="r-main" id="main">.*?</main>', main, shell, count=1, flags=re.S)
     shell = shell.replace('</head>', '<link rel="stylesheet" href="/assets/repair/statistics.css?v=2"></head>', 1)

@@ -61,14 +61,19 @@ class NavigationCompletionTests(unittest.TestCase):
     def test_js_contract_covers_anchor_history_and_single_findings_rail(self):
         js = (ROOT / "tools" / "section_submenus.js").read_text(encoding="utf-8")
         self.assertIn("root === '/latest-findings/'", js)
-        self.assertIn("data|changes|feedback|status", js)
+        # Changes and Feedback stay under About (AGENTS.md); site audit S1-07
+        # adds the evidence guide, statistics and privacy to the same section.
+        self.assertIn("evidence|resources|coverage|statistics|data|changes|privacy|feedback|status", js)
         about_start = js.index("if (root === '/about/') return [")
         about_end = js.index("      ];", about_start)
         about_fallback = js[about_start:about_end]
         self.assertEqual(
-            ["/about/", "/resources/", "/coverage/", "/data/", "/changes/", "/feedback/", "/status/"],
+            ["/about/", "/evidence/", "/coverage/", "/statistics/", "/data/", "/resources/",
+             "/changes/", "/privacy/", "/feedback/"],
             re.findall(r"make\('([^']+)'", about_fallback),
         )
+        first_paint = [href for href, _ in NAV.SECTION_SUBMENU_ITEMS["/about/"]]
+        self.assertEqual(first_paint, re.findall(r"make\('([^']+)'", about_fallback))
         self.assertIn("location.hash = url.hash", js)
         self.assertIn("addEventListener('popstate', schedule)", js)
         self.assertIn("document.body.classList.remove('g-nav-open')", js)

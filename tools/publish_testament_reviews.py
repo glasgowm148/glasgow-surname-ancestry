@@ -6,6 +6,10 @@ from pathlib import Path
 import json
 import re
 try:
+    from tools.site_identity import SITE_NAME, page_title
+except ModuleNotFoundError:
+    from site_identity import SITE_NAME, page_title
+try:
     from tools.public_manuscript_previews import approved_preview, restore_approved_previews
 except ModuleNotFoundError:
     from public_manuscript_previews import approved_preview, restore_approved_previews
@@ -181,7 +185,7 @@ def text_reading(review):
 
 
 def shell(template, main, title, path):
-    page = re.sub(r"<title>.*?</title>", lambda _: f"<title>{e(title)} | Glasgow surname archive</title>",
+    page = re.sub(r"<title>.*?</title>", lambda _: f"<title>{e(page_title(title))}</title>",
                   template, count=1, flags=re.S)
     page = re.sub(r'<main\b[^>]*>.*?</main>', lambda _: main, page, count=1, flags=re.S)
     page = re.sub(r'(data-g-path=")[^"]*', lambda m: m[1] + path, page, count=1)

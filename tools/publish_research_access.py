@@ -7,6 +7,10 @@ from html import escape
 import json
 from pathlib import Path
 import re
+try:
+    from tools.site_identity import SITE_NAME, page_title
+except ModuleNotFoundError:
+    from site_identity import SITE_NAME, page_title
 
 ROOT = Path(__file__).resolve().parents[1]
 WEB = ROOT / 'www'
@@ -32,7 +36,7 @@ def block(path, name, content):
 
 
 def page(template, title, body, url):
-    text = re.sub(r'<title>.*?</title>', '<title>' + escape(title) + ' · Glasgow surname archive</title>', template, count=1)
+    text = re.sub(r'<title>.*?</title>', lambda _: '<title>' + escape(page_title(title)) + '</title>', template, count=1)
     text = re.sub(r'<main\b[^>]*>.*?</main>', lambda _: '<main id="main"><h1>' + escape(title) + '</h1>' + body + '</main>', text, count=1, flags=re.S)
     text = re.sub(r'<script data-clean-index-redirect>.*?</script>', '', text, flags=re.S)
     text = re.sub(r'<link rel="canonical"[^>]*>', f'<link rel="canonical" href="https://glasgow.phenotype.dev{url}">', text)

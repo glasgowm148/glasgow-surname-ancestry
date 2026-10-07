@@ -2,6 +2,10 @@
 """Generate the public resources page and its homepage community links."""
 from pathlib import Path
 import re
+try:
+    from tools.site_identity import SITE_NAME, page_title
+except ModuleNotFoundError:
+    from site_identity import SITE_NAME, page_title
 
 ROOT = Path(__file__).resolve().parents[1]
 WEB = ROOT / 'www'
@@ -28,7 +32,7 @@ def repair():
     ))
     main = '''<main class="resources-page" id="main"><header class="resources-hero"><span class="r-kicker">Useful places to continue the work</span><h1>Resources for the<br>Glasgow research community.</h1><p>These independent and collaborative resources can help locate records, compare work and contribute carefully. A link is a starting point, not proof of a relationship.</p></header><section class="resources-section" aria-labelledby="resources-community"><div><span class="r-kicker">People and shared research</span><h2 id="resources-community">Work with the community.</h2></div><div class="resources-grid">''' + community + '''</div></section><section class="resources-section resources-records" aria-labelledby="resources-records"><div><span class="r-kicker">Records research</span><h2 id="resources-records">Start with the record.</h2><p>Use original or reliable record images where possible, then bring the citation back to the relevant person’s page or research question.</p></div><div class="resources-grid">''' + record_links + '''</div></section><section class="resources-note"><strong>Using external material</strong><p>External databases, trees and discussions can provide leads. Their claims should be checked against the underlying record before they are added to the project’s documented conclusions.</p><a href="/feedback/">Send a sourced correction &#8594;</a></section></main>'''
     page = re.sub(r'<main>.*?</main>', main, about, count=1, flags=re.S)
-    page = re.sub(r'<title>.*?</title>', '<title>Research resources · Glasgow surname archive</title>', page, count=1, flags=re.S)
+    page = re.sub(r'<title>.*?</title>', lambda _: f'<title>{page_title("Research resources")}</title>', page, count=1, flags=re.S)
     page = re.sub(r'<meta name="description" content="[^"]*">', '<meta name="description" content="Community and record-search resources for the Glasgow surname research project.">', page, count=1)
     page = page.replace('data-g-path="/about/index.html"', 'data-g-path="/resources/index.html"')
     page = page.replace('g-kind-about', 'g-kind-resources')

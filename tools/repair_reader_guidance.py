@@ -2,6 +2,8 @@
 """Keep reader introductions and plain navigation wording in local site builds."""
 from collections import Counter
 from hashlib import sha256
+from html import escape
+import json
 from pathlib import Path
 import re
 import runpy
@@ -9,9 +11,13 @@ import runpy
 try:
     from tools.repair_primary_navigation import NAV, is_excluded, render_primary_navigation, repair as repair_navigation
     from tools.catalogue_search_markup import compact_statistics, hero_html
+    from tools import site_identity as identity
+    from tools.about_pages import headline_totals, reader_date
 except ModuleNotFoundError:
     from repair_primary_navigation import NAV, is_excluded, render_primary_navigation, repair as repair_navigation
     from catalogue_search_markup import compact_statistics, hero_html
+    import site_identity as identity
+    from about_pages import headline_totals, reader_date
 
 ROOT = Path(__file__).resolve().parents[1]
 WEB = ROOT / 'www'
@@ -28,7 +34,7 @@ PUBLIC_LABELS = {
     'Structured dossier and technical data': 'Research data and downloads',
     'Machine-readable dossier': 'Person data (JSON)',
     'Source library': 'Sources', 'Research workspace': 'Research questions',
-    'Free-space research pages.': 'WikiTree Free-Space Pages',
+    'Free-space research pages.': 'WikiTree study pages',
     'Important external studies, locally summarised.': 'Research summaries',
     'Statistics from the public historical catalogue.': 'Family history statistics',
     'Places, names, branches and movement': 'Places, names, families and migration',
@@ -41,10 +47,10 @@ PUBLIC_LABELS = {
     'Family & locality studies': 'Family and place studies',
     'Compare two identities': 'Compare two people',
     'Unresolved parentage & matches': 'Possible parents and profile matches',
-    'Free-space research library': 'WikiTree Free-Space Pages',
+    'Free-space research library': 'WikiTree study pages',
     'Research cluster': 'Family or research group',
     'Needs updated on WikiTree': 'WikiTree profiles to update',
-    'What is here. And what it means.': 'What the site includes',
+    'What is here. And what it means.': 'About the data',
     'One registry. Different coverage.': 'Why the page totals differ',
     'Imports and reviewed assertions.': 'WikiTree details and reviewed research',
     'Colour is place. Status is evidence.': 'Place colours and relationship labels',
@@ -86,9 +92,33 @@ def replace_block(page, pattern, replacement):
     return page
 
 
-def home_page(page):
-    intro = (SOURCE / 'home-intro.html').read_text().strip()
-    guide = (SOURCE / 'home-start.html').read_text().strip()
+def load_health(web=None):
+    """Site-wide totals written by the catalogue build (www/health.json), or None."""
+    path = (web or WEB) / 'health.json'
+    try:
+        return json.loads(path.read_text(encoding='utf-8'))
+    except (OSError, ValueError):
+        return None
+
+
+def fill_identity(markup, health=None):
+    """Fill the site-identity placeholders in maintained reader HTML."""
+    people = f'{headline_totals(health)[0]:,} people' if health else 'the people index'
+    owner = (' ' + escape(identity.owner_sentence())) if identity.OWNER_NAME else ''
+    for placeholder, value in {
+        '<!-- site-name -->': escape(identity.SITE_NAME),
+        '<!-- site-owner -->': owner,
+        '<!-- people-total -->': people,
+        '<!-- correction-link -->': identity.contact_link_html('Send it to us →'),
+        '<!-- who-runs-this -->': identity.who_runs_this_html(),
+    }.items():
+        markup = markup.replace(placeholder, value)
+    return markup
+
+
+def home_page(page, health=None):
+    intro = fill_identity((SOURCE / 'home-intro.html').read_text().strip(), health)
+    guide = fill_identity((SOURCE / 'home-start.html').read_text().strip(), health)
     page = re.sub(r'<aside class="reader-start".*?</aside>', '', page, flags=re.S)
     figure = re.search(r'<figure class="repair-canopy-figure">.*?</figure>', page, re.S)
     if not figure:
@@ -142,7 +172,7 @@ def home_page(page):
     }
     for old, new in replacements.items():
         page = page.replace(old, new)
-    page = re.sub(r'<title>.*?</title>', '<title>Glasgow family history · Glasgow Surname Project</title>', page, count=1)
+    page = re.sub(r'<title>.*?</title>', lambda _: f'<title>{identity.page_title("Glasgow family history")}</title>', page, count=1)
     page = page.replace('<strong>Overview</strong>', '<strong>Home</strong>')
     # Older repairs can append the study-map initializer repeatedly.
     seen = set()
@@ -156,8 +186,8 @@ def home_page(page):
     return page
 
 
-def about_page(page):
-    intro = (SOURCE / 'about-intro.html').read_text().strip()
+def about_page(page, health=None):
+    intro = fill_identity((SOURCE / 'about-intro.html').read_text().strip(), health)
     # Retain the independently maintained coverage table and contribution links.
     page = replace_block(page, r'<header class="g-editorial-hero">.*?(?=<div class="g-section-heading">)', intro)
     for old, new in {
@@ -167,12 +197,59 @@ def about_page(page):
         'Include the profile, the exact claim and the underlying source. A precise correction is easier to evaluate and carry back into the research.': 'Send the person’s name, the detail to correct and a reference or link to the record.',
     }.items():
         page = page.replace(old, new)
-    return re.sub(r'<title>.*?</title>', '<title>About this research · Glasgow Surname Project</title>', page, count=1)
+    if health:
+        # One set of totals (S3-07): the same health.json counts as status and statistics.
+        people, records, places = headline_totals(health)
+        page = re.sub(r'(<td>Research catalogue</td><td>)[^<]+(</td>)',
+                      lambda m: f'{m[1]}{people:,} people · {records:,} record entries linked to people · {places:,} places{m[2]}',
+                      page, count=1)
+    return re.sub(r'<title>.*?</title>', lambda _: f'<title>{identity.page_title("About this research")}</title>', page, count=1)
 
 
-def coverage_page(page):
+TREE_COUNT_DATE = '8 September 2026'  # last family-tree count (integration report of that date)
+
+
+def coverage_totals(page, health):
+    """Put the site-wide totals on the legacy coverage page and date the older family-tree counts."""
+    if not health:
+        return page
+    people, records, places = headline_totals(health)
+    tree = re.search(r'<strong class="r-coverage-number">([\d,]+)</strong><p>(?:Public atlas profiles|Family-tree profiles[^<]*)</p>', page)
+    tree_card = (f'<div><strong class="r-coverage-number">{tree[1]}</strong><p>Family-tree profiles (counted {TREE_COUNT_DATE})</p></div>'
+                 if tree else '')
+    strip = ('<div class="r-grid2 r-section">'
+             f'<div><strong class="r-coverage-number">{people:,}</strong><p>People in the index</p></div>'
+             f'<div><strong class="r-coverage-number">{records:,}</strong><p>Record entries linked to people</p></div>'
+             f'<div><strong class="r-coverage-number">{places:,}</strong><p>Places</p></div>' + tree_card + '</div>')
+    page = re.sub(r'<div class="r-grid2 r-section">(?:<div><strong class="r-coverage-number">.*?</p></div>){3,4}</div>',
+                  lambda _: strip, page, count=1, flags=re.S)
+    section = re.search(r'<section class="r-section"><h2>Why the page totals differ</h2>(.*?)</section>', page, re.S)
+    if section and tree:
+        kept = re.findall(r'<p><strong>\d+</strong> family-tree profile IDs have no corresponding person page.*?</p>', section[1], re.S)
+        mapped = re.search(r'<strong>([\d,]+)</strong> catalogue entries map directly', section[1])
+        mapped = mapped or re.search(r'of which <strong>([\d,]+)</strong> matched', section[1])
+        geo = re.search(r'<strong>([\d,]+)</strong> associations with a matched supplied coordinate\. The other <strong>([\d,]+)</strong>', section[1])
+        geo = geo or re.search(r'<strong>([\d,]+)</strong> record entries had a matched location; the other <strong>([\d,]+)</strong>', section[1])
+        body = (f'<p>The people index contains <strong>{people:,} people</strong>, the same total shown on About, '
+                f'Catalogue status and Statistics (catalogue compiled {escape(reader_date(health.get("generated")))}). '
+                'The family tree is compiled separately and counts WikiTree profiles rather than index entries: '
+                f'when it was last counted, on {TREE_COUNT_DATE}, it held <strong>{tree[1]} public profile IDs</strong>'
+                + (f', of which <strong>{mapped[1]}</strong> matched index entries' if mapped else '')
+                + '. Combined source entries and records without a public profile remain separately addressable.</p>'
+                + ''.join(kept)
+                + (f'<p>At the same count, <strong>{geo[1]}</strong> record entries had a matched location; the other '
+                   f'<strong>{geo[2]}</strong> remain searchable in records. We do not manufacture a pin from a place name.</p>'
+                   if geo else ''))
+        page = page[:section.start(1)] + body + page[section.end(1):]
+    page = page.replace('<span class="r-kicker">Coverage &amp; method</span><h1>What is here.<br>And what it means.</h1>',
+                        '<span class="r-kicker">Coverage and method</span><h1>About the data</h1>')
+    return page
+
+
+def coverage_page(page, health=None):
     # Preserve totals, named profiles and every limitation in the existing
     # coverage account; simplify its terminology rather than shortening it.
+    page = coverage_totals(page, health)
     for old, new in {
         'A transparent account of the imported collection, the shared display assessments and the limits of each view.': 'Where the information came from, what has been checked and what each page can tell you.',
         'The catalogue contains': 'The people index contains',
@@ -204,13 +281,14 @@ def repair():
     css = (SOURCE / 'reader-guidance.css').read_text()
     write(WEB / 'assets/repair/reader-guidance.css', css)
     css_tag = f'<link rel="stylesheet" href="/assets/repair/reader-guidance.css?v={sha256(css.encode()).hexdigest()[:10]}">'
+    health = load_health()
     for relative, transform in [('index.html', home_page), ('about/index.html', about_page)]:
         path = WEB / relative
-        page = transform(path.read_text())
+        page = transform(path.read_text(), health)
         page = re.sub(r'<link\b[^>]*href="/assets/repair/reader-guidance\.css[^"\s]*"[^>]*>', '', page)
         page = page.replace('</head>', css_tag + '</head>', 1)
         description = ('Research findings, family histories, source records and open questions about people named Glasgow and their families.'
-                       if relative == 'index.html' else 'What the Glasgow Surname Project has found, what remains uncertain, and how to use the site with WikiTree.')
+                       if relative == 'index.html' else f'What the {identity.SITE_NAME} has found, what remains uncertain, and how to use the site with WikiTree.')
         page = replace_block(page, r'<meta\b(?=[^>]*\bname="description")[^>]*>',
                              f'<meta name="description" content="{description}">')
         write(path, page)
@@ -219,10 +297,10 @@ def repair():
     page = replace_block(path.read_text(), r'<header class="v3-page-head">.*?</header>',
                          '<header class="v3-page-head"><span class="r-kicker">Research in progress</span><h1>Questions we are working on</h1>'
                          '<p>These are the family relationships and identities we are still investigating. Each question links to the evidence collected so far, our current conclusion and the records still needed.</p></header>')
-    page = re.sub(r'<title>.*?</title>', '<title>Research questions · Glasgow Surname Project</title>', page, count=1)
+    page = re.sub(r'<title>.*?</title>', lambda _: f'<title>{identity.page_title("Research questions")}</title>', page, count=1)
     write(path, page)
     path = WEB / 'coverage/index.html'
-    write(path, coverage_page(path.read_text()))
+    write(path, coverage_page(path.read_text(), health))
     path = WEB / 'onetree/index.html'
     page = path.read_text()
     for old, new in {
@@ -245,7 +323,7 @@ def repair():
                 raise ValueError(f'Catalogue count missing in {relative}')
             page = page.replace(match[0], hero_html(int(total[1].replace(',', ''))), 1)
             page = compact_statistics(page)
-            page = re.sub(r'<title>.*?</title>', '<title>Find a person · Glasgow Surname Project</title>', page, count=1)
+            page = re.sub(r'<title>.*?</title>', lambda _: f'<title>{identity.page_title("Find a person")}</title>', page, count=1)
             page = re.sub(r'(<div class="g-crumbs">.*?<strong>).*?(</strong>)', r'\1Find a person\2', page, count=1, flags=re.S)
             page = re.sub(r'<link\b[^>]*href="/assets/repair/reader-guidance\.css[^"\s]*"[^>]*>', '', page)
             page = page.replace('</head>', css_tag + '</head>', 1)
@@ -280,12 +358,12 @@ def repair():
         page = page.replace('aria-label="Interactive family atlas"', 'aria-label="Interactive family tree"')
         page = page.replace('aria-label="Atlas views"', 'aria-label="Family tree views"')
         page = page.replace('Move around the family canvas', 'Move around the family tree')
-        titles = {'branches/index.html': 'Families and places', 'free-space/index.html': 'Free-space research library',
-                  'coverage/index.html': 'What the site includes', 'statistics/index.html': 'Family history statistics',
+        titles = {'branches/index.html': 'Families and places', 'free-space/index.html': 'WikiTree study pages',
+                  'coverage/index.html': 'About the data', 'statistics/index.html': 'Statistics',
                   'sources/index.html': 'Sources', 'records/index.html': 'Records by person'}
         title = titles.get(path.relative_to(WEB).as_posix())
         if title:
-            page = re.sub(r'<title>.*?</title>', f'<title>{title} · Glasgow Surname Project</title>', page, count=1)
+            page = re.sub(r'<title>.*?</title>', lambda _: f'<title>{identity.page_title(title)}</title>', page, count=1)
         page = page.replace('Browse all people without JavaScript', 'Browse the name index').replace('Browse all family groups without JavaScript', 'Browse family groups').replace('Small data downloads and freshness manifest', 'Download research data')
         page = re.sub(r'(assets/unified/section-submenus\.js\?v=)[^"\s>]+',
                       lambda m: m[1] + submenu_version, page)

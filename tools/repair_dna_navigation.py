@@ -10,6 +10,11 @@ the maintained overview content.
 from pathlib import Path
 import re
 
+try:
+    from tools.site_identity import page_title
+except ModuleNotFoundError:
+    from site_identity import page_title
+
 
 ROOT = Path(__file__).resolve().parents[1]
 WEB = ROOT / "www"
@@ -49,13 +54,43 @@ def overview_view(source: str) -> str:
     return view
 
 
+def branch_pages(web: Path = WEB) -> list[tuple[str, str, str]]:
+    """(href, haplogroup, name) for each Y-DNA branch page under /dna/r-*/."""
+    pages = []
+    for path in sorted((web / "dna").glob("r-*/index.html")):
+        title = re.search(r"<title>(.*?)</title>", path.read_text(encoding="utf-8"), re.S)
+        parts = [part.strip() for part in re.split(r"\s+·\s+", title[1])] if title else []
+        code = parts[0] if parts else path.parent.name.upper()
+        name = parts[1] if len(parts) > 2 else ""
+        pages.append((f"/dna/{path.parent.name}/", code, name))
+    return pages
+
+
+def with_branch_pages(view: str, web: Path = WEB) -> str:
+    """Link every Y-DNA branch page from the overview (site audit S1-07)."""
+    pages = branch_pages(web)
+    if not pages:
+        return view
+    items = "".join(
+        f'<li><a href="{href}"><strong>{code}</strong>{" · " + name if name else ""}</a></li>'
+        for href, code, name in pages)
+    block = ('<section class="dna-branch-pages" id="dna-branch-pages" aria-labelledby="dna-branch-pages-title">'
+             '<h2 id="dna-branch-pages-title">Y-DNA branch pages</h2>'
+             '<p>One page for each named branch of the Glasgow Y-DNA tree. A shared branch shows a common paternal '
+             'line; it does not by itself name the ancestor who links two families.</p>'
+             f'<ul>{items}</ul></section>')
+    if not view.endswith("</section>"):
+        return view + block
+    return view[: -len("</section>")] + block + "</section>"
+
+
 def legacy_redirect() -> str:
     return """<!doctype html>
 <html lang=\"en\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">
-<title>DNA overview moved · Glasgow surname archive</title><link rel=\"canonical\" href=\"/ydna/\">
+<title>{title}</title><link rel=\"canonical\" href=\"/ydna/\">
 <meta http-equiv=\"refresh\" content=\"0;url=/ydna/\"><script>location.replace('/ydna/'+location.search+location.hash)</script></head>
 <body><p>The DNA overview is now part of the <a href=\"/ydna/\">Y-DNA explorer</a>.</p></body></html>
-"""
+""".replace("{title}", page_title("DNA overview moved"))
 
 
 def remove_overview_views(html: str) -> str:
@@ -77,7 +112,7 @@ def remove_overview_views(html: str) -> str:
 def repair() -> dict[str, int]:
     changed: dict[str, int] = {}
     source = overview_source(changed)
-    view = overview_view(source)
+    view = with_branch_pages(overview_view(source))
     ydna_path = WEB / "ydna" / "index.html"
     ydna = ydna_path.read_text(encoding="utf-8")
     ydna = remove_overview_views(ydna)

@@ -9,10 +9,12 @@ try:
     from tools.repair_primary_navigation import NAV, render_primary_navigation
     from tools.publish_clean_urls import _with_base
     from tools.site_analytics import with_analytics
+    from tools.site_identity import page_title
 except ModuleNotFoundError:
     from repair_primary_navigation import NAV, render_primary_navigation
     from publish_clean_urls import _with_base
     from site_analytics import with_analytics
+    from site_identity import page_title
 
 ROOT = Path(__file__).resolve().parents[1]
 INPUT = ROOT / 'research/latest-findings-subjects/subjects.json'
@@ -76,7 +78,7 @@ def build():
                             '<details><summary>Complete sourced WikiTree draft</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">' + escape(person['wikitext']) + '</pre></details></section>')
         content = '<main id="main" class="r-main"><header><p class="r-kicker">People in the records</p><h1>' + escape(group['title']) + '</h1><p>' + escape(group['introduction']) + '</p><p><a href="/latest-findings/">Latest findings</a> · <a href="/catalogue/">People catalogue</a></p><ul>' + ''.join(links) + '</ul></header>' + ''.join(sections) + '</main>'
         page = re.sub(r'<main\b[^>]*>.*?</main>', lambda _: content, template, count=1, flags=re.S)
-        page = re.sub(r'<title>.*?</title>', lambda _: '<title>' + escape(group['title']) + ' · Glasgow Surname Project</title>', page, count=1, flags=re.S)
+        page = re.sub(r'<title>.*?</title>', lambda _: '<title>' + escape(page_title(group['title'])) + '</title>', page, count=1, flags=re.S)
         page = re.sub(r'<link\b[^>]*rel="canonical"[^>]*>', '<link rel="canonical" href="https://glasgow.phenotype.dev' + url + '">', page, count=1)
         page = page.replace('g-kind-about', 'g-kind-research').replace('data-g-path="/about/index.html"', 'data-g-path="' + url + 'index.html"')
         page = re.sub(r'(<div class="g-crumbs">.*?<strong>).*?(</strong>)', lambda m: m[1] + escape(group['title']) + m[2], page, count=1, flags=re.S)

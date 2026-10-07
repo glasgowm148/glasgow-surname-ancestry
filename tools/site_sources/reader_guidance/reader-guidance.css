@@ -7,7 +7,7 @@
 .reader-start{margin:30px 0;border-top:1px solid #ccd5c5;padding:24px 0 0}
 .reader-start h2{font:500 27px/1.2 var(--g-serif);margin:0 0 18px;color:#304b3a}
 .reader-start ol,.reader-about ol{padding-left:22px;margin:0}
-.reader-start ol{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:30px}
+.reader-start ol{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:30px}
 .reader-start li,.reader-about li{padding-left:5px;margin-bottom:14px;line-height:1.65}
 .reader-start a,.reader-about a{color:#2f5d48;text-decoration:underline;text-underline-offset:3px}
 .reader-start p{max-width:90ch;font-size:13px;line-height:1.65;margin-top:14px}
@@ -19,7 +19,7 @@
 .reader-about .g-note-panel p{font-size:14px;line-height:1.7}
 .reader-about h2{font:500 28px/1.2 var(--g-serif);margin:28px 0 14px}
 .reader-about h2:first-child{margin-top:0}
-@media(max-width:850px){.reader-intro{gap:28px;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr)}.reader-start ol{gap:24px}}
+@media(max-width:850px){.reader-intro{gap:28px;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr)}.reader-start ol{gap:24px;grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:640px){.reader-intro{grid-template-columns:minmax(0,1fr);gap:26px;padding:10px 0 28px}.v3-site .reader-intro h1{font-size:42px;max-width:13ch}.reader-intro p{font-size:15px}.reader-start{padding-top:22px}.reader-start ol{grid-template-columns:minmax(0,1fr);gap:0}.reader-start h2{font-size:25px}.reader-start li{font-size:14px}.reader-start p{font-size:13px}.v3-home #research-example{scroll-margin-top:70px}}
 
 /* A large linked tree fills the opening's right-hand illustration panel. */
@@ -34,3 +34,16 @@
 .v3-home .bd-home-studymap{margin-top:8px}
 .v3-home .bd-home-studymap .bd-studymap-head p{max-width:100%}
 @media(max-width:640px){.v3-site .reader-intro>.repair-canopy-figure{min-height:360px}.reader-intro #r-home-canopy{--canopy-scale:1}.reader-start{margin:26px 0}.v3-site .reader-intro .repair-canopy-top{padding:12px;font-size:11px}.reader-intro .repair-canopy-figure figcaption{padding:25px 12px 12px}.reader-intro .repair-country-key{font-size:10px;gap:6px 10px}}
+
+/* Home first screen (site audit S3-08): reliability line and three ways in. */
+.reader-intro p.reader-reliability{font-size:14px;line-height:1.6;border-left:3px solid #77906b;padding:2px 0 2px 12px}
+.reader-intro a{color:#2f5d48;text-underline-offset:3px}
+.reader-ways{display:grid;gap:8px;margin:18px 0 10px}
+.reader-way{display:grid;gap:2px;padding:11px 14px;border:1px solid #ccd5c5;border-radius:8px;background:#fbfaf4;color:#304b3a;text-decoration:none}
+.reader-way:hover,.reader-way:focus-visible{border-color:#77906b;background:#f3f5ec}
+.reader-way strong{font:500 18px/1.25 var(--g-serif)}
+.reader-way span{font-size:13px;line-height:1.5;color:#536451}
+.reader-intro p.reader-way-more{font-size:13px;margin:6px 0 0}
+/* "Who runs this site" on About and the correction page (S3-01). */
+.site-identity-who{margin:0 0 26px;padding:16px 18px;border:1px solid #ccd5c5;border-radius:8px;background:#fbfaf4}
+.reader-about .site-identity-who h2{margin-top:0}

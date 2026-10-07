@@ -29,7 +29,7 @@ class PrimaryNavigationTests(unittest.TestCase):
     )
 
     def test_renderer_has_the_canonical_links_and_current_section(self):
-        nav = NAVIGATION.render_primary_navigation(Path("statistics/index.html"))
+        nav = NAVIGATION.render_primary_navigation(Path("compare/index.html"))
         self.assertEqual(9, nav.count('class="g-nav-link"'))
         self.assertEqual(1, nav.count('aria-current="page"'))
         self.assertIn('href="/research/" aria-current="page"', nav)
@@ -38,6 +38,10 @@ class PrimaryNavigationTests(unittest.TestCase):
             self.assertIn(f'<span>{label}</span>', nav)
         self.assertNotIn('href="/statistics/"', nav)
         self.assertNotIn('href="/resources/"', nav)
+        # Statistics belongs with the other "about the data" pages (S1-07).
+        statistics = NAVIGATION.render_primary_navigation(Path("statistics/index.html"))
+        self.assertIn('href="/about/" aria-current="page"', statistics)
+        self.assertIn('<a href="/statistics/" aria-current="location">Statistics</a>', statistics)
 
     def test_sample_rails_have_exactly_the_canonical_links(self):
         for relative in (

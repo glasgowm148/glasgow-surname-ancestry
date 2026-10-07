@@ -10,6 +10,7 @@ from __future__ import annotations
 from datetime import date
 from html.parser import HTMLParser
 import json
+import os
 from pathlib import Path
 import re
 from urllib.parse import unquote, urlsplit
@@ -21,8 +22,36 @@ ROOT = Path(__file__).resolve().parents[1]
 SITE_URL = "https://glasgow.phenotype.dev"
 NAMESPACE = "http://www.sitemaps.org/schemas/sitemap/0.9"
 BLOCKED_PARTS = {"assets", "private", "private-research", "raw", "archive", "fragments", "reference"}
-EDITORIAL_ROOTS = ("research", "latest-findings", "early-records", "branches", "compare")
+EDITORIAL_ROOTS = ("research", "latest-findings", "early-records", "branches", "compare", "dna")
 BROWSE_ROOTS = ("people/by-name", "people/clusters", "people/locations", "catalogue/browse", "sources/browse")
+# Source-library browse pages (sources/<type>/<country>/...).  Individual
+# source pages (s-<16 hex>) come only from the approved source index.
+SOURCE_ITEM = re.compile(r"s-[a-f0-9]{16}")
+# Reader pages deliberately left out of the sitemap (site audit S1-07, S1-11,
+# S3-11).  Each is still served; the reason is recorded here.
+EXCLUDED_ROUTES = {
+    "/explore/": "superseded entry page with no generator; nothing links to it",
+    "/research/tools.html": "superseded 'research desk' page with no generator; nothing links to it",
+    "/events/": "legacy life-events view with no generator; nothing links to it",
+}
+EXCLUDED_PREFIXES = {
+    "/research/queue/": "research workroom: leads, not findings",
+    "/candidate-matches/": "research workroom: ranked leads, not findings",
+}
+
+
+def source_browse_pages(site_root):
+    """Yield source-library browse pages without walking every source item."""
+    root = site_root / "sources"
+    for directory, subdirectories, files in os.walk(root):
+        subdirectories[:] = sorted(d for d in subdirectories if not SOURCE_ITEM.fullmatch(d) and d not in BLOCKED_PARTS)
+        for name in sorted(files):
+            if name.endswith(".html"):
+                yield "/" + (Path(directory) / name).relative_to(site_root).as_posix()
+
+
+def excluded(route):
+    return route in EXCLUDED_ROUTES or route.startswith(tuple(EXCLUDED_PREFIXES))
 
 
 class HeadMetadata(HTMLParser):
@@ -125,12 +154,15 @@ def sitemap_entries(site_root=ROOT / "www"):
     for root in (*EDITORIAL_ROOTS, *BROWSE_ROOTS):
         candidates.extend("/" + p.relative_to(site_root).as_posix()
                           for p in sorted((site_root / root).rglob("*.html")))
+    candidates.extend(source_browse_pages(site_root))
     entries = {}
     for candidate in candidates:
         result = safe_route(candidate, site_root)
         if result is None:
             continue
         route, path = result
+        if excluded(route):
+            continue
         # Entity profiles must be listed in the approved public person index;
         # no loose HTML scan or a malicious editorial filename can add one.
         if re.fullmatch(r"/people/[^/]+\.html", route) and route not in approved_people:

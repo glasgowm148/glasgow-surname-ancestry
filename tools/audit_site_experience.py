@@ -12,7 +12,21 @@ COMMUNITY = (
 )
 # Destinations folded out of the primary rail, mapped to the rail section whose
 # submenu now offers them.
-SUBMENU_DESTINATIONS = {'/statistics/': '/research/', '/resources/': '/about/'}
+SUBMENU_DESTINATIONS = {'/statistics/': '/about/', '/resources/': '/about/',
+                        '/evidence/': '/about/', '/privacy/': '/about/'}
+SITE_NAME = 'Glasgow Surname Project'
+# Earlier names of the whole site (site audit S3-03).  "Source library" stays
+# as a section name and "Glasgow Name Study" means the WikiTree study.
+LEGACY_SITE_NAMES = ('Glasgow surname archive', 'The surname archive', 'Glasgow source library',
+                     'Glasgow Sources', 'Glasgow archive', 'A living surname archive')
+# Representative pages of every builder family whose <title> and rail must
+# carry the one site name.
+IDENTITY_PAGES = ('index.html', 'about/index.html', 'feedback/index.html', 'status/index.html',
+                  'coverage/index.html', 'statistics/index.html', 'resources/index.html',
+                  'catalogue/index.html', 'people/glasgow-951.html', 'branches/index.html',
+                  'branches/larne-kilwaughter/index.html', 'sources/index.html', 'records/index.html',
+                  'free-space/index.html', 'research/index.html', 'latest-findings/index.html',
+                  'ydna/index.html', 'timeline/index.html', 'evidence/index.html', 'data/index.html')
 
 
 class Element:
@@ -97,7 +111,7 @@ def audit(web=WEB):
 
     for relative in ('catalogue/index.html', 'status/index.html', 'data/index.html'):
         document = page(relative)
-        require(any(link.exposed() for link in document.links('/changes/')), f'{relative}: missing accessible Latest research / Change log link')
+        require(any(link.exposed() for link in document.links('/changes/')), f'{relative}: missing accessible Change log link')
         # Statistics and Resources are folded into the Research and About
         # section submenus (tools/section_submenus.js); the primary rail must
         # keep their owning sections and load the submenu script.
@@ -133,6 +147,20 @@ def audit(web=WEB):
     require(summary_sizes[0] > 1 and summary_sizes[0] == summary_sizes[1], 'statistics: headline totals differ from the maintained catalogue')
     panels = [node for node in page('statistics/index.html').nodes if node.has_class('statistics-panel')]
     require(len(panels) >= 7 and all(node.exposed() for node in panels), 'statistics: detailed panels missing or collapsed')
+
+    for relative in IDENTITY_PAGES:
+        path = web / relative
+        if not path.exists():
+            continue
+        text = path.read_text(encoding='utf-8')
+        title = re.search(r'<title\b[^>]*>(.*?)</title>', text, re.S)
+        require(bool(title) and title[1].strip().endswith(' · ' + SITE_NAME),
+                f'{relative}: page title does not end with " · {SITE_NAME}"')
+        head_and_rail = text.split('<main', 1)[0]
+        for name in LEGACY_SITE_NAMES:
+            require(name not in head_and_rail, f'{relative}: earlier site name "{name}" in the title, rail or breadcrumb')
+        if relative.startswith('feedback'):
+            require('href="#"' not in text, f'{relative}: dead "#" link on the correction page')
 
     feed = page('changes/index.html')
     require(any(node.attrs.get('id') == 'latest-research' for node in feed.nodes), 'changes: missing Latest research feed')

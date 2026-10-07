@@ -74,6 +74,22 @@ def _with_index_redirect(text: str, clean: str) -> str:
     return text.replace("<head>", f"<head>\n  {script}", 1)
 
 
+CANONICAL = re.compile(r'<link\b(?=[^>]*\brel=["\']canonical["\'])[^>]*>', re.I)
+
+
+def _with_canonical(text: str, clean: str) -> str:
+    """Point a page (the clean copy or its legacy x.html twin) at the clean URL.
+
+    Legacy x.html pages stay full pages because later build steps still read
+    them; the canonical link tells search engines and the sitemap which copy
+    is the real one (site audit S1-06).
+    """
+    tag = f'<link rel="canonical" href="{SITE_URL}{clean.rstrip("/")}/">'
+    if CANONICAL.search(text):
+        return CANONICAL.sub(lambda _: tag, text, count=1)
+    return text.replace("</head>", tag + "</head>", 1)
+
+
 def _with_compare_shell(source: str, web_dir: Path) -> str:
     """Keep the freshly generated comparison inside its shared site shell."""
     shell_path = web_dir / "compare" / "advanced.html"
@@ -145,9 +161,13 @@ def publish_clean_urls(web_dir: Path = WEB_DIR) -> None:
             source_text = _with_compare_shell(source_text, web_dir)
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_text(
-            _with_index_redirect(_with_base(_rewrite_routes(source_text), clean), clean),
+            _with_canonical(_with_index_redirect(_with_base(_rewrite_routes(source_text), clean), clean), clean),
             encoding="utf-8",
         )
+        legacy_text = source.read_text(encoding="utf-8")
+        with_canonical = _with_canonical(legacy_text, clean)
+        if with_canonical != legacy_text:
+            source.write_text(with_canonical, encoding="utf-8")
 
     for filename, clean in INDEX_ROUTES.items():
         path = web_dir / filename

@@ -6,6 +6,11 @@ from pathlib import Path
 import re
 from urllib.parse import urljoin, urlsplit
 
+try:
+    from tools import site_identity as identity
+except ModuleNotFoundError:
+    import site_identity as identity
+
 WEB = Path(__file__).resolve().parents[1] / 'www'
 NAV = re.compile(r'<nav\b(?=[^>]*\bclass="[^"]*\bg-nav\b[^"]*")[^>]*>.*?</nav>', re.S)
 ATLAS = re.compile(r'<a\b(?=[^>]*\bhref="/onetree/")[^>]*>.*?</a>', re.S)
@@ -18,7 +23,7 @@ RESOURCES = re.compile(r'<a\b(?=[^>]*\bhref="/resources/")[^>]*>.*?</a>', re.S)
 # Map is a view of the Atlas and Timeline part of Y-DNA; their sidebar entries
 # live in those sections' submenus (tools/section_submenus.js).
 SECTION_NAV = re.compile(r'<nav\b(?=[^>]*\bclass="[^"]*\bv3-view-nav\b[^"]*")[^>]*>.*?</nav>', re.S)
-PERSON_FOOTER = '<footer class="g-footer"><div><span class="g-footer-name">The Glasgow Surname Project</span><p>Family history research, with sources and notes on uncertain relationships.</p></div><nav class="g-footer-links" aria-label="Project information"><a href="/about/">About the project</a><a href="/catalogue/">Browse people</a><a href="/research/">Research questions</a><a href="/changes/">Latest research</a><a href="/feedback/">Suggest a correction &nearr;</a></nav></footer>'
+PERSON_FOOTER = identity.footer_html()
 
 PRIMARY_NAV_ITEMS = (
     ('/', 'Home', '<svg class="g-ico" viewbox="0 0 24 24" aria-hidden="true"><path d="m3 10 9-7 9 7M5 9v11h14V9M9 20v-7h6v7"></path></svg>'),
@@ -60,27 +65,38 @@ SECTION_SUBMENU_ITEMS = {
         ('/records/', 'Records by person'),
         ('/research/transcriptions/', 'Wills &amp; transcriptions'),
     ),
+    '/research/': (
+        ('/research/#open-questions', 'Open questions'),
+        ('/connections/', 'Find a relationship'),
+        ('/compare/', 'Compare two people'),
+        ('/free-space/', 'WikiTree study pages'),
+    ),
+    # Changes and Feedback stay under About (AGENTS.md).  Status is reached
+    # from "About the data" and the top-bar snapshot link.
     '/about/': (
         ('/about/', 'About this project'),
-        ('/resources/', 'Resources'),
-        ('/coverage/', 'Coverage &amp; method'),
+        ('/evidence/', 'How to read the evidence'),
+        ('/coverage/', 'About the data'),
+        ('/statistics/', 'Statistics'),
         ('/data/', 'Data &amp; downloads'),
+        ('/resources/', 'Resources'),
         ('/changes/', 'Change log'),
-        ('/feedback/', 'Suggest a correction'),
-        ('/status/', 'Catalogue status'),
+        ('/privacy/', 'Privacy'),
+        ('/feedback/', 'Report a correction'),
     ),
 }
 
 SECTION_ROOTS = {
     'about': '/about/', 'changes': '/about/', 'coverage': '/about/', 'data': '/about/',
-    'feedback': '/about/', 'privacy': '/about/', 'resources': '/about/', 'status': '/about/',
+    'evidence': '/about/', 'feedback': '/about/', 'privacy': '/about/', 'resources': '/about/',
+    'statistics': '/about/', 'status': '/about/',
     'branches': '/branches/',
     'catalogue': '/catalogue/', 'early-records': '/catalogue/', 'people': '/catalogue/',
     'map': '/onetree/', 'onetree': '/onetree/', 'places': '/branches/',
     'dna': '/ydna/', 'timeline': '/ydna/', 'ydna': '/ydna/',
     'candidate-matches': '/research/', 'compare': '/research/', 'connections': '/research/',
     'events': '/research/', 'free-space': '/research/', 'records': '/sources/',
-    'research': '/research/', 'sources': '/sources/', 'statistics': '/research/',
+    'research': '/research/', 'sources': '/sources/',
     'latest-findings': '/latest-findings/',
 }
 
@@ -138,6 +154,83 @@ def render_primary_navigation(relative: Path) -> str:
             # deferred JS can then reuse it without a visible relocation.
             links.append(submenu)
     return f'<nav class="g-nav" aria-label="Main navigation">{"".join(links)}</nav>'
+
+
+SECTION_LABELS = {href: label for href, label, _ in PRIMARY_NAV_ITEMS}
+CRUMBS = re.compile(r'<div class="g-crumbs">(.*?)</div>', re.S)
+IN_MAIN_CRUMB = re.compile(r'<nav class="crumb"[^>]*>.*?</nav>', re.S)
+
+
+def render_breadcrumbs(relative: Path, title_html: str) -> str:
+    """One breadcrumb: Home / <section> / <page> (S1-09).
+
+    ``title_html`` is already escaped.  The section level is left out on the
+    home page and on a section's own landing page.
+    """
+    if relative.as_posix() == 'index.html':
+        return '<div class="g-crumbs"><strong>Home</strong></div>'
+    section = section_for(relative)
+    parts = ['<a href="/">Home</a>']
+    if section != '/' and urlsplit(_relative_url(relative)).path != section:
+        parts.append(f'<a class="g-crumb-section" href="{section}">{SECTION_LABELS[section]}</a>')
+    parts.append(f'<strong>{title_html}</strong>')
+    return '<div class="g-crumbs">' + '<i>/</i>'.join(parts) + '</div>'
+
+
+def _is_redirect_stub(page: str) -> bool:
+    head = page.split('</head>', 1)[0]
+    return ('data-clean-route-redirect' in head
+            or bool(re.search(r'<meta\b[^>]*\bhttp-equiv=["\']refresh["\']', head, re.I)))
+
+
+def repair_site_identity_page(page: str, relative: Path) -> str:
+    """Give one page the site's single name, breadcrumb, rail foot and footer.
+
+    Idempotent; changes only shared chrome, never <main> content except a
+    duplicate in-page breadcrumb when the top-bar breadcrumb is present.
+    """
+    if _is_redirect_stub(page):
+        return page
+    page = re.sub(r'<title\b([^>]*)>(.*?)</title>',
+                  lambda m: f'<title{m[1]}>{identity.normalise_title(m[2])}</title>', page, count=1, flags=re.S | re.I)
+    og = identity.og_site_name_tag()
+    if re.search(r'<meta\b[^>]*\bproperty=["\']og:site_name["\'][^>]*>', page, re.I):
+        page = re.sub(r'<meta\b[^>]*\bproperty=["\']og:site_name["\'][^>]*>', og, page, count=1, flags=re.I)
+    elif '</title>' in page:
+        page = page.replace('</title>', '</title>' + og, 1)
+    page = re.sub(r'<span class="g-brand-caption">.*?</span>',
+                  f'<span class="g-brand-caption">{identity.SITE_RAIL_CAPTION}</span>', page, count=1, flags=re.S)
+    page = page.replace('aria-label="Glasgow archive home"', f'aria-label="{identity.SITE_NAME} home"')
+    page = page.replace('aria-label="Glasgow archive" class="g-rail"', f'aria-label="{identity.SITE_NAME}" class="g-rail"')
+    # The rail repeated menu links; keep only "Find a connection" (S1-07).
+    page = re.sub(r'<div class="repair-quick-links">.*?</div>',
+                  '<div class="repair-quick-links"><a href="/connections/">Find a connection &rarr;</a></div>',
+                  page, count=1, flags=re.S)
+    page = re.sub(r'<div class="g-rail-bottom">.*?(?=</aside>)', lambda _: identity.rail_bottom_html(),
+                  page, count=1, flags=re.S)
+    crumbs = CRUMBS.search(page)
+    if crumbs:
+        strong = re.search(r'<strong>(.*?)</strong>', crumbs[1], re.S)
+        if strong:
+            page = page[:crumbs.start()] + render_breadcrumbs(relative, strong[1].strip()) + page[crumbs.end():]
+            page = IN_MAIN_CRUMB.sub('', page)
+    page = re.sub(r'<footer\b(?=[^>]*\bclass="g-footer")[^>]*>.*?</footer>',
+                  lambda _: identity.footer_html(), page, flags=re.S)
+    return page
+
+
+def repair_site_identity() -> Counter:
+    """Apply only the site-identity pass to every public page."""
+    changed = Counter()
+    for path in WEB.rglob('*.html'):
+        if is_excluded(path) or 'www_old' in path.parts:
+            continue
+        page = path.read_text(encoding='utf-8')
+        updated = repair_site_identity_page(page, path.relative_to(WEB))
+        if updated != page:
+            path.write_text(updated, encoding='utf-8')
+            changed['site_identity'] += 1
+    return changed
 
 
 def is_excluded(path: Path) -> bool:
@@ -425,7 +518,7 @@ def repair():
 
         updated = SECTION_NAV.sub(sections, updated)
         if relative.as_posix() == 'catalogue/index.html' and 'href="/changes/"' not in updated:
-            updated = updated.replace('</main>', '<p><a href="/changes/">Latest research</a></p></main>', 1)
+            updated = updated.replace('</main>', '<p><a href="/changes/">Change log</a></p></main>', 1)
         if relative.as_posix() in {'status/index.html', 'status.html'} and 'class="g-nav-link" href="/research/"' not in updated:
             links = '<a class="g-nav-link" href="/research/">Research</a><a class="g-nav-link" href="/about/">About</a>'
             updated = updated.replace('</nav>', links + '</nav>', 1)
@@ -435,8 +528,8 @@ def repair():
         def footer_links(match):
             footer = match.group(0)
             if not re.search(r'href="/changes(?:/|\.html)"', footer):
-                footer = footer.replace('</nav>', '<a href="/changes/">Latest research</a></nav>', 1)
-            footer = re.sub(r'(<a\b[^>]*href="/changes(?:/|\.html)"[^>]*>)Change log(</a>)', r'\1Latest research\2', footer)
+                footer = footer.replace('</nav>', '<a href="/changes/">Change log</a></nav>', 1)
+            footer = re.sub(r'(<a\b[^>]*href="/changes(?:/|\.html)"[^>]*>)Latest research(</a>)', r'\1Change log\2', footer)
             for url, label in (
                 ('https://www.wikitree.com/wiki/Space:Glasgow_Name_Study', 'WikiTree Name Study'),
                 ('https://groups.io/g/glasgowdnaproject/', 'Discussion group'),
@@ -450,11 +543,12 @@ def repair():
             footer_links, updated, flags=re.S,
         )
         if not re.search(r'href="/changes/"', updated):
-            latest = '<a href="/changes/">Latest research</a>'
+            latest = '<a href="/changes/">Change log</a>'
             if '</footer>' in updated:
                 updated = updated.replace('</footer>', latest + '</footer>', 1)
         if NAV.search(updated):
             updated = update_section_submenu_references(updated)
+        updated = repair_site_identity_page(updated, relative)
         if relative.as_posix() == 'research/index.html' and 'class="repair-transcriptions-card"' not in updated:
             card = '<a class="repair-research-card repair-transcriptions-card" href="/research/transcriptions/"><h2>Wills &amp; testament transcriptions</h2><p>Read the latest saved LLM-assisted readings, linked profiles, source references and unresolved passages.</p><span>Explore the transcriptions &rarr;</span></a>'
             if 'repair-transcriptions-card"' not in updated:
@@ -470,8 +564,11 @@ if __name__ == '__main__':
     parser.add_argument('--nav-only', action='store_true', help='replace only rails and submenu asset references')
     parser.add_argument('--about-shell-only', action='store_true', help='wrap clean change log and feedback pages in the shared shell')
     parser.add_argument('--reader-shell-only', action='store_true', help='wrap legacy public reader pages in the shared shell')
+    parser.add_argument('--identity-only', action='store_true', help='apply only the site name, breadcrumb, rail foot and footer pass')
     args = parser.parse_args()
-    if args.reader_shell_only:
+    if args.identity_only:
+        print(dict(repair_site_identity()))
+    elif args.reader_shell_only:
         print(dict(repair_reader_shell()))
     elif args.about_shell_only:
         print(dict(repair_about_shell()))

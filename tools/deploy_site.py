@@ -20,7 +20,13 @@ EXCLUDE_PATTERNS = (
     "glasgow-site-*.tar.gz", ".DS_Store", "._*", ".env", ".env.*",
     "*.py", "*.pyc", "*.pyo", "*.pem", "*.key", "*.p12", "*.pfx",
     "__pycache__/",
+    # Internal build reports, never reader pages (site audit S1-05).
+    "/dossier-release.json", "/integration-report.json", "*.tmp",
 )
+# Root-level build reports matched by name in is_excluded() as well.
+BUILD_REPORTS = {"dossier-release.json", "integration-report.json"}
+# Release bundles are written outside the web root (site audit S1-05).
+BUNDLE_DIR_NAME = "dist"
 PRIVATE_DIR_NAMES = {
     "private", "private-research", "secrets", "raw", "source", "__pycache__",
 }
@@ -65,6 +71,8 @@ def is_excluded(relative: Path) -> bool:
         or relative.name.startswith(".env.")
         or relative.suffix.casefold() in PRIVATE_SUFFIXES
         or relative.match("glasgow-site-*.tar.gz")
+        or (len(relative.parts) == 1 and relative.name in BUILD_REPORTS)
+        or relative.suffix == ".tmp"
     )
 
 
@@ -86,9 +94,10 @@ def bundle_name(now: dt.datetime | None = None) -> str:
 
 
 def make_bundle(site_root: Path, now: dt.datetime | None = None) -> Path:
-    """Create a verified, rootless tarball outside www before moving it in."""
+    """Create a verified, rootless tarball in dist/ beside (never inside) www."""
     validate_release_tree(site_root)
-    destination = site_root / bundle_name(now)
+    destination = site_root.parent / BUNDLE_DIR_NAME / bundle_name(now)
+    destination.parent.mkdir(parents=True, exist_ok=True)
     temporary = site_root.parent / f".{destination.name}.tmp"
     with tarfile.open(temporary, "w:gz") as archive:
         manifest = []
@@ -169,7 +178,7 @@ def main() -> int:
     parser.add_argument("--execute", action="store_true", help="perform upload (default is dry-run)")
     parser.add_argument("--atomic", action="store_true", help="release directory plus symlink switch; host document root must support symlinks")
     parser.add_argument("--rollback", action="store_true", help="switch an atomic deployment back to its prior release")
-    parser.add_argument("--bundle", action="store_true", help="create www/glasgow-site-YYYYMMDD-HHMMSS.tar.gz")
+    parser.add_argument("--bundle", action="store_true", help="create dist/glasgow-site-YYYYMMDD-HHMMSS.tar.gz (outside www/)")
     parser.add_argument("--no-stamp", action="store_true", help="skip content-hash asset stamping (not recommended)")
     parser.add_argument("--base-url", default="https://glasgow.phenotype.dev", help="URL passed to smoke test after upload")
     args = parser.parse_args()

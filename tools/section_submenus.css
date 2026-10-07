@@ -50,3 +50,6 @@ body[data-g-path="/feedback.html"] #feedback-template{
   .v3-site .g-rail .g-nav{grid-template-columns:repeat(2,minmax(0,1fr));gap:4px!important}
   .v3-site .g-rail .g-nav>.g-nav-link{padding:9px 8px;gap:8px;font-size:13px}
 }
+/* Breadcrumb section level (site audit S1-09): small on phones so
+   "Home / People / Name" fits at 360 px beside the menu button. */
+@media(max-width:760px){.g-crumbs a.g-crumb-section{display:inline-block;font-family:inherit;font-size:10px;line-height:1.2;letter-spacing:.4px;text-transform:uppercase;max-width:28vw;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}}

@@ -20,6 +20,8 @@ try:
     from site_analytics import with_analytics
     from public_privacy import from_sources as privacy_from_sources, likely_living as privacy_likely_living, evidence_envelope, public_capture
     from records_page import records_body, records_assets
+    from about_pages import FEEDBACK_SCRIPT, render_feedback_body, render_status_body
+    from site_identity import SITE_NAME
     import evidence_labels
     from catalogue_theme import CATALOGUE_ASSET_VERSION, write_catalogue_css
     from catalogue_search_markup import compact_statistics, hero_html as catalogue_hero_html, search_panel_html as catalogue_search_panel_html
@@ -38,6 +40,8 @@ except ModuleNotFoundError:  # Imported as tools.build_research_catalog by tests
     from tools.site_analytics import with_analytics
     from tools.public_privacy import from_sources as privacy_from_sources, likely_living as privacy_likely_living, evidence_envelope, public_capture
     from tools.records_page import records_body, records_assets
+    from tools.about_pages import FEEDBACK_SCRIPT, render_feedback_body, render_status_body
+    from tools.site_identity import SITE_NAME
     from tools import evidence_labels
     from tools.catalogue_theme import CATALOGUE_ASSET_VERSION, write_catalogue_css
     from tools.catalogue_search_markup import compact_statistics, hero_html as catalogue_hero_html, search_panel_html as catalogue_search_panel_html
@@ -3702,10 +3706,10 @@ def _page(
         asset_prefix = "../" * canonical_path.strip("/").count("/")
     html = f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{escape(title)} · Glasgow Surname Project</title>
+<title>{escape(title)} · {SITE_NAME}</title>
 <meta name="description" content="{escape(description, quote=True)}"><link rel="canonical" href="{SITE_URL}{canonical_path}">
 <link rel="icon" href="{asset_prefix}assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="{asset_prefix}people/catalogue.css?v={CATALOGUE_ASSET_VERSION}">{extra_head}</head>
-<body><header><a class="brand" href="{escape(brand_href, quote=True)}">Glasgow Surname Project</a><nav><a href="/map/">Map</a><a href="/catalogue.html">People</a><a href="/records/">Records</a><a href="/places/">Places</a><a href="/compare.html">Compare</a><a href="/data/index.html">Data</a></nav></header>
+<body><header><a class="brand" href="{escape(brand_href, quote=True)}">{SITE_NAME}</a><nav><a href="/map/">Map</a><a href="/catalogue.html">People</a><a href="/records/">Records</a><a href="/places/">Places</a><a href="/compare.html">Compare</a><a href="/data/index.html">Data</a></nav></header>
 <main>{body}</main><footer><p>Generated from the same records as the family map. Profile fields and inferred placements are research leads unless supported by cited records.</p><p><a href="/changes.html">Change log</a> · <a href="/feedback.html">Report a correction</a> · <a href="/status.html">Catalogue status</a></p></footer><script src="{asset_prefix}people/external-links.js?v={CATALOGUE_ASSET_VERSION}"></script>{script}</body></html>"""
     if asset_prefix != "/":
         html = html.replace('href="/', f'href="{asset_prefix}').replace('src="/', f'src="{asset_prefix}')
@@ -3757,7 +3761,7 @@ def _unified_data_page(body: str) -> str:
         count=1,
         flags=re.I,
     )
-    page = re.sub(r"<title\b[^>]*>[\s\S]*?</title>", "<title>Research data · Glasgow surname archive</title>", page, count=1, flags=re.I)
+    page = re.sub(r"<title\b[^>]*>[\s\S]*?</title>", f"<title>Research data · {SITE_NAME}</title>", page, count=1, flags=re.I)
     page = re.sub(
         r'<meta\b(?=[^>]*\bname=["\']description["\'])[^>]*>',
         '<meta name="description" content="Machine-readable Glasgow surname research datasets and interpretation rules.">',
@@ -5934,8 +5938,8 @@ def _write_support_pages(
     )
     (CATALOGUE_DIR / "compare.js").write_text(Path(__file__).with_name("compare_people.js").read_text(encoding="utf-8") + "\n", encoding="utf-8")
 
-    feedback_script = """<script>(()=>{const p=new URLSearchParams(location.search).get('person')||'';const label=document.querySelector('#feedback-person');const link=document.querySelector('#feedback-wikitree');const text=document.querySelector('#feedback-template');label.textContent=p||'No person selected';if(/^[A-Za-z][A-Za-z_'’-]*-\\d+$/.test(p)){link.href='https://www.wikitree.com/wiki/'+encodeURIComponent(p);link.hidden=false}text.value=`Catalogue person: ${p||'[person or page]'}\nCatalogue URL: ${location.href}\nCorrection requested:\n\nSource and exact reference:\n\nReason:`;document.querySelector('#feedback-copy').addEventListener('click',async()=>{await navigator.clipboard.writeText(text.value);document.querySelector('#feedback-copy').textContent='Copied'});})();</script>"""
-    feedback_body = """<p class="kicker">Corrections and additional evidence</p><h1>Report a correction</h1><p class="lede">Catalogue entry: <strong id="feedback-person">No person selected</strong></p><section><h2>Profile correction</h2><p>If the person has a WikiTree profile, add the sourced correction there or contact the profile managers. That keeps the public tree and this catalogue aligned.</p><div class="actions"><a id="feedback-wikitree" class="button" href="#" hidden>Open WikiTree profile</a><a class="button secondary" href="https://www.wikitree.com/wiki/Space:Glasgow_Name_Study">Contact the Glasgow Name Study</a></div></section><section><h2>Prepare a precise report</h2><p>Include the affected claim, the correction, and an exact source reference or image location. Do not submit living-person details.</p><textarea id="feedback-template" class="feedback-template" rows="10"></textarea><p><button id="feedback-copy" class="button" type="button">Copy correction template</button></p></section>"""
+    feedback_script = FEEDBACK_SCRIPT
+    feedback_body = render_feedback_body()
     (WEB_DIR / "feedback.html").write_text(_page("Report a correction", "How to report corrections and evidence to the Glasgow Surname Project.", feedback_body, "/feedback.html", script=feedback_script), encoding="utf-8")
 
     changelog_path = Path(__file__).resolve().parents[1] / "data" / "catalogue-changelog.json"
@@ -5967,7 +5971,7 @@ def _write_support_pages(
         f'<div class="status-card"><strong>{value:,}</strong><span>{escape(label)}</span></div>'
         for label, value in (("Historical people", len(public_people)), ("Mapped records", len(public_records)), ("Research places", len(place_index)), ("Substantive case files", findings_count), ("Possible duplicate comparisons", duplicate_leads), ("Explicit source links", source_counts.get("explicit", 0)), ("Candidate source matches", source_counts.get("candidate", 0)), ("Unresolved citations", source_counts.get("unresolved", 0)))
     )
-    status_body = f'<p class="kicker">Build and provenance health</p><h1>Catalogue status</h1><p class="lede">Generated {escape(generated)} from {escape(export_version)}.</p><div class="status-grid">{status_cards}</div><section><h2>Interpretation</h2><p>Candidate citation matches are research leads awaiting inspection. The status page reports build coverage, not proof that every tree relationship is correct.</p><p><a href="/health.json">Machine-readable health report</a> · <a href="/data/source-review.csv">Source-review queue</a></p></section>'
+    status_body = render_status_body(health)
     (WEB_DIR / "status.html").write_text(_page("Catalogue status", "Build status and source-quality coverage for the Glasgow Surname Project.", status_body, "/status.html"), encoding="utf-8")
     return health
 

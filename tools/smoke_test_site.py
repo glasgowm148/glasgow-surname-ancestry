@@ -15,7 +15,7 @@ from urllib.request import Request, urlopen
 
 
 PAGES = {
-    "/": ("Glasgow family history", None), "/catalogue/": ("Find a person", None),
+    "/": ("Glasgow Surname Project", None), "/catalogue/": ("Find a person", None),
     "/onetree/": ("The family tree", None), "/branches/": ("Families and places", None),
     "/ydna/": ("Before the name.", None), "/research/": ("Questions we are working on", None),
     "/people/glasgow-951.html": ("Alexander Glasgow", "Glasgow-951"),

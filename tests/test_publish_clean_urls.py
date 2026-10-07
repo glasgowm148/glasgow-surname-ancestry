@@ -32,8 +32,14 @@ class PublishCleanUrlsTest(unittest.TestCase):
 
             publish_clean_urls(web)
 
-            self.assertEqual(source.read_text(encoding="utf-8"), original)
+            # The legacy copy keeps its portable links and gains only a
+            # canonical link to the clean route (site audit S1-06).
+            canonical = '<link rel="canonical" href="https://glasgow.phenotype.dev/catalogue/">'
+            self.assertEqual(source.read_text(encoding="utf-8"), original.replace("</head>", canonical + "</head>"))
+            publish_clean_urls(web)
+            self.assertEqual(source.read_text(encoding="utf-8").count('rel="canonical"'), 1)
             clean = (web / "catalogue" / "index.html").read_text(encoding="utf-8")
+            self.assertEqual(clean.count(canonical), 1)
             self.assertIn('<base href="../">', clean)
             self.assertIn('location.protocol!=="file:"', clean)
             self.assertIn('data-local-file-links', clean)
