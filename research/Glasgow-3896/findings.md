@@ -1,6 +1,6 @@
 # Findings: Glasgow-3896
 
-Last updated: 2026-10-03
+Last updated: 2026-10-07
 
 ## Assessment history — will and marriage review
 
@@ -114,7 +114,7 @@ which parent the brothers shared, so this parentage remains provisional.
 
 [Griffith's Valuation for Rasharkin](https://www.failteromhat.com/griffiths/antrim/rasharkin.htm)
 lists Daniel and Robert Glasgow at Gortereghy. Daniel is probably this Kilrea
-watchmaker/farmer, but the name-only valuation is not a direct identification.
+watchmaker/farmer, but the name-only valuation is not a direct identification. (Revised 7 October 2026: a second candidate, Daniel of Culmore, Glasgow-3475, is now known, and this identity is reduced to possible; see below.)
 The Robert was most likely younger Robert `Glasgow-938`, proved son of Alexander
 `Glasgow-951`, whose 1866 marriage links Lisnagaver and Gortereghy. If younger
 Alexander was Daniel's brother, the two occupiers were uncle and nephew. This
@@ -251,3 +251,23 @@ Fresh visual inspection of the retained original captures corrects the 3 October
 
 - Death notice: died 16 Oct 1871, Church Street, Kilrea, aged 75. — Belfast Evening Telegraph, 21 Oct 1871 (newspapers.com image 1267991526) ([Belfast Evening Telegraph, 1871-10-21, p.3](https://www.newspapers.com/image/1267991526/))
 - Death notice: died 16 Oct 1871, Church Street, Kilrea, aged 73 (variant age). — Belfast News-Letter, 21 Oct 1871 (newspapers.com image 388271252) ([Belfast News-Letter, 1871-10-21, p.1](https://www.newspapers.com/image/388271252/))
+
+<!-- repo-integration-audit-2026-10-07:L12-003 -->
+## Identity assessment — a second candidate for the Gortereghy Daniel, 7 October 2026
+
+A second Daniel Glasgow lived near Lisnagaver. Daniel Glasgow of Culmore, Rasharkin, a married weaver, died there on 14 December 1867 aged 50 (GRONI death register D/1868/31/1005/1/451, Dirraw entry 451, image viewed 23 September 2026; informant Martha Glasgow, probably his wife; [index](https://www.familysearch.org/ark:/61903/1:1:QP3S-P6DL)). He is [Glasgow-3475](https://www.wikitree.com/wiki/Glasgow-3475). The 17 September 2026 review took him, rather than this Daniel, as the likelier occupier of Griffith's "Daniel Glasgow, Gortereghy"; after the register was read, `research/Glasgow-3475/findings.md` grades that identity possible, not proved.
+
+Griffith's gives no map reference for the Gortereghy Daniel, and the revision books read so far do not locate his holding. The Gortereghy Daniel is therefore unresolved between this Daniel of Kilrea and the Culmore weaver, and the statement above that he is probably this Daniel is reduced to possible. The Gortereghy entry now gives at most weak support to the proposed Daniel–Alexander collateral relationship.
+
+Recorded in `research/Glasgow-951/research-log-2026-09-17-live.md` (17 September 2026) and `research/Glasgow-3475/findings.md` (26 September 2026); carried into this file on 7 October 2026.
+
+<!-- repo-integration-audit-2026-10-07:L12-007 -->
+## Source findings — Kilrea in 1831, 1846 and Griffith's Valuation (recorded July–September 2026)
+
+- **1846:** [Slater's National Commercial Directory of Ireland](https://www.failteromhat.com/slater/0192.pdf), Kilrea, p. 473, lists "Glasco Daniel" under Watch & Clock Makers.
+- **1858–59:** [Griffith's Valuation for Kilrea](https://www.failteromhat.com/griffiths/derry/kilrea.php) lists Daniel Glasgow in **Church Street** and a Daniel Glasgow with a holding at **Claragh**.
+- **1831:** the [County Londonderry census place index](https://www.billmacafee.com/1831census/1831derrycensusplace.pdf) lists a household of "Danl. Glasgow" (the compiler queries "Glosger") in Kilrea town.
+
+All three were seen as online copies or transcriptions. The directory and the Church Street entry fit this Daniel, the Kilrea watchmaker who died in Church Street on 16 October 1871; the 1831 entry probably does too. The Claragh holding may be his or another Daniel's; its tenement details have not been compared.
+
+Recorded in `research/Glasgow-3896/Glasgow-3896.md` (profile draft, references accessed 16 July 2026) and `research/Glasgow-951/sources/agent_B_2026-09-17.md` (17 September 2026); carried into this file on 7 October 2026.

@@ -73,3 +73,16 @@ Queued for review; nothing has been changed on WikiTree, and the live state shou
 - **Biography.** Lead with the record that defines the profile: "John Glasgow, farmer, is named as the father of John Glasgow of Lisnagaver (Glasgow-867) in the latter's marriage at Second Garvagh Presbyterian Church on 16 November 1846. The 1851 Lisnagaver return calls Samuel (Glasgow-2908) the younger John's brother." Move the 1796 Desertoghill flax-list entry to a "Possible identity" section.
 - **Birth.** Mark the Desertoghill birthplace and the "before 1772" birth as uncertain: the flax list records residence in 1796, not birth, and the date bound assumes Samuel was John farmer's son. Do not clear them without an evidenced replacement.
 - Keep John-867's confident father status, which the 1846 record supports once the profile is defined by that record.
+
+<!-- repo-integration-audit-2026-10-07:L12-006 -->
+## Source findings — Desertoghill and neighbouring parishes searched, 17 September 2026
+
+A bounded sweep of compiled County Londonderry lists found:
+
+- the [1796 flax growers' list](https://www.billmacafee.com/1796flaxgrowerslist/1796flaxgrowersderry.pdf): **John Glasgow, Desertoghill, two wheels**, the only entry under Glasgow, Glasco, Glasgo, Glascow or Glesco;
+- the [1831 census place index](https://www.billmacafee.com/1831census/1831derrycensusplace.pdf): no Glasgow or Glasco household in Desertoghill; the Glasgow households then were in Kilrea town (Daniel) and at Inishrush, Tamlaght O'Crilly (John and Adam);
+- Griffith's Valuation (failteromhat.com transcriptions) for Desertoghill, Aghadowey, Errigal, Macosquin, Dunboe and Killowen: no Glasgow or Glasco occupier. Glass entries (James and John at Moyletra Kill, Desertoghill; Robert at Crockindollagh, Errigal) were noted and not counted.
+
+These are transcriptions and indexes, not original images, and the 1831 census is a place index. The absence from Desertoghill by 1831 is consistent with a move of the 1796 household to Rasharkin but does not show one. The identity of the 1796 flax grower with this John remains possible, not proved.
+
+Recorded in `research/Glasgow-951/sources/agent_B_2026-09-17.md` (17 September 2026); carried into this file on 7 October 2026.

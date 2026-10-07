@@ -1,6 +1,6 @@
 # Findings: Glasgow-1022
 
-Last updated: 2026-09-05
+Last updated: 2026-10-07
 
 ## Live profile correction — 30 August 2026
 
@@ -326,7 +326,7 @@ The 1851 census of John Glasgow's Glenleslie household includes a married nephew
 
 | Profile | Assessment | Reason |
 | --- | --- | --- |
-| Glasgow-3474 | **Strongest current candidate** | The original civil register identifies him as a married farmer of **Lisnagaver**, aged 78, who died on 24 June 1885; his son James Glasgow of Lisnagaver reported the death. The age is reasonably compatible with the 1851 census and the immediate locality fits. He was not [[Glasgow-867]], whose family gravestone records death in 1895. No record yet directly calls the 1885 man Robert's son, so this remains probable rather than proved. |
+| Glasgow-3474 | **Strongest current candidate** | The original civil register identifies him as a married farmer of **Lisnagaver**, aged 78, who died on 24 June 1885; his son James Glasgow of Lisnagaver reported the death. The age is reasonably compatible with the 1851 census and the immediate locality fits. He was then treated as distinct from [[Glasgow-867]], whose family gravestone records death in 1895; that distinction is superseded (see the assessment of 7 October 2026 below). No record yet directly calls the 1885 man Robert's son, so this remains probable rather than proved. |
 | Glasgow-3140 | **Not the nephew; probably conflated** | Its parent attachment to Robert and Catherine corresponds to the son recorded in America in 1851, not the resident nephew. Its Elizabeth Fee and Samuel family belongs to an Armagh reconstruction: Samuel's published biography places his origin in County Armagh. A widowed farmer John Glasgow died at Killyreavy, County Armagh, on 27 December 1882, aged 66; his son-in-law James Campbell reported the death. Campbell had married Martha Jane Glasgow, daughter of John Glasgow, farmer of Killyreavy, in 1873. The Armagh family may therefore represent another John improperly combined with Robert's emigrant son. |
 | Glasgow-2407 | **Ruled out** | His original 1865 marriage to Rachel Grey describes him as a bachelor. He therefore cannot be the John who reported that he had married in 1839. |
 
@@ -356,3 +356,12 @@ civil records remain cited.
 ## Relationship assessment — superseded attachments, 6 October 2026
 
 In the WikiTree snapshot of 28 September 2026, John Glasgow-1022's father is John Glasgow-3959 of Ballyboggy (uncertain), and John Glasgow-867 and Samuel Glasgow-2908 are attached to John Glasgow-4090, the record-defined John Glasgow, farmer. John-1022 is a disfavoured identity for that father: his 1851 Glenleslie household records a daughter Nancy who died in 1847 aged 36, while Nancy of Plattsburgh, Alexander Glasgow-951's probable sister, lived to 1891. The attachment to William Glasgow-1505 of Larne described above is historical, and the "William of Larne → John of Glenleslie → John of Lisnagaver" route no longer describes either the tree or the research.
+
+<!-- repo-integration-audit-2026-10-07:L12-016 -->
+## Identity assessment — the resident nephew and Glasgow-3474, 7 October 2026
+
+The candidate assessment above is superseded in part. The 1885 Lisnagaver death on which Glasgow-3474 was built ([register image](https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1885/06280/4799372.pdf): John Glasgow, married farmer, 78, informant his son James of Lisnagaver) is now attributed, as probable, to John Glasgow-867 of Lisnagaver, and the 17 September 2026 live-session log reports Glasgow-3474 as merged into Glasgow-867. The gravestone's 1895 is treated as a probable error for 1885 (see `research/Glasgow-867/findings.md`). John-867 married as a bachelor in November 1846 and headed his own household at Lisnagaver (house 34) in 1851, aged fifty, with his brother Samuel. If the 1885 man is John-867, he cannot be the nephew, aged 40 and married since 1839, who was living in this Glenleslie household.
+
+Glasgow-3474 is therefore no longer a separate candidate. The resident nephew remains unidentified; the 1835 Glenravel marriage of a John Glasgow of Glenleslie noted above is an unproved lead. The assessments of Glasgow-2407 and Glasgow-3140 are unchanged.
+
+Recorded in `research/Glasgow-951/research-log-2026-09-17-live.md` (17 September 2026); carried into this file on 7 October 2026.

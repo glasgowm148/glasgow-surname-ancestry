@@ -355,3 +355,37 @@ The ropemaker hypothesis above is unchanged: James Glasgow-1509 as Adam's father
 It does not by itself connect the Lisnagaver family. Alexander Glasgow-951's probable father is John Glasgow, farmer. Adam was born between 1 July 1757 and 30 June 1758 by the Tamlaght stone as transcribed (died 30 June 1844 aged 86), so he is too young to be John farmer's father if Samuel Glasgow-2908, born about 1789 to 1791, was John farmer's son. The earlier routes to Alexander through older Alexander Glasgow-3904 and younger James Glasgow-3986 are withdrawn as routes; any Larne connection must join above John. The comparison of the ropemaker with Adam is a collateral question.
 
 No relationship is changed. [Full comparison](/people/glasgow-951.html#larne-reconstruction).
+
+<!-- repo-integration-audit-2026-10-07:L11-008 -->
+## Unresolved — 1844 death notice, recorded 16 July 2026
+
+No abstract or index found to date reports Adam's death or names his father, brother, birthplace or earlier residence. The IGRS Smythe-Wood newspaper abstracts (Series A and B, about 11,600 mainly Ulster entries, mainly 1800–60) contain no person surnamed Glasgow; the [Londonderry Sentinel death index, G, 1829–69](https://cotyrone.com/colondonderry/burial/CoLondonderry-DeathsSentinel-G-1829-1869.html) has no Adam. These are abstract and index negatives, not page-by-page searches. The British Newspaper Archive name searches of 7 October 2026 (above) also found nothing, but name searches of OCR text can miss short notices.
+
+The first issues after his death on 30 June 1844 are the targets for reading page by page: *Northern Whig* 1 or 4 July, *Belfast News-Letter* 2 or 5 July, *Londonderry Standard* 3 or 10 July, and *Londonderry Sentinel* and *Coleraine Chronicle* 6 July 1844 (the Chronicle's surviving run begins 13 April 1844). The NIFHS CD *The Coleraine Chronicle: Births, Marriages and Deaths 1844–1869* (David A. Beck) was not accessible. Query log: `../Glasgow-3905/sources/newspaper_adam_glasgow_audit_2026-07-16.tsv`.
+
+Recorded in `research/Glasgow-3905/agent_descendant_cluster.md` (16–17 July 2026); carried into this file on 7 October 2026.
+
+<!-- repo-integration-audit-2026-10-07:L11-010 -->
+## Next records — Vintners estate leases and the 1796 freeholder registration, recorded 16 July 2026
+
+Inishrush lay in the Vintners' Proportion, managed for the Conolly estate by agent John Spotswood of Bellaghy. Patrick Tohill's study *The Tohill Family of Ballymacpeake Upper* (2017 draft, pp. 17, 22, 27; a derivative account citing TCD Conolly papers `MS 3980/1350`) quotes Spotswood's letter of 9 June 1800: "I registered 234 freeholders on this estate in May 1796". Tohill states that Conolly extended leases from 31 to 41 years in 1788 and added three lives in 1796 to qualify tenants for the 1800 election, and that the 1775–93 rentals name only head tenants. This is estate context for Adam's 1831 freehold and for the 1799 declaration signed by an Adam Glasco whose identity with this Adam is unproved; it does not show that Adam was one of the 1796 freeholders. No Glasgow occurs in Tohill's searchable text.
+
+Published extracts for neighbouring Ballynacross from the townland-ordered Vintners lease book (PRONI `D1062/1/5`, c.1730–1826; [extracts](https://www.billmacafee.com/estates/bellaghy/ballynacross.htm)) show it naming replacement lives with ages and relationships, for example a son aged two in 1798 and a grandson aged twelve in 1802. The Inishrush entries have not been seen. The 1860 valuation manuscript (`../Glasgow-3905/sources/val12b_34_10a_inishrush_plot29.jpg`) shows the James Glasgow of plot 29 holding directly from the Conolly successors (Earl of Strafford, Viscount Clancarty and Marchioness of Lothian), not from an Ellis middleman, so the Vintners lease series is the right place to look. Targets in order: rentals `T2825/C/19/1-13` (1795–1801) and Spotswood's correspondence `T2825/C/18/1-67`; then `D2094/50-51, 68, 75-76, 78` and the lease book `D1062/1/5`; then `D1062/1/2` and `D1062/1/13`; the County Londonderry yeomanry musters `T1021/3`. None is online.
+
+Recorded in `research/Glasgow-3905/agent_ulster_archives.md` (16 July 2026); carried into this file on 7 October 2026.
+
+<!-- repo-integration-audit-2026-10-07:L11-024 -->
+## Source findings — Derry diocesan will calendar searched, recorded 17 and 21 July 2026
+
+A full-text search of William Macafee's [*Co. Londonderry Wills, Derry Diocese, 1612–1857*](https://jamesonnetwork.com/smj/data/derrywills.pdf), an index of more than 3,800 entries, found no Glasgow testator. The index covers Tamlaght O'Crilly and includes Thomas Macaw of Inishrush, probated 1846, so Adam's parish is within its scope. A second search of the same calendar ([billmacafee.com copy](https://www.billmacafee.com/wills/derrywills.pdf)) under Glasgow, Glasco, Glasgo, Glascow, Glassgow, Glaskow, Glascho and Glesgow also found none. This is an index negative: it does not prove that Adam left no will. The PRONI will calendars, which begin in 1858, return no Inishrush Glasgow before the later family (see `../Glasgow-3905/findings.md`).
+
+The calendar does not cover the separate Derry administration-bond index or the Derry and Raphoe diocesan grant book (1812–51). Adam died in 1844, inside the grant book's span, so a grant could still name an administrator; those are the next records.
+
+Recorded in `research/Glasgow-3905/agent_published_manuscripts.md` (17 July 2026) and `research/Glasgow-822/source-audits/direct-link-loop-2026-07-21.md` (21 July 2026); carried into this file on 7 October 2026.
+
+<!-- repo-integration-audit-2026-10-07:L11-037 -->
+## Source findings — neighbouring names in the 1799 declaration, checked 10 August 2026
+
+In the original [*Belfast News-Letter*, 27 September 1799, p. 1, article 50](https://www.britishnewspaperarchive.co.uk/viewer/bl/0000038/17990927/050/0001), `Adam Glasco` stands in the continuous sequence: Henry Hendry; Hugh Walkinshaw; Adam Glasco; Alexander M'Clelland; Thomas Orr; T. Donnelly, Moyagol; John Higgins, ditto. No residence or ditto mark follows Adam's name. The neighbouring names are recorded so that the original order, not the flattened Kinsleuth abstract, is used in any later associate analysis. They do not by themselves place Adam at Inishrush; identity with Adam of Inishrush remains plausible but unproved. Seen as the original newspaper image.
+
+Recorded in `research/Glasgow-3905/sources/adam_glasgow_contemporary_newspaper_audit_2026-08-10.md` (10 August 2026); carried into this file on 7 October 2026.

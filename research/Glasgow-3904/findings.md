@@ -305,3 +305,10 @@ This Alexander and Rosanna remain a weaker rival parent hypothesis for Alexander
 Whether this Alexander could instead be John farmer's father is not decided by chronology: his birth "about 1770" is only an estimate, derived from Daniel's birth about 1795-96. No record suggests the relationship.
 
 His possible place beside Adam of Inishrush, as a brother or cousin, is unchanged: a working comparison with no record. No WikiTree relationship is changed. [Full comparison](/people/glasgow-951.html#larne-reconstruction).
+
+<!-- repo-integration-audit-2026-10-07:L12-017 -->
+## Unresolved — "Alexander Glasgow, Ireland" in the Glasgow weavers' roll, 1816–17 (recorded 24 August 2026)
+
+Appendix VII of *Old Glasgow Weavers* (Incorporation of Weavers of Glasgow, 2nd edition) lists **Alexander Glasgow, Ireland** among members entering in 1816–17; the appendix says that addresses generally reflect the address at admission. The entry gives no county, age, family, father or occupation, and the roll includes merchants and other non-resident members, so it does not show that he was a weaver. No matching admission was found in the published *Burgesses and Guild Brethren of Glasgow, 1751–1846*. The entry is chronologically compatible with this proposed older Alexander but is not identified with him or with any other profile. The original admission or minute entry may give the mode of entry and a father or master; a draft lookup request is saved at `research/Glasgow-951/sources/glasgow_weavers_lookup_request_2026-08-24.md`.
+
+Recorded in `research/Glasgow-951/sources/glasgow_weavers_lookup_request_2026-08-24.md` (24 August 2026) and `research/Glasgow-951/findings.md`; carried into this file on 7 October 2026.

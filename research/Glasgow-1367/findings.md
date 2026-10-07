@@ -1,6 +1,6 @@
 # Findings: Glasgow-1367
 
-Last updated: 2026-08-25
+Last updated: 2026-10-07
 
 ## Current conclusion
 
@@ -113,7 +113,7 @@ missing bridge.
 | PRONI `D2223/15/56`, Ballyboggy title-deed bundle, 1704-c.1870 | A 1740 lease names [[Glasgow-3959|John Glasgow]] as joint lessee of one-third of Ballyboggy. The bundle's later principal leases name Lyle, Aikin, Harbison and Douglass rather than a Glasgow. | Establishes an older Glasgow presence in Ballyboggy, which borders Glenleslie, but does not prove descent to Robert. The later deeds prevent assuming that John's exact lease simply passed to the 1825 Glasgows. |
 | [Griffith's Valuation, Rasharkin](https://www.failteromhat.com/griffiths/antrim/rasharkin.htm) and [Robert/Jane marriage, 1866](https://civilrecords.irishgenealogy.ie/churchrecords/images/marriage_returns/marriages_1866/11531/8240963.pdf) | Griffith lists a Robert at Gortereghy. Younger Robert `Glasgow-938` was a 25-year-old Lisnagaver farmer, son of Alexander, whose bride lived at Gortereghy. | Exclusionary identity evidence: the younger man is the materially better Gortereghy candidate. Do not move this elderly Glenleslie Robert there. |
 | PRONI revision books `VAL/12/B/4/17A`, Gortereghy folio 21, and `17B`, folio 22; [1864 scan](sources/proni_VAL-12-B-4-17A_gortereghy_folio21.jpg), [later scan](sources/proni_VAL-12-B-4-17B_gortereghy_folio22.jpg) | Robert Glasgow occupied the separate house `18c` in 1864 and was carried into the next volume. | Further exclusionary evidence. `Glasgow-938` was about 24 and directly linked to both adjoining townlands by 1866; this profile would have been about 85. |
-| Civil death index, Ballymoney district, 1868, Robert Glasgow aged 71 | A possible local death entry exists, but no public original image identifies the man. | Unresolved namesake. If it is this Robert, its age implies birth about 1796/97 and conflicts with the 1851 age. |
+| Civil death index, Ballymoney district, 1868, Robert Glasgow aged 71 | A possible local death entry exists; the register was read on 23 September 2026 (a workhouse labourer, now Glasgow-3449, not this Robert; see below). | Unresolved namesake. If it is this Robert, its age implies birth about 1796/97 and conflicts with the 1851 age. |
 | PRONI Names, Pre-1858 Wills and Admons, Connor Diocesan Wills; [saved result](sources/proni_names_robert_glasgow_glenleslie_will_index_1854.txt) | A Robert Glasgow of Glenleslie has a will-index date of 1854. PRONI states that the original will was destroyed and no further information survives. | Independent townland/date anchor that exactly follows the 1851 household. It likely marks probate or death, but cannot supply heirs or prove parentage. The later 1858-1965 Will Calendar is the wrong date range for him. |
 | [PRONI Guide to Church Records](https://www.proni.gov.uk/files/proni/2026-01/PRONI%20Guide%20to%20Church%20Records.pdf), Rasharkin Presbyterian `MIC1P/292` | The surviving Rasharkin Presbyterian baptism register begins in 1834 and its marriage register in 1845. | Neither register can supply Robert's circa-1779 baptism or reported 1803 marriage. The absence of a parent record is a survival gap, not evidence for Adam. |
 | James McClure Glasgow's missionary journal, Warrnambool obituary transcription, and Victoria Gazette probate notice | A different Robert Glasgow, born about 1814 near Ballymena, was directly called brother by missionaries James and Adam Dickey Glasgow and died at Purnim, Victoria, in 1875. | Excluded collateral family. This Robert is already `Glasgow-1656`, son of the separate Clough/Ballymena household, and cannot support an Adam-of-Inishrush link for Robert of Glenleslie. See `research/Glasgow-1656/findings.md`. |
@@ -416,3 +416,21 @@ and arrears account for 1788–1789, is therefore a priority source for when the
 Glasgow tenancy began. Direct acreage matching is unsafe without the rent roll
 and maps because Cunningham and statute measure differ and the 1834 tithe did
 not necessarily cover the whole townland.
+
+<!-- repo-integration-audit-2026-10-07:L12-012 -->
+## Source findings — the 1868 Ballymoney death read from the register, 23 September 2026
+
+The Robert Glasgow aged 71 in the 1868 Ballymoney death index (table above) has been read from the GRONI register image (D/1868/27/1005/2/324, Ballymoney entry 324; [index](https://www.familysearch.org/ark:/61903/1:1:QP7B-B6H4)), viewed on 23 September 2026. He **died on 31 March 1868 in Ballymoney Workhouse**, a married labourer aged 71, of cancer of a year's standing; the informant was John Stewart, workhouse officer. The entry has its own profile, [Glasgow-3449](https://www.wikitree.com/wiki/Glasgow-3449).
+
+He is not this Robert, whose will was proved on 13 February 1854 and who died in or about 1852 (see the current conclusion). The note above that no original image identifies the 1868 man is superseded. Whether he was the separate Robert of the 1834 Lisnagaver tithe remains open: `research/Glasgow-3449/findings.md` calls the entry a weak fit for that farmer, neither confirming nor excluding him.
+
+Recorded in `research/Glasgow-3449/findings.md` (23 September 2026); carried into this file on 7 October 2026.
+
+<!-- repo-integration-audit-2026-10-07:L12-018 -->
+## Source findings — Glenleslie and Doonbought in Griffith's Valuation, 1861–62 (recorded 5 September 2026)
+
+In [William Macafee's transcript of Griffith's Valuation for North and Mid Antrim](https://www.billmacafee.com/1860griffiths/northmidantrimgriffiths.pdf), p. 210, the **only Glasgow occupier at Glenleslie is Margaret Glasgow** (record 11090), and a **Robert Glasgow is listed at Doonbought** (record 11015). These were seen as a transcription; the record numbers are the compiler's.
+
+Margaret fits Robert's unmarried daughter, aged 50 in his 1851 Glenleslie household, to whom his will left the farm for life (see the current conclusion). The Griffith's entry is therefore probably that life holding, and it confirms that the elderly Robert did not move to Gortereghy. The Doonbought Robert is possibly the younger Robert (Glasgow-1049) of the 1851 Doonbought household. Both identifications are probable or possible, not proved; the Glenleslie valuation revision books would show the succession.
+
+Recorded in `research/Glasgow-1022/agent_gortereghy_cluster.md` (5 September 2026); carried into this file on 7 October 2026.

@@ -1,6 +1,6 @@
 # Findings: Glasgow-938
 
-Last updated: 2026-10-06
+Last updated: 2026-10-07
 
 ## Current conclusion
 
@@ -11,7 +11,7 @@ estimated birth from the census and marriage ages.
 
 Robert `Glasgow-938`, not older Robert `Glasgow-1367`, is the materially best
 candidate for the Robert Glasgow listed at Gortereghy in Griffith's Valuation.
-The identification is strong but still inferential because the valuation gives
+The identification is probable but still inferential (unresolved in the correction note of 23 September 2026; see below) because the valuation gives
 no age or relative.
 
 The Scottish continuation needs an original-record bridge. Precise child-birth references are now available, but neither image was read in the 13 September follow-up. This limitation does not weaken the direct Irish father–son evidence above.
@@ -88,3 +88,14 @@ Compare the coroner’s inquest and subsequent reporting for an age, address or 
 The [6 January 1892 notice](https://www.newspapers.com/image/388125998/) calls Jane Graham "wife of Robert Glasgow, formerly of Rasharkin". "Wife of", where a widow would be called relict or widow, indicates that Robert was living when she died on 28 December 1891. Nancy Glasgow's Clinton County citation, dated 14 January 1892, names James, Mary and Ann as the children of Alexander Glasgow and does not name Robert. The citation therefore omitted a living son of Alexander. Its lists reflect the petitioner's knowledge and cannot be read as complete; see the 6 October source audit in `research/Glasgow-951/findings.md`.
 
 The same notice joins the Robert Glasgow of 534 Gallowgate to Rasharkin through his wife's name, age and death, so the Scottish identity bridge no longer depends on the two unread Bridgeton birth images. Those images, and the original of his reported 1902 death, remain worth reading for dates and informants.
+
+<!-- repo-integration-audit-2026-10-07:L12-014 -->
+## Identity assessment — the Gortereghy Robert, 23 September 2026
+
+A correction note of 23 September 2026 in `research/Glasgow-951/findings.md` records the project owner's report that Robert died in Scotland, and that Robert was therefore not linked as the Robert Glasgow of Gortereghy in Griffith's Valuation (about 1861). It names the only other candidate so far as the 1868 workhouse decedent [Glasgow-3449](https://www.wikitree.com/wiki/Glasgow-3449) and treats the identity as unresolved, while noting that a later death in Scotland does not exclude Robert holding land at Gortereghy at about twenty.
+
+No new record lies behind that change. The evidence above (the 1866 marriage linking Lisnagaver and Gortereghy, and the 18c house in the revision books from 1864) still favours this Robert over Glasgow-3449, a married labourer who died in Ballymoney Workhouse on 31 March 1868 aged 71. It does not identify him, because no valuation entry gives an age or relative. "Materially best candidate" above is a weighing between candidates, not an identification: the Gortereghy entry is a probable, unproved identity for this Robert.
+
+Next record: the year in which Robert's 18c entry was struck out of the 1865–84 revision book.
+
+Recorded in `research/Glasgow-951/findings.md` (correction note, 23 September 2026); carried into this file on 7 October 2026.

@@ -36,3 +36,13 @@ Profile prose and trees remain leads; inspect the cited record before treating a
 ### External source links present
 
 - [https://www.familysearch.org/ark:/61903/1:1:QGVD-7HCP](https://www.familysearch.org/ark:/61903/1:1:QGVD-7HCP)
+
+<!-- repo-integration-audit-2026-10-07:L11-005 -->
+## Identity assessment — probable widowhood and death at Inishrush, recorded 16 July 2026
+
+- Roseanne Glasgow, widow of a farmer, reported age 65, died at Inishrush in April 1888; Mary Glasgow, described as her daughter, was present ([Irish civil death return](https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1888/06180/4766942.pdf), saved as `../Glasgow-3903/sources/roseanne_glasgow_death_1888.pdf`, register image). The day has been read three ways from the same image: 20 April (`../Glasgow-3905/agent_descendant_cluster.md`), 27 April (`../Glasgow-3905/agent_land_civil.md`) and 22 April (`../Glasgow-3903/findings.md`). None is preferred until the image is re-read. The implied birth about 1823 and the residence fit Rosanna, about 25 in 1851. The return names neither her husband nor her maiden surname, so the identification is probable, not proved.
+- The valuation revision book PRONI `VAL/12/B/34/10D` (original image saved as `../Glasgow-3905/sources/val12b_34_10d_plot29_james_roseanne_adam.jpg`) shows Rose Anne replacing James Glasgow on Inishrush plot 29 (annotation `84`), followed by Adam (`93`). This favours her as the widow of James `Glasgow-1623` but states no relationship.
+- Mary Glasgow, spinster, domestic servant, 33, died at Inishrush on 17 December 1889 (civil death return saved as `../Glasgow-3905/sources/mary_glasgow_death_1889.pdf`). The index result giving age 73 comes from an adjacent cancelled entry; cite the corrected entry. Strongly consistent with Roseanne's daughter Mary, but the informant is not stated to be family.
+- Jane Barklie, who married Peter Aikin on 3 December 1828, was a daughter of Henry Barkly and Jane Galloway of Tyanee ([First Kilrea Presbyterian marriages, transcription](https://genealogy.torrens.org/BannValley/church/KilreaP1/Marriages/1828.html)). That this Henry is Rosanna's father Henry Barkley is likely (same townland) but not stated, so Jane Galloway is not proved to be Rosanna's mother.
+
+Recorded in `research/Glasgow-3905/agent_descendant_cluster.md` (16–17 July 2026); carried into this file on 7 October 2026.

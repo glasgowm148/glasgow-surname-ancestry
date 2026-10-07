@@ -1,6 +1,6 @@
 # Findings: Kyle-3461
 
-Last updated: 2026-07-17
+Last updated: 2026-10-07
 
 | Source | Finding | Assessment |
 | --- | --- | --- |
@@ -25,3 +25,12 @@ record also identifies wife Nancy Glasgow or the 1842 marriage.
 ## Current conclusion — newspaper identity review, 6 October 2026
 
 - [Belfast News-Letter, 1842-02-01, p.3](https://www.newspapers.com/image/390552842/): Mr John Kyle, of Tyanee (groom) — **strong** match. The profile already records John Kyle as Nancy-3907's husband; name and marriage agree.
+
+<!-- repo-integration-audit-2026-10-07:L11-004 -->
+## Identity assessment — same-name John Kyle records, recorded 16 July 2026
+
+- **Excluded:** John Kyle of Carnamoney, clerk, son of James Kyle, married Mary Ann Christie on 29 August 1845 as a bachelor (Irish civil marriage register, saved as `../Glasgow-3905/sources/john_kyle_marriage_1845.pdf`, seen as the register image). Being a bachelor in 1845, he cannot be Nancy Glasgow's husband of 1842.
+- **Possible clue only:** a notice dated 28 November 1846 reports that William Halliday married Mary, second daughter of Mr John Kyle of Hill Head, Tyanee ([marriage notices 1846–49](https://cotyrone.com/~inthenews/marriages-notices-1846-49/), a transcription). If this is the same John Kyle of Tyanee, an adult daughter by 1846 suggests Nancy was a later wife; the notice does not prove the two men identical.
+- **Negative search:** a sweep of the civil death index for Nancy, Anne, Ann and Agnes Kyle in Magherafelt registration district found no plausible death for Nancy Glasgow Kyle. Civil John Kyle deaths of 1874 and 1892 name no wife Nancy and do not connect to Adam Glasgow. Death before 1864, emigration, remarriage or residence elsewhere remain open.
+
+Recorded in `research/Glasgow-3905/agent_descendant_cluster.md` (16–17 July 2026); carried into this file on 7 October 2026.

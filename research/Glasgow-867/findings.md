@@ -1,6 +1,6 @@
 # Findings: Glasgow-867
 
-Last updated: 2026-09-21
+Last updated: 2026-10-07
 
 ## Current conclusion
 
@@ -43,7 +43,7 @@ brotherhood to Alexander or Thomas.
 John Glasgow of Lisnagaver directly identified his father as **John Glasgow,
 farmer**, in his 1846 marriage. His brother Samuel is proved by the 1851 census.
 The Rasharkin Second Presbyterian gravestone erected by John's son James Garvin
-Glasgo adds John's death on 20 June 1895, aged 78, and identifies Margaret Garvin
+Glasgo gives John's death as 20 June 1895, aged 78 (probably an error for 1885; see the correction of 7 October 2026 below), and identifies Margaret Garvin
 as James's mother. It therefore gives John an approximate birth year of 1816/17,
 although the 1851 return reported his age as fifty.
 
@@ -117,3 +117,14 @@ Source: [National Archives of Ireland, 1851 census, Lisnagaver house 34](https:/
 ## Relationship assessment — superseded attachments, 6 October 2026
 
 In the WikiTree snapshot of 28 September 2026, John Glasgow-1022's father is John Glasgow-3959 of Ballyboggy (uncertain), and John Glasgow-867 and Samuel Glasgow-2908 are attached to John Glasgow-4090, the record-defined John Glasgow, farmer. John-1022 is a disfavoured identity for that father: his 1851 Glenleslie household records a daughter Nancy who died in 1847 aged 36, while Nancy of Plattsburgh, Alexander Glasgow-951's probable sister, lived to 1891. The attachment to William Glasgow-1505 of Larne described above is historical, and the "William of Larne → John of Glenleslie → John of Lisnagaver" route no longer describes either the tree or the research.
+
+<!-- repo-integration-audit-2026-10-07:L12-015 -->
+## Recommended correction — John's death in 1885, 7 October 2026
+
+The [original civil death register](https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1885/06280/4799372.pdf) (Dervock registrar's district, entry 2; group registration ID 6910472) records **John Glasgow, married farmer, who died at Lisnagaver on 24 June 1885, aged 78**. The informant was **James Glasgow, son, of Lisnagaver**. The entry was read from the register image for Glasgow-3474 (29 August 2026) and again in the Glasgow-951 searches of 23 September 2026. The irishgenealogy.ie index of Glasgow deaths in Ballymoney registration district, 1864–1910, searched on 17 September 2026, has this John (1885, aged 78) and no John Glasgow in 1895.
+
+This is probably the death of this John. He was a married farmer of Lisnagaver; his son James Garvin Glasgow was a farmer of Lisnagaver when he married in 1886; and the register's age, 78, is the age on the family gravestone. The gravestone transcription's "20 June 1895, aged 78" is therefore probably an error for 1885, although the stone itself has not been seen. This is an inference, graded probable: the register names no wife or parent. The 17 September 2026 live-session log reports that Glasgow-3474 was merged into this profile with the 1885 death kept, and the edit register lists that merge as done; the 21 September audit noted that it had not re-verified the identification. On this reading, statements above that John died in 1895, that he was born about 1816–17, or that the two dates remain to be resolved are superseded. A smaller age conflict remains: the register's 78 implies birth about 1806–07, the 1851 census (aged fifty) about 1800–01.
+
+Next record: a photograph or fresh reading of the Rasharkin Second Presbyterian stone.
+
+Recorded in `research/Glasgow-951/research-log-2026-09-17-live.md` (17 September 2026), `research/Glasgow-3474/findings.md` (29 August 2026) and `research/Glasgow-951/findings.md` (23 September 2026); carried into this file on 7 October 2026.

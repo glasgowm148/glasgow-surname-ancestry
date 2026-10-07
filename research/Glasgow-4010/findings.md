@@ -101,3 +101,12 @@ Recorded in `research/latest-findings-subjects/prescott-rochester-james-family/j
 A transcription of the 1861 Prescott grammar-school list includes Orena Glasgow, associated with Samuel Glasgow, storekeeper ([“Black Walnuts, Squirrels and Prescott High School”, *The Past Around Us*](https://thepastaroundus.wordpress.com/2015/10/12/black-walnuts-squirrels-and-prescott-high-school/), accessed 13 August 2026). Blog transcription, not the original list. Orena's rare name and age agree with the child of that name in Samuel's 1851 household, so it supports [Orena (Glasgow-4019)](https://www.wikitree.com/wiki/Glasgow-4019) as his daughter; it does not prove it.
 
 Recorded in `research/Glasgow-4010/1851_Canada_West_Prescott_Samuel_Glasgow.md` (creation draft; source accessed 13 August 2026); carried into this file on 7 October 2026.
+
+<!-- repo-integration-audit-2026-10-07:L11-009 -->
+## Next records — Prescott collateral leads, recorded 17 July 2026
+
+- [Mackay, *The Canada Directory* (1851)](https://numerique.banq.qc.ca/patrimoine/details/52327/5139192) prints "Glasco, John, grocer, Main st." at Prescott immediately after "Glasgow, Samuel, general store, Main st." Robert's 1849 will names a brother John, so this grocer is a possible candidate for that brother. Proximity and trade alone do not prove it; graded possible.
+- An original 1848 Prescott town census survives at the Archives of Ontario (`F 1721-49`, `MS 2553`) and may separate Robert's and Samuel's households before Robert's death. The *Prescott Telegraph* survives with gaps for 1850–55, 1860–61 and 1864–72 (Archives of Ontario reel series `N131`) and is the best route to Robert's and Samuel's obituaries.
+- An OCR search of Leavitt's 1879 *History of Leeds and Grenville* found no Robert or Samuel Glasgow (weak, OCR-only negative).
+
+Recorded in `research/Glasgow-3905/agent_descendant_cluster.md` (17 July 2026); carried into this file on 7 October 2026.

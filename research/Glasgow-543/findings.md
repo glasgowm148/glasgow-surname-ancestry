@@ -29,3 +29,12 @@ Profile prose and trees remain leads; inspect the cited record before treating a
 ### External source links present
 
 - None detected outside WikiTree and sponsored Ancestry links.
+
+<!-- repo-integration-audit-2026-10-07:L11-015 -->
+## Source findings — father's will, 29 March 1827, and emigration accounts
+
+Hugh Glasgo of Deer Township, Allegheny County (`Glasgow-540`), in his will signed 29 March 1827 and proved 25 April 1831, says "I leave to my daughter Nancy one cow", to be delivered one year after Hugh junior's, that is two years after the testator's death ([Allegheny County Will Book 3, no. 252, pp. 492–493](https://www.ancestry.com/imageviewer/collections/8802/images/005537856_00276?pid=1733435); original loose packet FamilySearch DGS 5538049, no. 252). Seen as the recorded will-book image (the clerk's copy); the transcription at `../Glasgow-540/sources/hugh_glasgow_will_1827_transcription.md` was made from that image and checked against thumbnails of the original loose packet. The will gives Nancy no married surname, age or residence.
+
+The Ulster American Folk Park's Cunningham Springhouse interpretation and a West Deer local history say that Abraham and Nancy (Glasgow) Cunningham emigrated from Ireland in 1810 and acquired 200 acres, and trace their son Hugh. These secondary accounts name no parents for Nancy and cite no deed. They are consistent with, but do not prove, the identification of the will's Nancy with Nancy Cunningham and with this profile; that identification is inference from the WikiTree family placement. Caution: the family history says Hugh's household emigrated in August 1796, so an 1810 emigration would mean Nancy came separately; neither source says so.
+
+Recorded in `research/Glasgow-540/sources/hugh_glasgow_will_1827_transcription.md` (16 July 2026) and `research/Glasgow-3905/agent_ulster_archives.md` (16 July 2026); carried into this file on 7 October 2026.

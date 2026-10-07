@@ -192,3 +192,10 @@ The original 1901 census return for Gortereghy ([Form A, house 42](https://api-c
 [Elder-7144](https://www.wikitree.com/wiki/Elder-7144) is a compatible but unproved profile for the 1901 Gortereghy father; its tree-derived 1827 birth does not match the reported age 65. The 1881 birth of Jane Elder to Robert Elder and Jane Calderwood (Ballymoney, entry 279, original inspected) proves that couple, but not that Jane Calderwood was the mother of all the 1901 and 1911 siblings. The source excludes [Elder-7251](https://www.wikitree.com/wiki/Elder-7251) only as the living 1901 Gortereghy father, not from later father clauses such as Sarah Elder's 1893 marriage. This separates the two Robert Elder households; it adds nothing to Mary's parentage, and the identification of the Gortahar widow with Mary-3167 remains as graded above.
 
 Recorded in `research/queue-resolution-2026-09-30/irish-collateral.json` (30 September 2026); carried into this file on 7 October 2026.
+
+<!-- repo-integration-audit-2026-10-07:L12-019 -->
+## Source findings — Robert Elder's 1895 administration (recorded 17 September 2026)
+
+A search of the [PRONI Will Calendars](https://apps.proni.gov.uk/willscalendar_ie/) for the townland Gortahar on 17 September 2026 found **letters of administration granted in 1895 for Robert Elder of Gortahar**. The work log summarises the abstract's death date as 18 October 1894 and does not record the administrator or the effects. Mary's husband Robert Elder died at Gortahar on 18 November 1894 according to the civil register, so the grant is probably his estate, and one of the two day-month readings is wrong. Another Robert Elder was farming at Gortereghy in 1901, so the abstract should be re-read, with its administrator noted, before it is used. If Mary was the administrator, the grant would be further evidence for her as his widow.
+
+Recorded in `research/Glasgow-951/research-log-2026-09-17-live.md` (17 September 2026); carried into this file on 7 October 2026.

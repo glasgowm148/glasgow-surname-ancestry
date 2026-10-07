@@ -59,3 +59,12 @@ records an infant son, John Garvin. James died at Lisnagaver on 14 February
 The [1 July 1886 Clough marriage](https://civilrecords.irishgenealogy.ie/churchrecords/images/marriage_returns/marriages_1886/10840/5957283.pdf) (entry 62) was witnessed by **Robert Aiken** and **Matilda Bell** (original register). James's [1918 death](https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1918/05197/4435754.pdf) is Dervock registrar's district, entry 165. The [Rasharkin Second Presbyterian stone](https://genealogy.torrens.org/BannValley/church/RasharkinP/graveyard.html) (2004 transcription) records "Elizabeth Ann", his widow Eliza Ann, as dying on **16 June 1933 aged 84**; her PRONI will-calendar entry is cited in [Glasgow-867](https://www.wikitree.com/wiki/Glasgow-867)'s findings.
 
 Recorded in `research/Glasgow-2406/Glasgow-2406.md` (19 August 2026); carried into this file on 7 October 2026.
+
+<!-- repo-integration-audit-2026-10-07:L12-005 -->
+## Source findings — Land Purchase entry, 1893, and the 1918 administration (recorded 17 September 2026)
+
+The [Registry of Deeds Land Index for Lisnagaver, 1890–94](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSNH-Q98J-5) (1893, volume 168) lists **"Glasgow James G"** among the grantors in a Land Purchase vesting series with Wilson, Montgomery, John Elder, Wallace and Ross. This probably records James Garvin Glasgow as a purchasing tenant of his Lisnagaver holding in 1893. Only the index was seen; the vesting deed itself has not been read and may name the predecessor in title.
+
+The PRONI Will Calendar records **letters of administration of James Garvin Glasgow, late of Lisnagaver, farmer, who died on 14 February 1918**, granted on 8 May 1918 to Eliza Ann Glasgow of Lisnagaver, widow (effects £310). Eliza Ann's own probate (of Tullynahinion, widow) was granted at Belfast on 17 July 1933 to Robert Andrew Aicken, farmer, and William Shaw, solicitor (effects £601 5s). Both were seen as calendar abstracts.
+
+Recorded in `research/Glasgow-951/research-log-2026-09-17-live.md` (17 September 2026); carried into this file on 7 October 2026.

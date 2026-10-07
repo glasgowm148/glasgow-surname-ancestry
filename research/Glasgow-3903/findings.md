@@ -139,3 +139,10 @@ Recorded in `research/latest-findings.json` (21 July 2026); carried into this fi
 The [original 1878 civil death return](https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1878/020497/7192875.pdf) is entry 138. It gives the cause as old-age debility of three weeks, uncertified, with no medical attendant. Henry Glasgow of Innisrush signed by his X mark as informant, qualified as present at death, and the death was registered on 23 December 1878. Read from an image crop of the original entry; the crop lacks column headings and the district heading, and the registrar's signature was not fully transcribed. The entry states no relationship between Henry and James and does not name James's wife or parents.
 
 Recorded in `chatgpt_dump/James_Glasgow_Innisrush_death_1878_transcription.txt` (5 September 2026); carried into this file on 7 October 2026.
+
+<!-- repo-integration-audit-2026-10-07:L11-027 -->
+## Source findings — Magherafelt Glasgow death sweep, recorded 16 July 2026
+
+Every Glasgow death indexed in Magherafelt registration district for 1864–1922 was checked against the available register pages ([IrishGenealogy.ie](https://www.irishgenealogy.ie/en/)). Besides the known Inishrush deaths (James 1878, William 1882, Roseanne 1888, Mary 1889 and the later Adam 1916), the entries are Maria (1879, Kinturk), Eleanor (1883, Drumard), Martha Anne (1890, Dreenan), William (1915, Dreenan) and Robert (1917, Dorman). They belong to other local households and none states a relationship to the Inishrush family. Negative result for the district; deaths registered elsewhere are not covered.
+
+Recorded in `research/Glasgow-3905/agent_land_civil.md` (16 July 2026); carried into this file on 7 October 2026.

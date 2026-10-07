@@ -1,6 +1,6 @@
 # Findings: Glasgow-540
 
-Last updated: 2026-09-08
+Last updated: 2026-10-07
 
 ## Current answer
 
@@ -38,3 +38,13 @@ father-son or uncle-nephew link.
   Preserve it as an unassigned free-space occurrence; do not add it to this
   profile or create another person from it.
 - The family history's August 1796 emigration passage concerns this Hugh's household. It should not be transferred to his father `Glasgow-548`.
+
+<!-- repo-integration-audit-2026-10-07:L11-018 -->
+## Next records — probate continuation, recorded 16 July 2026
+
+- The will was witnessed by Robert Porter and Taley Kennedy, who swore to it before the Register on 25 April 1831 (probate endorsement in Will Book 3, no. 252, seen in the recorded will-book image).
+- **False lead excluded:** the apparently undated Ancestry hit for Sarah Glasgow (collection 8802, record 1779874) belongs to Will Book 45 (1886–94); record 1780245 and loose packet 924568 date her probate to 8 May 1894. She is not Hugh's widow, and the hit gives no support to the Sarah/Sally Blair tradition.
+- **Route for further estate papers:** the FamilySearch Allegheny County Estate Index (856 images for surname G, forenames A–R) uses the Russell index; Hugh's entry falls under G, key letter L, given-name H. The Pennsylvania State Archives guide maps Estate Index Ga–Gr to roll 74 and Orphans' Court 2B/2C to rolls 102 and 103. The thumbnails were too small to read, so no account or release is claimed found or absent.
+- North Hills Genealogists' *Pioneer Cemeteries of Hampton Township* every-name index lists an Alexander Glasgow (p. 16), John (pp. 17, 34) and Hugh (pp. 18, 19, 23, 33, 34). The inscriptions are not online and the index does not say which Alexander, John or Hugh is meant.
+
+Recorded in `research/Glasgow-3905/agent_ulster_archives.md` (16 July 2026); carried into this file on 7 October 2026.

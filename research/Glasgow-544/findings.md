@@ -33,3 +33,12 @@ Profile prose and trees remain leads; inspect the cited record before treating a
 - [https://familysearch.org/ark:/61903/1:1:XHP6-D5M](https://familysearch.org/ark:/61903/1:1:XHP6-D5M)
 - [https://www.familysearch.org/ark:/61903/1:1:XHBQ-PD6](https://www.familysearch.org/ark:/61903/1:1:XHBQ-PD6)
 - [https://www.findagrave.com/memorial/54173175/alexander-glasgow](https://www.findagrave.com/memorial/54173175/alexander-glasgow)
+
+<!-- repo-integration-audit-2026-10-07:L11-016 -->
+## Source findings — father's will, 29 March 1827
+
+Hugh Glasgo of Deer Township, Allegheny County (`Glasgow-540`), in his will signed 29 March 1827 and proved 25 April 1831, says "I leave to my son Alexander one cow", to be delivered three years after the testator's death, and "I leave my son Alexander's daughter Sarah one cow and one yearling coult with one bed and bedding and three sheep. these things she is to get when she arrives at eighteen years of age or marries" ([Allegheny County Will Book 3, no. 252, pp. 492–493](https://www.ancestry.com/imageviewer/collections/8802/images/005537856_00276?pid=1733435); original loose packet FamilySearch DGS 5538049, no. 252). Seen as the recorded will-book image (the clerk's copy); the transcription at `../Glasgow-540/sources/hugh_glasgow_will_1827_transcription.md` was made from that image and checked against thumbnails of the original loose packet.
+
+The will proves that Hugh had a son Alexander, and that Alexander had a daughter Sarah, in March 1827. By inference from the bequest's condition, Sarah was then under eighteen and unmarried, so born after about March 1809. She is not otherwise identified and must not be confused with Alexander's wife Sarah. That this profile is the will's Alexander is inference from the WikiTree family placement and W. M. Glasgow's late family history, which lists a son Alexander; the will gives him no age or residence.
+
+Recorded in `research/Glasgow-540/sources/hugh_glasgow_will_1827_transcription.md` (16 July 2026); carried into this file on 7 October 2026.

@@ -1,6 +1,6 @@
 # Findings: Glasgow-546
 
-Last updated: 2026-07-16
+Last updated: 2026-10-07
 
 ## Current answer
 
@@ -35,3 +35,12 @@ Profile prose and trees remain leads; inspect the cited record before treating a
 
 - [[2]](https://archive.org/details/historyofalleghe01cush/page/138/mode/1up)
 - [Memorial #23398567](https://www.findagrave.com/memorial/23398567)
+
+<!-- repo-integration-audit-2026-10-07:L11-017 -->
+## Source findings — father's will, 29 March 1827
+
+Hugh Glasgo of Deer Township, Allegheny County (`Glasgow-540`), in his will signed 29 March 1827 and proved 25 April 1831, gives "my son Robert Glasgo all my land and every thing thereto belonging together with my farm stock. farming utensils and every thing belonging to me real & personal except what is heretofore specified"; requires that "Robert Glasgo is to furnish his mother with all things specified to her in this will"; and appoints "my sons John and Robert Glasgo executors" ([Allegheny County Will Book 3, no. 252, pp. 492–493](https://www.ancestry.com/imageviewer/collections/8802/images/005537856_00276?pid=1733435); original loose packet FamilySearch DGS 5538049, no. 252). Seen as the recorded will-book image (the clerk's copy); the transcription at `../Glasgow-540/sources/hugh_glasgow_will_1827_transcription.md` was made from that image and checked against thumbnails of the original loose packet.
+
+The will proves that Hugh had a son Robert, his residuary devisee and co-executor, and that Hugh's wife, who is not named, was Robert's mother. It names no Irish place and does not say where the land lay. That this profile is the will's Robert is inference from the WikiTree family placement and W. M. Glasgow's late family history, which lists a son Robert; the will gives him no age.
+
+Recorded in `research/Glasgow-540/sources/hugh_glasgow_will_1827_transcription.md` (16 July 2026); carried into this file on 7 October 2026.

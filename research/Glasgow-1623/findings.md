@@ -51,3 +51,15 @@ Profile prose and trees remain leads; inspect the cited record before treating a
 ### External source links present
 
 - [https://www.familysearch.org/ark:/61903/1:1:FGC7-SDN](https://www.familysearch.org/ark:/61903/1:1:FGC7-SDN)
+
+<!-- repo-integration-audit-2026-10-07:L11-007 -->
+## Next records — the child reported in 1847, recorded 16 July 2026
+
+- **Excluded lead:** a Churchtown (Tamlaght) Presbyterian baptism of 22 February 1847 records Francis Gamble of Tyanee, two months old, father entered as "Barkly", mother Margret Quigley (transcription, `../Glasgow-3905/sources/tamlaght_presbyterian_baptisms.html`). The register gives the child's surname and only the father's forename, and local Gamble records use Barkley as a given name (Thomas Gamble, son of Aaron Gamble and a Barklie mother, named a son James Barkley Gamble). This is not the reported Glasgow child.
+- **Negative search:** the transcribed Kilrea First Presbyterian baptisms for [1845](https://genealogy.torrens.org/BannValley/church/KilreaP1/Baptisms/1845.html), [1846](https://genealogy.torrens.org/BannValley/church/KilreaP1/Baptisms/1846.html) and [1847](https://genealogy.torrens.org/BannValley/church/KilreaP1/Baptisms/1847.html) contain no Glasgow or Barkley/Barclay baptism and no matching entry without a father.
+- **Unsearched register:** Second Portglenone Presbyterian baptisms survive for 1821–67 (PRONI `MIC1P/357`; Coleraine film 179) but no public transcript or image was found; its session minutes begin only in 1881. First Portglenone's surviving baptisms stop in 1846 and resume in 1852. This is an access gap, not a negative baptism search.
+- **Land context:** the valuation revision book `VAL/12/B/34/10D` shows James Glasgow on Inishrush plot 29 followed by Rose Anne (1884) and Adam (1893). The succession to a Rose Anne fits this James's 1851 marriage to Rosanna Barkley, but the book states no relationship, and this file's identity-fork caution (one James or two) still applies.
+
+The child remains unidentified. Adult Henry Glasgow of Inishrush, present at the December 1878 death of James Glasgow aged 84 (see `../Glasgow-3903/findings.md`), is the source's strongest named working candidate but with low documentary confidence; no record calls him a son of James.
+
+Recorded in `research/Glasgow-3905/agent_descendant_cluster.md` (16–17 July 2026); carried into this file on 7 October 2026.

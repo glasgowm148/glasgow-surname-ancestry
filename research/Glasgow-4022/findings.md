@@ -24,3 +24,10 @@ attachment was unsupported, but no replacement father has been established;
 do not make any further parent change until a source identifies the specific
 replacement. Preserve the existing structured birth location until an
 evidenced replacement location is available.
+
+<!-- repo-integration-audit-2026-10-07:L11-026 -->
+## Next records — brother Lindsey, searches recorded 16 July 2026
+
+Nationwide [IrishGenealogy.ie](https://www.irishgenealogy.ie/en/) civil-index searches for both `Lindsay Glasgow` and `Lindsey Glasgow`, all event types, 1845–1922, returned no event, and exact PRONI will-calendar searches for Lindsey and Lindsay found nothing relevant. No located record names his parents, spouse or children. The source suggests he probably left Ireland, used another forename, or died outside the indexed period. Index negatives only: civil births begin in 1864 and post-1921 Northern Ireland records are not fully exposed in that index.
+
+Recorded in `research/Glasgow-3905/agent_land_civil.md` and `research/Glasgow-3905/agent_descendant_cluster.md` (16 July 2026); carried into this file on 7 October 2026.

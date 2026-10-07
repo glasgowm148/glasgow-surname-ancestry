@@ -68,3 +68,10 @@ Resolve the documentary person’s identity before changing WikiTree facts or re
 - [Freeman’s Journal and Daily Commercial Advertiser, 1834-05-23, p.4](https://www.newspapers.com/image/1050049974/): Mr Robert Glasgow of Cookstown (the late) (father of the deceased) — **possible** match. As group 390554297: only Glasgow-3941 among WikiTree profiles survives the 'late by May 1834' test; the unprofiled Robert of Loy (will 1823) is at least as likely; Glasgow-2656 excluded (alive to 1856). Sources: [WikiTree Glasgow-3941 live biography](https://www.wikitree.com/wiki/Glasgow-3941)
 
 <!-- repo-integration-audit-2026-10-07:L01-003 -->
+
+<!-- repo-integration-audit-2026-10-07:L11-028 -->
+## Next records — Coltrim emigrants of 1834 and 1835, recorded 17 July 2026
+
+William Macafee's *Emigrants from Co. Londonderry 1834 to 1835* (from the Ordnance Survey Memoirs), p. 32, lists James Glasgow [Glasco], male, aged 29, of Coltrim, Lissan, Presbyterian, destination New York, 1834; and William Glasgow [Glasco], male, aged 29, of Coltrim, Lissan, Presbyterian, destination New York, 1835 (table record 1263, original record 1658). Seen as a published transcription. Both men were born about 1805 and left the townland where Robert headed a large household in 1831, but the lists name no parent, and their adjacency in the table is editorial (surname order), not evidence that they travelled together or were brothers. Do not attach either as Robert's son without a relational record; a New York record would need to agree on Coltrim or Lissan, age and arrival year.
+
+Recorded in `research/Glasgow-3905/agent_coltrim_new_york.md` (17 July 2026); carried into this file on 7 October 2026.

@@ -234,3 +234,62 @@ The published [Kilrea Girls' National School register](https://genealogy.torrens
 ## Relationship assessment — the Neely name in the 1846 marriage, 6 October 2026
 
 The civil marriage of John Glasgow-867 of Lisnagaver and Margaret Garvin on 16 November 1846 was witnessed by James Garvin and Wm Neely; the bride lived at Rockfield, Desertoghill. Thomas's son was named Daniel Neely Glasgow. The shared Neely name is an association only and establishes no relationship between John-867 and Thomas.
+
+<!-- repo-integration-audit-2026-10-07:L12-001 -->
+## Source findings — Lisnagaver and Ballydonnelly mortgages, 1886 and 1887 (recorded 24 August and 17 September 2026)
+
+A Registry of Deeds memorial of a [mortgage dated 8 May 1886](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJ4-3PC5) records **Mary Ann Glasgow, widow, and Daniel Glasgow, farmer, both of Lisnagaver**, mortgaging to the Antrim County Land Building and Investment Company a Lisnagaver farm of 33 acres 3 roods 36 perches, held by Mary Ann as tenant from year to year, and a Ballydonnelly parcel of 1 acre 1 rood 20 perches with a flax mill. It was read from the FamilySearch image. The 17 September 2026 log lists a [second mortgage by the same parties, dated 28 December 1887](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSK3-M9MW-C), registered in 1889, over the same property; the [1885–89 Land Index](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSNF-71YX) lists the mortgages under "Glasgow Mary A".
+
+The deeds state no relationship between Mary Ann and Daniel. The acreage closely matches Thomas's lot 26a of 32 acres 3 roods 15 perches in the first valuation (both statute measure), so the farm continued in his widow's hands. Daniel Neely Glasgow (Glasgow-2413), a farmer of Lisnagaver and son of Thomas in his 1888 marriage, is very probably the Daniel of these deeds. The Ballydonnelly mill parcel is the plot named in the 1889 Louden & Wilson judgment against Mary Ann Smith otherwise Glasgow (above).
+
+Recorded in `research/Glasgow-951/sources/familysearch_lisnagaver_deeds_1881_1886.md` (24 August 2026) and `research/Glasgow-951/research-log-2026-09-17-live.md` (17 September 2026); carried into this file on 7 October 2026.
+
+<!-- repo-integration-audit-2026-10-07:L12-002 -->
+## Source findings — 1869 judgment against Thomas Glasgow of Lisnagaver, recited 1881 (recorded 24 August 2026)
+
+A [Registry of Deeds judgment memorial of 1881](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSK3-S9HM-Y), read from the FamilySearch image, recites a judgment obtained on 22 December 1869 by Robert Smyrell against Neal Brennan, Arthur Brennan and **Thomas Glasgow of Lisnagaver, County Antrim, farmer**. The 1881 affidavit states that Thomas was then deceased. Name, townland, occupation and death before 1881 make this probably Thomas, who died on 21 June 1870. The memorial states no kinship and says nothing of his parentage; it shows him as a co-debtor with two Brennans six months before his death.
+
+Recorded in `research/Glasgow-951/sources/familysearch_lisnagaver_deeds_1881_1886.md` (24 August 2026); carried into this file on 7 October 2026.
+
+<!-- repo-integration-audit-2026-10-07:L12-008 -->
+## Source findings — baptisms of Thomas and Mary Ann's daughters, 1842–1846 (recorded 5 and 17 September 2026)
+
+The published [Rasharkin Presbyterian baptism transcription](https://genealogy.torrens.org/BannValley/church/RasharkinP/Baptisms_1834.html) (register PRONI MIC1P/292) records children of **Thos. Glascaw/Glascow and Mary Ann McCrackin/McCracken**:
+
+| Year | Child | Residence |
+| --- | --- | --- |
+| 1842 | Eliza | Moneyleck |
+| 1843 (born 17 October) | Eliza | Lisnagaver |
+| 1846 (born 29 April) | Jane | Lisnagaver |
+
+The entries were seen as a transcription only. The repeated name Eliza suggests that the first child died young, unless the two entries are a duplicate; the original register should be read. The 1843 Eliza was born eight days after Alexander's son James (born 9 October 1843, entry 203), also at Lisnagaver: close local association, not a stated relationship. These are the daughters behind the statement above that the transcription through 1846 contains only daughters.
+
+Recorded in `research/Glasgow-951/sources/agent_B_2026-09-17.md` (17 September 2026) and `research/Glasgow-951/glasgow_parentage_master_integration_2026-09-05.md` (5 September 2026); carried into this file on 7 October 2026.
+
+<!-- repo-integration-audit-2026-10-07:L12-010 -->
+## Source findings — Catherine, probable daughter (Glasgow-3976): two candidate records (recorded 9 August 2026)
+
+The profile draft for Thomas lists a probable daughter **Catherine** ([Glasgow-3976](https://www.wikitree.com/wiki/Glasgow-3976)) and two records it calls compatible with her:
+
+- a New Zealand notice of intention to marry, Christchurch, **3 October 1877**: Catherine Glasgow, aged 24, spinster and milliner ([transcription](https://itm.howison.co.nz/year/1877/district/christchurch));
+- a Victorian death-index entry for **Catherine Ekberg, 1946, registration 12550**, reported to give her father's surname as Glasgow and her mother as **Mary Ann McCracken**. This detail is taken second-hand from a family discussion, not from the index itself.
+
+An age of 24 in 1877 implies birth about 1853, after the 1851 census. Two of Thomas's daughters, Ann Redpath and Eliza Haigh, are documented in Canterbury, which makes the Christchurch notice a reasonable candidate. Neither record is yet identified with Thomas's daughter; the mother's name in the death index, if confirmed, would be the link. The Victorian death certificate and the original notice are needed.
+
+Recorded in `research/Glasgow-987/Glasgow-987.md` (profile draft, references accessed 9 August 2026); carried into this file on 7 October 2026.
+
+<!-- repo-integration-audit-2026-10-07:L12-011 -->
+## Identity assessment — the 1901 Coltrim Thomas Glasgow is another man (recorded 9 August 2026)
+
+The [1901 census Form B1 for Coltrim, Moneymore DED, house 7](https://nationalarchives.ie/collections/search-the-census/view-pdf/?doc=nai000629314) (original image) lists a Thomas Glasgow but gives no age, occupation or relationships. He is not this Thomas, who died at Lisnagaver on 21 June 1870.
+
+Recorded in `research/Glasgow-987/Glasgow-987.md` (profile draft, reference accessed 9 August 2026); carried into this file on 7 October 2026.
+
+<!-- repo-integration-audit-2026-10-07:L12-013 -->
+## Source findings — daughter Jane's marriage, 1867, and a Catherine excluded (recorded 23 September 2026)
+
+The [civil marriage register for Finvoy, 7 March 1867](https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1867/11481/8220222.pdf), read from the image, records **Jane Glasgow of Lisnagaver**, father **Thomas Glasgow, farmer**, marrying Robert Jamison; the witnesses were Leslie Ellis and George Graham. Townland, father's name and occupation make her Thomas's daughter Jane ([Glasgow-1361](https://www.wikitree.com/wiki/Glasgow-1361)), born in 1846.
+
+The [marriage of Catherine Glasgow and Alexander Smith at Ballymena on 17 June 1871](https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1871/11341/8162761.pdf) concerns Catherine of Cabragh, daughter of Saml Glasgow, labourer. She is **not** Thomas's probable daughter Catherine (Glasgow-3976).
+
+Recorded in `research/Glasgow-951/findings.md` (GRONI export triage, 23 September 2026); carried into this file on 7 October 2026.
