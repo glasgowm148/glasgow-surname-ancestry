@@ -46,7 +46,7 @@ John Glasgow-2058, later described as a merchant in his son’s 1856 marriage, i
 | Source | Finding | Assessment |
 | --- | --- | --- |
 | [Cookstown civil marriage return, 15 April 1856, printed p.273, entry 43](https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1856/09507/5445820.pdf) | Benjamin Glasgow, 20, bachelor merchant, Cookstown; father John Glasgow, merchant. Jane Little, full-age spinster, Oritor Craigs; father George Little, farmer. Witnesses John Potter and George Potter. | Direct inspected register, printed p.273 entry 43; father named, no grandparents. |
-| [Belfast News-Letter, 22 July 1858, p.3](https://www.newspapers.com/image/390574459/) | Robert is father of singular present plaintiff, unspecified between Benjamin and William; another William is uncle of plaintiffs. | Does not identify John or prove his parents. |
+| [Belfast News-Letter, 22 July 1858, p.3](https://www.newspapers.com/image/390574459/) | Earlier reading, superseded on 4 October 2026 (see the correction below): the witness Benjamin was son of the late Robert Glasgow, who died in 1856; an uncle is called "Mr. Glasgow, sen.". | Does not identify John or prove his parents. |
 
 ## Unresolved questions — reviewed 4 October 2026
 
@@ -120,3 +120,12 @@ Under Hospital Staff, Surgeon A. Sinclair, M.D., from the 25th Foot, was appoint
 ### Newspaper identity review — 6 October 2026
 
 - Lead: Mr John Glasgow, merchant, died at Cookstown on 4 May 1851 aged 49 (born c.1802). If this is Glasgow-2058, his birth estimate of c.1788 needs revising. — Londonderry Sentinel 9 May 1851 (transcription) https://cotyroneireland.com/surnames/glasgow.html ([The Sligo Champion, 1848-09-30, p.3](https://www.newspapers.com/image/1256974148/))
+
+<!-- repo-integration-audit-2026-10-07:L01-001 -->
+## Recommended correction — reading of the 1858 mill case, 4 October 2026
+
+The earlier reading of the [Belfast News-Letter, 22 July 1858, p.3](https://www.newspapers.com/image/390574459/) in the source table above is superseded. On a full reading of the original page on 4 October 2026, the witness Benjamin Glasgow said he was the son of the late Robert Glasgow, that he had managed his father's mill since 1850, and that Robert died in 1856. His evidence mentions "witness's uncle, Mr. Glasgow, sen."; the forename William comes from the case context, not from this quotation, and the report does not say on which side of the family the uncle stood. Counsel's reference to Robert's sons supports only a qualified inference that the co-plaintiff William was Benjamin's brother. Seen as: original newspaper image. The father–son statement is direct; identifying this Benjamin and Robert with any WikiTree profile is not proved.
+
+The report concerns the Drapersfield mill family. It does not identify John Glasgow-2058 or his parents, and it does not displace John as father of Benjamin-2059, whose 1856 marriage names John and who died in February 1870, before the Drapersfield Benjamin's July 1870 action.
+
+Recorded in `research/william-glasgow-irish-newspapers-2026-10-04.md` (4 October 2026); carried into this file on 7 October 2026.

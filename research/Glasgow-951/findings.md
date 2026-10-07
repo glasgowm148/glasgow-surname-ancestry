@@ -3112,7 +3112,7 @@ Source: [FamilySearch, Ireland Deeds/Wills/Conveyance Records 1876](https://www.
 
 ### New William–Mary Kilpatrick McCaughern household at Lisnagaver, 17 September 2026
 
-A fresh audit of the surviving Rasharkin Presbyterian baptism transcription located a second parent-bearing McCaughern/Macaw household at the target townland. **Hugh Macaw** was born **5 February 1839** and baptised 3 March 1839 as the son of **William** and **Mary Kilpatrick**, resident at **Lisnagaver** (entry 125). The same register records **Jane Matilda Macaw**, born 26 July 1843 and baptised 14 January 1844, as the daughter of William and Mary Kilpatrick at **Granagh** (entry 204).
+A fresh audit of the surviving Rasharkin Presbyterian baptism transcription located a second parent-bearing McCaughern/Macaw household at the target townland. **Hugh Macaw** was born **3 February 1839** (reread on 30 September 2026; first given here as 5 February; see the correction below) and baptised 3 March 1839 as the son of **William** and **Mary Kilpatrick**, resident at **Lisnagaver** (entry 125). The same register records **Jane Matilda Macaw**, born 26 July 1843 and baptised 14 January 1844, as the daughter of William and Mary Kilpatrick at **Granagh** (entry 204).
 
 This is new direct evidence of a William–Mary Kilpatrick McCaughern-variant family moving within the same Lisnagaver–Granagh area where Alexander Glasgow and Mary McAughin/McAughern were living. It makes the Kilpatrick-linked McCaughern network more substantial than the previously documented Archy–Elizabeth Kilpatrick household. It does **not** identify Mary Glasgow as a daughter or sister of this couple, and no relationship should be added from locality and surname similarity alone. The next test is the original Rasharkin register and any marriage, valuation or probate record that connects William or Mary Kilpatrick to Mary Glasgow.
 
@@ -3416,3 +3416,10 @@ Confirm that each tester is willing to upgrade and that a usable sample is held.
 **4. What no result can show.** No result can name Alexander's father or grandfather, confirm John Glasgow, farmer, as his father, or identify which Larne man was the joining ancestor; SNP age estimates carry ranges of a century or more. The Inishrush kit (N18544) is a lower priority. A male-line comparator from John-867 would test the John-farmer brotherhood directly, but none is known.
 
 The public-page placements cited here are summarised readings of 6 October 2026 and should be confirmed on the [project page](https://www.familytreedna.com/public/Glasgow?iframe=ydna-results-overview) before ordering.
+
+<!-- repo-integration-audit-2026-10-07:L04-001 -->
+## Recommended correction — Hugh Macaw's birth date in the Rasharkin transcription, 30 September 2026
+
+The 17 September 2026 section above gave Hugh Macaw's birth as 5 February 1839. A rereading of the same [Rasharkin Presbyterian baptism transcription, entry 125](https://genealogy.torrens.org/BannValley/church/RasharkinP/Baptisms_1834.html) on 30 September 2026 gives **3 February 1839**. The baptism date (3 March 1839), the parents (William and Mary Kilpatrick) and the residence (Lisnagaver) are unchanged. This is a corrected reading of a transcription: the original register (PRONI MIC/1P/292) has not been inspected, so the date is not final. The correction does not change the conclusion that this household is not shown to be related to Mary Glasgow.
+
+Recorded in `research/queue-resolution-2026-09-30/irish-collateral.json` (30 September 2026); carried into this file on 7 October 2026.

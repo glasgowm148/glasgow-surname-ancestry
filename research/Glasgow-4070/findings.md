@@ -1,6 +1,6 @@
 # Findings: Glasgow-4070
 
-Last updated: 2026-10-06
+Last updated: 2026-10-07
 
 ## Current conclusion and new evidence — 29 September 2026
 
@@ -123,3 +123,27 @@ James Anderson, husband of the probable sister Elizabeth (Glasgow-4071), died at
 
 - [New York State Death Index, 1891](https://archive.org/details/New_York_State_Death_Index_1891): the only Glasgow is Sarah, Newburgh, 14 October; the only Glasco is Julia, Newburgh. Nancy's death at Plattsburgh on 31 October 1891 is not indexed under either spelling, so no state death certificate naming her parents is identified. The Plattsburgh town or village clerk's register is the remaining route.
 - New York State Historic Newspapers: the site was behind a browser verification page on 6 October 2026 and was not searched further. Of the earlier Clinton County result lists, 76 of 96 Nancy results and 33 of 53 `Glas*` results remain unread.
+
+<!-- repo-integration-audit-2026-10-07:L02-007 -->
+## Identity assessment — Illinois James G. Glasgow excluded, 15 September 2026
+
+The 1892 probate citation names "James G. Glasgow, Ann and Lizzie, the children of John Glasgow, late of Baladonly, county Antrim". A FamilySearch full-text search for "James G Glasgow" (81 hits, many duplicates) found mainly a Jo Daviess County, Illinois, land-record cluster for James G. Glasgow of Guilford Township, with wife Sarah, from the late 1860s to the 1890s. That man is represented on WikiTree by [Glasgow-3128](https://www.wikitree.com/wiki/Glasgow-3128), whose recorded father is a James Glasgow, not a John; targeted searches for James G. Glasgow with Antrim and for John Glasgow with Baladonly returned nothing. Glasgow-3128 is therefore a different man and should not be attached to Nancy's family.
+
+The exclusion rests on the WikiTree-recorded father of Glasgow-3128 (a tree statement, not an inspected record) set against the citation's explicit father John. Later research identifies the citation's James G. with James Garvin Glasgow, son of [John Glasgow (Glasgow-867)](https://www.wikitree.com/wiki/Glasgow-867), which is consistent with this exclusion.
+
+Recorded in `research/nancy-glasgow-plattsburgh/full-text-search-2026-09-15.md` (15 September 2026); carried into this file on 7 October 2026.
+
+<!-- repo-integration-audit-2026-10-07:L02-008 -->
+## Next records — Rasharkin Dysart land cluster, 15 September 2026
+
+FamilySearch full-text searches for Robert and James Dysart at Rasharkin found three inspected transcripts in the Ireland deeds and will indexes. They may belong to the family of Jane (Glasgow) Dysart, one of the proposed sibling branches named in the 1892 citation, but none states a relationship to Nancy or to Jane.
+
+| Record | Reading | Assessment |
+| --- | --- | --- |
+| [Ireland deeds/wills 1889, image 123](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKM-X3M5-H) | Robert Dysart, farmer, first of Cushybracken and then of Crushybracken; 83-acre farm in Olishybracken or Crushybracken, Rasharkin parish, Kilconway barony; mortgage involving his son Henry Dysart; Mary Jane Hall mortgagee. | A real Robert Dysart in the Rasharkin locality of the citation. He may be the son Robert named in James Dysart's 1881 will (above), but nothing here proves it. |
+| [Ireland deeds/wills 1886, image 123](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJW-57FF) | James Dysart, farmer of Bracknamuckley; Andrew, Jane and James Dysart jointly connected with land at Granagh, Rasharkin. | Family or shared-land cluster; relationships not stated. |
+| [Ireland Will Indexes 1903](https://www.familysearch.org/ark:/61903/3:1:33S7-9T9Q-ZHB) | Andrew Dysart of Granagh, Rasharkin, farmer, died 6 June 1904; grant to James Dysart and Samuel B. B. Keers. The same results show James Dysart probate entries for Antrim on 12 July 1901 and 18 April 1904, one pairing James with Robert Dysart. | Index only; the pairings are leads. |
+
+All three were seen as FamilySearch full-text transcriptions, not original images. The source calls them geographic and contextual leads only. Next: compare these men with James Dysart's 1881 will and the Dysart baptisms at Granagh and Crushybracken (1837–1846) before naming any of them as Jane's children.
+
+Recorded in `research/nancy-glasgow-plattsburgh/full-text-search-2026-09-15.md` (15 September 2026); carried into this file on 7 October 2026.

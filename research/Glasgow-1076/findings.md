@@ -1,6 +1,6 @@
 # Findings: [Robert Glasgow of Montgreenan (Glasgow-1076)](https://www.wikitree.com/wiki/Glasgow-1076)
 
-Last updated: 2026-10-03
+Last updated: 2026-10-07
 
 ## Current conclusion
 
@@ -135,3 +135,12 @@ Probable: the medical career, St Vincent appointment and the later St Vincent fo
 - Married at Dunlop House on 22 Feb 1802 (newspaper date; OPR registration cited on profile as 23 Feb 1802) to Rachel Dunlop, daughter of the late John Dunlop of Dunlop. — The Caledonian Mercury, 1 Mar 1802 (https://www.newspapers.com/image/393025725/) ([The Caledonian Mercury, 1802-03-01, p.3](https://www.newspapers.com/image/393025725/))
 - Took out an Ayrshire game licence (list of 27 Jul-7 Sep 1802) as Robert Glasgow, Esq. of Montgreenan. — The Caledonian Mercury, 11 Sep 1802 (https://www.newspapers.com/image/393033305/) ([The Caledonian Mercury, 1802-09-11, p.1](https://www.newspapers.com/image/393033305/))
 - Ayrshire game licence and a gamekeeper deputation as principal, list of 17 Jul-10 Sep 1806, as Robert Glasgow, Esq. of Montgreenan. — The Caledonian Mercury, 22 Sep 1806 (https://www.newspapers.com/image/393042846/) ([The Caledonian Mercury, 1806-09-22, p.2](https://www.newspapers.com/image/393042846/))
+
+<!-- repo-integration-audit-2026-10-07:L06-019 -->
+## Identity assessment — the 1847 Paisley double-marriage notice, 5 October 2026
+
+The original [Freeman's Journal, 2 September 1847, p. 4](https://www.newspapers.com/image/401331272/) reports two weddings at Paisley on 'the 25th ult' (25 August 1847, inferred): Lieutenant George Sherbrooke Airey RN to Anne, second daughter of the late Robert Glasgow, and Rev. George Drake to Charlotte Maria Cecilia, youngest daughter of the late Robert Glasgow of Montgreenan, Ayr. It names no mother and does not itself identify the father with any profile.
+
+The father is **probably** [Robert Robertson, later Glasgow (Robertson-30564)](https://www.wikitree.com/wiki/Robertson-30564), husband of this Robert's natural daughter Anne: a December 1827 notice reports a daughter born at Rome to 'Mrs Robertson Glasgow, of Montgreenan'. This Robert remains a **weaker possible alternative**: his 1827 death does not conflict with 'the late' in 1847, and no reviewed evidence definitively excludes him. Charlotte is a strong compatible match for [Glasgow-3003](https://www.wikitree.com/wiki/Glasgow-3003) and Anne a possible match for [Glasgow-3000](https://www.wikitree.com/wiki/Glasgow-3000).
+
+Recorded in `research/latest-findings.json` (5 October 2026); carried into this file on 7 October 2026.

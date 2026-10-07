@@ -89,3 +89,14 @@ Add the record as supporting evidence while preserving all existing sources and 
 Source: Old Parish Registers, banns and marriages; exact surname Glasgow through 1700, 55 supplied results. Original images not inspected for this batch; combined index dates do not by themselves establish ceremony dates.
 
 This batch adds supporting evidence or a qualified comparison only; it raises no additional WikiTree amendment for this profile.
+
+<!-- repo-integration-audit-2026-10-07:L04-010 -->
+## Source findings — Johnstoun children's baptism index entries, from the 30 September 2026 profile audit
+
+| Source | Finding | Assessment |
+| --- | --- | --- |
+| 'Scotland, Births and Baptisms, 1564–1950', FamilySearch, [Daniell Johnestoun, 1617](https://www.familysearch.org/ark:/61903/1:1:X1YQ-BX4) and [Archebald Johnstoun, 1618](https://www.familysearch.org/ark:/61903/1:1:X1Y3-2XL), Edinburgh parish | Barbara Glasgow is the mother named in the entries for two children of George Johnstoun. | Index only, cited in a user-written biography; not re-inspected by the audit; originals uninspected. Supports a Johnstoun–Glasgow household after the 1616 marriage. Further children (Marione, Margaret, James, Catharine) are listed only in a FamilySearch tree's source list and are unverified. |
+
+FamilySearch tree profile [9VM1-52D](https://www.familysearch.org/tree/person/details/9VM1-52D) attaches both the Johnstoun records and Catharine Little's 1611 baptism to one Barbara. This is a tree assertion, not evidence: whether Catharine's mother (Glasgow-567) and the Johnstoun wife were one woman remains unresolved.
+
+Recorded in `research/profile-preservation-audit-2026-09-30/Glasgow-567-reconciled.wiki` (30 September 2026), from the live Glasgow-567 biography; carried into this file on 7 October 2026.

@@ -1,6 +1,6 @@
 # Findings: Mary Glasgow (Glasgow-3167), wife of Robert Elder
 
-Last updated: 2026-10-06
+Last updated: 2026-10-07
 
 ## New identity and relationship lead: Lisnagaver birth, 14 February 1867
 
@@ -183,3 +183,12 @@ Current public profile biographies were checked alongside the maintained histori
 **Mary may be the unnamed child baptised in 1838.** She is absent from her parents' 1851 return, and a [search of the surviving 1851 returns](https://nationalarchives.ie/collections/search-the-census/search-results/#census_year=1851&surname__icontains=Glasgow&limit=100) on 6 October 2026 found no child Mary Glasgow of suitable age elsewhere in Rasharkin parish. Her ages (28 in 1871, 60 in 1901, 72 in 1911) place her birth between about 1838 and 1843. Her brothers' births about 1840–41 and in October 1843 leave the 1838 baptism (Glasgow-3940) as the open place. This is not proved; do not merge the profiles until the original register entry has been read. The Maryan aged 17 at Glenleslie in 1851 remains a separate, unproved identity.
 
 **A question to test, not a finding.** The daughter Mary, 28, in the 1901 Gortahar household has no located birth registration as an Elder. Whether she is the Mary Ellen born at Lisnagaver on [14 February 1867](https://www.irishgenealogy.ie/files/civil/birth_returns/births_1867/03501/2286677.pdf) (Glasgow-4269), with her age understated, has not been tested.
+
+<!-- repo-integration-audit-2026-10-07:L04-014 -->
+## Identity assessment — the 1901 Gortereghy Robert Elder household is separate from Mary's, 30 September 2026
+
+The original 1901 census return for Gortereghy ([Form A, house 42](https://api-census.nationalarchives.ie/census/image/nai000298460.pdf), inspected 30 September 2026) records **Robert Elder, 65, widowed farmer**, with sons Alex, 27, and Robert, 20, and daughters Eliza, 22, and Margaretta, 14, all Antrim-born Presbyterians. On the same census night Mary Elder, 60, was a **widow** heading her own household at Gortahar ([1901 Form A, house 7](https://api-census.nationalarchives.ie/census/image/nai000297950.pdf)), with Mary, 28, Robert, 26, and Jane, 22. The Gortereghy Robert was alive in 1901, so he is not the husband of the Gortahar widow, whose husband Robert died at Gortahar in 1894 (see above). The 1911 Gortereghy return ([Alexander Elder household](https://api-census.nationalarchives.ie/census/image/nai001390156.pdf)) names Robert, 34, as Alexander's brother and Margaret, 25, as his sister, continuing that family, while Robert J. Elder ([Elder-7303](https://www.wikitree.com/wiki/Elder-7303)) heads the separate Gortahar household with his mother Mary in 1911.
+
+[Elder-7144](https://www.wikitree.com/wiki/Elder-7144) is a compatible but unproved profile for the 1901 Gortereghy father; its tree-derived 1827 birth does not match the reported age 65. The 1881 birth of Jane Elder to Robert Elder and Jane Calderwood (Ballymoney, entry 279, original inspected) proves that couple, but not that Jane Calderwood was the mother of all the 1901 and 1911 siblings. The source excludes [Elder-7251](https://www.wikitree.com/wiki/Elder-7251) only as the living 1901 Gortereghy father, not from later father clauses such as Sarah Elder's 1893 marriage. This separates the two Robert Elder households; it adds nothing to Mary's parentage, and the identification of the Gortahar widow with Mary-3167 remains as graded above.
+
+Recorded in `research/queue-resolution-2026-09-30/irish-collateral.json` (30 September 2026); carried into this file on 7 October 2026.

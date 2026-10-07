@@ -236,3 +236,12 @@ These are proposals for the WikiTree date fields and are queued for review; noth
 ## Next records — Y-DNA testing recommendation, 6 October 2026
 
 Neither Kilwaughter kit has an SNP result: the one reported for James 1731-1775 (Y-37) and the one reported for his father Robert c.1710 (Y-111). The recommendation of 6 October 2026 asks first, through the project administrator, which of James's sons each kit descends from, and whether either runs through Archibald Glasgow-2304. A kit that does is a test of the James J Glasgow-2738 hypothesis, not an independent line. The Robert c.1710 kit is the first to upgrade to Big Y-700, and this one the second if it descends through a different son. No result can name a father. [Full recommendation](/people/glasgow-951.html#next-research).
+
+<!-- repo-integration-audit-2026-10-07:L08-004 -->
+## Source findings — Finley entries in the Kilwaughter source notes, 1793–1795
+
+The archived Kilwaughter source notes that report Ann Finley's 1802 will also say that James Glasgow's will was executed in 1793 by **James Finley** and witnessed by **Ann Finley**, and that the 1795 will of **James Finlay** (wife Ann; brothers Robert and Hugh; sisters Margaret, Eleanor and Mary) was executed on the oath of **Robert Glasgow** and witnessed by **John Glasgow** and **Archibald Glasgow**. No will book, page or county is given for the 1795 will.
+
+Seen as: a later researcher's abstract copied into the owner's notes; the originals have not been read. That these Robert, John and Archibald are James's sons is an inference from the names and setting, not a statement in the abstract. With the 1802 will, this strengthens the Finley–Glasgow association but states no kinship. Next record: the Newberry County will books for 1793 and 1795.
+
+Recorded in `archive/dump/TheGlasgows.md` (owner's checklist export of 10 March 2025); carried into this file on 7 October 2026.

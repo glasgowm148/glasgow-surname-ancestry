@@ -8,7 +8,7 @@ Last updated: 2026-10-07
 
 ## Current conclusion
 
-James Glasgow of Larne appears in a December 1830 freehold-registration application for houses and land worth £10 yearly. Glasgow-3986 is a strong compatible candidate, but no record joins the applicant to the provisional 1795 merchant / 1797 junior sequence or establishes his parents or children. The Larne–Lisnagaver link remains unproved.
+James Glasgow of Larne appears in a December 1830 freehold-registration application for houses and land worth £10 yearly. Glasgow-3986 is a possible match only (lowered from 'strong compatible' by the newspaper identity review of 6 October 2026, below, because a second Larne-born adult James, who died at Demerara in 1839, cannot be excluded), and no record joins the applicant to the provisional 1795 merchant / 1797 junior sequence or establishes his parents or children. The Larne–Lisnagaver link remains unproved.
 
 [Compare the Larne, Inishrush and American family reconstruction](/people/glasgow-951.html#larne-reconstruction), including the alternative immediate-parent routes and their source tests.
 
@@ -154,3 +154,5 @@ The live Family section now names James Glasgow-1509 as father. The biography st
 **Birth: before about 1774**, if he is the James Glasgow of Larne, merchant, who witnessed a release on 16 April 1795 (assumed 21 or over); the reported 1773 comes from an unrecovered memorial account. **Death: after December 1830**, if he is the James Glasgow of Larne who applied to register a freehold that month; the reported 1831 is unchecked, and the Cookstown burial of 13 March 1831 aged 40 is a different man.
 
 These are proposals for the WikiTree date fields and are queued for review; nothing has been changed on WikiTree.
+
+<!-- repo-integration-audit-2026-10-07:L01-004 -->

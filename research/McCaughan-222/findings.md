@@ -1,6 +1,6 @@
 # Findings: Mary (McCaughan) Glasgow
 
-Last updated: 2026-09-13
+Last updated: 2026-10-07
 
 ## Current conclusion
 
@@ -91,3 +91,12 @@ Source: [1912 Belfast and Ulster Directory, Rasharkin](https://lennonwylie.co.uk
 The 1886 John Elder–Annie Patterson marriage account has an existing groom profile, Elder-5907, whose public biography cites the same date, place, occupation and fathers. His possible 1912 grocer occurrence is kept separate from the distinct older 1842 John Elder household. This identity match does not establish a relationship to the named witnesses or to Mary Glasgow.
 
 Current public profile biographies were checked alongside the maintained historical record accounts. The complete record-specific review is published in the [profile matching audit](https://glasgow.phenotype.dev/research/profile-matches/).
+
+<!-- repo-integration-audit-2026-10-07:L02-009 -->
+## Relationship assessment — candidate father James McCaheran, September 2026
+
+No record names Mary's parents. The working hypothesis, set out in full in `research/Glasgow-951/findings.md` (her husband [Alexander Glasgow-951](https://www.wikitree.com/wiki/Glasgow-951)), is that her father was **James McCaheran**, recorded with William McCaheran at Gortereghy, Rasharkin parish, in the 1834 tithe material (PRONI FIN/5/A/236; [North Antrim tithe transcription](https://www.billmacafee.com/182030stithe/tithenorthantrimrevisionorder.pdf), index 7490 as cited in Glasgow-951's findings; original page not checked). Alexander and Mary's first located children were recorded at Gortereagh in 1837–1838, with Mary's surname written McAughin or McAughern (Rasharkin Presbyterian baptism transcription, entries 75 and 106), and their first known son was named James. These are weak-to-moderate clues and the naming clue is not diagnostic. James is a **working candidate only**; no record states that he was Mary's father, and he should not be attached as her father.
+
+The best burial candidate for the 1834 James is James McCaughern, born about 1790, died 13 September 1858, buried at Rasharkin Presbyterian Church graveyard, with Nancy McCaughern (1794–1859) as spouse and Thomas (1829–1857) as child ([FamilySearch Find a Grave index](https://www.familysearch.org/ark:/61903/1:1:CVDP-S2MM); [Find a Grave memorial 205517378](https://www.findagrave.com/memorial/205517378/james-mccaughern); index and memorial data only). The memorial does not name Gortereghy, William McCaheran or Mary, so the match is not proved. Keep [James McCaughan (McCaughan-68)](https://www.wikitree.com/wiki/McCaughan-68) separate: he has no demonstrated Gortereghy or Rasharkin connection.
+
+Recorded in `research/profile-drafts/james-mccaheran-gortereghy.md` (undated, after 14 September 2026); carried into this file on 7 October 2026.

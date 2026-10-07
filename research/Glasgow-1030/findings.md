@@ -216,3 +216,10 @@ locality or family bridge. The profile received a Research Notes citation for
 this possible record, explicitly without an identity claim or structured death
 date. Keep the identity unresolved until the testament or a local family record
 provides a distinguishing detail.
+
+<!-- repo-integration-audit-2026-10-07:L05-010 -->
+## Relationship assessment — son George (Glasgow-1090), 28 September 2026
+
+The 1627 Glasgow High Kirk baptism (baptisms vol. 2/436) names John Glasgow and Jonet Mathie as parents of the lawful child George. The certainty review of 28 September 2026 assessed the father link from [George Glasgow-1090](https://www.wikitree.com/wiki/Glasgow-1090) to this profile as **confident** (previously unmarked). This was a review of existing citations; no new image was inspected. George's file notes that the index date (4 February 1627) and the biography's 2 February birth and 25 February baptism still disagree.
+
+Recorded in `research/latest-findings.json` (28 September 2026); carried into this file on 7 October 2026.

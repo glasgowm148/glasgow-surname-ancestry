@@ -15,3 +15,12 @@ The transcript-validated baptism record for **John Glasgow**, 27 Jun 1721, Irvin
 
 Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
 <!-- END FMP-GLASGOW-fmp-glasgow-b4821b754264 -->
+
+<!-- repo-integration-audit-2026-10-07:L02-005 -->
+## Identity assessment — wrong merge of Glasgow-4163, 18 September 2026
+
+The 18 September 2026 batch log records that Glasgow-4163, created for the adult John Glasgow of Irvine (father of Sarah, baptised 3 July 1726, by Agnes Ferguson), was merged into this profile, and that the merge was wrong. This profile is the John baptised at Irvine on 27 June 1721, who could not have been a father in 1726. The merge had made Agnes Ferguson both this John's mother and his wife, and had made him Sarah's father. The log records that the wrong spouse link was removed and that Sarah ([Glasgow-4122](https://www.wikitree.com/wiki/Glasgow-4122)) was moved to the adult John, [Glasgow-1077](https://www.wikitree.com/wiki/Glasgow-1077).
+
+The 21 September reassessment keeps the merge only as action history; it is not a valid duplicate resolution. Do not attach Agnes Ferguson as this John's wife, and do not treat material that came across from Glasgow-4163 as evidence for the 1721 child. Sources are the two Irvine baptisms only (Findmypast transcripts SCOT/OPR/BAP/3573689 and SCOT/OPR/BAP/3574134); the identification rests on chronology.
+
+Recorded in `research/glasgow-record-batch-2026-09-18/findings.md` (18 and 21 September 2026); carried into this file on 7 October 2026.

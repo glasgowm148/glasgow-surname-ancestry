@@ -1,6 +1,6 @@
 # OPR banns and marriages through 1700 — batch handoff
 
-Last updated: 2026-09-10
+Last updated: 2026-10-07
 
 ## Current conclusion
 
@@ -65,3 +65,21 @@ two Hutcheson search results, a zero-result search, the Polwarth result,
 catalogue and row links opening their correct HOLD handoffs, and all seven
 visible update panels with clean native WikiTree drafts. No page-width overflow
 was observed. The supplied raw fields were checked against all 55 source rows.
+
+<!-- repo-integration-audit-2026-10-07:L04-007 -->
+## Source findings — grooms' trades in the printed Edinburgh marriage register, 30 September 2026
+
+The 30 September 2026 review read the printed edition (Henry Paton, ed., *Register of Marriages for the Parish of Edinburgh, 1595–1700*, Scottish Record Society, 1905, [PDF](https://electricscotland.com/history/records/scottishrecordso16scotuoft.pdf)) for six Edinburgh marriage index rows. Page images of the printed edition were inspected; the OPR manuscripts were not. The edition presents these dates as marriage dates.
+
+| Index row | Printed register adds | Identity status |
+| --- | --- | --- |
+| Alisone Glasgow – George Cargill, 11 March 1651 | George Cargill, bookseller | No compatible profile; a George Cargill, printer, who married Elspeth Orme in 1663 is not asserted to be the same man |
+| Marione Glasgow – John Rait, 28 June 1659 | John Rait (Raite/Rate), tailor | Hold; Raitt-2 (1806 marriage) and Raitt-360 (born 1866) excluded as the groom |
+| Eupham Glasgow – Alexander Hutcheson, 8 December 1671 | Alexander Hutcheson, tailor | Hold; Glasgow-3358 an unproved candidate; Hutchieson-4 excluded |
+| Alison Glasgow – John Williamson, 14 November 1672 | John Williamson, cordiner | Hold; Williamson-14320 excluded by his continuing Kirkcaldy family with Christian Turpie (children 1674, 1677, 1680) |
+| Jean Glasgow – William Mitchell, 16 December 1675 | William Mitchell, merchant | Hold; candidates unchanged |
+| Marion Glasgow – John Bruce, 4 July 1684 | John Bruce, smith | Hold; Glasgow-3143 is already the Marion who married William Calder in 1686 and is not given this event |
+
+The Carstairs entry of 24 July 1679 (Thomas Glasgow – Gyles Spence) stays on hold; Thomas Glasgow-1449 is excluded as the groom because his represented father Glasgow-1382 was born about 1766 and his mother is documented as a mother in 1774.
+
+Recorded in `research/queue-resolution-2026-09-30/scottish-opr.json` (30 September 2026); carried into this file on 7 October 2026.

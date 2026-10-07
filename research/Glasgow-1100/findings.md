@@ -1,6 +1,6 @@
 # Findings: [Glasgow-1100](https://www.wikitree.com/wiki/Glasgow-1100)
 
-Last updated: 2026-09-23
+Last updated: 2026-10-07
 
 
 <!-- opr-birth-review-row-13 -->
@@ -37,3 +37,12 @@ plausible candidate.
 **Next action:** Locate and inspect the underlying Glasgow testament for any
 named spouse, children or other distinguishing detail; then resolve whether the
 entry belongs to Glasgow-1100 or an otherwise unidentified Margaret.
+
+<!-- repo-integration-audit-2026-10-07:L09-001 -->
+## Source findings — 1633 burgess admission naming her father, 18 July 1633
+
+James Stewart, merchant, was admitted burgess and guild brother of Glasgow on 18 July 1633 by right of his wife Margaret, lawful daughter of George Glasgow, merchant, burgess and guild brother. James R. Anderson, ed., *Burgesses & Guild Brethren of Glasgow, 1573–1750*, printed p. 86 ([archive.org scan](https://archive.org/details/scottishrecordso43scotuoft/page/n100/mode/2up)); local extract `sources/1633_burgess_register_extract.txt`. Seen as a printed transcription; the underlying burgess roll was not inspected.
+
+**Assessment:** proved. With the 6 May 1610 Glasgow baptism (parents George Glasgow and Margaret Steuart), two independent records identify [George Glasgow (Glasgow-1099)](https://www.wikitree.com/wiki/Glasgow-1099) as her father. The admission does not name her mother, who rests on the baptism alone. The cluster dashboard notes that the structured mother link needs correcting (see `Glasgow-1100.md` on Stewart-65226 and Steuart-563); do not merge any Stewart profiles on this evidence.
+
+Recorded in `surname-research/clusters/README.md` (19 July 2026) and `research/Glasgow-1099/findings.md`; carried into this file on 7 October 2026.

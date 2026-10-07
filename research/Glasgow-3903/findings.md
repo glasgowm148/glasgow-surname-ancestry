@@ -1,6 +1,6 @@
 # Findings: Glasgow-3903
 
-Last updated: 2026-09-23
+Last updated: 2026-10-07
 
 ## Current answer
 
@@ -25,7 +25,7 @@ in the report. Do not attach the unnamed child to this older James.
 | Source | Finding | Assessment |
 | --- | --- | --- |
 | [Tamlaght O'Crilly Lower gravestone](https://www.oneirishrover.com/tamlaght-graveyard/) | The stone calls James the son of Adam and Rose Glasgow and transcribes his death as 11 December 1878 aged 84. | Direct relationship evidence for his parents and approximate birth; its date conflicts by one day with the civil register. |
-| [John Glasgow letter, 20 March 1847](https://www.hiltner.com/mckeown/documents/John%20Glasgow%20letter%20to%20Jane%20Glasgow%20Gray%203-20-1847.pdf) | John said that an Irish letter from R. Mulhollan reported a belief that James Glasgow had an illegitimate heir by his servant, an unnamed daughter of Henry Barkly. | Near-contemporary but second-hand. The original 1851 marriage below now identifies a much stronger James and Barkley-daughter couple. The report should not be assigned to this older James. |
+| [John Glasgow letter, 20 March 1847](https://www.hiltner.com/mckeown/documents/John%20Glasgow%20letter%20to%20Jane%20Glasgow%20Gray%203-20-1847.pdf) | John said that Irish news from McCaivey (not R. Mulhollan, as formerly read; corrected 21 July 2026) reported a belief that James Glasgow had an illegitimate heir by his servant, an unnamed daughter of Henry Barkly. | Near-contemporary but second-hand. The original 1851 marriage below now identifies a much stronger James and Barkley-daughter couple. The report should not be assigned to this older James. |
 | [Original marriage of James Glasgow and Rosanna Barkley, 17 March 1851](../Glasgow-1622/sources/irishgenealogy_1851_james_glasgow_rosanna_barkley_marriage.pdf) | James `Glasgow-1623`, 38, bachelor, farmer of Inishrush and son of Adam Glasgow, married Rosanna Barkley, about 25, farm servant of Tyanee and daughter of Henry Barkley. | The exact name, father/daughter, servant status and locality match make this younger couple the compelling subjects of the 1847 report. It is exclusionary evidence against assigning the report to `Glasgow-3903`; the child remains unnamed. |
 | [IrishGenealogy indexed record](https://www.irishgenealogy.ie/view/?record_id=cide-5928386) and [original civil death return](https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1878/020497/7192875.pdf) | James Glasgow, married farmer of Inishrush, reported age 84, died **12 December 1878**. Henry Glasgow of Inishrush was present at death. | Original-register date and residence. The return does not state Henry's relationship; the younger James's marriage removes the former reason for treating Henry as the leading 1847 child candidate. |
 | [PRONI valuation revision book `VAL/12/B/34/10D`](sources/val12b_34_10d_plot29_james_roseanne_adam.jpg) | James was struck out as occupier of Inishrush plot 29; Rose Anne was inserted with an 1884 annotation and later Adam with an 1893 annotation. | Direct occupancy succession, not stated kinship. |
@@ -125,3 +125,17 @@ the biography.
 The retired NAI tithe microsite guide was replaced with the stable official NAI
 Family History Sources guide. The original PRONI FIN/5/A/254B manuscript
 citation and acreage evidence were retained.
+
+<!-- repo-integration-audit-2026-10-07:L06-018 -->
+## Recommended correction — source of the 1847 Barkly report, 21 July 2026
+
+The complete three-page original of [John Glasgow's letter of 20 March 1847](https://www.hiltner.com/mckeown/documents/John%20Glasgow%20letter%20to%20Jane%20Glasgow%20Gray%203-20-1847.pdf) separates three items: a letter from Adam dated 27 December 1846; R. Mulhollan's report about western Canada and the potato rot; and **McCaivey's** news that James Glasgow reportedly had a child by a servant who was a daughter of Henry Barkly. The report came from McCaivey, not R. Mulhollan, as the source table formerly said. McCaivey's identity is unresolved. The Adam of the 1846 letter cannot be this James's father, Adam of Inishrush, who died in 1844; the letter states no older-generation kinship. The assessment that the report concerns the younger James (Glasgow-1623), not this James, is unchanged.
+
+Recorded in `research/latest-findings.json` (21 July 2026); carried into this file on 7 October 2026.
+
+<!-- repo-integration-audit-2026-10-07:L07-002 -->
+## Source findings — James Glasgow's civil death entry details, 5 September 2026
+
+The [original 1878 civil death return](https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1878/020497/7192875.pdf) is entry 138. It gives the cause as old-age debility of three weeks, uncertified, with no medical attendant. Henry Glasgow of Innisrush signed by his X mark as informant, qualified as present at death, and the death was registered on 23 December 1878. Read from an image crop of the original entry; the crop lacks column headings and the district heading, and the registrar's signature was not fully transcribed. The entry states no relationship between Henry and James and does not name James's wife or parents.
+
+Recorded in `chatgpt_dump/James_Glasgow_Innisrush_death_1878_transcription.txt` (5 September 2026); carried into this file on 7 October 2026.

@@ -54,3 +54,24 @@ linking a relative, property or civic role is required.
 - Do not replace the populated Glasgow birth estimate with an empty location.
 - If a sourced identity is eventually established, replace the estimated vital
   data with that evidence in the same edit.
+
+<!-- repo-integration-audit-2026-10-07:L03-001 -->
+## Source findings — John-to-William property succession narrowed, 30 August 2026
+
+| Source | Finding | Assessment |
+| --- | --- | --- |
+| Joseph Robertson, ed., *Liber Collegii Nostre Domine* (1846), [pp. 90](https://archive.org/download/libercollegiino00annegoog/page/n195_w1600.jpg)–[91](https://archive.org/download/libercollegiino00annegoog/page/n196_w1600.jpg); 20 February 1528/29 (contents: `20 Februarii 1528-9`, fol. xxxi b) | Malcolm Henryson alias Makandoy, heir of his brother David, resigned to Master James Houston a tenement lying between Andrew Craig south and `Willelmi Glasgu` north. This is the parcel Houston resigned to John Rankin in 1534/35. | William already held the northern parcel, the one John held on 2 May 1527, by February 1528/29. The unrecorded transfer from John to William therefore falls within about 21½ months. Scholarly Latin transcription and page scans inspected. |
+| Same volume, St Andrew Apostle prebend rental, [p. 36](https://archive.org/download/libercollegiino00annegoog/page/n141_w1600.jpg) (contents fol. xij b); foundation confirmed 3 June 1542, transumed 8 January 1548/49 | `quatuor solidi annui redditus de tenemento quondam Wilelmi Glasgu`, west side, between the late John Crownar north and John Rankin south. | The same four-shilling annual charged on John's tenement in 1527 is later charged on the late William's tenement. The equation of the two annuals is **strong**, not direct, because the rental does not recite the 1527 conveyance. |
+
+Together these make the 1527 John-to-William title a **strong property succession**. They do not show that John was William's father: sale, assignment or another non-family transfer is still possible, and no transfer instrument or kinship formula has been found. The proposition that the 1527 John was William's son John is **disproved**: the older adjoining owner was dead by 21 October 1553, while William's son was alive and transacting in 1564.
+
+Recorded in `research/medieval-glasgow-bridge-1447-1534/report.md` (30 August 2026); carried into this file on 7 October 2026.
+
+<!-- repo-integration-audit-2026-10-07:L03-002 -->
+## Relationship assessment — Eufame Craig as possible widow, 30 August 2026
+
+On 16 November 1564 `Eufame Craige, the relict of wmquhill {blank} Glesgw`, holding conjunct fee, franktenement and liferent of the whole back tenement between the late John Rankin south and Robert Young north, sold her liferent to John Glasgow elder for £40 (Renwick, *Abstracts of Protocols*, vol. III, protocol 809, [printed pp. 58–59](https://archive.org/details/abstractsprotoc06scogoog/page/n71/mode/2up); manuscript GCA B/10/1/3, fol. 54; printed abstract inspected, not the manuscript). This is the rear part of the parcel John held in 1527.
+
+The leading hypothesis is that Eufame was this older John's widow: a liferent reserved while John held the whole property could survive the transfer of the fee to William by February 1528/29 and still burden the rear parcel in 1564. Eufame as William's later widow remains possible but less likely, because it requires Esbell Brade's death and William's remarriage between 31 December 1534 and 16 March 1535/36. Grade: **leading hypothesis**, a property-based reconstruction, not a recorded marriage. The printed abstract leaves the husband's forename blank; an image of the manuscript is the decisive check.
+
+Recorded in `research/medieval-glasgow-bridge-1447-1534/report.md` (30 August 2026) and `surname-research/pre-1700/evidence-register.md`; carried into this file on 7 October 2026.

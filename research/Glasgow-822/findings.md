@@ -231,3 +231,35 @@ The conditional extension above is unchanged: James Glasgow-1509 as father of Ad
 The audit of 6 October 2026 withdrew the earlier routes from Larne to Alexander Glasgow-951 through older Alexander Glasgow-3904 and younger James Glasgow-3986. Alexander's probable father is John Glasgow, farmer, and any Larne connection must join above him. The Inishrush comparison therefore does not by itself connect the Lisnagaver family.
 
 The Inishrush Y-DNA kit has no SNP result and its pedigree is unverified. In the testing recommendation of the same date it is a lower priority for a Big Y upgrade than the two Kilwaughter kits. No relationship is changed. [Recommendation](/people/glasgow-951.html#next-research).
+
+<!-- repo-integration-audit-2026-10-07:L04-011 -->
+## Source findings — Ohio census and burial index entries, from the 30 September 2026 profile audit
+
+| Source | Finding | Assessment |
+| --- | --- | --- |
+| 'United States Census, 1840', FamilySearch, [John Glascow, Guernsey, Ohio](https://familysearch.org/ark:/61903/1:1:XHRF-1B6), p. 355, NARA M704, roll 396 | John is enumerated in Guernsey County in 1840. | Index; head-of-household entry only. Source for the 'there by 1840' chronology above. |
+| 'United States Census, 1850', FamilySearch, [John Glasgow in household of Arthur Glasgow](https://familysearch.org/ark:/61903/1:1:MX3M-HP3), Londonderry, Guernsey, Ohio, family 1538, NARA M432 | John and Mary live in their son Arthur's household. | Index; agrees with John's 1847 letter that Arthur was caring for them. |
+| 'Find A Grave Index', FamilySearch, [John Glasgow, died 1851](https://familysearch.org/ark:/61903/1:1:QVKX-FB2D), Find a Grave memorial 43524841 | Death 23 December 1851; burial in the Scotch Covenanter Cemetery, Guernsey County. | Derivative memorial index; gravestone not inspected here. |
+
+Recorded in `research/profile-preservation-audit-2026-09-30/Glasgow-822-reconciled.wiki` (30 September 2026), from the live Glasgow-822 biography; carried into this file on 7 October 2026.
+
+<!-- repo-integration-audit-2026-10-07:L09-008 -->
+## Source findings — family Bible children's register, inspected 29 August 2026
+
+The original Glasgow family-Bible register image ([register](https://hiltner.com/mckeown/histories/8479.jpeg); [title page](https://hiltner.com/mckeown/histories/8478.jpeg); local copy `sources/glasgow-bible-8479.jpeg`) records these children of John Glasgow and Mary Arthur:
+
+| Child | Birth in register | Profile |
+| --- | --- | --- |
+| Rose | 4 March 1799 | [Glasgow-821](https://www.wikitree.com/wiki/Glasgow-821) |
+| Maria | 22 September 1800 | [Glasgow-3928](https://www.wikitree.com/wiki/Glasgow-3928) |
+| Jane | 5 October 1802 | [Glasgow-3929](https://www.wikitree.com/wiki/Glasgow-3929) |
+| Adam | 7 July 1804 | [Glasgow-3373](https://www.wikitree.com/wiki/Glasgow-3373) |
+| Lavinia | 21 June 1806 | [Glasgow-3930](https://www.wikitree.com/wiki/Glasgow-3930) |
+| James | 9 November 1808 (died 20 April 1823) | [Glasgow-1165](https://www.wikitree.com/wiki/Glasgow-1165) |
+| Margaret | 17 October 1810 | [Glasgow-43](https://www.wikitree.com/wiki/Glasgow-43) |
+| John | 4 March 1813 | [Glasgow-1617](https://www.wikitree.com/wiki/Glasgow-1617) |
+| Arthur | 1 July 1815 | [Glasgow-1608](https://www.wikitree.com/wiki/Glasgow-1608) |
+
+Seen as an image of the original register. It proves the dates and the parent family within the register; it gives no birthplaces, so County Londonderry or Inishrush birthplaces rest on other evidence. The child-to-profile mapping follows the 29 August 2026 analysis.
+
+Recorded in `research/free-space-pages/missing-evidence-analysis.md` (29 August 2026); carried into this file on 7 October 2026.

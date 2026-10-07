@@ -1,6 +1,6 @@
 # Glasgow-1077 research findings
 
-Last updated: 2026-09-26
+Last updated: 2026-10-07
 
 
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-797144230166
@@ -35,3 +35,12 @@ Add the record as supporting evidence while preserving all existing sources and 
 Original image not inspected for this batch. The combined collection’s date does not automatically establish a birthday. Names alone do not uniquely identify attached parents or connect a child with a later adult. An omitted parent or indexed gender U remains unspecified in this source.
 
 **Next action:** No additional WikiTree update from this row; preserve any existing pending work.
+
+<!-- repo-integration-audit-2026-10-07:L08-006 -->
+## Source findings — reported civic career, death and family, 1730–1764
+
+A compiled biographical note on Irvine people, copied into the owner's earlier research notes, reports that **Provost John Glasgow** was a bailie of Irvine in 1730, was provost three times (1742–44, 1746–48 and 1750–52), **died in 1764** and has a headstone in Irvine churchyard, elsewhere described as the oldest legible stone there. It says he married **Agnes Ferguson (d. 1747)** and had a brother **James, shipwright in Irvine**. It adds that Miss Jessie Urquhart, daughter of the minister of Kilbirnie and a descendant through her mother, had a miniature of him, and that an oil portrait is mentioned in a Urquhart will. Its sources are given only as abbreviations ("iw", William Kerr's notes, ScotlandsPeople wills and the *Fasti*).
+
+Seen as: an unattributed secondary compilation; no original record, headstone image or council minute was seen. Treat it as **unresolved** until the Irvine council minutes and the headstone inscription are read. The note's statement that Agnes Ferguson was at the siege of Derry "in 1690" is unsupported (the siege was in 1689) and is not carried. The identification of this provost with the 1690 Kilbirnie baptism rests on this file's existing assessment, not on the note.
+
+Recorded in `archive/dump/TheGlasgows.md` (owner's checklist export of 10 March 2025); carried into this file on 7 October 2026.

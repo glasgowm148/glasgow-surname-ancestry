@@ -1,5 +1,14 @@
 # WikiTree work queue
 
+<!-- repo-integration-audit-2026-10-07:L04-002 -->
+## Lisnagaver civil birth correction — 30 September 2026
+
+| Profile | Status | Pending amendment |
+| --- | --- | --- |
+| [Mary Ellen Glasgow (Glasgow-4269)](https://www.wikitree.com/wiki/Glasgow-4269) | **OPEN** | Add middle name Ellen; correct birth from 17 to 14 February 1867 and birthplace to Lisnagaver, County Antrim, Ireland, from the inspected original Dirraw (Ballymoney) birth entry 214. Keep the GRONI 17 February index citation as conflicting derivative evidence. Attach no father; the mother (Glasgow-3167) and informant (Glasgow-438) identifications stay qualified. [Replacement draft](../research/Glasgow-4269/civil-birth-update-2026-09-30.wiki) |
+
+Prepared in `research/profile-preservation-audit-2026-09-30/` (30 September 2026); no live save is recorded. Carried into this register on 7 October 2026.
+
 ## Larne & Kilwaughter audit — 6 October 2026
 
 Proposed WikiTree changes from the audit of the Larne & Kilwaughter branch. Each was re-checked by an independent verifier; the wording and evidence are in the named profile's `findings.md` (sections dated 6 October 2026). Nothing has been changed on WikiTree. No parent or place is to be cleared without an evidenced replacement.

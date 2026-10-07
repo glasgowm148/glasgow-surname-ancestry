@@ -1,6 +1,6 @@
 # Findings: [Archibald Glasgow M.A. (Glasgow-1101), baptised 1614; Donegal cleric](https://www.wikitree.com/wiki/Glasgow-1101)
 
-Last updated: 2026-09-30
+Last updated: 2026-10-07
 
 
 ## Current conclusion
@@ -108,3 +108,10 @@ Add the record as supporting evidence while preserving all existing sources and 
 Original image not inspected for this batch. The combined collection’s date does not automatically establish a birthday. Names alone do not uniquely identify attached parents or connect a child with a later adult. An omitted parent or indexed gender U remains unspecified in this source.
 
 **Next action:** No additional WikiTree update from this row; preserve any existing pending work.
+
+<!-- repo-integration-audit-2026-10-07:L04-012 -->
+## Next records — Donegal hearth roll and the 1657 reference, from the 30 September 2026 profile audit
+
+The live biography, preserved in the 30 September 2026 audit, lists two leads that this file has not tested: an Archibald Glasgow in a County Donegal Hearth Money Roll of 1665 ([Virtual Record Treasury of Ireland, TCD MS 6232](https://www.virtualtreasury.ie/item/TCD-MS-6232)), and an Archibald Glasgow 'possibly mentioned' in a 1657 disciplinary record concerning drunkenness ([VRTI, IMC-AH-15-1944-MacLysaght](https://www.virtualtreasury.ie/item/IMC-AH-15-1944-MacLysaght)). Neither entry has been read; both are catalogue-level leads of **possible** relevance and prove nothing about this cleric. Read the hearth-roll entry for its parish and townland, and the 1657 text for the person's description, before using either.
+
+Recorded in `research/profile-preservation-audit-2026-09-30/Glasgow-1101-reconciled.wiki` (30 September 2026); carried into this file on 7 October 2026.

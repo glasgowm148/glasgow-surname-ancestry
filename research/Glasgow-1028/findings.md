@@ -40,3 +40,10 @@ Use the complete replacement draft in `Glasgow-1028.md`; keep structured parents
 uncertain during coordinated correction and do not cite CC8/8/32 as proof.
 
 Edit summary: `Correct Andrew/Jonet parent rationale after re-reading CC8/8/32.`
+
+<!-- repo-integration-audit-2026-10-07:L06-005 -->
+## Relationship assessment — daughter Issobell Glasgow (Glasgow-1085), 28 September 2026
+
+The 3 May 1612 Mid Calder baptism in the table above (NRS OPR 694/10/21) is the record for [Issobell Glasgow (Glasgow-1085)](https://www.wikitree.com/wiki/Glasgow-1085). On it the 28 September 2026 profile review recorded the father–daughter link as **confident** (previously unmarked). Seen as an index entry; no register image was inspected. Later-life identity questions for Issobell are assessed separately.
+
+Recorded in `research/latest-findings.json` (28 September 2026); carried into this file on 7 October 2026.

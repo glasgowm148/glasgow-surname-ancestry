@@ -166,3 +166,30 @@ This is a review of existing evidence, not a newly discovered record. Attached f
 Reason: The same-property succession supports the older John as a probable father, but the inspected title records do not establish that relationship; the biography already describes it as an inference.
 
 Source summary: Glasgow property protocols and maintained William findings. Saved on WikiTree and verified in the live edit form on 28 September 2026; only the father certainty and its explanation were updated.
+
+<!-- repo-integration-audit-2026-10-07:L03-003 -->
+## Source findings — negative searches for William and the older John, 30–31 August 2026
+
+The following searches found nothing new. They are index- or OCR-level negatives, not manuscript-level ones:
+
+- The published index to Glasgow Commissariot testaments, 1547–1800: no testament for William, Esbell Brade, the older John or Eufame Craig, no Glasgow-surname testament close to 1547–70, and no Crownar entry. William died before the series begins.
+- The NRS online catalogue, exact `William Glasgow` and the forms `Glasgw`, `Glasgu` and `Glesgw`, 1500–1540: the only personal hit is GD119/193, the 2 July 1526 Sandilands/Calder remission.
+- [*Registrum Magni Sigilli*, vol. III (1513–1546)](https://archive.org/details/registrummagnisi03scot) and *Exchequer Rolls*, vols. XV–XVI (1523–1536), OCR and index: no unambiguous William or John bearing Glasgow as a surname; the hits are the city, diocese or offices.
+- Cuthbert Simon's published protocols, 1499–1513: no unambiguous personal Glasgow bearer.
+
+Outstanding on-site sources: NRS NP1/5 (Michael Fleming, 1530–37), GCA B/10/1/3 (Heygate, 1562–76) and the Acts of the Lords of Council civil-process manuscripts.
+
+Recorded in `research/medieval-glasgow-bridge-1447-1534/report.md` (30 August 2026) and its `research-log.md`; carried into this file on 7 October 2026.
+
+<!-- repo-integration-audit-2026-10-07:L03-008 -->
+## Source findings — negative father searches, 30 September 2026
+
+A bounded search on 30 September 2026 found no new father clause for William or for the people linked to him: Robert (Glasgow-1096), Archibald (Glasgow-1097) and Isobella (Glasgow-3916), his probable family, and Elizabeth (Glasgow-3915), whose records do not show whether she was his daughter, sister or niece. No confidence changes.
+
+- Bain and Rogers, eds., *Liber protocollorum M. Cuthberti Simonis … Rental Book of the Diocese of Glasgow*, vol. 1 (1875), [NLS PDF](https://deriv.nls.uk/dcn23/8030/80303212.23.pdf): full extracted text searched for `Glasgow`, `Glasgw`, `Glasgu` and `Glesg`. No Glasgow parent bridge. Abstract 657 (pp. 559–560) makes Andrew Smyth son and heir of William Smyth. That is a Smith relationship and cannot be carried over to John de Glasgow alias Smith or to William Glasgow.
+- University of Glasgow, *Catalogue of the Blackhouse Charters* (2012): the only surname occurrence is the known BL/204 of 28 April 1506.
+- *Registrum Secreti Sigilli*, vol. 2 (1529–1542): Google Books search-within-volume snippets only. No kinship clause found, but this was not a full-volume search.
+
+OCR- and snippet-level negatives only; the underlying manuscripts were not read.
+
+Recorded in `research/pre-1700-2026-09-30/scottish/search-handoff.md` (30 September 2026); carried into this file on 7 October 2026.

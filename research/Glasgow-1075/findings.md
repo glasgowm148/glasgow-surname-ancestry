@@ -1,6 +1,6 @@
 # Findings: Robert Glasgow (Glasgow-1075), Paddockholm
 
-Last updated: 2026-08-31
+Last updated: 2026-10-07
 
 ## Current conclusion
 
@@ -56,3 +56,12 @@ Provenance: exact-surname Glasgow search, year range to 1700, 127 supplied resul
 Original image not inspected for this batch. The combined collection’s date does not automatically establish a birthday. Names alone do not uniquely identify attached parents or connect a child with a later adult. An omitted parent or indexed gender U remains unspecified in this source.
 
 **Next action:** No additional WikiTree update from this row; preserve any existing pending work.
+
+<!-- repo-integration-audit-2026-10-07:L08-005 -->
+## Source findings — Paterson's account of the family, 1726–1764
+
+James Paterson, *History of the County of Ayr*, vol. II (1852), "Glasgow of Mountgreenan" ([archive.org text](https://archive.org/stream/historyofcountyo02pateuoft/historyofcountyo02pateuoft_djvu.txt); cited in `research/Glasgow-1076/findings.md` as pp.252–253), says that Robert Glasgow, baptised 17 October 1693, son of Rev. John Glasgow, minister of Kilbirnie, was **chamberlain to the Viscount of Garnock and surgeon at Kilbirnie**, was styled **of Puddockholm** ("sometimes called the Waters"), and **married Margaret Allan of Ladesyde on 10 December 1726**. They had nine children, "among whom were": Jean, married James White of Woodsyde, Kilwinning parish (the OCR gives 1 October 1750 with a birth year of 1757, so one figure is wrong); Ann, married Hugh Allan in Kilwinning, 23 December 1757; Janet, born 1736, married William Cochran, younger of Ladyland, 2 September 1756, with issue; Margaret, married Andrew Smith of Todholes, Dalry parish, 20 March 1764; Robert of Mountgreenan; and James, who went to St Vincent and died unmarried in Calder parish, near Edinburgh.
+
+Seen as: OCR text of the printed history pasted into the owner's notes; the printed page was not re-read in this audit. The numbered children appear in a separate part of the notes and are attributed to Paterson by their content. Paterson is a nineteenth-century secondary account, not record evidence: check the marriages in the Kilbirnie, Kilwinning and Dalry registers before any relationship status changes. His statement that Robert of Mountgreenan left no issue conflicts with the trust evidence in Glasgow-1076's findings. The Puddockholm (Paddockholm) designation agrees with the 1722 letter RH15/120/178 above.
+
+Recorded in `archive/dump/TheGlasgows.md` (owner's checklist export of 10 March 2025); carried into this file on 7 October 2026.

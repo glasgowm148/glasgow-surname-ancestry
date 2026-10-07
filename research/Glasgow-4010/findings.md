@@ -14,8 +14,7 @@ uncertain household relationships because the census does not state kinship.
 Alba and Lycania remain uncreated identity holds.
 
 A direct reading of Robert Glasgow of Prescott's 1849 will, registered in
-1856, gives six shares for brothers Daniel, Samuel, John and Thomas, deceased
-brother James's children collectively, and sister Mary. The same Prescott
+1856, gives six shares for brothers Daniel, Samuel, John and Thomas, brother James's children collectively (the will does not say James was dead; revised 7 October 2026, see below), and sister Mary. The same Prescott
 property chain identifies the named Samuel as merchant Glasgow-4010. Robert was
 therefore Samuel's brother, not his father; the later father–son account appears
 to have mistaken six estate shares for six children. FamilySearch image
@@ -23,8 +22,7 @@ to have mistaken six estate shares for six children. FamilySearch image
 still require their own identity and duplicate checks before profiles are created.
 
 The most direct next Canadian target is the registered land chain for Robert's
-**Centre Street** house: conveyances or releases by the children of deceased
-James for their collective share may name them or their residences. The Centre/Dibble parcel is now identified in original deeds and the official abstract. It is separate from Samuel’s **251 Water Street West** property.
+**Centre Street** house: conveyances or releases by the children of James for their collective share may name them or their residences. The Centre/Dibble parcel is now identified in original deeds and the official abstract. It is separate from Samuel’s **251 Water Street West** property.
 
 ## Source findings
 
@@ -76,3 +74,23 @@ Robert-4150 and Samuel-4010 are proved brothers of Daniel-3896 and Thomas-987. T
 ## Recommended action — pending 30 September 2026
 
 Use the complete replacement draft named for this WikiTree ID, preserving existing sources. Add the working father connection and attach Alexander-3904 as uncertain father. Robert’s draft also interlinks Daniel/Thomas at first mention and removes obsolete instructions to create this already existing profile. Thomas and Daniel’s prior sibling biography updates remain complete.
+
+<!-- repo-integration-audit-2026-10-07:L04-003 -->
+## Source findings — death notice, directories, the 1856 share purchase and local history, carried from the 30 September 2026 profile draft
+
+| Source | Finding | Assessment |
+| --- | --- | --- |
+| [County Londonderry *Sentinel* death-notice transcriptions, G, 1829–1869](https://cotyrone.com/colondonderry/burial/CoLondonderry-DeathsSentinel-G-1829-1869.html), entry published 29 January 1867 (accessed 13 August 2026) | Samuel Glasgow, formerly of Kilrea, emigrated in 1831, became a successful merchant and died at Prescott, leaving a widow and family. | Transcription only. It calls its source a "Prescott, U.S. American paper", an unresolved anomaly; the matching merchant lived at Prescott, Canada West. Supports a Kilrea origin, not a parentage. |
+| [Mackay, *The Canada Directory* (1851)](https://numerique.banq.qc.ca/patrimoine/details/52327/5139192) | "Glasgow, Samuel, general store, Main st.", Prescott. | Printed directory: occupation and street. |
+| [*Fuller's Counties of Leeds, Grenville, Lanark and Renfrew Directory for 1866 & 1867*](https://www.collectionscanada.gc.ca/obj/001075/f2/nlc008163.pdf) | Samuel Glasgow, general dealer, King Street, Prescott. | Printed directory. |
+| [Grenville County land records, B13, DGS 8200419, image 36](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWYM-6) | Deed of 30 October 1856, registered 13 November 1856: John Glasgow, Prescott watchmaker, and his wife Jane sell Samuel, merchant, one sixth share for £125; Jane releases dower. | Original deed as read in `research/Glasgow-951/findings.md` (Irish–Canadian deed table). The 30 September profile draft describes the seller as "Robert's widow Jane"; that reading is not supported and should not be used. |
+| Grenville County Historical Society, *The Grenville Sentinel*, July–August 2023, "The Glasgow House", pp. 3–4 | Dates Samuel's death to 1866, names Sandy Hill Presbyterian Cemetery as the family burial place, and reports ten children, six surviving, including Thomas Crichton (born 1853) and Henry (born 1857, died young). | Derivative local history; the children and the death year are not checked against civil, church or cemetery originals. The derivative Leeds–Grenville estate year 1875 still conflicts. |
+
+Recorded in `research/profile-preservation-audit-2026-09-30/Glasgow-4010-reconciled.wiki` (30 September 2026), with the 1856 deed corrected from `research/Glasgow-951/findings.md`; carried into this file on 7 October 2026.
+
+<!-- repo-integration-audit-2026-10-07:L06-023 -->
+## Recommended correction — brother James not stated to be dead, 30 September 2026
+
+The assessment history above formerly described the will's collective share as for the children of a **deceased** brother James. [Robert's will of 9 October 1849](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWY9-S) leaves a share to brother James's children but does not say James was dead, and a death before 1849 must not be inferred. James is probably, not provably, James Glasco, formerly of Prescott, carpenter, whose children Eliza Jane, Mary and Alexander conveyed Prescott interests to Samuel or his widow in 1860–68.
+
+Recorded in `research/latest-findings-subjects/prescott-rochester-james-family/james-glasgow.md` (30 September 2026); carried into this file on 7 October 2026.

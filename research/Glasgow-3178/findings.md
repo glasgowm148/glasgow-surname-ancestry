@@ -62,3 +62,10 @@ The transcript-validated testament/probate record for **Agnes Glasgow**, 4 Mar 1
 
 Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
 <!-- END FMP-GLASGOW-fmp-glasgow-5bd8a860759f -->
+
+<!-- repo-integration-audit-2026-10-07:L03-011 -->
+## Unresolved — volume reference for the 1628 testament, 10 September 2026
+
+The public WikiTree biography cites NRS CC9/7/22 for Agnes's testament, confirmed 4 March 1628 (Grant, *Commissariot Record of Glasgow*, p. 195). Neither her entry in that volume nor the volume's date coverage has been checked, and repeating the citation does not verify it. Treat CC9/7/22 as the candidate volume until the original entry is found on Scotland's People.
+
+Recorded in `research/transcriptions/source-recovery-2026-09-10.md` (10 September 2026); carried into this file on 7 October 2026.

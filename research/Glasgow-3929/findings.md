@@ -18,3 +18,10 @@ a duplicate.
 
 Map `record-jane-glasgow-f9b664dda9` to Glasgow-3929. Keep the Boveedy
 association probable rather than treating it as a named census identification.
+
+<!-- repo-integration-audit-2026-10-07:L09-009 -->
+## Source findings — family Bible birth entry, inspected 29 August 2026
+
+The original Glasgow family-Bible register ([image](https://hiltner.com/mckeown/histories/8479.jpeg); copy at `../Glasgow-822/sources/glasgow-bible-8479.jpeg`) records Jane, born **5 October 1802**, among the nine children of John Glasgow ([[Glasgow-822]]) and Mary Arthur ([[Arthur-2480]]). Seen as an image of the original register. It proves her birth date and parents; it does not name her husband or birthplace, so the Gray marriage still rests on the descendant pages. It is a better citation for her birth and parentage than the descendant page.
+
+Recorded in `research/free-space-pages/missing-evidence-analysis.md` (29 August 2026); carried into this file on 7 October 2026.

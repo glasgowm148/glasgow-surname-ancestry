@@ -1,6 +1,6 @@
 # Findings: [Glasgow-3971](https://www.wikitree.com/wiki/Glasgow-3971)
 
-Last updated: 2026-09-10
+Last updated: 2026-10-07
 
 
 <!-- opr-birth-review-row-32 -->
@@ -15,3 +15,10 @@ Last updated: 2026-09-10
 Original image not inspected for this batch. The combined collection’s date does not automatically establish a birthday. Names alone do not uniquely identify attached parents or connect a child with a later adult. An omitted parent or indexed gender U remains unspecified in this source.
 
 **Next action:** No additional WikiTree update from this row; preserve any existing pending work.
+
+<!-- repo-integration-audit-2026-10-07:L09-007 -->
+## Identity assessment — possible identity with James Glascho of Kilwaughter (Glasgow-1081)
+
+The chronology permits this 1645 Glasgow child to be the James Glascho who was a Kilwaughter householder in 1669 ([Glasgow-1081](https://www.wikitree.com/wiki/Glasgow-1081)), but no record carries the Scottish child to Ireland or names the Irish man's birthplace or parents. The relationship register grades the identity **open, low-to-moderate**. The two profiles must remain separate. Next proof targets: the original 1645 register entry, the Agnew holding succession, the 1666 subsidy roll and any probate substitute naming origin or kin. See `research/Glasgow-1081/findings.md` for the Irish side.
+
+Recorded in `surname-research/indexes/relationship-hypotheses.md` (Glasgow-to-Kilwaughter reconstruction); carried into this file on 7 October 2026.

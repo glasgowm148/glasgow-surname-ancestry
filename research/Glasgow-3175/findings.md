@@ -5,7 +5,7 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
-The exact Old Bailey case already cited on this profile is strongly associated with the newly inspected May 1761 newspaper respite. The case association does not prove that the defendant was the profile’s Ulster-born Pennsylvania ancestor.
+The exact Old Bailey case already cited on this profile was formerly treated as strongly associated with the May 1761 newspaper respite. That association was withdrawn on 6 October 2026: the defendant was a Holborn/High Wycombe tradesman, not this man (see below). The case association does not prove that the defendant was the profile’s Ulster-born Pennsylvania ancestor.
 
 ## Source findings
 
@@ -98,3 +98,10 @@ A notice dated Baltimore, 19 October 1777, signed Joseph Ford, orders absent sol
 ## Current conclusion — newspaper identity review, 6 October 2026
 
 - [Aurora General Advertiser, 1791-09-21, p.2](https://www.newspapers.com/image/584905489/): Samuel Glasgow (justice of the peace in commission, Washington County, Pennsylvania, 1791) — **possible** match. Independent county records fix the office-holder's identity and locality. Crumrine's History of Washington County (1882) lists 'Hon. Samuel Glasgow, commissioned May 7, 1788' among county justices, and puts him first in the Hanover Township justices' list ('Samuel Glasgow, May 7, 1788'). The 1800 Hanover Township assessment, quoted by Crumrine, lists 'Samuel Glasgow, justice of the peace'. The county slave register, as transcribed by Afrolumens, records Samuel Glasgow of Peters Township, wheelwright, in 1782, 'Samule Glasgow Esquire of Hanover township' on 2 June 1792, and Hanover through the 1800 septennial census. Glasgow-3175 (Samuel, c.1740 Ulster – 1801 Hanover Township, Washington County; wife Mary Stephenson) agrees on name, county, township and period, and his recorded death place is the JP's township. However, his profile rests only on a FamilySearch user tree, and its biography Sources: [Boyd Crumrine, History of Washington County, Pennsylvania (1882), full text: justices list ('Samuel Glasgow, commissioned May 7, 1788'), Hanover Township justices list and 1800 Hanover assessment](https://archive.org/details/historyofwashing00crum); [ldsgenealogy.com transcription of Crumrine (1882), part 65 (county justices list)](https://ldsgenealogy.com/PA/books/History-of-Washington-County-Pennsylvania-with-biographical-sketches-of-many-of-its-pioneers-and-prominent-men-part-65.htm); [Afrolumens Project, Washington County, Pennsylvania slave register transcriptions (Samuel Glasgow, Peters Township wheelwright; 'Samule Glasgow Esquire of Hanover township', 2 June 1792)](https://afrolumens.com/slavery/washfi.html)
+
+<!-- repo-integration-audit-2026-10-07:L06-017 -->
+## Recommended correction — the 1761 Old Bailey Samuel Glascow is not this man, 6 October 2026
+
+The earlier statements in this file that the Old Bailey case cited on this profile is 'strongly associated' with him are superseded. The defendant's own trial testimony ([Old Bailey Proceedings Online](https://www.oldbaileyonline.org/)) and the May 1761 reports ([The Derby Mercury, 8 May 1761, p. 2](https://www.newspapers.com/image/394296692/)) show that Samuel Glascow, capitally convicted of horse-stealing in 1761 and later respited, was a Holborn/High Wycombe tradesman: a London man, not the Ulster-born Pennsylvania Samuel. The association with this profile is **withdrawn**; see the identity assessment of 6 October 2026 above.
+
+Recorded in `research/latest-findings.json` (6 October 2026); carried into this file on 7 October 2026.

@@ -144,3 +144,10 @@ Live WikiTree confirms [[Glasgow-1073|Rev. John Glasgow]] is attached to [[Cunni
 Source: Old Parish Registers, banns and marriages; exact surname Glasgow through 1700, 55 supplied results. Original images not inspected for this batch; combined index dates do not by themselves establish ceremony dates.
 
 This batch adds supporting evidence or a qualified comparison only; it raises no additional WikiTree amendment for this profile.
+
+<!-- repo-integration-audit-2026-10-07:L06-016 -->
+## Relationship assessment — son James Glasgow, minister of Edinburgh Castle (Glasgow-1140), 6 October 2026
+
+The Kilbirnie entry in *Fasti Ecclesiae Scoticanae*, new ed., [vol. 3](https://archive.org/details/fastiecclesiaesc03scot), lists "James, min. of Edinburgh Castle" first among Rev. John's children by his second wife, Margaret Scott. The Edinburgh Castle entry ([vol. 1](https://archive.org/details/fastiecclesiaesc01scot)) gives James M.A. Glasgow 10 March 1718, commission 7 July 1737, ordination 14 February 1738 and death 9 February 1746, aged about 48. *The Daily Gazetteer* reports his royal commission as chaplain to the Castle garrison ([3 November 1737, p. 1](https://www.newspapers.com/image/1142270617/)) and his ordination as minister of the Castle ([23 February 1738, p. 1](https://www.newspapers.com/image/1142271259/)). A Kilbirnie baptism index entry of 17 March 1700 for James, son of John Glasgow and Margaret Scot (OPR 596/10/30), agrees. On the Fasti, a compiled source, [James Glasgow (Glasgow-1140)](https://www.wikitree.com/wiki/Glasgow-1140) is John's son; that he is also the 'brother James Glasgow, student of divinity at Glasgow' of the 1722 letter noted above is a consistent inference.
+
+Recorded in `research/latest-findings.json` (6 October 2026); carried into this file on 7 October 2026.

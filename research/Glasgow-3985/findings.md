@@ -1,6 +1,6 @@
 # Findings: [Henry Glasgow (Glasgow-3985), born about 1850, Inishrush](https://www.wikitree.com/wiki/Glasgow-3985)
 
-Last updated: 2026-08-10
+Last updated: 2026-10-07
 
 ## Current conclusion
 
@@ -25,7 +25,7 @@ is a coverage-qualified negative rather than proof that no notice was printed.
 
 | Source | Finding | Assessment |
 | --- | --- | --- |
-| [Original civil death return for James Glasgow](https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1878/020497/7192875.pdf), 11 December 1878 | James, married farmer of Inishrush, died aged 84; `Henry Glasgow, Inishrush`, was present at death. | Proves Henry's presence and close household or neighbourhood association. The qualification does not call him son, relative or heir. |
+| [Original civil death return for James Glasgow](https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1878/020497/7192875.pdf), 12 December 1878 (corrected 7 October 2026; the gravestone transcription gives 11 December) | James, married farmer of Inishrush, died aged 84; `Henry Glasgow, Inishrush`, was present at death. | Proves Henry's presence and close household or neighbourhood association. The qualification does not call him son, relative or heir. |
 | [Tamlaght O'Crilly Lower gravestone](https://www.oneirishrover.com/tamlaght-graveyard/) | The stone calls James the son of Adam and Rose and names William as their grandson. | Does not name Henry or identify William's father. It cannot prove Henry's relationship. |
 | PRONI `VAL/12/B/34/10D` | Plot 29 passed from an unidentified James to Rose Anne and later Adam. | Henry is not named and the valuation states no relationships. |
 | [Butler-Savannah Cemetery transcription](https://wayne.nygenweb.net/cemeteries/butsavcemg-m.html) | A Henry Glasgow born in Ireland in July 1848 was established with wife Amanda in Savannah, New York, and had a son there in January 1877. | Chronologically similar namesake, but his New York residence before James's death makes identity with the Inishrush informant less likely. His Irish parents and townland remain unknown. |
@@ -42,3 +42,10 @@ is a coverage-qualified negative rather than proof that no notice was printed.
 Do not describe Henry as a proved son of James. If the connection is retained on
 WikiTree, keep the father status uncertain and state that it rests solely on
 Henry being present at James's death.
+
+<!-- repo-integration-audit-2026-10-07:L07-001 -->
+## Recommended correction — date of James Glasgow's civil death return, 5 September 2026
+
+The [original civil death return for James Glasgow](https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1878/020497/7192875.pdf) (entry 138) records the death on **12 December 1878**, not 11 December as the source table formerly said; 11 December is the published gravestone transcription's reading. This is a one-day conflict between stone and register, not two deaths, and Glasgow-3903 already uses 12 December. The entry was registered on 23 December 1878; Henry Glasgow of Inishrush signed by his mark as informant, present at death. No relationship between Henry and James is stated. Read from an image crop of the original entry; the full official PDF did not load in that pass.
+
+Recorded in `chatgpt_dump/James_Glasgow_Innisrush_death_1878_transcription.txt` (5 September 2026); carried into this file on 7 October 2026.

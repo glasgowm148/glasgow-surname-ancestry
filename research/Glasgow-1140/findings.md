@@ -1,6 +1,6 @@
 # Findings: [Glasgow-1140](https://www.wikitree.com/wiki/Glasgow-1140)
 
-Last updated: 2026-09-10
+Last updated: 2026-10-07
 
 
 <!-- opr-birth-review-row-31 -->
@@ -51,3 +51,12 @@ Father [Glasgow-1073](https://www.wikitree.com/wiki/Glasgow-1073) (Rev. John Gla
 ## Recommended profile amendment — 6 October 2026
 
 Add the Castle ministry (M.A. 1718, commission 7 July 1737, ordination 14 Feb 1738) and death on 9 February 1746 (aged about 48) with the Fasti and newspaper citations; set father and mother confident. Prepare the full replacement biography before saving; nothing has been changed on WikiTree yet.
+
+<!-- repo-integration-audit-2026-10-07:L02-002 -->
+## Identity assessment — claimed Irish career excluded, before 8 September 2026
+
+A former story gave this James Glasgow an Irish career. It does not concern him. The supposed settler in Ireland was James Crawfurd, brother of Viscount Garnock, who had been mistaken for Robert Glasgow's brother James. The Ireland lines added to the 1720 letter and the alleged 1725 remittance were exposed as forgeries in the Crawfurd peerage case. Neither document concerns James Glasgow. The genuine 1722 letter places James at Glasgow as a student of divinity, which fits the Kilbirnie baptism and the Edinburgh Castle identity above.
+
+Source: James Dobie, [*Examination of the Claim of John Lindsay Crawfurd*](https://deriv.nls.uk/dcn23/9537/95375734.23.pdf) (1831), pp. 102–106; NRS RH15/120/178. Seen as a derivative account, cited in the maintained name-study draft (`research/free-space-pages/edition/glasgow-name-study-057c2f.wiki`); not re-inspected for this note. Grade: excluded. Do not place James in an Irish family on this evidence.
+
+Recorded in `research/pre-1730-unlinked-record-audit.md` (undated; last committed 8 September 2026) and the name-study draft; carried into this file on 7 October 2026.
