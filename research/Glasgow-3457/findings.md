@@ -1,5 +1,10 @@
 # Findings: Glasgow-3457
 
+## Current conclusion
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+No record has yet been securely identified with this Robert Glasgow. Two newspaper subjects compared with him were withdrawn on 6 October 2026. The Robert Glasgow sentenced to death at the Old Bailey in 1751 was, according to the Ordinary's Account, a butcher aged 28 born at Chipping Ongar, Essex, who was hanged at Tyburn; the 1754 master of the snow John and Archibald of Glasgow is already the subject of another profile, Robert Glasgow (Glasgow-2867).
+
 ## Current conclusion — original newspaper batch, 5 October 2026
 
 Robert Glasgow, Old Bailey and Newgate reports, 1751: Chronologically possible, about 27; no direct record linkage. Public dossier has a FamilySearch baptism citation for David Glasgow in 1744 and unverified tree spouse/child links; no occupational finding for Robert. Earlier records are prior research context, not newly inspected originals. The two reports refer to the same named robbery case. No existing profile supplies an identity bridge. The 1754 master is kept as a separate documentary subject; the execution order does not prove Robert’s death. No relationship or life-date amendment follows.

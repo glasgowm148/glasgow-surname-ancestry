@@ -1,9 +1,15 @@
 # Findings: [Glasgow-1103](https://www.wikitree.com/wiki/Glasgow-1103)
 
-Last updated: 2026-09-10
+Last updated: 2026-10-07
 
 
 <!-- opr-birth-review-row-24 -->
+
+## Current conclusion
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+Thomas Glasgow was born or baptised in Glasgow on 15 March 1612, according to the Scotland’s People index of the Old Parish Registers (parish 644 / 1, reference 10 / 81), which names his parents as George Glasgow and Margaret Steuart. The entry is known from the index only: the original register image has not been inspected, and the indexed date is not proved to be a birth date. The file records nothing further about his life.
+
 ## Source findings
 
 ### Supplied OPR births and baptisms: row 24 — 10 September 2026

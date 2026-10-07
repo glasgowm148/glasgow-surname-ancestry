@@ -1,6 +1,12 @@
 # Glasgow-3878 research findings
 
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-8f860d0a7fef -->
+
+## Current conclusion
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+Margaret Glasgow was the daughter of Robert Glasgow, surgeon, and Margaret Allan, baptised at Kilbirnie, Ayrshire; Findmypast indexes her baptism twice in the same register, on 21 August 1743 and on 21 January 1744. The profile's 21 August 1743 date cites a Scotland's People entry, and neither original entry has been read. A September 2026 audit treated the two rows as one child, reasoning that a second daughter of the same parents five months later was impossible; that is an inference from the dates, not a record comparison, so the date remains in conflict until the register pages are compared.
+
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-8f860d0a7fef
 
 The transcript-validated baptism record for **Margaret Glasgow**, 21 Aug 1743, Kilbirnie, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.

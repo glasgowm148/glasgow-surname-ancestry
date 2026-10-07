@@ -4,6 +4,12 @@ Last updated: 2026-10-07
 
 
 <!-- opr-birth-review-row-32 -->
+
+## Current conclusion
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+James Glasgow, son of Robert Glasgow and Jonet Cunnyngham as indexed ('Rot. Glasgow'), is recorded in the Scotland's People index of Old Parish Register births and baptisms at Glasgow under 25 November 1645; the original register has not been inspected. The entry agrees with the existing account of him on the profile. Chronology permits him to be the James Glascho who was a Kilwaughter householder in 1669 (Glasgow-1081), but no record carries this child to Ireland, and the identity is graded open, low to moderate, with the two profiles kept separate.
+
 ## Source findings
 
 ### Supplied OPR births and baptisms: row 32 — 10 September 2026

@@ -1,5 +1,10 @@
 # Findings: Glasgow-3290
 
+## Current conclusion
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+James Glasgow was recorded as the son of James Glasgow (Glasgow-2868) and Ann Hartshorne (Hartshorne-320) of Cecil County, Maryland, born there in 1758 and died in 1789; both dates are uncertain. He was possibly the James Glasgow 'living at Christiana Bridge' who advertised a tanyard in the borough of Wilmington, Delaware, in March 1785, a place near the family's Cecil County home, but his profile has no Delaware, tanning or property record, so the match is unproved. A 1782 Christiana Bridge tanyard notice and name-only entries in a Lancaster letter list of 1773 and a Carlisle list of 1795 have been set aside as not identifying him.
+
 ## Current conclusion — additional newspaper originals, 5 October 2026
 
 James Glasgow, Lancaster postal addressee, 1773: Uncertain 1758 birth permits a young addressee; no Lancaster identity bridge. The three checked profiles remain possible; none identifies the addressee. No link to the 1757 Philadelphia/Fogs Manor, 1775 Charlestown or 1777 shipmaster James is established. No family or life-date change follows.

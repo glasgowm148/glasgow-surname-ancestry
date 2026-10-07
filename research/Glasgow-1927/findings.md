@@ -3,6 +3,12 @@
 Last updated: 2026-10-07
 
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-196d95f7f8ae -->
+
+## Current conclusion
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+John Glasgow was born or baptised at Linlithgow in 1671, son of John Glasgow and Agnes Eastone, according to a Findmypast transcript and the Scotland’s People index of the Linlithgow register. The index date, 26 February 1671, differs from the profile's 2 February 1671 and from a christening year of 1670 in its biography, and the original register has not been inspected to settle it. The profile also cites a 1704 marriage of a John Glasgow and eight Kilwinning baptisms of 1707 to 1726, including James Glasgow (Glasgow-1932), but no record links the Linlithgow child to that Kilwinning father beyond name and approximate age; the identification is unresolved.
+
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-196d95f7f8ae
 
 The transcript-validated baptism record for **John Glasgow**, 1671, Linlithgow, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.

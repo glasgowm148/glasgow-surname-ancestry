@@ -3,6 +3,11 @@
 Last updated: 2026-10-07
 
 
+## Current conclusion
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+Eupham Glasgow, daughter of Robert Glasgow and Eupham Lorimer as indexed, is recorded in the Scotland's People index of Old Parish Register births and baptisms at Edinburgh under 8 May 1651. She is a compatible but unproved candidate for the Eupham Glasgow who married Alexander Hutcheson, tailor, at Edinburgh on 8 December 1671 according to the printed Edinburgh marriage register; the other candidate is Glasgow-1167. A Channelkirk entry of 17 September 1671 for Effie Glasgow and Alexander Hutchesone is provisionally grouped with that couple but kept as a separate event.
+
 ## Source findings
 
 ### Supplied OPR banns and marriages — 10 September 2026

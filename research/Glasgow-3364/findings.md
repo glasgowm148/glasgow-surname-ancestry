@@ -1,9 +1,15 @@
 # Findings: [Glasgow-3364](https://www.wikitree.com/wiki/Glasgow-3364)
 
-Last updated: 2026-09-10
+Last updated: 2026-10-07
 
 
 <!-- opr-birth-review-row-41 -->
+
+## Current conclusion
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+Jean Glasgow, daughter of James Glasgow as indexed, is recorded in the Scotland's People index of Old Parish Register births and baptisms at Gordon under 16 April 1671; no mother is named in the index. The entry agrees in date, place and family with the existing account of her on the profile and adds the index reference as provenance. The original register has not been inspected, and the indexed date is not proved to be her date of birth.
+
 ## Source findings
 
 ### Supplied OPR births and baptisms: row 41 — 10 September 2026

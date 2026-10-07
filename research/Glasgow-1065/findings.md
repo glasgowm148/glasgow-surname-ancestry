@@ -1,8 +1,14 @@
 # Glasgow-1065 research findings
 
-Last updated: 2026-09-10
+Last updated: 2026-10-07
 
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-f26e15d015c1 -->
+
+## Current conclusion
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+John Glasgow was baptised at Kilwinning, Ayrshire, on 16 September 1683; his father's name is indexed as Gorge or Gorg Glasgow. Two index entries share the same date and register locator (OPR 599, 10/45) but name the mother differently, as Jean Gardiner and as Jonet Young, and both are assigned to this profile. The file does not establish whether the two women were the same person or whether there were two children, and the original register entry has not yet been inspected to settle the mother's identity.
+
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-f26e15d015c1
 
 The transcript-validated baptism record for **John Glasgow**, 16 Sep 1683, Kilwinning, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.

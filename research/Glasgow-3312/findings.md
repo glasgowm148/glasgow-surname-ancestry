@@ -1,6 +1,12 @@
 # Glasgow-3312 research findings
 
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-34c58f3b2e81 -->
+
+## Current conclusion
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+George Glasgow was born on 19 July 1729 and baptised the next day at Kilwinning, Ayrshire, the son of George Glasgow and Margaret Martin as named in the baptism transcript assigned to this profile. He was possibly the George Glasgow, merchant in Glasgow and 'of Nethermains', whose Kilwinning lands were advertised in 1768 and offered at judicial sale in 1777; the link rests on that designation, the Martin family's earlier holding of Nethermains, and the 1768 testament of his recorded wife Margaret Buchanan (Buchanan-12640), 'wife of George Glasgow, of Nethermains'. His recorded death date, 27 June 1768, is that testament's date, so his own death is not established.
+
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-34c58f3b2e81
 
 The transcript-validated baptism record for **George Glasgow**, 20 Jul 1729, Kilwinning, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.

@@ -1,8 +1,14 @@
 # Findings: Glasgow-1524
 
-Last updated: 2026-09-10
+Last updated: 2026-10-07
 
 <!-- opr-birth-review-row-122 -->
+
+## Current conclusion
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+Margaret Glasgow was born or baptised in Glasgow on 16 November 1643, according to the Scotland’s People index of the Old Parish Registers (parish 644 / 1, reference 30 / 360), which names her parents as Wm. Glasgow and Bessie Howie. The entry is known from the index only: the original register image has not been inspected, and the indexed date is not proved to be a birth date. Another profile, Glasgow-3050, has the same date but different parents and place; the index does not support that attribution, and the two profiles are to be kept separate pending independent evidence.
+
 ## Source findings
 
 ### Supplied OPR births and baptisms: row 122 — 10 September 2026

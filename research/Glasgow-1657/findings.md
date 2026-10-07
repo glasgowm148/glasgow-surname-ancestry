@@ -5,7 +5,8 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
-No sourced conclusion recorded yet.
+<!-- site-audit-2026-10-07:overall-conclusion -->
+John Glasgow of Cross, near Broughshane, County Antrim, died in July 1836 in the 70th year of his age, according to the death notice in the Belfast Commercial Chronicle of 10 August 1836; the day reads 28th in the profile's quotation but is lost in the newspaper OCR. The Racavan gravestone, known from a transcription and an independent index, names him as father of William Glasgow, who died aged 22 in 1823 or 1829 (the readings differ), and records his widow Jane, who died in 1858 aged 85, and a daughter Jane Armstrong. A Glasgow holding at Cross in 1862 supports, but does not prove, his being father of John Glasgow (Glasgow-2407).
 
 ## Source findings
 

@@ -1,7 +1,12 @@
 # David Glasgow (Glasgow-1518)
 
-Last updated: 2026-09-10
+Last updated: 2026-10-07
 
+
+## Current conclusion
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+David Glasgow (indexed as Dauid) was born or baptised in Glasgow on 22 September 1639, according to the Scotland's People index of the Old Parish Registers, which names his parents as William Glasgow and Bessie Howie. The profile also carries a Glasgow banns or marriage entry of 19 April 1666 for David Glasgow and Marion Pedie (Pedie-9), from the Scotland's People banns and marriages index; that index date is not proved to be the wedding date. Both entries are index-only, the originals have not been inspected, and the file does not establish that the child of 1639 and the man of 1666 were the same person.
 
 ## Source findings
 

@@ -1,9 +1,15 @@
 # Findings: [Glasgow-3516](https://www.wikitree.com/wiki/Glasgow-3516)
 
-Last updated: 2026-09-10
+Last updated: 2026-10-07
 
 
 <!-- opr-birth-review-row-37 -->
+
+## Current conclusion
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+Johne Glasgow, son of Archbald Glasgow and Agnes Watsone as indexed, is recorded in the Scotland's People index of Old Parish Register births and baptisms at Leith South under 27 April 1656. The entry agrees in date, place and family with the existing account of him on the profile and adds the index reference as provenance. The original register has not been inspected, and the indexed date is not proved to be his date of birth.
+
 ## Source findings
 
 ### Supplied OPR births and baptisms: row 37 — 10 September 2026

@@ -5,7 +5,8 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
-No sourced conclusion recorded yet.
+<!-- site-audit-2026-10-07:overall-conclusion -->
+Elizabeth Glasgow, written 'Eliz Glascho', was a taxed householder at Glenarm town, Tickmacrevan parish, County Antrim, in the 1669 hearth money roll, the only record of her yet found. Her birth is estimated at about 1648 or earlier, an inference from the assumption that a householder was at least 21; no age is recorded. James Glascho and Jo Glascho (Glasgow-3913) appear in the same roll at Kilwaughter Demesne, which makes a shared extended family plausible, but no relationship is stated. Her parents, spouse and children are unknown.
 
 ## Source findings
 

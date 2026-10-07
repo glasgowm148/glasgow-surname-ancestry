@@ -1,9 +1,15 @@
 # Findings: [Glasgow-1151](https://www.wikitree.com/wiki/Glasgow-1151)
 
-Last updated: 2026-09-10
+Last updated: 2026-10-07
 
 
 <!-- opr-birth-review-row-8 -->
+
+## Current conclusion
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+Johnne Glasgow was born or baptised in the parish of Inveresk and Musselburgh on 25 November 1632, according to the Scotland’s People index of the Old Parish Registers (parish 689, reference 10 / 226), which names his father as Alexander Glasgow and gives no mother. The entry is known from the index only: the original register image has not been inspected, and the indexed date is not proved to be a birth date. The file records nothing further about his life.
+
 ## Source findings
 
 ### Supplied OPR births and baptisms: row 8 — 10 September 2026

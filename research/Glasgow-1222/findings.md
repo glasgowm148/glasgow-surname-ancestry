@@ -1,5 +1,10 @@
 # Findings: Glasgow-1222
 
+## Current conclusion
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+James Glasgow was baptised at Kelso on 25 December 1777, the son of David Glasgow (Glasgow-1218) and Janet, according to an index of the parish register; his profile gives that date as his birth and his mother as Janet Hood. He is probably the James Glasgow, son to David Glasgow, drawn by ballot for the Roxburgh County Militia from Kelso parish in September 1798, when he was 20 and inside the age band balloted; name, father's name, parish and age agree. The ballot list and the baptism are two independent records naming David as his father. Selection in the ballot does not prove that he served.
+
 ## Current conclusion — additional newspaper originals, 5 October 2026
 
 James Glasgow and father David, Kelso militia list, 1798: Exact recorded 25 December 1777 Kelso birth and later Edinburgh death fit this 1798 James. No individual militia identifier proves assignment; the public father link is tree-derived only. The original explicitly describes James as son of David Glasgow. James-1222 and David-1218 are compatible regional/chronological candidates, but neither identity is proved; their existing Wiki Tree father link does not independently identify this newspaper family. No certainty upgrade or live parent change is justified. No family or life-date change follows.

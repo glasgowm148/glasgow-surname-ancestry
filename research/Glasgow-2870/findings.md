@@ -1,6 +1,12 @@
 # Glasgow-2870 research findings
 
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-58900a6995c0 -->
+
+## Current conclusion
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+John Glasgow was baptised at Libberton, Lanarkshire, on 23 September 1722, son of Robert Glasgow and Katherin Wilson, with the residence given as Sandyburgh, according to a Findmypast transcript. His profile also gives him a death at Nottingham, Chester County, in May 1769, from a Find a Grave and family-Bible narrative whose sources have not been checked; the file does not show how the Libberton child was linked to that man. Pennsylvania and Maryland newspaper items of 1758 to 1771 naming a John Glasgow, mostly at Nottingham, were considered for this profile and withdrawn on 6 October 2026; no Chester County tax list shows this John as a Nottingham taxpayer.
+
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-58900a6995c0
 
 The transcript-validated baptism record for **John Glasgow**, 23 Sep 1722, Libberton, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.

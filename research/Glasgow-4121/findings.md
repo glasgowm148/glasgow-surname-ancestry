@@ -5,6 +5,11 @@ Last updated: 2026-10-07
 <!-- repo-integration-audit-2026-10-07:L14-007 -->
 Last updated: 2026-10-07
 
+## Current conclusion
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+Isabel Glasgow was born on 23 April 1741 and baptised on 26 April 1741 at Irvine, Ayrshire, the daughter of George Glasgow; no mother is named in the index. The evidence is a Findmypast transcription of the parish register index; the register image has not been inspected. No compatible earlier profile was found before this one was created.
+
 ## Source findings — Irvine birth and baptism, April 1741
 
 Isabel Glasgow was born on 23 April 1741 and baptised on 26 April 1741 at Irvine, Ayrshire. The index names her father as George Glasgow; no mother is given. Source: Findmypast, *Scotland, Parish Births & Baptisms 1564–1929*, [transcript SCOT/OPR/BAP/3575036](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3575036&tab=this), OPR 595/1, page 55. Seen as a Findmypast index transcription (captured 3 September 2026); the register image has not been inspected.

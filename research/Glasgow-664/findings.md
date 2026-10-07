@@ -1,5 +1,10 @@
 # Findings: Glasgow-664
 
+## Current conclusion
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+John Glasgow was born on 10 November 1777 at Daill, Argyll, and died on 21 May 1845 at Glasgow, Cambria County, Pennsylvania, according to his profile, which names his wife as Elizabeth Bell; he appears in the 1820 census of Allegheny Township, Cambria County. He is a possible match for the John Glasgow listed under Allegheny Township in a Huntingdon County election-meeting list of 1799, the township having passed from Huntingdon to Cambria County in 1804, but no record bridges the two. A father-and-son link with the John Glasgo who headed a Huntingdon County household in 1790 is only a hypothesis.
+
 ## Current conclusion — additional newspaper originals, 5 October 2026
 
 John Glasgow, Allegheny Township list in Huntingdon County context, 1799: Profile exact birth 10 November 1777, Daill, Argyll, and death 21 May 1845, Glasgow, Cambria, Pennsylvania, fit the period. Its existing spouse has a profile-stated Huntingdon birthplace, a tree lead only; later Cambria locality and adult chronology make this a stronger regional candidate, without a direct bridge to the township list. Identity remains unresolved. Compatible candidates have chronology only, without an individual place, occupation or family bridge. These three John contexts may involve different men; the two Allegheny reprints are one list. No family or life-date change follows.

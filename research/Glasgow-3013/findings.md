@@ -1,9 +1,15 @@
 # Findings: [Glasgow-3013](https://www.wikitree.com/wiki/Glasgow-3013)
 
-Last updated: 2026-09-10
+Last updated: 2026-10-07
 
 
 <!-- opr-birth-review-row-55 -->
+
+## Current conclusion
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+William Glasgow was born or baptised in Glencorse on 26 December 1680, according to the Scotland’s People index of the Old Parish Registers (parish 687, reference 10 / 19), which names his parents as John Glasgow and Margaret Currie. The entry is known from the index only: the original register image has not been inspected, and the indexed date is not proved to be a birth date. The file records nothing further about his life.
+
 ## Source findings
 
 ### Supplied OPR births and baptisms: row 55 — 10 September 2026

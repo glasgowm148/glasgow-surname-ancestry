@@ -1,8 +1,14 @@
 # Glasgow-1083 research findings
 
-Last updated: 2026-09-10
+Last updated: 2026-10-07
 
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-fb7a67bf0ee0 -->
+
+## Current conclusion
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+Beatrix Glasgow was baptised at Mid Calder, Midlothian, on 15 April in 1610 or 1611; the entries name her father as James Glasgow and give no mother. Two Findmypast transcripts and the Scotland's People index (OPR 694, 10/17) give 15 April 1610, while a third Findmypast transcript of the Midcalder register gives 15 April 1611; the two readings in the file have not been reconciled. The original register has not been inspected.
+
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-fb7a67bf0ee0
 
 The transcript-validated baptism record for **Beatrix Glasgow**, 15 Apr 1610, Mid Calder, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.

@@ -1,5 +1,10 @@
 # Findings: Glasgow-1481
 
+## Current conclusion
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+Andrew Glasgow is recorded on the family tree as born in Edinburgh before 5 January 1776, an uncertain date, and no record in this file yet documents his life. Newspaper notices of 1779 and 1790 naming an Andrew Glasgow at Leith, as preses for the porters and as a merchant in Kirkgate, were considered for this profile and withdrawn on 6 October 2026, because no WikiTree Andrew can be fixed to them.
+
 ## Current conclusion — additional newspaper originals, 5 October 2026
 
 Andrew Glasgow, Leith society notice signatory, 1779: Edinburgh birthplace is relevant, but before 5 January 1776 is a broad birth upper bound, not a proved 1776 birth or adult age in 1779; no society bridge. No existing Andrew is identified. Three local candidates and other compatible chronological namesakes remain unresolved; missing records and uncertain bounds do not establish exclusions. The Leith notice does not prove family links or a particular society role. No family or life-date change follows.

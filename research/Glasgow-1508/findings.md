@@ -5,7 +5,8 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
-No sourced conclusion recorded yet.
+<!-- site-audit-2026-10-07:overall-conclusion -->
+Mary Glasgow is recorded as born about 1736 in County Antrim, Ireland; the year is that of a baptism reported in a derivative register chronology, not a recorded birth date. Her WikiTree profile names her as a daughter of Hugh Glasgow, a claim the file treats as a lead still to be checked. The original register (PRONI MIC/1B/6) has not been read.
 
 ## Source findings
 

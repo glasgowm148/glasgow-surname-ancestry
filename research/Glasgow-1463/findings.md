@@ -1,5 +1,10 @@
 # Findings: Glasgow-1463
 
+## Current conclusion
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+William Glasgow is recorded on the family tree with an uncertain birth before 25 February 1816, and the 6 October 2026 review describes him as baptised in 1816; no record in this file yet documents his life. Newspaper notices of a William Glasgow, tenant of Cleugh-head and Clovenfordsyke in West Calder in 1774 to 1777, and of William Allen Glasgow, commissioned in the Royal Engineers in 1795, were considered for this profile and withdrawn on 6 October 2026; the tenant cannot be a man baptised in 1816.
+
 ## Current conclusion — additional newspaper originals, 5 October 2026
 
 William Glasgow, Cleugh-head and Clovenfordsyke tenant, 1776: Broad before-1816 birth boundary permits 1776, but provides no age, tenancy or family bridge; weak comparison. No existing profile is identified. Glasgow-1463 is a weak name/region comparison with a broad uncertain before-1816 birth bound; no West Calder tenancy bridge. One tenant subject consolidates the two sale stages without inventing relatives. No family or life-date change follows.

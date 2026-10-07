@@ -5,6 +5,11 @@ Last updated: 2026-10-07
 <!-- repo-integration-audit-2026-10-07:L14-014 -->
 Last updated: 2026-10-07
 
+## Current conclusion
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+Helen Glasgow was baptised at Linlithgow on 22 December 1668, the daughter of John Glasgow and Agnes Daston as indexed, according to a Findmypast transcription of the parish register. A second index entry for the same register page gives the year 1668 and the mother as Agnes Easton; the two are treated as one baptism, Daston being a spelling variant. The register image has not been inspected. A duplicate profile, Glasgow-4117, was merged into this one in September 2026.
+
 ## Source findings — Linlithgow baptism, 22 December 1668
 
 Helen Glasgow was baptised at Linlithgow on 22 December 1668. The index names the parents as John Glasgow and Agnes Daston. Source: Findmypast, *Scotland, Parish Births & Baptisms 1564–1929*, [transcript SCOT/OPR/BAP/0476082](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0476082&tab=this), OPR 668/2, page 231. A second index, [SCOT/OPR/BAP/0501646](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0501646&tab=this) (OPR 668/14, page 231), gives only the birth year 1668 and the mother as Agnes Easton. Both point to the same register page and the same parents, so they are treated as one baptism; Daston is an index spelling variant, not evidence of a second child. Seen as a Findmypast index transcription (captured 3 September 2026); the register image has not been inspected.

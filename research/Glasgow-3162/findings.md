@@ -1,7 +1,12 @@
 # Glasgow-3162 research findings
 
-Last updated: 2026-09-10
+Last updated: 2026-10-07
 
+
+## Current conclusion
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+Margaret Glasgow was baptised at Kilwinning, Ayrshire, on 23 September 1688, the daughter of George Glasgow and Anne Smith as their names are given in the Findmypast transcripts assigned to this profile. The Scotland's People index gives the same date, which differs from the 9 September 1688 birth date recorded on the profile. The original register has not been inspected, so it is not known whether the two dates are separate birth and baptism dates or a transcription error.
 
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-f84643271969
 

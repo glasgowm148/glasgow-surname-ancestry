@@ -1,8 +1,14 @@
 # Glasgow-1429 research findings
 
-Last updated: 2026-09-10
+Last updated: 2026-10-07
 
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-aa025b7f9070 -->
+
+## Current conclusion
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+Marion Glasgow (indexed as Marioune) was baptised at Inveresk, Midlothian, on 17 March 1630; her father is named as Alexander (Allexander) Glasgow and no mother is recorded. The baptism is known from a Findmypast transcript of the Inveresk register (OPR 689/1) and the Scotland's People index (parish 689, reference 10 / 194), which agree on the date and father; two further Findmypast transcripts give the year 1630 only. The original register image has not been inspected, and nothing further about her life is recorded in the file.
+
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-aa025b7f9070
 
 The transcript-validated baptism record for **Marion Glasgow**, 17 Mar 1630, Inveresk, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.

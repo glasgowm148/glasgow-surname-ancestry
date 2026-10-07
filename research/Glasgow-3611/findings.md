@@ -1,5 +1,10 @@
 # Findings: [Glasgow-3611](https://www.wikitree.com/wiki/Glasgow-3611)
 
+## Current conclusion
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+George Glasgow was recorded on his profile as living from 1777 to 1857; no record has yet been identified with him in this research. Newspaper notices of 1811 and 1819 naming Colonel, later Major-General, George Glasgow of the Royal Artillery were compared with him and withdrawn on 6 October 2026: they concern the artillery general who served in Canada and died in London in 1820, who has no WikiTree profile.
+
 ## Identity assessment — military newspapers, 4 October 2026
 
 The 1811 Royal Artillery George and the 1819 brevet appointee are compatible as one career sequence, but identity is inferred, not stated. Glasgow-3611 (1777–1857), Glasgow-1529 (estimated 1769, death unknown), and Glasgow-3345 (1792, death unknown) remain weak local name/chronology comparisons without a military bridge; dates are profile leads, not newly inspected vital records. The 1811 colonel role makes younger comparisons less persuasive, without supplying an exact age. No profile is assigned. The 1713 Keady ruling elder called R.E. is not identified as a Royal Engineer by these notices.

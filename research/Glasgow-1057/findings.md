@@ -1,13 +1,14 @@
 # Findings: [John Glasgow (Glasgow-1057), born 1661-08-30, Edinburgh, Midlothian, Scotland](https://www.wikitree.com/wiki/Glasgow-1057)
 
-Last updated: 2026-09-10
+Last updated: 2026-10-07
 
 Record every useful result and negative search here as it is found.
 Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
-No sourced conclusion recorded yet.
+<!-- site-audit-2026-10-07:overall-conclusion -->
+John Glasgow was born or baptised in Edinburgh on 30 August 1661, according to the Scotland’s People index of the Old Parish Registers, which names his parents as James Glasgow and Agnes Duncan. The entry is known from the index only: the original register image has not been inspected, and the indexed date is not proved to be a birth date. The index entry matches the profile's existing date, place and recorded family but does not itself establish any further relationship.
 
 ## Source findings
 

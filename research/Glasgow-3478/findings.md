@@ -1,5 +1,10 @@
 # Glasgow-3478 research findings
 
+## Current conclusion
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+John Glasgow was baptised at Irvine, Ayrshire, on 5 October 1738, the son of Robert Glasgow and Mary Borland, according to a Findmypast transcript of the parish register; the transcript gives his birth as 4 September 1738, while the profile keeps 4 October, marked uncertain, until the original register is checked. His father is attached as Robert Glasgow (Glasgow-2474), baptised at Irvine in 1716, an identification that is a reasonable same-town, age-compatible inference rather than proof. A separate entry for a John baptised to the same parents on 10 October 1736 is unresolved: the originals must show whether there were two sons or an index error.
+
 ## Current conclusion — father-profile merge, 27 September 2026
 
 The attached father is now [Robert Glasgow (Glasgow-2474)](https://www.wikitree.com/wiki/Glasgow-2474), following the merge of Glasgow-3479 into the documented 1716 Irvine baptism profile. Robert and Mary Borland are named in the 1738 baptism index; the identification of that adult Robert with the 1716 child is a reasonable same-town, age-compatible inference. The separate 1736 John entry remains unresolved despite Glasgow-4118 already redirecting to this profile.

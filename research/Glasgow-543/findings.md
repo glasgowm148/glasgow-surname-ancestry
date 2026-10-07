@@ -5,7 +5,8 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
-No sourced conclusion recorded yet.
+<!-- site-audit-2026-10-07:overall-conclusion -->
+Nancy Cunningham, born Glasgow, was the wife of Abraham Cunningham of West Deer Township, Allegheny County, Pennsylvania; local histories say the couple came from Ireland and bought 200 acres there, and her profile gives her birth as about 1786 in Ireland and her death in 1865. The 1827 will of Hugh Glasgo of Deer Township (Glasgow-540) proves that he had a daughter Nancy, to whom he left a cow. That she is this Nancy is an inference from the family-tree placement: neither the will nor the local histories link the two. One account dates the Cunninghams' emigration to 1810, whereas Hugh's household is said to have emigrated in 1796.
 
 ## Source findings
 

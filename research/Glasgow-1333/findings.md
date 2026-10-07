@@ -1,5 +1,10 @@
 # Findings: Glasgow-1333
 
+## Current conclusion
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+Andrew Glasgow is recorded on the family tree as born before 11 January 1747 at West Calder, an uncertain date, and no record in this file yet documents his life. Newspaper notices of 1772, 1779 and 1790 naming an Andrew Glasgow (a miller at Calder, a preses of the Leith porters and a merchant in Kirkgate, Leith) were considered for this profile and withdrawn on 6 October 2026. His recorded father, John, rests on the family tree only.
+
 ## Current conclusion — additional newspaper originals, 5 October 2026
 
 Andrew Glasgow, Leith society notice signatory, 1779: Uncertain before 11 January 1747 West Calder birth allows an adult; no society identity bridge. No existing Andrew is identified. Three local candidates and other compatible chronological namesakes remain unresolved; missing records and uncertain bounds do not establish exclusions. The Leith notice does not prove family links or a particular society role. No family or life-date change follows.

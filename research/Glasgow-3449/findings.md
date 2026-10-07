@@ -5,7 +5,8 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
-No sourced conclusion recorded yet.
+<!-- site-audit-2026-10-07:overall-conclusion -->
+Robert Glasgow died on 31 March 1868 in Ballymoney Workhouse, County Antrim, a married labourer aged 71, according to the civil death register entry viewed on GRONI and adopted for this profile; his profile gives his birth as about 1797. The death entry is a weak fit for the Lisnagaver tithe farmer of 1834 and neither confirms nor excludes him as that man. A Belfast News-Letter report of 1861 naming Robert Glasgow, a neighbour at Lisnagaver, was withdrawn as a candidate on 6 October 2026 because that man was probably Robert Glasgow (Glasgow-938).
 
 ## Source findings
 

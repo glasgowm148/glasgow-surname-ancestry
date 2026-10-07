@@ -3,6 +3,12 @@
 Last updated: 2026-10-07
 
 <!-- repo-integration-audit-2026-10-07:L09-003 -->
+
+## Current conclusion
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+James Glasgow was a weaver in Quothquan, in Libberton parish, who had died by 26 July 1624, when his testament was recorded by the Lanark Commissary Court. The evidence is the printed index of that court's register of testaments; the original has not been read. Margaret Threipland, 'relict of James Glesgow, in Quodquen', whose testament is indexed on 27 October 1626, is a possible widow only, because the index does not show that the two Quothquan references are one man.
+
 ## Source findings — Lanark testament index, 26 July 1624
 
 The printed Lanark testament index records "Glasgow, James, wobster in Quodquen" (weaver in Quothquan, Libberton parish) on 26 July 1624, and separately "Threipland, Margaret, relict of James Glesgow, in Quodquen" on 27 October 1626. Grant, *The Commissariot Record of Lanark: Register of Testaments, 1595–1800* (1903), printed pp. 38 and 99 ([p. 38](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/the_commissariot_record_of_lanark__register_of_testaments__1595-1800_~_1903.pdf#page=50), [p. 99](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/the_commissariot_record_of_lanark__register_of_testaments__1595-1800_~_1903.pdf#page=111)). Seen as a printed index; the originals have not been read.

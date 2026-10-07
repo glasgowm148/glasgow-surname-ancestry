@@ -1,5 +1,10 @@
 # Findings: [Glasgow-1529](https://www.wikitree.com/wiki/Glasgow-1529)
 
+## Current conclusion
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+George Glasgow is recorded on the family tree with an estimated birth about 1769 and no known death; no record in this file yet documents his life. Royal Artillery notices of 1771 to 1819 naming a George Glasgow were considered for this profile and withdrawn on 6 October 2026. The review assigned them to the artillery general George Glasgow, who died in London in 1820 (the 1795 notice only probably), and the 1771 notice to an earlier artillery officer; neither man has a WikiTree profile.
+
 ## Identity assessment — military newspapers, 4 October 2026
 
 The 1811 Royal Artillery George and the 1819 brevet appointee are compatible as one career sequence, but identity is inferred, not stated. Glasgow-3611 (1777–1857), Glasgow-1529 (estimated 1769, death unknown), and Glasgow-3345 (1792, death unknown) remain weak local name/chronology comparisons without a military bridge; dates are profile leads, not newly inspected vital records. The 1811 colonel role makes younger comparisons less persuasive, without supplying an exact age. No profile is assigned. The 1713 Keady ruling elder called R.E. is not identified as a Royal Engineer by these notices.

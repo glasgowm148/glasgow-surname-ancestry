@@ -1,5 +1,12 @@
 # Findings: source correction — John Gray, Edinburgh apprenticeship, 1648
 
+## Current conclusion
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+The Edinburgh apprenticeship entry of 12 January 1648 once attributed to a John Glasgow is in fact that of John Gray, son of the late Thomas Gray, maltman and burgess of Glasgow, apprenticed to William Blackwood, merchant. A review of the printed register's page image on 30 September 2026 found it under the Gray heading, Glasgow being Thomas's city, so no Glasgow profile should receive this apprenticeship or its father clause. Glasgow burgess entries of 1646 naming James and Margaret as children of the deceased Thomas Gray, maltman, strongly agree with the father; John's identity with any existing Gray profile is unresolved, and the manuscript register remains uninspected.
+
+## Source findings
+
 The former attribution to **John Glasgow** is superseded by a page-image review on 30 September 2026. The entry appears under the printed **Gray** heading, not Glasgow. The filename and record link are retained for provenance. No Glasgow profile should receive this apprenticeship or its father clause.
 
 Francis J. Grant, ed., *Register of Apprentices of the City of Edinburgh, 1583–1666* (1906), [printed p. 75, IA scan n86](https://archive.org/details/scottishrecordso28scotuoft/page/n86/mode/1up), lists **John Gray**, son of the late **Thomas Gray**, maltman and burgess of Glasgow, apprenticed with William Blackwood, merchant, on **12 January 1648**. The surname ditto marks repeat Gray; “G.” abbreviates that surname, while Glasgow identifies Thomas’s city. The actual [Glasgow heading, printed p. 71](https://archive.org/details/scottishrecordso28scotuoft/page/n82/mode/1up), contains Archibald (1639) and James (1641). The underlying manuscript apprenticeship register remains uninspected. The original [FamilySearch result](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM7-53ZS-V) is retained as the earlier search route.

@@ -1,5 +1,10 @@
 # Findings: Glasgow-1218
 
+## Current conclusion
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+David Glasgow was the father of a family at Kelso; he is recorded as baptised at Stitchel in 1744 and as husband of Janet Hood, with children Andrew (1767), John (1768), James (1777) and William (1786), though no record is cited for these details. He is probably the David Glasgow, weaver (apparently stocking-weaver), whose son James was drawn by ballot for the Roxburgh County Militia from Kelso parish in 1798. That ballot list and the indexed Kelso baptism of James Glasgow (Glasgow-1222) on 25 December 1777 both name David as James's father. A Kelso local-history claim that his son William became William Glass of Tristan da Cunha (Glasgow-1220) is possible, not proved.
+
 ## Current conclusion — additional newspaper originals, 5 October 2026
 
 James Glasgow and father David, Kelso militia list, 1798: Uncertain birth before 13 April 1744 at Stitchel and regional context are compatible with the father David. This is an upper birth bound, not an exact year; the public link to James-1222 is tree-only and no occupation bridge is checked. The original explicitly describes James as son of David Glasgow. James-1222 and David-1218 are compatible regional/chronological candidates, but neither identity is proved; their existing Wiki Tree father link does not independently identify this newspaper family. No certainty upgrade or live parent change is justified. No family or life-date change follows.

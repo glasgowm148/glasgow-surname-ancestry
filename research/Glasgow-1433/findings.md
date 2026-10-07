@@ -1,8 +1,14 @@
 # Glasgow-1433 research findings
 
-Last updated: 2026-09-10
+Last updated: 2026-10-07
 
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-356a7e52dad2 -->
+
+## Current conclusion
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+Jannet Glasgow was baptised or born at Kilwinning, Ayrshire, in early 1689, daughter of John Glasgow; a Findmypast transcript of the Kilwinning register names her mother as Maria Allason. The transcript gives the baptism as 1 February 1689, while the Scotland’s People index (parish 599, reference 10 / 62) gives 31 January 1689 and the mother's surname only. The original register has not been inspected, and the file leaves open whether the two dates are separate birth and baptism dates or a transcription discrepancy.
+
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-356a7e52dad2
 
 The transcript-validated baptism record for **Jannet Glasgow**, 01 Feb 1689, Kilwinning, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.

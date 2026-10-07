@@ -1,5 +1,10 @@
 # Findings: William Glasgow (Glasgow-1087), christened at Mid Calder in 1609
 
+## Current conclusion
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+William Glasgow was christened at Mid Calder, Midlothian, on 24 December 1609; derivative indexes name his father as Jhone Glasgow, and the original register has not been inspected. He is the best identified candidate for the William Glasgow named as father of Johne and Issobel at their Mid Calder baptism in 1648, because age and parish fit and no stronger competitor was found; this is an inference, not wording in either register. The profile Glasgow-2453 was merged into his on 27 September 2026. The 1609 and 1648 original entries remain to be inspected.
+
 ## Current conclusion — 27 September 2026
 
 Glasgow-2453 was merged into this profile on 27 September 2026. William baptised at Mid Calder in 1609 is the best identified candidate for the adult William named as father of Johne and Issobel at Mid Calder in 1648. Age and parish fit, and no stronger competitor was found. This is an inferred cross-record identification, not wording in either register. The former adult child cluster, source citations and uncertain family links were retained.

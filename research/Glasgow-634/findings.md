@@ -1,5 +1,10 @@
 # Findings: Glasgow-634
 
+## Current conclusion
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+James Glasgow was North Carolina's first Secretary of State, holding the office from 1777 to 1798, and a colonel of the Dobbs County militia; his profile gives his birth as about 1735 in Maryland and his death in 1819 in Tennessee. Newspapers naming the office, from proclamations he countersigned in January 1778 to his resignation reported in December 1798, are strong matches; Masonic, postal and petition notices are probable or possible. In December 1799 commissioners accused 'the late Secretary' of irregular military land warrants, and a legislative committee reported that he alone had been arrested. Secondary sources report his trial and conviction in 1800 (State v. Glasgow).
+
 ## Current conclusion — additional newspaper originals, 5 October 2026
 
 James Glasgow, Lancaster postal addressee, 1773: Uncertain 1735 Maryland birth permits 1773; no Lancaster postal bridge. The three checked profiles remain possible; none identifies the addressee. No link to the 1757 Philadelphia/Fogs Manor, 1775 Charlestown or 1777 shipmaster James is established. No family or life-date change follows.

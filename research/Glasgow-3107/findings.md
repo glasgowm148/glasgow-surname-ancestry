@@ -1,5 +1,10 @@
 # Findings: [Glasgow-3107](https://www.wikitree.com/wiki/Glasgow-3107)
 
+## Current conclusion
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+James Glasgow married Agnes Waitte, or Watt, at Polwarth on 18 June 1663, according to the Scotland's People index of the Old Parish Registers (OPR 754/10/62); the original has not been inspected, and the index date is not proved to be the ceremony date. His parents are unresolved: no inspected record proves John Glasgow (Glasgow-1084) as his father, and a proposal to make Issobell Porteous (Porteous-912) his mother was rejected pending a birth record. Agnes Watt is plausibly, but not directly shown to be, the mother of the children attributed to him (Glasgow-3117 and Glasgow-3106), because their baptism indexes name the father only.
+
 ## Source findings
 
 ### Supplied OPR banns and marriages — 10 September 2026

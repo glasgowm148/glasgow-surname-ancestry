@@ -1,5 +1,10 @@
 # Findings: [Glasgow-3185](https://www.wikitree.com/wiki/Glasgow-3185)
 
+## Current conclusion
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+Issobell Glasgow married Robert McCaskie in St Cuthbert's parish; the Scotland's People index of Old Parish Register banns and marriages records the couple under 19 July 1632. The original register has not been inspected, so the indexed date is not proved to be the date of the ceremony.
+
 ## Source findings
 
 ### Supplied OPR banns and marriages — 10 September 2026

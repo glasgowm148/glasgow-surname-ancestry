@@ -1,5 +1,10 @@
 # Findings: [Glasgow-1536](https://www.wikitree.com/wiki/Glasgow-1536)
 
+## Current conclusion
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+George Glasgow is recorded with a birth or baptism in Barony parish on 26 October 1804, but the file cites no record for that date and documents nothing further about his life. Royal Artillery notices of 1825 and 1837 naming First Lieutenant George Mark Glasgow were considered for this profile and withdrawn on 6 October 2026; the review identified that officer as George Mark Glasgow, born at Quebec in 1795 (Glasgow-3785), probably the same man as Glasgow-3127, a likely duplicate. Glasgow-3127 carries a note that it may be the same as this profile, but the file treats that link as a weak comparison.
+
 ## Identity assessment — military newspapers, 4 October 2026
 
 Glasgow-3127 is a strong compatible Royal Artillery candidate: its live biography says Captain, father of Madeline and deceased by 1846, but its Sources section is empty. Glasgow-3785 (1795 Quebec–1851 Kingston) remains an exact-name chronology comparison without a military bridge. Glasgow-1536 (Barony birth/baptism 26 October 1804) is an explicitly linked weaker comparison in 3127; the newspaper supplies no parentage bridge. The 1833 Clement Stuart christening and 1851 death-duty citations on 3785, and the 1846 late-father claim on 3127, need underlying originals before reconciling these profiles. The senior 1819 George is not assigned to this younger officer.

@@ -5,7 +5,8 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
-No sourced conclusion recorded yet.
+<!-- site-audit-2026-10-07:overall-conclusion -->
+John Glasgow was a farmer recorded in Drumgreenagh townland, Derrynoose parish, County Armagh, in 1839, born about 1794, according to his profile biography; that account, including three daughters whose marriage records name their father as John Glasgow and a reported death on 30 April 1849, has not yet been audited against the records. A 1786 Registry of Deeds memorial for an older John Glasgow of Drumgreenagh, farmer, married to Jane Murphy, concerns a different man, now Glasgow-4031. The shared residence makes a family connection plausible, but the deed names no child and does not prove parentage.
 
 ## Source findings
 

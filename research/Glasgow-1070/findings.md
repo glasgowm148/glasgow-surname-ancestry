@@ -1,6 +1,12 @@
 # Glasgow-1070 research findings
 
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-4d80ed611866 -->
+
+## Current conclusion
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+George Glasgow was born on 9 October 1719 in Kilwinning parish, Ayrshire, with the residence recorded as Byrehill, according to a Findmypast transcript of the parish register that names his parents as Robert Glasgow and Mary Simson. Newspaper reports of 1762 to 1795 naming a George Glasgow (a Manchester patentee, a Glasgow merchant of Nethermains and Royal Artillery officers) were considered for this profile and withdrawn on 6 October 2026; the Nethermains notices are now assigned, as probable, to George Glasgow of Nethermains (Glasgow-3312). Nothing further about his life is established in the file.
+
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-4d80ed611866
 
 The transcript-validated baptism record for **George Glasgow**, 09 Oct 1719, Kilwinning, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.

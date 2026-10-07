@@ -1,6 +1,11 @@
 # Findings: Glasgow-1656
 
-Last updated: 2026-07-17
+Last updated: 2026-10-07
+
+## Current conclusion
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+Robert Glasgow was a farmer at Purnim, Victoria, and a native of Ballymena, County Antrim; he died intestate on 3 February 1875, and the Victoria Government Gazette notice names his widow Ann as applicant for administration. He was a brother of Rev. James McClure Glasgow (Glasgow-1780): James's own journal mentions a letter from 'my brother Robert in Victoria', and the 1875 Warrnambool Standard report, seen in transcription, calls Robert a brother of Rev. James Glasgow, D.D., of Belfast. He belonged to the Ballymena sibling group that included Adam Dickey Glasgow (Glasgow-1781), and was not Robert Glasgow (Glasgow-1367). The Gazette's 3 February date replaces the unsourced 4 February on his profile.
 
 ## Source findings
 

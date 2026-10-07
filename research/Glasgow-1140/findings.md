@@ -4,6 +4,12 @@ Last updated: 2026-10-07
 
 
 <!-- opr-birth-review-row-31 -->
+
+## Current conclusion
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+James Glasgow was minister of Edinburgh Castle; he was baptised at Kilbirnie on 17 March 1700 and died on 9 February 1746, aged about 48. The Fasti Ecclesiae Scoticanae names James, minister of Edinburgh Castle, among the children of John Glasgow (Glasgow-1073), minister of Kilbirnie, by Margaret Scott (Scott-40313), agreeing with his Kilbirnie baptism to John Glasgow and Margaret Scot. The Fasti records his M.A. at Glasgow (1718), royal commission as chaplain to the Castle garrison (7 July 1737) and ordination (14 February 1738); newspapers of 1737 and 1738 report the commission and ordination. A story giving him an Irish career rested on forged documents and is excluded.
+
 ## Source findings
 
 ### Supplied OPR births and baptisms: row 31 — 10 September 2026

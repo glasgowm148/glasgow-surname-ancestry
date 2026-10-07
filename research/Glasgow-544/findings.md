@@ -5,7 +5,8 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
-No sourced conclusion recorded yet.
+<!-- site-audit-2026-10-07:overall-conclusion -->
+Alexander Glasgow was born in Ireland about 1786 and died in 1855, according to his profile, which says he was married and farming on his own land by the 1810 census and names his wife as Sarah; these claims are leads not yet audited against the census and burial records. The 1827 will of Hugh Glasgo of Deer Township, Allegheny County, Pennsylvania (Glasgow-540), proves that Hugh had a son Alexander, who then had a daughter Sarah, by inference under eighteen and unmarried. That this profile is the will's Alexander is an inference from the family-tree placement and W. M. Glasgow's family history; the will gives him no age or residence.
 
 ## Source findings
 

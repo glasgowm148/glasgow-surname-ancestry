@@ -1,7 +1,10 @@
 # Findings: Glasgow-3907
 
-Last updated: 2026-07-17
+Last updated: 2026-10-07
 
+## Source findings
+
+<!-- site-audit-2026-10-07:heading added; this table sat above the first heading, where the site did not read it -->
 | Source | Finding | Assessment |
 | --- | --- | --- |
 | *Londonderry Standard* marriage notice, republished in [County Tyrone Ireland marriage notices 1840-42](https://cotyrone.com/~inthenews/marriages-notices-1840-42/) | On 14 January 1842 Rev. William Kennedy McKay married John Kyle of Tyanee and Nancy, sixth daughter of Adam Glasgow of Inishrush, County Derry. | Direct evidence for Nancy's father, spouse, marriage date, and ordinal description. It proves Adam had at least six daughters but does not state Nancy's age, birth date, marriage place, mother, or children. |

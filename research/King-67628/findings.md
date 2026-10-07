@@ -1,6 +1,11 @@
 # Findings: King-67628
 
 
+## Current conclusion
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+Mary King was recorded on her profile as the wife of Thomas Glasco, born in County Dublin in 1755, an uncertain date; a 1785 marriage licence index, as quoted on the profile Mangan-824, names Thomas Glasco and Mary King. She is a possible match for the 'Mrs Glascoe' whose shop on Ormond Quay, Dublin, was the target of an attempted break-in reported in October 1787; Thomas Glasco, watchmaker, was listed at 20 Ormond Quay in 1783. The notice gives no forename or husband, and it is not known whether the Thomas Glasco marriages of 1773, 1779 and 1785 were those of one man or of two or three.
+
 ## Current conclusion — additional original newspapers, 5 October 2026
 
 Mary (King) Glasco has an uncertain 1755 County Dublin birth and a recorded Thomas Glasco spouse. No Ormond Quay shop, given-name or household bridge. The newspaper says Mrs Glascoe, without a given name or husband. The candidate remains possible; no relationship change follows.

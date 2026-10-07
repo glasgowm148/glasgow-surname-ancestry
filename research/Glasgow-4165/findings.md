@@ -1,5 +1,10 @@
 # Findings: Glasgow-4165
 
+## Current conclusion
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+George Glasgow was recorded on his profile as born before 1722, an uncertain date, with an Irvine family context; no record has yet been identified with him in this research. Every newspaper notice once compared with him was withdrawn on 6 October 2026: the 1762 Manchester patentee was a working weaver of Manchester; the Glasgow merchant 'of Nethermains' in notices of 1767 to 1777 is a possible match for another profile, George Glasgow (Glasgow-3312); and the Royal Artillery officers named between 1771 and 1795 have no WikiTree profile.
+
 ## Current conclusion — additional newspaper originals, 5 October 2026
 
 George Glasgow, Manchester cloth patent, 1762: Uncertain birth before 1722 and Irvine family context permit an older adult; no patent, mercantile or army-service identity bridge. The patent report documents a George Glasgow of Manchester. Four compatible Scottish chronological comparisons remain possible; none has an inspected inventor/patent identity bridge. This subject remains separate from the Glasgow merchant and military subjects. No family or life-date change follows.

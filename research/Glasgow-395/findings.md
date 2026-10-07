@@ -1,5 +1,10 @@
 # Findings: Glasgow-395
 
+## Current conclusion
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+Robert Glasgow is estimated on his profile to have been born about 1750 and to have died about 1800, with a Harford County, Maryland, location and a wife, Apphia Moores, named in an 1837 Baltimore court notice. He is a possible match for the Robert Glasgow who, with Joshua Hartshorn, was to give possession of a 260-acre plantation in North Susquehanna Hundred, Cecil County, offered for public sale in 1786, but no checked evidence ties him to the plantation, to Hartshorn or to Cecil County. The 1790 Maryland census index lists no Robert Glasgow head of household in Cecil or Harford County, which gives no support but does not exclude him.
+
 ## Current conclusion — additional newspaper originals, 5 October 2026
 
 Robert Glasgow, Cecil County plantation notice, 1786: Public profile estimates Robert's birth c. 1750 and death c. 1800, with Harford County, Maryland location; age and regional context make him the best catalogue lead for a 1786 Cecil County appearance. No checked evidence ties him to the plantation, Hartshorn, or Cecil County. Glasgow-395 is the strongest bounded regional/chronological lead, with no plantation, Hartshorn or personal identity bridge. Glasgow-2425 remains a weak possible namesake. Glasgow-1143’s estimated c. 1772 death is a material chronology tension, not a certain exclusion without its underlying source. No joining to the Scottish Roberts is warranted. No family or life-date change follows.

@@ -2,6 +2,11 @@
 
 Last updated: 2026-10-07
 
+## Current conclusion
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+Daniel Glasgow was a watchmaker of Church Street, Kilrea, who died there a widower on 16 October 1871, aged 75 according to his civil death registration. His 1871 will names his son David Glasgow (Glasgow-3899) of the City of London and his late brother Thomas, shown by his nephew Daniel Neely Glasgow's 1888 marriage to be Thomas Glasgow (Glasgow-987) of Lisnagaver. An 1827 baptism names his son Robert (Glasgow-3897) by Margaret Irwin, and an 1853 death notice calls James Glasgow (Glasgow-3898) his third son. His parents are not established: Alexander Glasgow (Glasgow-3904) and Rosanna (Unknown-761034) are uncertain working parents drawn from descendant testimony about Thomas.
+
 ## Assessment history — will and marriage review
 
 Daniel's 1871 will proves that Thomas `Glasgow-987` was his late brother, names

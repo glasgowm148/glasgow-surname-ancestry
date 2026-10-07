@@ -1,9 +1,15 @@
 # Findings: [Glasgow-3365](https://www.wikitree.com/wiki/Glasgow-3365)
 
-Last updated: 2026-09-10
+Last updated: 2026-10-07
 
 
 <!-- opr-birth-review-row-14 -->
+
+## Current conclusion
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+Margrat Glasgow, daughter of James Glasgow as indexed, is recorded in the Scotland's People index of Old Parish Register births and baptisms at Gordon under 24 May 1679; no mother is named in the index. The entry agrees in date, place and family with the existing account of her on the profile and adds the index reference as provenance. The original register has not been inspected, and the indexed date is not proved to be her date of birth.
+
 ## Source findings
 
 ### Supplied OPR births and baptisms: row 14 — 10 September 2026

@@ -1,9 +1,15 @@
 # Findings: [Glasgow-2681](https://www.wikitree.com/wiki/Glasgow-2681)
 
-Last updated: 2026-09-10
+Last updated: 2026-10-07
 
 
 <!-- opr-birth-review-row-50 -->
+
+## Current conclusion
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+Margarett Glasgow was born or baptised in Edinburgh on 20 March 1691, according to the Scotland’s People index of the Old Parish Registers (parish 685 / 1, reference 110 / 234), which names her parents as James Glasgow and Issobell Duff. The entry is known from the index only: the original register image has not been inspected, and the indexed date is not proved to be a birth date. The file records nothing further about her life.
+
 ## Source findings
 
 ### Supplied OPR births and baptisms: row 50 — 10 September 2026

@@ -1,5 +1,10 @@
 # Findings: Glasgow-1445
 
+## Current conclusion
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+Robert Glasgow is recorded on the family tree as born before 13 February 1735 at Kirknewton or East Calder, an uncertain date, and no record in this file yet documents his life. An Edinburgh theft conviction of 1767 and a 1772 list of banished persons naming Robert Glasgow, son of Andrew Glasgow, miller at Calder, were considered for this profile and withdrawn on 6 October 2026; the review concluded they concern another man with no profile. His recorded father, James, rests on the family tree only.
+
 ## Current conclusion — additional newspaper originals, 5 October 2026
 
 Robert Glasgow, Edinburgh prisoner report, 1767: Uncertain birth before 13 February 1735 at Kirknewton/East Calder permits an adult in Edinburgh in 1767. No criminal-record identifier joins him to this prisoner. Two compatible Scottish profiles remain weak possibilities. No identity with the 1772 Robert son of Andrew at Calder, Maryland sale participant or Montgreenan man is established. No family or life-date change follows.

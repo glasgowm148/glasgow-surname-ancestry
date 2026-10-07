@@ -1,9 +1,15 @@
 # Findings: [Glasgow-1092](https://www.wikitree.com/wiki/Glasgow-1092)
 
-Last updated: 2026-09-10
+Last updated: 2026-10-07
 
 
 <!-- opr-birth-review-row-62 -->
+
+## Current conclusion
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+Bessie Glasgow was born or baptised in Glasgow on 24 January 1623, according to the Scotland’s People index of the Old Parish Registers (parish 644 / 1, reference 20 / 41), which names her parents as Robert Glasgow and Jonet Cuninghame. The entry is known from the index only: the original register image has not been inspected, and the indexed date is not proved to be a birth date. The file records nothing further about her life.
+
 ## Source findings
 
 ### Supplied OPR births and baptisms: row 62 — 10 September 2026

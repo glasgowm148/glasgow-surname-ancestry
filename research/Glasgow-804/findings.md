@@ -1,5 +1,10 @@
 # Findings: Glasgow-804
 
+## Current conclusion
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+James Glasgow was born on 11 November 1735 at Ayr and died on 19 May 1788 at Newberry, South Carolina, according to his profile, which also cites a 1769 South Carolina passenger-list index entry for him. He is a possible match for the James Glasgow listed, with an Ezekiel Glasgow, among letters remaining at the Charlestown post office in August 1775, but no record connects him to that entry, and the list proves no kinship. His recorded 1788 death conflicts with identifying him as the James Glasgow listed in Edinburgh in December 1789.
+
 ## Current conclusion — postal and certificate originals, 5 October 2026
 
 James Glasgow, Charlestown postal addressee, 1775: Born 11 Nov 1735, Ayr, exact; died 19 May 1788, Newberry, South Carolina, exact. A James Glasgow documented in South Carolina and alive during 1775 is geographically and chronologically compatible with a Charleston addressee. No record connects him to this post-office entry. His exact 1788 death is a concrete conflict with identifying him as the James Glasgow listed in Edinburgh in December 1789. Glasgow-804 and Glasgow-1144 have compatible South Carolina context, but no letter-list identity bridge. Their family evidence remains separate. No connection to co-listed Ezekiel, the Philadelphia addressee or the Greenwich Packet master is proved. No relationship change follows.

@@ -4,6 +4,12 @@ Last updated: 2026-10-07
 
 
 <!-- opr-birth-review-row-13 -->
+
+## Current conclusion
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+Margaret Glasgow was baptised at Glasgow High Kirk on 6 May 1610, a daughter of George Glasgow and Margaret Steuart, and married James Stewart (Stewart-62608), merchant. Her father, George Glasgow (Glasgow-1099), merchant and burgess, is proved by the baptism together with the Glasgow burgess register, which admitted James Stewart on 18 July 1633 by right of his wife Margaret, lawful daughter of George Glasgow; her mother rests on the baptism alone. The burgess entry proves the marriage; the profile dates it both 7 April and 4 July 1632, and neither is settled. A 1636 testament index entry for a Margaret in Byris of Kilwinning is only a possible match.
+
 ## Source findings
 
 ### Supplied OPR births and baptisms: row 13 — 10 September 2026

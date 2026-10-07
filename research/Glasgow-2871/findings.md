@@ -1,5 +1,10 @@
 # Glasgow-2871 research findings
 
+## Current conclusion
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+John Glasgow is recorded as born in 1738 and as having died on 3 April 1792 in Chester County, Pennsylvania. He is probably the John Glasgow of West Nottingham whom the Chester County tax index shows as a freeman in 1760, a storekeeper in 1765 and 1767 and a landholder until 1791. His son Hugh Glasgow (Glasgow-2873), born at Nottingham in 1769, is linked on the profile; Hugh's succession to the West Nottingham holding from 1793 and a county history support, but do not prove, that link. The parents given on the profile, John Glasgow (Glasgow-2870) and Mary Cranmer, are unproved, and the biography's confusion of Mary Cranmer as wife and mother is unresolved.
+
 ## Identity assessment — 4 October 2026 review
 
 Glasgow-2871 remains a compatible candidate for the documentary John Glasgow who signed a 14 August 1760 Pennsylvania Gazette advertisement concerning a Cecil County vendue and a planned Nottingham store. The merchant context is a stronger occupational fit than Glasgow-2870, but the record does not identify him. No family or relationship change follows.

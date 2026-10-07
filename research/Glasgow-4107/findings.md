@@ -5,6 +5,11 @@ Last updated: 2026-10-07
 <!-- repo-integration-audit-2026-10-07:L14-006 -->
 Last updated: 2026-10-07
 
+## Current conclusion
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+Elizabeth Glasgow was baptised at Libberton, Lanarkshire, on 10 June 1726, the daughter of Robert Glasgow and Katherine Watson, whose residence is given as Whitrafles. The evidence is a Findmypast transcription of the parish register index; the register image has not been inspected, and her birth is known only as before 10 June 1726. Another Elizabeth Glasgow profile (Glasgow-3422) was compared and rejected as a match.
+
 ## Source findings — Libberton baptism, 10 June 1726
 
 Elizabeth Glasgow was baptised at Libberton, Lanarkshire, on 10 June 1726. The index names the parents as Robert Glasgow and Katherine Watson and gives the residence as Whitrafles. Source: Findmypast, *Scotland, Parish Births & Baptisms 1564–1929*, [transcript SCOT/OPR/BAP/4033496](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4033496&tab=this), OPR 650/1, page 26. Seen as a Findmypast index transcription (captured 3 September 2026); the register image has not been inspected. Birth is known only as before 10 June 1726.

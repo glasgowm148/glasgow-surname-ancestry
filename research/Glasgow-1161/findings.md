@@ -1,9 +1,15 @@
 # Findings: [Glasgow-1161](https://www.wikitree.com/wiki/Glasgow-1161)
 
-Last updated: 2026-09-10
+Last updated: 2026-10-07
 
 
 <!-- opr-birth-review-row-25 -->
+
+## Current conclusion
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+Elizabeth Glasgow was born or baptised in Edinburgh on 1 July 1647, according to the Scotland’s People index of the Old Parish Registers (parish 685 / 1, reference 50 / 206), which names her parents as Thomas Glasgow and Catharine Weir. The entry is known from the index only: the original register image has not been inspected, and the indexed date is not proved to be a birth date. The file records nothing further about her life.
+
 ## Source findings
 
 ### Supplied OPR births and baptisms: row 25 — 10 September 2026

@@ -5,7 +5,8 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
-No sourced conclusion recorded yet.
+<!-- site-audit-2026-10-07:overall-conclusion -->
+Alexander Glasgow of Old Court, County Cork, formerly of Auchenraith, Lanarkshire, died at Old Court on 19 October 1873; the printed Irish probate calendar records his will proved at Cork on 10 December 1873 by Robert Pirrie, one of the executors, with effects under £80,000. A burial index records him at Douglas on 24 October 1873, and an indexed Greenock death notice gives his age as 81. Marriage notices of 1853 and 1855 call Jessy, wife of Edward Eyre Newenham, his only daughter and William James Glasgow his only son. His profile's birth in 1792 and 1826 marriage to Ellen Smith have not yet been checked against records.
 
 ## Source findings
 

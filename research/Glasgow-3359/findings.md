@@ -1,9 +1,15 @@
 # Findings: [Glasgow-3359](https://www.wikitree.com/wiki/Glasgow-3359)
 
-Last updated: 2026-09-10
+Last updated: 2026-10-07
 
 
 <!-- opr-birth-review-row-11 -->
+
+## Current conclusion
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+Magdalene Glasgow, daughter of Robert Glasgow and Eupham Loremer as indexed, is recorded in the Scotland's People index of Old Parish Register births and baptisms at Edinburgh under 14 August 1664. The entry agrees in date, place and family with the existing account of her on the profile and adds the index reference as provenance. The original register has not been inspected, and the indexed date is not proved to be her date of birth.
+
 ## Source findings
 
 ### Supplied OPR births and baptisms: row 11 — 10 September 2026

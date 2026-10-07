@@ -1,11 +1,12 @@
 # Findings: [William Glasgow (Glasgow-1497), born 1641-10-24, Glasgow, Lanarkshire, Scotland](https://www.wikitree.com/wiki/Glasgow-1497)
 
-Last updated: 2026-09-10
+Last updated: 2026-10-07
 
 
 ## Current conclusion
 
-No sourced conclusion recorded yet.
+<!-- site-audit-2026-10-07:overall-conclusion -->
+William Glasgow was born or baptised in Glasgow on 24 October 1641, according to the Scotland’s People index of the Old Parish Registers (parish 644 / 1, reference 30 / 298), which names his parents as William Glasgow and Bessy Howie. The entry is known from the index only: the original register image has not been inspected, and the indexed date is not proved to be a birth date. The file records nothing further about his life.
 
 ## Source findings
 

@@ -1,6 +1,12 @@
 # Glasgow-1929 research findings
 
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-62648f8f1ec3 -->
+
+## Current conclusion
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+Hugh Glasgow was born on 30 January and baptised on 5 February 1710 at Kilwinning, Ayrshire, son of John Glasgow and Mary Gemmill, according to a Findmypast transcript. His profile also carries a 1732 marriage to Margaret McEachin, though the file does not show how the 1710 child was linked to that bridegroom. On 27 September 2026 the profile Glasgow-4166 was merged into his, adding its Kilmarnock children; this rests on inference from the wife's two surname forms and a continuous run of children. A 1744 baptism naming the mother as Margaret Giffen is not assigned to a second marriage or to a different Hugh, and the originals remain to be inspected.
+
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-62648f8f1ec3
 
 The transcript-validated baptism record for **Hugh Glasgow**, 05 Feb 1710, Kilwinning, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.

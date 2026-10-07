@@ -1,5 +1,10 @@
 # Findings: Glasgow-3052
 
+## Current conclusion
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+Andrew Glasgow is recorded on the family tree as born in 1720 at Kirknewton or East Calder, Midlothian, an uncertain date, and no record in this file yet documents his life. Newspaper notices of 1772, 1779 and 1790 naming an Andrew Glasgow (a miller at Calder, a preses of the Leith porters and a merchant in Kirkgate, Leith) were considered for this profile and withdrawn on 6 October 2026. His tree link as a brother of Robert Glasgow (Glasgow-1445) is unverified.
+
 ## Current conclusion — additional newspaper originals, 5 October 2026
 
 Andrew Glasgow, Leith society notice signatory, 1779: Uncertain 1720 Midlothian birth is compatible; no Leith society or signature bridge. No existing Andrew is identified. Three local candidates and other compatible chronological namesakes remain unresolved; missing records and uncertain bounds do not establish exclusions. The Leith notice does not prove family links or a particular society role. No family or life-date change follows.
