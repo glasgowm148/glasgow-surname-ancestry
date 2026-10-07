@@ -452,7 +452,18 @@ def sync_generated_profile_work_status() -> dict[str, int]:
     artifact_path = DATA_DIR / "catalogue-statistics.json"
     artifact = json.loads(artifact_path.read_text(encoding="utf-8"))
     public_profile_ids = {profile_id for person in people for profile_id in person.get("profile_ids", [])}
-    update_count = len(set(_load_profile_updates(_load_wikitree_evidence())) & public_profile_ids)
+    # Count what the site shows: an update whose captured profile text names a
+    # living person or a DNA tester is kept off the public pages and the flag.
+    try:
+        from public_privacy import from_sources as _privacy_policy
+    except ModuleNotFoundError:
+        from tools.public_privacy import from_sources as _privacy_policy
+    _policy = _privacy_policy()
+    update_count = sum(
+        1 for profile_id, update in _load_profile_updates(_load_wikitree_evidence()).items()
+        if profile_id in public_profile_ids and not _policy.contains_private_id("\n".join(
+            str(update.get(key) or "") for key in ("summary", "remote_wikitext", "proposed_wikitext", "draft_wikitext")))
+    )
     for path in (WEB_DIR / "catalogue.html", WEB_DIR / "catalogue" / "index.html", WEB_DIR / "catalogue" / "advanced.html", artifact_path, WEB_DIR / "statistics" / "index.html"):
         html = artifact["html"] if path == artifact_path else path.read_text(encoding="utf-8")
         updated = re.sub(
