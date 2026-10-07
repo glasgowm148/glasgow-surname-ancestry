@@ -15,6 +15,60 @@ unchanged; only the words readers see are standardised.
 - Targeted repair of published pages: `tools/repair_evidence_labels.py`
   (idempotent; `[profile IDs]` limits it to named dossiers)
 
+## Printing a label (every builder)
+
+One function turns any stored value into what the reader sees:
+
+```python
+from tools import evidence_labels as ev
+
+info = ev.describe(value)            # or describe(value, "state" | "quality" | "tone")
+info["text"]     # words to print, e.g. "Profile lead · One-Tree"
+info["meaning"]  # one line, used as the tooltip
+info["anchor"]   # id of the entry in /evidence/, e.g. "link-profile-lead"
+info["url"]      # "/evidence/#link-profile-lead"
+info["mapped"]   # False for wording outside the standard scale
+
+ev.label_html(value)                 # <span class="evidence-badge evidence-<stored>"><a class="ev-label-link" href=… title=…>text</a></span>
+ev.label_html(value, "state", css="status-label")   # same, with another outer class
+ev.guide_link_html()                 # <p class="evidence-guide-link"><a href="/evidence/">How to read the labels</a></p>
+```
+
+`describe` accepts state keys and their aliases, WikiTree `data_status`
+codes, `source_quality` keys, the record-link terms, study tones, the standard
+labels themselves and the curated place-page texts in `BADGE_TEXT_MAP`. It
+never changes the stored value and never raises a grade: a curated qualifier is
+kept ("Probable · Highly probable same Irish cleric"), and "Proved …" is printed
+with the guide's word for the same grade ("Documented son"). Texts in
+`UNMAPPED_BADGE_TEXTS`, and any text it does not recognise, are printed as
+written and linked to the guide's "Other wording" entry (`#other-wording`).
+
+Guide anchors: `state-<key>` (underscores become hyphens), `quality-<key>`,
+`link-<term>` (`link-profile-lead`, `link-kin-inferred-profile-lead`,
+`link-traditional`, `link-estimated`, `link-documented`, `link-probable`),
+`tone-<key>` and `other-wording`. Each entry shows the label, its meaning,
+what kind of record it usually rests on (`STATE_BASIS`) and one real example
+from the site (`GUIDE_EXAMPLES`). Internal keys are kept only as `id` and
+`data-key` attributes, never as visible text.
+
+The stylesheet source is `tools/evidence.css`; `tools/build_evidence_page.py`
+installs it as `www/assets/research/evidence.css` together with the page and
+the JSON mirror. Pages that print linked labels should link that stylesheet;
+without it the labels still read correctly and are underlined links.
+
+### Place-page badge texts (7 October 2026: 102 distinct texts)
+
+Five are source-quality labels (Unclassified, Index or transcription, Original
+record, Tree/profile only, Secondary source). The other 97 are stored record
+`evidence` values. 67 map onto the standard set through `BADGE_TEXT_MAP`; the
+largest are "One-Tree profile lead" (4,170) → **Profile lead · One-Tree** and
+"Kin-inferred One-Tree profile lead" (124) → **Kin-inferred profile lead ·
+One-Tree**. 30 describe the record or a stage of the work, or mix two grades,
+and are listed in `UNMAPPED_BADGE_TEXTS` for the owner to decide. The guide's
+"Other wording" section prints the full mapping table for readers. The stored
+values written by `tools/sync_onetree_scotland_to_1700.py` and
+`sync_onetree_irish_to_1850.py` ("One-Tree profile lead") are unchanged.
+
 Rules:
 
 1. A label never claims more than the evidence. "Documented" is used only for

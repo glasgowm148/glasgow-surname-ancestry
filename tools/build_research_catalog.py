@@ -593,14 +593,16 @@ def _catalogue_record_types(person: dict) -> list[str]:
 
 
 def _evidence_badge(value: str, label: str | None = None) -> str:
-    status = re.sub(r"[^a-z0-9]+", "-", (value or "unknown").casefold()).strip("-") or "unknown"
-    if label is None:
-        key = str(value or "unknown")
-        if key in evidence_labels.RECORD_QUALITY:
-            label = evidence_labels.quality_label(key)
-        elif key.casefold().replace(" ", "_") in evidence_labels.STATES or key.casefold() in evidence_labels.ALIASES:
-            label = evidence_labels.label(key)
-    return f'<span class="evidence-badge evidence-{escape(status, quote=True)}">{escape(label or value or "Unclassified")}</span>'
+    """A printed evidence label, worded and linked by ``evidence_labels.describe``.
+
+    The stored value is shown in the reader's words and links to its entry in
+    the evidence guide. ``label`` is used only for wording outside the scale
+    (a recognised value always prints its standard label).
+    """
+    value = value or "unknown"
+    info = evidence_labels.describe(value)
+    text = label if label and label != value and not info["mapped"] else None
+    return evidence_labels.label_html(value, text=text)
 
 
 def _catalogue_legend_html() -> str:

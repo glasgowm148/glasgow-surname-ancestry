@@ -1,0 +1,97 @@
+/* Shared evidence-label presentation. Vocabulary: /assets/research/evidence-labels.json
+   (generated from tools/evidence_labels.py). Every state keeps its text label;
+   the glyphs and colours below are redundant cues, never the only signal. */
+
+.evidence-guide-link{margin:8px 0 12px;font-size:.84rem;line-height:1.5;color:#4a5b49;max-width:78ch}
+.evidence-guide-link a{font-weight:700;color:#2f5a42;text-decoration:underline;text-underline-offset:3px}
+.evidence-guide-link a:hover,.evidence-guide-link a:focus-visible{color:#173d2b}
+.evidence-guide-link span{color:#566656}
+
+/* Dossier relationship states not covered by the base dossier stylesheet. */
+.person-hierarchy .status-strongly_supported,.person-hierarchy .status-strongly-supported{color:#2c5f45;background:#e4efe5}
+.person-hierarchy .status-strongly_supported::before,.person-hierarchy .status-strongly-supported::before{content:'✓ ';font-weight:800}
+.person-hierarchy .status-probable{color:#5a5317;background:#efedd6}
+.person-hierarchy .status-probable::before{content:'~ ';font-weight:800}
+.person-hierarchy .status-disputed,.person-hierarchy .status-contradicted{color:#82402c;background:#f5e6df}
+.person-hierarchy .status-disputed::before{content:'! ';font-weight:800}
+.person-hierarchy .status-contradicted::before{content:'✕ ';font-weight:800}
+.person-hierarchy .status-unknown,.person-hierarchy .status-unmarked,.person-hierarchy .status-unassessed{color:#4f5a52;background:#eceee9}
+.person-hierarchy .status-unknown::before,.person-hierarchy .status-unmarked::before,.person-hierarchy .status-unassessed::before{content:'○ ';font-weight:700}
+
+/* Open research questions: status plus what would resolve them. */
+.question-status{display:inline-block;padding:2px 8px;border:1px solid #9fb29a;border-radius:999px;font-size:.72rem;font-weight:750;line-height:1.5;color:#34513c;background:#f3f6ee}
+.question-status.question-open::before{content:'● ';color:#8a6a12}
+.question-status.question-partly_answered::before{content:'◐ ';color:#8a6a12}
+.question-status.question-answered::before{content:'✓ ';color:#2b6445}
+.question-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 18px;margin:10px 0 6px;padding:10px 12px;background:#f1f4ea;border-left:3px solid #86a07c;border-radius:4px}
+.question-actions div{min-width:0}
+.question-actions dt{font-size:.7rem;font-weight:800;letter-spacing:.04em;text-transform:uppercase;color:#4b634d}
+.question-actions dd{margin:3px 0 0;font-size:.88rem;line-height:1.5;color:#2d3f31;overflow-wrap:anywhere}
+.question-unknown{font-style:italic;color:#5d665d}
+@media(max-width:680px){.question-actions{grid-template-columns:1fr}}
+
+/* Research page open-question cards. */
+#open-questions .question-actions{margin:10px 0 12px;background:#f4f6ee}
+#open-questions .repair-question-status{margin:4px 0 8px}
+
+/* Study pages. */
+.sp-evidence-guide{display:inline-block;margin-left:8px;font-size:.8rem;font-weight:700;text-decoration:underline;text-underline-offset:3px}
+.sp-page .evidence-guide-link{margin:6px 0 14px}
+
+/* Atlas person drawer. */
+.detail-section .evidence-guide-link{margin:4px 0 0;font-size:12px}
+.relative small .evidence-term{font-weight:700}
+
+/* The evidence guide page. */
+.ev-page{max-width:1040px}
+.ev-page .ev-intro{max-width:72ch;font-size:1.02rem;line-height:1.65;color:#394b3b}
+.ev-section{margin:34px 0;padding-top:22px;border-top:1px solid #cfd8c7}
+.ev-section>h2{margin:0 0 8px;font:500 clamp(1.5rem,2.6vw,2rem)/1.2 var(--g-serif,Georgia,serif);color:#2f4832}
+.ev-section>p{max-width:74ch;line-height:1.6;color:#435442}
+.ev-table-wrap{max-width:100%;overflow-x:auto}
+.ev-table{width:100%;border-collapse:collapse;font-size:.92rem;background:#fffefa}
+.ev-table th,.ev-table td{padding:11px 12px;border-bottom:1px solid #d6ded0;text-align:left;vertical-align:top;overflow-wrap:anywhere}
+.ev-table th{font-size:.74rem;letter-spacing:.04em;text-transform:uppercase;color:#465f49;background:#edf1e6}
+.ev-table td:first-child{width:30%;min-width:0}
+.ev-label{display:inline-flex;align-items:baseline;gap:6px;padding:3px 9px;border:1px solid #b5c3ad;border-radius:5px;font-weight:750;font-size:.86rem;color:#2d3f31;background:#f3f5ee}
+.ev-label b{font-weight:800}
+.ev-family-documented,.ev-family-supported{border-color:#6f9a7c;background:#e3efe5;color:#1f5a3c}
+.ev-family-probable{border-color:#b3a861;background:#efedd6;color:#524b12}
+.ev-family-possible{border-color:#c2a458;background:#f5edce;color:#664f10}
+.ev-family-conflict{border-color:#c49482;background:#f5e6df;color:#7a3a26}
+.ev-family-tree,.ev-family-unassessed{border-color:#aab3ad;background:#eceee9;color:#3f4a43}
+.ev-key{display:block;margin-top:4px;font:12px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;color:#5b665c}
+.ev-note{max-width:74ch;padding:14px 16px;background:#eef2e7;border-left:3px solid #6d9278;border-radius:4px;line-height:1.6;color:#33463a}
+.ev-dl{display:grid;grid-template-columns:minmax(150px,220px) minmax(0,1fr);gap:0;margin:12px 0;border-top:1px solid #d6ded0}
+.ev-dl dt,.ev-dl dd{margin:0;padding:10px 12px;border-bottom:1px solid #d6ded0}
+.ev-dl dt{font-weight:750;color:#2f4832}
+.ev-dl dd{color:#3f4f40;line-height:1.55}
+@media(max-width:680px){.ev-dl{grid-template-columns:1fr}.ev-dl dt{border-bottom:0;padding-bottom:2px}.ev-table td:first-child{width:auto}.ev-table thead{display:none}.ev-table,.ev-table tbody,.ev-table tr,.ev-table td{display:block;width:auto}.ev-table tr{border-bottom:1px solid #d6ded0;padding:6px 0}.ev-table td{border-bottom:0;padding:6px 10px}}
+
+/* Dossier header: guide link beside the assessment date (header is dark). */
+.person-hierarchy .dossier-meta .dossier-evidence-guide{color:#f1e6c8;font-size:.78rem;font-weight:700;text-decoration:underline;text-underline-offset:3px}
+.person-hierarchy .dossier-meta .dossier-evidence-guide:hover,.person-hierarchy .dossier-meta .dossier-evidence-guide:focus-visible{color:#fff}
+
+/* Linked labels: every printed label links to its entry in /evidence/. */
+.ev-label-link{color:inherit;text-decoration:underline;text-decoration-thickness:1px;text-decoration-color:currentColor;text-underline-offset:2px}
+.ev-label-link:hover,.ev-label-link:focus-visible{text-decoration-thickness:2px}
+.evidence-badge .ev-label-link{text-transform:none}
+
+/* Guide entries: label, meaning, what it rests on and a real example. */
+.ev-contents{border-top:0;margin-top:18px;padding:16px 18px;background:#f3f5ee;border-left:3px solid #86a07c;border-radius:4px}
+.ev-contents>h2{font-size:1.25rem}
+.ev-ladder{display:flex;flex-wrap:wrap;gap:6px 18px;margin:8px 0 12px;padding-left:1.3em}
+.ev-ladder li{padding-left:2px}
+.ev-entries{display:grid;gap:12px}
+.ev-entry{scroll-margin-top:100px;padding:14px 16px;border:1px solid #d6ded0;border-radius:6px;background:#fffefa;min-width:0}
+.ev-entry:target{border-color:#6d9278;box-shadow:0 0 0 3px #dbe7d4}
+.ev-entry h3{margin:0 0 8px;font:inherit}
+.ev-meaning{margin:0 0 8px;max-width:74ch;line-height:1.55;color:#2d3f31;font-weight:600}
+.ev-facts{display:grid;grid-template-columns:minmax(120px,160px) minmax(0,1fr);gap:4px 12px;margin:0}
+.ev-facts dt{font-size:.72rem;font-weight:800;letter-spacing:.04em;text-transform:uppercase;color:#4b634d;padding-top:3px}
+.ev-facts dd{margin:0;line-height:1.55;color:#3f4f40;overflow-wrap:anywhere}
+.ev-no-example{font-style:italic;color:#5d665d}
+.ev-wording summary{cursor:pointer;font-weight:700;color:#2f5a42}
+.ev-wording .ev-table{margin-top:10px}
+[id^="tone-"]{scroll-margin-top:100px}
+@media(max-width:680px){.ev-facts{grid-template-columns:1fr}.ev-facts dd{margin-bottom:6px}}
