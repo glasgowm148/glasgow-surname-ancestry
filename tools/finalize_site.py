@@ -86,6 +86,10 @@ def finalize(site_root=ROOT/'www'):
         after=with_analytics(after)
         counts['duplicate_asset_tags_removed']+=len(duplicates)
         if after!=before:path.write_text(after);counts['asset_pages']+=1
+    # Pages written late in a release also get the one site name, breadcrumb and footer.
+    if Path(site_root).resolve()==(ROOT/'www').resolve():
+        from tools.repair_primary_navigation import repair_site_identity
+        counts.update({'identity_'+str(k):v for k,v in repair_site_identity().items()})
     # Dependencies are stamped before their consumers, iterating to a fixed point.
     for _ in range(6):
         _,stale=stamp(site_root,write=True)

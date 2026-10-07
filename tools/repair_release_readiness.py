@@ -105,7 +105,7 @@ def repair_counts(health: dict, manifest: dict, generated: date, changed: Counte
     people, records, places = counts["people"], counts["records"], counts["places"]
     pages = {
         "index.html": lambda page: homepage_count(page, people),
-        "about/index.html": lambda page: replace_once(page, r'(<td>Research catalogue</td><td>)[^<]+(</td>)', rf'\g<1>{people:,} people · {records:,} record associations · {places:,} places\2'),
+        "about/index.html": lambda page: replace_once(page, r'(<td>Research catalogue</td><td>)[^<]+(</td>)', rf'\g<1>{people:,} people · {records:,} record entries linked to people · {places:,} places\2'),
         "data/index.html": lambda page: replace_once(page, r'(<strong>people\.csv</strong><span>)[\d,]+ historical or deceased people(</span>)', rf'\g<1>{datasets["people"]:,} historical or deceased people\2'),
     }
     for relative, transform in pages.items():

@@ -4,8 +4,10 @@ Only reviewed findings sections and the maintained WikiTree update queue are
 published. This does not infer amendments, create people, or change tree data.
 """
 import argparse
+import contextlib
 import json
 import re
+import sys
 from html import escape
 from pathlib import Path
 
@@ -363,7 +365,20 @@ def main():
         index_exit = refresh_after_batch()
     print(json.dumps({"checked": checked, "refreshed" if args.write else "stale": report,
                       "missing_public_cases": missing}, indent=2))
-    return int(bool(missing or (report and not args.write) or index_exit))
+    # What the builders will still not publish for these profiles (text above
+    # the first heading, sources only in editing logs, no overall conclusion,
+    # register or queue entries dropped). Printed on stderr so the JSON above
+    # stays machine-readable.
+    try:
+        from check_research_publication import main as check_publication
+    except ModuleNotFoundError:
+        from tools.check_research_publication import main as check_publication
+    check_args = ["--baseline", str(ROOT / "data/site/research-publication-baseline.json")]
+    if args.profiles:
+        check_args += ["--id", *args.profiles]
+    with contextlib.redirect_stdout(sys.stderr):
+        publication_exit = check_publication(check_args)
+    return int(bool(missing or (report and not args.write) or index_exit or publication_exit))
 
 
 if __name__ == "__main__":
