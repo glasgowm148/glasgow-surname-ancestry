@@ -190,3 +190,8 @@ def publish_clean_urls(web_dir: Path = WEB_DIR) -> None:
 
 if __name__ == "__main__":
     publish_clean_urls()
+    # /changes/ is rebuilt above from changes.html, which does not carry the
+    # "Latest research" feed or the link to Latest findings: put them back, so
+    # running this tool on its own never leaves the change log without them.
+    import runpy
+    print(dict(runpy.run_path(str(ROOT / "tools/build_latest_research.py"))["repair"]()))

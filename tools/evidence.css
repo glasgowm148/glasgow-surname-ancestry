@@ -44,6 +44,9 @@
 
 /* The evidence guide page. */
 .ev-page{max-width:1040px}
+/* The guide uses the site's own heading face and link colour, like every other page. */
+.ev-page h1{font:400 clamp(32px,4.3vw,52px)/1.08 var(--g-serif,Georgia,'Times New Roman',serif);letter-spacing:0;margin:12px 0 16px}
+.ev-page a:not(.ev-label-link){color:#285e49;text-underline-offset:3px}
 .ev-page .ev-intro{max-width:72ch;font-size:1.02rem;line-height:1.65;color:#394b3b}
 .ev-section{margin:34px 0;padding-top:22px;border-top:1px solid #cfd8c7}
 .ev-section>h2{margin:0 0 8px;font:500 clamp(1.5rem,2.6vw,2rem)/1.2 var(--g-serif,Georgia,serif);color:#2f4832}
@@ -80,7 +83,7 @@
 /* Guide entries: label, meaning, what it rests on and a real example. */
 .ev-contents{border-top:0;margin-top:18px;padding:16px 18px;background:#f3f5ee;border-left:3px solid #86a07c;border-radius:4px}
 .ev-contents>h2{font-size:1.25rem}
-.ev-ladder{display:flex;flex-wrap:wrap;gap:6px 18px;margin:8px 0 12px;padding-left:1.3em}
+.ev-ladder{display:flex;flex-wrap:wrap;gap:6px 34px;margin:8px 0 12px;padding-left:1.5em}
 .ev-ladder li{padding-left:2px}
 .ev-entries{display:grid;gap:12px}
 .ev-entry{scroll-margin-top:100px;padding:14px 16px;border:1px solid #d6ded0;border-radius:6px;background:#fffefa;min-width:0}

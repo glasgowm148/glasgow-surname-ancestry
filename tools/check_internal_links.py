@@ -72,6 +72,8 @@ _PROFILE_ID = re.compile(r"[A-Za-z][A-Za-z_'’]*(?:-[A-Za-z][A-Za-z_'’]*)*-\d
 _ASSET_SUFFIXES = {".css", ".js", ".mjs", ".png", ".jpg", ".jpeg", ".gif", ".svg", ".webp", ".ico", ".woff",
                    ".woff2", ".ttf", ".json", ".csv", ".txt", ".pdf", ".xml", ".mp4", ".webm", ".geojson"}
 _SKIP_TAGS = {"base", "form"}
+# Generated under hashed names; see ``check`` for how unreferenced ones are treated.
+GENERATED_PREFIXES = ("assets/research/fragments/", "people/research-material/")
 
 # Cause → where the generator lives and the fix. Filled from the current run;
 # a cause not listed here falls back to "missing-page".
@@ -183,6 +185,7 @@ def scan(relative: str, site_root: str) -> dict:
             base = urljoin(base, unescape(match.group(1)).strip())
     clean = _RAW_BODY.sub(lambda m: m.group(1), _COMMENT.sub(" ", text))
     broken, anchors, checked, internal = [], [], 0, 0
+    refs = set()
     cache = {}
     for tag in _TAG.finditer(clean):
         name, attrs = tag.group(1).lower(), tag.group(2)
@@ -209,7 +212,10 @@ def scan(relative: str, site_root: str) -> dict:
                 target, how = cache[path]
                 if target is None:
                     broken.append((name, attr.group(1).lower(), value[:300], unquote(path), how))
-                elif parts.fragment and _PERSON_PAGE.fullmatch(target) and target != relative:
+                    continue
+                if target.startswith(GENERATED_PREFIXES):
+                    refs.add(target)
+                if parts.fragment and _PERSON_PAGE.fullmatch(target) and target != relative:
                     anchors.append((target, unquote(parts.fragment), value[:300]))
     ids = None
     if _PERSON_PAGE.fullmatch(relative):
@@ -218,7 +224,7 @@ def scan(relative: str, site_root: str) -> dict:
             ids.update(listed.split())
         ids = sorted(ids)
     return {"page": relative, "broken": broken, "anchors": anchors, "ids": ids,
-            "checked": checked, "internal": internal}
+            "checked": checked, "internal": internal, "refs": sorted(refs)}
 
 
 def site_files(site_root: Path) -> frozenset:
@@ -285,7 +291,26 @@ def check(site_root: Path, jobs: int | None = None) -> dict:
             results = list(pool.map(scan, pages, [str(site_root)] * len(pages), chunksize=64))
     broken, ids, anchor_refs = [], {}, []
     checked = internal = 0
+    # Lazy-loaded fragments and reader pages are written under hashed names and
+    # earlier builds leave old ones behind. Only those some page still leads to
+    # can be reached by a reader, so only those are checked.
+    reachable, frontier = set(), set()
     for result in results:
+        if not result["page"].startswith(GENERATED_PREFIXES):
+            frontier.update(result["refs"])
+    by_page = {result["page"]: result for result in results}
+    while frontier:
+        page = frontier.pop()
+        if page in reachable:
+            continue
+        reachable.add(page)
+        frontier.update(ref for ref in (by_page.get(page) or {}).get("refs", []) if ref not in reachable)
+    unreferenced = sorted(result["page"] for result in results
+                          if result["page"].startswith(GENERATED_PREFIXES) and result["page"] not in reachable)
+    skipped = set(unreferenced)
+    for result in results:
+        if result["page"] in skipped:
+            continue
         checked += result["checked"]
         internal += result["internal"]
         if result["ids"] is not None:
@@ -298,6 +323,7 @@ def check(site_root: Path, jobs: int | None = None) -> dict:
                        for page, target, anchor, value in anchor_refs if anchor not in ids.get(target, set())]
     return {"site": str(site_root), "pages": len(pages), "references_checked": checked, "internal_references": internal,
             "broken": broken, "anchor_references": len(anchor_refs), "missing_anchors": missing_anchors,
+            "unreferenced_generated_pages": unreferenced,
             "elapsed_seconds": round(time.time() - started, 1)}
 
 
@@ -399,6 +425,9 @@ def main(argv=None) -> int:
                      "new_pairs": len(new), "fixed_pairs": len(fixed), "note": note,
                      "new_examples": [{"page": p, "target": t} for p, t in new[:50]]},
         "causes": summarise(result["broken"]),
+        "unreferenced_generated_pages": {"count": len(result["unreferenced_generated_pages"]),
+                                         "note": "left over from earlier builds; no page links to them, so they are not checked",
+                                         "examples": result["unreferenced_generated_pages"][:20]},
         "anchors": {"scope": "links into person pages only; reported, not gated",
                     "references": result["anchor_references"], "missing": len(result["missing_anchors"]),
                     "by_anchor": dict(Counter(re.sub(r"\d+", "<n>", r["anchor"]) for r in result["missing_anchors"]).most_common(15)),
@@ -421,6 +450,9 @@ def main(argv=None) -> int:
     if fixed:
         print("Run with --update-baseline to remove the fixed pairs from the baseline.")
     print(f"Anchors into person pages: {report['anchors']['missing']} missing of {report['anchors']['references']} (not gated)")
+    if result["unreferenced_generated_pages"]:
+        print(f"Not checked: {len(result['unreferenced_generated_pages'])} fragment or reader pages left over from earlier builds "
+              "that no page links to.")
     return status
 
 

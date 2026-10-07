@@ -1688,6 +1688,19 @@ def _biography_sections_html(profile_id: str, editorial: dict, used_ids: set[str
     return rendered_sections
 
 
+def _page_slug(dossier: dict, profile_id: str) -> str:
+    """The page's own file name stem, for links back to this page and its data files.
+
+    The privacy projection can replace ``catalogue_id`` with a sentence or an
+    empty value; the page is still published under its WikiTree ID, so use
+    that instead of writing the sentence into a link.
+    """
+    value = str(dossier.get("catalogue_id") or "").strip().casefold()
+    if not value or any(char.isspace() for char in value) or "withheld" in value:
+        value = str(profile_id).casefold()
+    return value
+
+
 def _research_note_anchor(path: str, title: str) -> str:
     return "research-note-" + hashlib.sha256((path.lstrip("/") + "|" + title).encode()).hexdigest()[:12]
 
@@ -2284,7 +2297,7 @@ def _archive_html(profile_id: str, dossier: dict, editorial: dict, supplements: 
     if originals: parts.append('<details class="archive-original-set"><summary>Research notes as originally written</summary><div class="archive-copy">' + "".join(originals) + '</div></details>')
     if candidates: parts.append('<details><summary>Automated parent comparison (research aid, not a recommendation)</summary><div class="archive-copy"><p>Stored scores are preserved for audit only. They are not probabilities or genealogical evidence, and a reviewed exclusion remains excluded.</p><ul>' + "".join(f'<li>{escape(line)}</li>' for line in candidates) + '</ul></div></details>')
     if draft and include_prepared_draft: parts.append(f'<details><summary>Prepared WikiTree copy/export</summary><div class="archive-copy"><button class="copy-wikitree" data-copy-wikitree="wikitree-export">Copy WikiTree text</button><textarea id="wikitree-export" aria-label="Original WikiTree export" rows="24" readonly>{escape(draft)}</textarea></div></details>')
-    slug = str(dossier.get("catalogue_id") or profile_id).casefold()
+    slug = _page_slug(dossier, profile_id)
     parts.append(f'<details><summary>Research data and downloads</summary><div class="archive-copy"><p><a href="/people/{escape(slug)}.json">Person data (JSON)</a> · <a href="/people/{escape(slug)}.network.json">Family network</a></p><pre class="archive-json">{escape(raw_json)}</pre></div></details>')
     return '<details id="archive-tools" class="dossier-archive"><summary><span>Original notes and downloads<small>Notes as written, replaced interpretations, comparisons and data exports</small></span></summary><div class="archive-body">' + "".join(parts) + '</div></details>'
 
@@ -2354,7 +2367,7 @@ def render_person_dossier(profile_id: str) -> str:
     if assessment_date:
         fact_entries.append(("Last reviewed", _reader_date_text(assessment_date)))
     facts = ''.join(f'<div class="dossier-fact"><strong>{escape(label)}</strong><span>{escape(str(value))}</span></div>' for label, value in fact_entries if value)
-    slug = str(dossier.get("catalogue_id") or profile_id).casefold()
+    slug = _page_slug(dossier, profile_id)
     family_anchor = _safe_slug(editorial.get("family_section") or "family") if authored else "family"
     family_body = _family_html(dossier.get("id") or profile_id, dossier, model, index, editorial, source_by_record)
     has_relatives = "relation-table" in family_body

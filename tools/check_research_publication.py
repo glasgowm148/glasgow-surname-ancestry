@@ -344,9 +344,14 @@ class Checker:
         self.site = bool(site and index_path.exists())
         self.slug_for: dict[str, str] = {}
         if self.site:
-            for row in _load_json(index_path, []):
+            rows = _load_json(index_path, [])
+            # A person's own page first; a page that only lists the ID as an
+            # alternate (a comparison page, for example) never takes its place.
+            for row in rows:
+                self.slug_for.setdefault(row["id"], row.get("catalogue_id") or row["id"].lower())
+            for row in rows:
                 slug = row.get("catalogue_id") or row["id"].lower()
-                for pid in [row["id"], *(row.get("alternate_ids") or [])]:
+                for pid in row.get("alternate_ids") or []:
                     self.slug_for.setdefault(pid, slug)
         self.internal_counts: dict[str, int] = {}
         self.files_checked = 0

@@ -201,7 +201,21 @@ def repair_site_identity_page(page: str, relative: Path) -> str:
     page = re.sub(r'<span class="g-brand-caption">.*?</span>',
                   f'<span class="g-brand-caption">{identity.SITE_RAIL_CAPTION}</span>', page, count=1, flags=re.S)
     page = page.replace('aria-label="Glasgow archive home"', f'aria-label="{identity.SITE_NAME} home"')
-    page = page.replace('aria-label="Glasgow archive" class="g-rail"', f'aria-label="{identity.SITE_NAME}" class="g-rail"')
+    # The rail's label, whatever order its attributes are written in.
+    page = re.sub(r'<aside\b[^>]*\bg-rail\b[^>]*>',
+                  lambda m: re.sub(r'aria-label="[^"]*"', f'aria-label="{identity.SITE_NAME}"', m[0], count=1),
+                  page, count=1)
+    # Descriptions in the head carry the one name too.
+    head_end = page.find('</head>')
+    if head_end > 0:
+        def _named(match):
+            tag = match[0]
+            if 'description' not in tag.casefold():
+                return tag
+            for legacy in ('Glasgow surname archive', 'Glasgow Surname Archive', 'Glasgow archive'):
+                tag = tag.replace(legacy, identity.SITE_NAME)
+            return tag
+        page = re.sub(r'<meta\b[^>]*>', _named, page[:head_end]) + page[head_end:]
     # The rail repeated menu links; keep only "Find a connection" (S1-07).
     page = re.sub(r'<div class="repair-quick-links">.*?</div>',
                   '<div class="repair-quick-links"><a href="/connections/">Find a connection &rarr;</a></div>',

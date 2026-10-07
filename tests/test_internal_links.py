@@ -154,3 +154,25 @@ class InternalLinkCheckerTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class LeftoverGeneratedPagesTest(unittest.TestCase):
+    """Fragments and reader pages from earlier builds are checked only when a page still leads to them."""
+
+    def test_unreferenced_fragments_are_listed_not_checked(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            site = Path(tmp) / "www"
+            write(site / "assets/site.css", "body{}")
+            write(site / "index.html", page('<a href="/people/a.html">A</a>'))
+            write(site / "people/a.html", page("<details data-r-fragment='/assets/research/fragments/a-live.html'></details>"
+                                               '<a href="/people/research-material/a-live/">reader</a>'))
+            write(site / "assets/research/fragments/a-live.html", '<a href="/gone-live/">x</a>')
+            write(site / "assets/research/fragments/a-old.html", '<a href="/gone-old/">x</a>')
+            write(site / "people/research-material/a-live/index.html", page('<a href="/assets/research/fragments/a-deep.html">deep</a>'))
+            write(site / "assets/research/fragments/a-deep.html", '<a href="/gone-deep/">x</a>')
+            write(site / "people/research-material/a-old/index.html", page('<a href="/gone-reader/">x</a>'))
+            result = checker.check(site, jobs=1)
+            targets = sorted(row["target"] for row in result["broken"])
+            self.assertEqual(["/gone-deep/", "/gone-live/"], targets)
+            self.assertEqual(["assets/research/fragments/a-old.html", "people/research-material/a-old/index.html"],
+                             result["unreferenced_generated_pages"])

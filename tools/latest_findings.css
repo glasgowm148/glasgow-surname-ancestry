@@ -20,3 +20,17 @@
 .lf-subject-list{list-style:none;padding:0;columns:2 280px;column-gap:28px}.lf-subject-list li{break-inside:avoid;padding:8px 0;border-bottom:1px solid #d7dfce}.lf-subject-list small{display:block;color:#667361}
 .lf-place{margin:22px 0}.lf-place h2{font-size:20px;margin:0 0 6px}.lf-place ul{padding-left:18px}.lf-place li{margin:5px 0;font-size:14px}.lf-place time{font-weight:700;margin-right:6px}
 .lf-place-jump p{line-height:1.9}
+
+/* Phone layout: each finding is a card with labelled parts, not a row of a
+   wide table that has to be scrolled sideways. */
+@media(max-width:760px){
+  .lf-table-wrap{overflow-x:visible}
+  .lf-table{min-width:0;display:block;border:0;background:none}
+  .lf-table colgroup,.lf-table thead{display:none}
+  .lf-table tbody,.lf-table tr,.lf-table td{display:block;width:auto}
+  .lf-table tr{margin:0 0 14px;padding:14px 14px 4px;border:1px solid #d7dfce;border-radius:8px;background:#fbfcf7}
+  .lf-table td{padding:0 0 12px;border:0}
+  .lf-table td::before{content:attr(data-label);display:block;margin-bottom:3px;font-size:10px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#667361}
+  .lf-table td[data-label="Found"]{font-weight:700}
+  .lf-table td[data-label="Found"]::before{display:none}
+}

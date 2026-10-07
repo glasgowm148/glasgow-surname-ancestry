@@ -298,6 +298,7 @@ def main():
     cases = read_json(manifest_path).get("cases", {}) if manifest_path.exists() else {}
     report, missing, checked, refreshed_profiles = {}, [], 0, []
     no_research_section = []
+    updates_withheld = []
     for ident in sorted(requested):
         decision = cases.get(ident, {})
         if decision.get("status") in {"internal", "withheld"}:
@@ -319,6 +320,12 @@ def main():
         identifiers = list(dict.fromkeys([dossier["id"], *by_slug[slug].get("profile_ids", [])]))
         findings = public_findings(identifiers, policy)
         update = updates.get(ident)
+        if update and policy.contains_private_id(json.dumps(update_data(update), ensure_ascii=False)):
+            # The captured profile text or the draft names a living person or
+            # a DNA tester. The queued change stays in the register and the
+            # queue file for the owner; it is not shown on the public page.
+            updates_withheld.append(ident)
+            update = None
         html_path = path.with_suffix(".html")
         soup = BeautifulSoup(read_html(html_path, site_root=WEB), "html.parser")
         comparison = comparisons.get(ident)
@@ -373,7 +380,8 @@ def main():
         index_exit = refresh_after_batch()
     print(json.dumps({"checked": checked, "refreshed" if args.write else "stale": report,
                       "missing_public_cases": missing,
-                      "pages_without_research_section": no_research_section}, indent=2))
+                      "pages_without_research_section": no_research_section,
+                      "updates_withheld_for_privacy": updates_withheld}, indent=2))
     # What the builders will still not publish for these profiles (text above
     # the first heading, sources only in editing logs, no overall conclusion,
     # register or queue entries dropped). Printed on stderr so the JSON above
