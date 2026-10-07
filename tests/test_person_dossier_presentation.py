@@ -600,6 +600,10 @@ class PersonDossierPresentationTests(unittest.TestCase):
         soup = self.page("glasgow-3167")
         archive = soup.select_one("#archive-tools")
         archive.extract()
+        # The WikiTree editing panel quotes the live WikiTree biography (which
+        # the prepared draft corrects); it is not the page's research account.
+        for panel in soup.select("#wikitree-update"):
+            panel.decompose()
         current = soup.get_text(" ", strip=True)
         self.assertIn("Samuel Glasgow", current)
         self.assertIn("Samuel Elder civil birth return", current)

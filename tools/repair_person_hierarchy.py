@@ -6,13 +6,14 @@ archive but do not compete with the maintained assessment.
 """
 from __future__ import annotations
 
+import calendar
 from collections import defaultdict
 from html import escape
 import hashlib
 import json
 from pathlib import Path
 import re
-from urllib.parse import urljoin
+from urllib.parse import unquote, urljoin
 
 from bs4 import BeautifulSoup
 from markdown_it import MarkdownIt
@@ -23,9 +24,9 @@ except ModuleNotFoundError:
     from tools.publish_resolved_dossiers import publish
 
 try:
-    from dossier_resolution import assessment_coverage, resolve_presentation
+    from dossier_resolution import CONFLICT_ANSWER, GENERATED_ANSWERS, _is_canonical_conclusion, assessment_coverage, resolve_presentation
 except ModuleNotFoundError:  # imported as tools.repair_person_hierarchy in tests
-    from tools.dossier_resolution import assessment_coverage, resolve_presentation
+    from tools.dossier_resolution import CONFLICT_ANSWER, GENERATED_ANSWERS, _is_canonical_conclusion, assessment_coverage, resolve_presentation
 
 try:
     import evidence_labels
@@ -34,7 +35,7 @@ except ModuleNotFoundError:
 
 ROOT = Path(__file__).resolve().parents[1]
 WEB = ROOT / "www"
-PRESENTATION_VERSION = "34"
+PRESENTATION_VERSION = "35"
 _PRIVACY_CACHE = None
 
 def _public_projection(value):
@@ -164,6 +165,17 @@ CSS += r"""
 .person-hierarchy .profile-diff-scroll{max-width:100%;max-height:60vh;min-height:350px;overflow:auto;overscroll-behavior-inline:contain;border:1px solid #d0dac9;border-radius:5px;background:#fffefa}.person-hierarchy .profile-update-diff{min-width:640px;background:#fffefa;color:#26372a;font:13px/1.5 ui-monospace,SFMono-Regular,Menlo,monospace}.person-hierarchy .profile-diff-header,.person-hierarchy .profile-diff-row{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr)}.person-hierarchy .profile-diff-header{position:sticky;top:0;z-index:1;border-bottom:1px solid #d0dac9;background:#edf3e8;color:#45634d;font:700 11px/1.4 var(--g-sans,Arial,sans-serif);letter-spacing:.04em;text-transform:uppercase}.person-hierarchy .profile-diff-header>span{padding:9px 12px}.person-hierarchy .profile-diff-header>span+span,.person-hierarchy .profile-diff-cell+.profile-diff-cell{border-left:1px solid #d0dac9}.person-hierarchy .profile-diff-cell{display:grid;grid-template-columns:3.1em minmax(0,1fr);gap:8px;min-height:1.5em;padding:3px 10px;white-space:pre-wrap;overflow-wrap:anywhere}.person-hierarchy .profile-diff-row+.profile-diff-row{border-top:1px solid #eef1eb}.person-hierarchy .profile-diff-line-number{color:#87948f;text-align:right;user-select:none}.person-hierarchy .profile-diff-text{min-width:0}.person-hierarchy .profile-diff-side-label{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}.person-hierarchy .profile-diff-row.is-removed .profile-diff-cell:first-child,.person-hierarchy .profile-diff-row.is-changed .profile-diff-cell:first-child{background:#f9e7e5;color:#7d2d2b}.person-hierarchy .profile-diff-row.is-added .profile-diff-cell:last-child,.person-hierarchy .profile-diff-row.is-changed .profile-diff-cell:last-child{background:#e4f3e8;color:#236541}.person-hierarchy .profile-diff-row.is-removed .profile-diff-cell:last-child,.person-hierarchy .profile-diff-row.is-added .profile-diff-cell:first-child{background:#f2f4f3;color:#9aa49f}.person-hierarchy .profile-diff-row.is-removed .profile-diff-cell:last-child .profile-diff-text,.person-hierarchy .profile-diff-row.is-added .profile-diff-cell:first-child .profile-diff-text{visibility:hidden}
 .person-hierarchy .profile-current-capture{margin:16px 0}.person-hierarchy .profile-current-capture summary{cursor:pointer;font-weight:650}.person-hierarchy .profile-capture-note{font-size:.82rem;color:#5c6b5c}
 .person-hierarchy .profile-update-panel .copy-wikitree{margin:8px 0;padding:8px 12px;border:1px solid #75936d;border-radius:5px;background:#eaf2df;color:#294d35;cursor:pointer}.person-hierarchy .profile-update-panel .copy-wikitree:focus-visible{outline:2px solid #315a43;outline-offset:2px}
+.person-hierarchy .dossier-lede a{overflow-wrap:anywhere}.person-hierarchy .dossier-lede-note{margin:10px 0 0;max-width:73ch;color:#5b6b5d;font-size:.92rem;line-height:1.55}
+.person-hierarchy .research-findings .finding-revised{margin:-4px 0 14px;color:#617064;font-size:.86rem}
+.person-hierarchy .finding-contents{margin:0 0 16px;padding:10px 14px;background:#f0f3e9;border-radius:6px;font-size:.86rem;max-width:74ch}.person-hierarchy .finding-contents ol{margin:6px 0 0;padding-left:22px}.person-hierarchy .finding-contents li{margin:3px 0}
+.person-hierarchy .finding-group-title{margin:24px 0 6px!important;font:600 1.12rem/1.3 var(--g-serif,Georgia,serif)!important;color:#304b37}.person-hierarchy .finding-group-intro{margin:0 0 8px;color:#617064;font-size:.86rem;max-width:74ch}
+.person-hierarchy .research-finding{margin:8px 0;border:1px solid #d3ddce;border-radius:7px;background:#fffefa;overflow:hidden;min-width:0}.person-hierarchy .research-finding[data-category="actions"]{border-left:3px solid #b29b52}.person-hierarchy .research-finding[data-category="summary"]{border-left:3px solid #477b65}
+.person-hierarchy .research-finding>summary .finding-title{font-weight:650}.person-hierarchy .research-finding>summary small{display:block;margin:4px 0 0;color:#617064;font-size:.82rem;line-height:1.5}.person-hierarchy .research-finding[open]>summary small{display:none}
+.person-hierarchy .finding-body{padding:6px 16px 14px;max-width:76ch;font-size:.97rem;line-height:1.65;overflow-wrap:anywhere;min-width:0}.person-hierarchy .finding-body>:first-child{margin-top:.4em}.person-hierarchy .finding-body pre{max-width:100%;overflow:auto;white-space:pre-wrap}
+.person-hierarchy .note-table-scroll{max-width:100%;overflow-x:auto;margin:1em 0}.person-hierarchy .note-table-scroll table{border-collapse:collapse;font-size:.86rem;min-width:28rem}.person-hierarchy .note-table-scroll th,.person-hierarchy .note-table-scroll td{border:1px solid #d0dacb;padding:6px 8px;text-align:left;vertical-align:top;overflow-wrap:normal}.person-hierarchy .note-table-scroll th{background:#edf2e8}
+.person-hierarchy .finding-note{color:#617064;font-size:.88rem}.person-hierarchy .family-scope-note{max-width:74ch;color:#5b6b5d;font-size:.88rem}.person-hierarchy .panel-purpose{margin:4px 0 12px;max-width:74ch;color:#4f604f;font-size:.9rem}
+.person-hierarchy .archive-original-set h4{margin:14px 0 4px;font-size:.88rem}
+@media(max-width:680px){.person-hierarchy .finding-body{padding:4px 12px 12px;font-size:.95rem}.person-hierarchy .research-finding>summary{padding:11px 12px}.person-hierarchy .finding-contents{padding:9px 11px}}
 @media(max-width:680px){.person-hierarchy .profile-update-panel{padding:13px}.person-hierarchy .profile-update-panel .profile-update-diff{min-width:680px;font-size:12px}.person-hierarchy .profile-diff-side-label{position:static;width:auto;height:auto;margin:0;overflow:visible;clip:auto;white-space:nowrap;grid-column:1/-1;color:#687771;font:700 10px/1.3 var(--g-sans,Arial,sans-serif);letter-spacing:.04em;text-transform:uppercase}.person-hierarchy .profile-diff-cell{grid-template-columns:3em minmax(0,1fr);gap:3px 7px}.person-hierarchy .profile-diff-cell .profile-diff-line-number{grid-column:1}.person-hierarchy .profile-diff-cell .profile-diff-text{grid-column:2;grid-row:2}.person-hierarchy .profile-update-panel textarea{min-height:12rem}}
 """
 ASSET = f"/assets/repair/person-hierarchy.css?v={PRESENTATION_VERSION}-{hashlib.sha256(CSS.encode()).hexdigest()[:10]}"
@@ -236,6 +248,26 @@ def _profile_update_panel(update: dict | None) -> str:
         for node in section.find_all(string=lambda value: value and "Needs updated on WikiTree" in value):
             node.replace_with(str(node).replace("Needs updated on WikiTree", "WikiTree profile and prepared draft"))
         section["class"] = list(dict.fromkeys((section.get("class") or []) + ["profile-comparison-panel"]))
+    heading = section.select_one(".candidate-section-heading")
+    if heading is not None:
+        for node in heading.find_all("p", recursive=False):
+            if node.get_text(" ", strip=True).startswith("Significance"):
+                node.decompose()
+        if update.get("pending", True):
+            kicker = heading.select_one(".kicker")
+            if kicker is not None:
+                kicker.string = "For WikiTree editors"
+        title = heading.select_one("h2")
+        if title is not None:
+            title.string = "Suggested update to the WikiTree profile" if update.get("pending", True) else "WikiTree profile text"
+        purpose = panel.new_tag("p", attrs={"class": "panel-purpose"})
+        purpose.string = ("This study has prepared revised text for the public WikiTree profile. WikiTree editors can compare it with the current profile and copy it; the research account above is the study's own."
+                          if update.get("pending", True) else
+                          "The prepared text for the public WikiTree profile, kept here so it can be compared with the current profile.")
+        heading.insert_after(purpose)
+    for summary in section.select("summary"):
+        if summary.get_text(" ", strip=True) == "Paste-ready revised profile":
+            summary.string = "Suggested profile text"
     if update.get("capture_fallback"):
         note = section.select_one(".workbench-audit")
         if note:
@@ -309,8 +341,12 @@ def _insert_profile_update_markup(text: str, markup: str) -> str:
     panel = BeautifulSoup(markup, "html.parser").select_one("#wikitree-update")
     if panel is None:
         return text
+    archive = soup.select_one("#archive-tools")
     overview = soup.select_one("#overview")
-    if overview is not None:
+    if archive is not None:
+        # Editors' material sits after the research and family blocks.
+        archive.insert_before(panel)
+    elif overview is not None:
         overview.insert_after(panel)
     else:
         main = soup.select_one("main")
@@ -594,13 +630,19 @@ def _format_date_value(value) -> str:
     value = str(value or "").strip()
     if value.casefold() in {"unknown", "not recorded", "not established", "n/a", "none"}:
         return ""
-    if re.fullmatch(r"\d{4}-\d{2}-\d{2}", value):
-        from datetime import date as _date
-        return _date.fromisoformat(value).strftime("%-d %B %Y")
-    qualified = re.fullmatch(r"(before|after|about|circa|c\.)\s+(\d{4}-\d{2}-\d{2})", value, re.I)
-    if qualified:
-        from datetime import date as _date
-        return f"{qualified.group(1)} {_date.fromisoformat(qualified.group(2)).strftime('%-d %B %Y')}"
+    # "1886-04-12" -> "12 April 1886"; "1886-04" -> "April 1886"; any
+    # qualifier ("c.", "before" ...) is kept exactly as recorded.
+    match = re.fullmatch(r"(?:(before|after|about|circa|c\.)\s+)?(\d{4})-(\d{2})(?:-(\d{2}))?", value, re.I)
+    if match and 1 <= int(match.group(3)) <= 12:
+        prefix, year, month, day = match.groups()
+        text = f"{calendar.month_name[int(month)]} {year}"
+        if day:
+            from datetime import date as _date
+            try:
+                text = _date(int(year), int(month), int(day)).strftime("%-d %B %Y")
+            except ValueError:
+                return value
+        return f"{prefix} {text}" if prefix else text
     return value
 
 
@@ -775,7 +817,7 @@ def _relation_reason(editorial: dict, relation: dict, group: str) -> str:
         return configured
     state = relation.get("status") or relation.get("tree_status") or "unassessed"
     if relation.get("tree_relationship") and state in {"unknown", "unmarked", "unassessed"}:
-        return "The family tree retains this link, but the available records have not been assessed as establishing this relationship."
+        return "From the family tree; not yet checked against records."
     if relation.get("basis") == "research_assessment":
         return "The maintained research assesses this relationship; the linked record and qualification explain what is established."
     return "The relationship is retained in the family model, but its documentary basis has not been resolved."
@@ -797,7 +839,7 @@ def _family_html(profile_id: str, dossier: dict, model: dict, index: dict, edito
                     values.append(item)
             groups.append((configured.get("key") or "family", configured.get("title") or "Family", values))
     else:
-        groups = [("spouses", "Partner", relations.get("spouses", [])), ("children", "Children", relations.get("children", [])), ("parents", "Parents", relations.get("parents", [])), ("siblings", "Collateral relatives", relations.get("siblings", []))]
+        groups = [("parents", "Parents", relations.get("parents", [])), ("spouses", "Spouse or partner", relations.get("spouses", [])), ("children", "Children", relations.get("children", [])), ("siblings", "Brothers and sisters", relations.get("siblings", []))]
     out = []
     for key, title, values in groups:
         if not values:
@@ -843,10 +885,16 @@ def _family_html(profile_id: str, dossier: dict, model: dict, index: dict, edito
             dates = _family_dates(relation, index)
             mark = '<span class="confirmed-mark" aria-label="Documented relationship">✓</span> ' if confirmed else ''
             previews.append(f'<span class="family-preview-person">{mark}{escape(name)}<small>{escape(dates)}</small></span>')
-        out.append(f'<details class="relation-group"><summary><span>{escape(title)} <small>{len(values)}</small></span><span class="group-preview">{"".join(previews)}</span></summary><div class="table-wrap"><table class="relation-table"><thead><tr><th>Person and dates</th><th>Relationship</th><th>Current assessment</th><th>Why this relationship is shown</th></tr></thead><tbody>{"".join(rendered)}</tbody></table></div></details>')
+        out.append(f'<details class="relation-group" data-group="{escape(str(key))}" open><summary><span>{escape(title)} <small>{len(values)}</small></span><span class="group-preview">{"".join(previews)}</span></summary><div class="table-wrap"><table class="relation-table"><thead><tr><th>Person and dates</th><th>Relationship</th><th>Current assessment</th><th>Why this relationship is shown</th></tr></thead><tbody>{"".join(rendered)}</tbody></table></div></details>')
     scope = editorial.get("family_scope_note")
     guide = EVIDENCE_GUIDE_LINK if out else ""
-    return (f'<p class="family-scope">{escape(scope)}</p>' if scope else "") + guide + "".join(out)
+    tree_only = any(
+        relation.get("tree_relationship") and str(relation.get("status") or relation.get("tree_status") or "unassessed") in {"unknown", "unmarked", "unassessed"}
+        for _, _, values in groups for relation in values if isinstance(relation, dict)
+    )
+    explain = ('<p class="family-scope-note">Unless a link is marked otherwise, the family links below come from the WikiTree family tree and have not yet been checked against original records.</p>'
+               if out and tree_only else "")
+    return (f'<p class="family-scope">{escape(scope)}</p>' if scope else "") + explain + guide + "".join(out)
 
 
 def _parent_comparison_html(editorial: dict, dossier: dict) -> str:
@@ -958,7 +1006,7 @@ def _evidence_questions(editorial: dict, rows: list[dict], source_by_record: dic
         record_count = len(evidence_rows)
         record_label = f" · {record_count} {'record' if record_count == 1 else 'records'}" if evidence_rows else ""
         out.append(f'<article class="question" id="question-{escape(qid)}"><h3>{escape(question.get("title") or "Research question")}</h3><p class="answer">{escape(question.get("answer") or "")}</p>{visible_reason}{related_html}{references}<details class="question-details"><summary>Evidence and qualifications{record_label}</summary><div class="disclosure-body">{detail_reason}{table}{extras}{dna_block}{limits}</div></details></article>')
-    return "".join(out) or '<p class="dossier-empty">No maintained question-and-argument layer is available for this dossier.</p>'
+    return "".join(out) or '<p class="dossier-empty">No research questions have been written up for this person yet.</p>'
 
 
 def _timeline_html(profile_id: str, model: dict, rows: list[dict], source_by_record: dict[str, str]) -> str:
@@ -1135,11 +1183,22 @@ _MARKDOWN_TAGS = {"a", "blockquote", "br", "code", "del", "em", "h1", "h2", "h3"
 _MARKDOWN_ATTRS = {"a": {"href", "title"}}
 
 
-def _safe_markdown_html(markdown_text: str, base_url: str) -> str:
-    """Parse Markdown and sanitise the resulting HTML without touching URLs."""
-    readable = re.sub(r"<ref(?:\s+[^>]*)?>(.*?)</ref>", r"\1", markdown_text or "", flags=re.I | re.S)
-    readable = re.sub(r"\[\[([A-Za-z]+-[0-9]+)\|([^\]]+)\]\]", lambda m: f"[{m.group(2)}](/people/{m.group(1).casefold()}.html)", readable)
-    readable = re.sub(r"\[\[([A-Za-z]+-[0-9]+)\]\]", lambda m: f"[{m.group(1)}](/people/{m.group(1).casefold()}.html)", readable)
+def _safe_markdown_html(markdown_text: str, base_url: str, current_page: str | None = None) -> str:
+    """Parse Markdown, sanitise the HTML and resolve every link for readers.
+
+    Relative links in research notes are resolved against ``base_url`` (the
+    note's folder).  A link to another person's findings goes to that
+    person's page; a link to anything not published in ``www/`` (or to a
+    person with no page) keeps its label as plain text.  Bare and backticked
+    WikiTree IDs become links when that person has a page.
+    """
+    if current_page is None:
+        owner = re.fullmatch(r"/research/([^/]+)/", base_url or "")
+        current_page = _person_page_href(owner.group(1)) if owner else ""
+    readable = re.sub(r"<!--.*?-->", "", markdown_text or "", flags=re.S)
+    readable = re.sub(r"<ref(?:\s+[^>]*)?>(.*?)</ref>", r"\1", readable, flags=re.I | re.S)
+    readable = re.sub(r"\[\[([A-Za-z][^\]|]*-[0-9]+)\|([^\]]+)\]\]", lambda m: f"[{m.group(2)}](/people/{m.group(1).strip().casefold()}.html)", readable)
+    readable = re.sub(r"\[\[([A-Za-z][^\]|]*-[0-9]+)\]\]", lambda m: f"[{m.group(1)}](/people/{m.group(1).strip().casefold()}.html)", readable)
     rendered = _MARKDOWN.render(readable)
     soup = BeautifulSoup(rendered, "html.parser")
     for tag in list(soup.find_all(True)):
@@ -1154,12 +1213,140 @@ def _safe_markdown_html(markdown_text: str, base_url: str) -> str:
             if attribute not in allowed:
                 del tag.attrs[attribute]
         if tag.name == "a":
-            href = str(tag.get("href") or "")
-            if href.lower().startswith(("javascript:", "data:", "vbscript:")):
+            target = _note_link_target(str(tag.get("href") or ""), base_url)
+            if not target or (current_page and target == current_page):
                 tag.unwrap()
             else:
-                tag["href"] = href if href.startswith("#") else urljoin(base_url, href)
+                tag["href"] = target
+    _link_profile_ids(soup, current_page or "")
     return str(soup)
+
+
+# --- Links inside research notes ------------------------------------------------
+
+_PERSON_PAGES: dict[str, str] | None = None
+_PROFILE_ID_TEXT = re.compile(r"(?<![\w/.#’'-])([A-Za-z][A-Za-z_'’]*-\d+)(?![\w-])")
+
+
+def _person_pages() -> dict[str, str]:
+    """Published person pages, keyed by casefolded WikiTree ID and alternate ID."""
+    global _PERSON_PAGES
+    if _PERSON_PAGES is None:
+        pages: dict[str, str] = {}
+        for row in _load_json(WEB / "data/people-index.json", []):
+            ident = str(row.get("id") or "")
+            href = str(row.get("html_url") or f"/people/{str(row.get('catalogue_id') or ident).casefold()}.html")
+            if not ident or not href.startswith("/people/") or not (WEB / href.lstrip("/")).exists():
+                continue
+            for value in [ident, *(row.get("alternate_ids") or [])]:
+                pages.setdefault(str(value).casefold(), href)
+        _PERSON_PAGES = pages
+    return _PERSON_PAGES
+
+
+def _person_page_href(profile_id: str) -> str:
+    """The page of a person, or '' when the site has no page for them."""
+    key = str(profile_id or "").strip().casefold()
+    if not key:
+        return ""
+    href = _person_pages().get(key)
+    if href:
+        return href
+    if re.fullmatch(r"[a-z0-9_'’-]+", key) and (WEB / "people" / f"{key}.html").exists():
+        return f"/people/{key}.html"
+    return ""
+
+
+def _note_link_target(href: str, base_url: str) -> str | None:
+    """Where a link written in a research note should point; None means text only."""
+    href = href.strip()
+    if not href:
+        return None
+    if href.startswith("#"):
+        return href
+    lowered = href.casefold()
+    if lowered.startswith(("http://", "https://", "mailto:")):
+        return href
+    if re.match(r"[a-z][a-z0-9+.-]*:", lowered):
+        return None
+    absolute = urljoin(base_url or "/", href)
+    path, _, fragment = absolute.partition("#")
+    path = unquote(path.split("?", 1)[0])
+    if ".." in path.split("/"):
+        return None
+    research = re.fullmatch(r"/research/([^/]+)/(?:findings\.md|presentation\.json)?", path)
+    if research:
+        return _person_page_href(research.group(1)) or None
+    person = re.fullmatch(r"/people/([^/]+)\.html", path)
+    if person:
+        target = _person_page_href(person.group(1))
+        return (target + (f"#{fragment}" if fragment else "")) if target else None
+    local = WEB / path.lstrip("/")
+    if path.endswith("/"):
+        local = local / "index.html"
+    if path.startswith("/") and local.is_file():
+        return absolute
+    return None
+
+
+def _link_profile_ids(soup: BeautifulSoup, current_page: str) -> None:
+    """Link WikiTree IDs written as plain or code text to the person's page."""
+    for code in list(soup.find_all("code")):
+        if code.find_parent(["a", "pre"]):
+            continue
+        value = code.get_text().strip()
+        if _PROFILE_ID_TEXT.fullmatch(value):
+            href = _person_page_href(value)
+            if href and href != current_page:
+                code.wrap(soup.new_tag("a", href=href))
+    for node in list(soup.find_all(string=True)):
+        if node.find_parent(["a", "code", "pre"]) or type(node).__name__ != "NavigableString":
+            continue
+        value = str(node)
+        pieces, last = [], 0
+        for match in _PROFILE_ID_TEXT.finditer(value):
+            href = _person_page_href(match.group(1))
+            if not href or href == current_page:
+                continue
+            pieces.append(value[last:match.start()])
+            link = soup.new_tag("a", href=href)
+            link.string = match.group(1)
+            pieces.append(link)
+            last = match.end()
+        if not pieces:
+            continue
+        pieces.append(value[last:])
+        for piece in pieces:
+            if piece == "":
+                continue
+            node.insert_before(piece if not isinstance(piece, str) else type(node)(piece))
+        node.extract()
+
+
+def _inline_markdown_html(markdown_text: str, base_url: str) -> str:
+    """One paragraph of Markdown as inline HTML (for the page's opening)."""
+    soup = BeautifulSoup(_safe_markdown_html(markdown_text, base_url), "html.parser")
+    paragraphs = soup.find_all("p", recursive=False)
+    if len(paragraphs) == 1 and len([node for node in soup.contents if str(node).strip()]) == 1:
+        return paragraphs[0].decode_contents()
+    return soup.get_text(" ", strip=True) and escape(soup.get_text(" ", strip=True))
+
+
+_WIKI_LINK_TEXT = re.compile(r"\[\[([^\]|]+)\|([^\]]+)\]\]|\[\[([^\]|]+)\]\]")
+
+
+def _inline_text_html(value: str) -> str:
+    """Escape plain text, turning ``[[ID|Name]]`` into the name (linked when a page exists)."""
+    out, last = [], 0
+    for match in _WIKI_LINK_TEXT.finditer(value or ""):
+        out.append(escape(value[last:match.start()]))
+        ident = (match.group(1) or match.group(3) or "").strip()
+        label = (match.group(2) or ident).strip()
+        href = _person_page_href(ident)
+        out.append(_a(href, label) if href else escape(label))
+        last = match.end()
+    out.append(escape((value or "")[last:]))
+    return "".join(out)
 
 
 def _biography_figure_html(profile_id: str, figure: dict) -> str:
@@ -1489,22 +1676,316 @@ def _research_note_anchor(path: str, title: str) -> str:
     return "research-note-" + hashlib.sha256((path.lstrip("/") + "|" + title).encode()).hexdigest()[:12]
 
 
-def _archive_html(profile_id: str, dossier: dict, editorial: dict, supplements: str = "", *, include_prepared_draft: bool = True) -> str:
-    findings, blocks = dossier.get("research_findings") or [], []
-    superseded = editorial.get("superseded_interpretations") or []
-    for finding in findings:
-        source_path = finding.get("source_path") or f"/research/{profile_id}/findings.md"
-        source_path = "/" + source_path.lstrip("/")
+_MONTH_NAMES = [name.casefold() for name in calendar.month_name]
+_ARCHIVAL_TITLE = re.compile(r"\s*(prior|superseded|withdrawn|assessment history|earlier (?:assessment|interpretation|reading)s?)\b", re.I)
+_FINDING_GROUPS = (
+    ("summary", "Summary of the research", ""),
+    ("additions", "Later additions", "Newest first. Each addition adds to the summary above; it does not replace it."),
+    ("sources", "What the records show", ""),
+    ("assessment", "Identity and family", ""),
+    ("notes", "Other research notes", ""),
+    ("actions", "Still open", "Questions the records have not yet answered, suggested next searches and suggested corrections."),
+)
+_FINDINGS_OPEN_BUDGET = 4000  # characters of findings shown before any section starts closed
+_FINDING_SHORT = 900          # a section this short is always shown open
+_FINDING_LONG = 3000          # a longer section starts closed (its heading and first sentence stay visible)
+
+
+def _finding_entries(profile_id: str, dossier: dict) -> list[dict]:
+    """Published findings sections in file order, each with one unique anchor.
+
+    The anchor of the first section with a given file and title is unchanged
+    (``_research_note_anchor``) so existing links still land; a later section
+    with the same title gets ``-2``, ``-3`` and so on.
+    """
+    entries, used = [], {}
+    for finding in dossier.get("research_findings") or []:
+        source_path = "/" + str(finding.get("source_path") or f"/research/{profile_id}/findings.md").lstrip("/")
         base_url = source_path if source_path.endswith("/") else source_path.rsplit("/", 1)[0] + "/"
-        for section in finding.get("sections", []):
-            title = section.get("title") or "Research note"
-            markdown_text = section.get("markdown") or ""
+        for section in finding.get("sections") or []:
+            markdown_text = str(section.get("markdown") or "")
             if not markdown_text.strip():
                 continue
-            category = section.get("category") or "research note"
-            rendered = _safe_markdown_html(markdown_text, base_url)
+            title = str(section.get("title") or "Research note")
             anchor = _research_note_anchor(source_path, title)
-            blocks.append(f'<details id="{anchor}"><summary>{escape(category.title())}: {escape(title)}</summary><div class="archive-copy">{rendered}<details class="archive-original"><summary>Original Markdown</summary><pre>{escape(markdown_text)}</pre></details></div></details>')
+            used[anchor] = used.get(anchor, 0) + 1
+            if used[anchor] > 1:
+                anchor = f"{anchor}-{used[anchor]}"
+            entries.append({
+                "title": title,
+                "category": str(section.get("category") or "notes").casefold(),
+                "markdown": markdown_text,
+                "base_url": base_url,
+                "anchor": anchor,
+                "updated": finding.get("updated"),
+                "archival": bool(_ARCHIVAL_TITLE.match(title)),
+            })
+    return entries
+
+
+def _title_date(title: str) -> tuple[int, int, int]:
+    """The date written in a section heading, for newest-first order."""
+    match = re.search(r"(\d{1,2})\s+([A-Za-z]+)\s+(\d{4})", title or "")
+    if match and match.group(2).casefold() in _MONTH_NAMES:
+        return int(match.group(3)), _MONTH_NAMES.index(match.group(2).casefold()), int(match.group(1))
+    match = re.search(r"(\d{4})-(\d{2})-(\d{2})", title or "")
+    if match:
+        return int(match.group(1)), int(match.group(2)), int(match.group(3))
+    match = re.search(r"([A-Za-z]+)\s+(\d{4})", title or "")
+    if match and match.group(1).casefold() in _MONTH_NAMES:
+        return int(match.group(2)), _MONTH_NAMES.index(match.group(1).casefold()), 0
+    return 0, 0, 0
+
+
+def _reader_date_text(value) -> str:
+    """'2026-10-07' (or a longer string starting with it) as '7 October 2026'."""
+    text = str(value or "").strip()
+    match = re.search(r"(\d{4})-(\d{2})-(\d{2})", text)
+    if match:
+        from datetime import date as _date
+        try:
+            return _date(int(match.group(1)), int(match.group(2)), int(match.group(3))).strftime("%-d %B %Y")
+        except ValueError:
+            return text
+    return text
+
+
+def _reader_title(title: str) -> str:
+    """A findings heading as readers see it: no internal batch IDs, no 'Current conclusion —' prefix."""
+    value = re.sub(r"\s*\bfmp-glasgow-[0-9a-f]+\b", "", title or "")
+    if re.fullmatch(r"(?i)\s*(current conclusion|conclusion|current answer)\s*", value):
+        return "Overall conclusion"
+    value = re.sub(r"(?i)^\s*current (?:conclusion|answer)\s*[—–:,-]\s*", "", value)
+    value = re.sub(r"\s{2,}", " ", value).strip(" —–-,:")
+    return (value[:1].upper() + value[1:]) if value else (title or "Research note")
+
+
+def _wrap_tables(html: str) -> str:
+    """Let wide tables scroll inside their own box on narrow screens."""
+    if "<table" not in html:
+        return html
+    soup = BeautifulSoup(html, "html.parser")
+    for table in soup.find_all("table"):
+        table.wrap(soup.new_tag("div", attrs={"class": "note-table-scroll"}))
+    return str(soup)
+
+
+def _findings_revised_text(dossier: dict) -> str:
+    from datetime import date as _date
+    best, raw = None, ""
+    for finding in dossier.get("research_findings") or []:
+        value = str(finding.get("updated") or "").strip()
+        if not value:
+            continue
+        raw = raw or value
+        match = re.search(r"(\d{4})-(\d{2})-(\d{2})", value)
+        parsed = None
+        if match:
+            try:
+                parsed = _date(int(match.group(1)), int(match.group(2)), int(match.group(3)))
+            except ValueError:
+                parsed = None
+        else:
+            year, month, day = _title_date(value)
+            if year and month and day:
+                parsed = _date(year, month, day)
+        if parsed and (best is None or parsed > best):
+            best = parsed
+    if best:
+        return best.strftime("%-d %B %Y")
+    return raw
+
+
+def _research_findings_html(profile_id: str, dossier: dict, editorial: dict, entries: list[dict]) -> str:
+    """The open 'What the research found' section built from published findings."""
+    shown = [entry for entry in entries if not entry["archival"]]
+    if not shown:
+        return ""
+    conclusions = [entry for entry in shown if entry["category"] == "conclusion"]
+    summary = [entry for entry in conclusions if _is_canonical_conclusion(entry["title"])]
+    if not summary and len(conclusions) == 1:
+        summary = conclusions
+    additions = [entry for entry in conclusions if entry not in summary]
+    additions = [entry for _, entry in sorted(enumerate(additions), key=lambda pair: (_title_date(pair[1]["title"]), pair[0]), reverse=True)]
+    grouped = {
+        "summary": summary,
+        "additions": additions,
+        "sources": [entry for entry in shown if entry["category"] == "sources"],
+        "assessment": [entry for entry in shown if entry["category"] == "assessment"],
+        "actions": [entry for entry in shown if entry["category"] == "actions"],
+    }
+    grouped["notes"] = [entry for entry in shown if entry["category"] not in {"conclusion", "sources", "assessment", "actions"}]
+    opening_markdown = str(editorial.get("opening_markdown") or "").strip()
+    budget = 0
+    blocks, contents = [], []
+    for key, heading, intro in _FINDING_GROUPS:
+        items = grouped.get(key) or []
+        if not items:
+            continue
+        group_title = "Two summaries" if key == "summary" and len(items) > 1 else heading
+        blocks.append(f'<h3 class="finding-group-title">{escape(group_title)}</h3>')
+        if key == "summary" and len(items) > 1:
+            blocks.append('<p class="finding-group-intro">Two overall summaries have been written and they disagree. Both are shown in full.</p>')
+        elif intro:
+            blocks.append(f'<p class="finding-group-intro">{escape(intro)}</p>')
+        for entry in items:
+            markdown_text = entry["markdown"]
+            note = ""
+            if key == "summary" and len(items) == 1 and opening_markdown and opening_markdown in markdown_text:
+                # The first paragraph already opens the page; show the rest here.
+                markdown_text = markdown_text.replace(opening_markdown, "", 1).strip()
+                if not markdown_text:
+                    note = '<p class="finding-note">This summary is given in full at the top of the page.</p>'
+            body = _wrap_tables(_safe_markdown_html(markdown_text, entry["base_url"])) if markdown_text else ""
+            plain = BeautifulSoup(body, "html.parser").get_text(" ", strip=True)
+            is_open = (key == "summary" or len(plain) <= _FINDING_SHORT
+                       or (budget < _FINDINGS_OPEN_BUDGET and len(plain) <= _FINDING_LONG))
+            if is_open:
+                budget += len(plain)
+            title = _reader_title(entry["title"])
+            preview = ""
+            if not is_open:
+                sentence = re.split(r"(?<=[.!?])\s", plain, maxsplit=1)[0]
+                sentence = sentence if len(sentence) <= 200 else sentence[:197].rsplit(" ", 1)[0] + "…"
+                preview = f'<small>{escape(sentence)}</small>'
+            contents.append(f'<li><a href="#{escape(entry["anchor"])}">{escape(title)}</a></li>')
+            blocks.append(
+                f'<details class="research-finding" id="{escape(entry["anchor"])}" data-category="{escape(key)}"{" open" if is_open else ""}>'
+                f'<summary><span class="finding-title">{escape(title)}</span>{preview}</summary>'
+                f'<div class="finding-body">{note}{body}</div></details>'
+            )
+    revised = _findings_revised_text(dossier)
+    revised_html = f'<p class="finding-revised">These research notes were last revised on {escape(revised)}.</p>' if revised else ""
+    contents_html = (f'<nav class="finding-contents" aria-label="Research topics"><strong>Topics</strong><ol>{"".join(contents)}</ol></nav>'
+                     if len(contents) > 4 else "")
+    return (f'<section id="research-findings" class="dossier-section research-findings"><h2>What the research found</h2>'
+            f'{revised_html}{contents_html}{"".join(blocks)}</section>')
+
+
+def _connected_pages_html(profile_id: str, dossier: dict) -> str:
+    """Hook for the 'Connected pages' block (family or study page, places,
+    source library, Latest findings).  Another lane builds the index it will
+    read; until then it renders nothing."""
+    return ""
+
+
+# --- The opening of the page -----------------------------------------------------
+
+_NUMBER_WORDS = ("no", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve")
+
+
+def _date_phrase(item: dict) -> str:
+    """A recorded date as words: 'on 16 September 1871', 'in 1856', 'about 1854', 'before 1760'."""
+    if not isinstance(item, dict) or item.get("qualifier"):
+        return ""
+    raw = str(item.get("display_date") or item.get("date") or "").strip()
+    raw = re.sub(r"\s*\((?:estimated|est\.?)\)\s*$", "", raw, flags=re.I)
+    match = re.fullmatch(r"(?:(c\.|circa|about|abt\.?|before|bef\.?|after|aft\.?)\s*)?(\d{4})(?:-(\d{2}))?(?:-(\d{2}))?", raw, re.I)
+    if not match:
+        return ""
+    prefix = {"c": "about", "circa": "about", "abt": "about", "bef": "before", "aft": "after"}.get(
+        (match.group(1) or "").casefold().rstrip("."), (match.group(1) or "").casefold().rstrip("."))
+    status = str(item.get("status") or "").casefold()
+    if not prefix and status in {"before", "after"}:
+        prefix = status
+    elif not prefix and status in {"estimated", "uncertain"}:
+        prefix = "about"
+    year, month, day = match.group(2), match.group(3), match.group(4)
+    month_name = calendar.month_name[int(month)] if month and 1 <= int(month) <= 12 else ""
+    if day and month_name:
+        words = f"{int(day)} {month_name} {year}"
+    elif month_name:
+        words = f"{month_name} {year}"
+    else:
+        words = year
+    if prefix:
+        return f"{prefix} {words}"
+    return f"on {words}" if day and month_name else f"in {words}"
+
+
+def _place_phrase(place) -> str:
+    value = str(place or "").strip().rstrip(" .")
+    if not value or "withheld" in value.casefold() or "/" in value:
+        return ""
+    return f"in {value}"
+
+
+def _join_words(items: list[str]) -> str:
+    items = [item for item in items if item]
+    if len(items) <= 1:
+        return "".join(items)
+    return ", ".join(items[:-1]) + " and " + items[-1]
+
+
+def _intro_relatives(dossier: dict, group: str) -> list[dict]:
+    rows = (dossier.get("relationships") or {}).get(group) or []
+    kept = []
+    for row in rows:
+        if not isinstance(row, dict):
+            continue
+        status = str(row.get("status") or "").casefold()
+        if status == "superseded" or row.get("display") in {"alternative", "proposed"} or row.get("hypothesis_status") == "open":
+            continue
+        kept.append(row)
+    return kept
+
+
+def _relative_name_html(row: dict) -> str:
+    name = str(row.get("name") or "").strip()
+    if not name or "withheld" in name.casefold():
+        return ""
+    href = _person_page_href(str(row.get("id") or ""))
+    return _a(href, name) if href else escape(name)
+
+
+def _tree_introduction_html(dossier: dict, birth: dict, death: dict, birth_place, death_place) -> str:
+    """Plain sentences built only from the dates, places and relatives on the page."""
+    name = escape(str(dossier.get("name") or dossier.get("id") or "This person"))
+    born = " ".join(part for part in (_date_phrase(birth), _place_phrase(birth_place)) if part)
+    died = " ".join(part for part in (_date_phrase(death), _place_phrase(death_place)) if part)
+    if born and died:
+        sentences = [f"{name} was born {born}{',' if ',' in born else ''} and died {died}."]
+    elif born:
+        sentences = [f"{name} was born {born}."]
+    elif died:
+        sentences = [f"{name} died {died}."]
+    else:
+        sentences = [f"No birth or death date is recorded for {name}."]
+    parts = []
+    parents = [value for value in (_relative_name_html(row) for row in _intro_relatives(dossier, "parents")) if value]
+    if parents:
+        parts.append(f"{_join_words(parents)} as {'parents' if len(parents) > 1 else 'a parent'}")
+    spouses = [value for value in (_relative_name_html(row) for row in _intro_relatives(dossier, "spouses")) if value]
+    if spouses:
+        parts.append(f"{_join_words(spouses)} as {'spouses' if len(spouses) > 1 else 'spouse'}")
+    children = len(_intro_relatives(dossier, "children"))
+    if children:
+        count = _NUMBER_WORDS[children] if children < len(_NUMBER_WORDS) else str(children)
+        parts.append(f"{count} {'child' if children == 1 else 'children'}")
+    if parts:
+        sentences.append(f"This page lists {_join_words(parts)}.")
+    return " ".join(sentences)
+
+
+def _archive_html(profile_id: str, dossier: dict, editorial: dict, supplements: str = "", *, include_prepared_draft: bool = True, findings_shown: bool = False) -> str:
+    """Original notes, replaced interpretations, automated comparisons and data downloads.
+
+    With ``findings_shown`` the published findings are already on the page
+    (``_research_findings_html``): only replaced (superseded) sections are
+    rendered here, with the notes as originally written kept as plain text.
+    """
+    entries = _finding_entries(profile_id, dossier)
+    superseded = editorial.get("superseded_interpretations") or []
+    blocks, originals = [], []
+    for entry in entries:
+        markdown_text = entry["markdown"]
+        original = re.sub(r"<!--.*?-->", "", markdown_text, flags=re.S).strip()
+        if findings_shown and not entry["archival"]:
+            originals.append(f'<h4>{escape(entry["title"])}</h4><pre>{escape(original)}</pre>')
+            continue
+        rendered = _wrap_tables(_safe_markdown_html(markdown_text, entry["base_url"]))
+        category = "Replaced interpretation" if entry["archival"] else (entry["category"] or "research note").title()
+        blocks.append(f'<details id="{entry["anchor"]}"><summary>{escape(category)}: {escape(entry["title"])}</summary><div class="archive-copy">{rendered}<details class="archive-original"><summary>Original text of this note</summary><pre>{escape(original)}</pre></details></div></details>')
     update = dossier.get("wikitree_update") or dossier.get("wikitree_comparison") or {}; draft = update.get("draft_wikitext") or update.get("proposed_wikitext") or ""
     automated = dossier.get("potential_parentage") or {}
     reviewed_candidates = {c["score_profile_id"]: c for c in editorial.get("parent_candidates", []) if c.get("score_profile_id")}
@@ -1514,7 +1995,7 @@ def _archive_html(profile_id: str, dossier: dict, editorial: dict, supplements: 
         verdict = f' · Reviewed: {reviewed["assessment"]}' if reviewed else ''
         candidates.append(f'{candidate.get("name") or candidate.get("id")}: {candidate.get("score", "—")}/100 · Stored classification: {candidate.get("classification") or "automated lead"}{verdict}')
     raw_json = json.dumps({key: dossier.get(key) for key in ("id", "vitals", "relationships", "claims", "research_assessments", "shared_relationship_assertions", "relationship_history")}, ensure_ascii=False, indent=2)
-    parts = ['<p class="archive-note">This material is retained for audit and future research. It is not a second current conclusion. Imported values, automated comparisons and raw exports do not override the reviewed presentation above.</p>']
+    parts = ['<p class="archive-note">The material the page is built from: research notes as originally written, earlier interpretations that have been replaced, automated comparisons and data downloads. The account above is the current one; nothing here overrides it.</p>']
     if supplements:
         parts.append(supplements)
     editorial_corrections = editorial.get("editorial_corrections") or []
@@ -1533,12 +2014,13 @@ def _archive_html(profile_id: str, dossier: dict, editorial: dict, supplements: 
             unaffected = item.get("unaffected") or "Other findings are not changed by this correction."
             correction_blocks.append(f'<article id="{escape(anchor)}"><p><strong>{escape(item.get("label") or "Correction")}</strong></p><p><span class="task-label">Rejected interpretation</span> {escape(rejected)}</p><p><span class="task-label">Operative correction</span> {escape(operative)}</p><p><span class="task-label">Unaffected</span> {escape(unaffected)}</p><p class="relation-note">{escape(item.get("source") or "Source not stated")}</p></article>')
         parts.append('<details><summary>Resolved corrections and editorial issues</summary><div class="archive-body">' + "".join(correction_blocks) + '</div></details>')
-    if blocks: parts.append('<details><summary>Research notes and earlier assessments</summary><div class="archive-body">' + "".join(blocks) + '</div></details>')
+    if blocks: parts.append('<details><summary>' + ("Replaced interpretations" if findings_shown else "Research notes and earlier assessments") + '</summary><div class="archive-body">' + "".join(blocks) + '</div></details>')
+    if originals: parts.append('<details class="archive-original-set"><summary>Research notes as originally written</summary><div class="archive-copy">' + "".join(originals) + '</div></details>')
     if candidates: parts.append('<details><summary>Automated parent comparison (research aid, not a recommendation)</summary><div class="archive-copy"><p>Stored scores are preserved for audit only. They are not probabilities or genealogical evidence, and a reviewed exclusion remains excluded.</p><ul>' + "".join(f'<li>{escape(line)}</li>' for line in candidates) + '</ul></div></details>')
     if draft and include_prepared_draft: parts.append(f'<details><summary>Prepared WikiTree copy/export</summary><div class="archive-copy"><button class="copy-wikitree" data-copy-wikitree="wikitree-export">Copy WikiTree text</button><textarea id="wikitree-export" aria-label="Original WikiTree export" rows="24" readonly>{escape(draft)}</textarea></div></details>')
     slug = str(dossier.get("catalogue_id") or profile_id).casefold()
     parts.append(f'<details><summary>Research data and downloads</summary><div class="archive-copy"><p><a href="/people/{escape(slug)}.json">Person data (JSON)</a> · <a href="/people/{escape(slug)}.network.json">Family network</a></p><pre class="archive-json">{escape(raw_json)}</pre></div></details>')
-    return '<details id="archive-tools" class="dossier-archive"><summary><span>Earlier notes and research tools<small>Earlier assessments, imports, comparisons and exports</small></span></summary><div class="archive-body">' + "".join(parts) + '</div></details>'
+    return '<details id="archive-tools" class="dossier-archive"><summary><span>Original notes and downloads<small>Notes as written, replaced interpretations, comparisons and data exports</small></span></summary><div class="archive-body">' + "".join(parts) + '</div></details>'
 
 
 def render_person_dossier(profile_id: str) -> str:
@@ -1593,7 +2075,9 @@ def render_person_dossier(profile_id: str) -> str:
     profile_update = _profile_update_data(profile_id, dossier)
     profile_update_panel = _profile_update_panel(profile_update)
     opening = editorial.get("opening") or ""
-    position = editorial.get("position") or {"answer": "No maintained assessment is recorded.", "points": []}
+    position = editorial.get("position") or {"answer": "", "points": []}
+    finding_entries = _finding_entries(profile_id, dossier)
+    has_findings = any(not entry["archival"] for entry in finding_entries)
     def fact_value(date_value, place_value):
         return date_value + (f" · {place_value}" if place_value else "")
     fact_entries = [("Birth", fact_value(birth, birth_place)), ("Death", fact_value(death, death_place))]
@@ -1602,12 +2086,13 @@ def render_person_dossier(profile_id: str) -> str:
     if editorial.get("principal_locality") or birth_place or death_place:
         fact_entries.append(("Locality", editorial.get("principal_locality") or birth_place or death_place))
     if assessment_date:
-        fact_entries.append(("Assessment", str(assessment_date)))
+        fact_entries.append(("Last reviewed", _reader_date_text(assessment_date)))
     facts = ''.join(f'<div class="dossier-fact"><strong>{escape(label)}</strong><span>{escape(str(value))}</span></div>' for label, value in fact_entries if value)
     slug = str(dossier.get("catalogue_id") or profile_id).casefold()
     family_anchor = _safe_slug(editorial.get("family_section") or "family") if authored else "family"
-    actions = ([ _a(wiki, "View on WikiTree", True) ] if wiki else []) + [_a(f"/people/{slug}.html#{family_anchor}", "Explore family"), _a("#archive-tools", "Earlier notes and downloads")]
     family_body = _family_html(dossier.get("id") or profile_id, dossier, model, index, editorial, source_by_record)
+    has_relatives = "relation-table" in family_body
+    actions = ([ _a(wiki, "View on WikiTree", True) ] if wiki else []) + ([_a(f"/people/{slug}.html#{family_anchor}", "Explore family")] if has_relatives else []) + [_a("#archive-tools", "Original notes and downloads")]
     parent_body = _parent_comparison_html(editorial, dossier)
     evidence_body = _evidence_questions(editorial, rows, source_by_record)
     timeline_body = _timeline_html(dossier.get("id") or profile_id, model, rows, source_by_record)
@@ -1619,28 +2104,47 @@ def render_person_dossier(profile_id: str) -> str:
     has_research = bool(editorial.get("research_tasks") or editorial.get("completed_searches"))
     has_sources = bool(sources)
     resolution = editorial.get("resolution") or {}
+    state = resolution.get("state")
+    answer = str(position.get("answer") or "").strip()
+    findings_base = f"/research/{profile_id}/"
     state_note = ""
-    if resolution.get("state") == "unmapped":
-        state_note = '<p class="relation-note assessment-state">Research is available, but no publication-safe conclusion has yet been resolved.</p>'
-    elif resolution.get("state") == "conflict":
-        state_note = '<p class="relation-note assessment-state">Assessment status: maintained research conflicts; the issue is intentionally unresolved.</p>'
-    elif resolution.get("state") == "none":
-        state_note = '<p class="relation-note assessment-state">Assessment status: no maintained assessment is present in the published research model.</p>'
+    opening_markdown = str(editorial.get("opening_markdown") or "")
+    if opening and opening_markdown:
+        lede_html = _inline_markdown_html(opening_markdown, findings_base)
+    elif opening or (answer and answer not in GENERATED_ANSWERS):
+        lede_html = _inline_text_html(opening or answer)
+    else:
+        lede_html = ""
+    if not lede_html:
+        # No written summary: introduce the person from the family tree data
+        # already on this page, and say plainly what the page holds.
+        lede_html = _tree_introduction_html(dossier, model_vitals.get("birth") or vitals.get("birth") or {},
+                                            model_vitals.get("death") or vitals.get("death") or {}, birth_place, death_place)
+        if state == "conflict":
+            state_note = '<p class="dossier-lede-note">Two summaries of this person\'s research disagree. Both are shown below.</p>'
+        elif has_findings:
+            state_note = '<p class="dossier-lede-note">Research notes are recorded below; an overall summary has not been written yet.</p>'
+        else:
+            state_note = '<p class="dossier-lede-note">This page shows what the family tree records; no separate research has been written for this person yet.</p>'
+    elif state == "conflict" and answer != CONFLICT_ANSWER:
+        state_note = '<p class="dossier-lede-note">One question is deliberately left open: the records found so far support more than one explanation.</p>'
     section_nav = '<a href="#overview">Overview</a>'
     toc_nav = '<a href="#overview">Overview</a>'
-    if profile_update_panel:
-        section_nav += '<a href="#wikitree-update">WikiTree comparison</a>'
-        toc_nav += '<a href="#wikitree-update">WikiTree comparison</a>'
-    summary = opening or str(position.get("answer") or "")
+    summary = opening or answer
     guide_html = ""
     if guide and not compact:
         guide_html = '<div class="reading-guide-intro"><p>Choose a question below; open its full evidence.</p><p><strong>Main hypothesis:</strong> ' + escape(str(guide.get("hypothesis") or "")) + '</p><p><strong>Current answer:</strong> ' + escape(str(guide.get("current_answer") or "")) + '</p><div class="reading-guide-actions" data-reading-controls hidden><button type="button" data-reading-expand>Expand all</button><button type="button" data-reading-collapse>Collapse all</button></div><noscript><p>JavaScript is disabled; open linked sections manually to reveal their evidence.</p></noscript></div>'
-    overview_title = "What we know" if compact else "Biography and research notes"
+    first_name = next((word for word in re.split(r"\s+", str(name)) if re.fullmatch(r"[A-Za-zÀ-ÿ'’-]{2,}", word)), "")
+    overview_title = "What we know" if compact else (f"About {first_name}" if first_name else "About this person")
     overview_facts = "" if compact else f'<div class="dossier-facts">{facts}</div>'
     journey = _account_journey(guide.get("journey")) if compact else ""
-    sections = [f'<section id="overview" class="dossier-section"><h2>{overview_title}</h2><p class="dossier-lede">' + escape(summary) + '</p>' + guide_html + state_note + overview_facts + journey + '</section>']
-    if profile_update_panel:
-        sections.append(profile_update_panel)
+    sections = [f'<section id="overview" class="dossier-section"><h2>{escape(overview_title)}</h2><p class="dossier-lede">' + lede_html + '</p>' + state_note + guide_html + overview_facts + journey + '</section>']
+    connected = _connected_pages_html(profile_id, dossier)
+    if connected:
+        sections.append(connected)
+        section_nav += '<a href="#connected-pages">Connected pages</a>'
+        toc_nav += '<a href="#connected-pages">Connected pages</a>'
+    findings_html = "" if compact else _research_findings_html(profile_id, dossier, editorial, finding_entries)
     used_ids = {"overview", "family", "evidence", "parent-candidates", "timeline", "research", "sources", "archive-tools", "full-research", "record-trail"}
     if compact:
         account_nav = {item["id"]: item.get("nav_title") or item["title"] for item in account_sections}
@@ -1723,9 +2227,14 @@ def render_person_dossier(profile_id: str) -> str:
                 supplements.append(f'<details id="{ident}" class="supporting-register"><summary>{title}</summary><div class="archive-copy">{body}</div></details>')
         has_family = has_evidence = has_timeline = has_research = False
         parent_body = ""
+    if findings_html:
+        section_nav += '<a href="#research-findings">Research</a>'; toc_nav += '<a href="#research-findings">What the research found</a>'
+        sections.append(findings_html)
     if has_family:
         section_nav += '<a href="#family">Family</a>'; toc_nav += '<a href="#family">Family and relationships</a>'
         sections.append(f'<section id="family" class="dossier-section"><h2>Family and relationships</h2>{family_body}</section>')
+    elif not authored and not compact:
+        sections.append('<section id="family" class="dossier-section"><h2>Family and relationships</h2><p class="dossier-empty">No family members are recorded for this person in the tree.</p></section>')
     if has_evidence:
         section_nav += '<a href="#evidence">Evidence</a>'; toc_nav += '<a href="#evidence">Evidence and reasoning</a>'
         sections.append(f'<section id="evidence" class="dossier-section"><h2>Evidence and reasoning</h2>{evidence_body}</section>')
@@ -1741,8 +2250,15 @@ def render_person_dossier(profile_id: str) -> str:
     if has_sources:
         section_nav += '<a href="#sources">Sources</a>'; toc_nav += '<a href="#sources">Sources</a>'
         source_note = _safe_markdown_html(str(editorial.get("source_note_markdown") or ""), f"/research/{profile_id}/")
-        sections.append(f'<section id="sources" class="dossier-section"><h2>Sources</h2>{source_note}<details class="section-details"><summary><span>Browse {len(sources)} source records<small>References and source limitations</small></span></summary>{sources_body}</details></section>')
-    archive_title = "Earlier notes and tools" if compact else "Archive and tools"
+        only_wikitree = len(sources) == 1 and "wikitree.com" in str(sources[0].get("url") or "").casefold()
+        browse = ("The only source so far is the WikiTree profile itself" if only_wikitree
+                  else f"Browse {len(sources)} source {'record' if len(sources) == 1 else 'records'}")
+        sections.append(f'<section id="sources" class="dossier-section"><h2>Sources</h2>{source_note}<details class="section-details"><summary><span>{browse}<small>References and source limitations</small></span></summary>{sources_body}</details></section>')
+    if profile_update_panel:
+        sections.append(profile_update_panel)
+        section_nav += '<a href="#wikitree-update">WikiTree update</a>'
+        toc_nav += '<a href="#wikitree-update">Suggested WikiTree update</a>'
+    archive_title = "Original notes and downloads"
     section_nav += f'<a href="#archive-tools">{archive_title}</a>'; toc_nav += f'<a href="#archive-tools">{archive_title}</a>'
     locality = editorial.get("principal_locality") or birth_place or death_place or ""
     life = " – ".join(value for value in (str(birth), str(death)) if value != "Date not established") or "Dates not established"
@@ -1756,8 +2272,9 @@ def render_person_dossier(profile_id: str) -> str:
     locality_href = editorial.get("principal_locality_href") or ""
     locality_value = _a(locality_href, str(locality)) if locality and locality_href else escape(str(locality))
     locality_html = f'<p class="dossier-locality">{locality_value}</p>' if locality else ""
-    assessment_meta = f'<span>Research assessment: <time>{escape(str(assessment_date))}</time></span>' if assessment_date else ""
-    identity = f'<p class="kicker">Biography · {escape(profile_id)}</p><h1>{escape(name)}</h1><p class="dossier-life">{escape(life)}</p>{locality_html}'
+    assessment_meta = f'<span>Research last reviewed <time>{escape(_reader_date_text(assessment_date))}</time></span>' if assessment_date else ""
+    kicker = f'{"Researched biography" if (has_findings or authored or compact) else "WikiTree profile"} · {profile_id}'
+    identity = f'<p class="kicker">{escape(kicker)}</p><h1>{escape(name)}</h1><p class="dossier-life">{escape(life)}</p>{locality_html}'
     meta_html = f'<div class="dossier-meta">{assessment_meta}{DOSSIER_GUIDE_META}</div>'
     actions_html = f'<div class="dossier-actions">{"".join(actions)}</div>'
     header = identity + meta_html + actions_html
@@ -1766,7 +2283,7 @@ def render_person_dossier(profile_id: str) -> str:
         layout_attribute = ' data-reading-layout="compact"'
         actions_html = f'<div class="dossier-actions">{"".join(actions[:-1])}</div>'
         if guide.get("identity_kicker"):
-            identity = identity.replace(f'Biography · {escape(profile_id)}', escape(str(guide["identity_kicker"])))
+            identity = identity.replace(escape(kicker), escape(str(guide["identity_kicker"])))
         finding = '<div class="header-finding"><span>Current finding</span>' + _safe_markdown_html(str(guide["header_finding"]), f"/research/{profile_id}/") + '</div>' if guide.get("header_finding") else ''
         header = f'<div class="dossier-identity">{identity}{finding}{actions_html}' + ('' if notebook else meta_html) + '</div>' + _header_record_html(profile_id, editorial.get("header_record") or {})
         if isinstance(guide.get("primary_nav"), list):
@@ -1780,7 +2297,7 @@ def render_person_dossier(profile_id: str) -> str:
         # Move the original controls intact; existing IDs and handlers survive.
         script += '''<script>(function(){function place(){var target=document.querySelector("[data-reading-tools]"),context=document.getElementById("r-context");if(!target||!context)return false;target.hidden=false;if(!target.contains(context))target.appendChild(context);return true;}function init(){if(place())return;var observer=new MutationObserver(function(){if(place())observer.disconnect();});observer.observe(document.getElementById("g-page")||document.body,{childList:true,subtree:true});}if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",init);else init();})();</script>'''
     admin = f'<div class="study-admin">{meta_html}</div>' if notebook else ''
-    return f'''<nav class="crumb"><a href="/catalogue/">People</a> / {escape(name)}</nav><article class="person-dossier-readable" data-dossier-presentation="{PRESENTATION_VERSION}"{layout_attribute}><header class="dossier-header">{header}</header><nav class="dossier-nav" aria-label="On this page">{section_nav}</nav><div class="dossier-layout"><aside class="dossier-toc" aria-label="On this page">{toc_nav}</aside><div class="dossier-reading">{"".join(sections)}{reader_tools}{admin}{_archive_html(profile_id, dossier, editorial, "".join(supplements), include_prepared_draft=not bool(profile_update_panel))}</div></div></article>{script}'''
+    return f'''<nav class="crumb"><a href="/catalogue/">People</a> / {escape(name)}</nav><article class="person-dossier-readable" data-dossier-presentation="{PRESENTATION_VERSION}"{layout_attribute}><header class="dossier-header">{header}</header><nav class="dossier-nav" aria-label="On this page">{section_nav}</nav><div class="dossier-layout"><aside class="dossier-toc" aria-label="On this page">{toc_nav}</aside><div class="dossier-reading">{"".join(sections)}{reader_tools}{admin}{_archive_html(profile_id, dossier, editorial, "".join(supplements), include_prepared_draft=not bool(profile_update_panel), findings_shown=bool(findings_html))}</div></div></article>{script}'''
 
 
 def _ensure_unified_person_shell(soup: BeautifulSoup, profile_id: str) -> BeautifulSoup:

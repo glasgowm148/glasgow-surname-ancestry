@@ -41,7 +41,9 @@ class DossierCleanupTests(unittest.TestCase):
                     self.assertNotIn("open", details.attrs)
                 groups = soup.select("#family details.relation-group")
                 self.assertTrue(groups)
-                self.assertTrue(all("open" not in group.attrs for group in groups))
+                # Site audit S2-08: family groups are open so relatives are
+                # visible and linked without a click (was: all closed).
+                self.assertTrue(all("open" in group.attrs for group in groups))
 
     def test_local_source_related_and_parent_links_resolve_in_main(self):
         for slug in SLUGS:
@@ -142,6 +144,11 @@ class DossierCleanupTests(unittest.TestCase):
         self.assertLess(timeline_ids.index("timeline-administration-thomas-1870"), timeline_ids.index("timeline-marriage-sarah-1885"))
 
         mary_elder = self.page("glasgow-3167")
+        # The WikiTree editing panel quotes the live WikiTree biography, which
+        # may still carry the superseded wording that the prepared draft fixes;
+        # it is editors' material, not the page's research account.
+        for panel in mary_elder.select("#wikitree-update"):
+            panel.decompose()
         visible = self.text(mary_elder.select_one(".person-dossier-readable"))
         self.assertIn("Samuel Elder civil birth return", visible)
         self.assertIn("original register records Samuel Elder", visible)

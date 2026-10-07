@@ -12,6 +12,11 @@ try:
 except ModuleNotFoundError:
     from tools.catalogue_field_status import field_statuses
 
+try:
+    from dossier_resolution import GENERATED_ANSWERS
+except ModuleNotFoundError:
+    from tools.dossier_resolution import GENERATED_ANSWERS
+
 
 ROOT = Path(__file__).resolve().parents[1]
 WEB = ROOT / "www"
@@ -39,7 +44,7 @@ def biography_text(dossier: dict) -> str:
     values = [presentation.get("opening")]
     position = presentation.get("position") or {}
     answer = position.get("answer")
-    if answer and not str(answer).startswith("Research is present, but no maintained conclusion"):
+    if answer and str(answer).strip() not in GENERATED_ANSWERS:
         values.append(answer)
     values.extend(
         point for point in (position.get("points") or []) if isinstance(point, str)

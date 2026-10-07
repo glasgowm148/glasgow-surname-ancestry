@@ -11,19 +11,61 @@ from copy import deepcopy
 import re
 
 
+# Reader sentence for two overall conclusions that disagree.  Search and
+# other consumers use it to recognise a generated sentence, not research text.
+CONFLICT_ANSWER = "Two summaries of this person's research disagree. Both are shown below."
+# Former generated sentences, kept so consumers can ignore stale stored copies.
+LEGACY_GENERATED_ANSWERS = (
+    "Research is present, but no maintained conclusion has yet been resolved for publication.",
+    "No maintained assessment is recorded.",
+    "Maintained assessments conflict and require editorial reconciliation.",
+)
+GENERATED_ANSWERS = (CONFLICT_ANSWER, *LEGACY_GENERATED_ANSWERS)
+
+_WIKI_LINK = re.compile(r"\[\[([^\]|]+)\|([^\]]+)\]\]|\[\[([^\]|]+)\]\]")
+_MONTHS = r"January|February|March|April|May|June|July|August|September|October|November|December"
+
+
 def _plain(markdown: str) -> str:
-    text = re.sub(r"!?(\[)([^\]]+)(\])\([^)]*\)", r"\2", markdown or "")
+    text = _WIKI_LINK.sub(lambda m: (m.group(2) or m.group(3) or "").strip(), markdown or "")
+    text = re.sub(r"<!--.*?-->", " ", text, flags=re.S)
+    text = re.sub(r"!?(\[)([^\]]+)(\])\([^)]*\)", r"\2", text)
     text = re.sub(r"<[^>]+>", " ", text)
     text = re.sub(r"[`*_#]", "", text)
     text = re.sub(r"\s+", " ", text).strip()
     return text
 
 
-def _summary(markdown: str) -> str:
+def _is_label_paragraph(paragraph: str) -> bool:
+    """True for a heading, table, date line or log label that cannot open a page."""
+    stripped = re.sub(r"<!--.*?-->", "", paragraph, flags=re.S).strip()
+    if not stripped:
+        return True
+    if stripped.startswith(("#", "|", ">")) or re.match(r"(?i)(reviewed|last updated|updated)\s*:", stripped):
+        return True
+    plain = _plain(stripped)
+    # "Collateral update, 13 August 2026" and similar labels: short, dated and
+    # not a sentence.
+    if len(plain) < 90 and re.search(rf"\b({_MONTHS})\b|\b\d{{4}}-\d{{2}}-\d{{2}}\b", plain) and not plain.endswith((".", "?", "!")):
+        return True
+    return False
+
+
+def _summary_markdown(markdown: str) -> str:
+    """The first paragraph of a conclusion that reads as a sentence, as Markdown."""
     paragraphs = [p.strip() for p in re.split(r"\n\s*\n", markdown or "") if p.strip()]
-    if not paragraphs:
-        return ""
-    return _plain(paragraphs[0])
+    for paragraph in paragraphs:
+        if _is_label_paragraph(paragraph):
+            continue
+        if re.match(r"\s*([-*+]|\d+\.)\s", paragraph):
+            # A list is shown in full below; it is not an opening sentence.
+            continue
+        return re.sub(r"<!--.*?-->", "", paragraph, flags=re.S).strip()
+    return ""
+
+
+def _summary(markdown: str) -> str:
+    return _plain(_summary_markdown(markdown))
 
 
 def current_findings(dossier: dict) -> list[dict]:
@@ -67,6 +109,7 @@ def resolve_presentation(profile_id: str, dossier: dict, model: dict, authored: 
     state = "none"
     basis = []
     summary = ""
+    summary_markdown = ""
     assessment_date = authored.get("assessment_date") or ""
 
     if len(approved) > 1:
@@ -103,7 +146,8 @@ def resolve_presentation(profile_id: str, dossier: dict, model: dict, authored: 
         assessment_date = assessment_date or str(approved[-1].get("reviewed") or "")
     elif findings and state == "resolved":
         basis.append("maintained Current conclusion finding")
-        summary = _summary(findings[0].get("markdown") or "")
+        summary_markdown = _summary_markdown(findings[0].get("markdown") or "")
+        summary = _plain(summary_markdown)
         assessment_date = assessment_date or str(findings[0].get("finding_updated") or "")
     elif findings and state == "conflict":
         basis.append("conflicting Current conclusion findings")
@@ -148,17 +192,22 @@ def resolve_presentation(profile_id: str, dossier: dict, model: dict, authored: 
     else:
         result = {}
 
+    # With no written summary the page opens with an introduction built from
+    # the family tree (repair_person_hierarchy._tree_introduction_html), so no
+    # placeholder sentence is stored for the ``unmapped`` and ``none`` states:
+    # their position has an empty answer.
     if state == "conflict" and not result.get("position"):
-        result["position"] = {"answer": "Maintained assessments conflict and require editorial reconciliation.", "points": []}
+        result["position"] = {"answer": CONFLICT_ANSWER, "points": []}
     elif not result.get("position") and summary:
         result["position"] = {"answer": summary, "points": []}
-    elif state == "unmapped" and not result.get("position"):
-        result["position"] = {"answer": "Research is present, but no maintained conclusion has yet been resolved for publication.", "points": []}
-    elif state == "none" and not result.get("position"):
-        result["position"] = {"answer": "No maintained assessment is recorded.", "points": []}
+    elif not result.get("position"):
+        result["position"] = {"answer": "", "points": []}
 
     if not result.get("opening") and summary:
         result["opening"] = summary
+        if summary_markdown:
+            # The same paragraph with its links, for the page's opening.
+            result["opening_markdown"] = summary_markdown
     if not assessment_date and result.get("assessment_date"):
         assessment_date = str(result["assessment_date"])
     result["assessment_date"] = assessment_date

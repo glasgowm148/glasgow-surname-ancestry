@@ -1151,7 +1151,9 @@ Corrected assessment.
         self.assertTrue(page.select_one(".person-dossier-readable #overview"))
         self.assertEqual("What we know", page.select_one("#overview h2").get_text(strip=True))
         self.assertIn("FIN/5/A/236", html)
-        self.assertTrue(page.select('a[href^="/research/Glasgow-951/sources/proni_FIN-5-A-236"]'))
+        # Site audit S1-03/S2-11: research files that are not published render
+        # as plain text (label kept) instead of a broken /research/ link.
+        self.assertFalse(page.select('a[href^="/research/Glasgow-951/sources/proni_FIN-5-A-236"]'))
         self.assertNotIn("wikitree.com/wiki/proni_FIN", html)
         audit = page.select_one("details#parent-candidates")
         self.assertIsNotNone(audit)
@@ -1177,7 +1179,9 @@ Corrected assessment.
         self.assertEqual(mapped["research_findings"][0]["profile_id"], "Glasgow-3990")
         mapped_html = (WEB / "people" / "glasgow-3990.html").read_text(encoding="utf-8")
         mapped_page = BeautifulSoup(mapped_html, "html.parser")
-        self.assertTrue(mapped_page.select('#archive-tools details[id^="research-note-"]'))
+        # Site audit S2-03: published findings are shown in the reading flow,
+        # not only in the archive; the note anchors move with them.
+        self.assertTrue(mapped_page.select('#research-findings details[id^="research-note-"]'))
         self.assertIn("https://apps.proni.gov.uk/ProniNames_IE/SearchPage.aspx", mapped_html)
         self.assertNotIn('id="profile-link-form"', mapped_html)
         self.assertNotIn("WikiTree profile workbench", html)
