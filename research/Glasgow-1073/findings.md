@@ -160,3 +160,14 @@ The owner's early notes (a Checkvist export of 10 March 2025) copy this entry fr
 By inference the father is this John, minister of Kilbirnie from 1688 until his death in 1721; the album describes him after his death. The notes head the entry "John Glasgow M.A (1700-1740)", but the quoted text gives neither the student's forename nor his birth year, so both are the owner's reconstruction. A student matriculating in 1730 was probably a son of the second marriage, to Margaret Scott in 1699 (inference). Grade: possible child, from a derivative quotation. Confirm the forename, class and bursary in Addison and in the matriculation album before any child profile is created or linked.
 
 Recorded in `archive/dump/TheGlasgows.md` (Checkvist export, 10 March 2025); carried into this file on 7 October 2026.
+
+<!-- repo-integration-audit-2026-10-07:L08c-001 -->
+## Source findings — Kilbirnie barony decree naming the minister's widow and children, 12 June 1723
+
+The owner's undated notes link the National Records of Scotland catalogue entry [GD20/1/512](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD20%2f1%2f512), among the titles to the barony of Kilbirnie in the Papers of the Earls of Glasgow (Crawford Priory), and summarise it in their own words as "a decree from 12th June 1723. It states that Margaret, Janet, and Jean Glasgow (children of the late Mr. John Glasgow, minister of Kilbirnie), along with Margaret Scott and Mr. James Glasgow (widow and son of Mr. John Glasgow), were adjudicated against Patrick, Viscount of Garnock, regarding the new barony of Kilbirnie". The summary adds an extract renunciation dated 21 July 1731 and registered 14 February 1733.
+
+Seen only as this second-hand summary of a catalogue description: neither the catalogue's own wording nor the decree has been read here, and the phrase "were adjudicated against" does not make clear who obtained adjudication against whom. If the catalogue bears the summary out, the entry would show that the minister was dead by June 1723 (consistent with the Fasti's December 1721), that Margaret Scott was his widow, and that a son Mr James and daughters Margaret, Janet and Jean were then living. It would not show which daughters were Jean Cunningham's and which Margaret Scott's. Mr James fits James Glasgow, minister of Edinburgh Castle (Glasgow-1140), recorded above as a son from the Fasti (inference). Treat as a lead, not yet graded.
+
+Next records: first, read the GD20/1/512 catalogue entry itself and copy its exact wording into this file; then the decree and the 1731 renunciation, for the daughters' status and any husbands.
+
+Recorded in `archive/dump/TheGlasgows.md` (undated Checkvist notes; the same text is in `archive/dump/checkvistExport.md`); carried into this file on 7 October 2026.

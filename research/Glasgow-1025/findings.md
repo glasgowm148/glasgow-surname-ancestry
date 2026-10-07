@@ -1,6 +1,6 @@
 # Findings: [James Glasgow (Glasgow-1025), about 1700–1759](https://www.wikitree.com/wiki/Glasgow-1025)
 
-Last updated: 2026-08-12
+Last updated: 2026-10-07
 
 ## Current conclusion
 
@@ -82,8 +82,9 @@ to distinguish the two 1766 Jameses and John and prove a son, brother or nephew.
 
 ## WikiTree recommendations
 
-1. Cite the probate index for **Drumearn residence** and a **1759 estate/probate
-   event**.
+1. Do not cite the 1759 will index for a Drumearn residence or a 1759 estate
+   event: the index names James Glasgow of Drumcarn (revised on 7 October 2026;
+   see below).
 2. Retain 17 January 1759 only if the source already cited on WikiTree actually
    supplies that day and month. The probate transcription supplied here gives
    only the year.
@@ -95,7 +96,7 @@ to distinguish the two 1766 Jameses and John and prove a son, brother or nephew.
 6. Do not describe kit `200475` as proving descent from James. It proves
    R-FT20271 paternal kinship, while the pedigree back here remains unverified.
 
-Suggested edit summary: `Add the 1759 Drumearn probate match and distinguish later Drumearn namesakes.`
+The earlier suggested edit summary, which described a 1759 Drumearn probate match, is superseded (revised on 7 October 2026; see below).
 
 ## Public profile scrape review (2026-07-22)
 
@@ -130,3 +131,10 @@ Profile prose and trees remain leads; inspect the cited record before treating a
 - [Living DNA](http://www.tkqlhce.com/click-3382244-12748243)
 - [https://gw.geneanet.org/moodyfh?n=glasgow&oc=1&p=james](https://gw.geneanet.org/moodyfh?n=glasgow&oc=1&p=james)
 - [https://www.familysearch.org/ark:/61903/3:1:3QS7-L94F-MWB5?view=index](https://www.familysearch.org/ark:/61903/3:1:3QS7-L94F-MWB5?view=index)
+
+<!-- repo-integration-audit-2026-10-07:L09c-008 -->
+## Recommended correction — the 1759 will index is Drumcarn, not Drumearn, 20 August 2026
+
+The first WikiTree recommendation and the suggested edit summary above were written before the place-name correction and are superseded. The PRONI Armagh diocesan will index entry of 17 January 1759 names **James Glasgow of Drumcarn**, County Tyrone, not Drumearn (PRONI Name Search, Pre-1858 Wills and Admons; index only, original lost). It gives no age, kin or occupation and cannot be assigned to this profile, to Glasgow-1024 or to another local James. The WikiTree register records the "1759 Drumearn probate match" as live (verified 19 August 2026); any profile text resting on that match depends on the misreading and should be reviewed.
+
+Recorded in `surname-research/james-glasgow-tyrone-moneymore-candidate-matrix.md` (20 August 2026); carried into this file on 7 October 2026.

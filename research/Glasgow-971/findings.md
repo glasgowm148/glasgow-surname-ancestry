@@ -44,3 +44,12 @@ Profile prose and trees remain leads; inspect the cited record before treating a
 - [https://www.familysearch.org/ark:/61903/1:1:FG6N-Q75](https://www.familysearch.org/ark:/61903/1:1:FG6N-Q75)
 - [https://www.familysearch.org/ark:/61903/1:1:KZ5W-MGV](https://www.familysearch.org/ark:/61903/1:1:KZ5W-MGV)
 - [https://www.familysearch.org/ark:/61903/1:1:X17F-M3V](https://www.familysearch.org/ark:/61903/1:1:X17F-M3V)
+
+<!-- repo-integration-audit-2026-10-07:L08c-005 -->
+## Source findings — 1873 probate calendar entry, 10 December 1873
+
+The printed Irish *Calendar of Wills and Administrations* for 1873 (right-hand page of the pp. 246–247 opening; an image of the opening is kept in the owner's old research archive) reads: "GLASGOW Alexander. 10 December. The Will of Alexander Glasgow late of Old Court County Cork Esquire deceased who died 19 October 1873 at same place was proved at Cork by the oath of Robert Pirrie of West George-street Glasgow Esquire one of the Executors. Effects under £80,000."
+
+Seen as an image of the printed calendar, read by on-device OCR and checked against the column layout. Grade: proved for the death date and place, the grant at Cork on 10 December 1873 and Robert Pirrie's role as one of the executors. The calendar gives £80,000 as the upper limit of the sworn effects; it does not support the captured biography's statement that Alexander left £80,000 to Robert Pirrie. The will itself has not been read, so the legatees are unknown.
+
+Recorded in `archive/dump/1. Historical Research by Year/1800s/1873.jpg` (undated image of the 1873 calendar); carried into this file on 7 October 2026.

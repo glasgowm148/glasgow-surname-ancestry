@@ -1,6 +1,6 @@
 # Findings: Glasgow-1538
 
-Last updated: 2026-07-16
+Last updated: 2026-10-07
 
 ## Current answer
 
@@ -22,3 +22,16 @@ The subject's identity and parents remain unresolved. Two WikiTree profiles comp
 - Obtain and compare the original 1803 marriage entry, 1839 burial, and candidate baptism entries.
 - Resolve duplicate Margaret Brash profiles and the competing Robert identities before attaching parents.
 
+<!-- repo-integration-audit-2026-10-07:L07c-003 -->
+## Source findings — Alexander's 1861 marriage and other biography evidence, 15 July 2026
+
+| Source | Finding | Assessment |
+| --- | --- | --- |
+| ScotlandsPeople statutory marriage, Calton, 644/4/154, 30 April 1861 ([ScotlandsPeople](https://www.scotlandspeople.gov.uk/)) | Alexander Glasgow, flesher, widower, married Elizabeth Becket (Bicket); his parents are recorded as Robert Glasgow and Margaret Brash. An earlier contributor who saw the image read the mother's surname as "Borsh??". | A contemporary record that a couple named Robert Glasgow and Margaret Brash had a son Alexander, born about 1812–13 (died Rothesay 1875, [Glasgow-2822](https://www.wikitree.com/wiki/Glasgow-2822)). It fits the 1803 Barony marriage but does not decide whether this profile or Glasgow-1530 is that Robert. A full transcription of the entry is still wanted. |
+| [FamilySearch birth index X1WW-D8B](https://www.familysearch.org/ark:/61903/1:1:X1WW-D8B) | A Robert Glasgow was born in Glasgow on 13 September 1784. | Plausible for the 1803 groom by name, place and age only; no record links the child to the groom. |
+| Barony OPR marriage, 622/70 475, 14 February 1819 | A Robert Glasgow married Janet Gilmour. | Same-name possibility only. Nothing makes him Margaret Brash's widower; the children attached to Robert and Janet in online trees are unsourced. |
+| Former WikiTree parents | Robert was once linked as a son of Hugh Glasgow (Glasgow-540) and Sarah Blair. | Removed because no source named them; that family belongs to Ireland and Pennsylvania. A FamilySearch Robert who married Nancy Black in Delaware in 1814 (K2NK-CYR) is likewise a different man. |
+
+Seen through the biography's citations (index entries; the 1861 entry was seen as an image by the earlier contributor, not for this file). Ralph Glasgow (Glasgow-1537) remains an unproved son: the records supplied for Ralph do not name his parents.
+
+Recorded in `chatgpt_dump/Pasted text(47).txt` (WikiTree biography text of 15 July 2026); carried into this file on 7 October 2026.

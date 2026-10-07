@@ -44,7 +44,7 @@ Preserve the live profile's Kilbirnie OPR baptism (18 October 1747, Ref 10/116),
 
 ## Recommended WikiTree update
 
-**Needs updated on WikiTree — narrative amendment prepared, not saved live.**
+**Needs updated on WikiTree — narrative amendment prepared, not saved live** (as recorded on 14 September 2026; the register later marks it applied, see the note below).
 The live biography already names children and mentions the trust; the categorical
 childlessness error was in this catalogue’s earlier synthesis. The pending
 replacement adds exact bequests and archive references, identifies the
@@ -144,3 +144,12 @@ The original [Freeman's Journal, 2 September 1847, p. 4](https://www.newspapers.
 The father is **probably** [Robert Robertson, later Glasgow (Robertson-30564)](https://www.wikitree.com/wiki/Robertson-30564), husband of this Robert's natural daughter Anne: a December 1827 notice reports a daughter born at Rome to 'Mrs Robertson Glasgow, of Montgreenan'. This Robert remains a **weaker possible alternative**: his 1827 death does not conflict with 'the late' in 1847, and no reviewed evidence definitively excludes him. Charlotte is a strong compatible match for [Glasgow-3003](https://www.wikitree.com/wiki/Glasgow-3003) and Anne a possible match for [Glasgow-3000](https://www.wikitree.com/wiki/Glasgow-3000).
 
 Recorded in `research/latest-findings.json` (5 October 2026); carried into this file on 7 October 2026.
+
+<!-- repo-integration-audit-2026-10-07:L09c-003 -->
+## Unresolved — register status of the Montgreenan trust amendment, 7 October 2026
+
+The WikiTree register (`surname-research/to-update.md`, section "Montgreenan trust and household — 10 September 2026", row for Glasgow-1076, updated 29 September 2026) marks the 1803-trust amendment "DONE — APPLIED LIVE 17 SEPTEMBER 2026 (additive)": exact trust bequests and archive references, Emilia distinguished from the unverified Amelia identification, and the 1827 death separated from the 1828 registration. The paragraph beneath that row in the same register still says that no live edit has been made, as does this file's "Recommended WikiTree update" section, written on 14 September 2026, before the row was changed.
+
+The register therefore contradicts itself, and the live biography was not re-read for this note. A read-only check of the live biography should settle which statement is current; until then neither should be repeated as fact.
+
+Recorded in `surname-research/to-update.md` (29 September 2026); carried into this file on 7 October 2026.

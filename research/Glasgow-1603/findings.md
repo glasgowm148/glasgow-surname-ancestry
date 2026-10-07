@@ -52,3 +52,10 @@ The 1677 entry is absent from the curated occurrence catalogue. The current Wiki
    spacing may require an omitted generation.
 
 See the [five-generation map](../../surname-research/clusters/early-scotland-glasgow-1098-map.md).
+
+<!-- repo-integration-audit-2026-10-07:L03c-012 -->
+## Relationship assessment — proposed mother, 27 July 2026
+
+The pre-1700 graph-claim audit of 27 July 2026 reviewed a graph-based proposal to give Hugh [Christina Adamson (Adamson-3318)](https://www.wikitree.com/wiki/Adamson-3318) as his mother and **rejected** it. Hugh and his placement under James Glasgow (Glasgow-991) derive from an online tree, Christina Adamson's dates are themselves secondary, and an apparent age fit does not establish maternity. The rejection is for want of evidence; Hugh's mother remains unknown.
+
+Recorded in `surname-research/pre-1700/graph-claim-audit-2026-07-27.md` (27 July 2026); carried into this file on 7 October 2026.

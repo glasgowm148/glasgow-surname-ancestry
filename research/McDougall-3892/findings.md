@@ -1,6 +1,6 @@
 # Findings: Margaret McDougall (McDougall-3892)
 
-Last updated: 2026-09-01
+Last updated: 2026-10-07
 
 ## Current conclusion
 
@@ -60,3 +60,12 @@ profile. Manager `Glasgow-933` was verified before each save. The CC7 was 688
 before publication and had recalculated to 691 immediately afterwards; the
 full expected effect is nine additional connections, for 697, once WikiTree's
 twice-hourly calculation includes all seven degree-seven children.
+
+<!-- repo-integration-audit-2026-10-07:L07c-010 -->
+## Next records — two candidate baptisms for Margaret, 7 October 2026
+
+Two Glasgow baptisms have been put forward for Margaret, later wife of George Kerr (her census ages in 1881 and 1891 imply birth about 1853): Margaret, daughter of William McDougall, printer, and Mary McMillan, baptised 25 May 1850 in Gorbals; and Margaret, daughter of William McDougall and Elizabeth Clark, baptised 31 March 1851 in Glasgow. Neither is linked to her by any record, and both are earlier than the census ages suggest. A preference for the McMillan family rests on locality and naming only and does not establish parentage. Her marriage to George Kerr (probably about 1874–77) and her death entry should name her parents and decide between these candidates, or exclude both.
+
+Seen only as a summary of index entries without register references; no register image was inspected.
+
+Recorded in `chatgpt_dump/Pasted text(12).txt` (undated, saved 10 September 2026); carried into this file on 7 October 2026.

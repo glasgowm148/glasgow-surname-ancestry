@@ -1,6 +1,6 @@
 # Findings: [William Glasgow (Glasgow-992), about 1615](https://www.wikitree.com/wiki/Glasgow-992)
 
-Last updated: 2026-09-10
+Last updated: 2026-10-07
 
 ## Current conclusion
 
@@ -41,7 +41,7 @@ Source: [Scotland’s People](https://www.scotlandspeople.gov.uk/), Old Parish R
 
 ## Priority action
 
-**Needs updated on WikiTree:** add the qualified indexed evidence and explain the conflict; retain existing populated attachments and dates uncertain pending the original. No live edit has been made.
+**Needs updated on WikiTree:** add the qualified indexed evidence and explain the conflict; retain existing populated attachments and dates uncertain pending the original. No live edit had been made when this was written on 10 September 2026 (see the register note below).
 
 ## Source findings
 
@@ -52,3 +52,12 @@ Source: [Scotland’s People](https://www.scotlandspeople.gov.uk/), Old Parish R
 | [Scotland’s People](https://www.scotlandspeople.gov.uk/), 1635-12-05, Glasgow, OPR 644 / 1/230 / 126 | WILLIAM GLASGOW; BESSIE HOWIE/ | William Glasgow and Bessie Howie are attached; index predates unsourced structured 1640 date. |
 
 Source: Old Parish Registers, banns and marriages; exact surname Glasgow through 1700, 55 supplied results. Original images not inspected for this batch; combined index dates do not by themselves establish ceremony dates.
+
+<!-- repo-integration-audit-2026-10-07:L09c-004 -->
+## Unresolved — High Kirk entry 1/754 and the register status, 7 October 2026
+
+The WikiTree register's master table (`surname-research/to-update.md`, row for Glasgow-992, updated 29 September 2026) marks this profile "DONE — APPLIED LIVE 17 SEPTEMBER 2026" against the task "Retrieve High Kirk entry 1/754; if its omitted child name is William, attach Stewart-65226 as directly proved mother and add the complete baptism citation". The same register's OPR section still lists the 1635 marriage-index amendment for this profile as open. This file's statement that no live edit had been made was written on 10 September 2026 and predates the master-table entry.
+
+Nothing in the repository records what entry 1/754 shows: neither the child's name nor the date has been transcribed. Whether [Margaret Stewart (Stewart-65226)](https://www.wikitree.com/wiki/Stewart-65226) is William's directly proved mother therefore remains open, and the recommended update above still applies. The live profile was not re-read for this note.
+
+Recorded in `surname-research/to-update.md` (29 September 2026); carried into this file on 7 October 2026.

@@ -223,3 +223,10 @@ provides a distinguishing detail.
 The 1627 Glasgow High Kirk baptism (baptisms vol. 2/436) names John Glasgow and Jonet Mathie as parents of the lawful child George. The certainty review of 28 September 2026 assessed the father link from [George Glasgow-1090](https://www.wikitree.com/wiki/Glasgow-1090) to this profile as **confident** (previously unmarked). This was a review of existing citations; no new image was inspected. George's file notes that the index date (4 February 1627) and the biography's 2 February birth and 25 February baptism still disagree.
 
 Recorded in `research/latest-findings.json` (28 September 2026); carried into this file on 7 October 2026.
+
+<!-- repo-integration-audit-2026-10-07:L09c-009 -->
+## Identity assessment — not minister of Kilbirnie in 1614–29, 19 July 2026
+
+Three of the project's free-space pages (the Glasgow Name Study, *Glasgow – Age of Discovery* and *The Ayrshire Crossroads*) describe this John as "Jhone Glasgow M.A.", minister of Kilbirnie from 1614 to 1629. The published succession of Kilbirnie ministers does not support this. **John Heriot** was presented in 1586 and was dead before 25 November 1630; William Russell was probably admitted by 1619; the list contains no earlier minister named John Glasgow (John Shedden Dobie, "The Church of Kilbirnie", *Archaeological and Historical Collections relating to Ayrshire and Galloway* 2 (1880), [pp. 113–114](https://aanhs.org/wp-content/uploads/2020/09/ahcaw.2.1880.kilbirniekirk.jsdobie.111-135.pdf); a printed secondary account, read for the July 2026 review and not re-read here). The Kilbirnie ministry belongs to the later Rev. John Glasgow M.A. ([Glasgow-1073](https://www.wikitree.com/wiki/Glasgow-1073)), ordained there on 16 August 1688. No reviewed record gives this earlier John a Kilbirnie charge, and his M.A. is unsourced in this file.
+
+Recorded in `surname-research/free-space-pages/Glasgow_Name_Study.md` (suggested amendment of 19 July 2026); carried into this file on 7 October 2026.

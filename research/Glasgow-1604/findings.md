@@ -59,3 +59,10 @@ before his 1690 marriage to Jean Cunningham.
    do not use the merge to select a father.
 
 See the [Glasgow-1098 descendant map](../../surname-research/clusters/early-scotland-glasgow-1098-map.md).
+
+<!-- repo-integration-audit-2026-10-07:L09c-001 -->
+## Identity assessment — 1648 Edinburgh apprenticeship excluded, 30 September 2026
+
+The Edinburgh apprenticeship of 12 January 1648 (apprentice to William Blackwood, merchant; son of the late Thomas, maltman and burgess of Glasgow) was once read as a John Glasgow entry and considered for this profile, for Glasgow-3610 and, as father, for Thomas Glasgow-1103. A page-image review on 30 September 2026 found it under the printed **Gray** heading: Francis J. Grant, ed., *Register of Apprentices of the City of Edinburgh, 1583–1666* (1906), [printed p. 75](https://archive.org/details/scottishrecordso28scotuoft/page/n86/mode/1up) (printed transcription seen as a page image; the manuscript register was not inspected). It is a John Gray record and supplies no event or relationship evidence for this John. See `research/record-john-glasgow-edinburgh-1648/findings.md`.
+
+Recorded in `surname-research/to-update.md` (30 September 2026); carried into this file on 7 October 2026.

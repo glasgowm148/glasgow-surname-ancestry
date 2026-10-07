@@ -1,6 +1,6 @@
 # Glasgow-993 research findings
 
-Last updated: 2026-09-10
+Last updated: 2026-10-07
 
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-4938dce42a86 -->
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-4938dce42a86
@@ -53,3 +53,10 @@ Provenance: exact-surname Glasgow search, year range to 1700, 127 supplied resul
 Original image not inspected for this batch. The combined collection’s date does not automatically establish a birthday. Names alone do not uniquely identify attached parents or connect a child with a later adult. An omitted parent or indexed gender U remains unspecified in this source.
 
 **Next action:** No additional WikiTree update from this row; preserve any existing pending work.
+
+<!-- repo-integration-audit-2026-10-07:L03c-011 -->
+## Relationship assessment — proposed mother, 27 July 2026
+
+The pre-1700 graph-claim audit of 27 July 2026 reviewed a graph-based proposal to give Agnes [Christina Bie (Bie-55)](https://www.wikitree.com/wiki/Bie-55) as her mother and **rejected** it. Agnes's 22 February 1618 Inveresk entry (OPR 689/10/91; Findmypast R_686182151 and R_693571192) names only her father James in the exposed index, and Christina Bie's profile is a collaborative-tree reconstruction. Two wives have been alleged for James, and estimated ages cannot choose between them. Seen as index only. The rejection is for want of evidence; it does not disprove Christina Bie. Agnes's mother remains unknown until the original register entry or another record names her.
+
+Recorded in `surname-research/pre-1700/graph-claim-audit-2026-07-27.md` (27 July 2026); carried into this file on 7 October 2026.

@@ -38,3 +38,12 @@ Original image not inspected for this batch. The combined collection’s date do
 The Findmypast transcripts of George's baptism on 17 February 1605 ([R_686312170](https://www.findmypast.co.uk/transcript?id=R_686312170&tab=this), [R_694110723](https://www.findmypast.co.uk/transcript?id=R_694110723&tab=this)) and the FamilySearch index ([X1BK-1BW](https://familysearch.org/ark:/61903/1:1:X1BK-1BW)) place the baptism at Mid Calder, and one index gives his residence as Mid Calder. No reviewed record supports a birth at Musselburgh, a place given for him in earlier profile material. A baptism does not prove a birth on the same day. The mother is blank in the transcripts and the OPR index, which neither proves nor disproves the attached mother [Christina Adamson (Adamson-3318)](https://www.wikitree.com/wiki/Adamson-3318).
 
 Recorded in `research/Glasgow-1082/Glasgow-1082.md` (undated legacy draft); carried into this file on 7 October 2026.
+
+<!-- repo-integration-audit-2026-10-07:L03c-002 -->
+## Source findings — original baptism entry reread, 10 September 2026
+
+The original register image of NRS Old Parish Registers, Mid Calder 694/10, page 7 ([Scotland's People](https://www.scotlandspeople.gov.uk/)), was read on 10 September 2026. Under 17 February 1605 it reads: `James glasgow in muirestoun[?] ane bairne baptizit namit george . W. Georg glasgow Johne smyth Wm[?] [illegible]`. **James Glasgow** is the parent in the baptism formula. **George Glasgow** and **John Smith** are witnesses; the third witness is unread. Seen as original image (LLM-assisted visual review of the supplied image).
+
+This confirms the indexed father and the baptism date from the original. The entry gives no birth date and no mother, and states no relationship between the witness George Glasgow and the child; the witness must not be treated as a grandfather. The residence `Muirestoun` is a provisional reading (moderate confidence) and is not identified with a modern place. The image had been filed among testaments, but it is a baptism, not a 1605 testament.
+
+Recorded in `research/transcriptions/originals-2026-09-10-reread/george-1605.json` (10 September 2026); carried into this file on 7 October 2026.

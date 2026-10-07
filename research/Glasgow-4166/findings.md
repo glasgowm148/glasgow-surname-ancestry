@@ -1,6 +1,6 @@
 # Hugh Glasgow (Glasgow-4166): parent identity review
 
-Last updated: 2026-09-26
+Last updated: 2026-10-07
 
 ## Current conclusion — 27 September 2026
 
@@ -21,3 +21,10 @@ A parish baptism at Kilmarnock, Ayrshire names Hugh Glasgow and Margaret McGecha
 ## Unresolved questions
 
 - Inspect the original baptisms for residence, occupation, witnesses or marginal notes, and search intervening marriage/burial entries to determine whether this father was the same person as Glasgow-4167. Do not infer that Margaret McGechan and Margaret Giffen are the same woman or that one man remarried solely from the matching father name.
+
+<!-- repo-integration-audit-2026-10-07:L09c-011 -->
+## Identity assessment — recorded as merged into Glasgow-1929, 27 September 2026
+
+The duplicate follow-up of 27 September 2026 records this profile, which already carried the former Glasgow-4167, as merged into [Hugh Glasgow (Glasgow-1929)](https://www.wikitree.com/wiki/Glasgow-1929). The shared wife and the continuous Kilmarnock baptisms of 1732–44 (index entries) support one Hugh; the 1744 entry naming Margaret Giffen rather than Margaret McGechan remains a separate, unresolved question. The maintained account is in `research/Glasgow-1929/findings.md`.
+
+Recorded in `surname-research/indexes/duplicate-followup-2026-09-27.md` (27 September 2026); carried into this file on 7 October 2026.

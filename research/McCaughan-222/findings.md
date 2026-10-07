@@ -100,3 +100,12 @@ No record names Mary's parents. The working hypothesis, set out in full in `rese
 The best burial candidate for the 1834 James is James McCaughern, born about 1790, died 13 September 1858, buried at Rasharkin Presbyterian Church graveyard, with Nancy McCaughern (1794–1859) as spouse and Thomas (1829–1857) as child ([FamilySearch Find a Grave index](https://www.familysearch.org/ark:/61903/1:1:CVDP-S2MM); [Find a Grave memorial 205517378](https://www.findagrave.com/memorial/205517378/james-mccaughern); index and memorial data only). The memorial does not name Gortereghy, William McCaheran or Mary, so the match is not proved. Keep [James McCaughan (McCaughan-68)](https://www.wikitree.com/wiki/McCaughan-68) separate: he has no demonstrated Gortereghy or Rasharkin connection.
 
 Recorded in `research/profile-drafts/james-mccaheran-gortereghy.md` (undated, after 14 September 2026); carried into this file on 7 October 2026.
+
+<!-- repo-integration-audit-2026-10-07:L07c-002 -->
+## Identity assessment — a same-name Mary McCaughan of Dublin, New York and Ontario excluded, 7 October 2026
+
+The WikiTree biography distinguishes this Mary from a same-name contemporary: a Mary McCaughan said to have been born about 1817 in Dublin, a daughter of Hugh, who married John McAulay in 1840 and appears in the [New York passenger lists in 1859](https://www.familysearch.org/ark:/61903/1:1:27T9-VWQ) and the [1861 Ontario census](https://www.familysearch.org/ark:/61903/1:1:MQWD-6ZH). The exclusion is consistent with this file, which places this Mary with Alexander at Rasharkin in the baptisms of 1837–44 and the 1851 Lisnagaver household, and has her die at Gortahar in 1892.
+
+Seen only as the biography's text and its two FamilySearch index citations; the passenger and census entries were not opened, and the biography cites nothing for the Dublin birth, the 1840 marriage or Hugh's parentage. Use it only to keep those two North American records off this profile, not as evidence about this Mary's own parents. The same biography's account of her father is not adopted here (see the relationship assessment above).
+
+Recorded in `chatgpt_dump/Pasted markdown(3).md` (undated export of the WikiTree biography, saved 10 September 2026); carried into this file on 7 October 2026.

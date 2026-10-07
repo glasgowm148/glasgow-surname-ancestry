@@ -1,6 +1,6 @@
 # Findings: [James Glasgow (Glasgow-973)](https://www.wikitree.com/wiki/Glasgow-973)
 
-Last updated: 2026-09-17
+Last updated: 2026-10-07
 
 ## New parentage lead from Lisnagaver birth record: John Glasgow, 3 October 1887
 
@@ -201,3 +201,12 @@ unproved Michigan candidate, and its 29 August 1896 date conflicts with the
 30 July date independently established by Michigan GENDIS and the contemporary
 newspaper report. WT+ hint 581 was marked **False suggestion** on **29 August
 2026** with that explanation; no WikiTree profile edit was made.
+
+<!-- repo-integration-audit-2026-10-07:L07c-001 -->
+## Identity assessment — FamilySearch person MDBX-Y1G is probably a different James, 7 October 2026
+
+The older WikiTree research notes for this profile listed [FamilySearch person MDBX-Y1G](https://www.familysearch.org/tree/person/details/MDBX-Y1G) as a "similar person", and the paste-ready draft `Glasgow-973.md` calls it "an earlier FamilySearch identifier" for this James. A capture of that person's sources page shows a different man: **James Glasgow, 29 April 1841 – 14 November 1903**, with 28 Scottish attachments. They include the 1841 and 1851 Scotland censuses for Kirknewton parish, Midlothian, civil registrations of children with James as father (for example Edward Sutton Glasgow, [13 February 1870](https://familysearch.org/ark:/61903/1:1:X9R9-B4G5), and Agnes Hunter Glasgow, [16 December 1881](https://familysearch.org/ark:/61903/1:1:X9GD-LQJG)), and an 1898 family notice naming Mary Ann Sutton ([index](https://familysearch.org/ark:/61903/1:1:QLSQ-TKG3)).
+
+Seen only as a capture of the FamilySearch tree page and its index citations; the attachments are another user's conclusions and no record image was inspected. If they are right, that James was in Scotland in 1841 and 1851, while Alexander's son was born at Lisnagaver on 9 October 1843 and was in the Lisnagaver household in 1851. MDBX-Y1G is therefore probably a different man (an inference from the attached records) and should not be described as an earlier identifier for him. The FamilySearch person for the Lisnagaver and Michigan candidate is MQ57-BVR (see the 18 August 2026 audit above).
+
+Recorded in `chatgpt_dump/Pasted markdown(3).md` (undated WikiTree and FamilySearch export, saved 10 September 2026); carried into this file on 7 October 2026.

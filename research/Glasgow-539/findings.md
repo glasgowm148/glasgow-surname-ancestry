@@ -32,3 +32,26 @@ Hugh Glasgo of Deer Township, Allegheny County (`Glasgow-540`), in his will sign
 The will proves that Hugh senior had a son Hugh living in March 1827; it gives the son no age or residence. That this profile is that son is inference from the WikiTree family placement and W. M. Glasgow's late family history, which lists a son Hugh; no record here ties the will's Hugh to this profile's dates.
 
 Recorded in `research/Glasgow-540/sources/hugh_glasgow_will_1827_transcription.md` (16 July 2026); carried into this file on 7 October 2026.
+
+<!-- repo-integration-audit-2026-10-07:L07c-005 -->
+## Next records — the cited 1875 obituary, not yet read, 7 October 2026
+
+A biography draft for this profile, whose text also appears in the WikiTree export used for the site, now gives an exact citation for the obituary on which the County Down birthplace and the twin sister depend: "Hugh Glasgow", obituary, *The Reformed Presbyterian and Covenanter*, vol. 13 (April 1875), p. 131 ([Internet Archive, reformedpresbyt10willgoog, page n161](https://archive.org/details/reformedpresbyt10willgoog/page/n161/mode/1up)).
+
+The page has not been read for this file, and the draft paraphrases it without a transcription. Until p. 131 is read and quoted, the current conclusion above stands: do not use County Down, a 25 July 1786 birth date, emigration in 1796 or a twin sister Margaret Cunningham from this citation. When it is read, compare its twin with Nancy (Glasgow) Cunningham ([Glasgow-543](https://www.wikitree.com/wiki/Glasgow-543)), whom the family history calls Hugh's twin.
+
+Recorded in `chatgpt_dump/Pasted text(116).txt` (undated biography draft, saved 10 September 2026); carried into this file on 7 October 2026.
+
+<!-- repo-integration-audit-2026-10-07:L07c-006 -->
+## Next records — burial transcription and census entries cited in a biography draft, 7 October 2026
+
+A biography draft for this profile cites the following; none has been read for this file.
+
+| Source as cited | What the draft reports | Status |
+| --- | --- | --- |
+| "Depreciation Lands Museum Cemetery, Hampton Township, Pennsylvania", [transcription](https://freepages.rootsweb.com/~njm1/genealogy/03dlmcem.htm); Find a Grave memorial 23399484 | Hugh Glasgow died 10 July 1874 "in the eighty-eighth year of his age"; nearby, Margaret Miller, wife of Hugh Glasgow, died 23 November 1851 in her fifty-ninth year. | A transcription, not a photograph of the stones; not yet read. If confirmed, it would support Margaret Miller ([Miller-37219](https://www.wikitree.com/wiki/Miller-37219)) as Hugh's wife and a birth in 1786–87. |
+| US census indexes on FamilySearch: [1830](https://familysearch.org/ark:/61903/1:1:XHP6-DP2) (M19, roll 144), [1840](https://familysearch.org/ark:/61903/1:1:XHBQ-PDX) (M704, roll 439), [1850](https://familysearch.org/ark:/61903/1:1:M44D-V7R), [1860](https://familysearch.org/ark:/61903/1:1:MXP8-DK5) | A Hugh Glasgow ("Glascow" in 1840) at Deer Township, Allegheny County, in 1830 and West Deer Township in 1840 and 1850 (family 177); an 1860 entry. | Index entries, not yet opened. The 1830 and 1840 returns name only the head, so household members cannot be assigned from them. |
+
+Read the transcription and the 1850 census entry first; they bear directly on this Hugh's age and wife. The same draft relies on the unread 1875 obituary (see the block above) for the County Down birthplace and the twin sister.
+
+Recorded in `chatgpt_dump/Pasted text(116).txt` (undated biography draft, saved 10 September 2026); carried into this file on 7 October 2026.

@@ -182,3 +182,12 @@ The [Belfast News-Letter, 20 April 1841, p.2](https://www.newspapers.com/image/3
 The review of 5 October 2026 grades James Glasgow-1780 as **unlikely** for this speaker. The Dictionary of Ulster Biography places him at Bombay from 26 February 1841, and his daughter Margaret Jane, who died at Rajkote on 11 June 1841 aged two months and 26 days (see the death notice above), was born about 16 March 1841, by inference in India. Adam Dickie Glasgow-1781 remains a possible but conflicted candidate (the printed J against D in other notices); the speaker is unidentified. This is a negative result for James, not a proof.
 
 Recorded in `research/latest-findings.json` (entry rev-aj-glasgow-belfast-speech-1841, 5 October 2026); carried into this file on 7 October 2026.
+
+<!-- repo-integration-audit-2026-10-07:L08c-002 -->
+## Source findings — 1877 marriage notice of daughter Harriet, 26 December 1877
+
+The *Belfast News-Letter* of 27 December 1877, as transcribed in the owner's old notes, reports the marriage on 26 December 1877, by special licence, at Livingstone Terrace, University Street, Belfast, of John Acheson, Esq., of Portadown, to Harriet Glasgow, Belfast. The Rev. J. H. Moore of Elmwood officiated, assisted by the Rev. Joseph Acheson of Castlecaulfield, father of the bridegroom, and the Rev. James Glasgow, D.D., father of the bride.
+
+Seen as a transcription in the notes, with no page or image. The GRONI marriage index entry M/1877/B1/570/33/32 (26 December 1877, Belfast, Harriet Glasgow and Acheson) agrees on the date and names; the civil-registration coverage audit of 23 September 2026 assigns it to [Harriet (Glasgow) Acheson (Glasgow-2894)](https://www.wikitree.com/wiki/Glasgow-2894). The notice names the Rev. James Glasgow, D.D., as Harriet's father, and it fits the 1890 death registration above, at which his son-in-law John Acheson was present. Grade: probable, pending the newspaper image.
+
+Recorded in `archive/dump/TheGlasgows.md` (undated Checkvist notes; the same text is in `archive/dump/checkvistExport.md`); carried into this file on 7 October 2026.

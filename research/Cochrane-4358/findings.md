@@ -38,3 +38,10 @@ attaching them. Alexander Cochrane's birth and death locations are set to St
 Ninians, Stirlingshire, Scotland, uncertain, from his documented marriage and
 child's baptism there; this does not establish his actual birthplace or further
 parentage.
+
+<!-- repo-integration-audit-2026-10-07:L09c-007 -->
+## Identity assessment — the 1815 marriage and the 1795 baptism, 7 September 2026
+
+The FamilySearch marriage index records **James Pitt and Mary Cochran, married 19 August 1815 at Saint Ninians, Stirlingshire** ([XY7F-Q5G](https://www.familysearch.org/ark:/61903/1:1:XY7F-Q5G); index extraction, image not viewed). This is the marriage of this profile and her husband [James Pitt (Pitt-3646)](https://www.wikitree.com/wiki/Pitt-3646), in the parish where Mary, daughter of Alexander Cochrane and Janet Penman, was baptised on 28 August 1795; she would have been about 20. The link between the baptised child and the 1815 bride rests on name, parish and age; FamilySearch's tree person [MQPQ-WH4](https://www.familysearch.org/en/tree/person/MQPQ-WH4) joins them, but a tree is only a clue. Treat the identity as probable until a record after her marriage names her parents.
+
+Recorded in `research/fan-chart-roots/group-4.md` (7 September 2026); carried into this file on 7 October 2026.

@@ -74,7 +74,8 @@ it does not identify the older John as William's father.
 
 Protocol 805 independently proves that John was William's son and heir and that
 William was dead by 28 October 1564. Protocols 748 and 847 directly prove John's
-sons John and William. The profile mapping of the son William to Glasgow-3522
+sons John and William; protocol 2189 (17 June 1575) proves his son Stephen
+(added 7 October 2026; see below). The profile mapping of the son William to Glasgow-3522
 is now confident; the mapping of the son John to Glasgow-3181 remains only
 possible.
 
@@ -102,3 +103,12 @@ In William Hegait's protocol 307 (Robert Renwick, ed., *Abstracts of Protocols o
 Like the 1554/55 and 1557 mentions above, this is a property reference only. The abstract does not itself identify the John Glesgw named; identity with this John is probable, by the same reasoning as those entries. A boundary can keep a former owner's name, so it proves neither that John was alive in 1556 nor any kinship.
 
 Recorded in `research/transcriptions/source-recovery-2026-09-10.md` (10 September 2026); carried into this file on 7 October 2026.
+
+<!-- repo-integration-audit-2026-10-07:L09c-005 -->
+## Source findings — son Stephen and death by 17 June 1575
+
+Glasgow protocol 2189 of **17 June 1575** records **Stephen Glasgow, son of the deceased John Glasgow**, selling property with the consent of **Jonet Spreull, "his mother, liferentrix"** (Robert Renwick, ed., *Abstracts of Protocols of the Town Clerks of Glasgow*, vol. 7, protocol 2189, printed p. 110, [17 June 1575](https://archive.org/details/abstractsprotoc00robegoog/page/n126/mode/2up)). Seen as the printed abstract; its full text and citation were checked against the digitised edition on 27 September 2026 and are recorded in `research/Spreull-4/findings.md`. The protocol book itself was not inspected.
+
+Jonet Spreull is this John's documented wife (protocol 1196 of 1534, and protocol 847 of 1565 reserving liferent to John and Jonet). The entry therefore shows that this John was **dead by 17 June 1575** and that [Stephen Glasgow (Glasgow-1029)](https://www.wikitree.com/wiki/Glasgow-1029) was his son by Jonet. The abstract does not repeat John's own parentage, so identifying its John with this profile rests on Jonet being named. The free-space page *John Glasgow-1* gives "dead before 8 November 1575"; that date comes from a derivative abstract with no protocol number (see Glasgow-1029's findings), and the June date should be used.
+
+Recorded in `research/Spreull-4/findings.md` (27 September 2026) and `research/free-space-pages/deep-evidence-audit.md` (7 September 2026); carried into this file on 7 October 2026.

@@ -11,7 +11,7 @@ Father assessment: [John Glasgow (1516)](https://www.wikitree.com/wiki/Glasgow-1
 
 | Source | Finding | Assessment |
 | --- | --- | --- |
-| Glasgow protocol abstract dated 8 November 1575, cited in the [captured WikiTree profile](https://www.wikitree.com/wiki/Glasgow-1029) | Stephen is described as son of the late John Glasgow, with consent of Jonet Spreull his mother. | Direct relational evidence. |
+| Robert Renwick, ed., *Abstracts of Protocols of the Town Clerks of Glasgow*, vol. 7, protocol 2189, printed p. 110, [17 June 1575](https://archive.org/details/abstractsprotoc00robegoog/page/n126/mode/2up) | Stephen, son of the deceased John Glasgow, sold property with consent of Jonet Spreull, "his mother, liferentrix". | Direct relational evidence; abstract checked 27 September 2026 (see `research/Spreull-4/findings.md`). Replaces an uncited "8 November 1575" abstract (revised on 7 October 2026; see below). |
 | Robert Renwick, ed., *Abstracts of Protocols of the Town Clerks of Glasgow*, vol. 8, protocol 2431, [25 June 1582](https://archive.org/details/abstractsofproto08glas/page/56/mode/2up) | The property description calls Stephen Glasgow and Margaret Grahame spouses and places them on the east of How Acre in Craignestock. | Direct evidence for Stephen's wife and a dated Glasgow property association. |
 
 ## WikiTree update instructions
@@ -47,3 +47,21 @@ The owner's earlier notes preserve OCR text of further entries in Robert Renwick
 Seen as: pasted OCR transcription of the printed abstracts; the protocol books were not inspected, and the notes record no volume or page. The live biography cites these entries as "vol. 6"; confirm volume and page before citing. That the 1598/9 tenement is the one acquired in 1586 is an inference from the matching description. An act by a procurator does not show that Stephen was alive or resident in Glasgow in 1599.
 
 Recorded in `archive/dump/TheGlasgows.md` (owner's checklist export of 10 March 2025); carried into this file on 7 October 2026.
+
+<!-- repo-integration-audit-2026-10-07:L07c-008 -->
+## Next records — water bailie of Glasgow, date unverified, 7 October 2026
+
+Stephen is said to have been elected water bailie of Glasgow, chosen from a leet of two. The date is not settled. An earlier AI-assisted research brief gives **2 October 1589** from the OCR text of *Extracts from the Records of the Burgh of Glasgow* ([OCR](https://archive.org/stream/extractsfromrec00renwgoog/extractsfromrec00renwgoog_djvu.txt); no page given) and says an earlier 1581 date came from nearby retrospective material; the brief itself asks for the scanned page to be checked. The WikiTree biography captured on 8 September 2026 instead places him third in the water-bailie sequence, in 1585, without a citation.
+
+None of these dates has been read from the printed page for this file. Find the election entry in the printed *Extracts*, record the volume, page and date, and then correct whichever account is wrong. The entry is not expected to give any family detail.
+
+Recorded in `chatgpt_dump/Pasted text(109).txt` (undated research brief, saved 10 September 2026); carried into this file on 7 October 2026.
+
+<!-- repo-integration-audit-2026-10-07:L09c-006 -->
+## Recommended correction — the 1575 protocol is dated 17 June (protocol 2189), not 8 November, 7 October 2026
+
+This file previously cited "a Glasgow protocol abstract dated 8 November 1575" through the captured WikiTree profile, with no volume, protocol number or page; the free-space pages that repeat that date say the same. The inspected abstract of the act in which Stephen, son of the deceased John Glasgow, sells property with the consent of Jonet Spreull, "his mother, liferentrix", is Robert Renwick, ed., *Abstracts of Protocols of the Town Clerks of Glasgow*, vol. 7, protocol 2189, printed p. 110, [17 June 1575](https://archive.org/details/abstractsprotoc00robegoog/page/n126/mode/2up), checked against the digitised edition on 27 September 2026 and recorded in `research/Spreull-4/findings.md`. The source table above now cites it.
+
+The father assessment "confirmed by record" stands on protocol 2189. It names Stephen's father as the deceased John and his mother as Jonet Spreull, who is documented as the wife of [John Glasgow (Glasgow-1093)](https://www.wikitree.com/wiki/Glasgow-1093) in 1534 and 1565. No act of 8 November 1575 has been located; until one is, treat that date as unverified, probably an error in the derivative account (an inference). An earlier AI-assisted brief graded the relationship only a "strong derivative lead" because it knew only the 8 November claim; the verified June abstract supersedes that caution.
+
+Recorded in `research/Spreull-4/findings.md` (27 September 2026) and `research/free-space-pages/deep-evidence-audit.md` (7 September 2026); carried into this file on 7 October 2026.

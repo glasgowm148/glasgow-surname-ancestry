@@ -96,3 +96,12 @@ Scotland's People OPR index: Robert Glasgow and Jonet Conynghame, 6 April 1613, 
 Source: Old Parish Registers, banns and marriages; exact surname Glasgow through 1700, 55 supplied results. Original images not inspected for this batch; combined index dates do not by themselves establish ceremony dates.
 
 This batch adds supporting evidence or a qualified comparison only; it raises no additional WikiTree amendment for this profile.
+
+<!-- repo-integration-audit-2026-10-07:L03c-003 -->
+## Source findings — legacy in Ninian Glasgow's testament, January 1613
+
+The legacy clauses on image 144 of Ninian Glasgow's testament, NRS Glasgow Commissary Court CC9/7/9 ([Scotland's People wills search](https://www.scotlandspeople.gov.uk/search-records/legal-records/wills)), read `Item to Robert glasgw his sone ane hundreth pundis money`: a legacy of one hundred pounds to Robert. It stands in a run of parallel legacies to `Johne glasgw his brother` and `Marioun glasgw his sister` (ten merks). Seen as original image in the LLM-assisted reread of 10 September 2026, which grades the legacy reading confirmed.
+
+The clause repeats, within the same document, the sonship already recorded above; it is not an independent source for it. The adjacent legacy to Elizabet Hutchesoun carries no kin term, and the damaged William clause on the same page remains unrecovered.
+
+Recorded in `research/transcriptions/originals-2026-09-10-reread/ninian-1613.json` (10 September 2026); carried into this file on 7 October 2026.

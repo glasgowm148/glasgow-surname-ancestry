@@ -1,6 +1,6 @@
 # George Glasgow (Glasgow-2714)
 
-Last updated: 2026-09-10
+Last updated: 2026-10-07
 
 ## Current conclusion
 
@@ -19,7 +19,7 @@ Source: [Scotland’s People](https://www.scotlandspeople.gov.uk/), Old Parish R
 
 ## Priority action
 
-**Needs updated on WikiTree:** add the qualified indexed evidence and explain the conflict; retain existing populated attachments and dates uncertain pending the original. No live edit has been made.
+**Needs updated on WikiTree:** add the qualified indexed evidence and explain the conflict; retain existing populated attachments and dates uncertain pending the original. No live edit had been made when this was written on 10 September 2026 (see the register note below).
 
 ## Source findings
 
@@ -31,3 +31,10 @@ Source: [Scotland’s People](https://www.scotlandspeople.gov.uk/), Old Parish R
 | [Scotland’s People](https://www.scotlandspeople.gov.uk/), 1678-11-08, Kilwinning, OPR 599/10 / 312 | GORG GLASGOW; JEAN GARDINER/FR220 (FR220) | George Glasgow and Jean Gardiner match live pair/date. |
 
 Source: Old Parish Registers, banns and marriages; exact surname Glasgow through 1700, 55 supplied results. Original images not inspected for this batch; combined index dates do not by themselves establish ceremony dates.
+
+<!-- repo-integration-audit-2026-10-07:L09c-002 -->
+## Recommended correction — register status of the 1680 amendment, 7 October 2026
+
+The WikiTree register (`surname-research/to-update.md`, section "OPR banns and marriages through 1700", existing-profile amendments, row for Glasgow-2714, updated 29 September 2026) records this amendment, the separate 5 August 1680 Isobell Young index event "recorded without asserting a second spouse or identity", as **applied live on 17 September 2026**. This file's earlier statement under "Priority action" that no live edit had been made was written on 10 September 2026 and predates that entry. The live profile was not re-read for this note.
+
+Recorded in `surname-research/to-update.md` (29 September 2026); carried into this file on 7 October 2026.
