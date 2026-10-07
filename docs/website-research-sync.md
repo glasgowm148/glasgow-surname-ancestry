@@ -116,6 +116,15 @@ visible research section in the same task.
   (see `docs/build-reproducibility.md`), so a correction to a record's person,
   date or place shows in the research text at once but in record lists only
   after that build.
+- Whole-site rebuild: `make rebuild-local` runs `tools/rebuild_local_site.sh`, the
+  order checked on 7 October 2026: section pages (latest findings, places,
+  studies, questions, queue), the research sync and every person page, the
+  pages and passes that touch the shared shell, `finalize`, then the research,
+  release, link, site-experience, asset and privacy checks. It takes about an
+  hour, writes logs to `tmp/rebuild-logs/` and can restart from a numbered
+  step. Tools that rewrite pages other tools later improve
+  (`publish_clean_urls.py`, `repair_site_experience.py`) are not safe to run
+  on their own.
 - Targeted verification: `.venv/bin/python tools/sync_catalogue_research.py`
   compares every eligible case's current source sections with its rendered
   dossier and compares the maintained update queue with visible drafts and
