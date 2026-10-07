@@ -4,7 +4,7 @@ RUFF ?= $(if $(wildcard $(dir $(PYTHON))ruff),$(dir $(PYTHON))ruff,ruff)
 RESEARCH_BASELINE ?= data/site/research-publication-baseline.json
 LINK_BASELINE ?= data/site/internal-link-baseline.json
 
-.PHONY: test validate validate-strict lint check check-browser check-research check-links build
+.PHONY: test validate validate-strict lint check check-browser check-research check-links build rebuild-local
 
 test:
 	$(PYTHON) -m unittest discover -s tests -q
@@ -46,3 +46,9 @@ check-browser:
 build:
 	$(PYTHON) tools/sync_onetree_ireland_uk_to_1900.py
 	$(PYTHON) tools/build_family_map.py
+
+# Rebuild the local site in place after a change to the builders or to many
+# research files, then run the release checks. About an hour; local only: it
+# never deploys. Not the full catalogue build above. See the script's header.
+rebuild-local:
+	tools/rebuild_local_site.sh
