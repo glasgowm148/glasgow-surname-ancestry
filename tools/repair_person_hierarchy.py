@@ -1916,7 +1916,8 @@ def _research_findings_html(profile_id: str, dossier: dict, editorial: dict, ent
             if key == "summary" and len(items) == 1 and opening_markdown and opening_markdown in markdown_text:
                 # The first paragraph already opens the page; show the rest here.
                 markdown_text = markdown_text.replace(opening_markdown, "", 1).strip()
-                if not markdown_text:
+                if not re.sub(r"<!--.*?-->", "", markdown_text, flags=re.S).strip():
+                    markdown_text = ""  # only an editor's comment was left
                     note = '<p class="finding-note">This summary is given in full at the top of the page.</p>'
             body = _wrap_tables(_safe_markdown_html(markdown_text, entry["base_url"])) if markdown_text else ""
             plain = BeautifulSoup(body, "html.parser").get_text(" ", strip=True)

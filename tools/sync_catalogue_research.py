@@ -297,6 +297,7 @@ def main():
     manifest_path = ROOT / "data/wikitree/research-catalogue-cases.json"
     cases = read_json(manifest_path).get("cases", {}) if manifest_path.exists() else {}
     report, missing, checked, refreshed_profiles = {}, [], 0, []
+    no_research_section = []
     for ident in sorted(requested):
         decision = cases.get(ident, {})
         if decision.get("status") in {"internal", "withheld"}:
@@ -321,6 +322,13 @@ def main():
         html_path = path.with_suffix(".html")
         soup = BeautifulSoup(read_html(html_path, site_root=WEB), "html.parser")
         comparison = comparisons.get(ident)
+        if not soup.select_one(".person-dossier-readable") and not soup.select_one("#research, #research-stack"):
+            # A merge redirect or another page with no research section: there
+            # is nothing to refresh here. Its findings belong on the profile it
+            # was merged into; tools/check_research_publication.py reports any
+            # source that has not been carried across.
+            no_research_section.append(ident)
+            continue
         issues = discrepancies(dossier, soup, findings, update, by_slug[slug], links, comparison)
         checked += 1
         if not issues:
@@ -364,7 +372,8 @@ def main():
             from tools.genealogy.batch_complete import refresh_after_batch
         index_exit = refresh_after_batch()
     print(json.dumps({"checked": checked, "refreshed" if args.write else "stale": report,
-                      "missing_public_cases": missing}, indent=2))
+                      "missing_public_cases": missing,
+                      "pages_without_research_section": no_research_section}, indent=2))
     # What the builders will still not publish for these profiles (text above
     # the first heading, sources only in editing logs, no overall conclusion,
     # register or queue entries dropped). Printed on stderr so the JSON above

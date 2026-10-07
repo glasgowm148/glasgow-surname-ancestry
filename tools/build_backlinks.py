@@ -358,6 +358,9 @@ def _sources(site_root: Path, people: _People):
         if not ids:
             continue
         title = re.sub(r"\s+", " ", str(doc.get("display_title") or doc.get("title") or path.stem)).strip()
+        # Citation text loses its links when it becomes a title: drop the empty
+        # brackets they leave ("digital copy () (accessed …") and the stray spaces.
+        title = re.sub(r"\s+([,;:.])", r"\1", re.sub(r"\s*\(\s*\)", "", title)).strip()
         if _SOURCE_FILE_TITLE.search(title):
             rank = 2  # titled with a repository path or a table fragment
         elif (all(c.get("quality") == "tree_only" for c in citations) if citations

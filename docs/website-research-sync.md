@@ -107,6 +107,15 @@ visible research section in the same task.
   skipped until the baseline exists. Fix the cause in the builder, never in
   `www/`. `--update-baseline` only removes links that are fixed, and
   `--report <file.json>` writes the full list.
+- Place pages: `.venv/bin/python tools/refresh_place_pages.py` runs only the
+  place writer on the published records index and people file and puts each
+  fresh `<main>` into the page already on the site (`--check` reports without
+  writing). Use it after changing the place writer or the study and findings
+  data it reads. It cannot add a record: the records index
+  (`www/data/records-index.json`) is written only by the full catalogue build
+  (see `docs/build-reproducibility.md`), so a correction to a record's person,
+  date or place shows in the research text at once but in record lists only
+  after that build.
 - Targeted verification: `.venv/bin/python tools/sync_catalogue_research.py`
   compares every eligible case's current source sections with its rendered
   dossier and compares the maintained update queue with visible drafts and

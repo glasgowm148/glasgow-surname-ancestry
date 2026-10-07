@@ -172,6 +172,17 @@ class FindingsSectionTests(SiteCase):
                          [node.summary.get_text() for node in archive.select('details[id^="research-note-"]')])
         self.assertIn("Check the will.", archive.select_one(".archive-original-set").get_text())
 
+    def test_summary_given_at_the_top_leaves_a_note_not_an_empty_box(self):
+        # An editor's comment beside the conclusion must not count as remaining text.
+        dossier = {"research_findings": _findings(
+            ("Current conclusion", "conclusion", "<!-- site-audit: overall conclusion -->\nOpening paragraph."),
+            ("Source findings", "sources", "First source."),
+        )}
+        entries = renderer._finding_entries("Glasgow-1", dossier)
+        html = renderer._research_findings_html("Glasgow-1", dossier, {"opening_markdown": "Opening paragraph."}, entries)
+        summary = BeautifulSoup(html, "html.parser").select_one('details[data-category="summary"]')
+        self.assertIn("given in full at the top of the page", summary.get_text())
+
 
 class PageOrderTests(SiteCase):
     def render(self, dossier, editorial, update_panel=""):

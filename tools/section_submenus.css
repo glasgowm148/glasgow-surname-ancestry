@@ -17,7 +17,10 @@ body.g-nav-collapsed .g-section-subnav{display:none}
 @media(min-width:761px){
   /* Keep a long selected submenu in the rail's scroll area instead of
      shrinking the nav and clipping its final links below the viewport. */
-  .v3-site .g-rail{overflow-x:hidden;overflow-y:auto}
+  .v3-site .g-rail{overflow-x:hidden;overflow-y:auto;scrollbar-width:none}
+  /* The rail still scrolls; a system scrollbar here narrowed the menu and
+     clipped the site name whenever a long submenu was open. */
+  .v3-site .g-rail::-webkit-scrollbar{width:0;height:0}
   .v3-site .g-rail .g-nav{flex:0 0 auto;overflow:visible}
 }
 .g-kind-about #feedback-template,
