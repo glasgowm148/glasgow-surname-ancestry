@@ -10,6 +10,24 @@ except ModuleNotFoundError:
 ROOT = Path(__file__).resolve().parents[1]
 
 
+def research_publication_gate():
+    """Refuse the release when research would not reach a reader.
+
+    Runs tools/check_research_publication.py against its baseline: problems
+    already listed there are tolerated, any new one stops the release.
+    """
+    try:
+        from tools import check_research_publication as research_check
+    except ModuleNotFoundError:
+        import check_research_publication as research_check
+    baseline = ROOT / research_check.DEFAULT_BASELINE
+    if research_check.main(['--baseline', str(baseline), '--examples', '5']):
+        raise RuntimeError(
+            'Release stopped: the research publication check found new problems (listed above). Fix them, '
+            'or record them on purpose with tools/check_research_publication.py --baseline '
+            f'{research_check.DEFAULT_BASELINE} --update-baseline --accept-new and say why in the commit.')
+
+
 def publish(*, render_people=True):
     try:
         from tools.public_privacy import repair as repair_privacy
@@ -44,6 +62,7 @@ def publish(*, render_people=True):
     runpy.run_path(str(ROOT / 'tools/publish_wikitree_redirect_aliases.py'))['publish']()
     repair_privacy(ROOT / 'www')
     runpy.run_path(str(ROOT / 'tools/site_analytics.py'))['repair']()
+    research_publication_gate()
     try:
         from tools.finalize_site import finalize
     except ModuleNotFoundError:

@@ -7,7 +7,10 @@ check derives each total from the published search index and compares it with
 people.json, health.json and the catalogue statistics.  ``--fix`` rewrites
 only the numbers it verifies.
 
-    .venv/bin/python tools/check_release_consistency.py [--fix]
+    .venv/bin/python tools/check_release_consistency.py [--fix] [--no-research]
+
+It also runs tools/check_research_publication.py with its baseline, so the
+release fails when research would not reach a reader (a new item only).
 """
 
 from __future__ import annotations
@@ -90,13 +93,29 @@ def check(fix: bool) -> list[str]:
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument("--fix", action="store_true", help="rewrite verified totals in place")
+    parser.add_argument("--no-research", action="store_true", help="skip the research publication check")
     args = parser.parse_args()
     problems = check(args.fix)
     for problem in problems:
         print(("fixed: " if args.fix else "MISMATCH: ") + problem)
-    if problems and not args.fix:
+    research_failed = False if args.no_research else research_check() != 0
+    if (problems and not args.fix) or research_failed:
         sys.exit(1)
     print("Release totals consistent." if not problems else f"Fixed {len(problems)} total(s).")
+
+
+def research_check() -> int:
+    """Research written in findings.md, the register and the queue must reach the site."""
+    root = WEB.parent
+    if not (root / "data/wikitree/research-catalogue-cases.json").exists():
+        print("Research publication check skipped: no research data here.")
+        return 0
+    try:
+        from tools import check_research_publication as research
+    except ModuleNotFoundError:
+        sys.path.insert(0, str(root))
+        from tools import check_research_publication as research
+    return research.main(["--baseline", str(root / research.DEFAULT_BASELINE)])
 
 
 if __name__ == "__main__":

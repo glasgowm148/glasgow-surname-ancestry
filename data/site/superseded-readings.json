@@ -1,0 +1,29 @@
+{
+ "about": "Readings that a later check of the original corrected in findings.md. tools/check_research_publication.py searches the maintained record inputs (canonical_records.json, presentation.json, records_mentions.json, study stories, research questions, the latest-findings ledger) and the built record data for each superseded text, and reports where the old reading survives. Add an entry whenever findings correct a date, name or reading that may also sit in a record row. 'allowed_context' is a regular expression: a hit with that wording within 120 characters (for example 'earlier', 'superseded') is a statement about the correction, not the old reading.",
+ "readings": [
+  {
+   "id": "ninian-1613-will-day",
+   "profile": "Glasgow-3188",
+   "superseded": "10 January 1613",
+   "corrected": "the latter will is dated on an unread day of January 1613 (NRS CC9/7/9); confirmed 8 May 1613",
+   "recorded_in": "research/Glasgow-3188/findings.md",
+   "allowed_context": "earlier|supersed|formerly|replac|instead of|unread day|not confirm"
+  },
+  {
+   "id": "katherine-1605-confirmation-day",
+   "profile": "Glasgow-1495",
+   "superseded": "[26?] May 1605",
+   "corrected": "confirmed 9 May 1605 ('the nynt day of may 1605', NRS CC9/7/4 image 7)",
+   "recorded_in": "research/Glasgow-1495/findings.md",
+   "allowed_context": "earlier|supersed|formerly|replac|instead of"
+  },
+  {
+   "id": "john-1577-second-child",
+   "profile": "Glasgow-3181",
+   "superseded": "[Androw?/Andrew]",
+   "corrected": "the accepted reading of John Glasgow's 1577 testament names his children Katherine and Marjory (Glasgow-3589)",
+   "recorded_in": "research/Glasgow-3181/findings.md",
+   "allowed_context": "earlier|supersed|formerly|replac|instead of|not Katherine and Androw"
+  }
+ ]
+}

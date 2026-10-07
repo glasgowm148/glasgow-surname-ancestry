@@ -1,7 +1,10 @@
 PYTHON ?= .venv/bin/python
 RUFF ?= $(if $(wildcard $(dir $(PYTHON))ruff),$(dir $(PYTHON))ruff,ruff)
 
-.PHONY: test validate validate-strict lint check check-browser build
+RESEARCH_BASELINE ?= data/site/research-publication-baseline.json
+LINK_BASELINE ?= data/site/internal-link-baseline.json
+
+.PHONY: test validate validate-strict lint check check-browser check-research check-links build
 
 test:
 	$(PYTHON) -m unittest discover -s tests -q
@@ -15,7 +18,25 @@ validate-strict:
 lint:
 	$(RUFF) check src tools tests
 
-check: lint validate test
+check: lint validate test check-research check-links
+
+# Research written in findings.md, the WikiTree register and the queue must
+# reach the site. Fails on any problem not already listed in the baseline.
+# Skipped where the private research data is absent (CI).
+check-research:
+	@if [ -f data/wikitree/research-catalogue-cases.json ]; then \
+		$(PYTHON) tools/check_research_publication.py --baseline $(RESEARCH_BASELINE); \
+	else \
+		echo "check-research skipped: data/wikitree/research-catalogue-cases.json is not here (no research data)."; \
+	fi
+
+# Internal links of the built site (tools/check_internal_links.py, lane I2).
+check-links:
+	@if [ -f tools/check_internal_links.py ] && [ -f $(LINK_BASELINE) ] && [ -d www ]; then \
+		$(PYTHON) tools/check_internal_links.py --site www --baseline $(LINK_BASELINE); \
+	else \
+		echo "check-links skipped: tools/check_internal_links.py, $(LINK_BASELINE) or www/ is not there yet."; \
+	fi
 
 check-browser:
 	$(PYTHON) tools/check_site_quality.py

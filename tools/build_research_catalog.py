@@ -4537,43 +4537,87 @@ def _source_identity_keys(text: str, extra_urls: list[str] | None = None) -> dic
     return identities
 
 
-def _registered_profile_updates(wikitree_evidence: dict) -> dict[str, dict]:
-    """Turn audited OPEN and REOPEN register rows into source-backed updates."""
+def _registered_profile_updates(wikitree_evidence: dict, report: list | None = None) -> dict[str, dict]:
+    """Turn audited open entries of the WikiTree work register into updates.
+
+    ``surname-research/to-update.md`` holds two entry forms, and both are read:
+
+    * a table row that links the profile (a wikitree.com URL or ``[[ID]]``)
+      and has a cell starting OPEN or REOPEN (``OPEN``, ``OPEN — note``,
+      ``OPEN: note`` or ``OPEN (note)``); the next cell is the change;
+    * a bullet ``- [[ID]] — change`` (or a wikitree.com link) under a section
+      whose heading does not mark completed work or drafts.
+
+    Several open entries for one profile are combined, newest (top) first.
+    When ``report`` is a list, every entry is recorded in it: accepted ones
+    with ``accepted``, and dropped ones with the reason, so that
+    tools/check_research_publication.py lists what reaches no page.
+    """
     if not PROFILE_UPDATE_REGISTER.exists():
         return {}
     captures = wikitree_evidence.get("profiles", {})
+    profile_link = re.compile(
+        r"wikitree\.com/wiki/([A-Za-z][A-Za-z_'’-]*-\d+)|\[\[([A-Za-z][A-Za-z_'’-]*-\d+)(?:\|[^\]]*)?\]\]"
+    )
+    status_pattern = re.compile(r"^(?P<state>REOPEN(?:ED)?|OPEN)\b(?P<rest>.*)$", re.I)
+    closed_heading = re.compile(
+        r"\b(completed|resolved|applied|checked and not counted|drafts?|new-person|created)\b", re.I
+    )
+    bullet_pattern = re.compile(
+        r"^[-*]\s+(?:\[\[[^\]]+\]\]|\[[^\]]+\]\(https?://(?:www\.)?wikitree\.com/wiki/[^)]+\))"
+        r"\s*[—–:-]\s*(?P<text>.+)$"
+    )
+    closed_bullet = re.compile(r"^\**\s*(DONE|APPLIED LIVE|VERIFIED LIVE|COMPLETED?|CREATED|RESOLVED|WITHDRAWN)\b")
+
+    def note(line_number: int, profile_id: str, line: str, reason: str = "") -> None:
+        if report is not None:
+            report.append({"source": "register", "line": line_number, "profile_id": profile_id,
+                           "accepted": not reason, "reason": reason, "text": line.strip()[:300]})
+
     entries = {}
-    for line in PROFILE_UPDATE_REGISTER.read_text(encoding="utf-8").splitlines():
-        if not line.startswith("|"):
+    heading = ""
+    for line_number, line in enumerate(PROFILE_UPDATE_REGISTER.read_text(encoding="utf-8").splitlines(), 1):
+        if line.startswith("#"):
+            heading = line.lstrip("#").strip()
             continue
-        columns = [value.strip() for value in line.strip().strip("|").split("|")]
-        if len(columns) < 2:
-            continue
-        status_cell = columns[1].replace("**", "").strip()
-        status_match = re.match(r"^(?P<state>REOPEN(?:ED)?|OPEN)\b(?P<rest>.*)$", status_cell, re.I)
-        if not status_match:
-            continue
-        if (
-            status_match.group("state").casefold() == "open"
-            and status_match.group("rest").strip()
-            and not status_match.group("rest").strip().startswith(("—", "-", ":"))
-        ):
-            continue
-        profile_match = re.search(r"wikitree\.com/wiki/([A-Za-z][A-Za-z_'’-]*-\d+)", line)
+        profile_match = profile_link.search(line)
         if not profile_match:
             continue
-        profile_id = profile_match.group(1)
+        profile_id = profile_match.group(1) or profile_match.group(2)
+        if line.startswith("|"):
+            columns = [value.strip() for value in line.strip().strip("|").split("|")]
+            status_index = None
+            for index, cell in enumerate(columns[1:], 1):
+                status_match = status_pattern.match(cell.replace("**", "").strip())
+                if status_match and (
+                    status_match.group("state").casefold() != "open"
+                    or not status_match.group("rest").strip()
+                    or status_match.group("rest").strip().startswith(("—", "-", ":", "("))
+                ):
+                    status_index = index
+                    break
+            if status_index is None:
+                continue
+            status_cell = columns[status_index].replace("**", "").strip()
+            following = columns[status_index + 1] if len(columns) > status_index + 1 else ""
+            entry_text = " | ".join(columns[1:])
+        else:
+            bullet = bullet_pattern.match(line.strip())
+            if not bullet or closed_heading.search(heading) or closed_bullet.match(bullet.group("text")):
+                continue
+            status_cell = "OPEN"
+            following = entry_text = bullet.group("text").strip()
         embedded_summary = ""
         if ":" in status_cell:
             status, embedded_summary = status_cell.split(":", 1)
         else:
             status = status_cell
-        summary = embedded_summary.strip() or (columns[2] if len(columns) >= 3 else "")
+        summary = embedded_summary.strip() or following
         draft_path = ""
         draft_wikitext = ""
-        if len(columns) >= 2:
+        if entry_text:
             draft_match = re.search(
-                r"\[(?:Replacement draft|Complete draft)\]\(([^)]+)\)", " | ".join(columns[1:]), re.I
+                r"\[(?:Replacement draft|Complete draft)\]\(([^)]+)\)", entry_text, re.I
             )
             if draft_match:
                 candidate = (PROFILE_UPDATE_REGISTER.parent / draft_match.group(1)).resolve()
@@ -4610,6 +4654,7 @@ def _registered_profile_updates(wikitree_evidence: dict) -> dict[str, dict]:
         # A public-facing paste draft requires at least one recoverable external
         # source. Pending source-recovery cases stay in the research register.
         if not unique_sources:
+            note(line_number, profile_id, line, "no source link in the profile's findings.md or WikiTree capture")
             continue
         completed_summary = _completed_profile_summary(summary)
         conclusion = _findings_to_wikitext(_current_conclusion_markdown(findings))
@@ -4624,6 +4669,12 @@ def _registered_profile_updates(wikitree_evidence: dict) -> dict[str, dict]:
             f"{conclusion}\n\n"
             f"This assessment draws on the cited records and public source material.{source_refs}"
         )
+        previous_summary = (entries.get(profile_id) or {}).get("work_queue_summary") or ""
+        if previous_summary and summary and summary not in previous_summary:
+            summary = f"{previous_summary}\n\n{summary}"
+        elif previous_summary:
+            summary = previous_summary
+        note(line_number, profile_id, line)
         entries[profile_id] = {
             "significance": _profile_update_significance(status, summary),
             "summary": completed_summary,
@@ -4658,38 +4709,97 @@ def _validate_profile_preservation_review(profile_id: str, current: str, propose
         raise ValueError(f"Profile preservation review is incomplete for {profile_id}")
 
 
-def _load_profile_updates(wikitree_evidence: dict) -> dict[str, dict]:
-    """Build paste-ready biographies by applying reviewed patches to live WikiTree text."""
+def _load_profile_updates(wikitree_evidence: dict, report: list | None = None) -> dict[str, dict]:
+    """Build paste-ready biographies by applying reviewed patches to live WikiTree text.
+
+    A profile in ``completed_live_profiles`` keeps its queue entry as history
+    unless it is reopened: listed in ``reopened_completed_profiles``, or the
+    entry is dated (``queued_at``, or a date in its summary) after the
+    profile's recorded completion (its ``live_verified_at``, or the latest
+    DONE / APPLIED LIVE / VERIFIED LIVE date in the register). A dated entry
+    reopens only as a manual update for review; no patch is applied to it.
+    When ``report`` is a list, every entry that does not become an update is
+    recorded in it with the reason (see tools/check_research_publication.py).
+    """
     if not PROFILE_UPDATE_QUEUE.exists():
         return {}
     payload = json.loads(PROFILE_UPDATE_QUEUE.read_text(encoding="utf-8"))
     captures = wikitree_evidence.get("profiles", {})
     registered_specifications = (
-        _registered_profile_updates(wikitree_evidence)
+        _registered_profile_updates(wikitree_evidence, report)
         if payload.get("include_open_register")
         else {}
     )
+    months = ("jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec")
+
+    def latest_date(text: str) -> str:
+        found = re.findall(r"\b(20\d\d-\d\d-\d\d)\b", text or "")
+        for day, month, year in re.findall(r"\b(\d{1,2})\s+([A-Za-z]{3})[A-Za-z]*\.?\s+(20\d\d)\b", text or ""):
+            if month.casefold() in months:
+                found.append(f"{year}-{months.index(month.casefold()) + 1:02d}-{int(day):02d}")
+        return max(found, default="")
+
+    def dropped(profile_id: str, specification: dict, kind: str, reason: str) -> None:
+        if report is not None:
+            source = "register" if profile_id in registered_specifications and profile_id not in payload.get(
+                "entries", {}) else "queue"
+            report.append({"source": source, "profile_id": profile_id, "kind": kind, "reason": reason,
+                           "summary": str(specification.get("work_queue_summary")
+                                          or specification.get("summary") or "")[:300]})
+
+    completion_dates = {}
+    if payload.get("completed_live_profiles") and PROFILE_UPDATE_REGISTER.exists():
+        for line in PROFILE_UPDATE_REGISTER.read_text(encoding="utf-8").splitlines():
+            done_match = re.search(r"\b(?:DONE|APPLIED LIVE|VERIFIED LIVE)\b", line)
+            profile_match = re.search(
+                r"wikitree\.com/wiki/([A-Za-z][A-Za-z_'’-]*-\d+)|\[\[([A-Za-z][A-Za-z_'’-]*-\d+)", line
+            )
+            if done_match and profile_match:
+                done_on = latest_date(line[done_match.start():done_match.start() + 120])
+                profile_id = profile_match.group(1) or profile_match.group(2)
+                if done_on > completion_dates.get(profile_id, ""):
+                    completion_dates[profile_id] = done_on
     specifications = dict(registered_specifications)
     specifications.update(payload.get("entries", {}))
     completed_live_profiles = set(payload.get("completed_live_profiles", []))
     reopened_profiles = set(payload.get("reopened_completed_profiles", {}))
     updates = {}
     for profile_id, specification in specifications.items():
+        reopened_by_date = False
         if profile_id in completed_live_profiles and profile_id not in reopened_profiles:
-            if profile_id not in registered_specifications:
+            entry_date = str(specification.get("queued_at") or "") or latest_date(
+                f'{specification.get("summary") or ""} {specification.get("work_queue_summary") or ""}')
+            completed_on = str(specification.get("live_verified_at") or completion_dates.get(profile_id) or "")
+            if profile_id in registered_specifications:
+                # The reviewed biography is live, but an OPEN register row can still
+                # describe structured data or relationship work. Keep that task as a
+                # manual update without trying to append the register prose again.
+                specification = {
+                    **registered_specifications[profile_id],
+                    "manual_update": True,
+                    "registered_update": False,
+                    "addition_wikitext": "",
+                }
+            elif entry_date and completed_on and entry_date > completed_on:
+                # New work recorded after the live completion: list it for review
+                # as a manual update. The completed patch is not applied again.
+                reopened_by_date = True
+                specification = {
+                    key: value for key, value in specification.items()
+                    if key not in {"replacements", "post_merge_replacements", "addition_wikitext", "draft_path",
+                                   "preservation_review_path", "preserve_captured_detail",
+                                   "reviewed_narrative_reduction"}
+                }
+                specification["manual_update"] = True
+            else:
+                dropped(profile_id, specification, "completed",
+                        f"profile completed live{' on ' + completed_on if completed_on else ''}; "
+                        f"entry {'dated ' + entry_date if entry_date else 'undated'}, not after the completion")
                 continue
-            # The reviewed biography is live, but an OPEN register row can still
-            # describe structured data or relationship work. Keep that task as a
-            # manual update without trying to append the register prose again.
-            specification = {
-                **registered_specifications[profile_id],
-                "manual_update": True,
-                "registered_update": False,
-                "addition_wikitext": "",
-            }
         capture = captures.get(profile_id)
         if not capture:
-            if specification.get("registered_update"):
+            if specification.get("registered_update") or reopened_by_date:
+                dropped(profile_id, specification, "no_capture", "no WikiTree capture for this profile")
                 continue
             raise ValueError(f"Update queue profile has no captured WikiTree evidence: {profile_id}")
         manual_update = bool(specification.get("manual_update"))
@@ -4753,6 +4863,7 @@ def _load_profile_updates(wikitree_evidence: dict) -> dict[str, dict]:
             if profile_id in reopened_profiles:
                 # A later capture can show that a reopened biography amendment
                 # was applied. Keep completion history without a false badge.
+                dropped(profile_id, specification, "applied", "reopened amendment is already in the captured biography")
                 continue
             raise ValueError(f"WikiTree update queue produces no change: {profile_id}")
         updates[profile_id] = {

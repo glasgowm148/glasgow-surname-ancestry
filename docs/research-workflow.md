@@ -290,6 +290,13 @@ interactive, automatic, overnight, or resumed research loop:
     raises or lowers a concrete WikiTree edit priority.
 11. Run `.venv/bin/python src/surname_research_index.py`; normal exporter case runs do
    this automatically for cases stored under `research/`.
+12. Run `make check-research` (or, straight after editing,
+    `.venv/bin/python tools/check_research_publication.py --id <ID> ...` for the
+    profiles touched). Fix what it reports, or baseline it on purpose, before
+    calling the work published.
+
+A finding about a person goes in that person's own `findings.md`; the files of
+the relatives it concerns get a one-line cross-reference to it, not a copy.
 
 When an original record converts a speculative relationship into a direct one,
 propagate it to both people's `findings.md` files. Explicitly retire
@@ -325,17 +332,30 @@ update the current WikiTree profile safely.
 
 ### Public catalogue integration
 
-Every catalogue rebuild reads `research/<ID>/findings.md`. Substantive sections
-are placed into the corresponding public person dossier as follows:
+Every catalogue rebuild reads `research/<ID>/findings.md`
+(`tools/build_research_catalog.py::findings_section_category`):
 
-- `## Current conclusion` or `## Conclusion` appears immediately after identity details;
-- `## Source findings` appears after the chronological record timeline;
-- headings containing `candidate`, `relationship`, `identity`, `duplicate`,
-  `parentage`, `father`, or `cluster placement` appear with evidence assessments;
-- headings containing `unresolved`, `priority`, `recommended`, `suggested`,
-  `correction`, `do not add`, or `next records` appear with research questions.
+- Keep **one** overall `## Current conclusion` and keep it current; its first
+  sentence-like paragraph opens the person page. Add `Reviewed: YYYY-MM-DD`
+  under it when you re-read it. A dated or topic heading such as
+  `## Current conclusion — newspaper review, 6 October 2026` is an addition to
+  it, not a second conclusion; two undated overall conclusions show as a
+  conflict, and dated additions with no overall conclusion give no summary.
+- Every other `## ` section is published, whatever its heading, unless the
+  heading marks an editing log (the patterns in `FINDINGS_INTERNAL_HEADINGS`,
+  for example `WikiTree update instructions`, `WikiTree handoff`, `Live update`,
+  `Public profile scrape review`, `Superseded …`, `Prior assessment …`). An
+  unrecognised heading is published as general notes. Text above the first
+  `## ` heading is never published.
+- Only the unfilled template row is removed; real rows beside it stay.
 
-Untouched template text and profile-scrape dumps are not republished. External
+`tools/check_research_publication.py` reports anything that would still not
+reach a reader (text above the first heading, a source cited only in an editing
+log, no overall conclusion, a page not re-synchronised, register or queue
+entries the parsers drop, corrections not carried into
+`research/canonical_records.json` — list those in
+`data/site/superseded-readings.json`). Profile-scrape dumps are not
+republished. External
 links remain clickable. Relative links into local `sources/` folders are labelled
 as local research artifacts because those files are not automatically published.
 Known WikiTree IDs are linked to their catalogue person pages.
@@ -438,6 +458,14 @@ requested.
 - Refresh every candidate's live WikiTree profile immediately before adding,
   retaining or reprioritising it. The queue must describe only changes still
   absent from the live page.
+- Write each open entry in a form the catalogue reads: a table row
+  `| [Name (ID)](https://www.wikitree.com/wiki/ID) | OPEN | change |` (or
+  `OPEN — note`, `REOPEN`), or a bullet `- [[ID]] — change` under a dated
+  section. Mark finished rows `DONE — APPLIED LIVE <date>`; bullets under a
+  heading containing completed, resolved, applied or drafts are not read as
+  work. A queue entry for a profile already completed live reopens only when it
+  is dated after that completion (`queued_at` or a date in its summary).
+  `make check-research` lists every entry that reaches no page.
 - Rank direct relationship evidence, severe conflations, wrong-person sources,
   false migrations, and materially wrong vital events first. Then rank substantial
   original-record additions. Do not fill the leading positions with wording

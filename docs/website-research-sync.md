@@ -64,11 +64,24 @@ visible research section in the same task.
   linked candidate profile. Update any superseded unmatched assessment in its
   maintained record review and public study, retaining dated history.
 
-- Person findings: `research/<ID>/findings.md`. Use the headings supported by the
-  project skill: current conclusion, source findings, identity/relationship
-  assessments and unresolved/priority actions. The full catalogue builder reads
-  these into person HTML and JSON; raw notes and unsupported headings are not
-  guaranteed to appear.
+- Person findings: `research/<ID>/findings.md`. Keep one overall
+  `## Current conclusion` current; dated or topic conclusions are additions to
+  it. Every other `## ` section is published unless its heading marks an editing
+  log (`FINDINGS_INTERNAL_HEADINGS` in `tools/build_research_catalog.py`); text
+  above the first heading is not. Put a finding in the file of the person it is
+  about and cross-reference it from the relatives it concerns. The builders read
+  these into person HTML and JSON.
+- Publication check: after any change to findings, the WikiTree register or the
+  queue, run `make check-research` (or
+  `.venv/bin/python tools/check_research_publication.py --id <ID> ...` for the
+  profiles touched). It compares the maintained inputs with what the builders
+  publish and exits 1 on a problem not in
+  `data/site/research-publication-baseline.json`. Fix it, or record it on purpose
+  with `--update-baseline --accept-new`; never call research published while it
+  reports a new item. `--update-baseline` alone only removes fixed items. The
+  release (`tools/publish_research_release.py`,
+  `tools/check_release_consistency.py`) runs the same check. Check internal
+  links with `make check-links`.
 - Targeted verification: `.venv/bin/python tools/sync_catalogue_research.py`
   compares every eligible case's current source sections with its rendered
   dossier and compares the maintained update queue with visible drafts and
