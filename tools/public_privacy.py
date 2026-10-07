@@ -10,6 +10,28 @@ import re
 ROOT = Path(__file__).resolve().parents[1]
 WITHHELD = {"id": "", "name": "Living person (details withheld)", "withheld": True, "outside_export": False}
 RAW_FIELDS = {"biography_text", "biography_wikitext", "record_passages"}
+WITHHELD_TEXT = "Private family details withheld."
+# Values under these keys are identifiers or link targets. When one carries a
+# withheld identity it is blanked, never replaced by WITHHELD_TEXT: a renderer
+# that builds an href from it must see an empty value, not a sentence.
+LINK_KEYS = frozenset({"id", "profile_id", "catalogue_id", "catalogueId", "parent", "child", "redirectedTo", "url", "href",
+                       "profile_url", "slug", "selection_id", "html_url", "json_url", "network_url", "canonical_url"})
+
+
+def is_link_key(key) -> bool:
+    key = str(key)
+    return key in LINK_KEYS or key.endswith(("_url", "Url", "_href", "_slug", "_path"))
+
+
+def safe_href(value) -> str:
+    """Return a link target fit for an href, or "" when there is none.
+
+    A withheld or empty value gives "", so the caller prints the label as text.
+    """
+    text = str(value or "").strip()
+    if not text or any(char.isspace() for char in text) or "withheld" in text.casefold():
+        return ""
+    return text
 PROFILE_TOKEN = re.compile(r"\b[A-Za-z][A-Za-z_'’]*(?:-[A-Za-z][A-Za-z_'’]*)*-\d+\b")
 
 
@@ -140,15 +162,19 @@ class PublicPrivacy:
                 return deepcopy(WITHHELD)
             if "profile_id" in value and any(key in value for key in ("profile_fields", "privacy", "relations", "biography_text", "record_passages", "publication_scope")):
                 value = self.capture(value)
-            return {key: (None if key == "catalogueId" else "") if key in {"id", "profile_id", "catalogue_id", "catalogueId", "parent", "child", "redirectedTo", "url", "href", "profile_url"} and isinstance(item, str) and self.contains_private_id(item) else self.project(item) for key, item in value.items()
+            return {key: (None if key == "catalogueId" else "") if is_link_key(key) and isinstance(item, str) and self.contains_private_id(item) else self.project(item) for key, item in value.items()
                     if key not in RAW_FIELDS and (self.allow_approved_dna or key not in {"kits", "kit_ids", "tester_ids", "referenceKit"}) and not self.contains_private_id(key)}
         if isinstance(value, list):
             return [self.project(item) for item in value
                     if not (isinstance(item, str) and self.contains_private_id(item))]
         if isinstance(value, str) and self.contains_private_id(value):
+            # A value without spaces is an identifier, slug or URL, not prose:
+            # blank it so it can never end up as link text inside an href.
+            if not any(char.isspace() for char in value.strip()):
+                return ""
             # A free-text paragraph can carry the name alongside its ID. Keep
             # other paragraphs, but omit the complete sensitive paragraph.
-            return "\n\n".join("Private family details withheld." if self.contains_private_id(paragraph) else paragraph
+            return "\n\n".join(WITHHELD_TEXT if self.contains_private_id(paragraph) else paragraph
                                  for paragraph in re.split(r"\n\s*\n", value))
         return value
 

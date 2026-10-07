@@ -273,7 +273,7 @@ def refresh_catalogue_summaries(rows):
                     ident = read_json(WEB / "people" / (row["id"] + ".json"))["wikitree_update"]["profile_id"]
                     grid.append(BeautifulSoup(
                         f'<article><div><p class="kicker">Significance {row["wikitree_update_significance"]}/100</p>'
-                        f'<h3><a href="people/{row["id"]}.html#wikitree-update">{escape(row["name"])}</a></h3>'
+                        f'<h3><a href="/people/{row["id"]}.html#wikitree-update">{escape(row["name"])}</a></h3>'
                         f'<p><a href="https://www.wikitree.com/wiki/{ident}">{ident}</a></p></div>'
                         f'<p>{escape(row["wikitree_update_summary"])}</p></article>', "html.parser"))
         if str(soup) != old:

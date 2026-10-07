@@ -57,6 +57,18 @@ class SiteNameTests(unittest.TestCase):
             for legacy in ("Glasgow surname archive", "The surname archive", "living surname archive"):
                 self.assertNotIn(legacy, text, f"{name}: {legacy}")
 
+    def test_handoff_builders_read_the_one_site_name(self):
+        # Builders moved onto site_identity by the hand-off sweep (lane I8).
+        swept = ("build_source_collections.py", "repair_sources_page.py", "build_evidence_page.py",
+                 "build_transcriptions.py", "add_research_case_dossiers.py", "repair_research_groups.py",
+                 "site_search.py", "repair_publication_policy.py", "reconcile_retired_record_subjects.py",
+                 "site_sources/ydna_story/build.py", "site_sources/ydna_story/curated-page.html")
+        for name in swept:
+            text = (ROOT / "tools" / name).read_text(encoding="utf-8")
+            for legacy in ("Glasgow surname archive", "The surname archive", "living surname archive",
+                           "Glasgow archive", "Glasgow Sources", "Glasgow source library", "Source library · Glasgow<"):
+                self.assertNotIn(legacy, text, f"{name}: {legacy}")
+
 
 class OwnerAndCorrectionTests(unittest.TestCase):
     def test_unset_owner_and_contact_print_honest_text_and_no_dead_link(self):

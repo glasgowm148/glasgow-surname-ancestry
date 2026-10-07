@@ -8,6 +8,7 @@ import mwparserfromhell as mw
 from bs4 import BeautifulSoup
 from tools.public_privacy import from_sources
 from tools.site_identity import SITE_NAME, page_title
+from tools import study_place_links
 
 ROOT=Path(__file__).resolve().parents[1]
 EDITION=ROOT/'research/free-space-pages/edition.json'
@@ -360,6 +361,7 @@ def directory_main(pages, cards):
 def build_site(source,pages,studies,page_ids=None):
     pages=prepare(pages,source,studies);web=ROOT/'www';shell=(web/'research/index.html').read_text();state=json.loads(STATE.read_text()) if STATE.exists() else {'pages':{}}
     cards=[];index=[]
+    study_index=study_place_links.studies_by_person(study_place_links.load_studies(web))
     for p in pages:
         summary=p.get('summary');description=summary['conclusion'] if summary else (excerpt((ROOT/p['editionFile']).read_text()) if p['bodyStatus']!='Blank source' else 'The saved WikiTree source is blank; related complete studies are linked on its reading page.')
         description=sentence_excerpt(description)
@@ -394,7 +396,7 @@ def build_site(source,pages,studies,page_ids=None):
             difference='\n'.join(difflib.unified_diff(remote.splitlines(),source_text.splitlines(),fromfile='Current WikiTree',tofile='Local edition',lineterm=''))
             diff_html='<details><summary>Last retrieved WikiTree text and proposed changes</summary><label>Last retrieved WikiTree text<textarea readonly>'+escape(remote)+'</textarea></label><pre>'+escape(difference or 'The public reading texts match.')+'</pre></details>'
         sync_panel=f'<section class="fsp-sync" id="wikitree-comparison"><h2>WikiTree and this edition</h2><p><strong>{escape(status)}</strong></p><p>Saved source: {escape(p["capturedAt"][:10])}. '+(f'Last checked: {escape(sync["checkedAt"])}. ' if sync.get('checkedAt') else '')+'Local corrections are preserved; differences are reviewed before either edition is replaced.</p><p><a href="'+escape(p['viewUrl'],quote=True)+'" rel="noopener">Open the WikiTree page ↗</a> · <a href="/free-space/#edition-updates">How updates are reconciled</a></p>'+diff_html+'<details><summary>Complete local WikiTree draft</summary><p>This is the public-safe local text, ready for review. A live WikiTree save is a separate action.</p><label>Local replacement text<textarea readonly>'+escape(source_text)+'</textarea></label></details></section>'
-        main=f'<main class="r-main fsp-main" id="main"><header class="r-page-head"><span class="r-kicker">{escape(p["category"])}</span><h1>{escape(p["title"].replace(chr(39)*2,""))}</h1><p>A maintained local edition of the research, with the original sources and assessments.</p><nav class="r-actions"><a href="/free-space/">← Research library</a><a href="{escape(p["viewUrl"],quote=True)}" rel="noopener">WikiTree edition ↗</a><a href="#wikitree-comparison">Compare editions</a></nav></header>{position}{notice}<div class="fsp-reading-layout"><aside class="fsp-contents"><details open><summary>On this page</summary><ol>{contents}</ol></details></aside><article class="fsp-reading">{body}{sync_panel}</article></div></main>'
+        main=f'<main class="r-main fsp-main" id="main"><header class="r-page-head"><span class="r-kicker">{escape(p["category"])}</span><h1>{escape(p["title"].replace(chr(39)*2,""))}</h1><p>A maintained local edition of the research, with the original sources and assessments.</p><nav class="r-actions"><a href="/free-space/">← Research library</a><a href="{escape(p["viewUrl"],quote=True)}" rel="noopener">WikiTree edition ↗</a><a href="#wikitree-comparison">Compare editions</a></nav>{study_place_links.render_related_studies(study_place_links.wikitree_ids(source_text), study_index)}</header>{position}{notice}<div class="fsp-reading-layout"><aside class="fsp-contents"><details open><summary>On this page</summary><ol>{contents}</ol></details></aside><article class="fsp-reading">{body}{sync_panel}</article></div></main>'
         meta_description = p['title'].replace(chr(39)*2, '') + ': ' + description
         target=web/p['url'].strip('/')/'index.html';target.parent.mkdir(parents=True,exist_ok=True);target.write_text(shell_page(shell,main,p['title'],p['url']+'index.html',meta_description))
     main=directory_main(pages,cards)

@@ -17,13 +17,15 @@ import sys
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
 import evidence_labels as ev  # noqa: E402
+from repair_primary_navigation import render_breadcrumbs  # noqa: E402
+from site_identity import SITE_NAME, page_title  # noqa: E402
 
 WEB = ROOT / "www"
 TEMPLATE = WEB / "about/index.html"
 OUTPUT = WEB / "evidence/index.html"
-TITLE = f"{ev.GUIDE_LABEL} · Glasgow surname archive"
-DESCRIPTION = ("What the evidence and confidence labels on the Glasgow surname archive mean: documented, "
-               "supported, probable and possible links, tree marks, record quality, estimates and research clusters.")
+TITLE = page_title(ev.GUIDE_LABEL)
+DESCRIPTION = (f"What the evidence and confidence labels on the {SITE_NAME} site mean: documented, "
+               "supported, probable and possible links, tree marks, record quality, estimates and possible groups.")
 CSS = f'<link rel="stylesheet" href="/assets/research/evidence.css?v={ev.VERSION}">'
 CSS_SOURCE = ROOT / "tools/evidence.css"
 CSS_TARGET = WEB / "assets/research/evidence.css"
@@ -194,8 +196,11 @@ def render(template: str) -> str:
                   lambda _: f'<meta name="description" content="{escape(DESCRIPTION, quote=True)}">', page, count=1)
     page = page.replace('data-g-path="/about/index.html"', 'data-g-path="/evidence/index.html"', 1)
     page = page.replace("g-kind-about", "g-kind-evidence", 1)
-    page = re.sub(r'(<div class="g-crumbs"><a href="/">Glasgow archive</a><i>/</i><strong>).*?(</strong>)',
-                  lambda m: m[1] + escape(ev.GUIDE_LABEL) + m[2], page, count=1, flags=re.S)
+    # One breadcrumb (Home / About / How to read the evidence), whatever root
+    # label the About template carries (an older site name before the identity
+    # pass, "Home" after it).
+    page = re.sub(r'<div class="g-crumbs">.*?</div>',
+                  lambda _: render_breadcrumbs(Path("evidence/index.html"), escape(ev.GUIDE_LABEL)), page, count=1, flags=re.S)
     page = re.sub(r"<main\b[^>]*>.*?</main>", lambda _: main_html(), page, count=1, flags=re.S)
     if "/assets/research/evidence.css" not in page:
         page = page.replace("</head>", CSS + "</head>", 1)

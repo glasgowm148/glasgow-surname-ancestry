@@ -10,11 +10,13 @@ try:
     from tools.publish_clean_urls import _with_base
     from tools.site_analytics import with_analytics
     from tools.site_identity import page_title
+    from tools import study_place_links
 except ModuleNotFoundError:
     from repair_primary_navigation import NAV, render_primary_navigation
     from publish_clean_urls import _with_base
     from site_analytics import with_analytics
     from site_identity import page_title
+    import study_place_links
 
 ROOT = Path(__file__).resolve().parents[1]
 INPUT = ROOT / 'research/latest-findings-subjects/subjects.json'
@@ -26,6 +28,7 @@ PUBLIC_PERSON_FIELDS = ('anchor', 'anchor_aliases', 'name', 'status', 'identity_
 def build():
     data = json.loads(INPUT.read_text())
     template = (ROOT / 'www/about/index.html').read_text()
+    study_index = study_place_links.studies_by_person(study_place_links.load_studies(ROOT / 'www'))
     changed = 0
     for group in data['groups']:
         if not SAFE_KEY.fullmatch(group['slug']):
@@ -76,7 +79,21 @@ def build():
                             '<details><summary>Duplicate check and relationship limits</summary><ul>' + check + '</ul></details>' +
                             f'<p><strong>Next identity test:</strong> {escape(person["next_test"])}</p>'
                             '<details><summary>Complete sourced WikiTree draft</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">' + escape(person['wikitext']) + '</pre></details></section>')
-        content = '<main id="main" class="r-main"><header><p class="r-kicker">People in the records</p><h1>' + escape(group['title']) + '</h1><p>' + escape(group['introduction']) + '</p><p><a href="/latest-findings/">Latest findings</a> · <a href="/catalogue/">People catalogue</a></p><ul>' + ''.join(links) + '</ul></header>' + ''.join(sections) + '</main>'
+        # Related studies (S1-12): only profiles a record identifies (matched
+        # profiles and the identified family), never compatible candidates.
+        identified = [c['id'] for person in group['people'] if person.get('status', '').startswith('MATCHED')
+                      for c in person.get('candidates', [])]
+        identified += [r['id'] for person in group['people'] for r in person.get('related_profiles', [])]
+        related = study_place_links.render_related_studies([str(pid).lower() for pid in identified], study_index)
+        # Compatible candidates are leads: their studies get their own, plainly
+        # qualified line and never the "people named here" wording.
+        candidates = [str(c['id']).lower() for person in group['people'] if not person.get('status', '').startswith('MATCHED')
+                      for c in person.get('candidates', [])]
+        related += study_place_links.render_related_studies(
+            [pid for pid in candidates if pid not in {str(i).lower() for i in identified}], study_index,
+            intro='Studies that include a possible WikiTree match for someone here (not yet confirmed)',
+            counted=('possible match', 'possible matches'))
+        content = '<main id="main" class="r-main"><header><p class="r-kicker">People in the records</p><h1>' + escape(group['title']) + '</h1><p>' + escape(group['introduction']) + '</p>' + related + '<p><a href="/latest-findings/">Latest findings</a> · <a href="/catalogue/">People catalogue</a></p><ul>' + ''.join(links) + '</ul></header>' + ''.join(sections) + '</main>'
         page = re.sub(r'<main\b[^>]*>.*?</main>', lambda _: content, template, count=1, flags=re.S)
         page = re.sub(r'<title>.*?</title>', lambda _: '<title>' + escape(page_title(group['title'])) + '</title>', page, count=1, flags=re.S)
         page = re.sub(r'<link\b[^>]*rel="canonical"[^>]*>', '<link rel="canonical" href="https://glasgow.phenotype.dev' + url + '">', page, count=1)

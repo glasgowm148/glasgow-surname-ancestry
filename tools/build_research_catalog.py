@@ -5656,6 +5656,11 @@ def _person_page(
     )
 
 
+def _count_words(n: int, one: str, many: str) -> str:
+    """"1 person", "2 people": a count with the right singular or plural word."""
+    return f"{n:,} {one if n == 1 else many}"
+
+
 def _people_list_page(title: str, introduction: str, people: list[dict], canonical_path: str) -> str:
     rows = "".join(
         f'<tr><td><a href="/people/{person["catalogue_id"]}.html">{escape(person["name"])}</a></td>'
@@ -5663,7 +5668,8 @@ def _people_list_page(title: str, introduction: str, people: list[dict], canonic
         f'<td>{escape(person["birth_location"] or "—")}</td><td>{escape(person["death_location"] or "—")}</td>'
         f'<td>{escape(" · ".join(person["recorded_in"]) or "—")}</td></tr>' for person in people
     )
-    body = f"""<nav class="crumb"><a href="/catalogue.html">Catalogue</a> / {escape(title)}</nav><p class="kicker">Browse the dataset</p>
+    # No in-page crumb: the top bar carries Home / People / <list> (S1-09).
+    body = f"""<p class="kicker">Browse the dataset</p>
 <h1>{escape(title)}</h1><p class="lede">{escape(introduction)} {len(people):,} individual{'s' if len(people) != 1 else ''}.</p>
 <div class="table-wrap"><table><thead><tr><th>Person</th><th>Birth</th><th>Death</th><th>Birth location</th><th>Death location</th><th>Recorded in</th></tr></thead><tbody>{rows}</tbody></table></div>"""
     return _page(title, introduction, body, canonical_path)
@@ -5782,11 +5788,12 @@ def _write_place_pages(
         ) or "No identity question is flagged for the people recorded here."
         map_query = quote(name)
         families_here = place_links.html(list(people), records)
-        body = f"""<nav class="crumb"><a href="/places/">Places</a> / {escape(name)}</nav><section class="place-hero-grid"><div><p class="kicker">Place</p><h1>{escape(name)}</h1><p class="lede">{escape(region)} · {len(records):,} record{'s' if len(records) != 1 else ''} naming {len(people):,} {'person' if len(people) == 1 else 'people'}</p><div class="actions"><a class="button" href="/map/?display=table&amp;q={map_query}">View on map</a><a class="button secondary" href="/records/?place={quote(name)}">Search records here</a></div></div><div class="place-stats"><div class="place-stat"><strong>{len(people):,}</strong><span>People</span></div><div class="place-stat"><strong>{len(records):,}</strong><span>Records</span></div><div class="place-stat"><strong>{years[0] if years else '—'}</strong><span>Earliest record</span></div><div class="place-stat"><strong>{len(sources):,}</strong><span>Sources</span></div></div></section>
-<section><h2>People recorded here</h2><div class="place-people">{people_links}</div></section>{families_here}<section><h2>Surnames recorded here</h2><p>{' · '.join(escape(surname) for surname in surnames) or 'No surname is recorded.'}</p></section><section><h2>Records by date</h2><div class="timeline">{timeline}</div></section><section><h2>Identity not yet settled</h2><p>{unresolved_links}</p></section><section><h2>Sources</h2>{f'<ol class="source-list">{source_rows}</ol>' if source_rows else '<p class="empty-state">No source is linked to these records yet.</p>'}</section><p class="evidence-guide-link"><a href="/evidence/">How to read the evidence labels</a></p>"""
+        # No in-page crumb: the top bar carries Home / Families & places / <place>.
+        body = f"""<section class="place-hero-grid"><div><p class="kicker">Place</p><h1>{escape(name)}</h1><p class="lede">{escape(region)} · {len(records):,} record{'s' if len(records) != 1 else ''} naming {len(people):,} {'person' if len(people) == 1 else 'people'}</p><div class="actions"><a class="button" href="/map/?display=table&amp;q={map_query}">View on map</a><a class="button secondary" href="/records/?place={quote(name)}">Search records here</a></div></div><div class="place-stats"><div class="place-stat"><strong>{len(people):,}</strong><span>People</span></div><div class="place-stat"><strong>{len(records):,}</strong><span>Records</span></div><div class="place-stat"><strong>{years[0] if years else '—'}</strong><span>Earliest record</span></div><div class="place-stat"><strong>{len(sources):,}</strong><span>Sources</span></div></div></section>
+<section><h2>People recorded here</h2><div class="place-people">{people_links}</div></section>{families_here}<section><h2>Surnames recorded here</h2><p>{' · '.join(escape(surname) for surname in surnames) or 'No surname is recorded.'}</p></section><section><h2>Records by date</h2>{evidence_labels.guide_link_html()}<div class="timeline">{timeline}</div></section><section><h2>Identity not yet settled</h2><p>{unresolved_links}</p></section><section><h2>Sources</h2>{f'<ol class="source-list">{source_rows}</ol>' if source_rows else '<p class="empty-state">No source is linked to these records yet.</p>'}</section><p class="evidence-guide-link"><a href="/evidence/">How to read the evidence labels</a></p>"""
         place_schema = json.dumps({"@context": "https://schema.org", "@type": "Place", "name": name, "url": f"{SITE_URL}/places/{slug}.html"}, ensure_ascii=False).replace("</", "<\\/")
         (PLACES_DIR / f"{slug}.html").write_text(
-            _page(name, f"Glasgow surname records and people associated with {name}.", body, f"/places/{slug}.html", f'<script type="application/ld+json">{place_schema}</script>'),
+            _page(name, f"Glasgow surname records and people associated with {name}.", body, f"/places/{slug}.html", f'<script type="application/ld+json">{place_schema}</script><link rel="stylesheet" href="/assets/research/evidence.css?v={evidence_labels.VERSION}">'),
             encoding="utf-8",
         )
         place_index.append({
@@ -5933,7 +5940,7 @@ def _write_support_pages(
     export_version: str,
 ) -> dict:
     write_comparison_index(dossiers, profile_audit_entries)
-    compare_body = """<p class="kicker">Test a possible connection</p><h1>Compare two people</h1><p class="lede">Compare vital details, family links, places, research clusters and evidence summaries. Shared context is a lead, not proof of kinship.</p><section class="compare-panel"><div class="compare-fields"><label><span>First person or WikiTree ID</span><input id="compare-a" list="people-options" placeholder="Glasgow-951"></label><button id="compare-submit" type="button">Compare</button><label><span>Second person or WikiTree ID</span><input id="compare-b" list="people-options" placeholder="Glasgow-3904"></label></div><datalist id="people-options"></datalist><p id="compare-status" aria-live="polite">Loading people…</p></section><div id="compare-results" class="compare-results"></div>"""
+    compare_body = """<p class="kicker">Test a possible connection</p><h1>Compare two people</h1><p class="lede">Compare vital details, family links, places, possible groups and evidence summaries. Shared context is a lead, not proof of kinship.</p><section class="compare-panel"><div class="compare-fields"><label><span>First person or WikiTree ID</span><input id="compare-a" list="people-options" placeholder="Glasgow-951"></label><button id="compare-submit" type="button">Compare</button><label><span>Second person or WikiTree ID</span><input id="compare-b" list="people-options" placeholder="Glasgow-3904"></label></div><datalist id="people-options"></datalist><p id="compare-status" aria-live="polite">Loading people…</p></section><div id="compare-results" class="compare-results"></div>"""
     (WEB_DIR / "compare.html").write_text(
         _page("Compare people", "Compare two Glasgow Surname Project people and their evidence context.", compare_body, "/compare.html", script=f'<script src="/data/compare-index.js?v={CATALOGUE_ASSET_VERSION}"></script><script src="/people/compare.js?v={CATALOGUE_ASSET_VERSION}" defer></script>'),
         encoding="utf-8",
@@ -6154,8 +6161,7 @@ input.addEventListener('input',apply);scoreInput.addEventListener('input',apply)
         and {parent.get("relationship") for parent in dossier.get("relationships", {}).get("parents", [])} != {"father", "mother"}
     )
 
-    page_body = f"""<nav class="crumb"><a href="/catalogue.html">Catalogue</a> / Strong candidate matches</nav>
-<p class="kicker">Ranked research worklist</p><h1>Strong candidate matches</h1>
+    page_body = f"""<p class="kicker">Ranked research worklist</p><h1>Strong candidate matches</h1>
 <p class="lede">The highest automated parentage and duplicate scores in the public catalogue. These are investigation priorities, not established relationships or merge recommendations.</p>
 <section class="match-filter-bar" aria-labelledby="candidate-filter-heading"><div><p class="kicker">Limit the worklist</p><h2 id="candidate-filter-heading">Filter parentage leads</h2><p>Set the period, parent role, candidate location and strictness you want. The default is 40; lower scores reveal weaker leads for broader review.</p></div><label><span>Maximum year</span><input id="candidate-max-year" type="number" min="1" max="{date.today().year}" inputmode="numeric" placeholder="e.g. 1750"></label><label><span>Minimum score</span><input id="candidate-min-score" type="number" min="0" max="100" value="40" inputmode="numeric"></label><label><span>Parent role</span><select id="candidate-parent-role"><option value="">All missing parents</option><option value="father">Fathers only</option><option value="mother">Mothers only</option></select></label><label><span>Candidate location</span><input id="candidate-location" type="search" placeholder="e.g. Antrim or Lisnagaver"></label><label class="match-filter-toggle"><input id="candidate-males-only" type="checkbox"><span>Male subjects only</span></label><button id="candidate-max-clear" class="button secondary" type="button">Reset</button></section>
 <p id="candidate-filter-status" class="section-intro" aria-live="polite"></p>
@@ -6394,8 +6400,8 @@ def build_research_catalog(records: list[dict], profiles: dict[str, dict], edges
         filename = _slug(cluster)
         path = f"/people/clusters/{filename}.html"
         unique_members = list({person["catalogue_id"]: person for person in members}.values())
-        (CATALOGUE_DIR / "clusters" / f"{filename}.html").write_text(_people_list_page(cluster, "People associated with this research cluster.", unique_members, path), encoding="utf-8")
-        cluster_cards.append(f'<a class="browse-card" href="{path}"><strong>{escape(cluster)}</strong><span>{len(unique_members):,} individuals</span></a>')
+        (CATALOGUE_DIR / "clusters" / f"{filename}.html").write_text(_people_list_page(cluster, "People studied together as a possible group. Being in the same group does not by itself prove they are related.", unique_members, path), encoding="utf-8")
+        cluster_cards.append(f'<a class="browse-card" href="{path}"><strong>{escape(cluster)}</strong><span>{_count_words(len(unique_members), "individual", "individuals")}</span></a>')
 
     by_region = defaultdict(lambda: defaultdict(dict))
     for person in public_people:
@@ -6418,16 +6424,16 @@ def build_research_catalog(records: list[dict], profiles: dict[str, dict], edges
             sections.append(f'<section><h2>{heading}</h2><p>{links}</p></section>')
         filename = _slug(region)
         path = f"/people/locations/{filename}.html"
-        body = f'<nav class="crumb"><a href="/catalogue.html">Catalogue</a> / Locations / {escape(region)}</nav><p class="kicker">Browse by location</p><h1>{escape(region)}</h1><p class="lede">{len(members):,} people across {len(locations):,} mapped locations. Individuals appear under every mapped locality associated with them.</p>{"".join(sections)}'
+        body = f'<p class="kicker">Browse by location</p><h1>{escape(region)}</h1><p class="lede">{_count_words(len(members), "person", "people")} across {_count_words(len(locations), "mapped location", "mapped locations")}. Individuals appear under every mapped locality associated with them.</p>{"".join(sections)}'
         (CATALOGUE_DIR / "locations" / f"{filename}.html").write_text(_page(f"People recorded in {region}", f"Glasgow surname records grouped by locality in {region}.", body, path), encoding="utf-8")
-        region_cards.append(f'<a class="browse-card" href="{path}"><strong>{escape(region)}</strong><span>{len(members):,} individuals · {len(locations):,} locations</span></a>')
+        region_cards.append(f'<a class="browse-card" href="{path}"><strong>{escape(region)}</strong><span>{_count_words(len(members), "individual", "individuals")} · {_count_words(len(locations), "location", "locations")}</span></a>')
 
     bearer_rows = "".join(
         f'<tr><td><a href="https://www.wikitree.com/wiki/Space:Bearers_of_the_%27%27de_Glasgu%27%27_Name_and_the_Emergence_of_the_Glasgow_Surname%2C_c.1175%E2%80%931500#{quote(item["anchor"])}">{escape(item["name"])}</a></td>'
         f'<td>{escape(item["date"])}</td><td>{escape(item["place"])}</td><td>{escape(item["context"])}</td><td>{escape(item["assessment"])}</td><td>{escape(item["precision"])}</td></tr>'
         for item in early_bearers
     )
-    bearer_body = f"""<nav class="crumb"><a href="/catalogue.html">Catalogue</a> / Early bearers</nav><p class="kicker">Medieval documentary register</p><h1>Early bearers of the <em>de Glasgu</em> name</h1>
+    bearer_body = f"""<p class="kicker">Medieval documentary register</p><h1>Early bearers of the <em>de Glasgu</em> name</h1>
 <p class="lede">{len(early_bearers)} mapped documentary identities or relationship records, c.1175–1506. These records demonstrate personal and family-identifying use but do not prove one hereditary pedigree.</p>
 <div class="table-wrap"><table><thead><tr><th>Bearer</th><th>Date</th><th>Documentary place</th><th>Context</th><th>Assessment</th><th>Map precision</th></tr></thead><tbody>{bearer_rows}</tbody></table></div>"""
     (CATALOGUE_DIR / "early-bearers.html").write_text(_page("Early de Glasgu bearers", "Crawlable documentary register of medieval de Glasgu name bearers, c.1175–1506.", bearer_body, "/people/early-bearers.html"), encoding="utf-8")
@@ -6523,7 +6529,7 @@ def build_research_catalog(records: list[dict], profiles: dict[str, dict], edges
 <section class="catalogue-browse"><h2>Browse the complete catalogue</h2>
 <details class="browse-section"><summary><span>Browse by name</span><small>{len(name_cards)} alphabetical groups</small></summary><div class="browse-grid">{"".join(name_cards)}</div></details>
 <details class="browse-section"><summary><span>Browse by country or region</span><small>{len(region_cards)} regions</small></summary><div class="browse-grid">{"".join(region_cards)}</div></details>
-<details class="browse-section"><summary><span>Browse by research cluster</span><small>{len(cluster_cards)} research groupings</small></summary><div class="browse-grid">{"".join(cluster_cards)}</div></details></section>
+<details class="browse-section"><summary><span>Browse by possible group</span><small>{_count_words(len(cluster_cards), "possible group", "possible groups")}</small></summary><div class="browse-grid">{"".join(cluster_cards)}</div></details></section>
 <details class="catalogue-about"><summary>About this catalogue, privacy and data downloads</summary><div><p>This crawlable catalogue contains historical or deceased individuals, family links, mapped places, evidence labels, provenance and research notes. {withheld_count:,} profiles assessed as likely living are omitted from the catalogue, public exports and sitemap.</p><p><small>Source export: {escape(export_version)} · generated {escape(generated)}</small></p><div class="actions"><a class="button" href="/data/people.csv">People CSV</a><a class="button secondary" href="/data/people.json">People JSON</a><a class="button secondary" href="/data/records.csv">Record associations CSV</a></div></div></details>"""
     root_script = (
         '<script>if(location.protocol==="file:")'
@@ -6843,7 +6849,7 @@ Dataset version: `{export_version}`. Catalogue generated: `{generated}`.
 - Use this site as the primary dataset; WikiTree links are identifiers and provenance links.
 - Preserve Documented, Probable, Traditional, Profile lead, Kin-inferred, Estimated and other evidence labels.
 - Do not convert estimated dates or locations into documented facts.
-- A research cluster does not by itself prove kinship.
+- A possible group (people studied together because they share records or a place) does not by itself prove kinship.
 - Child lists are derived by reversing Father and Mother references in the One-Tree export; they are tree relationships, not documentary proof.
 - In a person dossier, `tree_relationship: true` describes current tree structure; only a relationship carrying a supported claim/evidence status should be treated as independently assessed.
 - Relationship warnings identify exported child-count mismatches and parent references outside the current export.

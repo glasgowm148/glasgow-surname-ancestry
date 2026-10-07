@@ -63,6 +63,15 @@ visible research section in the same task.
   `people[].draft_url` for an additional evidence draft alongside a directly
   linked candidate profile. Update any superseded unmatched assessment in its
   maintained record review and public study, retaining dated history.
+  The findings builder also writes an Atom feed (`/latest-findings/feed.xml`),
+  per-study pages (`/latest-findings/studies/<study-id>/`), a by-place page
+  (`/latest-findings/places/`) and `www/data/findings-by-subject.json` (findings
+  by person, study and place, newest first; read it with
+  `build_latest_findings.findings_for`). Studies and places are derived from the
+  people a finding links (study membership and the places those people are
+  recorded at), so the ledger needs no study or place field. Rebuild study pages
+  (`tools/build_study_pages.py`) after the findings builder so their "Latest
+  findings about this study" blocks are current.
 
 - Person findings: `research/<ID>/findings.md`. Keep one overall
   `## Current conclusion` current; dated or topic conclusions are additions to
@@ -82,6 +91,22 @@ visible research section in the same task.
   release (`tools/publish_research_release.py`,
   `tools/check_release_consistency.py`) runs the same check. Check internal
   links with `make check-links`.
+- Link index: `.venv/bin/python tools/build_backlinks.py` writes
+  `www/data/person-links.json`, the "who links to whom" index: for each person
+  the family and place studies, place pages, source pages, latest findings,
+  research and WikiTree study pages, and other people's notes that mention them,
+  plus the links between study pages and place pages. It reads built pages, so
+  run it after the section builders (catalogue build, `build_study_pages.py`)
+  and before person pages are rendered; it writes only when the content
+  changes, and `--check` exits 0 when the index is current. It never reads
+  `data/private/` and screens people exactly as the person pages do.
+- Link check: `make check-links` runs `tools/check_internal_links.py --site www
+  --baseline data/site/internal-link-baseline.json` over every built page
+  (about 90 seconds). It groups broken internal links by cause, names the
+  builder to fix and exits 1 only for a broken link not in the baseline; it is
+  skipped until the baseline exists. Fix the cause in the builder, never in
+  `www/`. `--update-baseline` only removes links that are fixed, and
+  `--report <file.json>` writes the full list.
 - Targeted verification: `.venv/bin/python tools/sync_catalogue_research.py`
   compares every eligible case's current source sections with its rendered
   dossier and compares the maintained update queue with visible drafts and

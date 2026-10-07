@@ -5,6 +5,10 @@ from html import escape
 import json
 from pathlib import Path
 import re
+try:
+    from tools.site_identity import SITE_NAME, page_title
+except ModuleNotFoundError:
+    from site_identity import SITE_NAME, page_title
 
 ROOT = Path(__file__).resolve().parents[1]
 WEB = ROOT / 'www'
@@ -223,7 +227,7 @@ def repair():
 <section class="experience-topic"><span class="r-kicker">The open question</span><h2>{escape(group['question'])}</h2><p>{escape(group['conclusion'])}</p></section>
 <div class="r-grid2"><section><h2>People to investigate</h2><p class="r-caption">Named anchors and candidates, not an automatic descendant list.</p><div class="r-linklist">{people}</div></section><section><h2>What connects these people?</h2><p>{escape(group['boundary'])}</p><h3>What would move it forward?</h3><p>{escape(group['next'])}</p><h3>Read the evidence</h3><ul>{links}</ul></section></div></main>'''
         page = re.sub(r'<main\b[^>]*>.*?</main>', lambda _: content, template, count=1, flags=re.S)
-        page = re.sub(r'<title>.*?</title>', '<title>' + escape(group['label']) + ' | Glasgow surname archive</title>', page, count=1, flags=re.S)
+        page = re.sub(r'<title>.*?</title>', lambda _: '<title>' + escape(page_title(group['label'])) + '</title>', page, count=1, flags=re.S)
         page = page.replace('data-g-path="/branches/family-glasgow-1095/index.html"', 'data-g-path="/branches/' + group['id'] + '/index.html"')
         # Curated studies are deliberately smaller than the inherited John c.1475
         # template. Their branch context must remain the named anchors above.

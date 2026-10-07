@@ -68,7 +68,9 @@
       const name=relation.name||id;
       const confidence=relationConfidence(relation);
       const compact=confidence.key==='confident';
-      const confidenceHtml=showConfidence?`<span class="catalogue-relation-status confidence-${confidence.key}" title="${esc(confidence.title)}" > ${compact?'<span aria-hidden="true">✓</span><span class="sr-only">'+esc(confidence.label)+'</span>':esc(confidence.label)}</span>`:'';
+      // The label links to its entry in the evidence guide (/evidence/#state-<key>).
+      const guideUrl=`/evidence/#state-${confidence.key.replaceAll('_','-')}`;
+      const confidenceHtml=showConfidence?`<span class="catalogue-relation-status confidence-${confidence.key}" title="${esc(confidence.title)}" > <a class="ev-label-link" href="${guideUrl}">${compact?'<span aria-hidden="true">✓</span><span class="sr-only">'+esc(confidence.label)+'</span>':esc(confidence.label)}</a></span>`:'';
       const classes=`catalogue-relation${showConfidence?` catalogue-parent confidence-${confidence.key}`:''}`;
       if(!id) return `<span class="${classes}">${esc(name)} ${confidenceHtml}</span>`;
       const idLabel=normalise(name)!==normalise(id)?`<small>${esc(id)}</small>`:'';
@@ -1362,7 +1364,7 @@
     }
     if(text(controls.region)) add('region','places',`Country or region: ${optionText(controls.region)}`,resetControls('region'));
     if(text(controls.excludeDeath)) add('excludeDeath','places',`Exclude location: ${text(controls.excludeDeath)}`,resetControls('excludeDeath'));
-    if(text(controls.cluster)) add('cluster','evidence',`Family or research group: ${optionText(controls.cluster)}`,resetControls('cluster'));
+    if(text(controls.cluster)) add('cluster','evidence',`Possible group: ${optionText(controls.cluster)}`,resetControls('cluster'));
     if(text(controls.recordType)) add('recordType','evidence',`Record type: ${optionText(controls.recordType)}`,resetControls('recordType'));
     if(text(controls.sourceQuality)) add('sourceQuality','evidence',`Source quality: ${optionText(controls.sourceQuality)}`,resetControls('sourceQuality'));
     flagChips.forEach(([key,panelKey,label])=>{if(controls[key]&&controls[key].checked) add(key,panelKey,label,resetControls(key));});

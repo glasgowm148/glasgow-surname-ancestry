@@ -106,7 +106,9 @@ class RegionalStudyMapTests(unittest.TestCase):
         for region in ['north-american-families', 'australasian-families', 'english-welsh-families', 'other-family-places']:
             for area in metadata[region]['areas']:
                 self.assertIn('documentary records', area['metrics']['evidence_text'])
-                self.assertIn('unreviewed profile leads', area['metrics']['evidence_text'])
+                # Reader wording since lane I8 (was "unreviewed profile leads"); it reaches the JSON on the next map build.
+                self.assertTrue(any(words in area['metrics']['evidence_text'] for words in
+                                    ('from the family tree, not yet checked against records', 'unreviewed profile leads')))
 
 
 if __name__ == "__main__":

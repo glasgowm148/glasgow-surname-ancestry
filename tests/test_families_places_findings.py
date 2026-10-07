@@ -105,7 +105,16 @@ class StudyPageTextTests(unittest.TestCase):
     def test_people_are_grouped_by_household_and_ordered_by_date(self):
         registry = {'a': {'name': 'A', 'from': '1790'}, 'b': {'name': 'B', 'from': '1750'}, 'c': {'name': 'C'}, 'd': {'name': 'D', 'from': '1700'}}
         clusters = [{'title': 'First household', 'people': ['a', 'b']}, {'title': 'Second', 'people': ['c']}]
-        soup = BeautifulSoup(studies.people_list(['a', 'b', 'c', 'd'], clusters, registry), 'html.parser')
+        # Names link only to people with a published page (lane I8), so give each one a page.
+        with tempfile.TemporaryDirectory() as tmp:
+            (Path(tmp) / 'people').mkdir()
+            for slug in 'abcd':
+                (Path(tmp) / 'people' / f'{slug}.html').write_text('')
+            web, studies.WEB = studies.WEB, Path(tmp)
+            try:
+                soup = BeautifulSoup(studies.people_list(['a', 'b', 'c', 'd'], clusters, registry), 'html.parser')
+            finally:
+                studies.WEB = web
         self.assertEqual(['First household', 'Second', 'Others in this study'], [h.text for h in soup.select('.sp-people-group')])
         self.assertEqual(['B', 'A'], [a.text for a in soup.select('.sp-people')[0].select('a')])
 

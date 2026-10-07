@@ -37,6 +37,17 @@ def _statistics_markup() -> str:
     return statistics
 
 
+def rebase_catalogue_links(markup: str) -> str:
+    """Make the catalogue pane's links root-absolute for /statistics/.
+
+    The pane is written for the catalogue page, which sets <base href="/">;
+    copied into /statistics/ its relative links would resolve in the wrong
+    folder (catalogue.html?first=John -> /statistics/catalogue.html).
+    """
+    markup = re.sub(r'href="(people/|places/)', r'href="/\1', markup)
+    return re.sub(r'href="/?catalogue\.html(?=[?#"])', 'href="/catalogue/', markup)
+
+
 def _current_catalogue_summary() -> str | None:
     """Use targeted count repairs already applied to the public catalogue."""
     catalogue_path = WEB / 'catalogue/index.html'
@@ -67,9 +78,8 @@ def repair():
     if not summary or not detail:
         raise RuntimeError('Could not locate the maintained statistics summary or detail panels')
     panels, caution = detail.groups()
-    panels = re.sub(r'href="(people/|places/)', r'href="/\1', panels)
-    panels = panels.replace('/catalogue.html?', '/catalogue/?')
-    current_summary = _current_catalogue_summary() or summary.group(0)
+    panels = rebase_catalogue_links(panels)
+    current_summary = rebase_catalogue_links(_current_catalogue_summary() or summary.group(0))
     main = '''<main class="r-main statistics-page" id="main"><header class="v3-page-head statistics-page-head"><span class="r-kicker">The collection, at a glance</span><h1>Statistics from the<br>public historical catalogue.</h1><p>Counts are drawn from the maintained catalogue snapshot. They describe records and documented associations, not a proved single family tree. The headline totals are the same as on <a href="/about/">About</a> and <a href="/status/">Catalogue status</a>.</p></header><section class="statistics-page-summary" aria-label="Catalogue summary">''' + current_summary + '''</section><section class="statistics-page-panels" aria-labelledby="statistics-detail-title"><div class="statistics-page-intro"><span class="r-kicker">Patterns in the collection</span><h2 id="statistics-detail-title">Places, names, branches and movement</h2><p>Each panel remains linked back to the relevant catalogue or place view.</p></div><div class="statistics-grid">''' + panels + '''</div><p class="statistics-caution">''' + caution + '''</p></section></main>'''
     shell = re.sub(r'<title>.*?</title>', lambda _: f'<title>{page_title("Statistics")}</title>', shell, count=1, flags=re.S)
     shell = re.sub(r'<meta content="The Glasgow surname (?:archive|project):[^"]*" name="description"\s*/?>', '<meta content="Statistics from the public historical catalogue: places, names, branches and recorded movement." name="description">', shell, count=1)

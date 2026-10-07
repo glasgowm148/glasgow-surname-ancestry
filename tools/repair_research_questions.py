@@ -200,7 +200,9 @@ def question_actions(key, context_html=''):
         for field, value in (('resolve', resolve), ('record', record))
     )
     missing = MISSING_CONNECTIONS.get(key, '')
-    return (f'<p class="repair-question-status"><span class="question-status question-open">{escape(status)}</span></p>'
+    # The status (already "Open · <qualifier>") links to the guide's entry on question statuses.
+    return (f'<p class="repair-question-status"><span class="question-status question-open">'
+            f'<a class="ev-label-link" href="{evidence_labels.GUIDE_URL}#open-questions-guide">{escape(status)}</a></span></p>'
             f'<p class="repair-question-missing">{escape(missing)}</p>{subjects_html(key)}'
             f'<details class="repair-question-details"><summary>Evidence and next records to check</summary>'
             f'{context_html}<dl class="question-actions">{rows}</dl></details>')

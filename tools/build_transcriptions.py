@@ -7,6 +7,10 @@ from html import escape
 import json
 from pathlib import Path
 import re
+try:
+    from tools.site_identity import SITE_NAME, page_title
+except ModuleNotFoundError:
+    from site_identity import SITE_NAME, page_title
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "research/transcriptions/index.json"
@@ -131,7 +135,7 @@ def repair() -> Counter:
     full_count = sum(bool(item.get("start")) for item in data["attempts"])
     main = f'''<main class="r-main tx-main" id="main"><header class="tx-hero"><p class="r-kicker">Research transcriptions</p><h1>Wills &amp; testaments,<br>read with care.</h1><p>Eight source-bounded attempts to read Scottish testament records. They preserve what the manuscript appears to say, what remains unclear, and the profile conclusions that can safely follow.</p><a class="tx-overview" href="{escape(data['overview_url'])}">Open the canonical Wills &amp; Testaments index <span>↗</span></a></header><section class="tx-method" aria-labelledby="method-title"><div><p class="r-kicker">How to read this ledger</p><h2 id="method-title">A working reading is not the record.</h2></div><p>{escape(data['method'])}</p><p><strong>{full_count} full saved readings</strong> are expandable below. The remaining {len(data['attempts']) - full_count} entries preserve only their reviewed conclusions; no manuscript wording has been recreated for them.</p></section><section class="tx-ledger" aria-label="Testament transcription ledger">{cards}</section></main>'''
     shell = RESEARCH_SHELL.read_text(encoding="utf-8")
-    shell = re.sub(r"<title>.*?</title>", f"<title>{escape(data['title'])} · Glasgow surname archive</title>", shell, count=1)
+    shell = re.sub(r"<title>.*?</title>", lambda _: f"<title>{escape(page_title(data['title']))}</title>", shell, count=1)
     shell = shell.replace('data-g-path="/research/index.html"', 'data-g-path="/research/transcriptions/index.html"', 1)
     shell = shell.replace('class="g-unified g-kind-research r-v2 v3-site"', 'class="g-unified g-kind-research r-v2 v3-site tx-page"', 1)
     shell = shell.replace('<link rel="stylesheet" href="/assets/research/research.css?v=3.1-repair-1">', '<link rel="stylesheet" href="/assets/research/research.css?v=3.1-repair-1"><link rel="stylesheet" href="/assets/research/transcriptions.css">', 1)

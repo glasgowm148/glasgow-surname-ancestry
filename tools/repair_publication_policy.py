@@ -50,7 +50,7 @@ def _privacy_page() -> str:
 </head>
 <body class="g-unified">
   <a class="g-skip" href="#main">Skip to page content</a>
-  <div class="g-bar"><div class="g-bar-left"><div class="g-crumbs"><a href="/">Glasgow archive</a><i>/</i><strong>Privacy</strong></div></div></div>
+  <div class="g-bar"><div class="g-bar-left"><div class="g-crumbs"><a href="/">Home</a><i>/</i><a class="g-crumb-section" href="/about/">About</a><i>/</i><strong>Privacy</strong></div></div></div>
   <main class="privacy-main" id="main">
     <p class="privacy-kicker">Project information</p>
     <h1>Privacy and publication policy</h1>

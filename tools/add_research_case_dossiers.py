@@ -14,6 +14,7 @@ from bs4 import BeautifulSoup
 import build_family_map as family
 import build_research_catalog as catalogue
 import evidence_labels
+from site_identity import page_title
 from catalogue_machine_data import build_machine_models, build_network
 from sync_catalogue_research import ROOT, WEB, read_json, write_json, refresh_person
 
@@ -29,7 +30,7 @@ def page_shell(person, dossier, findings, links):
     soup.body["data-g-path"] = f"/people/{slug}.html"
     soup.body["data-r-person"] = ident
     soup.body["data-g-person"] = json.dumps({"id":ident, "name":name, "life":f"{person['birth']} – {person['death']}", "url":f"/people/{slug}.html", "tree":False})
-    soup.title.string = name + " · Glasgow surname archive"
+    soup.title.string = page_title(name)
     description = soup.select_one('meta[name="description"]')
     if description is None:
         description = soup.new_tag("meta", attrs={"name": "description"})

@@ -732,7 +732,9 @@ Corrected assessment.
         # Living profiles intentionally collapse to the same privacy label. Every
         # publishable catalogue identity remains unique, while redacted rows retain
         # their WikiTree identifiers only.
-        identified = [person for person in people if person["catalogue_id"] != "Private family details withheld."]
+        # The projection now blanks a withheld slug ("") instead of writing the
+        # placeholder sentence into it; accept either until the next build.
+        identified = [person for person in people if person["catalogue_id"] not in ("", "Private family details withheld.")]
         self.assertEqual(len(identified), len({person["catalogue_id"] for person in identified}))
         self.assertTrue(all(person["profile_ids"] for person in people if person not in identified))
         self.assertTrue(all(
@@ -1041,7 +1043,7 @@ Corrected assessment.
         for entry in compact:
             # The privacy projection may retain a relationship/index placeholder
             # while suppressing all of its page artifacts.
-            if entry.get("json_url") == "Private family details withheld.":
+            if entry.get("json_url") in ("", "Private family details withheld."):
                 continue
             html_path = WEB / entry["html_url"].lstrip("/")
             json_path = WEB / entry["json_url"].lstrip("/")
@@ -1080,7 +1082,7 @@ Corrected assessment.
             for group in dossier["relationships"].values():
                 for relation in group:
                     self.assertTrue(set(relation.get("evidence_ids", [])) <= set(evidence_ids))
-                    if relation.get("json_url") and relation.get("json_url") != "Private family details withheld.":
+                    if relation.get("json_url") and "withheld" not in relation["json_url"]:
                         self.assertIn(relation["id"], index_ids)
                         self.assertTrue((WEB / relation["json_url"].lstrip("/")).exists())
             # Alternate download metadata lives in the initial head, never a

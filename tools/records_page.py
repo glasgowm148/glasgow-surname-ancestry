@@ -18,7 +18,7 @@ def records_body(records: list[dict]) -> str:
     quality_names = {'original': 'Original', 'derivative': 'Index / transcription', 'secondary': 'Secondary', 'tree_only': 'Tree / profile only', 'unknown': 'Unclassified'}
     quality_totals = ''.join(f'<li><span>{label}</span><strong>{qualities[key]:,}</strong></li>' for key, label in quality_names.items())
     return f'''<header class="records-hero">
-<div><p class="records-eyebrow">Historical records</p><h1>Research records</h1><p class="records-intro">Find the records behind a person, a place or a family story.</p></div>
+<div><p class="records-eyebrow">Historical records</p><h1>Research records</h1><p class="records-intro">Find the records behind a person, a place or a family story. <a href="/evidence/">How to read the evidence</a> explains the labels on each record.</p></div>
 <div class="records-total"><strong>{len(records):,}</strong><span>record entries</span></div>
 </header>
 <div class="records-status-strip" aria-label="Citation coverage">

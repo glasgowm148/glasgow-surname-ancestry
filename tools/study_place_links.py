@@ -229,6 +229,30 @@ def _count(n: int, one: str, many: str) -> str:
     return f'{n:,} {one if n == 1 else many}'
 
 
+WIKITREE_ID = re.compile(r"\b[A-Z][A-Za-z'’]*(?:-[A-Z][A-Za-z'’]*)*-\d+\b")
+
+
+def wikitree_ids(text: str) -> list[str]:
+    """WikiTree IDs named in a text, lower-cased like study members, first-seen order."""
+    return list(dict.fromkeys(match.lower() for match in WIKITREE_ID.findall(text or '')))
+
+
+def render_related_studies(people, index, *, limit: int = 5,
+                           intro: str = 'Family and place studies with people named here',
+                           counted: tuple[str, str] = ('person named here', 'people named here')) -> str:
+    """One line linking the curated studies (not tree groups) that list any of ``people``.
+
+    Neutral wording: a page can name a person in order to rule him out, so the
+    line says the study includes people named here, not that they belong to it.
+    """
+    rows = studies_for_people(people, index)[:limit]
+    if not rows:
+        return ''
+    links = ' · '.join(f'<a href="{esc(row["url"])}">{esc(row["label"])}</a> '
+                       f'<small>({_count(row["people"], *counted)})</small>' for row in rows)
+    return f'<p class="related-studies"><strong>{esc(intro)}:</strong> {links}</p>'
+
+
 def render_study_places(places, *, limit: int = 15) -> str:
     """'Places in this study' for a study page; empty when no place is known."""
     if not places:

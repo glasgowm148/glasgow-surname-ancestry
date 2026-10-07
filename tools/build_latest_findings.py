@@ -12,10 +12,12 @@ try:
     from tools.repair_primary_navigation import NAV, render_primary_navigation
     from tools.publish_clean_urls import _with_base
     from tools.site_analytics import with_analytics
+    from tools.evidence_labels import guide_link_html
 except ModuleNotFoundError:
     from repair_primary_navigation import NAV, render_primary_navigation
     from publish_clean_urls import _with_base
     from site_analytics import with_analytics
+    from evidence_labels import guide_link_html
 
 ROOT = Path(__file__).resolve().parents[1]
 WEB = ROOT / 'www'
@@ -185,7 +187,7 @@ def render_main(rows, total=None, page_number=1, studies=(), browse=False, place
 {study_filter}{place_filter}<div><label for="lf-order">Order</label><select id="lf-order"><option value="newest">Newest first</option><option value="oldest">Oldest first</option></select></div>
 <button type="reset" class="lf-reset">Reset</button></form>
 <div class="lf-table-heading"><p id="lf-count" role="status" aria-live="polite">{(page_number-1)*50+1}–{(page_number-1)*50+len(rows)} of {total:,} findings · newest first</p>
-<p class="lf-key"><span class="lf-status lf-confirmed">Finding supported</span> Supported fact or correction <span class="lf-status lf-qualified">Finding qualified</span> The finding has a stated evidence or identification limit</p></div>
+<p class="lf-key"><span class="lf-status lf-confirmed">Finding supported</span> Supported fact or correction <span class="lf-status lf-qualified">Finding qualified</span> The finding has a stated evidence or identification limit</p>{guide_link_html("How to read the evidence")}</div>
 <div class="lf-table-wrap"><table class="lf-table"><caption class="lf-sr-only">Concrete findings ordered by research discovery date, newest first. Evidence and limitations accompany each finding.</caption>
 <colgroup><col class="lf-col-date"><col class="lf-col-people"><col class="lf-col-finding"><col class="lf-col-assessment"><col class="lf-col-evidence"></colgroup>
 <thead><tr><th scope="col">Found</th><th scope="col">People</th><th scope="col">Finding</th><th scope="col">Finding assessment</th><th scope="col">Evidence</th></tr></thead>

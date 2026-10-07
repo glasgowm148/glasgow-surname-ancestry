@@ -39,7 +39,8 @@ class StudyPagesTests(unittest.TestCase):
                 self.assertEqual(1,len(soup.select('link[href^="/assets/research/study-page.css?v="]')))
                 self.assertTrue(soup.select_one('script[src^="/assets/research/study-page.js?v="]').has_attr('defer'))
                 people = {a['href'] for a in main.select('.sp-all-people a')}
-                self.assertEqual({f'/people/{p}.html' for p in b['members']}, people)
+                # Members without a published page are printed as names, not links.
+                self.assertEqual({f'/people/{p}.html' for p in b['members'] if (ROOT/f'www/people/{p}.html').is_file()}, people)
                 ids = [node['id'] for node in main.select('[id]')]
                 self.assertEqual(len(ids),len(set(ids)))
                 paragraphs = [' '.join(p.stripped_strings) for p in main.select('p') if 'sp-keep' not in (p.get('class') or [])]
@@ -55,7 +56,9 @@ class StudyPagesTests(unittest.TestCase):
             self.assertEqual('Fixture study',soup.h1.text)
             self.assertIsNone(soup.select_one('#study-map'))
             self.assertIsNone(soup.select_one('#study-timeline'))
-            self.assertTrue(soup.select_one('a[href="/people/example-1.html"]'))
+            # The fixture member has no page in www/, so the name is printed without a link.
+            self.assertIsNone(soup.select_one('a[href="/people/example-1.html"]'))
+            self.assertIn('example-1', soup.select_one('.sp-no-page').text)
 
     def test_fallback_deduplicates_and_omits_whole_group(self):
         branch = dict(id='fixture',label='Fixture',members=['example-1'],description='One unique assessment.')

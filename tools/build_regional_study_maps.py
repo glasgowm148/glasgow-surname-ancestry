@@ -142,7 +142,7 @@ def coverage_territories(region, boundaries, rows, groups, branches, inside):
                  why=f'{len(people):,} people have records naming or located within this {p["kind"]}.',
                  metrics={'people': len(people), 'documented': len(documented), 'leads': lead_count, 'sourced': sourced,
                           'records': len(associated), 'evidence_text':
-                          f'{len(documented):,} people with documentary records · {lead_count:,} unreviewed profile leads · {len(associated):,} record associations'})
+                          f'{len(documented):,} people with documentary records · {lead_count:,} from the family tree, not yet checked against records · {len(associated):,} record associations'})
         territories.append(feature)
     territories.sort(key=lambda f: (-f['properties']['metrics']['documented'], -f['properties']['metrics']['sourced'],
                                    -f['properties']['metrics']['people'], f['properties']['label']))
@@ -196,9 +196,9 @@ def repair(directory=None, renderer=None):
             method = 'Maintained parish studies ranked by research notes, source material and documented people.'
         else:
             territories, groups = coverage_territories(rid, boundaries, rows, directory['groups'], branches, helper['_inside'])
-            intro = 'Explore this region’s leading study areas. Documentary records are ranked ahead of profile leads awaiting review. ' + CONTROLS
+            intro = 'Explore this region’s leading study areas. People with documentary records are ranked ahead of people from the family tree who are not yet checked against records. ' + CONTROLS
             attribution = COUNTY_ATTRIBUTION if rid == 'english-welsh-families' else WORLD_ATTRIBUTION
-            method = 'Explicit administrative names retained even when their coordinates are country-centre fallbacks; fallback coordinates and inferred locations never assign an area. Other localities use geocoded containment. Documentary coverage ranked before unreviewed profile leads.'
+            method = 'Explicit administrative names retained even when their coordinates are country-centre fallbacks; fallback coordinates and inferred locations never assign an area. Other localities use geocoded containment. Documentary coverage ranked before people from the family tree not yet checked against records.'
         if not territories:
             raise ValueError(f'No mapped study areas for {rid}')
         section = renderer(groups, territories, counties, bbox=fit_frame(MAP_FRAMES[rid]),

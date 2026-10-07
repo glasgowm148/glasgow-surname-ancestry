@@ -11,6 +11,10 @@ try:
     from tools.site_identity import SITE_NAME, page_title
 except ModuleNotFoundError:
     from site_identity import SITE_NAME, page_title
+try:
+    from tools.public_privacy import safe_href
+except ModuleNotFoundError:
+    from public_privacy import safe_href
 
 ROOT = Path(__file__).resolve().parents[1]
 WEB = ROOT / 'www'
@@ -123,9 +127,11 @@ def repair():
             links = []
             for row in rows[i * CHUNK_SIZE:(i + 1) * CHUNK_SIZE]:
                 label = row.get('name') or row.get('label')
-                target = row.get('html_url') or row.get('url')
+                target = safe_href(row.get('html_url') or row.get('url'))
                 detail = (' · '.join(str(v) for v in [row.get('id'), row.get('birth_year'), row.get('death_year')] if v)) if name == 'catalogue' else (row.get('description') or 'Imported tree group; relationships require independent evidence.')
-                links.append(f'<li><a href="{escape(target, quote=True)}">{escape(label)}</a> — {escape(detail)}</li>')
+                # A withheld row has no page: print its name without a link.
+                name_html = f'<a href="{escape(target, quote=True)}">{escape(label)}</a>' if target else escape(label)
+                links.append(f'<li>{name_html} — {escape(detail)}</li>')
             nav = ' · '.join(f'<a href="/{name}/browse/{"" if n == 0 else f"page-{n + 1}.html"}">{n + 1}</a>' for n in range(count))
             content = f'<p>{len(rows):,} entries. Page {i + 1} of {count}. These links work without JavaScript; search filters remain available on the <a href="/{name}/">interactive page</a>.</p><nav aria-label="Index pages" style="overflow-wrap:anywhere;line-height:2">{nav}</nav><ul>{"".join(links)}</ul>'
             destination = WEB / url.lstrip('/') / 'index.html' if url.endswith('/') else WEB / url.lstrip('/')

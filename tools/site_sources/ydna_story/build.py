@@ -12,12 +12,12 @@ import sys
 ROOT = Path(__file__).resolve().parents[3]
 
 try:
-    from tools.repair_primary_navigation import render_primary_navigation
+    from tools.repair_primary_navigation import render_primary_navigation, repair_site_identity_page
     from tools.public_ydna_research import study_is_approved, restore_lines
     from tools.site_analytics import with_analytics
 except ModuleNotFoundError:
     sys.path.insert(0, str(ROOT / "tools"))
-    from repair_primary_navigation import render_primary_navigation
+    from repair_primary_navigation import render_primary_navigation, repair_site_identity_page
     from public_ydna_research import study_is_approved, restore_lines
     from site_analytics import with_analytics
 
@@ -75,7 +75,8 @@ def _render_curated(data: dict[str, object], canonical: str, noindex: bool) -> s
         footer_seen = True
         return '<script src="/assets/v3/dna-footer.js" defer></script>'
     page = re.sub(r'<script\b[^>]*\bsrc="/?assets/v3/dna-footer\.js(?:\?[^\"]*)?"[^>]*>\s*</script>', footer_script, page)
-    return with_analytics(page)
+    # One site name, breadcrumb, rail foot and footer (tools/site_identity.py).
+    return with_analytics(repair_site_identity_page(page, Path("ydna/index.html")))
 
 
 def render(data: dict[str, object], *, canonical: str, noindex: bool = False) -> str:
@@ -136,7 +137,7 @@ def render(data: dict[str, object], *, canonical: str, noindex: bool = False) ->
 </head>
 <body class="g-unified g-kind-dna v3-site" data-g-path="/ydna/index.html">
   <a class="g-skip" href="#main">Skip to page content</a>
-  <div class="g-bar"><div class="g-bar-left"><div class="g-crumbs"><a href="/">Glasgow archive</a><i>/</i><strong>Y-DNA</strong></div></div></div>
+  <div class="g-bar"><div class="g-bar-left"><div class="g-crumbs"><a href="/">Home</a><i>/</i><strong>Y-DNA</strong></div></div></div>
   <div class="ydna-section-bar" id="sidebar"><nav class="main-nav" aria-label="Y-DNA navigation"><a href="#overview" aria-current="location">Overview</a><a href="#roots">Historical branches</a><a href="#next-steps">Open questions</a></nav></div>
   <main class="ydna-main" id="main">
     <header id="overview">
@@ -167,7 +168,8 @@ def render(data: dict[str, object], *, canonical: str, noindex: bool = False) ->
     shell = shell.replace("{{content}}", content)
     navigation = (SOURCE / "navigation.js").read_text(encoding="utf-8")
     body = '<a class="g-skip" href="#main">Skip to page content</a>\n' + shell + '<script>' + navigation + '</script>'
-    return with_analytics(re.sub(r'(<body\b[^>]*>)[\s\S]*?(</body>)', lambda m: m[1] + body + m[2], page))
+    page = re.sub(r'(<body\b[^>]*>)[\s\S]*?(</body>)', lambda m: m[1] + body + m[2], page)
+    return with_analytics(repair_site_identity_page(page, Path("ydna/index.html")))
 
 
 def build(output: Path = PUBLIC_OUTPUT) -> Path:

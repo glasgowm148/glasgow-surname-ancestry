@@ -16,6 +16,14 @@ from tools.public_privacy import from_sources
 from tools import repair_research_questions as questions
 
 START, END = '<!-- research-queue:start -->', '<!-- research-queue:end -->'
+# Queue pages are a workroom: every one says so before its own status (S3-11).
+WORKROOM_KICKER = 'Research workroom: leads, not findings'
+# Reader words for stored statuses; the stored value (filters, data JSON) is unchanged.
+STATUS_WORDS = {'On hold': 'On hold: needs another record'}
+
+
+def status_words(status):
+    return STATUS_WORDS.get(status, status)
 
 MATCH_LABELS = {'matched': 'Matched profile', 'compatible_candidate': 'Compatible candidate',
                 'partly_matched': 'Partly matched',
@@ -71,7 +79,7 @@ def consolidate_record_reviews(rows):
                      name=members[0]['name'] + ' · grouped research review',
                      members=members, canonical_groups=[key],
                      profiles=list(dict.fromkeys(p for row in members for p in row['profiles'])),
-                     assessment=f'{len(members)} linked handoffs for one research case. Each person and event remains separately assessed below.')
+                     assessment=f'{len(members)} linked research notes for one research case. Each person and event remains separately assessed below.')
         if len({m.get('match_review', {}).get('status') for m in members}) > 1:
             first['match_review'] = dict(status='grouped', label='Mixed record identities',
                                         reviewed_on=max(m.get('match_review', {}).get('reviewed_on', '') for m in members),
@@ -186,15 +194,15 @@ def render(rows):
             match += '<small>Checked ' + escape(review['reviewed_on']) + '</small><details><summary>Identity assessment</summary><p>' + escape(review['assessment']) + '</p></details>'
         assessment = escape(r['assessment']) if r['assessment'] != review.get('assessment') else 'Identity check recorded; read the assessment.'
         members = r.get('members', [])
-        related = '<details><summary>Separate people and handoffs (' + str(len(members)) + ')</summary><ul>' + ''.join(
+        related = '<details><summary>Separate people and research notes (' + str(len(members)) + ')</summary><ul>' + ''.join(
             '<li><a href="' + escape(m['url'], quote=True) + '">' + escape(m['name']) + '</a> — ' +
             escape(m.get('match_review', {}).get('assessment', m['assessment'])) +
             ' ' + ', '.join('<a href="' + escape(profile_href(pid), quote=True) + '">' + escape(pid) + '</a>' for pid in m['profiles']) + '</li>'
             for m in members) + '</ul></details>' if members else ''
         search = ' '.join((r['name'], r['assessment'], ' '.join(r['profiles']), review.get('assessment', ''),
                            ' '.join(m['name'] + ' ' + m.get('match_review', {}).get('assessment', m['assessment']) for m in members))).casefold()
-        body.append(f'<tr data-status="{escape(r["status"], quote=True)}" data-kind="{escape(r["kind"], quote=True)}" data-match="{escape(review.get("label", ""), quote=True)}" data-search="{escape(search, quote=True)}"><td><a href="{escape(r["url"], quote=True)}">{escape(r["name"])}</a><small>{profiles}</small>{related}</td><td>{escape(r["status"])}</td><td>{escape(r["kind"])}</td><td>{match}</td><td>{assessment}<small>{sources}</small></td></tr>')
-    return START + f'<section id="research-queue" class="r-section rq-section"><details class="rq-disclosure"><summary><span>Held and pending research</span><small>{len(rows)} record reviews, amendments and open studies</small></summary><p>One worklist for the maintained research registers. Repeated handoffs for one research case are grouped; expand them to see each person’s separate identity assessment. On hold means identity or source checks remain; a draft review still requires a current duplicate check before creation. Profile match records the completed identity check separately from outstanding research. Pending updates have not been saved on WikiTree. Each row links to its full evidence and next steps.</p><p><a href="/research/profile-matches/">Profile matching audit · all 140 original items →</a></p><div class="rq-controls"><label>Search research<input id="rq-query" type="search" placeholder="Person, place, profile or question"></label><label>Status<select id="rq-status"><option value="">All statuses</option>{options(statuses)}</select></label><label>Work type<select id="rq-kind"><option value="">All work</option>{options(kinds)}</select></label><label>Profile match<select id="rq-match"><option value="">All matches</option>{options(matches)}</select></label><button id="rq-clear" type="button">Clear</button></div><p id="rq-count" role="status">{len(rows)} research items</p><div class="rq-table-wrap"><table><thead><tr><th>Person or study</th><th>Status</th><th>Work type</th><th>Profile match</th><th>Assessment and evidence</th></tr></thead><tbody>'+''.join(body)+'</tbody></table></div></details></section>'+END
+        body.append(f'<tr data-status="{escape(r["status"], quote=True)}" data-kind="{escape(r["kind"], quote=True)}" data-match="{escape(review.get("label", ""), quote=True)}" data-search="{escape(search, quote=True)}"><td><a href="{escape(r["url"], quote=True)}">{escape(r["name"])}</a><small>{profiles}</small>{related}</td><td>{escape(status_words(r["status"]))}</td><td>{escape(r["kind"])}</td><td>{match}</td><td>{assessment}<small>{sources}</small></td></tr>')
+    return START + f'<section id="research-queue" class="r-section rq-section"><details class="rq-disclosure"><summary><span>Held and pending research</span><small>{len(rows)} record reviews, amendments and open studies</small></summary><p>One worklist for the maintained research registers. Repeated research notes for one research case are grouped; expand them to see each person’s separate identity assessment. On hold means identity or source checks remain; a draft review still requires a current duplicate check before creation. Profile match records the completed identity check separately from outstanding research. Pending updates have not been saved on WikiTree. Each row links to its full evidence and next steps.</p><p><a href="/research/profile-matches/">Profile matching audit · all 140 original items →</a></p><div class="rq-controls"><label>Search research<input id="rq-query" type="search" placeholder="Person, place, profile or question"></label><label>Status<select id="rq-status"><option value="">All statuses</option>{options(statuses)}</select></label><label>Work type<select id="rq-kind"><option value="">All work</option>{options(kinds)}</select></label><label>Profile match<select id="rq-match"><option value="">All matches</option>{options(matches)}</select></label><button id="rq-clear" type="button">Clear</button></div><p id="rq-count" role="status">{len(rows)} research items</p><div class="rq-table-wrap"><table><thead><tr><th>Person or study</th><th>Status</th><th>Work type</th><th>Profile match</th><th>Assessment and evidence</th></tr></thead><tbody>'+''.join(body)+'</tbody></table></div></details></section>'+END
 
 
 def publish_match_audit(web, template):
@@ -218,7 +226,7 @@ def publish_match_audit(web, template):
     from collections import Counter
     counts = Counter(row['match_review']['label'] for row in rows)
     summary = ' · '.join(f'{count} {label.lower()}' for label,count in sorted(counts.items()))
-    main = '<main class="r-main" id="main"><header class="r-page-head"><h1>Profile matching audit</h1><p>All 140 original worklist items reviewed on 30 September 2026. This includes 116 identity reviews, 10 already-linked amendments and 14 research questions. A compatible candidate is linked for comparison; identity remains qualified. No live WikiTree changes were made.</p><p>' + escape(summary) + '</p><p><a href="/catalogue/#research-queue">Current research queue</a> · <a href="/data/research-queue-match-audit.json">Download the reviewed matches</a></p></header>' + render(rows).replace('class="rq-disclosure"', 'class="rq-disclosure" open') + '</main>'
+    main = '<main class="r-main" id="main"><header class="r-page-head"><span class="r-kicker">' + WORKROOM_KICKER + '</span><h1>Profile matching audit</h1><p>All 140 original worklist items reviewed on 30 September 2026. This includes 116 identity reviews, 10 already-linked amendments and 14 research questions. A compatible candidate is linked for comparison; identity remains qualified. No live WikiTree changes were made.</p><p>' + escape(summary) + '</p><p><a href="/catalogue/#research-queue">Current research queue</a> · <a href="/data/research-queue-match-audit.json">Download the reviewed matches</a></p></header>' + render(rows).replace('class="rq-disclosure"', 'class="rq-disclosure" open') + '</main>'
     page = shell_page(template, main, 'Profile matching audit', '/research/profile-matches/index.html')
     page = page.replace('</head>', '<link rel="stylesheet" href="/assets/research/research-queue.css?v=2"></head>')
     page = page.replace('</body>', '<script src="/assets/research/research-queue.js?v=2" defer></script></body>')
@@ -238,11 +246,11 @@ def build(web=ROOT / 'www'):
     for stem, replacement in overrides.items():
         target=web/'research/queue'/('draft-'+stem.lower().replace('_','-'))/'index.html'
         if target.exists():
-            main=f'<main class="r-main" id="main"><header class="r-page-head"><h1>Research handoff superseded</h1><p>{escape(replacement["reason"])}</p><a href="{escape(replacement["url"],quote=True)}">Open the maintained profile or handoff →</a></header></main>'
-            target.write_text(shell_page(template,main,'Maintained research handoff', '/'+target.relative_to(web).as_posix()))
+            main=f'<main class="r-main" id="main"><header class="r-page-head"><span class="r-kicker">{WORKROOM_KICKER}</span><h1>Research note superseded</h1><p>{escape(replacement["reason"])}</p><a href="{escape(replacement["url"],quote=True)}">Open the current page →</a></header></main>'
+            target.write_text(shell_page(template,main,'Research lead', '/'+target.relative_to(web).as_posix()))
     for d in drafts:
         body = Renderer([]).render(d['wikitext'])
-        main = f'<main class="r-main" id="main"><header class="r-page-head"><span class="r-kicker">{escape(d["status"])}</span><h1>{escape(d["name"])}</h1><p>{escape(d["assessment"])}</p><p><a href="/catalogue/#research-queue">← Held and pending research</a></p></header><article class="fsp-reading">{body}</article><details><summary>Saved WikiTree evidence draft</summary><textarea readonly style="width:100%;min-height:300px">{escape(d["wikitext"])}</textarea></details></main>'
+        main = f'<main class="r-main" id="main"><header class="r-page-head"><span class="r-kicker">{WORKROOM_KICKER} · {escape(status_words(d["status"]))}</span><h1>{escape(d["name"])}</h1><p>{escape(d["assessment"])}</p><p><a href="/catalogue/#research-queue">← Held and pending research</a></p></header><article class="fsp-reading">{body}</article><details><summary>Saved WikiTree evidence draft</summary><textarea readonly style="width:100%;min-height:300px">{escape(d["wikitext"])}</textarea></details></main>'
         target = web / d['url'].strip('/') / 'index.html'; target.parent.mkdir(parents=True, exist_ok=True)
         target.write_text(shell_page(template, main, d['name'], d['url'] + 'index.html'))
     for route in ('catalogue/index.html', 'catalogue.html'):

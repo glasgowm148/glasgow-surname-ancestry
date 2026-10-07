@@ -131,7 +131,9 @@ def deployed_checks(base_url: str) -> list[str]:
         "catalogue.html": lambda body: page_matches(body, "Find a person"),
         "records/": lambda body: page_matches(body, "Research records"),
         "places/": lambda body: page_matches(body, "Research places"),
-        "free-space/": lambda body: page_matches(body, "Free-space research library"),
+        # The free-space H1 is now the menu's name; the old heading is accepted
+        # until the release that renames it has been deployed.
+        "free-space/": lambda body: page_matches(body, "WikiTree study pages") or page_matches(body, "Free-space research library"),
         "compare.html": lambda body: page_matches(body, "Compare two people"),
         "data/compare-index.js": lambda body: b"window.glasgowCompareDossiers=" in body,
         "people/compare.js": lambda body: b"bundled comparison data" in body,

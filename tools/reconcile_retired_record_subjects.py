@@ -19,6 +19,10 @@ try:
     from site_analytics import with_analytics
 except ModuleNotFoundError:
     from tools.site_analytics import with_analytics
+try:
+    from site_identity import page_title
+except ModuleNotFoundError:
+    from tools.site_identity import page_title
 
 ROOT = Path(__file__).resolve().parents[1]
 OLD = "record-edinburgh-1577-andrew-glasgow"
@@ -288,7 +292,7 @@ def plan(root: Path) -> dict[str, bytes]:
         '</article></main>', "html.parser").main
     main.replace_with(replacement)
     if soup.title:
-        soup.title.string = "Superseded reading · Marjory Glasgow · Glasgow archive"
+        soup.title.string = page_title("Superseded reading · Marjory Glasgow")
     crumb = soup.select_one(".g-crumbs strong")
     if crumb:
         crumb.string = "Superseded reading"

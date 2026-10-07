@@ -6,6 +6,10 @@ from html import unescape
 import json
 from pathlib import Path
 import re
+try:
+    from tools.site_identity import SITE_NAME, page_title
+except ModuleNotFoundError:
+    from site_identity import SITE_NAME, page_title
 
 ROOT = Path(__file__).resolve().parents[1]
 MARKER = "/* PUBLIC_SEARCH_ROUTES */[]"
@@ -13,7 +17,7 @@ MARKER = "/* PUBLIC_SEARCH_ROUTES */[]"
 # Current navigation names, with former names retained as search aliases.
 # This registry contains only intentionally published reader routes.
 PUBLIC_ROUTES = (
-    ("Home", "/", "home", "The Glasgow surname archive", "Overview"),
+    ("Home", "/", "home", SITE_NAME, "Overview"),
     ("People", "/catalogue/", "people", "Search people, relatives, dates and places", "People Catalogue Catalogue"),
     ("Families & places", "/branches/", "people", "Named family and locality pages", "Families and places Branch cards"),
     ("Family tree", "/onetree/", "tree", "Public profiles, branches and Y-DNA tester markers", "Family Atlas Whole tree"),

@@ -5,6 +5,10 @@ from html import escape
 import json
 from pathlib import Path
 import re
+try:
+    from tools.site_identity import page_title
+except ModuleNotFoundError:
+    from site_identity import page_title
 
 WEB = Path(__file__).resolve().parents[1] / 'www'
 SOURCE_INDEX_FIELDS = ('id', 'title', 'members', 'records', 'citations', 'from', 'to',
@@ -42,7 +46,7 @@ def source_body(rows: list[dict], original: str) -> str:
     media_summary = f'<span><strong>{media:,}</strong> with an image or text</span>' if media else '<span>References and catalogue citations</span>'
     initial = sorted(rows, key=lambda row: (row.get('from') if row.get('from') is not None else 9999, row['title'].casefold()))[:24]
     summary = f'1–{len(initial)} of {len(rows):,} source items' if initial else 'No source items published.'
-    return f'''<header class="sources-hero"><div><p class="sources-eyebrow">Source references</p><h1>Sources</h1><p class="sources-intro">Find the references used in our research, including census returns, parish registers, wills and family accounts. Open a reference to see the people and records linked to it.</p></div><div class="sources-total"><strong>{len(rows):,}</strong><span>linked source items</span></div></header>
+    return f'''<header class="sources-hero"><div><p class="sources-eyebrow">Source references</p><h1>Sources</h1><p class="sources-intro">Find the references used in our research, including census returns, parish registers, wills and family accounts. Open a reference to see the people and records linked to it. <a href="/evidence/#record-quality">How to read the evidence</a> explains how sources are graded.</p></div><div class="sources-total"><strong>{len(rows):,}</strong><span>linked source items</span></div></header>
 <div class="sources-coverage"><span><strong>{shared:,}</strong> linked to multiple people</span>{media_summary}<a href="#sources-collections">Reviewed collections ↓</a></div>
 <form class="v3-source-search sources-search-panel" id="v3-source-search" action="/sources/browse/" method="get">
 <div class="sources-search-fields"><label><span>Find a source</span><input id="v3-source-q" name="q" type="search" placeholder="Name, archive reference, place or record type…"></label><label><span>Availability</span><select id="v3-source-kind" name="kind"><option value="all">All source items</option><option value="shared">Linked to multiple people</option><option value="image">Image or text available</option></select></label><button class="r-button primary" type="submit">Search</button></div>
@@ -65,7 +69,7 @@ def repair(web: Path | None = None) -> Counter:
     page, count = re.subn(r'<main\b[\s\S]*?</main>', lambda _: main, original, count=1, flags=re.I)
     if count != 1:
         raise ValueError('Source-library main container missing')
-    page = re.sub(r'<title>.*?</title>', '<title>Source library · Glasgow</title>', page, count=1, flags=re.S)
+    page = re.sub(r'<title>.*?</title>', lambda _: f'<title>{escape(page_title("Source library"))}</title>', page, count=1, flags=re.S)
     page = re.sub(r'(<div class="g-crumbs">.*?<strong>).*?(</strong>)', r'\1Sources\2', page, count=1, flags=re.S)
     page = re.sub(r'(<body\b[^>]*data-g-path=")[^"]*', r'\1/sources', page, count=1)
     changed = Counter()

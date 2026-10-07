@@ -14,9 +14,13 @@ from urllib.parse import urlparse, unquote
 try:
     from tools.source_collection_index import build_index
     from tools.newspaper_card_targets import target_for, evidence_tags, identity_status, load_targets, TAG_LABELS
+    from tools.repair_primary_navigation import render_breadcrumbs
+    from tools.site_identity import page_title
 except ModuleNotFoundError:
     from source_collection_index import build_index
     from newspaper_card_targets import target_for, evidence_tags, identity_status, load_targets, TAG_LABELS
+    from repair_primary_navigation import render_breadcrumbs
+    from site_identity import page_title
 
 ROOT = Path(__file__).resolve().parents[1]
 WEB = ROOT / 'www'
@@ -601,9 +605,9 @@ def repair(web=None):
     written = []
     def page(route, title, body):
         path = '/sources/' + (route.strip('/') + '/' if route else '')
-        crumbs = '<div class="g-crumbs"><a href="/">Glasgow archive</a><i>/</i>' + ('<a href="/sources/">Sources</a><i>/</i>' if route else '') + f'<strong>{e(title)}</strong></div>'
+        crumbs = render_breadcrumbs(Path(path.lstrip('/')) / 'index.html', e(title))
         out = re.sub(r'<main\b[\s\S]*?</main>', lambda _: '<main class="r-main sc-main" id="main">' + body + '</main>', template, count=1, flags=re.I)
-        out = re.sub(r'<title>.*?</title>', lambda _: f'<title>{e(title)} · Glasgow Sources</title>', out, count=1, flags=re.S)
+        out = re.sub(r'<title>.*?</title>', lambda _: f'<title>{e(page_title(title, "Source library"))}</title>', out, count=1, flags=re.S)
         out = re.sub(r'<meta\b[^>]*name="description"[^>]*>', '', out)
         out = re.sub(r'<div class="g-crumbs">.*?</div>', lambda _: crumbs, out, count=1, flags=re.S)
         nav = '<div aria-label="Source collections" class="g-section-subnav sc-nav" role="group">' + ''.join(f'<a href="/sources/{key}/"' + (' aria-current="location"' if route.split('/')[0] == key else '') + f'>{e(TYPES[key][0])}</a>' for key in ['newspapers','census','births','marriages','deaths','wills-probate','land-tax']) + '<a href="/sources/">All source types</a><a href="/records/">Records by person</a></div>'

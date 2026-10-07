@@ -22,8 +22,16 @@ import site_identity  # noqa: E402  (one site name in page titles)
 
 # Study tone keys are unchanged; their public words come from the shared vocabulary.
 TONES = {key: value['label'] for key, value in evidence_labels.STUDY_TONES.items()}
+
+
+def tone_label(key, css='sp-tone', text=None):
+    """A study tone printed as words linked to its entry in /evidence/ (#tone-<key>).
+
+    Not for SVG <title> text, where links are not allowed.
+    """
+    return evidence_labels.label_html(key, 'tone', css=f'{css} sp-{key}', text=text)
 EVIDENCE_CSS = f'/assets/research/evidence.css?v={evidence_labels.VERSION}'
-GUIDE = (f'<p class="sp-caption sp-keep evidence-guide-link"><a href="{evidence_labels.GUIDE_URL}">{evidence_labels.GUIDE_LABEL}</a>'
+GUIDE = (f'<p class="sp-caption sp-keep evidence-guide-link"><a href="{evidence_labels.GUIDE_URL}#study-scale">{evidence_labels.GUIDE_LABEL}</a>'
          '<span> What each label means, and why a possible group does not prove kinship.</span></p>')
 GROUPS_NOTE = ('<p class="sp-caption sp-keep sp-groups-note">Each card is either a <strong>household</strong>, people whom a record documents together, '
                'or a <strong>possible group</strong>, people studied together because they appear in the same records or place. '
@@ -221,7 +229,12 @@ def section(key, title, body):
 
 def person(slug, registry, dates=False):
     p = registry.get(slug, {})
-    return link(p.get('name', slug), f'/people/{slug}.html')+(f'<small>{esc(str(p.get("life") or "Dates not recorded").replace(" – Not recorded", " – ?").replace("Not recorded – ", "? – "))}</small>' if dates else '')
+    name = p.get('name', slug)
+    # Link only people who have a published page; a registry slug without one
+    # (a record person or a withheld profile) is printed as the name alone.
+    label = (link(name, f'/people/{slug}.html') if (WEB / 'people' / f'{slug}.html').is_file()
+             else f'<span class="sp-no-page">{esc(name)}</span>')
+    return label+(f'<small>{esc(str(p.get("life") or "Dates not recorded").replace(" – Not recorded", " – ?").replace("Not recorded – ", "? – "))}</small>' if dates else '')
 
 
 def fallback(branch, group, families):
@@ -560,7 +573,7 @@ def connections(story, rows=None):
         short = textwrap.shorten(plain, width=38, placeholder='…')
         lx = max(margin+len(short)*3.2, min(width-margin-len(short)*3.2, lx))
         svg += f'<g class="sp-edge-wrap sp-{e["status"]}"><path tabindex="0" data-from="{esc(e["from"])}" data-to="{esc(e["to"])}" d="{d}" class="sp-edge sp-{e["status"]}"><title>{esc(names[e["from"]])} → {esc(names[e["to"]])}: {esc(plain)} ({TONES[e["status"]]})</title></path><text x="{lx:.1f}" y="{ly:.1f}" text-anchor="middle" class="sp-edge-label">{esc(short)}</text></g>'
-        entries += f'<li>{esc(names[e["from"]])} → {esc(names[e["to"]])}: {inline(label)} ({TONES[e["status"]]})</li>'
+        entries += f'<li>{esc(names[e["from"]])} → {esc(names[e["to"]])}: {inline(label)} ({tone_label(e["status"])})</li>'
     nodes = ''
     for c in clusters:
         x, yy, w, h = boxes[c['id']]
@@ -570,7 +583,7 @@ def connections(story, rows=None):
         if det:
             nodes += f'<text x="{x+18:.1f}" y="{yy+24+len(lines)*16+6:.1f}" class="sp-node-detail">{esc(textwrap.shorten(det, width=32, placeholder="…"))}</text>'
         nodes += '</g>'
-    legend = ''.join(f'<span class="sp-key sp-{t}">{label}</span>' for t, label in TONES.items())
+    legend = ''.join(tone_label(t, 'sp-key') for t in TONES)
     return (f'<h3 class="sp-subhead">How the groups connect</h3><p class="sp-caption">Rows run from the earliest group at the top to the latest below. Every line is also described in words under the diagram.</p>'
             +('<p class="sp-caption sp-scroll-hint">Swipe sideways to see every group in the diagram.</p>' if width > 380 else '')+
             f'<figure class="sp-connections"><div class="sp-scroll"><svg viewBox="0 0 {width:.0f} {height:.0f}" style="max-width:{width:.0f}px;--sp-natural:{width:.0f}px" role="img" aria-label="Connections between households and groups">{svg}{nodes}</svg></div><figcaption>{legend}</figcaption></figure>{GUIDE}'
@@ -631,11 +644,11 @@ def render(branch, group, families, authored, registry, rows, geo, places=None, 
         chips = '<div class="sp-chips local-family-members">'+''.join(person(p,registry) for p in people)+'</div>'
         if len(people) > 12:
             chips = f'<details><summary>{len(people)} people in this group</summary>{chips}</details>'
-        cards += f'<article class="sp-cluster local-family-card sp-{tone(c.get("status"))}" id="cluster-{esc(c["id"])}"><span class="sp-pill">{esc(c.get("status_label") or TONES[tone(c.get("status"))])}</span><h3>{esc(c.get("title"))}</h3><p class="sp-caption">{esc(" · ".join(filter(None,[str(c.get("place") or ""),str(c.get("period") or "")])))}</p><p class="local-family-basis">{inline(c.get("summary"))}</p>'+chips+f'<p class="local-family-boundary sp-boundary{"" if c.get("boundary") else " sp-keep"}"><strong>Still open:</strong> {inline(c.get("boundary") or "No relationship is inferred from being listed in this group.")}</p></article>'
+        cards += f'<article class="sp-cluster local-family-card sp-{tone(c.get("status"))}" id="cluster-{esc(c["id"])}">{tone_label(tone(c.get("status")), "sp-pill", str(c.get("status_label") or TONES[tone(c.get("status"))]))}<h3>{esc(c.get("title"))}</h3><p class="sp-caption">{esc(" · ".join(filter(None,[str(c.get("place") or ""),str(c.get("period") or "")])))}</p><p class="local-family-basis">{inline(c.get("summary"))}</p>'+chips+f'<p class="local-family-boundary sp-boundary{"" if c.get("boundary") else " sp-keep"}"><strong>Still open:</strong> {inline(c.get("boundary") or "No relationship is inferred from being listed in this group.")}</p></article>'
     if story['clusters'] and not (len(story['clusters']) == 1 and set(story['clusters'][0]['people']) == set(members)):
         body += section('clusters','Households and possible groups',GROUPS_NOTE+cards+'</div></div>'+connections(story, rows))
     ladder = story.get('ladder') or {}
-    if any(ladder.values()): body += section('ladder','How much can we say?',GUIDE+'<div class="sp-ladder">'+''.join(f'<article class="sp-{t}"><h3>{label}</h3><ul>'+''.join(f'<li>{inline(v)}</li>' for v in ladder.get(t) or [])+'</ul>'+('' if ladder.get(t) else '<p class="sp-empty sp-keep">No separate claim assigned at this level.</p>')+'</article>' for t,label in TONES.items())+'</div>')
+    if any(ladder.values()): body += section('ladder','How much can we say?',GUIDE+'<div class="sp-ladder">'+''.join(f'<article class="sp-{t}"><h3>{tone_label(t)}</h3><ul>'+''.join(f'<li>{inline(v)}</li>' for v in ladder.get(t) or [])+'</ul>'+('' if ladder.get(t) else '<p class="sp-empty sp-keep">No separate claim assigned at this level.</p>')+'</article>' for t,label in TONES.items())+'</div>')
     gaps = ''
     for i,g in enumerate(story.get('gaps') or []):
         if not any(g.get(k) for k in ('title','why','where','url')): continue

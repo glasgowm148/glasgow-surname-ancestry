@@ -132,7 +132,7 @@ def search_panel_html(cluster_options: str, record_type_options: str, region_opt
     )
     evidence_panel = (
         '<div class="catalogue-panel-grid catalogue-panel-grid-1">'
-        f'<label><span>Family or research group</span><select id="catalogue-cluster"><option value="">Any group</option>{cluster_options}</select></label>'
+        f'<label><span>Possible group</span><select id="catalogue-cluster"><option value="">Any group</option>{cluster_options}</select></label>'
         f'<label><span>Record type</span><select id="catalogue-record-type"><option value="">Any record type</option>{record_type_options}</select></label>'
         f'<label><span>Source quality</span><select id="catalogue-source-quality"><option value="">Any quality</option>{SOURCE_QUALITY_OPTIONS}</select></label>'
         '</div>'

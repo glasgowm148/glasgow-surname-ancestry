@@ -48,7 +48,8 @@ PUBLIC_LABELS = {
     'Compare two identities': 'Compare two people',
     'Unresolved parentage & matches': 'Possible parents and profile matches',
     'Free-space research library': 'WikiTree study pages',
-    'Research cluster': 'Family or research group',
+    'Research cluster': 'Possible group',  # shared vocabulary: tools/study_place_links.py
+    'Family or research group': 'Possible group',  # the earlier rewording of the same label
     'Needs updated on WikiTree': 'WikiTree profiles to update',
     'What is here. And what it means.': 'About the data',
     'One registry. Different coverage.': 'Why the page totals differ',
@@ -352,7 +353,7 @@ def repair():
         page = page.replace('>Research workspace<', '>Research questions<')
         page = page.replace('Search the archive', 'Search this site').replace('Search the Glasgow archive', 'Search Glasgow family history')
         page = page.replace('Your research notebook.', 'Saved people and pages')
-        page = page.replace('Browse by research cluster', 'Browse by family or research group')
+        page = page.replace('Browse by research cluster', 'Browse by possible group').replace('Browse by family or research group', 'Browse by possible group')
         page = page.replace('>Any cluster<', '>Any group<')
         # Accessible tree controls use the same words as their visible labels.
         page = page.replace('aria-label="Interactive family atlas"', 'aria-label="Interactive family tree"')

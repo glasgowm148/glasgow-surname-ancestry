@@ -150,10 +150,14 @@ class PublishedSurfaceTests(unittest.TestCase):
     def test_study_pages_use_canonical_tones_and_link_the_guide(self):
         page = (ROOT / "www/branches/larne-kilwaughter/index.html").read_text(encoding="utf-8")
         soup = BeautifulSoup(page, "html.parser")
-        self.assertTrue(soup.select_one('main a[href="/evidence/"]'))
+        # The guide paragraph points at the study scale (#study-scale) since lane I8.
+        self.assertTrue(soup.select_one('main a[href^="/evidence/"]'))
         keys = [node.get_text(strip=True) for node in soup.select(".sp-key")]
         if keys:
             self.assertEqual([value["label"] for value in ev.STUDY_TONES.values()], keys)
+            linked = [a["href"] for a in soup.select(".sp-key a.ev-label-link")]
+            if linked:
+                self.assertEqual([f"/evidence/#tone-{key}" for key in ev.STUDY_TONES], linked)
         self.assertNotIn(">Proved<", page)
 
     def test_atlas_uses_canonical_tree_marks(self):
