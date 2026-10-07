@@ -685,7 +685,12 @@ Corrected assessment.
         # canonical page (never repeated on candidate comparison pages).
         evidence = json.loads((ROOT / "data" / "wikitree" / "profile-evidence.json").read_text(encoding="utf-8"))
         public_profile_ids = {profile_id for person in people for profile_id in person["profile_ids"]}
-        current_updates = set(_load_profile_updates(evidence)) & public_profile_ids
+        from tools.repair_person_hierarchy import _update_names_withheld_person
+        queued_updates = _load_profile_updates(evidence)
+        # An update whose captured profile text names a living person or a DNA
+        # tester is deliberately kept off the public page (site audit, 7 Oct 2026).
+        current_updates = {profile_id for profile_id in set(queued_updates) & public_profile_ids
+                           if not _update_names_withheld_person(queued_updates[profile_id])}
         update_count = len(current_updates)
         current_update_pages = {profile_id.casefold() for profile_id in current_updates}
         rendered_update_drafts = 0
@@ -745,7 +750,7 @@ Corrected assessment.
         james = next(person for person in people if "Glasgow-3903" in person["profile_ids"])
         html = (WEB / "people" / f"{james['catalogue_id']}.html").read_text(encoding="utf-8")
         # Person pages carry the unified archive shell; its brand returns home.
-        self.assertIn('<a aria-label="Glasgow archive home" class="g-brand" href="/">', html)
+        self.assertIn('<a aria-label="Glasgow Surname Project home" class="g-brand" href="/">', html)
         # The dossier presentation titles the dated chronology "Historical chronology".
         for text in ("James Glasgow", "Adam Glasgow", "Rose (Unknown) Glasgow", "Inishrush", "Historical chronology"):
             self.assertIn(text, html)
@@ -998,7 +1003,11 @@ Corrected assessment.
         # hand-kept list: queued corrections leave it once applied on WikiTree.
         evidence = json.loads((ROOT / "data" / "wikitree" / "profile-evidence.json").read_text(encoding="utf-8"))
         public_profile_ids = {profile_id for person in index for profile_id in person["profile_ids"]}
-        queued_updates = {profile_id for profile_id in _load_profile_updates(evidence) if profile_id in public_profile_ids}
+        from tools.repair_person_hierarchy import _update_names_withheld_person
+        # An update whose captured profile text names a living person or a DNA
+        # tester is kept off the public site, so it is not flagged either.
+        queued_updates = {profile_id for profile_id, update in _load_profile_updates(evidence).items()
+                          if profile_id in public_profile_ids and not _update_names_withheld_person(update)}
         self.assertTrue(queued_updates)
         self.assertEqual(len(updates), len(queued_updates))
         self.assertEqual({person["profile_ids"][0] for person in updates}, queued_updates)
@@ -2242,7 +2251,9 @@ Corrected assessment.
         self.assertIn("Sitemap: https://glasgow.phenotype.dev/sitemap.xml", robots)
         sitemap = (WEB / "sitemap.xml").read_text(encoding="utf-8")
         self.assertIn("/catalogue", sitemap)
-        self.assertIn("/candidate-matches", sitemap)
+        # Workroom pages (candidate matches, the research queue) are served but left
+        # out of the sitemap: they hold leads, not findings (site audit, 7 Oct 2026).
+        self.assertNotIn("/candidate-matches", sitemap)
         self.assertIn("/people/glasgow-3903.html", sitemap)
         self.assertNotIn("/people/glasgow-933.html", sitemap)
         self.assertGreater(len(re.findall(r"<url>", sitemap)), 4_000)

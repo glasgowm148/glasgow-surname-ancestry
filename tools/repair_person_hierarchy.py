@@ -2703,6 +2703,8 @@ def _replace_main(text: str, profile_id: str) -> str:
 def revise(text: str, profile_id_hint: str = ""):
     match = re.search(r'data-r-person=["\']([^"\']+)', text)
     if "main" not in text: return text, False
+    # A merge redirect stays a redirect: never render the old profile's page over it.
+    if re.search(r'<meta\b[^>]*http-equiv=["\']refresh["\']', text[:4000], re.I): return text, False
     profile_id = match.group(1) if match else profile_id_hint
     if not profile_id: return text, False
     if not (WEB / "people" / f"{profile_id.casefold()}.json").exists(): return text, False

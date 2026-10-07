@@ -68,7 +68,10 @@ def finalize(site_root=ROOT/'www'):
         # original presentation is preserved apart from existing cache versions.
         reference = path.relative_to(site_root).parts[0]=='reference'
         if generated and not reference:
-            after=snapshot(after,generated)
+            # The family tree page states its own import date (repair_public_dna);
+            # the catalogue date must not overwrite it.
+            if path.relative_to(site_root).as_posix()!='onetree/index.html':
+                after=snapshot(after,generated)
             if path.relative_to(site_root).as_posix()=='about/index.html':
                 after=about_dates(after,generated,manifest)
         tree = 'g-kind-tree' in after

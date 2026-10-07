@@ -307,7 +307,12 @@ def main():
             target = WEB / "people" / (decision["profile_id"].lower() + ".html")
             if not target.exists():
                 missing.append(ident)
-            continue
+            # Its findings are published on the covering profile, but a queued
+            # WikiTree update for a covered profile that has its own page must
+            # still be flagged there.
+            own_page = WEB / "people" / (links.get(ident, ident.lower()) + ".json")
+            if not (ident in updates and own_page.exists()):
+                continue
         if decision.get("status") == "include_record":
             ident = decision["profile_id"]
         slug = links.get(ident, ident.lower())
