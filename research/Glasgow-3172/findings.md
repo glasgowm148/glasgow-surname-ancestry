@@ -66,3 +66,15 @@ The full [NLI-catalogued 1686 extract](https://sources.nli.ie/Record/MS_UR_01268
 PRONI T/828/15, was not recovered: the catalogue returned HTTP 403. That is an
 access limit, not evidence that the surviving extract lacks kin. No new relative
 is established. [Search scope and handoff](../larne-proof-2026-09-21/early-james.md).
+
+<!-- repo-integration-audit-2026-10-07:L13-014 -->
+## Source findings — Macartney letters, 1667 and 1679
+
+| Source | Finding | Assessment |
+| --- | --- | --- |
+| PRONI `MIC19/2`, business correspondence of George Macartney, letter of 29 October 1667 | Macartney proposed sending Mr Arthur's butter, meant for Rouen, to Dublin aboard the *Blessing* of Saltcoats, “of which James Glasgow was master”. | Direct evidence that he was master of a Scottish vessel in the Belfast trade by 1667, so born before 1667. No kin, ownership or rank stated. |
+| Same, letters of 8 November 1679, one of them to Sir Joshua Allen | Macartney had freighted the *James of Belfast*, commanded by James Glasgow, with butter and tallow for Havre de Grâce (Le Havre). | Direct. His last dated lifetime record, so a conservative death field is “after 8 November 1679”. Proves neither ownership of either ship nor a military or naval captaincy. |
+
+The letters are cited by date in the 21 September profile draft; how they were seen is not stated. The draft grades the 1686 Belfast will reference (`T/828/15`) as probably his but not conclusive until the extract is read, and 1686 is not proved to be a death or probate date.
+
+Recorded in `research/Glasgow-3172/larne-proof-2026-09-21.wiki` (21 September 2026); carried into this file on 7 October 2026.

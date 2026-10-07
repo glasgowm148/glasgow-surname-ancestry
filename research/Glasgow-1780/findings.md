@@ -1,6 +1,6 @@
 # Findings: Glasgow-1780
 
-Last updated: 2026-10-05
+Last updated: 2026-10-07
 
 ## Source findings
 
@@ -166,3 +166,10 @@ Sources: [Belfast News-Letter, 21 August 1840, p.2](https://www.newspapers.com/i
 - Set apart as a General Assembly missionary to India with Rev. Alexander Kerr, July 1840. — Belfast News-Letter 14 Jul 1840, image 390559244; PHSI ([Belfast News-Letter, 1840-07-14, p.1](https://www.newspapers.com/image/390559244/))
 - At Rajkot on 14 Aug 1841, reporting the death of Rev. Alexander Kerr. — Belfast News-Letter 19 Oct 1841, image 390563026 ([Belfast News-Letter, 1841-10-19, p.2](https://www.newspapers.com/image/390563026/))
 - First Moderator of the first Indian Presbytery, by July 1842. — Belfast News-Letter 29 Jul 1842, image 390558014 ([Belfast News-Letter, 1842-07-29, p.2](https://www.newspapers.com/image/390558014/))
+
+<!-- repo-integration-audit-2026-10-07:L15-006 -->
+## Source findings — civil death registration, 30 June 1890, 7 October 2026
+
+James Glasgow died on 30 June 1890 at Dunavon, Portadown, in Lurgan registration district. The civil registration describes him as an 85-year-old widower, Presbyterian minister and Doctor of Divinity, and records his son-in-law John Acheson as present at the death ([GRO Ireland register image](https://civilrecords.irishgenealogy.ie/churchrecords/images/deaths_returns/deaths_1890/06100/4740942.pdf); [GRONI death index](https://geni.nidirect.gov.uk/search/death), D/1890/176/1021/16/104). The age agrees with the 1805 birth, and the son-in-law description supports Harriet Glasgow's marriage to John Acheson. Cited in the reviewed biography; the image was not re-examined for this note. Grade: proved for the death.
+
+Recorded in `research/Glasgow-1780/Glasgow-1780.md` (4 October 2026); carried into this file on 7 October 2026.

@@ -1,6 +1,6 @@
 # Glasgow-1927 research findings
 
-Last updated: 2026-09-10
+Last updated: 2026-10-07
 
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-196d95f7f8ae -->
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-196d95f7f8ae
@@ -46,3 +46,12 @@ The supplied 26/02/1671 Linlithgow index date differs from the profile’s struc
 ## Priority action
 
 **Needs update on WikiTree:** the complete proposed biography records this comparison with prior sources and pending research retained. No structured date or relationship change is established by this index review.
+
+<!-- repo-integration-audit-2026-10-07:L16-004 -->
+## Unresolved — Kilwinning marriage and children cited on the live profile, 7 October 2026
+
+The live profile, preserved in the 10 September 2026 draft, cites a 1704 marriage of a John Glasgow ([FamilySearch XTKV-NLX](https://familysearch.org/ark:/61903/1:1:XTKV-NLX); place not given in the citation) and eight Kilwinning baptisms (Scotland's People OPR, parish 599): James, 12 March 1707 (`10/148`; represented by [Glasgow-1932](https://www.wikitree.com/wiki/Glasgow-1932)); Hugh, 5 February 1710 (`10/158`); Andrew, 25 January 1712 (`10/171`); Margaret, 12 September 1714 (`10/192`); Mary, 25 July 1717 (`10/217`); John, 6 March 1720 (`10/238`); Margaret, 13 November 1723 (`10/268`); and Sarah, 20 February 1726 (`10/290`). These are index citations only; the originals have not been inspected.
+
+No record yet links the John Glasgow baptised at Linlithgow in 1671 to the Kilwinning father, who lived some 55–60 miles away (approximate). **Unresolved:** the identity rests on name and approximate age alone and must be tested before these children are treated as his.
+
+Recorded in `research/Glasgow-1927/Glasgow-1927.md` (10 September 2026); carried into this file on 7 October 2026.

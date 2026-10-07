@@ -1,6 +1,6 @@
 # Findings: Hiram Wilson Glasgow (Glasgow-3995)
 
-Last updated: 2026-08-13
+Last updated: 2026-10-07
 
 ## Current conclusion
 
@@ -37,3 +37,10 @@ after 17 Oct 1867) and attached as Hiram's spouse; daughter Cleora
 to Leland McNary Speers (new [[Speers-583]], born before 1847). Each new profile
 carries the biographical-account and marriage-notice citations. A profile for
 their son Rev. Leonidas K. Glasgow has still not been created.
+
+<!-- repo-integration-audit-2026-10-07:L14-034 -->
+## Source findings — Newberry probate index entries, 12 August 2026
+
+The [Newberry County probate court general index to estates, 1785–1949](https://genealogytrails.com/scar/newberry/estates1785-1949/22.htm) (index transcription) shows Hiram Glasgow administering the estate of [Absolom Glasgow (Glasgow-1145)](https://www.wikitree.com/wiki/Glasgow-1145) in 1834 (estate 1069) and, in 1837, acting as guardian of 'J. L. Glasgow and others' (estate 1901), apparently Absolom's minor children. Hiram's own estate, after his death on 20 February 1847, was administered by Robert G. Gilliam. The administration shows a close collateral connection with Absolom's family; it does not make Hiram a son of [John Glasgow (Glasgow-1146)](https://www.wikitree.com/wiki/Glasgow-1146), and Mary's 1837 will places him in Wilson's household. The minors' identities and Hiram's exact kinship to Absolom need the estate packets.
+
+Recorded in `research/Glasgow-3995/1810_United_States_South_Carolina_Newberry_Hiram_Wilson_Glasgow.md` (12 August 2026); carried into this file on 7 October 2026.

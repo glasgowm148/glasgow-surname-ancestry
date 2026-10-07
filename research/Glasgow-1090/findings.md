@@ -1,6 +1,6 @@
 # George Glasgow (Glasgow-1090) research findings
 
-Last updated: 2026-09-10
+Last updated: 2026-10-07
 
 
 ## Current conclusion
@@ -43,3 +43,12 @@ This is a review of existing evidence, not a newly discovered record. Attached f
 Reason: The Glasgow 1627 baptism names John Glasgow and Jonet Mathie as the lawful child’s parents; High Kirk baptisms, vol.2/436.
 
 Source summary: The Glasgow 1627 baptism names John Glasgow and Jonet Mathie as the lawful child’s parents; High Kirk baptisms, vol.2/436. Saved on WikiTree and verified in the live edit form on 28 September 2026; only the father certainty and its explanation were updated.
+
+<!-- repo-integration-audit-2026-10-07:L15-011 -->
+## Identity assessment — baptism witnesses and Linlithgow namesake, 7 October 2026
+
+The Glasgow High Kirk baptism of George, lawful son of John Glasgow and Jonet Mathie (Glasgow High Kirk Baptisms 1609–1777, vol. 2/436, 1627; [FamilySearch VQHK-3WY](https://www.familysearch.org/ark:/61903/1:1:VQHK-3WY)), names George Glasgow and Alexander Simsoun. The transcription calls them "guardians"; they are presumably the baptismal witnesses. Seen as a transcription; original image not inspected. A George Glasgow also witnessed the 1619 baptism of John's son John (see [Glasgow-1030](https://www.wikitree.com/wiki/Glasgow-1030)), but neither entry says which George he was.
+
+This George is distinct from [George Glasgow (Glasgow-1560)](https://www.wikitree.com/wiki/Glasgow-1560), christened at Linlithgow on 20 January 1622 to John "Glesgow" ([FamilySearch X1RN-XVQ](https://familysearch.org/ark:/61903/1:1:X1RN-XVQ)): different place, date and mother.
+
+Recorded in `research/Glasgow-1090/Glasgow-1090.md` (legacy draft, last committed 29 September 2026); carried into this file on 7 October 2026.

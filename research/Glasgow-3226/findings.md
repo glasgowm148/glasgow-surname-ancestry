@@ -26,3 +26,10 @@ Zaccheus as an heir, the parent links should remain uncertain.
 Obtain Robert Glasgow's estate 1055, box 43, package 98. An administrator's
 bond, sale receipt or distribution naming Zaccheus Wright or Mary would convert
 the present probable relationship into direct evidence.
+
+<!-- repo-integration-audit-2026-10-07:L16-017 -->
+## Source findings — marriage and death from derivative accounts, 7 October 2026
+
+The [Wright family account](https://www.geocities.ws/richmond01_2000/wright.html) states that Mary married Zaccheus Wright on **7 December 1809** at Abbeville, South Carolina. [Find a Grave memorial 144856288](https://www.findagrave.com/memorial/144856288/mary_c-wright) gives her death on **6 September 1841** and burial at Old Tranquil Methodist Cemetery, Newberry County. Both are derivative; no marriage or death record has been inspected. **Unresolved** until a contemporary record is found.
+
+Recorded in `research/Glasgow-3226/Glasgow-3226.md` (12 August 2026); carried into this file on 7 October 2026.

@@ -51,3 +51,27 @@ record naming Michael's parents. The next meaningful step is an archive lookup
 in the Irvine records above, held through Irvine Townhouse/North Ayrshire
 Heritage (and the NRS originals where noted). FamilySearch should also be retried
 in a working authenticated session.
+
+<!-- repo-integration-audit-2026-10-07:L15-009 -->
+## Source findings — Irvine saddler roups, 1699 and 1701, 7 October 2026
+
+The Irvine burgh catalogue lists two roups (auction lettings) to Michael Glasgow, saddler of Irvine, among the Town Treasurer's articles of roup: on 1 March 1699, the grass of the Green and the lime holes or pits for 1699–1700 at £36 Scots (IB2/14/19); and on 5 April 1701, the grass of the Green and the lime or "tann" pits for 1701–1702 at £43 Scots (IB2/14/22). Ayrshire Archives, *Irvine Burgh Catalogue* (2017), p. 142; the entries were read in the recovered local copy `sources/irvine_burgh_catalogue_2017_wayback_recovered.pdf` on 7 October 2026.
+
+These are the records behind the statement that Michael was a saddler from 1699. Seen as catalogue descriptions; the original roup papers have not been inspected. They name no relatives. The tanning pits fit a leather trade, which is consistent with the 1679 Irvine skinner merged into this profile, but they do not prove that identity.
+
+Recorded in `research/Glasgow-1406/Glasgow-1406.md` (20 August 2026); carried into this file on 7 October 2026.
+
+<!-- repo-integration-audit-2026-10-07:L15-010 -->
+## Source findings — wives and children from Irvine baptisms, 7 October 2026
+
+| Child | Baptism at Irvine | Mother named | Index |
+| --- | --- | --- | --- |
+| [Elizabeth (Glasgow-1418)](https://www.wikitree.com/wiki/Glasgow-1418) | 1700 (the OPR index marks the year as assumed; the 1 January date in the FamilySearch entry is not a recorded day) | Elizabeth Garven | [XBLZ-SQS](https://www.familysearch.org/ark:/61903/1:1:XBLZ-SQS) |
+| [Agnes (Glasgow-1408)](https://www.wikitree.com/wiki/Glasgow-1408) | 13 January 1706 | Catharine Baird | [XBLZ-S35](https://www.familysearch.org/ark:/61903/1:1:XBLZ-S35) |
+| [Elizabeth (Glasgow-1409)](https://www.wikitree.com/wiki/Glasgow-1409) | 12 November 1710 | Catharine Baird | [XBLZ-SQ7](https://www.familysearch.org/ark:/61903/1:1:XBLZ-SQ7) |
+| [Michael (Glasgow-1410)](https://www.wikitree.com/wiki/Glasgow-1410) | 14 October 1712 | Catharine Baird | [XTV2-BQB](https://www.familysearch.org/ark:/61903/1:1:XTV2-BQB) |
+| [Janet (Glasgow-1407)](https://www.wikitree.com/wiki/Glasgow-1407) | 30 January 1715 | Catharine Baird | [XBLH-YPJ](https://www.familysearch.org/ark:/61903/1:1:XBLH-YPJ) |
+
+Seen as FamilySearch index entries citing the Irvine parish register, as cited in the reviewed draft; each child's own findings carries the index or transcript. Original images not inspected. The two mothers indicate two marriages, to [Elizabeth Garven (Garven-52)](https://www.wikitree.com/wiki/Garven-52) by about 1700 and to [Catharine Baird (Baird-5776)](https://www.wikitree.com/wiki/Baird-5776) by 1706. The entries name the father only as Michael Glasgow, so his identity with the saddler rests on the uncommon name and the Irvine locality (inference).
+
+Recorded in `research/Glasgow-1406/Glasgow-1406.md` (20 August 2026); carried into this file on 7 October 2026.

@@ -123,3 +123,12 @@ The transcript-validated testament/probate record for **John Glasgow**, 17 Aug 1
 
 Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
 <!-- END FMP-GLASGOW-fmp-glasgow-be5487ea2b80 -->
+
+<!-- repo-integration-audit-2026-10-07:L16-016 -->
+## Source findings — Mid Calder baptism citations and duplicate caution, 7 October 2026
+
+The two Mid Calder baptisms carried into this profile by the Glasgow-3608 merge are indexed as Jhone Glasgow, 1608, father Jhone Glasgow ([FamilySearch X1BL-X8B](https://familysearch.org/ark:/61903/1:1:X1BL-X8B)), and William Glasgow, baptised 24 December 1609, son of Jhone Glasgow ([FamilySearch X1B2-3LV](https://www.familysearch.org/ark:/61903/1:1:X1B2-3LV)). Derivative indexes; no bridge to the 1650 Quodquen man.
+
+[Glasgow-1561](https://www.wikitree.com/wiki/Glasgow-1561), John Glasgow of nearby Linlithgow, is a duplicate candidate only; similar name, date and region do not justify another merge without an identity bridge.
+
+Recorded in `research/Glasgow-3296/Glasgow-3296.md` (2026-09-07); carried into this file on 7 October 2026.

@@ -115,3 +115,24 @@ Original image not inspected for this batch. The combined collection’s date do
 The live biography, preserved in the 30 September 2026 audit, lists two leads that this file has not tested: an Archibald Glasgow in a County Donegal Hearth Money Roll of 1665 ([Virtual Record Treasury of Ireland, TCD MS 6232](https://www.virtualtreasury.ie/item/TCD-MS-6232)), and an Archibald Glasgow 'possibly mentioned' in a 1657 disciplinary record concerning drunkenness ([VRTI, IMC-AH-15-1944-MacLysaght](https://www.virtualtreasury.ie/item/IMC-AH-15-1944-MacLysaght)). Neither entry has been read; both are catalogue-level leads of **possible** relevance and prove nothing about this cleric. Read the hearth-roll entry for its parish and townland, and the 1657 text for the person's description, before using either.
 
 Recorded in `research/profile-preservation-audit-2026-09-30/Glasgow-1101-reconciled.wiki` (30 September 2026); carried into this file on 7 October 2026.
+
+<!-- repo-integration-audit-2026-10-07:L15-007 -->
+## Relationship assessment — 1614 baptism witnesses and the Howie hypothesis, 7 October 2026
+
+The Glasgow High Kirk baptism of Archibald, 19 June 1614, lawful son of George Glasgow and Margaret Steuart, names William Howie, Michael Broune and Andrew Mylne (Glasgow High Kirk Baptisms 1609–1777, vol. 1/1329, as cited in the reviewed draft; the OPR index row is 644/1 10/133). The original image was not inspected for this note.
+
+A sibling or cousin relationship with [William Glasgow (Glasgow-992)](https://www.wikitree.com/wiki/Glasgow-992), whose banns or marriage with Bessie Howie are indexed at Glasgow on 5 December 1635, has been suggested because of the shared Howie surname. William-992's own findings also note a William Howie as witness at a William Glasgow baptism. The 1614 entry does not say William Howie was a relative, so the link is a network clue only (inference) and William should not be attached as Archibald's brother. A proposed great-uncle link to [Archibald Glasgow (Glasgow-1097)](https://www.wikitree.com/wiki/Glasgow-1097) likewise depends on unproved reconstructed links.
+
+Recorded in `research/Glasgow-1101/Glasgow-1101.md` (1 October 2026); carried into this file on 7 October 2026.
+
+<!-- repo-integration-audit-2026-10-07:L15-008 -->
+## Source findings — Reid and University Story citations, 7 October 2026
+
+| Source | Finding | Assessment |
+| --- | --- | --- |
+| James Seaton Reid, *A History of the Presbyterian Church in Ireland* (1853), [p. 278](https://en.geneanet.org/archives/ouvrages?action=detail&book_type=livre&livre_id=6279357&page=278) | Archibald Glasgow appointed rector and vicar of Clondevadock, Tullyfern and Aughnish in April 1661. | Printed secondary source for the appointment already in the Ulster Settlers record. |
+| University of Glasgow, [University Story](https://universitystory.gla.ac.uk/people?search=&surname=Glas&forename=) | "Archibaldus Glasgua", graduate, Master of Arts, 1635. | The citation behind the M.A. already relied on here; no Irish record names his university, so the Scottish identity stays a strong candidate, not a bridge. |
+
+Seen as a printed work and a catalogue entry, as cited in the reviewed draft; neither was re-examined for this note.
+
+Recorded in `research/Glasgow-1101/Glasgow-1101.md` (1 October 2026); carried into this file on 7 October 2026.

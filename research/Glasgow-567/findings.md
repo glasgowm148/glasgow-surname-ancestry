@@ -1,6 +1,6 @@
 # Findings: Barbara Glasgow (Glasgow-567), adult at Edinburgh in 1611
 
-Last updated: 2026-08-09
+Last updated: 2026-10-07
 
 ## Current conclusion
 
@@ -60,3 +60,16 @@ in 1616. The baptism proves Johne Little as co-parent, not husband. Assessment:
 **moderate identity hypothesis and possible Ninian daughter/niece**. Do not
 merge or replace parents until the original 1611 entries and John Wilson's fate
 are resolved.
+
+<!-- repo-integration-audit-2026-10-07:L17-009 -->
+## Identity assessment — record links for the other Barbara Glasgows, 1 October 2026
+
+| Record | Index link | Bearing on Glasgow-567 |
+| --- | --- | --- |
+| Barbara Glasgow married George Johnstoun, cordiner, Edinburgh, 21 November 1616 | [FamilySearch XYMH-HZJ](https://familysearch.org/ark:/61903/1:1:XYMH-HZJ) | Represented by [Glasgow-3302](https://www.wikitree.com/wiki/Glasgow-3302); possible later identity of this Barbara, unproved. The children's baptism links and the FamilySearch tree caution are in Glasgow-3302's findings. |
+| Barbara Glasgow and John Wilson, South Leith, 26 November 1611 | [FamilySearch XYML-ZBB](https://familysearch.org/ark:/61903/1:1:XYML-ZBB) | Represented by [Glasgow-3182](https://www.wikitree.com/wiki/Glasgow-3182). A South Leith entry dated 20 September 1611 also exists; the original entries are needed. |
+| Barbara Glasgow, daughter of George Glasgow and Margaret Steuart, 1617 | [FamilySearch VQC9-JYX](https://familysearch.org/ark:/61903/1:1:VQC9-JYX) | [Glasgow-1102](https://www.wikitree.com/wiki/Glasgow-1102), excluded as the 1611 mother by age. The index gives 29 June 1617 at Edinburgh; Glasgow-1102's findings prefer a Glasgow High Kirk transcription of 21 October 1617. |
+
+All three were seen as FamilySearch index entries cited in the profile draft. The 1586 protocols naming William Glasgow and Margaret Herbesoun as George's parents are Renwick, *Abstracts of Protocols of the Town Clerks of Glasgow*, vol. 9, [protocol 2903, p. 103, 15 July 1586](https://archive.org/details/abstractsprotoc01scogoog/page/n113/mode/2up) and [protocol 2916, p. 107, 1 September 1586](https://archive.org/details/abstractsprotoc01scogoog/page/n116/mode/2up); neither names Barbara.
+
+Recorded in `research/Glasgow-567/Glasgow-567.md` (1 October 2026); carried into this file on 7 October 2026.

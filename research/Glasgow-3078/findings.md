@@ -82,3 +82,14 @@ clothing; financial figures and several names remain unresolved.
 [Selective working transcription and review limits](../transcriptions/originals-2026-09-09/archibald-1662.json).
 The next source task is to resolve the January day and complete the accounts;
 the overseers' and creditor's possible kinship remains an open question.
+
+<!-- repo-integration-audit-2026-10-07:L13-012 -->
+## Next records — South Leith children and the 1646 marriage citation, 10 September 2026
+
+The four children attached to Archibald and Agnes Watson carry these reported dates, recovered from their public WikiTree biographies (acquisition leads; originals not inspected): Archibald `Glasgow-3079`, 8 October 1654 ([FQMH-M86](https://www.familysearch.org/ark:/61903/1:1:FQMH-M86)); John `Glasgow-3516`, 27 April 1656 ([XY75-RRX](https://www.familysearch.org/ark:/61903/1:1:XY75-RRX)); George `Glasgow-2714`, reported baptised at South Leith on 16 May 1658 ([FQMH-CXH](https://www.familysearch.org/ark:/61903/1:1:FQMH-CXH)); William `Glasgow-3080`, 15 October 1660 ([FQMH-DD9](https://www.familysearch.org/ark:/61903/1:1:FQMH-DD9)). All four biographies name Archibald and Agnes Watson as parents; that does not independently identify their father with the 1618 child or the shoemaker of 1639 and 1647.
+
+John is **absent** from the three lawful sons named in the 1662 testament (CC8/8/70). That raises a question, not a proved death before 1662: check the 1656 original, burial evidence and the testament's scope before detaching or merging him.
+
+The live biography also cites a marriage of Archbald Glasgow and **Margaret Hilstones**, South Leith, 14 April 1646, OPR 692/2, 90/310, FR3086. It is copied from the public biography and has not been checked against the image; neither an earlier marriage of Agnes Watson's husband nor a clerical error is established.
+
+Recorded in `research/Glasgow-3078/parish-register-targets-2026-09-10.md` (10 September 2026); carried into this file on 7 October 2026.

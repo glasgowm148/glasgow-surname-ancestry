@@ -150,3 +150,17 @@ The [NRS Morton papers catalogue](https://catalogue.nrscotland.gov.uk/nrsonlinec
 ## Queue reconciliation — 30 September 2026
 
 The retained Robert and Marion creation drafts were stale: these testament-defined children already have Glasgow-4006 and Glasgow-4095. Retire those creation recommendations and link their existing accounts. The later adult identification of Robert with Glasgow-1156 remains a compatible possibility, not an exclusion based only on an absent property bridge. Do not merge the profiles without comparing their respective record identities. The original Robert parentage and Marion father conclusion were already documented; this queue correction is not a newly certain relationship.
+
+<!-- repo-integration-audit-2026-10-07:L16-018 -->
+## Source findings — advisers, associates and inventory in the 1597/8 testament, 7 October 2026
+
+From the maintained transcription of NRS Edinburgh Commissary Court CC8/8/32, image 123 (`research/transcriptions/originals-2026-09-09/andrew-1598.json`, reviewed 27 September 2026); many names, places and amounts are illegible or queried:
+
+- **Adviser:** the latter will names advisers whose counsel Elizat and Robert were to use, including **James Stevinsoun** (the draft spells it Stevisoun). The shared surname makes him a **possible** lead for Elizat Stevinsoun's family; the will states no relationship.
+- **Owed to Andrew:** John Mure; Isobell [surname illegible], widow of the late John [surname illegible]; James Stevinsoun, about £10.
+- **Owed by Andrew:** [name illegible] in Corsoun[?]; Johne Keddell[?], for a brown horse; James [surname illegible]; David Lyoun; Patrik Stevinsoun[?]; the laird of Westhall[?]. These are economic associates, not proved kin.
+- **Inventory:** three cows with their calves at £8[?] each (£24[?]); two young beasts a year old; two horses at £10[?] each (£20[?]); nine sheep; eight bolls of oats at about four merks[?] a boll; barley (quantity illegible); household utensils, furnishings and clothing. Several values and the totals are unread and should not be filled in by calculation.
+
+The earlier draft also reads a Johne Sandelandis in the confirmation and a closing clause in which a notary signed for Andrew because he could not write; the maintained transcription leaves that closing formula partly unresolved.
+
+Recorded in `research/Glasgow-3163/Glasgow-3163.md` (27 September 2026), checked against the maintained transcription; carried into this file on 7 October 2026.

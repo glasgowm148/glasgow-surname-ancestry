@@ -76,3 +76,14 @@ Find original Cookstown subscribers, estate and tax records and family identifie
 **Birth: about September or October 1762**, from the Gilder's Creek stone as transcribed: died 17 January 1835 aged 72 years 3 months. The transcription's heading year, 1763, is a miscalculation and is the origin of the present value. The transcription was read through a summarising fetch, so the stone wording should be confirmed on the page. Note: the sworn answer calls Robert the oldest son, but John Glasgow-1146 (died 11 December 1826 aged 70) was born about 1756.
 
 These are proposals for the WikiTree date fields and are queued for review; nothing has been changed on WikiTree.
+
+<!-- repo-integration-audit-2026-10-07:L16-009 -->
+## Source findings — will dates, Elizabeth's death and 1800 index, 7 October 2026
+
+| Source | Finding | Assessment |
+| --- | --- | --- |
+| [Will of James Glasgow](https://web.archive.org/web/20101124215937id_/http://lifesweaving.com/Glasgow/Paper_JGlasgowWill.html), Newberry Will Book A, p. 194 | Dated 17 October 1775, proved 13 July 1793; Robert receives 100 acres including the house in which James lived. | Direct relationship evidence; derivative transcription. |
+| [Gilders Creek Cemetery](https://genealogytrails.com/scar/newberry/gilders_creek_cem.htm) | Elizabeth, Robert's wife, died 10 November 1823 aged 60. | Stone transcription; gives birth about 1763. |
+| ["United States Census, 1800", FamilySearch XHRC-7BF](https://familysearch.org/ark:/61903/1:1:XHRC-7BF) | Robert Glasgow, Newberry District, p. 75, NARA M32 roll 50. | Index of the same household already tabled from the transcription. Also cited: Find a Grave 33531787. |
+
+Recorded in `research/Glasgow-1983/Glasgow-1983.md` (2026-09-07); carried into this file on 7 October 2026.

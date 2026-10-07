@@ -1,6 +1,6 @@
 # Findings: [Jesse Martin Glasgow (Glasgow-2772)](https://www.wikitree.com/wiki/Glasgow-2772)
 
-Last updated: 2026-08-19
+Last updated: 2026-10-07
 
 ## Current conclusion
 
@@ -21,3 +21,10 @@ Nancy remain attached as uncertain parents because no better placement is known.
 The inaccessible archive.ph snapshot was replaced with the current FamilySearch
 profile for Jesse Martin Glasco, KJ6W-8NZ. Its derivative parentage claim remains
 qualified; the TSHA biography and original census schedules remain cited.
+
+<!-- repo-integration-audit-2026-10-07:L13-009 -->
+## Source findings — Handbook of Texas biography, marriage and Texas residence
+
+The Texas State Historical Association's [“Glasco, Jesse Martin”](https://www.tshaonline.org/handbook/entries/glasco-jesse-martin), *Handbook of Texas Online*, states that Jesse married **Louisa Earp on 16 December 1846**, became a Methodist minister, moved to **Upshur County, Texas, in 1850**, and died there on 17 December 1886. This is a published derivative biography; the marriage record itself has not been inspected. It does not name Jesse's parents, so it does not affect the uncertain link to Robert-2769. No WikiTree profile for Louisa Earp was found in the local One Tree catalogue.
+
+Recorded in `research/Glasgow-2772/profile.md` (profile draft, 20 August 2026); carried into this file on 7 October 2026.

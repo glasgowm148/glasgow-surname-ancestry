@@ -1,6 +1,6 @@
 # Findings: Glasgow-2406
 
-Last updated: 2026-09-17
+Last updated: 2026-10-07
 
 ## Current conclusion
 
@@ -52,3 +52,10 @@ records an infant son, John Garvin. James died at Lisnagaver on 14 February
 - Infant [John Garvin Glasgow (Glasgow-4005)](https://www.wikitree.com/wiki/Glasgow-4005)
   is a proved child from the family memorial. His new profile uses birth after
   1886 and death before 1901 as explicit bounds, not exact event years.
+
+<!-- repo-integration-audit-2026-10-07:L16-021 -->
+## Source findings — marriage witnesses and widow's death, 7 October 2026
+
+The [1 July 1886 Clough marriage](https://civilrecords.irishgenealogy.ie/churchrecords/images/marriage_returns/marriages_1886/10840/5957283.pdf) (entry 62) was witnessed by **Robert Aiken** and **Matilda Bell** (original register). James's [1918 death](https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1918/05197/4435754.pdf) is Dervock registrar's district, entry 165. The [Rasharkin Second Presbyterian stone](https://genealogy.torrens.org/BannValley/church/RasharkinP/graveyard.html) (2004 transcription) records "Elizabeth Ann", his widow Eliza Ann, as dying on **16 June 1933 aged 84**; her PRONI will-calendar entry is cited in [Glasgow-867](https://www.wikitree.com/wiki/Glasgow-867)'s findings.
+
+Recorded in `research/Glasgow-2406/Glasgow-2406.md` (19 August 2026); carried into this file on 7 October 2026.

@@ -41,3 +41,12 @@ citations, corrects the testament claim, and keeps the two-household problem
 explicit.
 
 Edit summary: `Withdraw incorrect Andrew-parent claim after re-reading NRS CC8/8/32.`
+
+<!-- repo-integration-audit-2026-10-07:L17-017 -->
+## Identity assessment — same-name leads not connected to James, 8 September 2026
+
+A James Glas, son of Alexander Glas, was baptised at Perth on 19 January 1575 (Old Parish Register, Perth, 387/10, p. 172, as cited from FamilySearch tree person [LZGY-NSY](https://www.familysearch.org/en/tree/person/details/LZGY-NSY); the register entry was not seen). Before 1600 the Scottish year began on 25 March, so the date may be 1575/76. No evidence carries that child into the Mid Calder or Inveresk records, and an Inveresk birth and a wife attached to James elsewhere have not been shown to belong to this profile; neither should be used for him.
+
+Jonet Glasgow's marriage to Martin Ramsy at Mid Calder in 1624 is indexed at [FamilySearch XY9X-4PR](https://www.familysearch.org/ark:/61903/1:1:XY9X-4PR). Andrew Glasgow's testament (`CC8/8/32`) was made on 6 February 1597/8 and confirmed on 10 July 1598.
+
+Recorded in `research/Glasgow-991/Glasgow-991.md` (8 September 2026); carried into this file on 7 October 2026.

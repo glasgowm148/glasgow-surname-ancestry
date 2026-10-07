@@ -193,3 +193,12 @@ The transcript-validated Occupations record for **Ninian Glasgow**, 1613, , is a
 
 Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
 <!-- END FMP-GLASGOW-fmp-glasgow-f3d62f589049 -->
+
+<!-- repo-integration-audit-2026-10-07:L16-010 -->
+## Source findings — testament dates and the 1605 mariners' roll, 7 October 2026
+
+Ninian's testament testamentar and inventory (NRS Glasgow Commissary Court CC9/7/9, images 142–145) states that he died in January 1613 ("Quha deceist in the moneth of Januar"; the year is written in numerals, expanded as 1613 in the transcription). His latter will is dated at Glasgow on an unread day of "Januar 1613" (working transcription `research/transcriptions/originals-2026-09-09/ninian-1613.json`, reviewed 10 September 2026, which leaves the day unresolved). The earlier draft's "made 10 January 1613" therefore gives a day that the reviewed transcription does not confirm. The testament was confirmed on 8 May 1613; that is not his death date. Scotland had begun the year on 1 January since 1600, so January 1613 needs no Old Style double-dating. Seen as a working transcription of the original images. Jonet Hutchesoun was his spouse when the will was made.
+
+George Crawfurd, *A Sketch of the Rise and Progress of the Trades' House of Glasgow* (1858), pp. 49, 56–57, prints a 1605 roll that places Ninian among Glasgow's mariners and fishers. This is a printed derivative, consistent with the 1596 burgess entry and the testament's "fischer".
+
+Recorded in `research/Glasgow-3188/Glasgow-3188.md` (8 September 2026); carried into this file on 7 October 2026.

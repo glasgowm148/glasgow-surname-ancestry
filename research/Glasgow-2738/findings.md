@@ -112,3 +112,15 @@ The testing recommendation of 6 October 2026 bears on James J in three ways:
 - A new SNP or private variant shared only between a Kilwaughter kit and James J's kit would support his Kilwaughter descent. It would not prove Robert-2769 or Archibald as his father or grandfather; Archibald's estate 647 is the record test.
 
 No relationship is changed. [Full recommendation](/people/glasgow-951.html#next-research).
+
+<!-- repo-integration-audit-2026-10-07:L16-026 -->
+## Source findings — deed dates, prices and witnesses, 7 October 2026
+
+| Deed | Detail | Source |
+| --- | --- | --- |
+| Noah Hancock to James J. Glasgow | Dated 9 November 1848, registered 2 December 1848; 100 acres in district 6 for $300; James already living on the ridge | [Deed Book T, p. 211](https://tngenweb.org/giles/deed-noah-hancock-to-james-glasgow/) |
+| James J. Glasgow to John Tornerlin | Dated and registered 6 April 1850; same tract for $400; witnesses **Joseph C. Rhea** and **James Anderson** | [Deed Book U, p. 144](https://tngenweb.org/giles/deed-james-j-glasgow-to-john-tornerlin-1850/) |
+
+Seen as TNGenWeb transcriptions. The witnesses are associates for further Giles County searches; neither deed names a relative.
+
+Recorded in `research/Glasgow-2738/Glasgow-2738.md` (13 September 2026); carried into this file on 7 October 2026.

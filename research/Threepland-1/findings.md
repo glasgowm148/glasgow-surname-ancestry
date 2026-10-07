@@ -29,3 +29,10 @@ Remove the 1658 narrative from this identity only while simultaneously setting
 the sourced 1693 Lasswade details. Do not leave locations blank: Lasswade is
 direct for Jean and is usable as uncertain immediate-family context for newly
 created parents.
+
+<!-- repo-integration-audit-2026-10-07:L17-019 -->
+## Source findings — marriage date and place, 14 September 2026
+
+The FamilySearch index of the Scottish parish registers ([XYM3-66R](https://www.familysearch.org/ark:/61903/1:1:XYM3-66R)) dates Jean Thriepland's marriage to [James Clerksone](https://www.wikitree.com/wiki/Clerksone-2) to 3 June 1715 at Dalkeith, Midlothian (seen as an index entry; the original register entry has not been checked).
+
+Recorded in `research/Threepland-1/Threepland-1.md` (14 September 2026); carried into this file on 7 October 2026.

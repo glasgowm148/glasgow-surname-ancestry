@@ -1,6 +1,6 @@
 # Findings: [Glasgow-3012](https://www.wikitree.com/wiki/Glasgow-3012)
 
-Last updated: 2026-09-10
+Last updated: 2026-10-07
 
 ## Source findings
 
@@ -42,3 +42,19 @@ The supplied 22/04/1649 Kirknewton and East Calder index date differs from the p
 ## Priority action
 
 **Needs update on WikiTree:** the complete proposed biography records this comparison with prior sources and pending research retained. No structured date or relationship change is established by this index review.
+
+<!-- repo-integration-audit-2026-10-07:L16-005 -->
+## Source findings — Glencorse children cited on the live profile, 7 October 2026
+
+The live profile, preserved in the 10 September 2026 draft, cites four children of John Glasgow and Margaret Currie (also indexed as Corrie) after their 1673 Kirknewton marriage:
+
+| Child | Date and place as cited | Citation | Notes |
+| --- | --- | --- | --- |
+| [Robert (Glasgow-3011)](https://www.wikitree.com/wiki/Glasgow-3011) | 29 December 1676, Glencorse | OPR 687, FR11 | Agrees with Robert's own findings (Glencorse 687). |
+| [William (Glasgow-3013)](https://www.wikitree.com/wiki/Glasgow-3013) | 26 December 1680, Glencorse | OPR 687, FR16 | Agrees with the OPR index row in William's own findings. |
+| [Margaret (Glasgow-3085)](https://www.wikitree.com/wiki/Glasgow-3085) | 13 April 1684, Glencorse | [FamilySearch VQ4J-FXD](https://www.familysearch.org/ark:/61903/1:1:VQ4J-FXD), father "John Glaskow" | No research folder yet. |
+| [Charles James (Glasgow-2917)](https://www.wikitree.com/wiki/Glasgow-2917) | 3 October 1686, Glencorse | [FamilySearch VQ4J-JJK](https://www.familysearch.org/ark:/61903/1:1:VQ4J-JJK), father "John Glesgowe" | **Conflict:** Charles's own findings give baptism on 10 October 1686 at South Leith, citing the same FamilySearch entry and an Ancestry index. Not resolved here. |
+
+Seen as index citations only; original register images not inspected. The move from Kirknewton to Glencorse is the draft's reading of these entries. Read Charles's original entry to settle the date and parish before relying on either.
+
+Recorded in `research/Glasgow-3012/Glasgow-3012.md` (10 September 2026); carried into this file on 7 October 2026.

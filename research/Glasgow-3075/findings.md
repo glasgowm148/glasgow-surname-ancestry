@@ -52,3 +52,19 @@ disconnected women [Barbara-3182](https://www.wikitree.com/wiki/Glasgow-3182),
 [Isobel-3336](https://www.wikitree.com/wiki/Glasgow-3336). Their South Leith or
 Edinburgh records and cordiner/tailor husbands fit possible sisters or nieces
 of William. This strengthens the family model but proves no individual sister.
+
+<!-- repo-integration-audit-2026-10-07:L16-007 -->
+## Unresolved — 1612 Glasgow High Kirk baptism and possible wife Christian Scot, 7 October 2026
+
+*Glasgow High Kirk Baptisms 1609–1777*, volume 1/962, records William Glasgw, lawful son of William Glasgw and Christian Scot, baptised on 8 November 1612; the witnesses were John Allassoun and Mathew Sympsoun. Seen as cited in the reviewed draft; the draft does not say whether the image was read. The elder William is chronologically compatible with the later Leith mealmaker, but no residence, occupation or relative identifies them as the same man. Christian Scot is therefore only a **possible** wife, and the 1612 child is not shown to be his.
+
+Recorded in `research/Glasgow-3075/Glasgow-3075.md` (8 September 2026); carried into this file on 7 October 2026.
+
+<!-- repo-integration-audit-2026-10-07:L16-008 -->
+## Source findings — testament debts and the Meik testament, 7 October 2026
+
+William's testament dative (NRS Edinburgh Commissary Court CC8/8/62, images 461–462, confirmed 22 July 1646) records £20 Scots owed by Andro Glasgow in Woodhead and £2 10s associated with the late John Glasgow in England. These are financial connections only; neither man is called a relative.
+
+Jonet Meik's testament testamentar (NRS Glasgow Commissary Court CC9/7/5, images 82–83, recorded 27 August 1607) names Ninian Glasgow as her spouse and [Robert Glasgow (Glasgow-1027)](https://www.wikitree.com/wiki/Glasgow-1027) as her son, but does not name William. If William was Ninian's son, Jonet is only a **possible** mother; an earlier wife cannot be excluded. The manuscript surname is Meik; "Melk" in electronic indexes is best treated as a transcription error. Seen as cited in the reviewed draft.
+
+Recorded in `research/Glasgow-3075/Glasgow-3075.md` (8 September 2026); carried into this file on 7 October 2026.

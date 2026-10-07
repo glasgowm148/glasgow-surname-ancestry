@@ -1,6 +1,6 @@
 # Findings: [James Glasgow (Glasgow-3305), born 1740, Moneymore, County Londonderry, Ireland](https://www.wikitree.com/wiki/Glasgow-3305)
 
-Last updated: 2026-07-21
+Last updated: 2026-10-07
 
 ## Integrated update — 20 August 2026
 
@@ -77,3 +77,10 @@ A 2024 Adams County family-history article explicitly identifies John Glasgow of
 - [Cumberland County will index](https://www.sampubco.com/wills/pa/pacumberland01.htm)
 
 No located record names an additional brother James who remained in Ireland. Glasgow-3305 should remain unsourced and should not be used as evidence for the emigrant family's parentage or sibling structure.
+
+<!-- repo-integration-audit-2026-10-07:L16-006 -->
+## Source findings — 1766 Moneymore return negative, 7 October 2026
+
+The 1766 religious return for Moneymore, Ballygrooby and Artrea ([transcription](https://www.cotyroneireland.com/census/moneymore.html)) names neither a Glasgow nor a Harkness household head. **Negative result** against the profile's Moneymore residence. The two "Jas. Glasgo" householders at Drumearn are in the separate Derryloran return, National Archives of Ireland IHP/1/665 ([Virtual Treasury catalogue record](https://virtualtreasury.ie/item/NAI-IHP-1-665)); that return gives no ages or relationships.
+
+Recorded in `research/Glasgow-3305/Glasgow-3305.md` (2026-08-20); carried into this file on 7 October 2026.

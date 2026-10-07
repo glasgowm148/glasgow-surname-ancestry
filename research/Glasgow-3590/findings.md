@@ -21,7 +21,7 @@ but the clause does not say that the servant was John's daughter.
 
 | Source | Finding | Assessment |
 | --- | --- | --- |
-| National Records of Scotland, Edinburgh Commissary Court, `CC8/8/5`, images 276–277; [published index, p. 109](https://archive.org/details/commissariotreco16scot/page/n117/mode/2up?q=Glasgow) | Katherine and Androw/Andrew Glasgow were the lawful children and executors-dative of the late John Glasgow. Margaret, his widow, submitted the inventory for them. A later estate-debt entry names Katherin Glasgow, servant, as a wage creditor. | Direct father-child evidence. It does not independently prove maternity; the servant's identity with the daughter is possible, not explicit. |
+| National Records of Scotland, Edinburgh Commissary Court, `CC8/8/5`, images 276–277; [published index, p. 109](https://archive.org/details/commissariotreco16scot/page/n117/mode/2up?q=Glasgow) | Katherine and Marjory (`m[ar]iory`; earlier read Androw/Andrew, superseded 10 September 2026; see below) Glasgow were the lawful children and executors-dative of the late John Glasgow. Margaret, his widow, submitted the inventory for them. A later estate-debt entry names Katherin Glasgow, servant, as a wage creditor. | Direct father-child evidence. It does not independently prove maternity; the servant's identity with the daughter is possible, not explicit. |
 | [Findmypast, `SCOT/WILLS/057444`](https://www.findmypast.co.uk/transcript?id=SCOT%2FWILLS%2F057444&tab=this) | Places the indexed testator in Hirmenschelis and dates the entry 4 May 1577. | Derivative evidence for the household's setting and record identity, not a birth record for Katherine. |
 
 ## Relationship assessment
@@ -30,9 +30,7 @@ but the clause does not say that the servant was John's daughter.
 - Mother Margaret/Hutcheson-1656: **unproved**. Retain the attachment as
   uncertain; presenting the inventory for the children is consistent with but
   not proof of maternity.
-- Sibling Androw/Andrew: **proved as a second child of John and Margaret, name
-  provisionally read**. Glasgow-3163 is only a possible identity.
-- Glasgow-3589: not the sibling named by this record.
+- Sibling Marjory ([Glasgow-3589](https://www.wikitree.com/wiki/Glasgow-3589)): named with Katherine as John's lawful child; probable full sibling (revised 7 October 2026: the earlier Androw/Andrew reading is superseded; see below).
 
 ## Duplicate audit — 8 September 2026
 
@@ -53,4 +51,13 @@ independent identity bridge to Hutcheson-1656.
   called a servant in her father's estate.
 - Determine whether Margaret was her mother and, if so, resolve that woman's
   surname and profile identity.
-- Test Glasgow-3163 against the record-defined brother Andrew.
+- (Withdrawn 7 October 2026: the brother Andrew rested on the superseded reading of the testament; see below.)
+
+<!-- repo-integration-audit-2026-10-07:L17-026 -->
+## Recommended correction — Katherine's co-heir in the 1577 testament is Marjory, not Andrew, 7 October 2026
+
+The source table and relationship list above (8 September 2026) follow an earlier model (machine) reading of John Glasgow's testament dative (NRS Edinburgh Commissary Court, `CC8/8/5`, images 276–277; [published index, p. 109](https://archive.org/details/commissariotreco16scot/page/n117/mode/2up?q=Glasgow); entry dated 4 May 1577) that read the second child's name as Androw/Andrew. That reading is superseded. A human reading of the original register, `m[ar]iory`, modernised as Marjory, was accepted on 10 September 2026 (`research/transcriptions/community-readings/john-1577.json`) and is the reading now used for [Marjorie Glasgow (Glasgow-3589)](https://www.wikitree.com/wiki/Glasgow-3589) and in the 28 September 2026 cross-check on [John Glasgow (Glasgow-3181)](https://www.wikitree.com/wiki/Glasgow-3181).
+
+The testament therefore names **Katherine and Marjory** as John's lawful children and executors-dative. Marjorie (Glasgow-3589) is the second child named with Katherine, and a probable full sibling; Margaret's maternity of either child stays unproved because the possessive before *lauchfull barnis* is unresolved. The testament supplies no son Andrew, so it gives no basis for testing [Andrew Glasgow (Glasgow-3163)](https://www.wikitree.com/wiki/Glasgow-3163) as Katherine's brother. The replacement draft `Glasgow-3590.md` still carries the Andrew reading and needs the same correction before any use.
+
+Recorded in `research/Glasgow-3589/Glasgow-3589.md` and `research/Glasgow-3589/findings.md` (committed 29 September 2026), from the reading accepted on 10 September 2026; carried into this file on 7 October 2026.

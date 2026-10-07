@@ -155,3 +155,16 @@ Why is strip 396A included with John Glasgow's CC8/8/5 Image 276, and which test
 Maintained reading: `research/transcriptions/associated-fragments/john-1577-hutcheson-reading.md`. Structured evidence: `research/transcriptions/associated-fragments/john-1577-hutcheson.json`. Public analysis: /research/transcriptions/john-1577/#associated-fragment
 
 The accepted children in John's own testament are Katherine and Marjory (m[ar]iory), not Androw. Margaret's human-read Hochaine surname and proposed Hutchin connection remain distinct from a confirmed modern family identity.
+
+<!-- repo-integration-audit-2026-10-07:L16-022 -->
+## Source findings — debtors, landlord and inventory values, 7 October 2026
+
+From the re-read transcription of NRS Edinburgh Commissary Court CC8/8/5, images 276–277 (`research/transcriptions/originals-2026-09-10-reread/john-1577.json`, reviewed 10 September 2026); many places and amounts are illegible:
+
+- **Owed to John:** Henry [surname illegible] in Addistoun[?]; Alexander Patersoun; William Flint[?]; William Douglas; John [surname illegible]; John Wilsoun; John Millar[?] (twice, once for a boll); John Mathie; William Weir, for half a boll of oats; [name illegible] Baillie[?]; James Mathie[?]; and [name illegible] Murray. No kinship is stated.
+- **Owed by John:** to James Stevinsoun[?] of Hirmenschelis[?] for the rest of his rent ("maill"); to Thomas Kerslaw[?], servant, for his fee; and to Katherin Glasgow, servant, for her fee. The total owed by him was £6 Scots.
+- **Inventory:** two cows at £5[?] each (£10[?]); two young cattle two years old at four merks each (£5 6s 8d[?]); a mare (value illegible); ewes and wethers (number illegible); ten bolls of oats at two merks a boll; two bolls of barley ("beir") worth £5[?] together; household utensils, furnishings and clothing.
+
+Queried readings are marked [?]. The landlord's surname is uncertain, so a link with the James Stevinsoun of Andrew Glasgow-3163's 1597/8 testament is a lead only (inference). These are associates and estate details; they prove no relationship.
+
+Recorded in `research/Glasgow-3181/Glasgow-3181.md` (8 September 2026), checked against the 10 September 2026 re-read; carried into this file on 7 October 2026.

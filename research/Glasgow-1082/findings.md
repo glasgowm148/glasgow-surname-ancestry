@@ -1,6 +1,6 @@
 # Glasgow-1082 research findings
 
-Last updated: 2026-09-10
+Last updated: 2026-10-07
 
 
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-223c981b581f
@@ -31,3 +31,10 @@ Add the record as supporting evidence while preserving all existing sources and 
 Original image not inspected for this batch. The combined collection’s date does not automatically establish a birthday. Names alone do not uniquely identify attached parents or connect a child with a later adult. An omitted parent or indexed gender U remains unspecified in this source.
 
 **Next action:** No additional WikiTree update from this row; preserve any existing pending work.
+
+<!-- repo-integration-audit-2026-10-07:L15-019 -->
+## Identity assessment — baptism place and mother, 7 October 2026
+
+The Findmypast transcripts of George's baptism on 17 February 1605 ([R_686312170](https://www.findmypast.co.uk/transcript?id=R_686312170&tab=this), [R_694110723](https://www.findmypast.co.uk/transcript?id=R_694110723&tab=this)) and the FamilySearch index ([X1BK-1BW](https://familysearch.org/ark:/61903/1:1:X1BK-1BW)) place the baptism at Mid Calder, and one index gives his residence as Mid Calder. No reviewed record supports a birth at Musselburgh, a place given for him in earlier profile material. A baptism does not prove a birth on the same day. The mother is blank in the transcripts and the OPR index, which neither proves nor disproves the attached mother [Christina Adamson (Adamson-3318)](https://www.wikitree.com/wiki/Adamson-3318).
+
+Recorded in `research/Glasgow-1082/Glasgow-1082.md` (undated legacy draft); carried into this file on 7 October 2026.

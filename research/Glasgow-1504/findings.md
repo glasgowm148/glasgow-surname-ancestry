@@ -77,3 +77,10 @@ These are proposals for the WikiTree date fields and are queued for review; noth
 ## Next records — PRONI catalogue descriptions, 6 October 2026
 
 The PRONI eCatalogue description for `D2977/3A/4/81/116`, the lease of 30 August 1744 to James Glasgow of Larne, could not be obtained in the audit of 6 October 2026. That was an access failure, not a negative result. Until the entry is looked up by its exact reference and saved verbatim, the statement about it in the source table remains a second-hand catalogue line.
+
+<!-- repo-integration-audit-2026-10-07:L15-021 -->
+## Identity assessment — James Glasgowe at Altilevelly, Raloo, 1747, 7 October 2026
+
+The reviewed draft reports a James Glasgowe at Altilevelly in Raloo parish on a 1747 map, citing the derivative online chronology already used here for the 1727 marriage (its reference is labelled "entries for 1727–1740", so the 1747 attribution needs checking). Raloo Presbyterians attended the Larne congregation, so this may be the same James (inference), but the map entry as reported gives no age or family, and the map itself has not been identified or inspected. Grade: possible same-name occurrence only.
+
+Recorded in `research/Glasgow-1504/Glasgow-1504.md` (undated legacy draft); carried into this file on 7 October 2026.

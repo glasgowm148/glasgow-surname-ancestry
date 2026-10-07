@@ -1,6 +1,6 @@
 # Findings: [Robert Glasgow (Glasgow-2769), Tennessee](https://www.wikitree.com/wiki/Glasgow-2769)
 
-Last updated: 2026-10-06
+Last updated: 2026-10-07
 
 ## Current conclusion
 
@@ -24,8 +24,9 @@ Priscilla Glascoe, 28, born Tennessee, in Robert Glaseoe's household. The 1850
 census did not state relationships, so daughter remains a strong inference
 rather than literal census wording. Emma and Jessie fit the other adult-child
 slots in 1840 but are not named there. James J remains chronologically possible.
-John, reportedly born about 1800, was detached because he would have been born
-when Robert was at most about ten years old.
+John, reportedly born about 1800, would have been born when Robert was at most
+about ten years old; he remains attached only as an uncertain son (corrected on
+7 October 2026; see below).
 
 [Archibald Glasgow (Glasgow-2304)](https://www.wikitree.com/wiki/Glasgow-2304)
 is now the leading named father candidate, but is not proved. Archibald's 1800
@@ -124,3 +125,17 @@ the documentary basis.
 **Death: after 1850.** His last record is the 1850 Giles County census; no death record has been found, so the present "about 1860" has no basis and should read "after 1850".
 
 These are proposals for the WikiTree date fields and are queued for review; nothing has been changed on WikiTree.
+
+<!-- repo-integration-audit-2026-10-07:L13-010 -->
+## Relationship assessment — status of the link to John (Glasgow-2770), 19 August 2026
+
+This file's recommendation that John be detached as Robert's son was not carried out. On 19 August 2026 the live profile's stale detachment wording was corrected and Robert and Nancy were kept as John's parents with both links marked uncertain, because no better parents are known; the register records this as verified live that day. The chronological objection stands: John's reported birth about 1800 falls when Robert, born about 1790–1794, was at most about ten. No record names them as father and son. Whether to detach John remains a decision for the owner.
+
+Recorded in `research/Glasgow-2770/findings.md` (19 August 2026) and `surname-research/to-update.md` (Glasgow-2770 row); carried into this file on 7 October 2026.
+
+<!-- repo-integration-audit-2026-10-07:L16-003 -->
+## Identity assessment — other 1800 Newberry Robert Glasgow, 7 October 2026
+
+A Robert Glasgow headed a household in Newberry District in the 1800 census ([FamilySearch XHRC-7BF](https://www.familysearch.org/ark:/61903/1:1:XHRC-7BF); index). This Robert, with a census-derived birth about 1790–1794, was too young to be that household head, so the entry documents a different local Robert, very probably [Robert Glasgow (Glasgow-1983)](https://www.wikitree.com/wiki/Glasgow-1983), whose findings use the same 1800 household (inference from name, district and year). **Excluded** for this profile. FamilySearch tree person [LHBL-QFT](https://www.familysearch.org/tree/person/details/LHBL-QFT) represents a different Newberry Robert; it is a derivative lead only, not evidence of identity.
+
+Recorded in `research/Glasgow-2769/Glasgow-2769.md` (13 September 2026); carried into this file on 7 October 2026.

@@ -46,3 +46,12 @@ James Stewart, merchant, was admitted burgess and guild brother of Glasgow on 18
 **Assessment:** proved. With the 6 May 1610 Glasgow baptism (parents George Glasgow and Margaret Steuart), two independent records identify [George Glasgow (Glasgow-1099)](https://www.wikitree.com/wiki/Glasgow-1099) as her father. The admission does not name her mother, who rests on the baptism alone. The cluster dashboard notes that the structured mother link needs correcting (see `Glasgow-1100.md` on Stewart-65226 and Steuart-563); do not merge any Stewart profiles on this evidence.
 
 Recorded in `surname-research/clusters/README.md` (19 July 2026) and `research/Glasgow-1099/findings.md`; carried into this file on 7 October 2026.
+
+<!-- repo-integration-audit-2026-10-07:L15-014 -->
+## Source findings — baptism witnesses and the 1632 marriage dates, 7 October 2026
+
+Margaret's baptism at Glasgow High Kirk on 6 May 1610 names John Bornes and David Scheirar as witnesses (Glasgow High Kirk Baptisms 1609–1777, reference 1/233; Findmypast transcript [R_693716335](https://www.findmypast.co.uk/transcript?id=R_693716335&tab=this); seen as transcriptions, original image not inspected).
+
+The profile material gives two transposed dates for her marriage to [James Stewart (Stewart-62608)](https://www.wikitree.com/wiki/Stewart-62608): 7 April 1632 in the structured field and 4 July 1632 in the biography, both attributed to Glasgow OPR 644/1, reference 230/109. Neither date should be treated as settled until the register entry is read. The 1633 burgess admission above proves the marriage itself.
+
+Recorded in `research/Glasgow-1100/Glasgow-1100.md` (legacy draft, last committed 7 September 2026); carried into this file on 7 October 2026.

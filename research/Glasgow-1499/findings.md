@@ -67,3 +67,10 @@ These are proposals for the WikiTree date fields and are queued for review; noth
 On WikiTree Hugh's line continues Hugh → John Glasgow-4179 of Larne → John Glasgow-4090, the record-defined John Glasgow, farmer, who is the probable father of Alexander Glasgow-951. Neither link is documented. Hugh → John-4179 is possible, on locality and generation only; the Larne monument does not name a son John. John-4179 → John, farmer, has no record and no uncertain flag, and a son of the 1769 marriage would be barely twenty at the birth of Samuel Glasgow-2908 about 1789 to 1791. Marking that second link uncertain is queued for review.
 
 Naming gives the route no support: Hugh, a recurring Larne forename, occurs nowhere among John farmer's probable children or documented grandchildren. The absence excludes nothing. No relationship is changed. [Full comparison](/people/glasgow-951.html#larne-reconstruction).
+
+<!-- repo-integration-audit-2026-10-07:L13-006 -->
+## Unresolved — possible Dublin baptism, 1704
+
+A FamilySearch index entry records a Hugh Glascoe baptised in Dublin in 1704, son of William Glascoe and Jone ([FR3H-8L7](https://www.familysearch.org/ark:/61903/1:1:FR3H-8L7)). Hugh of Larne died on 8 July 1767 aged 62, so was born between July 1704 and July 1705, which fits the year. Nothing else links the Dublin child to Larne: a similar name and an approximate date are not enough to identify them as one man. Seen as an index entry only. Unresolved.
+
+Recorded in `research/Glasgow-1499/joint-lease-update-2026-09-21.wiki` (21 September 2026); carried into this file on 7 October 2026.

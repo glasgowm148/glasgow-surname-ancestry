@@ -1,6 +1,6 @@
 # Findings: John Glasgow (Glasgow-3959), Ballyboggy
 
-Last updated: 2026-09-21
+Last updated: 2026-10-07
 
 ## Current conclusion
 
@@ -85,3 +85,12 @@ proposed family links remain uncertain. See [exact detail and access audit](../l
 ## Live profile update — 21 September 2026
 
 Saved and read back the precise 1733 administration-bond description, lost-original limit and uncertain father–son discussion. Existing family attachments remain unchanged and uncertain. [Complete saved biography](pre1710-record-update-2026-09-21.wiki).
+
+<!-- repo-integration-audit-2026-10-07:L13-004 -->
+## Unresolved — Wier co-lessee and duplicate checks, 6 August 2026
+
+The PRONI catalogue of lease `D2223/15/56` names John's co-lessee as **James Wier**, while the 1740 householder transcription has **Joh Wier** next to `Joh Glask`. The original lease should be read before deciding whether these were two men or whether one forename was miscatalogued or mistranscribed.
+
+Bounded negative results, 6 August 2026: live WikiTree searches for John Glasgow, Glask, Glasco and Glascow with early County Antrim dates found no compatible earlier profile; [Glasgow-1022](https://www.wikitree.com/wiki/Glasgow-1022), [Glasgow-1146](https://www.wikitree.com/wiki/Glasgow-1146) and [Glasgow-1657](https://www.wikitree.com/wiki/Glasgow-1657) were born too late to be the 1740 householder. The repository's One Tree export and research files held no profile for James or John Wier of Ballyboggy and no Antrim Weir/Wier of a compatible generation, and none of the 75 locally captured descendants of John Glasgow of Glenleslie (Glasgow-1022) had a Weir/Wier spouse or middle name. This is a negative from the repository snapshot, not proof that no Glasgow–Wier marriage occurred. The repository's positive Glasgow–Weir links (Stevenston 1605, seventeenth-century Midlothian, and later County Tyrone) are separate clusters.
+
+Recorded in `research/Glasgow-3959/1740_Ireland_Ballyboggy_John_Glasgow.md` (6 August 2026); carried into this file on 7 October 2026.

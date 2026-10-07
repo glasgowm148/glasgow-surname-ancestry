@@ -163,3 +163,21 @@ record is found.
 ### Newspaper identity review — 6 October 2026
 
 - Same Antigua (15 Feb 1754) distress report also printed in The Pennsylvania Gazette 19 Mar 1754 p.2, The Gloucester Journal 25 Jun 1754 p.2 and Berrow's Worcester Journal 27 Jun 1754 p.1 - additional citations for the one anchored event. — https://www.newspapers.com/image/39398244/ ; https://www.newspapers.com/image/971274921/ ; https://www.newspapers.com/image/1212017118/ ([The Pennsylvania Gazette, 1754-03-19, p.2](https://www.newspapers.com/image/39398244/))
+
+<!-- repo-integration-audit-2026-10-07:L16-001 -->
+## Source findings — 1754 Antigua distress report, primary citations, 7 October 2026
+
+The report dated St John's, Antigua, 15 February 1754 ("Last Tuesday arrived here, in Distress, the Snow John and Archibald, of Glasgow, Robert Glasgow, Master …") was printed in *The Maryland Gazette*, no. 466 (Annapolis, 11 April 1754), Maryland State Archives, Maryland Gazette Collection MSA SC 2731, M1279, images 472–473 ([front page](https://www.msa.maryland.gov/megafile/msa/speccol/sc4800/sc4872/001279/html/m1279-0472.html); [report page](https://www.msa.maryland.gov/megafile/msa/speccol/sc4800/sc4872/001279/html/m1279-0473.html)), and in *The Dublin Gazette*, no. 400 (25–29 June 1754), Oireachtas Library DGZ/1754/400 ([digital item](https://www.virtualtreasury.ie/item/DGZ-1754-400)). The reviewed draft records both page images as accessed on 7 August 2026.
+
+The report says the snow was sailing from Virginia to Glasgow. On 24 January 1754, at latitude 32°15′, she met a W.S.W. gale and sprang a leak. Lightning split the main-topmast while men were setting a double-reefed main topsail; two men were thrown into the sea and lost, one man on deck was killed and another disabled. Six people remained aboard when they bore away for St John's, Antigua. **Proved** for the voyage and Robert's command only; the report gives no age, birthplace or family for him.
+
+Recorded in `research/Glasgow-2867/Glasgow-2867.md` (10 September 2026); carried into this file on 7 October 2026.
+
+<!-- repo-integration-audit-2026-10-07:L16-002 -->
+## Source findings — memorial and Glencorse index dates, 7 October 2026
+
+The dates 1690–1759 and "Buried or Lost at Sea" rest only on [Find a Grave memorial 223820967](https://www.findagrave.com/memorial/223820967/robert_glasgow); it cites no contemporary record identifying the memorialised man as master of the *John and Archibald*. **Unsupported** as evidence for this profile.
+
+Exact index dates for the separate Glencorse family (Robert Glasgow and Margaret Davidson, Glencorse 687): John, 1 January 1710 (`10/93`); Isobell, 26 December 1714 (`10/106`); James, 14 February 1720 (`10/121`, mother as Davidsone); Christian, 1708 ([FamilySearch VQ4J-CB3](https://www.familysearch.org/ark:/61903/1:1:VQ4J-CB3)). Index only; they do not identify the shipmaster.
+
+Recorded in `research/Glasgow-2867/Glasgow-2867.md` (2026-09-10); carried into this file on 7 October 2026.

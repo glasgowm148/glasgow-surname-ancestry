@@ -1,6 +1,6 @@
 # Findings: Glasgow-2984
 
-Last updated: 2026-08-19
+Last updated: 2026-10-07
 
 ## Current conclusion
 
@@ -25,3 +25,10 @@ death in winter 1847 and retain the County Antrim place estimates uncertain.
 
 Applied live on 19 August 2026 with the full workhouse and mortality evidence,
 James confident, Peggy uncertain, and the County Antrim estimates retained.
+
+<!-- repo-integration-audit-2026-10-07:L16-012 -->
+## Source findings — workhouse admission and discharge dates, 7 October 2026
+
+Macafee's transcription of the [Ballymena Workhouse admissions](https://www.billmacafee.com/otherrecords/ballymenaworkhouse.pdf) (registration 4407) gives Boyd's admission from Glenleslie on **3 June 1847**, aged twelve, with Mary, William James, Mary Jane and Margaret Glasgow, and records him **discharged alive on 31 July 1847**. Seen as a transcription; original register not seen. With the 1851 mortality return ("died winter 1847"), this places his death after 31 July 1847, probably in the winter of 1847–48 (inference; the census phrase does not say which winter months).
+
+Recorded in `research/Glasgow-2984/Glasgow-2984.md` (25 August 2026); carried into this file on 7 October 2026.

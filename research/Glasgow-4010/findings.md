@@ -94,3 +94,10 @@ Recorded in `research/profile-preservation-audit-2026-09-30/Glasgow-4010-reconci
 The assessment history above formerly described the will's collective share as for the children of a **deceased** brother James. [Robert's will of 9 October 1849](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWY9-S) leaves a share to brother James's children but does not say James was dead, and a death before 1849 must not be inferred. James is probably, not provably, James Glasco, formerly of Prescott, carpenter, whose children Eliza Jane, Mary and Alexander conveyed Prescott interests to Samuel or his widow in 1860–68.
 
 Recorded in `research/latest-findings-subjects/prescott-rochester-james-family/james-glasgow.md` (30 September 2026); carried into this file on 7 October 2026.
+
+<!-- repo-integration-audit-2026-10-07:L14-001 -->
+## Source findings — Orena in the 1861 Prescott grammar-school list
+
+A transcription of the 1861 Prescott grammar-school list includes Orena Glasgow, associated with Samuel Glasgow, storekeeper ([“Black Walnuts, Squirrels and Prescott High School”, *The Past Around Us*](https://thepastaroundus.wordpress.com/2015/10/12/black-walnuts-squirrels-and-prescott-high-school/), accessed 13 August 2026). Blog transcription, not the original list. Orena's rare name and age agree with the child of that name in Samuel's 1851 household, so it supports [Orena (Glasgow-4019)](https://www.wikitree.com/wiki/Glasgow-4019) as his daughter; it does not prove it.
+
+Recorded in `research/Glasgow-4010/1851_Canada_West_Prescott_Samuel_Glasgow.md` (creation draft; source accessed 13 August 2026); carried into this file on 7 October 2026.

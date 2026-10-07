@@ -1,6 +1,6 @@
 # Findings: [Joseph Glasgow (Glasgow-1543), Wythe County, Virginia](https://www.wikitree.com/wiki/Glasgow-1543)
 
-Last updated: 2026-08-20
+Last updated: 2026-10-07
 
 ## Integrated conclusion
 
@@ -67,3 +67,33 @@ A 2024 Adams County family-history article identifies John Glasgow of Peters Tow
 - [Cumberland County will index](https://www.sampubco.com/wills/pa/pacumberland01.htm)
 
 The identification also weakens the unsupported claim that Glasgow-3305 was another brother who remained in Ireland.
+
+<!-- repo-integration-audit-2026-10-07:L15-001 -->
+## Source findings — 1810 Wythe County census household, 7 October 2026
+
+The 1810 United States census for Wythe County, Virginia, records Joseph Glasgow's household as one free white male aged 16–25, one free white male aged 45 or over, one free white female aged 45 or over, and five enslaved people, with no male aged 26–44. As the named householder Joseph was almost certainly the man aged 45 or over, which gives the birth limit of before 6 August 1765 (the census date). The woman aged 45 or over may be Betty, and the young man is compatible with William ([Glasgow-3678](https://www.wikitree.com/wiki/Glasgow-3678)), but the census names neither. Seen as a published transcription: McGhee, [Census of 1810, Wythe County](https://archive.org/details/censusof1810wyth00mcgh) (Internet Archive); the original census image has not yet been cited. Grade: strong inference for the birth limit; identities of the other members unproved.
+
+Recorded in `research/Glasgow-1543/Glasgow-1543.md` (undated legacy draft); carried into this file on 7 October 2026.
+
+<!-- repo-integration-audit-2026-10-07:L15-002 -->
+## Source findings — Brooke County inquest and Morton citations, 7 October 2026
+
+The March 1802 Brooke County, Virginia, court record naming a Joseph Glasgow among the members of an inquest is cited in the legacy draft as a [FamilySearch image (3QSQ-G9VR-ZJX9)](https://familysearch.org/ark:/61903/3:1:3QSQ-G9VR-ZJX9). The image was not re-examined for this note. It gives no age, relationship or other identifier, so it remains a same-name candidate record, not an event proved for Joseph of Wythe County.
+
+Morton's statements about the three brothers, the Earl of Glasgow tradition and Glasgow Township are in Oren Frederic Morton, *A History of Rockbridge County, Virginia* (Staunton, 1920), pp. 253–254 and 304–306. Morton is a late published account. It agrees with the brother relationship proved by the 1806 letter and the 1831 will, but it does not establish parentage or descent from an Earl of Glasgow.
+
+Recorded in `research/Glasgow-1543/Glasgow-1543.md` (undated legacy draft); carried into this file on 7 October 2026.
+
+<!-- repo-integration-audit-2026-10-07:L15-003 -->
+## Identity assessment — 1777 Franklin County militia entry, 7 October 2026
+
+A compilation, "American Revolutionary Soldiers of Franklin County, Pennsylvania", lists a Joseph "Glassgo" in Captain George Crawford's company in 1777 ([digitised compilation](https://lfweb.franklincountypa.gov/WebLinkArchives/DocView.aspx?dbid=0&id=3230907&repo=FranklinCounty8)). Together with the Joseph Glasgow who witnessed John Glasgow's 1779 Peters Township will, it may concern Joseph of Wythe County before his move to Virginia, but no record yet bridges the Pennsylvania and Virginia identities. Seen as a derivative compilation; the underlying muster roll has not been inspected. Grade: possible same-name record only.
+
+Recorded in `research/Glasgow-1543/Glasgow-1543.md` (undated legacy draft); carried into this file on 7 October 2026.
+
+<!-- repo-integration-audit-2026-10-07:L15-004 -->
+## Source findings — John Glasgow of Peters Township's will, 1779, 7 October 2026
+
+A published index and abstract gives the will of John Glasgow of Peters Township, Cumberland County, Pennsylvania, as dated 14 March and proved 3 September 1779, Will Book C, p. 161. It names his wife Ann, daughters whose names appear as "Lates" (possibly Lettice) and Agnes, a son Joseph, and an unborn child. The witnesses included Joseph Glasgow, James Neely and Mary Arter ([published index and abstract](https://www.sampubco.com/wills/pa/pacumberland01.htm)). Seen as a published abstract; the original will and probate packet have not been inspected. Witnessing does not prove kinship, so John remains a strong secondary sibling hypothesis for Joseph, not an attached brother.
+
+Recorded in `research/Glasgow-1543/Glasgow-1543.md` (undated legacy draft); carried into this file on 7 October 2026.

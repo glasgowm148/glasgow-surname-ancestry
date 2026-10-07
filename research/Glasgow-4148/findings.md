@@ -12,3 +12,13 @@ Cleora's obituary abstract calls the Reverend Leonidas K. Glasgow her brother ([
 Seek Cleora's full obituary, a Bible record, or Hiram's or Mary Ann's probate naming her.
 
 Recorded in `surname-research/indexes/relationship-hypotheses.md` and `research/Glasgow-4148/1867_United_States_South_Carolina_Newberry_Cleora_Glasgow.md`; carried into this file on 7 October 2026.
+
+<!-- repo-integration-audit-2026-10-07:L14-024 -->
+## Source findings — children, death and burial, from the creation draft
+
+| Source | Finding | Assessment |
+| --- | --- | --- |
+| [“Newberry Observer abstracts, 1906–1907”](https://genealogytrails.com/scar/newberry/observer/1906-7s.htm), cited in the draft as her obituary | Children included Lucy Kennedy, Hiram Leonidas and Leland C. Speers. | Newspaper abstract. The draft cites this 1906–1907 abstract as Cleora's obituary, but she died in 1927; which notice names the children should be checked before the list is relied on. |
+| [“Newberry Observer abstracts, 1927”](https://genealogytrails.com/scar/newberry/observer/1927s.htm), death notice for Cleora Speers | Died 12 July 1927 aged about 80; buried at Rosemont Cemetery. | Death-notice abstract. Birth about 1847 is calculated from the age. |
+
+Recorded in `research/Glasgow-4148/1867_United_States_South_Carolina_Newberry_Cleora_Glasgow.md` (13 August 2026); carried into this file on 7 October 2026.

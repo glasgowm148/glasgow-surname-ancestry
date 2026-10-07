@@ -61,3 +61,19 @@ See the full [Mathie–Glasgow–Glencairn analysis](../Glasgow-3908/mathie-glen
 The supplied Glasgow OPR row names Johne Glasgow and Jonat Mathen, dated 25 January 1618 (parish 644/1, reference 230/32). The surname may be a Mathie/Mathe spelling or index reading: the local evidence already identifies [[Mathie-159|Jonet Mathie]] as wife of [[Glasgow-1030|John Glasgow]] and cites the same date. This is a compatible match, not an exact-spelling duplicate claim; retain the existing qualification until the original register is read.
 
 [Scotland’s People](https://www.scotlandspeople.gov.uk/), Old Parish Registers, banns and marriages; exact-surname Glasgow search through 1700, index supplied 10 September 2026. Original not inspected for this batch.
+
+<!-- repo-integration-audit-2026-10-07:L13-005 -->
+## Source findings — earlier Mathie chronology behind the Glencairn bridge, 1551–1606
+
+The Mathie–Glencairn analysis carries these steps, which this file did not:
+
+| Date | Finding | Assessment |
+| --- | --- | --- |
+| 3 February 1550/51 | David Mathy and his spouse Margaret Anderson acquired a barn beside the Malyndinor Burn, Glasgow. | Shows David as a married Glasgow property holder before 1554. |
+| 25 October 1571 | John Mathy was described as David Mathe's son. | Direct father–son statement as summarised in the analysis. |
+| 4 August 1574 | A John Mathie, writer, witnessed a Glasgow charter. | A plausible later appearance of David's son; not proved. |
+| 23–24 September 1606 | A second John Mathie, the earl's servitor, wrote a Glencairn bond at Kilmaronock and Bar. | A scholarly study identifies him as apparently the son of the John Mathie killed on 1 July: [MacKechnie, “Sir David Cunningham of Robertland”, *Architectural History*](https://www.cambridge.org/core/journals/architectural-history/article/abs/sir-david-cunningham-of-robertland-murderer-and-magna-britannias-first-architect/F5AE1FF50EE23CB052F227F112569920). An interpretation, not a record stating the relationship. |
+
+The analysis gives no protocol number or page for the 1551, 1571 and 1574 entries; they should be found in the printed Glasgow protocol abstracts before they are cited. The sequence from David's son John through the 1574 writer and the 1583 Glencairn burgess to John senior of Clerkland is, in the analysis's own words, strong circumstantial reconstruction, not identity proof, and none of it names Jonet's father.
+
+Recorded in `research/Glasgow-3908/mathie-glencairn-bridge-1554-1618.md` (undated; first committed 2 September 2026); carried into this file on 7 October 2026.

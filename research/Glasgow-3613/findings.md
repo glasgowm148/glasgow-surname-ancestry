@@ -85,3 +85,10 @@ date.
 Retain as derivative identity support. Use the manuscript's December 1578
 death month and do not infer unstated parentage.
 <!-- END FMP-GLASGOW-fmp-glasgow-faa9cffab9d5 -->
+
+<!-- repo-integration-audit-2026-10-07:L17-027 -->
+## Source findings — inventory and estate account in Margaret's testament, 8 September 2026
+
+National Records of Scotland, Edinburgh Commissary Court, `CC8/8/8`, images 355–356 (original register, as read for the replacement biography): the inventory describes a modest farming household (two cows, two one-year-old heifers, sheep including *hoggis*, six bolls of oats in the barn and barnyard, utensils, furnishings and her clothing), totalling £47 14s 8d Scots. Debts owed to her were £8 from James Estoun in Wester Whitburn and 50 shillings from a debtor read provisionally as Michael Mertyn, £10 10s in all, giving a gross estate of £58 4s 8d. She owed 20 shillings to Roland Dundas for a year's teind on the ground. The free estate of £57 4s 8d was divided in two and the deceased's part recorded as £28 12s 4d; the arithmetic reconciles. The confirmation names the Edinburgh commissaries Edward Henryson and Alexander Sym. Some stock quantities and the name Mertyn remain provisional.
+
+Recorded in `research/Glasgow-3613/Glasgow-3613.md` (8 September 2026); carried into this file on 7 October 2026.

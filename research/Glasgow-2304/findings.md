@@ -1,6 +1,6 @@
 # Findings: Archibald Glasgow (Glasgow-2304)
 
-Last updated: 2026-10-06
+Last updated: 2026-10-07
 
 ## Current conclusion
 
@@ -93,3 +93,10 @@ The common-father comparison is withdrawn: it tested a scenario that was not pro
 **Keep birth about 1769, with its basis stated:** aged 49 at death on 22 July 1818, on the Gilder's Creek stone as transcribed (born July 1768 to July 1769; read through a summarising fetch, to be confirmed on the page). **Birthplace:** the present South Carolina birthplace conflicts with a birth in 1768/9, before his father's reported emigration in late 1772 or 1773. No record gives his birthplace; mark it as unsupported and do not blank it without an evidenced replacement.
 
 These are proposals for the WikiTree date fields and are queued for review; nothing has been changed on WikiTree.
+
+<!-- repo-integration-audit-2026-10-07:L16-011 -->
+## Unresolved — Mary's maiden surname, 7 October 2026
+
+The Gilders Creek inscriptions name Archibald's wife only as Mary. [Find a Grave memorial 33531779](https://www.findagrave.com/memorial/33531779/mary-glasgow) calls her **Mary Spence Glasgow**, but "Spence" is not visible in the photographed Glasgow inscriptions and no marriage or probate record has confirmed it. Derivative memorial; **unresolved** lead only. Estate 647 (Mary as administrator) may give her full name. Related memorials: Archibald 33531767, Neomi 33531784, Sarah 33531790.
+
+Recorded in `research/Glasgow-2304/Glasgow-2304.md` (2026-09-13); carried into this file on 7 October 2026.

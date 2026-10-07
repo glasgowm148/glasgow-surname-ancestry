@@ -1,6 +1,6 @@
 # Findings: Glasgow-2986
 
-Last updated: 2026-08-19
+Last updated: 2026-10-07
 
 ## Current conclusion
 
@@ -27,3 +27,10 @@ uncertain estimated birth and death place.
 Applied live on 19 August 2026 with the full workhouse and mortality evidence,
 James confident, Peggy uncertain, and the estimated County Antrim birth and
 death places retained uncertain.
+
+<!-- repo-integration-audit-2026-10-07:L16-013 -->
+## Source findings — workhouse admission and discharge dates, 7 October 2026
+
+Macafee's transcription of the [Ballymena Workhouse admissions](https://www.billmacafee.com/otherrecords/ballymenaworkhouse.pdf) (registration 4410) gives Margaret's admission from Glenleslie as **3 June 1847** and records her **discharged alive on 18 September 1847**. Transcription; original register not seen.
+
+Recorded in `research/Glasgow-2986/Glasgow-2986.md` (2026-08-25); carried into this file on 7 October 2026.

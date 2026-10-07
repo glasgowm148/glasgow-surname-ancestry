@@ -226,3 +226,12 @@ Compare original local tax, land, probate and institutional records, preserving 
 ## Identity assessment — newspaper candidates withdrawn, 6 October 2026
 
 - [The Edinburgh Advertiser, 1789-12-11, p.8](https://www.newspapers.com/image/601822968/): no longer a candidate for this profile. Dec 1789 Mid-Lothian game-certificate list: 'Glasgow, James, Esq; Edinburgh'. Best lead is James Glasgow (Glasgow-1142), St Vincent planter and brother of Robert of Montgreenan, who died in Calder parish near Edinburgh, but this is unproved.
+
+<!-- repo-integration-audit-2026-10-07:L15-005 -->
+## Source findings — 1766 Kildress and Derryloran return citations, 7 October 2026
+
+The 1766 Kildress return naming James Glasgow, Protestant, at Corvanaghan is National Archives of Ireland, Parliamentary Return 667, [IHP/1/667](https://virtualtreasury.ie/item/NAI-IHP-1-667), with a Representative Church Body Library transcript, [MS 23, p. 176](https://by2022-prod.adaptcentre.ie/loris/RCBL_23_176.JPG/full/full/0/default.jpg). Both are assessed in [Glasgow-3137](https://www.wikitree.com/wiki/Glasgow-3137)'s findings. The return gives no age, wife or children.
+
+The [1766 Derryloran return transcription](https://www.cotyroneireland.com/census/1766derryloran.html) also names James Harkness in Cookstown and Robert Harkness at Oghless. They show the Harkness surname in the same district but identify neither Mary Harkness nor Robert's father.
+
+Recorded in `research/Glasgow-1024/Glasgow-1024.md` (undated legacy draft, marked HOLD); carried into this file on 7 October 2026.
