@@ -612,6 +612,95 @@ def _catalogue_legend_html() -> str:
     )
 
 
+FINDINGS_TEMPLATE_MARKER = re.compile(r"no sourced conclusion recorded yet|_add a url, archive reference", re.I)
+
+# Sections kept in findings.md for the editor, not the reader: WikiTree editing
+# logs, hand-off text and site-maintenance notes. They are deliberately not
+# published. Add a pattern here when a new kind of internal section appears.
+FINDINGS_INTERNAL_HEADINGS = (
+    r"\bwikitree\b",
+    r"\bhand-?off\b",
+    r"\blive\b",
+    r"\bpaste[- ]ready\b",
+    r"\bscrape\b",
+    r"error 966",
+    r"website synchroni[sz]ation",
+    r"familysearch cleanup",
+    r"^prior assessment",
+    r"^superseded\b",
+    r"^assessment history",
+    r"^provisional wording",
+)
+_FINDINGS_RECORD_WORDS = (
+    r"original|manuscript|newspaper|testament|deed|register|record|index|census|probate|will|transcription"
+)
+
+
+def findings_section_category(title: str) -> str:
+    """Classify one ``## `` heading of a findings.md file.
+
+    Returns ``conclusion``, ``sources``, ``assessment`` or ``actions`` for a
+    heading a rule recognises, ``internal`` for a section that is deliberately
+    kept out of the site, and ``notes`` for everything else. Nothing is
+    dropped because of an unexpected heading: a section is published unless
+    its heading says it is an editing log. ``tools/check_research_publication.py``
+    lists the sections published as general notes so they can be given a
+    clearer heading.
+    """
+    lowered = re.sub(r"\s+", " ", title or "").strip().casefold()
+    if lowered in {"current conclusion", "conclusion", "current answer"} or lowered.startswith("current conclusion"):
+        return "conclusion"
+    if lowered == "source findings":
+        return "sources"
+    if re.search(r"candidate|relationship|identity|duplicate|parentage|father|cluster placement", lowered):
+        return "assessment"
+    if re.search(r"unresolved|priorit|recommend|suggested|correction|do not add|next records", lowered):
+        return "actions"
+    if lowered.startswith("source findings") or lowered == "sources":
+        return "sources"
+    if re.search(r"next (question|proof|step|search)|proof targets?|remaining (work|bridge|question)|open questions?|do not infer", lowered):
+        return "actions"
+    if any(re.search(pattern, lowered) for pattern in FINDINGS_INTERNAL_HEADINGS):
+        return "internal"
+    if re.search(r"negative search|\bevidence\b", lowered):
+        return "sources"
+    if re.search(rf"\b({_FINDINGS_RECORD_WORDS})s?\b.*\b(review|re-?read|reading|audit|pass|search|check)\b", lowered):
+        return "sources"
+    if re.search(r"placement|family link|\bassessment\b", lowered):
+        return "assessment"
+    return "notes"
+
+
+_TABLE_RULE = re.compile(r"\s*\|?[\s:|-]+\|?\s*")
+
+
+def _findings_section_body(body: str) -> str:
+    """Drop unfilled template lines; return what a reader should see, or ''.
+
+    The findings template ships a placeholder table row. Only that row is
+    removed. Real rows and paragraphs in the same section are kept, and a
+    table header left with no rows is removed with it.
+    """
+    if not FINDINGS_TEMPLATE_MARKER.search(body):
+        return body
+    lines = [line for line in body.splitlines() if not FINDINGS_TEMPLATE_MARKER.search(line)]
+    kept, index = [], 0
+    while index < len(lines):
+        line = lines[index]
+        following = lines[index + 1] if index + 1 < len(lines) else ""
+        after = lines[index + 2] if index + 2 < len(lines) else ""
+        if (line.lstrip().startswith("|") and "-" in following and _TABLE_RULE.fullmatch(following)
+                and not after.lstrip().startswith("|")):
+            index += 2
+            continue
+        kept.append(line)
+        index += 1
+    text = "\n".join(kept).strip()
+    if not re.sub(r"<!--.*?-->", "", text, flags=re.S).strip():
+        return ""
+    return text
+
+
 def _load_research_findings(profile_ids: list[str]) -> list[dict]:
     """Load substantive, public-safe sections from durable case findings."""
     manifest = PROJECT_ROOT / "data/wikitree/research-catalogue-cases.json"
@@ -634,18 +723,11 @@ def _load_research_findings(profile_ids: list[str]) -> list[dict]:
         for block in re.split(r"^##\s+", text, flags=re.M)[1:]:
             title, _, body = block.partition("\n")
             title, body = title.strip(), body.strip()
-            lowered = title.casefold()
-            if lowered in {"current conclusion", "conclusion", "current answer"} or lowered.startswith("current conclusion "):
-                category = "conclusion"
-            elif lowered == "source findings":
-                category = "sources"
-            elif re.search(r"candidate|relationship|identity|duplicate|parentage|father|cluster placement", lowered):
-                category = "assessment"
-            elif re.search(r"unresolved|priorit|recommend|suggested|correction|do not add|next records", lowered):
-                category = "actions"
-            else:
+            category = findings_section_category(title)
+            if category == "internal":
                 continue
-            if not body or re.search(r"no sourced conclusion recorded yet|_add a url, archive reference", body, re.I):
+            body = _findings_section_body(body)
+            if not body:
                 continue
             sections.append({"title": title, "category": category, "markdown": body})
         if sections:

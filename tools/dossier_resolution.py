@@ -33,8 +33,22 @@ def current_findings(dossier: dict) -> list[dict]:
             title = str(section.get("title") or "").strip().casefold()
             category = str(section.get("category") or "").strip().casefold()
             if title == "current conclusion" or category == "conclusion":
-                found.append({**section, "finding_updated": finding.get("updated"), "source_path": finding.get("source_path")})
+                found.append({**section, "canonical": _is_canonical_conclusion(title),
+                              "finding_updated": finding.get("updated"), "source_path": finding.get("source_path")})
     return found
+
+
+def _is_canonical_conclusion(title: str) -> bool:
+    """True for the one overall conclusion of a file.
+
+    ``Current conclusion — newspaper identity review, 6 October 2026`` and
+    similar dated or topic headings are additions made by a later review.
+    They add to the overall conclusion; they do not compete with it.
+    """
+    title = re.sub(r"\s+", " ", title or "").strip().casefold()
+    if title in {"current conclusion", "conclusion", "current answer"}:
+        return True
+    return title.startswith("current conclusion") and not re.search(r"[—–:,-]|\d{4}", title)
 
 
 def resolve_presentation(profile_id: str, dossier: dict, model: dict, authored: dict | None = None) -> dict:
@@ -67,9 +81,21 @@ def resolve_presentation(profile_id: str, dossier: dict, model: dict, authored: 
     elif findings:
         # This is an explicit maintained heading from the research catalogue,
         # not an inference from the newest arbitrary note.
-        state = "resolved" if len(findings) == 1 else "conflict"
-        if len(findings) > 1:
+        canonical = [f for f in findings if f.get("canonical")]
+        addenda = [f for f in findings if not f.get("canonical")]
+        if len(canonical) > 1:
+            state = "conflict"
             issues.append("More than one canonical current-conclusion finding is available; the page must identify which scope controls.")
+        elif canonical or len(addenda) == 1:
+            # One overall conclusion, with any dated topic reviews as additions.
+            state = "resolved"
+            primary = (canonical or addenda)[0]
+            findings = [primary] + [f for f in findings if f is not primary]
+        else:
+            # Several dated topic reviews and no overall conclusion: research
+            # exists, but nobody has written the summary yet. Not a conflict.
+            state = "unmapped"
+            issues.append("Dated topic conclusions are recorded, but no overall conclusion has been written.")
 
     if approved:
         basis.append("approved structured assessment")
@@ -79,8 +105,10 @@ def resolve_presentation(profile_id: str, dossier: dict, model: dict, authored: 
         basis.append("maintained Current conclusion finding")
         summary = _summary(findings[0].get("markdown") or "")
         assessment_date = assessment_date or str(findings[0].get("finding_updated") or "")
-    elif findings:
+    elif findings and state == "conflict":
         basis.append("conflicting Current conclusion findings")
+    elif findings:
+        basis.append("dated topic conclusions without an overall conclusion")
 
     if not authored and not approved and not findings:
         if dossier.get("research_leads") or dossier.get("evidence") or dossier.get("open_questions"):
@@ -140,6 +168,7 @@ def resolve_presentation(profile_id: str, dossier: dict, model: dict, authored: 
         "issues": issues,
         "source_ids": [str(a.get("id")) for a in approved if a.get("id")]
                       + [str(f.get("source_path")) for f in findings if f.get("source_path")],
+        "additions": [str(f.get("title")) for f in findings if not f.get("canonical") and f.get("title")],
     }
     return result
 

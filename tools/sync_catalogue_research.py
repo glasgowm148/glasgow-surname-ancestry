@@ -35,6 +35,7 @@ CATEGORIES = {
     "sources": ("research-findings", "Case-file source findings"),
     "assessment": ("evidence", "Identity and relationship assessments"),
     "actions": ("questions", "Unresolved questions and next steps"),
+    "notes": ("research-notes", "Other research notes"),
 }
 
 
