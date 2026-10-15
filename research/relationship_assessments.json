@@ -3752,5 +3752,103 @@
       "prior_assessment": "Father unselected/unknown; son/brother/nephew or predecessor comparisons retained.",
       "resolution_note": "Selected uncertain local model only. No certainty upgrade, profile merge or live WikiTree save."
     }
+  },
+  {
+    "assertion_id": "C-working-20261015-glasgow-3598-glasgow-3188",
+    "people": [
+      "Glasgow-3598",
+      "Glasgow-3188"
+    ],
+    "profile_names": {
+      "Glasgow-3598": "Margaret Glasgow, wife of William Hardie",
+      "Glasgow-3188": "Ninian Glasgow"
+    },
+    "status": "uncertain",
+    "hypothesis_status": "possible",
+    "evidence_grade": "Low-confidence working family inference",
+    "working_selection": true,
+    "allow_new_relationship": true,
+    "claim": "Ninian Glasgow is the selected uncertain working father of Margaret Glasgow, wife of William Hardie.",
+    "basis": "Select daughter from the existing daughter-or-niece comparison with Ninian Glasgow. Margaret married Edinburgh cordiner William Hardie in 1611. Barbara Glasgow married another Edinburgh cordiner in 1616, while Ninian’s documented Glasgow son Robert is probably the cordiner admitted in 1613. Ninian’s possible son William supplies a family route into South Leith. Margaret’s estimated adult generation fits Ninian’s approximate 1550 generation. Together the generation, adjoining Edinburgh–Leith setting and repeated family craft make Ninian’s household the leading existing placement; daughter supplies the simplest provisional degree.",
+    "limitations": "No record names Margaret’s father or proves that she and Barbara were sisters. Niece, another close relative or another local Glasgow family remain alternatives. The cordiners worked in different burghs; a shared trade does not prove one incorporation or apprenticeship. The Robert-cordiner identity and William’s Ninian parentage are supporting inferences. Margaret’s before-1595 birth is an adult-status estimate, not a baptism. Repeated William Hardie marriages do not prove one serial husband or Margaret’s death. No mother is selected.",
+    "source_ids": [
+      "edinburgh-margaret-hardie-1611",
+      "glasgow-robert-cordiner-1613",
+      "nrs-cc9-7-9-ninian-1613",
+      "southleith-barbara-wilson-1611"
+    ],
+    "assessment_date": "2026-10-15",
+    "publication_status": "approved",
+    "perspectives": {
+      "Glasgow-3598": {
+        "relationship": "father",
+        "reason": "Select daughter from the existing daughter-or-niece comparison with Ninian Glasgow. Margaret married Edinburgh cordiner William Hardie in 1611. Barbara Glasgow married another Edinburgh cordiner in 1616, while Ninian’s documented Glasgow son Robert is probably the cordiner admitted in 1613. Ninian’s possible son William supplies a family route into South Leith. Margaret’s estimated adult generation fits Ninian’s approximate 1550 generation. Together the generation, adjoining Edinburgh–Leith setting and repeated family craft make Ninian’s household the leading existing placement; daughter supplies the simplest provisional degree."
+      },
+      "Glasgow-3188": {
+        "relationship": "daughter",
+        "reason": "Select daughter from the existing daughter-or-niece comparison with Ninian Glasgow. Margaret married Edinburgh cordiner William Hardie in 1611. Barbara Glasgow married another Edinburgh cordiner in 1616, while Ninian’s documented Glasgow son Robert is probably the cordiner admitted in 1613. Ninian’s possible son William supplies a family route into South Leith. Margaret’s estimated adult generation fits Ninian’s approximate 1550 generation. Together the generation, adjoining Edinburgh–Leith setting and repeated family craft make Ninian’s household the leading existing placement; daughter supplies the simplest provisional degree."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Edinburgh working family: reasons, alternatives and possible duplicate",
+        "href": "/branches/early-scottish-records/#edinburgh-working-daughters"
+      }
+    ],
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "basis": "Existing public branch assessments, compatible generation, craft and locality; no newly found parent record.",
+      "prior_assessment": "Household/daughter-or-niece comparison present; no selected father in the local tree.",
+      "resolution_note": "Selected uncertain local pedigree only; no live attachment, certainty upgrade, sibling proof or identity merge."
+    }
+  },
+  {
+    "assertion_id": "C-working-20261015-glasgow-3302-glasgow-3188",
+    "people": [
+      "Glasgow-3302",
+      "Glasgow-3188"
+    ],
+    "profile_names": {
+      "Glasgow-3302": "Barbara Glasgow, wife of George Johnstoun",
+      "Glasgow-3188": "Ninian Glasgow"
+    },
+    "status": "uncertain",
+    "hypothesis_status": "possible",
+    "evidence_grade": "Low-confidence working family inference",
+    "working_selection": true,
+    "allow_new_relationship": true,
+    "claim": "Ninian Glasgow is the selected uncertain working father of Barbara Glasgow, wife of George Johnstoun.",
+    "basis": "Select Ninian Glasgow as an uncertain working father within Barbara’s already preferred household or immediate collateral circle. Barbara married Edinburgh cordiner George Johnstoun in 1616; Ninian’s documented Glasgow son Robert is probably the cordiner admitted in 1613, and possible son William lived at South Leith. Barbara’s adult generation fits Ninian’s family. Her possible identity with Barbara Glasgow-3182, the 1611 South Leith bride already tentatively placed as Ninian’s daughter, supplies a second, explicitly conditional route to the same father.",
+    "limitations": "No record names Barbara’s father. Daughter is selected provisionally over niece or another family; trade alone cannot decide the degree. The Glasgow and Edinburgh cordiners are not shown to share an incorporation. Barbara-3302, Barbara-3182 and Barbara-567 remain separate profiles with unresolved possible identity links. If the 1611 and 1616 brides are one woman, these two Ninian attachments describe one possible daughter twice, not two historical sisters. If the Little mother Barbara-567 is the same woman, her existing William Glasgow-3522 father claim is a competing explanation. The disputed Wilson entry, widowhood and remarriage sequence remain unresolved. No mother or identity merge is selected.",
+    "source_ids": [
+      "edinburgh-barbara-johnstoun-1616",
+      "glasgow-robert-cordiner-1613",
+      "nrs-cc9-7-9-ninian-1613",
+      "southleith-barbara-wilson-1611"
+    ],
+    "assessment_date": "2026-10-15",
+    "publication_status": "approved",
+    "perspectives": {
+      "Glasgow-3302": {
+        "relationship": "father",
+        "reason": "Select Ninian Glasgow as an uncertain working father within Barbara’s already preferred household or immediate collateral circle. Barbara married Edinburgh cordiner George Johnstoun in 1616; Ninian’s documented Glasgow son Robert is probably the cordiner admitted in 1613, and possible son William lived at South Leith. Barbara’s adult generation fits Ninian’s family. Her possible identity with Barbara Glasgow-3182, the 1611 South Leith bride already tentatively placed as Ninian’s daughter, supplies a second, explicitly conditional route to the same father."
+      },
+      "Glasgow-3188": {
+        "relationship": "daughter",
+        "reason": "Select Ninian Glasgow as an uncertain working father within Barbara’s already preferred household or immediate collateral circle. Barbara married Edinburgh cordiner George Johnstoun in 1616; Ninian’s documented Glasgow son Robert is probably the cordiner admitted in 1613, and possible son William lived at South Leith. Barbara’s adult generation fits Ninian’s family. Her possible identity with Barbara Glasgow-3182, the 1611 South Leith bride already tentatively placed as Ninian’s daughter, supplies a second, explicitly conditional route to the same father."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Edinburgh working family: reasons, alternatives and possible duplicate",
+        "href": "/branches/early-scottish-records/#edinburgh-working-daughters"
+      }
+    ],
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "basis": "Existing public branch assessments, compatible generation, craft and locality; no newly found parent record.",
+      "prior_assessment": "Household/daughter-or-niece comparison present; no selected father in the local tree.",
+      "resolution_note": "Selected uncertain local pedigree only; no live attachment, certainty upgrade, sibling proof or identity merge."
+    }
   }
 ]

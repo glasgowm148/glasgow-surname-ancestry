@@ -1520,3 +1520,8 @@ The August completion entries remain historical. The live parent fields are now 
 
 - [[Glasgow-1095]] — OPEN: complete local draft with newly selected uncertain Stirling father; retain identity/collateral alternatives, no live attachment requested.
 - [[Glasgow-3023]] — OPEN: complete local draft with newly selected uncertain Stirling father; retain identity/collateral alternatives, no live attachment requested.
+
+## Edinburgh working family — 15 October 2026
+
+- [[Glasgow-3598]] — OPEN: complete additive research-note draft; newly selected uncertain Ninian father with niece/identity alternatives. No live parent attachment requested.
+- [[Glasgow-3302]] — OPEN: complete additive research-note draft; newly selected uncertain Ninian father with niece/identity alternatives. No live parent attachment requested.

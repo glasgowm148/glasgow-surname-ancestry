@@ -25949,6 +25949,51 @@
         "research/relationship_assessments.json",
         "research/ancestry-connections/documentary-people.json"
       ]
+    },
+    {
+      "id": "edinburgh-selected-working-daughters-2026-10-15",
+      "found_on": "2026-10-15",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Margaret Glasgow, wife of William Hardie, and Barbara Glasgow, wife of George Johnstoun, are now selected as uncertain working daughters of Ninian Glasgow.",
+      "qualification": "Existing source-based household/daughter-or-niece comparisons selected for a revisable model. Shared craft and locality are circumstantial. Barbara may be the already linked Leith Barbara; no sibling proof, identity merge, mother, certainty upgrade, new source inspection or live attachment.",
+      "relationship_change_count": 2,
+      "people": [
+        {
+          "id": "Glasgow-3598",
+          "name": "Margaret Glasgow, wife of William Hardie",
+          "url": "/people/glasgow-3598.html"
+        },
+        {
+          "id": "Glasgow-3302",
+          "name": "Barbara Glasgow, wife of George Johnstoun",
+          "url": "/people/glasgow-3302.html"
+        },
+        {
+          "id": "Glasgow-3188",
+          "name": "Ninian Glasgow",
+          "url": "/people/glasgow-3188.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Edinburgh marriage register, p.267: Hardie 1611 and Johnstoun 1616",
+          "url": "https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/register_of_marriages_for_the_parish_of_edinburgh_1595-1700_~_1898.pdf#page=277"
+        },
+        {
+          "title": "Glasgow burgess roll: Robert, cordiner, 22 April 1613",
+          "url": "https://archive.org/details/scottishrecordso43scotuoft"
+        },
+        {
+          "title": "NRS CC9/7/9: Ninian’s 1613 testament, existing working reading",
+          "url": "https://www.scotlandspeople.gov.uk/search-records/legal-records/wills"
+        }
+      ],
+      "detail_url": "/branches/early-scottish-records/#edinburgh-working-daughters",
+      "provenance": [
+        "research/ancestry-connections/edinburgh-working-family-2026-10-15.md",
+        "research/relationship_assessments.json"
+      ]
     }
   ]
 }

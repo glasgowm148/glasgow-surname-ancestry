@@ -1,0 +1,89 @@
+{
+  "reviewed": "2026-10-15",
+  "scope": "Complete additive research-note drafts; selected uncertain local father only",
+  "profiles": {
+    "Glasgow-3598": {
+      "current_sha256": "9df9032ae8b958cb03d775c9b1059789dff5f29a84ee61a7dd63188a3dc6ee3b",
+      "proposed_sha256": "32cd1c8613e6035e4c49dc5ece2222688e0eefbc7f3da8d43072044675664156",
+      "all_substantive_passages_accounted_for": true,
+      "passages": [
+        "Every substantive captured passage, person, source and unresolved hypothesis is retained. Only standard heading/template normalization is applied.",
+        "The new dated section explains the selected uncertain father and retains niece/other-family alternatives. No mother or sibling certainty is inferred.",
+        "Barbara’s Wilson/Little identities and William-3522 competing father remain explicit; Margaret’s same-name Hardie marriages and unproved death remain explicit."
+      ],
+      "source_urls_retained": [
+        "https://familysearch.org/ark:/61903/1:1:XYMK-1QM",
+        "https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/register_of_marriages_for_the_parish_of_edinburgh_1595-1700_~_1898.pdf#page=277",
+        "https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/register_of_marriages_for_the_parish_of_edinburgh_1595-1700_~_1898.pdf#page=317"
+      ]
+    },
+    "Glasgow-3302": {
+      "current_sha256": "ef0a3b8c467f7fddf5857ff2c5d8a27719955553f137d71cc8bb5d0a087128fb",
+      "proposed_sha256": "89ed2ed0ecc02e07c9897181280668274f5321b4c1310aebf710199fb7c85ec1",
+      "all_substantive_passages_accounted_for": true,
+      "passages": [
+        "Every substantive captured passage, person, source and unresolved hypothesis is retained. Only standard heading/template normalization is applied.",
+        "The new dated section explains the selected uncertain father and retains niece/other-family alternatives. No mother or sibling certainty is inferred.",
+        "Barbara’s Wilson/Little identities and William-3522 competing father remain explicit; Margaret’s same-name Hardie marriages and unproved death remain explicit."
+      ],
+      "source_urls_retained": [
+        "https://familysearch.org/ark:/61903/1:1:XYMH-HZJ",
+        "https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/register_of_marriages_for_the_parish_of_edinburgh_1595-1700_~_1898.pdf#page=277"
+      ]
+    }
+  },
+  "queue_reopening": {
+    "Glasgow-3598": {
+      "entry": {
+        "queued_at": "2026-10-15",
+        "significance": 76,
+        "summary": "Review complete additive draft: Ninian Glasgow selected as uncertain local father of Margaret Glasgow, wife of William Hardie; preserve niece, identity and other-family alternatives. No live father attachment requested; manager scope still applies.",
+        "manual_update": true,
+        "draft_path": "research/Glasgow-3598/Glasgow-3598.md",
+        "preservation_review_path": "research/ancestry-connections/edinburgh-family-preservation-2026-10-15.json",
+        "reviewed_narrative_reduction": true,
+        "preserve_captured_detail": false,
+        "relationship_changes": [
+          {
+            "action": "add",
+            "relationship": "father",
+            "status": "uncertain",
+            "relative_id": "Glasgow-3188",
+            "assertion_id": "C-working-20261015-glasgow-3598-glasgow-3188"
+          }
+        ]
+      },
+      "state": {
+        "reopened_at": "2026-10-15",
+        "previous_live_completion_retained": true,
+        "reason": "New selected uncertain working father requires an additive research-note review after the completed marriage/identity corrections."
+      }
+    },
+    "Glasgow-3302": {
+      "entry": {
+        "queued_at": "2026-10-15",
+        "significance": 78,
+        "summary": "Review complete additive draft: Ninian Glasgow selected as uncertain local father of Barbara Glasgow, wife of George Johnstoun; preserve niece, identity and other-family alternatives. No live father attachment requested; manager scope still applies.",
+        "manual_update": true,
+        "draft_path": "research/Glasgow-3302/Glasgow-3302.md",
+        "preservation_review_path": "research/ancestry-connections/edinburgh-family-preservation-2026-10-15.json",
+        "reviewed_narrative_reduction": true,
+        "preserve_captured_detail": false,
+        "relationship_changes": [
+          {
+            "action": "add",
+            "relationship": "father",
+            "status": "uncertain",
+            "relative_id": "Glasgow-3188",
+            "assertion_id": "C-working-20261015-glasgow-3302-glasgow-3188"
+          }
+        ]
+      },
+      "state": {
+        "reopened_at": "2026-10-15",
+        "previous_live_completion_retained": true,
+        "reason": "New selected uncertain working father requires an additive research-note review after the completed marriage/identity corrections."
+      }
+    }
+  }
+}

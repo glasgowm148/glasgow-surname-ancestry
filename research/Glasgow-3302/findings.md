@@ -5,6 +5,10 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
+Reviewed: 2026-10-15
+
+**Selected working father:** [Ninian Glasgow](/people/glasgow-3188.html), uncertain / possible, from the existing daughter-or-niece/household comparison. Documentary parentage remains unidentified. No mother or identity merge is selected.
+
 Father assessment: **father not identified; uncertain**.
 
 Barbara's 21 November 1616 Edinburgh marriage to George Johnstoun is direct
@@ -100,3 +104,11 @@ This batch adds supporting evidence or a qualified comparison only; it raises no
 FamilySearch tree profile [9VM1-52D](https://www.familysearch.org/tree/person/details/9VM1-52D) attaches both the Johnstoun records and Catharine Little's 1611 baptism to one Barbara. This is a tree assertion, not evidence: whether Catharine's mother (Glasgow-567) and the Johnstoun wife were one woman remains unresolved.
 
 Recorded in `research/profile-preservation-audit-2026-09-30/Glasgow-567-reconciled.wiki` (30 September 2026), from the live Glasgow-567 biography; carried into this file on 7 October 2026.
+
+## Selected Edinburgh working family — 15 October 2026
+
+Select Ninian Glasgow as an uncertain working father within Barbara’s already preferred household or immediate collateral circle. Barbara married Edinburgh cordiner George Johnstoun in 1616; Ninian’s documented Glasgow son Robert is probably the cordiner admitted in 1613, and possible son William lived at South Leith. Barbara’s adult generation fits Ninian’s family. Her possible identity with Barbara Glasgow-3182, the 1611 South Leith bride already tentatively placed as Ninian’s daughter, supplies a second, explicitly conditional route to the same father.
+
+**Limits and competing explanations:** No record names Barbara’s father. Daughter is selected provisionally over niece or another family; trade alone cannot decide the degree. The Glasgow and Edinburgh cordiners are not shown to share an incorporation. Barbara-3302, Barbara-3182 and Barbara-567 remain separate profiles with unresolved possible identity links. If the 1611 and 1616 brides are one woman, these two Ninian attachments describe one possible daughter twice, not two historical sisters. If the Little mother Barbara-567 is the same woman, her existing William Glasgow-3522 father claim is a competing explanation. The disputed Wilson entry, widowhood and remarriage sequence remain unresolved. No mother or identity merge is selected.
+
+This supersedes earlier instructions to leave the local working parent blank; it does not supersede the statement that no record proves a father. Earlier assessments and all source findings remain above. See the [complete family comparison](/branches/early-scottish-records/#edinburgh-working-daughters). Existing sources: [Paton, p.267](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/register_of_marriages_for_the_parish_of_edinburgh_1595-1700_~_1898.pdf#page=277); [Glasgow burgess roll, 22 April 1613](https://archive.org/details/scottishrecordso43scotuoft); NRS CC9/7/9, Ninian’s 1613 testament. No new original inspection or certainty upgrade is claimed.

@@ -5,6 +5,10 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
+Reviewed: 2026-10-15
+
+**Selected working father:** [Ninian Glasgow](/people/glasgow-3188.html), uncertain / possible, from the existing daughter-or-niece/household comparison. Documentary parentage remains unidentified. No mother or identity merge is selected.
+
 Father assessment: **father not identified; uncertain**.
 
 The documented Edinburgh marriage to [[Hardie-2102|William Hardie]] on 16 July 1611 is now present in the live WikiTree spouse date and place fields, verified on both spouses' pages on 27 September 2026. This joins Margaret's research profile to the Hardie household with the same details already cited in her biography.
@@ -88,3 +92,11 @@ Add the record as supporting evidence while preserving all existing sources and 
 Source: Old Parish Registers, banns and marriages; exact surname Glasgow through 1700, 55 supplied results. Original images not inspected for this batch; combined index dates do not by themselves establish ceremony dates.
 
 This batch adds supporting evidence or a qualified comparison only; it raises no additional WikiTree amendment for this profile.
+
+## Selected Edinburgh working family — 15 October 2026
+
+Select daughter from the existing daughter-or-niece comparison with Ninian Glasgow. Margaret married Edinburgh cordiner William Hardie in 1611. Barbara Glasgow married another Edinburgh cordiner in 1616, while Ninian’s documented Glasgow son Robert is probably the cordiner admitted in 1613. Ninian’s possible son William supplies a family route into South Leith. Margaret’s estimated adult generation fits Ninian’s approximate 1550 generation. Together the generation, adjoining Edinburgh–Leith setting and repeated family craft make Ninian’s household the leading existing placement; daughter supplies the simplest provisional degree.
+
+**Limits and competing explanations:** No record names Margaret’s father or proves that she and Barbara were sisters. Niece, another close relative or another local Glasgow family remain alternatives. The cordiners worked in different burghs; a shared trade does not prove one incorporation or apprenticeship. The Robert-cordiner identity and William’s Ninian parentage are supporting inferences. Margaret’s before-1595 birth is an adult-status estimate, not a baptism. Repeated William Hardie marriages do not prove one serial husband or Margaret’s death. No mother is selected.
+
+This supersedes earlier instructions to leave the local working parent blank; it does not supersede the statement that no record proves a father. Earlier assessments and all source findings remain above. See the [complete family comparison](/branches/early-scottish-records/#edinburgh-working-daughters). Existing sources: [Paton, p.267](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/register_of_marriages_for_the_parish_of_edinburgh_1595-1700_~_1898.pdf#page=277); [Glasgow burgess roll, 22 April 1613](https://archive.org/details/scottishrecordso43scotuoft); NRS CC9/7/9, Ninian’s 1613 testament. No new original inspection or certainty upgrade is claimed.

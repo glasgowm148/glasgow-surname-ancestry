@@ -300,6 +300,47 @@
       ]
     },
     {
+      "id": "edinburgh-ninian-daughters",
+      "year": 1595,
+      "title": "Edinburgh brides → Ninian’s family",
+      "status": "Two selected uncertain fathers; niece and duplicate-identity alternatives retained",
+      "working_selection": true,
+      "people": [
+        {
+          "name": "Margaret Glasgow, wife of William Hardie",
+          "url": "/people/glasgow-3598.html"
+        },
+        {
+          "name": "Barbara Glasgow, wife of George Johnstoun",
+          "url": "/people/glasgow-3302.html"
+        },
+        {
+          "name": "Ninian Glasgow",
+          "url": "/people/glasgow-3188.html"
+        }
+      ],
+      "basis": "Existing household/daughter-or-niece assessments, compatible adult generations, cordiner households and a possible Leith family route. Exact parentage is inferred, not stated.",
+      "next_test": "Compare Edinburgh and Glasgow craft admissions for marriage-right fathers/cautioners; resolve the 1611 Wilson identity before deduplicating Barbara.",
+      "sources": [
+        {
+          "label": "Published Edinburgh marriage register, p.267",
+          "url": "https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/register_of_marriages_for_the_parish_of_edinburgh_1595-1700_~_1898.pdf#page=277"
+        }
+      ],
+      "counted_as_new_connection": true,
+      "reviewed": "2026-10-15",
+      "assertion_ids": [
+        "C-working-20261015-glasgow-3598-glasgow-3188",
+        "C-working-20261015-glasgow-3302-glasgow-3188"
+      ],
+      "metric_note": "Two imported profile components join; possible Barbara identity overlap means two profiles need not represent two daughters.",
+      "record_references": [
+        "Edinburgh marriage register, printed p.267: 16 July 1611; 21 November 1616",
+        "Glasgow burgess roll: 22 April 1613",
+        "NRS CC9/7/9, Ninian Glasgow testament, confirmed 8 May 1613"
+      ]
+    },
+    {
       "id": "lothian-fathers",
       "year": 1606,
       "title": "Place the Mid Calder and Linlithgow fathers",

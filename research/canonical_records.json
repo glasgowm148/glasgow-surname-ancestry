@@ -1699,5 +1699,56 @@
         "timeline_group": "Possible identity records"
       }
     }
+  },
+  {
+    "record_id": "edinburgh-margaret-hardie-1611",
+    "association": "Margaret Glasgow, wife of William Hardie: Edinburgh marriage",
+    "date": "16 July 1611",
+    "year": 1611,
+    "place": "Edinburgh, Scotland",
+    "source_title": "Henry Paton, ed., Register of Marriages for the Parish of Edinburgh, 1595–1700 (1898), p.267",
+    "source_url": "https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/register_of_marriages_for_the_parish_of_edinburgh_1595-1700_~_1898.pdf#page=277",
+    "status": "Previously maintained published marriage entry; no new inspection",
+    "note": "The bride married William Hardie, cordiner. The entry names no parent and does not establish siblinghood with other Glasgow brides.",
+    "profiles": {
+      "Glasgow-3598": {
+        "role": "Named bride",
+        "timeline_group": "Marriage records"
+      }
+    }
+  },
+  {
+    "record_id": "edinburgh-barbara-johnstoun-1616",
+    "association": "Barbara Glasgow, wife of George Johnstoun: Edinburgh marriage",
+    "date": "21 November 1616",
+    "year": 1616,
+    "place": "Edinburgh, Scotland",
+    "source_title": "Henry Paton, ed., Register of Marriages for the Parish of Edinburgh, 1595–1700 (1898), p.267",
+    "source_url": "https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/register_of_marriages_for_the_parish_of_edinburgh_1595-1700_~_1898.pdf#page=277",
+    "status": "Previously maintained published marriage entry; no new inspection",
+    "note": "The bride married George Johnstoun, cordiner. The entry names no parent and does not establish siblinghood with other Glasgow brides.",
+    "profiles": {
+      "Glasgow-3302": {
+        "role": "Named bride",
+        "timeline_group": "Marriage records"
+      }
+    }
+  },
+  {
+    "record_id": "glasgow-robert-cordiner-1613",
+    "association": "Robert Glasgow, cordiner, admitted heir of a burgess",
+    "date": "22 April 1613",
+    "year": 1613,
+    "place": "Glasgow, Scotland",
+    "source_title": "James R. Anderson, ed., Burgesses & Guild Brethren of Glasgow, 1573–1750 (1925), 1613 roll",
+    "source_url": "https://archive.org/details/scottishrecordso43scotuoft",
+    "status": "Existing published-roll reading, not newly inspected",
+    "note": "The cordiner was admitted as heir of a burgess after Ninian’s January death. This is a probable identity with Ninian’s testament-proved son Robert; the roll itself does not name the predecessor. It names neither Edinburgh bride.",
+    "profiles": {
+      "Glasgow-1027": {
+        "role": "Probable identity of admitted cordiner",
+        "timeline_group": "Civic records"
+      }
+    }
   }
 ]

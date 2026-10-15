@@ -21,6 +21,8 @@ are retained separately, not silently substituted for unread manuscript text.
 
 ## Current conclusion
 
+**Working daughters selected, 15 October 2026:** [Margaret, wife of William Hardie](/people/glasgow-3598.html), and [Barbara, wife of George Johnstoun](/people/glasgow-3302.html), are provisionally attached as uncertain daughters from the existing household/niece comparisons. These are local hypotheses, not new testament children. Barbara may be the already modelled Leith Barbara-3182; two profile entries do not establish two daughters.
+
 Father audit, 28 September 2026: [John Glasgow-1030](https://www.wikitree.com/wiki/Glasgow-1030), representing Ninian's documented brother, now has Robert Glasgow-1096 marked **confident** on WikiTree. The explicit 1596 father and 1613 brother statements, shared surname, chronology and 1619 family witness support the common-father inference, as for Marion. The 1618 Jonet Mathie husband identification remains probable. See [John's current assessment](../Glasgow-1030/findings.md); older conditional father wording is superseded.
 
 Marion Glasgow-3062 is Ninian’s documented sister in his 1613 testament.
@@ -207,3 +209,9 @@ Recorded in `research/Glasgow-3188/Glasgow-3188.md` (8 September 2026); carried 
 ## Working family extension — 15 October 2026
 
 Barbara-3182 is selected as a possible daughter, choosing the daughter branch of the existing daughter/niece comparison. The Leith route via possible son William and craft households supports the local model, while niece and other families remain alternatives. No mother is inferred. [Reasoning and alternatives](/branches/early-scottish-records/#early-collateral-joins).
+
+## Edinburgh working daughters — 15 October 2026
+
+The local tree now selects Ninian as the uncertain father of Margaret Glasgow-3598 and Barbara Glasgow-3302. Their Edinburgh cordiner husbands, Robert’s probable Glasgow cordiner identity, the possible William route to Leith and compatible generations favour the existing close-family comparison. Daughter is selected provisionally; niece or another family remain alternatives. No record proves these women sisters, no mother is assigned, and the cordiners are not shown to share an incorporation. Barbara’s possible Wilson/Little identities remain unresolved, including the competing William-3522 father if she is Barbara-567.
+
+See each daughter’s findings and the [complete comparison](/branches/early-scottish-records/#edinburgh-working-daughters); the original marriage entries and the 1613 testament are unchanged evidence. No new source inspection, certainty upgrade or live attachment.
