@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Reviewed: 2026-10-15
+
 This pre-1500 profile is not managed by the requesting account and is not the
 project's maintained research destination. The current sourced biography is
 [John Glasgow of Saltmarket, estimated born about 1480 and dead before 21
@@ -11,7 +13,7 @@ free-space biography while preserving this existing attachment.
 
 The Saltmarket biography now links prominently to [John Glasgw of
 Stirling](https://www.wikitree.com/wiki/Space:John_Glasgw_of_Stirling), active
-in 1475–1479/80, as a plausible father of the Saltmarket John estimated born
+in three source-described appearances in 1475–1479/80 (including a burgess-witness group on 8 August 1475), as a plausible father of the Saltmarket John estimated born
 about 1480. This is a chronological and surname-based reconstruction, not a
 recorded relationship.
 
@@ -19,7 +21,7 @@ The profile is an unsourced early root estimated born in 1475 at Glasgow. Two
 record-defined men are compatible with parts of that description, but neither
 is proved to be Glasgow-1095:
 
-- John Glasgw witnessed Stirling acts in 1475 and 1479/80; as a pre-1500
+- John Glasgw/Glesgw is assigned three Stirling appearances in 1475 and 1479/80; as a pre-1500
   subject he is maintained on a free-space page, not as a new person profile.
 - John Glasgow held a Saltmarket tenement in 1527; the same property description
   recurs in 1548 and an adjoining boundary calls him dead by 21 October 1553.
@@ -75,3 +77,9 @@ On 16 November 1564 `Eufame Craige, the relict of wmquhill {blank} Glesgw`, hold
 The leading hypothesis is that Eufame was this older John's widow: a liferent reserved while John held the whole property could survive the transfer of the fee to William by February 1528/29 and still burden the rear parcel in 1564. Eufame as William's later widow remains possible but less likely, because it requires Esbell Brade's death and William's remarriage between 31 December 1534 and 16 March 1535/36. Grade: **leading hypothesis**, a property-based reconstruction, not a recorded marriage. The printed abstract leaves the husband's forename blank; an image of the manuscript is the decisive check.
 
 Recorded in `research/medieval-glasgow-bridge-1447-1534/report.md` (30 August 2026) and `surname-research/pre-1700/evidence-register.md`; carried into this file on 7 October 2026.
+
+## Source findings — Stirling predecessor account, 15 October 2026
+
+The [official NRS description of B66/25/43](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?df=&di=y&dt=&k=holme&ko=a&r=&reference=B66%2F25%2F43&ro=s&st=1&tc=y&tl=n&tn=n&tp=n), dated **8 August 1475**, groups **John Glesgw** with the burgess witnesses of a Stirling charter. This belongs to the [Stirling documentary subject](/free-space/john-glasgw-of-stirling-1b723d/), whose identification with this imported profile remains unresolved; it is not a proved record of the Saltmarket owner. Two other Stirling acts were already known. The new civic detail strengthens the comparison with the Glasgow burgess of 1447–1455, but provides no kinship clause. A single career from 1447 to 1480 is plausible: the Stirling circa-1450 birth estimate cannot be used to exclude an older man. Father–son and close-kin models remain alternatives.
+
+The Saltmarket account now treats its circa-1480 birth estimate as conditional on the possible 1506 alias-Smith identification; secure Saltmarket activity begins in 1527. The existing John-to-William father hypothesis stays uncertain. Source inspected: the official archive description, not the original charter. Next compare the original B66/25/43 witness wording and endorsements with the Glasgow instruments; the recorded seals belong to Forester and Redhucht, not to Glesgw.

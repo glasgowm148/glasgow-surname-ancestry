@@ -782,3 +782,13 @@ strong succession evidence, but a relationship formula is still absent.
 Supporting data are in [candidates.csv](candidates.csv),
 [properties.csv](properties.csv), [network.csv](network.csv), and
 [research-log.md](research-log.md).
+
+## 11. Stirling civic status and viable identity models — 15 October 2026
+
+The [official NRS description of B66/25/43](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?df=&di=y&dt=&k=holme&ko=a&r=&reference=B66%2F25%2F43&ro=s&st=1&tc=y&tl=n&tn=n&tp=n) (8 August 1475, original held by Stirling Council Archives Services) places John Glesgw in a list of burgess witnesses. The charter itself had been located in the October sweep; this pass reads its civic-status detail and integrates the third Stirling occurrence with those of 11 April 1475 and 2 March 1479/80. The original has not been inspected.
+
+This changes the earlier general statement that no civic status was known for the Stirling John. Both he and the 1447 Glasgow man now have burgess descriptions. No exact shared associate, holding, personal seal or kinship clause joins them. The 1475 seals are attributed to Forester and Redhucht, not Glesgw. A single adult career across 1447–1480 is chronologically viable; the Stirling circa-1450 estimate is not an exclusion. Retain one-man and close-family alternatives rather than deriving two generations from placeholder birth years.
+
+The Saltmarket man is securely located in 1527. His circa-1480 estimate is conditional on the unproved 1506 alias-Smith identification. The working Stirling-to-Saltmarket father hypothesis remains possible; neither a new father proof nor a new surname-component join is claimed.
+
+Search scope: official NRS catalogue reference B66/25/43 and web-indexed Glesgw/Glasgw occurrences; the University of Glasgow Blackhouse catalogue; Stirling Archives Darow article. No original 1475 charter image or unrecorded kinship clause was found. Original inspection and comparison of complete witness wording and endorsements remain the next discriminating test.

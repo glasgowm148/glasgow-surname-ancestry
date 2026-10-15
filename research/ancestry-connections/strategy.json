@@ -55,9 +55,13 @@
           "url": "/free-space/john-glasgw-of-stirling-1b723d/"
         }
       ],
-      "basis": "The compatible succession of name and dates supplies a comparison. The maintained research has not identified a shared holding, associate or relationship clause.",
-      "next_test": "Compare the complete BL68/GUA12418 and BL82/GUA12430 instruments with Stirling B66/25/43 and the 1479/80 act: property, witnesses, occupation, seals and endorsements.",
+      "basis": "The 1447 Glasgow John and the Stirling witness both have burgess descriptions: NRS B66/25/43 groups John Glesgw among burgesses on 8 August 1475. This strengthens the civic comparison. A single career across 1447–1480 is viable; the circa-1450 Stirling birth estimate cannot exclude it. A father–son or other close-family relationship remains an alternative, with no shared holding or kinship clause yet located.",
+      "next_test": "Compare original Glasgow BL68/BL82 with Stirling B66/25/43 and Darow entries for unabridged names, title recitals and endorsements. Distinguish the charter parties’ seals from John’s own identification; no personal seal of Glesgw is established.",
       "sources": [
+        {
+          "label": "NRS B66/25/43: burgess witnesses, 8 August 1475",
+          "url": "https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?df=&di=y&dt=&k=holme&ko=a&r=&reference=B66%2F25%2F43&ro=s&st=1&tc=y&tl=n&tn=n&tp=n"
+        },
         {
           "label": "Existing medieval record assessment",
           "url": "/branches/early-scottish-records/"
@@ -68,7 +72,8 @@
         "BL82/GUA12430 (1455; day disputed)",
         "Stirling B66/25/43 (8 August 1475)"
       ],
-      "counted_as_new_connection": false
+      "counted_as_new_connection": false,
+      "reviewed": "2026-10-15"
     },
     {
       "id": "stirling-saltmarket",
