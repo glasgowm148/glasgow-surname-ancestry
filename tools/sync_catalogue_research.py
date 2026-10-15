@@ -378,6 +378,10 @@ def main():
         refresh_catalogue_summaries(rows)
     index_exit = 0
     if args.write and not missing:
+        # The browser reads the compact worker index and detail shards.
+        # Repair stale derivatives even when profile bodies need no changes.
+        from tools.catalogue_search_index import refresh as refresh_catalogue_search
+        refresh_catalogue_search(WEB)
         try:
             from genealogy.batch_complete import refresh_after_batch
         except ModuleNotFoundError:

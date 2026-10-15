@@ -9,8 +9,11 @@ import hashlib
 import json
 from pathlib import Path
 import subprocess
+import sys
 
 ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
 
 
 def build(site_root=ROOT / 'www'):
@@ -90,5 +93,28 @@ process.stdout.write(JSON.stringify(rows));
     return {'catalogue_fast_bytes':target.stat().st_size,'catalogue_full_bytes':full_path.stat().st_size,'catalogue_people':len(rows)}
 
 
+def refresh(site_root=ROOT / 'www'):
+    """Refresh browser indexes, detail shards and content-versioned URLs."""
+    from tools.catalogue_search_markup import PAGES
+    from tools.stamp_asset_versions import VERSIONED_ASSET, asset_path, content_hash
+    result = build(site_root)
+    paths = [site_root / 'people/search.js', site_root / 'people/catalogue-worker.js',
+             *(site_root / relative for relative in PAGES)]
+    changed = 0
+    for path in paths:
+        if not path.exists():
+            continue
+        def version(match):
+            target = asset_path(site_root, path, match['url'])
+            return match[0] if target is None or not target.is_file() else (
+                match['quote'] + match['url'] + '?v=' + content_hash(target) + match['quote'])
+        before = path.read_text()
+        after = VERSIONED_ASSET.sub(version, before)
+        if after != before:
+            path.write_text(after)
+            changed += 1
+    return {**result, 'catalogue_versioned_files': changed}
+
+
 if __name__ == '__main__':
-    print(build())
+    print(refresh())

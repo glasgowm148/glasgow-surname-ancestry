@@ -5,6 +5,8 @@ description: Conduct evidence-led WikiTree research, profile and relationship in
 
 # WikiTree Research
 
+- Catalogue synchronization (owner correction, 15 October 2026): after a targeted research sync, rebuild the browser's compact search index, detail shards and worker with `tools.catalogue_search_index.refresh`, and refresh their content-versioned URLs. Verify the actual `needsUpdate` filter membership/count against the full index; a current profile page or full JSON index alone does not prove that the catalogue UI is current.
+
 Check documentary claims against the underlying record. Distinguish documented facts, logic-based working inferences, and open alternatives; direct proof is not a prerequisite for an explicitly uncertain working connection.
 
 - Glasgow ancestry programme: prioritise connecting the oldest surname branches into one evidence-led working family tree. Work from the earliest surviving records, especially before 1650, and keep post-1850 work subordinate unless it can resolve an earlier branch connection. Extend defensible tentative connections with their actual uncertainty rather than leaving compatible branches isolated. Maintain the reproducible paternal-connectivity baseline, sizeable unattached family heads and early connection queue in `research/ancestry-connections/`; refresh `/onetree/progress/` after a connection batch. Track confidently marked and working links separately. The owner's reported common Y-DNA origin and circa 1400–1450 (possibly earlier) founder model guide the research; they do not supply missing generations, identify every untested branch, or establish a named father. A conceptual common-origin link must never lower the count of unresolved genealogical connections.

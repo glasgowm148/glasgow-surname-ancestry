@@ -7,12 +7,36 @@ import sys
 import tempfile
 import unittest
 
-from tools.catalogue_search_index import build
+from tools.catalogue_search_index import build, refresh
 
 ROOT=Path(__file__).parents[1]
 
 
 class CatalogueWorkerParityTests(unittest.TestCase):
+    def test_refresh_updates_visible_flags_and_cache_versions(self):
+        from tools.stamp_asset_versions import content_hash
+        with tempfile.TemporaryDirectory() as temp:
+            site = Path(temp)
+            (site / 'data').mkdir(); (site / 'people').mkdir(); (site / 'catalogue').mkdir()
+            source = site / 'data/catalogue-search-index.json'
+            rows = [{'id': 'example', 'name': 'Example Glasgow', 'profile_ids': ['Glasgow-1'],
+                     'needs_wikitree_update': False}]
+            source.write_text(json.dumps(rows)); build(site)
+            (site / 'people/search.js').write_text((ROOT / 'tools/catalogue_search.js').read_text())
+            page = site / 'catalogue/index.html'
+            page.write_text('<script src="/people/search.js?v=old"></script>')
+            rows[0]['needs_wikitree_update'] = True
+            rows[0]['wikitree_update_summary'] = 'New reviewed family amendment'
+            source.write_text(json.dumps(rows)); refresh(site)
+            packed = json.loads((site / 'data/catalogue-search-fast.json').read_text())
+            flag = packed['fields'].index('needs_wikitree_update')
+            self.assertEqual(sum(bool(row[flag]) for row in packed['rows']), 1)
+            self.assertIn('catalogue-search-fast.json?v=' + content_hash(site / 'data/catalogue-search-fast.json'),
+                          (site / 'people/search.js').read_text())
+            self.assertIn('/people/search.js?v=' + content_hash(site / 'people/search.js'), page.read_text())
+            frozen = page.read_bytes(); refresh(site)
+            self.assertEqual(page.read_bytes(), frozen)
+
     def test_generated_worker_preserves_filters_and_sorting(self):
         rows=[]
         for i,(name,gender,place,bio) in enumerate([
