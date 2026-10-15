@@ -307,7 +307,7 @@ Sections: `tmp/fmp-studies/a_sections/p4_*.md`.
 | Who | Record | Source |
 |---|---|---|
 | **Alexander Glasgw, Coldingham area** | Creditor for seven bolls of oats in the testament of Williame Auchincraw in Flemingtoun, confirmed 20 Dec 1571: "Item to Alexander Glasgw sevin bollis aittis" | Thomson, *Coldingham: Parish and Priory* (1908) app. XXVII (from Edinburgh Testaments, probably NRS CC8/8/2) |
-| **Jhone Glasgw, barony of Carnwath** (next to Libberton/Quothquan) | The phrase "Jhone Glasgw" appears on 2 pages. HathiTrust is search-only, so the context is unseen | Dickinson (ed.), *Court Book of the Barony of Carnwath 1523–1542* (SHS 3rd ser. 29, 1937). Needs reading by hand |
+| **Carnwath and Quothquan Glasgows: John, Thomas, Robert, William** | Reviewed 15 Oct 2026: full NLS scan located. Robert and William 1524; John at Quothquan 1525/26 and Upper Quothquan 1531/32; Thomas at Quothquan 1527/28. Named kin not established | Dickinson (1937), printed pp.9–17,32,36,64–65,136–139,142–144 and Appendix B. [Public biographies](/research/subjects/carnwath-1524-1532/) |
 | John Glesgw, Stirling (known person) | New charter: witness to William Murray's grant of half the Dow Croft, 8 Aug 1475 | NRS B66/25/43 (original at Stirling Council Archives) |
 | **Maurice de Glasco**, Pentland | 1304: Edward I lodged in his houses; paid 5s. for damage to his corn | Bain, *CDS* IV p.476 |
 | Adam de Glasgou/Glascou, Berwick (known Adam de Glasgeu?) | Juror 1315 (*CDS* III no. 461); he "and his ancestors" were seised of half a carucate in Bondington under Alexander III | *Rot. Scot.* I 268b |
@@ -336,7 +336,7 @@ Sections: `tmp/fmp-studies/a_sections/p4_*.md`.
 - PRONI, NAI and TNA (place uses only).
 
 **Next actions:**
-- Read the Carnwath court book (NLS Digital / SHS).
+- Carnwath: selected Glasgow passages now read from the full NLS scan; follow Upper Quothquan tenancy succession and the remaining indexed passages. See `research/ancestry-connections/carnwath-1524-1532.md`.
 - Order NRS CC8/8/2 (Auchincraw testament).
 - NRS GD154 and the E71/E72 port books.
 - Check the Northumberland Archives EP/38/1 (Berwick burials, Lucie Glascoe 1597) and Norfolk PD 26/16(S) registers.
@@ -409,7 +409,7 @@ Sections: `tmp/fmp-studies/a_sections/p5_*.md`.
 - English: one unclear 1619 Newcastle infant "Glasko"; the rest are Glascock or unproven.
 
 **Still to read:**
-- The Carnwath court book ("Jhone Glasgw", 1523–42; search-only, needs NLS or a library copy).
+- Carnwath remaining indexed passages and original-manuscript comparison; the full printed book is now available and selected Glasgow entries were visually read 15 October 2026.
 - *Knights of St John* ("Wilyame Glasgow", with Torphichen).
 - SRO sasine index no. 42 entries.
 - The Stevenston elder's forename (page image).

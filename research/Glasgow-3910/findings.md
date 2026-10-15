@@ -12,6 +12,8 @@ Reviewed: 2026-10-15
 <!-- site-audit-2026-10-07:overall-conclusion -->
 James Glasgow was a weaver in Quothquan, in Libberton parish, who had died by 26 July 1624, when his testament was recorded by the Lanark Commissary Court. The evidence is the printed index of that court's register of testaments; the original has not been read. Margaret Threipland, 'relict of James Glesgow, in Quodquen', whose testament is indexed on 27 October 1626, is a possible widow only, because the index does not show that the two Quothquan references are one man.
 
+An early local group is now documented: John and Thomas Glasgow were Quothquan tenants in the 1520s, with John at Upper Quothquan in 1531/32. They are possible ancestral relatives of James, with the intervening generations unproved.
+
 The 1607–1612 court occurrence names a weaver in Quothquan, compatible with the 1624 testator. If this identification is correct, the inherited birth estimate around 1605 cannot stand; the actual birth remains unknown.
 
 ## Source findings — Lanark testament index, 26 July 1624
@@ -26,3 +28,9 @@ Recorded in `research/Glasgow-3910/1624_Scotland_Quothquan_James_Glasgow.md`, li
 ## 1610–1650 sweep — reviewed 15 October 2026
 
 The earlier sweep reports **James Glasgow, weaver at Cuthquone/Quothquan**, among defenders in Johnne Symentoun’s complaint concerning acts in 1607–1608, heard in 1612; the pursuer failed in proof and the defenders were absolved. Source: *Register of the Privy Council of Scotland*, first series IX, [p.342](https://books.google.co.uk/books?id=aKv-R5x90uwC&pg=PA342). The occupation and locality make the 1624 Quothquan testator a plausible identification, not a proved match. If they are the same man, the profile’s estimated birth around 1605 is too late for his adult activity in 1607; do not treat that estimate as a recorded date. The hearing and testament need comparison before identifying the widow or changing structured dates.
+
+## Earlier Quothquan Glasgow group — 15 October 2026
+
+The Carnwath court book places John Glesquho among Quothquan tenants on 15 March [1525/26] and Thomas Gleschow there on 7 February 1527/28. John (also “of Glasgw”) is expressly an Upper Quothquan tenant in the 6 February 1531/32 forfeiture proceedings and reappears in the October 1532 malt case. Dickinson, *Court Book of the Barony of Carnwath 1523–1542* (1937), printed pp.35–36,64–65,136–139,142–144 and Appendix B pp.cxix–cxxii ([NLS scan, PDF165](https://deriv.nls.uk/dcn23/1271/7974/127179749.23.pdf#page=165)). Printed passages and date schedule visually checked; original manuscript uninspected.
+
+This establishes a much earlier local surname cluster and a plausible ancestral family to investigate for James the weaver. It does not name James’s father or connect the missing generations. John and Thomas’s relationship to one another is likewise open. See the [consolidated Carnwath biographies and existing-profile comparisons](/research/subjects/carnwath-1524-1532/). Follow tenancy succession and named kin before choosing a paternal edge; no connectivity or certainty upgrade is recorded.
