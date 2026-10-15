@@ -1795,5 +1795,73 @@
     "documentary_group_id": "glasgow-john-1447-1455",
     "identity_selection_id": "I-working-20261015-glasgow-stirling-john",
     "documentary_assignment_status": "Selected uncertain identity across record groups"
+  },
+  {
+    "record_id": "inveresk-glasgow-2460-1634",
+    "association": "Agnes Glasgow: Inveresk baptism household",
+    "date": "27 July 1634",
+    "year": 1634,
+    "place": "Inveresk and Musselburgh, Midlothian, Scotland",
+    "source_title": "Scotland’s People, OPR births and baptisms, parish 689, reference 10/251; supplied index reviewed 10 September 2026",
+    "source_url": "https://www.scotlandspeople.gov.uk/",
+    "status": "Existing supplied index; original register image not inspected",
+    "note": "Indexed parents: THOMAS GLASGOW/. Collection date can be birth or baptism; no new image inspection. Parent identity with combined Glasgow-1103 remains uncertain.",
+    "profiles": {
+      "Glasgow-2460": {
+        "role": "Indexed child",
+        "timeline_group": "Birth and baptism records"
+      }
+    }
+  },
+  {
+    "record_id": "inveresk-glasgow-2461-1637",
+    "association": "Thomas Glasgow: Inveresk baptism household",
+    "date": "6 August 1637",
+    "year": 1637,
+    "place": "Inveresk and Musselburgh, Midlothian, Scotland",
+    "source_title": "Scotland’s People, OPR births and baptisms, parish 689, reference 10/300; supplied index reviewed 10 September 2026",
+    "source_url": "https://www.scotlandspeople.gov.uk/",
+    "status": "Existing supplied index; original register image not inspected",
+    "note": "Indexed parents: THOMAS GLASGOW/AGNES THOMSONE FR259. Collection date can be birth or baptism; no new image inspection. Parent identity with combined Glasgow-1103 remains uncertain.",
+    "profiles": {
+      "Glasgow-2461": {
+        "role": "Indexed child",
+        "timeline_group": "Birth and baptism records"
+      }
+    }
+  },
+  {
+    "record_id": "inveresk-glasgow-3049-1642",
+    "association": "Marione Glasgow: Inveresk baptism household",
+    "date": "18 December 1642",
+    "year": 1642,
+    "place": "Inveresk and Musselburgh, Midlothian, Scotland",
+    "source_title": "Scotland’s People, OPR births and baptisms, parish 689, reference 20/23; supplied index reviewed 10 September 2026",
+    "source_url": "https://www.scotlandspeople.gov.uk/",
+    "status": "Existing supplied index; original register image not inspected",
+    "note": "Indexed parents: THOMAS GLASGOW/AGNES THOMSON FR376. Collection date can be birth or baptism; no new image inspection. Parent identity with combined Glasgow-1103 remains uncertain.",
+    "profiles": {
+      "Glasgow-3049": {
+        "role": "Indexed child",
+        "timeline_group": "Birth and baptism records"
+      }
+    }
+  },
+  {
+    "record_id": "inveresk-william-parent-pair-1639",
+    "association": "William Glasgow: Inveresk Thomas/Agnes household",
+    "date": "21 August 1639",
+    "year": 1639,
+    "place": "Inveresk, Scotland",
+    "source_title": "Findmypast, Scotland, Parish Births & Baptisms 1564–1929, SCOT/OPR/BAP/4437421; OPR 689/1",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4437421&tab=this",
+    "status": "Previously inspected transcript; no new inspection",
+    "note": "William was born 20 August and baptised 21 August 1639, son of Thomas Glasgow and Agnes Thomson. This supports the Inveresk household, not the father’s identity with the 1612 Glasgow child or Linlithgow adult.",
+    "profiles": {
+      "Glasgow-2462": {
+        "role": "Previously matched child",
+        "timeline_group": "Birth and baptism records"
+      }
+    }
   }
 ]

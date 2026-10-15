@@ -3860,5 +3860,167 @@
       "prior_assessment": "Household/daughter-or-niece comparison present; no selected father in the local tree.",
       "resolution_note": "Selected uncertain local pedigree only; no live attachment, certainty upgrade, sibling proof or identity merge."
     }
+  },
+  {
+    "assertion_id": "C-working-20261016-glasgow-2460-inveresk-thomas",
+    "people": [
+      "Glasgow-2460",
+      "Glasgow-1103"
+    ],
+    "profile_names": {
+      "Glasgow-2460": "Agnes Glasgow",
+      "Glasgow-1103": "Thomas Glasgow"
+    },
+    "status": "uncertain",
+    "hypothesis_status": "possible",
+    "evidence_grade": "Indexed father; combined-profile identity uncertain",
+    "working_selection": true,
+    "allow_new_relationship": true,
+    "claim": "Thomas Glasgow-1103 represents the selected uncertain Inveresk father of Agnes Glasgow.",
+    "basis": "The Inveresk children belong to the existing Thomas Glasgow and Agnes Thomsone household. Thomas and Marione’s indexed entries name that parent pair; Agnes’s entry names Thomas only. William Glasgow-2462’s inspected Findmypast transcript supplies the same parents in Inveresk in 1639. The children’s captured father ID, Glasgow-2459, is explicitly redirected to Glasgow-1103 in the saved WikiTree change data, and Thomas-1103’s captured family already includes them. Restoring the canonical father reconnects this existing household rather than discovering three new fathers.",
+    "limitations": "The record-defined Inveresk father is Thomas Glasgow, but his identification with the combined Glasgow-1103 profile remains uncertain. That profile also represents the Glasgow child baptised in 1612 and the Linlithgow father associated with Hellin Bryse. A 1612 birth allows ages about 22, 25 and 30 at the Inveresk baptisms, but does not prove that adult identity. The profile’s estimated 1639 Bryse marriage overlaps the Agnes Thomsone household, which continues to December 1642. A later remarriage could fit the 1644 Bryse child, but is not established; a distinct Inveresk Thomas remains an alternative. Jannet’s 1640 Linlithgow entry names no mother. Keep these households distinguishable and do not infer a death or remarriage date. No mother status is changed. Agnes’s index omits her mother; the existing Agnes Thomsone attachment is retained without upgrading it. Marione’s 13 December birth and 18 December christening remain separate. James Glasgow-3077’s naming-pattern placement is not documentary sibling proof. Margaret Glasgow-3050 has a conflicting William Glasgow/Bessie Howie index identification and is not used to support this reconstruction. The Weir husband is a separate comparison. No identity merge or live WikiTree change is performed.",
+    "source_ids": [
+      "inveresk-glasgow-2460-1634",
+      "inveresk-glasgow-2461-1637",
+      "inveresk-glasgow-3049-1642",
+      "inveresk-william-parent-pair-1639"
+    ],
+    "assessment_date": "2026-10-16",
+    "publication_status": "approved",
+    "perspectives": {
+      "Glasgow-2460": {
+        "relationship": "father",
+        "reason": "The Inveresk children belong to the existing Thomas Glasgow and Agnes Thomsone household. Thomas and Marione’s indexed entries name that parent pair; Agnes’s entry names Thomas only. William Glasgow-2462’s inspected Findmypast transcript supplies the same parents in Inveresk in 1639. The children’s captured father ID, Glasgow-2459, is explicitly redirected to Glasgow-1103 in the saved WikiTree change data, and Thomas-1103’s captured family already includes them. Restoring the canonical father reconnects this existing household rather than discovering three new fathers."
+      },
+      "Glasgow-1103": {
+        "relationship": "daughter",
+        "reason": "The Inveresk children belong to the existing Thomas Glasgow and Agnes Thomsone household. Thomas and Marione’s indexed entries name that parent pair; Agnes’s entry names Thomas only. William Glasgow-2462’s inspected Findmypast transcript supplies the same parents in Inveresk in 1639. The children’s captured father ID, Glasgow-2459, is explicitly redirected to Glasgow-1103 in the saved WikiTree change data, and Thomas-1103’s captured family already includes them. Restoring the canonical father reconnects this existing household rather than discovering three new fathers."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Inveresk family and merged-profile identity",
+        "href": "/branches/early-scottish-records/#inveresk-thomas-family"
+      }
+    ],
+    "provenance": {
+      "source": "research/relationship_assessments.json",
+      "prior_assessment": "Captured father Glasgow-2459 already attached; saved redirect to Glasgow-1103 was not resolved into these public family links.",
+      "basis": "Existing supplied OPR entries, previously inspected William transcript and saved public WikiTree redirect/family capture.",
+      "resolution_note": "Restored existing attachment with explicit adult-identity uncertainty; not a newly discovered father, identity merge or confident upgrade."
+    },
+    "parent_alias_resolution": {
+      "original_id": "Glasgow-2459",
+      "canonical_id": "Glasgow-1103",
+      "basis": "Each child’s saved biography links father Glasgow-2459; the saved public WikiTree redirect maps that ID to Glasgow-1103. The old export substituted an unnamed outside-export father for the omitted merged ID."
+    }
+  },
+  {
+    "assertion_id": "C-working-20261016-glasgow-2461-inveresk-thomas",
+    "people": [
+      "Glasgow-2461",
+      "Glasgow-1103"
+    ],
+    "profile_names": {
+      "Glasgow-2461": "Thomas Glasgow",
+      "Glasgow-1103": "Thomas Glasgow"
+    },
+    "status": "uncertain",
+    "hypothesis_status": "possible",
+    "evidence_grade": "Indexed father; combined-profile identity uncertain",
+    "working_selection": true,
+    "allow_new_relationship": true,
+    "claim": "Thomas Glasgow-1103 represents the selected uncertain Inveresk father of Thomas Glasgow.",
+    "basis": "The Inveresk children belong to the existing Thomas Glasgow and Agnes Thomsone household. Thomas and Marione’s indexed entries name that parent pair; Agnes’s entry names Thomas only. William Glasgow-2462’s inspected Findmypast transcript supplies the same parents in Inveresk in 1639. The children’s captured father ID, Glasgow-2459, is explicitly redirected to Glasgow-1103 in the saved WikiTree change data, and Thomas-1103’s captured family already includes them. Restoring the canonical father reconnects this existing household rather than discovering three new fathers.",
+    "limitations": "The record-defined Inveresk father is Thomas Glasgow, but his identification with the combined Glasgow-1103 profile remains uncertain. That profile also represents the Glasgow child baptised in 1612 and the Linlithgow father associated with Hellin Bryse. A 1612 birth allows ages about 22, 25 and 30 at the Inveresk baptisms, but does not prove that adult identity. The profile’s estimated 1639 Bryse marriage overlaps the Agnes Thomsone household, which continues to December 1642. A later remarriage could fit the 1644 Bryse child, but is not established; a distinct Inveresk Thomas remains an alternative. Jannet’s 1640 Linlithgow entry names no mother. Keep these households distinguishable and do not infer a death or remarriage date. No mother status is changed. Agnes’s index omits her mother; the existing Agnes Thomsone attachment is retained without upgrading it. Marione’s 13 December birth and 18 December christening remain separate. James Glasgow-3077’s naming-pattern placement is not documentary sibling proof. Margaret Glasgow-3050 has a conflicting William Glasgow/Bessie Howie index identification and is not used to support this reconstruction. The Weir husband is a separate comparison. No identity merge or live WikiTree change is performed.",
+    "source_ids": [
+      "inveresk-glasgow-2460-1634",
+      "inveresk-glasgow-2461-1637",
+      "inveresk-glasgow-3049-1642",
+      "inveresk-william-parent-pair-1639"
+    ],
+    "assessment_date": "2026-10-16",
+    "publication_status": "approved",
+    "perspectives": {
+      "Glasgow-2461": {
+        "relationship": "father",
+        "reason": "The Inveresk children belong to the existing Thomas Glasgow and Agnes Thomsone household. Thomas and Marione’s indexed entries name that parent pair; Agnes’s entry names Thomas only. William Glasgow-2462’s inspected Findmypast transcript supplies the same parents in Inveresk in 1639. The children’s captured father ID, Glasgow-2459, is explicitly redirected to Glasgow-1103 in the saved WikiTree change data, and Thomas-1103’s captured family already includes them. Restoring the canonical father reconnects this existing household rather than discovering three new fathers."
+      },
+      "Glasgow-1103": {
+        "relationship": "son",
+        "reason": "The Inveresk children belong to the existing Thomas Glasgow and Agnes Thomsone household. Thomas and Marione’s indexed entries name that parent pair; Agnes’s entry names Thomas only. William Glasgow-2462’s inspected Findmypast transcript supplies the same parents in Inveresk in 1639. The children’s captured father ID, Glasgow-2459, is explicitly redirected to Glasgow-1103 in the saved WikiTree change data, and Thomas-1103’s captured family already includes them. Restoring the canonical father reconnects this existing household rather than discovering three new fathers."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Inveresk family and merged-profile identity",
+        "href": "/branches/early-scottish-records/#inveresk-thomas-family"
+      }
+    ],
+    "provenance": {
+      "source": "research/relationship_assessments.json",
+      "prior_assessment": "Captured father Glasgow-2459 already attached; saved redirect to Glasgow-1103 was not resolved into these public family links.",
+      "basis": "Existing supplied OPR entries, previously inspected William transcript and saved public WikiTree redirect/family capture.",
+      "resolution_note": "Restored existing attachment with explicit adult-identity uncertainty; not a newly discovered father, identity merge or confident upgrade."
+    },
+    "parent_alias_resolution": {
+      "original_id": "Glasgow-2459",
+      "canonical_id": "Glasgow-1103",
+      "basis": "Each child’s saved biography links father Glasgow-2459; the saved public WikiTree redirect maps that ID to Glasgow-1103. The old export substituted an unnamed outside-export father for the omitted merged ID."
+    }
+  },
+  {
+    "assertion_id": "C-working-20261016-glasgow-3049-inveresk-thomas",
+    "people": [
+      "Glasgow-3049",
+      "Glasgow-1103"
+    ],
+    "profile_names": {
+      "Glasgow-3049": "Marione Glasgow",
+      "Glasgow-1103": "Thomas Glasgow"
+    },
+    "status": "uncertain",
+    "hypothesis_status": "possible",
+    "evidence_grade": "Indexed father; combined-profile identity uncertain",
+    "working_selection": true,
+    "allow_new_relationship": true,
+    "claim": "Thomas Glasgow-1103 represents the selected uncertain Inveresk father of Marione Glasgow.",
+    "basis": "The Inveresk children belong to the existing Thomas Glasgow and Agnes Thomsone household. Thomas and Marione’s indexed entries name that parent pair; Agnes’s entry names Thomas only. William Glasgow-2462’s inspected Findmypast transcript supplies the same parents in Inveresk in 1639. The children’s captured father ID, Glasgow-2459, is explicitly redirected to Glasgow-1103 in the saved WikiTree change data, and Thomas-1103’s captured family already includes them. Restoring the canonical father reconnects this existing household rather than discovering three new fathers.",
+    "limitations": "The record-defined Inveresk father is Thomas Glasgow, but his identification with the combined Glasgow-1103 profile remains uncertain. That profile also represents the Glasgow child baptised in 1612 and the Linlithgow father associated with Hellin Bryse. A 1612 birth allows ages about 22, 25 and 30 at the Inveresk baptisms, but does not prove that adult identity. The profile’s estimated 1639 Bryse marriage overlaps the Agnes Thomsone household, which continues to December 1642. A later remarriage could fit the 1644 Bryse child, but is not established; a distinct Inveresk Thomas remains an alternative. Jannet’s 1640 Linlithgow entry names no mother. Keep these households distinguishable and do not infer a death or remarriage date. No mother status is changed. Agnes’s index omits her mother; the existing Agnes Thomsone attachment is retained without upgrading it. Marione’s 13 December birth and 18 December christening remain separate. James Glasgow-3077’s naming-pattern placement is not documentary sibling proof. Margaret Glasgow-3050 has a conflicting William Glasgow/Bessie Howie index identification and is not used to support this reconstruction. The Weir husband is a separate comparison. No identity merge or live WikiTree change is performed.",
+    "source_ids": [
+      "inveresk-glasgow-2460-1634",
+      "inveresk-glasgow-2461-1637",
+      "inveresk-glasgow-3049-1642",
+      "inveresk-william-parent-pair-1639"
+    ],
+    "assessment_date": "2026-10-16",
+    "publication_status": "approved",
+    "perspectives": {
+      "Glasgow-3049": {
+        "relationship": "father",
+        "reason": "The Inveresk children belong to the existing Thomas Glasgow and Agnes Thomsone household. Thomas and Marione’s indexed entries name that parent pair; Agnes’s entry names Thomas only. William Glasgow-2462’s inspected Findmypast transcript supplies the same parents in Inveresk in 1639. The children’s captured father ID, Glasgow-2459, is explicitly redirected to Glasgow-1103 in the saved WikiTree change data, and Thomas-1103’s captured family already includes them. Restoring the canonical father reconnects this existing household rather than discovering three new fathers."
+      },
+      "Glasgow-1103": {
+        "relationship": "daughter",
+        "reason": "The Inveresk children belong to the existing Thomas Glasgow and Agnes Thomsone household. Thomas and Marione’s indexed entries name that parent pair; Agnes’s entry names Thomas only. William Glasgow-2462’s inspected Findmypast transcript supplies the same parents in Inveresk in 1639. The children’s captured father ID, Glasgow-2459, is explicitly redirected to Glasgow-1103 in the saved WikiTree change data, and Thomas-1103’s captured family already includes them. Restoring the canonical father reconnects this existing household rather than discovering three new fathers."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Inveresk family and merged-profile identity",
+        "href": "/branches/early-scottish-records/#inveresk-thomas-family"
+      }
+    ],
+    "provenance": {
+      "source": "research/relationship_assessments.json",
+      "prior_assessment": "Captured father Glasgow-2459 already attached; saved redirect to Glasgow-1103 was not resolved into these public family links.",
+      "basis": "Existing supplied OPR entries, previously inspected William transcript and saved public WikiTree redirect/family capture.",
+      "resolution_note": "Restored existing attachment with explicit adult-identity uncertainty; not a newly discovered father, identity merge or confident upgrade."
+    },
+    "parent_alias_resolution": {
+      "original_id": "Glasgow-2459",
+      "canonical_id": "Glasgow-1103",
+      "basis": "Each child’s saved biography links father Glasgow-2459; the saved public WikiTree redirect maps that ID to Glasgow-1103. The old export substituted an unnamed outside-export father for the omitted merged ID."
+    }
   }
 ]

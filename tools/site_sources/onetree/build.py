@@ -105,9 +105,10 @@ def external_relations(items: list[dict], role: str, catalogue_by_id: dict[str, 
     return result
 
 
-def apply_working_hypotheses(people: list[dict], assessments: list[dict]) -> int:
+def apply_working_hypotheses(people: list[dict], assessments: list[dict], parent_aliases: dict | None = None) -> int:
     """Overlay explicitly selected uncertain father links onto the local model."""
     by_id = {person["id"]: person for person in people}
+    parent_aliases = parent_aliases or {}
     selected = []
     selected_children = set()
     for assessment in assessments:
@@ -124,16 +125,24 @@ def apply_working_hypotheses(people: list[dict], assessments: list[dict]) -> int
         if child not in by_id or father not in by_id:
             raise ValueError(f"Working hypothesis {assessment.get('assertion_id', '<unknown>')} has an endpoint outside the public model")
         existing = [row for row in by_id[child]["parents"] if row.get("role") == "father"]
-        if existing and all(row.get("id") != father for row in existing):
+        resolution = assessment.get('parent_alias_resolution') or {}
+        prior_alias = resolution.get('original_id')
+        aliases = [row for row in existing if row.get('id') not in by_id
+                   and (parent_aliases.get(row.get('id')) == father or
+                        (not row.get('id') and not row.get('withheld')
+                         and row.get('name') == 'Parent outside current One-Tree export'
+                         and resolution.get('canonical_id') == father
+                         and parent_aliases.get(prior_alias) == father))]
+        if existing and any(row.get('id') != father and row not in aliases for row in existing):
             raise ValueError(f"Working hypothesis {assessment.get('assertion_id', '<unknown>')} conflicts with existing father of {child}")
-        if not existing:
+        if not existing or aliases:
             if child in selected_children:
                 raise ValueError(f"Working hypotheses conflict: multiple selected fathers for {child}")
             selected_children.add(child)
-            selected.append((child, father, assessment))
+            selected.append((child, father, assessment, aliases))
     edges = {person["id"]: next((row["id"] for row in person["parents"] if row.get("role") == "father"), None)
              for person in people}
-    for child, father, assessment in selected:
+    for child, father, assessment, aliases in selected:
         edges[child] = father
         seen, node = set(), child
         while node:
@@ -141,7 +150,13 @@ def apply_working_hypotheses(people: list[dict], assessments: list[dict]) -> int
                 raise ValueError(f"Working hypothesis {assessment.get('assertion_id', '<unknown>')} introduces a paternal cycle")
             seen.add(node)
             node = edges.get(node)
-    for child, father, assessment in selected:
+    for child, father, assessment, aliases in selected:
+        if aliases:
+            by_id[child]['parentAliasResolutions'] = [dict(original=row.copy(), canonical_id=father,
+                original_profile_id=row.get('id') or assessment['parent_alias_resolution']['original_id'],
+                source='saved_wikitree_redirect') for row in aliases]
+            by_id[child]['parents'] = [row for row in by_id[child]['parents'] if row not in aliases
+                                      and not (row.get('role') == 'father' and row.get('id') == father)]
         by_id[child]["parents"].append({
             "id": father, "name": by_id[father]["name"], "role": "father", "status": "uncertain",
             "inModel": True, "reason": assessment.get("basis") or "", "source": "local_working_hypothesis",
@@ -224,7 +239,9 @@ def generate_model(catalogue_path: Path, prior: dict) -> dict:
         assessments = json.loads(WORKING_ASSESSMENTS.read_text(encoding="utf-8"))
     except FileNotFoundError:
         assessments = []
-    hypotheses = apply_working_hypotheses(people, assessments)
+    aliases_path = ROOT / 'data/wikitree/live-profile-overrides.json'
+    parent_aliases = json.loads(aliases_path.read_text()).get('redirects', {}) if aliases_path.exists() else {}
+    hypotheses = apply_working_hypotheses(people, assessments, parent_aliases)
 
     # One real parent drives the drawing. Both remain in the relationship list.
     chosen: dict[str, dict] = {}

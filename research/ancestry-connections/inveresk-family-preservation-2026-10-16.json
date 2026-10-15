@@ -1,0 +1,120 @@
+{
+  "reviewed": "2026-10-16",
+  "scope": "Full additive research notes; restored existing merged-ID father links, combined identity uncertain",
+  "profiles": {
+    "Glasgow-2460": {
+      "current_sha256": "248d5a87bcbaddec062b1d5138cbbd6a6c65487f09781637ebda5cf222773232",
+      "proposed_sha256": "363c5e2db3945428233d42dbe61375af115c3d84ba289555acde1a0072ab9d54",
+      "all_substantive_passages_accounted_for": true,
+      "passages": [
+        "Every captured substantive passage, named person, date, source and competing hypothesis is retained. Standard template/heading normalization only.",
+        "The new research note distinguishes the indexed Inveresk father from identification with the combined Glasgow/Linlithgow profile. The Bryse overlap and distinct-man alternative remain explicit.",
+        "Existing attached mothers, conflicting Margaret identification, James’s naming-pattern hypothesis and Marione’s two dates are unchanged. No new historical father or live merge is claimed."
+      ],
+      "source_urls_retained": [
+        "http://familysearch.org",
+        "https://beta.familysearch.org/ark:/61903/4:1:K453-FTP"
+      ]
+    },
+    "Glasgow-2461": {
+      "current_sha256": "bde81d6e20d28432c0621e2fcfa70dacea3b28e822b0d3f0a541e68a21b14097",
+      "proposed_sha256": "dd501ba42a289bd11253d1162dee0c4388d5383cfe4a2c7656ffb95bd2ad0f60",
+      "all_substantive_passages_accounted_for": true,
+      "passages": [
+        "Every captured substantive passage, named person, date, source and competing hypothesis is retained. Standard template/heading normalization only.",
+        "The new research note distinguishes the indexed Inveresk father from identification with the combined Glasgow/Linlithgow profile. The Bryse overlap and distinct-man alternative remain explicit.",
+        "Existing attached mothers, conflicting Margaret identification, James’s naming-pattern hypothesis and Marione’s two dates are unchanged. No new historical father or live merge is claimed."
+      ],
+      "source_urls_retained": []
+    },
+    "Glasgow-3049": {
+      "current_sha256": "fcbf5f6a00a3d5859154090ff4f451326330e25e88617f8d5f2ea0c9faebf36e",
+      "proposed_sha256": "3ee28b7b16df45a4fb803c9f7dfe219ad26ba4a0520ea69c1824e9821b29f0ed",
+      "all_substantive_passages_accounted_for": true,
+      "passages": [
+        "Every captured substantive passage, named person, date, source and competing hypothesis is retained. Standard template/heading normalization only.",
+        "The new research note distinguishes the indexed Inveresk father from identification with the combined Glasgow/Linlithgow profile. The Bryse overlap and distinct-man alternative remain explicit.",
+        "Existing attached mothers, conflicting Margaret identification, James’s naming-pattern hypothesis and Marione’s two dates are unchanged. No new historical father or live merge is claimed."
+      ],
+      "source_urls_retained": [
+        "http://familysearch.org",
+        "https://beta.familysearch.org/ark:/61903/4:1:K8HD-3TF"
+      ]
+    },
+    "Glasgow-1103": {
+      "current_sha256": "843aa55f115471728033549d5c88455d722ec3f717dcfe33e1e39e377a2e758c",
+      "proposed_sha256": "1313d925fadb5eae905f58d1ca1a2fb0f25e3c6e7b442918add10266525bf839",
+      "all_substantive_passages_accounted_for": true,
+      "passages": [
+        "Every captured substantive passage, named person, date, source and competing hypothesis is retained. Standard template/heading normalization only.",
+        "The new research note distinguishes the indexed Inveresk father from identification with the combined Glasgow/Linlithgow profile. The Bryse overlap and distinct-man alternative remain explicit.",
+        "Existing attached mothers, conflicting Margaret identification, James’s naming-pattern hypothesis and Marione’s two dates are unchanged. No new historical father or live merge is claimed."
+      ],
+      "source_urls_retained": [
+        "https://www.familysearch.org/ark:/61903/1:1:F318-T2H",
+        "https://www.familysearch.org/ark:/61903/1:1:X1RV-T82",
+        "https://www.familysearch.org/ark:/61903/1:1:X1RX-G4T",
+        "https://www.familysearch.org/tree/person/details/LZXS-X9B",
+        "https://www.wikitree.com/wiki/Space:Thomas-1"
+      ]
+    }
+  },
+  "queue_reopening": {
+    "Glasgow-2460": {
+      "entry": {
+        "queued_at": "2026-10-16",
+        "significance": 73,
+        "summary": "Review full additive research note: restore the existing merged-ID Inveresk father in the local model and explain the uncertain combined Thomas identity, Bryse chronology and alternatives. Not a new father attachment; no live relationship change requested.",
+        "manual_update": true,
+        "draft_path": "research/Glasgow-2460/Glasgow-2460.md",
+        "preservation_review_path": "research/ancestry-connections/inveresk-family-preservation-2026-10-16.json",
+        "reviewed_narrative_reduction": true,
+        "preserve_captured_detail": false,
+        "relationship_changes": []
+      },
+      "state": null
+    },
+    "Glasgow-2461": {
+      "entry": {
+        "queued_at": "2026-10-16",
+        "significance": 73,
+        "summary": "Review full additive research note: restore the existing merged-ID Inveresk father in the local model and explain the uncertain combined Thomas identity, Bryse chronology and alternatives. Not a new father attachment; no live relationship change requested.",
+        "manual_update": true,
+        "draft_path": "research/Glasgow-2461/Glasgow-2461.md",
+        "preservation_review_path": "research/ancestry-connections/inveresk-family-preservation-2026-10-16.json",
+        "reviewed_narrative_reduction": true,
+        "preserve_captured_detail": false,
+        "relationship_changes": []
+      },
+      "state": null
+    },
+    "Glasgow-3049": {
+      "entry": {
+        "queued_at": "2026-10-16",
+        "significance": 73,
+        "summary": "Review full additive research note: restore the existing merged-ID Inveresk father in the local model and explain the uncertain combined Thomas identity, Bryse chronology and alternatives. Not a new father attachment; no live relationship change requested.",
+        "manual_update": true,
+        "draft_path": "research/Glasgow-3049/Glasgow-3049.md",
+        "preservation_review_path": "research/ancestry-connections/inveresk-family-preservation-2026-10-16.json",
+        "reviewed_narrative_reduction": true,
+        "preserve_captured_detail": false,
+        "relationship_changes": []
+      },
+      "state": null
+    },
+    "Glasgow-1103": {
+      "entry": {
+        "queued_at": "2026-10-16",
+        "significance": 75,
+        "summary": "Review full additive research note: restore the existing merged-ID Inveresk father in the local model and explain the uncertain combined Thomas identity, Bryse chronology and alternatives. Not a new father attachment; no live relationship change requested.",
+        "manual_update": true,
+        "draft_path": "research/Glasgow-1103/Glasgow-1103.md",
+        "preservation_review_path": "research/ancestry-connections/inveresk-family-preservation-2026-10-16.json",
+        "reviewed_narrative_reduction": true,
+        "preserve_captured_detail": false,
+        "relationship_changes": []
+      },
+      "state": null
+    }
+  }
+}

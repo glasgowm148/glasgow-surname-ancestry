@@ -26041,6 +26041,52 @@
         "research/ancestry-connections/glasgow-stirling-working-identity-2026-10-15.md",
         "research/ancestry-connections/documentary-people.json"
       ]
+    },
+    {
+      "id": "inveresk-restored-father-links-2026-10-16",
+      "found_on": "2026-10-16",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Agnes, Thomas and Marione of Inveresk rejoin the Thomas Glasgow household as uncertain local father links; their captured father Glasgow-2459 already redirects to Glasgow-1103.",
+      "qualification": "The record-defined Inveresk father is Thomas Glasgow, but his identification with the combined Glasgow-1103 profile remains uncertain. That profile also represents the Glasgow child baptised in 1612 and the Linlithgow father associated with Hellin Bryse. A 1612 birth allows ages about 22, 25 and 30 at the Inveresk baptisms, but does not prove that adult identity. The profile’s estimated 1639 Bryse marriage overlaps the Agnes Thomsone household, which continues to December 1642. A later remarriage could fit the 1644 Bryse child, but is not established; a distinct Inveresk Thomas remains an alternative. Jannet’s 1640 Linlithgow entry names no mother. Keep these households distinguishable and do not infer a death or remarriage date. This repairs three lost local links, not three new documentary fathers or a certainty upgrade. No mother, live attachment or identity merge is changed.",
+      "relationship_change_count": 0,
+      "people": [
+        {
+          "id": "Glasgow-2460",
+          "name": "Agnes Glasgow",
+          "url": "/people/glasgow-2460.html"
+        },
+        {
+          "id": "Glasgow-2461",
+          "name": "Thomas Glasgow",
+          "url": "/people/glasgow-2461.html"
+        },
+        {
+          "id": "Glasgow-3049",
+          "name": "Marione Glasgow",
+          "url": "/people/glasgow-3049.html"
+        },
+        {
+          "id": "Glasgow-1103",
+          "name": "Thomas Glasgow",
+          "url": "/people/glasgow-1103.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Scotland’s People, OPR parish 689: 1634, 1637 and 1642 index entries",
+          "url": "https://www.scotlandspeople.gov.uk/"
+        },
+        {
+          "title": "Findmypast, William Glasgow, 1639, SCOT/OPR/BAP/4437421",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4437421&tab=this"
+        }
+      ],
+      "detail_url": "/branches/early-scottish-records/#inveresk-thomas-family",
+      "provenance": [
+        "research/relationship_assessments.json",
+        "research/ancestry-connections/inveresk-working-family-2026-10-16.md"
+      ]
     }
   ]
 }

@@ -1530,3 +1530,10 @@ The August completion entries remain historical. The live parent fields are now 
 
 - [[Glasgow-1095]] — OPEN: additive identity-context review in the existing full draft; proposed Stirling ancestor now tentatively includes the 1447–1455 Glasgow burgess. No additional parent edge, certainty upgrade or live merge.
 - [[Glasgow-3023]] — OPEN: additive identity-context review in the existing full draft; proposed Stirling ancestor now tentatively includes the 1447–1455 Glasgow burgess. No additional parent edge, certainty upgrade or live merge.
+
+## Inveresk merged-profile family — 16 October 2026
+
+- [[Glasgow-2460]] — OPEN: full additive research note; existing Inveresk father restored locally through the Glasgow-2459 redirect, with the combined Thomas identity uncertain. No new father attachment or live edit requested.
+- [[Glasgow-2461]] — OPEN: full additive research note; existing Inveresk father restored locally through the Glasgow-2459 redirect, with the combined Thomas identity uncertain. No new father attachment or live edit requested.
+- [[Glasgow-3049]] — OPEN: full additive research note; existing Inveresk father restored locally through the Glasgow-2459 redirect, with the combined Thomas identity uncertain. No new father attachment or live edit requested.
+- [[Glasgow-1103]] — OPEN: full additive research note; existing Inveresk father restored locally through the Glasgow-2459 redirect, with the combined Thomas identity uncertain. No new father attachment or live edit requested.
