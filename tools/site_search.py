@@ -143,6 +143,10 @@ def _question_rows(site_root: Path) -> list[list[str]]:
 
 def _research_page_rows(site_root: Path) -> list[list[str]]:
     rows = []
+    if (site_root / "onetree/progress/index.html").is_file():
+        rows.append(["ancestry-progress", "Glasgow ancestry progress", "/onetree/progress/",
+                     "Connect the earliest branches; measure unattached paternal families",
+                     "surname ancestry connectivity orphan family heads oldest records", "Research programme"])
     for path in sorted((site_root / "research/subjects").glob("*/subjects.json")):
         data = _read_json(path, {})
         if not (path.parent / "index.html").exists() or not data.get("title"):

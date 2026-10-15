@@ -61,6 +61,7 @@ step 0 research-access     $PY tools/publish_research_access.py
 step 0 reader-guidance     $PY tools/repair_reader_guidance.py
 step 0 clean-urls          $PY tools/publish_clean_urls.py
 step 0 work-status         $PY -c "import runpy; print(runpy.run_path('tools/build_research_catalog.py')['sync_generated_profile_work_status']())"
+step 0 ancestry-progress   $PY tools/build_ancestry_progress.py
 # 4. Finalize, then the checks. A check that fails is reported and the rest still run.
 step 0 finalize            $PY -c "from tools.finalize_site import finalize; print(finalize())"
 step 1 check-research      $PY tools/check_research_publication.py --baseline data/site/research-publication-baseline.json

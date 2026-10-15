@@ -4,7 +4,11 @@ RUFF ?= $(if $(wildcard $(dir $(PYTHON))ruff),$(dir $(PYTHON))ruff,ruff)
 RESEARCH_BASELINE ?= data/site/research-publication-baseline.json
 LINK_BASELINE ?= data/site/internal-link-baseline.json
 
-.PHONY: test validate validate-strict lint check check-browser check-research check-links build rebuild-local
+.PHONY: test validate validate-strict lint check check-browser check-research check-links build rebuild-local build-ancestry-progress
+
+# Recompute branch connectivity from the resolved public person dossiers.
+build-ancestry-progress:
+	$(PYTHON) tools/build_ancestry_progress.py
 
 test:
 	$(PYTHON) -m unittest discover -s tests -q

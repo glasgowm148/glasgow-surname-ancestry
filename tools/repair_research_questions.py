@@ -3,6 +3,7 @@
 from collections import Counter
 from html import escape
 from pathlib import Path
+import json
 import re
 import sys
 
@@ -25,7 +26,7 @@ QUESTIONS = (
 )
 
 # Additional main workstreams drawn from the maintained Name Study, Early
-# Ireland and Saltmarket free-space research, rather than tree connectivity.
+# Ireland and Saltmarket studies, under the early ancestry connection programme.
 ADDITIONAL_QUESTIONS = (
     ('Donegal: Ramelton & Lifford', 'Archibald’s named eldest son',
      'Is the Thomas named in Archibald’s April 1673 will the later Lifford/Raphoe man?',
@@ -236,6 +237,19 @@ STUDY_SOURCES = {
 
 def repair():
     changed = Counter()
+    programme_path = ROOT / 'research/ancestry-connections/strategy.json'
+    programme = ''
+    if programme_path.exists():
+        strategy = json.loads(programme_path.read_text())
+        programme = (
+            '<article class="repair-question-focus"><span class="r-kicker">Main research goal · earliest branches first</span>'
+            '<h3><a href="/onetree/progress/">Connect the Glasgow surname family</a></h3>'
+            f'<p>{escape(strategy["objective"])}</p>'
+            '<p>Begin with the medieval Johns, Alan and the Saltmarket succession. '
+            'Track separate paternal branches and unattached family heads; preserve the evidence grade of tentative joins.</p>'
+            '<a class="repair-question-arrow" href="/onetree/progress/#early-connections">'
+            'See the baseline and oldest connection tests &rarr;</a></article>'
+        )
     lead, *trails = QUESTIONS
     slug, name, date, question, context = lead
     trails_markup = ''.join(
@@ -272,6 +286,7 @@ def repair():
         '<div class="repair-question-lead"><span class="r-kicker">Unresolved family history</span>'
         '<h2 id="open-questions-title">Open questions</h2>'
         '<p class="repair-question-intro">Read what we know about each family, why a relationship is still uncertain and which record could help resolve it.</p>'
+        f'{programme}'
         f'<a class="repair-question-focus" href="/people/{slug}.html"><span class="r-kicker">{escape(date)} &middot; Featured question</span>'
         f'<h3>{escape(name)}</h3><p>{escape(question)}</p><span>Follow the evidence &rarr;</span></a>'
         f'<div class="repair-question-focus-actions">{question_actions(slug, "<p>" + escape(context) + "</p>")}</div>'

@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "snapshots": [
+    {
+      "date": "2026-10-15",
+      "input_fingerprint": "c810e965ce2a0c3081c82e88d778d576cd411f47e72c8987fd5fddf27c5c22d1",
+      "metrics": {
+        "working": {
+          "population": 1776,
+          "edge_count": 1295,
+          "component_count": 481,
+          "largest_component_size": 274,
+          "largest_component_percent": 15.427927927927929,
+          "connected_pairs_percent": 4.427927927927928,
+          "edge_status_counts": {
+            "possible": 12,
+            "probable": 3,
+            "proved": 18,
+            "strongly_supported": 15,
+            "uncertain": 9,
+            "unknown": 1238
+          },
+          "quality": {
+            "cycles": [],
+            "cycle_edges_excluded": 0,
+            "later_born_ancestors_excluded": [],
+            "undated_ancestors": []
+          },
+          "unattached_multi_child_roots": 74,
+          "family_root_count": 88
+        },
+        "confident": {
+          "population": 1776,
+          "edge_count": 33,
+          "component_count": 1743,
+          "largest_component_size": 9,
+          "largest_component_percent": 0.5067567567567568,
+          "connected_pairs_percent": 0.006090597639893415,
+          "edge_status_counts": {
+            "proved": 18,
+            "strongly_supported": 15
+          },
+          "quality": {
+            "cycles": [],
+            "cycle_edges_excluded": 0,
+            "later_born_ancestors_excluded": [],
+            "undated_ancestors": []
+          },
+          "unattached_multi_child_roots": 6,
+          "family_root_count": 6
+        }
+      },
+      "fixed_cohort": {
+        "working": {
+          "population": 1776,
+          "edge_count": 1295,
+          "component_count": 481,
+          "largest_component_size": 274,
+          "largest_component_percent": 15.427927927927929,
+          "connected_pairs_percent": 4.427927927927928,
+          "edge_status_counts": {
+            "possible": 12,
+            "probable": 3,
+            "proved": 18,
+            "strongly_supported": 15,
+            "uncertain": 9,
+            "unknown": 1238
+          },
+          "quality": {
+            "cycles": [],
+            "cycle_edges_excluded": 0,
+            "later_born_ancestors_excluded": [],
+            "undated_ancestors": []
+          },
+          "unattached_multi_child_roots": 74,
+          "family_root_count": 88
+        },
+        "confident": {
+          "population": 1776,
+          "edge_count": 33,
+          "component_count": 1743,
+          "largest_component_size": 9,
+          "largest_component_percent": 0.5067567567567568,
+          "connected_pairs_percent": 0.006090597639893415,
+          "edge_status_counts": {
+            "proved": 18,
+            "strongly_supported": 15
+          },
+          "quality": {
+            "cycles": [],
+            "cycle_edges_excluded": 0,
+            "later_born_ancestors_excluded": [],
+            "undated_ancestors": []
+          },
+          "unattached_multi_child_roots": 6,
+          "family_root_count": 6
+        }
+      }
+    }
+  ]
+}

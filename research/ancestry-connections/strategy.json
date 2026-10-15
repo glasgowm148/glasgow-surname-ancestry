@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "reviewed": "2026-10-15",
+  "objective": "Connect the Glasgow surname branches into one extended family tree, developing and testing tentative connections from the earliest records first.",
+  "common_origin": "The owner reports that all men tested share the Glasgow Y-DNA lineage. A shared paternal origin around 1400–1450, possibly earlier, is the working research model; the founder, date and intervening generations remain to be identified.",
+  "variants": [
+    "Glasgow",
+    "Glasco",
+    "Glascoe",
+    "Glascow",
+    "Glasgo",
+    "Glasko",
+    "Glassgo",
+    "Glassgow",
+    "Glasgu",
+    "Glasgw",
+    "Glesgow",
+    "Glesgw"
+  ],
+  "cutoffs": [
+    1500,
+    1550,
+    1600,
+    1650,
+    1700,
+    1750,
+    1800,
+    1850
+  ],
+  "primary_cutoff": 1850,
+  "early_priority_cutoff": 1650,
+  "later_records": "Use records after 1850 when they can resolve an earlier identity, migration or branch connection; routine descendant reconstruction is secondary.",
+  "metrics": {
+    "family_heads": "Male surname bearers without a father in the selected pedigree and with at least two surname-bearing children; also queue heads with at least two descendants through one child.",
+    "components": "Separate paternal components, including isolated surname bearers. Mothers, spouses and marriage connections cannot join surname branches.",
+    "connected_pairs": "100 × sum(component size × (component size − 1)) / (population × (population − 1)).",
+    "largest_component": "Percentage of the selected historical surname cohort in its largest paternal component.",
+    "confidence": "Show confidently marked links and the working pedigree separately. Existing tree grades are not a claim that every underlying record has been independently audited.",
+    "baseline": "Preserve the initial cohort IDs and input fingerprint. Compare the same surviving baseline people as well as current totals; report additions and missing people separately. Do not improve the score with a virtual founder, invented parent or incompatible alternative fathers.",
+    "target": "One connected paternal component and 100% connected pairs in the working pedigree; a complete pedigree can retain one earliest family head. Keep the strongly assessed result separate."
+  },
+  "early_connections": [
+    {
+      "id": "burgh-stirling",
+      "year": 1447,
+      "title": "Glasgow burgess → Stirling John",
+      "status": "Possible identity or earlier family connection",
+      "people": [
+        {
+          "name": "John de Glasgu, burgess, 1447–1455",
+          "url": "/free-space/john-de-glasgu-i-a285ea/"
+        },
+        {
+          "name": "John Glasgw of Stirling, 1475–1480",
+          "url": "/free-space/john-glasgw-of-stirling-1b723d/"
+        }
+      ],
+      "basis": "The compatible succession of name and dates supplies a comparison. The maintained research has not identified a shared holding, associate or relationship clause.",
+      "next_test": "Compare the complete BL68/GUA12418 and BL82/GUA12430 instruments with Stirling B66/25/43 and the 1479/80 act: property, witnesses, occupation, seals and endorsements.",
+      "sources": [
+        {
+          "label": "Existing medieval record assessment",
+          "url": "/branches/early-scottish-records/"
+        }
+      ],
+      "record_references": [
+        "Blackhouse BL68/GUA12418 (1447)",
+        "BL82/GUA12430 (1455; day disputed)",
+        "Stirling B66/25/43 (8 August 1475)"
+      ],
+      "counted_as_new_connection": false
+    },
+    {
+      "id": "stirling-saltmarket",
+      "year": 1475,
+      "title": "Stirling John → Saltmarket family",
+      "status": "Possible predecessor; degree of relationship open",
+      "people": [
+        {
+          "name": "John Glasgw of Stirling",
+          "url": "/free-space/john-glasgw-of-stirling-1b723d/"
+        },
+        {
+          "name": "John Glasgow of Saltmarket",
+          "url": "/people/glasgow-1095.html"
+        }
+      ],
+      "basis": "The earlier John is a compatible predecessor to investigate. Estimated profile birth years do not establish identity or a parent–child generation.",
+      "next_test": "Follow title recitals and shared witnesses into the Saltmarket holding; compare the 1506 alias-Smith charter without equating its John to Saltmarket John in advance.",
+      "sources": [
+        {
+          "label": "Saltmarket succession study",
+          "url": "/branches/research-saltmarket-succession/"
+        }
+      ],
+      "record_references": [
+        "BL204/GUA16403 (28 April 1506)",
+        "Liber Collegii, pp. 85–86 (2 May 1527)"
+      ],
+      "counted_as_new_connection": false
+    },
+    {
+      "id": "alan-stirling",
+      "year": 1495,
+      "title": "Place Alan in the earliest family",
+      "status": "Possible close collateral; exact relationship unchosen",
+      "people": [
+        {
+          "name": "Alan Glasgw",
+          "url": "/people/glasgow-3023.html"
+        },
+        {
+          "name": "John Glasgw of Stirling",
+          "url": "/free-space/john-glasgw-of-stirling-1b723d/"
+        }
+      ],
+      "basis": "The existing assessment considers Alan a possible son, brother or nephew of the Stirling John. The proceeding names no relative; choosing one degree would invent precision.",
+      "next_test": "Inspect JC1/1 and the associated remission for Alan's kin or the parties owed satisfaction, then compare those names with the Stirling witnesses.",
+      "sources": [
+        {
+          "label": "Pitcairn, Criminal Trials I, part I, p. 19",
+          "url": "https://archive.org/details/criminaltrialsin01pitc/page/n71/mode/2up"
+        }
+      ],
+      "record_references": [
+        "NRS JC1/1, Jedburgh justice ayre, 26 February 1494/95; year needs manuscript collation"
+      ],
+      "counted_as_new_connection": false
+    },
+    {
+      "id": "saltmarket-john-william",
+      "year": 1527,
+      "title": "John → William at Saltmarket",
+      "status": "Leading father hypothesis; already counted as uncertain",
+      "people": [
+        {
+          "name": "John Glasgow",
+          "url": "/people/glasgow-1095.html"
+        },
+        {
+          "name": "William Glasgow",
+          "url": "/people/glasgow-1098.html"
+        }
+      ],
+      "basis": "The same boundaries and four-shilling burden support property succession from John in May 1527 to William by February 1528/29. Father–son succession is the leading family reconstruction; the transfer's kinship clause is missing.",
+      "next_test": "Find the conveyance between 2 May 1527 and 20 February 1528/29; inspect the St Andrew prebend title and NP1/5 or B/10/1/3 margins for heir, son or widow wording.",
+      "sources": [
+        {
+          "label": "Liber Collegii, p. 90",
+          "url": "https://archive.org/download/libercollegiino00annegoog/page/n195_w1600.jpg"
+        },
+        {
+          "label": "Full succession account",
+          "url": "/branches/research-saltmarket-succession/"
+        }
+      ],
+      "record_references": [
+        "Liber Collegii, pp. 85–86, 90–91",
+        "NRS NP1/5, protocols 1196, 1201, 1233",
+        "GCA B/10/1/3, protocols 748, 805, 809–810"
+      ],
+      "counted_as_new_connection": false
+    }
+  ],
+  "source_basis": "Initial priorities reconcile existing medieval bridge research, the pre-1550 relationship audit and the resolved public catalogue. They are current working comparisons, not newly discovered kinship records."
+}
