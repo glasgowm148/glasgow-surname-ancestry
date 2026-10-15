@@ -579,24 +579,29 @@
     const title=others.map(([,group])=>[group.country,locationLevel!=='1'&&group.area,locationLevel==='3'&&group.locality].filter(Boolean).join(' · ')).join(' / ');
     return `<small class="catalogue-location-repeat" title="${esc(title)}">Also recorded in ${others.length} other ${label}${others.length===1?'':'s'}</small>`;
   }
-  function relationshipUpdateLabel(person){
+  function relationshipUpdateTags(person){
     const changes=Array.isArray(person.wikitree_update_relationship_changes)?person.wikitree_update_relationship_changes:[];
-    const labels=new Set();
+    const tags=new Map();
     const relationshipLabels={father:'father',mother:'mother',spouse:'spouse',child:'child',son:'child',daughter:'child',sibling:'sibling',brother:'sibling',sister:'sibling'};
     const uncertainStatuses=new Set(['uncertain','possible','probable','guess']);
     changes.filter(item=>String(item.action||'').toLowerCase()==='add').forEach(change=>{
-      const label=relationshipLabels[String(change.relationship||'').toLowerCase()];
-      if(!label) return;
+      const relationship=relationshipLabels[String(change.relationship||'').toLowerCase()];
+      if(!relationship) return;
       const status=String(change.status||'').toLowerCase();
-      labels.add(`new ${uncertainStatuses.has(status)?'uncertain ':''}${label}`);
+      const label=`new ${uncertainStatuses.has(status)?'uncertain ':''}${relationship}`;
+      const relative=String(change.relative_id||'');
+      const isWikiTree=relative&&!relative.startsWith('record-')&&/^[\p{L}][\p{L}\p{N}_'-]*-\d+$/u.test(relative);
+      const tag=isWikiTree
+        ?`<a class="catalogue-relationship-badge" href="https://www.wikitree.com/wiki/${encodeURIComponent(relative)}" target="_blank" rel="noopener noreferrer" title="View proposed ${esc(relationship)}: ${esc(relative)}" aria-label="${esc(label)}: ${esc(relative)} on WikiTree">${esc(label)}</a>`
+        :`<span class="catalogue-relationship-badge">${esc(label)}</span>`;
+      tags.set(`${label}:${relative}`,tag);
     });
-    return labels.size?` · ${[...labels].join(' · ')}`:'';
+    return [...tags.values()].join(' ');
   }
   function updateBadge(person){
     if(!person.needs_wikitree_update) return '';
-    const relationship=relationshipUpdateLabel(person);
-    const tag=relationship?` <span class="catalogue-relationship-badge">${esc(relationship.slice(3))}</span>`:'';
-    return `<small class="catalogue-update-badge">Needs WikiTree update · significance ${Number(person.wikitree_update_significance)||0}${tag}</small>`;
+    const tag=relationshipUpdateTags(person);
+    return `<small class="catalogue-update-badge">Needs WikiTree update · significance ${Number(person.wikitree_update_significance)||0}${tag?' '+tag:''}</small>`;
   }
   function resultRow(person,currentKey='',groupKind='',familyKey='',collapsed=false){
     const rowClass=groupKind?` class="catalogue-${groupKind}-child"`:'';

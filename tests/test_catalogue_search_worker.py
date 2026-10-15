@@ -49,7 +49,7 @@ class CatalogueWorkerParityTests(unittest.TestCase):
 
     def test_badge_distinguishes_new_relationships_from_other_work(self):
         source = (ROOT / 'tools/catalogue_search.js').read_text()
-        helper = source[source.index('  function relationshipUpdateLabel('):source.index('  function resultRow(')]
+        helper = source[source.index('  function relationshipUpdateTags('):source.index('  function resultRow(')]
         script = "const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;');\n" + helper + '''
 const base={needs_wikitree_update:true,wikitree_update_significance:86};
 console.log(JSON.stringify([
@@ -57,14 +57,20 @@ console.log(JSON.stringify([
  updateBadge({...base,wikitree_update_relationship_changes:[{action:'add',relationship:'father',status:'uncertain'}]}),
  updateBadge({...base,wikitree_update_relationship_changes:[{action:'regrade',relationship:'father',status:'certain'}]}),
  updateBadge({...base,wikitree_update_relationship_changes:[{action:'add',relationship:'father',status:'uncertain'},{action:'add',relationship:'mother',status:'possible'}]}),
- updateBadge({...base,needs_wikitree_update:false,wikitree_update_relationship_changes:[{action:'add',relationship:'father',status:'uncertain'}]})
+ updateBadge({...base,needs_wikitree_update:false,wikitree_update_relationship_changes:[{action:'add',relationship:'father',status:'uncertain'}]}),
+ updateBadge({...base,wikitree_update_relationship_changes:[{action:'add',relationship:'father',status:'uncertain',relative_id:'Glasgow-3163'}]}),
+ updateBadge({...base,wikitree_update_relationship_changes:[{action:'add',relationship:'father',status:'uncertain',relative_id:'record-john-glasgw-stirling-1475'}]})
 ]));'''
         badges = json.loads(subprocess.check_output(['node', '-e', script], text=True))
         self.assertIn('significance 86</small>', badges[0])
         self.assertIn('class="catalogue-relationship-badge">new uncertain father</span>', badges[1])
         self.assertEqual(badges[0], badges[2])
-        self.assertIn('new uncertain father · new uncertain mother', badges[3])
+        self.assertIn('>new uncertain father</span>', badges[3])
+        self.assertIn('>new uncertain mother</span>', badges[3])
         self.assertEqual(badges[4], '')
+        self.assertIn('href="https://www.wikitree.com/wiki/Glasgow-3163"', badges[5])
+        self.assertIn('aria-label="new uncertain father: Glasgow-3163 on WikiTree"', badges[5])
+        self.assertNotIn('href=', badges[6])
 
     def test_generated_worker_preserves_filters_and_sorting(self):
         rows=[]
