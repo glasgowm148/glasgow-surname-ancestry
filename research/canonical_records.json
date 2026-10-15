@@ -1063,5 +1063,71 @@
     "status": "Uncertain parent hypothesis",
     "note": "Names Alexander and Rosanna as Thomas’s parents. Combined brotherhood supports an uncertain shared father attachment; does not establish maternity for every brother.",
     "role": "Working father connection"
+  },
+  {
+    "record_id": "fisherrow-sasine-index-1624",
+    "association": "Fisherrow Glasgow family, sasine registration 8 July 1624",
+    "date": "8 July 1624 (recording date)",
+    "year": 1624,
+    "place": "Fischerraw (Fisherrow), Musselburgh, Scotland",
+    "source_title": "SRO Indexes 38, Edinburgh etc. sasines 1624–1630, pp.187–188; vol.9 fol.135",
+    "source_url": "https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481057&seq=193",
+    "source_type": "Printed archival register index",
+    "source_status": "Printed pages visually inspected 15 October 2026; original instrument uninspected",
+    "status": "Explicit indexed family statements; cross-record identities qualified",
+    "note": "Alexander is son of James the tailor; Janet Clerk is Alexander’s spouse, Christina Bye is James’s spouse. The dates head the recording column. Edward in Fischerraw shares 9/135; no exact kinship is stated.",
+    "profiles": {
+      "Glasgow-991": {
+        "role": "Candidate for James Glasgow, tailor in Fischerraw and burgess of Musselburgh",
+        "timeline_group": "Possible connections"
+      },
+      "Bie-55": {
+        "role": "Candidate for Christina Bye, indexed spouse of James",
+        "timeline_group": "Possible connections"
+      },
+      "Glasgow-1148": {
+        "role": "Alexander, indexed son of James; specific father profile identification remains uncertain",
+        "timeline_group": "Possible connections"
+      },
+      "Clerk-296": {
+        "role": "Compatible Janet Clerk, indexed spouse of Alexander",
+        "timeline_group": "Possible connections"
+      },
+      "Glasgow-1557": {
+        "role": "Candidate for Edward in Fischerraw, same volume/folio; kinship unspecified",
+        "timeline_group": "Possible connections"
+      }
+    }
+  },
+  {
+    "record_id": "fisherrow-sasine-index-1625",
+    "association": "Fisherrow Glasgow family, sasine registration 11 July 1625",
+    "date": "11 July 1625 (recording date)",
+    "year": 1625,
+    "place": "Fischerraw (Fisherrow), Musselburgh, Scotland",
+    "source_title": "SRO Indexes 38, Edinburgh etc. sasines 1624–1630, pp.187–188; vol.10 fol.171",
+    "source_url": "https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481057&seq=194",
+    "source_type": "Printed archival register index",
+    "source_status": "Printed pages visually inspected 15 October 2026; original instrument uninspected",
+    "status": "Explicit indexed family statements; cross-record identities qualified",
+    "note": "Alexander is son of James the tailor; Janet Clerk is Alexander’s spouse, Christina Bye is James’s spouse. The dates head the recording column. Original clauses and identity with the 1624 household remain to verify.",
+    "profiles": {
+      "Glasgow-991": {
+        "role": "Candidate for James Glasgow, tailor in Fischerraw and burgess of Musselburgh",
+        "timeline_group": "Possible connections"
+      },
+      "Bie-55": {
+        "role": "Candidate for Christina Bye, indexed spouse of James",
+        "timeline_group": "Possible connections"
+      },
+      "Glasgow-1148": {
+        "role": "Alexander, indexed son of James; specific father profile identification remains uncertain",
+        "timeline_group": "Possible connections"
+      },
+      "Clerk-296": {
+        "role": "Compatible Janet Clerk, indexed spouse of Alexander",
+        "timeline_group": "Possible connections"
+      }
+    }
   }
 ]

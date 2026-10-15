@@ -39,3 +39,9 @@ Recorded in `research/latest-findings.json` (28 September 2026); carried into th
 ## Fisherrow sasine lead — 15 October 2026
 
 The earlier sweep placed this Edward lead in Katherine Weir’s file, [Glasgow-1495](https://www.wikitree.com/wiki/Glasgow-1495). It concerns **Edward Glasgow at Fisherrow**, whose possible identification belongs here. SRO Indexes no.38, pp.187–188, and no.44, p.159, report Edward beside James and Alexander Glasgow’s sasine entries. See [Alexander’s full source table](https://www.wikitree.com/wiki/Glasgow-1148). The columns and instruments remain unchecked; this Edward and [his 1615-born son](https://www.wikitree.com/wiki/Glasgow-1558) are alternative candidates, especially for 1646. Shared sasine references do not prove their kinship to Alexander.
+
+## Shared Fisherrow index reference verified in print — 15 October 2026
+
+The [printed 1624–1630 index, p.188](https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481057&seq=194), visually inspected, puts Edward in Fischerraw at **8 July 1624, vol.9 fol.135**, the same registration reference as James the tailor and his son Alexander. This is a verified index association, not a kinship clause. The older Edward is the first comparison for this early entry; [Edward-1558](https://www.wikitree.com/wiki/Glasgow-1558), baptised in 1615, was only nine, but minority alone does not exclude participation in a land instrument. Later occurrences still need separate identification.
+
+If Edward-1557 is identified, the instrument could bridge the Fisherrow household and his tentative Corsankell ancestry through James-3921. Read the original for Edward’s capacity, age, kin, property and prior title before choosing a relationship. Neither his identity nor his own uncertain father has been upgraded.

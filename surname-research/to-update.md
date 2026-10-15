@@ -1467,3 +1467,12 @@ Benjamin-3412: resolve the 1825 newspaper / 1826 university degree discrepancy b
 | --- | --- | --- | --- |
 | [William Glasgow (Glasgow-3075)](https://www.wikitree.com/wiki/Glasgow-3075) | OPEN | Add the 10 July 1610 Leith marriage; keep Fraith/Fraser spellings and the separate 1612-child identity question qualified. | [Full additive replacement](../research/Glasgow-3075/marriage-review-2026-10-15.wikitext) · [Findings](../research/Glasgow-3075/findings.md) |
 | [Euphame Glasgow (Glasgow-1167)](https://www.wikitree.com/wiki/Glasgow-1167) | OPEN | Correct stale biography wording to describe the already-attached slater Glassfuird-2; preserve the unresolved 1634 surname and all existing links. | [Full replacement](../research/Glasgow-1167/parent-description-review-2026-10-15.wikitext) · [Findings](../research/Glasgow-1167/findings.md) |
+
+## 15 October 2026 — Fisherrow printed-index verification
+
+| Profile | Status | Proposed change | Evidence |
+| --- | --- | --- | --- |
+| [Alexander Glasgow (Glasgow-1148)](https://www.wikitree.com/wiki/Glasgow-1148) | OPEN | Cite visually checked SRO Indexes 38 pp.187–188 for father James the Fisherrow tailor and spouse Janet Clerk; distinguish explicit indexed kin from uncertain identification of father Glasgow-991. Correct the dates to registration dates. | [Findings](../research/Glasgow-1148/findings.md) |
+| [James Glasgow (Glasgow-991)](https://www.wikitree.com/wiki/Glasgow-991) | OPEN | Add the qualified Fisherrow identification and checked Christina Bye spouse cross-reference; preserve the Mid Calder/Inveresk identity question and leave James’s own father unresolved. | [Findings](../research/Glasgow-991/findings.md) |
+| [Christina Bie (Bie-55)](https://www.wikitree.com/wiki/Bie-55) | OPEN | Add the checked Christina Bye index occurrence as a compatible identity; do not promote the unverified 1614 maternal reading or tree-derived birthplace. | [Findings](../research/Bie-55/findings.md) |
+| [Edward Glasgow (Glasgow-1557)](https://www.wikitree.com/wiki/Glasgow-1557) | OPEN | Add 9/135 as a qualified Fisherrow candidate association and test of the Corsankell connection; identity, exact kinship and existing father remain uncertain. | [Findings](../research/Glasgow-1557/findings.md) |
