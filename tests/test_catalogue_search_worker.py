@@ -61,7 +61,7 @@ console.log(JSON.stringify([
 ]));'''
         badges = json.loads(subprocess.check_output(['node', '-e', script], text=True))
         self.assertIn('significance 86</small>', badges[0])
-        self.assertIn('significance 86 · new uncertain father</small>', badges[1])
+        self.assertIn('class="catalogue-relationship-badge">new uncertain father</span>', badges[1])
         self.assertEqual(badges[0], badges[2])
         self.assertIn('new uncertain father · new uncertain mother', badges[3])
         self.assertEqual(badges[4], '')

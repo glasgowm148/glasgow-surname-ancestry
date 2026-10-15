@@ -594,7 +594,9 @@
   }
   function updateBadge(person){
     if(!person.needs_wikitree_update) return '';
-    return `<small class="catalogue-update-badge">Needs WikiTree update · significance ${Number(person.wikitree_update_significance)||0}${esc(relationshipUpdateLabel(person))}</small>`;
+    const relationship=relationshipUpdateLabel(person);
+    const tag=relationship?` <span class="catalogue-relationship-badge">${esc(relationship.slice(3))}</span>`:'';
+    return `<small class="catalogue-update-badge">Needs WikiTree update · significance ${Number(person.wikitree_update_significance)||0}${tag}</small>`;
   }
   function resultRow(person,currentKey='',groupKind='',familyKey='',collapsed=false){
     const rowClass=groupKind?` class="catalogue-${groupKind}-child"`:'';
