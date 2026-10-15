@@ -57,7 +57,16 @@
         "draft_path": "research/Glasgow-3911/Glasgow-3911.md",
         "preservation_review_path": "research/ancestry-connections/early-collaterals-preservation-2026-10-15.json",
         "reviewed_narrative_reduction": true,
-        "preserve_captured_detail": false
+        "preserve_captured_detail": false,
+        "relationship_changes": [
+          {
+            "action": "add",
+            "relationship": "father",
+            "status": "uncertain",
+            "relative_id": "Glasgow-1098",
+            "assertion_id": "C-working-20261015-glasgow-3911-glasgow-1098"
+          }
+        ]
       },
       "state": null
     },
@@ -70,7 +79,16 @@
         "draft_path": "research/Glasgow-3262/Glasgow-3262.md",
         "preservation_review_path": "research/ancestry-connections/early-collaterals-preservation-2026-10-15.json",
         "reviewed_narrative_reduction": true,
-        "preserve_captured_detail": false
+        "preserve_captured_detail": false,
+        "relationship_changes": [
+          {
+            "action": "add",
+            "relationship": "father",
+            "status": "uncertain",
+            "relative_id": "Glasgow-3163",
+            "assertion_id": "C-working-20261015-glasgow-3262-glasgow-3163"
+          }
+        ]
       },
       "state": null
     },
@@ -83,7 +101,16 @@
         "draft_path": "research/Glasgow-3182/Glasgow-3182.md",
         "preservation_review_path": "research/ancestry-connections/early-collaterals-preservation-2026-10-15.json",
         "reviewed_narrative_reduction": true,
-        "preserve_captured_detail": false
+        "preserve_captured_detail": false,
+        "relationship_changes": [
+          {
+            "action": "add",
+            "relationship": "father",
+            "status": "uncertain",
+            "relative_id": "Glasgow-3188",
+            "assertion_id": "C-working-20261015-glasgow-3182-glasgow-3188"
+          }
+        ]
       },
       "state": {
         "reopened_at": "2026-10-15",

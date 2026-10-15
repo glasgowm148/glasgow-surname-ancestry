@@ -579,10 +579,27 @@
     const title=others.map(([,group])=>[group.country,locationLevel!=='1'&&group.area,locationLevel==='3'&&group.locality].filter(Boolean).join(' · ')).join(' / ');
     return `<small class="catalogue-location-repeat" title="${esc(title)}">Also recorded in ${others.length} other ${label}${others.length===1?'':'s'}</small>`;
   }
+  function relationshipUpdateLabel(person){
+    const changes=Array.isArray(person.wikitree_update_relationship_changes)?person.wikitree_update_relationship_changes:[];
+    const labels=new Set();
+    const relationshipLabels={father:'father',mother:'mother',spouse:'spouse',child:'child',son:'child',daughter:'child',sibling:'sibling',brother:'sibling',sister:'sibling'};
+    const uncertainStatuses=new Set(['uncertain','possible','probable','guess']);
+    changes.filter(item=>String(item.action||'').toLowerCase()==='add').forEach(change=>{
+      const label=relationshipLabels[String(change.relationship||'').toLowerCase()];
+      if(!label) return;
+      const status=String(change.status||'').toLowerCase();
+      labels.add(`new ${uncertainStatuses.has(status)?'uncertain ':''}${label}`);
+    });
+    return labels.size?` · ${[...labels].join(' · ')}`:'';
+  }
+  function updateBadge(person){
+    if(!person.needs_wikitree_update) return '';
+    return `<small class="catalogue-update-badge">Needs WikiTree update · significance ${Number(person.wikitree_update_significance)||0}${esc(relationshipUpdateLabel(person))}</small>`;
+  }
   function resultRow(person,currentKey='',groupKind='',familyKey='',collapsed=false){
     const rowClass=groupKind?` class="catalogue-${groupKind}-child"`:'';
     const familyAttributes=familyKey?` data-family-member="${esc(familyKey)}"${collapsed?' hidden':''}`:'';
-    const update=person.needs_wikitree_update?`<small class="catalogue-update-badge">Needs WikiTree update · significance ${Number(person.wikitree_update_significance)||0}</small>`:'';
+    const update=updateBadge(person);
     return `<tr${rowClass}${familyAttributes}><td><a href="${esc(personUrl(person))}"><strong>${esc(person.name)}</strong></a><small class="catalogue-wikitree-id">${wikiLinks(person)}</small>${update}${locationRepeat(person,currentKey)}</td><td${fieldAttributes(person,'birth')}>${fieldHtml(person,'birth')}</td><td${fieldAttributes(person,'birth_location')}>${fieldHtml(person,'birth_location')}</td><td${fieldAttributes(person,'death')}>${fieldHtml(person,'death')}</td><td${fieldAttributes(person,'death_location')}>${fieldHtml(person,'death_location')}</td><td class="catalogue-family-cell${relationshipCellClass(person.spouses)}">${relationHtml(person.spouses,true)}</td><td class="catalogue-family-cell${relationshipCellClass(person.father)}">${relationHtml(person.father,true)}</td><td class="catalogue-family-cell${relationshipCellClass(person.mother)}">${relationHtml(person.mother,true)}</td></tr>`;
   }
   function relationshipCellClass(relations){
@@ -592,7 +609,7 @@
   function resultCard(person,currentKey='',groupKind='',familyKey='',collapsed=false){
     const parents=[...(person.father||[]),...(person.mother||[])];
     const familyAttributes=familyKey?` data-family-member="${esc(familyKey)}"${collapsed?' hidden':''}`:'';
-    const update=person.needs_wikitree_update?`<small class="catalogue-update-badge">Needs WikiTree update · significance ${Number(person.wikitree_update_significance)||0}</small>`:'';
+    const update=updateBadge(person);
     return `<article class="catalogue-result-card${groupKind?` catalogue-${groupKind}-child`:''}"${familyAttributes}><h3><a href="${esc(personUrl(person))}">${esc(person.name)}</a></h3>${update}<p class="result-vitals"><span${fieldAttributes(person,'birth')}>${fieldHtml(person,'birth')}</span> – <span${fieldAttributes(person,'death')}>${fieldHtml(person,'death')}</span></p>${locationRepeat(person,currentKey)}<dl><dt>Birth location</dt><dd${fieldAttributes(person,'birth_location')}>${fieldHtml(person,'birth_location')}</dd><dt>Death location</dt><dd${fieldAttributes(person,'death_location')}>${fieldHtml(person,'death_location')}</dd><dt>Parents</dt><dd>${relationHtml(parents,true)}</dd><dt>Spouse</dt><dd>${relationHtml(person.spouses,true)}</dd></dl><details><summary>More catalogue details</summary><dl><dt>Recorded in</dt><dd>${esc((person.recorded_in||[]).join(' / ')||'—')}</dd><dt>Cluster</dt><dd>${esc(person.cluster||'—')}</dd><dt>WikiTree</dt><dd>${wikiLinks(person)}</dd><dt>Evidence</dt><dd>${esc((person.source_qualities||[]).join(', ')||'Unclassified')}</dd></dl></details></article>`;
   }
   function locationBuckets(source){

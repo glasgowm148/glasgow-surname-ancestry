@@ -80,7 +80,16 @@
         "draft_path": "research/Glasgow-991/Glasgow-991.md",
         "preservation_review_path": "research/ancestry-connections/working-joins-preservation-2026-10-15.json",
         "reviewed_narrative_reduction": true,
-        "preserve_captured_detail": false
+        "preserve_captured_detail": false,
+        "relationship_changes": [
+          {
+            "action": "add",
+            "relationship": "father",
+            "status": "uncertain",
+            "relative_id": "Glasgow-3163",
+            "assertion_id": "C-working-20261015-glasgow-991-glasgow-3163"
+          }
+        ]
       },
       "state": null
     },
@@ -93,7 +102,16 @@
         "draft_path": "research/Glasgow-1561/Glasgow-1561.md",
         "preservation_review_path": "research/ancestry-connections/working-joins-preservation-2026-10-15.json",
         "reviewed_narrative_reduction": true,
-        "preserve_captured_detail": false
+        "preserve_captured_detail": false,
+        "relationship_changes": [
+          {
+            "action": "add",
+            "relationship": "father",
+            "status": "uncertain",
+            "relative_id": "Glasgow-3163",
+            "assertion_id": "C-working-20261015-glasgow-1561-glasgow-3163"
+          }
+        ]
       },
       "state": {
         "reopened_at": "2026-10-15",
@@ -110,7 +128,16 @@
         "draft_path": "research/Glasgow-1028/Glasgow-1028.md",
         "preservation_review_path": "research/ancestry-connections/working-joins-preservation-2026-10-15.json",
         "reviewed_narrative_reduction": true,
-        "preserve_captured_detail": false
+        "preserve_captured_detail": false,
+        "relationship_changes": [
+          {
+            "action": "add",
+            "relationship": "father",
+            "status": "uncertain",
+            "relative_id": "Glasgow-3163",
+            "assertion_id": "C-working-20261015-glasgow-1028-glasgow-3163"
+          }
+        ]
       },
       "state": {
         "reopened_at": "2026-10-15",
@@ -127,7 +154,16 @@
         "draft_path": "research/Glasgow-3610/Glasgow-3610.md",
         "preservation_review_path": "research/ancestry-connections/working-joins-preservation-2026-10-15.json",
         "reviewed_narrative_reduction": true,
-        "preserve_captured_detail": false
+        "preserve_captured_detail": false,
+        "relationship_changes": [
+          {
+            "action": "add",
+            "relationship": "father",
+            "status": "uncertain",
+            "relative_id": "Glasgow-3296",
+            "assertion_id": "C-working-20261015-glasgow-3610-glasgow-3296"
+          }
+        ]
       },
       "state": null
     }

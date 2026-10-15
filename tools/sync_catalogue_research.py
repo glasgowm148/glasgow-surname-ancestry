@@ -63,6 +63,7 @@ def update_data(update):
         "draft_wikitext": draft,
         "manual_update": bool(update.get("manual_update")),
         "pending": bool(update.get("pending", True)),
+        **({"relationship_changes": update["relationship_changes"]} if update.get("relationship_changes") else {}),
         **({"application_review": {key: update["application_review"][key]
                                    for key in ("reviewed_on", "status", "assessment")
                                    if key in update["application_review"]}}
@@ -147,6 +148,8 @@ def discrepancies(dossier, soup, findings, update, row, links, comparison=None):
             issues.append("update flag")
         if row.get("wikitree_update_summary", "") != (update["summary"] if update else ""):
             issues.append("search update summary")
+        if (row.get('wikitree_update_relationship_changes') or []) != ((update or {}).get('relationship_changes') or []):
+            issues.append('search relationship changes')
         if int(row.get("wikitree_update_significance") or 0) != (int(update["significance"]) if update else 0):
             issues.append("search update significance")
         return issues
@@ -180,6 +183,8 @@ def discrepancies(dossier, soup, findings, update, row, links, comparison=None):
         issues.append("update flag")
     if row.get("wikitree_update_summary", "") != (update["summary"] if update else ""):
         issues.append("search update summary")
+    if (row.get('wikitree_update_relationship_changes') or []) != ((update or {}).get('relationship_changes') or []):
+        issues.append('search relationship changes')
     if int(row.get("wikitree_update_significance") or 0) != (int(update["significance"]) if update else 0):
         issues.append("search update significance")
     return issues
@@ -361,6 +366,7 @@ def main():
             dossier.pop("wikitree_comparison", None)
         by_slug[slug].update(needs_wikitree_update=bool(update),
                             wikitree_update_summary=update["summary"] if update else "",
+                            wikitree_update_relationship_changes=(update or {}).get('relationship_changes') or [],
                             wikitree_update_significance=int(update["significance"]) if update else 0)
         write_json(path, dossier)
         if soup.select_one(".person-dossier-readable"):

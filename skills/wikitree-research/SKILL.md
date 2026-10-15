@@ -5,6 +5,8 @@ description: Conduct evidence-led WikiTree research, profile and relationship in
 
 # WikiTree Research
 
+- Pending relationship changes (owner correction, 15 October 2026): catalogue table and card update badges must identify explicit new relationships, for example `Needs WikiTree update · significance 86 · new uncertain father`. Carry structured pending relationship metadata through the update queue, full and compact indexes; do not infer a new relationship from biography prose or label an already-attached parent as new. Keep ordinary update badges unchanged when no relationship addition is proposed.
+
 - Catalogue synchronization (owner correction, 15 October 2026): after a targeted research sync, rebuild the browser's compact search index, detail shards and worker with `tools.catalogue_search_index.refresh`, and refresh their content-versioned URLs. Verify the actual `needsUpdate` filter membership/count against the full index; a current profile page or full JSON index alone does not prove that the catalogue UI is current.
 
 Check documentary claims against the underlying record. Distinguish documented facts, logic-based working inferences, and open alternatives; direct proof is not a prerequisite for an explicitly uncertain working connection.

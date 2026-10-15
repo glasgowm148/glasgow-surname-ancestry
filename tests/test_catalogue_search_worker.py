@@ -22,20 +22,49 @@ class CatalogueWorkerParityTests(unittest.TestCase):
             rows = [{'id': 'example', 'name': 'Example Glasgow', 'profile_ids': ['Glasgow-1'],
                      'needs_wikitree_update': False}]
             source.write_text(json.dumps(rows)); build(site)
-            (site / 'people/search.js').write_text((ROOT / 'tools/catalogue_search.js').read_text())
+            (site / 'people/search.js').write_text('// Older deployed runtime awaiting refresh')
             page = site / 'catalogue/index.html'
             page.write_text('<script src="/people/search.js?v=old"></script>')
             rows[0]['needs_wikitree_update'] = True
             rows[0]['wikitree_update_summary'] = 'New reviewed family amendment'
+            changes = [{'action': 'add', 'relationship': 'father', 'status': 'uncertain', 'relative_id': 'Glasgow-2'}]
+            rows[0]['wikitree_update_relationship_changes'] = changes
             source.write_text(json.dumps(rows)); refresh(site)
             packed = json.loads((site / 'data/catalogue-search-fast.json').read_text())
             flag = packed['fields'].index('needs_wikitree_update')
             self.assertEqual(sum(bool(row[flag]) for row in packed['rows']), 1)
+            def unpack(value):
+                if isinstance(value, int) and not isinstance(value, bool) and value < 0:
+                    return packed['strings'][-value-1]
+                if isinstance(value, list): return [unpack(v) for v in value]
+                if isinstance(value, dict): return {k: unpack(v) for k, v in value.items()}
+                return value
+            change_column = packed['fields'].index('wikitree_update_relationship_changes')
+            self.assertEqual(unpack(packed['rows'][0][change_column]), changes)
             self.assertIn('catalogue-search-fast.json?v=' + content_hash(site / 'data/catalogue-search-fast.json'),
                           (site / 'people/search.js').read_text())
             self.assertIn('/people/search.js?v=' + content_hash(site / 'people/search.js'), page.read_text())
             frozen = page.read_bytes(); refresh(site)
             self.assertEqual(page.read_bytes(), frozen)
+
+    def test_badge_distinguishes_new_relationships_from_other_work(self):
+        source = (ROOT / 'tools/catalogue_search.js').read_text()
+        helper = source[source.index('  function relationshipUpdateLabel('):source.index('  function resultRow(')]
+        script = "const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;');\n" + helper + '''
+const base={needs_wikitree_update:true,wikitree_update_significance:86};
+console.log(JSON.stringify([
+ updateBadge(base),
+ updateBadge({...base,wikitree_update_relationship_changes:[{action:'add',relationship:'father',status:'uncertain'}]}),
+ updateBadge({...base,wikitree_update_relationship_changes:[{action:'regrade',relationship:'father',status:'certain'}]}),
+ updateBadge({...base,wikitree_update_relationship_changes:[{action:'add',relationship:'father',status:'uncertain'},{action:'add',relationship:'mother',status:'possible'}]}),
+ updateBadge({...base,needs_wikitree_update:false,wikitree_update_relationship_changes:[{action:'add',relationship:'father',status:'uncertain'}]})
+]));'''
+        badges = json.loads(subprocess.check_output(['node', '-e', script], text=True))
+        self.assertIn('significance 86</small>', badges[0])
+        self.assertIn('significance 86 · new uncertain father</small>', badges[1])
+        self.assertEqual(badges[0], badges[2])
+        self.assertIn('new uncertain father · new uncertain mother', badges[3])
+        self.assertEqual(badges[4], '')
 
     def test_generated_worker_preserves_filters_and_sorting(self):
         rows=[]

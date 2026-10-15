@@ -6673,6 +6673,7 @@ def build_research_catalog(records: list[dict], profiles: dict[str, dict], edges
             "needs_wikitree_update": person["catalogue_id"] in profile_updates_by_catalogue,
             "wikitree_update_significance": int(profile_updates_by_catalogue.get(person["catalogue_id"], {}).get("significance") or 0),
             "wikitree_update_summary": profile_updates_by_catalogue.get(person["catalogue_id"], {}).get("summary") or "",
+            "wikitree_update_relationship_changes": profile_updates_by_catalogue.get(person["catalogue_id"], {}).get("relationship_changes") or [],
             "has_original_record": "original" in source_qualities,
             "has_open_questions": bool(dossier["open_questions"]),
             "uncertain_identity": bool(

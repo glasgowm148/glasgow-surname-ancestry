@@ -47,7 +47,7 @@ process.stdout.write(JSON.stringify(rows));
             target.write_text(content)
         for p in chunk:
             p['_detailShard'] = '/data/catalogue-details/' + name
-    keep = {'id','name','profile_ids','birth','death','date_years','birth_year','death_year','gender','record_count','has_original_record','has_profile','wikitree_update_significance','missing_father','missing_mother','missing_profile','needs_wikitree_update','descendants','woman_married_glasgow','has_suffix'}
+    keep = {'id','name','profile_ids','birth','death','date_years','birth_year','death_year','gender','record_count','has_original_record','has_profile','wikitree_update_significance','wikitree_update_relationship_changes','missing_father','missing_mother','missing_profile','needs_wikitree_update','descendants','woman_married_glasgow','has_suffix'}
     compact = [{k:v for k,v in p.items() if k.startswith('_') or k in keep} for p in rows]
     search, location_search = {}, {}
     advanced = []
@@ -102,14 +102,15 @@ def refresh(site_root=ROOT / 'www'):
              *(site_root / relative for relative in PAGES)]
     changed = 0
     for path in paths:
-        if not path.exists():
+        if not path.exists() and path != site_root / 'people/search.js':
             continue
         def version(match):
             target = asset_path(site_root, path, match['url'])
             return match[0] if target is None or not target.is_file() else (
                 match['quote'] + match['url'] + '?v=' + content_hash(target) + match['quote'])
-        before = path.read_text()
-        after = VERSIONED_ASSET.sub(version, before)
+        before = path.read_text() if path.exists() else ''
+        authored = (ROOT / 'tools/catalogue_search.js').read_text() if path == site_root / 'people/search.js' else before
+        after = VERSIONED_ASSET.sub(version, authored)
         if after != before:
             path.write_text(after)
             changed += 1
