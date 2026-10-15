@@ -10,6 +10,18 @@ spec.loader.exec_module(module)
 
 
 class ResolvedDossierTests(unittest.TestCase):
+    def test_documentary_father_has_no_invented_wikitree_url(self):
+        original = {'id': 'Example-1', 'relationships': {}, 'claims': []}
+        assessment = {'assertion_id': 'record-father', 'people': ['Example-1', 'record-john-1475'],
+                      'publication_status': 'approved', 'status': 'uncertain',
+                      'allow_new_relationship': True, 'source_ids': ['stirling-record'],
+                      'profile_urls': {'record-john-1475': {'url': '/free-space/stirling-john/'}},
+                      'perspectives': {'Example-1': {'relationship': 'father', 'reason': 'Working father'}}}
+        result = module.resolve(original, [], [assessment])
+        father = result['relationships']['parents'][0]
+        self.assertEqual(father['url'], '/free-space/stirling-john/')
+        self.assertIsNone(father['wikitree_url'])
+
     def test_selected_father_keeps_other_candidate_without_counting_both(self):
         from tools.branch_connectivity import load_public_nodes, summarize
 

@@ -1610,5 +1610,94 @@
         "timeline_group": "Records mentioning this person"
       }
     }
+  },
+  {
+    "record_id": "stirling-john-1475-april",
+    "association": "Stirling charter abstract: John Glasgw as witness",
+    "year": 1475,
+    "date": "11 April 1475",
+    "place": "Stirling",
+    "source_title": "Stirling charter abstract: John Glasgw as witness",
+    "source_url": "https://archive.org/details/chartersotherdoc00stir",
+    "source_type": "Existing published abstract or official archive description",
+    "source_status": "Previously maintained source account; no new inspection in this batch",
+    "status": "Documentary occurrence; parentage not stated",
+    "note": "Assigned to the Stirling record-defined subject, not asserted as a record of Glasgow-1095. Original instruments remain to inspect.",
+    "profiles": {},
+    "documentary_subject_ids": [
+      "record-john-glasgw-stirling-1475"
+    ]
+  },
+  {
+    "record_id": "stirling-john-1475-august",
+    "association": "NRS B66/25/43: John Glesgw among burgess witnesses",
+    "year": 1475,
+    "date": "8 August 1475",
+    "place": "Stirling",
+    "source_title": "NRS B66/25/43: John Glesgw among burgess witnesses",
+    "source_url": "https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=B66%2F25%2F43",
+    "source_type": "Existing published abstract or official archive description",
+    "source_status": "Previously maintained source account; no new inspection in this batch",
+    "status": "Documentary occurrence; parentage not stated",
+    "note": "Assigned to the Stirling record-defined subject, not asserted as a record of Glasgow-1095. Original instruments remain to inspect.",
+    "profiles": {},
+    "documentary_subject_ids": [
+      "record-john-glasgw-stirling-1475"
+    ]
+  },
+  {
+    "record_id": "stirling-john-1480-march",
+    "association": "Stirling charter abstract: John Glasgw as witness",
+    "year": 1480,
+    "date": "2 March 1479/80",
+    "place": "Stirling",
+    "source_title": "Stirling charter abstract: John Glasgw as witness",
+    "source_url": "https://archive.org/details/chartersotherdoc00stir",
+    "source_type": "Existing published abstract or official archive description",
+    "source_status": "Previously maintained source account; no new inspection in this batch",
+    "status": "Documentary occurrence; parentage not stated",
+    "note": "Assigned to the Stirling record-defined subject, not asserted as a record of Glasgow-1095. Original instruments remain to inspect.",
+    "profiles": {},
+    "documentary_subject_ids": [
+      "record-john-glasgw-stirling-1475"
+    ]
+  },
+  {
+    "record_id": "alan-glasgw-remission-1494-95",
+    "association": "Remission including the slaughter of Alan Glasgw",
+    "year": 1495,
+    "date": "26 February 1494/95; calendar/regnal discrepancy retained",
+    "place": "Jedburgh (court venue only)",
+    "source_title": "Pitcairn, Criminal Trials I, part I, p.19; NRS JC1/1",
+    "source_url": "https://archive.org/details/criminaltrialsin01pitc/page/n71/mode/2up",
+    "source_type": "Existing printed proceedings account",
+    "source_status": "Previously maintained reading; manuscript not inspected",
+    "status": "Alan dead before proceeding; no relative named",
+    "note": "James Pilmure in Ednem produced the remission; Ralph Ker became surety. Neither role proves kinship. Alan’s residence, death place and age are unknown.",
+    "profiles": {
+      "Glasgow-3023": {
+        "role": "Named deceased subject",
+        "timeline_group": "Records mentioning this person"
+      }
+    }
+  },
+  {
+    "record_id": "saltmarket-john-tenement-1527-1553",
+    "association": "John Glasgow’s Saltmarket tenement and later title descriptions",
+    "year": 1527,
+    "date": "2 May 1527; 5 January 1548; late-John boundary 21 October 1553",
+    "place": "Saltmarket, Glasgow",
+    "source_title": "Liber Collegii Nostre Domine; Renwick, Abstracts of Protocols",
+    "source_url": "https://archive.org/details/libercollegiino00annegoog",
+    "source_type": "Existing printed title reconstruction",
+    "source_status": "Previously maintained account; no new inspection in this batch",
+    "status": "Record-defined Saltmarket owner; imported profile identity uncertain",
+    "note": "The 1548 foundation wording may copy older title. William held the parcel by February 1528/29; title continuity supports family comparison but does not state parentage.",
+    "profiles": {
+      "Glasgow-1095": {
+        "role": "Compatible candidate only; profile identity unresolved",
+        "timeline_group": "Possible identity records"
+      }
+    }
   }
 ]

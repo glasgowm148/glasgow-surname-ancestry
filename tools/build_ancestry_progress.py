@@ -15,6 +15,7 @@ import sys
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 from tools.branch_connectivity import load_public_nodes, summarize
+from tools.documentary_ancestry import load_people
 from tools.free_space_edition import shell_page
 from tools.stamp_asset_versions import VERSIONED_ASSET, asset_path, content_hash
 
@@ -85,6 +86,10 @@ def root_rows(roots):
 
 def build(create_baseline=False):
     strategy = json.loads((WORK / "strategy.json").read_text())
+    documentary = load_people(WORK / 'documentary-people.json')
+    documentary_path = WORK / 'documentary-people.json'
+    write_json(WEB / 'data/ancestry-documentary-people.json',
+               json.loads(documentary_path.read_text()) if documentary_path.exists() else {'schema_version': 1, 'people': []})
     nodes, edges, quality = load_public_nodes(WEB, set(strategy["variants"]))
     cohorts = {}
     for cutoff in strategy["cutoffs"]:
@@ -101,7 +106,7 @@ def build(create_baseline=False):
         baseline = dict(
             schema_version=1,
             captured=strategy["reviewed"],
-            method_version=1,
+            method_version=2,
             cutoff=strategy["primary_cutoff"],
             input_fingerprint=fingerprint,
             cohort_ids=primary["working"]["cohort_ids"],
@@ -121,6 +126,7 @@ def build(create_baseline=False):
         history["snapshots"].append(
             dict(
                 date=date.today().isoformat(),
+                method_version=2,
                 input_fingerprint=fingerprint,
                 metrics={v: compact(s) for v, s in primary.items()},
                 fixed_cohort=fixed,
@@ -130,11 +136,12 @@ def build(create_baseline=False):
     report = dict(
         schema_version=1,
         reviewed=history["snapshots"][-1]["date"],
-        method_version=1,
+        method_version=2,
         strategy=strategy,
         input_fingerprint=fingerprint,
         quality=quality,
-        available_surname_people=len(nodes),
+        available_surname_people=sum(n.get("cohort_member") is not False for n in nodes.values()),
+        documentary_ancestors=len(documentary),
         undated_surname_people=len(quality["undated_people"]),
         cohorts=cohorts,
         baseline=baseline,
@@ -191,7 +198,7 @@ def build(create_baseline=False):
 <section id="early-connections" aria-labelledby="early-connections-title"><h2 id="early-connections-title">Start with the earliest connections</h2><p>These comparisons are already supported as research hypotheses. They are arranged by the oldest record involved. Resolve the missing identity, kinship or title-transfer step, then extend the connection to its supported siblings.</p>{"".join(cards)}</section>
 <section aria-labelledby="family-heads-title"><h2 id="family-heads-title">Unattached family heads</h2><p>Work upwards from families rather than collecting isolated later records. Heads with one child but two or more surname descendants are included in this queue too.</p><div class="progress-controls"><label class="inline-check"><input type="checkbox" id="early-heads" checked>Prioritise heads dated by 1650</label><label>Find a family <input id="head-search" type="search" placeholder="Name or profile ID"></label></div><p id="head-count" aria-live="polite">{len(roots)} early family heads</p><div class="progress-table-wrap"><table><thead><tr><th>Family head</th><th>Earliest cohort year</th><th>Children</th><th>Descendants</th></tr></thead><tbody id="family-head-rows">{root_rows(roots)}</tbody></table></div></section>
 <section aria-labelledby="cohorts-title"><h2 id="cohorts-title">Track the earlier generations separately</h2><p>The working pedigree at each cutoff. Estimated vital dates remain estimates. Undated fathers of included people enter by ancestry; unrelated undated entries stay outside the dated cohorts.</p><div class="progress-table-wrap"><table><thead><tr><th>Cutoff</th><th>People</th><th>Branches</th><th>Unattached fathers, 2+ children</th><th>Connected pairs</th></tr></thead><tbody>{cohort_rows}</tbody></table></div></section>
-<section aria-labelledby="baseline-title"><h2 id="baseline-title">Track the same baseline people</h2><p>Initial baseline: {baseline["captured"]}, through {baseline["cutoff"]}, {len(baseline["cohort_ids"]):,} people. On those same surviving baseline people, the working connected-pair score is {fixed["working"]["connected_pairs_percent"]:.2f}% (initially {baseline["metrics"]["working"]["connected_pairs_percent"]:.2f}%). New cohort people: {len(report["fixed_cohort"]["added_ids"])}; missing baseline people: {len(report["fixed_cohort"]["missing_ids"])}.</p><p>A connection between two components joins every cross-branch pair. The score is 100 × Σ n(n−1) ÷ N(N−1), where n is each paternal component's size and N is the cohort. The common-origin model stays outside the measurements.</p><p>Confidence grades come from the current resolved public dossiers. A confidently marked tree link is not a claim that every underlying source has been independently re-audited. Women born with the surname count; their fathers can join the paternal family, while spouses and maternal paths cannot.</p><p>Coverage: {len(nodes):,} public surname bearers available; {report["undated_surname_people"]:,} have no usable structured date before ancestry closure; {len(quality["missing_dossiers"])} dossiers unavailable; {len(quality["multiple_fathers"])} competing-father cases held out; {len(quality["cycles"])} paternal cycles flagged. Cyclic edges are excluded from the score. Documentary subjects without a public person dossier are covered in the early comparison queue, not silently counted as linked people.</p><p>{escape(strategy["later_records"])}</p><p class="progress-actions"><a href="/data/ancestry-connectivity.json">Current measurements and research queue (JSON)</a><a href="/data/ancestry-connectivity-baseline.json">Fixed initial baseline (JSON)</a></p></section>
+<section aria-labelledby="baseline-title"><h2 id="baseline-title">Track the same baseline people</h2><p>Initial baseline: {baseline["captured"]}, through {baseline["cutoff"]}, {len(baseline["cohort_ids"]):,} people. On those same surviving baseline people, the working connected-pair score is {fixed["working"]["connected_pairs_percent"]:.2f}% (initially {baseline["metrics"]["working"]["connected_pairs_percent"]:.2f}%). New cohort people: {len(report["fixed_cohort"]["added_ids"])}; missing baseline people: {len(report["fixed_cohort"]["missing_ids"])}.</p><p>A connection between two components joins every cross-branch pair. The score is 100 × Σ n(n−1) ÷ N(N−1), where n is each paternal component's size and N is the cohort. The common-origin model stays outside the measurements.</p><p>Confidence grades come from the current resolved public dossiers. A confidently marked tree link is not a claim that every underlying source has been independently re-audited. Women born with the surname count; their fathers can join the paternal family, while spouses and maternal paths cannot.</p><p>Coverage: {report["available_surname_people"]:,} public surname profiles and {report["documentary_ancestors"]} separately listed documentary ancestors available; {report["undated_surname_people"]:,} have no usable structured date before ancestry closure; {len(quality["missing_dossiers"])} dossiers unavailable; {len(quality["multiple_fathers"])} competing-father cases held out; {len(quality["cycles"])} paternal cycles flagged. Cyclic edges are excluded from the score. Named documentary ancestors with complete public research accounts can connect these profiles. They are listed separately as connectors and never increase the profile denominator. An unnamed conceptual ancestor cannot connect branches in this measure.</p><p>{escape(strategy["later_records"])}</p><p class="progress-actions"><a href="/data/ancestry-connectivity.json">Current measurements and research queue (JSON)</a><a href="/data/ancestry-connectivity-baseline.json">Fixed initial baseline (JSON)</a></p></section>
 <script type="application/json" id="ancestry-progress-data">{payload}</script></main>"""
     page = shell_page((WEB / "about/index.html").read_text(), main, "Glasgow ancestry progress", ROUTE + "index.html")
     page = page.replace(

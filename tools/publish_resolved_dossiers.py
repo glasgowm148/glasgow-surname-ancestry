@@ -234,6 +234,11 @@ def resolve(dossier, assessments, shared_assessments=()):
             current.update(id=other, name=assessment.get('profile_names', {}).get(other, other),
                            url=f'/people/{other.lower()}.html',
                            wikitree_url=f'https://www.wikitree.com/wiki/{other}')
+            relative_urls = (assessment.get('profile_urls') or {}).get(other)
+            if relative_urls is not None:
+                if not str(relative_urls.get('url', '')).startswith('/free-space/'):
+                    raise ValueError(f'Shared assertion {aid} has an invalid documentary account URL')
+                current.update(url=relative_urls['url'], wikitree_url=None)
             result.setdefault('relationships', {}).setdefault(group, []).append(current)
         # Status, role, interpretation and citations come from the same reviewed
         # pair and its explicit viewing-person perspective, not a UI override.

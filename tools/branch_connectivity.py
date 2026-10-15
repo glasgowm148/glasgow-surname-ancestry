@@ -10,6 +10,7 @@ import json
 from pathlib import Path
 import re
 from urllib.parse import urlsplit
+from tools.documentary_ancestry import load_chronology, load_people, metric_node
 
 CONFIDENT = frozenset(
     {"certain", "confident", "confirmed", "proved", "documented", "strongly_supported", "dna_confirmed"}
@@ -143,6 +144,31 @@ def load_public_nodes(site_root: Path, variants: set[str]):
                         assertion_id=relation.get("assertion_id"),
                     )
                 )
+    documentary = load_people(site_root / 'data/ancestry-documentary-people.json')
+    for revision in load_chronology(site_root / 'data/ancestry-documentary-people.json'):
+        if revision['id'] in nodes:
+            nodes[revision['id']].update({k: revision[k] for k in
+                ('year', 'year_basis', 'year_status', 'birth_year', 'death_year') if k in revision})
+    documentary_ids = {p['id'] for p in documentary}
+    for person in documentary:
+        if person['id'] in nodes:
+            raise ValueError(f'Duplicate documentary ancestor: {person["id"]}')
+        nodes[person['id']] = metric_node(person)
+        aliases[person['id']] = person['id']
+    shared_path = site_root / 'assets/research/relationship-assessments.json'
+    if documentary and shared_path.exists():
+        for assessment in json.loads(shared_path.read_text()):
+            if not (assessment.get('working_selection') is True
+                    and assessment.get('publication_status') == 'approved'
+                    and assessment.get('status') == 'uncertain'
+                    and assessment.get('allow_new_relationship') is True):
+                continue
+            views = assessment.get('perspectives') or {}
+            child = next((p for p, v in views.items() if v.get('relationship') == 'father'), None)
+            father = next((p for p, v in views.items() if v.get('relationship') != 'father'), None)
+            if child in nodes and father in nodes and {child, father} & documentary_ids:
+                raw.append(dict(child=child, father=father, status='uncertain',
+                                basis=assessment.get('basis', ''), assertion_id=assessment['assertion_id']))
     by_child = defaultdict(dict)
     all_fathers = defaultdict(set)
     for edge in raw:
@@ -172,23 +198,27 @@ def summarize(nodes, edges, cutoff, view="working", cohort_ids=None):
     eligible_edges = [e for e in edges if view == "working" or e["status"] in CONFIDENT]
     future = set()
     if cohort_ids is None:
-        cohort = {i for i, n in nodes.items() if n.get("year") is not None and n["year"] <= cutoff}
-        by_child = {e["child"]: e["father"] for e in eligible_edges}
-        stack = list(cohort)
-        while stack:
-            child = stack.pop()
-            father = by_child.get(child)
-            if father not in nodes or father in cohort:
-                continue
-            # A late death does not make an undated father a later-born man.
-            if nodes[father].get("birth_year") is not None and nodes[father]["birth_year"] > cutoff:
-                future.add(father)
-                continue
-            cohort.add(father)
-            stack.append(father)
+        cohort = {i for i, n in nodes.items() if n.get('cohort_member') is not False
+                  and n.get("year") is not None and n["year"] <= cutoff}
     else:
         cohort = set(cohort_ids) & nodes.keys()
-    selected = [e for e in eligible_edges if e["child"] in cohort and e["father"] in cohort]
+    # Named record ancestors can connect measured profiles without changing
+    # the denominator. Fixed cohorts also traverse newly documented ancestors.
+    graph_nodes = set(cohort)
+    by_child = {e['child']: e['father'] for e in eligible_edges}
+    stack = list(cohort)
+    while stack:
+        father = by_child.get(stack.pop())
+        if father not in nodes or father in graph_nodes:
+            continue
+        if nodes[father].get('birth_year') is not None and nodes[father]['birth_year'] > cutoff:
+            future.add(father)
+            continue
+        graph_nodes.add(father)
+        if cohort_ids is None and nodes[father].get('cohort_member') is not False:
+            cohort.add(father)
+        stack.append(father)
+    selected = [e for e in eligible_edges if e["child"] in graph_nodes and e["father"] in graph_nodes]
     cycles = _cycles(selected)
     cycle_nodes = {i for cycle in cycles for i in cycle}
     selected = [e for e in selected if not (e["child"] in cycle_nodes and e["father"] in cycle_nodes)]
@@ -199,7 +229,7 @@ def summarize(nodes, edges, cutoff, view="working", cohort_ids=None):
         adjacency[a].add(b)
         adjacency[b].add(a)
         children[b].add(a)
-    unseen, components, sizes = set(cohort), [], {}
+    unseen, components, sizes = set(graph_nodes), [], {}
     while unseen:
         start = min(unseen)
         unseen.remove(start)
@@ -210,10 +240,12 @@ def summarize(nodes, edges, cutoff, view="working", cohort_ids=None):
                     unseen.remove(item)
                     component.add(item)
                     stack.append(item)
-        components.append(component)
-        sizes.update(dict.fromkeys(component, len(component)))
+        measured = component & cohort
+        if measured:
+            components.append(measured)
+        sizes.update(dict.fromkeys(component, len(measured)))
     roots = []
-    for ident in sorted(cohort):
+    for ident in sorted(graph_nodes):
         node = nodes[ident]
         if node.get("gender", "").casefold() not in {"male", "m"} or ident in parents:
             continue
@@ -231,7 +263,7 @@ def summarize(nodes, edges, cutoff, view="working", cohort_ids=None):
                         for k in ("id", "name", "url", "year", "year_basis", "year_status", "first_record_year")
                     },
                     "child_count": len(children[ident]),
-                    "descendant_count": len(descendants),
+                    "descendant_count": len(descendants & cohort),
                     "component_size": sizes[ident],
                 }
             )
@@ -239,7 +271,7 @@ def summarize(nodes, edges, cutoff, view="working", cohort_ids=None):
     population = len(cohort)
     largest = max(map(len, components), default=0)
     pair_count = sum(len(c) * (len(c) - 1) for c in components)
-    return dict(
+    result = dict(
         cohort_ids=sorted(cohort),
         population=population,
         edge_count=len(selected),
@@ -257,3 +289,6 @@ def summarize(nodes, edges, cutoff, view="working", cohort_ids=None):
             undated_ancestors=[i for i in sorted(cohort) if nodes[i].get("year") is None],
         ),
     )
+    if graph_nodes - cohort:
+        result['connector_ids'] = sorted(graph_nodes - cohort)
+    return result

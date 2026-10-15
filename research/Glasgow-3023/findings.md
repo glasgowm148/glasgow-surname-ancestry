@@ -5,6 +5,8 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
+**Selected working father (15 October 2026):** [John Glasgw of Stirling](/free-space/john-glasgw-of-stirling-1b723d/), uncertain / possible. This is a revisable son hypothesis, not a parent named in the criminal proceeding.
+
 Alan is a late-fifteenth-century bearer, not a sixteenth-century Jedburgh man.
 Pitcairn's heading `1594-5` is a typographical error: the entry belongs to the
 Jedburgh justice ayre of 26 February **1495**, within court book NRS JC1/1
@@ -19,13 +21,7 @@ discarded and the live fields remain unchanged. The cited biography and the
 individual free-space research page carry the accurate chronology pending a
 permitted structured correction.
 
-Father assessment: **father not identified**. The best genealogical placement
-is as a possible son, brother or nephew in the generation of
-[John Glasgw of Stirling](https://www.wikitree.com/wiki/Space:John_Glasgw_of_Stirling),
-active in 1475-80. Chronology and the rare fixed surname support comparison,
-but the Stirling-Jedburgh geography and absence of any shared associate or kin
-term prevent choosing an exact relationship. Alan cannot be father of the
-George Glascoe buried in 1589; the records are separated by 94 years.
+Father assessment: **John Glasgw of Stirling selected as an uncertain, low-confidence local father**. The record does not identify Alan’s father. This chooses son from the prior son/brother/nephew comparison; brother, nephew and another early family remain alternatives. Jedburgh is a court venue, not evidence of Alan’s home. No link to the George Glascoe buried in 1589 is established. The 94-year record gap calls for an age and generation check; burial year alone cannot exclude fatherhood.
 
 ## Source findings
 
@@ -40,3 +36,13 @@ George Glascoe buried in 1589; the records are separated by 94 years.
 - Ancestor of the later Cavers/Hawick profiles: **unsupported**; no intervening
   bearer is documented.
 - Son of a named main-branch profile: **not established**.
+
+## Selected Stirling working family — 15 October 2026
+
+Select son, at low confidence, from the existing son/brother/nephew comparison with John Glasgw of Stirling. John’s adult activity in 1475–1480 is compatible with fathering a man killed before the 1494/95 proceeding. The rare surname in the same late-fifteenth-century record horizon makes this named household a useful provisional placement; no invented intermediary is needed. The father choice supplies a revisable one-generation model, rather than claiming that the court record names John.
+
+**Limits and alternatives:** No age, home, occupation or relative is named for Alan. Brother, nephew or another early family remain viable, and the father choice is weaker than the Saltmarket hypothesis. Jedburgh is the court venue, not Alan’s residence or death place; Pilmure’s Ednem association and Ker’s surety do not supply Alan’s kin. The printed 1494/95 year and regnal-year discrepancy await manuscript collation. No mother, wife, child, exact birth or exact death is inferred.
+
+Prior local assessment: no selected father. The predecessor or son/brother/nephew comparison is retained as the earlier assessment. This is unknown/unselected → selected uncertain, not a certainty upgrade. No mother is assigned and no live WikiTree relationship is changed. See the [complete family comparison](/branches/early-scottish-records/#stirling-working-family).
+
+Sources already maintained: [Stirling charter abstracts, 11 April 1475 and 2 March 1479/80](https://archive.org/details/chartersotherdoc00stir); [NRS B66/25/43, 8 August 1475](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=B66%2F25%2F43); [Pitcairn, Criminal Trials I, part I, p.19](https://archive.org/details/criminaltrialsin01pitc/page/n71/mode/2up), with JC1/1 still to collate. No new original inspection is claimed.

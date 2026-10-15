@@ -25899,6 +25899,56 @@
         "research/ancestry-connections/early-collaterals-2026-10-15.md",
         "research/relationship_assessments.json"
       ]
+    },
+    {
+      "id": "stirling-selected-working-family-2026-10-15",
+      "found_on": "2026-10-15",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "John Glasgw of Stirling is now the selected uncertain working father of the Saltmarket candidate John Glasgow-1095 and, more tentatively, Alan Glasgow-3023.",
+      "qualification": "Existing source-based family hypotheses selected for a revisable model. The imported John profile may conflate Stirling and Saltmarket identities; Alan may instead be a brother, nephew or another family. No new source inspection, certainty upgrade, live parent attachment or invented vital date.",
+      "relationship_change_count": 2,
+      "people": [
+        {
+          "id": "Glasgow-1095",
+          "name": "John Glasgow of Saltmarket (provisional profile identity)",
+          "url": "/people/glasgow-1095.html"
+        },
+        {
+          "id": "Glasgow-3023",
+          "name": "Alan Glasgw",
+          "url": "/people/glasgow-3023.html"
+        },
+        {
+          "id": "record-john-glasgw-stirling-1475",
+          "name": "John Glasgw of Stirling",
+          "url": "/free-space/john-glasgw-of-stirling-1b723d/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Stirling charter abstracts, 11 April 1475 and 2 March 1479/80",
+          "url": "https://archive.org/details/chartersotherdoc00stir"
+        },
+        {
+          "title": "NRS B66/25/43, 8 August 1475",
+          "url": "https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=B66%2F25%2F43"
+        },
+        {
+          "title": "Saltmarket title account, Liber Collegii",
+          "url": "https://archive.org/details/libercollegiino00annegoog"
+        },
+        {
+          "title": "Alan Glasgw, Pitcairn I part I p.19; exact year qualified",
+          "url": "https://archive.org/details/criminaltrialsin01pitc/page/n71/mode/2up"
+        }
+      ],
+      "detail_url": "/branches/early-scottish-records/#stirling-working-family",
+      "provenance": [
+        "research/ancestry-connections/stirling-working-family-2026-10-15.md",
+        "research/relationship_assessments.json",
+        "research/ancestry-connections/documentary-people.json"
+      ]
     }
   ]
 }

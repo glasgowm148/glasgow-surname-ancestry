@@ -79,7 +79,7 @@
       "id": "stirling-saltmarket",
       "year": 1475,
       "title": "Stirling John → Saltmarket family",
-      "status": "Possible predecessor; degree of relationship open",
+      "status": "Selected uncertain father; identity/degree alternatives retained",
       "people": [
         {
           "name": "John Glasgw of Stirling",
@@ -90,7 +90,7 @@
           "url": "/people/glasgow-1095.html"
         }
       ],
-      "basis": "The earlier John is a compatible predecessor to investigate. Estimated profile birth years do not establish identity or a parent–child generation.",
+      "basis": "Select John Glasgw of Stirling as the uncertain father of Saltmarket John, using Glasgow-1095 as a provisional Saltmarket representative. Stirling John was an adult witness by 1475 and a burgess in the August charter description. That fits an older generation than the Saltmarket owner, securely recorded in 1527 and conditionally associated with the adult alias-Smith purchaser in 1506. The uncommon name, consecutive civic-property settings and the weak Brady/Brade surname-network clue support the existing leading father hypothesis. The Saltmarket parcel passing to William by 1528/29 favours placing this candidate with William’s family. The imported profile is a conflated placeholder whose biography also points to the Stirling witness. It is not proved to be Saltmarket John. If it instead represents the Stirling man, this proposed father link collapses as an identity duplicate. The 1506 alias-Smith identity and circa-1480 birth are conditional; no kinship clause or shared holding joins Stirling to Saltmarket. Brother, cousin, other predecessor or unrelated namesake remain alternatives. The 1447–1455 Glasgow burgess could be the Stirling man or an earlier relative; neither alternative is selected here.",
       "next_test": "Follow title recitals and shared witnesses into the Saltmarket holding; compare the 1506 alias-Smith charter without equating its John to Saltmarket John in advance.",
       "sources": [
         {
@@ -102,13 +102,17 @@
         "BL204/GUA16403 (28 April 1506)",
         "Liber Collegii, pp. 85–86 (2 May 1527)"
       ],
-      "counted_as_new_connection": false
+      "counted_as_new_connection": false,
+      "reviewed": "2026-10-15",
+      "working_selection": true,
+      "assertion_id": "C-working-20261015-glasgow-1095-stirling-john",
+      "metric_note": "Together these two selected edges join one previously separate profile component; the named father is not added to the profile denominator."
     },
     {
       "id": "alan-stirling",
       "year": 1495,
       "title": "Place Alan in the earliest family",
-      "status": "Possible close collateral; exact relationship unchosen",
+      "status": "Selected uncertain father; identity/degree alternatives retained",
       "people": [
         {
           "name": "Alan Glasgw",
@@ -119,7 +123,7 @@
           "url": "/free-space/john-glasgw-of-stirling-1b723d/"
         }
       ],
-      "basis": "The existing assessment considers Alan a possible son, brother or nephew of the Stirling John. The proceeding names no relative; choosing one degree would invent precision.",
+      "basis": "Select son, at low confidence, from the existing son/brother/nephew comparison with John Glasgw of Stirling. John’s adult activity in 1475–1480 is compatible with fathering a man killed before the 1494/95 proceeding. The rare surname in the same late-fifteenth-century record horizon makes this named household a useful provisional placement; no invented intermediary is needed. The father choice supplies a revisable one-generation model, rather than claiming that the court record names John. No age, home, occupation or relative is named for Alan. Brother, nephew or another early family remain viable, and the father choice is weaker than the Saltmarket hypothesis. Jedburgh is the court venue, not Alan’s residence or death place; Pilmure’s Ednem association and Ker’s surety do not supply Alan’s kin. The printed 1494/95 year and regnal-year discrepancy await manuscript collation. No mother, wife, child, exact birth or exact death is inferred.",
       "next_test": "Inspect JC1/1 and the associated remission for Alan's kin or the parties owed satisfaction, then compare those names with the Stirling witnesses.",
       "sources": [
         {
@@ -130,7 +134,11 @@
       "record_references": [
         "NRS JC1/1, Jedburgh justice ayre, 26 February 1494/95; year needs manuscript collation"
       ],
-      "counted_as_new_connection": false
+      "counted_as_new_connection": true,
+      "reviewed": "2026-10-15",
+      "working_selection": true,
+      "assertion_id": "C-working-20261015-glasgow-3023-stirling-john",
+      "metric_note": "Together these two selected edges join one previously separate profile component; the named father is not added to the profile denominator."
     },
     {
       "id": "quothquan-carnwath",

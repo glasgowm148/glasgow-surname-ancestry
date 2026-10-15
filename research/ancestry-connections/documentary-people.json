@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "reviewed": "2026-10-15",
+  "people": [
+    {
+      "id": "record-john-glasgw-stirling-1475",
+      "name": "John Glasgw of Stirling",
+      "gender": "Male",
+      "publication_status": "approved",
+      "first_record_year": 1475,
+      "record_period": "1475–1479/80",
+      "record_place": "Stirling",
+      "url": "/free-space/john-glasgw-of-stirling-1b723d/",
+      "wikitree_url": "https://www.wikitree.com/wiki/Space:John_Glasgw_of_Stirling",
+      "source_ids": [
+        "stirling-john-1475-april",
+        "stirling-john-1475-august",
+        "stirling-john-1480-march"
+      ],
+      "summary": "Named witness in three Stirling acts. Selected uncertain father of the Saltmarket candidate and, more tentatively, Alan Glasgw. Birth and death unknown. The earlier Glasgow burgess identity/parent alternatives remain unselected."
+    }
+  ],
+  "chronology": [
+    {
+      "id": "Glasgow-3023",
+      "publication_status": "approved",
+      "source_ids": [
+        "alan-glasgw-remission-1494-95"
+      ],
+      "year": 1495,
+      "year_basis": "dated evidence",
+      "year_status": "printed year qualified",
+      "birth_year": null,
+      "death_year": null,
+      "tree_display": {
+        "born": null,
+        "died": null,
+        "deathplace": "",
+        "deathLocationRegion": "other",
+        "year": 1495,
+        "birthDisplay": "Birth unknown",
+        "deathDisplay": "Dead by 1494/95; exact year under review",
+        "lifeLabel": "Dead by 1494/95; birth unknown"
+      },
+      "reason": "The imported circa-1500 birth/death estimates contradict the earlier killing record. The printed 26 February 1494/95 and regnal heading need JC1/1 collation; no exact vital dates or death place are supplied."
+    }
+  ]
+}

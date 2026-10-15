@@ -22,9 +22,33 @@ class OneTreeOutputTests(unittest.TestCase):
         cls.build = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(cls.build)
 
-    def test_no_inferred_relationship_edges_are_published(self):
-        self.assertEqual(self.model["meta"]["hypotheses"], 0)
-        self.assertFalse(any(person.get("edge", {}).get("type") == "hypothesis" for person in self.people.values()))
+    def test_selected_working_edges_remain_explicitly_uncertain(self):
+        edges = [p for p in self.people.values() if p.get('edge', {}).get('type') == 'hypothesis']
+        self.assertEqual(self.model['meta']['hypotheses'], len(edges))
+        for person in edges:
+            edge = person['edge']
+            self.assertEqual(edge['status'], 'uncertain')
+            self.assertTrue(any(r.get('hypothesis') and r.get('id') == edge['parent']
+                                and r.get('assertion_id') for r in person['parents']))
+
+    def test_primary_whole_tree_carries_the_same_selected_connections(self):
+        from tools.site_payloads import unpack_model
+        from tools.stamp_asset_versions import VERSIONED_ASSET, asset_path, content_hash
+        packed = ROOT / 'www/assets/research/atlas-model-packed.json'
+        primary = unpack_model(json.loads(packed.read_text()))
+        people = {p['id']: p for p in primary['people']}
+        selected = [p for p in self.people.values() if p.get('edge', {}).get('type') == 'hypothesis']
+        self.assertEqual(primary['meta']['hypotheses'], len(selected))
+        for person in selected:
+            self.assertEqual(people[person['id']]['edge'], person['edge'])
+        for person in self.people.values():
+            if person.get('documentary'):
+                self.assertEqual(people[person['id']], person)
+        for relative in ['assets/research/atlas-boot.js', 'onetree/index.html']:
+            path = ROOT / 'www' / relative
+            for match in VERSIONED_ASSET.finditer(path.read_text()):
+                if '/assets/research/atlas' in match['url']:
+                    self.assertEqual(match['version'], content_hash(asset_path(ROOT / 'www', path, match['url'])))
 
     def test_every_recorded_display_edge_is_a_structured_parent(self):
         for person in self.people.values():
@@ -40,6 +64,9 @@ class OneTreeOutputTests(unittest.TestCase):
     def test_profile_destinations_are_canonical(self):
         for person in self.people.values():
             if person.get("kind") != "person":
+                continue
+            if person.get('documentary'):
+                self.assertTrue((ROOT / 'www' / person['catalogueUrl'].strip('/') / 'index.html').exists())
                 continue
             slug = person["catalogueId"]
             if slug is None:

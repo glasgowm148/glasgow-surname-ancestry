@@ -18,12 +18,14 @@ PUBLIC_DIR = ROOT / "www" / "onetree" / "glasgow-one-tree-polished-3"
 sys.path.insert(0, str(ROOT))
 
 from tools.project_paths import merged_map_profiles  # noqa: E402
+from tools.documentary_ancestry import load_chronology, load_people  # noqa: E402
 
 
 WIKITREE = "https://www.wikitree.com/wiki/"
 CATALOGUE = "https://glasgow.phenotype.dev/people/"
 STATUS = {"5": "non-biological", "10": "uncertain", "20": "confident", "30": "DNA-confirmed"}
 WORKING_ASSESSMENTS = ROOT / "research" / "relationship_assessments.json"
+DOCUMENTARY_PEOPLE = ROOT / 'research/ancestry-connections/documentary-people.json'
 
 REGIONS = [
     {"id": "principal", "label": "Principal pedigrees", "short": "Principal pedigrees", "title": "Principal pedigrees", "sub": "The largest recorded family branches", "color": "#506b58"},
@@ -194,6 +196,29 @@ def generate_model(catalogue_path: Path, prior: dict) -> dict:
             "cluster": row.get("cluster") or "",
         })
 
+    documentary = load_people(DOCUMENTARY_PEOPLE)
+    for revision in load_chronology(DOCUMENTARY_PEOPLE):
+        for person in people:
+            if person['id'] == revision['id']:
+                display = revision.get('tree_display') or {}
+                person.update({k: display[k] for k in ('born', 'died', 'year', 'birthDisplay', 'deathDisplay', 'lifeLabel', 'deathplace', 'deathLocationRegion') if k in display})
+                person['note'] = (person.get('note', '') + ' ' + revision['reason']).strip()
+    for person in documentary:
+        if person['id'] in public_ids:
+            raise ValueError(f'Duplicate documentary ancestor: {person["id"]}')
+        place = LOCATION_BY_ID['scotland']
+        people.append(dict(id=person['id'], name=person['name'], kind='person',
+                           born=None, died=None, birthDisplay='', deathDisplay='',
+                           birthplace='', deathplace='', sex=person.get('gender', ''),
+                           parents=[], partners=[], childrenRecorded=[],
+                           note=person['summary'], first=person['name'].split()[0],
+                           birthSurname='Glasgow', currentSurname='Glasgow', bornApprox=False,
+                           year=person['first_record_year'], catalogueId=person['id'],
+                           locationRegion='scotland', locationLabel=place['label'], locationColor=place['color'],
+                           birthLocationRegion='other', deathLocationRegion='other',
+                           cluster=person.get('record_place', ''), documentary=True,
+                           recordUrl=person['url'], catalogueUrl=person['url'], wikitreeUrl=person.get('wikitree_url', ''),
+                           recordPeriod=person['record_period'], recordPlace=person.get('record_place', ''), sourceIds=person['source_ids']))
     try:
         assessments = json.loads(WORKING_ASSESSMENTS.read_text(encoding="utf-8"))
     except FileNotFoundError:
@@ -270,8 +295,8 @@ def generate_model(catalogue_path: Path, prior: dict) -> dict:
     sections = []
     for profile_id in sorted(anchors, key=lambda item: (-subtree[item], people_by_id[item]["year"], item)):
         person = people_by_id[profile_id]
-        life = "–".join(str(value) if value else "?" for value in (person["born"], person["died"]))
-        place = person["birthplace"] or person["deathplace"] or "place not recorded"
+        life = ('Recorded ' + person['recordPeriod']) if person.get('documentary') else (person.get('lifeLabel') or "–".join(str(value) if value else "?" for value in (person["born"], person["died"])))
+        place = person["birthplace"] or person["deathplace"] or person.get('recordPlace') or "place not recorded"
         tier = "principal" if subtree[profile_id] >= 220 else "branches"
         sections.append({
             "id": profile_id, "label": branch_label(profile_id),
@@ -323,8 +348,9 @@ def generate_model(catalogue_path: Path, prior: dict) -> dict:
             "title": "Glasgow profiles · recorded families and selected working hypotheses", "date": date.today().isoformat(), "people": len(people),
             "groups": len(sections), "recorded": recorded_edges, "parentRelationships": parent_relationships,
             "partners": spouse_relationships, "hypotheses": hypotheses, "withheld": payload.get("withheld_likely_living_count", 0),
-            "coverage": f"Generated from the public catalogue dated {payload.get('generated', '')}; {len(people):,} public WikiTree profiles are included.",
-            "method": "Structured current father, mother and spouse fields are copied from the canonical catalogue data. Explicitly selected local working hypotheses remain marked uncertain and are counted separately; one real parent is used for drawing when two are present. The primary layout follows recorded pedigree branches; separate component roots are connected only to explicit non-genealogical collection nodes.",
+            "coverage": f"Generated from the public catalogue dated {payload.get('generated', '')}; {len(people)-len(documentary):,} public WikiTree profiles and {len(documentary)} named documentary ancestors are included.",
+            "documentaryPeople": len(documentary),
+            "method": "Current family fields come from the public catalogue, alongside named documentary ancestors with complete sourced accounts. Documentary record periods are not birth dates. Selected working hypotheses remain marked uncertain and counted separately. One parent drives the drawing; collection nodes do not assert common ancestry.",
             "sources": [{"title": "Glasgow research catalogue", "url": "https://glasgow.phenotype.dev/"}, {"title": "Public catalogue people data", "url": "https://glasgow.phenotype.dev/data/people.json"}, {"title": "Public Y-DNA explorer", "url": "https://glasgow.phenotype.dev/ydna/"}],
             "sourceExports": [path.name for path in exports], "catalogueGenerated": payload.get("generated", ""),
             "version": "4.2", "uiUpdated": date.today().isoformat(),
@@ -384,6 +410,12 @@ def main() -> None:
     try:
         prior = json.loads(args.model.read_text(encoding="utf-8")) if args.model.exists() else {}
         model = generate_model(args.catalogue_data, prior)
+        if args.model.resolve() == (PUBLIC_DIR / 'model.json').resolve():
+            # Retain only the owner's explicitly approved, hash-pinned publication.
+            from tools.approved_restorations import entries, restored_model, source
+            approved = entries().get('onetree/glasgow-one-tree-polished-3/model.json')
+            if approved and approved['kind'] == 'atlas-model':
+                model = restored_model(model, json.loads(source(approved)))
         checks = validate(model)
         template = args.template.read_text(encoding="utf-8")
         if template.count("__MODEL__") != 1:
@@ -395,8 +427,11 @@ def main() -> None:
         with args.ids.open("w", encoding="utf-8", newline="") as handle:
             writer = csv.writer(handle)
             writer.writerow(["WikiTree ID", "Name", "WikiTree URL", "Catalogue URL"])
-            for person in sorted((p for p in model["people"] if p.get("kind") == "person"), key=lambda p: p["id"].casefold()):
+            for person in sorted((p for p in model["people"] if p.get("kind") == "person" and not p.get('documentary')), key=lambda p: p["id"].casefold()):
                 writer.writerow([person["id"], person["name"], WIKITREE + person["id"], CATALOGUE + person["catalogueId"] + "/"])
+        if args.model.resolve() == (PUBLIC_DIR / 'model.json').resolve():
+            from tools.sync_ancestry_atlas import sync
+            sync(ROOT / 'www', model)
     except (OSError, ValueError, KeyError, TypeError, json.JSONDecodeError) as exc:
         parser.exit(1, f"Build failed: {exc}\n")
     print(f"Built {args.output} with {checks['people']:,} profiles and {model['meta']['hypotheses']:,} selected working hypothesis parent edges.")

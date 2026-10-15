@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+**Selected working father (15 October 2026):** [John Glasgw of Stirling](/free-space/john-glasgw-of-stirling-1b723d/), uncertain / possible. This depends on using this profile provisionally for Saltmarket John; the imported placeholder’s identity remains unresolved.
+
 Reviewed: 2026-10-15
 
 This pre-1500 profile is not managed by the requesting account and is not the
@@ -45,10 +47,7 @@ uncertain; do not present it as proved.
 
 ## Identity and duplicate assessment
 
-Do not create a post-1500 Saltmarket profile until Glasgow-1095's intended
-identity is resolved. Do not repurpose Glasgow-1095 as the Stirling witness or
-Saltmarket owner merely because its unsupported estimate fits both. A document
-linking a relative, property or civic role is required.
+Do not create another Saltmarket WikiTree profile or repurpose Glasgow-1095 live while its identity is unresolved. The local working model uses it provisionally for Saltmarket John because of its existing William attachment and the property-family reconstruction. It could instead represent the Stirling witness or conflate both men; that alternative would collapse the new father link. No live identity resolution is claimed.
 
 ## Recommended profile treatment
 
@@ -83,3 +82,13 @@ Recorded in `research/medieval-glasgow-bridge-1447-1534/report.md` (30 August 20
 The [official NRS description of B66/25/43](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?df=&di=y&dt=&k=holme&ko=a&r=&reference=B66%2F25%2F43&ro=s&st=1&tc=y&tl=n&tn=n&tp=n), dated **8 August 1475**, groups **John Glesgw** with the burgess witnesses of a Stirling charter. This belongs to the [Stirling documentary subject](/free-space/john-glasgw-of-stirling-1b723d/), whose identification with this imported profile remains unresolved; it is not a proved record of the Saltmarket owner. Two other Stirling acts were already known. The new civic detail strengthens the comparison with the Glasgow burgess of 1447–1455, but provides no kinship clause. A single career from 1447 to 1480 is plausible: the Stirling circa-1450 birth estimate cannot be used to exclude an older man. Father–son and close-kin models remain alternatives.
 
 The Saltmarket account now treats its circa-1480 birth estimate as conditional on the possible 1506 alias-Smith identification; secure Saltmarket activity begins in 1527. The existing John-to-William father hypothesis stays uncertain. Source inspected: the official archive description, not the original charter. Next compare the original B66/25/43 witness wording and endorsements with the Glasgow instruments; the recorded seals belong to Forester and Redhucht, not to Glesgw.
+
+## Selected Stirling working family — 15 October 2026
+
+Select John Glasgw of Stirling as the uncertain father of Saltmarket John, using Glasgow-1095 as a provisional Saltmarket representative. Stirling John was an adult witness by 1475 and a burgess in the August charter description. That fits an older generation than the Saltmarket owner, securely recorded in 1527 and conditionally associated with the adult alias-Smith purchaser in 1506. The uncommon name, consecutive civic-property settings and the weak Brady/Brade surname-network clue support the existing leading father hypothesis. The Saltmarket parcel passing to William by 1528/29 favours placing this candidate with William’s family.
+
+**Limits and alternatives:** The imported profile is a conflated placeholder whose biography also points to the Stirling witness. It is not proved to be Saltmarket John. If it instead represents the Stirling man, this proposed father link collapses as an identity duplicate. The 1506 alias-Smith identity and circa-1480 birth are conditional; no kinship clause or shared holding joins Stirling to Saltmarket. Brother, cousin, other predecessor or unrelated namesake remain alternatives. The 1447–1455 Glasgow burgess could be the Stirling man or an earlier relative; neither alternative is selected here.
+
+Prior local assessment: no selected father. The predecessor or son/brother/nephew comparison is retained as the earlier assessment. This is unknown/unselected → selected uncertain, not a certainty upgrade. No mother is assigned and no live WikiTree relationship is changed. See the [complete family comparison](/branches/early-scottish-records/#stirling-working-family).
+
+Sources already maintained: [Stirling charter abstracts, 11 April 1475 and 2 March 1479/80](https://archive.org/details/chartersotherdoc00stir); [NRS B66/25/43, 8 August 1475](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=B66%2F25%2F43); [Saltmarket title account](https://archive.org/details/libercollegiino00annegoog). No new original inspection is claimed.

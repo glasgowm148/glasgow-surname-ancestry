@@ -64,6 +64,28 @@ def usable_tester_panel(page):
         "requestAnimationFrame(()=>{window.dispatchEvent(new Event('resize'));if(innerWidth<900){const target=open?panel:(toggle.closest('details')||toggle);target.style.scrollMarginTop='76px';target.scrollIntoView({block:'start'});}})")
 
 
+def documentary_renderer(page):
+    """Allow named documentary ancestors while preserving the supplied UI."""
+    replacements = {
+        "const wiki=id=>'https://www.wikitree.com/wiki/'+encodeURIComponent(id);":
+        "const wiki=id=>{const p=D.people.find(p=>p.id===id);return p?.wikitreeUrl||p?.recordUrl||'https://www.wikitree.com/wiki/'+encodeURIComponent(id)};",
+        "const catalogue=p=>p.catalogueId===null?": "const catalogue=p=>p.catalogueUrl|| (p.catalogueId===null?",
+        "encodeURIComponent(p.catalogueId||p.id.toLowerCase())+'.html';": "encodeURIComponent(p.catalogueId||p.id.toLowerCase())+'.html');",
+        "const life=p=>{const b=yearText(p,'born')": "const life=p=>{if(p.documentary)return 'Recorded '+p.recordPeriod;if(p.lifeLabel)return p.lifeLabel;const b=yearText(p,'born')",
+        "title=\"Copy WikiTree ID\" aria-label=\"Copy WikiTree ID\"": "title=\"Copy person ID\" aria-label=\"Copy person ID\"",
+        "const rows=[['WikiTree ID','Name'": "const rows=[['Person ID','Name'",
+        "linked descendants through recorded parent relationships.": "linked descendants through parent relationships, including selected uncertain links.",
+        "'Recorded ancestry route'": "'Ancestry route · uncertain links labelled'",
+        "p.parents.map(relationHTML).join('')": "p.parents.map(r=>relationHTML(r)+(r.hypothesis?`<p><b>Selected uncertain working father.</b> ${esc(r.reason||'')} ${(r.analysis_links||[]).map(a=>`<a href=\"${esc(a.href)}\">${esc(a.label)}</a>`).join(' · ')}</p>`:'')).join('')",
+    }
+    # The helper replacement is atomic; subsequent calls preserve identical JS.
+    if "const catalogue=p=>p.catalogueUrl|| (" in page:
+        return page
+    for old, new in replacements.items():
+        page = page.replace(old, new)
+    return page
+
+
 def approved_document(relative, content, private=PRIVATE):
     if relative == 'assets/research/atlas-model-packed.json':
         try:
@@ -104,7 +126,7 @@ def approved_document(relative, content, private=PRIVATE):
                     and set(previous.get('landmarks', [])).issubset(actual.get('landmarks', [])))
         if entry['kind'] == 'atlas-renderer':
             if relative.endswith('.js'):
-                return normalise(content) == normalise(usable_tester_panel(original))
+                return normalise(content) == normalise(documentary_renderer(usable_tester_panel(original)))
             old_model, new_model = model_script(original), model_script(content)
             if old_model and (not new_model or json.loads(old_model[1])['dna'] != json.loads(new_model[1]).get('dna')):
                 return False
@@ -152,7 +174,7 @@ def restore_atlas(web, private=PRIVATE):
                 target.write_bytes(raw)
                 assets += 1
             continue
-        rendered = usable_tester_panel(original)
+        rendered = documentary_renderer(usable_tester_panel(original)) if entry['kind'] == 'atlas-renderer' and relative.endswith('.js') else usable_tester_panel(original)
         if entry['kind'] == 'atlas-model':
             current = json.loads(target.read_text()) if target.exists() else json.loads(original)
             rendered = json.dumps(restored_model(current, json.loads(original)), ensure_ascii=False, separators=(',', ':')) + '\n'
