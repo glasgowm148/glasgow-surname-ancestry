@@ -1,8 +1,10 @@
 # Findings: Mary (McCaughan) Glasgow
 
-Last updated: 2026-10-07
+Last updated: 2026-10-15
 
 ## Current conclusion
+
+Reviewed: 2026-10-15
 
 The Gortahar death of Mary Glasgow is a **high-confidence identification** with
 [Mary McCaughan](https://www.wikitree.com/wiki/McCaughan-222), as already assessed
@@ -20,6 +22,12 @@ daughter of Alexander Glasgow, farmer, and wife of Robert Elder. Elder's later
 succession to Alexander's lot 25 supports this family bridge. Combined with the
 Mary/Molly baptism and household reconstruction, it strongly identifies the
 older Mary; no particular marriage certificate is a blanket prerequisite.
+
+## Source findings — PRONI marriage-search response, 15 October 2026
+
+PRONI reported no Glasgow or surname-variant mention within the specified years under **AG 57714**, in its notification of 15 October 2026 supplied by the researcher. The original 13 August enquiry prioritised a search of **Second Portglenone MIC1P/357 marriages, 1834–1838**, for Alexander Glasgow and Mary McCaughan/McAughin/McAughern/McCoughan, and asked whether the 1829–1834 stipend list could also be checked. The completion notice does not enumerate the records and years actually examined: the result is a reported negative whose precise coverage still needs confirmation. It does not disprove the marriage or identify Mary’s parents.
+
+The **Ballymoney Reformed Presbyterian family register, CR5/32/1/1/1–2, 1804–1844**, is the separate **AG 57828 AC** request, confirmed separately by PRONI on 25 September and acknowledged on 2 October; no result has been supplied for it. See [Alexander’s dated search-scope account](/people/glasgow-951.html#next-checks-account). Source: the supplied 15 October notification and the checked August–October correspondence; [PRONI eCatalogue](https://apps.proni.gov.uk/eCatNI_IE/SearchPage.aspx) for archival references.
 
 ## Source findings
 

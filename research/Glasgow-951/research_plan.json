@@ -103,9 +103,10 @@
       "priority": 4,
       "question": "4. Who were Alexander and Mary’s parents?",
       "action": "Reported **1836 marriage** in surviving First Kilraughts material, film 197; Ballymoney/Kilraughts family and society registers **PRONI CR5/32/1/1/1–2**",
-      "status": "Not inspected; the existing PRONI enquiry remains pending. Rasharkin’s surviving marriage register starts in 1845",
+      "status": "Separate Ballymoney family-register request AG 57828 remains outstanding; AG 57714 negative reported 15 October, exact earlier enquiry coverage unconfirmed.",
       "discriminating_outcomes": "Named parents or an explicit family group could decide a candidate. Witness names supply leads, not automatic kinship. Failure in an incomplete or later-starting register cannot exclude the marriage.",
-      "assessed": "2026-09-13"
+      "assessed": "2026-09-13",
+      "status_date": "2026-10-15"
     },
     {
       "priority": 5,
@@ -207,10 +208,10 @@
       "generation": 0,
       "id": "MIC/1P/357",
       "kind": "archive",
-      "note": "Second Portglenone Presbyterian marriage register from 1822; requires PRONI access or commissioned lookup.",
+      "note": "Second Portglenone MIC1P/357 marriages 1834–1838 were the priority in the 13 August enquiry. PRONI AG 57714 reports no Glasgow or variant on 15 October, without enumerating actual record/year coverage; confirm whether marriages and the requested 1829–1834 stipend list were both checked. The separate Ballymoney register search AG 57828 remains outstanding.",
       "reason": "Search for Alexander Glasgow and Mary McCaughan circa 1836 and record witnesses/residences.",
-      "status": "pending",
-      "updated_at": "2026-08-05"
+      "status": "negative_reported_scope_unconfirmed",
+      "updated_at": "2026-10-15"
     },
     {
       "generation": 1,
@@ -288,6 +289,17 @@
         "Original Rasharkin register, PRONI MIC1P/292, entries 106 and 138",
         "Later records of Mary Ellen Glasgow, born 14 February 1867",
         "Plattsburgh town or village clerk’s death register, 31 October 1891"
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "subject": "PRONI AG 57714 negative search and separate Ballymoney scope",
+      "conclusion": "Reported Glasgow-variant search negative; original enquiry prioritised Second Portglenone marriages 1834–1838, but exact searched records/years are not enumerated. AG 57828 AC concerns the separate Ballymoney register; no result supplied. No relationship change.",
+      "findings_section": "Source findings — PRONI search outcome, 15 October 2026",
+      "next_tests": [
+        "Confirm actual record references and year ranges checked under AG 57714, including stipend list coverage",
+        "Await separate AG 57828 family-register result",
+        "Retain D3209/1 rent-roll and D2972/1 map copies as unresolved"
       ]
     }
   ]

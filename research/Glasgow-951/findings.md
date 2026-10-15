@@ -1,6 +1,6 @@
 # Findings: Glasgow-951
 
-Last updated: 2026-10-07
+Last updated: 2026-10-15
 
 <!-- glasgow-951-source-audit-2026-10-06 -->
 ## Current conclusion — source audit, 6 October 2026
@@ -221,6 +221,10 @@ The original [30 July 1861 deed, B465](https://www.familysearch.org/ark:/61903/3
 
 ## Current conclusion
 
+Reviewed: 2026-10-15
+
+**PRONI search update, 15 October 2026:** AG 57714 returned no Glasgow or variant mention in the specified years. It belongs to the earlier enquiry whose priority was Second Portglenone marriages, 1834–1838; the completion notice does not confirm its exact record coverage. The separate Ballymoney family-register search, **AG 57828**, remains outstanding. This does not change the parentage assessment. See the dated PRONI source finding below.
+
 [Alexander Glasgow (Glasgow-951)](https://www.wikitree.com/wiki/Glasgow-951) is the
 project owner’s oldest confirmed direct paternal ancestor. The original 1851
 Lisnagaver house-35 return records Alexander and Mary, both 40, and children
@@ -299,6 +303,16 @@ The 1868 Robert death aged 71 implies birth c.1796–97. If matched to the tithe
 The earlier combined-father objection is withdrawn because it tested a hypothesis that was not proposed. Robert-2769 is proposed only as James J’s father, not the father of Alexander, Thomas or Daniel. Archibald’s missing boy, Robert’s age and South Carolina origin, and the later Tennessee household provide a coherent positive case for investigation. The first two links in Robert-1143 → James-1144 → Archibald-2304 → Robert-2769 → James J are record-supported; the last two remain working hypotheses. The precise Irish joining generation is still open.
 
 For parentage, the first discriminating record is now Nancy Glasgow's underlying Clinton County probate petition or heir schedule (relationship wording for each cited person), followed by PRONI CR5/32/1/1/1–2 family groups and any Rasharkin/Desertoghill record naming the children of John Glasgow, farmer. Reconstruct the local Robert (daughters Mary Jane and Ann) in parallel. Rosanna's maternity remains separate from older Alexander's paternity; neither is proved for Alexander-951. Earlier weighting is historical; the 21 September review supersedes the categorical exclusions of 17 September.
+
+## Source findings — PRONI search outcome, 15 October 2026
+
+On **15 October 2026**, PRONI reported no Glasgow or surname-variant mention in the years searched under **AG 57714**. The original 13 August enquiry prioritised the **Second Portglenone marriage register, MIC1P/357, 1834–1838**, and asked whether the **1829–1834 stipend list** could also be checked. The completion notice does not enumerate the records or years actually examined, so its precise coverage remains unconfirmed. This is a reported negative search, not proof that Alexander and Mary did not marry there or that any proposed parent is excluded.
+
+The **Ballymoney/Dervock/Kilraughts Reformed Presbyterian register, CR5/32/1/1/1–2, 1804–1844**, is a separate request: PRONI confirmed this on 25 September and acknowledged it under **AG 57828 AC** on 2 October. No result for that register has been supplied. The Lisnagaver **D3209/1** rent-roll and **D2972/1** map copy requests also remain unresolved; PRONI said the copy requests would follow the first search. Do not treat any of these as searched negatives on the strength of AG 57714.
+
+**Next check:** obtain the record references and year ranges covered by AG 57714, including whether the stipend list was examined; retain AG 57828 as an outstanding family-register search. Parentage and family-identity confidence are unchanged.
+
+Source: PRONI, search-result notification dated 15 October 2026, AG 57714, supplied by the researcher; original enquiry dated 13 August, follow-up dated 19 August, and PRONI scope replies dated 25 September and 2 October 2026 checked in the correspondence. This account paraphrases the archival outcome; private correspondence and payment details are not reproduced. Record references can be checked in the [PRONI eCatalogue](https://apps.proni.gov.uk/eCatNI_IE/SearchPage.aspx).
 
 ## Historical research log
 
@@ -1400,6 +1414,9 @@ The 11 September 2026 priority order is now:
    It uniquely spans Alexander's birth and Rosanna's reported death and may
    preserve whole family groups. The original is on-site only and the open copy
    has no remote viewer.
+   **Status, 15 October 2026:** PRONI confirmed that this is the separate
+   request AG 57828 AC (acknowledged 2 October); AG 57714’s negative result
+   does not cover it.
 2. **The privately held Killoquin archive sold in March 2014.** Mullocks lot 238
    contained three rent books naming tenants, holdings, rents and arrears for
    1772-74, another tenant rental beginning in 1835, and an 1865 petition with a
@@ -1425,7 +1442,7 @@ The 11 September 2026 priority order is now:
    catalogue uses the form `MIC1P/357`; its marriages cover 1822–1910 and
    baptisms begin only in 1821, too late for Alexander's own circa-1810 birth.
    The same enquiry requests a 1834–38 variant-name marriage search and asks
-   whether the 1829–34 stipend list can be checked for Alexander, Daniel or Thomas.
+   whether the 1829–34 stipend list can be checked for Alexander, Daniel or Thomas. **Status, 15 October 2026:** PRONI reported no Glasgow or variant under AG 57714; the completion notice does not enumerate the records or years actually searched. Confirm whether MIC1P/357 marriages and the stipend list were both covered. The separate Ballymoney register request is AG 57828, still awaiting a result.
 6. **Robert Glasgow's 1868 Ballymoney death certificate.** The free official
    detail page for group `957324`, quarter 1, volume 1, page 126 was checked and
    explicitly has no image. A purchased or archival certificate remains needed:
