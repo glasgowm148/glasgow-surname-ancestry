@@ -12,7 +12,8 @@ def overlay_model(retained: dict, fresh: dict) -> dict:
     incoming = {p['id']: p for p in fresh['people']}
     selected = {p['id'] for p in fresh['people'] if p.get('edge', {}).get('type') == 'hypothesis'}
     documentary = {p['id'] for p in fresh['people'] if p.get('documentary')}
-    refresh = selected | set(result['meta'].get('workingOverlayIds', [])) | documentary
+    reviewed = set(fresh['meta'].get('reviewedParentReplacementIds', []))
+    refresh = selected | set(result['meta'].get('workingOverlayIds', [])) | documentary | reviewed | set(result['meta'].get('reviewedParentReplacementIds', []))
     existing = {p['id']: p for p in result['people']}
     for ident in refresh:
         if ident not in incoming:
@@ -33,6 +34,7 @@ def overlay_model(retained: dict, fresh: dict) -> dict:
     result['meta'].update(people=len(people), groups=len(sections),
                           hypotheses=len(selected), documentaryPeople=len(documentary),
                           identityHypotheses=fresh['meta'].get('identityHypotheses', 0),
+                          reviewedParentReplacementIds=sorted(reviewed),
                           parentRelationships=sum(len(p.get('parents', [])) for p in people),
                           workingOverlayIds=sorted(selected),
                           workingUpdated=fresh['meta']['date'],

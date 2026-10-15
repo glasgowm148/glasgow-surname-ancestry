@@ -26087,6 +26087,47 @@
         "research/relationship_assessments.json",
         "research/ancestry-connections/inveresk-working-family-2026-10-16.md"
       ]
+    },
+    {
+      "id": "marion-family-role-reconciliation-2026-10-16",
+      "found_on": "2026-10-16",
+      "kind": "relationship",
+      "status": "confirmed",
+      "finding": "Marion Glasgow’s father and brother are now correctly separated in the local data and whole tree: Robert is her confidently inferred father; Ninian is her documented brother.",
+      "qualification": "Restores the conclusion approved on 28 September from existing records. An old combined sibling/possible-daughter row produced a second father and suppressed both links in connectivity. No new record, confidence upgrade, maternal attachment or WikiTree amendment.",
+      "relationship_change_count": 0,
+      "people": [
+        {
+          "id": "Glasgow-3062",
+          "name": "Marion Glasgow",
+          "url": "/people/glasgow-3062.html"
+        },
+        {
+          "id": "Glasgow-3188",
+          "name": "Ninian Glasgow",
+          "url": "/people/glasgow-3188.html"
+        },
+        {
+          "id": "Glasgow-1096",
+          "name": "Robert Glasgow",
+          "url": "/people/glasgow-1096.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Glasgow burgess roll, 23 October 1596, p.24",
+          "url": "https://archive.org/details/scottishrecordso43scotuoft/page/24/mode/2up"
+        },
+        {
+          "title": "NRS CC9/7/9, Ninian’s 1613 testament, images 142–145",
+          "url": "https://www.scotlandspeople.gov.uk/"
+        }
+      ],
+      "detail_url": "/branches/early-scottish-records/#marion-sibling-role",
+      "provenance": [
+        "research/relationship_assessments.json",
+        "surname-research/indexes/relationship-hypotheses.md"
+      ]
     }
   ]
 }

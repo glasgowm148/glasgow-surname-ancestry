@@ -533,6 +533,46 @@
         "Findmypast SCOT/OPR/BAP/4437421 (1639), OPR 689/1",
         "Saved WikiTree redirect Glasgow-2459 → Glasgow-1103"
       ]
+    },
+    {
+      "id": "marion-family-role-correction",
+      "year": 1596,
+      "title": "Marion’s supported father restored; Ninian remains her brother",
+      "status": "Existing approved conclusion reconciled; no new confidence upgrade",
+      "working_selection": false,
+      "people": [
+        {
+          "name": "Marion Glasgow",
+          "url": "/people/glasgow-3062.html"
+        },
+        {
+          "name": "Ninian Glasgow",
+          "url": "/people/glasgow-3188.html"
+        },
+        {
+          "name": "Robert Glasgow",
+          "url": "/people/glasgow-1096.html"
+        }
+      ],
+      "basis": "Ninian’s 1613 testament calls Marioun Glasgow his sister. The 1596 burgess roll names Ninian as Robert Glasgow’s second son. The combined statements, shared surname and compatible chronology support Robert as Marion’s confidently inferred father. This was already the approved conclusion on 28 September 2026; the current correction retires an erroneous Ninian-as-father rendering and restores the documented sibling role. No new record or certainty upgrade is claimed.",
+      "next_test": "Resolve maternity independently; preserve the distinction from Andrew’s Corsoun daughter and the separate Fultoun questions.",
+      "sources": [
+        {
+          "label": "1596 burgess roll, p.24",
+          "url": "https://archive.org/details/scottishrecordso43scotuoft/page/24/mode/2up"
+        },
+        {
+          "label": "1613 testament reading",
+          "url": "/research/transcriptions/ninian-1613/"
+        }
+      ],
+      "record_references": [
+        "NRS CC9/7/9, images 142–145",
+        "Glasgow burgess roll, 23 October 1596"
+      ],
+      "counted_as_new_connection": false,
+      "reviewed": "2026-10-16",
+      "metric_note": "One previously excluded existing father link is restored by role reconciliation. Confident metrics are recalculated; no biological certainty is newly upgraded."
     }
   ],
   "source_basis": "Initial priorities reconcile existing medieval bridge research, the pre-1550 relationship audit and the resolved public catalogue. They are current working comparisons, not newly discovered kinship records."

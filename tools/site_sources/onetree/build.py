@@ -166,6 +166,59 @@ def apply_working_hypotheses(people: list[dict], assessments: list[dict], parent
     return len(selected)
 
 
+def apply_reviewed_parent_replacements(people: list[dict], assessments: list[dict]) -> list[str]:
+    """Apply sourced role corrections, retaining the previous parent display."""
+    by_id = {p['id']: p for p in people}
+    approved = {a.get('assertion_id'): a for a in assessments if a.get('publication_status') == 'approved'}
+    proposals = []
+    for assessment in approved.values():
+        replacement = assessment.get('tree_parent_replacement')
+        if not replacement:
+            continue
+        child, father, previous = (replacement.get(k) for k in ('child', 'father', 'previous_parent'))
+        correction = approved.get(replacement.get('role_correction_assertion'), {})
+        if (child not in by_id or father not in by_id or previous == father
+                or assessment.get('status') not in {'proved', 'strongly_supported', 'confident'}
+                or not assessment.get('source_ids')
+                or assessment.get('perspectives', {}).get(child, {}).get('relationship') != 'father'
+                or correction.get('role_correction', {}).get(child, {}).get('to') != 'sibling'
+                or previous not in correction.get('people', []) or not correction.get('source_ids')):
+            raise ValueError('Parent replacement requires an approved father and sourced sibling-role correction')
+        old = [r for r in by_id[child]['parents'] if r.get('role') == 'father']
+        if any(r.get('id') not in {previous, father} for r in old):
+            raise ValueError('Parent replacement conflicts with another attached father: ' + child)
+        proposals.append((child, father, assessment, old))
+    edges = {p['id']: next((r['id'] for r in p['parents'] if r.get('role') == 'father'), None) for p in people}
+    edges.update({child: father for child, father, _, _ in proposals})
+    for child, _, _, _ in proposals:
+        seen, node = set(), child
+        while node:
+            if node in seen:
+                raise ValueError('Parent replacement introduces a paternal cycle: ' + child)
+            seen.add(node); node = edges.get(node)
+    changed = set()
+    for child, father, assessment, old in proposals:
+        person = by_id[child]
+        person['priorParentRoles'] = old
+        person['parents'] = [r for r in person['parents'] if r.get('role') != 'father'] + [dict(
+            id=father, name=by_id[father]['name'], role='father', status=assessment['status'], inModel=True,
+            source='approved_research_parent_replacement', assertion_id=assessment['assertion_id'],
+            reason=assessment['basis'], analysis_links=assessment.get('analysis_links', []))]
+        person['note'] = (person.get('note', '') + ' ' + assessment['tree_parent_replacement']['reason']).strip()
+        previous = assessment['tree_parent_replacement']['previous_parent']
+        if previous in by_id:
+            old_children = by_id[previous].get('childrenRecorded', [])
+            by_id[previous]['priorChildRoles'] = [r for r in old_children if r.get('id') == child]
+            by_id[previous]['childrenRecorded'] = [r for r in old_children if r.get('id') != child]
+            changed.add(previous)
+        current_children = [r for r in by_id[father].get('childrenRecorded', []) if r.get('id') != child]
+        current_children.append(dict(id=child, name=person['name'], role='child', inModel=True,
+            status=assessment['status'], reason=assessment['basis'], assertion_id=assessment['assertion_id']))
+        by_id[father]['childrenRecorded'] = current_children
+        changed.update([child, father])
+    return sorted(changed)
+
+
 def generate_model(catalogue_path: Path, prior: dict) -> dict:
     payload = json.loads(catalogue_path.read_text(encoding="utf-8"))
     rows = payload["people"]
@@ -241,6 +294,7 @@ def generate_model(catalogue_path: Path, prior: dict) -> dict:
         assessments = []
     aliases_path = ROOT / 'data/wikitree/live-profile-overrides.json'
     parent_aliases = json.loads(aliases_path.read_text()).get('redirects', {}) if aliases_path.exists() else {}
+    reviewed_parent_ids = apply_reviewed_parent_replacements(people, assessments)
     hypotheses = apply_working_hypotheses(people, assessments, parent_aliases)
 
     # One real parent drives the drawing. Both remain in the relationship list.
@@ -369,6 +423,7 @@ def generate_model(catalogue_path: Path, prior: dict) -> dict:
             "coverage": f"Generated from the public catalogue dated {payload.get('generated', '')}; {len(people)-len(documentary):,} public WikiTree profiles and {len(documentary)} named documentary ancestors are included.",
             "documentaryPeople": len(documentary),
             "identityHypotheses": sum((p.get('identity_selection') or {}).get('selected') is True for p in documentary),
+            "reviewedParentReplacementIds": reviewed_parent_ids,
             "method": "Current family fields come from the public catalogue, alongside named documentary ancestors with complete sourced accounts. Documentary record periods are not birth dates. Selected working hypotheses remain marked uncertain and counted separately. One parent drives the drawing; collection nodes do not assert common ancestry.",
             "sources": [{"title": "Glasgow research catalogue", "url": "https://glasgow.phenotype.dev/"}, {"title": "Public catalogue people data", "url": "https://glasgow.phenotype.dev/data/people.json"}, {"title": "Public Y-DNA explorer", "url": "https://glasgow.phenotype.dev/ydna/"}],
             "sourceExports": [path.name for path in exports], "catalogueGenerated": payload.get("generated", ""),

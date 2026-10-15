@@ -10,6 +10,29 @@ spec.loader.exec_module(module)
 
 
 class ResolvedDossierTests(unittest.TestCase):
+    def test_corrected_sibling_role_retires_parent_row_and_preserves_history(self):
+        original = {'id': 'Person-1', 'relationships': {
+            'parents': [{'id': 'Father-1', 'relationship': 'father', 'status': 'strongly_supported'},
+                        {'id': 'Person-2', 'relationship': 'father', 'status': 'proved', 'claim_id': 'wrong-role'}],
+            'siblings': [{'id': 'Person-2', 'relationship': 'sibling', 'status': 'unknown', 'claim_id': 'old-sibling'}]},
+            'claims': [{'id': 'wrong-role', 'status': 'proved'}, {'id': 'old-sibling', 'status': 'unknown'}]}
+        review = {'assertion_id': 'sibling-review', 'people': ['Person-1', 'Person-2'],
+                  'publication_status': 'approved', 'status': 'proved', 'source_ids': ['will'],
+                  'perspectives': {'Person-1': {'relationship': 'sibling', 'reason': 'The will says sister'}},
+                  'role_correction': {'Person-1': {'from': ['father'], 'to': 'sibling'}},
+                  'historical_assertions': [{'profile_id': 'Person-1', 'claim_id': 'wrong-role',
+                                             'label': 'Historical role error', 'scope': 'Parent role only'}]}
+        result = module.resolve(original, [], [review])
+        self.assertEqual(result['relationships']['parents'], original['relationships']['parents'][:1])
+        siblings = result['relationships']['siblings']
+        self.assertEqual(len(siblings), 1)
+        self.assertEqual((siblings[0]['id'], siblings[0]['relationship'], siblings[0]['status']),
+                         ('Person-2', 'sibling', 'proved'))
+        self.assertEqual(result['imported']['sections']['relationships'], original['relationships'])
+        self.assertEqual(len(result['relationship_history']), 2)
+        self.assertEqual(next(c for c in result['claims'] if c['id']=='wrong-role')['status'], 'superseded')
+        self.assertEqual(result, module.resolve(result, [], [review]))
+
     def test_documentary_father_has_no_invented_wikitree_url(self):
         original = {'id': 'Example-1', 'relationships': {}, 'claims': []}
         assessment = {'assertion_id': 'record-father', 'people': ['Example-1', 'record-john-1475'],

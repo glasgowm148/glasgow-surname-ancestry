@@ -21,6 +21,8 @@ are retained separately, not silently substituted for unread manuscript text.
 
 ## Current conclusion
 
+**Family roles reconciled, 16 October 2026:** [Marion](/people/glasgow-3062.html) is [Ninian’s](/people/glasgow-3188.html) sister and [Robert’s](/people/glasgow-1096.html) confidently inferred daughter. This restores the existing conclusion in the local data and tree; it is not a new relationship discovery or certainty upgrade.
+
 **Working daughters selected, 15 October 2026:** [Margaret, wife of William Hardie](/people/glasgow-3598.html), and [Barbara, wife of George Johnstoun](/people/glasgow-3302.html), are provisionally attached as uncertain daughters from the existing household/niece comparisons. These are local hypotheses, not new testament children. Barbara may be the already modelled Leith Barbara-3182; two profile entries do not establish two daughters.
 
 Father audit, 28 September 2026: [John Glasgow-1030](https://www.wikitree.com/wiki/Glasgow-1030), representing Ninian's documented brother, now has Robert Glasgow-1096 marked **confident** on WikiTree. The explicit 1596 father and 1613 brother statements, shared surname, chronology and 1619 family witness support the common-father inference, as for Marion. The 1618 Jonet Mathie husband identification remains probable. See [John's current assessment](../Glasgow-1030/findings.md); older conditional father wording is superseded.
@@ -215,3 +217,13 @@ Barbara-3182 is selected as a possible daughter, choosing the daughter branch of
 The local tree now selects Ninian as the uncertain father of Margaret Glasgow-3598 and Barbara Glasgow-3302. Their Edinburgh cordiner husbands, Robert’s probable Glasgow cordiner identity, the possible William route to Leith and compatible generations favour the existing close-family comparison. Daughter is selected provisionally; niece or another family remain alternatives. No record proves these women sisters, no mother is assigned, and the cordiners are not shown to share an incorporation. Barbara’s possible Wilson/Little identities remain unresolved, including the competing William-3522 father if she is Barbara-567.
 
 See each daughter’s findings and the [complete comparison](/branches/early-scottish-records/#edinburgh-working-daughters); the original marriage entries and the 1613 testament are unchanged evidence. No new source inspection, certainty upgrade or live attachment.
+
+## Marion and Ninian: family-role correction — 16 October 2026
+
+Ninian’s 1613 testament calls Marioun Glasgow his sister. The 1596 burgess roll names Ninian as Robert Glasgow’s second son. The combined statements, shared surname and compatible chronology support Robert as Marion’s confidently inferred father. This was already the approved conclusion on 28 September 2026; the current correction retires an erroneous Ninian-as-father rendering and restores the documented sibling role. No new record or certainty upgrade is claimed.
+
+Robert’s fatherhood is an inference from the combined records, not an express father–daughter clause. Marion’s mother remains unidentified; the existing uncertain Jonet Meik attachment is retained without upgrading it. Her before-1592 birth is a boundary, not a recorded birthday. The separate Andrew-of-Corsoun daughter and Fultoun household questions remain as previously assessed.
+
+The earlier mixed table row and its original claim are retained as history. Current parents, siblings and reciprocal family views now use separate assertions. Existing WikiTree biographies already contain the conclusion; this correction creates no additional WikiTree amendment.
+
+Sources: [Anderson, Glasgow burgess roll, p.24](https://archive.org/details/scottishrecordso43scotuoft/page/24/mode/2up), 23 October 1596; NRS CC9/7/9, images 142–145, testament made 10 January and confirmed 8 May 1613, `Marioun glasgw his sist[er]`, existing supplied working transcription. [Original archive portal](https://www.scotlandspeople.gov.uk/); [full local reading](/research/transcriptions/ninian-1613/). No new original inspection. [Current reconstruction and measured effect](/branches/early-scottish-records/#marion-sibling-role).

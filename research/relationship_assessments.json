@@ -878,7 +878,21 @@
     "provenance": {
       "source": "research/relationship_assessments.json",
       "basis": "reassessment of existing inspected records; no new primary record claimed; unsupported half-sibling possibility is not treated as contrary evidence"
-    }
+    },
+    "tree_parent_replacement": {
+      "child": "Glasgow-3062",
+      "father": "Glasgow-1096",
+      "previous_parent": "Glasgow-3188",
+      "role_correction_assertion": "C-role-20261016-marion-ninian-siblings",
+      "reviewed": "2026-10-16",
+      "reason": "Marion is Ninian’s documented sister, not his daughter. Robert’s already approved common-father inference replaces the erroneous parent role; maternity remains uncertain."
+    },
+    "analysis_links": [
+      {
+        "label": "Marion’s family roles and existing father evidence",
+        "href": "/branches/early-scottish-records/#marion-sibling-role"
+      }
+    ]
   },
   {
     "assertion_id": "C-father-audit-20260928-adamson-5462-adamson-3318",
@@ -4021,6 +4035,80 @@
       "original_id": "Glasgow-2459",
       "canonical_id": "Glasgow-1103",
       "basis": "Each child’s saved biography links father Glasgow-2459; the saved public WikiTree redirect maps that ID to Glasgow-1103. The old export substituted an unnamed outside-export father for the omitted merged ID."
+    }
+  },
+  {
+    "assertion_id": "C-role-20261016-marion-ninian-siblings",
+    "people": [
+      "Glasgow-3062",
+      "Glasgow-3188"
+    ],
+    "profile_names": {
+      "Glasgow-3062": "Marion Glasgow",
+      "Glasgow-3188": "Ninian Glasgow"
+    },
+    "status": "proved",
+    "basis": "Ninian’s testament expressly names Marioun Glasgw as his sister. The earlier combined sister/possible-daughter table row was incorrectly mapped to a father relationship; only that parental interpretation is retired.",
+    "source_ids": [
+      "nrs-cc9-7-9-ninian-1613"
+    ],
+    "assessment_date": "2026-10-16",
+    "publication_status": "approved",
+    "allow_new_relationship": true,
+    "claim": "Marion Glasgow and Ninian Glasgow were siblings",
+    "perspectives": {
+      "Glasgow-3062": {
+        "relationship": "sibling",
+        "reason": "Ninian’s 1613 testament expressly calls Marion his sister."
+      },
+      "Glasgow-3188": {
+        "relationship": "sibling",
+        "reason": "Marion is directly named as Ninian’s sister in his 1613 testament."
+      }
+    },
+    "role_correction": {
+      "Glasgow-3062": {
+        "from": [
+          "father"
+        ],
+        "to": "sibling"
+      },
+      "Glasgow-3188": {
+        "from": [
+          "daughter",
+          "child"
+        ],
+        "to": "sibling"
+      }
+    },
+    "historical_assertions": [
+      {
+        "profile_id": "Glasgow-3062",
+        "claim_id": "C-45ddfd70fee6",
+        "label": "Historical role error: sibling evidence mapped to parent",
+        "scope": "Only the father/daughter interpretation is superseded; the proved sibling finding is retained.",
+        "original_status": "proved",
+        "original_claim": "Marion Glasgow was sister of; possible daughter of Ninian Glasgow"
+      },
+      {
+        "profile_id": "Glasgow-3188",
+        "claim_id": "C-45ddfd70fee6",
+        "label": "Historical role error: sibling evidence mapped to parent",
+        "scope": "Only the father/daughter interpretation is superseded; the proved sibling finding is retained.",
+        "original_status": "proved",
+        "original_claim": "Marion Glasgow was sister of; possible daughter of Ninian Glasgow"
+      }
+    ],
+    "analysis_links": [
+      {
+        "label": "Corrected roles and measurement effect",
+        "href": "/branches/early-scottish-records/#marion-sibling-role"
+      }
+    ],
+    "provenance": {
+      "source": "surname-research/indexes/relationship-hypotheses.md",
+      "prior_assessment": "Sibling explicitly proved in the earlier table and 28 September findings; the imported structured row incorrectly combined sibling and parental roles.",
+      "resolution_note": "Catalogue/model role repair, not newly discovered siblinghood or fatherhood and not a new confidence upgrade."
     }
   }
 ]

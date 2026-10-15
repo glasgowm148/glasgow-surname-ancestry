@@ -195,6 +195,9 @@ def resolve(dossier, assessments, shared_assessments=()):
                 resolved = shared_relationship(dossier['id'], row, [assessment])
                 if not resolved:
                     continue
+                correction = (assessment.get('role_correction') or {}).get(dossier['id'])
+                if correction and row.get('relationship') not in [correction.get('to'), *correction.get('from', [])]:
+                    continue
                 historical = deepcopy(row)
                 historical.update(lifecycle='historical', superseded_by=aid)
                 if historical.get('claim_id') in previous_ids:
@@ -212,7 +215,7 @@ def resolve(dossier, assessments, shared_assessments=()):
                 clean = {k: deepcopy(row[k]) for k in ('id', 'name', 'url', 'json_url', 'network_url', 'wikitree_url') if k in row}
                 resolved['historical_claim_ids'] = list(previous_ids)
                 rows[index] = {**clean, **resolved}
-                current = resolved
+                current = rows[index]
                 found = True
         if not found:
             # Explicit reviewed record kinship can be absent from WikiTree's
@@ -240,6 +243,19 @@ def resolve(dossier, assessments, shared_assessments=()):
                     raise ValueError(f'Shared assertion {aid} has an invalid documentary account URL')
                 current.update(url=relative_urls['url'], wikitree_url=None)
             result.setdefault('relationships', {}).setdefault(group, []).append(current)
+        correction = (assessment.get('role_correction') or {}).get(dossier['id'])
+        if correction:
+            groups = {'father': 'parents', 'mother': 'parents', 'son': 'children',
+                      'daughter': 'children', 'child': 'children', 'sibling': 'siblings', 'spouse': 'spouses'}
+            role = current.get('relationship')
+            if correction.get('to') != role or role not in groups or not assessment.get('source_ids'):
+                raise ValueError(f'Role correction {aid} needs a supported destination role')
+            # One reviewed pair may replace both a mistaken parent row and an
+            # ungraded sibling row. Preserve both in history, publish one row
+            # in the group matching the explicitly corrected relationship.
+            for rows in result['relationships'].values():
+                rows[:] = [row for row in rows if row.get('claim_id') != aid]
+            result['relationships'].setdefault(groups[role], []).append(current)
         # Status, role, interpretation and citations come from the same reviewed
         # pair and its explicit viewing-person perspective, not a UI override.
         claim = {k: deepcopy(current[k]) for k in (

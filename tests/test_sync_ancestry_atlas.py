@@ -6,6 +6,19 @@ from tools.sync_ancestry_atlas import overlay_model
 
 
 class AtlasWorkingTests(unittest.TestCase):
+    def test_confident_role_correction_reaches_primary_view_and_can_be_withdrawn(self):
+        old = {'meta': {}, 'dna': [], 'landmarks': [], 'sections': [],
+               'people': [{'id':'Child-1','kind':'person','parents':[], 'edge':{'parent':'Sibling-1'}},
+                          {'id':'Sibling-1','kind':'person'}, {'id':'Father-1','kind':'person'}]}
+        fresh=deepcopy(old);fresh['meta'].update(date='2026-10-16',reviewedParentReplacementIds=['Child-1'])
+        fresh['people'][0].update(parents=[{'id':'Father-1','status':'strongly_supported'}],
+                                   edge={'parent':'Father-1','type':'recorded'})
+        result=overlay_model(old,fresh)
+        self.assertEqual(result['people'][0]['edge']['parent'],'Father-1')
+        self.assertEqual(result['meta']['reviewedParentReplacementIds'],['Child-1'])
+        fresh['meta']['reviewedParentReplacementIds']=[];fresh['people'][0]=deepcopy(old['people'][0])
+        self.assertEqual(overlay_model(result,fresh)['people'][0],old['people'][0])
+
     def test_overlay_preserves_approved_features_and_updates_subjects(self):
         old = {'meta': {}, 'dna': [{'id': 'Child-1', 'approved': True}],
                'landmarks': ['Child-1'], 'sections': [{'id': 'Child-1'}],
